@@ -25,8 +25,8 @@ namespace System::Security::Cryptography {
   class AsnEncodedData;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Security::Cryptography::AsnEncodedData);
-DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::AsnEncodedData*, "System.Security.Cryptography", "AsnEncodedData");
+NEED_NO_BOX(::System::Security::Cryptography::AsnEncodedData);
+DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::AsnEncodedData*, "System.Security.Cryptography", "AsnEncodedData");
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {
   // Size: 0x20
@@ -47,9 +47,9 @@ namespace System::Security::Cryptography {
     // System.Security.Cryptography.Oid _oid
     // Size: 0x8
     // Offset: 0x10
-    System::Security::Cryptography::Oid* oid;
+    ::System::Security::Cryptography::Oid* oid;
     // Field size check
-    static_assert(sizeof(System::Security::Cryptography::Oid*) == 0x8);
+    static_assert(sizeof(::System::Security::Cryptography::Oid*) == 0x8);
     // System.Byte[] _raw
     // Size: 0x8
     // Offset: 0x18
@@ -58,15 +58,15 @@ namespace System::Security::Cryptography {
     static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     public:
     // Get instance field reference: System.Security.Cryptography.Oid _oid
-    System::Security::Cryptography::Oid*& dyn__oid();
+    ::System::Security::Cryptography::Oid*& dyn__oid();
     // Get instance field reference: System.Byte[] _raw
     ::ArrayW<uint8_t>& dyn__raw();
     // public System.Security.Cryptography.Oid get_Oid()
     // Offset: 0x1BE657C
-    System::Security::Cryptography::Oid* get_Oid();
+    ::System::Security::Cryptography::Oid* get_Oid();
     // public System.Void set_Oid(System.Security.Cryptography.Oid value)
     // Offset: 0x1BE6504
-    void set_Oid(System::Security::Cryptography::Oid* value);
+    void set_Oid(::System::Security::Cryptography::Oid* value);
     // public System.Byte[] get_RawData()
     // Offset: 0x1BE6634
     ::ArrayW<uint8_t> get_RawData();
@@ -77,19 +77,19 @@ namespace System::Security::Cryptography {
     // Offset: 0x1BE6300
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsnEncodedData* New_ctor(::StringW oid, ::ArrayW<uint8_t> rawData) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::AsnEncodedData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::AsnEncodedData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsnEncodedData*, creationType>(oid, rawData)));
     }
     // public System.Void .ctor(System.Security.Cryptography.Oid oid, System.Byte[] rawData)
     // Offset: 0x1BE64BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AsnEncodedData* New_ctor(System::Security::Cryptography::Oid* oid, ::ArrayW<uint8_t> rawData) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::AsnEncodedData::.ctor");
+    static AsnEncodedData* New_ctor(::System::Security::Cryptography::Oid* oid, ::ArrayW<uint8_t> rawData) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::AsnEncodedData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsnEncodedData*, creationType>(oid, rawData)));
     }
     // public System.Void CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
     // Offset: 0x1BE663C
-    void CopyFrom(System::Security::Cryptography::AsnEncodedData* asnEncodedData);
+    void CopyFrom(::System::Security::Cryptography::AsnEncodedData* asnEncodedData);
     // public System.String Format(System.Boolean multiLine)
     // Offset: 0x1BE672C
     ::StringW Format(bool multiLine);
@@ -123,7 +123,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsnEncodedData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::AsnEncodedData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::AsnEncodedData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsnEncodedData*, creationType>()));
     }
   }; // System.Security.Cryptography.AsnEncodedData
@@ -135,7 +135,7 @@ namespace System::Security::Cryptography {
 // Writing MetadataGetter for method: System::Security::Cryptography::AsnEncodedData::get_Oid
 // Il2CppName: get_Oid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::Oid* (System::Security::Cryptography::AsnEncodedData::*)()>(&System::Security::Cryptography::AsnEncodedData::get_Oid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::Oid* (System::Security::Cryptography::AsnEncodedData::*)()>(&System::Security::Cryptography::AsnEncodedData::get_Oid)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::AsnEncodedData*), "get_Oid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -143,7 +143,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Writing MetadataGetter for method: System::Security::Cryptography::AsnEncodedData::set_Oid
 // Il2CppName: set_Oid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::AsnEncodedData::*)(System::Security::Cryptography::Oid*)>(&System::Security::Cryptography::AsnEncodedData::set_Oid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::AsnEncodedData::*)(::System::Security::Cryptography::Oid*)>(&System::Security::Cryptography::AsnEncodedData::set_Oid)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography", "Oid")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::AsnEncodedData*), "set_Oid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -177,7 +177,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::AsnEncodedData::CopyFrom
 // Il2CppName: CopyFrom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::AsnEncodedData::*)(System::Security::Cryptography::AsnEncodedData*)>(&System::Security::Cryptography::AsnEncodedData::CopyFrom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::AsnEncodedData::*)(::System::Security::Cryptography::AsnEncodedData*)>(&System::Security::Cryptography::AsnEncodedData::CopyFrom)> {
   static const MethodInfo* get() {
     static auto* asnEncodedData = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography", "AsnEncodedData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::AsnEncodedData*), "CopyFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asnEncodedData});

@@ -31,8 +31,8 @@ namespace HoudiniEngineUnity {
   class HEU_RecookPreset;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_RecookPreset);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_RecookPreset*, "HoudiniEngineUnity", "HEU_RecookPreset");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_RecookPreset);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_RecookPreset*, "HoudiniEngineUnity", "HEU_RecookPreset");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x20
@@ -53,32 +53,32 @@ namespace HoudiniEngineUnity {
     // public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_VolumeCachePreset> _volumeCachePresets
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeCachePreset*>* volumeCachePresets;
+    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset*>* volumeCachePresets;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeCachePreset*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset*>*) == 0x8);
     // public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputPreset> _inputPresets
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputPreset*>* inputPresets;
+    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputPreset*>* inputPresets;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputPreset*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputPreset*>*) == 0x8);
     public:
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_VolumeCachePreset> _volumeCachePresets
-    System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeCachePreset*>*& dyn__volumeCachePresets();
+    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset*>*& dyn__volumeCachePresets();
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputPreset> _inputPresets
-    System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputPreset*>*& dyn__inputPresets();
+    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputPreset*>*& dyn__inputPresets();
     // public System.Void .ctor()
     // Offset: 0x1A5C34C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_RecookPreset* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_RecookPreset::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_RecookPreset::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_RecookPreset*, creationType>()));
     }
   }; // HoudiniEngineUnity.HEU_RecookPreset
   #pragma pack(pop)
-  static check_size<sizeof(HEU_RecookPreset), 24 + sizeof(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputPreset*>*)> __HoudiniEngineUnity_HEU_RecookPresetSizeCheck;
+  static check_size<sizeof(HEU_RecookPreset), 24 + sizeof(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputPreset*>*)> __HoudiniEngineUnity_HEU_RecookPresetSizeCheck;
   static_assert(sizeof(HEU_RecookPreset) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -25,8 +25,8 @@ namespace System::Xml::Serialization {
   class SerializationSource;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Serialization::SerializationSource);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Serialization::SerializationSource*, "System.Xml.Serialization", "SerializationSource");
+NEED_NO_BOX(::System::Xml::Serialization::SerializationSource);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::SerializationSource*, "System.Xml.Serialization", "SerializationSource");
 // Type namespace: System.Xml.Serialization
 namespace System::Xml::Serialization {
   // Size: 0x21
@@ -47,9 +47,9 @@ namespace System::Xml::Serialization {
     // private System.Type[] includedTypes
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<System::Type*> includedTypes;
+    ::ArrayW<::System::Type*> includedTypes;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::Type*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::System::Type*>) == 0x8);
     // private System.String namspace
     // Size: 0x8
     // Offset: 0x18
@@ -64,7 +64,7 @@ namespace System::Xml::Serialization {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.Type[] includedTypes
-    ::ArrayW<System::Type*>& dyn_includedTypes();
+    ::ArrayW<::System::Type*>& dyn_includedTypes();
     // Get instance field reference: private System.String namspace
     ::StringW& dyn_namspace();
     // Get instance field reference: private System.Boolean canBeGenerated
@@ -72,13 +72,13 @@ namespace System::Xml::Serialization {
     // public System.Void .ctor(System.String namspace, System.Type[] includedTypes)
     // Offset: 0x194AA28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SerializationSource* New_ctor(::StringW namspace, ::ArrayW<System::Type*> includedTypes) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Serialization::SerializationSource::.ctor");
+    static SerializationSource* New_ctor(::StringW namspace, ::ArrayW<::System::Type*> includedTypes) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Serialization::SerializationSource::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SerializationSource*, creationType>(namspace, includedTypes)));
     }
     // protected System.Boolean BaseEquals(System.Xml.Serialization.SerializationSource other)
     // Offset: 0x194AA68
-    bool BaseEquals(System::Xml::Serialization::SerializationSource* other);
+    bool BaseEquals(::System::Xml::Serialization::SerializationSource* other);
   }; // System.Xml.Serialization.SerializationSource
   #pragma pack(pop)
   static check_size<sizeof(SerializationSource), 32 + sizeof(bool)> __System_Xml_Serialization_SerializationSourceSizeCheck;
@@ -92,7 +92,7 @@ namespace System::Xml::Serialization {
 // Writing MetadataGetter for method: System::Xml::Serialization::SerializationSource::BaseEquals
 // Il2CppName: BaseEquals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::Serialization::SerializationSource::*)(System::Xml::Serialization::SerializationSource*)>(&System::Xml::Serialization::SerializationSource::BaseEquals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::Serialization::SerializationSource::*)(::System::Xml::Serialization::SerializationSource*)>(&System::Xml::Serialization::SerializationSource::BaseEquals)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("System.Xml.Serialization", "SerializationSource")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::SerializationSource*), "BaseEquals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});

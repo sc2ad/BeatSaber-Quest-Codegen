@@ -12,8 +12,8 @@ namespace Oculus::Platform {
   class Colocation;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Colocation);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Colocation*, "Oculus.Platform", "Colocation");
+NEED_NO_BOX(::Oculus::Platform::Colocation);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Colocation*, "Oculus.Platform", "Colocation");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x10

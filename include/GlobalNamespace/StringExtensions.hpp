@@ -13,8 +13,8 @@ namespace GlobalNamespace {
   class StringExtensions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::StringExtensions);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StringExtensions*, "", "StringExtensions");
+NEED_NO_BOX(::GlobalNamespace::StringExtensions);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StringExtensions*, "", "StringExtensions");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10

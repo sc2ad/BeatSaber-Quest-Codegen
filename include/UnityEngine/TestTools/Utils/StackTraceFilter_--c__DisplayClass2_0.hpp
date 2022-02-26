@@ -14,8 +14,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::TestTools::Utils::StackTraceFilter::$$c__DisplayClass2_0);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Utils::StackTraceFilter::$$c__DisplayClass2_0*, "UnityEngine.TestTools.Utils", "StackTraceFilter/<>c__DisplayClass2_0");
+NEED_NO_BOX(::UnityEngine::TestTools::Utils::StackTraceFilter::$$c__DisplayClass2_0);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TestTools::Utils::StackTraceFilter::$$c__DisplayClass2_0*, "UnityEngine.TestTools.Utils", "StackTraceFilter/<>c__DisplayClass2_0");
 // Type namespace: UnityEngine.TestTools.Utils
 namespace UnityEngine::TestTools::Utils {
   // Size: 0x18
@@ -56,7 +56,7 @@ namespace UnityEngine::TestTools::Utils {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StackTraceFilter::$$c__DisplayClass2_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::Utils::StackTraceFilter::$$c__DisplayClass2_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::Utils::StackTraceFilter::$$c__DisplayClass2_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StackTraceFilter::$$c__DisplayClass2_0*, creationType>()));
     }
   }; // UnityEngine.TestTools.Utils.StackTraceFilter/UnityEngine.TestTools.Utils.<>c__DisplayClass2_0

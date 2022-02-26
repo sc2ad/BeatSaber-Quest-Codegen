@@ -12,8 +12,8 @@ namespace GlobalNamespace {
   class IAvatarPart;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::IAvatarPart);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IAvatarPart*, "", "IAvatarPart");
+NEED_NO_BOX(::GlobalNamespace::IAvatarPart);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IAvatarPart*, "", "IAvatarPart");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10

@@ -39,8 +39,8 @@ namespace System::Xml {
   class IDtdParserAdapter;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::IDtdParserAdapter);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::IDtdParserAdapter*, "System.Xml", "IDtdParserAdapter");
+NEED_NO_BOX(::System::Xml::IDtdParserAdapter);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::IDtdParserAdapter*, "System.Xml", "IDtdParserAdapter");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x10
@@ -51,13 +51,13 @@ namespace System::Xml {
     public:
     // public System.Xml.XmlNameTable get_NameTable()
     // Offset: 0xFFFFFFFF
-    System::Xml::XmlNameTable* get_NameTable();
+    ::System::Xml::XmlNameTable* get_NameTable();
     // public System.Xml.IXmlNamespaceResolver get_NamespaceResolver()
     // Offset: 0xFFFFFFFF
-    System::Xml::IXmlNamespaceResolver* get_NamespaceResolver();
+    ::System::Xml::IXmlNamespaceResolver* get_NamespaceResolver();
     // public System.Uri get_BaseUri()
     // Offset: 0xFFFFFFFF
-    System::Uri* get_BaseUri();
+    ::System::Uri* get_BaseUri();
     // public System.Char[] get_ParsingBuffer()
     // Offset: 0xFFFFFFFF
     ::ArrayW<::Il2CppChar> get_ParsingBuffer();
@@ -93,22 +93,22 @@ namespace System::Xml {
     void OnNewLine(int pos);
     // public System.Int32 ParseNumericCharRef(System.Text.StringBuilder internalSubsetBuilder)
     // Offset: 0xFFFFFFFF
-    int ParseNumericCharRef(System::Text::StringBuilder* internalSubsetBuilder);
+    int ParseNumericCharRef(::System::Text::StringBuilder* internalSubsetBuilder);
     // public System.Int32 ParseNamedCharRef(System.Boolean expand, System.Text.StringBuilder internalSubsetBuilder)
     // Offset: 0xFFFFFFFF
-    int ParseNamedCharRef(bool expand, System::Text::StringBuilder* internalSubsetBuilder);
+    int ParseNamedCharRef(bool expand, ::System::Text::StringBuilder* internalSubsetBuilder);
     // public System.Void ParsePI(System.Text.StringBuilder sb)
     // Offset: 0xFFFFFFFF
-    void ParsePI(System::Text::StringBuilder* sb);
+    void ParsePI(::System::Text::StringBuilder* sb);
     // public System.Void ParseComment(System.Text.StringBuilder sb)
     // Offset: 0xFFFFFFFF
-    void ParseComment(System::Text::StringBuilder* sb);
+    void ParseComment(::System::Text::StringBuilder* sb);
     // public System.Boolean PushEntity(System.Xml.IDtdEntityInfo entity, out System.Int32 entityId)
     // Offset: 0xFFFFFFFF
-    bool PushEntity(System::Xml::IDtdEntityInfo* entity, ByRef<int> entityId);
+    bool PushEntity(::System::Xml::IDtdEntityInfo* entity, ByRef<int> entityId);
     // public System.Boolean PopEntity(out System.Xml.IDtdEntityInfo oldEntity, out System.Int32 newEntityId)
     // Offset: 0xFFFFFFFF
-    bool PopEntity(ByRef<System::Xml::IDtdEntityInfo*> oldEntity, ByRef<int> newEntityId);
+    bool PopEntity(ByRef<::System::Xml::IDtdEntityInfo*> oldEntity, ByRef<int> newEntityId);
     // public System.Boolean PushExternalSubset(System.String systemId, System.String publicId)
     // Offset: 0xFFFFFFFF
     bool PushExternalSubset(::StringW systemId, ::StringW publicId);
@@ -117,13 +117,13 @@ namespace System::Xml {
     void PushInternalDtd(::StringW baseUri, ::StringW internalDtd);
     // public System.Void OnSystemId(System.String systemId, System.Xml.LineInfo keywordLineInfo, System.Xml.LineInfo systemLiteralLineInfo)
     // Offset: 0xFFFFFFFF
-    void OnSystemId(::StringW systemId, System::Xml::LineInfo keywordLineInfo, System::Xml::LineInfo systemLiteralLineInfo);
+    void OnSystemId(::StringW systemId, ::System::Xml::LineInfo keywordLineInfo, ::System::Xml::LineInfo systemLiteralLineInfo);
     // public System.Void OnPublicId(System.String publicId, System.Xml.LineInfo keywordLineInfo, System.Xml.LineInfo publicLiteralLineInfo)
     // Offset: 0xFFFFFFFF
-    void OnPublicId(::StringW publicId, System::Xml::LineInfo keywordLineInfo, System::Xml::LineInfo publicLiteralLineInfo);
+    void OnPublicId(::StringW publicId, ::System::Xml::LineInfo keywordLineInfo, ::System::Xml::LineInfo publicLiteralLineInfo);
     // public System.Void Throw(System.Exception e)
     // Offset: 0xFFFFFFFF
-    void Throw(System::Exception* e);
+    void Throw(::System::Exception* e);
   }; // System.Xml.IDtdParserAdapter
   #pragma pack(pop)
 }
@@ -131,7 +131,7 @@ namespace System::Xml {
 // Writing MetadataGetter for method: System::Xml::IDtdParserAdapter::get_NameTable
 // Il2CppName: get_NameTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlNameTable* (System::Xml::IDtdParserAdapter::*)()>(&System::Xml::IDtdParserAdapter::get_NameTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNameTable* (System::Xml::IDtdParserAdapter::*)()>(&System::Xml::IDtdParserAdapter::get_NameTable)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::IDtdParserAdapter*), "get_NameTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -139,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::IDtdParserAdapter::get_NamespaceResolver
 // Il2CppName: get_NamespaceResolver
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::IXmlNamespaceResolver* (System::Xml::IDtdParserAdapter::*)()>(&System::Xml::IDtdParserAdapter::get_NamespaceResolver)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::IXmlNamespaceResolver* (System::Xml::IDtdParserAdapter::*)()>(&System::Xml::IDtdParserAdapter::get_NamespaceResolver)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::IDtdParserAdapter*), "get_NamespaceResolver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -147,7 +147,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::IDtdParserAdapter::get_BaseUri
 // Il2CppName: get_BaseUri
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (System::Xml::IDtdParserAdapter::*)()>(&System::Xml::IDtdParserAdapter::get_BaseUri)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Uri* (System::Xml::IDtdParserAdapter::*)()>(&System::Xml::IDtdParserAdapter::get_BaseUri)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::IDtdParserAdapter*), "get_BaseUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -245,7 +245,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::IDtdParserAdapter::ParseNumericCharRef
 // Il2CppName: ParseNumericCharRef
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Xml::IDtdParserAdapter::*)(System::Text::StringBuilder*)>(&System::Xml::IDtdParserAdapter::ParseNumericCharRef)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Xml::IDtdParserAdapter::*)(::System::Text::StringBuilder*)>(&System::Xml::IDtdParserAdapter::ParseNumericCharRef)> {
   static const MethodInfo* get() {
     static auto* internalSubsetBuilder = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::IDtdParserAdapter*), "ParseNumericCharRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{internalSubsetBuilder});
@@ -254,7 +254,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Xml::IDtdParserAdapter::ParseNamedCharRef
 // Il2CppName: ParseNamedCharRef
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Xml::IDtdParserAdapter::*)(bool, System::Text::StringBuilder*)>(&System::Xml::IDtdParserAdapter::ParseNamedCharRef)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Xml::IDtdParserAdapter::*)(bool, ::System::Text::StringBuilder*)>(&System::Xml::IDtdParserAdapter::ParseNamedCharRef)> {
   static const MethodInfo* get() {
     static auto* expand = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* internalSubsetBuilder = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
@@ -264,7 +264,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Xml::IDtdParserAdapter::ParsePI
 // Il2CppName: ParsePI
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::IDtdParserAdapter::*)(System::Text::StringBuilder*)>(&System::Xml::IDtdParserAdapter::ParsePI)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::IDtdParserAdapter::*)(::System::Text::StringBuilder*)>(&System::Xml::IDtdParserAdapter::ParsePI)> {
   static const MethodInfo* get() {
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::IDtdParserAdapter*), "ParsePI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sb});
@@ -273,7 +273,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::IDtdParserAdapter::ParseComment
 // Il2CppName: ParseComment
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::IDtdParserAdapter::*)(System::Text::StringBuilder*)>(&System::Xml::IDtdParserAdapter::ParseComment)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::IDtdParserAdapter::*)(::System::Text::StringBuilder*)>(&System::Xml::IDtdParserAdapter::ParseComment)> {
   static const MethodInfo* get() {
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::IDtdParserAdapter*), "ParseComment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sb});
@@ -282,7 +282,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::IDtdParserAdapter::PushEntity
 // Il2CppName: PushEntity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::IDtdParserAdapter::*)(System::Xml::IDtdEntityInfo*, ByRef<int>)>(&System::Xml::IDtdParserAdapter::PushEntity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::IDtdParserAdapter::*)(::System::Xml::IDtdEntityInfo*, ByRef<int>)>(&System::Xml::IDtdParserAdapter::PushEntity)> {
   static const MethodInfo* get() {
     static auto* entity = &::il2cpp_utils::GetClassFromName("System.Xml", "IDtdEntityInfo")->byval_arg;
     static auto* entityId = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -292,7 +292,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Xml::IDtdParserAdapter::PopEntity
 // Il2CppName: PopEntity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::IDtdParserAdapter::*)(ByRef<System::Xml::IDtdEntityInfo*>, ByRef<int>)>(&System::Xml::IDtdParserAdapter::PopEntity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::IDtdParserAdapter::*)(ByRef<::System::Xml::IDtdEntityInfo*>, ByRef<int>)>(&System::Xml::IDtdParserAdapter::PopEntity)> {
   static const MethodInfo* get() {
     static auto* oldEntity = &::il2cpp_utils::GetClassFromName("System.Xml", "IDtdEntityInfo")->this_arg;
     static auto* newEntityId = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -322,7 +322,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::IDtdParserAdapter::OnSystemId
 // Il2CppName: OnSystemId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::IDtdParserAdapter::*)(::StringW, System::Xml::LineInfo, System::Xml::LineInfo)>(&System::Xml::IDtdParserAdapter::OnSystemId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::IDtdParserAdapter::*)(::StringW, ::System::Xml::LineInfo, ::System::Xml::LineInfo)>(&System::Xml::IDtdParserAdapter::OnSystemId)> {
   static const MethodInfo* get() {
     static auto* systemId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* keywordLineInfo = &::il2cpp_utils::GetClassFromName("System.Xml", "LineInfo")->byval_arg;
@@ -333,7 +333,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::IDtdParserAdapter::OnPublicId
 // Il2CppName: OnPublicId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::IDtdParserAdapter::*)(::StringW, System::Xml::LineInfo, System::Xml::LineInfo)>(&System::Xml::IDtdParserAdapter::OnPublicId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::IDtdParserAdapter::*)(::StringW, ::System::Xml::LineInfo, ::System::Xml::LineInfo)>(&System::Xml::IDtdParserAdapter::OnPublicId)> {
   static const MethodInfo* get() {
     static auto* publicId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* keywordLineInfo = &::il2cpp_utils::GetClassFromName("System.Xml", "LineInfo")->byval_arg;
@@ -344,7 +344,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::IDtdParserAdapter::Throw
 // Il2CppName: Throw
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::IDtdParserAdapter::*)(System::Exception*)>(&System::Xml::IDtdParserAdapter::Throw)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::IDtdParserAdapter::*)(::System::Exception*)>(&System::Xml::IDtdParserAdapter::Throw)> {
   static const MethodInfo* get() {
     static auto* e = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::IDtdParserAdapter*), "Throw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{e});

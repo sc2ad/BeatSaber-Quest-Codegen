@@ -21,8 +21,8 @@ namespace UnityEngine {
   class GUIClip;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::GUIClip);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUIClip*, "UnityEngine", "GUIClip");
+NEED_NO_BOX(::UnityEngine::GUIClip);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::GUIClip*, "UnityEngine", "GUIClip");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -36,25 +36,25 @@ namespace UnityEngine {
     public:
     // static UnityEngine.Rect get_visibleRect()
     // Offset: 0x1F583B8
-    static UnityEngine::Rect get_visibleRect();
+    static ::UnityEngine::Rect get_visibleRect();
     // static System.Void Internal_Push(UnityEngine.Rect screenRect, UnityEngine.Vector2 scrollOffset, UnityEngine.Vector2 renderOffset, System.Boolean resetOffset)
     // Offset: 0x1F5C194
-    static void Internal_Push(UnityEngine::Rect screenRect, UnityEngine::Vector2 scrollOffset, UnityEngine::Vector2 renderOffset, bool resetOffset);
+    static void Internal_Push(::UnityEngine::Rect screenRect, ::UnityEngine::Vector2 scrollOffset, ::UnityEngine::Vector2 renderOffset, bool resetOffset);
     // static System.Void Internal_Pop()
     // Offset: 0x1F59E5C
     static void Internal_Pop();
     // static System.Void Push(UnityEngine.Rect screenRect, UnityEngine.Vector2 scrollOffset, UnityEngine.Vector2 renderOffset, System.Boolean resetOffset)
     // Offset: 0x1F59E1C
-    static void Push(UnityEngine::Rect screenRect, UnityEngine::Vector2 scrollOffset, UnityEngine::Vector2 renderOffset, bool resetOffset);
+    static void Push(::UnityEngine::Rect screenRect, ::UnityEngine::Vector2 scrollOffset, ::UnityEngine::Vector2 renderOffset, bool resetOffset);
     // static System.Void Pop()
     // Offset: 0x1F5B2E8
     static void Pop();
     // static private System.Void get_visibleRect_Injected(out UnityEngine.Rect ret)
     // Offset: 0x1F5C154
-    static void get_visibleRect_Injected(ByRef<UnityEngine::Rect> ret);
+    static void get_visibleRect_Injected(ByRef<::UnityEngine::Rect> ret);
     // static private System.Void Internal_Push_Injected(ref UnityEngine.Rect screenRect, ref UnityEngine.Vector2 scrollOffset, ref UnityEngine.Vector2 renderOffset, System.Boolean resetOffset)
     // Offset: 0x1F5C1FC
-    static void Internal_Push_Injected(ByRef<UnityEngine::Rect> screenRect, ByRef<UnityEngine::Vector2> scrollOffset, ByRef<UnityEngine::Vector2> renderOffset, bool resetOffset);
+    static void Internal_Push_Injected(ByRef<::UnityEngine::Rect> screenRect, ByRef<::UnityEngine::Vector2> scrollOffset, ByRef<::UnityEngine::Vector2> renderOffset, bool resetOffset);
   }; // UnityEngine.GUIClip
   #pragma pack(pop)
 }
@@ -62,7 +62,7 @@ namespace UnityEngine {
 // Writing MetadataGetter for method: UnityEngine::GUIClip::get_visibleRect
 // Il2CppName: get_visibleRect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (*)()>(&UnityEngine::GUIClip::get_visibleRect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rect (*)()>(&UnityEngine::GUIClip::get_visibleRect)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIClip*), "get_visibleRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -70,7 +70,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::GUIClip::Internal_Push
 // Il2CppName: Internal_Push
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rect, UnityEngine::Vector2, UnityEngine::Vector2, bool)>(&UnityEngine::GUIClip::Internal_Push)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Rect, ::UnityEngine::Vector2, ::UnityEngine::Vector2, bool)>(&UnityEngine::GUIClip::Internal_Push)> {
   static const MethodInfo* get() {
     static auto* screenRect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
     static auto* scrollOffset = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
@@ -90,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::GUIClip::Push
 // Il2CppName: Push
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rect, UnityEngine::Vector2, UnityEngine::Vector2, bool)>(&UnityEngine::GUIClip::Push)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Rect, ::UnityEngine::Vector2, ::UnityEngine::Vector2, bool)>(&UnityEngine::GUIClip::Push)> {
   static const MethodInfo* get() {
     static auto* screenRect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
     static auto* scrollOffset = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
@@ -110,7 +110,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::GUIClip::get_visibleRect_Injected
 // Il2CppName: get_visibleRect_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<UnityEngine::Rect>)>(&UnityEngine::GUIClip::get_visibleRect_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::Rect>)>(&UnityEngine::GUIClip::get_visibleRect_Injected)> {
   static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIClip*), "get_visibleRect_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
@@ -119,7 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(By
 // Writing MetadataGetter for method: UnityEngine::GUIClip::Internal_Push_Injected
 // Il2CppName: Internal_Push_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<UnityEngine::Rect>, ByRef<UnityEngine::Vector2>, ByRef<UnityEngine::Vector2>, bool)>(&UnityEngine::GUIClip::Internal_Push_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::Rect>, ByRef<::UnityEngine::Vector2>, ByRef<::UnityEngine::Vector2>, bool)>(&UnityEngine::GUIClip::Internal_Push_Injected)> {
   static const MethodInfo* get() {
     static auto* screenRect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->this_arg;
     static auto* scrollOffset = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->this_arg;

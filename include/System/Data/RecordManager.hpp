@@ -32,8 +32,8 @@ namespace System::Data {
   class RecordManager;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Data::RecordManager);
-DEFINE_IL2CPP_ARG_TYPE(System::Data::RecordManager*, "System.Data", "RecordManager");
+NEED_NO_BOX(::System::Data::RecordManager);
+DEFINE_IL2CPP_ARG_TYPE(::System::Data::RecordManager*, "System.Data", "RecordManager");
 // Type namespace: System.Data
 namespace System::Data {
   // Size: 0x38
@@ -55,9 +55,9 @@ namespace System::Data {
     // private readonly System.Data.DataTable _table
     // Size: 0x8
     // Offset: 0x10
-    System::Data::DataTable* table;
+    ::System::Data::DataTable* table;
     // Field size check
-    static_assert(sizeof(System::Data::DataTable*) == 0x8);
+    static_assert(sizeof(::System::Data::DataTable*) == 0x8);
     // private System.Int32 _lastFreeRecord
     // Size: 0x4
     // Offset: 0x18
@@ -81,18 +81,18 @@ namespace System::Data {
     // private readonly System.Collections.Generic.List`1<System.Int32> _freeRecordList
     // Size: 0x8
     // Offset: 0x28
-    System::Collections::Generic::List_1<int>* freeRecordList;
+    ::System::Collections::Generic::List_1<int>* freeRecordList;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<int>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<int>*) == 0x8);
     // private System.Data.DataRow[] _rows
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayW<System::Data::DataRow*> rows;
+    ::ArrayW<::System::Data::DataRow*> rows;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::Data::DataRow*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::System::Data::DataRow*>) == 0x8);
     public:
     // Get instance field reference: private readonly System.Data.DataTable _table
-    System::Data::DataTable*& dyn__table();
+    ::System::Data::DataTable*& dyn__table();
     // Get instance field reference: private System.Int32 _lastFreeRecord
     int& dyn__lastFreeRecord();
     // Get instance field reference: private System.Int32 _minimumCapacity
@@ -100,9 +100,9 @@ namespace System::Data {
     // Get instance field reference: private System.Int32 _recordCapacity
     int& dyn__recordCapacity();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<System.Int32> _freeRecordList
-    System::Collections::Generic::List_1<int>*& dyn__freeRecordList();
+    ::System::Collections::Generic::List_1<int>*& dyn__freeRecordList();
     // Get instance field reference: private System.Data.DataRow[] _rows
-    ::ArrayW<System::Data::DataRow*>& dyn__rows();
+    ::ArrayW<::System::Data::DataRow*>& dyn__rows();
     // System.Int32 get_LastFreeRecord()
     // Offset: 0x19946C4
     int get_LastFreeRecord();
@@ -120,15 +120,15 @@ namespace System::Data {
     void set_RecordCapacity(int value);
     // System.Data.DataRow get_Item(System.Int32 record)
     // Offset: 0x198A020
-    System::Data::DataRow* get_Item(int record);
+    ::System::Data::DataRow* get_Item(int record);
     // System.Void set_Item(System.Int32 record, System.Data.DataRow value)
     // Offset: 0x1994908
-    void set_Item(int record, System::Data::DataRow* value);
+    void set_Item(int record, ::System::Data::DataRow* value);
     // System.Void .ctor(System.Data.DataTable table)
     // Offset: 0x19943DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static RecordManager* New_ctor(System::Data::DataTable* table) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Data::RecordManager::.ctor");
+    static RecordManager* New_ctor(::System::Data::DataTable* table) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Data::RecordManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RecordManager*, creationType>(table)));
     }
     // private System.Void GrowRecordCapacity()
@@ -151,16 +151,16 @@ namespace System::Data {
     void Clear(bool clearAll);
     // System.Int32 ImportRecord(System.Data.DataTable src, System.Int32 record)
     // Offset: 0x1994B70
-    int ImportRecord(System::Data::DataTable* src, int record);
+    int ImportRecord(::System::Data::DataTable* src, int record);
     // System.Int32 CopyRecord(System.Data.DataTable src, System.Int32 record, System.Int32 copy)
     // Offset: 0x1994B78
-    int CopyRecord(System::Data::DataTable* src, int record, int copy);
+    int CopyRecord(::System::Data::DataTable* src, int record, int copy);
     // System.Void SetRowCache(System.Data.DataRow[] newRows)
     // Offset: 0x1994EB4
-    void SetRowCache(::ArrayW<System::Data::DataRow*> newRows);
+    void SetRowCache(::ArrayW<::System::Data::DataRow*> newRows);
   }; // System.Data.RecordManager
   #pragma pack(pop)
-  static check_size<sizeof(RecordManager), 48 + sizeof(::ArrayW<System::Data::DataRow*>)> __System_Data_RecordManagerSizeCheck;
+  static check_size<sizeof(RecordManager), 48 + sizeof(::ArrayW<::System::Data::DataRow*>)> __System_Data_RecordManagerSizeCheck;
   static_assert(sizeof(RecordManager) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -209,7 +209,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::RecordManager::get_Item
 // Il2CppName: get_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::DataRow* (System::Data::RecordManager::*)(int)>(&System::Data::RecordManager::get_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataRow* (System::Data::RecordManager::*)(int)>(&System::Data::RecordManager::get_Item)> {
   static const MethodInfo* get() {
     static auto* record = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::RecordManager*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{record});
@@ -218,7 +218,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::RecordManager::set_Item
 // Il2CppName: set_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::RecordManager::*)(int, System::Data::DataRow*)>(&System::Data::RecordManager::set_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::RecordManager::*)(int, ::System::Data::DataRow*)>(&System::Data::RecordManager::set_Item)> {
   static const MethodInfo* get() {
     static auto* record = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Data", "DataRow")->byval_arg;
@@ -284,7 +284,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::RecordManager::ImportRecord
 // Il2CppName: ImportRecord
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Data::RecordManager::*)(System::Data::DataTable*, int)>(&System::Data::RecordManager::ImportRecord)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Data::RecordManager::*)(::System::Data::DataTable*, int)>(&System::Data::RecordManager::ImportRecord)> {
   static const MethodInfo* get() {
     static auto* src = &::il2cpp_utils::GetClassFromName("System.Data", "DataTable")->byval_arg;
     static auto* record = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -294,7 +294,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Data::RecordManager::CopyRecord
 // Il2CppName: CopyRecord
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Data::RecordManager::*)(System::Data::DataTable*, int, int)>(&System::Data::RecordManager::CopyRecord)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Data::RecordManager::*)(::System::Data::DataTable*, int, int)>(&System::Data::RecordManager::CopyRecord)> {
   static const MethodInfo* get() {
     static auto* src = &::il2cpp_utils::GetClassFromName("System.Data", "DataTable")->byval_arg;
     static auto* record = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -305,7 +305,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Data::RecordManager::SetRowCache
 // Il2CppName: SetRowCache
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::RecordManager::*)(::ArrayW<System::Data::DataRow*>)>(&System::Data::RecordManager::SetRowCache)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::RecordManager::*)(::ArrayW<::System::Data::DataRow*>)>(&System::Data::RecordManager::SetRowCache)> {
   static const MethodInfo* get() {
     static auto* newRows = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Data", "DataRow"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::RecordManager*), "SetRowCache", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newRows});

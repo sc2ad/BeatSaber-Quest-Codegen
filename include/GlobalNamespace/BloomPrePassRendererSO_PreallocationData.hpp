@@ -20,8 +20,8 @@ namespace GlobalNamespace {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BloomPrePassRendererSO::PreallocationData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassRendererSO::PreallocationData*, "", "BloomPrePassRendererSO/PreallocationData");
+NEED_NO_BOX(::GlobalNamespace::BloomPrePassRendererSO::PreallocationData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BloomPrePassRendererSO::PreallocationData*, "", "BloomPrePassRendererSO/PreallocationData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x1C
@@ -42,9 +42,9 @@ namespace GlobalNamespace {
     // public BloomPrePassLightTypeSO lightType
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::BloomPrePassLightTypeSO* lightType;
+    ::GlobalNamespace::BloomPrePassLightTypeSO* lightType;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::BloomPrePassLightTypeSO*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::BloomPrePassLightTypeSO*) == 0x8);
     // public System.Int32 preallocateCount
     // Size: 0x4
     // Offset: 0x18
@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public BloomPrePassLightTypeSO lightType
-    GlobalNamespace::BloomPrePassLightTypeSO*& dyn_lightType();
+    ::GlobalNamespace::BloomPrePassLightTypeSO*& dyn_lightType();
     // Get instance field reference: public System.Int32 preallocateCount
     int& dyn_preallocateCount();
     // public System.Void .ctor()
@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomPrePassRendererSO::PreallocationData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BloomPrePassRendererSO::PreallocationData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomPrePassRendererSO::PreallocationData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassRendererSO::PreallocationData*, creationType>()));
     }
   }; // BloomPrePassRendererSO/PreallocationData

@@ -23,8 +23,8 @@ namespace UnityEngine::UI {
   class ICanvasElement;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::UI::ICanvasElement);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ICanvasElement*, "UnityEngine.UI", "ICanvasElement");
+NEED_NO_BOX(::UnityEngine::UI::ICanvasElement);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::ICanvasElement*, "UnityEngine.UI", "ICanvasElement");
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {
   // Size: 0x10
@@ -35,10 +35,10 @@ namespace UnityEngine::UI {
     public:
     // public UnityEngine.Transform get_transform()
     // Offset: 0xFFFFFFFF
-    UnityEngine::Transform* get_transform();
+    ::UnityEngine::Transform* get_transform();
     // public System.Void Rebuild(UnityEngine.UI.CanvasUpdate executing)
     // Offset: 0xFFFFFFFF
-    void Rebuild(UnityEngine::UI::CanvasUpdate executing);
+    void Rebuild(::UnityEngine::UI::CanvasUpdate executing);
     // public System.Void LayoutComplete()
     // Offset: 0xFFFFFFFF
     void LayoutComplete();
@@ -55,7 +55,7 @@ namespace UnityEngine::UI {
 // Writing MetadataGetter for method: UnityEngine::UI::ICanvasElement::get_transform
 // Il2CppName: get_transform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (UnityEngine::UI::ICanvasElement::*)()>(&UnityEngine::UI::ICanvasElement::get_transform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Transform* (UnityEngine::UI::ICanvasElement::*)()>(&UnityEngine::UI::ICanvasElement::get_transform)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ICanvasElement*), "get_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -63,7 +63,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::UI::ICanvasElement::Rebuild
 // Il2CppName: Rebuild
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ICanvasElement::*)(UnityEngine::UI::CanvasUpdate)>(&UnityEngine::UI::ICanvasElement::Rebuild)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ICanvasElement::*)(::UnityEngine::UI::CanvasUpdate)>(&UnityEngine::UI::ICanvasElement::Rebuild)> {
   static const MethodInfo* get() {
     static auto* executing = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "CanvasUpdate")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ICanvasElement*), "Rebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{executing});

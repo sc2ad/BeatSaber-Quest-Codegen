@@ -21,8 +21,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::TimeZoneInfo::$$c);
-DEFINE_IL2CPP_ARG_TYPE(System::TimeZoneInfo::$$c*, "System", "TimeZoneInfo/<>c");
+NEED_NO_BOX(::System::TimeZoneInfo::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::System::TimeZoneInfo::$$c*, "System", "TimeZoneInfo/<>c");
 // Type namespace: System
 namespace System {
   // Size: 0x10
@@ -33,26 +33,26 @@ namespace System {
   class TimeZoneInfo::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly System.TimeZoneInfo/System.<>c <>9
-    static System::TimeZoneInfo::$$c* _get_$$9();
+    static ::System::TimeZoneInfo::$$c* _get_$$9();
     // Set static field: static public readonly System.TimeZoneInfo/System.<>c <>9
-    static void _set_$$9(System::TimeZoneInfo::$$c* value);
+    static void _set_$$9(::System::TimeZoneInfo::$$c* value);
     // Get static field: static public System.Comparison`1<System.TimeZoneInfo/System.AdjustmentRule> <>9__19_0
-    static System::Comparison_1<System::TimeZoneInfo::AdjustmentRule*>* _get_$$9__19_0();
+    static ::System::Comparison_1<::System::TimeZoneInfo::AdjustmentRule*>* _get_$$9__19_0();
     // Set static field: static public System.Comparison`1<System.TimeZoneInfo/System.AdjustmentRule> <>9__19_0
-    static void _set_$$9__19_0(System::Comparison_1<System::TimeZoneInfo::AdjustmentRule*>* value);
+    static void _set_$$9__19_0(::System::Comparison_1<::System::TimeZoneInfo::AdjustmentRule*>* value);
     // static private System.Void .cctor()
     // Offset: 0x1CEECEC
     static void _cctor();
     // System.Int32 <CreateLocalUnity>b__19_0(System.TimeZoneInfo/System.AdjustmentRule rule1, System.TimeZoneInfo/System.AdjustmentRule rule2)
     // Offset: 0x1CEED58
-    int $CreateLocalUnity$b__19_0(System::TimeZoneInfo::AdjustmentRule* rule1, System::TimeZoneInfo::AdjustmentRule* rule2);
+    int $CreateLocalUnity$b__19_0(::System::TimeZoneInfo::AdjustmentRule* rule1, ::System::TimeZoneInfo::AdjustmentRule* rule2);
     // public System.Void .ctor()
     // Offset: 0x1CEED50
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimeZoneInfo::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::TimeZoneInfo::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::TimeZoneInfo::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimeZoneInfo::$$c*, creationType>()));
     }
   }; // System.TimeZoneInfo/System.<>c
@@ -70,7 +70,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::TimeZoneInfo::$$c::$CreateLocalUnity$b__19_0
 // Il2CppName: <CreateLocalUnity>b__19_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::TimeZoneInfo::$$c::*)(System::TimeZoneInfo::AdjustmentRule*, System::TimeZoneInfo::AdjustmentRule*)>(&System::TimeZoneInfo::$$c::$CreateLocalUnity$b__19_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::TimeZoneInfo::$$c::*)(::System::TimeZoneInfo::AdjustmentRule*, ::System::TimeZoneInfo::AdjustmentRule*)>(&System::TimeZoneInfo::$$c::$CreateLocalUnity$b__19_0)> {
   static const MethodInfo* get() {
     static auto* rule1 = &::il2cpp_utils::GetClassFromName("System", "TimeZoneInfo/AdjustmentRule")->byval_arg;
     static auto* rule2 = &::il2cpp_utils::GetClassFromName("System", "TimeZoneInfo/AdjustmentRule")->byval_arg;

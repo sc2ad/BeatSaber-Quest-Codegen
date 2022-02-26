@@ -37,8 +37,8 @@ namespace NUnit::Framework::Internal::Builders {
   class NUnitTestCaseBuilder;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder*, "NUnit.Framework.Internal.Builders", "NUnitTestCaseBuilder");
+NEED_NO_BOX(::NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder);
+DEFINE_IL2CPP_ARG_TYPE(::NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder*, "NUnit.Framework.Internal.Builders", "NUnitTestCaseBuilder");
 // Type namespace: NUnit.Framework.Internal.Builders
 namespace NUnit::Framework::Internal::Builders {
   // Size: 0x20
@@ -59,48 +59,48 @@ namespace NUnit::Framework::Internal::Builders {
     // private readonly NUnit.Framework.Internal.Randomizer _randomizer
     // Size: 0x8
     // Offset: 0x10
-    NUnit::Framework::Internal::Randomizer* randomizer;
+    ::NUnit::Framework::Internal::Randomizer* randomizer;
     // Field size check
-    static_assert(sizeof(NUnit::Framework::Internal::Randomizer*) == 0x8);
+    static_assert(sizeof(::NUnit::Framework::Internal::Randomizer*) == 0x8);
     // private readonly NUnit.Framework.Internal.TestNameGenerator _nameGenerator
     // Size: 0x8
     // Offset: 0x18
-    NUnit::Framework::Internal::TestNameGenerator* nameGenerator;
+    ::NUnit::Framework::Internal::TestNameGenerator* nameGenerator;
     // Field size check
-    static_assert(sizeof(NUnit::Framework::Internal::TestNameGenerator*) == 0x8);
+    static_assert(sizeof(::NUnit::Framework::Internal::TestNameGenerator*) == 0x8);
     public:
     // Get instance field reference: private readonly NUnit.Framework.Internal.Randomizer _randomizer
-    NUnit::Framework::Internal::Randomizer*& dyn__randomizer();
+    ::NUnit::Framework::Internal::Randomizer*& dyn__randomizer();
     // Get instance field reference: private readonly NUnit.Framework.Internal.TestNameGenerator _nameGenerator
-    NUnit::Framework::Internal::TestNameGenerator*& dyn__nameGenerator();
+    ::NUnit::Framework::Internal::TestNameGenerator*& dyn__nameGenerator();
     // public NUnit.Framework.Internal.TestMethod BuildTestMethod(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.Test parentSuite, NUnit.Framework.Internal.TestCaseParameters parms)
     // Offset: 0x1B4CD5C
-    NUnit::Framework::Internal::TestMethod* BuildTestMethod(NUnit::Framework::Interfaces::IMethodInfo* method, NUnit::Framework::Internal::Test* parentSuite, NUnit::Framework::Internal::TestCaseParameters* parms);
+    ::NUnit::Framework::Internal::TestMethod* BuildTestMethod(::NUnit::Framework::Interfaces::IMethodInfo* method, ::NUnit::Framework::Internal::Test* parentSuite, ::NUnit::Framework::Internal::TestCaseParameters* parms);
     // static private System.Boolean CheckTestMethodSignature(NUnit.Framework.Internal.TestMethod testMethod, NUnit.Framework.Internal.TestCaseParameters parms)
     // Offset: 0x1B5D6DC
-    static bool CheckTestMethodSignature(NUnit::Framework::Internal::TestMethod* testMethod, NUnit::Framework::Internal::TestCaseParameters* parms);
+    static bool CheckTestMethodSignature(::NUnit::Framework::Internal::TestMethod* testMethod, ::NUnit::Framework::Internal::TestCaseParameters* parms);
     // static private System.Boolean MarkAsNotRunnable(NUnit.Framework.Internal.TestMethod testMethod, System.String reason)
     // Offset: 0x1B5DEF0
-    static bool MarkAsNotRunnable(NUnit::Framework::Internal::TestMethod* testMethod, ::StringW reason);
+    static bool MarkAsNotRunnable(::NUnit::Framework::Internal::TestMethod* testMethod, ::StringW reason);
     // public System.Void .ctor()
     // Offset: 0x1B4C628
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NUnitTestCaseBuilder* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NUnitTestCaseBuilder*, creationType>()));
     }
   }; // NUnit.Framework.Internal.Builders.NUnitTestCaseBuilder
   #pragma pack(pop)
-  static check_size<sizeof(NUnitTestCaseBuilder), 24 + sizeof(NUnit::Framework::Internal::TestNameGenerator*)> __NUnit_Framework_Internal_Builders_NUnitTestCaseBuilderSizeCheck;
+  static check_size<sizeof(NUnitTestCaseBuilder), 24 + sizeof(::NUnit::Framework::Internal::TestNameGenerator*)> __NUnit_Framework_Internal_Builders_NUnitTestCaseBuilderSizeCheck;
   static_assert(sizeof(NUnitTestCaseBuilder) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder::BuildTestMethod
 // Il2CppName: BuildTestMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestMethod* (NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder::*)(NUnit::Framework::Interfaces::IMethodInfo*, NUnit::Framework::Internal::Test*, NUnit::Framework::Internal::TestCaseParameters*)>(&NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder::BuildTestMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Framework::Internal::TestMethod* (NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder::*)(::NUnit::Framework::Interfaces::IMethodInfo*, ::NUnit::Framework::Internal::Test*, ::NUnit::Framework::Internal::TestCaseParameters*)>(&NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder::BuildTestMethod)> {
   static const MethodInfo* get() {
     static auto* method = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "IMethodInfo")->byval_arg;
     static auto* parentSuite = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "Test")->byval_arg;
@@ -111,7 +111,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder::CheckTestMethodSignature
 // Il2CppName: CheckTestMethodSignature
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(NUnit::Framework::Internal::TestMethod*, NUnit::Framework::Internal::TestCaseParameters*)>(&NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder::CheckTestMethodSignature)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::NUnit::Framework::Internal::TestMethod*, ::NUnit::Framework::Internal::TestCaseParameters*)>(&NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder::CheckTestMethodSignature)> {
   static const MethodInfo* get() {
     static auto* testMethod = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "TestMethod")->byval_arg;
     static auto* parms = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "TestCaseParameters")->byval_arg;
@@ -121,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(NU
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder::MarkAsNotRunnable
 // Il2CppName: MarkAsNotRunnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(NUnit::Framework::Internal::TestMethod*, ::StringW)>(&NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder::MarkAsNotRunnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::NUnit::Framework::Internal::TestMethod*, ::StringW)>(&NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder::MarkAsNotRunnable)> {
   static const MethodInfo* get() {
     static auto* testMethod = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "TestMethod")->byval_arg;
     static auto* reason = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

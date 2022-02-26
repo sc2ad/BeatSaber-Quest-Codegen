@@ -18,8 +18,8 @@ namespace System::Xml {
   class TernaryTreeReadOnly;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::TernaryTreeReadOnly);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::TernaryTreeReadOnly*, "System.Xml", "TernaryTreeReadOnly");
+NEED_NO_BOX(::System::Xml::TernaryTreeReadOnly);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::TernaryTreeReadOnly*, "System.Xml", "TernaryTreeReadOnly");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x18
@@ -54,7 +54,7 @@ namespace System::Xml {
     // Offset: 0x161719C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TernaryTreeReadOnly* New_ctor(::ArrayW<uint8_t> nodeBuffer) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::TernaryTreeReadOnly::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::TernaryTreeReadOnly::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TernaryTreeReadOnly*, creationType>(nodeBuffer)));
     }
     // public System.Byte FindCaseInsensitiveString(System.String stringToFind)

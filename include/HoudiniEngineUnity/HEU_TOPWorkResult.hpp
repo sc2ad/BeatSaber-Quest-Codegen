@@ -29,8 +29,8 @@ namespace HoudiniEngineUnity {
   class HEU_TOPWorkResult;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_TOPWorkResult);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_TOPWorkResult*, "HoudiniEngineUnity", "HEU_TOPWorkResult");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_TOPWorkResult);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_TOPWorkResult*, "HoudiniEngineUnity", "HEU_TOPWorkResult");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x20
@@ -63,28 +63,28 @@ namespace HoudiniEngineUnity {
     // public System.Collections.Generic.List`1<UnityEngine.GameObject> _generatedGOs
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::Generic::List_1<UnityEngine::GameObject*>* generatedGOs;
+    ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* generatedGOs;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::GameObject*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*) == 0x8);
     public:
     // Get instance field reference: public System.Int32 _workItemIndex
     int& dyn__workItemIndex();
     // Get instance field reference: public System.Int32 _workItemID
     int& dyn__workItemID();
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.GameObject> _generatedGOs
-    System::Collections::Generic::List_1<UnityEngine::GameObject*>*& dyn__generatedGOs();
+    ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*& dyn__generatedGOs();
     // public System.Void .ctor()
     // Offset: 0x1A64074
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_TOPWorkResult* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_TOPWorkResult::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_TOPWorkResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_TOPWorkResult*, creationType>()));
     }
   }; // HoudiniEngineUnity.HEU_TOPWorkResult
   #pragma pack(pop)
-  static check_size<sizeof(HEU_TOPWorkResult), 24 + sizeof(System::Collections::Generic::List_1<UnityEngine::GameObject*>*)> __HoudiniEngineUnity_HEU_TOPWorkResultSizeCheck;
+  static check_size<sizeof(HEU_TOPWorkResult), 24 + sizeof(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*)> __HoudiniEngineUnity_HEU_TOPWorkResultSizeCheck;
   static_assert(sizeof(HEU_TOPWorkResult) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

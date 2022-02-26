@@ -47,8 +47,8 @@ namespace HoudiniEngineUnity {
   class HEU_ShelfTools;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_ShelfTools);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_ShelfTools*, "HoudiniEngineUnity", "HEU_ShelfTools");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_ShelfTools);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_ShelfTools*, "HoudiniEngineUnity", "HEU_ShelfTools");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x10
@@ -58,9 +58,9 @@ namespace HoudiniEngineUnity {
   class HEU_ShelfTools : public ::Il2CppObject {
     public:
     // Get static field: static private System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_Shelf> _shelves
-    static System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_Shelf*>* _get__shelves();
+    static ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Shelf*>* _get__shelves();
     // Set static field: static private System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_Shelf> _shelves
-    static void _set__shelves(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_Shelf*>* value);
+    static void _set__shelves(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Shelf*>* value);
     // Get static field: static private System.Boolean _shelvesLoaded
     static bool _get__shelvesLoaded();
     // Set static field: static private System.Boolean _shelvesLoaded
@@ -104,10 +104,10 @@ namespace HoudiniEngineUnity {
     static void SetCurrentShelf(int index);
     // static public HoudiniEngineUnity.HEU_Shelf GetShelf(System.Int32 index)
     // Offset: 0x1A60B8C
-    static HoudiniEngineUnity::HEU_Shelf* GetShelf(int index);
+    static ::HoudiniEngineUnity::HEU_Shelf* GetShelf(int index);
     // static public HoudiniEngineUnity.HEU_Shelf GetShelf(System.String shelfName)
     // Offset: 0x1A60C64
-    static HoudiniEngineUnity::HEU_Shelf* GetShelf(::StringW shelfName);
+    static ::HoudiniEngineUnity::HEU_Shelf* GetShelf(::StringW shelfName);
     // static public System.String GetShelfStorageEntry(System.String shelfName, System.String shelfPath)
     // Offset: 0x1A60DB4
     static ::StringW GetShelfStorageEntry(::StringW shelfName, ::StringW shelfPath);
@@ -119,16 +119,16 @@ namespace HoudiniEngineUnity {
     static void LoadShelves();
     // static public System.Boolean LoadToolsFromDirectory(System.String folderPath, out System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_ShelfToolData> tools)
     // Offset: 0x1A6163C
-    static bool LoadToolsFromDirectory(::StringW folderPath, ByRef<System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ShelfToolData*>*> tools);
+    static bool LoadToolsFromDirectory(::StringW folderPath, ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ShelfToolData*>*> tools);
     // static public HoudiniEngineUnity.HEU_ShelfToolData LoadToolFromJsonFile(System.String jsonFilePath)
     // Offset: 0x1A61A5C
-    static HoudiniEngineUnity::HEU_ShelfToolData* LoadToolFromJsonFile(::StringW jsonFilePath);
+    static ::HoudiniEngineUnity::HEU_ShelfToolData* LoadToolFromJsonFile(::StringW jsonFilePath);
     // static public HoudiniEngineUnity.HEU_ShelfToolData LoadToolFromJsonString(System.String json, System.String jsonFilePath)
     // Offset: 0x1A61C3C
-    static HoudiniEngineUnity::HEU_ShelfToolData* LoadToolFromJsonString(::StringW json, ::StringW jsonFilePath);
+    static ::HoudiniEngineUnity::HEU_ShelfToolData* LoadToolFromJsonString(::StringW json, ::StringW jsonFilePath);
     // static public HoudiniEngineUnity.HEU_Shelf AddShelf(System.String shelfName, System.String shelfPath)
     // Offset: 0x1A61584
-    static HoudiniEngineUnity::HEU_Shelf* AddShelf(::StringW shelfName, ::StringW shelfPath);
+    static ::HoudiniEngineUnity::HEU_Shelf* AddShelf(::StringW shelfName, ::StringW shelfPath);
     // static public System.Void RemoveShelf(System.Int32 shelfIndex)
     // Offset: 0x1A62844
     static void RemoveShelf(int shelfIndex);
@@ -140,38 +140,38 @@ namespace HoudiniEngineUnity {
     static void ExecuteTool(int toolSlot);
     // static public System.Void ExecuteToolGenerator(System.String toolName, System.String toolPath, UnityEngine.Vector3 targetPosition, UnityEngine.Quaternion targetRotation, UnityEngine.Vector3 targetScale)
     // Offset: 0x1A62D88
-    static void ExecuteToolGenerator(::StringW toolName, ::StringW toolPath, UnityEngine::Vector3 targetPosition, UnityEngine::Quaternion targetRotation, UnityEngine::Vector3 targetScale);
+    static void ExecuteToolGenerator(::StringW toolName, ::StringW toolPath, ::UnityEngine::Vector3 targetPosition, ::UnityEngine::Quaternion targetRotation, ::UnityEngine::Vector3 targetScale);
     // static public System.Boolean IsValidInput(UnityEngine.GameObject gameObject)
     // Offset: 0x1A63C20
-    static bool IsValidInput(UnityEngine::GameObject* gameObject);
+    static bool IsValidInput(::UnityEngine::GameObject* gameObject);
     // static public System.Void ExecuteToolNoInput(System.String toolName, System.String toolPath)
     // Offset: 0x1A62F94
     static void ExecuteToolNoInput(::StringW toolName, ::StringW toolPath);
     // static public System.Void ExecuteToolOperatorSingle(System.String toolName, System.String toolPath, UnityEngine.GameObject[] inputObjects)
     // Offset: 0x1A63144
-    static void ExecuteToolOperatorSingle(::StringW toolName, ::StringW toolPath, ::ArrayW<UnityEngine::GameObject*> inputObjects);
+    static void ExecuteToolOperatorSingle(::StringW toolName, ::StringW toolPath, ::ArrayW<::UnityEngine::GameObject*> inputObjects);
     // static public System.Void ExecuteToolOperatorMultiple(System.String toolName, System.String toolPath, UnityEngine.GameObject[] inputObjects)
     // Offset: 0x1A63694
-    static void ExecuteToolOperatorMultiple(::StringW toolName, ::StringW toolPath, ::ArrayW<UnityEngine::GameObject*> inputObjects);
+    static void ExecuteToolOperatorMultiple(::StringW toolName, ::StringW toolPath, ::ArrayW<::UnityEngine::GameObject*> inputObjects);
     // static public System.Void ExecuteToolBatch(System.String toolName, System.String toolPath, UnityEngine.GameObject[] batchObjects)
     // Offset: 0x1A63BA4
-    static void ExecuteToolBatch(::StringW toolName, ::StringW toolPath, ::ArrayW<UnityEngine::GameObject*> batchObjects);
+    static void ExecuteToolBatch(::StringW toolName, ::StringW toolPath, ::ArrayW<::UnityEngine::GameObject*> batchObjects);
     // static public System.String GetToolResourcePath(HoudiniEngineUnity.HEU_ShelfToolData tool, System.String inPath, System.String ext)
     // Offset: 0x1A63D30
-    static ::StringW GetToolResourcePath(HoudiniEngineUnity::HEU_ShelfToolData* tool, ::StringW inPath, ::StringW ext);
+    static ::StringW GetToolResourcePath(::HoudiniEngineUnity::HEU_ShelfToolData* tool, ::StringW inPath, ::StringW ext);
     // static public System.String GetToolIconPath(HoudiniEngineUnity.HEU_ShelfToolData tool, System.String inPath)
     // Offset: 0x1A62704
-    static ::StringW GetToolIconPath(HoudiniEngineUnity::HEU_ShelfToolData* tool, ::StringW inPath);
+    static ::StringW GetToolIconPath(::HoudiniEngineUnity::HEU_ShelfToolData* tool, ::StringW inPath);
     // static public System.String GetToolAssetPath(HoudiniEngineUnity.HEU_ShelfToolData tool, System.String inPath)
     // Offset: 0x1A625BC
-    static ::StringW GetToolAssetPath(HoudiniEngineUnity::HEU_ShelfToolData* tool, ::StringW inPath);
+    static ::StringW GetToolAssetPath(::HoudiniEngineUnity::HEU_ShelfToolData* tool, ::StringW inPath);
     // public System.Void .ctor()
     // Offset: 0x1A63E14
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_ShelfTools* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_ShelfTools::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_ShelfTools::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_ShelfTools*, creationType>()));
     }
   }; // HoudiniEngineUnity.HEU_ShelfTools
@@ -238,7 +238,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ShelfTools::GetShelf
 // Il2CppName: GetShelf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_Shelf* (*)(int)>(&HoudiniEngineUnity::HEU_ShelfTools::GetShelf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_Shelf* (*)(int)>(&HoudiniEngineUnity::HEU_ShelfTools::GetShelf)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_ShelfTools*), "GetShelf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
@@ -247,7 +247,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ShelfTools::GetShelf
 // Il2CppName: GetShelf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_Shelf* (*)(::StringW)>(&HoudiniEngineUnity::HEU_ShelfTools::GetShelf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_Shelf* (*)(::StringW)>(&HoudiniEngineUnity::HEU_ShelfTools::GetShelf)> {
   static const MethodInfo* get() {
     static auto* shelfName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_ShelfTools*), "GetShelf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{shelfName});
@@ -285,7 +285,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ShelfTools::LoadToolsFromDirectory
 // Il2CppName: LoadToolsFromDirectory
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ShelfToolData*>*>)>(&HoudiniEngineUnity::HEU_ShelfTools::LoadToolsFromDirectory)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ShelfToolData*>*>)>(&HoudiniEngineUnity::HEU_ShelfTools::LoadToolsFromDirectory)> {
   static const MethodInfo* get() {
     static auto* folderPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* tools = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_ShelfToolData")})->this_arg;
@@ -295,7 +295,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ShelfTools::LoadToolFromJsonFile
 // Il2CppName: LoadToolFromJsonFile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_ShelfToolData* (*)(::StringW)>(&HoudiniEngineUnity::HEU_ShelfTools::LoadToolFromJsonFile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_ShelfToolData* (*)(::StringW)>(&HoudiniEngineUnity::HEU_ShelfTools::LoadToolFromJsonFile)> {
   static const MethodInfo* get() {
     static auto* jsonFilePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_ShelfTools*), "LoadToolFromJsonFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{jsonFilePath});
@@ -304,7 +304,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ShelfTools::LoadToolFromJsonString
 // Il2CppName: LoadToolFromJsonString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_ShelfToolData* (*)(::StringW, ::StringW)>(&HoudiniEngineUnity::HEU_ShelfTools::LoadToolFromJsonString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_ShelfToolData* (*)(::StringW, ::StringW)>(&HoudiniEngineUnity::HEU_ShelfTools::LoadToolFromJsonString)> {
   static const MethodInfo* get() {
     static auto* json = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* jsonFilePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -314,7 +314,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ShelfTools::AddShelf
 // Il2CppName: AddShelf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_Shelf* (*)(::StringW, ::StringW)>(&HoudiniEngineUnity::HEU_ShelfTools::AddShelf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_Shelf* (*)(::StringW, ::StringW)>(&HoudiniEngineUnity::HEU_ShelfTools::AddShelf)> {
   static const MethodInfo* get() {
     static auto* shelfName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* shelfPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -350,7 +350,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ShelfTools::ExecuteToolGenerator
 // Il2CppName: ExecuteToolGenerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Vector3)>(&HoudiniEngineUnity::HEU_ShelfTools::ExecuteToolGenerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3)>(&HoudiniEngineUnity::HEU_ShelfTools::ExecuteToolGenerator)> {
   static const MethodInfo* get() {
     static auto* toolName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* toolPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -363,7 +363,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ShelfTools::IsValidInput
 // Il2CppName: IsValidInput
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_ShelfTools::IsValidInput)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_ShelfTools::IsValidInput)> {
   static const MethodInfo* get() {
     static auto* gameObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_ShelfTools*), "IsValidInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameObject});
@@ -382,7 +382,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ShelfTools::ExecuteToolOperatorSingle
 // Il2CppName: ExecuteToolOperatorSingle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW, ::ArrayW<UnityEngine::GameObject*>)>(&HoudiniEngineUnity::HEU_ShelfTools::ExecuteToolOperatorSingle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW, ::ArrayW<::UnityEngine::GameObject*>)>(&HoudiniEngineUnity::HEU_ShelfTools::ExecuteToolOperatorSingle)> {
   static const MethodInfo* get() {
     static auto* toolName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* toolPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -393,7 +393,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ShelfTools::ExecuteToolOperatorMultiple
 // Il2CppName: ExecuteToolOperatorMultiple
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW, ::ArrayW<UnityEngine::GameObject*>)>(&HoudiniEngineUnity::HEU_ShelfTools::ExecuteToolOperatorMultiple)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW, ::ArrayW<::UnityEngine::GameObject*>)>(&HoudiniEngineUnity::HEU_ShelfTools::ExecuteToolOperatorMultiple)> {
   static const MethodInfo* get() {
     static auto* toolName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* toolPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -404,7 +404,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ShelfTools::ExecuteToolBatch
 // Il2CppName: ExecuteToolBatch
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW, ::ArrayW<UnityEngine::GameObject*>)>(&HoudiniEngineUnity::HEU_ShelfTools::ExecuteToolBatch)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW, ::ArrayW<::UnityEngine::GameObject*>)>(&HoudiniEngineUnity::HEU_ShelfTools::ExecuteToolBatch)> {
   static const MethodInfo* get() {
     static auto* toolName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* toolPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -415,7 +415,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ShelfTools::GetToolResourcePath
 // Il2CppName: GetToolResourcePath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(HoudiniEngineUnity::HEU_ShelfToolData*, ::StringW, ::StringW)>(&HoudiniEngineUnity::HEU_ShelfTools::GetToolResourcePath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::HoudiniEngineUnity::HEU_ShelfToolData*, ::StringW, ::StringW)>(&HoudiniEngineUnity::HEU_ShelfTools::GetToolResourcePath)> {
   static const MethodInfo* get() {
     static auto* tool = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_ShelfToolData")->byval_arg;
     static auto* inPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -426,7 +426,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ShelfTools::GetToolIconPath
 // Il2CppName: GetToolIconPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(HoudiniEngineUnity::HEU_ShelfToolData*, ::StringW)>(&HoudiniEngineUnity::HEU_ShelfTools::GetToolIconPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::HoudiniEngineUnity::HEU_ShelfToolData*, ::StringW)>(&HoudiniEngineUnity::HEU_ShelfTools::GetToolIconPath)> {
   static const MethodInfo* get() {
     static auto* tool = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_ShelfToolData")->byval_arg;
     static auto* inPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -436,7 +436,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ShelfTools::GetToolAssetPath
 // Il2CppName: GetToolAssetPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(HoudiniEngineUnity::HEU_ShelfToolData*, ::StringW)>(&HoudiniEngineUnity::HEU_ShelfTools::GetToolAssetPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::HoudiniEngineUnity::HEU_ShelfToolData*, ::StringW)>(&HoudiniEngineUnity::HEU_ShelfTools::GetToolAssetPath)> {
   static const MethodInfo* get() {
     static auto* tool = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_ShelfToolData")->byval_arg;
     static auto* inPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

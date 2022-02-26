@@ -21,8 +21,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Serialization::XmlSerializationReader::CollectionItemFixup);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Serialization::XmlSerializationReader::CollectionItemFixup*, "System.Xml.Serialization", "XmlSerializationReader/CollectionItemFixup");
+NEED_NO_BOX(::System::Xml::Serialization::XmlSerializationReader::CollectionItemFixup);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::XmlSerializationReader::CollectionItemFixup*, "System.Xml.Serialization", "XmlSerializationReader/CollectionItemFixup");
 // Type namespace: System.Xml.Serialization
 namespace System::Xml::Serialization {
   // Size: 0x28
@@ -43,9 +43,9 @@ namespace System::Xml::Serialization {
     // private System.Array list
     // Size: 0x8
     // Offset: 0x10
-    System::Array* list;
+    ::System::Array* list;
     // Field size check
-    static_assert(sizeof(System::Array*) == 0x8);
+    static_assert(sizeof(::System::Array*) == 0x8);
     // private System.Int32 index
     // Size: 0x4
     // Offset: 0x18
@@ -62,14 +62,14 @@ namespace System::Xml::Serialization {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.Array list
-    System::Array*& dyn_list();
+    ::System::Array*& dyn_list();
     // Get instance field reference: private System.Int32 index
     int& dyn_index();
     // Get instance field reference: private System.String id
     ::StringW& dyn_id();
     // public System.Array get_Collection()
     // Offset: 0x1E10534
-    System::Array* get_Collection();
+    ::System::Array* get_Collection();
     // public System.Int32 get_Index()
     // Offset: 0x1E1053C
     int get_Index();
@@ -79,8 +79,8 @@ namespace System::Xml::Serialization {
     // public System.Void .ctor(System.Array list, System.Int32 index, System.String id)
     // Offset: 0x1E0EA64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlSerializationReader::CollectionItemFixup* New_ctor(System::Array* list, int index, ::StringW id) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Serialization::XmlSerializationReader::CollectionItemFixup::.ctor");
+    static XmlSerializationReader::CollectionItemFixup* New_ctor(::System::Array* list, int index, ::StringW id) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Serialization::XmlSerializationReader::CollectionItemFixup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlSerializationReader::CollectionItemFixup*, creationType>(list, index, id)));
     }
   }; // System.Xml.Serialization.XmlSerializationReader/System.Xml.Serialization.CollectionItemFixup
@@ -92,7 +92,7 @@ namespace System::Xml::Serialization {
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlSerializationReader::CollectionItemFixup::get_Collection
 // Il2CppName: get_Collection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Array* (System::Xml::Serialization::XmlSerializationReader::CollectionItemFixup::*)()>(&System::Xml::Serialization::XmlSerializationReader::CollectionItemFixup::get_Collection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Array* (System::Xml::Serialization::XmlSerializationReader::CollectionItemFixup::*)()>(&System::Xml::Serialization::XmlSerializationReader::CollectionItemFixup::get_Collection)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::XmlSerializationReader::CollectionItemFixup*), "get_Collection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

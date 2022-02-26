@@ -20,8 +20,8 @@ namespace System::Net {
   class HttpStatusDescription;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::HttpStatusDescription);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpStatusDescription*, "System.Net", "HttpStatusDescription");
+NEED_NO_BOX(::System::Net::HttpStatusDescription);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::HttpStatusDescription*, "System.Net", "HttpStatusDescription");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x10
@@ -32,7 +32,7 @@ namespace System::Net {
     public:
     // static System.String Get(System.Net.HttpStatusCode code)
     // Offset: 0x175EF0C
-    static ::StringW Get(System::Net::HttpStatusCode code);
+    static ::StringW Get(::System::Net::HttpStatusCode code);
     // static System.String Get(System.Int32 code)
     // Offset: 0x1758514
     static ::StringW Get(int code);
@@ -43,7 +43,7 @@ namespace System::Net {
 // Writing MetadataGetter for method: System::Net::HttpStatusDescription::Get
 // Il2CppName: Get
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Net::HttpStatusCode)>(&System::Net::HttpStatusDescription::Get)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Net::HttpStatusCode)>(&System::Net::HttpStatusDescription::Get)> {
   static const MethodInfo* get() {
     static auto* code = &::il2cpp_utils::GetClassFromName("System.Net", "HttpStatusCode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpStatusDescription*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{code});

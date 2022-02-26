@@ -23,8 +23,8 @@ namespace GlobalNamespace {
   class IUnconnectedMessageReceiver;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::IUnconnectedMessageReceiver);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IUnconnectedMessageReceiver*, "", "IUnconnectedMessageReceiver");
+NEED_NO_BOX(::GlobalNamespace::IUnconnectedMessageReceiver);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IUnconnectedMessageReceiver*, "", "IUnconnectedMessageReceiver");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     public:
     // public System.Void ReceiveUnconnectedMessage(System.Net.IPEndPoint endPoint, LiteNetLib.Utils.NetDataReader reader)
     // Offset: 0xFFFFFFFF
-    void ReceiveUnconnectedMessage(System::Net::IPEndPoint* endPoint, LiteNetLib::Utils::NetDataReader* reader);
+    void ReceiveUnconnectedMessage(::System::Net::IPEndPoint* endPoint, ::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void PollUpdate()
     // Offset: 0xFFFFFFFF
     void PollUpdate();
@@ -46,7 +46,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::IUnconnectedMessageReceiver::ReceiveUnconnectedMessage
 // Il2CppName: ReceiveUnconnectedMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IUnconnectedMessageReceiver::*)(System::Net::IPEndPoint*, LiteNetLib::Utils::NetDataReader*)>(&GlobalNamespace::IUnconnectedMessageReceiver::ReceiveUnconnectedMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IUnconnectedMessageReceiver::*)(::System::Net::IPEndPoint*, ::LiteNetLib::Utils::NetDataReader*)>(&GlobalNamespace::IUnconnectedMessageReceiver::ReceiveUnconnectedMessage)> {
   static const MethodInfo* get() {
     static auto* endPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     static auto* reader = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataReader")->byval_arg;

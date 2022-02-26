@@ -9,8 +9,8 @@
 #include "System/Collections/SortedList.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Collections::SortedList::SortedListDebugView);
-DEFINE_IL2CPP_ARG_TYPE(System::Collections::SortedList::SortedListDebugView*, "System.Collections", "SortedList/SortedListDebugView");
+NEED_NO_BOX(::System::Collections::SortedList::SortedListDebugView);
+DEFINE_IL2CPP_ARG_TYPE(::System::Collections::SortedList::SortedListDebugView*, "System.Collections", "SortedList/SortedListDebugView");
 // Type namespace: System.Collections
 namespace System::Collections {
   // Size: 0x10

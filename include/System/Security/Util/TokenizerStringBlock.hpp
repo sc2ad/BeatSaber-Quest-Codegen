@@ -18,8 +18,8 @@ namespace System::Security::Util {
   class TokenizerStringBlock;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Security::Util::TokenizerStringBlock);
-DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::TokenizerStringBlock*, "System.Security.Util", "TokenizerStringBlock");
+NEED_NO_BOX(::System::Security::Util::TokenizerStringBlock);
+DEFINE_IL2CPP_ARG_TYPE(::System::Security::Util::TokenizerStringBlock*, "System.Security.Util", "TokenizerStringBlock");
 // Type namespace: System.Security.Util
 namespace System::Security::Util {
   // Size: 0x20
@@ -46,26 +46,26 @@ namespace System::Security::Util {
     // System.Security.Util.TokenizerStringBlock m_next
     // Size: 0x8
     // Offset: 0x18
-    System::Security::Util::TokenizerStringBlock* m_next;
+    ::System::Security::Util::TokenizerStringBlock* m_next;
     // Field size check
-    static_assert(sizeof(System::Security::Util::TokenizerStringBlock*) == 0x8);
+    static_assert(sizeof(::System::Security::Util::TokenizerStringBlock*) == 0x8);
     public:
     // Get instance field reference: System.String[] m_block
     ::ArrayW<::StringW>& dyn_m_block();
     // Get instance field reference: System.Security.Util.TokenizerStringBlock m_next
-    System::Security::Util::TokenizerStringBlock*& dyn_m_next();
+    ::System::Security::Util::TokenizerStringBlock*& dyn_m_next();
     // public System.Void .ctor()
     // Offset: 0x1FFAA70
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TokenizerStringBlock* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Util::TokenizerStringBlock::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Util::TokenizerStringBlock::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TokenizerStringBlock*, creationType>()));
     }
   }; // System.Security.Util.TokenizerStringBlock
   #pragma pack(pop)
-  static check_size<sizeof(TokenizerStringBlock), 24 + sizeof(System::Security::Util::TokenizerStringBlock*)> __System_Security_Util_TokenizerStringBlockSizeCheck;
+  static check_size<sizeof(TokenizerStringBlock), 24 + sizeof(::System::Security::Util::TokenizerStringBlock*)> __System_Security_Util_TokenizerStringBlockSizeCheck;
   static_assert(sizeof(TokenizerStringBlock) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

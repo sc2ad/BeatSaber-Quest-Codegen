@@ -11,8 +11,8 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
   class ICachable;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ResourceManagement::AsyncOperations::ICachable);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::AsyncOperations::ICachable*, "UnityEngine.ResourceManagement.AsyncOperations", "ICachable");
+NEED_NO_BOX(::UnityEngine::ResourceManagement::AsyncOperations::ICachable);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::AsyncOperations::ICachable*, "UnityEngine.ResourceManagement.AsyncOperations", "ICachable");
 // Type namespace: UnityEngine.ResourceManagement.AsyncOperations
 namespace UnityEngine::ResourceManagement::AsyncOperations {
   // Size: 0x10

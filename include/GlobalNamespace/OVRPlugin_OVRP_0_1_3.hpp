@@ -16,8 +16,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRPlugin::OVRP_0_1_3);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_0_1_3*, "", "OVRPlugin/OVRP_0_1_3");
+NEED_NO_BOX(::GlobalNamespace::OVRPlugin::OVRP_0_1_3);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRPlugin::OVRP_0_1_3*, "", "OVRPlugin/OVRP_0_1_3");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -27,18 +27,18 @@ namespace GlobalNamespace {
   class OVRPlugin::OVRP_0_1_3 : public ::Il2CppObject {
     public:
     // Get static field: static public readonly System.Version version
-    static System::Version* _get_version();
+    static ::System::Version* _get_version();
     // Set static field: static public readonly System.Version version
-    static void _set_version(System::Version* value);
+    static void _set_version(::System::Version* value);
     // static private System.Void .cctor()
     // Offset: 0x1A6F63C
     static void _cctor();
     // static public OVRPlugin/Posef ovrp_GetNodeVelocity(OVRPlugin/Node nodeId)
     // Offset: 0x1A6F51C
-    static GlobalNamespace::OVRPlugin::Posef ovrp_GetNodeVelocity(GlobalNamespace::OVRPlugin::Node nodeId);
+    static ::GlobalNamespace::OVRPlugin::Posef ovrp_GetNodeVelocity(::GlobalNamespace::OVRPlugin::Node nodeId);
     // static public OVRPlugin/Posef ovrp_GetNodeAcceleration(OVRPlugin/Node nodeId)
     // Offset: 0x1A6F5AC
-    static GlobalNamespace::OVRPlugin::Posef ovrp_GetNodeAcceleration(GlobalNamespace::OVRPlugin::Node nodeId);
+    static ::GlobalNamespace::OVRPlugin::Posef ovrp_GetNodeAcceleration(::GlobalNamespace::OVRPlugin::Node nodeId);
   }; // OVRPlugin/OVRP_0_1_3
   #pragma pack(pop)
 }
@@ -54,7 +54,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_0_1_3::ovrp_GetNodeVelocity
 // Il2CppName: ovrp_GetNodeVelocity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Posef (*)(GlobalNamespace::OVRPlugin::Node)>(&GlobalNamespace::OVRPlugin::OVRP_0_1_3::ovrp_GetNodeVelocity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Posef (*)(::GlobalNamespace::OVRPlugin::Node)>(&GlobalNamespace::OVRPlugin::OVRP_0_1_3::ovrp_GetNodeVelocity)> {
   static const MethodInfo* get() {
     static auto* nodeId = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Node")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_0_1_3*), "ovrp_GetNodeVelocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeId});
@@ -63,7 +63,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_0_1_3::ovrp_GetNodeAcceleration
 // Il2CppName: ovrp_GetNodeAcceleration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Posef (*)(GlobalNamespace::OVRPlugin::Node)>(&GlobalNamespace::OVRPlugin::OVRP_0_1_3::ovrp_GetNodeAcceleration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Posef (*)(::GlobalNamespace::OVRPlugin::Node)>(&GlobalNamespace::OVRPlugin::OVRP_0_1_3::ovrp_GetNodeAcceleration)> {
   static const MethodInfo* get() {
     static auto* nodeId = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Node")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_0_1_3*), "ovrp_GetNodeAcceleration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeId});

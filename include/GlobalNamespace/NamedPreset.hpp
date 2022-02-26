@@ -17,8 +17,8 @@ namespace GlobalNamespace {
   class NamedPreset;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::NamedPreset);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NamedPreset*, "", "NamedPreset");
+NEED_NO_BOX(::GlobalNamespace::NamedPreset);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NamedPreset*, "", "NamedPreset");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -59,7 +59,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NamedPreset* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NamedPreset::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NamedPreset::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NamedPreset*, creationType>()));
     }
   }; // NamedPreset

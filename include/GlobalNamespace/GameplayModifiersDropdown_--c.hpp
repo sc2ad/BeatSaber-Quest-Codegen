@@ -27,8 +27,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::GameplayModifiersDropdown::$$c);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiersDropdown::$$c*, "", "GameplayModifiersDropdown/<>c");
+NEED_NO_BOX(::GlobalNamespace::GameplayModifiersDropdown::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameplayModifiersDropdown::$$c*, "", "GameplayModifiersDropdown/<>c");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -39,26 +39,26 @@ namespace GlobalNamespace {
   class GameplayModifiersDropdown::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly GameplayModifiersDropdown/<>c <>9
-    static GlobalNamespace::GameplayModifiersDropdown::$$c* _get_$$9();
+    static ::GlobalNamespace::GameplayModifiersDropdown::$$c* _get_$$9();
     // Set static field: static public readonly GameplayModifiersDropdown/<>c <>9
-    static void _set_$$9(GlobalNamespace::GameplayModifiersDropdown::$$c* value);
+    static void _set_$$9(::GlobalNamespace::GameplayModifiersDropdown::$$c* value);
     // Get static field: static public System.Func`2<System.Tuple`2<GameplayModifierMask,System.String>,System.String> <>9__8_0
-    static System::Func_2<System::Tuple_2<GlobalNamespace::GameplayModifierMask, ::StringW>*, ::StringW>* _get_$$9__8_0();
+    static ::System::Func_2<::System::Tuple_2<::GlobalNamespace::GameplayModifierMask, ::StringW>*, ::StringW>* _get_$$9__8_0();
     // Set static field: static public System.Func`2<System.Tuple`2<GameplayModifierMask,System.String>,System.String> <>9__8_0
-    static void _set_$$9__8_0(System::Func_2<System::Tuple_2<GlobalNamespace::GameplayModifierMask, ::StringW>*, ::StringW>* value);
+    static void _set_$$9__8_0(::System::Func_2<::System::Tuple_2<::GlobalNamespace::GameplayModifierMask, ::StringW>*, ::StringW>* value);
     // static private System.Void .cctor()
     // Offset: 0x2ADB3CC
     static void _cctor();
     // System.String <Start>b__8_0(System.Tuple`2<GameplayModifierMask,System.String> x)
     // Offset: 0x2ADB438
-    ::StringW $Start$b__8_0(System::Tuple_2<GlobalNamespace::GameplayModifierMask, ::StringW>* x);
+    ::StringW $Start$b__8_0(::System::Tuple_2<::GlobalNamespace::GameplayModifierMask, ::StringW>* x);
     // public System.Void .ctor()
     // Offset: 0x2ADB430
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameplayModifiersDropdown::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GameplayModifiersDropdown::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameplayModifiersDropdown::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameplayModifiersDropdown::$$c*, creationType>()));
     }
   }; // GameplayModifiersDropdown/<>c
@@ -76,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersDropdown::$$c::$Start$b__8_0
 // Il2CppName: <Start>b__8_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::GameplayModifiersDropdown::$$c::*)(System::Tuple_2<GlobalNamespace::GameplayModifierMask, ::StringW>*)>(&GlobalNamespace::GameplayModifiersDropdown::$$c::$Start$b__8_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::GameplayModifiersDropdown::$$c::*)(::System::Tuple_2<::GlobalNamespace::GameplayModifierMask, ::StringW>*)>(&GlobalNamespace::GameplayModifiersDropdown::$$c::$Start$b__8_0)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Tuple`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "GameplayModifierMask"), ::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersDropdown::$$c*), "<Start>b__8_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});

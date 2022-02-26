@@ -11,8 +11,8 @@
 #include "System/Int32.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BeatmapEventDataExtensions::LightSwitchEventEffectDataValues);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapEventDataExtensions::LightSwitchEventEffectDataValues*, "", "BeatmapEventDataExtensions/LightSwitchEventEffectDataValues");
+NEED_NO_BOX(::GlobalNamespace::BeatmapEventDataExtensions::LightSwitchEventEffectDataValues);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapEventDataExtensions::LightSwitchEventEffectDataValues*, "", "BeatmapEventDataExtensions/LightSwitchEventEffectDataValues");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10

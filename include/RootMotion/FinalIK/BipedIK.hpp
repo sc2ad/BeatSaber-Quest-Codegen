@@ -40,8 +40,8 @@ namespace RootMotion::FinalIK {
   class BipedIK;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::BipedIK);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::BipedIK*, "RootMotion.FinalIK", "BipedIK");
+NEED_NO_BOX(::RootMotion::FinalIK::BipedIK);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::BipedIK*, "RootMotion.FinalIK", "BipedIK");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x48
@@ -50,7 +50,7 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   // [HelpURLAttribute] Offset: 12627E0
   // [AddComponentMenu] Offset: 12627E0
-  class BipedIK : public RootMotion::SolverManager {
+  class BipedIK : public ::RootMotion::SolverManager {
     public:
     // Writing base type padding for base size: 0x33 to desired offset: 0x38
     char ___base_padding[0x5] = {};
@@ -66,20 +66,20 @@ namespace RootMotion::FinalIK {
     // public RootMotion.BipedReferences references
     // Size: 0x8
     // Offset: 0x38
-    RootMotion::BipedReferences* references;
+    ::RootMotion::BipedReferences* references;
     // Field size check
-    static_assert(sizeof(RootMotion::BipedReferences*) == 0x8);
+    static_assert(sizeof(::RootMotion::BipedReferences*) == 0x8);
     // public RootMotion.FinalIK.BipedIKSolvers solvers
     // Size: 0x8
     // Offset: 0x40
-    RootMotion::FinalIK::BipedIKSolvers* solvers;
+    ::RootMotion::FinalIK::BipedIKSolvers* solvers;
     // Field size check
-    static_assert(sizeof(RootMotion::FinalIK::BipedIKSolvers*) == 0x8);
+    static_assert(sizeof(::RootMotion::FinalIK::BipedIKSolvers*) == 0x8);
     public:
     // Get instance field reference: public RootMotion.BipedReferences references
-    RootMotion::BipedReferences*& dyn_references();
+    ::RootMotion::BipedReferences*& dyn_references();
     // Get instance field reference: public RootMotion.FinalIK.BipedIKSolvers solvers
-    RootMotion::FinalIK::BipedIKSolvers*& dyn_solvers();
+    ::RootMotion::FinalIK::BipedIKSolvers*& dyn_solvers();
     // private System.Void OpenUserManual()
     // Offset: 0x2229984
     void OpenUserManual();
@@ -94,43 +94,43 @@ namespace RootMotion::FinalIK {
     void ASThread();
     // public System.Single GetIKPositionWeight(UnityEngine.AvatarIKGoal goal)
     // Offset: 0x2229AB4
-    float GetIKPositionWeight(UnityEngine::AvatarIKGoal goal);
+    float GetIKPositionWeight(::UnityEngine::AvatarIKGoal goal);
     // public System.Single GetIKRotationWeight(UnityEngine.AvatarIKGoal goal)
     // Offset: 0x2229B50
-    float GetIKRotationWeight(UnityEngine::AvatarIKGoal goal);
+    float GetIKRotationWeight(::UnityEngine::AvatarIKGoal goal);
     // public System.Void SetIKPositionWeight(UnityEngine.AvatarIKGoal goal, System.Single weight)
     // Offset: 0x2229B70
-    void SetIKPositionWeight(UnityEngine::AvatarIKGoal goal, float weight);
+    void SetIKPositionWeight(::UnityEngine::AvatarIKGoal goal, float weight);
     // public System.Void SetIKRotationWeight(UnityEngine.AvatarIKGoal goal, System.Single weight)
     // Offset: 0x2229BA0
-    void SetIKRotationWeight(UnityEngine::AvatarIKGoal goal, float weight);
+    void SetIKRotationWeight(::UnityEngine::AvatarIKGoal goal, float weight);
     // public System.Void SetIKPosition(UnityEngine.AvatarIKGoal goal, UnityEngine.Vector3 IKPosition)
     // Offset: 0x2229BD0
-    void SetIKPosition(UnityEngine::AvatarIKGoal goal, UnityEngine::Vector3 IKPosition);
+    void SetIKPosition(::UnityEngine::AvatarIKGoal goal, ::UnityEngine::Vector3 IKPosition);
     // public System.Void SetIKRotation(UnityEngine.AvatarIKGoal goal, UnityEngine.Quaternion IKRotation)
     // Offset: 0x2229C10
-    void SetIKRotation(UnityEngine::AvatarIKGoal goal, UnityEngine::Quaternion IKRotation);
+    void SetIKRotation(::UnityEngine::AvatarIKGoal goal, ::UnityEngine::Quaternion IKRotation);
     // public UnityEngine.Vector3 GetIKPosition(UnityEngine.AvatarIKGoal goal)
     // Offset: 0x2229C54
-    UnityEngine::Vector3 GetIKPosition(UnityEngine::AvatarIKGoal goal);
+    ::UnityEngine::Vector3 GetIKPosition(::UnityEngine::AvatarIKGoal goal);
     // public UnityEngine.Quaternion GetIKRotation(UnityEngine.AvatarIKGoal goal)
     // Offset: 0x2229C78
-    UnityEngine::Quaternion GetIKRotation(UnityEngine::AvatarIKGoal goal);
+    ::UnityEngine::Quaternion GetIKRotation(::UnityEngine::AvatarIKGoal goal);
     // public System.Void SetLookAtWeight(System.Single weight, System.Single bodyWeight, System.Single headWeight, System.Single eyesWeight, System.Single clampWeight, System.Single clampWeightHead, System.Single clampWeightEyes)
     // Offset: 0x2229C9C
     void SetLookAtWeight(float weight, float bodyWeight, float headWeight, float eyesWeight, float clampWeight, float clampWeightHead, float clampWeightEyes);
     // public System.Void SetLookAtPosition(UnityEngine.Vector3 lookAtPosition)
     // Offset: 0x2229CC4
-    void SetLookAtPosition(UnityEngine::Vector3 lookAtPosition);
+    void SetLookAtPosition(::UnityEngine::Vector3 lookAtPosition);
     // public System.Void SetSpinePosition(UnityEngine.Vector3 spinePosition)
     // Offset: 0x2229CF0
-    void SetSpinePosition(UnityEngine::Vector3 spinePosition);
+    void SetSpinePosition(::UnityEngine::Vector3 spinePosition);
     // public System.Void SetSpineWeight(System.Single weight)
     // Offset: 0x2229D1C
     void SetSpineWeight(float weight);
     // public RootMotion.FinalIK.IKSolverLimb GetGoalIK(UnityEngine.AvatarIKGoal goal)
     // Offset: 0x2229AD4
-    RootMotion::FinalIK::IKSolverLimb* GetGoalIK(UnityEngine::AvatarIKGoal goal);
+    ::RootMotion::FinalIK::IKSolverLimb* GetGoalIK(::UnityEngine::AvatarIKGoal goal);
     // public System.Void InitiateBipedIK()
     // Offset: 0x2229D44
     void InitiateBipedIK();
@@ -154,7 +154,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BipedIK* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::BipedIK::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::BipedIK::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BipedIK*, creationType>()));
     }
     // protected override System.Void FixTransforms()
@@ -174,7 +174,7 @@ namespace RootMotion::FinalIK {
     void UpdateSolver();
   }; // RootMotion.FinalIK.BipedIK
   #pragma pack(pop)
-  static check_size<sizeof(BipedIK), 64 + sizeof(RootMotion::FinalIK::BipedIKSolvers*)> __RootMotion_FinalIK_BipedIKSizeCheck;
+  static check_size<sizeof(BipedIK), 64 + sizeof(::RootMotion::FinalIK::BipedIKSolvers*)> __RootMotion_FinalIK_BipedIKSizeCheck;
   static_assert(sizeof(BipedIK) == 0x48);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -213,7 +213,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::BipedIK::GetIKPositionWeight
 // Il2CppName: GetIKPositionWeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (RootMotion::FinalIK::BipedIK::*)(UnityEngine::AvatarIKGoal)>(&RootMotion::FinalIK::BipedIK::GetIKPositionWeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (RootMotion::FinalIK::BipedIK::*)(::UnityEngine::AvatarIKGoal)>(&RootMotion::FinalIK::BipedIK::GetIKPositionWeight)> {
   static const MethodInfo* get() {
     static auto* goal = &::il2cpp_utils::GetClassFromName("UnityEngine", "AvatarIKGoal")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::BipedIK*), "GetIKPositionWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{goal});
@@ -222,7 +222,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Root
 // Writing MetadataGetter for method: RootMotion::FinalIK::BipedIK::GetIKRotationWeight
 // Il2CppName: GetIKRotationWeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (RootMotion::FinalIK::BipedIK::*)(UnityEngine::AvatarIKGoal)>(&RootMotion::FinalIK::BipedIK::GetIKRotationWeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (RootMotion::FinalIK::BipedIK::*)(::UnityEngine::AvatarIKGoal)>(&RootMotion::FinalIK::BipedIK::GetIKRotationWeight)> {
   static const MethodInfo* get() {
     static auto* goal = &::il2cpp_utils::GetClassFromName("UnityEngine", "AvatarIKGoal")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::BipedIK*), "GetIKRotationWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{goal});
@@ -231,7 +231,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Root
 // Writing MetadataGetter for method: RootMotion::FinalIK::BipedIK::SetIKPositionWeight
 // Il2CppName: SetIKPositionWeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::BipedIK::*)(UnityEngine::AvatarIKGoal, float)>(&RootMotion::FinalIK::BipedIK::SetIKPositionWeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::BipedIK::*)(::UnityEngine::AvatarIKGoal, float)>(&RootMotion::FinalIK::BipedIK::SetIKPositionWeight)> {
   static const MethodInfo* get() {
     static auto* goal = &::il2cpp_utils::GetClassFromName("UnityEngine", "AvatarIKGoal")->byval_arg;
     static auto* weight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -241,7 +241,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::BipedIK::SetIKRotationWeight
 // Il2CppName: SetIKRotationWeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::BipedIK::*)(UnityEngine::AvatarIKGoal, float)>(&RootMotion::FinalIK::BipedIK::SetIKRotationWeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::BipedIK::*)(::UnityEngine::AvatarIKGoal, float)>(&RootMotion::FinalIK::BipedIK::SetIKRotationWeight)> {
   static const MethodInfo* get() {
     static auto* goal = &::il2cpp_utils::GetClassFromName("UnityEngine", "AvatarIKGoal")->byval_arg;
     static auto* weight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -251,7 +251,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::BipedIK::SetIKPosition
 // Il2CppName: SetIKPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::BipedIK::*)(UnityEngine::AvatarIKGoal, UnityEngine::Vector3)>(&RootMotion::FinalIK::BipedIK::SetIKPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::BipedIK::*)(::UnityEngine::AvatarIKGoal, ::UnityEngine::Vector3)>(&RootMotion::FinalIK::BipedIK::SetIKPosition)> {
   static const MethodInfo* get() {
     static auto* goal = &::il2cpp_utils::GetClassFromName("UnityEngine", "AvatarIKGoal")->byval_arg;
     static auto* IKPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -261,7 +261,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::BipedIK::SetIKRotation
 // Il2CppName: SetIKRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::BipedIK::*)(UnityEngine::AvatarIKGoal, UnityEngine::Quaternion)>(&RootMotion::FinalIK::BipedIK::SetIKRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::BipedIK::*)(::UnityEngine::AvatarIKGoal, ::UnityEngine::Quaternion)>(&RootMotion::FinalIK::BipedIK::SetIKRotation)> {
   static const MethodInfo* get() {
     static auto* goal = &::il2cpp_utils::GetClassFromName("UnityEngine", "AvatarIKGoal")->byval_arg;
     static auto* IKRotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
@@ -271,7 +271,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::BipedIK::GetIKPosition
 // Il2CppName: GetIKPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RootMotion::FinalIK::BipedIK::*)(UnityEngine::AvatarIKGoal)>(&RootMotion::FinalIK::BipedIK::GetIKPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (RootMotion::FinalIK::BipedIK::*)(::UnityEngine::AvatarIKGoal)>(&RootMotion::FinalIK::BipedIK::GetIKPosition)> {
   static const MethodInfo* get() {
     static auto* goal = &::il2cpp_utils::GetClassFromName("UnityEngine", "AvatarIKGoal")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::BipedIK*), "GetIKPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{goal});
@@ -280,7 +280,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: RootMotion::FinalIK::BipedIK::GetIKRotation
 // Il2CppName: GetIKRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (RootMotion::FinalIK::BipedIK::*)(UnityEngine::AvatarIKGoal)>(&RootMotion::FinalIK::BipedIK::GetIKRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (RootMotion::FinalIK::BipedIK::*)(::UnityEngine::AvatarIKGoal)>(&RootMotion::FinalIK::BipedIK::GetIKRotation)> {
   static const MethodInfo* get() {
     static auto* goal = &::il2cpp_utils::GetClassFromName("UnityEngine", "AvatarIKGoal")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::BipedIK*), "GetIKRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{goal});
@@ -304,7 +304,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::BipedIK::SetLookAtPosition
 // Il2CppName: SetLookAtPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::BipedIK::*)(UnityEngine::Vector3)>(&RootMotion::FinalIK::BipedIK::SetLookAtPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::BipedIK::*)(::UnityEngine::Vector3)>(&RootMotion::FinalIK::BipedIK::SetLookAtPosition)> {
   static const MethodInfo* get() {
     static auto* lookAtPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::BipedIK*), "SetLookAtPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lookAtPosition});
@@ -313,7 +313,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::BipedIK::SetSpinePosition
 // Il2CppName: SetSpinePosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::BipedIK::*)(UnityEngine::Vector3)>(&RootMotion::FinalIK::BipedIK::SetSpinePosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::BipedIK::*)(::UnityEngine::Vector3)>(&RootMotion::FinalIK::BipedIK::SetSpinePosition)> {
   static const MethodInfo* get() {
     static auto* spinePosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::BipedIK*), "SetSpinePosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{spinePosition});
@@ -331,7 +331,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::BipedIK::GetGoalIK
 // Il2CppName: GetGoalIK
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKSolverLimb* (RootMotion::FinalIK::BipedIK::*)(UnityEngine::AvatarIKGoal)>(&RootMotion::FinalIK::BipedIK::GetGoalIK)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::FinalIK::IKSolverLimb* (RootMotion::FinalIK::BipedIK::*)(::UnityEngine::AvatarIKGoal)>(&RootMotion::FinalIK::BipedIK::GetGoalIK)> {
   static const MethodInfo* get() {
     static auto* goal = &::il2cpp_utils::GetClassFromName("UnityEngine", "AvatarIKGoal")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::BipedIK*), "GetGoalIK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{goal});

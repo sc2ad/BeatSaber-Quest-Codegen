@@ -21,8 +21,8 @@ namespace System::Dynamic {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Dynamic::ExpandoObject::ExpandoData);
-DEFINE_IL2CPP_ARG_TYPE(System::Dynamic::ExpandoObject::ExpandoData*, "System.Dynamic", "ExpandoObject/ExpandoData");
+NEED_NO_BOX(::System::Dynamic::ExpandoObject::ExpandoData);
+DEFINE_IL2CPP_ARG_TYPE(::System::Dynamic::ExpandoObject::ExpandoData*, "System.Dynamic", "ExpandoObject/ExpandoData");
 // Type namespace: System.Dynamic
 namespace System::Dynamic {
   // Size: 0x24
@@ -44,9 +44,9 @@ namespace System::Dynamic {
     // readonly System.Dynamic.ExpandoClass Class
     // Size: 0x8
     // Offset: 0x10
-    System::Dynamic::ExpandoClass* Class;
+    ::System::Dynamic::ExpandoClass* Class;
     // Field size check
-    static_assert(sizeof(System::Dynamic::ExpandoClass*) == 0x8);
+    static_assert(sizeof(::System::Dynamic::ExpandoClass*) == 0x8);
     // private readonly System.Object[] _dataArray
     // Size: 0x8
     // Offset: 0x18
@@ -61,11 +61,11 @@ namespace System::Dynamic {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get static field: static System.Dynamic.ExpandoObject/System.Dynamic.ExpandoData Empty
-    static System::Dynamic::ExpandoObject::ExpandoData* _get_Empty();
+    static ::System::Dynamic::ExpandoObject::ExpandoData* _get_Empty();
     // Set static field: static System.Dynamic.ExpandoObject/System.Dynamic.ExpandoData Empty
-    static void _set_Empty(System::Dynamic::ExpandoObject::ExpandoData* value);
+    static void _set_Empty(::System::Dynamic::ExpandoObject::ExpandoData* value);
     // Get instance field reference: readonly System.Dynamic.ExpandoClass Class
-    System::Dynamic::ExpandoClass*& dyn_Class();
+    ::System::Dynamic::ExpandoClass*& dyn_Class();
     // Get instance field reference: private readonly System.Object[] _dataArray
     ::ArrayW<::Il2CppObject*>& dyn__dataArray();
     // Get instance field reference: private System.Int32 _version
@@ -85,8 +85,8 @@ namespace System::Dynamic {
     // System.Void .ctor(System.Dynamic.ExpandoClass klass, System.Object[] data, System.Int32 version)
     // Offset: 0x15EDE38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ExpandoObject::ExpandoData* New_ctor(System::Dynamic::ExpandoClass* klass, ::ArrayW<::Il2CppObject*> data, int version) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Dynamic::ExpandoObject::ExpandoData::.ctor");
+    static ExpandoObject::ExpandoData* New_ctor(::System::Dynamic::ExpandoClass* klass, ::ArrayW<::Il2CppObject*> data, int version) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Dynamic::ExpandoObject::ExpandoData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExpandoObject::ExpandoData*, creationType>(klass, data, version)));
     }
     // static private System.Void .cctor()
@@ -94,7 +94,7 @@ namespace System::Dynamic {
     static void _cctor();
     // System.Dynamic.ExpandoObject/System.Dynamic.ExpandoData UpdateClass(System.Dynamic.ExpandoClass newClass)
     // Offset: 0x15EC6D4
-    System::Dynamic::ExpandoObject::ExpandoData* UpdateClass(System::Dynamic::ExpandoClass* newClass);
+    ::System::Dynamic::ExpandoObject::ExpandoData* UpdateClass(::System::Dynamic::ExpandoClass* newClass);
     // static private System.Int32 GetAlignedSize(System.Int32 len)
     // Offset: 0x15EDE78
     static int GetAlignedSize(int len);
@@ -104,7 +104,7 @@ namespace System::Dynamic {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExpandoObject::ExpandoData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Dynamic::ExpandoObject::ExpandoData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Dynamic::ExpandoObject::ExpandoData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExpandoObject::ExpandoData*, creationType>()));
     }
   }; // System.Dynamic.ExpandoObject/System.Dynamic.ExpandoData
@@ -163,7 +163,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Dynamic::ExpandoObject::ExpandoData::UpdateClass
 // Il2CppName: UpdateClass
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dynamic::ExpandoObject::ExpandoData* (System::Dynamic::ExpandoObject::ExpandoData::*)(System::Dynamic::ExpandoClass*)>(&System::Dynamic::ExpandoObject::ExpandoData::UpdateClass)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::ExpandoObject::ExpandoData* (System::Dynamic::ExpandoObject::ExpandoData::*)(::System::Dynamic::ExpandoClass*)>(&System::Dynamic::ExpandoObject::ExpandoData::UpdateClass)> {
   static const MethodInfo* get() {
     static auto* newClass = &::il2cpp_utils::GetClassFromName("System.Dynamic", "ExpandoClass")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Dynamic::ExpandoObject::ExpandoData*), "UpdateClass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newClass});

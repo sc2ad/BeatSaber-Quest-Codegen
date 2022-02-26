@@ -63,8 +63,8 @@ namespace System::Resources {
   class ResourceManager;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Resources::ResourceManager);
-DEFINE_IL2CPP_ARG_TYPE(System::Resources::ResourceManager*, "System.Resources", "ResourceManager");
+NEED_NO_BOX(::System::Resources::ResourceManager);
+DEFINE_IL2CPP_ARG_TYPE(::System::Resources::ResourceManager*, "System.Resources", "ResourceManager");
 // Type namespace: System.Resources
 namespace System::Resources {
   // Size: 0x58
@@ -74,9 +74,9 @@ namespace System::Resources {
   // [ComVisibleAttribute] Offset: 1187CF0
   class ResourceManager : public ::Il2CppObject {
     public:
-    // Nested type: System::Resources::ResourceManager::CultureNameResourceSetPair
+    // Nested type: ::System::Resources::ResourceManager::CultureNameResourceSetPair
     class CultureNameResourceSetPair;
-    // Nested type: System::Resources::ResourceManager::ResourceManagerMediator
+    // Nested type: ::System::Resources::ResourceManager::ResourceManagerMediator
     class ResourceManagerMediator;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -91,33 +91,33 @@ namespace System::Resources {
     // protected System.Collections.Hashtable ResourceSets
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Hashtable* ResourceSets;
+    ::System::Collections::Hashtable* ResourceSets;
     // Field size check
-    static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
+    static_assert(sizeof(::System::Collections::Hashtable*) == 0x8);
     // private System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceSet> _resourceSets
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::Generic::Dictionary_2<::StringW, System::Resources::ResourceSet*>* resourceSets;
+    ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceSet*>* resourceSets;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, System::Resources::ResourceSet*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceSet*>*) == 0x8);
     // protected System.Reflection.Assembly MainAssembly
     // Size: 0x8
     // Offset: 0x20
-    System::Reflection::Assembly* MainAssembly;
+    ::System::Reflection::Assembly* MainAssembly;
     // Field size check
-    static_assert(sizeof(System::Reflection::Assembly*) == 0x8);
+    static_assert(sizeof(::System::Reflection::Assembly*) == 0x8);
     // private System.Globalization.CultureInfo _neutralResourcesCulture
     // Size: 0x8
     // Offset: 0x28
-    System::Globalization::CultureInfo* neutralResourcesCulture;
+    ::System::Globalization::CultureInfo* neutralResourcesCulture;
     // Field size check
-    static_assert(sizeof(System::Globalization::CultureInfo*) == 0x8);
+    static_assert(sizeof(::System::Globalization::CultureInfo*) == 0x8);
     // private System.Resources.ResourceManager/System.Resources.CultureNameResourceSetPair _lastUsedResourceCache
     // Size: 0x8
     // Offset: 0x30
-    System::Resources::ResourceManager::CultureNameResourceSetPair* lastUsedResourceCache;
+    ::System::Resources::ResourceManager::CultureNameResourceSetPair* lastUsedResourceCache;
     // Field size check
-    static_assert(sizeof(System::Resources::ResourceManager::CultureNameResourceSetPair*) == 0x8);
+    static_assert(sizeof(::System::Resources::ResourceManager::CultureNameResourceSetPair*) == 0x8);
     // private System.Boolean UseManifest
     // Size: 0x1
     // Offset: 0x38
@@ -137,29 +137,29 @@ namespace System::Resources {
     // private System.Resources.UltimateResourceFallbackLocation _fallbackLoc
     // Size: 0x4
     // Offset: 0x3C
-    System::Resources::UltimateResourceFallbackLocation fallbackLoc;
+    ::System::Resources::UltimateResourceFallbackLocation fallbackLoc;
     // Field size check
-    static_assert(sizeof(System::Resources::UltimateResourceFallbackLocation) == 0x4);
+    static_assert(sizeof(::System::Resources::UltimateResourceFallbackLocation) == 0x4);
     // [OptionalFieldAttribute] Offset: 0x118DE58
     // private System.Reflection.Assembly _callingAssembly
     // Size: 0x8
     // Offset: 0x40
-    System::Reflection::Assembly* callingAssembly;
+    ::System::Reflection::Assembly* callingAssembly;
     // Field size check
-    static_assert(sizeof(System::Reflection::Assembly*) == 0x8);
+    static_assert(sizeof(::System::Reflection::Assembly*) == 0x8);
     // [OptionalFieldAttribute] Offset: 0x118DE90
     // private System.Reflection.RuntimeAssembly m_callingAssembly
     // Size: 0x8
     // Offset: 0x48
-    System::Reflection::RuntimeAssembly* m_callingAssembly;
+    ::System::Reflection::RuntimeAssembly* m_callingAssembly;
     // Field size check
-    static_assert(sizeof(System::Reflection::RuntimeAssembly*) == 0x8);
+    static_assert(sizeof(::System::Reflection::RuntimeAssembly*) == 0x8);
     // private System.Resources.IResourceGroveler resourceGroveler
     // Size: 0x8
     // Offset: 0x50
-    System::Resources::IResourceGroveler* resourceGroveler;
+    ::System::Resources::IResourceGroveler* resourceGroveler;
     // Field size check
-    static_assert(sizeof(System::Resources::IResourceGroveler*) == 0x8);
+    static_assert(sizeof(::System::Resources::IResourceGroveler*) == 0x8);
     public:
     // Get static field: static public readonly System.Int32 MagicNumber
     static int _get_MagicNumber();
@@ -170,9 +170,9 @@ namespace System::Resources {
     // Set static field: static public readonly System.Int32 HeaderVersionNumber
     static void _set_HeaderVersionNumber(int value);
     // Get static field: static private readonly System.Type _minResourceSet
-    static System::Type* _get__minResourceSet();
+    static ::System::Type* _get__minResourceSet();
     // Set static field: static private readonly System.Type _minResourceSet
-    static void _set__minResourceSet(System::Type* value);
+    static void _set__minResourceSet(::System::Type* value);
     // Get static field: static readonly System.String ResReaderTypeName
     static ::StringW _get_ResReaderTypeName();
     // Set static field: static readonly System.String ResReaderTypeName
@@ -190,27 +190,27 @@ namespace System::Resources {
     // Set static field: static readonly System.Int32 DEBUG
     static void _set_DEBUG(int value);
     // Get instance field reference: protected System.Collections.Hashtable ResourceSets
-    System::Collections::Hashtable*& dyn_ResourceSets();
+    ::System::Collections::Hashtable*& dyn_ResourceSets();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceSet> _resourceSets
-    System::Collections::Generic::Dictionary_2<::StringW, System::Resources::ResourceSet*>*& dyn__resourceSets();
+    ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceSet*>*& dyn__resourceSets();
     // Get instance field reference: protected System.Reflection.Assembly MainAssembly
-    System::Reflection::Assembly*& dyn_MainAssembly();
+    ::System::Reflection::Assembly*& dyn_MainAssembly();
     // Get instance field reference: private System.Globalization.CultureInfo _neutralResourcesCulture
-    System::Globalization::CultureInfo*& dyn__neutralResourcesCulture();
+    ::System::Globalization::CultureInfo*& dyn__neutralResourcesCulture();
     // Get instance field reference: private System.Resources.ResourceManager/System.Resources.CultureNameResourceSetPair _lastUsedResourceCache
-    System::Resources::ResourceManager::CultureNameResourceSetPair*& dyn__lastUsedResourceCache();
+    ::System::Resources::ResourceManager::CultureNameResourceSetPair*& dyn__lastUsedResourceCache();
     // Get instance field reference: private System.Boolean UseManifest
     bool& dyn_UseManifest();
     // Get instance field reference: private System.Boolean UseSatelliteAssem
     bool& dyn_UseSatelliteAssem();
     // Get instance field reference: private System.Resources.UltimateResourceFallbackLocation _fallbackLoc
-    System::Resources::UltimateResourceFallbackLocation& dyn__fallbackLoc();
+    ::System::Resources::UltimateResourceFallbackLocation& dyn__fallbackLoc();
     // Get instance field reference: private System.Reflection.Assembly _callingAssembly
-    System::Reflection::Assembly*& dyn__callingAssembly();
+    ::System::Reflection::Assembly*& dyn__callingAssembly();
     // Get instance field reference: private System.Reflection.RuntimeAssembly m_callingAssembly
-    System::Reflection::RuntimeAssembly*& dyn_m_callingAssembly();
+    ::System::Reflection::RuntimeAssembly*& dyn_m_callingAssembly();
     // Get instance field reference: private System.Resources.IResourceGroveler resourceGroveler
-    System::Resources::IResourceGroveler*& dyn_resourceGroveler();
+    ::System::Resources::IResourceGroveler*& dyn_resourceGroveler();
     // static private System.Void .cctor()
     // Offset: 0x1C63700
     static void _cctor();
@@ -219,28 +219,28 @@ namespace System::Resources {
     void Init();
     // private System.Void OnDeserializing(System.Runtime.Serialization.StreamingContext ctx)
     // Offset: 0x1C632C4
-    void OnDeserializing(System::Runtime::Serialization::StreamingContext ctx);
+    void OnDeserializing(::System::Runtime::Serialization::StreamingContext ctx);
     // private System.Void OnDeserialized(System.Runtime.Serialization.StreamingContext ctx)
     // Offset: 0x1C632D4
-    void OnDeserialized(System::Runtime::Serialization::StreamingContext ctx);
+    void OnDeserialized(::System::Runtime::Serialization::StreamingContext ctx);
     // private System.Void OnSerializing(System.Runtime.Serialization.StreamingContext ctx)
     // Offset: 0x1C63430
-    void OnSerializing(System::Runtime::Serialization::StreamingContext ctx);
+    void OnSerializing(::System::Runtime::Serialization::StreamingContext ctx);
     // static System.Boolean CompareNames(System.String asmTypeName1, System.String typeName2, System.Reflection.AssemblyName asmName2)
     // Offset: 0x1C634A0
-    static bool CompareNames(::StringW asmTypeName1, ::StringW typeName2, System::Reflection::AssemblyName* asmName2);
+    static bool CompareNames(::StringW asmTypeName1, ::StringW typeName2, ::System::Reflection::AssemblyName* asmName2);
     // protected System.Void .ctor()
     // Offset: 0x1C63164
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResourceManager* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Resources::ResourceManager::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Resources::ResourceManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResourceManager*, creationType>()));
     }
   }; // System.Resources.ResourceManager
   #pragma pack(pop)
-  static check_size<sizeof(ResourceManager), 80 + sizeof(System::Resources::IResourceGroveler*)> __System_Resources_ResourceManagerSizeCheck;
+  static check_size<sizeof(ResourceManager), 80 + sizeof(::System::Resources::IResourceGroveler*)> __System_Resources_ResourceManagerSizeCheck;
   static_assert(sizeof(ResourceManager) == 0x58);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -263,7 +263,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Resources::ResourceManager::OnDeserializing
 // Il2CppName: OnDeserializing
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Resources::ResourceManager::*)(System::Runtime::Serialization::StreamingContext)>(&System::Resources::ResourceManager::OnDeserializing)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Resources::ResourceManager::*)(::System::Runtime::Serialization::StreamingContext)>(&System::Resources::ResourceManager::OnDeserializing)> {
   static const MethodInfo* get() {
     static auto* ctx = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceManager*), "OnDeserializing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ctx});
@@ -272,7 +272,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Resources::ResourceManager::OnDeserialized
 // Il2CppName: OnDeserialized
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Resources::ResourceManager::*)(System::Runtime::Serialization::StreamingContext)>(&System::Resources::ResourceManager::OnDeserialized)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Resources::ResourceManager::*)(::System::Runtime::Serialization::StreamingContext)>(&System::Resources::ResourceManager::OnDeserialized)> {
   static const MethodInfo* get() {
     static auto* ctx = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceManager*), "OnDeserialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ctx});
@@ -281,7 +281,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Resources::ResourceManager::OnSerializing
 // Il2CppName: OnSerializing
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Resources::ResourceManager::*)(System::Runtime::Serialization::StreamingContext)>(&System::Resources::ResourceManager::OnSerializing)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Resources::ResourceManager::*)(::System::Runtime::Serialization::StreamingContext)>(&System::Resources::ResourceManager::OnSerializing)> {
   static const MethodInfo* get() {
     static auto* ctx = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceManager*), "OnSerializing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ctx});
@@ -290,7 +290,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Resources::ResourceManager::CompareNames
 // Il2CppName: CompareNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW, System::Reflection::AssemblyName*)>(&System::Resources::ResourceManager::CompareNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW, ::System::Reflection::AssemblyName*)>(&System::Resources::ResourceManager::CompareNames)> {
   static const MethodInfo* get() {
     static auto* asmTypeName1 = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* typeName2 = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

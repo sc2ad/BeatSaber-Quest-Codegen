@@ -18,8 +18,8 @@ namespace UnityEngine::Timeline {
   class SignalTrack;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Timeline::SignalTrack);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::SignalTrack*, "UnityEngine.Timeline", "SignalTrack");
+NEED_NO_BOX(::UnityEngine::Timeline::SignalTrack);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::SignalTrack*, "UnityEngine.Timeline", "SignalTrack");
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
   // WARNING Size may be invalid!
@@ -28,7 +28,7 @@ namespace UnityEngine::Timeline {
   // [TrackBindingTypeAttribute] Offset: 11F10C4
   // [TrackColorAttribute] Offset: 11F10C4
   // [ExcludeFromPresetAttribute] Offset: FFFFFFFF
-  class SignalTrack : public UnityEngine::Timeline::MarkerTrack {
+  class SignalTrack : public ::UnityEngine::Timeline::MarkerTrack {
     public:
     // public System.Void .ctor()
     // Offset: 0x1CA0FB0
@@ -41,7 +41,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SignalTrack* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::SignalTrack::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Timeline::SignalTrack::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SignalTrack*, creationType>()));
     }
   }; // UnityEngine.Timeline.SignalTrack

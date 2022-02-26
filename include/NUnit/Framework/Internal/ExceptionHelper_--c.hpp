@@ -20,8 +20,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Internal::ExceptionHelper::$$c);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::ExceptionHelper::$$c*, "NUnit.Framework.Internal", "ExceptionHelper/<>c");
+NEED_NO_BOX(::NUnit::Framework::Internal::ExceptionHelper::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::NUnit::Framework::Internal::ExceptionHelper::$$c*, "NUnit.Framework.Internal", "ExceptionHelper/<>c");
 // Type namespace: NUnit.Framework.Internal
 namespace NUnit::Framework::Internal {
   // Size: 0x10
@@ -32,22 +32,22 @@ namespace NUnit::Framework::Internal {
   class ExceptionHelper::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly NUnit.Framework.Internal.ExceptionHelper/NUnit.Framework.Internal.<>c <>9
-    static NUnit::Framework::Internal::ExceptionHelper::$$c* _get_$$9();
+    static ::NUnit::Framework::Internal::ExceptionHelper::$$c* _get_$$9();
     // Set static field: static public readonly NUnit.Framework.Internal.ExceptionHelper/NUnit.Framework.Internal.<>c <>9
-    static void _set_$$9(NUnit::Framework::Internal::ExceptionHelper::$$c* value);
+    static void _set_$$9(::NUnit::Framework::Internal::ExceptionHelper::$$c* value);
     // static private System.Void .cctor()
     // Offset: 0x1B630A4
     static void _cctor();
     // System.Void <.cctor>b__1_0(System.Exception _)
     // Offset: 0x1B63110
-    void $_cctor$b__1_0(System::Exception* _);
+    void $_cctor$b__1_0(::System::Exception* _);
     // public System.Void .ctor()
     // Offset: 0x1B63108
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExceptionHelper::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::ExceptionHelper::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::ExceptionHelper::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExceptionHelper::$$c*, creationType>()));
     }
   }; // NUnit.Framework.Internal.ExceptionHelper/NUnit.Framework.Internal.<>c
@@ -65,7 +65,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: NUnit::Framework::Internal::ExceptionHelper::$$c::$_cctor$b__1_0
 // Il2CppName: <.cctor>b__1_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::ExceptionHelper::$$c::*)(System::Exception*)>(&NUnit::Framework::Internal::ExceptionHelper::$$c::$_cctor$b__1_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::ExceptionHelper::$$c::*)(::System::Exception*)>(&NUnit::Framework::Internal::ExceptionHelper::$$c::$_cctor$b__1_0)> {
   static const MethodInfo* get() {
     static auto* _ = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::ExceptionHelper::$$c*), "<.cctor>b__1_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{_});

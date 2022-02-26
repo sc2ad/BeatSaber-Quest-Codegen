@@ -25,8 +25,8 @@ namespace Zenject {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::SubContainerCreatorByNewPrefabWithParams::$$c__DisplayClass7_0);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorByNewPrefabWithParams::$$c__DisplayClass7_0*, "Zenject", "SubContainerCreatorByNewPrefabWithParams/<>c__DisplayClass7_0");
+NEED_NO_BOX(::Zenject::SubContainerCreatorByNewPrefabWithParams::$$c__DisplayClass7_0);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::SubContainerCreatorByNewPrefabWithParams::$$c__DisplayClass7_0*, "Zenject", "SubContainerCreatorByNewPrefabWithParams/<>c__DisplayClass7_0");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x20
@@ -48,47 +48,47 @@ namespace Zenject {
     // public Zenject.TypeValuePair argPair
     // Size: 0x10
     // Offset: 0x10
-    Zenject::TypeValuePair argPair;
+    ::Zenject::TypeValuePair argPair;
     // Field size check
-    static_assert(sizeof(Zenject::TypeValuePair) == 0x10);
+    static_assert(sizeof(::Zenject::TypeValuePair) == 0x10);
     public:
-    // Creating conversion operator: operator Zenject::TypeValuePair
-    constexpr operator Zenject::TypeValuePair() const noexcept {
+    // Creating conversion operator: operator ::Zenject::TypeValuePair
+    constexpr operator ::Zenject::TypeValuePair() const noexcept {
       return argPair;
     }
     // Get instance field reference: public Zenject.TypeValuePair argPair
-    Zenject::TypeValuePair& dyn_argPair();
+    ::Zenject::TypeValuePair& dyn_argPair();
     // System.Boolean <CreateTempContainer>b__0(Zenject.InjectableInfo x)
     // Offset: 0x246B68C
-    bool $CreateTempContainer$b__0(Zenject::InjectableInfo* x);
+    bool $CreateTempContainer$b__0(::Zenject::InjectableInfo* x);
     // System.Int32 <CreateTempContainer>b__1(Zenject.InjectableInfo x)
     // Offset: 0x246B714
-    int $CreateTempContainer$b__1(Zenject::InjectableInfo* x);
+    int $CreateTempContainer$b__1(::Zenject::InjectableInfo* x);
     // static private System.Object __zenCreate(System.Object[] P_0)
     // Offset: 0x246B734
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
     // Offset: 0x246B790
-    static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
     // Offset: 0x246B4F0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubContainerCreatorByNewPrefabWithParams::$$c__DisplayClass7_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::SubContainerCreatorByNewPrefabWithParams::$$c__DisplayClass7_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SubContainerCreatorByNewPrefabWithParams::$$c__DisplayClass7_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SubContainerCreatorByNewPrefabWithParams::$$c__DisplayClass7_0*, creationType>()));
     }
   }; // Zenject.SubContainerCreatorByNewPrefabWithParams/Zenject.<>c__DisplayClass7_0
   #pragma pack(pop)
-  static check_size<sizeof(SubContainerCreatorByNewPrefabWithParams::$$c__DisplayClass7_0), 16 + sizeof(Zenject::TypeValuePair)> __Zenject_SubContainerCreatorByNewPrefabWithParams_$$c__DisplayClass7_0SizeCheck;
+  static check_size<sizeof(SubContainerCreatorByNewPrefabWithParams::$$c__DisplayClass7_0), 16 + sizeof(::Zenject::TypeValuePair)> __Zenject_SubContainerCreatorByNewPrefabWithParams_$$c__DisplayClass7_0SizeCheck;
   static_assert(sizeof(SubContainerCreatorByNewPrefabWithParams::$$c__DisplayClass7_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::SubContainerCreatorByNewPrefabWithParams::$$c__DisplayClass7_0::$CreateTempContainer$b__0
 // Il2CppName: <CreateTempContainer>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::SubContainerCreatorByNewPrefabWithParams::$$c__DisplayClass7_0::*)(Zenject::InjectableInfo*)>(&Zenject::SubContainerCreatorByNewPrefabWithParams::$$c__DisplayClass7_0::$CreateTempContainer$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::SubContainerCreatorByNewPrefabWithParams::$$c__DisplayClass7_0::*)(::Zenject::InjectableInfo*)>(&Zenject::SubContainerCreatorByNewPrefabWithParams::$$c__DisplayClass7_0::$CreateTempContainer$b__0)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("Zenject", "InjectableInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerCreatorByNewPrefabWithParams::$$c__DisplayClass7_0*), "<CreateTempContainer>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -97,7 +97,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenje
 // Writing MetadataGetter for method: Zenject::SubContainerCreatorByNewPrefabWithParams::$$c__DisplayClass7_0::$CreateTempContainer$b__1
 // Il2CppName: <CreateTempContainer>b__1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Zenject::SubContainerCreatorByNewPrefabWithParams::$$c__DisplayClass7_0::*)(Zenject::InjectableInfo*)>(&Zenject::SubContainerCreatorByNewPrefabWithParams::$$c__DisplayClass7_0::$CreateTempContainer$b__1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Zenject::SubContainerCreatorByNewPrefabWithParams::$$c__DisplayClass7_0::*)(::Zenject::InjectableInfo*)>(&Zenject::SubContainerCreatorByNewPrefabWithParams::$$c__DisplayClass7_0::$CreateTempContainer$b__1)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("Zenject", "InjectableInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerCreatorByNewPrefabWithParams::$$c__DisplayClass7_0*), "<CreateTempContainer>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -115,7 +115,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: Zenject::SubContainerCreatorByNewPrefabWithParams::$$c__DisplayClass7_0::__zenCreateInjectTypeInfo
 // Il2CppName: __zenCreateInjectTypeInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (*)()>(&Zenject::SubContainerCreatorByNewPrefabWithParams::$$c__DisplayClass7_0::__zenCreateInjectTypeInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&Zenject::SubContainerCreatorByNewPrefabWithParams::$$c__DisplayClass7_0::__zenCreateInjectTypeInfo)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerCreatorByNewPrefabWithParams::$$c__DisplayClass7_0*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

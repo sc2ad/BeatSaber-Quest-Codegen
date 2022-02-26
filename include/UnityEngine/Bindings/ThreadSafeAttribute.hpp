@@ -18,8 +18,8 @@ namespace UnityEngine::Bindings {
   class ThreadSafeAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Bindings::ThreadSafeAttribute);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::ThreadSafeAttribute*, "UnityEngine.Bindings", "ThreadSafeAttribute");
+NEED_NO_BOX(::UnityEngine::Bindings::ThreadSafeAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Bindings::ThreadSafeAttribute*, "UnityEngine.Bindings", "ThreadSafeAttribute");
 // Type namespace: UnityEngine.Bindings
 namespace UnityEngine::Bindings {
   // Size: 0x1C
@@ -28,7 +28,7 @@ namespace UnityEngine::Bindings {
   // [TokenAttribute] Offset: FFFFFFFF
   // [VisibleToOtherModulesAttribute] Offset: FFFFFFFF
   // [AttributeUsageAttribute] Offset: 11A13A8
-  class ThreadSafeAttribute : public UnityEngine::Bindings::NativeMethodAttribute {
+  class ThreadSafeAttribute : public ::UnityEngine::Bindings::NativeMethodAttribute {
     public:
     // public System.Void .ctor()
     // Offset: 0x2A5759C
@@ -38,7 +38,7 @@ namespace UnityEngine::Bindings {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ThreadSafeAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::ThreadSafeAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Bindings::ThreadSafeAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ThreadSafeAttribute*, creationType>()));
     }
   }; // UnityEngine.Bindings.ThreadSafeAttribute

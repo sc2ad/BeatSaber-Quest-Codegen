@@ -29,8 +29,8 @@ namespace System::Xml::Schema {
   class ActiveAxis;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Schema::ActiveAxis);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::ActiveAxis*, "System.Xml.Schema", "ActiveAxis");
+NEED_NO_BOX(::System::Xml::Schema::ActiveAxis);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::ActiveAxis*, "System.Xml.Schema", "ActiveAxis");
 // Type namespace: System.Xml.Schema
 namespace System::Xml::Schema {
   // Size: 0x28
@@ -65,32 +65,32 @@ namespace System::Xml::Schema {
     // private System.Xml.Schema.Asttree axisTree
     // Size: 0x8
     // Offset: 0x18
-    System::Xml::Schema::Asttree* axisTree;
+    ::System::Xml::Schema::Asttree* axisTree;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::Asttree*) == 0x8);
+    static_assert(sizeof(::System::Xml::Schema::Asttree*) == 0x8);
     // private System.Collections.ArrayList axisStack
     // Size: 0x8
     // Offset: 0x20
-    System::Collections::ArrayList* axisStack;
+    ::System::Collections::ArrayList* axisStack;
     // Field size check
-    static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
+    static_assert(sizeof(::System::Collections::ArrayList*) == 0x8);
     public:
     // Get instance field reference: private System.Int32 currentDepth
     int& dyn_currentDepth();
     // Get instance field reference: private System.Boolean isActive
     bool& dyn_isActive();
     // Get instance field reference: private System.Xml.Schema.Asttree axisTree
-    System::Xml::Schema::Asttree*& dyn_axisTree();
+    ::System::Xml::Schema::Asttree*& dyn_axisTree();
     // Get instance field reference: private System.Collections.ArrayList axisStack
-    System::Collections::ArrayList*& dyn_axisStack();
+    ::System::Collections::ArrayList*& dyn_axisStack();
     // public System.Int32 get_CurrentDepth()
     // Offset: 0x16F0A5C
     int get_CurrentDepth();
     // System.Void .ctor(System.Xml.Schema.Asttree axisTree)
     // Offset: 0x16F0A78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ActiveAxis* New_ctor(System::Xml::Schema::Asttree* axisTree) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Schema::ActiveAxis::.ctor");
+    static ActiveAxis* New_ctor(::System::Xml::Schema::Asttree* axisTree) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::ActiveAxis::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ActiveAxis*, creationType>(axisTree)));
     }
     // System.Void Reactivate()
@@ -107,7 +107,7 @@ namespace System::Xml::Schema {
     bool MoveToAttribute(::StringW localname, ::StringW URN);
   }; // System.Xml.Schema.ActiveAxis
   #pragma pack(pop)
-  static check_size<sizeof(ActiveAxis), 32 + sizeof(System::Collections::ArrayList*)> __System_Xml_Schema_ActiveAxisSizeCheck;
+  static check_size<sizeof(ActiveAxis), 32 + sizeof(::System::Collections::ArrayList*)> __System_Xml_Schema_ActiveAxisSizeCheck;
   static_assert(sizeof(ActiveAxis) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

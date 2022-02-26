@@ -33,8 +33,8 @@ namespace UnityEngine {
   class Gradient;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Gradient);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Gradient*, "UnityEngine", "Gradient");
+NEED_NO_BOX(::UnityEngine::Gradient);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Gradient*, "UnityEngine", "Gradient");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -44,7 +44,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [RequiredByNativeCodeAttribute] Offset: 11A511C
   // [NativeHeaderAttribute] Offset: 11A511C
-  class Gradient : public ::Il2CppObject/*, public System::IEquatable_1<UnityEngine::Gradient*>*/ {
+  class Gradient : public ::Il2CppObject/*, public ::System::IEquatable_1<::UnityEngine::Gradient*>*/ {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -58,60 +58,60 @@ namespace UnityEngine {
     // System.IntPtr m_Ptr
     // Size: 0x8
     // Offset: 0x10
-    System::IntPtr m_Ptr;
+    ::System::IntPtr m_Ptr;
     // Field size check
-    static_assert(sizeof(System::IntPtr) == 0x8);
+    static_assert(sizeof(::System::IntPtr) == 0x8);
     public:
-    // Creating interface conversion operator: operator System::IEquatable_1<UnityEngine::Gradient*>
-    operator System::IEquatable_1<UnityEngine::Gradient*>() noexcept {
-      return *reinterpret_cast<System::IEquatable_1<UnityEngine::Gradient*>*>(this);
+    // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::Gradient*>
+    operator ::System::IEquatable_1<::UnityEngine::Gradient*>() noexcept {
+      return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::Gradient*>*>(this);
     }
-    // Creating conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const noexcept {
+    // Creating conversion operator: operator ::System::IntPtr
+    constexpr operator ::System::IntPtr() const noexcept {
       return m_Ptr;
     }
     // Get instance field reference: System.IntPtr m_Ptr
-    System::IntPtr& dyn_m_Ptr();
+    ::System::IntPtr& dyn_m_Ptr();
     // public UnityEngine.GradientColorKey[] get_colorKeys()
     // Offset: 0x1EBE5F8
-    ::ArrayW<UnityEngine::GradientColorKey> get_colorKeys();
+    ::ArrayW<::UnityEngine::GradientColorKey> get_colorKeys();
     // public System.Void set_colorKeys(UnityEngine.GradientColorKey[] value)
     // Offset: 0x1EBE638
-    void set_colorKeys(::ArrayW<UnityEngine::GradientColorKey> value);
+    void set_colorKeys(::ArrayW<::UnityEngine::GradientColorKey> value);
     // public UnityEngine.GradientAlphaKey[] get_alphaKeys()
     // Offset: 0x1EBE688
-    ::ArrayW<UnityEngine::GradientAlphaKey> get_alphaKeys();
+    ::ArrayW<::UnityEngine::GradientAlphaKey> get_alphaKeys();
     // public System.Void set_mode(UnityEngine.GradientMode value)
     // Offset: 0x1EBE6C8
-    void set_mode(UnityEngine::GradientMode value);
+    void set_mode(::UnityEngine::GradientMode value);
     // static private System.IntPtr Init()
     // Offset: 0x1EBE390
-    static System::IntPtr Init();
+    static ::System::IntPtr Init();
     // private System.Void Cleanup()
     // Offset: 0x1EBE3C4
     void Cleanup();
     // private System.Boolean Internal_Equals(System.IntPtr other)
     // Offset: 0x1EBE404
-    bool Internal_Equals(System::IntPtr other);
+    bool Internal_Equals(::System::IntPtr other);
     // public UnityEngine.Color Evaluate(System.Single time)
     // Offset: 0x1EBE52C
-    UnityEngine::Color Evaluate(float time);
+    ::UnityEngine::Color Evaluate(float time);
     // public System.Void SetKeys(UnityEngine.GradientColorKey[] colorKeys, UnityEngine.GradientAlphaKey[] alphaKeys)
     // Offset: 0x1EBE718
-    void SetKeys(::ArrayW<UnityEngine::GradientColorKey> colorKeys, ::ArrayW<UnityEngine::GradientAlphaKey> alphaKeys);
+    void SetKeys(::ArrayW<::UnityEngine::GradientColorKey> colorKeys, ::ArrayW<::UnityEngine::GradientAlphaKey> alphaKeys);
     // public System.Boolean Equals(UnityEngine.Gradient other)
     // Offset: 0x1EBE84C
-    bool Equals(UnityEngine::Gradient* other);
+    bool Equals(::UnityEngine::Gradient* other);
     // private System.Void Evaluate_Injected(System.Single time, out UnityEngine.Color ret)
     // Offset: 0x1EBE598
-    void Evaluate_Injected(float time, ByRef<UnityEngine::Color> ret);
+    void Evaluate_Injected(float time, ByRef<::UnityEngine::Color> ret);
     // public System.Void .ctor()
     // Offset: 0x1EBE454
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Gradient* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Gradient::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Gradient::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Gradient*, creationType>()));
     }
     // protected override System.Void Finalize()
@@ -131,14 +131,14 @@ namespace UnityEngine {
     int GetHashCode();
   }; // UnityEngine.Gradient
   #pragma pack(pop)
-  static check_size<sizeof(Gradient), 16 + sizeof(System::IntPtr)> __UnityEngine_GradientSizeCheck;
+  static check_size<sizeof(Gradient), 16 + sizeof(::System::IntPtr)> __UnityEngine_GradientSizeCheck;
   static_assert(sizeof(Gradient) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Gradient::get_colorKeys
 // Il2CppName: get_colorKeys
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::GradientColorKey> (UnityEngine::Gradient::*)()>(&UnityEngine::Gradient::get_colorKeys)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::GradientColorKey> (UnityEngine::Gradient::*)()>(&UnityEngine::Gradient::get_colorKeys)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Gradient*), "get_colorKeys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -146,7 +146,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: UnityEngine::Gradient::set_colorKeys
 // Il2CppName: set_colorKeys
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Gradient::*)(::ArrayW<UnityEngine::GradientColorKey>)>(&UnityEngine::Gradient::set_colorKeys)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Gradient::*)(::ArrayW<::UnityEngine::GradientColorKey>)>(&UnityEngine::Gradient::set_colorKeys)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GradientColorKey"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Gradient*), "set_colorKeys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -155,7 +155,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Gradient::get_alphaKeys
 // Il2CppName: get_alphaKeys
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::GradientAlphaKey> (UnityEngine::Gradient::*)()>(&UnityEngine::Gradient::get_alphaKeys)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::GradientAlphaKey> (UnityEngine::Gradient::*)()>(&UnityEngine::Gradient::get_alphaKeys)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Gradient*), "get_alphaKeys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -163,7 +163,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: UnityEngine::Gradient::set_mode
 // Il2CppName: set_mode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Gradient::*)(UnityEngine::GradientMode)>(&UnityEngine::Gradient::set_mode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Gradient::*)(::UnityEngine::GradientMode)>(&UnityEngine::Gradient::set_mode)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GradientMode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Gradient*), "set_mode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -172,7 +172,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Gradient::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&UnityEngine::Gradient::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&UnityEngine::Gradient::Init)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Gradient*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -188,7 +188,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Gradient::Internal_Equals
 // Il2CppName: Internal_Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Gradient::*)(System::IntPtr)>(&UnityEngine::Gradient::Internal_Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Gradient::*)(::System::IntPtr)>(&UnityEngine::Gradient::Internal_Equals)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Gradient*), "Internal_Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
@@ -197,7 +197,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::Gradient::Evaluate
 // Il2CppName: Evaluate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (UnityEngine::Gradient::*)(float)>(&UnityEngine::Gradient::Evaluate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (UnityEngine::Gradient::*)(float)>(&UnityEngine::Gradient::Evaluate)> {
   static const MethodInfo* get() {
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Gradient*), "Evaluate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time});
@@ -206,7 +206,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Gradient::SetKeys
 // Il2CppName: SetKeys
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Gradient::*)(::ArrayW<UnityEngine::GradientColorKey>, ::ArrayW<UnityEngine::GradientAlphaKey>)>(&UnityEngine::Gradient::SetKeys)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Gradient::*)(::ArrayW<::UnityEngine::GradientColorKey>, ::ArrayW<::UnityEngine::GradientAlphaKey>)>(&UnityEngine::Gradient::SetKeys)> {
   static const MethodInfo* get() {
     static auto* colorKeys = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GradientColorKey"), 1)->byval_arg;
     static auto* alphaKeys = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GradientAlphaKey"), 1)->byval_arg;
@@ -216,7 +216,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Gradient::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Gradient::*)(UnityEngine::Gradient*)>(&UnityEngine::Gradient::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Gradient::*)(::UnityEngine::Gradient*)>(&UnityEngine::Gradient::Equals)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("UnityEngine", "Gradient")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Gradient*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
@@ -225,7 +225,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::Gradient::Evaluate_Injected
 // Il2CppName: Evaluate_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Gradient::*)(float, ByRef<UnityEngine::Color>)>(&UnityEngine::Gradient::Evaluate_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Gradient::*)(float, ByRef<::UnityEngine::Color>)>(&UnityEngine::Gradient::Evaluate_Injected)> {
   static const MethodInfo* get() {
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->this_arg;

@@ -18,8 +18,8 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   class IAssetBundleResource;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*, "UnityEngine.ResourceManagement.ResourceProviders", "IAssetBundleResource");
+NEED_NO_BOX(::UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*, "UnityEngine.ResourceManagement.ResourceProviders", "IAssetBundleResource");
 // Type namespace: UnityEngine.ResourceManagement.ResourceProviders
 namespace UnityEngine::ResourceManagement::ResourceProviders {
   // Size: 0x10
@@ -30,7 +30,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     public:
     // public UnityEngine.AssetBundle GetAssetBundle()
     // Offset: 0xFFFFFFFF
-    UnityEngine::AssetBundle* GetAssetBundle();
+    ::UnityEngine::AssetBundle* GetAssetBundle();
   }; // UnityEngine.ResourceManagement.ResourceProviders.IAssetBundleResource
   #pragma pack(pop)
 }
@@ -38,7 +38,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource::GetAssetBundle
 // Il2CppName: GetAssetBundle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AssetBundle* (UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource::*)()>(&UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource::GetAssetBundle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AssetBundle* (UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource::*)()>(&UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource::GetAssetBundle)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*), "GetAssetBundle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -31,8 +31,8 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   class BinaryMethodReturn;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn*, "System.Runtime.Serialization.Formatters.Binary", "BinaryMethodReturn");
+NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn*, "System.Runtime.Serialization.Formatters.Binary", "BinaryMethodReturn");
 // Type namespace: System.Runtime.Serialization.Formatters.Binary
 namespace System::Runtime::Serialization::Formatters::Binary {
   // Size: 0x40
@@ -71,9 +71,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // private System.Type[] argTypes
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayW<System::Type*> argTypes;
+    ::ArrayW<::System::Type*> argTypes;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::Type*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::System::Type*>) == 0x8);
     // private System.Boolean bArgsPrimitive
     // Size: 0x1
     // Offset: 0x30
@@ -85,15 +85,15 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // private System.Runtime.Serialization.Formatters.Binary.MessageEnum messageEnum
     // Size: 0x4
     // Offset: 0x34
-    System::Runtime::Serialization::Formatters::Binary::MessageEnum messageEnum;
+    ::System::Runtime::Serialization::Formatters::Binary::MessageEnum messageEnum;
     // Field size check
-    static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::MessageEnum) == 0x4);
+    static_assert(sizeof(::System::Runtime::Serialization::Formatters::Binary::MessageEnum) == 0x4);
     // private System.Type returnType
     // Size: 0x8
     // Offset: 0x38
-    System::Type* returnType;
+    ::System::Type* returnType;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     public:
     // Get static field: static private System.Object instanceOfVoid
     static ::Il2CppObject* _get_instanceOfVoid();
@@ -106,19 +106,19 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: private System.Object callContext
     ::Il2CppObject*& dyn_callContext();
     // Get instance field reference: private System.Type[] argTypes
-    ::ArrayW<System::Type*>& dyn_argTypes();
+    ::ArrayW<::System::Type*>& dyn_argTypes();
     // Get instance field reference: private System.Boolean bArgsPrimitive
     bool& dyn_bArgsPrimitive();
     // Get instance field reference: private System.Runtime.Serialization.Formatters.Binary.MessageEnum messageEnum
-    System::Runtime::Serialization::Formatters::Binary::MessageEnum& dyn_messageEnum();
+    ::System::Runtime::Serialization::Formatters::Binary::MessageEnum& dyn_messageEnum();
     // Get instance field reference: private System.Type returnType
-    System::Type*& dyn_returnType();
+    ::System::Type*& dyn_returnType();
     // static private System.Void .cctor()
     // Offset: 0x181224C
     static void _cctor();
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
     // Offset: 0x1812304
-    void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
+    void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // public System.Void Dump()
     // Offset: 0x1812444
     void Dump();
@@ -128,12 +128,12 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BinaryMethodReturn* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BinaryMethodReturn*, creationType>()));
     }
   }; // System.Runtime.Serialization.Formatters.Binary.BinaryMethodReturn
   #pragma pack(pop)
-  static check_size<sizeof(BinaryMethodReturn), 56 + sizeof(System::Type*)> __System_Runtime_Serialization_Formatters_Binary_BinaryMethodReturnSizeCheck;
+  static check_size<sizeof(BinaryMethodReturn), 56 + sizeof(::System::Type*)> __System_Runtime_Serialization_Formatters_Binary_BinaryMethodReturnSizeCheck;
   static_assert(sizeof(BinaryMethodReturn) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -148,7 +148,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn::*)(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*)>(&System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn::*)(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*)>(&System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn::Write)> {
   static const MethodInfo* get() {
     static auto* sout = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "__BinaryWriter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sout});

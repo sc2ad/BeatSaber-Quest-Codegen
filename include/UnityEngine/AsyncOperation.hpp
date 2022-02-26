@@ -28,8 +28,8 @@ namespace UnityEngine {
   class AsyncOperation;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::AsyncOperation);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AsyncOperation*, "UnityEngine", "AsyncOperation");
+NEED_NO_BOX(::UnityEngine::AsyncOperation);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AsyncOperation*, "UnityEngine", "AsyncOperation");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x20
@@ -40,7 +40,7 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: 11A59D4
   // [NativeHeaderAttribute] Offset: 11A59D4
   // [NativeHeaderAttribute] Offset: 11A59D4
-  class AsyncOperation : public UnityEngine::YieldInstruction {
+  class AsyncOperation : public ::UnityEngine::YieldInstruction {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -54,20 +54,20 @@ namespace UnityEngine {
     // System.IntPtr m_Ptr
     // Size: 0x8
     // Offset: 0x10
-    System::IntPtr m_Ptr;
+    ::System::IntPtr m_Ptr;
     // Field size check
-    static_assert(sizeof(System::IntPtr) == 0x8);
+    static_assert(sizeof(::System::IntPtr) == 0x8);
     // private System.Action`1<UnityEngine.AsyncOperation> m_completeCallback
     // Size: 0x8
     // Offset: 0x18
-    System::Action_1<UnityEngine::AsyncOperation*>* m_completeCallback;
+    ::System::Action_1<::UnityEngine::AsyncOperation*>* m_completeCallback;
     // Field size check
-    static_assert(sizeof(System::Action_1<UnityEngine::AsyncOperation*>*) == 0x8);
+    static_assert(sizeof(::System::Action_1<::UnityEngine::AsyncOperation*>*) == 0x8);
     public:
     // Get instance field reference: System.IntPtr m_Ptr
-    System::IntPtr& dyn_m_Ptr();
+    ::System::IntPtr& dyn_m_Ptr();
     // Get instance field reference: private System.Action`1<UnityEngine.AsyncOperation> m_completeCallback
-    System::Action_1<UnityEngine::AsyncOperation*>*& dyn_m_completeCallback();
+    ::System::Action_1<::UnityEngine::AsyncOperation*>*& dyn_m_completeCallback();
     // public System.Boolean get_isDone()
     // Offset: 0x1EAC978
     bool get_isDone();
@@ -85,13 +85,13 @@ namespace UnityEngine {
     void set_allowSceneActivation(bool value);
     // public System.Void add_completed(System.Action`1<UnityEngine.AsyncOperation> value)
     // Offset: 0x1EACBD4
-    void add_completed(System::Action_1<UnityEngine::AsyncOperation*>* value);
+    void add_completed(::System::Action_1<::UnityEngine::AsyncOperation*>* value);
     // public System.Void remove_completed(System.Action`1<UnityEngine.AsyncOperation> value)
     // Offset: 0x1EACCAC
-    void remove_completed(System::Action_1<UnityEngine::AsyncOperation*>* value);
+    void remove_completed(::System::Action_1<::UnityEngine::AsyncOperation*>* value);
     // static private System.Void InternalDestroy(System.IntPtr ptr)
     // Offset: 0x1EAC938
-    static void InternalDestroy(System::IntPtr ptr);
+    static void InternalDestroy(::System::IntPtr ptr);
     // System.Void InvokeCompletionEvent()
     // Offset: 0x1EACB74
     void InvokeCompletionEvent();
@@ -102,7 +102,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsyncOperation* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AsyncOperation::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AsyncOperation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsyncOperation*, creationType>()));
     }
     // protected override System.Void Finalize()
@@ -112,7 +112,7 @@ namespace UnityEngine {
     void Finalize();
   }; // UnityEngine.AsyncOperation
   #pragma pack(pop)
-  static check_size<sizeof(AsyncOperation), 24 + sizeof(System::Action_1<UnityEngine::AsyncOperation*>*)> __UnityEngine_AsyncOperationSizeCheck;
+  static check_size<sizeof(AsyncOperation), 24 + sizeof(::System::Action_1<::UnityEngine::AsyncOperation*>*)> __UnityEngine_AsyncOperationSizeCheck;
   static_assert(sizeof(AsyncOperation) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -161,7 +161,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AsyncOperation::add_completed
 // Il2CppName: add_completed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AsyncOperation::*)(System::Action_1<UnityEngine::AsyncOperation*>*)>(&UnityEngine::AsyncOperation::add_completed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AsyncOperation::*)(::System::Action_1<::UnityEngine::AsyncOperation*>*)>(&UnityEngine::AsyncOperation::add_completed)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "AsyncOperation")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AsyncOperation*), "add_completed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -170,7 +170,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AsyncOperation::remove_completed
 // Il2CppName: remove_completed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AsyncOperation::*)(System::Action_1<UnityEngine::AsyncOperation*>*)>(&UnityEngine::AsyncOperation::remove_completed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AsyncOperation::*)(::System::Action_1<::UnityEngine::AsyncOperation*>*)>(&UnityEngine::AsyncOperation::remove_completed)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "AsyncOperation")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AsyncOperation*), "remove_completed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -179,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AsyncOperation::InternalDestroy
 // Il2CppName: InternalDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&UnityEngine::AsyncOperation::InternalDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&UnityEngine::AsyncOperation::InternalDestroy)> {
   static const MethodInfo* get() {
     static auto* ptr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AsyncOperation*), "InternalDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ptr});

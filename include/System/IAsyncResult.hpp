@@ -21,8 +21,8 @@ namespace System {
   class IAsyncResult;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::IAsyncResult);
-DEFINE_IL2CPP_ARG_TYPE(System::IAsyncResult*, "System", "IAsyncResult");
+NEED_NO_BOX(::System::IAsyncResult);
+DEFINE_IL2CPP_ARG_TYPE(::System::IAsyncResult*, "System", "IAsyncResult");
 // Type namespace: System
 namespace System {
   // Size: 0x10
@@ -37,7 +37,7 @@ namespace System {
     bool get_IsCompleted();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
     // Offset: 0xFFFFFFFF
-    System::Threading::WaitHandle* get_AsyncWaitHandle();
+    ::System::Threading::WaitHandle* get_AsyncWaitHandle();
     // public System.Object get_AsyncState()
     // Offset: 0xFFFFFFFF
     ::Il2CppObject* get_AsyncState();
@@ -59,7 +59,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::IAsyncResult::get_AsyncWaitHandle
 // Il2CppName: get_AsyncWaitHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::WaitHandle* (System::IAsyncResult::*)()>(&System::IAsyncResult::get_AsyncWaitHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::WaitHandle* (System::IAsyncResult::*)()>(&System::IAsyncResult::get_AsyncWaitHandle)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::IAsyncResult*), "get_AsyncWaitHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

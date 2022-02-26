@@ -14,8 +14,8 @@ namespace UnityEngine {
   class FailedToLoadScriptObject;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::FailedToLoadScriptObject);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::FailedToLoadScriptObject*, "UnityEngine", "FailedToLoadScriptObject");
+NEED_NO_BOX(::UnityEngine::FailedToLoadScriptObject);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::FailedToLoadScriptObject*, "UnityEngine", "FailedToLoadScriptObject");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -26,7 +26,7 @@ namespace UnityEngine {
   // [NativeClassAttribute] Offset: 11A5E1C
   // [RequiredByNativeCodeAttribute] Offset: 11A5E1C
   // [ExcludeFromObjectFactoryAttribute] Offset: FFFFFFFF
-  class FailedToLoadScriptObject : public UnityEngine::Object {
+  class FailedToLoadScriptObject : public ::UnityEngine::Object {
     public:
   }; // UnityEngine.FailedToLoadScriptObject
   #pragma pack(pop)

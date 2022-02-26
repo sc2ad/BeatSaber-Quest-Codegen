@@ -28,8 +28,8 @@ namespace Newtonsoft::Json::Converters {
   class XmlDeclarationWrapper;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Converters::XmlDeclarationWrapper);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Converters::XmlDeclarationWrapper*, "Newtonsoft.Json.Converters", "XmlDeclarationWrapper");
+NEED_NO_BOX(::Newtonsoft::Json::Converters::XmlDeclarationWrapper);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Converters::XmlDeclarationWrapper*, "Newtonsoft.Json.Converters", "XmlDeclarationWrapper");
 // Type namespace: Newtonsoft.Json.Converters
 namespace Newtonsoft::Json::Converters {
   // Size: 0x30
@@ -38,7 +38,7 @@ namespace Newtonsoft::Json::Converters {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NullableAttribute] Offset: 12037A0
   // [NullableContextAttribute] Offset: 12037A0
-  class XmlDeclarationWrapper : public Newtonsoft::Json::Converters::XmlNodeWrapper/*, public Newtonsoft::Json::Converters::IXmlDeclaration*/ {
+  class XmlDeclarationWrapper : public ::Newtonsoft::Json::Converters::XmlNodeWrapper/*, public ::Newtonsoft::Json::Converters::IXmlDeclaration*/ {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -52,20 +52,20 @@ namespace Newtonsoft::Json::Converters {
     // private readonly System.Xml.XmlDeclaration _declaration
     // Size: 0x8
     // Offset: 0x28
-    System::Xml::XmlDeclaration* declaration;
+    ::System::Xml::XmlDeclaration* declaration;
     // Field size check
-    static_assert(sizeof(System::Xml::XmlDeclaration*) == 0x8);
+    static_assert(sizeof(::System::Xml::XmlDeclaration*) == 0x8);
     public:
-    // Creating interface conversion operator: operator Newtonsoft::Json::Converters::IXmlDeclaration
-    operator Newtonsoft::Json::Converters::IXmlDeclaration() noexcept {
-      return *reinterpret_cast<Newtonsoft::Json::Converters::IXmlDeclaration*>(this);
+    // Creating interface conversion operator: operator ::Newtonsoft::Json::Converters::IXmlDeclaration
+    operator ::Newtonsoft::Json::Converters::IXmlDeclaration() noexcept {
+      return *reinterpret_cast<::Newtonsoft::Json::Converters::IXmlDeclaration*>(this);
     }
-    // Creating conversion operator: operator System::Xml::XmlDeclaration*
-    constexpr operator System::Xml::XmlDeclaration*() const noexcept {
+    // Creating conversion operator: operator ::System::Xml::XmlDeclaration*
+    constexpr operator ::System::Xml::XmlDeclaration*() const noexcept {
       return declaration;
     }
     // Get instance field reference: private readonly System.Xml.XmlDeclaration _declaration
-    System::Xml::XmlDeclaration*& dyn__declaration();
+    ::System::Xml::XmlDeclaration*& dyn__declaration();
     // public System.String get_Version()
     // Offset: 0x182473C
     ::StringW get_Version();
@@ -78,13 +78,13 @@ namespace Newtonsoft::Json::Converters {
     // public System.Void .ctor(System.Xml.XmlDeclaration declaration)
     // Offset: 0x18246E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlDeclarationWrapper* New_ctor(System::Xml::XmlDeclaration* declaration) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Converters::XmlDeclarationWrapper::.ctor");
+    static XmlDeclarationWrapper* New_ctor(::System::Xml::XmlDeclaration* declaration) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Converters::XmlDeclarationWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlDeclarationWrapper*, creationType>(declaration)));
     }
   }; // Newtonsoft.Json.Converters.XmlDeclarationWrapper
   #pragma pack(pop)
-  static check_size<sizeof(XmlDeclarationWrapper), 40 + sizeof(System::Xml::XmlDeclaration*)> __Newtonsoft_Json_Converters_XmlDeclarationWrapperSizeCheck;
+  static check_size<sizeof(XmlDeclarationWrapper), 40 + sizeof(::System::Xml::XmlDeclaration*)> __Newtonsoft_Json_Converters_XmlDeclarationWrapperSizeCheck;
   static_assert(sizeof(XmlDeclarationWrapper) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -16,8 +16,8 @@ namespace HoudiniEngineUnity {
   class TOPNodeTags;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::TOPNodeTags);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::TOPNodeTags*, "HoudiniEngineUnity", "TOPNodeTags");
+NEED_NO_BOX(::HoudiniEngineUnity::TOPNodeTags);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::TOPNodeTags*, "HoudiniEngineUnity", "TOPNodeTags");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x12
@@ -58,7 +58,7 @@ namespace HoudiniEngineUnity {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TOPNodeTags* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::TOPNodeTags::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::TOPNodeTags::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TOPNodeTags*, creationType>()));
     }
   }; // HoudiniEngineUnity.TOPNodeTags

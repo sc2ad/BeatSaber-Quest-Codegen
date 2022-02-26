@@ -25,8 +25,8 @@ namespace System::Threading {
   class ThreadPoolWorkQueue;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Threading::ThreadPoolWorkQueue);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadPoolWorkQueue*, "System.Threading", "ThreadPoolWorkQueue");
+NEED_NO_BOX(::System::Threading::ThreadPoolWorkQueue);
+DEFINE_IL2CPP_ARG_TYPE(::System::Threading::ThreadPoolWorkQueue*, "System.Threading", "ThreadPoolWorkQueue");
 // Type namespace: System.Threading
 namespace System::Threading {
   // Size: 0x24
@@ -35,12 +35,12 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   class ThreadPoolWorkQueue : public ::Il2CppObject {
     public:
-    // Nested type: System::Threading::ThreadPoolWorkQueue::SparseArray_1<T>
+    // Nested type: ::System::Threading::ThreadPoolWorkQueue::SparseArray_1<T>
     template<typename T>
     class SparseArray_1;
-    // Nested type: System::Threading::ThreadPoolWorkQueue::WorkStealingQueue
+    // Nested type: ::System::Threading::ThreadPoolWorkQueue::WorkStealingQueue
     class WorkStealingQueue;
-    // Nested type: System::Threading::ThreadPoolWorkQueue::QueueSegment
+    // Nested type: ::System::Threading::ThreadPoolWorkQueue::QueueSegment
     class QueueSegment;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -54,15 +54,15 @@ namespace System::Threading {
     // System.Threading.ThreadPoolWorkQueue/System.Threading.QueueSegment queueHead
     // Size: 0x8
     // Offset: 0x10
-    System::Threading::ThreadPoolWorkQueue::QueueSegment* queueHead;
+    ::System::Threading::ThreadPoolWorkQueue::QueueSegment* queueHead;
     // Field size check
-    static_assert(sizeof(System::Threading::ThreadPoolWorkQueue::QueueSegment*) == 0x8);
+    static_assert(sizeof(::System::Threading::ThreadPoolWorkQueue::QueueSegment*) == 0x8);
     // System.Threading.ThreadPoolWorkQueue/System.Threading.QueueSegment queueTail
     // Size: 0x8
     // Offset: 0x18
-    System::Threading::ThreadPoolWorkQueue::QueueSegment* queueTail;
+    ::System::Threading::ThreadPoolWorkQueue::QueueSegment* queueTail;
     // Field size check
-    static_assert(sizeof(System::Threading::ThreadPoolWorkQueue::QueueSegment*) == 0x8);
+    static_assert(sizeof(::System::Threading::ThreadPoolWorkQueue::QueueSegment*) == 0x8);
     // private System.Int32 numOutstandingThreadRequests
     // Size: 0x4
     // Offset: 0x20
@@ -71,13 +71,13 @@ namespace System::Threading {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get static field: static System.Threading.ThreadPoolWorkQueue/System.Threading.SparseArray`1<System.Threading.ThreadPoolWorkQueue/System.Threading.WorkStealingQueue> allThreadQueues
-    static System::Threading::ThreadPoolWorkQueue::SparseArray_1<System::Threading::ThreadPoolWorkQueue::WorkStealingQueue*>* _get_allThreadQueues();
+    static ::System::Threading::ThreadPoolWorkQueue::SparseArray_1<::System::Threading::ThreadPoolWorkQueue::WorkStealingQueue*>* _get_allThreadQueues();
     // Set static field: static System.Threading.ThreadPoolWorkQueue/System.Threading.SparseArray`1<System.Threading.ThreadPoolWorkQueue/System.Threading.WorkStealingQueue> allThreadQueues
-    static void _set_allThreadQueues(System::Threading::ThreadPoolWorkQueue::SparseArray_1<System::Threading::ThreadPoolWorkQueue::WorkStealingQueue*>* value);
+    static void _set_allThreadQueues(::System::Threading::ThreadPoolWorkQueue::SparseArray_1<::System::Threading::ThreadPoolWorkQueue::WorkStealingQueue*>* value);
     // Get instance field reference: System.Threading.ThreadPoolWorkQueue/System.Threading.QueueSegment queueHead
-    System::Threading::ThreadPoolWorkQueue::QueueSegment*& dyn_queueHead();
+    ::System::Threading::ThreadPoolWorkQueue::QueueSegment*& dyn_queueHead();
     // Get instance field reference: System.Threading.ThreadPoolWorkQueue/System.Threading.QueueSegment queueTail
-    System::Threading::ThreadPoolWorkQueue::QueueSegment*& dyn_queueTail();
+    ::System::Threading::ThreadPoolWorkQueue::QueueSegment*& dyn_queueTail();
     // Get instance field reference: private System.Int32 numOutstandingThreadRequests
     int& dyn_numOutstandingThreadRequests();
     // static private System.Void .cctor()
@@ -85,7 +85,7 @@ namespace System::Threading {
     static void _cctor();
     // public System.Threading.ThreadPoolWorkQueueThreadLocals EnsureCurrentThreadHasQueue()
     // Offset: 0x1CDF7E8
-    System::Threading::ThreadPoolWorkQueueThreadLocals* EnsureCurrentThreadHasQueue();
+    ::System::Threading::ThreadPoolWorkQueueThreadLocals* EnsureCurrentThreadHasQueue();
     // System.Void EnsureThreadRequested()
     // Offset: 0x1CDF968
     void EnsureThreadRequested();
@@ -94,13 +94,13 @@ namespace System::Threading {
     void MarkThreadRequestSatisfied();
     // public System.Void Enqueue(System.Threading.IThreadPoolWorkItem callback, System.Boolean forceGlobal)
     // Offset: 0x1CDF4B0
-    void Enqueue(System::Threading::IThreadPoolWorkItem* callback, bool forceGlobal);
+    void Enqueue(::System::Threading::IThreadPoolWorkItem* callback, bool forceGlobal);
     // System.Boolean LocalFindAndPop(System.Threading.IThreadPoolWorkItem callback)
     // Offset: 0x1CDF5DC
-    bool LocalFindAndPop(System::Threading::IThreadPoolWorkItem* callback);
+    bool LocalFindAndPop(::System::Threading::IThreadPoolWorkItem* callback);
     // public System.Void Dequeue(System.Threading.ThreadPoolWorkQueueThreadLocals tl, out System.Threading.IThreadPoolWorkItem callback, out System.Boolean missedSteal)
     // Offset: 0x1CE0244
-    void Dequeue(System::Threading::ThreadPoolWorkQueueThreadLocals* tl, ByRef<System::Threading::IThreadPoolWorkItem*> callback, ByRef<bool> missedSteal);
+    void Dequeue(::System::Threading::ThreadPoolWorkQueueThreadLocals* tl, ByRef<::System::Threading::IThreadPoolWorkItem*> callback, ByRef<bool> missedSteal);
     // static System.Boolean Dispatch()
     // Offset: 0x1CE0808
     static bool Dispatch();
@@ -110,7 +110,7 @@ namespace System::Threading {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ThreadPoolWorkQueue* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::ThreadPoolWorkQueue::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::ThreadPoolWorkQueue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ThreadPoolWorkQueue*, creationType>()));
     }
   }; // System.Threading.ThreadPoolWorkQueue
@@ -130,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Threading::ThreadPoolWorkQueue::EnsureCurrentThreadHasQueue
 // Il2CppName: EnsureCurrentThreadHasQueue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::ThreadPoolWorkQueueThreadLocals* (System::Threading::ThreadPoolWorkQueue::*)()>(&System::Threading::ThreadPoolWorkQueue::EnsureCurrentThreadHasQueue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::ThreadPoolWorkQueueThreadLocals* (System::Threading::ThreadPoolWorkQueue::*)()>(&System::Threading::ThreadPoolWorkQueue::EnsureCurrentThreadHasQueue)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ThreadPoolWorkQueue*), "EnsureCurrentThreadHasQueue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -154,7 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Threading::ThreadPoolWorkQueue::Enqueue
 // Il2CppName: Enqueue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ThreadPoolWorkQueue::*)(System::Threading::IThreadPoolWorkItem*, bool)>(&System::Threading::ThreadPoolWorkQueue::Enqueue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ThreadPoolWorkQueue::*)(::System::Threading::IThreadPoolWorkItem*, bool)>(&System::Threading::ThreadPoolWorkQueue::Enqueue)> {
   static const MethodInfo* get() {
     static auto* callback = &::il2cpp_utils::GetClassFromName("System.Threading", "IThreadPoolWorkItem")->byval_arg;
     static auto* forceGlobal = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -164,7 +164,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Threading::ThreadPoolWorkQueue::LocalFindAndPop
 // Il2CppName: LocalFindAndPop
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ThreadPoolWorkQueue::*)(System::Threading::IThreadPoolWorkItem*)>(&System::Threading::ThreadPoolWorkQueue::LocalFindAndPop)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ThreadPoolWorkQueue::*)(::System::Threading::IThreadPoolWorkItem*)>(&System::Threading::ThreadPoolWorkQueue::LocalFindAndPop)> {
   static const MethodInfo* get() {
     static auto* callback = &::il2cpp_utils::GetClassFromName("System.Threading", "IThreadPoolWorkItem")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ThreadPoolWorkQueue*), "LocalFindAndPop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{callback});
@@ -173,7 +173,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Threading::ThreadPoolWorkQueue::Dequeue
 // Il2CppName: Dequeue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ThreadPoolWorkQueue::*)(System::Threading::ThreadPoolWorkQueueThreadLocals*, ByRef<System::Threading::IThreadPoolWorkItem*>, ByRef<bool>)>(&System::Threading::ThreadPoolWorkQueue::Dequeue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ThreadPoolWorkQueue::*)(::System::Threading::ThreadPoolWorkQueueThreadLocals*, ByRef<::System::Threading::IThreadPoolWorkItem*>, ByRef<bool>)>(&System::Threading::ThreadPoolWorkQueue::Dequeue)> {
   static const MethodInfo* get() {
     static auto* tl = &::il2cpp_utils::GetClassFromName("System.Threading", "ThreadPoolWorkQueueThreadLocals")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System.Threading", "IThreadPoolWorkItem")->this_arg;

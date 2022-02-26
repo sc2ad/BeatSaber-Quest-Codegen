@@ -12,8 +12,8 @@ namespace System::Threading::Tasks {
   class SystemThreadingTasks_TaskDebugView;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Threading::Tasks::SystemThreadingTasks_TaskDebugView);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::SystemThreadingTasks_TaskDebugView*, "System.Threading.Tasks", "SystemThreadingTasks_TaskDebugView");
+NEED_NO_BOX(::System::Threading::Tasks::SystemThreadingTasks_TaskDebugView);
+DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Tasks::SystemThreadingTasks_TaskDebugView*, "System.Threading.Tasks", "SystemThreadingTasks_TaskDebugView");
 // Type namespace: System.Threading.Tasks
 namespace System::Threading::Tasks {
   // Size: 0x10

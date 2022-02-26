@@ -18,8 +18,8 @@ namespace UnityEngine::Bindings {
   class NotNullAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Bindings::NotNullAttribute);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NotNullAttribute*, "UnityEngine.Bindings", "NotNullAttribute");
+NEED_NO_BOX(::UnityEngine::Bindings::NotNullAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Bindings::NotNullAttribute*, "UnityEngine.Bindings", "NotNullAttribute");
 // Type namespace: UnityEngine.Bindings
 namespace UnityEngine::Bindings {
   // Size: 0x10
@@ -28,7 +28,7 @@ namespace UnityEngine::Bindings {
   // [TokenAttribute] Offset: FFFFFFFF
   // [VisibleToOtherModulesAttribute] Offset: FFFFFFFF
   // [AttributeUsageAttribute] Offset: 11A12F4
-  class NotNullAttribute : public System::Attribute {
+  class NotNullAttribute : public ::System::Attribute {
     public:
     // public System.Void .ctor()
     // Offset: 0x2A5751C
@@ -37,7 +37,7 @@ namespace UnityEngine::Bindings {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NotNullAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::NotNullAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Bindings::NotNullAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NotNullAttribute*, creationType>()));
     }
   }; // UnityEngine.Bindings.NotNullAttribute

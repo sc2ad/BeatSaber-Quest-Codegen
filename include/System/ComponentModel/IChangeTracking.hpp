@@ -11,8 +11,8 @@ namespace System::ComponentModel {
   class IChangeTracking;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::ComponentModel::IChangeTracking);
-DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::IChangeTracking*, "System.ComponentModel", "IChangeTracking");
+NEED_NO_BOX(::System::ComponentModel::IChangeTracking);
+DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::IChangeTracking*, "System.ComponentModel", "IChangeTracking");
 // Type namespace: System.ComponentModel
 namespace System::ComponentModel {
   // Size: 0x10

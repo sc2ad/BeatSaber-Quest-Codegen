@@ -20,8 +20,8 @@ namespace Org::BouncyCastle::Crypto {
   class IDerivationFunction;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Crypto::IDerivationFunction);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::IDerivationFunction*, "Org.BouncyCastle.Crypto", "IDerivationFunction");
+NEED_NO_BOX(::Org::BouncyCastle::Crypto::IDerivationFunction);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::IDerivationFunction*, "Org.BouncyCastle.Crypto", "IDerivationFunction");
 // Type namespace: Org.BouncyCastle.Crypto
 namespace Org::BouncyCastle::Crypto {
   // Size: 0x10
@@ -32,7 +32,7 @@ namespace Org::BouncyCastle::Crypto {
     public:
     // public System.Void Init(Org.BouncyCastle.Crypto.IDerivationParameters parameters)
     // Offset: 0xFFFFFFFF
-    void Init(Org::BouncyCastle::Crypto::IDerivationParameters* parameters);
+    void Init(::Org::BouncyCastle::Crypto::IDerivationParameters* parameters);
     // public System.Int32 GenerateBytes(System.Byte[] output, System.Int32 outOff, System.Int32 length)
     // Offset: 0xFFFFFFFF
     int GenerateBytes(::ArrayW<uint8_t> output, int outOff, int length);
@@ -43,7 +43,7 @@ namespace Org::BouncyCastle::Crypto {
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::IDerivationFunction::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::IDerivationFunction::*)(Org::BouncyCastle::Crypto::IDerivationParameters*)>(&Org::BouncyCastle::Crypto::IDerivationFunction::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::IDerivationFunction::*)(::Org::BouncyCastle::Crypto::IDerivationParameters*)>(&Org::BouncyCastle::Crypto::IDerivationFunction::Init)> {
   static const MethodInfo* get() {
     static auto* parameters = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Crypto", "IDerivationParameters")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::IDerivationFunction*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{parameters});

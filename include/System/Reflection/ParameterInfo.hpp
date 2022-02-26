@@ -55,8 +55,8 @@ namespace System::Reflection {
   class ParameterInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Reflection::ParameterInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::ParameterInfo*, "System.Reflection", "ParameterInfo");
+NEED_NO_BOX(::System::Reflection::ParameterInfo);
+DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::ParameterInfo*, "System.Reflection", "ParameterInfo");
 // Type namespace: System.Reflection
 namespace System::Reflection {
   // Size: 0x40
@@ -67,7 +67,7 @@ namespace System::Reflection {
   // [ClassInterfaceAttribute] Offset: 1188D20
   // [ComDefaultInterfaceAttribute] Offset: 1188D20
   // [ComVisibleAttribute] Offset: 1188D20
-  class ParameterInfo : public ::Il2CppObject/*, public System::Runtime::Serialization::IObjectReference, public System::Reflection::ICustomAttributeProvider, public System::Runtime::InteropServices::_ParameterInfo*/ {
+  class ParameterInfo : public ::Il2CppObject/*, public ::System::Runtime::Serialization::IObjectReference, public ::System::Reflection::ICustomAttributeProvider, public ::System::Runtime::InteropServices::_ParameterInfo*/ {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -81,9 +81,9 @@ namespace System::Reflection {
     // protected System.Type ClassImpl
     // Size: 0x8
     // Offset: 0x10
-    System::Type* ClassImpl;
+    ::System::Type* ClassImpl;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     // protected System.Object DefaultValueImpl
     // Size: 0x8
     // Offset: 0x18
@@ -93,9 +93,9 @@ namespace System::Reflection {
     // protected System.Reflection.MemberInfo MemberImpl
     // Size: 0x8
     // Offset: 0x20
-    System::Reflection::MemberInfo* MemberImpl;
+    ::System::Reflection::MemberInfo* MemberImpl;
     // Field size check
-    static_assert(sizeof(System::Reflection::MemberInfo*) == 0x8);
+    static_assert(sizeof(::System::Reflection::MemberInfo*) == 0x8);
     // protected System.String NameImpl
     // Size: 0x8
     // Offset: 0x28
@@ -111,48 +111,48 @@ namespace System::Reflection {
     // protected System.Reflection.ParameterAttributes AttrsImpl
     // Size: 0x4
     // Offset: 0x34
-    System::Reflection::ParameterAttributes AttrsImpl;
+    ::System::Reflection::ParameterAttributes AttrsImpl;
     // Field size check
-    static_assert(sizeof(System::Reflection::ParameterAttributes) == 0x4);
+    static_assert(sizeof(::System::Reflection::ParameterAttributes) == 0x4);
     // System.Runtime.InteropServices.MarshalAsAttribute marshalAs
     // Size: 0x8
     // Offset: 0x38
-    System::Runtime::InteropServices::MarshalAsAttribute* marshalAs;
+    ::System::Runtime::InteropServices::MarshalAsAttribute* marshalAs;
     // Field size check
-    static_assert(sizeof(System::Runtime::InteropServices::MarshalAsAttribute*) == 0x8);
+    static_assert(sizeof(::System::Runtime::InteropServices::MarshalAsAttribute*) == 0x8);
     public:
-    // Creating interface conversion operator: operator System::Runtime::Serialization::IObjectReference
-    operator System::Runtime::Serialization::IObjectReference() noexcept {
-      return *reinterpret_cast<System::Runtime::Serialization::IObjectReference*>(this);
+    // Creating interface conversion operator: operator ::System::Runtime::Serialization::IObjectReference
+    operator ::System::Runtime::Serialization::IObjectReference() noexcept {
+      return *reinterpret_cast<::System::Runtime::Serialization::IObjectReference*>(this);
     }
-    // Creating interface conversion operator: operator System::Reflection::ICustomAttributeProvider
-    operator System::Reflection::ICustomAttributeProvider() noexcept {
-      return *reinterpret_cast<System::Reflection::ICustomAttributeProvider*>(this);
+    // Creating interface conversion operator: operator ::System::Reflection::ICustomAttributeProvider
+    operator ::System::Reflection::ICustomAttributeProvider() noexcept {
+      return *reinterpret_cast<::System::Reflection::ICustomAttributeProvider*>(this);
     }
-    // Creating interface conversion operator: operator System::Runtime::InteropServices::_ParameterInfo
-    operator System::Runtime::InteropServices::_ParameterInfo() noexcept {
-      return *reinterpret_cast<System::Runtime::InteropServices::_ParameterInfo*>(this);
+    // Creating interface conversion operator: operator ::System::Runtime::InteropServices::_ParameterInfo
+    operator ::System::Runtime::InteropServices::_ParameterInfo() noexcept {
+      return *reinterpret_cast<::System::Runtime::InteropServices::_ParameterInfo*>(this);
     }
     // Get instance field reference: protected System.Type ClassImpl
-    System::Type*& dyn_ClassImpl();
+    ::System::Type*& dyn_ClassImpl();
     // Get instance field reference: protected System.Object DefaultValueImpl
     ::Il2CppObject*& dyn_DefaultValueImpl();
     // Get instance field reference: protected System.Reflection.MemberInfo MemberImpl
-    System::Reflection::MemberInfo*& dyn_MemberImpl();
+    ::System::Reflection::MemberInfo*& dyn_MemberImpl();
     // Get instance field reference: protected System.String NameImpl
     ::StringW& dyn_NameImpl();
     // Get instance field reference: protected System.Int32 PositionImpl
     int& dyn_PositionImpl();
     // Get instance field reference: protected System.Reflection.ParameterAttributes AttrsImpl
-    System::Reflection::ParameterAttributes& dyn_AttrsImpl();
+    ::System::Reflection::ParameterAttributes& dyn_AttrsImpl();
     // Get instance field reference: System.Runtime.InteropServices.MarshalAsAttribute marshalAs
-    System::Runtime::InteropServices::MarshalAsAttribute*& dyn_marshalAs();
+    ::System::Runtime::InteropServices::MarshalAsAttribute*& dyn_marshalAs();
     // public System.Type get_ParameterType()
     // Offset: 0x1C5F23C
-    System::Type* get_ParameterType();
+    ::System::Type* get_ParameterType();
     // public System.Reflection.ParameterAttributes get_Attributes()
     // Offset: 0x1C5F244
-    System::Reflection::ParameterAttributes get_Attributes();
+    ::System::Reflection::ParameterAttributes get_Attributes();
     // public System.Boolean get_IsIn()
     // Offset: 0x1C5F24C
     bool get_IsIn();
@@ -167,7 +167,7 @@ namespace System::Reflection {
     bool get_IsRetval();
     // public System.Reflection.MemberInfo get_Member()
     // Offset: 0x1C5F2AC
-    System::Reflection::MemberInfo* get_Member();
+    ::System::Reflection::MemberInfo* get_Member();
     // public System.String get_Name()
     // Offset: 0x1C5F2B4
     ::StringW get_Name();
@@ -179,7 +179,7 @@ namespace System::Reflection {
     ::Il2CppObject* get_DefaultValue();
     // static System.Void FormatParameters(System.Text.StringBuilder sb, System.Reflection.ParameterInfo[] p, System.Reflection.CallingConventions callingConvention, System.Boolean serialization)
     // Offset: 0x1C5F03C
-    static void FormatParameters(System::Text::StringBuilder* sb, ::ArrayW<System::Reflection::ParameterInfo*> p, System::Reflection::CallingConventions callingConvention, bool serialization);
+    static void FormatParameters(::System::Text::StringBuilder* sb, ::ArrayW<::System::Reflection::ParameterInfo*> p, ::System::Reflection::CallingConventions callingConvention, bool serialization);
     // System.Object[] GetPseudoCustomAttributes()
     // Offset: 0x1C5F2C4
     ::ArrayW<::Il2CppObject*> GetPseudoCustomAttributes();
@@ -191,23 +191,23 @@ namespace System::Reflection {
     ::ArrayW<::Il2CppObject*> GetCustomAttributes(bool inherit);
     // public System.Object[] GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
     // Offset: 0x1C5F640
-    ::ArrayW<::Il2CppObject*> GetCustomAttributes(System::Type* attributeType, bool inherit);
+    ::ArrayW<::Il2CppObject*> GetCustomAttributes(::System::Type* attributeType, bool inherit);
     // public System.Object GetRealObject(System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x1C5F68C
-    ::Il2CppObject* GetRealObject(System::Runtime::Serialization::StreamingContext context);
+    ::Il2CppObject* GetRealObject(::System::Runtime::Serialization::StreamingContext context);
     // public System.Boolean IsDefined(System.Type attributeType, System.Boolean inherit)
     // Offset: 0x1C5F6EC
-    bool IsDefined(System::Type* attributeType, bool inherit);
+    bool IsDefined(::System::Type* attributeType, bool inherit);
     // static System.Reflection.ParameterInfo New(System.Reflection.ParameterInfo pinfo, System.Reflection.MemberInfo member)
     // Offset: 0x1C5DFD0
-    static System::Reflection::ParameterInfo* New(System::Reflection::ParameterInfo* pinfo, System::Reflection::MemberInfo* member);
+    static ::System::Reflection::ParameterInfo* New(::System::Reflection::ParameterInfo* pinfo, ::System::Reflection::MemberInfo* member);
     // protected System.Void .ctor()
     // Offset: 0x1C5EE60
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ParameterInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::ParameterInfo::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Reflection::ParameterInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ParameterInfo*, creationType>()));
     }
     // public override System.String ToString()
@@ -217,14 +217,14 @@ namespace System::Reflection {
     ::StringW ToString();
   }; // System.Reflection.ParameterInfo
   #pragma pack(pop)
-  static check_size<sizeof(ParameterInfo), 56 + sizeof(System::Runtime::InteropServices::MarshalAsAttribute*)> __System_Reflection_ParameterInfoSizeCheck;
+  static check_size<sizeof(ParameterInfo), 56 + sizeof(::System::Runtime::InteropServices::MarshalAsAttribute*)> __System_Reflection_ParameterInfoSizeCheck;
   static_assert(sizeof(ParameterInfo) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::ParameterInfo::get_ParameterType
 // Il2CppName: get_ParameterType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Reflection::ParameterInfo::*)()>(&System::Reflection::ParameterInfo::get_ParameterType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (System::Reflection::ParameterInfo::*)()>(&System::Reflection::ParameterInfo::get_ParameterType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::ParameterInfo*), "get_ParameterType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -232,7 +232,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: System::Reflection::ParameterInfo::get_Attributes
 // Il2CppName: get_Attributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::ParameterAttributes (System::Reflection::ParameterInfo::*)()>(&System::Reflection::ParameterInfo::get_Attributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::ParameterAttributes (System::Reflection::ParameterInfo::*)()>(&System::Reflection::ParameterInfo::get_Attributes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::ParameterInfo*), "get_Attributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -272,7 +272,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Reflection::ParameterInfo::get_Member
 // Il2CppName: get_Member
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MemberInfo* (System::Reflection::ParameterInfo::*)()>(&System::Reflection::ParameterInfo::get_Member)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MemberInfo* (System::Reflection::ParameterInfo::*)()>(&System::Reflection::ParameterInfo::get_Member)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::ParameterInfo*), "get_Member", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -304,7 +304,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Reflection::ParameterInfo::FormatParameters
 // Il2CppName: FormatParameters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Text::StringBuilder*, ::ArrayW<System::Reflection::ParameterInfo*>, System::Reflection::CallingConventions, bool)>(&System::Reflection::ParameterInfo::FormatParameters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, ::ArrayW<::System::Reflection::ParameterInfo*>, ::System::Reflection::CallingConventions, bool)>(&System::Reflection::ParameterInfo::FormatParameters)> {
   static const MethodInfo* get() {
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* p = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Reflection", "ParameterInfo"), 1)->byval_arg;
@@ -341,7 +341,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: System::Reflection::ParameterInfo::GetCustomAttributes
 // Il2CppName: GetCustomAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (System::Reflection::ParameterInfo::*)(System::Type*, bool)>(&System::Reflection::ParameterInfo::GetCustomAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (System::Reflection::ParameterInfo::*)(::System::Type*, bool)>(&System::Reflection::ParameterInfo::GetCustomAttributes)> {
   static const MethodInfo* get() {
     static auto* attributeType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* inherit = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -351,7 +351,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: System::Reflection::ParameterInfo::GetRealObject
 // Il2CppName: GetRealObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Reflection::ParameterInfo::*)(System::Runtime::Serialization::StreamingContext)>(&System::Reflection::ParameterInfo::GetRealObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Reflection::ParameterInfo::*)(::System::Runtime::Serialization::StreamingContext)>(&System::Reflection::ParameterInfo::GetRealObject)> {
   static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::ParameterInfo*), "GetRealObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
@@ -360,7 +360,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Reflection::ParameterInfo::IsDefined
 // Il2CppName: IsDefined
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Reflection::ParameterInfo::*)(System::Type*, bool)>(&System::Reflection::ParameterInfo::IsDefined)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Reflection::ParameterInfo::*)(::System::Type*, bool)>(&System::Reflection::ParameterInfo::IsDefined)> {
   static const MethodInfo* get() {
     static auto* attributeType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* inherit = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -370,7 +370,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Reflection::ParameterInfo::New
 // Il2CppName: New
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::ParameterInfo* (*)(System::Reflection::ParameterInfo*, System::Reflection::MemberInfo*)>(&System::Reflection::ParameterInfo::New)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::ParameterInfo* (*)(::System::Reflection::ParameterInfo*, ::System::Reflection::MemberInfo*)>(&System::Reflection::ParameterInfo::New)> {
   static const MethodInfo* get() {
     static auto* pinfo = &::il2cpp_utils::GetClassFromName("System.Reflection", "ParameterInfo")->byval_arg;
     static auto* member = &::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo")->byval_arg;

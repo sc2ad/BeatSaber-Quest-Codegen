@@ -25,8 +25,8 @@ namespace System::Xml::Linq {
   class XObjectChangeAnnotation;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Linq::XObjectChangeAnnotation);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Linq::XObjectChangeAnnotation*, "System.Xml.Linq", "XObjectChangeAnnotation");
+NEED_NO_BOX(::System::Xml::Linq::XObjectChangeAnnotation);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Linq::XObjectChangeAnnotation*, "System.Xml.Linq", "XObjectChangeAnnotation");
 // Type namespace: System.Xml.Linq
 namespace System::Xml::Linq {
   // Size: 0x20
@@ -47,23 +47,23 @@ namespace System::Xml::Linq {
     // System.EventHandler`1<System.Xml.Linq.XObjectChangeEventArgs> changing
     // Size: 0x8
     // Offset: 0x10
-    System::EventHandler_1<System::Xml::Linq::XObjectChangeEventArgs*>* changing;
+    ::System::EventHandler_1<::System::Xml::Linq::XObjectChangeEventArgs*>* changing;
     // Field size check
-    static_assert(sizeof(System::EventHandler_1<System::Xml::Linq::XObjectChangeEventArgs*>*) == 0x8);
+    static_assert(sizeof(::System::EventHandler_1<::System::Xml::Linq::XObjectChangeEventArgs*>*) == 0x8);
     // System.EventHandler`1<System.Xml.Linq.XObjectChangeEventArgs> changed
     // Size: 0x8
     // Offset: 0x18
-    System::EventHandler_1<System::Xml::Linq::XObjectChangeEventArgs*>* changed;
+    ::System::EventHandler_1<::System::Xml::Linq::XObjectChangeEventArgs*>* changed;
     // Field size check
-    static_assert(sizeof(System::EventHandler_1<System::Xml::Linq::XObjectChangeEventArgs*>*) == 0x8);
+    static_assert(sizeof(::System::EventHandler_1<::System::Xml::Linq::XObjectChangeEventArgs*>*) == 0x8);
     public:
     // Get instance field reference: System.EventHandler`1<System.Xml.Linq.XObjectChangeEventArgs> changing
-    System::EventHandler_1<System::Xml::Linq::XObjectChangeEventArgs*>*& dyn_changing();
+    ::System::EventHandler_1<::System::Xml::Linq::XObjectChangeEventArgs*>*& dyn_changing();
     // Get instance field reference: System.EventHandler`1<System.Xml.Linq.XObjectChangeEventArgs> changed
-    System::EventHandler_1<System::Xml::Linq::XObjectChangeEventArgs*>*& dyn_changed();
+    ::System::EventHandler_1<::System::Xml::Linq::XObjectChangeEventArgs*>*& dyn_changed();
   }; // System.Xml.Linq.XObjectChangeAnnotation
   #pragma pack(pop)
-  static check_size<sizeof(XObjectChangeAnnotation), 24 + sizeof(System::EventHandler_1<System::Xml::Linq::XObjectChangeEventArgs*>*)> __System_Xml_Linq_XObjectChangeAnnotationSizeCheck;
+  static check_size<sizeof(XObjectChangeAnnotation), 24 + sizeof(::System::EventHandler_1<::System::Xml::Linq::XObjectChangeEventArgs*>*)> __System_Xml_Linq_XObjectChangeAnnotationSizeCheck;
   static_assert(sizeof(XObjectChangeAnnotation) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

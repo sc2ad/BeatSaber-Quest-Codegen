@@ -23,8 +23,8 @@ namespace GlobalNamespace {
   class AsyncComputeOperation;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::AsyncComputeOperation);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AsyncComputeOperation*, "", "AsyncComputeOperation");
+NEED_NO_BOX(::GlobalNamespace::AsyncComputeOperation);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AsyncComputeOperation*, "", "AsyncComputeOperation");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -53,14 +53,14 @@ namespace GlobalNamespace {
     // private readonly System.Diagnostics.Stopwatch _stopwatch
     // Size: 0x8
     // Offset: 0x18
-    System::Diagnostics::Stopwatch* stopwatch;
+    ::System::Diagnostics::Stopwatch* stopwatch;
     // Field size check
-    static_assert(sizeof(System::Diagnostics::Stopwatch*) == 0x8);
+    static_assert(sizeof(::System::Diagnostics::Stopwatch*) == 0x8);
     public:
     // Get instance field reference: private readonly System.Int32 _timeoutMs
     int& dyn__timeoutMs();
     // Get instance field reference: private readonly System.Diagnostics.Stopwatch _stopwatch
-    System::Diagnostics::Stopwatch*& dyn__stopwatch();
+    ::System::Diagnostics::Stopwatch*& dyn__stopwatch();
     // public System.Double get_elapsedTime()
     // Offset: 0x2B7C1D0
     double get_elapsedTime();
@@ -71,7 +71,7 @@ namespace GlobalNamespace {
     // Offset: 0x2B7C2A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsyncComputeOperation* New_ctor(int timeoutMs) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AsyncComputeOperation::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AsyncComputeOperation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsyncComputeOperation*, creationType>(timeoutMs)));
     }
     // public System.Void Execute(System.Boolean disposed)
@@ -79,7 +79,7 @@ namespace GlobalNamespace {
     void Execute(bool disposed);
   }; // AsyncComputeOperation
   #pragma pack(pop)
-  static check_size<sizeof(AsyncComputeOperation), 24 + sizeof(System::Diagnostics::Stopwatch*)> __GlobalNamespace_AsyncComputeOperationSizeCheck;
+  static check_size<sizeof(AsyncComputeOperation), 24 + sizeof(::System::Diagnostics::Stopwatch*)> __GlobalNamespace_AsyncComputeOperationSizeCheck;
   static_assert(sizeof(AsyncComputeOperation) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

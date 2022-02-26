@@ -16,8 +16,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRPlugin::OVRP_1_5_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_5_0*, "", "OVRPlugin/OVRP_1_5_0");
+NEED_NO_BOX(::GlobalNamespace::OVRPlugin::OVRP_1_5_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRPlugin::OVRP_1_5_0*, "", "OVRPlugin/OVRP_1_5_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -27,15 +27,15 @@ namespace GlobalNamespace {
   class OVRPlugin::OVRP_1_5_0 : public ::Il2CppObject {
     public:
     // Get static field: static public readonly System.Version version
-    static System::Version* _get_version();
+    static ::System::Version* _get_version();
     // Set static field: static public readonly System.Version version
-    static void _set_version(System::Version* value);
+    static void _set_version(::System::Version* value);
     // static private System.Void .cctor()
     // Offset: 0x1A762B8
     static void _cctor();
     // static public OVRPlugin/SystemRegion ovrp_GetSystemRegion()
     // Offset: 0x1A76244
-    static GlobalNamespace::OVRPlugin::SystemRegion ovrp_GetSystemRegion();
+    static ::GlobalNamespace::OVRPlugin::SystemRegion ovrp_GetSystemRegion();
   }; // OVRPlugin/OVRP_1_5_0
   #pragma pack(pop)
 }
@@ -51,7 +51,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_5_0::ovrp_GetSystemRegion
 // Il2CppName: ovrp_GetSystemRegion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::SystemRegion (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_5_0::ovrp_GetSystemRegion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::SystemRegion (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_5_0::ovrp_GetSystemRegion)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_5_0*), "ovrp_GetSystemRegion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

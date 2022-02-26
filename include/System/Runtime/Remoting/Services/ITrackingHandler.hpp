@@ -21,8 +21,8 @@ namespace System::Runtime::Remoting::Services {
   class ITrackingHandler;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Remoting::Services::ITrackingHandler);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Services::ITrackingHandler*, "System.Runtime.Remoting.Services", "ITrackingHandler");
+NEED_NO_BOX(::System::Runtime::Remoting::Services::ITrackingHandler);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Services::ITrackingHandler*, "System.Runtime.Remoting.Services", "ITrackingHandler");
 // Type namespace: System.Runtime.Remoting.Services
 namespace System::Runtime::Remoting::Services {
   // Size: 0x10
@@ -37,10 +37,10 @@ namespace System::Runtime::Remoting::Services {
     void DisconnectedObject(::Il2CppObject* obj);
     // public System.Void MarshaledObject(System.Object obj, System.Runtime.Remoting.ObjRef or)
     // Offset: 0xFFFFFFFF
-    void MarshaledObject(::Il2CppObject* obj, System::Runtime::Remoting::ObjRef* _or);
+    void MarshaledObject(::Il2CppObject* obj, ::System::Runtime::Remoting::ObjRef* _or);
     // public System.Void UnmarshaledObject(System.Object obj, System.Runtime.Remoting.ObjRef or)
     // Offset: 0xFFFFFFFF
-    void UnmarshaledObject(::Il2CppObject* obj, System::Runtime::Remoting::ObjRef* _or);
+    void UnmarshaledObject(::Il2CppObject* obj, ::System::Runtime::Remoting::ObjRef* _or);
   }; // System.Runtime.Remoting.Services.ITrackingHandler
   #pragma pack(pop)
 }
@@ -57,7 +57,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Remoting::Services::ITrackingHandler::MarshaledObject
 // Il2CppName: MarshaledObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Services::ITrackingHandler::*)(::Il2CppObject*, System::Runtime::Remoting::ObjRef*)>(&System::Runtime::Remoting::Services::ITrackingHandler::MarshaledObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Services::ITrackingHandler::*)(::Il2CppObject*, ::System::Runtime::Remoting::ObjRef*)>(&System::Runtime::Remoting::Services::ITrackingHandler::MarshaledObject)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* _or = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting", "ObjRef")->byval_arg;
@@ -67,7 +67,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Remoting::Services::ITrackingHandler::UnmarshaledObject
 // Il2CppName: UnmarshaledObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Services::ITrackingHandler::*)(::Il2CppObject*, System::Runtime::Remoting::ObjRef*)>(&System::Runtime::Remoting::Services::ITrackingHandler::UnmarshaledObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Services::ITrackingHandler::*)(::Il2CppObject*, ::System::Runtime::Remoting::ObjRef*)>(&System::Runtime::Remoting::Services::ITrackingHandler::UnmarshaledObject)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* _or = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting", "ObjRef")->byval_arg;

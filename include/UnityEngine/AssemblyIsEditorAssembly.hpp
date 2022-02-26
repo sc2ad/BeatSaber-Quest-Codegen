@@ -14,8 +14,8 @@ namespace UnityEngine {
   class AssemblyIsEditorAssembly;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::AssemblyIsEditorAssembly);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AssemblyIsEditorAssembly*, "UnityEngine", "AssemblyIsEditorAssembly");
+NEED_NO_BOX(::UnityEngine::AssemblyIsEditorAssembly);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AssemblyIsEditorAssembly*, "UnityEngine", "AssemblyIsEditorAssembly");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -24,7 +24,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AttributeUsageAttribute] Offset: 11A5BFC
   // [RequiredByNativeCodeAttribute] Offset: 11A5BFC
-  class AssemblyIsEditorAssembly : public System::Attribute {
+  class AssemblyIsEditorAssembly : public ::System::Attribute {
     public:
   }; // UnityEngine.AssemblyIsEditorAssembly
   #pragma pack(pop)

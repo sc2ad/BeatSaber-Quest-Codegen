@@ -27,8 +27,8 @@ namespace System::Text::RegularExpressions {
   class RegexNode;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Text::RegularExpressions::RegexNode);
-DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexNode*, "System.Text.RegularExpressions", "RegexNode");
+NEED_NO_BOX(::System::Text::RegularExpressions::RegexNode);
+DEFINE_IL2CPP_ARG_TYPE(::System::Text::RegularExpressions::RegexNode*, "System.Text.RegularExpressions", "RegexNode");
 // Type namespace: System.Text.RegularExpressions
 namespace System::Text::RegularExpressions {
   // Size: 0x40
@@ -57,9 +57,9 @@ namespace System::Text::RegularExpressions {
     // System.Collections.Generic.List`1<System.Text.RegularExpressions.RegexNode> _children
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::Generic::List_1<System::Text::RegularExpressions::RegexNode*>* children;
+    ::System::Collections::Generic::List_1<::System::Text::RegularExpressions::RegexNode*>* children;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<System::Text::RegularExpressions::RegexNode*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::System::Text::RegularExpressions::RegexNode*>*) == 0x8);
     // System.String _str
     // Size: 0x8
     // Offset: 0x20
@@ -89,20 +89,20 @@ namespace System::Text::RegularExpressions {
     // System.Text.RegularExpressions.RegexOptions _options
     // Size: 0x4
     // Offset: 0x34
-    System::Text::RegularExpressions::RegexOptions options;
+    ::System::Text::RegularExpressions::RegexOptions options;
     // Field size check
-    static_assert(sizeof(System::Text::RegularExpressions::RegexOptions) == 0x4);
+    static_assert(sizeof(::System::Text::RegularExpressions::RegexOptions) == 0x4);
     // System.Text.RegularExpressions.RegexNode _next
     // Size: 0x8
     // Offset: 0x38
-    System::Text::RegularExpressions::RegexNode* next;
+    ::System::Text::RegularExpressions::RegexNode* next;
     // Field size check
-    static_assert(sizeof(System::Text::RegularExpressions::RegexNode*) == 0x8);
+    static_assert(sizeof(::System::Text::RegularExpressions::RegexNode*) == 0x8);
     public:
     // Get instance field reference: System.Int32 _type
     int& dyn__type();
     // Get instance field reference: System.Collections.Generic.List`1<System.Text.RegularExpressions.RegexNode> _children
-    System::Collections::Generic::List_1<System::Text::RegularExpressions::RegexNode*>*& dyn__children();
+    ::System::Collections::Generic::List_1<::System::Text::RegularExpressions::RegexNode*>*& dyn__children();
     // Get instance field reference: System.String _str
     ::StringW& dyn__str();
     // Get instance field reference: System.Char _ch
@@ -112,42 +112,42 @@ namespace System::Text::RegularExpressions {
     // Get instance field reference: System.Int32 _n
     int& dyn__n();
     // Get instance field reference: System.Text.RegularExpressions.RegexOptions _options
-    System::Text::RegularExpressions::RegexOptions& dyn__options();
+    ::System::Text::RegularExpressions::RegexOptions& dyn__options();
     // Get instance field reference: System.Text.RegularExpressions.RegexNode _next
-    System::Text::RegularExpressions::RegexNode*& dyn__next();
+    ::System::Text::RegularExpressions::RegexNode*& dyn__next();
     // System.Void .ctor(System.Int32 type, System.Text.RegularExpressions.RegexOptions options)
     // Offset: 0x1EA1C7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static RegexNode* New_ctor(int type, System::Text::RegularExpressions::RegexOptions options) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::RegexNode::.ctor");
+    static RegexNode* New_ctor(int type, ::System::Text::RegularExpressions::RegexOptions options) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::RegexNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexNode*, creationType>(type, options)));
     }
     // System.Void .ctor(System.Int32 type, System.Text.RegularExpressions.RegexOptions options, System.Char ch)
     // Offset: 0x1EA1CB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static RegexNode* New_ctor(int type, System::Text::RegularExpressions::RegexOptions options, ::Il2CppChar ch) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::RegexNode::.ctor");
+    static RegexNode* New_ctor(int type, ::System::Text::RegularExpressions::RegexOptions options, ::Il2CppChar ch) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::RegexNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexNode*, creationType>(type, options, ch)));
     }
     // System.Void .ctor(System.Int32 type, System.Text.RegularExpressions.RegexOptions options, System.String str)
     // Offset: 0x1EA1CFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static RegexNode* New_ctor(int type, System::Text::RegularExpressions::RegexOptions options, ::StringW str) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::RegexNode::.ctor");
+    static RegexNode* New_ctor(int type, ::System::Text::RegularExpressions::RegexOptions options, ::StringW str) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::RegexNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexNode*, creationType>(type, options, str)));
     }
     // System.Void .ctor(System.Int32 type, System.Text.RegularExpressions.RegexOptions options, System.Int32 m)
     // Offset: 0x1EA1D40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static RegexNode* New_ctor(int type, System::Text::RegularExpressions::RegexOptions options, int m) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::RegexNode::.ctor");
+    static RegexNode* New_ctor(int type, ::System::Text::RegularExpressions::RegexOptions options, int m) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::RegexNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexNode*, creationType>(type, options, m)));
     }
     // System.Void .ctor(System.Int32 type, System.Text.RegularExpressions.RegexOptions options, System.Int32 m, System.Int32 n)
     // Offset: 0x1EA1D84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static RegexNode* New_ctor(int type, System::Text::RegularExpressions::RegexOptions options, int m, int n) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::RegexNode::.ctor");
+    static RegexNode* New_ctor(int type, ::System::Text::RegularExpressions::RegexOptions options, int m, int n) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::RegexNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexNode*, creationType>(type, options, m, n)));
     }
     // System.Boolean UseOptionR()
@@ -155,40 +155,40 @@ namespace System::Text::RegularExpressions {
     bool UseOptionR();
     // System.Text.RegularExpressions.RegexNode ReverseLeft()
     // Offset: 0x1EA1DE0
-    System::Text::RegularExpressions::RegexNode* ReverseLeft();
+    ::System::Text::RegularExpressions::RegexNode* ReverseLeft();
     // System.Void MakeRep(System.Int32 type, System.Int32 min, System.Int32 max)
     // Offset: 0x1EA1E58
     void MakeRep(int type, int min, int max);
     // System.Text.RegularExpressions.RegexNode Reduce()
     // Offset: 0x1EA1E70
-    System::Text::RegularExpressions::RegexNode* Reduce();
+    ::System::Text::RegularExpressions::RegexNode* Reduce();
     // System.Text.RegularExpressions.RegexNode StripEnation(System.Int32 emptyType)
     // Offset: 0x1EA28C4
-    System::Text::RegularExpressions::RegexNode* StripEnation(int emptyType);
+    ::System::Text::RegularExpressions::RegexNode* StripEnation(int emptyType);
     // System.Text.RegularExpressions.RegexNode ReduceGroup()
     // Offset: 0x1EA2730
-    System::Text::RegularExpressions::RegexNode* ReduceGroup();
+    ::System::Text::RegularExpressions::RegexNode* ReduceGroup();
     // System.Text.RegularExpressions.RegexNode ReduceRep()
     // Offset: 0x1EA259C
-    System::Text::RegularExpressions::RegexNode* ReduceRep();
+    ::System::Text::RegularExpressions::RegexNode* ReduceRep();
     // System.Text.RegularExpressions.RegexNode ReduceSet()
     // Offset: 0x1EA2760
-    System::Text::RegularExpressions::RegexNode* ReduceSet();
+    ::System::Text::RegularExpressions::RegexNode* ReduceSet();
     // System.Text.RegularExpressions.RegexNode ReduceAlternation()
     // Offset: 0x1EA1EBC
-    System::Text::RegularExpressions::RegexNode* ReduceAlternation();
+    ::System::Text::RegularExpressions::RegexNode* ReduceAlternation();
     // System.Text.RegularExpressions.RegexNode ReduceConcatenation()
     // Offset: 0x1EA2254
-    System::Text::RegularExpressions::RegexNode* ReduceConcatenation();
+    ::System::Text::RegularExpressions::RegexNode* ReduceConcatenation();
     // System.Text.RegularExpressions.RegexNode MakeQuantifier(System.Boolean lazy, System.Int32 min, System.Int32 max)
     // Offset: 0x1EA2990
-    System::Text::RegularExpressions::RegexNode* MakeQuantifier(bool lazy, int min, int max);
+    ::System::Text::RegularExpressions::RegexNode* MakeQuantifier(bool lazy, int min, int max);
     // System.Void AddChild(System.Text.RegularExpressions.RegexNode newChild)
     // Offset: 0x1EA2AB8
-    void AddChild(System::Text::RegularExpressions::RegexNode* newChild);
+    void AddChild(::System::Text::RegularExpressions::RegexNode* newChild);
     // System.Text.RegularExpressions.RegexNode Child(System.Int32 i)
     // Offset: 0x1E9EDC4
-    System::Text::RegularExpressions::RegexNode* Child(int i);
+    ::System::Text::RegularExpressions::RegexNode* Child(int i);
     // System.Int32 ChildCount()
     // Offset: 0x1E9ED70
     int ChildCount();
@@ -197,7 +197,7 @@ namespace System::Text::RegularExpressions {
     int Type();
   }; // System.Text.RegularExpressions.RegexNode
   #pragma pack(pop)
-  static check_size<sizeof(RegexNode), 56 + sizeof(System::Text::RegularExpressions::RegexNode*)> __System_Text_RegularExpressions_RegexNodeSizeCheck;
+  static check_size<sizeof(RegexNode), 56 + sizeof(::System::Text::RegularExpressions::RegexNode*)> __System_Text_RegularExpressions_RegexNodeSizeCheck;
   static_assert(sizeof(RegexNode) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -232,7 +232,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexNode::ReverseLeft
 // Il2CppName: ReverseLeft
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexNode* (System::Text::RegularExpressions::RegexNode::*)()>(&System::Text::RegularExpressions::RegexNode::ReverseLeft)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::RegexNode* (System::Text::RegularExpressions::RegexNode::*)()>(&System::Text::RegularExpressions::RegexNode::ReverseLeft)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexNode*), "ReverseLeft", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -251,7 +251,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexNode::Reduce
 // Il2CppName: Reduce
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexNode* (System::Text::RegularExpressions::RegexNode::*)()>(&System::Text::RegularExpressions::RegexNode::Reduce)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::RegexNode* (System::Text::RegularExpressions::RegexNode::*)()>(&System::Text::RegularExpressions::RegexNode::Reduce)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexNode*), "Reduce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -259,7 +259,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexNode::StripEnation
 // Il2CppName: StripEnation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexNode* (System::Text::RegularExpressions::RegexNode::*)(int)>(&System::Text::RegularExpressions::RegexNode::StripEnation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::RegexNode* (System::Text::RegularExpressions::RegexNode::*)(int)>(&System::Text::RegularExpressions::RegexNode::StripEnation)> {
   static const MethodInfo* get() {
     static auto* emptyType = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexNode*), "StripEnation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{emptyType});
@@ -268,7 +268,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexNode::ReduceGroup
 // Il2CppName: ReduceGroup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexNode* (System::Text::RegularExpressions::RegexNode::*)()>(&System::Text::RegularExpressions::RegexNode::ReduceGroup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::RegexNode* (System::Text::RegularExpressions::RegexNode::*)()>(&System::Text::RegularExpressions::RegexNode::ReduceGroup)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexNode*), "ReduceGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -276,7 +276,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexNode::ReduceRep
 // Il2CppName: ReduceRep
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexNode* (System::Text::RegularExpressions::RegexNode::*)()>(&System::Text::RegularExpressions::RegexNode::ReduceRep)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::RegexNode* (System::Text::RegularExpressions::RegexNode::*)()>(&System::Text::RegularExpressions::RegexNode::ReduceRep)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexNode*), "ReduceRep", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -284,7 +284,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexNode::ReduceSet
 // Il2CppName: ReduceSet
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexNode* (System::Text::RegularExpressions::RegexNode::*)()>(&System::Text::RegularExpressions::RegexNode::ReduceSet)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::RegexNode* (System::Text::RegularExpressions::RegexNode::*)()>(&System::Text::RegularExpressions::RegexNode::ReduceSet)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexNode*), "ReduceSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -292,7 +292,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexNode::ReduceAlternation
 // Il2CppName: ReduceAlternation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexNode* (System::Text::RegularExpressions::RegexNode::*)()>(&System::Text::RegularExpressions::RegexNode::ReduceAlternation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::RegexNode* (System::Text::RegularExpressions::RegexNode::*)()>(&System::Text::RegularExpressions::RegexNode::ReduceAlternation)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexNode*), "ReduceAlternation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -300,7 +300,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexNode::ReduceConcatenation
 // Il2CppName: ReduceConcatenation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexNode* (System::Text::RegularExpressions::RegexNode::*)()>(&System::Text::RegularExpressions::RegexNode::ReduceConcatenation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::RegexNode* (System::Text::RegularExpressions::RegexNode::*)()>(&System::Text::RegularExpressions::RegexNode::ReduceConcatenation)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexNode*), "ReduceConcatenation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -308,7 +308,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexNode::MakeQuantifier
 // Il2CppName: MakeQuantifier
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexNode* (System::Text::RegularExpressions::RegexNode::*)(bool, int, int)>(&System::Text::RegularExpressions::RegexNode::MakeQuantifier)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::RegexNode* (System::Text::RegularExpressions::RegexNode::*)(bool, int, int)>(&System::Text::RegularExpressions::RegexNode::MakeQuantifier)> {
   static const MethodInfo* get() {
     static auto* lazy = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* min = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -319,7 +319,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexNode::AddChild
 // Il2CppName: AddChild
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexNode::*)(System::Text::RegularExpressions::RegexNode*)>(&System::Text::RegularExpressions::RegexNode::AddChild)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexNode::*)(::System::Text::RegularExpressions::RegexNode*)>(&System::Text::RegularExpressions::RegexNode::AddChild)> {
   static const MethodInfo* get() {
     static auto* newChild = &::il2cpp_utils::GetClassFromName("System.Text.RegularExpressions", "RegexNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexNode*), "AddChild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newChild});
@@ -328,7 +328,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexNode::Child
 // Il2CppName: Child
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexNode* (System::Text::RegularExpressions::RegexNode::*)(int)>(&System::Text::RegularExpressions::RegexNode::Child)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::RegexNode* (System::Text::RegularExpressions::RegexNode::*)(int)>(&System::Text::RegularExpressions::RegexNode::Child)> {
   static const MethodInfo* get() {
     static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexNode*), "Child", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{i});

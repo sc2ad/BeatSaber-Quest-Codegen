@@ -29,8 +29,8 @@ namespace UnityEngine::Events {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::IKSolverVR::Footstep);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverVR::Footstep*, "RootMotion.FinalIK", "IKSolverVR/Footstep");
+NEED_NO_BOX(::RootMotion::FinalIK::IKSolverVR::Footstep);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::IKSolverVR::Footstep*, "RootMotion.FinalIK", "IKSolverVR/Footstep");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0xA4
@@ -57,27 +57,27 @@ namespace RootMotion::FinalIK {
     // public UnityEngine.Vector3 characterSpaceOffset
     // Size: 0xC
     // Offset: 0x14
-    UnityEngine::Vector3 characterSpaceOffset;
+    ::UnityEngine::Vector3 characterSpaceOffset;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // public UnityEngine.Vector3 position
     // Size: 0xC
     // Offset: 0x20
-    UnityEngine::Vector3 position;
+    ::UnityEngine::Vector3 position;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // public UnityEngine.Quaternion rotation
     // Size: 0x10
     // Offset: 0x2C
-    UnityEngine::Quaternion rotation;
+    ::UnityEngine::Quaternion rotation;
     // Field size check
-    static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    static_assert(sizeof(::UnityEngine::Quaternion) == 0x10);
     // public UnityEngine.Quaternion stepToRootRot
     // Size: 0x10
     // Offset: 0x3C
-    UnityEngine::Quaternion stepToRootRot;
+    ::UnityEngine::Quaternion stepToRootRot;
     // Field size check
-    static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    static_assert(sizeof(::UnityEngine::Quaternion) == 0x10);
     // public System.Boolean isSupportLeg
     // Size: 0x1
     // Offset: 0x4C
@@ -95,33 +95,33 @@ namespace RootMotion::FinalIK {
     // public UnityEngine.Vector3 stepFrom
     // Size: 0xC
     // Offset: 0x54
-    UnityEngine::Vector3 stepFrom;
+    ::UnityEngine::Vector3 stepFrom;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // public UnityEngine.Vector3 stepTo
     // Size: 0xC
     // Offset: 0x60
-    UnityEngine::Vector3 stepTo;
+    ::UnityEngine::Vector3 stepTo;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // public UnityEngine.Quaternion stepFromRot
     // Size: 0x10
     // Offset: 0x6C
-    UnityEngine::Quaternion stepFromRot;
+    ::UnityEngine::Quaternion stepFromRot;
     // Field size check
-    static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    static_assert(sizeof(::UnityEngine::Quaternion) == 0x10);
     // public UnityEngine.Quaternion stepToRot
     // Size: 0x10
     // Offset: 0x7C
-    UnityEngine::Quaternion stepToRot;
+    ::UnityEngine::Quaternion stepToRot;
     // Field size check
-    static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    static_assert(sizeof(::UnityEngine::Quaternion) == 0x10);
     // private UnityEngine.Quaternion footRelativeToRoot
     // Size: 0x10
     // Offset: 0x8C
-    UnityEngine::Quaternion footRelativeToRoot;
+    ::UnityEngine::Quaternion footRelativeToRoot;
     // Field size check
-    static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    static_assert(sizeof(::UnityEngine::Quaternion) == 0x10);
     // private System.Single supportLegW
     // Size: 0x4
     // Offset: 0x9C
@@ -138,27 +138,27 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Single stepSpeed
     float& dyn_stepSpeed();
     // Get instance field reference: public UnityEngine.Vector3 characterSpaceOffset
-    UnityEngine::Vector3& dyn_characterSpaceOffset();
+    ::UnityEngine::Vector3& dyn_characterSpaceOffset();
     // Get instance field reference: public UnityEngine.Vector3 position
-    UnityEngine::Vector3& dyn_position();
+    ::UnityEngine::Vector3& dyn_position();
     // Get instance field reference: public UnityEngine.Quaternion rotation
-    UnityEngine::Quaternion& dyn_rotation();
+    ::UnityEngine::Quaternion& dyn_rotation();
     // Get instance field reference: public UnityEngine.Quaternion stepToRootRot
-    UnityEngine::Quaternion& dyn_stepToRootRot();
+    ::UnityEngine::Quaternion& dyn_stepToRootRot();
     // Get instance field reference: public System.Boolean isSupportLeg
     bool& dyn_isSupportLeg();
     // Get instance field reference: private System.Single <stepProgress>k__BackingField
     float& dyn_$stepProgress$k__BackingField();
     // Get instance field reference: public UnityEngine.Vector3 stepFrom
-    UnityEngine::Vector3& dyn_stepFrom();
+    ::UnityEngine::Vector3& dyn_stepFrom();
     // Get instance field reference: public UnityEngine.Vector3 stepTo
-    UnityEngine::Vector3& dyn_stepTo();
+    ::UnityEngine::Vector3& dyn_stepTo();
     // Get instance field reference: public UnityEngine.Quaternion stepFromRot
-    UnityEngine::Quaternion& dyn_stepFromRot();
+    ::UnityEngine::Quaternion& dyn_stepFromRot();
     // Get instance field reference: public UnityEngine.Quaternion stepToRot
-    UnityEngine::Quaternion& dyn_stepToRot();
+    ::UnityEngine::Quaternion& dyn_stepToRot();
     // Get instance field reference: private UnityEngine.Quaternion footRelativeToRoot
-    UnityEngine::Quaternion& dyn_footRelativeToRoot();
+    ::UnityEngine::Quaternion& dyn_footRelativeToRoot();
     // Get instance field reference: private System.Single supportLegW
     float& dyn_supportLegW();
     // Get instance field reference: private System.Single supportLegWV
@@ -175,25 +175,25 @@ namespace RootMotion::FinalIK {
     // public System.Void .ctor(UnityEngine.Quaternion rootRotation, UnityEngine.Vector3 footPosition, UnityEngine.Quaternion footRotation, UnityEngine.Vector3 characterSpaceOffset)
     // Offset: 0x232C0BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static IKSolverVR::Footstep* New_ctor(UnityEngine::Quaternion rootRotation, UnityEngine::Vector3 footPosition, UnityEngine::Quaternion footRotation, UnityEngine::Vector3 characterSpaceOffset) {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::IKSolverVR::Footstep::.ctor");
+    static IKSolverVR::Footstep* New_ctor(::UnityEngine::Quaternion rootRotation, ::UnityEngine::Vector3 footPosition, ::UnityEngine::Quaternion footRotation, ::UnityEngine::Vector3 characterSpaceOffset) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::IKSolverVR::Footstep::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverVR::Footstep*, creationType>(rootRotation, footPosition, footRotation, characterSpaceOffset)));
     }
     // public System.Void Reset(UnityEngine.Quaternion rootRotation, UnityEngine.Vector3 footPosition, UnityEngine.Quaternion footRotation)
     // Offset: 0x232C24C
-    void Reset(UnityEngine::Quaternion rootRotation, UnityEngine::Vector3 footPosition, UnityEngine::Quaternion footRotation);
+    void Reset(::UnityEngine::Quaternion rootRotation, ::UnityEngine::Vector3 footPosition, ::UnityEngine::Quaternion footRotation);
     // public System.Void StepTo(UnityEngine.Vector3 p, UnityEngine.Quaternion rootRotation, System.Single stepThreshold)
     // Offset: 0x232C294
-    void StepTo(UnityEngine::Vector3 p, UnityEngine::Quaternion rootRotation, float stepThreshold);
+    void StepTo(::UnityEngine::Vector3 p, ::UnityEngine::Quaternion rootRotation, float stepThreshold);
     // public System.Void UpdateStepping(UnityEngine.Vector3 p, UnityEngine.Quaternion rootRotation, System.Single speed)
     // Offset: 0x232C454
-    void UpdateStepping(UnityEngine::Vector3 p, UnityEngine::Quaternion rootRotation, float speed);
+    void UpdateStepping(::UnityEngine::Vector3 p, ::UnityEngine::Quaternion rootRotation, float speed);
     // public System.Void UpdateStanding(UnityEngine.Quaternion rootRotation, System.Single minAngle, System.Single speed)
     // Offset: 0x232C62C
-    void UpdateStanding(UnityEngine::Quaternion rootRotation, float minAngle, float speed);
+    void UpdateStanding(::UnityEngine::Quaternion rootRotation, float minAngle, float speed);
     // public System.Void Update(RootMotion.InterpolationMode interpolation, UnityEngine.Events.UnityEvent onStep)
     // Offset: 0x232C818
-    void Update(RootMotion::InterpolationMode interpolation, UnityEngine::Events::UnityEvent* onStep);
+    void Update(::RootMotion::InterpolationMode interpolation, ::UnityEngine::Events::UnityEvent* onStep);
   }; // RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Footstep
   #pragma pack(pop)
   static check_size<sizeof(IKSolverVR::Footstep), 160 + sizeof(float)> __RootMotion_FinalIK_IKSolverVR_FootstepSizeCheck;
@@ -232,7 +232,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Footstep::Reset
 // Il2CppName: Reset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Footstep::*)(UnityEngine::Quaternion, UnityEngine::Vector3, UnityEngine::Quaternion)>(&RootMotion::FinalIK::IKSolverVR::Footstep::Reset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Footstep::*)(::UnityEngine::Quaternion, ::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(&RootMotion::FinalIK::IKSolverVR::Footstep::Reset)> {
   static const MethodInfo* get() {
     static auto* rootRotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     static auto* footPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -243,7 +243,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Footstep::StepTo
 // Il2CppName: StepTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Footstep::*)(UnityEngine::Vector3, UnityEngine::Quaternion, float)>(&RootMotion::FinalIK::IKSolverVR::Footstep::StepTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Footstep::*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion, float)>(&RootMotion::FinalIK::IKSolverVR::Footstep::StepTo)> {
   static const MethodInfo* get() {
     static auto* p = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* rootRotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
@@ -254,7 +254,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Footstep::UpdateStepping
 // Il2CppName: UpdateStepping
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Footstep::*)(UnityEngine::Vector3, UnityEngine::Quaternion, float)>(&RootMotion::FinalIK::IKSolverVR::Footstep::UpdateStepping)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Footstep::*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion, float)>(&RootMotion::FinalIK::IKSolverVR::Footstep::UpdateStepping)> {
   static const MethodInfo* get() {
     static auto* p = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* rootRotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
@@ -265,7 +265,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Footstep::UpdateStanding
 // Il2CppName: UpdateStanding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Footstep::*)(UnityEngine::Quaternion, float, float)>(&RootMotion::FinalIK::IKSolverVR::Footstep::UpdateStanding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Footstep::*)(::UnityEngine::Quaternion, float, float)>(&RootMotion::FinalIK::IKSolverVR::Footstep::UpdateStanding)> {
   static const MethodInfo* get() {
     static auto* rootRotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     static auto* minAngle = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -276,7 +276,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Footstep::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Footstep::*)(RootMotion::InterpolationMode, UnityEngine::Events::UnityEvent*)>(&RootMotion::FinalIK::IKSolverVR::Footstep::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Footstep::*)(::RootMotion::InterpolationMode, ::UnityEngine::Events::UnityEvent*)>(&RootMotion::FinalIK::IKSolverVR::Footstep::Update)> {
   static const MethodInfo* get() {
     static auto* interpolation = &::il2cpp_utils::GetClassFromName("RootMotion", "InterpolationMode")->byval_arg;
     static auto* onStep = &::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityEvent")->byval_arg;

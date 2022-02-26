@@ -23,8 +23,8 @@ namespace SFB {
   class IStandaloneFileBrowser;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(SFB::IStandaloneFileBrowser);
-DEFINE_IL2CPP_ARG_TYPE(SFB::IStandaloneFileBrowser*, "SFB", "IStandaloneFileBrowser");
+NEED_NO_BOX(::SFB::IStandaloneFileBrowser);
+DEFINE_IL2CPP_ARG_TYPE(::SFB::IStandaloneFileBrowser*, "SFB", "IStandaloneFileBrowser");
 // Type namespace: SFB
 namespace SFB {
   // Size: 0x10
@@ -35,22 +35,22 @@ namespace SFB {
     public:
     // public System.String[] OpenFilePanel(System.String title, System.String directory, SFB.ExtensionFilter[] extensions, System.Boolean multiselect)
     // Offset: 0xFFFFFFFF
-    ::ArrayW<::StringW> OpenFilePanel(::StringW title, ::StringW directory, ::ArrayW<SFB::ExtensionFilter> extensions, bool multiselect);
+    ::ArrayW<::StringW> OpenFilePanel(::StringW title, ::StringW directory, ::ArrayW<::SFB::ExtensionFilter> extensions, bool multiselect);
     // public System.String[] OpenFolderPanel(System.String title, System.String directory, System.Boolean multiselect)
     // Offset: 0xFFFFFFFF
     ::ArrayW<::StringW> OpenFolderPanel(::StringW title, ::StringW directory, bool multiselect);
     // public System.String SaveFilePanel(System.String title, System.String directory, System.String defaultName, SFB.ExtensionFilter[] extensions)
     // Offset: 0xFFFFFFFF
-    ::StringW SaveFilePanel(::StringW title, ::StringW directory, ::StringW defaultName, ::ArrayW<SFB::ExtensionFilter> extensions);
+    ::StringW SaveFilePanel(::StringW title, ::StringW directory, ::StringW defaultName, ::ArrayW<::SFB::ExtensionFilter> extensions);
     // public System.Void OpenFilePanelAsync(System.String title, System.String directory, SFB.ExtensionFilter[] extensions, System.Boolean multiselect, System.Action`1<System.String[]> cb)
     // Offset: 0xFFFFFFFF
-    void OpenFilePanelAsync(::StringW title, ::StringW directory, ::ArrayW<SFB::ExtensionFilter> extensions, bool multiselect, System::Action_1<::ArrayW<::StringW>>* cb);
+    void OpenFilePanelAsync(::StringW title, ::StringW directory, ::ArrayW<::SFB::ExtensionFilter> extensions, bool multiselect, ::System::Action_1<::ArrayW<::StringW>>* cb);
     // public System.Void OpenFolderPanelAsync(System.String title, System.String directory, System.Boolean multiselect, System.Action`1<System.String[]> cb)
     // Offset: 0xFFFFFFFF
-    void OpenFolderPanelAsync(::StringW title, ::StringW directory, bool multiselect, System::Action_1<::ArrayW<::StringW>>* cb);
+    void OpenFolderPanelAsync(::StringW title, ::StringW directory, bool multiselect, ::System::Action_1<::ArrayW<::StringW>>* cb);
     // public System.Void SaveFilePanelAsync(System.String title, System.String directory, System.String defaultName, SFB.ExtensionFilter[] extensions, System.Action`1<System.String> cb)
     // Offset: 0xFFFFFFFF
-    void SaveFilePanelAsync(::StringW title, ::StringW directory, ::StringW defaultName, ::ArrayW<SFB::ExtensionFilter> extensions, System::Action_1<::StringW>* cb);
+    void SaveFilePanelAsync(::StringW title, ::StringW directory, ::StringW defaultName, ::ArrayW<::SFB::ExtensionFilter> extensions, ::System::Action_1<::StringW>* cb);
   }; // SFB.IStandaloneFileBrowser
   #pragma pack(pop)
 }
@@ -58,7 +58,7 @@ namespace SFB {
 // Writing MetadataGetter for method: SFB::IStandaloneFileBrowser::OpenFilePanel
 // Il2CppName: OpenFilePanel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW> (SFB::IStandaloneFileBrowser::*)(::StringW, ::StringW, ::ArrayW<SFB::ExtensionFilter>, bool)>(&SFB::IStandaloneFileBrowser::OpenFilePanel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW> (SFB::IStandaloneFileBrowser::*)(::StringW, ::StringW, ::ArrayW<::SFB::ExtensionFilter>, bool)>(&SFB::IStandaloneFileBrowser::OpenFilePanel)> {
   static const MethodInfo* get() {
     static auto* title = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* directory = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -81,7 +81,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: SFB::IStandaloneFileBrowser::SaveFilePanel
 // Il2CppName: SaveFilePanel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (SFB::IStandaloneFileBrowser::*)(::StringW, ::StringW, ::StringW, ::ArrayW<SFB::ExtensionFilter>)>(&SFB::IStandaloneFileBrowser::SaveFilePanel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (SFB::IStandaloneFileBrowser::*)(::StringW, ::StringW, ::StringW, ::ArrayW<::SFB::ExtensionFilter>)>(&SFB::IStandaloneFileBrowser::SaveFilePanel)> {
   static const MethodInfo* get() {
     static auto* title = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* directory = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -93,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: SFB::IStandaloneFileBrowser::OpenFilePanelAsync
 // Il2CppName: OpenFilePanelAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SFB::IStandaloneFileBrowser::*)(::StringW, ::StringW, ::ArrayW<SFB::ExtensionFilter>, bool, System::Action_1<::ArrayW<::StringW>>*)>(&SFB::IStandaloneFileBrowser::OpenFilePanelAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SFB::IStandaloneFileBrowser::*)(::StringW, ::StringW, ::ArrayW<::SFB::ExtensionFilter>, bool, ::System::Action_1<::ArrayW<::StringW>>*)>(&SFB::IStandaloneFileBrowser::OpenFilePanelAsync)> {
   static const MethodInfo* get() {
     static auto* title = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* directory = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -106,7 +106,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SFB::
 // Writing MetadataGetter for method: SFB::IStandaloneFileBrowser::OpenFolderPanelAsync
 // Il2CppName: OpenFolderPanelAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SFB::IStandaloneFileBrowser::*)(::StringW, ::StringW, bool, System::Action_1<::ArrayW<::StringW>>*)>(&SFB::IStandaloneFileBrowser::OpenFolderPanelAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SFB::IStandaloneFileBrowser::*)(::StringW, ::StringW, bool, ::System::Action_1<::ArrayW<::StringW>>*)>(&SFB::IStandaloneFileBrowser::OpenFolderPanelAsync)> {
   static const MethodInfo* get() {
     static auto* title = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* directory = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -118,7 +118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SFB::
 // Writing MetadataGetter for method: SFB::IStandaloneFileBrowser::SaveFilePanelAsync
 // Il2CppName: SaveFilePanelAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SFB::IStandaloneFileBrowser::*)(::StringW, ::StringW, ::StringW, ::ArrayW<SFB::ExtensionFilter>, System::Action_1<::StringW>*)>(&SFB::IStandaloneFileBrowser::SaveFilePanelAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SFB::IStandaloneFileBrowser::*)(::StringW, ::StringW, ::StringW, ::ArrayW<::SFB::ExtensionFilter>, ::System::Action_1<::StringW>*)>(&SFB::IStandaloneFileBrowser::SaveFilePanelAsync)> {
   static const MethodInfo* get() {
     static auto* title = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* directory = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

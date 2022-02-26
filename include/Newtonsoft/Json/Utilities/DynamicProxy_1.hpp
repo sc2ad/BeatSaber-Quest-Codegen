@@ -26,7 +26,7 @@ namespace Newtonsoft::Json::Utilities {
   class DynamicProxy_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Newtonsoft::Json::Utilities::DynamicProxy_1, "Newtonsoft.Json.Utilities", "DynamicProxy`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Newtonsoft::Json::Utilities::DynamicProxy_1, "Newtonsoft.Json.Utilities", "DynamicProxy`1");
 // Type namespace: Newtonsoft.Json.Utilities
 namespace Newtonsoft::Json::Utilities {
   // WARNING Size may be invalid!
@@ -39,10 +39,10 @@ namespace Newtonsoft::Json::Utilities {
     public:
     // public System.Collections.Generic.IEnumerable`1<System.String> GetDynamicMemberNames(T instance)
     // Offset: 0xFFFFFFFF
-    System::Collections::Generic::IEnumerable_1<::StringW>* GetDynamicMemberNames(T instance) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Utilities::DynamicProxy_1::GetDynamicMemberNames");
+    ::System::Collections::Generic::IEnumerable_1<::StringW>* GetDynamicMemberNames(T instance) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Utilities::DynamicProxy_1::GetDynamicMemberNames");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetDynamicMemberNames", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(instance)})));
-      return ::il2cpp_utils::RunMethodRethrow<System::Collections::Generic::IEnumerable_1<::StringW>*, false>(this, ___internal__method, instance);
+      return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::StringW>*, false>(this, ___internal__method, instance);
     }
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
@@ -50,7 +50,7 @@ namespace Newtonsoft::Json::Utilities {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DynamicProxy_1<T>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Utilities::DynamicProxy_1::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Utilities::DynamicProxy_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DynamicProxy_1<T>*, creationType>()));
     }
   }; // Newtonsoft.Json.Utilities.DynamicProxy`1

@@ -22,8 +22,8 @@ namespace UnityEngine {
   class ParticleSystemRenderer;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ParticleSystemRenderer);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystemRenderer*, "UnityEngine", "ParticleSystemRenderer");
+NEED_NO_BOX(::UnityEngine::ParticleSystemRenderer);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ParticleSystemRenderer*, "UnityEngine", "ParticleSystemRenderer");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -34,11 +34,11 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: 11DC318
   // [NativeHeaderAttribute] Offset: 11DC318
   // [RequireComponent] Offset: 11DC318
-  class ParticleSystemRenderer : public UnityEngine::Renderer {
+  class ParticleSystemRenderer : public ::UnityEngine::Renderer {
     public:
     // public System.Int32 GetMeshes(out UnityEngine.Mesh[] meshes)
     // Offset: 0x2A552C4
-    int GetMeshes(ByRef<::ArrayW<UnityEngine::Mesh*>> meshes);
+    int GetMeshes(ByRef<::ArrayW<::UnityEngine::Mesh*>> meshes);
   }; // UnityEngine.ParticleSystemRenderer
   #pragma pack(pop)
 }
@@ -46,7 +46,7 @@ namespace UnityEngine {
 // Writing MetadataGetter for method: UnityEngine::ParticleSystemRenderer::GetMeshes
 // Il2CppName: GetMeshes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ParticleSystemRenderer::*)(ByRef<::ArrayW<UnityEngine::Mesh*>>)>(&UnityEngine::ParticleSystemRenderer::GetMeshes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ParticleSystemRenderer::*)(ByRef<::ArrayW<::UnityEngine::Mesh*>>)>(&UnityEngine::ParticleSystemRenderer::GetMeshes)> {
   static const MethodInfo* get() {
     static auto* meshes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystemRenderer*), "GetMeshes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{meshes});

@@ -20,8 +20,8 @@ namespace System::Xml::Serialization {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Serialization::XmlSerializationReaderInterpreter::ReaderCallbackInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Serialization::XmlSerializationReaderInterpreter::ReaderCallbackInfo*, "System.Xml.Serialization", "XmlSerializationReaderInterpreter/ReaderCallbackInfo");
+NEED_NO_BOX(::System::Xml::Serialization::XmlSerializationReaderInterpreter::ReaderCallbackInfo);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::XmlSerializationReaderInterpreter::ReaderCallbackInfo*, "System.Xml.Serialization", "XmlSerializationReaderInterpreter/ReaderCallbackInfo");
 // Type namespace: System.Xml.Serialization
 namespace System::Xml::Serialization {
   // Size: 0x20
@@ -42,25 +42,25 @@ namespace System::Xml::Serialization {
     // private System.Xml.Serialization.XmlSerializationReaderInterpreter _sri
     // Size: 0x8
     // Offset: 0x10
-    System::Xml::Serialization::XmlSerializationReaderInterpreter* sri;
+    ::System::Xml::Serialization::XmlSerializationReaderInterpreter* sri;
     // Field size check
-    static_assert(sizeof(System::Xml::Serialization::XmlSerializationReaderInterpreter*) == 0x8);
+    static_assert(sizeof(::System::Xml::Serialization::XmlSerializationReaderInterpreter*) == 0x8);
     // private System.Xml.Serialization.XmlTypeMapping _typeMap
     // Size: 0x8
     // Offset: 0x18
-    System::Xml::Serialization::XmlTypeMapping* typeMap;
+    ::System::Xml::Serialization::XmlTypeMapping* typeMap;
     // Field size check
-    static_assert(sizeof(System::Xml::Serialization::XmlTypeMapping*) == 0x8);
+    static_assert(sizeof(::System::Xml::Serialization::XmlTypeMapping*) == 0x8);
     public:
     // Get instance field reference: private System.Xml.Serialization.XmlSerializationReaderInterpreter _sri
-    System::Xml::Serialization::XmlSerializationReaderInterpreter*& dyn__sri();
+    ::System::Xml::Serialization::XmlSerializationReaderInterpreter*& dyn__sri();
     // Get instance field reference: private System.Xml.Serialization.XmlTypeMapping _typeMap
-    System::Xml::Serialization::XmlTypeMapping*& dyn__typeMap();
+    ::System::Xml::Serialization::XmlTypeMapping*& dyn__typeMap();
     // public System.Void .ctor(System.Xml.Serialization.XmlSerializationReaderInterpreter sri, System.Xml.Serialization.XmlTypeMapping typeMap)
     // Offset: 0x1E10938
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlSerializationReaderInterpreter::ReaderCallbackInfo* New_ctor(System::Xml::Serialization::XmlSerializationReaderInterpreter* sri, System::Xml::Serialization::XmlTypeMapping* typeMap) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Serialization::XmlSerializationReaderInterpreter::ReaderCallbackInfo::.ctor");
+    static XmlSerializationReaderInterpreter::ReaderCallbackInfo* New_ctor(::System::Xml::Serialization::XmlSerializationReaderInterpreter* sri, ::System::Xml::Serialization::XmlTypeMapping* typeMap) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Serialization::XmlSerializationReaderInterpreter::ReaderCallbackInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlSerializationReaderInterpreter::ReaderCallbackInfo*, creationType>(sri, typeMap)));
     }
     // System.Object ReadObject()
@@ -68,7 +68,7 @@ namespace System::Xml::Serialization {
     ::Il2CppObject* ReadObject();
   }; // System.Xml.Serialization.XmlSerializationReaderInterpreter/System.Xml.Serialization.ReaderCallbackInfo
   #pragma pack(pop)
-  static check_size<sizeof(XmlSerializationReaderInterpreter::ReaderCallbackInfo), 24 + sizeof(System::Xml::Serialization::XmlTypeMapping*)> __System_Xml_Serialization_XmlSerializationReaderInterpreter_ReaderCallbackInfoSizeCheck;
+  static check_size<sizeof(XmlSerializationReaderInterpreter::ReaderCallbackInfo), 24 + sizeof(::System::Xml::Serialization::XmlTypeMapping*)> __System_Xml_Serialization_XmlSerializationReaderInterpreter_ReaderCallbackInfoSizeCheck;
   static_assert(sizeof(XmlSerializationReaderInterpreter::ReaderCallbackInfo) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

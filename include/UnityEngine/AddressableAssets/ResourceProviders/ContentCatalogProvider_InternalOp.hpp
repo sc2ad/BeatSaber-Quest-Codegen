@@ -39,8 +39,8 @@ namespace System::Collections::Generic {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp*, "UnityEngine.AddressableAssets.ResourceProviders", "ContentCatalogProvider/InternalOp");
+NEED_NO_BOX(::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp*, "UnityEngine.AddressableAssets.ResourceProviders", "ContentCatalogProvider/InternalOp");
 // Type namespace: UnityEngine.AddressableAssets.ResourceProviders
 namespace UnityEngine::AddressableAssets::ResourceProviders {
   // WARNING Size may be invalid!
@@ -48,7 +48,7 @@ namespace UnityEngine::AddressableAssets::ResourceProviders {
   // [TokenAttribute] Offset: FFFFFFFF
   class ContentCatalogProvider::InternalOp : public ::Il2CppObject {
     public:
-    // Nested type: UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog
+    // Nested type: ::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog
     class BundledCatalog;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -80,25 +80,25 @@ namespace UnityEngine::AddressableAssets::ResourceProviders {
     // private UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle m_ProviderInterface
     // Size: 0x18
     // Offset: 0x28
-    UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle m_ProviderInterface;
+    ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle m_ProviderInterface;
     // Field size check
-    static_assert(sizeof(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle) == 0x18);
+    static_assert(sizeof(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle) == 0x18);
     // UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData m_ContentCatalogData
     // Size: 0x8
     // Offset: 0x40
-    UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData* m_ContentCatalogData;
+    ::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData* m_ContentCatalogData;
     // Field size check
-    static_assert(sizeof(UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*) == 0x8);
+    static_assert(sizeof(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*) == 0x8);
     // private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData> m_ContentCatalogDataLoadOp
     // Size: 0xFFFFFFFF
     // Offset: 0x48
-    UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*> m_ContentCatalogDataLoadOp;
+    ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*> m_ContentCatalogDataLoadOp;
     // private UnityEngine.AddressableAssets.ResourceProviders.ContentCatalogProvider/UnityEngine.AddressableAssets.ResourceProviders.InternalOp/UnityEngine.AddressableAssets.ResourceProviders.BundledCatalog m_BundledCatalog
     // Size: 0x8
     // Offset: 0x60
-    UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog* m_BundledCatalog;
+    ::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog* m_BundledCatalog;
     // Field size check
-    static_assert(sizeof(UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog*) == 0x8);
+    static_assert(sizeof(::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog*) == 0x8);
     public:
     // Get instance field reference: private System.String m_LocalDataPath
     ::StringW& dyn_m_LocalDataPath();
@@ -107,16 +107,16 @@ namespace UnityEngine::AddressableAssets::ResourceProviders {
     // Get instance field reference: private System.String m_LocalHashValue
     ::StringW& dyn_m_LocalHashValue();
     // Get instance field reference: private UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle m_ProviderInterface
-    UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle& dyn_m_ProviderInterface();
+    ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle& dyn_m_ProviderInterface();
     // Get instance field reference: UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData m_ContentCatalogData
-    UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*& dyn_m_ContentCatalogData();
+    ::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*& dyn_m_ContentCatalogData();
     // Get instance field reference: private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData> m_ContentCatalogDataLoadOp
-    UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>& dyn_m_ContentCatalogDataLoadOp();
+    ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>& dyn_m_ContentCatalogDataLoadOp();
     // Get instance field reference: private UnityEngine.AddressableAssets.ResourceProviders.ContentCatalogProvider/UnityEngine.AddressableAssets.ResourceProviders.InternalOp/UnityEngine.AddressableAssets.ResourceProviders.BundledCatalog m_BundledCatalog
-    UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog*& dyn_m_BundledCatalog();
+    ::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog*& dyn_m_BundledCatalog();
     // public System.Void Start(UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle providerInterface, System.Boolean disableCatalogUpdateOnStart, System.Boolean isLocalCatalogInBundle)
     // Offset: 0x17E9B14
-    void Start(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle providerInterface, bool disableCatalogUpdateOnStart, bool isLocalCatalogInBundle);
+    void Start(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle providerInterface, bool disableCatalogUpdateOnStart, bool isLocalCatalogInBundle);
     // private System.Boolean WaitForCompletionCallback()
     // Offset: 0x17EA810
     bool WaitForCompletionCallback();
@@ -128,26 +128,26 @@ namespace UnityEngine::AddressableAssets::ResourceProviders {
     void LoadCatalog(::StringW idToLoad, bool isLocalCatalogInBundle, bool isLocalCatalog);
     // private System.Void CatalogLoadOpCompleteCallback(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData> op)
     // Offset: 0x17EAC70
-    void CatalogLoadOpCompleteCallback(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*> op);
+    void CatalogLoadOpCompleteCallback(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*> op);
     // private System.String GetTransformedInternalId(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation loc)
     // Offset: 0x17EA3EC
-    ::StringW GetTransformedInternalId(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* loc);
+    ::StringW GetTransformedInternalId(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* loc);
     // System.String DetermineIdToLoad(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation location, System.Collections.Generic.IList`1<System.Object> dependencyObjects, System.Boolean disableCatalogUpdateOnStart)
     // Offset: 0x17E9C64
-    ::StringW DetermineIdToLoad(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, System::Collections::Generic::IList_1<::Il2CppObject*>* dependencyObjects, bool disableCatalogUpdateOnStart);
+    ::StringW DetermineIdToLoad(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::System::Collections::Generic::IList_1<::Il2CppObject*>* dependencyObjects, bool disableCatalogUpdateOnStart);
     // private System.Void OnCatalogLoaded(UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData ccd)
     // Offset: 0x17EAD48
-    void OnCatalogLoaded(UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData* ccd);
+    void OnCatalogLoaded(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData* ccd);
     // private System.Void <LoadCatalog>b__10_0(UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData ccd)
     // Offset: 0x17EAF04
-    void $LoadCatalog$b__10_0(UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData* ccd);
+    void $LoadCatalog$b__10_0(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData* ccd);
     // public System.Void .ctor()
     // Offset: 0x17E9B0C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContentCatalogProvider::InternalOp* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContentCatalogProvider::InternalOp*, creationType>()));
     }
   }; // UnityEngine.AddressableAssets.ResourceProviders.ContentCatalogProvider/UnityEngine.AddressableAssets.ResourceProviders.InternalOp
@@ -157,7 +157,7 @@ namespace UnityEngine::AddressableAssets::ResourceProviders {
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::*)(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle, bool, bool)>(&UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::*)(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle, bool, bool)>(&UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::Start)> {
   static const MethodInfo* get() {
     static auto* providerInterface = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.ResourceProviders", "ProvideHandle")->byval_arg;
     static auto* disableCatalogUpdateOnStart = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -195,7 +195,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::CatalogLoadOpCompleteCallback
 // Il2CppName: CatalogLoadOpCompleteCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>)>(&UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::CatalogLoadOpCompleteCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::*)(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>)>(&UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::CatalogLoadOpCompleteCallback)> {
   static const MethodInfo* get() {
     static auto* op = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.AsyncOperations", "AsyncOperationHandle`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.AddressableAssets.ResourceLocators", "ContentCatalogData")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp*), "CatalogLoadOpCompleteCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{op});
@@ -204,7 +204,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::GetTransformedInternalId
 // Il2CppName: GetTransformedInternalId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::*)(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::GetTransformedInternalId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::*)(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::GetTransformedInternalId)> {
   static const MethodInfo* get() {
     static auto* loc = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.ResourceLocations", "IResourceLocation")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp*), "GetTransformedInternalId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{loc});
@@ -213,7 +213,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::DetermineIdToLoad
 // Il2CppName: DetermineIdToLoad
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::*)(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, System::Collections::Generic::IList_1<::Il2CppObject*>*, bool)>(&UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::DetermineIdToLoad)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::*)(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::System::Collections::Generic::IList_1<::Il2CppObject*>*, bool)>(&UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::DetermineIdToLoad)> {
   static const MethodInfo* get() {
     static auto* location = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.ResourceLocations", "IResourceLocation")->byval_arg;
     static auto* dependencyObjects = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Object")})->byval_arg;
@@ -224,7 +224,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::OnCatalogLoaded
 // Il2CppName: OnCatalogLoaded
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::*)(UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*)>(&UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::OnCatalogLoaded)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::*)(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*)>(&UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::OnCatalogLoaded)> {
   static const MethodInfo* get() {
     static auto* ccd = &::il2cpp_utils::GetClassFromName("UnityEngine.AddressableAssets.ResourceLocators", "ContentCatalogData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp*), "OnCatalogLoaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ccd});
@@ -233,7 +233,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::$LoadCatalog$b__10_0
 // Il2CppName: <LoadCatalog>b__10_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::*)(UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*)>(&UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::$LoadCatalog$b__10_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::*)(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*)>(&UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::$LoadCatalog$b__10_0)> {
   static const MethodInfo* get() {
     static auto* ccd = &::il2cpp_utils::GetClassFromName("UnityEngine.AddressableAssets.ResourceLocators", "ContentCatalogData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp*), "<LoadCatalog>b__10_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ccd});

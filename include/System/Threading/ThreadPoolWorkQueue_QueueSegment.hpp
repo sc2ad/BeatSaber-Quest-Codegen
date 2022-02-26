@@ -21,8 +21,8 @@ namespace System::Threading {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Threading::ThreadPoolWorkQueue::QueueSegment);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadPoolWorkQueue::QueueSegment*, "System.Threading", "ThreadPoolWorkQueue/QueueSegment");
+NEED_NO_BOX(::System::Threading::ThreadPoolWorkQueue::QueueSegment);
+DEFINE_IL2CPP_ARG_TYPE(::System::Threading::ThreadPoolWorkQueue::QueueSegment*, "System.Threading", "ThreadPoolWorkQueue/QueueSegment");
 // Type namespace: System.Threading
 namespace System::Threading {
   // Size: 0x28
@@ -43,9 +43,9 @@ namespace System::Threading {
     // readonly System.Threading.IThreadPoolWorkItem[] nodes
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<System::Threading::IThreadPoolWorkItem*> nodes;
+    ::ArrayW<::System::Threading::IThreadPoolWorkItem*> nodes;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::Threading::IThreadPoolWorkItem*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::System::Threading::IThreadPoolWorkItem*>) == 0x8);
     // private System.Int32 indexes
     // Size: 0x4
     // Offset: 0x18
@@ -57,16 +57,16 @@ namespace System::Threading {
     // public System.Threading.ThreadPoolWorkQueue/System.Threading.QueueSegment Next
     // Size: 0x8
     // Offset: 0x20
-    System::Threading::ThreadPoolWorkQueue::QueueSegment* Next;
+    ::System::Threading::ThreadPoolWorkQueue::QueueSegment* Next;
     // Field size check
-    static_assert(sizeof(System::Threading::ThreadPoolWorkQueue::QueueSegment*) == 0x8);
+    static_assert(sizeof(::System::Threading::ThreadPoolWorkQueue::QueueSegment*) == 0x8);
     public:
     // Get instance field reference: readonly System.Threading.IThreadPoolWorkItem[] nodes
-    ::ArrayW<System::Threading::IThreadPoolWorkItem*>& dyn_nodes();
+    ::ArrayW<::System::Threading::IThreadPoolWorkItem*>& dyn_nodes();
     // Get instance field reference: private System.Int32 indexes
     int& dyn_indexes();
     // Get instance field reference: public System.Threading.ThreadPoolWorkQueue/System.Threading.QueueSegment Next
-    System::Threading::ThreadPoolWorkQueue::QueueSegment*& dyn_Next();
+    ::System::Threading::ThreadPoolWorkQueue::QueueSegment*& dyn_Next();
     // private System.Void GetIndexes(out System.Int32 upper, out System.Int32 lower)
     // Offset: 0x1CE0E0C
     void GetIndexes(ByRef<int> upper, ByRef<int> lower);
@@ -78,22 +78,22 @@ namespace System::Threading {
     bool IsUsedUp();
     // public System.Boolean TryEnqueue(System.Threading.IThreadPoolWorkItem node)
     // Offset: 0x1CDFEB0
-    bool TryEnqueue(System::Threading::IThreadPoolWorkItem* node);
+    bool TryEnqueue(::System::Threading::IThreadPoolWorkItem* node);
     // public System.Boolean TryDequeue(out System.Threading.IThreadPoolWorkItem node)
     // Offset: 0x1CE06B4
-    bool TryDequeue(ByRef<System::Threading::IThreadPoolWorkItem*> node);
+    bool TryDequeue(ByRef<::System::Threading::IThreadPoolWorkItem*> node);
     // public System.Void .ctor()
     // Offset: 0x1CDF784
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ThreadPoolWorkQueue::QueueSegment* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::ThreadPoolWorkQueue::QueueSegment::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::ThreadPoolWorkQueue::QueueSegment::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ThreadPoolWorkQueue::QueueSegment*, creationType>()));
     }
   }; // System.Threading.ThreadPoolWorkQueue/System.Threading.QueueSegment
   #pragma pack(pop)
-  static check_size<sizeof(ThreadPoolWorkQueue::QueueSegment), 32 + sizeof(System::Threading::ThreadPoolWorkQueue::QueueSegment*)> __System_Threading_ThreadPoolWorkQueue_QueueSegmentSizeCheck;
+  static check_size<sizeof(ThreadPoolWorkQueue::QueueSegment), 32 + sizeof(::System::Threading::ThreadPoolWorkQueue::QueueSegment*)> __System_Threading_ThreadPoolWorkQueue_QueueSegmentSizeCheck;
   static_assert(sizeof(ThreadPoolWorkQueue::QueueSegment) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -130,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Threading::ThreadPoolWorkQueue::QueueSegment::TryEnqueue
 // Il2CppName: TryEnqueue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ThreadPoolWorkQueue::QueueSegment::*)(System::Threading::IThreadPoolWorkItem*)>(&System::Threading::ThreadPoolWorkQueue::QueueSegment::TryEnqueue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ThreadPoolWorkQueue::QueueSegment::*)(::System::Threading::IThreadPoolWorkItem*)>(&System::Threading::ThreadPoolWorkQueue::QueueSegment::TryEnqueue)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("System.Threading", "IThreadPoolWorkItem")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ThreadPoolWorkQueue::QueueSegment*), "TryEnqueue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node});
@@ -139,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Threading::ThreadPoolWorkQueue::QueueSegment::TryDequeue
 // Il2CppName: TryDequeue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ThreadPoolWorkQueue::QueueSegment::*)(ByRef<System::Threading::IThreadPoolWorkItem*>)>(&System::Threading::ThreadPoolWorkQueue::QueueSegment::TryDequeue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ThreadPoolWorkQueue::QueueSegment::*)(ByRef<::System::Threading::IThreadPoolWorkItem*>)>(&System::Threading::ThreadPoolWorkQueue::QueueSegment::TryDequeue)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("System.Threading", "IThreadPoolWorkItem")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ThreadPoolWorkQueue::QueueSegment*), "TryDequeue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node});

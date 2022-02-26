@@ -27,8 +27,8 @@ namespace Oculus::Platform::Models {
   class UserAndRoom;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::UserAndRoom);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::UserAndRoom*, "Oculus.Platform.Models", "UserAndRoom");
+NEED_NO_BOX(::Oculus::Platform::Models::UserAndRoom);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::UserAndRoom*, "Oculus.Platform.Models", "UserAndRoom");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x28
@@ -49,39 +49,39 @@ namespace Oculus::Platform::Models {
     // public readonly Oculus.Platform.Models.Room RoomOptional
     // Size: 0x8
     // Offset: 0x10
-    Oculus::Platform::Models::Room* RoomOptional;
+    ::Oculus::Platform::Models::Room* RoomOptional;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::Models::Room*) == 0x8);
+    static_assert(sizeof(::Oculus::Platform::Models::Room*) == 0x8);
     // [ObsoleteAttribute] Offset: 0x1232888
     // public readonly Oculus.Platform.Models.Room Room
     // Size: 0x8
     // Offset: 0x18
-    Oculus::Platform::Models::Room* Room;
+    ::Oculus::Platform::Models::Room* Room;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::Models::Room*) == 0x8);
+    static_assert(sizeof(::Oculus::Platform::Models::Room*) == 0x8);
     // public readonly Oculus.Platform.Models.User User
     // Size: 0x8
     // Offset: 0x20
-    Oculus::Platform::Models::User* User;
+    ::Oculus::Platform::Models::User* User;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::Models::User*) == 0x8);
+    static_assert(sizeof(::Oculus::Platform::Models::User*) == 0x8);
     public:
     // Get instance field reference: public readonly Oculus.Platform.Models.Room RoomOptional
-    Oculus::Platform::Models::Room*& dyn_RoomOptional();
+    ::Oculus::Platform::Models::Room*& dyn_RoomOptional();
     // Get instance field reference: public readonly Oculus.Platform.Models.Room Room
-    Oculus::Platform::Models::Room*& dyn_Room();
+    ::Oculus::Platform::Models::Room*& dyn_Room();
     // Get instance field reference: public readonly Oculus.Platform.Models.User User
-    Oculus::Platform::Models::User*& dyn_User();
+    ::Oculus::Platform::Models::User*& dyn_User();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x196E3E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static UserAndRoom* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::UserAndRoom::.ctor");
+    static UserAndRoom* New_ctor(::System::IntPtr o) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::UserAndRoom::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UserAndRoom*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.UserAndRoom
   #pragma pack(pop)
-  static check_size<sizeof(UserAndRoom), 32 + sizeof(Oculus::Platform::Models::User*)> __Oculus_Platform_Models_UserAndRoomSizeCheck;
+  static check_size<sizeof(UserAndRoom), 32 + sizeof(::Oculus::Platform::Models::User*)> __Oculus_Platform_Models_UserAndRoomSizeCheck;
   static_assert(sizeof(UserAndRoom) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -14,7 +14,7 @@ namespace System::Reflection {
   struct AssemblyNameFlags;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyNameFlags, "System.Reflection", "AssemblyNameFlags");
+DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::AssemblyNameFlags, "System.Reflection", "AssemblyNameFlags");
 // Type namespace: System.Reflection
 namespace System::Reflection {
   // Size: 0x4
@@ -23,7 +23,7 @@ namespace System::Reflection {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: 118811C
   // [FlagsAttribute] Offset: FFFFFFFF
-  struct AssemblyNameFlags/*, public System::Enum*/ {
+  struct AssemblyNameFlags/*, public ::System::Enum*/ {
     public:
     public:
     // public System.Int32 value__
@@ -35,9 +35,9 @@ namespace System::Reflection {
     public:
     // Creating value type constructor for type: AssemblyNameFlags
     constexpr AssemblyNameFlags(int value_ = {}) noexcept : value{value_} {}
-    // Creating interface conversion operator: operator System::Enum
-    operator System::Enum() noexcept {
-      return *reinterpret_cast<System::Enum*>(this);
+    // Creating interface conversion operator: operator ::System::Enum
+    operator ::System::Enum() noexcept {
+      return *reinterpret_cast<::System::Enum*>(this);
     }
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
@@ -46,33 +46,33 @@ namespace System::Reflection {
     // static field const value: static public System.Reflection.AssemblyNameFlags None
     static constexpr const int None = 0;
     // Get static field: static public System.Reflection.AssemblyNameFlags None
-    static System::Reflection::AssemblyNameFlags _get_None();
+    static ::System::Reflection::AssemblyNameFlags _get_None();
     // Set static field: static public System.Reflection.AssemblyNameFlags None
-    static void _set_None(System::Reflection::AssemblyNameFlags value);
+    static void _set_None(::System::Reflection::AssemblyNameFlags value);
     // static field const value: static public System.Reflection.AssemblyNameFlags PublicKey
     static constexpr const int PublicKey = 1;
     // Get static field: static public System.Reflection.AssemblyNameFlags PublicKey
-    static System::Reflection::AssemblyNameFlags _get_PublicKey();
+    static ::System::Reflection::AssemblyNameFlags _get_PublicKey();
     // Set static field: static public System.Reflection.AssemblyNameFlags PublicKey
-    static void _set_PublicKey(System::Reflection::AssemblyNameFlags value);
+    static void _set_PublicKey(::System::Reflection::AssemblyNameFlags value);
     // static field const value: static public System.Reflection.AssemblyNameFlags EnableJITcompileOptimizer
     static constexpr const int EnableJITcompileOptimizer = 16384;
     // Get static field: static public System.Reflection.AssemblyNameFlags EnableJITcompileOptimizer
-    static System::Reflection::AssemblyNameFlags _get_EnableJITcompileOptimizer();
+    static ::System::Reflection::AssemblyNameFlags _get_EnableJITcompileOptimizer();
     // Set static field: static public System.Reflection.AssemblyNameFlags EnableJITcompileOptimizer
-    static void _set_EnableJITcompileOptimizer(System::Reflection::AssemblyNameFlags value);
+    static void _set_EnableJITcompileOptimizer(::System::Reflection::AssemblyNameFlags value);
     // static field const value: static public System.Reflection.AssemblyNameFlags EnableJITcompileTracking
     static constexpr const int EnableJITcompileTracking = 32768;
     // Get static field: static public System.Reflection.AssemblyNameFlags EnableJITcompileTracking
-    static System::Reflection::AssemblyNameFlags _get_EnableJITcompileTracking();
+    static ::System::Reflection::AssemblyNameFlags _get_EnableJITcompileTracking();
     // Set static field: static public System.Reflection.AssemblyNameFlags EnableJITcompileTracking
-    static void _set_EnableJITcompileTracking(System::Reflection::AssemblyNameFlags value);
+    static void _set_EnableJITcompileTracking(::System::Reflection::AssemblyNameFlags value);
     // static field const value: static public System.Reflection.AssemblyNameFlags Retargetable
     static constexpr const int Retargetable = 256;
     // Get static field: static public System.Reflection.AssemblyNameFlags Retargetable
-    static System::Reflection::AssemblyNameFlags _get_Retargetable();
+    static ::System::Reflection::AssemblyNameFlags _get_Retargetable();
     // Set static field: static public System.Reflection.AssemblyNameFlags Retargetable
-    static void _set_Retargetable(System::Reflection::AssemblyNameFlags value);
+    static void _set_Retargetable(::System::Reflection::AssemblyNameFlags value);
     // Get instance field reference: public System.Int32 value__
     int& dyn_value__();
   }; // System.Reflection.AssemblyNameFlags

@@ -18,8 +18,8 @@ namespace Oculus::Platform::Models {
   class LaunchUnblockFlowResult;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::LaunchUnblockFlowResult);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LaunchUnblockFlowResult*, "Oculus.Platform.Models", "LaunchUnblockFlowResult");
+NEED_NO_BOX(::Oculus::Platform::Models::LaunchUnblockFlowResult);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::LaunchUnblockFlowResult*, "Oculus.Platform.Models", "LaunchUnblockFlowResult");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x12
@@ -57,8 +57,8 @@ namespace Oculus::Platform::Models {
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x1967118
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static LaunchUnblockFlowResult* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::LaunchUnblockFlowResult::.ctor");
+    static LaunchUnblockFlowResult* New_ctor(::System::IntPtr o) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::LaunchUnblockFlowResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LaunchUnblockFlowResult*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.LaunchUnblockFlowResult

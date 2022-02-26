@@ -17,8 +17,8 @@ namespace Mono::Security::Cryptography {
   class PKCS8;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Security::Cryptography::PKCS8);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::PKCS8*, "Mono.Security.Cryptography", "PKCS8");
+NEED_NO_BOX(::Mono::Security::Cryptography::PKCS8);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Cryptography::PKCS8*, "Mono.Security.Cryptography", "PKCS8");
 // Type namespace: Mono.Security.Cryptography
 namespace Mono::Security::Cryptography {
   // Size: 0x10
@@ -27,9 +27,9 @@ namespace Mono::Security::Cryptography {
   // [TokenAttribute] Offset: FFFFFFFF
   class PKCS8 : public ::Il2CppObject {
     public:
-    // Nested type: Mono::Security::Cryptography::PKCS8::PrivateKeyInfo
+    // Nested type: ::Mono::Security::Cryptography::PKCS8::PrivateKeyInfo
     class PrivateKeyInfo;
-    // Nested type: Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo
+    // Nested type: ::Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo
     class EncryptedPrivateKeyInfo;
   }; // Mono.Security.Cryptography.PKCS8
   #pragma pack(pop)

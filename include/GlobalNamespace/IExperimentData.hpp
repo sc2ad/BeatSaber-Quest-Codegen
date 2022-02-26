@@ -12,8 +12,8 @@ namespace GlobalNamespace {
   class IExperimentData;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::IExperimentData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IExperimentData*, "", "IExperimentData");
+NEED_NO_BOX(::GlobalNamespace::IExperimentData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IExperimentData*, "", "IExperimentData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10

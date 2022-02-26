@@ -18,8 +18,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRPlugin::OVRP_1_6_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_6_0*, "", "OVRPlugin/OVRP_1_6_0");
+NEED_NO_BOX(::GlobalNamespace::OVRPlugin::OVRP_1_6_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRPlugin::OVRP_1_6_0*, "", "OVRPlugin/OVRP_1_6_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -29,30 +29,30 @@ namespace GlobalNamespace {
   class OVRPlugin::OVRP_1_6_0 : public ::Il2CppObject {
     public:
     // Get static field: static public readonly System.Version version
-    static System::Version* _get_version();
+    static ::System::Version* _get_version();
     // Set static field: static public readonly System.Version version
-    static void _set_version(System::Version* value);
+    static void _set_version(::System::Version* value);
     // static private System.Void .cctor()
     // Offset: 0x1A76890
     static void _cctor();
     // static public OVRPlugin/Bool ovrp_GetTrackingIPDEnabled()
     // Offset: 0x1A763A8
-    static GlobalNamespace::OVRPlugin::Bool ovrp_GetTrackingIPDEnabled();
+    static ::GlobalNamespace::OVRPlugin::Bool ovrp_GetTrackingIPDEnabled();
     // static public OVRPlugin/Bool ovrp_SetTrackingIPDEnabled(OVRPlugin/Bool value)
     // Offset: 0x1A7641C
-    static GlobalNamespace::OVRPlugin::Bool ovrp_SetTrackingIPDEnabled(GlobalNamespace::OVRPlugin::Bool value);
+    static ::GlobalNamespace::OVRPlugin::Bool ovrp_SetTrackingIPDEnabled(::GlobalNamespace::OVRPlugin::Bool value);
     // static public OVRPlugin/HapticsDesc ovrp_GetControllerHapticsDesc(System.UInt32 controllerMask)
     // Offset: 0x1A7649C
-    static GlobalNamespace::OVRPlugin::HapticsDesc ovrp_GetControllerHapticsDesc(uint controllerMask);
+    static ::GlobalNamespace::OVRPlugin::HapticsDesc ovrp_GetControllerHapticsDesc(uint controllerMask);
     // static public OVRPlugin/HapticsState ovrp_GetControllerHapticsState(System.UInt32 controllerMask)
     // Offset: 0x1A7652C
-    static GlobalNamespace::OVRPlugin::HapticsState ovrp_GetControllerHapticsState(uint controllerMask);
+    static ::GlobalNamespace::OVRPlugin::HapticsState ovrp_GetControllerHapticsState(uint controllerMask);
     // static public OVRPlugin/Bool ovrp_SetControllerHaptics(System.UInt32 controllerMask, OVRPlugin/HapticsBuffer hapticsBuffer)
     // Offset: 0x1A765AC
-    static GlobalNamespace::OVRPlugin::Bool ovrp_SetControllerHaptics(uint controllerMask, GlobalNamespace::OVRPlugin::HapticsBuffer hapticsBuffer);
+    static ::GlobalNamespace::OVRPlugin::Bool ovrp_SetControllerHaptics(uint controllerMask, ::GlobalNamespace::OVRPlugin::HapticsBuffer hapticsBuffer);
     // static public OVRPlugin/Bool ovrp_SetOverlayQuad3(System.UInt32 flags, System.IntPtr textureLeft, System.IntPtr textureRight, System.IntPtr device, OVRPlugin/Posef pose, OVRPlugin/Vector3f scale, System.Int32 layerIndex)
     // Offset: 0x1A76644
-    static GlobalNamespace::OVRPlugin::Bool ovrp_SetOverlayQuad3(uint flags, System::IntPtr textureLeft, System::IntPtr textureRight, System::IntPtr device, GlobalNamespace::OVRPlugin::Posef pose, GlobalNamespace::OVRPlugin::Vector3f scale, int layerIndex);
+    static ::GlobalNamespace::OVRPlugin::Bool ovrp_SetOverlayQuad3(uint flags, ::System::IntPtr textureLeft, ::System::IntPtr textureRight, ::System::IntPtr device, ::GlobalNamespace::OVRPlugin::Posef pose, ::GlobalNamespace::OVRPlugin::Vector3f scale, int layerIndex);
     // static public System.Single ovrp_GetEyeRecommendedResolutionScale()
     // Offset: 0x1A7673C
     static float ovrp_GetEyeRecommendedResolutionScale();
@@ -77,7 +77,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_6_0::ovrp_GetTrackingIPDEnabled
 // Il2CppName: ovrp_GetTrackingIPDEnabled
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_6_0::ovrp_GetTrackingIPDEnabled)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Bool (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_6_0::ovrp_GetTrackingIPDEnabled)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_6_0*), "ovrp_GetTrackingIPDEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -85,7 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_6_0::ovrp_SetTrackingIPDEnabled
 // Il2CppName: ovrp_SetTrackingIPDEnabled
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(GlobalNamespace::OVRPlugin::Bool)>(&GlobalNamespace::OVRPlugin::OVRP_1_6_0::ovrp_SetTrackingIPDEnabled)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Bool (*)(::GlobalNamespace::OVRPlugin::Bool)>(&GlobalNamespace::OVRPlugin::OVRP_1_6_0::ovrp_SetTrackingIPDEnabled)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Bool")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_6_0*), "ovrp_SetTrackingIPDEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -94,7 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_6_0::ovrp_GetControllerHapticsDesc
 // Il2CppName: ovrp_GetControllerHapticsDesc
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::HapticsDesc (*)(uint)>(&GlobalNamespace::OVRPlugin::OVRP_1_6_0::ovrp_GetControllerHapticsDesc)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::HapticsDesc (*)(uint)>(&GlobalNamespace::OVRPlugin::OVRP_1_6_0::ovrp_GetControllerHapticsDesc)> {
   static const MethodInfo* get() {
     static auto* controllerMask = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_6_0*), "ovrp_GetControllerHapticsDesc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{controllerMask});
@@ -103,7 +103,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_6_0::ovrp_GetControllerHapticsState
 // Il2CppName: ovrp_GetControllerHapticsState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::HapticsState (*)(uint)>(&GlobalNamespace::OVRPlugin::OVRP_1_6_0::ovrp_GetControllerHapticsState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::HapticsState (*)(uint)>(&GlobalNamespace::OVRPlugin::OVRP_1_6_0::ovrp_GetControllerHapticsState)> {
   static const MethodInfo* get() {
     static auto* controllerMask = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_6_0*), "ovrp_GetControllerHapticsState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{controllerMask});
@@ -112,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_6_0::ovrp_SetControllerHaptics
 // Il2CppName: ovrp_SetControllerHaptics
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(uint, GlobalNamespace::OVRPlugin::HapticsBuffer)>(&GlobalNamespace::OVRPlugin::OVRP_1_6_0::ovrp_SetControllerHaptics)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Bool (*)(uint, ::GlobalNamespace::OVRPlugin::HapticsBuffer)>(&GlobalNamespace::OVRPlugin::OVRP_1_6_0::ovrp_SetControllerHaptics)> {
   static const MethodInfo* get() {
     static auto* controllerMask = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* hapticsBuffer = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/HapticsBuffer")->byval_arg;
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_6_0::ovrp_SetOverlayQuad3
 // Il2CppName: ovrp_SetOverlayQuad3
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(uint, System::IntPtr, System::IntPtr, System::IntPtr, GlobalNamespace::OVRPlugin::Posef, GlobalNamespace::OVRPlugin::Vector3f, int)>(&GlobalNamespace::OVRPlugin::OVRP_1_6_0::ovrp_SetOverlayQuad3)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Bool (*)(uint, ::System::IntPtr, ::System::IntPtr, ::System::IntPtr, ::GlobalNamespace::OVRPlugin::Posef, ::GlobalNamespace::OVRPlugin::Vector3f, int)>(&GlobalNamespace::OVRPlugin::OVRP_1_6_0::ovrp_SetOverlayQuad3)> {
   static const MethodInfo* get() {
     static auto* flags = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* textureLeft = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;

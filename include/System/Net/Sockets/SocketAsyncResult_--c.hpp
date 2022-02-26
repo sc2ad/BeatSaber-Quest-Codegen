@@ -20,8 +20,8 @@ namespace System::Threading {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::Sockets::SocketAsyncResult::$$c);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SocketAsyncResult::$$c*, "System.Net.Sockets", "SocketAsyncResult/<>c");
+NEED_NO_BOX(::System::Net::Sockets::SocketAsyncResult::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::Sockets::SocketAsyncResult::$$c*, "System.Net.Sockets", "SocketAsyncResult/<>c");
 // Type namespace: System.Net.Sockets
 namespace System::Net::Sockets {
   // Size: 0x10
@@ -32,13 +32,13 @@ namespace System::Net::Sockets {
   class SocketAsyncResult::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly System.Net.Sockets.SocketAsyncResult/System.Net.Sockets.<>c <>9
-    static System::Net::Sockets::SocketAsyncResult::$$c* _get_$$9();
+    static ::System::Net::Sockets::SocketAsyncResult::$$c* _get_$$9();
     // Set static field: static public readonly System.Net.Sockets.SocketAsyncResult/System.Net.Sockets.<>c <>9
-    static void _set_$$9(System::Net::Sockets::SocketAsyncResult::$$c* value);
+    static void _set_$$9(::System::Net::Sockets::SocketAsyncResult::$$c* value);
     // Get static field: static public System.Threading.WaitCallback <>9__27_0
-    static System::Threading::WaitCallback* _get_$$9__27_0();
+    static ::System::Threading::WaitCallback* _get_$$9__27_0();
     // Set static field: static public System.Threading.WaitCallback <>9__27_0
-    static void _set_$$9__27_0(System::Threading::WaitCallback* value);
+    static void _set_$$9__27_0(::System::Threading::WaitCallback* value);
     // static private System.Void .cctor()
     // Offset: 0x1CB1A7C
     static void _cctor();
@@ -51,7 +51,7 @@ namespace System::Net::Sockets {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SocketAsyncResult::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Sockets::SocketAsyncResult::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Sockets::SocketAsyncResult::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SocketAsyncResult::$$c*, creationType>()));
     }
   }; // System.Net.Sockets.SocketAsyncResult/System.Net.Sockets.<>c

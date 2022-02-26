@@ -43,8 +43,8 @@ namespace System::Data {
   class XMLSchema;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Data::XMLSchema);
-DEFINE_IL2CPP_ARG_TYPE(System::Data::XMLSchema*, "System.Data", "XMLSchema");
+NEED_NO_BOX(::System::Data::XMLSchema);
+DEFINE_IL2CPP_ARG_TYPE(::System::Data::XMLSchema*, "System.Data", "XMLSchema");
 // Type namespace: System.Data
 namespace System::Data {
   // Size: 0x10
@@ -55,26 +55,26 @@ namespace System::Data {
     public:
     // static System.ComponentModel.TypeConverter GetConverter(System.Type type)
     // Offset: 0x150DD5C
-    static System::ComponentModel::TypeConverter* GetConverter(System::Type* type);
+    static ::System::ComponentModel::TypeConverter* GetConverter(::System::Type* type);
     // static System.Void SetProperties(System.Object instance, System.Xml.XmlAttributeCollection attrs)
     // Offset: 0x150A3C4
-    static void SetProperties(::Il2CppObject* instance, System::Xml::XmlAttributeCollection* attrs);
+    static void SetProperties(::Il2CppObject* instance, ::System::Xml::XmlAttributeCollection* attrs);
     // static System.Boolean FEqualIdentity(System.Xml.XmlNode node, System.String name, System.String ns)
     // Offset: 0x15084C8
-    static bool FEqualIdentity(System::Xml::XmlNode* node, ::StringW name, ::StringW ns);
+    static bool FEqualIdentity(::System::Xml::XmlNode* node, ::StringW name, ::StringW ns);
     // static System.Boolean GetBooleanAttribute(System.Xml.XmlElement element, System.String attrName, System.String attrNS, System.Boolean defVal)
     // Offset: 0x150DDC4
-    static bool GetBooleanAttribute(System::Xml::XmlElement* element, ::StringW attrName, ::StringW attrNS, bool defVal);
+    static bool GetBooleanAttribute(::System::Xml::XmlElement* element, ::StringW attrName, ::StringW attrNS, bool defVal);
     // static System.String GenUniqueColumnName(System.String proposedName, System.Data.DataTable table)
     // Offset: 0x1509F74
-    static ::StringW GenUniqueColumnName(::StringW proposedName, System::Data::DataTable* table);
+    static ::StringW GenUniqueColumnName(::StringW proposedName, ::System::Data::DataTable* table);
     // public System.Void .ctor()
     // Offset: 0x15082EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XMLSchema* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Data::XMLSchema::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Data::XMLSchema::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XMLSchema*, creationType>()));
     }
   }; // System.Data.XMLSchema
@@ -84,7 +84,7 @@ namespace System::Data {
 // Writing MetadataGetter for method: System::Data::XMLSchema::GetConverter
 // Il2CppName: GetConverter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ComponentModel::TypeConverter* (*)(System::Type*)>(&System::Data::XMLSchema::GetConverter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::TypeConverter* (*)(::System::Type*)>(&System::Data::XMLSchema::GetConverter)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::XMLSchema*), "GetConverter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -93,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Com
 // Writing MetadataGetter for method: System::Data::XMLSchema::SetProperties
 // Il2CppName: SetProperties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, System::Xml::XmlAttributeCollection*)>(&System::Data::XMLSchema::SetProperties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::System::Xml::XmlAttributeCollection*)>(&System::Data::XMLSchema::SetProperties)> {
   static const MethodInfo* get() {
     static auto* instance = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* attrs = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlAttributeCollection")->byval_arg;
@@ -103,7 +103,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::Data::XMLSchema::FEqualIdentity
 // Il2CppName: FEqualIdentity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Xml::XmlNode*, ::StringW, ::StringW)>(&System::Data::XMLSchema::FEqualIdentity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Xml::XmlNode*, ::StringW, ::StringW)>(&System::Data::XMLSchema::FEqualIdentity)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNode")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -114,7 +114,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Data::XMLSchema::GetBooleanAttribute
 // Il2CppName: GetBooleanAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Xml::XmlElement*, ::StringW, ::StringW, bool)>(&System::Data::XMLSchema::GetBooleanAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Xml::XmlElement*, ::StringW, ::StringW, bool)>(&System::Data::XMLSchema::GetBooleanAttribute)> {
   static const MethodInfo* get() {
     static auto* element = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlElement")->byval_arg;
     static auto* attrName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -126,7 +126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Data::XMLSchema::GenUniqueColumnName
 // Il2CppName: GenUniqueColumnName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, System::Data::DataTable*)>(&System::Data::XMLSchema::GenUniqueColumnName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::System::Data::DataTable*)>(&System::Data::XMLSchema::GenUniqueColumnName)> {
   static const MethodInfo* get() {
     static auto* proposedName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* table = &::il2cpp_utils::GetClassFromName("System.Data", "DataTable")->byval_arg;

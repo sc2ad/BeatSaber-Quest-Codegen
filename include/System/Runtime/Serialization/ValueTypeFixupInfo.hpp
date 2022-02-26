@@ -24,8 +24,8 @@ namespace System::Runtime::Serialization {
   class ValueTypeFixupInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Serialization::ValueTypeFixupInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::ValueTypeFixupInfo*, "System.Runtime.Serialization", "ValueTypeFixupInfo");
+NEED_NO_BOX(::System::Runtime::Serialization::ValueTypeFixupInfo);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::ValueTypeFixupInfo*, "System.Runtime.Serialization", "ValueTypeFixupInfo");
 // Type namespace: System.Runtime.Serialization
 namespace System::Runtime::Serialization {
   // Size: 0x28
@@ -52,9 +52,9 @@ namespace System::Runtime::Serialization {
     // private System.Reflection.FieldInfo m_parentField
     // Size: 0x8
     // Offset: 0x18
-    System::Reflection::FieldInfo* m_parentField;
+    ::System::Reflection::FieldInfo* m_parentField;
     // Field size check
-    static_assert(sizeof(System::Reflection::FieldInfo*) == 0x8);
+    static_assert(sizeof(::System::Reflection::FieldInfo*) == 0x8);
     // private System.Int32[] m_parentIndex
     // Size: 0x8
     // Offset: 0x20
@@ -65,7 +65,7 @@ namespace System::Runtime::Serialization {
     // Get instance field reference: private System.Int64 m_containerID
     int64_t& dyn_m_containerID();
     // Get instance field reference: private System.Reflection.FieldInfo m_parentField
-    System::Reflection::FieldInfo*& dyn_m_parentField();
+    ::System::Reflection::FieldInfo*& dyn_m_parentField();
     // Get instance field reference: private System.Int32[] m_parentIndex
     ::ArrayW<int>& dyn_m_parentIndex();
     // public System.Int64 get_ContainerID()
@@ -73,15 +73,15 @@ namespace System::Runtime::Serialization {
     int64_t get_ContainerID();
     // public System.Reflection.FieldInfo get_ParentField()
     // Offset: 0x1591990
-    System::Reflection::FieldInfo* get_ParentField();
+    ::System::Reflection::FieldInfo* get_ParentField();
     // public System.Int32[] get_ParentIndex()
     // Offset: 0x1591998
     ::ArrayW<int> get_ParentIndex();
     // public System.Void .ctor(System.Int64 containerID, System.Reflection.FieldInfo member, System.Int32[] parentIndex)
     // Offset: 0x1588BFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ValueTypeFixupInfo* New_ctor(int64_t containerID, System::Reflection::FieldInfo* member, ::ArrayW<int> parentIndex) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::ValueTypeFixupInfo::.ctor");
+    static ValueTypeFixupInfo* New_ctor(int64_t containerID, ::System::Reflection::FieldInfo* member, ::ArrayW<int> parentIndex) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::ValueTypeFixupInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ValueTypeFixupInfo*, creationType>(containerID, member, parentIndex)));
     }
   }; // System.Runtime.Serialization.ValueTypeFixupInfo
@@ -101,7 +101,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Sy
 // Writing MetadataGetter for method: System::Runtime::Serialization::ValueTypeFixupInfo::get_ParentField
 // Il2CppName: get_ParentField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::FieldInfo* (System::Runtime::Serialization::ValueTypeFixupInfo::*)()>(&System::Runtime::Serialization::ValueTypeFixupInfo::get_ParentField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::FieldInfo* (System::Runtime::Serialization::ValueTypeFixupInfo::*)()>(&System::Runtime::Serialization::ValueTypeFixupInfo::get_ParentField)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ValueTypeFixupInfo*), "get_ParentField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

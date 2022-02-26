@@ -16,8 +16,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::CreditsData::Text);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreditsData::Text*, "", "CreditsData/Text");
+NEED_NO_BOX(::GlobalNamespace::CreditsData::Text);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CreditsData::Text*, "", "CreditsData/Text");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -52,16 +52,16 @@ namespace GlobalNamespace {
     // public CreditsData/TextStyle style
     // Size: 0x4
     // Offset: 0x1C
-    GlobalNamespace::CreditsData::TextStyle style;
+    ::GlobalNamespace::CreditsData::TextStyle style;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::CreditsData::TextStyle) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::CreditsData::TextStyle) == 0x4);
     public:
     // Get instance field reference: public System.String text
     ::StringW& dyn_text();
     // Get instance field reference: public System.Boolean localized
     bool& dyn_localized();
     // Get instance field reference: public CreditsData/TextStyle style
-    GlobalNamespace::CreditsData::TextStyle& dyn_style();
+    ::GlobalNamespace::CreditsData::TextStyle& dyn_style();
     // public System.Boolean IsEmpty()
     // Offset: 0x13C593C
     bool IsEmpty();
@@ -71,7 +71,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CreditsData::Text* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CreditsData::Text::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CreditsData::Text::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CreditsData::Text*, creationType>()));
     }
     // public override System.String ToString()
@@ -81,7 +81,7 @@ namespace GlobalNamespace {
     ::StringW ToString();
   }; // CreditsData/Text
   #pragma pack(pop)
-  static check_size<sizeof(CreditsData::Text), 28 + sizeof(GlobalNamespace::CreditsData::TextStyle)> __GlobalNamespace_CreditsData_TextSizeCheck;
+  static check_size<sizeof(CreditsData::Text), 28 + sizeof(::GlobalNamespace::CreditsData::TextStyle)> __GlobalNamespace_CreditsData_TextSizeCheck;
   static_assert(sizeof(CreditsData::Text) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

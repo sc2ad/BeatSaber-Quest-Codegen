@@ -20,8 +20,8 @@ namespace HMUI {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HMUI::FlowCoordinator::$$c__DisplayClass38_1);
-DEFINE_IL2CPP_ARG_TYPE(HMUI::FlowCoordinator::$$c__DisplayClass38_1*, "HMUI", "FlowCoordinator/<>c__DisplayClass38_1");
+NEED_NO_BOX(::HMUI::FlowCoordinator::$$c__DisplayClass38_1);
+DEFINE_IL2CPP_ARG_TYPE(::HMUI::FlowCoordinator::$$c__DisplayClass38_1*, "HMUI", "FlowCoordinator/<>c__DisplayClass38_1");
 // Type namespace: HMUI
 namespace HMUI {
   // Size: 0x20
@@ -43,20 +43,20 @@ namespace HMUI {
     // public HMUI.ViewController topViewController
     // Size: 0x8
     // Offset: 0x10
-    HMUI::ViewController* topViewController;
+    ::HMUI::ViewController* topViewController;
     // Field size check
-    static_assert(sizeof(HMUI::ViewController*) == 0x8);
+    static_assert(sizeof(::HMUI::ViewController*) == 0x8);
     // public HMUI.FlowCoordinator/HMUI.<>c__DisplayClass38_0 CS$<>8__locals1
     // Size: 0x8
     // Offset: 0x18
-    HMUI::FlowCoordinator::$$c__DisplayClass38_0* CS$$$8__locals1;
+    ::HMUI::FlowCoordinator::$$c__DisplayClass38_0* CS$$$8__locals1;
     // Field size check
-    static_assert(sizeof(HMUI::FlowCoordinator::$$c__DisplayClass38_0*) == 0x8);
+    static_assert(sizeof(::HMUI::FlowCoordinator::$$c__DisplayClass38_0*) == 0x8);
     public:
     // Get instance field reference: public HMUI.ViewController topViewController
-    HMUI::ViewController*& dyn_topViewController();
+    ::HMUI::ViewController*& dyn_topViewController();
     // Get instance field reference: public HMUI.FlowCoordinator/HMUI.<>c__DisplayClass38_0 CS$<>8__locals1
-    HMUI::FlowCoordinator::$$c__DisplayClass38_0*& dyn_CS$$$8__locals1();
+    ::HMUI::FlowCoordinator::$$c__DisplayClass38_0*& dyn_CS$$$8__locals1();
     // System.Void <PresentViewController>b__0()
     // Offset: 0x167004C
     void $PresentViewController$b__0();
@@ -66,12 +66,12 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FlowCoordinator::$$c__DisplayClass38_1* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::FlowCoordinator::$$c__DisplayClass38_1::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::FlowCoordinator::$$c__DisplayClass38_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FlowCoordinator::$$c__DisplayClass38_1*, creationType>()));
     }
   }; // HMUI.FlowCoordinator/HMUI.<>c__DisplayClass38_1
   #pragma pack(pop)
-  static check_size<sizeof(FlowCoordinator::$$c__DisplayClass38_1), 24 + sizeof(HMUI::FlowCoordinator::$$c__DisplayClass38_0*)> __HMUI_FlowCoordinator_$$c__DisplayClass38_1SizeCheck;
+  static check_size<sizeof(FlowCoordinator::$$c__DisplayClass38_1), 24 + sizeof(::HMUI::FlowCoordinator::$$c__DisplayClass38_0*)> __HMUI_FlowCoordinator_$$c__DisplayClass38_1SizeCheck;
   static_assert(sizeof(FlowCoordinator::$$c__DisplayClass38_1) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

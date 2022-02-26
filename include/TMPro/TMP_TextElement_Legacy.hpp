@@ -16,8 +16,8 @@ namespace TMPro {
   class TMP_TextElement_Legacy;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(TMPro::TMP_TextElement_Legacy);
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_TextElement_Legacy*, "TMPro", "TMP_TextElement_Legacy");
+NEED_NO_BOX(::TMPro::TMP_TextElement_Legacy);
+DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_TextElement_Legacy*, "TMPro", "TMP_TextElement_Legacy");
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0x34
@@ -114,7 +114,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_TextElement_Legacy* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_TextElement_Legacy::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_TextElement_Legacy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_TextElement_Legacy*, creationType>()));
     }
   }; // TMPro.TMP_TextElement_Legacy

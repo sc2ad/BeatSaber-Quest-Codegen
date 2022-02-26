@@ -23,8 +23,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MissionSelectionNavigationController::$$c__DisplayClass11_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionSelectionNavigationController::$$c__DisplayClass11_0*, "", "MissionSelectionNavigationController/<>c__DisplayClass11_0");
+NEED_NO_BOX(::GlobalNamespace::MissionSelectionNavigationController::$$c__DisplayClass11_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MissionSelectionNavigationController::$$c__DisplayClass11_0*, "", "MissionSelectionNavigationController/<>c__DisplayClass11_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x28
@@ -46,28 +46,28 @@ namespace GlobalNamespace {
     // public MissionSelectionNavigationController <>4__this
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::MissionSelectionNavigationController* $$4__this;
+    ::GlobalNamespace::MissionSelectionNavigationController* $$4__this;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::MissionSelectionNavigationController*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::MissionSelectionNavigationController*) == 0x8);
     // public System.Action`1<System.Boolean> finishedCallback
     // Size: 0x8
     // Offset: 0x18
-    System::Action_1<bool>* finishedCallback;
+    ::System::Action_1<bool>* finishedCallback;
     // Field size check
-    static_assert(sizeof(System::Action_1<bool>*) == 0x8);
+    static_assert(sizeof(::System::Action_1<bool>*) == 0x8);
     // public System.Action <>9__1
     // Size: 0x8
     // Offset: 0x20
-    System::Action* $$9__1;
+    ::System::Action* $$9__1;
     // Field size check
-    static_assert(sizeof(System::Action*) == 0x8);
+    static_assert(sizeof(::System::Action*) == 0x8);
     public:
     // Get instance field reference: public MissionSelectionNavigationController <>4__this
-    GlobalNamespace::MissionSelectionNavigationController*& dyn_$$4__this();
+    ::GlobalNamespace::MissionSelectionNavigationController*& dyn_$$4__this();
     // Get instance field reference: public System.Action`1<System.Boolean> finishedCallback
-    System::Action_1<bool>*& dyn_finishedCallback();
+    ::System::Action_1<bool>*& dyn_finishedCallback();
     // Get instance field reference: public System.Action <>9__1
-    System::Action*& dyn_$$9__1();
+    ::System::Action*& dyn_$$9__1();
     // System.Void <PresentMissionClearedIfNeeded>b__0()
     // Offset: 0x14202D8
     void $PresentMissionClearedIfNeeded$b__0();
@@ -80,12 +80,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionSelectionNavigationController::$$c__DisplayClass11_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MissionSelectionNavigationController::$$c__DisplayClass11_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionSelectionNavigationController::$$c__DisplayClass11_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionSelectionNavigationController::$$c__DisplayClass11_0*, creationType>()));
     }
   }; // MissionSelectionNavigationController/<>c__DisplayClass11_0
   #pragma pack(pop)
-  static check_size<sizeof(MissionSelectionNavigationController::$$c__DisplayClass11_0), 32 + sizeof(System::Action*)> __GlobalNamespace_MissionSelectionNavigationController_$$c__DisplayClass11_0SizeCheck;
+  static check_size<sizeof(MissionSelectionNavigationController::$$c__DisplayClass11_0), 32 + sizeof(::System::Action*)> __GlobalNamespace_MissionSelectionNavigationController_$$c__DisplayClass11_0SizeCheck;
   static_assert(sizeof(MissionSelectionNavigationController::$$c__DisplayClass11_0) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

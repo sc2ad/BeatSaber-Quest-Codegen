@@ -12,8 +12,8 @@ namespace UnityEngine::Timeline {
   class IInterval;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Timeline::IInterval);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::IInterval*, "UnityEngine.Timeline", "IInterval");
+NEED_NO_BOX(::UnityEngine::Timeline::IInterval);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::IInterval*, "UnityEngine.Timeline", "IInterval");
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
   // Size: 0x10

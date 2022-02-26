@@ -39,8 +39,8 @@ namespace System::Dynamic {
   class ExpandoClass;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Dynamic::ExpandoClass);
-DEFINE_IL2CPP_ARG_TYPE(System::Dynamic::ExpandoClass*, "System.Dynamic", "ExpandoClass");
+NEED_NO_BOX(::System::Dynamic::ExpandoClass);
+DEFINE_IL2CPP_ARG_TYPE(::System::Dynamic::ExpandoClass*, "System.Dynamic", "ExpandoClass");
 // Type namespace: System.Dynamic
 namespace System::Dynamic {
   // Size: 0x28
@@ -75,20 +75,20 @@ namespace System::Dynamic {
     // private System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<System.WeakReference>> _transitions
     // Size: 0x8
     // Offset: 0x20
-    System::Collections::Generic::Dictionary_2<int, System::Collections::Generic::List_1<System::WeakReference*>*>* transitions;
+    ::System::Collections::Generic::Dictionary_2<int, ::System::Collections::Generic::List_1<::System::WeakReference*>*>* transitions;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<int, System::Collections::Generic::List_1<System::WeakReference*>*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::Dictionary_2<int, ::System::Collections::Generic::List_1<::System::WeakReference*>*>*) == 0x8);
     public:
     // Get static field: static readonly System.Dynamic.ExpandoClass Empty
-    static System::Dynamic::ExpandoClass* _get_Empty();
+    static ::System::Dynamic::ExpandoClass* _get_Empty();
     // Set static field: static readonly System.Dynamic.ExpandoClass Empty
-    static void _set_Empty(System::Dynamic::ExpandoClass* value);
+    static void _set_Empty(::System::Dynamic::ExpandoClass* value);
     // Get instance field reference: private readonly System.String[] _keys
     ::ArrayW<::StringW>& dyn__keys();
     // Get instance field reference: private readonly System.Int32 _hashCode
     int& dyn__hashCode();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<System.WeakReference>> _transitions
-    System::Collections::Generic::Dictionary_2<int, System::Collections::Generic::List_1<System::WeakReference*>*>*& dyn__transitions();
+    ::System::Collections::Generic::Dictionary_2<int, ::System::Collections::Generic::List_1<::System::WeakReference*>*>*& dyn__transitions();
     // System.String[] get_Keys()
     // Offset: 0x15EBC70
     ::ArrayW<::StringW> get_Keys();
@@ -96,7 +96,7 @@ namespace System::Dynamic {
     // Offset: 0x15EB514
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExpandoClass* New_ctor(::ArrayW<::StringW> keys, int hashCode) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Dynamic::ExpandoClass::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Dynamic::ExpandoClass::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExpandoClass*, creationType>(keys, hashCode)));
     }
     // static private System.Void .cctor()
@@ -104,31 +104,31 @@ namespace System::Dynamic {
     static void _cctor();
     // System.Dynamic.ExpandoClass FindNewClass(System.String newKey)
     // Offset: 0x15EB550
-    System::Dynamic::ExpandoClass* FindNewClass(::StringW newKey);
+    ::System::Dynamic::ExpandoClass* FindNewClass(::StringW newKey);
     // private System.Collections.Generic.List`1<System.WeakReference> GetTransitionList(System.Int32 hashCode)
     // Offset: 0x15EB888
-    System::Collections::Generic::List_1<System::WeakReference*>* GetTransitionList(int hashCode);
+    ::System::Collections::Generic::List_1<::System::WeakReference*>* GetTransitionList(int hashCode);
     // System.Int32 GetValueIndex(System.String name, System.Boolean caseInsensitive, System.Dynamic.ExpandoObject obj)
     // Offset: 0x15EB980
-    int GetValueIndex(::StringW name, bool caseInsensitive, System::Dynamic::ExpandoObject* obj);
+    int GetValueIndex(::StringW name, bool caseInsensitive, ::System::Dynamic::ExpandoObject* obj);
     // System.Int32 GetValueIndexCaseSensitive(System.String name)
     // Offset: 0x15EBB30
     int GetValueIndexCaseSensitive(::StringW name);
     // private System.Int32 GetValueIndexCaseInsensitive(System.String name, System.Dynamic.ExpandoObject obj)
     // Offset: 0x15EB990
-    int GetValueIndexCaseInsensitive(::StringW name, System::Dynamic::ExpandoObject* obj);
+    int GetValueIndexCaseInsensitive(::StringW name, ::System::Dynamic::ExpandoObject* obj);
     // System.Void .ctor()
     // Offset: 0x15EB428
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExpandoClass* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Dynamic::ExpandoClass::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Dynamic::ExpandoClass::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExpandoClass*, creationType>()));
     }
   }; // System.Dynamic.ExpandoClass
   #pragma pack(pop)
-  static check_size<sizeof(ExpandoClass), 32 + sizeof(System::Collections::Generic::Dictionary_2<int, System::Collections::Generic::List_1<System::WeakReference*>*>*)> __System_Dynamic_ExpandoClassSizeCheck;
+  static check_size<sizeof(ExpandoClass), 32 + sizeof(::System::Collections::Generic::Dictionary_2<int, ::System::Collections::Generic::List_1<::System::WeakReference*>*>*)> __System_Dynamic_ExpandoClassSizeCheck;
   static_assert(sizeof(ExpandoClass) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -155,7 +155,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Dynamic::ExpandoClass::FindNewClass
 // Il2CppName: FindNewClass
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dynamic::ExpandoClass* (System::Dynamic::ExpandoClass::*)(::StringW)>(&System::Dynamic::ExpandoClass::FindNewClass)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::ExpandoClass* (System::Dynamic::ExpandoClass::*)(::StringW)>(&System::Dynamic::ExpandoClass::FindNewClass)> {
   static const MethodInfo* get() {
     static auto* newKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Dynamic::ExpandoClass*), "FindNewClass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newKey});
@@ -164,7 +164,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dyn
 // Writing MetadataGetter for method: System::Dynamic::ExpandoClass::GetTransitionList
 // Il2CppName: GetTransitionList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<System::WeakReference*>* (System::Dynamic::ExpandoClass::*)(int)>(&System::Dynamic::ExpandoClass::GetTransitionList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::System::WeakReference*>* (System::Dynamic::ExpandoClass::*)(int)>(&System::Dynamic::ExpandoClass::GetTransitionList)> {
   static const MethodInfo* get() {
     static auto* hashCode = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Dynamic::ExpandoClass*), "GetTransitionList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hashCode});
@@ -173,7 +173,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::Dynamic::ExpandoClass::GetValueIndex
 // Il2CppName: GetValueIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Dynamic::ExpandoClass::*)(::StringW, bool, System::Dynamic::ExpandoObject*)>(&System::Dynamic::ExpandoClass::GetValueIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Dynamic::ExpandoClass::*)(::StringW, bool, ::System::Dynamic::ExpandoObject*)>(&System::Dynamic::ExpandoClass::GetValueIndex)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* caseInsensitive = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -193,7 +193,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Dynamic::ExpandoClass::GetValueIndexCaseInsensitive
 // Il2CppName: GetValueIndexCaseInsensitive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Dynamic::ExpandoClass::*)(::StringW, System::Dynamic::ExpandoObject*)>(&System::Dynamic::ExpandoClass::GetValueIndexCaseInsensitive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Dynamic::ExpandoClass::*)(::StringW, ::System::Dynamic::ExpandoObject*)>(&System::Dynamic::ExpandoClass::GetValueIndexCaseInsensitive)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* obj = &::il2cpp_utils::GetClassFromName("System.Dynamic", "ExpandoObject")->byval_arg;

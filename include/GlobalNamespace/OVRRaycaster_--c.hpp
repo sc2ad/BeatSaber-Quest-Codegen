@@ -21,8 +21,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRRaycaster::$$c);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRRaycaster::$$c*, "", "OVRRaycaster/<>c");
+NEED_NO_BOX(::GlobalNamespace::OVRRaycaster::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRRaycaster::$$c*, "", "OVRRaycaster/<>c");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -33,26 +33,26 @@ namespace GlobalNamespace {
   class OVRRaycaster::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly OVRRaycaster/<>c <>9
-    static GlobalNamespace::OVRRaycaster::$$c* _get_$$9();
+    static ::GlobalNamespace::OVRRaycaster::$$c* _get_$$9();
     // Set static field: static public readonly OVRRaycaster/<>c <>9
-    static void _set_$$9(GlobalNamespace::OVRRaycaster::$$c* value);
+    static void _set_$$9(::GlobalNamespace::OVRRaycaster::$$c* value);
     // Get static field: static public System.Comparison`1<OVRRaycaster/RaycastHit> <>9__16_0
-    static System::Comparison_1<GlobalNamespace::OVRRaycaster::RaycastHit>* _get_$$9__16_0();
+    static ::System::Comparison_1<::GlobalNamespace::OVRRaycaster::RaycastHit>* _get_$$9__16_0();
     // Set static field: static public System.Comparison`1<OVRRaycaster/RaycastHit> <>9__16_0
-    static void _set_$$9__16_0(System::Comparison_1<GlobalNamespace::OVRRaycaster::RaycastHit>* value);
+    static void _set_$$9__16_0(::System::Comparison_1<::GlobalNamespace::OVRRaycaster::RaycastHit>* value);
     // static private System.Void .cctor()
     // Offset: 0x1A7A540
     static void _cctor();
     // System.Int32 <GraphicRaycast>b__16_0(OVRRaycaster/RaycastHit g1, OVRRaycaster/RaycastHit g2)
     // Offset: 0x1A7A5AC
-    int $GraphicRaycast$b__16_0(GlobalNamespace::OVRRaycaster::RaycastHit g1, GlobalNamespace::OVRRaycaster::RaycastHit g2);
+    int $GraphicRaycast$b__16_0(::GlobalNamespace::OVRRaycaster::RaycastHit g1, ::GlobalNamespace::OVRRaycaster::RaycastHit g2);
     // public System.Void .ctor()
     // Offset: 0x1A7A5A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRRaycaster::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRRaycaster::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRRaycaster::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRRaycaster::$$c*, creationType>()));
     }
   }; // OVRRaycaster/<>c
@@ -70,7 +70,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OVRRaycaster::$$c::$GraphicRaycast$b__16_0
 // Il2CppName: <GraphicRaycast>b__16_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::OVRRaycaster::$$c::*)(GlobalNamespace::OVRRaycaster::RaycastHit, GlobalNamespace::OVRRaycaster::RaycastHit)>(&GlobalNamespace::OVRRaycaster::$$c::$GraphicRaycast$b__16_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::OVRRaycaster::$$c::*)(::GlobalNamespace::OVRRaycaster::RaycastHit, ::GlobalNamespace::OVRRaycaster::RaycastHit)>(&GlobalNamespace::OVRRaycaster::$$c::$GraphicRaycast$b__16_0)> {
   static const MethodInfo* get() {
     static auto* g1 = &::il2cpp_utils::GetClassFromName("", "OVRRaycaster/RaycastHit")->byval_arg;
     static auto* g2 = &::il2cpp_utils::GetClassFromName("", "OVRRaycaster/RaycastHit")->byval_arg;

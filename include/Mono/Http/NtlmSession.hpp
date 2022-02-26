@@ -33,8 +33,8 @@ namespace Mono::Http {
   class NtlmSession;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Http::NtlmSession);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Http::NtlmSession*, "Mono.Http", "NtlmSession");
+NEED_NO_BOX(::Mono::Http::NtlmSession);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Http::NtlmSession*, "Mono.Http", "NtlmSession");
 // Type namespace: Mono.Http
 namespace Mono::Http {
   // Size: 0x18
@@ -55,38 +55,38 @@ namespace Mono::Http {
     // private Mono.Security.Protocol.Ntlm.MessageBase message
     // Size: 0x8
     // Offset: 0x10
-    Mono::Security::Protocol::Ntlm::MessageBase* message;
+    ::Mono::Security::Protocol::Ntlm::MessageBase* message;
     // Field size check
-    static_assert(sizeof(Mono::Security::Protocol::Ntlm::MessageBase*) == 0x8);
+    static_assert(sizeof(::Mono::Security::Protocol::Ntlm::MessageBase*) == 0x8);
     public:
-    // Creating conversion operator: operator Mono::Security::Protocol::Ntlm::MessageBase*
-    constexpr operator Mono::Security::Protocol::Ntlm::MessageBase*() const noexcept {
+    // Creating conversion operator: operator ::Mono::Security::Protocol::Ntlm::MessageBase*
+    constexpr operator ::Mono::Security::Protocol::Ntlm::MessageBase*() const noexcept {
       return message;
     }
     // Get instance field reference: private Mono.Security.Protocol.Ntlm.MessageBase message
-    Mono::Security::Protocol::Ntlm::MessageBase*& dyn_message();
+    ::Mono::Security::Protocol::Ntlm::MessageBase*& dyn_message();
     // public System.Net.Authorization Authenticate(System.String challenge, System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
     // Offset: 0x1A2A520
-    System::Net::Authorization* Authenticate(::StringW challenge, System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
+    ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
     // public System.Void .ctor()
     // Offset: 0x1A2AAEC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NtlmSession* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Http::NtlmSession::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Http::NtlmSession::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NtlmSession*, creationType>()));
     }
   }; // Mono.Http.NtlmSession
   #pragma pack(pop)
-  static check_size<sizeof(NtlmSession), 16 + sizeof(Mono::Security::Protocol::Ntlm::MessageBase*)> __Mono_Http_NtlmSessionSizeCheck;
+  static check_size<sizeof(NtlmSession), 16 + sizeof(::Mono::Security::Protocol::Ntlm::MessageBase*)> __Mono_Http_NtlmSessionSizeCheck;
   static_assert(sizeof(NtlmSession) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Http::NtlmSession::Authenticate
 // Il2CppName: Authenticate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Authorization* (Mono::Http::NtlmSession::*)(::StringW, System::Net::WebRequest*, System::Net::ICredentials*)>(&Mono::Http::NtlmSession::Authenticate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Authorization* (Mono::Http::NtlmSession::*)(::StringW, ::System::Net::WebRequest*, ::System::Net::ICredentials*)>(&Mono::Http::NtlmSession::Authenticate)> {
   static const MethodInfo* get() {
     static auto* challenge = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* webRequest = &::il2cpp_utils::GetClassFromName("System.Net", "WebRequest")->byval_arg;

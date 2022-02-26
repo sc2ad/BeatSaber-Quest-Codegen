@@ -26,8 +26,8 @@ namespace UnityEngine {
   class GridLayout;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::GridLayout);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GridLayout*, "UnityEngine", "GridLayout");
+NEED_NO_BOX(::UnityEngine::GridLayout);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::GridLayout*, "UnityEngine", "GridLayout");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -37,17 +37,17 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: 12115DC
   // [RequireComponent] Offset: 12115DC
   // [NativeTypeAttribute] Offset: 12115DC
-  class GridLayout : public UnityEngine::Behaviour {
+  class GridLayout : public ::UnityEngine::Behaviour {
     public:
     // public UnityEngine.Vector3 CellToLocal(UnityEngine.Vector3Int cellPosition)
     // Offset: 0x2A6389C
-    UnityEngine::Vector3 CellToLocal(UnityEngine::Vector3Int cellPosition);
+    ::UnityEngine::Vector3 CellToLocal(::UnityEngine::Vector3Int cellPosition);
     // private System.Void DoNothing()
     // Offset: 0x2A63960
     void DoNothing();
     // private System.Void CellToLocal_Injected(ref UnityEngine.Vector3Int cellPosition, out UnityEngine.Vector3 ret)
     // Offset: 0x2A63908
-    void CellToLocal_Injected(ByRef<UnityEngine::Vector3Int> cellPosition, ByRef<UnityEngine::Vector3> ret);
+    void CellToLocal_Injected(ByRef<::UnityEngine::Vector3Int> cellPosition, ByRef<::UnityEngine::Vector3> ret);
     // public System.Void .ctor()
     // Offset: 0x2A63894
     // Implemented from: UnityEngine.Behaviour
@@ -57,7 +57,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GridLayout* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::GridLayout::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::GridLayout::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GridLayout*, creationType>()));
     }
   }; // UnityEngine.GridLayout
@@ -67,7 +67,7 @@ namespace UnityEngine {
 // Writing MetadataGetter for method: UnityEngine::GridLayout::CellToLocal
 // Il2CppName: CellToLocal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::GridLayout::*)(UnityEngine::Vector3Int)>(&UnityEngine::GridLayout::CellToLocal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (UnityEngine::GridLayout::*)(::UnityEngine::Vector3Int)>(&UnityEngine::GridLayout::CellToLocal)> {
   static const MethodInfo* get() {
     static auto* cellPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3Int")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GridLayout*), "CellToLocal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cellPosition});
@@ -84,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GridLayout::CellToLocal_Injected
 // Il2CppName: CellToLocal_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GridLayout::*)(ByRef<UnityEngine::Vector3Int>, ByRef<UnityEngine::Vector3>)>(&UnityEngine::GridLayout::CellToLocal_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GridLayout::*)(ByRef<::UnityEngine::Vector3Int>, ByRef<::UnityEngine::Vector3>)>(&UnityEngine::GridLayout::CellToLocal_Injected)> {
   static const MethodInfo* get() {
     static auto* cellPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3Int")->this_arg;
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;

@@ -30,8 +30,8 @@ namespace UnityEngine::TestRunner::NUnitExtensions {
   class TestResultExtensions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::TestRunner::NUnitExtensions::TestResultExtensions);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::TestResultExtensions*, "UnityEngine.TestRunner.NUnitExtensions", "TestResultExtensions");
+NEED_NO_BOX(::UnityEngine::TestRunner::NUnitExtensions::TestResultExtensions);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TestRunner::NUnitExtensions::TestResultExtensions*, "UnityEngine.TestRunner.NUnitExtensions", "TestResultExtensions");
 // Type namespace: UnityEngine.TestRunner.NUnitExtensions
 namespace UnityEngine::TestRunner::NUnitExtensions {
   // Size: 0x10
@@ -43,10 +43,10 @@ namespace UnityEngine::TestRunner::NUnitExtensions {
     public:
     // static public System.Void RecordPrefixedException(NUnit.Framework.Internal.TestResult testResult, System.String prefix, System.Exception ex, NUnit.Framework.Interfaces.ResultState resultState)
     // Offset: 0x18D25B0
-    static void RecordPrefixedException(NUnit::Framework::Internal::TestResult* testResult, ::StringW prefix, System::Exception* ex, NUnit::Framework::Interfaces::ResultState* resultState);
+    static void RecordPrefixedException(::NUnit::Framework::Internal::TestResult* testResult, ::StringW prefix, ::System::Exception* ex, ::NUnit::Framework::Interfaces::ResultState* resultState);
     // static public System.Void RecordPrefixedError(NUnit.Framework.Internal.TestResult testResult, System.String prefix, System.String error, NUnit.Framework.Interfaces.ResultState resultState)
     // Offset: 0x18D2A20
-    static void RecordPrefixedError(NUnit::Framework::Internal::TestResult* testResult, ::StringW prefix, ::StringW error, NUnit::Framework::Interfaces::ResultState* resultState);
+    static void RecordPrefixedError(::NUnit::Framework::Internal::TestResult* testResult, ::StringW prefix, ::StringW error, ::NUnit::Framework::Interfaces::ResultState* resultState);
   }; // UnityEngine.TestRunner.NUnitExtensions.TestResultExtensions
   #pragma pack(pop)
 }
@@ -54,7 +54,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions {
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::TestResultExtensions::RecordPrefixedException
 // Il2CppName: RecordPrefixedException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(NUnit::Framework::Internal::TestResult*, ::StringW, System::Exception*, NUnit::Framework::Interfaces::ResultState*)>(&UnityEngine::TestRunner::NUnitExtensions::TestResultExtensions::RecordPrefixedException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::NUnit::Framework::Internal::TestResult*, ::StringW, ::System::Exception*, ::NUnit::Framework::Interfaces::ResultState*)>(&UnityEngine::TestRunner::NUnitExtensions::TestResultExtensions::RecordPrefixedException)> {
   static const MethodInfo* get() {
     static auto* testResult = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "TestResult")->byval_arg;
     static auto* prefix = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -66,7 +66,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(NU
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::TestResultExtensions::RecordPrefixedError
 // Il2CppName: RecordPrefixedError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(NUnit::Framework::Internal::TestResult*, ::StringW, ::StringW, NUnit::Framework::Interfaces::ResultState*)>(&UnityEngine::TestRunner::NUnitExtensions::TestResultExtensions::RecordPrefixedError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::NUnit::Framework::Internal::TestResult*, ::StringW, ::StringW, ::NUnit::Framework::Interfaces::ResultState*)>(&UnityEngine::TestRunner::NUnitExtensions::TestResultExtensions::RecordPrefixedError)> {
   static const MethodInfo* get() {
     static auto* testResult = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "TestResult")->byval_arg;
     static auto* prefix = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

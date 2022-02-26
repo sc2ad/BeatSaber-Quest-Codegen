@@ -23,8 +23,8 @@ namespace System::Collections::Generic {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::EventSystems::PointerInputModule::MouseState);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PointerInputModule::MouseState*, "UnityEngine.EventSystems", "PointerInputModule/MouseState");
+NEED_NO_BOX(::UnityEngine::EventSystems::PointerInputModule::MouseState);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::EventSystems::PointerInputModule::MouseState*, "UnityEngine.EventSystems", "PointerInputModule/MouseState");
 // Type namespace: UnityEngine.EventSystems
 namespace UnityEngine::EventSystems {
   // Size: 0x18
@@ -45,16 +45,16 @@ namespace UnityEngine::EventSystems {
     // private System.Collections.Generic.List`1<UnityEngine.EventSystems.PointerInputModule/UnityEngine.EventSystems.ButtonState> m_TrackedButtons
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::List_1<UnityEngine::EventSystems::PointerInputModule::ButtonState*>* m_TrackedButtons;
+    ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::PointerInputModule::ButtonState*>* m_TrackedButtons;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::EventSystems::PointerInputModule::ButtonState*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::UnityEngine::EventSystems::PointerInputModule::ButtonState*>*) == 0x8);
     public:
-    // Creating conversion operator: operator System::Collections::Generic::List_1<UnityEngine::EventSystems::PointerInputModule::ButtonState*>*
-    constexpr operator System::Collections::Generic::List_1<UnityEngine::EventSystems::PointerInputModule::ButtonState*>*() const noexcept {
+    // Creating conversion operator: operator ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::PointerInputModule::ButtonState*>*
+    constexpr operator ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::PointerInputModule::ButtonState*>*() const noexcept {
       return m_TrackedButtons;
     }
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.EventSystems.PointerInputModule/UnityEngine.EventSystems.ButtonState> m_TrackedButtons
-    System::Collections::Generic::List_1<UnityEngine::EventSystems::PointerInputModule::ButtonState*>*& dyn_m_TrackedButtons();
+    ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::PointerInputModule::ButtonState*>*& dyn_m_TrackedButtons();
     // public System.Boolean AnyPressesThisFrame()
     // Offset: 0x186DE0C
     bool AnyPressesThisFrame();
@@ -63,22 +63,22 @@ namespace UnityEngine::EventSystems {
     bool AnyReleasesThisFrame();
     // public UnityEngine.EventSystems.PointerInputModule/UnityEngine.EventSystems.ButtonState GetButtonState(UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.InputButton button)
     // Offset: 0x186DF74
-    UnityEngine::EventSystems::PointerInputModule::ButtonState* GetButtonState(UnityEngine::EventSystems::PointerEventData::InputButton button);
+    ::UnityEngine::EventSystems::PointerInputModule::ButtonState* GetButtonState(::UnityEngine::EventSystems::PointerEventData::InputButton button);
     // public System.Void SetButtonState(UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.InputButton button, UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.FramePressState stateForMouseButton, UnityEngine.EventSystems.PointerEventData data)
     // Offset: 0x186D39C
-    void SetButtonState(UnityEngine::EventSystems::PointerEventData::InputButton button, UnityEngine::EventSystems::PointerEventData::FramePressState stateForMouseButton, UnityEngine::EventSystems::PointerEventData* data);
+    void SetButtonState(::UnityEngine::EventSystems::PointerEventData::InputButton button, ::UnityEngine::EventSystems::PointerEventData::FramePressState stateForMouseButton, ::UnityEngine::EventSystems::PointerEventData* data);
     // public System.Void .ctor()
     // Offset: 0x186DD44
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PointerInputModule::MouseState* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::EventSystems::PointerInputModule::MouseState::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::EventSystems::PointerInputModule::MouseState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PointerInputModule::MouseState*, creationType>()));
     }
   }; // UnityEngine.EventSystems.PointerInputModule/UnityEngine.EventSystems.MouseState
   #pragma pack(pop)
-  static check_size<sizeof(PointerInputModule::MouseState), 16 + sizeof(System::Collections::Generic::List_1<UnityEngine::EventSystems::PointerInputModule::ButtonState*>*)> __UnityEngine_EventSystems_PointerInputModule_MouseStateSizeCheck;
+  static check_size<sizeof(PointerInputModule::MouseState), 16 + sizeof(::System::Collections::Generic::List_1<::UnityEngine::EventSystems::PointerInputModule::ButtonState*>*)> __UnityEngine_EventSystems_PointerInputModule_MouseStateSizeCheck;
   static_assert(sizeof(PointerInputModule::MouseState) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -101,7 +101,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::EventSystems::PointerInputModule::MouseState::GetButtonState
 // Il2CppName: GetButtonState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::PointerInputModule::ButtonState* (UnityEngine::EventSystems::PointerInputModule::MouseState::*)(UnityEngine::EventSystems::PointerEventData::InputButton)>(&UnityEngine::EventSystems::PointerInputModule::MouseState::GetButtonState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::EventSystems::PointerInputModule::ButtonState* (UnityEngine::EventSystems::PointerInputModule::MouseState::*)(::UnityEngine::EventSystems::PointerEventData::InputButton)>(&UnityEngine::EventSystems::PointerInputModule::MouseState::GetButtonState)> {
   static const MethodInfo* get() {
     static auto* button = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "PointerEventData/InputButton")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerInputModule::MouseState*), "GetButtonState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{button});
@@ -110,7 +110,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::EventSystems::PointerInputModule::MouseState::SetButtonState
 // Il2CppName: SetButtonState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::PointerInputModule::MouseState::*)(UnityEngine::EventSystems::PointerEventData::InputButton, UnityEngine::EventSystems::PointerEventData::FramePressState, UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::EventSystems::PointerInputModule::MouseState::SetButtonState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::PointerInputModule::MouseState::*)(::UnityEngine::EventSystems::PointerEventData::InputButton, ::UnityEngine::EventSystems::PointerEventData::FramePressState, ::UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::EventSystems::PointerInputModule::MouseState::SetButtonState)> {
   static const MethodInfo* get() {
     static auto* button = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "PointerEventData/InputButton")->byval_arg;
     static auto* stateForMouseButton = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "PointerEventData/FramePressState")->byval_arg;

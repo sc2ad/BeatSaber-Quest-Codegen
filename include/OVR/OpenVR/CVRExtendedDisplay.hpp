@@ -27,8 +27,8 @@ namespace OVR::OpenVR {
   class CVRExtendedDisplay;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(OVR::OpenVR::CVRExtendedDisplay);
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRExtendedDisplay*, "OVR.OpenVR", "CVRExtendedDisplay");
+NEED_NO_BOX(::OVR::OpenVR::CVRExtendedDisplay);
+DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::CVRExtendedDisplay*, "OVR.OpenVR", "CVRExtendedDisplay");
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
   // Size: 0x28
@@ -49,21 +49,21 @@ namespace OVR::OpenVR {
     // private OVR.OpenVR.IVRExtendedDisplay FnTable
     // Size: 0x18
     // Offset: 0x10
-    OVR::OpenVR::IVRExtendedDisplay FnTable;
+    ::OVR::OpenVR::IVRExtendedDisplay FnTable;
     // Field size check
-    static_assert(sizeof(OVR::OpenVR::IVRExtendedDisplay) == 0x18);
+    static_assert(sizeof(::OVR::OpenVR::IVRExtendedDisplay) == 0x18);
     public:
-    // Creating conversion operator: operator OVR::OpenVR::IVRExtendedDisplay
-    constexpr operator OVR::OpenVR::IVRExtendedDisplay() const noexcept {
+    // Creating conversion operator: operator ::OVR::OpenVR::IVRExtendedDisplay
+    constexpr operator ::OVR::OpenVR::IVRExtendedDisplay() const noexcept {
       return FnTable;
     }
     // Get instance field reference: private OVR.OpenVR.IVRExtendedDisplay FnTable
-    OVR::OpenVR::IVRExtendedDisplay& dyn_FnTable();
+    ::OVR::OpenVR::IVRExtendedDisplay& dyn_FnTable();
     // System.Void .ctor(System.IntPtr pInterface)
     // Offset: 0x1A0C318
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CVRExtendedDisplay* New_ctor(System::IntPtr pInterface) {
-      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::CVRExtendedDisplay::.ctor");
+    static CVRExtendedDisplay* New_ctor(::System::IntPtr pInterface) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::OVR::OpenVR::CVRExtendedDisplay::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRExtendedDisplay*, creationType>(pInterface)));
     }
     // public System.Void GetWindowBounds(ref System.Int32 pnX, ref System.Int32 pnY, ref System.UInt32 pnWidth, ref System.UInt32 pnHeight)
@@ -71,13 +71,13 @@ namespace OVR::OpenVR {
     void GetWindowBounds(ByRef<int> pnX, ByRef<int> pnY, ByRef<uint> pnWidth, ByRef<uint> pnHeight);
     // public System.Void GetEyeOutputViewport(OVR.OpenVR.EVREye eEye, ref System.UInt32 pnX, ref System.UInt32 pnY, ref System.UInt32 pnWidth, ref System.UInt32 pnHeight)
     // Offset: 0x1A0C44C
-    void GetEyeOutputViewport(OVR::OpenVR::EVREye eEye, ByRef<uint> pnX, ByRef<uint> pnY, ByRef<uint> pnWidth, ByRef<uint> pnHeight);
+    void GetEyeOutputViewport(::OVR::OpenVR::EVREye eEye, ByRef<uint> pnX, ByRef<uint> pnY, ByRef<uint> pnWidth, ByRef<uint> pnHeight);
     // public System.Void GetDXGIOutputInfo(ref System.Int32 pnAdapterIndex, ref System.Int32 pnAdapterOutputIndex)
     // Offset: 0x1A0C478
     void GetDXGIOutputInfo(ByRef<int> pnAdapterIndex, ByRef<int> pnAdapterOutputIndex);
   }; // OVR.OpenVR.CVRExtendedDisplay
   #pragma pack(pop)
-  static check_size<sizeof(CVRExtendedDisplay), 16 + sizeof(OVR::OpenVR::IVRExtendedDisplay)> __OVR_OpenVR_CVRExtendedDisplaySizeCheck;
+  static check_size<sizeof(CVRExtendedDisplay), 16 + sizeof(::OVR::OpenVR::IVRExtendedDisplay)> __OVR_OpenVR_CVRExtendedDisplaySizeCheck;
   static_assert(sizeof(CVRExtendedDisplay) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -100,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVRExtendedDisplay::GetEyeOutputViewport
 // Il2CppName: GetEyeOutputViewport
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRExtendedDisplay::*)(OVR::OpenVR::EVREye, ByRef<uint>, ByRef<uint>, ByRef<uint>, ByRef<uint>)>(&OVR::OpenVR::CVRExtendedDisplay::GetEyeOutputViewport)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRExtendedDisplay::*)(::OVR::OpenVR::EVREye, ByRef<uint>, ByRef<uint>, ByRef<uint>, ByRef<uint>)>(&OVR::OpenVR::CVRExtendedDisplay::GetEyeOutputViewport)> {
   static const MethodInfo* get() {
     static auto* eEye = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVREye")->byval_arg;
     static auto* pnX = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;

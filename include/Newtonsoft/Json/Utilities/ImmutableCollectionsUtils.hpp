@@ -34,8 +34,8 @@ namespace Newtonsoft::Json::Utilities {
   class ImmutableCollectionsUtils;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Utilities::ImmutableCollectionsUtils);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::ImmutableCollectionsUtils*, "Newtonsoft.Json.Utilities", "ImmutableCollectionsUtils");
+NEED_NO_BOX(::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils*, "Newtonsoft.Json.Utilities", "ImmutableCollectionsUtils");
 // Type namespace: Newtonsoft.Json.Utilities
 namespace Newtonsoft::Json::Utilities {
   // Size: 0x10
@@ -46,31 +46,31 @@ namespace Newtonsoft::Json::Utilities {
   // [NullableContextAttribute] Offset: 1202064
   class ImmutableCollectionsUtils : public ::Il2CppObject {
     public:
-    // Nested type: Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::ImmutableCollectionTypeInfo
+    // Nested type: ::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::ImmutableCollectionTypeInfo
     class ImmutableCollectionTypeInfo;
-    // Nested type: Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::$$c__DisplayClass24_0
+    // Nested type: ::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::$$c__DisplayClass24_0
     class $$c__DisplayClass24_0;
-    // Nested type: Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::$$c
+    // Nested type: ::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::$$c
     class $$c;
-    // Nested type: Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::$$c__DisplayClass25_0
+    // Nested type: ::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::$$c__DisplayClass25_0
     class $$c__DisplayClass25_0;
     // Get static field: static private readonly System.Collections.Generic.IList`1<Newtonsoft.Json.Utilities.ImmutableCollectionsUtils/Newtonsoft.Json.Utilities.ImmutableCollectionTypeInfo> ArrayContractImmutableCollectionDefinitions
-    static System::Collections::Generic::IList_1<Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::ImmutableCollectionTypeInfo*>* _get_ArrayContractImmutableCollectionDefinitions();
+    static ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::ImmutableCollectionTypeInfo*>* _get_ArrayContractImmutableCollectionDefinitions();
     // Set static field: static private readonly System.Collections.Generic.IList`1<Newtonsoft.Json.Utilities.ImmutableCollectionsUtils/Newtonsoft.Json.Utilities.ImmutableCollectionTypeInfo> ArrayContractImmutableCollectionDefinitions
-    static void _set_ArrayContractImmutableCollectionDefinitions(System::Collections::Generic::IList_1<Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::ImmutableCollectionTypeInfo*>* value);
+    static void _set_ArrayContractImmutableCollectionDefinitions(::System::Collections::Generic::IList_1<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::ImmutableCollectionTypeInfo*>* value);
     // Get static field: static private readonly System.Collections.Generic.IList`1<Newtonsoft.Json.Utilities.ImmutableCollectionsUtils/Newtonsoft.Json.Utilities.ImmutableCollectionTypeInfo> DictionaryContractImmutableCollectionDefinitions
-    static System::Collections::Generic::IList_1<Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::ImmutableCollectionTypeInfo*>* _get_DictionaryContractImmutableCollectionDefinitions();
+    static ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::ImmutableCollectionTypeInfo*>* _get_DictionaryContractImmutableCollectionDefinitions();
     // Set static field: static private readonly System.Collections.Generic.IList`1<Newtonsoft.Json.Utilities.ImmutableCollectionsUtils/Newtonsoft.Json.Utilities.ImmutableCollectionTypeInfo> DictionaryContractImmutableCollectionDefinitions
-    static void _set_DictionaryContractImmutableCollectionDefinitions(System::Collections::Generic::IList_1<Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::ImmutableCollectionTypeInfo*>* value);
+    static void _set_DictionaryContractImmutableCollectionDefinitions(::System::Collections::Generic::IList_1<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::ImmutableCollectionTypeInfo*>* value);
     // static private System.Void .cctor()
     // Offset: 0x19E5A9C
     static void _cctor();
     // static System.Boolean TryBuildImmutableForArrayContract(System.Type underlyingType, System.Type collectionItemType, out System.Type createdType, out Newtonsoft.Json.Serialization.ObjectConstructor`1<System.Object> parameterizedCreator)
     // Offset: 0x19E5230
-    static bool TryBuildImmutableForArrayContract(System::Type* underlyingType, System::Type* collectionItemType, ByRef<System::Type*> createdType, ByRef<Newtonsoft::Json::Serialization::ObjectConstructor_1<::Il2CppObject*>*> parameterizedCreator);
+    static bool TryBuildImmutableForArrayContract(::System::Type* underlyingType, ::System::Type* collectionItemType, ByRef<::System::Type*> createdType, ByRef<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::Il2CppObject*>*> parameterizedCreator);
     // static System.Boolean TryBuildImmutableForDictionaryContract(System.Type underlyingType, System.Type keyItemType, System.Type valueItemType, out System.Type createdType, out Newtonsoft.Json.Serialization.ObjectConstructor`1<System.Object> parameterizedCreator)
     // Offset: 0x19E5638
-    static bool TryBuildImmutableForDictionaryContract(System::Type* underlyingType, System::Type* keyItemType, System::Type* valueItemType, ByRef<System::Type*> createdType, ByRef<Newtonsoft::Json::Serialization::ObjectConstructor_1<::Il2CppObject*>*> parameterizedCreator);
+    static bool TryBuildImmutableForDictionaryContract(::System::Type* underlyingType, ::System::Type* keyItemType, ::System::Type* valueItemType, ByRef<::System::Type*> createdType, ByRef<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::Il2CppObject*>*> parameterizedCreator);
   }; // Newtonsoft.Json.Utilities.ImmutableCollectionsUtils
   #pragma pack(pop)
 }
@@ -86,7 +86,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::TryBuildImmutableForArrayContract
 // Il2CppName: TryBuildImmutableForArrayContract
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, System::Type*, ByRef<System::Type*>, ByRef<Newtonsoft::Json::Serialization::ObjectConstructor_1<::Il2CppObject*>*>)>(&Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::TryBuildImmutableForArrayContract)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*, ByRef<::System::Type*>, ByRef<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::Il2CppObject*>*>)>(&Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::TryBuildImmutableForArrayContract)> {
   static const MethodInfo* get() {
     static auto* underlyingType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* collectionItemType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -98,7 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::TryBuildImmutableForDictionaryContract
 // Il2CppName: TryBuildImmutableForDictionaryContract
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, System::Type*, System::Type*, ByRef<System::Type*>, ByRef<Newtonsoft::Json::Serialization::ObjectConstructor_1<::Il2CppObject*>*>)>(&Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::TryBuildImmutableForDictionaryContract)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*, ::System::Type*, ByRef<::System::Type*>, ByRef<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::Il2CppObject*>*>)>(&Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::TryBuildImmutableForDictionaryContract)> {
   static const MethodInfo* get() {
     static auto* underlyingType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* keyItemType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;

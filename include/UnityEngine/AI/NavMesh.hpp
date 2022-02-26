@@ -26,8 +26,8 @@ namespace UnityEngine::AI {
   class NavMesh;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::AI::NavMesh);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AI::NavMesh*, "UnityEngine.AI", "NavMesh");
+NEED_NO_BOX(::UnityEngine::AI::NavMesh);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AI::NavMesh*, "UnityEngine.AI", "NavMesh");
 // Type namespace: UnityEngine.AI
 namespace UnityEngine::AI {
   // Size: 0x10
@@ -40,30 +40,30 @@ namespace UnityEngine::AI {
   // [NativeHeaderAttribute] Offset: 12159A8
   class NavMesh : public ::Il2CppObject {
     public:
-    // Nested type: UnityEngine::AI::NavMesh::OnNavMeshPreUpdate
+    // Nested type: ::UnityEngine::AI::NavMesh::OnNavMeshPreUpdate
     class OnNavMeshPreUpdate;
     // Get static field: static public UnityEngine.AI.NavMesh/UnityEngine.AI.OnNavMeshPreUpdate onPreUpdate
-    static UnityEngine::AI::NavMesh::OnNavMeshPreUpdate* _get_onPreUpdate();
+    static ::UnityEngine::AI::NavMesh::OnNavMeshPreUpdate* _get_onPreUpdate();
     // Set static field: static public UnityEngine.AI.NavMesh/UnityEngine.AI.OnNavMeshPreUpdate onPreUpdate
-    static void _set_onPreUpdate(UnityEngine::AI::NavMesh::OnNavMeshPreUpdate* value);
+    static void _set_onPreUpdate(::UnityEngine::AI::NavMesh::OnNavMeshPreUpdate* value);
     // static private System.Void Internal_CallOnNavMeshPreUpdate()
     // Offset: 0x2A60B8C
     static void Internal_CallOnNavMeshPreUpdate();
     // static public System.Boolean CalculatePath(UnityEngine.Vector3 sourcePosition, UnityEngine.Vector3 targetPosition, System.Int32 areaMask, UnityEngine.AI.NavMeshPath path)
     // Offset: 0x2A60DF8
-    static bool CalculatePath(UnityEngine::Vector3 sourcePosition, UnityEngine::Vector3 targetPosition, int areaMask, UnityEngine::AI::NavMeshPath* path);
+    static bool CalculatePath(::UnityEngine::Vector3 sourcePosition, ::UnityEngine::Vector3 targetPosition, int areaMask, ::UnityEngine::AI::NavMeshPath* path);
     // static private System.Boolean CalculatePathInternal(UnityEngine.Vector3 sourcePosition, UnityEngine.Vector3 targetPosition, System.Int32 areaMask, UnityEngine.AI.NavMeshPath path)
     // Offset: 0x2A60EEC
-    static bool CalculatePathInternal(UnityEngine::Vector3 sourcePosition, UnityEngine::Vector3 targetPosition, int areaMask, UnityEngine::AI::NavMeshPath* path);
+    static bool CalculatePathInternal(::UnityEngine::Vector3 sourcePosition, ::UnityEngine::Vector3 targetPosition, int areaMask, ::UnityEngine::AI::NavMeshPath* path);
     // static public System.Boolean SamplePosition(UnityEngine.Vector3 sourcePosition, out UnityEngine.AI.NavMeshHit hit, System.Single maxDistance, System.Int32 areaMask)
     // Offset: 0x2A60FCC
-    static bool SamplePosition(UnityEngine::Vector3 sourcePosition, ByRef<UnityEngine::AI::NavMeshHit> hit, float maxDistance, int areaMask);
+    static bool SamplePosition(::UnityEngine::Vector3 sourcePosition, ByRef<::UnityEngine::AI::NavMeshHit> hit, float maxDistance, int areaMask);
     // static private System.Boolean CalculatePathInternal_Injected(ref UnityEngine.Vector3 sourcePosition, ref UnityEngine.Vector3 targetPosition, System.Int32 areaMask, UnityEngine.AI.NavMeshPath path)
     // Offset: 0x2A60F64
-    static bool CalculatePathInternal_Injected(ByRef<UnityEngine::Vector3> sourcePosition, ByRef<UnityEngine::Vector3> targetPosition, int areaMask, UnityEngine::AI::NavMeshPath* path);
+    static bool CalculatePathInternal_Injected(ByRef<::UnityEngine::Vector3> sourcePosition, ByRef<::UnityEngine::Vector3> targetPosition, int areaMask, ::UnityEngine::AI::NavMeshPath* path);
     // static private System.Boolean SamplePosition_Injected(ref UnityEngine.Vector3 sourcePosition, out UnityEngine.AI.NavMeshHit hit, System.Single maxDistance, System.Int32 areaMask)
     // Offset: 0x2A61048
-    static bool SamplePosition_Injected(ByRef<UnityEngine::Vector3> sourcePosition, ByRef<UnityEngine::AI::NavMeshHit> hit, float maxDistance, int areaMask);
+    static bool SamplePosition_Injected(ByRef<::UnityEngine::Vector3> sourcePosition, ByRef<::UnityEngine::AI::NavMeshHit> hit, float maxDistance, int areaMask);
   }; // UnityEngine.AI.NavMesh
   #pragma pack(pop)
 }
@@ -79,7 +79,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::AI::NavMesh::CalculatePath
 // Il2CppName: CalculatePath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Vector3, UnityEngine::Vector3, int, UnityEngine::AI::NavMeshPath*)>(&UnityEngine::AI::NavMesh::CalculatePath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, int, ::UnityEngine::AI::NavMeshPath*)>(&UnityEngine::AI::NavMesh::CalculatePath)> {
   static const MethodInfo* get() {
     static auto* sourcePosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* targetPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -91,7 +91,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: UnityEngine::AI::NavMesh::CalculatePathInternal
 // Il2CppName: CalculatePathInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Vector3, UnityEngine::Vector3, int, UnityEngine::AI::NavMeshPath*)>(&UnityEngine::AI::NavMesh::CalculatePathInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, int, ::UnityEngine::AI::NavMeshPath*)>(&UnityEngine::AI::NavMesh::CalculatePathInternal)> {
   static const MethodInfo* get() {
     static auto* sourcePosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* targetPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -103,7 +103,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: UnityEngine::AI::NavMesh::SamplePosition
 // Il2CppName: SamplePosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Vector3, ByRef<UnityEngine::AI::NavMeshHit>, float, int)>(&UnityEngine::AI::NavMesh::SamplePosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Vector3, ByRef<::UnityEngine::AI::NavMeshHit>, float, int)>(&UnityEngine::AI::NavMesh::SamplePosition)> {
   static const MethodInfo* get() {
     static auto* sourcePosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* hit = &::il2cpp_utils::GetClassFromName("UnityEngine.AI", "NavMeshHit")->this_arg;
@@ -115,7 +115,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: UnityEngine::AI::NavMesh::CalculatePathInternal_Injected
 // Il2CppName: CalculatePathInternal_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<UnityEngine::Vector3>, ByRef<UnityEngine::Vector3>, int, UnityEngine::AI::NavMeshPath*)>(&UnityEngine::AI::NavMesh::CalculatePathInternal_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<::UnityEngine::Vector3>, ByRef<::UnityEngine::Vector3>, int, ::UnityEngine::AI::NavMeshPath*)>(&UnityEngine::AI::NavMesh::CalculatePathInternal_Injected)> {
   static const MethodInfo* get() {
     static auto* sourcePosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     static auto* targetPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
@@ -127,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(By
 // Writing MetadataGetter for method: UnityEngine::AI::NavMesh::SamplePosition_Injected
 // Il2CppName: SamplePosition_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<UnityEngine::Vector3>, ByRef<UnityEngine::AI::NavMeshHit>, float, int)>(&UnityEngine::AI::NavMesh::SamplePosition_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<::UnityEngine::Vector3>, ByRef<::UnityEngine::AI::NavMeshHit>, float, int)>(&UnityEngine::AI::NavMesh::SamplePosition_Injected)> {
   static const MethodInfo* get() {
     static auto* sourcePosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     static auto* hit = &::il2cpp_utils::GetClassFromName("UnityEngine.AI", "NavMeshHit")->this_arg;

@@ -23,8 +23,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Linq::Expressions::Interpreter::DelegateHelpers::$$c);
-DEFINE_IL2CPP_ARG_TYPE(System::Linq::Expressions::Interpreter::DelegateHelpers::$$c*, "System.Linq.Expressions.Interpreter", "DelegateHelpers/<>c");
+NEED_NO_BOX(::System::Linq::Expressions::Interpreter::DelegateHelpers::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::DelegateHelpers::$$c*, "System.Linq.Expressions.Interpreter", "DelegateHelpers/<>c");
 // Type namespace: System.Linq.Expressions.Interpreter
 namespace System::Linq::Expressions::Interpreter {
   // Size: 0x10
@@ -35,26 +35,26 @@ namespace System::Linq::Expressions::Interpreter {
   class DelegateHelpers::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly System.Linq.Expressions.Interpreter.DelegateHelpers/System.Linq.Expressions.Interpreter.<>c <>9
-    static System::Linq::Expressions::Interpreter::DelegateHelpers::$$c* _get_$$9();
+    static ::System::Linq::Expressions::Interpreter::DelegateHelpers::$$c* _get_$$9();
     // Set static field: static public readonly System.Linq.Expressions.Interpreter.DelegateHelpers/System.Linq.Expressions.Interpreter.<>c <>9
-    static void _set_$$9(System::Linq::Expressions::Interpreter::DelegateHelpers::$$c* value);
+    static void _set_$$9(::System::Linq::Expressions::Interpreter::DelegateHelpers::$$c* value);
     // Get static field: static public System.Func`2<System.Type,System.Boolean> <>9__1_0
-    static System::Func_2<System::Type*, bool>* _get_$$9__1_0();
+    static ::System::Func_2<::System::Type*, bool>* _get_$$9__1_0();
     // Set static field: static public System.Func`2<System.Type,System.Boolean> <>9__1_0
-    static void _set_$$9__1_0(System::Func_2<System::Type*, bool>* value);
+    static void _set_$$9__1_0(::System::Func_2<::System::Type*, bool>* value);
     // static private System.Void .cctor()
     // Offset: 0x1EE951C
     static void _cctor();
     // System.Boolean <MakeDelegate>b__1_0(System.Type t)
     // Offset: 0x1EE9588
-    bool $MakeDelegate$b__1_0(System::Type* t);
+    bool $MakeDelegate$b__1_0(::System::Type* t);
     // public System.Void .ctor()
     // Offset: 0x1EE9580
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DelegateHelpers::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Expressions::Interpreter::DelegateHelpers::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Expressions::Interpreter::DelegateHelpers::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DelegateHelpers::$$c*, creationType>()));
     }
   }; // System.Linq.Expressions.Interpreter.DelegateHelpers/System.Linq.Expressions.Interpreter.<>c
@@ -72,7 +72,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::DelegateHelpers::$$c::$MakeDelegate$b__1_0
 // Il2CppName: <MakeDelegate>b__1_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Linq::Expressions::Interpreter::DelegateHelpers::$$c::*)(System::Type*)>(&System::Linq::Expressions::Interpreter::DelegateHelpers::$$c::$MakeDelegate$b__1_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Linq::Expressions::Interpreter::DelegateHelpers::$$c::*)(::System::Type*)>(&System::Linq::Expressions::Interpreter::DelegateHelpers::$$c::$MakeDelegate$b__1_0)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::DelegateHelpers::$$c*), "<MakeDelegate>b__1_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});

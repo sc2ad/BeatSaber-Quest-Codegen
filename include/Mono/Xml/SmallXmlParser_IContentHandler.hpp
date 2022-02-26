@@ -10,8 +10,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Xml::SmallXmlParser::IContentHandler);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Xml::SmallXmlParser::IContentHandler*, "Mono.Xml", "SmallXmlParser/IContentHandler");
+NEED_NO_BOX(::Mono::Xml::SmallXmlParser::IContentHandler);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Xml::SmallXmlParser::IContentHandler*, "Mono.Xml", "SmallXmlParser/IContentHandler");
 // Type namespace: Mono.Xml
 namespace Mono::Xml {
   // Size: 0x10
@@ -22,13 +22,13 @@ namespace Mono::Xml {
     public:
     // public System.Void OnStartParsing(Mono.Xml.SmallXmlParser parser)
     // Offset: 0xFFFFFFFF
-    void OnStartParsing(Mono::Xml::SmallXmlParser* parser);
+    void OnStartParsing(::Mono::Xml::SmallXmlParser* parser);
     // public System.Void OnEndParsing(Mono.Xml.SmallXmlParser parser)
     // Offset: 0xFFFFFFFF
-    void OnEndParsing(Mono::Xml::SmallXmlParser* parser);
+    void OnEndParsing(::Mono::Xml::SmallXmlParser* parser);
     // public System.Void OnStartElement(System.String name, Mono.Xml.SmallXmlParser/Mono.Xml.IAttrList attrs)
     // Offset: 0xFFFFFFFF
-    void OnStartElement(::StringW name, Mono::Xml::SmallXmlParser::IAttrList* attrs);
+    void OnStartElement(::StringW name, ::Mono::Xml::SmallXmlParser::IAttrList* attrs);
     // public System.Void OnEndElement(System.String name)
     // Offset: 0xFFFFFFFF
     void OnEndElement(::StringW name);
@@ -48,7 +48,7 @@ namespace Mono::Xml {
 // Writing MetadataGetter for method: Mono::Xml::SmallXmlParser::IContentHandler::OnStartParsing
 // Il2CppName: OnStartParsing
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Xml::SmallXmlParser::IContentHandler::*)(Mono::Xml::SmallXmlParser*)>(&Mono::Xml::SmallXmlParser::IContentHandler::OnStartParsing)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Xml::SmallXmlParser::IContentHandler::*)(::Mono::Xml::SmallXmlParser*)>(&Mono::Xml::SmallXmlParser::IContentHandler::OnStartParsing)> {
   static const MethodInfo* get() {
     static auto* parser = &::il2cpp_utils::GetClassFromName("Mono.Xml", "SmallXmlParser")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Xml::SmallXmlParser::IContentHandler*), "OnStartParsing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{parser});
@@ -57,7 +57,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Xml::SmallXmlParser::IContentHandler::OnEndParsing
 // Il2CppName: OnEndParsing
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Xml::SmallXmlParser::IContentHandler::*)(Mono::Xml::SmallXmlParser*)>(&Mono::Xml::SmallXmlParser::IContentHandler::OnEndParsing)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Xml::SmallXmlParser::IContentHandler::*)(::Mono::Xml::SmallXmlParser*)>(&Mono::Xml::SmallXmlParser::IContentHandler::OnEndParsing)> {
   static const MethodInfo* get() {
     static auto* parser = &::il2cpp_utils::GetClassFromName("Mono.Xml", "SmallXmlParser")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Xml::SmallXmlParser::IContentHandler*), "OnEndParsing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{parser});
@@ -66,7 +66,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Xml::SmallXmlParser::IContentHandler::OnStartElement
 // Il2CppName: OnStartElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Xml::SmallXmlParser::IContentHandler::*)(::StringW, Mono::Xml::SmallXmlParser::IAttrList*)>(&Mono::Xml::SmallXmlParser::IContentHandler::OnStartElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Xml::SmallXmlParser::IContentHandler::*)(::StringW, ::Mono::Xml::SmallXmlParser::IAttrList*)>(&Mono::Xml::SmallXmlParser::IContentHandler::OnStartElement)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* attrs = &::il2cpp_utils::GetClassFromName("Mono.Xml", "SmallXmlParser/IAttrList")->byval_arg;

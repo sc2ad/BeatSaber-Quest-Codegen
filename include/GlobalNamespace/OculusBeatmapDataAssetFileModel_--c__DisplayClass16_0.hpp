@@ -36,8 +36,8 @@ namespace Oculus::Platform {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OculusBeatmapDataAssetFileModel::$$c__DisplayClass16_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusBeatmapDataAssetFileModel::$$c__DisplayClass16_0*, "", "OculusBeatmapDataAssetFileModel/<>c__DisplayClass16_0");
+NEED_NO_BOX(::GlobalNamespace::OculusBeatmapDataAssetFileModel::$$c__DisplayClass16_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OculusBeatmapDataAssetFileModel::$$c__DisplayClass16_0*, "", "OculusBeatmapDataAssetFileModel/<>c__DisplayClass16_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x28
@@ -59,50 +59,50 @@ namespace GlobalNamespace {
     // public System.Threading.Tasks.TaskCompletionSource`1<GetAssetBundleFileResult> taskSource
     // Size: 0x8
     // Offset: 0x10
-    System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::GetAssetBundleFileResult>* taskSource;
+    ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>* taskSource;
     // Field size check
-    static_assert(sizeof(System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::GetAssetBundleFileResult>*) == 0x8);
+    static_assert(sizeof(::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>*) == 0x8);
     // public OculusBeatmapDataAssetFileModel <>4__this
     // Size: 0x8
     // Offset: 0x18
-    GlobalNamespace::OculusBeatmapDataAssetFileModel* $$4__this;
+    ::GlobalNamespace::OculusBeatmapDataAssetFileModel* $$4__this;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::OculusBeatmapDataAssetFileModel*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::OculusBeatmapDataAssetFileModel*) == 0x8);
     // public Oculus.Platform.Models.AssetDetails assetDetails
     // Size: 0x8
     // Offset: 0x20
-    Oculus::Platform::Models::AssetDetails* assetDetails;
+    ::Oculus::Platform::Models::AssetDetails* assetDetails;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::Models::AssetDetails*) == 0x8);
+    static_assert(sizeof(::Oculus::Platform::Models::AssetDetails*) == 0x8);
     public:
     // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<GetAssetBundleFileResult> taskSource
-    System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::GetAssetBundleFileResult>*& dyn_taskSource();
+    ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>*& dyn_taskSource();
     // Get instance field reference: public OculusBeatmapDataAssetFileModel <>4__this
-    GlobalNamespace::OculusBeatmapDataAssetFileModel*& dyn_$$4__this();
+    ::GlobalNamespace::OculusBeatmapDataAssetFileModel*& dyn_$$4__this();
     // Get instance field reference: public Oculus.Platform.Models.AssetDetails assetDetails
-    Oculus::Platform::Models::AssetDetails*& dyn_assetDetails();
+    ::Oculus::Platform::Models::AssetDetails*& dyn_assetDetails();
     // System.Void <GetDownloadAssetBundleFileAsync>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.AssetFileDownloadResult> msg)
     // Offset: 0x2BABF68
-    void $GetDownloadAssetBundleFileAsync$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::AssetFileDownloadResult*>* msg);
+    void $GetDownloadAssetBundleFileAsync$b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDownloadResult*>* msg);
     // public System.Void .ctor()
     // Offset: 0x2BABF60
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusBeatmapDataAssetFileModel::$$c__DisplayClass16_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OculusBeatmapDataAssetFileModel::$$c__DisplayClass16_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusBeatmapDataAssetFileModel::$$c__DisplayClass16_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusBeatmapDataAssetFileModel::$$c__DisplayClass16_0*, creationType>()));
     }
   }; // OculusBeatmapDataAssetFileModel/<>c__DisplayClass16_0
   #pragma pack(pop)
-  static check_size<sizeof(OculusBeatmapDataAssetFileModel::$$c__DisplayClass16_0), 32 + sizeof(Oculus::Platform::Models::AssetDetails*)> __GlobalNamespace_OculusBeatmapDataAssetFileModel_$$c__DisplayClass16_0SizeCheck;
+  static check_size<sizeof(OculusBeatmapDataAssetFileModel::$$c__DisplayClass16_0), 32 + sizeof(::Oculus::Platform::Models::AssetDetails*)> __GlobalNamespace_OculusBeatmapDataAssetFileModel_$$c__DisplayClass16_0SizeCheck;
   static_assert(sizeof(OculusBeatmapDataAssetFileModel::$$c__DisplayClass16_0) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusBeatmapDataAssetFileModel::$$c__DisplayClass16_0::$GetDownloadAssetBundleFileAsync$b__0
 // Il2CppName: <GetDownloadAssetBundleFileAsync>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusBeatmapDataAssetFileModel::$$c__DisplayClass16_0::*)(Oculus::Platform::Message_1<Oculus::Platform::Models::AssetFileDownloadResult*>*)>(&GlobalNamespace::OculusBeatmapDataAssetFileModel::$$c__DisplayClass16_0::$GetDownloadAssetBundleFileAsync$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusBeatmapDataAssetFileModel::$$c__DisplayClass16_0::*)(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDownloadResult*>*)>(&GlobalNamespace::OculusBeatmapDataAssetFileModel::$$c__DisplayClass16_0::$GetDownloadAssetBundleFileAsync$b__0)> {
   static const MethodInfo* get() {
     static auto* msg = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("Oculus.Platform", "Message`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Oculus.Platform.Models", "AssetFileDownloadResult")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusBeatmapDataAssetFileModel::$$c__DisplayClass16_0*), "<GetDownloadAssetBundleFileAsync>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{msg});

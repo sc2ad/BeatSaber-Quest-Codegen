@@ -39,8 +39,8 @@ namespace Org::BouncyCastle::Utilities {
   class Platform;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Utilities::Platform);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Platform*, "Org.BouncyCastle.Utilities", "Platform");
+NEED_NO_BOX(::Org::BouncyCastle::Utilities::Platform);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Platform*, "Org.BouncyCastle.Utilities", "Platform");
 // Type namespace: Org.BouncyCastle.Utilities
 namespace Org::BouncyCastle::Utilities {
   // Size: 0x10
@@ -50,9 +50,9 @@ namespace Org::BouncyCastle::Utilities {
   class Platform : public ::Il2CppObject {
     public:
     // Get static field: static private readonly System.Globalization.CompareInfo InvariantCompareInfo
-    static System::Globalization::CompareInfo* _get_InvariantCompareInfo();
+    static ::System::Globalization::CompareInfo* _get_InvariantCompareInfo();
     // Set static field: static private readonly System.Globalization.CompareInfo InvariantCompareInfo
-    static void _set_InvariantCompareInfo(System::Globalization::CompareInfo* value);
+    static void _set_InvariantCompareInfo(::System::Globalization::CompareInfo* value);
     // Get static field: static readonly System.String NewLine
     static ::StringW _get_NewLine();
     // Set static field: static readonly System.String NewLine
@@ -71,28 +71,28 @@ namespace Org::BouncyCastle::Utilities {
     static ::StringW GetEnvironmentVariable(::StringW variable);
     // static System.Exception CreateNotImplementedException(System.String message)
     // Offset: 0x25A7DA0
-    static System::Exception* CreateNotImplementedException(::StringW message);
+    static ::System::Exception* CreateNotImplementedException(::StringW message);
     // static System.Collections.IList CreateArrayList()
     // Offset: 0x25A75D0
-    static System::Collections::IList* CreateArrayList();
+    static ::System::Collections::IList* CreateArrayList();
     // static System.Collections.IList CreateArrayList(System.Int32 capacity)
     // Offset: 0x25A7E04
-    static System::Collections::IList* CreateArrayList(int capacity);
+    static ::System::Collections::IList* CreateArrayList(int capacity);
     // static System.Collections.IList CreateArrayList(System.Collections.ICollection collection)
     // Offset: 0x25A6EC4
-    static System::Collections::IList* CreateArrayList(System::Collections::ICollection* collection);
+    static ::System::Collections::IList* CreateArrayList(::System::Collections::ICollection* collection);
     // static System.Collections.IDictionary CreateHashtable()
     // Offset: 0x25A44B8
-    static System::Collections::IDictionary* CreateHashtable();
+    static ::System::Collections::IDictionary* CreateHashtable();
     // static System.Collections.IDictionary CreateHashtable(System.Int32 capacity)
     // Offset: 0x25A7E68
-    static System::Collections::IDictionary* CreateHashtable(int capacity);
+    static ::System::Collections::IDictionary* CreateHashtable(int capacity);
     // static System.String ToUpperInvariant(System.String s)
     // Offset: 0x25A7C64
     static ::StringW ToUpperInvariant(::StringW s);
     // static System.Void Dispose(System.IO.Stream s)
     // Offset: 0x25A6B8C
-    static void Dispose(System::IO::Stream* s);
+    static void Dispose(::System::IO::Stream* s);
     // static System.Int32 IndexOf(System.String source, System.String value)
     // Offset: 0x25A762C
     static int IndexOf(::StringW source, ::StringW value);
@@ -147,7 +147,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Platform::CreateNotImplementedException
 // Il2CppName: CreateNotImplementedException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&Org::BouncyCastle::Utilities::Platform::CreateNotImplementedException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&Org::BouncyCastle::Utilities::Platform::CreateNotImplementedException)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Platform*), "CreateNotImplementedException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
@@ -156,7 +156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Platform::CreateArrayList
 // Il2CppName: CreateArrayList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IList* (*)()>(&Org::BouncyCastle::Utilities::Platform::CreateArrayList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IList* (*)()>(&Org::BouncyCastle::Utilities::Platform::CreateArrayList)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Platform*), "CreateArrayList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -164,7 +164,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Platform::CreateArrayList
 // Il2CppName: CreateArrayList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IList* (*)(int)>(&Org::BouncyCastle::Utilities::Platform::CreateArrayList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IList* (*)(int)>(&Org::BouncyCastle::Utilities::Platform::CreateArrayList)> {
   static const MethodInfo* get() {
     static auto* capacity = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Platform*), "CreateArrayList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{capacity});
@@ -173,7 +173,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Platform::CreateArrayList
 // Il2CppName: CreateArrayList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IList* (*)(System::Collections::ICollection*)>(&Org::BouncyCastle::Utilities::Platform::CreateArrayList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IList* (*)(::System::Collections::ICollection*)>(&Org::BouncyCastle::Utilities::Platform::CreateArrayList)> {
   static const MethodInfo* get() {
     static auto* collection = &::il2cpp_utils::GetClassFromName("System.Collections", "ICollection")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Platform*), "CreateArrayList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{collection});
@@ -182,7 +182,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Platform::CreateHashtable
 // Il2CppName: CreateHashtable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IDictionary* (*)()>(&Org::BouncyCastle::Utilities::Platform::CreateHashtable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IDictionary* (*)()>(&Org::BouncyCastle::Utilities::Platform::CreateHashtable)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Platform*), "CreateHashtable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -190,7 +190,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Platform::CreateHashtable
 // Il2CppName: CreateHashtable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IDictionary* (*)(int)>(&Org::BouncyCastle::Utilities::Platform::CreateHashtable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IDictionary* (*)(int)>(&Org::BouncyCastle::Utilities::Platform::CreateHashtable)> {
   static const MethodInfo* get() {
     static auto* capacity = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Platform*), "CreateHashtable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{capacity});
@@ -208,7 +208,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Platform::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IO::Stream*)>(&Org::BouncyCastle::Utilities::Platform::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IO::Stream*)>(&Org::BouncyCastle::Utilities::Platform::Dispose)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Platform*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});

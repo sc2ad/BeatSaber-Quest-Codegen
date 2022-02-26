@@ -18,8 +18,8 @@ namespace GlobalNamespace {
   class INoteControllerNoteDidStartDissolvingEvent;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*, "", "INoteControllerNoteDidStartDissolvingEvent");
+NEED_NO_BOX(::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*, "", "INoteControllerNoteDidStartDissolvingEvent");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -30,7 +30,7 @@ namespace GlobalNamespace {
     public:
     // public System.Void HandleNoteControllerNoteDidStartDissolving(NoteControllerBase noteController, System.Single duration)
     // Offset: 0xFFFFFFFF
-    void HandleNoteControllerNoteDidStartDissolving(GlobalNamespace::NoteControllerBase* noteController, float duration);
+    void HandleNoteControllerNoteDidStartDissolving(::GlobalNamespace::NoteControllerBase* noteController, float duration);
   }; // INoteControllerNoteDidStartDissolvingEvent
   #pragma pack(pop)
 }
@@ -38,7 +38,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent::HandleNoteControllerNoteDidStartDissolving
 // Il2CppName: HandleNoteControllerNoteDidStartDissolving
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent::*)(GlobalNamespace::NoteControllerBase*, float)>(&GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent::HandleNoteControllerNoteDidStartDissolving)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent::*)(::GlobalNamespace::NoteControllerBase*, float)>(&GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent::HandleNoteControllerNoteDidStartDissolving)> {
   static const MethodInfo* get() {
     static auto* noteController = &::il2cpp_utils::GetClassFromName("", "NoteControllerBase")->byval_arg;
     static auto* duration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

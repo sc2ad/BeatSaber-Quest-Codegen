@@ -30,8 +30,8 @@ namespace GlobalNamespace {
   class IConnectedPlayerBeatmapObjectEventManager;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager*, "", "IConnectedPlayerBeatmapObjectEventManager");
+NEED_NO_BOX(::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager*, "", "IConnectedPlayerBeatmapObjectEventManager");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -42,28 +42,28 @@ namespace GlobalNamespace {
     public:
     // public System.Void add_connectedPlayerNoteWasSpawnedEvent(System.Action`1<NoteSpawnInfoNetSerializable> value)
     // Offset: 0xFFFFFFFF
-    void add_connectedPlayerNoteWasSpawnedEvent(System::Action_1<GlobalNamespace::NoteSpawnInfoNetSerializable*>* value);
+    void add_connectedPlayerNoteWasSpawnedEvent(::System::Action_1<::GlobalNamespace::NoteSpawnInfoNetSerializable*>* value);
     // public System.Void remove_connectedPlayerNoteWasSpawnedEvent(System.Action`1<NoteSpawnInfoNetSerializable> value)
     // Offset: 0xFFFFFFFF
-    void remove_connectedPlayerNoteWasSpawnedEvent(System::Action_1<GlobalNamespace::NoteSpawnInfoNetSerializable*>* value);
+    void remove_connectedPlayerNoteWasSpawnedEvent(::System::Action_1<::GlobalNamespace::NoteSpawnInfoNetSerializable*>* value);
     // public System.Void add_connectedPlayerObstacleWasSpawnedEvent(System.Action`1<ObstacleSpawnInfoNetSerializable> value)
     // Offset: 0xFFFFFFFF
-    void add_connectedPlayerObstacleWasSpawnedEvent(System::Action_1<GlobalNamespace::ObstacleSpawnInfoNetSerializable*>* value);
+    void add_connectedPlayerObstacleWasSpawnedEvent(::System::Action_1<::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>* value);
     // public System.Void remove_connectedPlayerObstacleWasSpawnedEvent(System.Action`1<ObstacleSpawnInfoNetSerializable> value)
     // Offset: 0xFFFFFFFF
-    void remove_connectedPlayerObstacleWasSpawnedEvent(System::Action_1<GlobalNamespace::ObstacleSpawnInfoNetSerializable*>* value);
+    void remove_connectedPlayerObstacleWasSpawnedEvent(::System::Action_1<::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>* value);
     // public System.Void add_connectedPlayerNoteWasCutEvent(System.Action`1<NoteCutInfoNetSerializable> value)
     // Offset: 0xFFFFFFFF
-    void add_connectedPlayerNoteWasCutEvent(System::Action_1<GlobalNamespace::NoteCutInfoNetSerializable*>* value);
+    void add_connectedPlayerNoteWasCutEvent(::System::Action_1<::GlobalNamespace::NoteCutInfoNetSerializable*>* value);
     // public System.Void remove_connectedPlayerNoteWasCutEvent(System.Action`1<NoteCutInfoNetSerializable> value)
     // Offset: 0xFFFFFFFF
-    void remove_connectedPlayerNoteWasCutEvent(System::Action_1<GlobalNamespace::NoteCutInfoNetSerializable*>* value);
+    void remove_connectedPlayerNoteWasCutEvent(::System::Action_1<::GlobalNamespace::NoteCutInfoNetSerializable*>* value);
     // public System.Void add_connectedPlayerNoteWasMissedEvent(System.Action`1<NoteMissInfoNetSerializable> value)
     // Offset: 0xFFFFFFFF
-    void add_connectedPlayerNoteWasMissedEvent(System::Action_1<GlobalNamespace::NoteMissInfoNetSerializable*>* value);
+    void add_connectedPlayerNoteWasMissedEvent(::System::Action_1<::GlobalNamespace::NoteMissInfoNetSerializable*>* value);
     // public System.Void remove_connectedPlayerNoteWasMissedEvent(System.Action`1<NoteMissInfoNetSerializable> value)
     // Offset: 0xFFFFFFFF
-    void remove_connectedPlayerNoteWasMissedEvent(System::Action_1<GlobalNamespace::NoteMissInfoNetSerializable*>* value);
+    void remove_connectedPlayerNoteWasMissedEvent(::System::Action_1<::GlobalNamespace::NoteMissInfoNetSerializable*>* value);
     // public System.Void Pause()
     // Offset: 0xFFFFFFFF
     void Pause();
@@ -77,7 +77,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager::add_connectedPlayerNoteWasSpawnedEvent
 // Il2CppName: add_connectedPlayerNoteWasSpawnedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager::*)(System::Action_1<GlobalNamespace::NoteSpawnInfoNetSerializable*>*)>(&GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager::add_connectedPlayerNoteWasSpawnedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager::*)(::System::Action_1<::GlobalNamespace::NoteSpawnInfoNetSerializable*>*)>(&GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager::add_connectedPlayerNoteWasSpawnedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "NoteSpawnInfoNetSerializable")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager*), "add_connectedPlayerNoteWasSpawnedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -86,7 +86,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager::remove_connectedPlayerNoteWasSpawnedEvent
 // Il2CppName: remove_connectedPlayerNoteWasSpawnedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager::*)(System::Action_1<GlobalNamespace::NoteSpawnInfoNetSerializable*>*)>(&GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager::remove_connectedPlayerNoteWasSpawnedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager::*)(::System::Action_1<::GlobalNamespace::NoteSpawnInfoNetSerializable*>*)>(&GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager::remove_connectedPlayerNoteWasSpawnedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "NoteSpawnInfoNetSerializable")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager*), "remove_connectedPlayerNoteWasSpawnedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -95,7 +95,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager::add_connectedPlayerObstacleWasSpawnedEvent
 // Il2CppName: add_connectedPlayerObstacleWasSpawnedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager::*)(System::Action_1<GlobalNamespace::ObstacleSpawnInfoNetSerializable*>*)>(&GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager::add_connectedPlayerObstacleWasSpawnedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager::*)(::System::Action_1<::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>*)>(&GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager::add_connectedPlayerObstacleWasSpawnedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "ObstacleSpawnInfoNetSerializable")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager*), "add_connectedPlayerObstacleWasSpawnedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -104,7 +104,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager::remove_connectedPlayerObstacleWasSpawnedEvent
 // Il2CppName: remove_connectedPlayerObstacleWasSpawnedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager::*)(System::Action_1<GlobalNamespace::ObstacleSpawnInfoNetSerializable*>*)>(&GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager::remove_connectedPlayerObstacleWasSpawnedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager::*)(::System::Action_1<::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>*)>(&GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager::remove_connectedPlayerObstacleWasSpawnedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "ObstacleSpawnInfoNetSerializable")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager*), "remove_connectedPlayerObstacleWasSpawnedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -113,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager::add_connectedPlayerNoteWasCutEvent
 // Il2CppName: add_connectedPlayerNoteWasCutEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager::*)(System::Action_1<GlobalNamespace::NoteCutInfoNetSerializable*>*)>(&GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager::add_connectedPlayerNoteWasCutEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager::*)(::System::Action_1<::GlobalNamespace::NoteCutInfoNetSerializable*>*)>(&GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager::add_connectedPlayerNoteWasCutEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "NoteCutInfoNetSerializable")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager*), "add_connectedPlayerNoteWasCutEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager::remove_connectedPlayerNoteWasCutEvent
 // Il2CppName: remove_connectedPlayerNoteWasCutEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager::*)(System::Action_1<GlobalNamespace::NoteCutInfoNetSerializable*>*)>(&GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager::remove_connectedPlayerNoteWasCutEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager::*)(::System::Action_1<::GlobalNamespace::NoteCutInfoNetSerializable*>*)>(&GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager::remove_connectedPlayerNoteWasCutEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "NoteCutInfoNetSerializable")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager*), "remove_connectedPlayerNoteWasCutEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -131,7 +131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager::add_connectedPlayerNoteWasMissedEvent
 // Il2CppName: add_connectedPlayerNoteWasMissedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager::*)(System::Action_1<GlobalNamespace::NoteMissInfoNetSerializable*>*)>(&GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager::add_connectedPlayerNoteWasMissedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager::*)(::System::Action_1<::GlobalNamespace::NoteMissInfoNetSerializable*>*)>(&GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager::add_connectedPlayerNoteWasMissedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "NoteMissInfoNetSerializable")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager*), "add_connectedPlayerNoteWasMissedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -140,7 +140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager::remove_connectedPlayerNoteWasMissedEvent
 // Il2CppName: remove_connectedPlayerNoteWasMissedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager::*)(System::Action_1<GlobalNamespace::NoteMissInfoNetSerializable*>*)>(&GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager::remove_connectedPlayerNoteWasMissedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager::*)(::System::Action_1<::GlobalNamespace::NoteMissInfoNetSerializable*>*)>(&GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager::remove_connectedPlayerNoteWasMissedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "NoteMissInfoNetSerializable")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager*), "remove_connectedPlayerNoteWasMissedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

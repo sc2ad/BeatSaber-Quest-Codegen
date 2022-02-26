@@ -17,8 +17,8 @@ namespace System::Xml {
   class ByteStack;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::ByteStack);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::ByteStack*, "System.Xml", "ByteStack");
+NEED_NO_BOX(::System::Xml::ByteStack);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::ByteStack*, "System.Xml", "ByteStack");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x24
@@ -73,7 +73,7 @@ namespace System::Xml {
     // Offset: 0x1B9DCD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ByteStack* New_ctor(int growthRate) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::ByteStack::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::ByteStack::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ByteStack*, creationType>(growthRate)));
     }
     // public System.Void Push(System.Byte data)

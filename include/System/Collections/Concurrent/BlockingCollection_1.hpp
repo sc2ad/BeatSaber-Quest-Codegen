@@ -56,7 +56,7 @@ namespace System::Collections::Concurrent {
   class BlockingCollection_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Collections::Concurrent::BlockingCollection_1, "System.Collections.Concurrent", "BlockingCollection`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Collections::Concurrent::BlockingCollection_1, "System.Collections.Concurrent", "BlockingCollection`1");
 // Type namespace: System.Collections.Concurrent
 namespace System::Collections::Concurrent {
   // WARNING Size may be invalid!
@@ -65,7 +65,7 @@ namespace System::Collections::Concurrent {
   // [DebuggerDisplayAttribute] Offset: 119AC60
   // [DebuggerTypeProxyAttribute] Offset: 119AC60
   template<typename T>
-  class BlockingCollection_1 : public ::Il2CppObject/*, public System::Collections::Generic::IReadOnlyCollection_1<T>, public System::IDisposable, public System::Collections::ICollection*/ {
+  class BlockingCollection_1 : public ::Il2CppObject/*, public ::System::Collections::Generic::IReadOnlyCollection_1<T>, public ::System::IDisposable, public ::System::Collections::ICollection*/ {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -79,9 +79,9 @@ namespace System::Collections::Concurrent {
     // private System.Collections.Concurrent.IProducerConsumerCollection`1<T> _collection
     // Size: 0x8
     // Offset: 0x0
-    System::Collections::Concurrent::IProducerConsumerCollection_1<T>* collection;
+    ::System::Collections::Concurrent::IProducerConsumerCollection_1<T>* collection;
     // Field size check
-    static_assert(sizeof(System::Collections::Concurrent::IProducerConsumerCollection_1<T>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Concurrent::IProducerConsumerCollection_1<T>*) == 0x8);
     // private System.Int32 _boundedCapacity
     // Size: 0x4
     // Offset: 0x0
@@ -91,15 +91,15 @@ namespace System::Collections::Concurrent {
     // private System.Threading.SemaphoreSlim _freeNodes
     // Size: 0x8
     // Offset: 0x0
-    System::Threading::SemaphoreSlim* freeNodes;
+    ::System::Threading::SemaphoreSlim* freeNodes;
     // Field size check
-    static_assert(sizeof(System::Threading::SemaphoreSlim*) == 0x8);
+    static_assert(sizeof(::System::Threading::SemaphoreSlim*) == 0x8);
     // private System.Threading.SemaphoreSlim _occupiedNodes
     // Size: 0x8
     // Offset: 0x0
-    System::Threading::SemaphoreSlim* occupiedNodes;
+    ::System::Threading::SemaphoreSlim* occupiedNodes;
     // Field size check
-    static_assert(sizeof(System::Threading::SemaphoreSlim*) == 0x8);
+    static_assert(sizeof(::System::Threading::SemaphoreSlim*) == 0x8);
     // private System.Boolean _isDisposed
     // Size: 0x1
     // Offset: 0x0
@@ -109,15 +109,15 @@ namespace System::Collections::Concurrent {
     // private System.Threading.CancellationTokenSource _consumersCancellationTokenSource
     // Size: 0x8
     // Offset: 0x0
-    System::Threading::CancellationTokenSource* consumersCancellationTokenSource;
+    ::System::Threading::CancellationTokenSource* consumersCancellationTokenSource;
     // Field size check
-    static_assert(sizeof(System::Threading::CancellationTokenSource*) == 0x8);
+    static_assert(sizeof(::System::Threading::CancellationTokenSource*) == 0x8);
     // private System.Threading.CancellationTokenSource _producersCancellationTokenSource
     // Size: 0x8
     // Offset: 0x0
-    System::Threading::CancellationTokenSource* producersCancellationTokenSource;
+    ::System::Threading::CancellationTokenSource* producersCancellationTokenSource;
     // Field size check
-    static_assert(sizeof(System::Threading::CancellationTokenSource*) == 0x8);
+    static_assert(sizeof(::System::Threading::CancellationTokenSource*) == 0x8);
     // private System.Int32 _currentAdders
     // Size: 0x4
     // Offset: 0x0
@@ -125,78 +125,78 @@ namespace System::Collections::Concurrent {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     public:
-    // Creating interface conversion operator: operator System::Collections::Generic::IReadOnlyCollection_1<T>
-    operator System::Collections::Generic::IReadOnlyCollection_1<T>() noexcept {
-      return *reinterpret_cast<System::Collections::Generic::IReadOnlyCollection_1<T>*>(this);
+    // Creating interface conversion operator: operator ::System::Collections::Generic::IReadOnlyCollection_1<T>
+    operator ::System::Collections::Generic::IReadOnlyCollection_1<T>() noexcept {
+      return *reinterpret_cast<::System::Collections::Generic::IReadOnlyCollection_1<T>*>(this);
     }
-    // Creating interface conversion operator: operator System::IDisposable
-    operator System::IDisposable() noexcept {
-      return *reinterpret_cast<System::IDisposable*>(this);
+    // Creating interface conversion operator: operator ::System::IDisposable
+    operator ::System::IDisposable() noexcept {
+      return *reinterpret_cast<::System::IDisposable*>(this);
     }
-    // Creating interface conversion operator: operator System::Collections::ICollection
-    operator System::Collections::ICollection() noexcept {
-      return *reinterpret_cast<System::Collections::ICollection*>(this);
+    // Creating interface conversion operator: operator ::System::Collections::ICollection
+    operator ::System::Collections::ICollection() noexcept {
+      return *reinterpret_cast<::System::Collections::ICollection*>(this);
     }
     // Autogenerated instance field getter
     // Get instance field: private System.Collections.Concurrent.IProducerConsumerCollection`1<T> _collection
-    System::Collections::Concurrent::IProducerConsumerCollection_1<T>*& dyn__collection() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::BlockingCollection_1::dyn__collection");
+    ::System::Collections::Concurrent::IProducerConsumerCollection_1<T>*& dyn__collection() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Concurrent::BlockingCollection_1::dyn__collection");
       auto ___internal__instance = this;
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_collection"))->offset;
-      return *reinterpret_cast<System::Collections::Concurrent::IProducerConsumerCollection_1<T>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+      return *reinterpret_cast<::System::Collections::Concurrent::IProducerConsumerCollection_1<T>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // Autogenerated instance field getter
     // Get instance field: private System.Int32 _boundedCapacity
     int& dyn__boundedCapacity() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::BlockingCollection_1::dyn__boundedCapacity");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Concurrent::BlockingCollection_1::dyn__boundedCapacity");
       auto ___internal__instance = this;
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_boundedCapacity"))->offset;
       return *reinterpret_cast<int*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // Autogenerated instance field getter
     // Get instance field: private System.Threading.SemaphoreSlim _freeNodes
-    System::Threading::SemaphoreSlim*& dyn__freeNodes() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::BlockingCollection_1::dyn__freeNodes");
+    ::System::Threading::SemaphoreSlim*& dyn__freeNodes() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Concurrent::BlockingCollection_1::dyn__freeNodes");
       auto ___internal__instance = this;
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_freeNodes"))->offset;
-      return *reinterpret_cast<System::Threading::SemaphoreSlim**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+      return *reinterpret_cast<::System::Threading::SemaphoreSlim**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // Autogenerated instance field getter
     // Get instance field: private System.Threading.SemaphoreSlim _occupiedNodes
-    System::Threading::SemaphoreSlim*& dyn__occupiedNodes() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::BlockingCollection_1::dyn__occupiedNodes");
+    ::System::Threading::SemaphoreSlim*& dyn__occupiedNodes() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Concurrent::BlockingCollection_1::dyn__occupiedNodes");
       auto ___internal__instance = this;
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_occupiedNodes"))->offset;
-      return *reinterpret_cast<System::Threading::SemaphoreSlim**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+      return *reinterpret_cast<::System::Threading::SemaphoreSlim**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // Autogenerated instance field getter
     // Get instance field: private System.Boolean _isDisposed
     bool& dyn__isDisposed() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::BlockingCollection_1::dyn__isDisposed");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Concurrent::BlockingCollection_1::dyn__isDisposed");
       auto ___internal__instance = this;
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_isDisposed"))->offset;
       return *reinterpret_cast<bool*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // Autogenerated instance field getter
     // Get instance field: private System.Threading.CancellationTokenSource _consumersCancellationTokenSource
-    System::Threading::CancellationTokenSource*& dyn__consumersCancellationTokenSource() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::BlockingCollection_1::dyn__consumersCancellationTokenSource");
+    ::System::Threading::CancellationTokenSource*& dyn__consumersCancellationTokenSource() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Concurrent::BlockingCollection_1::dyn__consumersCancellationTokenSource");
       auto ___internal__instance = this;
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_consumersCancellationTokenSource"))->offset;
-      return *reinterpret_cast<System::Threading::CancellationTokenSource**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+      return *reinterpret_cast<::System::Threading::CancellationTokenSource**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // Autogenerated instance field getter
     // Get instance field: private System.Threading.CancellationTokenSource _producersCancellationTokenSource
-    System::Threading::CancellationTokenSource*& dyn__producersCancellationTokenSource() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::BlockingCollection_1::dyn__producersCancellationTokenSource");
+    ::System::Threading::CancellationTokenSource*& dyn__producersCancellationTokenSource() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Concurrent::BlockingCollection_1::dyn__producersCancellationTokenSource");
       auto ___internal__instance = this;
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_producersCancellationTokenSource"))->offset;
-      return *reinterpret_cast<System::Threading::CancellationTokenSource**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+      return *reinterpret_cast<::System::Threading::CancellationTokenSource**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // Autogenerated instance field getter
     // Get instance field: private System.Int32 _currentAdders
     int& dyn__currentAdders() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::BlockingCollection_1::dyn__currentAdders");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Concurrent::BlockingCollection_1::dyn__currentAdders");
       auto ___internal__instance = this;
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "_currentAdders"))->offset;
       return *reinterpret_cast<int*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
@@ -204,147 +204,147 @@ namespace System::Collections::Concurrent {
     // public System.Boolean get_IsAddingCompleted()
     // Offset: 0xFFFFFFFF
     bool get_IsAddingCompleted() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::BlockingCollection_1::get_IsAddingCompleted");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Concurrent::BlockingCollection_1::get_IsAddingCompleted");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_IsAddingCompleted", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
     }
     // public System.Boolean get_IsCompleted()
     // Offset: 0xFFFFFFFF
     bool get_IsCompleted() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::BlockingCollection_1::get_IsCompleted");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Concurrent::BlockingCollection_1::get_IsCompleted");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_IsCompleted", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method);
     }
     // public System.Int32 get_Count()
     // Offset: 0xFFFFFFFF
     int get_Count() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::BlockingCollection_1::get_Count");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Concurrent::BlockingCollection_1::get_Count");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Count", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method);
     }
     // private System.Object System.Collections.ICollection.get_SyncRoot()
     // Offset: 0xFFFFFFFF
     ::Il2CppObject* System_Collections_ICollection_get_SyncRoot() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::BlockingCollection_1::System.Collections.ICollection.get_SyncRoot");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Concurrent::BlockingCollection_1::System.Collections.ICollection.get_SyncRoot");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.ICollection.get_SyncRoot", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(this, ___internal__method);
     }
     // public System.Void .ctor(System.Collections.Concurrent.IProducerConsumerCollection`1<T> collection)
     // Offset: 0xFFFFFFFF
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BlockingCollection_1<T>* New_ctor(System::Collections::Concurrent::IProducerConsumerCollection_1<T>* collection) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::BlockingCollection_1::.ctor");
+    static BlockingCollection_1<T>* New_ctor(::System::Collections::Concurrent::IProducerConsumerCollection_1<T>* collection) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Concurrent::BlockingCollection_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BlockingCollection_1<T>*, creationType>(collection)));
     }
     // private System.Void Initialize(System.Collections.Concurrent.IProducerConsumerCollection`1<T> collection, System.Int32 boundedCapacity, System.Int32 collectionCount)
     // Offset: 0xFFFFFFFF
-    void Initialize(System::Collections::Concurrent::IProducerConsumerCollection_1<T>* collection, int boundedCapacity, int collectionCount) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::BlockingCollection_1::Initialize");
+    void Initialize(::System::Collections::Concurrent::IProducerConsumerCollection_1<T>* collection, int boundedCapacity, int collectionCount) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Concurrent::BlockingCollection_1::Initialize");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Initialize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(collection), ::il2cpp_utils::ExtractType(boundedCapacity), ::il2cpp_utils::ExtractType(collectionCount)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, collection, boundedCapacity, collectionCount);
     }
     // public System.Void Add(T item)
     // Offset: 0xFFFFFFFF
     void Add(T item) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::BlockingCollection_1::Add");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Concurrent::BlockingCollection_1::Add");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, item);
     }
     // private System.Boolean TryAddWithNoTimeValidation(T item, System.Int32 millisecondsTimeout, System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF
-    bool TryAddWithNoTimeValidation(T item, int millisecondsTimeout, System::Threading::CancellationToken cancellationToken) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::BlockingCollection_1::TryAddWithNoTimeValidation");
+    bool TryAddWithNoTimeValidation(T item, int millisecondsTimeout, ::System::Threading::CancellationToken cancellationToken) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Concurrent::BlockingCollection_1::TryAddWithNoTimeValidation");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryAddWithNoTimeValidation", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(item), ::il2cpp_utils::ExtractType(millisecondsTimeout), ::il2cpp_utils::ExtractType(cancellationToken)})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, item, millisecondsTimeout, cancellationToken);
     }
     // public T Take()
     // Offset: 0xFFFFFFFF
     T Take() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::BlockingCollection_1::Take");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Concurrent::BlockingCollection_1::Take");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Take", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___internal__method);
     }
     // public System.Boolean TryTake(out T item, System.Int32 millisecondsTimeout, System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF
-    bool TryTake(ByRef<T> item, int millisecondsTimeout, System::Threading::CancellationToken cancellationToken) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::BlockingCollection_1::TryTake");
+    bool TryTake(ByRef<T> item, int millisecondsTimeout, ::System::Threading::CancellationToken cancellationToken) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Concurrent::BlockingCollection_1::TryTake");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryTake", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<T&>(), ::il2cpp_utils::ExtractType(millisecondsTimeout), ::il2cpp_utils::ExtractType(cancellationToken)})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, byref(item), millisecondsTimeout, cancellationToken);
     }
     // private System.Boolean TryTakeWithNoTimeValidation(out T item, System.Int32 millisecondsTimeout, System.Threading.CancellationToken cancellationToken, System.Threading.CancellationTokenSource combinedTokenSource)
     // Offset: 0xFFFFFFFF
-    bool TryTakeWithNoTimeValidation(ByRef<T> item, int millisecondsTimeout, System::Threading::CancellationToken cancellationToken, System::Threading::CancellationTokenSource* combinedTokenSource) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::BlockingCollection_1::TryTakeWithNoTimeValidation");
+    bool TryTakeWithNoTimeValidation(ByRef<T> item, int millisecondsTimeout, ::System::Threading::CancellationToken cancellationToken, ::System::Threading::CancellationTokenSource* combinedTokenSource) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Concurrent::BlockingCollection_1::TryTakeWithNoTimeValidation");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryTakeWithNoTimeValidation", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<T&>(), ::il2cpp_utils::ExtractType(millisecondsTimeout), ::il2cpp_utils::ExtractType(cancellationToken), ::il2cpp_utils::ExtractType(combinedTokenSource)})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, byref(item), millisecondsTimeout, cancellationToken, combinedTokenSource);
     }
     // public System.Void CompleteAdding()
     // Offset: 0xFFFFFFFF
     void CompleteAdding() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::BlockingCollection_1::CompleteAdding");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Concurrent::BlockingCollection_1::CompleteAdding");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CompleteAdding", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // private System.Void CancelWaitingConsumers()
     // Offset: 0xFFFFFFFF
     void CancelWaitingConsumers() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::BlockingCollection_1::CancelWaitingConsumers");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Concurrent::BlockingCollection_1::CancelWaitingConsumers");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CancelWaitingConsumers", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // private System.Void CancelWaitingProducers()
     // Offset: 0xFFFFFFFF
     void CancelWaitingProducers() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::BlockingCollection_1::CancelWaitingProducers");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Concurrent::BlockingCollection_1::CancelWaitingProducers");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CancelWaitingProducers", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // public System.Void Dispose()
     // Offset: 0xFFFFFFFF
     void Dispose() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::BlockingCollection_1::Dispose");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Concurrent::BlockingCollection_1::Dispose");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Dispose", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // protected System.Void Dispose(System.Boolean disposing)
     // Offset: 0xFFFFFFFF
     void Dispose(bool disposing) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::BlockingCollection_1::Dispose");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Concurrent::BlockingCollection_1::Dispose");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Dispose", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(disposing)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, disposing);
     }
     // private System.Void System.Collections.ICollection.CopyTo(System.Array array, System.Int32 index)
     // Offset: 0xFFFFFFFF
-    void System_Collections_ICollection_CopyTo(System::Array* array, int index) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::BlockingCollection_1::System.Collections.ICollection.CopyTo");
+    void System_Collections_ICollection_CopyTo(::System::Array* array, int index) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Concurrent::BlockingCollection_1::System.Collections.ICollection.CopyTo");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.ICollection.CopyTo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(index)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, array, index);
     }
     // private System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.IEnumerable<T>.GetEnumerator()
     // Offset: 0xFFFFFFFF
-    System::Collections::Generic::IEnumerator_1<T>* System_Collections_Generic_IEnumerable$T$_GetEnumerator() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::BlockingCollection_1::System.Collections.Generic.IEnumerable<T>.GetEnumerator");
+    ::System::Collections::Generic::IEnumerator_1<T>* System_Collections_Generic_IEnumerable$T$_GetEnumerator() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Concurrent::BlockingCollection_1::System.Collections.Generic.IEnumerable<T>.GetEnumerator");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.Generic.IEnumerable<T>.GetEnumerator", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodRethrow<System::Collections::Generic::IEnumerator_1<T>*, false>(this, ___internal__method);
+      return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<T>*, false>(this, ___internal__method);
     }
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
     // Offset: 0xFFFFFFFF
-    System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::BlockingCollection_1::System.Collections.IEnumerable.GetEnumerator");
+    ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Concurrent::BlockingCollection_1::System.Collections.IEnumerable.GetEnumerator");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodRethrow<System::Collections::IEnumerator*, false>(this, ___internal__method);
+      return ::il2cpp_utils::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal__method);
     }
     // static private System.Void ValidateMillisecondsTimeout(System.Int32 millisecondsTimeout)
     // Offset: 0xFFFFFFFF
     static void ValidateMillisecondsTimeout(int millisecondsTimeout) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::BlockingCollection_1::ValidateMillisecondsTimeout");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Concurrent::BlockingCollection_1::ValidateMillisecondsTimeout");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BlockingCollection_1<T>*>::get(), "ValidateMillisecondsTimeout", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(millisecondsTimeout)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, millisecondsTimeout);
     }
     // private System.Void CheckDisposed()
     // Offset: 0xFFFFFFFF
     void CheckDisposed() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::BlockingCollection_1::CheckDisposed");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Concurrent::BlockingCollection_1::CheckDisposed");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CheckDisposed", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
@@ -354,7 +354,7 @@ namespace System::Collections::Concurrent {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BlockingCollection_1<T>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::BlockingCollection_1::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Concurrent::BlockingCollection_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BlockingCollection_1<T>*, creationType>()));
     }
   }; // System.Collections.Concurrent.BlockingCollection`1

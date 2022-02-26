@@ -33,8 +33,8 @@ namespace RootMotion::FinalIK {
   class InteractionTarget;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::InteractionTarget);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionTarget*, "RootMotion.FinalIK", "InteractionTarget");
+NEED_NO_BOX(::RootMotion::FinalIK::InteractionTarget);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::InteractionTarget*, "RootMotion.FinalIK", "InteractionTarget");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x68
@@ -43,9 +43,9 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   // [HelpURLAttribute] Offset: 1262ED8
   // [AddComponentMenu] Offset: 1262ED8
-  class InteractionTarget : public UnityEngine::MonoBehaviour {
+  class InteractionTarget : public ::UnityEngine::MonoBehaviour {
     public:
-    // Nested type: RootMotion::FinalIK::InteractionTarget::Multiplier
+    // Nested type: ::RootMotion::FinalIK::InteractionTarget::Multiplier
     class Multiplier;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -60,18 +60,18 @@ namespace RootMotion::FinalIK {
     // public RootMotion.FinalIK.FullBodyBipedEffector effectorType
     // Size: 0x4
     // Offset: 0x18
-    RootMotion::FinalIK::FullBodyBipedEffector effectorType;
+    ::RootMotion::FinalIK::FullBodyBipedEffector effectorType;
     // Field size check
-    static_assert(sizeof(RootMotion::FinalIK::FullBodyBipedEffector) == 0x4);
+    static_assert(sizeof(::RootMotion::FinalIK::FullBodyBipedEffector) == 0x4);
     // Padding between fields: effectorType and: multipliers
     char __padding0[0x4] = {};
     // [TooltipAttribute] Offset: 0x12659F4
     // public RootMotion.FinalIK.InteractionTarget/RootMotion.FinalIK.Multiplier[] multipliers
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayW<RootMotion::FinalIK::InteractionTarget::Multiplier*> multipliers;
+    ::ArrayW<::RootMotion::FinalIK::InteractionTarget::Multiplier*> multipliers;
     // Field size check
-    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::InteractionTarget::Multiplier*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::RootMotion::FinalIK::InteractionTarget::Multiplier*>) == 0x8);
     // [TooltipAttribute] Offset: 0x1265A2C
     // public System.Single interactionSpeedMlp
     // Size: 0x4
@@ -85,16 +85,16 @@ namespace RootMotion::FinalIK {
     // public UnityEngine.Transform pivot
     // Size: 0x8
     // Offset: 0x30
-    UnityEngine::Transform* pivot;
+    ::UnityEngine::Transform* pivot;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // [TooltipAttribute] Offset: 0x1265A9C
     // public UnityEngine.Vector3 twistAxis
     // Size: 0xC
     // Offset: 0x38
-    UnityEngine::Vector3 twistAxis;
+    ::UnityEngine::Vector3 twistAxis;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // [TooltipAttribute] Offset: 0x1265AD4
     // public System.Single twistWeight
     // Size: 0x4
@@ -121,28 +121,28 @@ namespace RootMotion::FinalIK {
     // private UnityEngine.Quaternion defaultLocalRotation
     // Size: 0x10
     // Offset: 0x50
-    UnityEngine::Quaternion defaultLocalRotation;
+    ::UnityEngine::Quaternion defaultLocalRotation;
     // Field size check
-    static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    static_assert(sizeof(::UnityEngine::Quaternion) == 0x10);
     // private UnityEngine.Transform lastPivot
     // Size: 0x8
     // Offset: 0x60
-    UnityEngine::Transform* lastPivot;
+    ::UnityEngine::Transform* lastPivot;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     public:
-    // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const noexcept = delete;
+    // Deleting conversion operator: operator ::System::IntPtr
+    constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public RootMotion.FinalIK.FullBodyBipedEffector effectorType
-    RootMotion::FinalIK::FullBodyBipedEffector& dyn_effectorType();
+    ::RootMotion::FinalIK::FullBodyBipedEffector& dyn_effectorType();
     // Get instance field reference: public RootMotion.FinalIK.InteractionTarget/RootMotion.FinalIK.Multiplier[] multipliers
-    ::ArrayW<RootMotion::FinalIK::InteractionTarget::Multiplier*>& dyn_multipliers();
+    ::ArrayW<::RootMotion::FinalIK::InteractionTarget::Multiplier*>& dyn_multipliers();
     // Get instance field reference: public System.Single interactionSpeedMlp
     float& dyn_interactionSpeedMlp();
     // Get instance field reference: public UnityEngine.Transform pivot
-    UnityEngine::Transform*& dyn_pivot();
+    ::UnityEngine::Transform*& dyn_pivot();
     // Get instance field reference: public UnityEngine.Vector3 twistAxis
-    UnityEngine::Vector3& dyn_twistAxis();
+    ::UnityEngine::Vector3& dyn_twistAxis();
     // Get instance field reference: public System.Single twistWeight
     float& dyn_twistWeight();
     // Get instance field reference: public System.Single swingWeight
@@ -150,9 +150,9 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Boolean rotateOnce
     bool& dyn_rotateOnce();
     // Get instance field reference: private UnityEngine.Quaternion defaultLocalRotation
-    UnityEngine::Quaternion& dyn_defaultLocalRotation();
+    ::UnityEngine::Quaternion& dyn_defaultLocalRotation();
     // Get instance field reference: private UnityEngine.Transform lastPivot
-    UnityEngine::Transform*& dyn_lastPivot();
+    ::UnityEngine::Transform*& dyn_lastPivot();
     // private System.Void OpenUserManual()
     // Offset: 0x233E6F8
     void OpenUserManual();
@@ -179,13 +179,13 @@ namespace RootMotion::FinalIK {
     void ASThread();
     // public System.Single GetValue(RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.WeightCurve/RootMotion.FinalIK.Type curveType)
     // Offset: 0x233A254
-    float GetValue(RootMotion::FinalIK::InteractionObject::WeightCurve::Type curveType);
+    float GetValue(::RootMotion::FinalIK::InteractionObject::WeightCurve::Type curveType);
     // public System.Void ResetRotation()
     // Offset: 0x23391F8
     void ResetRotation();
     // public System.Void RotateTo(UnityEngine.Vector3 position)
     // Offset: 0x23375F0
-    void RotateTo(UnityEngine::Vector3 position);
+    void RotateTo(::UnityEngine::Vector3 position);
     // public System.Void .ctor()
     // Offset: 0x233E958
     // Implemented from: UnityEngine.MonoBehaviour
@@ -196,12 +196,12 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InteractionTarget* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::InteractionTarget::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::InteractionTarget::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InteractionTarget*, creationType>()));
     }
   }; // RootMotion.FinalIK.InteractionTarget
   #pragma pack(pop)
-  static check_size<sizeof(InteractionTarget), 96 + sizeof(UnityEngine::Transform*)> __RootMotion_FinalIK_InteractionTargetSizeCheck;
+  static check_size<sizeof(InteractionTarget), 96 + sizeof(::UnityEngine::Transform*)> __RootMotion_FinalIK_InteractionTargetSizeCheck;
   static_assert(sizeof(InteractionTarget) == 0x68);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -272,7 +272,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionTarget::GetValue
 // Il2CppName: GetValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (RootMotion::FinalIK::InteractionTarget::*)(RootMotion::FinalIK::InteractionObject::WeightCurve::Type)>(&RootMotion::FinalIK::InteractionTarget::GetValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (RootMotion::FinalIK::InteractionTarget::*)(::RootMotion::FinalIK::InteractionObject::WeightCurve::Type)>(&RootMotion::FinalIK::InteractionTarget::GetValue)> {
   static const MethodInfo* get() {
     static auto* curveType = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "InteractionObject/WeightCurve/Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionTarget*), "GetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{curveType});
@@ -289,7 +289,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionTarget::RotateTo
 // Il2CppName: RotateTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionTarget::*)(UnityEngine::Vector3)>(&RootMotion::FinalIK::InteractionTarget::RotateTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionTarget::*)(::UnityEngine::Vector3)>(&RootMotion::FinalIK::InteractionTarget::RotateTo)> {
   static const MethodInfo* get() {
     static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionTarget*), "RotateTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position});

@@ -30,8 +30,8 @@ namespace HoudiniEngineUnity {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_Curve::$$c__DisplayClass38_0);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_Curve::$$c__DisplayClass38_0*, "HoudiniEngineUnity", "HEU_Curve/<>c__DisplayClass38_0");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_Curve::$$c__DisplayClass38_0);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_Curve::$$c__DisplayClass38_0*, "HoudiniEngineUnity", "HEU_Curve/<>c__DisplayClass38_0");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x28
@@ -53,31 +53,31 @@ namespace HoudiniEngineUnity {
     // public System.Collections.Generic.List`1<UnityEngine.Vector3> positions
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::List_1<UnityEngine::Vector3>* positions;
+    ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* positions;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::Vector3>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*) == 0x8);
     // public System.Collections.Generic.List`1<UnityEngine.Quaternion> rotations
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::Generic::List_1<UnityEngine::Quaternion>* rotations;
+    ::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* rotations;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::Quaternion>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::UnityEngine::Quaternion>*) == 0x8);
     // public System.Collections.Generic.List`1<UnityEngine.Vector3> scales
     // Size: 0x8
     // Offset: 0x20
-    System::Collections::Generic::List_1<UnityEngine::Vector3>* scales;
+    ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* scales;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::Vector3>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*) == 0x8);
     public:
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.Vector3> positions
-    System::Collections::Generic::List_1<UnityEngine::Vector3>*& dyn_positions();
+    ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& dyn_positions();
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.Quaternion> rotations
-    System::Collections::Generic::List_1<UnityEngine::Quaternion>*& dyn_rotations();
+    ::System::Collections::Generic::List_1<::UnityEngine::Quaternion>*& dyn_rotations();
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.Vector3> scales
-    System::Collections::Generic::List_1<UnityEngine::Vector3>*& dyn_scales();
+    ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& dyn_scales();
     // System.Void <UpdateCurveInputForCustomAttributes>b__0(HoudiniEngineUnity.CurveNodeData data)
     // Offset: 0x16B7FB0
-    void $UpdateCurveInputForCustomAttributes$b__0(HoudiniEngineUnity::CurveNodeData* data);
+    void $UpdateCurveInputForCustomAttributes$b__0(::HoudiniEngineUnity::CurveNodeData* data);
     // System.Void <UpdateCurveInputForCustomAttributes>b__1(System.Int32 nIndex1, System.Int32 nIndex2, System.Single fCoeff, System.Int32 nInsertIndex)
     // Offset: 0x16B8060
     void $UpdateCurveInputForCustomAttributes$b__1(int nIndex1, int nIndex2, float fCoeff, int nInsertIndex);
@@ -90,19 +90,19 @@ namespace HoudiniEngineUnity {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_Curve::$$c__DisplayClass38_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_Curve::$$c__DisplayClass38_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_Curve::$$c__DisplayClass38_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_Curve::$$c__DisplayClass38_0*, creationType>()));
     }
   }; // HoudiniEngineUnity.HEU_Curve/HoudiniEngineUnity.<>c__DisplayClass38_0
   #pragma pack(pop)
-  static check_size<sizeof(HEU_Curve::$$c__DisplayClass38_0), 32 + sizeof(System::Collections::Generic::List_1<UnityEngine::Vector3>*)> __HoudiniEngineUnity_HEU_Curve_$$c__DisplayClass38_0SizeCheck;
+  static check_size<sizeof(HEU_Curve::$$c__DisplayClass38_0), 32 + sizeof(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*)> __HoudiniEngineUnity_HEU_Curve_$$c__DisplayClass38_0SizeCheck;
   static_assert(sizeof(HEU_Curve::$$c__DisplayClass38_0) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Curve::$$c__DisplayClass38_0::$UpdateCurveInputForCustomAttributes$b__0
 // Il2CppName: <UpdateCurveInputForCustomAttributes>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_Curve::$$c__DisplayClass38_0::*)(HoudiniEngineUnity::CurveNodeData*)>(&HoudiniEngineUnity::HEU_Curve::$$c__DisplayClass38_0::$UpdateCurveInputForCustomAttributes$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_Curve::$$c__DisplayClass38_0::*)(::HoudiniEngineUnity::CurveNodeData*)>(&HoudiniEngineUnity::HEU_Curve::$$c__DisplayClass38_0::$UpdateCurveInputForCustomAttributes$b__0)> {
   static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "CurveNodeData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Curve::$$c__DisplayClass38_0*), "<UpdateCurveInputForCustomAttributes>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});

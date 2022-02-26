@@ -14,8 +14,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OculusLevelProductsModelSO::LevelProductData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*, "", "OculusLevelProductsModelSO/LevelProductData");
+NEED_NO_BOX(::GlobalNamespace::OculusLevelProductsModelSO::LevelProductData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*, "", "OculusLevelProductsModelSO/LevelProductData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x28
@@ -73,7 +73,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusLevelProductsModelSO::LevelProductData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OculusLevelProductsModelSO::LevelProductData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusLevelProductsModelSO::LevelProductData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusLevelProductsModelSO::LevelProductData*, creationType>()));
     }
   }; // OculusLevelProductsModelSO/LevelProductData

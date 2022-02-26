@@ -30,8 +30,8 @@ namespace GlobalNamespace {
   class IServerBeatmapProvider;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::IServerBeatmapProvider);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IServerBeatmapProvider*, "", "IServerBeatmapProvider");
+NEED_NO_BOX(::GlobalNamespace::IServerBeatmapProvider);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IServerBeatmapProvider*, "", "IServerBeatmapProvider");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -42,10 +42,10 @@ namespace GlobalNamespace {
     public:
     // public System.Boolean VerifyBeatmapForSelectionMask(BeatmapIdentifierNetSerializable beatmapId, BeatmapLevelSelectionMask selectionMask)
     // Offset: 0xFFFFFFFF
-    bool VerifyBeatmapForSelectionMask(GlobalNamespace::BeatmapIdentifierNetSerializable* beatmapId, GlobalNamespace::BeatmapLevelSelectionMask selectionMask);
+    bool VerifyBeatmapForSelectionMask(::GlobalNamespace::BeatmapIdentifierNetSerializable* beatmapId, ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask);
     // public BeatmapIdentifierNetSerializable SelectBeatmapFromSuggestionsWithSelectionMaskAndOwnedSongPacks(System.Int32 playerCount, System.Collections.Generic.Dictionary`2<System.String,BeatmapIdentifierNetSerializable> beatmapsSuggestedByPlayers, BeatmapLevelSelectionMask selectionMask, System.Collections.Generic.Dictionary`2<System.String,SongPackMask> playerOwnedSongPacks)
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::BeatmapIdentifierNetSerializable* SelectBeatmapFromSuggestionsWithSelectionMaskAndOwnedSongPacks(int playerCount, System::Collections::Generic::Dictionary_2<::StringW, GlobalNamespace::BeatmapIdentifierNetSerializable*>* beatmapsSuggestedByPlayers, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, System::Collections::Generic::Dictionary_2<::StringW, GlobalNamespace::SongPackMask>* playerOwnedSongPacks);
+    ::GlobalNamespace::BeatmapIdentifierNetSerializable* SelectBeatmapFromSuggestionsWithSelectionMaskAndOwnedSongPacks(int playerCount, ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*>* beatmapsSuggestedByPlayers, ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::SongPackMask>* playerOwnedSongPacks);
   }; // IServerBeatmapProvider
   #pragma pack(pop)
 }
@@ -53,7 +53,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::IServerBeatmapProvider::VerifyBeatmapForSelectionMask
 // Il2CppName: VerifyBeatmapForSelectionMask
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::IServerBeatmapProvider::*)(GlobalNamespace::BeatmapIdentifierNetSerializable*, GlobalNamespace::BeatmapLevelSelectionMask)>(&GlobalNamespace::IServerBeatmapProvider::VerifyBeatmapForSelectionMask)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::IServerBeatmapProvider::*)(::GlobalNamespace::BeatmapIdentifierNetSerializable*, ::GlobalNamespace::BeatmapLevelSelectionMask)>(&GlobalNamespace::IServerBeatmapProvider::VerifyBeatmapForSelectionMask)> {
   static const MethodInfo* get() {
     static auto* beatmapId = &::il2cpp_utils::GetClassFromName("", "BeatmapIdentifierNetSerializable")->byval_arg;
     static auto* selectionMask = &::il2cpp_utils::GetClassFromName("", "BeatmapLevelSelectionMask")->byval_arg;
@@ -63,7 +63,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IServerBeatmapProvider::SelectBeatmapFromSuggestionsWithSelectionMaskAndOwnedSongPacks
 // Il2CppName: SelectBeatmapFromSuggestionsWithSelectionMaskAndOwnedSongPacks
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapIdentifierNetSerializable* (GlobalNamespace::IServerBeatmapProvider::*)(int, System::Collections::Generic::Dictionary_2<::StringW, GlobalNamespace::BeatmapIdentifierNetSerializable*>*, GlobalNamespace::BeatmapLevelSelectionMask, System::Collections::Generic::Dictionary_2<::StringW, GlobalNamespace::SongPackMask>*)>(&GlobalNamespace::IServerBeatmapProvider::SelectBeatmapFromSuggestionsWithSelectionMaskAndOwnedSongPacks)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapIdentifierNetSerializable* (GlobalNamespace::IServerBeatmapProvider::*)(int, ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*>*, ::GlobalNamespace::BeatmapLevelSelectionMask, ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::SongPackMask>*)>(&GlobalNamespace::IServerBeatmapProvider::SelectBeatmapFromSuggestionsWithSelectionMaskAndOwnedSongPacks)> {
   static const MethodInfo* get() {
     static auto* playerCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* beatmapsSuggestedByPlayers = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "Dictionary`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("", "BeatmapIdentifierNetSerializable")})->byval_arg;

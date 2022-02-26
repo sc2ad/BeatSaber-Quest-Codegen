@@ -53,8 +53,8 @@ namespace Newtonsoft::Json {
   class JsonTextWriter;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::JsonTextWriter);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::JsonTextWriter*, "Newtonsoft.Json", "JsonTextWriter");
+NEED_NO_BOX(::Newtonsoft::Json::JsonTextWriter);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::JsonTextWriter*, "Newtonsoft.Json", "JsonTextWriter");
 // Type namespace: Newtonsoft.Json
 namespace Newtonsoft::Json {
   // Size: 0xA8
@@ -63,7 +63,7 @@ namespace Newtonsoft::Json {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NullableContextAttribute] Offset: 1201940
   // [NullableAttribute] Offset: 1201940
-  class JsonTextWriter : public Newtonsoft::Json::JsonWriter {
+  class JsonTextWriter : public ::Newtonsoft::Json::JsonWriter {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -85,16 +85,16 @@ namespace Newtonsoft::Json {
     // private readonly System.IO.TextWriter _writer
     // Size: 0x8
     // Offset: 0x68
-    System::IO::TextWriter* writer;
+    ::System::IO::TextWriter* writer;
     // Field size check
-    static_assert(sizeof(System::IO::TextWriter*) == 0x8);
+    static_assert(sizeof(::System::IO::TextWriter*) == 0x8);
     // [NullableAttribute] Offset: 0x12042A8
     // private Newtonsoft.Json.Utilities.Base64Encoder _base64Encoder
     // Size: 0x8
     // Offset: 0x70
-    Newtonsoft::Json::Utilities::Base64Encoder* base64Encoder;
+    ::Newtonsoft::Json::Utilities::Base64Encoder* base64Encoder;
     // Field size check
-    static_assert(sizeof(Newtonsoft::Json::Utilities::Base64Encoder*) == 0x8);
+    static_assert(sizeof(::Newtonsoft::Json::Utilities::Base64Encoder*) == 0x8);
     // private System.Char _indentChar
     // Size: 0x2
     // Offset: 0x78
@@ -141,9 +141,9 @@ namespace Newtonsoft::Json {
     // private Newtonsoft.Json.IArrayPool`1<System.Char> _arrayPool
     // Size: 0x8
     // Offset: 0x98
-    Newtonsoft::Json::IArrayPool_1<::Il2CppChar>* arrayPool;
+    ::Newtonsoft::Json::IArrayPool_1<::Il2CppChar>* arrayPool;
     // Field size check
-    static_assert(sizeof(Newtonsoft::Json::IArrayPool_1<::Il2CppChar>*) == 0x8);
+    static_assert(sizeof(::Newtonsoft::Json::IArrayPool_1<::Il2CppChar>*) == 0x8);
     // [NullableAttribute] Offset: 0x12042F8
     // private System.Char[] _indentChars
     // Size: 0x8
@@ -155,9 +155,9 @@ namespace Newtonsoft::Json {
     // Get instance field reference: private readonly System.Boolean _safeAsync
     bool& dyn__safeAsync();
     // Get instance field reference: private readonly System.IO.TextWriter _writer
-    System::IO::TextWriter*& dyn__writer();
+    ::System::IO::TextWriter*& dyn__writer();
     // Get instance field reference: private Newtonsoft.Json.Utilities.Base64Encoder _base64Encoder
-    Newtonsoft::Json::Utilities::Base64Encoder*& dyn__base64Encoder();
+    ::Newtonsoft::Json::Utilities::Base64Encoder*& dyn__base64Encoder();
     // Get instance field reference: private System.Char _indentChar
     ::Il2CppChar& dyn__indentChar();
     // Get instance field reference: private System.Int32 _indentation
@@ -171,20 +171,20 @@ namespace Newtonsoft::Json {
     // Get instance field reference: private System.Char[] _writeBuffer
     ::ArrayW<::Il2CppChar>& dyn__writeBuffer();
     // Get instance field reference: private Newtonsoft.Json.IArrayPool`1<System.Char> _arrayPool
-    Newtonsoft::Json::IArrayPool_1<::Il2CppChar>*& dyn__arrayPool();
+    ::Newtonsoft::Json::IArrayPool_1<::Il2CppChar>*& dyn__arrayPool();
     // Get instance field reference: private System.Char[] _indentChars
     ::ArrayW<::Il2CppChar>& dyn__indentChars();
     // private Newtonsoft.Json.Utilities.Base64Encoder get_Base64Encoder()
     // Offset: 0x1C43900
-    Newtonsoft::Json::Utilities::Base64Encoder* get_Base64Encoder();
+    ::Newtonsoft::Json::Utilities::Base64Encoder* get_Base64Encoder();
     // public System.Char get_QuoteChar()
     // Offset: 0x1C4397C
     ::Il2CppChar get_QuoteChar();
     // public System.Void .ctor(System.IO.TextWriter textWriter)
     // Offset: 0x1C43984
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static JsonTextWriter* New_ctor(System::IO::TextWriter* textWriter) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::JsonTextWriter::.ctor");
+    static JsonTextWriter* New_ctor(::System::IO::TextWriter* textWriter) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::JsonTextWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JsonTextWriter*, creationType>(textWriter)));
     }
     // private System.Void CloseBufferAndWriter()
@@ -198,16 +198,16 @@ namespace Newtonsoft::Json {
     int SetIndentChars();
     // private System.Void WriteValueInternal(System.String value, Newtonsoft.Json.JsonToken token)
     // Offset: 0x1C44414
-    void WriteValueInternal(::StringW value, Newtonsoft::Json::JsonToken token);
+    void WriteValueInternal(::StringW value, ::Newtonsoft::Json::JsonToken token);
     // private System.Void WriteEscapedString(System.String value, System.Boolean quote)
     // Offset: 0x1C43F78
     void WriteEscapedString(::StringW value, bool quote);
     // private System.Int32 WriteValueToBuffer(System.DateTime value)
     // Offset: 0x1C453D4
-    int WriteValueToBuffer(System::DateTime value);
+    int WriteValueToBuffer(::System::DateTime value);
     // private System.Int32 WriteValueToBuffer(System.DateTimeOffset value)
     // Offset: 0x1C45764
-    int WriteValueToBuffer(System::DateTimeOffset value);
+    int WriteValueToBuffer(::System::DateTimeOffset value);
     // private System.Void EnsureWriteBuffer()
     // Offset: 0x1C448D8
     void EnsureWriteBuffer();
@@ -253,7 +253,7 @@ namespace Newtonsoft::Json {
     // Offset: 0x1C43DB8
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteEnd(Newtonsoft.Json.JsonToken token)
-    void WriteEnd(Newtonsoft::Json::JsonToken token);
+    void WriteEnd(::Newtonsoft::Json::JsonToken token);
     // public override System.Void WritePropertyName(System.String name)
     // Offset: 0x1C43F10
     // Implemented from: Newtonsoft.Json.JsonWriter
@@ -338,7 +338,7 @@ namespace Newtonsoft::Json {
     // Offset: 0x1C44C2C
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.Nullable`1<System.Single> value)
-    void WriteValue(System::Nullable_1<float> value);
+    void WriteValue(::System::Nullable_1<float> value);
     // public override System.Void WriteValue(System.Double value)
     // Offset: 0x1C44D30
     // Implemented from: Newtonsoft.Json.JsonWriter
@@ -348,7 +348,7 @@ namespace Newtonsoft::Json {
     // Offset: 0x1C44E04
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.Nullable`1<System.Double> value)
-    void WriteValue(System::Nullable_1<double> value);
+    void WriteValue(::System::Nullable_1<double> value);
     // public override System.Void WriteValue(System.Boolean value)
     // Offset: 0x1C44F0C
     // Implemented from: Newtonsoft.Json.JsonWriter
@@ -383,12 +383,12 @@ namespace Newtonsoft::Json {
     // Offset: 0x1C4519C
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.Decimal value)
-    void WriteValue(System::Decimal value);
+    void WriteValue(::System::Decimal value);
     // public override System.Void WriteValue(System.DateTime value)
     // Offset: 0x1C4525C
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.DateTime value)
-    void WriteValue(System::DateTime value);
+    void WriteValue(::System::DateTime value);
     // public override System.Void WriteValue(System.Byte[] value)
     // Offset: 0x1C4556C
     // Implemented from: Newtonsoft.Json.JsonWriter
@@ -398,22 +398,22 @@ namespace Newtonsoft::Json {
     // Offset: 0x1C45638
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.DateTimeOffset value)
-    void WriteValue(System::DateTimeOffset value);
+    void WriteValue(::System::DateTimeOffset value);
     // public override System.Void WriteValue(System.Guid value)
     // Offset: 0x1C458B0
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.Guid value)
-    void WriteValue(System::Guid value);
+    void WriteValue(::System::Guid value);
     // public override System.Void WriteValue(System.TimeSpan value)
     // Offset: 0x1C459C0
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.TimeSpan value)
-    void WriteValue(System::TimeSpan value);
+    void WriteValue(::System::TimeSpan value);
     // public override System.Void WriteValue(System.Uri value)
     // Offset: 0x1C45AC8
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.Uri value)
-    void WriteValue(System::Uri* value);
+    void WriteValue(::System::Uri* value);
     // public override System.Void WriteComment(System.String text)
     // Offset: 0x1C45BA8
     // Implemented from: Newtonsoft.Json.JsonWriter
@@ -428,7 +428,7 @@ namespace Newtonsoft::Json {
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonTextWriter::get_Base64Encoder
 // Il2CppName: get_Base64Encoder
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Utilities::Base64Encoder* (Newtonsoft::Json::JsonTextWriter::*)()>(&Newtonsoft::Json::JsonTextWriter::get_Base64Encoder)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Utilities::Base64Encoder* (Newtonsoft::Json::JsonTextWriter::*)()>(&Newtonsoft::Json::JsonTextWriter::get_Base64Encoder)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::JsonTextWriter*), "get_Base64Encoder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -472,7 +472,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Newton
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonTextWriter::WriteValueInternal
 // Il2CppName: WriteValueInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::JsonTextWriter::*)(::StringW, Newtonsoft::Json::JsonToken)>(&Newtonsoft::Json::JsonTextWriter::WriteValueInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::JsonTextWriter::*)(::StringW, ::Newtonsoft::Json::JsonToken)>(&Newtonsoft::Json::JsonTextWriter::WriteValueInternal)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* token = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonToken")->byval_arg;
@@ -492,7 +492,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonTextWriter::WriteValueToBuffer
 // Il2CppName: WriteValueToBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Newtonsoft::Json::JsonTextWriter::*)(System::DateTime)>(&Newtonsoft::Json::JsonTextWriter::WriteValueToBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Newtonsoft::Json::JsonTextWriter::*)(::System::DateTime)>(&Newtonsoft::Json::JsonTextWriter::WriteValueToBuffer)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::JsonTextWriter*), "WriteValueToBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -501,7 +501,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Newton
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonTextWriter::WriteValueToBuffer
 // Il2CppName: WriteValueToBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Newtonsoft::Json::JsonTextWriter::*)(System::DateTimeOffset)>(&Newtonsoft::Json::JsonTextWriter::WriteValueToBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Newtonsoft::Json::JsonTextWriter::*)(::System::DateTimeOffset)>(&Newtonsoft::Json::JsonTextWriter::WriteValueToBuffer)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "DateTimeOffset")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::JsonTextWriter*), "WriteValueToBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -609,7 +609,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonTextWriter::WriteEnd
 // Il2CppName: WriteEnd
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::JsonTextWriter::*)(Newtonsoft::Json::JsonToken)>(&Newtonsoft::Json::JsonTextWriter::WriteEnd)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::JsonTextWriter::*)(::Newtonsoft::Json::JsonToken)>(&Newtonsoft::Json::JsonTextWriter::WriteEnd)> {
   static const MethodInfo* get() {
     static auto* token = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::JsonTextWriter*), "WriteEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{token});
@@ -757,7 +757,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonTextWriter::WriteValue
 // Il2CppName: WriteValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::JsonTextWriter::*)(System::Nullable_1<float>)>(&Newtonsoft::Json::JsonTextWriter::WriteValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::JsonTextWriter::*)(::System::Nullable_1<float>)>(&Newtonsoft::Json::JsonTextWriter::WriteValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::JsonTextWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -775,7 +775,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonTextWriter::WriteValue
 // Il2CppName: WriteValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::JsonTextWriter::*)(System::Nullable_1<double>)>(&Newtonsoft::Json::JsonTextWriter::WriteValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::JsonTextWriter::*)(::System::Nullable_1<double>)>(&Newtonsoft::Json::JsonTextWriter::WriteValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Double")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::JsonTextWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -838,7 +838,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonTextWriter::WriteValue
 // Il2CppName: WriteValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::JsonTextWriter::*)(System::Decimal)>(&Newtonsoft::Json::JsonTextWriter::WriteValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::JsonTextWriter::*)(::System::Decimal)>(&Newtonsoft::Json::JsonTextWriter::WriteValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Decimal")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::JsonTextWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -847,7 +847,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonTextWriter::WriteValue
 // Il2CppName: WriteValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::JsonTextWriter::*)(System::DateTime)>(&Newtonsoft::Json::JsonTextWriter::WriteValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::JsonTextWriter::*)(::System::DateTime)>(&Newtonsoft::Json::JsonTextWriter::WriteValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::JsonTextWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -865,7 +865,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonTextWriter::WriteValue
 // Il2CppName: WriteValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::JsonTextWriter::*)(System::DateTimeOffset)>(&Newtonsoft::Json::JsonTextWriter::WriteValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::JsonTextWriter::*)(::System::DateTimeOffset)>(&Newtonsoft::Json::JsonTextWriter::WriteValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "DateTimeOffset")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::JsonTextWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -874,7 +874,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonTextWriter::WriteValue
 // Il2CppName: WriteValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::JsonTextWriter::*)(System::Guid)>(&Newtonsoft::Json::JsonTextWriter::WriteValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::JsonTextWriter::*)(::System::Guid)>(&Newtonsoft::Json::JsonTextWriter::WriteValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Guid")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::JsonTextWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -883,7 +883,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonTextWriter::WriteValue
 // Il2CppName: WriteValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::JsonTextWriter::*)(System::TimeSpan)>(&Newtonsoft::Json::JsonTextWriter::WriteValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::JsonTextWriter::*)(::System::TimeSpan)>(&Newtonsoft::Json::JsonTextWriter::WriteValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "TimeSpan")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::JsonTextWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -892,7 +892,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonTextWriter::WriteValue
 // Il2CppName: WriteValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::JsonTextWriter::*)(System::Uri*)>(&Newtonsoft::Json::JsonTextWriter::WriteValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::JsonTextWriter::*)(::System::Uri*)>(&Newtonsoft::Json::JsonTextWriter::WriteValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::JsonTextWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

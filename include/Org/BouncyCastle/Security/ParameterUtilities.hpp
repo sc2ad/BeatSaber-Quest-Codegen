@@ -27,8 +27,8 @@ namespace Org::BouncyCastle::Security {
   class ParameterUtilities;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Security::ParameterUtilities);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::ParameterUtilities*, "Org.BouncyCastle.Security", "ParameterUtilities");
+NEED_NO_BOX(::Org::BouncyCastle::Security::ParameterUtilities);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Security::ParameterUtilities*, "Org.BouncyCastle.Security", "ParameterUtilities");
 // Type namespace: Org.BouncyCastle.Security
 namespace Org::BouncyCastle::Security {
   // Size: 0x10
@@ -38,13 +38,13 @@ namespace Org::BouncyCastle::Security {
   class ParameterUtilities : public ::Il2CppObject {
     public:
     // Get static field: static private readonly System.Collections.IDictionary algorithms
-    static System::Collections::IDictionary* _get_algorithms();
+    static ::System::Collections::IDictionary* _get_algorithms();
     // Set static field: static private readonly System.Collections.IDictionary algorithms
-    static void _set_algorithms(System::Collections::IDictionary* value);
+    static void _set_algorithms(::System::Collections::IDictionary* value);
     // Get static field: static private readonly System.Collections.IDictionary basicIVSizes
-    static System::Collections::IDictionary* _get_basicIVSizes();
+    static ::System::Collections::IDictionary* _get_basicIVSizes();
     // Set static field: static private readonly System.Collections.IDictionary basicIVSizes
-    static void _set_basicIVSizes(System::Collections::IDictionary* value);
+    static void _set_basicIVSizes(::System::Collections::IDictionary* value);
     // static private System.Void .cctor()
     // Offset: 0x172C7E0
     static void _cctor();
@@ -59,7 +59,7 @@ namespace Org::BouncyCastle::Security {
     static ::StringW GetCanonicalAlgorithmName(::StringW algorithm);
     // static public Org.BouncyCastle.Crypto.Parameters.KeyParameter CreateKeyParameter(System.String algorithm, System.Byte[] keyBytes, System.Int32 offset, System.Int32 length)
     // Offset: 0x172E230
-    static Org::BouncyCastle::Crypto::Parameters::KeyParameter* CreateKeyParameter(::StringW algorithm, ::ArrayW<uint8_t> keyBytes, int offset, int length);
+    static ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* CreateKeyParameter(::StringW algorithm, ::ArrayW<uint8_t> keyBytes, int offset, int length);
   }; // Org.BouncyCastle.Security.ParameterUtilities
   #pragma pack(pop)
 }
@@ -104,7 +104,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::ParameterUtilities::CreateKeyParameter
 // Il2CppName: CreateKeyParameter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::Parameters::KeyParameter* (*)(::StringW, ::ArrayW<uint8_t>, int, int)>(&Org::BouncyCastle::Security::ParameterUtilities::CreateKeyParameter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Parameters::KeyParameter* (*)(::StringW, ::ArrayW<uint8_t>, int, int)>(&Org::BouncyCastle::Security::ParameterUtilities::CreateKeyParameter)> {
   static const MethodInfo* get() {
     static auto* algorithm = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* keyBytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;

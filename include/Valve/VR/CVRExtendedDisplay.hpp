@@ -27,8 +27,8 @@ namespace Valve::VR {
   class CVRExtendedDisplay;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Valve::VR::CVRExtendedDisplay);
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRExtendedDisplay*, "Valve.VR", "CVRExtendedDisplay");
+NEED_NO_BOX(::Valve::VR::CVRExtendedDisplay);
+DEFINE_IL2CPP_ARG_TYPE(::Valve::VR::CVRExtendedDisplay*, "Valve.VR", "CVRExtendedDisplay");
 // Type namespace: Valve.VR
 namespace Valve::VR {
   // Size: 0x28
@@ -49,21 +49,21 @@ namespace Valve::VR {
     // private Valve.VR.IVRExtendedDisplay FnTable
     // Size: 0x18
     // Offset: 0x10
-    Valve::VR::IVRExtendedDisplay FnTable;
+    ::Valve::VR::IVRExtendedDisplay FnTable;
     // Field size check
-    static_assert(sizeof(Valve::VR::IVRExtendedDisplay) == 0x18);
+    static_assert(sizeof(::Valve::VR::IVRExtendedDisplay) == 0x18);
     public:
-    // Creating conversion operator: operator Valve::VR::IVRExtendedDisplay
-    constexpr operator Valve::VR::IVRExtendedDisplay() const noexcept {
+    // Creating conversion operator: operator ::Valve::VR::IVRExtendedDisplay
+    constexpr operator ::Valve::VR::IVRExtendedDisplay() const noexcept {
       return FnTable;
     }
     // Get instance field reference: private Valve.VR.IVRExtendedDisplay FnTable
-    Valve::VR::IVRExtendedDisplay& dyn_FnTable();
+    ::Valve::VR::IVRExtendedDisplay& dyn_FnTable();
     // System.Void .ctor(System.IntPtr pInterface)
     // Offset: 0x1AFA684
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CVRExtendedDisplay* New_ctor(System::IntPtr pInterface) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::CVRExtendedDisplay::.ctor");
+    static CVRExtendedDisplay* New_ctor(::System::IntPtr pInterface) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Valve::VR::CVRExtendedDisplay::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRExtendedDisplay*, creationType>(pInterface)));
     }
     // public System.Void GetWindowBounds(ref System.Int32 pnX, ref System.Int32 pnY, ref System.UInt32 pnWidth, ref System.UInt32 pnHeight)
@@ -71,13 +71,13 @@ namespace Valve::VR {
     void GetWindowBounds(ByRef<int> pnX, ByRef<int> pnY, ByRef<uint> pnWidth, ByRef<uint> pnHeight);
     // public System.Void GetEyeOutputViewport(Valve.VR.EVREye eEye, ref System.UInt32 pnX, ref System.UInt32 pnY, ref System.UInt32 pnWidth, ref System.UInt32 pnHeight)
     // Offset: 0x1AFA7B8
-    void GetEyeOutputViewport(Valve::VR::EVREye eEye, ByRef<uint> pnX, ByRef<uint> pnY, ByRef<uint> pnWidth, ByRef<uint> pnHeight);
+    void GetEyeOutputViewport(::Valve::VR::EVREye eEye, ByRef<uint> pnX, ByRef<uint> pnY, ByRef<uint> pnWidth, ByRef<uint> pnHeight);
     // public System.Void GetDXGIOutputInfo(ref System.Int32 pnAdapterIndex, ref System.Int32 pnAdapterOutputIndex)
     // Offset: 0x1AFA7E4
     void GetDXGIOutputInfo(ByRef<int> pnAdapterIndex, ByRef<int> pnAdapterOutputIndex);
   }; // Valve.VR.CVRExtendedDisplay
   #pragma pack(pop)
-  static check_size<sizeof(CVRExtendedDisplay), 16 + sizeof(Valve::VR::IVRExtendedDisplay)> __Valve_VR_CVRExtendedDisplaySizeCheck;
+  static check_size<sizeof(CVRExtendedDisplay), 16 + sizeof(::Valve::VR::IVRExtendedDisplay)> __Valve_VR_CVRExtendedDisplaySizeCheck;
   static_assert(sizeof(CVRExtendedDisplay) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -100,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve
 // Writing MetadataGetter for method: Valve::VR::CVRExtendedDisplay::GetEyeOutputViewport
 // Il2CppName: GetEyeOutputViewport
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRExtendedDisplay::*)(Valve::VR::EVREye, ByRef<uint>, ByRef<uint>, ByRef<uint>, ByRef<uint>)>(&Valve::VR::CVRExtendedDisplay::GetEyeOutputViewport)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRExtendedDisplay::*)(::Valve::VR::EVREye, ByRef<uint>, ByRef<uint>, ByRef<uint>, ByRef<uint>)>(&Valve::VR::CVRExtendedDisplay::GetEyeOutputViewport)> {
   static const MethodInfo* get() {
     static auto* eEye = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVREye")->byval_arg;
     static auto* pnX = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;

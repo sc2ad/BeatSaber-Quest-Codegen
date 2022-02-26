@@ -26,8 +26,8 @@ namespace System::Xml {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Schema::XdrBuilder::AttributeContent);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::XdrBuilder::AttributeContent*, "System.Xml.Schema", "XdrBuilder/AttributeContent");
+NEED_NO_BOX(::System::Xml::Schema::XdrBuilder::AttributeContent);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XdrBuilder::AttributeContent*, "System.Xml.Schema", "XdrBuilder/AttributeContent");
 // Type namespace: System.Xml.Schema
 namespace System::Xml::Schema {
   // Size: 0x48
@@ -48,15 +48,15 @@ namespace System::Xml::Schema {
     // System.Xml.Schema.SchemaAttDef _AttDef
     // Size: 0x8
     // Offset: 0x10
-    System::Xml::Schema::SchemaAttDef* AttDef;
+    ::System::Xml::Schema::SchemaAttDef* AttDef;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::SchemaAttDef*) == 0x8);
+    static_assert(sizeof(::System::Xml::Schema::SchemaAttDef*) == 0x8);
     // System.Xml.XmlQualifiedName _Name
     // Size: 0x8
     // Offset: 0x18
-    System::Xml::XmlQualifiedName* Name;
+    ::System::Xml::XmlQualifiedName* Name;
     // Field size check
-    static_assert(sizeof(System::Xml::XmlQualifiedName*) == 0x8);
+    static_assert(sizeof(::System::Xml::XmlQualifiedName*) == 0x8);
     // System.String _Prefix
     // Size: 0x8
     // Offset: 0x20
@@ -123,9 +123,9 @@ namespace System::Xml::Schema {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     public:
     // Get instance field reference: System.Xml.Schema.SchemaAttDef _AttDef
-    System::Xml::Schema::SchemaAttDef*& dyn__AttDef();
+    ::System::Xml::Schema::SchemaAttDef*& dyn__AttDef();
     // Get instance field reference: System.Xml.XmlQualifiedName _Name
-    System::Xml::XmlQualifiedName*& dyn__Name();
+    ::System::Xml::XmlQualifiedName*& dyn__Name();
     // Get instance field reference: System.String _Prefix
     ::StringW& dyn__Prefix();
     // Get instance field reference: System.Boolean _Required
@@ -152,7 +152,7 @@ namespace System::Xml::Schema {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XdrBuilder::AttributeContent* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Schema::XdrBuilder::AttributeContent::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XdrBuilder::AttributeContent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XdrBuilder::AttributeContent*, creationType>()));
     }
   }; // System.Xml.Schema.XdrBuilder/System.Xml.Schema.AttributeContent

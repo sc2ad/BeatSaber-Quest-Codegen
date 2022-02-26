@@ -26,8 +26,8 @@ namespace Newtonsoft::Json::Linq {
   class JPropertyDescriptor;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Linq::JPropertyDescriptor);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Linq::JPropertyDescriptor*, "Newtonsoft.Json.Linq", "JPropertyDescriptor");
+NEED_NO_BOX(::Newtonsoft::Json::Linq::JPropertyDescriptor);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Linq::JPropertyDescriptor*, "Newtonsoft.Json.Linq", "JPropertyDescriptor");
 // Type namespace: Newtonsoft.Json.Linq
 namespace Newtonsoft::Json::Linq {
   // Size: 0x84
@@ -36,20 +36,20 @@ namespace Newtonsoft::Json::Linq {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NullableContextAttribute] Offset: 12031D8
   // [NullableAttribute] Offset: 12031D8
-  class JPropertyDescriptor : public System::ComponentModel::PropertyDescriptor {
+  class JPropertyDescriptor : public ::System::ComponentModel::PropertyDescriptor {
     public:
     // public System.Void .ctor(System.String name)
     // Offset: 0x1C4FDB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JPropertyDescriptor* New_ctor(::StringW name) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Linq::JPropertyDescriptor::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Linq::JPropertyDescriptor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JPropertyDescriptor*, creationType>(name)));
     }
     // public override System.Type get_ComponentType()
     // Offset: 0x1C51504
     // Implemented from: System.ComponentModel.PropertyDescriptor
     // Base method: System.Type PropertyDescriptor::get_ComponentType()
-    System::Type* get_ComponentType();
+    ::System::Type* get_ComponentType();
     // public override System.Boolean get_IsReadOnly()
     // Offset: 0x1C51574
     // Implemented from: System.ComponentModel.PropertyDescriptor
@@ -59,7 +59,7 @@ namespace Newtonsoft::Json::Linq {
     // Offset: 0x1C5157C
     // Implemented from: System.ComponentModel.PropertyDescriptor
     // Base method: System.Type PropertyDescriptor::get_PropertyType()
-    System::Type* get_PropertyType();
+    ::System::Type* get_PropertyType();
     // protected override System.Int32 get_NameHashCode()
     // Offset: 0x1C515EC
     // Implemented from: System.ComponentModel.MemberDescriptor
@@ -91,7 +91,7 @@ namespace Newtonsoft::Json::Linq {
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JPropertyDescriptor::get_ComponentType
 // Il2CppName: get_ComponentType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (Newtonsoft::Json::Linq::JPropertyDescriptor::*)()>(&Newtonsoft::Json::Linq::JPropertyDescriptor::get_ComponentType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (Newtonsoft::Json::Linq::JPropertyDescriptor::*)()>(&Newtonsoft::Json::Linq::JPropertyDescriptor::get_ComponentType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JPropertyDescriptor*), "get_ComponentType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -107,7 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JPropertyDescriptor::get_PropertyType
 // Il2CppName: get_PropertyType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (Newtonsoft::Json::Linq::JPropertyDescriptor::*)()>(&Newtonsoft::Json::Linq::JPropertyDescriptor::get_PropertyType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (Newtonsoft::Json::Linq::JPropertyDescriptor::*)()>(&Newtonsoft::Json::Linq::JPropertyDescriptor::get_PropertyType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JPropertyDescriptor*), "get_PropertyType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

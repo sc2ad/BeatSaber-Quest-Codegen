@@ -35,8 +35,8 @@ namespace GlobalNamespace {
   class MainSettingsDefaultValues;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MainSettingsDefaultValues);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainSettingsDefaultValues*, "", "MainSettingsDefaultValues");
+NEED_NO_BOX(::GlobalNamespace::MainSettingsDefaultValues);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MainSettingsDefaultValues*, "", "MainSettingsDefaultValues");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -209,14 +209,14 @@ namespace GlobalNamespace {
     static void _set_kDefaultPauseButtonPressDurationLevel(int value);
     // static public System.Void SetFixedDefaultValues(MainSettingsModelSO mainSettingsModel)
     // Offset: 0x2BA9C0C
-    static void SetFixedDefaultValues(GlobalNamespace::MainSettingsModelSO* mainSettingsModel);
+    static void SetFixedDefaultValues(::GlobalNamespace::MainSettingsModelSO* mainSettingsModel);
     // public System.Void .ctor()
     // Offset: 0x2BA9D50
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MainSettingsDefaultValues* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MainSettingsDefaultValues::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MainSettingsDefaultValues::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MainSettingsDefaultValues*, creationType>()));
     }
   }; // MainSettingsDefaultValues
@@ -226,7 +226,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::MainSettingsDefaultValues::SetFixedDefaultValues
 // Il2CppName: SetFixedDefaultValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::MainSettingsModelSO*)>(&GlobalNamespace::MainSettingsDefaultValues::SetFixedDefaultValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::MainSettingsModelSO*)>(&GlobalNamespace::MainSettingsDefaultValues::SetFixedDefaultValues)> {
   static const MethodInfo* get() {
     static auto* mainSettingsModel = &::il2cpp_utils::GetClassFromName("", "MainSettingsModelSO")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsDefaultValues*), "SetFixedDefaultValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mainSettingsModel});

@@ -26,8 +26,8 @@ namespace System::Reflection {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::$$c);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::$$c*, "Newtonsoft.Json.Utilities", "ImmutableCollectionsUtils/<>c");
+NEED_NO_BOX(::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::$$c*, "Newtonsoft.Json.Utilities", "ImmutableCollectionsUtils/<>c");
 // Type namespace: Newtonsoft.Json.Utilities
 namespace Newtonsoft::Json::Utilities {
   // Size: 0x10
@@ -39,35 +39,35 @@ namespace Newtonsoft::Json::Utilities {
     public:
     // [NullableAttribute] Offset: 0x1204E38
     // Get static field: static public readonly Newtonsoft.Json.Utilities.ImmutableCollectionsUtils/Newtonsoft.Json.Utilities.<>c <>9
-    static Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::$$c* _get_$$9();
+    static ::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::$$c* _get_$$9();
     // Set static field: static public readonly Newtonsoft.Json.Utilities.ImmutableCollectionsUtils/Newtonsoft.Json.Utilities.<>c <>9
-    static void _set_$$9(Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::$$c* value);
+    static void _set_$$9(::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::$$c* value);
     // [NullableAttribute] Offset: 0x1204E4C
     // Get static field: static public System.Func`2<System.Reflection.MethodInfo,System.Boolean> <>9__24_1
-    static System::Func_2<System::Reflection::MethodInfo*, bool>* _get_$$9__24_1();
+    static ::System::Func_2<::System::Reflection::MethodInfo*, bool>* _get_$$9__24_1();
     // Set static field: static public System.Func`2<System.Reflection.MethodInfo,System.Boolean> <>9__24_1
-    static void _set_$$9__24_1(System::Func_2<System::Reflection::MethodInfo*, bool>* value);
+    static void _set_$$9__24_1(::System::Func_2<::System::Reflection::MethodInfo*, bool>* value);
     // [NullableAttribute] Offset: 0x1204E60
     // Get static field: static public System.Func`2<System.Reflection.MethodInfo,System.Boolean> <>9__25_1
-    static System::Func_2<System::Reflection::MethodInfo*, bool>* _get_$$9__25_1();
+    static ::System::Func_2<::System::Reflection::MethodInfo*, bool>* _get_$$9__25_1();
     // Set static field: static public System.Func`2<System.Reflection.MethodInfo,System.Boolean> <>9__25_1
-    static void _set_$$9__25_1(System::Func_2<System::Reflection::MethodInfo*, bool>* value);
+    static void _set_$$9__25_1(::System::Func_2<::System::Reflection::MethodInfo*, bool>* value);
     // static private System.Void .cctor()
     // Offset: 0x19E5F14
     static void _cctor();
     // System.Boolean <TryBuildImmutableForArrayContract>b__24_1(System.Reflection.MethodInfo m)
     // Offset: 0x19E5F80
-    bool $TryBuildImmutableForArrayContract$b__24_1(System::Reflection::MethodInfo* m);
+    bool $TryBuildImmutableForArrayContract$b__24_1(::System::Reflection::MethodInfo* m);
     // System.Boolean <TryBuildImmutableForDictionaryContract>b__25_1(System.Reflection.MethodInfo m)
     // Offset: 0x19E601C
-    bool $TryBuildImmutableForDictionaryContract$b__25_1(System::Reflection::MethodInfo* m);
+    bool $TryBuildImmutableForDictionaryContract$b__25_1(::System::Reflection::MethodInfo* m);
     // public System.Void .ctor()
     // Offset: 0x19E5F78
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ImmutableCollectionsUtils::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ImmutableCollectionsUtils::$$c*, creationType>()));
     }
   }; // Newtonsoft.Json.Utilities.ImmutableCollectionsUtils/Newtonsoft.Json.Utilities.<>c
@@ -85,7 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::$$c::$TryBuildImmutableForArrayContract$b__24_1
 // Il2CppName: <TryBuildImmutableForArrayContract>b__24_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::$$c::*)(System::Reflection::MethodInfo*)>(&Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::$$c::$TryBuildImmutableForArrayContract$b__24_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::$$c::*)(::System::Reflection::MethodInfo*)>(&Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::$$c::$TryBuildImmutableForArrayContract$b__24_1)> {
   static const MethodInfo* get() {
     static auto* m = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::$$c*), "<TryBuildImmutableForArrayContract>b__24_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{m});
@@ -94,7 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::$$c::$TryBuildImmutableForDictionaryContract$b__25_1
 // Il2CppName: <TryBuildImmutableForDictionaryContract>b__25_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::$$c::*)(System::Reflection::MethodInfo*)>(&Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::$$c::$TryBuildImmutableForDictionaryContract$b__25_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::$$c::*)(::System::Reflection::MethodInfo*)>(&Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::$$c::$TryBuildImmutableForDictionaryContract$b__25_1)> {
   static const MethodInfo* get() {
     static auto* m = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::$$c*), "<TryBuildImmutableForDictionaryContract>b__25_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{m});

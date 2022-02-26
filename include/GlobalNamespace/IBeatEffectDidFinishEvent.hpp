@@ -18,8 +18,8 @@ namespace GlobalNamespace {
   class IBeatEffectDidFinishEvent;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::IBeatEffectDidFinishEvent);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IBeatEffectDidFinishEvent*, "", "IBeatEffectDidFinishEvent");
+NEED_NO_BOX(::GlobalNamespace::IBeatEffectDidFinishEvent);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IBeatEffectDidFinishEvent*, "", "IBeatEffectDidFinishEvent");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -30,7 +30,7 @@ namespace GlobalNamespace {
     public:
     // public System.Void HandleBeatEffectDidFinish(BeatEffect beatEffect)
     // Offset: 0xFFFFFFFF
-    void HandleBeatEffectDidFinish(GlobalNamespace::BeatEffect* beatEffect);
+    void HandleBeatEffectDidFinish(::GlobalNamespace::BeatEffect* beatEffect);
   }; // IBeatEffectDidFinishEvent
   #pragma pack(pop)
 }
@@ -38,7 +38,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::IBeatEffectDidFinishEvent::HandleBeatEffectDidFinish
 // Il2CppName: HandleBeatEffectDidFinish
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IBeatEffectDidFinishEvent::*)(GlobalNamespace::BeatEffect*)>(&GlobalNamespace::IBeatEffectDidFinishEvent::HandleBeatEffectDidFinish)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IBeatEffectDidFinishEvent::*)(::GlobalNamespace::BeatEffect*)>(&GlobalNamespace::IBeatEffectDidFinishEvent::HandleBeatEffectDidFinish)> {
   static const MethodInfo* get() {
     static auto* beatEffect = &::il2cpp_utils::GetClassFromName("", "BeatEffect")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IBeatEffectDidFinishEvent*), "HandleBeatEffectDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatEffect});

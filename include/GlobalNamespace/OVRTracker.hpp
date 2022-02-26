@@ -23,8 +23,8 @@ namespace GlobalNamespace {
   class OVRTracker;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRTracker);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRTracker*, "", "OVRTracker");
+NEED_NO_BOX(::GlobalNamespace::OVRTracker);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRTracker*, "", "OVRTracker");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -33,7 +33,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRTracker : public ::Il2CppObject {
     public:
-    // Nested type: GlobalNamespace::OVRTracker::Frustum
+    // Nested type: ::GlobalNamespace::OVRTracker::Frustum
     struct Frustum;
     // public System.Boolean get_isPresent()
     // Offset: 0x2440A74
@@ -52,10 +52,10 @@ namespace GlobalNamespace {
     int get_count();
     // public OVRTracker/Frustum GetFrustum(System.Int32 tracker)
     // Offset: 0x2440E28
-    GlobalNamespace::OVRTracker::Frustum GetFrustum(int tracker);
+    ::GlobalNamespace::OVRTracker::Frustum GetFrustum(int tracker);
     // public OVRPose GetPose(System.Int32 tracker)
     // Offset: 0x2440ED8
-    GlobalNamespace::OVRPose GetPose(int tracker);
+    ::GlobalNamespace::OVRPose GetPose(int tracker);
     // public System.Boolean GetPoseValid(System.Int32 tracker)
     // Offset: 0x244116C
     bool GetPoseValid(int tracker);
@@ -68,7 +68,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRTracker* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRTracker::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRTracker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRTracker*, creationType>()));
     }
   }; // OVRTracker
@@ -119,7 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Writing MetadataGetter for method: GlobalNamespace::OVRTracker::GetFrustum
 // Il2CppName: GetFrustum
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRTracker::Frustum (GlobalNamespace::OVRTracker::*)(int)>(&GlobalNamespace::OVRTracker::GetFrustum)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRTracker::Frustum (GlobalNamespace::OVRTracker::*)(int)>(&GlobalNamespace::OVRTracker::GetFrustum)> {
   static const MethodInfo* get() {
     static auto* tracker = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRTracker*), "GetFrustum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tracker});
@@ -128,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRTracker::GetPose
 // Il2CppName: GetPose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPose (GlobalNamespace::OVRTracker::*)(int)>(&GlobalNamespace::OVRTracker::GetPose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPose (GlobalNamespace::OVRTracker::*)(int)>(&GlobalNamespace::OVRTracker::GetPose)> {
   static const MethodInfo* get() {
     static auto* tracker = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRTracker*), "GetPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tracker});

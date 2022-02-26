@@ -20,8 +20,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::ConnectionErrorDialogViewController::$$c__DisplayClass0_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectionErrorDialogViewController::$$c__DisplayClass0_0*, "", "ConnectionErrorDialogViewController/<>c__DisplayClass0_0");
+NEED_NO_BOX(::GlobalNamespace::ConnectionErrorDialogViewController::$$c__DisplayClass0_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ConnectionErrorDialogViewController::$$c__DisplayClass0_0*, "", "ConnectionErrorDialogViewController/<>c__DisplayClass0_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -43,16 +43,16 @@ namespace GlobalNamespace {
     // public System.Action buttonAction
     // Size: 0x8
     // Offset: 0x10
-    System::Action* buttonAction;
+    ::System::Action* buttonAction;
     // Field size check
-    static_assert(sizeof(System::Action*) == 0x8);
+    static_assert(sizeof(::System::Action*) == 0x8);
     public:
-    // Creating conversion operator: operator System::Action*
-    constexpr operator System::Action*() const noexcept {
+    // Creating conversion operator: operator ::System::Action*
+    constexpr operator ::System::Action*() const noexcept {
       return buttonAction;
     }
     // Get instance field reference: public System.Action buttonAction
-    System::Action*& dyn_buttonAction();
+    ::System::Action*& dyn_buttonAction();
     // System.Void <Init>b__0(System.Int32 btnIdx)
     // Offset: 0x13C36CC
     void $Init$b__0(int btnIdx);
@@ -62,12 +62,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConnectionErrorDialogViewController::$$c__DisplayClass0_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ConnectionErrorDialogViewController::$$c__DisplayClass0_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ConnectionErrorDialogViewController::$$c__DisplayClass0_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConnectionErrorDialogViewController::$$c__DisplayClass0_0*, creationType>()));
     }
   }; // ConnectionErrorDialogViewController/<>c__DisplayClass0_0
   #pragma pack(pop)
-  static check_size<sizeof(ConnectionErrorDialogViewController::$$c__DisplayClass0_0), 16 + sizeof(System::Action*)> __GlobalNamespace_ConnectionErrorDialogViewController_$$c__DisplayClass0_0SizeCheck;
+  static check_size<sizeof(ConnectionErrorDialogViewController::$$c__DisplayClass0_0), 16 + sizeof(::System::Action*)> __GlobalNamespace_ConnectionErrorDialogViewController_$$c__DisplayClass0_0SizeCheck;
   static_assert(sizeof(ConnectionErrorDialogViewController::$$c__DisplayClass0_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

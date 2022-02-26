@@ -18,8 +18,8 @@ namespace Newtonsoft::Json::Serialization {
   class ReflectionAttributeProvider;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Serialization::ReflectionAttributeProvider);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Serialization::ReflectionAttributeProvider*, "Newtonsoft.Json.Serialization", "ReflectionAttributeProvider");
+NEED_NO_BOX(::Newtonsoft::Json::Serialization::ReflectionAttributeProvider);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Serialization::ReflectionAttributeProvider*, "Newtonsoft.Json.Serialization", "ReflectionAttributeProvider");
 // Type namespace: Newtonsoft.Json.Serialization
 namespace Newtonsoft::Json::Serialization {
   // Size: 0x18
@@ -28,7 +28,7 @@ namespace Newtonsoft::Json::Serialization {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NullableContextAttribute] Offset: 1202DCC
   // [NullableAttribute] Offset: 1202DCC
-  class ReflectionAttributeProvider : public ::Il2CppObject/*, public Newtonsoft::Json::Serialization::IAttributeProvider*/ {
+  class ReflectionAttributeProvider : public ::Il2CppObject/*, public ::Newtonsoft::Json::Serialization::IAttributeProvider*/ {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -46,9 +46,9 @@ namespace Newtonsoft::Json::Serialization {
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     public:
-    // Creating interface conversion operator: operator Newtonsoft::Json::Serialization::IAttributeProvider
-    operator Newtonsoft::Json::Serialization::IAttributeProvider() noexcept {
-      return *reinterpret_cast<Newtonsoft::Json::Serialization::IAttributeProvider*>(this);
+    // Creating interface conversion operator: operator ::Newtonsoft::Json::Serialization::IAttributeProvider
+    operator ::Newtonsoft::Json::Serialization::IAttributeProvider() noexcept {
+      return *reinterpret_cast<::Newtonsoft::Json::Serialization::IAttributeProvider*>(this);
     }
     // Creating conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept {
@@ -60,7 +60,7 @@ namespace Newtonsoft::Json::Serialization {
     // Offset: 0x19D69F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReflectionAttributeProvider* New_ctor(::Il2CppObject* attributeProvider) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Serialization::ReflectionAttributeProvider::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::ReflectionAttributeProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReflectionAttributeProvider*, creationType>(attributeProvider)));
     }
   }; // Newtonsoft.Json.Serialization.ReflectionAttributeProvider

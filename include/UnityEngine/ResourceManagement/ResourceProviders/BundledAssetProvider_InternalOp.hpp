@@ -36,8 +36,8 @@ namespace System::Collections::Generic {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp*, "UnityEngine.ResourceManagement.ResourceProviders", "BundledAssetProvider/InternalOp");
+NEED_NO_BOX(::UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp*, "UnityEngine.ResourceManagement.ResourceProviders", "BundledAssetProvider/InternalOp");
 // Type namespace: UnityEngine.ResourceManagement.ResourceProviders
 namespace UnityEngine::ResourceManagement::ResourceProviders {
   // Size: 0x38
@@ -58,15 +58,15 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // private UnityEngine.AssetBundleRequest m_RequestOperation
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::AssetBundleRequest* m_RequestOperation;
+    ::UnityEngine::AssetBundleRequest* m_RequestOperation;
     // Field size check
-    static_assert(sizeof(UnityEngine::AssetBundleRequest*) == 0x8);
+    static_assert(sizeof(::UnityEngine::AssetBundleRequest*) == 0x8);
     // private UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle m_ProvideHandle
     // Size: 0x18
     // Offset: 0x18
-    UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle m_ProvideHandle;
+    ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle m_ProvideHandle;
     // Field size check
-    static_assert(sizeof(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle) == 0x18);
+    static_assert(sizeof(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle) == 0x18);
     // private System.String subObjectName
     // Size: 0x8
     // Offset: 0x30
@@ -75,23 +75,23 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.AssetBundleRequest m_RequestOperation
-    UnityEngine::AssetBundleRequest*& dyn_m_RequestOperation();
+    ::UnityEngine::AssetBundleRequest*& dyn_m_RequestOperation();
     // Get instance field reference: private UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle m_ProvideHandle
-    UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle& dyn_m_ProvideHandle();
+    ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle& dyn_m_ProvideHandle();
     // Get instance field reference: private System.String subObjectName
     ::StringW& dyn_subObjectName();
     // static UnityEngine.ResourceManagement.ResourceProviders.IAssetBundleResource LoadBundleFromDependecies(System.Collections.Generic.IList`1<System.Object> results)
     // Offset: 0x1E28318
-    static UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource* LoadBundleFromDependecies(System::Collections::Generic::IList_1<::Il2CppObject*>* results);
+    static ::UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource* LoadBundleFromDependecies(::System::Collections::Generic::IList_1<::Il2CppObject*>* results);
     // public System.Void Start(UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle provideHandle)
     // Offset: 0x1E27ECC
-    void Start(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
+    void Start(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
     // private System.Boolean WaitForCompletionHandler()
     // Offset: 0x1E28A5C
     bool WaitForCompletionHandler();
     // private System.Void ActionComplete(UnityEngine.AsyncOperation obj)
     // Offset: 0x1E286E0
-    void ActionComplete(UnityEngine::AsyncOperation* obj);
+    void ActionComplete(::UnityEngine::AsyncOperation* obj);
     // public System.Single ProgressCallback()
     // Offset: 0x1E28EAC
     float ProgressCallback();
@@ -101,7 +101,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BundledAssetProvider::InternalOp* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BundledAssetProvider::InternalOp*, creationType>()));
     }
   }; // UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider/UnityEngine.ResourceManagement.ResourceProviders.InternalOp
@@ -113,7 +113,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::LoadBundleFromDependecies
 // Il2CppName: LoadBundleFromDependecies
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource* (*)(System::Collections::Generic::IList_1<::Il2CppObject*>*)>(&UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::LoadBundleFromDependecies)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource* (*)(::System::Collections::Generic::IList_1<::Il2CppObject*>*)>(&UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::LoadBundleFromDependecies)> {
   static const MethodInfo* get() {
     static auto* results = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Object")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp*), "LoadBundleFromDependecies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{results});
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::*)(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle)>(&UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::*)(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle)>(&UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::Start)> {
   static const MethodInfo* get() {
     static auto* provideHandle = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.ResourceProviders", "ProvideHandle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provideHandle});
@@ -139,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::ActionComplete
 // Il2CppName: ActionComplete
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::*)(UnityEngine::AsyncOperation*)>(&UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::ActionComplete)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::*)(::UnityEngine::AsyncOperation*)>(&UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::ActionComplete)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("UnityEngine", "AsyncOperation")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp*), "ActionComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});

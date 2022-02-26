@@ -27,8 +27,8 @@ namespace OnlineServices {
   class LeaderboardEntriesResult;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(OnlineServices::LeaderboardEntriesResult);
-DEFINE_IL2CPP_ARG_TYPE(OnlineServices::LeaderboardEntriesResult*, "OnlineServices", "LeaderboardEntriesResult");
+NEED_NO_BOX(::OnlineServices::LeaderboardEntriesResult);
+DEFINE_IL2CPP_ARG_TYPE(::OnlineServices::LeaderboardEntriesResult*, "OnlineServices", "LeaderboardEntriesResult");
 // Type namespace: OnlineServices
 namespace OnlineServices {
   // Size: 0x2C
@@ -63,9 +63,9 @@ namespace OnlineServices {
     // public readonly OnlineServices.LeaderboardEntryData[] leaderboardEntries
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayW<OnlineServices::LeaderboardEntryData*> leaderboardEntries;
+    ::ArrayW<::OnlineServices::LeaderboardEntryData*> leaderboardEntries;
     // Field size check
-    static_assert(sizeof(::ArrayW<OnlineServices::LeaderboardEntryData*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::OnlineServices::LeaderboardEntryData*>) == 0x8);
     // public readonly System.Int32 referencePlayerScoreIndex
     // Size: 0x4
     // Offset: 0x28
@@ -78,31 +78,31 @@ namespace OnlineServices {
     // Get instance field reference: public readonly System.String localizedErrorMessage
     ::StringW& dyn_localizedErrorMessage();
     // Get instance field reference: public readonly OnlineServices.LeaderboardEntryData[] leaderboardEntries
-    ::ArrayW<OnlineServices::LeaderboardEntryData*>& dyn_leaderboardEntries();
+    ::ArrayW<::OnlineServices::LeaderboardEntryData*>& dyn_leaderboardEntries();
     // Get instance field reference: public readonly System.Int32 referencePlayerScoreIndex
     int& dyn_referencePlayerScoreIndex();
     // static public OnlineServices.LeaderboardEntriesResult get_notInicializedError()
     // Offset: 0x2AB2CC0
-    static OnlineServices::LeaderboardEntriesResult* get_notInicializedError();
+    static ::OnlineServices::LeaderboardEntriesResult* get_notInicializedError();
     // static public OnlineServices.LeaderboardEntriesResult get_somethingWentWrongError()
     // Offset: 0x2AB2D10
-    static OnlineServices::LeaderboardEntriesResult* get_somethingWentWrongError();
+    static ::OnlineServices::LeaderboardEntriesResult* get_somethingWentWrongError();
     // static public OnlineServices.LeaderboardEntriesResult get_onlineServicesUnavailableError()
     // Offset: 0x2AB2D60
-    static OnlineServices::LeaderboardEntriesResult* get_onlineServicesUnavailableError();
+    static ::OnlineServices::LeaderboardEntriesResult* get_onlineServicesUnavailableError();
     // private System.Void .ctor(OnlineServices.LeaderboardEntryData[] leaderboardEntries, System.Int32 referencePlayerScoreIndex, System.Boolean isError, System.String localizedErrorMessage)
     // Offset: 0x2AB2BF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static LeaderboardEntriesResult* New_ctor(::ArrayW<OnlineServices::LeaderboardEntryData*> leaderboardEntries, int referencePlayerScoreIndex, bool isError, ::StringW localizedErrorMessage) {
-      static auto ___internal__logger = ::Logger::get().WithContext("OnlineServices::LeaderboardEntriesResult::.ctor");
+    static LeaderboardEntriesResult* New_ctor(::ArrayW<::OnlineServices::LeaderboardEntryData*> leaderboardEntries, int referencePlayerScoreIndex, bool isError, ::StringW localizedErrorMessage) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::OnlineServices::LeaderboardEntriesResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardEntriesResult*, creationType>(leaderboardEntries, referencePlayerScoreIndex, isError, localizedErrorMessage)));
     }
     // static private OnlineServices.LeaderboardEntriesResult ErrorResult(System.String localizedErrorMessage)
     // Offset: 0x2AB2C4C
-    static OnlineServices::LeaderboardEntriesResult* ErrorResult(::StringW localizedErrorMessage);
+    static ::OnlineServices::LeaderboardEntriesResult* ErrorResult(::StringW localizedErrorMessage);
     // static public OnlineServices.LeaderboardEntriesResult FromGetLeaderboardEntriesResult(OnlineServices.GetLeaderboardEntriesResult getLeaderboardEntriesResult)
     // Offset: 0x2AB2DB0
-    static OnlineServices::LeaderboardEntriesResult* FromGetLeaderboardEntriesResult(OnlineServices::GetLeaderboardEntriesResult getLeaderboardEntriesResult);
+    static ::OnlineServices::LeaderboardEntriesResult* FromGetLeaderboardEntriesResult(::OnlineServices::GetLeaderboardEntriesResult getLeaderboardEntriesResult);
   }; // OnlineServices.LeaderboardEntriesResult
   #pragma pack(pop)
   static check_size<sizeof(LeaderboardEntriesResult), 40 + sizeof(int)> __OnlineServices_LeaderboardEntriesResultSizeCheck;
@@ -112,7 +112,7 @@ namespace OnlineServices {
 // Writing MetadataGetter for method: OnlineServices::LeaderboardEntriesResult::get_notInicializedError
 // Il2CppName: get_notInicializedError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OnlineServices::LeaderboardEntriesResult* (*)()>(&OnlineServices::LeaderboardEntriesResult::get_notInicializedError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OnlineServices::LeaderboardEntriesResult* (*)()>(&OnlineServices::LeaderboardEntriesResult::get_notInicializedError)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::LeaderboardEntriesResult*), "get_notInicializedError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -120,7 +120,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OnlineServi
 // Writing MetadataGetter for method: OnlineServices::LeaderboardEntriesResult::get_somethingWentWrongError
 // Il2CppName: get_somethingWentWrongError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OnlineServices::LeaderboardEntriesResult* (*)()>(&OnlineServices::LeaderboardEntriesResult::get_somethingWentWrongError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OnlineServices::LeaderboardEntriesResult* (*)()>(&OnlineServices::LeaderboardEntriesResult::get_somethingWentWrongError)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::LeaderboardEntriesResult*), "get_somethingWentWrongError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -128,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OnlineServi
 // Writing MetadataGetter for method: OnlineServices::LeaderboardEntriesResult::get_onlineServicesUnavailableError
 // Il2CppName: get_onlineServicesUnavailableError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OnlineServices::LeaderboardEntriesResult* (*)()>(&OnlineServices::LeaderboardEntriesResult::get_onlineServicesUnavailableError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OnlineServices::LeaderboardEntriesResult* (*)()>(&OnlineServices::LeaderboardEntriesResult::get_onlineServicesUnavailableError)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::LeaderboardEntriesResult*), "get_onlineServicesUnavailableError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -140,7 +140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OnlineServi
 // Writing MetadataGetter for method: OnlineServices::LeaderboardEntriesResult::ErrorResult
 // Il2CppName: ErrorResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OnlineServices::LeaderboardEntriesResult* (*)(::StringW)>(&OnlineServices::LeaderboardEntriesResult::ErrorResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OnlineServices::LeaderboardEntriesResult* (*)(::StringW)>(&OnlineServices::LeaderboardEntriesResult::ErrorResult)> {
   static const MethodInfo* get() {
     static auto* localizedErrorMessage = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::LeaderboardEntriesResult*), "ErrorResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{localizedErrorMessage});
@@ -149,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OnlineServi
 // Writing MetadataGetter for method: OnlineServices::LeaderboardEntriesResult::FromGetLeaderboardEntriesResult
 // Il2CppName: FromGetLeaderboardEntriesResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OnlineServices::LeaderboardEntriesResult* (*)(OnlineServices::GetLeaderboardEntriesResult)>(&OnlineServices::LeaderboardEntriesResult::FromGetLeaderboardEntriesResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OnlineServices::LeaderboardEntriesResult* (*)(::OnlineServices::GetLeaderboardEntriesResult)>(&OnlineServices::LeaderboardEntriesResult::FromGetLeaderboardEntriesResult)> {
   static const MethodInfo* get() {
     static auto* getLeaderboardEntriesResult = &::il2cpp_utils::GetClassFromName("OnlineServices", "GetLeaderboardEntriesResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::LeaderboardEntriesResult*), "FromGetLeaderboardEntriesResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{getLeaderboardEntriesResult});

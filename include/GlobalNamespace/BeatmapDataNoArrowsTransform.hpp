@@ -19,8 +19,8 @@ namespace GlobalNamespace {
   class BeatmapDataNoArrowsTransform;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BeatmapDataNoArrowsTransform);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataNoArrowsTransform*, "", "BeatmapDataNoArrowsTransform");
+NEED_NO_BOX(::GlobalNamespace::BeatmapDataNoArrowsTransform);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapDataNoArrowsTransform*, "", "BeatmapDataNoArrowsTransform");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -31,7 +31,7 @@ namespace GlobalNamespace {
     public:
     // static public IReadonlyBeatmapData CreateTransformedData(IReadonlyBeatmapData beatmapData)
     // Offset: 0x2B4938C
-    static GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(GlobalNamespace::IReadonlyBeatmapData* beatmapData);
+    static ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
   }; // BeatmapDataNoArrowsTransform
   #pragma pack(pop)
 }
@@ -39,7 +39,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataNoArrowsTransform::CreateTransformedData
 // Il2CppName: CreateTransformedData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IReadonlyBeatmapData* (*)(GlobalNamespace::IReadonlyBeatmapData*)>(&GlobalNamespace::BeatmapDataNoArrowsTransform::CreateTransformedData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IReadonlyBeatmapData* (*)(::GlobalNamespace::IReadonlyBeatmapData*)>(&GlobalNamespace::BeatmapDataNoArrowsTransform::CreateTransformedData)> {
   static const MethodInfo* get() {
     static auto* beatmapData = &::il2cpp_utils::GetClassFromName("", "IReadonlyBeatmapData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataNoArrowsTransform*), "CreateTransformedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapData});

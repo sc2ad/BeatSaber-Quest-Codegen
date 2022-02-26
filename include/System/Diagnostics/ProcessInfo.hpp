@@ -12,8 +12,8 @@ namespace System::Diagnostics {
   class ProcessInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Diagnostics::ProcessInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::ProcessInfo*, "System.Diagnostics", "ProcessInfo");
+NEED_NO_BOX(::System::Diagnostics::ProcessInfo);
+DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::ProcessInfo*, "System.Diagnostics", "ProcessInfo");
 // Type namespace: System.Diagnostics
 namespace System::Diagnostics {
   // Size: 0x10

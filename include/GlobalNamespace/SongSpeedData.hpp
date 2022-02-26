@@ -16,8 +16,8 @@ namespace GlobalNamespace {
   class SongSpeedData;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SongSpeedData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongSpeedData*, "", "SongSpeedData");
+NEED_NO_BOX(::GlobalNamespace::SongSpeedData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SongSpeedData*, "", "SongSpeedData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x14
@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     // Offset: 0x13D42A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongSpeedData* New_ctor(float speedMul) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SongSpeedData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SongSpeedData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SongSpeedData*, creationType>(speedMul)));
     }
   }; // SongSpeedData

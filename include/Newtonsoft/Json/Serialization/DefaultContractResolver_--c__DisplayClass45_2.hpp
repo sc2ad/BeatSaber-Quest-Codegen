@@ -29,8 +29,8 @@ namespace System::Collections::Generic {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Serialization::DefaultContractResolver::$$c__DisplayClass45_2);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Serialization::DefaultContractResolver::$$c__DisplayClass45_2*, "Newtonsoft.Json.Serialization", "DefaultContractResolver/<>c__DisplayClass45_2");
+NEED_NO_BOX(::Newtonsoft::Json::Serialization::DefaultContractResolver::$$c__DisplayClass45_2);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Serialization::DefaultContractResolver::$$c__DisplayClass45_2*, "Newtonsoft.Json.Serialization", "DefaultContractResolver/<>c__DisplayClass45_2");
 // Type namespace: Newtonsoft.Json.Serialization
 namespace Newtonsoft::Json::Serialization {
   // Size: 0x20
@@ -53,43 +53,43 @@ namespace Newtonsoft::Json::Serialization {
     // public Newtonsoft.Json.Serialization.ObjectConstructor`1<System.Object> createEnumerableWrapper
     // Size: 0x8
     // Offset: 0x10
-    Newtonsoft::Json::Serialization::ObjectConstructor_1<::Il2CppObject*>* createEnumerableWrapper;
+    ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::Il2CppObject*>* createEnumerableWrapper;
     // Field size check
-    static_assert(sizeof(Newtonsoft::Json::Serialization::ObjectConstructor_1<::Il2CppObject*>*) == 0x8);
+    static_assert(sizeof(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::Il2CppObject*>*) == 0x8);
     // [NullableAttribute] Offset: 0x12057B4
     // public Newtonsoft.Json.Serialization.DefaultContractResolver/Newtonsoft.Json.Serialization.<>c__DisplayClass45_0 CS$<>8__locals2
     // Size: 0x8
     // Offset: 0x18
-    Newtonsoft::Json::Serialization::DefaultContractResolver::$$c__DisplayClass45_0* CS$$$8__locals2;
+    ::Newtonsoft::Json::Serialization::DefaultContractResolver::$$c__DisplayClass45_0* CS$$$8__locals2;
     // Field size check
-    static_assert(sizeof(Newtonsoft::Json::Serialization::DefaultContractResolver::$$c__DisplayClass45_0*) == 0x8);
+    static_assert(sizeof(::Newtonsoft::Json::Serialization::DefaultContractResolver::$$c__DisplayClass45_0*) == 0x8);
     public:
     // Get instance field reference: public Newtonsoft.Json.Serialization.ObjectConstructor`1<System.Object> createEnumerableWrapper
-    Newtonsoft::Json::Serialization::ObjectConstructor_1<::Il2CppObject*>*& dyn_createEnumerableWrapper();
+    ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::Il2CppObject*>*& dyn_createEnumerableWrapper();
     // Get instance field reference: public Newtonsoft.Json.Serialization.DefaultContractResolver/Newtonsoft.Json.Serialization.<>c__DisplayClass45_0 CS$<>8__locals2
-    Newtonsoft::Json::Serialization::DefaultContractResolver::$$c__DisplayClass45_0*& dyn_CS$$$8__locals2();
+    ::Newtonsoft::Json::Serialization::DefaultContractResolver::$$c__DisplayClass45_0*& dyn_CS$$$8__locals2();
     // System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>> <SetExtensionDataDelegates>b__1(System.Object o)
     // Offset: 0x152C038
-    System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<::Il2CppObject*, ::Il2CppObject*>>* $SetExtensionDataDelegates$b__1(::Il2CppObject* o);
+    ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::Il2CppObject*, ::Il2CppObject*>>* $SetExtensionDataDelegates$b__1(::Il2CppObject* o);
     // public System.Void .ctor()
     // Offset: 0x1524EA0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultContractResolver::$$c__DisplayClass45_2* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Serialization::DefaultContractResolver::$$c__DisplayClass45_2::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::DefaultContractResolver::$$c__DisplayClass45_2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultContractResolver::$$c__DisplayClass45_2*, creationType>()));
     }
   }; // Newtonsoft.Json.Serialization.DefaultContractResolver/Newtonsoft.Json.Serialization.<>c__DisplayClass45_2
   #pragma pack(pop)
-  static check_size<sizeof(DefaultContractResolver::$$c__DisplayClass45_2), 24 + sizeof(Newtonsoft::Json::Serialization::DefaultContractResolver::$$c__DisplayClass45_0*)> __Newtonsoft_Json_Serialization_DefaultContractResolver_$$c__DisplayClass45_2SizeCheck;
+  static check_size<sizeof(DefaultContractResolver::$$c__DisplayClass45_2), 24 + sizeof(::Newtonsoft::Json::Serialization::DefaultContractResolver::$$c__DisplayClass45_0*)> __Newtonsoft_Json_Serialization_DefaultContractResolver_$$c__DisplayClass45_2SizeCheck;
   static_assert(sizeof(DefaultContractResolver::$$c__DisplayClass45_2) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::DefaultContractResolver::$$c__DisplayClass45_2::$SetExtensionDataDelegates$b__1
 // Il2CppName: <SetExtensionDataDelegates>b__1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<::Il2CppObject*, ::Il2CppObject*>>* (Newtonsoft::Json::Serialization::DefaultContractResolver::$$c__DisplayClass45_2::*)(::Il2CppObject*)>(&Newtonsoft::Json::Serialization::DefaultContractResolver::$$c__DisplayClass45_2::$SetExtensionDataDelegates$b__1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::Il2CppObject*, ::Il2CppObject*>>* (Newtonsoft::Json::Serialization::DefaultContractResolver::$$c__DisplayClass45_2::*)(::Il2CppObject*)>(&Newtonsoft::Json::Serialization::DefaultContractResolver::$$c__DisplayClass45_2::$SetExtensionDataDelegates$b__1)> {
   static const MethodInfo* get() {
     static auto* o = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::DefaultContractResolver::$$c__DisplayClass45_2*), "<SetExtensionDataDelegates>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{o});

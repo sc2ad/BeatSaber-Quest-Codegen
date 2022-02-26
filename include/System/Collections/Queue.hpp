@@ -33,8 +33,8 @@ namespace System::Collections {
   class Queue;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Collections::Queue);
-DEFINE_IL2CPP_ARG_TYPE(System::Collections::Queue*, "System.Collections", "Queue");
+NEED_NO_BOX(::System::Collections::Queue);
+DEFINE_IL2CPP_ARG_TYPE(::System::Collections::Queue*, "System.Collections", "Queue");
 // Type namespace: System.Collections
 namespace System::Collections {
   // Size: 0x38
@@ -44,11 +44,11 @@ namespace System::Collections {
   // [DebuggerTypeProxyAttribute] Offset: 118C8FC
   // [DebuggerDisplayAttribute] Offset: 118C8FC
   // [ComVisibleAttribute] Offset: 118C8FC
-  class Queue : public ::Il2CppObject/*, public System::ICloneable, public System::Collections::ICollection*/ {
+  class Queue : public ::Il2CppObject/*, public ::System::ICloneable, public ::System::Collections::ICollection*/ {
     public:
-    // Nested type: System::Collections::Queue::QueueEnumerator
+    // Nested type: ::System::Collections::Queue::QueueEnumerator
     class QueueEnumerator;
-    // Nested type: System::Collections::Queue::QueueDebugView
+    // Nested type: ::System::Collections::Queue::QueueDebugView
     class QueueDebugView;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -104,13 +104,13 @@ namespace System::Collections {
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     public:
-    // Creating interface conversion operator: operator System::ICloneable
-    operator System::ICloneable() noexcept {
-      return *reinterpret_cast<System::ICloneable*>(this);
+    // Creating interface conversion operator: operator ::System::ICloneable
+    operator ::System::ICloneable() noexcept {
+      return *reinterpret_cast<::System::ICloneable*>(this);
     }
-    // Creating interface conversion operator: operator System::Collections::ICollection
-    operator System::Collections::ICollection() noexcept {
-      return *reinterpret_cast<System::Collections::ICollection*>(this);
+    // Creating interface conversion operator: operator ::System::Collections::ICollection
+    operator ::System::Collections::ICollection() noexcept {
+      return *reinterpret_cast<::System::Collections::ICollection*>(this);
     }
     // Get instance field reference: private System.Object[] _array
     ::ArrayW<::Il2CppObject*>& dyn__array();
@@ -136,21 +136,21 @@ namespace System::Collections {
     // Offset: 0x1AD46AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Queue* New_ctor(int capacity) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Queue::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Queue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Queue*, creationType>(capacity)));
     }
     // public System.Void .ctor(System.Int32 capacity, System.Single growFactor)
     // Offset: 0x1AD44BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Queue* New_ctor(int capacity, float growFactor) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Queue::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Queue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Queue*, creationType>(capacity, growFactor)));
     }
     // public System.Void .ctor(System.Collections.ICollection col)
     // Offset: 0x1AD46B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Queue* New_ctor(System::Collections::ICollection* col) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Queue::.ctor");
+    static Queue* New_ctor(::System::Collections::ICollection* col) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Queue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Queue*, creationType>(col)));
     }
     // public System.Object Clone()
@@ -161,13 +161,13 @@ namespace System::Collections {
     void Clear();
     // public System.Void CopyTo(System.Array array, System.Int32 index)
     // Offset: 0x1AD4B24
-    void CopyTo(System::Array* array, int index);
+    void CopyTo(::System::Array* array, int index);
     // public System.Void Enqueue(System.Object obj)
     // Offset: 0x1AD4D14
     void Enqueue(::Il2CppObject* obj);
     // public System.Collections.IEnumerator GetEnumerator()
     // Offset: 0x1AD4F18
-    System::Collections::IEnumerator* GetEnumerator();
+    ::System::Collections::IEnumerator* GetEnumerator();
     // public System.Object Dequeue()
     // Offset: 0x1AD4FCC
     ::Il2CppObject* Dequeue();
@@ -189,7 +189,7 @@ namespace System::Collections {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Queue* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Queue::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Queue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Queue*, creationType>()));
     }
   }; // System.Collections.Queue
@@ -245,7 +245,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Collections::Queue::CopyTo
 // Il2CppName: CopyTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::Queue::*)(System::Array*, int)>(&System::Collections::Queue::CopyTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::Queue::*)(::System::Array*, int)>(&System::Collections::Queue::CopyTo)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "Array")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -264,7 +264,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Collections::Queue::GetEnumerator
 // Il2CppName: GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (System::Collections::Queue::*)()>(&System::Collections::Queue::GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (System::Collections::Queue::*)()>(&System::Collections::Queue::GetEnumerator)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Collections::Queue*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

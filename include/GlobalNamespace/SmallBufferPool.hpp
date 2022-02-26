@@ -27,8 +27,8 @@ namespace GlobalNamespace {
   class SmallBufferPool;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SmallBufferPool);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SmallBufferPool*, "", "SmallBufferPool");
+NEED_NO_BOX(::GlobalNamespace::SmallBufferPool);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SmallBufferPool*, "", "SmallBufferPool");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x30
@@ -49,27 +49,27 @@ namespace GlobalNamespace {
     // private readonly System.Collections.Generic.List`1<System.Byte[]> _cacheSmall
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::List_1<::ArrayW<uint8_t>>* cacheSmall;
+    ::System::Collections::Generic::List_1<::ArrayW<uint8_t>>* cacheSmall;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<::ArrayW<uint8_t>>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::ArrayW<uint8_t>>*) == 0x8);
     // private readonly System.Collections.Generic.List`1<System.Byte[]> _cacheMedium
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::Generic::List_1<::ArrayW<uint8_t>>* cacheMedium;
+    ::System::Collections::Generic::List_1<::ArrayW<uint8_t>>* cacheMedium;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<::ArrayW<uint8_t>>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::ArrayW<uint8_t>>*) == 0x8);
     // private readonly System.Collections.Generic.List`1<System.Byte[]> _cacheLarge
     // Size: 0x8
     // Offset: 0x20
-    System::Collections::Generic::List_1<::ArrayW<uint8_t>>* cacheLarge;
+    ::System::Collections::Generic::List_1<::ArrayW<uint8_t>>* cacheLarge;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<::ArrayW<uint8_t>>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::ArrayW<uint8_t>>*) == 0x8);
     // private readonly System.Collections.Generic.List`1<System.Byte[]> _cacheMax
     // Size: 0x8
     // Offset: 0x28
-    System::Collections::Generic::List_1<::ArrayW<uint8_t>>* cacheMax;
+    ::System::Collections::Generic::List_1<::ArrayW<uint8_t>>* cacheMax;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<::ArrayW<uint8_t>>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::ArrayW<uint8_t>>*) == 0x8);
     public:
     // static field const value: static private System.Int32 kCacheSmallSize
     static constexpr const int kCacheSmallSize = 512;
@@ -120,13 +120,13 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kCacheMaxMaxCapacity
     static void _set_kCacheMaxMaxCapacity(int value);
     // Get instance field reference: private readonly System.Collections.Generic.List`1<System.Byte[]> _cacheSmall
-    System::Collections::Generic::List_1<::ArrayW<uint8_t>>*& dyn__cacheSmall();
+    ::System::Collections::Generic::List_1<::ArrayW<uint8_t>>*& dyn__cacheSmall();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<System.Byte[]> _cacheMedium
-    System::Collections::Generic::List_1<::ArrayW<uint8_t>>*& dyn__cacheMedium();
+    ::System::Collections::Generic::List_1<::ArrayW<uint8_t>>*& dyn__cacheMedium();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<System.Byte[]> _cacheLarge
-    System::Collections::Generic::List_1<::ArrayW<uint8_t>>*& dyn__cacheLarge();
+    ::System::Collections::Generic::List_1<::ArrayW<uint8_t>>*& dyn__cacheLarge();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<System.Byte[]> _cacheMax
-    System::Collections::Generic::List_1<::ArrayW<uint8_t>>*& dyn__cacheMax();
+    ::System::Collections::Generic::List_1<::ArrayW<uint8_t>>*& dyn__cacheMax();
     // public System.Byte[] GetBuffer(System.Int32 length)
     // Offset: 0x2E04568
     ::ArrayW<uint8_t> GetBuffer(int length);
@@ -139,12 +139,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SmallBufferPool* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SmallBufferPool::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SmallBufferPool::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SmallBufferPool*, creationType>()));
     }
   }; // SmallBufferPool
   #pragma pack(pop)
-  static check_size<sizeof(SmallBufferPool), 40 + sizeof(System::Collections::Generic::List_1<::ArrayW<uint8_t>>*)> __GlobalNamespace_SmallBufferPoolSizeCheck;
+  static check_size<sizeof(SmallBufferPool), 40 + sizeof(::System::Collections::Generic::List_1<::ArrayW<uint8_t>>*)> __GlobalNamespace_SmallBufferPoolSizeCheck;
   static_assert(sizeof(SmallBufferPool) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

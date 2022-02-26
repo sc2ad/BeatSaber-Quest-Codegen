@@ -14,8 +14,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::DefaultJsonNameTable::Entry);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::DefaultJsonNameTable::Entry*, "Newtonsoft.Json", "DefaultJsonNameTable/Entry");
+NEED_NO_BOX(::Newtonsoft::Json::DefaultJsonNameTable::Entry);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::DefaultJsonNameTable::Entry*, "Newtonsoft.Json", "DefaultJsonNameTable/Entry");
 // Type namespace: Newtonsoft.Json
 namespace Newtonsoft::Json {
   // Size: 0x28
@@ -51,26 +51,26 @@ namespace Newtonsoft::Json {
     // Newtonsoft.Json.DefaultJsonNameTable/Newtonsoft.Json.Entry Next
     // Size: 0x8
     // Offset: 0x20
-    Newtonsoft::Json::DefaultJsonNameTable::Entry* Next;
+    ::Newtonsoft::Json::DefaultJsonNameTable::Entry* Next;
     // Field size check
-    static_assert(sizeof(Newtonsoft::Json::DefaultJsonNameTable::Entry*) == 0x8);
+    static_assert(sizeof(::Newtonsoft::Json::DefaultJsonNameTable::Entry*) == 0x8);
     public:
     // Get instance field reference: readonly System.String Value
     ::StringW& dyn_Value();
     // Get instance field reference: readonly System.Int32 HashCode
     int& dyn_HashCode();
     // Get instance field reference: Newtonsoft.Json.DefaultJsonNameTable/Newtonsoft.Json.Entry Next
-    Newtonsoft::Json::DefaultJsonNameTable::Entry*& dyn_Next();
+    ::Newtonsoft::Json::DefaultJsonNameTable::Entry*& dyn_Next();
     // System.Void .ctor(System.String value, System.Int32 hashCode, Newtonsoft.Json.DefaultJsonNameTable/Newtonsoft.Json.Entry next)
     // Offset: 0x182DE2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DefaultJsonNameTable::Entry* New_ctor(::StringW value, int hashCode, Newtonsoft::Json::DefaultJsonNameTable::Entry* next) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::DefaultJsonNameTable::Entry::.ctor");
+    static DefaultJsonNameTable::Entry* New_ctor(::StringW value, int hashCode, ::Newtonsoft::Json::DefaultJsonNameTable::Entry* next) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::DefaultJsonNameTable::Entry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultJsonNameTable::Entry*, creationType>(value, hashCode, next)));
     }
   }; // Newtonsoft.Json.DefaultJsonNameTable/Newtonsoft.Json.Entry
   #pragma pack(pop)
-  static check_size<sizeof(DefaultJsonNameTable::Entry), 32 + sizeof(Newtonsoft::Json::DefaultJsonNameTable::Entry*)> __Newtonsoft_Json_DefaultJsonNameTable_EntrySizeCheck;
+  static check_size<sizeof(DefaultJsonNameTable::Entry), 32 + sizeof(::Newtonsoft::Json::DefaultJsonNameTable::Entry*)> __Newtonsoft_Json_DefaultJsonNameTable_EntrySizeCheck;
   static_assert(sizeof(DefaultJsonNameTable::Entry) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

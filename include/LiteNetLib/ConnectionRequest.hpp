@@ -43,8 +43,8 @@ namespace LiteNetLib {
   class ConnectionRequest;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(LiteNetLib::ConnectionRequest);
-DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::ConnectionRequest*, "LiteNetLib", "ConnectionRequest");
+NEED_NO_BOX(::LiteNetLib::ConnectionRequest);
+DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::ConnectionRequest*, "LiteNetLib", "ConnectionRequest");
 // Type namespace: LiteNetLib
 namespace LiteNetLib {
   // Size: 0x48
@@ -65,9 +65,9 @@ namespace LiteNetLib {
     // private readonly LiteNetLib.NetManager _listener
     // Size: 0x8
     // Offset: 0x10
-    LiteNetLib::NetManager* listener;
+    ::LiteNetLib::NetManager* listener;
     // Field size check
-    static_assert(sizeof(LiteNetLib::NetManager*) == 0x8);
+    static_assert(sizeof(::LiteNetLib::NetManager*) == 0x8);
     // private System.Int32 _used
     // Size: 0x4
     // Offset: 0x18
@@ -79,15 +79,15 @@ namespace LiteNetLib {
     // public readonly LiteNetLib.Utils.NetDataReader Data
     // Size: 0x8
     // Offset: 0x20
-    LiteNetLib::Utils::NetDataReader* Data;
+    ::LiteNetLib::Utils::NetDataReader* Data;
     // Field size check
-    static_assert(sizeof(LiteNetLib::Utils::NetDataReader*) == 0x8);
+    static_assert(sizeof(::LiteNetLib::Utils::NetDataReader*) == 0x8);
     // private LiteNetLib.ConnectionRequestResult <Result>k__BackingField
     // Size: 0x4
     // Offset: 0x28
-    LiteNetLib::ConnectionRequestResult Result;
+    ::LiteNetLib::ConnectionRequestResult Result;
     // Field size check
-    static_assert(sizeof(LiteNetLib::ConnectionRequestResult) == 0x4);
+    static_assert(sizeof(::LiteNetLib::ConnectionRequestResult) == 0x4);
     // Padding between fields: Result and: ConnectionTime
     char __padding3[0x4] = {};
     // System.Int64 ConnectionTime
@@ -107,35 +107,35 @@ namespace LiteNetLib {
     // public readonly System.Net.IPEndPoint RemoteEndPoint
     // Size: 0x8
     // Offset: 0x40
-    System::Net::IPEndPoint* RemoteEndPoint;
+    ::System::Net::IPEndPoint* RemoteEndPoint;
     // Field size check
-    static_assert(sizeof(System::Net::IPEndPoint*) == 0x8);
+    static_assert(sizeof(::System::Net::IPEndPoint*) == 0x8);
     public:
     // Get instance field reference: private readonly LiteNetLib.NetManager _listener
-    LiteNetLib::NetManager*& dyn__listener();
+    ::LiteNetLib::NetManager*& dyn__listener();
     // Get instance field reference: private System.Int32 _used
     int& dyn__used();
     // Get instance field reference: public readonly LiteNetLib.Utils.NetDataReader Data
-    LiteNetLib::Utils::NetDataReader*& dyn_Data();
+    ::LiteNetLib::Utils::NetDataReader*& dyn_Data();
     // Get instance field reference: private LiteNetLib.ConnectionRequestResult <Result>k__BackingField
-    LiteNetLib::ConnectionRequestResult& dyn_$Result$k__BackingField();
+    ::LiteNetLib::ConnectionRequestResult& dyn_$Result$k__BackingField();
     // Get instance field reference: System.Int64 ConnectionTime
     int64_t& dyn_ConnectionTime();
     // Get instance field reference: System.Byte ConnectionNumber
     uint8_t& dyn_ConnectionNumber();
     // Get instance field reference: public readonly System.Net.IPEndPoint RemoteEndPoint
-    System::Net::IPEndPoint*& dyn_RemoteEndPoint();
+    ::System::Net::IPEndPoint*& dyn_RemoteEndPoint();
     // LiteNetLib.ConnectionRequestResult get_Result()
     // Offset: 0x20D9CF0
-    LiteNetLib::ConnectionRequestResult get_Result();
+    ::LiteNetLib::ConnectionRequestResult get_Result();
     // private System.Void set_Result(LiteNetLib.ConnectionRequestResult value)
     // Offset: 0x20D9CF8
-    void set_Result(LiteNetLib::ConnectionRequestResult value);
+    void set_Result(::LiteNetLib::ConnectionRequestResult value);
     // System.Void .ctor(System.Int64 connectionId, System.Byte connectionNumber, LiteNetLib.Utils.NetDataReader netDataReader, System.Net.IPEndPoint endPoint, LiteNetLib.NetManager listener)
     // Offset: 0x20D9D5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ConnectionRequest* New_ctor(int64_t connectionId, uint8_t connectionNumber, LiteNetLib::Utils::NetDataReader* netDataReader, System::Net::IPEndPoint* endPoint, LiteNetLib::NetManager* listener) {
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::ConnectionRequest::.ctor");
+    static ConnectionRequest* New_ctor(int64_t connectionId, uint8_t connectionNumber, ::LiteNetLib::Utils::NetDataReader* netDataReader, ::System::Net::IPEndPoint* endPoint, ::LiteNetLib::NetManager* listener) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::ConnectionRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConnectionRequest*, creationType>(connectionId, connectionNumber, netDataReader, endPoint, listener)));
     }
     // private System.Boolean TryActivate()
@@ -143,13 +143,13 @@ namespace LiteNetLib {
     bool TryActivate();
     // System.Void UpdateRequest(LiteNetLib.NetConnectRequestPacket connRequest)
     // Offset: 0x20D9D2C
-    void UpdateRequest(LiteNetLib::NetConnectRequestPacket* connRequest);
+    void UpdateRequest(::LiteNetLib::NetConnectRequestPacket* connRequest);
     // public LiteNetLib.NetPeer AcceptIfKey(System.String key)
     // Offset: 0x20D9DB8
-    LiteNetLib::NetPeer* AcceptIfKey(::StringW key);
+    ::LiteNetLib::NetPeer* AcceptIfKey(::StringW key);
     // public LiteNetLib.NetPeer Accept()
     // Offset: 0x20DA4D8
-    LiteNetLib::NetPeer* Accept();
+    ::LiteNetLib::NetPeer* Accept();
     // public System.Void Reject(System.Byte[] rejectData, System.Int32 start, System.Int32 length, System.Boolean force)
     // Offset: 0x20DA540
     void Reject(::ArrayW<uint8_t> rejectData, int start, int length, bool force);
@@ -167,7 +167,7 @@ namespace LiteNetLib {
     void RejectForce(::ArrayW<uint8_t> rejectData);
     // public System.Void RejectForce(LiteNetLib.Utils.NetDataWriter rejectData)
     // Offset: 0x20DA61C
-    void RejectForce(LiteNetLib::Utils::NetDataWriter* rejectData);
+    void RejectForce(::LiteNetLib::Utils::NetDataWriter* rejectData);
     // public System.Void Reject()
     // Offset: 0x20DA644
     void Reject();
@@ -176,17 +176,17 @@ namespace LiteNetLib {
     void Reject(::ArrayW<uint8_t> rejectData);
     // public System.Void Reject(LiteNetLib.Utils.NetDataWriter rejectData)
     // Offset: 0x20DA678
-    void Reject(LiteNetLib::Utils::NetDataWriter* rejectData);
+    void Reject(::LiteNetLib::Utils::NetDataWriter* rejectData);
   }; // LiteNetLib.ConnectionRequest
   #pragma pack(pop)
-  static check_size<sizeof(ConnectionRequest), 64 + sizeof(System::Net::IPEndPoint*)> __LiteNetLib_ConnectionRequestSizeCheck;
+  static check_size<sizeof(ConnectionRequest), 64 + sizeof(::System::Net::IPEndPoint*)> __LiteNetLib_ConnectionRequestSizeCheck;
   static_assert(sizeof(ConnectionRequest) == 0x48);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::ConnectionRequest::get_Result
 // Il2CppName: get_Result
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::ConnectionRequestResult (LiteNetLib::ConnectionRequest::*)()>(&LiteNetLib::ConnectionRequest::get_Result)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LiteNetLib::ConnectionRequestResult (LiteNetLib::ConnectionRequest::*)()>(&LiteNetLib::ConnectionRequest::get_Result)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::ConnectionRequest*), "get_Result", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -194,7 +194,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib:
 // Writing MetadataGetter for method: LiteNetLib::ConnectionRequest::set_Result
 // Il2CppName: set_Result
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::ConnectionRequest::*)(LiteNetLib::ConnectionRequestResult)>(&LiteNetLib::ConnectionRequest::set_Result)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::ConnectionRequest::*)(::LiteNetLib::ConnectionRequestResult)>(&LiteNetLib::ConnectionRequest::set_Result)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("LiteNetLib", "ConnectionRequestResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::ConnectionRequest*), "set_Result", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -215,7 +215,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteN
 // Writing MetadataGetter for method: LiteNetLib::ConnectionRequest::UpdateRequest
 // Il2CppName: UpdateRequest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::ConnectionRequest::*)(LiteNetLib::NetConnectRequestPacket*)>(&LiteNetLib::ConnectionRequest::UpdateRequest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::ConnectionRequest::*)(::LiteNetLib::NetConnectRequestPacket*)>(&LiteNetLib::ConnectionRequest::UpdateRequest)> {
   static const MethodInfo* get() {
     static auto* connRequest = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetConnectRequestPacket")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::ConnectionRequest*), "UpdateRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{connRequest});
@@ -224,7 +224,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::ConnectionRequest::AcceptIfKey
 // Il2CppName: AcceptIfKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetPeer* (LiteNetLib::ConnectionRequest::*)(::StringW)>(&LiteNetLib::ConnectionRequest::AcceptIfKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LiteNetLib::NetPeer* (LiteNetLib::ConnectionRequest::*)(::StringW)>(&LiteNetLib::ConnectionRequest::AcceptIfKey)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::ConnectionRequest*), "AcceptIfKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});
@@ -233,7 +233,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib:
 // Writing MetadataGetter for method: LiteNetLib::ConnectionRequest::Accept
 // Il2CppName: Accept
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetPeer* (LiteNetLib::ConnectionRequest::*)()>(&LiteNetLib::ConnectionRequest::Accept)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LiteNetLib::NetPeer* (LiteNetLib::ConnectionRequest::*)()>(&LiteNetLib::ConnectionRequest::Accept)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::ConnectionRequest*), "Accept", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -292,7 +292,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::ConnectionRequest::RejectForce
 // Il2CppName: RejectForce
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::ConnectionRequest::*)(LiteNetLib::Utils::NetDataWriter*)>(&LiteNetLib::ConnectionRequest::RejectForce)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::ConnectionRequest::*)(::LiteNetLib::Utils::NetDataWriter*)>(&LiteNetLib::ConnectionRequest::RejectForce)> {
   static const MethodInfo* get() {
     static auto* rejectData = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataWriter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::ConnectionRequest*), "RejectForce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rejectData});
@@ -318,7 +318,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::ConnectionRequest::Reject
 // Il2CppName: Reject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::ConnectionRequest::*)(LiteNetLib::Utils::NetDataWriter*)>(&LiteNetLib::ConnectionRequest::Reject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::ConnectionRequest::*)(::LiteNetLib::Utils::NetDataWriter*)>(&LiteNetLib::ConnectionRequest::Reject)> {
   static const MethodInfo* get() {
     static auto* rejectData = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataWriter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::ConnectionRequest*), "Reject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rejectData});

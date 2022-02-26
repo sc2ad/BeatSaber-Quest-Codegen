@@ -27,8 +27,8 @@ namespace BeatSaberAPI::DataTransferObjects {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::HTTPLeaderboardsModel::$$c);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HTTPLeaderboardsModel::$$c*, "", "HTTPLeaderboardsModel/<>c");
+NEED_NO_BOX(::GlobalNamespace::HTTPLeaderboardsModel::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::HTTPLeaderboardsModel::$$c*, "", "HTTPLeaderboardsModel/<>c");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -39,26 +39,26 @@ namespace GlobalNamespace {
   class HTTPLeaderboardsModel::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly HTTPLeaderboardsModel/<>c <>9
-    static GlobalNamespace::HTTPLeaderboardsModel::$$c* _get_$$9();
+    static ::GlobalNamespace::HTTPLeaderboardsModel::$$c* _get_$$9();
     // Set static field: static public readonly HTTPLeaderboardsModel/<>c <>9
-    static void _set_$$9(GlobalNamespace::HTTPLeaderboardsModel::$$c* value);
+    static void _set_$$9(::GlobalNamespace::HTTPLeaderboardsModel::$$c* value);
     // Get static field: static public System.Func`2<BeatSaberAPI.DataTransferObjects.LeaderboardEntry,System.String> <>9__10_0
-    static System::Func_2<BeatSaberAPI::DataTransferObjects::LeaderboardEntry*, ::StringW>* _get_$$9__10_0();
+    static ::System::Func_2<::BeatSaberAPI::DataTransferObjects::LeaderboardEntry*, ::StringW>* _get_$$9__10_0();
     // Set static field: static public System.Func`2<BeatSaberAPI.DataTransferObjects.LeaderboardEntry,System.String> <>9__10_0
-    static void _set_$$9__10_0(System::Func_2<BeatSaberAPI::DataTransferObjects::LeaderboardEntry*, ::StringW>* value);
+    static void _set_$$9__10_0(::System::Func_2<::BeatSaberAPI::DataTransferObjects::LeaderboardEntry*, ::StringW>* value);
     // static private System.Void .cctor()
     // Offset: 0x13A8E60
     static void _cctor();
     // System.String <GetLeaderboardEntriesAsync>b__10_0(BeatSaberAPI.DataTransferObjects.LeaderboardEntry x)
     // Offset: 0x13A8ECC
-    ::StringW $GetLeaderboardEntriesAsync$b__10_0(BeatSaberAPI::DataTransferObjects::LeaderboardEntry* x);
+    ::StringW $GetLeaderboardEntriesAsync$b__10_0(::BeatSaberAPI::DataTransferObjects::LeaderboardEntry* x);
     // public System.Void .ctor()
     // Offset: 0x13A8EC4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HTTPLeaderboardsModel::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::HTTPLeaderboardsModel::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HTTPLeaderboardsModel::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HTTPLeaderboardsModel::$$c*, creationType>()));
     }
   }; // HTTPLeaderboardsModel/<>c
@@ -76,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::HTTPLeaderboardsModel::$$c::$GetLeaderboardEntriesAsync$b__10_0
 // Il2CppName: <GetLeaderboardEntriesAsync>b__10_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::HTTPLeaderboardsModel::$$c::*)(BeatSaberAPI::DataTransferObjects::LeaderboardEntry*)>(&GlobalNamespace::HTTPLeaderboardsModel::$$c::$GetLeaderboardEntriesAsync$b__10_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::HTTPLeaderboardsModel::$$c::*)(::BeatSaberAPI::DataTransferObjects::LeaderboardEntry*)>(&GlobalNamespace::HTTPLeaderboardsModel::$$c::$GetLeaderboardEntriesAsync$b__10_0)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("BeatSaberAPI.DataTransferObjects", "LeaderboardEntry")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HTTPLeaderboardsModel::$$c*), "<GetLeaderboardEntriesAsync>b__10_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});

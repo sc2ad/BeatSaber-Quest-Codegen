@@ -29,8 +29,8 @@ namespace System::Collections::Generic {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OculusPlatformUserModel::$$c__DisplayClass5_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformUserModel::$$c__DisplayClass5_0*, "", "OculusPlatformUserModel/<>c__DisplayClass5_0");
+NEED_NO_BOX(::GlobalNamespace::OculusPlatformUserModel::$$c__DisplayClass5_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OculusPlatformUserModel::$$c__DisplayClass5_0*, "", "OculusPlatformUserModel/<>c__DisplayClass5_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x28
@@ -72,9 +72,9 @@ namespace GlobalNamespace {
     // public System.Threading.Tasks.TaskCompletionSource`1<System.Collections.Generic.IReadOnlyList`1<System.String>> tcs
     // Size: 0x8
     // Offset: 0x20
-    System::Threading::Tasks::TaskCompletionSource_1<System::Collections::Generic::IReadOnlyList_1<::StringW>*>* tcs;
+    ::System::Threading::Tasks::TaskCompletionSource_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>* tcs;
     // Field size check
-    static_assert(sizeof(System::Threading::Tasks::TaskCompletionSource_1<System::Collections::Generic::IReadOnlyList_1<::StringW>*>*) == 0x8);
+    static_assert(sizeof(::System::Threading::Tasks::TaskCompletionSource_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>*) == 0x8);
     public:
     // Get instance field reference: public System.Int32 requests
     int& dyn_requests();
@@ -83,7 +83,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String[] userNames
     ::ArrayW<::StringW>& dyn_userNames();
     // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<System.Collections.Generic.IReadOnlyList`1<System.String>> tcs
-    System::Threading::Tasks::TaskCompletionSource_1<System::Collections::Generic::IReadOnlyList_1<::StringW>*>*& dyn_tcs();
+    ::System::Threading::Tasks::TaskCompletionSource_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>*& dyn_tcs();
     // System.Void <GetUserNamesForUserIds>g__Fetch|0(System.Int32 index, System.UInt64 platformId)
     // Offset: 0x2BB9718
     void $GetUserNamesForUserIds$g__Fetch_0(int index, uint64_t platformId);
@@ -93,12 +93,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusPlatformUserModel::$$c__DisplayClass5_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OculusPlatformUserModel::$$c__DisplayClass5_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusPlatformUserModel::$$c__DisplayClass5_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusPlatformUserModel::$$c__DisplayClass5_0*, creationType>()));
     }
   }; // OculusPlatformUserModel/<>c__DisplayClass5_0
   #pragma pack(pop)
-  static check_size<sizeof(OculusPlatformUserModel::$$c__DisplayClass5_0), 32 + sizeof(System::Threading::Tasks::TaskCompletionSource_1<System::Collections::Generic::IReadOnlyList_1<::StringW>*>*)> __GlobalNamespace_OculusPlatformUserModel_$$c__DisplayClass5_0SizeCheck;
+  static check_size<sizeof(OculusPlatformUserModel::$$c__DisplayClass5_0), 32 + sizeof(::System::Threading::Tasks::TaskCompletionSource_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>*)> __GlobalNamespace_OculusPlatformUserModel_$$c__DisplayClass5_0SizeCheck;
   static_assert(sizeof(OculusPlatformUserModel::$$c__DisplayClass5_0) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

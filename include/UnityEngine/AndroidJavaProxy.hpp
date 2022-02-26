@@ -31,8 +31,8 @@ namespace UnityEngine {
   class AndroidJavaProxy;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::AndroidJavaProxy);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AndroidJavaProxy*, "UnityEngine", "AndroidJavaProxy");
+NEED_NO_BOX(::UnityEngine::AndroidJavaProxy);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AndroidJavaProxy*, "UnityEngine", "AndroidJavaProxy");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x20
@@ -53,40 +53,40 @@ namespace UnityEngine {
     // public readonly UnityEngine.AndroidJavaClass javaInterface
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::AndroidJavaClass* javaInterface;
+    ::UnityEngine::AndroidJavaClass* javaInterface;
     // Field size check
-    static_assert(sizeof(UnityEngine::AndroidJavaClass*) == 0x8);
+    static_assert(sizeof(::UnityEngine::AndroidJavaClass*) == 0x8);
     // System.IntPtr proxyObject
     // Size: 0x8
     // Offset: 0x18
-    System::IntPtr proxyObject;
+    ::System::IntPtr proxyObject;
     // Field size check
-    static_assert(sizeof(System::IntPtr) == 0x8);
+    static_assert(sizeof(::System::IntPtr) == 0x8);
     public:
     // Get static field: static private readonly UnityEngine.GlobalJavaObjectRef s_JavaLangSystemClass
-    static UnityEngine::GlobalJavaObjectRef* _get_s_JavaLangSystemClass();
+    static ::UnityEngine::GlobalJavaObjectRef* _get_s_JavaLangSystemClass();
     // Set static field: static private readonly UnityEngine.GlobalJavaObjectRef s_JavaLangSystemClass
-    static void _set_s_JavaLangSystemClass(UnityEngine::GlobalJavaObjectRef* value);
+    static void _set_s_JavaLangSystemClass(::UnityEngine::GlobalJavaObjectRef* value);
     // Get static field: static private readonly System.IntPtr s_HashCodeMethodID
-    static System::IntPtr _get_s_HashCodeMethodID();
+    static ::System::IntPtr _get_s_HashCodeMethodID();
     // Set static field: static private readonly System.IntPtr s_HashCodeMethodID
-    static void _set_s_HashCodeMethodID(System::IntPtr value);
+    static void _set_s_HashCodeMethodID(::System::IntPtr value);
     // Get instance field reference: public readonly UnityEngine.AndroidJavaClass javaInterface
-    UnityEngine::AndroidJavaClass*& dyn_javaInterface();
+    ::UnityEngine::AndroidJavaClass*& dyn_javaInterface();
     // Get instance field reference: System.IntPtr proxyObject
-    System::IntPtr& dyn_proxyObject();
+    ::System::IntPtr& dyn_proxyObject();
     // public System.Void .ctor(System.String javaInterface)
     // Offset: 0x29DA07C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AndroidJavaProxy* New_ctor(::StringW javaInterface) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaProxy::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AndroidJavaProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AndroidJavaProxy*, creationType>(javaInterface)));
     }
     // public System.Void .ctor(UnityEngine.AndroidJavaClass javaInterface)
     // Offset: 0x29DA0EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AndroidJavaProxy* New_ctor(UnityEngine::AndroidJavaClass* javaInterface) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AndroidJavaProxy::.ctor");
+    static AndroidJavaProxy* New_ctor(::UnityEngine::AndroidJavaClass* javaInterface) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AndroidJavaProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AndroidJavaProxy*, creationType>(javaInterface)));
     }
     // static private System.Void .cctor()
@@ -94,13 +94,13 @@ namespace UnityEngine {
     static void _cctor();
     // public UnityEngine.AndroidJavaObject Invoke(System.String methodName, System.Object[] args)
     // Offset: 0x29DA1B8
-    UnityEngine::AndroidJavaObject* Invoke(::StringW methodName, ::ArrayW<::Il2CppObject*> args);
+    ::UnityEngine::AndroidJavaObject* Invoke(::StringW methodName, ::ArrayW<::Il2CppObject*> args);
     // public UnityEngine.AndroidJavaObject Invoke(System.String methodName, UnityEngine.AndroidJavaObject[] javaArgs)
     // Offset: 0x29DB304
-    UnityEngine::AndroidJavaObject* Invoke(::StringW methodName, ::ArrayW<UnityEngine::AndroidJavaObject*> javaArgs);
+    ::UnityEngine::AndroidJavaObject* Invoke(::StringW methodName, ::ArrayW<::UnityEngine::AndroidJavaObject*> javaArgs);
     // public System.Boolean equals(UnityEngine.AndroidJavaObject obj)
     // Offset: 0x29DBAC0
-    bool equals(UnityEngine::AndroidJavaObject* obj);
+    bool equals(::UnityEngine::AndroidJavaObject* obj);
     // public System.Int32 hashCode()
     // Offset: 0x29DBB4C
     int hashCode();
@@ -109,10 +109,10 @@ namespace UnityEngine {
     ::StringW toString();
     // UnityEngine.AndroidJavaObject GetProxyObject()
     // Offset: 0x29DBC68
-    UnityEngine::AndroidJavaObject* GetProxyObject();
+    ::UnityEngine::AndroidJavaObject* GetProxyObject();
     // System.IntPtr GetRawProxy()
     // Offset: 0x29DB0C8
-    System::IntPtr GetRawProxy();
+    ::System::IntPtr GetRawProxy();
     // protected override System.Void Finalize()
     // Offset: 0x29DA14C
     // Implemented from: System.Object
@@ -120,7 +120,7 @@ namespace UnityEngine {
     void Finalize();
   }; // UnityEngine.AndroidJavaProxy
   #pragma pack(pop)
-  static check_size<sizeof(AndroidJavaProxy), 24 + sizeof(System::IntPtr)> __UnityEngine_AndroidJavaProxySizeCheck;
+  static check_size<sizeof(AndroidJavaProxy), 24 + sizeof(::System::IntPtr)> __UnityEngine_AndroidJavaProxySizeCheck;
   static_assert(sizeof(AndroidJavaProxy) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -143,7 +143,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::AndroidJavaProxy::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AndroidJavaObject* (UnityEngine::AndroidJavaProxy::*)(::StringW, ::ArrayW<::Il2CppObject*>)>(&UnityEngine::AndroidJavaProxy::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AndroidJavaObject* (UnityEngine::AndroidJavaProxy::*)(::StringW, ::ArrayW<::Il2CppObject*>)>(&UnityEngine::AndroidJavaProxy::Invoke)> {
   static const MethodInfo* get() {
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
@@ -153,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::AndroidJavaProxy::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AndroidJavaObject* (UnityEngine::AndroidJavaProxy::*)(::StringW, ::ArrayW<UnityEngine::AndroidJavaObject*>)>(&UnityEngine::AndroidJavaProxy::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AndroidJavaObject* (UnityEngine::AndroidJavaProxy::*)(::StringW, ::ArrayW<::UnityEngine::AndroidJavaObject*>)>(&UnityEngine::AndroidJavaProxy::Invoke)> {
   static const MethodInfo* get() {
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* javaArgs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "AndroidJavaObject"), 1)->byval_arg;
@@ -163,7 +163,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::AndroidJavaProxy::equals
 // Il2CppName: equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AndroidJavaProxy::*)(UnityEngine::AndroidJavaObject*)>(&UnityEngine::AndroidJavaProxy::equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AndroidJavaProxy::*)(::UnityEngine::AndroidJavaObject*)>(&UnityEngine::AndroidJavaProxy::equals)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("UnityEngine", "AndroidJavaObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJavaProxy*), "equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -188,7 +188,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: UnityEngine::AndroidJavaProxy::GetProxyObject
 // Il2CppName: GetProxyObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AndroidJavaObject* (UnityEngine::AndroidJavaProxy::*)()>(&UnityEngine::AndroidJavaProxy::GetProxyObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AndroidJavaObject* (UnityEngine::AndroidJavaProxy::*)()>(&UnityEngine::AndroidJavaProxy::GetProxyObject)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJavaProxy*), "GetProxyObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -196,7 +196,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::AndroidJavaProxy::GetRawProxy
 // Il2CppName: GetRawProxy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (UnityEngine::AndroidJavaProxy::*)()>(&UnityEngine::AndroidJavaProxy::GetRawProxy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (UnityEngine::AndroidJavaProxy::*)()>(&UnityEngine::AndroidJavaProxy::GetRawProxy)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJavaProxy*), "GetRawProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

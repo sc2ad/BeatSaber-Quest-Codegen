@@ -24,8 +24,8 @@ namespace System {
   class Math;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Math);
-DEFINE_IL2CPP_ARG_TYPE(System::Math*, "System", "Math");
+NEED_NO_BOX(::System::Math);
+DEFINE_IL2CPP_ARG_TYPE(::System::Math*, "System", "Math");
 // Type namespace: System
 namespace System {
   // Size: 0x10
@@ -98,13 +98,13 @@ namespace System {
     static double Round(double a);
     // static public System.Decimal Round(System.Decimal d)
     // Offset: 0x1A93E28
-    static System::Decimal Round(System::Decimal d);
+    static ::System::Decimal Round(::System::Decimal d);
     // static private System.Double SplitFractionDouble(System.Double* value)
     // Offset: 0x1A93D9C
     static double SplitFractionDouble(double* value);
     // static public System.Decimal Truncate(System.Decimal d)
     // Offset: 0x1A93EA4
-    static System::Decimal Truncate(System::Decimal d);
+    static ::System::Decimal Truncate(::System::Decimal d);
     // static public System.Double Truncate(System.Double d)
     // Offset: 0x1A93F1C
     static double Truncate(double d);
@@ -140,7 +140,7 @@ namespace System {
     static double Abs(double value);
     // static public System.Decimal Abs(System.Decimal value)
     // Offset: 0x1A941EC
-    static System::Decimal Abs(System::Decimal value);
+    static ::System::Decimal Abs(::System::Decimal value);
     // static public System.SByte Max(System.SByte val1, System.SByte val2)
     // Offset: 0x1A94264
     static int8_t Max(int8_t val1, int8_t val2);
@@ -173,7 +173,7 @@ namespace System {
     static double Max(double val1, double val2);
     // static public System.Decimal Max(System.Decimal val1, System.Decimal val2)
     // Offset: 0x1A943A8
-    static System::Decimal Max(System::Decimal val1, System::Decimal val2);
+    static ::System::Decimal Max(::System::Decimal val1, ::System::Decimal val2);
     // static public System.SByte Min(System.SByte val1, System.SByte val2)
     // Offset: 0x1A94438
     static int8_t Min(int8_t val1, int8_t val2);
@@ -206,7 +206,7 @@ namespace System {
     static double Min(double val1, double val2);
     // static public System.Decimal Min(System.Decimal val1, System.Decimal val2)
     // Offset: 0x1A9457C
-    static System::Decimal Min(System::Decimal val1, System::Decimal val2);
+    static ::System::Decimal Min(::System::Decimal val1, ::System::Decimal val2);
     // static public System.Double Log(System.Double a, System.Double newBase)
     // Offset: 0x1A9460C
     static double Log(double a, double newBase);
@@ -325,7 +325,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(
 // Writing MetadataGetter for method: System::Math::Round
 // Il2CppName: Round
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(System::Decimal)>(&System::Math::Round)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(::System::Decimal)>(&System::Math::Round)> {
   static const MethodInfo* get() {
     static auto* d = &::il2cpp_utils::GetClassFromName("System", "Decimal")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Math*), "Round", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{d});
@@ -343,7 +343,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(
 // Writing MetadataGetter for method: System::Math::Truncate
 // Il2CppName: Truncate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(System::Decimal)>(&System::Math::Truncate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(::System::Decimal)>(&System::Math::Truncate)> {
   static const MethodInfo* get() {
     static auto* d = &::il2cpp_utils::GetClassFromName("System", "Decimal")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Math*), "Truncate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{d});
@@ -452,7 +452,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(
 // Writing MetadataGetter for method: System::Math::Abs
 // Il2CppName: Abs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(System::Decimal)>(&System::Math::Abs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(::System::Decimal)>(&System::Math::Abs)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Decimal")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Math*), "Abs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -561,7 +561,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(
 // Writing MetadataGetter for method: System::Math::Max
 // Il2CppName: Max
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(System::Decimal, System::Decimal)>(&System::Math::Max)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(::System::Decimal, ::System::Decimal)>(&System::Math::Max)> {
   static const MethodInfo* get() {
     static auto* val1 = &::il2cpp_utils::GetClassFromName("System", "Decimal")->byval_arg;
     static auto* val2 = &::il2cpp_utils::GetClassFromName("System", "Decimal")->byval_arg;
@@ -671,7 +671,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(
 // Writing MetadataGetter for method: System::Math::Min
 // Il2CppName: Min
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(System::Decimal, System::Decimal)>(&System::Math::Min)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(::System::Decimal, ::System::Decimal)>(&System::Math::Min)> {
   static const MethodInfo* get() {
     static auto* val1 = &::il2cpp_utils::GetClassFromName("System", "Decimal")->byval_arg;
     static auto* val2 = &::il2cpp_utils::GetClassFromName("System", "Decimal")->byval_arg;

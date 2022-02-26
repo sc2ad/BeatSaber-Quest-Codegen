@@ -49,8 +49,8 @@ namespace Zenject {
   class ZenjectSceneLoader;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::ZenjectSceneLoader);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectSceneLoader*, "Zenject", "ZenjectSceneLoader");
+NEED_NO_BOX(::Zenject::ZenjectSceneLoader);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::ZenjectSceneLoader*, "Zenject", "ZenjectSceneLoader");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x20
@@ -71,25 +71,25 @@ namespace Zenject {
     // private readonly Zenject.ProjectKernel _projectKernel
     // Size: 0x8
     // Offset: 0x10
-    Zenject::ProjectKernel* projectKernel;
+    ::Zenject::ProjectKernel* projectKernel;
     // Field size check
-    static_assert(sizeof(Zenject::ProjectKernel*) == 0x8);
+    static_assert(sizeof(::Zenject::ProjectKernel*) == 0x8);
     // private readonly Zenject.DiContainer _sceneContainer
     // Size: 0x8
     // Offset: 0x18
-    Zenject::DiContainer* sceneContainer;
+    ::Zenject::DiContainer* sceneContainer;
     // Field size check
-    static_assert(sizeof(Zenject::DiContainer*) == 0x8);
+    static_assert(sizeof(::Zenject::DiContainer*) == 0x8);
     public:
     // Get instance field reference: private readonly Zenject.ProjectKernel _projectKernel
-    Zenject::ProjectKernel*& dyn__projectKernel();
+    ::Zenject::ProjectKernel*& dyn__projectKernel();
     // Get instance field reference: private readonly Zenject.DiContainer _sceneContainer
-    Zenject::DiContainer*& dyn__sceneContainer();
+    ::Zenject::DiContainer*& dyn__sceneContainer();
     // public System.Void .ctor(Zenject.SceneContext sceneRoot, Zenject.ProjectKernel projectKernel)
     // Offset: 0x24724EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ZenjectSceneLoader* New_ctor(Zenject::SceneContext* sceneRoot, Zenject::ProjectKernel* projectKernel) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ZenjectSceneLoader::.ctor");
+    static ZenjectSceneLoader* New_ctor(::Zenject::SceneContext* sceneRoot, ::Zenject::ProjectKernel* projectKernel) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenjectSceneLoader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ZenjectSceneLoader*, creationType>(sceneRoot, projectKernel)));
     }
     // public System.Void LoadScene(System.String sceneName)
@@ -97,73 +97,73 @@ namespace Zenject {
     void LoadScene(::StringW sceneName);
     // public System.Void LoadScene(System.String sceneName, UnityEngine.SceneManagement.LoadSceneMode loadMode)
     // Offset: 0x24725B8
-    void LoadScene(::StringW sceneName, UnityEngine::SceneManagement::LoadSceneMode loadMode);
+    void LoadScene(::StringW sceneName, ::UnityEngine::SceneManagement::LoadSceneMode loadMode);
     // public System.Void LoadScene(System.String sceneName, UnityEngine.SceneManagement.LoadSceneMode loadMode, System.Action`1<Zenject.DiContainer> extraBindings)
     // Offset: 0x24725C8
-    void LoadScene(::StringW sceneName, UnityEngine::SceneManagement::LoadSceneMode loadMode, System::Action_1<Zenject::DiContainer*>* extraBindings);
+    void LoadScene(::StringW sceneName, ::UnityEngine::SceneManagement::LoadSceneMode loadMode, ::System::Action_1<::Zenject::DiContainer*>* extraBindings);
     // public System.Void LoadScene(System.String sceneName, UnityEngine.SceneManagement.LoadSceneMode loadMode, System.Action`1<Zenject.DiContainer> extraBindings, Zenject.LoadSceneRelationship containerMode)
     // Offset: 0x24725D4
-    void LoadScene(::StringW sceneName, UnityEngine::SceneManagement::LoadSceneMode loadMode, System::Action_1<Zenject::DiContainer*>* extraBindings, Zenject::LoadSceneRelationship containerMode);
+    void LoadScene(::StringW sceneName, ::UnityEngine::SceneManagement::LoadSceneMode loadMode, ::System::Action_1<::Zenject::DiContainer*>* extraBindings, ::Zenject::LoadSceneRelationship containerMode);
     // public System.Void LoadScene(System.String sceneName, UnityEngine.SceneManagement.LoadSceneMode loadMode, System.Action`1<Zenject.DiContainer> extraBindings, Zenject.LoadSceneRelationship containerMode, System.Action`1<Zenject.DiContainer> extraBindingsLate)
     // Offset: 0x24725DC
-    void LoadScene(::StringW sceneName, UnityEngine::SceneManagement::LoadSceneMode loadMode, System::Action_1<Zenject::DiContainer*>* extraBindings, Zenject::LoadSceneRelationship containerMode, System::Action_1<Zenject::DiContainer*>* extraBindingsLate);
+    void LoadScene(::StringW sceneName, ::UnityEngine::SceneManagement::LoadSceneMode loadMode, ::System::Action_1<::Zenject::DiContainer*>* extraBindings, ::Zenject::LoadSceneRelationship containerMode, ::System::Action_1<::Zenject::DiContainer*>* extraBindingsLate);
     // public UnityEngine.AsyncOperation LoadSceneAsync(System.String sceneName)
     // Offset: 0x24728C0
-    UnityEngine::AsyncOperation* LoadSceneAsync(::StringW sceneName);
+    ::UnityEngine::AsyncOperation* LoadSceneAsync(::StringW sceneName);
     // public UnityEngine.AsyncOperation LoadSceneAsync(System.String sceneName, UnityEngine.SceneManagement.LoadSceneMode loadMode)
     // Offset: 0x24728D8
-    UnityEngine::AsyncOperation* LoadSceneAsync(::StringW sceneName, UnityEngine::SceneManagement::LoadSceneMode loadMode);
+    ::UnityEngine::AsyncOperation* LoadSceneAsync(::StringW sceneName, ::UnityEngine::SceneManagement::LoadSceneMode loadMode);
     // public UnityEngine.AsyncOperation LoadSceneAsync(System.String sceneName, UnityEngine.SceneManagement.LoadSceneMode loadMode, System.Action`1<Zenject.DiContainer> extraBindings)
     // Offset: 0x24728EC
-    UnityEngine::AsyncOperation* LoadSceneAsync(::StringW sceneName, UnityEngine::SceneManagement::LoadSceneMode loadMode, System::Action_1<Zenject::DiContainer*>* extraBindings);
+    ::UnityEngine::AsyncOperation* LoadSceneAsync(::StringW sceneName, ::UnityEngine::SceneManagement::LoadSceneMode loadMode, ::System::Action_1<::Zenject::DiContainer*>* extraBindings);
     // public UnityEngine.AsyncOperation LoadSceneAsync(System.String sceneName, UnityEngine.SceneManagement.LoadSceneMode loadMode, System.Action`1<Zenject.DiContainer> extraBindings, Zenject.LoadSceneRelationship containerMode)
     // Offset: 0x2472900
-    UnityEngine::AsyncOperation* LoadSceneAsync(::StringW sceneName, UnityEngine::SceneManagement::LoadSceneMode loadMode, System::Action_1<Zenject::DiContainer*>* extraBindings, Zenject::LoadSceneRelationship containerMode);
+    ::UnityEngine::AsyncOperation* LoadSceneAsync(::StringW sceneName, ::UnityEngine::SceneManagement::LoadSceneMode loadMode, ::System::Action_1<::Zenject::DiContainer*>* extraBindings, ::Zenject::LoadSceneRelationship containerMode);
     // public UnityEngine.AsyncOperation LoadSceneAsync(System.String sceneName, UnityEngine.SceneManagement.LoadSceneMode loadMode, System.Action`1<Zenject.DiContainer> extraBindingsEarly, System.Action`1<Zenject.DiContainer> extraBindings, Zenject.LoadSceneRelationship containerMode, System.Action`1<Zenject.DiContainer> extraBindingsLate)
     // Offset: 0x2472914
-    UnityEngine::AsyncOperation* LoadSceneAsync(::StringW sceneName, UnityEngine::SceneManagement::LoadSceneMode loadMode, System::Action_1<Zenject::DiContainer*>* extraBindingsEarly, System::Action_1<Zenject::DiContainer*>* extraBindings, Zenject::LoadSceneRelationship containerMode, System::Action_1<Zenject::DiContainer*>* extraBindingsLate);
+    ::UnityEngine::AsyncOperation* LoadSceneAsync(::StringW sceneName, ::UnityEngine::SceneManagement::LoadSceneMode loadMode, ::System::Action_1<::Zenject::DiContainer*>* extraBindingsEarly, ::System::Action_1<::Zenject::DiContainer*>* extraBindings, ::Zenject::LoadSceneRelationship containerMode, ::System::Action_1<::Zenject::DiContainer*>* extraBindingsLate);
     // private System.Void PrepareForLoadScene(UnityEngine.SceneManagement.LoadSceneMode loadMode, System.Action`1<Zenject.DiContainer> extraBindingsEarly, System.Action`1<Zenject.DiContainer> extraBindings, System.Action`1<Zenject.DiContainer> extraBindingsLate, Zenject.LoadSceneRelationship containerMode)
     // Offset: 0x24726B8
-    void PrepareForLoadScene(UnityEngine::SceneManagement::LoadSceneMode loadMode, System::Action_1<Zenject::DiContainer*>* extraBindingsEarly, System::Action_1<Zenject::DiContainer*>* extraBindings, System::Action_1<Zenject::DiContainer*>* extraBindingsLate, Zenject::LoadSceneRelationship containerMode);
+    void PrepareForLoadScene(::UnityEngine::SceneManagement::LoadSceneMode loadMode, ::System::Action_1<::Zenject::DiContainer*>* extraBindingsEarly, ::System::Action_1<::Zenject::DiContainer*>* extraBindings, ::System::Action_1<::Zenject::DiContainer*>* extraBindingsLate, ::Zenject::LoadSceneRelationship containerMode);
     // public System.Void LoadScene(System.Int32 sceneIndex)
     // Offset: 0x24729F4
     void LoadScene(int sceneIndex);
     // public System.Void LoadScene(System.Int32 sceneIndex, UnityEngine.SceneManagement.LoadSceneMode loadMode)
     // Offset: 0x2472A08
-    void LoadScene(int sceneIndex, UnityEngine::SceneManagement::LoadSceneMode loadMode);
+    void LoadScene(int sceneIndex, ::UnityEngine::SceneManagement::LoadSceneMode loadMode);
     // public System.Void LoadScene(System.Int32 sceneIndex, UnityEngine.SceneManagement.LoadSceneMode loadMode, System.Action`1<Zenject.DiContainer> extraBindings)
     // Offset: 0x2472A18
-    void LoadScene(int sceneIndex, UnityEngine::SceneManagement::LoadSceneMode loadMode, System::Action_1<Zenject::DiContainer*>* extraBindings);
+    void LoadScene(int sceneIndex, ::UnityEngine::SceneManagement::LoadSceneMode loadMode, ::System::Action_1<::Zenject::DiContainer*>* extraBindings);
     // public System.Void LoadScene(System.Int32 sceneIndex, UnityEngine.SceneManagement.LoadSceneMode loadMode, System.Action`1<Zenject.DiContainer> extraBindings, Zenject.LoadSceneRelationship containerMode)
     // Offset: 0x2472A24
-    void LoadScene(int sceneIndex, UnityEngine::SceneManagement::LoadSceneMode loadMode, System::Action_1<Zenject::DiContainer*>* extraBindings, Zenject::LoadSceneRelationship containerMode);
+    void LoadScene(int sceneIndex, ::UnityEngine::SceneManagement::LoadSceneMode loadMode, ::System::Action_1<::Zenject::DiContainer*>* extraBindings, ::Zenject::LoadSceneRelationship containerMode);
     // public System.Void LoadScene(System.Int32 sceneIndex, UnityEngine.SceneManagement.LoadSceneMode loadMode, System.Action`1<Zenject.DiContainer> extraBindings, Zenject.LoadSceneRelationship containerMode, System.Action`1<Zenject.DiContainer> extraBindingsLate)
     // Offset: 0x2472A2C
-    void LoadScene(int sceneIndex, UnityEngine::SceneManagement::LoadSceneMode loadMode, System::Action_1<Zenject::DiContainer*>* extraBindings, Zenject::LoadSceneRelationship containerMode, System::Action_1<Zenject::DiContainer*>* extraBindingsLate);
+    void LoadScene(int sceneIndex, ::UnityEngine::SceneManagement::LoadSceneMode loadMode, ::System::Action_1<::Zenject::DiContainer*>* extraBindings, ::Zenject::LoadSceneRelationship containerMode, ::System::Action_1<::Zenject::DiContainer*>* extraBindingsLate);
     // public UnityEngine.AsyncOperation LoadSceneAsync(System.Int32 sceneIndex)
     // Offset: 0x2472B28
-    UnityEngine::AsyncOperation* LoadSceneAsync(int sceneIndex);
+    ::UnityEngine::AsyncOperation* LoadSceneAsync(int sceneIndex);
     // public UnityEngine.AsyncOperation LoadSceneAsync(System.Int32 sceneIndex, UnityEngine.SceneManagement.LoadSceneMode loadMode)
     // Offset: 0x2472B3C
-    UnityEngine::AsyncOperation* LoadSceneAsync(int sceneIndex, UnityEngine::SceneManagement::LoadSceneMode loadMode);
+    ::UnityEngine::AsyncOperation* LoadSceneAsync(int sceneIndex, ::UnityEngine::SceneManagement::LoadSceneMode loadMode);
     // public UnityEngine.AsyncOperation LoadSceneAsync(System.Int32 sceneIndex, UnityEngine.SceneManagement.LoadSceneMode loadMode, System.Action`1<Zenject.DiContainer> extraBindings)
     // Offset: 0x2472B4C
-    UnityEngine::AsyncOperation* LoadSceneAsync(int sceneIndex, UnityEngine::SceneManagement::LoadSceneMode loadMode, System::Action_1<Zenject::DiContainer*>* extraBindings);
+    ::UnityEngine::AsyncOperation* LoadSceneAsync(int sceneIndex, ::UnityEngine::SceneManagement::LoadSceneMode loadMode, ::System::Action_1<::Zenject::DiContainer*>* extraBindings);
     // public UnityEngine.AsyncOperation LoadSceneAsync(System.Int32 sceneIndex, UnityEngine.SceneManagement.LoadSceneMode loadMode, System.Action`1<Zenject.DiContainer> extraBindings, Zenject.LoadSceneRelationship containerMode)
     // Offset: 0x2472B58
-    UnityEngine::AsyncOperation* LoadSceneAsync(int sceneIndex, UnityEngine::SceneManagement::LoadSceneMode loadMode, System::Action_1<Zenject::DiContainer*>* extraBindings, Zenject::LoadSceneRelationship containerMode);
+    ::UnityEngine::AsyncOperation* LoadSceneAsync(int sceneIndex, ::UnityEngine::SceneManagement::LoadSceneMode loadMode, ::System::Action_1<::Zenject::DiContainer*>* extraBindings, ::Zenject::LoadSceneRelationship containerMode);
     // public UnityEngine.AsyncOperation LoadSceneAsync(System.Int32 sceneIndex, UnityEngine.SceneManagement.LoadSceneMode loadMode, System.Action`1<Zenject.DiContainer> extraBindings, Zenject.LoadSceneRelationship containerMode, System.Action`1<Zenject.DiContainer> extraBindingsLate)
     // Offset: 0x2472B60
-    UnityEngine::AsyncOperation* LoadSceneAsync(int sceneIndex, UnityEngine::SceneManagement::LoadSceneMode loadMode, System::Action_1<Zenject::DiContainer*>* extraBindings, Zenject::LoadSceneRelationship containerMode, System::Action_1<Zenject::DiContainer*>* extraBindingsLate);
+    ::UnityEngine::AsyncOperation* LoadSceneAsync(int sceneIndex, ::UnityEngine::SceneManagement::LoadSceneMode loadMode, ::System::Action_1<::Zenject::DiContainer*>* extraBindings, ::Zenject::LoadSceneRelationship containerMode, ::System::Action_1<::Zenject::DiContainer*>* extraBindingsLate);
     // static private System.Object __zenCreate(System.Object[] P_0)
     // Offset: 0x2472C5C
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
     // Offset: 0x2472D74
-    static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.ZenjectSceneLoader
   #pragma pack(pop)
-  static check_size<sizeof(ZenjectSceneLoader), 24 + sizeof(Zenject::DiContainer*)> __Zenject_ZenjectSceneLoaderSizeCheck;
+  static check_size<sizeof(ZenjectSceneLoader), 24 + sizeof(::Zenject::DiContainer*)> __Zenject_ZenjectSceneLoaderSizeCheck;
   static_assert(sizeof(ZenjectSceneLoader) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -183,7 +183,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadScene
 // Il2CppName: LoadScene
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(::StringW, UnityEngine::SceneManagement::LoadSceneMode)>(&Zenject::ZenjectSceneLoader::LoadScene)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(::StringW, ::UnityEngine::SceneManagement::LoadSceneMode)>(&Zenject::ZenjectSceneLoader::LoadScene)> {
   static const MethodInfo* get() {
     static auto* sceneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* loadMode = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneMode")->byval_arg;
@@ -193,7 +193,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadScene
 // Il2CppName: LoadScene
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(::StringW, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*)>(&Zenject::ZenjectSceneLoader::LoadScene)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(::StringW, ::UnityEngine::SceneManagement::LoadSceneMode, ::System::Action_1<::Zenject::DiContainer*>*)>(&Zenject::ZenjectSceneLoader::LoadScene)> {
   static const MethodInfo* get() {
     static auto* sceneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* loadMode = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneMode")->byval_arg;
@@ -204,7 +204,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadScene
 // Il2CppName: LoadScene
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(::StringW, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*, Zenject::LoadSceneRelationship)>(&Zenject::ZenjectSceneLoader::LoadScene)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(::StringW, ::UnityEngine::SceneManagement::LoadSceneMode, ::System::Action_1<::Zenject::DiContainer*>*, ::Zenject::LoadSceneRelationship)>(&Zenject::ZenjectSceneLoader::LoadScene)> {
   static const MethodInfo* get() {
     static auto* sceneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* loadMode = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneMode")->byval_arg;
@@ -216,7 +216,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadScene
 // Il2CppName: LoadScene
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(::StringW, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*, Zenject::LoadSceneRelationship, System::Action_1<Zenject::DiContainer*>*)>(&Zenject::ZenjectSceneLoader::LoadScene)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(::StringW, ::UnityEngine::SceneManagement::LoadSceneMode, ::System::Action_1<::Zenject::DiContainer*>*, ::Zenject::LoadSceneRelationship, ::System::Action_1<::Zenject::DiContainer*>*)>(&Zenject::ZenjectSceneLoader::LoadScene)> {
   static const MethodInfo* get() {
     static auto* sceneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* loadMode = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneMode")->byval_arg;
@@ -229,7 +229,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadSceneAsync
 // Il2CppName: LoadSceneAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(::StringW)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(::StringW)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
   static const MethodInfo* get() {
     static auto* sceneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sceneName});
@@ -238,7 +238,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadSceneAsync
 // Il2CppName: LoadSceneAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(::StringW, UnityEngine::SceneManagement::LoadSceneMode)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(::StringW, ::UnityEngine::SceneManagement::LoadSceneMode)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
   static const MethodInfo* get() {
     static auto* sceneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* loadMode = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneMode")->byval_arg;
@@ -248,7 +248,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadSceneAsync
 // Il2CppName: LoadSceneAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(::StringW, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(::StringW, ::UnityEngine::SceneManagement::LoadSceneMode, ::System::Action_1<::Zenject::DiContainer*>*)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
   static const MethodInfo* get() {
     static auto* sceneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* loadMode = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneMode")->byval_arg;
@@ -259,7 +259,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadSceneAsync
 // Il2CppName: LoadSceneAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(::StringW, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*, Zenject::LoadSceneRelationship)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(::StringW, ::UnityEngine::SceneManagement::LoadSceneMode, ::System::Action_1<::Zenject::DiContainer*>*, ::Zenject::LoadSceneRelationship)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
   static const MethodInfo* get() {
     static auto* sceneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* loadMode = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneMode")->byval_arg;
@@ -271,7 +271,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadSceneAsync
 // Il2CppName: LoadSceneAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(::StringW, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*, System::Action_1<Zenject::DiContainer*>*, Zenject::LoadSceneRelationship, System::Action_1<Zenject::DiContainer*>*)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(::StringW, ::UnityEngine::SceneManagement::LoadSceneMode, ::System::Action_1<::Zenject::DiContainer*>*, ::System::Action_1<::Zenject::DiContainer*>*, ::Zenject::LoadSceneRelationship, ::System::Action_1<::Zenject::DiContainer*>*)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
   static const MethodInfo* get() {
     static auto* sceneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* loadMode = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneMode")->byval_arg;
@@ -285,7 +285,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::PrepareForLoadScene
 // Il2CppName: PrepareForLoadScene
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*, System::Action_1<Zenject::DiContainer*>*, System::Action_1<Zenject::DiContainer*>*, Zenject::LoadSceneRelationship)>(&Zenject::ZenjectSceneLoader::PrepareForLoadScene)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(::UnityEngine::SceneManagement::LoadSceneMode, ::System::Action_1<::Zenject::DiContainer*>*, ::System::Action_1<::Zenject::DiContainer*>*, ::System::Action_1<::Zenject::DiContainer*>*, ::Zenject::LoadSceneRelationship)>(&Zenject::ZenjectSceneLoader::PrepareForLoadScene)> {
   static const MethodInfo* get() {
     static auto* loadMode = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneMode")->byval_arg;
     static auto* extraBindingsEarly = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")})->byval_arg;
@@ -307,7 +307,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadScene
 // Il2CppName: LoadScene
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(int, UnityEngine::SceneManagement::LoadSceneMode)>(&Zenject::ZenjectSceneLoader::LoadScene)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(int, ::UnityEngine::SceneManagement::LoadSceneMode)>(&Zenject::ZenjectSceneLoader::LoadScene)> {
   static const MethodInfo* get() {
     static auto* sceneIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* loadMode = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneMode")->byval_arg;
@@ -317,7 +317,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadScene
 // Il2CppName: LoadScene
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(int, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*)>(&Zenject::ZenjectSceneLoader::LoadScene)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(int, ::UnityEngine::SceneManagement::LoadSceneMode, ::System::Action_1<::Zenject::DiContainer*>*)>(&Zenject::ZenjectSceneLoader::LoadScene)> {
   static const MethodInfo* get() {
     static auto* sceneIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* loadMode = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneMode")->byval_arg;
@@ -328,7 +328,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadScene
 // Il2CppName: LoadScene
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(int, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*, Zenject::LoadSceneRelationship)>(&Zenject::ZenjectSceneLoader::LoadScene)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(int, ::UnityEngine::SceneManagement::LoadSceneMode, ::System::Action_1<::Zenject::DiContainer*>*, ::Zenject::LoadSceneRelationship)>(&Zenject::ZenjectSceneLoader::LoadScene)> {
   static const MethodInfo* get() {
     static auto* sceneIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* loadMode = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneMode")->byval_arg;
@@ -340,7 +340,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadScene
 // Il2CppName: LoadScene
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(int, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*, Zenject::LoadSceneRelationship, System::Action_1<Zenject::DiContainer*>*)>(&Zenject::ZenjectSceneLoader::LoadScene)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(int, ::UnityEngine::SceneManagement::LoadSceneMode, ::System::Action_1<::Zenject::DiContainer*>*, ::Zenject::LoadSceneRelationship, ::System::Action_1<::Zenject::DiContainer*>*)>(&Zenject::ZenjectSceneLoader::LoadScene)> {
   static const MethodInfo* get() {
     static auto* sceneIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* loadMode = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneMode")->byval_arg;
@@ -353,7 +353,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadSceneAsync
 // Il2CppName: LoadSceneAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(int)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(int)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
   static const MethodInfo* get() {
     static auto* sceneIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sceneIndex});
@@ -362,7 +362,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadSceneAsync
 // Il2CppName: LoadSceneAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(int, UnityEngine::SceneManagement::LoadSceneMode)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(int, ::UnityEngine::SceneManagement::LoadSceneMode)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
   static const MethodInfo* get() {
     static auto* sceneIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* loadMode = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneMode")->byval_arg;
@@ -372,7 +372,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadSceneAsync
 // Il2CppName: LoadSceneAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(int, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(int, ::UnityEngine::SceneManagement::LoadSceneMode, ::System::Action_1<::Zenject::DiContainer*>*)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
   static const MethodInfo* get() {
     static auto* sceneIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* loadMode = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneMode")->byval_arg;
@@ -383,7 +383,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadSceneAsync
 // Il2CppName: LoadSceneAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(int, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*, Zenject::LoadSceneRelationship)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(int, ::UnityEngine::SceneManagement::LoadSceneMode, ::System::Action_1<::Zenject::DiContainer*>*, ::Zenject::LoadSceneRelationship)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
   static const MethodInfo* get() {
     static auto* sceneIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* loadMode = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneMode")->byval_arg;
@@ -395,7 +395,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadSceneAsync
 // Il2CppName: LoadSceneAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(int, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*, Zenject::LoadSceneRelationship, System::Action_1<Zenject::DiContainer*>*)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(int, ::UnityEngine::SceneManagement::LoadSceneMode, ::System::Action_1<::Zenject::DiContainer*>*, ::Zenject::LoadSceneRelationship, ::System::Action_1<::Zenject::DiContainer*>*)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
   static const MethodInfo* get() {
     static auto* sceneIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* loadMode = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneMode")->byval_arg;
@@ -417,7 +417,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::__zenCreateInjectTypeInfo
 // Il2CppName: __zenCreateInjectTypeInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (*)()>(&Zenject::ZenjectSceneLoader::__zenCreateInjectTypeInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&Zenject::ZenjectSceneLoader::__zenCreateInjectTypeInfo)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

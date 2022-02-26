@@ -25,7 +25,7 @@ namespace GlobalNamespace {
   class IStateTable_3;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::IStateTable_3, "", "IStateTable`3");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::IStateTable_3, "", "IStateTable`3");
 // Type namespace: 
 namespace GlobalNamespace {
   // WARNING Size may be invalid!
@@ -37,35 +37,35 @@ namespace GlobalNamespace {
     // public TState GetState(TType type)
     // Offset: 0xFFFFFFFF
     TState GetState(TType type) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IStateTable_3::GetState");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::IStateTable_3::GetState");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetState", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(type)})));
       return ::il2cpp_utils::RunMethodRethrow<TState, false>(this, ___internal__method, type);
     }
     // public System.Void SetState(TType type, TState state)
     // Offset: 0xFFFFFFFF
     void SetState(TType type, TState state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IStateTable_3::SetState");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::IStateTable_3::SetState");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetState", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(type), ::il2cpp_utils::ExtractType(state)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, type, state);
     }
     // public TStateTable GetDelta(in TStateTable stateTable)
     // Offset: 0xFFFFFFFF
     TStateTable GetDelta(ByRef<TStateTable> stateTable) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IStateTable_3::GetDelta");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::IStateTable_3::GetDelta");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetDelta", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(stateTable)})));
       return ::il2cpp_utils::RunMethodRethrow<TStateTable, false>(this, ___internal__method, byref(stateTable));
     }
     // public TStateTable ApplyDelta(in TStateTable delta)
     // Offset: 0xFFFFFFFF
     TStateTable ApplyDelta(ByRef<TStateTable> delta) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IStateTable_3::ApplyDelta");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::IStateTable_3::ApplyDelta");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ApplyDelta", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(delta)})));
       return ::il2cpp_utils::RunMethodRethrow<TStateTable, false>(this, ___internal__method, byref(delta));
     }
     // public System.Int32 GetSize()
     // Offset: 0xFFFFFFFF
     int GetSize() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IStateTable_3::GetSize");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::IStateTable_3::GetSize");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetSize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method);
     }

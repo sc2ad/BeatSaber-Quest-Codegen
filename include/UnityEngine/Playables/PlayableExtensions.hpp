@@ -36,8 +36,8 @@ namespace UnityEngine::Playables {
   class PlayableExtensions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Playables::PlayableExtensions);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableExtensions*, "UnityEngine.Playables", "PlayableExtensions");
+NEED_NO_BOX(::UnityEngine::Playables::PlayableExtensions);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Playables::PlayableExtensions*, "UnityEngine.Playables", "PlayableExtensions");
 // Type namespace: UnityEngine.Playables
 namespace UnityEngine::Playables {
   // Size: 0x10
@@ -51,8 +51,8 @@ namespace UnityEngine::Playables {
     // Offset: 0xFFFFFFFF
     template<class U>
     static bool IsValid(U playable) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<U>, UnityEngine::Playables::IPlayable> && is_value_type_v<U>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableExtensions::IsValid");
+      static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayable> && std::is_convertible_v<U, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Playables::PlayableExtensions::IsValid");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Playables", "PlayableExtensions", "IsValid", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(playable)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, playable);
@@ -60,29 +60,29 @@ namespace UnityEngine::Playables {
     // static public UnityEngine.Playables.PlayableGraph GetGraph(U playable)
     // Offset: 0xFFFFFFFF
     template<class U>
-    static UnityEngine::Playables::PlayableGraph GetGraph(U playable) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<U>, UnityEngine::Playables::IPlayable> && is_value_type_v<U>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableExtensions::GetGraph");
+    static ::UnityEngine::Playables::PlayableGraph GetGraph(U playable) {
+      static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayable> && std::is_convertible_v<U, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Playables::PlayableExtensions::GetGraph");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Playables", "PlayableExtensions", "GetGraph", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(playable)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}));
-      return ::il2cpp_utils::RunMethodRethrow<UnityEngine::Playables::PlayableGraph, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, playable);
+      return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::Playables::PlayableGraph, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, playable);
     }
     // static public UnityEngine.Playables.PlayState GetPlayState(U playable)
     // Offset: 0xFFFFFFFF
     template<class U>
-    static UnityEngine::Playables::PlayState GetPlayState(U playable) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<U>, UnityEngine::Playables::IPlayable> && is_value_type_v<U>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableExtensions::GetPlayState");
+    static ::UnityEngine::Playables::PlayState GetPlayState(U playable) {
+      static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayable> && std::is_convertible_v<U, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Playables::PlayableExtensions::GetPlayState");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Playables", "PlayableExtensions", "GetPlayState", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(playable)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}));
-      return ::il2cpp_utils::RunMethodRethrow<UnityEngine::Playables::PlayState, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, playable);
+      return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::Playables::PlayState, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, playable);
     }
     // static public System.Void Play(U playable)
     // Offset: 0xFFFFFFFF
     template<class U>
     static void Play(U playable) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<U>, UnityEngine::Playables::IPlayable> && is_value_type_v<U>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableExtensions::Play");
+      static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayable> && std::is_convertible_v<U, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Playables::PlayableExtensions::Play");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Playables", "PlayableExtensions", "Play", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(playable)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, playable);
@@ -91,8 +91,8 @@ namespace UnityEngine::Playables {
     // Offset: 0xFFFFFFFF
     template<class U>
     static void Pause(U playable) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<U>, UnityEngine::Playables::IPlayable> && is_value_type_v<U>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableExtensions::Pause");
+      static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayable> && std::is_convertible_v<U, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Playables::PlayableExtensions::Pause");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Playables", "PlayableExtensions", "Pause", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(playable)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, playable);
@@ -101,8 +101,8 @@ namespace UnityEngine::Playables {
     // Offset: 0xFFFFFFFF
     template<class U>
     static void SetSpeed(U playable, double value) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<U>, UnityEngine::Playables::IPlayable> && is_value_type_v<U>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableExtensions::SetSpeed");
+      static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayable> && std::is_convertible_v<U, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Playables::PlayableExtensions::SetSpeed");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Playables", "PlayableExtensions", "SetSpeed", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(playable), ::il2cpp_utils::ExtractType(value)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, playable, value);
@@ -111,8 +111,8 @@ namespace UnityEngine::Playables {
     // Offset: 0xFFFFFFFF
     template<class U>
     static void SetDuration(U playable, double value) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<U>, UnityEngine::Playables::IPlayable> && is_value_type_v<U>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableExtensions::SetDuration");
+      static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayable> && std::is_convertible_v<U, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Playables::PlayableExtensions::SetDuration");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Playables", "PlayableExtensions", "SetDuration", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(playable), ::il2cpp_utils::ExtractType(value)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, playable, value);
@@ -121,8 +121,8 @@ namespace UnityEngine::Playables {
     // Offset: 0xFFFFFFFF
     template<class U>
     static double GetDuration(U playable) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<U>, UnityEngine::Playables::IPlayable> && is_value_type_v<U>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableExtensions::GetDuration");
+      static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayable> && std::is_convertible_v<U, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Playables::PlayableExtensions::GetDuration");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Playables", "PlayableExtensions", "GetDuration", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(playable)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<double, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, playable);
@@ -131,8 +131,8 @@ namespace UnityEngine::Playables {
     // Offset: 0xFFFFFFFF
     template<class U>
     static void SetTime(U playable, double value) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<U>, UnityEngine::Playables::IPlayable> && is_value_type_v<U>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableExtensions::SetTime");
+      static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayable> && std::is_convertible_v<U, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Playables::PlayableExtensions::SetTime");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Playables", "PlayableExtensions", "SetTime", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(playable), ::il2cpp_utils::ExtractType(value)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, playable, value);
@@ -141,8 +141,8 @@ namespace UnityEngine::Playables {
     // Offset: 0xFFFFFFFF
     template<class U>
     static double GetTime(U playable) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<U>, UnityEngine::Playables::IPlayable> && is_value_type_v<U>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableExtensions::GetTime");
+      static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayable> && std::is_convertible_v<U, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Playables::PlayableExtensions::GetTime");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Playables", "PlayableExtensions", "GetTime", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(playable)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<double, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, playable);
@@ -151,8 +151,8 @@ namespace UnityEngine::Playables {
     // Offset: 0xFFFFFFFF
     template<class U>
     static double GetPreviousTime(U playable) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<U>, UnityEngine::Playables::IPlayable> && is_value_type_v<U>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableExtensions::GetPreviousTime");
+      static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayable> && std::is_convertible_v<U, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Playables::PlayableExtensions::GetPreviousTime");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Playables", "PlayableExtensions", "GetPreviousTime", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(playable)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<double, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, playable);
@@ -161,8 +161,8 @@ namespace UnityEngine::Playables {
     // Offset: 0xFFFFFFFF
     template<class U>
     static bool IsDone(U playable) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<U>, UnityEngine::Playables::IPlayable> && is_value_type_v<U>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableExtensions::IsDone");
+      static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayable> && std::is_convertible_v<U, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Playables::PlayableExtensions::IsDone");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Playables", "PlayableExtensions", "IsDone", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(playable)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, playable);
@@ -171,8 +171,8 @@ namespace UnityEngine::Playables {
     // Offset: 0xFFFFFFFF
     template<class U>
     static void SetPropagateSetTime(U playable, bool value) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<U>, UnityEngine::Playables::IPlayable> && is_value_type_v<U>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableExtensions::SetPropagateSetTime");
+      static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayable> && std::is_convertible_v<U, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Playables::PlayableExtensions::SetPropagateSetTime");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Playables", "PlayableExtensions", "SetPropagateSetTime", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(playable), ::il2cpp_utils::ExtractType(value)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, playable, value);
@@ -181,8 +181,8 @@ namespace UnityEngine::Playables {
     // Offset: 0xFFFFFFFF
     template<class U>
     static void SetInputCount(U playable, int value) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<U>, UnityEngine::Playables::IPlayable> && is_value_type_v<U>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableExtensions::SetInputCount");
+      static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayable> && std::is_convertible_v<U, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Playables::PlayableExtensions::SetInputCount");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Playables", "PlayableExtensions", "SetInputCount", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(playable), ::il2cpp_utils::ExtractType(value)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, playable, value);
@@ -191,8 +191,8 @@ namespace UnityEngine::Playables {
     // Offset: 0xFFFFFFFF
     template<class U>
     static int GetInputCount(U playable) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<U>, UnityEngine::Playables::IPlayable> && is_value_type_v<U>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableExtensions::GetInputCount");
+      static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayable> && std::is_convertible_v<U, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Playables::PlayableExtensions::GetInputCount");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Playables", "PlayableExtensions", "GetInputCount", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(playable)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<int, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, playable);
@@ -200,19 +200,19 @@ namespace UnityEngine::Playables {
     // static public UnityEngine.Playables.Playable GetInput(U playable, System.Int32 inputPort)
     // Offset: 0xFFFFFFFF
     template<class U>
-    static UnityEngine::Playables::Playable GetInput(U playable, int inputPort) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<U>, UnityEngine::Playables::IPlayable> && is_value_type_v<U>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableExtensions::GetInput");
+    static ::UnityEngine::Playables::Playable GetInput(U playable, int inputPort) {
+      static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayable> && std::is_convertible_v<U, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Playables::PlayableExtensions::GetInput");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Playables", "PlayableExtensions", "GetInput", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(playable), ::il2cpp_utils::ExtractType(inputPort)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}));
-      return ::il2cpp_utils::RunMethodRethrow<UnityEngine::Playables::Playable, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, playable, inputPort);
+      return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::Playables::Playable, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, playable, inputPort);
     }
     // static public System.Void SetInputWeight(U playable, System.Int32 inputIndex, System.Single weight)
     // Offset: 0xFFFFFFFF
     template<class U>
     static void SetInputWeight(U playable, int inputIndex, float weight) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<U>, UnityEngine::Playables::IPlayable> && is_value_type_v<U>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableExtensions::SetInputWeight");
+      static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayable> && std::is_convertible_v<U, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Playables::PlayableExtensions::SetInputWeight");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Playables", "PlayableExtensions", "SetInputWeight", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(playable), ::il2cpp_utils::ExtractType(inputIndex), ::il2cpp_utils::ExtractType(weight)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, playable, inputIndex, weight);
@@ -221,9 +221,9 @@ namespace UnityEngine::Playables {
     // Offset: 0xFFFFFFFF
     template<class U, class V>
     static void SetInputWeight(U playable, V input, float weight) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<U>, UnityEngine::Playables::IPlayable> && is_value_type_v<U>);
-      static_assert(std::is_convertible_v<std::remove_pointer_t<V>, UnityEngine::Playables::IPlayable> && is_value_type_v<V>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableExtensions::SetInputWeight");
+      static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayable> && std::is_convertible_v<U, ::System::ValueType*>);
+      static_assert(std::is_convertible_v<std::remove_pointer_t<V>, ::UnityEngine::Playables::IPlayable> && std::is_convertible_v<V, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Playables::PlayableExtensions::SetInputWeight");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Playables", "PlayableExtensions", "SetInputWeight", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<V>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(playable), ::il2cpp_utils::ExtractType(input), ::il2cpp_utils::ExtractType(weight)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<V>::get()})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, playable, input, weight);
@@ -232,8 +232,8 @@ namespace UnityEngine::Playables {
     // Offset: 0xFFFFFFFF
     template<class U>
     static float GetInputWeight(U playable, int inputIndex) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<U>, UnityEngine::Playables::IPlayable> && is_value_type_v<U>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableExtensions::GetInputWeight");
+      static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayable> && std::is_convertible_v<U, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Playables::PlayableExtensions::GetInputWeight");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Playables", "PlayableExtensions", "GetInputWeight", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(playable), ::il2cpp_utils::ExtractType(inputIndex)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<float, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, playable, inputIndex);
@@ -241,9 +241,9 @@ namespace UnityEngine::Playables {
     // static public System.Void SetTraversalMode(U playable, UnityEngine.Playables.PlayableTraversalMode mode)
     // Offset: 0xFFFFFFFF
     template<class U>
-    static void SetTraversalMode(U playable, UnityEngine::Playables::PlayableTraversalMode mode) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<U>, UnityEngine::Playables::IPlayable> && is_value_type_v<U>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableExtensions::SetTraversalMode");
+    static void SetTraversalMode(U playable, ::UnityEngine::Playables::PlayableTraversalMode mode) {
+      static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayable> && std::is_convertible_v<U, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Playables::PlayableExtensions::SetTraversalMode");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Playables", "PlayableExtensions", "SetTraversalMode", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(playable), ::il2cpp_utils::ExtractType(mode)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, playable, mode);
@@ -251,19 +251,19 @@ namespace UnityEngine::Playables {
     // static UnityEngine.Playables.DirectorWrapMode GetTimeWrapMode(U playable)
     // Offset: 0xFFFFFFFF
     template<class U>
-    static UnityEngine::Playables::DirectorWrapMode GetTimeWrapMode(U playable) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<U>, UnityEngine::Playables::IPlayable> && is_value_type_v<U>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableExtensions::GetTimeWrapMode");
+    static ::UnityEngine::Playables::DirectorWrapMode GetTimeWrapMode(U playable) {
+      static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayable> && std::is_convertible_v<U, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Playables::PlayableExtensions::GetTimeWrapMode");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Playables", "PlayableExtensions", "GetTimeWrapMode", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(playable)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}));
-      return ::il2cpp_utils::RunMethodRethrow<UnityEngine::Playables::DirectorWrapMode, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, playable);
+      return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::Playables::DirectorWrapMode, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, playable);
     }
     // static System.Void SetTimeWrapMode(U playable, UnityEngine.Playables.DirectorWrapMode value)
     // Offset: 0xFFFFFFFF
     template<class U>
-    static void SetTimeWrapMode(U playable, UnityEngine::Playables::DirectorWrapMode value) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<U>, UnityEngine::Playables::IPlayable> && is_value_type_v<U>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableExtensions::SetTimeWrapMode");
+    static void SetTimeWrapMode(U playable, ::UnityEngine::Playables::DirectorWrapMode value) {
+      static_assert(std::is_convertible_v<std::remove_pointer_t<U>, ::UnityEngine::Playables::IPlayable> && std::is_convertible_v<U, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Playables::PlayableExtensions::SetTimeWrapMode");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Playables", "PlayableExtensions", "SetTimeWrapMode", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(playable), ::il2cpp_utils::ExtractType(value)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, playable, value);

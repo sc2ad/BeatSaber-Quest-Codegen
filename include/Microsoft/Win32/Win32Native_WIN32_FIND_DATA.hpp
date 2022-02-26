@@ -14,8 +14,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Microsoft::Win32::Win32Native::WIN32_FIND_DATA);
-DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::Win32Native::WIN32_FIND_DATA*, "Microsoft.Win32", "Win32Native/WIN32_FIND_DATA");
+NEED_NO_BOX(::Microsoft::Win32::Win32Native::WIN32_FIND_DATA);
+DEFINE_IL2CPP_ARG_TYPE(::Microsoft::Win32::Win32Native::WIN32_FIND_DATA*, "Microsoft.Win32", "Win32Native/WIN32_FIND_DATA");
 // Type namespace: Microsoft.Win32
 namespace Microsoft::Win32 {
   // Size: 0x20
@@ -58,7 +58,7 @@ namespace Microsoft::Win32 {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Win32Native::WIN32_FIND_DATA* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Microsoft::Win32::Win32Native::WIN32_FIND_DATA::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Microsoft::Win32::Win32Native::WIN32_FIND_DATA::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Win32Native::WIN32_FIND_DATA*, creationType>()));
     }
   }; // Microsoft.Win32.Win32Native/Microsoft.Win32.WIN32_FIND_DATA

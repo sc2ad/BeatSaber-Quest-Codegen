@@ -17,8 +17,8 @@ namespace UnityEngine {
   class ScriptingUtility;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ScriptingUtility);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ScriptingUtility*, "UnityEngine", "ScriptingUtility");
+NEED_NO_BOX(::UnityEngine::ScriptingUtility);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ScriptingUtility*, "UnityEngine", "ScriptingUtility");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -27,7 +27,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class ScriptingUtility : public ::Il2CppObject {
     public:
-    // Nested type: UnityEngine::ScriptingUtility::TestClass
+    // Nested type: ::UnityEngine::ScriptingUtility::TestClass
     struct TestClass;
     // static private System.Boolean IsManagedCodeWorking()
     // Offset: 0x20D5448

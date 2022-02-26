@@ -39,8 +39,8 @@ namespace UnityEngine::AddressableAssets::Initialization {
   class ResourceManagerRuntimeData;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData*, "UnityEngine.AddressableAssets.Initialization", "ResourceManagerRuntimeData");
+NEED_NO_BOX(::UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData*, "UnityEngine.AddressableAssets.Initialization", "ResourceManagerRuntimeData");
 // Type namespace: UnityEngine.AddressableAssets.Initialization
 namespace UnityEngine::AddressableAssets::Initialization {
   // Size: 0x6C
@@ -75,9 +75,9 @@ namespace UnityEngine::AddressableAssets::Initialization {
     // private System.Collections.Generic.List`1<UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationData> m_CatalogLocations
     // Size: 0x8
     // Offset: 0x20
-    System::Collections::Generic::List_1<UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*>* m_CatalogLocations;
+    ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*>* m_CatalogLocations;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*>*) == 0x8);
     // [FormerlySerializedAsAttribute] Offset: 0x12344E0
     // private System.Boolean m_ProfileEvents
     // Size: 0x1
@@ -98,9 +98,9 @@ namespace UnityEngine::AddressableAssets::Initialization {
     // private System.Collections.Generic.List`1<UnityEngine.ResourceManagement.Util.ObjectInitializationData> m_ExtraInitializationData
     // Size: 0x8
     // Offset: 0x30
-    System::Collections::Generic::List_1<UnityEngine::ResourceManagement::Util::ObjectInitializationData>* m_ExtraInitializationData;
+    ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::ObjectInitializationData>* m_ExtraInitializationData;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::Util::ObjectInitializationData>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::ObjectInitializationData>*) == 0x8);
     // private System.Boolean m_DisableCatalogUpdateOnStart
     // Size: 0x1
     // Offset: 0x38
@@ -118,9 +118,9 @@ namespace UnityEngine::AddressableAssets::Initialization {
     // private UnityEngine.ResourceManagement.Util.SerializedType m_CertificateHandlerType
     // Size: 0x19
     // Offset: 0x40
-    UnityEngine::ResourceManagement::Util::SerializedType m_CertificateHandlerType;
+    ::UnityEngine::ResourceManagement::Util::SerializedType m_CertificateHandlerType;
     // Field size check
-    static_assert(sizeof(UnityEngine::ResourceManagement::Util::SerializedType) == 0x19);
+    static_assert(sizeof(::UnityEngine::ResourceManagement::Util::SerializedType) == 0x19);
     // Padding between fields: m_CertificateHandlerType and: m_AddressablesVersion
     char __padding8[0x7] = {};
     // private System.String m_AddressablesVersion
@@ -147,19 +147,19 @@ namespace UnityEngine::AddressableAssets::Initialization {
     // Get instance field reference: private System.String m_SettingsHash
     ::StringW& dyn_m_SettingsHash();
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationData> m_CatalogLocations
-    System::Collections::Generic::List_1<UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*>*& dyn_m_CatalogLocations();
+    ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*>*& dyn_m_CatalogLocations();
     // Get instance field reference: private System.Boolean m_ProfileEvents
     bool& dyn_m_ProfileEvents();
     // Get instance field reference: private System.Boolean m_LogResourceManagerExceptions
     bool& dyn_m_LogResourceManagerExceptions();
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.ResourceManagement.Util.ObjectInitializationData> m_ExtraInitializationData
-    System::Collections::Generic::List_1<UnityEngine::ResourceManagement::Util::ObjectInitializationData>*& dyn_m_ExtraInitializationData();
+    ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::ObjectInitializationData>*& dyn_m_ExtraInitializationData();
     // Get instance field reference: private System.Boolean m_DisableCatalogUpdateOnStart
     bool& dyn_m_DisableCatalogUpdateOnStart();
     // Get instance field reference: private System.Boolean m_IsLocalCatalogInBundle
     bool& dyn_m_IsLocalCatalogInBundle();
     // Get instance field reference: private UnityEngine.ResourceManagement.Util.SerializedType m_CertificateHandlerType
-    UnityEngine::ResourceManagement::Util::SerializedType& dyn_m_CertificateHandlerType();
+    ::UnityEngine::ResourceManagement::Util::SerializedType& dyn_m_CertificateHandlerType();
     // Get instance field reference: private System.String m_AddressablesVersion
     ::StringW& dyn_m_AddressablesVersion();
     // Get instance field reference: private System.Int32 m_maxConcurrentWebRequests
@@ -178,7 +178,7 @@ namespace UnityEngine::AddressableAssets::Initialization {
     void set_SettingsHash(::StringW value);
     // public System.Collections.Generic.List`1<UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationData> get_CatalogLocations()
     // Offset: 0x17E7A50
-    System::Collections::Generic::List_1<UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*>* get_CatalogLocations();
+    ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*>* get_CatalogLocations();
     // public System.Boolean get_ProfileEvents()
     // Offset: 0x17E7A58
     bool get_ProfileEvents();
@@ -193,7 +193,7 @@ namespace UnityEngine::AddressableAssets::Initialization {
     void set_LogResourceManagerExceptions(bool value);
     // public System.Collections.Generic.List`1<UnityEngine.ResourceManagement.Util.ObjectInitializationData> get_InitializationObjects()
     // Offset: 0x17E7A80
-    System::Collections::Generic::List_1<UnityEngine::ResourceManagement::Util::ObjectInitializationData>* get_InitializationObjects();
+    ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::ObjectInitializationData>* get_InitializationObjects();
     // public System.Boolean get_DisableCatalogUpdateOnStartup()
     // Offset: 0x17E7A88
     bool get_DisableCatalogUpdateOnStartup();
@@ -208,10 +208,10 @@ namespace UnityEngine::AddressableAssets::Initialization {
     void set_IsLocalCatalogInBundle(bool value);
     // public System.Type get_CertificateHandlerType()
     // Offset: 0x17E5B58
-    System::Type* get_CertificateHandlerType();
+    ::System::Type* get_CertificateHandlerType();
     // public System.Void set_CertificateHandlerType(System.Type value)
     // Offset: 0x17E7AB0
-    void set_CertificateHandlerType(System::Type* value);
+    void set_CertificateHandlerType(::System::Type* value);
     // public System.String get_AddressablesVersion()
     // Offset: 0x17E7ABC
     ::StringW get_AddressablesVersion();
@@ -230,7 +230,7 @@ namespace UnityEngine::AddressableAssets::Initialization {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResourceManagerRuntimeData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResourceManagerRuntimeData*, creationType>()));
     }
   }; // UnityEngine.AddressableAssets.Initialization.ResourceManagerRuntimeData
@@ -276,7 +276,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::get_CatalogLocations
 // Il2CppName: get_CatalogLocations
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*>* (UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::*)()>(&UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::get_CatalogLocations)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*>* (UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::*)()>(&UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::get_CatalogLocations)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData*), "get_CatalogLocations", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -318,7 +318,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::get_InitializationObjects
 // Il2CppName: get_InitializationObjects
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::ResourceManagement::Util::ObjectInitializationData>* (UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::*)()>(&UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::get_InitializationObjects)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::ObjectInitializationData>* (UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::*)()>(&UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::get_InitializationObjects)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData*), "get_InitializationObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -360,7 +360,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::get_CertificateHandlerType
 // Il2CppName: get_CertificateHandlerType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::*)()>(&UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::get_CertificateHandlerType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::*)()>(&UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::get_CertificateHandlerType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData*), "get_CertificateHandlerType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -368,7 +368,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::set_CertificateHandlerType
 // Il2CppName: set_CertificateHandlerType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::*)(System::Type*)>(&UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::set_CertificateHandlerType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::*)(::System::Type*)>(&UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::set_CertificateHandlerType)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData*), "set_CertificateHandlerType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

@@ -13,8 +13,8 @@ namespace System::Diagnostics {
   class Debugger;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Diagnostics::Debugger);
-DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Debugger*, "System.Diagnostics", "Debugger");
+NEED_NO_BOX(::System::Diagnostics::Debugger);
+DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::Debugger*, "System.Diagnostics", "Debugger");
 // Type namespace: System.Diagnostics
 namespace System::Diagnostics {
   // Size: 0x10

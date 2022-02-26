@@ -21,8 +21,8 @@ namespace GlobalNamespace {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MultiplayerStatusModel::MultiplayerStatusDataFB);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerStatusModel::MultiplayerStatusDataFB*, "", "MultiplayerStatusModel/MultiplayerStatusDataFB");
+NEED_NO_BOX(::GlobalNamespace::MultiplayerStatusModel::MultiplayerStatusDataFB);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerStatusModel::MultiplayerStatusDataFB*, "", "MultiplayerStatusModel/MultiplayerStatusDataFB");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -44,28 +44,28 @@ namespace GlobalNamespace {
     // public MultiplayerStatusData[] data
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<GlobalNamespace::MultiplayerStatusData*> data;
+    ::ArrayW<::GlobalNamespace::MultiplayerStatusData*> data;
     // Field size check
-    static_assert(sizeof(::ArrayW<GlobalNamespace::MultiplayerStatusData*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::GlobalNamespace::MultiplayerStatusData*>) == 0x8);
     public:
-    // Creating conversion operator: operator ::ArrayW<GlobalNamespace::MultiplayerStatusData*>
-    constexpr operator ::ArrayW<GlobalNamespace::MultiplayerStatusData*>() const noexcept {
+    // Creating conversion operator: operator ::ArrayW<::GlobalNamespace::MultiplayerStatusData*>
+    constexpr operator ::ArrayW<::GlobalNamespace::MultiplayerStatusData*>() const noexcept {
       return data;
     }
     // Get instance field reference: public MultiplayerStatusData[] data
-    ::ArrayW<GlobalNamespace::MultiplayerStatusData*>& dyn_data();
+    ::ArrayW<::GlobalNamespace::MultiplayerStatusData*>& dyn_data();
     // public System.Void .ctor()
     // Offset: 0x2AAE498
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerStatusModel::MultiplayerStatusDataFB* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerStatusModel::MultiplayerStatusDataFB::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerStatusModel::MultiplayerStatusDataFB::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerStatusModel::MultiplayerStatusDataFB*, creationType>()));
     }
   }; // MultiplayerStatusModel/MultiplayerStatusDataFB
   #pragma pack(pop)
-  static check_size<sizeof(MultiplayerStatusModel::MultiplayerStatusDataFB), 16 + sizeof(::ArrayW<GlobalNamespace::MultiplayerStatusData*>)> __GlobalNamespace_MultiplayerStatusModel_MultiplayerStatusDataFBSizeCheck;
+  static check_size<sizeof(MultiplayerStatusModel::MultiplayerStatusDataFB), 16 + sizeof(::ArrayW<::GlobalNamespace::MultiplayerStatusData*>)> __GlobalNamespace_MultiplayerStatusModel_MultiplayerStatusDataFBSizeCheck;
   static_assert(sizeof(MultiplayerStatusModel::MultiplayerStatusDataFB) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

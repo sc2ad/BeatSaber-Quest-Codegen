@@ -17,8 +17,8 @@ namespace System::Text::RegularExpressions {
   class RegexPrefix;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Text::RegularExpressions::RegexPrefix);
-DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexPrefix*, "System.Text.RegularExpressions", "RegexPrefix");
+NEED_NO_BOX(::System::Text::RegularExpressions::RegexPrefix);
+DEFINE_IL2CPP_ARG_TYPE(::System::Text::RegularExpressions::RegexPrefix*, "System.Text.RegularExpressions", "RegexPrefix");
 // Type namespace: System.Text.RegularExpressions
 namespace System::Text::RegularExpressions {
   // Size: 0x19
@@ -50,9 +50,9 @@ namespace System::Text::RegularExpressions {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get static field: static System.Text.RegularExpressions.RegexPrefix _empty
-    static System::Text::RegularExpressions::RegexPrefix* _get__empty();
+    static ::System::Text::RegularExpressions::RegexPrefix* _get__empty();
     // Set static field: static System.Text.RegularExpressions.RegexPrefix _empty
-    static void _set__empty(System::Text::RegularExpressions::RegexPrefix* value);
+    static void _set__empty(::System::Text::RegularExpressions::RegexPrefix* value);
     // Get instance field reference: System.String _prefix
     ::StringW& dyn__prefix();
     // Get instance field reference: System.Boolean _caseInsensitive
@@ -65,12 +65,12 @@ namespace System::Text::RegularExpressions {
     bool get_CaseInsensitive();
     // static System.Text.RegularExpressions.RegexPrefix get_Empty()
     // Offset: 0x2424EE0
-    static System::Text::RegularExpressions::RegexPrefix* get_Empty();
+    static ::System::Text::RegularExpressions::RegexPrefix* get_Empty();
     // System.Void .ctor(System.String prefix, System.Boolean ci)
     // Offset: 0x2424E90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexPrefix* New_ctor(::StringW prefix, bool ci) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::RegexPrefix::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::RegexPrefix::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexPrefix*, creationType>(prefix, ci)));
     }
     // static private System.Void .cctor()
@@ -101,7 +101,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexPrefix::get_Empty
 // Il2CppName: get_Empty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexPrefix* (*)()>(&System::Text::RegularExpressions::RegexPrefix::get_Empty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::RegexPrefix* (*)()>(&System::Text::RegularExpressions::RegexPrefix::get_Empty)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexPrefix*), "get_Empty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

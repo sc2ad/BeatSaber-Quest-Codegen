@@ -14,8 +14,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::ParameterizedStrings::LowLevelStack);
-DEFINE_IL2CPP_ARG_TYPE(System::ParameterizedStrings::LowLevelStack*, "System", "ParameterizedStrings/LowLevelStack");
+NEED_NO_BOX(::System::ParameterizedStrings::LowLevelStack);
+DEFINE_IL2CPP_ARG_TYPE(::System::ParameterizedStrings::LowLevelStack*, "System", "ParameterizedStrings/LowLevelStack");
 // Type namespace: System
 namespace System {
   // Size: 0x1C
@@ -36,9 +36,9 @@ namespace System {
     // private System.ParameterizedStrings/System.FormatParam[] _arr
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<System::ParameterizedStrings::FormatParam> arr;
+    ::ArrayW<::System::ParameterizedStrings::FormatParam> arr;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::ParameterizedStrings::FormatParam>) == 0x8);
+    static_assert(sizeof(::ArrayW<::System::ParameterizedStrings::FormatParam>) == 0x8);
     // private System.Int32 _count
     // Size: 0x4
     // Offset: 0x18
@@ -47,15 +47,15 @@ namespace System {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private System.ParameterizedStrings/System.FormatParam[] _arr
-    ::ArrayW<System::ParameterizedStrings::FormatParam>& dyn__arr();
+    ::ArrayW<::System::ParameterizedStrings::FormatParam>& dyn__arr();
     // Get instance field reference: private System.Int32 _count
     int& dyn__count();
     // public System.ParameterizedStrings/System.FormatParam Pop()
     // Offset: 0x215D470
-    System::ParameterizedStrings::FormatParam Pop();
+    ::System::ParameterizedStrings::FormatParam Pop();
     // public System.Void Push(System.ParameterizedStrings/System.FormatParam item)
     // Offset: 0x215D80C
-    void Push(System::ParameterizedStrings::FormatParam item);
+    void Push(::System::ParameterizedStrings::FormatParam item);
     // public System.Void Clear()
     // Offset: 0x215CB94
     void Clear();
@@ -65,7 +65,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ParameterizedStrings::LowLevelStack* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::ParameterizedStrings::LowLevelStack::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::ParameterizedStrings::LowLevelStack::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ParameterizedStrings::LowLevelStack*, creationType>()));
     }
   }; // System.ParameterizedStrings/System.LowLevelStack
@@ -77,7 +77,7 @@ namespace System {
 // Writing MetadataGetter for method: System::ParameterizedStrings::LowLevelStack::Pop
 // Il2CppName: Pop
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ParameterizedStrings::FormatParam (System::ParameterizedStrings::LowLevelStack::*)()>(&System::ParameterizedStrings::LowLevelStack::Pop)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ParameterizedStrings::FormatParam (System::ParameterizedStrings::LowLevelStack::*)()>(&System::ParameterizedStrings::LowLevelStack::Pop)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::ParameterizedStrings::LowLevelStack*), "Pop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -85,7 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Par
 // Writing MetadataGetter for method: System::ParameterizedStrings::LowLevelStack::Push
 // Il2CppName: Push
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::ParameterizedStrings::LowLevelStack::*)(System::ParameterizedStrings::FormatParam)>(&System::ParameterizedStrings::LowLevelStack::Push)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::ParameterizedStrings::LowLevelStack::*)(::System::ParameterizedStrings::FormatParam)>(&System::ParameterizedStrings::LowLevelStack::Push)> {
   static const MethodInfo* get() {
     static auto* item = &::il2cpp_utils::GetClassFromName("System", "ParameterizedStrings/FormatParam")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ParameterizedStrings::LowLevelStack*), "Push", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{item});

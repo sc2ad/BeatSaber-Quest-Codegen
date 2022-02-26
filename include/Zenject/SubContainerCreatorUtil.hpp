@@ -21,8 +21,8 @@ namespace Zenject {
   class SubContainerCreatorUtil;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::SubContainerCreatorUtil);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorUtil*, "Zenject", "SubContainerCreatorUtil");
+NEED_NO_BOX(::Zenject::SubContainerCreatorUtil);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::SubContainerCreatorUtil*, "Zenject", "SubContainerCreatorUtil");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x10
@@ -33,7 +33,7 @@ namespace Zenject {
     public:
     // static public System.Void ApplyBindSettings(Zenject.SubContainerCreatorBindInfo subContainerBindInfo, Zenject.DiContainer subContainer)
     // Offset: 0x2469DC8
-    static void ApplyBindSettings(Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, Zenject::DiContainer* subContainer);
+    static void ApplyBindSettings(::Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, ::Zenject::DiContainer* subContainer);
   }; // Zenject.SubContainerCreatorUtil
   #pragma pack(pop)
 }
@@ -41,7 +41,7 @@ namespace Zenject {
 // Writing MetadataGetter for method: Zenject::SubContainerCreatorUtil::ApplyBindSettings
 // Il2CppName: ApplyBindSettings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Zenject::SubContainerCreatorBindInfo*, Zenject::DiContainer*)>(&Zenject::SubContainerCreatorUtil::ApplyBindSettings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Zenject::SubContainerCreatorBindInfo*, ::Zenject::DiContainer*)>(&Zenject::SubContainerCreatorUtil::ApplyBindSettings)> {
   static const MethodInfo* get() {
     static auto* subContainerBindInfo = &::il2cpp_utils::GetClassFromName("Zenject", "SubContainerCreatorBindInfo")->byval_arg;
     static auto* subContainer = &::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")->byval_arg;

@@ -24,8 +24,8 @@ namespace System::Runtime::Remoting::Messaging {
   class CADObjRef;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Remoting::Messaging::CADObjRef);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CADObjRef*, "System.Runtime.Remoting.Messaging", "CADObjRef");
+NEED_NO_BOX(::System::Runtime::Remoting::Messaging::CADObjRef);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Messaging::CADObjRef*, "System.Runtime.Remoting.Messaging", "CADObjRef");
 // Type namespace: System.Runtime.Remoting.Messaging
 namespace System::Runtime::Remoting::Messaging {
   // Size: 0x28
@@ -46,9 +46,9 @@ namespace System::Runtime::Remoting::Messaging {
     // System.Runtime.Remoting.ObjRef objref
     // Size: 0x8
     // Offset: 0x10
-    System::Runtime::Remoting::ObjRef* objref;
+    ::System::Runtime::Remoting::ObjRef* objref;
     // Field size check
-    static_assert(sizeof(System::Runtime::Remoting::ObjRef*) == 0x8);
+    static_assert(sizeof(::System::Runtime::Remoting::ObjRef*) == 0x8);
     // System.Int32 SourceDomain
     // Size: 0x4
     // Offset: 0x18
@@ -65,7 +65,7 @@ namespace System::Runtime::Remoting::Messaging {
     static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     public:
     // Get instance field reference: System.Runtime.Remoting.ObjRef objref
-    System::Runtime::Remoting::ObjRef*& dyn_objref();
+    ::System::Runtime::Remoting::ObjRef*& dyn_objref();
     // Get instance field reference: System.Int32 SourceDomain
     int& dyn_SourceDomain();
     // Get instance field reference: System.Byte[] TypeInfo
@@ -73,8 +73,8 @@ namespace System::Runtime::Remoting::Messaging {
     // public System.Void .ctor(System.Runtime.Remoting.ObjRef o, System.Int32 sourceDomain)
     // Offset: 0x1B869BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CADObjRef* New_ctor(System::Runtime::Remoting::ObjRef* o, int sourceDomain) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::CADObjRef::.ctor");
+    static CADObjRef* New_ctor(::System::Runtime::Remoting::ObjRef* o, int sourceDomain) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::Messaging::CADObjRef::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CADObjRef*, creationType>(o, sourceDomain)));
     }
   }; // System.Runtime.Remoting.Messaging.CADObjRef

@@ -11,8 +11,8 @@ namespace System::Runtime::InteropServices {
   class _MethodInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::InteropServices::_MethodInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::_MethodInfo*, "System.Runtime.InteropServices", "_MethodInfo");
+NEED_NO_BOX(::System::Runtime::InteropServices::_MethodInfo);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::InteropServices::_MethodInfo*, "System.Runtime.InteropServices", "_MethodInfo");
 // Type namespace: System.Runtime.InteropServices
 namespace System::Runtime::InteropServices {
   // Size: 0x10

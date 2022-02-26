@@ -47,8 +47,8 @@ namespace System::Security {
   class PermissionSet;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Security::PermissionSet);
-DEFINE_IL2CPP_ARG_TYPE(System::Security::PermissionSet*, "System.Security", "PermissionSet");
+NEED_NO_BOX(::System::Security::PermissionSet);
+DEFINE_IL2CPP_ARG_TYPE(::System::Security::PermissionSet*, "System.Security", "PermissionSet");
 // Type namespace: System.Security
 namespace System::Security {
   // Size: 0x30
@@ -57,7 +57,7 @@ namespace System::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: 1189C94
   // [MonoTODOAttribute] Offset: 1189C94
-  class PermissionSet : public ::Il2CppObject/*, public System::Collections::ICollection, public System::Runtime::Serialization::IDeserializationCallback, public System::Security::ISecurityEncodable*/ {
+  class PermissionSet : public ::Il2CppObject/*, public ::System::Collections::ICollection, public ::System::Runtime::Serialization::IDeserializationCallback, public ::System::Security::ISecurityEncodable*/ {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -71,17 +71,17 @@ namespace System::Security {
     // private System.Security.Permissions.PermissionState state
     // Size: 0x4
     // Offset: 0x10
-    System::Security::Permissions::PermissionState state;
+    ::System::Security::Permissions::PermissionState state;
     // Field size check
-    static_assert(sizeof(System::Security::Permissions::PermissionState) == 0x4);
+    static_assert(sizeof(::System::Security::Permissions::PermissionState) == 0x4);
     // Padding between fields: state and: list
     char __padding0[0x4] = {};
     // private System.Collections.ArrayList list
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::ArrayList* list;
+    ::System::Collections::ArrayList* list;
     // Field size check
-    static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
+    static_assert(sizeof(::System::Collections::ArrayList*) == 0x8);
     // private System.Boolean _declsec
     // Size: 0x1
     // Offset: 0x20
@@ -97,17 +97,17 @@ namespace System::Security {
     // Field size check
     static_assert(sizeof(::ArrayW<bool>) == 0x8);
     public:
-    // Creating interface conversion operator: operator System::Collections::ICollection
-    operator System::Collections::ICollection() noexcept {
-      return *reinterpret_cast<System::Collections::ICollection*>(this);
+    // Creating interface conversion operator: operator ::System::Collections::ICollection
+    operator ::System::Collections::ICollection() noexcept {
+      return *reinterpret_cast<::System::Collections::ICollection*>(this);
     }
-    // Creating interface conversion operator: operator System::Runtime::Serialization::IDeserializationCallback
-    operator System::Runtime::Serialization::IDeserializationCallback() noexcept {
-      return *reinterpret_cast<System::Runtime::Serialization::IDeserializationCallback*>(this);
+    // Creating interface conversion operator: operator ::System::Runtime::Serialization::IDeserializationCallback
+    operator ::System::Runtime::Serialization::IDeserializationCallback() noexcept {
+      return *reinterpret_cast<::System::Runtime::Serialization::IDeserializationCallback*>(this);
     }
-    // Creating interface conversion operator: operator System::Security::ISecurityEncodable
-    operator System::Security::ISecurityEncodable() noexcept {
-      return *reinterpret_cast<System::Security::ISecurityEncodable*>(this);
+    // Creating interface conversion operator: operator ::System::Security::ISecurityEncodable
+    operator ::System::Security::ISecurityEncodable() noexcept {
+      return *reinterpret_cast<::System::Security::ISecurityEncodable*>(this);
     }
     // Get static field: static private System.Object[] psUnrestricted
     static ::ArrayW<::Il2CppObject*> _get_psUnrestricted();
@@ -118,9 +118,9 @@ namespace System::Security {
     // Set static field: static private System.Object[] action
     static void _set_action(::ArrayW<::Il2CppObject*> value);
     // Get instance field reference: private System.Security.Permissions.PermissionState state
-    System::Security::Permissions::PermissionState& dyn_state();
+    ::System::Security::Permissions::PermissionState& dyn_state();
     // Get instance field reference: private System.Collections.ArrayList list
-    System::Collections::ArrayList*& dyn_list();
+    ::System::Collections::ArrayList*& dyn_list();
     // Get instance field reference: private System.Boolean _declsec
     bool& dyn__declsec();
     // Get instance field reference: private System.Boolean[] _ignored
@@ -134,15 +134,15 @@ namespace System::Security {
     // public System.Void .ctor(System.Security.Permissions.PermissionState state)
     // Offset: 0x206791C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PermissionSet* New_ctor(System::Security::Permissions::PermissionState state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::PermissionSet::.ctor");
+    static PermissionSet* New_ctor(::System::Security::Permissions::PermissionState state) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::PermissionSet::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PermissionSet*, creationType>(state)));
     }
     // System.Void .ctor(System.Security.IPermission perm)
     // Offset: 0x20682B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PermissionSet* New_ctor(System::Security::IPermission* perm) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::PermissionSet::.ctor");
+    static PermissionSet* New_ctor(::System::Security::IPermission* perm) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::PermissionSet::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PermissionSet*, creationType>(perm)));
     }
     // static private System.Void .cctor()
@@ -150,7 +150,7 @@ namespace System::Security {
     static void _cctor();
     // public System.Void CopyTo(System.Array array, System.Int32 index)
     // Offset: 0x2068308
-    void CopyTo(System::Array* array, int index);
+    void CopyTo(::System::Array* array, int index);
     // public System.Void Demand()
     // Offset: 0x2068490
     void Demand();
@@ -159,7 +159,7 @@ namespace System::Security {
     void CasOnlyDemand(int skip);
     // public System.Collections.IEnumerator GetEnumerator()
     // Offset: 0x2068ACC
-    System::Collections::IEnumerator* GetEnumerator();
+    ::System::Collections::IEnumerator* GetEnumerator();
     // public System.Boolean IsEmpty()
     // Offset: 0x20686F8
     bool IsEmpty();
@@ -168,7 +168,7 @@ namespace System::Security {
     bool IsUnrestricted();
     // public System.Security.SecurityElement ToXml()
     // Offset: 0x2067AC0
-    System::Security::SecurityElement* ToXml();
+    ::System::Security::SecurityElement* ToXml();
     // private System.Void System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(System.Object sender)
     // Offset: 0x2068C1C
     void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::Il2CppObject* sender);
@@ -178,7 +178,7 @@ namespace System::Security {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PermissionSet* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::PermissionSet::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::PermissionSet::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PermissionSet*, creationType>()));
     }
     // public override System.String ToString()
@@ -237,7 +237,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Security::PermissionSet::CopyTo
 // Il2CppName: CopyTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::PermissionSet::*)(System::Array*, int)>(&System::Security::PermissionSet::CopyTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::PermissionSet::*)(::System::Array*, int)>(&System::Security::PermissionSet::CopyTo)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "Array")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -264,7 +264,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::PermissionSet::GetEnumerator
 // Il2CppName: GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (System::Security::PermissionSet::*)()>(&System::Security::PermissionSet::GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (System::Security::PermissionSet::*)()>(&System::Security::PermissionSet::GetEnumerator)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::PermissionSet*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -288,7 +288,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Security::PermissionSet::ToXml
 // Il2CppName: ToXml
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::SecurityElement* (System::Security::PermissionSet::*)()>(&System::Security::PermissionSet::ToXml)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::SecurityElement* (System::Security::PermissionSet::*)()>(&System::Security::PermissionSet::ToXml)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::PermissionSet*), "ToXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -20,8 +20,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass72_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass72_0*, "", "GameServerLobbyFlowCoordinator/<>c__DisplayClass72_0");
+NEED_NO_BOX(::GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass72_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass72_0*, "", "GameServerLobbyFlowCoordinator/<>c__DisplayClass72_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -43,32 +43,32 @@ namespace GlobalNamespace {
     // public GameServerLobbyFlowCoordinator <>4__this
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::GameServerLobbyFlowCoordinator* $$4__this;
+    ::GlobalNamespace::GameServerLobbyFlowCoordinator* $$4__this;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::GameServerLobbyFlowCoordinator*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::GameServerLobbyFlowCoordinator*) == 0x8);
     // public System.Action finishedCallback
     // Size: 0x8
     // Offset: 0x18
-    System::Action* finishedCallback;
+    ::System::Action* finishedCallback;
     // Field size check
-    static_assert(sizeof(System::Action*) == 0x8);
+    static_assert(sizeof(::System::Action*) == 0x8);
     public:
     // Get instance field reference: public GameServerLobbyFlowCoordinator <>4__this
-    GlobalNamespace::GameServerLobbyFlowCoordinator*& dyn_$$4__this();
+    ::GlobalNamespace::GameServerLobbyFlowCoordinator*& dyn_$$4__this();
     // Get instance field reference: public System.Action finishedCallback
-    System::Action*& dyn_finishedCallback();
+    ::System::Action*& dyn_finishedCallback();
     // public System.Void .ctor()
     // Offset: 0x2AD1408
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameServerLobbyFlowCoordinator::$$c__DisplayClass72_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass72_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass72_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameServerLobbyFlowCoordinator::$$c__DisplayClass72_0*, creationType>()));
     }
   }; // GameServerLobbyFlowCoordinator/<>c__DisplayClass72_0
   #pragma pack(pop)
-  static check_size<sizeof(GameServerLobbyFlowCoordinator::$$c__DisplayClass72_0), 24 + sizeof(System::Action*)> __GlobalNamespace_GameServerLobbyFlowCoordinator_$$c__DisplayClass72_0SizeCheck;
+  static check_size<sizeof(GameServerLobbyFlowCoordinator::$$c__DisplayClass72_0), 24 + sizeof(::System::Action*)> __GlobalNamespace_GameServerLobbyFlowCoordinator_$$c__DisplayClass72_0SizeCheck;
   static_assert(sizeof(GameServerLobbyFlowCoordinator::$$c__DisplayClass72_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

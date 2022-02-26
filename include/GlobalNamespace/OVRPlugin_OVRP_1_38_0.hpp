@@ -20,8 +20,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRPlugin::OVRP_1_38_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_38_0*, "", "OVRPlugin/OVRP_1_38_0");
+NEED_NO_BOX(::GlobalNamespace::OVRPlugin::OVRP_1_38_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRPlugin::OVRP_1_38_0*, "", "OVRPlugin/OVRP_1_38_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -31,84 +31,84 @@ namespace GlobalNamespace {
   class OVRPlugin::OVRP_1_38_0 : public ::Il2CppObject {
     public:
     // Get static field: static public readonly System.Version version
-    static System::Version* _get_version();
+    static ::System::Version* _get_version();
     // Set static field: static public readonly System.Version version
-    static void _set_version(System::Version* value);
+    static void _set_version(::System::Version* value);
     // static private System.Void .cctor()
     // Offset: 0x1A7404C
     static void _cctor();
     // static public OVRPlugin/Result ovrp_GetTrackingTransformRelativePose(ref OVRPlugin/Posef trackingTransformRelativePose, OVRPlugin/TrackingOrigin trackingOrigin)
     // Offset: 0x1A73E1C
-    static GlobalNamespace::OVRPlugin::Result ovrp_GetTrackingTransformRelativePose(ByRef<GlobalNamespace::OVRPlugin::Posef> trackingTransformRelativePose, GlobalNamespace::OVRPlugin::TrackingOrigin trackingOrigin);
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_GetTrackingTransformRelativePose(ByRef<::GlobalNamespace::OVRPlugin::Posef> trackingTransformRelativePose, ::GlobalNamespace::OVRPlugin::TrackingOrigin trackingOrigin);
     // static public OVRPlugin/Result ovrp_Media_Initialize()
     // Offset: 0x1A6C0A8
-    static GlobalNamespace::OVRPlugin::Result ovrp_Media_Initialize();
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_Media_Initialize();
     // static public OVRPlugin/Result ovrp_Media_Shutdown()
     // Offset: 0x1A6C21C
-    static GlobalNamespace::OVRPlugin::Result ovrp_Media_Shutdown();
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_Media_Shutdown();
     // static public OVRPlugin/Result ovrp_Media_GetInitialized(out OVRPlugin/Bool initialized)
     // Offset: 0x1A6C3A4
-    static GlobalNamespace::OVRPlugin::Result ovrp_Media_GetInitialized(ByRef<GlobalNamespace::OVRPlugin::Bool> initialized);
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_Media_GetInitialized(ByRef<::GlobalNamespace::OVRPlugin::Bool> initialized);
     // static public OVRPlugin/Result ovrp_Media_Update()
     // Offset: 0x1A6C524
-    static GlobalNamespace::OVRPlugin::Result ovrp_Media_Update();
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_Media_Update();
     // static public OVRPlugin/Result ovrp_Media_GetMrcActivationMode(out OVRPlugin/Media/MrcActivationMode activationMode)
     // Offset: 0x1A6C6A4
-    static GlobalNamespace::OVRPlugin::Result ovrp_Media_GetMrcActivationMode(ByRef<GlobalNamespace::OVRPlugin::Media::MrcActivationMode> activationMode);
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_Media_GetMrcActivationMode(ByRef<::GlobalNamespace::OVRPlugin::Media::MrcActivationMode> activationMode);
     // static public OVRPlugin/Result ovrp_Media_SetMrcActivationMode(OVRPlugin/Media/MrcActivationMode activationMode)
     // Offset: 0x1A6C82C
-    static GlobalNamespace::OVRPlugin::Result ovrp_Media_SetMrcActivationMode(GlobalNamespace::OVRPlugin::Media::MrcActivationMode activationMode);
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_Media_SetMrcActivationMode(::GlobalNamespace::OVRPlugin::Media::MrcActivationMode activationMode);
     // static public OVRPlugin/Result ovrp_Media_IsMrcEnabled(out OVRPlugin/Bool mrcEnabled)
     // Offset: 0x1A6CE44
-    static GlobalNamespace::OVRPlugin::Result ovrp_Media_IsMrcEnabled(ByRef<GlobalNamespace::OVRPlugin::Bool> mrcEnabled);
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_Media_IsMrcEnabled(ByRef<::GlobalNamespace::OVRPlugin::Bool> mrcEnabled);
     // static public OVRPlugin/Result ovrp_Media_IsMrcActivated(out OVRPlugin/Bool mrcActivated)
     // Offset: 0x1A6CFD4
-    static GlobalNamespace::OVRPlugin::Result ovrp_Media_IsMrcActivated(ByRef<GlobalNamespace::OVRPlugin::Bool> mrcActivated);
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_Media_IsMrcActivated(ByRef<::GlobalNamespace::OVRPlugin::Bool> mrcActivated);
     // static public OVRPlugin/Result ovrp_Media_UseMrcDebugCamera(out OVRPlugin/Bool useMrcDebugCamera)
     // Offset: 0x1A6D164
-    static GlobalNamespace::OVRPlugin::Result ovrp_Media_UseMrcDebugCamera(ByRef<GlobalNamespace::OVRPlugin::Bool> useMrcDebugCamera);
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_Media_UseMrcDebugCamera(ByRef<::GlobalNamespace::OVRPlugin::Bool> useMrcDebugCamera);
     // static public OVRPlugin/Result ovrp_Media_SetMrcInputVideoBufferType(OVRPlugin/Media/InputVideoBufferType inputVideoBufferType)
     // Offset: 0x1A6D2EC
-    static GlobalNamespace::OVRPlugin::Result ovrp_Media_SetMrcInputVideoBufferType(GlobalNamespace::OVRPlugin::Media::InputVideoBufferType inputVideoBufferType);
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_Media_SetMrcInputVideoBufferType(::GlobalNamespace::OVRPlugin::Media::InputVideoBufferType inputVideoBufferType);
     // static public OVRPlugin/Result ovrp_Media_GetMrcInputVideoBufferType(ref OVRPlugin/Media/InputVideoBufferType inputVideoBufferType)
     // Offset: 0x1A6D474
-    static GlobalNamespace::OVRPlugin::Result ovrp_Media_GetMrcInputVideoBufferType(ByRef<GlobalNamespace::OVRPlugin::Media::InputVideoBufferType> inputVideoBufferType);
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_Media_GetMrcInputVideoBufferType(ByRef<::GlobalNamespace::OVRPlugin::Media::InputVideoBufferType> inputVideoBufferType);
     // static public OVRPlugin/Result ovrp_Media_SetMrcFrameSize(System.Int32 frameWidth, System.Int32 frameHeight)
     // Offset: 0x1A6D60C
-    static GlobalNamespace::OVRPlugin::Result ovrp_Media_SetMrcFrameSize(int frameWidth, int frameHeight);
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_Media_SetMrcFrameSize(int frameWidth, int frameHeight);
     // static public OVRPlugin/Result ovrp_Media_GetMrcFrameSize(ref System.Int32 frameWidth, ref System.Int32 frameHeight)
     // Offset: 0x1A6D7C0
-    static GlobalNamespace::OVRPlugin::Result ovrp_Media_GetMrcFrameSize(ByRef<int> frameWidth, ByRef<int> frameHeight);
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_Media_GetMrcFrameSize(ByRef<int> frameWidth, ByRef<int> frameHeight);
     // static public OVRPlugin/Result ovrp_Media_SetMrcAudioSampleRate(System.Int32 sampleRate)
     // Offset: 0x1A6D958
-    static GlobalNamespace::OVRPlugin::Result ovrp_Media_SetMrcAudioSampleRate(int sampleRate);
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_Media_SetMrcAudioSampleRate(int sampleRate);
     // static public OVRPlugin/Result ovrp_Media_GetMrcAudioSampleRate(ref System.Int32 sampleRate)
     // Offset: 0x1A6DADC
-    static GlobalNamespace::OVRPlugin::Result ovrp_Media_GetMrcAudioSampleRate(ByRef<int> sampleRate);
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_Media_GetMrcAudioSampleRate(ByRef<int> sampleRate);
     // static public OVRPlugin/Result ovrp_Media_SetMrcFrameImageFlipped(OVRPlugin/Bool flipped)
     // Offset: 0x1A6DC68
-    static GlobalNamespace::OVRPlugin::Result ovrp_Media_SetMrcFrameImageFlipped(GlobalNamespace::OVRPlugin::Bool flipped);
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_Media_SetMrcFrameImageFlipped(::GlobalNamespace::OVRPlugin::Bool flipped);
     // static public OVRPlugin/Result ovrp_Media_GetMrcFrameImageFlipped(ref OVRPlugin/Bool flipped)
     // Offset: 0x1A6DDF4
-    static GlobalNamespace::OVRPlugin::Result ovrp_Media_GetMrcFrameImageFlipped(ByRef<GlobalNamespace::OVRPlugin::Bool> flipped);
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_Media_GetMrcFrameImageFlipped(ByRef<::GlobalNamespace::OVRPlugin::Bool> flipped);
     // static public OVRPlugin/Result ovrp_Media_EncodeMrcFrame(System.IntPtr rawBuffer, System.IntPtr audioDataPtr, System.Int32 audioDataLen, System.Int32 audioChannels, System.Double timestamp, ref System.Int32 outSyncId)
     // Offset: 0x1A6E360
-    static GlobalNamespace::OVRPlugin::Result ovrp_Media_EncodeMrcFrame(System::IntPtr rawBuffer, System::IntPtr audioDataPtr, int audioDataLen, int audioChannels, double timestamp, ByRef<int> outSyncId);
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_Media_EncodeMrcFrame(::System::IntPtr rawBuffer, ::System::IntPtr audioDataPtr, int audioDataLen, int audioChannels, double timestamp, ByRef<int> outSyncId);
     // static public OVRPlugin/Result ovrp_Media_EncodeMrcFrameWithDualTextures(System.IntPtr backgroundTextureHandle, System.IntPtr foregroundTextureHandle, System.IntPtr audioData, System.Int32 audioDataLen, System.Int32 audioChannels, System.Double timestamp, ref System.Int32 outSyncId)
     // Offset: 0x1A6E4F8
-    static GlobalNamespace::OVRPlugin::Result ovrp_Media_EncodeMrcFrameWithDualTextures(System::IntPtr backgroundTextureHandle, System::IntPtr foregroundTextureHandle, System::IntPtr audioData, int audioDataLen, int audioChannels, double timestamp, ByRef<int> outSyncId);
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_Media_EncodeMrcFrameWithDualTextures(::System::IntPtr backgroundTextureHandle, ::System::IntPtr foregroundTextureHandle, ::System::IntPtr audioData, int audioDataLen, int audioChannels, double timestamp, ByRef<int> outSyncId);
     // static public OVRPlugin/Result ovrp_Media_SyncMrcFrame(System.Int32 syncId)
     // Offset: 0x1A6ECAC
-    static GlobalNamespace::OVRPlugin::Result ovrp_Media_SyncMrcFrame(int syncId);
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_Media_SyncMrcFrame(int syncId);
     // static public OVRPlugin/Result ovrp_SetDeveloperMode(OVRPlugin/Bool active)
     // Offset: 0x1A73EAC
-    static GlobalNamespace::OVRPlugin::Result ovrp_SetDeveloperMode(GlobalNamespace::OVRPlugin::Bool active);
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_SetDeveloperMode(::GlobalNamespace::OVRPlugin::Bool active);
     // static public OVRPlugin/Result ovrp_GetNodeOrientationValid(OVRPlugin/Node nodeId, ref OVRPlugin/Bool nodeOrientationValid)
     // Offset: 0x1A73F2C
-    static GlobalNamespace::OVRPlugin::Result ovrp_GetNodeOrientationValid(GlobalNamespace::OVRPlugin::Node nodeId, ByRef<GlobalNamespace::OVRPlugin::Bool> nodeOrientationValid);
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_GetNodeOrientationValid(::GlobalNamespace::OVRPlugin::Node nodeId, ByRef<::GlobalNamespace::OVRPlugin::Bool> nodeOrientationValid);
     // static public OVRPlugin/Result ovrp_GetNodePositionValid(OVRPlugin/Node nodeId, ref OVRPlugin/Bool nodePositionValid)
     // Offset: 0x1A73FBC
-    static GlobalNamespace::OVRPlugin::Result ovrp_GetNodePositionValid(GlobalNamespace::OVRPlugin::Node nodeId, ByRef<GlobalNamespace::OVRPlugin::Bool> nodePositionValid);
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_GetNodePositionValid(::GlobalNamespace::OVRPlugin::Node nodeId, ByRef<::GlobalNamespace::OVRPlugin::Bool> nodePositionValid);
   }; // OVRPlugin/OVRP_1_38_0
   #pragma pack(pop)
 }
@@ -124,7 +124,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_GetTrackingTransformRelativePose
 // Il2CppName: ovrp_GetTrackingTransformRelativePose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(ByRef<GlobalNamespace::OVRPlugin::Posef>, GlobalNamespace::OVRPlugin::TrackingOrigin)>(&GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_GetTrackingTransformRelativePose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)(ByRef<::GlobalNamespace::OVRPlugin::Posef>, ::GlobalNamespace::OVRPlugin::TrackingOrigin)>(&GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_GetTrackingTransformRelativePose)> {
   static const MethodInfo* get() {
     static auto* trackingTransformRelativePose = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Posef")->this_arg;
     static auto* trackingOrigin = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/TrackingOrigin")->byval_arg;
@@ -134,7 +134,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_Initialize
 // Il2CppName: ovrp_Media_Initialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_Initialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_Initialize)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_38_0*), "ovrp_Media_Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -142,7 +142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_Shutdown
 // Il2CppName: ovrp_Media_Shutdown
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_Shutdown)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_Shutdown)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_38_0*), "ovrp_Media_Shutdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -150,7 +150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_GetInitialized
 // Il2CppName: ovrp_Media_GetInitialized
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(ByRef<GlobalNamespace::OVRPlugin::Bool>)>(&GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_GetInitialized)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)(ByRef<::GlobalNamespace::OVRPlugin::Bool>)>(&GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_GetInitialized)> {
   static const MethodInfo* get() {
     static auto* initialized = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Bool")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_38_0*), "ovrp_Media_GetInitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{initialized});
@@ -159,7 +159,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_Update
 // Il2CppName: ovrp_Media_Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_Update)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_38_0*), "ovrp_Media_Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -167,7 +167,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_GetMrcActivationMode
 // Il2CppName: ovrp_Media_GetMrcActivationMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(ByRef<GlobalNamespace::OVRPlugin::Media::MrcActivationMode>)>(&GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_GetMrcActivationMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)(ByRef<::GlobalNamespace::OVRPlugin::Media::MrcActivationMode>)>(&GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_GetMrcActivationMode)> {
   static const MethodInfo* get() {
     static auto* activationMode = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Media/MrcActivationMode")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_38_0*), "ovrp_Media_GetMrcActivationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{activationMode});
@@ -176,7 +176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_SetMrcActivationMode
 // Il2CppName: ovrp_Media_SetMrcActivationMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::Media::MrcActivationMode)>(&GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_SetMrcActivationMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)(::GlobalNamespace::OVRPlugin::Media::MrcActivationMode)>(&GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_SetMrcActivationMode)> {
   static const MethodInfo* get() {
     static auto* activationMode = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Media/MrcActivationMode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_38_0*), "ovrp_Media_SetMrcActivationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{activationMode});
@@ -185,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_IsMrcEnabled
 // Il2CppName: ovrp_Media_IsMrcEnabled
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(ByRef<GlobalNamespace::OVRPlugin::Bool>)>(&GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_IsMrcEnabled)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)(ByRef<::GlobalNamespace::OVRPlugin::Bool>)>(&GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_IsMrcEnabled)> {
   static const MethodInfo* get() {
     static auto* mrcEnabled = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Bool")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_38_0*), "ovrp_Media_IsMrcEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mrcEnabled});
@@ -194,7 +194,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_IsMrcActivated
 // Il2CppName: ovrp_Media_IsMrcActivated
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(ByRef<GlobalNamespace::OVRPlugin::Bool>)>(&GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_IsMrcActivated)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)(ByRef<::GlobalNamespace::OVRPlugin::Bool>)>(&GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_IsMrcActivated)> {
   static const MethodInfo* get() {
     static auto* mrcActivated = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Bool")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_38_0*), "ovrp_Media_IsMrcActivated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mrcActivated});
@@ -203,7 +203,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_UseMrcDebugCamera
 // Il2CppName: ovrp_Media_UseMrcDebugCamera
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(ByRef<GlobalNamespace::OVRPlugin::Bool>)>(&GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_UseMrcDebugCamera)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)(ByRef<::GlobalNamespace::OVRPlugin::Bool>)>(&GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_UseMrcDebugCamera)> {
   static const MethodInfo* get() {
     static auto* useMrcDebugCamera = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Bool")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_38_0*), "ovrp_Media_UseMrcDebugCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{useMrcDebugCamera});
@@ -212,7 +212,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_SetMrcInputVideoBufferType
 // Il2CppName: ovrp_Media_SetMrcInputVideoBufferType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::Media::InputVideoBufferType)>(&GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_SetMrcInputVideoBufferType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)(::GlobalNamespace::OVRPlugin::Media::InputVideoBufferType)>(&GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_SetMrcInputVideoBufferType)> {
   static const MethodInfo* get() {
     static auto* inputVideoBufferType = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Media/InputVideoBufferType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_38_0*), "ovrp_Media_SetMrcInputVideoBufferType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inputVideoBufferType});
@@ -221,7 +221,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_GetMrcInputVideoBufferType
 // Il2CppName: ovrp_Media_GetMrcInputVideoBufferType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(ByRef<GlobalNamespace::OVRPlugin::Media::InputVideoBufferType>)>(&GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_GetMrcInputVideoBufferType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)(ByRef<::GlobalNamespace::OVRPlugin::Media::InputVideoBufferType>)>(&GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_GetMrcInputVideoBufferType)> {
   static const MethodInfo* get() {
     static auto* inputVideoBufferType = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Media/InputVideoBufferType")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_38_0*), "ovrp_Media_GetMrcInputVideoBufferType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inputVideoBufferType});
@@ -230,7 +230,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_SetMrcFrameSize
 // Il2CppName: ovrp_Media_SetMrcFrameSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(int, int)>(&GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_SetMrcFrameSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)(int, int)>(&GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_SetMrcFrameSize)> {
   static const MethodInfo* get() {
     static auto* frameWidth = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* frameHeight = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -240,7 +240,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_GetMrcFrameSize
 // Il2CppName: ovrp_Media_GetMrcFrameSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(ByRef<int>, ByRef<int>)>(&GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_GetMrcFrameSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)(ByRef<int>, ByRef<int>)>(&GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_GetMrcFrameSize)> {
   static const MethodInfo* get() {
     static auto* frameWidth = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* frameHeight = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -250,7 +250,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_SetMrcAudioSampleRate
 // Il2CppName: ovrp_Media_SetMrcAudioSampleRate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(int)>(&GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_SetMrcAudioSampleRate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)(int)>(&GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_SetMrcAudioSampleRate)> {
   static const MethodInfo* get() {
     static auto* sampleRate = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_38_0*), "ovrp_Media_SetMrcAudioSampleRate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sampleRate});
@@ -259,7 +259,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_GetMrcAudioSampleRate
 // Il2CppName: ovrp_Media_GetMrcAudioSampleRate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(ByRef<int>)>(&GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_GetMrcAudioSampleRate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)(ByRef<int>)>(&GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_GetMrcAudioSampleRate)> {
   static const MethodInfo* get() {
     static auto* sampleRate = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_38_0*), "ovrp_Media_GetMrcAudioSampleRate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sampleRate});
@@ -268,7 +268,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_SetMrcFrameImageFlipped
 // Il2CppName: ovrp_Media_SetMrcFrameImageFlipped
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::Bool)>(&GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_SetMrcFrameImageFlipped)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)(::GlobalNamespace::OVRPlugin::Bool)>(&GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_SetMrcFrameImageFlipped)> {
   static const MethodInfo* get() {
     static auto* flipped = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Bool")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_38_0*), "ovrp_Media_SetMrcFrameImageFlipped", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{flipped});
@@ -277,7 +277,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_GetMrcFrameImageFlipped
 // Il2CppName: ovrp_Media_GetMrcFrameImageFlipped
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(ByRef<GlobalNamespace::OVRPlugin::Bool>)>(&GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_GetMrcFrameImageFlipped)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)(ByRef<::GlobalNamespace::OVRPlugin::Bool>)>(&GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_GetMrcFrameImageFlipped)> {
   static const MethodInfo* get() {
     static auto* flipped = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Bool")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_38_0*), "ovrp_Media_GetMrcFrameImageFlipped", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{flipped});
@@ -286,7 +286,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_EncodeMrcFrame
 // Il2CppName: ovrp_Media_EncodeMrcFrame
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(System::IntPtr, System::IntPtr, int, int, double, ByRef<int>)>(&GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_EncodeMrcFrame)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)(::System::IntPtr, ::System::IntPtr, int, int, double, ByRef<int>)>(&GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_EncodeMrcFrame)> {
   static const MethodInfo* get() {
     static auto* rawBuffer = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* audioDataPtr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -300,7 +300,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_EncodeMrcFrameWithDualTextures
 // Il2CppName: ovrp_Media_EncodeMrcFrameWithDualTextures
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(System::IntPtr, System::IntPtr, System::IntPtr, int, int, double, ByRef<int>)>(&GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_EncodeMrcFrameWithDualTextures)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)(::System::IntPtr, ::System::IntPtr, ::System::IntPtr, int, int, double, ByRef<int>)>(&GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_EncodeMrcFrameWithDualTextures)> {
   static const MethodInfo* get() {
     static auto* backgroundTextureHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* foregroundTextureHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -315,7 +315,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_SyncMrcFrame
 // Il2CppName: ovrp_Media_SyncMrcFrame
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(int)>(&GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_SyncMrcFrame)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)(int)>(&GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_Media_SyncMrcFrame)> {
   static const MethodInfo* get() {
     static auto* syncId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_38_0*), "ovrp_Media_SyncMrcFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{syncId});
@@ -324,7 +324,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_SetDeveloperMode
 // Il2CppName: ovrp_SetDeveloperMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::Bool)>(&GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_SetDeveloperMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)(::GlobalNamespace::OVRPlugin::Bool)>(&GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_SetDeveloperMode)> {
   static const MethodInfo* get() {
     static auto* active = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Bool")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_38_0*), "ovrp_SetDeveloperMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{active});
@@ -333,7 +333,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_GetNodeOrientationValid
 // Il2CppName: ovrp_GetNodeOrientationValid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::Node, ByRef<GlobalNamespace::OVRPlugin::Bool>)>(&GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_GetNodeOrientationValid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)(::GlobalNamespace::OVRPlugin::Node, ByRef<::GlobalNamespace::OVRPlugin::Bool>)>(&GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_GetNodeOrientationValid)> {
   static const MethodInfo* get() {
     static auto* nodeId = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Node")->byval_arg;
     static auto* nodeOrientationValid = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Bool")->this_arg;
@@ -343,7 +343,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_GetNodePositionValid
 // Il2CppName: ovrp_GetNodePositionValid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::Node, ByRef<GlobalNamespace::OVRPlugin::Bool>)>(&GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_GetNodePositionValid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)(::GlobalNamespace::OVRPlugin::Node, ByRef<::GlobalNamespace::OVRPlugin::Bool>)>(&GlobalNamespace::OVRPlugin::OVRP_1_38_0::ovrp_GetNodePositionValid)> {
   static const MethodInfo* get() {
     static auto* nodeId = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Node")->byval_arg;
     static auto* nodePositionValid = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Bool")->this_arg;

@@ -25,8 +25,8 @@ namespace System::Runtime::Serialization {
   class SurrogateKey;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Serialization::SurrogateKey);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SurrogateKey*, "System.Runtime.Serialization", "SurrogateKey");
+NEED_NO_BOX(::System::Runtime::Serialization::SurrogateKey);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::SurrogateKey*, "System.Runtime.Serialization", "SurrogateKey");
 // Type namespace: System.Runtime.Serialization
 namespace System::Runtime::Serialization {
   // Size: 0x24
@@ -47,25 +47,25 @@ namespace System::Runtime::Serialization {
     // System.Type m_type
     // Size: 0x8
     // Offset: 0x10
-    System::Type* m_type;
+    ::System::Type* m_type;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     // System.Runtime.Serialization.StreamingContext m_context
     // Size: 0xC
     // Offset: 0x18
-    System::Runtime::Serialization::StreamingContext m_context;
+    ::System::Runtime::Serialization::StreamingContext m_context;
     // Field size check
-    static_assert(sizeof(System::Runtime::Serialization::StreamingContext) == 0xC);
+    static_assert(sizeof(::System::Runtime::Serialization::StreamingContext) == 0xC);
     public:
     // Get instance field reference: System.Type m_type
-    System::Type*& dyn_m_type();
+    ::System::Type*& dyn_m_type();
     // Get instance field reference: System.Runtime.Serialization.StreamingContext m_context
-    System::Runtime::Serialization::StreamingContext& dyn_m_context();
+    ::System::Runtime::Serialization::StreamingContext& dyn_m_context();
     // System.Void .ctor(System.Type type, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x1591574
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SurrogateKey* New_ctor(System::Type* type, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::SurrogateKey::.ctor");
+    static SurrogateKey* New_ctor(::System::Type* type, ::System::Runtime::Serialization::StreamingContext context) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::SurrogateKey::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SurrogateKey*, creationType>(type, context)));
     }
     // public override System.Int32 GetHashCode()
@@ -75,7 +75,7 @@ namespace System::Runtime::Serialization {
     int GetHashCode();
   }; // System.Runtime.Serialization.SurrogateKey
   #pragma pack(pop)
-  static check_size<sizeof(SurrogateKey), 24 + sizeof(System::Runtime::Serialization::StreamingContext)> __System_Runtime_Serialization_SurrogateKeySizeCheck;
+  static check_size<sizeof(SurrogateKey), 24 + sizeof(::System::Runtime::Serialization::StreamingContext)> __System_Runtime_Serialization_SurrogateKeySizeCheck;
   static_assert(sizeof(SurrogateKey) == 0x24);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

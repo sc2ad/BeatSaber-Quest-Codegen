@@ -14,8 +14,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel*, "", "CentralLeaderboardViewController/LeaderboardPanel");
+NEED_NO_BOX(::GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel*, "", "CentralLeaderboardViewController/LeaderboardPanel");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x21
@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     // Offset: 0x13BC774
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CentralLeaderboardViewController::LeaderboardPanel* New_ctor(::StringW title, ::StringW hint, bool mixed) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CentralLeaderboardViewController::LeaderboardPanel*, creationType>(title, hint, mixed)));
     }
   }; // CentralLeaderboardViewController/LeaderboardPanel

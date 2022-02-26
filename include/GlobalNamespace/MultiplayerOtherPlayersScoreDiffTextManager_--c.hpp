@@ -23,8 +23,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::$$c);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::$$c*, "", "MultiplayerOtherPlayersScoreDiffTextManager/<>c");
+NEED_NO_BOX(::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::$$c*, "", "MultiplayerOtherPlayersScoreDiffTextManager/<>c");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -35,26 +35,26 @@ namespace GlobalNamespace {
   class MultiplayerOtherPlayersScoreDiffTextManager::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly MultiplayerOtherPlayersScoreDiffTextManager/<>c <>9
-    static GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::$$c* _get_$$9();
+    static ::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::$$c* _get_$$9();
     // Set static field: static public readonly MultiplayerOtherPlayersScoreDiffTextManager/<>c <>9
-    static void _set_$$9(GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::$$c* value);
+    static void _set_$$9(::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::$$c* value);
     // Get static field: static public System.Func`2<MultiplayerScoreProvider/RankedPlayer,System.Boolean> <>9__10_0
-    static System::Func_2<GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*, bool>* _get_$$9__10_0();
+    static ::System::Func_2<::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*, bool>* _get_$$9__10_0();
     // Set static field: static public System.Func`2<MultiplayerScoreProvider/RankedPlayer,System.Boolean> <>9__10_0
-    static void _set_$$9__10_0(System::Func_2<GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*, bool>* value);
+    static void _set_$$9__10_0(::System::Func_2<::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*, bool>* value);
     // static private System.Void .cctor()
     // Offset: 0x2AA1028
     static void _cctor();
     // System.Boolean <Update>b__10_0(MultiplayerScoreProvider/RankedPlayer p)
     // Offset: 0x2AA1094
-    bool $Update$b__10_0(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* p);
+    bool $Update$b__10_0(::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* p);
     // public System.Void .ctor()
     // Offset: 0x2AA108C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerOtherPlayersScoreDiffTextManager::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerOtherPlayersScoreDiffTextManager::$$c*, creationType>()));
     }
   }; // MultiplayerOtherPlayersScoreDiffTextManager/<>c
@@ -72,7 +72,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::$$c::$Update$b__10_0
 // Il2CppName: <Update>b__10_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::$$c::*)(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*)>(&GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::$$c::$Update$b__10_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::$$c::*)(::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*)>(&GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::$$c::$Update$b__10_0)> {
   static const MethodInfo* get() {
     static auto* p = &::il2cpp_utils::GetClassFromName("", "MultiplayerScoreProvider/RankedPlayer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::$$c*), "<Update>b__10_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{p});

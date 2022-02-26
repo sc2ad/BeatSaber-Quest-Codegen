@@ -44,8 +44,8 @@ namespace System {
   class NumberFormatter;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::NumberFormatter);
-DEFINE_IL2CPP_ARG_TYPE(System::NumberFormatter*, "System", "NumberFormatter");
+NEED_NO_BOX(::System::NumberFormatter);
+DEFINE_IL2CPP_ARG_TYPE(::System::NumberFormatter*, "System", "NumberFormatter");
 // Type namespace: System
 namespace System {
   // Size: 0x50
@@ -54,7 +54,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class NumberFormatter : public ::Il2CppObject {
     public:
-    // Nested type: System::NumberFormatter::CustomInfo
+    // Nested type: ::System::NumberFormatter::CustomInfo
     class CustomInfo;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -68,9 +68,9 @@ namespace System {
     // private System.Globalization.NumberFormatInfo _nfi
     // Size: 0x8
     // Offset: 0x10
-    System::Globalization::NumberFormatInfo* nfi;
+    ::System::Globalization::NumberFormatInfo* nfi;
     // Field size check
-    static_assert(sizeof(System::Globalization::NumberFormatInfo*) == 0x8);
+    static_assert(sizeof(::System::Globalization::NumberFormatInfo*) == 0x8);
     // private System.Char[] _cbuf
     // Size: 0x8
     // Offset: 0x18
@@ -201,15 +201,15 @@ namespace System {
     // Set static field: static private readonly System.Int32* DecHexDigits
     static void _set_DecHexDigits(int* value);
     // Get static field: static private System.NumberFormatter threadNumberFormatter
-    static System::NumberFormatter* _get_threadNumberFormatter();
+    static ::System::NumberFormatter* _get_threadNumberFormatter();
     // Set static field: static private System.NumberFormatter threadNumberFormatter
-    static void _set_threadNumberFormatter(System::NumberFormatter* value);
+    static void _set_threadNumberFormatter(::System::NumberFormatter* value);
     // Get static field: static private System.NumberFormatter userFormatProvider
-    static System::NumberFormatter* _get_userFormatProvider();
+    static ::System::NumberFormatter* _get_userFormatProvider();
     // Set static field: static private System.NumberFormatter userFormatProvider
-    static void _set_userFormatProvider(System::NumberFormatter* value);
+    static void _set_userFormatProvider(::System::NumberFormatter* value);
     // Get instance field reference: private System.Globalization.NumberFormatInfo _nfi
-    System::Globalization::NumberFormatInfo*& dyn__nfi();
+    ::System::Globalization::NumberFormatInfo*& dyn__nfi();
     // Get instance field reference: private System.Char[] _cbuf
     ::ArrayW<::Il2CppChar>& dyn__cbuf();
     // Get instance field reference: private System.Boolean _NaN
@@ -246,7 +246,7 @@ namespace System {
     int& dyn__ind();
     // private System.Void set_CurrentCulture(System.Globalization.CultureInfo value)
     // Offset: 0x2156DD0
-    void set_CurrentCulture(System::Globalization::CultureInfo* value);
+    void set_CurrentCulture(::System::Globalization::CultureInfo* value);
     // private System.Int32 get_IntegerDigits()
     // Offset: 0x2157A28
     int get_IntegerDigits();
@@ -268,8 +268,8 @@ namespace System {
     // private System.Void .ctor(System.Threading.Thread current)
     // Offset: 0x2156D18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static NumberFormatter* New_ctor(System::Threading::Thread* current) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::NumberFormatter::.ctor");
+    static NumberFormatter* New_ctor(::System::Threading::Thread* current) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::NumberFormatter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NumberFormatter*, creationType>(current)));
     }
     // static private System.Void GetFormatterTables(out System.UInt64* MantissaBitsTable, out System.Int32* TensExponentTable, out System.Char* DigitLowerTable, out System.Char* DigitUpperTable, out System.Int64* TenPowersList, out System.Int32* DecHexDigits)
@@ -334,7 +334,7 @@ namespace System {
     void Init(::StringW format, double value, int defPrecision);
     // private System.Void Init(System.String format, System.Decimal value)
     // Offset: 0x21575D0
-    void Init(::StringW format, System::Decimal value);
+    void Init(::StringW format, ::System::Decimal value);
     // private System.Void ResetCharBuf(System.Int32 size)
     // Offset: 0x2157744
     void ResetCharBuf(int size);
@@ -352,7 +352,7 @@ namespace System {
     void Append(::StringW s);
     // private System.Globalization.NumberFormatInfo GetNumberFormatInstance(System.IFormatProvider fp)
     // Offset: 0x2157A0C
-    System::Globalization::NumberFormatInfo* GetNumberFormatInstance(System::IFormatProvider* fp);
+    ::System::Globalization::NumberFormatInfo* GetNumberFormatInstance(::System::IFormatProvider* fp);
     // private System.Void RoundPos(System.Int32 pos)
     // Offset: 0x2157A90
     void RoundPos(int pos);
@@ -379,91 +379,91 @@ namespace System {
     static int CountTrailingZeros(uint val);
     // static private System.NumberFormatter GetInstance(System.IFormatProvider fp)
     // Offset: 0x2157E90
-    static System::NumberFormatter* GetInstance(System::IFormatProvider* fp);
+    static ::System::NumberFormatter* GetInstance(::System::IFormatProvider* fp);
     // private System.Void Release()
     // Offset: 0x2158008
     void Release();
     // static public System.String NumberToString(System.String format, System.UInt32 value, System.IFormatProvider fp)
     // Offset: 0x21580A0
-    static ::StringW NumberToString(::StringW format, uint value, System::IFormatProvider* fp);
+    static ::StringW NumberToString(::StringW format, uint value, ::System::IFormatProvider* fp);
     // static public System.String NumberToString(System.String format, System.Int32 value, System.IFormatProvider fp)
     // Offset: 0x215833C
-    static ::StringW NumberToString(::StringW format, int value, System::IFormatProvider* fp);
+    static ::StringW NumberToString(::StringW format, int value, ::System::IFormatProvider* fp);
     // static public System.String NumberToString(System.String format, System.UInt64 value, System.IFormatProvider fp)
     // Offset: 0x21583F0
-    static ::StringW NumberToString(::StringW format, uint64_t value, System::IFormatProvider* fp);
+    static ::StringW NumberToString(::StringW format, uint64_t value, ::System::IFormatProvider* fp);
     // static public System.String NumberToString(System.String format, System.Int64 value, System.IFormatProvider fp)
     // Offset: 0x21584A0
-    static ::StringW NumberToString(::StringW format, int64_t value, System::IFormatProvider* fp);
+    static ::StringW NumberToString(::StringW format, int64_t value, ::System::IFormatProvider* fp);
     // static public System.String NumberToString(System.String format, System.Single value, System.IFormatProvider fp)
     // Offset: 0x2158550
-    static ::StringW NumberToString(::StringW format, float value, System::IFormatProvider* fp);
+    static ::StringW NumberToString(::StringW format, float value, ::System::IFormatProvider* fp);
     // static public System.String NumberToString(System.String format, System.Double value, System.IFormatProvider fp)
     // Offset: 0x21588AC
-    static ::StringW NumberToString(::StringW format, double value, System::IFormatProvider* fp);
+    static ::StringW NumberToString(::StringW format, double value, ::System::IFormatProvider* fp);
     // static public System.String NumberToString(System.String format, System.Decimal value, System.IFormatProvider fp)
     // Offset: 0x2158AD8
-    static ::StringW NumberToString(::StringW format, System::Decimal value, System::IFormatProvider* fp);
+    static ::StringW NumberToString(::StringW format, ::System::Decimal value, ::System::IFormatProvider* fp);
     // private System.String IntegerToString(System.String format, System.IFormatProvider fp)
     // Offset: 0x2158154
-    ::StringW IntegerToString(::StringW format, System::IFormatProvider* fp);
+    ::StringW IntegerToString(::StringW format, ::System::IFormatProvider* fp);
     // private System.String NumberToString(System.String format, System.Globalization.NumberFormatInfo nfi)
     // Offset: 0x215870C
-    ::StringW NumberToString(::StringW format, System::Globalization::NumberFormatInfo* nfi);
+    ::StringW NumberToString(::StringW format, ::System::Globalization::NumberFormatInfo* nfi);
     // private System.String FormatCurrency(System.Int32 precision, System.Globalization.NumberFormatInfo nfi)
     // Offset: 0x2158BB0
-    ::StringW FormatCurrency(int precision, System::Globalization::NumberFormatInfo* nfi);
+    ::StringW FormatCurrency(int precision, ::System::Globalization::NumberFormatInfo* nfi);
     // private System.String FormatDecimal(System.Int32 precision, System.Globalization.NumberFormatInfo nfi)
     // Offset: 0x2158E18
-    ::StringW FormatDecimal(int precision, System::Globalization::NumberFormatInfo* nfi);
+    ::StringW FormatDecimal(int precision, ::System::Globalization::NumberFormatInfo* nfi);
     // private System.String FormatHexadecimal(System.Int32 precision)
     // Offset: 0x2159448
     ::StringW FormatHexadecimal(int precision);
     // private System.String FormatFixedPoint(System.Int32 precision, System.Globalization.NumberFormatInfo nfi)
     // Offset: 0x2158F34
-    ::StringW FormatFixedPoint(int precision, System::Globalization::NumberFormatInfo* nfi);
+    ::StringW FormatFixedPoint(int precision, ::System::Globalization::NumberFormatInfo* nfi);
     // private System.String FormatRoundtrip(System.Double origval, System.Globalization.NumberFormatInfo nfi)
     // Offset: 0x21589D4
-    ::StringW FormatRoundtrip(double origval, System::Globalization::NumberFormatInfo* nfi);
+    ::StringW FormatRoundtrip(double origval, ::System::Globalization::NumberFormatInfo* nfi);
     // private System.String FormatRoundtrip(System.Single origval, System.Globalization.NumberFormatInfo nfi)
     // Offset: 0x2158678
-    ::StringW FormatRoundtrip(float origval, System::Globalization::NumberFormatInfo* nfi);
+    ::StringW FormatRoundtrip(float origval, ::System::Globalization::NumberFormatInfo* nfi);
     // private System.String FormatGeneral(System.Int32 precision, System.Globalization.NumberFormatInfo nfi)
     // Offset: 0x215901C
-    ::StringW FormatGeneral(int precision, System::Globalization::NumberFormatInfo* nfi);
+    ::StringW FormatGeneral(int precision, ::System::Globalization::NumberFormatInfo* nfi);
     // private System.String FormatNumber(System.Int32 precision, System.Globalization.NumberFormatInfo nfi)
     // Offset: 0x215916C
-    ::StringW FormatNumber(int precision, System::Globalization::NumberFormatInfo* nfi);
+    ::StringW FormatNumber(int precision, ::System::Globalization::NumberFormatInfo* nfi);
     // private System.String FormatPercent(System.Int32 precision, System.Globalization.NumberFormatInfo nfi)
     // Offset: 0x21592E0
-    ::StringW FormatPercent(int precision, System::Globalization::NumberFormatInfo* nfi);
+    ::StringW FormatPercent(int precision, ::System::Globalization::NumberFormatInfo* nfi);
     // private System.String FormatExponential(System.Int32 precision, System.Globalization.NumberFormatInfo nfi)
     // Offset: 0x2158EE0
-    ::StringW FormatExponential(int precision, System::Globalization::NumberFormatInfo* nfi);
+    ::StringW FormatExponential(int precision, ::System::Globalization::NumberFormatInfo* nfi);
     // private System.String FormatExponential(System.Int32 precision, System.Globalization.NumberFormatInfo nfi, System.Int32 expDigits)
     // Offset: 0x215A084
-    ::StringW FormatExponential(int precision, System::Globalization::NumberFormatInfo* nfi, int expDigits);
+    ::StringW FormatExponential(int precision, ::System::Globalization::NumberFormatInfo* nfi, int expDigits);
     // private System.String FormatCustom(System.String format, System.Globalization.NumberFormatInfo nfi)
     // Offset: 0x21595B0
-    ::StringW FormatCustom(::StringW format, System::Globalization::NumberFormatInfo* nfi);
+    ::StringW FormatCustom(::StringW format, ::System::Globalization::NumberFormatInfo* nfi);
     // static private System.Void ZeroTrimEnd(System.Text.StringBuilder sb, System.Boolean canEmpty)
     // Offset: 0x215ADE8
-    static void ZeroTrimEnd(System::Text::StringBuilder* sb, bool canEmpty);
+    static void ZeroTrimEnd(::System::Text::StringBuilder* sb, bool canEmpty);
     // static private System.Boolean IsZeroOnly(System.Text.StringBuilder sb)
     // Offset: 0x215ACF8
-    static bool IsZeroOnly(System::Text::StringBuilder* sb);
+    static bool IsZeroOnly(::System::Text::StringBuilder* sb);
     // static private System.Void AppendNonNegativeNumber(System.Text.StringBuilder sb, System.Int32 v)
     // Offset: 0x215AB4C
-    static void AppendNonNegativeNumber(System::Text::StringBuilder* sb, int v);
+    static void AppendNonNegativeNumber(::System::Text::StringBuilder* sb, int v);
     // private System.Void AppendIntegerString(System.Int32 minLength, System.Text.StringBuilder sb)
     // Offset: 0x215AC54
-    void AppendIntegerString(int minLength, System::Text::StringBuilder* sb);
+    void AppendIntegerString(int minLength, ::System::Text::StringBuilder* sb);
     // private System.Void AppendIntegerString(System.Int32 minLength)
     // Offset: 0x2159FB4
     void AppendIntegerString(int minLength);
     // private System.Void AppendDecimalString(System.Int32 precision, System.Text.StringBuilder sb)
     // Offset: 0x215ACD8
-    void AppendDecimalString(int precision, System::Text::StringBuilder* sb);
+    void AppendDecimalString(int precision, ::System::Text::StringBuilder* sb);
     // private System.Void AppendDecimalString(System.Int32 precision)
     // Offset: 0x2159D28
     void AppendDecimalString(int precision);
@@ -472,7 +472,7 @@ namespace System {
     void AppendIntegerStringWithGroupSeparator(::ArrayW<int> groups, ::StringW groupSeparator);
     // private System.Void AppendExponent(System.Globalization.NumberFormatInfo nfi, System.Int32 exponent, System.Int32 minDigits)
     // Offset: 0x215A250
-    void AppendExponent(System::Globalization::NumberFormatInfo* nfi, int exponent, int minDigits);
+    void AppendExponent(::System::Globalization::NumberFormatInfo* nfi, int exponent, int minDigits);
     // private System.Void AppendOneDigit(System.Int32 start)
     // Offset: 0x215A174
     void AppendOneDigit(int start);
@@ -481,7 +481,7 @@ namespace System {
     void AppendDigits(int start, int end);
     // private System.Void AppendDigits(System.Int32 start, System.Int32 end, System.Text.StringBuilder sb)
     // Offset: 0x215B624
-    void AppendDigits(int start, int end, System::Text::StringBuilder* sb);
+    void AppendDigits(int start, int end, ::System::Text::StringBuilder* sb);
     // private System.Void Multiply10(System.Int32 count)
     // Offset: 0x215A154
     void Multiply10(int count);
@@ -490,7 +490,7 @@ namespace System {
     void Divide10(int count);
     // private System.NumberFormatter GetClone()
     // Offset: 0x215A01C
-    System::NumberFormatter* GetClone();
+    ::System::NumberFormatter* GetClone();
   }; // System.NumberFormatter
   #pragma pack(pop)
   static check_size<sizeof(NumberFormatter), 76 + sizeof(int)> __System_NumberFormatterSizeCheck;
@@ -500,7 +500,7 @@ namespace System {
 // Writing MetadataGetter for method: System::NumberFormatter::set_CurrentCulture
 // Il2CppName: set_CurrentCulture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::NumberFormatter::*)(System::Globalization::CultureInfo*)>(&System::NumberFormatter::set_CurrentCulture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::NumberFormatter::*)(::System::Globalization::CultureInfo*)>(&System::NumberFormatter::set_CurrentCulture)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Globalization", "CultureInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "set_CurrentCulture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -753,7 +753,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::NumberFormatter::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::NumberFormatter::*)(::StringW, System::Decimal)>(&System::NumberFormatter::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::NumberFormatter::*)(::StringW, ::System::Decimal)>(&System::NumberFormatter::Init)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Decimal")->byval_arg;
@@ -809,7 +809,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::NumberFormatter::GetNumberFormatInstance
 // Il2CppName: GetNumberFormatInstance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::NumberFormatInfo* (System::NumberFormatter::*)(System::IFormatProvider*)>(&System::NumberFormatter::GetNumberFormatInstance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::NumberFormatInfo* (System::NumberFormatter::*)(::System::IFormatProvider*)>(&System::NumberFormatter::GetNumberFormatInstance)> {
   static const MethodInfo* get() {
     static auto* fp = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "GetNumberFormatInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fp});
@@ -887,7 +887,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(uin
 // Writing MetadataGetter for method: System::NumberFormatter::GetInstance
 // Il2CppName: GetInstance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::NumberFormatter* (*)(System::IFormatProvider*)>(&System::NumberFormatter::GetInstance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::NumberFormatter* (*)(::System::IFormatProvider*)>(&System::NumberFormatter::GetInstance)> {
   static const MethodInfo* get() {
     static auto* fp = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fp});
@@ -904,7 +904,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::NumberFormatter::NumberToString
 // Il2CppName: NumberToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, uint, System::IFormatProvider*)>(&System::NumberFormatter::NumberToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, uint, ::System::IFormatProvider*)>(&System::NumberFormatter::NumberToString)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -915,7 +915,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::NumberFormatter::NumberToString
 // Il2CppName: NumberToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, int, System::IFormatProvider*)>(&System::NumberFormatter::NumberToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, int, ::System::IFormatProvider*)>(&System::NumberFormatter::NumberToString)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -926,7 +926,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::NumberFormatter::NumberToString
 // Il2CppName: NumberToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, uint64_t, System::IFormatProvider*)>(&System::NumberFormatter::NumberToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, uint64_t, ::System::IFormatProvider*)>(&System::NumberFormatter::NumberToString)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
@@ -937,7 +937,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::NumberFormatter::NumberToString
 // Il2CppName: NumberToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, int64_t, System::IFormatProvider*)>(&System::NumberFormatter::NumberToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, int64_t, ::System::IFormatProvider*)>(&System::NumberFormatter::NumberToString)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
@@ -948,7 +948,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::NumberFormatter::NumberToString
 // Il2CppName: NumberToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, float, System::IFormatProvider*)>(&System::NumberFormatter::NumberToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, float, ::System::IFormatProvider*)>(&System::NumberFormatter::NumberToString)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -959,7 +959,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::NumberFormatter::NumberToString
 // Il2CppName: NumberToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, double, System::IFormatProvider*)>(&System::NumberFormatter::NumberToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, double, ::System::IFormatProvider*)>(&System::NumberFormatter::NumberToString)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
@@ -970,7 +970,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::NumberFormatter::NumberToString
 // Il2CppName: NumberToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, System::Decimal, System::IFormatProvider*)>(&System::NumberFormatter::NumberToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::System::Decimal, ::System::IFormatProvider*)>(&System::NumberFormatter::NumberToString)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Decimal")->byval_arg;
@@ -981,7 +981,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::NumberFormatter::IntegerToString
 // Il2CppName: IntegerToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::NumberFormatter::*)(::StringW, System::IFormatProvider*)>(&System::NumberFormatter::IntegerToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::NumberFormatter::*)(::StringW, ::System::IFormatProvider*)>(&System::NumberFormatter::IntegerToString)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* fp = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -991,7 +991,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::NumberFormatter::NumberToString
 // Il2CppName: NumberToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::NumberFormatter::*)(::StringW, System::Globalization::NumberFormatInfo*)>(&System::NumberFormatter::NumberToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::NumberFormatter::*)(::StringW, ::System::Globalization::NumberFormatInfo*)>(&System::NumberFormatter::NumberToString)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* nfi = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberFormatInfo")->byval_arg;
@@ -1001,7 +1001,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::NumberFormatter::FormatCurrency
 // Il2CppName: FormatCurrency
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::NumberFormatter::*)(int, System::Globalization::NumberFormatInfo*)>(&System::NumberFormatter::FormatCurrency)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::NumberFormatter::*)(int, ::System::Globalization::NumberFormatInfo*)>(&System::NumberFormatter::FormatCurrency)> {
   static const MethodInfo* get() {
     static auto* precision = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* nfi = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberFormatInfo")->byval_arg;
@@ -1011,7 +1011,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::NumberFormatter::FormatDecimal
 // Il2CppName: FormatDecimal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::NumberFormatter::*)(int, System::Globalization::NumberFormatInfo*)>(&System::NumberFormatter::FormatDecimal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::NumberFormatter::*)(int, ::System::Globalization::NumberFormatInfo*)>(&System::NumberFormatter::FormatDecimal)> {
   static const MethodInfo* get() {
     static auto* precision = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* nfi = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberFormatInfo")->byval_arg;
@@ -1030,7 +1030,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::NumberFormatter::FormatFixedPoint
 // Il2CppName: FormatFixedPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::NumberFormatter::*)(int, System::Globalization::NumberFormatInfo*)>(&System::NumberFormatter::FormatFixedPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::NumberFormatter::*)(int, ::System::Globalization::NumberFormatInfo*)>(&System::NumberFormatter::FormatFixedPoint)> {
   static const MethodInfo* get() {
     static auto* precision = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* nfi = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberFormatInfo")->byval_arg;
@@ -1040,7 +1040,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::NumberFormatter::FormatRoundtrip
 // Il2CppName: FormatRoundtrip
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::NumberFormatter::*)(double, System::Globalization::NumberFormatInfo*)>(&System::NumberFormatter::FormatRoundtrip)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::NumberFormatter::*)(double, ::System::Globalization::NumberFormatInfo*)>(&System::NumberFormatter::FormatRoundtrip)> {
   static const MethodInfo* get() {
     static auto* origval = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
     static auto* nfi = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberFormatInfo")->byval_arg;
@@ -1050,7 +1050,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::NumberFormatter::FormatRoundtrip
 // Il2CppName: FormatRoundtrip
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::NumberFormatter::*)(float, System::Globalization::NumberFormatInfo*)>(&System::NumberFormatter::FormatRoundtrip)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::NumberFormatter::*)(float, ::System::Globalization::NumberFormatInfo*)>(&System::NumberFormatter::FormatRoundtrip)> {
   static const MethodInfo* get() {
     static auto* origval = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* nfi = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberFormatInfo")->byval_arg;
@@ -1060,7 +1060,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::NumberFormatter::FormatGeneral
 // Il2CppName: FormatGeneral
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::NumberFormatter::*)(int, System::Globalization::NumberFormatInfo*)>(&System::NumberFormatter::FormatGeneral)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::NumberFormatter::*)(int, ::System::Globalization::NumberFormatInfo*)>(&System::NumberFormatter::FormatGeneral)> {
   static const MethodInfo* get() {
     static auto* precision = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* nfi = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberFormatInfo")->byval_arg;
@@ -1070,7 +1070,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::NumberFormatter::FormatNumber
 // Il2CppName: FormatNumber
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::NumberFormatter::*)(int, System::Globalization::NumberFormatInfo*)>(&System::NumberFormatter::FormatNumber)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::NumberFormatter::*)(int, ::System::Globalization::NumberFormatInfo*)>(&System::NumberFormatter::FormatNumber)> {
   static const MethodInfo* get() {
     static auto* precision = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* nfi = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberFormatInfo")->byval_arg;
@@ -1080,7 +1080,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::NumberFormatter::FormatPercent
 // Il2CppName: FormatPercent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::NumberFormatter::*)(int, System::Globalization::NumberFormatInfo*)>(&System::NumberFormatter::FormatPercent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::NumberFormatter::*)(int, ::System::Globalization::NumberFormatInfo*)>(&System::NumberFormatter::FormatPercent)> {
   static const MethodInfo* get() {
     static auto* precision = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* nfi = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberFormatInfo")->byval_arg;
@@ -1090,7 +1090,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::NumberFormatter::FormatExponential
 // Il2CppName: FormatExponential
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::NumberFormatter::*)(int, System::Globalization::NumberFormatInfo*)>(&System::NumberFormatter::FormatExponential)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::NumberFormatter::*)(int, ::System::Globalization::NumberFormatInfo*)>(&System::NumberFormatter::FormatExponential)> {
   static const MethodInfo* get() {
     static auto* precision = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* nfi = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberFormatInfo")->byval_arg;
@@ -1100,7 +1100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::NumberFormatter::FormatExponential
 // Il2CppName: FormatExponential
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::NumberFormatter::*)(int, System::Globalization::NumberFormatInfo*, int)>(&System::NumberFormatter::FormatExponential)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::NumberFormatter::*)(int, ::System::Globalization::NumberFormatInfo*, int)>(&System::NumberFormatter::FormatExponential)> {
   static const MethodInfo* get() {
     static auto* precision = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* nfi = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberFormatInfo")->byval_arg;
@@ -1111,7 +1111,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::NumberFormatter::FormatCustom
 // Il2CppName: FormatCustom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::NumberFormatter::*)(::StringW, System::Globalization::NumberFormatInfo*)>(&System::NumberFormatter::FormatCustom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::NumberFormatter::*)(::StringW, ::System::Globalization::NumberFormatInfo*)>(&System::NumberFormatter::FormatCustom)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* nfi = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberFormatInfo")->byval_arg;
@@ -1121,7 +1121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::NumberFormatter::ZeroTrimEnd
 // Il2CppName: ZeroTrimEnd
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Text::StringBuilder*, bool)>(&System::NumberFormatter::ZeroTrimEnd)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, bool)>(&System::NumberFormatter::ZeroTrimEnd)> {
   static const MethodInfo* get() {
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* canEmpty = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -1131,7 +1131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::NumberFormatter::IsZeroOnly
 // Il2CppName: IsZeroOnly
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Text::StringBuilder*)>(&System::NumberFormatter::IsZeroOnly)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Text::StringBuilder*)>(&System::NumberFormatter::IsZeroOnly)> {
   static const MethodInfo* get() {
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "IsZeroOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sb});
@@ -1140,7 +1140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::NumberFormatter::AppendNonNegativeNumber
 // Il2CppName: AppendNonNegativeNumber
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Text::StringBuilder*, int)>(&System::NumberFormatter::AppendNonNegativeNumber)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, int)>(&System::NumberFormatter::AppendNonNegativeNumber)> {
   static const MethodInfo* get() {
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* v = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1150,7 +1150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::NumberFormatter::AppendIntegerString
 // Il2CppName: AppendIntegerString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::NumberFormatter::*)(int, System::Text::StringBuilder*)>(&System::NumberFormatter::AppendIntegerString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::NumberFormatter::*)(int, ::System::Text::StringBuilder*)>(&System::NumberFormatter::AppendIntegerString)> {
   static const MethodInfo* get() {
     static auto* minLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
@@ -1169,7 +1169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::NumberFormatter::AppendDecimalString
 // Il2CppName: AppendDecimalString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::NumberFormatter::*)(int, System::Text::StringBuilder*)>(&System::NumberFormatter::AppendDecimalString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::NumberFormatter::*)(int, ::System::Text::StringBuilder*)>(&System::NumberFormatter::AppendDecimalString)> {
   static const MethodInfo* get() {
     static auto* precision = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
@@ -1198,7 +1198,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::NumberFormatter::AppendExponent
 // Il2CppName: AppendExponent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::NumberFormatter::*)(System::Globalization::NumberFormatInfo*, int, int)>(&System::NumberFormatter::AppendExponent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::NumberFormatter::*)(::System::Globalization::NumberFormatInfo*, int, int)>(&System::NumberFormatter::AppendExponent)> {
   static const MethodInfo* get() {
     static auto* nfi = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberFormatInfo")->byval_arg;
     static auto* exponent = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1228,7 +1228,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::NumberFormatter::AppendDigits
 // Il2CppName: AppendDigits
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::NumberFormatter::*)(int, int, System::Text::StringBuilder*)>(&System::NumberFormatter::AppendDigits)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::NumberFormatter::*)(int, int, ::System::Text::StringBuilder*)>(&System::NumberFormatter::AppendDigits)> {
   static const MethodInfo* get() {
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* end = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1257,7 +1257,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::NumberFormatter::GetClone
 // Il2CppName: GetClone
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::NumberFormatter* (System::NumberFormatter::*)()>(&System::NumberFormatter::GetClone)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::NumberFormatter* (System::NumberFormatter::*)()>(&System::NumberFormatter::GetClone)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::NumberFormatter*), "GetClone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

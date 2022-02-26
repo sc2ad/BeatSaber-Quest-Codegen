@@ -18,8 +18,8 @@ namespace GlobalNamespace {
   class INoteControllerNoteWasMissedEvent;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::INoteControllerNoteWasMissedEvent);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::INoteControllerNoteWasMissedEvent*, "", "INoteControllerNoteWasMissedEvent");
+NEED_NO_BOX(::GlobalNamespace::INoteControllerNoteWasMissedEvent);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::INoteControllerNoteWasMissedEvent*, "", "INoteControllerNoteWasMissedEvent");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -30,7 +30,7 @@ namespace GlobalNamespace {
     public:
     // public System.Void HandleNoteControllerNoteWasMissed(NoteController noteController)
     // Offset: 0xFFFFFFFF
-    void HandleNoteControllerNoteWasMissed(GlobalNamespace::NoteController* noteController);
+    void HandleNoteControllerNoteWasMissed(::GlobalNamespace::NoteController* noteController);
   }; // INoteControllerNoteWasMissedEvent
   #pragma pack(pop)
 }
@@ -38,7 +38,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::INoteControllerNoteWasMissedEvent::HandleNoteControllerNoteWasMissed
 // Il2CppName: HandleNoteControllerNoteWasMissed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::INoteControllerNoteWasMissedEvent::*)(GlobalNamespace::NoteController*)>(&GlobalNamespace::INoteControllerNoteWasMissedEvent::HandleNoteControllerNoteWasMissed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::INoteControllerNoteWasMissedEvent::*)(::GlobalNamespace::NoteController*)>(&GlobalNamespace::INoteControllerNoteWasMissedEvent::HandleNoteControllerNoteWasMissed)> {
   static const MethodInfo* get() {
     static auto* noteController = &::il2cpp_utils::GetClassFromName("", "NoteController")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INoteControllerNoteWasMissedEvent*), "HandleNoteControllerNoteWasMissed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteController});

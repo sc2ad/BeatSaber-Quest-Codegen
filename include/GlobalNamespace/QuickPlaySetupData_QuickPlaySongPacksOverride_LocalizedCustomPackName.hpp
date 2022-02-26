@@ -14,8 +14,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName*, "", "QuickPlaySetupData/QuickPlaySongPacksOverride/LocalizedCustomPackName");
+NEED_NO_BOX(::GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName*, "", "QuickPlaySetupData/QuickPlaySongPacksOverride/LocalizedCustomPackName");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static QuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<QuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName*, creationType>()));
     }
   }; // QuickPlaySetupData/QuickPlaySongPacksOverride/LocalizedCustomPackName

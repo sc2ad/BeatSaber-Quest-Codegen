@@ -55,7 +55,7 @@ namespace GlobalNamespace {
   class INodePoseSyncStateManager_5;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::INodePoseSyncStateManager_5, "", "INodePoseSyncStateManager`5");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::INodePoseSyncStateManager_5, "", "INodePoseSyncStateManager`5");
 // Type namespace: 
 namespace GlobalNamespace {
   // WARNING Size may be invalid!
@@ -67,42 +67,42 @@ namespace GlobalNamespace {
     // public System.Single get_syncTime()
     // Offset: 0xFFFFFFFF
     float get_syncTime() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::INodePoseSyncStateManager_5::get_syncTime");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::INodePoseSyncStateManager_5::get_syncTime");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_syncTime", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<float, false>(this, ___internal__method);
     }
     // public System.Int32 get_connectedPlayerCount()
     // Offset: 0xFFFFFFFF
     int get_connectedPlayerCount() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::INodePoseSyncStateManager_5::get_connectedPlayerCount");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::INodePoseSyncStateManager_5::get_connectedPlayerCount");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_connectedPlayerCount", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method);
     }
     // public LocalMultiplayerSyncState`3<TStateTable,TType,TState> get_localState()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>* get_localState() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::INodePoseSyncStateManager_5::get_localState");
+    ::GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>* get_localState() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::INodePoseSyncStateManager_5::get_localState");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_localState", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodRethrow<GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>*, false>(this, ___internal__method);
+      return ::il2cpp_utils::RunMethodRethrow<::GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>*, false>(this, ___internal__method);
     }
     // public MultiplayerSyncState`3<TStateTable,TType,TState> GetSyncStateForPlayer(IConnectedPlayer player)
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState>* GetSyncStateForPlayer(GlobalNamespace::IConnectedPlayer* player) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::INodePoseSyncStateManager_5::GetSyncStateForPlayer");
+    ::GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState>* GetSyncStateForPlayer(::GlobalNamespace::IConnectedPlayer* player) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::INodePoseSyncStateManager_5::GetSyncStateForPlayer");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetSyncStateForPlayer", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(player)})));
-      return ::il2cpp_utils::RunMethodRethrow<GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState>*, false>(this, ___internal__method, player);
+      return ::il2cpp_utils::RunMethodRethrow<::GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState>*, false>(this, ___internal__method, player);
     }
     // public MultiplayerSyncState`3<TStateTable,TType,TState> GetSyncState(System.Int32 i)
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState>* GetSyncState(int i) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::INodePoseSyncStateManager_5::GetSyncState");
+    ::GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState>* GetSyncState(int i) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::INodePoseSyncStateManager_5::GetSyncState");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetSyncState", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(i)})));
-      return ::il2cpp_utils::RunMethodRethrow<GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState>*, false>(this, ___internal__method, i);
+      return ::il2cpp_utils::RunMethodRethrow<::GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState>*, false>(this, ___internal__method, i);
     }
     // public System.Void ClearBufferedStates()
     // Offset: 0xFFFFFFFF
     void ClearBufferedStates() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::INodePoseSyncStateManager_5::ClearBufferedStates");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::INodePoseSyncStateManager_5::ClearBufferedStates");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ClearBufferedStates", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }

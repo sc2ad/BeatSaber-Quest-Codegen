@@ -80,8 +80,8 @@ namespace HoudiniEngineUnity {
   class HEU_GeneralUtility;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_GeneralUtility);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_GeneralUtility*, "HoudiniEngineUnity", "HEU_GeneralUtility");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_GeneralUtility);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_GeneralUtility*, "HoudiniEngineUnity", "HEU_GeneralUtility");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x10
@@ -90,26 +90,26 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_GeneralUtility : public ::Il2CppObject {
     public:
-    // Nested type: HoudiniEngineUnity::HEU_GeneralUtility::GetArray1ArgDel_1<T>
+    // Nested type: ::HoudiniEngineUnity::HEU_GeneralUtility::GetArray1ArgDel_1<T>
     template<typename T>
     class GetArray1ArgDel_1;
-    // Nested type: HoudiniEngineUnity::HEU_GeneralUtility::GetArray2ArgDel_2<ARG2, T>
+    // Nested type: ::HoudiniEngineUnity::HEU_GeneralUtility::GetArray2ArgDel_2<ARG2, T>
     template<typename ARG2, typename T>
     class GetArray2ArgDel_2;
-    // Nested type: HoudiniEngineUnity::HEU_GeneralUtility::GetArray3ArgDel_3<ARG3, ARG2, T>
+    // Nested type: ::HoudiniEngineUnity::HEU_GeneralUtility::GetArray3ArgDel_3<ARG3, ARG2, T>
     template<typename ARG3, typename ARG2, typename T>
     class GetArray3ArgDel_3;
-    // Nested type: HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeArrayInputFunc_1<T>
+    // Nested type: ::HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeArrayInputFunc_1<T>
     template<typename T>
     class GetAttributeArrayInputFunc_1;
-    // Nested type: HoudiniEngineUnity::HEU_GeneralUtility::SetAttributeArrayFunc_1<T>
+    // Nested type: ::HoudiniEngineUnity::HEU_GeneralUtility::SetAttributeArrayFunc_1<T>
     template<typename T>
     class SetAttributeArrayFunc_1;
     // static public System.Boolean GetArray1Arg(System.Int32 arg1, HoudiniEngineUnity.HEU_GeneralUtility/HoudiniEngineUnity.GetArray1ArgDel`1<T> func, out T[] data, System.Int32 start, System.Int32 count)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static bool GetArray1Arg(int arg1, HoudiniEngineUnity::HEU_GeneralUtility::GetArray1ArgDel_1<T>* func, ByRef<::ArrayW<T>> data, int start, int count) {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_GeneralUtility::GetArray1Arg");
+    static bool GetArray1Arg(int arg1, ::HoudiniEngineUnity::HEU_GeneralUtility::GetArray1ArgDel_1<T>* func, ByRef<::ArrayW<T>> data, int start, int count) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_GeneralUtility::GetArray1Arg");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_GeneralUtility", "GetArray1Arg", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg1), ::il2cpp_utils::ExtractType(func), ::il2cpp_utils::ExtractIndependentType<::ArrayW<T>&>(), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(count)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, arg1, func, byref(data), start, count);
@@ -117,8 +117,8 @@ namespace HoudiniEngineUnity {
     // static public System.Boolean GetArray2Arg(System.Int32 arg1, ARG2 arg2, HoudiniEngineUnity.HEU_GeneralUtility/HoudiniEngineUnity.GetArray2ArgDel`2<ARG2,T> func, out T[] data, System.Int32 start, System.Int32 count)
     // Offset: 0xFFFFFFFF
     template<class ARG2, class T>
-    static bool GetArray2Arg(int arg1, ARG2 arg2, HoudiniEngineUnity::HEU_GeneralUtility::GetArray2ArgDel_2<ARG2, T>* func, ByRef<::ArrayW<T>> data, int start, int count) {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_GeneralUtility::GetArray2Arg");
+    static bool GetArray2Arg(int arg1, ARG2 arg2, ::HoudiniEngineUnity::HEU_GeneralUtility::GetArray2ArgDel_2<ARG2, T>* func, ByRef<::ArrayW<T>> data, int start, int count) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_GeneralUtility::GetArray2Arg");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_GeneralUtility", "GetArray2Arg", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg1), ::il2cpp_utils::ExtractType(arg2), ::il2cpp_utils::ExtractType(func), ::il2cpp_utils::ExtractIndependentType<::ArrayW<T>&>(), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(count)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, arg1, arg2, func, byref(data), start, count);
@@ -126,8 +126,8 @@ namespace HoudiniEngineUnity {
     // static public System.Boolean GetArray3Arg(System.Int32 arg1, ARG2 arg2, ARG3 arg3, HoudiniEngineUnity.HEU_GeneralUtility/HoudiniEngineUnity.GetArray3ArgDel`3<ARG3,ARG2,T> func, out T[] data, System.Int32 start, System.Int32 count)
     // Offset: 0xFFFFFFFF
     template<class ARG3, class ARG2, class T>
-    static bool GetArray3Arg(int arg1, ARG2 arg2, ARG3 arg3, HoudiniEngineUnity::HEU_GeneralUtility::GetArray3ArgDel_3<ARG3, ARG2, T>* func, ByRef<::ArrayW<T>> data, int start, int count) {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_GeneralUtility::GetArray3Arg");
+    static bool GetArray3Arg(int arg1, ARG2 arg2, ARG3 arg3, ::HoudiniEngineUnity::HEU_GeneralUtility::GetArray3ArgDel_3<ARG3, ARG2, T>* func, ByRef<::ArrayW<T>> data, int start, int count) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_GeneralUtility::GetArray3Arg");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_GeneralUtility", "GetArray3Arg", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ARG3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg1), ::il2cpp_utils::ExtractType(arg2), ::il2cpp_utils::ExtractType(arg3), ::il2cpp_utils::ExtractType(func), ::il2cpp_utils::ExtractIndependentType<::ArrayW<T>&>(), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(count)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ARG3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, arg1, arg2, arg3, func, byref(data), start, count);
@@ -135,8 +135,8 @@ namespace HoudiniEngineUnity {
     // static private System.Boolean GetArray(System.Int32 arg1, ARG2 arg2, ARG3 arg3, HoudiniEngineUnity.HEU_GeneralUtility/HoudiniEngineUnity.GetArray1ArgDel`1<T> func1, HoudiniEngineUnity.HEU_GeneralUtility/HoudiniEngineUnity.GetArray2ArgDel`2<ARG2,T> func2, HoudiniEngineUnity.HEU_GeneralUtility/HoudiniEngineUnity.GetArray3ArgDel`3<ARG3,ARG2,T> func3, out T[] data, System.Int32 start, System.Int32 count, System.Int32 tupleSize)
     // Offset: 0xFFFFFFFF
     template<class ARG3, class ARG2, class T>
-    static bool GetArray(int arg1, ARG2 arg2, ARG3 arg3, HoudiniEngineUnity::HEU_GeneralUtility::GetArray1ArgDel_1<T>* func1, HoudiniEngineUnity::HEU_GeneralUtility::GetArray2ArgDel_2<ARG2, T>* func2, HoudiniEngineUnity::HEU_GeneralUtility::GetArray3ArgDel_3<ARG3, ARG2, T>* func3, ByRef<::ArrayW<T>> data, int start, int count, int tupleSize) {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_GeneralUtility::GetArray");
+    static bool GetArray(int arg1, ARG2 arg2, ARG3 arg3, ::HoudiniEngineUnity::HEU_GeneralUtility::GetArray1ArgDel_1<T>* func1, ::HoudiniEngineUnity::HEU_GeneralUtility::GetArray2ArgDel_2<ARG2, T>* func2, ::HoudiniEngineUnity::HEU_GeneralUtility::GetArray3ArgDel_3<ARG3, ARG2, T>* func3, ByRef<::ArrayW<T>> data, int start, int count, int tupleSize) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_GeneralUtility::GetArray");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_GeneralUtility", "GetArray", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ARG3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg1), ::il2cpp_utils::ExtractType(arg2), ::il2cpp_utils::ExtractType(arg3), ::il2cpp_utils::ExtractType(func1), ::il2cpp_utils::ExtractType(func2), ::il2cpp_utils::ExtractType(func3), ::il2cpp_utils::ExtractIndependentType<::ArrayW<T>&>(), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(count), ::il2cpp_utils::ExtractType(tupleSize)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ARG3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, arg1, arg2, arg3, func1, func2, func3, byref(data), start, count, tupleSize);
@@ -144,8 +144,8 @@ namespace HoudiniEngineUnity {
     // static public System.Boolean SetArray1Arg(System.Int32 arg1, HoudiniEngineUnity.HEU_GeneralUtility/HoudiniEngineUnity.GetArray1ArgDel`1<T> func, out T[] data, System.Int32 start, System.Int32 count)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static bool SetArray1Arg(int arg1, HoudiniEngineUnity::HEU_GeneralUtility::GetArray1ArgDel_1<T>* func, ByRef<::ArrayW<T>> data, int start, int count) {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_GeneralUtility::SetArray1Arg");
+    static bool SetArray1Arg(int arg1, ::HoudiniEngineUnity::HEU_GeneralUtility::GetArray1ArgDel_1<T>* func, ByRef<::ArrayW<T>> data, int start, int count) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_GeneralUtility::SetArray1Arg");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_GeneralUtility", "SetArray1Arg", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg1), ::il2cpp_utils::ExtractType(func), ::il2cpp_utils::ExtractIndependentType<::ArrayW<T>&>(), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(count)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, arg1, func, byref(data), start, count);
@@ -153,8 +153,8 @@ namespace HoudiniEngineUnity {
     // static public System.Boolean SetArray2Arg(System.Int32 arg1, ARG2 arg2, HoudiniEngineUnity.HEU_GeneralUtility/HoudiniEngineUnity.GetArray2ArgDel`2<ARG2,T> func, out T[] data, System.Int32 start, System.Int32 count)
     // Offset: 0xFFFFFFFF
     template<class ARG2, class T>
-    static bool SetArray2Arg(int arg1, ARG2 arg2, HoudiniEngineUnity::HEU_GeneralUtility::GetArray2ArgDel_2<ARG2, T>* func, ByRef<::ArrayW<T>> data, int start, int count) {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_GeneralUtility::SetArray2Arg");
+    static bool SetArray2Arg(int arg1, ARG2 arg2, ::HoudiniEngineUnity::HEU_GeneralUtility::GetArray2ArgDel_2<ARG2, T>* func, ByRef<::ArrayW<T>> data, int start, int count) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_GeneralUtility::SetArray2Arg");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_GeneralUtility", "SetArray2Arg", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg1), ::il2cpp_utils::ExtractType(arg2), ::il2cpp_utils::ExtractType(func), ::il2cpp_utils::ExtractIndependentType<::ArrayW<T>&>(), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(count)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, arg1, arg2, func, byref(data), start, count);
@@ -162,8 +162,8 @@ namespace HoudiniEngineUnity {
     // static public System.Boolean SetArray(System.Int32 arg1, ARG2 arg2, HoudiniEngineUnity.HEU_GeneralUtility/HoudiniEngineUnity.GetArray1ArgDel`1<T> func1, HoudiniEngineUnity.HEU_GeneralUtility/HoudiniEngineUnity.GetArray2ArgDel`2<ARG2,T> func2, out T[] data, System.Int32 start, System.Int32 count, System.Int32 tupleSize)
     // Offset: 0xFFFFFFFF
     template<class ARG2, class T>
-    static bool SetArray(int arg1, ARG2 arg2, HoudiniEngineUnity::HEU_GeneralUtility::GetArray1ArgDel_1<T>* func1, HoudiniEngineUnity::HEU_GeneralUtility::GetArray2ArgDel_2<ARG2, T>* func2, ByRef<::ArrayW<T>> data, int start, int count, int tupleSize) {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_GeneralUtility::SetArray");
+    static bool SetArray(int arg1, ARG2 arg2, ::HoudiniEngineUnity::HEU_GeneralUtility::GetArray1ArgDel_1<T>* func1, ::HoudiniEngineUnity::HEU_GeneralUtility::GetArray2ArgDel_2<ARG2, T>* func2, ByRef<::ArrayW<T>> data, int start, int count, int tupleSize) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_GeneralUtility::SetArray");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_GeneralUtility", "SetArray", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg1), ::il2cpp_utils::ExtractType(arg2), ::il2cpp_utils::ExtractType(func1), ::il2cpp_utils::ExtractType(func2), ::il2cpp_utils::ExtractIndependentType<::ArrayW<T>&>(), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(count), ::il2cpp_utils::ExtractType(tupleSize)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, arg1, arg2, func1, func2, byref(data), start, count, tupleSize);
@@ -172,7 +172,7 @@ namespace HoudiniEngineUnity {
     // Offset: 0xFFFFFFFF
     template<class T>
     static bool DoArrayElementsMatch(::ArrayW<T> array1, ::ArrayW<T> array2) {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_GeneralUtility::DoArrayElementsMatch");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_GeneralUtility::DoArrayElementsMatch");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_GeneralUtility", "DoArrayElementsMatch", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array1), ::il2cpp_utils::ExtractType(array2)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, array1, array2);
@@ -181,7 +181,7 @@ namespace HoudiniEngineUnity {
     // Offset: 0xFFFFFFFF
     template<class T>
     static bool DoArrayElementsMatch(::ArrayW<T> array1, int startOffset1, ::ArrayW<T> array2, int startOffset2, int length) {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_GeneralUtility::DoArrayElementsMatch");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_GeneralUtility::DoArrayElementsMatch");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_GeneralUtility", "DoArrayElementsMatch", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array1), ::il2cpp_utils::ExtractType(startOffset1), ::il2cpp_utils::ExtractType(array2), ::il2cpp_utils::ExtractType(startOffset2), ::il2cpp_utils::ExtractType(length)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, array1, startOffset1, array2, startOffset2, length);
@@ -189,8 +189,8 @@ namespace HoudiniEngineUnity {
     // static public System.Boolean GetAttributeArray(System.Int32 geoID, System.Int32 partID, System.String name, ref HoudiniEngineUnity.HAPI_AttributeInfo info, T[] items, HoudiniEngineUnity.HEU_GeneralUtility/HoudiniEngineUnity.GetAttributeArrayInputFunc`1<T> getFunc, System.Int32 count)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static bool GetAttributeArray(int geoID, int partID, ::StringW name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, ::ArrayW<T> items, HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeArrayInputFunc_1<T>* getFunc, int count) {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeArray");
+    static bool GetAttributeArray(int geoID, int partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> info, ::ArrayW<T> items, ::HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeArrayInputFunc_1<T>* getFunc, int count) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeArray");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_GeneralUtility", "GetAttributeArray", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(geoID), ::il2cpp_utils::ExtractType(partID), ::il2cpp_utils::ExtractType(name), ::il2cpp_utils::ExtractType(info), ::il2cpp_utils::ExtractType(items), ::il2cpp_utils::ExtractType(getFunc), ::il2cpp_utils::ExtractType(count)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, geoID, partID, name, byref(info), items, getFunc, count);
@@ -198,8 +198,8 @@ namespace HoudiniEngineUnity {
     // static public System.Boolean GetAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String name, ref HoudiniEngineUnity.HAPI_AttributeInfo info, ref T[] data, HoudiniEngineUnity.HEU_GeneralUtility/HoudiniEngineUnity.GetAttributeArrayInputFunc`1<T> getFunc)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static bool GetAttribute(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, ByRef<::ArrayW<T>> data, HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeArrayInputFunc_1<T>* getFunc) {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_GeneralUtility::GetAttribute");
+    static bool GetAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> info, ByRef<::ArrayW<T>> data, ::HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeArrayInputFunc_1<T>* getFunc) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_GeneralUtility::GetAttribute");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_GeneralUtility", "GetAttribute", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(session), ::il2cpp_utils::ExtractType(geoID), ::il2cpp_utils::ExtractType(partID), ::il2cpp_utils::ExtractType(name), ::il2cpp_utils::ExtractType(info), ::il2cpp_utils::ExtractType(data), ::il2cpp_utils::ExtractType(getFunc)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, session, geoID, partID, name, byref(info), byref(data), getFunc);
@@ -207,23 +207,23 @@ namespace HoudiniEngineUnity {
     // static public System.Boolean GetAttributeStrict(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, HoudiniEngineUnity.HAPI_AttributeOwner attrOwner, System.String name, ref HoudiniEngineUnity.HAPI_AttributeInfo info, ref T[] data, HoudiniEngineUnity.HEU_GeneralUtility/HoudiniEngineUnity.GetAttributeArrayInputFunc`1<T> getFunc)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static bool GetAttributeStrict(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, HoudiniEngineUnity::HAPI_AttributeOwner attrOwner, ::StringW name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, ByRef<::ArrayW<T>> data, HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeArrayInputFunc_1<T>* getFunc) {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeStrict");
+    static bool GetAttributeStrict(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::HoudiniEngineUnity::HAPI_AttributeOwner attrOwner, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> info, ByRef<::ArrayW<T>> data, ::HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeArrayInputFunc_1<T>* getFunc) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeStrict");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_GeneralUtility", "GetAttributeStrict", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(session), ::il2cpp_utils::ExtractType(geoID), ::il2cpp_utils::ExtractType(partID), ::il2cpp_utils::ExtractType(attrOwner), ::il2cpp_utils::ExtractType(name), ::il2cpp_utils::ExtractType(info), ::il2cpp_utils::ExtractType(data), ::il2cpp_utils::ExtractType(getFunc)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, session, geoID, partID, attrOwner, name, byref(info), byref(data), getFunc);
     }
     // static public System.Void GetAttributeStringDataHelper(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String name, ref HoudiniEngineUnity.HAPI_AttributeInfo info, ref System.Int32[] data)
     // Offset: 0x16BA428
-    static void GetAttributeStringDataHelper(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, ByRef<::ArrayW<int>> data);
+    static void GetAttributeStringDataHelper(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> info, ByRef<::ArrayW<int>> data);
     // static public System.String[] GetAttributeStringData(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String name, ref HoudiniEngineUnity.HAPI_AttributeInfo attrInfo)
     // Offset: 0x16BA5E8
-    static ::ArrayW<::StringW> GetAttributeStringData(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo);
+    static ::ArrayW<::StringW> GetAttributeStringData(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo);
     // static public System.Boolean SetAttributeArray(System.Int32 geoID, System.Int32 partID, System.String attrName, ref HoudiniEngineUnity.HAPI_AttributeInfo attrInfo, T[] items, HoudiniEngineUnity.HEU_GeneralUtility/HoudiniEngineUnity.SetAttributeArrayFunc`1<T> setFunc, System.Int32 count)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static bool SetAttributeArray(int geoID, int partID, ::StringW attrName, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayW<T> items, HoudiniEngineUnity::HEU_GeneralUtility::SetAttributeArrayFunc_1<T>* setFunc, int count) {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_GeneralUtility::SetAttributeArray");
+    static bool SetAttributeArray(int geoID, int partID, ::StringW attrName, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayW<T> items, ::HoudiniEngineUnity::HEU_GeneralUtility::SetAttributeArrayFunc_1<T>* setFunc, int count) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_GeneralUtility::SetAttributeArray");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_GeneralUtility", "SetAttributeArray", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(geoID), ::il2cpp_utils::ExtractType(partID), ::il2cpp_utils::ExtractType(attrName), ::il2cpp_utils::ExtractType(attrInfo), ::il2cpp_utils::ExtractType(items), ::il2cpp_utils::ExtractType(setFunc), ::il2cpp_utils::ExtractType(count)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, geoID, partID, attrName, byref(attrInfo), items, setFunc, count);
@@ -231,227 +231,227 @@ namespace HoudiniEngineUnity {
     // static public System.Boolean SetAttribute(System.Int32 geoID, System.Int32 partID, System.String attrName, ref HoudiniEngineUnity.HAPI_AttributeInfo attrInfo, T[] items, HoudiniEngineUnity.HEU_GeneralUtility/HoudiniEngineUnity.SetAttributeArrayFunc`1<T> setFunc)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static bool SetAttribute(int geoID, int partID, ::StringW attrName, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayW<T> items, HoudiniEngineUnity::HEU_GeneralUtility::SetAttributeArrayFunc_1<T>* setFunc) {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_GeneralUtility::SetAttribute");
+    static bool SetAttribute(int geoID, int partID, ::StringW attrName, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayW<T> items, ::HoudiniEngineUnity::HEU_GeneralUtility::SetAttributeArrayFunc_1<T>* setFunc) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_GeneralUtility::SetAttribute");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_GeneralUtility", "SetAttribute", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(geoID), ::il2cpp_utils::ExtractType(partID), ::il2cpp_utils::ExtractType(attrName), ::il2cpp_utils::ExtractType(attrInfo), ::il2cpp_utils::ExtractType(items), ::il2cpp_utils::ExtractType(setFunc)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, geoID, partID, attrName, byref(attrInfo), items, setFunc);
     }
     // static public System.Boolean CheckAttributeExists(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attribName, HoudiniEngineUnity.HAPI_AttributeOwner attribOwner)
     // Offset: 0x16BA70C
-    static bool CheckAttributeExists(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attribName, HoudiniEngineUnity::HAPI_AttributeOwner attribOwner);
+    static bool CheckAttributeExists(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attribName, ::HoudiniEngineUnity::HAPI_AttributeOwner attribOwner);
     // static public System.Boolean GetAttributeInfo(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attribName, ref HoudiniEngineUnity.HAPI_AttributeInfo attribInfo)
     // Offset: 0x16BA760
-    static bool GetAttributeInfo(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attribName, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attribInfo);
+    static bool GetAttributeInfo(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attribName, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attribInfo);
     // static public System.Boolean HasValidInstanceAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attribName)
     // Offset: 0x16BA7F8
-    static bool HasValidInstanceAttribute(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attribName);
+    static bool HasValidInstanceAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attribName);
     // static public System.Void UpdateGeneratedAttributeStore(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, UnityEngine.GameObject go)
     // Offset: 0x16BA844
-    static void UpdateGeneratedAttributeStore(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, UnityEngine::GameObject* go);
+    static void UpdateGeneratedAttributeStore(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::UnityEngine::GameObject* go);
     // static public HoudiniEngineUnity.HEU_OutputAttribute CreateOutputAttributeHelper(System.String attrName, ref HoudiniEngineUnity.HAPI_AttributeInfo attrInfo)
     // Offset: 0x16BACD0
-    static HoudiniEngineUnity::HEU_OutputAttribute* CreateOutputAttributeHelper(::StringW attrName, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo);
+    static ::HoudiniEngineUnity::HEU_OutputAttribute* CreateOutputAttributeHelper(::StringW attrName, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo);
     // static public HoudiniEngineUnity.HEU_OutputAttribute CreateOutputAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attrName, ref HoudiniEngineUnity.HAPI_AttributeInfo attrInfo)
     // Offset: 0x16BAA44
-    static HoudiniEngineUnity::HEU_OutputAttribute* CreateOutputAttribute(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attrName, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo);
+    static ::HoudiniEngineUnity::HEU_OutputAttribute* CreateOutputAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attrName, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo);
     // static public System.Void CopyWorldTransformValues(UnityEngine.Transform src, UnityEngine.Transform dest)
     // Offset: 0x16BAD68
-    static void CopyWorldTransformValues(UnityEngine::Transform* src, UnityEngine::Transform* dest);
+    static void CopyWorldTransformValues(::UnityEngine::Transform* src, ::UnityEngine::Transform* dest);
     // static public System.Void ApplyTransformTo(UnityEngine.Transform src, UnityEngine.Transform target)
     // Offset: 0x16BADD4
-    static void ApplyTransformTo(UnityEngine::Transform* src, UnityEngine::Transform* target);
+    static void ApplyTransformTo(::UnityEngine::Transform* src, ::UnityEngine::Transform* target);
     // static public System.Void CopyLocalTransformValues(UnityEngine.Transform src, UnityEngine.Transform dest)
     // Offset: 0x16BAED4
-    static void CopyLocalTransformValues(UnityEngine::Transform* src, UnityEngine::Transform* dest);
+    static void CopyLocalTransformValues(::UnityEngine::Transform* src, ::UnityEngine::Transform* dest);
     // static public System.Collections.Generic.List`1<UnityEngine.GameObject> GetChildGameObjects(UnityEngine.GameObject parentGO)
     // Offset: 0x16BAF40
-    static System::Collections::Generic::List_1<UnityEngine::GameObject*>* GetChildGameObjects(UnityEngine::GameObject* parentGO);
+    static ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* GetChildGameObjects(::UnityEngine::GameObject* parentGO);
     // static public System.Collections.Generic.List`1<UnityEngine.GameObject> GetChildGameObjectsWithNamePattern(UnityEngine.GameObject parentGO, System.String pattern, System.Boolean bExclude)
     // Offset: 0x16BB1F0
-    static System::Collections::Generic::List_1<UnityEngine::GameObject*>* GetChildGameObjectsWithNamePattern(UnityEngine::GameObject* parentGO, ::StringW pattern, bool bExclude);
+    static ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* GetChildGameObjectsWithNamePattern(::UnityEngine::GameObject* parentGO, ::StringW pattern, bool bExclude);
     // static public System.Collections.Generic.List`1<UnityEngine.GameObject> GetInstanceChildObjects(UnityEngine.GameObject parentGO)
     // Offset: 0x16BB518
-    static System::Collections::Generic::List_1<UnityEngine::GameObject*>* GetInstanceChildObjects(UnityEngine::GameObject* parentGO);
+    static ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* GetInstanceChildObjects(::UnityEngine::GameObject* parentGO);
     // static public System.Collections.Generic.List`1<UnityEngine.GameObject> GetNonInstanceChildObjects(UnityEngine.GameObject parentGO)
     // Offset: 0x16BB56C
-    static System::Collections::Generic::List_1<UnityEngine::GameObject*>* GetNonInstanceChildObjects(UnityEngine::GameObject* parentGO);
+    static ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* GetNonInstanceChildObjects(::UnityEngine::GameObject* parentGO);
     // static public UnityEngine.GameObject GetGameObjectByName(System.Collections.Generic.List`1<UnityEngine.GameObject> goList, System.String name)
     // Offset: 0x16BB5C0
-    static UnityEngine::GameObject* GetGameObjectByName(System::Collections::Generic::List_1<UnityEngine::GameObject*>* goList, ::StringW name);
+    static ::UnityEngine::GameObject* GetGameObjectByName(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* goList, ::StringW name);
     // static public UnityEngine.GameObject GetGameObjectByNameInProjectOnly(System.String name)
     // Offset: 0x16BB6F8
-    static UnityEngine::GameObject* GetGameObjectByNameInProjectOnly(::StringW name);
+    static ::UnityEngine::GameObject* GetGameObjectByNameInProjectOnly(::StringW name);
     // static public System.Boolean IsGameObjectInProject(UnityEngine.GameObject go)
     // Offset: 0x16BB7E0
-    static bool IsGameObjectInProject(UnityEngine::GameObject* go);
+    static bool IsGameObjectInProject(::UnityEngine::GameObject* go);
     // static public UnityEngine.GameObject GetGameObjectByNameInScene(System.String name)
     // Offset: 0x16BB7E8
-    static UnityEngine::GameObject* GetGameObjectByNameInScene(::StringW name);
+    static ::UnityEngine::GameObject* GetGameObjectByNameInScene(::StringW name);
     // static public HoudiniEngineUnity.HEU_HoudiniAssetRoot GetHDAByGameObjectNameInScene(System.String name)
     // Offset: 0x16BB83C
-    static HoudiniEngineUnity::HEU_HoudiniAssetRoot* GetHDAByGameObjectNameInScene(::StringW name);
+    static ::HoudiniEngineUnity::HEU_HoudiniAssetRoot* GetHDAByGameObjectNameInScene(::StringW name);
     // static public T GetOrCreateComponent(UnityEngine.GameObject gameObject)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static T GetOrCreateComponent(UnityEngine::GameObject* gameObject) {
-      static_assert(std::is_convertible_v<T, UnityEngine::Component*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_GeneralUtility::GetOrCreateComponent");
+    static T GetOrCreateComponent(::UnityEngine::GameObject* gameObject) {
+      static_assert(std::is_convertible_v<T, ::UnityEngine::Component*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_GeneralUtility::GetOrCreateComponent");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_GeneralUtility", "GetOrCreateComponent", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(gameObject)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, gameObject);
     }
     // static public System.Void DestroyGeneratedComponents(UnityEngine.GameObject gameObject)
     // Offset: 0x16BB890
-    static void DestroyGeneratedComponents(UnityEngine::GameObject* gameObject);
+    static void DestroyGeneratedComponents(::UnityEngine::GameObject* gameObject);
     // static public System.Void DestroyGeneratedMeshComponents(UnityEngine.GameObject gameObject)
     // Offset: 0x16BB958
-    static void DestroyGeneratedMeshComponents(UnityEngine::GameObject* gameObject);
+    static void DestroyGeneratedMeshComponents(::UnityEngine::GameObject* gameObject);
     // static public System.Void DestroyTerrainComponents(UnityEngine.GameObject gameObject)
     // Offset: 0x16BB9E4
-    static void DestroyTerrainComponents(UnityEngine::GameObject* gameObject);
+    static void DestroyTerrainComponents(::UnityEngine::GameObject* gameObject);
     // static public System.Void DestroyComponent(UnityEngine.GameObject gameObject)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static void DestroyComponent(UnityEngine::GameObject* gameObject) {
-      static_assert(std::is_convertible_v<T, UnityEngine::Component*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_GeneralUtility::DestroyComponent");
+    static void DestroyComponent(::UnityEngine::GameObject* gameObject) {
+      static_assert(std::is_convertible_v<T, ::UnityEngine::Component*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_GeneralUtility::DestroyComponent");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_GeneralUtility", "DestroyComponent", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(gameObject)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, gameObject);
     }
     // static public System.Void DestroyImmediate(UnityEngine.Object obj, System.Boolean bAllowDestroyingAssets, System.Boolean bRegisterUndo)
     // Offset: 0x16BBB5C
-    static void DestroyImmediate(UnityEngine::Object* obj, bool bAllowDestroyingAssets, bool bRegisterUndo);
+    static void DestroyImmediate(::UnityEngine::Object* obj, bool bAllowDestroyingAssets, bool bRegisterUndo);
     // static public System.Void DestroyBakedGameObjects(System.Collections.Generic.List`1<UnityEngine.GameObject> gameObjectsToDestroy)
     // Offset: 0x16BBBA8
-    static void DestroyBakedGameObjects(System::Collections::Generic::List_1<UnityEngine::GameObject*>* gameObjectsToDestroy);
+    static void DestroyBakedGameObjects(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* gameObjectsToDestroy);
     // static public System.Void DestroyBakedGameObjectsWithEndName(System.Collections.Generic.List`1<UnityEngine.GameObject> gameObjectsToDestroy, System.String endName)
     // Offset: 0x16BBBB0
-    static void DestroyBakedGameObjectsWithEndName(System::Collections::Generic::List_1<UnityEngine::GameObject*>* gameObjectsToDestroy, ::StringW endName);
+    static void DestroyBakedGameObjectsWithEndName(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* gameObjectsToDestroy, ::StringW endName);
     // static public System.Void DestroyLODGroup(UnityEngine.GameObject targetGO, System.Boolean bDontDeletePersistantResources)
     // Offset: 0x16BBF1C
-    static void DestroyLODGroup(UnityEngine::GameObject* targetGO, bool bDontDeletePersistantResources);
+    static void DestroyLODGroup(::UnityEngine::GameObject* targetGO, bool bDontDeletePersistantResources);
     // static public System.Collections.Generic.List`1<UnityEngine.Transform> GetLODTransforms(UnityEngine.GameObject targetGO)
     // Offset: 0x16BC0C8
-    static System::Collections::Generic::List_1<UnityEngine::Transform*>* GetLODTransforms(UnityEngine::GameObject* targetGO);
+    static ::System::Collections::Generic::List_1<::UnityEngine::Transform*>* GetLODTransforms(::UnityEngine::GameObject* targetGO);
     // static public System.Void SetLODTransformValues(UnityEngine.GameObject targetGO, System.Collections.Generic.List`1<HoudiniEngineUnity.TransformData> transformData)
     // Offset: 0x16BC204
-    static void SetLODTransformValues(UnityEngine::GameObject* targetGO, System::Collections::Generic::List_1<HoudiniEngineUnity::TransformData>* transformData);
+    static void SetLODTransformValues(::UnityEngine::GameObject* targetGO, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::TransformData>* transformData);
     // static public System.Void DestroyGeneratedMeshMaterialsLODGroups(UnityEngine.GameObject targetGO, System.Boolean bDontDeletePersistantResources)
     // Offset: 0x16BBCB8
-    static void DestroyGeneratedMeshMaterialsLODGroups(UnityEngine::GameObject* targetGO, bool bDontDeletePersistantResources);
+    static void DestroyGeneratedMeshMaterialsLODGroups(::UnityEngine::GameObject* targetGO, bool bDontDeletePersistantResources);
     // static public System.Void DestroyGeneratedMaterial(UnityEngine.Material material)
     // Offset: 0x16BC364
-    static void DestroyGeneratedMaterial(UnityEngine::Material* material);
+    static void DestroyGeneratedMaterial(::UnityEngine::Material* material);
     // static public System.Void DestroyMeshCollider(UnityEngine.MeshCollider meshCollider, System.Boolean bDontDeletePersistantResources)
     // Offset: 0x16BC498
-    static void DestroyMeshCollider(UnityEngine::MeshCollider* meshCollider, bool bDontDeletePersistantResources);
+    static void DestroyMeshCollider(::UnityEngine::MeshCollider* meshCollider, bool bDontDeletePersistantResources);
     // static public System.Void SetGameObjectRenderVisiblity(UnityEngine.GameObject gameObject, System.Boolean bVisible)
     // Offset: 0x16BC5A0
-    static void SetGameObjectRenderVisiblity(UnityEngine::GameObject* gameObject, bool bVisible);
+    static void SetGameObjectRenderVisiblity(::UnityEngine::GameObject* gameObject, bool bVisible);
     // static public System.Void SetGameObjectChildrenRenderVisibility(UnityEngine.GameObject gameObject, System.Boolean bVisible)
     // Offset: 0x16BC690
-    static void SetGameObjectChildrenRenderVisibility(UnityEngine::GameObject* gameObject, bool bVisible);
+    static void SetGameObjectChildrenRenderVisibility(::UnityEngine::GameObject* gameObject, bool bVisible);
     // static public System.Void SetGameObjectColliderState(UnityEngine.GameObject gameObject, System.Boolean bEnabled)
     // Offset: 0x16BC784
-    static void SetGameObjectColliderState(UnityEngine::GameObject* gameObject, bool bEnabled);
+    static void SetGameObjectColliderState(::UnityEngine::GameObject* gameObject, bool bEnabled);
     // static public System.Void SetGameObjectChildrenColliderState(UnityEngine.GameObject gameObject, System.Boolean bVisible)
     // Offset: 0x16BC874
-    static void SetGameObjectChildrenColliderState(UnityEngine::GameObject* gameObject, bool bVisible);
+    static void SetGameObjectChildrenColliderState(::UnityEngine::GameObject* gameObject, bool bVisible);
     // static public System.String ColorToString(UnityEngine.Color c)
     // Offset: 0x16BC968
-    static ::StringW ColorToString(UnityEngine::Color c);
+    static ::StringW ColorToString(::UnityEngine::Color c);
     // static public UnityEngine.Color StringToColor(System.String colorString)
     // Offset: 0x16BCB74
-    static UnityEngine::Color StringToColor(::StringW colorString);
+    static ::UnityEngine::Color StringToColor(::StringW colorString);
     // static public System.Boolean DoesUnityTagExist(System.String tagName)
     // Offset: 0x16BCCF8
     static bool DoesUnityTagExist(::StringW tagName);
     // static public System.Void SetLayer(UnityEngine.GameObject rootGO, System.Int32 layer, System.Boolean bIncludeChildren)
     // Offset: 0x16BCD00
-    static void SetLayer(UnityEngine::GameObject* rootGO, int layer, bool bIncludeChildren);
+    static void SetLayer(::UnityEngine::GameObject* rootGO, int layer, bool bIncludeChildren);
     // static public System.Void SetTag(UnityEngine.GameObject rootGO, System.String tag, System.Boolean bIncludeChildren)
     // Offset: 0x16BCDF0
-    static void SetTag(UnityEngine::GameObject* rootGO, ::StringW tag, bool bIncludeChildren);
+    static void SetTag(::UnityEngine::GameObject* rootGO, ::StringW tag, bool bIncludeChildren);
     // static public System.Void CopyFlags(UnityEngine.GameObject srcGO, UnityEngine.GameObject dstGO, System.Boolean bIncludeChildren)
     // Offset: 0x16BCEE0
-    static void CopyFlags(UnityEngine::GameObject* srcGO, UnityEngine::GameObject* dstGO, bool bIncludeChildren);
+    static void CopyFlags(::UnityEngine::GameObject* srcGO, ::UnityEngine::GameObject* dstGO, bool bIncludeChildren);
     // static public System.Boolean IsMouseWithinSceneView(UnityEngine.Camera camera, UnityEngine.Vector2 mousePosition)
     // Offset: 0x16BCF54
-    static bool IsMouseWithinSceneView(UnityEngine::Camera* camera, UnityEngine::Vector2 mousePosition);
+    static bool IsMouseWithinSceneView(::UnityEngine::Camera* camera, ::UnityEngine::Vector2 mousePosition);
     // static public System.Boolean IsMouseOverRect(UnityEngine.Camera camera, UnityEngine.Vector2 mousePosition, ref UnityEngine.Rect rect)
     // Offset: 0x16BCFD0
-    static bool IsMouseOverRect(UnityEngine::Camera* camera, UnityEngine::Vector2 mousePosition, ByRef<UnityEngine::Rect> rect);
+    static bool IsMouseOverRect(::UnityEngine::Camera* camera, ::UnityEngine::Vector2 mousePosition, ByRef<::UnityEngine::Rect> rect);
     // static public System.Type GetSystemTypeByName(System.String typeName)
     // Offset: 0x16BD020
-    static System::Type* GetSystemTypeByName(::StringW typeName);
+    static ::System::Type* GetSystemTypeByName(::StringW typeName);
     // static public System.Void AssignUnityTag(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, UnityEngine.GameObject gameObject)
     // Offset: 0x16BD074
-    static void AssignUnityTag(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, UnityEngine::GameObject* gameObject);
+    static void AssignUnityTag(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::UnityEngine::GameObject* gameObject);
     // static public System.Void AssignUnityLayer(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, UnityEngine.GameObject gameObject)
     // Offset: 0x16BD344
-    static void AssignUnityLayer(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, UnityEngine::GameObject* gameObject);
+    static void AssignUnityLayer(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::UnityEngine::GameObject* gameObject);
     // static public System.Void MakeStaticIfHasAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, UnityEngine.GameObject gameObject)
     // Offset: 0x16BD580
-    static void MakeStaticIfHasAttribute(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, UnityEngine::GameObject* gameObject);
+    static void MakeStaticIfHasAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::UnityEngine::GameObject* gameObject);
     // static public System.String GetUnityScriptAttributeValue(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID)
     // Offset: 0x16BD6F0
-    static ::StringW GetUnityScriptAttributeValue(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID);
+    static ::StringW GetUnityScriptAttributeValue(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID);
     // static public System.String GetAttributeStringValueSingle(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attrName, HoudiniEngineUnity.HAPI_AttributeOwner attrOwner)
     // Offset: 0x16BD850
-    static ::StringW GetAttributeStringValueSingle(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attrName, HoudiniEngineUnity::HAPI_AttributeOwner attrOwner);
+    static ::StringW GetAttributeStringValueSingle(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attrName, ::HoudiniEngineUnity::HAPI_AttributeOwner attrOwner);
     // static public System.String GetAttributeStringValueSingleStrict(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attrName, HoudiniEngineUnity.HAPI_AttributeOwner attrOwner)
     // Offset: 0x16BDACC
-    static ::StringW GetAttributeStringValueSingleStrict(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attrName, HoudiniEngineUnity::HAPI_AttributeOwner attrOwner);
+    static ::StringW GetAttributeStringValueSingleStrict(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attrName, ::HoudiniEngineUnity::HAPI_AttributeOwner attrOwner);
     // static public System.Boolean GetAttributeFloatSingle(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attrName, out System.Single value)
     // Offset: 0x16BDE2C
-    static bool GetAttributeFloatSingle(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attrName, ByRef<float> value);
+    static bool GetAttributeFloatSingle(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attrName, ByRef<float> value);
     // static public System.Boolean GetAttributeIntSingle(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attrName, out System.Int32 value)
     // Offset: 0x16BDF90
-    static bool GetAttributeIntSingle(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attrName, ByRef<int> value);
+    static bool GetAttributeIntSingle(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attrName, ByRef<int> value);
     // static public System.Boolean GetAttributeColorSingle(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attrName, ref UnityEngine.Color value)
     // Offset: 0x16BE0F4
-    static bool GetAttributeColorSingle(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attrName, ByRef<UnityEngine::Color> value);
+    static bool GetAttributeColorSingle(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attrName, ByRef<::UnityEngine::Color> value);
     // static public System.Boolean HasAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String attrName, HoudiniEngineUnity.HAPI_AttributeOwner attrOwner)
     // Offset: 0x16BE314
-    static bool HasAttribute(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attrName, HoudiniEngineUnity::HAPI_AttributeOwner attrOwner);
+    static bool HasAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW attrName, ::HoudiniEngineUnity::HAPI_AttributeOwner attrOwner);
     // static public System.Void AttachScriptWithInvokeFunction(System.String scriptSet, UnityEngine.GameObject gameObject)
     // Offset: 0x16BE3CC
-    static void AttachScriptWithInvokeFunction(::StringW scriptSet, UnityEngine::GameObject* gameObject);
+    static void AttachScriptWithInvokeFunction(::StringW scriptSet, ::UnityEngine::GameObject* gameObject);
     // static public System.Boolean IsInCameraView(UnityEngine.Camera camera, UnityEngine.Vector3 point)
     // Offset: 0x16BE928
-    static bool IsInCameraView(UnityEngine::Camera* camera, UnityEngine::Vector3 point);
+    static bool IsInCameraView(::UnityEngine::Camera* camera, ::UnityEngine::Vector3 point);
     // static public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_Handle> FindOrGenerateHandles(HoudiniEngineUnity.HEU_SessionBase session, ref HoudiniEngineUnity.HAPI_AssetInfo assetInfo, System.Int32 assetID, System.String assetName, HoudiniEngineUnity.HEU_Parameters parameters, System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_Handle> currentHandles)
     // Offset: 0x16BE9C4
-    static System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_Handle*>* FindOrGenerateHandles(HoudiniEngineUnity::HEU_SessionBase* session, ByRef<HoudiniEngineUnity::HAPI_AssetInfo> assetInfo, int assetID, ::StringW assetName, HoudiniEngineUnity::HEU_Parameters* parameters, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_Handle*>* currentHandles);
+    static ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Handle*>* FindOrGenerateHandles(::HoudiniEngineUnity::HEU_SessionBase* session, ByRef<::HoudiniEngineUnity::HAPI_AssetInfo> assetInfo, int assetID, ::StringW assetName, ::HoudiniEngineUnity::HEU_Parameters* parameters, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Handle*>* currentHandles);
     // static public System.Void CopyComponents(UnityEngine.GameObject srcGO, UnityEngine.GameObject destGO)
     // Offset: 0x16BED88
-    static void CopyComponents(UnityEngine::GameObject* srcGO, UnityEngine::GameObject* destGO);
+    static void CopyComponents(::UnityEngine::GameObject* srcGO, ::UnityEngine::GameObject* destGO);
     // static public UnityEngine.Texture LoadTextureFromFile(System.String filePath)
     // Offset: 0x16BED8C
-    static UnityEngine::Texture* LoadTextureFromFile(::StringW filePath);
+    static ::UnityEngine::Texture* LoadTextureFromFile(::StringW filePath);
     // static public UnityEngine.Texture2D MakeTexture(System.Int32 width, System.Int32 height, UnityEngine.Color color)
     // Offset: 0x16BEF84
-    static UnityEngine::Texture2D* MakeTexture(int width, int height, UnityEngine::Color color);
+    static ::UnityEngine::Texture2D* MakeTexture(int width, int height, ::UnityEngine::Color color);
     // static public System.String ReplaceFirstOccurrence(System.String srcStr, System.String searchStr, System.String replaceStr)
     // Offset: 0x16BF0BC
     static ::StringW ReplaceFirstOccurrence(::StringW srcStr, ::StringW searchStr, ::StringW replaceStr);
     // static public System.Void SetParentWithCleanTransform(UnityEngine.Transform parentTransform, UnityEngine.Transform childTransform)
     // Offset: 0x16BF160
-    static void SetParentWithCleanTransform(UnityEngine::Transform* parentTransform, UnityEngine::Transform* childTransform);
+    static void SetParentWithCleanTransform(::UnityEngine::Transform* parentTransform, ::UnityEngine::Transform* childTransform);
     // static public System.Void CopyHAPITransform(ref HoudiniEngineUnity.HAPI_Transform src, ref HoudiniEngineUnity.HAPI_Transform dest)
     // Offset: 0x16BF23C
-    static void CopyHAPITransform(ByRef<HoudiniEngineUnity::HAPI_Transform> src, ByRef<HoudiniEngineUnity::HAPI_Transform> dest);
+    static void CopyHAPITransform(ByRef<::HoudiniEngineUnity::HAPI_Transform> src, ByRef<::HoudiniEngineUnity::HAPI_Transform> dest);
     // static public System.String GetMaterialAttributeValueFromPart(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID)
     // Offset: 0x16BF2D8
-    static ::StringW GetMaterialAttributeValueFromPart(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID);
+    static ::StringW GetMaterialAttributeValueFromPart(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID);
     // static public System.Void ReplaceColliderMeshFromMeshFilter(UnityEngine.GameObject targetGO, UnityEngine.GameObject sourceColliderGO)
     // Offset: 0x16BF448
-    static void ReplaceColliderMeshFromMeshFilter(UnityEngine::GameObject* targetGO, UnityEngine::GameObject* sourceColliderGO);
+    static void ReplaceColliderMeshFromMeshFilter(::UnityEngine::GameObject* targetGO, ::UnityEngine::GameObject* sourceColliderGO);
     // static public System.Void ReplaceColliderMeshFromMeshCollider(UnityEngine.GameObject targetGO, UnityEngine.GameObject sourceColliderGO)
     // Offset: 0x16BF594
-    static void ReplaceColliderMeshFromMeshCollider(UnityEngine::GameObject* targetGO, UnityEngine::GameObject* sourceColliderGO);
+    static void ReplaceColliderMeshFromMeshCollider(::UnityEngine::GameObject* targetGO, ::UnityEngine::GameObject* sourceColliderGO);
     // static public System.Single BiLerpf(System.Single p00, System.Single p10, System.Single p01, System.Single p11, System.Single fracX, System.Single fracY)
     // Offset: 0x16BF6D8
     static float BiLerpf(float p00, float p10, float p01, float p11, float fracX, float fracY);
@@ -460,20 +460,20 @@ namespace HoudiniEngineUnity {
     static float Fractionalf(float value);
     // static public System.String LongestCommonPrefix(System.Collections.Generic.List`1<System.String> list)
     // Offset: 0x16BF810
-    static ::StringW LongestCommonPrefix(System::Collections::Generic::List_1<::StringW>* list);
+    static ::StringW LongestCommonPrefix(::System::Collections::Generic::List_1<::StringW>* list);
     // static public System.String GetRawOperatorName(System.String assetOpName)
     // Offset: 0x16BF994
     static ::StringW GetRawOperatorName(::StringW assetOpName);
     // static public UnityEngine.GameObject GetPrefabFromPath(System.String path)
     // Offset: 0x16BF9FC
-    static UnityEngine::GameObject* GetPrefabFromPath(::StringW path);
+    static ::UnityEngine::GameObject* GetPrefabFromPath(::StringW path);
     // public System.Void .ctor()
     // Offset: 0x16BFC08
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_GeneralUtility* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_GeneralUtility::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_GeneralUtility::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_GeneralUtility*, creationType>()));
     }
   }; // HoudiniEngineUnity.HEU_GeneralUtility
@@ -519,7 +519,7 @@ namespace HoudiniEngineUnity {
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeStringDataHelper
 // Il2CppName: GetAttributeStringDataHelper
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::StringW, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ByRef<::ArrayW<int>>)>(&HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeStringDataHelper)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_SessionBase*, int, int, ::StringW, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo>, ByRef<::ArrayW<int>>)>(&HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeStringDataHelper)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -533,7 +533,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeStringData
 // Il2CppName: GetAttributeStringData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW> (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::StringW, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>)>(&HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeStringData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW> (*)(::HoudiniEngineUnity::HEU_SessionBase*, int, int, ::StringW, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo>)>(&HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeStringData)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -552,7 +552,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::CheckAttributeExists
 // Il2CppName: CheckAttributeExists
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::StringW, HoudiniEngineUnity::HAPI_AttributeOwner)>(&HoudiniEngineUnity::HEU_GeneralUtility::CheckAttributeExists)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::HoudiniEngineUnity::HEU_SessionBase*, int, int, ::StringW, ::HoudiniEngineUnity::HAPI_AttributeOwner)>(&HoudiniEngineUnity::HEU_GeneralUtility::CheckAttributeExists)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -565,7 +565,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeInfo
 // Il2CppName: GetAttributeInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::StringW, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>)>(&HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::HoudiniEngineUnity::HEU_SessionBase*, int, int, ::StringW, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo>)>(&HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeInfo)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -578,7 +578,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::HasValidInstanceAttribute
 // Il2CppName: HasValidInstanceAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::StringW)>(&HoudiniEngineUnity::HEU_GeneralUtility::HasValidInstanceAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::HoudiniEngineUnity::HEU_SessionBase*, int, int, ::StringW)>(&HoudiniEngineUnity::HEU_GeneralUtility::HasValidInstanceAttribute)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -590,7 +590,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::UpdateGeneratedAttributeStore
 // Il2CppName: UpdateGeneratedAttributeStore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_GeneralUtility::UpdateGeneratedAttributeStore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_SessionBase*, int, int, ::UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_GeneralUtility::UpdateGeneratedAttributeStore)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -602,7 +602,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::CreateOutputAttributeHelper
 // Il2CppName: CreateOutputAttributeHelper
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_OutputAttribute* (*)(::StringW, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>)>(&HoudiniEngineUnity::HEU_GeneralUtility::CreateOutputAttributeHelper)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_OutputAttribute* (*)(::StringW, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo>)>(&HoudiniEngineUnity::HEU_GeneralUtility::CreateOutputAttributeHelper)> {
   static const MethodInfo* get() {
     static auto* attrName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* attrInfo = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_AttributeInfo")->this_arg;
@@ -612,7 +612,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::CreateOutputAttribute
 // Il2CppName: CreateOutputAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_OutputAttribute* (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::StringW, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>)>(&HoudiniEngineUnity::HEU_GeneralUtility::CreateOutputAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_OutputAttribute* (*)(::HoudiniEngineUnity::HEU_SessionBase*, int, int, ::StringW, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo>)>(&HoudiniEngineUnity::HEU_GeneralUtility::CreateOutputAttribute)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -625,7 +625,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::CopyWorldTransformValues
 // Il2CppName: CopyWorldTransformValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Transform*, UnityEngine::Transform*)>(&HoudiniEngineUnity::HEU_GeneralUtility::CopyWorldTransformValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Transform*, ::UnityEngine::Transform*)>(&HoudiniEngineUnity::HEU_GeneralUtility::CopyWorldTransformValues)> {
   static const MethodInfo* get() {
     static auto* src = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* dest = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
@@ -635,7 +635,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::ApplyTransformTo
 // Il2CppName: ApplyTransformTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Transform*, UnityEngine::Transform*)>(&HoudiniEngineUnity::HEU_GeneralUtility::ApplyTransformTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Transform*, ::UnityEngine::Transform*)>(&HoudiniEngineUnity::HEU_GeneralUtility::ApplyTransformTo)> {
   static const MethodInfo* get() {
     static auto* src = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
@@ -645,7 +645,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::CopyLocalTransformValues
 // Il2CppName: CopyLocalTransformValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Transform*, UnityEngine::Transform*)>(&HoudiniEngineUnity::HEU_GeneralUtility::CopyLocalTransformValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Transform*, ::UnityEngine::Transform*)>(&HoudiniEngineUnity::HEU_GeneralUtility::CopyLocalTransformValues)> {
   static const MethodInfo* get() {
     static auto* src = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* dest = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
@@ -655,7 +655,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::GetChildGameObjects
 // Il2CppName: GetChildGameObjects
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::GameObject*>* (*)(UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_GeneralUtility::GetChildGameObjects)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* (*)(::UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_GeneralUtility::GetChildGameObjects)> {
   static const MethodInfo* get() {
     static auto* parentGO = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_GeneralUtility*), "GetChildGameObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{parentGO});
@@ -664,7 +664,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::GetChildGameObjectsWithNamePattern
 // Il2CppName: GetChildGameObjectsWithNamePattern
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::GameObject*>* (*)(UnityEngine::GameObject*, ::StringW, bool)>(&HoudiniEngineUnity::HEU_GeneralUtility::GetChildGameObjectsWithNamePattern)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* (*)(::UnityEngine::GameObject*, ::StringW, bool)>(&HoudiniEngineUnity::HEU_GeneralUtility::GetChildGameObjectsWithNamePattern)> {
   static const MethodInfo* get() {
     static auto* parentGO = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* pattern = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -675,7 +675,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::GetInstanceChildObjects
 // Il2CppName: GetInstanceChildObjects
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::GameObject*>* (*)(UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_GeneralUtility::GetInstanceChildObjects)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* (*)(::UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_GeneralUtility::GetInstanceChildObjects)> {
   static const MethodInfo* get() {
     static auto* parentGO = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_GeneralUtility*), "GetInstanceChildObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{parentGO});
@@ -684,7 +684,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::GetNonInstanceChildObjects
 // Il2CppName: GetNonInstanceChildObjects
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::GameObject*>* (*)(UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_GeneralUtility::GetNonInstanceChildObjects)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* (*)(::UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_GeneralUtility::GetNonInstanceChildObjects)> {
   static const MethodInfo* get() {
     static auto* parentGO = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_GeneralUtility*), "GetNonInstanceChildObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{parentGO});
@@ -693,7 +693,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::GetGameObjectByName
 // Il2CppName: GetGameObjectByName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(System::Collections::Generic::List_1<UnityEngine::GameObject*>*, ::StringW)>(&HoudiniEngineUnity::HEU_GeneralUtility::GetGameObjectByName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GameObject* (*)(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*, ::StringW)>(&HoudiniEngineUnity::HEU_GeneralUtility::GetGameObjectByName)> {
   static const MethodInfo* get() {
     static auto* goList = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")})->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -703,7 +703,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::GetGameObjectByNameInProjectOnly
 // Il2CppName: GetGameObjectByNameInProjectOnly
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(::StringW)>(&HoudiniEngineUnity::HEU_GeneralUtility::GetGameObjectByNameInProjectOnly)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GameObject* (*)(::StringW)>(&HoudiniEngineUnity::HEU_GeneralUtility::GetGameObjectByNameInProjectOnly)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_GeneralUtility*), "GetGameObjectByNameInProjectOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -712,7 +712,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::IsGameObjectInProject
 // Il2CppName: IsGameObjectInProject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_GeneralUtility::IsGameObjectInProject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_GeneralUtility::IsGameObjectInProject)> {
   static const MethodInfo* get() {
     static auto* go = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_GeneralUtility*), "IsGameObjectInProject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{go});
@@ -721,7 +721,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::GetGameObjectByNameInScene
 // Il2CppName: GetGameObjectByNameInScene
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(::StringW)>(&HoudiniEngineUnity::HEU_GeneralUtility::GetGameObjectByNameInScene)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GameObject* (*)(::StringW)>(&HoudiniEngineUnity::HEU_GeneralUtility::GetGameObjectByNameInScene)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_GeneralUtility*), "GetGameObjectByNameInScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -730,7 +730,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::GetHDAByGameObjectNameInScene
 // Il2CppName: GetHDAByGameObjectNameInScene
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_HoudiniAssetRoot* (*)(::StringW)>(&HoudiniEngineUnity::HEU_GeneralUtility::GetHDAByGameObjectNameInScene)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_HoudiniAssetRoot* (*)(::StringW)>(&HoudiniEngineUnity::HEU_GeneralUtility::GetHDAByGameObjectNameInScene)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_GeneralUtility*), "GetHDAByGameObjectNameInScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -742,7 +742,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::DestroyGeneratedComponents
 // Il2CppName: DestroyGeneratedComponents
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_GeneralUtility::DestroyGeneratedComponents)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_GeneralUtility::DestroyGeneratedComponents)> {
   static const MethodInfo* get() {
     static auto* gameObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_GeneralUtility*), "DestroyGeneratedComponents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameObject});
@@ -751,7 +751,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::DestroyGeneratedMeshComponents
 // Il2CppName: DestroyGeneratedMeshComponents
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_GeneralUtility::DestroyGeneratedMeshComponents)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_GeneralUtility::DestroyGeneratedMeshComponents)> {
   static const MethodInfo* get() {
     static auto* gameObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_GeneralUtility*), "DestroyGeneratedMeshComponents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameObject});
@@ -760,7 +760,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::DestroyTerrainComponents
 // Il2CppName: DestroyTerrainComponents
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_GeneralUtility::DestroyTerrainComponents)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_GeneralUtility::DestroyTerrainComponents)> {
   static const MethodInfo* get() {
     static auto* gameObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_GeneralUtility*), "DestroyTerrainComponents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameObject});
@@ -772,7 +772,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::DestroyImmediate
 // Il2CppName: DestroyImmediate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*, bool, bool)>(&HoudiniEngineUnity::HEU_GeneralUtility::DestroyImmediate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Object*, bool, bool)>(&HoudiniEngineUnity::HEU_GeneralUtility::DestroyImmediate)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* bAllowDestroyingAssets = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -783,7 +783,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::DestroyBakedGameObjects
 // Il2CppName: DestroyBakedGameObjects
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::List_1<UnityEngine::GameObject*>*)>(&HoudiniEngineUnity::HEU_GeneralUtility::DestroyBakedGameObjects)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*)>(&HoudiniEngineUnity::HEU_GeneralUtility::DestroyBakedGameObjects)> {
   static const MethodInfo* get() {
     static auto* gameObjectsToDestroy = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_GeneralUtility*), "DestroyBakedGameObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameObjectsToDestroy});
@@ -792,7 +792,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::DestroyBakedGameObjectsWithEndName
 // Il2CppName: DestroyBakedGameObjectsWithEndName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::List_1<UnityEngine::GameObject*>*, ::StringW)>(&HoudiniEngineUnity::HEU_GeneralUtility::DestroyBakedGameObjectsWithEndName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*, ::StringW)>(&HoudiniEngineUnity::HEU_GeneralUtility::DestroyBakedGameObjectsWithEndName)> {
   static const MethodInfo* get() {
     static auto* gameObjectsToDestroy = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")})->byval_arg;
     static auto* endName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -802,7 +802,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::DestroyLODGroup
 // Il2CppName: DestroyLODGroup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, bool)>(&HoudiniEngineUnity::HEU_GeneralUtility::DestroyLODGroup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*, bool)>(&HoudiniEngineUnity::HEU_GeneralUtility::DestroyLODGroup)> {
   static const MethodInfo* get() {
     static auto* targetGO = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* bDontDeletePersistantResources = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -812,7 +812,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::GetLODTransforms
 // Il2CppName: GetLODTransforms
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::Transform*>* (*)(UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_GeneralUtility::GetLODTransforms)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::Transform*>* (*)(::UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_GeneralUtility::GetLODTransforms)> {
   static const MethodInfo* get() {
     static auto* targetGO = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_GeneralUtility*), "GetLODTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{targetGO});
@@ -821,7 +821,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::SetLODTransformValues
 // Il2CppName: SetLODTransformValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, System::Collections::Generic::List_1<HoudiniEngineUnity::TransformData>*)>(&HoudiniEngineUnity::HEU_GeneralUtility::SetLODTransformValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::TransformData>*)>(&HoudiniEngineUnity::HEU_GeneralUtility::SetLODTransformValues)> {
   static const MethodInfo* get() {
     static auto* targetGO = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* transformData = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "TransformData")})->byval_arg;
@@ -831,7 +831,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::DestroyGeneratedMeshMaterialsLODGroups
 // Il2CppName: DestroyGeneratedMeshMaterialsLODGroups
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, bool)>(&HoudiniEngineUnity::HEU_GeneralUtility::DestroyGeneratedMeshMaterialsLODGroups)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*, bool)>(&HoudiniEngineUnity::HEU_GeneralUtility::DestroyGeneratedMeshMaterialsLODGroups)> {
   static const MethodInfo* get() {
     static auto* targetGO = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* bDontDeletePersistantResources = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -841,7 +841,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::DestroyGeneratedMaterial
 // Il2CppName: DestroyGeneratedMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Material*)>(&HoudiniEngineUnity::HEU_GeneralUtility::DestroyGeneratedMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Material*)>(&HoudiniEngineUnity::HEU_GeneralUtility::DestroyGeneratedMaterial)> {
   static const MethodInfo* get() {
     static auto* material = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_GeneralUtility*), "DestroyGeneratedMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{material});
@@ -850,7 +850,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::DestroyMeshCollider
 // Il2CppName: DestroyMeshCollider
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::MeshCollider*, bool)>(&HoudiniEngineUnity::HEU_GeneralUtility::DestroyMeshCollider)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::MeshCollider*, bool)>(&HoudiniEngineUnity::HEU_GeneralUtility::DestroyMeshCollider)> {
   static const MethodInfo* get() {
     static auto* meshCollider = &::il2cpp_utils::GetClassFromName("UnityEngine", "MeshCollider")->byval_arg;
     static auto* bDontDeletePersistantResources = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -860,7 +860,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::SetGameObjectRenderVisiblity
 // Il2CppName: SetGameObjectRenderVisiblity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, bool)>(&HoudiniEngineUnity::HEU_GeneralUtility::SetGameObjectRenderVisiblity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*, bool)>(&HoudiniEngineUnity::HEU_GeneralUtility::SetGameObjectRenderVisiblity)> {
   static const MethodInfo* get() {
     static auto* gameObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* bVisible = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -870,7 +870,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::SetGameObjectChildrenRenderVisibility
 // Il2CppName: SetGameObjectChildrenRenderVisibility
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, bool)>(&HoudiniEngineUnity::HEU_GeneralUtility::SetGameObjectChildrenRenderVisibility)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*, bool)>(&HoudiniEngineUnity::HEU_GeneralUtility::SetGameObjectChildrenRenderVisibility)> {
   static const MethodInfo* get() {
     static auto* gameObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* bVisible = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -880,7 +880,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::SetGameObjectColliderState
 // Il2CppName: SetGameObjectColliderState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, bool)>(&HoudiniEngineUnity::HEU_GeneralUtility::SetGameObjectColliderState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*, bool)>(&HoudiniEngineUnity::HEU_GeneralUtility::SetGameObjectColliderState)> {
   static const MethodInfo* get() {
     static auto* gameObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* bEnabled = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -890,7 +890,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::SetGameObjectChildrenColliderState
 // Il2CppName: SetGameObjectChildrenColliderState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, bool)>(&HoudiniEngineUnity::HEU_GeneralUtility::SetGameObjectChildrenColliderState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*, bool)>(&HoudiniEngineUnity::HEU_GeneralUtility::SetGameObjectChildrenColliderState)> {
   static const MethodInfo* get() {
     static auto* gameObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* bVisible = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -900,7 +900,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::ColorToString
 // Il2CppName: ColorToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(UnityEngine::Color)>(&HoudiniEngineUnity::HEU_GeneralUtility::ColorToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::UnityEngine::Color)>(&HoudiniEngineUnity::HEU_GeneralUtility::ColorToString)> {
   static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_GeneralUtility*), "ColorToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
@@ -909,7 +909,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::StringToColor
 // Il2CppName: StringToColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(::StringW)>(&HoudiniEngineUnity::HEU_GeneralUtility::StringToColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)(::StringW)>(&HoudiniEngineUnity::HEU_GeneralUtility::StringToColor)> {
   static const MethodInfo* get() {
     static auto* colorString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_GeneralUtility*), "StringToColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colorString});
@@ -927,7 +927,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::SetLayer
 // Il2CppName: SetLayer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, int, bool)>(&HoudiniEngineUnity::HEU_GeneralUtility::SetLayer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*, int, bool)>(&HoudiniEngineUnity::HEU_GeneralUtility::SetLayer)> {
   static const MethodInfo* get() {
     static auto* rootGO = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* layer = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -938,7 +938,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::SetTag
 // Il2CppName: SetTag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, ::StringW, bool)>(&HoudiniEngineUnity::HEU_GeneralUtility::SetTag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*, ::StringW, bool)>(&HoudiniEngineUnity::HEU_GeneralUtility::SetTag)> {
   static const MethodInfo* get() {
     static auto* rootGO = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* tag = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -949,7 +949,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::CopyFlags
 // Il2CppName: CopyFlags
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, UnityEngine::GameObject*, bool)>(&HoudiniEngineUnity::HEU_GeneralUtility::CopyFlags)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*, ::UnityEngine::GameObject*, bool)>(&HoudiniEngineUnity::HEU_GeneralUtility::CopyFlags)> {
   static const MethodInfo* get() {
     static auto* srcGO = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* dstGO = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
@@ -960,7 +960,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::IsMouseWithinSceneView
 // Il2CppName: IsMouseWithinSceneView
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Camera*, UnityEngine::Vector2)>(&HoudiniEngineUnity::HEU_GeneralUtility::IsMouseWithinSceneView)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Camera*, ::UnityEngine::Vector2)>(&HoudiniEngineUnity::HEU_GeneralUtility::IsMouseWithinSceneView)> {
   static const MethodInfo* get() {
     static auto* camera = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
     static auto* mousePosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
@@ -970,7 +970,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::IsMouseOverRect
 // Il2CppName: IsMouseOverRect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Camera*, UnityEngine::Vector2, ByRef<UnityEngine::Rect>)>(&HoudiniEngineUnity::HEU_GeneralUtility::IsMouseOverRect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Camera*, ::UnityEngine::Vector2, ByRef<::UnityEngine::Rect>)>(&HoudiniEngineUnity::HEU_GeneralUtility::IsMouseOverRect)> {
   static const MethodInfo* get() {
     static auto* camera = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
     static auto* mousePosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
@@ -981,7 +981,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::GetSystemTypeByName
 // Il2CppName: GetSystemTypeByName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(::StringW)>(&HoudiniEngineUnity::HEU_GeneralUtility::GetSystemTypeByName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::StringW)>(&HoudiniEngineUnity::HEU_GeneralUtility::GetSystemTypeByName)> {
   static const MethodInfo* get() {
     static auto* typeName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_GeneralUtility*), "GetSystemTypeByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{typeName});
@@ -990,7 +990,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::AssignUnityTag
 // Il2CppName: AssignUnityTag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_GeneralUtility::AssignUnityTag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_SessionBase*, int, int, ::UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_GeneralUtility::AssignUnityTag)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1002,7 +1002,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::AssignUnityLayer
 // Il2CppName: AssignUnityLayer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_GeneralUtility::AssignUnityLayer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_SessionBase*, int, int, ::UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_GeneralUtility::AssignUnityLayer)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1014,7 +1014,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::MakeStaticIfHasAttribute
 // Il2CppName: MakeStaticIfHasAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_GeneralUtility::MakeStaticIfHasAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_SessionBase*, int, int, ::UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_GeneralUtility::MakeStaticIfHasAttribute)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1026,7 +1026,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::GetUnityScriptAttributeValue
 // Il2CppName: GetUnityScriptAttributeValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int)>(&HoudiniEngineUnity::HEU_GeneralUtility::GetUnityScriptAttributeValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::HoudiniEngineUnity::HEU_SessionBase*, int, int)>(&HoudiniEngineUnity::HEU_GeneralUtility::GetUnityScriptAttributeValue)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1037,7 +1037,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeStringValueSingle
 // Il2CppName: GetAttributeStringValueSingle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::StringW, HoudiniEngineUnity::HAPI_AttributeOwner)>(&HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeStringValueSingle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::HoudiniEngineUnity::HEU_SessionBase*, int, int, ::StringW, ::HoudiniEngineUnity::HAPI_AttributeOwner)>(&HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeStringValueSingle)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1050,7 +1050,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeStringValueSingleStrict
 // Il2CppName: GetAttributeStringValueSingleStrict
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::StringW, HoudiniEngineUnity::HAPI_AttributeOwner)>(&HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeStringValueSingleStrict)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::HoudiniEngineUnity::HEU_SessionBase*, int, int, ::StringW, ::HoudiniEngineUnity::HAPI_AttributeOwner)>(&HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeStringValueSingleStrict)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1063,7 +1063,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeFloatSingle
 // Il2CppName: GetAttributeFloatSingle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::StringW, ByRef<float>)>(&HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeFloatSingle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::HoudiniEngineUnity::HEU_SessionBase*, int, int, ::StringW, ByRef<float>)>(&HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeFloatSingle)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1076,7 +1076,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeIntSingle
 // Il2CppName: GetAttributeIntSingle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::StringW, ByRef<int>)>(&HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeIntSingle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::HoudiniEngineUnity::HEU_SessionBase*, int, int, ::StringW, ByRef<int>)>(&HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeIntSingle)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1089,7 +1089,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeColorSingle
 // Il2CppName: GetAttributeColorSingle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::StringW, ByRef<UnityEngine::Color>)>(&HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeColorSingle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::HoudiniEngineUnity::HEU_SessionBase*, int, int, ::StringW, ByRef<::UnityEngine::Color>)>(&HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeColorSingle)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1102,7 +1102,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::HasAttribute
 // Il2CppName: HasAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::StringW, HoudiniEngineUnity::HAPI_AttributeOwner)>(&HoudiniEngineUnity::HEU_GeneralUtility::HasAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::HoudiniEngineUnity::HEU_SessionBase*, int, int, ::StringW, ::HoudiniEngineUnity::HAPI_AttributeOwner)>(&HoudiniEngineUnity::HEU_GeneralUtility::HasAttribute)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1115,7 +1115,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::AttachScriptWithInvokeFunction
 // Il2CppName: AttachScriptWithInvokeFunction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_GeneralUtility::AttachScriptWithInvokeFunction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_GeneralUtility::AttachScriptWithInvokeFunction)> {
   static const MethodInfo* get() {
     static auto* scriptSet = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* gameObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
@@ -1125,7 +1125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::IsInCameraView
 // Il2CppName: IsInCameraView
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Camera*, UnityEngine::Vector3)>(&HoudiniEngineUnity::HEU_GeneralUtility::IsInCameraView)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Camera*, ::UnityEngine::Vector3)>(&HoudiniEngineUnity::HEU_GeneralUtility::IsInCameraView)> {
   static const MethodInfo* get() {
     static auto* camera = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
     static auto* point = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -1135,7 +1135,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::FindOrGenerateHandles
 // Il2CppName: FindOrGenerateHandles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_Handle*>* (*)(HoudiniEngineUnity::HEU_SessionBase*, ByRef<HoudiniEngineUnity::HAPI_AssetInfo>, int, ::StringW, HoudiniEngineUnity::HEU_Parameters*, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_Handle*>*)>(&HoudiniEngineUnity::HEU_GeneralUtility::FindOrGenerateHandles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Handle*>* (*)(::HoudiniEngineUnity::HEU_SessionBase*, ByRef<::HoudiniEngineUnity::HAPI_AssetInfo>, int, ::StringW, ::HoudiniEngineUnity::HEU_Parameters*, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Handle*>*)>(&HoudiniEngineUnity::HEU_GeneralUtility::FindOrGenerateHandles)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* assetInfo = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_AssetInfo")->this_arg;
@@ -1149,7 +1149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::CopyComponents
 // Il2CppName: CopyComponents
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_GeneralUtility::CopyComponents)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*, ::UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_GeneralUtility::CopyComponents)> {
   static const MethodInfo* get() {
     static auto* srcGO = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* destGO = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
@@ -1159,7 +1159,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::LoadTextureFromFile
 // Il2CppName: LoadTextureFromFile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture* (*)(::StringW)>(&HoudiniEngineUnity::HEU_GeneralUtility::LoadTextureFromFile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Texture* (*)(::StringW)>(&HoudiniEngineUnity::HEU_GeneralUtility::LoadTextureFromFile)> {
   static const MethodInfo* get() {
     static auto* filePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_GeneralUtility*), "LoadTextureFromFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{filePath});
@@ -1168,7 +1168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::MakeTexture
 // Il2CppName: MakeTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (*)(int, int, UnityEngine::Color)>(&HoudiniEngineUnity::HEU_GeneralUtility::MakeTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Texture2D* (*)(int, int, ::UnityEngine::Color)>(&HoudiniEngineUnity::HEU_GeneralUtility::MakeTexture)> {
   static const MethodInfo* get() {
     static auto* width = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* height = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1190,7 +1190,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::SetParentWithCleanTransform
 // Il2CppName: SetParentWithCleanTransform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Transform*, UnityEngine::Transform*)>(&HoudiniEngineUnity::HEU_GeneralUtility::SetParentWithCleanTransform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Transform*, ::UnityEngine::Transform*)>(&HoudiniEngineUnity::HEU_GeneralUtility::SetParentWithCleanTransform)> {
   static const MethodInfo* get() {
     static auto* parentTransform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* childTransform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
@@ -1200,7 +1200,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::CopyHAPITransform
 // Il2CppName: CopyHAPITransform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<HoudiniEngineUnity::HAPI_Transform>, ByRef<HoudiniEngineUnity::HAPI_Transform>)>(&HoudiniEngineUnity::HEU_GeneralUtility::CopyHAPITransform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::HoudiniEngineUnity::HAPI_Transform>, ByRef<::HoudiniEngineUnity::HAPI_Transform>)>(&HoudiniEngineUnity::HEU_GeneralUtility::CopyHAPITransform)> {
   static const MethodInfo* get() {
     static auto* src = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_Transform")->this_arg;
     static auto* dest = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_Transform")->this_arg;
@@ -1210,7 +1210,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(By
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::GetMaterialAttributeValueFromPart
 // Il2CppName: GetMaterialAttributeValueFromPart
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int)>(&HoudiniEngineUnity::HEU_GeneralUtility::GetMaterialAttributeValueFromPart)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::HoudiniEngineUnity::HEU_SessionBase*, int, int)>(&HoudiniEngineUnity::HEU_GeneralUtility::GetMaterialAttributeValueFromPart)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1221,7 +1221,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::ReplaceColliderMeshFromMeshFilter
 // Il2CppName: ReplaceColliderMeshFromMeshFilter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_GeneralUtility::ReplaceColliderMeshFromMeshFilter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*, ::UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_GeneralUtility::ReplaceColliderMeshFromMeshFilter)> {
   static const MethodInfo* get() {
     static auto* targetGO = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* sourceColliderGO = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
@@ -1231,7 +1231,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::ReplaceColliderMeshFromMeshCollider
 // Il2CppName: ReplaceColliderMeshFromMeshCollider
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_GeneralUtility::ReplaceColliderMeshFromMeshCollider)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*, ::UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_GeneralUtility::ReplaceColliderMeshFromMeshCollider)> {
   static const MethodInfo* get() {
     static auto* targetGO = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* sourceColliderGO = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
@@ -1264,7 +1264,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(f
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::LongestCommonPrefix
 // Il2CppName: LongestCommonPrefix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Collections::Generic::List_1<::StringW>*)>(&HoudiniEngineUnity::HEU_GeneralUtility::LongestCommonPrefix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Collections::Generic::List_1<::StringW>*)>(&HoudiniEngineUnity::HEU_GeneralUtility::LongestCommonPrefix)> {
   static const MethodInfo* get() {
     static auto* list = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_GeneralUtility*), "LongestCommonPrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{list});
@@ -1282,7 +1282,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::GetPrefabFromPath
 // Il2CppName: GetPrefabFromPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(::StringW)>(&HoudiniEngineUnity::HEU_GeneralUtility::GetPrefabFromPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GameObject* (*)(::StringW)>(&HoudiniEngineUnity::HEU_GeneralUtility::GetPrefabFromPath)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_GeneralUtility*), "GetPrefabFromPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});

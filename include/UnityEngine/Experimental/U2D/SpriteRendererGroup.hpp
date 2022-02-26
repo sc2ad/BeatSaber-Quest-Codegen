@@ -12,8 +12,8 @@ namespace UnityEngine::Experimental::U2D {
   class SpriteRendererGroup;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Experimental::U2D::SpriteRendererGroup);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::U2D::SpriteRendererGroup*, "UnityEngine.Experimental.U2D", "SpriteRendererGroup");
+NEED_NO_BOX(::UnityEngine::Experimental::U2D::SpriteRendererGroup);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::U2D::SpriteRendererGroup*, "UnityEngine.Experimental.U2D", "SpriteRendererGroup");
 // Type namespace: UnityEngine.Experimental.U2D
 namespace UnityEngine::Experimental::U2D {
   // Size: 0x10

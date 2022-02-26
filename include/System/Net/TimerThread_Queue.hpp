@@ -13,8 +13,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::TimerThread::Queue);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::TimerThread::Queue*, "System.Net", "TimerThread/Queue");
+NEED_NO_BOX(::System::Net::TimerThread::Queue);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::TimerThread::Queue*, "System.Net", "TimerThread/Queue");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x14
@@ -49,7 +49,7 @@ namespace System::Net {
     // Offset: 0x1CB35A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimerThread::Queue* New_ctor(int durationMilliseconds) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::TimerThread::Queue::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::TimerThread::Queue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimerThread::Queue*, creationType>(durationMilliseconds)));
     }
   }; // System.Net.TimerThread/System.Net.Queue

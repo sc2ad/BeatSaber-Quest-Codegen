@@ -17,7 +17,7 @@ namespace Newtonsoft::Json::Utilities {
   struct DateTimeParser;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::DateTimeParser, "Newtonsoft.Json.Utilities", "DateTimeParser");
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::DateTimeParser, "Newtonsoft.Json.Utilities", "DateTimeParser");
 // Type namespace: Newtonsoft.Json.Utilities
 namespace Newtonsoft::Json::Utilities {
   // Size: 0x34
@@ -27,7 +27,7 @@ namespace Newtonsoft::Json::Utilities {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NullableAttribute] Offset: 1201BFC
   // [NullableContextAttribute] Offset: 1201BFC
-  struct DateTimeParser/*, public System::ValueType*/ {
+  struct DateTimeParser/*, public ::System::ValueType*/ {
     public:
     public:
     // public System.Int32 Year
@@ -87,9 +87,9 @@ namespace Newtonsoft::Json::Utilities {
     // public Newtonsoft.Json.Utilities.ParserTimeZone Zone
     // Size: 0x4
     // Offset: 0x24
-    Newtonsoft::Json::Utilities::ParserTimeZone Zone;
+    ::Newtonsoft::Json::Utilities::ParserTimeZone Zone;
     // Field size check
-    static_assert(sizeof(Newtonsoft::Json::Utilities::ParserTimeZone) == 0x4);
+    static_assert(sizeof(::Newtonsoft::Json::Utilities::ParserTimeZone) == 0x4);
     // private System.Char[] _text
     // Size: 0x8
     // Offset: 0x28
@@ -104,10 +104,10 @@ namespace Newtonsoft::Json::Utilities {
     static_assert(sizeof(int) == 0x4);
     public:
     // Creating value type constructor for type: DateTimeParser
-    constexpr DateTimeParser(int Year_ = {}, int Month_ = {}, int Day_ = {}, int Hour_ = {}, int Minute_ = {}, int Second_ = {}, int Fraction_ = {}, int ZoneHour_ = {}, int ZoneMinute_ = {}, Newtonsoft::Json::Utilities::ParserTimeZone Zone_ = {}, ::ArrayW<::Il2CppChar> text_ = ::ArrayW<::Il2CppChar>(static_cast<void*>(nullptr)), int end_ = {}) noexcept : Year{Year_}, Month{Month_}, Day{Day_}, Hour{Hour_}, Minute{Minute_}, Second{Second_}, Fraction{Fraction_}, ZoneHour{ZoneHour_}, ZoneMinute{ZoneMinute_}, Zone{Zone_}, text{text_}, end{end_} {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    constexpr DateTimeParser(int Year_ = {}, int Month_ = {}, int Day_ = {}, int Hour_ = {}, int Minute_ = {}, int Second_ = {}, int Fraction_ = {}, int ZoneHour_ = {}, int ZoneMinute_ = {}, ::Newtonsoft::Json::Utilities::ParserTimeZone Zone_ = {}, ::ArrayW<::Il2CppChar> text_ = ::ArrayW<::Il2CppChar>(static_cast<void*>(nullptr)), int end_ = {}) noexcept : Year{Year_}, Month{Month_}, Day{Day_}, Hour{Hour_}, Minute{Minute_}, Second{Second_}, Fraction{Fraction_}, ZoneHour{ZoneHour_}, ZoneMinute{ZoneMinute_}, Zone{Zone_}, text{text_}, end{end_} {}
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get static field: static private readonly System.Int32[] Power10
     static ::ArrayW<int> _get_Power10();
@@ -184,7 +184,7 @@ namespace Newtonsoft::Json::Utilities {
     // Get instance field reference: public System.Int32 ZoneMinute
     int& dyn_ZoneMinute();
     // Get instance field reference: public Newtonsoft.Json.Utilities.ParserTimeZone Zone
-    Newtonsoft::Json::Utilities::ParserTimeZone& dyn_Zone();
+    ::Newtonsoft::Json::Utilities::ParserTimeZone& dyn_Zone();
     // Get instance field reference: private System.Char[] _text
     ::ArrayW<::Il2CppChar>& dyn__text();
     // Get instance field reference: private System.Int32 _end

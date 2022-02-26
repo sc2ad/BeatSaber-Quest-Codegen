@@ -26,8 +26,8 @@ namespace GlobalNamespace {
   class ColorScheme;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::ColorScheme);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorScheme*, "", "ColorScheme");
+NEED_NO_BOX(::GlobalNamespace::ColorScheme);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ColorScheme*, "", "ColorScheme");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0xA8
@@ -84,35 +84,35 @@ namespace GlobalNamespace {
     // private UnityEngine.Color _saberAColor
     // Size: 0x10
     // Offset: 0x34
-    UnityEngine::Color saberAColor;
+    ::UnityEngine::Color saberAColor;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     // private UnityEngine.Color _saberBColor
     // Size: 0x10
     // Offset: 0x44
-    UnityEngine::Color saberBColor;
+    ::UnityEngine::Color saberBColor;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     // [SpaceAttribute] Offset: 0x1214F0C
     // private UnityEngine.Color _obstaclesColor
     // Size: 0x10
     // Offset: 0x54
-    UnityEngine::Color obstaclesColor;
+    ::UnityEngine::Color obstaclesColor;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     // [SpaceAttribute] Offset: 0x1214F44
     // private UnityEngine.Color _environmentColor0
     // Size: 0x10
     // Offset: 0x64
-    UnityEngine::Color environmentColor0;
+    ::UnityEngine::Color environmentColor0;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     // private UnityEngine.Color _environmentColor1
     // Size: 0x10
     // Offset: 0x74
-    UnityEngine::Color environmentColor1;
+    ::UnityEngine::Color environmentColor1;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     // private System.Boolean _supportsEnvironmentColorBoost
     // Size: 0x1
     // Offset: 0x84
@@ -124,15 +124,15 @@ namespace GlobalNamespace {
     // private UnityEngine.Color _environmentColor0Boost
     // Size: 0x10
     // Offset: 0x88
-    UnityEngine::Color environmentColor0Boost;
+    ::UnityEngine::Color environmentColor0Boost;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     // private UnityEngine.Color _environmentColor1Boost
     // Size: 0x10
     // Offset: 0x98
-    UnityEngine::Color environmentColor1Boost;
+    ::UnityEngine::Color environmentColor1Boost;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     public:
     // Get instance field reference: private System.String _colorSchemeId
     ::StringW& dyn__colorSchemeId();
@@ -145,21 +145,21 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _isEditable
     bool& dyn__isEditable();
     // Get instance field reference: private UnityEngine.Color _saberAColor
-    UnityEngine::Color& dyn__saberAColor();
+    ::UnityEngine::Color& dyn__saberAColor();
     // Get instance field reference: private UnityEngine.Color _saberBColor
-    UnityEngine::Color& dyn__saberBColor();
+    ::UnityEngine::Color& dyn__saberBColor();
     // Get instance field reference: private UnityEngine.Color _obstaclesColor
-    UnityEngine::Color& dyn__obstaclesColor();
+    ::UnityEngine::Color& dyn__obstaclesColor();
     // Get instance field reference: private UnityEngine.Color _environmentColor0
-    UnityEngine::Color& dyn__environmentColor0();
+    ::UnityEngine::Color& dyn__environmentColor0();
     // Get instance field reference: private UnityEngine.Color _environmentColor1
-    UnityEngine::Color& dyn__environmentColor1();
+    ::UnityEngine::Color& dyn__environmentColor1();
     // Get instance field reference: private System.Boolean _supportsEnvironmentColorBoost
     bool& dyn__supportsEnvironmentColorBoost();
     // Get instance field reference: private UnityEngine.Color _environmentColor0Boost
-    UnityEngine::Color& dyn__environmentColor0Boost();
+    ::UnityEngine::Color& dyn__environmentColor0Boost();
     // Get instance field reference: private UnityEngine.Color _environmentColor1Boost
-    UnityEngine::Color& dyn__environmentColor1Boost();
+    ::UnityEngine::Color& dyn__environmentColor1Boost();
     // public System.String get_colorSchemeId()
     // Offset: 0x2A60754
     ::StringW get_colorSchemeId();
@@ -177,59 +177,59 @@ namespace GlobalNamespace {
     bool get_isEditable();
     // public UnityEngine.Color get_saberAColor()
     // Offset: 0x2A6077C
-    UnityEngine::Color get_saberAColor();
+    ::UnityEngine::Color get_saberAColor();
     // public UnityEngine.Color get_saberBColor()
     // Offset: 0x2A60788
-    UnityEngine::Color get_saberBColor();
+    ::UnityEngine::Color get_saberBColor();
     // public UnityEngine.Color get_environmentColor0()
     // Offset: 0x2A60794
-    UnityEngine::Color get_environmentColor0();
+    ::UnityEngine::Color get_environmentColor0();
     // public UnityEngine.Color get_environmentColor1()
     // Offset: 0x2A607A0
-    UnityEngine::Color get_environmentColor1();
+    ::UnityEngine::Color get_environmentColor1();
     // public System.Boolean get_supportsEnvironmentColorBoost()
     // Offset: 0x2A607AC
     bool get_supportsEnvironmentColorBoost();
     // public UnityEngine.Color get_environmentColor0Boost()
     // Offset: 0x2A607B4
-    UnityEngine::Color get_environmentColor0Boost();
+    ::UnityEngine::Color get_environmentColor0Boost();
     // public UnityEngine.Color get_environmentColor1Boost()
     // Offset: 0x2A607C0
-    UnityEngine::Color get_environmentColor1Boost();
+    ::UnityEngine::Color get_environmentColor1Boost();
     // public UnityEngine.Color get_obstaclesColor()
     // Offset: 0x2A607CC
-    UnityEngine::Color get_obstaclesColor();
+    ::UnityEngine::Color get_obstaclesColor();
     // public System.Void .ctor(System.String colorSchemeId, System.String colorSchemeNameLocalizationKey, System.Boolean useNonLocalizedName, System.String nonLocalizedName, System.Boolean isEditable, UnityEngine.Color saberAColor, UnityEngine.Color saberBColor, UnityEngine.Color environmentColor0, UnityEngine.Color environmentColor1, System.Boolean supportsEnvironmentColorBoost, UnityEngine.Color environmentColor0Boost, UnityEngine.Color environmentColor1Boost, UnityEngine.Color obstaclesColor)
     // Offset: 0x2A607D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ColorScheme* New_ctor(::StringW colorSchemeId, ::StringW colorSchemeNameLocalizationKey, bool useNonLocalizedName, ::StringW nonLocalizedName, bool isEditable, UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color environmentColor0, UnityEngine::Color environmentColor1, bool supportsEnvironmentColorBoost, UnityEngine::Color environmentColor0Boost, UnityEngine::Color environmentColor1Boost, UnityEngine::Color obstaclesColor) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ColorScheme::.ctor");
+    static ColorScheme* New_ctor(::StringW colorSchemeId, ::StringW colorSchemeNameLocalizationKey, bool useNonLocalizedName, ::StringW nonLocalizedName, bool isEditable, ::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color environmentColor0, ::UnityEngine::Color environmentColor1, bool supportsEnvironmentColorBoost, ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost, ::UnityEngine::Color obstaclesColor) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ColorScheme::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorScheme*, creationType>(colorSchemeId, colorSchemeNameLocalizationKey, useNonLocalizedName, nonLocalizedName, isEditable, saberAColor, saberBColor, environmentColor0, environmentColor1, supportsEnvironmentColorBoost, environmentColor0Boost, environmentColor1Boost, obstaclesColor)));
     }
     // public System.Void .ctor(ColorScheme colorScheme, UnityEngine.Color saberAColor, UnityEngine.Color saberBColor, UnityEngine.Color environmentColor0, UnityEngine.Color environmentColor1, System.Boolean supportsEnvironmentColorBoost, UnityEngine.Color environmentColor0Boost, UnityEngine.Color environmentColor1Boost, UnityEngine.Color obstaclesColor)
     // Offset: 0x2A608F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ColorScheme* New_ctor(GlobalNamespace::ColorScheme* colorScheme, UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color environmentColor0, UnityEngine::Color environmentColor1, bool supportsEnvironmentColorBoost, UnityEngine::Color environmentColor0Boost, UnityEngine::Color environmentColor1Boost, UnityEngine::Color obstaclesColor) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ColorScheme::.ctor");
+    static ColorScheme* New_ctor(::GlobalNamespace::ColorScheme* colorScheme, ::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color environmentColor0, ::UnityEngine::Color environmentColor1, bool supportsEnvironmentColorBoost, ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost, ::UnityEngine::Color obstaclesColor) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ColorScheme::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorScheme*, creationType>(colorScheme, saberAColor, saberBColor, environmentColor0, environmentColor1, supportsEnvironmentColorBoost, environmentColor0Boost, environmentColor1Boost, obstaclesColor)));
     }
     // public System.Void .ctor(ColorScheme colorScheme)
     // Offset: 0x2A60988
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ColorScheme* New_ctor(GlobalNamespace::ColorScheme* colorScheme) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ColorScheme::.ctor");
+    static ColorScheme* New_ctor(::GlobalNamespace::ColorScheme* colorScheme) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ColorScheme::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorScheme*, creationType>(colorScheme)));
     }
     // public System.Void .ctor(ColorSchemeSO colorScheme)
     // Offset: 0x2A60A3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ColorScheme* New_ctor(GlobalNamespace::ColorSchemeSO* colorScheme) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ColorScheme::.ctor");
+    static ColorScheme* New_ctor(::GlobalNamespace::ColorSchemeSO* colorScheme) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ColorScheme::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorScheme*, creationType>(colorScheme)));
     }
   }; // ColorScheme
   #pragma pack(pop)
-  static check_size<sizeof(ColorScheme), 152 + sizeof(UnityEngine::Color)> __GlobalNamespace_ColorSchemeSizeCheck;
+  static check_size<sizeof(ColorScheme), 152 + sizeof(::UnityEngine::Color)> __GlobalNamespace_ColorSchemeSizeCheck;
   static_assert(sizeof(ColorScheme) == 0xA8);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -276,7 +276,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ColorScheme::get_saberAColor
 // Il2CppName: get_saberAColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::ColorScheme::*)()>(&GlobalNamespace::ColorScheme::get_saberAColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (GlobalNamespace::ColorScheme::*)()>(&GlobalNamespace::ColorScheme::get_saberAColor)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorScheme*), "get_saberAColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -284,7 +284,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::ColorScheme::get_saberBColor
 // Il2CppName: get_saberBColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::ColorScheme::*)()>(&GlobalNamespace::ColorScheme::get_saberBColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (GlobalNamespace::ColorScheme::*)()>(&GlobalNamespace::ColorScheme::get_saberBColor)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorScheme*), "get_saberBColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -292,7 +292,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::ColorScheme::get_environmentColor0
 // Il2CppName: get_environmentColor0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::ColorScheme::*)()>(&GlobalNamespace::ColorScheme::get_environmentColor0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (GlobalNamespace::ColorScheme::*)()>(&GlobalNamespace::ColorScheme::get_environmentColor0)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorScheme*), "get_environmentColor0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -300,7 +300,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::ColorScheme::get_environmentColor1
 // Il2CppName: get_environmentColor1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::ColorScheme::*)()>(&GlobalNamespace::ColorScheme::get_environmentColor1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (GlobalNamespace::ColorScheme::*)()>(&GlobalNamespace::ColorScheme::get_environmentColor1)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorScheme*), "get_environmentColor1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -316,7 +316,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ColorScheme::get_environmentColor0Boost
 // Il2CppName: get_environmentColor0Boost
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::ColorScheme::*)()>(&GlobalNamespace::ColorScheme::get_environmentColor0Boost)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (GlobalNamespace::ColorScheme::*)()>(&GlobalNamespace::ColorScheme::get_environmentColor0Boost)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorScheme*), "get_environmentColor0Boost", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -324,7 +324,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::ColorScheme::get_environmentColor1Boost
 // Il2CppName: get_environmentColor1Boost
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::ColorScheme::*)()>(&GlobalNamespace::ColorScheme::get_environmentColor1Boost)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (GlobalNamespace::ColorScheme::*)()>(&GlobalNamespace::ColorScheme::get_environmentColor1Boost)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorScheme*), "get_environmentColor1Boost", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -332,7 +332,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::ColorScheme::get_obstaclesColor
 // Il2CppName: get_obstaclesColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::ColorScheme::*)()>(&GlobalNamespace::ColorScheme::get_obstaclesColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (GlobalNamespace::ColorScheme::*)()>(&GlobalNamespace::ColorScheme::get_obstaclesColor)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorScheme*), "get_obstaclesColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

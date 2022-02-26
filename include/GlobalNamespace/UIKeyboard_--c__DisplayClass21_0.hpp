@@ -14,8 +14,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::UIKeyboard::$$c__DisplayClass21_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UIKeyboard::$$c__DisplayClass21_0*, "", "UIKeyboard/<>c__DisplayClass21_0");
+NEED_NO_BOX(::GlobalNamespace::UIKeyboard::$$c__DisplayClass21_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::UIKeyboard::$$c__DisplayClass21_0*, "", "UIKeyboard/<>c__DisplayClass21_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -43,14 +43,14 @@ namespace GlobalNamespace {
     // public UIKeyboard <>4__this
     // Size: 0x8
     // Offset: 0x18
-    GlobalNamespace::UIKeyboard* $$4__this;
+    ::GlobalNamespace::UIKeyboard* $$4__this;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::UIKeyboard*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::UIKeyboard*) == 0x8);
     public:
     // Get instance field reference: public System.String key
     ::StringW& dyn_key();
     // Get instance field reference: public UIKeyboard <>4__this
-    GlobalNamespace::UIKeyboard*& dyn_$$4__this();
+    ::GlobalNamespace::UIKeyboard*& dyn_$$4__this();
     // System.Void <Awake>b__4()
     // Offset: 0x2CAF920
     void $Awake$b__4();
@@ -60,12 +60,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UIKeyboard::$$c__DisplayClass21_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::UIKeyboard::$$c__DisplayClass21_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::UIKeyboard::$$c__DisplayClass21_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UIKeyboard::$$c__DisplayClass21_0*, creationType>()));
     }
   }; // UIKeyboard/<>c__DisplayClass21_0
   #pragma pack(pop)
-  static check_size<sizeof(UIKeyboard::$$c__DisplayClass21_0), 24 + sizeof(GlobalNamespace::UIKeyboard*)> __GlobalNamespace_UIKeyboard_$$c__DisplayClass21_0SizeCheck;
+  static check_size<sizeof(UIKeyboard::$$c__DisplayClass21_0), 24 + sizeof(::GlobalNamespace::UIKeyboard*)> __GlobalNamespace_UIKeyboard_$$c__DisplayClass21_0SizeCheck;
   static_assert(sizeof(UIKeyboard::$$c__DisplayClass21_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

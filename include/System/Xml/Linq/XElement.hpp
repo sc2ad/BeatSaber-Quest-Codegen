@@ -57,8 +57,8 @@ namespace System::Xml::Linq {
   class XElement;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Linq::XElement);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Linq::XElement*, "System.Xml.Linq", "XElement");
+NEED_NO_BOX(::System::Xml::Linq::XElement);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Linq::XElement*, "System.Xml.Linq", "XElement");
 // Type namespace: System.Xml.Linq
 namespace System::Xml::Linq {
   // Size: 0x40
@@ -68,9 +68,9 @@ namespace System::Xml::Linq {
   // [TypeDescriptionProviderAttribute] Offset: 11D34D4
   // [XmlSchemaProviderAttribute] Offset: 11D34D4
   // [XmlTypeConvertorAttribute] Offset: 11D34D4
-  class XElement : public System::Xml::Linq::XContainer/*, public System::Xml::Serialization::IXmlSerializable*/ {
+  class XElement : public ::System::Xml::Linq::XContainer/*, public ::System::Xml::Serialization::IXmlSerializable*/ {
     public:
-    // Nested type: System::Xml::Linq::XElement::$GetAttributes$d__105
+    // Nested type: ::System::Xml::Linq::XElement::$GetAttributes$d__105
     class $GetAttributes$d__105;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -84,24 +84,24 @@ namespace System::Xml::Linq {
     // System.Xml.Linq.XName name
     // Size: 0x8
     // Offset: 0x30
-    System::Xml::Linq::XName* name;
+    ::System::Xml::Linq::XName* name;
     // Field size check
-    static_assert(sizeof(System::Xml::Linq::XName*) == 0x8);
+    static_assert(sizeof(::System::Xml::Linq::XName*) == 0x8);
     // System.Xml.Linq.XAttribute lastAttr
     // Size: 0x8
     // Offset: 0x38
-    System::Xml::Linq::XAttribute* lastAttr;
+    ::System::Xml::Linq::XAttribute* lastAttr;
     // Field size check
-    static_assert(sizeof(System::Xml::Linq::XAttribute*) == 0x8);
+    static_assert(sizeof(::System::Xml::Linq::XAttribute*) == 0x8);
     public:
-    // Creating interface conversion operator: operator System::Xml::Serialization::IXmlSerializable
-    operator System::Xml::Serialization::IXmlSerializable() noexcept {
-      return *reinterpret_cast<System::Xml::Serialization::IXmlSerializable*>(this);
+    // Creating interface conversion operator: operator ::System::Xml::Serialization::IXmlSerializable
+    operator ::System::Xml::Serialization::IXmlSerializable() noexcept {
+      return *reinterpret_cast<::System::Xml::Serialization::IXmlSerializable*>(this);
     }
     // Get instance field reference: System.Xml.Linq.XName name
-    System::Xml::Linq::XName*& dyn_name();
+    ::System::Xml::Linq::XName*& dyn_name();
     // Get instance field reference: System.Xml.Linq.XAttribute lastAttr
-    System::Xml::Linq::XAttribute*& dyn_lastAttr();
+    ::System::Xml::Linq::XAttribute*& dyn_lastAttr();
     // public System.Boolean get_HasAttributes()
     // Offset: 0x29E4F48
     bool get_HasAttributes();
@@ -110,64 +110,64 @@ namespace System::Xml::Linq {
     bool get_IsEmpty();
     // public System.Xml.Linq.XName get_Name()
     // Offset: 0x29E4F68
-    System::Xml::Linq::XName* get_Name();
+    ::System::Xml::Linq::XName* get_Name();
     // public System.String get_Value()
     // Offset: 0x29E4F78
     ::StringW get_Value();
     // public System.Void .ctor(System.Xml.Linq.XName name)
     // Offset: 0x29E2C00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XElement* New_ctor(System::Xml::Linq::XName* name) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Linq::XElement::.ctor");
+    static XElement* New_ctor(::System::Xml::Linq::XName* name) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XElement*, creationType>(name)));
     }
     // public System.Void .ctor(System.Xml.Linq.XElement other)
     // Offset: 0x29E4E94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XElement* New_ctor(System::Xml::Linq::XElement* other) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Linq::XElement::.ctor");
+    static XElement* New_ctor(::System::Xml::Linq::XElement* other) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XElement*, creationType>(other)));
     }
     // public System.Void .ctor(System.Xml.Linq.XStreamingElement other)
     // Offset: 0x29E1CD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XElement* New_ctor(System::Xml::Linq::XStreamingElement* other) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Linq::XElement::.ctor");
+    static XElement* New_ctor(::System::Xml::Linq::XStreamingElement* other) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XElement*, creationType>(other)));
     }
     // public System.Xml.Linq.XAttribute Attribute(System.Xml.Linq.XName name)
     // Offset: 0x29E5034
-    System::Xml::Linq::XAttribute* Attribute(System::Xml::Linq::XName* name);
+    ::System::Xml::Linq::XAttribute* Attribute(::System::Xml::Linq::XName* name);
     // public System.Collections.Generic.IEnumerable`1<System.Xml.Linq.XAttribute> Attributes()
     // Offset: 0x29E5070
-    System::Collections::Generic::IEnumerable_1<System::Xml::Linq::XAttribute*>* Attributes();
+    ::System::Collections::Generic::IEnumerable_1<::System::Xml::Linq::XAttribute*>* Attributes();
     // public System.String GetPrefixOfNamespace(System.Xml.Linq.XNamespace ns)
     // Offset: 0x29E079C
-    ::StringW GetPrefixOfNamespace(System::Xml::Linq::XNamespace* ns);
+    ::StringW GetPrefixOfNamespace(::System::Xml::Linq::XNamespace* ns);
     // private System.Xml.Schema.XmlSchema System.Xml.Serialization.IXmlSerializable.GetSchema()
     // Offset: 0x29E52BC
-    System::Xml::Schema::XmlSchema* System_Xml_Serialization_IXmlSerializable_GetSchema();
+    ::System::Xml::Schema::XmlSchema* System_Xml_Serialization_IXmlSerializable_GetSchema();
     // private System.Void System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader reader)
     // Offset: 0x29E52C4
-    void System_Xml_Serialization_IXmlSerializable_ReadXml(System::Xml::XmlReader* reader);
+    void System_Xml_Serialization_IXmlSerializable_ReadXml(::System::Xml::XmlReader* reader);
     // private System.Void System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter writer)
     // Offset: 0x29E59F4
-    void System_Xml_Serialization_IXmlSerializable_WriteXml(System::Xml::XmlWriter* writer);
+    void System_Xml_Serialization_IXmlSerializable_WriteXml(::System::Xml::XmlWriter* writer);
     // System.Void AppendAttribute(System.Xml.Linq.XAttribute a)
     // Offset: 0x29E5AFC
-    void AppendAttribute(System::Xml::Linq::XAttribute* a);
+    void AppendAttribute(::System::Xml::Linq::XAttribute* a);
     // System.Void AppendAttributeSkipNotify(System.Xml.Linq.XAttribute a)
     // Offset: 0x29E2C9C
-    void AppendAttributeSkipNotify(System::Xml::Linq::XAttribute* a);
+    void AppendAttributeSkipNotify(::System::Xml::Linq::XAttribute* a);
     // private System.Collections.Generic.IEnumerable`1<System.Xml.Linq.XAttribute> GetAttributes(System.Xml.Linq.XName name)
     // Offset: 0x29E5078
-    System::Collections::Generic::IEnumerable_1<System::Xml::Linq::XAttribute*>* GetAttributes(System::Xml::Linq::XName* name);
+    ::System::Collections::Generic::IEnumerable_1<::System::Xml::Linq::XAttribute*>* GetAttributes(::System::Xml::Linq::XName* name);
     // private System.String GetNamespaceOfPrefixInScope(System.String prefix, System.Xml.Linq.XElement outOfScope)
     // Offset: 0x29E5108
-    ::StringW GetNamespaceOfPrefixInScope(::StringW prefix, System::Xml::Linq::XElement* outOfScope);
+    ::StringW GetNamespaceOfPrefixInScope(::StringW prefix, ::System::Xml::Linq::XElement* outOfScope);
     // private System.Void ReadElementFrom(System.Xml.XmlReader r, System.Xml.Linq.LoadOptions o)
     // Offset: 0x29E54B4
-    void ReadElementFrom(System::Xml::XmlReader* r, System::Xml::Linq::LoadOptions o);
+    void ReadElementFrom(::System::Xml::XmlReader* r, ::System::Xml::Linq::LoadOptions o);
     // System.Void SetEndElementLineInfo(System.Int32 lineNumber, System.Int32 linePosition)
     // Offset: 0x29E3B80
     void SetEndElementLineInfo(int lineNumber, int linePosition);
@@ -175,35 +175,35 @@ namespace System::Xml::Linq {
     // Offset: 0x29E4F70
     // Implemented from: System.Xml.Linq.XObject
     // Base method: System.Xml.XmlNodeType XObject::get_NodeType()
-    System::Xml::XmlNodeType get_NodeType();
+    ::System::Xml::XmlNodeType get_NodeType();
     // public override System.Void WriteTo(System.Xml.XmlWriter writer)
     // Offset: 0x29E520C
     // Implemented from: System.Xml.Linq.XNode
     // Base method: System.Void XNode::WriteTo(System.Xml.XmlWriter writer)
-    void WriteTo(System::Xml::XmlWriter* writer);
+    void WriteTo(::System::Xml::XmlWriter* writer);
     // override System.Void AddAttribute(System.Xml.Linq.XAttribute a)
     // Offset: 0x29E5A00
     // Implemented from: System.Xml.Linq.XContainer
     // Base method: System.Void XContainer::AddAttribute(System.Xml.Linq.XAttribute a)
-    void AddAttribute(System::Xml::Linq::XAttribute* a);
+    void AddAttribute(::System::Xml::Linq::XAttribute* a);
     // override System.Void AddAttributeSkipNotify(System.Xml.Linq.XAttribute a)
     // Offset: 0x29E5C2C
     // Implemented from: System.Xml.Linq.XContainer
     // Base method: System.Void XContainer::AddAttributeSkipNotify(System.Xml.Linq.XAttribute a)
-    void AddAttributeSkipNotify(System::Xml::Linq::XAttribute* a);
+    void AddAttributeSkipNotify(::System::Xml::Linq::XAttribute* a);
     // override System.Xml.Linq.XNode CloneNode()
     // Offset: 0x29E5D28
     // Implemented from: System.Xml.Linq.XNode
     // Base method: System.Xml.Linq.XNode XNode::CloneNode()
-    System::Xml::Linq::XNode* CloneNode();
+    ::System::Xml::Linq::XNode* CloneNode();
     // override System.Void ValidateNode(System.Xml.Linq.XNode node, System.Xml.Linq.XNode previous)
     // Offset: 0x29E5FD8
     // Implemented from: System.Xml.Linq.XContainer
     // Base method: System.Void XContainer::ValidateNode(System.Xml.Linq.XNode node, System.Xml.Linq.XNode previous)
-    void ValidateNode(System::Xml::Linq::XNode* node, System::Xml::Linq::XNode* previous);
+    void ValidateNode(::System::Xml::Linq::XNode* node, ::System::Xml::Linq::XNode* previous);
   }; // System.Xml.Linq.XElement
   #pragma pack(pop)
-  static check_size<sizeof(XElement), 56 + sizeof(System::Xml::Linq::XAttribute*)> __System_Xml_Linq_XElementSizeCheck;
+  static check_size<sizeof(XElement), 56 + sizeof(::System::Xml::Linq::XAttribute*)> __System_Xml_Linq_XElementSizeCheck;
   static_assert(sizeof(XElement) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -226,7 +226,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Xml::Linq::XElement::get_Name
 // Il2CppName: get_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Linq::XName* (System::Xml::Linq::XElement::*)()>(&System::Xml::Linq::XElement::get_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Linq::XName* (System::Xml::Linq::XElement::*)()>(&System::Xml::Linq::XElement::get_Name)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Linq::XElement*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -254,7 +254,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Xml::Linq::XElement::Attribute
 // Il2CppName: Attribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Linq::XAttribute* (System::Xml::Linq::XElement::*)(System::Xml::Linq::XName*)>(&System::Xml::Linq::XElement::Attribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Linq::XAttribute* (System::Xml::Linq::XElement::*)(::System::Xml::Linq::XName*)>(&System::Xml::Linq::XElement::Attribute)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System.Xml.Linq", "XName")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Linq::XElement*), "Attribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -263,7 +263,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Linq::XElement::Attributes
 // Il2CppName: Attributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<System::Xml::Linq::XAttribute*>* (System::Xml::Linq::XElement::*)()>(&System::Xml::Linq::XElement::Attributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Xml::Linq::XAttribute*>* (System::Xml::Linq::XElement::*)()>(&System::Xml::Linq::XElement::Attributes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Linq::XElement*), "Attributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -271,7 +271,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::Xml::Linq::XElement::GetPrefixOfNamespace
 // Il2CppName: GetPrefixOfNamespace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Xml::Linq::XElement::*)(System::Xml::Linq::XNamespace*)>(&System::Xml::Linq::XElement::GetPrefixOfNamespace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Xml::Linq::XElement::*)(::System::Xml::Linq::XNamespace*)>(&System::Xml::Linq::XElement::GetPrefixOfNamespace)> {
   static const MethodInfo* get() {
     static auto* ns = &::il2cpp_utils::GetClassFromName("System.Xml.Linq", "XNamespace")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Linq::XElement*), "GetPrefixOfNamespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ns});
@@ -280,7 +280,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Xml::Linq::XElement::System_Xml_Serialization_IXmlSerializable_GetSchema
 // Il2CppName: System.Xml.Serialization.IXmlSerializable.GetSchema
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Schema::XmlSchema* (System::Xml::Linq::XElement::*)()>(&System::Xml::Linq::XElement::System_Xml_Serialization_IXmlSerializable_GetSchema)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchema* (System::Xml::Linq::XElement::*)()>(&System::Xml::Linq::XElement::System_Xml_Serialization_IXmlSerializable_GetSchema)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Linq::XElement*), "System.Xml.Serialization.IXmlSerializable.GetSchema", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -288,7 +288,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Linq::XElement::System_Xml_Serialization_IXmlSerializable_ReadXml
 // Il2CppName: System.Xml.Serialization.IXmlSerializable.ReadXml
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Linq::XElement::*)(System::Xml::XmlReader*)>(&System::Xml::Linq::XElement::System_Xml_Serialization_IXmlSerializable_ReadXml)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Linq::XElement::*)(::System::Xml::XmlReader*)>(&System::Xml::Linq::XElement::System_Xml_Serialization_IXmlSerializable_ReadXml)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlReader")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Linq::XElement*), "System.Xml.Serialization.IXmlSerializable.ReadXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader});
@@ -297,7 +297,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Linq::XElement::System_Xml_Serialization_IXmlSerializable_WriteXml
 // Il2CppName: System.Xml.Serialization.IXmlSerializable.WriteXml
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Linq::XElement::*)(System::Xml::XmlWriter*)>(&System::Xml::Linq::XElement::System_Xml_Serialization_IXmlSerializable_WriteXml)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Linq::XElement::*)(::System::Xml::XmlWriter*)>(&System::Xml::Linq::XElement::System_Xml_Serialization_IXmlSerializable_WriteXml)> {
   static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlWriter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Linq::XElement*), "System.Xml.Serialization.IXmlSerializable.WriteXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{writer});
@@ -306,7 +306,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Linq::XElement::AppendAttribute
 // Il2CppName: AppendAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Linq::XElement::*)(System::Xml::Linq::XAttribute*)>(&System::Xml::Linq::XElement::AppendAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Linq::XElement::*)(::System::Xml::Linq::XAttribute*)>(&System::Xml::Linq::XElement::AppendAttribute)> {
   static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("System.Xml.Linq", "XAttribute")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Linq::XElement*), "AppendAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a});
@@ -315,7 +315,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Linq::XElement::AppendAttributeSkipNotify
 // Il2CppName: AppendAttributeSkipNotify
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Linq::XElement::*)(System::Xml::Linq::XAttribute*)>(&System::Xml::Linq::XElement::AppendAttributeSkipNotify)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Linq::XElement::*)(::System::Xml::Linq::XAttribute*)>(&System::Xml::Linq::XElement::AppendAttributeSkipNotify)> {
   static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("System.Xml.Linq", "XAttribute")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Linq::XElement*), "AppendAttributeSkipNotify", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a});
@@ -324,7 +324,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Linq::XElement::GetAttributes
 // Il2CppName: GetAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<System::Xml::Linq::XAttribute*>* (System::Xml::Linq::XElement::*)(System::Xml::Linq::XName*)>(&System::Xml::Linq::XElement::GetAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Xml::Linq::XAttribute*>* (System::Xml::Linq::XElement::*)(::System::Xml::Linq::XName*)>(&System::Xml::Linq::XElement::GetAttributes)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System.Xml.Linq", "XName")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Linq::XElement*), "GetAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -333,7 +333,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::Xml::Linq::XElement::GetNamespaceOfPrefixInScope
 // Il2CppName: GetNamespaceOfPrefixInScope
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Xml::Linq::XElement::*)(::StringW, System::Xml::Linq::XElement*)>(&System::Xml::Linq::XElement::GetNamespaceOfPrefixInScope)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Xml::Linq::XElement::*)(::StringW, ::System::Xml::Linq::XElement*)>(&System::Xml::Linq::XElement::GetNamespaceOfPrefixInScope)> {
   static const MethodInfo* get() {
     static auto* prefix = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* outOfScope = &::il2cpp_utils::GetClassFromName("System.Xml.Linq", "XElement")->byval_arg;
@@ -343,7 +343,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Xml::Linq::XElement::ReadElementFrom
 // Il2CppName: ReadElementFrom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Linq::XElement::*)(System::Xml::XmlReader*, System::Xml::Linq::LoadOptions)>(&System::Xml::Linq::XElement::ReadElementFrom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Linq::XElement::*)(::System::Xml::XmlReader*, ::System::Xml::Linq::LoadOptions)>(&System::Xml::Linq::XElement::ReadElementFrom)> {
   static const MethodInfo* get() {
     static auto* r = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlReader")->byval_arg;
     static auto* o = &::il2cpp_utils::GetClassFromName("System.Xml.Linq", "LoadOptions")->byval_arg;
@@ -363,7 +363,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Linq::XElement::get_NodeType
 // Il2CppName: get_NodeType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlNodeType (System::Xml::Linq::XElement::*)()>(&System::Xml::Linq::XElement::get_NodeType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNodeType (System::Xml::Linq::XElement::*)()>(&System::Xml::Linq::XElement::get_NodeType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Linq::XElement*), "get_NodeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -371,7 +371,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Linq::XElement::WriteTo
 // Il2CppName: WriteTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Linq::XElement::*)(System::Xml::XmlWriter*)>(&System::Xml::Linq::XElement::WriteTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Linq::XElement::*)(::System::Xml::XmlWriter*)>(&System::Xml::Linq::XElement::WriteTo)> {
   static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlWriter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Linq::XElement*), "WriteTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{writer});
@@ -380,7 +380,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Linq::XElement::AddAttribute
 // Il2CppName: AddAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Linq::XElement::*)(System::Xml::Linq::XAttribute*)>(&System::Xml::Linq::XElement::AddAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Linq::XElement::*)(::System::Xml::Linq::XAttribute*)>(&System::Xml::Linq::XElement::AddAttribute)> {
   static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("System.Xml.Linq", "XAttribute")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Linq::XElement*), "AddAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a});
@@ -389,7 +389,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Linq::XElement::AddAttributeSkipNotify
 // Il2CppName: AddAttributeSkipNotify
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Linq::XElement::*)(System::Xml::Linq::XAttribute*)>(&System::Xml::Linq::XElement::AddAttributeSkipNotify)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Linq::XElement::*)(::System::Xml::Linq::XAttribute*)>(&System::Xml::Linq::XElement::AddAttributeSkipNotify)> {
   static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("System.Xml.Linq", "XAttribute")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Linq::XElement*), "AddAttributeSkipNotify", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a});
@@ -398,7 +398,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Linq::XElement::CloneNode
 // Il2CppName: CloneNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Linq::XNode* (System::Xml::Linq::XElement::*)()>(&System::Xml::Linq::XElement::CloneNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Linq::XNode* (System::Xml::Linq::XElement::*)()>(&System::Xml::Linq::XElement::CloneNode)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Linq::XElement*), "CloneNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -406,7 +406,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Linq::XElement::ValidateNode
 // Il2CppName: ValidateNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Linq::XElement::*)(System::Xml::Linq::XNode*, System::Xml::Linq::XNode*)>(&System::Xml::Linq::XElement::ValidateNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Linq::XElement::*)(::System::Xml::Linq::XNode*, ::System::Xml::Linq::XNode*)>(&System::Xml::Linq::XElement::ValidateNode)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("System.Xml.Linq", "XNode")->byval_arg;
     static auto* previous = &::il2cpp_utils::GetClassFromName("System.Xml.Linq", "XNode")->byval_arg;

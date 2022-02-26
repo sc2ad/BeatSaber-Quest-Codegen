@@ -13,8 +13,8 @@ namespace Mono::Security {
   class BitConverterLE;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Security::BitConverterLE);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Security::BitConverterLE*, "Mono.Security", "BitConverterLE");
+NEED_NO_BOX(::Mono::Security::BitConverterLE);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::BitConverterLE*, "Mono.Security", "BitConverterLE");
 // Type namespace: Mono.Security
 namespace Mono::Security {
   // Size: 0x10

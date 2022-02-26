@@ -25,8 +25,8 @@ namespace GlobalNamespace {
   class MouseLook;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MouseLook);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MouseLook*, "", "MouseLook");
+NEED_NO_BOX(::GlobalNamespace::MouseLook);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MouseLook*, "", "MouseLook");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x51
@@ -101,15 +101,15 @@ namespace GlobalNamespace {
     // private UnityEngine.Quaternion _characterTargetRot
     // Size: 0x10
     // Offset: 0x30
-    UnityEngine::Quaternion characterTargetRot;
+    ::UnityEngine::Quaternion characterTargetRot;
     // Field size check
-    static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    static_assert(sizeof(::UnityEngine::Quaternion) == 0x10);
     // private UnityEngine.Quaternion _cameraTargetRot
     // Size: 0x10
     // Offset: 0x40
-    UnityEngine::Quaternion cameraTargetRot;
+    ::UnityEngine::Quaternion cameraTargetRot;
     // Field size check
-    static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    static_assert(sizeof(::UnityEngine::Quaternion) == 0x10);
     // private System.Boolean _cursorIsLocked
     // Size: 0x1
     // Offset: 0x50
@@ -134,17 +134,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _lockCursor
     bool& dyn__lockCursor();
     // Get instance field reference: private UnityEngine.Quaternion _characterTargetRot
-    UnityEngine::Quaternion& dyn__characterTargetRot();
+    ::UnityEngine::Quaternion& dyn__characterTargetRot();
     // Get instance field reference: private UnityEngine.Quaternion _cameraTargetRot
-    UnityEngine::Quaternion& dyn__cameraTargetRot();
+    ::UnityEngine::Quaternion& dyn__cameraTargetRot();
     // Get instance field reference: private System.Boolean _cursorIsLocked
     bool& dyn__cursorIsLocked();
     // public System.Void Init(UnityEngine.Transform character, UnityEngine.Transform camera)
     // Offset: 0x1426B10
-    void Init(UnityEngine::Transform* character, UnityEngine::Transform* camera);
+    void Init(::UnityEngine::Transform* character, ::UnityEngine::Transform* camera);
     // public System.Void LookRotation(UnityEngine.Transform character, UnityEngine.Transform camera)
     // Offset: 0x1426BA8
-    void LookRotation(UnityEngine::Transform* character, UnityEngine::Transform* camera);
+    void LookRotation(::UnityEngine::Transform* character, ::UnityEngine::Transform* camera);
     // public System.Void SetCursorLock(System.Boolean value)
     // Offset: 0x1426F58
     void SetCursorLock(bool value);
@@ -156,14 +156,14 @@ namespace GlobalNamespace {
     void InternalLockUpdate();
     // private UnityEngine.Quaternion ClampRotationAroundXAxis(UnityEngine.Quaternion q)
     // Offset: 0x1426E80
-    UnityEngine::Quaternion ClampRotationAroundXAxis(UnityEngine::Quaternion q);
+    ::UnityEngine::Quaternion ClampRotationAroundXAxis(::UnityEngine::Quaternion q);
     // public System.Void .ctor()
     // Offset: 0x1427008
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MouseLook* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MouseLook::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MouseLook::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MouseLook*, creationType>()));
     }
   }; // MouseLook
@@ -175,7 +175,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::MouseLook::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MouseLook::*)(UnityEngine::Transform*, UnityEngine::Transform*)>(&GlobalNamespace::MouseLook::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MouseLook::*)(::UnityEngine::Transform*, ::UnityEngine::Transform*)>(&GlobalNamespace::MouseLook::Init)> {
   static const MethodInfo* get() {
     static auto* character = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* camera = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
@@ -185,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MouseLook::LookRotation
 // Il2CppName: LookRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MouseLook::*)(UnityEngine::Transform*, UnityEngine::Transform*)>(&GlobalNamespace::MouseLook::LookRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MouseLook::*)(::UnityEngine::Transform*, ::UnityEngine::Transform*)>(&GlobalNamespace::MouseLook::LookRotation)> {
   static const MethodInfo* get() {
     static auto* character = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* camera = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
@@ -220,7 +220,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MouseLook::ClampRotationAroundXAxis
 // Il2CppName: ClampRotationAroundXAxis
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (GlobalNamespace::MouseLook::*)(UnityEngine::Quaternion)>(&GlobalNamespace::MouseLook::ClampRotationAroundXAxis)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (GlobalNamespace::MouseLook::*)(::UnityEngine::Quaternion)>(&GlobalNamespace::MouseLook::ClampRotationAroundXAxis)> {
   static const MethodInfo* get() {
     static auto* q = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MouseLook*), "ClampRotationAroundXAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{q});

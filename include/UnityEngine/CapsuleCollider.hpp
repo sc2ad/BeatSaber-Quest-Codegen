@@ -20,8 +20,8 @@ namespace UnityEngine {
   class CapsuleCollider;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::CapsuleCollider);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CapsuleCollider*, "UnityEngine", "CapsuleCollider");
+NEED_NO_BOX(::UnityEngine::CapsuleCollider);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::CapsuleCollider*, "UnityEngine", "CapsuleCollider");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -30,14 +30,14 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NativeHeaderAttribute] Offset: 11B95C0
   // [RequiredByNativeCodeAttribute] Offset: 11B95C0
-  class CapsuleCollider : public UnityEngine::Collider {
+  class CapsuleCollider : public ::UnityEngine::Collider {
     public:
     // public UnityEngine.Vector3 get_center()
     // Offset: 0x2A422DC
-    UnityEngine::Vector3 get_center();
+    ::UnityEngine::Vector3 get_center();
     // public System.Void set_center(UnityEngine.Vector3 value)
     // Offset: 0x2A4238C
-    void set_center(UnityEngine::Vector3 value);
+    void set_center(::UnityEngine::Vector3 value);
     // public System.Single get_radius()
     // Offset: 0x2A42434
     float get_radius();
@@ -55,10 +55,10 @@ namespace UnityEngine {
     void set_direction(int value);
     // private System.Void get_center_Injected(out UnityEngine.Vector3 ret)
     // Offset: 0x2A4233C
-    void get_center_Injected(ByRef<UnityEngine::Vector3> ret);
+    void get_center_Injected(ByRef<::UnityEngine::Vector3> ret);
     // private System.Void set_center_Injected(ref UnityEngine.Vector3 value)
     // Offset: 0x2A423E4
-    void set_center_Injected(ByRef<UnityEngine::Vector3> value);
+    void set_center_Injected(ByRef<::UnityEngine::Vector3> value);
   }; // UnityEngine.CapsuleCollider
   #pragma pack(pop)
 }
@@ -66,7 +66,7 @@ namespace UnityEngine {
 // Writing MetadataGetter for method: UnityEngine::CapsuleCollider::get_center
 // Il2CppName: get_center
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::CapsuleCollider::*)()>(&UnityEngine::CapsuleCollider::get_center)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (UnityEngine::CapsuleCollider::*)()>(&UnityEngine::CapsuleCollider::get_center)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::CapsuleCollider*), "get_center", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -74,7 +74,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::CapsuleCollider::set_center
 // Il2CppName: set_center
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CapsuleCollider::*)(UnityEngine::Vector3)>(&UnityEngine::CapsuleCollider::set_center)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CapsuleCollider::*)(::UnityEngine::Vector3)>(&UnityEngine::CapsuleCollider::set_center)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::CapsuleCollider*), "set_center", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -126,7 +126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::CapsuleCollider::get_center_Injected
 // Il2CppName: get_center_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CapsuleCollider::*)(ByRef<UnityEngine::Vector3>)>(&UnityEngine::CapsuleCollider::get_center_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CapsuleCollider::*)(ByRef<::UnityEngine::Vector3>)>(&UnityEngine::CapsuleCollider::get_center_Injected)> {
   static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::CapsuleCollider*), "get_center_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
@@ -135,7 +135,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::CapsuleCollider::set_center_Injected
 // Il2CppName: set_center_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CapsuleCollider::*)(ByRef<UnityEngine::Vector3>)>(&UnityEngine::CapsuleCollider::set_center_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CapsuleCollider::*)(ByRef<::UnityEngine::Vector3>)>(&UnityEngine::CapsuleCollider::set_center_Injected)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::CapsuleCollider*), "set_center_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

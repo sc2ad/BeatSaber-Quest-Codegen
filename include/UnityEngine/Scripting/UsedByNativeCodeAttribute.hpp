@@ -19,8 +19,8 @@ namespace UnityEngine::Scripting {
   class UsedByNativeCodeAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Scripting::UsedByNativeCodeAttribute);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Scripting::UsedByNativeCodeAttribute*, "UnityEngine.Scripting", "UsedByNativeCodeAttribute");
+NEED_NO_BOX(::UnityEngine::Scripting::UsedByNativeCodeAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Scripting::UsedByNativeCodeAttribute*, "UnityEngine.Scripting", "UsedByNativeCodeAttribute");
 // Type namespace: UnityEngine.Scripting
 namespace UnityEngine::Scripting {
   // Size: 0x18
@@ -29,7 +29,7 @@ namespace UnityEngine::Scripting {
   // [TokenAttribute] Offset: FFFFFFFF
   // [VisibleToOtherModulesAttribute] Offset: FFFFFFFF
   // [AttributeUsageAttribute] Offset: 11A14A8
-  class UsedByNativeCodeAttribute : public System::Attribute {
+  class UsedByNativeCodeAttribute : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -61,7 +61,7 @@ namespace UnityEngine::Scripting {
     // Offset: 0x2A57704
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UsedByNativeCodeAttribute* New_ctor(::StringW name) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Scripting::UsedByNativeCodeAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Scripting::UsedByNativeCodeAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UsedByNativeCodeAttribute*, creationType>(name)));
     }
     // public System.Void .ctor()
@@ -71,7 +71,7 @@ namespace UnityEngine::Scripting {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UsedByNativeCodeAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Scripting::UsedByNativeCodeAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Scripting::UsedByNativeCodeAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UsedByNativeCodeAttribute*, creationType>()));
     }
   }; // UnityEngine.Scripting.UsedByNativeCodeAttribute

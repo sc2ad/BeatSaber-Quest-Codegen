@@ -17,8 +17,8 @@ namespace System::Security::Cryptography {
   class SHA1Internal;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Security::Cryptography::SHA1Internal);
-DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::SHA1Internal*, "System.Security.Cryptography", "SHA1Internal");
+NEED_NO_BOX(::System::Security::Cryptography::SHA1Internal);
+DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::SHA1Internal*, "System.Security.Cryptography", "SHA1Internal");
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {
   // Size: 0x38
@@ -109,7 +109,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SHA1Internal* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::SHA1Internal::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::SHA1Internal::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SHA1Internal*, creationType>()));
     }
   }; // System.Security.Cryptography.SHA1Internal

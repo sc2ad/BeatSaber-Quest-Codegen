@@ -27,8 +27,8 @@ namespace Newtonsoft::Json::Linq {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Linq::JObject::JObjectDynamicProxy::$$c);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Linq::JObject::JObjectDynamicProxy::$$c*, "Newtonsoft.Json.Linq", "JObject/JObjectDynamicProxy/<>c");
+NEED_NO_BOX(::Newtonsoft::Json::Linq::JObject::JObjectDynamicProxy::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Linq::JObject::JObjectDynamicProxy::$$c*, "Newtonsoft.Json.Linq", "JObject/JObjectDynamicProxy/<>c");
 // Type namespace: Newtonsoft.Json.Linq
 namespace Newtonsoft::Json::Linq {
   // Size: 0x10
@@ -40,27 +40,27 @@ namespace Newtonsoft::Json::Linq {
     public:
     // [NullableAttribute] Offset: 0x1206E64
     // Get static field: static public readonly Newtonsoft.Json.Linq.JObject/Newtonsoft.Json.Linq.JObjectDynamicProxy/Newtonsoft.Json.Linq.<>c <>9
-    static Newtonsoft::Json::Linq::JObject::JObjectDynamicProxy::$$c* _get_$$9();
+    static ::Newtonsoft::Json::Linq::JObject::JObjectDynamicProxy::$$c* _get_$$9();
     // Set static field: static public readonly Newtonsoft.Json.Linq.JObject/Newtonsoft.Json.Linq.JObjectDynamicProxy/Newtonsoft.Json.Linq.<>c <>9
-    static void _set_$$9(Newtonsoft::Json::Linq::JObject::JObjectDynamicProxy::$$c* value);
+    static void _set_$$9(::Newtonsoft::Json::Linq::JObject::JObjectDynamicProxy::$$c* value);
     // [NullableAttribute] Offset: 0x1206E78
     // Get static field: static public System.Func`2<Newtonsoft.Json.Linq.JProperty,System.String> <>9__2_0
-    static System::Func_2<Newtonsoft::Json::Linq::JProperty*, ::StringW>* _get_$$9__2_0();
+    static ::System::Func_2<::Newtonsoft::Json::Linq::JProperty*, ::StringW>* _get_$$9__2_0();
     // Set static field: static public System.Func`2<Newtonsoft.Json.Linq.JProperty,System.String> <>9__2_0
-    static void _set_$$9__2_0(System::Func_2<Newtonsoft::Json::Linq::JProperty*, ::StringW>* value);
+    static void _set_$$9__2_0(::System::Func_2<::Newtonsoft::Json::Linq::JProperty*, ::StringW>* value);
     // static private System.Void .cctor()
     // Offset: 0x1C50544
     static void _cctor();
     // System.String <GetDynamicMemberNames>b__2_0(Newtonsoft.Json.Linq.JProperty p)
     // Offset: 0x1C505B0
-    ::StringW $GetDynamicMemberNames$b__2_0(Newtonsoft::Json::Linq::JProperty* p);
+    ::StringW $GetDynamicMemberNames$b__2_0(::Newtonsoft::Json::Linq::JProperty* p);
     // public System.Void .ctor()
     // Offset: 0x1C505A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JObject::JObjectDynamicProxy::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Linq::JObject::JObjectDynamicProxy::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Linq::JObject::JObjectDynamicProxy::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JObject::JObjectDynamicProxy::$$c*, creationType>()));
     }
   }; // Newtonsoft.Json.Linq.JObject/Newtonsoft.Json.Linq.JObjectDynamicProxy/Newtonsoft.Json.Linq.<>c
@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JObject::JObjectDynamicProxy::$$c::$GetDynamicMemberNames$b__2_0
 // Il2CppName: <GetDynamicMemberNames>b__2_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Newtonsoft::Json::Linq::JObject::JObjectDynamicProxy::$$c::*)(Newtonsoft::Json::Linq::JProperty*)>(&Newtonsoft::Json::Linq::JObject::JObjectDynamicProxy::$$c::$GetDynamicMemberNames$b__2_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Newtonsoft::Json::Linq::JObject::JObjectDynamicProxy::$$c::*)(::Newtonsoft::Json::Linq::JProperty*)>(&Newtonsoft::Json::Linq::JObject::JObjectDynamicProxy::$$c::$GetDynamicMemberNames$b__2_0)> {
   static const MethodInfo* get() {
     static auto* p = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Linq", "JProperty")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JObject::JObjectDynamicProxy::$$c*), "<GetDynamicMemberNames>b__2_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{p});

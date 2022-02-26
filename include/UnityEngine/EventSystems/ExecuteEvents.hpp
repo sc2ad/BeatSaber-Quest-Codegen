@@ -83,8 +83,8 @@ namespace UnityEngine::EventSystems {
   class ExecuteEvents;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::EventSystems::ExecuteEvents);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::ExecuteEvents*, "UnityEngine.EventSystems", "ExecuteEvents");
+NEED_NO_BOX(::UnityEngine::EventSystems::ExecuteEvents);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::EventSystems::ExecuteEvents*, "UnityEngine.EventSystems", "ExecuteEvents");
 // Type namespace: UnityEngine.EventSystems
 namespace UnityEngine::EventSystems {
   // Size: 0x10
@@ -93,210 +93,210 @@ namespace UnityEngine::EventSystems {
   // [TokenAttribute] Offset: FFFFFFFF
   class ExecuteEvents : public ::Il2CppObject {
     public:
-    // Nested type: UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<T1>
+    // Nested type: ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<T1>
     template<typename T1>
     class EventFunction_1;
-    // Nested type: UnityEngine::EventSystems::ExecuteEvents::$$c
+    // Nested type: ::UnityEngine::EventSystems::ExecuteEvents::$$c
     class $$c;
     // Get static field: static private readonly UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IPointerEnterHandler> s_PointerEnterHandler
-    static UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IPointerEnterHandler*>* _get_s_PointerEnterHandler();
+    static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IPointerEnterHandler*>* _get_s_PointerEnterHandler();
     // Set static field: static private readonly UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IPointerEnterHandler> s_PointerEnterHandler
-    static void _set_s_PointerEnterHandler(UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IPointerEnterHandler*>* value);
+    static void _set_s_PointerEnterHandler(::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IPointerEnterHandler*>* value);
     // Get static field: static private readonly UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IPointerExitHandler> s_PointerExitHandler
-    static UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IPointerExitHandler*>* _get_s_PointerExitHandler();
+    static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IPointerExitHandler*>* _get_s_PointerExitHandler();
     // Set static field: static private readonly UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IPointerExitHandler> s_PointerExitHandler
-    static void _set_s_PointerExitHandler(UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IPointerExitHandler*>* value);
+    static void _set_s_PointerExitHandler(::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IPointerExitHandler*>* value);
     // Get static field: static private readonly UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IPointerDownHandler> s_PointerDownHandler
-    static UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IPointerDownHandler*>* _get_s_PointerDownHandler();
+    static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IPointerDownHandler*>* _get_s_PointerDownHandler();
     // Set static field: static private readonly UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IPointerDownHandler> s_PointerDownHandler
-    static void _set_s_PointerDownHandler(UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IPointerDownHandler*>* value);
+    static void _set_s_PointerDownHandler(::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IPointerDownHandler*>* value);
     // Get static field: static private readonly UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IPointerUpHandler> s_PointerUpHandler
-    static UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IPointerUpHandler*>* _get_s_PointerUpHandler();
+    static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IPointerUpHandler*>* _get_s_PointerUpHandler();
     // Set static field: static private readonly UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IPointerUpHandler> s_PointerUpHandler
-    static void _set_s_PointerUpHandler(UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IPointerUpHandler*>* value);
+    static void _set_s_PointerUpHandler(::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IPointerUpHandler*>* value);
     // Get static field: static private readonly UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IPointerClickHandler> s_PointerClickHandler
-    static UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IPointerClickHandler*>* _get_s_PointerClickHandler();
+    static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IPointerClickHandler*>* _get_s_PointerClickHandler();
     // Set static field: static private readonly UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IPointerClickHandler> s_PointerClickHandler
-    static void _set_s_PointerClickHandler(UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IPointerClickHandler*>* value);
+    static void _set_s_PointerClickHandler(::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IPointerClickHandler*>* value);
     // Get static field: static private readonly UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IInitializePotentialDragHandler> s_InitializePotentialDragHandler
-    static UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IInitializePotentialDragHandler*>* _get_s_InitializePotentialDragHandler();
+    static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IInitializePotentialDragHandler*>* _get_s_InitializePotentialDragHandler();
     // Set static field: static private readonly UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IInitializePotentialDragHandler> s_InitializePotentialDragHandler
-    static void _set_s_InitializePotentialDragHandler(UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IInitializePotentialDragHandler*>* value);
+    static void _set_s_InitializePotentialDragHandler(::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IInitializePotentialDragHandler*>* value);
     // Get static field: static private readonly UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IBeginDragHandler> s_BeginDragHandler
-    static UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IBeginDragHandler*>* _get_s_BeginDragHandler();
+    static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IBeginDragHandler*>* _get_s_BeginDragHandler();
     // Set static field: static private readonly UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IBeginDragHandler> s_BeginDragHandler
-    static void _set_s_BeginDragHandler(UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IBeginDragHandler*>* value);
+    static void _set_s_BeginDragHandler(::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IBeginDragHandler*>* value);
     // Get static field: static private readonly UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IDragHandler> s_DragHandler
-    static UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IDragHandler*>* _get_s_DragHandler();
+    static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IDragHandler*>* _get_s_DragHandler();
     // Set static field: static private readonly UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IDragHandler> s_DragHandler
-    static void _set_s_DragHandler(UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IDragHandler*>* value);
+    static void _set_s_DragHandler(::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IDragHandler*>* value);
     // Get static field: static private readonly UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IEndDragHandler> s_EndDragHandler
-    static UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IEndDragHandler*>* _get_s_EndDragHandler();
+    static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IEndDragHandler*>* _get_s_EndDragHandler();
     // Set static field: static private readonly UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IEndDragHandler> s_EndDragHandler
-    static void _set_s_EndDragHandler(UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IEndDragHandler*>* value);
+    static void _set_s_EndDragHandler(::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IEndDragHandler*>* value);
     // Get static field: static private readonly UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IDropHandler> s_DropHandler
-    static UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IDropHandler*>* _get_s_DropHandler();
+    static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IDropHandler*>* _get_s_DropHandler();
     // Set static field: static private readonly UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IDropHandler> s_DropHandler
-    static void _set_s_DropHandler(UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IDropHandler*>* value);
+    static void _set_s_DropHandler(::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IDropHandler*>* value);
     // Get static field: static private readonly UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IScrollHandler> s_ScrollHandler
-    static UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IScrollHandler*>* _get_s_ScrollHandler();
+    static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IScrollHandler*>* _get_s_ScrollHandler();
     // Set static field: static private readonly UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IScrollHandler> s_ScrollHandler
-    static void _set_s_ScrollHandler(UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IScrollHandler*>* value);
+    static void _set_s_ScrollHandler(::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IScrollHandler*>* value);
     // Get static field: static private readonly UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IUpdateSelectedHandler> s_UpdateSelectedHandler
-    static UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IUpdateSelectedHandler*>* _get_s_UpdateSelectedHandler();
+    static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IUpdateSelectedHandler*>* _get_s_UpdateSelectedHandler();
     // Set static field: static private readonly UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IUpdateSelectedHandler> s_UpdateSelectedHandler
-    static void _set_s_UpdateSelectedHandler(UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IUpdateSelectedHandler*>* value);
+    static void _set_s_UpdateSelectedHandler(::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IUpdateSelectedHandler*>* value);
     // Get static field: static private readonly UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.ISelectHandler> s_SelectHandler
-    static UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::ISelectHandler*>* _get_s_SelectHandler();
+    static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::ISelectHandler*>* _get_s_SelectHandler();
     // Set static field: static private readonly UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.ISelectHandler> s_SelectHandler
-    static void _set_s_SelectHandler(UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::ISelectHandler*>* value);
+    static void _set_s_SelectHandler(::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::ISelectHandler*>* value);
     // Get static field: static private readonly UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IDeselectHandler> s_DeselectHandler
-    static UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IDeselectHandler*>* _get_s_DeselectHandler();
+    static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IDeselectHandler*>* _get_s_DeselectHandler();
     // Set static field: static private readonly UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IDeselectHandler> s_DeselectHandler
-    static void _set_s_DeselectHandler(UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IDeselectHandler*>* value);
+    static void _set_s_DeselectHandler(::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IDeselectHandler*>* value);
     // Get static field: static private readonly UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IMoveHandler> s_MoveHandler
-    static UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IMoveHandler*>* _get_s_MoveHandler();
+    static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IMoveHandler*>* _get_s_MoveHandler();
     // Set static field: static private readonly UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IMoveHandler> s_MoveHandler
-    static void _set_s_MoveHandler(UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IMoveHandler*>* value);
+    static void _set_s_MoveHandler(::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IMoveHandler*>* value);
     // Get static field: static private readonly UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.ISubmitHandler> s_SubmitHandler
-    static UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::ISubmitHandler*>* _get_s_SubmitHandler();
+    static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::ISubmitHandler*>* _get_s_SubmitHandler();
     // Set static field: static private readonly UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.ISubmitHandler> s_SubmitHandler
-    static void _set_s_SubmitHandler(UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::ISubmitHandler*>* value);
+    static void _set_s_SubmitHandler(::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::ISubmitHandler*>* value);
     // Get static field: static private readonly UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.ICancelHandler> s_CancelHandler
-    static UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::ICancelHandler*>* _get_s_CancelHandler();
+    static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::ICancelHandler*>* _get_s_CancelHandler();
     // Set static field: static private readonly UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.ICancelHandler> s_CancelHandler
-    static void _set_s_CancelHandler(UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::ICancelHandler*>* value);
+    static void _set_s_CancelHandler(::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::ICancelHandler*>* value);
     // Get static field: static private readonly UnityEngine.UI.ObjectPool`1<System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>> s_HandlerListPool
-    static UnityEngine::UI::ObjectPool_1<System::Collections::Generic::List_1<UnityEngine::EventSystems::IEventSystemHandler*>*>* _get_s_HandlerListPool();
+    static ::UnityEngine::UI::ObjectPool_1<::System::Collections::Generic::List_1<::UnityEngine::EventSystems::IEventSystemHandler*>*>* _get_s_HandlerListPool();
     // Set static field: static private readonly UnityEngine.UI.ObjectPool`1<System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>> s_HandlerListPool
-    static void _set_s_HandlerListPool(UnityEngine::UI::ObjectPool_1<System::Collections::Generic::List_1<UnityEngine::EventSystems::IEventSystemHandler*>*>* value);
+    static void _set_s_HandlerListPool(::UnityEngine::UI::ObjectPool_1<::System::Collections::Generic::List_1<::UnityEngine::EventSystems::IEventSystemHandler*>*>* value);
     // Get static field: static private readonly System.Collections.Generic.List`1<UnityEngine.Transform> s_InternalTransformList
-    static System::Collections::Generic::List_1<UnityEngine::Transform*>* _get_s_InternalTransformList();
+    static ::System::Collections::Generic::List_1<::UnityEngine::Transform*>* _get_s_InternalTransformList();
     // Set static field: static private readonly System.Collections.Generic.List`1<UnityEngine.Transform> s_InternalTransformList
-    static void _set_s_InternalTransformList(System::Collections::Generic::List_1<UnityEngine::Transform*>* value);
+    static void _set_s_InternalTransformList(::System::Collections::Generic::List_1<::UnityEngine::Transform*>* value);
     // static public UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IPointerEnterHandler> get_pointerEnterHandler()
     // Offset: 0x1869F18
-    static UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IPointerEnterHandler*>* get_pointerEnterHandler();
+    static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IPointerEnterHandler*>* get_pointerEnterHandler();
     // static public UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IPointerExitHandler> get_pointerExitHandler()
     // Offset: 0x1869F80
-    static UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IPointerExitHandler*>* get_pointerExitHandler();
+    static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IPointerExitHandler*>* get_pointerExitHandler();
     // static public UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IPointerDownHandler> get_pointerDownHandler()
     // Offset: 0x1869FE8
-    static UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IPointerDownHandler*>* get_pointerDownHandler();
+    static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IPointerDownHandler*>* get_pointerDownHandler();
     // static public UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IPointerUpHandler> get_pointerUpHandler()
     // Offset: 0x186A050
-    static UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IPointerUpHandler*>* get_pointerUpHandler();
+    static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IPointerUpHandler*>* get_pointerUpHandler();
     // static public UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IPointerClickHandler> get_pointerClickHandler()
     // Offset: 0x186A0B8
-    static UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IPointerClickHandler*>* get_pointerClickHandler();
+    static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IPointerClickHandler*>* get_pointerClickHandler();
     // static public UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IInitializePotentialDragHandler> get_initializePotentialDrag()
     // Offset: 0x186A120
-    static UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IInitializePotentialDragHandler*>* get_initializePotentialDrag();
+    static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IInitializePotentialDragHandler*>* get_initializePotentialDrag();
     // static public UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IBeginDragHandler> get_beginDragHandler()
     // Offset: 0x186A188
-    static UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IBeginDragHandler*>* get_beginDragHandler();
+    static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IBeginDragHandler*>* get_beginDragHandler();
     // static public UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IDragHandler> get_dragHandler()
     // Offset: 0x186A1F0
-    static UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IDragHandler*>* get_dragHandler();
+    static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IDragHandler*>* get_dragHandler();
     // static public UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IEndDragHandler> get_endDragHandler()
     // Offset: 0x186A258
-    static UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IEndDragHandler*>* get_endDragHandler();
+    static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IEndDragHandler*>* get_endDragHandler();
     // static public UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IDropHandler> get_dropHandler()
     // Offset: 0x186A2C0
-    static UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IDropHandler*>* get_dropHandler();
+    static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IDropHandler*>* get_dropHandler();
     // static public UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IScrollHandler> get_scrollHandler()
     // Offset: 0x186A328
-    static UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IScrollHandler*>* get_scrollHandler();
+    static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IScrollHandler*>* get_scrollHandler();
     // static public UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IUpdateSelectedHandler> get_updateSelectedHandler()
     // Offset: 0x186A390
-    static UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IUpdateSelectedHandler*>* get_updateSelectedHandler();
+    static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IUpdateSelectedHandler*>* get_updateSelectedHandler();
     // static public UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.ISelectHandler> get_selectHandler()
     // Offset: 0x186A3F8
-    static UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::ISelectHandler*>* get_selectHandler();
+    static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::ISelectHandler*>* get_selectHandler();
     // static public UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IDeselectHandler> get_deselectHandler()
     // Offset: 0x186A460
-    static UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IDeselectHandler*>* get_deselectHandler();
+    static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IDeselectHandler*>* get_deselectHandler();
     // static public UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IMoveHandler> get_moveHandler()
     // Offset: 0x186A4C8
-    static UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IMoveHandler*>* get_moveHandler();
+    static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IMoveHandler*>* get_moveHandler();
     // static public UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.ISubmitHandler> get_submitHandler()
     // Offset: 0x186A530
-    static UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::ISubmitHandler*>* get_submitHandler();
+    static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::ISubmitHandler*>* get_submitHandler();
     // static public UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.ICancelHandler> get_cancelHandler()
     // Offset: 0x186A598
-    static UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::ICancelHandler*>* get_cancelHandler();
+    static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::ICancelHandler*>* get_cancelHandler();
     // static private System.Void .cctor()
     // Offset: 0x186A7B0
     static void _cctor();
     // static public T ValidateEventData(UnityEngine.EventSystems.BaseEventData data)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static T ValidateEventData(UnityEngine::EventSystems::BaseEventData* data) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::EventSystems::ExecuteEvents::ValidateEventData");
+    static T ValidateEventData(::UnityEngine::EventSystems::BaseEventData* data) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::EventSystems::ExecuteEvents::ValidateEventData");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.EventSystems", "ExecuteEvents", "ValidateEventData", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(data)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, data);
     }
     // static private System.Void Execute(UnityEngine.EventSystems.IPointerEnterHandler handler, UnityEngine.EventSystems.BaseEventData eventData)
     // Offset: 0x1868FFC
-    static void Execute(UnityEngine::EventSystems::IPointerEnterHandler* handler, UnityEngine::EventSystems::BaseEventData* eventData);
+    static void Execute(::UnityEngine::EventSystems::IPointerEnterHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
     // static private System.Void Execute(UnityEngine.EventSystems.IPointerExitHandler handler, UnityEngine.EventSystems.BaseEventData eventData)
     // Offset: 0x18690F0
-    static void Execute(UnityEngine::EventSystems::IPointerExitHandler* handler, UnityEngine::EventSystems::BaseEventData* eventData);
+    static void Execute(::UnityEngine::EventSystems::IPointerExitHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
     // static private System.Void Execute(UnityEngine.EventSystems.IPointerDownHandler handler, UnityEngine.EventSystems.BaseEventData eventData)
     // Offset: 0x18691E4
-    static void Execute(UnityEngine::EventSystems::IPointerDownHandler* handler, UnityEngine::EventSystems::BaseEventData* eventData);
+    static void Execute(::UnityEngine::EventSystems::IPointerDownHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
     // static private System.Void Execute(UnityEngine.EventSystems.IPointerUpHandler handler, UnityEngine.EventSystems.BaseEventData eventData)
     // Offset: 0x18692D8
-    static void Execute(UnityEngine::EventSystems::IPointerUpHandler* handler, UnityEngine::EventSystems::BaseEventData* eventData);
+    static void Execute(::UnityEngine::EventSystems::IPointerUpHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
     // static private System.Void Execute(UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData)
     // Offset: 0x18693CC
-    static void Execute(UnityEngine::EventSystems::IPointerClickHandler* handler, UnityEngine::EventSystems::BaseEventData* eventData);
+    static void Execute(::UnityEngine::EventSystems::IPointerClickHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
     // static private System.Void Execute(UnityEngine.EventSystems.IInitializePotentialDragHandler handler, UnityEngine.EventSystems.BaseEventData eventData)
     // Offset: 0x18694C0
-    static void Execute(UnityEngine::EventSystems::IInitializePotentialDragHandler* handler, UnityEngine::EventSystems::BaseEventData* eventData);
+    static void Execute(::UnityEngine::EventSystems::IInitializePotentialDragHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
     // static private System.Void Execute(UnityEngine.EventSystems.IBeginDragHandler handler, UnityEngine.EventSystems.BaseEventData eventData)
     // Offset: 0x18695B4
-    static void Execute(UnityEngine::EventSystems::IBeginDragHandler* handler, UnityEngine::EventSystems::BaseEventData* eventData);
+    static void Execute(::UnityEngine::EventSystems::IBeginDragHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
     // static private System.Void Execute(UnityEngine.EventSystems.IDragHandler handler, UnityEngine.EventSystems.BaseEventData eventData)
     // Offset: 0x18696A8
-    static void Execute(UnityEngine::EventSystems::IDragHandler* handler, UnityEngine::EventSystems::BaseEventData* eventData);
+    static void Execute(::UnityEngine::EventSystems::IDragHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
     // static private System.Void Execute(UnityEngine.EventSystems.IEndDragHandler handler, UnityEngine.EventSystems.BaseEventData eventData)
     // Offset: 0x186979C
-    static void Execute(UnityEngine::EventSystems::IEndDragHandler* handler, UnityEngine::EventSystems::BaseEventData* eventData);
+    static void Execute(::UnityEngine::EventSystems::IEndDragHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
     // static private System.Void Execute(UnityEngine.EventSystems.IDropHandler handler, UnityEngine.EventSystems.BaseEventData eventData)
     // Offset: 0x1869890
-    static void Execute(UnityEngine::EventSystems::IDropHandler* handler, UnityEngine::EventSystems::BaseEventData* eventData);
+    static void Execute(::UnityEngine::EventSystems::IDropHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
     // static private System.Void Execute(UnityEngine.EventSystems.IScrollHandler handler, UnityEngine.EventSystems.BaseEventData eventData)
     // Offset: 0x1869984
-    static void Execute(UnityEngine::EventSystems::IScrollHandler* handler, UnityEngine::EventSystems::BaseEventData* eventData);
+    static void Execute(::UnityEngine::EventSystems::IScrollHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
     // static private System.Void Execute(UnityEngine.EventSystems.IUpdateSelectedHandler handler, UnityEngine.EventSystems.BaseEventData eventData)
     // Offset: 0x1869A78
-    static void Execute(UnityEngine::EventSystems::IUpdateSelectedHandler* handler, UnityEngine::EventSystems::BaseEventData* eventData);
+    static void Execute(::UnityEngine::EventSystems::IUpdateSelectedHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
     // static private System.Void Execute(UnityEngine.EventSystems.ISelectHandler handler, UnityEngine.EventSystems.BaseEventData eventData)
     // Offset: 0x1869B34
-    static void Execute(UnityEngine::EventSystems::ISelectHandler* handler, UnityEngine::EventSystems::BaseEventData* eventData);
+    static void Execute(::UnityEngine::EventSystems::ISelectHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
     // static private System.Void Execute(UnityEngine.EventSystems.IDeselectHandler handler, UnityEngine.EventSystems.BaseEventData eventData)
     // Offset: 0x1869BF0
-    static void Execute(UnityEngine::EventSystems::IDeselectHandler* handler, UnityEngine::EventSystems::BaseEventData* eventData);
+    static void Execute(::UnityEngine::EventSystems::IDeselectHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
     // static private System.Void Execute(UnityEngine.EventSystems.IMoveHandler handler, UnityEngine.EventSystems.BaseEventData eventData)
     // Offset: 0x1869CAC
-    static void Execute(UnityEngine::EventSystems::IMoveHandler* handler, UnityEngine::EventSystems::BaseEventData* eventData);
+    static void Execute(::UnityEngine::EventSystems::IMoveHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
     // static private System.Void Execute(UnityEngine.EventSystems.ISubmitHandler handler, UnityEngine.EventSystems.BaseEventData eventData)
     // Offset: 0x1869DA0
-    static void Execute(UnityEngine::EventSystems::ISubmitHandler* handler, UnityEngine::EventSystems::BaseEventData* eventData);
+    static void Execute(::UnityEngine::EventSystems::ISubmitHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
     // static private System.Void Execute(UnityEngine.EventSystems.ICancelHandler handler, UnityEngine.EventSystems.BaseEventData eventData)
     // Offset: 0x1869E5C
-    static void Execute(UnityEngine::EventSystems::ICancelHandler* handler, UnityEngine::EventSystems::BaseEventData* eventData);
+    static void Execute(::UnityEngine::EventSystems::ICancelHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
     // static private System.Void GetEventChain(UnityEngine.GameObject root, System.Collections.Generic.IList`1<UnityEngine.Transform> eventChain)
     // Offset: 0x186A600
-    static void GetEventChain(UnityEngine::GameObject* root, System::Collections::Generic::IList_1<UnityEngine::Transform*>* eventChain);
+    static void GetEventChain(::UnityEngine::GameObject* root, ::System::Collections::Generic::IList_1<::UnityEngine::Transform*>* eventChain);
     // static public System.Boolean Execute(UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<T> functor)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static bool Execute(UnityEngine::GameObject* target, UnityEngine::EventSystems::BaseEventData* eventData, UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<T>* functor) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, UnityEngine::EventSystems::IEventSystemHandler>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::EventSystems::ExecuteEvents::Execute");
+    static bool Execute(::UnityEngine::GameObject* target, ::UnityEngine::EventSystems::BaseEventData* eventData, ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<T>* functor) {
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::UnityEngine::EventSystems::IEventSystemHandler>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::EventSystems::ExecuteEvents::Execute");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.EventSystems", "ExecuteEvents", "Execute", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(target), ::il2cpp_utils::ExtractType(eventData), ::il2cpp_utils::ExtractType(functor)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, target, eventData, functor);
@@ -304,19 +304,19 @@ namespace UnityEngine::EventSystems {
     // static public UnityEngine.GameObject ExecuteHierarchy(UnityEngine.GameObject root, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<T> callbackFunction)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static UnityEngine::GameObject* ExecuteHierarchy(UnityEngine::GameObject* root, UnityEngine::EventSystems::BaseEventData* eventData, UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<T>* callbackFunction) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, UnityEngine::EventSystems::IEventSystemHandler>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::EventSystems::ExecuteEvents::ExecuteHierarchy");
+    static ::UnityEngine::GameObject* ExecuteHierarchy(::UnityEngine::GameObject* root, ::UnityEngine::EventSystems::BaseEventData* eventData, ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<T>* callbackFunction) {
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::UnityEngine::EventSystems::IEventSystemHandler>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::EventSystems::ExecuteEvents::ExecuteHierarchy");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.EventSystems", "ExecuteEvents", "ExecuteHierarchy", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(root), ::il2cpp_utils::ExtractType(eventData), ::il2cpp_utils::ExtractType(callbackFunction)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodRethrow<UnityEngine::GameObject*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, root, eventData, callbackFunction);
+      return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::GameObject*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, root, eventData, callbackFunction);
     }
     // static private System.Boolean ShouldSendToComponent(UnityEngine.Component component)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static bool ShouldSendToComponent(UnityEngine::Component* component) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, UnityEngine::EventSystems::IEventSystemHandler>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::EventSystems::ExecuteEvents::ShouldSendToComponent");
+    static bool ShouldSendToComponent(::UnityEngine::Component* component) {
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::UnityEngine::EventSystems::IEventSystemHandler>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::EventSystems::ExecuteEvents::ShouldSendToComponent");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.EventSystems", "ExecuteEvents", "ShouldSendToComponent", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(component)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, component);
@@ -324,9 +324,9 @@ namespace UnityEngine::EventSystems {
     // static private System.Void GetEventList(UnityEngine.GameObject go, System.Collections.Generic.IList`1<UnityEngine.EventSystems.IEventSystemHandler> results)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static void GetEventList(UnityEngine::GameObject* go, System::Collections::Generic::IList_1<UnityEngine::EventSystems::IEventSystemHandler*>* results) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, UnityEngine::EventSystems::IEventSystemHandler>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::EventSystems::ExecuteEvents::GetEventList");
+    static void GetEventList(::UnityEngine::GameObject* go, ::System::Collections::Generic::IList_1<::UnityEngine::EventSystems::IEventSystemHandler*>* results) {
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::UnityEngine::EventSystems::IEventSystemHandler>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::EventSystems::ExecuteEvents::GetEventList");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.EventSystems", "ExecuteEvents", "GetEventList", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(go), ::il2cpp_utils::ExtractType(results)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, go, results);
@@ -334,9 +334,9 @@ namespace UnityEngine::EventSystems {
     // static public System.Boolean CanHandleEvent(UnityEngine.GameObject go)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static bool CanHandleEvent(UnityEngine::GameObject* go) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, UnityEngine::EventSystems::IEventSystemHandler>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::EventSystems::ExecuteEvents::CanHandleEvent");
+    static bool CanHandleEvent(::UnityEngine::GameObject* go) {
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::UnityEngine::EventSystems::IEventSystemHandler>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::EventSystems::ExecuteEvents::CanHandleEvent");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.EventSystems", "ExecuteEvents", "CanHandleEvent", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(go)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, go);
@@ -344,12 +344,12 @@ namespace UnityEngine::EventSystems {
     // static public UnityEngine.GameObject GetEventHandler(UnityEngine.GameObject root)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static UnityEngine::GameObject* GetEventHandler(UnityEngine::GameObject* root) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, UnityEngine::EventSystems::IEventSystemHandler>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::EventSystems::ExecuteEvents::GetEventHandler");
+    static ::UnityEngine::GameObject* GetEventHandler(::UnityEngine::GameObject* root) {
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::UnityEngine::EventSystems::IEventSystemHandler>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::EventSystems::ExecuteEvents::GetEventHandler");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.EventSystems", "ExecuteEvents", "GetEventHandler", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(root)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodRethrow<UnityEngine::GameObject*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, root);
+      return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::GameObject*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, root);
     }
   }; // UnityEngine.EventSystems.ExecuteEvents
   #pragma pack(pop)
@@ -358,7 +358,7 @@ namespace UnityEngine::EventSystems {
 // Writing MetadataGetter for method: UnityEngine::EventSystems::ExecuteEvents::get_pointerEnterHandler
 // Il2CppName: get_pointerEnterHandler
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IPointerEnterHandler*>* (*)()>(&UnityEngine::EventSystems::ExecuteEvents::get_pointerEnterHandler)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IPointerEnterHandler*>* (*)()>(&UnityEngine::EventSystems::ExecuteEvents::get_pointerEnterHandler)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::ExecuteEvents*), "get_pointerEnterHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -366,7 +366,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::EventSystems::ExecuteEvents::get_pointerExitHandler
 // Il2CppName: get_pointerExitHandler
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IPointerExitHandler*>* (*)()>(&UnityEngine::EventSystems::ExecuteEvents::get_pointerExitHandler)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IPointerExitHandler*>* (*)()>(&UnityEngine::EventSystems::ExecuteEvents::get_pointerExitHandler)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::ExecuteEvents*), "get_pointerExitHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -374,7 +374,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::EventSystems::ExecuteEvents::get_pointerDownHandler
 // Il2CppName: get_pointerDownHandler
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IPointerDownHandler*>* (*)()>(&UnityEngine::EventSystems::ExecuteEvents::get_pointerDownHandler)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IPointerDownHandler*>* (*)()>(&UnityEngine::EventSystems::ExecuteEvents::get_pointerDownHandler)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::ExecuteEvents*), "get_pointerDownHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -382,7 +382,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::EventSystems::ExecuteEvents::get_pointerUpHandler
 // Il2CppName: get_pointerUpHandler
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IPointerUpHandler*>* (*)()>(&UnityEngine::EventSystems::ExecuteEvents::get_pointerUpHandler)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IPointerUpHandler*>* (*)()>(&UnityEngine::EventSystems::ExecuteEvents::get_pointerUpHandler)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::ExecuteEvents*), "get_pointerUpHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -390,7 +390,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::EventSystems::ExecuteEvents::get_pointerClickHandler
 // Il2CppName: get_pointerClickHandler
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IPointerClickHandler*>* (*)()>(&UnityEngine::EventSystems::ExecuteEvents::get_pointerClickHandler)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IPointerClickHandler*>* (*)()>(&UnityEngine::EventSystems::ExecuteEvents::get_pointerClickHandler)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::ExecuteEvents*), "get_pointerClickHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -398,7 +398,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::EventSystems::ExecuteEvents::get_initializePotentialDrag
 // Il2CppName: get_initializePotentialDrag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IInitializePotentialDragHandler*>* (*)()>(&UnityEngine::EventSystems::ExecuteEvents::get_initializePotentialDrag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IInitializePotentialDragHandler*>* (*)()>(&UnityEngine::EventSystems::ExecuteEvents::get_initializePotentialDrag)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::ExecuteEvents*), "get_initializePotentialDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -406,7 +406,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::EventSystems::ExecuteEvents::get_beginDragHandler
 // Il2CppName: get_beginDragHandler
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IBeginDragHandler*>* (*)()>(&UnityEngine::EventSystems::ExecuteEvents::get_beginDragHandler)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IBeginDragHandler*>* (*)()>(&UnityEngine::EventSystems::ExecuteEvents::get_beginDragHandler)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::ExecuteEvents*), "get_beginDragHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -414,7 +414,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::EventSystems::ExecuteEvents::get_dragHandler
 // Il2CppName: get_dragHandler
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IDragHandler*>* (*)()>(&UnityEngine::EventSystems::ExecuteEvents::get_dragHandler)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IDragHandler*>* (*)()>(&UnityEngine::EventSystems::ExecuteEvents::get_dragHandler)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::ExecuteEvents*), "get_dragHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -422,7 +422,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::EventSystems::ExecuteEvents::get_endDragHandler
 // Il2CppName: get_endDragHandler
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IEndDragHandler*>* (*)()>(&UnityEngine::EventSystems::ExecuteEvents::get_endDragHandler)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IEndDragHandler*>* (*)()>(&UnityEngine::EventSystems::ExecuteEvents::get_endDragHandler)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::ExecuteEvents*), "get_endDragHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -430,7 +430,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::EventSystems::ExecuteEvents::get_dropHandler
 // Il2CppName: get_dropHandler
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IDropHandler*>* (*)()>(&UnityEngine::EventSystems::ExecuteEvents::get_dropHandler)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IDropHandler*>* (*)()>(&UnityEngine::EventSystems::ExecuteEvents::get_dropHandler)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::ExecuteEvents*), "get_dropHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -438,7 +438,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::EventSystems::ExecuteEvents::get_scrollHandler
 // Il2CppName: get_scrollHandler
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IScrollHandler*>* (*)()>(&UnityEngine::EventSystems::ExecuteEvents::get_scrollHandler)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IScrollHandler*>* (*)()>(&UnityEngine::EventSystems::ExecuteEvents::get_scrollHandler)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::ExecuteEvents*), "get_scrollHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -446,7 +446,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::EventSystems::ExecuteEvents::get_updateSelectedHandler
 // Il2CppName: get_updateSelectedHandler
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IUpdateSelectedHandler*>* (*)()>(&UnityEngine::EventSystems::ExecuteEvents::get_updateSelectedHandler)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IUpdateSelectedHandler*>* (*)()>(&UnityEngine::EventSystems::ExecuteEvents::get_updateSelectedHandler)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::ExecuteEvents*), "get_updateSelectedHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -454,7 +454,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::EventSystems::ExecuteEvents::get_selectHandler
 // Il2CppName: get_selectHandler
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::ISelectHandler*>* (*)()>(&UnityEngine::EventSystems::ExecuteEvents::get_selectHandler)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::ISelectHandler*>* (*)()>(&UnityEngine::EventSystems::ExecuteEvents::get_selectHandler)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::ExecuteEvents*), "get_selectHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -462,7 +462,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::EventSystems::ExecuteEvents::get_deselectHandler
 // Il2CppName: get_deselectHandler
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IDeselectHandler*>* (*)()>(&UnityEngine::EventSystems::ExecuteEvents::get_deselectHandler)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IDeselectHandler*>* (*)()>(&UnityEngine::EventSystems::ExecuteEvents::get_deselectHandler)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::ExecuteEvents*), "get_deselectHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -470,7 +470,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::EventSystems::ExecuteEvents::get_moveHandler
 // Il2CppName: get_moveHandler
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::IMoveHandler*>* (*)()>(&UnityEngine::EventSystems::ExecuteEvents::get_moveHandler)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IMoveHandler*>* (*)()>(&UnityEngine::EventSystems::ExecuteEvents::get_moveHandler)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::ExecuteEvents*), "get_moveHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -478,7 +478,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::EventSystems::ExecuteEvents::get_submitHandler
 // Il2CppName: get_submitHandler
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::ISubmitHandler*>* (*)()>(&UnityEngine::EventSystems::ExecuteEvents::get_submitHandler)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::ISubmitHandler*>* (*)()>(&UnityEngine::EventSystems::ExecuteEvents::get_submitHandler)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::ExecuteEvents*), "get_submitHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -486,7 +486,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::EventSystems::ExecuteEvents::get_cancelHandler
 // Il2CppName: get_cancelHandler
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<UnityEngine::EventSystems::ICancelHandler*>* (*)()>(&UnityEngine::EventSystems::ExecuteEvents::get_cancelHandler)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::ICancelHandler*>* (*)()>(&UnityEngine::EventSystems::ExecuteEvents::get_cancelHandler)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::ExecuteEvents*), "get_cancelHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -505,7 +505,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::EventSystems::ExecuteEvents::Execute
 // Il2CppName: Execute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::IPointerEnterHandler*, UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::EventSystems::ExecuteEvents::Execute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::EventSystems::IPointerEnterHandler*, ::UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::EventSystems::ExecuteEvents::Execute)> {
   static const MethodInfo* get() {
     static auto* handler = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "IPointerEnterHandler")->byval_arg;
     static auto* eventData = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "BaseEventData")->byval_arg;
@@ -515,7 +515,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::EventSystems::ExecuteEvents::Execute
 // Il2CppName: Execute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::IPointerExitHandler*, UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::EventSystems::ExecuteEvents::Execute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::EventSystems::IPointerExitHandler*, ::UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::EventSystems::ExecuteEvents::Execute)> {
   static const MethodInfo* get() {
     static auto* handler = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "IPointerExitHandler")->byval_arg;
     static auto* eventData = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "BaseEventData")->byval_arg;
@@ -525,7 +525,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::EventSystems::ExecuteEvents::Execute
 // Il2CppName: Execute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::IPointerDownHandler*, UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::EventSystems::ExecuteEvents::Execute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::EventSystems::IPointerDownHandler*, ::UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::EventSystems::ExecuteEvents::Execute)> {
   static const MethodInfo* get() {
     static auto* handler = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "IPointerDownHandler")->byval_arg;
     static auto* eventData = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "BaseEventData")->byval_arg;
@@ -535,7 +535,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::EventSystems::ExecuteEvents::Execute
 // Il2CppName: Execute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::IPointerUpHandler*, UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::EventSystems::ExecuteEvents::Execute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::EventSystems::IPointerUpHandler*, ::UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::EventSystems::ExecuteEvents::Execute)> {
   static const MethodInfo* get() {
     static auto* handler = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "IPointerUpHandler")->byval_arg;
     static auto* eventData = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "BaseEventData")->byval_arg;
@@ -545,7 +545,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::EventSystems::ExecuteEvents::Execute
 // Il2CppName: Execute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::IPointerClickHandler*, UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::EventSystems::ExecuteEvents::Execute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::EventSystems::IPointerClickHandler*, ::UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::EventSystems::ExecuteEvents::Execute)> {
   static const MethodInfo* get() {
     static auto* handler = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "IPointerClickHandler")->byval_arg;
     static auto* eventData = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "BaseEventData")->byval_arg;
@@ -555,7 +555,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::EventSystems::ExecuteEvents::Execute
 // Il2CppName: Execute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::IInitializePotentialDragHandler*, UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::EventSystems::ExecuteEvents::Execute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::EventSystems::IInitializePotentialDragHandler*, ::UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::EventSystems::ExecuteEvents::Execute)> {
   static const MethodInfo* get() {
     static auto* handler = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "IInitializePotentialDragHandler")->byval_arg;
     static auto* eventData = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "BaseEventData")->byval_arg;
@@ -565,7 +565,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::EventSystems::ExecuteEvents::Execute
 // Il2CppName: Execute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::IBeginDragHandler*, UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::EventSystems::ExecuteEvents::Execute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::EventSystems::IBeginDragHandler*, ::UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::EventSystems::ExecuteEvents::Execute)> {
   static const MethodInfo* get() {
     static auto* handler = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "IBeginDragHandler")->byval_arg;
     static auto* eventData = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "BaseEventData")->byval_arg;
@@ -575,7 +575,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::EventSystems::ExecuteEvents::Execute
 // Il2CppName: Execute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::IDragHandler*, UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::EventSystems::ExecuteEvents::Execute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::EventSystems::IDragHandler*, ::UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::EventSystems::ExecuteEvents::Execute)> {
   static const MethodInfo* get() {
     static auto* handler = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "IDragHandler")->byval_arg;
     static auto* eventData = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "BaseEventData")->byval_arg;
@@ -585,7 +585,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::EventSystems::ExecuteEvents::Execute
 // Il2CppName: Execute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::IEndDragHandler*, UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::EventSystems::ExecuteEvents::Execute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::EventSystems::IEndDragHandler*, ::UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::EventSystems::ExecuteEvents::Execute)> {
   static const MethodInfo* get() {
     static auto* handler = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "IEndDragHandler")->byval_arg;
     static auto* eventData = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "BaseEventData")->byval_arg;
@@ -595,7 +595,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::EventSystems::ExecuteEvents::Execute
 // Il2CppName: Execute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::IDropHandler*, UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::EventSystems::ExecuteEvents::Execute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::EventSystems::IDropHandler*, ::UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::EventSystems::ExecuteEvents::Execute)> {
   static const MethodInfo* get() {
     static auto* handler = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "IDropHandler")->byval_arg;
     static auto* eventData = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "BaseEventData")->byval_arg;
@@ -605,7 +605,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::EventSystems::ExecuteEvents::Execute
 // Il2CppName: Execute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::IScrollHandler*, UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::EventSystems::ExecuteEvents::Execute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::EventSystems::IScrollHandler*, ::UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::EventSystems::ExecuteEvents::Execute)> {
   static const MethodInfo* get() {
     static auto* handler = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "IScrollHandler")->byval_arg;
     static auto* eventData = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "BaseEventData")->byval_arg;
@@ -615,7 +615,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::EventSystems::ExecuteEvents::Execute
 // Il2CppName: Execute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::IUpdateSelectedHandler*, UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::EventSystems::ExecuteEvents::Execute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::EventSystems::IUpdateSelectedHandler*, ::UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::EventSystems::ExecuteEvents::Execute)> {
   static const MethodInfo* get() {
     static auto* handler = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "IUpdateSelectedHandler")->byval_arg;
     static auto* eventData = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "BaseEventData")->byval_arg;
@@ -625,7 +625,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::EventSystems::ExecuteEvents::Execute
 // Il2CppName: Execute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::ISelectHandler*, UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::EventSystems::ExecuteEvents::Execute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::EventSystems::ISelectHandler*, ::UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::EventSystems::ExecuteEvents::Execute)> {
   static const MethodInfo* get() {
     static auto* handler = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "ISelectHandler")->byval_arg;
     static auto* eventData = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "BaseEventData")->byval_arg;
@@ -635,7 +635,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::EventSystems::ExecuteEvents::Execute
 // Il2CppName: Execute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::IDeselectHandler*, UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::EventSystems::ExecuteEvents::Execute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::EventSystems::IDeselectHandler*, ::UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::EventSystems::ExecuteEvents::Execute)> {
   static const MethodInfo* get() {
     static auto* handler = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "IDeselectHandler")->byval_arg;
     static auto* eventData = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "BaseEventData")->byval_arg;
@@ -645,7 +645,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::EventSystems::ExecuteEvents::Execute
 // Il2CppName: Execute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::IMoveHandler*, UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::EventSystems::ExecuteEvents::Execute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::EventSystems::IMoveHandler*, ::UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::EventSystems::ExecuteEvents::Execute)> {
   static const MethodInfo* get() {
     static auto* handler = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "IMoveHandler")->byval_arg;
     static auto* eventData = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "BaseEventData")->byval_arg;
@@ -655,7 +655,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::EventSystems::ExecuteEvents::Execute
 // Il2CppName: Execute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::ISubmitHandler*, UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::EventSystems::ExecuteEvents::Execute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::EventSystems::ISubmitHandler*, ::UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::EventSystems::ExecuteEvents::Execute)> {
   static const MethodInfo* get() {
     static auto* handler = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "ISubmitHandler")->byval_arg;
     static auto* eventData = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "BaseEventData")->byval_arg;
@@ -665,7 +665,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::EventSystems::ExecuteEvents::Execute
 // Il2CppName: Execute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::ICancelHandler*, UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::EventSystems::ExecuteEvents::Execute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::EventSystems::ICancelHandler*, ::UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::EventSystems::ExecuteEvents::Execute)> {
   static const MethodInfo* get() {
     static auto* handler = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "ICancelHandler")->byval_arg;
     static auto* eventData = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "BaseEventData")->byval_arg;
@@ -675,7 +675,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::EventSystems::ExecuteEvents::GetEventChain
 // Il2CppName: GetEventChain
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, System::Collections::Generic::IList_1<UnityEngine::Transform*>*)>(&UnityEngine::EventSystems::ExecuteEvents::GetEventChain)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*, ::System::Collections::Generic::IList_1<::UnityEngine::Transform*>*)>(&UnityEngine::EventSystems::ExecuteEvents::GetEventChain)> {
   static const MethodInfo* get() {
     static auto* root = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* eventChain = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")})->byval_arg;

@@ -19,7 +19,7 @@ namespace UnityEngine::XR {
   struct Eyes;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::Eyes, "UnityEngine.XR", "Eyes");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::Eyes, "UnityEngine.XR", "Eyes");
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {
   // Size: 0xC
@@ -33,7 +33,7 @@ namespace UnityEngine::XR {
   // [NativeHeaderAttribute] Offset: 11CE138
   // [StaticAccessorAttribute] Offset: 11CE138
   // [NativeConditionalAttribute] Offset: 11CE138
-  struct Eyes/*, public System::ValueType, public System::IEquatable_1<UnityEngine::XR::Eyes>*/ {
+  struct Eyes/*, public ::System::ValueType, public ::System::IEquatable_1<::UnityEngine::XR::Eyes>*/ {
     public:
     public:
     // private System.UInt64 m_DeviceId
@@ -51,13 +51,13 @@ namespace UnityEngine::XR {
     public:
     // Creating value type constructor for type: Eyes
     constexpr Eyes(uint64_t m_DeviceId_ = {}, uint m_FeatureIndex_ = {}) noexcept : m_DeviceId{m_DeviceId_}, m_FeatureIndex{m_FeatureIndex_} {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
-    // Creating interface conversion operator: operator System::IEquatable_1<UnityEngine::XR::Eyes>
-    operator System::IEquatable_1<UnityEngine::XR::Eyes>() noexcept {
-      return *reinterpret_cast<System::IEquatable_1<UnityEngine::XR::Eyes>*>(this);
+    // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::XR::Eyes>
+    operator ::System::IEquatable_1<::UnityEngine::XR::Eyes>() noexcept {
+      return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::XR::Eyes>*>(this);
     }
     // Get instance field reference: private System.UInt64 m_DeviceId
     uint64_t& dyn_m_DeviceId();
@@ -71,7 +71,7 @@ namespace UnityEngine::XR {
     uint get_featureIndex();
     // public System.Boolean Equals(UnityEngine.XR.Eyes other)
     // Offset: 0x2A488A8
-    bool Equals(UnityEngine::XR::Eyes other);
+    bool Equals(::UnityEngine::XR::Eyes other);
     // public override System.Boolean Equals(System.Object obj)
     // Offset: 0x2A48810
     // Implemented from: System.ValueType
@@ -107,7 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Unity
 // Writing MetadataGetter for method: UnityEngine::XR::Eyes::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::XR::Eyes::*)(UnityEngine::XR::Eyes)>(&UnityEngine::XR::Eyes::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::XR::Eyes::*)(::UnityEngine::XR::Eyes)>(&UnityEngine::XR::Eyes::Equals)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("UnityEngine.XR", "Eyes")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::Eyes), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});

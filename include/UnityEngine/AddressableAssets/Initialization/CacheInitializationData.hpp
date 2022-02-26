@@ -17,8 +17,8 @@ namespace UnityEngine::AddressableAssets::Initialization {
   class CacheInitializationData;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::AddressableAssets::Initialization::CacheInitializationData);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Initialization::CacheInitializationData*, "UnityEngine.AddressableAssets.Initialization", "CacheInitializationData");
+NEED_NO_BOX(::UnityEngine::AddressableAssets::Initialization::CacheInitializationData);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AddressableAssets::Initialization::CacheInitializationData*, "UnityEngine.AddressableAssets.Initialization", "CacheInitializationData");
 // Type namespace: UnityEngine.AddressableAssets.Initialization
 namespace UnityEngine::AddressableAssets::Initialization {
   // Size: 0x30
@@ -122,7 +122,7 @@ namespace UnityEngine::AddressableAssets::Initialization {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CacheInitializationData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::Initialization::CacheInitializationData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CacheInitializationData*, creationType>()));
     }
   }; // UnityEngine.AddressableAssets.Initialization.CacheInitializationData

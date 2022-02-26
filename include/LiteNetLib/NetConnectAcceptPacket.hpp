@@ -25,8 +25,8 @@ namespace LiteNetLib {
   class NetConnectAcceptPacket;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(LiteNetLib::NetConnectAcceptPacket);
-DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetConnectAcceptPacket*, "LiteNetLib", "NetConnectAcceptPacket");
+NEED_NO_BOX(::LiteNetLib::NetConnectAcceptPacket);
+DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::NetConnectAcceptPacket*, "LiteNetLib", "NetConnectAcceptPacket");
 // Type namespace: LiteNetLib
 namespace LiteNetLib {
   // Size: 0x1A
@@ -79,15 +79,15 @@ namespace LiteNetLib {
     // Offset: 0x20DFE9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetConnectAcceptPacket* New_ctor(int64_t connectionId, uint8_t connectionNumber, bool isReusedPeer) {
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::NetConnectAcceptPacket::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::NetConnectAcceptPacket::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetConnectAcceptPacket*, creationType>(connectionId, connectionNumber, isReusedPeer)));
     }
     // static public LiteNetLib.NetConnectAcceptPacket FromData(LiteNetLib.NetPacket packet)
     // Offset: 0x20DFEE4
-    static LiteNetLib::NetConnectAcceptPacket* FromData(LiteNetLib::NetPacket* packet);
+    static ::LiteNetLib::NetConnectAcceptPacket* FromData(::LiteNetLib::NetPacket* packet);
     // static public LiteNetLib.NetPacket Make(System.Int64 connectId, System.Byte connectNum, System.Boolean reusedPeer)
     // Offset: 0x20DFFF4
-    static LiteNetLib::NetPacket* Make(int64_t connectId, uint8_t connectNum, bool reusedPeer);
+    static ::LiteNetLib::NetPacket* Make(int64_t connectId, uint8_t connectNum, bool reusedPeer);
   }; // LiteNetLib.NetConnectAcceptPacket
   #pragma pack(pop)
   static check_size<sizeof(NetConnectAcceptPacket), 25 + sizeof(bool)> __LiteNetLib_NetConnectAcceptPacketSizeCheck;
@@ -101,7 +101,7 @@ namespace LiteNetLib {
 // Writing MetadataGetter for method: LiteNetLib::NetConnectAcceptPacket::FromData
 // Il2CppName: FromData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetConnectAcceptPacket* (*)(LiteNetLib::NetPacket*)>(&LiteNetLib::NetConnectAcceptPacket::FromData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LiteNetLib::NetConnectAcceptPacket* (*)(::LiteNetLib::NetPacket*)>(&LiteNetLib::NetConnectAcceptPacket::FromData)> {
   static const MethodInfo* get() {
     static auto* packet = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetPacket")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetConnectAcceptPacket*), "FromData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet});
@@ -110,7 +110,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib:
 // Writing MetadataGetter for method: LiteNetLib::NetConnectAcceptPacket::Make
 // Il2CppName: Make
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetPacket* (*)(int64_t, uint8_t, bool)>(&LiteNetLib::NetConnectAcceptPacket::Make)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LiteNetLib::NetPacket* (*)(int64_t, uint8_t, bool)>(&LiteNetLib::NetConnectAcceptPacket::Make)> {
   static const MethodInfo* get() {
     static auto* connectId = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     static auto* connectNum = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;

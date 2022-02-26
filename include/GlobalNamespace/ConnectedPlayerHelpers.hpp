@@ -19,8 +19,8 @@ namespace GlobalNamespace {
   class ConnectedPlayerHelpers;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::ConnectedPlayerHelpers);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectedPlayerHelpers*, "", "ConnectedPlayerHelpers");
+NEED_NO_BOX(::GlobalNamespace::ConnectedPlayerHelpers);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ConnectedPlayerHelpers*, "", "ConnectedPlayerHelpers");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -32,22 +32,22 @@ namespace GlobalNamespace {
     public:
     // static public System.Boolean WantsToPlayNextLevel(IConnectedPlayer connectedPlayer)
     // Offset: 0x2B8E3A4
-    static bool WantsToPlayNextLevel(GlobalNamespace::IConnectedPlayer* connectedPlayer);
+    static bool WantsToPlayNextLevel(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // static public System.Boolean WasActiveAtLevelStart(IConnectedPlayer connectedPlayer)
     // Offset: 0x2B8E464
-    static bool WasActiveAtLevelStart(GlobalNamespace::IConnectedPlayer* connectedPlayer);
+    static bool WasActiveAtLevelStart(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // static public System.Boolean IsActive(IConnectedPlayer connectedPlayer)
     // Offset: 0x2B8E524
-    static bool IsActive(GlobalNamespace::IConnectedPlayer* connectedPlayer);
+    static bool IsActive(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // static public System.Boolean HasFinishedLevel(IConnectedPlayer connectedPlayer)
     // Offset: 0x2B8E5E4
-    static bool HasFinishedLevel(GlobalNamespace::IConnectedPlayer* connectedPlayer);
+    static bool HasFinishedLevel(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // static public System.Boolean IsActiveOrFinished(IConnectedPlayer connectedPlayer)
     // Offset: 0x2B8E6A4
-    static bool IsActiveOrFinished(GlobalNamespace::IConnectedPlayer* connectedPlayer);
+    static bool IsActiveOrFinished(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // static public System.Boolean IsFailed(IConnectedPlayer connectedPlayer)
     // Offset: 0x2B8E6DC
-    static bool IsFailed(GlobalNamespace::IConnectedPlayer* connectedPlayer);
+    static bool IsFailed(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
   }; // ConnectedPlayerHelpers
   #pragma pack(pop)
 }
@@ -55,7 +55,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerHelpers::WantsToPlayNextLevel
 // Il2CppName: WantsToPlayNextLevel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::IConnectedPlayer*)>(&GlobalNamespace::ConnectedPlayerHelpers::WantsToPlayNextLevel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::IConnectedPlayer*)>(&GlobalNamespace::ConnectedPlayerHelpers::WantsToPlayNextLevel)> {
   static const MethodInfo* get() {
     static auto* connectedPlayer = &::il2cpp_utils::GetClassFromName("", "IConnectedPlayer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerHelpers*), "WantsToPlayNextLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{connectedPlayer});
@@ -64,7 +64,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerHelpers::WasActiveAtLevelStart
 // Il2CppName: WasActiveAtLevelStart
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::IConnectedPlayer*)>(&GlobalNamespace::ConnectedPlayerHelpers::WasActiveAtLevelStart)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::IConnectedPlayer*)>(&GlobalNamespace::ConnectedPlayerHelpers::WasActiveAtLevelStart)> {
   static const MethodInfo* get() {
     static auto* connectedPlayer = &::il2cpp_utils::GetClassFromName("", "IConnectedPlayer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerHelpers*), "WasActiveAtLevelStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{connectedPlayer});
@@ -73,7 +73,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerHelpers::IsActive
 // Il2CppName: IsActive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::IConnectedPlayer*)>(&GlobalNamespace::ConnectedPlayerHelpers::IsActive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::IConnectedPlayer*)>(&GlobalNamespace::ConnectedPlayerHelpers::IsActive)> {
   static const MethodInfo* get() {
     static auto* connectedPlayer = &::il2cpp_utils::GetClassFromName("", "IConnectedPlayer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerHelpers*), "IsActive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{connectedPlayer});
@@ -82,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerHelpers::HasFinishedLevel
 // Il2CppName: HasFinishedLevel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::IConnectedPlayer*)>(&GlobalNamespace::ConnectedPlayerHelpers::HasFinishedLevel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::IConnectedPlayer*)>(&GlobalNamespace::ConnectedPlayerHelpers::HasFinishedLevel)> {
   static const MethodInfo* get() {
     static auto* connectedPlayer = &::il2cpp_utils::GetClassFromName("", "IConnectedPlayer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerHelpers*), "HasFinishedLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{connectedPlayer});
@@ -91,7 +91,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerHelpers::IsActiveOrFinished
 // Il2CppName: IsActiveOrFinished
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::IConnectedPlayer*)>(&GlobalNamespace::ConnectedPlayerHelpers::IsActiveOrFinished)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::IConnectedPlayer*)>(&GlobalNamespace::ConnectedPlayerHelpers::IsActiveOrFinished)> {
   static const MethodInfo* get() {
     static auto* connectedPlayer = &::il2cpp_utils::GetClassFromName("", "IConnectedPlayer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerHelpers*), "IsActiveOrFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{connectedPlayer});
@@ -100,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerHelpers::IsFailed
 // Il2CppName: IsFailed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::IConnectedPlayer*)>(&GlobalNamespace::ConnectedPlayerHelpers::IsFailed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::IConnectedPlayer*)>(&GlobalNamespace::ConnectedPlayerHelpers::IsFailed)> {
   static const MethodInfo* get() {
     static auto* connectedPlayer = &::il2cpp_utils::GetClassFromName("", "IConnectedPlayer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerHelpers*), "IsFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{connectedPlayer});

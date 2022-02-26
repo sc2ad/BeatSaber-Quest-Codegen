@@ -42,8 +42,8 @@ namespace System::Runtime::Remoting {
   class RemotingConfiguration;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Remoting::RemotingConfiguration);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::RemotingConfiguration*, "System.Runtime.Remoting", "RemotingConfiguration");
+NEED_NO_BOX(::System::Runtime::Remoting::RemotingConfiguration);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::RemotingConfiguration*, "System.Runtime.Remoting", "RemotingConfiguration");
 // Type namespace: System.Runtime.Remoting
 namespace System::Runtime::Remoting {
   // Size: 0x10
@@ -78,33 +78,33 @@ namespace System::Runtime::Remoting {
     // Set static field: static private System.String _errorMode
     static void _set__errorMode(::StringW value);
     // Get static field: static private System.Collections.Hashtable wellKnownClientEntries
-    static System::Collections::Hashtable* _get_wellKnownClientEntries();
+    static ::System::Collections::Hashtable* _get_wellKnownClientEntries();
     // Set static field: static private System.Collections.Hashtable wellKnownClientEntries
-    static void _set_wellKnownClientEntries(System::Collections::Hashtable* value);
+    static void _set_wellKnownClientEntries(::System::Collections::Hashtable* value);
     // Get static field: static private System.Collections.Hashtable activatedClientEntries
-    static System::Collections::Hashtable* _get_activatedClientEntries();
+    static ::System::Collections::Hashtable* _get_activatedClientEntries();
     // Set static field: static private System.Collections.Hashtable activatedClientEntries
-    static void _set_activatedClientEntries(System::Collections::Hashtable* value);
+    static void _set_activatedClientEntries(::System::Collections::Hashtable* value);
     // Get static field: static private System.Collections.Hashtable wellKnownServiceEntries
-    static System::Collections::Hashtable* _get_wellKnownServiceEntries();
+    static ::System::Collections::Hashtable* _get_wellKnownServiceEntries();
     // Set static field: static private System.Collections.Hashtable wellKnownServiceEntries
-    static void _set_wellKnownServiceEntries(System::Collections::Hashtable* value);
+    static void _set_wellKnownServiceEntries(::System::Collections::Hashtable* value);
     // Get static field: static private System.Collections.Hashtable activatedServiceEntries
-    static System::Collections::Hashtable* _get_activatedServiceEntries();
+    static ::System::Collections::Hashtable* _get_activatedServiceEntries();
     // Set static field: static private System.Collections.Hashtable activatedServiceEntries
-    static void _set_activatedServiceEntries(System::Collections::Hashtable* value);
+    static void _set_activatedServiceEntries(::System::Collections::Hashtable* value);
     // Get static field: static private System.Collections.Hashtable channelTemplates
-    static System::Collections::Hashtable* _get_channelTemplates();
+    static ::System::Collections::Hashtable* _get_channelTemplates();
     // Set static field: static private System.Collections.Hashtable channelTemplates
-    static void _set_channelTemplates(System::Collections::Hashtable* value);
+    static void _set_channelTemplates(::System::Collections::Hashtable* value);
     // Get static field: static private System.Collections.Hashtable clientProviderTemplates
-    static System::Collections::Hashtable* _get_clientProviderTemplates();
+    static ::System::Collections::Hashtable* _get_clientProviderTemplates();
     // Set static field: static private System.Collections.Hashtable clientProviderTemplates
-    static void _set_clientProviderTemplates(System::Collections::Hashtable* value);
+    static void _set_clientProviderTemplates(::System::Collections::Hashtable* value);
     // Get static field: static private System.Collections.Hashtable serverProviderTemplates
-    static System::Collections::Hashtable* _get_serverProviderTemplates();
+    static ::System::Collections::Hashtable* _get_serverProviderTemplates();
     // Set static field: static private System.Collections.Hashtable serverProviderTemplates
-    static void _set_serverProviderTemplates(System::Collections::Hashtable* value);
+    static void _set_serverProviderTemplates(::System::Collections::Hashtable* value);
     // static public System.String get_ApplicationName()
     // Offset: 0x180367C
     static ::StringW get_ApplicationName();
@@ -122,37 +122,37 @@ namespace System::Runtime::Remoting {
     static void LoadDefaultDelayedChannels();
     // static public System.Runtime.Remoting.ActivatedClientTypeEntry IsRemotelyActivatedClientType(System.Type svrType)
     // Offset: 0x1803B0C
-    static System::Runtime::Remoting::ActivatedClientTypeEntry* IsRemotelyActivatedClientType(System::Type* svrType);
+    static ::System::Runtime::Remoting::ActivatedClientTypeEntry* IsRemotelyActivatedClientType(::System::Type* svrType);
     // static public System.Runtime.Remoting.WellKnownClientTypeEntry IsWellKnownClientType(System.Type svrType)
     // Offset: 0x1803C6C
-    static System::Runtime::Remoting::WellKnownClientTypeEntry* IsWellKnownClientType(System::Type* svrType);
+    static ::System::Runtime::Remoting::WellKnownClientTypeEntry* IsWellKnownClientType(::System::Type* svrType);
     // static public System.Void RegisterActivatedClientType(System.Runtime.Remoting.ActivatedClientTypeEntry entry)
     // Offset: 0x1803DCC
-    static void RegisterActivatedClientType(System::Runtime::Remoting::ActivatedClientTypeEntry* entry);
+    static void RegisterActivatedClientType(::System::Runtime::Remoting::ActivatedClientTypeEntry* entry);
     // static public System.Void RegisterActivatedServiceType(System.Runtime.Remoting.ActivatedServiceTypeEntry entry)
     // Offset: 0x1804028
-    static void RegisterActivatedServiceType(System::Runtime::Remoting::ActivatedServiceTypeEntry* entry);
+    static void RegisterActivatedServiceType(::System::Runtime::Remoting::ActivatedServiceTypeEntry* entry);
     // static public System.Void RegisterWellKnownClientType(System.Runtime.Remoting.WellKnownClientTypeEntry entry)
     // Offset: 0x180414C
-    static void RegisterWellKnownClientType(System::Runtime::Remoting::WellKnownClientTypeEntry* entry);
+    static void RegisterWellKnownClientType(::System::Runtime::Remoting::WellKnownClientTypeEntry* entry);
     // static public System.Void RegisterWellKnownServiceType(System.Runtime.Remoting.WellKnownServiceTypeEntry entry)
     // Offset: 0x18043A8
-    static void RegisterWellKnownServiceType(System::Runtime::Remoting::WellKnownServiceTypeEntry* entry);
+    static void RegisterWellKnownServiceType(::System::Runtime::Remoting::WellKnownServiceTypeEntry* entry);
     // static System.Void RegisterChannelTemplate(System.Runtime.Remoting.ChannelData channel)
     // Offset: 0x1804610
-    static void RegisterChannelTemplate(System::Runtime::Remoting::ChannelData* channel);
+    static void RegisterChannelTemplate(::System::Runtime::Remoting::ChannelData* channel);
     // static System.Void RegisterClientProviderTemplate(System.Runtime.Remoting.ProviderData prov)
     // Offset: 0x180469C
-    static void RegisterClientProviderTemplate(System::Runtime::Remoting::ProviderData* prov);
+    static void RegisterClientProviderTemplate(::System::Runtime::Remoting::ProviderData* prov);
     // static System.Void RegisterServerProviderTemplate(System.Runtime.Remoting.ProviderData prov)
     // Offset: 0x1804728
-    static void RegisterServerProviderTemplate(System::Runtime::Remoting::ProviderData* prov);
+    static void RegisterServerProviderTemplate(::System::Runtime::Remoting::ProviderData* prov);
     // static System.Void RegisterChannels(System.Collections.ArrayList channels, System.Boolean onlyDelayed)
     // Offset: 0x18047B4
-    static void RegisterChannels(System::Collections::ArrayList* channels, bool onlyDelayed);
+    static void RegisterChannels(::System::Collections::ArrayList* channels, bool onlyDelayed);
     // static System.Void RegisterTypes(System.Collections.ArrayList types)
     // Offset: 0x18053C8
-    static void RegisterTypes(System::Collections::ArrayList* types);
+    static void RegisterTypes(::System::Collections::ArrayList* types);
     // static public System.Boolean CustomErrorsEnabled(System.Boolean isLocalRequest)
     // Offset: 0x1805854
     static bool CustomErrorsEnabled(bool isLocalRequest);
@@ -207,7 +207,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Runtime::Remoting::RemotingConfiguration::IsRemotelyActivatedClientType
 // Il2CppName: IsRemotelyActivatedClientType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::ActivatedClientTypeEntry* (*)(System::Type*)>(&System::Runtime::Remoting::RemotingConfiguration::IsRemotelyActivatedClientType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::ActivatedClientTypeEntry* (*)(::System::Type*)>(&System::Runtime::Remoting::RemotingConfiguration::IsRemotelyActivatedClientType)> {
   static const MethodInfo* get() {
     static auto* svrType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingConfiguration*), "IsRemotelyActivatedClientType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{svrType});
@@ -216,7 +216,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: System::Runtime::Remoting::RemotingConfiguration::IsWellKnownClientType
 // Il2CppName: IsWellKnownClientType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::WellKnownClientTypeEntry* (*)(System::Type*)>(&System::Runtime::Remoting::RemotingConfiguration::IsWellKnownClientType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::WellKnownClientTypeEntry* (*)(::System::Type*)>(&System::Runtime::Remoting::RemotingConfiguration::IsWellKnownClientType)> {
   static const MethodInfo* get() {
     static auto* svrType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingConfiguration*), "IsWellKnownClientType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{svrType});
@@ -225,7 +225,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: System::Runtime::Remoting::RemotingConfiguration::RegisterActivatedClientType
 // Il2CppName: RegisterActivatedClientType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Remoting::ActivatedClientTypeEntry*)>(&System::Runtime::Remoting::RemotingConfiguration::RegisterActivatedClientType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Runtime::Remoting::ActivatedClientTypeEntry*)>(&System::Runtime::Remoting::RemotingConfiguration::RegisterActivatedClientType)> {
   static const MethodInfo* get() {
     static auto* entry = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting", "ActivatedClientTypeEntry")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingConfiguration*), "RegisterActivatedClientType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{entry});
@@ -234,7 +234,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Runtime::Remoting::RemotingConfiguration::RegisterActivatedServiceType
 // Il2CppName: RegisterActivatedServiceType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Remoting::ActivatedServiceTypeEntry*)>(&System::Runtime::Remoting::RemotingConfiguration::RegisterActivatedServiceType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Runtime::Remoting::ActivatedServiceTypeEntry*)>(&System::Runtime::Remoting::RemotingConfiguration::RegisterActivatedServiceType)> {
   static const MethodInfo* get() {
     static auto* entry = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting", "ActivatedServiceTypeEntry")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingConfiguration*), "RegisterActivatedServiceType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{entry});
@@ -243,7 +243,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Runtime::Remoting::RemotingConfiguration::RegisterWellKnownClientType
 // Il2CppName: RegisterWellKnownClientType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Remoting::WellKnownClientTypeEntry*)>(&System::Runtime::Remoting::RemotingConfiguration::RegisterWellKnownClientType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Runtime::Remoting::WellKnownClientTypeEntry*)>(&System::Runtime::Remoting::RemotingConfiguration::RegisterWellKnownClientType)> {
   static const MethodInfo* get() {
     static auto* entry = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting", "WellKnownClientTypeEntry")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingConfiguration*), "RegisterWellKnownClientType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{entry});
@@ -252,7 +252,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Runtime::Remoting::RemotingConfiguration::RegisterWellKnownServiceType
 // Il2CppName: RegisterWellKnownServiceType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Remoting::WellKnownServiceTypeEntry*)>(&System::Runtime::Remoting::RemotingConfiguration::RegisterWellKnownServiceType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Runtime::Remoting::WellKnownServiceTypeEntry*)>(&System::Runtime::Remoting::RemotingConfiguration::RegisterWellKnownServiceType)> {
   static const MethodInfo* get() {
     static auto* entry = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting", "WellKnownServiceTypeEntry")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingConfiguration*), "RegisterWellKnownServiceType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{entry});
@@ -261,7 +261,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Runtime::Remoting::RemotingConfiguration::RegisterChannelTemplate
 // Il2CppName: RegisterChannelTemplate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Remoting::ChannelData*)>(&System::Runtime::Remoting::RemotingConfiguration::RegisterChannelTemplate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Runtime::Remoting::ChannelData*)>(&System::Runtime::Remoting::RemotingConfiguration::RegisterChannelTemplate)> {
   static const MethodInfo* get() {
     static auto* channel = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting", "ChannelData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingConfiguration*), "RegisterChannelTemplate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{channel});
@@ -270,7 +270,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Runtime::Remoting::RemotingConfiguration::RegisterClientProviderTemplate
 // Il2CppName: RegisterClientProviderTemplate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Remoting::ProviderData*)>(&System::Runtime::Remoting::RemotingConfiguration::RegisterClientProviderTemplate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Runtime::Remoting::ProviderData*)>(&System::Runtime::Remoting::RemotingConfiguration::RegisterClientProviderTemplate)> {
   static const MethodInfo* get() {
     static auto* prov = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting", "ProviderData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingConfiguration*), "RegisterClientProviderTemplate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{prov});
@@ -279,7 +279,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Runtime::Remoting::RemotingConfiguration::RegisterServerProviderTemplate
 // Il2CppName: RegisterServerProviderTemplate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Remoting::ProviderData*)>(&System::Runtime::Remoting::RemotingConfiguration::RegisterServerProviderTemplate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Runtime::Remoting::ProviderData*)>(&System::Runtime::Remoting::RemotingConfiguration::RegisterServerProviderTemplate)> {
   static const MethodInfo* get() {
     static auto* prov = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting", "ProviderData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingConfiguration*), "RegisterServerProviderTemplate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{prov});
@@ -288,7 +288,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Runtime::Remoting::RemotingConfiguration::RegisterChannels
 // Il2CppName: RegisterChannels
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::ArrayList*, bool)>(&System::Runtime::Remoting::RemotingConfiguration::RegisterChannels)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::ArrayList*, bool)>(&System::Runtime::Remoting::RemotingConfiguration::RegisterChannels)> {
   static const MethodInfo* get() {
     static auto* channels = &::il2cpp_utils::GetClassFromName("System.Collections", "ArrayList")->byval_arg;
     static auto* onlyDelayed = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -298,7 +298,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Runtime::Remoting::RemotingConfiguration::RegisterTypes
 // Il2CppName: RegisterTypes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::ArrayList*)>(&System::Runtime::Remoting::RemotingConfiguration::RegisterTypes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::ArrayList*)>(&System::Runtime::Remoting::RemotingConfiguration::RegisterTypes)> {
   static const MethodInfo* get() {
     static auto* types = &::il2cpp_utils::GetClassFromName("System.Collections", "ArrayList")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingConfiguration*), "RegisterTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{types});

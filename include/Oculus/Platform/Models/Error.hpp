@@ -17,8 +17,8 @@ namespace Oculus::Platform::Models {
   class Error;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::Error);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::Error*, "Oculus.Platform.Models", "Error");
+NEED_NO_BOX(::Oculus::Platform::Models::Error);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::Error*, "Oculus.Platform.Models", "Error");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x20
@@ -65,7 +65,7 @@ namespace Oculus::Platform::Models {
     // Offset: 0x195F2CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Error* New_ctor(int code, ::StringW message, int httpCode) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::Error::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::Error::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Error*, creationType>(code, message, httpCode)));
     }
   }; // Oculus.Platform.Models.Error

@@ -14,8 +14,8 @@ namespace System::ComponentModel {
   class ComponentCollection;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::ComponentModel::ComponentCollection);
-DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::ComponentCollection*, "System.ComponentModel", "ComponentCollection");
+NEED_NO_BOX(::System::ComponentModel::ComponentCollection);
+DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::ComponentCollection*, "System.ComponentModel", "ComponentCollection");
 // Type namespace: System.ComponentModel
 namespace System::ComponentModel {
   // Size: 0x18
@@ -24,7 +24,7 @@ namespace System::ComponentModel {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: 1199A38
   // [DefaultMemberAttribute] Offset: 1199A38
-  class ComponentCollection : public System::Collections::ReadOnlyCollectionBase {
+  class ComponentCollection : public ::System::Collections::ReadOnlyCollectionBase {
     public:
   }; // System.ComponentModel.ComponentCollection
   #pragma pack(pop)

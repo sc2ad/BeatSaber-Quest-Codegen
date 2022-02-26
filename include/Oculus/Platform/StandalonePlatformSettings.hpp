@@ -17,8 +17,8 @@ namespace Oculus::Platform {
   class StandalonePlatformSettings;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::StandalonePlatformSettings);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::StandalonePlatformSettings*, "Oculus.Platform", "StandalonePlatformSettings");
+NEED_NO_BOX(::Oculus::Platform::StandalonePlatformSettings);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::StandalonePlatformSettings*, "Oculus.Platform", "StandalonePlatformSettings");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x10
@@ -51,7 +51,7 @@ namespace Oculus::Platform {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandalonePlatformSettings* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::StandalonePlatformSettings::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::StandalonePlatformSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StandalonePlatformSettings*, creationType>()));
     }
   }; // Oculus.Platform.StandalonePlatformSettings

@@ -47,7 +47,7 @@ namespace System {
   struct SByte;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::SByte, "System", "SByte");
+DEFINE_IL2CPP_ARG_TYPE(::System::SByte, "System", "SByte");
 // Type namespace: System
 namespace System {
   // Size: 0x1
@@ -57,7 +57,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: 11872E4
   // [CLSCompliantAttribute] Offset: 11872E4
-  struct SByte/*, public System::ValueType, public System::IComparable_1<int8_t>, public System::IEquatable_1<int8_t>, public System::IComparable, public System::IConvertible, public System::IFormattable*/ {
+  struct SByte/*, public ::System::ValueType, public ::System::IComparable_1<int8_t>, public ::System::IEquatable_1<int8_t>, public ::System::IComparable, public ::System::IConvertible, public ::System::IFormattable*/ {
     public:
     public:
     // private System.SByte m_value
@@ -69,29 +69,29 @@ namespace System {
     public:
     // Creating value type constructor for type: SByte
     constexpr SByte(int8_t m_value_ = {}) noexcept : m_value{m_value_} {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
-    // Creating interface conversion operator: operator System::IComparable_1<int8_t>
-    operator System::IComparable_1<int8_t>() noexcept {
-      return *reinterpret_cast<System::IComparable_1<int8_t>*>(this);
+    // Creating interface conversion operator: operator ::System::IComparable_1<int8_t>
+    operator ::System::IComparable_1<int8_t>() noexcept {
+      return *reinterpret_cast<::System::IComparable_1<int8_t>*>(this);
     }
-    // Creating interface conversion operator: operator System::IEquatable_1<int8_t>
-    operator System::IEquatable_1<int8_t>() noexcept {
-      return *reinterpret_cast<System::IEquatable_1<int8_t>*>(this);
+    // Creating interface conversion operator: operator ::System::IEquatable_1<int8_t>
+    operator ::System::IEquatable_1<int8_t>() noexcept {
+      return *reinterpret_cast<::System::IEquatable_1<int8_t>*>(this);
     }
-    // Creating interface conversion operator: operator System::IComparable
-    operator System::IComparable() noexcept {
-      return *reinterpret_cast<System::IComparable*>(this);
+    // Creating interface conversion operator: operator ::System::IComparable
+    operator ::System::IComparable() noexcept {
+      return *reinterpret_cast<::System::IComparable*>(this);
     }
-    // Creating interface conversion operator: operator System::IConvertible
-    operator System::IConvertible() noexcept {
-      return *reinterpret_cast<System::IConvertible*>(this);
+    // Creating interface conversion operator: operator ::System::IConvertible
+    operator ::System::IConvertible() noexcept {
+      return *reinterpret_cast<::System::IConvertible*>(this);
     }
-    // Creating interface conversion operator: operator System::IFormattable
-    operator System::IFormattable() noexcept {
-      return *reinterpret_cast<System::IFormattable*>(this);
+    // Creating interface conversion operator: operator ::System::IFormattable
+    operator ::System::IFormattable() noexcept {
+      return *reinterpret_cast<::System::IFormattable*>(this);
     }
     // Creating conversion operator: operator int8_t
     constexpr operator int8_t() const noexcept {
@@ -122,76 +122,76 @@ namespace System {
     bool Equals(int8_t obj);
     // public System.String ToString(System.IFormatProvider provider)
     // Offset: 0x1AB6E7C
-    ::StringW ToString(System::IFormatProvider* provider);
+    ::StringW ToString(::System::IFormatProvider* provider);
     // public System.String ToString(System.String format, System.IFormatProvider provider)
     // Offset: 0x1AB6EB4
-    ::StringW ToString(::StringW format, System::IFormatProvider* provider);
+    ::StringW ToString(::StringW format, ::System::IFormatProvider* provider);
     // private System.String ToString(System.String format, System.Globalization.NumberFormatInfo info)
     // Offset: 0x1AB6EEC
-    ::StringW ToString(::StringW format, System::Globalization::NumberFormatInfo* info);
+    ::StringW ToString(::StringW format, ::System::Globalization::NumberFormatInfo* info);
     // static public System.SByte Parse(System.String s, System.IFormatProvider provider)
     // Offset: 0x1AB6F9C
-    static int8_t Parse(::StringW s, System::IFormatProvider* provider);
+    static int8_t Parse(::StringW s, ::System::IFormatProvider* provider);
     // static public System.SByte Parse(System.String s, System.Globalization.NumberStyles style, System.IFormatProvider provider)
     // Offset: 0x1AB7154
-    static int8_t Parse(::StringW s, System::Globalization::NumberStyles style, System::IFormatProvider* provider);
+    static int8_t Parse(::StringW s, ::System::Globalization::NumberStyles style, ::System::IFormatProvider* provider);
     // static private System.SByte Parse(System.String s, System.Globalization.NumberStyles style, System.Globalization.NumberFormatInfo info)
     // Offset: 0x1AB6FD0
-    static int8_t Parse(::StringW s, System::Globalization::NumberStyles style, System::Globalization::NumberFormatInfo* info);
+    static int8_t Parse(::StringW s, ::System::Globalization::NumberStyles style, ::System::Globalization::NumberFormatInfo* info);
     // static public System.Boolean TryParse(System.String s, System.Globalization.NumberStyles style, System.IFormatProvider provider, out System.SByte result)
     // Offset: 0x1AB71A4
-    static bool TryParse(::StringW s, System::Globalization::NumberStyles style, System::IFormatProvider* provider, ByRef<int8_t> result);
+    static bool TryParse(::StringW s, ::System::Globalization::NumberStyles style, ::System::IFormatProvider* provider, ByRef<int8_t> result);
     // static private System.Boolean TryParse(System.String s, System.Globalization.NumberStyles style, System.Globalization.NumberFormatInfo info, out System.SByte result)
     // Offset: 0x1AB71FC
-    static bool TryParse(::StringW s, System::Globalization::NumberStyles style, System::Globalization::NumberFormatInfo* info, ByRef<int8_t> result);
+    static bool TryParse(::StringW s, ::System::Globalization::NumberStyles style, ::System::Globalization::NumberFormatInfo* info, ByRef<int8_t> result);
     // public System.TypeCode GetTypeCode()
     // Offset: 0x1AB7270
-    System::TypeCode GetTypeCode();
+    ::System::TypeCode GetTypeCode();
     // private System.Boolean System.IConvertible.ToBoolean(System.IFormatProvider provider)
     // Offset: 0x1AB7278
-    bool System_IConvertible_ToBoolean(System::IFormatProvider* provider);
+    bool System_IConvertible_ToBoolean(::System::IFormatProvider* provider);
     // private System.Char System.IConvertible.ToChar(System.IFormatProvider provider)
     // Offset: 0x1AB72E4
-    ::Il2CppChar System_IConvertible_ToChar(System::IFormatProvider* provider);
+    ::Il2CppChar System_IConvertible_ToChar(::System::IFormatProvider* provider);
     // private System.SByte System.IConvertible.ToSByte(System.IFormatProvider provider)
     // Offset: 0x1AB7350
-    int8_t System_IConvertible_ToSByte(System::IFormatProvider* provider);
+    int8_t System_IConvertible_ToSByte(::System::IFormatProvider* provider);
     // private System.Byte System.IConvertible.ToByte(System.IFormatProvider provider)
     // Offset: 0x1AB7358
-    uint8_t System_IConvertible_ToByte(System::IFormatProvider* provider);
+    uint8_t System_IConvertible_ToByte(::System::IFormatProvider* provider);
     // private System.Int16 System.IConvertible.ToInt16(System.IFormatProvider provider)
     // Offset: 0x1AB73C4
-    int16_t System_IConvertible_ToInt16(System::IFormatProvider* provider);
+    int16_t System_IConvertible_ToInt16(::System::IFormatProvider* provider);
     // private System.UInt16 System.IConvertible.ToUInt16(System.IFormatProvider provider)
     // Offset: 0x1AB7430
-    uint16_t System_IConvertible_ToUInt16(System::IFormatProvider* provider);
+    uint16_t System_IConvertible_ToUInt16(::System::IFormatProvider* provider);
     // private System.Int32 System.IConvertible.ToInt32(System.IFormatProvider provider)
     // Offset: 0x1AB749C
-    int System_IConvertible_ToInt32(System::IFormatProvider* provider);
+    int System_IConvertible_ToInt32(::System::IFormatProvider* provider);
     // private System.UInt32 System.IConvertible.ToUInt32(System.IFormatProvider provider)
     // Offset: 0x1AB74A4
-    uint System_IConvertible_ToUInt32(System::IFormatProvider* provider);
+    uint System_IConvertible_ToUInt32(::System::IFormatProvider* provider);
     // private System.Int64 System.IConvertible.ToInt64(System.IFormatProvider provider)
     // Offset: 0x1AB7510
-    int64_t System_IConvertible_ToInt64(System::IFormatProvider* provider);
+    int64_t System_IConvertible_ToInt64(::System::IFormatProvider* provider);
     // private System.UInt64 System.IConvertible.ToUInt64(System.IFormatProvider provider)
     // Offset: 0x1AB757C
-    uint64_t System_IConvertible_ToUInt64(System::IFormatProvider* provider);
+    uint64_t System_IConvertible_ToUInt64(::System::IFormatProvider* provider);
     // private System.Single System.IConvertible.ToSingle(System.IFormatProvider provider)
     // Offset: 0x1AB75E8
-    float System_IConvertible_ToSingle(System::IFormatProvider* provider);
+    float System_IConvertible_ToSingle(::System::IFormatProvider* provider);
     // private System.Double System.IConvertible.ToDouble(System.IFormatProvider provider)
     // Offset: 0x1AB7654
-    double System_IConvertible_ToDouble(System::IFormatProvider* provider);
+    double System_IConvertible_ToDouble(::System::IFormatProvider* provider);
     // private System.Decimal System.IConvertible.ToDecimal(System.IFormatProvider provider)
     // Offset: 0x1AB76C0
-    System::Decimal System_IConvertible_ToDecimal(System::IFormatProvider* provider);
+    ::System::Decimal System_IConvertible_ToDecimal(::System::IFormatProvider* provider);
     // private System.DateTime System.IConvertible.ToDateTime(System.IFormatProvider provider)
     // Offset: 0x1AB772C
-    System::DateTime System_IConvertible_ToDateTime(System::IFormatProvider* provider);
+    ::System::DateTime System_IConvertible_ToDateTime(::System::IFormatProvider* provider);
     // private System.Object System.IConvertible.ToType(System.Type type, System.IFormatProvider provider)
     // Offset: 0x1AB781C
-    ::Il2CppObject* System_IConvertible_ToType(System::Type* type, System::IFormatProvider* provider);
+    ::Il2CppObject* System_IConvertible_ToType(::System::Type* type, ::System::IFormatProvider* provider);
     // public override System.Boolean Equals(System.Object obj)
     // Offset: 0x1AB6DA4
     // Implemented from: System.ValueType
@@ -243,7 +243,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::SByte::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::SByte::*)(System::IFormatProvider*)>(&System::SByte::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::SByte::*)(::System::IFormatProvider*)>(&System::SByte::ToString)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::SByte), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -252,7 +252,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::SByte::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::SByte::*)(::StringW, System::IFormatProvider*)>(&System::SByte::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::SByte::*)(::StringW, ::System::IFormatProvider*)>(&System::SByte::ToString)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -262,7 +262,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::SByte::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::SByte::*)(::StringW, System::Globalization::NumberFormatInfo*)>(&System::SByte::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::SByte::*)(::StringW, ::System::Globalization::NumberFormatInfo*)>(&System::SByte::ToString)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* info = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberFormatInfo")->byval_arg;
@@ -272,7 +272,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::SByte::Parse
 // Il2CppName: Parse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(::StringW, System::IFormatProvider*)>(&System::SByte::Parse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(::StringW, ::System::IFormatProvider*)>(&System::SByte::Parse)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -282,7 +282,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(
 // Writing MetadataGetter for method: System::SByte::Parse
 // Il2CppName: Parse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(::StringW, System::Globalization::NumberStyles, System::IFormatProvider*)>(&System::SByte::Parse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(::StringW, ::System::Globalization::NumberStyles, ::System::IFormatProvider*)>(&System::SByte::Parse)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* style = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberStyles")->byval_arg;
@@ -293,7 +293,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(
 // Writing MetadataGetter for method: System::SByte::Parse
 // Il2CppName: Parse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(::StringW, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*)>(&System::SByte::Parse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(::StringW, ::System::Globalization::NumberStyles, ::System::Globalization::NumberFormatInfo*)>(&System::SByte::Parse)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* style = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberStyles")->byval_arg;
@@ -304,7 +304,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(
 // Writing MetadataGetter for method: System::SByte::TryParse
 // Il2CppName: TryParse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, System::Globalization::NumberStyles, System::IFormatProvider*, ByRef<int8_t>)>(&System::SByte::TryParse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::System::Globalization::NumberStyles, ::System::IFormatProvider*, ByRef<int8_t>)>(&System::SByte::TryParse)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* style = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberStyles")->byval_arg;
@@ -316,7 +316,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::SByte::TryParse
 // Il2CppName: TryParse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*, ByRef<int8_t>)>(&System::SByte::TryParse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::System::Globalization::NumberStyles, ::System::Globalization::NumberFormatInfo*, ByRef<int8_t>)>(&System::SByte::TryParse)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* style = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberStyles")->byval_arg;
@@ -328,7 +328,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::SByte::GetTypeCode
 // Il2CppName: GetTypeCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TypeCode (System::SByte::*)()>(&System::SByte::GetTypeCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TypeCode (System::SByte::*)()>(&System::SByte::GetTypeCode)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::SByte), "GetTypeCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -336,7 +336,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: System::SByte::System_IConvertible_ToBoolean
 // Il2CppName: System.IConvertible.ToBoolean
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::SByte::*)(System::IFormatProvider*)>(&System::SByte::System_IConvertible_ToBoolean)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::SByte::*)(::System::IFormatProvider*)>(&System::SByte::System_IConvertible_ToBoolean)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::SByte), "System.IConvertible.ToBoolean", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -345,7 +345,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::SByte::System_IConvertible_ToChar
 // Il2CppName: System.IConvertible.ToChar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (System::SByte::*)(System::IFormatProvider*)>(&System::SByte::System_IConvertible_ToChar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (System::SByte::*)(::System::IFormatProvider*)>(&System::SByte::System_IConvertible_ToChar)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::SByte), "System.IConvertible.ToChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -354,7 +354,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppCha
 // Writing MetadataGetter for method: System::SByte::System_IConvertible_ToSByte
 // Il2CppName: System.IConvertible.ToSByte
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (System::SByte::*)(System::IFormatProvider*)>(&System::SByte::System_IConvertible_ToSByte)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (System::SByte::*)(::System::IFormatProvider*)>(&System::SByte::System_IConvertible_ToSByte)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::SByte), "System.IConvertible.ToSByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -363,7 +363,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (Sys
 // Writing MetadataGetter for method: System::SByte::System_IConvertible_ToByte
 // Il2CppName: System.IConvertible.ToByte
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (System::SByte::*)(System::IFormatProvider*)>(&System::SByte::System_IConvertible_ToByte)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (System::SByte::*)(::System::IFormatProvider*)>(&System::SByte::System_IConvertible_ToByte)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::SByte), "System.IConvertible.ToByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -372,7 +372,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (Sy
 // Writing MetadataGetter for method: System::SByte::System_IConvertible_ToInt16
 // Il2CppName: System.IConvertible.ToInt16
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (System::SByte::*)(System::IFormatProvider*)>(&System::SByte::System_IConvertible_ToInt16)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (System::SByte::*)(::System::IFormatProvider*)>(&System::SByte::System_IConvertible_ToInt16)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::SByte), "System.IConvertible.ToInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -381,7 +381,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (Sy
 // Writing MetadataGetter for method: System::SByte::System_IConvertible_ToUInt16
 // Il2CppName: System.IConvertible.ToUInt16
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (System::SByte::*)(System::IFormatProvider*)>(&System::SByte::System_IConvertible_ToUInt16)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (System::SByte::*)(::System::IFormatProvider*)>(&System::SByte::System_IConvertible_ToUInt16)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::SByte), "System.IConvertible.ToUInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -390,7 +390,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (S
 // Writing MetadataGetter for method: System::SByte::System_IConvertible_ToInt32
 // Il2CppName: System.IConvertible.ToInt32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::SByte::*)(System::IFormatProvider*)>(&System::SByte::System_IConvertible_ToInt32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::SByte::*)(::System::IFormatProvider*)>(&System::SByte::System_IConvertible_ToInt32)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::SByte), "System.IConvertible.ToInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -399,7 +399,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::SByte::System_IConvertible_ToUInt32
 // Il2CppName: System.IConvertible.ToUInt32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (System::SByte::*)(System::IFormatProvider*)>(&System::SByte::System_IConvertible_ToUInt32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (System::SByte::*)(::System::IFormatProvider*)>(&System::SByte::System_IConvertible_ToUInt32)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::SByte), "System.IConvertible.ToUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -408,7 +408,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Syste
 // Writing MetadataGetter for method: System::SByte::System_IConvertible_ToInt64
 // Il2CppName: System.IConvertible.ToInt64
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::SByte::*)(System::IFormatProvider*)>(&System::SByte::System_IConvertible_ToInt64)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::SByte::*)(::System::IFormatProvider*)>(&System::SByte::System_IConvertible_ToInt64)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::SByte), "System.IConvertible.ToInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -417,7 +417,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Sy
 // Writing MetadataGetter for method: System::SByte::System_IConvertible_ToUInt64
 // Il2CppName: System.IConvertible.ToUInt64
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (System::SByte::*)(System::IFormatProvider*)>(&System::SByte::System_IConvertible_ToUInt64)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (System::SByte::*)(::System::IFormatProvider*)>(&System::SByte::System_IConvertible_ToUInt64)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::SByte), "System.IConvertible.ToUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -426,7 +426,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (S
 // Writing MetadataGetter for method: System::SByte::System_IConvertible_ToSingle
 // Il2CppName: System.IConvertible.ToSingle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (System::SByte::*)(System::IFormatProvider*)>(&System::SByte::System_IConvertible_ToSingle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (System::SByte::*)(::System::IFormatProvider*)>(&System::SByte::System_IConvertible_ToSingle)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::SByte), "System.IConvertible.ToSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -435,7 +435,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Syst
 // Writing MetadataGetter for method: System::SByte::System_IConvertible_ToDouble
 // Il2CppName: System.IConvertible.ToDouble
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (System::SByte::*)(System::IFormatProvider*)>(&System::SByte::System_IConvertible_ToDouble)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (System::SByte::*)(::System::IFormatProvider*)>(&System::SByte::System_IConvertible_ToDouble)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::SByte), "System.IConvertible.ToDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -444,7 +444,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (Sys
 // Writing MetadataGetter for method: System::SByte::System_IConvertible_ToDecimal
 // Il2CppName: System.IConvertible.ToDecimal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (System::SByte::*)(System::IFormatProvider*)>(&System::SByte::System_IConvertible_ToDecimal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (System::SByte::*)(::System::IFormatProvider*)>(&System::SByte::System_IConvertible_ToDecimal)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::SByte), "System.IConvertible.ToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -453,7 +453,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dec
 // Writing MetadataGetter for method: System::SByte::System_IConvertible_ToDateTime
 // Il2CppName: System.IConvertible.ToDateTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (System::SByte::*)(System::IFormatProvider*)>(&System::SByte::System_IConvertible_ToDateTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (System::SByte::*)(::System::IFormatProvider*)>(&System::SByte::System_IConvertible_ToDateTime)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::SByte), "System.IConvertible.ToDateTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -462,7 +462,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::SByte::System_IConvertible_ToType
 // Il2CppName: System.IConvertible.ToType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::SByte::*)(System::Type*, System::IFormatProvider*)>(&System::SByte::System_IConvertible_ToType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::SByte::*)(::System::Type*, ::System::IFormatProvider*)>(&System::SByte::System_IConvertible_ToType)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;

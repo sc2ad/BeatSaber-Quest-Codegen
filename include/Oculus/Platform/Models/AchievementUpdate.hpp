@@ -19,8 +19,8 @@ namespace Oculus::Platform::Models {
   class AchievementUpdate;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::AchievementUpdate);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::AchievementUpdate*, "Oculus.Platform.Models", "AchievementUpdate");
+NEED_NO_BOX(::Oculus::Platform::Models::AchievementUpdate);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::AchievementUpdate*, "Oculus.Platform.Models", "AchievementUpdate");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x20
@@ -60,8 +60,8 @@ namespace Oculus::Platform::Models {
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x19634F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AchievementUpdate* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::AchievementUpdate::.ctor");
+    static AchievementUpdate* New_ctor(::System::IntPtr o) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::AchievementUpdate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AchievementUpdate*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.AchievementUpdate

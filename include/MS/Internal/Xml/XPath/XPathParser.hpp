@@ -39,8 +39,8 @@ namespace MS::Internal::Xml::XPath {
   class XPathParser;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(MS::Internal::Xml::XPath::XPathParser);
-DEFINE_IL2CPP_ARG_TYPE(MS::Internal::Xml::XPath::XPathParser*, "MS.Internal.Xml.XPath", "XPathParser");
+NEED_NO_BOX(::MS::Internal::Xml::XPath::XPathParser);
+DEFINE_IL2CPP_ARG_TYPE(::MS::Internal::Xml::XPath::XPathParser*, "MS.Internal.Xml.XPath", "XPathParser");
 // Type namespace: MS.Internal.Xml.XPath
 namespace MS::Internal::Xml::XPath {
   // Size: 0x1C
@@ -49,7 +49,7 @@ namespace MS::Internal::Xml::XPath {
   // [TokenAttribute] Offset: FFFFFFFF
   class XPathParser : public ::Il2CppObject {
     public:
-    // Nested type: MS::Internal::Xml::XPath::XPathParser::ParamInfo
+    // Nested type: ::MS::Internal::Xml::XPath::XPathParser::ParamInfo
     class ParamInfo;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -63,9 +63,9 @@ namespace MS::Internal::Xml::XPath {
     // private MS.Internal.Xml.XPath.XPathScanner scanner
     // Size: 0x8
     // Offset: 0x10
-    MS::Internal::Xml::XPath::XPathScanner* scanner;
+    ::MS::Internal::Xml::XPath::XPathScanner* scanner;
     // Field size check
-    static_assert(sizeof(MS::Internal::Xml::XPath::XPathScanner*) == 0x8);
+    static_assert(sizeof(::MS::Internal::Xml::XPath::XPathScanner*) == 0x8);
     // private System.Int32 parseDepth
     // Size: 0x4
     // Offset: 0x18
@@ -74,58 +74,58 @@ namespace MS::Internal::Xml::XPath {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get static field: static private readonly System.Xml.XPath.XPathResultType[] temparray1
-    static ::ArrayW<System::Xml::XPath::XPathResultType> _get_temparray1();
+    static ::ArrayW<::System::Xml::XPath::XPathResultType> _get_temparray1();
     // Set static field: static private readonly System.Xml.XPath.XPathResultType[] temparray1
-    static void _set_temparray1(::ArrayW<System::Xml::XPath::XPathResultType> value);
+    static void _set_temparray1(::ArrayW<::System::Xml::XPath::XPathResultType> value);
     // Get static field: static private readonly System.Xml.XPath.XPathResultType[] temparray2
-    static ::ArrayW<System::Xml::XPath::XPathResultType> _get_temparray2();
+    static ::ArrayW<::System::Xml::XPath::XPathResultType> _get_temparray2();
     // Set static field: static private readonly System.Xml.XPath.XPathResultType[] temparray2
-    static void _set_temparray2(::ArrayW<System::Xml::XPath::XPathResultType> value);
+    static void _set_temparray2(::ArrayW<::System::Xml::XPath::XPathResultType> value);
     // Get static field: static private readonly System.Xml.XPath.XPathResultType[] temparray3
-    static ::ArrayW<System::Xml::XPath::XPathResultType> _get_temparray3();
+    static ::ArrayW<::System::Xml::XPath::XPathResultType> _get_temparray3();
     // Set static field: static private readonly System.Xml.XPath.XPathResultType[] temparray3
-    static void _set_temparray3(::ArrayW<System::Xml::XPath::XPathResultType> value);
+    static void _set_temparray3(::ArrayW<::System::Xml::XPath::XPathResultType> value);
     // Get static field: static private readonly System.Xml.XPath.XPathResultType[] temparray4
-    static ::ArrayW<System::Xml::XPath::XPathResultType> _get_temparray4();
+    static ::ArrayW<::System::Xml::XPath::XPathResultType> _get_temparray4();
     // Set static field: static private readonly System.Xml.XPath.XPathResultType[] temparray4
-    static void _set_temparray4(::ArrayW<System::Xml::XPath::XPathResultType> value);
+    static void _set_temparray4(::ArrayW<::System::Xml::XPath::XPathResultType> value);
     // Get static field: static private readonly System.Xml.XPath.XPathResultType[] temparray5
-    static ::ArrayW<System::Xml::XPath::XPathResultType> _get_temparray5();
+    static ::ArrayW<::System::Xml::XPath::XPathResultType> _get_temparray5();
     // Set static field: static private readonly System.Xml.XPath.XPathResultType[] temparray5
-    static void _set_temparray5(::ArrayW<System::Xml::XPath::XPathResultType> value);
+    static void _set_temparray5(::ArrayW<::System::Xml::XPath::XPathResultType> value);
     // Get static field: static private readonly System.Xml.XPath.XPathResultType[] temparray6
-    static ::ArrayW<System::Xml::XPath::XPathResultType> _get_temparray6();
+    static ::ArrayW<::System::Xml::XPath::XPathResultType> _get_temparray6();
     // Set static field: static private readonly System.Xml.XPath.XPathResultType[] temparray6
-    static void _set_temparray6(::ArrayW<System::Xml::XPath::XPathResultType> value);
+    static void _set_temparray6(::ArrayW<::System::Xml::XPath::XPathResultType> value);
     // Get static field: static private readonly System.Xml.XPath.XPathResultType[] temparray7
-    static ::ArrayW<System::Xml::XPath::XPathResultType> _get_temparray7();
+    static ::ArrayW<::System::Xml::XPath::XPathResultType> _get_temparray7();
     // Set static field: static private readonly System.Xml.XPath.XPathResultType[] temparray7
-    static void _set_temparray7(::ArrayW<System::Xml::XPath::XPathResultType> value);
+    static void _set_temparray7(::ArrayW<::System::Xml::XPath::XPathResultType> value);
     // Get static field: static private readonly System.Xml.XPath.XPathResultType[] temparray8
-    static ::ArrayW<System::Xml::XPath::XPathResultType> _get_temparray8();
+    static ::ArrayW<::System::Xml::XPath::XPathResultType> _get_temparray8();
     // Set static field: static private readonly System.Xml.XPath.XPathResultType[] temparray8
-    static void _set_temparray8(::ArrayW<System::Xml::XPath::XPathResultType> value);
+    static void _set_temparray8(::ArrayW<::System::Xml::XPath::XPathResultType> value);
     // Get static field: static private readonly System.Xml.XPath.XPathResultType[] temparray9
-    static ::ArrayW<System::Xml::XPath::XPathResultType> _get_temparray9();
+    static ::ArrayW<::System::Xml::XPath::XPathResultType> _get_temparray9();
     // Set static field: static private readonly System.Xml.XPath.XPathResultType[] temparray9
-    static void _set_temparray9(::ArrayW<System::Xml::XPath::XPathResultType> value);
+    static void _set_temparray9(::ArrayW<::System::Xml::XPath::XPathResultType> value);
     // Get static field: static private System.Collections.Hashtable functionTable
-    static System::Collections::Hashtable* _get_functionTable();
+    static ::System::Collections::Hashtable* _get_functionTable();
     // Set static field: static private System.Collections.Hashtable functionTable
-    static void _set_functionTable(System::Collections::Hashtable* value);
+    static void _set_functionTable(::System::Collections::Hashtable* value);
     // Get static field: static private System.Collections.Hashtable AxesTable
-    static System::Collections::Hashtable* _get_AxesTable();
+    static ::System::Collections::Hashtable* _get_AxesTable();
     // Set static field: static private System.Collections.Hashtable AxesTable
-    static void _set_AxesTable(System::Collections::Hashtable* value);
+    static void _set_AxesTable(::System::Collections::Hashtable* value);
     // Get instance field reference: private MS.Internal.Xml.XPath.XPathScanner scanner
-    MS::Internal::Xml::XPath::XPathScanner*& dyn_scanner();
+    ::MS::Internal::Xml::XPath::XPathScanner*& dyn_scanner();
     // Get instance field reference: private System.Int32 parseDepth
     int& dyn_parseDepth();
     // private System.Void .ctor(MS.Internal.Xml.XPath.XPathScanner scanner)
     // Offset: 0x1B96124
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XPathParser* New_ctor(MS::Internal::Xml::XPath::XPathScanner* scanner) {
-      static auto ___internal__logger = ::Logger::get().WithContext("MS::Internal::Xml::XPath::XPathParser::.ctor");
+    static XPathParser* New_ctor(::MS::Internal::Xml::XPath::XPathScanner* scanner) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::MS::Internal::Xml::XPath::XPathParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XPathParser*, creationType>(scanner)));
     }
     // static private System.Void .cctor()
@@ -133,76 +133,76 @@ namespace MS::Internal::Xml::XPath {
     static void _cctor();
     // static public MS.Internal.Xml.XPath.AstNode ParseXPathExpresion(System.String xpathExpresion)
     // Offset: 0x1B96150
-    static MS::Internal::Xml::XPath::AstNode* ParseXPathExpresion(::StringW xpathExpresion);
+    static ::MS::Internal::Xml::XPath::AstNode* ParseXPathExpresion(::StringW xpathExpresion);
     // private MS.Internal.Xml.XPath.AstNode ParseExpresion(MS.Internal.Xml.XPath.AstNode qyInput)
     // Offset: 0x1B962D8
-    MS::Internal::Xml::XPath::AstNode* ParseExpresion(MS::Internal::Xml::XPath::AstNode* qyInput);
+    ::MS::Internal::Xml::XPath::AstNode* ParseExpresion(::MS::Internal::Xml::XPath::AstNode* qyInput);
     // private MS.Internal.Xml.XPath.AstNode ParseOrExpr(MS.Internal.Xml.XPath.AstNode qyInput)
     // Offset: 0x1B96374
-    MS::Internal::Xml::XPath::AstNode* ParseOrExpr(MS::Internal::Xml::XPath::AstNode* qyInput);
+    ::MS::Internal::Xml::XPath::AstNode* ParseOrExpr(::MS::Internal::Xml::XPath::AstNode* qyInput);
     // private MS.Internal.Xml.XPath.AstNode ParseAndExpr(MS.Internal.Xml.XPath.AstNode qyInput)
     // Offset: 0x1B96460
-    MS::Internal::Xml::XPath::AstNode* ParseAndExpr(MS::Internal::Xml::XPath::AstNode* qyInput);
+    ::MS::Internal::Xml::XPath::AstNode* ParseAndExpr(::MS::Internal::Xml::XPath::AstNode* qyInput);
     // private MS.Internal.Xml.XPath.AstNode ParseEqualityExpr(MS.Internal.Xml.XPath.AstNode qyInput)
     // Offset: 0x1B965B4
-    MS::Internal::Xml::XPath::AstNode* ParseEqualityExpr(MS::Internal::Xml::XPath::AstNode* qyInput);
+    ::MS::Internal::Xml::XPath::AstNode* ParseEqualityExpr(::MS::Internal::Xml::XPath::AstNode* qyInput);
     // private MS.Internal.Xml.XPath.AstNode ParseRelationalExpr(MS.Internal.Xml.XPath.AstNode qyInput)
     // Offset: 0x1B9669C
-    MS::Internal::Xml::XPath::AstNode* ParseRelationalExpr(MS::Internal::Xml::XPath::AstNode* qyInput);
+    ::MS::Internal::Xml::XPath::AstNode* ParseRelationalExpr(::MS::Internal::Xml::XPath::AstNode* qyInput);
     // private MS.Internal.Xml.XPath.AstNode ParseAdditiveExpr(MS.Internal.Xml.XPath.AstNode qyInput)
     // Offset: 0x1B967AC
-    MS::Internal::Xml::XPath::AstNode* ParseAdditiveExpr(MS::Internal::Xml::XPath::AstNode* qyInput);
+    ::MS::Internal::Xml::XPath::AstNode* ParseAdditiveExpr(::MS::Internal::Xml::XPath::AstNode* qyInput);
     // private MS.Internal.Xml.XPath.AstNode ParseMultiplicativeExpr(MS.Internal.Xml.XPath.AstNode qyInput)
     // Offset: 0x1B96894
-    MS::Internal::Xml::XPath::AstNode* ParseMultiplicativeExpr(MS::Internal::Xml::XPath::AstNode* qyInput);
+    ::MS::Internal::Xml::XPath::AstNode* ParseMultiplicativeExpr(::MS::Internal::Xml::XPath::AstNode* qyInput);
     // private MS.Internal.Xml.XPath.AstNode ParseUnaryExpr(MS.Internal.Xml.XPath.AstNode qyInput)
     // Offset: 0x1B969B8
-    MS::Internal::Xml::XPath::AstNode* ParseUnaryExpr(MS::Internal::Xml::XPath::AstNode* qyInput);
+    ::MS::Internal::Xml::XPath::AstNode* ParseUnaryExpr(::MS::Internal::Xml::XPath::AstNode* qyInput);
     // private MS.Internal.Xml.XPath.AstNode ParseUnionExpr(MS.Internal.Xml.XPath.AstNode qyInput)
     // Offset: 0x1B96A90
-    MS::Internal::Xml::XPath::AstNode* ParseUnionExpr(MS::Internal::Xml::XPath::AstNode* qyInput);
+    ::MS::Internal::Xml::XPath::AstNode* ParseUnionExpr(::MS::Internal::Xml::XPath::AstNode* qyInput);
     // static private System.Boolean IsNodeType(MS.Internal.Xml.XPath.XPathScanner scaner)
     // Offset: 0x1B96D50
-    static bool IsNodeType(MS::Internal::Xml::XPath::XPathScanner* scaner);
+    static bool IsNodeType(::MS::Internal::Xml::XPath::XPathScanner* scaner);
     // private MS.Internal.Xml.XPath.AstNode ParsePathExpr(MS.Internal.Xml.XPath.AstNode qyInput)
     // Offset: 0x1B96BA4
-    MS::Internal::Xml::XPath::AstNode* ParsePathExpr(MS::Internal::Xml::XPath::AstNode* qyInput);
+    ::MS::Internal::Xml::XPath::AstNode* ParsePathExpr(::MS::Internal::Xml::XPath::AstNode* qyInput);
     // private MS.Internal.Xml.XPath.AstNode ParseFilterExpr(MS.Internal.Xml.XPath.AstNode qyInput)
     // Offset: 0x1B96EE8
-    MS::Internal::Xml::XPath::AstNode* ParseFilterExpr(MS::Internal::Xml::XPath::AstNode* qyInput);
+    ::MS::Internal::Xml::XPath::AstNode* ParseFilterExpr(::MS::Internal::Xml::XPath::AstNode* qyInput);
     // private MS.Internal.Xml.XPath.AstNode ParsePredicate(MS.Internal.Xml.XPath.AstNode qyInput)
     // Offset: 0x1B973B0
-    MS::Internal::Xml::XPath::AstNode* ParsePredicate(MS::Internal::Xml::XPath::AstNode* qyInput);
+    ::MS::Internal::Xml::XPath::AstNode* ParsePredicate(::MS::Internal::Xml::XPath::AstNode* qyInput);
     // private MS.Internal.Xml.XPath.AstNode ParseLocationPath(MS.Internal.Xml.XPath.AstNode qyInput)
     // Offset: 0x1B97078
-    MS::Internal::Xml::XPath::AstNode* ParseLocationPath(MS::Internal::Xml::XPath::AstNode* qyInput);
+    ::MS::Internal::Xml::XPath::AstNode* ParseLocationPath(::MS::Internal::Xml::XPath::AstNode* qyInput);
     // private MS.Internal.Xml.XPath.AstNode ParseRelativeLocationPath(MS.Internal.Xml.XPath.AstNode qyInput)
     // Offset: 0x1B96FA8
-    MS::Internal::Xml::XPath::AstNode* ParseRelativeLocationPath(MS::Internal::Xml::XPath::AstNode* qyInput);
+    ::MS::Internal::Xml::XPath::AstNode* ParseRelativeLocationPath(::MS::Internal::Xml::XPath::AstNode* qyInput);
     // static private System.Boolean IsStep(MS.Internal.Xml.XPath.XPathScanner/MS.Internal.Xml.XPath.LexKind lexKind)
     // Offset: 0x1B9744C
-    static bool IsStep(MS::Internal::Xml::XPath::XPathScanner::LexKind lexKind);
+    static bool IsStep(::MS::Internal::Xml::XPath::XPathScanner::LexKind lexKind);
     // private MS.Internal.Xml.XPath.AstNode ParseStep(MS.Internal.Xml.XPath.AstNode qyInput)
     // Offset: 0x1B97494
-    MS::Internal::Xml::XPath::AstNode* ParseStep(MS::Internal::Xml::XPath::AstNode* qyInput);
+    ::MS::Internal::Xml::XPath::AstNode* ParseStep(::MS::Internal::Xml::XPath::AstNode* qyInput);
     // private MS.Internal.Xml.XPath.AstNode ParseNodeTest(MS.Internal.Xml.XPath.AstNode qyInput, MS.Internal.Xml.XPath.Axis/MS.Internal.Xml.XPath.AxisType axisType, System.Xml.XPath.XPathNodeType nodeType)
     // Offset: 0x1B97720
-    MS::Internal::Xml::XPath::AstNode* ParseNodeTest(MS::Internal::Xml::XPath::AstNode* qyInput, MS::Internal::Xml::XPath::Axis::AxisType axisType, System::Xml::XPath::XPathNodeType nodeType);
+    ::MS::Internal::Xml::XPath::AstNode* ParseNodeTest(::MS::Internal::Xml::XPath::AstNode* qyInput, ::MS::Internal::Xml::XPath::Axis::AxisType axisType, ::System::Xml::XPath::XPathNodeType nodeType);
     // static private System.Boolean IsPrimaryExpr(MS.Internal.Xml.XPath.XPathScanner scanner)
     // Offset: 0x1B96E28
-    static bool IsPrimaryExpr(MS::Internal::Xml::XPath::XPathScanner* scanner);
+    static bool IsPrimaryExpr(::MS::Internal::Xml::XPath::XPathScanner* scanner);
     // private MS.Internal.Xml.XPath.AstNode ParsePrimaryExpr(MS.Internal.Xml.XPath.AstNode qyInput)
     // Offset: 0x1B971BC
-    MS::Internal::Xml::XPath::AstNode* ParsePrimaryExpr(MS::Internal::Xml::XPath::AstNode* qyInput);
+    ::MS::Internal::Xml::XPath::AstNode* ParsePrimaryExpr(::MS::Internal::Xml::XPath::AstNode* qyInput);
     // private MS.Internal.Xml.XPath.AstNode ParseMethod(MS.Internal.Xml.XPath.AstNode qyInput)
     // Offset: 0x1B97A64
-    MS::Internal::Xml::XPath::AstNode* ParseMethod(MS::Internal::Xml::XPath::AstNode* qyInput);
+    ::MS::Internal::Xml::XPath::AstNode* ParseMethod(::MS::Internal::Xml::XPath::AstNode* qyInput);
     // private System.Void CheckToken(MS.Internal.Xml.XPath.XPathScanner/MS.Internal.Xml.XPath.LexKind t)
     // Offset: 0x1B979CC
-    void CheckToken(MS::Internal::Xml::XPath::XPathScanner::LexKind t);
+    void CheckToken(::MS::Internal::Xml::XPath::XPathScanner::LexKind t);
     // private System.Void PassToken(MS.Internal.Xml.XPath.XPathScanner/MS.Internal.Xml.XPath.LexKind t)
     // Offset: 0x1B97420
-    void PassToken(MS::Internal::Xml::XPath::XPathScanner::LexKind t);
+    void PassToken(::MS::Internal::Xml::XPath::XPathScanner::LexKind t);
     // private System.Void NextLex()
     // Offset: 0x1B9659C
     void NextLex();
@@ -211,16 +211,16 @@ namespace MS::Internal::Xml::XPath {
     bool TestOp(::StringW op);
     // private System.Void CheckNodeSet(System.Xml.XPath.XPathResultType t)
     // Offset: 0x1B96CC0
-    void CheckNodeSet(System::Xml::XPath::XPathResultType t);
+    void CheckNodeSet(::System::Xml::XPath::XPathResultType t);
     // static private System.Collections.Hashtable CreateFunctionTable()
     // Offset: 0x1B9836C
-    static System::Collections::Hashtable* CreateFunctionTable();
+    static ::System::Collections::Hashtable* CreateFunctionTable();
     // static private System.Collections.Hashtable CreateAxesTable()
     // Offset: 0x1B98DB4
-    static System::Collections::Hashtable* CreateAxesTable();
+    static ::System::Collections::Hashtable* CreateAxesTable();
     // private MS.Internal.Xml.XPath.Axis/MS.Internal.Xml.XPath.AxisType GetAxis(MS.Internal.Xml.XPath.XPathScanner scaner)
     // Offset: 0x1B97624
-    MS::Internal::Xml::XPath::Axis::AxisType GetAxis(MS::Internal::Xml::XPath::XPathScanner* scaner);
+    ::MS::Internal::Xml::XPath::Axis::AxisType GetAxis(::MS::Internal::Xml::XPath::XPathScanner* scaner);
   }; // MS.Internal.Xml.XPath.XPathParser
   #pragma pack(pop)
   static check_size<sizeof(XPathParser), 24 + sizeof(int)> __MS_Internal_Xml_XPath_XPathParserSizeCheck;
@@ -242,7 +242,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: MS::Internal::Xml::XPath::XPathParser::ParseXPathExpresion
 // Il2CppName: ParseXPathExpresion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MS::Internal::Xml::XPath::AstNode* (*)(::StringW)>(&MS::Internal::Xml::XPath::XPathParser::ParseXPathExpresion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::MS::Internal::Xml::XPath::AstNode* (*)(::StringW)>(&MS::Internal::Xml::XPath::XPathParser::ParseXPathExpresion)> {
   static const MethodInfo* get() {
     static auto* xpathExpresion = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MS::Internal::Xml::XPath::XPathParser*), "ParseXPathExpresion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{xpathExpresion});
@@ -251,7 +251,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MS::Interna
 // Writing MetadataGetter for method: MS::Internal::Xml::XPath::XPathParser::ParseExpresion
 // Il2CppName: ParseExpresion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MS::Internal::Xml::XPath::AstNode* (MS::Internal::Xml::XPath::XPathParser::*)(MS::Internal::Xml::XPath::AstNode*)>(&MS::Internal::Xml::XPath::XPathParser::ParseExpresion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::MS::Internal::Xml::XPath::AstNode* (MS::Internal::Xml::XPath::XPathParser::*)(::MS::Internal::Xml::XPath::AstNode*)>(&MS::Internal::Xml::XPath::XPathParser::ParseExpresion)> {
   static const MethodInfo* get() {
     static auto* qyInput = &::il2cpp_utils::GetClassFromName("MS.Internal.Xml.XPath", "AstNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MS::Internal::Xml::XPath::XPathParser*), "ParseExpresion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{qyInput});
@@ -260,7 +260,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MS::Interna
 // Writing MetadataGetter for method: MS::Internal::Xml::XPath::XPathParser::ParseOrExpr
 // Il2CppName: ParseOrExpr
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MS::Internal::Xml::XPath::AstNode* (MS::Internal::Xml::XPath::XPathParser::*)(MS::Internal::Xml::XPath::AstNode*)>(&MS::Internal::Xml::XPath::XPathParser::ParseOrExpr)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::MS::Internal::Xml::XPath::AstNode* (MS::Internal::Xml::XPath::XPathParser::*)(::MS::Internal::Xml::XPath::AstNode*)>(&MS::Internal::Xml::XPath::XPathParser::ParseOrExpr)> {
   static const MethodInfo* get() {
     static auto* qyInput = &::il2cpp_utils::GetClassFromName("MS.Internal.Xml.XPath", "AstNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MS::Internal::Xml::XPath::XPathParser*), "ParseOrExpr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{qyInput});
@@ -269,7 +269,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MS::Interna
 // Writing MetadataGetter for method: MS::Internal::Xml::XPath::XPathParser::ParseAndExpr
 // Il2CppName: ParseAndExpr
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MS::Internal::Xml::XPath::AstNode* (MS::Internal::Xml::XPath::XPathParser::*)(MS::Internal::Xml::XPath::AstNode*)>(&MS::Internal::Xml::XPath::XPathParser::ParseAndExpr)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::MS::Internal::Xml::XPath::AstNode* (MS::Internal::Xml::XPath::XPathParser::*)(::MS::Internal::Xml::XPath::AstNode*)>(&MS::Internal::Xml::XPath::XPathParser::ParseAndExpr)> {
   static const MethodInfo* get() {
     static auto* qyInput = &::il2cpp_utils::GetClassFromName("MS.Internal.Xml.XPath", "AstNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MS::Internal::Xml::XPath::XPathParser*), "ParseAndExpr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{qyInput});
@@ -278,7 +278,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MS::Interna
 // Writing MetadataGetter for method: MS::Internal::Xml::XPath::XPathParser::ParseEqualityExpr
 // Il2CppName: ParseEqualityExpr
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MS::Internal::Xml::XPath::AstNode* (MS::Internal::Xml::XPath::XPathParser::*)(MS::Internal::Xml::XPath::AstNode*)>(&MS::Internal::Xml::XPath::XPathParser::ParseEqualityExpr)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::MS::Internal::Xml::XPath::AstNode* (MS::Internal::Xml::XPath::XPathParser::*)(::MS::Internal::Xml::XPath::AstNode*)>(&MS::Internal::Xml::XPath::XPathParser::ParseEqualityExpr)> {
   static const MethodInfo* get() {
     static auto* qyInput = &::il2cpp_utils::GetClassFromName("MS.Internal.Xml.XPath", "AstNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MS::Internal::Xml::XPath::XPathParser*), "ParseEqualityExpr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{qyInput});
@@ -287,7 +287,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MS::Interna
 // Writing MetadataGetter for method: MS::Internal::Xml::XPath::XPathParser::ParseRelationalExpr
 // Il2CppName: ParseRelationalExpr
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MS::Internal::Xml::XPath::AstNode* (MS::Internal::Xml::XPath::XPathParser::*)(MS::Internal::Xml::XPath::AstNode*)>(&MS::Internal::Xml::XPath::XPathParser::ParseRelationalExpr)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::MS::Internal::Xml::XPath::AstNode* (MS::Internal::Xml::XPath::XPathParser::*)(::MS::Internal::Xml::XPath::AstNode*)>(&MS::Internal::Xml::XPath::XPathParser::ParseRelationalExpr)> {
   static const MethodInfo* get() {
     static auto* qyInput = &::il2cpp_utils::GetClassFromName("MS.Internal.Xml.XPath", "AstNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MS::Internal::Xml::XPath::XPathParser*), "ParseRelationalExpr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{qyInput});
@@ -296,7 +296,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MS::Interna
 // Writing MetadataGetter for method: MS::Internal::Xml::XPath::XPathParser::ParseAdditiveExpr
 // Il2CppName: ParseAdditiveExpr
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MS::Internal::Xml::XPath::AstNode* (MS::Internal::Xml::XPath::XPathParser::*)(MS::Internal::Xml::XPath::AstNode*)>(&MS::Internal::Xml::XPath::XPathParser::ParseAdditiveExpr)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::MS::Internal::Xml::XPath::AstNode* (MS::Internal::Xml::XPath::XPathParser::*)(::MS::Internal::Xml::XPath::AstNode*)>(&MS::Internal::Xml::XPath::XPathParser::ParseAdditiveExpr)> {
   static const MethodInfo* get() {
     static auto* qyInput = &::il2cpp_utils::GetClassFromName("MS.Internal.Xml.XPath", "AstNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MS::Internal::Xml::XPath::XPathParser*), "ParseAdditiveExpr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{qyInput});
@@ -305,7 +305,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MS::Interna
 // Writing MetadataGetter for method: MS::Internal::Xml::XPath::XPathParser::ParseMultiplicativeExpr
 // Il2CppName: ParseMultiplicativeExpr
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MS::Internal::Xml::XPath::AstNode* (MS::Internal::Xml::XPath::XPathParser::*)(MS::Internal::Xml::XPath::AstNode*)>(&MS::Internal::Xml::XPath::XPathParser::ParseMultiplicativeExpr)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::MS::Internal::Xml::XPath::AstNode* (MS::Internal::Xml::XPath::XPathParser::*)(::MS::Internal::Xml::XPath::AstNode*)>(&MS::Internal::Xml::XPath::XPathParser::ParseMultiplicativeExpr)> {
   static const MethodInfo* get() {
     static auto* qyInput = &::il2cpp_utils::GetClassFromName("MS.Internal.Xml.XPath", "AstNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MS::Internal::Xml::XPath::XPathParser*), "ParseMultiplicativeExpr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{qyInput});
@@ -314,7 +314,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MS::Interna
 // Writing MetadataGetter for method: MS::Internal::Xml::XPath::XPathParser::ParseUnaryExpr
 // Il2CppName: ParseUnaryExpr
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MS::Internal::Xml::XPath::AstNode* (MS::Internal::Xml::XPath::XPathParser::*)(MS::Internal::Xml::XPath::AstNode*)>(&MS::Internal::Xml::XPath::XPathParser::ParseUnaryExpr)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::MS::Internal::Xml::XPath::AstNode* (MS::Internal::Xml::XPath::XPathParser::*)(::MS::Internal::Xml::XPath::AstNode*)>(&MS::Internal::Xml::XPath::XPathParser::ParseUnaryExpr)> {
   static const MethodInfo* get() {
     static auto* qyInput = &::il2cpp_utils::GetClassFromName("MS.Internal.Xml.XPath", "AstNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MS::Internal::Xml::XPath::XPathParser*), "ParseUnaryExpr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{qyInput});
@@ -323,7 +323,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MS::Interna
 // Writing MetadataGetter for method: MS::Internal::Xml::XPath::XPathParser::ParseUnionExpr
 // Il2CppName: ParseUnionExpr
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MS::Internal::Xml::XPath::AstNode* (MS::Internal::Xml::XPath::XPathParser::*)(MS::Internal::Xml::XPath::AstNode*)>(&MS::Internal::Xml::XPath::XPathParser::ParseUnionExpr)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::MS::Internal::Xml::XPath::AstNode* (MS::Internal::Xml::XPath::XPathParser::*)(::MS::Internal::Xml::XPath::AstNode*)>(&MS::Internal::Xml::XPath::XPathParser::ParseUnionExpr)> {
   static const MethodInfo* get() {
     static auto* qyInput = &::il2cpp_utils::GetClassFromName("MS.Internal.Xml.XPath", "AstNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MS::Internal::Xml::XPath::XPathParser*), "ParseUnionExpr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{qyInput});
@@ -332,7 +332,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MS::Interna
 // Writing MetadataGetter for method: MS::Internal::Xml::XPath::XPathParser::IsNodeType
 // Il2CppName: IsNodeType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(MS::Internal::Xml::XPath::XPathScanner*)>(&MS::Internal::Xml::XPath::XPathParser::IsNodeType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::MS::Internal::Xml::XPath::XPathScanner*)>(&MS::Internal::Xml::XPath::XPathParser::IsNodeType)> {
   static const MethodInfo* get() {
     static auto* scaner = &::il2cpp_utils::GetClassFromName("MS.Internal.Xml.XPath", "XPathScanner")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MS::Internal::Xml::XPath::XPathParser*), "IsNodeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scaner});
@@ -341,7 +341,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(MS
 // Writing MetadataGetter for method: MS::Internal::Xml::XPath::XPathParser::ParsePathExpr
 // Il2CppName: ParsePathExpr
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MS::Internal::Xml::XPath::AstNode* (MS::Internal::Xml::XPath::XPathParser::*)(MS::Internal::Xml::XPath::AstNode*)>(&MS::Internal::Xml::XPath::XPathParser::ParsePathExpr)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::MS::Internal::Xml::XPath::AstNode* (MS::Internal::Xml::XPath::XPathParser::*)(::MS::Internal::Xml::XPath::AstNode*)>(&MS::Internal::Xml::XPath::XPathParser::ParsePathExpr)> {
   static const MethodInfo* get() {
     static auto* qyInput = &::il2cpp_utils::GetClassFromName("MS.Internal.Xml.XPath", "AstNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MS::Internal::Xml::XPath::XPathParser*), "ParsePathExpr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{qyInput});
@@ -350,7 +350,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MS::Interna
 // Writing MetadataGetter for method: MS::Internal::Xml::XPath::XPathParser::ParseFilterExpr
 // Il2CppName: ParseFilterExpr
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MS::Internal::Xml::XPath::AstNode* (MS::Internal::Xml::XPath::XPathParser::*)(MS::Internal::Xml::XPath::AstNode*)>(&MS::Internal::Xml::XPath::XPathParser::ParseFilterExpr)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::MS::Internal::Xml::XPath::AstNode* (MS::Internal::Xml::XPath::XPathParser::*)(::MS::Internal::Xml::XPath::AstNode*)>(&MS::Internal::Xml::XPath::XPathParser::ParseFilterExpr)> {
   static const MethodInfo* get() {
     static auto* qyInput = &::il2cpp_utils::GetClassFromName("MS.Internal.Xml.XPath", "AstNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MS::Internal::Xml::XPath::XPathParser*), "ParseFilterExpr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{qyInput});
@@ -359,7 +359,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MS::Interna
 // Writing MetadataGetter for method: MS::Internal::Xml::XPath::XPathParser::ParsePredicate
 // Il2CppName: ParsePredicate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MS::Internal::Xml::XPath::AstNode* (MS::Internal::Xml::XPath::XPathParser::*)(MS::Internal::Xml::XPath::AstNode*)>(&MS::Internal::Xml::XPath::XPathParser::ParsePredicate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::MS::Internal::Xml::XPath::AstNode* (MS::Internal::Xml::XPath::XPathParser::*)(::MS::Internal::Xml::XPath::AstNode*)>(&MS::Internal::Xml::XPath::XPathParser::ParsePredicate)> {
   static const MethodInfo* get() {
     static auto* qyInput = &::il2cpp_utils::GetClassFromName("MS.Internal.Xml.XPath", "AstNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MS::Internal::Xml::XPath::XPathParser*), "ParsePredicate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{qyInput});
@@ -368,7 +368,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MS::Interna
 // Writing MetadataGetter for method: MS::Internal::Xml::XPath::XPathParser::ParseLocationPath
 // Il2CppName: ParseLocationPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MS::Internal::Xml::XPath::AstNode* (MS::Internal::Xml::XPath::XPathParser::*)(MS::Internal::Xml::XPath::AstNode*)>(&MS::Internal::Xml::XPath::XPathParser::ParseLocationPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::MS::Internal::Xml::XPath::AstNode* (MS::Internal::Xml::XPath::XPathParser::*)(::MS::Internal::Xml::XPath::AstNode*)>(&MS::Internal::Xml::XPath::XPathParser::ParseLocationPath)> {
   static const MethodInfo* get() {
     static auto* qyInput = &::il2cpp_utils::GetClassFromName("MS.Internal.Xml.XPath", "AstNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MS::Internal::Xml::XPath::XPathParser*), "ParseLocationPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{qyInput});
@@ -377,7 +377,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MS::Interna
 // Writing MetadataGetter for method: MS::Internal::Xml::XPath::XPathParser::ParseRelativeLocationPath
 // Il2CppName: ParseRelativeLocationPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MS::Internal::Xml::XPath::AstNode* (MS::Internal::Xml::XPath::XPathParser::*)(MS::Internal::Xml::XPath::AstNode*)>(&MS::Internal::Xml::XPath::XPathParser::ParseRelativeLocationPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::MS::Internal::Xml::XPath::AstNode* (MS::Internal::Xml::XPath::XPathParser::*)(::MS::Internal::Xml::XPath::AstNode*)>(&MS::Internal::Xml::XPath::XPathParser::ParseRelativeLocationPath)> {
   static const MethodInfo* get() {
     static auto* qyInput = &::il2cpp_utils::GetClassFromName("MS.Internal.Xml.XPath", "AstNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MS::Internal::Xml::XPath::XPathParser*), "ParseRelativeLocationPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{qyInput});
@@ -386,7 +386,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MS::Interna
 // Writing MetadataGetter for method: MS::Internal::Xml::XPath::XPathParser::IsStep
 // Il2CppName: IsStep
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(MS::Internal::Xml::XPath::XPathScanner::LexKind)>(&MS::Internal::Xml::XPath::XPathParser::IsStep)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::MS::Internal::Xml::XPath::XPathScanner::LexKind)>(&MS::Internal::Xml::XPath::XPathParser::IsStep)> {
   static const MethodInfo* get() {
     static auto* lexKind = &::il2cpp_utils::GetClassFromName("MS.Internal.Xml.XPath", "XPathScanner/LexKind")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MS::Internal::Xml::XPath::XPathParser*), "IsStep", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lexKind});
@@ -395,7 +395,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(MS
 // Writing MetadataGetter for method: MS::Internal::Xml::XPath::XPathParser::ParseStep
 // Il2CppName: ParseStep
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MS::Internal::Xml::XPath::AstNode* (MS::Internal::Xml::XPath::XPathParser::*)(MS::Internal::Xml::XPath::AstNode*)>(&MS::Internal::Xml::XPath::XPathParser::ParseStep)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::MS::Internal::Xml::XPath::AstNode* (MS::Internal::Xml::XPath::XPathParser::*)(::MS::Internal::Xml::XPath::AstNode*)>(&MS::Internal::Xml::XPath::XPathParser::ParseStep)> {
   static const MethodInfo* get() {
     static auto* qyInput = &::il2cpp_utils::GetClassFromName("MS.Internal.Xml.XPath", "AstNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MS::Internal::Xml::XPath::XPathParser*), "ParseStep", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{qyInput});
@@ -404,7 +404,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MS::Interna
 // Writing MetadataGetter for method: MS::Internal::Xml::XPath::XPathParser::ParseNodeTest
 // Il2CppName: ParseNodeTest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MS::Internal::Xml::XPath::AstNode* (MS::Internal::Xml::XPath::XPathParser::*)(MS::Internal::Xml::XPath::AstNode*, MS::Internal::Xml::XPath::Axis::AxisType, System::Xml::XPath::XPathNodeType)>(&MS::Internal::Xml::XPath::XPathParser::ParseNodeTest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::MS::Internal::Xml::XPath::AstNode* (MS::Internal::Xml::XPath::XPathParser::*)(::MS::Internal::Xml::XPath::AstNode*, ::MS::Internal::Xml::XPath::Axis::AxisType, ::System::Xml::XPath::XPathNodeType)>(&MS::Internal::Xml::XPath::XPathParser::ParseNodeTest)> {
   static const MethodInfo* get() {
     static auto* qyInput = &::il2cpp_utils::GetClassFromName("MS.Internal.Xml.XPath", "AstNode")->byval_arg;
     static auto* axisType = &::il2cpp_utils::GetClassFromName("MS.Internal.Xml.XPath", "Axis/AxisType")->byval_arg;
@@ -415,7 +415,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MS::Interna
 // Writing MetadataGetter for method: MS::Internal::Xml::XPath::XPathParser::IsPrimaryExpr
 // Il2CppName: IsPrimaryExpr
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(MS::Internal::Xml::XPath::XPathScanner*)>(&MS::Internal::Xml::XPath::XPathParser::IsPrimaryExpr)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::MS::Internal::Xml::XPath::XPathScanner*)>(&MS::Internal::Xml::XPath::XPathParser::IsPrimaryExpr)> {
   static const MethodInfo* get() {
     static auto* scanner = &::il2cpp_utils::GetClassFromName("MS.Internal.Xml.XPath", "XPathScanner")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MS::Internal::Xml::XPath::XPathParser*), "IsPrimaryExpr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scanner});
@@ -424,7 +424,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(MS
 // Writing MetadataGetter for method: MS::Internal::Xml::XPath::XPathParser::ParsePrimaryExpr
 // Il2CppName: ParsePrimaryExpr
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MS::Internal::Xml::XPath::AstNode* (MS::Internal::Xml::XPath::XPathParser::*)(MS::Internal::Xml::XPath::AstNode*)>(&MS::Internal::Xml::XPath::XPathParser::ParsePrimaryExpr)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::MS::Internal::Xml::XPath::AstNode* (MS::Internal::Xml::XPath::XPathParser::*)(::MS::Internal::Xml::XPath::AstNode*)>(&MS::Internal::Xml::XPath::XPathParser::ParsePrimaryExpr)> {
   static const MethodInfo* get() {
     static auto* qyInput = &::il2cpp_utils::GetClassFromName("MS.Internal.Xml.XPath", "AstNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MS::Internal::Xml::XPath::XPathParser*), "ParsePrimaryExpr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{qyInput});
@@ -433,7 +433,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MS::Interna
 // Writing MetadataGetter for method: MS::Internal::Xml::XPath::XPathParser::ParseMethod
 // Il2CppName: ParseMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MS::Internal::Xml::XPath::AstNode* (MS::Internal::Xml::XPath::XPathParser::*)(MS::Internal::Xml::XPath::AstNode*)>(&MS::Internal::Xml::XPath::XPathParser::ParseMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::MS::Internal::Xml::XPath::AstNode* (MS::Internal::Xml::XPath::XPathParser::*)(::MS::Internal::Xml::XPath::AstNode*)>(&MS::Internal::Xml::XPath::XPathParser::ParseMethod)> {
   static const MethodInfo* get() {
     static auto* qyInput = &::il2cpp_utils::GetClassFromName("MS.Internal.Xml.XPath", "AstNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MS::Internal::Xml::XPath::XPathParser*), "ParseMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{qyInput});
@@ -442,7 +442,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MS::Interna
 // Writing MetadataGetter for method: MS::Internal::Xml::XPath::XPathParser::CheckToken
 // Il2CppName: CheckToken
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MS::Internal::Xml::XPath::XPathParser::*)(MS::Internal::Xml::XPath::XPathScanner::LexKind)>(&MS::Internal::Xml::XPath::XPathParser::CheckToken)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MS::Internal::Xml::XPath::XPathParser::*)(::MS::Internal::Xml::XPath::XPathScanner::LexKind)>(&MS::Internal::Xml::XPath::XPathParser::CheckToken)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("MS.Internal.Xml.XPath", "XPathScanner/LexKind")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MS::Internal::Xml::XPath::XPathParser*), "CheckToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
@@ -451,7 +451,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MS::I
 // Writing MetadataGetter for method: MS::Internal::Xml::XPath::XPathParser::PassToken
 // Il2CppName: PassToken
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MS::Internal::Xml::XPath::XPathParser::*)(MS::Internal::Xml::XPath::XPathScanner::LexKind)>(&MS::Internal::Xml::XPath::XPathParser::PassToken)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MS::Internal::Xml::XPath::XPathParser::*)(::MS::Internal::Xml::XPath::XPathScanner::LexKind)>(&MS::Internal::Xml::XPath::XPathParser::PassToken)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("MS.Internal.Xml.XPath", "XPathScanner/LexKind")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MS::Internal::Xml::XPath::XPathParser*), "PassToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
@@ -477,7 +477,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MS::I
 // Writing MetadataGetter for method: MS::Internal::Xml::XPath::XPathParser::CheckNodeSet
 // Il2CppName: CheckNodeSet
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MS::Internal::Xml::XPath::XPathParser::*)(System::Xml::XPath::XPathResultType)>(&MS::Internal::Xml::XPath::XPathParser::CheckNodeSet)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MS::Internal::Xml::XPath::XPathParser::*)(::System::Xml::XPath::XPathResultType)>(&MS::Internal::Xml::XPath::XPathParser::CheckNodeSet)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System.Xml.XPath", "XPathResultType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MS::Internal::Xml::XPath::XPathParser*), "CheckNodeSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
@@ -486,7 +486,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MS::I
 // Writing MetadataGetter for method: MS::Internal::Xml::XPath::XPathParser::CreateFunctionTable
 // Il2CppName: CreateFunctionTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Hashtable* (*)()>(&MS::Internal::Xml::XPath::XPathParser::CreateFunctionTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Hashtable* (*)()>(&MS::Internal::Xml::XPath::XPathParser::CreateFunctionTable)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MS::Internal::Xml::XPath::XPathParser*), "CreateFunctionTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -494,7 +494,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: MS::Internal::Xml::XPath::XPathParser::CreateAxesTable
 // Il2CppName: CreateAxesTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Hashtable* (*)()>(&MS::Internal::Xml::XPath::XPathParser::CreateAxesTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Hashtable* (*)()>(&MS::Internal::Xml::XPath::XPathParser::CreateAxesTable)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MS::Internal::Xml::XPath::XPathParser*), "CreateAxesTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -502,7 +502,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: MS::Internal::Xml::XPath::XPathParser::GetAxis
 // Il2CppName: GetAxis
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MS::Internal::Xml::XPath::Axis::AxisType (MS::Internal::Xml::XPath::XPathParser::*)(MS::Internal::Xml::XPath::XPathScanner*)>(&MS::Internal::Xml::XPath::XPathParser::GetAxis)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::MS::Internal::Xml::XPath::Axis::AxisType (MS::Internal::Xml::XPath::XPathParser::*)(::MS::Internal::Xml::XPath::XPathScanner*)>(&MS::Internal::Xml::XPath::XPathParser::GetAxis)> {
   static const MethodInfo* get() {
     static auto* scaner = &::il2cpp_utils::GetClassFromName("MS.Internal.Xml.XPath", "XPathScanner")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MS::Internal::Xml::XPath::XPathParser*), "GetAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scaner});

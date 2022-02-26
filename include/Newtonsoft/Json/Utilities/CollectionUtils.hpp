@@ -59,8 +59,8 @@ namespace Newtonsoft::Json::Utilities {
   class CollectionUtils;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Utilities::CollectionUtils);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::CollectionUtils*, "Newtonsoft.Json.Utilities", "CollectionUtils");
+NEED_NO_BOX(::Newtonsoft::Json::Utilities::CollectionUtils);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::CollectionUtils*, "Newtonsoft.Json.Utilities", "CollectionUtils");
 // Type namespace: Newtonsoft.Json.Utilities
 namespace Newtonsoft::Json::Utilities {
   // Size: 0x10
@@ -72,14 +72,14 @@ namespace Newtonsoft::Json::Utilities {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class CollectionUtils : public ::Il2CppObject {
     public:
-    // Nested type: Newtonsoft::Json::Utilities::CollectionUtils::EmptyArrayContainer_1<T>
+    // Nested type: ::Newtonsoft::Json::Utilities::CollectionUtils::EmptyArrayContainer_1<T>
     template<typename T>
     class EmptyArrayContainer_1;
     // static public System.Boolean IsNullOrEmpty(System.Collections.Generic.ICollection`1<T> collection)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static bool IsNullOrEmpty(System::Collections::Generic::ICollection_1<T>* collection) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Utilities::CollectionUtils::IsNullOrEmpty");
+    static bool IsNullOrEmpty(::System::Collections::Generic::ICollection_1<T>* collection) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Utilities::CollectionUtils::IsNullOrEmpty");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Newtonsoft.Json.Utilities", "CollectionUtils", "IsNullOrEmpty", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(collection)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, collection);
@@ -87,26 +87,26 @@ namespace Newtonsoft::Json::Utilities {
     // static public System.Void AddRange(System.Collections.Generic.IList`1<T> initial, System.Collections.Generic.IEnumerable`1<T> collection)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static void AddRange(System::Collections::Generic::IList_1<T>* initial, System::Collections::Generic::IEnumerable_1<T>* collection) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Utilities::CollectionUtils::AddRange");
+    static void AddRange(::System::Collections::Generic::IList_1<T>* initial, ::System::Collections::Generic::IEnumerable_1<T>* collection) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Utilities::CollectionUtils::AddRange");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Newtonsoft.Json.Utilities", "CollectionUtils", "AddRange", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(initial), ::il2cpp_utils::ExtractType(collection)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, initial, collection);
     }
     // static public System.Boolean IsDictionaryType(System.Type type)
     // Offset: 0x19DA67C
-    static bool IsDictionaryType(System::Type* type);
+    static bool IsDictionaryType(::System::Type* type);
     // static public System.Reflection.ConstructorInfo ResolveEnumerableCollectionConstructor(System.Type collectionType, System.Type collectionItemType)
     // Offset: 0x19DA810
-    static System::Reflection::ConstructorInfo* ResolveEnumerableCollectionConstructor(System::Type* collectionType, System::Type* collectionItemType);
+    static ::System::Reflection::ConstructorInfo* ResolveEnumerableCollectionConstructor(::System::Type* collectionType, ::System::Type* collectionItemType);
     // static public System.Reflection.ConstructorInfo ResolveEnumerableCollectionConstructor(System.Type collectionType, System.Type collectionItemType, System.Type constructorArgumentType)
     // Offset: 0x19DA920
-    static System::Reflection::ConstructorInfo* ResolveEnumerableCollectionConstructor(System::Type* collectionType, System::Type* collectionItemType, System::Type* constructorArgumentType);
+    static ::System::Reflection::ConstructorInfo* ResolveEnumerableCollectionConstructor(::System::Type* collectionType, ::System::Type* collectionItemType, ::System::Type* constructorArgumentType);
     // static public System.Int32 IndexOf(System.Collections.Generic.IEnumerable`1<T> collection, System.Func`2<T,System.Boolean> predicate)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static int IndexOf(System::Collections::Generic::IEnumerable_1<T>* collection, System::Func_2<T, bool>* predicate) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Utilities::CollectionUtils::IndexOf");
+    static int IndexOf(::System::Collections::Generic::IEnumerable_1<T>* collection, ::System::Func_2<T, bool>* predicate) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Utilities::CollectionUtils::IndexOf");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Newtonsoft.Json.Utilities", "CollectionUtils", "IndexOf", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(collection), ::il2cpp_utils::ExtractType(predicate)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<int, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, collection, predicate);
@@ -114,8 +114,8 @@ namespace Newtonsoft::Json::Utilities {
     // static public System.Boolean Contains(System.Collections.Generic.List`1<T> list, T value, System.Collections.IEqualityComparer comparer)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static bool Contains(System::Collections::Generic::List_1<T>* list, T value, System::Collections::IEqualityComparer* comparer) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Utilities::CollectionUtils::Contains");
+    static bool Contains(::System::Collections::Generic::List_1<T>* list, T value, ::System::Collections::IEqualityComparer* comparer) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Utilities::CollectionUtils::Contains");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Newtonsoft.Json.Utilities", "CollectionUtils", "Contains", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(list), ::il2cpp_utils::ExtractType(value), ::il2cpp_utils::ExtractType(comparer)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, list, value, comparer);
@@ -123,8 +123,8 @@ namespace Newtonsoft::Json::Utilities {
     // static public System.Int32 IndexOfReference(System.Collections.Generic.List`1<T> list, T item)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static int IndexOfReference(System::Collections::Generic::List_1<T>* list, T item) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Utilities::CollectionUtils::IndexOfReference");
+    static int IndexOfReference(::System::Collections::Generic::List_1<T>* list, T item) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Utilities::CollectionUtils::IndexOfReference");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Newtonsoft.Json.Utilities", "CollectionUtils", "IndexOfReference", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(list), ::il2cpp_utils::ExtractType(item)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<int, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, list, item);
@@ -132,29 +132,29 @@ namespace Newtonsoft::Json::Utilities {
     // static public System.Void FastReverse(System.Collections.Generic.List`1<T> list)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static void FastReverse(System::Collections::Generic::List_1<T>* list) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Utilities::CollectionUtils::FastReverse");
+    static void FastReverse(::System::Collections::Generic::List_1<T>* list) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Utilities::CollectionUtils::FastReverse");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Newtonsoft.Json.Utilities", "CollectionUtils", "FastReverse", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(list)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, list);
     }
     // static private System.Collections.Generic.IList`1<System.Int32> GetDimensions(System.Collections.IList values, System.Int32 dimensionsCount)
     // Offset: 0x19DAC4C
-    static System::Collections::Generic::IList_1<int>* GetDimensions(System::Collections::IList* values, int dimensionsCount);
+    static ::System::Collections::Generic::IList_1<int>* GetDimensions(::System::Collections::IList* values, int dimensionsCount);
     // static private System.Void CopyFromJaggedToMultidimensionalArray(System.Collections.IList values, System.Array multidimensionalArray, System.Int32[] indices)
     // Offset: 0x19DAF08
-    static void CopyFromJaggedToMultidimensionalArray(System::Collections::IList* values, System::Array* multidimensionalArray, ::ArrayW<int> indices);
+    static void CopyFromJaggedToMultidimensionalArray(::System::Collections::IList* values, ::System::Array* multidimensionalArray, ::ArrayW<int> indices);
     // static private System.Object JaggedArrayGetValue(System.Collections.IList values, System.Int32[] indices)
     // Offset: 0x19DB1C4
-    static ::Il2CppObject* JaggedArrayGetValue(System::Collections::IList* values, ::ArrayW<int> indices);
+    static ::Il2CppObject* JaggedArrayGetValue(::System::Collections::IList* values, ::ArrayW<int> indices);
     // static public System.Array ToMultidimensionalArray(System.Collections.IList values, System.Type type, System.Int32 rank)
     // Offset: 0x19DB318
-    static System::Array* ToMultidimensionalArray(System::Collections::IList* values, System::Type* type, int rank);
+    static ::System::Array* ToMultidimensionalArray(::System::Collections::IList* values, ::System::Type* type, int rank);
     // static public T[] ArrayEmpty()
     // Offset: 0xFFFFFFFF
     template<class T>
     static ::ArrayW<T> ArrayEmpty() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Utilities::CollectionUtils::ArrayEmpty");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Utilities::CollectionUtils::ArrayEmpty");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Newtonsoft.Json.Utilities", "CollectionUtils", "ArrayEmpty", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<T>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
@@ -172,7 +172,7 @@ namespace Newtonsoft::Json::Utilities {
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::CollectionUtils::IsDictionaryType
 // Il2CppName: IsDictionaryType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&Newtonsoft::Json::Utilities::CollectionUtils::IsDictionaryType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&Newtonsoft::Json::Utilities::CollectionUtils::IsDictionaryType)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::CollectionUtils*), "IsDictionaryType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -181,7 +181,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::CollectionUtils::ResolveEnumerableCollectionConstructor
 // Il2CppName: ResolveEnumerableCollectionConstructor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::ConstructorInfo* (*)(System::Type*, System::Type*)>(&Newtonsoft::Json::Utilities::CollectionUtils::ResolveEnumerableCollectionConstructor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::ConstructorInfo* (*)(::System::Type*, ::System::Type*)>(&Newtonsoft::Json::Utilities::CollectionUtils::ResolveEnumerableCollectionConstructor)> {
   static const MethodInfo* get() {
     static auto* collectionType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* collectionItemType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -191,7 +191,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::CollectionUtils::ResolveEnumerableCollectionConstructor
 // Il2CppName: ResolveEnumerableCollectionConstructor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::ConstructorInfo* (*)(System::Type*, System::Type*, System::Type*)>(&Newtonsoft::Json::Utilities::CollectionUtils::ResolveEnumerableCollectionConstructor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::ConstructorInfo* (*)(::System::Type*, ::System::Type*, ::System::Type*)>(&Newtonsoft::Json::Utilities::CollectionUtils::ResolveEnumerableCollectionConstructor)> {
   static const MethodInfo* get() {
     static auto* collectionType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* collectionItemType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -214,7 +214,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::CollectionUtils::GetDimensions
 // Il2CppName: GetDimensions
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<int>* (*)(System::Collections::IList*, int)>(&Newtonsoft::Json::Utilities::CollectionUtils::GetDimensions)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IList_1<int>* (*)(::System::Collections::IList*, int)>(&Newtonsoft::Json::Utilities::CollectionUtils::GetDimensions)> {
   static const MethodInfo* get() {
     static auto* values = &::il2cpp_utils::GetClassFromName("System.Collections", "IList")->byval_arg;
     static auto* dimensionsCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -224,7 +224,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::CollectionUtils::CopyFromJaggedToMultidimensionalArray
 // Il2CppName: CopyFromJaggedToMultidimensionalArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::IList*, System::Array*, ::ArrayW<int>)>(&Newtonsoft::Json::Utilities::CollectionUtils::CopyFromJaggedToMultidimensionalArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::IList*, ::System::Array*, ::ArrayW<int>)>(&Newtonsoft::Json::Utilities::CollectionUtils::CopyFromJaggedToMultidimensionalArray)> {
   static const MethodInfo* get() {
     static auto* values = &::il2cpp_utils::GetClassFromName("System.Collections", "IList")->byval_arg;
     static auto* multidimensionalArray = &::il2cpp_utils::GetClassFromName("System", "Array")->byval_arg;
@@ -235,7 +235,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::CollectionUtils::JaggedArrayGetValue
 // Il2CppName: JaggedArrayGetValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Collections::IList*, ::ArrayW<int>)>(&Newtonsoft::Json::Utilities::CollectionUtils::JaggedArrayGetValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::System::Collections::IList*, ::ArrayW<int>)>(&Newtonsoft::Json::Utilities::CollectionUtils::JaggedArrayGetValue)> {
   static const MethodInfo* get() {
     static auto* values = &::il2cpp_utils::GetClassFromName("System.Collections", "IList")->byval_arg;
     static auto* indices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
@@ -245,7 +245,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::CollectionUtils::ToMultidimensionalArray
 // Il2CppName: ToMultidimensionalArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Array* (*)(System::Collections::IList*, System::Type*, int)>(&Newtonsoft::Json::Utilities::CollectionUtils::ToMultidimensionalArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Array* (*)(::System::Collections::IList*, ::System::Type*, int)>(&Newtonsoft::Json::Utilities::CollectionUtils::ToMultidimensionalArray)> {
   static const MethodInfo* get() {
     static auto* values = &::il2cpp_utils::GetClassFromName("System.Collections", "IList")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;

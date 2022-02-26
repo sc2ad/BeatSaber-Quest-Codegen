@@ -26,8 +26,8 @@ namespace HoudiniEngineUnity {
   class HEU_LoadBufferVolumeLayer;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_LoadBufferVolumeLayer);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_LoadBufferVolumeLayer*, "HoudiniEngineUnity", "HEU_LoadBufferVolumeLayer");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer*, "HoudiniEngineUnity", "HEU_LoadBufferVolumeLayer");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0xD8
@@ -116,21 +116,21 @@ namespace HoudiniEngineUnity {
     // public UnityEngine.Color _specularColor
     // Size: 0x10
     // Offset: 0x50
-    UnityEngine::Color specularColor;
+    ::UnityEngine::Color specularColor;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     // public UnityEngine.Vector2 _tileSize
     // Size: 0x8
     // Offset: 0x60
-    UnityEngine::Vector2 tileSize;
+    ::UnityEngine::Vector2 tileSize;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector2) == 0x8);
+    static_assert(sizeof(::UnityEngine::Vector2) == 0x8);
     // public UnityEngine.Vector2 _tileOffset
     // Size: 0x8
     // Offset: 0x68
-    UnityEngine::Vector2 tileOffset;
+    ::UnityEngine::Vector2 tileOffset;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector2) == 0x8);
+    static_assert(sizeof(::UnityEngine::Vector2) == 0x8);
     // public System.Boolean _uiExpanded
     // Size: 0x1
     // Offset: 0x70
@@ -184,27 +184,27 @@ namespace HoudiniEngineUnity {
     // public UnityEngine.Vector3 _position
     // Size: 0xC
     // Offset: 0x94
-    UnityEngine::Vector3 position;
+    ::UnityEngine::Vector3 position;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // public UnityEngine.Vector3 _minBounds
     // Size: 0xC
     // Offset: 0xA0
-    UnityEngine::Vector3 minBounds;
+    ::UnityEngine::Vector3 minBounds;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // public UnityEngine.Vector3 _maxBounds
     // Size: 0xC
     // Offset: 0xAC
-    UnityEngine::Vector3 maxBounds;
+    ::UnityEngine::Vector3 maxBounds;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // public UnityEngine.Vector3 _center
     // Size: 0xC
     // Offset: 0xB8
-    UnityEngine::Vector3 center;
+    ::UnityEngine::Vector3 center;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // Padding between fields: center and: layerPath
     char __padding25[0x4] = {};
     // public System.String _layerPath
@@ -224,9 +224,9 @@ namespace HoudiniEngineUnity {
     // public HoudiniEngineUnity.HFLayerType _layerType
     // Size: 0x4
     // Offset: 0xD4
-    HoudiniEngineUnity::HFLayerType layerType;
+    ::HoudiniEngineUnity::HFLayerType layerType;
     // Field size check
-    static_assert(sizeof(HoudiniEngineUnity::HFLayerType) == 0x4);
+    static_assert(sizeof(::HoudiniEngineUnity::HFLayerType) == 0x4);
     public:
     // Get instance field reference: public System.String _layerName
     ::StringW& dyn__layerName();
@@ -251,11 +251,11 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Single _smoothness
     float& dyn__smoothness();
     // Get instance field reference: public UnityEngine.Color _specularColor
-    UnityEngine::Color& dyn__specularColor();
+    ::UnityEngine::Color& dyn__specularColor();
     // Get instance field reference: public UnityEngine.Vector2 _tileSize
-    UnityEngine::Vector2& dyn__tileSize();
+    ::UnityEngine::Vector2& dyn__tileSize();
     // Get instance field reference: public UnityEngine.Vector2 _tileOffset
-    UnityEngine::Vector2& dyn__tileOffset();
+    ::UnityEngine::Vector2& dyn__tileOffset();
     // Get instance field reference: public System.Boolean _uiExpanded
     bool& dyn__uiExpanded();
     // Get instance field reference: public System.Int32 _tile
@@ -273,31 +273,31 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Single _terrainSizeY
     float& dyn__terrainSizeY();
     // Get instance field reference: public UnityEngine.Vector3 _position
-    UnityEngine::Vector3& dyn__position();
+    ::UnityEngine::Vector3& dyn__position();
     // Get instance field reference: public UnityEngine.Vector3 _minBounds
-    UnityEngine::Vector3& dyn__minBounds();
+    ::UnityEngine::Vector3& dyn__minBounds();
     // Get instance field reference: public UnityEngine.Vector3 _maxBounds
-    UnityEngine::Vector3& dyn__maxBounds();
+    ::UnityEngine::Vector3& dyn__maxBounds();
     // Get instance field reference: public UnityEngine.Vector3 _center
-    UnityEngine::Vector3& dyn__center();
+    ::UnityEngine::Vector3& dyn__center();
     // Get instance field reference: public System.String _layerPath
     ::StringW& dyn__layerPath();
     // Get instance field reference: public System.Boolean _hasLayerAttributes
     bool& dyn__hasLayerAttributes();
     // Get instance field reference: public HoudiniEngineUnity.HFLayerType _layerType
-    HoudiniEngineUnity::HFLayerType& dyn__layerType();
+    ::HoudiniEngineUnity::HFLayerType& dyn__layerType();
     // public System.Void .ctor()
     // Offset: 0x1787C1C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_LoadBufferVolumeLayer* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_LoadBufferVolumeLayer::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_LoadBufferVolumeLayer*, creationType>()));
     }
   }; // HoudiniEngineUnity.HEU_LoadBufferVolumeLayer
   #pragma pack(pop)
-  static check_size<sizeof(HEU_LoadBufferVolumeLayer), 212 + sizeof(HoudiniEngineUnity::HFLayerType)> __HoudiniEngineUnity_HEU_LoadBufferVolumeLayerSizeCheck;
+  static check_size<sizeof(HEU_LoadBufferVolumeLayer), 212 + sizeof(::HoudiniEngineUnity::HFLayerType)> __HoudiniEngineUnity_HEU_LoadBufferVolumeLayerSizeCheck;
   static_assert(sizeof(HEU_LoadBufferVolumeLayer) == 0xD8);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -18,8 +18,8 @@ namespace System::Runtime::Remoting::Messaging {
   class IMessage;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Remoting::Messaging::IMessage);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::IMessage*, "System.Runtime.Remoting.Messaging", "IMessage");
+NEED_NO_BOX(::System::Runtime::Remoting::Messaging::IMessage);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Messaging::IMessage*, "System.Runtime.Remoting.Messaging", "IMessage");
 // Type namespace: System.Runtime.Remoting.Messaging
 namespace System::Runtime::Remoting::Messaging {
   // Size: 0x10
@@ -31,7 +31,7 @@ namespace System::Runtime::Remoting::Messaging {
     public:
     // public System.Collections.IDictionary get_Properties()
     // Offset: 0xFFFFFFFF
-    System::Collections::IDictionary* get_Properties();
+    ::System::Collections::IDictionary* get_Properties();
   }; // System.Runtime.Remoting.Messaging.IMessage
   #pragma pack(pop)
 }
@@ -39,7 +39,7 @@ namespace System::Runtime::Remoting::Messaging {
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::IMessage::get_Properties
 // Il2CppName: get_Properties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IDictionary* (System::Runtime::Remoting::Messaging::IMessage::*)()>(&System::Runtime::Remoting::Messaging::IMessage::get_Properties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IDictionary* (System::Runtime::Remoting::Messaging::IMessage::*)()>(&System::Runtime::Remoting::Messaging::IMessage::get_Properties)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::IMessage*), "get_Properties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -23,8 +23,8 @@ namespace System::Text {
   class EncoderFallbackBuffer;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Text::EncoderFallbackBuffer);
-DEFINE_IL2CPP_ARG_TYPE(System::Text::EncoderFallbackBuffer*, "System.Text", "EncoderFallbackBuffer");
+NEED_NO_BOX(::System::Text::EncoderFallbackBuffer);
+DEFINE_IL2CPP_ARG_TYPE(::System::Text::EncoderFallbackBuffer*, "System.Text", "EncoderFallbackBuffer");
 // Type namespace: System.Text
 namespace System::Text {
   // Size: 0x30
@@ -57,9 +57,9 @@ namespace System::Text {
     // System.Text.EncoderNLS encoder
     // Size: 0x8
     // Offset: 0x20
-    System::Text::EncoderNLS* encoder;
+    ::System::Text::EncoderNLS* encoder;
     // Field size check
-    static_assert(sizeof(System::Text::EncoderNLS*) == 0x8);
+    static_assert(sizeof(::System::Text::EncoderNLS*) == 0x8);
     // System.Boolean setEncoder
     // Size: 0x1
     // Offset: 0x28
@@ -92,7 +92,7 @@ namespace System::Text {
     // Get instance field reference: System.Char* charEnd
     ::Il2CppChar*& dyn_charEnd();
     // Get instance field reference: System.Text.EncoderNLS encoder
-    System::Text::EncoderNLS*& dyn_encoder();
+    ::System::Text::EncoderNLS*& dyn_encoder();
     // Get instance field reference: System.Boolean setEncoder
     bool& dyn_setEncoder();
     // Get instance field reference: System.Boolean bUsedEncoder
@@ -124,7 +124,7 @@ namespace System::Text {
     void InternalReset();
     // System.Void InternalInitialize(System.Char* charStart, System.Char* charEnd, System.Text.EncoderNLS encoder, System.Boolean setEncoder)
     // Offset: 0x1FA08E4
-    void InternalInitialize(::Il2CppChar* charStart, ::Il2CppChar* charEnd, System::Text::EncoderNLS* encoder, bool setEncoder);
+    void InternalInitialize(::Il2CppChar* charStart, ::Il2CppChar* charEnd, ::System::Text::EncoderNLS* encoder, bool setEncoder);
     // System.Char InternalGetNextChar()
     // Offset: 0x1FA0900
     ::Il2CppChar InternalGetNextChar();
@@ -140,7 +140,7 @@ namespace System::Text {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EncoderFallbackBuffer* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::EncoderFallbackBuffer::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::EncoderFallbackBuffer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EncoderFallbackBuffer*, creationType>()));
     }
   }; // System.Text.EncoderFallbackBuffer
@@ -213,7 +213,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Text::EncoderFallbackBuffer::InternalInitialize
 // Il2CppName: InternalInitialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::EncoderFallbackBuffer::*)(::Il2CppChar*, ::Il2CppChar*, System::Text::EncoderNLS*, bool)>(&System::Text::EncoderFallbackBuffer::InternalInitialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::EncoderFallbackBuffer::*)(::Il2CppChar*, ::Il2CppChar*, ::System::Text::EncoderNLS*, bool)>(&System::Text::EncoderFallbackBuffer::InternalInitialize)> {
   static const MethodInfo* get() {
     static auto* charStart = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
     static auto* charEnd = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;

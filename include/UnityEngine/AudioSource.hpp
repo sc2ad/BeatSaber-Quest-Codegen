@@ -24,8 +24,8 @@ namespace UnityEngine {
   class AudioSource;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::AudioSource);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioSource*, "UnityEngine", "AudioSource");
+NEED_NO_BOX(::UnityEngine::AudioSource);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AudioSource*, "UnityEngine", "AudioSource");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -34,7 +34,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [StaticAccessorAttribute] Offset: 11D770C
   // [RequireComponent] Offset: 11D770C
-  class AudioSource : public UnityEngine::AudioBehaviour {
+  class AudioSource : public ::UnityEngine::AudioBehaviour {
     public:
     // public System.Single get_volume()
     // Offset: 0x2A3FC84
@@ -59,10 +59,10 @@ namespace UnityEngine {
     int get_timeSamples();
     // public UnityEngine.AudioClip get_clip()
     // Offset: 0x2A3FE74
-    UnityEngine::AudioClip* get_clip();
+    ::UnityEngine::AudioClip* get_clip();
     // public System.Void set_clip(UnityEngine.AudioClip value)
     // Offset: 0x2A3FEB4
-    void set_clip(UnityEngine::AudioClip* value);
+    void set_clip(::UnityEngine::AudioClip* value);
     // public System.Boolean get_isPlaying()
     // Offset: 0x2A4016C
     bool get_isPlaying();
@@ -104,25 +104,25 @@ namespace UnityEngine {
     void set_minDistance(float value);
     // static private System.Single GetPitch(UnityEngine.AudioSource source)
     // Offset: 0x2A3FA3C
-    static float GetPitch(UnityEngine::AudioSource* source);
+    static float GetPitch(::UnityEngine::AudioSource* source);
     // static private System.Void SetPitch(UnityEngine.AudioSource source, System.Single pitch)
     // Offset: 0x2A3FA7C
-    static void SetPitch(UnityEngine::AudioSource* source, float pitch);
+    static void SetPitch(::UnityEngine::AudioSource* source, float pitch);
     // static private System.Void PlayHelper(UnityEngine.AudioSource source, System.UInt64 delay)
     // Offset: 0x2A3FACC
-    static void PlayHelper(UnityEngine::AudioSource* source, uint64_t delay);
+    static void PlayHelper(::UnityEngine::AudioSource* source, uint64_t delay);
     // private System.Void Play(System.Double delay)
     // Offset: 0x2A3FB1C
     void Play(double delay);
     // static private System.Void PlayOneShotHelper(UnityEngine.AudioSource source, UnityEngine.AudioClip clip, System.Single volumeScale)
     // Offset: 0x2A3FB6C
-    static void PlayOneShotHelper(UnityEngine::AudioSource* source, UnityEngine::AudioClip* clip, float volumeScale);
+    static void PlayOneShotHelper(::UnityEngine::AudioSource* source, ::UnityEngine::AudioClip* clip, float volumeScale);
     // private System.Void Stop(System.Boolean stopOneShots)
     // Offset: 0x2A3FBCC
     void Stop(bool stopOneShots);
     // static private System.Void GetSpectrumDataHelper(UnityEngine.AudioSource source, out System.Single[] samples, System.Int32 channel, UnityEngine.FFTWindow window)
     // Offset: 0x2A3FC1C
-    static void GetSpectrumDataHelper(UnityEngine::AudioSource* source, ByRef<::ArrayW<float>> samples, int channel, UnityEngine::FFTWindow window);
+    static void GetSpectrumDataHelper(::UnityEngine::AudioSource* source, ByRef<::ArrayW<float>> samples, int channel, ::UnityEngine::FFTWindow window);
     // public System.Void Play()
     // Offset: 0x2A3FF04
     void Play();
@@ -131,10 +131,10 @@ namespace UnityEngine {
     void PlayScheduled(double time);
     // public System.Void PlayOneShot(UnityEngine.AudioClip clip)
     // Offset: 0x2A3FFA4
-    void PlayOneShot(UnityEngine::AudioClip* clip);
+    void PlayOneShot(::UnityEngine::AudioClip* clip);
     // public System.Void PlayOneShot(UnityEngine.AudioClip clip, System.Single volumeScale)
     // Offset: 0x2A3FFAC
-    void PlayOneShot(UnityEngine::AudioClip* clip, float volumeScale);
+    void PlayOneShot(::UnityEngine::AudioClip* clip, float volumeScale);
     // public System.Void Stop()
     // Offset: 0x2A400A8
     void Stop();
@@ -146,7 +146,7 @@ namespace UnityEngine {
     void UnPause();
     // public System.Void GetSpectrumData(System.Single[] samples, System.Int32 channel, UnityEngine.FFTWindow window)
     // Offset: 0x2A4055C
-    void GetSpectrumData(::ArrayW<float> samples, int channel, UnityEngine::FFTWindow window);
+    void GetSpectrumData(::ArrayW<float> samples, int channel, ::UnityEngine::FFTWindow window);
   }; // UnityEngine.AudioSource
   #pragma pack(pop)
 }
@@ -213,7 +213,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::AudioSource::get_clip
 // Il2CppName: get_clip
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AudioClip* (UnityEngine::AudioSource::*)()>(&UnityEngine::AudioSource::get_clip)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AudioClip* (UnityEngine::AudioSource::*)()>(&UnityEngine::AudioSource::get_clip)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioSource*), "get_clip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -221,7 +221,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::AudioSource::set_clip
 // Il2CppName: set_clip
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AudioSource::*)(UnityEngine::AudioClip*)>(&UnityEngine::AudioSource::set_clip)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AudioSource::*)(::UnityEngine::AudioClip*)>(&UnityEngine::AudioSource::set_clip)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "AudioClip")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioSource*), "set_clip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -345,7 +345,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AudioSource::GetPitch
 // Il2CppName: GetPitch
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::AudioSource*)>(&UnityEngine::AudioSource::GetPitch)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::UnityEngine::AudioSource*)>(&UnityEngine::AudioSource::GetPitch)> {
   static const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("UnityEngine", "AudioSource")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioSource*), "GetPitch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{source});
@@ -354,7 +354,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(U
 // Writing MetadataGetter for method: UnityEngine::AudioSource::SetPitch
 // Il2CppName: SetPitch
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::AudioSource*, float)>(&UnityEngine::AudioSource::SetPitch)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::AudioSource*, float)>(&UnityEngine::AudioSource::SetPitch)> {
   static const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("UnityEngine", "AudioSource")->byval_arg;
     static auto* pitch = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -364,7 +364,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::AudioSource::PlayHelper
 // Il2CppName: PlayHelper
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::AudioSource*, uint64_t)>(&UnityEngine::AudioSource::PlayHelper)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::AudioSource*, uint64_t)>(&UnityEngine::AudioSource::PlayHelper)> {
   static const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("UnityEngine", "AudioSource")->byval_arg;
     static auto* delay = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
@@ -383,7 +383,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AudioSource::PlayOneShotHelper
 // Il2CppName: PlayOneShotHelper
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::AudioSource*, UnityEngine::AudioClip*, float)>(&UnityEngine::AudioSource::PlayOneShotHelper)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::AudioSource*, ::UnityEngine::AudioClip*, float)>(&UnityEngine::AudioSource::PlayOneShotHelper)> {
   static const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("UnityEngine", "AudioSource")->byval_arg;
     static auto* clip = &::il2cpp_utils::GetClassFromName("UnityEngine", "AudioClip")->byval_arg;
@@ -403,7 +403,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AudioSource::GetSpectrumDataHelper
 // Il2CppName: GetSpectrumDataHelper
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::AudioSource*, ByRef<::ArrayW<float>>, int, UnityEngine::FFTWindow)>(&UnityEngine::AudioSource::GetSpectrumDataHelper)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::AudioSource*, ByRef<::ArrayW<float>>, int, ::UnityEngine::FFTWindow)>(&UnityEngine::AudioSource::GetSpectrumDataHelper)> {
   static const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("UnityEngine", "AudioSource")->byval_arg;
     static auto* samples = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->this_arg;
@@ -432,7 +432,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AudioSource::PlayOneShot
 // Il2CppName: PlayOneShot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AudioSource::*)(UnityEngine::AudioClip*)>(&UnityEngine::AudioSource::PlayOneShot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AudioSource::*)(::UnityEngine::AudioClip*)>(&UnityEngine::AudioSource::PlayOneShot)> {
   static const MethodInfo* get() {
     static auto* clip = &::il2cpp_utils::GetClassFromName("UnityEngine", "AudioClip")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioSource*), "PlayOneShot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clip});
@@ -441,7 +441,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AudioSource::PlayOneShot
 // Il2CppName: PlayOneShot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AudioSource::*)(UnityEngine::AudioClip*, float)>(&UnityEngine::AudioSource::PlayOneShot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AudioSource::*)(::UnityEngine::AudioClip*, float)>(&UnityEngine::AudioSource::PlayOneShot)> {
   static const MethodInfo* get() {
     static auto* clip = &::il2cpp_utils::GetClassFromName("UnityEngine", "AudioClip")->byval_arg;
     static auto* volumeScale = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -475,7 +475,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AudioSource::GetSpectrumData
 // Il2CppName: GetSpectrumData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AudioSource::*)(::ArrayW<float>, int, UnityEngine::FFTWindow)>(&UnityEngine::AudioSource::GetSpectrumData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AudioSource::*)(::ArrayW<float>, int, ::UnityEngine::FFTWindow)>(&UnityEngine::AudioSource::GetSpectrumData)> {
   static const MethodInfo* get() {
     static auto* samples = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* channel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

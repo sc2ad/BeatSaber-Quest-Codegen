@@ -18,8 +18,8 @@ namespace GlobalNamespace {
   class IMockPlayerScoreCalculator;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::IMockPlayerScoreCalculator);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IMockPlayerScoreCalculator*, "", "IMockPlayerScoreCalculator");
+NEED_NO_BOX(::GlobalNamespace::IMockPlayerScoreCalculator);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IMockPlayerScoreCalculator*, "", "IMockPlayerScoreCalculator");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -30,7 +30,7 @@ namespace GlobalNamespace {
     public:
     // public System.Int32 GetScoreForNote(MockNoteData noteData)
     // Offset: 0xFFFFFFFF
-    int GetScoreForNote(GlobalNamespace::MockNoteData* noteData);
+    int GetScoreForNote(::GlobalNamespace::MockNoteData* noteData);
   }; // IMockPlayerScoreCalculator
   #pragma pack(pop)
 }
@@ -38,7 +38,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::IMockPlayerScoreCalculator::GetScoreForNote
 // Il2CppName: GetScoreForNote
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::IMockPlayerScoreCalculator::*)(GlobalNamespace::MockNoteData*)>(&GlobalNamespace::IMockPlayerScoreCalculator::GetScoreForNote)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::IMockPlayerScoreCalculator::*)(::GlobalNamespace::MockNoteData*)>(&GlobalNamespace::IMockPlayerScoreCalculator::GetScoreForNote)> {
   static const MethodInfo* get() {
     static auto* noteData = &::il2cpp_utils::GetClassFromName("", "MockNoteData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMockPlayerScoreCalculator*), "GetScoreForNote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteData});

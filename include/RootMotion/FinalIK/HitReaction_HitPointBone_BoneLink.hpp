@@ -27,8 +27,8 @@ namespace RootMotion::FinalIK {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::HitReaction::HitPointBone::BoneLink);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HitReaction::HitPointBone::BoneLink*, "RootMotion.FinalIK", "HitReaction/HitPointBone/BoneLink");
+NEED_NO_BOX(::RootMotion::FinalIK::HitReaction::HitPointBone::BoneLink);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::HitReaction::HitPointBone::BoneLink*, "RootMotion.FinalIK", "HitReaction/HitPointBone/BoneLink");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x3C
@@ -50,9 +50,9 @@ namespace RootMotion::FinalIK {
     // public UnityEngine.Transform bone
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::Transform* bone;
+    ::UnityEngine::Transform* bone;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // [TooltipAttribute] Offset: 0x1269E10
     // [RangeAttribute] Offset: 0x1269E10
     // public System.Single weight
@@ -64,27 +64,27 @@ namespace RootMotion::FinalIK {
     // private UnityEngine.Quaternion lastValue
     // Size: 0x10
     // Offset: 0x1C
-    UnityEngine::Quaternion lastValue;
+    ::UnityEngine::Quaternion lastValue;
     // Field size check
-    static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    static_assert(sizeof(::UnityEngine::Quaternion) == 0x10);
     // private UnityEngine.Quaternion current
     // Size: 0x10
     // Offset: 0x2C
-    UnityEngine::Quaternion current;
+    ::UnityEngine::Quaternion current;
     // Field size check
-    static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    static_assert(sizeof(::UnityEngine::Quaternion) == 0x10);
     public:
     // Get instance field reference: public UnityEngine.Transform bone
-    UnityEngine::Transform*& dyn_bone();
+    ::UnityEngine::Transform*& dyn_bone();
     // Get instance field reference: public System.Single weight
     float& dyn_weight();
     // Get instance field reference: private UnityEngine.Quaternion lastValue
-    UnityEngine::Quaternion& dyn_lastValue();
+    ::UnityEngine::Quaternion& dyn_lastValue();
     // Get instance field reference: private UnityEngine.Quaternion current
-    UnityEngine::Quaternion& dyn_current();
+    ::UnityEngine::Quaternion& dyn_current();
     // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, UnityEngine.Quaternion offset, System.Single crossFader)
     // Offset: 0x21C9FAC
-    void Apply(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, UnityEngine::Quaternion offset, float crossFader);
+    void Apply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, ::UnityEngine::Quaternion offset, float crossFader);
     // public System.Void CrossFadeStart()
     // Offset: 0x21C9D44
     void CrossFadeStart();
@@ -94,19 +94,19 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HitReaction::HitPointBone::BoneLink* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::HitReaction::HitPointBone::BoneLink::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::HitReaction::HitPointBone::BoneLink::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HitReaction::HitPointBone::BoneLink*, creationType>()));
     }
   }; // RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointBone/RootMotion.FinalIK.BoneLink
   #pragma pack(pop)
-  static check_size<sizeof(HitReaction::HitPointBone::BoneLink), 44 + sizeof(UnityEngine::Quaternion)> __RootMotion_FinalIK_HitReaction_HitPointBone_BoneLinkSizeCheck;
+  static check_size<sizeof(HitReaction::HitPointBone::BoneLink), 44 + sizeof(::UnityEngine::Quaternion)> __RootMotion_FinalIK_HitReaction_HitPointBone_BoneLinkSizeCheck;
   static_assert(sizeof(HitReaction::HitPointBone::BoneLink) == 0x3C);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::HitReaction::HitPointBone::BoneLink::Apply
 // Il2CppName: Apply
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::HitReaction::HitPointBone::BoneLink::*)(RootMotion::FinalIK::IKSolverFullBodyBiped*, UnityEngine::Quaternion, float)>(&RootMotion::FinalIK::HitReaction::HitPointBone::BoneLink::Apply)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::HitReaction::HitPointBone::BoneLink::*)(::RootMotion::FinalIK::IKSolverFullBodyBiped*, ::UnityEngine::Quaternion, float)>(&RootMotion::FinalIK::HitReaction::HitPointBone::BoneLink::Apply)> {
   static const MethodInfo* get() {
     static auto* solver = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverFullBodyBiped")->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;

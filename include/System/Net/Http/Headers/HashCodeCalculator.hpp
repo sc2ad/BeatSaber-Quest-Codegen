@@ -24,8 +24,8 @@ namespace System::Net::Http::Headers {
   class HashCodeCalculator;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::Http::Headers::HashCodeCalculator);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::HashCodeCalculator*, "System.Net.Http.Headers", "HashCodeCalculator");
+NEED_NO_BOX(::System::Net::Http::Headers::HashCodeCalculator);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::HashCodeCalculator*, "System.Net.Http.Headers", "HashCodeCalculator");
 // Type namespace: System.Net.Http.Headers
 namespace System::Net::Http::Headers {
   // Size: 0x10
@@ -37,8 +37,8 @@ namespace System::Net::Http::Headers {
     // static public System.Int32 Calculate(System.Collections.Generic.ICollection`1<T> list)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static int Calculate(System::Collections::Generic::ICollection_1<T>* list) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HashCodeCalculator::Calculate");
+    static int Calculate(::System::Collections::Generic::ICollection_1<T>* list) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::HashCodeCalculator::Calculate");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Net.Http.Headers", "HashCodeCalculator", "Calculate", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(list)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<int, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, list);

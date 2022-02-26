@@ -13,8 +13,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint*, "NUnit.Framework.Constraints", "NUnitEqualityComparer/FailurePoint");
+NEED_NO_BOX(::NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint);
+DEFINE_IL2CPP_ARG_TYPE(::NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint*, "NUnit.Framework.Constraints", "NUnitEqualityComparer/FailurePoint");
 // Type namespace: NUnit.Framework.Constraints
 namespace NUnit::Framework::Constraints {
   // Size: 0x2A
@@ -79,7 +79,7 @@ namespace NUnit::Framework::Constraints {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NUnitEqualityComparer::FailurePoint* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NUnitEqualityComparer::FailurePoint*, creationType>()));
     }
   }; // NUnit.Framework.Constraints.NUnitEqualityComparer/NUnit.Framework.Constraints.FailurePoint

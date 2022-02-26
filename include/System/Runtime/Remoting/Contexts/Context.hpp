@@ -68,8 +68,8 @@ namespace System::Runtime::Remoting::Contexts {
   class Context;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Remoting::Contexts::Context);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::Context*, "System.Runtime.Remoting.Contexts", "Context");
+NEED_NO_BOX(::System::Runtime::Remoting::Contexts::Context);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Contexts::Context*, "System.Runtime.Remoting.Contexts", "Context");
 // Type namespace: System.Runtime.Remoting.Contexts
 namespace System::Runtime::Remoting::Contexts {
   // Size: 0x58
@@ -104,101 +104,101 @@ namespace System::Runtime::Remoting::Contexts {
     // private System.UIntPtr static_data
     // Size: 0x8
     // Offset: 0x18
-    System::UIntPtr static_data;
+    ::System::UIntPtr static_data;
     // Field size check
-    static_assert(sizeof(System::UIntPtr) == 0x8);
+    static_assert(sizeof(::System::UIntPtr) == 0x8);
     // private System.UIntPtr data
     // Size: 0x8
     // Offset: 0x20
-    System::UIntPtr data;
+    ::System::UIntPtr data;
     // Field size check
-    static_assert(sizeof(System::UIntPtr) == 0x8);
+    static_assert(sizeof(::System::UIntPtr) == 0x8);
     // private System.Runtime.Remoting.Messaging.IMessageSink server_context_sink_chain
     // Size: 0x8
     // Offset: 0x28
-    System::Runtime::Remoting::Messaging::IMessageSink* server_context_sink_chain;
+    ::System::Runtime::Remoting::Messaging::IMessageSink* server_context_sink_chain;
     // Field size check
-    static_assert(sizeof(System::Runtime::Remoting::Messaging::IMessageSink*) == 0x8);
+    static_assert(sizeof(::System::Runtime::Remoting::Messaging::IMessageSink*) == 0x8);
     // private System.Runtime.Remoting.Messaging.IMessageSink client_context_sink_chain
     // Size: 0x8
     // Offset: 0x30
-    System::Runtime::Remoting::Messaging::IMessageSink* client_context_sink_chain;
+    ::System::Runtime::Remoting::Messaging::IMessageSink* client_context_sink_chain;
     // Field size check
-    static_assert(sizeof(System::Runtime::Remoting::Messaging::IMessageSink*) == 0x8);
+    static_assert(sizeof(::System::Runtime::Remoting::Messaging::IMessageSink*) == 0x8);
     // private System.Collections.Generic.List`1<System.Runtime.Remoting.Contexts.IContextProperty> context_properties
     // Size: 0x8
     // Offset: 0x38
-    System::Collections::Generic::List_1<System::Runtime::Remoting::Contexts::IContextProperty*>* context_properties;
+    ::System::Collections::Generic::List_1<::System::Runtime::Remoting::Contexts::IContextProperty*>* context_properties;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<System::Runtime::Remoting::Contexts::IContextProperty*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::System::Runtime::Remoting::Contexts::IContextProperty*>*) == 0x8);
     // private System.LocalDataStoreHolder _localDataStore
     // Size: 0x8
     // Offset: 0x40
-    System::LocalDataStoreHolder* localDataStore;
+    ::System::LocalDataStoreHolder* localDataStore;
     // Field size check
-    static_assert(sizeof(System::LocalDataStoreHolder*) == 0x8);
+    static_assert(sizeof(::System::LocalDataStoreHolder*) == 0x8);
     // private System.Runtime.Remoting.Contexts.DynamicPropertyCollection context_dynamic_properties
     // Size: 0x8
     // Offset: 0x48
-    System::Runtime::Remoting::Contexts::DynamicPropertyCollection* context_dynamic_properties;
+    ::System::Runtime::Remoting::Contexts::DynamicPropertyCollection* context_dynamic_properties;
     // Field size check
-    static_assert(sizeof(System::Runtime::Remoting::Contexts::DynamicPropertyCollection*) == 0x8);
+    static_assert(sizeof(::System::Runtime::Remoting::Contexts::DynamicPropertyCollection*) == 0x8);
     // private System.Runtime.Remoting.Contexts.ContextCallbackObject callback_object
     // Size: 0x8
     // Offset: 0x50
-    System::Runtime::Remoting::Contexts::ContextCallbackObject* callback_object;
+    ::System::Runtime::Remoting::Contexts::ContextCallbackObject* callback_object;
     // Field size check
-    static_assert(sizeof(System::Runtime::Remoting::Contexts::ContextCallbackObject*) == 0x8);
+    static_assert(sizeof(::System::Runtime::Remoting::Contexts::ContextCallbackObject*) == 0x8);
     public:
     // Get static field: static private System.Object[] local_slots
     static ::ArrayW<::Il2CppObject*> _get_local_slots();
     // Set static field: static private System.Object[] local_slots
     static void _set_local_slots(::ArrayW<::Il2CppObject*> value);
     // Get static field: static private System.Runtime.Remoting.Messaging.IMessageSink default_server_context_sink
-    static System::Runtime::Remoting::Messaging::IMessageSink* _get_default_server_context_sink();
+    static ::System::Runtime::Remoting::Messaging::IMessageSink* _get_default_server_context_sink();
     // Set static field: static private System.Runtime.Remoting.Messaging.IMessageSink default_server_context_sink
-    static void _set_default_server_context_sink(System::Runtime::Remoting::Messaging::IMessageSink* value);
+    static void _set_default_server_context_sink(::System::Runtime::Remoting::Messaging::IMessageSink* value);
     // Get static field: static private System.Int32 global_count
     static int _get_global_count();
     // Set static field: static private System.Int32 global_count
     static void _set_global_count(int value);
     // Get static field: static private System.LocalDataStoreMgr _localDataStoreMgr
-    static System::LocalDataStoreMgr* _get__localDataStoreMgr();
+    static ::System::LocalDataStoreMgr* _get__localDataStoreMgr();
     // Set static field: static private System.LocalDataStoreMgr _localDataStoreMgr
-    static void _set__localDataStoreMgr(System::LocalDataStoreMgr* value);
+    static void _set__localDataStoreMgr(::System::LocalDataStoreMgr* value);
     // Get static field: static private System.Runtime.Remoting.Contexts.DynamicPropertyCollection global_dynamic_properties
-    static System::Runtime::Remoting::Contexts::DynamicPropertyCollection* _get_global_dynamic_properties();
+    static ::System::Runtime::Remoting::Contexts::DynamicPropertyCollection* _get_global_dynamic_properties();
     // Set static field: static private System.Runtime.Remoting.Contexts.DynamicPropertyCollection global_dynamic_properties
-    static void _set_global_dynamic_properties(System::Runtime::Remoting::Contexts::DynamicPropertyCollection* value);
+    static void _set_global_dynamic_properties(::System::Runtime::Remoting::Contexts::DynamicPropertyCollection* value);
     // Get instance field reference: private System.Int32 domain_id
     int& dyn_domain_id();
     // Get instance field reference: private System.Int32 context_id
     int& dyn_context_id();
     // Get instance field reference: private System.UIntPtr static_data
-    System::UIntPtr& dyn_static_data();
+    ::System::UIntPtr& dyn_static_data();
     // Get instance field reference: private System.UIntPtr data
-    System::UIntPtr& dyn_data();
+    ::System::UIntPtr& dyn_data();
     // Get instance field reference: private System.Runtime.Remoting.Messaging.IMessageSink server_context_sink_chain
-    System::Runtime::Remoting::Messaging::IMessageSink*& dyn_server_context_sink_chain();
+    ::System::Runtime::Remoting::Messaging::IMessageSink*& dyn_server_context_sink_chain();
     // Get instance field reference: private System.Runtime.Remoting.Messaging.IMessageSink client_context_sink_chain
-    System::Runtime::Remoting::Messaging::IMessageSink*& dyn_client_context_sink_chain();
+    ::System::Runtime::Remoting::Messaging::IMessageSink*& dyn_client_context_sink_chain();
     // Get instance field reference: private System.Collections.Generic.List`1<System.Runtime.Remoting.Contexts.IContextProperty> context_properties
-    System::Collections::Generic::List_1<System::Runtime::Remoting::Contexts::IContextProperty*>*& dyn_context_properties();
+    ::System::Collections::Generic::List_1<::System::Runtime::Remoting::Contexts::IContextProperty*>*& dyn_context_properties();
     // Get instance field reference: private System.LocalDataStoreHolder _localDataStore
-    System::LocalDataStoreHolder*& dyn__localDataStore();
+    ::System::LocalDataStoreHolder*& dyn__localDataStore();
     // Get instance field reference: private System.Runtime.Remoting.Contexts.DynamicPropertyCollection context_dynamic_properties
-    System::Runtime::Remoting::Contexts::DynamicPropertyCollection*& dyn_context_dynamic_properties();
+    ::System::Runtime::Remoting::Contexts::DynamicPropertyCollection*& dyn_context_dynamic_properties();
     // Get instance field reference: private System.Runtime.Remoting.Contexts.ContextCallbackObject callback_object
-    System::Runtime::Remoting::Contexts::ContextCallbackObject*& dyn_callback_object();
+    ::System::Runtime::Remoting::Contexts::ContextCallbackObject*& dyn_callback_object();
     // static public System.Runtime.Remoting.Contexts.Context get_DefaultContext()
     // Offset: 0x1B7EF98
-    static System::Runtime::Remoting::Contexts::Context* get_DefaultContext();
+    static ::System::Runtime::Remoting::Contexts::Context* get_DefaultContext();
     // public System.Int32 get_ContextID()
     // Offset: 0x1B7EFA0
     int get_ContextID();
     // public System.Runtime.Remoting.Contexts.IContextProperty[] get_ContextProperties()
     // Offset: 0x1B7EFA8
-    ::ArrayW<System::Runtime::Remoting::Contexts::IContextProperty*> get_ContextProperties();
+    ::ArrayW<::System::Runtime::Remoting::Contexts::IContextProperty*> get_ContextProperties();
     // System.Boolean get_IsDefaultContext()
     // Offset: 0x1B7F018
     bool get_IsDefaultContext();
@@ -216,86 +216,86 @@ namespace System::Runtime::Remoting::Contexts {
     bool get_HasExitSinks();
     // private System.LocalDataStore get_MyLocalStore()
     // Offset: 0x1B81608
-    System::LocalDataStore* get_MyLocalStore();
+    ::System::LocalDataStore* get_MyLocalStore();
     // static private System.Void .cctor()
     // Offset: 0x1B819CC
     static void _cctor();
     // static private System.Void RegisterContext(System.Runtime.Remoting.Contexts.Context ctx)
     // Offset: 0x1B7EE4C
-    static void RegisterContext(System::Runtime::Remoting::Contexts::Context* ctx);
+    static void RegisterContext(::System::Runtime::Remoting::Contexts::Context* ctx);
     // static private System.Void ReleaseContext(System.Runtime.Remoting.Contexts.Context ctx)
     // Offset: 0x1B7EE50
-    static void ReleaseContext(System::Runtime::Remoting::Contexts::Context* ctx);
+    static void ReleaseContext(::System::Runtime::Remoting::Contexts::Context* ctx);
     // static public System.Boolean RegisterDynamicProperty(System.Runtime.Remoting.Contexts.IDynamicProperty prop, System.ContextBoundObject obj, System.Runtime.Remoting.Contexts.Context ctx)
     // Offset: 0x1B7F154
-    static bool RegisterDynamicProperty(System::Runtime::Remoting::Contexts::IDynamicProperty* prop, System::ContextBoundObject* obj, System::Runtime::Remoting::Contexts::Context* ctx);
+    static bool RegisterDynamicProperty(::System::Runtime::Remoting::Contexts::IDynamicProperty* prop, ::System::ContextBoundObject* obj, ::System::Runtime::Remoting::Contexts::Context* ctx);
     // static public System.Boolean UnregisterDynamicProperty(System.String name, System.ContextBoundObject obj, System.Runtime.Remoting.Contexts.Context ctx)
     // Offset: 0x1B7F658
-    static bool UnregisterDynamicProperty(::StringW name, System::ContextBoundObject* obj, System::Runtime::Remoting::Contexts::Context* ctx);
+    static bool UnregisterDynamicProperty(::StringW name, ::System::ContextBoundObject* obj, ::System::Runtime::Remoting::Contexts::Context* ctx);
     // static private System.Runtime.Remoting.Contexts.DynamicPropertyCollection GetDynamicPropertyCollection(System.ContextBoundObject obj, System.Runtime.Remoting.Contexts.Context ctx)
     // Offset: 0x1B7F1DC
-    static System::Runtime::Remoting::Contexts::DynamicPropertyCollection* GetDynamicPropertyCollection(System::ContextBoundObject* obj, System::Runtime::Remoting::Contexts::Context* ctx);
+    static ::System::Runtime::Remoting::Contexts::DynamicPropertyCollection* GetDynamicPropertyCollection(::System::ContextBoundObject* obj, ::System::Runtime::Remoting::Contexts::Context* ctx);
     // static System.Void NotifyGlobalDynamicSinks(System.Boolean start, System.Runtime.Remoting.Messaging.IMessage req_msg, System.Boolean client_site, System.Boolean async)
     // Offset: 0x1B7F900
-    static void NotifyGlobalDynamicSinks(bool start, System::Runtime::Remoting::Messaging::IMessage* req_msg, bool client_site, bool async);
+    static void NotifyGlobalDynamicSinks(bool start, ::System::Runtime::Remoting::Messaging::IMessage* req_msg, bool client_site, bool async);
     // System.Void NotifyDynamicSinks(System.Boolean start, System.Runtime.Remoting.Messaging.IMessage req_msg, System.Boolean client_site, System.Boolean async)
     // Offset: 0x1B80088
-    void NotifyDynamicSinks(bool start, System::Runtime::Remoting::Messaging::IMessage* req_msg, bool client_site, bool async);
+    void NotifyDynamicSinks(bool start, ::System::Runtime::Remoting::Messaging::IMessage* req_msg, bool client_site, bool async);
     // public System.Runtime.Remoting.Contexts.IContextProperty GetProperty(System.String name)
     // Offset: 0x1B803C4
-    System::Runtime::Remoting::Contexts::IContextProperty* GetProperty(::StringW name);
+    ::System::Runtime::Remoting::Contexts::IContextProperty* GetProperty(::StringW name);
     // public System.Void SetProperty(System.Runtime.Remoting.Contexts.IContextProperty prop)
     // Offset: 0x1B80548
-    void SetProperty(System::Runtime::Remoting::Contexts::IContextProperty* prop);
+    void SetProperty(::System::Runtime::Remoting::Contexts::IContextProperty* prop);
     // public System.Void Freeze()
     // Offset: 0x1B8067C
     void Freeze();
     // System.Runtime.Remoting.Messaging.IMessageSink GetServerContextSinkChain()
     // Offset: 0x1B80860
-    System::Runtime::Remoting::Messaging::IMessageSink* GetServerContextSinkChain();
+    ::System::Runtime::Remoting::Messaging::IMessageSink* GetServerContextSinkChain();
     // System.Runtime.Remoting.Messaging.IMessageSink GetClientContextSinkChain()
     // Offset: 0x1B8021C
-    System::Runtime::Remoting::Messaging::IMessageSink* GetClientContextSinkChain();
+    ::System::Runtime::Remoting::Messaging::IMessageSink* GetClientContextSinkChain();
     // System.Runtime.Remoting.Messaging.IMessageSink CreateServerObjectSinkChain(System.MarshalByRefObject obj, System.Boolean forceInternalExecute)
     // Offset: 0x1B7B488
-    System::Runtime::Remoting::Messaging::IMessageSink* CreateServerObjectSinkChain(System::MarshalByRefObject* obj, bool forceInternalExecute);
+    ::System::Runtime::Remoting::Messaging::IMessageSink* CreateServerObjectSinkChain(::System::MarshalByRefObject* obj, bool forceInternalExecute);
     // System.Runtime.Remoting.Messaging.IMessageSink CreateEnvoySink(System.MarshalByRefObject serverObject)
     // Offset: 0x1B80B6C
-    System::Runtime::Remoting::Messaging::IMessageSink* CreateEnvoySink(System::MarshalByRefObject* serverObject);
+    ::System::Runtime::Remoting::Messaging::IMessageSink* CreateEnvoySink(::System::MarshalByRefObject* serverObject);
     // static System.Runtime.Remoting.Contexts.Context SwitchToContext(System.Runtime.Remoting.Contexts.Context newContext)
     // Offset: 0x1B80D1C
-    static System::Runtime::Remoting::Contexts::Context* SwitchToContext(System::Runtime::Remoting::Contexts::Context* newContext);
+    static ::System::Runtime::Remoting::Contexts::Context* SwitchToContext(::System::Runtime::Remoting::Contexts::Context* newContext);
     // static System.Runtime.Remoting.Contexts.Context CreateNewContext(System.Runtime.Remoting.Activation.IConstructionCallMessage msg)
     // Offset: 0x1B80D24
-    static System::Runtime::Remoting::Contexts::Context* CreateNewContext(System::Runtime::Remoting::Activation::IConstructionCallMessage* msg);
+    static ::System::Runtime::Remoting::Contexts::Context* CreateNewContext(::System::Runtime::Remoting::Activation::IConstructionCallMessage* msg);
     // public System.Void DoCallBack(System.Runtime.Remoting.Contexts.CrossContextDelegate deleg)
     // Offset: 0x1B814D8
-    void DoCallBack(System::Runtime::Remoting::Contexts::CrossContextDelegate* deleg);
+    void DoCallBack(::System::Runtime::Remoting::Contexts::CrossContextDelegate* deleg);
     // static public System.LocalDataStoreSlot AllocateDataSlot()
     // Offset: 0x1B81764
-    static System::LocalDataStoreSlot* AllocateDataSlot();
+    static ::System::LocalDataStoreSlot* AllocateDataSlot();
     // static public System.LocalDataStoreSlot AllocateNamedDataSlot(System.String name)
     // Offset: 0x1B817D8
-    static System::LocalDataStoreSlot* AllocateNamedDataSlot(::StringW name);
+    static ::System::LocalDataStoreSlot* AllocateNamedDataSlot(::StringW name);
     // static public System.Void FreeNamedDataSlot(System.String name)
     // Offset: 0x1B81854
     static void FreeNamedDataSlot(::StringW name);
     // static public System.LocalDataStoreSlot GetNamedDataSlot(System.String name)
     // Offset: 0x1B818D0
-    static System::LocalDataStoreSlot* GetNamedDataSlot(::StringW name);
+    static ::System::LocalDataStoreSlot* GetNamedDataSlot(::StringW name);
     // static public System.Object GetData(System.LocalDataStoreSlot slot)
     // Offset: 0x1B8194C
-    static ::Il2CppObject* GetData(System::LocalDataStoreSlot* slot);
+    static ::Il2CppObject* GetData(::System::LocalDataStoreSlot* slot);
     // static public System.Void SetData(System.LocalDataStoreSlot slot, System.Object data)
     // Offset: 0x1B81988
-    static void SetData(System::LocalDataStoreSlot* slot, ::Il2CppObject* data);
+    static void SetData(::System::LocalDataStoreSlot* slot, ::Il2CppObject* data);
     // public System.Void .ctor()
     // Offset: 0x1B7EE54
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Context* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Contexts::Context::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::Contexts::Context::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Context*, creationType>()));
     }
     // protected override System.Void Finalize()
@@ -310,14 +310,14 @@ namespace System::Runtime::Remoting::Contexts {
     ::StringW ToString();
   }; // System.Runtime.Remoting.Contexts.Context
   #pragma pack(pop)
-  static check_size<sizeof(Context), 80 + sizeof(System::Runtime::Remoting::Contexts::ContextCallbackObject*)> __System_Runtime_Remoting_Contexts_ContextSizeCheck;
+  static check_size<sizeof(Context), 80 + sizeof(::System::Runtime::Remoting::Contexts::ContextCallbackObject*)> __System_Runtime_Remoting_Contexts_ContextSizeCheck;
   static_assert(sizeof(Context) == 0x58);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::Context::get_DefaultContext
 // Il2CppName: get_DefaultContext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Contexts::Context* (*)()>(&System::Runtime::Remoting::Contexts::Context::get_DefaultContext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Contexts::Context* (*)()>(&System::Runtime::Remoting::Contexts::Context::get_DefaultContext)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::Context*), "get_DefaultContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -333,7 +333,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::Context::get_ContextProperties
 // Il2CppName: get_ContextProperties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Runtime::Remoting::Contexts::IContextProperty*> (System::Runtime::Remoting::Contexts::Context::*)()>(&System::Runtime::Remoting::Contexts::Context::get_ContextProperties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Runtime::Remoting::Contexts::IContextProperty*> (System::Runtime::Remoting::Contexts::Context::*)()>(&System::Runtime::Remoting::Contexts::Context::get_ContextProperties)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::Context*), "get_ContextProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -381,7 +381,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::Context::get_MyLocalStore
 // Il2CppName: get_MyLocalStore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::LocalDataStore* (System::Runtime::Remoting::Contexts::Context::*)()>(&System::Runtime::Remoting::Contexts::Context::get_MyLocalStore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::LocalDataStore* (System::Runtime::Remoting::Contexts::Context::*)()>(&System::Runtime::Remoting::Contexts::Context::get_MyLocalStore)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::Context*), "get_MyLocalStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -397,7 +397,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::Context::RegisterContext
 // Il2CppName: RegisterContext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Remoting::Contexts::Context*)>(&System::Runtime::Remoting::Contexts::Context::RegisterContext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Runtime::Remoting::Contexts::Context*)>(&System::Runtime::Remoting::Contexts::Context::RegisterContext)> {
   static const MethodInfo* get() {
     static auto* ctx = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Contexts", "Context")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::Context*), "RegisterContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ctx});
@@ -406,7 +406,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::Context::ReleaseContext
 // Il2CppName: ReleaseContext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Remoting::Contexts::Context*)>(&System::Runtime::Remoting::Contexts::Context::ReleaseContext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Runtime::Remoting::Contexts::Context*)>(&System::Runtime::Remoting::Contexts::Context::ReleaseContext)> {
   static const MethodInfo* get() {
     static auto* ctx = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Contexts", "Context")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::Context*), "ReleaseContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ctx});
@@ -415,7 +415,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::Context::RegisterDynamicProperty
 // Il2CppName: RegisterDynamicProperty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Runtime::Remoting::Contexts::IDynamicProperty*, System::ContextBoundObject*, System::Runtime::Remoting::Contexts::Context*)>(&System::Runtime::Remoting::Contexts::Context::RegisterDynamicProperty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Runtime::Remoting::Contexts::IDynamicProperty*, ::System::ContextBoundObject*, ::System::Runtime::Remoting::Contexts::Context*)>(&System::Runtime::Remoting::Contexts::Context::RegisterDynamicProperty)> {
   static const MethodInfo* get() {
     static auto* prop = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Contexts", "IDynamicProperty")->byval_arg;
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "ContextBoundObject")->byval_arg;
@@ -426,7 +426,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::Context::UnregisterDynamicProperty
 // Il2CppName: UnregisterDynamicProperty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, System::ContextBoundObject*, System::Runtime::Remoting::Contexts::Context*)>(&System::Runtime::Remoting::Contexts::Context::UnregisterDynamicProperty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::System::ContextBoundObject*, ::System::Runtime::Remoting::Contexts::Context*)>(&System::Runtime::Remoting::Contexts::Context::UnregisterDynamicProperty)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "ContextBoundObject")->byval_arg;
@@ -437,7 +437,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::Context::GetDynamicPropertyCollection
 // Il2CppName: GetDynamicPropertyCollection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Contexts::DynamicPropertyCollection* (*)(System::ContextBoundObject*, System::Runtime::Remoting::Contexts::Context*)>(&System::Runtime::Remoting::Contexts::Context::GetDynamicPropertyCollection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Contexts::DynamicPropertyCollection* (*)(::System::ContextBoundObject*, ::System::Runtime::Remoting::Contexts::Context*)>(&System::Runtime::Remoting::Contexts::Context::GetDynamicPropertyCollection)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "ContextBoundObject")->byval_arg;
     static auto* ctx = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Contexts", "Context")->byval_arg;
@@ -447,7 +447,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::Context::NotifyGlobalDynamicSinks
 // Il2CppName: NotifyGlobalDynamicSinks
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, System::Runtime::Remoting::Messaging::IMessage*, bool, bool)>(&System::Runtime::Remoting::Contexts::Context::NotifyGlobalDynamicSinks)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, ::System::Runtime::Remoting::Messaging::IMessage*, bool, bool)>(&System::Runtime::Remoting::Contexts::Context::NotifyGlobalDynamicSinks)> {
   static const MethodInfo* get() {
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* req_msg = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Messaging", "IMessage")->byval_arg;
@@ -459,7 +459,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bo
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::Context::NotifyDynamicSinks
 // Il2CppName: NotifyDynamicSinks
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Contexts::Context::*)(bool, System::Runtime::Remoting::Messaging::IMessage*, bool, bool)>(&System::Runtime::Remoting::Contexts::Context::NotifyDynamicSinks)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Contexts::Context::*)(bool, ::System::Runtime::Remoting::Messaging::IMessage*, bool, bool)>(&System::Runtime::Remoting::Contexts::Context::NotifyDynamicSinks)> {
   static const MethodInfo* get() {
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* req_msg = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Messaging", "IMessage")->byval_arg;
@@ -471,7 +471,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::Context::GetProperty
 // Il2CppName: GetProperty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Contexts::IContextProperty* (System::Runtime::Remoting::Contexts::Context::*)(::StringW)>(&System::Runtime::Remoting::Contexts::Context::GetProperty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Contexts::IContextProperty* (System::Runtime::Remoting::Contexts::Context::*)(::StringW)>(&System::Runtime::Remoting::Contexts::Context::GetProperty)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::Context*), "GetProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -480,7 +480,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::Context::SetProperty
 // Il2CppName: SetProperty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Contexts::Context::*)(System::Runtime::Remoting::Contexts::IContextProperty*)>(&System::Runtime::Remoting::Contexts::Context::SetProperty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Contexts::Context::*)(::System::Runtime::Remoting::Contexts::IContextProperty*)>(&System::Runtime::Remoting::Contexts::Context::SetProperty)> {
   static const MethodInfo* get() {
     static auto* prop = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Contexts", "IContextProperty")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::Context*), "SetProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{prop});
@@ -497,7 +497,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::Context::GetServerContextSinkChain
 // Il2CppName: GetServerContextSinkChain
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (System::Runtime::Remoting::Contexts::Context::*)()>(&System::Runtime::Remoting::Contexts::Context::GetServerContextSinkChain)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::IMessageSink* (System::Runtime::Remoting::Contexts::Context::*)()>(&System::Runtime::Remoting::Contexts::Context::GetServerContextSinkChain)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::Context*), "GetServerContextSinkChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -505,7 +505,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::Context::GetClientContextSinkChain
 // Il2CppName: GetClientContextSinkChain
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (System::Runtime::Remoting::Contexts::Context::*)()>(&System::Runtime::Remoting::Contexts::Context::GetClientContextSinkChain)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::IMessageSink* (System::Runtime::Remoting::Contexts::Context::*)()>(&System::Runtime::Remoting::Contexts::Context::GetClientContextSinkChain)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::Context*), "GetClientContextSinkChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -513,7 +513,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::Context::CreateServerObjectSinkChain
 // Il2CppName: CreateServerObjectSinkChain
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (System::Runtime::Remoting::Contexts::Context::*)(System::MarshalByRefObject*, bool)>(&System::Runtime::Remoting::Contexts::Context::CreateServerObjectSinkChain)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::IMessageSink* (System::Runtime::Remoting::Contexts::Context::*)(::System::MarshalByRefObject*, bool)>(&System::Runtime::Remoting::Contexts::Context::CreateServerObjectSinkChain)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "MarshalByRefObject")->byval_arg;
     static auto* forceInternalExecute = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -523,7 +523,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::Context::CreateEnvoySink
 // Il2CppName: CreateEnvoySink
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (System::Runtime::Remoting::Contexts::Context::*)(System::MarshalByRefObject*)>(&System::Runtime::Remoting::Contexts::Context::CreateEnvoySink)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::IMessageSink* (System::Runtime::Remoting::Contexts::Context::*)(::System::MarshalByRefObject*)>(&System::Runtime::Remoting::Contexts::Context::CreateEnvoySink)> {
   static const MethodInfo* get() {
     static auto* serverObject = &::il2cpp_utils::GetClassFromName("System", "MarshalByRefObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::Context*), "CreateEnvoySink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{serverObject});
@@ -532,7 +532,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::Context::SwitchToContext
 // Il2CppName: SwitchToContext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Contexts::Context* (*)(System::Runtime::Remoting::Contexts::Context*)>(&System::Runtime::Remoting::Contexts::Context::SwitchToContext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Contexts::Context* (*)(::System::Runtime::Remoting::Contexts::Context*)>(&System::Runtime::Remoting::Contexts::Context::SwitchToContext)> {
   static const MethodInfo* get() {
     static auto* newContext = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Contexts", "Context")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::Context*), "SwitchToContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newContext});
@@ -541,7 +541,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::Context::CreateNewContext
 // Il2CppName: CreateNewContext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Contexts::Context* (*)(System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(&System::Runtime::Remoting::Contexts::Context::CreateNewContext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Contexts::Context* (*)(::System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(&System::Runtime::Remoting::Contexts::Context::CreateNewContext)> {
   static const MethodInfo* get() {
     static auto* msg = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Activation", "IConstructionCallMessage")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::Context*), "CreateNewContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{msg});
@@ -550,7 +550,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::Context::DoCallBack
 // Il2CppName: DoCallBack
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Contexts::Context::*)(System::Runtime::Remoting::Contexts::CrossContextDelegate*)>(&System::Runtime::Remoting::Contexts::Context::DoCallBack)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Contexts::Context::*)(::System::Runtime::Remoting::Contexts::CrossContextDelegate*)>(&System::Runtime::Remoting::Contexts::Context::DoCallBack)> {
   static const MethodInfo* get() {
     static auto* deleg = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Contexts", "CrossContextDelegate")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::Context*), "DoCallBack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{deleg});
@@ -559,7 +559,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::Context::AllocateDataSlot
 // Il2CppName: AllocateDataSlot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::LocalDataStoreSlot* (*)()>(&System::Runtime::Remoting::Contexts::Context::AllocateDataSlot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::LocalDataStoreSlot* (*)()>(&System::Runtime::Remoting::Contexts::Context::AllocateDataSlot)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::Context*), "AllocateDataSlot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -567,7 +567,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Loc
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::Context::AllocateNamedDataSlot
 // Il2CppName: AllocateNamedDataSlot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::LocalDataStoreSlot* (*)(::StringW)>(&System::Runtime::Remoting::Contexts::Context::AllocateNamedDataSlot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::LocalDataStoreSlot* (*)(::StringW)>(&System::Runtime::Remoting::Contexts::Context::AllocateNamedDataSlot)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::Context*), "AllocateNamedDataSlot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -585,7 +585,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::Context::GetNamedDataSlot
 // Il2CppName: GetNamedDataSlot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::LocalDataStoreSlot* (*)(::StringW)>(&System::Runtime::Remoting::Contexts::Context::GetNamedDataSlot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::LocalDataStoreSlot* (*)(::StringW)>(&System::Runtime::Remoting::Contexts::Context::GetNamedDataSlot)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::Context*), "GetNamedDataSlot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -594,7 +594,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Loc
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::Context::GetData
 // Il2CppName: GetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::LocalDataStoreSlot*)>(&System::Runtime::Remoting::Contexts::Context::GetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::System::LocalDataStoreSlot*)>(&System::Runtime::Remoting::Contexts::Context::GetData)> {
   static const MethodInfo* get() {
     static auto* slot = &::il2cpp_utils::GetClassFromName("System", "LocalDataStoreSlot")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::Context*), "GetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{slot});
@@ -603,7 +603,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::Context::SetData
 // Il2CppName: SetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::LocalDataStoreSlot*, ::Il2CppObject*)>(&System::Runtime::Remoting::Contexts::Context::SetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::LocalDataStoreSlot*, ::Il2CppObject*)>(&System::Runtime::Remoting::Contexts::Context::SetData)> {
   static const MethodInfo* get() {
     static auto* slot = &::il2cpp_utils::GetClassFromName("System", "LocalDataStoreSlot")->byval_arg;
     static auto* data = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;

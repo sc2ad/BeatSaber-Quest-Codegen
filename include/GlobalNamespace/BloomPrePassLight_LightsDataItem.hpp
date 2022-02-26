@@ -26,8 +26,8 @@ namespace System::Collections::Generic {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BloomPrePassLight::LightsDataItem);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassLight::LightsDataItem*, "", "BloomPrePassLight/LightsDataItem");
+NEED_NO_BOX(::GlobalNamespace::BloomPrePassLight::LightsDataItem);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BloomPrePassLight::LightsDataItem*, "", "BloomPrePassLight/LightsDataItem");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -48,30 +48,30 @@ namespace GlobalNamespace {
     // public readonly BloomPrePassLightTypeSO lightType
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::BloomPrePassLightTypeSO* lightType;
+    ::GlobalNamespace::BloomPrePassLightTypeSO* lightType;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::BloomPrePassLightTypeSO*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::BloomPrePassLightTypeSO*) == 0x8);
     // public readonly System.Collections.Generic.HashSet`1<BloomPrePassLight> lights
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight*>* lights;
+    ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BloomPrePassLight*>* lights;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::HashSet_1<::GlobalNamespace::BloomPrePassLight*>*) == 0x8);
     public:
     // Get instance field reference: public readonly BloomPrePassLightTypeSO lightType
-    GlobalNamespace::BloomPrePassLightTypeSO*& dyn_lightType();
+    ::GlobalNamespace::BloomPrePassLightTypeSO*& dyn_lightType();
     // Get instance field reference: public readonly System.Collections.Generic.HashSet`1<BloomPrePassLight> lights
-    System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight*>*& dyn_lights();
+    ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BloomPrePassLight*>*& dyn_lights();
     // public System.Void .ctor(BloomPrePassLightTypeSO lightType, System.Collections.Generic.HashSet`1<BloomPrePassLight> lights)
     // Offset: 0x2085DA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BloomPrePassLight::LightsDataItem* New_ctor(GlobalNamespace::BloomPrePassLightTypeSO* lightType, System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight*>* lights) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BloomPrePassLight::LightsDataItem::.ctor");
+    static BloomPrePassLight::LightsDataItem* New_ctor(::GlobalNamespace::BloomPrePassLightTypeSO* lightType, ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BloomPrePassLight*>* lights) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomPrePassLight::LightsDataItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassLight::LightsDataItem*, creationType>(lightType, lights)));
     }
   }; // BloomPrePassLight/LightsDataItem
   #pragma pack(pop)
-  static check_size<sizeof(BloomPrePassLight::LightsDataItem), 24 + sizeof(System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight*>*)> __GlobalNamespace_BloomPrePassLight_LightsDataItemSizeCheck;
+  static check_size<sizeof(BloomPrePassLight::LightsDataItem), 24 + sizeof(::System::Collections::Generic::HashSet_1<::GlobalNamespace::BloomPrePassLight*>*)> __GlobalNamespace_BloomPrePassLight_LightsDataItemSizeCheck;
   static_assert(sizeof(BloomPrePassLight::LightsDataItem) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -15,8 +15,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::XmlWellFormedWriter::AttributeValueCache::Item);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::AttributeValueCache::Item*, "System.Xml", "XmlWellFormedWriter/AttributeValueCache/Item");
+NEED_NO_BOX(::System::Xml::XmlWellFormedWriter::AttributeValueCache::Item);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlWellFormedWriter::AttributeValueCache::Item*, "System.Xml", "XmlWellFormedWriter/AttributeValueCache/Item");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x20
@@ -37,9 +37,9 @@ namespace System::Xml {
     // System.Xml.XmlWellFormedWriter/System.Xml.AttributeValueCache/System.Xml.ItemType type
     // Size: 0x4
     // Offset: 0x10
-    System::Xml::XmlWellFormedWriter::AttributeValueCache::ItemType type;
+    ::System::Xml::XmlWellFormedWriter::AttributeValueCache::ItemType type;
     // Field size check
-    static_assert(sizeof(System::Xml::XmlWellFormedWriter::AttributeValueCache::ItemType) == 0x4);
+    static_assert(sizeof(::System::Xml::XmlWellFormedWriter::AttributeValueCache::ItemType) == 0x4);
     // Padding between fields: type and: data
     char __padding0[0x4] = {};
     // System.Object data
@@ -50,19 +50,19 @@ namespace System::Xml {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     public:
     // Get instance field reference: System.Xml.XmlWellFormedWriter/System.Xml.AttributeValueCache/System.Xml.ItemType type
-    System::Xml::XmlWellFormedWriter::AttributeValueCache::ItemType& dyn_type();
+    ::System::Xml::XmlWellFormedWriter::AttributeValueCache::ItemType& dyn_type();
     // Get instance field reference: System.Object data
     ::Il2CppObject*& dyn_data();
     // System.Void Set(System.Xml.XmlWellFormedWriter/System.Xml.AttributeValueCache/System.Xml.ItemType type, System.Object data)
     // Offset: 0x1BC1868
-    void Set(System::Xml::XmlWellFormedWriter::AttributeValueCache::ItemType type, ::Il2CppObject* data);
+    void Set(::System::Xml::XmlWellFormedWriter::AttributeValueCache::ItemType type, ::Il2CppObject* data);
     // System.Void .ctor()
     // Offset: 0x1BC1860
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlWellFormedWriter::AttributeValueCache::Item* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlWellFormedWriter::AttributeValueCache::Item::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlWellFormedWriter::AttributeValueCache::Item::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlWellFormedWriter::AttributeValueCache::Item*, creationType>()));
     }
   }; // System.Xml.XmlWellFormedWriter/System.Xml.AttributeValueCache/System.Xml.Item
@@ -74,7 +74,7 @@ namespace System::Xml {
 // Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::AttributeValueCache::Item::Set
 // Il2CppName: Set
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::AttributeValueCache::Item::*)(System::Xml::XmlWellFormedWriter::AttributeValueCache::ItemType, ::Il2CppObject*)>(&System::Xml::XmlWellFormedWriter::AttributeValueCache::Item::Set)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::AttributeValueCache::Item::*)(::System::Xml::XmlWellFormedWriter::AttributeValueCache::ItemType, ::Il2CppObject*)>(&System::Xml::XmlWellFormedWriter::AttributeValueCache::Item::Set)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlWellFormedWriter/AttributeValueCache/ItemType")->byval_arg;
     static auto* data = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;

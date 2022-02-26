@@ -26,7 +26,7 @@ namespace UnityEngine {
   struct Quaternion;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Quaternion, "UnityEngine", "Quaternion");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Quaternion, "UnityEngine", "Quaternion");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -38,7 +38,7 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: 11A531C
   // [NativeTypeAttribute] Offset: 11A531C
   // [DefaultMemberAttribute] Offset: 11A531C
-  struct Quaternion/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Quaternion>*/ {
+  struct Quaternion/*, public ::System::ValueType, public ::System::IEquatable_1<::UnityEngine::Quaternion>*/ {
     public:
     public:
     // public System.Single x
@@ -68,18 +68,18 @@ namespace UnityEngine {
     public:
     // Creating value type constructor for type: Quaternion
     constexpr Quaternion(float x_ = {}, float y_ = {}, float z_ = {}, float w_ = {}) noexcept : x{x_}, y{y_}, z{z_}, w{w_} {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
-    // Creating interface conversion operator: operator System::IEquatable_1<UnityEngine::Quaternion>
-    operator System::IEquatable_1<UnityEngine::Quaternion>() noexcept {
-      return *reinterpret_cast<System::IEquatable_1<UnityEngine::Quaternion>*>(this);
+    // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::Quaternion>
+    operator ::System::IEquatable_1<::UnityEngine::Quaternion>() noexcept {
+      return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::Quaternion>*>(this);
     }
     // Get static field: static private readonly UnityEngine.Quaternion identityQuaternion
-    static UnityEngine::Quaternion _get_identityQuaternion();
+    static ::UnityEngine::Quaternion _get_identityQuaternion();
     // Set static field: static private readonly UnityEngine.Quaternion identityQuaternion
-    static void _set_identityQuaternion(UnityEngine::Quaternion value);
+    static void _set_identityQuaternion(::UnityEngine::Quaternion value);
     // static field const value: static public System.Single kEpsilon
     static constexpr const float kEpsilon = 1e-06;
     // Get static field: static public System.Single kEpsilon
@@ -102,13 +102,13 @@ namespace UnityEngine {
     void set_Item(int index, float value);
     // static public UnityEngine.Quaternion get_identity()
     // Offset: 0x20C5AA0
-    static UnityEngine::Quaternion get_identity();
+    static ::UnityEngine::Quaternion get_identity();
     // public UnityEngine.Vector3 get_eulerAngles()
     // Offset: 0x20C74A8
-    UnityEngine::Vector3 get_eulerAngles();
+    ::UnityEngine::Vector3 get_eulerAngles();
     // public System.Void set_eulerAngles(UnityEngine.Vector3 value)
     // Offset: 0x20C757C
-    void set_eulerAngles(UnityEngine::Vector3 value);
+    void set_eulerAngles(::UnityEngine::Vector3 value);
     // public System.Void .ctor(System.Single x, System.Single y, System.Single z, System.Single w)
     // Offset: 0x20C702C
     // ABORTED: conflicts with another method.  Quaternion(float x, float y, float z, float w);
@@ -117,106 +117,106 @@ namespace UnityEngine {
     static void _cctor();
     // static public UnityEngine.Quaternion FromToRotation(UnityEngine.Vector3 fromDirection, UnityEngine.Vector3 toDirection)
     // Offset: 0x20C6354
-    static UnityEngine::Quaternion FromToRotation(UnityEngine::Vector3 fromDirection, UnityEngine::Vector3 toDirection);
+    static ::UnityEngine::Quaternion FromToRotation(::UnityEngine::Vector3 fromDirection, ::UnityEngine::Vector3 toDirection);
     // static public UnityEngine.Quaternion Inverse(UnityEngine.Quaternion rotation)
     // Offset: 0x20C645C
-    static UnityEngine::Quaternion Inverse(UnityEngine::Quaternion rotation);
+    static ::UnityEngine::Quaternion Inverse(::UnityEngine::Quaternion rotation);
     // static public UnityEngine.Quaternion Slerp(UnityEngine.Quaternion a, UnityEngine.Quaternion b, System.Single t)
     // Offset: 0x20C6550
-    static UnityEngine::Quaternion Slerp(UnityEngine::Quaternion a, UnityEngine::Quaternion b, float t);
+    static ::UnityEngine::Quaternion Slerp(::UnityEngine::Quaternion a, ::UnityEngine::Quaternion b, float t);
     // static public UnityEngine.Quaternion SlerpUnclamped(UnityEngine.Quaternion a, UnityEngine.Quaternion b, System.Single t)
     // Offset: 0x20C6678
-    static UnityEngine::Quaternion SlerpUnclamped(UnityEngine::Quaternion a, UnityEngine::Quaternion b, float t);
+    static ::UnityEngine::Quaternion SlerpUnclamped(::UnityEngine::Quaternion a, ::UnityEngine::Quaternion b, float t);
     // static public UnityEngine.Quaternion Lerp(UnityEngine.Quaternion a, UnityEngine.Quaternion b, System.Single t)
     // Offset: 0x20C67A0
-    static UnityEngine::Quaternion Lerp(UnityEngine::Quaternion a, UnityEngine::Quaternion b, float t);
+    static ::UnityEngine::Quaternion Lerp(::UnityEngine::Quaternion a, ::UnityEngine::Quaternion b, float t);
     // static private UnityEngine.Quaternion Internal_FromEulerRad(UnityEngine.Vector3 euler)
     // Offset: 0x20C68C8
-    static UnityEngine::Quaternion Internal_FromEulerRad(UnityEngine::Vector3 euler);
+    static ::UnityEngine::Quaternion Internal_FromEulerRad(::UnityEngine::Vector3 euler);
     // static private UnityEngine.Vector3 Internal_ToEulerRad(UnityEngine.Quaternion rotation)
     // Offset: 0x20C69BC
-    static UnityEngine::Vector3 Internal_ToEulerRad(UnityEngine::Quaternion rotation);
+    static ::UnityEngine::Vector3 Internal_ToEulerRad(::UnityEngine::Quaternion rotation);
     // static private System.Void Internal_ToAxisAngleRad(UnityEngine.Quaternion q, out UnityEngine.Vector3 axis, out System.Single angle)
     // Offset: 0x20C6AB4
-    static void Internal_ToAxisAngleRad(UnityEngine::Quaternion q, ByRef<UnityEngine::Vector3> axis, ByRef<float> angle);
+    static void Internal_ToAxisAngleRad(::UnityEngine::Quaternion q, ByRef<::UnityEngine::Vector3> axis, ByRef<float> angle);
     // static public UnityEngine.Quaternion AngleAxis(System.Single angle, UnityEngine.Vector3 axis)
     // Offset: 0x20C6BB8
-    static UnityEngine::Quaternion AngleAxis(float angle, UnityEngine::Vector3 axis);
+    static ::UnityEngine::Quaternion AngleAxis(float angle, ::UnityEngine::Vector3 axis);
     // static public UnityEngine.Quaternion LookRotation(UnityEngine.Vector3 forward, UnityEngine.Vector3 upwards)
     // Offset: 0x20C6CCC
-    static UnityEngine::Quaternion LookRotation(UnityEngine::Vector3 forward, UnityEngine::Vector3 upwards);
+    static ::UnityEngine::Quaternion LookRotation(::UnityEngine::Vector3 forward, ::UnityEngine::Vector3 upwards);
     // static public UnityEngine.Quaternion LookRotation(UnityEngine.Vector3 forward)
     // Offset: 0x20C6DD4
-    static UnityEngine::Quaternion LookRotation(UnityEngine::Vector3 forward);
+    static ::UnityEngine::Quaternion LookRotation(::UnityEngine::Vector3 forward);
     // static private System.Boolean IsEqualUsingDot(System.Single dot)
     // Offset: 0x20C70AC
     static bool IsEqualUsingDot(float dot);
     // static public System.Single Dot(UnityEngine.Quaternion a, UnityEngine.Quaternion b)
     // Offset: 0x20C70C0
-    static float Dot(UnityEngine::Quaternion a, UnityEngine::Quaternion b);
+    static float Dot(::UnityEngine::Quaternion a, ::UnityEngine::Quaternion b);
     // public System.Void SetLookRotation(UnityEngine.Vector3 view)
     // Offset: 0x20C71A8
-    void SetLookRotation(UnityEngine::Vector3 view);
+    void SetLookRotation(::UnityEngine::Vector3 view);
     // public System.Void SetLookRotation(UnityEngine.Vector3 view, UnityEngine.Vector3 up)
     // Offset: 0x20C7248
-    void SetLookRotation(UnityEngine::Vector3 view, UnityEngine::Vector3 up);
+    void SetLookRotation(::UnityEngine::Vector3 view, ::UnityEngine::Vector3 up);
     // static public System.Single Angle(UnityEngine.Quaternion a, UnityEngine.Quaternion b)
     // Offset: 0x20C72FC
-    static float Angle(UnityEngine::Quaternion a, UnityEngine::Quaternion b);
+    static float Angle(::UnityEngine::Quaternion a, ::UnityEngine::Quaternion b);
     // static private UnityEngine.Vector3 Internal_MakePositive(UnityEngine.Vector3 euler)
     // Offset: 0x20C740C
-    static UnityEngine::Vector3 Internal_MakePositive(UnityEngine::Vector3 euler);
+    static ::UnityEngine::Vector3 Internal_MakePositive(::UnityEngine::Vector3 euler);
     // static public UnityEngine.Quaternion Euler(System.Single x, System.Single y, System.Single z)
     // Offset: 0x20C7658
-    static UnityEngine::Quaternion Euler(float x, float y, float z);
+    static ::UnityEngine::Quaternion Euler(float x, float y, float z);
     // static public UnityEngine.Quaternion Euler(UnityEngine.Vector3 euler)
     // Offset: 0x20C774C
-    static UnityEngine::Quaternion Euler(UnityEngine::Vector3 euler);
+    static ::UnityEngine::Quaternion Euler(::UnityEngine::Vector3 euler);
     // public System.Void ToAngleAxis(out System.Single angle, out UnityEngine.Vector3 axis)
     // Offset: 0x20C7818
-    void ToAngleAxis(ByRef<float> angle, ByRef<UnityEngine::Vector3> axis);
+    void ToAngleAxis(ByRef<float> angle, ByRef<::UnityEngine::Vector3> axis);
     // static public UnityEngine.Quaternion RotateTowards(UnityEngine.Quaternion from, UnityEngine.Quaternion to, System.Single maxDegreesDelta)
     // Offset: 0x20C78D0
-    static UnityEngine::Quaternion RotateTowards(UnityEngine::Quaternion from, UnityEngine::Quaternion to, float maxDegreesDelta);
+    static ::UnityEngine::Quaternion RotateTowards(::UnityEngine::Quaternion from, ::UnityEngine::Quaternion to, float maxDegreesDelta);
     // static public UnityEngine.Quaternion Normalize(UnityEngine.Quaternion q)
     // Offset: 0x20C7A40
-    static UnityEngine::Quaternion Normalize(UnityEngine::Quaternion q);
+    static ::UnityEngine::Quaternion Normalize(::UnityEngine::Quaternion q);
     // public System.Void Normalize()
     // Offset: 0x20C7B5C
     void Normalize();
     // public System.Boolean Equals(UnityEngine.Quaternion other)
     // Offset: 0x20C7C80
-    bool Equals(UnityEngine::Quaternion other);
+    bool Equals(::UnityEngine::Quaternion other);
     // static private System.Void FromToRotation_Injected(ref UnityEngine.Vector3 fromDirection, ref UnityEngine.Vector3 toDirection, out UnityEngine.Quaternion ret)
     // Offset: 0x20C6404
-    static void FromToRotation_Injected(ByRef<UnityEngine::Vector3> fromDirection, ByRef<UnityEngine::Vector3> toDirection, ByRef<UnityEngine::Quaternion> ret);
+    static void FromToRotation_Injected(ByRef<::UnityEngine::Vector3> fromDirection, ByRef<::UnityEngine::Vector3> toDirection, ByRef<::UnityEngine::Quaternion> ret);
     // static private System.Void Inverse_Injected(ref UnityEngine.Quaternion rotation, out UnityEngine.Quaternion ret)
     // Offset: 0x20C6500
-    static void Inverse_Injected(ByRef<UnityEngine::Quaternion> rotation, ByRef<UnityEngine::Quaternion> ret);
+    static void Inverse_Injected(ByRef<::UnityEngine::Quaternion> rotation, ByRef<::UnityEngine::Quaternion> ret);
     // static private System.Void Slerp_Injected(ref UnityEngine.Quaternion a, ref UnityEngine.Quaternion b, System.Single t, out UnityEngine.Quaternion ret)
     // Offset: 0x20C6610
-    static void Slerp_Injected(ByRef<UnityEngine::Quaternion> a, ByRef<UnityEngine::Quaternion> b, float t, ByRef<UnityEngine::Quaternion> ret);
+    static void Slerp_Injected(ByRef<::UnityEngine::Quaternion> a, ByRef<::UnityEngine::Quaternion> b, float t, ByRef<::UnityEngine::Quaternion> ret);
     // static private System.Void SlerpUnclamped_Injected(ref UnityEngine.Quaternion a, ref UnityEngine.Quaternion b, System.Single t, out UnityEngine.Quaternion ret)
     // Offset: 0x20C6738
-    static void SlerpUnclamped_Injected(ByRef<UnityEngine::Quaternion> a, ByRef<UnityEngine::Quaternion> b, float t, ByRef<UnityEngine::Quaternion> ret);
+    static void SlerpUnclamped_Injected(ByRef<::UnityEngine::Quaternion> a, ByRef<::UnityEngine::Quaternion> b, float t, ByRef<::UnityEngine::Quaternion> ret);
     // static private System.Void Lerp_Injected(ref UnityEngine.Quaternion a, ref UnityEngine.Quaternion b, System.Single t, out UnityEngine.Quaternion ret)
     // Offset: 0x20C6860
-    static void Lerp_Injected(ByRef<UnityEngine::Quaternion> a, ByRef<UnityEngine::Quaternion> b, float t, ByRef<UnityEngine::Quaternion> ret);
+    static void Lerp_Injected(ByRef<::UnityEngine::Quaternion> a, ByRef<::UnityEngine::Quaternion> b, float t, ByRef<::UnityEngine::Quaternion> ret);
     // static private System.Void Internal_FromEulerRad_Injected(ref UnityEngine.Vector3 euler, out UnityEngine.Quaternion ret)
     // Offset: 0x20C696C
-    static void Internal_FromEulerRad_Injected(ByRef<UnityEngine::Vector3> euler, ByRef<UnityEngine::Quaternion> ret);
+    static void Internal_FromEulerRad_Injected(ByRef<::UnityEngine::Vector3> euler, ByRef<::UnityEngine::Quaternion> ret);
     // static private System.Void Internal_ToEulerRad_Injected(ref UnityEngine.Quaternion rotation, out UnityEngine.Vector3 ret)
     // Offset: 0x20C6A64
-    static void Internal_ToEulerRad_Injected(ByRef<UnityEngine::Quaternion> rotation, ByRef<UnityEngine::Vector3> ret);
+    static void Internal_ToEulerRad_Injected(ByRef<::UnityEngine::Quaternion> rotation, ByRef<::UnityEngine::Vector3> ret);
     // static private System.Void Internal_ToAxisAngleRad_Injected(ref UnityEngine.Quaternion q, out UnityEngine.Vector3 axis, out System.Single angle)
     // Offset: 0x20C6B60
-    static void Internal_ToAxisAngleRad_Injected(ByRef<UnityEngine::Quaternion> q, ByRef<UnityEngine::Vector3> axis, ByRef<float> angle);
+    static void Internal_ToAxisAngleRad_Injected(ByRef<::UnityEngine::Quaternion> q, ByRef<::UnityEngine::Vector3> axis, ByRef<float> angle);
     // static private System.Void AngleAxis_Injected(System.Single angle, ref UnityEngine.Vector3 axis, out UnityEngine.Quaternion ret)
     // Offset: 0x20C6C6C
-    static void AngleAxis_Injected(float angle, ByRef<UnityEngine::Vector3> axis, ByRef<UnityEngine::Quaternion> ret);
+    static void AngleAxis_Injected(float angle, ByRef<::UnityEngine::Vector3> axis, ByRef<::UnityEngine::Quaternion> ret);
     // static private System.Void LookRotation_Injected(ref UnityEngine.Vector3 forward, ref UnityEngine.Vector3 upwards, out UnityEngine.Quaternion ret)
     // Offset: 0x20C6D7C
-    static void LookRotation_Injected(ByRef<UnityEngine::Vector3> forward, ByRef<UnityEngine::Vector3> upwards, ByRef<UnityEngine::Quaternion> ret);
+    static void LookRotation_Injected(ByRef<::UnityEngine::Vector3> forward, ByRef<::UnityEngine::Vector3> upwards, ByRef<::UnityEngine::Quaternion> ret);
     // public override System.Int32 GetHashCode()
     // Offset: 0x20C5974
     // Implemented from: System.ValueType
@@ -238,16 +238,16 @@ namespace UnityEngine {
   static_assert(sizeof(Quaternion) == 0x10);
   // static public UnityEngine.Quaternion op_Multiply(UnityEngine.Quaternion lhs, UnityEngine.Quaternion rhs)
   // Offset: 0x20C7038
-  UnityEngine::Quaternion operator*(const UnityEngine::Quaternion& lhs, const UnityEngine::Quaternion& rhs);
+  ::UnityEngine::Quaternion operator*(const ::UnityEngine::Quaternion& lhs, const ::UnityEngine::Quaternion& rhs);
   // static public UnityEngine.Vector3 op_Multiply(UnityEngine.Quaternion rotation, UnityEngine.Vector3 point)
   // Offset: 0x20C5600
-  UnityEngine::Vector3 operator*(const UnityEngine::Quaternion& rotation, const UnityEngine::Vector3& point);
+  ::UnityEngine::Vector3 operator*(const ::UnityEngine::Quaternion& rotation, const ::UnityEngine::Vector3& point);
   // static public System.Boolean op_Equality(UnityEngine.Quaternion lhs, UnityEngine.Quaternion rhs)
   // Offset: 0x20C5878
-  bool operator ==(const UnityEngine::Quaternion& lhs, const UnityEngine::Quaternion& rhs);
+  bool operator ==(const ::UnityEngine::Quaternion& lhs, const ::UnityEngine::Quaternion& rhs);
   // static public System.Boolean op_Inequality(UnityEngine.Quaternion lhs, UnityEngine.Quaternion rhs)
   // Offset: 0x20C70E0
-  bool operator !=(const UnityEngine::Quaternion& lhs, const UnityEngine::Quaternion& rhs);
+  bool operator !=(const ::UnityEngine::Quaternion& lhs, const ::UnityEngine::Quaternion& rhs);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Quaternion::get_Item
@@ -272,7 +272,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Quaternion::get_identity
 // Il2CppName: get_identity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)()>(&UnityEngine::Quaternion::get_identity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)()>(&UnityEngine::Quaternion::get_identity)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Quaternion), "get_identity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -280,7 +280,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Quaternion::get_eulerAngles
 // Il2CppName: get_eulerAngles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Quaternion::*)()>(&UnityEngine::Quaternion::get_eulerAngles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (UnityEngine::Quaternion::*)()>(&UnityEngine::Quaternion::get_eulerAngles)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Quaternion), "get_eulerAngles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -288,7 +288,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Quaternion::set_eulerAngles
 // Il2CppName: set_eulerAngles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Quaternion::*)(UnityEngine::Vector3)>(&UnityEngine::Quaternion::set_eulerAngles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Quaternion::*)(::UnityEngine::Vector3)>(&UnityEngine::Quaternion::set_eulerAngles)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Quaternion), "set_eulerAngles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -309,7 +309,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::Quaternion::FromToRotation
 // Il2CppName: FromToRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&UnityEngine::Quaternion::FromToRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&UnityEngine::Quaternion::FromToRotation)> {
   static const MethodInfo* get() {
     static auto* fromDirection = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* toDirection = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -319,7 +319,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Quaternion::Inverse
 // Il2CppName: Inverse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(UnityEngine::Quaternion)>(&UnityEngine::Quaternion::Inverse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Quaternion)>(&UnityEngine::Quaternion::Inverse)> {
   static const MethodInfo* get() {
     static auto* rotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Quaternion), "Inverse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rotation});
@@ -328,7 +328,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Quaternion::Slerp
 // Il2CppName: Slerp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(UnityEngine::Quaternion, UnityEngine::Quaternion, float)>(&UnityEngine::Quaternion::Slerp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Quaternion, ::UnityEngine::Quaternion, float)>(&UnityEngine::Quaternion::Slerp)> {
   static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
@@ -339,7 +339,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Quaternion::SlerpUnclamped
 // Il2CppName: SlerpUnclamped
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(UnityEngine::Quaternion, UnityEngine::Quaternion, float)>(&UnityEngine::Quaternion::SlerpUnclamped)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Quaternion, ::UnityEngine::Quaternion, float)>(&UnityEngine::Quaternion::SlerpUnclamped)> {
   static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
@@ -350,7 +350,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Quaternion::Lerp
 // Il2CppName: Lerp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(UnityEngine::Quaternion, UnityEngine::Quaternion, float)>(&UnityEngine::Quaternion::Lerp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Quaternion, ::UnityEngine::Quaternion, float)>(&UnityEngine::Quaternion::Lerp)> {
   static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
@@ -361,7 +361,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Quaternion::Internal_FromEulerRad
 // Il2CppName: Internal_FromEulerRad
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(UnityEngine::Vector3)>(&UnityEngine::Quaternion::Internal_FromEulerRad)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Vector3)>(&UnityEngine::Quaternion::Internal_FromEulerRad)> {
   static const MethodInfo* get() {
     static auto* euler = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Quaternion), "Internal_FromEulerRad", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{euler});
@@ -370,7 +370,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Quaternion::Internal_ToEulerRad
 // Il2CppName: Internal_ToEulerRad
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Quaternion)>(&UnityEngine::Quaternion::Internal_ToEulerRad)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Quaternion)>(&UnityEngine::Quaternion::Internal_ToEulerRad)> {
   static const MethodInfo* get() {
     static auto* rotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Quaternion), "Internal_ToEulerRad", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rotation});
@@ -379,7 +379,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Quaternion::Internal_ToAxisAngleRad
 // Il2CppName: Internal_ToAxisAngleRad
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Quaternion, ByRef<UnityEngine::Vector3>, ByRef<float>)>(&UnityEngine::Quaternion::Internal_ToAxisAngleRad)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Quaternion, ByRef<::UnityEngine::Vector3>, ByRef<float>)>(&UnityEngine::Quaternion::Internal_ToAxisAngleRad)> {
   static const MethodInfo* get() {
     static auto* q = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     static auto* axis = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
@@ -390,7 +390,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Quaternion::AngleAxis
 // Il2CppName: AngleAxis
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(float, UnityEngine::Vector3)>(&UnityEngine::Quaternion::AngleAxis)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(float, ::UnityEngine::Vector3)>(&UnityEngine::Quaternion::AngleAxis)> {
   static const MethodInfo* get() {
     static auto* angle = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* axis = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -400,7 +400,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Quaternion::LookRotation
 // Il2CppName: LookRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&UnityEngine::Quaternion::LookRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&UnityEngine::Quaternion::LookRotation)> {
   static const MethodInfo* get() {
     static auto* forward = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* upwards = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -410,7 +410,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Quaternion::LookRotation
 // Il2CppName: LookRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(UnityEngine::Vector3)>(&UnityEngine::Quaternion::LookRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Vector3)>(&UnityEngine::Quaternion::LookRotation)> {
   static const MethodInfo* get() {
     static auto* forward = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Quaternion), "LookRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{forward});
@@ -428,7 +428,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(fl
 // Writing MetadataGetter for method: UnityEngine::Quaternion::Dot
 // Il2CppName: Dot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::Quaternion, UnityEngine::Quaternion)>(&UnityEngine::Quaternion::Dot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::UnityEngine::Quaternion, ::UnityEngine::Quaternion)>(&UnityEngine::Quaternion::Dot)> {
   static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
@@ -438,7 +438,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(U
 // Writing MetadataGetter for method: UnityEngine::Quaternion::SetLookRotation
 // Il2CppName: SetLookRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Quaternion::*)(UnityEngine::Vector3)>(&UnityEngine::Quaternion::SetLookRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Quaternion::*)(::UnityEngine::Vector3)>(&UnityEngine::Quaternion::SetLookRotation)> {
   static const MethodInfo* get() {
     static auto* view = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Quaternion), "SetLookRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{view});
@@ -447,7 +447,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Quaternion::SetLookRotation
 // Il2CppName: SetLookRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Quaternion::*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&UnityEngine::Quaternion::SetLookRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Quaternion::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&UnityEngine::Quaternion::SetLookRotation)> {
   static const MethodInfo* get() {
     static auto* view = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* up = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -457,7 +457,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Quaternion::Angle
 // Il2CppName: Angle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::Quaternion, UnityEngine::Quaternion)>(&UnityEngine::Quaternion::Angle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::UnityEngine::Quaternion, ::UnityEngine::Quaternion)>(&UnityEngine::Quaternion::Angle)> {
   static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
@@ -467,7 +467,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(U
 // Writing MetadataGetter for method: UnityEngine::Quaternion::Internal_MakePositive
 // Il2CppName: Internal_MakePositive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Vector3)>(&UnityEngine::Quaternion::Internal_MakePositive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3)>(&UnityEngine::Quaternion::Internal_MakePositive)> {
   static const MethodInfo* get() {
     static auto* euler = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Quaternion), "Internal_MakePositive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{euler});
@@ -476,7 +476,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Quaternion::Euler
 // Il2CppName: Euler
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(float, float, float)>(&UnityEngine::Quaternion::Euler)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(float, float, float)>(&UnityEngine::Quaternion::Euler)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* y = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -487,7 +487,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Quaternion::Euler
 // Il2CppName: Euler
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(UnityEngine::Vector3)>(&UnityEngine::Quaternion::Euler)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Vector3)>(&UnityEngine::Quaternion::Euler)> {
   static const MethodInfo* get() {
     static auto* euler = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Quaternion), "Euler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{euler});
@@ -496,7 +496,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Quaternion::ToAngleAxis
 // Il2CppName: ToAngleAxis
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Quaternion::*)(ByRef<float>, ByRef<UnityEngine::Vector3>)>(&UnityEngine::Quaternion::ToAngleAxis)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Quaternion::*)(ByRef<float>, ByRef<::UnityEngine::Vector3>)>(&UnityEngine::Quaternion::ToAngleAxis)> {
   static const MethodInfo* get() {
     static auto* angle = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
     static auto* axis = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
@@ -506,7 +506,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Quaternion::RotateTowards
 // Il2CppName: RotateTowards
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(UnityEngine::Quaternion, UnityEngine::Quaternion, float)>(&UnityEngine::Quaternion::RotateTowards)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Quaternion, ::UnityEngine::Quaternion, float)>(&UnityEngine::Quaternion::RotateTowards)> {
   static const MethodInfo* get() {
     static auto* from = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     static auto* to = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
@@ -517,7 +517,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Quaternion::Normalize
 // Il2CppName: Normalize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(UnityEngine::Quaternion)>(&UnityEngine::Quaternion::Normalize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Quaternion)>(&UnityEngine::Quaternion::Normalize)> {
   static const MethodInfo* get() {
     static auto* q = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Quaternion), "Normalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{q});
@@ -534,7 +534,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Quaternion::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Quaternion::*)(UnityEngine::Quaternion)>(&UnityEngine::Quaternion::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Quaternion::*)(::UnityEngine::Quaternion)>(&UnityEngine::Quaternion::Equals)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Quaternion), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
@@ -543,7 +543,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::Quaternion::FromToRotation_Injected
 // Il2CppName: FromToRotation_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<UnityEngine::Vector3>, ByRef<UnityEngine::Vector3>, ByRef<UnityEngine::Quaternion>)>(&UnityEngine::Quaternion::FromToRotation_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::Vector3>, ByRef<::UnityEngine::Vector3>, ByRef<::UnityEngine::Quaternion>)>(&UnityEngine::Quaternion::FromToRotation_Injected)> {
   static const MethodInfo* get() {
     static auto* fromDirection = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     static auto* toDirection = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
@@ -554,7 +554,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(By
 // Writing MetadataGetter for method: UnityEngine::Quaternion::Inverse_Injected
 // Il2CppName: Inverse_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<UnityEngine::Quaternion>, ByRef<UnityEngine::Quaternion>)>(&UnityEngine::Quaternion::Inverse_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::Quaternion>, ByRef<::UnityEngine::Quaternion>)>(&UnityEngine::Quaternion::Inverse_Injected)> {
   static const MethodInfo* get() {
     static auto* rotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->this_arg;
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->this_arg;
@@ -564,7 +564,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(By
 // Writing MetadataGetter for method: UnityEngine::Quaternion::Slerp_Injected
 // Il2CppName: Slerp_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<UnityEngine::Quaternion>, ByRef<UnityEngine::Quaternion>, float, ByRef<UnityEngine::Quaternion>)>(&UnityEngine::Quaternion::Slerp_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::Quaternion>, ByRef<::UnityEngine::Quaternion>, float, ByRef<::UnityEngine::Quaternion>)>(&UnityEngine::Quaternion::Slerp_Injected)> {
   static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->this_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->this_arg;
@@ -576,7 +576,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(By
 // Writing MetadataGetter for method: UnityEngine::Quaternion::SlerpUnclamped_Injected
 // Il2CppName: SlerpUnclamped_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<UnityEngine::Quaternion>, ByRef<UnityEngine::Quaternion>, float, ByRef<UnityEngine::Quaternion>)>(&UnityEngine::Quaternion::SlerpUnclamped_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::Quaternion>, ByRef<::UnityEngine::Quaternion>, float, ByRef<::UnityEngine::Quaternion>)>(&UnityEngine::Quaternion::SlerpUnclamped_Injected)> {
   static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->this_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->this_arg;
@@ -588,7 +588,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(By
 // Writing MetadataGetter for method: UnityEngine::Quaternion::Lerp_Injected
 // Il2CppName: Lerp_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<UnityEngine::Quaternion>, ByRef<UnityEngine::Quaternion>, float, ByRef<UnityEngine::Quaternion>)>(&UnityEngine::Quaternion::Lerp_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::Quaternion>, ByRef<::UnityEngine::Quaternion>, float, ByRef<::UnityEngine::Quaternion>)>(&UnityEngine::Quaternion::Lerp_Injected)> {
   static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->this_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->this_arg;
@@ -600,7 +600,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(By
 // Writing MetadataGetter for method: UnityEngine::Quaternion::Internal_FromEulerRad_Injected
 // Il2CppName: Internal_FromEulerRad_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<UnityEngine::Vector3>, ByRef<UnityEngine::Quaternion>)>(&UnityEngine::Quaternion::Internal_FromEulerRad_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::Vector3>, ByRef<::UnityEngine::Quaternion>)>(&UnityEngine::Quaternion::Internal_FromEulerRad_Injected)> {
   static const MethodInfo* get() {
     static auto* euler = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->this_arg;
@@ -610,7 +610,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(By
 // Writing MetadataGetter for method: UnityEngine::Quaternion::Internal_ToEulerRad_Injected
 // Il2CppName: Internal_ToEulerRad_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<UnityEngine::Quaternion>, ByRef<UnityEngine::Vector3>)>(&UnityEngine::Quaternion::Internal_ToEulerRad_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::Quaternion>, ByRef<::UnityEngine::Vector3>)>(&UnityEngine::Quaternion::Internal_ToEulerRad_Injected)> {
   static const MethodInfo* get() {
     static auto* rotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->this_arg;
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
@@ -620,7 +620,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(By
 // Writing MetadataGetter for method: UnityEngine::Quaternion::Internal_ToAxisAngleRad_Injected
 // Il2CppName: Internal_ToAxisAngleRad_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<UnityEngine::Quaternion>, ByRef<UnityEngine::Vector3>, ByRef<float>)>(&UnityEngine::Quaternion::Internal_ToAxisAngleRad_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::Quaternion>, ByRef<::UnityEngine::Vector3>, ByRef<float>)>(&UnityEngine::Quaternion::Internal_ToAxisAngleRad_Injected)> {
   static const MethodInfo* get() {
     static auto* q = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->this_arg;
     static auto* axis = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
@@ -631,7 +631,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(By
 // Writing MetadataGetter for method: UnityEngine::Quaternion::AngleAxis_Injected
 // Il2CppName: AngleAxis_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float, ByRef<UnityEngine::Vector3>, ByRef<UnityEngine::Quaternion>)>(&UnityEngine::Quaternion::AngleAxis_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float, ByRef<::UnityEngine::Vector3>, ByRef<::UnityEngine::Quaternion>)>(&UnityEngine::Quaternion::AngleAxis_Injected)> {
   static const MethodInfo* get() {
     static auto* angle = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* axis = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
@@ -642,7 +642,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(fl
 // Writing MetadataGetter for method: UnityEngine::Quaternion::LookRotation_Injected
 // Il2CppName: LookRotation_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<UnityEngine::Vector3>, ByRef<UnityEngine::Vector3>, ByRef<UnityEngine::Quaternion>)>(&UnityEngine::Quaternion::LookRotation_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::Vector3>, ByRef<::UnityEngine::Vector3>, ByRef<::UnityEngine::Quaternion>)>(&UnityEngine::Quaternion::LookRotation_Injected)> {
   static const MethodInfo* get() {
     static auto* forward = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     static auto* upwards = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;

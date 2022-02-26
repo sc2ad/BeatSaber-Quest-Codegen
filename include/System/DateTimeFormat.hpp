@@ -33,8 +33,8 @@ namespace System {
   class DateTimeFormat;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::DateTimeFormat);
-DEFINE_IL2CPP_ARG_TYPE(System::DateTimeFormat*, "System", "DateTimeFormat");
+NEED_NO_BOX(::System::DateTimeFormat);
+DEFINE_IL2CPP_ARG_TYPE(::System::DateTimeFormat*, "System", "DateTimeFormat");
 // Type namespace: System
 namespace System {
   // Size: 0x10
@@ -44,9 +44,9 @@ namespace System {
   class DateTimeFormat : public ::Il2CppObject {
     public:
     // Get static field: static readonly System.TimeSpan NullOffset
-    static System::TimeSpan _get_NullOffset();
+    static ::System::TimeSpan _get_NullOffset();
     // Set static field: static readonly System.TimeSpan NullOffset
-    static void _set_NullOffset(System::TimeSpan value);
+    static void _set_NullOffset(::System::TimeSpan value);
     // Get static field: static System.Char[] allStandardFormats
     static ::ArrayW<::Il2CppChar> _get_allStandardFormats();
     // Set static field: static System.Char[] allStandardFormats
@@ -60,28 +60,28 @@ namespace System {
     static void _cctor();
     // static System.Void FormatDigits(System.Text.StringBuilder outputBuffer, System.Int32 value, System.Int32 len)
     // Offset: 0x2126890
-    static void FormatDigits(System::Text::StringBuilder* outputBuffer, int value, int len);
+    static void FormatDigits(::System::Text::StringBuilder* outputBuffer, int value, int len);
     // static System.Void FormatDigits(System.Text.StringBuilder outputBuffer, System.Int32 value, System.Int32 len, System.Boolean overrideLengthLimit)
     // Offset: 0x2126910
-    static void FormatDigits(System::Text::StringBuilder* outputBuffer, int value, int len, bool overrideLengthLimit);
+    static void FormatDigits(::System::Text::StringBuilder* outputBuffer, int value, int len, bool overrideLengthLimit);
     // static private System.Void HebrewFormatDigits(System.Text.StringBuilder outputBuffer, System.Int32 digits)
     // Offset: 0x21269EC
-    static void HebrewFormatDigits(System::Text::StringBuilder* outputBuffer, int digits);
+    static void HebrewFormatDigits(::System::Text::StringBuilder* outputBuffer, int digits);
     // static System.Int32 ParseRepeatPattern(System.String format, System.Int32 pos, System.Char patternChar)
     // Offset: 0x2126A78
     static int ParseRepeatPattern(::StringW format, int pos, ::Il2CppChar patternChar);
     // static private System.String FormatDayOfWeek(System.Int32 dayOfWeek, System.Int32 repeat, System.Globalization.DateTimeFormatInfo dtfi)
     // Offset: 0x2126AEC
-    static ::StringW FormatDayOfWeek(int dayOfWeek, int repeat, System::Globalization::DateTimeFormatInfo* dtfi);
+    static ::StringW FormatDayOfWeek(int dayOfWeek, int repeat, ::System::Globalization::DateTimeFormatInfo* dtfi);
     // static private System.String FormatMonth(System.Int32 month, System.Int32 repeatCount, System.Globalization.DateTimeFormatInfo dtfi)
     // Offset: 0x2126B24
-    static ::StringW FormatMonth(int month, int repeatCount, System::Globalization::DateTimeFormatInfo* dtfi);
+    static ::StringW FormatMonth(int month, int repeatCount, ::System::Globalization::DateTimeFormatInfo* dtfi);
     // static private System.String FormatHebrewMonthName(System.DateTime time, System.Int32 month, System.Int32 repeatCount, System.Globalization.DateTimeFormatInfo dtfi)
     // Offset: 0x2126B5C
-    static ::StringW FormatHebrewMonthName(System::DateTime time, int month, int repeatCount, System::Globalization::DateTimeFormatInfo* dtfi);
+    static ::StringW FormatHebrewMonthName(::System::DateTime time, int month, int repeatCount, ::System::Globalization::DateTimeFormatInfo* dtfi);
     // static System.Int32 ParseQuoteString(System.String format, System.Int32 pos, System.Text.StringBuilder result)
     // Offset: 0x2126C20
-    static int ParseQuoteString(::StringW format, int pos, System::Text::StringBuilder* result);
+    static int ParseQuoteString(::StringW format, int pos, ::System::Text::StringBuilder* result);
     // static System.Int32 ParseNextChar(System.String format, System.Int32 pos)
     // Offset: 0x2126DE8
     static int ParseNextChar(::StringW format, int pos);
@@ -90,31 +90,31 @@ namespace System {
     static bool IsUseGenitiveForm(::StringW format, int index, int tokenLen, ::Il2CppChar patternToMatch);
     // static private System.String FormatCustomized(System.DateTime dateTime, System.String format, System.Globalization.DateTimeFormatInfo dtfi, System.TimeSpan offset)
     // Offset: 0x2126F68
-    static ::StringW FormatCustomized(System::DateTime dateTime, ::StringW format, System::Globalization::DateTimeFormatInfo* dtfi, System::TimeSpan offset);
+    static ::StringW FormatCustomized(::System::DateTime dateTime, ::StringW format, ::System::Globalization::DateTimeFormatInfo* dtfi, ::System::TimeSpan offset);
     // static private System.Void FormatCustomizedTimeZone(System.DateTime dateTime, System.TimeSpan offset, System.String format, System.Int32 tokenLen, System.Boolean timeOnly, System.Text.StringBuilder result)
     // Offset: 0x2127C68
-    static void FormatCustomizedTimeZone(System::DateTime dateTime, System::TimeSpan offset, ::StringW format, int tokenLen, bool timeOnly, System::Text::StringBuilder* result);
+    static void FormatCustomizedTimeZone(::System::DateTime dateTime, ::System::TimeSpan offset, ::StringW format, int tokenLen, bool timeOnly, ::System::Text::StringBuilder* result);
     // static private System.Void FormatCustomizedRoundripTimeZone(System.DateTime dateTime, System.TimeSpan offset, System.Text.StringBuilder result)
     // Offset: 0x2127FB4
-    static void FormatCustomizedRoundripTimeZone(System::DateTime dateTime, System::TimeSpan offset, System::Text::StringBuilder* result);
+    static void FormatCustomizedRoundripTimeZone(::System::DateTime dateTime, ::System::TimeSpan offset, ::System::Text::StringBuilder* result);
     // static System.String GetRealFormat(System.String format, System.Globalization.DateTimeFormatInfo dtfi)
     // Offset: 0x21281D4
-    static ::StringW GetRealFormat(::StringW format, System::Globalization::DateTimeFormatInfo* dtfi);
+    static ::StringW GetRealFormat(::StringW format, ::System::Globalization::DateTimeFormatInfo* dtfi);
     // static private System.String ExpandPredefinedFormat(System.String format, ref System.DateTime dateTime, ref System.Globalization.DateTimeFormatInfo dtfi, ref System.TimeSpan offset)
     // Offset: 0x2128480
-    static ::StringW ExpandPredefinedFormat(::StringW format, ByRef<System::DateTime> dateTime, ByRef<System::Globalization::DateTimeFormatInfo*> dtfi, ByRef<System::TimeSpan> offset);
+    static ::StringW ExpandPredefinedFormat(::StringW format, ByRef<::System::DateTime> dateTime, ByRef<::System::Globalization::DateTimeFormatInfo*> dtfi, ByRef<::System::TimeSpan> offset);
     // static System.String Format(System.DateTime dateTime, System.String format, System.Globalization.DateTimeFormatInfo dtfi)
     // Offset: 0x2128830
-    static ::StringW Format(System::DateTime dateTime, ::StringW format, System::Globalization::DateTimeFormatInfo* dtfi);
+    static ::StringW Format(::System::DateTime dateTime, ::StringW format, ::System::Globalization::DateTimeFormatInfo* dtfi);
     // static System.String Format(System.DateTime dateTime, System.String format, System.Globalization.DateTimeFormatInfo dtfi, System.TimeSpan offset)
     // Offset: 0x21288B8
-    static ::StringW Format(System::DateTime dateTime, ::StringW format, System::Globalization::DateTimeFormatInfo* dtfi, System::TimeSpan offset);
+    static ::StringW Format(::System::DateTime dateTime, ::StringW format, ::System::Globalization::DateTimeFormatInfo* dtfi, ::System::TimeSpan offset);
     // static System.Void InvalidFormatForLocal(System.String format, System.DateTime dateTime)
     // Offset: 0x212882C
-    static void InvalidFormatForLocal(::StringW format, System::DateTime dateTime);
+    static void InvalidFormatForLocal(::StringW format, ::System::DateTime dateTime);
     // static System.Void InvalidFormatForUtc(System.String format, System.DateTime dateTime)
     // Offset: 0x21281D0
-    static void InvalidFormatForUtc(::StringW format, System::DateTime dateTime);
+    static void InvalidFormatForUtc(::StringW format, ::System::DateTime dateTime);
   }; // System.DateTimeFormat
   #pragma pack(pop)
 }
@@ -130,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::DateTimeFormat::FormatDigits
 // Il2CppName: FormatDigits
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Text::StringBuilder*, int, int)>(&System::DateTimeFormat::FormatDigits)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, int, int)>(&System::DateTimeFormat::FormatDigits)> {
   static const MethodInfo* get() {
     static auto* outputBuffer = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -141,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeFormat::FormatDigits
 // Il2CppName: FormatDigits
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Text::StringBuilder*, int, int, bool)>(&System::DateTimeFormat::FormatDigits)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, int, int, bool)>(&System::DateTimeFormat::FormatDigits)> {
   static const MethodInfo* get() {
     static auto* outputBuffer = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -153,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeFormat::HebrewFormatDigits
 // Il2CppName: HebrewFormatDigits
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Text::StringBuilder*, int)>(&System::DateTimeFormat::HebrewFormatDigits)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, int)>(&System::DateTimeFormat::HebrewFormatDigits)> {
   static const MethodInfo* get() {
     static auto* outputBuffer = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* digits = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -174,7 +174,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::S
 // Writing MetadataGetter for method: System::DateTimeFormat::FormatDayOfWeek
 // Il2CppName: FormatDayOfWeek
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int, int, System::Globalization::DateTimeFormatInfo*)>(&System::DateTimeFormat::FormatDayOfWeek)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int, int, ::System::Globalization::DateTimeFormatInfo*)>(&System::DateTimeFormat::FormatDayOfWeek)> {
   static const MethodInfo* get() {
     static auto* dayOfWeek = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* repeat = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -185,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::DateTimeFormat::FormatMonth
 // Il2CppName: FormatMonth
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int, int, System::Globalization::DateTimeFormatInfo*)>(&System::DateTimeFormat::FormatMonth)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int, int, ::System::Globalization::DateTimeFormatInfo*)>(&System::DateTimeFormat::FormatMonth)> {
   static const MethodInfo* get() {
     static auto* month = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* repeatCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -196,7 +196,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::DateTimeFormat::FormatHebrewMonthName
 // Il2CppName: FormatHebrewMonthName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::DateTime, int, int, System::Globalization::DateTimeFormatInfo*)>(&System::DateTimeFormat::FormatHebrewMonthName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::DateTime, int, int, ::System::Globalization::DateTimeFormatInfo*)>(&System::DateTimeFormat::FormatHebrewMonthName)> {
   static const MethodInfo* get() {
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
     static auto* month = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -208,7 +208,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::DateTimeFormat::ParseQuoteString
 // Il2CppName: ParseQuoteString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::StringW, int, System::Text::StringBuilder*)>(&System::DateTimeFormat::ParseQuoteString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::StringW, int, ::System::Text::StringBuilder*)>(&System::DateTimeFormat::ParseQuoteString)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pos = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -241,7 +241,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::DateTimeFormat::FormatCustomized
 // Il2CppName: FormatCustomized
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::DateTime, ::StringW, System::Globalization::DateTimeFormatInfo*, System::TimeSpan)>(&System::DateTimeFormat::FormatCustomized)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::DateTime, ::StringW, ::System::Globalization::DateTimeFormatInfo*, ::System::TimeSpan)>(&System::DateTimeFormat::FormatCustomized)> {
   static const MethodInfo* get() {
     static auto* dateTime = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -253,7 +253,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::DateTimeFormat::FormatCustomizedTimeZone
 // Il2CppName: FormatCustomizedTimeZone
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::DateTime, System::TimeSpan, ::StringW, int, bool, System::Text::StringBuilder*)>(&System::DateTimeFormat::FormatCustomizedTimeZone)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::DateTime, ::System::TimeSpan, ::StringW, int, bool, ::System::Text::StringBuilder*)>(&System::DateTimeFormat::FormatCustomizedTimeZone)> {
   static const MethodInfo* get() {
     static auto* dateTime = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "TimeSpan")->byval_arg;
@@ -267,7 +267,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeFormat::FormatCustomizedRoundripTimeZone
 // Il2CppName: FormatCustomizedRoundripTimeZone
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::DateTime, System::TimeSpan, System::Text::StringBuilder*)>(&System::DateTimeFormat::FormatCustomizedRoundripTimeZone)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::DateTime, ::System::TimeSpan, ::System::Text::StringBuilder*)>(&System::DateTimeFormat::FormatCustomizedRoundripTimeZone)> {
   static const MethodInfo* get() {
     static auto* dateTime = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "TimeSpan")->byval_arg;
@@ -278,7 +278,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::DateTimeFormat::GetRealFormat
 // Il2CppName: GetRealFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, System::Globalization::DateTimeFormatInfo*)>(&System::DateTimeFormat::GetRealFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::System::Globalization::DateTimeFormatInfo*)>(&System::DateTimeFormat::GetRealFormat)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* dtfi = &::il2cpp_utils::GetClassFromName("System.Globalization", "DateTimeFormatInfo")->byval_arg;
@@ -288,7 +288,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::DateTimeFormat::ExpandPredefinedFormat
 // Il2CppName: ExpandPredefinedFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ByRef<System::DateTime>, ByRef<System::Globalization::DateTimeFormatInfo*>, ByRef<System::TimeSpan>)>(&System::DateTimeFormat::ExpandPredefinedFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ByRef<::System::DateTime>, ByRef<::System::Globalization::DateTimeFormatInfo*>, ByRef<::System::TimeSpan>)>(&System::DateTimeFormat::ExpandPredefinedFormat)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* dateTime = &::il2cpp_utils::GetClassFromName("System", "DateTime")->this_arg;
@@ -300,7 +300,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::DateTimeFormat::Format
 // Il2CppName: Format
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::DateTime, ::StringW, System::Globalization::DateTimeFormatInfo*)>(&System::DateTimeFormat::Format)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::DateTime, ::StringW, ::System::Globalization::DateTimeFormatInfo*)>(&System::DateTimeFormat::Format)> {
   static const MethodInfo* get() {
     static auto* dateTime = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -311,7 +311,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::DateTimeFormat::Format
 // Il2CppName: Format
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::DateTime, ::StringW, System::Globalization::DateTimeFormatInfo*, System::TimeSpan)>(&System::DateTimeFormat::Format)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::DateTime, ::StringW, ::System::Globalization::DateTimeFormatInfo*, ::System::TimeSpan)>(&System::DateTimeFormat::Format)> {
   static const MethodInfo* get() {
     static auto* dateTime = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -323,7 +323,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::DateTimeFormat::InvalidFormatForLocal
 // Il2CppName: InvalidFormatForLocal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, System::DateTime)>(&System::DateTimeFormat::InvalidFormatForLocal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::System::DateTime)>(&System::DateTimeFormat::InvalidFormatForLocal)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* dateTime = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
@@ -333,7 +333,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::DateTimeFormat::InvalidFormatForUtc
 // Il2CppName: InvalidFormatForUtc
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, System::DateTime)>(&System::DateTimeFormat::InvalidFormatForUtc)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::System::DateTime)>(&System::DateTimeFormat::InvalidFormatForUtc)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* dateTime = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;

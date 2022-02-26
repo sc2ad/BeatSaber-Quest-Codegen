@@ -25,8 +25,8 @@ namespace Zenject {
   class ZenjectSettings;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::ZenjectSettings);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectSettings*, "Zenject", "ZenjectSettings");
+NEED_NO_BOX(::Zenject::ZenjectSettings);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::ZenjectSettings*, "Zenject", "ZenjectSettings");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x28
@@ -37,7 +37,7 @@ namespace Zenject {
   // [ZenjectAllowDuringValidationAttribute] Offset: FFFFFFFF
   class ZenjectSettings : public ::Il2CppObject {
     public:
-    // Nested type: Zenject::ZenjectSettings::SignalSettings
+    // Nested type: ::Zenject::ZenjectSettings::SignalSettings
     class SignalSettings;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -65,47 +65,47 @@ namespace Zenject {
     // private Zenject.RootResolveMethods _validationRootResolveMethod
     // Size: 0x4
     // Offset: 0x14
-    Zenject::RootResolveMethods validationRootResolveMethod;
+    ::Zenject::RootResolveMethods validationRootResolveMethod;
     // Field size check
-    static_assert(sizeof(Zenject::RootResolveMethods) == 0x4);
+    static_assert(sizeof(::Zenject::RootResolveMethods) == 0x4);
     // private Zenject.ValidationErrorResponses _validationErrorResponse
     // Size: 0x4
     // Offset: 0x18
-    Zenject::ValidationErrorResponses validationErrorResponse;
+    ::Zenject::ValidationErrorResponses validationErrorResponse;
     // Field size check
-    static_assert(sizeof(Zenject::ValidationErrorResponses) == 0x4);
+    static_assert(sizeof(::Zenject::ValidationErrorResponses) == 0x4);
     // Padding between fields: validationErrorResponse and: signalSettings
     char __padding3[0x4] = {};
     // private Zenject.ZenjectSettings/Zenject.SignalSettings _signalSettings
     // Size: 0x8
     // Offset: 0x20
-    Zenject::ZenjectSettings::SignalSettings* signalSettings;
+    ::Zenject::ZenjectSettings::SignalSettings* signalSettings;
     // Field size check
-    static_assert(sizeof(Zenject::ZenjectSettings::SignalSettings*) == 0x8);
+    static_assert(sizeof(::Zenject::ZenjectSettings::SignalSettings*) == 0x8);
     public:
     // Get static field: static public Zenject.ZenjectSettings Default
-    static Zenject::ZenjectSettings* _get_Default();
+    static ::Zenject::ZenjectSettings* _get_Default();
     // Set static field: static public Zenject.ZenjectSettings Default
-    static void _set_Default(Zenject::ZenjectSettings* value);
+    static void _set_Default(::Zenject::ZenjectSettings* value);
     // Get instance field reference: private System.Boolean _ensureDeterministicDestructionOrderOnApplicationQuit
     bool& dyn__ensureDeterministicDestructionOrderOnApplicationQuit();
     // Get instance field reference: private System.Boolean _displayWarningWhenResolvingDuringInstall
     bool& dyn__displayWarningWhenResolvingDuringInstall();
     // Get instance field reference: private Zenject.RootResolveMethods _validationRootResolveMethod
-    Zenject::RootResolveMethods& dyn__validationRootResolveMethod();
+    ::Zenject::RootResolveMethods& dyn__validationRootResolveMethod();
     // Get instance field reference: private Zenject.ValidationErrorResponses _validationErrorResponse
-    Zenject::ValidationErrorResponses& dyn__validationErrorResponse();
+    ::Zenject::ValidationErrorResponses& dyn__validationErrorResponse();
     // Get instance field reference: private Zenject.ZenjectSettings/Zenject.SignalSettings _signalSettings
-    Zenject::ZenjectSettings::SignalSettings*& dyn__signalSettings();
+    ::Zenject::ZenjectSettings::SignalSettings*& dyn__signalSettings();
     // public Zenject.ZenjectSettings/Zenject.SignalSettings get_Signals()
     // Offset: 0x24730C0
-    Zenject::ZenjectSettings::SignalSettings* get_Signals();
+    ::Zenject::ZenjectSettings::SignalSettings* get_Signals();
     // public Zenject.ValidationErrorResponses get_ValidationErrorResponse()
     // Offset: 0x24730C8
-    Zenject::ValidationErrorResponses get_ValidationErrorResponse();
+    ::Zenject::ValidationErrorResponses get_ValidationErrorResponse();
     // public Zenject.RootResolveMethods get_ValidationRootResolveMethod()
     // Offset: 0x24730D0
-    Zenject::RootResolveMethods get_ValidationRootResolveMethod();
+    ::Zenject::RootResolveMethods get_ValidationRootResolveMethod();
     // public System.Boolean get_DisplayWarningWhenResolvingDuringInstall()
     // Offset: 0x24730D8
     bool get_DisplayWarningWhenResolvingDuringInstall();
@@ -115,8 +115,8 @@ namespace Zenject {
     // public System.Void .ctor(Zenject.ValidationErrorResponses validationErrorResponse, Zenject.RootResolveMethods validationRootResolveMethod, System.Boolean displayWarningWhenResolvingDuringInstall, System.Boolean ensureDeterministicDestructionOrderOnApplicationQuit, Zenject.ZenjectSettings/Zenject.SignalSettings signalSettings)
     // Offset: 0x2472FE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ZenjectSettings* New_ctor(Zenject::ValidationErrorResponses validationErrorResponse, Zenject::RootResolveMethods validationRootResolveMethod, bool displayWarningWhenResolvingDuringInstall, bool ensureDeterministicDestructionOrderOnApplicationQuit, Zenject::ZenjectSettings::SignalSettings* signalSettings) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ZenjectSettings::.ctor");
+    static ZenjectSettings* New_ctor(::Zenject::ValidationErrorResponses validationErrorResponse, ::Zenject::RootResolveMethods validationRootResolveMethod, bool displayWarningWhenResolvingDuringInstall, bool ensureDeterministicDestructionOrderOnApplicationQuit, ::Zenject::ZenjectSettings::SignalSettings* signalSettings) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenjectSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ZenjectSettings*, creationType>(validationErrorResponse, validationRootResolveMethod, displayWarningWhenResolvingDuringInstall, ensureDeterministicDestructionOrderOnApplicationQuit, signalSettings)));
     }
     // static private System.Void .cctor()
@@ -128,19 +128,19 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ZenjectSettings* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ZenjectSettings::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenjectSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ZenjectSettings*, creationType>()));
     }
   }; // Zenject.ZenjectSettings
   #pragma pack(pop)
-  static check_size<sizeof(ZenjectSettings), 32 + sizeof(Zenject::ZenjectSettings::SignalSettings*)> __Zenject_ZenjectSettingsSizeCheck;
+  static check_size<sizeof(ZenjectSettings), 32 + sizeof(::Zenject::ZenjectSettings::SignalSettings*)> __Zenject_ZenjectSettingsSizeCheck;
   static_assert(sizeof(ZenjectSettings) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ZenjectSettings::get_Signals
 // Il2CppName: get_Signals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ZenjectSettings::SignalSettings* (Zenject::ZenjectSettings::*)()>(&Zenject::ZenjectSettings::get_Signals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::ZenjectSettings::SignalSettings* (Zenject::ZenjectSettings::*)()>(&Zenject::ZenjectSettings::get_Signals)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSettings*), "get_Signals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -148,7 +148,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Ze
 // Writing MetadataGetter for method: Zenject::ZenjectSettings::get_ValidationErrorResponse
 // Il2CppName: get_ValidationErrorResponse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ValidationErrorResponses (Zenject::ZenjectSettings::*)()>(&Zenject::ZenjectSettings::get_ValidationErrorResponse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::ValidationErrorResponses (Zenject::ZenjectSettings::*)()>(&Zenject::ZenjectSettings::get_ValidationErrorResponse)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSettings*), "get_ValidationErrorResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -156,7 +156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Va
 // Writing MetadataGetter for method: Zenject::ZenjectSettings::get_ValidationRootResolveMethod
 // Il2CppName: get_ValidationRootResolveMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::RootResolveMethods (Zenject::ZenjectSettings::*)()>(&Zenject::ZenjectSettings::get_ValidationRootResolveMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::RootResolveMethods (Zenject::ZenjectSettings::*)()>(&Zenject::ZenjectSettings::get_ValidationRootResolveMethod)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSettings*), "get_ValidationRootResolveMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

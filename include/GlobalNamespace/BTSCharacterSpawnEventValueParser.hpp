@@ -14,8 +14,8 @@ namespace GlobalNamespace {
   class BTSCharacterSpawnEventValueParser;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BTSCharacterSpawnEventValueParser);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterSpawnEventValueParser*, "", "BTSCharacterSpawnEventValueParser");
+NEED_NO_BOX(::GlobalNamespace::BTSCharacterSpawnEventValueParser);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BTSCharacterSpawnEventValueParser*, "", "BTSCharacterSpawnEventValueParser");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10

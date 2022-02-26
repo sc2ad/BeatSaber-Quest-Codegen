@@ -20,8 +20,8 @@ namespace HMUI {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HMUI::ViewControllerTransitionHelpers::$$c__DisplayClass5_0);
-DEFINE_IL2CPP_ARG_TYPE(HMUI::ViewControllerTransitionHelpers::$$c__DisplayClass5_0*, "HMUI", "ViewControllerTransitionHelpers/<>c__DisplayClass5_0");
+NEED_NO_BOX(::HMUI::ViewControllerTransitionHelpers::$$c__DisplayClass5_0);
+DEFINE_IL2CPP_ARG_TYPE(::HMUI::ViewControllerTransitionHelpers::$$c__DisplayClass5_0*, "HMUI", "ViewControllerTransitionHelpers/<>c__DisplayClass5_0");
 // Type namespace: HMUI
 namespace HMUI {
   // Size: 0x2C
@@ -43,9 +43,9 @@ namespace HMUI {
     // public HMUI.ViewController toPresentViewController
     // Size: 0x8
     // Offset: 0x10
-    HMUI::ViewController* toPresentViewController;
+    ::HMUI::ViewController* toPresentViewController;
     // Field size check
-    static_assert(sizeof(HMUI::ViewController*) == 0x8);
+    static_assert(sizeof(::HMUI::ViewController*) == 0x8);
     // public System.Single moveOffset
     // Size: 0x4
     // Offset: 0x18
@@ -57,9 +57,9 @@ namespace HMUI {
     // public HMUI.ViewController toDismissViewController
     // Size: 0x8
     // Offset: 0x20
-    HMUI::ViewController* toDismissViewController;
+    ::HMUI::ViewController* toDismissViewController;
     // Field size check
-    static_assert(sizeof(HMUI::ViewController*) == 0x8);
+    static_assert(sizeof(::HMUI::ViewController*) == 0x8);
     // public System.Single baseCanvasGroupAlpha
     // Size: 0x4
     // Offset: 0x28
@@ -68,11 +68,11 @@ namespace HMUI {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public HMUI.ViewController toPresentViewController
-    HMUI::ViewController*& dyn_toPresentViewController();
+    ::HMUI::ViewController*& dyn_toPresentViewController();
     // Get instance field reference: public System.Single moveOffset
     float& dyn_moveOffset();
     // Get instance field reference: public HMUI.ViewController toDismissViewController
-    HMUI::ViewController*& dyn_toDismissViewController();
+    ::HMUI::ViewController*& dyn_toDismissViewController();
     // Get instance field reference: public System.Single baseCanvasGroupAlpha
     float& dyn_baseCanvasGroupAlpha();
     // System.Void <DoHorizontalTransition>b__0(System.Single t)
@@ -84,7 +84,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ViewControllerTransitionHelpers::$$c__DisplayClass5_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::ViewControllerTransitionHelpers::$$c__DisplayClass5_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ViewControllerTransitionHelpers::$$c__DisplayClass5_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ViewControllerTransitionHelpers::$$c__DisplayClass5_0*, creationType>()));
     }
   }; // HMUI.ViewControllerTransitionHelpers/HMUI.<>c__DisplayClass5_0

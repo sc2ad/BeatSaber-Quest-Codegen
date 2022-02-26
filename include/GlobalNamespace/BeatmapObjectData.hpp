@@ -23,8 +23,8 @@ namespace GlobalNamespace {
   class BeatmapObjectData;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BeatmapObjectData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectData*, "", "BeatmapObjectData");
+NEED_NO_BOX(::GlobalNamespace::BeatmapObjectData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapObjectData*, "", "BeatmapObjectData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -61,7 +61,7 @@ namespace GlobalNamespace {
     int& dyn_$lineIndex$k__BackingField();
     // public BeatmapObjectType get_beatmapObjectType()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::BeatmapObjectType get_beatmapObjectType();
+    ::GlobalNamespace::BeatmapObjectType get_beatmapObjectType();
     // public System.Single get_time()
     // Offset: 0x2A4A874
     float get_time();
@@ -78,7 +78,7 @@ namespace GlobalNamespace {
     // Offset: 0x2A4A894
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectData* New_ctor(float time, int lineIndex) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapObjectData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectData*, creationType>(time, lineIndex)));
     }
     // public System.Void Mirror(System.Int32 lineCount)
@@ -89,7 +89,7 @@ namespace GlobalNamespace {
     void MoveTime(float newTime);
     // public BeatmapObjectData GetCopy()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::BeatmapObjectData* GetCopy();
+    ::GlobalNamespace::BeatmapObjectData* GetCopy();
   }; // BeatmapObjectData
   #pragma pack(pop)
   static check_size<sizeof(BeatmapObjectData), 20 + sizeof(int)> __GlobalNamespace_BeatmapObjectDataSizeCheck;
@@ -99,7 +99,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectData::get_beatmapObjectType
 // Il2CppName: get_beatmapObjectType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapObjectType (GlobalNamespace::BeatmapObjectData::*)()>(&GlobalNamespace::BeatmapObjectData::get_beatmapObjectType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapObjectType (GlobalNamespace::BeatmapObjectData::*)()>(&GlobalNamespace::BeatmapObjectData::get_beatmapObjectType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectData*), "get_beatmapObjectType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -163,7 +163,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectData::GetCopy
 // Il2CppName: GetCopy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapObjectData* (GlobalNamespace::BeatmapObjectData::*)()>(&GlobalNamespace::BeatmapObjectData::GetCopy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapObjectData* (GlobalNamespace::BeatmapObjectData::*)()>(&GlobalNamespace::BeatmapObjectData::GetCopy)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectData*), "GetCopy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

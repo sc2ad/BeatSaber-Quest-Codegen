@@ -9,8 +9,8 @@
 #include "System/Linq/Expressions/Expression.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Linq::Expressions::Expression::SwitchExpressionProxy);
-DEFINE_IL2CPP_ARG_TYPE(System::Linq::Expressions::Expression::SwitchExpressionProxy*, "System.Linq.Expressions", "Expression/SwitchExpressionProxy");
+NEED_NO_BOX(::System::Linq::Expressions::Expression::SwitchExpressionProxy);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Expression::SwitchExpressionProxy*, "System.Linq.Expressions", "Expression/SwitchExpressionProxy");
 // Type namespace: System.Linq.Expressions
 namespace System::Linq::Expressions {
   // Size: 0x10

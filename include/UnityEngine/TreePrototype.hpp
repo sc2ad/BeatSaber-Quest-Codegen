@@ -23,8 +23,8 @@ namespace UnityEngine {
   class TreePrototype;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::TreePrototype);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TreePrototype*, "UnityEngine", "TreePrototype");
+NEED_NO_BOX(::UnityEngine::TreePrototype);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TreePrototype*, "UnityEngine", "TreePrototype");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x1C
@@ -47,9 +47,9 @@ namespace UnityEngine {
     // UnityEngine.GameObject m_Prefab
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::GameObject* m_Prefab;
+    ::UnityEngine::GameObject* m_Prefab;
     // Field size check
-    static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
+    static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
     // System.Single m_BendFactor
     // Size: 0x4
     // Offset: 0x18
@@ -58,15 +58,15 @@ namespace UnityEngine {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: UnityEngine.GameObject m_Prefab
-    UnityEngine::GameObject*& dyn_m_Prefab();
+    ::UnityEngine::GameObject*& dyn_m_Prefab();
     // Get instance field reference: System.Single m_BendFactor
     float& dyn_m_BendFactor();
     // public UnityEngine.GameObject get_prefab()
     // Offset: 0x2A2CB98
-    UnityEngine::GameObject* get_prefab();
+    ::UnityEngine::GameObject* get_prefab();
     // public System.Void set_prefab(UnityEngine.GameObject value)
     // Offset: 0x2A2CBA0
-    void set_prefab(UnityEngine::GameObject* value);
+    void set_prefab(::UnityEngine::GameObject* value);
     // public System.Single get_bendFactor()
     // Offset: 0x2A2CBA8
     float get_bendFactor();
@@ -75,14 +75,14 @@ namespace UnityEngine {
     void set_bendFactor(float value);
     // private System.Boolean Equals(UnityEngine.TreePrototype other)
     // Offset: 0x2A2CC34
-    bool Equals(UnityEngine::TreePrototype* other);
+    bool Equals(::UnityEngine::TreePrototype* other);
     // public System.Void .ctor()
     // Offset: 0x2A2CBB8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TreePrototype* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TreePrototype::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TreePrototype::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TreePrototype*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object obj)
@@ -104,7 +104,7 @@ namespace UnityEngine {
 // Writing MetadataGetter for method: UnityEngine::TreePrototype::get_prefab
 // Il2CppName: get_prefab
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (UnityEngine::TreePrototype::*)()>(&UnityEngine::TreePrototype::get_prefab)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GameObject* (UnityEngine::TreePrototype::*)()>(&UnityEngine::TreePrototype::get_prefab)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TreePrototype*), "get_prefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -112,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::TreePrototype::set_prefab
 // Il2CppName: set_prefab
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TreePrototype::*)(UnityEngine::GameObject*)>(&UnityEngine::TreePrototype::set_prefab)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TreePrototype::*)(::UnityEngine::GameObject*)>(&UnityEngine::TreePrototype::set_prefab)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TreePrototype*), "set_prefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -138,7 +138,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TreePrototype::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TreePrototype::*)(UnityEngine::TreePrototype*)>(&UnityEngine::TreePrototype::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TreePrototype::*)(::UnityEngine::TreePrototype*)>(&UnityEngine::TreePrototype::Equals)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("UnityEngine", "TreePrototype")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TreePrototype*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});

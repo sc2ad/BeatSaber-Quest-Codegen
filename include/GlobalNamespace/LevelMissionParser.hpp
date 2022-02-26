@@ -28,8 +28,8 @@ namespace GlobalNamespace {
   class LevelMissionParser;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::LevelMissionParser);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelMissionParser*, "", "LevelMissionParser");
+NEED_NO_BOX(::GlobalNamespace::LevelMissionParser);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LevelMissionParser*, "", "LevelMissionParser");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -38,7 +38,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LevelMissionParser : public ::Il2CppObject {
     public:
-    // Nested type: GlobalNamespace::LevelMissionParser::ParserFunction
+    // Nested type: ::GlobalNamespace::LevelMissionParser::ParserFunction
     class ParserFunction;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -52,19 +52,19 @@ namespace GlobalNamespace {
     // private System.Collections.Generic.Dictionary`2<System.String,LevelMissionParser/ParserFunction> _functions
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::Dictionary_2<::StringW, GlobalNamespace::LevelMissionParser::ParserFunction*>* functions;
+    ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::LevelMissionParser::ParserFunction*>* functions;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, GlobalNamespace::LevelMissionParser::ParserFunction*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::LevelMissionParser::ParserFunction*>*) == 0x8);
     public:
-    // Creating conversion operator: operator System::Collections::Generic::Dictionary_2<::StringW, GlobalNamespace::LevelMissionParser::ParserFunction*>*
-    constexpr operator System::Collections::Generic::Dictionary_2<::StringW, GlobalNamespace::LevelMissionParser::ParserFunction*>*() const noexcept {
+    // Creating conversion operator: operator ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::LevelMissionParser::ParserFunction*>*
+    constexpr operator ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::LevelMissionParser::ParserFunction*>*() const noexcept {
       return functions;
     }
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,LevelMissionParser/ParserFunction> _functions
-    System::Collections::Generic::Dictionary_2<::StringW, GlobalNamespace::LevelMissionParser::ParserFunction*>*& dyn__functions();
+    ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::LevelMissionParser::ParserFunction*>*& dyn__functions();
     // public System.Void AddFunction(System.String name, LevelMissionParser/ParserFunction function)
     // Offset: 0x1475BAC
-    void AddFunction(::StringW name, GlobalNamespace::LevelMissionParser::ParserFunction* function);
+    void AddFunction(::StringW name, ::GlobalNamespace::LevelMissionParser::ParserFunction* function);
     // public System.Boolean Parse(System.String s)
     // Offset: 0x1475C1C
     bool Parse(::StringW s);
@@ -80,19 +80,19 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelMissionParser* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LevelMissionParser::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LevelMissionParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelMissionParser*, creationType>()));
     }
   }; // LevelMissionParser
   #pragma pack(pop)
-  static check_size<sizeof(LevelMissionParser), 16 + sizeof(System::Collections::Generic::Dictionary_2<::StringW, GlobalNamespace::LevelMissionParser::ParserFunction*>*)> __GlobalNamespace_LevelMissionParserSizeCheck;
+  static check_size<sizeof(LevelMissionParser), 16 + sizeof(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::LevelMissionParser::ParserFunction*>*)> __GlobalNamespace_LevelMissionParserSizeCheck;
   static_assert(sizeof(LevelMissionParser) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelMissionParser::AddFunction
 // Il2CppName: AddFunction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelMissionParser::*)(::StringW, GlobalNamespace::LevelMissionParser::ParserFunction*)>(&GlobalNamespace::LevelMissionParser::AddFunction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelMissionParser::*)(::StringW, ::GlobalNamespace::LevelMissionParser::ParserFunction*)>(&GlobalNamespace::LevelMissionParser::AddFunction)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* function = &::il2cpp_utils::GetClassFromName("", "LevelMissionParser/ParserFunction")->byval_arg;

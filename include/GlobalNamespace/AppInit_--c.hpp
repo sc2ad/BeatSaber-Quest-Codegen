@@ -21,8 +21,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::AppInit::$$c);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AppInit::$$c*, "", "AppInit/<>c");
+NEED_NO_BOX(::GlobalNamespace::AppInit::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AppInit::$$c*, "", "AppInit/<>c");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -33,13 +33,13 @@ namespace GlobalNamespace {
   class AppInit::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly AppInit/<>c <>9
-    static GlobalNamespace::AppInit::$$c* _get_$$9();
+    static ::GlobalNamespace::AppInit::$$c* _get_$$9();
     // Set static field: static public readonly AppInit/<>c <>9
-    static void _set_$$9(GlobalNamespace::AppInit::$$c* value);
+    static void _set_$$9(::GlobalNamespace::AppInit::$$c* value);
     // Get static field: static public System.Func`1<System.Boolean> <>9__8_0
-    static System::Func_1<bool>* _get_$$9__8_0();
+    static ::System::Func_1<bool>* _get_$$9__8_0();
     // Set static field: static public System.Func`1<System.Boolean> <>9__8_0
-    static void _set_$$9__8_0(System::Func_1<bool>* value);
+    static void _set_$$9__8_0(::System::Func_1<bool>* value);
     // static private System.Void .cctor()
     // Offset: 0x148C6B4
     static void _cctor();
@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AppInit::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AppInit::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AppInit::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AppInit::$$c*, creationType>()));
     }
   }; // AppInit/<>c

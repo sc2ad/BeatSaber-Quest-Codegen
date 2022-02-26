@@ -16,8 +16,8 @@ namespace System::Net::NetworkInformation {
   class IPv4InterfaceStatistics;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::NetworkInformation::IPv4InterfaceStatistics);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::IPv4InterfaceStatistics*, "System.Net.NetworkInformation", "IPv4InterfaceStatistics");
+NEED_NO_BOX(::System::Net::NetworkInformation::IPv4InterfaceStatistics);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::IPv4InterfaceStatistics*, "System.Net.NetworkInformation", "IPv4InterfaceStatistics");
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {
   // Size: 0x10
@@ -32,7 +32,7 @@ namespace System::Net::NetworkInformation {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IPv4InterfaceStatistics* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::IPv4InterfaceStatistics::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::NetworkInformation::IPv4InterfaceStatistics::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IPv4InterfaceStatistics*, creationType>()));
     }
   }; // System.Net.NetworkInformation.IPv4InterfaceStatistics

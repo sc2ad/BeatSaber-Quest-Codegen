@@ -20,8 +20,8 @@ namespace System::Linq {
   class Error;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Linq::Error);
-DEFINE_IL2CPP_ARG_TYPE(System::Linq::Error*, "System.Linq", "Error");
+NEED_NO_BOX(::System::Linq::Error);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Error*, "System.Linq", "Error");
 // Type namespace: System.Linq
 namespace System::Linq {
   // Size: 0x10
@@ -32,25 +32,25 @@ namespace System::Linq {
     public:
     // static System.Exception ArgumentNull(System.String s)
     // Offset: 0x15F5118
-    static System::Exception* ArgumentNull(::StringW s);
+    static ::System::Exception* ArgumentNull(::StringW s);
     // static System.Exception ArgumentOutOfRange(System.String s)
     // Offset: 0x15F4D5C
-    static System::Exception* ArgumentOutOfRange(::StringW s);
+    static ::System::Exception* ArgumentOutOfRange(::StringW s);
     // static System.Exception MoreThanOneElement()
     // Offset: 0x15F5C2C
-    static System::Exception* MoreThanOneElement();
+    static ::System::Exception* MoreThanOneElement();
     // static System.Exception MoreThanOneMatch()
     // Offset: 0x15F5C94
-    static System::Exception* MoreThanOneMatch();
+    static ::System::Exception* MoreThanOneMatch();
     // static System.Exception NoElements()
     // Offset: 0x15F5444
-    static System::Exception* NoElements();
+    static ::System::Exception* NoElements();
     // static System.Exception NoMatch()
     // Offset: 0x15F5CFC
-    static System::Exception* NoMatch();
+    static ::System::Exception* NoMatch();
     // static System.Exception NotSupported()
     // Offset: 0x15F5D64
-    static System::Exception* NotSupported();
+    static ::System::Exception* NotSupported();
   }; // System.Linq.Error
   #pragma pack(pop)
 }
@@ -58,7 +58,7 @@ namespace System::Linq {
 // Writing MetadataGetter for method: System::Linq::Error::ArgumentNull
 // Il2CppName: ArgumentNull
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Linq::Error::ArgumentNull)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Linq::Error::ArgumentNull)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Error*), "ArgumentNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
@@ -67,7 +67,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Linq::Error::ArgumentOutOfRange
 // Il2CppName: ArgumentOutOfRange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Linq::Error::ArgumentOutOfRange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Linq::Error::ArgumentOutOfRange)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Error*), "ArgumentOutOfRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
@@ -76,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Linq::Error::MoreThanOneElement
 // Il2CppName: MoreThanOneElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Linq::Error::MoreThanOneElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Linq::Error::MoreThanOneElement)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Error*), "MoreThanOneElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -84,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Linq::Error::MoreThanOneMatch
 // Il2CppName: MoreThanOneMatch
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Linq::Error::MoreThanOneMatch)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Linq::Error::MoreThanOneMatch)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Error*), "MoreThanOneMatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -92,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Linq::Error::NoElements
 // Il2CppName: NoElements
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Linq::Error::NoElements)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Linq::Error::NoElements)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Error*), "NoElements", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -100,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Linq::Error::NoMatch
 // Il2CppName: NoMatch
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Linq::Error::NoMatch)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Linq::Error::NoMatch)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Error*), "NoMatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -108,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Linq::Error::NotSupported
 // Il2CppName: NotSupported
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Linq::Error::NotSupported)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Linq::Error::NotSupported)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Error*), "NotSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

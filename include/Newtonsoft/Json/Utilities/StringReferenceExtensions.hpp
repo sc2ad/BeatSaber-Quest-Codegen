@@ -20,8 +20,8 @@ namespace Newtonsoft::Json::Utilities {
   class StringReferenceExtensions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Utilities::StringReferenceExtensions);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::StringReferenceExtensions*, "Newtonsoft.Json.Utilities", "StringReferenceExtensions");
+NEED_NO_BOX(::Newtonsoft::Json::Utilities::StringReferenceExtensions);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::StringReferenceExtensions*, "Newtonsoft.Json.Utilities", "StringReferenceExtensions");
 // Type namespace: Newtonsoft.Json.Utilities
 namespace Newtonsoft::Json::Utilities {
   // Size: 0x10
@@ -35,13 +35,13 @@ namespace Newtonsoft::Json::Utilities {
     public:
     // static public System.Int32 IndexOf(Newtonsoft.Json.Utilities.StringReference s, System.Char c, System.Int32 startIndex, System.Int32 length)
     // Offset: 0x29F8868
-    static int IndexOf(Newtonsoft::Json::Utilities::StringReference s, ::Il2CppChar c, int startIndex, int length);
+    static int IndexOf(::Newtonsoft::Json::Utilities::StringReference s, ::Il2CppChar c, int startIndex, int length);
     // static public System.Boolean StartsWith(Newtonsoft.Json.Utilities.StringReference s, System.String text)
     // Offset: 0x29F88F4
-    static bool StartsWith(Newtonsoft::Json::Utilities::StringReference s, ::StringW text);
+    static bool StartsWith(::Newtonsoft::Json::Utilities::StringReference s, ::StringW text);
     // static public System.Boolean EndsWith(Newtonsoft.Json.Utilities.StringReference s, System.String text)
     // Offset: 0x29F89B8
-    static bool EndsWith(Newtonsoft::Json::Utilities::StringReference s, ::StringW text);
+    static bool EndsWith(::Newtonsoft::Json::Utilities::StringReference s, ::StringW text);
   }; // Newtonsoft.Json.Utilities.StringReferenceExtensions
   #pragma pack(pop)
 }
@@ -49,7 +49,7 @@ namespace Newtonsoft::Json::Utilities {
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::StringReferenceExtensions::IndexOf
 // Il2CppName: IndexOf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Newtonsoft::Json::Utilities::StringReference, ::Il2CppChar, int, int)>(&Newtonsoft::Json::Utilities::StringReferenceExtensions::IndexOf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Newtonsoft::Json::Utilities::StringReference, ::Il2CppChar, int, int)>(&Newtonsoft::Json::Utilities::StringReferenceExtensions::IndexOf)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Utilities", "StringReference")->byval_arg;
     static auto* c = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
@@ -61,7 +61,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(New
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::StringReferenceExtensions::StartsWith
 // Il2CppName: StartsWith
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Newtonsoft::Json::Utilities::StringReference, ::StringW)>(&Newtonsoft::Json::Utilities::StringReferenceExtensions::StartsWith)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Newtonsoft::Json::Utilities::StringReference, ::StringW)>(&Newtonsoft::Json::Utilities::StringReferenceExtensions::StartsWith)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Utilities", "StringReference")->byval_arg;
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -71,7 +71,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ne
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::StringReferenceExtensions::EndsWith
 // Il2CppName: EndsWith
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Newtonsoft::Json::Utilities::StringReference, ::StringW)>(&Newtonsoft::Json::Utilities::StringReferenceExtensions::EndsWith)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Newtonsoft::Json::Utilities::StringReference, ::StringW)>(&Newtonsoft::Json::Utilities::StringReferenceExtensions::EndsWith)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Utilities", "StringReference")->byval_arg;
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

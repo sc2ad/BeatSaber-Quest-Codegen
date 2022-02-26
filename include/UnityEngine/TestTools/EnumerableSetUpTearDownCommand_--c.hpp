@@ -26,8 +26,8 @@ namespace System::Reflection {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::TestTools::EnumerableSetUpTearDownCommand::$$c);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::EnumerableSetUpTearDownCommand::$$c*, "UnityEngine.TestTools", "EnumerableSetUpTearDownCommand/<>c");
+NEED_NO_BOX(::UnityEngine::TestTools::EnumerableSetUpTearDownCommand::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TestTools::EnumerableSetUpTearDownCommand::$$c*, "UnityEngine.TestTools", "EnumerableSetUpTearDownCommand/<>c");
 // Type namespace: UnityEngine.TestTools
 namespace UnityEngine::TestTools {
   // Size: 0x10
@@ -38,26 +38,26 @@ namespace UnityEngine::TestTools {
   class EnumerableSetUpTearDownCommand::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly UnityEngine.TestTools.EnumerableSetUpTearDownCommand/UnityEngine.TestTools.<>c <>9
-    static UnityEngine::TestTools::EnumerableSetUpTearDownCommand::$$c* _get_$$9();
+    static ::UnityEngine::TestTools::EnumerableSetUpTearDownCommand::$$c* _get_$$9();
     // Set static field: static public readonly UnityEngine.TestTools.EnumerableSetUpTearDownCommand/UnityEngine.TestTools.<>c <>9
-    static void _set_$$9(UnityEngine::TestTools::EnumerableSetUpTearDownCommand::$$c* value);
+    static void _set_$$9(::UnityEngine::TestTools::EnumerableSetUpTearDownCommand::$$c* value);
     // Get static field: static public System.Func`2<System.Reflection.MethodInfo,System.Boolean> <>9__1_0
-    static System::Func_2<System::Reflection::MethodInfo*, bool>* _get_$$9__1_0();
+    static ::System::Func_2<::System::Reflection::MethodInfo*, bool>* _get_$$9__1_0();
     // Set static field: static public System.Func`2<System.Reflection.MethodInfo,System.Boolean> <>9__1_0
-    static void _set_$$9__1_0(System::Func_2<System::Reflection::MethodInfo*, bool>* value);
+    static void _set_$$9__1_0(::System::Func_2<::System::Reflection::MethodInfo*, bool>* value);
     // static private System.Void .cctor()
     // Offset: 0x18D749C
     static void _cctor();
     // System.Boolean <GetMethodsWithAttributeFromFixture>b__1_0(System.Reflection.MethodInfo x)
     // Offset: 0x18D7508
-    bool $GetMethodsWithAttributeFromFixture$b__1_0(System::Reflection::MethodInfo* x);
+    bool $GetMethodsWithAttributeFromFixture$b__1_0(::System::Reflection::MethodInfo* x);
     // public System.Void .ctor()
     // Offset: 0x18D7500
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnumerableSetUpTearDownCommand::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::EnumerableSetUpTearDownCommand::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::EnumerableSetUpTearDownCommand::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnumerableSetUpTearDownCommand::$$c*, creationType>()));
     }
   }; // UnityEngine.TestTools.EnumerableSetUpTearDownCommand/UnityEngine.TestTools.<>c
@@ -75,7 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::TestTools::EnumerableSetUpTearDownCommand::$$c::$GetMethodsWithAttributeFromFixture$b__1_0
 // Il2CppName: <GetMethodsWithAttributeFromFixture>b__1_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TestTools::EnumerableSetUpTearDownCommand::$$c::*)(System::Reflection::MethodInfo*)>(&UnityEngine::TestTools::EnumerableSetUpTearDownCommand::$$c::$GetMethodsWithAttributeFromFixture$b__1_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TestTools::EnumerableSetUpTearDownCommand::$$c::*)(::System::Reflection::MethodInfo*)>(&UnityEngine::TestTools::EnumerableSetUpTearDownCommand::$$c::$GetMethodsWithAttributeFromFixture$b__1_0)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::EnumerableSetUpTearDownCommand::$$c*), "<GetMethodsWithAttributeFromFixture>b__1_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});

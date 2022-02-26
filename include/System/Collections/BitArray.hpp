@@ -33,8 +33,8 @@ namespace System::Collections {
   class BitArray;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Collections::BitArray);
-DEFINE_IL2CPP_ARG_TYPE(System::Collections::BitArray*, "System.Collections", "BitArray");
+NEED_NO_BOX(::System::Collections::BitArray);
+DEFINE_IL2CPP_ARG_TYPE(::System::Collections::BitArray*, "System.Collections", "BitArray");
 // Type namespace: System.Collections
 namespace System::Collections {
   // Size: 0x28
@@ -43,9 +43,9 @@ namespace System::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   // [DefaultMemberAttribute] Offset: 118C4C8
   // [ComVisibleAttribute] Offset: 118C4C8
-  class BitArray : public ::Il2CppObject/*, public System::ICloneable, public System::Collections::ICollection*/ {
+  class BitArray : public ::Il2CppObject/*, public ::System::ICloneable, public ::System::Collections::ICollection*/ {
     public:
-    // Nested type: System::Collections::BitArray::BitArrayEnumeratorSimple
+    // Nested type: ::System::Collections::BitArray::BitArrayEnumeratorSimple
     class BitArrayEnumeratorSimple;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -81,13 +81,13 @@ namespace System::Collections {
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     public:
-    // Creating interface conversion operator: operator System::ICloneable
-    operator System::ICloneable() noexcept {
-      return *reinterpret_cast<System::ICloneable*>(this);
+    // Creating interface conversion operator: operator ::System::ICloneable
+    operator ::System::ICloneable() noexcept {
+      return *reinterpret_cast<::System::ICloneable*>(this);
     }
-    // Creating interface conversion operator: operator System::Collections::ICollection
-    operator System::Collections::ICollection() noexcept {
-      return *reinterpret_cast<System::Collections::ICollection*>(this);
+    // Creating interface conversion operator: operator ::System::Collections::ICollection
+    operator ::System::Collections::ICollection() noexcept {
+      return *reinterpret_cast<::System::Collections::ICollection*>(this);
     }
     // Get instance field reference: private System.Int32[] m_array
     ::ArrayW<int>& dyn_m_array();
@@ -119,21 +119,21 @@ namespace System::Collections {
     // Offset: 0x1DB5A94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BitArray* New_ctor(int length) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::BitArray::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::BitArray::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BitArray*, creationType>(length)));
     }
     // public System.Void .ctor(System.Int32 length, System.Boolean defaultValue)
     // Offset: 0x1DB5A9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BitArray* New_ctor(int length, bool defaultValue) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::BitArray::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::BitArray::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BitArray*, creationType>(length, defaultValue)));
     }
     // public System.Void .ctor(System.Int32[] values)
     // Offset: 0x1DB5BF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BitArray* New_ctor(::ArrayW<int> values) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::BitArray::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::BitArray::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BitArray*, creationType>(values)));
     }
     // public System.Boolean Get(System.Int32 index)
@@ -144,13 +144,13 @@ namespace System::Collections {
     void Set(int index, bool value);
     // public System.Void CopyTo(System.Array array, System.Int32 index)
     // Offset: 0x1DB616C
-    void CopyTo(System::Array* array, int index);
+    void CopyTo(::System::Array* array, int index);
     // public System.Object Clone()
     // Offset: 0x1DB64E4
     ::Il2CppObject* Clone();
     // public System.Collections.IEnumerator GetEnumerator()
     // Offset: 0x1DB65E0
-    System::Collections::IEnumerator* GetEnumerator();
+    ::System::Collections::IEnumerator* GetEnumerator();
     // static private System.Int32 GetArrayLength(System.Int32 n, System.Int32 div)
     // Offset: 0x1DB5BD8
     static int GetArrayLength(int n, int div);
@@ -160,7 +160,7 @@ namespace System::Collections {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BitArray* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::BitArray::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::BitArray::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BitArray*, creationType>()));
     }
   }; // System.Collections.BitArray
@@ -255,7 +255,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Collections::BitArray::CopyTo
 // Il2CppName: CopyTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::BitArray::*)(System::Array*, int)>(&System::Collections::BitArray::CopyTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::BitArray::*)(::System::Array*, int)>(&System::Collections::BitArray::CopyTo)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "Array")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -273,7 +273,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Collections::BitArray::GetEnumerator
 // Il2CppName: GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (System::Collections::BitArray::*)()>(&System::Collections::BitArray::GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (System::Collections::BitArray::*)()>(&System::Collections::BitArray::GetEnumerator)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Collections::BitArray*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

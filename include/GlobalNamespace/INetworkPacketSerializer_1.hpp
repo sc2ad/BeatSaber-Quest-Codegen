@@ -27,7 +27,7 @@ namespace GlobalNamespace {
   class INetworkPacketSerializer_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::INetworkPacketSerializer_1, "", "INetworkPacketSerializer`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::INetworkPacketSerializer_1, "", "INetworkPacketSerializer`1");
 // Type namespace: 
 namespace GlobalNamespace {
   // WARNING Size may be invalid!
@@ -38,15 +38,15 @@ namespace GlobalNamespace {
     public:
     // public System.Void ProcessAllPackets(LiteNetLib.Utils.NetDataReader reader, TData data)
     // Offset: 0xFFFFFFFF
-    void ProcessAllPackets(LiteNetLib::Utils::NetDataReader* reader, TData data) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::INetworkPacketSerializer_1::ProcessAllPackets");
+    void ProcessAllPackets(::LiteNetLib::Utils::NetDataReader* reader, TData data) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::INetworkPacketSerializer_1::ProcessAllPackets");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ProcessAllPackets", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(reader), ::il2cpp_utils::ExtractType(data)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, reader, data);
     }
     // public System.Void SerializePacket(LiteNetLib.Utils.NetDataWriter writer, LiteNetLib.Utils.INetSerializable packet)
     // Offset: 0xFFFFFFFF
-    void SerializePacket(LiteNetLib::Utils::NetDataWriter* writer, LiteNetLib::Utils::INetSerializable* packet) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::INetworkPacketSerializer_1::SerializePacket");
+    void SerializePacket(::LiteNetLib::Utils::NetDataWriter* writer, ::LiteNetLib::Utils::INetSerializable* packet) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::INetworkPacketSerializer_1::SerializePacket");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SerializePacket", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(writer), ::il2cpp_utils::ExtractType(packet)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, writer, packet);
     }

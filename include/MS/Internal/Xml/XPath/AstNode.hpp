@@ -26,8 +26,8 @@ namespace MS::Internal::Xml::XPath {
   class AstNode;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(MS::Internal::Xml::XPath::AstNode);
-DEFINE_IL2CPP_ARG_TYPE(MS::Internal::Xml::XPath::AstNode*, "MS.Internal.Xml.XPath", "AstNode");
+NEED_NO_BOX(::MS::Internal::Xml::XPath::AstNode);
+DEFINE_IL2CPP_ARG_TYPE(::MS::Internal::Xml::XPath::AstNode*, "MS.Internal.Xml.XPath", "AstNode");
 // Type namespace: MS.Internal.Xml.XPath
 namespace MS::Internal::Xml::XPath {
   // Size: 0x10
@@ -36,21 +36,21 @@ namespace MS::Internal::Xml::XPath {
   // [TokenAttribute] Offset: FFFFFFFF
   class AstNode : public ::Il2CppObject {
     public:
-    // Nested type: MS::Internal::Xml::XPath::AstNode::AstType
+    // Nested type: ::MS::Internal::Xml::XPath::AstNode::AstType
     struct AstType;
     // public MS.Internal.Xml.XPath.AstNode/MS.Internal.Xml.XPath.AstType get_Type()
     // Offset: 0xFFFFFFFF
-    MS::Internal::Xml::XPath::AstNode::AstType get_Type();
+    ::MS::Internal::Xml::XPath::AstNode::AstType get_Type();
     // public System.Xml.XPath.XPathResultType get_ReturnType()
     // Offset: 0xFFFFFFFF
-    System::Xml::XPath::XPathResultType get_ReturnType();
+    ::System::Xml::XPath::XPathResultType get_ReturnType();
     // protected System.Void .ctor()
     // Offset: 0x1B95A44
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AstNode* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("MS::Internal::Xml::XPath::AstNode::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::MS::Internal::Xml::XPath::AstNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AstNode*, creationType>()));
     }
   }; // MS.Internal.Xml.XPath.AstNode
@@ -60,7 +60,7 @@ namespace MS::Internal::Xml::XPath {
 // Writing MetadataGetter for method: MS::Internal::Xml::XPath::AstNode::get_Type
 // Il2CppName: get_Type
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MS::Internal::Xml::XPath::AstNode::AstType (MS::Internal::Xml::XPath::AstNode::*)()>(&MS::Internal::Xml::XPath::AstNode::get_Type)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::MS::Internal::Xml::XPath::AstNode::AstType (MS::Internal::Xml::XPath::AstNode::*)()>(&MS::Internal::Xml::XPath::AstNode::get_Type)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MS::Internal::Xml::XPath::AstNode*), "get_Type", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -68,7 +68,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MS::Interna
 // Writing MetadataGetter for method: MS::Internal::Xml::XPath::AstNode::get_ReturnType
 // Il2CppName: get_ReturnType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XPath::XPathResultType (MS::Internal::Xml::XPath::AstNode::*)()>(&MS::Internal::Xml::XPath::AstNode::get_ReturnType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XPath::XPathResultType (MS::Internal::Xml::XPath::AstNode::*)()>(&MS::Internal::Xml::XPath::AstNode::get_ReturnType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MS::Internal::Xml::XPath::AstNode*), "get_ReturnType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

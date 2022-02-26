@@ -73,8 +73,8 @@ namespace System::Data {
   class DataView;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Data::DataView);
-DEFINE_IL2CPP_ARG_TYPE(System::Data::DataView*, "System.Data", "DataView");
+NEED_NO_BOX(::System::Data::DataView);
+DEFINE_IL2CPP_ARG_TYPE(::System::Data::DataView*, "System.Data", "DataView");
 // Type namespace: System.Data
 namespace System::Data {
   // Size: 0xAC
@@ -84,9 +84,9 @@ namespace System::Data {
   // [DefaultPropertyAttribute] Offset: 11D06A0
   // [DefaultEventAttribute] Offset: 11D06A0
   // [DefaultMemberAttribute] Offset: 11D06A0
-  class DataView : public System::ComponentModel::MarshalByValueComponent/*, public System::ComponentModel::IBindingList*/ {
+  class DataView : public ::System::ComponentModel::MarshalByValueComponent/*, public ::System::ComponentModel::IBindingList*/ {
     public:
-    // Nested type: System::Data::DataView::DataRowReferenceComparer
+    // Nested type: ::System::Data::DataView::DataRowReferenceComparer
     class DataRowReferenceComparer;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -100,15 +100,15 @@ namespace System::Data {
     // private System.Data.DataViewManager _dataViewManager
     // Size: 0x8
     // Offset: 0x20
-    System::Data::DataViewManager* dataViewManager;
+    ::System::Data::DataViewManager* dataViewManager;
     // Field size check
-    static_assert(sizeof(System::Data::DataViewManager*) == 0x8);
+    static_assert(sizeof(::System::Data::DataViewManager*) == 0x8);
     // private System.Data.DataTable _table
     // Size: 0x8
     // Offset: 0x28
-    System::Data::DataTable* table;
+    ::System::Data::DataTable* table;
     // Field size check
-    static_assert(sizeof(System::Data::DataTable*) == 0x8);
+    static_assert(sizeof(::System::Data::DataTable*) == 0x8);
     // private System.Boolean _locked
     // Size: 0x1
     // Offset: 0x30
@@ -120,15 +120,15 @@ namespace System::Data {
     // private System.Data.Index _index
     // Size: 0x8
     // Offset: 0x38
-    System::Data::Index* index;
+    ::System::Data::Index* index;
     // Field size check
-    static_assert(sizeof(System::Data::Index*) == 0x8);
+    static_assert(sizeof(::System::Data::Index*) == 0x8);
     // private System.Collections.Generic.Dictionary`2<System.String,System.Data.Index> _findIndexes
     // Size: 0x8
     // Offset: 0x40
-    System::Collections::Generic::Dictionary_2<::StringW, System::Data::Index*>* findIndexes;
+    ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Data::Index*>* findIndexes;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, System::Data::Index*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Data::Index*>*) == 0x8);
     // private System.String _sort
     // Size: 0x8
     // Offset: 0x48
@@ -138,21 +138,21 @@ namespace System::Data {
     // private System.Comparison`1<System.Data.DataRow> _comparison
     // Size: 0x8
     // Offset: 0x50
-    System::Comparison_1<System::Data::DataRow*>* comparison;
+    ::System::Comparison_1<::System::Data::DataRow*>* comparison;
     // Field size check
-    static_assert(sizeof(System::Comparison_1<System::Data::DataRow*>*) == 0x8);
+    static_assert(sizeof(::System::Comparison_1<::System::Data::DataRow*>*) == 0x8);
     // private System.Data.IFilter _rowFilter
     // Size: 0x8
     // Offset: 0x58
-    System::Data::IFilter* rowFilter;
+    ::System::Data::IFilter* rowFilter;
     // Field size check
-    static_assert(sizeof(System::Data::IFilter*) == 0x8);
+    static_assert(sizeof(::System::Data::IFilter*) == 0x8);
     // private System.Data.DataViewRowState _recordStates
     // Size: 0x4
     // Offset: 0x60
-    System::Data::DataViewRowState recordStates;
+    ::System::Data::DataViewRowState recordStates;
     // Field size check
-    static_assert(sizeof(System::Data::DataViewRowState) == 0x4);
+    static_assert(sizeof(::System::Data::DataViewRowState) == 0x4);
     // private System.Boolean _shouldOpen
     // Size: 0x1
     // Offset: 0x64
@@ -194,27 +194,27 @@ namespace System::Data {
     // System.Data.DataRow _addNewRow
     // Size: 0x8
     // Offset: 0x70
-    System::Data::DataRow* addNewRow;
+    ::System::Data::DataRow* addNewRow;
     // Field size check
-    static_assert(sizeof(System::Data::DataRow*) == 0x8);
+    static_assert(sizeof(::System::Data::DataRow*) == 0x8);
     // private System.ComponentModel.ListChangedEventArgs _addNewMoved
     // Size: 0x8
     // Offset: 0x78
-    System::ComponentModel::ListChangedEventArgs* addNewMoved;
+    ::System::ComponentModel::ListChangedEventArgs* addNewMoved;
     // Field size check
-    static_assert(sizeof(System::ComponentModel::ListChangedEventArgs*) == 0x8);
+    static_assert(sizeof(::System::ComponentModel::ListChangedEventArgs*) == 0x8);
     // private System.ComponentModel.ListChangedEventHandler _onListChanged
     // Size: 0x8
     // Offset: 0x80
-    System::ComponentModel::ListChangedEventHandler* onListChanged;
+    ::System::ComponentModel::ListChangedEventHandler* onListChanged;
     // Field size check
-    static_assert(sizeof(System::ComponentModel::ListChangedEventHandler*) == 0x8);
+    static_assert(sizeof(::System::ComponentModel::ListChangedEventHandler*) == 0x8);
     // private System.Data.DataViewRowState _delayedRecordStates
     // Size: 0x4
     // Offset: 0x88
-    System::Data::DataViewRowState delayedRecordStates;
+    ::System::Data::DataViewRowState delayedRecordStates;
     // Field size check
-    static_assert(sizeof(System::Data::DataViewRowState) == 0x4);
+    static_assert(sizeof(::System::Data::DataViewRowState) == 0x4);
     // private System.Boolean _fEndInitInProgress
     // Size: 0x1
     // Offset: 0x8C
@@ -226,21 +226,21 @@ namespace System::Data {
     // private System.Collections.Generic.Dictionary`2<System.Data.DataRow,System.Data.DataRowView> _rowViewCache
     // Size: 0x8
     // Offset: 0x90
-    System::Collections::Generic::Dictionary_2<System::Data::DataRow*, System::Data::DataRowView*>* rowViewCache;
+    ::System::Collections::Generic::Dictionary_2<::System::Data::DataRow*, ::System::Data::DataRowView*>* rowViewCache;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<System::Data::DataRow*, System::Data::DataRowView*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::Dictionary_2<::System::Data::DataRow*, ::System::Data::DataRowView*>*) == 0x8);
     // private readonly System.Collections.Generic.Dictionary`2<System.Data.DataRow,System.Data.DataRowView> _rowViewBuffer
     // Size: 0x8
     // Offset: 0x98
-    System::Collections::Generic::Dictionary_2<System::Data::DataRow*, System::Data::DataRowView*>* rowViewBuffer;
+    ::System::Collections::Generic::Dictionary_2<::System::Data::DataRow*, ::System::Data::DataRowView*>* rowViewBuffer;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<System::Data::DataRow*, System::Data::DataRowView*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::Dictionary_2<::System::Data::DataRow*, ::System::Data::DataRowView*>*) == 0x8);
     // private System.Data.DataViewListener _dvListener
     // Size: 0x8
     // Offset: 0xA0
-    System::Data::DataViewListener* dvListener;
+    ::System::Data::DataViewListener* dvListener;
     // Field size check
-    static_assert(sizeof(System::Data::DataViewListener*) == 0x8);
+    static_assert(sizeof(::System::Data::DataViewListener*) == 0x8);
     // private readonly System.Int32 _objectID
     // Size: 0x4
     // Offset: 0xA8
@@ -248,36 +248,36 @@ namespace System::Data {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     public:
-    // Creating interface conversion operator: operator System::ComponentModel::IBindingList
-    operator System::ComponentModel::IBindingList() noexcept {
-      return *reinterpret_cast<System::ComponentModel::IBindingList*>(this);
+    // Creating interface conversion operator: operator ::System::ComponentModel::IBindingList
+    operator ::System::ComponentModel::IBindingList() noexcept {
+      return *reinterpret_cast<::System::ComponentModel::IBindingList*>(this);
     }
     // Get static field: static System.ComponentModel.ListChangedEventArgs s_resetEventArgs
-    static System::ComponentModel::ListChangedEventArgs* _get_s_resetEventArgs();
+    static ::System::ComponentModel::ListChangedEventArgs* _get_s_resetEventArgs();
     // Set static field: static System.ComponentModel.ListChangedEventArgs s_resetEventArgs
-    static void _set_s_resetEventArgs(System::ComponentModel::ListChangedEventArgs* value);
+    static void _set_s_resetEventArgs(::System::ComponentModel::ListChangedEventArgs* value);
     // Get static field: static private System.Int32 s_objectTypeCount
     static int _get_s_objectTypeCount();
     // Set static field: static private System.Int32 s_objectTypeCount
     static void _set_s_objectTypeCount(int value);
     // Get instance field reference: private System.Data.DataViewManager _dataViewManager
-    System::Data::DataViewManager*& dyn__dataViewManager();
+    ::System::Data::DataViewManager*& dyn__dataViewManager();
     // Get instance field reference: private System.Data.DataTable _table
-    System::Data::DataTable*& dyn__table();
+    ::System::Data::DataTable*& dyn__table();
     // Get instance field reference: private System.Boolean _locked
     bool& dyn__locked();
     // Get instance field reference: private System.Data.Index _index
-    System::Data::Index*& dyn__index();
+    ::System::Data::Index*& dyn__index();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.Data.Index> _findIndexes
-    System::Collections::Generic::Dictionary_2<::StringW, System::Data::Index*>*& dyn__findIndexes();
+    ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Data::Index*>*& dyn__findIndexes();
     // Get instance field reference: private System.String _sort
     ::StringW& dyn__sort();
     // Get instance field reference: private System.Comparison`1<System.Data.DataRow> _comparison
-    System::Comparison_1<System::Data::DataRow*>*& dyn__comparison();
+    ::System::Comparison_1<::System::Data::DataRow*>*& dyn__comparison();
     // Get instance field reference: private System.Data.IFilter _rowFilter
-    System::Data::IFilter*& dyn__rowFilter();
+    ::System::Data::IFilter*& dyn__rowFilter();
     // Get instance field reference: private System.Data.DataViewRowState _recordStates
-    System::Data::DataViewRowState& dyn__recordStates();
+    ::System::Data::DataViewRowState& dyn__recordStates();
     // Get instance field reference: private System.Boolean _shouldOpen
     bool& dyn__shouldOpen();
     // Get instance field reference: private System.Boolean _open
@@ -291,21 +291,21 @@ namespace System::Data {
     // Get instance field reference: private System.Boolean _applyDefaultSort
     bool& dyn__applyDefaultSort();
     // Get instance field reference: System.Data.DataRow _addNewRow
-    System::Data::DataRow*& dyn__addNewRow();
+    ::System::Data::DataRow*& dyn__addNewRow();
     // Get instance field reference: private System.ComponentModel.ListChangedEventArgs _addNewMoved
-    System::ComponentModel::ListChangedEventArgs*& dyn__addNewMoved();
+    ::System::ComponentModel::ListChangedEventArgs*& dyn__addNewMoved();
     // Get instance field reference: private System.ComponentModel.ListChangedEventHandler _onListChanged
-    System::ComponentModel::ListChangedEventHandler*& dyn__onListChanged();
+    ::System::ComponentModel::ListChangedEventHandler*& dyn__onListChanged();
     // Get instance field reference: private System.Data.DataViewRowState _delayedRecordStates
-    System::Data::DataViewRowState& dyn__delayedRecordStates();
+    ::System::Data::DataViewRowState& dyn__delayedRecordStates();
     // Get instance field reference: private System.Boolean _fEndInitInProgress
     bool& dyn__fEndInitInProgress();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Data.DataRow,System.Data.DataRowView> _rowViewCache
-    System::Collections::Generic::Dictionary_2<System::Data::DataRow*, System::Data::DataRowView*>*& dyn__rowViewCache();
+    ::System::Collections::Generic::Dictionary_2<::System::Data::DataRow*, ::System::Data::DataRowView*>*& dyn__rowViewCache();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.Data.DataRow,System.Data.DataRowView> _rowViewBuffer
-    System::Collections::Generic::Dictionary_2<System::Data::DataRow*, System::Data::DataRowView*>*& dyn__rowViewBuffer();
+    ::System::Collections::Generic::Dictionary_2<::System::Data::DataRow*, ::System::Data::DataRowView*>*& dyn__rowViewBuffer();
     // Get instance field reference: private System.Data.DataViewListener _dvListener
-    System::Data::DataViewListener*& dyn__dvListener();
+    ::System::Data::DataViewListener*& dyn__dvListener();
     // Get instance field reference: private readonly System.Int32 _objectID
     int& dyn__objectID();
     // public System.Boolean get_AllowDelete()
@@ -322,25 +322,25 @@ namespace System::Data {
     int get_CountFromIndex();
     // public System.Data.DataViewManager get_DataViewManager()
     // Offset: 0x1CC39D4
-    System::Data::DataViewManager* get_DataViewManager();
+    ::System::Data::DataViewManager* get_DataViewManager();
     // protected System.Boolean get_IsOpen()
     // Offset: 0x1CC39DC
     bool get_IsOpen();
     // public System.Data.DataViewRowState get_RowStateFilter()
     // Offset: 0x1CC39E4
-    System::Data::DataViewRowState get_RowStateFilter();
+    ::System::Data::DataViewRowState get_RowStateFilter();
     // public System.String get_Sort()
     // Offset: 0x1CC39EC
     ::StringW get_Sort();
     // System.Comparison`1<System.Data.DataRow> get_SortComparison()
     // Offset: 0x1CC3A44
-    System::Comparison_1<System::Data::DataRow*>* get_SortComparison();
+    ::System::Comparison_1<::System::Data::DataRow*>* get_SortComparison();
     // private System.Object System.Collections.ICollection.get_SyncRoot()
     // Offset: 0x1CC3A4C
     ::Il2CppObject* System_Collections_ICollection_get_SyncRoot();
     // public System.Data.DataTable get_Table()
     // Offset: 0x1CC3A50
-    System::Data::DataTable* get_Table();
+    ::System::Data::DataTable* get_Table();
     // private System.Object System.Collections.IList.get_Item(System.Int32 recordIndex)
     // Offset: 0x1CC3A58
     ::Il2CppObject* System_Collections_IList_get_Item(int recordIndex);
@@ -349,7 +349,7 @@ namespace System::Data {
     void System_Collections_IList_set_Item(int recordIndex, ::Il2CppObject* value);
     // public System.Data.DataRowView get_Item(System.Int32 recordIndex)
     // Offset: 0x1CC3A80
-    System::Data::DataRowView* get_Item(int recordIndex);
+    ::System::Data::DataRowView* get_Item(int recordIndex);
     // private System.Boolean System.Collections.IList.get_IsReadOnly()
     // Offset: 0x1CC47FC
     bool System_Collections_IList_get_IsReadOnly();
@@ -362,13 +362,13 @@ namespace System::Data {
     // System.Void .ctor(System.Data.DataTable table, System.Boolean locked)
     // Offset: 0x1CC34C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DataView* New_ctor(System::Data::DataTable* table, bool locked) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Data::DataView::.ctor");
+    static DataView* New_ctor(::System::Data::DataTable* table, bool locked) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Data::DataView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DataView*, creationType>(table, locked)));
     }
     // public System.Data.DataRowView AddNew()
     // Offset: 0x1CC3C60
-    System::Data::DataRowView* AddNew();
+    ::System::Data::DataRowView* AddNew();
     // private System.Void CheckOpen()
     // Offset: 0x1CC3EA0
     void CheckOpen();
@@ -377,22 +377,22 @@ namespace System::Data {
     void Close();
     // public System.Void CopyTo(System.Array array, System.Int32 index)
     // Offset: 0x1CC40C4
-    void CopyTo(System::Array* array, int index);
+    void CopyTo(::System::Array* array, int index);
     // private System.Void CopyTo(System.Data.DataRowView[] array, System.Int32 index)
     // Offset: 0x1CC4240
-    void CopyTo(::ArrayW<System::Data::DataRowView*> array, int index);
+    void CopyTo(::ArrayW<::System::Data::DataRowView*> array, int index);
     // public System.Void Delete(System.Int32 index)
     // Offset: 0x1CC43E0
     void Delete(int index);
     // System.Void Delete(System.Data.DataRow row)
     // Offset: 0x1CC4408
-    void Delete(System::Data::DataRow* row);
+    void Delete(::System::Data::DataRow* row);
     // System.Void FinishAddNew(System.Boolean success)
     // Offset: 0x1CC4570
     void FinishAddNew(bool success);
     // public System.Collections.IEnumerator GetEnumerator()
     // Offset: 0x1CC4778
-    System::Collections::IEnumerator* GetEnumerator();
+    ::System::Collections::IEnumerator* GetEnumerator();
     // private System.Int32 System.Collections.IList.Add(System.Object value)
     // Offset: 0x1CC480C
     int System_Collections_IList_Add(::Il2CppObject* value);
@@ -407,10 +407,10 @@ namespace System::Data {
     int System_Collections_IList_IndexOf(::Il2CppObject* value);
     // System.Int32 IndexOf(System.Data.DataRowView rowview)
     // Offset: 0x1CC3F44
-    int IndexOf(System::Data::DataRowView* rowview);
+    int IndexOf(::System::Data::DataRowView* rowview);
     // private System.Int32 IndexOfDataRowView(System.Data.DataRowView rowview)
     // Offset: 0x1CC4A90
-    int IndexOfDataRowView(System::Data::DataRowView* rowview);
+    int IndexOfDataRowView(::System::Data::DataRowView* rowview);
     // private System.Void System.Collections.IList.Insert(System.Int32 index, System.Object value)
     // Offset: 0x1CC4AEC
     void System_Collections_IList_Insert(int index, ::Il2CppObject* value);
@@ -422,31 +422,31 @@ namespace System::Data {
     void System_Collections_IList_RemoveAt(int index);
     // System.Data.IFilter GetFilter()
     // Offset: 0x1CC4D04
-    System::Data::IFilter* GetFilter();
+    ::System::Data::IFilter* GetFilter();
     // private System.Int32 GetRecord(System.Int32 recordIndex)
     // Offset: 0x1CC4D0C
     int GetRecord(int recordIndex);
     // System.Data.DataRow GetRow(System.Int32 index)
     // Offset: 0x1CC3B34
-    System::Data::DataRow* GetRow(int index);
+    ::System::Data::DataRow* GetRow(int index);
     // private System.Data.DataRowView GetRowView(System.Int32 record)
     // Offset: 0x1CC4200
-    System::Data::DataRowView* GetRowView(int record);
+    ::System::Data::DataRowView* GetRowView(int record);
     // private System.Data.DataRowView GetRowView(System.Data.DataRow dr)
     // Offset: 0x1CC3BF8
-    System::Data::DataRowView* GetRowView(System::Data::DataRow* dr);
+    ::System::Data::DataRowView* GetRowView(::System::Data::DataRow* dr);
     // protected System.Void IndexListChanged(System.Object sender, System.ComponentModel.ListChangedEventArgs e)
     // Offset: 0x1CC4EEC
-    void IndexListChanged(::Il2CppObject* sender, System::ComponentModel::ListChangedEventArgs* e);
+    void IndexListChanged(::Il2CppObject* sender, ::System::ComponentModel::ListChangedEventArgs* e);
     // System.Void IndexListChangedInternal(System.ComponentModel.ListChangedEventArgs e)
     // Offset: 0x1CC4F80
-    void IndexListChangedInternal(System::ComponentModel::ListChangedEventArgs* e);
+    void IndexListChangedInternal(::System::ComponentModel::ListChangedEventArgs* e);
     // System.Void MaintainDataView(System.ComponentModel.ListChangedType changedType, System.Data.DataRow row, System.Boolean trackAddRemove)
     // Offset: 0x1CC5040
-    void MaintainDataView(System::ComponentModel::ListChangedType changedType, System::Data::DataRow* row, bool trackAddRemove);
+    void MaintainDataView(::System::ComponentModel::ListChangedType changedType, ::System::Data::DataRow* row, bool trackAddRemove);
     // protected System.Void OnListChanged(System.ComponentModel.ListChangedEventArgs e)
     // Offset: 0x1CC545C
-    void OnListChanged(System::ComponentModel::ListChangedEventArgs* e);
+    void OnListChanged(::System::ComponentModel::ListChangedEventArgs* e);
     // protected System.Void Reset()
     // Offset: 0x1CC5794
     void Reset();
@@ -455,13 +455,13 @@ namespace System::Data {
     void ResetRowViewCache();
     // System.Void SetDataViewManager(System.Data.DataViewManager dataViewManager)
     // Offset: 0x1CC57BC
-    void SetDataViewManager(System::Data::DataViewManager* dataViewManager);
+    void SetDataViewManager(::System::Data::DataViewManager* dataViewManager);
     // System.Void SetIndex(System.String newSort, System.Data.DataViewRowState newRowStates, System.Data.IFilter newRowFilter)
     // Offset: 0x1CC5A20
-    void SetIndex(::StringW newSort, System::Data::DataViewRowState newRowStates, System::Data::IFilter* newRowFilter);
+    void SetIndex(::StringW newSort, ::System::Data::DataViewRowState newRowStates, ::System::Data::IFilter* newRowFilter);
     // System.Void SetIndex2(System.String newSort, System.Data.DataViewRowState newRowStates, System.Data.IFilter newRowFilter, System.Boolean fireEvent)
     // Offset: 0x1CC5A28
-    void SetIndex2(::StringW newSort, System::Data::DataViewRowState newRowStates, System::Data::IFilter* newRowFilter, bool fireEvent);
+    void SetIndex2(::StringW newSort, ::System::Data::DataViewRowState newRowStates, ::System::Data::IFilter* newRowFilter, bool fireEvent);
     // protected System.Void UpdateIndex()
     // Offset: 0x1CC40A8
     void UpdateIndex();
@@ -473,16 +473,16 @@ namespace System::Data {
     void UpdateIndex(bool force, bool fireEvent);
     // System.Void ChildRelationCollectionChanged(System.Object sender, System.ComponentModel.CollectionChangeEventArgs e)
     // Offset: 0x1CC6040
-    void ChildRelationCollectionChanged(::Il2CppObject* sender, System::ComponentModel::CollectionChangeEventArgs* e);
+    void ChildRelationCollectionChanged(::Il2CppObject* sender, ::System::ComponentModel::CollectionChangeEventArgs* e);
     // System.Void ParentRelationCollectionChanged(System.Object sender, System.ComponentModel.CollectionChangeEventArgs e)
     // Offset: 0x1CC6248
-    void ParentRelationCollectionChanged(::Il2CppObject* sender, System::ComponentModel::CollectionChangeEventArgs* e);
+    void ParentRelationCollectionChanged(::Il2CppObject* sender, ::System::ComponentModel::CollectionChangeEventArgs* e);
     // protected System.Void ColumnCollectionChanged(System.Object sender, System.ComponentModel.CollectionChangeEventArgs e)
     // Offset: 0x1CC6450
-    void ColumnCollectionChanged(::Il2CppObject* sender, System::ComponentModel::CollectionChangeEventArgs* e);
+    void ColumnCollectionChanged(::Il2CppObject* sender, ::System::ComponentModel::CollectionChangeEventArgs* e);
     // System.Void ColumnCollectionChangedInternal(System.Object sender, System.ComponentModel.CollectionChangeEventArgs e)
     // Offset: 0x1CC6658
-    void ColumnCollectionChangedInternal(::Il2CppObject* sender, System::ComponentModel::CollectionChangeEventArgs* e);
+    void ColumnCollectionChangedInternal(::Il2CppObject* sender, ::System::ComponentModel::CollectionChangeEventArgs* e);
     // static private System.Void .cctor()
     // Offset: 0x1CC6670
     // Implemented from: System.ComponentModel.MarshalByValueComponent
@@ -534,7 +534,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Data::DataView::get_DataViewManager
 // Il2CppName: get_DataViewManager
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::DataViewManager* (System::Data::DataView::*)()>(&System::Data::DataView::get_DataViewManager)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataViewManager* (System::Data::DataView::*)()>(&System::Data::DataView::get_DataViewManager)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataView*), "get_DataViewManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -550,7 +550,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Data::DataView::get_RowStateFilter
 // Il2CppName: get_RowStateFilter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::DataViewRowState (System::Data::DataView::*)()>(&System::Data::DataView::get_RowStateFilter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataViewRowState (System::Data::DataView::*)()>(&System::Data::DataView::get_RowStateFilter)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataView*), "get_RowStateFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -566,7 +566,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Data::DataView::get_SortComparison
 // Il2CppName: get_SortComparison
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Comparison_1<System::Data::DataRow*>* (System::Data::DataView::*)()>(&System::Data::DataView::get_SortComparison)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Comparison_1<::System::Data::DataRow*>* (System::Data::DataView::*)()>(&System::Data::DataView::get_SortComparison)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataView*), "get_SortComparison", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -582,7 +582,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Data::DataView::get_Table
 // Il2CppName: get_Table
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::DataTable* (System::Data::DataView::*)()>(&System::Data::DataView::get_Table)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataTable* (System::Data::DataView::*)()>(&System::Data::DataView::get_Table)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataView*), "get_Table", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -609,7 +609,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataView::get_Item
 // Il2CppName: get_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::DataRowView* (System::Data::DataView::*)(int)>(&System::Data::DataView::get_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataRowView* (System::Data::DataView::*)(int)>(&System::Data::DataView::get_Item)> {
   static const MethodInfo* get() {
     static auto* recordIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataView*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{recordIndex});
@@ -646,7 +646,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Data::DataView::AddNew
 // Il2CppName: AddNew
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::DataRowView* (System::Data::DataView::*)()>(&System::Data::DataView::AddNew)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataRowView* (System::Data::DataView::*)()>(&System::Data::DataView::AddNew)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataView*), "AddNew", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -670,7 +670,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataView::CopyTo
 // Il2CppName: CopyTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataView::*)(System::Array*, int)>(&System::Data::DataView::CopyTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataView::*)(::System::Array*, int)>(&System::Data::DataView::CopyTo)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "Array")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -680,7 +680,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataView::CopyTo
 // Il2CppName: CopyTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataView::*)(::ArrayW<System::Data::DataRowView*>, int)>(&System::Data::DataView::CopyTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataView::*)(::ArrayW<::System::Data::DataRowView*>, int)>(&System::Data::DataView::CopyTo)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Data", "DataRowView"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -699,7 +699,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataView::Delete
 // Il2CppName: Delete
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataView::*)(System::Data::DataRow*)>(&System::Data::DataView::Delete)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataView::*)(::System::Data::DataRow*)>(&System::Data::DataView::Delete)> {
   static const MethodInfo* get() {
     static auto* row = &::il2cpp_utils::GetClassFromName("System.Data", "DataRow")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataView*), "Delete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{row});
@@ -717,7 +717,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataView::GetEnumerator
 // Il2CppName: GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (System::Data::DataView::*)()>(&System::Data::DataView::GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (System::Data::DataView::*)()>(&System::Data::DataView::GetEnumerator)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataView*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -760,7 +760,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Data::DataView::IndexOf
 // Il2CppName: IndexOf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Data::DataView::*)(System::Data::DataRowView*)>(&System::Data::DataView::IndexOf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Data::DataView::*)(::System::Data::DataRowView*)>(&System::Data::DataView::IndexOf)> {
   static const MethodInfo* get() {
     static auto* rowview = &::il2cpp_utils::GetClassFromName("System.Data", "DataRowView")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataView*), "IndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rowview});
@@ -769,7 +769,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Data::DataView::IndexOfDataRowView
 // Il2CppName: IndexOfDataRowView
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Data::DataView::*)(System::Data::DataRowView*)>(&System::Data::DataView::IndexOfDataRowView)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Data::DataView::*)(::System::Data::DataRowView*)>(&System::Data::DataView::IndexOfDataRowView)> {
   static const MethodInfo* get() {
     static auto* rowview = &::il2cpp_utils::GetClassFromName("System.Data", "DataRowView")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataView*), "IndexOfDataRowView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rowview});
@@ -806,7 +806,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataView::GetFilter
 // Il2CppName: GetFilter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::IFilter* (System::Data::DataView::*)()>(&System::Data::DataView::GetFilter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::IFilter* (System::Data::DataView::*)()>(&System::Data::DataView::GetFilter)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataView*), "GetFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -823,7 +823,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Data::DataView::GetRow
 // Il2CppName: GetRow
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::DataRow* (System::Data::DataView::*)(int)>(&System::Data::DataView::GetRow)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataRow* (System::Data::DataView::*)(int)>(&System::Data::DataView::GetRow)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataView*), "GetRow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
@@ -832,7 +832,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::DataView::GetRowView
 // Il2CppName: GetRowView
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::DataRowView* (System::Data::DataView::*)(int)>(&System::Data::DataView::GetRowView)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataRowView* (System::Data::DataView::*)(int)>(&System::Data::DataView::GetRowView)> {
   static const MethodInfo* get() {
     static auto* record = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataView*), "GetRowView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{record});
@@ -841,7 +841,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::DataView::GetRowView
 // Il2CppName: GetRowView
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::DataRowView* (System::Data::DataView::*)(System::Data::DataRow*)>(&System::Data::DataView::GetRowView)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataRowView* (System::Data::DataView::*)(::System::Data::DataRow*)>(&System::Data::DataView::GetRowView)> {
   static const MethodInfo* get() {
     static auto* dr = &::il2cpp_utils::GetClassFromName("System.Data", "DataRow")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataView*), "GetRowView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dr});
@@ -850,7 +850,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::DataView::IndexListChanged
 // Il2CppName: IndexListChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataView::*)(::Il2CppObject*, System::ComponentModel::ListChangedEventArgs*)>(&System::Data::DataView::IndexListChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataView::*)(::Il2CppObject*, ::System::ComponentModel::ListChangedEventArgs*)>(&System::Data::DataView::IndexListChanged)> {
   static const MethodInfo* get() {
     static auto* sender = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* e = &::il2cpp_utils::GetClassFromName("System.ComponentModel", "ListChangedEventArgs")->byval_arg;
@@ -860,7 +860,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataView::IndexListChangedInternal
 // Il2CppName: IndexListChangedInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataView::*)(System::ComponentModel::ListChangedEventArgs*)>(&System::Data::DataView::IndexListChangedInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataView::*)(::System::ComponentModel::ListChangedEventArgs*)>(&System::Data::DataView::IndexListChangedInternal)> {
   static const MethodInfo* get() {
     static auto* e = &::il2cpp_utils::GetClassFromName("System.ComponentModel", "ListChangedEventArgs")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataView*), "IndexListChangedInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{e});
@@ -869,7 +869,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataView::MaintainDataView
 // Il2CppName: MaintainDataView
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataView::*)(System::ComponentModel::ListChangedType, System::Data::DataRow*, bool)>(&System::Data::DataView::MaintainDataView)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataView::*)(::System::ComponentModel::ListChangedType, ::System::Data::DataRow*, bool)>(&System::Data::DataView::MaintainDataView)> {
   static const MethodInfo* get() {
     static auto* changedType = &::il2cpp_utils::GetClassFromName("System.ComponentModel", "ListChangedType")->byval_arg;
     static auto* row = &::il2cpp_utils::GetClassFromName("System.Data", "DataRow")->byval_arg;
@@ -880,7 +880,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataView::OnListChanged
 // Il2CppName: OnListChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataView::*)(System::ComponentModel::ListChangedEventArgs*)>(&System::Data::DataView::OnListChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataView::*)(::System::ComponentModel::ListChangedEventArgs*)>(&System::Data::DataView::OnListChanged)> {
   static const MethodInfo* get() {
     static auto* e = &::il2cpp_utils::GetClassFromName("System.ComponentModel", "ListChangedEventArgs")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataView*), "OnListChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{e});
@@ -905,7 +905,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataView::SetDataViewManager
 // Il2CppName: SetDataViewManager
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataView::*)(System::Data::DataViewManager*)>(&System::Data::DataView::SetDataViewManager)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataView::*)(::System::Data::DataViewManager*)>(&System::Data::DataView::SetDataViewManager)> {
   static const MethodInfo* get() {
     static auto* dataViewManager = &::il2cpp_utils::GetClassFromName("System.Data", "DataViewManager")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataView*), "SetDataViewManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dataViewManager});
@@ -914,7 +914,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataView::SetIndex
 // Il2CppName: SetIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataView::*)(::StringW, System::Data::DataViewRowState, System::Data::IFilter*)>(&System::Data::DataView::SetIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataView::*)(::StringW, ::System::Data::DataViewRowState, ::System::Data::IFilter*)>(&System::Data::DataView::SetIndex)> {
   static const MethodInfo* get() {
     static auto* newSort = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* newRowStates = &::il2cpp_utils::GetClassFromName("System.Data", "DataViewRowState")->byval_arg;
@@ -925,7 +925,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataView::SetIndex2
 // Il2CppName: SetIndex2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataView::*)(::StringW, System::Data::DataViewRowState, System::Data::IFilter*, bool)>(&System::Data::DataView::SetIndex2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataView::*)(::StringW, ::System::Data::DataViewRowState, ::System::Data::IFilter*, bool)>(&System::Data::DataView::SetIndex2)> {
   static const MethodInfo* get() {
     static auto* newSort = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* newRowStates = &::il2cpp_utils::GetClassFromName("System.Data", "DataViewRowState")->byval_arg;
@@ -964,7 +964,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataView::ChildRelationCollectionChanged
 // Il2CppName: ChildRelationCollectionChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataView::*)(::Il2CppObject*, System::ComponentModel::CollectionChangeEventArgs*)>(&System::Data::DataView::ChildRelationCollectionChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataView::*)(::Il2CppObject*, ::System::ComponentModel::CollectionChangeEventArgs*)>(&System::Data::DataView::ChildRelationCollectionChanged)> {
   static const MethodInfo* get() {
     static auto* sender = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* e = &::il2cpp_utils::GetClassFromName("System.ComponentModel", "CollectionChangeEventArgs")->byval_arg;
@@ -974,7 +974,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataView::ParentRelationCollectionChanged
 // Il2CppName: ParentRelationCollectionChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataView::*)(::Il2CppObject*, System::ComponentModel::CollectionChangeEventArgs*)>(&System::Data::DataView::ParentRelationCollectionChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataView::*)(::Il2CppObject*, ::System::ComponentModel::CollectionChangeEventArgs*)>(&System::Data::DataView::ParentRelationCollectionChanged)> {
   static const MethodInfo* get() {
     static auto* sender = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* e = &::il2cpp_utils::GetClassFromName("System.ComponentModel", "CollectionChangeEventArgs")->byval_arg;
@@ -984,7 +984,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataView::ColumnCollectionChanged
 // Il2CppName: ColumnCollectionChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataView::*)(::Il2CppObject*, System::ComponentModel::CollectionChangeEventArgs*)>(&System::Data::DataView::ColumnCollectionChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataView::*)(::Il2CppObject*, ::System::ComponentModel::CollectionChangeEventArgs*)>(&System::Data::DataView::ColumnCollectionChanged)> {
   static const MethodInfo* get() {
     static auto* sender = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* e = &::il2cpp_utils::GetClassFromName("System.ComponentModel", "CollectionChangeEventArgs")->byval_arg;
@@ -994,7 +994,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataView::ColumnCollectionChangedInternal
 // Il2CppName: ColumnCollectionChangedInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataView::*)(::Il2CppObject*, System::ComponentModel::CollectionChangeEventArgs*)>(&System::Data::DataView::ColumnCollectionChangedInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataView::*)(::Il2CppObject*, ::System::ComponentModel::CollectionChangeEventArgs*)>(&System::Data::DataView::ColumnCollectionChangedInternal)> {
   static const MethodInfo* get() {
     static auto* sender = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* e = &::il2cpp_utils::GetClassFromName("System.ComponentModel", "CollectionChangeEventArgs")->byval_arg;

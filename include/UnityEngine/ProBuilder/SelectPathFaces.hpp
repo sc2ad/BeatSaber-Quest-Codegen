@@ -33,8 +33,8 @@ namespace UnityEngine::ProBuilder {
   class SelectPathFaces;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::SelectPathFaces);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SelectPathFaces*, "UnityEngine.ProBuilder", "SelectPathFaces");
+NEED_NO_BOX(::UnityEngine::ProBuilder::SelectPathFaces);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::SelectPathFaces*, "UnityEngine.ProBuilder", "SelectPathFaces");
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
   // Size: 0x10
@@ -52,36 +52,36 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static private System.Int32 s_cachedStart
     static void _set_s_cachedStart(int value);
     // Get static field: static private UnityEngine.ProBuilder.ProBuilderMesh s_cachedMesh
-    static UnityEngine::ProBuilder::ProBuilderMesh* _get_s_cachedMesh();
+    static ::UnityEngine::ProBuilder::ProBuilderMesh* _get_s_cachedMesh();
     // Set static field: static private UnityEngine.ProBuilder.ProBuilderMesh s_cachedMesh
-    static void _set_s_cachedMesh(UnityEngine::ProBuilder::ProBuilderMesh* value);
+    static void _set_s_cachedMesh(::UnityEngine::ProBuilder::ProBuilderMesh* value);
     // Get static field: static private System.Int32 s_cachedFacesCount
     static int _get_s_cachedFacesCount();
     // Set static field: static private System.Int32 s_cachedFacesCount
     static void _set_s_cachedFacesCount(int value);
     // Get static field: static private System.Collections.Generic.List`1<UnityEngine.ProBuilder.WingedEdge> s_cachedWings
-    static System::Collections::Generic::List_1<UnityEngine::ProBuilder::WingedEdge*>* _get_s_cachedWings();
+    static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* _get_s_cachedWings();
     // Set static field: static private System.Collections.Generic.List`1<UnityEngine.ProBuilder.WingedEdge> s_cachedWings
-    static void _set_s_cachedWings(System::Collections::Generic::List_1<UnityEngine::ProBuilder::WingedEdge*>* value);
+    static void _set_s_cachedWings(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* value);
     // Get static field: static private System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.Face,System.Int32> s_cachedFacesIndex
-    static System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::Face*, int>* _get_s_cachedFacesIndex();
+    static ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, int>* _get_s_cachedFacesIndex();
     // Set static field: static private System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.Face,System.Int32> s_cachedFacesIndex
-    static void _set_s_cachedFacesIndex(System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::Face*, int>* value);
+    static void _set_s_cachedFacesIndex(::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, int>* value);
     // static private System.Void .cctor()
     // Offset: 0x1916390
     static void _cctor();
     // static public System.Collections.Generic.List`1<System.Int32> GetPath(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Int32 start, System.Int32 end)
     // Offset: 0x19154B0
-    static System::Collections::Generic::List_1<int>* GetPath(UnityEngine::ProBuilder::ProBuilderMesh* mesh, int start, int end);
+    static ::System::Collections::Generic::List_1<int>* GetPath(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, int start, int end);
     // static private System.Int32[] Dijkstra(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Int32 start)
     // Offset: 0x1915880
-    static ::ArrayW<int> Dijkstra(UnityEngine::ProBuilder::ProBuilderMesh* mesh, int start);
+    static ::ArrayW<int> Dijkstra(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, int start);
     // static private System.Single GetWeight(System.Int32 face1, System.Int32 face2, UnityEngine.ProBuilder.ProBuilderMesh mesh)
     // Offset: 0x1915F28
-    static float GetWeight(int face1, int face2, UnityEngine::ProBuilder::ProBuilderMesh* mesh);
+    static float GetWeight(int face1, int face2, ::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
     // static private System.Collections.Generic.List`1<System.Int32> GetMinimalPath(System.Int32[] predecessors, System.Int32 start, System.Int32 end)
     // Offset: 0x191576C
-    static System::Collections::Generic::List_1<int>* GetMinimalPath(::ArrayW<int> predecessors, int start, int end);
+    static ::System::Collections::Generic::List_1<int>* GetMinimalPath(::ArrayW<int> predecessors, int start, int end);
   }; // UnityEngine.ProBuilder.SelectPathFaces
   #pragma pack(pop)
 }
@@ -97,7 +97,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SelectPathFaces::GetPath
 // Il2CppName: GetPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<int>* (*)(UnityEngine::ProBuilder::ProBuilderMesh*, int, int)>(&UnityEngine::ProBuilder::SelectPathFaces::GetPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<int>* (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, int, int)>(&UnityEngine::ProBuilder::SelectPathFaces::GetPath)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -108,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SelectPathFaces::Dijkstra
 // Il2CppName: Dijkstra
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (*)(UnityEngine::ProBuilder::ProBuilderMesh*, int)>(&UnityEngine::ProBuilder::SelectPathFaces::Dijkstra)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, int)>(&UnityEngine::ProBuilder::SelectPathFaces::Dijkstra)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -118,7 +118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<in
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SelectPathFaces::GetWeight
 // Il2CppName: GetWeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(int, int, UnityEngine::ProBuilder::ProBuilderMesh*)>(&UnityEngine::ProBuilder::SelectPathFaces::GetWeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(int, int, ::UnityEngine::ProBuilder::ProBuilderMesh*)>(&UnityEngine::ProBuilder::SelectPathFaces::GetWeight)> {
   static const MethodInfo* get() {
     static auto* face1 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* face2 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -129,7 +129,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(i
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SelectPathFaces::GetMinimalPath
 // Il2CppName: GetMinimalPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<int>* (*)(::ArrayW<int>, int, int)>(&UnityEngine::ProBuilder::SelectPathFaces::GetMinimalPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<int>* (*)(::ArrayW<int>, int, int)>(&UnityEngine::ProBuilder::SelectPathFaces::GetMinimalPath)> {
   static const MethodInfo* get() {
     static auto* predecessors = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

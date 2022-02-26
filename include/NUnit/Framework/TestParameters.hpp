@@ -30,8 +30,8 @@ namespace NUnit::Framework {
   class TestParameters;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::TestParameters);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::TestParameters*, "NUnit.Framework", "TestParameters");
+NEED_NO_BOX(::NUnit::Framework::TestParameters);
+DEFINE_IL2CPP_ARG_TYPE(::NUnit::Framework::TestParameters*, "NUnit.Framework", "TestParameters");
 // Type namespace: NUnit.Framework
 namespace NUnit::Framework {
   // Size: 0x18
@@ -53,20 +53,20 @@ namespace NUnit::Framework {
     // private readonly System.Collections.Generic.Dictionary`2<System.String,System.String> _parameters
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* parameters;
+    ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* parameters;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*) == 0x8);
     public:
-    // Creating conversion operator: operator System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*
-    constexpr operator System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*() const noexcept {
+    // Creating conversion operator: operator ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*
+    constexpr operator ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*() const noexcept {
       return parameters;
     }
     // Get static field: static private readonly System.IFormatProvider MODIFIED_INVARIANT_CULTURE
-    static System::IFormatProvider* _get_MODIFIED_INVARIANT_CULTURE();
+    static ::System::IFormatProvider* _get_MODIFIED_INVARIANT_CULTURE();
     // Set static field: static private readonly System.IFormatProvider MODIFIED_INVARIANT_CULTURE
-    static void _set_MODIFIED_INVARIANT_CULTURE(System::IFormatProvider* value);
+    static void _set_MODIFIED_INVARIANT_CULTURE(::System::IFormatProvider* value);
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,System.String> _parameters
-    System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& dyn__parameters();
+    ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& dyn__parameters();
     // static private System.Void .cctor()
     // Offset: 0x28C1154
     static void _cctor();
@@ -75,19 +75,19 @@ namespace NUnit::Framework {
     void Add(::StringW name, ::StringW value);
     // static private System.IFormatProvider CreateModifiedInvariantCulture()
     // Offset: 0x28C1010
-    static System::IFormatProvider* CreateModifiedInvariantCulture();
+    static ::System::IFormatProvider* CreateModifiedInvariantCulture();
     // public System.Void .ctor()
     // Offset: 0x28C0CB8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestParameters* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::TestParameters::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::TestParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestParameters*, creationType>()));
     }
   }; // NUnit.Framework.TestParameters
   #pragma pack(pop)
-  static check_size<sizeof(TestParameters), 16 + sizeof(System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*)> __NUnit_Framework_TestParametersSizeCheck;
+  static check_size<sizeof(TestParameters), 16 + sizeof(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*)> __NUnit_Framework_TestParametersSizeCheck;
   static_assert(sizeof(TestParameters) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -112,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Writing MetadataGetter for method: NUnit::Framework::TestParameters::CreateModifiedInvariantCulture
 // Il2CppName: CreateModifiedInvariantCulture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IFormatProvider* (*)()>(&NUnit::Framework::TestParameters::CreateModifiedInvariantCulture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IFormatProvider* (*)()>(&NUnit::Framework::TestParameters::CreateModifiedInvariantCulture)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::TestParameters*), "CreateModifiedInvariantCulture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -27,8 +27,8 @@ namespace System::Text {
   class EncodingHelper;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Text::EncodingHelper);
-DEFINE_IL2CPP_ARG_TYPE(System::Text::EncodingHelper*, "System.Text", "EncodingHelper");
+NEED_NO_BOX(::System::Text::EncodingHelper);
+DEFINE_IL2CPP_ARG_TYPE(::System::Text::EncodingHelper*, "System.Text", "EncodingHelper");
 // Type namespace: System.Text
 namespace System::Text {
   // Size: 0x10
@@ -38,24 +38,24 @@ namespace System::Text {
   class EncodingHelper : public ::Il2CppObject {
     public:
     // Get static field: static private System.Text.Encoding utf8EncodingWithoutMarkers
-    static System::Text::Encoding* _get_utf8EncodingWithoutMarkers();
+    static ::System::Text::Encoding* _get_utf8EncodingWithoutMarkers();
     // Set static field: static private System.Text.Encoding utf8EncodingWithoutMarkers
-    static void _set_utf8EncodingWithoutMarkers(System::Text::Encoding* value);
+    static void _set_utf8EncodingWithoutMarkers(::System::Text::Encoding* value);
     // Get static field: static private readonly System.Object lockobj
     static ::Il2CppObject* _get_lockobj();
     // Set static field: static private readonly System.Object lockobj
     static void _set_lockobj(::Il2CppObject* value);
     // Get static field: static private System.Reflection.Assembly i18nAssembly
-    static System::Reflection::Assembly* _get_i18nAssembly();
+    static ::System::Reflection::Assembly* _get_i18nAssembly();
     // Set static field: static private System.Reflection.Assembly i18nAssembly
-    static void _set_i18nAssembly(System::Reflection::Assembly* value);
+    static void _set_i18nAssembly(::System::Reflection::Assembly* value);
     // Get static field: static private System.Boolean i18nDisabled
     static bool _get_i18nDisabled();
     // Set static field: static private System.Boolean i18nDisabled
     static void _set_i18nDisabled(bool value);
     // static System.Text.Encoding get_UTF8Unmarked()
     // Offset: 0x1FA6DA4
-    static System::Text::Encoding* get_UTF8Unmarked();
+    static ::System::Text::Encoding* get_UTF8Unmarked();
     // static private System.Void .cctor()
     // Offset: 0x1FA6FE0
     static void _cctor();
@@ -64,7 +64,7 @@ namespace System::Text {
     static ::StringW InternalCodePage(ByRef<int> code_page);
     // static System.Text.Encoding GetDefaultEncoding()
     // Offset: 0x1FA54E4
-    static System::Text::Encoding* GetDefaultEncoding();
+    static ::System::Text::Encoding* GetDefaultEncoding();
     // static System.Object InvokeI18N(System.String name, params System.Object[] args)
     // Offset: 0x1FA3A04
     static ::Il2CppObject* InvokeI18N(::StringW name, ::ArrayW<::Il2CppObject*> args);
@@ -75,7 +75,7 @@ namespace System::Text {
 // Writing MetadataGetter for method: System::Text::EncodingHelper::get_UTF8Unmarked
 // Il2CppName: get_UTF8Unmarked
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (*)()>(&System::Text::EncodingHelper::get_UTF8Unmarked)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (*)()>(&System::Text::EncodingHelper::get_UTF8Unmarked)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Text::EncodingHelper*), "get_UTF8Unmarked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -100,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Text::EncodingHelper::GetDefaultEncoding
 // Il2CppName: GetDefaultEncoding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (*)()>(&System::Text::EncodingHelper::GetDefaultEncoding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (*)()>(&System::Text::EncodingHelper::GetDefaultEncoding)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Text::EncodingHelper*), "GetDefaultEncoding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

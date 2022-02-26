@@ -14,8 +14,8 @@ namespace System::Data {
   class Operators;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Data::Operators);
-DEFINE_IL2CPP_ARG_TYPE(System::Data::Operators*, "System.Data", "Operators");
+NEED_NO_BOX(::System::Data::Operators);
+DEFINE_IL2CPP_ARG_TYPE(::System::Data::Operators*, "System.Data", "Operators");
 // Type namespace: System.Data
 namespace System::Data {
   // Size: 0x10

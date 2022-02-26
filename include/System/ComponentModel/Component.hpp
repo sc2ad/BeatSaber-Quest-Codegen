@@ -35,8 +35,8 @@ namespace System::ComponentModel {
   class Component;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::ComponentModel::Component);
-DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::Component*, "System.ComponentModel", "Component");
+NEED_NO_BOX(::System::ComponentModel::Component);
+DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::Component*, "System.ComponentModel", "Component");
 // Type namespace: System.ComponentModel
 namespace System::ComponentModel {
   // Size: 0x28
@@ -46,7 +46,7 @@ namespace System::ComponentModel {
   // [ComVisibleAttribute] Offset: 11999D4
   // [ClassInterfaceAttribute] Offset: 11999D4
   // [DesignerCategoryAttribute] Offset: 11999D4
-  class Component : public System::MarshalByRefObject/*, public System::ComponentModel::IComponent*/ {
+  class Component : public ::System::MarshalByRefObject/*, public ::System::ComponentModel::IComponent*/ {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -60,19 +60,19 @@ namespace System::ComponentModel {
     // private System.ComponentModel.ISite site
     // Size: 0x8
     // Offset: 0x18
-    System::ComponentModel::ISite* site;
+    ::System::ComponentModel::ISite* site;
     // Field size check
-    static_assert(sizeof(System::ComponentModel::ISite*) == 0x8);
+    static_assert(sizeof(::System::ComponentModel::ISite*) == 0x8);
     // private System.ComponentModel.EventHandlerList events
     // Size: 0x8
     // Offset: 0x20
-    System::ComponentModel::EventHandlerList* events;
+    ::System::ComponentModel::EventHandlerList* events;
     // Field size check
-    static_assert(sizeof(System::ComponentModel::EventHandlerList*) == 0x8);
+    static_assert(sizeof(::System::ComponentModel::EventHandlerList*) == 0x8);
     public:
-    // Creating interface conversion operator: operator System::ComponentModel::IComponent
-    operator System::ComponentModel::IComponent() noexcept {
-      return *reinterpret_cast<System::ComponentModel::IComponent*>(this);
+    // Creating interface conversion operator: operator ::System::ComponentModel::IComponent
+    operator ::System::ComponentModel::IComponent() noexcept {
+      return *reinterpret_cast<::System::ComponentModel::IComponent*>(this);
     }
     // Deleting conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept = delete;
@@ -81,9 +81,9 @@ namespace System::ComponentModel {
     // Set static field: static private readonly System.Object EventDisposed
     static void _set_EventDisposed(::Il2CppObject* value);
     // Get instance field reference: private System.ComponentModel.ISite site
-    System::ComponentModel::ISite*& dyn_site();
+    ::System::ComponentModel::ISite*& dyn_site();
     // Get instance field reference: private System.ComponentModel.EventHandlerList events
-    System::ComponentModel::EventHandlerList*& dyn_events();
+    ::System::ComponentModel::EventHandlerList*& dyn_events();
     // protected System.Boolean get_CanRaiseEvents()
     // Offset: 0x1DF2488
     bool get_CanRaiseEvents();
@@ -92,7 +92,7 @@ namespace System::ComponentModel {
     bool get_CanRaiseEventsInternal();
     // public System.ComponentModel.ISite get_Site()
     // Offset: 0x1DF249C
-    System::ComponentModel::ISite* get_Site();
+    ::System::ComponentModel::ISite* get_Site();
     // protected System.Boolean get_DesignMode()
     // Offset: 0x1DF2914
     bool get_DesignMode();
@@ -107,7 +107,7 @@ namespace System::ComponentModel {
     void Dispose(bool disposing);
     // protected System.Object GetService(System.Type service)
     // Offset: 0x1DF2844
-    ::Il2CppObject* GetService(System::Type* service);
+    ::Il2CppObject* GetService(::System::Type* service);
     // public System.Void .ctor()
     // Offset: 0x1DF2AFC
     // Implemented from: System.MarshalByRefObject
@@ -115,7 +115,7 @@ namespace System::ComponentModel {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Component* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::Component::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::Component::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Component*, creationType>()));
     }
     // protected override System.Void Finalize()
@@ -130,7 +130,7 @@ namespace System::ComponentModel {
     ::StringW ToString();
   }; // System.ComponentModel.Component
   #pragma pack(pop)
-  static check_size<sizeof(Component), 32 + sizeof(System::ComponentModel::EventHandlerList*)> __System_ComponentModel_ComponentSizeCheck;
+  static check_size<sizeof(Component), 32 + sizeof(::System::ComponentModel::EventHandlerList*)> __System_ComponentModel_ComponentSizeCheck;
   static_assert(sizeof(Component) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -153,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::ComponentModel::Component::get_Site
 // Il2CppName: get_Site
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ComponentModel::ISite* (System::ComponentModel::Component::*)()>(&System::ComponentModel::Component::get_Site)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::ISite* (System::ComponentModel::Component::*)()>(&System::ComponentModel::Component::get_Site)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::Component*), "get_Site", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -194,7 +194,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::ComponentModel::Component::GetService
 // Il2CppName: GetService
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::ComponentModel::Component::*)(System::Type*)>(&System::ComponentModel::Component::GetService)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::ComponentModel::Component::*)(::System::Type*)>(&System::ComponentModel::Component::GetService)> {
   static const MethodInfo* get() {
     static auto* service = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::Component*), "GetService", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{service});

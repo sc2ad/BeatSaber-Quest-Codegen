@@ -21,8 +21,8 @@ namespace Zenject {
   class IMemoryPool;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::IMemoryPool);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::IMemoryPool*, "Zenject", "IMemoryPool");
+NEED_NO_BOX(::Zenject::IMemoryPool);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::IMemoryPool*, "Zenject", "IMemoryPool");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x10
@@ -42,7 +42,7 @@ namespace Zenject {
     int get_NumInactive();
     // public System.Type get_ItemType()
     // Offset: 0xFFFFFFFF
-    System::Type* get_ItemType();
+    ::System::Type* get_ItemType();
     // public System.Void Resize(System.Int32 desiredPoolSize)
     // Offset: 0xFFFFFFFF
     void Resize(int desiredPoolSize);
@@ -89,7 +89,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Zenjec
 // Writing MetadataGetter for method: Zenject::IMemoryPool::get_ItemType
 // Il2CppName: get_ItemType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (Zenject::IMemoryPool::*)()>(&Zenject::IMemoryPool::get_ItemType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (Zenject::IMemoryPool::*)()>(&Zenject::IMemoryPool::get_ItemType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::IMemoryPool*), "get_ItemType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

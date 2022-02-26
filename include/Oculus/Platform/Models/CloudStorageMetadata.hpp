@@ -21,8 +21,8 @@ namespace Oculus::Platform::Models {
   class CloudStorageMetadata;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::CloudStorageMetadata);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::CloudStorageMetadata*, "Oculus.Platform.Models", "CloudStorageMetadata");
+NEED_NO_BOX(::Oculus::Platform::Models::CloudStorageMetadata);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::CloudStorageMetadata*, "Oculus.Platform.Models", "CloudStorageMetadata");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x50
@@ -81,9 +81,9 @@ namespace Oculus::Platform::Models {
     // public readonly Oculus.Platform.CloudStorageDataStatus Status
     // Size: 0x4
     // Offset: 0x40
-    Oculus::Platform::CloudStorageDataStatus Status;
+    ::Oculus::Platform::CloudStorageDataStatus Status;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::CloudStorageDataStatus) == 0x4);
+    static_assert(sizeof(::Oculus::Platform::CloudStorageDataStatus) == 0x4);
     // Padding between fields: Status and: VersionHandle
     char __padding6[0x4] = {};
     // public readonly System.String VersionHandle
@@ -106,14 +106,14 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.UInt64 SaveTime
     uint64_t& dyn_SaveTime();
     // Get instance field reference: public readonly Oculus.Platform.CloudStorageDataStatus Status
-    Oculus::Platform::CloudStorageDataStatus& dyn_Status();
+    ::Oculus::Platform::CloudStorageDataStatus& dyn_Status();
     // Get instance field reference: public readonly System.String VersionHandle
     ::StringW& dyn_VersionHandle();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x1965860
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CloudStorageMetadata* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::CloudStorageMetadata::.ctor");
+    static CloudStorageMetadata* New_ctor(::System::IntPtr o) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::CloudStorageMetadata::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CloudStorageMetadata*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.CloudStorageMetadata

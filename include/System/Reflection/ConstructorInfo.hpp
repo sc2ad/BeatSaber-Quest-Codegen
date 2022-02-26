@@ -38,8 +38,8 @@ namespace System::Reflection {
   class ConstructorInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Reflection::ConstructorInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::ConstructorInfo*, "System.Reflection", "ConstructorInfo");
+NEED_NO_BOX(::System::Reflection::ConstructorInfo);
+DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::ConstructorInfo*, "System.Reflection", "ConstructorInfo");
 // Type namespace: System.Reflection
 namespace System::Reflection {
   // Size: 0x10
@@ -49,11 +49,11 @@ namespace System::Reflection {
   // [ComVisibleAttribute] Offset: 11888B0
   // [ClassInterfaceAttribute] Offset: 11888B0
   // [ComDefaultInterfaceAttribute] Offset: 11888B0
-  class ConstructorInfo : public System::Reflection::MethodBase/*, public System::Runtime::InteropServices::_ConstructorInfo*/ {
+  class ConstructorInfo : public ::System::Reflection::MethodBase/*, public ::System::Runtime::InteropServices::_ConstructorInfo*/ {
     public:
-    // Creating interface conversion operator: operator System::Runtime::InteropServices::_ConstructorInfo
-    operator System::Runtime::InteropServices::_ConstructorInfo() noexcept {
-      return *reinterpret_cast<System::Runtime::InteropServices::_ConstructorInfo*>(this);
+    // Creating interface conversion operator: operator ::System::Runtime::InteropServices::_ConstructorInfo
+    operator ::System::Runtime::InteropServices::_ConstructorInfo() noexcept {
+      return *reinterpret_cast<::System::Runtime::InteropServices::_ConstructorInfo*>(this);
     }
     // [ComVisibleAttribute] Offset: 0x118DEF0
     // Get static field: static public readonly System.String ConstructorName
@@ -73,12 +73,12 @@ namespace System::Reflection {
     ::Il2CppObject* Invoke(::ArrayW<::Il2CppObject*> parameters);
     // public System.Object Invoke(System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture)
     // Offset: 0xFFFFFFFF
-    ::Il2CppObject* Invoke(System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, ::ArrayW<::Il2CppObject*> parameters, System::Globalization::CultureInfo* culture);
+    ::Il2CppObject* Invoke(::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder, ::ArrayW<::Il2CppObject*> parameters, ::System::Globalization::CultureInfo* culture);
     // public override System.Reflection.MemberTypes get_MemberType()
     // Offset: 0x2161C90
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Reflection.MemberTypes MemberInfo::get_MemberType()
-    System::Reflection::MemberTypes get_MemberType();
+    ::System::Reflection::MemberTypes get_MemberType();
     // protected System.Void .ctor()
     // Offset: 0x2161C88
     // Implemented from: System.Reflection.MethodBase
@@ -87,7 +87,7 @@ namespace System::Reflection {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConstructorInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::ConstructorInfo::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Reflection::ConstructorInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConstructorInfo*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object obj)
@@ -104,10 +104,10 @@ namespace System::Reflection {
   #pragma pack(pop)
   // static public System.Boolean op_Equality(System.Reflection.ConstructorInfo left, System.Reflection.ConstructorInfo right)
   // Offset: 0x2161D58
-  bool operator ==(System::Reflection::ConstructorInfo* left, System::Reflection::ConstructorInfo& right);
+  bool operator ==(::System::Reflection::ConstructorInfo* left, ::System::Reflection::ConstructorInfo& right);
   // static public System.Boolean op_Inequality(System.Reflection.ConstructorInfo left, System.Reflection.ConstructorInfo right)
   // Offset: 0x2161DA4
-  bool operator !=(System::Reflection::ConstructorInfo* left, System::Reflection::ConstructorInfo& right);
+  bool operator !=(::System::Reflection::ConstructorInfo* left, ::System::Reflection::ConstructorInfo& right);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::ConstructorInfo::_cctor
@@ -130,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Reflection::ConstructorInfo::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Reflection::ConstructorInfo::*)(System::Reflection::BindingFlags, System::Reflection::Binder*, ::ArrayW<::Il2CppObject*>, System::Globalization::CultureInfo*)>(&System::Reflection::ConstructorInfo::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Reflection::ConstructorInfo::*)(::System::Reflection::BindingFlags, ::System::Reflection::Binder*, ::ArrayW<::Il2CppObject*>, ::System::Globalization::CultureInfo*)>(&System::Reflection::ConstructorInfo::Invoke)> {
   static const MethodInfo* get() {
     static auto* invokeAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
     static auto* binder = &::il2cpp_utils::GetClassFromName("System.Reflection", "Binder")->byval_arg;
@@ -142,7 +142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Reflection::ConstructorInfo::get_MemberType
 // Il2CppName: get_MemberType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MemberTypes (System::Reflection::ConstructorInfo::*)()>(&System::Reflection::ConstructorInfo::get_MemberType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MemberTypes (System::Reflection::ConstructorInfo::*)()>(&System::Reflection::ConstructorInfo::get_MemberType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::ConstructorInfo*), "get_MemberType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

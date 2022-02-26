@@ -25,8 +25,8 @@ namespace UnityEngine {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MenuLightsPresetSO::LightIdColorPair);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuLightsPresetSO::LightIdColorPair*, "", "MenuLightsPresetSO/LightIdColorPair");
+NEED_NO_BOX(::GlobalNamespace::MenuLightsPresetSO::LightIdColorPair);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MenuLightsPresetSO::LightIdColorPair*, "", "MenuLightsPresetSO/LightIdColorPair");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x24
@@ -55,9 +55,9 @@ namespace GlobalNamespace {
     // public ColorSO baseColor
     // Size: 0x8
     // Offset: 0x18
-    GlobalNamespace::ColorSO* baseColor;
+    ::GlobalNamespace::ColorSO* baseColor;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::ColorSO*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::ColorSO*) == 0x8);
     // [RangeAttribute] Offset: 0x1251D84
     // public System.Single intensity
     // Size: 0x4
@@ -69,19 +69,19 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 lightId
     int& dyn_lightId();
     // Get instance field reference: public ColorSO baseColor
-    GlobalNamespace::ColorSO*& dyn_baseColor();
+    ::GlobalNamespace::ColorSO*& dyn_baseColor();
     // Get instance field reference: public System.Single intensity
     float& dyn_intensity();
     // public UnityEngine.Color get_lightColor()
     // Offset: 0x2A67B00
-    UnityEngine::Color get_lightColor();
+    ::UnityEngine::Color get_lightColor();
     // public System.Void .ctor()
     // Offset: 0x2A67F10
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MenuLightsPresetSO::LightIdColorPair* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MenuLightsPresetSO::LightIdColorPair::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MenuLightsPresetSO::LightIdColorPair::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MenuLightsPresetSO::LightIdColorPair*, creationType>()));
     }
   }; // MenuLightsPresetSO/LightIdColorPair
@@ -93,7 +93,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::MenuLightsPresetSO::LightIdColorPair::get_lightColor
 // Il2CppName: get_lightColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::MenuLightsPresetSO::LightIdColorPair::*)()>(&GlobalNamespace::MenuLightsPresetSO::LightIdColorPair::get_lightColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (GlobalNamespace::MenuLightsPresetSO::LightIdColorPair::*)()>(&GlobalNamespace::MenuLightsPresetSO::LightIdColorPair::get_lightColor)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuLightsPresetSO::LightIdColorPair*), "get_lightColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

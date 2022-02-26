@@ -29,8 +29,8 @@ namespace UnityEngine::Animations {
   class AnimationPlayableBinding;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Animations::AnimationPlayableBinding);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationPlayableBinding*, "UnityEngine.Animations", "AnimationPlayableBinding");
+NEED_NO_BOX(::UnityEngine::Animations::AnimationPlayableBinding);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Animations::AnimationPlayableBinding*, "UnityEngine.Animations", "AnimationPlayableBinding");
 // Type namespace: UnityEngine.Animations
 namespace UnityEngine::Animations {
   // Size: 0x10
@@ -41,10 +41,10 @@ namespace UnityEngine::Animations {
     public:
     // static public UnityEngine.Playables.PlayableBinding Create(System.String name, UnityEngine.Object key)
     // Offset: 0x29A5DA4
-    static UnityEngine::Playables::PlayableBinding Create(::StringW name, UnityEngine::Object* key);
+    static ::UnityEngine::Playables::PlayableBinding Create(::StringW name, ::UnityEngine::Object* key);
     // static private UnityEngine.Playables.PlayableOutput CreateAnimationOutput(UnityEngine.Playables.PlayableGraph graph, System.String name)
     // Offset: 0x29A5EC4
-    static UnityEngine::Playables::PlayableOutput CreateAnimationOutput(UnityEngine::Playables::PlayableGraph graph, ::StringW name);
+    static ::UnityEngine::Playables::PlayableOutput CreateAnimationOutput(::UnityEngine::Playables::PlayableGraph graph, ::StringW name);
   }; // UnityEngine.Animations.AnimationPlayableBinding
   #pragma pack(pop)
 }
@@ -52,7 +52,7 @@ namespace UnityEngine::Animations {
 // Writing MetadataGetter for method: UnityEngine::Animations::AnimationPlayableBinding::Create
 // Il2CppName: Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableBinding (*)(::StringW, UnityEngine::Object*)>(&UnityEngine::Animations::AnimationPlayableBinding::Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::PlayableBinding (*)(::StringW, ::UnityEngine::Object*)>(&UnityEngine::Animations::AnimationPlayableBinding::Create)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* key = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
@@ -62,7 +62,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Animations::AnimationPlayableBinding::CreateAnimationOutput
 // Il2CppName: CreateAnimationOutput
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableOutput (*)(UnityEngine::Playables::PlayableGraph, ::StringW)>(&UnityEngine::Animations::AnimationPlayableBinding::CreateAnimationOutput)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::PlayableOutput (*)(::UnityEngine::Playables::PlayableGraph, ::StringW)>(&UnityEngine::Animations::AnimationPlayableBinding::CreateAnimationOutput)> {
   static const MethodInfo* get() {
     static auto* graph = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableGraph")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

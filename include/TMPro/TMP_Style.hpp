@@ -18,8 +18,8 @@ namespace TMPro {
   class TMP_Style;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(TMPro::TMP_Style);
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Style*, "TMPro", "TMP_Style");
+NEED_NO_BOX(::TMPro::TMP_Style);
+DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_Style*, "TMPro", "TMP_Style");
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0x40
@@ -121,7 +121,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_Style* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_Style::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_Style::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_Style*, creationType>()));
     }
   }; // TMPro.TMP_Style

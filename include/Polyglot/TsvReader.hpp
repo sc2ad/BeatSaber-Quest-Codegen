@@ -25,8 +25,8 @@ namespace Polyglot {
   class TsvReader;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Polyglot::TsvReader);
-DEFINE_IL2CPP_ARG_TYPE(Polyglot::TsvReader*, "Polyglot", "TsvReader");
+NEED_NO_BOX(::Polyglot::TsvReader);
+DEFINE_IL2CPP_ARG_TYPE(::Polyglot::TsvReader*, "Polyglot", "TsvReader");
 // Type namespace: Polyglot
 namespace Polyglot {
   // Size: 0x10
@@ -37,14 +37,14 @@ namespace Polyglot {
     public:
     // static public System.Collections.Generic.List`1<System.Collections.Generic.List`1<System.String>> Parse(System.String src)
     // Offset: 0x2998DC8
-    static System::Collections::Generic::List_1<System::Collections::Generic::List_1<::StringW>*>* Parse(::StringW src);
+    static ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::StringW>*>* Parse(::StringW src);
     // public System.Void .ctor()
     // Offset: 0x2999FA4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TsvReader* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Polyglot::TsvReader::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Polyglot::TsvReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TsvReader*, creationType>()));
     }
   }; // Polyglot.TsvReader
@@ -54,7 +54,7 @@ namespace Polyglot {
 // Writing MetadataGetter for method: Polyglot::TsvReader::Parse
 // Il2CppName: Parse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<System::Collections::Generic::List_1<::StringW>*>* (*)(::StringW)>(&Polyglot::TsvReader::Parse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::StringW>*>* (*)(::StringW)>(&Polyglot::TsvReader::Parse)> {
   static const MethodInfo* get() {
     static auto* src = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Polyglot::TsvReader*), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{src});

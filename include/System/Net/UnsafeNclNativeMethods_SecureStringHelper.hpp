@@ -17,8 +17,8 @@ namespace System::Security {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::UnsafeNclNativeMethods::SecureStringHelper);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::UnsafeNclNativeMethods::SecureStringHelper*, "System.Net", "UnsafeNclNativeMethods/SecureStringHelper");
+NEED_NO_BOX(::System::Net::UnsafeNclNativeMethods::SecureStringHelper);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::UnsafeNclNativeMethods::SecureStringHelper*, "System.Net", "UnsafeNclNativeMethods/SecureStringHelper");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x10
@@ -29,10 +29,10 @@ namespace System::Net {
     public:
     // static System.String CreateString(System.Security.SecureString secureString)
     // Offset: 0x1CB47C4
-    static ::StringW CreateString(System::Security::SecureString* secureString);
+    static ::StringW CreateString(::System::Security::SecureString* secureString);
     // static System.Security.SecureString CreateSecureString(System.String plainString)
     // Offset: 0x1CB48F0
-    static System::Security::SecureString* CreateSecureString(::StringW plainString);
+    static ::System::Security::SecureString* CreateSecureString(::StringW plainString);
   }; // System.Net.UnsafeNclNativeMethods/System.Net.SecureStringHelper
   #pragma pack(pop)
 }
@@ -40,7 +40,7 @@ namespace System::Net {
 // Writing MetadataGetter for method: System::Net::UnsafeNclNativeMethods::SecureStringHelper::CreateString
 // Il2CppName: CreateString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Security::SecureString*)>(&System::Net::UnsafeNclNativeMethods::SecureStringHelper::CreateString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Security::SecureString*)>(&System::Net::UnsafeNclNativeMethods::SecureStringHelper::CreateString)> {
   static const MethodInfo* get() {
     static auto* secureString = &::il2cpp_utils::GetClassFromName("System.Security", "SecureString")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::UnsafeNclNativeMethods::SecureStringHelper*), "CreateString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{secureString});
@@ -49,7 +49,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Net::UnsafeNclNativeMethods::SecureStringHelper::CreateSecureString
 // Il2CppName: CreateSecureString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::SecureString* (*)(::StringW)>(&System::Net::UnsafeNclNativeMethods::SecureStringHelper::CreateSecureString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::SecureString* (*)(::StringW)>(&System::Net::UnsafeNclNativeMethods::SecureStringHelper::CreateSecureString)> {
   static const MethodInfo* get() {
     static auto* plainString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::UnsafeNclNativeMethods::SecureStringHelper*), "CreateSecureString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{plainString});

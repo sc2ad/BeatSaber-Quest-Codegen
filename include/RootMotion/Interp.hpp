@@ -28,8 +28,8 @@ namespace RootMotion {
   class Interp;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::Interp);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::Interp*, "RootMotion", "Interp");
+NEED_NO_BOX(::RootMotion::Interp);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::Interp*, "RootMotion", "Interp");
 // Type namespace: RootMotion
 namespace RootMotion {
   // Size: 0x10
@@ -40,10 +40,10 @@ namespace RootMotion {
     public:
     // static public System.Single Float(System.Single t, RootMotion.InterpolationMode mode)
     // Offset: 0x1F1BBB8
-    static float Float(float t, RootMotion::InterpolationMode mode);
+    static float Float(float t, ::RootMotion::InterpolationMode mode);
     // static public UnityEngine.Vector3 V3(UnityEngine.Vector3 v1, UnityEngine.Vector3 v2, System.Single t, RootMotion.InterpolationMode mode)
     // Offset: 0x1F1C620
-    static UnityEngine::Vector3 V3(UnityEngine::Vector3 v1, UnityEngine::Vector3 v2, float t, RootMotion::InterpolationMode mode);
+    static ::UnityEngine::Vector3 V3(::UnityEngine::Vector3 v1, ::UnityEngine::Vector3 v2, float t, ::RootMotion::InterpolationMode mode);
     // static public System.Single LerpValue(System.Single value, System.Single target, System.Single increaseSpeed, System.Single decreaseSpeed)
     // Offset: 0x1F1C728
     static float LerpValue(float value, float target, float increaseSpeed, float decreaseSpeed);
@@ -134,7 +134,7 @@ namespace RootMotion {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Interp* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::Interp::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::Interp::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Interp*, creationType>()));
     }
   }; // RootMotion.Interp
@@ -144,7 +144,7 @@ namespace RootMotion {
 // Writing MetadataGetter for method: RootMotion::Interp::Float
 // Il2CppName: Float
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, RootMotion::InterpolationMode)>(&RootMotion::Interp::Float)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, ::RootMotion::InterpolationMode)>(&RootMotion::Interp::Float)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* mode = &::il2cpp_utils::GetClassFromName("RootMotion", "InterpolationMode")->byval_arg;
@@ -154,7 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(f
 // Writing MetadataGetter for method: RootMotion::Interp::V3
 // Il2CppName: V3
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Vector3, UnityEngine::Vector3, float, RootMotion::InterpolationMode)>(&RootMotion::Interp::V3)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, float, ::RootMotion::InterpolationMode)>(&RootMotion::Interp::V3)> {
   static const MethodInfo* get() {
     static auto* v1 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* v2 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;

@@ -17,8 +17,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::Element);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::Element*, "", "BloomPrePassBackgroundColorsGradientFromColorSchemeColors/Element");
+NEED_NO_BOX(::GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::Element);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::Element*, "", "BloomPrePassBackgroundColorsGradientFromColorSchemeColors/Element");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x2C
@@ -48,9 +48,9 @@ namespace GlobalNamespace {
     // public BloomPrePassBackgroundColorsGradientFromColorSchemeColors/EnvironmentColor environmentColor
     // Size: 0x4
     // Offset: 0x14
-    GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::EnvironmentColor environmentColor;
+    ::GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::EnvironmentColor environmentColor;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::EnvironmentColor) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::EnvironmentColor) == 0x4);
     // [DrawIfAttribute] Offset: 0x1252450
     // public System.Single intensity
     // Size: 0x4
@@ -62,30 +62,30 @@ namespace GlobalNamespace {
     // public UnityEngine.Color color
     // Size: 0x10
     // Offset: 0x1C
-    UnityEngine::Color color;
+    ::UnityEngine::Color color;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     public:
     // Get instance field reference: public System.Boolean loadFromColorScheme
     bool& dyn_loadFromColorScheme();
     // Get instance field reference: public BloomPrePassBackgroundColorsGradientFromColorSchemeColors/EnvironmentColor environmentColor
-    GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::EnvironmentColor& dyn_environmentColor();
+    ::GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::EnvironmentColor& dyn_environmentColor();
     // Get instance field reference: public System.Single intensity
     float& dyn_intensity();
     // Get instance field reference: public UnityEngine.Color color
-    UnityEngine::Color& dyn_color();
+    ::UnityEngine::Color& dyn_color();
     // public System.Void .ctor()
     // Offset: 0x13B6A54
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomPrePassBackgroundColorsGradientFromColorSchemeColors::Element* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::Element::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::Element::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassBackgroundColorsGradientFromColorSchemeColors::Element*, creationType>()));
     }
   }; // BloomPrePassBackgroundColorsGradientFromColorSchemeColors/Element
   #pragma pack(pop)
-  static check_size<sizeof(BloomPrePassBackgroundColorsGradientFromColorSchemeColors::Element), 28 + sizeof(UnityEngine::Color)> __GlobalNamespace_BloomPrePassBackgroundColorsGradientFromColorSchemeColors_ElementSizeCheck;
+  static check_size<sizeof(BloomPrePassBackgroundColorsGradientFromColorSchemeColors::Element), 28 + sizeof(::UnityEngine::Color)> __GlobalNamespace_BloomPrePassBackgroundColorsGradientFromColorSchemeColors_ElementSizeCheck;
   static_assert(sizeof(BloomPrePassBackgroundColorsGradientFromColorSchemeColors::Element) == 0x2C);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

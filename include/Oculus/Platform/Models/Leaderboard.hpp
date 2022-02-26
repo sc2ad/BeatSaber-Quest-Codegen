@@ -26,8 +26,8 @@ namespace Oculus::Platform::Models {
   class Leaderboard;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::Leaderboard);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::Leaderboard*, "Oculus.Platform.Models", "Leaderboard");
+NEED_NO_BOX(::Oculus::Platform::Models::Leaderboard);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::Leaderboard*, "Oculus.Platform.Models", "Leaderboard");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x30
@@ -54,16 +54,16 @@ namespace Oculus::Platform::Models {
     // public readonly Oculus.Platform.Models.Destination DestinationOptional
     // Size: 0x8
     // Offset: 0x18
-    Oculus::Platform::Models::Destination* DestinationOptional;
+    ::Oculus::Platform::Models::Destination* DestinationOptional;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::Models::Destination*) == 0x8);
+    static_assert(sizeof(::Oculus::Platform::Models::Destination*) == 0x8);
     // [ObsoleteAttribute] Offset: 0x1232580
     // public readonly Oculus.Platform.Models.Destination Destination
     // Size: 0x8
     // Offset: 0x20
-    Oculus::Platform::Models::Destination* Destination;
+    ::Oculus::Platform::Models::Destination* Destination;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::Models::Destination*) == 0x8);
+    static_assert(sizeof(::Oculus::Platform::Models::Destination*) == 0x8);
     // public readonly System.UInt64 ID
     // Size: 0x8
     // Offset: 0x28
@@ -74,16 +74,16 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.String ApiName
     ::StringW& dyn_ApiName();
     // Get instance field reference: public readonly Oculus.Platform.Models.Destination DestinationOptional
-    Oculus::Platform::Models::Destination*& dyn_DestinationOptional();
+    ::Oculus::Platform::Models::Destination*& dyn_DestinationOptional();
     // Get instance field reference: public readonly Oculus.Platform.Models.Destination Destination
-    Oculus::Platform::Models::Destination*& dyn_Destination();
+    ::Oculus::Platform::Models::Destination*& dyn_Destination();
     // Get instance field reference: public readonly System.UInt64 ID
     uint64_t& dyn_ID();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x196D060
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Leaderboard* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::Leaderboard::.ctor");
+    static Leaderboard* New_ctor(::System::IntPtr o) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::Leaderboard::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Leaderboard*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.Leaderboard

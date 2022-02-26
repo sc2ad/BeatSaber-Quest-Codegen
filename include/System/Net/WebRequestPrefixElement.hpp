@@ -29,8 +29,8 @@ namespace System::Net {
   class WebRequestPrefixElement;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::WebRequestPrefixElement);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::WebRequestPrefixElement*, "System.Net", "WebRequestPrefixElement");
+NEED_NO_BOX(::System::Net::WebRequestPrefixElement);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::WebRequestPrefixElement*, "System.Net", "WebRequestPrefixElement");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x28
@@ -57,45 +57,45 @@ namespace System::Net {
     // System.Net.IWebRequestCreate creator
     // Size: 0x8
     // Offset: 0x18
-    System::Net::IWebRequestCreate* creator;
+    ::System::Net::IWebRequestCreate* creator;
     // Field size check
-    static_assert(sizeof(System::Net::IWebRequestCreate*) == 0x8);
+    static_assert(sizeof(::System::Net::IWebRequestCreate*) == 0x8);
     // System.Type creatorType
     // Size: 0x8
     // Offset: 0x20
-    System::Type* creatorType;
+    ::System::Type* creatorType;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     public:
     // Get instance field reference: public System.String Prefix
     ::StringW& dyn_Prefix();
     // Get instance field reference: System.Net.IWebRequestCreate creator
-    System::Net::IWebRequestCreate*& dyn_creator();
+    ::System::Net::IWebRequestCreate*& dyn_creator();
     // Get instance field reference: System.Type creatorType
-    System::Type*& dyn_creatorType();
+    ::System::Type*& dyn_creatorType();
     // public System.Net.IWebRequestCreate get_Creator()
     // Offset: 0x1BE3130
-    System::Net::IWebRequestCreate* get_Creator();
+    ::System::Net::IWebRequestCreate* get_Creator();
     // public System.Void set_Creator(System.Net.IWebRequestCreate value)
     // Offset: 0x1BE4DA8
-    void set_Creator(System::Net::IWebRequestCreate* value);
+    void set_Creator(::System::Net::IWebRequestCreate* value);
     // public System.Void .ctor(System.String P, System.Net.IWebRequestCreate C)
     // Offset: 0x1BE362C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static WebRequestPrefixElement* New_ctor(::StringW P, System::Net::IWebRequestCreate* C) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebRequestPrefixElement::.ctor");
+    static WebRequestPrefixElement* New_ctor(::StringW P, ::System::Net::IWebRequestCreate* C) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::WebRequestPrefixElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebRequestPrefixElement*, creationType>(P, C)));
     }
   }; // System.Net.WebRequestPrefixElement
   #pragma pack(pop)
-  static check_size<sizeof(WebRequestPrefixElement), 32 + sizeof(System::Type*)> __System_Net_WebRequestPrefixElementSizeCheck;
+  static check_size<sizeof(WebRequestPrefixElement), 32 + sizeof(::System::Type*)> __System_Net_WebRequestPrefixElementSizeCheck;
   static_assert(sizeof(WebRequestPrefixElement) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::WebRequestPrefixElement::get_Creator
 // Il2CppName: get_Creator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IWebRequestCreate* (System::Net::WebRequestPrefixElement::*)()>(&System::Net::WebRequestPrefixElement::get_Creator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::IWebRequestCreate* (System::Net::WebRequestPrefixElement::*)()>(&System::Net::WebRequestPrefixElement::get_Creator)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebRequestPrefixElement*), "get_Creator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -103,7 +103,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Writing MetadataGetter for method: System::Net::WebRequestPrefixElement::set_Creator
 // Il2CppName: set_Creator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebRequestPrefixElement::*)(System::Net::IWebRequestCreate*)>(&System::Net::WebRequestPrefixElement::set_Creator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebRequestPrefixElement::*)(::System::Net::IWebRequestCreate*)>(&System::Net::WebRequestPrefixElement::set_Creator)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Net", "IWebRequestCreate")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebRequestPrefixElement*), "set_Creator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

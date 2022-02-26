@@ -20,8 +20,8 @@ namespace LIV::SDK::Unity {
   class SDKShaders;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(LIV::SDK::Unity::SDKShaders);
-DEFINE_IL2CPP_ARG_TYPE(LIV::SDK::Unity::SDKShaders*, "LIV.SDK.Unity", "SDKShaders");
+NEED_NO_BOX(::LIV::SDK::Unity::SDKShaders);
+DEFINE_IL2CPP_ARG_TYPE(::LIV::SDK::Unity::SDKShaders*, "LIV.SDK.Unity", "SDKShaders");
 // Type namespace: LIV.SDK.Unity
 namespace LIV::SDK::Unity {
   // Size: 0x10

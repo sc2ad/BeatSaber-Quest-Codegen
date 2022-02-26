@@ -28,8 +28,8 @@ namespace TMPro {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(TMPro::TMP_SpriteAsset::$$c);
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SpriteAsset::$$c*, "TMPro", "TMP_SpriteAsset/<>c");
+NEED_NO_BOX(::TMPro::TMP_SpriteAsset::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_SpriteAsset::$$c*, "TMPro", "TMP_SpriteAsset/<>c");
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0x10
@@ -40,33 +40,33 @@ namespace TMPro {
   class TMP_SpriteAsset::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly TMPro.TMP_SpriteAsset/TMPro.<>c <>9
-    static TMPro::TMP_SpriteAsset::$$c* _get_$$9();
+    static ::TMPro::TMP_SpriteAsset::$$c* _get_$$9();
     // Set static field: static public readonly TMPro.TMP_SpriteAsset/TMPro.<>c <>9
-    static void _set_$$9(TMPro::TMP_SpriteAsset::$$c* value);
+    static void _set_$$9(::TMPro::TMP_SpriteAsset::$$c* value);
     // Get static field: static public System.Func`2<TMPro.TMP_SpriteGlyph,System.UInt32> <>9__32_0
-    static System::Func_2<TMPro::TMP_SpriteGlyph*, uint>* _get_$$9__32_0();
+    static ::System::Func_2<::TMPro::TMP_SpriteGlyph*, uint>* _get_$$9__32_0();
     // Set static field: static public System.Func`2<TMPro.TMP_SpriteGlyph,System.UInt32> <>9__32_0
-    static void _set_$$9__32_0(System::Func_2<TMPro::TMP_SpriteGlyph*, uint>* value);
+    static void _set_$$9__32_0(::System::Func_2<::TMPro::TMP_SpriteGlyph*, uint>* value);
     // Get static field: static public System.Func`2<TMPro.TMP_SpriteCharacter,System.UInt32> <>9__33_0
-    static System::Func_2<TMPro::TMP_SpriteCharacter*, uint>* _get_$$9__33_0();
+    static ::System::Func_2<::TMPro::TMP_SpriteCharacter*, uint>* _get_$$9__33_0();
     // Set static field: static public System.Func`2<TMPro.TMP_SpriteCharacter,System.UInt32> <>9__33_0
-    static void _set_$$9__33_0(System::Func_2<TMPro::TMP_SpriteCharacter*, uint>* value);
+    static void _set_$$9__33_0(::System::Func_2<::TMPro::TMP_SpriteCharacter*, uint>* value);
     // static private System.Void .cctor()
     // Offset: 0x14575DC
     static void _cctor();
     // System.UInt32 <SortGlyphTable>b__32_0(TMPro.TMP_SpriteGlyph item)
     // Offset: 0x1457648
-    uint $SortGlyphTable$b__32_0(TMPro::TMP_SpriteGlyph* item);
+    uint $SortGlyphTable$b__32_0(::TMPro::TMP_SpriteGlyph* item);
     // System.UInt32 <SortCharacterTable>b__33_0(TMPro.TMP_SpriteCharacter c)
     // Offset: 0x1457664
-    uint $SortCharacterTable$b__33_0(TMPro::TMP_SpriteCharacter* c);
+    uint $SortCharacterTable$b__33_0(::TMPro::TMP_SpriteCharacter* c);
     // public System.Void .ctor()
     // Offset: 0x1457640
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_SpriteAsset::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_SpriteAsset::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_SpriteAsset::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_SpriteAsset::$$c*, creationType>()));
     }
   }; // TMPro.TMP_SpriteAsset/TMPro.<>c
@@ -84,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::$$c::$SortGlyphTable$b__32_0
 // Il2CppName: <SortGlyphTable>b__32_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (TMPro::TMP_SpriteAsset::$$c::*)(TMPro::TMP_SpriteGlyph*)>(&TMPro::TMP_SpriteAsset::$$c::$SortGlyphTable$b__32_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (TMPro::TMP_SpriteAsset::$$c::*)(::TMPro::TMP_SpriteGlyph*)>(&TMPro::TMP_SpriteAsset::$$c::$SortGlyphTable$b__32_0)> {
   static const MethodInfo* get() {
     static auto* item = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_SpriteGlyph")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset::$$c*), "<SortGlyphTable>b__32_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{item});
@@ -93,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::$$c::$SortCharacterTable$b__33_0
 // Il2CppName: <SortCharacterTable>b__33_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (TMPro::TMP_SpriteAsset::$$c::*)(TMPro::TMP_SpriteCharacter*)>(&TMPro::TMP_SpriteAsset::$$c::$SortCharacterTable$b__33_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (TMPro::TMP_SpriteAsset::$$c::*)(::TMPro::TMP_SpriteCharacter*)>(&TMPro::TMP_SpriteAsset::$$c::$SortCharacterTable$b__33_0)> {
   static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_SpriteCharacter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset::$$c*), "<SortCharacterTable>b__33_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});

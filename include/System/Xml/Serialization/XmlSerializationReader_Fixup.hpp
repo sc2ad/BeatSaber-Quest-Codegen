@@ -22,8 +22,8 @@ namespace System::Xml::Serialization {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Serialization::XmlSerializationReader::Fixup);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Serialization::XmlSerializationReader::Fixup*, "System.Xml.Serialization", "XmlSerializationReader/Fixup");
+NEED_NO_BOX(::System::Xml::Serialization::XmlSerializationReader::Fixup);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::XmlSerializationReader::Fixup*, "System.Xml.Serialization", "XmlSerializationReader/Fixup");
 // Type namespace: System.Xml.Serialization
 namespace System::Xml::Serialization {
   // Size: 0x28
@@ -56,19 +56,19 @@ namespace System::Xml::Serialization {
     // private System.Xml.Serialization.XmlSerializationFixupCallback callback
     // Size: 0x8
     // Offset: 0x20
-    System::Xml::Serialization::XmlSerializationFixupCallback* callback;
+    ::System::Xml::Serialization::XmlSerializationFixupCallback* callback;
     // Field size check
-    static_assert(sizeof(System::Xml::Serialization::XmlSerializationFixupCallback*) == 0x8);
+    static_assert(sizeof(::System::Xml::Serialization::XmlSerializationFixupCallback*) == 0x8);
     public:
     // Get instance field reference: private System.Object source
     ::Il2CppObject*& dyn_source();
     // Get instance field reference: private System.String[] ids
     ::ArrayW<::StringW>& dyn_ids();
     // Get instance field reference: private System.Xml.Serialization.XmlSerializationFixupCallback callback
-    System::Xml::Serialization::XmlSerializationFixupCallback*& dyn_callback();
+    ::System::Xml::Serialization::XmlSerializationFixupCallback*& dyn_callback();
     // public System.Xml.Serialization.XmlSerializationFixupCallback get_Callback()
     // Offset: 0x1E105D4
-    System::Xml::Serialization::XmlSerializationFixupCallback* get_Callback();
+    ::System::Xml::Serialization::XmlSerializationFixupCallback* get_Callback();
     // public System.String[] get_Ids()
     // Offset: 0x1E105DC
     ::ArrayW<::StringW> get_Ids();
@@ -78,20 +78,20 @@ namespace System::Xml::Serialization {
     // public System.Void .ctor(System.Object o, System.Xml.Serialization.XmlSerializationFixupCallback callback, System.Int32 count)
     // Offset: 0x1E1054C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlSerializationReader::Fixup* New_ctor(::Il2CppObject* o, System::Xml::Serialization::XmlSerializationFixupCallback* callback, int count) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Serialization::XmlSerializationReader::Fixup::.ctor");
+    static XmlSerializationReader::Fixup* New_ctor(::Il2CppObject* o, ::System::Xml::Serialization::XmlSerializationFixupCallback* callback, int count) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Serialization::XmlSerializationReader::Fixup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlSerializationReader::Fixup*, creationType>(o, callback, count)));
     }
   }; // System.Xml.Serialization.XmlSerializationReader/System.Xml.Serialization.Fixup
   #pragma pack(pop)
-  static check_size<sizeof(XmlSerializationReader::Fixup), 32 + sizeof(System::Xml::Serialization::XmlSerializationFixupCallback*)> __System_Xml_Serialization_XmlSerializationReader_FixupSizeCheck;
+  static check_size<sizeof(XmlSerializationReader::Fixup), 32 + sizeof(::System::Xml::Serialization::XmlSerializationFixupCallback*)> __System_Xml_Serialization_XmlSerializationReader_FixupSizeCheck;
   static_assert(sizeof(XmlSerializationReader::Fixup) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlSerializationReader::Fixup::get_Callback
 // Il2CppName: get_Callback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Serialization::XmlSerializationFixupCallback* (System::Xml::Serialization::XmlSerializationReader::Fixup::*)()>(&System::Xml::Serialization::XmlSerializationReader::Fixup::get_Callback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlSerializationFixupCallback* (System::Xml::Serialization::XmlSerializationReader::Fixup::*)()>(&System::Xml::Serialization::XmlSerializationReader::Fixup::get_Callback)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::XmlSerializationReader::Fixup*), "get_Callback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

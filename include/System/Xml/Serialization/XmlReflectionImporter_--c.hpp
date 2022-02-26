@@ -26,8 +26,8 @@ namespace System::Xml::Serialization {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Serialization::XmlReflectionImporter::$$c);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Serialization::XmlReflectionImporter::$$c*, "System.Xml.Serialization", "XmlReflectionImporter/<>c");
+NEED_NO_BOX(::System::Xml::Serialization::XmlReflectionImporter::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::XmlReflectionImporter::$$c*, "System.Xml.Serialization", "XmlReflectionImporter/<>c");
 // Type namespace: System.Xml.Serialization
 namespace System::Xml::Serialization {
   // Size: 0x10
@@ -38,26 +38,26 @@ namespace System::Xml::Serialization {
   class XmlReflectionImporter::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly System.Xml.Serialization.XmlReflectionImporter/System.Xml.Serialization.<>c <>9
-    static System::Xml::Serialization::XmlReflectionImporter::$$c* _get_$$9();
+    static ::System::Xml::Serialization::XmlReflectionImporter::$$c* _get_$$9();
     // Set static field: static public readonly System.Xml.Serialization.XmlReflectionImporter/System.Xml.Serialization.<>c <>9
-    static void _set_$$9(System::Xml::Serialization::XmlReflectionImporter::$$c* value);
+    static void _set_$$9(::System::Xml::Serialization::XmlReflectionImporter::$$c* value);
     // Get static field: static public System.Comparison`1<System.Xml.Serialization.XmlReflectionMember> <>9__28_0
-    static System::Comparison_1<System::Xml::Serialization::XmlReflectionMember*>* _get_$$9__28_0();
+    static ::System::Comparison_1<::System::Xml::Serialization::XmlReflectionMember*>* _get_$$9__28_0();
     // Set static field: static public System.Comparison`1<System.Xml.Serialization.XmlReflectionMember> <>9__28_0
-    static void _set_$$9__28_0(System::Comparison_1<System::Xml::Serialization::XmlReflectionMember*>* value);
+    static void _set_$$9__28_0(::System::Comparison_1<::System::Xml::Serialization::XmlReflectionMember*>* value);
     // static private System.Void .cctor()
     // Offset: 0x1E0B4B4
     static void _cctor();
     // System.Int32 <ImportClassMapping>b__28_0(System.Xml.Serialization.XmlReflectionMember m1, System.Xml.Serialization.XmlReflectionMember m2)
     // Offset: 0x1E0B520
-    int $ImportClassMapping$b__28_0(System::Xml::Serialization::XmlReflectionMember* m1, System::Xml::Serialization::XmlReflectionMember* m2);
+    int $ImportClassMapping$b__28_0(::System::Xml::Serialization::XmlReflectionMember* m1, ::System::Xml::Serialization::XmlReflectionMember* m2);
     // public System.Void .ctor()
     // Offset: 0x1E0B518
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlReflectionImporter::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Serialization::XmlReflectionImporter::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Serialization::XmlReflectionImporter::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlReflectionImporter::$$c*, creationType>()));
     }
   }; // System.Xml.Serialization.XmlReflectionImporter/System.Xml.Serialization.<>c
@@ -75,7 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlReflectionImporter::$$c::$ImportClassMapping$b__28_0
 // Il2CppName: <ImportClassMapping>b__28_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Xml::Serialization::XmlReflectionImporter::$$c::*)(System::Xml::Serialization::XmlReflectionMember*, System::Xml::Serialization::XmlReflectionMember*)>(&System::Xml::Serialization::XmlReflectionImporter::$$c::$ImportClassMapping$b__28_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Xml::Serialization::XmlReflectionImporter::$$c::*)(::System::Xml::Serialization::XmlReflectionMember*, ::System::Xml::Serialization::XmlReflectionMember*)>(&System::Xml::Serialization::XmlReflectionImporter::$$c::$ImportClassMapping$b__28_0)> {
   static const MethodInfo* get() {
     static auto* m1 = &::il2cpp_utils::GetClassFromName("System.Xml.Serialization", "XmlReflectionMember")->byval_arg;
     static auto* m2 = &::il2cpp_utils::GetClassFromName("System.Xml.Serialization", "XmlReflectionMember")->byval_arg;

@@ -33,8 +33,8 @@ namespace System::Dynamic {
   class BindingRestrictions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Dynamic::BindingRestrictions);
-DEFINE_IL2CPP_ARG_TYPE(System::Dynamic::BindingRestrictions*, "System.Dynamic", "BindingRestrictions");
+NEED_NO_BOX(::System::Dynamic::BindingRestrictions);
+DEFINE_IL2CPP_ARG_TYPE(::System::Dynamic::BindingRestrictions*, "System.Dynamic", "BindingRestrictions");
 // Type namespace: System.Dynamic
 namespace System::Dynamic {
   // Size: 0x10
@@ -45,50 +45,50 @@ namespace System::Dynamic {
   // [DebuggerTypeProxyAttribute] Offset: 119DEB4
   class BindingRestrictions : public ::Il2CppObject {
     public:
-    // Nested type: System::Dynamic::BindingRestrictions::TestBuilder
+    // Nested type: ::System::Dynamic::BindingRestrictions::TestBuilder
     class TestBuilder;
-    // Nested type: System::Dynamic::BindingRestrictions::MergedRestriction
+    // Nested type: ::System::Dynamic::BindingRestrictions::MergedRestriction
     class MergedRestriction;
-    // Nested type: System::Dynamic::BindingRestrictions::CustomRestriction
+    // Nested type: ::System::Dynamic::BindingRestrictions::CustomRestriction
     class CustomRestriction;
-    // Nested type: System::Dynamic::BindingRestrictions::TypeRestriction
+    // Nested type: ::System::Dynamic::BindingRestrictions::TypeRestriction
     class TypeRestriction;
-    // Nested type: System::Dynamic::BindingRestrictions::InstanceRestriction
+    // Nested type: ::System::Dynamic::BindingRestrictions::InstanceRestriction
     class InstanceRestriction;
-    // Nested type: System::Dynamic::BindingRestrictions::BindingRestrictionsProxy
+    // Nested type: ::System::Dynamic::BindingRestrictions::BindingRestrictionsProxy
     class BindingRestrictionsProxy;
     // Get static field: static public readonly System.Dynamic.BindingRestrictions Empty
-    static System::Dynamic::BindingRestrictions* _get_Empty();
+    static ::System::Dynamic::BindingRestrictions* _get_Empty();
     // Set static field: static public readonly System.Dynamic.BindingRestrictions Empty
-    static void _set_Empty(System::Dynamic::BindingRestrictions* value);
+    static void _set_Empty(::System::Dynamic::BindingRestrictions* value);
     // static private System.Void .cctor()
     // Offset: 0x15E8B38
     static void _cctor();
     // System.Linq.Expressions.Expression GetExpression()
     // Offset: 0xFFFFFFFF
-    System::Linq::Expressions::Expression* GetExpression();
+    ::System::Linq::Expressions::Expression* GetExpression();
     // public System.Dynamic.BindingRestrictions Merge(System.Dynamic.BindingRestrictions restrictions)
     // Offset: 0x15E8610
-    System::Dynamic::BindingRestrictions* Merge(System::Dynamic::BindingRestrictions* restrictions);
+    ::System::Dynamic::BindingRestrictions* Merge(::System::Dynamic::BindingRestrictions* restrictions);
     // static public System.Dynamic.BindingRestrictions GetTypeRestriction(System.Linq.Expressions.Expression expression, System.Type type)
     // Offset: 0x15E8800
-    static System::Dynamic::BindingRestrictions* GetTypeRestriction(System::Linq::Expressions::Expression* expression, System::Type* type);
+    static ::System::Dynamic::BindingRestrictions* GetTypeRestriction(::System::Linq::Expressions::Expression* expression, ::System::Type* type);
     // static System.Dynamic.BindingRestrictions GetTypeRestriction(System.Dynamic.DynamicMetaObject obj)
     // Offset: 0x15E8918
-    static System::Dynamic::BindingRestrictions* GetTypeRestriction(System::Dynamic::DynamicMetaObject* obj);
+    static ::System::Dynamic::BindingRestrictions* GetTypeRestriction(::System::Dynamic::DynamicMetaObject* obj);
     // static public System.Dynamic.BindingRestrictions GetInstanceRestriction(System.Linq.Expressions.Expression expression, System.Object instance)
     // Offset: 0x15E89E4
-    static System::Dynamic::BindingRestrictions* GetInstanceRestriction(System::Linq::Expressions::Expression* expression, ::Il2CppObject* instance);
+    static ::System::Dynamic::BindingRestrictions* GetInstanceRestriction(::System::Linq::Expressions::Expression* expression, ::Il2CppObject* instance);
     // public System.Linq.Expressions.Expression ToExpression()
     // Offset: 0x15E8B2C
-    System::Linq::Expressions::Expression* ToExpression();
+    ::System::Linq::Expressions::Expression* ToExpression();
     // private System.Void .ctor()
     // Offset: 0x15E8608
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BindingRestrictions* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Dynamic::BindingRestrictions::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Dynamic::BindingRestrictions::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BindingRestrictions*, creationType>()));
     }
   }; // System.Dynamic.BindingRestrictions
@@ -106,7 +106,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Dynamic::BindingRestrictions::GetExpression
 // Il2CppName: GetExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Linq::Expressions::Expression* (System::Dynamic::BindingRestrictions::*)()>(&System::Dynamic::BindingRestrictions::GetExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (System::Dynamic::BindingRestrictions::*)()>(&System::Dynamic::BindingRestrictions::GetExpression)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Dynamic::BindingRestrictions*), "GetExpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -114,7 +114,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Lin
 // Writing MetadataGetter for method: System::Dynamic::BindingRestrictions::Merge
 // Il2CppName: Merge
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dynamic::BindingRestrictions* (System::Dynamic::BindingRestrictions::*)(System::Dynamic::BindingRestrictions*)>(&System::Dynamic::BindingRestrictions::Merge)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::BindingRestrictions* (System::Dynamic::BindingRestrictions::*)(::System::Dynamic::BindingRestrictions*)>(&System::Dynamic::BindingRestrictions::Merge)> {
   static const MethodInfo* get() {
     static auto* restrictions = &::il2cpp_utils::GetClassFromName("System.Dynamic", "BindingRestrictions")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Dynamic::BindingRestrictions*), "Merge", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{restrictions});
@@ -123,7 +123,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dyn
 // Writing MetadataGetter for method: System::Dynamic::BindingRestrictions::GetTypeRestriction
 // Il2CppName: GetTypeRestriction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dynamic::BindingRestrictions* (*)(System::Linq::Expressions::Expression*, System::Type*)>(&System::Dynamic::BindingRestrictions::GetTypeRestriction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::BindingRestrictions* (*)(::System::Linq::Expressions::Expression*, ::System::Type*)>(&System::Dynamic::BindingRestrictions::GetTypeRestriction)> {
   static const MethodInfo* get() {
     static auto* expression = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -133,7 +133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dyn
 // Writing MetadataGetter for method: System::Dynamic::BindingRestrictions::GetTypeRestriction
 // Il2CppName: GetTypeRestriction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dynamic::BindingRestrictions* (*)(System::Dynamic::DynamicMetaObject*)>(&System::Dynamic::BindingRestrictions::GetTypeRestriction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::BindingRestrictions* (*)(::System::Dynamic::DynamicMetaObject*)>(&System::Dynamic::BindingRestrictions::GetTypeRestriction)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System.Dynamic", "DynamicMetaObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Dynamic::BindingRestrictions*), "GetTypeRestriction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -142,7 +142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dyn
 // Writing MetadataGetter for method: System::Dynamic::BindingRestrictions::GetInstanceRestriction
 // Il2CppName: GetInstanceRestriction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dynamic::BindingRestrictions* (*)(System::Linq::Expressions::Expression*, ::Il2CppObject*)>(&System::Dynamic::BindingRestrictions::GetInstanceRestriction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::BindingRestrictions* (*)(::System::Linq::Expressions::Expression*, ::Il2CppObject*)>(&System::Dynamic::BindingRestrictions::GetInstanceRestriction)> {
   static const MethodInfo* get() {
     static auto* expression = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     static auto* instance = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -152,7 +152,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dyn
 // Writing MetadataGetter for method: System::Dynamic::BindingRestrictions::ToExpression
 // Il2CppName: ToExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Linq::Expressions::Expression* (System::Dynamic::BindingRestrictions::*)()>(&System::Dynamic::BindingRestrictions::ToExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (System::Dynamic::BindingRestrictions::*)()>(&System::Dynamic::BindingRestrictions::ToExpression)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Dynamic::BindingRestrictions*), "ToExpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

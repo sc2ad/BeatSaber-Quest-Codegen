@@ -23,8 +23,8 @@ namespace GlobalNamespace {
   class OVRSystemPerfMetrics;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRSystemPerfMetrics);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSystemPerfMetrics*, "", "OVRSystemPerfMetrics");
+NEED_NO_BOX(::GlobalNamespace::OVRSystemPerfMetrics);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRSystemPerfMetrics*, "", "OVRSystemPerfMetrics");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -33,9 +33,9 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRSystemPerfMetrics : public ::Il2CppObject {
     public:
-    // Nested type: GlobalNamespace::OVRSystemPerfMetrics::PerfMetrics
+    // Nested type: ::GlobalNamespace::OVRSystemPerfMetrics::PerfMetrics
     class PerfMetrics;
-    // Nested type: GlobalNamespace::OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer
+    // Nested type: ::GlobalNamespace::OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer
     class OVRSystemPerfMetricsTcpServer;
     // static field const value: static public System.Int32 TcpListeningPort
     static constexpr const int TcpListeningPort = 32419;
@@ -67,7 +67,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRSystemPerfMetrics* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRSystemPerfMetrics::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRSystemPerfMetrics::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRSystemPerfMetrics*, creationType>()));
     }
   }; // OVRSystemPerfMetrics

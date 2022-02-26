@@ -13,8 +13,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRPlugin::GUID);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::GUID*, "", "OVRPlugin/GUID");
+NEED_NO_BOX(::GlobalNamespace::OVRPlugin::GUID);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRPlugin::GUID*, "", "OVRPlugin/GUID");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -128,7 +128,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRPlugin::GUID* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GUID::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRPlugin::GUID::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRPlugin::GUID*, creationType>()));
     }
   }; // OVRPlugin/GUID

@@ -13,8 +13,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect*, "", "TrackLaneRingsRotationEffect/RingRotationEffect");
+NEED_NO_BOX(::GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect*, "", "TrackLaneRingsRotationEffect/RingRotationEffect");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x24
@@ -79,7 +79,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TrackLaneRingsRotationEffect::RingRotationEffect* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TrackLaneRingsRotationEffect::RingRotationEffect*, creationType>()));
     }
   }; // TrackLaneRingsRotationEffect/RingRotationEffect

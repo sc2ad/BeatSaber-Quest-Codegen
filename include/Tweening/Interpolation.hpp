@@ -19,8 +19,8 @@ namespace Tweening {
   class Interpolation;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Tweening::Interpolation);
-DEFINE_IL2CPP_ARG_TYPE(Tweening::Interpolation*, "Tweening", "Interpolation");
+NEED_NO_BOX(::Tweening::Interpolation);
+DEFINE_IL2CPP_ARG_TYPE(::Tweening::Interpolation*, "Tweening", "Interpolation");
 // Type namespace: Tweening
 namespace Tweening {
   // Size: 0x10
@@ -31,7 +31,7 @@ namespace Tweening {
     public:
     // static public System.Single Interpolate(System.Single t, Tweening.EaseType easeType)
     // Offset: 0x2AEF114
-    static float Interpolate(float t, Tweening::EaseType easeType);
+    static float Interpolate(float t, ::Tweening::EaseType easeType);
   }; // Tweening.Interpolation
   #pragma pack(pop)
 }
@@ -39,7 +39,7 @@ namespace Tweening {
 // Writing MetadataGetter for method: Tweening::Interpolation::Interpolate
 // Il2CppName: Interpolate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, Tweening::EaseType)>(&Tweening::Interpolation::Interpolate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, ::Tweening::EaseType)>(&Tweening::Interpolation::Interpolate)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* easeType = &::il2cpp_utils::GetClassFromName("Tweening", "EaseType")->byval_arg;

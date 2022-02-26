@@ -17,8 +17,8 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
   class PemHeader;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Utilities::IO::Pem::PemHeader);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::IO::Pem::PemHeader*, "Org.BouncyCastle.Utilities.IO.Pem", "PemHeader");
+NEED_NO_BOX(::Org::BouncyCastle::Utilities::IO::Pem::PemHeader);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::IO::Pem::PemHeader*, "Org.BouncyCastle.Utilities.IO.Pem", "PemHeader");
 // Type namespace: Org.BouncyCastle.Utilities.IO.Pem
 namespace Org::BouncyCastle::Utilities::IO::Pem {
   // Size: 0x20
@@ -63,7 +63,7 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
     // Offset: 0x25A6CA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PemHeader* New_ctor(::StringW name, ::StringW val) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Utilities::IO::Pem::PemHeader::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Utilities::IO::Pem::PemHeader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PemHeader*, creationType>(name, val)));
     }
     // private System.Int32 GetHashCode(System.String s)

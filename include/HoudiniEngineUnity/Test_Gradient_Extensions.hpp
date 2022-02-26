@@ -31,8 +31,8 @@ namespace HoudiniEngineUnity {
   class Test_Gradient_Extensions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::Test_Gradient_Extensions);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_Gradient_Extensions*, "HoudiniEngineUnity", "Test_Gradient_Extensions");
+NEED_NO_BOX(::HoudiniEngineUnity::Test_Gradient_Extensions);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::Test_Gradient_Extensions*, "HoudiniEngineUnity", "Test_Gradient_Extensions");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x10
@@ -42,17 +42,17 @@ namespace HoudiniEngineUnity {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class Test_Gradient_Extensions : public ::Il2CppObject {
     public:
-    // Nested type: HoudiniEngineUnity::Test_Gradient_Extensions::$$c
+    // Nested type: ::HoudiniEngineUnity::Test_Gradient_Extensions::$$c
     class $$c;
     // static public HoudiniEngineUnity.Test_Gradient ToTestObject(UnityEngine.Gradient self)
     // Offset: 0x19B5F6C
-    static HoudiniEngineUnity::Test_Gradient* ToTestObject(UnityEngine::Gradient* self);
+    static ::HoudiniEngineUnity::Test_Gradient* ToTestObject(::UnityEngine::Gradient* self);
     // static public HoudiniEngineUnity.Test_Gradient[] ToTestObject(UnityEngine.Gradient[] self)
     // Offset: 0x19B5FD0
-    static ::ArrayW<HoudiniEngineUnity::Test_Gradient*> ToTestObject(::ArrayW<UnityEngine::Gradient*> self);
+    static ::ArrayW<::HoudiniEngineUnity::Test_Gradient*> ToTestObject(::ArrayW<::UnityEngine::Gradient*> self);
     // static public System.Collections.Generic.List`1<HoudiniEngineUnity.Test_Gradient> ToTestObject(System.Collections.Generic.List`1<UnityEngine.Gradient> self)
     // Offset: 0x19B60BC
-    static System::Collections::Generic::List_1<HoudiniEngineUnity::Test_Gradient*>* ToTestObject(System::Collections::Generic::List_1<UnityEngine::Gradient*>* self);
+    static ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_Gradient*>* ToTestObject(::System::Collections::Generic::List_1<::UnityEngine::Gradient*>* self);
   }; // HoudiniEngineUnity.Test_Gradient_Extensions
   #pragma pack(pop)
 }
@@ -60,7 +60,7 @@ namespace HoudiniEngineUnity {
 // Writing MetadataGetter for method: HoudiniEngineUnity::Test_Gradient_Extensions::ToTestObject
 // Il2CppName: ToTestObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::Test_Gradient* (*)(UnityEngine::Gradient*)>(&HoudiniEngineUnity::Test_Gradient_Extensions::ToTestObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::Test_Gradient* (*)(::UnityEngine::Gradient*)>(&HoudiniEngineUnity::Test_Gradient_Extensions::ToTestObject)> {
   static const MethodInfo* get() {
     static auto* self = &::il2cpp_utils::GetClassFromName("UnityEngine", "Gradient")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::Test_Gradient_Extensions*), "ToTestObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{self});
@@ -69,7 +69,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::Test_Gradient_Extensions::ToTestObject
 // Il2CppName: ToTestObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<HoudiniEngineUnity::Test_Gradient*> (*)(::ArrayW<UnityEngine::Gradient*>)>(&HoudiniEngineUnity::Test_Gradient_Extensions::ToTestObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::HoudiniEngineUnity::Test_Gradient*> (*)(::ArrayW<::UnityEngine::Gradient*>)>(&HoudiniEngineUnity::Test_Gradient_Extensions::ToTestObject)> {
   static const MethodInfo* get() {
     static auto* self = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Gradient"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::Test_Gradient_Extensions*), "ToTestObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{self});
@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::Test_Gradient_Extensions::ToTestObject
 // Il2CppName: ToTestObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<HoudiniEngineUnity::Test_Gradient*>* (*)(System::Collections::Generic::List_1<UnityEngine::Gradient*>*)>(&HoudiniEngineUnity::Test_Gradient_Extensions::ToTestObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_Gradient*>* (*)(::System::Collections::Generic::List_1<::UnityEngine::Gradient*>*)>(&HoudiniEngineUnity::Test_Gradient_Extensions::ToTestObject)> {
   static const MethodInfo* get() {
     static auto* self = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Gradient")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::Test_Gradient_Extensions*), "ToTestObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{self});

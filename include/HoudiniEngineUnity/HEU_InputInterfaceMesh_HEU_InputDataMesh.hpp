@@ -26,8 +26,8 @@ namespace UnityEngine {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_InputInterfaceMesh::HEU_InputDataMesh);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_InputInterfaceMesh::HEU_InputDataMesh*, "HoudiniEngineUnity", "HEU_InputInterfaceMesh/HEU_InputDataMesh");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_InputInterfaceMesh::HEU_InputDataMesh);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_InputInterfaceMesh::HEU_InputDataMesh*, "HoudiniEngineUnity", "HEU_InputInterfaceMesh/HEU_InputDataMesh");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x58
@@ -48,15 +48,15 @@ namespace HoudiniEngineUnity {
     // public UnityEngine.Mesh _mesh
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::Mesh* mesh;
+    ::UnityEngine::Mesh* mesh;
     // Field size check
-    static_assert(sizeof(UnityEngine::Mesh*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Mesh*) == 0x8);
     // public UnityEngine.Material[] _materials
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayW<UnityEngine::Material*> materials;
+    ::ArrayW<::UnityEngine::Material*> materials;
     // Field size check
-    static_assert(sizeof(::ArrayW<UnityEngine::Material*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::UnityEngine::Material*>) == 0x8);
     // public System.String _meshPath
     // Size: 0x8
     // Offset: 0x20
@@ -104,14 +104,14 @@ namespace HoudiniEngineUnity {
     // public UnityEngine.Transform _transform
     // Size: 0x8
     // Offset: 0x50
-    UnityEngine::Transform* transform;
+    ::UnityEngine::Transform* transform;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.Mesh _mesh
-    UnityEngine::Mesh*& dyn__mesh();
+    ::UnityEngine::Mesh*& dyn__mesh();
     // Get instance field reference: public UnityEngine.Material[] _materials
-    ::ArrayW<UnityEngine::Material*>& dyn__materials();
+    ::ArrayW<::UnityEngine::Material*>& dyn__materials();
     // Get instance field reference: public System.String _meshPath
     ::StringW& dyn__meshPath();
     // Get instance field reference: public System.String _meshName
@@ -127,19 +127,19 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Single _LODScreenTransition
     float& dyn__LODScreenTransition();
     // Get instance field reference: public UnityEngine.Transform _transform
-    UnityEngine::Transform*& dyn__transform();
+    ::UnityEngine::Transform*& dyn__transform();
     // public System.Void .ctor()
     // Offset: 0x177D664
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_InputInterfaceMesh::HEU_InputDataMesh* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_InputInterfaceMesh::HEU_InputDataMesh::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_InputInterfaceMesh::HEU_InputDataMesh::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_InputInterfaceMesh::HEU_InputDataMesh*, creationType>()));
     }
   }; // HoudiniEngineUnity.HEU_InputInterfaceMesh/HoudiniEngineUnity.HEU_InputDataMesh
   #pragma pack(pop)
-  static check_size<sizeof(HEU_InputInterfaceMesh::HEU_InputDataMesh), 80 + sizeof(UnityEngine::Transform*)> __HoudiniEngineUnity_HEU_InputInterfaceMesh_HEU_InputDataMeshSizeCheck;
+  static check_size<sizeof(HEU_InputInterfaceMesh::HEU_InputDataMesh), 80 + sizeof(::UnityEngine::Transform*)> __HoudiniEngineUnity_HEU_InputInterfaceMesh_HEU_InputDataMeshSizeCheck;
   static_assert(sizeof(HEU_InputInterfaceMesh::HEU_InputDataMesh) == 0x58);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

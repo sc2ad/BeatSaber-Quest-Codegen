@@ -19,8 +19,8 @@ namespace System::Reflection {
   class AssemblyCopyrightAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Reflection::AssemblyCopyrightAttribute);
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyCopyrightAttribute*, "System.Reflection", "AssemblyCopyrightAttribute");
+NEED_NO_BOX(::System::Reflection::AssemblyCopyrightAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::AssemblyCopyrightAttribute*, "System.Reflection", "AssemblyCopyrightAttribute");
 // Type namespace: System.Reflection
 namespace System::Reflection {
   // Size: 0x18
@@ -29,7 +29,7 @@ namespace System::Reflection {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AttributeUsageAttribute] Offset: 1187DAC
   // [ComVisibleAttribute] Offset: 1187DAC
-  class AssemblyCopyrightAttribute : public System::Attribute {
+  class AssemblyCopyrightAttribute : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -57,7 +57,7 @@ namespace System::Reflection {
     // Offset: 0x216098C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssemblyCopyrightAttribute* New_ctor(::StringW copyright) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::AssemblyCopyrightAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Reflection::AssemblyCopyrightAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssemblyCopyrightAttribute*, creationType>(copyright)));
     }
   }; // System.Reflection.AssemblyCopyrightAttribute

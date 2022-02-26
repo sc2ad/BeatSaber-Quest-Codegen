@@ -28,8 +28,8 @@ namespace GlobalNamespace {
   class BufferedAudioStream;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BufferedAudioStream);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BufferedAudioStream*, "", "BufferedAudioStream");
+NEED_NO_BOX(::GlobalNamespace::BufferedAudioStream);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BufferedAudioStream*, "", "BufferedAudioStream");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x2C
@@ -50,9 +50,9 @@ namespace GlobalNamespace {
     // private UnityEngine.AudioSource audio
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::AudioSource* audio;
+    ::UnityEngine::AudioSource* audio;
     // Field size check
-    static_assert(sizeof(UnityEngine::AudioSource*) == 0x8);
+    static_assert(sizeof(::UnityEngine::AudioSource*) == 0x8);
     // private System.Single[] audioBuffer
     // Size: 0x8
     // Offset: 0x18
@@ -109,7 +109,7 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single playbackDelayTimeSeconds
     static void _set_playbackDelayTimeSeconds(float value);
     // Get instance field reference: private UnityEngine.AudioSource audio
-    UnityEngine::AudioSource*& dyn_audio();
+    ::UnityEngine::AudioSource*& dyn_audio();
     // Get instance field reference: private System.Single[] audioBuffer
     ::ArrayW<float>& dyn_audioBuffer();
     // Get instance field reference: private System.Int32 writePos
@@ -121,8 +121,8 @@ namespace GlobalNamespace {
     // public System.Void .ctor(UnityEngine.AudioSource audio)
     // Offset: 0x1FCECA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BufferedAudioStream* New_ctor(UnityEngine::AudioSource* audio) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BufferedAudioStream::.ctor");
+    static BufferedAudioStream* New_ctor(::UnityEngine::AudioSource* audio) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BufferedAudioStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BufferedAudioStream*, creationType>(audio)));
     }
     // public System.Void Update()

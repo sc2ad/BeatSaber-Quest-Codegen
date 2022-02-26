@@ -13,8 +13,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::CreditsData::ChildCreditsItem);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreditsData::ChildCreditsItem*, "", "CreditsData/ChildCreditsItem");
+NEED_NO_BOX(::GlobalNamespace::CreditsData::ChildCreditsItem);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CreditsData::ChildCreditsItem*, "", "CreditsData/ChildCreditsItem");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -35,20 +35,20 @@ namespace GlobalNamespace {
     // public CreditsData/Text title
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::CreditsData::Text* title;
+    ::GlobalNamespace::CreditsData::Text* title;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::CreditsData::Text*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::CreditsData::Text*) == 0x8);
     // public CreditsData/Text text
     // Size: 0x8
     // Offset: 0x18
-    GlobalNamespace::CreditsData::Text* text;
+    ::GlobalNamespace::CreditsData::Text* text;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::CreditsData::Text*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::CreditsData::Text*) == 0x8);
     public:
     // Get instance field reference: public CreditsData/Text title
-    GlobalNamespace::CreditsData::Text*& dyn_title();
+    ::GlobalNamespace::CreditsData::Text*& dyn_title();
     // Get instance field reference: public CreditsData/Text text
-    GlobalNamespace::CreditsData::Text*& dyn_text();
+    ::GlobalNamespace::CreditsData::Text*& dyn_text();
     // public System.Boolean HasTitle()
     // Offset: 0x13C58CC
     bool HasTitle();
@@ -61,12 +61,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CreditsData::ChildCreditsItem* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CreditsData::ChildCreditsItem::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CreditsData::ChildCreditsItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CreditsData::ChildCreditsItem*, creationType>()));
     }
   }; // CreditsData/ChildCreditsItem
   #pragma pack(pop)
-  static check_size<sizeof(CreditsData::ChildCreditsItem), 24 + sizeof(GlobalNamespace::CreditsData::Text*)> __GlobalNamespace_CreditsData_ChildCreditsItemSizeCheck;
+  static check_size<sizeof(CreditsData::ChildCreditsItem), 24 + sizeof(::GlobalNamespace::CreditsData::Text*)> __GlobalNamespace_CreditsData_ChildCreditsItemSizeCheck;
   static_assert(sizeof(CreditsData::ChildCreditsItem) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -29,7 +29,7 @@ namespace System {
   struct UIntPtr;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::UIntPtr, "System", "UIntPtr");
+DEFINE_IL2CPP_ARG_TYPE(::System::UIntPtr, "System", "UIntPtr");
 // Type namespace: System
 namespace System {
   // Size: 0x8
@@ -39,7 +39,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   // [CLSCompliantAttribute] Offset: 1187AC4
   // [ComVisibleAttribute] Offset: 1187AC4
-  struct UIntPtr/*, public System::ValueType, public System::Runtime::Serialization::ISerializable*/ {
+  struct UIntPtr/*, public ::System::ValueType, public ::System::Runtime::Serialization::ISerializable*/ {
     public:
     public:
     // private System.Void* _pointer
@@ -51,22 +51,22 @@ namespace System {
     public:
     // Creating value type constructor for type: UIntPtr
     constexpr UIntPtr(void* pointer_ = {}) noexcept : pointer{pointer_} {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
-    // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
-    operator System::Runtime::Serialization::ISerializable() noexcept {
-      return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);
+    // Creating interface conversion operator: operator ::System::Runtime::Serialization::ISerializable
+    operator ::System::Runtime::Serialization::ISerializable() noexcept {
+      return *reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
     }
     // Creating conversion operator: operator void*
     constexpr operator void*() const noexcept {
       return pointer;
     }
     // Get static field: static public readonly System.UIntPtr Zero
-    static System::UIntPtr _get_Zero();
+    static ::System::UIntPtr _get_Zero();
     // Set static field: static public readonly System.UIntPtr Zero
-    static void _set_Zero(System::UIntPtr value);
+    static void _set_Zero(::System::UIntPtr value);
     // Get instance field reference: private System.Void* _pointer
     void*& dyn__pointer();
     // static public System.Int32 get_Size()
@@ -83,7 +83,7 @@ namespace System {
     static void _cctor();
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x27D2680
-    void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
+    void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
     // static public System.UInt64 op_Explicit(System.UIntPtr value)
     // Offset: 0x27D2730
     explicit operator uint64_t();
@@ -114,7 +114,7 @@ namespace System {
   static_assert(sizeof(UIntPtr) == 0x8);
   // static public System.Boolean op_Equality(System.UIntPtr value1, System.UIntPtr value2)
   // Offset: 0x27D2724
-  bool operator ==(const System::UIntPtr& value1, const System::UIntPtr& value2);
+  bool operator ==(const ::System::UIntPtr& value1, const ::System::UIntPtr& value2);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::UIntPtr::get_Size
@@ -144,7 +144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::UIntPtr::System_Runtime_Serialization_ISerializable_GetObjectData
 // Il2CppName: System.Runtime.Serialization.ISerializable.GetObjectData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::UIntPtr::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::UIntPtr::System_Runtime_Serialization_ISerializable_GetObjectData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::UIntPtr::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&System::UIntPtr::System_Runtime_Serialization_ISerializable_GetObjectData)> {
   static const MethodInfo* get() {
     static auto* info = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;

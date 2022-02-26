@@ -20,7 +20,7 @@ namespace UnityEngine::XR {
   struct MeshId;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::MeshId, "UnityEngine.XR", "MeshId");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::MeshId, "UnityEngine.XR", "MeshId");
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {
   // Size: 0x10
@@ -30,7 +30,7 @@ namespace UnityEngine::XR {
   // [TokenAttribute] Offset: FFFFFFFF
   // [UsedByNativeCodeAttribute] Offset: 11CE638
   // [NativeHeaderAttribute] Offset: 11CE638
-  struct MeshId/*, public System::ValueType, public System::IEquatable_1<UnityEngine::XR::MeshId>*/ {
+  struct MeshId/*, public ::System::ValueType, public ::System::IEquatable_1<::UnityEngine::XR::MeshId>*/ {
     public:
     public:
     // private System.UInt64 m_SubId1
@@ -48,18 +48,18 @@ namespace UnityEngine::XR {
     public:
     // Creating value type constructor for type: MeshId
     constexpr MeshId(uint64_t m_SubId1_ = {}, uint64_t m_SubId2_ = {}) noexcept : m_SubId1{m_SubId1_}, m_SubId2{m_SubId2_} {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
-    // Creating interface conversion operator: operator System::IEquatable_1<UnityEngine::XR::MeshId>
-    operator System::IEquatable_1<UnityEngine::XR::MeshId>() noexcept {
-      return *reinterpret_cast<System::IEquatable_1<UnityEngine::XR::MeshId>*>(this);
+    // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::XR::MeshId>
+    operator ::System::IEquatable_1<::UnityEngine::XR::MeshId>() noexcept {
+      return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::XR::MeshId>*>(this);
     }
     // Get static field: static private UnityEngine.XR.MeshId s_InvalidId
-    static UnityEngine::XR::MeshId _get_s_InvalidId();
+    static ::UnityEngine::XR::MeshId _get_s_InvalidId();
     // Set static field: static private UnityEngine.XR.MeshId s_InvalidId
-    static void _set_s_InvalidId(UnityEngine::XR::MeshId value);
+    static void _set_s_InvalidId(::UnityEngine::XR::MeshId value);
     // Get instance field reference: private System.UInt64 m_SubId1
     uint64_t& dyn_m_SubId1();
     // Get instance field reference: private System.UInt64 m_SubId2
@@ -69,7 +69,7 @@ namespace UnityEngine::XR {
     static void _cctor();
     // public System.Boolean Equals(UnityEngine.XR.MeshId other)
     // Offset: 0x2A493D0
-    bool Equals(UnityEngine::XR::MeshId other);
+    bool Equals(::UnityEngine::XR::MeshId other);
     // public override System.String ToString()
     // Offset: 0x2A49508
     // Implemented from: System.ValueType
@@ -102,7 +102,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::XR::MeshId::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::XR::MeshId::*)(UnityEngine::XR::MeshId)>(&UnityEngine::XR::MeshId::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::XR::MeshId::*)(::UnityEngine::XR::MeshId)>(&UnityEngine::XR::MeshId::Equals)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("UnityEngine.XR", "MeshId")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::MeshId), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});

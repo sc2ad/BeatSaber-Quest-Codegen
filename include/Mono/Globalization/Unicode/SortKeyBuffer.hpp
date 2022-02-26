@@ -27,8 +27,8 @@ namespace Mono::Globalization::Unicode {
   class SortKeyBuffer;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Globalization::Unicode::SortKeyBuffer);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::SortKeyBuffer*, "Mono.Globalization.Unicode", "SortKeyBuffer");
+NEED_NO_BOX(::Mono::Globalization::Unicode::SortKeyBuffer);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Globalization::Unicode::SortKeyBuffer*, "Mono.Globalization.Unicode", "SortKeyBuffer");
 // Type namespace: Mono.Globalization.Unicode
 namespace Mono::Globalization::Unicode {
   // Size: 0x83
@@ -157,9 +157,9 @@ namespace Mono::Globalization::Unicode {
     // private System.Globalization.CompareOptions options
     // Size: 0x4
     // Offset: 0x7C
-    System::Globalization::CompareOptions options;
+    ::System::Globalization::CompareOptions options;
     // Field size check
-    static_assert(sizeof(System::Globalization::CompareOptions) == 0x4);
+    static_assert(sizeof(::System::Globalization::CompareOptions) == 0x4);
     // private System.Boolean processLevel2
     // Size: 0x1
     // Offset: 0x80
@@ -216,7 +216,7 @@ namespace Mono::Globalization::Unicode {
     // Get instance field reference: private System.Int32 lcid
     int& dyn_lcid();
     // Get instance field reference: private System.Globalization.CompareOptions options
-    System::Globalization::CompareOptions& dyn_options();
+    ::System::Globalization::CompareOptions& dyn_options();
     // Get instance field reference: private System.Boolean processLevel2
     bool& dyn_processLevel2();
     // Get instance field reference: private System.Boolean frenchSort
@@ -227,7 +227,7 @@ namespace Mono::Globalization::Unicode {
     // Offset: 0x1E6A6BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SortKeyBuffer* New_ctor(int lcid) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Globalization::Unicode::SortKeyBuffer::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Globalization::Unicode::SortKeyBuffer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SortKeyBuffer*, creationType>(lcid)));
     }
     // public System.Void Reset()
@@ -235,7 +235,7 @@ namespace Mono::Globalization::Unicode {
     void Reset();
     // System.Void Initialize(System.Globalization.CompareOptions options, System.Int32 lcid, System.String s, System.Boolean frenchSort)
     // Offset: 0x1E6A6C4
-    void Initialize(System::Globalization::CompareOptions options, int lcid, ::StringW s, bool frenchSort);
+    void Initialize(::System::Globalization::CompareOptions options, int lcid, ::StringW s, bool frenchSort);
     // System.Void AppendCJKExtension(System.Byte lv1msb, System.Byte lv1lsb)
     // Offset: 0x1E6B190
     void AppendCJKExtension(uint8_t lv1msb, uint8_t lv1lsb);
@@ -253,13 +253,13 @@ namespace Mono::Globalization::Unicode {
     void AppendBufferPrimitive(uint8_t value, ByRef<::ArrayW<uint8_t>> buf, ByRef<int> bidx);
     // public System.Globalization.SortKey GetResultAndReset()
     // Offset: 0x1E6AC18
-    System::Globalization::SortKey* GetResultAndReset();
+    ::System::Globalization::SortKey* GetResultAndReset();
     // private System.Int32 GetOptimizedLength(System.Byte[] data, System.Int32 len, System.Byte defaultValue)
     // Offset: 0x1E6F3AC
     int GetOptimizedLength(::ArrayW<uint8_t> data, int len, uint8_t defaultValue);
     // public System.Globalization.SortKey GetResult()
     // Offset: 0x1E6EECC
-    System::Globalization::SortKey* GetResult();
+    ::System::Globalization::SortKey* GetResult();
   }; // Mono.Globalization.Unicode.SortKeyBuffer
   #pragma pack(pop)
   static check_size<sizeof(SortKeyBuffer), 130 + sizeof(bool)> __Mono_Globalization_Unicode_SortKeyBufferSizeCheck;
@@ -281,7 +281,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SortKeyBuffer::Initialize
 // Il2CppName: Initialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Globalization::Unicode::SortKeyBuffer::*)(System::Globalization::CompareOptions, int, ::StringW, bool)>(&Mono::Globalization::Unicode::SortKeyBuffer::Initialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Globalization::Unicode::SortKeyBuffer::*)(::System::Globalization::CompareOptions, int, ::StringW, bool)>(&Mono::Globalization::Unicode::SortKeyBuffer::Initialize)> {
   static const MethodInfo* get() {
     static auto* options = &::il2cpp_utils::GetClassFromName("System.Globalization", "CompareOptions")->byval_arg;
     static auto* lcid = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -352,7 +352,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SortKeyBuffer::GetResultAndReset
 // Il2CppName: GetResultAndReset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::SortKey* (Mono::Globalization::Unicode::SortKeyBuffer::*)()>(&Mono::Globalization::Unicode::SortKeyBuffer::GetResultAndReset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::SortKey* (Mono::Globalization::Unicode::SortKeyBuffer::*)()>(&Mono::Globalization::Unicode::SortKeyBuffer::GetResultAndReset)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SortKeyBuffer*), "GetResultAndReset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -371,7 +371,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SortKeyBuffer::GetResult
 // Il2CppName: GetResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::SortKey* (Mono::Globalization::Unicode::SortKeyBuffer::*)()>(&Mono::Globalization::Unicode::SortKeyBuffer::GetResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::SortKey* (Mono::Globalization::Unicode::SortKeyBuffer::*)()>(&Mono::Globalization::Unicode::SortKeyBuffer::GetResult)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SortKeyBuffer*), "GetResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

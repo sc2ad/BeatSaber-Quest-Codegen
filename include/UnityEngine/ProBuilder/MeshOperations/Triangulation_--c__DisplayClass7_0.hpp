@@ -27,8 +27,8 @@ namespace UnityEngine {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::MeshOperations::Triangulation::$$c__DisplayClass7_0);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::Triangulation::$$c__DisplayClass7_0*, "UnityEngine.ProBuilder.MeshOperations", "Triangulation/<>c__DisplayClass7_0");
+NEED_NO_BOX(::UnityEngine::ProBuilder::MeshOperations::Triangulation::$$c__DisplayClass7_0);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::MeshOperations::Triangulation::$$c__DisplayClass7_0*, "UnityEngine.ProBuilder.MeshOperations", "Triangulation/<>c__DisplayClass7_0");
 // Type namespace: UnityEngine.ProBuilder.MeshOperations
 namespace UnityEngine::ProBuilder::MeshOperations {
   // Size: 0x14
@@ -62,17 +62,17 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     int& dyn_index();
     // UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint <Triangulate>b__0(UnityEngine.Vector2 x)
     // Offset: 0x1B3BCD8
-    UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* $Triangulate$b__0(UnityEngine::Vector2 x);
+    ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* $Triangulate$b__0(::UnityEngine::Vector2 x);
     // UnityEngine.ProBuilder.Poly2Tri.PolygonPoint <Triangulate>b__1(UnityEngine.Vector2 x)
     // Offset: 0x1B3BD60
-    UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* $Triangulate$b__1(UnityEngine::Vector2 x);
+    ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* $Triangulate$b__1(::UnityEngine::Vector2 x);
     // public System.Void .ctor()
     // Offset: 0x1B3BCC8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Triangulation::$$c__DisplayClass7_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::MeshOperations::Triangulation::$$c__DisplayClass7_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::Triangulation::$$c__DisplayClass7_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Triangulation::$$c__DisplayClass7_0*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.MeshOperations.Triangulation/UnityEngine.ProBuilder.MeshOperations.<>c__DisplayClass7_0
@@ -84,7 +84,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::Triangulation::$$c__DisplayClass7_0::$Triangulate$b__0
 // Il2CppName: <Triangulate>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* (UnityEngine::ProBuilder::MeshOperations::Triangulation::$$c__DisplayClass7_0::*)(UnityEngine::Vector2)>(&UnityEngine::ProBuilder::MeshOperations::Triangulation::$$c__DisplayClass7_0::$Triangulate$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* (UnityEngine::ProBuilder::MeshOperations::Triangulation::$$c__DisplayClass7_0::*)(::UnityEngine::Vector2)>(&UnityEngine::ProBuilder::MeshOperations::Triangulation::$$c__DisplayClass7_0::$Triangulate$b__0)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::Triangulation::$$c__DisplayClass7_0*), "<Triangulate>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -93,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::Triangulation::$$c__DisplayClass7_0::$Triangulate$b__1
 // Il2CppName: <Triangulate>b__1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* (UnityEngine::ProBuilder::MeshOperations::Triangulation::$$c__DisplayClass7_0::*)(UnityEngine::Vector2)>(&UnityEngine::ProBuilder::MeshOperations::Triangulation::$$c__DisplayClass7_0::$Triangulate$b__1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* (UnityEngine::ProBuilder::MeshOperations::Triangulation::$$c__DisplayClass7_0::*)(::UnityEngine::Vector2)>(&UnityEngine::ProBuilder::MeshOperations::Triangulation::$$c__DisplayClass7_0::$Triangulate$b__1)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::Triangulation::$$c__DisplayClass7_0*), "<Triangulate>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});

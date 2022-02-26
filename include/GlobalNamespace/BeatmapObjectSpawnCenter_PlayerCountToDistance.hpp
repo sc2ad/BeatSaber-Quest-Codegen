@@ -13,8 +13,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance*, "", "BeatmapObjectSpawnCenter/PlayerCountToDistance");
+NEED_NO_BOX(::GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance*, "", "BeatmapObjectSpawnCenter/PlayerCountToDistance");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -61,7 +61,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectSpawnCenter::PlayerCountToDistance* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectSpawnCenter::PlayerCountToDistance*, creationType>()));
     }
   }; // BeatmapObjectSpawnCenter/PlayerCountToDistance

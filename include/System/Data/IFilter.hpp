@@ -20,8 +20,8 @@ namespace System::Data {
   class IFilter;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Data::IFilter);
-DEFINE_IL2CPP_ARG_TYPE(System::Data::IFilter*, "System.Data", "IFilter");
+NEED_NO_BOX(::System::Data::IFilter);
+DEFINE_IL2CPP_ARG_TYPE(::System::Data::IFilter*, "System.Data", "IFilter");
 // Type namespace: System.Data
 namespace System::Data {
   // Size: 0x10
@@ -32,7 +32,7 @@ namespace System::Data {
     public:
     // public System.Boolean Invoke(System.Data.DataRow row, System.Data.DataRowVersion version)
     // Offset: 0xFFFFFFFF
-    bool Invoke(System::Data::DataRow* row, System::Data::DataRowVersion version);
+    bool Invoke(::System::Data::DataRow* row, ::System::Data::DataRowVersion version);
   }; // System.Data.IFilter
   #pragma pack(pop)
 }
@@ -40,7 +40,7 @@ namespace System::Data {
 // Writing MetadataGetter for method: System::Data::IFilter::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Data::IFilter::*)(System::Data::DataRow*, System::Data::DataRowVersion)>(&System::Data::IFilter::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Data::IFilter::*)(::System::Data::DataRow*, ::System::Data::DataRowVersion)>(&System::Data::IFilter::Invoke)> {
   static const MethodInfo* get() {
     static auto* row = &::il2cpp_utils::GetClassFromName("System.Data", "DataRow")->byval_arg;
     static auto* version = &::il2cpp_utils::GetClassFromName("System.Data", "DataRowVersion")->byval_arg;

@@ -20,8 +20,8 @@ namespace UnityEngine {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::InitData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::InitData*, "", "MultiplayerLocalInactivePlayerSongSyncController/InitData");
+NEED_NO_BOX(::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::InitData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::InitData*, "", "MultiplayerLocalInactivePlayerSongSyncController/InitData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x24
@@ -42,9 +42,9 @@ namespace GlobalNamespace {
     // public readonly UnityEngine.AudioClip audioClip
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::AudioClip* audioClip;
+    ::UnityEngine::AudioClip* audioClip;
     // Field size check
-    static_assert(sizeof(UnityEngine::AudioClip*) == 0x8);
+    static_assert(sizeof(::UnityEngine::AudioClip*) == 0x8);
     // public readonly System.Single startSongTime
     // Size: 0x4
     // Offset: 0x18
@@ -65,7 +65,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public readonly UnityEngine.AudioClip audioClip
-    UnityEngine::AudioClip*& dyn_audioClip();
+    ::UnityEngine::AudioClip*& dyn_audioClip();
     // Get instance field reference: public readonly System.Single startSongTime
     float& dyn_startSongTime();
     // Get instance field reference: public readonly System.Single songTimeOffset
@@ -75,8 +75,8 @@ namespace GlobalNamespace {
     // public System.Void .ctor(UnityEngine.AudioClip audioClip, System.Single startSongTime, System.Single songTimeOffset, System.Single timeScale)
     // Offset: 0x144C0E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MultiplayerLocalInactivePlayerSongSyncController::InitData* New_ctor(UnityEngine::AudioClip* audioClip, float startSongTime, float songTimeOffset, float timeScale) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::InitData::.ctor");
+    static MultiplayerLocalInactivePlayerSongSyncController::InitData* New_ctor(::UnityEngine::AudioClip* audioClip, float startSongTime, float songTimeOffset, float timeScale) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::InitData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalInactivePlayerSongSyncController::InitData*, creationType>(audioClip, startSongTime, songTimeOffset, timeScale)));
     }
   }; // MultiplayerLocalInactivePlayerSongSyncController/InitData

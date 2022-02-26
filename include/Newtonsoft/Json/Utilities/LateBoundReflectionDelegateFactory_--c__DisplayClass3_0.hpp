@@ -23,8 +23,8 @@ namespace System::Reflection {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory::$$c__DisplayClass3_0);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory::$$c__DisplayClass3_0*, "Newtonsoft.Json.Utilities", "LateBoundReflectionDelegateFactory/<>c__DisplayClass3_0");
+NEED_NO_BOX(::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory::$$c__DisplayClass3_0);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory::$$c__DisplayClass3_0*, "Newtonsoft.Json.Utilities", "LateBoundReflectionDelegateFactory/<>c__DisplayClass3_0");
 // Type namespace: Newtonsoft.Json.Utilities
 namespace Newtonsoft::Json::Utilities {
   // Size: 0x20
@@ -47,21 +47,21 @@ namespace Newtonsoft::Json::Utilities {
     // public System.Reflection.ConstructorInfo c
     // Size: 0x8
     // Offset: 0x10
-    System::Reflection::ConstructorInfo* c;
+    ::System::Reflection::ConstructorInfo* c;
     // Field size check
-    static_assert(sizeof(System::Reflection::ConstructorInfo*) == 0x8);
+    static_assert(sizeof(::System::Reflection::ConstructorInfo*) == 0x8);
     // [NullableAttribute] Offset: 0x1204E9C
     // public System.Reflection.MethodBase method
     // Size: 0x8
     // Offset: 0x18
-    System::Reflection::MethodBase* method;
+    ::System::Reflection::MethodBase* method;
     // Field size check
-    static_assert(sizeof(System::Reflection::MethodBase*) == 0x8);
+    static_assert(sizeof(::System::Reflection::MethodBase*) == 0x8);
     public:
     // Get instance field reference: public System.Reflection.ConstructorInfo c
-    System::Reflection::ConstructorInfo*& dyn_c();
+    ::System::Reflection::ConstructorInfo*& dyn_c();
     // Get instance field reference: public System.Reflection.MethodBase method
-    System::Reflection::MethodBase*& dyn_method();
+    ::System::Reflection::MethodBase*& dyn_method();
     // System.Object <CreateParameterizedConstructor>b__0(System.Object[] a)
     // Offset: 0x29F1DB0
     ::Il2CppObject* $CreateParameterizedConstructor$b__0(::ArrayW<::Il2CppObject*> a);
@@ -74,12 +74,12 @@ namespace Newtonsoft::Json::Utilities {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LateBoundReflectionDelegateFactory::$$c__DisplayClass3_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory::$$c__DisplayClass3_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory::$$c__DisplayClass3_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LateBoundReflectionDelegateFactory::$$c__DisplayClass3_0*, creationType>()));
     }
   }; // Newtonsoft.Json.Utilities.LateBoundReflectionDelegateFactory/Newtonsoft.Json.Utilities.<>c__DisplayClass3_0
   #pragma pack(pop)
-  static check_size<sizeof(LateBoundReflectionDelegateFactory::$$c__DisplayClass3_0), 24 + sizeof(System::Reflection::MethodBase*)> __Newtonsoft_Json_Utilities_LateBoundReflectionDelegateFactory_$$c__DisplayClass3_0SizeCheck;
+  static check_size<sizeof(LateBoundReflectionDelegateFactory::$$c__DisplayClass3_0), 24 + sizeof(::System::Reflection::MethodBase*)> __Newtonsoft_Json_Utilities_LateBoundReflectionDelegateFactory_$$c__DisplayClass3_0SizeCheck;
   static_assert(sizeof(LateBoundReflectionDelegateFactory::$$c__DisplayClass3_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

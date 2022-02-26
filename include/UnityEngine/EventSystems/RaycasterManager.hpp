@@ -25,8 +25,8 @@ namespace UnityEngine::EventSystems {
   class RaycasterManager;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::EventSystems::RaycasterManager);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::RaycasterManager*, "UnityEngine.EventSystems", "RaycasterManager");
+NEED_NO_BOX(::UnityEngine::EventSystems::RaycasterManager);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::EventSystems::RaycasterManager*, "UnityEngine.EventSystems", "RaycasterManager");
 // Type namespace: UnityEngine.EventSystems
 namespace UnityEngine::EventSystems {
   // Size: 0x10
@@ -36,21 +36,21 @@ namespace UnityEngine::EventSystems {
   class RaycasterManager : public ::Il2CppObject {
     public:
     // Get static field: static private readonly System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseRaycaster> s_Raycasters
-    static System::Collections::Generic::List_1<UnityEngine::EventSystems::BaseRaycaster*>* _get_s_Raycasters();
+    static ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::BaseRaycaster*>* _get_s_Raycasters();
     // Set static field: static private readonly System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseRaycaster> s_Raycasters
-    static void _set_s_Raycasters(System::Collections::Generic::List_1<UnityEngine::EventSystems::BaseRaycaster*>* value);
+    static void _set_s_Raycasters(::System::Collections::Generic::List_1<::UnityEngine::EventSystems::BaseRaycaster*>* value);
     // static private System.Void .cctor()
     // Offset: 0x186E2C8
     static void _cctor();
     // static public System.Void AddRaycaster(UnityEngine.EventSystems.BaseRaycaster baseRaycaster)
     // Offset: 0x186798C
-    static void AddRaycaster(UnityEngine::EventSystems::BaseRaycaster* baseRaycaster);
+    static void AddRaycaster(::UnityEngine::EventSystems::BaseRaycaster* baseRaycaster);
     // static public System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseRaycaster> GetRaycasters()
     // Offset: 0x186E260
-    static System::Collections::Generic::List_1<UnityEngine::EventSystems::BaseRaycaster*>* GetRaycasters();
+    static ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::BaseRaycaster*>* GetRaycasters();
     // static public System.Void RemoveRaycasters(UnityEngine.EventSystems.BaseRaycaster baseRaycaster)
     // Offset: 0x1867AC0
-    static void RemoveRaycasters(UnityEngine::EventSystems::BaseRaycaster* baseRaycaster);
+    static void RemoveRaycasters(::UnityEngine::EventSystems::BaseRaycaster* baseRaycaster);
   }; // UnityEngine.EventSystems.RaycasterManager
   #pragma pack(pop)
 }
@@ -66,7 +66,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::EventSystems::RaycasterManager::AddRaycaster
 // Il2CppName: AddRaycaster
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::BaseRaycaster*)>(&UnityEngine::EventSystems::RaycasterManager::AddRaycaster)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::EventSystems::BaseRaycaster*)>(&UnityEngine::EventSystems::RaycasterManager::AddRaycaster)> {
   static const MethodInfo* get() {
     static auto* baseRaycaster = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "BaseRaycaster")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::RaycasterManager*), "AddRaycaster", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{baseRaycaster});
@@ -75,7 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::EventSystems::RaycasterManager::GetRaycasters
 // Il2CppName: GetRaycasters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::EventSystems::BaseRaycaster*>* (*)()>(&UnityEngine::EventSystems::RaycasterManager::GetRaycasters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::EventSystems::BaseRaycaster*>* (*)()>(&UnityEngine::EventSystems::RaycasterManager::GetRaycasters)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::RaycasterManager*), "GetRaycasters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -83,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::EventSystems::RaycasterManager::RemoveRaycasters
 // Il2CppName: RemoveRaycasters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::BaseRaycaster*)>(&UnityEngine::EventSystems::RaycasterManager::RemoveRaycasters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::EventSystems::BaseRaycaster*)>(&UnityEngine::EventSystems::RaycasterManager::RemoveRaycasters)> {
   static const MethodInfo* get() {
     static auto* baseRaycaster = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "BaseRaycaster")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::RaycasterManager*), "RemoveRaycasters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{baseRaycaster});

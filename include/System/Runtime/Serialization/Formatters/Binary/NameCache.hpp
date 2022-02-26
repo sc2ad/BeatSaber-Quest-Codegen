@@ -25,8 +25,8 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   class NameCache;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::NameCache);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::NameCache*, "System.Runtime.Serialization.Formatters.Binary", "NameCache");
+NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::NameCache);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::NameCache*, "System.Runtime.Serialization.Formatters.Binary", "NameCache");
 // Type namespace: System.Runtime.Serialization.Formatters.Binary
 namespace System::Runtime::Serialization::Formatters::Binary {
   // Size: 0x18
@@ -56,9 +56,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
       return name;
     }
     // Get static field: static private System.Collections.Concurrent.ConcurrentDictionary`2<System.String,System.Object> ht
-    static System::Collections::Concurrent::ConcurrentDictionary_2<::StringW, ::Il2CppObject*>* _get_ht();
+    static ::System::Collections::Concurrent::ConcurrentDictionary_2<::StringW, ::Il2CppObject*>* _get_ht();
     // Set static field: static private System.Collections.Concurrent.ConcurrentDictionary`2<System.String,System.Object> ht
-    static void _set_ht(System::Collections::Concurrent::ConcurrentDictionary_2<::StringW, ::Il2CppObject*>* value);
+    static void _set_ht(::System::Collections::Concurrent::ConcurrentDictionary_2<::StringW, ::Il2CppObject*>* value);
     // Get instance field reference: private System.String name
     ::StringW& dyn_name();
     // static private System.Void .cctor()
@@ -76,7 +76,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NameCache* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::NameCache::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::Formatters::Binary::NameCache::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NameCache*, creationType>()));
     }
   }; // System.Runtime.Serialization.Formatters.Binary.NameCache

@@ -20,8 +20,8 @@ namespace GlobalNamespace {
   class AssertExtensions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::AssertExtensions);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AssertExtensions*, "", "AssertExtensions");
+NEED_NO_BOX(::GlobalNamespace::AssertExtensions);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AssertExtensions*, "", "AssertExtensions");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10

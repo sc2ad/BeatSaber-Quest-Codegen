@@ -36,8 +36,8 @@ namespace System::Xml::XPath {
   class XPathItem;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::XPath::XPathItem);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::XPath::XPathItem*, "System.Xml.XPath", "XPathItem");
+NEED_NO_BOX(::System::Xml::XPath::XPathItem);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XPath::XPathItem*, "System.Xml.XPath", "XPathItem");
 // Type namespace: System.Xml.XPath
 namespace System::Xml::XPath {
   // Size: 0x10
@@ -48,7 +48,7 @@ namespace System::Xml::XPath {
     public:
     // public System.Xml.Schema.XmlSchemaType get_XmlType()
     // Offset: 0xFFFFFFFF
-    System::Xml::Schema::XmlSchemaType* get_XmlType();
+    ::System::Xml::Schema::XmlSchemaType* get_XmlType();
     // public System.String get_Value()
     // Offset: 0xFFFFFFFF
     ::StringW get_Value();
@@ -57,13 +57,13 @@ namespace System::Xml::XPath {
     ::Il2CppObject* get_TypedValue();
     // public System.Type get_ValueType()
     // Offset: 0xFFFFFFFF
-    System::Type* get_ValueType();
+    ::System::Type* get_ValueType();
     // public System.Boolean get_ValueAsBoolean()
     // Offset: 0xFFFFFFFF
     bool get_ValueAsBoolean();
     // public System.DateTime get_ValueAsDateTime()
     // Offset: 0xFFFFFFFF
-    System::DateTime get_ValueAsDateTime();
+    ::System::DateTime get_ValueAsDateTime();
     // public System.Double get_ValueAsDouble()
     // Offset: 0xFFFFFFFF
     double get_ValueAsDouble();
@@ -75,17 +75,17 @@ namespace System::Xml::XPath {
     int64_t get_ValueAsLong();
     // public System.Object ValueAs(System.Type returnType)
     // Offset: 0x161ABCC
-    ::Il2CppObject* ValueAs(System::Type* returnType);
+    ::Il2CppObject* ValueAs(::System::Type* returnType);
     // public System.Object ValueAs(System.Type returnType, System.Xml.IXmlNamespaceResolver nsResolver)
     // Offset: 0xFFFFFFFF
-    ::Il2CppObject* ValueAs(System::Type* returnType, System::Xml::IXmlNamespaceResolver* nsResolver);
+    ::Il2CppObject* ValueAs(::System::Type* returnType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
     // protected System.Void .ctor()
     // Offset: 0x161ABE0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XPathItem* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XPath::XPathItem::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XPath::XPathItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XPathItem*, creationType>()));
     }
   }; // System.Xml.XPath.XPathItem
@@ -95,7 +95,7 @@ namespace System::Xml::XPath {
 // Writing MetadataGetter for method: System::Xml::XPath::XPathItem::get_XmlType
 // Il2CppName: get_XmlType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Schema::XmlSchemaType* (System::Xml::XPath::XPathItem::*)()>(&System::Xml::XPath::XPathItem::get_XmlType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaType* (System::Xml::XPath::XPathItem::*)()>(&System::Xml::XPath::XPathItem::get_XmlType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XPath::XPathItem*), "get_XmlType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -119,7 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Xml::XPath::XPathItem::get_ValueType
 // Il2CppName: get_ValueType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Xml::XPath::XPathItem::*)()>(&System::Xml::XPath::XPathItem::get_ValueType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (System::Xml::XPath::XPathItem::*)()>(&System::Xml::XPath::XPathItem::get_ValueType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XPath::XPathItem*), "get_ValueType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -135,7 +135,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Xml::XPath::XPathItem::get_ValueAsDateTime
 // Il2CppName: get_ValueAsDateTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (System::Xml::XPath::XPathItem::*)()>(&System::Xml::XPath::XPathItem::get_ValueAsDateTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (System::Xml::XPath::XPathItem::*)()>(&System::Xml::XPath::XPathItem::get_ValueAsDateTime)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XPath::XPathItem*), "get_ValueAsDateTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -167,7 +167,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Sy
 // Writing MetadataGetter for method: System::Xml::XPath::XPathItem::ValueAs
 // Il2CppName: ValueAs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::XPath::XPathItem::*)(System::Type*)>(&System::Xml::XPath::XPathItem::ValueAs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::XPath::XPathItem::*)(::System::Type*)>(&System::Xml::XPath::XPathItem::ValueAs)> {
   static const MethodInfo* get() {
     static auto* returnType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XPath::XPathItem*), "ValueAs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{returnType});
@@ -176,7 +176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Xml::XPath::XPathItem::ValueAs
 // Il2CppName: ValueAs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::XPath::XPathItem::*)(System::Type*, System::Xml::IXmlNamespaceResolver*)>(&System::Xml::XPath::XPathItem::ValueAs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::XPath::XPathItem::*)(::System::Type*, ::System::Xml::IXmlNamespaceResolver*)>(&System::Xml::XPath::XPathItem::ValueAs)> {
   static const MethodInfo* get() {
     static auto* returnType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* nsResolver = &::il2cpp_utils::GetClassFromName("System.Xml", "IXmlNamespaceResolver")->byval_arg;

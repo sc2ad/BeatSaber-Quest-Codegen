@@ -13,8 +13,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PosesRecordingSaveData::ExternalCameraCalibrationSaveData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PosesRecordingSaveData::ExternalCameraCalibrationSaveData*, "", "PosesRecordingSaveData/ExternalCameraCalibrationSaveData");
+NEED_NO_BOX(::GlobalNamespace::PosesRecordingSaveData::ExternalCameraCalibrationSaveData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PosesRecordingSaveData::ExternalCameraCalibrationSaveData*, "", "PosesRecordingSaveData/ExternalCameraCalibrationSaveData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x24
@@ -77,7 +77,7 @@ namespace GlobalNamespace {
     // Offset: 0x13E720C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PosesRecordingSaveData::ExternalCameraCalibrationSaveData* New_ctor(float fieldOfVision, float nearClip, float farClip, float hmdOffset, float nearOffset) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PosesRecordingSaveData::ExternalCameraCalibrationSaveData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PosesRecordingSaveData::ExternalCameraCalibrationSaveData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PosesRecordingSaveData::ExternalCameraCalibrationSaveData*, creationType>(fieldOfVision, nearClip, farClip, hmdOffset, nearOffset)));
     }
   }; // PosesRecordingSaveData/ExternalCameraCalibrationSaveData

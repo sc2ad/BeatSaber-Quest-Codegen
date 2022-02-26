@@ -17,8 +17,8 @@ namespace System::Globalization {
   class EraInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Globalization::EraInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::Globalization::EraInfo*, "System.Globalization", "EraInfo");
+NEED_NO_BOX(::System::Globalization::EraInfo);
+DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::EraInfo*, "System.Globalization", "EraInfo");
 // Type namespace: System.Globalization
 namespace System::Globalization {
   // Size: 0x48
@@ -112,14 +112,14 @@ namespace System::Globalization {
     // Offset: 0x20B2A20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EraInfo* New_ctor(int era, int startYear, int startMonth, int startDay, int yearOffset, int minEraYear, int maxEraYear) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::EraInfo::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Globalization::EraInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EraInfo*, creationType>(era, startYear, startMonth, startDay, yearOffset, minEraYear, maxEraYear)));
     }
     // System.Void .ctor(System.Int32 era, System.Int32 startYear, System.Int32 startMonth, System.Int32 startDay, System.Int32 yearOffset, System.Int32 minEraYear, System.Int32 maxEraYear, System.String eraName, System.String abbrevEraName, System.String englishEraName)
     // Offset: 0x20B2AC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EraInfo* New_ctor(int era, int startYear, int startMonth, int startDay, int yearOffset, int minEraYear, int maxEraYear, ::StringW eraName, ::StringW abbrevEraName, ::StringW englishEraName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::EraInfo::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Globalization::EraInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EraInfo*, creationType>(era, startYear, startMonth, startDay, yearOffset, minEraYear, maxEraYear, eraName, abbrevEraName, englishEraName)));
     }
   }; // System.Globalization.EraInfo

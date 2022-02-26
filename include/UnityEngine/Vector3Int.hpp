@@ -26,7 +26,7 @@ namespace UnityEngine {
   struct Vector3Int;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Vector3Int, "UnityEngine", "Vector3Int");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Vector3Int, "UnityEngine", "Vector3Int");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0xC
@@ -36,7 +36,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [DefaultMemberAttribute] Offset: 11A5520
   // [UsedByNativeCodeAttribute] Offset: 11A5520
-  struct Vector3Int/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Vector3Int>*/ {
+  struct Vector3Int/*, public ::System::ValueType, public ::System::IEquatable_1<::UnityEngine::Vector3Int>*/ {
     public:
     public:
     // private System.Int32 m_X
@@ -60,38 +60,38 @@ namespace UnityEngine {
     public:
     // Creating value type constructor for type: Vector3Int
     constexpr Vector3Int(int m_X_ = {}, int m_Y_ = {}, int m_Z_ = {}) noexcept : m_X{m_X_}, m_Y{m_Y_}, m_Z{m_Z_} {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
-    // Creating interface conversion operator: operator System::IEquatable_1<UnityEngine::Vector3Int>
-    operator System::IEquatable_1<UnityEngine::Vector3Int>() noexcept {
-      return *reinterpret_cast<System::IEquatable_1<UnityEngine::Vector3Int>*>(this);
+    // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::Vector3Int>
+    operator ::System::IEquatable_1<::UnityEngine::Vector3Int>() noexcept {
+      return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::Vector3Int>*>(this);
     }
     // Get static field: static private readonly UnityEngine.Vector3Int s_Zero
-    static UnityEngine::Vector3Int _get_s_Zero();
+    static ::UnityEngine::Vector3Int _get_s_Zero();
     // Set static field: static private readonly UnityEngine.Vector3Int s_Zero
-    static void _set_s_Zero(UnityEngine::Vector3Int value);
+    static void _set_s_Zero(::UnityEngine::Vector3Int value);
     // Get static field: static private readonly UnityEngine.Vector3Int s_One
-    static UnityEngine::Vector3Int _get_s_One();
+    static ::UnityEngine::Vector3Int _get_s_One();
     // Set static field: static private readonly UnityEngine.Vector3Int s_One
-    static void _set_s_One(UnityEngine::Vector3Int value);
+    static void _set_s_One(::UnityEngine::Vector3Int value);
     // Get static field: static private readonly UnityEngine.Vector3Int s_Up
-    static UnityEngine::Vector3Int _get_s_Up();
+    static ::UnityEngine::Vector3Int _get_s_Up();
     // Set static field: static private readonly UnityEngine.Vector3Int s_Up
-    static void _set_s_Up(UnityEngine::Vector3Int value);
+    static void _set_s_Up(::UnityEngine::Vector3Int value);
     // Get static field: static private readonly UnityEngine.Vector3Int s_Down
-    static UnityEngine::Vector3Int _get_s_Down();
+    static ::UnityEngine::Vector3Int _get_s_Down();
     // Set static field: static private readonly UnityEngine.Vector3Int s_Down
-    static void _set_s_Down(UnityEngine::Vector3Int value);
+    static void _set_s_Down(::UnityEngine::Vector3Int value);
     // Get static field: static private readonly UnityEngine.Vector3Int s_Left
-    static UnityEngine::Vector3Int _get_s_Left();
+    static ::UnityEngine::Vector3Int _get_s_Left();
     // Set static field: static private readonly UnityEngine.Vector3Int s_Left
-    static void _set_s_Left(UnityEngine::Vector3Int value);
+    static void _set_s_Left(::UnityEngine::Vector3Int value);
     // Get static field: static private readonly UnityEngine.Vector3Int s_Right
-    static UnityEngine::Vector3Int _get_s_Right();
+    static ::UnityEngine::Vector3Int _get_s_Right();
     // Set static field: static private readonly UnityEngine.Vector3Int s_Right
-    static void _set_s_Right(UnityEngine::Vector3Int value);
+    static void _set_s_Right(::UnityEngine::Vector3Int value);
     // Get instance field reference: private System.Int32 m_X
     int& dyn_m_X();
     // Get instance field reference: private System.Int32 m_Y
@@ -121,7 +121,7 @@ namespace UnityEngine {
     int get_Item(int index);
     // static public UnityEngine.Vector3Int get_one()
     // Offset: 0x270462C
-    static UnityEngine::Vector3Int get_one();
+    static ::UnityEngine::Vector3Int get_one();
     // public System.Void .ctor(System.Int32 x, System.Int32 y, System.Int32 z)
     // Offset: 0x2703FE8
     // ABORTED: conflicts with another method.  Vector3Int(int x, int y, int z);
@@ -130,13 +130,13 @@ namespace UnityEngine {
     static void _cctor();
     // static public UnityEngine.Vector3Int Min(UnityEngine.Vector3Int lhs, UnityEngine.Vector3Int rhs)
     // Offset: 0x2704110
-    static UnityEngine::Vector3Int Min(UnityEngine::Vector3Int lhs, UnityEngine::Vector3Int rhs);
+    static ::UnityEngine::Vector3Int Min(::UnityEngine::Vector3Int lhs, ::UnityEngine::Vector3Int rhs);
     // static public UnityEngine.Vector3Int Max(UnityEngine.Vector3Int lhs, UnityEngine.Vector3Int rhs)
     // Offset: 0x27041E4
-    static UnityEngine::Vector3Int Max(UnityEngine::Vector3Int lhs, UnityEngine::Vector3Int rhs);
+    static ::UnityEngine::Vector3Int Max(::UnityEngine::Vector3Int lhs, ::UnityEngine::Vector3Int rhs);
     // public System.Boolean Equals(UnityEngine.Vector3Int other)
     // Offset: 0x27043A8
-    bool Equals(UnityEngine::Vector3Int other);
+    bool Equals(::UnityEngine::Vector3Int other);
     // public override System.Boolean Equals(System.Object other)
     // Offset: 0x2704318
     // Implemented from: System.ValueType
@@ -158,10 +158,10 @@ namespace UnityEngine {
   static_assert(sizeof(Vector3Int) == 0xC);
   // static public UnityEngine.Vector3Int op_Addition(UnityEngine.Vector3Int a, UnityEngine.Vector3Int b)
   // Offset: 0x27042CC
-  UnityEngine::Vector3Int operator+(const UnityEngine::Vector3Int& a, const UnityEngine::Vector3Int& b);
+  ::UnityEngine::Vector3Int operator+(const ::UnityEngine::Vector3Int& a, const ::UnityEngine::Vector3Int& b);
   // static public System.Boolean op_Equality(UnityEngine.Vector3Int lhs, UnityEngine.Vector3Int rhs)
   // Offset: 0x27042E8
-  bool operator ==(const UnityEngine::Vector3Int& lhs, const UnityEngine::Vector3Int& rhs);
+  bool operator ==(const ::UnityEngine::Vector3Int& lhs, const ::UnityEngine::Vector3Int& rhs);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Vector3Int::get_x
@@ -227,7 +227,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::Vector3Int::get_one
 // Il2CppName: get_one
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3Int (*)()>(&UnityEngine::Vector3Int::get_one)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3Int (*)()>(&UnityEngine::Vector3Int::get_one)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Vector3Int), "get_one", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -247,7 +247,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::Vector3Int::Min
 // Il2CppName: Min
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3Int (*)(UnityEngine::Vector3Int, UnityEngine::Vector3Int)>(&UnityEngine::Vector3Int::Min)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3Int (*)(::UnityEngine::Vector3Int, ::UnityEngine::Vector3Int)>(&UnityEngine::Vector3Int::Min)> {
   static const MethodInfo* get() {
     static auto* lhs = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3Int")->byval_arg;
     static auto* rhs = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3Int")->byval_arg;
@@ -257,7 +257,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Vector3Int::Max
 // Il2CppName: Max
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3Int (*)(UnityEngine::Vector3Int, UnityEngine::Vector3Int)>(&UnityEngine::Vector3Int::Max)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3Int (*)(::UnityEngine::Vector3Int, ::UnityEngine::Vector3Int)>(&UnityEngine::Vector3Int::Max)> {
   static const MethodInfo* get() {
     static auto* lhs = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3Int")->byval_arg;
     static auto* rhs = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3Int")->byval_arg;
@@ -267,7 +267,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Vector3Int::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Vector3Int::*)(UnityEngine::Vector3Int)>(&UnityEngine::Vector3Int::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Vector3Int::*)(::UnityEngine::Vector3Int)>(&UnityEngine::Vector3Int::Equals)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3Int")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Vector3Int), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});

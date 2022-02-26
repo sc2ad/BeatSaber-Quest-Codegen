@@ -25,8 +25,8 @@ namespace System::Xml::Schema {
   class RedefineEntry;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Schema::RedefineEntry);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::RedefineEntry*, "System.Xml.Schema", "RedefineEntry");
+NEED_NO_BOX(::System::Xml::Schema::RedefineEntry);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::RedefineEntry*, "System.Xml.Schema", "RedefineEntry");
 // Type namespace: System.Xml.Schema
 namespace System::Xml::Schema {
   // Size: 0x20
@@ -47,30 +47,30 @@ namespace System::Xml::Schema {
     // System.Xml.Schema.XmlSchemaRedefine redefine
     // Size: 0x8
     // Offset: 0x10
-    System::Xml::Schema::XmlSchemaRedefine* redefine;
+    ::System::Xml::Schema::XmlSchemaRedefine* redefine;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::XmlSchemaRedefine*) == 0x8);
+    static_assert(sizeof(::System::Xml::Schema::XmlSchemaRedefine*) == 0x8);
     // System.Xml.Schema.XmlSchema schemaToUpdate
     // Size: 0x8
     // Offset: 0x18
-    System::Xml::Schema::XmlSchema* schemaToUpdate;
+    ::System::Xml::Schema::XmlSchema* schemaToUpdate;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::XmlSchema*) == 0x8);
+    static_assert(sizeof(::System::Xml::Schema::XmlSchema*) == 0x8);
     public:
     // Get instance field reference: System.Xml.Schema.XmlSchemaRedefine redefine
-    System::Xml::Schema::XmlSchemaRedefine*& dyn_redefine();
+    ::System::Xml::Schema::XmlSchemaRedefine*& dyn_redefine();
     // Get instance field reference: System.Xml.Schema.XmlSchema schemaToUpdate
-    System::Xml::Schema::XmlSchema*& dyn_schemaToUpdate();
+    ::System::Xml::Schema::XmlSchema*& dyn_schemaToUpdate();
     // public System.Void .ctor(System.Xml.Schema.XmlSchemaRedefine external, System.Xml.Schema.XmlSchema schema)
     // Offset: 0x14A6D58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static RedefineEntry* New_ctor(System::Xml::Schema::XmlSchemaRedefine* external, System::Xml::Schema::XmlSchema* schema) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Schema::RedefineEntry::.ctor");
+    static RedefineEntry* New_ctor(::System::Xml::Schema::XmlSchemaRedefine* external, ::System::Xml::Schema::XmlSchema* schema) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::RedefineEntry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RedefineEntry*, creationType>(external, schema)));
     }
   }; // System.Xml.Schema.RedefineEntry
   #pragma pack(pop)
-  static check_size<sizeof(RedefineEntry), 24 + sizeof(System::Xml::Schema::XmlSchema*)> __System_Xml_Schema_RedefineEntrySizeCheck;
+  static check_size<sizeof(RedefineEntry), 24 + sizeof(::System::Xml::Schema::XmlSchema*)> __System_Xml_Schema_RedefineEntrySizeCheck;
   static_assert(sizeof(RedefineEntry) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

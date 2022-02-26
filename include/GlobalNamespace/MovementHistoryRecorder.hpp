@@ -23,8 +23,8 @@ namespace GlobalNamespace {
   class MovementHistoryRecorder;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MovementHistoryRecorder);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MovementHistoryRecorder*, "", "MovementHistoryRecorder");
+NEED_NO_BOX(::GlobalNamespace::MovementHistoryRecorder);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MovementHistoryRecorder*, "", "MovementHistoryRecorder");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x24
@@ -45,9 +45,9 @@ namespace GlobalNamespace {
     // private AveragingValueRecorder _averagingValueRecorer
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::AveragingValueRecorder* averagingValueRecorer;
+    ::GlobalNamespace::AveragingValueRecorder* averagingValueRecorer;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::AveragingValueRecorder*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::AveragingValueRecorder*) == 0x8);
     // private System.Single _increaseSpeed
     // Size: 0x4
     // Offset: 0x18
@@ -68,7 +68,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: private AveragingValueRecorder _averagingValueRecorer
-    GlobalNamespace::AveragingValueRecorder*& dyn__averagingValueRecorer();
+    ::GlobalNamespace::AveragingValueRecorder*& dyn__averagingValueRecorer();
     // Get instance field reference: private System.Single _increaseSpeed
     float& dyn__increaseSpeed();
     // Get instance field reference: private System.Single _decreaseSpeed
@@ -77,12 +77,12 @@ namespace GlobalNamespace {
     float& dyn__accum();
     // public AveragingValueRecorder get_averagingValueRecorer()
     // Offset: 0x1427A94
-    GlobalNamespace::AveragingValueRecorder* get_averagingValueRecorer();
+    ::GlobalNamespace::AveragingValueRecorder* get_averagingValueRecorer();
     // public System.Void .ctor(System.Single averageWindowDuration, System.Single historyValuesPerSecond, System.Single increaseSpeed, System.Single decreaseSpeed)
     // Offset: 0x1427A9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MovementHistoryRecorder* New_ctor(float averageWindowDuration, float historyValuesPerSecond, float increaseSpeed, float decreaseSpeed) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MovementHistoryRecorder::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MovementHistoryRecorder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MovementHistoryRecorder*, creationType>(averageWindowDuration, historyValuesPerSecond, increaseSpeed, decreaseSpeed)));
     }
     // public System.Void AddMovement(System.Single distance)
@@ -100,7 +100,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::MovementHistoryRecorder::get_averagingValueRecorer
 // Il2CppName: get_averagingValueRecorer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::AveragingValueRecorder* (GlobalNamespace::MovementHistoryRecorder::*)()>(&GlobalNamespace::MovementHistoryRecorder::get_averagingValueRecorer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::AveragingValueRecorder* (GlobalNamespace::MovementHistoryRecorder::*)()>(&GlobalNamespace::MovementHistoryRecorder::get_averagingValueRecorer)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MovementHistoryRecorder*), "get_averagingValueRecorer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

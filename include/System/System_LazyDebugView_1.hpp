@@ -13,7 +13,7 @@ namespace System {
   class System_LazyDebugView_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::System_LazyDebugView_1, "System", "System_LazyDebugView`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::System_LazyDebugView_1, "System", "System_LazyDebugView`1");
 // Type namespace: System
 namespace System {
   // WARNING Size may be invalid!

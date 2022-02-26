@@ -14,8 +14,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Serialization::EnumMap::EnumMapMember);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Serialization::EnumMap::EnumMapMember*, "System.Xml.Serialization", "EnumMap/EnumMapMember");
+NEED_NO_BOX(::System::Xml::Serialization::EnumMap::EnumMapMember);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::EnumMap::EnumMapMember*, "System.Xml.Serialization", "EnumMap/EnumMapMember");
 // Type namespace: System.Xml.Serialization
 namespace System::Xml::Serialization {
   // Size: 0x28
@@ -71,7 +71,7 @@ namespace System::Xml::Serialization {
     // Offset: 0x1948D8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnumMap::EnumMapMember* New_ctor(::StringW xmlName, ::StringW enumName, int64_t value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Serialization::EnumMap::EnumMapMember::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Serialization::EnumMap::EnumMapMember::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnumMap::EnumMapMember*, creationType>(xmlName, enumName, value)));
     }
   }; // System.Xml.Serialization.EnumMap/System.Xml.Serialization.EnumMapMember

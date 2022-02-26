@@ -16,8 +16,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRPlugin::OVRP_1_45_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_45_0*, "", "OVRPlugin/OVRP_1_45_0");
+NEED_NO_BOX(::GlobalNamespace::OVRPlugin::OVRP_1_45_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRPlugin::OVRP_1_45_0*, "", "OVRPlugin/OVRP_1_45_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -27,18 +27,18 @@ namespace GlobalNamespace {
   class OVRPlugin::OVRP_1_45_0 : public ::Il2CppObject {
     public:
     // Get static field: static public readonly System.Version version
-    static System::Version* _get_version();
+    static ::System::Version* _get_version();
     // Set static field: static public readonly System.Version version
-    static void _set_version(System::Version* value);
+    static void _set_version(::System::Version* value);
     // static private System.Void .cctor()
     // Offset: 0x1A74CD8
     static void _cctor();
     // static public OVRPlugin/Result ovrp_GetSystemHmd3DofModeEnabled(ref OVRPlugin/Bool enabled)
     // Offset: 0x1A74C58
-    static GlobalNamespace::OVRPlugin::Result ovrp_GetSystemHmd3DofModeEnabled(ByRef<GlobalNamespace::OVRPlugin::Bool> enabled);
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_GetSystemHmd3DofModeEnabled(ByRef<::GlobalNamespace::OVRPlugin::Bool> enabled);
     // static public OVRPlugin/Result ovrp_Media_SetAvailableQueueIndexVulkan(System.UInt32 queueIndexVk)
     // Offset: 0x1A6EE34
-    static GlobalNamespace::OVRPlugin::Result ovrp_Media_SetAvailableQueueIndexVulkan(uint queueIndexVk);
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_Media_SetAvailableQueueIndexVulkan(uint queueIndexVk);
   }; // OVRPlugin/OVRP_1_45_0
   #pragma pack(pop)
 }
@@ -54,7 +54,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_45_0::ovrp_GetSystemHmd3DofModeEnabled
 // Il2CppName: ovrp_GetSystemHmd3DofModeEnabled
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(ByRef<GlobalNamespace::OVRPlugin::Bool>)>(&GlobalNamespace::OVRPlugin::OVRP_1_45_0::ovrp_GetSystemHmd3DofModeEnabled)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)(ByRef<::GlobalNamespace::OVRPlugin::Bool>)>(&GlobalNamespace::OVRPlugin::OVRP_1_45_0::ovrp_GetSystemHmd3DofModeEnabled)> {
   static const MethodInfo* get() {
     static auto* enabled = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Bool")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_45_0*), "ovrp_GetSystemHmd3DofModeEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enabled});
@@ -63,7 +63,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_45_0::ovrp_Media_SetAvailableQueueIndexVulkan
 // Il2CppName: ovrp_Media_SetAvailableQueueIndexVulkan
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(uint)>(&GlobalNamespace::OVRPlugin::OVRP_1_45_0::ovrp_Media_SetAvailableQueueIndexVulkan)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)(uint)>(&GlobalNamespace::OVRPlugin::OVRP_1_45_0::ovrp_Media_SetAvailableQueueIndexVulkan)> {
   static const MethodInfo* get() {
     static auto* queueIndexVk = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_45_0*), "ovrp_Media_SetAvailableQueueIndexVulkan", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{queueIndexVk});

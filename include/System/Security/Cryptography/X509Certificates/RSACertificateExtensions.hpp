@@ -24,8 +24,8 @@ namespace System::Security::Cryptography::X509Certificates {
   class RSACertificateExtensions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Security::Cryptography::X509Certificates::RSACertificateExtensions);
-DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::RSACertificateExtensions*, "System.Security.Cryptography.X509Certificates", "RSACertificateExtensions");
+NEED_NO_BOX(::System::Security::Cryptography::X509Certificates::RSACertificateExtensions);
+DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::X509Certificates::RSACertificateExtensions*, "System.Security.Cryptography.X509Certificates", "RSACertificateExtensions");
 // Type namespace: System.Security.Cryptography.X509Certificates
 namespace System::Security::Cryptography::X509Certificates {
   // Size: 0x10
@@ -37,7 +37,7 @@ namespace System::Security::Cryptography::X509Certificates {
     public:
     // static public System.Security.Cryptography.RSA GetRSAPublicKey(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
     // Offset: 0x29843E0
-    static System::Security::Cryptography::RSA* GetRSAPublicKey(System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
+    static ::System::Security::Cryptography::RSA* GetRSAPublicKey(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
   }; // System.Security.Cryptography.X509Certificates.RSACertificateExtensions
   #pragma pack(pop)
 }
@@ -45,7 +45,7 @@ namespace System::Security::Cryptography::X509Certificates {
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::RSACertificateExtensions::GetRSAPublicKey
 // Il2CppName: GetRSAPublicKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::RSA* (*)(System::Security::Cryptography::X509Certificates::X509Certificate2*)>(&System::Security::Cryptography::X509Certificates::RSACertificateExtensions::GetRSAPublicKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::RSA* (*)(::System::Security::Cryptography::X509Certificates::X509Certificate2*)>(&System::Security::Cryptography::X509Certificates::RSACertificateExtensions::GetRSAPublicKey)> {
   static const MethodInfo* get() {
     static auto* certificate = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509Certificate2")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::RSACertificateExtensions*), "GetRSAPublicKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{certificate});

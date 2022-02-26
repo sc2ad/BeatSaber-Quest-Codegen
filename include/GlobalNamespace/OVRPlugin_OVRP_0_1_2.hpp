@@ -16,8 +16,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRPlugin::OVRP_0_1_2);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_0_1_2*, "", "OVRPlugin/OVRP_0_1_2");
+NEED_NO_BOX(::GlobalNamespace::OVRPlugin::OVRP_0_1_2);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRPlugin::OVRP_0_1_2*, "", "OVRPlugin/OVRP_0_1_2");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -27,18 +27,18 @@ namespace GlobalNamespace {
   class OVRPlugin::OVRP_0_1_2 : public ::Il2CppObject {
     public:
     // Get static field: static public readonly System.Version version
-    static System::Version* _get_version();
+    static ::System::Version* _get_version();
     // Set static field: static public readonly System.Version version
-    static void _set_version(System::Version* value);
+    static void _set_version(::System::Version* value);
     // static private System.Void .cctor()
     // Offset: 0x1A6F4A4
     static void _cctor();
     // static public OVRPlugin/Posef ovrp_GetNodePose(OVRPlugin/Node nodeId)
     // Offset: 0x1A6F37C
-    static GlobalNamespace::OVRPlugin::Posef ovrp_GetNodePose(GlobalNamespace::OVRPlugin::Node nodeId);
+    static ::GlobalNamespace::OVRPlugin::Posef ovrp_GetNodePose(::GlobalNamespace::OVRPlugin::Node nodeId);
     // static public OVRPlugin/Bool ovrp_SetControllerVibration(System.UInt32 controllerMask, System.Single frequency, System.Single amplitude)
     // Offset: 0x1A6F40C
-    static GlobalNamespace::OVRPlugin::Bool ovrp_SetControllerVibration(uint controllerMask, float frequency, float amplitude);
+    static ::GlobalNamespace::OVRPlugin::Bool ovrp_SetControllerVibration(uint controllerMask, float frequency, float amplitude);
   }; // OVRPlugin/OVRP_0_1_2
   #pragma pack(pop)
 }
@@ -54,7 +54,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_0_1_2::ovrp_GetNodePose
 // Il2CppName: ovrp_GetNodePose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Posef (*)(GlobalNamespace::OVRPlugin::Node)>(&GlobalNamespace::OVRPlugin::OVRP_0_1_2::ovrp_GetNodePose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Posef (*)(::GlobalNamespace::OVRPlugin::Node)>(&GlobalNamespace::OVRPlugin::OVRP_0_1_2::ovrp_GetNodePose)> {
   static const MethodInfo* get() {
     static auto* nodeId = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Node")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_0_1_2*), "ovrp_GetNodePose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeId});
@@ -63,7 +63,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_0_1_2::ovrp_SetControllerVibration
 // Il2CppName: ovrp_SetControllerVibration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(uint, float, float)>(&GlobalNamespace::OVRPlugin::OVRP_0_1_2::ovrp_SetControllerVibration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Bool (*)(uint, float, float)>(&GlobalNamespace::OVRPlugin::OVRP_0_1_2::ovrp_SetControllerVibration)> {
   static const MethodInfo* get() {
     static auto* controllerMask = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* frequency = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

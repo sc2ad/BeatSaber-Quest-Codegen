@@ -66,8 +66,8 @@ namespace System::Runtime::Remoting::Messaging {
   class MethodResponse;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Remoting::Messaging::MethodResponse);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::MethodResponse*, "System.Runtime.Remoting.Messaging", "MethodResponse");
+NEED_NO_BOX(::System::Runtime::Remoting::Messaging::MethodResponse);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Messaging::MethodResponse*, "System.Runtime.Remoting.Messaging", "MethodResponse");
 // Type namespace: System.Runtime.Remoting.Messaging
 namespace System::Runtime::Remoting::Messaging {
   // Size: 0x88
@@ -76,7 +76,7 @@ namespace System::Runtime::Remoting::Messaging {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: 118B01C
   // [CLSCompliantAttribute] Offset: 118B01C
-  class MethodResponse : public ::Il2CppObject/*, public System::Runtime::Serialization::ISerializable, public System::Runtime::Remoting::Messaging::IMethodReturnMessage, public System::Runtime::Remoting::Messaging::IInternalMessage*/ {
+  class MethodResponse : public ::Il2CppObject/*, public ::System::Runtime::Serialization::ISerializable, public ::System::Runtime::Remoting::Messaging::IMethodReturnMessage, public ::System::Runtime::Remoting::Messaging::IInternalMessage*/ {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -108,9 +108,9 @@ namespace System::Runtime::Remoting::Messaging {
     // private System.Reflection.MethodBase _methodBase
     // Size: 0x8
     // Offset: 0x28
-    System::Reflection::MethodBase* methodBase;
+    ::System::Reflection::MethodBase* methodBase;
     // Field size check
-    static_assert(sizeof(System::Reflection::MethodBase*) == 0x8);
+    static_assert(sizeof(::System::Reflection::MethodBase*) == 0x8);
     // private System.Object _returnValue
     // Size: 0x8
     // Offset: 0x30
@@ -120,21 +120,21 @@ namespace System::Runtime::Remoting::Messaging {
     // private System.Exception _exception
     // Size: 0x8
     // Offset: 0x38
-    System::Exception* exception;
+    ::System::Exception* exception;
     // Field size check
-    static_assert(sizeof(System::Exception*) == 0x8);
+    static_assert(sizeof(::System::Exception*) == 0x8);
     // private System.Type[] _methodSignature
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayW<System::Type*> methodSignature;
+    ::ArrayW<::System::Type*> methodSignature;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::Type*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::System::Type*>) == 0x8);
     // private System.Runtime.Remoting.Messaging.ArgInfo _inArgInfo
     // Size: 0x8
     // Offset: 0x48
-    System::Runtime::Remoting::Messaging::ArgInfo* inArgInfo;
+    ::System::Runtime::Remoting::Messaging::ArgInfo* inArgInfo;
     // Field size check
-    static_assert(sizeof(System::Runtime::Remoting::Messaging::ArgInfo*) == 0x8);
+    static_assert(sizeof(::System::Runtime::Remoting::Messaging::ArgInfo*) == 0x8);
     // private System.Object[] _args
     // Size: 0x8
     // Offset: 0x50
@@ -150,45 +150,45 @@ namespace System::Runtime::Remoting::Messaging {
     // private System.Runtime.Remoting.Messaging.IMethodCallMessage _callMsg
     // Size: 0x8
     // Offset: 0x60
-    System::Runtime::Remoting::Messaging::IMethodCallMessage* callMsg;
+    ::System::Runtime::Remoting::Messaging::IMethodCallMessage* callMsg;
     // Field size check
-    static_assert(sizeof(System::Runtime::Remoting::Messaging::IMethodCallMessage*) == 0x8);
+    static_assert(sizeof(::System::Runtime::Remoting::Messaging::IMethodCallMessage*) == 0x8);
     // private System.Runtime.Remoting.Messaging.LogicalCallContext _callContext
     // Size: 0x8
     // Offset: 0x68
-    System::Runtime::Remoting::Messaging::LogicalCallContext* callContext;
+    ::System::Runtime::Remoting::Messaging::LogicalCallContext* callContext;
     // Field size check
-    static_assert(sizeof(System::Runtime::Remoting::Messaging::LogicalCallContext*) == 0x8);
+    static_assert(sizeof(::System::Runtime::Remoting::Messaging::LogicalCallContext*) == 0x8);
     // private System.Runtime.Remoting.Identity _targetIdentity
     // Size: 0x8
     // Offset: 0x70
-    System::Runtime::Remoting::Identity* targetIdentity;
+    ::System::Runtime::Remoting::Identity* targetIdentity;
     // Field size check
-    static_assert(sizeof(System::Runtime::Remoting::Identity*) == 0x8);
+    static_assert(sizeof(::System::Runtime::Remoting::Identity*) == 0x8);
     // protected System.Collections.IDictionary ExternalProperties
     // Size: 0x8
     // Offset: 0x78
-    System::Collections::IDictionary* ExternalProperties;
+    ::System::Collections::IDictionary* ExternalProperties;
     // Field size check
-    static_assert(sizeof(System::Collections::IDictionary*) == 0x8);
+    static_assert(sizeof(::System::Collections::IDictionary*) == 0x8);
     // protected System.Collections.IDictionary InternalProperties
     // Size: 0x8
     // Offset: 0x80
-    System::Collections::IDictionary* InternalProperties;
+    ::System::Collections::IDictionary* InternalProperties;
     // Field size check
-    static_assert(sizeof(System::Collections::IDictionary*) == 0x8);
+    static_assert(sizeof(::System::Collections::IDictionary*) == 0x8);
     public:
-    // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
-    operator System::Runtime::Serialization::ISerializable() noexcept {
-      return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);
+    // Creating interface conversion operator: operator ::System::Runtime::Serialization::ISerializable
+    operator ::System::Runtime::Serialization::ISerializable() noexcept {
+      return *reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
     }
-    // Creating interface conversion operator: operator System::Runtime::Remoting::Messaging::IMethodReturnMessage
-    operator System::Runtime::Remoting::Messaging::IMethodReturnMessage() noexcept {
-      return *reinterpret_cast<System::Runtime::Remoting::Messaging::IMethodReturnMessage*>(this);
+    // Creating interface conversion operator: operator ::System::Runtime::Remoting::Messaging::IMethodReturnMessage
+    operator ::System::Runtime::Remoting::Messaging::IMethodReturnMessage() noexcept {
+      return *reinterpret_cast<::System::Runtime::Remoting::Messaging::IMethodReturnMessage*>(this);
     }
-    // Creating interface conversion operator: operator System::Runtime::Remoting::Messaging::IInternalMessage
-    operator System::Runtime::Remoting::Messaging::IInternalMessage() noexcept {
-      return *reinterpret_cast<System::Runtime::Remoting::Messaging::IInternalMessage*>(this);
+    // Creating interface conversion operator: operator ::System::Runtime::Remoting::Messaging::IInternalMessage
+    operator ::System::Runtime::Remoting::Messaging::IInternalMessage() noexcept {
+      return *reinterpret_cast<::System::Runtime::Remoting::Messaging::IInternalMessage*>(this);
     }
     // Get instance field reference: private System.String _methodName
     ::StringW& dyn__methodName();
@@ -197,29 +197,29 @@ namespace System::Runtime::Remoting::Messaging {
     // Get instance field reference: private System.String _typeName
     ::StringW& dyn__typeName();
     // Get instance field reference: private System.Reflection.MethodBase _methodBase
-    System::Reflection::MethodBase*& dyn__methodBase();
+    ::System::Reflection::MethodBase*& dyn__methodBase();
     // Get instance field reference: private System.Object _returnValue
     ::Il2CppObject*& dyn__returnValue();
     // Get instance field reference: private System.Exception _exception
-    System::Exception*& dyn__exception();
+    ::System::Exception*& dyn__exception();
     // Get instance field reference: private System.Type[] _methodSignature
-    ::ArrayW<System::Type*>& dyn__methodSignature();
+    ::ArrayW<::System::Type*>& dyn__methodSignature();
     // Get instance field reference: private System.Runtime.Remoting.Messaging.ArgInfo _inArgInfo
-    System::Runtime::Remoting::Messaging::ArgInfo*& dyn__inArgInfo();
+    ::System::Runtime::Remoting::Messaging::ArgInfo*& dyn__inArgInfo();
     // Get instance field reference: private System.Object[] _args
     ::ArrayW<::Il2CppObject*>& dyn__args();
     // Get instance field reference: private System.Object[] _outArgs
     ::ArrayW<::Il2CppObject*>& dyn__outArgs();
     // Get instance field reference: private System.Runtime.Remoting.Messaging.IMethodCallMessage _callMsg
-    System::Runtime::Remoting::Messaging::IMethodCallMessage*& dyn__callMsg();
+    ::System::Runtime::Remoting::Messaging::IMethodCallMessage*& dyn__callMsg();
     // Get instance field reference: private System.Runtime.Remoting.Messaging.LogicalCallContext _callContext
-    System::Runtime::Remoting::Messaging::LogicalCallContext*& dyn__callContext();
+    ::System::Runtime::Remoting::Messaging::LogicalCallContext*& dyn__callContext();
     // Get instance field reference: private System.Runtime.Remoting.Identity _targetIdentity
-    System::Runtime::Remoting::Identity*& dyn__targetIdentity();
+    ::System::Runtime::Remoting::Identity*& dyn__targetIdentity();
     // Get instance field reference: protected System.Collections.IDictionary ExternalProperties
-    System::Collections::IDictionary*& dyn_ExternalProperties();
+    ::System::Collections::IDictionary*& dyn_ExternalProperties();
     // Get instance field reference: protected System.Collections.IDictionary InternalProperties
-    System::Collections::IDictionary*& dyn_InternalProperties();
+    ::System::Collections::IDictionary*& dyn_InternalProperties();
     // public System.Int32 get_ArgCount()
     // Offset: 0x1B8F540
     int get_ArgCount();
@@ -228,13 +228,13 @@ namespace System::Runtime::Remoting::Messaging {
     ::ArrayW<::Il2CppObject*> get_Args();
     // public System.Exception get_Exception()
     // Offset: 0x1B8F560
-    System::Exception* get_Exception();
+    ::System::Exception* get_Exception();
     // public System.Runtime.Remoting.Messaging.LogicalCallContext get_LogicalCallContext()
     // Offset: 0x1B8F568
-    System::Runtime::Remoting::Messaging::LogicalCallContext* get_LogicalCallContext();
+    ::System::Runtime::Remoting::Messaging::LogicalCallContext* get_LogicalCallContext();
     // public System.Reflection.MethodBase get_MethodBase()
     // Offset: 0x1B8F5D4
-    System::Reflection::MethodBase* get_MethodBase();
+    ::System::Reflection::MethodBase* get_MethodBase();
     // public System.String get_MethodName()
     // Offset: 0x1B8F6EC
     ::StringW get_MethodName();
@@ -246,7 +246,7 @@ namespace System::Runtime::Remoting::Messaging {
     ::ArrayW<::Il2CppObject*> get_OutArgs();
     // public System.Collections.IDictionary get_Properties()
     // Offset: 0x1B8ACC8
-    System::Collections::IDictionary* get_Properties();
+    ::System::Collections::IDictionary* get_Properties();
     // public System.Object get_ReturnValue()
     // Offset: 0x1B8FB54
     ::Il2CppObject* get_ReturnValue();
@@ -267,36 +267,36 @@ namespace System::Runtime::Remoting::Messaging {
     void System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri(::StringW value);
     // private System.Runtime.Remoting.Identity System.Runtime.Remoting.Messaging.IInternalMessage.get_TargetIdentity()
     // Offset: 0x1B90028
-    System::Runtime::Remoting::Identity* System_Runtime_Remoting_Messaging_IInternalMessage_get_TargetIdentity();
+    ::System::Runtime::Remoting::Identity* System_Runtime_Remoting_Messaging_IInternalMessage_get_TargetIdentity();
     // private System.Void System.Runtime.Remoting.Messaging.IInternalMessage.set_TargetIdentity(System.Runtime.Remoting.Identity value)
     // Offset: 0x1B90030
-    void System_Runtime_Remoting_Messaging_IInternalMessage_set_TargetIdentity(System::Runtime::Remoting::Identity* value);
+    void System_Runtime_Remoting_Messaging_IInternalMessage_set_TargetIdentity(::System::Runtime::Remoting::Identity* value);
     // System.Void .ctor(System.Exception e, System.Runtime.Remoting.Messaging.IMethodCallMessage msg)
     // Offset: 0x1B79CF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MethodResponse* New_ctor(System::Exception* e, System::Runtime::Remoting::Messaging::IMethodCallMessage* msg) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::MethodResponse::.ctor");
+    static MethodResponse* New_ctor(::System::Exception* e, ::System::Runtime::Remoting::Messaging::IMethodCallMessage* msg) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::Messaging::MethodResponse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MethodResponse*, creationType>(e, msg)));
     }
     // System.Void .ctor(System.Object returnValue, System.Object[] outArgs, System.Runtime.Remoting.Messaging.LogicalCallContext callCtx, System.Runtime.Remoting.Messaging.IMethodCallMessage msg)
     // Offset: 0x1B8AB54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MethodResponse* New_ctor(::Il2CppObject* returnValue, ::ArrayW<::Il2CppObject*> outArgs, System::Runtime::Remoting::Messaging::LogicalCallContext* callCtx, System::Runtime::Remoting::Messaging::IMethodCallMessage* msg) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::MethodResponse::.ctor");
+    static MethodResponse* New_ctor(::Il2CppObject* returnValue, ::ArrayW<::Il2CppObject*> outArgs, ::System::Runtime::Remoting::Messaging::LogicalCallContext* callCtx, ::System::Runtime::Remoting::Messaging::IMethodCallMessage* msg) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::Messaging::MethodResponse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MethodResponse*, creationType>(returnValue, outArgs, callCtx, msg)));
     }
     // System.Void .ctor(System.Runtime.Remoting.Messaging.IMethodCallMessage msg, System.Runtime.Remoting.Messaging.CADMethodReturnMessage retmsg)
     // Offset: 0x1B7AC9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MethodResponse* New_ctor(System::Runtime::Remoting::Messaging::IMethodCallMessage* msg, System::Runtime::Remoting::Messaging::CADMethodReturnMessage* retmsg) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::MethodResponse::.ctor");
+    static MethodResponse* New_ctor(::System::Runtime::Remoting::Messaging::IMethodCallMessage* msg, ::System::Runtime::Remoting::Messaging::CADMethodReturnMessage* retmsg) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::Messaging::MethodResponse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MethodResponse*, creationType>(msg, retmsg)));
     }
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x1B8AC48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MethodResponse* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::MethodResponse::.ctor");
+    static MethodResponse* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::Messaging::MethodResponse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MethodResponse*, creationType>(info, context)));
     }
     // System.Void InitMethodProperty(System.String key, System.Object value)
@@ -307,10 +307,10 @@ namespace System::Runtime::Remoting::Messaging {
     ::Il2CppObject* GetArg(int argNum);
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x1B8FC74
-    void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
+    void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
   }; // System.Runtime.Remoting.Messaging.MethodResponse
   #pragma pack(pop)
-  static check_size<sizeof(MethodResponse), 128 + sizeof(System::Collections::IDictionary*)> __System_Runtime_Remoting_Messaging_MethodResponseSizeCheck;
+  static check_size<sizeof(MethodResponse), 128 + sizeof(::System::Collections::IDictionary*)> __System_Runtime_Remoting_Messaging_MethodResponseSizeCheck;
   static_assert(sizeof(MethodResponse) == 0x88);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -333,7 +333,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MethodResponse::get_Exception
 // Il2CppName: get_Exception
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (System::Runtime::Remoting::Messaging::MethodResponse::*)()>(&System::Runtime::Remoting::Messaging::MethodResponse::get_Exception)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (System::Runtime::Remoting::Messaging::MethodResponse::*)()>(&System::Runtime::Remoting::Messaging::MethodResponse::get_Exception)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::MethodResponse*), "get_Exception", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -341,7 +341,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MethodResponse::get_LogicalCallContext
 // Il2CppName: get_LogicalCallContext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::LogicalCallContext* (System::Runtime::Remoting::Messaging::MethodResponse::*)()>(&System::Runtime::Remoting::Messaging::MethodResponse::get_LogicalCallContext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::LogicalCallContext* (System::Runtime::Remoting::Messaging::MethodResponse::*)()>(&System::Runtime::Remoting::Messaging::MethodResponse::get_LogicalCallContext)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::MethodResponse*), "get_LogicalCallContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -349,7 +349,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MethodResponse::get_MethodBase
 // Il2CppName: get_MethodBase
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodBase* (System::Runtime::Remoting::Messaging::MethodResponse::*)()>(&System::Runtime::Remoting::Messaging::MethodResponse::get_MethodBase)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodBase* (System::Runtime::Remoting::Messaging::MethodResponse::*)()>(&System::Runtime::Remoting::Messaging::MethodResponse::get_MethodBase)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::MethodResponse*), "get_MethodBase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -381,7 +381,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MethodResponse::get_Properties
 // Il2CppName: get_Properties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IDictionary* (System::Runtime::Remoting::Messaging::MethodResponse::*)()>(&System::Runtime::Remoting::Messaging::MethodResponse::get_Properties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IDictionary* (System::Runtime::Remoting::Messaging::MethodResponse::*)()>(&System::Runtime::Remoting::Messaging::MethodResponse::get_Properties)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::MethodResponse*), "get_Properties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -439,7 +439,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MethodResponse::System_Runtime_Remoting_Messaging_IInternalMessage_get_TargetIdentity
 // Il2CppName: System.Runtime.Remoting.Messaging.IInternalMessage.get_TargetIdentity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Identity* (System::Runtime::Remoting::Messaging::MethodResponse::*)()>(&System::Runtime::Remoting::Messaging::MethodResponse::System_Runtime_Remoting_Messaging_IInternalMessage_get_TargetIdentity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Identity* (System::Runtime::Remoting::Messaging::MethodResponse::*)()>(&System::Runtime::Remoting::Messaging::MethodResponse::System_Runtime_Remoting_Messaging_IInternalMessage_get_TargetIdentity)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::MethodResponse*), "System.Runtime.Remoting.Messaging.IInternalMessage.get_TargetIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -447,7 +447,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MethodResponse::System_Runtime_Remoting_Messaging_IInternalMessage_set_TargetIdentity
 // Il2CppName: System.Runtime.Remoting.Messaging.IInternalMessage.set_TargetIdentity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::MethodResponse::*)(System::Runtime::Remoting::Identity*)>(&System::Runtime::Remoting::Messaging::MethodResponse::System_Runtime_Remoting_Messaging_IInternalMessage_set_TargetIdentity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::MethodResponse::*)(::System::Runtime::Remoting::Identity*)>(&System::Runtime::Remoting::Messaging::MethodResponse::System_Runtime_Remoting_Messaging_IInternalMessage_set_TargetIdentity)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting", "Identity")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::MethodResponse*), "System.Runtime.Remoting.Messaging.IInternalMessage.set_TargetIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -491,7 +491,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MethodResponse::GetObjectData
 // Il2CppName: GetObjectData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::MethodResponse::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::Runtime::Remoting::Messaging::MethodResponse::GetObjectData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::MethodResponse::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&System::Runtime::Remoting::Messaging::MethodResponse::GetObjectData)> {
   static const MethodInfo* get() {
     static auto* info = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;

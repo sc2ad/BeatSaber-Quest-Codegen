@@ -26,8 +26,8 @@ namespace UnityEngine::Timeline {
   class ICurvesOwner;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Timeline::ICurvesOwner);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ICurvesOwner*, "UnityEngine.Timeline", "ICurvesOwner");
+NEED_NO_BOX(::UnityEngine::Timeline::ICurvesOwner);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::ICurvesOwner*, "UnityEngine.Timeline", "ICurvesOwner");
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
   // Size: 0x10
@@ -38,7 +38,7 @@ namespace UnityEngine::Timeline {
     public:
     // public UnityEngine.AnimationClip get_curves()
     // Offset: 0xFFFFFFFF
-    UnityEngine::AnimationClip* get_curves();
+    ::UnityEngine::AnimationClip* get_curves();
     // public System.Boolean get_hasCurves()
     // Offset: 0xFFFFFFFF
     bool get_hasCurves();
@@ -50,13 +50,13 @@ namespace UnityEngine::Timeline {
     ::StringW get_defaultCurvesName();
     // public UnityEngine.Object get_asset()
     // Offset: 0xFFFFFFFF
-    UnityEngine::Object* get_asset();
+    ::UnityEngine::Object* get_asset();
     // public UnityEngine.Object get_assetOwner()
     // Offset: 0xFFFFFFFF
-    UnityEngine::Object* get_assetOwner();
+    ::UnityEngine::Object* get_assetOwner();
     // public UnityEngine.Timeline.TrackAsset get_targetTrack()
     // Offset: 0xFFFFFFFF
-    UnityEngine::Timeline::TrackAsset* get_targetTrack();
+    ::UnityEngine::Timeline::TrackAsset* get_targetTrack();
     // public System.Void CreateCurves(System.String curvesClipName)
     // Offset: 0xFFFFFFFF
     void CreateCurves(::StringW curvesClipName);
@@ -67,7 +67,7 @@ namespace UnityEngine::Timeline {
 // Writing MetadataGetter for method: UnityEngine::Timeline::ICurvesOwner::get_curves
 // Il2CppName: get_curves
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimationClip* (UnityEngine::Timeline::ICurvesOwner::*)()>(&UnityEngine::Timeline::ICurvesOwner::get_curves)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AnimationClip* (UnityEngine::Timeline::ICurvesOwner::*)()>(&UnityEngine::Timeline::ICurvesOwner::get_curves)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ICurvesOwner*), "get_curves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -99,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: UnityEngine::Timeline::ICurvesOwner::get_asset
 // Il2CppName: get_asset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (UnityEngine::Timeline::ICurvesOwner::*)()>(&UnityEngine::Timeline::ICurvesOwner::get_asset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Object* (UnityEngine::Timeline::ICurvesOwner::*)()>(&UnityEngine::Timeline::ICurvesOwner::get_asset)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ICurvesOwner*), "get_asset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -107,7 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Timeline::ICurvesOwner::get_assetOwner
 // Il2CppName: get_assetOwner
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (UnityEngine::Timeline::ICurvesOwner::*)()>(&UnityEngine::Timeline::ICurvesOwner::get_assetOwner)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Object* (UnityEngine::Timeline::ICurvesOwner::*)()>(&UnityEngine::Timeline::ICurvesOwner::get_assetOwner)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ICurvesOwner*), "get_assetOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -115,7 +115,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Timeline::ICurvesOwner::get_targetTrack
 // Il2CppName: get_targetTrack
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TrackAsset* (UnityEngine::Timeline::ICurvesOwner::*)()>(&UnityEngine::Timeline::ICurvesOwner::get_targetTrack)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Timeline::TrackAsset* (UnityEngine::Timeline::ICurvesOwner::*)()>(&UnityEngine::Timeline::ICurvesOwner::get_targetTrack)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ICurvesOwner*), "get_targetTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

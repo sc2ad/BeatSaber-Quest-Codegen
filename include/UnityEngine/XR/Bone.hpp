@@ -19,7 +19,7 @@ namespace UnityEngine::XR {
   struct Bone;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::Bone, "UnityEngine.XR", "Bone");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::Bone, "UnityEngine.XR", "Bone");
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {
   // Size: 0xC
@@ -33,7 +33,7 @@ namespace UnityEngine::XR {
   // [StaticAccessorAttribute] Offset: 11CE218
   // [NativeHeaderAttribute] Offset: 11CE218
   // [NativeHeaderAttribute] Offset: 11CE218
-  struct Bone/*, public System::ValueType, public System::IEquatable_1<UnityEngine::XR::Bone>*/ {
+  struct Bone/*, public ::System::ValueType, public ::System::IEquatable_1<::UnityEngine::XR::Bone>*/ {
     public:
     public:
     // private System.UInt64 m_DeviceId
@@ -51,13 +51,13 @@ namespace UnityEngine::XR {
     public:
     // Creating value type constructor for type: Bone
     constexpr Bone(uint64_t m_DeviceId_ = {}, uint m_FeatureIndex_ = {}) noexcept : m_DeviceId{m_DeviceId_}, m_FeatureIndex{m_FeatureIndex_} {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
-    // Creating interface conversion operator: operator System::IEquatable_1<UnityEngine::XR::Bone>
-    operator System::IEquatable_1<UnityEngine::XR::Bone>() noexcept {
-      return *reinterpret_cast<System::IEquatable_1<UnityEngine::XR::Bone>*>(this);
+    // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::XR::Bone>
+    operator ::System::IEquatable_1<::UnityEngine::XR::Bone>() noexcept {
+      return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::XR::Bone>*>(this);
     }
     // Get instance field reference: private System.UInt64 m_DeviceId
     uint64_t& dyn_m_DeviceId();
@@ -71,7 +71,7 @@ namespace UnityEngine::XR {
     uint get_featureIndex();
     // public System.Boolean Equals(UnityEngine.XR.Bone other)
     // Offset: 0x2A48788
-    bool Equals(UnityEngine::XR::Bone other);
+    bool Equals(::UnityEngine::XR::Bone other);
     // public override System.Boolean Equals(System.Object obj)
     // Offset: 0x2A486F0
     // Implemented from: System.ValueType
@@ -107,7 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Unity
 // Writing MetadataGetter for method: UnityEngine::XR::Bone::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::XR::Bone::*)(UnityEngine::XR::Bone)>(&UnityEngine::XR::Bone::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::XR::Bone::*)(::UnityEngine::XR::Bone)>(&UnityEngine::XR::Bone::Equals)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("UnityEngine.XR", "Bone")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::Bone), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});

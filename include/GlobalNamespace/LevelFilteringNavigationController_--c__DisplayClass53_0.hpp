@@ -21,8 +21,8 @@ namespace GlobalNamespace {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::LevelFilteringNavigationController::$$c__DisplayClass53_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelFilteringNavigationController::$$c__DisplayClass53_0*, "", "LevelFilteringNavigationController/<>c__DisplayClass53_0");
+NEED_NO_BOX(::GlobalNamespace::LevelFilteringNavigationController::$$c__DisplayClass53_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LevelFilteringNavigationController::$$c__DisplayClass53_0*, "", "LevelFilteringNavigationController/<>c__DisplayClass53_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -44,16 +44,16 @@ namespace GlobalNamespace {
     // public IBeatmapLevelPack levelPack
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::IBeatmapLevelPack* levelPack;
+    ::GlobalNamespace::IBeatmapLevelPack* levelPack;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::IBeatmapLevelPack*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::IBeatmapLevelPack*) == 0x8);
     public:
-    // Creating conversion operator: operator GlobalNamespace::IBeatmapLevelPack*
-    constexpr operator GlobalNamespace::IBeatmapLevelPack*() const noexcept {
+    // Creating conversion operator: operator ::GlobalNamespace::IBeatmapLevelPack*
+    constexpr operator ::GlobalNamespace::IBeatmapLevelPack*() const noexcept {
       return levelPack;
     }
     // Get instance field reference: public IBeatmapLevelPack levelPack
-    GlobalNamespace::IBeatmapLevelPack*& dyn_levelPack();
+    ::GlobalNamespace::IBeatmapLevelPack*& dyn_levelPack();
     // System.Boolean <SelectAnnotatedBeatmapLevelCollection>b__1(System.String packID)
     // Offset: 0x1474788
     bool $SelectAnnotatedBeatmapLevelCollection$b__1(::StringW packID);
@@ -63,12 +63,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelFilteringNavigationController::$$c__DisplayClass53_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LevelFilteringNavigationController::$$c__DisplayClass53_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LevelFilteringNavigationController::$$c__DisplayClass53_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelFilteringNavigationController::$$c__DisplayClass53_0*, creationType>()));
     }
   }; // LevelFilteringNavigationController/<>c__DisplayClass53_0
   #pragma pack(pop)
-  static check_size<sizeof(LevelFilteringNavigationController::$$c__DisplayClass53_0), 16 + sizeof(GlobalNamespace::IBeatmapLevelPack*)> __GlobalNamespace_LevelFilteringNavigationController_$$c__DisplayClass53_0SizeCheck;
+  static check_size<sizeof(LevelFilteringNavigationController::$$c__DisplayClass53_0), 16 + sizeof(::GlobalNamespace::IBeatmapLevelPack*)> __GlobalNamespace_LevelFilteringNavigationController_$$c__DisplayClass53_0SizeCheck;
   static_assert(sizeof(LevelFilteringNavigationController::$$c__DisplayClass53_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

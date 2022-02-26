@@ -21,8 +21,8 @@ namespace System::Net {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(LiteNetLib::NatPunchModule::NatIntroduceRequestPacket);
-DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NatPunchModule::NatIntroduceRequestPacket*, "LiteNetLib", "NatPunchModule/NatIntroduceRequestPacket");
+NEED_NO_BOX(::LiteNetLib::NatPunchModule::NatIntroduceRequestPacket);
+DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::NatPunchModule::NatIntroduceRequestPacket*, "LiteNetLib", "NatPunchModule/NatIntroduceRequestPacket");
 // Type namespace: LiteNetLib
 namespace LiteNetLib {
   // Size: 0x20
@@ -43,9 +43,9 @@ namespace LiteNetLib {
     // private System.Net.IPEndPoint <Internal>k__BackingField
     // Size: 0x8
     // Offset: 0x10
-    System::Net::IPEndPoint* Internal;
+    ::System::Net::IPEndPoint* Internal;
     // Field size check
-    static_assert(sizeof(System::Net::IPEndPoint*) == 0x8);
+    static_assert(sizeof(::System::Net::IPEndPoint*) == 0x8);
     // private System.String <Token>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -54,15 +54,15 @@ namespace LiteNetLib {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.Net.IPEndPoint <Internal>k__BackingField
-    System::Net::IPEndPoint*& dyn_$Internal$k__BackingField();
+    ::System::Net::IPEndPoint*& dyn_$Internal$k__BackingField();
     // Get instance field reference: private System.String <Token>k__BackingField
     ::StringW& dyn_$Token$k__BackingField();
     // public System.Net.IPEndPoint get_Internal()
     // Offset: 0x20DFE28
-    System::Net::IPEndPoint* get_Internal();
+    ::System::Net::IPEndPoint* get_Internal();
     // public System.Void set_Internal(System.Net.IPEndPoint value)
     // Offset: 0x20DFE30
-    void set_Internal(System::Net::IPEndPoint* value);
+    void set_Internal(::System::Net::IPEndPoint* value);
     // public System.String get_Token()
     // Offset: 0x20DFE38
     ::StringW get_Token();
@@ -75,7 +75,7 @@ namespace LiteNetLib {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NatPunchModule::NatIntroduceRequestPacket* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NatPunchModule::NatIntroduceRequestPacket*, creationType>()));
     }
   }; // LiteNetLib.NatPunchModule/LiteNetLib.NatIntroduceRequestPacket
@@ -87,7 +87,7 @@ namespace LiteNetLib {
 // Writing MetadataGetter for method: LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::get_Internal
 // Il2CppName: get_Internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPEndPoint* (LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::*)()>(&LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::get_Internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::IPEndPoint* (LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::*)()>(&LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::get_Internal)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NatPunchModule::NatIntroduceRequestPacket*), "get_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -95,7 +95,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Writing MetadataGetter for method: LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::set_Internal
 // Il2CppName: set_Internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::*)(System::Net::IPEndPoint*)>(&LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::set_Internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::*)(::System::Net::IPEndPoint*)>(&LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::set_Internal)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NatPunchModule::NatIntroduceRequestPacket*), "set_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

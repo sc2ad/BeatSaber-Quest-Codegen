@@ -12,8 +12,8 @@ namespace System::Reflection::Emit {
   class ILGenerator;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Reflection::Emit::ILGenerator);
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Emit::ILGenerator*, "System.Reflection.Emit", "ILGenerator");
+NEED_NO_BOX(::System::Reflection::Emit::ILGenerator);
+DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::Emit::ILGenerator*, "System.Reflection.Emit", "ILGenerator");
 // Type namespace: System.Reflection.Emit
 namespace System::Reflection::Emit {
   // Size: 0x10

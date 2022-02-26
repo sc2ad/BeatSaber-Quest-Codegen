@@ -22,8 +22,8 @@ namespace UnityEngine::TextCore {
   class Glyph;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::TextCore::Glyph);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::Glyph*, "UnityEngine.TextCore", "Glyph");
+NEED_NO_BOX(::UnityEngine::TextCore::Glyph);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Glyph*, "UnityEngine.TextCore", "Glyph");
 // Type namespace: UnityEngine.TextCore
 namespace UnityEngine::TextCore {
   // Size: 0x40
@@ -54,16 +54,16 @@ namespace UnityEngine::TextCore {
     // private UnityEngine.TextCore.GlyphMetrics m_Metrics
     // Size: 0x14
     // Offset: 0x14
-    UnityEngine::TextCore::GlyphMetrics m_Metrics;
+    ::UnityEngine::TextCore::GlyphMetrics m_Metrics;
     // Field size check
-    static_assert(sizeof(UnityEngine::TextCore::GlyphMetrics) == 0x14);
+    static_assert(sizeof(::UnityEngine::TextCore::GlyphMetrics) == 0x14);
     // [NativeNameAttribute] Offset: 0x11DEAA8
     // private UnityEngine.TextCore.GlyphRect m_GlyphRect
     // Size: 0x10
     // Offset: 0x28
-    UnityEngine::TextCore::GlyphRect m_GlyphRect;
+    ::UnityEngine::TextCore::GlyphRect m_GlyphRect;
     // Field size check
-    static_assert(sizeof(UnityEngine::TextCore::GlyphRect) == 0x10);
+    static_assert(sizeof(::UnityEngine::TextCore::GlyphRect) == 0x10);
     // [NativeNameAttribute] Offset: 0x11DEAF4
     // private System.Single m_Scale
     // Size: 0x4
@@ -82,9 +82,9 @@ namespace UnityEngine::TextCore {
     // Get instance field reference: private System.UInt32 m_Index
     uint& dyn_m_Index();
     // Get instance field reference: private UnityEngine.TextCore.GlyphMetrics m_Metrics
-    UnityEngine::TextCore::GlyphMetrics& dyn_m_Metrics();
+    ::UnityEngine::TextCore::GlyphMetrics& dyn_m_Metrics();
     // Get instance field reference: private UnityEngine.TextCore.GlyphRect m_GlyphRect
-    UnityEngine::TextCore::GlyphRect& dyn_m_GlyphRect();
+    ::UnityEngine::TextCore::GlyphRect& dyn_m_GlyphRect();
     // Get instance field reference: private System.Single m_Scale
     float& dyn_m_Scale();
     // Get instance field reference: private System.Int32 m_AtlasIndex
@@ -97,16 +97,16 @@ namespace UnityEngine::TextCore {
     void set_index(uint value);
     // public UnityEngine.TextCore.GlyphMetrics get_metrics()
     // Offset: 0x2A35F64
-    UnityEngine::TextCore::GlyphMetrics get_metrics();
+    ::UnityEngine::TextCore::GlyphMetrics get_metrics();
     // public System.Void set_metrics(UnityEngine.TextCore.GlyphMetrics value)
     // Offset: 0x2A35F78
-    void set_metrics(UnityEngine::TextCore::GlyphMetrics value);
+    void set_metrics(::UnityEngine::TextCore::GlyphMetrics value);
     // public UnityEngine.TextCore.GlyphRect get_glyphRect()
     // Offset: 0x2A35F8C
-    UnityEngine::TextCore::GlyphRect get_glyphRect();
+    ::UnityEngine::TextCore::GlyphRect get_glyphRect();
     // public System.Void set_glyphRect(UnityEngine.TextCore.GlyphRect value)
     // Offset: 0x2A35F98
-    void set_glyphRect(UnityEngine::TextCore::GlyphRect value);
+    void set_glyphRect(::UnityEngine::TextCore::GlyphRect value);
     // public System.Single get_scale()
     // Offset: 0x2A35FA0
     float get_scale();
@@ -122,15 +122,15 @@ namespace UnityEngine::TextCore {
     // System.Void .ctor(UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct glyphStruct)
     // Offset: 0x2A35FF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Glyph* New_ctor(UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct glyphStruct) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TextCore::Glyph::.ctor");
+    static Glyph* New_ctor(::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct glyphStruct) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TextCore::Glyph::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Glyph*, creationType>(glyphStruct)));
     }
     // public System.Void .ctor(System.UInt32 index, UnityEngine.TextCore.GlyphMetrics metrics, UnityEngine.TextCore.GlyphRect glyphRect, System.Single scale, System.Int32 atlasIndex)
     // Offset: 0x2A36064
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Glyph* New_ctor(uint index, UnityEngine::TextCore::GlyphMetrics metrics, UnityEngine::TextCore::GlyphRect glyphRect, float scale, int atlasIndex) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TextCore::Glyph::.ctor");
+    static Glyph* New_ctor(uint index, ::UnityEngine::TextCore::GlyphMetrics metrics, ::UnityEngine::TextCore::GlyphRect glyphRect, float scale, int atlasIndex) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TextCore::Glyph::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Glyph*, creationType>(index, metrics, glyphRect, scale, atlasIndex)));
     }
     // public System.Void .ctor()
@@ -139,7 +139,7 @@ namespace UnityEngine::TextCore {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Glyph* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TextCore::Glyph::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TextCore::Glyph::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Glyph*, creationType>()));
     }
   }; // UnityEngine.TextCore.Glyph
@@ -168,7 +168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TextCore::Glyph::get_metrics
 // Il2CppName: get_metrics
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextCore::GlyphMetrics (UnityEngine::TextCore::Glyph::*)()>(&UnityEngine::TextCore::Glyph::get_metrics)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::GlyphMetrics (UnityEngine::TextCore::Glyph::*)()>(&UnityEngine::TextCore::Glyph::get_metrics)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::Glyph*), "get_metrics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -176,7 +176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::TextCore::Glyph::set_metrics
 // Il2CppName: set_metrics
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextCore::Glyph::*)(UnityEngine::TextCore::GlyphMetrics)>(&UnityEngine::TextCore::Glyph::set_metrics)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextCore::Glyph::*)(::UnityEngine::TextCore::GlyphMetrics)>(&UnityEngine::TextCore::Glyph::set_metrics)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.TextCore", "GlyphMetrics")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::Glyph*), "set_metrics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -185,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TextCore::Glyph::get_glyphRect
 // Il2CppName: get_glyphRect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextCore::GlyphRect (UnityEngine::TextCore::Glyph::*)()>(&UnityEngine::TextCore::Glyph::get_glyphRect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::GlyphRect (UnityEngine::TextCore::Glyph::*)()>(&UnityEngine::TextCore::Glyph::get_glyphRect)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::Glyph*), "get_glyphRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -193,7 +193,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::TextCore::Glyph::set_glyphRect
 // Il2CppName: set_glyphRect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextCore::Glyph::*)(UnityEngine::TextCore::GlyphRect)>(&UnityEngine::TextCore::Glyph::set_glyphRect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextCore::Glyph::*)(::UnityEngine::TextCore::GlyphRect)>(&UnityEngine::TextCore::Glyph::set_glyphRect)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.TextCore", "GlyphRect")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::Glyph*), "set_glyphRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

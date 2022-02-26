@@ -23,8 +23,8 @@ namespace System::Text::RegularExpressions {
   class SharedReference;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Text::RegularExpressions::SharedReference);
-DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::SharedReference*, "System.Text.RegularExpressions", "SharedReference");
+NEED_NO_BOX(::System::Text::RegularExpressions::SharedReference);
+DEFINE_IL2CPP_ARG_TYPE(::System::Text::RegularExpressions::SharedReference*, "System.Text.RegularExpressions", "SharedReference");
 // Type namespace: System.Text.RegularExpressions
 namespace System::Text::RegularExpressions {
   // Size: 0x1C
@@ -45,9 +45,9 @@ namespace System::Text::RegularExpressions {
     // private System.WeakReference _ref
     // Size: 0x8
     // Offset: 0x10
-    System::WeakReference* ref;
+    ::System::WeakReference* ref;
     // Field size check
-    static_assert(sizeof(System::WeakReference*) == 0x8);
+    static_assert(sizeof(::System::WeakReference*) == 0x8);
     // private System.Int32 _locked
     // Size: 0x4
     // Offset: 0x18
@@ -56,7 +56,7 @@ namespace System::Text::RegularExpressions {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private System.WeakReference _ref
-    System::WeakReference*& dyn__ref();
+    ::System::WeakReference*& dyn__ref();
     // Get instance field reference: private System.Int32 _locked
     int& dyn__locked();
     // System.Object Get()
@@ -71,7 +71,7 @@ namespace System::Text::RegularExpressions {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SharedReference* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::SharedReference::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::SharedReference::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SharedReference*, creationType>()));
     }
   }; // System.Text.RegularExpressions.SharedReference

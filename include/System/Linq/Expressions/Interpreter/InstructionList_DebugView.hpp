@@ -9,8 +9,8 @@
 #include "System/Linq/Expressions/Interpreter/InstructionList.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Linq::Expressions::Interpreter::InstructionList::DebugView);
-DEFINE_IL2CPP_ARG_TYPE(System::Linq::Expressions::Interpreter::InstructionList::DebugView*, "System.Linq.Expressions.Interpreter", "InstructionList/DebugView");
+NEED_NO_BOX(::System::Linq::Expressions::Interpreter::InstructionList::DebugView);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::InstructionList::DebugView*, "System.Linq.Expressions.Interpreter", "InstructionList/DebugView");
 // Type namespace: System.Linq.Expressions.Interpreter
 namespace System::Linq::Expressions::Interpreter {
   // Size: 0x10

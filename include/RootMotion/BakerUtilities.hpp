@@ -24,8 +24,8 @@ namespace RootMotion {
   class BakerUtilities;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::BakerUtilities);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::BakerUtilities*, "RootMotion", "BakerUtilities");
+NEED_NO_BOX(::RootMotion::BakerUtilities);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::BakerUtilities*, "RootMotion", "BakerUtilities");
 // Type namespace: RootMotion
 namespace RootMotion {
   // Size: 0x10
@@ -36,19 +36,19 @@ namespace RootMotion {
     public:
     // static public System.Void ReduceKeyframes(UnityEngine.AnimationCurve curve, System.Single maxError)
     // Offset: 0x221EE74
-    static void ReduceKeyframes(UnityEngine::AnimationCurve* curve, float maxError);
+    static void ReduceKeyframes(::UnityEngine::AnimationCurve* curve, float maxError);
     // static public UnityEngine.Keyframe[] GetReducedKeyframes(UnityEngine.AnimationCurve curve, System.Single maxError)
     // Offset: 0x2220348
-    static ::ArrayW<UnityEngine::Keyframe> GetReducedKeyframes(UnityEngine::AnimationCurve* curve, float maxError);
+    static ::ArrayW<::UnityEngine::Keyframe> GetReducedKeyframes(::UnityEngine::AnimationCurve* curve, float maxError);
     // static public System.Void SetLoopFrame(System.Single time, UnityEngine.AnimationCurve curve)
     // Offset: 0x221E888
-    static void SetLoopFrame(float time, UnityEngine::AnimationCurve* curve);
+    static void SetLoopFrame(float time, ::UnityEngine::AnimationCurve* curve);
     // static public System.Void SetTangentMode(UnityEngine.AnimationCurve curve)
     // Offset: 0x221EEBC
-    static void SetTangentMode(UnityEngine::AnimationCurve* curve);
+    static void SetTangentMode(::UnityEngine::AnimationCurve* curve);
     // static public UnityEngine.Quaternion EnsureQuaternionContinuity(UnityEngine.Quaternion lastQ, UnityEngine.Quaternion q)
     // Offset: 0x221E3C0
-    static UnityEngine::Quaternion EnsureQuaternionContinuity(UnityEngine::Quaternion lastQ, UnityEngine::Quaternion q);
+    static ::UnityEngine::Quaternion EnsureQuaternionContinuity(::UnityEngine::Quaternion lastQ, ::UnityEngine::Quaternion q);
   }; // RootMotion.BakerUtilities
   #pragma pack(pop)
 }
@@ -56,7 +56,7 @@ namespace RootMotion {
 // Writing MetadataGetter for method: RootMotion::BakerUtilities::ReduceKeyframes
 // Il2CppName: ReduceKeyframes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::AnimationCurve*, float)>(&RootMotion::BakerUtilities::ReduceKeyframes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::AnimationCurve*, float)>(&RootMotion::BakerUtilities::ReduceKeyframes)> {
   static const MethodInfo* get() {
     static auto* curve = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationCurve")->byval_arg;
     static auto* maxError = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -66,7 +66,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: RootMotion::BakerUtilities::GetReducedKeyframes
 // Il2CppName: GetReducedKeyframes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Keyframe> (*)(UnityEngine::AnimationCurve*, float)>(&RootMotion::BakerUtilities::GetReducedKeyframes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Keyframe> (*)(::UnityEngine::AnimationCurve*, float)>(&RootMotion::BakerUtilities::GetReducedKeyframes)> {
   static const MethodInfo* get() {
     static auto* curve = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationCurve")->byval_arg;
     static auto* maxError = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -76,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: RootMotion::BakerUtilities::SetLoopFrame
 // Il2CppName: SetLoopFrame
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float, UnityEngine::AnimationCurve*)>(&RootMotion::BakerUtilities::SetLoopFrame)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float, ::UnityEngine::AnimationCurve*)>(&RootMotion::BakerUtilities::SetLoopFrame)> {
   static const MethodInfo* get() {
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* curve = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationCurve")->byval_arg;
@@ -86,7 +86,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(fl
 // Writing MetadataGetter for method: RootMotion::BakerUtilities::SetTangentMode
 // Il2CppName: SetTangentMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::AnimationCurve*)>(&RootMotion::BakerUtilities::SetTangentMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::AnimationCurve*)>(&RootMotion::BakerUtilities::SetTangentMode)> {
   static const MethodInfo* get() {
     static auto* curve = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationCurve")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::BakerUtilities*), "SetTangentMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{curve});
@@ -95,7 +95,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: RootMotion::BakerUtilities::EnsureQuaternionContinuity
 // Il2CppName: EnsureQuaternionContinuity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(UnityEngine::Quaternion, UnityEngine::Quaternion)>(&RootMotion::BakerUtilities::EnsureQuaternionContinuity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Quaternion, ::UnityEngine::Quaternion)>(&RootMotion::BakerUtilities::EnsureQuaternionContinuity)> {
   static const MethodInfo* get() {
     static auto* lastQ = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     static auto* q = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;

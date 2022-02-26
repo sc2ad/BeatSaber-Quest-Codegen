@@ -14,8 +14,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::AddressableAssets::Initialization::CacheInitialization::$$c__DisplayClass1_0);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Initialization::CacheInitialization::$$c__DisplayClass1_0*, "UnityEngine.AddressableAssets.Initialization", "CacheInitialization/<>c__DisplayClass1_0");
+NEED_NO_BOX(::UnityEngine::AddressableAssets::Initialization::CacheInitialization::$$c__DisplayClass1_0);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AddressableAssets::Initialization::CacheInitialization::$$c__DisplayClass1_0*, "UnityEngine.AddressableAssets.Initialization", "CacheInitialization/<>c__DisplayClass1_0");
 // Type namespace: UnityEngine.AddressableAssets.Initialization
 namespace UnityEngine::AddressableAssets::Initialization {
   // Size: 0x28
@@ -37,9 +37,9 @@ namespace UnityEngine::AddressableAssets::Initialization {
     // public UnityEngine.AddressableAssets.Initialization.CacheInitialization <>4__this
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::AddressableAssets::Initialization::CacheInitialization* $$4__this;
+    ::UnityEngine::AddressableAssets::Initialization::CacheInitialization* $$4__this;
     // Field size check
-    static_assert(sizeof(UnityEngine::AddressableAssets::Initialization::CacheInitialization*) == 0x8);
+    static_assert(sizeof(::UnityEngine::AddressableAssets::Initialization::CacheInitialization*) == 0x8);
     // public System.String id
     // Size: 0x8
     // Offset: 0x18
@@ -54,7 +54,7 @@ namespace UnityEngine::AddressableAssets::Initialization {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.AddressableAssets.Initialization.CacheInitialization <>4__this
-    UnityEngine::AddressableAssets::Initialization::CacheInitialization*& dyn_$$4__this();
+    ::UnityEngine::AddressableAssets::Initialization::CacheInitialization*& dyn_$$4__this();
     // Get instance field reference: public System.String id
     ::StringW& dyn_id();
     // Get instance field reference: public System.String data
@@ -68,7 +68,7 @@ namespace UnityEngine::AddressableAssets::Initialization {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CacheInitialization::$$c__DisplayClass1_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::Initialization::CacheInitialization::$$c__DisplayClass1_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::Initialization::CacheInitialization::$$c__DisplayClass1_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CacheInitialization::$$c__DisplayClass1_0*, creationType>()));
     }
   }; // UnityEngine.AddressableAssets.Initialization.CacheInitialization/UnityEngine.AddressableAssets.Initialization.<>c__DisplayClass1_0

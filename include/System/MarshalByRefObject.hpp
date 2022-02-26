@@ -30,8 +30,8 @@ namespace System {
   class MarshalByRefObject;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::MarshalByRefObject);
-DEFINE_IL2CPP_ARG_TYPE(System::MarshalByRefObject*, "System", "MarshalByRefObject");
+NEED_NO_BOX(::System::MarshalByRefObject);
+DEFINE_IL2CPP_ARG_TYPE(::System::MarshalByRefObject*, "System", "MarshalByRefObject");
 // Type namespace: System
 namespace System {
   // Size: 0x18
@@ -66,13 +66,13 @@ namespace System {
     ::Il2CppObject*& dyn__identity();
     // System.Runtime.Remoting.ServerIdentity get_ObjectIdentity()
     // Offset: 0x1A93B28
-    System::Runtime::Remoting::ServerIdentity* get_ObjectIdentity();
+    ::System::Runtime::Remoting::ServerIdentity* get_ObjectIdentity();
     // System.Void set_ObjectIdentity(System.Runtime.Remoting.ServerIdentity value)
     // Offset: 0x1A93BF8
-    void set_ObjectIdentity(System::Runtime::Remoting::ServerIdentity* value);
+    void set_ObjectIdentity(::System::Runtime::Remoting::ServerIdentity* value);
     // public System.Runtime.Remoting.ObjRef CreateObjRef(System.Type requestedType)
     // Offset: 0x1A93C54
-    System::Runtime::Remoting::ObjRef* CreateObjRef(System::Type* requestedType);
+    ::System::Runtime::Remoting::ObjRef* CreateObjRef(::System::Type* requestedType);
     // public System.Object InitializeLifetimeService()
     // Offset: 0x1A93CB0
     ::Il2CppObject* InitializeLifetimeService();
@@ -82,7 +82,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MarshalByRefObject* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::MarshalByRefObject::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::MarshalByRefObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MarshalByRefObject*, creationType>()));
     }
   }; // System.MarshalByRefObject
@@ -94,7 +94,7 @@ namespace System {
 // Writing MetadataGetter for method: System::MarshalByRefObject::get_ObjectIdentity
 // Il2CppName: get_ObjectIdentity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::ServerIdentity* (System::MarshalByRefObject::*)()>(&System::MarshalByRefObject::get_ObjectIdentity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::ServerIdentity* (System::MarshalByRefObject::*)()>(&System::MarshalByRefObject::get_ObjectIdentity)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::MarshalByRefObject*), "get_ObjectIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -102,7 +102,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: System::MarshalByRefObject::set_ObjectIdentity
 // Il2CppName: set_ObjectIdentity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::MarshalByRefObject::*)(System::Runtime::Remoting::ServerIdentity*)>(&System::MarshalByRefObject::set_ObjectIdentity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::MarshalByRefObject::*)(::System::Runtime::Remoting::ServerIdentity*)>(&System::MarshalByRefObject::set_ObjectIdentity)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting", "ServerIdentity")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::MarshalByRefObject*), "set_ObjectIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -111,7 +111,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::MarshalByRefObject::CreateObjRef
 // Il2CppName: CreateObjRef
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::ObjRef* (System::MarshalByRefObject::*)(System::Type*)>(&System::MarshalByRefObject::CreateObjRef)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::ObjRef* (System::MarshalByRefObject::*)(::System::Type*)>(&System::MarshalByRefObject::CreateObjRef)> {
   static const MethodInfo* get() {
     static auto* requestedType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::MarshalByRefObject*), "CreateObjRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{requestedType});

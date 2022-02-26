@@ -31,8 +31,8 @@ namespace HoudiniEngineUnity {
   class HEU_PluginSettings;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_PluginSettings);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_PluginSettings*, "HoudiniEngineUnity", "HEU_PluginSettings");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_PluginSettings);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_PluginSettings*, "HoudiniEngineUnity", "HEU_PluginSettings");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x10
@@ -181,10 +181,10 @@ namespace HoudiniEngineUnity {
     static void set_UnityInputMeshAttr(::StringW value);
     // static public UnityEngine.Color get_LineColor()
     // Offset: 0x1A57D38
-    static UnityEngine::Color get_LineColor();
+    static ::UnityEngine::Color get_LineColor();
     // static public System.Void set_LineColor(UnityEngine.Color value)
     // Offset: 0x1A57DE4
-    static void set_LineColor(UnityEngine::Color value);
+    static void set_LineColor(::UnityEngine::Color value);
     // static public System.String get_EditorOnly_Tag()
     // Offset: 0x1A57E78
     static ::StringW get_EditorOnly_Tag();
@@ -199,10 +199,10 @@ namespace HoudiniEngineUnity {
     static void set_HDAData_Name(::StringW value);
     // static public HoudiniEngineUnity.SessionMode get_Session_Mode()
     // Offset: 0x1A5807C
-    static HoudiniEngineUnity::SessionMode get_Session_Mode();
+    static ::HoudiniEngineUnity::SessionMode get_Session_Mode();
     // static public System.Void set_Session_Mode(HoudiniEngineUnity.SessionMode value)
     // Offset: 0x1A581E0
-    static void set_Session_Mode(HoudiniEngineUnity::SessionMode value);
+    static void set_Session_Mode(::HoudiniEngineUnity::SessionMode value);
     // static public System.String get_Session_PipeName()
     // Offset: 0x1A58304
     static ::StringW get_Session_PipeName();
@@ -253,10 +253,10 @@ namespace HoudiniEngineUnity {
     static void set_UseFullPathNamesForOutput(bool value);
     // static public System.Collections.Generic.List`1<System.String> get_HEngineToolsShelves()
     // Offset: 0x1A5896C
-    static System::Collections::Generic::List_1<::StringW>* get_HEngineToolsShelves();
+    static ::System::Collections::Generic::List_1<::StringW>* get_HEngineToolsShelves();
     // static public System.Void set_HEngineToolsShelves(System.Collections.Generic.List`1<System.String> value)
     // Offset: 0x1A58B64
-    static void set_HEngineToolsShelves(System::Collections::Generic::List_1<::StringW>* value);
+    static void set_HEngineToolsShelves(::System::Collections::Generic::List_1<::StringW>* value);
     // static public System.Int32 get_HEngineShelfSelectedIndex()
     // Offset: 0x1A58D04
     static int get_HEngineShelfSelectedIndex();
@@ -811,7 +811,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::get_LineColor
 // Il2CppName: get_LineColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_LineColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_LineColor)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "get_LineColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -819,7 +819,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::set_LineColor
 // Il2CppName: set_LineColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Color)>(&HoudiniEngineUnity::HEU_PluginSettings::set_LineColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Color)>(&HoudiniEngineUnity::HEU_PluginSettings::set_LineColor)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "set_LineColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -862,7 +862,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::get_Session_Mode
 // Il2CppName: get_Session_Mode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::SessionMode (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_Session_Mode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::SessionMode (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_Session_Mode)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "get_Session_Mode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -870,7 +870,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::set_Session_Mode
 // Il2CppName: set_Session_Mode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HoudiniEngineUnity::SessionMode)>(&HoudiniEngineUnity::HEU_PluginSettings::set_Session_Mode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::SessionMode)>(&HoudiniEngineUnity::HEU_PluginSettings::set_Session_Mode)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "SessionMode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "set_Session_Mode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1015,7 +1015,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bo
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::get_HEngineToolsShelves
 // Il2CppName: get_HEngineToolsShelves
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::StringW>* (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_HEngineToolsShelves)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::StringW>* (*)()>(&HoudiniEngineUnity::HEU_PluginSettings::get_HEngineToolsShelves)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "get_HEngineToolsShelves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1023,7 +1023,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PluginSettings::set_HEngineToolsShelves
 // Il2CppName: set_HEngineToolsShelves
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::List_1<::StringW>*)>(&HoudiniEngineUnity::HEU_PluginSettings::set_HEngineToolsShelves)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::List_1<::StringW>*)>(&HoudiniEngineUnity::HEU_PluginSettings::set_HEngineToolsShelves)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PluginSettings*), "set_HEngineToolsShelves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

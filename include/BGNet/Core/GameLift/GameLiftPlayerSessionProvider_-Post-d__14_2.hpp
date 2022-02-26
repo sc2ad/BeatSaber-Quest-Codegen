@@ -29,7 +29,7 @@ namespace System::Net::Http {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$Post$d__14_2, "BGNet.Core.GameLift", "GameLiftPlayerSessionProvider/<Post>d__14`2");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$Post$d__14_2, "BGNet.Core.GameLift", "GameLiftPlayerSessionProvider/<Post>d__14`2");
 // Type namespace: BGNet.Core.GameLift
 namespace BGNet::Core::GameLift {
   // WARNING Size may be invalid!
@@ -37,7 +37,7 @@ namespace BGNet::Core::GameLift {
   // [TokenAttribute] Offset: FFFFFFFF
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   template<typename TRequest, typename TResponse>
-  struct GameLiftPlayerSessionProvider::$Post$d__14_2/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
+  struct GameLiftPlayerSessionProvider::$Post$d__14_2/*, public ::System::ValueType, public ::System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
     public:
     // public System.Int32 <>1__state
@@ -49,13 +49,13 @@ namespace BGNet::Core::GameLift {
     // public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResponse> <>t__builder
     // Size: 0xFFFFFFFF
     // Offset: 0x0
-    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResponse> $$t__builder;
+    ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResponse> $$t__builder;
     // public BGNet.Core.GameLift.GameLiftPlayerSessionProvider <>4__this
     // Size: 0x8
     // Offset: 0x0
-    BGNet::Core::GameLift::GameLiftPlayerSessionProvider* $$4__this;
+    ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider* $$4__this;
     // Field size check
-    static_assert(sizeof(BGNet::Core::GameLift::GameLiftPlayerSessionProvider*) == 0x8);
+    static_assert(sizeof(::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*) == 0x8);
     // public System.String path
     // Size: 0x8
     // Offset: 0x0
@@ -69,50 +69,50 @@ namespace BGNet::Core::GameLift {
     // private System.Runtime.CompilerServices.TaskAwaiter`1<System.Net.Http.HttpResponseMessage> <>u__1
     // Size: 0xFFFFFFFF
     // Offset: 0x0
-    System::Runtime::CompilerServices::TaskAwaiter_1<System::Net::Http::HttpResponseMessage*> $$u__1;
+    ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage*> $$u__1;
     // private System.Runtime.CompilerServices.TaskAwaiter`1<System.String> <>u__2
     // Size: 0xFFFFFFFF
     // Offset: 0x0
-    System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> $$u__2;
+    ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> $$u__2;
     public:
     // Creating value type constructor for type: $Post$d__14_2
-    constexpr $Post$d__14_2(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResponse> $$t__builder_ = {}, BGNet::Core::GameLift::GameLiftPlayerSessionProvider* $$4__this_ = {}, ::StringW path_ = {}, TRequest request_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<System::Net::Http::HttpResponseMessage*> $$u__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> $$u__2_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, path{path_}, request{request_}, $$u__1{$$u__1_}, $$u__2{$$u__2_} {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    constexpr $Post$d__14_2(int $$1__state_ = {}, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResponse> $$t__builder_ = {}, ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider* $$4__this_ = {}, ::StringW path_ = {}, TRequest request_ = {}, ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage*> $$u__1_ = {}, ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> $$u__2_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, path{path_}, request{request_}, $$u__1{$$u__1_}, $$u__2{$$u__2_} {}
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
-    // Creating interface conversion operator: operator System::Runtime::CompilerServices::IAsyncStateMachine
-    operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
-      return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
+    // Creating interface conversion operator: operator ::System::Runtime::CompilerServices::IAsyncStateMachine
+    operator ::System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
+      return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Autogenerated instance field getter
     // Get instance field: public System.Int32 <>1__state
     int& dyn_$$1__state() {
-      static auto ___internal__logger = ::Logger::get().WithContext("BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$Post$d__14_2::dyn_$$1__state");
+      static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$Post$d__14_2::dyn_$$1__state");
       auto ___internal__instance = *this;
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "<>1__state"))->offset;
       return *reinterpret_cast<int*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // Autogenerated instance field getter
     // Get instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResponse> <>t__builder
-    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResponse>& dyn_$$t__builder() {
-      static auto ___internal__logger = ::Logger::get().WithContext("BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$Post$d__14_2::dyn_$$t__builder");
+    ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResponse>& dyn_$$t__builder() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$Post$d__14_2::dyn_$$t__builder");
       auto ___internal__instance = *this;
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "<>t__builder"))->offset;
-      return *reinterpret_cast<System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResponse>*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+      return *reinterpret_cast<::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResponse>*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // Autogenerated instance field getter
     // Get instance field: public BGNet.Core.GameLift.GameLiftPlayerSessionProvider <>4__this
-    BGNet::Core::GameLift::GameLiftPlayerSessionProvider*& dyn_$$4__this() {
-      static auto ___internal__logger = ::Logger::get().WithContext("BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$Post$d__14_2::dyn_$$4__this");
+    ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*& dyn_$$4__this() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$Post$d__14_2::dyn_$$4__this");
       auto ___internal__instance = *this;
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "<>4__this"))->offset;
-      return *reinterpret_cast<BGNet::Core::GameLift::GameLiftPlayerSessionProvider**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+      return *reinterpret_cast<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // Autogenerated instance field getter
     // Get instance field: public System.String path
     ::StringW& dyn_path() {
-      static auto ___internal__logger = ::Logger::get().WithContext("BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$Post$d__14_2::dyn_path");
+      static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$Post$d__14_2::dyn_path");
       auto ___internal__instance = *this;
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "path"))->offset;
       return *reinterpret_cast<::StringW*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
@@ -120,38 +120,38 @@ namespace BGNet::Core::GameLift {
     // Autogenerated instance field getter
     // Get instance field: public TRequest request
     TRequest& dyn_request() {
-      static auto ___internal__logger = ::Logger::get().WithContext("BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$Post$d__14_2::dyn_request");
+      static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$Post$d__14_2::dyn_request");
       auto ___internal__instance = *this;
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "request"))->offset;
       return *reinterpret_cast<TRequest*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // Autogenerated instance field getter
     // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Net.Http.HttpResponseMessage> <>u__1
-    System::Runtime::CompilerServices::TaskAwaiter_1<System::Net::Http::HttpResponseMessage*>& dyn_$$u__1() {
-      static auto ___internal__logger = ::Logger::get().WithContext("BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$Post$d__14_2::dyn_$$u__1");
+    ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage*>& dyn_$$u__1() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$Post$d__14_2::dyn_$$u__1");
       auto ___internal__instance = *this;
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "<>u__1"))->offset;
-      return *reinterpret_cast<System::Runtime::CompilerServices::TaskAwaiter_1<System::Net::Http::HttpResponseMessage*>*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+      return *reinterpret_cast<::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage*>*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // Autogenerated instance field getter
     // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<System.String> <>u__2
-    System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>& dyn_$$u__2() {
-      static auto ___internal__logger = ::Logger::get().WithContext("BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$Post$d__14_2::dyn_$$u__2");
+    ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>& dyn_$$u__2() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$Post$d__14_2::dyn_$$u__2");
       auto ___internal__instance = *this;
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "<>u__2"))->offset;
-      return *reinterpret_cast<System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+      return *reinterpret_cast<::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // private System.Void MoveNext()
     // Offset: 0xFFFFFFFF
     void MoveNext() {
-      static auto ___internal__logger = ::Logger::get().WithContext("BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$Post$d__14_2::MoveNext");
+      static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$Post$d__14_2::MoveNext");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "MoveNext", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     // Offset: 0xFFFFFFFF
-    void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-      static auto ___internal__logger = ::Logger::get().WithContext("BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$Post$d__14_2::SetStateMachine");
+    void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$Post$d__14_2::SetStateMachine");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "SetStateMachine", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(stateMachine)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, stateMachine);
     }

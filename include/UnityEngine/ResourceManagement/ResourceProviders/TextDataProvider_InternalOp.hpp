@@ -33,8 +33,8 @@ namespace UnityEngine {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp*, "UnityEngine.ResourceManagement.ResourceProviders", "TextDataProvider/InternalOp");
+NEED_NO_BOX(::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp*, "UnityEngine.ResourceManagement.ResourceProviders", "TextDataProvider/InternalOp");
 // Type namespace: UnityEngine.ResourceManagement.ResourceProviders
 namespace UnityEngine::ResourceManagement::ResourceProviders {
   // Size: 0x42
@@ -55,27 +55,27 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // private UnityEngine.ResourceManagement.ResourceProviders.TextDataProvider m_Provider
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider* m_Provider;
+    ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider* m_Provider;
     // Field size check
-    static_assert(sizeof(UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*) == 0x8);
+    static_assert(sizeof(::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*) == 0x8);
     // private UnityEngine.Networking.UnityWebRequestAsyncOperation m_RequestOperation
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::Networking::UnityWebRequestAsyncOperation* m_RequestOperation;
+    ::UnityEngine::Networking::UnityWebRequestAsyncOperation* m_RequestOperation;
     // Field size check
-    static_assert(sizeof(UnityEngine::Networking::UnityWebRequestAsyncOperation*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Networking::UnityWebRequestAsyncOperation*) == 0x8);
     // private UnityEngine.ResourceManagement.WebRequestQueueOperation m_RequestQueueOperation
     // Size: 0x8
     // Offset: 0x20
-    UnityEngine::ResourceManagement::WebRequestQueueOperation* m_RequestQueueOperation;
+    ::UnityEngine::ResourceManagement::WebRequestQueueOperation* m_RequestQueueOperation;
     // Field size check
-    static_assert(sizeof(UnityEngine::ResourceManagement::WebRequestQueueOperation*) == 0x8);
+    static_assert(sizeof(::UnityEngine::ResourceManagement::WebRequestQueueOperation*) == 0x8);
     // private UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle m_PI
     // Size: 0x18
     // Offset: 0x28
-    UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle m_PI;
+    ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle m_PI;
     // Field size check
-    static_assert(sizeof(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle) == 0x18);
+    static_assert(sizeof(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle) == 0x18);
     // private System.Boolean m_IgnoreFailures
     // Size: 0x1
     // Offset: 0x40
@@ -90,13 +90,13 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private UnityEngine.ResourceManagement.ResourceProviders.TextDataProvider m_Provider
-    UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*& dyn_m_Provider();
+    ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*& dyn_m_Provider();
     // Get instance field reference: private UnityEngine.Networking.UnityWebRequestAsyncOperation m_RequestOperation
-    UnityEngine::Networking::UnityWebRequestAsyncOperation*& dyn_m_RequestOperation();
+    ::UnityEngine::Networking::UnityWebRequestAsyncOperation*& dyn_m_RequestOperation();
     // Get instance field reference: private UnityEngine.ResourceManagement.WebRequestQueueOperation m_RequestQueueOperation
-    UnityEngine::ResourceManagement::WebRequestQueueOperation*& dyn_m_RequestQueueOperation();
+    ::UnityEngine::ResourceManagement::WebRequestQueueOperation*& dyn_m_RequestQueueOperation();
     // Get instance field reference: private UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle m_PI
-    UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle& dyn_m_PI();
+    ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle& dyn_m_PI();
     // Get instance field reference: private System.Boolean m_IgnoreFailures
     bool& dyn_m_IgnoreFailures();
     // Get instance field reference: private System.Boolean m_Complete
@@ -106,26 +106,26 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     float GetPercentComplete();
     // public System.Void Start(UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle provideHandle, UnityEngine.ResourceManagement.ResourceProviders.TextDataProvider rawProvider, System.Boolean ignoreFailures)
     // Offset: 0x1E2B8B0
-    void Start(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle, UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider* rawProvider, bool ignoreFailures);
+    void Start(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle, ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider* rawProvider, bool ignoreFailures);
     // private System.Boolean WaitForCompletionHandler()
     // Offset: 0x1E2C130
     bool WaitForCompletionHandler();
     // private System.Void RequestOperation_completed(UnityEngine.AsyncOperation op)
     // Offset: 0x1E2BF8C
-    void RequestOperation_completed(UnityEngine::AsyncOperation* op);
+    void RequestOperation_completed(::UnityEngine::AsyncOperation* op);
     // private System.Object ConvertText(System.String text)
     // Offset: 0x1E2BE60
     ::Il2CppObject* ConvertText(::StringW text);
     // private System.Void <Start>b__7_0(UnityEngine.Networking.UnityWebRequestAsyncOperation asyncOperation)
     // Offset: 0x1E2C1B0
-    void $Start$b__7_0(UnityEngine::Networking::UnityWebRequestAsyncOperation* asyncOperation);
+    void $Start$b__7_0(::UnityEngine::Networking::UnityWebRequestAsyncOperation* asyncOperation);
     // public System.Void .ctor()
     // Offset: 0x1E2B8A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TextDataProvider::InternalOp* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TextDataProvider::InternalOp*, creationType>()));
     }
   }; // UnityEngine.ResourceManagement.ResourceProviders.TextDataProvider/UnityEngine.ResourceManagement.ResourceProviders.InternalOp
@@ -145,7 +145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp::*)(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle, UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*, bool)>(&UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp::*)(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle, ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*, bool)>(&UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp::Start)> {
   static const MethodInfo* get() {
     static auto* provideHandle = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.ResourceProviders", "ProvideHandle")->byval_arg;
     static auto* rawProvider = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.ResourceProviders", "TextDataProvider")->byval_arg;
@@ -164,7 +164,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp::RequestOperation_completed
 // Il2CppName: RequestOperation_completed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp::*)(UnityEngine::AsyncOperation*)>(&UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp::RequestOperation_completed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp::*)(::UnityEngine::AsyncOperation*)>(&UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp::RequestOperation_completed)> {
   static const MethodInfo* get() {
     static auto* op = &::il2cpp_utils::GetClassFromName("UnityEngine", "AsyncOperation")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp*), "RequestOperation_completed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{op});
@@ -182,7 +182,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp::$Start$b__7_0
 // Il2CppName: <Start>b__7_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp::*)(UnityEngine::Networking::UnityWebRequestAsyncOperation*)>(&UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp::$Start$b__7_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp::*)(::UnityEngine::Networking::UnityWebRequestAsyncOperation*)>(&UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp::$Start$b__7_0)> {
   static const MethodInfo* get() {
     static auto* asyncOperation = &::il2cpp_utils::GetClassFromName("UnityEngine.Networking", "UnityWebRequestAsyncOperation")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp*), "<Start>b__7_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asyncOperation});

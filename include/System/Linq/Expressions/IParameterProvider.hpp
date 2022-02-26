@@ -18,8 +18,8 @@ namespace System::Linq::Expressions {
   class IParameterProvider;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Linq::Expressions::IParameterProvider);
-DEFINE_IL2CPP_ARG_TYPE(System::Linq::Expressions::IParameterProvider*, "System.Linq.Expressions", "IParameterProvider");
+NEED_NO_BOX(::System::Linq::Expressions::IParameterProvider);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::IParameterProvider*, "System.Linq.Expressions", "IParameterProvider");
 // Type namespace: System.Linq.Expressions
 namespace System::Linq::Expressions {
   // Size: 0x10
@@ -33,7 +33,7 @@ namespace System::Linq::Expressions {
     int get_ParameterCount();
     // public System.Linq.Expressions.ParameterExpression GetParameter(System.Int32 index)
     // Offset: 0xFFFFFFFF
-    System::Linq::Expressions::ParameterExpression* GetParameter(int index);
+    ::System::Linq::Expressions::ParameterExpression* GetParameter(int index);
   }; // System.Linq.Expressions.IParameterProvider
   #pragma pack(pop)
 }
@@ -49,7 +49,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Linq::Expressions::IParameterProvider::GetParameter
 // Il2CppName: GetParameter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Linq::Expressions::ParameterExpression* (System::Linq::Expressions::IParameterProvider::*)(int)>(&System::Linq::Expressions::IParameterProvider::GetParameter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::ParameterExpression* (System::Linq::Expressions::IParameterProvider::*)(int)>(&System::Linq::Expressions::IParameterProvider::GetParameter)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::IParameterProvider*), "GetParameter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});

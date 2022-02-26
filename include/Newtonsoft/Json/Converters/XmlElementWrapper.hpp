@@ -32,8 +32,8 @@ namespace Newtonsoft::Json::Converters {
   class XmlElementWrapper;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Converters::XmlElementWrapper);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Converters::XmlElementWrapper*, "Newtonsoft.Json.Converters", "XmlElementWrapper");
+NEED_NO_BOX(::Newtonsoft::Json::Converters::XmlElementWrapper);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Converters::XmlElementWrapper*, "Newtonsoft.Json.Converters", "XmlElementWrapper");
 // Type namespace: Newtonsoft.Json.Converters
 namespace Newtonsoft::Json::Converters {
   // Size: 0x30
@@ -42,7 +42,7 @@ namespace Newtonsoft::Json::Converters {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NullableAttribute] Offset: 1203760
   // [NullableContextAttribute] Offset: 1203760
-  class XmlElementWrapper : public Newtonsoft::Json::Converters::XmlNodeWrapper/*, public Newtonsoft::Json::Converters::IXmlElement*/ {
+  class XmlElementWrapper : public ::Newtonsoft::Json::Converters::XmlNodeWrapper/*, public ::Newtonsoft::Json::Converters::IXmlElement*/ {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -56,39 +56,39 @@ namespace Newtonsoft::Json::Converters {
     // private readonly System.Xml.XmlElement _element
     // Size: 0x8
     // Offset: 0x28
-    System::Xml::XmlElement* element;
+    ::System::Xml::XmlElement* element;
     // Field size check
-    static_assert(sizeof(System::Xml::XmlElement*) == 0x8);
+    static_assert(sizeof(::System::Xml::XmlElement*) == 0x8);
     public:
-    // Creating interface conversion operator: operator Newtonsoft::Json::Converters::IXmlElement
-    operator Newtonsoft::Json::Converters::IXmlElement() noexcept {
-      return *reinterpret_cast<Newtonsoft::Json::Converters::IXmlElement*>(this);
+    // Creating interface conversion operator: operator ::Newtonsoft::Json::Converters::IXmlElement
+    operator ::Newtonsoft::Json::Converters::IXmlElement() noexcept {
+      return *reinterpret_cast<::Newtonsoft::Json::Converters::IXmlElement*>(this);
     }
-    // Creating conversion operator: operator System::Xml::XmlElement*
-    constexpr operator System::Xml::XmlElement*() const noexcept {
+    // Creating conversion operator: operator ::System::Xml::XmlElement*
+    constexpr operator ::System::Xml::XmlElement*() const noexcept {
       return element;
     }
     // Get instance field reference: private readonly System.Xml.XmlElement _element
-    System::Xml::XmlElement*& dyn__element();
+    ::System::Xml::XmlElement*& dyn__element();
     // public System.Boolean get_IsEmpty()
     // Offset: 0x1825250
     bool get_IsEmpty();
     // public System.Void .ctor(System.Xml.XmlElement element)
     // Offset: 0x1824E44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlElementWrapper* New_ctor(System::Xml::XmlElement* element) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Converters::XmlElementWrapper::.ctor");
+    static XmlElementWrapper* New_ctor(::System::Xml::XmlElement* element) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Converters::XmlElementWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlElementWrapper*, creationType>(element)));
     }
     // public System.Void SetAttributeNode(Newtonsoft.Json.Converters.IXmlNode attribute)
     // Offset: 0x1825140
-    void SetAttributeNode(Newtonsoft::Json::Converters::IXmlNode* attribute);
+    void SetAttributeNode(::Newtonsoft::Json::Converters::IXmlNode* attribute);
     // public System.String GetPrefixOfNamespace(System.String namespaceUri)
     // Offset: 0x182522C
     ::StringW GetPrefixOfNamespace(::StringW namespaceUri);
   }; // Newtonsoft.Json.Converters.XmlElementWrapper
   #pragma pack(pop)
-  static check_size<sizeof(XmlElementWrapper), 40 + sizeof(System::Xml::XmlElement*)> __Newtonsoft_Json_Converters_XmlElementWrapperSizeCheck;
+  static check_size<sizeof(XmlElementWrapper), 40 + sizeof(::System::Xml::XmlElement*)> __Newtonsoft_Json_Converters_XmlElementWrapperSizeCheck;
   static_assert(sizeof(XmlElementWrapper) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -107,7 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlElementWrapper::SetAttributeNode
 // Il2CppName: SetAttributeNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Converters::XmlElementWrapper::*)(Newtonsoft::Json::Converters::IXmlNode*)>(&Newtonsoft::Json::Converters::XmlElementWrapper::SetAttributeNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Converters::XmlElementWrapper::*)(::Newtonsoft::Json::Converters::IXmlNode*)>(&Newtonsoft::Json::Converters::XmlElementWrapper::SetAttributeNode)> {
   static const MethodInfo* get() {
     static auto* attribute = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Converters", "IXmlNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Converters::XmlElementWrapper*), "SetAttributeNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attribute});

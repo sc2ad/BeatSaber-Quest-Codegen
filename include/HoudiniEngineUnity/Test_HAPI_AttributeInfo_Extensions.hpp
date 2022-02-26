@@ -21,8 +21,8 @@ namespace HoudiniEngineUnity {
   class Test_HAPI_AttributeInfo_Extensions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::Test_HAPI_AttributeInfo_Extensions);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_HAPI_AttributeInfo_Extensions*, "HoudiniEngineUnity", "Test_HAPI_AttributeInfo_Extensions");
+NEED_NO_BOX(::HoudiniEngineUnity::Test_HAPI_AttributeInfo_Extensions);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::Test_HAPI_AttributeInfo_Extensions*, "HoudiniEngineUnity", "Test_HAPI_AttributeInfo_Extensions");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x10
@@ -34,7 +34,7 @@ namespace HoudiniEngineUnity {
     public:
     // static public HoudiniEngineUnity.Test_HAPI_AttributeInfo ToTestObject(HoudiniEngineUnity.HAPI_AttributeInfo self)
     // Offset: 0x19B66EC
-    static HoudiniEngineUnity::Test_HAPI_AttributeInfo* ToTestObject(HoudiniEngineUnity::HAPI_AttributeInfo self);
+    static ::HoudiniEngineUnity::Test_HAPI_AttributeInfo* ToTestObject(::HoudiniEngineUnity::HAPI_AttributeInfo self);
   }; // HoudiniEngineUnity.Test_HAPI_AttributeInfo_Extensions
   #pragma pack(pop)
 }
@@ -42,7 +42,7 @@ namespace HoudiniEngineUnity {
 // Writing MetadataGetter for method: HoudiniEngineUnity::Test_HAPI_AttributeInfo_Extensions::ToTestObject
 // Il2CppName: ToTestObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::Test_HAPI_AttributeInfo* (*)(HoudiniEngineUnity::HAPI_AttributeInfo)>(&HoudiniEngineUnity::Test_HAPI_AttributeInfo_Extensions::ToTestObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::Test_HAPI_AttributeInfo* (*)(::HoudiniEngineUnity::HAPI_AttributeInfo)>(&HoudiniEngineUnity::Test_HAPI_AttributeInfo_Extensions::ToTestObject)> {
   static const MethodInfo* get() {
     static auto* self = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_AttributeInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::Test_HAPI_AttributeInfo_Extensions*), "ToTestObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{self});

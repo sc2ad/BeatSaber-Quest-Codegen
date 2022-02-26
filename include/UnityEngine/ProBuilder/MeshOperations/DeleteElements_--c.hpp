@@ -32,8 +32,8 @@ namespace System::Collections::Generic {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c*, "UnityEngine.ProBuilder.MeshOperations", "DeleteElements/<>c");
+NEED_NO_BOX(::UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c*, "UnityEngine.ProBuilder.MeshOperations", "DeleteElements/<>c");
 // Type namespace: UnityEngine.ProBuilder.MeshOperations
 namespace UnityEngine::ProBuilder::MeshOperations {
   // Size: 0x10
@@ -44,26 +44,26 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   class DeleteElements::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly UnityEngine.ProBuilder.MeshOperations.DeleteElements/UnityEngine.ProBuilder.MeshOperations.<>c <>9
-    static UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c* _get_$$9();
+    static ::UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c* _get_$$9();
     // Set static field: static public readonly UnityEngine.ProBuilder.MeshOperations.DeleteElements/UnityEngine.ProBuilder.MeshOperations.<>c <>9
-    static void _set_$$9(UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c* value);
+    static void _set_$$9(::UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c* value);
     // Get static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Collections.Generic.IEnumerable`1<System.Int32>> <>9__3_0
-    static System::Func_2<UnityEngine::ProBuilder::Face*, System::Collections::Generic::IEnumerable_1<int>*>* _get_$$9__3_0();
+    static ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<int>*>* _get_$$9__3_0();
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Collections.Generic.IEnumerable`1<System.Int32>> <>9__3_0
-    static void _set_$$9__3_0(System::Func_2<UnityEngine::ProBuilder::Face*, System::Collections::Generic::IEnumerable_1<int>*>* value);
+    static void _set_$$9__3_0(::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<int>*>* value);
     // static private System.Void .cctor()
     // Offset: 0x19C26FC
     static void _cctor();
     // System.Collections.Generic.IEnumerable`1<System.Int32> <DeleteFaces>b__3_0(UnityEngine.ProBuilder.Face x)
     // Offset: 0x19C2768
-    System::Collections::Generic::IEnumerable_1<int>* $DeleteFaces$b__3_0(UnityEngine::ProBuilder::Face* x);
+    ::System::Collections::Generic::IEnumerable_1<int>* $DeleteFaces$b__3_0(::UnityEngine::ProBuilder::Face* x);
     // public System.Void .ctor()
     // Offset: 0x19C2760
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DeleteElements::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DeleteElements::$$c*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.MeshOperations.DeleteElements/UnityEngine.ProBuilder.MeshOperations.<>c
@@ -81,7 +81,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c::$DeleteFaces$b__3_0
 // Il2CppName: <DeleteFaces>b__3_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<int>* (UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c::*)(UnityEngine::ProBuilder::Face*)>(&UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c::$DeleteFaces$b__3_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<int>* (UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c::*)(::UnityEngine::ProBuilder::Face*)>(&UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c::$DeleteFaces$b__3_0)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c*), "<DeleteFaces>b__3_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});

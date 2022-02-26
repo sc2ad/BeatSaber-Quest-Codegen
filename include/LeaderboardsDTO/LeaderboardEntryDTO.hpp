@@ -22,8 +22,8 @@ namespace LeaderboardsDTO {
   class LeaderboardEntryDTO;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(LeaderboardsDTO::LeaderboardEntryDTO);
-DEFINE_IL2CPP_ARG_TYPE(LeaderboardsDTO::LeaderboardEntryDTO*, "LeaderboardsDTO", "LeaderboardEntryDTO");
+NEED_NO_BOX(::LeaderboardsDTO::LeaderboardEntryDTO);
+DEFINE_IL2CPP_ARG_TYPE(::LeaderboardsDTO::LeaderboardEntryDTO*, "LeaderboardsDTO", "LeaderboardEntryDTO");
 // Type namespace: LeaderboardsDTO
 namespace LeaderboardsDTO {
   // Size: 0x40
@@ -64,9 +64,9 @@ namespace LeaderboardsDTO {
     // public System.DateTime updated
     // Size: 0x8
     // Offset: 0x20
-    System::DateTime updated;
+    ::System::DateTime updated;
     // Field size check
-    static_assert(sizeof(System::DateTime) == 0x8);
+    static_assert(sizeof(::System::DateTime) == 0x8);
     // public System.String userDisplayName
     // Size: 0x8
     // Offset: 0x28
@@ -82,9 +82,9 @@ namespace LeaderboardsDTO {
     // public LeaderboardsDTO.GameplayModifiersDto[] gameplayModifiers
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayW<LeaderboardsDTO::GameplayModifiersDto> gameplayModifiers;
+    ::ArrayW<::LeaderboardsDTO::GameplayModifiersDto> gameplayModifiers;
     // Field size check
-    static_assert(sizeof(::ArrayW<LeaderboardsDTO::GameplayModifiersDto>) == 0x8);
+    static_assert(sizeof(::ArrayW<::LeaderboardsDTO::GameplayModifiersDto>) == 0x8);
     public:
     // Get instance field reference: public System.Int32 score
     int& dyn_score();
@@ -93,25 +93,25 @@ namespace LeaderboardsDTO {
     // Get instance field reference: public System.Int32 rank
     int& dyn_rank();
     // Get instance field reference: public System.DateTime updated
-    System::DateTime& dyn_updated();
+    ::System::DateTime& dyn_updated();
     // Get instance field reference: public System.String userDisplayName
     ::StringW& dyn_userDisplayName();
     // Get instance field reference: public System.String platformUserId
     ::StringW& dyn_platformUserId();
     // Get instance field reference: public LeaderboardsDTO.GameplayModifiersDto[] gameplayModifiers
-    ::ArrayW<LeaderboardsDTO::GameplayModifiersDto>& dyn_gameplayModifiers();
+    ::ArrayW<::LeaderboardsDTO::GameplayModifiersDto>& dyn_gameplayModifiers();
     // public System.Void .ctor()
     // Offset: 0x13B1608
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardEntryDTO* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("LeaderboardsDTO::LeaderboardEntryDTO::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::LeaderboardsDTO::LeaderboardEntryDTO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardEntryDTO*, creationType>()));
     }
   }; // LeaderboardsDTO.LeaderboardEntryDTO
   #pragma pack(pop)
-  static check_size<sizeof(LeaderboardEntryDTO), 56 + sizeof(::ArrayW<LeaderboardsDTO::GameplayModifiersDto>)> __LeaderboardsDTO_LeaderboardEntryDTOSizeCheck;
+  static check_size<sizeof(LeaderboardEntryDTO), 56 + sizeof(::ArrayW<::LeaderboardsDTO::GameplayModifiersDto>)> __LeaderboardsDTO_LeaderboardEntryDTOSizeCheck;
   static_assert(sizeof(LeaderboardEntryDTO) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

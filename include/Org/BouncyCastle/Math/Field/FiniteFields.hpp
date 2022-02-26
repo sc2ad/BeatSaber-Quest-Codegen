@@ -27,8 +27,8 @@ namespace Org::BouncyCastle::Math::Field {
   class FiniteFields;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Math::Field::FiniteFields);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Field::FiniteFields*, "Org.BouncyCastle.Math.Field", "FiniteFields");
+NEED_NO_BOX(::Org::BouncyCastle::Math::Field::FiniteFields);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::Field::FiniteFields*, "Org.BouncyCastle.Math.Field", "FiniteFields");
 // Type namespace: Org.BouncyCastle.Math.Field
 namespace Org::BouncyCastle::Math::Field {
   // Size: 0x10
@@ -38,22 +38,22 @@ namespace Org::BouncyCastle::Math::Field {
   class FiniteFields : public ::Il2CppObject {
     public:
     // Get static field: static readonly Org.BouncyCastle.Math.Field.IFiniteField GF_2
-    static Org::BouncyCastle::Math::Field::IFiniteField* _get_GF_2();
+    static ::Org::BouncyCastle::Math::Field::IFiniteField* _get_GF_2();
     // Set static field: static readonly Org.BouncyCastle.Math.Field.IFiniteField GF_2
-    static void _set_GF_2(Org::BouncyCastle::Math::Field::IFiniteField* value);
+    static void _set_GF_2(::Org::BouncyCastle::Math::Field::IFiniteField* value);
     // Get static field: static readonly Org.BouncyCastle.Math.Field.IFiniteField GF_3
-    static Org::BouncyCastle::Math::Field::IFiniteField* _get_GF_3();
+    static ::Org::BouncyCastle::Math::Field::IFiniteField* _get_GF_3();
     // Set static field: static readonly Org.BouncyCastle.Math.Field.IFiniteField GF_3
-    static void _set_GF_3(Org::BouncyCastle::Math::Field::IFiniteField* value);
+    static void _set_GF_3(::Org::BouncyCastle::Math::Field::IFiniteField* value);
     // static private System.Void .cctor()
     // Offset: 0x228BB48
     static void _cctor();
     // static public Org.BouncyCastle.Math.Field.IPolynomialExtensionField GetBinaryExtensionField(System.Int32[] exponents)
     // Offset: 0x228B778
-    static Org::BouncyCastle::Math::Field::IPolynomialExtensionField* GetBinaryExtensionField(::ArrayW<int> exponents);
+    static ::Org::BouncyCastle::Math::Field::IPolynomialExtensionField* GetBinaryExtensionField(::ArrayW<int> exponents);
     // static public Org.BouncyCastle.Math.Field.IFiniteField GetPrimeField(Org.BouncyCastle.Math.BigInteger characteristic)
     // Offset: 0x228B9A4
-    static Org::BouncyCastle::Math::Field::IFiniteField* GetPrimeField(Org::BouncyCastle::Math::BigInteger* characteristic);
+    static ::Org::BouncyCastle::Math::Field::IFiniteField* GetPrimeField(::Org::BouncyCastle::Math::BigInteger* characteristic);
   }; // Org.BouncyCastle.Math.Field.FiniteFields
   #pragma pack(pop)
 }
@@ -69,7 +69,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Field::FiniteFields::GetBinaryExtensionField
 // Il2CppName: GetBinaryExtensionField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::Field::IPolynomialExtensionField* (*)(::ArrayW<int>)>(&Org::BouncyCastle::Math::Field::FiniteFields::GetBinaryExtensionField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::Field::IPolynomialExtensionField* (*)(::ArrayW<int>)>(&Org::BouncyCastle::Math::Field::FiniteFields::GetBinaryExtensionField)> {
   static const MethodInfo* get() {
     static auto* exponents = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::Field::FiniteFields*), "GetBinaryExtensionField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{exponents});
@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Field::FiniteFields::GetPrimeField
 // Il2CppName: GetPrimeField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::Field::IFiniteField* (*)(Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Math::Field::FiniteFields::GetPrimeField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::Field::IFiniteField* (*)(::Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Math::Field::FiniteFields::GetPrimeField)> {
   static const MethodInfo* get() {
     static auto* characteristic = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math", "BigInteger")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::Field::FiniteFields*), "GetPrimeField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{characteristic});

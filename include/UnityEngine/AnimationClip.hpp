@@ -42,8 +42,8 @@ namespace UnityEngine {
   class AnimationClip;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::AnimationClip);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimationClip*, "UnityEngine", "AnimationClip");
+NEED_NO_BOX(::UnityEngine::AnimationClip);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AnimationClip*, "UnityEngine", "AnimationClip");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x19
@@ -52,7 +52,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NativeTypeAttribute] Offset: 11BF378
   // [NativeHeaderAttribute] Offset: 11BF378
-  class AnimationClip : public UnityEngine::Motion {
+  class AnimationClip : public ::UnityEngine::Motion {
     public:
     // public System.Single get_length()
     // Offset: 0x29A3670
@@ -71,16 +71,16 @@ namespace UnityEngine {
     void set_frameRate(float value);
     // public UnityEngine.WrapMode get_wrapMode()
     // Offset: 0x29A35C8
-    UnityEngine::WrapMode get_wrapMode();
+    ::UnityEngine::WrapMode get_wrapMode();
     // public System.Void set_wrapMode(UnityEngine.WrapMode value)
     // Offset: 0x29A38B0
-    void set_wrapMode(UnityEngine::WrapMode value);
+    void set_wrapMode(::UnityEngine::WrapMode value);
     // public UnityEngine.Bounds get_localBounds()
     // Offset: 0x29A3900
-    UnityEngine::Bounds get_localBounds();
+    ::UnityEngine::Bounds get_localBounds();
     // public System.Void set_localBounds(UnityEngine.Bounds value)
     // Offset: 0x29A39BC
-    void set_localBounds(UnityEngine::Bounds value);
+    void set_localBounds(::UnityEngine::Bounds value);
     // public System.Boolean get_legacy()
     // Offset: 0x29A3A5C
     bool get_legacy();
@@ -110,22 +110,22 @@ namespace UnityEngine {
     bool get_hasRootMotion();
     // public UnityEngine.AnimationEvent[] get_events()
     // Offset: 0x29A3DB0
-    ::ArrayW<UnityEngine::AnimationEvent*> get_events();
+    ::ArrayW<::UnityEngine::AnimationEvent*> get_events();
     // public System.Void set_events(UnityEngine.AnimationEvent[] value)
     // Offset: 0x29A3E84
-    void set_events(::ArrayW<UnityEngine::AnimationEvent*> value);
+    void set_events(::ArrayW<::UnityEngine::AnimationEvent*> value);
     // static private System.Void Internal_CreateAnimationClip(UnityEngine.AnimationClip self)
     // Offset: 0x29A34F8
-    static void Internal_CreateAnimationClip(UnityEngine::AnimationClip* self);
+    static void Internal_CreateAnimationClip(::UnityEngine::AnimationClip* self);
     // public System.Void SampleAnimation(UnityEngine.GameObject go, System.Single time)
     // Offset: 0x29A3538
-    void SampleAnimation(UnityEngine::GameObject* go, float time);
+    void SampleAnimation(::UnityEngine::GameObject* go, float time);
     // static System.Void SampleAnimation(UnityEngine.GameObject go, UnityEngine.AnimationClip clip, System.Single inTime, UnityEngine.WrapMode wrapMode)
     // Offset: 0x29A3608
-    static void SampleAnimation(UnityEngine::GameObject* go, UnityEngine::AnimationClip* clip, float inTime, UnityEngine::WrapMode wrapMode);
+    static void SampleAnimation(::UnityEngine::GameObject* go, ::UnityEngine::AnimationClip* clip, float inTime, ::UnityEngine::WrapMode wrapMode);
     // public System.Void SetCurve(System.String relativePath, System.Type type, System.String propertyName, UnityEngine.AnimationCurve curve)
     // Offset: 0x29A37C0
-    void SetCurve(::StringW relativePath, System::Type* type, ::StringW propertyName, UnityEngine::AnimationCurve* curve);
+    void SetCurve(::StringW relativePath, ::System::Type* type, ::StringW propertyName, ::UnityEngine::AnimationCurve* curve);
     // public System.Void EnsureQuaternionContinuity()
     // Offset: 0x29A3830
     void EnsureQuaternionContinuity();
@@ -134,22 +134,22 @@ namespace UnityEngine {
     void ClearCurves();
     // public System.Void AddEvent(UnityEngine.AnimationEvent evt)
     // Offset: 0x29A3CAC
-    void AddEvent(UnityEngine::AnimationEvent* evt);
+    void AddEvent(::UnityEngine::AnimationEvent* evt);
     // System.Void AddEventInternal(System.Object evt)
     // Offset: 0x29A3D60
     void AddEventInternal(::Il2CppObject* evt);
     // System.Void SetEventsInternal(System.Array value)
     // Offset: 0x29A3ED4
-    void SetEventsInternal(System::Array* value);
+    void SetEventsInternal(::System::Array* value);
     // System.Array GetEventsInternal()
     // Offset: 0x29A3E44
-    System::Array* GetEventsInternal();
+    ::System::Array* GetEventsInternal();
     // private System.Void get_localBounds_Injected(out UnityEngine.Bounds ret)
     // Offset: 0x29A396C
-    void get_localBounds_Injected(ByRef<UnityEngine::Bounds> ret);
+    void get_localBounds_Injected(ByRef<::UnityEngine::Bounds> ret);
     // private System.Void set_localBounds_Injected(ref UnityEngine.Bounds value)
     // Offset: 0x29A3A0C
-    void set_localBounds_Injected(ByRef<UnityEngine::Bounds> value);
+    void set_localBounds_Injected(ByRef<::UnityEngine::Bounds> value);
     // public System.Void .ctor()
     // Offset: 0x29A344C
     // Implemented from: UnityEngine.Motion
@@ -158,7 +158,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnimationClip* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AnimationClip::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AnimationClip::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnimationClip*, creationType>()));
     }
   }; // UnityEngine.AnimationClip
@@ -209,7 +209,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AnimationClip::get_wrapMode
 // Il2CppName: get_wrapMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::WrapMode (UnityEngine::AnimationClip::*)()>(&UnityEngine::AnimationClip::get_wrapMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::WrapMode (UnityEngine::AnimationClip::*)()>(&UnityEngine::AnimationClip::get_wrapMode)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimationClip*), "get_wrapMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -217,7 +217,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::AnimationClip::set_wrapMode
 // Il2CppName: set_wrapMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AnimationClip::*)(UnityEngine::WrapMode)>(&UnityEngine::AnimationClip::set_wrapMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AnimationClip::*)(::UnityEngine::WrapMode)>(&UnityEngine::AnimationClip::set_wrapMode)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "WrapMode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimationClip*), "set_wrapMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -226,7 +226,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AnimationClip::get_localBounds
 // Il2CppName: get_localBounds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Bounds (UnityEngine::AnimationClip::*)()>(&UnityEngine::AnimationClip::get_localBounds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Bounds (UnityEngine::AnimationClip::*)()>(&UnityEngine::AnimationClip::get_localBounds)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimationClip*), "get_localBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -234,7 +234,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::AnimationClip::set_localBounds
 // Il2CppName: set_localBounds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AnimationClip::*)(UnityEngine::Bounds)>(&UnityEngine::AnimationClip::set_localBounds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AnimationClip::*)(::UnityEngine::Bounds)>(&UnityEngine::AnimationClip::set_localBounds)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Bounds")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimationClip*), "set_localBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -316,7 +316,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::AnimationClip::get_events
 // Il2CppName: get_events
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::AnimationEvent*> (UnityEngine::AnimationClip::*)()>(&UnityEngine::AnimationClip::get_events)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::AnimationEvent*> (UnityEngine::AnimationClip::*)()>(&UnityEngine::AnimationClip::get_events)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimationClip*), "get_events", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -324,7 +324,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: UnityEngine::AnimationClip::set_events
 // Il2CppName: set_events
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AnimationClip::*)(::ArrayW<UnityEngine::AnimationEvent*>)>(&UnityEngine::AnimationClip::set_events)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AnimationClip::*)(::ArrayW<::UnityEngine::AnimationEvent*>)>(&UnityEngine::AnimationClip::set_events)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationEvent"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimationClip*), "set_events", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -333,7 +333,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AnimationClip::Internal_CreateAnimationClip
 // Il2CppName: Internal_CreateAnimationClip
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::AnimationClip*)>(&UnityEngine::AnimationClip::Internal_CreateAnimationClip)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::AnimationClip*)>(&UnityEngine::AnimationClip::Internal_CreateAnimationClip)> {
   static const MethodInfo* get() {
     static auto* self = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationClip")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimationClip*), "Internal_CreateAnimationClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{self});
@@ -342,7 +342,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::AnimationClip::SampleAnimation
 // Il2CppName: SampleAnimation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AnimationClip::*)(UnityEngine::GameObject*, float)>(&UnityEngine::AnimationClip::SampleAnimation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AnimationClip::*)(::UnityEngine::GameObject*, float)>(&UnityEngine::AnimationClip::SampleAnimation)> {
   static const MethodInfo* get() {
     static auto* go = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -352,7 +352,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AnimationClip::SampleAnimation
 // Il2CppName: SampleAnimation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, UnityEngine::AnimationClip*, float, UnityEngine::WrapMode)>(&UnityEngine::AnimationClip::SampleAnimation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*, ::UnityEngine::AnimationClip*, float, ::UnityEngine::WrapMode)>(&UnityEngine::AnimationClip::SampleAnimation)> {
   static const MethodInfo* get() {
     static auto* go = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* clip = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationClip")->byval_arg;
@@ -364,7 +364,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::AnimationClip::SetCurve
 // Il2CppName: SetCurve
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AnimationClip::*)(::StringW, System::Type*, ::StringW, UnityEngine::AnimationCurve*)>(&UnityEngine::AnimationClip::SetCurve)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AnimationClip::*)(::StringW, ::System::Type*, ::StringW, ::UnityEngine::AnimationCurve*)>(&UnityEngine::AnimationClip::SetCurve)> {
   static const MethodInfo* get() {
     static auto* relativePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -392,7 +392,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AnimationClip::AddEvent
 // Il2CppName: AddEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AnimationClip::*)(UnityEngine::AnimationEvent*)>(&UnityEngine::AnimationClip::AddEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AnimationClip::*)(::UnityEngine::AnimationEvent*)>(&UnityEngine::AnimationClip::AddEvent)> {
   static const MethodInfo* get() {
     static auto* evt = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationEvent")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimationClip*), "AddEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{evt});
@@ -410,7 +410,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AnimationClip::SetEventsInternal
 // Il2CppName: SetEventsInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AnimationClip::*)(System::Array*)>(&UnityEngine::AnimationClip::SetEventsInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AnimationClip::*)(::System::Array*)>(&UnityEngine::AnimationClip::SetEventsInternal)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Array")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimationClip*), "SetEventsInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -419,7 +419,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AnimationClip::GetEventsInternal
 // Il2CppName: GetEventsInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Array* (UnityEngine::AnimationClip::*)()>(&UnityEngine::AnimationClip::GetEventsInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Array* (UnityEngine::AnimationClip::*)()>(&UnityEngine::AnimationClip::GetEventsInternal)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimationClip*), "GetEventsInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -427,7 +427,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Arr
 // Writing MetadataGetter for method: UnityEngine::AnimationClip::get_localBounds_Injected
 // Il2CppName: get_localBounds_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AnimationClip::*)(ByRef<UnityEngine::Bounds>)>(&UnityEngine::AnimationClip::get_localBounds_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AnimationClip::*)(ByRef<::UnityEngine::Bounds>)>(&UnityEngine::AnimationClip::get_localBounds_Injected)> {
   static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Bounds")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimationClip*), "get_localBounds_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
@@ -436,7 +436,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AnimationClip::set_localBounds_Injected
 // Il2CppName: set_localBounds_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AnimationClip::*)(ByRef<UnityEngine::Bounds>)>(&UnityEngine::AnimationClip::set_localBounds_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AnimationClip::*)(ByRef<::UnityEngine::Bounds>)>(&UnityEngine::AnimationClip::set_localBounds_Injected)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Bounds")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimationClip*), "set_localBounds_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

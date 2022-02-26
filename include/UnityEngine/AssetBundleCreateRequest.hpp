@@ -25,8 +25,8 @@ namespace UnityEngine {
   class AssetBundleCreateRequest;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::AssetBundleCreateRequest);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AssetBundleCreateRequest*, "UnityEngine", "AssetBundleCreateRequest");
+NEED_NO_BOX(::UnityEngine::AssetBundleCreateRequest);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AssetBundleCreateRequest*, "UnityEngine", "AssetBundleCreateRequest");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x20
@@ -36,11 +36,11 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NativeHeaderAttribute] Offset: 11D5F30
   // [RequiredByNativeCodeAttribute] Offset: 11D5F30
-  class AssetBundleCreateRequest : public UnityEngine::AsyncOperation {
+  class AssetBundleCreateRequest : public ::UnityEngine::AsyncOperation {
     public:
     // public UnityEngine.AssetBundle get_assetBundle()
     // Offset: 0x2A5EC18
-    UnityEngine::AssetBundle* get_assetBundle();
+    ::UnityEngine::AssetBundle* get_assetBundle();
     // public System.Void .ctor()
     // Offset: 0x2A5EC58
     // Implemented from: UnityEngine.AsyncOperation
@@ -49,7 +49,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssetBundleCreateRequest* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AssetBundleCreateRequest::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AssetBundleCreateRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssetBundleCreateRequest*, creationType>()));
     }
   }; // UnityEngine.AssetBundleCreateRequest
@@ -59,7 +59,7 @@ namespace UnityEngine {
 // Writing MetadataGetter for method: UnityEngine::AssetBundleCreateRequest::get_assetBundle
 // Il2CppName: get_assetBundle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AssetBundle* (UnityEngine::AssetBundleCreateRequest::*)()>(&UnityEngine::AssetBundleCreateRequest::get_assetBundle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AssetBundle* (UnityEngine::AssetBundleCreateRequest::*)()>(&UnityEngine::AssetBundleCreateRequest::get_assetBundle)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AssetBundleCreateRequest*), "get_assetBundle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

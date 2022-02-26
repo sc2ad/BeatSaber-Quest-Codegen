@@ -12,8 +12,8 @@ namespace System::Runtime::InteropServices {
   class ErrorWrapper;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::InteropServices::ErrorWrapper);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::ErrorWrapper*, "System.Runtime.InteropServices", "ErrorWrapper");
+NEED_NO_BOX(::System::Runtime::InteropServices::ErrorWrapper);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::InteropServices::ErrorWrapper*, "System.Runtime.InteropServices", "ErrorWrapper");
 // Type namespace: System.Runtime.InteropServices
 namespace System::Runtime::InteropServices {
   // Size: 0x14

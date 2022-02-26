@@ -16,8 +16,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*, "", "ShaderVariantsSO/ShaderVariant/Variant");
+NEED_NO_BOX(::GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*, "", "ShaderVariantsSO/ShaderVariant/Variant");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -38,9 +38,9 @@ namespace GlobalNamespace {
     // private UnityEngine.Rendering.PassType _passType
     // Size: 0x4
     // Offset: 0x10
-    UnityEngine::Rendering::PassType passType;
+    ::UnityEngine::Rendering::PassType passType;
     // Field size check
-    static_assert(sizeof(UnityEngine::Rendering::PassType) == 0x4);
+    static_assert(sizeof(::UnityEngine::Rendering::PassType) == 0x4);
     // Padding between fields: passType and: keywords
     char __padding0[0x4] = {};
     // private System.String _keywords
@@ -51,20 +51,20 @@ namespace GlobalNamespace {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.Rendering.PassType _passType
-    UnityEngine::Rendering::PassType& dyn__passType();
+    ::UnityEngine::Rendering::PassType& dyn__passType();
     // Get instance field reference: private System.String _keywords
     ::StringW& dyn__keywords();
     // public UnityEngine.Rendering.PassType get_passType()
     // Offset: 0x2E107E8
-    UnityEngine::Rendering::PassType get_passType();
+    ::UnityEngine::Rendering::PassType get_passType();
     // public System.String get_keywords()
     // Offset: 0x2E107F0
     ::StringW get_keywords();
     // public System.Void .ctor(UnityEngine.Rendering.PassType passType, System.String keywords)
     // Offset: 0x2E107F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ShaderVariantsSO::ShaderVariant::Variant* New_ctor(UnityEngine::Rendering::PassType passType, ::StringW keywords) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant::.ctor");
+    static ShaderVariantsSO::ShaderVariant::Variant* New_ctor(::UnityEngine::Rendering::PassType passType, ::StringW keywords) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ShaderVariantsSO::ShaderVariant::Variant*, creationType>(passType, keywords)));
     }
   }; // ShaderVariantsSO/ShaderVariant/Variant
@@ -76,7 +76,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant::get_passType
 // Il2CppName: get_passType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::PassType (GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant::*)()>(&GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant::get_passType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::PassType (GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant::*)()>(&GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant::get_passType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*), "get_passType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

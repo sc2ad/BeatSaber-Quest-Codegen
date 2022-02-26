@@ -20,8 +20,8 @@ namespace OVRSimpleJSON {
   class JSON;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(OVRSimpleJSON::JSON);
-DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSON*, "OVRSimpleJSON", "JSON");
+NEED_NO_BOX(::OVRSimpleJSON::JSON);
+DEFINE_IL2CPP_ARG_TYPE(::OVRSimpleJSON::JSON*, "OVRSimpleJSON", "JSON");
 // Type namespace: OVRSimpleJSON
 namespace OVRSimpleJSON {
   // Size: 0x10
@@ -32,7 +32,7 @@ namespace OVRSimpleJSON {
     public:
     // static public OVRSimpleJSON.JSONNode Parse(System.String aJSON)
     // Offset: 0x1A7D6A8
-    static OVRSimpleJSON::JSONNode* Parse(::StringW aJSON);
+    static ::OVRSimpleJSON::JSONNode* Parse(::StringW aJSON);
   }; // OVRSimpleJSON.JSON
   #pragma pack(pop)
 }
@@ -40,7 +40,7 @@ namespace OVRSimpleJSON {
 // Writing MetadataGetter for method: OVRSimpleJSON::JSON::Parse
 // Il2CppName: Parse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVRSimpleJSON::JSONNode* (*)(::StringW)>(&OVRSimpleJSON::JSON::Parse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVRSimpleJSON::JSONNode* (*)(::StringW)>(&OVRSimpleJSON::JSON::Parse)> {
   static const MethodInfo* get() {
     static auto* aJSON = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSON*), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{aJSON});

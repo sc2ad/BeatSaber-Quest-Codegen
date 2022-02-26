@@ -30,8 +30,8 @@ namespace UnityEngine::UI {
   class Clipping;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::UI::Clipping);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Clipping*, "UnityEngine.UI", "Clipping");
+NEED_NO_BOX(::UnityEngine::UI::Clipping);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::Clipping*, "UnityEngine.UI", "Clipping");
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {
   // Size: 0x10
@@ -42,7 +42,7 @@ namespace UnityEngine::UI {
     public:
     // static public UnityEngine.Rect FindCullAndClipWorldRect(System.Collections.Generic.List`1<UnityEngine.UI.RectMask2D> rectMaskParents, out System.Boolean validRect)
     // Offset: 0x18745D8
-    static UnityEngine::Rect FindCullAndClipWorldRect(System::Collections::Generic::List_1<UnityEngine::UI::RectMask2D*>* rectMaskParents, ByRef<bool> validRect);
+    static ::UnityEngine::Rect FindCullAndClipWorldRect(::System::Collections::Generic::List_1<::UnityEngine::UI::RectMask2D*>* rectMaskParents, ByRef<bool> validRect);
   }; // UnityEngine.UI.Clipping
   #pragma pack(pop)
 }
@@ -50,7 +50,7 @@ namespace UnityEngine::UI {
 // Writing MetadataGetter for method: UnityEngine::UI::Clipping::FindCullAndClipWorldRect
 // Il2CppName: FindCullAndClipWorldRect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (*)(System::Collections::Generic::List_1<UnityEngine::UI::RectMask2D*>*, ByRef<bool>)>(&UnityEngine::UI::Clipping::FindCullAndClipWorldRect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rect (*)(::System::Collections::Generic::List_1<::UnityEngine::UI::RectMask2D*>*, ByRef<bool>)>(&UnityEngine::UI::Clipping::FindCullAndClipWorldRect)> {
   static const MethodInfo* get() {
     static auto* rectMaskParents = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.UI", "RectMask2D")})->byval_arg;
     static auto* validRect = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;

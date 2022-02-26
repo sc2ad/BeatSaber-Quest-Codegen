@@ -16,8 +16,8 @@ namespace GlobalNamespace {
   class NetworkUtility;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::NetworkUtility);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkUtility*, "", "NetworkUtility");
+NEED_NO_BOX(::GlobalNamespace::NetworkUtility);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NetworkUtility*, "", "NetworkUtility");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     static void Init();
     // static public System.String GetHashedUserId(System.String userId, AuthenticationToken/Platform platform)
     // Offset: 0x2CAA2DC
-    static ::StringW GetHashedUserId(::StringW userId, GlobalNamespace::AuthenticationToken::Platform platform);
+    static ::StringW GetHashedUserId(::StringW userId, ::GlobalNamespace::AuthenticationToken::Platform platform);
     // static public System.String EncryptName(System.String text)
     // Offset: 0x2CAA528
     static ::StringW EncryptName(::StringW text);
@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::NetworkUtility::GetHashedUserId
 // Il2CppName: GetHashedUserId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, GlobalNamespace::AuthenticationToken::Platform)>(&GlobalNamespace::NetworkUtility::GetHashedUserId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::GlobalNamespace::AuthenticationToken::Platform)>(&GlobalNamespace::NetworkUtility::GetHashedUserId)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* platform = &::il2cpp_utils::GetClassFromName("", "AuthenticationToken/Platform")->byval_arg;

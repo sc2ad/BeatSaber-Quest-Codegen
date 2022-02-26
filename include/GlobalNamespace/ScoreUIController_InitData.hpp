@@ -15,8 +15,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::ScoreUIController::InitData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScoreUIController::InitData*, "", "ScoreUIController/InitData");
+NEED_NO_BOX(::GlobalNamespace::ScoreUIController::InitData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ScoreUIController::InitData*, "", "ScoreUIController/InitData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x14
@@ -37,26 +37,26 @@ namespace GlobalNamespace {
     // public readonly ScoreUIController/ScoreDisplayType scoreDisplayType
     // Size: 0x4
     // Offset: 0x10
-    GlobalNamespace::ScoreUIController::ScoreDisplayType scoreDisplayType;
+    ::GlobalNamespace::ScoreUIController::ScoreDisplayType scoreDisplayType;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::ScoreUIController::ScoreDisplayType) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::ScoreUIController::ScoreDisplayType) == 0x4);
     public:
-    // Creating conversion operator: operator GlobalNamespace::ScoreUIController::ScoreDisplayType
-    constexpr operator GlobalNamespace::ScoreUIController::ScoreDisplayType() const noexcept {
+    // Creating conversion operator: operator ::GlobalNamespace::ScoreUIController::ScoreDisplayType
+    constexpr operator ::GlobalNamespace::ScoreUIController::ScoreDisplayType() const noexcept {
       return scoreDisplayType;
     }
     // Get instance field reference: public readonly ScoreUIController/ScoreDisplayType scoreDisplayType
-    GlobalNamespace::ScoreUIController::ScoreDisplayType& dyn_scoreDisplayType();
+    ::GlobalNamespace::ScoreUIController::ScoreDisplayType& dyn_scoreDisplayType();
     // public System.Void .ctor(ScoreUIController/ScoreDisplayType scoreDisplayType)
     // Offset: 0x2B5E340
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ScoreUIController::InitData* New_ctor(GlobalNamespace::ScoreUIController::ScoreDisplayType scoreDisplayType) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ScoreUIController::InitData::.ctor");
+    static ScoreUIController::InitData* New_ctor(::GlobalNamespace::ScoreUIController::ScoreDisplayType scoreDisplayType) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ScoreUIController::InitData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScoreUIController::InitData*, creationType>(scoreDisplayType)));
     }
   }; // ScoreUIController/InitData
   #pragma pack(pop)
-  static check_size<sizeof(ScoreUIController::InitData), 16 + sizeof(GlobalNamespace::ScoreUIController::ScoreDisplayType)> __GlobalNamespace_ScoreUIController_InitDataSizeCheck;
+  static check_size<sizeof(ScoreUIController::InitData), 16 + sizeof(::GlobalNamespace::ScoreUIController::ScoreDisplayType)> __GlobalNamespace_ScoreUIController_InitDataSizeCheck;
   static_assert(sizeof(ScoreUIController::InitData) == 0x14);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

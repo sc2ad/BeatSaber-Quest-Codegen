@@ -41,8 +41,8 @@ namespace ModestTree::Util {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::PoolableManager::$$c);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::PoolableManager::$$c*, "Zenject", "PoolableManager/<>c");
+NEED_NO_BOX(::Zenject::PoolableManager::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::PoolableManager::$$c*, "Zenject", "PoolableManager/<>c");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x10
@@ -53,46 +53,46 @@ namespace Zenject {
   class PoolableManager::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly Zenject.PoolableManager/Zenject.<>c <>9
-    static Zenject::PoolableManager::$$c* _get_$$9();
+    static ::Zenject::PoolableManager::$$c* _get_$$9();
     // Set static field: static public readonly Zenject.PoolableManager/Zenject.<>c <>9
-    static void _set_$$9(Zenject::PoolableManager::$$c* value);
+    static void _set_$$9(::Zenject::PoolableManager::$$c* value);
     // Get static field: static public System.Func`2<Zenject.PoolableManager/Zenject.PoolableInfo,System.Int32> <>9__2_1
-    static System::Func_2<Zenject::PoolableManager::PoolableInfo, int>* _get_$$9__2_1();
+    static ::System::Func_2<::Zenject::PoolableManager::PoolableInfo, int>* _get_$$9__2_1();
     // Set static field: static public System.Func`2<Zenject.PoolableManager/Zenject.PoolableInfo,System.Int32> <>9__2_1
-    static void _set_$$9__2_1(System::Func_2<Zenject::PoolableManager::PoolableInfo, int>* value);
+    static void _set_$$9__2_1(::System::Func_2<::Zenject::PoolableManager::PoolableInfo, int>* value);
     // Get static field: static public System.Func`2<Zenject.PoolableManager/Zenject.PoolableInfo,Zenject.IPoolable> <>9__2_2
-    static System::Func_2<Zenject::PoolableManager::PoolableInfo, Zenject::IPoolable*>* _get_$$9__2_2();
+    static ::System::Func_2<::Zenject::PoolableManager::PoolableInfo, ::Zenject::IPoolable*>* _get_$$9__2_2();
     // Set static field: static public System.Func`2<Zenject.PoolableManager/Zenject.PoolableInfo,Zenject.IPoolable> <>9__2_2
-    static void _set_$$9__2_2(System::Func_2<Zenject::PoolableManager::PoolableInfo, Zenject::IPoolable*>* value);
+    static void _set_$$9__2_2(::System::Func_2<::Zenject::PoolableManager::PoolableInfo, ::Zenject::IPoolable*>* value);
     // Get static field: static public System.Func`2<ModestTree.Util.ValuePair`2<System.Type,System.Int32>,System.Nullable`1<System.Int32>> <>9__3_1
-    static System::Func_2<ModestTree::Util::ValuePair_2<System::Type*, int>*, System::Nullable_1<int>>* _get_$$9__3_1();
+    static ::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, ::System::Nullable_1<int>>* _get_$$9__3_1();
     // Set static field: static public System.Func`2<ModestTree.Util.ValuePair`2<System.Type,System.Int32>,System.Nullable`1<System.Int32>> <>9__3_1
-    static void _set_$$9__3_1(System::Func_2<ModestTree::Util::ValuePair_2<System::Type*, int>*, System::Nullable_1<int>>* value);
+    static void _set_$$9__3_1(::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, ::System::Nullable_1<int>>* value);
     // static private System.Void .cctor()
     // Offset: 0x1B0DC58
     static void _cctor();
     // System.Int32 <.ctor>b__2_1(Zenject.PoolableManager/Zenject.PoolableInfo x)
     // Offset: 0x1B0DCC4
-    int $_ctor$b__2_1(Zenject::PoolableManager::PoolableInfo x);
+    int $_ctor$b__2_1(::Zenject::PoolableManager::PoolableInfo x);
     // Zenject.IPoolable <.ctor>b__2_2(Zenject.PoolableManager/Zenject.PoolableInfo x)
     // Offset: 0x1B0DCCC
-    Zenject::IPoolable* $_ctor$b__2_2(Zenject::PoolableManager::PoolableInfo x);
+    ::Zenject::IPoolable* $_ctor$b__2_2(::Zenject::PoolableManager::PoolableInfo x);
     // System.Nullable`1<System.Int32> <CreatePoolableInfo>b__3_1(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
     // Offset: 0x1B0DCD4
-    System::Nullable_1<int> $CreatePoolableInfo$b__3_1(ModestTree::Util::ValuePair_2<System::Type*, int>* x);
+    ::System::Nullable_1<int> $CreatePoolableInfo$b__3_1(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
     // static private System.Object __zenCreate(System.Object[] P_0)
     // Offset: 0x1B0DD44
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
     // Offset: 0x1B0DDA0
-    static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
     // Offset: 0x1B0DCBC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PoolableManager::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PoolableManager::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolableManager::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PoolableManager::$$c*, creationType>()));
     }
   }; // Zenject.PoolableManager/Zenject.<>c
@@ -110,7 +110,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Zenject::PoolableManager::$$c::$_ctor$b__2_1
 // Il2CppName: <.ctor>b__2_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Zenject::PoolableManager::$$c::*)(Zenject::PoolableManager::PoolableInfo)>(&Zenject::PoolableManager::$$c::$_ctor$b__2_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Zenject::PoolableManager::$$c::*)(::Zenject::PoolableManager::PoolableInfo)>(&Zenject::PoolableManager::$$c::$_ctor$b__2_1)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("Zenject", "PoolableManager/PoolableInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::PoolableManager::$$c*), "<.ctor>b__2_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -119,7 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Zenjec
 // Writing MetadataGetter for method: Zenject::PoolableManager::$$c::$_ctor$b__2_2
 // Il2CppName: <.ctor>b__2_2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::IPoolable* (Zenject::PoolableManager::$$c::*)(Zenject::PoolableManager::PoolableInfo)>(&Zenject::PoolableManager::$$c::$_ctor$b__2_2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::IPoolable* (Zenject::PoolableManager::$$c::*)(::Zenject::PoolableManager::PoolableInfo)>(&Zenject::PoolableManager::$$c::$_ctor$b__2_2)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("Zenject", "PoolableManager/PoolableInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::PoolableManager::$$c*), "<.ctor>b__2_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -128,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::IP
 // Writing MetadataGetter for method: Zenject::PoolableManager::$$c::$CreatePoolableInfo$b__3_1
 // Il2CppName: <CreatePoolableInfo>b__3_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<int> (Zenject::PoolableManager::$$c::*)(ModestTree::Util::ValuePair_2<System::Type*, int>*)>(&Zenject::PoolableManager::$$c::$CreatePoolableInfo$b__3_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<int> (Zenject::PoolableManager::$$c::*)(::ModestTree::Util::ValuePair_2<::System::Type*, int>*)>(&Zenject::PoolableManager::$$c::$CreatePoolableInfo$b__3_1)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("ModestTree.Util", "ValuePair`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Type"), ::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::PoolableManager::$$c*), "<CreatePoolableInfo>b__3_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -146,7 +146,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: Zenject::PoolableManager::$$c::__zenCreateInjectTypeInfo
 // Il2CppName: __zenCreateInjectTypeInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (*)()>(&Zenject::PoolableManager::$$c::__zenCreateInjectTypeInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&Zenject::PoolableManager::$$c::__zenCreateInjectTypeInfo)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::PoolableManager::$$c*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

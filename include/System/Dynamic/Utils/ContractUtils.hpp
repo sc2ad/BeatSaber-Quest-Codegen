@@ -30,8 +30,8 @@ namespace System::Dynamic::Utils {
   class ContractUtils;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Dynamic::Utils::ContractUtils);
-DEFINE_IL2CPP_ARG_TYPE(System::Dynamic::Utils::ContractUtils*, "System.Dynamic.Utils", "ContractUtils");
+NEED_NO_BOX(::System::Dynamic::Utils::ContractUtils);
+DEFINE_IL2CPP_ARG_TYPE(::System::Dynamic::Utils::ContractUtils*, "System.Dynamic.Utils", "ContractUtils");
 // Type namespace: System.Dynamic.Utils
 namespace System::Dynamic::Utils {
   // Size: 0x10
@@ -42,7 +42,7 @@ namespace System::Dynamic::Utils {
     public:
     // static public System.Exception get_Unreachable()
     // Offset: 0x15F0C14
-    static System::Exception* get_Unreachable();
+    static ::System::Exception* get_Unreachable();
     // static public System.Void Requires(System.Boolean precondition, System.String paramName)
     // Offset: 0x15F09D4
     static void Requires(bool precondition, ::StringW paramName);
@@ -55,8 +55,8 @@ namespace System::Dynamic::Utils {
     // static public System.Void RequiresNotNullItems(System.Collections.Generic.IList`1<T> array, System.String arrayName)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static void RequiresNotNullItems(System::Collections::Generic::IList_1<T>* array, ::StringW arrayName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Dynamic::Utils::ContractUtils::RequiresNotNullItems");
+    static void RequiresNotNullItems(::System::Collections::Generic::IList_1<T>* array, ::StringW arrayName) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Dynamic::Utils::ContractUtils::RequiresNotNullItems");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Dynamic.Utils", "ContractUtils", "RequiresNotNullItems", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(arrayName)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, array, arrayName);
@@ -67,8 +67,8 @@ namespace System::Dynamic::Utils {
     // static public System.Void RequiresArrayRange(System.Collections.Generic.IList`1<T> array, System.Int32 offset, System.Int32 count, System.String offsetName, System.String countName)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static void RequiresArrayRange(System::Collections::Generic::IList_1<T>* array, int offset, int count, ::StringW offsetName, ::StringW countName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Dynamic::Utils::ContractUtils::RequiresArrayRange");
+    static void RequiresArrayRange(::System::Collections::Generic::IList_1<T>* array, int offset, int count, ::StringW offsetName, ::StringW countName) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Dynamic::Utils::ContractUtils::RequiresArrayRange");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Dynamic.Utils", "ContractUtils", "RequiresArrayRange", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(offset), ::il2cpp_utils::ExtractType(count), ::il2cpp_utils::ExtractType(offsetName), ::il2cpp_utils::ExtractType(countName)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, array, offset, count, offsetName, countName);
@@ -80,7 +80,7 @@ namespace System::Dynamic::Utils {
 // Writing MetadataGetter for method: System::Dynamic::Utils::ContractUtils::get_Unreachable
 // Il2CppName: get_Unreachable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Dynamic::Utils::ContractUtils::get_Unreachable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Dynamic::Utils::ContractUtils::get_Unreachable)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Dynamic::Utils::ContractUtils*), "get_Unreachable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

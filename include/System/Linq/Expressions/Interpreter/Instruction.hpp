@@ -24,8 +24,8 @@ namespace System::Linq::Expressions::Interpreter {
   class Instruction;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Linq::Expressions::Interpreter::Instruction);
-DEFINE_IL2CPP_ARG_TYPE(System::Linq::Expressions::Interpreter::Instruction*, "System.Linq.Expressions.Interpreter", "Instruction");
+NEED_NO_BOX(::System::Linq::Expressions::Interpreter::Instruction);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::Instruction*, "System.Linq.Expressions.Interpreter", "Instruction");
 // Type namespace: System.Linq.Expressions.Interpreter
 namespace System::Linq::Expressions::Interpreter {
   // Size: 0x10
@@ -51,7 +51,7 @@ namespace System::Linq::Expressions::Interpreter {
     ::StringW get_InstructionName();
     // public System.Int32 Run(System.Linq.Expressions.Interpreter.InterpretedFrame frame)
     // Offset: 0xFFFFFFFF
-    int Run(System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
+    int Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
     // static protected System.Void NullCheck(System.Object o)
     // Offset: 0x1BF84B4
     static void NullCheck(::Il2CppObject* o);
@@ -61,7 +61,7 @@ namespace System::Linq::Expressions::Interpreter {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Instruction* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Expressions::Interpreter::Instruction::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Expressions::Interpreter::Instruction::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Instruction*, creationType>()));
     }
     // public override System.String ToString()
@@ -116,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::Instruction::Run
 // Il2CppName: Run
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Linq::Expressions::Interpreter::Instruction::*)(System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&System::Linq::Expressions::Interpreter::Instruction::Run)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Linq::Expressions::Interpreter::Instruction::*)(::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&System::Linq::Expressions::Interpreter::Instruction::Run)> {
   static const MethodInfo* get() {
     static auto* frame = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions.Interpreter", "InterpretedFrame")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::Instruction*), "Run", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{frame});

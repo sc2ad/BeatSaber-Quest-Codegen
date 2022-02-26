@@ -19,8 +19,8 @@ namespace GlobalNamespace {
   class MultiplayerModeSettings;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MultiplayerModeSettings);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerModeSettings*, "", "MultiplayerModeSettings");
+NEED_NO_BOX(::GlobalNamespace::MultiplayerModeSettings);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerModeSettings*, "", "MultiplayerModeSettings");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x21
@@ -47,9 +47,9 @@ namespace GlobalNamespace {
     // public BeatmapDifficultyMask quickPlayBeatmapDifficulty
     // Size: 0x1
     // Offset: 0x14
-    GlobalNamespace::BeatmapDifficultyMask quickPlayBeatmapDifficulty;
+    ::GlobalNamespace::BeatmapDifficultyMask quickPlayBeatmapDifficulty;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::BeatmapDifficultyMask) == 0x1);
+    static_assert(sizeof(::GlobalNamespace::BeatmapDifficultyMask) == 0x1);
     // Padding between fields: quickPlayBeatmapDifficulty and: quickPlaySongPackMaskSerializedName
     char __padding1[0x3] = {};
     // public System.String quickPlaySongPackMaskSerializedName
@@ -68,7 +68,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 createServerPlayersCount
     int& dyn_createServerPlayersCount();
     // Get instance field reference: public BeatmapDifficultyMask quickPlayBeatmapDifficulty
-    GlobalNamespace::BeatmapDifficultyMask& dyn_quickPlayBeatmapDifficulty();
+    ::GlobalNamespace::BeatmapDifficultyMask& dyn_quickPlayBeatmapDifficulty();
     // Get instance field reference: public System.String quickPlaySongPackMaskSerializedName
     ::StringW& dyn_quickPlaySongPackMaskSerializedName();
     // Get instance field reference: public System.Boolean quickPlayEnableLevelSelection
@@ -79,7 +79,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerModeSettings* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerModeSettings::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerModeSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerModeSettings*, creationType>()));
     }
   }; // MultiplayerModeSettings

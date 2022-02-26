@@ -39,8 +39,8 @@ namespace TMPro {
   class TextContainer;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(TMPro::TextContainer);
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TextContainer*, "TMPro", "TextContainer");
+NEED_NO_BOX(::TMPro::TextContainer);
+DEFINE_IL2CPP_ARG_TYPE(::TMPro::TextContainer*, "TMPro", "TextContainer");
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0x70
@@ -49,7 +49,7 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   // [RequireComponent] Offset: 11EF440
   // [AddComponentMenu] Offset: 11EF440
-  class TextContainer : public UnityEngine::EventSystems::UIBehaviour {
+  class TextContainer : public ::UnityEngine::EventSystems::UIBehaviour {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -71,21 +71,21 @@ namespace TMPro {
     // private UnityEngine.Vector2 m_pivot
     // Size: 0x8
     // Offset: 0x1C
-    UnityEngine::Vector2 m_pivot;
+    ::UnityEngine::Vector2 m_pivot;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector2) == 0x8);
+    static_assert(sizeof(::UnityEngine::Vector2) == 0x8);
     // private TMPro.TextContainerAnchors m_anchorPosition
     // Size: 0x4
     // Offset: 0x24
-    TMPro::TextContainerAnchors m_anchorPosition;
+    ::TMPro::TextContainerAnchors m_anchorPosition;
     // Field size check
-    static_assert(sizeof(TMPro::TextContainerAnchors) == 0x4);
+    static_assert(sizeof(::TMPro::TextContainerAnchors) == 0x4);
     // private UnityEngine.Rect m_rect
     // Size: 0x10
     // Offset: 0x28
-    UnityEngine::Rect m_rect;
+    ::UnityEngine::Rect m_rect;
     // Field size check
-    static_assert(sizeof(UnityEngine::Rect) == 0x10);
+    static_assert(sizeof(::UnityEngine::Rect) == 0x10);
     // private System.Boolean m_isDefaultWidth
     // Size: 0x1
     // Offset: 0x38
@@ -109,48 +109,48 @@ namespace TMPro {
     // private UnityEngine.Vector3[] m_corners
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayW<UnityEngine::Vector3> m_corners;
+    ::ArrayW<::UnityEngine::Vector3> m_corners;
     // Field size check
-    static_assert(sizeof(::ArrayW<UnityEngine::Vector3>) == 0x8);
+    static_assert(sizeof(::ArrayW<::UnityEngine::Vector3>) == 0x8);
     // private UnityEngine.Vector3[] m_worldCorners
     // Size: 0x8
     // Offset: 0x48
-    ::ArrayW<UnityEngine::Vector3> m_worldCorners;
+    ::ArrayW<::UnityEngine::Vector3> m_worldCorners;
     // Field size check
-    static_assert(sizeof(::ArrayW<UnityEngine::Vector3>) == 0x8);
+    static_assert(sizeof(::ArrayW<::UnityEngine::Vector3>) == 0x8);
     // private UnityEngine.Vector4 m_margins
     // Size: 0x10
     // Offset: 0x50
-    UnityEngine::Vector4 m_margins;
+    ::UnityEngine::Vector4 m_margins;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector4) == 0x10);
+    static_assert(sizeof(::UnityEngine::Vector4) == 0x10);
     // private UnityEngine.RectTransform m_rectTransform
     // Size: 0x8
     // Offset: 0x60
-    UnityEngine::RectTransform* m_rectTransform;
+    ::UnityEngine::RectTransform* m_rectTransform;
     // Field size check
-    static_assert(sizeof(UnityEngine::RectTransform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::RectTransform*) == 0x8);
     // private TMPro.TextMeshPro m_textMeshPro
     // Size: 0x8
     // Offset: 0x68
-    TMPro::TextMeshPro* m_textMeshPro;
+    ::TMPro::TextMeshPro* m_textMeshPro;
     // Field size check
-    static_assert(sizeof(TMPro::TextMeshPro*) == 0x8);
+    static_assert(sizeof(::TMPro::TextMeshPro*) == 0x8);
     public:
-    // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const noexcept = delete;
+    // Deleting conversion operator: operator ::System::IntPtr
+    constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get static field: static private UnityEngine.Vector2 k_defaultSize
-    static UnityEngine::Vector2 _get_k_defaultSize();
+    static ::UnityEngine::Vector2 _get_k_defaultSize();
     // Set static field: static private UnityEngine.Vector2 k_defaultSize
-    static void _set_k_defaultSize(UnityEngine::Vector2 value);
+    static void _set_k_defaultSize(::UnityEngine::Vector2 value);
     // Get instance field reference: private System.Boolean m_hasChanged
     bool& dyn_m_hasChanged();
     // Get instance field reference: private UnityEngine.Vector2 m_pivot
-    UnityEngine::Vector2& dyn_m_pivot();
+    ::UnityEngine::Vector2& dyn_m_pivot();
     // Get instance field reference: private TMPro.TextContainerAnchors m_anchorPosition
-    TMPro::TextContainerAnchors& dyn_m_anchorPosition();
+    ::TMPro::TextContainerAnchors& dyn_m_anchorPosition();
     // Get instance field reference: private UnityEngine.Rect m_rect
-    UnityEngine::Rect& dyn_m_rect();
+    ::UnityEngine::Rect& dyn_m_rect();
     // Get instance field reference: private System.Boolean m_isDefaultWidth
     bool& dyn_m_isDefaultWidth();
     // Get instance field reference: private System.Boolean m_isDefaultHeight
@@ -158,15 +158,15 @@ namespace TMPro {
     // Get instance field reference: private System.Boolean m_isAutoFitting
     bool& dyn_m_isAutoFitting();
     // Get instance field reference: private UnityEngine.Vector3[] m_corners
-    ::ArrayW<UnityEngine::Vector3>& dyn_m_corners();
+    ::ArrayW<::UnityEngine::Vector3>& dyn_m_corners();
     // Get instance field reference: private UnityEngine.Vector3[] m_worldCorners
-    ::ArrayW<UnityEngine::Vector3>& dyn_m_worldCorners();
+    ::ArrayW<::UnityEngine::Vector3>& dyn_m_worldCorners();
     // Get instance field reference: private UnityEngine.Vector4 m_margins
-    UnityEngine::Vector4& dyn_m_margins();
+    ::UnityEngine::Vector4& dyn_m_margins();
     // Get instance field reference: private UnityEngine.RectTransform m_rectTransform
-    UnityEngine::RectTransform*& dyn_m_rectTransform();
+    ::UnityEngine::RectTransform*& dyn_m_rectTransform();
     // Get instance field reference: private TMPro.TextMeshPro m_textMeshPro
-    TMPro::TextMeshPro*& dyn_m_textMeshPro();
+    ::TMPro::TextMeshPro*& dyn_m_textMeshPro();
     // public System.Boolean get_hasChanged()
     // Offset: 0x183E2F8
     bool get_hasChanged();
@@ -175,28 +175,28 @@ namespace TMPro {
     void set_hasChanged(bool value);
     // public UnityEngine.Vector2 get_pivot()
     // Offset: 0x183E30C
-    UnityEngine::Vector2 get_pivot();
+    ::UnityEngine::Vector2 get_pivot();
     // public System.Void set_pivot(UnityEngine.Vector2 value)
     // Offset: 0x183E314
-    void set_pivot(UnityEngine::Vector2 value);
+    void set_pivot(::UnityEngine::Vector2 value);
     // public TMPro.TextContainerAnchors get_anchorPosition()
     // Offset: 0x183E840
-    TMPro::TextContainerAnchors get_anchorPosition();
+    ::TMPro::TextContainerAnchors get_anchorPosition();
     // public System.Void set_anchorPosition(TMPro.TextContainerAnchors value)
     // Offset: 0x183E848
-    void set_anchorPosition(TMPro::TextContainerAnchors value);
+    void set_anchorPosition(::TMPro::TextContainerAnchors value);
     // public UnityEngine.Rect get_rect()
     // Offset: 0x183E99C
-    UnityEngine::Rect get_rect();
+    ::UnityEngine::Rect get_rect();
     // public System.Void set_rect(UnityEngine.Rect value)
     // Offset: 0x183E9A8
-    void set_rect(UnityEngine::Rect value);
+    void set_rect(::UnityEngine::Rect value);
     // public UnityEngine.Vector2 get_size()
     // Offset: 0x183EA34
-    UnityEngine::Vector2 get_size();
+    ::UnityEngine::Vector2 get_size();
     // public System.Void set_size(UnityEngine.Vector2 value)
     // Offset: 0x183EA98
-    void set_size(UnityEngine::Vector2 value);
+    void set_size(::UnityEngine::Vector2 value);
     // public System.Single get_width()
     // Offset: 0x183EC08
     float get_width();
@@ -223,37 +223,37 @@ namespace TMPro {
     void set_isAutoFitting(bool value);
     // public UnityEngine.Vector3[] get_corners()
     // Offset: 0x183ED28
-    ::ArrayW<UnityEngine::Vector3> get_corners();
+    ::ArrayW<::UnityEngine::Vector3> get_corners();
     // public UnityEngine.Vector3[] get_worldCorners()
     // Offset: 0x183ED30
-    ::ArrayW<UnityEngine::Vector3> get_worldCorners();
+    ::ArrayW<::UnityEngine::Vector3> get_worldCorners();
     // public UnityEngine.Vector4 get_margins()
     // Offset: 0x183ED38
-    UnityEngine::Vector4 get_margins();
+    ::UnityEngine::Vector4 get_margins();
     // public System.Void set_margins(UnityEngine.Vector4 value)
     // Offset: 0x183ED44
-    void set_margins(UnityEngine::Vector4 value);
+    void set_margins(::UnityEngine::Vector4 value);
     // public UnityEngine.RectTransform get_rectTransform()
     // Offset: 0x183EE38
-    UnityEngine::RectTransform* get_rectTransform();
+    ::UnityEngine::RectTransform* get_rectTransform();
     // public TMPro.TextMeshPro get_textMeshPro()
     // Offset: 0x183EED0
-    TMPro::TextMeshPro* get_textMeshPro();
+    ::TMPro::TextMeshPro* get_textMeshPro();
     // private System.Void OnContainerChanged()
     // Offset: 0x183E704
     void OnContainerChanged();
     // private System.Void SetRect(UnityEngine.Vector2 size)
     // Offset: 0x183EB84
-    void SetRect(UnityEngine::Vector2 size);
+    void SetRect(::UnityEngine::Vector2 size);
     // private System.Void UpdateCorners()
     // Offset: 0x183F028
     void UpdateCorners();
     // private UnityEngine.Vector2 GetPivot(TMPro.TextContainerAnchors anchor)
     // Offset: 0x183E88C
-    UnityEngine::Vector2 GetPivot(TMPro::TextContainerAnchors anchor);
+    ::UnityEngine::Vector2 GetPivot(::TMPro::TextContainerAnchors anchor);
     // private TMPro.TextContainerAnchors GetAnchorPosition(UnityEngine.Vector2 pivot)
     // Offset: 0x183E3E0
-    TMPro::TextContainerAnchors GetAnchorPosition(UnityEngine::Vector2 pivot);
+    ::TMPro::TextContainerAnchors GetAnchorPosition(::UnityEngine::Vector2 pivot);
     // public System.Void .ctor()
     // Offset: 0x183F42C
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
@@ -265,7 +265,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TextContainer* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TextContainer::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TextContainer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TextContainer*, creationType>()));
     }
     // static private System.Void .cctor()
@@ -295,7 +295,7 @@ namespace TMPro {
     void OnRectTransformDimensionsChange();
   }; // TMPro.TextContainer
   #pragma pack(pop)
-  static check_size<sizeof(TextContainer), 104 + sizeof(TMPro::TextMeshPro*)> __TMPro_TextContainerSizeCheck;
+  static check_size<sizeof(TextContainer), 104 + sizeof(::TMPro::TextMeshPro*)> __TMPro_TextContainerSizeCheck;
   static_assert(sizeof(TextContainer) == 0x70);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -319,7 +319,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TextContainer::get_pivot
 // Il2CppName: get_pivot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (TMPro::TextContainer::*)()>(&TMPro::TextContainer::get_pivot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (TMPro::TextContainer::*)()>(&TMPro::TextContainer::get_pivot)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "get_pivot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -327,7 +327,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: TMPro::TextContainer::set_pivot
 // Il2CppName: set_pivot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextContainer::*)(UnityEngine::Vector2)>(&TMPro::TextContainer::set_pivot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextContainer::*)(::UnityEngine::Vector2)>(&TMPro::TextContainer::set_pivot)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "set_pivot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -336,7 +336,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TextContainer::get_anchorPosition
 // Il2CppName: get_anchorPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TextContainerAnchors (TMPro::TextContainer::*)()>(&TMPro::TextContainer::get_anchorPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TextContainerAnchors (TMPro::TextContainer::*)()>(&TMPro::TextContainer::get_anchorPosition)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "get_anchorPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -344,7 +344,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::Text
 // Writing MetadataGetter for method: TMPro::TextContainer::set_anchorPosition
 // Il2CppName: set_anchorPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextContainer::*)(TMPro::TextContainerAnchors)>(&TMPro::TextContainer::set_anchorPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextContainer::*)(::TMPro::TextContainerAnchors)>(&TMPro::TextContainer::set_anchorPosition)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("TMPro", "TextContainerAnchors")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "set_anchorPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -353,7 +353,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TextContainer::get_rect
 // Il2CppName: get_rect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (TMPro::TextContainer::*)()>(&TMPro::TextContainer::get_rect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rect (TMPro::TextContainer::*)()>(&TMPro::TextContainer::get_rect)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "get_rect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -361,7 +361,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: TMPro::TextContainer::set_rect
 // Il2CppName: set_rect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextContainer::*)(UnityEngine::Rect)>(&TMPro::TextContainer::set_rect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextContainer::*)(::UnityEngine::Rect)>(&TMPro::TextContainer::set_rect)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "set_rect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -370,7 +370,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TextContainer::get_size
 // Il2CppName: get_size
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (TMPro::TextContainer::*)()>(&TMPro::TextContainer::get_size)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (TMPro::TextContainer::*)()>(&TMPro::TextContainer::get_size)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "get_size", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -378,7 +378,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: TMPro::TextContainer::set_size
 // Il2CppName: set_size
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextContainer::*)(UnityEngine::Vector2)>(&TMPro::TextContainer::set_size)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextContainer::*)(::UnityEngine::Vector2)>(&TMPro::TextContainer::set_size)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "set_size", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -454,7 +454,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TextContainer::get_corners
 // Il2CppName: get_corners
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector3> (TMPro::TextContainer::*)()>(&TMPro::TextContainer::get_corners)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Vector3> (TMPro::TextContainer::*)()>(&TMPro::TextContainer::get_corners)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "get_corners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -462,7 +462,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: TMPro::TextContainer::get_worldCorners
 // Il2CppName: get_worldCorners
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector3> (TMPro::TextContainer::*)()>(&TMPro::TextContainer::get_worldCorners)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Vector3> (TMPro::TextContainer::*)()>(&TMPro::TextContainer::get_worldCorners)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "get_worldCorners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -470,7 +470,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: TMPro::TextContainer::get_margins
 // Il2CppName: get_margins
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (TMPro::TextContainer::*)()>(&TMPro::TextContainer::get_margins)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (TMPro::TextContainer::*)()>(&TMPro::TextContainer::get_margins)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "get_margins", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -478,7 +478,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: TMPro::TextContainer::set_margins
 // Il2CppName: set_margins
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextContainer::*)(UnityEngine::Vector4)>(&TMPro::TextContainer::set_margins)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextContainer::*)(::UnityEngine::Vector4)>(&TMPro::TextContainer::set_margins)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "set_margins", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -487,7 +487,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TextContainer::get_rectTransform
 // Il2CppName: get_rectTransform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (TMPro::TextContainer::*)()>(&TMPro::TextContainer::get_rectTransform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RectTransform* (TMPro::TextContainer::*)()>(&TMPro::TextContainer::get_rectTransform)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "get_rectTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -495,7 +495,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: TMPro::TextContainer::get_textMeshPro
 // Il2CppName: get_textMeshPro
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TextMeshPro* (TMPro::TextContainer::*)()>(&TMPro::TextContainer::get_textMeshPro)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TextMeshPro* (TMPro::TextContainer::*)()>(&TMPro::TextContainer::get_textMeshPro)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "get_textMeshPro", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -511,7 +511,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TextContainer::SetRect
 // Il2CppName: SetRect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextContainer::*)(UnityEngine::Vector2)>(&TMPro::TextContainer::SetRect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextContainer::*)(::UnityEngine::Vector2)>(&TMPro::TextContainer::SetRect)> {
   static const MethodInfo* get() {
     static auto* size = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "SetRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{size});
@@ -528,7 +528,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TextContainer::GetPivot
 // Il2CppName: GetPivot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (TMPro::TextContainer::*)(TMPro::TextContainerAnchors)>(&TMPro::TextContainer::GetPivot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (TMPro::TextContainer::*)(::TMPro::TextContainerAnchors)>(&TMPro::TextContainer::GetPivot)> {
   static const MethodInfo* get() {
     static auto* anchor = &::il2cpp_utils::GetClassFromName("TMPro", "TextContainerAnchors")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "GetPivot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{anchor});
@@ -537,7 +537,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: TMPro::TextContainer::GetAnchorPosition
 // Il2CppName: GetAnchorPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TextContainerAnchors (TMPro::TextContainer::*)(UnityEngine::Vector2)>(&TMPro::TextContainer::GetAnchorPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TextContainerAnchors (TMPro::TextContainer::*)(::UnityEngine::Vector2)>(&TMPro::TextContainer::GetAnchorPosition)> {
   static const MethodInfo* get() {
     static auto* pivot = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "GetAnchorPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pivot});

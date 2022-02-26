@@ -22,8 +22,8 @@ namespace HoudiniEngineUnity {
   class HEU_HAPIConstants;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_HAPIConstants);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_HAPIConstants*, "HoudiniEngineUnity", "HEU_HAPIConstants");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_HAPIConstants);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_HAPIConstants*, "HoudiniEngineUnity", "HEU_HAPIConstants");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x10

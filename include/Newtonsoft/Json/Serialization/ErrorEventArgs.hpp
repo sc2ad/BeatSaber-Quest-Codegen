@@ -25,8 +25,8 @@ namespace Newtonsoft::Json::Serialization {
   class ErrorEventArgs;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Serialization::ErrorEventArgs);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Serialization::ErrorEventArgs*, "Newtonsoft.Json.Serialization", "ErrorEventArgs");
+NEED_NO_BOX(::Newtonsoft::Json::Serialization::ErrorEventArgs);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Serialization::ErrorEventArgs*, "Newtonsoft.Json.Serialization", "ErrorEventArgs");
 // Type namespace: Newtonsoft.Json.Serialization
 namespace Newtonsoft::Json::Serialization {
   // Size: 0x20
@@ -35,7 +35,7 @@ namespace Newtonsoft::Json::Serialization {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NullableContextAttribute] Offset: 12027D0
   // [NullableAttribute] Offset: 12027D0
-  class ErrorEventArgs : public System::EventArgs {
+  class ErrorEventArgs : public ::System::EventArgs {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -56,24 +56,24 @@ namespace Newtonsoft::Json::Serialization {
     // private readonly Newtonsoft.Json.Serialization.ErrorContext <ErrorContext>k__BackingField
     // Size: 0x8
     // Offset: 0x18
-    Newtonsoft::Json::Serialization::ErrorContext* ErrorContext;
+    ::Newtonsoft::Json::Serialization::ErrorContext* ErrorContext;
     // Field size check
-    static_assert(sizeof(Newtonsoft::Json::Serialization::ErrorContext*) == 0x8);
+    static_assert(sizeof(::Newtonsoft::Json::Serialization::ErrorContext*) == 0x8);
     public:
     // Get instance field reference: private readonly System.Object <CurrentObject>k__BackingField
     ::Il2CppObject*& dyn_$CurrentObject$k__BackingField();
     // Get instance field reference: private readonly Newtonsoft.Json.Serialization.ErrorContext <ErrorContext>k__BackingField
-    Newtonsoft::Json::Serialization::ErrorContext*& dyn_$ErrorContext$k__BackingField();
+    ::Newtonsoft::Json::Serialization::ErrorContext*& dyn_$ErrorContext$k__BackingField();
     // public System.Void .ctor(System.Object currentObject, Newtonsoft.Json.Serialization.ErrorContext errorContext)
     // Offset: 0x152D118
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ErrorEventArgs* New_ctor(::Il2CppObject* currentObject, Newtonsoft::Json::Serialization::ErrorContext* errorContext) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Serialization::ErrorEventArgs::.ctor");
+    static ErrorEventArgs* New_ctor(::Il2CppObject* currentObject, ::Newtonsoft::Json::Serialization::ErrorContext* errorContext) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::ErrorEventArgs::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ErrorEventArgs*, creationType>(currentObject, errorContext)));
     }
   }; // Newtonsoft.Json.Serialization.ErrorEventArgs
   #pragma pack(pop)
-  static check_size<sizeof(ErrorEventArgs), 24 + sizeof(Newtonsoft::Json::Serialization::ErrorContext*)> __Newtonsoft_Json_Serialization_ErrorEventArgsSizeCheck;
+  static check_size<sizeof(ErrorEventArgs), 24 + sizeof(::Newtonsoft::Json::Serialization::ErrorContext*)> __Newtonsoft_Json_Serialization_ErrorEventArgsSizeCheck;
   static_assert(sizeof(ErrorEventArgs) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

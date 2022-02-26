@@ -34,8 +34,8 @@ namespace System::Runtime::Remoting::Contexts {
   class DynamicPropertyCollection;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Remoting::Contexts::DynamicPropertyCollection);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::DynamicPropertyCollection*, "System.Runtime.Remoting.Contexts", "DynamicPropertyCollection");
+NEED_NO_BOX(::System::Runtime::Remoting::Contexts::DynamicPropertyCollection);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Contexts::DynamicPropertyCollection*, "System.Runtime.Remoting.Contexts", "DynamicPropertyCollection");
 // Type namespace: System.Runtime.Remoting.Contexts
 namespace System::Runtime::Remoting::Contexts {
   // Size: 0x18
@@ -44,7 +44,7 @@ namespace System::Runtime::Remoting::Contexts {
   // [TokenAttribute] Offset: FFFFFFFF
   class DynamicPropertyCollection : public ::Il2CppObject {
     public:
-    // Nested type: System::Runtime::Remoting::Contexts::DynamicPropertyCollection::DynamicPropertyReg
+    // Nested type: ::System::Runtime::Remoting::Contexts::DynamicPropertyCollection::DynamicPropertyReg
     class DynamicPropertyReg;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -58,28 +58,28 @@ namespace System::Runtime::Remoting::Contexts {
     // private System.Collections.ArrayList _properties
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::ArrayList* properties;
+    ::System::Collections::ArrayList* properties;
     // Field size check
-    static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
+    static_assert(sizeof(::System::Collections::ArrayList*) == 0x8);
     public:
-    // Creating conversion operator: operator System::Collections::ArrayList*
-    constexpr operator System::Collections::ArrayList*() const noexcept {
+    // Creating conversion operator: operator ::System::Collections::ArrayList*
+    constexpr operator ::System::Collections::ArrayList*() const noexcept {
       return properties;
     }
     // Get instance field reference: private System.Collections.ArrayList _properties
-    System::Collections::ArrayList*& dyn__properties();
+    ::System::Collections::ArrayList*& dyn__properties();
     // public System.Boolean get_HasProperties()
     // Offset: 0x1B7F120
     bool get_HasProperties();
     // public System.Boolean RegisterDynamicProperty(System.Runtime.Remoting.Contexts.IDynamicProperty prop)
     // Offset: 0x1B7F3C8
-    bool RegisterDynamicProperty(System::Runtime::Remoting::Contexts::IDynamicProperty* prop);
+    bool RegisterDynamicProperty(::System::Runtime::Remoting::Contexts::IDynamicProperty* prop);
     // public System.Boolean UnregisterDynamicProperty(System.String name)
     // Offset: 0x1B7F6E0
     bool UnregisterDynamicProperty(::StringW name);
     // public System.Void NotifyMessage(System.Boolean start, System.Runtime.Remoting.Messaging.IMessage msg, System.Boolean client_site, System.Boolean async)
     // Offset: 0x1B7FA20
-    void NotifyMessage(bool start, System::Runtime::Remoting::Messaging::IMessage* msg, bool client_site, bool async);
+    void NotifyMessage(bool start, ::System::Runtime::Remoting::Messaging::IMessage* msg, bool client_site, bool async);
     // private System.Int32 FindProperty(System.String name)
     // Offset: 0x1B823B8
     int FindProperty(::StringW name);
@@ -89,12 +89,12 @@ namespace System::Runtime::Remoting::Contexts {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DynamicPropertyCollection* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Contexts::DynamicPropertyCollection::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::Contexts::DynamicPropertyCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DynamicPropertyCollection*, creationType>()));
     }
   }; // System.Runtime.Remoting.Contexts.DynamicPropertyCollection
   #pragma pack(pop)
-  static check_size<sizeof(DynamicPropertyCollection), 16 + sizeof(System::Collections::ArrayList*)> __System_Runtime_Remoting_Contexts_DynamicPropertyCollectionSizeCheck;
+  static check_size<sizeof(DynamicPropertyCollection), 16 + sizeof(::System::Collections::ArrayList*)> __System_Runtime_Remoting_Contexts_DynamicPropertyCollectionSizeCheck;
   static_assert(sizeof(DynamicPropertyCollection) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -109,7 +109,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::DynamicPropertyCollection::RegisterDynamicProperty
 // Il2CppName: RegisterDynamicProperty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Remoting::Contexts::DynamicPropertyCollection::*)(System::Runtime::Remoting::Contexts::IDynamicProperty*)>(&System::Runtime::Remoting::Contexts::DynamicPropertyCollection::RegisterDynamicProperty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Remoting::Contexts::DynamicPropertyCollection::*)(::System::Runtime::Remoting::Contexts::IDynamicProperty*)>(&System::Runtime::Remoting::Contexts::DynamicPropertyCollection::RegisterDynamicProperty)> {
   static const MethodInfo* get() {
     static auto* prop = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Contexts", "IDynamicProperty")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::DynamicPropertyCollection*), "RegisterDynamicProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{prop});
@@ -127,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::DynamicPropertyCollection::NotifyMessage
 // Il2CppName: NotifyMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Contexts::DynamicPropertyCollection::*)(bool, System::Runtime::Remoting::Messaging::IMessage*, bool, bool)>(&System::Runtime::Remoting::Contexts::DynamicPropertyCollection::NotifyMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Contexts::DynamicPropertyCollection::*)(bool, ::System::Runtime::Remoting::Messaging::IMessage*, bool, bool)>(&System::Runtime::Remoting::Contexts::DynamicPropertyCollection::NotifyMessage)> {
   static const MethodInfo* get() {
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* msg = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Messaging", "IMessage")->byval_arg;

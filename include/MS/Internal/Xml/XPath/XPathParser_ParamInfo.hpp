@@ -18,8 +18,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(MS::Internal::Xml::XPath::XPathParser::ParamInfo);
-DEFINE_IL2CPP_ARG_TYPE(MS::Internal::Xml::XPath::XPathParser::ParamInfo*, "MS.Internal.Xml.XPath", "XPathParser/ParamInfo");
+NEED_NO_BOX(::MS::Internal::Xml::XPath::XPathParser::ParamInfo);
+DEFINE_IL2CPP_ARG_TYPE(::MS::Internal::Xml::XPath::XPathParser::ParamInfo*, "MS.Internal.Xml.XPath", "XPathParser/ParamInfo");
 // Type namespace: MS.Internal.Xml.XPath
 namespace MS::Internal::Xml::XPath {
   // Size: 0x28
@@ -40,9 +40,9 @@ namespace MS::Internal::Xml::XPath {
     // private MS.Internal.Xml.XPath.Function/MS.Internal.Xml.XPath.FunctionType ftype
     // Size: 0x4
     // Offset: 0x10
-    MS::Internal::Xml::XPath::Function::FunctionType ftype;
+    ::MS::Internal::Xml::XPath::Function::FunctionType ftype;
     // Field size check
-    static_assert(sizeof(MS::Internal::Xml::XPath::Function::FunctionType) == 0x4);
+    static_assert(sizeof(::MS::Internal::Xml::XPath::Function::FunctionType) == 0x4);
     // private System.Int32 minargs
     // Size: 0x4
     // Offset: 0x14
@@ -60,21 +60,21 @@ namespace MS::Internal::Xml::XPath {
     // private System.Xml.XPath.XPathResultType[] argTypes
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayW<System::Xml::XPath::XPathResultType> argTypes;
+    ::ArrayW<::System::Xml::XPath::XPathResultType> argTypes;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::Xml::XPath::XPathResultType>) == 0x8);
+    static_assert(sizeof(::ArrayW<::System::Xml::XPath::XPathResultType>) == 0x8);
     public:
     // Get instance field reference: private MS.Internal.Xml.XPath.Function/MS.Internal.Xml.XPath.FunctionType ftype
-    MS::Internal::Xml::XPath::Function::FunctionType& dyn_ftype();
+    ::MS::Internal::Xml::XPath::Function::FunctionType& dyn_ftype();
     // Get instance field reference: private System.Int32 minargs
     int& dyn_minargs();
     // Get instance field reference: private System.Int32 maxargs
     int& dyn_maxargs();
     // Get instance field reference: private System.Xml.XPath.XPathResultType[] argTypes
-    ::ArrayW<System::Xml::XPath::XPathResultType>& dyn_argTypes();
+    ::ArrayW<::System::Xml::XPath::XPathResultType>& dyn_argTypes();
     // public MS.Internal.Xml.XPath.Function/MS.Internal.Xml.XPath.FunctionType get_FType()
     // Offset: 0x1B992F8
-    MS::Internal::Xml::XPath::Function::FunctionType get_FType();
+    ::MS::Internal::Xml::XPath::Function::FunctionType get_FType();
     // public System.Int32 get_Minargs()
     // Offset: 0x1B99300
     int get_Minargs();
@@ -83,24 +83,24 @@ namespace MS::Internal::Xml::XPath {
     int get_Maxargs();
     // public System.Xml.XPath.XPathResultType[] get_ArgTypes()
     // Offset: 0x1B99310
-    ::ArrayW<System::Xml::XPath::XPathResultType> get_ArgTypes();
+    ::ArrayW<::System::Xml::XPath::XPathResultType> get_ArgTypes();
     // System.Void .ctor(MS.Internal.Xml.XPath.Function/MS.Internal.Xml.XPath.FunctionType ftype, System.Int32 minargs, System.Int32 maxargs, System.Xml.XPath.XPathResultType[] argTypes)
     // Offset: 0x1B98D64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XPathParser::ParamInfo* New_ctor(MS::Internal::Xml::XPath::Function::FunctionType ftype, int minargs, int maxargs, ::ArrayW<System::Xml::XPath::XPathResultType> argTypes) {
-      static auto ___internal__logger = ::Logger::get().WithContext("MS::Internal::Xml::XPath::XPathParser::ParamInfo::.ctor");
+    static XPathParser::ParamInfo* New_ctor(::MS::Internal::Xml::XPath::Function::FunctionType ftype, int minargs, int maxargs, ::ArrayW<::System::Xml::XPath::XPathResultType> argTypes) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::MS::Internal::Xml::XPath::XPathParser::ParamInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XPathParser::ParamInfo*, creationType>(ftype, minargs, maxargs, argTypes)));
     }
   }; // MS.Internal.Xml.XPath.XPathParser/MS.Internal.Xml.XPath.ParamInfo
   #pragma pack(pop)
-  static check_size<sizeof(XPathParser::ParamInfo), 32 + sizeof(::ArrayW<System::Xml::XPath::XPathResultType>)> __MS_Internal_Xml_XPath_XPathParser_ParamInfoSizeCheck;
+  static check_size<sizeof(XPathParser::ParamInfo), 32 + sizeof(::ArrayW<::System::Xml::XPath::XPathResultType>)> __MS_Internal_Xml_XPath_XPathParser_ParamInfoSizeCheck;
   static_assert(sizeof(XPathParser::ParamInfo) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MS::Internal::Xml::XPath::XPathParser::ParamInfo::get_FType
 // Il2CppName: get_FType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MS::Internal::Xml::XPath::Function::FunctionType (MS::Internal::Xml::XPath::XPathParser::ParamInfo::*)()>(&MS::Internal::Xml::XPath::XPathParser::ParamInfo::get_FType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::MS::Internal::Xml::XPath::Function::FunctionType (MS::Internal::Xml::XPath::XPathParser::ParamInfo::*)()>(&MS::Internal::Xml::XPath::XPathParser::ParamInfo::get_FType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MS::Internal::Xml::XPath::XPathParser::ParamInfo*), "get_FType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -124,7 +124,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MS::In
 // Writing MetadataGetter for method: MS::Internal::Xml::XPath::XPathParser::ParamInfo::get_ArgTypes
 // Il2CppName: get_ArgTypes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Xml::XPath::XPathResultType> (MS::Internal::Xml::XPath::XPathParser::ParamInfo::*)()>(&MS::Internal::Xml::XPath::XPathParser::ParamInfo::get_ArgTypes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Xml::XPath::XPathResultType> (MS::Internal::Xml::XPath::XPathParser::ParamInfo::*)()>(&MS::Internal::Xml::XPath::XPathParser::ParamInfo::get_ArgTypes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MS::Internal::Xml::XPath::XPathParser::ParamInfo*), "get_ArgTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

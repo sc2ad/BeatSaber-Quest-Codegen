@@ -26,8 +26,8 @@ namespace UnityEngine::Timeline {
   class MarkerTrack;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Timeline::MarkerTrack);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::MarkerTrack*, "UnityEngine.Timeline", "MarkerTrack");
+NEED_NO_BOX(::UnityEngine::Timeline::MarkerTrack);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::MarkerTrack*, "UnityEngine.Timeline", "MarkerTrack");
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
   // WARNING Size may be invalid!
@@ -36,13 +36,13 @@ namespace UnityEngine::Timeline {
   // [TrackBindingTypeAttribute] Offset: 11F1040
   // [HideInMenuAttribute] Offset: 11F1040
   // [ExcludeFromPresetAttribute] Offset: FFFFFFFF
-  class MarkerTrack : public UnityEngine::Timeline::TrackAsset {
+  class MarkerTrack : public ::UnityEngine::Timeline::TrackAsset {
     public:
     // public override System.Collections.Generic.IEnumerable`1<UnityEngine.Playables.PlayableBinding> get_outputs()
     // Offset: 0x1C9D8D8
     // Implemented from: UnityEngine.Timeline.TrackAsset
     // Base method: System.Collections.Generic.IEnumerable`1<UnityEngine.Playables.PlayableBinding> TrackAsset::get_outputs()
-    System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>* get_outputs();
+    ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* get_outputs();
     // public System.Void .ctor()
     // Offset: 0x1C9DA44
     // Implemented from: UnityEngine.Timeline.TrackAsset
@@ -53,7 +53,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MarkerTrack* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::MarkerTrack::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Timeline::MarkerTrack::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MarkerTrack*, creationType>()));
     }
   }; // UnityEngine.Timeline.MarkerTrack
@@ -62,7 +62,7 @@ namespace UnityEngine::Timeline {
 // Writing MetadataGetter for method: UnityEngine::Timeline::MarkerTrack::get_outputs
 // Il2CppName: get_outputs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>* (UnityEngine::Timeline::MarkerTrack::*)()>(&UnityEngine::Timeline::MarkerTrack::get_outputs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* (UnityEngine::Timeline::MarkerTrack::*)()>(&UnityEngine::Timeline::MarkerTrack::get_outputs)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::MarkerTrack*), "get_outputs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

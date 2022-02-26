@@ -17,8 +17,8 @@ namespace System::Xml::Linq {
   class BaseUriAnnotation;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Linq::BaseUriAnnotation);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Linq::BaseUriAnnotation*, "System.Xml.Linq", "BaseUriAnnotation");
+NEED_NO_BOX(::System::Xml::Linq::BaseUriAnnotation);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Linq::BaseUriAnnotation*, "System.Xml.Linq", "BaseUriAnnotation");
 // Type namespace: System.Xml.Linq
 namespace System::Xml::Linq {
   // Size: 0x18
@@ -53,7 +53,7 @@ namespace System::Xml::Linq {
     // Offset: 0x29DE558
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseUriAnnotation* New_ctor(::StringW baseUri) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Linq::BaseUriAnnotation::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::BaseUriAnnotation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseUriAnnotation*, creationType>(baseUri)));
     }
   }; // System.Xml.Linq.BaseUriAnnotation

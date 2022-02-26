@@ -108,8 +108,8 @@ namespace System::Linq::Expressions::Interpreter {
   class LightCompiler;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Linq::Expressions::Interpreter::LightCompiler);
-DEFINE_IL2CPP_ARG_TYPE(System::Linq::Expressions::Interpreter::LightCompiler*, "System.Linq.Expressions.Interpreter", "LightCompiler");
+NEED_NO_BOX(::System::Linq::Expressions::Interpreter::LightCompiler);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::LightCompiler*, "System.Linq.Expressions.Interpreter", "LightCompiler");
 // Type namespace: System.Linq.Expressions.Interpreter
 namespace System::Linq::Expressions::Interpreter {
   // Size: 0x50
@@ -118,9 +118,9 @@ namespace System::Linq::Expressions::Interpreter {
   // [TokenAttribute] Offset: FFFFFFFF
   class LightCompiler : public ::Il2CppObject {
     public:
-    // Nested type: System::Linq::Expressions::Interpreter::LightCompiler::QuoteVisitor
+    // Nested type: ::System::Linq::Expressions::Interpreter::LightCompiler::QuoteVisitor
     class QuoteVisitor;
-    // Nested type: System::Linq::Expressions::Interpreter::LightCompiler::$$c
+    // Nested type: ::System::Linq::Expressions::Interpreter::LightCompiler::$$c
     class $$c;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -134,80 +134,80 @@ namespace System::Linq::Expressions::Interpreter {
     // private readonly System.Linq.Expressions.Interpreter.InstructionList _instructions
     // Size: 0x8
     // Offset: 0x10
-    System::Linq::Expressions::Interpreter::InstructionList* instructions;
+    ::System::Linq::Expressions::Interpreter::InstructionList* instructions;
     // Field size check
-    static_assert(sizeof(System::Linq::Expressions::Interpreter::InstructionList*) == 0x8);
+    static_assert(sizeof(::System::Linq::Expressions::Interpreter::InstructionList*) == 0x8);
     // private readonly System.Linq.Expressions.Interpreter.LocalVariables _locals
     // Size: 0x8
     // Offset: 0x18
-    System::Linq::Expressions::Interpreter::LocalVariables* locals;
+    ::System::Linq::Expressions::Interpreter::LocalVariables* locals;
     // Field size check
-    static_assert(sizeof(System::Linq::Expressions::Interpreter::LocalVariables*) == 0x8);
+    static_assert(sizeof(::System::Linq::Expressions::Interpreter::LocalVariables*) == 0x8);
     // private readonly System.Collections.Generic.List`1<System.Linq.Expressions.Interpreter.DebugInfo> _debugInfos
     // Size: 0x8
     // Offset: 0x20
-    System::Collections::Generic::List_1<System::Linq::Expressions::Interpreter::DebugInfo*>* debugInfos;
+    ::System::Collections::Generic::List_1<::System::Linq::Expressions::Interpreter::DebugInfo*>* debugInfos;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<System::Linq::Expressions::Interpreter::DebugInfo*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::System::Linq::Expressions::Interpreter::DebugInfo*>*) == 0x8);
     // private readonly System.Linq.Expressions.Interpreter.HybridReferenceDictionary`2<System.Linq.Expressions.LabelTarget,System.Linq.Expressions.Interpreter.LabelInfo> _treeLabels
     // Size: 0x8
     // Offset: 0x28
-    System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2<System::Linq::Expressions::LabelTarget*, System::Linq::Expressions::Interpreter::LabelInfo*>* treeLabels;
+    ::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2<::System::Linq::Expressions::LabelTarget*, ::System::Linq::Expressions::Interpreter::LabelInfo*>* treeLabels;
     // Field size check
-    static_assert(sizeof(System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2<System::Linq::Expressions::LabelTarget*, System::Linq::Expressions::Interpreter::LabelInfo*>*) == 0x8);
+    static_assert(sizeof(::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2<::System::Linq::Expressions::LabelTarget*, ::System::Linq::Expressions::Interpreter::LabelInfo*>*) == 0x8);
     // private System.Linq.Expressions.Interpreter.LabelScopeInfo _labelBlock
     // Size: 0x8
     // Offset: 0x30
-    System::Linq::Expressions::Interpreter::LabelScopeInfo* labelBlock;
+    ::System::Linq::Expressions::Interpreter::LabelScopeInfo* labelBlock;
     // Field size check
-    static_assert(sizeof(System::Linq::Expressions::Interpreter::LabelScopeInfo*) == 0x8);
+    static_assert(sizeof(::System::Linq::Expressions::Interpreter::LabelScopeInfo*) == 0x8);
     // private readonly System.Collections.Generic.Stack`1<System.Linq.Expressions.ParameterExpression> _exceptionForRethrowStack
     // Size: 0x8
     // Offset: 0x38
-    System::Collections::Generic::Stack_1<System::Linq::Expressions::ParameterExpression*>* exceptionForRethrowStack;
+    ::System::Collections::Generic::Stack_1<::System::Linq::Expressions::ParameterExpression*>* exceptionForRethrowStack;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Stack_1<System::Linq::Expressions::ParameterExpression*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::Stack_1<::System::Linq::Expressions::ParameterExpression*>*) == 0x8);
     // private readonly System.Linq.Expressions.Interpreter.LightCompiler _parent
     // Size: 0x8
     // Offset: 0x40
-    System::Linq::Expressions::Interpreter::LightCompiler* parent;
+    ::System::Linq::Expressions::Interpreter::LightCompiler* parent;
     // Field size check
-    static_assert(sizeof(System::Linq::Expressions::Interpreter::LightCompiler*) == 0x8);
+    static_assert(sizeof(::System::Linq::Expressions::Interpreter::LightCompiler*) == 0x8);
     // private readonly System.Linq.Expressions.StackGuard _guard
     // Size: 0x8
     // Offset: 0x48
-    System::Linq::Expressions::StackGuard* guard;
+    ::System::Linq::Expressions::StackGuard* guard;
     // Field size check
-    static_assert(sizeof(System::Linq::Expressions::StackGuard*) == 0x8);
+    static_assert(sizeof(::System::Linq::Expressions::StackGuard*) == 0x8);
     public:
     // Get static field: static private readonly System.Linq.Expressions.Interpreter.LocalDefinition[] s_emptyLocals
-    static ::ArrayW<System::Linq::Expressions::Interpreter::LocalDefinition> _get_s_emptyLocals();
+    static ::ArrayW<::System::Linq::Expressions::Interpreter::LocalDefinition> _get_s_emptyLocals();
     // Set static field: static private readonly System.Linq.Expressions.Interpreter.LocalDefinition[] s_emptyLocals
-    static void _set_s_emptyLocals(::ArrayW<System::Linq::Expressions::Interpreter::LocalDefinition> value);
+    static void _set_s_emptyLocals(::ArrayW<::System::Linq::Expressions::Interpreter::LocalDefinition> value);
     // Get instance field reference: private readonly System.Linq.Expressions.Interpreter.InstructionList _instructions
-    System::Linq::Expressions::Interpreter::InstructionList*& dyn__instructions();
+    ::System::Linq::Expressions::Interpreter::InstructionList*& dyn__instructions();
     // Get instance field reference: private readonly System.Linq.Expressions.Interpreter.LocalVariables _locals
-    System::Linq::Expressions::Interpreter::LocalVariables*& dyn__locals();
+    ::System::Linq::Expressions::Interpreter::LocalVariables*& dyn__locals();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<System.Linq.Expressions.Interpreter.DebugInfo> _debugInfos
-    System::Collections::Generic::List_1<System::Linq::Expressions::Interpreter::DebugInfo*>*& dyn__debugInfos();
+    ::System::Collections::Generic::List_1<::System::Linq::Expressions::Interpreter::DebugInfo*>*& dyn__debugInfos();
     // Get instance field reference: private readonly System.Linq.Expressions.Interpreter.HybridReferenceDictionary`2<System.Linq.Expressions.LabelTarget,System.Linq.Expressions.Interpreter.LabelInfo> _treeLabels
-    System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2<System::Linq::Expressions::LabelTarget*, System::Linq::Expressions::Interpreter::LabelInfo*>*& dyn__treeLabels();
+    ::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2<::System::Linq::Expressions::LabelTarget*, ::System::Linq::Expressions::Interpreter::LabelInfo*>*& dyn__treeLabels();
     // Get instance field reference: private System.Linq.Expressions.Interpreter.LabelScopeInfo _labelBlock
-    System::Linq::Expressions::Interpreter::LabelScopeInfo*& dyn__labelBlock();
+    ::System::Linq::Expressions::Interpreter::LabelScopeInfo*& dyn__labelBlock();
     // Get instance field reference: private readonly System.Collections.Generic.Stack`1<System.Linq.Expressions.ParameterExpression> _exceptionForRethrowStack
-    System::Collections::Generic::Stack_1<System::Linq::Expressions::ParameterExpression*>*& dyn__exceptionForRethrowStack();
+    ::System::Collections::Generic::Stack_1<::System::Linq::Expressions::ParameterExpression*>*& dyn__exceptionForRethrowStack();
     // Get instance field reference: private readonly System.Linq.Expressions.Interpreter.LightCompiler _parent
-    System::Linq::Expressions::Interpreter::LightCompiler*& dyn__parent();
+    ::System::Linq::Expressions::Interpreter::LightCompiler*& dyn__parent();
     // Get instance field reference: private readonly System.Linq.Expressions.StackGuard _guard
-    System::Linq::Expressions::StackGuard*& dyn__guard();
+    ::System::Linq::Expressions::StackGuard*& dyn__guard();
     // public System.Linq.Expressions.Interpreter.InstructionList get_Instructions()
     // Offset: 0x1C028CC
-    System::Linq::Expressions::Interpreter::InstructionList* get_Instructions();
+    ::System::Linq::Expressions::Interpreter::InstructionList* get_Instructions();
     // private System.Void .ctor(System.Linq.Expressions.Interpreter.LightCompiler parent)
     // Offset: 0x1C028A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static LightCompiler* New_ctor(System::Linq::Expressions::Interpreter::LightCompiler* parent) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Expressions::Interpreter::LightCompiler::.ctor");
+    static LightCompiler* New_ctor(::System::Linq::Expressions::Interpreter::LightCompiler* parent) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Expressions::Interpreter::LightCompiler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightCompiler*, creationType>(parent)));
     }
     // static private System.Void .cctor()
@@ -215,296 +215,296 @@ namespace System::Linq::Expressions::Interpreter {
     static void _cctor();
     // public System.Linq.Expressions.Interpreter.LightDelegateCreator CompileTop(System.Linq.Expressions.LambdaExpression node)
     // Offset: 0x1C028D4
-    System::Linq::Expressions::Interpreter::LightDelegateCreator* CompileTop(System::Linq::Expressions::LambdaExpression* node);
+    ::System::Linq::Expressions::Interpreter::LightDelegateCreator* CompileTop(::System::Linq::Expressions::LambdaExpression* node);
     // private System.Linq.Expressions.Interpreter.Interpreter MakeInterpreter(System.String lambdaName)
     // Offset: 0x1C02B14
-    System::Linq::Expressions::Interpreter::Interpreter* MakeInterpreter(::StringW lambdaName);
+    ::System::Linq::Expressions::Interpreter::Interpreter* MakeInterpreter(::StringW lambdaName);
     // private System.Void CompileConstantExpression(System.Linq.Expressions.Expression expr)
     // Offset: 0x1C02D90
-    void CompileConstantExpression(System::Linq::Expressions::Expression* expr);
+    void CompileConstantExpression(::System::Linq::Expressions::Expression* expr);
     // private System.Void CompileDefaultExpression(System.Linq.Expressions.Expression expr)
     // Offset: 0x1C02E48
-    void CompileDefaultExpression(System::Linq::Expressions::Expression* expr);
+    void CompileDefaultExpression(::System::Linq::Expressions::Expression* expr);
     // private System.Void CompileDefaultExpression(System.Type type)
     // Offset: 0x1C02E88
-    void CompileDefaultExpression(System::Type* type);
+    void CompileDefaultExpression(::System::Type* type);
     // private System.Linq.Expressions.Interpreter.LocalVariable EnsureAvailableForClosure(System.Linq.Expressions.ParameterExpression expr)
     // Offset: 0x1C02F90
-    System::Linq::Expressions::Interpreter::LocalVariable* EnsureAvailableForClosure(System::Linq::Expressions::ParameterExpression* expr);
+    ::System::Linq::Expressions::Interpreter::LocalVariable* EnsureAvailableForClosure(::System::Linq::Expressions::ParameterExpression* expr);
     // private System.Linq.Expressions.Interpreter.LocalVariable ResolveLocal(System.Linq.Expressions.ParameterExpression variable)
     // Offset: 0x1C030C0
-    System::Linq::Expressions::Interpreter::LocalVariable* ResolveLocal(System::Linq::Expressions::ParameterExpression* variable);
+    ::System::Linq::Expressions::Interpreter::LocalVariable* ResolveLocal(::System::Linq::Expressions::ParameterExpression* variable);
     // private System.Void CompileGetVariable(System.Linq.Expressions.ParameterExpression variable)
     // Offset: 0x1C03120
-    void CompileGetVariable(System::Linq::Expressions::ParameterExpression* variable);
+    void CompileGetVariable(::System::Linq::Expressions::ParameterExpression* variable);
     // private System.Void EmitCopyValueType(System.Type valueType)
     // Offset: 0x1C031E4
-    void EmitCopyValueType(System::Type* valueType);
+    void EmitCopyValueType(::System::Type* valueType);
     // private System.Void LoadLocalNoValueTypeCopy(System.Linq.Expressions.ParameterExpression variable)
     // Offset: 0x1C03164
-    void LoadLocalNoValueTypeCopy(System::Linq::Expressions::ParameterExpression* variable);
+    void LoadLocalNoValueTypeCopy(::System::Linq::Expressions::ParameterExpression* variable);
     // private System.Boolean MaybeMutableValueType(System.Type type)
     // Offset: 0x1C03288
-    bool MaybeMutableValueType(System::Type* type);
+    bool MaybeMutableValueType(::System::Type* type);
     // private System.Void CompileGetBoxedVariable(System.Linq.Expressions.ParameterExpression variable)
     // Offset: 0x1C032F0
-    void CompileGetBoxedVariable(System::Linq::Expressions::ParameterExpression* variable);
+    void CompileGetBoxedVariable(::System::Linq::Expressions::ParameterExpression* variable);
     // private System.Void CompileSetVariable(System.Linq.Expressions.ParameterExpression variable, System.Boolean isVoid)
     // Offset: 0x1C03348
-    void CompileSetVariable(System::Linq::Expressions::ParameterExpression* variable, bool isVoid);
+    void CompileSetVariable(::System::Linq::Expressions::ParameterExpression* variable, bool isVoid);
     // private System.Void CompileParameterExpression(System.Linq.Expressions.Expression expr)
     // Offset: 0x1C03424
-    void CompileParameterExpression(System::Linq::Expressions::Expression* expr);
+    void CompileParameterExpression(::System::Linq::Expressions::Expression* expr);
     // private System.Void CompileBlockExpression(System.Linq.Expressions.Expression expr, System.Boolean asVoid)
     // Offset: 0x1C034B8
-    void CompileBlockExpression(System::Linq::Expressions::Expression* expr, bool asVoid);
+    void CompileBlockExpression(::System::Linq::Expressions::Expression* expr, bool asVoid);
     // private System.Linq.Expressions.Interpreter.LocalDefinition[] CompileBlockStart(System.Linq.Expressions.BlockExpression node)
     // Offset: 0x1C035F0
-    ::ArrayW<System::Linq::Expressions::Interpreter::LocalDefinition> CompileBlockStart(System::Linq::Expressions::BlockExpression* node);
+    ::ArrayW<::System::Linq::Expressions::Interpreter::LocalDefinition> CompileBlockStart(::System::Linq::Expressions::BlockExpression* node);
     // private System.Void CompileBlockEnd(System.Linq.Expressions.Interpreter.LocalDefinition[] locals)
     // Offset: 0x1C039CC
-    void CompileBlockEnd(::ArrayW<System::Linq::Expressions::Interpreter::LocalDefinition> locals);
+    void CompileBlockEnd(::ArrayW<::System::Linq::Expressions::Interpreter::LocalDefinition> locals);
     // private System.Void CompileIndexExpression(System.Linq.Expressions.Expression expr)
     // Offset: 0x1C03C08
-    void CompileIndexExpression(System::Linq::Expressions::Expression* expr);
+    void CompileIndexExpression(::System::Linq::Expressions::Expression* expr);
     // private System.Void EmitIndexGet(System.Linq.Expressions.IndexExpression index)
     // Offset: 0x1C03CE4
-    void EmitIndexGet(System::Linq::Expressions::IndexExpression* index);
+    void EmitIndexGet(::System::Linq::Expressions::IndexExpression* index);
     // private System.Void CompileIndexAssignment(System.Linq.Expressions.BinaryExpression node, System.Boolean asVoid)
     // Offset: 0x1C03DE8
-    void CompileIndexAssignment(System::Linq::Expressions::BinaryExpression* node, bool asVoid);
+    void CompileIndexAssignment(::System::Linq::Expressions::BinaryExpression* node, bool asVoid);
     // private System.Void CompileMemberAssignment(System.Linq.Expressions.BinaryExpression node, System.Boolean asVoid)
     // Offset: 0x1C04088
-    void CompileMemberAssignment(System::Linq::Expressions::BinaryExpression* node, bool asVoid);
+    void CompileMemberAssignment(::System::Linq::Expressions::BinaryExpression* node, bool asVoid);
     // private System.Void CompileMemberAssignment(System.Boolean asVoid, System.Reflection.MemberInfo refMember, System.Linq.Expressions.Expression value, System.Boolean forBinding)
     // Offset: 0x1C04158
-    void CompileMemberAssignment(bool asVoid, System::Reflection::MemberInfo* refMember, System::Linq::Expressions::Expression* value, bool forBinding);
+    void CompileMemberAssignment(bool asVoid, ::System::Reflection::MemberInfo* refMember, ::System::Linq::Expressions::Expression* value, bool forBinding);
     // private System.Void CompileVariableAssignment(System.Linq.Expressions.BinaryExpression node, System.Boolean asVoid)
     // Offset: 0x1C044B8
-    void CompileVariableAssignment(System::Linq::Expressions::BinaryExpression* node, bool asVoid);
+    void CompileVariableAssignment(::System::Linq::Expressions::BinaryExpression* node, bool asVoid);
     // private System.Void CompileAssignBinaryExpression(System.Linq.Expressions.Expression expr, System.Boolean asVoid)
     // Offset: 0x1C0456C
-    void CompileAssignBinaryExpression(System::Linq::Expressions::Expression* expr, bool asVoid);
+    void CompileAssignBinaryExpression(::System::Linq::Expressions::Expression* expr, bool asVoid);
     // private System.Void CompileBinaryExpression(System.Linq.Expressions.Expression expr)
     // Offset: 0x1C046BC
-    void CompileBinaryExpression(System::Linq::Expressions::Expression* expr);
+    void CompileBinaryExpression(::System::Linq::Expressions::Expression* expr);
     // private System.Void CompileEqual(System.Linq.Expressions.Expression left, System.Linq.Expressions.Expression right, System.Boolean liftedToNull)
     // Offset: 0x1C055F8
-    void CompileEqual(System::Linq::Expressions::Expression* left, System::Linq::Expressions::Expression* right, bool liftedToNull);
+    void CompileEqual(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right, bool liftedToNull);
     // private System.Void CompileNotEqual(System.Linq.Expressions.Expression left, System.Linq.Expressions.Expression right, System.Boolean liftedToNull)
     // Offset: 0x1C0566C
-    void CompileNotEqual(System::Linq::Expressions::Expression* left, System::Linq::Expressions::Expression* right, bool liftedToNull);
+    void CompileNotEqual(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right, bool liftedToNull);
     // private System.Void CompileComparison(System.Linq.Expressions.BinaryExpression node)
     // Offset: 0x1C056E0
-    void CompileComparison(System::Linq::Expressions::BinaryExpression* node);
+    void CompileComparison(::System::Linq::Expressions::BinaryExpression* node);
     // private System.Void CompileArithmetic(System.Linq.Expressions.ExpressionType nodeType, System.Linq.Expressions.Expression left, System.Linq.Expressions.Expression right)
     // Offset: 0x1C05390
-    void CompileArithmetic(System::Linq::Expressions::ExpressionType nodeType, System::Linq::Expressions::Expression* left, System::Linq::Expressions::Expression* right);
+    void CompileArithmetic(::System::Linq::Expressions::ExpressionType nodeType, ::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right);
     // private System.Void CompileConvertUnaryExpression(System.Linq.Expressions.Expression expr)
     // Offset: 0x1C05894
-    void CompileConvertUnaryExpression(System::Linq::Expressions::Expression* expr);
+    void CompileConvertUnaryExpression(::System::Linq::Expressions::Expression* expr);
     // private System.Void CompileConvertToType(System.Type typeFrom, System.Type typeTo, System.Boolean isChecked, System.Boolean isLiftedToNull)
     // Offset: 0x1C05DB8
-    void CompileConvertToType(System::Type* typeFrom, System::Type* typeTo, bool isChecked, bool isLiftedToNull);
+    void CompileConvertToType(::System::Type* typeFrom, ::System::Type* typeTo, bool isChecked, bool isLiftedToNull);
     // private System.Void CompileNotExpression(System.Linq.Expressions.UnaryExpression node)
     // Offset: 0x1C06268
-    void CompileNotExpression(System::Linq::Expressions::UnaryExpression* node);
+    void CompileNotExpression(::System::Linq::Expressions::UnaryExpression* node);
     // private System.Void CompileUnaryExpression(System.Linq.Expressions.Expression expr)
     // Offset: 0x1C062C4
-    void CompileUnaryExpression(System::Linq::Expressions::Expression* expr);
+    void CompileUnaryExpression(::System::Linq::Expressions::Expression* expr);
     // private System.Void EmitUnaryMethodCall(System.Linq.Expressions.UnaryExpression node)
     // Offset: 0x1C065AC
-    void EmitUnaryMethodCall(System::Linq::Expressions::UnaryExpression* node);
+    void EmitUnaryMethodCall(::System::Linq::Expressions::UnaryExpression* node);
     // private System.Void EmitUnaryBoolCheck(System.Linq.Expressions.UnaryExpression node)
     // Offset: 0x1C066E8
-    void EmitUnaryBoolCheck(System::Linq::Expressions::UnaryExpression* node);
+    void EmitUnaryBoolCheck(::System::Linq::Expressions::UnaryExpression* node);
     // private System.Void CompileAndAlsoBinaryExpression(System.Linq.Expressions.Expression expr)
     // Offset: 0x1C068D8
-    void CompileAndAlsoBinaryExpression(System::Linq::Expressions::Expression* expr);
+    void CompileAndAlsoBinaryExpression(::System::Linq::Expressions::Expression* expr);
     // private System.Void CompileOrElseBinaryExpression(System.Linq.Expressions.Expression expr)
     // Offset: 0x1C06AE8
-    void CompileOrElseBinaryExpression(System::Linq::Expressions::Expression* expr);
+    void CompileOrElseBinaryExpression(::System::Linq::Expressions::Expression* expr);
     // private System.Void CompileLogicalBinaryExpression(System.Linq.Expressions.BinaryExpression b, System.Boolean andAlso)
     // Offset: 0x1C06970
-    void CompileLogicalBinaryExpression(System::Linq::Expressions::BinaryExpression* b, bool andAlso);
+    void CompileLogicalBinaryExpression(::System::Linq::Expressions::BinaryExpression* b, bool andAlso);
     // private System.Void CompileMethodLogicalBinaryExpression(System.Linq.Expressions.BinaryExpression expr, System.Boolean andAlso)
     // Offset: 0x1C06B80
-    void CompileMethodLogicalBinaryExpression(System::Linq::Expressions::BinaryExpression* expr, bool andAlso);
+    void CompileMethodLogicalBinaryExpression(::System::Linq::Expressions::BinaryExpression* expr, bool andAlso);
     // private System.Void CompileLiftedLogicalBinaryExpression(System.Linq.Expressions.BinaryExpression node, System.Boolean andAlso)
     // Offset: 0x1C06CA4
-    void CompileLiftedLogicalBinaryExpression(System::Linq::Expressions::BinaryExpression* node, bool andAlso);
+    void CompileLiftedLogicalBinaryExpression(::System::Linq::Expressions::BinaryExpression* node, bool andAlso);
     // private System.Void CompileUnliftedLogicalBinaryExpression(System.Linq.Expressions.BinaryExpression expr, System.Boolean andAlso)
     // Offset: 0x1C07428
-    void CompileUnliftedLogicalBinaryExpression(System::Linq::Expressions::BinaryExpression* expr, bool andAlso);
+    void CompileUnliftedLogicalBinaryExpression(::System::Linq::Expressions::BinaryExpression* expr, bool andAlso);
     // private System.Void CompileConditionalExpression(System.Linq.Expressions.Expression expr, System.Boolean asVoid)
     // Offset: 0x1C07514
-    void CompileConditionalExpression(System::Linq::Expressions::Expression* expr, bool asVoid);
+    void CompileConditionalExpression(::System::Linq::Expressions::Expression* expr, bool asVoid);
     // private System.Void CompileLoopExpression(System.Linq.Expressions.Expression expr)
     // Offset: 0x1C07724
-    void CompileLoopExpression(System::Linq::Expressions::Expression* expr);
+    void CompileLoopExpression(::System::Linq::Expressions::Expression* expr);
     // private System.Void CompileSwitchExpression(System.Linq.Expressions.Expression expr)
     // Offset: 0x1C07A04
-    void CompileSwitchExpression(System::Linq::Expressions::Expression* expr);
+    void CompileSwitchExpression(::System::Linq::Expressions::Expression* expr);
     // private System.Void CompileIntSwitchExpression(System.Linq.Expressions.SwitchExpression node)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void CompileIntSwitchExpression(System::Linq::Expressions::SwitchExpression* node) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Expressions::Interpreter::LightCompiler::CompileIntSwitchExpression");
+    void CompileIntSwitchExpression(::System::Linq::Expressions::SwitchExpression* node) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Expressions::Interpreter::LightCompiler::CompileIntSwitchExpression");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CompileIntSwitchExpression", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(node)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, node);
     }
     // private System.Void CompileStringSwitchExpression(System.Linq.Expressions.SwitchExpression node)
     // Offset: 0x1C082FC
-    void CompileStringSwitchExpression(System::Linq::Expressions::SwitchExpression* node);
+    void CompileStringSwitchExpression(::System::Linq::Expressions::SwitchExpression* node);
     // private System.Void CompileLabelExpression(System.Linq.Expressions.Expression expr)
     // Offset: 0x1C08898
-    void CompileLabelExpression(System::Linq::Expressions::Expression* expr);
+    void CompileLabelExpression(::System::Linq::Expressions::Expression* expr);
     // private System.Void CompileGotoExpression(System.Linq.Expressions.Expression expr)
     // Offset: 0x1C08A38
-    void CompileGotoExpression(System::Linq::Expressions::Expression* expr);
+    void CompileGotoExpression(::System::Linq::Expressions::Expression* expr);
     // private System.Void PushLabelBlock(System.Linq.Expressions.Interpreter.LabelScopeKind type)
     // Offset: 0x1C078D8
-    void PushLabelBlock(System::Linq::Expressions::Interpreter::LabelScopeKind type);
+    void PushLabelBlock(::System::Linq::Expressions::Interpreter::LabelScopeKind type);
     // private System.Void PopLabelBlock(System.Linq.Expressions.Interpreter.LabelScopeKind kind)
     // Offset: 0x1C079E4
-    void PopLabelBlock(System::Linq::Expressions::Interpreter::LabelScopeKind kind);
+    void PopLabelBlock(::System::Linq::Expressions::Interpreter::LabelScopeKind kind);
     // private System.Linq.Expressions.Interpreter.LabelInfo EnsureLabel(System.Linq.Expressions.LabelTarget node)
     // Offset: 0x1C08C50
-    System::Linq::Expressions::Interpreter::LabelInfo* EnsureLabel(System::Linq::Expressions::LabelTarget* node);
+    ::System::Linq::Expressions::Interpreter::LabelInfo* EnsureLabel(::System::Linq::Expressions::LabelTarget* node);
     // private System.Linq.Expressions.Interpreter.LabelInfo ReferenceLabel(System.Linq.Expressions.LabelTarget node)
     // Offset: 0x1C08C18
-    System::Linq::Expressions::Interpreter::LabelInfo* ReferenceLabel(System::Linq::Expressions::LabelTarget* node);
+    ::System::Linq::Expressions::Interpreter::LabelInfo* ReferenceLabel(::System::Linq::Expressions::LabelTarget* node);
     // private System.Linq.Expressions.Interpreter.LabelInfo DefineLabel(System.Linq.Expressions.LabelTarget node)
     // Offset: 0x1C07950
-    System::Linq::Expressions::Interpreter::LabelInfo* DefineLabel(System::Linq::Expressions::LabelTarget* node);
+    ::System::Linq::Expressions::Interpreter::LabelInfo* DefineLabel(::System::Linq::Expressions::LabelTarget* node);
     // private System.Boolean TryPushLabelBlock(System.Linq.Expressions.Expression node)
     // Offset: 0x1C08D10
-    bool TryPushLabelBlock(System::Linq::Expressions::Expression* node);
+    bool TryPushLabelBlock(::System::Linq::Expressions::Expression* node);
     // private System.Void DefineBlockLabels(System.Linq.Expressions.Expression node)
     // Offset: 0x1C090F0
-    void DefineBlockLabels(System::Linq::Expressions::Expression* node);
+    void DefineBlockLabels(::System::Linq::Expressions::Expression* node);
     // private System.Void CheckRethrow()
     // Offset: 0x1C09210
     void CheckRethrow();
     // private System.Void CompileThrowUnaryExpression(System.Linq.Expressions.Expression expr, System.Boolean asVoid)
     // Offset: 0x1C0928C
-    void CompileThrowUnaryExpression(System::Linq::Expressions::Expression* expr, bool asVoid);
+    void CompileThrowUnaryExpression(::System::Linq::Expressions::Expression* expr, bool asVoid);
     // private System.Void CompileTryExpression(System.Linq.Expressions.Expression expr)
     // Offset: 0x1C09388
-    void CompileTryExpression(System::Linq::Expressions::Expression* expr);
+    void CompileTryExpression(::System::Linq::Expressions::Expression* expr);
     // private System.Void CompileTryFaultExpression(System.Linq.Expressions.TryExpression expr)
     // Offset: 0x1C09D08
-    void CompileTryFaultExpression(System::Linq::Expressions::TryExpression* expr);
+    void CompileTryFaultExpression(::System::Linq::Expressions::TryExpression* expr);
     // private System.Void CompileMethodCallExpression(System.Linq.Expressions.Expression expr)
     // Offset: 0x1C09F34
-    void CompileMethodCallExpression(System::Linq::Expressions::Expression* expr);
+    void CompileMethodCallExpression(::System::Linq::Expressions::Expression* expr);
     // private System.Void CompileMethodCallExpression(System.Linq.Expressions.Expression object, System.Reflection.MethodInfo method, System.Linq.Expressions.IArgumentProvider arguments)
     // Offset: 0x1C09FE0
-    void CompileMethodCallExpression(System::Linq::Expressions::Expression* object, System::Reflection::MethodInfo* method, System::Linq::Expressions::IArgumentProvider* arguments);
+    void CompileMethodCallExpression(::System::Linq::Expressions::Expression* object, ::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::IArgumentProvider* arguments);
     // private System.Linq.Expressions.Interpreter.ByRefUpdater CompileArrayIndexAddress(System.Linq.Expressions.Expression array, System.Linq.Expressions.Expression index, System.Int32 argumentIndex)
     // Offset: 0x1C0ACAC
-    System::Linq::Expressions::Interpreter::ByRefUpdater* CompileArrayIndexAddress(System::Linq::Expressions::Expression* array, System::Linq::Expressions::Expression* index, int argumentIndex);
+    ::System::Linq::Expressions::Interpreter::ByRefUpdater* CompileArrayIndexAddress(::System::Linq::Expressions::Expression* array, ::System::Linq::Expressions::Expression* index, int argumentIndex);
     // private System.Void EmitThisForMethodCall(System.Linq.Expressions.Expression node)
     // Offset: 0x1C03CDC
-    void EmitThisForMethodCall(System::Linq::Expressions::Expression* node);
+    void EmitThisForMethodCall(::System::Linq::Expressions::Expression* node);
     // static private System.Boolean ShouldWritebackNode(System.Linq.Expressions.Expression node)
     // Offset: 0x1C0AE98
-    static bool ShouldWritebackNode(System::Linq::Expressions::Expression* node);
+    static bool ShouldWritebackNode(::System::Linq::Expressions::Expression* node);
     // private System.Linq.Expressions.Interpreter.ByRefUpdater CompileAddress(System.Linq.Expressions.Expression node, System.Int32 index)
     // Offset: 0x1C0A3F8
-    System::Linq::Expressions::Interpreter::ByRefUpdater* CompileAddress(System::Linq::Expressions::Expression* node, int index);
+    ::System::Linq::Expressions::Interpreter::ByRefUpdater* CompileAddress(::System::Linq::Expressions::Expression* node, int index);
     // private System.Linq.Expressions.Interpreter.ByRefUpdater CompileMultiDimArrayAccess(System.Linq.Expressions.Expression array, System.Linq.Expressions.IArgumentProvider arguments, System.Int32 index)
     // Offset: 0x1C0B00C
-    System::Linq::Expressions::Interpreter::ByRefUpdater* CompileMultiDimArrayAccess(System::Linq::Expressions::Expression* array, System::Linq::Expressions::IArgumentProvider* arguments, int index);
+    ::System::Linq::Expressions::Interpreter::ByRefUpdater* CompileMultiDimArrayAccess(::System::Linq::Expressions::Expression* array, ::System::Linq::Expressions::IArgumentProvider* arguments, int index);
     // private System.Void CompileNewExpression(System.Linq.Expressions.Expression expr)
     // Offset: 0x1C0B3E8
-    void CompileNewExpression(System::Linq::Expressions::Expression* expr);
+    void CompileNewExpression(::System::Linq::Expressions::Expression* expr);
     // private System.Void CompileMemberExpression(System.Linq.Expressions.Expression expr)
     // Offset: 0x1C0B6FC
-    void CompileMemberExpression(System::Linq::Expressions::Expression* expr);
+    void CompileMemberExpression(::System::Linq::Expressions::Expression* expr);
     // private System.Void CompileMember(System.Linq.Expressions.Expression from, System.Reflection.MemberInfo member, System.Boolean forBinding)
     // Offset: 0x1C0B7AC
-    void CompileMember(System::Linq::Expressions::Expression* from, System::Reflection::MemberInfo* member, bool forBinding);
+    void CompileMember(::System::Linq::Expressions::Expression* from, ::System::Reflection::MemberInfo* member, bool forBinding);
     // private System.Void CompileNewArrayExpression(System.Linq.Expressions.Expression expr)
     // Offset: 0x1C0BAFC
-    void CompileNewArrayExpression(System::Linq::Expressions::Expression* expr);
+    void CompileNewArrayExpression(::System::Linq::Expressions::Expression* expr);
     // private System.Void CompileDebugInfoExpression(System.Linq.Expressions.Expression expr)
     // Offset: 0x1C0BDFC
-    void CompileDebugInfoExpression(System::Linq::Expressions::Expression* expr);
+    void CompileDebugInfoExpression(::System::Linq::Expressions::Expression* expr);
     // private System.Void CompileRuntimeVariablesExpression(System.Linq.Expressions.Expression expr)
     // Offset: 0x1C0BF30
-    void CompileRuntimeVariablesExpression(System::Linq::Expressions::Expression* expr);
+    void CompileRuntimeVariablesExpression(::System::Linq::Expressions::Expression* expr);
     // private System.Void CompileLambdaExpression(System.Linq.Expressions.Expression expr)
     // Offset: 0x1C0C19C
-    void CompileLambdaExpression(System::Linq::Expressions::Expression* expr);
+    void CompileLambdaExpression(::System::Linq::Expressions::Expression* expr);
     // private System.Void CompileCoalesceBinaryExpression(System.Linq.Expressions.Expression expr)
     // Offset: 0x1C0C344
-    void CompileCoalesceBinaryExpression(System::Linq::Expressions::Expression* expr);
+    void CompileCoalesceBinaryExpression(::System::Linq::Expressions::Expression* expr);
     // private System.Void CompileInvocationExpression(System.Linq.Expressions.Expression expr)
     // Offset: 0x1C0C718
-    void CompileInvocationExpression(System::Linq::Expressions::Expression* expr);
+    void CompileInvocationExpression(::System::Linq::Expressions::Expression* expr);
     // private System.Void CompileListInitExpression(System.Linq.Expressions.Expression expr)
     // Offset: 0x1C0C984
-    void CompileListInitExpression(System::Linq::Expressions::Expression* expr);
+    void CompileListInitExpression(::System::Linq::Expressions::Expression* expr);
     // private System.Void CompileListInit(System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.ElementInit> initializers)
     // Offset: 0x1C0CA10
-    void CompileListInit(System::Collections::ObjectModel::ReadOnlyCollection_1<System::Linq::Expressions::ElementInit*>* initializers);
+    void CompileListInit(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ElementInit*>* initializers);
     // private System.Void CompileMemberInitExpression(System.Linq.Expressions.Expression expr)
     // Offset: 0x1C0CD48
-    void CompileMemberInitExpression(System::Linq::Expressions::Expression* expr);
+    void CompileMemberInitExpression(::System::Linq::Expressions::Expression* expr);
     // private System.Void CompileMemberInit(System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.MemberBinding> bindings)
     // Offset: 0x1C0CDD4
-    void CompileMemberInit(System::Collections::ObjectModel::ReadOnlyCollection_1<System::Linq::Expressions::MemberBinding*>* bindings);
+    void CompileMemberInit(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::MemberBinding*>* bindings);
     // static private System.Type GetMemberType(System.Reflection.MemberInfo member)
     // Offset: 0x1C0D210
-    static System::Type* GetMemberType(System::Reflection::MemberInfo* member);
+    static ::System::Type* GetMemberType(::System::Reflection::MemberInfo* member);
     // private System.Void CompileQuoteUnaryExpression(System.Linq.Expressions.Expression expr)
     // Offset: 0x1C0D364
-    void CompileQuoteUnaryExpression(System::Linq::Expressions::Expression* expr);
+    void CompileQuoteUnaryExpression(::System::Linq::Expressions::Expression* expr);
     // private System.Void CompileUnboxUnaryExpression(System.Linq.Expressions.Expression expr)
     // Offset: 0x1C0D580
-    void CompileUnboxUnaryExpression(System::Linq::Expressions::Expression* expr);
+    void CompileUnboxUnaryExpression(::System::Linq::Expressions::Expression* expr);
     // private System.Void CompileTypeEqualExpression(System.Linq.Expressions.Expression expr)
     // Offset: 0x1C0D684
-    void CompileTypeEqualExpression(System::Linq::Expressions::Expression* expr);
+    void CompileTypeEqualExpression(::System::Linq::Expressions::Expression* expr);
     // private System.Void CompileTypeAsExpression(System.Linq.Expressions.UnaryExpression node)
     // Offset: 0x1C06698
-    void CompileTypeAsExpression(System::Linq::Expressions::UnaryExpression* node);
+    void CompileTypeAsExpression(::System::Linq::Expressions::UnaryExpression* node);
     // private System.Void CompileTypeIsExpression(System.Linq.Expressions.Expression expr)
     // Offset: 0x1C0D84C
-    void CompileTypeIsExpression(System::Linq::Expressions::Expression* expr);
+    void CompileTypeIsExpression(::System::Linq::Expressions::Expression* expr);
     // private System.Void Compile(System.Linq.Expressions.Expression expr, System.Boolean asVoid)
     // Offset: 0x1C039C0
-    void Compile(System::Linq::Expressions::Expression* expr, bool asVoid);
+    void Compile(::System::Linq::Expressions::Expression* expr, bool asVoid);
     // private System.Void CompileAsVoid(System.Linq.Expressions.Expression expr)
     // Offset: 0x1C03A7C
-    void CompileAsVoid(System::Linq::Expressions::Expression* expr);
+    void CompileAsVoid(::System::Linq::Expressions::Expression* expr);
     // private System.Void CompileNoLabelPush(System.Linq.Expressions.Expression expr)
     // Offset: 0x1C0DA60
-    void CompileNoLabelPush(System::Linq::Expressions::Expression* expr);
+    void CompileNoLabelPush(::System::Linq::Expressions::Expression* expr);
     // private System.Void Compile(System.Linq.Expressions.Expression expr)
     // Offset: 0x1C02AC0
-    void Compile(System::Linq::Expressions::Expression* expr);
+    void Compile(::System::Linq::Expressions::Expression* expr);
     // public System.Void .ctor()
     // Offset: 0x1C02758
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightCompiler* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Expressions::Interpreter::LightCompiler::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Expressions::Interpreter::LightCompiler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightCompiler*, creationType>()));
     }
   }; // System.Linq.Expressions.Interpreter.LightCompiler
   #pragma pack(pop)
-  static check_size<sizeof(LightCompiler), 72 + sizeof(System::Linq::Expressions::StackGuard*)> __System_Linq_Expressions_Interpreter_LightCompilerSizeCheck;
+  static check_size<sizeof(LightCompiler), 72 + sizeof(::System::Linq::Expressions::StackGuard*)> __System_Linq_Expressions_Interpreter_LightCompilerSizeCheck;
   static_assert(sizeof(LightCompiler) == 0x50);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::get_Instructions
 // Il2CppName: get_Instructions
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Linq::Expressions::Interpreter::InstructionList* (System::Linq::Expressions::Interpreter::LightCompiler::*)()>(&System::Linq::Expressions::Interpreter::LightCompiler::get_Instructions)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Interpreter::InstructionList* (System::Linq::Expressions::Interpreter::LightCompiler::*)()>(&System::Linq::Expressions::Interpreter::LightCompiler::get_Instructions)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "get_Instructions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -524,7 +524,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileTop
 // Il2CppName: CompileTop
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Linq::Expressions::Interpreter::LightDelegateCreator* (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::LambdaExpression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileTop)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Interpreter::LightDelegateCreator* (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::LambdaExpression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileTop)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "LambdaExpression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "CompileTop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node});
@@ -533,7 +533,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Lin
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::MakeInterpreter
 // Il2CppName: MakeInterpreter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Linq::Expressions::Interpreter::Interpreter* (System::Linq::Expressions::Interpreter::LightCompiler::*)(::StringW)>(&System::Linq::Expressions::Interpreter::LightCompiler::MakeInterpreter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Interpreter::Interpreter* (System::Linq::Expressions::Interpreter::LightCompiler::*)(::StringW)>(&System::Linq::Expressions::Interpreter::LightCompiler::MakeInterpreter)> {
   static const MethodInfo* get() {
     static auto* lambdaName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "MakeInterpreter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lambdaName});
@@ -542,7 +542,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Lin
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileConstantExpression
 // Il2CppName: CompileConstantExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileConstantExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileConstantExpression)> {
   static const MethodInfo* get() {
     static auto* expr = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "CompileConstantExpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expr});
@@ -551,7 +551,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileDefaultExpression
 // Il2CppName: CompileDefaultExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileDefaultExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileDefaultExpression)> {
   static const MethodInfo* get() {
     static auto* expr = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "CompileDefaultExpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expr});
@@ -560,7 +560,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileDefaultExpression
 // Il2CppName: CompileDefaultExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Type*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileDefaultExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Type*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileDefaultExpression)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "CompileDefaultExpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -569,7 +569,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::EnsureAvailableForClosure
 // Il2CppName: EnsureAvailableForClosure
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Linq::Expressions::Interpreter::LocalVariable* (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::ParameterExpression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::EnsureAvailableForClosure)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Interpreter::LocalVariable* (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::ParameterExpression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::EnsureAvailableForClosure)> {
   static const MethodInfo* get() {
     static auto* expr = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "ParameterExpression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "EnsureAvailableForClosure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expr});
@@ -578,7 +578,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Lin
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::ResolveLocal
 // Il2CppName: ResolveLocal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Linq::Expressions::Interpreter::LocalVariable* (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::ParameterExpression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::ResolveLocal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Interpreter::LocalVariable* (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::ParameterExpression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::ResolveLocal)> {
   static const MethodInfo* get() {
     static auto* variable = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "ParameterExpression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "ResolveLocal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{variable});
@@ -587,7 +587,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Lin
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileGetVariable
 // Il2CppName: CompileGetVariable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::ParameterExpression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileGetVariable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::ParameterExpression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileGetVariable)> {
   static const MethodInfo* get() {
     static auto* variable = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "ParameterExpression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "CompileGetVariable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{variable});
@@ -596,7 +596,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::EmitCopyValueType
 // Il2CppName: EmitCopyValueType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Type*)>(&System::Linq::Expressions::Interpreter::LightCompiler::EmitCopyValueType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Type*)>(&System::Linq::Expressions::Interpreter::LightCompiler::EmitCopyValueType)> {
   static const MethodInfo* get() {
     static auto* valueType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "EmitCopyValueType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{valueType});
@@ -605,7 +605,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::LoadLocalNoValueTypeCopy
 // Il2CppName: LoadLocalNoValueTypeCopy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::ParameterExpression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::LoadLocalNoValueTypeCopy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::ParameterExpression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::LoadLocalNoValueTypeCopy)> {
   static const MethodInfo* get() {
     static auto* variable = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "ParameterExpression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "LoadLocalNoValueTypeCopy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{variable});
@@ -614,7 +614,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::MaybeMutableValueType
 // Il2CppName: MaybeMutableValueType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Type*)>(&System::Linq::Expressions::Interpreter::LightCompiler::MaybeMutableValueType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Type*)>(&System::Linq::Expressions::Interpreter::LightCompiler::MaybeMutableValueType)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "MaybeMutableValueType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -623,7 +623,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileGetBoxedVariable
 // Il2CppName: CompileGetBoxedVariable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::ParameterExpression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileGetBoxedVariable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::ParameterExpression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileGetBoxedVariable)> {
   static const MethodInfo* get() {
     static auto* variable = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "ParameterExpression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "CompileGetBoxedVariable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{variable});
@@ -632,7 +632,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileSetVariable
 // Il2CppName: CompileSetVariable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::ParameterExpression*, bool)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileSetVariable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::ParameterExpression*, bool)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileSetVariable)> {
   static const MethodInfo* get() {
     static auto* variable = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "ParameterExpression")->byval_arg;
     static auto* isVoid = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -642,7 +642,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileParameterExpression
 // Il2CppName: CompileParameterExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileParameterExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileParameterExpression)> {
   static const MethodInfo* get() {
     static auto* expr = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "CompileParameterExpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expr});
@@ -651,7 +651,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileBlockExpression
 // Il2CppName: CompileBlockExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Expression*, bool)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileBlockExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Expression*, bool)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileBlockExpression)> {
   static const MethodInfo* get() {
     static auto* expr = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     static auto* asVoid = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -661,7 +661,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileBlockStart
 // Il2CppName: CompileBlockStart
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Linq::Expressions::Interpreter::LocalDefinition> (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::BlockExpression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileBlockStart)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Linq::Expressions::Interpreter::LocalDefinition> (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::BlockExpression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileBlockStart)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "BlockExpression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "CompileBlockStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node});
@@ -670,7 +670,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Sy
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileBlockEnd
 // Il2CppName: CompileBlockEnd
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::ArrayW<System::Linq::Expressions::Interpreter::LocalDefinition>)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileBlockEnd)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::ArrayW<::System::Linq::Expressions::Interpreter::LocalDefinition>)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileBlockEnd)> {
   static const MethodInfo* get() {
     static auto* locals = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Linq.Expressions.Interpreter", "LocalDefinition"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "CompileBlockEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{locals});
@@ -679,7 +679,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileIndexExpression
 // Il2CppName: CompileIndexExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileIndexExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileIndexExpression)> {
   static const MethodInfo* get() {
     static auto* expr = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "CompileIndexExpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expr});
@@ -688,7 +688,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::EmitIndexGet
 // Il2CppName: EmitIndexGet
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::IndexExpression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::EmitIndexGet)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::IndexExpression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::EmitIndexGet)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "IndexExpression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "EmitIndexGet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
@@ -697,7 +697,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileIndexAssignment
 // Il2CppName: CompileIndexAssignment
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::BinaryExpression*, bool)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileIndexAssignment)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::BinaryExpression*, bool)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileIndexAssignment)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "BinaryExpression")->byval_arg;
     static auto* asVoid = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -707,7 +707,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileMemberAssignment
 // Il2CppName: CompileMemberAssignment
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::BinaryExpression*, bool)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileMemberAssignment)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::BinaryExpression*, bool)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileMemberAssignment)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "BinaryExpression")->byval_arg;
     static auto* asVoid = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -717,7 +717,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileMemberAssignment
 // Il2CppName: CompileMemberAssignment
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(bool, System::Reflection::MemberInfo*, System::Linq::Expressions::Expression*, bool)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileMemberAssignment)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(bool, ::System::Reflection::MemberInfo*, ::System::Linq::Expressions::Expression*, bool)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileMemberAssignment)> {
   static const MethodInfo* get() {
     static auto* asVoid = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* refMember = &::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo")->byval_arg;
@@ -729,7 +729,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileVariableAssignment
 // Il2CppName: CompileVariableAssignment
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::BinaryExpression*, bool)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileVariableAssignment)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::BinaryExpression*, bool)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileVariableAssignment)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "BinaryExpression")->byval_arg;
     static auto* asVoid = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -739,7 +739,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileAssignBinaryExpression
 // Il2CppName: CompileAssignBinaryExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Expression*, bool)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileAssignBinaryExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Expression*, bool)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileAssignBinaryExpression)> {
   static const MethodInfo* get() {
     static auto* expr = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     static auto* asVoid = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -749,7 +749,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileBinaryExpression
 // Il2CppName: CompileBinaryExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileBinaryExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileBinaryExpression)> {
   static const MethodInfo* get() {
     static auto* expr = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "CompileBinaryExpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expr});
@@ -758,7 +758,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileEqual
 // Il2CppName: CompileEqual
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Expression*, System::Linq::Expressions::Expression*, bool)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileEqual)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, bool)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileEqual)> {
   static const MethodInfo* get() {
     static auto* left = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     static auto* right = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
@@ -769,7 +769,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileNotEqual
 // Il2CppName: CompileNotEqual
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Expression*, System::Linq::Expressions::Expression*, bool)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileNotEqual)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, bool)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileNotEqual)> {
   static const MethodInfo* get() {
     static auto* left = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     static auto* right = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
@@ -780,7 +780,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileComparison
 // Il2CppName: CompileComparison
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::BinaryExpression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileComparison)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::BinaryExpression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileComparison)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "BinaryExpression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "CompileComparison", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node});
@@ -789,7 +789,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileArithmetic
 // Il2CppName: CompileArithmetic
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::ExpressionType, System::Linq::Expressions::Expression*, System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileArithmetic)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::ExpressionType, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileArithmetic)> {
   static const MethodInfo* get() {
     static auto* nodeType = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "ExpressionType")->byval_arg;
     static auto* left = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
@@ -800,7 +800,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileConvertUnaryExpression
 // Il2CppName: CompileConvertUnaryExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileConvertUnaryExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileConvertUnaryExpression)> {
   static const MethodInfo* get() {
     static auto* expr = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "CompileConvertUnaryExpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expr});
@@ -809,7 +809,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileConvertToType
 // Il2CppName: CompileConvertToType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Type*, System::Type*, bool, bool)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileConvertToType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Type*, ::System::Type*, bool, bool)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileConvertToType)> {
   static const MethodInfo* get() {
     static auto* typeFrom = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* typeTo = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -821,7 +821,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileNotExpression
 // Il2CppName: CompileNotExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::UnaryExpression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileNotExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::UnaryExpression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileNotExpression)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "UnaryExpression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "CompileNotExpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node});
@@ -830,7 +830,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileUnaryExpression
 // Il2CppName: CompileUnaryExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileUnaryExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileUnaryExpression)> {
   static const MethodInfo* get() {
     static auto* expr = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "CompileUnaryExpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expr});
@@ -839,7 +839,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::EmitUnaryMethodCall
 // Il2CppName: EmitUnaryMethodCall
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::UnaryExpression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::EmitUnaryMethodCall)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::UnaryExpression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::EmitUnaryMethodCall)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "UnaryExpression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "EmitUnaryMethodCall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node});
@@ -848,7 +848,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::EmitUnaryBoolCheck
 // Il2CppName: EmitUnaryBoolCheck
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::UnaryExpression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::EmitUnaryBoolCheck)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::UnaryExpression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::EmitUnaryBoolCheck)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "UnaryExpression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "EmitUnaryBoolCheck", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node});
@@ -857,7 +857,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileAndAlsoBinaryExpression
 // Il2CppName: CompileAndAlsoBinaryExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileAndAlsoBinaryExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileAndAlsoBinaryExpression)> {
   static const MethodInfo* get() {
     static auto* expr = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "CompileAndAlsoBinaryExpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expr});
@@ -866,7 +866,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileOrElseBinaryExpression
 // Il2CppName: CompileOrElseBinaryExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileOrElseBinaryExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileOrElseBinaryExpression)> {
   static const MethodInfo* get() {
     static auto* expr = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "CompileOrElseBinaryExpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expr});
@@ -875,7 +875,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileLogicalBinaryExpression
 // Il2CppName: CompileLogicalBinaryExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::BinaryExpression*, bool)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileLogicalBinaryExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::BinaryExpression*, bool)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileLogicalBinaryExpression)> {
   static const MethodInfo* get() {
     static auto* b = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "BinaryExpression")->byval_arg;
     static auto* andAlso = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -885,7 +885,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileMethodLogicalBinaryExpression
 // Il2CppName: CompileMethodLogicalBinaryExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::BinaryExpression*, bool)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileMethodLogicalBinaryExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::BinaryExpression*, bool)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileMethodLogicalBinaryExpression)> {
   static const MethodInfo* get() {
     static auto* expr = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "BinaryExpression")->byval_arg;
     static auto* andAlso = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -895,7 +895,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileLiftedLogicalBinaryExpression
 // Il2CppName: CompileLiftedLogicalBinaryExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::BinaryExpression*, bool)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileLiftedLogicalBinaryExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::BinaryExpression*, bool)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileLiftedLogicalBinaryExpression)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "BinaryExpression")->byval_arg;
     static auto* andAlso = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -905,7 +905,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileUnliftedLogicalBinaryExpression
 // Il2CppName: CompileUnliftedLogicalBinaryExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::BinaryExpression*, bool)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileUnliftedLogicalBinaryExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::BinaryExpression*, bool)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileUnliftedLogicalBinaryExpression)> {
   static const MethodInfo* get() {
     static auto* expr = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "BinaryExpression")->byval_arg;
     static auto* andAlso = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -915,7 +915,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileConditionalExpression
 // Il2CppName: CompileConditionalExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Expression*, bool)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileConditionalExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Expression*, bool)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileConditionalExpression)> {
   static const MethodInfo* get() {
     static auto* expr = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     static auto* asVoid = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -925,7 +925,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileLoopExpression
 // Il2CppName: CompileLoopExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileLoopExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileLoopExpression)> {
   static const MethodInfo* get() {
     static auto* expr = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "CompileLoopExpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expr});
@@ -934,7 +934,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileSwitchExpression
 // Il2CppName: CompileSwitchExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileSwitchExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileSwitchExpression)> {
   static const MethodInfo* get() {
     static auto* expr = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "CompileSwitchExpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expr});
@@ -946,7 +946,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileStringSwitchExpression
 // Il2CppName: CompileStringSwitchExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::SwitchExpression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileStringSwitchExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::SwitchExpression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileStringSwitchExpression)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "SwitchExpression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "CompileStringSwitchExpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node});
@@ -955,7 +955,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileLabelExpression
 // Il2CppName: CompileLabelExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileLabelExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileLabelExpression)> {
   static const MethodInfo* get() {
     static auto* expr = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "CompileLabelExpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expr});
@@ -964,7 +964,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileGotoExpression
 // Il2CppName: CompileGotoExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileGotoExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileGotoExpression)> {
   static const MethodInfo* get() {
     static auto* expr = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "CompileGotoExpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expr});
@@ -973,7 +973,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::PushLabelBlock
 // Il2CppName: PushLabelBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Interpreter::LabelScopeKind)>(&System::Linq::Expressions::Interpreter::LightCompiler::PushLabelBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Interpreter::LabelScopeKind)>(&System::Linq::Expressions::Interpreter::LightCompiler::PushLabelBlock)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions.Interpreter", "LabelScopeKind")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "PushLabelBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -982,7 +982,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::PopLabelBlock
 // Il2CppName: PopLabelBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Interpreter::LabelScopeKind)>(&System::Linq::Expressions::Interpreter::LightCompiler::PopLabelBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Interpreter::LabelScopeKind)>(&System::Linq::Expressions::Interpreter::LightCompiler::PopLabelBlock)> {
   static const MethodInfo* get() {
     static auto* kind = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions.Interpreter", "LabelScopeKind")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "PopLabelBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{kind});
@@ -991,7 +991,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::EnsureLabel
 // Il2CppName: EnsureLabel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Linq::Expressions::Interpreter::LabelInfo* (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::LabelTarget*)>(&System::Linq::Expressions::Interpreter::LightCompiler::EnsureLabel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Interpreter::LabelInfo* (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::LabelTarget*)>(&System::Linq::Expressions::Interpreter::LightCompiler::EnsureLabel)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "LabelTarget")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "EnsureLabel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node});
@@ -1000,7 +1000,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Lin
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::ReferenceLabel
 // Il2CppName: ReferenceLabel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Linq::Expressions::Interpreter::LabelInfo* (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::LabelTarget*)>(&System::Linq::Expressions::Interpreter::LightCompiler::ReferenceLabel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Interpreter::LabelInfo* (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::LabelTarget*)>(&System::Linq::Expressions::Interpreter::LightCompiler::ReferenceLabel)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "LabelTarget")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "ReferenceLabel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node});
@@ -1009,7 +1009,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Lin
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::DefineLabel
 // Il2CppName: DefineLabel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Linq::Expressions::Interpreter::LabelInfo* (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::LabelTarget*)>(&System::Linq::Expressions::Interpreter::LightCompiler::DefineLabel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Interpreter::LabelInfo* (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::LabelTarget*)>(&System::Linq::Expressions::Interpreter::LightCompiler::DefineLabel)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "LabelTarget")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "DefineLabel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node});
@@ -1018,7 +1018,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Lin
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::TryPushLabelBlock
 // Il2CppName: TryPushLabelBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::TryPushLabelBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::TryPushLabelBlock)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "TryPushLabelBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node});
@@ -1027,7 +1027,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::DefineBlockLabels
 // Il2CppName: DefineBlockLabels
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::DefineBlockLabels)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::DefineBlockLabels)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "DefineBlockLabels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node});
@@ -1044,7 +1044,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileThrowUnaryExpression
 // Il2CppName: CompileThrowUnaryExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Expression*, bool)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileThrowUnaryExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Expression*, bool)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileThrowUnaryExpression)> {
   static const MethodInfo* get() {
     static auto* expr = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     static auto* asVoid = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -1054,7 +1054,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileTryExpression
 // Il2CppName: CompileTryExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileTryExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileTryExpression)> {
   static const MethodInfo* get() {
     static auto* expr = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "CompileTryExpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expr});
@@ -1063,7 +1063,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileTryFaultExpression
 // Il2CppName: CompileTryFaultExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::TryExpression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileTryFaultExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::TryExpression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileTryFaultExpression)> {
   static const MethodInfo* get() {
     static auto* expr = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "TryExpression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "CompileTryFaultExpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expr});
@@ -1072,7 +1072,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileMethodCallExpression
 // Il2CppName: CompileMethodCallExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileMethodCallExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileMethodCallExpression)> {
   static const MethodInfo* get() {
     static auto* expr = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "CompileMethodCallExpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expr});
@@ -1081,7 +1081,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileMethodCallExpression
 // Il2CppName: CompileMethodCallExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Expression*, System::Reflection::MethodInfo*, System::Linq::Expressions::IArgumentProvider*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileMethodCallExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*, ::System::Linq::Expressions::IArgumentProvider*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileMethodCallExpression)> {
   static const MethodInfo* get() {
     static auto* object = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     static auto* method = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodInfo")->byval_arg;
@@ -1092,7 +1092,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileArrayIndexAddress
 // Il2CppName: CompileArrayIndexAddress
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Linq::Expressions::Interpreter::ByRefUpdater* (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Expression*, System::Linq::Expressions::Expression*, int)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileArrayIndexAddress)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Interpreter::ByRefUpdater* (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, int)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileArrayIndexAddress)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
@@ -1103,7 +1103,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Lin
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::EmitThisForMethodCall
 // Il2CppName: EmitThisForMethodCall
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::EmitThisForMethodCall)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::EmitThisForMethodCall)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "EmitThisForMethodCall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node});
@@ -1112,7 +1112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::ShouldWritebackNode
 // Il2CppName: ShouldWritebackNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::ShouldWritebackNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::ShouldWritebackNode)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "ShouldWritebackNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node});
@@ -1121,7 +1121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileAddress
 // Il2CppName: CompileAddress
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Linq::Expressions::Interpreter::ByRefUpdater* (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Expression*, int)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileAddress)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Interpreter::ByRefUpdater* (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Expression*, int)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileAddress)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1131,7 +1131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Lin
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileMultiDimArrayAccess
 // Il2CppName: CompileMultiDimArrayAccess
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Linq::Expressions::Interpreter::ByRefUpdater* (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Expression*, System::Linq::Expressions::IArgumentProvider*, int)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileMultiDimArrayAccess)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Interpreter::ByRefUpdater* (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::IArgumentProvider*, int)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileMultiDimArrayAccess)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     static auto* arguments = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "IArgumentProvider")->byval_arg;
@@ -1142,7 +1142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Lin
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileNewExpression
 // Il2CppName: CompileNewExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileNewExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileNewExpression)> {
   static const MethodInfo* get() {
     static auto* expr = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "CompileNewExpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expr});
@@ -1151,7 +1151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileMemberExpression
 // Il2CppName: CompileMemberExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileMemberExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileMemberExpression)> {
   static const MethodInfo* get() {
     static auto* expr = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "CompileMemberExpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expr});
@@ -1160,7 +1160,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileMember
 // Il2CppName: CompileMember
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Expression*, System::Reflection::MemberInfo*, bool)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileMember)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Expression*, ::System::Reflection::MemberInfo*, bool)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileMember)> {
   static const MethodInfo* get() {
     static auto* from = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     static auto* member = &::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo")->byval_arg;
@@ -1171,7 +1171,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileNewArrayExpression
 // Il2CppName: CompileNewArrayExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileNewArrayExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileNewArrayExpression)> {
   static const MethodInfo* get() {
     static auto* expr = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "CompileNewArrayExpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expr});
@@ -1180,7 +1180,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileDebugInfoExpression
 // Il2CppName: CompileDebugInfoExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileDebugInfoExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileDebugInfoExpression)> {
   static const MethodInfo* get() {
     static auto* expr = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "CompileDebugInfoExpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expr});
@@ -1189,7 +1189,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileRuntimeVariablesExpression
 // Il2CppName: CompileRuntimeVariablesExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileRuntimeVariablesExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileRuntimeVariablesExpression)> {
   static const MethodInfo* get() {
     static auto* expr = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "CompileRuntimeVariablesExpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expr});
@@ -1198,7 +1198,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileLambdaExpression
 // Il2CppName: CompileLambdaExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileLambdaExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileLambdaExpression)> {
   static const MethodInfo* get() {
     static auto* expr = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "CompileLambdaExpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expr});
@@ -1207,7 +1207,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileCoalesceBinaryExpression
 // Il2CppName: CompileCoalesceBinaryExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileCoalesceBinaryExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileCoalesceBinaryExpression)> {
   static const MethodInfo* get() {
     static auto* expr = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "CompileCoalesceBinaryExpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expr});
@@ -1216,7 +1216,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileInvocationExpression
 // Il2CppName: CompileInvocationExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileInvocationExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileInvocationExpression)> {
   static const MethodInfo* get() {
     static auto* expr = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "CompileInvocationExpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expr});
@@ -1225,7 +1225,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileListInitExpression
 // Il2CppName: CompileListInitExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileListInitExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileListInitExpression)> {
   static const MethodInfo* get() {
     static auto* expr = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "CompileListInitExpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expr});
@@ -1234,7 +1234,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileListInit
 // Il2CppName: CompileListInit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Collections::ObjectModel::ReadOnlyCollection_1<System::Linq::Expressions::ElementInit*>*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileListInit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ElementInit*>*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileListInit)> {
   static const MethodInfo* get() {
     static auto* initializers = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.ObjectModel", "ReadOnlyCollection`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "ElementInit")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "CompileListInit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{initializers});
@@ -1243,7 +1243,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileMemberInitExpression
 // Il2CppName: CompileMemberInitExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileMemberInitExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileMemberInitExpression)> {
   static const MethodInfo* get() {
     static auto* expr = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "CompileMemberInitExpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expr});
@@ -1252,7 +1252,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileMemberInit
 // Il2CppName: CompileMemberInit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Collections::ObjectModel::ReadOnlyCollection_1<System::Linq::Expressions::MemberBinding*>*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileMemberInit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::MemberBinding*>*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileMemberInit)> {
   static const MethodInfo* get() {
     static auto* bindings = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.ObjectModel", "ReadOnlyCollection`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "MemberBinding")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "CompileMemberInit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bindings});
@@ -1261,7 +1261,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::GetMemberType
 // Il2CppName: GetMemberType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(System::Reflection::MemberInfo*)>(&System::Linq::Expressions::Interpreter::LightCompiler::GetMemberType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Reflection::MemberInfo*)>(&System::Linq::Expressions::Interpreter::LightCompiler::GetMemberType)> {
   static const MethodInfo* get() {
     static auto* member = &::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "GetMemberType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{member});
@@ -1270,7 +1270,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileQuoteUnaryExpression
 // Il2CppName: CompileQuoteUnaryExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileQuoteUnaryExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileQuoteUnaryExpression)> {
   static const MethodInfo* get() {
     static auto* expr = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "CompileQuoteUnaryExpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expr});
@@ -1279,7 +1279,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileUnboxUnaryExpression
 // Il2CppName: CompileUnboxUnaryExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileUnboxUnaryExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileUnboxUnaryExpression)> {
   static const MethodInfo* get() {
     static auto* expr = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "CompileUnboxUnaryExpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expr});
@@ -1288,7 +1288,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileTypeEqualExpression
 // Il2CppName: CompileTypeEqualExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileTypeEqualExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileTypeEqualExpression)> {
   static const MethodInfo* get() {
     static auto* expr = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "CompileTypeEqualExpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expr});
@@ -1297,7 +1297,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileTypeAsExpression
 // Il2CppName: CompileTypeAsExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::UnaryExpression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileTypeAsExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::UnaryExpression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileTypeAsExpression)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "UnaryExpression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "CompileTypeAsExpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node});
@@ -1306,7 +1306,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileTypeIsExpression
 // Il2CppName: CompileTypeIsExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileTypeIsExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileTypeIsExpression)> {
   static const MethodInfo* get() {
     static auto* expr = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "CompileTypeIsExpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expr});
@@ -1315,7 +1315,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::Compile
 // Il2CppName: Compile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Expression*, bool)>(&System::Linq::Expressions::Interpreter::LightCompiler::Compile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Expression*, bool)>(&System::Linq::Expressions::Interpreter::LightCompiler::Compile)> {
   static const MethodInfo* get() {
     static auto* expr = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     static auto* asVoid = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -1325,7 +1325,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileAsVoid
 // Il2CppName: CompileAsVoid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileAsVoid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileAsVoid)> {
   static const MethodInfo* get() {
     static auto* expr = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "CompileAsVoid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expr});
@@ -1334,7 +1334,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::CompileNoLabelPush
 // Il2CppName: CompileNoLabelPush
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileNoLabelPush)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::CompileNoLabelPush)> {
   static const MethodInfo* get() {
     static auto* expr = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "CompileNoLabelPush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expr});
@@ -1343,7 +1343,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::Compile
 // Il2CppName: Compile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::Compile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::*)(::System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::Compile)> {
   static const MethodInfo* get() {
     static auto* expr = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler*), "Compile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expr});

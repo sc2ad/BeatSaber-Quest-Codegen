@@ -12,8 +12,8 @@ namespace Oculus::Platform {
   class Session;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Session);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Session*, "Oculus.Platform", "Session");
+NEED_NO_BOX(::Oculus::Platform::Session);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Session*, "Oculus.Platform", "Session");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x10

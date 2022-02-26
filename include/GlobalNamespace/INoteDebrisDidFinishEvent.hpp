@@ -18,8 +18,8 @@ namespace GlobalNamespace {
   class INoteDebrisDidFinishEvent;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::INoteDebrisDidFinishEvent);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::INoteDebrisDidFinishEvent*, "", "INoteDebrisDidFinishEvent");
+NEED_NO_BOX(::GlobalNamespace::INoteDebrisDidFinishEvent);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::INoteDebrisDidFinishEvent*, "", "INoteDebrisDidFinishEvent");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -30,7 +30,7 @@ namespace GlobalNamespace {
     public:
     // public System.Void HandleNoteDebrisDidFinish(NoteDebris noteDebris)
     // Offset: 0xFFFFFFFF
-    void HandleNoteDebrisDidFinish(GlobalNamespace::NoteDebris* noteDebris);
+    void HandleNoteDebrisDidFinish(::GlobalNamespace::NoteDebris* noteDebris);
   }; // INoteDebrisDidFinishEvent
   #pragma pack(pop)
 }
@@ -38,7 +38,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::INoteDebrisDidFinishEvent::HandleNoteDebrisDidFinish
 // Il2CppName: HandleNoteDebrisDidFinish
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::INoteDebrisDidFinishEvent::*)(GlobalNamespace::NoteDebris*)>(&GlobalNamespace::INoteDebrisDidFinishEvent::HandleNoteDebrisDidFinish)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::INoteDebrisDidFinishEvent::*)(::GlobalNamespace::NoteDebris*)>(&GlobalNamespace::INoteDebrisDidFinishEvent::HandleNoteDebrisDidFinish)> {
   static const MethodInfo* get() {
     static auto* noteDebris = &::il2cpp_utils::GetClassFromName("", "NoteDebris")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INoteDebrisDidFinishEvent*), "HandleNoteDebrisDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteDebris});

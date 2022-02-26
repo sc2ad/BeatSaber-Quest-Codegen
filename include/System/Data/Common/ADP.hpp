@@ -42,8 +42,8 @@ namespace System::Data::Common {
   class ADP;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Data::Common::ADP);
-DEFINE_IL2CPP_ARG_TYPE(System::Data::Common::ADP*, "System.Data.Common", "ADP");
+NEED_NO_BOX(::System::Data::Common::ADP);
+DEFINE_IL2CPP_ARG_TYPE(::System::Data::Common::ADP*, "System.Data.Common", "ADP");
 // Type namespace: System.Data.Common
 namespace System::Data::Common {
   // Size: 0x10
@@ -53,29 +53,29 @@ namespace System::Data::Common {
   class ADP : public ::Il2CppObject {
     public:
     // Get static field: static private readonly System.Type s_stackOverflowType
-    static System::Type* _get_s_stackOverflowType();
+    static ::System::Type* _get_s_stackOverflowType();
     // Set static field: static private readonly System.Type s_stackOverflowType
-    static void _set_s_stackOverflowType(System::Type* value);
+    static void _set_s_stackOverflowType(::System::Type* value);
     // Get static field: static private readonly System.Type s_outOfMemoryType
-    static System::Type* _get_s_outOfMemoryType();
+    static ::System::Type* _get_s_outOfMemoryType();
     // Set static field: static private readonly System.Type s_outOfMemoryType
-    static void _set_s_outOfMemoryType(System::Type* value);
+    static void _set_s_outOfMemoryType(::System::Type* value);
     // Get static field: static private readonly System.Type s_threadAbortType
-    static System::Type* _get_s_threadAbortType();
+    static ::System::Type* _get_s_threadAbortType();
     // Set static field: static private readonly System.Type s_threadAbortType
-    static void _set_s_threadAbortType(System::Type* value);
+    static void _set_s_threadAbortType(::System::Type* value);
     // Get static field: static private readonly System.Type s_nullReferenceType
-    static System::Type* _get_s_nullReferenceType();
+    static ::System::Type* _get_s_nullReferenceType();
     // Set static field: static private readonly System.Type s_nullReferenceType
-    static void _set_s_nullReferenceType(System::Type* value);
+    static void _set_s_nullReferenceType(::System::Type* value);
     // Get static field: static private readonly System.Type s_accessViolationType
-    static System::Type* _get_s_accessViolationType();
+    static ::System::Type* _get_s_accessViolationType();
     // Set static field: static private readonly System.Type s_accessViolationType
-    static void _set_s_accessViolationType(System::Type* value);
+    static void _set_s_accessViolationType(::System::Type* value);
     // Get static field: static private readonly System.Type s_securityType
-    static System::Type* _get_s_securityType();
+    static ::System::Type* _get_s_securityType();
     // Set static field: static private readonly System.Type s_securityType
-    static void _set_s_securityType(System::Type* value);
+    static void _set_s_securityType(::System::Type* value);
     // Get static field: static readonly System.Boolean IsWindowsNT
     static bool _get_IsWindowsNT();
     // Set static field: static readonly System.Boolean IsWindowsNT
@@ -93,9 +93,9 @@ namespace System::Data::Common {
     // Set static field: static readonly System.String[] AzureSqlServerEndpoints
     static void _set_AzureSqlServerEndpoints(::ArrayW<::StringW> value);
     // Get static field: static readonly System.IntPtr PtrZero
-    static System::IntPtr _get_PtrZero();
+    static ::System::IntPtr _get_PtrZero();
     // Set static field: static readonly System.IntPtr PtrZero
-    static void _set_PtrZero(System::IntPtr value);
+    static void _set_PtrZero(::System::IntPtr value);
     // Get static field: static readonly System.Int32 PtrSize
     static int _get_PtrSize();
     // Set static field: static readonly System.Int32 PtrSize
@@ -105,52 +105,52 @@ namespace System::Data::Common {
     static void _cctor();
     // static private System.Void TraceException(System.String trace, System.Exception e)
     // Offset: 0x1D10168
-    static void TraceException(::StringW trace, System::Exception* e);
+    static void TraceException(::StringW trace, ::System::Exception* e);
     // static System.Void TraceExceptionAsReturnValue(System.Exception e)
     // Offset: 0x1D10210
-    static void TraceExceptionAsReturnValue(System::Exception* e);
+    static void TraceExceptionAsReturnValue(::System::Exception* e);
     // static System.Void TraceExceptionWithoutRethrow(System.Exception e)
     // Offset: 0x1D10280
-    static void TraceExceptionWithoutRethrow(System::Exception* e);
+    static void TraceExceptionWithoutRethrow(::System::Exception* e);
     // static System.ArgumentException Argument(System.String error)
     // Offset: 0x1D102F0
-    static System::ArgumentException* Argument(::StringW error);
+    static ::System::ArgumentException* Argument(::StringW error);
     // static System.ArgumentOutOfRangeException ArgumentOutOfRange(System.String parameterName)
     // Offset: 0x1D1037C
-    static System::ArgumentOutOfRangeException* ArgumentOutOfRange(::StringW parameterName);
+    static ::System::ArgumentOutOfRangeException* ArgumentOutOfRange(::StringW parameterName);
     // static System.ArgumentOutOfRangeException ArgumentOutOfRange(System.String message, System.String parameterName)
     // Offset: 0x1D10408
-    static System::ArgumentOutOfRangeException* ArgumentOutOfRange(::StringW message, ::StringW parameterName);
+    static ::System::ArgumentOutOfRangeException* ArgumentOutOfRange(::StringW message, ::StringW parameterName);
     // static System.InvalidOperationException InvalidOperation(System.String error)
     // Offset: 0x1D104A4
-    static System::InvalidOperationException* InvalidOperation(::StringW error);
+    static ::System::InvalidOperationException* InvalidOperation(::StringW error);
     // static System.NotSupportedException NotSupported(System.String error)
     // Offset: 0x1D10530
-    static System::NotSupportedException* NotSupported(::StringW error);
+    static ::System::NotSupportedException* NotSupported(::StringW error);
     // static System.Boolean IsCatchableExceptionType(System.Exception e)
     // Offset: 0x1D105BC
-    static bool IsCatchableExceptionType(System::Exception* e);
+    static bool IsCatchableExceptionType(::System::Exception* e);
     // static System.Boolean IsCatchableOrSecurityExceptionType(System.Exception e)
     // Offset: 0x1D1081C
-    static bool IsCatchableOrSecurityExceptionType(System::Exception* e);
+    static bool IsCatchableOrSecurityExceptionType(::System::Exception* e);
     // static System.ArgumentOutOfRangeException InvalidEnumerationValue(System.Type type, System.Int32 value)
     // Offset: 0x1D10A3C
-    static System::ArgumentOutOfRangeException* InvalidEnumerationValue(System::Type* type, int value);
+    static ::System::ArgumentOutOfRangeException* InvalidEnumerationValue(::System::Type* type, int value);
     // static System.Exception InvalidSeekOrigin(System.String parameterName)
     // Offset: 0x1D10B44
-    static System::Exception* InvalidSeekOrigin(::StringW parameterName);
+    static ::System::Exception* InvalidSeekOrigin(::StringW parameterName);
     // static System.ArgumentOutOfRangeException InvalidAcceptRejectRule(System.Data.AcceptRejectRule value)
     // Offset: 0x1D10BB4
-    static System::ArgumentOutOfRangeException* InvalidAcceptRejectRule(System::Data::AcceptRejectRule value);
+    static ::System::ArgumentOutOfRangeException* InvalidAcceptRejectRule(::System::Data::AcceptRejectRule value);
     // static System.ArgumentOutOfRangeException InvalidMissingSchemaAction(System.Data.MissingSchemaAction value)
     // Offset: 0x1D10C5C
-    static System::ArgumentOutOfRangeException* InvalidMissingSchemaAction(System::Data::MissingSchemaAction value);
+    static ::System::ArgumentOutOfRangeException* InvalidMissingSchemaAction(::System::Data::MissingSchemaAction value);
     // static System.ArgumentOutOfRangeException InvalidRule(System.Data.Rule value)
     // Offset: 0x1D10D04
-    static System::ArgumentOutOfRangeException* InvalidRule(System::Data::Rule value);
+    static ::System::ArgumentOutOfRangeException* InvalidRule(::System::Data::Rule value);
     // static System.Exception WrongType(System.Type got, System.Type expected)
     // Offset: 0x1D10DAC
-    static System::Exception* WrongType(System::Type* got, System::Type* expected);
+    static ::System::Exception* WrongType(::System::Type* got, ::System::Type* expected);
   }; // System.Data.Common.ADP
   #pragma pack(pop)
 }
@@ -166,7 +166,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Data::Common::ADP::TraceException
 // Il2CppName: TraceException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, System::Exception*)>(&System::Data::Common::ADP::TraceException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::System::Exception*)>(&System::Data::Common::ADP::TraceException)> {
   static const MethodInfo* get() {
     static auto* trace = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* e = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
@@ -176,7 +176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::Data::Common::ADP::TraceExceptionAsReturnValue
 // Il2CppName: TraceExceptionAsReturnValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Exception*)>(&System::Data::Common::ADP::TraceExceptionAsReturnValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Exception*)>(&System::Data::Common::ADP::TraceExceptionAsReturnValue)> {
   static const MethodInfo* get() {
     static auto* e = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::Common::ADP*), "TraceExceptionAsReturnValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{e});
@@ -185,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Data::Common::ADP::TraceExceptionWithoutRethrow
 // Il2CppName: TraceExceptionWithoutRethrow
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Exception*)>(&System::Data::Common::ADP::TraceExceptionWithoutRethrow)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Exception*)>(&System::Data::Common::ADP::TraceExceptionWithoutRethrow)> {
   static const MethodInfo* get() {
     static auto* e = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::Common::ADP*), "TraceExceptionWithoutRethrow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{e});
@@ -194,7 +194,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Data::Common::ADP::Argument
 // Il2CppName: Argument
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ArgumentException* (*)(::StringW)>(&System::Data::Common::ADP::Argument)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ArgumentException* (*)(::StringW)>(&System::Data::Common::ADP::Argument)> {
   static const MethodInfo* get() {
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::Common::ADP*), "Argument", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{error});
@@ -203,7 +203,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Arg
 // Writing MetadataGetter for method: System::Data::Common::ADP::ArgumentOutOfRange
 // Il2CppName: ArgumentOutOfRange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ArgumentOutOfRangeException* (*)(::StringW)>(&System::Data::Common::ADP::ArgumentOutOfRange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ArgumentOutOfRangeException* (*)(::StringW)>(&System::Data::Common::ADP::ArgumentOutOfRange)> {
   static const MethodInfo* get() {
     static auto* parameterName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::Common::ADP*), "ArgumentOutOfRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{parameterName});
@@ -212,7 +212,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Arg
 // Writing MetadataGetter for method: System::Data::Common::ADP::ArgumentOutOfRange
 // Il2CppName: ArgumentOutOfRange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ArgumentOutOfRangeException* (*)(::StringW, ::StringW)>(&System::Data::Common::ADP::ArgumentOutOfRange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ArgumentOutOfRangeException* (*)(::StringW, ::StringW)>(&System::Data::Common::ADP::ArgumentOutOfRange)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* parameterName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -222,7 +222,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Arg
 // Writing MetadataGetter for method: System::Data::Common::ADP::InvalidOperation
 // Il2CppName: InvalidOperation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::InvalidOperationException* (*)(::StringW)>(&System::Data::Common::ADP::InvalidOperation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::InvalidOperationException* (*)(::StringW)>(&System::Data::Common::ADP::InvalidOperation)> {
   static const MethodInfo* get() {
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::Common::ADP*), "InvalidOperation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{error});
@@ -231,7 +231,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Inv
 // Writing MetadataGetter for method: System::Data::Common::ADP::NotSupported
 // Il2CppName: NotSupported
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::NotSupportedException* (*)(::StringW)>(&System::Data::Common::ADP::NotSupported)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::NotSupportedException* (*)(::StringW)>(&System::Data::Common::ADP::NotSupported)> {
   static const MethodInfo* get() {
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::Common::ADP*), "NotSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{error});
@@ -240,7 +240,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Not
 // Writing MetadataGetter for method: System::Data::Common::ADP::IsCatchableExceptionType
 // Il2CppName: IsCatchableExceptionType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Exception*)>(&System::Data::Common::ADP::IsCatchableExceptionType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Exception*)>(&System::Data::Common::ADP::IsCatchableExceptionType)> {
   static const MethodInfo* get() {
     static auto* e = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::Common::ADP*), "IsCatchableExceptionType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{e});
@@ -249,7 +249,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Data::Common::ADP::IsCatchableOrSecurityExceptionType
 // Il2CppName: IsCatchableOrSecurityExceptionType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Exception*)>(&System::Data::Common::ADP::IsCatchableOrSecurityExceptionType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Exception*)>(&System::Data::Common::ADP::IsCatchableOrSecurityExceptionType)> {
   static const MethodInfo* get() {
     static auto* e = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::Common::ADP*), "IsCatchableOrSecurityExceptionType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{e});
@@ -258,7 +258,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Data::Common::ADP::InvalidEnumerationValue
 // Il2CppName: InvalidEnumerationValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ArgumentOutOfRangeException* (*)(System::Type*, int)>(&System::Data::Common::ADP::InvalidEnumerationValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ArgumentOutOfRangeException* (*)(::System::Type*, int)>(&System::Data::Common::ADP::InvalidEnumerationValue)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -268,7 +268,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Arg
 // Writing MetadataGetter for method: System::Data::Common::ADP::InvalidSeekOrigin
 // Il2CppName: InvalidSeekOrigin
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::Common::ADP::InvalidSeekOrigin)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::Common::ADP::InvalidSeekOrigin)> {
   static const MethodInfo* get() {
     static auto* parameterName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::Common::ADP*), "InvalidSeekOrigin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{parameterName});
@@ -277,7 +277,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::Common::ADP::InvalidAcceptRejectRule
 // Il2CppName: InvalidAcceptRejectRule
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ArgumentOutOfRangeException* (*)(System::Data::AcceptRejectRule)>(&System::Data::Common::ADP::InvalidAcceptRejectRule)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ArgumentOutOfRangeException* (*)(::System::Data::AcceptRejectRule)>(&System::Data::Common::ADP::InvalidAcceptRejectRule)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Data", "AcceptRejectRule")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::Common::ADP*), "InvalidAcceptRejectRule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -286,7 +286,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Arg
 // Writing MetadataGetter for method: System::Data::Common::ADP::InvalidMissingSchemaAction
 // Il2CppName: InvalidMissingSchemaAction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ArgumentOutOfRangeException* (*)(System::Data::MissingSchemaAction)>(&System::Data::Common::ADP::InvalidMissingSchemaAction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ArgumentOutOfRangeException* (*)(::System::Data::MissingSchemaAction)>(&System::Data::Common::ADP::InvalidMissingSchemaAction)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Data", "MissingSchemaAction")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::Common::ADP*), "InvalidMissingSchemaAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -295,7 +295,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Arg
 // Writing MetadataGetter for method: System::Data::Common::ADP::InvalidRule
 // Il2CppName: InvalidRule
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ArgumentOutOfRangeException* (*)(System::Data::Rule)>(&System::Data::Common::ADP::InvalidRule)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ArgumentOutOfRangeException* (*)(::System::Data::Rule)>(&System::Data::Common::ADP::InvalidRule)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Data", "Rule")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::Common::ADP*), "InvalidRule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -304,7 +304,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Arg
 // Writing MetadataGetter for method: System::Data::Common::ADP::WrongType
 // Il2CppName: WrongType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(System::Type*, System::Type*)>(&System::Data::Common::ADP::WrongType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Type*, ::System::Type*)>(&System::Data::Common::ADP::WrongType)> {
   static const MethodInfo* get() {
     static auto* got = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* expected = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;

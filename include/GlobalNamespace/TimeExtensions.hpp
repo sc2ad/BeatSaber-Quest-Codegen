@@ -20,8 +20,8 @@ namespace GlobalNamespace {
   class TimeExtensions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::TimeExtensions);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TimeExtensions*, "", "TimeExtensions");
+NEED_NO_BOX(::GlobalNamespace::TimeExtensions);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TimeExtensions*, "", "TimeExtensions");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -87,10 +87,10 @@ namespace GlobalNamespace {
     static int TotalSeconds(float time);
     // static public System.Int64 ToUnixTime(System.DateTime dateTime)
     // Offset: 0x299EB58
-    static int64_t ToUnixTime(System::DateTime dateTime);
+    static int64_t ToUnixTime(::System::DateTime dateTime);
     // static public System.DateTime AsUnixTime(System.Int64 unixTime)
     // Offset: 0x299EC38
-    static System::DateTime AsUnixTime(int64_t unixTime);
+    static ::System::DateTime AsUnixTime(int64_t unixTime);
   }; // TimeExtensions
   #pragma pack(pop)
 }
@@ -260,7 +260,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(flo
 // Writing MetadataGetter for method: GlobalNamespace::TimeExtensions::ToUnixTime
 // Il2CppName: ToUnixTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(System::DateTime)>(&GlobalNamespace::TimeExtensions::ToUnixTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::System::DateTime)>(&GlobalNamespace::TimeExtensions::ToUnixTime)> {
   static const MethodInfo* get() {
     static auto* dateTime = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeExtensions*), "ToUnixTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dateTime});
@@ -269,7 +269,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)
 // Writing MetadataGetter for method: GlobalNamespace::TimeExtensions::AsUnixTime
 // Il2CppName: AsUnixTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(int64_t)>(&GlobalNamespace::TimeExtensions::AsUnixTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (*)(int64_t)>(&GlobalNamespace::TimeExtensions::AsUnixTime)> {
   static const MethodInfo* get() {
     static auto* unixTime = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeExtensions*), "AsUnixTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unixTime});

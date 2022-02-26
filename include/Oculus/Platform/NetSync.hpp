@@ -23,8 +23,8 @@ namespace Oculus::Platform {
   class NetSync;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::NetSync);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::NetSync*, "Oculus.Platform", "NetSync");
+NEED_NO_BOX(::Oculus::Platform::NetSync);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::NetSync*, "Oculus.Platform", "NetSync");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x10
@@ -35,10 +35,10 @@ namespace Oculus::Platform {
     public:
     // static public System.Void SetConnectionStatusChangedNotificationCallback(Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.NetSyncConnection> callback)
     // Offset: 0x29FBCA4
-    static void SetConnectionStatusChangedNotificationCallback(typename Oculus::Platform::Message_1<Oculus::Platform::Models::NetSyncConnection*>::Callback* callback);
+    static void SetConnectionStatusChangedNotificationCallback(typename ::Oculus::Platform::Message_1<::Oculus::Platform::Models::NetSyncConnection*>::Callback* callback);
     // static public System.Void SetSessionsChangedNotificationCallback(Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.NetSyncSessionsChangedNotification> callback)
     // Offset: 0x29FBD1C
-    static void SetSessionsChangedNotificationCallback(typename Oculus::Platform::Message_1<Oculus::Platform::Models::NetSyncSessionsChangedNotification*>::Callback* callback);
+    static void SetSessionsChangedNotificationCallback(typename ::Oculus::Platform::Message_1<::Oculus::Platform::Models::NetSyncSessionsChangedNotification*>::Callback* callback);
   }; // Oculus.Platform.NetSync
   #pragma pack(pop)
 }

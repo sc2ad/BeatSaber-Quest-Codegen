@@ -22,8 +22,8 @@ namespace HoudiniEngineUnity {
   class HEU_OutputAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_OutputAttribute);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_OutputAttribute*, "HoudiniEngineUnity", "HEU_OutputAttribute");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_OutputAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_OutputAttribute*, "HoudiniEngineUnity", "HEU_OutputAttribute");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x40
@@ -50,15 +50,15 @@ namespace HoudiniEngineUnity {
     // public HoudiniEngineUnity.HAPI_AttributeOwner _class
     // Size: 0x4
     // Offset: 0x18
-    HoudiniEngineUnity::HAPI_AttributeOwner _class;
+    ::HoudiniEngineUnity::HAPI_AttributeOwner _class;
     // Field size check
-    static_assert(sizeof(HoudiniEngineUnity::HAPI_AttributeOwner) == 0x4);
+    static_assert(sizeof(::HoudiniEngineUnity::HAPI_AttributeOwner) == 0x4);
     // public HoudiniEngineUnity.HAPI_StorageType _type
     // Size: 0x4
     // Offset: 0x1C
-    HoudiniEngineUnity::HAPI_StorageType type;
+    ::HoudiniEngineUnity::HAPI_StorageType type;
     // Field size check
-    static_assert(sizeof(HoudiniEngineUnity::HAPI_StorageType) == 0x4);
+    static_assert(sizeof(::HoudiniEngineUnity::HAPI_StorageType) == 0x4);
     // public System.Int32 _count
     // Size: 0x4
     // Offset: 0x20
@@ -93,9 +93,9 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.String _name
     ::StringW& dyn__name();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_AttributeOwner _class
-    HoudiniEngineUnity::HAPI_AttributeOwner& dyn__class();
+    ::HoudiniEngineUnity::HAPI_AttributeOwner& dyn__class();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_StorageType _type
-    HoudiniEngineUnity::HAPI_StorageType& dyn__type();
+    ::HoudiniEngineUnity::HAPI_StorageType& dyn__type();
     // Get instance field reference: public System.Int32 _count
     int& dyn__count();
     // Get instance field reference: public System.Int32 _tupleSize
@@ -112,7 +112,7 @@ namespace HoudiniEngineUnity {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_OutputAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_OutputAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_OutputAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_OutputAttribute*, creationType>()));
     }
   }; // HoudiniEngineUnity.HEU_OutputAttribute

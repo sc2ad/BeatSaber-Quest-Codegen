@@ -30,7 +30,7 @@ namespace Zenject {
   class FactoryToChoiceIdBinder_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::FactoryToChoiceIdBinder_1, "Zenject", "FactoryToChoiceIdBinder`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Zenject::FactoryToChoiceIdBinder_1, "Zenject", "FactoryToChoiceIdBinder`1");
 // Type namespace: Zenject
 namespace Zenject {
   // WARNING Size may be invalid!
@@ -38,14 +38,14 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   template<typename TContract>
-  class FactoryToChoiceIdBinder_1 : public Zenject::FactoryArgumentsToChoiceBinder_1<TContract> {
+  class FactoryToChoiceIdBinder_1 : public ::Zenject::FactoryArgumentsToChoiceBinder_1<TContract> {
     public:
     // public Zenject.FactoryArgumentsToChoiceBinder`1<TContract> WithId(System.Object identifier)
     // Offset: 0xFFFFFFFF
-    Zenject::FactoryArgumentsToChoiceBinder_1<TContract>* WithId(::Il2CppObject* identifier) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryToChoiceIdBinder_1::WithId");
+    ::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>* WithId(::Il2CppObject* identifier) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactoryToChoiceIdBinder_1::WithId");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "WithId", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(identifier)})));
-      return ::il2cpp_utils::RunMethodRethrow<Zenject::FactoryArgumentsToChoiceBinder_1<TContract>*, false>(this, ___internal__method, identifier);
+      return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>*, false>(this, ___internal__method, identifier);
     }
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo)
     // Offset: 0xFFFFFFFF
@@ -54,8 +54,8 @@ namespace Zenject {
     // Base method: System.Void FactoryToChoiceBinder_1::.ctor(Zenject.DiContainer container, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo)
     // Base method: System.Void FactoryFromBinder_1::.ctor(Zenject.DiContainer container, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static FactoryToChoiceIdBinder_1<TContract>* New_ctor(Zenject::DiContainer* container, Zenject::BindInfo* bindInfo, Zenject::FactoryBindInfo* factoryBindInfo) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryToChoiceIdBinder_1::.ctor");
+    static FactoryToChoiceIdBinder_1<TContract>* New_ctor(::Zenject::DiContainer* container, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactoryToChoiceIdBinder_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FactoryToChoiceIdBinder_1<TContract>*, creationType>(container, bindInfo, factoryBindInfo)));
     }
   }; // Zenject.FactoryToChoiceIdBinder`1

@@ -46,8 +46,8 @@ namespace Newtonsoft::Json::Converters {
   class RegexConverter;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Converters::RegexConverter);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Converters::RegexConverter*, "Newtonsoft.Json.Converters", "RegexConverter");
+NEED_NO_BOX(::Newtonsoft::Json::Converters::RegexConverter);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Converters::RegexConverter*, "Newtonsoft.Json.Converters", "RegexConverter");
 // Type namespace: Newtonsoft.Json.Converters
 namespace Newtonsoft::Json::Converters {
   // Size: 0x10
@@ -56,26 +56,26 @@ namespace Newtonsoft::Json::Converters {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NullableAttribute] Offset: 12036E0
   // [NullableContextAttribute] Offset: 12036E0
-  class RegexConverter : public Newtonsoft::Json::JsonConverter {
+  class RegexConverter : public ::Newtonsoft::Json::JsonConverter {
     public:
     // private System.Boolean HasFlag(System.Text.RegularExpressions.RegexOptions options, System.Text.RegularExpressions.RegexOptions flag)
     // Offset: 0x1821D54
-    bool HasFlag(System::Text::RegularExpressions::RegexOptions options, System::Text::RegularExpressions::RegexOptions flag);
+    bool HasFlag(::System::Text::RegularExpressions::RegexOptions options, ::System::Text::RegularExpressions::RegexOptions flag);
     // private System.Void WriteBson(Newtonsoft.Json.Bson.BsonWriter writer, System.Text.RegularExpressions.Regex regex)
     // Offset: 0x1821A94
-    void WriteBson(Newtonsoft::Json::Bson::BsonWriter* writer, System::Text::RegularExpressions::Regex* regex);
+    void WriteBson(::Newtonsoft::Json::Bson::BsonWriter* writer, ::System::Text::RegularExpressions::Regex* regex);
     // private System.Void WriteJson(Newtonsoft.Json.JsonWriter writer, System.Text.RegularExpressions.Regex regex, Newtonsoft.Json.JsonSerializer serializer)
     // Offset: 0x1821BA8
-    void WriteJson(Newtonsoft::Json::JsonWriter* writer, System::Text::RegularExpressions::Regex* regex, Newtonsoft::Json::JsonSerializer* serializer);
+    void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Text::RegularExpressions::Regex* regex, ::Newtonsoft::Json::JsonSerializer* serializer);
     // private System.Object ReadRegexString(Newtonsoft.Json.JsonReader reader)
     // Offset: 0x182203C
-    ::Il2CppObject* ReadRegexString(Newtonsoft::Json::JsonReader* reader);
+    ::Il2CppObject* ReadRegexString(::Newtonsoft::Json::JsonReader* reader);
     // private System.Text.RegularExpressions.Regex ReadRegexObject(Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.JsonSerializer serializer)
     // Offset: 0x1821E28
-    System::Text::RegularExpressions::Regex* ReadRegexObject(Newtonsoft::Json::JsonReader* reader, Newtonsoft::Json::JsonSerializer* serializer);
+    ::System::Text::RegularExpressions::Regex* ReadRegexObject(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::JsonSerializer* serializer);
     // private System.Boolean IsRegex(System.Type objectType)
     // Offset: 0x182220C
-    bool IsRegex(System::Type* objectType);
+    bool IsRegex(::System::Type* objectType);
     // public System.Void .ctor()
     // Offset: 0x1822290
     // Implemented from: Newtonsoft.Json.JsonConverter
@@ -83,24 +83,24 @@ namespace Newtonsoft::Json::Converters {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexConverter* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Converters::RegexConverter::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Converters::RegexConverter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexConverter*, creationType>()));
     }
     // public override System.Void WriteJson(Newtonsoft.Json.JsonWriter writer, System.Object value, Newtonsoft.Json.JsonSerializer serializer)
     // Offset: 0x1821968
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Void JsonConverter::WriteJson(Newtonsoft.Json.JsonWriter writer, System.Object value, Newtonsoft.Json.JsonSerializer serializer)
-    void WriteJson(Newtonsoft::Json::JsonWriter* writer, ::Il2CppObject* value, Newtonsoft::Json::JsonSerializer* serializer);
+    void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::Il2CppObject* value, ::Newtonsoft::Json::JsonSerializer* serializer);
     // public override System.Object ReadJson(Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue, Newtonsoft.Json.JsonSerializer serializer)
     // Offset: 0x1821D60
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Object JsonConverter::ReadJson(Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue, Newtonsoft.Json.JsonSerializer serializer)
-    ::Il2CppObject* ReadJson(Newtonsoft::Json::JsonReader* reader, System::Type* objectType, ::Il2CppObject* existingValue, Newtonsoft::Json::JsonSerializer* serializer);
+    ::Il2CppObject* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::Il2CppObject* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
     // public override System.Boolean CanConvert(System.Type objectType)
     // Offset: 0x1822188
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Boolean JsonConverter::CanConvert(System.Type objectType)
-    bool CanConvert(System::Type* objectType);
+    bool CanConvert(::System::Type* objectType);
   }; // Newtonsoft.Json.Converters.RegexConverter
   #pragma pack(pop)
 }
@@ -108,7 +108,7 @@ namespace Newtonsoft::Json::Converters {
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::RegexConverter::HasFlag
 // Il2CppName: HasFlag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Converters::RegexConverter::*)(System::Text::RegularExpressions::RegexOptions, System::Text::RegularExpressions::RegexOptions)>(&Newtonsoft::Json::Converters::RegexConverter::HasFlag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Converters::RegexConverter::*)(::System::Text::RegularExpressions::RegexOptions, ::System::Text::RegularExpressions::RegexOptions)>(&Newtonsoft::Json::Converters::RegexConverter::HasFlag)> {
   static const MethodInfo* get() {
     static auto* options = &::il2cpp_utils::GetClassFromName("System.Text.RegularExpressions", "RegexOptions")->byval_arg;
     static auto* flag = &::il2cpp_utils::GetClassFromName("System.Text.RegularExpressions", "RegexOptions")->byval_arg;
@@ -118,7 +118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::RegexConverter::WriteBson
 // Il2CppName: WriteBson
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Converters::RegexConverter::*)(Newtonsoft::Json::Bson::BsonWriter*, System::Text::RegularExpressions::Regex*)>(&Newtonsoft::Json::Converters::RegexConverter::WriteBson)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Converters::RegexConverter::*)(::Newtonsoft::Json::Bson::BsonWriter*, ::System::Text::RegularExpressions::Regex*)>(&Newtonsoft::Json::Converters::RegexConverter::WriteBson)> {
   static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Bson", "BsonWriter")->byval_arg;
     static auto* regex = &::il2cpp_utils::GetClassFromName("System.Text.RegularExpressions", "Regex")->byval_arg;
@@ -128,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::RegexConverter::WriteJson
 // Il2CppName: WriteJson
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Converters::RegexConverter::*)(Newtonsoft::Json::JsonWriter*, System::Text::RegularExpressions::Regex*, Newtonsoft::Json::JsonSerializer*)>(&Newtonsoft::Json::Converters::RegexConverter::WriteJson)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Converters::RegexConverter::*)(::Newtonsoft::Json::JsonWriter*, ::System::Text::RegularExpressions::Regex*, ::Newtonsoft::Json::JsonSerializer*)>(&Newtonsoft::Json::Converters::RegexConverter::WriteJson)> {
   static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonWriter")->byval_arg;
     static auto* regex = &::il2cpp_utils::GetClassFromName("System.Text.RegularExpressions", "Regex")->byval_arg;
@@ -139,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::RegexConverter::ReadRegexString
 // Il2CppName: ReadRegexString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Newtonsoft::Json::Converters::RegexConverter::*)(Newtonsoft::Json::JsonReader*)>(&Newtonsoft::Json::Converters::RegexConverter::ReadRegexString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Newtonsoft::Json::Converters::RegexConverter::*)(::Newtonsoft::Json::JsonReader*)>(&Newtonsoft::Json::Converters::RegexConverter::ReadRegexString)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonReader")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Converters::RegexConverter*), "ReadRegexString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader});
@@ -148,7 +148,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::RegexConverter::ReadRegexObject
 // Il2CppName: ReadRegexObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::Regex* (Newtonsoft::Json::Converters::RegexConverter::*)(Newtonsoft::Json::JsonReader*, Newtonsoft::Json::JsonSerializer*)>(&Newtonsoft::Json::Converters::RegexConverter::ReadRegexObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::Regex* (Newtonsoft::Json::Converters::RegexConverter::*)(::Newtonsoft::Json::JsonReader*, ::Newtonsoft::Json::JsonSerializer*)>(&Newtonsoft::Json::Converters::RegexConverter::ReadRegexObject)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonReader")->byval_arg;
     static auto* serializer = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonSerializer")->byval_arg;
@@ -158,7 +158,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::RegexConverter::IsRegex
 // Il2CppName: IsRegex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Converters::RegexConverter::*)(System::Type*)>(&Newtonsoft::Json::Converters::RegexConverter::IsRegex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Converters::RegexConverter::*)(::System::Type*)>(&Newtonsoft::Json::Converters::RegexConverter::IsRegex)> {
   static const MethodInfo* get() {
     static auto* objectType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Converters::RegexConverter*), "IsRegex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{objectType});
@@ -171,7 +171,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::RegexConverter::WriteJson
 // Il2CppName: WriteJson
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Converters::RegexConverter::*)(Newtonsoft::Json::JsonWriter*, ::Il2CppObject*, Newtonsoft::Json::JsonSerializer*)>(&Newtonsoft::Json::Converters::RegexConverter::WriteJson)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Converters::RegexConverter::*)(::Newtonsoft::Json::JsonWriter*, ::Il2CppObject*, ::Newtonsoft::Json::JsonSerializer*)>(&Newtonsoft::Json::Converters::RegexConverter::WriteJson)> {
   static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonWriter")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -182,7 +182,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::RegexConverter::ReadJson
 // Il2CppName: ReadJson
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Newtonsoft::Json::Converters::RegexConverter::*)(Newtonsoft::Json::JsonReader*, System::Type*, ::Il2CppObject*, Newtonsoft::Json::JsonSerializer*)>(&Newtonsoft::Json::Converters::RegexConverter::ReadJson)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Newtonsoft::Json::Converters::RegexConverter::*)(::Newtonsoft::Json::JsonReader*, ::System::Type*, ::Il2CppObject*, ::Newtonsoft::Json::JsonSerializer*)>(&Newtonsoft::Json::Converters::RegexConverter::ReadJson)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonReader")->byval_arg;
     static auto* objectType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -194,7 +194,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::RegexConverter::CanConvert
 // Il2CppName: CanConvert
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Converters::RegexConverter::*)(System::Type*)>(&Newtonsoft::Json::Converters::RegexConverter::CanConvert)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Converters::RegexConverter::*)(::System::Type*)>(&Newtonsoft::Json::Converters::RegexConverter::CanConvert)> {
   static const MethodInfo* get() {
     static auto* objectType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Converters::RegexConverter*), "CanConvert", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{objectType});

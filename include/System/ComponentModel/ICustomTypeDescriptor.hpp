@@ -33,8 +33,8 @@ namespace System::ComponentModel {
   class ICustomTypeDescriptor;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::ComponentModel::ICustomTypeDescriptor);
-DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::ICustomTypeDescriptor*, "System.ComponentModel", "ICustomTypeDescriptor");
+NEED_NO_BOX(::System::ComponentModel::ICustomTypeDescriptor);
+DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::ICustomTypeDescriptor*, "System.ComponentModel", "ICustomTypeDescriptor");
 // Type namespace: System.ComponentModel
 namespace System::ComponentModel {
   // Size: 0x10
@@ -45,19 +45,19 @@ namespace System::ComponentModel {
     public:
     // public System.ComponentModel.AttributeCollection GetAttributes()
     // Offset: 0xFFFFFFFF
-    System::ComponentModel::AttributeCollection* GetAttributes();
+    ::System::ComponentModel::AttributeCollection* GetAttributes();
     // public System.ComponentModel.TypeConverter GetConverter()
     // Offset: 0xFFFFFFFF
-    System::ComponentModel::TypeConverter* GetConverter();
+    ::System::ComponentModel::TypeConverter* GetConverter();
     // public System.ComponentModel.PropertyDescriptorCollection GetProperties()
     // Offset: 0xFFFFFFFF
-    System::ComponentModel::PropertyDescriptorCollection* GetProperties();
+    ::System::ComponentModel::PropertyDescriptorCollection* GetProperties();
     // public System.ComponentModel.PropertyDescriptorCollection GetProperties(System.Attribute[] attributes)
     // Offset: 0xFFFFFFFF
-    System::ComponentModel::PropertyDescriptorCollection* GetProperties(::ArrayW<System::Attribute*> attributes);
+    ::System::ComponentModel::PropertyDescriptorCollection* GetProperties(::ArrayW<::System::Attribute*> attributes);
     // public System.Object GetPropertyOwner(System.ComponentModel.PropertyDescriptor pd)
     // Offset: 0xFFFFFFFF
-    ::Il2CppObject* GetPropertyOwner(System::ComponentModel::PropertyDescriptor* pd);
+    ::Il2CppObject* GetPropertyOwner(::System::ComponentModel::PropertyDescriptor* pd);
   }; // System.ComponentModel.ICustomTypeDescriptor
   #pragma pack(pop)
 }
@@ -65,7 +65,7 @@ namespace System::ComponentModel {
 // Writing MetadataGetter for method: System::ComponentModel::ICustomTypeDescriptor::GetAttributes
 // Il2CppName: GetAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ComponentModel::AttributeCollection* (System::ComponentModel::ICustomTypeDescriptor::*)()>(&System::ComponentModel::ICustomTypeDescriptor::GetAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::AttributeCollection* (System::ComponentModel::ICustomTypeDescriptor::*)()>(&System::ComponentModel::ICustomTypeDescriptor::GetAttributes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::ICustomTypeDescriptor*), "GetAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -73,7 +73,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Com
 // Writing MetadataGetter for method: System::ComponentModel::ICustomTypeDescriptor::GetConverter
 // Il2CppName: GetConverter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ComponentModel::TypeConverter* (System::ComponentModel::ICustomTypeDescriptor::*)()>(&System::ComponentModel::ICustomTypeDescriptor::GetConverter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::TypeConverter* (System::ComponentModel::ICustomTypeDescriptor::*)()>(&System::ComponentModel::ICustomTypeDescriptor::GetConverter)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::ICustomTypeDescriptor*), "GetConverter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -81,7 +81,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Com
 // Writing MetadataGetter for method: System::ComponentModel::ICustomTypeDescriptor::GetProperties
 // Il2CppName: GetProperties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ComponentModel::PropertyDescriptorCollection* (System::ComponentModel::ICustomTypeDescriptor::*)()>(&System::ComponentModel::ICustomTypeDescriptor::GetProperties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::PropertyDescriptorCollection* (System::ComponentModel::ICustomTypeDescriptor::*)()>(&System::ComponentModel::ICustomTypeDescriptor::GetProperties)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::ICustomTypeDescriptor*), "GetProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -89,7 +89,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Com
 // Writing MetadataGetter for method: System::ComponentModel::ICustomTypeDescriptor::GetProperties
 // Il2CppName: GetProperties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ComponentModel::PropertyDescriptorCollection* (System::ComponentModel::ICustomTypeDescriptor::*)(::ArrayW<System::Attribute*>)>(&System::ComponentModel::ICustomTypeDescriptor::GetProperties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::PropertyDescriptorCollection* (System::ComponentModel::ICustomTypeDescriptor::*)(::ArrayW<::System::Attribute*>)>(&System::ComponentModel::ICustomTypeDescriptor::GetProperties)> {
   static const MethodInfo* get() {
     static auto* attributes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Attribute"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::ICustomTypeDescriptor*), "GetProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attributes});
@@ -98,7 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Com
 // Writing MetadataGetter for method: System::ComponentModel::ICustomTypeDescriptor::GetPropertyOwner
 // Il2CppName: GetPropertyOwner
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::ComponentModel::ICustomTypeDescriptor::*)(System::ComponentModel::PropertyDescriptor*)>(&System::ComponentModel::ICustomTypeDescriptor::GetPropertyOwner)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::ComponentModel::ICustomTypeDescriptor::*)(::System::ComponentModel::PropertyDescriptor*)>(&System::ComponentModel::ICustomTypeDescriptor::GetPropertyOwner)> {
   static const MethodInfo* get() {
     static auto* pd = &::il2cpp_utils::GetClassFromName("System.ComponentModel", "PropertyDescriptor")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::ICustomTypeDescriptor*), "GetPropertyOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pd});

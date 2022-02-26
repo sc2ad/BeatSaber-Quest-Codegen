@@ -16,8 +16,8 @@ namespace System::Linq::Expressions::Interpreter {
   class ExceptionFilter;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Linq::Expressions::Interpreter::ExceptionFilter);
-DEFINE_IL2CPP_ARG_TYPE(System::Linq::Expressions::Interpreter::ExceptionFilter*, "System.Linq.Expressions.Interpreter", "ExceptionFilter");
+NEED_NO_BOX(::System::Linq::Expressions::Interpreter::ExceptionFilter);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::ExceptionFilter*, "System.Linq.Expressions.Interpreter", "ExceptionFilter");
 // Type namespace: System.Linq.Expressions.Interpreter
 namespace System::Linq::Expressions::Interpreter {
   // Size: 0x1C
@@ -64,7 +64,7 @@ namespace System::Linq::Expressions::Interpreter {
     // Offset: 0x1EED6C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExceptionFilter* New_ctor(int labelIndex, int start, int end) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Expressions::Interpreter::ExceptionFilter::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Expressions::Interpreter::ExceptionFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExceptionFilter*, creationType>(labelIndex, start, end)));
     }
   }; // System.Linq.Expressions.Interpreter.ExceptionFilter

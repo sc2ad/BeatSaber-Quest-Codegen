@@ -26,8 +26,8 @@ namespace GlobalNamespace {
   class SaberTypeExtensions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SaberTypeExtensions);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberTypeExtensions*, "", "SaberTypeExtensions");
+NEED_NO_BOX(::GlobalNamespace::SaberTypeExtensions);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SaberTypeExtensions*, "", "SaberTypeExtensions");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -39,13 +39,13 @@ namespace GlobalNamespace {
     public:
     // static public System.Boolean MatchesColorType(SaberType saberType, ColorType colorType)
     // Offset: 0x2974AC0
-    static bool MatchesColorType(GlobalNamespace::SaberType saberType, GlobalNamespace::ColorType colorType);
+    static bool MatchesColorType(::GlobalNamespace::SaberType saberType, ::GlobalNamespace::ColorType colorType);
     // static public UnityEngine.XR.XRNode Node(SaberType saberType)
     // Offset: 0x2977934
-    static UnityEngine::XR::XRNode Node(GlobalNamespace::SaberType saberType);
+    static ::UnityEngine::XR::XRNode Node(::GlobalNamespace::SaberType saberType);
     // static public SaberType MainSaber(System.Boolean leftHanded)
     // Offset: 0x2977944
-    static GlobalNamespace::SaberType MainSaber(bool leftHanded);
+    static ::GlobalNamespace::SaberType MainSaber(bool leftHanded);
   }; // SaberTypeExtensions
   #pragma pack(pop)
 }
@@ -53,7 +53,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::SaberTypeExtensions::MatchesColorType
 // Il2CppName: MatchesColorType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::SaberType, GlobalNamespace::ColorType)>(&GlobalNamespace::SaberTypeExtensions::MatchesColorType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::SaberType, ::GlobalNamespace::ColorType)>(&GlobalNamespace::SaberTypeExtensions::MatchesColorType)> {
   static const MethodInfo* get() {
     static auto* saberType = &::il2cpp_utils::GetClassFromName("", "SaberType")->byval_arg;
     static auto* colorType = &::il2cpp_utils::GetClassFromName("", "ColorType")->byval_arg;
@@ -63,7 +63,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 // Writing MetadataGetter for method: GlobalNamespace::SaberTypeExtensions::Node
 // Il2CppName: Node
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::XR::XRNode (*)(GlobalNamespace::SaberType)>(&GlobalNamespace::SaberTypeExtensions::Node)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::XR::XRNode (*)(::GlobalNamespace::SaberType)>(&GlobalNamespace::SaberTypeExtensions::Node)> {
   static const MethodInfo* get() {
     static auto* saberType = &::il2cpp_utils::GetClassFromName("", "SaberType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberTypeExtensions*), "Node", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{saberType});
@@ -72,7 +72,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::SaberTypeExtensions::MainSaber
 // Il2CppName: MainSaber
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SaberType (*)(bool)>(&GlobalNamespace::SaberTypeExtensions::MainSaber)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SaberType (*)(bool)>(&GlobalNamespace::SaberTypeExtensions::MainSaber)> {
   static const MethodInfo* get() {
     static auto* leftHanded = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberTypeExtensions*), "MainSaber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{leftHanded});

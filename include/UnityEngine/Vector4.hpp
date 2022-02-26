@@ -28,7 +28,7 @@ namespace UnityEngine {
   struct Vector4;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Vector4, "UnityEngine", "Vector4");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Vector4, "UnityEngine", "Vector4");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -40,7 +40,7 @@ namespace UnityEngine {
   // [NativeClassAttribute] Offset: 11A556C
   // [RequiredByNativeCodeAttribute] Offset: 11A556C
   // [NativeHeaderAttribute] Offset: 11A556C
-  struct Vector4/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Vector4>*/ {
+  struct Vector4/*, public ::System::ValueType, public ::System::IEquatable_1<::UnityEngine::Vector4>*/ {
     public:
     public:
     // public System.Single x
@@ -70,13 +70,13 @@ namespace UnityEngine {
     public:
     // Creating value type constructor for type: Vector4
     constexpr Vector4(float x_ = {}, float y_ = {}, float z_ = {}, float w_ = {}) noexcept : x{x_}, y{y_}, z{z_}, w{w_} {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
-    // Creating interface conversion operator: operator System::IEquatable_1<UnityEngine::Vector4>
-    operator System::IEquatable_1<UnityEngine::Vector4>() noexcept {
-      return *reinterpret_cast<System::IEquatable_1<UnityEngine::Vector4>*>(this);
+    // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::Vector4>
+    operator ::System::IEquatable_1<::UnityEngine::Vector4>() noexcept {
+      return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::Vector4>*>(this);
     }
     // static field const value: static public System.Single kEpsilon
     static constexpr const float kEpsilon = 1e-05;
@@ -85,21 +85,21 @@ namespace UnityEngine {
     // Set static field: static public System.Single kEpsilon
     static void _set_kEpsilon(float value);
     // Get static field: static private readonly UnityEngine.Vector4 zeroVector
-    static UnityEngine::Vector4 _get_zeroVector();
+    static ::UnityEngine::Vector4 _get_zeroVector();
     // Set static field: static private readonly UnityEngine.Vector4 zeroVector
-    static void _set_zeroVector(UnityEngine::Vector4 value);
+    static void _set_zeroVector(::UnityEngine::Vector4 value);
     // Get static field: static private readonly UnityEngine.Vector4 oneVector
-    static UnityEngine::Vector4 _get_oneVector();
+    static ::UnityEngine::Vector4 _get_oneVector();
     // Set static field: static private readonly UnityEngine.Vector4 oneVector
-    static void _set_oneVector(UnityEngine::Vector4 value);
+    static void _set_oneVector(::UnityEngine::Vector4 value);
     // Get static field: static private readonly UnityEngine.Vector4 positiveInfinityVector
-    static UnityEngine::Vector4 _get_positiveInfinityVector();
+    static ::UnityEngine::Vector4 _get_positiveInfinityVector();
     // Set static field: static private readonly UnityEngine.Vector4 positiveInfinityVector
-    static void _set_positiveInfinityVector(UnityEngine::Vector4 value);
+    static void _set_positiveInfinityVector(::UnityEngine::Vector4 value);
     // Get static field: static private readonly UnityEngine.Vector4 negativeInfinityVector
-    static UnityEngine::Vector4 _get_negativeInfinityVector();
+    static ::UnityEngine::Vector4 _get_negativeInfinityVector();
     // Set static field: static private readonly UnityEngine.Vector4 negativeInfinityVector
-    static void _set_negativeInfinityVector(UnityEngine::Vector4 value);
+    static void _set_negativeInfinityVector(::UnityEngine::Vector4 value);
     // Get instance field reference: public System.Single x
     float& dyn_x();
     // Get instance field reference: public System.Single y
@@ -122,10 +122,10 @@ namespace UnityEngine {
     float get_sqrMagnitude();
     // static public UnityEngine.Vector4 get_zero()
     // Offset: 0x2704C34
-    static UnityEngine::Vector4 get_zero();
+    static ::UnityEngine::Vector4 get_zero();
     // static public UnityEngine.Vector4 get_one()
     // Offset: 0x2704E2C
-    static UnityEngine::Vector4 get_one();
+    static ::UnityEngine::Vector4 get_one();
     // public System.Void .ctor(System.Single x, System.Single y, System.Single z, System.Single w)
     // Offset: 0x27048CC
     // ABORTED: conflicts with another method.  Vector4(float x, float y, float z, float w);
@@ -137,16 +137,16 @@ namespace UnityEngine {
     static void _cctor();
     // public System.Boolean Equals(UnityEngine.Vector4 other)
     // Offset: 0x2704A08
-    bool Equals(UnityEngine::Vector4 other);
+    bool Equals(::UnityEngine::Vector4 other);
     // public System.Void Normalize()
     // Offset: 0x2704A44
     void Normalize();
     // static public System.Single Dot(UnityEngine.Vector4 a, UnityEngine.Vector4 b)
     // Offset: 0x2704CA0
-    static float Dot(UnityEngine::Vector4 a, UnityEngine::Vector4 b);
+    static float Dot(::UnityEngine::Vector4 a, ::UnityEngine::Vector4 b);
     // static public System.Single Magnitude(UnityEngine.Vector4 a)
     // Offset: 0x2704B44
-    static float Magnitude(UnityEngine::Vector4 a);
+    static float Magnitude(::UnityEngine::Vector4 a);
     // public System.String ToString(System.String format)
     // Offset: 0x27051AC
     ::StringW ToString(::StringW format);
@@ -171,22 +171,22 @@ namespace UnityEngine {
   static_assert(sizeof(Vector4) == 0x10);
   // static public UnityEngine.Vector4 op_Addition(UnityEngine.Vector4 a, UnityEngine.Vector4 b)
   // Offset: 0x2704E98
-  UnityEngine::Vector4 operator+(const UnityEngine::Vector4& a, const UnityEngine::Vector4& b);
+  ::UnityEngine::Vector4 operator+(const ::UnityEngine::Vector4& a, const ::UnityEngine::Vector4& b);
   // static public UnityEngine.Vector4 op_Subtraction(UnityEngine.Vector4 a, UnityEngine.Vector4 b)
   // Offset: 0x2704EAC
-  UnityEngine::Vector4 operator-(const UnityEngine::Vector4& a, const UnityEngine::Vector4& b);
+  ::UnityEngine::Vector4 operator-(const ::UnityEngine::Vector4& a, const ::UnityEngine::Vector4& b);
   // static public UnityEngine.Vector4 op_Multiply(UnityEngine.Vector4 a, System.Single d)
   // Offset: 0x2704EC0
-  UnityEngine::Vector4 operator*(const UnityEngine::Vector4& a, const float& d);
+  ::UnityEngine::Vector4 operator*(const ::UnityEngine::Vector4& a, const float& d);
   // static public UnityEngine.Vector4 op_Division(UnityEngine.Vector4 a, System.Single d)
   // Offset: 0x2704C20
-  UnityEngine::Vector4 operator/(const UnityEngine::Vector4& a, const float& d);
+  ::UnityEngine::Vector4 operator/(const ::UnityEngine::Vector4& a, const float& d);
   // static public System.Boolean op_Equality(UnityEngine.Vector4 lhs, UnityEngine.Vector4 rhs)
   // Offset: 0x2704ED4
-  bool operator ==(const UnityEngine::Vector4& lhs, const UnityEngine::Vector4& rhs);
+  bool operator ==(const ::UnityEngine::Vector4& lhs, const ::UnityEngine::Vector4& rhs);
   // static public System.Boolean op_Inequality(UnityEngine.Vector4 lhs, UnityEngine.Vector4 rhs)
   // Offset: 0x2704F14
-  bool operator !=(const UnityEngine::Vector4& lhs, const UnityEngine::Vector4& rhs);
+  bool operator !=(const ::UnityEngine::Vector4& lhs, const ::UnityEngine::Vector4& rhs);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Vector4::get_Item
@@ -227,7 +227,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Writing MetadataGetter for method: UnityEngine::Vector4::get_zero
 // Il2CppName: get_zero
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (*)()>(&UnityEngine::Vector4::get_zero)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (*)()>(&UnityEngine::Vector4::get_zero)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Vector4), "get_zero", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -235,7 +235,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Vector4::get_one
 // Il2CppName: get_one
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (*)()>(&UnityEngine::Vector4::get_one)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (*)()>(&UnityEngine::Vector4::get_one)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Vector4), "get_one", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -259,7 +259,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::Vector4::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Vector4::*)(UnityEngine::Vector4)>(&UnityEngine::Vector4::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Vector4::*)(::UnityEngine::Vector4)>(&UnityEngine::Vector4::Equals)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Vector4), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
@@ -276,7 +276,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Vector4::Dot
 // Il2CppName: Dot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::Vector4, UnityEngine::Vector4)>(&UnityEngine::Vector4::Dot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::UnityEngine::Vector4, ::UnityEngine::Vector4)>(&UnityEngine::Vector4::Dot)> {
   static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->byval_arg;
@@ -286,7 +286,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(U
 // Writing MetadataGetter for method: UnityEngine::Vector4::Magnitude
 // Il2CppName: Magnitude
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::Vector4)>(&UnityEngine::Vector4::Magnitude)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::UnityEngine::Vector4)>(&UnityEngine::Vector4::Magnitude)> {
   static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Vector4), "Magnitude", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a});

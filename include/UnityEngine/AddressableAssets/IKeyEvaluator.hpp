@@ -14,8 +14,8 @@ namespace UnityEngine::AddressableAssets {
   class IKeyEvaluator;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::AddressableAssets::IKeyEvaluator);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::IKeyEvaluator*, "UnityEngine.AddressableAssets", "IKeyEvaluator");
+NEED_NO_BOX(::UnityEngine::AddressableAssets::IKeyEvaluator);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AddressableAssets::IKeyEvaluator*, "UnityEngine.AddressableAssets", "IKeyEvaluator");
 // Type namespace: UnityEngine.AddressableAssets
 namespace UnityEngine::AddressableAssets {
   // Size: 0x10

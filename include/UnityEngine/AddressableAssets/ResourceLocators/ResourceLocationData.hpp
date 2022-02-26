@@ -27,8 +27,8 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
   class ResourceLocationData;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*, "UnityEngine.AddressableAssets.ResourceLocators", "ResourceLocationData");
+NEED_NO_BOX(::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*, "UnityEngine.AddressableAssets.ResourceLocators", "ResourceLocationData");
 // Type namespace: UnityEngine.AddressableAssets.ResourceLocators
 namespace UnityEngine::AddressableAssets::ResourceLocators {
   // Size: 0x60
@@ -77,9 +77,9 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
     // private UnityEngine.ResourceManagement.Util.SerializedType m_ResourceType
     // Size: 0x19
     // Offset: 0x30
-    UnityEngine::ResourceManagement::Util::SerializedType m_ResourceType;
+    ::UnityEngine::ResourceManagement::Util::SerializedType m_ResourceType;
     // Field size check
-    static_assert(sizeof(UnityEngine::ResourceManagement::Util::SerializedType) == 0x19);
+    static_assert(sizeof(::UnityEngine::ResourceManagement::Util::SerializedType) == 0x19);
     // Padding between fields: m_ResourceType and: SerializedData
     char __padding4[0x7] = {};
     // private System.Byte[] SerializedData
@@ -104,7 +104,7 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
     // Get instance field reference: private System.String[] m_Dependencies
     ::ArrayW<::StringW>& dyn_m_Dependencies();
     // Get instance field reference: private UnityEngine.ResourceManagement.Util.SerializedType m_ResourceType
-    UnityEngine::ResourceManagement::Util::SerializedType& dyn_m_ResourceType();
+    ::UnityEngine::ResourceManagement::Util::SerializedType& dyn_m_ResourceType();
     // Get instance field reference: private System.Byte[] SerializedData
     ::ArrayW<uint8_t>& dyn_SerializedData();
     // Get instance field reference: private System.Object _Data
@@ -123,7 +123,7 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
     ::ArrayW<::StringW> get_Dependencies();
     // public System.Type get_ResourceType()
     // Offset: 0x17E9500
-    System::Type* get_ResourceType();
+    ::System::Type* get_ResourceType();
     // public System.Object get_Data()
     // Offset: 0x17E950C
     ::Il2CppObject* get_Data();
@@ -133,8 +133,8 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
     // public System.Void .ctor(System.String[] keys, System.String id, System.Type provider, System.Type t, System.String[] dependencies)
     // Offset: 0x17E95FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ResourceLocationData* New_ctor(::ArrayW<::StringW> keys, ::StringW id, System::Type* provider, System::Type* t, ::ArrayW<::StringW> dependencies) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData::.ctor");
+    static ResourceLocationData* New_ctor(::ArrayW<::StringW> keys, ::StringW id, ::System::Type* provider, ::System::Type* t, ::ArrayW<::StringW> dependencies) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResourceLocationData*, creationType>(keys, id, provider, t, dependencies)));
     }
   }; // UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationData
@@ -178,7 +178,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData::get_ResourceType
 // Il2CppName: get_ResourceType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData::*)()>(&UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData::get_ResourceType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData::*)()>(&UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData::get_ResourceType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*), "get_ResourceType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

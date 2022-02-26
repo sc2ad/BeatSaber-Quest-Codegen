@@ -18,8 +18,8 @@ namespace System::Net::Configuration {
   class BypassElementCollection;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::Configuration::BypassElementCollection);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::BypassElementCollection*, "System.Net.Configuration", "BypassElementCollection");
+NEED_NO_BOX(::System::Net::Configuration::BypassElementCollection);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::Configuration::BypassElementCollection*, "System.Net.Configuration", "BypassElementCollection");
 // Type namespace: System.Net.Configuration
 namespace System::Net::Configuration {
   // Size: 0x10
@@ -28,7 +28,7 @@ namespace System::Net::Configuration {
   // [TokenAttribute] Offset: FFFFFFFF
   // [DefaultMemberAttribute] Offset: 119ACF8
   // [ConfigurationCollectionAttribute] Offset: FFFFFFFF
-  class BypassElementCollection : public System::Configuration::ConfigurationElementCollection {
+  class BypassElementCollection : public ::System::Configuration::ConfigurationElementCollection {
     public:
     // public System.Void .ctor()
     // Offset: 0x1AA8490
@@ -36,7 +36,7 @@ namespace System::Net::Configuration {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BypassElementCollection* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Configuration::BypassElementCollection::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Configuration::BypassElementCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BypassElementCollection*, creationType>()));
     }
   }; // System.Net.Configuration.BypassElementCollection

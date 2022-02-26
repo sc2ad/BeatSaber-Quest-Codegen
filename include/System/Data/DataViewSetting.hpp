@@ -28,8 +28,8 @@ namespace System::Data {
   class DataViewSetting;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Data::DataViewSetting);
-DEFINE_IL2CPP_ARG_TYPE(System::Data::DataViewSetting*, "System.Data", "DataViewSetting");
+NEED_NO_BOX(::System::Data::DataViewSetting);
+DEFINE_IL2CPP_ARG_TYPE(::System::Data::DataViewSetting*, "System.Data", "DataViewSetting");
 // Type namespace: System.Data
 namespace System::Data {
   // Size: 0x35
@@ -51,15 +51,15 @@ namespace System::Data {
     // private System.Data.DataViewManager _dataViewManager
     // Size: 0x8
     // Offset: 0x10
-    System::Data::DataViewManager* dataViewManager;
+    ::System::Data::DataViewManager* dataViewManager;
     // Field size check
-    static_assert(sizeof(System::Data::DataViewManager*) == 0x8);
+    static_assert(sizeof(::System::Data::DataViewManager*) == 0x8);
     // private System.Data.DataTable _table
     // Size: 0x8
     // Offset: 0x18
-    System::Data::DataTable* table;
+    ::System::Data::DataTable* table;
     // Field size check
-    static_assert(sizeof(System::Data::DataTable*) == 0x8);
+    static_assert(sizeof(::System::Data::DataTable*) == 0x8);
     // private System.String _sort
     // Size: 0x8
     // Offset: 0x20
@@ -75,9 +75,9 @@ namespace System::Data {
     // private System.Data.DataViewRowState _rowStateFilter
     // Size: 0x4
     // Offset: 0x30
-    System::Data::DataViewRowState rowStateFilter;
+    ::System::Data::DataViewRowState rowStateFilter;
     // Field size check
-    static_assert(sizeof(System::Data::DataViewRowState) == 0x4);
+    static_assert(sizeof(::System::Data::DataViewRowState) == 0x4);
     // private System.Boolean _applyDefaultSort
     // Size: 0x1
     // Offset: 0x34
@@ -86,15 +86,15 @@ namespace System::Data {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.Data.DataViewManager _dataViewManager
-    System::Data::DataViewManager*& dyn__dataViewManager();
+    ::System::Data::DataViewManager*& dyn__dataViewManager();
     // Get instance field reference: private System.Data.DataTable _table
-    System::Data::DataTable*& dyn__table();
+    ::System::Data::DataTable*& dyn__table();
     // Get instance field reference: private System.String _sort
     ::StringW& dyn__sort();
     // Get instance field reference: private System.String _rowFilter
     ::StringW& dyn__rowFilter();
     // Get instance field reference: private System.Data.DataViewRowState _rowStateFilter
-    System::Data::DataViewRowState& dyn__rowStateFilter();
+    ::System::Data::DataViewRowState& dyn__rowStateFilter();
     // Get instance field reference: private System.Boolean _applyDefaultSort
     bool& dyn__applyDefaultSort();
     // public System.Boolean get_ApplyDefaultSort()
@@ -105,23 +105,23 @@ namespace System::Data {
     ::StringW get_RowFilter();
     // public System.Data.DataViewRowState get_RowStateFilter()
     // Offset: 0x1CC707C
-    System::Data::DataViewRowState get_RowStateFilter();
+    ::System::Data::DataViewRowState get_RowStateFilter();
     // public System.String get_Sort()
     // Offset: 0x1CC7084
     ::StringW get_Sort();
     // System.Void SetDataViewManager(System.Data.DataViewManager dataViewManager)
     // Offset: 0x1CC704C
-    void SetDataViewManager(System::Data::DataViewManager* dataViewManager);
+    void SetDataViewManager(::System::Data::DataViewManager* dataViewManager);
     // System.Void SetDataTable(System.Data.DataTable table)
     // Offset: 0x1CC7060
-    void SetDataTable(System::Data::DataTable* table);
+    void SetDataTable(::System::Data::DataTable* table);
     // System.Void .ctor()
     // Offset: 0x1CC6FD0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DataViewSetting* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Data::DataViewSetting::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Data::DataViewSetting::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DataViewSetting*, creationType>()));
     }
   }; // System.Data.DataViewSetting
@@ -149,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Data::DataViewSetting::get_RowStateFilter
 // Il2CppName: get_RowStateFilter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::DataViewRowState (System::Data::DataViewSetting::*)()>(&System::Data::DataViewSetting::get_RowStateFilter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataViewRowState (System::Data::DataViewSetting::*)()>(&System::Data::DataViewSetting::get_RowStateFilter)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataViewSetting*), "get_RowStateFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -165,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Data::DataViewSetting::SetDataViewManager
 // Il2CppName: SetDataViewManager
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataViewSetting::*)(System::Data::DataViewManager*)>(&System::Data::DataViewSetting::SetDataViewManager)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataViewSetting::*)(::System::Data::DataViewManager*)>(&System::Data::DataViewSetting::SetDataViewManager)> {
   static const MethodInfo* get() {
     static auto* dataViewManager = &::il2cpp_utils::GetClassFromName("System.Data", "DataViewManager")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataViewSetting*), "SetDataViewManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dataViewManager});
@@ -174,7 +174,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataViewSetting::SetDataTable
 // Il2CppName: SetDataTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataViewSetting::*)(System::Data::DataTable*)>(&System::Data::DataViewSetting::SetDataTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataViewSetting::*)(::System::Data::DataTable*)>(&System::Data::DataViewSetting::SetDataTable)> {
   static const MethodInfo* get() {
     static auto* table = &::il2cpp_utils::GetClassFromName("System.Data", "DataTable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataViewSetting*), "SetDataTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{table});

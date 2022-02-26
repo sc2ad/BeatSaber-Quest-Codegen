@@ -21,8 +21,8 @@ namespace System::Xml::Linq {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Linq::NamespaceResolver::NamespaceDeclaration);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Linq::NamespaceResolver::NamespaceDeclaration*, "System.Xml.Linq", "NamespaceResolver/NamespaceDeclaration");
+NEED_NO_BOX(::System::Xml::Linq::NamespaceResolver::NamespaceDeclaration);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Linq::NamespaceResolver::NamespaceDeclaration*, "System.Xml.Linq", "NamespaceResolver/NamespaceDeclaration");
 // Type namespace: System.Xml.Linq
 namespace System::Xml::Linq {
   // Size: 0x30
@@ -49,9 +49,9 @@ namespace System::Xml::Linq {
     // public System.Xml.Linq.XNamespace ns
     // Size: 0x8
     // Offset: 0x18
-    System::Xml::Linq::XNamespace* ns;
+    ::System::Xml::Linq::XNamespace* ns;
     // Field size check
-    static_assert(sizeof(System::Xml::Linq::XNamespace*) == 0x8);
+    static_assert(sizeof(::System::Xml::Linq::XNamespace*) == 0x8);
     // public System.Int32 scope
     // Size: 0x4
     // Offset: 0x20
@@ -63,30 +63,30 @@ namespace System::Xml::Linq {
     // public System.Xml.Linq.NamespaceResolver/System.Xml.Linq.NamespaceDeclaration prev
     // Size: 0x8
     // Offset: 0x28
-    System::Xml::Linq::NamespaceResolver::NamespaceDeclaration* prev;
+    ::System::Xml::Linq::NamespaceResolver::NamespaceDeclaration* prev;
     // Field size check
-    static_assert(sizeof(System::Xml::Linq::NamespaceResolver::NamespaceDeclaration*) == 0x8);
+    static_assert(sizeof(::System::Xml::Linq::NamespaceResolver::NamespaceDeclaration*) == 0x8);
     public:
     // Get instance field reference: public System.String prefix
     ::StringW& dyn_prefix();
     // Get instance field reference: public System.Xml.Linq.XNamespace ns
-    System::Xml::Linq::XNamespace*& dyn_ns();
+    ::System::Xml::Linq::XNamespace*& dyn_ns();
     // Get instance field reference: public System.Int32 scope
     int& dyn_scope();
     // Get instance field reference: public System.Xml.Linq.NamespaceResolver/System.Xml.Linq.NamespaceDeclaration prev
-    System::Xml::Linq::NamespaceResolver::NamespaceDeclaration*& dyn_prev();
+    ::System::Xml::Linq::NamespaceResolver::NamespaceDeclaration*& dyn_prev();
     // public System.Void .ctor()
     // Offset: 0x29DF344
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NamespaceResolver::NamespaceDeclaration* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Linq::NamespaceResolver::NamespaceDeclaration::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::NamespaceResolver::NamespaceDeclaration::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NamespaceResolver::NamespaceDeclaration*, creationType>()));
     }
   }; // System.Xml.Linq.NamespaceResolver/System.Xml.Linq.NamespaceDeclaration
   #pragma pack(pop)
-  static check_size<sizeof(NamespaceResolver::NamespaceDeclaration), 40 + sizeof(System::Xml::Linq::NamespaceResolver::NamespaceDeclaration*)> __System_Xml_Linq_NamespaceResolver_NamespaceDeclarationSizeCheck;
+  static check_size<sizeof(NamespaceResolver::NamespaceDeclaration), 40 + sizeof(::System::Xml::Linq::NamespaceResolver::NamespaceDeclaration*)> __System_Xml_Linq_NamespaceResolver_NamespaceDeclarationSizeCheck;
   static_assert(sizeof(NamespaceResolver::NamespaceDeclaration) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

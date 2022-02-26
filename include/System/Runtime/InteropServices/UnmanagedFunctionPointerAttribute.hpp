@@ -22,8 +22,8 @@ namespace System::Runtime::InteropServices {
   class UnmanagedFunctionPointerAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute*, "System.Runtime.InteropServices", "UnmanagedFunctionPointerAttribute");
+NEED_NO_BOX(::System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute*, "System.Runtime.InteropServices", "UnmanagedFunctionPointerAttribute");
 // Type namespace: System.Runtime.InteropServices
 namespace System::Runtime::InteropServices {
   // Size: 0x1B
@@ -32,7 +32,7 @@ namespace System::Runtime::InteropServices {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AttributeUsageAttribute] Offset: 118B604
   // [ComVisibleAttribute] Offset: 118B604
-  class UnmanagedFunctionPointerAttribute : public System::Attribute {
+  class UnmanagedFunctionPointerAttribute : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -46,15 +46,15 @@ namespace System::Runtime::InteropServices {
     // private System.Runtime.InteropServices.CallingConvention m_callingConvention
     // Size: 0x4
     // Offset: 0x10
-    System::Runtime::InteropServices::CallingConvention m_callingConvention;
+    ::System::Runtime::InteropServices::CallingConvention m_callingConvention;
     // Field size check
-    static_assert(sizeof(System::Runtime::InteropServices::CallingConvention) == 0x4);
+    static_assert(sizeof(::System::Runtime::InteropServices::CallingConvention) == 0x4);
     // public System.Runtime.InteropServices.CharSet CharSet
     // Size: 0x4
     // Offset: 0x14
-    System::Runtime::InteropServices::CharSet CharSet;
+    ::System::Runtime::InteropServices::CharSet CharSet;
     // Field size check
-    static_assert(sizeof(System::Runtime::InteropServices::CharSet) == 0x4);
+    static_assert(sizeof(::System::Runtime::InteropServices::CharSet) == 0x4);
     // public System.Boolean BestFitMapping
     // Size: 0x1
     // Offset: 0x18
@@ -75,9 +75,9 @@ namespace System::Runtime::InteropServices {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.Runtime.InteropServices.CallingConvention m_callingConvention
-    System::Runtime::InteropServices::CallingConvention& dyn_m_callingConvention();
+    ::System::Runtime::InteropServices::CallingConvention& dyn_m_callingConvention();
     // Get instance field reference: public System.Runtime.InteropServices.CharSet CharSet
-    System::Runtime::InteropServices::CharSet& dyn_CharSet();
+    ::System::Runtime::InteropServices::CharSet& dyn_CharSet();
     // Get instance field reference: public System.Boolean BestFitMapping
     bool& dyn_BestFitMapping();
     // Get instance field reference: public System.Boolean ThrowOnUnmappableChar
@@ -87,8 +87,8 @@ namespace System::Runtime::InteropServices {
     // public System.Void .ctor(System.Runtime.InteropServices.CallingConvention callingConvention)
     // Offset: 0x1C6DAB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static UnmanagedFunctionPointerAttribute* New_ctor(System::Runtime::InteropServices::CallingConvention callingConvention) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute::.ctor");
+    static UnmanagedFunctionPointerAttribute* New_ctor(::System::Runtime::InteropServices::CallingConvention callingConvention) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnmanagedFunctionPointerAttribute*, creationType>(callingConvention)));
     }
   }; // System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute

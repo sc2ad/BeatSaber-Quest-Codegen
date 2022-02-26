@@ -26,8 +26,8 @@ namespace Oculus::Platform::Models {
   class Team;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::Team);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::Team*, "Oculus.Platform.Models", "Team");
+NEED_NO_BOX(::Oculus::Platform::Models::Team);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::Team*, "Oculus.Platform.Models", "Team");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x28
@@ -48,9 +48,9 @@ namespace Oculus::Platform::Models {
     // public readonly Oculus.Platform.Models.UserList AssignedUsers
     // Size: 0x8
     // Offset: 0x10
-    Oculus::Platform::Models::UserList* AssignedUsers;
+    ::Oculus::Platform::Models::UserList* AssignedUsers;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::Models::UserList*) == 0x8);
+    static_assert(sizeof(::Oculus::Platform::Models::UserList*) == 0x8);
     // public readonly System.Int32 MaxUsers
     // Size: 0x4
     // Offset: 0x18
@@ -71,7 +71,7 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public readonly Oculus.Platform.Models.UserList AssignedUsers
-    Oculus::Platform::Models::UserList*& dyn_AssignedUsers();
+    ::Oculus::Platform::Models::UserList*& dyn_AssignedUsers();
     // Get instance field reference: public readonly System.Int32 MaxUsers
     int& dyn_MaxUsers();
     // Get instance field reference: public readonly System.Int32 MinUsers
@@ -81,8 +81,8 @@ namespace Oculus::Platform::Models {
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x196E308
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Team* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::Team::.ctor");
+    static Team* New_ctor(::System::IntPtr o) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::Team::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Team*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.Team

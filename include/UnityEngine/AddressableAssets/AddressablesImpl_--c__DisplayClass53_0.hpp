@@ -20,8 +20,8 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass53_0);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass53_0*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass53_0");
+NEED_NO_BOX(::UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass53_0);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass53_0*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass53_0");
 // Type namespace: UnityEngine.AddressableAssets
 namespace UnityEngine::AddressableAssets {
   // Size: 0x18
@@ -43,38 +43,38 @@ namespace UnityEngine::AddressableAssets {
     // public UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator loc
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* loc;
+    ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* loc;
     // Field size check
-    static_assert(sizeof(UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*) == 0x8);
+    static_assert(sizeof(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*) == 0x8);
     public:
-    // Creating conversion operator: operator UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*
-    constexpr operator UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*() const noexcept {
+    // Creating conversion operator: operator ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*
+    constexpr operator ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*() const noexcept {
       return loc;
     }
     // Get instance field reference: public UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator loc
-    UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*& dyn_loc();
+    ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*& dyn_loc();
     // System.Boolean <RemoveResourceLocator>b__0(UnityEngine.AddressableAssets.AddressablesImpl/UnityEngine.AddressableAssets.ResourceLocatorInfo l)
     // Offset: 0x17E105C
-    bool $RemoveResourceLocator$b__0(UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo* l);
+    bool $RemoveResourceLocator$b__0(::UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo* l);
     // public System.Void .ctor()
     // Offset: 0x17DB008
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AddressablesImpl::$$c__DisplayClass53_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass53_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass53_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AddressablesImpl::$$c__DisplayClass53_0*, creationType>()));
     }
   }; // UnityEngine.AddressableAssets.AddressablesImpl/UnityEngine.AddressableAssets.<>c__DisplayClass53_0
   #pragma pack(pop)
-  static check_size<sizeof(AddressablesImpl::$$c__DisplayClass53_0), 16 + sizeof(UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*)> __UnityEngine_AddressableAssets_AddressablesImpl_$$c__DisplayClass53_0SizeCheck;
+  static check_size<sizeof(AddressablesImpl::$$c__DisplayClass53_0), 16 + sizeof(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*)> __UnityEngine_AddressableAssets_AddressablesImpl_$$c__DisplayClass53_0SizeCheck;
   static_assert(sizeof(AddressablesImpl::$$c__DisplayClass53_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass53_0::$RemoveResourceLocator$b__0
 // Il2CppName: <RemoveResourceLocator>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass53_0::*)(UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*)>(&UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass53_0::$RemoveResourceLocator$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass53_0::*)(::UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*)>(&UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass53_0::$RemoveResourceLocator$b__0)> {
   static const MethodInfo* get() {
     static auto* l = &::il2cpp_utils::GetClassFromName("UnityEngine.AddressableAssets", "AddressablesImpl/ResourceLocatorInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass53_0*), "<RemoveResourceLocator>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{l});

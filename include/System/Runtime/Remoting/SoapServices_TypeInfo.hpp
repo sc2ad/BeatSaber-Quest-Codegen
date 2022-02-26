@@ -20,8 +20,8 @@ namespace System::Collections {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Remoting::SoapServices::TypeInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::SoapServices::TypeInfo*, "System.Runtime.Remoting", "SoapServices/TypeInfo");
+NEED_NO_BOX(::System::Runtime::Remoting::SoapServices::TypeInfo);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::SoapServices::TypeInfo*, "System.Runtime.Remoting", "SoapServices/TypeInfo");
 // Type namespace: System.Runtime.Remoting
 namespace System::Runtime::Remoting {
   // Size: 0x20
@@ -42,32 +42,32 @@ namespace System::Runtime::Remoting {
     // public System.Collections.Hashtable Attributes
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Hashtable* Attributes;
+    ::System::Collections::Hashtable* Attributes;
     // Field size check
-    static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
+    static_assert(sizeof(::System::Collections::Hashtable*) == 0x8);
     // public System.Collections.Hashtable Elements
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::Hashtable* Elements;
+    ::System::Collections::Hashtable* Elements;
     // Field size check
-    static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
+    static_assert(sizeof(::System::Collections::Hashtable*) == 0x8);
     public:
     // Get instance field reference: public System.Collections.Hashtable Attributes
-    System::Collections::Hashtable*& dyn_Attributes();
+    ::System::Collections::Hashtable*& dyn_Attributes();
     // Get instance field reference: public System.Collections.Hashtable Elements
-    System::Collections::Hashtable*& dyn_Elements();
+    ::System::Collections::Hashtable*& dyn_Elements();
     // public System.Void .ctor()
     // Offset: 0x180BAEC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SoapServices::TypeInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::SoapServices::TypeInfo::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::SoapServices::TypeInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SoapServices::TypeInfo*, creationType>()));
     }
   }; // System.Runtime.Remoting.SoapServices/System.Runtime.Remoting.TypeInfo
   #pragma pack(pop)
-  static check_size<sizeof(SoapServices::TypeInfo), 24 + sizeof(System::Collections::Hashtable*)> __System_Runtime_Remoting_SoapServices_TypeInfoSizeCheck;
+  static check_size<sizeof(SoapServices::TypeInfo), 24 + sizeof(::System::Collections::Hashtable*)> __System_Runtime_Remoting_SoapServices_TypeInfoSizeCheck;
   static_assert(sizeof(SoapServices::TypeInfo) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

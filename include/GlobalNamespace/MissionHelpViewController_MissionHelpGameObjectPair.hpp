@@ -25,8 +25,8 @@ namespace UnityEngine {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MissionHelpViewController::MissionHelpGameObjectPair);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionHelpViewController::MissionHelpGameObjectPair*, "", "MissionHelpViewController/MissionHelpGameObjectPair");
+NEED_NO_BOX(::GlobalNamespace::MissionHelpViewController::MissionHelpGameObjectPair);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MissionHelpViewController::MissionHelpGameObjectPair*, "", "MissionHelpViewController/MissionHelpGameObjectPair");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -47,32 +47,32 @@ namespace GlobalNamespace {
     // public MissionHelpSO missionHelp
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::MissionHelpSO* missionHelp;
+    ::GlobalNamespace::MissionHelpSO* missionHelp;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::MissionHelpSO*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::MissionHelpSO*) == 0x8);
     // public UnityEngine.GameObject gameObject
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::GameObject* gameObject;
+    ::UnityEngine::GameObject* gameObject;
     // Field size check
-    static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
+    static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
     public:
     // Get instance field reference: public MissionHelpSO missionHelp
-    GlobalNamespace::MissionHelpSO*& dyn_missionHelp();
+    ::GlobalNamespace::MissionHelpSO*& dyn_missionHelp();
     // Get instance field reference: public UnityEngine.GameObject gameObject
-    UnityEngine::GameObject*& dyn_gameObject();
+    ::UnityEngine::GameObject*& dyn_gameObject();
     // public System.Void .ctor()
     // Offset: 0x2A6D1DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionHelpViewController::MissionHelpGameObjectPair* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MissionHelpViewController::MissionHelpGameObjectPair::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionHelpViewController::MissionHelpGameObjectPair::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionHelpViewController::MissionHelpGameObjectPair*, creationType>()));
     }
   }; // MissionHelpViewController/MissionHelpGameObjectPair
   #pragma pack(pop)
-  static check_size<sizeof(MissionHelpViewController::MissionHelpGameObjectPair), 24 + sizeof(UnityEngine::GameObject*)> __GlobalNamespace_MissionHelpViewController_MissionHelpGameObjectPairSizeCheck;
+  static check_size<sizeof(MissionHelpViewController::MissionHelpGameObjectPair), 24 + sizeof(::UnityEngine::GameObject*)> __GlobalNamespace_MissionHelpViewController_MissionHelpGameObjectPairSizeCheck;
   static_assert(sizeof(MissionHelpViewController::MissionHelpGameObjectPair) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

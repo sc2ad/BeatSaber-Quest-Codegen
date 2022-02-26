@@ -14,8 +14,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::DtdParser::UndeclaredNotation);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::DtdParser::UndeclaredNotation*, "System.Xml", "DtdParser/UndeclaredNotation");
+NEED_NO_BOX(::System::Xml::DtdParser::UndeclaredNotation);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::DtdParser::UndeclaredNotation*, "System.Xml", "DtdParser/UndeclaredNotation");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x28
@@ -54,9 +54,9 @@ namespace System::Xml {
     // System.Xml.DtdParser/System.Xml.UndeclaredNotation next
     // Size: 0x8
     // Offset: 0x20
-    System::Xml::DtdParser::UndeclaredNotation* next;
+    ::System::Xml::DtdParser::UndeclaredNotation* next;
     // Field size check
-    static_assert(sizeof(System::Xml::DtdParser::UndeclaredNotation*) == 0x8);
+    static_assert(sizeof(::System::Xml::DtdParser::UndeclaredNotation*) == 0x8);
     public:
     // Get instance field reference: System.String name
     ::StringW& dyn_name();
@@ -65,17 +65,17 @@ namespace System::Xml {
     // Get instance field reference: System.Int32 linePos
     int& dyn_linePos();
     // Get instance field reference: System.Xml.DtdParser/System.Xml.UndeclaredNotation next
-    System::Xml::DtdParser::UndeclaredNotation*& dyn_next();
+    ::System::Xml::DtdParser::UndeclaredNotation*& dyn_next();
     // System.Void .ctor(System.String name, System.Int32 lineNo, System.Int32 linePos)
     // Offset: 0x1BA418C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DtdParser::UndeclaredNotation* New_ctor(::StringW name, int lineNo, int linePos) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::DtdParser::UndeclaredNotation::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::DtdParser::UndeclaredNotation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DtdParser::UndeclaredNotation*, creationType>(name, lineNo, linePos)));
     }
   }; // System.Xml.DtdParser/System.Xml.UndeclaredNotation
   #pragma pack(pop)
-  static check_size<sizeof(DtdParser::UndeclaredNotation), 32 + sizeof(System::Xml::DtdParser::UndeclaredNotation*)> __System_Xml_DtdParser_UndeclaredNotationSizeCheck;
+  static check_size<sizeof(DtdParser::UndeclaredNotation), 32 + sizeof(::System::Xml::DtdParser::UndeclaredNotation*)> __System_Xml_DtdParser_UndeclaredNotationSizeCheck;
   static_assert(sizeof(DtdParser::UndeclaredNotation) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -11,8 +11,8 @@ namespace UnityEngine::ResourceManagement {
   class IUpdateReceiver;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ResourceManagement::IUpdateReceiver);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::IUpdateReceiver*, "UnityEngine.ResourceManagement", "IUpdateReceiver");
+NEED_NO_BOX(::UnityEngine::ResourceManagement::IUpdateReceiver);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::IUpdateReceiver*, "UnityEngine.ResourceManagement", "IUpdateReceiver");
 // Type namespace: UnityEngine.ResourceManagement
 namespace UnityEngine::ResourceManagement {
   // Size: 0x10

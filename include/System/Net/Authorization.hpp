@@ -17,8 +17,8 @@ namespace System::Net {
   class Authorization;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::Authorization);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::Authorization*, "System.Net", "Authorization");
+NEED_NO_BOX(::System::Net::Authorization);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::Authorization*, "System.Net", "Authorization");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x28
@@ -73,14 +73,14 @@ namespace System::Net {
     // Offset: 0x1AA6668
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Authorization* New_ctor(::StringW token) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Authorization::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Authorization::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Authorization*, creationType>(token)));
     }
     // public System.Void .ctor(System.String token, System.Boolean finished)
     // Offset: 0x1AA66F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Authorization* New_ctor(::StringW token, bool finished) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Authorization::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Authorization::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Authorization*, creationType>(token, finished)));
     }
   }; // System.Net.Authorization

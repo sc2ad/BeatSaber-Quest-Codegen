@@ -20,8 +20,8 @@ namespace HoudiniEngineUnity {
   class JSON;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::JSON);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::JSON*, "HoudiniEngineUnity", "JSON");
+NEED_NO_BOX(::HoudiniEngineUnity::JSON);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::JSON*, "HoudiniEngineUnity", "JSON");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x10
@@ -32,7 +32,7 @@ namespace HoudiniEngineUnity {
     public:
     // static public HoudiniEngineUnity.JSONNode Parse(System.String aJSON)
     // Offset: 0x19ACDE8
-    static HoudiniEngineUnity::JSONNode* Parse(::StringW aJSON);
+    static ::HoudiniEngineUnity::JSONNode* Parse(::StringW aJSON);
   }; // HoudiniEngineUnity.JSON
   #pragma pack(pop)
 }
@@ -40,7 +40,7 @@ namespace HoudiniEngineUnity {
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSON::Parse
 // Il2CppName: Parse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::JSONNode* (*)(::StringW)>(&HoudiniEngineUnity::JSON::Parse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::JSONNode* (*)(::StringW)>(&HoudiniEngineUnity::JSON::Parse)> {
   static const MethodInfo* get() {
     static auto* aJSON = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::JSON*), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{aJSON});

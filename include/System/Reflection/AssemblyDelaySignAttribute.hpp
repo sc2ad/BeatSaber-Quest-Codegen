@@ -18,8 +18,8 @@ namespace System::Reflection {
   class AssemblyDelaySignAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Reflection::AssemblyDelaySignAttribute);
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyDelaySignAttribute*, "System.Reflection", "AssemblyDelaySignAttribute");
+NEED_NO_BOX(::System::Reflection::AssemblyDelaySignAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::AssemblyDelaySignAttribute*, "System.Reflection", "AssemblyDelaySignAttribute");
 // Type namespace: System.Reflection
 namespace System::Reflection {
   // Size: 0x11
@@ -28,7 +28,7 @@ namespace System::Reflection {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: 11880D0
   // [AttributeUsageAttribute] Offset: 11880D0
-  class AssemblyDelaySignAttribute : public System::Attribute {
+  class AssemblyDelaySignAttribute : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -56,7 +56,7 @@ namespace System::Reflection {
     // Offset: 0x21609E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssemblyDelaySignAttribute* New_ctor(bool delaySign) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::AssemblyDelaySignAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Reflection::AssemblyDelaySignAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssemblyDelaySignAttribute*, creationType>(delaySign)));
     }
   }; // System.Reflection.AssemblyDelaySignAttribute

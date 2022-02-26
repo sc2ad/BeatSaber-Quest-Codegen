@@ -19,8 +19,8 @@ namespace System::Threading {
   class ThreadPoolGlobals;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Threading::ThreadPoolGlobals);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadPoolGlobals*, "System.Threading", "ThreadPoolGlobals");
+NEED_NO_BOX(::System::Threading::ThreadPoolGlobals);
+DEFINE_IL2CPP_ARG_TYPE(::System::Threading::ThreadPoolGlobals*, "System.Threading", "ThreadPoolGlobals");
 // Type namespace: System.Threading
 namespace System::Threading {
   // Size: 0x10
@@ -50,9 +50,9 @@ namespace System::Threading {
     // Set static field: static public System.Boolean enableWorkerTracking
     static void _set_enableWorkerTracking(bool value);
     // Get static field: static public System.Threading.ThreadPoolWorkQueue workQueue
-    static System::Threading::ThreadPoolWorkQueue* _get_workQueue();
+    static ::System::Threading::ThreadPoolWorkQueue* _get_workQueue();
     // Set static field: static public System.Threading.ThreadPoolWorkQueue workQueue
-    static void _set_workQueue(System::Threading::ThreadPoolWorkQueue* value);
+    static void _set_workQueue(::System::Threading::ThreadPoolWorkQueue* value);
     // static private System.Void .cctor()
     // Offset: 0x1CDF670
     static void _cctor();

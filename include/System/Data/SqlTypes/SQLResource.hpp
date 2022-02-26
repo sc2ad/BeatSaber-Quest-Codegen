@@ -13,8 +13,8 @@ namespace System::Data::SqlTypes {
   class SQLResource;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Data::SqlTypes::SQLResource);
-DEFINE_IL2CPP_ARG_TYPE(System::Data::SqlTypes::SQLResource*, "System.Data.SqlTypes", "SQLResource");
+NEED_NO_BOX(::System::Data::SqlTypes::SQLResource);
+DEFINE_IL2CPP_ARG_TYPE(::System::Data::SqlTypes::SQLResource*, "System.Data.SqlTypes", "SQLResource");
 // Type namespace: System.Data.SqlTypes
 namespace System::Data::SqlTypes {
   // Size: 0x10

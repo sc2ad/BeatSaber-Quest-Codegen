@@ -16,8 +16,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Schema::TypedObject::DecimalStruct);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::TypedObject::DecimalStruct*, "System.Xml.Schema", "TypedObject/DecimalStruct");
+NEED_NO_BOX(::System::Xml::Schema::TypedObject::DecimalStruct);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::TypedObject::DecimalStruct*, "System.Xml.Schema", "TypedObject/DecimalStruct");
 // Type namespace: System.Xml.Schema
 namespace System::Xml::Schema {
   // Size: 0x20
@@ -46,14 +46,14 @@ namespace System::Xml::Schema {
     // private System.Decimal[] dvalue
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayW<System::Decimal> dvalue;
+    ::ArrayW<::System::Decimal> dvalue;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::Decimal>) == 0x8);
+    static_assert(sizeof(::ArrayW<::System::Decimal>) == 0x8);
     public:
     // Get instance field reference: private System.Boolean isDecimal
     bool& dyn_isDecimal();
     // Get instance field reference: private System.Decimal[] dvalue
-    ::ArrayW<System::Decimal>& dyn_dvalue();
+    ::ArrayW<::System::Decimal>& dyn_dvalue();
     // public System.Boolean get_IsDecimal()
     // Offset: 0x169CFBC
     bool get_IsDecimal();
@@ -62,12 +62,12 @@ namespace System::Xml::Schema {
     void set_IsDecimal(bool value);
     // public System.Decimal[] get_Dvalue()
     // Offset: 0x169CFD0
-    ::ArrayW<System::Decimal> get_Dvalue();
+    ::ArrayW<::System::Decimal> get_Dvalue();
     // public System.Void .ctor(System.Int32 dim)
     // Offset: 0x169CB3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypedObject::DecimalStruct* New_ctor(int dim) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Schema::TypedObject::DecimalStruct::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::TypedObject::DecimalStruct::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypedObject::DecimalStruct*, creationType>(dim)));
     }
     // public System.Void .ctor()
@@ -76,12 +76,12 @@ namespace System::Xml::Schema {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypedObject::DecimalStruct* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Schema::TypedObject::DecimalStruct::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::TypedObject::DecimalStruct::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypedObject::DecimalStruct*, creationType>()));
     }
   }; // System.Xml.Schema.TypedObject/System.Xml.Schema.DecimalStruct
   #pragma pack(pop)
-  static check_size<sizeof(TypedObject::DecimalStruct), 24 + sizeof(::ArrayW<System::Decimal>)> __System_Xml_Schema_TypedObject_DecimalStructSizeCheck;
+  static check_size<sizeof(TypedObject::DecimalStruct), 24 + sizeof(::ArrayW<::System::Decimal>)> __System_Xml_Schema_TypedObject_DecimalStructSizeCheck;
   static_assert(sizeof(TypedObject::DecimalStruct) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -105,7 +105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::TypedObject::DecimalStruct::get_Dvalue
 // Il2CppName: get_Dvalue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Decimal> (System::Xml::Schema::TypedObject::DecimalStruct::*)()>(&System::Xml::Schema::TypedObject::DecimalStruct::get_Dvalue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Decimal> (System::Xml::Schema::TypedObject::DecimalStruct::*)()>(&System::Xml::Schema::TypedObject::DecimalStruct::get_Dvalue)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::TypedObject::DecimalStruct*), "get_Dvalue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

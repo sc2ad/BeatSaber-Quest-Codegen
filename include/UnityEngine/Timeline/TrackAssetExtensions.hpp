@@ -21,8 +21,8 @@ namespace UnityEngine::Timeline {
   class TrackAssetExtensions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Timeline::TrackAssetExtensions);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackAssetExtensions*, "UnityEngine.Timeline", "TrackAssetExtensions");
+NEED_NO_BOX(::UnityEngine::Timeline::TrackAssetExtensions);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::TrackAssetExtensions*, "UnityEngine.Timeline", "TrackAssetExtensions");
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
   // Size: 0x10
@@ -34,10 +34,10 @@ namespace UnityEngine::Timeline {
     public:
     // static public UnityEngine.Timeline.GroupTrack GetGroup(UnityEngine.Timeline.TrackAsset asset)
     // Offset: 0x2993AD4
-    static UnityEngine::Timeline::GroupTrack* GetGroup(UnityEngine::Timeline::TrackAsset* asset);
+    static ::UnityEngine::Timeline::GroupTrack* GetGroup(::UnityEngine::Timeline::TrackAsset* asset);
     // static public System.Void SetGroup(UnityEngine.Timeline.TrackAsset asset, UnityEngine.Timeline.GroupTrack group)
     // Offset: 0x2993B9C
-    static void SetGroup(UnityEngine::Timeline::TrackAsset* asset, UnityEngine::Timeline::GroupTrack* group);
+    static void SetGroup(::UnityEngine::Timeline::TrackAsset* asset, ::UnityEngine::Timeline::GroupTrack* group);
   }; // UnityEngine.Timeline.TrackAssetExtensions
   #pragma pack(pop)
 }
@@ -45,7 +45,7 @@ namespace UnityEngine::Timeline {
 // Writing MetadataGetter for method: UnityEngine::Timeline::TrackAssetExtensions::GetGroup
 // Il2CppName: GetGroup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::GroupTrack* (*)(UnityEngine::Timeline::TrackAsset*)>(&UnityEngine::Timeline::TrackAssetExtensions::GetGroup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Timeline::GroupTrack* (*)(::UnityEngine::Timeline::TrackAsset*)>(&UnityEngine::Timeline::TrackAssetExtensions::GetGroup)> {
   static const MethodInfo* get() {
     static auto* asset = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "TrackAsset")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAssetExtensions*), "GetGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asset});
@@ -54,7 +54,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Timeline::TrackAssetExtensions::SetGroup
 // Il2CppName: SetGroup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Timeline::TrackAsset*, UnityEngine::Timeline::GroupTrack*)>(&UnityEngine::Timeline::TrackAssetExtensions::SetGroup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::Timeline::GroupTrack*)>(&UnityEngine::Timeline::TrackAssetExtensions::SetGroup)> {
   static const MethodInfo* get() {
     static auto* asset = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "TrackAsset")->byval_arg;
     static auto* group = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "GroupTrack")->byval_arg;

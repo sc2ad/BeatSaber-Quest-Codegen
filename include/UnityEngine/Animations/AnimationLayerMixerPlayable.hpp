@@ -33,7 +33,7 @@ namespace UnityEngine::Animations {
   struct AnimationLayerMixerPlayable;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationLayerMixerPlayable, "UnityEngine.Animations", "AnimationLayerMixerPlayable");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Animations::AnimationLayerMixerPlayable, "UnityEngine.Animations", "AnimationLayerMixerPlayable");
 // Type namespace: UnityEngine.Animations
 namespace UnityEngine::Animations {
   // Size: 0xC
@@ -46,73 +46,73 @@ namespace UnityEngine::Animations {
   // [StaticAccessorAttribute] Offset: 11BFCF4
   // [RequiredByNativeCodeAttribute] Offset: 11BFCF4
   // [NativeHeaderAttribute] Offset: 11BFCF4
-  struct AnimationLayerMixerPlayable/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Animations::AnimationLayerMixerPlayable>, public UnityEngine::Playables::IPlayable*/ {
+  struct AnimationLayerMixerPlayable/*, public ::System::ValueType, public ::System::IEquatable_1<::UnityEngine::Animations::AnimationLayerMixerPlayable>, public ::UnityEngine::Playables::IPlayable*/ {
     public:
     public:
     // private UnityEngine.Playables.PlayableHandle m_Handle
     // Size: 0xC
     // Offset: 0x0
-    UnityEngine::Playables::PlayableHandle m_Handle;
+    ::UnityEngine::Playables::PlayableHandle m_Handle;
     // Field size check
-    static_assert(sizeof(UnityEngine::Playables::PlayableHandle) == 0xC);
+    static_assert(sizeof(::UnityEngine::Playables::PlayableHandle) == 0xC);
     public:
     // Creating value type constructor for type: AnimationLayerMixerPlayable
-    constexpr AnimationLayerMixerPlayable(UnityEngine::Playables::PlayableHandle m_Handle_ = {}) noexcept : m_Handle{m_Handle_} {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    constexpr AnimationLayerMixerPlayable(::UnityEngine::Playables::PlayableHandle m_Handle_ = {}) noexcept : m_Handle{m_Handle_} {}
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
-    // Creating interface conversion operator: operator System::IEquatable_1<UnityEngine::Animations::AnimationLayerMixerPlayable>
-    operator System::IEquatable_1<UnityEngine::Animations::AnimationLayerMixerPlayable>() noexcept {
-      return *reinterpret_cast<System::IEquatable_1<UnityEngine::Animations::AnimationLayerMixerPlayable>*>(this);
+    // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::Animations::AnimationLayerMixerPlayable>
+    operator ::System::IEquatable_1<::UnityEngine::Animations::AnimationLayerMixerPlayable>() noexcept {
+      return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::Animations::AnimationLayerMixerPlayable>*>(this);
     }
-    // Creating interface conversion operator: operator UnityEngine::Playables::IPlayable
-    operator UnityEngine::Playables::IPlayable() noexcept {
-      return *reinterpret_cast<UnityEngine::Playables::IPlayable*>(this);
+    // Creating interface conversion operator: operator ::UnityEngine::Playables::IPlayable
+    operator ::UnityEngine::Playables::IPlayable() noexcept {
+      return *reinterpret_cast<::UnityEngine::Playables::IPlayable*>(this);
     }
-    // Creating conversion operator: operator UnityEngine::Playables::PlayableHandle
-    constexpr operator UnityEngine::Playables::PlayableHandle() const noexcept {
+    // Creating conversion operator: operator ::UnityEngine::Playables::PlayableHandle
+    constexpr operator ::UnityEngine::Playables::PlayableHandle() const noexcept {
       return m_Handle;
     }
     // Get static field: static private readonly UnityEngine.Animations.AnimationLayerMixerPlayable m_NullPlayable
-    static UnityEngine::Animations::AnimationLayerMixerPlayable _get_m_NullPlayable();
+    static ::UnityEngine::Animations::AnimationLayerMixerPlayable _get_m_NullPlayable();
     // Set static field: static private readonly UnityEngine.Animations.AnimationLayerMixerPlayable m_NullPlayable
-    static void _set_m_NullPlayable(UnityEngine::Animations::AnimationLayerMixerPlayable value);
+    static void _set_m_NullPlayable(::UnityEngine::Animations::AnimationLayerMixerPlayable value);
     // Get instance field reference: private UnityEngine.Playables.PlayableHandle m_Handle
-    UnityEngine::Playables::PlayableHandle& dyn_m_Handle();
+    ::UnityEngine::Playables::PlayableHandle& dyn_m_Handle();
     // System.Void .ctor(UnityEngine.Playables.PlayableHandle handle)
     // Offset: 0x29A4838
-    // ABORTED: conflicts with another method.  AnimationLayerMixerPlayable(UnityEngine::Playables::PlayableHandle handle);
+    // ABORTED: conflicts with another method.  AnimationLayerMixerPlayable(::UnityEngine::Playables::PlayableHandle handle);
     // static private System.Void .cctor()
     // Offset: 0x29A4CD8
     static void _cctor();
     // static public UnityEngine.Animations.AnimationLayerMixerPlayable Create(UnityEngine.Playables.PlayableGraph graph, System.Int32 inputCount)
     // Offset: 0x29A4698
-    static UnityEngine::Animations::AnimationLayerMixerPlayable Create(UnityEngine::Playables::PlayableGraph graph, int inputCount);
+    static ::UnityEngine::Animations::AnimationLayerMixerPlayable Create(::UnityEngine::Playables::PlayableGraph graph, int inputCount);
     // static private UnityEngine.Playables.PlayableHandle CreateHandle(UnityEngine.Playables.PlayableGraph graph, System.Int32 inputCount)
     // Offset: 0x29A4740
-    static UnityEngine::Playables::PlayableHandle CreateHandle(UnityEngine::Playables::PlayableGraph graph, int inputCount);
+    static ::UnityEngine::Playables::PlayableHandle CreateHandle(::UnityEngine::Playables::PlayableGraph graph, int inputCount);
     // public UnityEngine.Playables.PlayableHandle GetHandle()
     // Offset: 0x29A498C
-    UnityEngine::Playables::PlayableHandle GetHandle();
+    ::UnityEngine::Playables::PlayableHandle GetHandle();
     // public System.Boolean Equals(UnityEngine.Animations.AnimationLayerMixerPlayable other)
     // Offset: 0x29A49CC
-    bool Equals(UnityEngine::Animations::AnimationLayerMixerPlayable other);
+    bool Equals(::UnityEngine::Animations::AnimationLayerMixerPlayable other);
     // public System.Void SetLayerMaskFromAvatarMask(System.UInt32 layerIndex, UnityEngine.AvatarMask mask)
     // Offset: 0x29A4A54
-    void SetLayerMaskFromAvatarMask(uint layerIndex, UnityEngine::AvatarMask* mask);
+    void SetLayerMaskFromAvatarMask(uint layerIndex, ::UnityEngine::AvatarMask* mask);
     // static private System.Boolean CreateHandleInternal(UnityEngine.Playables.PlayableGraph graph, ref UnityEngine.Playables.PlayableHandle handle)
     // Offset: 0x29A48F0
-    static bool CreateHandleInternal(UnityEngine::Playables::PlayableGraph graph, ByRef<UnityEngine::Playables::PlayableHandle> handle);
+    static bool CreateHandleInternal(::UnityEngine::Playables::PlayableGraph graph, ByRef<::UnityEngine::Playables::PlayableHandle> handle);
     // static private System.Void SetLayerMaskFromAvatarMaskInternal(ref UnityEngine.Playables.PlayableHandle handle, System.UInt32 layerIndex, UnityEngine.AvatarMask mask)
     // Offset: 0x29A4C30
-    static void SetLayerMaskFromAvatarMaskInternal(ByRef<UnityEngine::Playables::PlayableHandle> handle, uint layerIndex, UnityEngine::AvatarMask* mask);
+    static void SetLayerMaskFromAvatarMaskInternal(ByRef<::UnityEngine::Playables::PlayableHandle> handle, uint layerIndex, ::UnityEngine::AvatarMask* mask);
     // static private System.Boolean CreateHandleInternal_Injected(ref UnityEngine.Playables.PlayableGraph graph, ref UnityEngine.Playables.PlayableHandle handle)
     // Offset: 0x29A4C88
-    static bool CreateHandleInternal_Injected(ByRef<UnityEngine::Playables::PlayableGraph> graph, ByRef<UnityEngine::Playables::PlayableHandle> handle);
+    static bool CreateHandleInternal_Injected(ByRef<::UnityEngine::Playables::PlayableGraph> graph, ByRef<::UnityEngine::Playables::PlayableHandle> handle);
   }; // UnityEngine.Animations.AnimationLayerMixerPlayable
   #pragma pack(pop)
-  static check_size<sizeof(AnimationLayerMixerPlayable), 0 + sizeof(UnityEngine::Playables::PlayableHandle)> __UnityEngine_Animations_AnimationLayerMixerPlayableSizeCheck;
+  static check_size<sizeof(AnimationLayerMixerPlayable), 0 + sizeof(::UnityEngine::Playables::PlayableHandle)> __UnityEngine_Animations_AnimationLayerMixerPlayableSizeCheck;
   static_assert(sizeof(AnimationLayerMixerPlayable) == 0xC);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -131,7 +131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::Animations::AnimationLayerMixerPlayable::Create
 // Il2CppName: Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Animations::AnimationLayerMixerPlayable (*)(UnityEngine::Playables::PlayableGraph, int)>(&UnityEngine::Animations::AnimationLayerMixerPlayable::Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Animations::AnimationLayerMixerPlayable (*)(::UnityEngine::Playables::PlayableGraph, int)>(&UnityEngine::Animations::AnimationLayerMixerPlayable::Create)> {
   static const MethodInfo* get() {
     static auto* graph = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableGraph")->byval_arg;
     static auto* inputCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -141,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Animations::AnimationLayerMixerPlayable::CreateHandle
 // Il2CppName: CreateHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (*)(UnityEngine::Playables::PlayableGraph, int)>(&UnityEngine::Animations::AnimationLayerMixerPlayable::CreateHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::PlayableHandle (*)(::UnityEngine::Playables::PlayableGraph, int)>(&UnityEngine::Animations::AnimationLayerMixerPlayable::CreateHandle)> {
   static const MethodInfo* get() {
     static auto* graph = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableGraph")->byval_arg;
     static auto* inputCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -151,7 +151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Animations::AnimationLayerMixerPlayable::GetHandle
 // Il2CppName: GetHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (UnityEngine::Animations::AnimationLayerMixerPlayable::*)()>(&UnityEngine::Animations::AnimationLayerMixerPlayable::GetHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::PlayableHandle (UnityEngine::Animations::AnimationLayerMixerPlayable::*)()>(&UnityEngine::Animations::AnimationLayerMixerPlayable::GetHandle)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationLayerMixerPlayable), "GetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -159,7 +159,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Animations::AnimationLayerMixerPlayable::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animations::AnimationLayerMixerPlayable::*)(UnityEngine::Animations::AnimationLayerMixerPlayable)>(&UnityEngine::Animations::AnimationLayerMixerPlayable::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animations::AnimationLayerMixerPlayable::*)(::UnityEngine::Animations::AnimationLayerMixerPlayable)>(&UnityEngine::Animations::AnimationLayerMixerPlayable::Equals)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("UnityEngine.Animations", "AnimationLayerMixerPlayable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationLayerMixerPlayable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
@@ -168,7 +168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::Animations::AnimationLayerMixerPlayable::SetLayerMaskFromAvatarMask
 // Il2CppName: SetLayerMaskFromAvatarMask
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animations::AnimationLayerMixerPlayable::*)(uint, UnityEngine::AvatarMask*)>(&UnityEngine::Animations::AnimationLayerMixerPlayable::SetLayerMaskFromAvatarMask)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animations::AnimationLayerMixerPlayable::*)(uint, ::UnityEngine::AvatarMask*)>(&UnityEngine::Animations::AnimationLayerMixerPlayable::SetLayerMaskFromAvatarMask)> {
   static const MethodInfo* get() {
     static auto* layerIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* mask = &::il2cpp_utils::GetClassFromName("UnityEngine", "AvatarMask")->byval_arg;
@@ -178,7 +178,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animations::AnimationLayerMixerPlayable::CreateHandleInternal
 // Il2CppName: CreateHandleInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph, ByRef<UnityEngine::Playables::PlayableHandle>)>(&UnityEngine::Animations::AnimationLayerMixerPlayable::CreateHandleInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Playables::PlayableGraph, ByRef<::UnityEngine::Playables::PlayableHandle>)>(&UnityEngine::Animations::AnimationLayerMixerPlayable::CreateHandleInternal)> {
   static const MethodInfo* get() {
     static auto* graph = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableGraph")->byval_arg;
     static auto* handle = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableHandle")->this_arg;
@@ -188,7 +188,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Animations::AnimationLayerMixerPlayable::SetLayerMaskFromAvatarMaskInternal
 // Il2CppName: SetLayerMaskFromAvatarMaskInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<UnityEngine::Playables::PlayableHandle>, uint, UnityEngine::AvatarMask*)>(&UnityEngine::Animations::AnimationLayerMixerPlayable::SetLayerMaskFromAvatarMaskInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::Playables::PlayableHandle>, uint, ::UnityEngine::AvatarMask*)>(&UnityEngine::Animations::AnimationLayerMixerPlayable::SetLayerMaskFromAvatarMaskInternal)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableHandle")->this_arg;
     static auto* layerIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -199,7 +199,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(By
 // Writing MetadataGetter for method: UnityEngine::Animations::AnimationLayerMixerPlayable::CreateHandleInternal_Injected
 // Il2CppName: CreateHandleInternal_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<UnityEngine::Playables::PlayableGraph>, ByRef<UnityEngine::Playables::PlayableHandle>)>(&UnityEngine::Animations::AnimationLayerMixerPlayable::CreateHandleInternal_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<::UnityEngine::Playables::PlayableGraph>, ByRef<::UnityEngine::Playables::PlayableHandle>)>(&UnityEngine::Animations::AnimationLayerMixerPlayable::CreateHandleInternal_Injected)> {
   static const MethodInfo* get() {
     static auto* graph = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableGraph")->this_arg;
     static auto* handle = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableHandle")->this_arg;

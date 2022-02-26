@@ -27,8 +27,8 @@ namespace System::Collections::Generic {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HMUI::NavigationController::$$c__DisplayClass10_0);
-DEFINE_IL2CPP_ARG_TYPE(HMUI::NavigationController::$$c__DisplayClass10_0*, "HMUI", "NavigationController/<>c__DisplayClass10_0");
+NEED_NO_BOX(::HMUI::NavigationController::$$c__DisplayClass10_0);
+DEFINE_IL2CPP_ARG_TYPE(::HMUI::NavigationController::$$c__DisplayClass10_0*, "HMUI", "NavigationController/<>c__DisplayClass10_0");
 // Type namespace: HMUI
 namespace HMUI {
   // Size: 0x2C
@@ -56,9 +56,9 @@ namespace HMUI {
     // public HMUI.NavigationController <>4__this
     // Size: 0x8
     // Offset: 0x18
-    HMUI::NavigationController* $$4__this;
+    ::HMUI::NavigationController* $$4__this;
     // Field size check
-    static_assert(sizeof(HMUI::NavigationController*) == 0x8);
+    static_assert(sizeof(::HMUI::NavigationController*) == 0x8);
     // public System.Single[] endPositions
     // Size: 0x8
     // Offset: 0x20
@@ -75,21 +75,21 @@ namespace HMUI {
     // Get instance field reference: public System.Single[] startPositions
     ::ArrayW<float>& dyn_startPositions();
     // Get instance field reference: public HMUI.NavigationController <>4__this
-    HMUI::NavigationController*& dyn_$$4__this();
+    ::HMUI::NavigationController*& dyn_$$4__this();
     // Get instance field reference: public System.Single[] endPositions
     ::ArrayW<float>& dyn_endPositions();
     // Get instance field reference: public System.Single moveOffset
     float& dyn_moveOffset();
     // System.Void <PopViewControllers>g__AnimationLayouter|0(System.Single t, HMUI.ViewController[] viewControllers, System.Collections.Generic.HashSet`1<HMUI.ViewController> removingViewControllers)
     // Offset: 0x16A7624
-    void $PopViewControllers$g__AnimationLayouter_0(float t, ::ArrayW<HMUI::ViewController*> viewControllers, System::Collections::Generic::HashSet_1<HMUI::ViewController*>* removingViewControllers);
+    void $PopViewControllers$g__AnimationLayouter_0(float t, ::ArrayW<::HMUI::ViewController*> viewControllers, ::System::Collections::Generic::HashSet_1<::HMUI::ViewController*>* removingViewControllers);
     // public System.Void .ctor()
     // Offset: 0x16A760C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NavigationController::$$c__DisplayClass10_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::NavigationController::$$c__DisplayClass10_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::NavigationController::$$c__DisplayClass10_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NavigationController::$$c__DisplayClass10_0*, creationType>()));
     }
   }; // HMUI.NavigationController/HMUI.<>c__DisplayClass10_0
@@ -101,7 +101,7 @@ namespace HMUI {
 // Writing MetadataGetter for method: HMUI::NavigationController::$$c__DisplayClass10_0::$PopViewControllers$g__AnimationLayouter_0
 // Il2CppName: <PopViewControllers>g__AnimationLayouter|0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::NavigationController::$$c__DisplayClass10_0::*)(float, ::ArrayW<HMUI::ViewController*>, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*)>(&HMUI::NavigationController::$$c__DisplayClass10_0::$PopViewControllers$g__AnimationLayouter_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::NavigationController::$$c__DisplayClass10_0::*)(float, ::ArrayW<::HMUI::ViewController*>, ::System::Collections::Generic::HashSet_1<::HMUI::ViewController*>*)>(&HMUI::NavigationController::$$c__DisplayClass10_0::$PopViewControllers$g__AnimationLayouter_0)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* viewControllers = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("HMUI", "ViewController"), 1)->byval_arg;

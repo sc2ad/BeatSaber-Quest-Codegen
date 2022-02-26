@@ -20,8 +20,8 @@ namespace UnityEngine {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(TMPro::TMP_MaterialManager::MaskingMaterial);
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_MaterialManager::MaskingMaterial*, "TMPro", "TMP_MaterialManager/MaskingMaterial");
+NEED_NO_BOX(::TMPro::TMP_MaterialManager::MaskingMaterial);
+DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_MaterialManager::MaskingMaterial*, "TMPro", "TMP_MaterialManager/MaskingMaterial");
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0x28
@@ -42,15 +42,15 @@ namespace TMPro {
     // public UnityEngine.Material baseMaterial
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::Material* baseMaterial;
+    ::UnityEngine::Material* baseMaterial;
     // Field size check
-    static_assert(sizeof(UnityEngine::Material*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Material*) == 0x8);
     // public UnityEngine.Material stencilMaterial
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::Material* stencilMaterial;
+    ::UnityEngine::Material* stencilMaterial;
     // Field size check
-    static_assert(sizeof(UnityEngine::Material*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Material*) == 0x8);
     // public System.Int32 count
     // Size: 0x4
     // Offset: 0x20
@@ -65,9 +65,9 @@ namespace TMPro {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public UnityEngine.Material baseMaterial
-    UnityEngine::Material*& dyn_baseMaterial();
+    ::UnityEngine::Material*& dyn_baseMaterial();
     // Get instance field reference: public UnityEngine.Material stencilMaterial
-    UnityEngine::Material*& dyn_stencilMaterial();
+    ::UnityEngine::Material*& dyn_stencilMaterial();
     // Get instance field reference: public System.Int32 count
     int& dyn_count();
     // Get instance field reference: public System.Int32 stencilID
@@ -78,7 +78,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_MaterialManager::MaskingMaterial* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_MaterialManager::MaskingMaterial::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_MaterialManager::MaskingMaterial::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_MaterialManager::MaskingMaterial*, creationType>()));
     }
   }; // TMPro.TMP_MaterialManager/TMPro.MaskingMaterial

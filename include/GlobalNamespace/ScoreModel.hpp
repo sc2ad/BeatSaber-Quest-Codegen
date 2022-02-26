@@ -27,8 +27,8 @@ namespace GlobalNamespace {
   class ScoreModel;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::ScoreModel);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScoreModel*, "", "ScoreModel");
+NEED_NO_BOX(::GlobalNamespace::ScoreModel);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ScoreModel*, "", "ScoreModel");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -90,7 +90,7 @@ namespace GlobalNamespace {
     static int MaxRawScoreForNumberOfNotes(int noteCount);
     // static public System.Void RawScoreWithoutMultiplier(ISaberSwingRatingCounter saberSwingRatingCounter, System.Single cutDistanceToCenter, out System.Int32 beforeCutRawScore, out System.Int32 afterCutRawScore, out System.Int32 cutDistanceRawScore)
     // Offset: 0x2B5D32C
-    static void RawScoreWithoutMultiplier(GlobalNamespace::ISaberSwingRatingCounter* saberSwingRatingCounter, float cutDistanceToCenter, ByRef<int> beforeCutRawScore, ByRef<int> afterCutRawScore, ByRef<int> cutDistanceRawScore);
+    static void RawScoreWithoutMultiplier(::GlobalNamespace::ISaberSwingRatingCounter* saberSwingRatingCounter, float cutDistanceToCenter, ByRef<int> beforeCutRawScore, ByRef<int> afterCutRawScore, ByRef<int> cutDistanceRawScore);
     // static public System.Int32 GetModifiedScoreForGameplayModifiersScoreMultiplier(System.Int32 rawScore, System.Single gameplayModifiersScoreMultiplier)
     // Offset: 0x2B5C194
     static int GetModifiedScoreForGameplayModifiersScoreMultiplier(int rawScore, float gameplayModifiersScoreMultiplier);
@@ -100,7 +100,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScoreModel* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ScoreModel::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ScoreModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScoreModel*, creationType>()));
     }
   }; // ScoreModel
@@ -119,7 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 // Writing MetadataGetter for method: GlobalNamespace::ScoreModel::RawScoreWithoutMultiplier
 // Il2CppName: RawScoreWithoutMultiplier
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::ISaberSwingRatingCounter*, float, ByRef<int>, ByRef<int>, ByRef<int>)>(&GlobalNamespace::ScoreModel::RawScoreWithoutMultiplier)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::ISaberSwingRatingCounter*, float, ByRef<int>, ByRef<int>, ByRef<int>)>(&GlobalNamespace::ScoreModel::RawScoreWithoutMultiplier)> {
   static const MethodInfo* get() {
     static auto* saberSwingRatingCounter = &::il2cpp_utils::GetClassFromName("", "ISaberSwingRatingCounter")->byval_arg;
     static auto* cutDistanceToCenter = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

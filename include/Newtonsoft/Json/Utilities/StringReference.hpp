@@ -16,7 +16,7 @@ namespace Newtonsoft::Json::Utilities {
   struct StringReference;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::StringReference, "Newtonsoft.Json.Utilities", "StringReference");
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::StringReference, "Newtonsoft.Json.Utilities", "StringReference");
 // Type namespace: Newtonsoft.Json.Utilities
 namespace Newtonsoft::Json::Utilities {
   // Size: 0x10
@@ -28,7 +28,7 @@ namespace Newtonsoft::Json::Utilities {
   // [NullableContextAttribute] Offset: 1202428
   // [DefaultMemberAttribute] Offset: 1202428
   // [NullableAttribute] Offset: 1202428
-  struct StringReference/*, public System::ValueType*/ {
+  struct StringReference/*, public ::System::ValueType*/ {
     public:
     public:
     // private readonly System.Char[] _chars
@@ -52,9 +52,9 @@ namespace Newtonsoft::Json::Utilities {
     public:
     // Creating value type constructor for type: StringReference
     constexpr StringReference(::ArrayW<::Il2CppChar> chars_ = ::ArrayW<::Il2CppChar>(static_cast<void*>(nullptr)), int startIndex_ = {}, int length_ = {}) noexcept : chars{chars_}, startIndex{startIndex_}, length{length_} {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: private readonly System.Char[] _chars
     ::ArrayW<::Il2CppChar>& dyn__chars();

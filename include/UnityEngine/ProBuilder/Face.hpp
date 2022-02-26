@@ -44,8 +44,8 @@ namespace UnityEngine::ProBuilder {
   class Face;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::Face);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Face*, "UnityEngine.ProBuilder", "Face");
+NEED_NO_BOX(::UnityEngine::ProBuilder::Face);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Face*, "UnityEngine.ProBuilder", "Face");
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
   // Size: 0x68
@@ -82,18 +82,18 @@ namespace UnityEngine::ProBuilder {
     // private UnityEngine.ProBuilder.AutoUnwrapSettings m_Uv
     // Size: 0x20
     // Offset: 0x1C
-    UnityEngine::ProBuilder::AutoUnwrapSettings m_Uv;
+    ::UnityEngine::ProBuilder::AutoUnwrapSettings m_Uv;
     // Field size check
-    static_assert(sizeof(UnityEngine::ProBuilder::AutoUnwrapSettings) == 0x20);
+    static_assert(sizeof(::UnityEngine::ProBuilder::AutoUnwrapSettings) == 0x20);
     // Padding between fields: m_Uv and: m_Material
     char __padding2[0x4] = {};
     // [FormerlySerializedAsAttribute] Offset: 0x126FAC0
     // private UnityEngine.Material m_Material
     // Size: 0x8
     // Offset: 0x40
-    UnityEngine::Material* m_Material;
+    ::UnityEngine::Material* m_Material;
     // Field size check
-    static_assert(sizeof(UnityEngine::Material*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Material*) == 0x8);
     // private System.Int32 m_SubmeshIndex
     // Size: 0x4
     // Offset: 0x48
@@ -130,18 +130,18 @@ namespace UnityEngine::ProBuilder {
     // private UnityEngine.ProBuilder.Edge[] m_Edges
     // Size: 0x8
     // Offset: 0x60
-    ::ArrayW<UnityEngine::ProBuilder::Edge> m_Edges;
+    ::ArrayW<::UnityEngine::ProBuilder::Edge> m_Edges;
     // Field size check
-    static_assert(sizeof(::ArrayW<UnityEngine::ProBuilder::Edge>) == 0x8);
+    static_assert(sizeof(::ArrayW<::UnityEngine::ProBuilder::Edge>) == 0x8);
     public:
     // Get instance field reference: private System.Int32[] m_Indexes
     ::ArrayW<int>& dyn_m_Indexes();
     // Get instance field reference: private System.Int32 m_SmoothingGroup
     int& dyn_m_SmoothingGroup();
     // Get instance field reference: private UnityEngine.ProBuilder.AutoUnwrapSettings m_Uv
-    UnityEngine::ProBuilder::AutoUnwrapSettings& dyn_m_Uv();
+    ::UnityEngine::ProBuilder::AutoUnwrapSettings& dyn_m_Uv();
     // Get instance field reference: private UnityEngine.Material m_Material
-    UnityEngine::Material*& dyn_m_Material();
+    ::UnityEngine::Material*& dyn_m_Material();
     // Get instance field reference: private System.Int32 m_SubmeshIndex
     int& dyn_m_SubmeshIndex();
     // Get instance field reference: private System.Boolean m_ManualUV
@@ -153,7 +153,7 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: private System.Int32[] m_DistinctIndexes
     ::ArrayW<int>& dyn_m_DistinctIndexes();
     // Get instance field reference: private UnityEngine.ProBuilder.Edge[] m_Edges
-    ::ArrayW<UnityEngine::ProBuilder::Edge>& dyn_m_Edges();
+    ::ArrayW<::UnityEngine::ProBuilder::Edge>& dyn_m_Edges();
     // public System.Boolean get_manualUV()
     // Offset: 0x1F39564
     bool get_manualUV();
@@ -174,19 +174,19 @@ namespace UnityEngine::ProBuilder {
     void set_indexesInternal(::ArrayW<int> value);
     // public System.Collections.ObjectModel.ReadOnlyCollection`1<System.Int32> get_indexes()
     // Offset: 0x1F39684
-    System::Collections::ObjectModel::ReadOnlyCollection_1<int>* get_indexes();
+    ::System::Collections::ObjectModel::ReadOnlyCollection_1<int>* get_indexes();
     // System.Int32[] get_distinctIndexesInternal()
     // Offset: 0x1F38EC0
     ::ArrayW<int> get_distinctIndexesInternal();
     // public System.Collections.ObjectModel.ReadOnlyCollection`1<System.Int32> get_distinctIndexes()
     // Offset: 0x1F3987C
-    System::Collections::ObjectModel::ReadOnlyCollection_1<int>* get_distinctIndexes();
+    ::System::Collections::ObjectModel::ReadOnlyCollection_1<int>* get_distinctIndexes();
     // UnityEngine.ProBuilder.Edge[] get_edgesInternal()
     // Offset: 0x1F39384
-    ::ArrayW<UnityEngine::ProBuilder::Edge> get_edgesInternal();
+    ::ArrayW<::UnityEngine::ProBuilder::Edge> get_edgesInternal();
     // public System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.ProBuilder.Edge> get_edges()
     // Offset: 0x1F39B68
-    System::Collections::ObjectModel::ReadOnlyCollection_1<UnityEngine::ProBuilder::Edge>* get_edges();
+    ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::ProBuilder::Edge>* get_edges();
     // public System.Int32 get_smoothingGroup()
     // Offset: 0x1F39BE8
     int get_smoothingGroup();
@@ -195,10 +195,10 @@ namespace UnityEngine::ProBuilder {
     void set_smoothingGroup(int value);
     // public UnityEngine.Material get_material()
     // Offset: 0x1F39BF8
-    UnityEngine::Material* get_material();
+    ::UnityEngine::Material* get_material();
     // public System.Void set_material(UnityEngine.Material value)
     // Offset: 0x1F39C00
-    void set_material(UnityEngine::Material* value);
+    void set_material(::UnityEngine::Material* value);
     // public System.Int32 get_submeshIndex()
     // Offset: 0x1F39C08
     int get_submeshIndex();
@@ -207,53 +207,53 @@ namespace UnityEngine::ProBuilder {
     void set_submeshIndex(int value);
     // public UnityEngine.ProBuilder.AutoUnwrapSettings get_uv()
     // Offset: 0x1F39C18
-    UnityEngine::ProBuilder::AutoUnwrapSettings get_uv();
+    ::UnityEngine::ProBuilder::AutoUnwrapSettings get_uv();
     // public System.Void set_uv(UnityEngine.ProBuilder.AutoUnwrapSettings value)
     // Offset: 0x1F39C28
-    void set_uv(UnityEngine::ProBuilder::AutoUnwrapSettings value);
+    void set_uv(::UnityEngine::ProBuilder::AutoUnwrapSettings value);
     // public System.Int32 get_Item(System.Int32 i)
     // Offset: 0x1F39C38
     int get_Item(int i);
     // public System.Void .ctor(System.Collections.Generic.IEnumerable`1<System.Int32> indices)
     // Offset: 0x1F39C9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Face* New_ctor(System::Collections::Generic::IEnumerable_1<int>* indices) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Face::.ctor");
+    static Face* New_ctor(::System::Collections::Generic::IEnumerable_1<int>* indices) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::Face::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Face*, creationType>(indices)));
     }
     // System.Void .ctor(System.Int32[] triangles, UnityEngine.Material m, UnityEngine.ProBuilder.AutoUnwrapSettings u, System.Int32 smoothing, System.Int32 texture, System.Int32 element, System.Boolean manualUVs)
     // Offset: 0x1F39D5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Face* New_ctor(::ArrayW<int> triangles, UnityEngine::Material* m, UnityEngine::ProBuilder::AutoUnwrapSettings u, int smoothing, int texture, int element, bool manualUVs) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Face::.ctor");
+    static Face* New_ctor(::ArrayW<int> triangles, ::UnityEngine::Material* m, ::UnityEngine::ProBuilder::AutoUnwrapSettings u, int smoothing, int texture, int element, bool manualUVs) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::Face::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Face*, creationType>(triangles, m, u, smoothing, texture, element, manualUVs)));
     }
     // System.Void .ctor(System.Collections.Generic.IEnumerable`1<System.Int32> triangles, System.Int32 submeshIndex, UnityEngine.ProBuilder.AutoUnwrapSettings u, System.Int32 smoothing, System.Int32 texture, System.Int32 element, System.Boolean manualUVs)
     // Offset: 0x1F39E0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Face* New_ctor(System::Collections::Generic::IEnumerable_1<int>* triangles, int submeshIndex, UnityEngine::ProBuilder::AutoUnwrapSettings u, int smoothing, int texture, int element, bool manualUVs) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Face::.ctor");
+    static Face* New_ctor(::System::Collections::Generic::IEnumerable_1<int>* triangles, int submeshIndex, ::UnityEngine::ProBuilder::AutoUnwrapSettings u, int smoothing, int texture, int element, bool manualUVs) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::Face::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Face*, creationType>(triangles, submeshIndex, u, smoothing, texture, element, manualUVs)));
     }
     // public System.Void .ctor(UnityEngine.ProBuilder.Face other)
     // Offset: 0x1F39EB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Face* New_ctor(UnityEngine::ProBuilder::Face* other) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Face::.ctor");
+    static Face* New_ctor(::UnityEngine::ProBuilder::Face* other) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::Face::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Face*, creationType>(other)));
     }
     // public System.Void SetIndexes(System.Collections.Generic.IEnumerable`1<System.Int32> indices)
     // Offset: 0x1F396F4
-    void SetIndexes(System::Collections::Generic::IEnumerable_1<int>* indices);
+    void SetIndexes(::System::Collections::Generic::IEnumerable_1<int>* indices);
     // public System.Void CopyFrom(UnityEngine.ProBuilder.Face other)
     // Offset: 0x1F39EE8
-    void CopyFrom(UnityEngine::ProBuilder::Face* other);
+    void CopyFrom(::UnityEngine::ProBuilder::Face* other);
     // System.Void InvalidateCache()
     // Offset: 0x1F3967C
     void InvalidateCache();
     // private UnityEngine.ProBuilder.Edge[] CacheEdges()
     // Offset: 0x1F398FC
-    ::ArrayW<UnityEngine::ProBuilder::Edge> CacheEdges();
+    ::ArrayW<::UnityEngine::ProBuilder::Edge> CacheEdges();
     // private System.Int32[] CacheDistinctIndexes()
     // Offset: 0x1F397F8
     ::ArrayW<int> CacheDistinctIndexes();
@@ -280,20 +280,20 @@ namespace UnityEngine::ProBuilder {
     void Reverse();
     // static System.Void GetIndices(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces, System.Collections.Generic.List`1<System.Int32> indices)
     // Offset: 0x1F3A7C0
-    static void GetIndices(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces, System::Collections::Generic::List_1<int>* indices);
+    static void GetIndices(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces, ::System::Collections::Generic::List_1<int>* indices);
     // static System.Void GetDistinctIndices(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces, System.Collections.Generic.List`1<System.Int32> indices)
     // Offset: 0x1F3AAB8
-    static void GetDistinctIndices(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces, System::Collections::Generic::List_1<int>* indices);
+    static void GetDistinctIndices(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces, ::System::Collections::Generic::List_1<int>* indices);
     // System.Boolean TryGetNextEdge(UnityEngine.ProBuilder.Edge source, System.Int32 index, ref UnityEngine.ProBuilder.Edge nextEdge, ref System.Int32 nextIndex)
     // Offset: 0x1F3ADD4
-    bool TryGetNextEdge(UnityEngine::ProBuilder::Edge source, int index, ByRef<UnityEngine::ProBuilder::Edge> nextEdge, ByRef<int> nextIndex);
+    bool TryGetNextEdge(::UnityEngine::ProBuilder::Edge source, int index, ByRef<::UnityEngine::ProBuilder::Edge> nextEdge, ByRef<int> nextIndex);
     // public System.Void .ctor()
     // Offset: 0x1F39C74
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Face* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Face::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::Face::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Face*, creationType>()));
     }
     // public override System.String ToString()
@@ -303,7 +303,7 @@ namespace UnityEngine::ProBuilder {
     ::StringW ToString();
   }; // UnityEngine.ProBuilder.Face
   #pragma pack(pop)
-  static check_size<sizeof(Face), 96 + sizeof(::ArrayW<UnityEngine::ProBuilder::Edge>)> __UnityEngine_ProBuilder_FaceSizeCheck;
+  static check_size<sizeof(Face), 96 + sizeof(::ArrayW<::UnityEngine::ProBuilder::Edge>)> __UnityEngine_ProBuilder_FaceSizeCheck;
   static_assert(sizeof(Face) == 0x68);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -361,7 +361,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::get_indexes
 // Il2CppName: get_indexes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ObjectModel::ReadOnlyCollection_1<int>* (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::get_indexes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ObjectModel::ReadOnlyCollection_1<int>* (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::get_indexes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "get_indexes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -377,7 +377,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<in
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::get_distinctIndexes
 // Il2CppName: get_distinctIndexes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ObjectModel::ReadOnlyCollection_1<int>* (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::get_distinctIndexes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ObjectModel::ReadOnlyCollection_1<int>* (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::get_distinctIndexes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "get_distinctIndexes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -385,7 +385,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::get_edgesInternal
 // Il2CppName: get_edgesInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::ProBuilder::Edge> (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::get_edgesInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::ProBuilder::Edge> (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::get_edgesInternal)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "get_edgesInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -393,7 +393,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::get_edges
 // Il2CppName: get_edges
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ObjectModel::ReadOnlyCollection_1<UnityEngine::ProBuilder::Edge>* (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::get_edges)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::ProBuilder::Edge>* (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::get_edges)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "get_edges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -418,7 +418,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::get_material
 // Il2CppName: get_material
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::get_material)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Material* (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::get_material)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "get_material", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -426,7 +426,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::set_material
 // Il2CppName: set_material
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Face::*)(UnityEngine::Material*)>(&UnityEngine::ProBuilder::Face::set_material)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Face::*)(::UnityEngine::Material*)>(&UnityEngine::ProBuilder::Face::set_material)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "set_material", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -452,7 +452,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::get_uv
 // Il2CppName: get_uv
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::AutoUnwrapSettings (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::get_uv)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::AutoUnwrapSettings (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::get_uv)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "get_uv", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -460,7 +460,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::set_uv
 // Il2CppName: set_uv
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Face::*)(UnityEngine::ProBuilder::AutoUnwrapSettings)>(&UnityEngine::ProBuilder::Face::set_uv)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Face::*)(::UnityEngine::ProBuilder::AutoUnwrapSettings)>(&UnityEngine::ProBuilder::Face::set_uv)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "AutoUnwrapSettings")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "set_uv", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -494,7 +494,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::SetIndexes
 // Il2CppName: SetIndexes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Face::*)(System::Collections::Generic::IEnumerable_1<int>*)>(&UnityEngine::ProBuilder::Face::SetIndexes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Face::*)(::System::Collections::Generic::IEnumerable_1<int>*)>(&UnityEngine::ProBuilder::Face::SetIndexes)> {
   static const MethodInfo* get() {
     static auto* indices = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "SetIndexes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{indices});
@@ -503,7 +503,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::CopyFrom
 // Il2CppName: CopyFrom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Face::*)(UnityEngine::ProBuilder::Face*)>(&UnityEngine::ProBuilder::Face::CopyFrom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Face::*)(::UnityEngine::ProBuilder::Face*)>(&UnityEngine::ProBuilder::Face::CopyFrom)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "CopyFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
@@ -520,7 +520,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::CacheEdges
 // Il2CppName: CacheEdges
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::ProBuilder::Edge> (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::CacheEdges)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::ProBuilder::Edge> (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::CacheEdges)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "CacheEdges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -596,7 +596,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::GetIndices
 // Il2CppName: GetIndices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>*, System::Collections::Generic::List_1<int>*)>(&UnityEngine::ProBuilder::Face::GetIndices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*, ::System::Collections::Generic::List_1<int>*)>(&UnityEngine::ProBuilder::Face::GetIndices)> {
   static const MethodInfo* get() {
     static auto* faces = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face")})->byval_arg;
     static auto* indices = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
@@ -606,7 +606,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::GetDistinctIndices
 // Il2CppName: GetDistinctIndices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>*, System::Collections::Generic::List_1<int>*)>(&UnityEngine::ProBuilder::Face::GetDistinctIndices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*, ::System::Collections::Generic::List_1<int>*)>(&UnityEngine::ProBuilder::Face::GetDistinctIndices)> {
   static const MethodInfo* get() {
     static auto* faces = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face")})->byval_arg;
     static auto* indices = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
@@ -616,7 +616,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::TryGetNextEdge
 // Il2CppName: TryGetNextEdge
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::Face::*)(UnityEngine::ProBuilder::Edge, int, ByRef<UnityEngine::ProBuilder::Edge>, ByRef<int>)>(&UnityEngine::ProBuilder::Face::TryGetNextEdge)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::Face::*)(::UnityEngine::ProBuilder::Edge, int, ByRef<::UnityEngine::ProBuilder::Edge>, ByRef<int>)>(&UnityEngine::ProBuilder::Face::TryGetNextEdge)> {
   static const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Edge")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

@@ -21,8 +21,8 @@ namespace System::Linq::Expressions {
   class Utils;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Linq::Expressions::Utils);
-DEFINE_IL2CPP_ARG_TYPE(System::Linq::Expressions::Utils*, "System.Linq.Expressions", "Utils");
+NEED_NO_BOX(::System::Linq::Expressions::Utils);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Utils*, "System.Linq.Expressions", "Utils");
 // Type namespace: System.Linq.Expressions
 namespace System::Linq::Expressions {
   // Size: 0x10
@@ -108,50 +108,50 @@ namespace System::Linq::Expressions {
     // Set static field: static public readonly System.Object BoxedDefaultDateTime
     static void _set_BoxedDefaultDateTime(::Il2CppObject* value);
     // Get static field: static private readonly System.Linq.Expressions.ConstantExpression s_true
-    static System::Linq::Expressions::ConstantExpression* _get_s_true();
+    static ::System::Linq::Expressions::ConstantExpression* _get_s_true();
     // Set static field: static private readonly System.Linq.Expressions.ConstantExpression s_true
-    static void _set_s_true(System::Linq::Expressions::ConstantExpression* value);
+    static void _set_s_true(::System::Linq::Expressions::ConstantExpression* value);
     // Get static field: static private readonly System.Linq.Expressions.ConstantExpression s_false
-    static System::Linq::Expressions::ConstantExpression* _get_s_false();
+    static ::System::Linq::Expressions::ConstantExpression* _get_s_false();
     // Set static field: static private readonly System.Linq.Expressions.ConstantExpression s_false
-    static void _set_s_false(System::Linq::Expressions::ConstantExpression* value);
+    static void _set_s_false(::System::Linq::Expressions::ConstantExpression* value);
     // Get static field: static private readonly System.Linq.Expressions.ConstantExpression s_m1
-    static System::Linq::Expressions::ConstantExpression* _get_s_m1();
+    static ::System::Linq::Expressions::ConstantExpression* _get_s_m1();
     // Set static field: static private readonly System.Linq.Expressions.ConstantExpression s_m1
-    static void _set_s_m1(System::Linq::Expressions::ConstantExpression* value);
+    static void _set_s_m1(::System::Linq::Expressions::ConstantExpression* value);
     // Get static field: static private readonly System.Linq.Expressions.ConstantExpression s_0
-    static System::Linq::Expressions::ConstantExpression* _get_s_0();
+    static ::System::Linq::Expressions::ConstantExpression* _get_s_0();
     // Set static field: static private readonly System.Linq.Expressions.ConstantExpression s_0
-    static void _set_s_0(System::Linq::Expressions::ConstantExpression* value);
+    static void _set_s_0(::System::Linq::Expressions::ConstantExpression* value);
     // Get static field: static private readonly System.Linq.Expressions.ConstantExpression s_1
-    static System::Linq::Expressions::ConstantExpression* _get_s_1();
+    static ::System::Linq::Expressions::ConstantExpression* _get_s_1();
     // Set static field: static private readonly System.Linq.Expressions.ConstantExpression s_1
-    static void _set_s_1(System::Linq::Expressions::ConstantExpression* value);
+    static void _set_s_1(::System::Linq::Expressions::ConstantExpression* value);
     // Get static field: static private readonly System.Linq.Expressions.ConstantExpression s_2
-    static System::Linq::Expressions::ConstantExpression* _get_s_2();
+    static ::System::Linq::Expressions::ConstantExpression* _get_s_2();
     // Set static field: static private readonly System.Linq.Expressions.ConstantExpression s_2
-    static void _set_s_2(System::Linq::Expressions::ConstantExpression* value);
+    static void _set_s_2(::System::Linq::Expressions::ConstantExpression* value);
     // Get static field: static private readonly System.Linq.Expressions.ConstantExpression s_3
-    static System::Linq::Expressions::ConstantExpression* _get_s_3();
+    static ::System::Linq::Expressions::ConstantExpression* _get_s_3();
     // Set static field: static private readonly System.Linq.Expressions.ConstantExpression s_3
-    static void _set_s_3(System::Linq::Expressions::ConstantExpression* value);
+    static void _set_s_3(::System::Linq::Expressions::ConstantExpression* value);
     // Get static field: static public readonly System.Linq.Expressions.DefaultExpression Empty
-    static System::Linq::Expressions::DefaultExpression* _get_Empty();
+    static ::System::Linq::Expressions::DefaultExpression* _get_Empty();
     // Set static field: static public readonly System.Linq.Expressions.DefaultExpression Empty
-    static void _set_Empty(System::Linq::Expressions::DefaultExpression* value);
+    static void _set_Empty(::System::Linq::Expressions::DefaultExpression* value);
     // Get static field: static public readonly System.Linq.Expressions.ConstantExpression Null
-    static System::Linq::Expressions::ConstantExpression* _get_Null();
+    static ::System::Linq::Expressions::ConstantExpression* _get_Null();
     // Set static field: static public readonly System.Linq.Expressions.ConstantExpression Null
-    static void _set_Null(System::Linq::Expressions::ConstantExpression* value);
+    static void _set_Null(::System::Linq::Expressions::ConstantExpression* value);
     // static private System.Void .cctor()
     // Offset: 0x297EA5C
     static void _cctor();
     // static public System.Linq.Expressions.ConstantExpression Constant(System.Boolean value)
     // Offset: 0x297E824
-    static System::Linq::Expressions::ConstantExpression* Constant(bool value);
+    static ::System::Linq::Expressions::ConstantExpression* Constant(bool value);
     // static public System.Linq.Expressions.ConstantExpression Constant(System.Int32 value)
     // Offset: 0x297E8B8
-    static System::Linq::Expressions::ConstantExpression* Constant(int value);
+    static ::System::Linq::Expressions::ConstantExpression* Constant(int value);
   }; // System.Linq.Expressions.Utils
   #pragma pack(pop)
 }
@@ -167,7 +167,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Linq::Expressions::Utils::Constant
 // Il2CppName: Constant
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Linq::Expressions::ConstantExpression* (*)(bool)>(&System::Linq::Expressions::Utils::Constant)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::ConstantExpression* (*)(bool)>(&System::Linq::Expressions::Utils::Constant)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Utils*), "Constant", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -176,7 +176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Lin
 // Writing MetadataGetter for method: System::Linq::Expressions::Utils::Constant
 // Il2CppName: Constant
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Linq::Expressions::ConstantExpression* (*)(int)>(&System::Linq::Expressions::Utils::Constant)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::ConstantExpression* (*)(int)>(&System::Linq::Expressions::Utils::Constant)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Utils*), "Constant", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

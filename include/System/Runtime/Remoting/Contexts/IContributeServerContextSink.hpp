@@ -18,8 +18,8 @@ namespace System::Runtime::Remoting::Contexts {
   class IContributeServerContextSink;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Remoting::Contexts::IContributeServerContextSink);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::IContributeServerContextSink*, "System.Runtime.Remoting.Contexts", "IContributeServerContextSink");
+NEED_NO_BOX(::System::Runtime::Remoting::Contexts::IContributeServerContextSink);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Contexts::IContributeServerContextSink*, "System.Runtime.Remoting.Contexts", "IContributeServerContextSink");
 // Type namespace: System.Runtime.Remoting.Contexts
 namespace System::Runtime::Remoting::Contexts {
   // Size: 0x10
@@ -31,7 +31,7 @@ namespace System::Runtime::Remoting::Contexts {
     public:
     // public System.Runtime.Remoting.Messaging.IMessageSink GetServerContextSink(System.Runtime.Remoting.Messaging.IMessageSink nextSink)
     // Offset: 0xFFFFFFFF
-    System::Runtime::Remoting::Messaging::IMessageSink* GetServerContextSink(System::Runtime::Remoting::Messaging::IMessageSink* nextSink);
+    ::System::Runtime::Remoting::Messaging::IMessageSink* GetServerContextSink(::System::Runtime::Remoting::Messaging::IMessageSink* nextSink);
   }; // System.Runtime.Remoting.Contexts.IContributeServerContextSink
   #pragma pack(pop)
 }
@@ -39,7 +39,7 @@ namespace System::Runtime::Remoting::Contexts {
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::IContributeServerContextSink::GetServerContextSink
 // Il2CppName: GetServerContextSink
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (System::Runtime::Remoting::Contexts::IContributeServerContextSink::*)(System::Runtime::Remoting::Messaging::IMessageSink*)>(&System::Runtime::Remoting::Contexts::IContributeServerContextSink::GetServerContextSink)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::IMessageSink* (System::Runtime::Remoting::Contexts::IContributeServerContextSink::*)(::System::Runtime::Remoting::Messaging::IMessageSink*)>(&System::Runtime::Remoting::Contexts::IContributeServerContextSink::GetServerContextSink)> {
   static const MethodInfo* get() {
     static auto* nextSink = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Messaging", "IMessageSink")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::IContributeServerContextSink*), "GetServerContextSink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nextSink});

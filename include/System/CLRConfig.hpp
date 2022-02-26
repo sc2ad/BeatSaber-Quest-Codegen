@@ -12,8 +12,8 @@ namespace System {
   class CLRConfig;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::CLRConfig);
-DEFINE_IL2CPP_ARG_TYPE(System::CLRConfig*, "System", "CLRConfig");
+NEED_NO_BOX(::System::CLRConfig);
+DEFINE_IL2CPP_ARG_TYPE(::System::CLRConfig*, "System", "CLRConfig");
 // Type namespace: System
 namespace System {
   // Size: 0x10

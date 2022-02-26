@@ -26,7 +26,7 @@ namespace System {
   struct TypedReference;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::TypedReference, "System", "TypedReference");
+DEFINE_IL2CPP_ARG_TYPE(::System::TypedReference, "System", "TypedReference");
 // Type namespace: System
 namespace System {
   // Size: 0x18
@@ -36,52 +36,52 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   // [CLSCompliantAttribute] Offset: 118768C
   // [ComVisibleAttribute] Offset: 118768C
-  struct TypedReference/*, public System::ValueType*/ {
+  struct TypedReference/*, public ::System::ValueType*/ {
     public:
     public:
     // private System.RuntimeTypeHandle type
     // Size: 0x8
     // Offset: 0x0
-    System::RuntimeTypeHandle type;
+    ::System::RuntimeTypeHandle type;
     // Field size check
-    static_assert(sizeof(System::RuntimeTypeHandle) == 0x8);
+    static_assert(sizeof(::System::RuntimeTypeHandle) == 0x8);
     // private System.IntPtr Value
     // Size: 0x8
     // Offset: 0x8
-    System::IntPtr Value;
+    ::System::IntPtr Value;
     // Field size check
-    static_assert(sizeof(System::IntPtr) == 0x8);
+    static_assert(sizeof(::System::IntPtr) == 0x8);
     // private System.IntPtr Type
     // Size: 0x8
     // Offset: 0x10
-    System::IntPtr Type;
+    ::System::IntPtr Type;
     // Field size check
-    static_assert(sizeof(System::IntPtr) == 0x8);
+    static_assert(sizeof(::System::IntPtr) == 0x8);
     public:
     // Creating value type constructor for type: TypedReference
-    constexpr TypedReference(System::RuntimeTypeHandle type_ = {}, System::IntPtr Value_ = {}, System::IntPtr Type_ = {}) noexcept : type{type_}, Value{Value_}, Type{Type_} {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    constexpr TypedReference(::System::RuntimeTypeHandle type_ = {}, ::System::IntPtr Value_ = {}, ::System::IntPtr Type_ = {}) noexcept : type{type_}, Value{Value_}, Type{Type_} {}
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: private System.RuntimeTypeHandle type
-    System::RuntimeTypeHandle& dyn_type();
+    ::System::RuntimeTypeHandle& dyn_type();
     // Get instance field reference: private System.IntPtr Value
-    System::IntPtr& dyn_Value();
+    ::System::IntPtr& dyn_Value();
     // Get instance field reference: private System.IntPtr Type
-    System::IntPtr& dyn_Type();
+    ::System::IntPtr& dyn_Type();
     // System.Boolean get_IsNull()
     // Offset: 0x27D0338
     bool get_IsNull();
     // static public System.TypedReference MakeTypedReference(System.Object target, System.Reflection.FieldInfo[] flds)
     // Offset: 0x27CFE24
-    static System::TypedReference MakeTypedReference(::Il2CppObject* target, ::ArrayW<System::Reflection::FieldInfo*> flds);
+    static ::System::TypedReference MakeTypedReference(::Il2CppObject* target, ::ArrayW<::System::Reflection::FieldInfo*> flds);
     // static private System.TypedReference MakeTypedReferenceInternal(System.Object target, System.Reflection.FieldInfo[] fields)
     // Offset: 0x27D0204
-    static System::TypedReference MakeTypedReferenceInternal(::Il2CppObject* target, ::ArrayW<System::Reflection::FieldInfo*> fields);
+    static ::System::TypedReference MakeTypedReferenceInternal(::Il2CppObject* target, ::ArrayW<::System::Reflection::FieldInfo*> fields);
     // static public System.Void SetTypedReference(System.TypedReference target, System.Object value)
     // Offset: 0x27D037C
-    static void SetTypedReference(System::TypedReference target, ::Il2CppObject* value);
+    static void SetTypedReference(::System::TypedReference target, ::Il2CppObject* value);
     // public override System.Int32 GetHashCode()
     // Offset: 0x27D0218
     // Implemented from: System.ValueType
@@ -94,7 +94,7 @@ namespace System {
     bool Equals(::Il2CppObject* o);
   }; // System.TypedReference
   #pragma pack(pop)
-  static check_size<sizeof(TypedReference), 16 + sizeof(System::IntPtr)> __System_TypedReferenceSizeCheck;
+  static check_size<sizeof(TypedReference), 16 + sizeof(::System::IntPtr)> __System_TypedReferenceSizeCheck;
   static_assert(sizeof(TypedReference) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -109,7 +109,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::TypedReference::MakeTypedReference
 // Il2CppName: MakeTypedReference
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TypedReference (*)(::Il2CppObject*, ::ArrayW<System::Reflection::FieldInfo*>)>(&System::TypedReference::MakeTypedReference)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TypedReference (*)(::Il2CppObject*, ::ArrayW<::System::Reflection::FieldInfo*>)>(&System::TypedReference::MakeTypedReference)> {
   static const MethodInfo* get() {
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* flds = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Reflection", "FieldInfo"), 1)->byval_arg;
@@ -119,7 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: System::TypedReference::MakeTypedReferenceInternal
 // Il2CppName: MakeTypedReferenceInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TypedReference (*)(::Il2CppObject*, ::ArrayW<System::Reflection::FieldInfo*>)>(&System::TypedReference::MakeTypedReferenceInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TypedReference (*)(::Il2CppObject*, ::ArrayW<::System::Reflection::FieldInfo*>)>(&System::TypedReference::MakeTypedReferenceInternal)> {
   static const MethodInfo* get() {
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* fields = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Reflection", "FieldInfo"), 1)->byval_arg;
@@ -129,7 +129,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: System::TypedReference::SetTypedReference
 // Il2CppName: SetTypedReference
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::TypedReference, ::Il2CppObject*)>(&System::TypedReference::SetTypedReference)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::TypedReference, ::Il2CppObject*)>(&System::TypedReference::SetTypedReference)> {
   static const MethodInfo* get() {
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "TypedReference")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;

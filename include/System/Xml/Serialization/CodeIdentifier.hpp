@@ -20,8 +20,8 @@ namespace System::Xml::Serialization {
   class CodeIdentifier;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Serialization::CodeIdentifier);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Serialization::CodeIdentifier*, "System.Xml.Serialization", "CodeIdentifier");
+NEED_NO_BOX(::System::Xml::Serialization::CodeIdentifier);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::CodeIdentifier*, "System.Xml.Serialization", "CodeIdentifier");
 // Type namespace: System.Xml.Serialization
 namespace System::Xml::Serialization {
   // Size: 0x10
@@ -31,9 +31,9 @@ namespace System::Xml::Serialization {
   class CodeIdentifier : public ::Il2CppObject {
     public:
     // Get static field: static Microsoft.CSharp.CodeDomProvider csharp
-    static Microsoft::CSharp::CodeDomProvider* _get_csharp();
+    static ::Microsoft::CSharp::CodeDomProvider* _get_csharp();
     // Set static field: static Microsoft.CSharp.CodeDomProvider csharp
-    static void _set_csharp(Microsoft::CSharp::CodeDomProvider* value);
+    static void _set_csharp(::Microsoft::CSharp::CodeDomProvider* value);
     // static private System.Void .cctor()
     // Offset: 0x1948264
     static void _cctor();

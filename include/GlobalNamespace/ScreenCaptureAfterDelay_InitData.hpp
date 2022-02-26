@@ -15,8 +15,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::ScreenCaptureAfterDelay::InitData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenCaptureAfterDelay::InitData*, "", "ScreenCaptureAfterDelay/InitData");
+NEED_NO_BOX(::GlobalNamespace::ScreenCaptureAfterDelay::InitData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ScreenCaptureAfterDelay::InitData*, "", "ScreenCaptureAfterDelay/InitData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -37,9 +37,9 @@ namespace GlobalNamespace {
     // public readonly ScreenCaptureCache/ScreenshotType screenshotType
     // Size: 0x4
     // Offset: 0x10
-    GlobalNamespace::ScreenCaptureCache::ScreenshotType screenshotType;
+    ::GlobalNamespace::ScreenCaptureCache::ScreenshotType screenshotType;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::ScreenCaptureCache::ScreenshotType) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::ScreenCaptureCache::ScreenshotType) == 0x4);
     // public readonly System.Single screenCaptureTime
     // Size: 0x4
     // Offset: 0x14
@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public readonly ScreenCaptureCache/ScreenshotType screenshotType
-    GlobalNamespace::ScreenCaptureCache::ScreenshotType& dyn_screenshotType();
+    ::GlobalNamespace::ScreenCaptureCache::ScreenshotType& dyn_screenshotType();
     // Get instance field reference: public readonly System.Single screenCaptureTime
     float& dyn_screenCaptureTime();
     // Get instance field reference: public readonly System.Int32 pixelsWidth
@@ -70,8 +70,8 @@ namespace GlobalNamespace {
     // public System.Void .ctor(ScreenCaptureCache/ScreenshotType screenshotType, System.Single screenCaptureTime, System.Int32 pixelsWidth, System.Int32 pixelsHeight)
     // Offset: 0x2E10634
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ScreenCaptureAfterDelay::InitData* New_ctor(GlobalNamespace::ScreenCaptureCache::ScreenshotType screenshotType, float screenCaptureTime, int pixelsWidth, int pixelsHeight) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ScreenCaptureAfterDelay::InitData::.ctor");
+    static ScreenCaptureAfterDelay::InitData* New_ctor(::GlobalNamespace::ScreenCaptureCache::ScreenshotType screenshotType, float screenCaptureTime, int pixelsWidth, int pixelsHeight) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ScreenCaptureAfterDelay::InitData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScreenCaptureAfterDelay::InitData*, creationType>(screenshotType, screenCaptureTime, pixelsWidth, pixelsHeight)));
     }
   }; // ScreenCaptureAfterDelay/InitData

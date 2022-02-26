@@ -18,8 +18,8 @@ namespace System::Runtime::Remoting {
   class IEnvoyInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Remoting::IEnvoyInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::IEnvoyInfo*, "System.Runtime.Remoting", "IEnvoyInfo");
+NEED_NO_BOX(::System::Runtime::Remoting::IEnvoyInfo);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::IEnvoyInfo*, "System.Runtime.Remoting", "IEnvoyInfo");
 // Type namespace: System.Runtime.Remoting
 namespace System::Runtime::Remoting {
   // Size: 0x10
@@ -31,7 +31,7 @@ namespace System::Runtime::Remoting {
     public:
     // public System.Runtime.Remoting.Messaging.IMessageSink get_EnvoySinks()
     // Offset: 0xFFFFFFFF
-    System::Runtime::Remoting::Messaging::IMessageSink* get_EnvoySinks();
+    ::System::Runtime::Remoting::Messaging::IMessageSink* get_EnvoySinks();
   }; // System.Runtime.Remoting.IEnvoyInfo
   #pragma pack(pop)
 }
@@ -39,7 +39,7 @@ namespace System::Runtime::Remoting {
 // Writing MetadataGetter for method: System::Runtime::Remoting::IEnvoyInfo::get_EnvoySinks
 // Il2CppName: get_EnvoySinks
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (System::Runtime::Remoting::IEnvoyInfo::*)()>(&System::Runtime::Remoting::IEnvoyInfo::get_EnvoySinks)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::IMessageSink* (System::Runtime::Remoting::IEnvoyInfo::*)()>(&System::Runtime::Remoting::IEnvoyInfo::get_EnvoySinks)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::IEnvoyInfo*), "get_EnvoySinks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

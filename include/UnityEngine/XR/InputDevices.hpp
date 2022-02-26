@@ -27,8 +27,8 @@ namespace UnityEngine::XR {
   class InputDevices;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::XR::InputDevices);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::InputDevices*, "UnityEngine.XR", "InputDevices");
+NEED_NO_BOX(::UnityEngine::XR::InputDevices);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::InputDevices*, "UnityEngine.XR", "InputDevices");
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {
   // Size: 0x10
@@ -44,22 +44,22 @@ namespace UnityEngine::XR {
     public:
     // [DebuggerBrowsableAttribute] Offset: 0x11CE9A4
     // Get static field: static private System.Action`1<UnityEngine.XR.InputDevice> deviceConnected
-    static System::Action_1<UnityEngine::XR::InputDevice>* _get_deviceConnected();
+    static ::System::Action_1<::UnityEngine::XR::InputDevice>* _get_deviceConnected();
     // Set static field: static private System.Action`1<UnityEngine.XR.InputDevice> deviceConnected
-    static void _set_deviceConnected(System::Action_1<UnityEngine::XR::InputDevice>* value);
+    static void _set_deviceConnected(::System::Action_1<::UnityEngine::XR::InputDevice>* value);
     // [DebuggerBrowsableAttribute] Offset: 0x11CE9E0
     // Get static field: static private System.Action`1<UnityEngine.XR.InputDevice> deviceDisconnected
-    static System::Action_1<UnityEngine::XR::InputDevice>* _get_deviceDisconnected();
+    static ::System::Action_1<::UnityEngine::XR::InputDevice>* _get_deviceDisconnected();
     // Set static field: static private System.Action`1<UnityEngine.XR.InputDevice> deviceDisconnected
-    static void _set_deviceDisconnected(System::Action_1<UnityEngine::XR::InputDevice>* value);
+    static void _set_deviceDisconnected(::System::Action_1<::UnityEngine::XR::InputDevice>* value);
     // [DebuggerBrowsableAttribute] Offset: 0x11CEA1C
     // Get static field: static private System.Action`1<UnityEngine.XR.InputDevice> deviceConfigChanged
-    static System::Action_1<UnityEngine::XR::InputDevice>* _get_deviceConfigChanged();
+    static ::System::Action_1<::UnityEngine::XR::InputDevice>* _get_deviceConfigChanged();
     // Set static field: static private System.Action`1<UnityEngine.XR.InputDevice> deviceConfigChanged
-    static void _set_deviceConfigChanged(System::Action_1<UnityEngine::XR::InputDevice>* value);
+    static void _set_deviceConfigChanged(::System::Action_1<::UnityEngine::XR::InputDevice>* value);
     // static private System.Void InvokeConnectionEvent(System.UInt64 deviceId, UnityEngine.XR.ConnectionChangeType change)
     // Offset: 0x2A48B84
-    static void InvokeConnectionEvent(uint64_t deviceId, UnityEngine::XR::ConnectionChangeType change);
+    static void InvokeConnectionEvent(uint64_t deviceId, ::UnityEngine::XR::ConnectionChangeType change);
   }; // UnityEngine.XR.InputDevices
   #pragma pack(pop)
 }
@@ -67,7 +67,7 @@ namespace UnityEngine::XR {
 // Writing MetadataGetter for method: UnityEngine::XR::InputDevices::InvokeConnectionEvent
 // Il2CppName: InvokeConnectionEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t, UnityEngine::XR::ConnectionChangeType)>(&UnityEngine::XR::InputDevices::InvokeConnectionEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t, ::UnityEngine::XR::ConnectionChangeType)>(&UnityEngine::XR::InputDevices::InvokeConnectionEvent)> {
   static const MethodInfo* get() {
     static auto* deviceId = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* change = &::il2cpp_utils::GetClassFromName("UnityEngine.XR", "ConnectionChangeType")->byval_arg;

@@ -25,8 +25,8 @@ namespace UnityEngine::Networking {
   class UnityWebRequestAsyncOperation;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Networking::UnityWebRequestAsyncOperation);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UnityWebRequestAsyncOperation*, "UnityEngine.Networking", "UnityWebRequestAsyncOperation");
+NEED_NO_BOX(::UnityEngine::Networking::UnityWebRequestAsyncOperation);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Networking::UnityWebRequestAsyncOperation*, "UnityEngine.Networking", "UnityWebRequestAsyncOperation");
 // Type namespace: UnityEngine.Networking
 namespace UnityEngine::Networking {
   // Size: 0x28
@@ -37,7 +37,7 @@ namespace UnityEngine::Networking {
   // [UsedByNativeCodeAttribute] Offset: 11F47C4
   // [NativeHeaderAttribute] Offset: 11F47C4
   // [NativeHeaderAttribute] Offset: 11F47C4
-  class UnityWebRequestAsyncOperation : public UnityEngine::AsyncOperation {
+  class UnityWebRequestAsyncOperation : public ::UnityEngine::AsyncOperation {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -52,22 +52,22 @@ namespace UnityEngine::Networking {
     // private UnityEngine.Networking.UnityWebRequest <webRequest>k__BackingField
     // Size: 0x8
     // Offset: 0x20
-    UnityEngine::Networking::UnityWebRequest* webRequest;
+    ::UnityEngine::Networking::UnityWebRequest* webRequest;
     // Field size check
-    static_assert(sizeof(UnityEngine::Networking::UnityWebRequest*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Networking::UnityWebRequest*) == 0x8);
     public:
-    // Creating conversion operator: operator UnityEngine::Networking::UnityWebRequest*
-    constexpr operator UnityEngine::Networking::UnityWebRequest*() const noexcept {
+    // Creating conversion operator: operator ::UnityEngine::Networking::UnityWebRequest*
+    constexpr operator ::UnityEngine::Networking::UnityWebRequest*() const noexcept {
       return webRequest;
     }
     // Get instance field reference: private UnityEngine.Networking.UnityWebRequest <webRequest>k__BackingField
-    UnityEngine::Networking::UnityWebRequest*& dyn_$webRequest$k__BackingField();
+    ::UnityEngine::Networking::UnityWebRequest*& dyn_$webRequest$k__BackingField();
     // public UnityEngine.Networking.UnityWebRequest get_webRequest()
     // Offset: 0x2A3281C
-    UnityEngine::Networking::UnityWebRequest* get_webRequest();
+    ::UnityEngine::Networking::UnityWebRequest* get_webRequest();
     // System.Void set_webRequest(UnityEngine.Networking.UnityWebRequest value)
     // Offset: 0x2A32824
-    void set_webRequest(UnityEngine::Networking::UnityWebRequest* value);
+    void set_webRequest(::UnityEngine::Networking::UnityWebRequest* value);
     // public System.Void .ctor()
     // Offset: 0x2A3282C
     // Implemented from: UnityEngine.AsyncOperation
@@ -76,19 +76,19 @@ namespace UnityEngine::Networking {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnityWebRequestAsyncOperation* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Networking::UnityWebRequestAsyncOperation::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Networking::UnityWebRequestAsyncOperation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityWebRequestAsyncOperation*, creationType>()));
     }
   }; // UnityEngine.Networking.UnityWebRequestAsyncOperation
   #pragma pack(pop)
-  static check_size<sizeof(UnityWebRequestAsyncOperation), 32 + sizeof(UnityEngine::Networking::UnityWebRequest*)> __UnityEngine_Networking_UnityWebRequestAsyncOperationSizeCheck;
+  static check_size<sizeof(UnityWebRequestAsyncOperation), 32 + sizeof(::UnityEngine::Networking::UnityWebRequest*)> __UnityEngine_Networking_UnityWebRequestAsyncOperationSizeCheck;
   static_assert(sizeof(UnityWebRequestAsyncOperation) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequestAsyncOperation::get_webRequest
 // Il2CppName: get_webRequest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest* (UnityEngine::Networking::UnityWebRequestAsyncOperation::*)()>(&UnityEngine::Networking::UnityWebRequestAsyncOperation::get_webRequest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Networking::UnityWebRequest* (UnityEngine::Networking::UnityWebRequestAsyncOperation::*)()>(&UnityEngine::Networking::UnityWebRequestAsyncOperation::get_webRequest)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequestAsyncOperation*), "get_webRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -96,7 +96,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequestAsyncOperation::set_webRequest
 // Il2CppName: set_webRequest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::UnityWebRequestAsyncOperation::*)(UnityEngine::Networking::UnityWebRequest*)>(&UnityEngine::Networking::UnityWebRequestAsyncOperation::set_webRequest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::UnityWebRequestAsyncOperation::*)(::UnityEngine::Networking::UnityWebRequest*)>(&UnityEngine::Networking::UnityWebRequestAsyncOperation::set_webRequest)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.Networking", "UnityWebRequest")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequestAsyncOperation*), "set_webRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

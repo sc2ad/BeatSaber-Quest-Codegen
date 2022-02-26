@@ -18,8 +18,8 @@ namespace Oculus::Platform::Models {
   class NetSyncVoipAttenuationValue;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::NetSyncVoipAttenuationValue);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::NetSyncVoipAttenuationValue*, "Oculus.Platform.Models", "NetSyncVoipAttenuationValue");
+NEED_NO_BOX(::Oculus::Platform::Models::NetSyncVoipAttenuationValue);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::NetSyncVoipAttenuationValue*, "Oculus.Platform.Models", "NetSyncVoipAttenuationValue");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x18
@@ -57,8 +57,8 @@ namespace Oculus::Platform::Models {
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x196DDE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static NetSyncVoipAttenuationValue* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::NetSyncVoipAttenuationValue::.ctor");
+    static NetSyncVoipAttenuationValue* New_ctor(::System::IntPtr o) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::NetSyncVoipAttenuationValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetSyncVoipAttenuationValue*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.NetSyncVoipAttenuationValue

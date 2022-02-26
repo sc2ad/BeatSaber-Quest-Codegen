@@ -25,8 +25,8 @@ namespace System::IO {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::XmlDownloadManager::$$c__DisplayClass4_0);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlDownloadManager::$$c__DisplayClass4_0*, "System.Xml", "XmlDownloadManager/<>c__DisplayClass4_0");
+NEED_NO_BOX(::System::Xml::XmlDownloadManager::$$c__DisplayClass4_0);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlDownloadManager::$$c__DisplayClass4_0*, "System.Xml", "XmlDownloadManager/<>c__DisplayClass4_0");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x18
@@ -48,38 +48,38 @@ namespace System::Xml {
     // public System.Uri uri
     // Size: 0x8
     // Offset: 0x10
-    System::Uri* uri;
+    ::System::Uri* uri;
     // Field size check
-    static_assert(sizeof(System::Uri*) == 0x8);
+    static_assert(sizeof(::System::Uri*) == 0x8);
     public:
-    // Creating conversion operator: operator System::Uri*
-    constexpr operator System::Uri*() const noexcept {
+    // Creating conversion operator: operator ::System::Uri*
+    constexpr operator ::System::Uri*() const noexcept {
       return uri;
     }
     // Get instance field reference: public System.Uri uri
-    System::Uri*& dyn_uri();
+    ::System::Uri*& dyn_uri();
     // System.IO.Stream <GetStreamAsync>b__0()
     // Offset: 0x1A1466C
-    System::IO::Stream* $GetStreamAsync$b__0();
+    ::System::IO::Stream* $GetStreamAsync$b__0();
     // public System.Void .ctor()
     // Offset: 0x1A14524
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlDownloadManager::$$c__DisplayClass4_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlDownloadManager::$$c__DisplayClass4_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlDownloadManager::$$c__DisplayClass4_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlDownloadManager::$$c__DisplayClass4_0*, creationType>()));
     }
   }; // System.Xml.XmlDownloadManager/System.Xml.<>c__DisplayClass4_0
   #pragma pack(pop)
-  static check_size<sizeof(XmlDownloadManager::$$c__DisplayClass4_0), 16 + sizeof(System::Uri*)> __System_Xml_XmlDownloadManager_$$c__DisplayClass4_0SizeCheck;
+  static check_size<sizeof(XmlDownloadManager::$$c__DisplayClass4_0), 16 + sizeof(::System::Uri*)> __System_Xml_XmlDownloadManager_$$c__DisplayClass4_0SizeCheck;
   static_assert(sizeof(XmlDownloadManager::$$c__DisplayClass4_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::XmlDownloadManager::$$c__DisplayClass4_0::$GetStreamAsync$b__0
 // Il2CppName: <GetStreamAsync>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::Stream* (System::Xml::XmlDownloadManager::$$c__DisplayClass4_0::*)()>(&System::Xml::XmlDownloadManager::$$c__DisplayClass4_0::$GetStreamAsync$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (System::Xml::XmlDownloadManager::$$c__DisplayClass4_0::*)()>(&System::Xml::XmlDownloadManager::$$c__DisplayClass4_0::$GetStreamAsync$b__0)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlDownloadManager::$$c__DisplayClass4_0*), "<GetStreamAsync>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

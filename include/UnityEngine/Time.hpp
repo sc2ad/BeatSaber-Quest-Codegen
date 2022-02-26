@@ -12,8 +12,8 @@ namespace UnityEngine {
   class Time;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Time);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Time*, "UnityEngine", "Time");
+NEED_NO_BOX(::UnityEngine::Time);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Time*, "UnityEngine", "Time");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10

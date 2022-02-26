@@ -33,8 +33,8 @@ namespace Unity::Collections::LowLevel::Unsafe {
   class UnsafeUtility;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Unity::Collections::LowLevel::Unsafe::UnsafeUtility);
-DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::LowLevel::Unsafe::UnsafeUtility*, "Unity.Collections.LowLevel.Unsafe", "UnsafeUtility");
+NEED_NO_BOX(::Unity::Collections::LowLevel::Unsafe::UnsafeUtility);
+DEFINE_IL2CPP_ARG_TYPE(::Unity::Collections::LowLevel::Unsafe::UnsafeUtility*, "Unity.Collections.LowLevel.Unsafe", "UnsafeUtility");
 // Type namespace: Unity.Collections.LowLevel.Unsafe
 namespace Unity::Collections::LowLevel::Unsafe {
   // Size: 0x10
@@ -49,46 +49,46 @@ namespace Unity::Collections::LowLevel::Unsafe {
     // Offset: 0xFFFFFFFF
     template<class T>
     static bool IsBlittable() {
-      static_assert(is_value_type_v<T>);
-      static auto ___internal__logger = ::Logger::get().WithContext("Unity::Collections::LowLevel::Unsafe::UnsafeUtility::IsBlittable");
+      static_assert(std::is_convertible_v<T, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::Unity::Collections::LowLevel::Unsafe::UnsafeUtility::IsBlittable");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Unity.Collections.LowLevel.Unsafe", "UnsafeUtility", "IsBlittable", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
     }
     // static public System.Void Free(System.Void* memory, Unity.Collections.Allocator allocator)
     // Offset: 0x1EA92F4
-    static void Free(void* memory, Unity::Collections::Allocator allocator);
+    static void Free(void* memory, ::Unity::Collections::Allocator allocator);
     // static public System.Boolean IsBlittable(System.Type type)
     // Offset: 0x1EA9344
-    static bool IsBlittable(System::Type* type);
+    static bool IsBlittable(::System::Type* type);
     // static private System.Boolean IsBlittableValueType(System.Type t)
     // Offset: 0x1EA9384
-    static bool IsBlittableValueType(System::Type* t);
+    static bool IsBlittableValueType(::System::Type* t);
     // static private System.String GetReasonForTypeNonBlittableImpl(System.Type t, System.String name)
     // Offset: 0x1EA93E8
-    static ::StringW GetReasonForTypeNonBlittableImpl(System::Type* t, ::StringW name);
+    static ::StringW GetReasonForTypeNonBlittableImpl(::System::Type* t, ::StringW name);
     // static System.Boolean IsArrayBlittable(System.Array arr)
     // Offset: 0x1EA959C
-    static bool IsArrayBlittable(System::Array* arr);
+    static bool IsArrayBlittable(::System::Array* arr);
     // static System.Boolean IsGenericListBlittable()
     // Offset: 0xFFFFFFFF
     template<class T>
     static bool IsGenericListBlittable() {
-      static_assert(is_value_type_v<T>);
-      static auto ___internal__logger = ::Logger::get().WithContext("Unity::Collections::LowLevel::Unsafe::UnsafeUtility::IsGenericListBlittable");
+      static_assert(std::is_convertible_v<T, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::Unity::Collections::LowLevel::Unsafe::UnsafeUtility::IsGenericListBlittable");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Unity.Collections.LowLevel.Unsafe", "UnsafeUtility", "IsGenericListBlittable", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
     }
     // static System.String GetReasonForArrayNonBlittable(System.Array arr)
     // Offset: 0x1EA95D0
-    static ::StringW GetReasonForArrayNonBlittable(System::Array* arr);
+    static ::StringW GetReasonForArrayNonBlittable(::System::Array* arr);
     // static System.String GetReasonForGenericListNonBlittable()
     // Offset: 0xFFFFFFFF
     template<class T>
     static ::StringW GetReasonForGenericListNonBlittable() {
-      static_assert(is_value_type_v<T>);
-      static auto ___internal__logger = ::Logger::get().WithContext("Unity::Collections::LowLevel::Unsafe::UnsafeUtility::GetReasonForGenericListNonBlittable");
+      static_assert(std::is_convertible_v<T, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::Unity::Collections::LowLevel::Unsafe::UnsafeUtility::GetReasonForGenericListNonBlittable");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Unity.Collections.LowLevel.Unsafe", "UnsafeUtility", "GetReasonForGenericListNonBlittable", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
@@ -97,7 +97,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
     // Offset: 0xFFFFFFFF
     template<class T>
     static T ReadArrayElement(void* source, int index) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Unity::Collections::LowLevel::Unsafe::UnsafeUtility::ReadArrayElement");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Unity::Collections::LowLevel::Unsafe::UnsafeUtility::ReadArrayElement");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Unity.Collections.LowLevel.Unsafe", "UnsafeUtility", "ReadArrayElement", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(source), ::il2cpp_utils::ExtractType(index)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, index);
@@ -106,7 +106,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
     // Offset: 0xFFFFFFFF
     template<class T>
     static void WriteArrayElement(void* destination, int index, T value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Unity::Collections::LowLevel::Unsafe::UnsafeUtility::WriteArrayElement");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Unity::Collections::LowLevel::Unsafe::UnsafeUtility::WriteArrayElement");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Unity.Collections.LowLevel.Unsafe", "UnsafeUtility", "WriteArrayElement", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(destination), ::il2cpp_utils::ExtractType(index), ::il2cpp_utils::ExtractType(value)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, destination, index, value);
@@ -115,8 +115,8 @@ namespace Unity::Collections::LowLevel::Unsafe {
     // Offset: 0xFFFFFFFF
     template<class T>
     static int SizeOf() {
-      static_assert(is_value_type_v<T>);
-      static auto ___internal__logger = ::Logger::get().WithContext("Unity::Collections::LowLevel::Unsafe::UnsafeUtility::SizeOf");
+      static_assert(std::is_convertible_v<T, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::Unity::Collections::LowLevel::Unsafe::UnsafeUtility::SizeOf");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Unity.Collections.LowLevel.Unsafe", "UnsafeUtility", "SizeOf", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<int, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
@@ -131,7 +131,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
 // Writing MetadataGetter for method: Unity::Collections::LowLevel::Unsafe::UnsafeUtility::Free
 // Il2CppName: Free
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*, Unity::Collections::Allocator)>(&Unity::Collections::LowLevel::Unsafe::UnsafeUtility::Free)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*, ::Unity::Collections::Allocator)>(&Unity::Collections::LowLevel::Unsafe::UnsafeUtility::Free)> {
   static const MethodInfo* get() {
     static auto* memory = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Void"))->byval_arg;
     static auto* allocator = &::il2cpp_utils::GetClassFromName("Unity.Collections", "Allocator")->byval_arg;
@@ -141,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(vo
 // Writing MetadataGetter for method: Unity::Collections::LowLevel::Unsafe::UnsafeUtility::IsBlittable
 // Il2CppName: IsBlittable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&Unity::Collections::LowLevel::Unsafe::UnsafeUtility::IsBlittable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&Unity::Collections::LowLevel::Unsafe::UnsafeUtility::IsBlittable)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Unity::Collections::LowLevel::Unsafe::UnsafeUtility*), "IsBlittable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -150,7 +150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: Unity::Collections::LowLevel::Unsafe::UnsafeUtility::IsBlittableValueType
 // Il2CppName: IsBlittableValueType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&Unity::Collections::LowLevel::Unsafe::UnsafeUtility::IsBlittableValueType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&Unity::Collections::LowLevel::Unsafe::UnsafeUtility::IsBlittableValueType)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Unity::Collections::LowLevel::Unsafe::UnsafeUtility*), "IsBlittableValueType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
@@ -159,7 +159,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: Unity::Collections::LowLevel::Unsafe::UnsafeUtility::GetReasonForTypeNonBlittableImpl
 // Il2CppName: GetReasonForTypeNonBlittableImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Type*, ::StringW)>(&Unity::Collections::LowLevel::Unsafe::UnsafeUtility::GetReasonForTypeNonBlittableImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Type*, ::StringW)>(&Unity::Collections::LowLevel::Unsafe::UnsafeUtility::GetReasonForTypeNonBlittableImpl)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -169,7 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: Unity::Collections::LowLevel::Unsafe::UnsafeUtility::IsArrayBlittable
 // Il2CppName: IsArrayBlittable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Array*)>(&Unity::Collections::LowLevel::Unsafe::UnsafeUtility::IsArrayBlittable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Array*)>(&Unity::Collections::LowLevel::Unsafe::UnsafeUtility::IsArrayBlittable)> {
   static const MethodInfo* get() {
     static auto* arr = &::il2cpp_utils::GetClassFromName("System", "Array")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Unity::Collections::LowLevel::Unsafe::UnsafeUtility*), "IsArrayBlittable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{arr});
@@ -181,7 +181,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: Unity::Collections::LowLevel::Unsafe::UnsafeUtility::GetReasonForArrayNonBlittable
 // Il2CppName: GetReasonForArrayNonBlittable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Array*)>(&Unity::Collections::LowLevel::Unsafe::UnsafeUtility::GetReasonForArrayNonBlittable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Array*)>(&Unity::Collections::LowLevel::Unsafe::UnsafeUtility::GetReasonForArrayNonBlittable)> {
   static const MethodInfo* get() {
     static auto* arr = &::il2cpp_utils::GetClassFromName("System", "Array")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Unity::Collections::LowLevel::Unsafe::UnsafeUtility*), "GetReasonForArrayNonBlittable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{arr});

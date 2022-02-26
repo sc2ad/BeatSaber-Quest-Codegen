@@ -24,8 +24,8 @@ namespace System::Threading::Tasks {
   class TaskExtensions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Threading::Tasks::TaskExtensions);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskExtensions*, "System.Threading.Tasks", "TaskExtensions");
+NEED_NO_BOX(::System::Threading::Tasks::TaskExtensions);
+DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Tasks::TaskExtensions*, "System.Threading.Tasks", "TaskExtensions");
 // Type namespace: System.Threading.Tasks
 namespace System::Threading::Tasks {
   // Size: 0x10
@@ -38,11 +38,11 @@ namespace System::Threading::Tasks {
     // static public System.Threading.Tasks.Task`1<TResult> Unwrap(System.Threading.Tasks.Task`1<System.Threading.Tasks.Task`1<TResult>> task)
     // Offset: 0xFFFFFFFF
     template<class TResult>
-    static System::Threading::Tasks::Task_1<TResult>* Unwrap(System::Threading::Tasks::Task_1<System::Threading::Tasks::Task_1<TResult>*>* task) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::TaskExtensions::Unwrap");
+    static ::System::Threading::Tasks::Task_1<TResult>* Unwrap(::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task_1<TResult>*>* task) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::Tasks::TaskExtensions::Unwrap");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Threading.Tasks", "TaskExtensions", "Unwrap", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(task)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get()}));
-      return ::il2cpp_utils::RunMethodRethrow<System::Threading::Tasks::Task_1<TResult>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, task);
+      return ::il2cpp_utils::RunMethodRethrow<::System::Threading::Tasks::Task_1<TResult>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, task);
     }
   }; // System.Threading.Tasks.TaskExtensions
   #pragma pack(pop)

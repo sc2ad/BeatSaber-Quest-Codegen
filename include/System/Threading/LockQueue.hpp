@@ -23,8 +23,8 @@ namespace System::Threading {
   class LockQueue;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Threading::LockQueue);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::LockQueue*, "System.Threading", "LockQueue");
+NEED_NO_BOX(::System::Threading::LockQueue);
+DEFINE_IL2CPP_ARG_TYPE(::System::Threading::LockQueue*, "System.Threading", "LockQueue");
 // Type namespace: System.Threading
 namespace System::Threading {
   // Size: 0x1C
@@ -45,9 +45,9 @@ namespace System::Threading {
     // private System.Threading.ReaderWriterLock rwlock
     // Size: 0x8
     // Offset: 0x10
-    System::Threading::ReaderWriterLock* rwlock;
+    ::System::Threading::ReaderWriterLock* rwlock;
     // Field size check
-    static_assert(sizeof(System::Threading::ReaderWriterLock*) == 0x8);
+    static_assert(sizeof(::System::Threading::ReaderWriterLock*) == 0x8);
     // private System.Int32 lockCount
     // Size: 0x4
     // Offset: 0x18
@@ -56,7 +56,7 @@ namespace System::Threading {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private System.Threading.ReaderWriterLock rwlock
-    System::Threading::ReaderWriterLock*& dyn_rwlock();
+    ::System::Threading::ReaderWriterLock*& dyn_rwlock();
     // Get instance field reference: private System.Int32 lockCount
     int& dyn_lockCount();
     // public System.Boolean get_IsEmpty()
@@ -65,8 +65,8 @@ namespace System::Threading {
     // public System.Void .ctor(System.Threading.ReaderWriterLock rwlock)
     // Offset: 0x1C2DDAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static LockQueue* New_ctor(System::Threading::ReaderWriterLock* rwlock) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::LockQueue::.ctor");
+    static LockQueue* New_ctor(::System::Threading::ReaderWriterLock* rwlock) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::LockQueue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LockQueue*, creationType>(rwlock)));
     }
     // public System.Boolean Wait(System.Int32 timeout)

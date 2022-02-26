@@ -11,8 +11,8 @@ namespace System::Runtime::Remoting::Messaging {
   class IMessageCtrl;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Remoting::Messaging::IMessageCtrl);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::IMessageCtrl*, "System.Runtime.Remoting.Messaging", "IMessageCtrl");
+NEED_NO_BOX(::System::Runtime::Remoting::Messaging::IMessageCtrl);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Messaging::IMessageCtrl*, "System.Runtime.Remoting.Messaging", "IMessageCtrl");
 // Type namespace: System.Runtime.Remoting.Messaging
 namespace System::Runtime::Remoting::Messaging {
   // Size: 0x10

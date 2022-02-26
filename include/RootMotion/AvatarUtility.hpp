@@ -34,8 +34,8 @@ namespace RootMotion {
   class AvatarUtility;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::AvatarUtility);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::AvatarUtility*, "RootMotion", "AvatarUtility");
+NEED_NO_BOX(::RootMotion::AvatarUtility);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::AvatarUtility*, "RootMotion", "AvatarUtility");
 // Type namespace: RootMotion
 namespace RootMotion {
   // Size: 0x10
@@ -46,20 +46,20 @@ namespace RootMotion {
     public:
     // static public UnityEngine.Quaternion GetPostRotation(UnityEngine.Avatar avatar, UnityEngine.AvatarIKGoal avatarIKGoal)
     // Offset: 0x221CBA8
-    static UnityEngine::Quaternion GetPostRotation(UnityEngine::Avatar* avatar, UnityEngine::AvatarIKGoal avatarIKGoal);
+    static ::UnityEngine::Quaternion GetPostRotation(::UnityEngine::Avatar* avatar, ::UnityEngine::AvatarIKGoal avatarIKGoal);
     // static public RootMotion.TQ GetIKGoalTQ(UnityEngine.Avatar avatar, System.Single humanScale, UnityEngine.AvatarIKGoal avatarIKGoal, RootMotion.TQ bodyPositionRotation, RootMotion.TQ boneTQ)
     // Offset: 0x221CDBC
-    static RootMotion::TQ* GetIKGoalTQ(UnityEngine::Avatar* avatar, float humanScale, UnityEngine::AvatarIKGoal avatarIKGoal, RootMotion::TQ* bodyPositionRotation, RootMotion::TQ* boneTQ);
+    static ::RootMotion::TQ* GetIKGoalTQ(::UnityEngine::Avatar* avatar, float humanScale, ::UnityEngine::AvatarIKGoal avatarIKGoal, ::RootMotion::TQ* bodyPositionRotation, ::RootMotion::TQ* boneTQ);
     // static public UnityEngine.HumanBodyBones HumanIDFromAvatarIKGoal(UnityEngine.AvatarIKGoal avatarIKGoal)
     // Offset: 0x221CD9C
-    static UnityEngine::HumanBodyBones HumanIDFromAvatarIKGoal(UnityEngine::AvatarIKGoal avatarIKGoal);
+    static ::UnityEngine::HumanBodyBones HumanIDFromAvatarIKGoal(::UnityEngine::AvatarIKGoal avatarIKGoal);
     // public System.Void .ctor()
     // Offset: 0x221D43C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AvatarUtility* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::AvatarUtility::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::AvatarUtility::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AvatarUtility*, creationType>()));
     }
   }; // RootMotion.AvatarUtility
@@ -69,7 +69,7 @@ namespace RootMotion {
 // Writing MetadataGetter for method: RootMotion::AvatarUtility::GetPostRotation
 // Il2CppName: GetPostRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(UnityEngine::Avatar*, UnityEngine::AvatarIKGoal)>(&RootMotion::AvatarUtility::GetPostRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Avatar*, ::UnityEngine::AvatarIKGoal)>(&RootMotion::AvatarUtility::GetPostRotation)> {
   static const MethodInfo* get() {
     static auto* avatar = &::il2cpp_utils::GetClassFromName("UnityEngine", "Avatar")->byval_arg;
     static auto* avatarIKGoal = &::il2cpp_utils::GetClassFromName("UnityEngine", "AvatarIKGoal")->byval_arg;
@@ -79,7 +79,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: RootMotion::AvatarUtility::GetIKGoalTQ
 // Il2CppName: GetIKGoalTQ
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::TQ* (*)(UnityEngine::Avatar*, float, UnityEngine::AvatarIKGoal, RootMotion::TQ*, RootMotion::TQ*)>(&RootMotion::AvatarUtility::GetIKGoalTQ)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::TQ* (*)(::UnityEngine::Avatar*, float, ::UnityEngine::AvatarIKGoal, ::RootMotion::TQ*, ::RootMotion::TQ*)>(&RootMotion::AvatarUtility::GetIKGoalTQ)> {
   static const MethodInfo* get() {
     static auto* avatar = &::il2cpp_utils::GetClassFromName("UnityEngine", "Avatar")->byval_arg;
     static auto* humanScale = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -92,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion:
 // Writing MetadataGetter for method: RootMotion::AvatarUtility::HumanIDFromAvatarIKGoal
 // Il2CppName: HumanIDFromAvatarIKGoal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::HumanBodyBones (*)(UnityEngine::AvatarIKGoal)>(&RootMotion::AvatarUtility::HumanIDFromAvatarIKGoal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::HumanBodyBones (*)(::UnityEngine::AvatarIKGoal)>(&RootMotion::AvatarUtility::HumanIDFromAvatarIKGoal)> {
   static const MethodInfo* get() {
     static auto* avatarIKGoal = &::il2cpp_utils::GetClassFromName("UnityEngine", "AvatarIKGoal")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::AvatarUtility*), "HumanIDFromAvatarIKGoal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{avatarIKGoal});

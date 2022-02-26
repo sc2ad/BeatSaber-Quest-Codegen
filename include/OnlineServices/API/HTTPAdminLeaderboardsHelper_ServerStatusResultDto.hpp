@@ -13,8 +13,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(OnlineServices::API::HTTPAdminLeaderboardsHelper::ServerStatusResultDto);
-DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPAdminLeaderboardsHelper::ServerStatusResultDto*, "OnlineServices.API", "HTTPAdminLeaderboardsHelper/ServerStatusResultDto");
+NEED_NO_BOX(::OnlineServices::API::HTTPAdminLeaderboardsHelper::ServerStatusResultDto);
+DEFINE_IL2CPP_ARG_TYPE(::OnlineServices::API::HTTPAdminLeaderboardsHelper::ServerStatusResultDto*, "OnlineServices.API", "HTTPAdminLeaderboardsHelper/ServerStatusResultDto");
 // Type namespace: OnlineServices.API
 namespace OnlineServices::API {
   // Size: 0x11
@@ -51,7 +51,7 @@ namespace OnlineServices::API {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HTTPAdminLeaderboardsHelper::ServerStatusResultDto* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("OnlineServices::API::HTTPAdminLeaderboardsHelper::ServerStatusResultDto::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::OnlineServices::API::HTTPAdminLeaderboardsHelper::ServerStatusResultDto::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HTTPAdminLeaderboardsHelper::ServerStatusResultDto*, creationType>()));
     }
   }; // OnlineServices.API.HTTPAdminLeaderboardsHelper/OnlineServices.API.ServerStatusResultDto

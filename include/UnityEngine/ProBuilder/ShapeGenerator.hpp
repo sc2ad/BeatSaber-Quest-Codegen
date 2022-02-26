@@ -33,8 +33,8 @@ namespace UnityEngine::ProBuilder {
   class ShapeGenerator;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::ShapeGenerator);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ShapeGenerator*, "UnityEngine.ProBuilder", "ShapeGenerator");
+NEED_NO_BOX(::UnityEngine::ProBuilder::ShapeGenerator);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::ShapeGenerator*, "UnityEngine.ProBuilder", "ShapeGenerator");
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
   // Size: 0x10
@@ -44,17 +44,17 @@ namespace UnityEngine::ProBuilder {
   class ShapeGenerator : public ::Il2CppObject {
     public:
     // Get static field: static private readonly UnityEngine.Vector3[] k_IcosphereVertices
-    static ::ArrayW<UnityEngine::Vector3> _get_k_IcosphereVertices();
+    static ::ArrayW<::UnityEngine::Vector3> _get_k_IcosphereVertices();
     // Set static field: static private readonly UnityEngine.Vector3[] k_IcosphereVertices
-    static void _set_k_IcosphereVertices(::ArrayW<UnityEngine::Vector3> value);
+    static void _set_k_IcosphereVertices(::ArrayW<::UnityEngine::Vector3> value);
     // Get static field: static private readonly System.Int32[] k_IcosphereTriangles
     static ::ArrayW<int> _get_k_IcosphereTriangles();
     // Set static field: static private readonly System.Int32[] k_IcosphereTriangles
     static void _set_k_IcosphereTriangles(::ArrayW<int> value);
     // Get static field: static private readonly UnityEngine.Vector3[] k_CubeVertices
-    static ::ArrayW<UnityEngine::Vector3> _get_k_CubeVertices();
+    static ::ArrayW<::UnityEngine::Vector3> _get_k_CubeVertices();
     // Set static field: static private readonly UnityEngine.Vector3[] k_CubeVertices
-    static void _set_k_CubeVertices(::ArrayW<UnityEngine::Vector3> value);
+    static void _set_k_CubeVertices(::ArrayW<::UnityEngine::Vector3> value);
     // Get static field: static private readonly System.Int32[] k_CubeTriangles
     static ::ArrayW<int> _get_k_CubeTriangles();
     // Set static field: static private readonly System.Int32[] k_CubeTriangles
@@ -64,52 +64,52 @@ namespace UnityEngine::ProBuilder {
     static void _cctor();
     // static public UnityEngine.ProBuilder.ProBuilderMesh CreateShape(UnityEngine.ProBuilder.ShapeType shape, UnityEngine.ProBuilder.PivotLocation pivotType)
     // Offset: 0x191D6DC
-    static UnityEngine::ProBuilder::ProBuilderMesh* CreateShape(UnityEngine::ProBuilder::ShapeType shape, UnityEngine::ProBuilder::PivotLocation pivotType);
+    static ::UnityEngine::ProBuilder::ProBuilderMesh* CreateShape(::UnityEngine::ProBuilder::ShapeType shape, ::UnityEngine::ProBuilder::PivotLocation pivotType);
     // static public UnityEngine.ProBuilder.ProBuilderMesh GenerateStair(UnityEngine.ProBuilder.PivotLocation pivotType, UnityEngine.Vector3 size, System.Int32 steps, System.Boolean buildSides)
     // Offset: 0x191DF90
-    static UnityEngine::ProBuilder::ProBuilderMesh* GenerateStair(UnityEngine::ProBuilder::PivotLocation pivotType, UnityEngine::Vector3 size, int steps, bool buildSides);
+    static ::UnityEngine::ProBuilder::ProBuilderMesh* GenerateStair(::UnityEngine::ProBuilder::PivotLocation pivotType, ::UnityEngine::Vector3 size, int steps, bool buildSides);
     // static public UnityEngine.ProBuilder.ProBuilderMesh GenerateCurvedStair(UnityEngine.ProBuilder.PivotLocation pivotType, System.Single stairWidth, System.Single height, System.Single innerRadius, System.Single circumference, System.Int32 steps, System.Boolean buildSides)
     // Offset: 0x191EC94
-    static UnityEngine::ProBuilder::ProBuilderMesh* GenerateCurvedStair(UnityEngine::ProBuilder::PivotLocation pivotType, float stairWidth, float height, float innerRadius, float circumference, int steps, bool buildSides);
+    static ::UnityEngine::ProBuilder::ProBuilderMesh* GenerateCurvedStair(::UnityEngine::ProBuilder::PivotLocation pivotType, float stairWidth, float height, float innerRadius, float circumference, int steps, bool buildSides);
     // static UnityEngine.ProBuilder.ProBuilderMesh GenerateStair(UnityEngine.ProBuilder.PivotLocation pivotType, System.Int32 steps, System.Single width, System.Single height, System.Single depth, System.Boolean sidesGoToFloor, System.Boolean generateBack, System.Boolean platformsOnly)
     // Offset: 0x1924BD4
-    static UnityEngine::ProBuilder::ProBuilderMesh* GenerateStair(UnityEngine::ProBuilder::PivotLocation pivotType, int steps, float width, float height, float depth, bool sidesGoToFloor, bool generateBack, bool platformsOnly);
+    static ::UnityEngine::ProBuilder::ProBuilderMesh* GenerateStair(::UnityEngine::ProBuilder::PivotLocation pivotType, int steps, float width, float height, float depth, bool sidesGoToFloor, bool generateBack, bool platformsOnly);
     // static public UnityEngine.ProBuilder.ProBuilderMesh GenerateCube(UnityEngine.ProBuilder.PivotLocation pivotType, UnityEngine.Vector3 size)
     // Offset: 0x191DD54
-    static UnityEngine::ProBuilder::ProBuilderMesh* GenerateCube(UnityEngine::ProBuilder::PivotLocation pivotType, UnityEngine::Vector3 size);
+    static ::UnityEngine::ProBuilder::ProBuilderMesh* GenerateCube(::UnityEngine::ProBuilder::PivotLocation pivotType, ::UnityEngine::Vector3 size);
     // static public UnityEngine.ProBuilder.ProBuilderMesh GenerateCylinder(UnityEngine.ProBuilder.PivotLocation pivotType, System.Int32 axisDivisions, System.Single radius, System.Single height, System.Int32 heightCuts, System.Int32 smoothing)
     // Offset: 0x19205CC
-    static UnityEngine::ProBuilder::ProBuilderMesh* GenerateCylinder(UnityEngine::ProBuilder::PivotLocation pivotType, int axisDivisions, float radius, float height, int heightCuts, int smoothing);
+    static ::UnityEngine::ProBuilder::ProBuilderMesh* GenerateCylinder(::UnityEngine::ProBuilder::PivotLocation pivotType, int axisDivisions, float radius, float height, int heightCuts, int smoothing);
     // static public UnityEngine.ProBuilder.ProBuilderMesh GeneratePrism(UnityEngine.ProBuilder.PivotLocation pivotType, UnityEngine.Vector3 size)
     // Offset: 0x191FDEC
-    static UnityEngine::ProBuilder::ProBuilderMesh* GeneratePrism(UnityEngine::ProBuilder::PivotLocation pivotType, UnityEngine::Vector3 size);
+    static ::UnityEngine::ProBuilder::ProBuilderMesh* GeneratePrism(::UnityEngine::ProBuilder::PivotLocation pivotType, ::UnityEngine::Vector3 size);
     // static public UnityEngine.ProBuilder.ProBuilderMesh GenerateDoor(UnityEngine.ProBuilder.PivotLocation pivotType, System.Single totalWidth, System.Single totalHeight, System.Single ledgeHeight, System.Single legWidth, System.Single depth)
     // Offset: 0x192171C
-    static UnityEngine::ProBuilder::ProBuilderMesh* GenerateDoor(UnityEngine::ProBuilder::PivotLocation pivotType, float totalWidth, float totalHeight, float ledgeHeight, float legWidth, float depth);
+    static ::UnityEngine::ProBuilder::ProBuilderMesh* GenerateDoor(::UnityEngine::ProBuilder::PivotLocation pivotType, float totalWidth, float totalHeight, float ledgeHeight, float legWidth, float depth);
     // static public UnityEngine.ProBuilder.ProBuilderMesh GeneratePlane(UnityEngine.ProBuilder.PivotLocation pivotType, System.Single width, System.Single height, System.Int32 widthCuts, System.Int32 heightCuts, UnityEngine.ProBuilder.Axis axis)
     // Offset: 0x1921048
-    static UnityEngine::ProBuilder::ProBuilderMesh* GeneratePlane(UnityEngine::ProBuilder::PivotLocation pivotType, float width, float height, int widthCuts, int heightCuts, UnityEngine::ProBuilder::Axis axis);
+    static ::UnityEngine::ProBuilder::ProBuilderMesh* GeneratePlane(::UnityEngine::ProBuilder::PivotLocation pivotType, float width, float height, int widthCuts, int heightCuts, ::UnityEngine::ProBuilder::Axis axis);
     // static public UnityEngine.ProBuilder.ProBuilderMesh GeneratePipe(UnityEngine.ProBuilder.PivotLocation pivotType, System.Single radius, System.Single height, System.Single thickness, System.Int32 subdivAxis, System.Int32 subdivHeight)
     // Offset: 0x19222E4
-    static UnityEngine::ProBuilder::ProBuilderMesh* GeneratePipe(UnityEngine::ProBuilder::PivotLocation pivotType, float radius, float height, float thickness, int subdivAxis, int subdivHeight);
+    static ::UnityEngine::ProBuilder::ProBuilderMesh* GeneratePipe(::UnityEngine::ProBuilder::PivotLocation pivotType, float radius, float height, float thickness, int subdivAxis, int subdivHeight);
     // static public UnityEngine.ProBuilder.ProBuilderMesh GenerateCone(UnityEngine.ProBuilder.PivotLocation pivotType, System.Single radius, System.Single height, System.Int32 subdivAxis)
     // Offset: 0x1922C10
-    static UnityEngine::ProBuilder::ProBuilderMesh* GenerateCone(UnityEngine::ProBuilder::PivotLocation pivotType, float radius, float height, int subdivAxis);
+    static ::UnityEngine::ProBuilder::ProBuilderMesh* GenerateCone(::UnityEngine::ProBuilder::PivotLocation pivotType, float radius, float height, int subdivAxis);
     // static public UnityEngine.ProBuilder.ProBuilderMesh GenerateArch(UnityEngine.ProBuilder.PivotLocation pivotType, System.Single angle, System.Single radius, System.Single width, System.Single depth, System.Int32 radialCuts, System.Boolean insideFaces, System.Boolean outsideFaces, System.Boolean frontFaces, System.Boolean backFaces, System.Boolean endCaps)
     // Offset: 0x19232A8
-    static UnityEngine::ProBuilder::ProBuilderMesh* GenerateArch(UnityEngine::ProBuilder::PivotLocation pivotType, float angle, float radius, float width, float depth, int radialCuts, bool insideFaces, bool outsideFaces, bool frontFaces, bool backFaces, bool endCaps);
+    static ::UnityEngine::ProBuilder::ProBuilderMesh* GenerateArch(::UnityEngine::ProBuilder::PivotLocation pivotType, float angle, float radius, float width, float depth, int radialCuts, bool insideFaces, bool outsideFaces, bool frontFaces, bool backFaces, bool endCaps);
     // static public UnityEngine.ProBuilder.ProBuilderMesh GenerateIcosahedron(UnityEngine.ProBuilder.PivotLocation pivotType, System.Single radius, System.Int32 subdivisions, System.Boolean weldVertices, System.Boolean manualUvs)
     // Offset: 0x1923D90
-    static UnityEngine::ProBuilder::ProBuilderMesh* GenerateIcosahedron(UnityEngine::ProBuilder::PivotLocation pivotType, float radius, int subdivisions, bool weldVertices, bool manualUvs);
+    static ::UnityEngine::ProBuilder::ProBuilderMesh* GenerateIcosahedron(::UnityEngine::ProBuilder::PivotLocation pivotType, float radius, int subdivisions, bool weldVertices, bool manualUvs);
     // static private UnityEngine.Vector3[] SubdivideIcosahedron(UnityEngine.Vector3[] vertices, System.Single radius)
     // Offset: 0x1925294
-    static ::ArrayW<UnityEngine::Vector3> SubdivideIcosahedron(::ArrayW<UnityEngine::Vector3> vertices, float radius);
+    static ::ArrayW<::UnityEngine::Vector3> SubdivideIcosahedron(::ArrayW<::UnityEngine::Vector3> vertices, float radius);
     // static private UnityEngine.Vector3[] GetCirclePoints(System.Int32 segments, System.Single radius, System.Single circumference, UnityEngine.Quaternion rotation, System.Single offset)
     // Offset: 0x1925740
-    static ::ArrayW<UnityEngine::Vector3> GetCirclePoints(int segments, float radius, float circumference, UnityEngine::Quaternion rotation, float offset);
+    static ::ArrayW<::UnityEngine::Vector3> GetCirclePoints(int segments, float radius, float circumference, ::UnityEngine::Quaternion rotation, float offset);
     // static public UnityEngine.ProBuilder.ProBuilderMesh GenerateTorus(UnityEngine.ProBuilder.PivotLocation pivotType, System.Int32 rows, System.Int32 columns, System.Single innerRadius, System.Single outerRadius, System.Boolean smooth, System.Single horizontalCircumference, System.Single verticalCircumference, System.Boolean manualUvs)
     // Offset: 0x19245D8
-    static UnityEngine::ProBuilder::ProBuilderMesh* GenerateTorus(UnityEngine::ProBuilder::PivotLocation pivotType, int rows, int columns, float innerRadius, float outerRadius, bool smooth, float horizontalCircumference, float verticalCircumference, bool manualUvs);
+    static ::UnityEngine::ProBuilder::ProBuilderMesh* GenerateTorus(::UnityEngine::ProBuilder::PivotLocation pivotType, int rows, int columns, float innerRadius, float outerRadius, bool smooth, float horizontalCircumference, float verticalCircumference, bool manualUvs);
   }; // UnityEngine.ProBuilder.ShapeGenerator
   #pragma pack(pop)
 }
@@ -125,7 +125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ShapeGenerator::CreateShape
 // Il2CppName: CreateShape
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ProBuilderMesh* (*)(UnityEngine::ProBuilder::ShapeType, UnityEngine::ProBuilder::PivotLocation)>(&UnityEngine::ProBuilder::ShapeGenerator::CreateShape)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::ProBuilderMesh* (*)(::UnityEngine::ProBuilder::ShapeType, ::UnityEngine::ProBuilder::PivotLocation)>(&UnityEngine::ProBuilder::ShapeGenerator::CreateShape)> {
   static const MethodInfo* get() {
     static auto* shape = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ShapeType")->byval_arg;
     static auto* pivotType = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "PivotLocation")->byval_arg;
@@ -135,7 +135,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ShapeGenerator::GenerateStair
 // Il2CppName: GenerateStair
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ProBuilderMesh* (*)(UnityEngine::ProBuilder::PivotLocation, UnityEngine::Vector3, int, bool)>(&UnityEngine::ProBuilder::ShapeGenerator::GenerateStair)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::ProBuilderMesh* (*)(::UnityEngine::ProBuilder::PivotLocation, ::UnityEngine::Vector3, int, bool)>(&UnityEngine::ProBuilder::ShapeGenerator::GenerateStair)> {
   static const MethodInfo* get() {
     static auto* pivotType = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "PivotLocation")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -147,7 +147,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ShapeGenerator::GenerateCurvedStair
 // Il2CppName: GenerateCurvedStair
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ProBuilderMesh* (*)(UnityEngine::ProBuilder::PivotLocation, float, float, float, float, int, bool)>(&UnityEngine::ProBuilder::ShapeGenerator::GenerateCurvedStair)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::ProBuilderMesh* (*)(::UnityEngine::ProBuilder::PivotLocation, float, float, float, float, int, bool)>(&UnityEngine::ProBuilder::ShapeGenerator::GenerateCurvedStair)> {
   static const MethodInfo* get() {
     static auto* pivotType = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "PivotLocation")->byval_arg;
     static auto* stairWidth = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -162,7 +162,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ShapeGenerator::GenerateStair
 // Il2CppName: GenerateStair
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ProBuilderMesh* (*)(UnityEngine::ProBuilder::PivotLocation, int, float, float, float, bool, bool, bool)>(&UnityEngine::ProBuilder::ShapeGenerator::GenerateStair)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::ProBuilderMesh* (*)(::UnityEngine::ProBuilder::PivotLocation, int, float, float, float, bool, bool, bool)>(&UnityEngine::ProBuilder::ShapeGenerator::GenerateStair)> {
   static const MethodInfo* get() {
     static auto* pivotType = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "PivotLocation")->byval_arg;
     static auto* steps = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -178,7 +178,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ShapeGenerator::GenerateCube
 // Il2CppName: GenerateCube
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ProBuilderMesh* (*)(UnityEngine::ProBuilder::PivotLocation, UnityEngine::Vector3)>(&UnityEngine::ProBuilder::ShapeGenerator::GenerateCube)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::ProBuilderMesh* (*)(::UnityEngine::ProBuilder::PivotLocation, ::UnityEngine::Vector3)>(&UnityEngine::ProBuilder::ShapeGenerator::GenerateCube)> {
   static const MethodInfo* get() {
     static auto* pivotType = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "PivotLocation")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -188,7 +188,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ShapeGenerator::GenerateCylinder
 // Il2CppName: GenerateCylinder
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ProBuilderMesh* (*)(UnityEngine::ProBuilder::PivotLocation, int, float, float, int, int)>(&UnityEngine::ProBuilder::ShapeGenerator::GenerateCylinder)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::ProBuilderMesh* (*)(::UnityEngine::ProBuilder::PivotLocation, int, float, float, int, int)>(&UnityEngine::ProBuilder::ShapeGenerator::GenerateCylinder)> {
   static const MethodInfo* get() {
     static auto* pivotType = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "PivotLocation")->byval_arg;
     static auto* axisDivisions = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -202,7 +202,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ShapeGenerator::GeneratePrism
 // Il2CppName: GeneratePrism
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ProBuilderMesh* (*)(UnityEngine::ProBuilder::PivotLocation, UnityEngine::Vector3)>(&UnityEngine::ProBuilder::ShapeGenerator::GeneratePrism)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::ProBuilderMesh* (*)(::UnityEngine::ProBuilder::PivotLocation, ::UnityEngine::Vector3)>(&UnityEngine::ProBuilder::ShapeGenerator::GeneratePrism)> {
   static const MethodInfo* get() {
     static auto* pivotType = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "PivotLocation")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -212,7 +212,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ShapeGenerator::GenerateDoor
 // Il2CppName: GenerateDoor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ProBuilderMesh* (*)(UnityEngine::ProBuilder::PivotLocation, float, float, float, float, float)>(&UnityEngine::ProBuilder::ShapeGenerator::GenerateDoor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::ProBuilderMesh* (*)(::UnityEngine::ProBuilder::PivotLocation, float, float, float, float, float)>(&UnityEngine::ProBuilder::ShapeGenerator::GenerateDoor)> {
   static const MethodInfo* get() {
     static auto* pivotType = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "PivotLocation")->byval_arg;
     static auto* totalWidth = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -226,7 +226,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ShapeGenerator::GeneratePlane
 // Il2CppName: GeneratePlane
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ProBuilderMesh* (*)(UnityEngine::ProBuilder::PivotLocation, float, float, int, int, UnityEngine::ProBuilder::Axis)>(&UnityEngine::ProBuilder::ShapeGenerator::GeneratePlane)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::ProBuilderMesh* (*)(::UnityEngine::ProBuilder::PivotLocation, float, float, int, int, ::UnityEngine::ProBuilder::Axis)>(&UnityEngine::ProBuilder::ShapeGenerator::GeneratePlane)> {
   static const MethodInfo* get() {
     static auto* pivotType = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "PivotLocation")->byval_arg;
     static auto* width = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -240,7 +240,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ShapeGenerator::GeneratePipe
 // Il2CppName: GeneratePipe
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ProBuilderMesh* (*)(UnityEngine::ProBuilder::PivotLocation, float, float, float, int, int)>(&UnityEngine::ProBuilder::ShapeGenerator::GeneratePipe)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::ProBuilderMesh* (*)(::UnityEngine::ProBuilder::PivotLocation, float, float, float, int, int)>(&UnityEngine::ProBuilder::ShapeGenerator::GeneratePipe)> {
   static const MethodInfo* get() {
     static auto* pivotType = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "PivotLocation")->byval_arg;
     static auto* radius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -254,7 +254,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ShapeGenerator::GenerateCone
 // Il2CppName: GenerateCone
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ProBuilderMesh* (*)(UnityEngine::ProBuilder::PivotLocation, float, float, int)>(&UnityEngine::ProBuilder::ShapeGenerator::GenerateCone)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::ProBuilderMesh* (*)(::UnityEngine::ProBuilder::PivotLocation, float, float, int)>(&UnityEngine::ProBuilder::ShapeGenerator::GenerateCone)> {
   static const MethodInfo* get() {
     static auto* pivotType = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "PivotLocation")->byval_arg;
     static auto* radius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -266,7 +266,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ShapeGenerator::GenerateArch
 // Il2CppName: GenerateArch
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ProBuilderMesh* (*)(UnityEngine::ProBuilder::PivotLocation, float, float, float, float, int, bool, bool, bool, bool, bool)>(&UnityEngine::ProBuilder::ShapeGenerator::GenerateArch)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::ProBuilderMesh* (*)(::UnityEngine::ProBuilder::PivotLocation, float, float, float, float, int, bool, bool, bool, bool, bool)>(&UnityEngine::ProBuilder::ShapeGenerator::GenerateArch)> {
   static const MethodInfo* get() {
     static auto* pivotType = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "PivotLocation")->byval_arg;
     static auto* angle = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -285,7 +285,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ShapeGenerator::GenerateIcosahedron
 // Il2CppName: GenerateIcosahedron
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ProBuilderMesh* (*)(UnityEngine::ProBuilder::PivotLocation, float, int, bool, bool)>(&UnityEngine::ProBuilder::ShapeGenerator::GenerateIcosahedron)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::ProBuilderMesh* (*)(::UnityEngine::ProBuilder::PivotLocation, float, int, bool, bool)>(&UnityEngine::ProBuilder::ShapeGenerator::GenerateIcosahedron)> {
   static const MethodInfo* get() {
     static auto* pivotType = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "PivotLocation")->byval_arg;
     static auto* radius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -298,7 +298,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ShapeGenerator::SubdivideIcosahedron
 // Il2CppName: SubdivideIcosahedron
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector3> (*)(::ArrayW<UnityEngine::Vector3>, float)>(&UnityEngine::ProBuilder::ShapeGenerator::SubdivideIcosahedron)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Vector3> (*)(::ArrayW<::UnityEngine::Vector3>, float)>(&UnityEngine::ProBuilder::ShapeGenerator::SubdivideIcosahedron)> {
   static const MethodInfo* get() {
     static auto* vertices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     static auto* radius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -308,7 +308,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ShapeGenerator::GetCirclePoints
 // Il2CppName: GetCirclePoints
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector3> (*)(int, float, float, UnityEngine::Quaternion, float)>(&UnityEngine::ProBuilder::ShapeGenerator::GetCirclePoints)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Vector3> (*)(int, float, float, ::UnityEngine::Quaternion, float)>(&UnityEngine::ProBuilder::ShapeGenerator::GetCirclePoints)> {
   static const MethodInfo* get() {
     static auto* segments = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* radius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -321,7 +321,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ShapeGenerator::GenerateTorus
 // Il2CppName: GenerateTorus
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ProBuilderMesh* (*)(UnityEngine::ProBuilder::PivotLocation, int, int, float, float, bool, float, float, bool)>(&UnityEngine::ProBuilder::ShapeGenerator::GenerateTorus)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::ProBuilderMesh* (*)(::UnityEngine::ProBuilder::PivotLocation, int, int, float, float, bool, float, float, bool)>(&UnityEngine::ProBuilder::ShapeGenerator::GenerateTorus)> {
   static const MethodInfo* get() {
     static auto* pivotType = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "PivotLocation")->byval_arg;
     static auto* rows = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

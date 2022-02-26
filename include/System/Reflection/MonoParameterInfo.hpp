@@ -32,8 +32,8 @@ namespace System::Reflection {
   class MonoParameterInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Reflection::MonoParameterInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoParameterInfo*, "System.Reflection", "MonoParameterInfo");
+NEED_NO_BOX(::System::Reflection::MonoParameterInfo);
+DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::MonoParameterInfo*, "System.Reflection", "MonoParameterInfo");
 // Type namespace: System.Reflection
 namespace System::Reflection {
   // Size: 0x40
@@ -44,13 +44,13 @@ namespace System::Reflection {
   // [ComDefaultInterfaceAttribute] Offset: 1188C84
   // [ClassInterfaceAttribute] Offset: 1188C84
   // [ComVisibleAttribute] Offset: 1188C84
-  class MonoParameterInfo : public System::Reflection::RuntimeParameterInfo {
+  class MonoParameterInfo : public ::System::Reflection::RuntimeParameterInfo {
     public:
     // System.Void .ctor(System.Reflection.ParameterInfo pinfo, System.Reflection.MemberInfo member)
     // Offset: 0x1C5D4DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MonoParameterInfo* New_ctor(System::Reflection::ParameterInfo* pinfo, System::Reflection::MemberInfo* member) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::MonoParameterInfo::.ctor");
+    static MonoParameterInfo* New_ctor(::System::Reflection::ParameterInfo* pinfo, ::System::Reflection::MemberInfo* member) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Reflection::MonoParameterInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoParameterInfo*, creationType>(pinfo, member)));
     }
     // public override System.Object get_DefaultValue()
@@ -67,12 +67,12 @@ namespace System::Reflection {
     // Offset: 0x1C5D838
     // Implemented from: System.Reflection.ParameterInfo
     // Base method: System.Object[] ParameterInfo::GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
-    ::ArrayW<::Il2CppObject*> GetCustomAttributes(System::Type* attributeType, bool inherit);
+    ::ArrayW<::Il2CppObject*> GetCustomAttributes(::System::Type* attributeType, bool inherit);
     // public override System.Boolean IsDefined(System.Type attributeType, System.Boolean inherit)
     // Offset: 0x1C5D8B8
     // Implemented from: System.Reflection.ParameterInfo
     // Base method: System.Boolean ParameterInfo::IsDefined(System.Type attributeType, System.Boolean inherit)
-    bool IsDefined(System::Type* attributeType, bool inherit);
+    bool IsDefined(::System::Type* attributeType, bool inherit);
   }; // System.Reflection.MonoParameterInfo
   #pragma pack(pop)
 }
@@ -101,7 +101,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: System::Reflection::MonoParameterInfo::GetCustomAttributes
 // Il2CppName: GetCustomAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (System::Reflection::MonoParameterInfo::*)(System::Type*, bool)>(&System::Reflection::MonoParameterInfo::GetCustomAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (System::Reflection::MonoParameterInfo::*)(::System::Type*, bool)>(&System::Reflection::MonoParameterInfo::GetCustomAttributes)> {
   static const MethodInfo* get() {
     static auto* attributeType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* inherit = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -111,7 +111,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: System::Reflection::MonoParameterInfo::IsDefined
 // Il2CppName: IsDefined
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Reflection::MonoParameterInfo::*)(System::Type*, bool)>(&System::Reflection::MonoParameterInfo::IsDefined)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Reflection::MonoParameterInfo::*)(::System::Type*, bool)>(&System::Reflection::MonoParameterInfo::IsDefined)> {
   static const MethodInfo* get() {
     static auto* attributeType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* inherit = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

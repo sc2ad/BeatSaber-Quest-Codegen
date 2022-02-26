@@ -28,8 +28,8 @@ namespace GlobalNamespace {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding*, "", "PlayAudioOnGameEventController/EventAudioBinding");
+NEED_NO_BOX(::GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding*, "", "PlayAudioOnGameEventController/EventAudioBinding");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x38
@@ -51,9 +51,9 @@ namespace GlobalNamespace {
     // private Signal _signal
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::Signal* signal;
+    ::GlobalNamespace::Signal* signal;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::Signal*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::Signal*) == 0x8);
     // private System.Single _delay
     // Size: 0x4
     // Offset: 0x18
@@ -65,35 +65,35 @@ namespace GlobalNamespace {
     // private LocalizedAudioClipSO[] _localizedAudioClips
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayW<GlobalNamespace::LocalizedAudioClipSO*> localizedAudioClips;
+    ::ArrayW<::GlobalNamespace::LocalizedAudioClipSO*> localizedAudioClips;
     // Field size check
-    static_assert(sizeof(::ArrayW<GlobalNamespace::LocalizedAudioClipSO*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::GlobalNamespace::LocalizedAudioClipSO*>) == 0x8);
     // private AudioClipQueue _audioClipQueue
     // Size: 0x8
     // Offset: 0x28
-    GlobalNamespace::AudioClipQueue* audioClipQueue;
+    ::GlobalNamespace::AudioClipQueue* audioClipQueue;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::AudioClipQueue*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::AudioClipQueue*) == 0x8);
     // private RandomObjectPicker`1<LocalizedAudioClipSO> _randomObjectPicker
     // Size: 0x8
     // Offset: 0x30
-    GlobalNamespace::RandomObjectPicker_1<GlobalNamespace::LocalizedAudioClipSO*>* randomObjectPicker;
+    ::GlobalNamespace::RandomObjectPicker_1<::GlobalNamespace::LocalizedAudioClipSO*>* randomObjectPicker;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::RandomObjectPicker_1<GlobalNamespace::LocalizedAudioClipSO*>*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::RandomObjectPicker_1<::GlobalNamespace::LocalizedAudioClipSO*>*) == 0x8);
     public:
     // Get instance field reference: private Signal _signal
-    GlobalNamespace::Signal*& dyn__signal();
+    ::GlobalNamespace::Signal*& dyn__signal();
     // Get instance field reference: private System.Single _delay
     float& dyn__delay();
     // Get instance field reference: private LocalizedAudioClipSO[] _localizedAudioClips
-    ::ArrayW<GlobalNamespace::LocalizedAudioClipSO*>& dyn__localizedAudioClips();
+    ::ArrayW<::GlobalNamespace::LocalizedAudioClipSO*>& dyn__localizedAudioClips();
     // Get instance field reference: private AudioClipQueue _audioClipQueue
-    GlobalNamespace::AudioClipQueue*& dyn__audioClipQueue();
+    ::GlobalNamespace::AudioClipQueue*& dyn__audioClipQueue();
     // Get instance field reference: private RandomObjectPicker`1<LocalizedAudioClipSO> _randomObjectPicker
-    GlobalNamespace::RandomObjectPicker_1<GlobalNamespace::LocalizedAudioClipSO*>*& dyn__randomObjectPicker();
+    ::GlobalNamespace::RandomObjectPicker_1<::GlobalNamespace::LocalizedAudioClipSO*>*& dyn__randomObjectPicker();
     // public System.Void Init(AudioClipQueue audioClipQueue)
     // Offset: 0x2AC122C
-    void Init(GlobalNamespace::AudioClipQueue* audioClipQueue);
+    void Init(::GlobalNamespace::AudioClipQueue* audioClipQueue);
     // public System.Void Deinit()
     // Offset: 0x2AC1360
     void Deinit();
@@ -106,19 +106,19 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayAudioOnGameEventController::EventAudioBinding* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayAudioOnGameEventController::EventAudioBinding*, creationType>()));
     }
   }; // PlayAudioOnGameEventController/EventAudioBinding
   #pragma pack(pop)
-  static check_size<sizeof(PlayAudioOnGameEventController::EventAudioBinding), 48 + sizeof(GlobalNamespace::RandomObjectPicker_1<GlobalNamespace::LocalizedAudioClipSO*>*)> __GlobalNamespace_PlayAudioOnGameEventController_EventAudioBindingSizeCheck;
+  static check_size<sizeof(PlayAudioOnGameEventController::EventAudioBinding), 48 + sizeof(::GlobalNamespace::RandomObjectPicker_1<::GlobalNamespace::LocalizedAudioClipSO*>*)> __GlobalNamespace_PlayAudioOnGameEventController_EventAudioBindingSizeCheck;
   static_assert(sizeof(PlayAudioOnGameEventController::EventAudioBinding) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding::*)(GlobalNamespace::AudioClipQueue*)>(&GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding::*)(::GlobalNamespace::AudioClipQueue*)>(&GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding::Init)> {
   static const MethodInfo* get() {
     static auto* audioClipQueue = &::il2cpp_utils::GetClassFromName("", "AudioClipQueue")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{audioClipQueue});

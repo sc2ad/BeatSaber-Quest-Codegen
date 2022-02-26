@@ -36,8 +36,8 @@ namespace Zenject {
   class ZenjectMoqExtensions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::ZenjectMoqExtensions);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectMoqExtensions*, "Zenject", "ZenjectMoqExtensions");
+NEED_NO_BOX(::Zenject::ZenjectMoqExtensions);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::ZenjectMoqExtensions*, "Zenject", "ZenjectMoqExtensions");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x10
@@ -50,22 +50,22 @@ namespace Zenject {
     // static public Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder FromMock(Zenject.FromBinderGeneric`1<TContract> binder)
     // Offset: 0xFFFFFFFF
     template<class TContract>
-    static Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromMock(Zenject::FromBinderGeneric_1<TContract>* binder) {
-      static_assert(std::is_convertible_v<TContract, UnityEngine::MonoBehaviour*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ZenjectMoqExtensions::FromMock");
+    static ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromMock(::Zenject::FromBinderGeneric_1<TContract>* binder) {
+      static_assert(std::is_convertible_v<TContract, ::UnityEngine::MonoBehaviour*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenjectMoqExtensions::FromMock");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "ZenjectMoqExtensions", "FromMock", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(binder)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}));
-      return ::il2cpp_utils::RunMethodRethrow<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, binder);
+      return ::il2cpp_utils::RunMethodRethrow<::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, binder);
     }
     // static public Zenject.ConditionCopyNonLazyBinder FromMock(Zenject.FactoryFromBinder`1<TContract> binder)
     // Offset: 0xFFFFFFFF
     template<class TContract>
-    static Zenject::ConditionCopyNonLazyBinder* FromMock(Zenject::FactoryFromBinder_1<TContract>* binder) {
-      static_assert(std::is_convertible_v<TContract, UnityEngine::MonoBehaviour*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ZenjectMoqExtensions::FromMock");
+    static ::Zenject::ConditionCopyNonLazyBinder* FromMock(::Zenject::FactoryFromBinder_1<TContract>* binder) {
+      static_assert(std::is_convertible_v<TContract, ::UnityEngine::MonoBehaviour*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenjectMoqExtensions::FromMock");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "ZenjectMoqExtensions", "FromMock", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(binder)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}));
-      return ::il2cpp_utils::RunMethodRethrow<Zenject::ConditionCopyNonLazyBinder*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, binder);
+      return ::il2cpp_utils::RunMethodRethrow<::Zenject::ConditionCopyNonLazyBinder*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, binder);
     }
   }; // Zenject.ZenjectMoqExtensions
   #pragma pack(pop)

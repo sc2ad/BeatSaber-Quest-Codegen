@@ -23,8 +23,8 @@ namespace Zenject {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::InitializableManager::InitializableInfo);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::InitializableManager::InitializableInfo*, "Zenject", "InitializableManager/InitializableInfo");
+NEED_NO_BOX(::Zenject::InitializableManager::InitializableInfo);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::InitializableManager::InitializableInfo*, "Zenject", "InitializableManager/InitializableInfo");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x1C
@@ -45,9 +45,9 @@ namespace Zenject {
     // public Zenject.IInitializable Initializable
     // Size: 0x8
     // Offset: 0x10
-    Zenject::IInitializable* Initializable;
+    ::Zenject::IInitializable* Initializable;
     // Field size check
-    static_assert(sizeof(Zenject::IInitializable*) == 0x8);
+    static_assert(sizeof(::Zenject::IInitializable*) == 0x8);
     // public System.Int32 Priority
     // Size: 0x4
     // Offset: 0x18
@@ -56,14 +56,14 @@ namespace Zenject {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public Zenject.IInitializable Initializable
-    Zenject::IInitializable*& dyn_Initializable();
+    ::Zenject::IInitializable*& dyn_Initializable();
     // Get instance field reference: public System.Int32 Priority
     int& dyn_Priority();
     // public System.Void .ctor(Zenject.IInitializable initializable, System.Int32 priority)
     // Offset: 0x1D3B308
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static InitializableManager::InitializableInfo* New_ctor(Zenject::IInitializable* initializable, int priority) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::InitializableManager::InitializableInfo::.ctor");
+    static InitializableManager::InitializableInfo* New_ctor(::Zenject::IInitializable* initializable, int priority) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InitializableManager::InitializableInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InitializableManager::InitializableInfo*, creationType>(initializable, priority)));
     }
     // static private System.Object __zenCreate(System.Object[] P_0)
@@ -71,7 +71,7 @@ namespace Zenject {
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
     // Offset: 0x1D3C0F4
-    static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.InitializableManager/Zenject.InitializableInfo
   #pragma pack(pop)
   static check_size<sizeof(InitializableManager::InitializableInfo), 24 + sizeof(int)> __Zenject_InitializableManager_InitializableInfoSizeCheck;
@@ -94,7 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: Zenject::InitializableManager::InitializableInfo::__zenCreateInjectTypeInfo
 // Il2CppName: __zenCreateInjectTypeInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (*)()>(&Zenject::InitializableManager::InitializableInfo::__zenCreateInjectTypeInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&Zenject::InitializableManager::InitializableInfo::__zenCreateInjectTypeInfo)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::InitializableManager::InitializableInfo*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

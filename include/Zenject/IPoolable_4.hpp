@@ -16,7 +16,7 @@ namespace Zenject {
   class IPoolable_4;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::IPoolable_4, "Zenject", "IPoolable`4");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Zenject::IPoolable_4, "Zenject", "IPoolable`4");
 // Type namespace: Zenject
 namespace Zenject {
   // WARNING Size may be invalid!
@@ -28,14 +28,14 @@ namespace Zenject {
     // public System.Void OnDespawned()
     // Offset: 0xFFFFFFFF
     void OnDespawned() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IPoolable_4::OnDespawned");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::IPoolable_4::OnDespawned");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "OnDespawned", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // public System.Void OnSpawned(TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4)
     // Offset: 0xFFFFFFFF
     void OnSpawned(TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IPoolable_4::OnSpawned");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::IPoolable_4::OnSpawned");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "OnSpawned", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(p1), ::il2cpp_utils::ExtractType(p2), ::il2cpp_utils::ExtractType(p3), ::il2cpp_utils::ExtractType(p4)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, p1, p2, p3, p4);
     }

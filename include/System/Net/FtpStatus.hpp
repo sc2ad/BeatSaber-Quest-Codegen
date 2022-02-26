@@ -19,8 +19,8 @@ namespace System::Net {
   class FtpStatus;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::FtpStatus);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::FtpStatus*, "System.Net", "FtpStatus");
+NEED_NO_BOX(::System::Net::FtpStatus);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::FtpStatus*, "System.Net", "FtpStatus");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x20
@@ -41,9 +41,9 @@ namespace System::Net {
     // private readonly System.Net.FtpStatusCode statusCode
     // Size: 0x4
     // Offset: 0x10
-    System::Net::FtpStatusCode statusCode;
+    ::System::Net::FtpStatusCode statusCode;
     // Field size check
-    static_assert(sizeof(System::Net::FtpStatusCode) == 0x4);
+    static_assert(sizeof(::System::Net::FtpStatusCode) == 0x4);
     // Padding between fields: statusCode and: statusDescription
     char __padding0[0x4] = {};
     // private readonly System.String statusDescription
@@ -54,20 +54,20 @@ namespace System::Net {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private readonly System.Net.FtpStatusCode statusCode
-    System::Net::FtpStatusCode& dyn_statusCode();
+    ::System::Net::FtpStatusCode& dyn_statusCode();
     // Get instance field reference: private readonly System.String statusDescription
     ::StringW& dyn_statusDescription();
     // public System.Net.FtpStatusCode get_StatusCode()
     // Offset: 0x174E4A8
-    System::Net::FtpStatusCode get_StatusCode();
+    ::System::Net::FtpStatusCode get_StatusCode();
     // public System.String get_StatusDescription()
     // Offset: 0x174E4B0
     ::StringW get_StatusDescription();
     // public System.Void .ctor(System.Net.FtpStatusCode statusCode, System.String statusDescription)
     // Offset: 0x174E46C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static FtpStatus* New_ctor(System::Net::FtpStatusCode statusCode, ::StringW statusDescription) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::FtpStatus::.ctor");
+    static FtpStatus* New_ctor(::System::Net::FtpStatusCode statusCode, ::StringW statusDescription) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::FtpStatus::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FtpStatus*, creationType>(statusCode, statusDescription)));
     }
   }; // System.Net.FtpStatus
@@ -79,7 +79,7 @@ namespace System::Net {
 // Writing MetadataGetter for method: System::Net::FtpStatus::get_StatusCode
 // Il2CppName: get_StatusCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::FtpStatusCode (System::Net::FtpStatus::*)()>(&System::Net::FtpStatus::get_StatusCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::FtpStatusCode (System::Net::FtpStatus::*)()>(&System::Net::FtpStatus::get_StatusCode)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::FtpStatus*), "get_StatusCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

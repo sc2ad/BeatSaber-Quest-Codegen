@@ -16,8 +16,8 @@ namespace UnityEngine {
   class YieldInstruction;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::YieldInstruction);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::YieldInstruction*, "UnityEngine", "YieldInstruction");
+NEED_NO_BOX(::UnityEngine::YieldInstruction);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::YieldInstruction*, "UnityEngine", "YieldInstruction");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -34,7 +34,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static YieldInstruction* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::YieldInstruction::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::YieldInstruction::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<YieldInstruction*, creationType>()));
     }
   }; // UnityEngine.YieldInstruction

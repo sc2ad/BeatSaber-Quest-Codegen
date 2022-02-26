@@ -47,7 +47,7 @@ namespace Newtonsoft::Json {
   struct JsonPosition;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::JsonPosition, "Newtonsoft.Json", "JsonPosition");
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::JsonPosition, "Newtonsoft.Json", "JsonPosition");
 // Type namespace: Newtonsoft.Json
 namespace Newtonsoft::Json {
   // Size: 0x11
@@ -57,15 +57,15 @@ namespace Newtonsoft::Json {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NullableAttribute] Offset: 12016D8
   // [NullableContextAttribute] Offset: 12016D8
-  struct JsonPosition/*, public System::ValueType*/ {
+  struct JsonPosition/*, public ::System::ValueType*/ {
     public:
     public:
     // Newtonsoft.Json.JsonContainerType Type
     // Size: 0x4
     // Offset: 0x0
-    Newtonsoft::Json::JsonContainerType Type;
+    ::Newtonsoft::Json::JsonContainerType Type;
     // Field size check
-    static_assert(sizeof(Newtonsoft::Json::JsonContainerType) == 0x4);
+    static_assert(sizeof(::Newtonsoft::Json::JsonContainerType) == 0x4);
     // System.Int32 Position
     // Size: 0x4
     // Offset: 0x4
@@ -87,17 +87,17 @@ namespace Newtonsoft::Json {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Creating value type constructor for type: JsonPosition
-    constexpr JsonPosition(Newtonsoft::Json::JsonContainerType Type_ = {}, int Position_ = {}, ::StringW PropertyName_ = {}, bool HasIndex_ = {}) noexcept : Type{Type_}, Position{Position_}, PropertyName{PropertyName_}, HasIndex{HasIndex_} {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    constexpr JsonPosition(::Newtonsoft::Json::JsonContainerType Type_ = {}, int Position_ = {}, ::StringW PropertyName_ = {}, bool HasIndex_ = {}) noexcept : Type{Type_}, Position{Position_}, PropertyName{PropertyName_}, HasIndex{HasIndex_} {}
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get static field: static private readonly System.Char[] SpecialCharacters
     static ::ArrayW<::Il2CppChar> _get_SpecialCharacters();
     // Set static field: static private readonly System.Char[] SpecialCharacters
     static void _set_SpecialCharacters(::ArrayW<::Il2CppChar> value);
     // Get instance field reference: Newtonsoft.Json.JsonContainerType Type
-    Newtonsoft::Json::JsonContainerType& dyn_Type();
+    ::Newtonsoft::Json::JsonContainerType& dyn_Type();
     // Get instance field reference: System.Int32 Position
     int& dyn_Position();
     // Get instance field reference: System.String PropertyName
@@ -106,7 +106,7 @@ namespace Newtonsoft::Json {
     bool& dyn_HasIndex();
     // public System.Void .ctor(Newtonsoft.Json.JsonContainerType type)
     // Offset: 0x182F1F8
-    JsonPosition(Newtonsoft::Json::JsonContainerType type);
+    JsonPosition(::Newtonsoft::Json::JsonContainerType type);
     // static private System.Void .cctor()
     // Offset: 0x182FAAC
     static void _cctor();
@@ -115,16 +115,16 @@ namespace Newtonsoft::Json {
     int CalculateLength();
     // System.Void WriteTo(System.Text.StringBuilder sb, ref System.IO.StringWriter writer, ref System.Char[] buffer)
     // Offset: 0x182F350
-    void WriteTo(System::Text::StringBuilder* sb, ByRef<System::IO::StringWriter*> writer, ByRef<::ArrayW<::Il2CppChar>> buffer);
+    void WriteTo(::System::Text::StringBuilder* sb, ByRef<::System::IO::StringWriter*> writer, ByRef<::ArrayW<::Il2CppChar>> buffer);
     // static System.Boolean TypeHasIndex(Newtonsoft.Json.JsonContainerType type)
     // Offset: 0x182F284
-    static bool TypeHasIndex(Newtonsoft::Json::JsonContainerType type);
+    static bool TypeHasIndex(::Newtonsoft::Json::JsonContainerType type);
     // static System.String BuildPath(System.Collections.Generic.List`1<Newtonsoft.Json.JsonPosition> positions, System.Nullable`1<Newtonsoft.Json.JsonPosition> currentPosition)
     // Offset: 0x182F554
-    static ::StringW BuildPath(System::Collections::Generic::List_1<Newtonsoft::Json::JsonPosition>* positions, System::Nullable_1<Newtonsoft::Json::JsonPosition> currentPosition);
+    static ::StringW BuildPath(::System::Collections::Generic::List_1<::Newtonsoft::Json::JsonPosition>* positions, ::System::Nullable_1<::Newtonsoft::Json::JsonPosition> currentPosition);
     // static System.String FormatMessage(Newtonsoft.Json.IJsonLineInfo lineInfo, System.String path, System.String message)
     // Offset: 0x182F798
-    static ::StringW FormatMessage(Newtonsoft::Json::IJsonLineInfo* lineInfo, ::StringW path, ::StringW message);
+    static ::StringW FormatMessage(::Newtonsoft::Json::IJsonLineInfo* lineInfo, ::StringW path, ::StringW message);
   }; // Newtonsoft.Json.JsonPosition
   #pragma pack(pop)
   static check_size<sizeof(JsonPosition), 16 + sizeof(bool)> __Newtonsoft_Json_JsonPositionSizeCheck;
@@ -154,7 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Newton
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonPosition::WriteTo
 // Il2CppName: WriteTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::JsonPosition::*)(System::Text::StringBuilder*, ByRef<System::IO::StringWriter*>, ByRef<::ArrayW<::Il2CppChar>>)>(&Newtonsoft::Json::JsonPosition::WriteTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::JsonPosition::*)(::System::Text::StringBuilder*, ByRef<::System::IO::StringWriter*>, ByRef<::ArrayW<::Il2CppChar>>)>(&Newtonsoft::Json::JsonPosition::WriteTo)> {
   static const MethodInfo* get() {
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* writer = &::il2cpp_utils::GetClassFromName("System.IO", "StringWriter")->this_arg;
@@ -165,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonPosition::TypeHasIndex
 // Il2CppName: TypeHasIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Newtonsoft::Json::JsonContainerType)>(&Newtonsoft::Json::JsonPosition::TypeHasIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Newtonsoft::Json::JsonContainerType)>(&Newtonsoft::Json::JsonPosition::TypeHasIndex)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonContainerType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::JsonPosition), "TypeHasIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -174,7 +174,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ne
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonPosition::BuildPath
 // Il2CppName: BuildPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Collections::Generic::List_1<Newtonsoft::Json::JsonPosition>*, System::Nullable_1<Newtonsoft::Json::JsonPosition>)>(&Newtonsoft::Json::JsonPosition::BuildPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Collections::Generic::List_1<::Newtonsoft::Json::JsonPosition>*, ::System::Nullable_1<::Newtonsoft::Json::JsonPosition>)>(&Newtonsoft::Json::JsonPosition::BuildPath)> {
   static const MethodInfo* get() {
     static auto* positions = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonPosition")})->byval_arg;
     static auto* currentPosition = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonPosition")})->byval_arg;
@@ -184,7 +184,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonPosition::FormatMessage
 // Il2CppName: FormatMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(Newtonsoft::Json::IJsonLineInfo*, ::StringW, ::StringW)>(&Newtonsoft::Json::JsonPosition::FormatMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::Newtonsoft::Json::IJsonLineInfo*, ::StringW, ::StringW)>(&Newtonsoft::Json::JsonPosition::FormatMessage)> {
   static const MethodInfo* get() {
     static auto* lineInfo = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "IJsonLineInfo")->byval_arg;
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

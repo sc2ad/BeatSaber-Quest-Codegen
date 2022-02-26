@@ -77,8 +77,8 @@ namespace System::Threading {
   class Thread;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Threading::Thread);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::Thread*, "System.Threading", "Thread");
+NEED_NO_BOX(::System::Threading::Thread);
+DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Thread*, "System.Threading", "Thread");
 // Type namespace: System.Threading
 namespace System::Threading {
   // Size: 0x49
@@ -89,7 +89,7 @@ namespace System::Threading {
   // [ClassInterfaceAttribute] Offset: 1189714
   // [ComDefaultInterfaceAttribute] Offset: 1189714
   // [ComVisibleAttribute] Offset: 1189714
-  class Thread : public System::Runtime::ConstrainedExecution::CriticalFinalizerObject/*, public System::Runtime::InteropServices::_Thread*/ {
+  class Thread : public ::System::Runtime::ConstrainedExecution::CriticalFinalizerObject/*, public ::System::Runtime::InteropServices::_Thread*/ {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -103,9 +103,9 @@ namespace System::Threading {
     // private System.Threading.InternalThread internal_thread
     // Size: 0x8
     // Offset: 0x10
-    System::Threading::InternalThread* internal_thread;
+    ::System::Threading::InternalThread* internal_thread;
     // Field size check
-    static_assert(sizeof(System::Threading::InternalThread*) == 0x8);
+    static_assert(sizeof(::System::Threading::InternalThread*) == 0x8);
     // private System.Object m_ThreadStartArg
     // Size: 0x8
     // Offset: 0x18
@@ -121,9 +121,9 @@ namespace System::Threading {
     // private System.Security.Principal.IPrincipal principal
     // Size: 0x8
     // Offset: 0x28
-    System::Security::Principal::IPrincipal* principal;
+    ::System::Security::Principal::IPrincipal* principal;
     // Field size check
-    static_assert(sizeof(System::Security::Principal::IPrincipal*) == 0x8);
+    static_assert(sizeof(::System::Security::Principal::IPrincipal*) == 0x8);
     // private System.Int32 principal_version
     // Size: 0x4
     // Offset: 0x30
@@ -135,15 +135,15 @@ namespace System::Threading {
     // private System.MulticastDelegate m_Delegate
     // Size: 0x8
     // Offset: 0x38
-    System::MulticastDelegate* m_Delegate;
+    ::System::MulticastDelegate* m_Delegate;
     // Field size check
-    static_assert(sizeof(System::MulticastDelegate*) == 0x8);
+    static_assert(sizeof(::System::MulticastDelegate*) == 0x8);
     // private System.Threading.ExecutionContext m_ExecutionContext
     // Size: 0x8
     // Offset: 0x40
-    System::Threading::ExecutionContext* m_ExecutionContext;
+    ::System::Threading::ExecutionContext* m_ExecutionContext;
     // Field size check
-    static_assert(sizeof(System::Threading::ExecutionContext*) == 0x8);
+    static_assert(sizeof(::System::Threading::ExecutionContext*) == 0x8);
     // private System.Boolean m_ExecutionContextBelongsToOuterScope
     // Size: 0x1
     // Offset: 0x48
@@ -151,52 +151,52 @@ namespace System::Threading {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     public:
-    // Creating interface conversion operator: operator System::Runtime::InteropServices::_Thread
-    operator System::Runtime::InteropServices::_Thread() noexcept {
-      return *reinterpret_cast<System::Runtime::InteropServices::_Thread*>(this);
+    // Creating interface conversion operator: operator ::System::Runtime::InteropServices::_Thread
+    operator ::System::Runtime::InteropServices::_Thread() noexcept {
+      return *reinterpret_cast<::System::Runtime::InteropServices::_Thread*>(this);
     }
     // Get static field: static private System.LocalDataStoreMgr s_LocalDataStoreMgr
-    static System::LocalDataStoreMgr* _get_s_LocalDataStoreMgr();
+    static ::System::LocalDataStoreMgr* _get_s_LocalDataStoreMgr();
     // Set static field: static private System.LocalDataStoreMgr s_LocalDataStoreMgr
-    static void _set_s_LocalDataStoreMgr(System::LocalDataStoreMgr* value);
+    static void _set_s_LocalDataStoreMgr(::System::LocalDataStoreMgr* value);
     // Get static field: static private System.LocalDataStoreHolder s_LocalDataStore
-    static System::LocalDataStoreHolder* _get_s_LocalDataStore();
+    static ::System::LocalDataStoreHolder* _get_s_LocalDataStore();
     // Set static field: static private System.LocalDataStoreHolder s_LocalDataStore
-    static void _set_s_LocalDataStore(System::LocalDataStoreHolder* value);
+    static void _set_s_LocalDataStore(::System::LocalDataStoreHolder* value);
     // Get static field: static System.Globalization.CultureInfo m_CurrentCulture
-    static System::Globalization::CultureInfo* _get_m_CurrentCulture();
+    static ::System::Globalization::CultureInfo* _get_m_CurrentCulture();
     // Set static field: static System.Globalization.CultureInfo m_CurrentCulture
-    static void _set_m_CurrentCulture(System::Globalization::CultureInfo* value);
+    static void _set_m_CurrentCulture(::System::Globalization::CultureInfo* value);
     // Get static field: static System.Globalization.CultureInfo m_CurrentUICulture
-    static System::Globalization::CultureInfo* _get_m_CurrentUICulture();
+    static ::System::Globalization::CultureInfo* _get_m_CurrentUICulture();
     // Set static field: static System.Globalization.CultureInfo m_CurrentUICulture
-    static void _set_m_CurrentUICulture(System::Globalization::CultureInfo* value);
+    static void _set_m_CurrentUICulture(::System::Globalization::CultureInfo* value);
     // Get static field: static private System.Threading.AsyncLocal`1<System.Globalization.CultureInfo> s_asyncLocalCurrentCulture
-    static System::Threading::AsyncLocal_1<System::Globalization::CultureInfo*>* _get_s_asyncLocalCurrentCulture();
+    static ::System::Threading::AsyncLocal_1<::System::Globalization::CultureInfo*>* _get_s_asyncLocalCurrentCulture();
     // Set static field: static private System.Threading.AsyncLocal`1<System.Globalization.CultureInfo> s_asyncLocalCurrentCulture
-    static void _set_s_asyncLocalCurrentCulture(System::Threading::AsyncLocal_1<System::Globalization::CultureInfo*>* value);
+    static void _set_s_asyncLocalCurrentCulture(::System::Threading::AsyncLocal_1<::System::Globalization::CultureInfo*>* value);
     // Get static field: static private System.Threading.AsyncLocal`1<System.Globalization.CultureInfo> s_asyncLocalCurrentUICulture
-    static System::Threading::AsyncLocal_1<System::Globalization::CultureInfo*>* _get_s_asyncLocalCurrentUICulture();
+    static ::System::Threading::AsyncLocal_1<::System::Globalization::CultureInfo*>* _get_s_asyncLocalCurrentUICulture();
     // Set static field: static private System.Threading.AsyncLocal`1<System.Globalization.CultureInfo> s_asyncLocalCurrentUICulture
-    static void _set_s_asyncLocalCurrentUICulture(System::Threading::AsyncLocal_1<System::Globalization::CultureInfo*>* value);
+    static void _set_s_asyncLocalCurrentUICulture(::System::Threading::AsyncLocal_1<::System::Globalization::CultureInfo*>* value);
     // Get static field: static private System.Threading.Thread current_thread
-    static System::Threading::Thread* _get_current_thread();
+    static ::System::Threading::Thread* _get_current_thread();
     // Set static field: static private System.Threading.Thread current_thread
-    static void _set_current_thread(System::Threading::Thread* value);
+    static void _set_current_thread(::System::Threading::Thread* value);
     // Get instance field reference: private System.Threading.InternalThread internal_thread
-    System::Threading::InternalThread*& dyn_internal_thread();
+    ::System::Threading::InternalThread*& dyn_internal_thread();
     // Get instance field reference: private System.Object m_ThreadStartArg
     ::Il2CppObject*& dyn_m_ThreadStartArg();
     // Get instance field reference: private System.Object pending_exception
     ::Il2CppObject*& dyn_pending_exception();
     // Get instance field reference: private System.Security.Principal.IPrincipal principal
-    System::Security::Principal::IPrincipal*& dyn_principal();
+    ::System::Security::Principal::IPrincipal*& dyn_principal();
     // Get instance field reference: private System.Int32 principal_version
     int& dyn_principal_version();
     // Get instance field reference: private System.MulticastDelegate m_Delegate
-    System::MulticastDelegate*& dyn_m_Delegate();
+    ::System::MulticastDelegate*& dyn_m_Delegate();
     // Get instance field reference: private System.Threading.ExecutionContext m_ExecutionContext
-    System::Threading::ExecutionContext*& dyn_m_ExecutionContext();
+    ::System::Threading::ExecutionContext*& dyn_m_ExecutionContext();
     // Get instance field reference: private System.Boolean m_ExecutionContextBelongsToOuterScope
     bool& dyn_m_ExecutionContextBelongsToOuterScope();
     // System.Boolean get_ExecutionContextBelongsToCurrentScope()
@@ -207,28 +207,28 @@ namespace System::Threading {
     void set_ExecutionContextBelongsToCurrentScope(bool value);
     // public System.Void set_Priority(System.Threading.ThreadPriority value)
     // Offset: 0x1CDD984
-    void set_Priority(System::Threading::ThreadPriority value);
+    void set_Priority(::System::Threading::ThreadPriority value);
     // public System.Globalization.CultureInfo get_CurrentUICulture()
     // Offset: 0x1CDDB84
-    System::Globalization::CultureInfo* get_CurrentUICulture();
+    ::System::Globalization::CultureInfo* get_CurrentUICulture();
     // public System.Globalization.CultureInfo get_CurrentCulture()
     // Offset: 0x1CDDC40
-    System::Globalization::CultureInfo* get_CurrentCulture();
+    ::System::Globalization::CultureInfo* get_CurrentCulture();
     // public System.Void set_CurrentCulture(System.Globalization.CultureInfo value)
     // Offset: 0x1CDDCFC
-    void set_CurrentCulture(System::Globalization::CultureInfo* value);
+    void set_CurrentCulture(::System::Globalization::CultureInfo* value);
     // private System.Threading.InternalThread get_Internal()
     // Offset: 0x1CDDF2C
-    System::Threading::InternalThread* get_Internal();
+    ::System::Threading::InternalThread* get_Internal();
     // static public System.Runtime.Remoting.Contexts.Context get_CurrentContext()
     // Offset: 0x1CDDF5C
-    static System::Runtime::Remoting::Contexts::Context* get_CurrentContext();
+    static ::System::Runtime::Remoting::Contexts::Context* get_CurrentContext();
     // static public System.Security.Principal.IPrincipal get_CurrentPrincipal()
     // Offset: 0x1CDE29C
-    static System::Security::Principal::IPrincipal* get_CurrentPrincipal();
+    static ::System::Security::Principal::IPrincipal* get_CurrentPrincipal();
     // static public System.Threading.Thread get_CurrentThread()
     // Offset: 0x1CDC6D4
-    static System::Threading::Thread* get_CurrentThread();
+    static ::System::Threading::Thread* get_CurrentThread();
     // static System.Int32 get_CurrentThreadId()
     // Offset: 0x1CDE3E8
     static int get_CurrentThreadId();
@@ -249,27 +249,27 @@ namespace System::Threading {
     void set_Name(::StringW value);
     // public System.Threading.ThreadState get_ThreadState()
     // Offset: 0x1CDD918
-    System::Threading::ThreadState get_ThreadState();
+    ::System::Threading::ThreadState get_ThreadState();
     // public System.Int32 get_ManagedThreadId()
     // Offset: 0x1CDE5F8
     int get_ManagedThreadId();
     // public System.Void .ctor(System.Threading.ThreadStart start)
     // Offset: 0x1CDD44C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Thread* New_ctor(System::Threading::ThreadStart* start) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Thread::.ctor");
+    static Thread* New_ctor(::System::Threading::ThreadStart* start) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::Thread::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Thread*, creationType>(start)));
     }
     // public System.Void .ctor(System.Threading.ParameterizedThreadStart start)
     // Offset: 0x1CDCF08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Thread* New_ctor(System::Threading::ParameterizedThreadStart* start) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Thread::.ctor");
+    static Thread* New_ctor(::System::Threading::ParameterizedThreadStart* start) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::Thread::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Thread*, creationType>(start)));
     }
     // static private System.Void AsyncLocalSetCurrentCulture(System.Threading.AsyncLocalValueChangedArgs`1<System.Globalization.CultureInfo> args)
     // Offset: 0x1CDD3F4
-    static void AsyncLocalSetCurrentCulture(System::Threading::AsyncLocalValueChangedArgs_1<System::Globalization::CultureInfo*> args);
+    static void AsyncLocalSetCurrentCulture(::System::Threading::AsyncLocalValueChangedArgs_1<::System::Globalization::CultureInfo*> args);
     // public System.Void Start()
     // Offset: 0x1CDD5EC
     void Start();
@@ -278,19 +278,19 @@ namespace System::Threading {
     void Start(::Il2CppObject* parameter);
     // private System.Void Start(ref System.Threading.StackCrawlMark stackMark)
     // Offset: 0x1CDD614
-    void Start(ByRef<System::Threading::StackCrawlMark> stackMark);
+    void Start(ByRef<::System::Threading::StackCrawlMark> stackMark);
     // System.Threading.ExecutionContext/System.Threading.Reader GetExecutionContextReader()
     // Offset: 0x1CDD784
-    System::Threading::ExecutionContext::Reader GetExecutionContextReader();
+    ::System::Threading::ExecutionContext::Reader GetExecutionContextReader();
     // System.Threading.ExecutionContext GetMutableExecutionContext()
     // Offset: 0x1CDD7AC
-    System::Threading::ExecutionContext* GetMutableExecutionContext();
+    ::System::Threading::ExecutionContext* GetMutableExecutionContext();
     // System.Void SetExecutionContext(System.Threading.ExecutionContext value, System.Boolean belongsToCurrentScope)
     // Offset: 0x1CDD84C
-    void SetExecutionContext(System::Threading::ExecutionContext* value, bool belongsToCurrentScope);
+    void SetExecutionContext(::System::Threading::ExecutionContext* value, bool belongsToCurrentScope);
     // System.Void SetExecutionContext(System.Threading.ExecutionContext/System.Threading.Reader value, System.Boolean belongsToCurrentScope)
     // Offset: 0x1CDD860
-    void SetExecutionContext(System::Threading::ExecutionContext::Reader value, bool belongsToCurrentScope);
+    void SetExecutionContext(::System::Threading::ExecutionContext::Reader value, bool belongsToCurrentScope);
     // static public System.Void ResetAbort()
     // Offset: 0x1CDD874
     static void ResetAbort();
@@ -320,13 +320,13 @@ namespace System::Threading {
     static bool Yield();
     // private System.Void SetStartHelper(System.Delegate start, System.Int32 maxStackSize)
     // Offset: 0x1CDD4F0
-    void SetStartHelper(System::Delegate* start, int maxStackSize);
+    void SetStartHelper(::System::Delegate* start, int maxStackSize);
     // System.Globalization.CultureInfo GetCurrentUICultureNoAppX()
     // Offset: 0x1CDDB88
-    System::Globalization::CultureInfo* GetCurrentUICultureNoAppX();
+    ::System::Globalization::CultureInfo* GetCurrentUICultureNoAppX();
     // private System.Globalization.CultureInfo GetCurrentCultureNoAppX()
     // Offset: 0x1CDDC44
-    System::Globalization::CultureInfo* GetCurrentCultureNoAppX();
+    ::System::Globalization::CultureInfo* GetCurrentCultureNoAppX();
     // static private System.Void nativeInitCultureAccessors()
     // Offset: 0x1CDDE88
     static void nativeInitCultureAccessors();
@@ -341,25 +341,25 @@ namespace System::Threading {
     static ::ArrayW<uint8_t> ByteArrayToCurrentDomain(::ArrayW<uint8_t> arr);
     // static private System.Void DeserializePrincipal(System.Threading.Thread th)
     // Offset: 0x1CDDF68
-    static void DeserializePrincipal(System::Threading::Thread* th);
+    static void DeserializePrincipal(::System::Threading::Thread* th);
     // static private System.Threading.Thread GetCurrentThread()
     // Offset: 0x1CDE3E4
-    static System::Threading::Thread* GetCurrentThread();
+    static ::System::Threading::Thread* GetCurrentThread();
     // static public System.AppDomain GetDomain()
     // Offset: 0x1CDE3DC
-    static System::AppDomain* GetDomain();
+    static ::System::AppDomain* GetDomain();
     // static public System.Int32 GetDomainID()
     // Offset: 0x1CDE410
     static int GetDomainID();
     // private System.IntPtr Thread_internal(System.MulticastDelegate start)
     // Offset: 0x1CDE414
-    System::IntPtr Thread_internal(System::MulticastDelegate* start);
+    ::System::IntPtr Thread_internal(::System::MulticastDelegate* start);
     // static private System.Void SetName_internal(System.Threading.InternalThread thread, System.String name)
     // Offset: 0x1CDE548
-    static void SetName_internal(System::Threading::InternalThread* thread, ::StringW name);
+    static void SetName_internal(::System::Threading::InternalThread* thread, ::StringW name);
     // static private System.Void Abort_internal(System.Threading.InternalThread thread, System.Object stateInfo)
     // Offset: 0x1CDE584
-    static void Abort_internal(System::Threading::InternalThread* thread, ::Il2CppObject* stateInfo);
+    static void Abort_internal(::System::Threading::InternalThread* thread, ::Il2CppObject* stateInfo);
     // public System.Void Abort()
     // Offset: 0x1CDE588
     void Abort();
@@ -374,16 +374,16 @@ namespace System::Threading {
     static void SpinWait(int iterations);
     // private System.Void StartInternal(System.Security.Principal.IPrincipal principal, ref System.Threading.StackCrawlMark stackMark)
     // Offset: 0x1CDD6E8
-    void StartInternal(System::Security::Principal::IPrincipal* principal, ByRef<System::Threading::StackCrawlMark> stackMark);
+    void StartInternal(::System::Security::Principal::IPrincipal* principal, ByRef<::System::Threading::StackCrawlMark> stackMark);
     // static private System.Void SetState(System.Threading.InternalThread thread, System.Threading.ThreadState set)
     // Offset: 0x1CDE540
-    static void SetState(System::Threading::InternalThread* thread, System::Threading::ThreadState set);
+    static void SetState(::System::Threading::InternalThread* thread, ::System::Threading::ThreadState set);
     // static private System.Void ClrState(System.Threading.InternalThread thread, System.Threading.ThreadState clr)
     // Offset: 0x1CDE544
-    static void ClrState(System::Threading::InternalThread* thread, System::Threading::ThreadState clr);
+    static void ClrState(::System::Threading::InternalThread* thread, ::System::Threading::ThreadState clr);
     // static private System.Threading.ThreadState GetState(System.Threading.InternalThread thread)
     // Offset: 0x1CDE4A8
-    static System::Threading::ThreadState GetState(System::Threading::InternalThread* thread);
+    static ::System::Threading::ThreadState GetState(::System::Threading::InternalThread* thread);
     // static private System.Int32 SystemMaxStackStize()
     // Offset: 0x1CDE5F4
     static int SystemMaxStackStize();
@@ -392,7 +392,7 @@ namespace System::Threading {
     static int GetProcessDefaultStackSize(int maxStackSize);
     // private System.Void SetStart(System.MulticastDelegate start, System.Int32 maxStackSize)
     // Offset: 0x1CDDB44
-    void SetStart(System::MulticastDelegate* start, int maxStackSize);
+    void SetStart(::System::MulticastDelegate* start, int maxStackSize);
     // static public System.Void BeginCriticalRegion()
     // Offset: 0x1CDE630
     static void BeginCriticalRegion();
@@ -401,7 +401,7 @@ namespace System::Threading {
     static void EndCriticalRegion();
     // private System.Threading.ThreadState ValidateThreadState()
     // Offset: 0x1CDE4AC
-    System::Threading::ThreadState ValidateThreadState();
+    ::System::Threading::ThreadState ValidateThreadState();
     // protected override System.Void Finalize()
     // Offset: 0x1CDE418
     // Implemented from: System.Runtime.ConstrainedExecution.CriticalFinalizerObject
@@ -438,7 +438,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Threading::Thread::set_Priority
 // Il2CppName: set_Priority
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Thread::*)(System::Threading::ThreadPriority)>(&System::Threading::Thread::set_Priority)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Thread::*)(::System::Threading::ThreadPriority)>(&System::Threading::Thread::set_Priority)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Threading", "ThreadPriority")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "set_Priority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -447,7 +447,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Threading::Thread::get_CurrentUICulture
 // Il2CppName: get_CurrentUICulture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureInfo* (System::Threading::Thread::*)()>(&System::Threading::Thread::get_CurrentUICulture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::CultureInfo* (System::Threading::Thread::*)()>(&System::Threading::Thread::get_CurrentUICulture)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "get_CurrentUICulture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -455,7 +455,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 // Writing MetadataGetter for method: System::Threading::Thread::get_CurrentCulture
 // Il2CppName: get_CurrentCulture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureInfo* (System::Threading::Thread::*)()>(&System::Threading::Thread::get_CurrentCulture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::CultureInfo* (System::Threading::Thread::*)()>(&System::Threading::Thread::get_CurrentCulture)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "get_CurrentCulture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -463,7 +463,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 // Writing MetadataGetter for method: System::Threading::Thread::set_CurrentCulture
 // Il2CppName: set_CurrentCulture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Thread::*)(System::Globalization::CultureInfo*)>(&System::Threading::Thread::set_CurrentCulture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Thread::*)(::System::Globalization::CultureInfo*)>(&System::Threading::Thread::set_CurrentCulture)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Globalization", "CultureInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "set_CurrentCulture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -472,7 +472,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Threading::Thread::get_Internal
 // Il2CppName: get_Internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::InternalThread* (System::Threading::Thread::*)()>(&System::Threading::Thread::get_Internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::InternalThread* (System::Threading::Thread::*)()>(&System::Threading::Thread::get_Internal)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "get_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -480,7 +480,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: System::Threading::Thread::get_CurrentContext
 // Il2CppName: get_CurrentContext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Contexts::Context* (*)()>(&System::Threading::Thread::get_CurrentContext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Contexts::Context* (*)()>(&System::Threading::Thread::get_CurrentContext)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "get_CurrentContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -488,7 +488,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: System::Threading::Thread::get_CurrentPrincipal
 // Il2CppName: get_CurrentPrincipal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Principal::IPrincipal* (*)()>(&System::Threading::Thread::get_CurrentPrincipal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Principal::IPrincipal* (*)()>(&System::Threading::Thread::get_CurrentPrincipal)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "get_CurrentPrincipal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -496,7 +496,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Writing MetadataGetter for method: System::Threading::Thread::get_CurrentThread
 // Il2CppName: get_CurrentThread
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Thread* (*)()>(&System::Threading::Thread::get_CurrentThread)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Thread* (*)()>(&System::Threading::Thread::get_CurrentThread)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "get_CurrentThread", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -554,7 +554,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Threading::Thread::get_ThreadState
 // Il2CppName: get_ThreadState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::ThreadState (System::Threading::Thread::*)()>(&System::Threading::Thread::get_ThreadState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::ThreadState (System::Threading::Thread::*)()>(&System::Threading::Thread::get_ThreadState)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "get_ThreadState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -578,7 +578,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Threading::Thread::AsyncLocalSetCurrentCulture
 // Il2CppName: AsyncLocalSetCurrentCulture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::AsyncLocalValueChangedArgs_1<System::Globalization::CultureInfo*>)>(&System::Threading::Thread::AsyncLocalSetCurrentCulture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Threading::AsyncLocalValueChangedArgs_1<::System::Globalization::CultureInfo*>)>(&System::Threading::Thread::AsyncLocalSetCurrentCulture)> {
   static const MethodInfo* get() {
     static auto* args = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Threading", "AsyncLocalValueChangedArgs`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System.Globalization", "CultureInfo")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "AsyncLocalSetCurrentCulture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{args});
@@ -604,7 +604,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Threading::Thread::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Thread::*)(ByRef<System::Threading::StackCrawlMark>)>(&System::Threading::Thread::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Thread::*)(ByRef<::System::Threading::StackCrawlMark>)>(&System::Threading::Thread::Start)> {
   static const MethodInfo* get() {
     static auto* stackMark = &::il2cpp_utils::GetClassFromName("System.Threading", "StackCrawlMark")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stackMark});
@@ -613,7 +613,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Threading::Thread::GetExecutionContextReader
 // Il2CppName: GetExecutionContextReader
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::ExecutionContext::Reader (System::Threading::Thread::*)()>(&System::Threading::Thread::GetExecutionContextReader)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::ExecutionContext::Reader (System::Threading::Thread::*)()>(&System::Threading::Thread::GetExecutionContextReader)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "GetExecutionContextReader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -621,7 +621,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: System::Threading::Thread::GetMutableExecutionContext
 // Il2CppName: GetMutableExecutionContext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::ExecutionContext* (System::Threading::Thread::*)()>(&System::Threading::Thread::GetMutableExecutionContext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::ExecutionContext* (System::Threading::Thread::*)()>(&System::Threading::Thread::GetMutableExecutionContext)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "GetMutableExecutionContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -629,7 +629,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: System::Threading::Thread::SetExecutionContext
 // Il2CppName: SetExecutionContext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Thread::*)(System::Threading::ExecutionContext*, bool)>(&System::Threading::Thread::SetExecutionContext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Thread::*)(::System::Threading::ExecutionContext*, bool)>(&System::Threading::Thread::SetExecutionContext)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Threading", "ExecutionContext")->byval_arg;
     static auto* belongsToCurrentScope = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -639,7 +639,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Threading::Thread::SetExecutionContext
 // Il2CppName: SetExecutionContext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Thread::*)(System::Threading::ExecutionContext::Reader, bool)>(&System::Threading::Thread::SetExecutionContext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Thread::*)(::System::Threading::ExecutionContext::Reader, bool)>(&System::Threading::Thread::SetExecutionContext)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Threading", "ExecutionContext/Reader")->byval_arg;
     static auto* belongsToCurrentScope = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -725,7 +725,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Writing MetadataGetter for method: System::Threading::Thread::SetStartHelper
 // Il2CppName: SetStartHelper
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Thread::*)(System::Delegate*, int)>(&System::Threading::Thread::SetStartHelper)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Thread::*)(::System::Delegate*, int)>(&System::Threading::Thread::SetStartHelper)> {
   static const MethodInfo* get() {
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Delegate")->byval_arg;
     static auto* maxStackSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -735,7 +735,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Threading::Thread::GetCurrentUICultureNoAppX
 // Il2CppName: GetCurrentUICultureNoAppX
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureInfo* (System::Threading::Thread::*)()>(&System::Threading::Thread::GetCurrentUICultureNoAppX)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::CultureInfo* (System::Threading::Thread::*)()>(&System::Threading::Thread::GetCurrentUICultureNoAppX)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "GetCurrentUICultureNoAppX", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -743,7 +743,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 // Writing MetadataGetter for method: System::Threading::Thread::GetCurrentCultureNoAppX
 // Il2CppName: GetCurrentCultureNoAppX
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureInfo* (System::Threading::Thread::*)()>(&System::Threading::Thread::GetCurrentCultureNoAppX)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::CultureInfo* (System::Threading::Thread::*)()>(&System::Threading::Thread::GetCurrentCultureNoAppX)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "GetCurrentCultureNoAppX", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -784,7 +784,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
 // Writing MetadataGetter for method: System::Threading::Thread::DeserializePrincipal
 // Il2CppName: DeserializePrincipal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::Thread*)>(&System::Threading::Thread::DeserializePrincipal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Threading::Thread*)>(&System::Threading::Thread::DeserializePrincipal)> {
   static const MethodInfo* get() {
     static auto* th = &::il2cpp_utils::GetClassFromName("System.Threading", "Thread")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "DeserializePrincipal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{th});
@@ -793,7 +793,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Threading::Thread::GetCurrentThread
 // Il2CppName: GetCurrentThread
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Thread* (*)()>(&System::Threading::Thread::GetCurrentThread)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Thread* (*)()>(&System::Threading::Thread::GetCurrentThread)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "GetCurrentThread", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -801,7 +801,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: System::Threading::Thread::GetDomain
 // Il2CppName: GetDomain
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::AppDomain* (*)()>(&System::Threading::Thread::GetDomain)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::AppDomain* (*)()>(&System::Threading::Thread::GetDomain)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "GetDomain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -817,7 +817,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(
 // Writing MetadataGetter for method: System::Threading::Thread::Thread_internal
 // Il2CppName: Thread_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (System::Threading::Thread::*)(System::MulticastDelegate*)>(&System::Threading::Thread::Thread_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (System::Threading::Thread::*)(::System::MulticastDelegate*)>(&System::Threading::Thread::Thread_internal)> {
   static const MethodInfo* get() {
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "MulticastDelegate")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "Thread_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{start});
@@ -826,7 +826,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: System::Threading::Thread::SetName_internal
 // Il2CppName: SetName_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::InternalThread*, ::StringW)>(&System::Threading::Thread::SetName_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Threading::InternalThread*, ::StringW)>(&System::Threading::Thread::SetName_internal)> {
   static const MethodInfo* get() {
     static auto* thread = &::il2cpp_utils::GetClassFromName("System.Threading", "InternalThread")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -836,7 +836,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Threading::Thread::Abort_internal
 // Il2CppName: Abort_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::InternalThread*, ::Il2CppObject*)>(&System::Threading::Thread::Abort_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Threading::InternalThread*, ::Il2CppObject*)>(&System::Threading::Thread::Abort_internal)> {
   static const MethodInfo* get() {
     static auto* thread = &::il2cpp_utils::GetClassFromName("System.Threading", "InternalThread")->byval_arg;
     static auto* stateInfo = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -879,7 +879,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 // Writing MetadataGetter for method: System::Threading::Thread::StartInternal
 // Il2CppName: StartInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Thread::*)(System::Security::Principal::IPrincipal*, ByRef<System::Threading::StackCrawlMark>)>(&System::Threading::Thread::StartInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Thread::*)(::System::Security::Principal::IPrincipal*, ByRef<::System::Threading::StackCrawlMark>)>(&System::Threading::Thread::StartInternal)> {
   static const MethodInfo* get() {
     static auto* principal = &::il2cpp_utils::GetClassFromName("System.Security.Principal", "IPrincipal")->byval_arg;
     static auto* stackMark = &::il2cpp_utils::GetClassFromName("System.Threading", "StackCrawlMark")->this_arg;
@@ -889,7 +889,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Threading::Thread::SetState
 // Il2CppName: SetState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::InternalThread*, System::Threading::ThreadState)>(&System::Threading::Thread::SetState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Threading::InternalThread*, ::System::Threading::ThreadState)>(&System::Threading::Thread::SetState)> {
   static const MethodInfo* get() {
     static auto* thread = &::il2cpp_utils::GetClassFromName("System.Threading", "InternalThread")->byval_arg;
     static auto* set = &::il2cpp_utils::GetClassFromName("System.Threading", "ThreadState")->byval_arg;
@@ -899,7 +899,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Threading::Thread::ClrState
 // Il2CppName: ClrState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::InternalThread*, System::Threading::ThreadState)>(&System::Threading::Thread::ClrState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Threading::InternalThread*, ::System::Threading::ThreadState)>(&System::Threading::Thread::ClrState)> {
   static const MethodInfo* get() {
     static auto* thread = &::il2cpp_utils::GetClassFromName("System.Threading", "InternalThread")->byval_arg;
     static auto* clr = &::il2cpp_utils::GetClassFromName("System.Threading", "ThreadState")->byval_arg;
@@ -909,7 +909,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Threading::Thread::GetState
 // Il2CppName: GetState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::ThreadState (*)(System::Threading::InternalThread*)>(&System::Threading::Thread::GetState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::ThreadState (*)(::System::Threading::InternalThread*)>(&System::Threading::Thread::GetState)> {
   static const MethodInfo* get() {
     static auto* thread = &::il2cpp_utils::GetClassFromName("System.Threading", "InternalThread")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "GetState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{thread});
@@ -935,7 +935,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 // Writing MetadataGetter for method: System::Threading::Thread::SetStart
 // Il2CppName: SetStart
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Thread::*)(System::MulticastDelegate*, int)>(&System::Threading::Thread::SetStart)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Thread::*)(::System::MulticastDelegate*, int)>(&System::Threading::Thread::SetStart)> {
   static const MethodInfo* get() {
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "MulticastDelegate")->byval_arg;
     static auto* maxStackSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -961,7 +961,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Threading::Thread::ValidateThreadState
 // Il2CppName: ValidateThreadState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::ThreadState (System::Threading::Thread::*)()>(&System::Threading::Thread::ValidateThreadState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::ThreadState (System::Threading::Thread::*)()>(&System::Threading::Thread::ValidateThreadState)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "ValidateThreadState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

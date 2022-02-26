@@ -25,8 +25,8 @@ namespace System::Data {
   class AutoIncrementValue;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Data::AutoIncrementValue);
-DEFINE_IL2CPP_ARG_TYPE(System::Data::AutoIncrementValue*, "System.Data", "AutoIncrementValue");
+NEED_NO_BOX(::System::Data::AutoIncrementValue);
+DEFINE_IL2CPP_ARG_TYPE(::System::Data::AutoIncrementValue*, "System.Data", "AutoIncrementValue");
 // Type namespace: System.Data
 namespace System::Data {
   // Size: 0x11
@@ -83,10 +83,10 @@ namespace System::Data {
     void set_Step(int64_t value);
     // System.Type get_DataType()
     // Offset: 0xFFFFFFFF
-    System::Type* get_DataType();
+    ::System::Type* get_DataType();
     // System.Void SetCurrent(System.Object value, System.IFormatProvider formatProvider)
     // Offset: 0xFFFFFFFF
-    void SetCurrent(::Il2CppObject* value, System::IFormatProvider* formatProvider);
+    void SetCurrent(::Il2CppObject* value, ::System::IFormatProvider* formatProvider);
     // System.Void SetCurrentAndIncrement(System.Object value)
     // Offset: 0xFFFFFFFF
     void SetCurrentAndIncrement(::Il2CppObject* value);
@@ -95,14 +95,14 @@ namespace System::Data {
     void MoveAfter();
     // System.Data.AutoIncrementValue Clone()
     // Offset: 0x1D07E7C
-    System::Data::AutoIncrementValue* Clone();
+    ::System::Data::AutoIncrementValue* Clone();
     // protected System.Void .ctor()
     // Offset: 0x1D078B4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AutoIncrementValue* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Data::AutoIncrementValue::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Data::AutoIncrementValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AutoIncrementValue*, creationType>()));
     }
   }; // System.Data.AutoIncrementValue
@@ -182,7 +182,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::AutoIncrementValue::get_DataType
 // Il2CppName: get_DataType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Data::AutoIncrementValue::*)()>(&System::Data::AutoIncrementValue::get_DataType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (System::Data::AutoIncrementValue::*)()>(&System::Data::AutoIncrementValue::get_DataType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::AutoIncrementValue*), "get_DataType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -190,7 +190,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: System::Data::AutoIncrementValue::SetCurrent
 // Il2CppName: SetCurrent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::AutoIncrementValue::*)(::Il2CppObject*, System::IFormatProvider*)>(&System::Data::AutoIncrementValue::SetCurrent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::AutoIncrementValue::*)(::Il2CppObject*, ::System::IFormatProvider*)>(&System::Data::AutoIncrementValue::SetCurrent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* formatProvider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -217,7 +217,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::AutoIncrementValue::Clone
 // Il2CppName: Clone
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::AutoIncrementValue* (System::Data::AutoIncrementValue::*)()>(&System::Data::AutoIncrementValue::Clone)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::AutoIncrementValue* (System::Data::AutoIncrementValue::*)()>(&System::Data::AutoIncrementValue::Clone)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::AutoIncrementValue*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

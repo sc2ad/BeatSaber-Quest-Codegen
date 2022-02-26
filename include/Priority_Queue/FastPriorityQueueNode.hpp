@@ -16,8 +16,8 @@ namespace Priority_Queue {
   class FastPriorityQueueNode;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Priority_Queue::FastPriorityQueueNode);
-DEFINE_IL2CPP_ARG_TYPE(Priority_Queue::FastPriorityQueueNode*, "Priority_Queue", "FastPriorityQueueNode");
+NEED_NO_BOX(::Priority_Queue::FastPriorityQueueNode);
+DEFINE_IL2CPP_ARG_TYPE(::Priority_Queue::FastPriorityQueueNode*, "Priority_Queue", "FastPriorityQueueNode");
 // Type namespace: Priority_Queue
 namespace Priority_Queue {
   // Size: 0x18
@@ -70,7 +70,7 @@ namespace Priority_Queue {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FastPriorityQueueNode* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Priority_Queue::FastPriorityQueueNode::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Priority_Queue::FastPriorityQueueNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FastPriorityQueueNode*, creationType>()));
     }
   }; // Priority_Queue.FastPriorityQueueNode

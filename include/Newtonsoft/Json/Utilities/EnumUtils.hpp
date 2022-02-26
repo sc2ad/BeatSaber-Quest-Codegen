@@ -43,8 +43,8 @@ namespace Newtonsoft::Json::Utilities {
   class EnumUtils;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Utilities::EnumUtils);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::EnumUtils*, "Newtonsoft.Json.Utilities", "EnumUtils");
+NEED_NO_BOX(::Newtonsoft::Json::Utilities::EnumUtils);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::EnumUtils*, "Newtonsoft.Json.Utilities", "EnumUtils");
 // Type namespace: Newtonsoft.Json.Utilities
 namespace Newtonsoft::Json::Utilities {
   // Size: 0x10
@@ -55,44 +55,44 @@ namespace Newtonsoft::Json::Utilities {
   // [NullableContextAttribute] Offset: 1201F64
   class EnumUtils : public ::Il2CppObject {
     public:
-    // Nested type: Newtonsoft::Json::Utilities::EnumUtils::$$c
+    // Nested type: ::Newtonsoft::Json::Utilities::EnumUtils::$$c
     class $$c;
     // [NullableAttribute] Offset: 0x12047F8
     // Get static field: static private readonly Newtonsoft.Json.Utilities.ThreadSafeStore`2<Newtonsoft.Json.Utilities.StructMultiKey`2<System.Type,Newtonsoft.Json.Serialization.NamingStrategy>,Newtonsoft.Json.Utilities.EnumInfo> ValuesAndNamesPerEnum
-    static Newtonsoft::Json::Utilities::ThreadSafeStore_2<Newtonsoft::Json::Utilities::StructMultiKey_2<System::Type*, Newtonsoft::Json::Serialization::NamingStrategy*>, Newtonsoft::Json::Utilities::EnumInfo*>* _get_ValuesAndNamesPerEnum();
+    static ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::Newtonsoft::Json::Utilities::StructMultiKey_2<::System::Type*, ::Newtonsoft::Json::Serialization::NamingStrategy*>, ::Newtonsoft::Json::Utilities::EnumInfo*>* _get_ValuesAndNamesPerEnum();
     // Set static field: static private readonly Newtonsoft.Json.Utilities.ThreadSafeStore`2<Newtonsoft.Json.Utilities.StructMultiKey`2<System.Type,Newtonsoft.Json.Serialization.NamingStrategy>,Newtonsoft.Json.Utilities.EnumInfo> ValuesAndNamesPerEnum
-    static void _set_ValuesAndNamesPerEnum(Newtonsoft::Json::Utilities::ThreadSafeStore_2<Newtonsoft::Json::Utilities::StructMultiKey_2<System::Type*, Newtonsoft::Json::Serialization::NamingStrategy*>, Newtonsoft::Json::Utilities::EnumInfo*>* value);
+    static void _set_ValuesAndNamesPerEnum(::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::Newtonsoft::Json::Utilities::StructMultiKey_2<::System::Type*, ::Newtonsoft::Json::Serialization::NamingStrategy*>, ::Newtonsoft::Json::Utilities::EnumInfo*>* value);
     // Get static field: static private Newtonsoft.Json.Serialization.CamelCaseNamingStrategy _camelCaseNamingStrategy
-    static Newtonsoft::Json::Serialization::CamelCaseNamingStrategy* _get__camelCaseNamingStrategy();
+    static ::Newtonsoft::Json::Serialization::CamelCaseNamingStrategy* _get__camelCaseNamingStrategy();
     // Set static field: static private Newtonsoft.Json.Serialization.CamelCaseNamingStrategy _camelCaseNamingStrategy
-    static void _set__camelCaseNamingStrategy(Newtonsoft::Json::Serialization::CamelCaseNamingStrategy* value);
+    static void _set__camelCaseNamingStrategy(::Newtonsoft::Json::Serialization::CamelCaseNamingStrategy* value);
     // static private System.Void .cctor()
     // Offset: 0x19E4404
     static void _cctor();
     // static private Newtonsoft.Json.Utilities.EnumInfo InitializeValuesAndNames(Newtonsoft.Json.Utilities.StructMultiKey`2<System.Type,Newtonsoft.Json.Serialization.NamingStrategy> key)
     // Offset: 0x19E3098
-    static Newtonsoft::Json::Utilities::EnumInfo* InitializeValuesAndNames(Newtonsoft::Json::Utilities::StructMultiKey_2<System::Type*, Newtonsoft::Json::Serialization::NamingStrategy*> key);
+    static ::Newtonsoft::Json::Utilities::EnumInfo* InitializeValuesAndNames(::Newtonsoft::Json::Utilities::StructMultiKey_2<::System::Type*, ::Newtonsoft::Json::Serialization::NamingStrategy*> key);
     // static public System.Boolean TryToString(System.Type enumType, System.Object value, Newtonsoft.Json.Serialization.NamingStrategy namingStrategy, out System.String name)
     // Offset: 0x19D4C9C
-    static bool TryToString(System::Type* enumType, ::Il2CppObject* value, Newtonsoft::Json::Serialization::NamingStrategy* namingStrategy, ByRef<::StringW> name);
+    static bool TryToString(::System::Type* enumType, ::Il2CppObject* value, ::Newtonsoft::Json::Serialization::NamingStrategy* namingStrategy, ByRef<::StringW> name);
     // static private System.String InternalFlagsFormat(Newtonsoft.Json.Utilities.EnumInfo entry, System.UInt64 result)
     // Offset: 0x19E3804
-    static ::StringW InternalFlagsFormat(Newtonsoft::Json::Utilities::EnumInfo* entry, uint64_t result);
+    static ::StringW InternalFlagsFormat(::Newtonsoft::Json::Utilities::EnumInfo* entry, uint64_t result);
     // static public Newtonsoft.Json.Utilities.EnumInfo GetEnumValuesAndNames(System.Type enumType)
     // Offset: 0x19E39A0
-    static Newtonsoft::Json::Utilities::EnumInfo* GetEnumValuesAndNames(System::Type* enumType);
+    static ::Newtonsoft::Json::Utilities::EnumInfo* GetEnumValuesAndNames(::System::Type* enumType);
     // static private System.UInt64 ToUInt64(System.Object value)
     // Offset: 0x19E354C
     static uint64_t ToUInt64(::Il2CppObject* value);
     // static public System.Object ParseEnum(System.Type enumType, Newtonsoft.Json.Serialization.NamingStrategy namingStrategy, System.String value, System.Boolean disallowNumber)
     // Offset: 0x19E3A54
-    static ::Il2CppObject* ParseEnum(System::Type* enumType, Newtonsoft::Json::Serialization::NamingStrategy* namingStrategy, ::StringW value, bool disallowNumber);
+    static ::Il2CppObject* ParseEnum(::System::Type* enumType, ::Newtonsoft::Json::Serialization::NamingStrategy* namingStrategy, ::StringW value, bool disallowNumber);
     // static private System.Nullable`1<System.Int32> MatchName(System.String value, System.String[] enumNames, System.String[] resolvedNames, System.Int32 valueIndex, System.Int32 valueSubstringLength, System.StringComparison comparison)
     // Offset: 0x19E4320
-    static System::Nullable_1<int> MatchName(::StringW value, ::ArrayW<::StringW> enumNames, ::ArrayW<::StringW> resolvedNames, int valueIndex, int valueSubstringLength, System::StringComparison comparison);
+    static ::System::Nullable_1<int> MatchName(::StringW value, ::ArrayW<::StringW> enumNames, ::ArrayW<::StringW> resolvedNames, int valueIndex, int valueSubstringLength, ::System::StringComparison comparison);
     // static private System.Nullable`1<System.Int32> FindIndexByName(System.String[] enumNames, System.String value, System.Int32 valueIndex, System.Int32 valueSubstringLength, System.StringComparison comparison)
     // Offset: 0x19E4218
-    static System::Nullable_1<int> FindIndexByName(::ArrayW<::StringW> enumNames, ::StringW value, int valueIndex, int valueSubstringLength, System::StringComparison comparison);
+    static ::System::Nullable_1<int> FindIndexByName(::ArrayW<::StringW> enumNames, ::StringW value, int valueIndex, int valueSubstringLength, ::System::StringComparison comparison);
   }; // Newtonsoft.Json.Utilities.EnumUtils
   #pragma pack(pop)
 }
@@ -108,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::EnumUtils::InitializeValuesAndNames
 // Il2CppName: InitializeValuesAndNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Utilities::EnumInfo* (*)(Newtonsoft::Json::Utilities::StructMultiKey_2<System::Type*, Newtonsoft::Json::Serialization::NamingStrategy*>)>(&Newtonsoft::Json::Utilities::EnumUtils::InitializeValuesAndNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Utilities::EnumInfo* (*)(::Newtonsoft::Json::Utilities::StructMultiKey_2<::System::Type*, ::Newtonsoft::Json::Serialization::NamingStrategy*>)>(&Newtonsoft::Json::Utilities::EnumUtils::InitializeValuesAndNames)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Utilities", "StructMultiKey`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Type"), ::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Serialization", "NamingStrategy")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::EnumUtils*), "InitializeValuesAndNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});
@@ -117,7 +117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft:
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::EnumUtils::TryToString
 // Il2CppName: TryToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, ::Il2CppObject*, Newtonsoft::Json::Serialization::NamingStrategy*, ByRef<::StringW>)>(&Newtonsoft::Json::Utilities::EnumUtils::TryToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::Il2CppObject*, ::Newtonsoft::Json::Serialization::NamingStrategy*, ByRef<::StringW>)>(&Newtonsoft::Json::Utilities::EnumUtils::TryToString)> {
   static const MethodInfo* get() {
     static auto* enumType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -129,7 +129,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::EnumUtils::InternalFlagsFormat
 // Il2CppName: InternalFlagsFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(Newtonsoft::Json::Utilities::EnumInfo*, uint64_t)>(&Newtonsoft::Json::Utilities::EnumUtils::InternalFlagsFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::Newtonsoft::Json::Utilities::EnumInfo*, uint64_t)>(&Newtonsoft::Json::Utilities::EnumUtils::InternalFlagsFormat)> {
   static const MethodInfo* get() {
     static auto* entry = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Utilities", "EnumInfo")->byval_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
@@ -139,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::EnumUtils::GetEnumValuesAndNames
 // Il2CppName: GetEnumValuesAndNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Utilities::EnumInfo* (*)(System::Type*)>(&Newtonsoft::Json::Utilities::EnumUtils::GetEnumValuesAndNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Utilities::EnumInfo* (*)(::System::Type*)>(&Newtonsoft::Json::Utilities::EnumUtils::GetEnumValuesAndNames)> {
   static const MethodInfo* get() {
     static auto* enumType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::EnumUtils*), "GetEnumValuesAndNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enumType});
@@ -157,7 +157,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::EnumUtils::ParseEnum
 // Il2CppName: ParseEnum
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*, Newtonsoft::Json::Serialization::NamingStrategy*, ::StringW, bool)>(&Newtonsoft::Json::Utilities::EnumUtils::ParseEnum)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::System::Type*, ::Newtonsoft::Json::Serialization::NamingStrategy*, ::StringW, bool)>(&Newtonsoft::Json::Utilities::EnumUtils::ParseEnum)> {
   static const MethodInfo* get() {
     static auto* enumType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* namingStrategy = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Serialization", "NamingStrategy")->byval_arg;
@@ -169,7 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::EnumUtils::MatchName
 // Il2CppName: MatchName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<int> (*)(::StringW, ::ArrayW<::StringW>, ::ArrayW<::StringW>, int, int, System::StringComparison)>(&Newtonsoft::Json::Utilities::EnumUtils::MatchName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<int> (*)(::StringW, ::ArrayW<::StringW>, ::ArrayW<::StringW>, int, int, ::System::StringComparison)>(&Newtonsoft::Json::Utilities::EnumUtils::MatchName)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* enumNames = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
@@ -183,7 +183,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nul
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::EnumUtils::FindIndexByName
 // Il2CppName: FindIndexByName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<int> (*)(::ArrayW<::StringW>, ::StringW, int, int, System::StringComparison)>(&Newtonsoft::Json::Utilities::EnumUtils::FindIndexByName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<int> (*)(::ArrayW<::StringW>, ::StringW, int, int, ::System::StringComparison)>(&Newtonsoft::Json::Utilities::EnumUtils::FindIndexByName)> {
   static const MethodInfo* get() {
     static auto* enumNames = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

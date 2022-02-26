@@ -43,8 +43,8 @@ namespace System::Reflection {
   class MonoModule;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Reflection::MonoModule);
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoModule*, "System.Reflection", "MonoModule");
+NEED_NO_BOX(::System::Reflection::MonoModule);
+DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::MonoModule*, "System.Reflection", "MonoModule");
 // Type namespace: System.Reflection
 namespace System::Reflection {
   // Size: 0x40
@@ -54,16 +54,16 @@ namespace System::Reflection {
   // [ComDefaultInterfaceAttribute] Offset: 1188BF8
   // [ComVisibleAttribute] Offset: 1188BF8
   // [ClassInterfaceAttribute] Offset: 1188BF8
-  class MonoModule : public System::Reflection::RuntimeModule {
+  class MonoModule : public ::System::Reflection::RuntimeModule {
     public:
     // System.Reflection.RuntimeAssembly GetRuntimeAssembly()
     // Offset: 0x1C5D3F0
-    System::Reflection::RuntimeAssembly* GetRuntimeAssembly();
+    ::System::Reflection::RuntimeAssembly* GetRuntimeAssembly();
     // public override System.Reflection.Assembly get_Assembly()
     // Offset: 0x1C5D198
     // Implemented from: System.Reflection.Module
     // Base method: System.Reflection.Assembly Module::get_Assembly()
-    System::Reflection::Assembly* get_Assembly();
+    ::System::Reflection::Assembly* get_Assembly();
     // public override System.String get_ScopeName()
     // Offset: 0x1C5D1A0
     // Implemented from: System.Reflection.Module
@@ -73,7 +73,7 @@ namespace System::Reflection {
     // Offset: 0x1C5D1A8
     // Implemented from: System.Reflection.Module
     // Base method: System.Guid Module::get_ModuleVersionId()
-    System::Guid get_ModuleVersionId();
+    ::System::Guid get_ModuleVersionId();
     // public System.Void .ctor()
     // Offset: 0x1C5D470
     // Implemented from: System.Reflection.RuntimeModule
@@ -82,7 +82,7 @@ namespace System::Reflection {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoModule* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::MonoModule::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Reflection::MonoModule::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoModule*, creationType>()));
     }
     // public override System.Boolean IsResource()
@@ -99,17 +99,17 @@ namespace System::Reflection {
     // Offset: 0x1C5D234
     // Implemented from: System.Reflection.Module
     // Base method: System.Object[] Module::GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
-    ::ArrayW<::Il2CppObject*> GetCustomAttributes(System::Type* attributeType, bool inherit);
+    ::ArrayW<::Il2CppObject*> GetCustomAttributes(::System::Type* attributeType, bool inherit);
     // public override System.Boolean IsDefined(System.Type attributeType, System.Boolean inherit)
     // Offset: 0x1C5D2B4
     // Implemented from: System.Reflection.Module
     // Base method: System.Boolean Module::IsDefined(System.Type attributeType, System.Boolean inherit)
-    bool IsDefined(System::Type* attributeType, bool inherit);
+    bool IsDefined(::System::Type* attributeType, bool inherit);
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x1C5D334
     // Implemented from: System.Reflection.Module
     // Base method: System.Void Module::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
+    void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
   }; // System.Reflection.MonoModule
   #pragma pack(pop)
 }
@@ -117,7 +117,7 @@ namespace System::Reflection {
 // Writing MetadataGetter for method: System::Reflection::MonoModule::GetRuntimeAssembly
 // Il2CppName: GetRuntimeAssembly
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::RuntimeAssembly* (System::Reflection::MonoModule::*)()>(&System::Reflection::MonoModule::GetRuntimeAssembly)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::RuntimeAssembly* (System::Reflection::MonoModule::*)()>(&System::Reflection::MonoModule::GetRuntimeAssembly)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::MonoModule*), "GetRuntimeAssembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -125,7 +125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Reflection::MonoModule::get_Assembly
 // Il2CppName: get_Assembly
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (System::Reflection::MonoModule::*)()>(&System::Reflection::MonoModule::get_Assembly)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::Assembly* (System::Reflection::MonoModule::*)()>(&System::Reflection::MonoModule::get_Assembly)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::MonoModule*), "get_Assembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -141,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Reflection::MonoModule::get_ModuleVersionId
 // Il2CppName: get_ModuleVersionId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Guid (System::Reflection::MonoModule::*)()>(&System::Reflection::MonoModule::get_ModuleVersionId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Guid (System::Reflection::MonoModule::*)()>(&System::Reflection::MonoModule::get_ModuleVersionId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::MonoModule*), "get_ModuleVersionId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -170,7 +170,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: System::Reflection::MonoModule::GetCustomAttributes
 // Il2CppName: GetCustomAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (System::Reflection::MonoModule::*)(System::Type*, bool)>(&System::Reflection::MonoModule::GetCustomAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (System::Reflection::MonoModule::*)(::System::Type*, bool)>(&System::Reflection::MonoModule::GetCustomAttributes)> {
   static const MethodInfo* get() {
     static auto* attributeType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* inherit = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -180,7 +180,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: System::Reflection::MonoModule::IsDefined
 // Il2CppName: IsDefined
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Reflection::MonoModule::*)(System::Type*, bool)>(&System::Reflection::MonoModule::IsDefined)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Reflection::MonoModule::*)(::System::Type*, bool)>(&System::Reflection::MonoModule::IsDefined)> {
   static const MethodInfo* get() {
     static auto* attributeType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* inherit = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -190,7 +190,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Reflection::MonoModule::GetObjectData
 // Il2CppName: GetObjectData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Reflection::MonoModule::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::Reflection::MonoModule::GetObjectData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Reflection::MonoModule::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&System::Reflection::MonoModule::GetObjectData)> {
   static const MethodInfo* get() {
     static auto* info = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;

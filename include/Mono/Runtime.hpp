@@ -20,8 +20,8 @@ namespace Mono {
   class Runtime;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Runtime);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Runtime*, "Mono", "Runtime");
+NEED_NO_BOX(::Mono::Runtime);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Runtime*, "Mono", "Runtime");
 // Type namespace: Mono
 namespace Mono {
   // Size: 0x10
@@ -47,7 +47,7 @@ namespace Mono {
     static ::StringW GetDisplayName();
     // static private System.String GetNativeStackTrace(System.Exception exception)
     // Offset: 0x1E746EC
-    static ::StringW GetNativeStackTrace(System::Exception* exception);
+    static ::StringW GetNativeStackTrace(::System::Exception* exception);
     // static public System.Boolean SetGCAllowSynchronousMajor(System.Boolean flag)
     // Offset: 0x1E746F0
     static bool SetGCAllowSynchronousMajor(bool flag);
@@ -98,7 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: Mono::Runtime::GetNativeStackTrace
 // Il2CppName: GetNativeStackTrace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Exception*)>(&Mono::Runtime::GetNativeStackTrace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Exception*)>(&Mono::Runtime::GetNativeStackTrace)> {
   static const MethodInfo* get() {
     static auto* exception = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Runtime*), "GetNativeStackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{exception});

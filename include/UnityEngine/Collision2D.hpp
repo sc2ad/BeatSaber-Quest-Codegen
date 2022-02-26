@@ -17,8 +17,8 @@ namespace UnityEngine {
   class Collision2D;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Collision2D);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Collision2D*, "UnityEngine", "Collision2D");
+NEED_NO_BOX(::UnityEngine::Collision2D);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Collision2D*, "UnityEngine", "Collision2D");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x40
@@ -65,9 +65,9 @@ namespace UnityEngine {
     // UnityEngine.Vector2 m_RelativeVelocity
     // Size: 0x8
     // Offset: 0x20
-    UnityEngine::Vector2 m_RelativeVelocity;
+    ::UnityEngine::Vector2 m_RelativeVelocity;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector2) == 0x8);
+    static_assert(sizeof(::UnityEngine::Vector2) == 0x8);
     // System.Int32 m_Enabled
     // Size: 0x4
     // Offset: 0x28
@@ -83,15 +83,15 @@ namespace UnityEngine {
     // UnityEngine.ContactPoint2D[] m_ReusedContacts
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayW<UnityEngine::ContactPoint2D> m_ReusedContacts;
+    ::ArrayW<::UnityEngine::ContactPoint2D> m_ReusedContacts;
     // Field size check
-    static_assert(sizeof(::ArrayW<UnityEngine::ContactPoint2D>) == 0x8);
+    static_assert(sizeof(::ArrayW<::UnityEngine::ContactPoint2D>) == 0x8);
     // UnityEngine.ContactPoint2D[] m_LegacyContacts
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayW<UnityEngine::ContactPoint2D> m_LegacyContacts;
+    ::ArrayW<::UnityEngine::ContactPoint2D> m_LegacyContacts;
     // Field size check
-    static_assert(sizeof(::ArrayW<UnityEngine::ContactPoint2D>) == 0x8);
+    static_assert(sizeof(::ArrayW<::UnityEngine::ContactPoint2D>) == 0x8);
     public:
     // Get instance field reference: System.Int32 m_Collider
     int& dyn_m_Collider();
@@ -102,18 +102,18 @@ namespace UnityEngine {
     // Get instance field reference: System.Int32 m_OtherRigidbody
     int& dyn_m_OtherRigidbody();
     // Get instance field reference: UnityEngine.Vector2 m_RelativeVelocity
-    UnityEngine::Vector2& dyn_m_RelativeVelocity();
+    ::UnityEngine::Vector2& dyn_m_RelativeVelocity();
     // Get instance field reference: System.Int32 m_Enabled
     int& dyn_m_Enabled();
     // Get instance field reference: System.Int32 m_ContactCount
     int& dyn_m_ContactCount();
     // Get instance field reference: UnityEngine.ContactPoint2D[] m_ReusedContacts
-    ::ArrayW<UnityEngine::ContactPoint2D>& dyn_m_ReusedContacts();
+    ::ArrayW<::UnityEngine::ContactPoint2D>& dyn_m_ReusedContacts();
     // Get instance field reference: UnityEngine.ContactPoint2D[] m_LegacyContacts
-    ::ArrayW<UnityEngine::ContactPoint2D>& dyn_m_LegacyContacts();
+    ::ArrayW<::UnityEngine::ContactPoint2D>& dyn_m_LegacyContacts();
   }; // UnityEngine.Collision2D
   #pragma pack(pop)
-  static check_size<sizeof(Collision2D), 56 + sizeof(::ArrayW<UnityEngine::ContactPoint2D>)> __UnityEngine_Collision2DSizeCheck;
+  static check_size<sizeof(Collision2D), 56 + sizeof(::ArrayW<::UnityEngine::ContactPoint2D>)> __UnityEngine_Collision2DSizeCheck;
   static_assert(sizeof(Collision2D) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

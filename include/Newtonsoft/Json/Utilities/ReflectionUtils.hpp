@@ -73,8 +73,8 @@ namespace Newtonsoft::Json::Utilities {
   class ReflectionUtils;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Utilities::ReflectionUtils);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::ReflectionUtils*, "Newtonsoft.Json.Utilities", "ReflectionUtils");
+NEED_NO_BOX(::Newtonsoft::Json::Utilities::ReflectionUtils);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::ReflectionUtils*, "Newtonsoft.Json.Utilities", "ReflectionUtils");
 // Type namespace: Newtonsoft.Json.Utilities
 namespace Newtonsoft::Json::Utilities {
   // Size: 0x10
@@ -86,122 +86,122 @@ namespace Newtonsoft::Json::Utilities {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class ReflectionUtils : public ::Il2CppObject {
     public:
-    // Nested type: Newtonsoft::Json::Utilities::ReflectionUtils::$$c
+    // Nested type: ::Newtonsoft::Json::Utilities::ReflectionUtils::$$c
     class $$c;
-    // Nested type: Newtonsoft::Json::Utilities::ReflectionUtils::$$c__DisplayClass31_0
+    // Nested type: ::Newtonsoft::Json::Utilities::ReflectionUtils::$$c__DisplayClass31_0
     class $$c__DisplayClass31_0;
-    // Nested type: Newtonsoft::Json::Utilities::ReflectionUtils::$$c__DisplayClass44_0
+    // Nested type: ::Newtonsoft::Json::Utilities::ReflectionUtils::$$c__DisplayClass44_0
     class $$c__DisplayClass44_0;
-    // Nested type: Newtonsoft::Json::Utilities::ReflectionUtils::$$c__DisplayClass44_1
+    // Nested type: ::Newtonsoft::Json::Utilities::ReflectionUtils::$$c__DisplayClass44_1
     class $$c__DisplayClass44_1;
-    // Nested type: Newtonsoft::Json::Utilities::ReflectionUtils::$$c__DisplayClass45_0
+    // Nested type: ::Newtonsoft::Json::Utilities::ReflectionUtils::$$c__DisplayClass45_0
     class $$c__DisplayClass45_0;
     // Get static field: static public readonly System.Type[] EmptyTypes
-    static ::ArrayW<System::Type*> _get_EmptyTypes();
+    static ::ArrayW<::System::Type*> _get_EmptyTypes();
     // Set static field: static public readonly System.Type[] EmptyTypes
-    static void _set_EmptyTypes(::ArrayW<System::Type*> value);
+    static void _set_EmptyTypes(::ArrayW<::System::Type*> value);
     // static private System.Void .cctor()
     // Offset: 0x29F40A8
     static void _cctor();
     // static public System.Boolean IsVirtual(System.Reflection.PropertyInfo propertyInfo)
     // Offset: 0x29F4124
-    static bool IsVirtual(System::Reflection::PropertyInfo* propertyInfo);
+    static bool IsVirtual(::System::Reflection::PropertyInfo* propertyInfo);
     // static public System.Reflection.MethodInfo GetBaseDefinition(System.Reflection.PropertyInfo propertyInfo)
     // Offset: 0x29F420C
-    static System::Reflection::MethodInfo* GetBaseDefinition(System::Reflection::PropertyInfo* propertyInfo);
+    static ::System::Reflection::MethodInfo* GetBaseDefinition(::System::Reflection::PropertyInfo* propertyInfo);
     // static public System.Boolean IsPublic(System.Reflection.PropertyInfo property)
     // Offset: 0x29F42D8
-    static bool IsPublic(System::Reflection::PropertyInfo* property);
+    static bool IsPublic(::System::Reflection::PropertyInfo* property);
     // static public System.Type GetObjectType(System.Object v)
     // Offset: 0x29F436C
-    static System::Type* GetObjectType(::Il2CppObject* v);
+    static ::System::Type* GetObjectType(::Il2CppObject* v);
     // static public System.String GetTypeName(System.Type t, Newtonsoft.Json.TypeNameAssemblyFormatHandling assemblyFormat, Newtonsoft.Json.Serialization.ISerializationBinder binder)
     // Offset: 0x29F437C
-    static ::StringW GetTypeName(System::Type* t, Newtonsoft::Json::TypeNameAssemblyFormatHandling assemblyFormat, Newtonsoft::Json::Serialization::ISerializationBinder* binder);
+    static ::StringW GetTypeName(::System::Type* t, ::Newtonsoft::Json::TypeNameAssemblyFormatHandling assemblyFormat, ::Newtonsoft::Json::Serialization::ISerializationBinder* binder);
     // static private System.String GetFullyQualifiedTypeName(System.Type t, Newtonsoft.Json.Serialization.ISerializationBinder binder)
     // Offset: 0x29F4468
-    static ::StringW GetFullyQualifiedTypeName(System::Type* t, Newtonsoft::Json::Serialization::ISerializationBinder* binder);
+    static ::StringW GetFullyQualifiedTypeName(::System::Type* t, ::Newtonsoft::Json::Serialization::ISerializationBinder* binder);
     // static private System.String RemoveAssemblyDetails(System.String fullyQualifiedTypeName)
     // Offset: 0x29F45A0
     static ::StringW RemoveAssemblyDetails(::StringW fullyQualifiedTypeName);
     // static public System.Boolean HasDefaultConstructor(System.Type t, System.Boolean nonPublic)
     // Offset: 0x29F37CC
-    static bool HasDefaultConstructor(System::Type* t, bool nonPublic);
+    static bool HasDefaultConstructor(::System::Type* t, bool nonPublic);
     // static public System.Reflection.ConstructorInfo GetDefaultConstructor(System.Type t)
     // Offset: 0x29F4820
-    static System::Reflection::ConstructorInfo* GetDefaultConstructor(System::Type* t);
+    static ::System::Reflection::ConstructorInfo* GetDefaultConstructor(::System::Type* t);
     // static public System.Reflection.ConstructorInfo GetDefaultConstructor(System.Type t, System.Boolean nonPublic)
     // Offset: 0x29F46F8
-    static System::Reflection::ConstructorInfo* GetDefaultConstructor(System::Type* t, bool nonPublic);
+    static ::System::Reflection::ConstructorInfo* GetDefaultConstructor(::System::Type* t, bool nonPublic);
     // static public System.Boolean IsNullable(System.Type t)
     // Offset: 0x29F4888
-    static bool IsNullable(System::Type* t);
+    static bool IsNullable(::System::Type* t);
     // static public System.Boolean IsNullableType(System.Type t)
     // Offset: 0x29F4928
-    static bool IsNullableType(System::Type* t);
+    static bool IsNullableType(::System::Type* t);
     // static public System.Type EnsureNotNullableType(System.Type t)
     // Offset: 0x29F4A2C
-    static System::Type* EnsureNotNullableType(System::Type* t);
+    static ::System::Type* EnsureNotNullableType(::System::Type* t);
     // static public System.Type EnsureNotByRefType(System.Type t)
     // Offset: 0x29F4AB0
-    static System::Type* EnsureNotByRefType(System::Type* t);
+    static ::System::Type* EnsureNotByRefType(::System::Type* t);
     // static public System.Boolean IsGenericDefinition(System.Type type, System.Type genericInterfaceDefinition)
     // Offset: 0x29F4B10
-    static bool IsGenericDefinition(System::Type* type, System::Type* genericInterfaceDefinition);
+    static bool IsGenericDefinition(::System::Type* type, ::System::Type* genericInterfaceDefinition);
     // static public System.Boolean ImplementsGenericDefinition(System.Type type, System.Type genericInterfaceDefinition)
     // Offset: 0x29F4BD8
-    static bool ImplementsGenericDefinition(System::Type* type, System::Type* genericInterfaceDefinition);
+    static bool ImplementsGenericDefinition(::System::Type* type, ::System::Type* genericInterfaceDefinition);
     // static public System.Boolean ImplementsGenericDefinition(System.Type type, System.Type genericInterfaceDefinition, out System.Type implementingType)
     // Offset: 0x29F4C5C
-    static bool ImplementsGenericDefinition(System::Type* type, System::Type* genericInterfaceDefinition, ByRef<System::Type*> implementingType);
+    static bool ImplementsGenericDefinition(::System::Type* type, ::System::Type* genericInterfaceDefinition, ByRef<::System::Type*> implementingType);
     // static public System.Boolean InheritsGenericDefinition(System.Type type, System.Type genericClassDefinition)
     // Offset: 0x29F4F20
-    static bool InheritsGenericDefinition(System::Type* type, System::Type* genericClassDefinition);
+    static bool InheritsGenericDefinition(::System::Type* type, ::System::Type* genericClassDefinition);
     // static public System.Boolean InheritsGenericDefinition(System.Type type, System.Type genericClassDefinition, out System.Type implementingType)
     // Offset: 0x29F4FA4
-    static bool InheritsGenericDefinition(System::Type* type, System::Type* genericClassDefinition, ByRef<System::Type*> implementingType);
+    static bool InheritsGenericDefinition(::System::Type* type, ::System::Type* genericClassDefinition, ByRef<::System::Type*> implementingType);
     // static private System.Boolean InheritsGenericDefinitionInternal(System.Type currentType, System.Type genericClassDefinition, out System.Type implementingType)
     // Offset: 0x29F5110
-    static bool InheritsGenericDefinitionInternal(System::Type* currentType, System::Type* genericClassDefinition, ByRef<System::Type*> implementingType);
+    static bool InheritsGenericDefinitionInternal(::System::Type* currentType, ::System::Type* genericClassDefinition, ByRef<::System::Type*> implementingType);
     // static public System.Type GetCollectionItemType(System.Type type)
     // Offset: 0x29F5254
-    static System::Type* GetCollectionItemType(System::Type* type);
+    static ::System::Type* GetCollectionItemType(::System::Type* type);
     // static public System.Void GetDictionaryKeyValueTypes(System.Type dictionaryType, out System.Type keyType, out System.Type valueType)
     // Offset: 0x29F547C
-    static void GetDictionaryKeyValueTypes(System::Type* dictionaryType, ByRef<System::Type*> keyType, ByRef<System::Type*> valueType);
+    static void GetDictionaryKeyValueTypes(::System::Type* dictionaryType, ByRef<::System::Type*> keyType, ByRef<::System::Type*> valueType);
     // static public System.Type GetMemberUnderlyingType(System.Reflection.MemberInfo member)
     // Offset: 0x29F3CB0
-    static System::Type* GetMemberUnderlyingType(System::Reflection::MemberInfo* member);
+    static ::System::Type* GetMemberUnderlyingType(::System::Reflection::MemberInfo* member);
     // static public System.Boolean IsByRefLikeType(System.Type type)
     // Offset: 0x29F56A4
-    static bool IsByRefLikeType(System::Type* type);
+    static bool IsByRefLikeType(::System::Type* type);
     // static public System.Boolean IsIndexedProperty(System.Reflection.PropertyInfo property)
     // Offset: 0x29F5CA0
-    static bool IsIndexedProperty(System::Reflection::PropertyInfo* property);
+    static bool IsIndexedProperty(::System::Reflection::PropertyInfo* property);
     // static public System.Object GetMemberValue(System.Reflection.MemberInfo member, System.Object target)
     // Offset: 0x29F5D20
-    static ::Il2CppObject* GetMemberValue(System::Reflection::MemberInfo* member, ::Il2CppObject* target);
+    static ::Il2CppObject* GetMemberValue(::System::Reflection::MemberInfo* member, ::Il2CppObject* target);
     // static public System.Void SetMemberValue(System.Reflection.MemberInfo member, System.Object target, System.Object value)
     // Offset: 0x29F601C
-    static void SetMemberValue(System::Reflection::MemberInfo* member, ::Il2CppObject* target, ::Il2CppObject* value);
+    static void SetMemberValue(::System::Reflection::MemberInfo* member, ::Il2CppObject* target, ::Il2CppObject* value);
     // static public System.Boolean CanReadMemberValue(System.Reflection.MemberInfo member, System.Boolean nonPublic)
     // Offset: 0x29F38DC
-    static bool CanReadMemberValue(System::Reflection::MemberInfo* member, bool nonPublic);
+    static bool CanReadMemberValue(::System::Reflection::MemberInfo* member, bool nonPublic);
     // static public System.Boolean CanSetMemberValue(System.Reflection.MemberInfo member, System.Boolean nonPublic, System.Boolean canSetReadOnly)
     // Offset: 0x29F3A34
-    static bool CanSetMemberValue(System::Reflection::MemberInfo* member, bool nonPublic, bool canSetReadOnly);
+    static bool CanSetMemberValue(::System::Reflection::MemberInfo* member, bool nonPublic, bool canSetReadOnly);
     // static public System.Collections.Generic.List`1<System.Reflection.MemberInfo> GetFieldsAndProperties(System.Type type, System.Reflection.BindingFlags bindingAttr)
     // Offset: 0x29F6204
-    static System::Collections::Generic::List_1<System::Reflection::MemberInfo*>* GetFieldsAndProperties(System::Type* type, System::Reflection::BindingFlags bindingAttr);
+    static ::System::Collections::Generic::List_1<::System::Reflection::MemberInfo*>* GetFieldsAndProperties(::System::Type* type, ::System::Reflection::BindingFlags bindingAttr);
     // static private System.Boolean IsOverridenGenericMember(System.Reflection.MemberInfo memberInfo, System.Reflection.BindingFlags bindingAttr)
     // Offset: 0x29F6E08
-    static bool IsOverridenGenericMember(System::Reflection::MemberInfo* memberInfo, System::Reflection::BindingFlags bindingAttr);
+    static bool IsOverridenGenericMember(::System::Reflection::MemberInfo* memberInfo, ::System::Reflection::BindingFlags bindingAttr);
     // static public T GetAttribute(System.Object attributeProvider)
     // Offset: 0xFFFFFFFF
     template<class T>
     static T GetAttribute(::Il2CppObject* attributeProvider) {
-      static_assert(std::is_convertible_v<T, System::Attribute*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Utilities::ReflectionUtils::GetAttribute");
+      static_assert(std::is_convertible_v<T, ::System::Attribute*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Utilities::ReflectionUtils::GetAttribute");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Newtonsoft.Json.Utilities", "ReflectionUtils", "GetAttribute", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(attributeProvider)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, attributeProvider);
@@ -210,8 +210,8 @@ namespace Newtonsoft::Json::Utilities {
     // Offset: 0xFFFFFFFF
     template<class T>
     static T GetAttribute(::Il2CppObject* attributeProvider, bool inherit) {
-      static_assert(std::is_convertible_v<T, System::Attribute*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Utilities::ReflectionUtils::GetAttribute");
+      static_assert(std::is_convertible_v<T, ::System::Attribute*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Utilities::ReflectionUtils::GetAttribute");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Newtonsoft.Json.Utilities", "ReflectionUtils", "GetAttribute", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(attributeProvider), ::il2cpp_utils::ExtractType(inherit)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, attributeProvider, inherit);
@@ -220,45 +220,45 @@ namespace Newtonsoft::Json::Utilities {
     // Offset: 0xFFFFFFFF
     template<class T>
     static ::ArrayW<T> GetAttributes(::Il2CppObject* attributeProvider, bool inherit) {
-      static_assert(std::is_convertible_v<T, System::Attribute*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Utilities::ReflectionUtils::GetAttributes");
+      static_assert(std::is_convertible_v<T, ::System::Attribute*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Utilities::ReflectionUtils::GetAttributes");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Newtonsoft.Json.Utilities", "ReflectionUtils", "GetAttributes", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(attributeProvider), ::il2cpp_utils::ExtractType(inherit)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<T>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, attributeProvider, inherit);
     }
     // static public System.Attribute[] GetAttributes(System.Object attributeProvider, System.Type attributeType, System.Boolean inherit)
     // Offset: 0x29F57C0
-    static ::ArrayW<System::Attribute*> GetAttributes(::Il2CppObject* attributeProvider, System::Type* attributeType, bool inherit);
+    static ::ArrayW<::System::Attribute*> GetAttributes(::Il2CppObject* attributeProvider, ::System::Type* attributeType, bool inherit);
     // static public Newtonsoft.Json.Utilities.StructMultiKey`2<System.String,System.String> SplitFullyQualifiedTypeName(System.String fullyQualifiedTypeName)
     // Offset: 0x29F6FF0
-    static Newtonsoft::Json::Utilities::StructMultiKey_2<::StringW, ::StringW> SplitFullyQualifiedTypeName(::StringW fullyQualifiedTypeName);
+    static ::Newtonsoft::Json::Utilities::StructMultiKey_2<::StringW, ::StringW> SplitFullyQualifiedTypeName(::StringW fullyQualifiedTypeName);
     // static private System.Nullable`1<System.Int32> GetAssemblyDelimiterIndex(System.String fullyQualifiedTypeName)
     // Offset: 0x29F70D8
-    static System::Nullable_1<int> GetAssemblyDelimiterIndex(::StringW fullyQualifiedTypeName);
+    static ::System::Nullable_1<int> GetAssemblyDelimiterIndex(::StringW fullyQualifiedTypeName);
     // static public System.Reflection.MemberInfo GetMemberInfoFromType(System.Type targetType, System.Reflection.MemberInfo memberInfo)
     // Offset: 0x29F7378
-    static System::Reflection::MemberInfo* GetMemberInfoFromType(System::Type* targetType, System::Reflection::MemberInfo* memberInfo);
+    static ::System::Reflection::MemberInfo* GetMemberInfoFromType(::System::Type* targetType, ::System::Reflection::MemberInfo* memberInfo);
     // static public System.Collections.Generic.IEnumerable`1<System.Reflection.FieldInfo> GetFields(System.Type targetType, System.Reflection.BindingFlags bindingAttr)
     // Offset: 0x29F6A50
-    static System::Collections::Generic::IEnumerable_1<System::Reflection::FieldInfo*>* GetFields(System::Type* targetType, System::Reflection::BindingFlags bindingAttr);
+    static ::System::Collections::Generic::IEnumerable_1<::System::Reflection::FieldInfo*>* GetFields(::System::Type* targetType, ::System::Reflection::BindingFlags bindingAttr);
     // static private System.Void GetChildPrivateFields(System.Collections.Generic.IList`1<System.Reflection.MemberInfo> initialFields, System.Type targetType, System.Reflection.BindingFlags bindingAttr)
     // Offset: 0x29F75AC
-    static void GetChildPrivateFields(System::Collections::Generic::IList_1<System::Reflection::MemberInfo*>* initialFields, System::Type* targetType, System::Reflection::BindingFlags bindingAttr);
+    static void GetChildPrivateFields(::System::Collections::Generic::IList_1<::System::Reflection::MemberInfo*>* initialFields, ::System::Type* targetType, ::System::Reflection::BindingFlags bindingAttr);
     // static public System.Collections.Generic.IEnumerable`1<System.Reflection.PropertyInfo> GetProperties(System.Type targetType, System.Reflection.BindingFlags bindingAttr)
     // Offset: 0x29F6B40
-    static System::Collections::Generic::IEnumerable_1<System::Reflection::PropertyInfo*>* GetProperties(System::Type* targetType, System::Reflection::BindingFlags bindingAttr);
+    static ::System::Collections::Generic::IEnumerable_1<::System::Reflection::PropertyInfo*>* GetProperties(::System::Type* targetType, ::System::Reflection::BindingFlags bindingAttr);
     // static public System.Reflection.BindingFlags RemoveFlag(System.Reflection.BindingFlags bindingAttr, System.Reflection.BindingFlags flag)
     // Offset: 0x29F7780
-    static System::Reflection::BindingFlags RemoveFlag(System::Reflection::BindingFlags bindingAttr, System::Reflection::BindingFlags flag);
+    static ::System::Reflection::BindingFlags RemoveFlag(::System::Reflection::BindingFlags bindingAttr, ::System::Reflection::BindingFlags flag);
     // static private System.Void GetChildPrivateProperties(System.Collections.Generic.IList`1<System.Reflection.PropertyInfo> initialProperties, System.Type targetType, System.Reflection.BindingFlags bindingAttr)
     // Offset: 0x29F7790
-    static void GetChildPrivateProperties(System::Collections::Generic::IList_1<System::Reflection::PropertyInfo*>* initialProperties, System::Type* targetType, System::Reflection::BindingFlags bindingAttr);
+    static void GetChildPrivateProperties(::System::Collections::Generic::IList_1<::System::Reflection::PropertyInfo*>* initialProperties, ::System::Type* targetType, ::System::Reflection::BindingFlags bindingAttr);
     // static public System.Boolean IsMethodOverridden(System.Type currentType, System.Type methodDeclaringType, System.String method)
     // Offset: 0x29F7D30
-    static bool IsMethodOverridden(System::Type* currentType, System::Type* methodDeclaringType, ::StringW method);
+    static bool IsMethodOverridden(::System::Type* currentType, ::System::Type* methodDeclaringType, ::StringW method);
     // static public System.Object GetDefaultValue(System.Type type)
     // Offset: 0x29F7E1C
-    static ::Il2CppObject* GetDefaultValue(System::Type* type);
+    static ::Il2CppObject* GetDefaultValue(::System::Type* type);
   }; // Newtonsoft.Json.Utilities.ReflectionUtils
   #pragma pack(pop)
 }
@@ -274,7 +274,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::IsVirtual
 // Il2CppName: IsVirtual
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::PropertyInfo*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::IsVirtual)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::PropertyInfo*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::IsVirtual)> {
   static const MethodInfo* get() {
     static auto* propertyInfo = &::il2cpp_utils::GetClassFromName("System.Reflection", "PropertyInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::ReflectionUtils*), "IsVirtual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{propertyInfo});
@@ -283,7 +283,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::GetBaseDefinition
 // Il2CppName: GetBaseDefinition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (*)(System::Reflection::PropertyInfo*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::GetBaseDefinition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (*)(::System::Reflection::PropertyInfo*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::GetBaseDefinition)> {
   static const MethodInfo* get() {
     static auto* propertyInfo = &::il2cpp_utils::GetClassFromName("System.Reflection", "PropertyInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::ReflectionUtils*), "GetBaseDefinition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{propertyInfo});
@@ -292,7 +292,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::IsPublic
 // Il2CppName: IsPublic
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::PropertyInfo*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::IsPublic)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::PropertyInfo*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::IsPublic)> {
   static const MethodInfo* get() {
     static auto* property = &::il2cpp_utils::GetClassFromName("System.Reflection", "PropertyInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::ReflectionUtils*), "IsPublic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{property});
@@ -301,7 +301,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::GetObjectType
 // Il2CppName: GetObjectType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(::Il2CppObject*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::GetObjectType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::Il2CppObject*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::GetObjectType)> {
   static const MethodInfo* get() {
     static auto* v = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::ReflectionUtils*), "GetObjectType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{v});
@@ -310,7 +310,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::GetTypeName
 // Il2CppName: GetTypeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Type*, Newtonsoft::Json::TypeNameAssemblyFormatHandling, Newtonsoft::Json::Serialization::ISerializationBinder*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::GetTypeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Type*, ::Newtonsoft::Json::TypeNameAssemblyFormatHandling, ::Newtonsoft::Json::Serialization::ISerializationBinder*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::GetTypeName)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* assemblyFormat = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "TypeNameAssemblyFormatHandling")->byval_arg;
@@ -321,7 +321,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::GetFullyQualifiedTypeName
 // Il2CppName: GetFullyQualifiedTypeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Type*, Newtonsoft::Json::Serialization::ISerializationBinder*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::GetFullyQualifiedTypeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Type*, ::Newtonsoft::Json::Serialization::ISerializationBinder*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::GetFullyQualifiedTypeName)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* binder = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Serialization", "ISerializationBinder")->byval_arg;
@@ -340,7 +340,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::HasDefaultConstructor
 // Il2CppName: HasDefaultConstructor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, bool)>(&Newtonsoft::Json::Utilities::ReflectionUtils::HasDefaultConstructor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, bool)>(&Newtonsoft::Json::Utilities::ReflectionUtils::HasDefaultConstructor)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* nonPublic = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -350,7 +350,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::GetDefaultConstructor
 // Il2CppName: GetDefaultConstructor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::ConstructorInfo* (*)(System::Type*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::GetDefaultConstructor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::ConstructorInfo* (*)(::System::Type*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::GetDefaultConstructor)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::ReflectionUtils*), "GetDefaultConstructor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
@@ -359,7 +359,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::GetDefaultConstructor
 // Il2CppName: GetDefaultConstructor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::ConstructorInfo* (*)(System::Type*, bool)>(&Newtonsoft::Json::Utilities::ReflectionUtils::GetDefaultConstructor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::ConstructorInfo* (*)(::System::Type*, bool)>(&Newtonsoft::Json::Utilities::ReflectionUtils::GetDefaultConstructor)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* nonPublic = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -369,7 +369,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::IsNullable
 // Il2CppName: IsNullable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::IsNullable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::IsNullable)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::ReflectionUtils*), "IsNullable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
@@ -378,7 +378,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::IsNullableType
 // Il2CppName: IsNullableType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::IsNullableType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::IsNullableType)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::ReflectionUtils*), "IsNullableType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
@@ -387,7 +387,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::EnsureNotNullableType
 // Il2CppName: EnsureNotNullableType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(System::Type*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::EnsureNotNullableType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Type*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::EnsureNotNullableType)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::ReflectionUtils*), "EnsureNotNullableType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
@@ -396,7 +396,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::EnsureNotByRefType
 // Il2CppName: EnsureNotByRefType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(System::Type*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::EnsureNotByRefType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Type*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::EnsureNotByRefType)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::ReflectionUtils*), "EnsureNotByRefType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
@@ -405,7 +405,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::IsGenericDefinition
 // Il2CppName: IsGenericDefinition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, System::Type*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::IsGenericDefinition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::IsGenericDefinition)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* genericInterfaceDefinition = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -415,7 +415,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::ImplementsGenericDefinition
 // Il2CppName: ImplementsGenericDefinition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, System::Type*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::ImplementsGenericDefinition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::ImplementsGenericDefinition)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* genericInterfaceDefinition = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -425,7 +425,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::ImplementsGenericDefinition
 // Il2CppName: ImplementsGenericDefinition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, System::Type*, ByRef<System::Type*>)>(&Newtonsoft::Json::Utilities::ReflectionUtils::ImplementsGenericDefinition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*, ByRef<::System::Type*>)>(&Newtonsoft::Json::Utilities::ReflectionUtils::ImplementsGenericDefinition)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* genericInterfaceDefinition = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -436,7 +436,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::InheritsGenericDefinition
 // Il2CppName: InheritsGenericDefinition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, System::Type*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::InheritsGenericDefinition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::InheritsGenericDefinition)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* genericClassDefinition = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -446,7 +446,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::InheritsGenericDefinition
 // Il2CppName: InheritsGenericDefinition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, System::Type*, ByRef<System::Type*>)>(&Newtonsoft::Json::Utilities::ReflectionUtils::InheritsGenericDefinition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*, ByRef<::System::Type*>)>(&Newtonsoft::Json::Utilities::ReflectionUtils::InheritsGenericDefinition)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* genericClassDefinition = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -457,7 +457,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::InheritsGenericDefinitionInternal
 // Il2CppName: InheritsGenericDefinitionInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, System::Type*, ByRef<System::Type*>)>(&Newtonsoft::Json::Utilities::ReflectionUtils::InheritsGenericDefinitionInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*, ByRef<::System::Type*>)>(&Newtonsoft::Json::Utilities::ReflectionUtils::InheritsGenericDefinitionInternal)> {
   static const MethodInfo* get() {
     static auto* currentType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* genericClassDefinition = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -468,7 +468,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::GetCollectionItemType
 // Il2CppName: GetCollectionItemType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(System::Type*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::GetCollectionItemType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Type*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::GetCollectionItemType)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::ReflectionUtils*), "GetCollectionItemType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -477,7 +477,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::GetDictionaryKeyValueTypes
 // Il2CppName: GetDictionaryKeyValueTypes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Type*, ByRef<System::Type*>, ByRef<System::Type*>)>(&Newtonsoft::Json::Utilities::ReflectionUtils::GetDictionaryKeyValueTypes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*, ByRef<::System::Type*>, ByRef<::System::Type*>)>(&Newtonsoft::Json::Utilities::ReflectionUtils::GetDictionaryKeyValueTypes)> {
   static const MethodInfo* get() {
     static auto* dictionaryType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* keyType = &::il2cpp_utils::GetClassFromName("System", "Type")->this_arg;
@@ -488,7 +488,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::GetMemberUnderlyingType
 // Il2CppName: GetMemberUnderlyingType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(System::Reflection::MemberInfo*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::GetMemberUnderlyingType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Reflection::MemberInfo*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::GetMemberUnderlyingType)> {
   static const MethodInfo* get() {
     static auto* member = &::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::ReflectionUtils*), "GetMemberUnderlyingType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{member});
@@ -497,7 +497,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::IsByRefLikeType
 // Il2CppName: IsByRefLikeType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::IsByRefLikeType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::IsByRefLikeType)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::ReflectionUtils*), "IsByRefLikeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -506,7 +506,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::IsIndexedProperty
 // Il2CppName: IsIndexedProperty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::PropertyInfo*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::IsIndexedProperty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::PropertyInfo*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::IsIndexedProperty)> {
   static const MethodInfo* get() {
     static auto* property = &::il2cpp_utils::GetClassFromName("System.Reflection", "PropertyInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::ReflectionUtils*), "IsIndexedProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{property});
@@ -515,7 +515,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::GetMemberValue
 // Il2CppName: GetMemberValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Reflection::MemberInfo*, ::Il2CppObject*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::GetMemberValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::System::Reflection::MemberInfo*, ::Il2CppObject*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::GetMemberValue)> {
   static const MethodInfo* get() {
     static auto* member = &::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo")->byval_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -525,7 +525,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::SetMemberValue
 // Il2CppName: SetMemberValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Reflection::MemberInfo*, ::Il2CppObject*, ::Il2CppObject*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::SetMemberValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Reflection::MemberInfo*, ::Il2CppObject*, ::Il2CppObject*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::SetMemberValue)> {
   static const MethodInfo* get() {
     static auto* member = &::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo")->byval_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -536,7 +536,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::CanReadMemberValue
 // Il2CppName: CanReadMemberValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::MemberInfo*, bool)>(&Newtonsoft::Json::Utilities::ReflectionUtils::CanReadMemberValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::MemberInfo*, bool)>(&Newtonsoft::Json::Utilities::ReflectionUtils::CanReadMemberValue)> {
   static const MethodInfo* get() {
     static auto* member = &::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo")->byval_arg;
     static auto* nonPublic = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -546,7 +546,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::CanSetMemberValue
 // Il2CppName: CanSetMemberValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::MemberInfo*, bool, bool)>(&Newtonsoft::Json::Utilities::ReflectionUtils::CanSetMemberValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::MemberInfo*, bool, bool)>(&Newtonsoft::Json::Utilities::ReflectionUtils::CanSetMemberValue)> {
   static const MethodInfo* get() {
     static auto* member = &::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo")->byval_arg;
     static auto* nonPublic = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -557,7 +557,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::GetFieldsAndProperties
 // Il2CppName: GetFieldsAndProperties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<System::Reflection::MemberInfo*>* (*)(System::Type*, System::Reflection::BindingFlags)>(&Newtonsoft::Json::Utilities::ReflectionUtils::GetFieldsAndProperties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::System::Reflection::MemberInfo*>* (*)(::System::Type*, ::System::Reflection::BindingFlags)>(&Newtonsoft::Json::Utilities::ReflectionUtils::GetFieldsAndProperties)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
@@ -567,7 +567,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::IsOverridenGenericMember
 // Il2CppName: IsOverridenGenericMember
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::MemberInfo*, System::Reflection::BindingFlags)>(&Newtonsoft::Json::Utilities::ReflectionUtils::IsOverridenGenericMember)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::MemberInfo*, ::System::Reflection::BindingFlags)>(&Newtonsoft::Json::Utilities::ReflectionUtils::IsOverridenGenericMember)> {
   static const MethodInfo* get() {
     static auto* memberInfo = &::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo")->byval_arg;
     static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
@@ -586,7 +586,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::GetAttributes
 // Il2CppName: GetAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Attribute*> (*)(::Il2CppObject*, System::Type*, bool)>(&Newtonsoft::Json::Utilities::ReflectionUtils::GetAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Attribute*> (*)(::Il2CppObject*, ::System::Type*, bool)>(&Newtonsoft::Json::Utilities::ReflectionUtils::GetAttributes)> {
   static const MethodInfo* get() {
     static auto* attributeProvider = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* attributeType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -597,7 +597,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Sy
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::SplitFullyQualifiedTypeName
 // Il2CppName: SplitFullyQualifiedTypeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Utilities::StructMultiKey_2<::StringW, ::StringW> (*)(::StringW)>(&Newtonsoft::Json::Utilities::ReflectionUtils::SplitFullyQualifiedTypeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Utilities::StructMultiKey_2<::StringW, ::StringW> (*)(::StringW)>(&Newtonsoft::Json::Utilities::ReflectionUtils::SplitFullyQualifiedTypeName)> {
   static const MethodInfo* get() {
     static auto* fullyQualifiedTypeName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::ReflectionUtils*), "SplitFullyQualifiedTypeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fullyQualifiedTypeName});
@@ -606,7 +606,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft:
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::GetAssemblyDelimiterIndex
 // Il2CppName: GetAssemblyDelimiterIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<int> (*)(::StringW)>(&Newtonsoft::Json::Utilities::ReflectionUtils::GetAssemblyDelimiterIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<int> (*)(::StringW)>(&Newtonsoft::Json::Utilities::ReflectionUtils::GetAssemblyDelimiterIndex)> {
   static const MethodInfo* get() {
     static auto* fullyQualifiedTypeName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::ReflectionUtils*), "GetAssemblyDelimiterIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fullyQualifiedTypeName});
@@ -615,7 +615,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nul
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::GetMemberInfoFromType
 // Il2CppName: GetMemberInfoFromType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MemberInfo* (*)(System::Type*, System::Reflection::MemberInfo*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::GetMemberInfoFromType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MemberInfo* (*)(::System::Type*, ::System::Reflection::MemberInfo*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::GetMemberInfoFromType)> {
   static const MethodInfo* get() {
     static auto* targetType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* memberInfo = &::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo")->byval_arg;
@@ -625,7 +625,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::GetFields
 // Il2CppName: GetFields
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<System::Reflection::FieldInfo*>* (*)(System::Type*, System::Reflection::BindingFlags)>(&Newtonsoft::Json::Utilities::ReflectionUtils::GetFields)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Reflection::FieldInfo*>* (*)(::System::Type*, ::System::Reflection::BindingFlags)>(&Newtonsoft::Json::Utilities::ReflectionUtils::GetFields)> {
   static const MethodInfo* get() {
     static auto* targetType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
@@ -635,7 +635,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::GetChildPrivateFields
 // Il2CppName: GetChildPrivateFields
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::IList_1<System::Reflection::MemberInfo*>*, System::Type*, System::Reflection::BindingFlags)>(&Newtonsoft::Json::Utilities::ReflectionUtils::GetChildPrivateFields)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::IList_1<::System::Reflection::MemberInfo*>*, ::System::Type*, ::System::Reflection::BindingFlags)>(&Newtonsoft::Json::Utilities::ReflectionUtils::GetChildPrivateFields)> {
   static const MethodInfo* get() {
     static auto* initialFields = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo")})->byval_arg;
     static auto* targetType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -646,7 +646,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::GetProperties
 // Il2CppName: GetProperties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<System::Reflection::PropertyInfo*>* (*)(System::Type*, System::Reflection::BindingFlags)>(&Newtonsoft::Json::Utilities::ReflectionUtils::GetProperties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Reflection::PropertyInfo*>* (*)(::System::Type*, ::System::Reflection::BindingFlags)>(&Newtonsoft::Json::Utilities::ReflectionUtils::GetProperties)> {
   static const MethodInfo* get() {
     static auto* targetType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
@@ -656,7 +656,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::RemoveFlag
 // Il2CppName: RemoveFlag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::BindingFlags (*)(System::Reflection::BindingFlags, System::Reflection::BindingFlags)>(&Newtonsoft::Json::Utilities::ReflectionUtils::RemoveFlag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::BindingFlags (*)(::System::Reflection::BindingFlags, ::System::Reflection::BindingFlags)>(&Newtonsoft::Json::Utilities::ReflectionUtils::RemoveFlag)> {
   static const MethodInfo* get() {
     static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
     static auto* flag = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
@@ -666,7 +666,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::GetChildPrivateProperties
 // Il2CppName: GetChildPrivateProperties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::IList_1<System::Reflection::PropertyInfo*>*, System::Type*, System::Reflection::BindingFlags)>(&Newtonsoft::Json::Utilities::ReflectionUtils::GetChildPrivateProperties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::IList_1<::System::Reflection::PropertyInfo*>*, ::System::Type*, ::System::Reflection::BindingFlags)>(&Newtonsoft::Json::Utilities::ReflectionUtils::GetChildPrivateProperties)> {
   static const MethodInfo* get() {
     static auto* initialProperties = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System.Reflection", "PropertyInfo")})->byval_arg;
     static auto* targetType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -677,7 +677,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::IsMethodOverridden
 // Il2CppName: IsMethodOverridden
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, System::Type*, ::StringW)>(&Newtonsoft::Json::Utilities::ReflectionUtils::IsMethodOverridden)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*, ::StringW)>(&Newtonsoft::Json::Utilities::ReflectionUtils::IsMethodOverridden)> {
   static const MethodInfo* get() {
     static auto* currentType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* methodDeclaringType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -688,7 +688,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::GetDefaultValue
 // Il2CppName: GetDefaultValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::GetDefaultValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::System::Type*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::GetDefaultValue)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::ReflectionUtils*), "GetDefaultValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});

@@ -25,8 +25,8 @@ namespace UnityEngine::XR {
   class XRDisplaySubsystemDescriptor;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::XR::XRDisplaySubsystemDescriptor);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRDisplaySubsystemDescriptor*, "UnityEngine.XR", "XRDisplaySubsystemDescriptor");
+NEED_NO_BOX(::UnityEngine::XR::XRDisplaySubsystemDescriptor);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::XRDisplaySubsystemDescriptor*, "UnityEngine.XR", "XRDisplaySubsystemDescriptor");
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {
   // WARNING Size may be invalid!
@@ -34,7 +34,7 @@ namespace UnityEngine::XR {
   // [TokenAttribute] Offset: FFFFFFFF
   // [UsedByNativeCodeAttribute] Offset: 11CE4E0
   // [NativeTypeAttribute] Offset: 11CE4E0
-  class XRDisplaySubsystemDescriptor : public UnityEngine::IntegratedSubsystemDescriptor_1<UnityEngine::XR::XRDisplaySubsystem*> {
+  class XRDisplaySubsystemDescriptor : public ::UnityEngine::IntegratedSubsystemDescriptor_1<::UnityEngine::XR::XRDisplaySubsystem*> {
     public:
     // public System.Void .ctor()
     // Offset: 0x2A49744
@@ -44,7 +44,7 @@ namespace UnityEngine::XR {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XRDisplaySubsystemDescriptor* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::XR::XRDisplaySubsystemDescriptor::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::XR::XRDisplaySubsystemDescriptor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XRDisplaySubsystemDescriptor*, creationType>()));
     }
   }; // UnityEngine.XR.XRDisplaySubsystemDescriptor

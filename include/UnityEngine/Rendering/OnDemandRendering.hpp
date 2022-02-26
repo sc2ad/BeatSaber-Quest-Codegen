@@ -12,8 +12,8 @@ namespace UnityEngine::Rendering {
   class OnDemandRendering;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Rendering::OnDemandRendering);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::OnDemandRendering*, "UnityEngine.Rendering", "OnDemandRendering");
+NEED_NO_BOX(::UnityEngine::Rendering::OnDemandRendering);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::OnDemandRendering*, "UnityEngine.Rendering", "OnDemandRendering");
 // Type namespace: UnityEngine.Rendering
 namespace UnityEngine::Rendering {
   // Size: 0x10

@@ -14,8 +14,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::NameTable::Entry);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::NameTable::Entry*, "System.Xml", "NameTable/Entry");
+NEED_NO_BOX(::System::Xml::NameTable::Entry);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::NameTable::Entry*, "System.Xml", "NameTable/Entry");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x28
@@ -50,26 +50,26 @@ namespace System::Xml {
     // System.Xml.NameTable/System.Xml.Entry next
     // Size: 0x8
     // Offset: 0x20
-    System::Xml::NameTable::Entry* next;
+    ::System::Xml::NameTable::Entry* next;
     // Field size check
-    static_assert(sizeof(System::Xml::NameTable::Entry*) == 0x8);
+    static_assert(sizeof(::System::Xml::NameTable::Entry*) == 0x8);
     public:
     // Get instance field reference: System.String str
     ::StringW& dyn_str();
     // Get instance field reference: System.Int32 hashCode
     int& dyn_hashCode();
     // Get instance field reference: System.Xml.NameTable/System.Xml.Entry next
-    System::Xml::NameTable::Entry*& dyn_next();
+    ::System::Xml::NameTable::Entry*& dyn_next();
     // System.Void .ctor(System.String str, System.Int32 hashCode, System.Xml.NameTable/System.Xml.Entry next)
     // Offset: 0x16EF2F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static NameTable::Entry* New_ctor(::StringW str, int hashCode, System::Xml::NameTable::Entry* next) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::NameTable::Entry::.ctor");
+    static NameTable::Entry* New_ctor(::StringW str, int hashCode, ::System::Xml::NameTable::Entry* next) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::NameTable::Entry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NameTable::Entry*, creationType>(str, hashCode, next)));
     }
   }; // System.Xml.NameTable/System.Xml.Entry
   #pragma pack(pop)
-  static check_size<sizeof(NameTable::Entry), 32 + sizeof(System::Xml::NameTable::Entry*)> __System_Xml_NameTable_EntrySizeCheck;
+  static check_size<sizeof(NameTable::Entry), 32 + sizeof(::System::Xml::NameTable::Entry*)> __System_Xml_NameTable_EntrySizeCheck;
   static_assert(sizeof(NameTable::Entry) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -43,8 +43,8 @@ namespace HoudiniEngineUnity {
   class HEU_SessionManager;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_SessionManager);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_SessionManager*, "HoudiniEngineUnity", "HEU_SessionManager");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_SessionManager);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_SessionManager*, "HoudiniEngineUnity", "HEU_SessionManager");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x10
@@ -53,41 +53,41 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_SessionManager : public ::Il2CppObject {
     public:
-    // Nested type: HoudiniEngineUnity::HEU_SessionManager::CreateSessionFromTypeDelegate
+    // Nested type: ::HoudiniEngineUnity::HEU_SessionManager::CreateSessionFromTypeDelegate
     class CreateSessionFromTypeDelegate;
     // Get static field: static private HoudiniEngineUnity.HEU_SessionBase _defaultSession
-    static HoudiniEngineUnity::HEU_SessionBase* _get__defaultSession();
+    static ::HoudiniEngineUnity::HEU_SessionBase* _get__defaultSession();
     // Set static field: static private HoudiniEngineUnity.HEU_SessionBase _defaultSession
-    static void _set__defaultSession(HoudiniEngineUnity::HEU_SessionBase* value);
+    static void _set__defaultSession(::HoudiniEngineUnity::HEU_SessionBase* value);
     // Get static field: static private System.Collections.Generic.Dictionary`2<System.Int64,HoudiniEngineUnity.HEU_SessionBase> _sessionMap
-    static System::Collections::Generic::Dictionary_2<int64_t, HoudiniEngineUnity::HEU_SessionBase*>* _get__sessionMap();
+    static ::System::Collections::Generic::Dictionary_2<int64_t, ::HoudiniEngineUnity::HEU_SessionBase*>* _get__sessionMap();
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.Int64,HoudiniEngineUnity.HEU_SessionBase> _sessionMap
-    static void _set__sessionMap(System::Collections::Generic::Dictionary_2<int64_t, HoudiniEngineUnity::HEU_SessionBase*>* value);
+    static void _set__sessionMap(::System::Collections::Generic::Dictionary_2<int64_t, ::HoudiniEngineUnity::HEU_SessionBase*>* value);
     // Get static field: static public HoudiniEngineUnity.HEU_SessionManager/HoudiniEngineUnity.CreateSessionFromTypeDelegate _createSessionFromTypeDelegate
-    static HoudiniEngineUnity::HEU_SessionManager::CreateSessionFromTypeDelegate* _get__createSessionFromTypeDelegate();
+    static ::HoudiniEngineUnity::HEU_SessionManager::CreateSessionFromTypeDelegate* _get__createSessionFromTypeDelegate();
     // Set static field: static public HoudiniEngineUnity.HEU_SessionManager/HoudiniEngineUnity.CreateSessionFromTypeDelegate _createSessionFromTypeDelegate
-    static void _set__createSessionFromTypeDelegate(HoudiniEngineUnity::HEU_SessionManager::CreateSessionFromTypeDelegate* value);
+    static void _set__createSessionFromTypeDelegate(::HoudiniEngineUnity::HEU_SessionManager::CreateSessionFromTypeDelegate* value);
     // static private System.Void .cctor()
     // Offset: 0x1A603B4
     static void _cctor();
     // static public HoudiniEngineUnity.HEU_SessionBase CreateSessionObject()
     // Offset: 0x1A5D898
-    static HoudiniEngineUnity::HEU_SessionBase* CreateSessionObject();
+    static ::HoudiniEngineUnity::HEU_SessionBase* CreateSessionObject();
     // static public HoudiniEngineUnity.HEU_SessionBase CreateSessionFromType(System.Type type)
     // Offset: 0x1A5D8FC
-    static HoudiniEngineUnity::HEU_SessionBase* CreateSessionFromType(System::Type* type);
+    static ::HoudiniEngineUnity::HEU_SessionBase* CreateSessionFromType(::System::Type* type);
     // static public HoudiniEngineUnity.HEU_SessionBase GetDefaultSession()
     // Offset: 0x1A5D960
-    static HoudiniEngineUnity::HEU_SessionBase* GetDefaultSession();
+    static ::HoudiniEngineUnity::HEU_SessionBase* GetDefaultSession();
     // static public System.Void RegisterSession(System.Int64 sessionID, HoudiniEngineUnity.HEU_SessionBase session)
     // Offset: 0x1A5DAC0
-    static void RegisterSession(int64_t sessionID, HoudiniEngineUnity::HEU_SessionBase* session);
+    static void RegisterSession(int64_t sessionID, ::HoudiniEngineUnity::HEU_SessionBase* session);
     // static public System.Void UnregisterSession(System.Int64 sessionID)
     // Offset: 0x1A5DC00
     static void UnregisterSession(int64_t sessionID);
     // static public HoudiniEngineUnity.HEU_SessionBase GetSessionWithID(System.Int64 sessionID)
     // Offset: 0x1A5DC88
-    static HoudiniEngineUnity::HEU_SessionBase* GetSessionWithID(int64_t sessionID);
+    static ::HoudiniEngineUnity::HEU_SessionBase* GetSessionWithID(int64_t sessionID);
     // static public System.Void SaveAllSessionData()
     // Offset: 0x1A5DB58
     static void SaveAllSessionData();
@@ -99,7 +99,7 @@ namespace HoudiniEngineUnity {
     static void InternalValidateSceneAssets();
     // static public HoudiniEngineUnity.HEU_SessionBase GetOrCreateDefaultSession(System.Boolean bNotifyUserError)
     // Offset: 0x1A5DE74
-    static HoudiniEngineUnity::HEU_SessionBase* GetOrCreateDefaultSession(bool bNotifyUserError);
+    static ::HoudiniEngineUnity::HEU_SessionBase* GetOrCreateDefaultSession(bool bNotifyUserError);
     // static public System.Boolean CreateInProcessSession()
     // Offset: 0x1A5E250
     static bool CreateInProcessSession();
@@ -141,7 +141,7 @@ namespace HoudiniEngineUnity {
     static void CheckAndCloseExistingSession();
     // static public HoudiniEngineUnity.HEU_SessionData GetSessionData()
     // Offset: 0x1A5ED34
-    static HoudiniEngineUnity::HEU_SessionData* GetSessionData();
+    static ::HoudiniEngineUnity::HEU_SessionData* GetSessionData();
     // static public System.String GetSessionInfo()
     // Offset: 0x1A5ED9C
     static ::StringW GetSessionInfo();
@@ -153,7 +153,7 @@ namespace HoudiniEngineUnity {
     static bool RestartSession();
     // static public System.Boolean ValidatePluginSession(HoudiniEngineUnity.HEU_SessionBase session)
     // Offset: 0x1A5EF80
-    static bool ValidatePluginSession(HoudiniEngineUnity::HEU_SessionBase* session);
+    static bool ValidatePluginSession(::HoudiniEngineUnity::HEU_SessionBase* session);
     // static public System.String GetLastSessionError()
     // Offset: 0x1A5E1D8
     static ::StringW GetLastSessionError();
@@ -171,10 +171,10 @@ namespace HoudiniEngineUnity {
     static bool IsHARSProcessRunning(int processID);
     // static public System.Boolean LoadSessionFromHIP(System.Boolean bCookNodes, HoudiniEngineUnity.HEU_SessionBase session)
     // Offset: 0x1A5F134
-    static bool LoadSessionFromHIP(bool bCookNodes, HoudiniEngineUnity::HEU_SessionBase* session);
+    static bool LoadSessionFromHIP(bool bCookNodes, ::HoudiniEngineUnity::HEU_SessionBase* session);
     // static public System.Boolean SaveSessionToHIP(System.Boolean bLockNodes, HoudiniEngineUnity.HEU_SessionBase session)
     // Offset: 0x1A5F20C
-    static bool SaveSessionToHIP(bool bLockNodes, HoudiniEngineUnity::HEU_SessionBase* session);
+    static bool SaveSessionToHIP(bool bLockNodes, ::HoudiniEngineUnity::HEU_SessionBase* session);
     // static public System.String GetHoudiniPathOnMacOS(System.String houdiniPath)
     // Offset: 0x1A5F2E4
     static ::StringW GetHoudiniPathOnMacOS(::StringW houdiniPath);
@@ -183,37 +183,37 @@ namespace HoudiniEngineUnity {
     static bool OpenHoudini(::StringW args);
     // static public System.Boolean OpenSessionInHoudini(HoudiniEngineUnity.HEU_SessionBase session)
     // Offset: 0x1A5F390
-    static bool OpenSessionInHoudini(HoudiniEngineUnity::HEU_SessionBase* session);
+    static bool OpenSessionInHoudini(::HoudiniEngineUnity::HEU_SessionBase* session);
     // static public HoudiniEngineUnity.HAPI_License GetCurrentLicense(System.Boolean bLogError)
     // Offset: 0x1A5F63C
-    static HoudiniEngineUnity::HAPI_License GetCurrentLicense(bool bLogError);
+    static ::HoudiniEngineUnity::HAPI_License GetCurrentLicense(bool bLogError);
     // static public System.String GetString(System.Int32 stringHandle, HoudiniEngineUnity.HEU_SessionBase session)
     // Offset: 0x1A5F6E8
-    static ::StringW GetString(int stringHandle, HoudiniEngineUnity::HEU_SessionBase* session);
+    static ::StringW GetString(int stringHandle, ::HoudiniEngineUnity::HEU_SessionBase* session);
     // static public System.String[] GetStringValuesFromStringIndices(System.Int32[] strIndices)
     // Offset: 0x1A5F7D8
     static ::ArrayW<::StringW> GetStringValuesFromStringIndices(::ArrayW<int> strIndices);
     // static public System.String[] GetGroupNames(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 nodeID, System.Int32 partID, HoudiniEngineUnity.HAPI_GroupType groupType, System.Boolean isInstanced)
     // Offset: 0x1A5F980
-    static ::ArrayW<::StringW> GetGroupNames(HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, int partID, HoudiniEngineUnity::HAPI_GroupType groupType, bool isInstanced);
+    static ::ArrayW<::StringW> GetGroupNames(::HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, int partID, ::HoudiniEngineUnity::HAPI_GroupType groupType, bool isInstanced);
     // static public System.Boolean GetGroupMembership(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 nodeID, System.Int32 partID, HoudiniEngineUnity.HAPI_GroupType groupType, System.String groupName, ref System.Int32[] membership, System.Boolean isInstanced)
     // Offset: 0x1A5FBDC
-    static bool GetGroupMembership(HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, int partID, HoudiniEngineUnity::HAPI_GroupType groupType, ::StringW groupName, ByRef<::ArrayW<int>> membership, bool isInstanced);
+    static bool GetGroupMembership(::HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, int partID, ::HoudiniEngineUnity::HAPI_GroupType groupType, ::StringW groupName, ByRef<::ArrayW<int>> membership, bool isInstanced);
     // static public System.String GetNodeName(System.Int32 nodeID, HoudiniEngineUnity.HEU_SessionBase session)
     // Offset: 0x1A5FD20
-    static ::StringW GetNodeName(int nodeID, HoudiniEngineUnity::HEU_SessionBase* session);
+    static ::StringW GetNodeName(int nodeID, ::HoudiniEngineUnity::HEU_SessionBase* session);
     // static public System.Boolean GetNodeInputName(System.Int32 nodeID, System.Int32 inputIndex, out System.String inputName)
     // Offset: 0x1A5FE2C
     static bool GetNodeInputName(int nodeID, int inputIndex, ByRef<::StringW> inputName);
     // static public System.Boolean GetComposedChildNodeList(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 parentNodeID, System.Int32 nodeTypeFilter, System.Int32 nodeFlagFilter, System.Boolean bRecursive, out System.Int32[] childNodeIDs)
     // Offset: 0x1A5FF1C
-    static bool GetComposedChildNodeList(HoudiniEngineUnity::HEU_SessionBase* session, int parentNodeID, int nodeTypeFilter, int nodeFlagFilter, bool bRecursive, ByRef<::ArrayW<int>> childNodeIDs);
+    static bool GetComposedChildNodeList(::HoudiniEngineUnity::HEU_SessionBase* session, int parentNodeID, int nodeTypeFilter, int nodeFlagFilter, bool bRecursive, ByRef<::ArrayW<int>> childNodeIDs);
     // static public System.Boolean GetComposedObjectListMemorySafe(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 nodeID, out HoudiniEngineUnity.HAPI_ObjectInfo[] objectInfos, System.Int32 start, System.Int32 length)
     // Offset: 0x1A6001C
-    static bool GetComposedObjectListMemorySafe(HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ObjectInfo>> objectInfos, int start, int length);
+    static bool GetComposedObjectListMemorySafe(::HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_ObjectInfo>> objectInfos, int start, int length);
     // static public System.Boolean GetComposedObjectTransformsMemorySafe(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 nodeID, HoudiniEngineUnity.HAPI_RSTOrder rstOrder, out HoudiniEngineUnity.HAPI_Transform[] transforms, System.Int32 start, System.Int32 length)
     // Offset: 0x1A600D4
-    static bool GetComposedObjectTransformsMemorySafe(HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, HoudiniEngineUnity::HAPI_RSTOrder rstOrder, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>> transforms, int start, int length);
+    static bool GetComposedObjectTransformsMemorySafe(::HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, ::HoudiniEngineUnity::HAPI_RSTOrder rstOrder, ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_Transform>> transforms, int start, int length);
     // static public System.String GetUniqueMaterialShopName(System.Int32 assetID, System.Int32 materialID)
     // Offset: 0x1A6019C
     static ::StringW GetUniqueMaterialShopName(int assetID, int materialID);
@@ -232,7 +232,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionManager::CreateSessionObject
 // Il2CppName: CreateSessionObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_SessionBase* (*)()>(&HoudiniEngineUnity::HEU_SessionManager::CreateSessionObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_SessionBase* (*)()>(&HoudiniEngineUnity::HEU_SessionManager::CreateSessionObject)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionManager*), "CreateSessionObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -240,7 +240,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionManager::CreateSessionFromType
 // Il2CppName: CreateSessionFromType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_SessionBase* (*)(System::Type*)>(&HoudiniEngineUnity::HEU_SessionManager::CreateSessionFromType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_SessionBase* (*)(::System::Type*)>(&HoudiniEngineUnity::HEU_SessionManager::CreateSessionFromType)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionManager*), "CreateSessionFromType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -249,7 +249,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionManager::GetDefaultSession
 // Il2CppName: GetDefaultSession
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_SessionBase* (*)()>(&HoudiniEngineUnity::HEU_SessionManager::GetDefaultSession)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_SessionBase* (*)()>(&HoudiniEngineUnity::HEU_SessionManager::GetDefaultSession)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionManager*), "GetDefaultSession", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -257,7 +257,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionManager::RegisterSession
 // Il2CppName: RegisterSession
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int64_t, HoudiniEngineUnity::HEU_SessionBase*)>(&HoudiniEngineUnity::HEU_SessionManager::RegisterSession)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int64_t, ::HoudiniEngineUnity::HEU_SessionBase*)>(&HoudiniEngineUnity::HEU_SessionManager::RegisterSession)> {
   static const MethodInfo* get() {
     static auto* sessionID = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
@@ -276,7 +276,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionManager::GetSessionWithID
 // Il2CppName: GetSessionWithID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_SessionBase* (*)(int64_t)>(&HoudiniEngineUnity::HEU_SessionManager::GetSessionWithID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_SessionBase* (*)(int64_t)>(&HoudiniEngineUnity::HEU_SessionManager::GetSessionWithID)> {
   static const MethodInfo* get() {
     static auto* sessionID = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionManager*), "GetSessionWithID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sessionID});
@@ -309,7 +309,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionManager::GetOrCreateDefaultSession
 // Il2CppName: GetOrCreateDefaultSession
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_SessionBase* (*)(bool)>(&HoudiniEngineUnity::HEU_SessionManager::GetOrCreateDefaultSession)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_SessionBase* (*)(bool)>(&HoudiniEngineUnity::HEU_SessionManager::GetOrCreateDefaultSession)> {
   static const MethodInfo* get() {
     static auto* bNotifyUserError = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionManager*), "GetOrCreateDefaultSession", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bNotifyUserError});
@@ -447,7 +447,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionManager::GetSessionData
 // Il2CppName: GetSessionData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_SessionData* (*)()>(&HoudiniEngineUnity::HEU_SessionManager::GetSessionData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_SessionData* (*)()>(&HoudiniEngineUnity::HEU_SessionManager::GetSessionData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionManager*), "GetSessionData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -479,7 +479,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionManager::ValidatePluginSession
 // Il2CppName: ValidatePluginSession
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*)>(&HoudiniEngineUnity::HEU_SessionManager::ValidatePluginSession)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::HoudiniEngineUnity::HEU_SessionBase*)>(&HoudiniEngineUnity::HEU_SessionManager::ValidatePluginSession)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionManager*), "ValidatePluginSession", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{session});
@@ -530,7 +530,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(in
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionManager::LoadSessionFromHIP
 // Il2CppName: LoadSessionFromHIP
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bool, HoudiniEngineUnity::HEU_SessionBase*)>(&HoudiniEngineUnity::HEU_SessionManager::LoadSessionFromHIP)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bool, ::HoudiniEngineUnity::HEU_SessionBase*)>(&HoudiniEngineUnity::HEU_SessionManager::LoadSessionFromHIP)> {
   static const MethodInfo* get() {
     static auto* bCookNodes = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
@@ -540,7 +540,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bo
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionManager::SaveSessionToHIP
 // Il2CppName: SaveSessionToHIP
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bool, HoudiniEngineUnity::HEU_SessionBase*)>(&HoudiniEngineUnity::HEU_SessionManager::SaveSessionToHIP)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bool, ::HoudiniEngineUnity::HEU_SessionBase*)>(&HoudiniEngineUnity::HEU_SessionManager::SaveSessionToHIP)> {
   static const MethodInfo* get() {
     static auto* bLockNodes = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
@@ -568,7 +568,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionManager::OpenSessionInHoudini
 // Il2CppName: OpenSessionInHoudini
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*)>(&HoudiniEngineUnity::HEU_SessionManager::OpenSessionInHoudini)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::HoudiniEngineUnity::HEU_SessionBase*)>(&HoudiniEngineUnity::HEU_SessionManager::OpenSessionInHoudini)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionManager*), "OpenSessionInHoudini", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{session});
@@ -577,7 +577,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionManager::GetCurrentLicense
 // Il2CppName: GetCurrentLicense
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HAPI_License (*)(bool)>(&HoudiniEngineUnity::HEU_SessionManager::GetCurrentLicense)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HAPI_License (*)(bool)>(&HoudiniEngineUnity::HEU_SessionManager::GetCurrentLicense)> {
   static const MethodInfo* get() {
     static auto* bLogError = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionManager*), "GetCurrentLicense", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bLogError});
@@ -586,7 +586,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionManager::GetString
 // Il2CppName: GetString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int, HoudiniEngineUnity::HEU_SessionBase*)>(&HoudiniEngineUnity::HEU_SessionManager::GetString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int, ::HoudiniEngineUnity::HEU_SessionBase*)>(&HoudiniEngineUnity::HEU_SessionManager::GetString)> {
   static const MethodInfo* get() {
     static auto* stringHandle = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
@@ -605,7 +605,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionManager::GetGroupNames
 // Il2CppName: GetGroupNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW> (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, HoudiniEngineUnity::HAPI_GroupType, bool)>(&HoudiniEngineUnity::HEU_SessionManager::GetGroupNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW> (*)(::HoudiniEngineUnity::HEU_SessionBase*, int, int, ::HoudiniEngineUnity::HAPI_GroupType, bool)>(&HoudiniEngineUnity::HEU_SessionManager::GetGroupNames)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -618,7 +618,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionManager::GetGroupMembership
 // Il2CppName: GetGroupMembership
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, HoudiniEngineUnity::HAPI_GroupType, ::StringW, ByRef<::ArrayW<int>>, bool)>(&HoudiniEngineUnity::HEU_SessionManager::GetGroupMembership)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::HoudiniEngineUnity::HEU_SessionBase*, int, int, ::HoudiniEngineUnity::HAPI_GroupType, ::StringW, ByRef<::ArrayW<int>>, bool)>(&HoudiniEngineUnity::HEU_SessionManager::GetGroupMembership)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -633,7 +633,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionManager::GetNodeName
 // Il2CppName: GetNodeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int, HoudiniEngineUnity::HEU_SessionBase*)>(&HoudiniEngineUnity::HEU_SessionManager::GetNodeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int, ::HoudiniEngineUnity::HEU_SessionBase*)>(&HoudiniEngineUnity::HEU_SessionManager::GetNodeName)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
@@ -654,7 +654,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(in
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionManager::GetComposedChildNodeList
 // Il2CppName: GetComposedChildNodeList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, int, bool, ByRef<::ArrayW<int>>)>(&HoudiniEngineUnity::HEU_SessionManager::GetComposedChildNodeList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::HoudiniEngineUnity::HEU_SessionBase*, int, int, int, bool, ByRef<::ArrayW<int>>)>(&HoudiniEngineUnity::HEU_SessionManager::GetComposedChildNodeList)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* parentNodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -668,7 +668,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionManager::GetComposedObjectListMemorySafe
 // Il2CppName: GetComposedObjectListMemorySafe
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, int, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ObjectInfo>>, int, int)>(&HoudiniEngineUnity::HEU_SessionManager::GetComposedObjectListMemorySafe)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::HoudiniEngineUnity::HEU_SessionBase*, int, ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_ObjectInfo>>, int, int)>(&HoudiniEngineUnity::HEU_SessionManager::GetComposedObjectListMemorySafe)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -681,7 +681,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionManager::GetComposedObjectTransformsMemorySafe
 // Il2CppName: GetComposedObjectTransformsMemorySafe
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, int, HoudiniEngineUnity::HAPI_RSTOrder, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>>, int, int)>(&HoudiniEngineUnity::HEU_SessionManager::GetComposedObjectTransformsMemorySafe)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::HoudiniEngineUnity::HEU_SessionBase*, int, ::HoudiniEngineUnity::HAPI_RSTOrder, ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_Transform>>, int, int)>(&HoudiniEngineUnity::HEU_SessionManager::GetComposedObjectTransformsMemorySafe)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

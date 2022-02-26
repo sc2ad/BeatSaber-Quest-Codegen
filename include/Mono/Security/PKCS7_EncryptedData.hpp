@@ -21,8 +21,8 @@ namespace Mono::Security {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Security::PKCS7::EncryptedData);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Security::PKCS7::EncryptedData*, "Mono.Security", "PKCS7/EncryptedData");
+NEED_NO_BOX(::Mono::Security::PKCS7::EncryptedData);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::PKCS7::EncryptedData*, "Mono.Security", "PKCS7/EncryptedData");
 // Type namespace: Mono.Security
 namespace Mono::Security {
   // Size: 0x30
@@ -51,15 +51,15 @@ namespace Mono::Security {
     // private Mono.Security.PKCS7/Mono.Security.ContentInfo _content
     // Size: 0x8
     // Offset: 0x18
-    Mono::Security::PKCS7::ContentInfo* content;
+    ::Mono::Security::PKCS7::ContentInfo* content;
     // Field size check
-    static_assert(sizeof(Mono::Security::PKCS7::ContentInfo*) == 0x8);
+    static_assert(sizeof(::Mono::Security::PKCS7::ContentInfo*) == 0x8);
     // private Mono.Security.PKCS7/Mono.Security.ContentInfo _encryptionAlgorithm
     // Size: 0x8
     // Offset: 0x20
-    Mono::Security::PKCS7::ContentInfo* encryptionAlgorithm;
+    ::Mono::Security::PKCS7::ContentInfo* encryptionAlgorithm;
     // Field size check
-    static_assert(sizeof(Mono::Security::PKCS7::ContentInfo*) == 0x8);
+    static_assert(sizeof(::Mono::Security::PKCS7::ContentInfo*) == 0x8);
     // private System.Byte[] _encrypted
     // Size: 0x8
     // Offset: 0x28
@@ -70,22 +70,22 @@ namespace Mono::Security {
     // Get instance field reference: private System.Byte _version
     uint8_t& dyn__version();
     // Get instance field reference: private Mono.Security.PKCS7/Mono.Security.ContentInfo _content
-    Mono::Security::PKCS7::ContentInfo*& dyn__content();
+    ::Mono::Security::PKCS7::ContentInfo*& dyn__content();
     // Get instance field reference: private Mono.Security.PKCS7/Mono.Security.ContentInfo _encryptionAlgorithm
-    Mono::Security::PKCS7::ContentInfo*& dyn__encryptionAlgorithm();
+    ::Mono::Security::PKCS7::ContentInfo*& dyn__encryptionAlgorithm();
     // Get instance field reference: private System.Byte[] _encrypted
     ::ArrayW<uint8_t>& dyn__encrypted();
     // public Mono.Security.PKCS7/Mono.Security.ContentInfo get_EncryptionAlgorithm()
     // Offset: 0x22CE82C
-    Mono::Security::PKCS7::ContentInfo* get_EncryptionAlgorithm();
+    ::Mono::Security::PKCS7::ContentInfo* get_EncryptionAlgorithm();
     // public System.Byte[] get_EncryptedContent()
     // Offset: 0x22CE834
     ::ArrayW<uint8_t> get_EncryptedContent();
     // public System.Void .ctor(Mono.Security.ASN1 asn1)
     // Offset: 0x22CE578
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PKCS7::EncryptedData* New_ctor(Mono::Security::ASN1* asn1) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::PKCS7::EncryptedData::.ctor");
+    static PKCS7::EncryptedData* New_ctor(::Mono::Security::ASN1* asn1) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::PKCS7::EncryptedData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PKCS7::EncryptedData*, creationType>(asn1)));
     }
     // public System.Void .ctor()
@@ -94,7 +94,7 @@ namespace Mono::Security {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PKCS7::EncryptedData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::PKCS7::EncryptedData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::PKCS7::EncryptedData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PKCS7::EncryptedData*, creationType>()));
     }
   }; // Mono.Security.PKCS7/Mono.Security.EncryptedData
@@ -106,7 +106,7 @@ namespace Mono::Security {
 // Writing MetadataGetter for method: Mono::Security::PKCS7::EncryptedData::get_EncryptionAlgorithm
 // Il2CppName: get_EncryptionAlgorithm
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::PKCS7::ContentInfo* (Mono::Security::PKCS7::EncryptedData::*)()>(&Mono::Security::PKCS7::EncryptedData::get_EncryptionAlgorithm)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::PKCS7::ContentInfo* (Mono::Security::PKCS7::EncryptedData::*)()>(&Mono::Security::PKCS7::EncryptedData::get_EncryptionAlgorithm)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::PKCS7::EncryptedData*), "get_EncryptionAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

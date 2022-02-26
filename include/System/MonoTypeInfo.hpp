@@ -24,8 +24,8 @@ namespace System {
   class MonoTypeInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::MonoTypeInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::MonoTypeInfo*, "System", "MonoTypeInfo");
+NEED_NO_BOX(::System::MonoTypeInfo);
+DEFINE_IL2CPP_ARG_TYPE(::System::MonoTypeInfo*, "System", "MonoTypeInfo");
 // Type namespace: System
 namespace System {
   // Size: 0x20
@@ -53,26 +53,26 @@ namespace System {
     // public System.Reflection.MonoCMethod default_ctor
     // Size: 0x8
     // Offset: 0x18
-    System::Reflection::MonoCMethod* default_ctor;
+    ::System::Reflection::MonoCMethod* default_ctor;
     // Field size check
-    static_assert(sizeof(System::Reflection::MonoCMethod*) == 0x8);
+    static_assert(sizeof(::System::Reflection::MonoCMethod*) == 0x8);
     public:
     // Get instance field reference: public System.String full_name
     ::StringW& dyn_full_name();
     // Get instance field reference: public System.Reflection.MonoCMethod default_ctor
-    System::Reflection::MonoCMethod*& dyn_default_ctor();
+    ::System::Reflection::MonoCMethod*& dyn_default_ctor();
     // public System.Void .ctor()
     // Offset: 0x1A97424
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoTypeInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::MonoTypeInfo::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::MonoTypeInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoTypeInfo*, creationType>()));
     }
   }; // System.MonoTypeInfo
   #pragma pack(pop)
-  static check_size<sizeof(MonoTypeInfo), 24 + sizeof(System::Reflection::MonoCMethod*)> __System_MonoTypeInfoSizeCheck;
+  static check_size<sizeof(MonoTypeInfo), 24 + sizeof(::System::Reflection::MonoCMethod*)> __System_MonoTypeInfoSizeCheck;
   static_assert(sizeof(MonoTypeInfo) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

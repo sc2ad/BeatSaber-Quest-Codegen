@@ -13,8 +13,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::XmlSqlBinaryReader::NestedBinXml);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlSqlBinaryReader::NestedBinXml*, "System.Xml", "XmlSqlBinaryReader/NestedBinXml");
+NEED_NO_BOX(::System::Xml::XmlSqlBinaryReader::NestedBinXml);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlSqlBinaryReader::NestedBinXml*, "System.Xml", "XmlSqlBinaryReader/NestedBinXml");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x40
@@ -35,9 +35,9 @@ namespace System::Xml {
     // public System.Xml.XmlSqlBinaryReader/System.Xml.SymbolTables symbolTables
     // Size: 0x1C
     // Offset: 0x10
-    System::Xml::XmlSqlBinaryReader::SymbolTables symbolTables;
+    ::System::Xml::XmlSqlBinaryReader::SymbolTables symbolTables;
     // Field size check
-    static_assert(sizeof(System::Xml::XmlSqlBinaryReader::SymbolTables) == 0x1C);
+    static_assert(sizeof(::System::Xml::XmlSqlBinaryReader::SymbolTables) == 0x1C);
     // Padding between fields: symbolTables and: docState
     char __padding0[0x4] = {};
     // public System.Int32 docState
@@ -51,26 +51,26 @@ namespace System::Xml {
     // public System.Xml.XmlSqlBinaryReader/System.Xml.NestedBinXml next
     // Size: 0x8
     // Offset: 0x38
-    System::Xml::XmlSqlBinaryReader::NestedBinXml* next;
+    ::System::Xml::XmlSqlBinaryReader::NestedBinXml* next;
     // Field size check
-    static_assert(sizeof(System::Xml::XmlSqlBinaryReader::NestedBinXml*) == 0x8);
+    static_assert(sizeof(::System::Xml::XmlSqlBinaryReader::NestedBinXml*) == 0x8);
     public:
     // Get instance field reference: public System.Xml.XmlSqlBinaryReader/System.Xml.SymbolTables symbolTables
-    System::Xml::XmlSqlBinaryReader::SymbolTables& dyn_symbolTables();
+    ::System::Xml::XmlSqlBinaryReader::SymbolTables& dyn_symbolTables();
     // Get instance field reference: public System.Int32 docState
     int& dyn_docState();
     // Get instance field reference: public System.Xml.XmlSqlBinaryReader/System.Xml.NestedBinXml next
-    System::Xml::XmlSqlBinaryReader::NestedBinXml*& dyn_next();
+    ::System::Xml::XmlSqlBinaryReader::NestedBinXml*& dyn_next();
     // public System.Void .ctor(System.Xml.XmlSqlBinaryReader/System.Xml.SymbolTables symbolTables, System.Int32 docState, System.Xml.XmlSqlBinaryReader/System.Xml.NestedBinXml next)
     // Offset: 0x14E2788
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlSqlBinaryReader::NestedBinXml* New_ctor(System::Xml::XmlSqlBinaryReader::SymbolTables symbolTables, int docState, System::Xml::XmlSqlBinaryReader::NestedBinXml* next) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlSqlBinaryReader::NestedBinXml::.ctor");
+    static XmlSqlBinaryReader::NestedBinXml* New_ctor(::System::Xml::XmlSqlBinaryReader::SymbolTables symbolTables, int docState, ::System::Xml::XmlSqlBinaryReader::NestedBinXml* next) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlSqlBinaryReader::NestedBinXml::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlSqlBinaryReader::NestedBinXml*, creationType>(symbolTables, docState, next)));
     }
   }; // System.Xml.XmlSqlBinaryReader/System.Xml.NestedBinXml
   #pragma pack(pop)
-  static check_size<sizeof(XmlSqlBinaryReader::NestedBinXml), 56 + sizeof(System::Xml::XmlSqlBinaryReader::NestedBinXml*)> __System_Xml_XmlSqlBinaryReader_NestedBinXmlSizeCheck;
+  static check_size<sizeof(XmlSqlBinaryReader::NestedBinXml), 56 + sizeof(::System::Xml::XmlSqlBinaryReader::NestedBinXml*)> __System_Xml_XmlSqlBinaryReader_NestedBinXmlSizeCheck;
   static_assert(sizeof(XmlSqlBinaryReader::NestedBinXml) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

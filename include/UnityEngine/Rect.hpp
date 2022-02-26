@@ -28,7 +28,7 @@ namespace UnityEngine {
   struct Rect;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rect, "UnityEngine", "Rect");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rect, "UnityEngine", "Rect");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -39,7 +39,7 @@ namespace UnityEngine {
   // [NativeClassAttribute] Offset: 11A3EC0
   // [NativeHeaderAttribute] Offset: 11A3EC0
   // [RequiredByNativeCodeAttribute] Offset: 11A3EC0
-  struct Rect/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Rect>*/ {
+  struct Rect/*, public ::System::ValueType, public ::System::IEquatable_1<::UnityEngine::Rect>*/ {
     public:
     public:
     // [NativeNameAttribute] Offset: 0x11A8B58
@@ -73,13 +73,13 @@ namespace UnityEngine {
     public:
     // Creating value type constructor for type: Rect
     constexpr Rect(float m_XMin_ = {}, float m_YMin_ = {}, float m_Width_ = {}, float m_Height_ = {}) noexcept : m_XMin{m_XMin_}, m_YMin{m_YMin_}, m_Width{m_Width_}, m_Height{m_Height_} {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
-    // Creating interface conversion operator: operator System::IEquatable_1<UnityEngine::Rect>
-    operator System::IEquatable_1<UnityEngine::Rect>() noexcept {
-      return *reinterpret_cast<System::IEquatable_1<UnityEngine::Rect>*>(this);
+    // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::Rect>
+    operator ::System::IEquatable_1<::UnityEngine::Rect>() noexcept {
+      return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::Rect>*>(this);
     }
     // Get instance field reference: private System.Single m_XMin
     float& dyn_m_XMin();
@@ -91,7 +91,7 @@ namespace UnityEngine {
     float& dyn_m_Height();
     // static public UnityEngine.Rect get_zero()
     // Offset: 0x20C8778
-    static UnityEngine::Rect get_zero();
+    static ::UnityEngine::Rect get_zero();
     // public System.Single get_x()
     // Offset: 0x20C8798
     float get_x();
@@ -106,22 +106,22 @@ namespace UnityEngine {
     void set_y(float value);
     // public UnityEngine.Vector2 get_position()
     // Offset: 0x20C87B8
-    UnityEngine::Vector2 get_position();
+    ::UnityEngine::Vector2 get_position();
     // public System.Void set_position(UnityEngine.Vector2 value)
     // Offset: 0x20C87E8
-    void set_position(UnityEngine::Vector2 value);
+    void set_position(::UnityEngine::Vector2 value);
     // public UnityEngine.Vector2 get_center()
     // Offset: 0x20C87F0
-    UnityEngine::Vector2 get_center();
+    ::UnityEngine::Vector2 get_center();
     // public System.Void set_center(UnityEngine.Vector2 value)
     // Offset: 0x20C8838
-    void set_center(UnityEngine::Vector2 value);
+    void set_center(::UnityEngine::Vector2 value);
     // public UnityEngine.Vector2 get_min()
     // Offset: 0x20C8854
-    UnityEngine::Vector2 get_min();
+    ::UnityEngine::Vector2 get_min();
     // public UnityEngine.Vector2 get_max()
     // Offset: 0x20C8894
-    UnityEngine::Vector2 get_max();
+    ::UnityEngine::Vector2 get_max();
     // public System.Single get_width()
     // Offset: 0x20C88F0
     float get_width();
@@ -136,10 +136,10 @@ namespace UnityEngine {
     void set_height(float value);
     // public UnityEngine.Vector2 get_size()
     // Offset: 0x20C8910
-    UnityEngine::Vector2 get_size();
+    ::UnityEngine::Vector2 get_size();
     // public System.Void set_size(UnityEngine.Vector2 value)
     // Offset: 0x20C8940
-    void set_size(UnityEngine::Vector2 value);
+    void set_size(::UnityEngine::Vector2 value);
     // public System.Single get_xMin()
     // Offset: 0x20C8884
     float get_xMin();
@@ -169,31 +169,31 @@ namespace UnityEngine {
     // ABORTED: conflicts with another method.  Rect(float x, float y, float width, float height);
     // public System.Void .ctor(UnityEngine.Vector2 position, UnityEngine.Vector2 size)
     // Offset: 0x20C8760
-    Rect(UnityEngine::Vector2 position, UnityEngine::Vector2 size);
+    Rect(::UnityEngine::Vector2 position, ::UnityEngine::Vector2 size);
     // public System.Void .ctor(UnityEngine.Rect source)
     // Offset: 0x20C876C
-    // ABORTED: is copy constructor.  Rect(UnityEngine::Rect source);
+    // ABORTED: is copy constructor.  Rect(::UnityEngine::Rect source);
     // static public UnityEngine.Rect MinMaxRect(System.Single xmin, System.Single ymin, System.Single xmax, System.Single ymax)
     // Offset: 0x20C878C
-    static UnityEngine::Rect MinMaxRect(float xmin, float ymin, float xmax, float ymax);
+    static ::UnityEngine::Rect MinMaxRect(float xmin, float ymin, float xmax, float ymax);
     // public System.Boolean Contains(UnityEngine.Vector2 point)
     // Offset: 0x20C89A0
-    bool Contains(UnityEngine::Vector2 point);
+    bool Contains(::UnityEngine::Vector2 point);
     // public System.Boolean Contains(UnityEngine.Vector3 point)
     // Offset: 0x20C89E4
-    bool Contains(UnityEngine::Vector3 point);
+    bool Contains(::UnityEngine::Vector3 point);
     // static private UnityEngine.Rect OrderMinMax(UnityEngine.Rect rect)
     // Offset: 0x20C8A28
-    static UnityEngine::Rect OrderMinMax(UnityEngine::Rect rect);
+    static ::UnityEngine::Rect OrderMinMax(::UnityEngine::Rect rect);
     // public System.Boolean Overlaps(UnityEngine.Rect other)
     // Offset: 0x20C8A54
-    bool Overlaps(UnityEngine::Rect other);
+    bool Overlaps(::UnityEngine::Rect other);
     // public System.Boolean Overlaps(UnityEngine.Rect other, System.Boolean allowInverse)
     // Offset: 0x20C8AA0
-    bool Overlaps(UnityEngine::Rect other, bool allowInverse);
+    bool Overlaps(::UnityEngine::Rect other, bool allowInverse);
     // public System.Boolean Equals(UnityEngine.Rect other)
     // Offset: 0x20C8CC0
-    bool Equals(UnityEngine::Rect other);
+    bool Equals(::UnityEngine::Rect other);
     // public override System.Int32 GetHashCode()
     // Offset: 0x20C8B9C
     // Implemented from: System.ValueType
@@ -215,16 +215,16 @@ namespace UnityEngine {
   static_assert(sizeof(Rect) == 0x10);
   // static public System.Boolean op_Inequality(UnityEngine.Rect lhs, UnityEngine.Rect rhs)
   // Offset: 0x20C8B34
-  bool operator !=(const UnityEngine::Rect& lhs, const UnityEngine::Rect& rhs);
+  bool operator !=(const ::UnityEngine::Rect& lhs, const ::UnityEngine::Rect& rhs);
   // static public System.Boolean op_Equality(UnityEngine.Rect lhs, UnityEngine.Rect rhs)
   // Offset: 0x20C8B68
-  bool operator ==(const UnityEngine::Rect& lhs, const UnityEngine::Rect& rhs);
+  bool operator ==(const ::UnityEngine::Rect& lhs, const ::UnityEngine::Rect& rhs);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Rect::get_zero
 // Il2CppName: get_zero
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (*)()>(&UnityEngine::Rect::get_zero)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rect (*)()>(&UnityEngine::Rect::get_zero)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rect), "get_zero", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -266,7 +266,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Rect::get_position
 // Il2CppName: get_position
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::Rect::*)()>(&UnityEngine::Rect::get_position)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (UnityEngine::Rect::*)()>(&UnityEngine::Rect::get_position)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rect), "get_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -274,7 +274,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Rect::set_position
 // Il2CppName: set_position
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rect::*)(UnityEngine::Vector2)>(&UnityEngine::Rect::set_position)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rect::*)(::UnityEngine::Vector2)>(&UnityEngine::Rect::set_position)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rect), "set_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -283,7 +283,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Rect::get_center
 // Il2CppName: get_center
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::Rect::*)()>(&UnityEngine::Rect::get_center)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (UnityEngine::Rect::*)()>(&UnityEngine::Rect::get_center)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rect), "get_center", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -291,7 +291,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Rect::set_center
 // Il2CppName: set_center
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rect::*)(UnityEngine::Vector2)>(&UnityEngine::Rect::set_center)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rect::*)(::UnityEngine::Vector2)>(&UnityEngine::Rect::set_center)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rect), "set_center", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -300,7 +300,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Rect::get_min
 // Il2CppName: get_min
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::Rect::*)()>(&UnityEngine::Rect::get_min)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (UnityEngine::Rect::*)()>(&UnityEngine::Rect::get_min)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rect), "get_min", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -308,7 +308,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Rect::get_max
 // Il2CppName: get_max
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::Rect::*)()>(&UnityEngine::Rect::get_max)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (UnityEngine::Rect::*)()>(&UnityEngine::Rect::get_max)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rect), "get_max", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -350,7 +350,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Rect::get_size
 // Il2CppName: get_size
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::Rect::*)()>(&UnityEngine::Rect::get_size)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (UnityEngine::Rect::*)()>(&UnityEngine::Rect::get_size)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rect), "get_size", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -358,7 +358,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Rect::set_size
 // Il2CppName: set_size
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rect::*)(UnityEngine::Vector2)>(&UnityEngine::Rect::set_size)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rect::*)(::UnityEngine::Vector2)>(&UnityEngine::Rect::set_size)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rect), "set_size", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -447,7 +447,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Rect::MinMaxRect
 // Il2CppName: MinMaxRect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (*)(float, float, float, float)>(&UnityEngine::Rect::MinMaxRect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rect (*)(float, float, float, float)>(&UnityEngine::Rect::MinMaxRect)> {
   static const MethodInfo* get() {
     static auto* xmin = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* ymin = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -459,7 +459,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Rect::Contains
 // Il2CppName: Contains
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Rect::*)(UnityEngine::Vector2)>(&UnityEngine::Rect::Contains)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Rect::*)(::UnityEngine::Vector2)>(&UnityEngine::Rect::Contains)> {
   static const MethodInfo* get() {
     static auto* point = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rect), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{point});
@@ -468,7 +468,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::Rect::Contains
 // Il2CppName: Contains
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Rect::*)(UnityEngine::Vector3)>(&UnityEngine::Rect::Contains)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Rect::*)(::UnityEngine::Vector3)>(&UnityEngine::Rect::Contains)> {
   static const MethodInfo* get() {
     static auto* point = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rect), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{point});
@@ -477,7 +477,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::Rect::OrderMinMax
 // Il2CppName: OrderMinMax
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (*)(UnityEngine::Rect)>(&UnityEngine::Rect::OrderMinMax)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rect (*)(::UnityEngine::Rect)>(&UnityEngine::Rect::OrderMinMax)> {
   static const MethodInfo* get() {
     static auto* rect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rect), "OrderMinMax", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rect});
@@ -486,7 +486,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Rect::Overlaps
 // Il2CppName: Overlaps
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Rect::*)(UnityEngine::Rect)>(&UnityEngine::Rect::Overlaps)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Rect::*)(::UnityEngine::Rect)>(&UnityEngine::Rect::Overlaps)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rect), "Overlaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
@@ -495,7 +495,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::Rect::Overlaps
 // Il2CppName: Overlaps
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Rect::*)(UnityEngine::Rect, bool)>(&UnityEngine::Rect::Overlaps)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Rect::*)(::UnityEngine::Rect, bool)>(&UnityEngine::Rect::Overlaps)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
     static auto* allowInverse = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -505,7 +505,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::Rect::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Rect::*)(UnityEngine::Rect)>(&UnityEngine::Rect::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Rect::*)(::UnityEngine::Rect)>(&UnityEngine::Rect::Equals)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rect), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});

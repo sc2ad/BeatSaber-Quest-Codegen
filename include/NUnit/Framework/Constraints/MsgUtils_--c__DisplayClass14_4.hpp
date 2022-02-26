@@ -21,8 +21,8 @@ namespace NUnit::Framework::Constraints {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Constraints::MsgUtils::$$c__DisplayClass14_4);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::MsgUtils::$$c__DisplayClass14_4*, "NUnit.Framework.Constraints", "MsgUtils/<>c__DisplayClass14_4");
+NEED_NO_BOX(::NUnit::Framework::Constraints::MsgUtils::$$c__DisplayClass14_4);
+DEFINE_IL2CPP_ARG_TYPE(::NUnit::Framework::Constraints::MsgUtils::$$c__DisplayClass14_4*, "NUnit.Framework.Constraints", "MsgUtils/<>c__DisplayClass14_4");
 // Type namespace: NUnit.Framework.Constraints
 namespace NUnit::Framework::Constraints {
   // Size: 0x18
@@ -44,16 +44,16 @@ namespace NUnit::Framework::Constraints {
     // public NUnit.Framework.Constraints.ValueFormatter next
     // Size: 0x8
     // Offset: 0x10
-    NUnit::Framework::Constraints::ValueFormatter* next;
+    ::NUnit::Framework::Constraints::ValueFormatter* next;
     // Field size check
-    static_assert(sizeof(NUnit::Framework::Constraints::ValueFormatter*) == 0x8);
+    static_assert(sizeof(::NUnit::Framework::Constraints::ValueFormatter*) == 0x8);
     public:
-    // Creating conversion operator: operator NUnit::Framework::Constraints::ValueFormatter*
-    constexpr operator NUnit::Framework::Constraints::ValueFormatter*() const noexcept {
+    // Creating conversion operator: operator ::NUnit::Framework::Constraints::ValueFormatter*
+    constexpr operator ::NUnit::Framework::Constraints::ValueFormatter*() const noexcept {
       return next;
     }
     // Get instance field reference: public NUnit.Framework.Constraints.ValueFormatter next
-    NUnit::Framework::Constraints::ValueFormatter*& dyn_next();
+    ::NUnit::Framework::Constraints::ValueFormatter*& dyn_next();
     // System.String <.cctor>b__15(System.Object val)
     // Offset: 0x1B54548
     ::StringW $_cctor$b__15(::Il2CppObject* val);
@@ -63,12 +63,12 @@ namespace NUnit::Framework::Constraints {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MsgUtils::$$c__DisplayClass14_4* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::MsgUtils::$$c__DisplayClass14_4::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Constraints::MsgUtils::$$c__DisplayClass14_4::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MsgUtils::$$c__DisplayClass14_4*, creationType>()));
     }
   }; // NUnit.Framework.Constraints.MsgUtils/NUnit.Framework.Constraints.<>c__DisplayClass14_4
   #pragma pack(pop)
-  static check_size<sizeof(MsgUtils::$$c__DisplayClass14_4), 16 + sizeof(NUnit::Framework::Constraints::ValueFormatter*)> __NUnit_Framework_Constraints_MsgUtils_$$c__DisplayClass14_4SizeCheck;
+  static check_size<sizeof(MsgUtils::$$c__DisplayClass14_4), 16 + sizeof(::NUnit::Framework::Constraints::ValueFormatter*)> __NUnit_Framework_Constraints_MsgUtils_$$c__DisplayClass14_4SizeCheck;
   static_assert(sizeof(MsgUtils::$$c__DisplayClass14_4) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

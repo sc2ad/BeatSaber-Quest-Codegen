@@ -24,8 +24,8 @@ namespace UnityEngine {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::InteractionTrigger::CharacterPosition);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionTrigger::CharacterPosition*, "RootMotion.FinalIK", "InteractionTrigger/CharacterPosition");
+NEED_NO_BOX(::RootMotion::FinalIK::InteractionTrigger::CharacterPosition);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::InteractionTrigger::CharacterPosition*, "RootMotion.FinalIK", "InteractionTrigger/CharacterPosition");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x2A
@@ -56,9 +56,9 @@ namespace RootMotion::FinalIK {
     // public UnityEngine.Vector2 offset
     // Size: 0x8
     // Offset: 0x14
-    UnityEngine::Vector2 offset;
+    ::UnityEngine::Vector2 offset;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector2) == 0x8);
+    static_assert(sizeof(::UnityEngine::Vector2) == 0x8);
     // [TooltipAttribute] Offset: 0x1268974
     // [RangeAttribute] Offset: 0x1268974
     // public System.Single angleOffset
@@ -100,7 +100,7 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Boolean use
     bool& dyn_use();
     // Get instance field reference: public UnityEngine.Vector2 offset
-    UnityEngine::Vector2& dyn_offset();
+    ::UnityEngine::Vector2& dyn_offset();
     // Get instance field reference: public System.Single angleOffset
     float& dyn_angleOffset();
     // Get instance field reference: public System.Single maxAngle
@@ -113,20 +113,20 @@ namespace RootMotion::FinalIK {
     bool& dyn_fixYAxis();
     // public UnityEngine.Vector3 get_offset3D()
     // Offset: 0x1F09AA4
-    UnityEngine::Vector3 get_offset3D();
+    ::UnityEngine::Vector3 get_offset3D();
     // public UnityEngine.Vector3 get_direction3D()
     // Offset: 0x1F09AE0
-    UnityEngine::Vector3 get_direction3D();
+    ::UnityEngine::Vector3 get_direction3D();
     // public System.Boolean IsInRange(UnityEngine.Transform character, UnityEngine.Transform trigger, out System.Single error)
     // Offset: 0x1F09BD8
-    bool IsInRange(UnityEngine::Transform* character, UnityEngine::Transform* trigger, ByRef<float> error);
+    bool IsInRange(::UnityEngine::Transform* character, ::UnityEngine::Transform* trigger, ByRef<float> error);
     // public System.Void .ctor()
     // Offset: 0x1F0A254
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InteractionTrigger::CharacterPosition* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::InteractionTrigger::CharacterPosition::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::InteractionTrigger::CharacterPosition::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InteractionTrigger::CharacterPosition*, creationType>()));
     }
   }; // RootMotion.FinalIK.InteractionTrigger/RootMotion.FinalIK.CharacterPosition
@@ -138,7 +138,7 @@ namespace RootMotion::FinalIK {
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionTrigger::CharacterPosition::get_offset3D
 // Il2CppName: get_offset3D
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RootMotion::FinalIK::InteractionTrigger::CharacterPosition::*)()>(&RootMotion::FinalIK::InteractionTrigger::CharacterPosition::get_offset3D)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (RootMotion::FinalIK::InteractionTrigger::CharacterPosition::*)()>(&RootMotion::FinalIK::InteractionTrigger::CharacterPosition::get_offset3D)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionTrigger::CharacterPosition*), "get_offset3D", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -146,7 +146,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionTrigger::CharacterPosition::get_direction3D
 // Il2CppName: get_direction3D
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RootMotion::FinalIK::InteractionTrigger::CharacterPosition::*)()>(&RootMotion::FinalIK::InteractionTrigger::CharacterPosition::get_direction3D)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (RootMotion::FinalIK::InteractionTrigger::CharacterPosition::*)()>(&RootMotion::FinalIK::InteractionTrigger::CharacterPosition::get_direction3D)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionTrigger::CharacterPosition*), "get_direction3D", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -154,7 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionTrigger::CharacterPosition::IsInRange
 // Il2CppName: IsInRange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::InteractionTrigger::CharacterPosition::*)(UnityEngine::Transform*, UnityEngine::Transform*, ByRef<float>)>(&RootMotion::FinalIK::InteractionTrigger::CharacterPosition::IsInRange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::InteractionTrigger::CharacterPosition::*)(::UnityEngine::Transform*, ::UnityEngine::Transform*, ByRef<float>)>(&RootMotion::FinalIK::InteractionTrigger::CharacterPosition::IsInRange)> {
   static const MethodInfo* get() {
     static auto* character = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* trigger = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;

@@ -25,8 +25,8 @@ namespace UnityEngine {
   class CanvasGroup;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::CanvasGroup);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CanvasGroup*, "UnityEngine", "CanvasGroup");
+NEED_NO_BOX(::UnityEngine::CanvasGroup);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::CanvasGroup*, "UnityEngine", "CanvasGroup");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -35,11 +35,11 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NativeHeaderAttribute] Offset: 11CC5A4
   // [NativeClassAttribute] Offset: 11CC5A4
-  class CanvasGroup : public UnityEngine::Behaviour/*, public UnityEngine::ICanvasRaycastFilter*/ {
+  class CanvasGroup : public ::UnityEngine::Behaviour/*, public ::UnityEngine::ICanvasRaycastFilter*/ {
     public:
-    // Creating interface conversion operator: operator UnityEngine::ICanvasRaycastFilter
-    operator UnityEngine::ICanvasRaycastFilter() noexcept {
-      return *reinterpret_cast<UnityEngine::ICanvasRaycastFilter*>(this);
+    // Creating interface conversion operator: operator ::UnityEngine::ICanvasRaycastFilter
+    operator ::UnityEngine::ICanvasRaycastFilter() noexcept {
+      return *reinterpret_cast<::UnityEngine::ICanvasRaycastFilter*>(this);
     }
     // public System.Single get_alpha()
     // Offset: 0x2A4CBE0
@@ -67,7 +67,7 @@ namespace UnityEngine {
     void set_ignoreParentGroups(bool value);
     // public System.Boolean IsRaycastLocationValid(UnityEngine.Vector2 sp, UnityEngine.Camera eventCamera)
     // Offset: 0x2A4CE20
-    bool IsRaycastLocationValid(UnityEngine::Vector2 sp, UnityEngine::Camera* eventCamera);
+    bool IsRaycastLocationValid(::UnityEngine::Vector2 sp, ::UnityEngine::Camera* eventCamera);
   }; // UnityEngine.CanvasGroup
   #pragma pack(pop)
 }
@@ -143,7 +143,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::CanvasGroup::IsRaycastLocationValid
 // Il2CppName: IsRaycastLocationValid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::CanvasGroup::*)(UnityEngine::Vector2, UnityEngine::Camera*)>(&UnityEngine::CanvasGroup::IsRaycastLocationValid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::CanvasGroup::*)(::UnityEngine::Vector2, ::UnityEngine::Camera*)>(&UnityEngine::CanvasGroup::IsRaycastLocationValid)> {
   static const MethodInfo* get() {
     static auto* sp = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     static auto* eventCamera = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;

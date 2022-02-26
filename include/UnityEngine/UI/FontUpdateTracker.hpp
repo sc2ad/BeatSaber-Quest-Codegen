@@ -33,8 +33,8 @@ namespace UnityEngine::UI {
   class FontUpdateTracker;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::UI::FontUpdateTracker);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::FontUpdateTracker*, "UnityEngine.UI", "FontUpdateTracker");
+NEED_NO_BOX(::UnityEngine::UI::FontUpdateTracker);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::FontUpdateTracker*, "UnityEngine.UI", "FontUpdateTracker");
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {
   // Size: 0x10
@@ -44,21 +44,21 @@ namespace UnityEngine::UI {
   class FontUpdateTracker : public ::Il2CppObject {
     public:
     // Get static field: static private System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.HashSet`1<UnityEngine.UI.Text>> m_Tracked
-    static System::Collections::Generic::Dictionary_2<UnityEngine::Font*, System::Collections::Generic::HashSet_1<UnityEngine::UI::Text*>*>* _get_m_Tracked();
+    static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Font*, ::System::Collections::Generic::HashSet_1<::UnityEngine::UI::Text*>*>* _get_m_Tracked();
     // Set static field: static private System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.HashSet`1<UnityEngine.UI.Text>> m_Tracked
-    static void _set_m_Tracked(System::Collections::Generic::Dictionary_2<UnityEngine::Font*, System::Collections::Generic::HashSet_1<UnityEngine::UI::Text*>*>* value);
+    static void _set_m_Tracked(::System::Collections::Generic::Dictionary_2<::UnityEngine::Font*, ::System::Collections::Generic::HashSet_1<::UnityEngine::UI::Text*>*>* value);
     // static private System.Void .cctor()
     // Offset: 0x1D87A0C
     static void _cctor();
     // static public System.Void TrackText(UnityEngine.UI.Text t)
     // Offset: 0x1D874EC
-    static void TrackText(UnityEngine::UI::Text* t);
+    static void TrackText(::UnityEngine::UI::Text* t);
     // static private System.Void RebuildForFont(UnityEngine.Font f)
     // Offset: 0x1D876F8
-    static void RebuildForFont(UnityEngine::Font* f);
+    static void RebuildForFont(::UnityEngine::Font* f);
     // static public System.Void UntrackText(UnityEngine.UI.Text t)
     // Offset: 0x1D8783C
-    static void UntrackText(UnityEngine::UI::Text* t);
+    static void UntrackText(::UnityEngine::UI::Text* t);
   }; // UnityEngine.UI.FontUpdateTracker
   #pragma pack(pop)
 }
@@ -74,7 +74,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::UI::FontUpdateTracker::TrackText
 // Il2CppName: TrackText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::Text*)>(&UnityEngine::UI::FontUpdateTracker::TrackText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UI::Text*)>(&UnityEngine::UI::FontUpdateTracker::TrackText)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Text")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::FontUpdateTracker*), "TrackText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
@@ -83,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::UI::FontUpdateTracker::RebuildForFont
 // Il2CppName: RebuildForFont
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Font*)>(&UnityEngine::UI::FontUpdateTracker::RebuildForFont)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Font*)>(&UnityEngine::UI::FontUpdateTracker::RebuildForFont)> {
   static const MethodInfo* get() {
     static auto* f = &::il2cpp_utils::GetClassFromName("UnityEngine", "Font")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::FontUpdateTracker*), "RebuildForFont", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{f});
@@ -92,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::UI::FontUpdateTracker::UntrackText
 // Il2CppName: UntrackText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::Text*)>(&UnityEngine::UI::FontUpdateTracker::UntrackText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UI::Text*)>(&UnityEngine::UI::FontUpdateTracker::UntrackText)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Text")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::FontUpdateTracker*), "UntrackText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});

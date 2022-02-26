@@ -23,8 +23,8 @@ namespace Mono::Security::Interface {
   class CertificateValidationHelper;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Security::Interface::CertificateValidationHelper);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::CertificateValidationHelper*, "Mono.Security.Interface", "CertificateValidationHelper");
+NEED_NO_BOX(::Mono::Security::Interface::CertificateValidationHelper);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Interface::CertificateValidationHelper*, "Mono.Security.Interface", "CertificateValidationHelper");
 // Type namespace: Mono.Security.Interface
 namespace Mono::Security::Interface {
   // Size: 0x10
@@ -46,7 +46,7 @@ namespace Mono::Security::Interface {
     static void _cctor();
     // static Mono.Security.Interface.ICertificateValidator2 GetInternalValidator(Mono.Security.Interface.MonoTlsSettings settings, Mono.Security.Interface.MonoTlsProvider provider)
     // Offset: 0x22CD114
-    static Mono::Security::Interface::ICertificateValidator2* GetInternalValidator(Mono::Security::Interface::MonoTlsSettings* settings, Mono::Security::Interface::MonoTlsProvider* provider);
+    static ::Mono::Security::Interface::ICertificateValidator2* GetInternalValidator(::Mono::Security::Interface::MonoTlsSettings* settings, ::Mono::Security::Interface::MonoTlsProvider* provider);
   }; // Mono.Security.Interface.CertificateValidationHelper
   #pragma pack(pop)
 }
@@ -62,7 +62,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Mono::Security::Interface::CertificateValidationHelper::GetInternalValidator
 // Il2CppName: GetInternalValidator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::ICertificateValidator2* (*)(Mono::Security::Interface::MonoTlsSettings*, Mono::Security::Interface::MonoTlsProvider*)>(&Mono::Security::Interface::CertificateValidationHelper::GetInternalValidator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::Interface::ICertificateValidator2* (*)(::Mono::Security::Interface::MonoTlsSettings*, ::Mono::Security::Interface::MonoTlsProvider*)>(&Mono::Security::Interface::CertificateValidationHelper::GetInternalValidator)> {
   static const MethodInfo* get() {
     static auto* settings = &::il2cpp_utils::GetClassFromName("Mono.Security.Interface", "MonoTlsSettings")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("Mono.Security.Interface", "MonoTlsProvider")->byval_arg;

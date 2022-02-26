@@ -12,8 +12,8 @@ namespace System::Net::Cache {
   class RequestCacheValidator;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::Cache::RequestCacheValidator);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::Cache::RequestCacheValidator*, "System.Net.Cache", "RequestCacheValidator");
+NEED_NO_BOX(::System::Net::Cache::RequestCacheValidator);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::Cache::RequestCacheValidator*, "System.Net.Cache", "RequestCacheValidator");
 // Type namespace: System.Net.Cache
 namespace System::Net::Cache {
   // Size: 0x10

@@ -22,8 +22,8 @@ namespace System::Runtime::Remoting::Contexts {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Remoting::Contexts::DynamicPropertyCollection::DynamicPropertyReg);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::DynamicPropertyCollection::DynamicPropertyReg*, "System.Runtime.Remoting.Contexts", "DynamicPropertyCollection/DynamicPropertyReg");
+NEED_NO_BOX(::System::Runtime::Remoting::Contexts::DynamicPropertyCollection::DynamicPropertyReg);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Contexts::DynamicPropertyCollection::DynamicPropertyReg*, "System.Runtime.Remoting.Contexts", "DynamicPropertyCollection/DynamicPropertyReg");
 // Type namespace: System.Runtime.Remoting.Contexts
 namespace System::Runtime::Remoting::Contexts {
   // Size: 0x20
@@ -44,32 +44,32 @@ namespace System::Runtime::Remoting::Contexts {
     // public System.Runtime.Remoting.Contexts.IDynamicProperty Property
     // Size: 0x8
     // Offset: 0x10
-    System::Runtime::Remoting::Contexts::IDynamicProperty* Property;
+    ::System::Runtime::Remoting::Contexts::IDynamicProperty* Property;
     // Field size check
-    static_assert(sizeof(System::Runtime::Remoting::Contexts::IDynamicProperty*) == 0x8);
+    static_assert(sizeof(::System::Runtime::Remoting::Contexts::IDynamicProperty*) == 0x8);
     // public System.Runtime.Remoting.Contexts.IDynamicMessageSink Sink
     // Size: 0x8
     // Offset: 0x18
-    System::Runtime::Remoting::Contexts::IDynamicMessageSink* Sink;
+    ::System::Runtime::Remoting::Contexts::IDynamicMessageSink* Sink;
     // Field size check
-    static_assert(sizeof(System::Runtime::Remoting::Contexts::IDynamicMessageSink*) == 0x8);
+    static_assert(sizeof(::System::Runtime::Remoting::Contexts::IDynamicMessageSink*) == 0x8);
     public:
     // Get instance field reference: public System.Runtime.Remoting.Contexts.IDynamicProperty Property
-    System::Runtime::Remoting::Contexts::IDynamicProperty*& dyn_Property();
+    ::System::Runtime::Remoting::Contexts::IDynamicProperty*& dyn_Property();
     // Get instance field reference: public System.Runtime.Remoting.Contexts.IDynamicMessageSink Sink
-    System::Runtime::Remoting::Contexts::IDynamicMessageSink*& dyn_Sink();
+    ::System::Runtime::Remoting::Contexts::IDynamicMessageSink*& dyn_Sink();
     // public System.Void .ctor()
     // Offset: 0x1B82520
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DynamicPropertyCollection::DynamicPropertyReg* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Contexts::DynamicPropertyCollection::DynamicPropertyReg::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::Contexts::DynamicPropertyCollection::DynamicPropertyReg::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DynamicPropertyCollection::DynamicPropertyReg*, creationType>()));
     }
   }; // System.Runtime.Remoting.Contexts.DynamicPropertyCollection/System.Runtime.Remoting.Contexts.DynamicPropertyReg
   #pragma pack(pop)
-  static check_size<sizeof(DynamicPropertyCollection::DynamicPropertyReg), 24 + sizeof(System::Runtime::Remoting::Contexts::IDynamicMessageSink*)> __System_Runtime_Remoting_Contexts_DynamicPropertyCollection_DynamicPropertyRegSizeCheck;
+  static check_size<sizeof(DynamicPropertyCollection::DynamicPropertyReg), 24 + sizeof(::System::Runtime::Remoting::Contexts::IDynamicMessageSink*)> __System_Runtime_Remoting_Contexts_DynamicPropertyCollection_DynamicPropertyRegSizeCheck;
   static_assert(sizeof(DynamicPropertyCollection::DynamicPropertyReg) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

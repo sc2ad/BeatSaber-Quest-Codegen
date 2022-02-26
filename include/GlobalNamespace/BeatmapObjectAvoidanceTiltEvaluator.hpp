@@ -27,8 +27,8 @@ namespace GlobalNamespace {
   class BeatmapObjectAvoidanceTiltEvaluator;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator*, "", "BeatmapObjectAvoidanceTiltEvaluator");
+NEED_NO_BOX(::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator*, "", "BeatmapObjectAvoidanceTiltEvaluator");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x34
@@ -49,27 +49,27 @@ namespace GlobalNamespace {
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::IAudioTimeSource* audioTimeSource;
+    ::GlobalNamespace::IAudioTimeSource* audioTimeSource;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::IAudioTimeSource*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::IAudioTimeSource*) == 0x8);
     // private readonly UnityEngine.Vector2 _gravity
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::Vector2 gravity;
+    ::UnityEngine::Vector2 gravity;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector2) == 0x8);
+    static_assert(sizeof(::UnityEngine::Vector2) == 0x8);
     // private readonly UnityEngine.Vector2 _normalizedGravity
     // Size: 0x8
     // Offset: 0x20
-    UnityEngine::Vector2 normalizedGravity;
+    ::UnityEngine::Vector2 normalizedGravity;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector2) == 0x8);
+    static_assert(sizeof(::UnityEngine::Vector2) == 0x8);
     // private readonly BezierSplineEvaluator _bezierSplineEvaluator
     // Size: 0x8
     // Offset: 0x28
-    GlobalNamespace::BezierSplineEvaluator* bezierSplineEvaluator;
+    ::GlobalNamespace::BezierSplineEvaluator* bezierSplineEvaluator;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::BezierSplineEvaluator*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::BezierSplineEvaluator*) == 0x8);
     // private System.Single _currentAcceleration
     // Size: 0x4
     // Offset: 0x30
@@ -84,20 +84,20 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kLookAheadTime
     static void _set_kLookAheadTime(float value);
     // Get instance field reference: private readonly IAudioTimeSource _audioTimeSource
-    GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSource();
+    ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSource();
     // Get instance field reference: private readonly UnityEngine.Vector2 _gravity
-    UnityEngine::Vector2& dyn__gravity();
+    ::UnityEngine::Vector2& dyn__gravity();
     // Get instance field reference: private readonly UnityEngine.Vector2 _normalizedGravity
-    UnityEngine::Vector2& dyn__normalizedGravity();
+    ::UnityEngine::Vector2& dyn__normalizedGravity();
     // Get instance field reference: private readonly BezierSplineEvaluator _bezierSplineEvaluator
-    GlobalNamespace::BezierSplineEvaluator*& dyn__bezierSplineEvaluator();
+    ::GlobalNamespace::BezierSplineEvaluator*& dyn__bezierSplineEvaluator();
     // Get instance field reference: private System.Single _currentAcceleration
     float& dyn__currentAcceleration();
     // public System.Void .ctor(IAudioTimeSource audioTimeSource, BezierSplineEvaluator bezierSplineEvaluator, UnityEngine.Vector2 gravity)
     // Offset: 0x14C6E54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BeatmapObjectAvoidanceTiltEvaluator* New_ctor(GlobalNamespace::IAudioTimeSource* audioTimeSource, GlobalNamespace::BezierSplineEvaluator* bezierSplineEvaluator, UnityEngine::Vector2 gravity) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::.ctor");
+    static BeatmapObjectAvoidanceTiltEvaluator* New_ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::BezierSplineEvaluator* bezierSplineEvaluator, ::UnityEngine::Vector2 gravity) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectAvoidanceTiltEvaluator*, creationType>(audioTimeSource, bezierSplineEvaluator, gravity)));
     }
     // public System.Single GetTiltAngle()

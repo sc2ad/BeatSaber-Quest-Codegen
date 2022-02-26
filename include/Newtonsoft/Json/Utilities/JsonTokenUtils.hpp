@@ -19,8 +19,8 @@ namespace Newtonsoft::Json::Utilities {
   class JsonTokenUtils;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Utilities::JsonTokenUtils);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::JsonTokenUtils*, "Newtonsoft.Json.Utilities", "JsonTokenUtils");
+NEED_NO_BOX(::Newtonsoft::Json::Utilities::JsonTokenUtils);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::JsonTokenUtils*, "Newtonsoft.Json.Utilities", "JsonTokenUtils");
 // Type namespace: Newtonsoft.Json.Utilities
 namespace Newtonsoft::Json::Utilities {
   // Size: 0x10
@@ -31,13 +31,13 @@ namespace Newtonsoft::Json::Utilities {
     public:
     // static System.Boolean IsEndToken(Newtonsoft.Json.JsonToken token)
     // Offset: 0x29F1AEC
-    static bool IsEndToken(Newtonsoft::Json::JsonToken token);
+    static bool IsEndToken(::Newtonsoft::Json::JsonToken token);
     // static System.Boolean IsStartToken(Newtonsoft.Json.JsonToken token)
     // Offset: 0x29F1AFC
-    static bool IsStartToken(Newtonsoft::Json::JsonToken token);
+    static bool IsStartToken(::Newtonsoft::Json::JsonToken token);
     // static System.Boolean IsPrimitiveToken(Newtonsoft.Json.JsonToken token)
     // Offset: 0x29F1B0C
-    static bool IsPrimitiveToken(Newtonsoft::Json::JsonToken token);
+    static bool IsPrimitiveToken(::Newtonsoft::Json::JsonToken token);
   }; // Newtonsoft.Json.Utilities.JsonTokenUtils
   #pragma pack(pop)
 }
@@ -45,7 +45,7 @@ namespace Newtonsoft::Json::Utilities {
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::JsonTokenUtils::IsEndToken
 // Il2CppName: IsEndToken
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Newtonsoft::Json::JsonToken)>(&Newtonsoft::Json::Utilities::JsonTokenUtils::IsEndToken)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Newtonsoft::Json::JsonToken)>(&Newtonsoft::Json::Utilities::JsonTokenUtils::IsEndToken)> {
   static const MethodInfo* get() {
     static auto* token = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::JsonTokenUtils*), "IsEndToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{token});
@@ -54,7 +54,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ne
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::JsonTokenUtils::IsStartToken
 // Il2CppName: IsStartToken
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Newtonsoft::Json::JsonToken)>(&Newtonsoft::Json::Utilities::JsonTokenUtils::IsStartToken)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Newtonsoft::Json::JsonToken)>(&Newtonsoft::Json::Utilities::JsonTokenUtils::IsStartToken)> {
   static const MethodInfo* get() {
     static auto* token = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::JsonTokenUtils*), "IsStartToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{token});
@@ -63,7 +63,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ne
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::JsonTokenUtils::IsPrimitiveToken
 // Il2CppName: IsPrimitiveToken
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Newtonsoft::Json::JsonToken)>(&Newtonsoft::Json::Utilities::JsonTokenUtils::IsPrimitiveToken)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Newtonsoft::Json::JsonToken)>(&Newtonsoft::Json::Utilities::JsonTokenUtils::IsPrimitiveToken)> {
   static const MethodInfo* get() {
     static auto* token = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::JsonTokenUtils*), "IsPrimitiveToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{token});

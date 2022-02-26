@@ -24,8 +24,8 @@ namespace System::Runtime::Remoting {
   class InternalRemotingServices;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Remoting::InternalRemotingServices);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::InternalRemotingServices*, "System.Runtime.Remoting", "InternalRemotingServices");
+NEED_NO_BOX(::System::Runtime::Remoting::InternalRemotingServices);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::InternalRemotingServices*, "System.Runtime.Remoting", "InternalRemotingServices");
 // Type namespace: System.Runtime.Remoting
 namespace System::Runtime::Remoting {
   // Size: 0x10
@@ -36,15 +36,15 @@ namespace System::Runtime::Remoting {
   class InternalRemotingServices : public ::Il2CppObject {
     public:
     // Get static field: static private System.Collections.Hashtable _soapAttributes
-    static System::Collections::Hashtable* _get__soapAttributes();
+    static ::System::Collections::Hashtable* _get__soapAttributes();
     // Set static field: static private System.Collections.Hashtable _soapAttributes
-    static void _set__soapAttributes(System::Collections::Hashtable* value);
+    static void _set__soapAttributes(::System::Collections::Hashtable* value);
     // static private System.Void .cctor()
     // Offset: 0x1B82D9C
     static void _cctor();
     // static public System.Runtime.Remoting.Metadata.SoapAttribute GetCachedSoapAttribute(System.Object reflectionObject)
     // Offset: 0x1B828DC
-    static System::Runtime::Remoting::Metadata::SoapAttribute* GetCachedSoapAttribute(::Il2CppObject* reflectionObject);
+    static ::System::Runtime::Remoting::Metadata::SoapAttribute* GetCachedSoapAttribute(::Il2CppObject* reflectionObject);
   }; // System.Runtime.Remoting.InternalRemotingServices
   #pragma pack(pop)
 }
@@ -60,7 +60,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Runtime::Remoting::InternalRemotingServices::GetCachedSoapAttribute
 // Il2CppName: GetCachedSoapAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Metadata::SoapAttribute* (*)(::Il2CppObject*)>(&System::Runtime::Remoting::InternalRemotingServices::GetCachedSoapAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Metadata::SoapAttribute* (*)(::Il2CppObject*)>(&System::Runtime::Remoting::InternalRemotingServices::GetCachedSoapAttribute)> {
   static const MethodInfo* get() {
     static auto* reflectionObject = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::InternalRemotingServices*), "GetCachedSoapAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reflectionObject});

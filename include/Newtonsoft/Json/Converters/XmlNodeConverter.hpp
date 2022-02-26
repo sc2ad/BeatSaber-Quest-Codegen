@@ -58,8 +58,8 @@ namespace Newtonsoft::Json::Converters {
   class XmlNodeConverter;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Converters::XmlNodeConverter);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Converters::XmlNodeConverter*, "Newtonsoft.Json.Converters", "XmlNodeConverter");
+NEED_NO_BOX(::Newtonsoft::Json::Converters::XmlNodeConverter);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Converters::XmlNodeConverter*, "Newtonsoft.Json.Converters", "XmlNodeConverter");
 // Type namespace: Newtonsoft.Json.Converters
 namespace Newtonsoft::Json::Converters {
   // Size: 0x1B
@@ -68,7 +68,7 @@ namespace Newtonsoft::Json::Converters {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NullableAttribute] Offset: 1203B44
   // [NullableContextAttribute] Offset: 1203B44
-  class XmlNodeConverter : public Newtonsoft::Json::JsonConverter {
+  class XmlNodeConverter : public ::Newtonsoft::Json::JsonConverter {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -106,9 +106,9 @@ namespace Newtonsoft::Json::Converters {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get static field: static readonly System.Collections.Generic.List`1<Newtonsoft.Json.Converters.IXmlNode> EmptyChildNodes
-    static System::Collections::Generic::List_1<Newtonsoft::Json::Converters::IXmlNode*>* _get_EmptyChildNodes();
+    static ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* _get_EmptyChildNodes();
     // Set static field: static readonly System.Collections.Generic.List`1<Newtonsoft.Json.Converters.IXmlNode> EmptyChildNodes
-    static void _set_EmptyChildNodes(System::Collections::Generic::List_1<Newtonsoft::Json::Converters::IXmlNode*>* value);
+    static void _set_EmptyChildNodes(::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* value);
     // Get instance field reference: private System.String <DeserializeRootElementName>k__BackingField
     ::StringW& dyn_$DeserializeRootElementName$k__BackingField();
     // Get instance field reference: private System.Boolean <WriteArrayAttribute>k__BackingField
@@ -134,85 +134,85 @@ namespace Newtonsoft::Json::Converters {
     static void _cctor();
     // private Newtonsoft.Json.Converters.IXmlNode WrapXml(System.Object value)
     // Offset: 0x18253C8
-    Newtonsoft::Json::Converters::IXmlNode* WrapXml(::Il2CppObject* value);
+    ::Newtonsoft::Json::Converters::IXmlNode* WrapXml(::Il2CppObject* value);
     // private System.Void PushParentNamespaces(Newtonsoft.Json.Converters.IXmlNode node, System.Xml.XmlNamespaceManager manager)
     // Offset: 0x18254C8
-    void PushParentNamespaces(Newtonsoft::Json::Converters::IXmlNode* node, System::Xml::XmlNamespaceManager* manager);
+    void PushParentNamespaces(::Newtonsoft::Json::Converters::IXmlNode* node, ::System::Xml::XmlNamespaceManager* manager);
     // private System.String ResolveFullName(Newtonsoft.Json.Converters.IXmlNode node, System.Xml.XmlNamespaceManager manager)
     // Offset: 0x1827380
-    ::StringW ResolveFullName(Newtonsoft::Json::Converters::IXmlNode* node, System::Xml::XmlNamespaceManager* manager);
+    ::StringW ResolveFullName(::Newtonsoft::Json::Converters::IXmlNode* node, ::System::Xml::XmlNamespaceManager* manager);
     // private System.String GetPropertyName(Newtonsoft.Json.Converters.IXmlNode node, System.Xml.XmlNamespaceManager manager)
     // Offset: 0x18276BC
-    ::StringW GetPropertyName(Newtonsoft::Json::Converters::IXmlNode* node, System::Xml::XmlNamespaceManager* manager);
+    ::StringW GetPropertyName(::Newtonsoft::Json::Converters::IXmlNode* node, ::System::Xml::XmlNamespaceManager* manager);
     // private System.Boolean IsArray(Newtonsoft.Json.Converters.IXmlNode node)
     // Offset: 0x1827AA4
-    bool IsArray(Newtonsoft::Json::Converters::IXmlNode* node);
+    bool IsArray(::Newtonsoft::Json::Converters::IXmlNode* node);
     // private System.Void SerializeGroupedNodes(Newtonsoft.Json.JsonWriter writer, Newtonsoft.Json.Converters.IXmlNode node, System.Xml.XmlNamespaceManager manager, System.Boolean writePropertyName)
     // Offset: 0x1827DDC
-    void SerializeGroupedNodes(Newtonsoft::Json::JsonWriter* writer, Newtonsoft::Json::Converters::IXmlNode* node, System::Xml::XmlNamespaceManager* manager, bool writePropertyName);
+    void SerializeGroupedNodes(::Newtonsoft::Json::JsonWriter* writer, ::Newtonsoft::Json::Converters::IXmlNode* node, ::System::Xml::XmlNamespaceManager* manager, bool writePropertyName);
     // private System.Void WriteGroupedNodes(Newtonsoft.Json.JsonWriter writer, System.Xml.XmlNamespaceManager manager, System.Boolean writePropertyName, System.Collections.Generic.List`1<Newtonsoft.Json.Converters.IXmlNode> groupedNodes, System.String elementNames)
     // Offset: 0x1828608
-    void WriteGroupedNodes(Newtonsoft::Json::JsonWriter* writer, System::Xml::XmlNamespaceManager* manager, bool writePropertyName, System::Collections::Generic::List_1<Newtonsoft::Json::Converters::IXmlNode*>* groupedNodes, ::StringW elementNames);
+    void WriteGroupedNodes(::Newtonsoft::Json::JsonWriter* writer, ::System::Xml::XmlNamespaceManager* manager, bool writePropertyName, ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* groupedNodes, ::StringW elementNames);
     // private System.Void WriteGroupedNodes(Newtonsoft.Json.JsonWriter writer, System.Xml.XmlNamespaceManager manager, System.Boolean writePropertyName, Newtonsoft.Json.Converters.IXmlNode node, System.String elementNames)
     // Offset: 0x182876C
-    void WriteGroupedNodes(Newtonsoft::Json::JsonWriter* writer, System::Xml::XmlNamespaceManager* manager, bool writePropertyName, Newtonsoft::Json::Converters::IXmlNode* node, ::StringW elementNames);
+    void WriteGroupedNodes(::Newtonsoft::Json::JsonWriter* writer, ::System::Xml::XmlNamespaceManager* manager, bool writePropertyName, ::Newtonsoft::Json::Converters::IXmlNode* node, ::StringW elementNames);
     // private System.Void SerializeNode(Newtonsoft.Json.JsonWriter writer, Newtonsoft.Json.Converters.IXmlNode node, System.Xml.XmlNamespaceManager manager, System.Boolean writePropertyName)
     // Offset: 0x1825AB8
-    void SerializeNode(Newtonsoft::Json::JsonWriter* writer, Newtonsoft::Json::Converters::IXmlNode* node, System::Xml::XmlNamespaceManager* manager, bool writePropertyName);
+    void SerializeNode(::Newtonsoft::Json::JsonWriter* writer, ::Newtonsoft::Json::Converters::IXmlNode* node, ::System::Xml::XmlNamespaceManager* manager, bool writePropertyName);
     // static private System.Boolean AllSameName(Newtonsoft.Json.Converters.IXmlNode node)
     // Offset: 0x1828840
-    static bool AllSameName(Newtonsoft::Json::Converters::IXmlNode* node);
+    static bool AllSameName(::Newtonsoft::Json::Converters::IXmlNode* node);
     // private System.Void DeserializeValue(Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Converters.IXmlDocument document, System.Xml.XmlNamespaceManager manager, System.String propertyName, Newtonsoft.Json.Converters.IXmlNode currentNode)
     // Offset: 0x182A02C
-    void DeserializeValue(Newtonsoft::Json::JsonReader* reader, Newtonsoft::Json::Converters::IXmlDocument* document, System::Xml::XmlNamespaceManager* manager, ::StringW propertyName, Newtonsoft::Json::Converters::IXmlNode* currentNode);
+    void DeserializeValue(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Converters::IXmlDocument* document, ::System::Xml::XmlNamespaceManager* manager, ::StringW propertyName, ::Newtonsoft::Json::Converters::IXmlNode* currentNode);
     // private System.Void ReadElement(Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Converters.IXmlDocument document, Newtonsoft.Json.Converters.IXmlNode currentNode, System.String propertyName, System.Xml.XmlNamespaceManager manager)
     // Offset: 0x182955C
-    void ReadElement(Newtonsoft::Json::JsonReader* reader, Newtonsoft::Json::Converters::IXmlDocument* document, Newtonsoft::Json::Converters::IXmlNode* currentNode, ::StringW propertyName, System::Xml::XmlNamespaceManager* manager);
+    void ReadElement(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Converters::IXmlDocument* document, ::Newtonsoft::Json::Converters::IXmlNode* currentNode, ::StringW propertyName, ::System::Xml::XmlNamespaceManager* manager);
     // private System.Void CreateElement(Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Converters.IXmlDocument document, Newtonsoft.Json.Converters.IXmlNode currentNode, System.String elementName, System.Xml.XmlNamespaceManager manager, System.String elementPrefix, System.Collections.Generic.Dictionary`2<System.String,System.String> attributeNameValues)
     // Offset: 0x182C118
-    void CreateElement(Newtonsoft::Json::JsonReader* reader, Newtonsoft::Json::Converters::IXmlDocument* document, Newtonsoft::Json::Converters::IXmlNode* currentNode, ::StringW elementName, System::Xml::XmlNamespaceManager* manager, ::StringW elementPrefix, System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* attributeNameValues);
+    void CreateElement(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Converters::IXmlDocument* document, ::Newtonsoft::Json::Converters::IXmlNode* currentNode, ::StringW elementName, ::System::Xml::XmlNamespaceManager* manager, ::StringW elementPrefix, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* attributeNameValues);
     // static private System.Void AddAttribute(Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Converters.IXmlDocument document, Newtonsoft.Json.Converters.IXmlNode currentNode, System.String propertyName, System.String attributeName, System.Xml.XmlNamespaceManager manager, System.String attributePrefix)
     // Offset: 0x182BD94
-    static void AddAttribute(Newtonsoft::Json::JsonReader* reader, Newtonsoft::Json::Converters::IXmlDocument* document, Newtonsoft::Json::Converters::IXmlNode* currentNode, ::StringW propertyName, ::StringW attributeName, System::Xml::XmlNamespaceManager* manager, ::StringW attributePrefix);
+    static void AddAttribute(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Converters::IXmlDocument* document, ::Newtonsoft::Json::Converters::IXmlNode* currentNode, ::StringW propertyName, ::StringW attributeName, ::System::Xml::XmlNamespaceManager* manager, ::StringW attributePrefix);
     // static private System.String ConvertTokenToXmlValue(Newtonsoft.Json.JsonReader reader)
     // Offset: 0x182A608
-    static ::StringW ConvertTokenToXmlValue(Newtonsoft::Json::JsonReader* reader);
+    static ::StringW ConvertTokenToXmlValue(::Newtonsoft::Json::JsonReader* reader);
     // private System.Void ReadArrayElements(Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Converters.IXmlDocument document, System.String propertyName, Newtonsoft.Json.Converters.IXmlNode currentNode, System.Xml.XmlNamespaceManager manager)
     // Offset: 0x182B4B0
-    void ReadArrayElements(Newtonsoft::Json::JsonReader* reader, Newtonsoft::Json::Converters::IXmlDocument* document, ::StringW propertyName, Newtonsoft::Json::Converters::IXmlNode* currentNode, System::Xml::XmlNamespaceManager* manager);
+    void ReadArrayElements(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Converters::IXmlDocument* document, ::StringW propertyName, ::Newtonsoft::Json::Converters::IXmlNode* currentNode, ::System::Xml::XmlNamespaceManager* manager);
     // private System.Void AddJsonArrayAttribute(Newtonsoft.Json.Converters.IXmlElement element, Newtonsoft.Json.Converters.IXmlDocument document)
     // Offset: 0x182C8E8
-    void AddJsonArrayAttribute(Newtonsoft::Json::Converters::IXmlElement* element, Newtonsoft::Json::Converters::IXmlDocument* document);
+    void AddJsonArrayAttribute(::Newtonsoft::Json::Converters::IXmlElement* element, ::Newtonsoft::Json::Converters::IXmlDocument* document);
     // private System.Boolean ShouldReadInto(Newtonsoft.Json.JsonReader reader)
     // Offset: 0x182B7EC
-    bool ShouldReadInto(Newtonsoft::Json::JsonReader* reader);
+    bool ShouldReadInto(::Newtonsoft::Json::JsonReader* reader);
     // private System.Collections.Generic.Dictionary`2<System.String,System.String> ReadAttributeElements(Newtonsoft.Json.JsonReader reader, System.Xml.XmlNamespaceManager manager)
     // Offset: 0x182B838
-    System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* ReadAttributeElements(Newtonsoft::Json::JsonReader* reader, System::Xml::XmlNamespaceManager* manager);
+    ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* ReadAttributeElements(::Newtonsoft::Json::JsonReader* reader, ::System::Xml::XmlNamespaceManager* manager);
     // private System.Void CreateInstruction(Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Converters.IXmlDocument document, Newtonsoft.Json.Converters.IXmlNode currentNode, System.String propertyName)
     // Offset: 0x182AC88
-    void CreateInstruction(Newtonsoft::Json::JsonReader* reader, Newtonsoft::Json::Converters::IXmlDocument* document, Newtonsoft::Json::Converters::IXmlNode* currentNode, ::StringW propertyName);
+    void CreateInstruction(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Converters::IXmlDocument* document, ::Newtonsoft::Json::Converters::IXmlNode* currentNode, ::StringW propertyName);
     // private System.Void CreateDocumentType(Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Converters.IXmlDocument document, Newtonsoft.Json.Converters.IXmlNode currentNode)
     // Offset: 0x182B108
-    void CreateDocumentType(Newtonsoft::Json::JsonReader* reader, Newtonsoft::Json::Converters::IXmlDocument* document, Newtonsoft::Json::Converters::IXmlNode* currentNode);
+    void CreateDocumentType(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Converters::IXmlDocument* document, ::Newtonsoft::Json::Converters::IXmlNode* currentNode);
     // private Newtonsoft.Json.Converters.IXmlElement CreateElement(System.String elementName, Newtonsoft.Json.Converters.IXmlDocument document, System.String elementPrefix, System.Xml.XmlNamespaceManager manager)
     // Offset: 0x182C700
-    Newtonsoft::Json::Converters::IXmlElement* CreateElement(::StringW elementName, Newtonsoft::Json::Converters::IXmlDocument* document, ::StringW elementPrefix, System::Xml::XmlNamespaceManager* manager);
+    ::Newtonsoft::Json::Converters::IXmlElement* CreateElement(::StringW elementName, ::Newtonsoft::Json::Converters::IXmlDocument* document, ::StringW elementPrefix, ::System::Xml::XmlNamespaceManager* manager);
     // private System.Void DeserializeNode(Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Converters.IXmlDocument document, System.Xml.XmlNamespaceManager manager, Newtonsoft.Json.Converters.IXmlNode currentNode)
     // Offset: 0x1829850
-    void DeserializeNode(Newtonsoft::Json::JsonReader* reader, Newtonsoft::Json::Converters::IXmlDocument* document, System::Xml::XmlNamespaceManager* manager, Newtonsoft::Json::Converters::IXmlNode* currentNode);
+    void DeserializeNode(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Converters::IXmlDocument* document, ::System::Xml::XmlNamespaceManager* manager, ::Newtonsoft::Json::Converters::IXmlNode* currentNode);
     // private System.Boolean IsNamespaceAttribute(System.String attributeName, out System.String prefix)
     // Offset: 0x182CC04
     bool IsNamespaceAttribute(::StringW attributeName, ByRef<::StringW> prefix);
     // private System.Boolean ValueAttributes(System.Collections.Generic.List`1<Newtonsoft.Json.Converters.IXmlNode> c)
     // Offset: 0x1828AB0
-    bool ValueAttributes(System::Collections::Generic::List_1<Newtonsoft::Json::Converters::IXmlNode*>* c);
+    bool ValueAttributes(::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* c);
     // private System.Boolean IsXObject(System.Type valueType)
     // Offset: 0x182CD8C
-    bool IsXObject(System::Type* valueType);
+    bool IsXObject(::System::Type* valueType);
     // private System.Boolean IsXmlNode(System.Type valueType)
     // Offset: 0x182CE1C
-    bool IsXmlNode(System::Type* valueType);
+    bool IsXmlNode(::System::Type* valueType);
     // public System.Void .ctor()
     // Offset: 0x182CEAC
     // Implemented from: Newtonsoft.Json.JsonConverter
@@ -220,24 +220,24 @@ namespace Newtonsoft::Json::Converters {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlNodeConverter* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Converters::XmlNodeConverter::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Converters::XmlNodeConverter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlNodeConverter*, creationType>()));
     }
     // public override System.Void WriteJson(Newtonsoft.Json.JsonWriter writer, System.Object value, Newtonsoft.Json.JsonSerializer serializer)
     // Offset: 0x182528C
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Void JsonConverter::WriteJson(Newtonsoft.Json.JsonWriter writer, System.Object value, Newtonsoft.Json.JsonSerializer serializer)
-    void WriteJson(Newtonsoft::Json::JsonWriter* writer, ::Il2CppObject* value, Newtonsoft::Json::JsonSerializer* serializer);
+    void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::Il2CppObject* value, ::Newtonsoft::Json::JsonSerializer* serializer);
     // public override System.Object ReadJson(Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue, Newtonsoft.Json.JsonSerializer serializer)
     // Offset: 0x1828D54
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Object JsonConverter::ReadJson(Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue, Newtonsoft.Json.JsonSerializer serializer)
-    ::Il2CppObject* ReadJson(Newtonsoft::Json::JsonReader* reader, System::Type* objectType, ::Il2CppObject* existingValue, Newtonsoft::Json::JsonSerializer* serializer);
+    ::Il2CppObject* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::Il2CppObject* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
     // public override System.Boolean CanConvert(System.Type valueType)
     // Offset: 0x182CCE8
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Boolean JsonConverter::CanConvert(System.Type valueType)
-    bool CanConvert(System::Type* valueType);
+    bool CanConvert(::System::Type* valueType);
   }; // Newtonsoft.Json.Converters.XmlNodeConverter
   #pragma pack(pop)
   static check_size<sizeof(XmlNodeConverter), 26 + sizeof(bool)> __Newtonsoft_Json_Converters_XmlNodeConverterSizeCheck;
@@ -287,7 +287,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlNodeConverter::WrapXml
 // Il2CppName: WrapXml
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Converters::IXmlNode* (Newtonsoft::Json::Converters::XmlNodeConverter::*)(::Il2CppObject*)>(&Newtonsoft::Json::Converters::XmlNodeConverter::WrapXml)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Converters::IXmlNode* (Newtonsoft::Json::Converters::XmlNodeConverter::*)(::Il2CppObject*)>(&Newtonsoft::Json::Converters::XmlNodeConverter::WrapXml)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Converters::XmlNodeConverter*), "WrapXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -296,7 +296,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft:
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlNodeConverter::PushParentNamespaces
 // Il2CppName: PushParentNamespaces
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Converters::XmlNodeConverter::*)(Newtonsoft::Json::Converters::IXmlNode*, System::Xml::XmlNamespaceManager*)>(&Newtonsoft::Json::Converters::XmlNodeConverter::PushParentNamespaces)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Converters::XmlNodeConverter::*)(::Newtonsoft::Json::Converters::IXmlNode*, ::System::Xml::XmlNamespaceManager*)>(&Newtonsoft::Json::Converters::XmlNodeConverter::PushParentNamespaces)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Converters", "IXmlNode")->byval_arg;
     static auto* manager = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNamespaceManager")->byval_arg;
@@ -306,7 +306,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlNodeConverter::ResolveFullName
 // Il2CppName: ResolveFullName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Newtonsoft::Json::Converters::XmlNodeConverter::*)(Newtonsoft::Json::Converters::IXmlNode*, System::Xml::XmlNamespaceManager*)>(&Newtonsoft::Json::Converters::XmlNodeConverter::ResolveFullName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Newtonsoft::Json::Converters::XmlNodeConverter::*)(::Newtonsoft::Json::Converters::IXmlNode*, ::System::Xml::XmlNamespaceManager*)>(&Newtonsoft::Json::Converters::XmlNodeConverter::ResolveFullName)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Converters", "IXmlNode")->byval_arg;
     static auto* manager = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNamespaceManager")->byval_arg;
@@ -316,7 +316,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlNodeConverter::GetPropertyName
 // Il2CppName: GetPropertyName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Newtonsoft::Json::Converters::XmlNodeConverter::*)(Newtonsoft::Json::Converters::IXmlNode*, System::Xml::XmlNamespaceManager*)>(&Newtonsoft::Json::Converters::XmlNodeConverter::GetPropertyName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Newtonsoft::Json::Converters::XmlNodeConverter::*)(::Newtonsoft::Json::Converters::IXmlNode*, ::System::Xml::XmlNamespaceManager*)>(&Newtonsoft::Json::Converters::XmlNodeConverter::GetPropertyName)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Converters", "IXmlNode")->byval_arg;
     static auto* manager = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNamespaceManager")->byval_arg;
@@ -326,7 +326,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlNodeConverter::IsArray
 // Il2CppName: IsArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Converters::XmlNodeConverter::*)(Newtonsoft::Json::Converters::IXmlNode*)>(&Newtonsoft::Json::Converters::XmlNodeConverter::IsArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Converters::XmlNodeConverter::*)(::Newtonsoft::Json::Converters::IXmlNode*)>(&Newtonsoft::Json::Converters::XmlNodeConverter::IsArray)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Converters", "IXmlNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Converters::XmlNodeConverter*), "IsArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node});
@@ -335,7 +335,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlNodeConverter::SerializeGroupedNodes
 // Il2CppName: SerializeGroupedNodes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Converters::XmlNodeConverter::*)(Newtonsoft::Json::JsonWriter*, Newtonsoft::Json::Converters::IXmlNode*, System::Xml::XmlNamespaceManager*, bool)>(&Newtonsoft::Json::Converters::XmlNodeConverter::SerializeGroupedNodes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Converters::XmlNodeConverter::*)(::Newtonsoft::Json::JsonWriter*, ::Newtonsoft::Json::Converters::IXmlNode*, ::System::Xml::XmlNamespaceManager*, bool)>(&Newtonsoft::Json::Converters::XmlNodeConverter::SerializeGroupedNodes)> {
   static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonWriter")->byval_arg;
     static auto* node = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Converters", "IXmlNode")->byval_arg;
@@ -347,7 +347,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlNodeConverter::WriteGroupedNodes
 // Il2CppName: WriteGroupedNodes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Converters::XmlNodeConverter::*)(Newtonsoft::Json::JsonWriter*, System::Xml::XmlNamespaceManager*, bool, System::Collections::Generic::List_1<Newtonsoft::Json::Converters::IXmlNode*>*, ::StringW)>(&Newtonsoft::Json::Converters::XmlNodeConverter::WriteGroupedNodes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Converters::XmlNodeConverter::*)(::Newtonsoft::Json::JsonWriter*, ::System::Xml::XmlNamespaceManager*, bool, ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>*, ::StringW)>(&Newtonsoft::Json::Converters::XmlNodeConverter::WriteGroupedNodes)> {
   static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonWriter")->byval_arg;
     static auto* manager = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNamespaceManager")->byval_arg;
@@ -360,7 +360,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlNodeConverter::WriteGroupedNodes
 // Il2CppName: WriteGroupedNodes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Converters::XmlNodeConverter::*)(Newtonsoft::Json::JsonWriter*, System::Xml::XmlNamespaceManager*, bool, Newtonsoft::Json::Converters::IXmlNode*, ::StringW)>(&Newtonsoft::Json::Converters::XmlNodeConverter::WriteGroupedNodes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Converters::XmlNodeConverter::*)(::Newtonsoft::Json::JsonWriter*, ::System::Xml::XmlNamespaceManager*, bool, ::Newtonsoft::Json::Converters::IXmlNode*, ::StringW)>(&Newtonsoft::Json::Converters::XmlNodeConverter::WriteGroupedNodes)> {
   static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonWriter")->byval_arg;
     static auto* manager = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNamespaceManager")->byval_arg;
@@ -373,7 +373,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlNodeConverter::SerializeNode
 // Il2CppName: SerializeNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Converters::XmlNodeConverter::*)(Newtonsoft::Json::JsonWriter*, Newtonsoft::Json::Converters::IXmlNode*, System::Xml::XmlNamespaceManager*, bool)>(&Newtonsoft::Json::Converters::XmlNodeConverter::SerializeNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Converters::XmlNodeConverter::*)(::Newtonsoft::Json::JsonWriter*, ::Newtonsoft::Json::Converters::IXmlNode*, ::System::Xml::XmlNamespaceManager*, bool)>(&Newtonsoft::Json::Converters::XmlNodeConverter::SerializeNode)> {
   static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonWriter")->byval_arg;
     static auto* node = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Converters", "IXmlNode")->byval_arg;
@@ -385,7 +385,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlNodeConverter::AllSameName
 // Il2CppName: AllSameName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Newtonsoft::Json::Converters::IXmlNode*)>(&Newtonsoft::Json::Converters::XmlNodeConverter::AllSameName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Newtonsoft::Json::Converters::IXmlNode*)>(&Newtonsoft::Json::Converters::XmlNodeConverter::AllSameName)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Converters", "IXmlNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Converters::XmlNodeConverter*), "AllSameName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node});
@@ -394,7 +394,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ne
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlNodeConverter::DeserializeValue
 // Il2CppName: DeserializeValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Converters::XmlNodeConverter::*)(Newtonsoft::Json::JsonReader*, Newtonsoft::Json::Converters::IXmlDocument*, System::Xml::XmlNamespaceManager*, ::StringW, Newtonsoft::Json::Converters::IXmlNode*)>(&Newtonsoft::Json::Converters::XmlNodeConverter::DeserializeValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Converters::XmlNodeConverter::*)(::Newtonsoft::Json::JsonReader*, ::Newtonsoft::Json::Converters::IXmlDocument*, ::System::Xml::XmlNamespaceManager*, ::StringW, ::Newtonsoft::Json::Converters::IXmlNode*)>(&Newtonsoft::Json::Converters::XmlNodeConverter::DeserializeValue)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonReader")->byval_arg;
     static auto* document = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Converters", "IXmlDocument")->byval_arg;
@@ -407,7 +407,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlNodeConverter::ReadElement
 // Il2CppName: ReadElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Converters::XmlNodeConverter::*)(Newtonsoft::Json::JsonReader*, Newtonsoft::Json::Converters::IXmlDocument*, Newtonsoft::Json::Converters::IXmlNode*, ::StringW, System::Xml::XmlNamespaceManager*)>(&Newtonsoft::Json::Converters::XmlNodeConverter::ReadElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Converters::XmlNodeConverter::*)(::Newtonsoft::Json::JsonReader*, ::Newtonsoft::Json::Converters::IXmlDocument*, ::Newtonsoft::Json::Converters::IXmlNode*, ::StringW, ::System::Xml::XmlNamespaceManager*)>(&Newtonsoft::Json::Converters::XmlNodeConverter::ReadElement)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonReader")->byval_arg;
     static auto* document = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Converters", "IXmlDocument")->byval_arg;
@@ -420,7 +420,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlNodeConverter::CreateElement
 // Il2CppName: CreateElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Converters::XmlNodeConverter::*)(Newtonsoft::Json::JsonReader*, Newtonsoft::Json::Converters::IXmlDocument*, Newtonsoft::Json::Converters::IXmlNode*, ::StringW, System::Xml::XmlNamespaceManager*, ::StringW, System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*)>(&Newtonsoft::Json::Converters::XmlNodeConverter::CreateElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Converters::XmlNodeConverter::*)(::Newtonsoft::Json::JsonReader*, ::Newtonsoft::Json::Converters::IXmlDocument*, ::Newtonsoft::Json::Converters::IXmlNode*, ::StringW, ::System::Xml::XmlNamespaceManager*, ::StringW, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*)>(&Newtonsoft::Json::Converters::XmlNodeConverter::CreateElement)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonReader")->byval_arg;
     static auto* document = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Converters", "IXmlDocument")->byval_arg;
@@ -435,7 +435,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlNodeConverter::AddAttribute
 // Il2CppName: AddAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Newtonsoft::Json::JsonReader*, Newtonsoft::Json::Converters::IXmlDocument*, Newtonsoft::Json::Converters::IXmlNode*, ::StringW, ::StringW, System::Xml::XmlNamespaceManager*, ::StringW)>(&Newtonsoft::Json::Converters::XmlNodeConverter::AddAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Newtonsoft::Json::JsonReader*, ::Newtonsoft::Json::Converters::IXmlDocument*, ::Newtonsoft::Json::Converters::IXmlNode*, ::StringW, ::StringW, ::System::Xml::XmlNamespaceManager*, ::StringW)>(&Newtonsoft::Json::Converters::XmlNodeConverter::AddAttribute)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonReader")->byval_arg;
     static auto* document = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Converters", "IXmlDocument")->byval_arg;
@@ -450,7 +450,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ne
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlNodeConverter::ConvertTokenToXmlValue
 // Il2CppName: ConvertTokenToXmlValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(Newtonsoft::Json::JsonReader*)>(&Newtonsoft::Json::Converters::XmlNodeConverter::ConvertTokenToXmlValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::Newtonsoft::Json::JsonReader*)>(&Newtonsoft::Json::Converters::XmlNodeConverter::ConvertTokenToXmlValue)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonReader")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Converters::XmlNodeConverter*), "ConvertTokenToXmlValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader});
@@ -459,7 +459,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlNodeConverter::ReadArrayElements
 // Il2CppName: ReadArrayElements
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Converters::XmlNodeConverter::*)(Newtonsoft::Json::JsonReader*, Newtonsoft::Json::Converters::IXmlDocument*, ::StringW, Newtonsoft::Json::Converters::IXmlNode*, System::Xml::XmlNamespaceManager*)>(&Newtonsoft::Json::Converters::XmlNodeConverter::ReadArrayElements)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Converters::XmlNodeConverter::*)(::Newtonsoft::Json::JsonReader*, ::Newtonsoft::Json::Converters::IXmlDocument*, ::StringW, ::Newtonsoft::Json::Converters::IXmlNode*, ::System::Xml::XmlNamespaceManager*)>(&Newtonsoft::Json::Converters::XmlNodeConverter::ReadArrayElements)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonReader")->byval_arg;
     static auto* document = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Converters", "IXmlDocument")->byval_arg;
@@ -472,7 +472,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlNodeConverter::AddJsonArrayAttribute
 // Il2CppName: AddJsonArrayAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Converters::XmlNodeConverter::*)(Newtonsoft::Json::Converters::IXmlElement*, Newtonsoft::Json::Converters::IXmlDocument*)>(&Newtonsoft::Json::Converters::XmlNodeConverter::AddJsonArrayAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Converters::XmlNodeConverter::*)(::Newtonsoft::Json::Converters::IXmlElement*, ::Newtonsoft::Json::Converters::IXmlDocument*)>(&Newtonsoft::Json::Converters::XmlNodeConverter::AddJsonArrayAttribute)> {
   static const MethodInfo* get() {
     static auto* element = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Converters", "IXmlElement")->byval_arg;
     static auto* document = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Converters", "IXmlDocument")->byval_arg;
@@ -482,7 +482,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlNodeConverter::ShouldReadInto
 // Il2CppName: ShouldReadInto
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Converters::XmlNodeConverter::*)(Newtonsoft::Json::JsonReader*)>(&Newtonsoft::Json::Converters::XmlNodeConverter::ShouldReadInto)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Converters::XmlNodeConverter::*)(::Newtonsoft::Json::JsonReader*)>(&Newtonsoft::Json::Converters::XmlNodeConverter::ShouldReadInto)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonReader")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Converters::XmlNodeConverter*), "ShouldReadInto", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader});
@@ -491,7 +491,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlNodeConverter::ReadAttributeElements
 // Il2CppName: ReadAttributeElements
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* (Newtonsoft::Json::Converters::XmlNodeConverter::*)(Newtonsoft::Json::JsonReader*, System::Xml::XmlNamespaceManager*)>(&Newtonsoft::Json::Converters::XmlNodeConverter::ReadAttributeElements)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* (Newtonsoft::Json::Converters::XmlNodeConverter::*)(::Newtonsoft::Json::JsonReader*, ::System::Xml::XmlNamespaceManager*)>(&Newtonsoft::Json::Converters::XmlNodeConverter::ReadAttributeElements)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonReader")->byval_arg;
     static auto* manager = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNamespaceManager")->byval_arg;
@@ -501,7 +501,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlNodeConverter::CreateInstruction
 // Il2CppName: CreateInstruction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Converters::XmlNodeConverter::*)(Newtonsoft::Json::JsonReader*, Newtonsoft::Json::Converters::IXmlDocument*, Newtonsoft::Json::Converters::IXmlNode*, ::StringW)>(&Newtonsoft::Json::Converters::XmlNodeConverter::CreateInstruction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Converters::XmlNodeConverter::*)(::Newtonsoft::Json::JsonReader*, ::Newtonsoft::Json::Converters::IXmlDocument*, ::Newtonsoft::Json::Converters::IXmlNode*, ::StringW)>(&Newtonsoft::Json::Converters::XmlNodeConverter::CreateInstruction)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonReader")->byval_arg;
     static auto* document = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Converters", "IXmlDocument")->byval_arg;
@@ -513,7 +513,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlNodeConverter::CreateDocumentType
 // Il2CppName: CreateDocumentType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Converters::XmlNodeConverter::*)(Newtonsoft::Json::JsonReader*, Newtonsoft::Json::Converters::IXmlDocument*, Newtonsoft::Json::Converters::IXmlNode*)>(&Newtonsoft::Json::Converters::XmlNodeConverter::CreateDocumentType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Converters::XmlNodeConverter::*)(::Newtonsoft::Json::JsonReader*, ::Newtonsoft::Json::Converters::IXmlDocument*, ::Newtonsoft::Json::Converters::IXmlNode*)>(&Newtonsoft::Json::Converters::XmlNodeConverter::CreateDocumentType)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonReader")->byval_arg;
     static auto* document = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Converters", "IXmlDocument")->byval_arg;
@@ -524,7 +524,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlNodeConverter::CreateElement
 // Il2CppName: CreateElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Converters::IXmlElement* (Newtonsoft::Json::Converters::XmlNodeConverter::*)(::StringW, Newtonsoft::Json::Converters::IXmlDocument*, ::StringW, System::Xml::XmlNamespaceManager*)>(&Newtonsoft::Json::Converters::XmlNodeConverter::CreateElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Converters::IXmlElement* (Newtonsoft::Json::Converters::XmlNodeConverter::*)(::StringW, ::Newtonsoft::Json::Converters::IXmlDocument*, ::StringW, ::System::Xml::XmlNamespaceManager*)>(&Newtonsoft::Json::Converters::XmlNodeConverter::CreateElement)> {
   static const MethodInfo* get() {
     static auto* elementName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* document = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Converters", "IXmlDocument")->byval_arg;
@@ -536,7 +536,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft:
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlNodeConverter::DeserializeNode
 // Il2CppName: DeserializeNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Converters::XmlNodeConverter::*)(Newtonsoft::Json::JsonReader*, Newtonsoft::Json::Converters::IXmlDocument*, System::Xml::XmlNamespaceManager*, Newtonsoft::Json::Converters::IXmlNode*)>(&Newtonsoft::Json::Converters::XmlNodeConverter::DeserializeNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Converters::XmlNodeConverter::*)(::Newtonsoft::Json::JsonReader*, ::Newtonsoft::Json::Converters::IXmlDocument*, ::System::Xml::XmlNamespaceManager*, ::Newtonsoft::Json::Converters::IXmlNode*)>(&Newtonsoft::Json::Converters::XmlNodeConverter::DeserializeNode)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonReader")->byval_arg;
     static auto* document = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Converters", "IXmlDocument")->byval_arg;
@@ -558,7 +558,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlNodeConverter::ValueAttributes
 // Il2CppName: ValueAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Converters::XmlNodeConverter::*)(System::Collections::Generic::List_1<Newtonsoft::Json::Converters::IXmlNode*>*)>(&Newtonsoft::Json::Converters::XmlNodeConverter::ValueAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Converters::XmlNodeConverter::*)(::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>*)>(&Newtonsoft::Json::Converters::XmlNodeConverter::ValueAttributes)> {
   static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Converters", "IXmlNode")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Converters::XmlNodeConverter*), "ValueAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
@@ -567,7 +567,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlNodeConverter::IsXObject
 // Il2CppName: IsXObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Converters::XmlNodeConverter::*)(System::Type*)>(&Newtonsoft::Json::Converters::XmlNodeConverter::IsXObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Converters::XmlNodeConverter::*)(::System::Type*)>(&Newtonsoft::Json::Converters::XmlNodeConverter::IsXObject)> {
   static const MethodInfo* get() {
     static auto* valueType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Converters::XmlNodeConverter*), "IsXObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{valueType});
@@ -576,7 +576,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlNodeConverter::IsXmlNode
 // Il2CppName: IsXmlNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Converters::XmlNodeConverter::*)(System::Type*)>(&Newtonsoft::Json::Converters::XmlNodeConverter::IsXmlNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Converters::XmlNodeConverter::*)(::System::Type*)>(&Newtonsoft::Json::Converters::XmlNodeConverter::IsXmlNode)> {
   static const MethodInfo* get() {
     static auto* valueType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Converters::XmlNodeConverter*), "IsXmlNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{valueType});
@@ -589,7 +589,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlNodeConverter::WriteJson
 // Il2CppName: WriteJson
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Converters::XmlNodeConverter::*)(Newtonsoft::Json::JsonWriter*, ::Il2CppObject*, Newtonsoft::Json::JsonSerializer*)>(&Newtonsoft::Json::Converters::XmlNodeConverter::WriteJson)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Converters::XmlNodeConverter::*)(::Newtonsoft::Json::JsonWriter*, ::Il2CppObject*, ::Newtonsoft::Json::JsonSerializer*)>(&Newtonsoft::Json::Converters::XmlNodeConverter::WriteJson)> {
   static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonWriter")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -600,7 +600,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlNodeConverter::ReadJson
 // Il2CppName: ReadJson
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Newtonsoft::Json::Converters::XmlNodeConverter::*)(Newtonsoft::Json::JsonReader*, System::Type*, ::Il2CppObject*, Newtonsoft::Json::JsonSerializer*)>(&Newtonsoft::Json::Converters::XmlNodeConverter::ReadJson)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Newtonsoft::Json::Converters::XmlNodeConverter::*)(::Newtonsoft::Json::JsonReader*, ::System::Type*, ::Il2CppObject*, ::Newtonsoft::Json::JsonSerializer*)>(&Newtonsoft::Json::Converters::XmlNodeConverter::ReadJson)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonReader")->byval_arg;
     static auto* objectType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -612,7 +612,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlNodeConverter::CanConvert
 // Il2CppName: CanConvert
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Converters::XmlNodeConverter::*)(System::Type*)>(&Newtonsoft::Json::Converters::XmlNodeConverter::CanConvert)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Converters::XmlNodeConverter::*)(::System::Type*)>(&Newtonsoft::Json::Converters::XmlNodeConverter::CanConvert)> {
   static const MethodInfo* get() {
     static auto* valueType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Converters::XmlNodeConverter*), "CanConvert", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{valueType});

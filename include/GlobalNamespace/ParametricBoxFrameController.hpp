@@ -33,8 +33,8 @@ namespace GlobalNamespace {
   class ParametricBoxFrameController;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::ParametricBoxFrameController);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ParametricBoxFrameController*, "", "ParametricBoxFrameController");
+NEED_NO_BOX(::GlobalNamespace::ParametricBoxFrameController);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ParametricBoxFrameController*, "", "ParametricBoxFrameController");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x48
@@ -44,7 +44,7 @@ namespace GlobalNamespace {
   // [RequireComponent] Offset: 12284FC
   // [RequireComponent] Offset: 12284FC
   // [ExecuteInEditMode] Offset: FFFFFFFF
-  class ParametricBoxFrameController : public UnityEngine::MonoBehaviour {
+  class ParametricBoxFrameController : public ::UnityEngine::MonoBehaviour {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -82,24 +82,24 @@ namespace GlobalNamespace {
     // public UnityEngine.Color color
     // Size: 0x10
     // Offset: 0x28
-    UnityEngine::Color color;
+    ::UnityEngine::Color color;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     // private UnityEngine.MeshRenderer _meshRenderer
     // Size: 0x8
     // Offset: 0x38
-    UnityEngine::MeshRenderer* meshRenderer;
+    ::UnityEngine::MeshRenderer* meshRenderer;
     // Field size check
-    static_assert(sizeof(UnityEngine::MeshRenderer*) == 0x8);
+    static_assert(sizeof(::UnityEngine::MeshRenderer*) == 0x8);
     // private MaterialPropertyBlockController _materialPropertyBlockController
     // Size: 0x8
     // Offset: 0x40
-    GlobalNamespace::MaterialPropertyBlockController* materialPropertyBlockController;
+    ::GlobalNamespace::MaterialPropertyBlockController* materialPropertyBlockController;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::MaterialPropertyBlockController*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::MaterialPropertyBlockController*) == 0x8);
     public:
-    // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const noexcept = delete;
+    // Deleting conversion operator: operator ::System::IntPtr
+    constexpr operator ::System::IntPtr() const noexcept = delete;
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1228F1C
     // Get static field: static private readonly System.Int32 _colorID
     static int _get__colorID();
@@ -119,14 +119,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single edgeSize
     float& dyn_edgeSize();
     // Get instance field reference: public UnityEngine.Color color
-    UnityEngine::Color& dyn_color();
+    ::UnityEngine::Color& dyn_color();
     // Get instance field reference: private UnityEngine.MeshRenderer _meshRenderer
-    UnityEngine::MeshRenderer*& dyn__meshRenderer();
+    ::UnityEngine::MeshRenderer*& dyn__meshRenderer();
     // Get instance field reference: private MaterialPropertyBlockController _materialPropertyBlockController
-    GlobalNamespace::MaterialPropertyBlockController*& dyn__materialPropertyBlockController();
+    ::GlobalNamespace::MaterialPropertyBlockController*& dyn__materialPropertyBlockController();
     // public System.Void set_localPosition(UnityEngine.Vector3 value)
     // Offset: 0x2090470
-    void set_localPosition(UnityEngine::Vector3 value);
+    void set_localPosition(::UnityEngine::Vector3 value);
     // protected System.Void Awake()
     // Offset: 0x20904BC
     void Awake();
@@ -149,7 +149,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ParametricBoxFrameController* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ParametricBoxFrameController::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ParametricBoxFrameController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ParametricBoxFrameController*, creationType>()));
     }
     // static private System.Void .cctor()
@@ -159,14 +159,14 @@ namespace GlobalNamespace {
     static void _cctor();
   }; // ParametricBoxFrameController
   #pragma pack(pop)
-  static check_size<sizeof(ParametricBoxFrameController), 64 + sizeof(GlobalNamespace::MaterialPropertyBlockController*)> __GlobalNamespace_ParametricBoxFrameControllerSizeCheck;
+  static check_size<sizeof(ParametricBoxFrameController), 64 + sizeof(::GlobalNamespace::MaterialPropertyBlockController*)> __GlobalNamespace_ParametricBoxFrameControllerSizeCheck;
   static_assert(sizeof(ParametricBoxFrameController) == 0x48);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ParametricBoxFrameController::set_localPosition
 // Il2CppName: set_localPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ParametricBoxFrameController::*)(UnityEngine::Vector3)>(&GlobalNamespace::ParametricBoxFrameController::set_localPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ParametricBoxFrameController::*)(::UnityEngine::Vector3)>(&GlobalNamespace::ParametricBoxFrameController::set_localPosition)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ParametricBoxFrameController*), "set_localPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

@@ -30,8 +30,8 @@ namespace System::Runtime::InteropServices {
   class DllImportAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::InteropServices::DllImportAttribute);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::DllImportAttribute*, "System.Runtime.InteropServices", "DllImportAttribute");
+NEED_NO_BOX(::System::Runtime::InteropServices::DllImportAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::InteropServices::DllImportAttribute*, "System.Runtime.InteropServices", "DllImportAttribute");
 // Type namespace: System.Runtime.InteropServices
 namespace System::Runtime::InteropServices {
   // Size: 0x2E
@@ -40,7 +40,7 @@ namespace System::Runtime::InteropServices {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: 118BA30
   // [AttributeUsageAttribute] Offset: 118BA30
-  class DllImportAttribute : public System::Attribute {
+  class DllImportAttribute : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -66,9 +66,9 @@ namespace System::Runtime::InteropServices {
     // public System.Runtime.InteropServices.CharSet CharSet
     // Size: 0x4
     // Offset: 0x20
-    System::Runtime::InteropServices::CharSet CharSet;
+    ::System::Runtime::InteropServices::CharSet CharSet;
     // Field size check
-    static_assert(sizeof(System::Runtime::InteropServices::CharSet) == 0x4);
+    static_assert(sizeof(::System::Runtime::InteropServices::CharSet) == 0x4);
     // public System.Boolean SetLastError
     // Size: 0x1
     // Offset: 0x24
@@ -92,9 +92,9 @@ namespace System::Runtime::InteropServices {
     // public System.Runtime.InteropServices.CallingConvention CallingConvention
     // Size: 0x4
     // Offset: 0x28
-    System::Runtime::InteropServices::CallingConvention CallingConvention;
+    ::System::Runtime::InteropServices::CallingConvention CallingConvention;
     // Field size check
-    static_assert(sizeof(System::Runtime::InteropServices::CallingConvention) == 0x4);
+    static_assert(sizeof(::System::Runtime::InteropServices::CallingConvention) == 0x4);
     // public System.Boolean BestFitMapping
     // Size: 0x1
     // Offset: 0x2C
@@ -113,7 +113,7 @@ namespace System::Runtime::InteropServices {
     // Get instance field reference: public System.String EntryPoint
     ::StringW& dyn_EntryPoint();
     // Get instance field reference: public System.Runtime.InteropServices.CharSet CharSet
-    System::Runtime::InteropServices::CharSet& dyn_CharSet();
+    ::System::Runtime::InteropServices::CharSet& dyn_CharSet();
     // Get instance field reference: public System.Boolean SetLastError
     bool& dyn_SetLastError();
     // Get instance field reference: public System.Boolean ExactSpelling
@@ -121,7 +121,7 @@ namespace System::Runtime::InteropServices {
     // Get instance field reference: public System.Boolean PreserveSig
     bool& dyn_PreserveSig();
     // Get instance field reference: public System.Runtime.InteropServices.CallingConvention CallingConvention
-    System::Runtime::InteropServices::CallingConvention& dyn_CallingConvention();
+    ::System::Runtime::InteropServices::CallingConvention& dyn_CallingConvention();
     // Get instance field reference: public System.Boolean BestFitMapping
     bool& dyn_BestFitMapping();
     // Get instance field reference: public System.Boolean ThrowOnUnmappableChar
@@ -132,23 +132,23 @@ namespace System::Runtime::InteropServices {
     // System.Void .ctor(System.String dllName, System.String entryPoint, System.Runtime.InteropServices.CharSet charSet, System.Boolean exactSpelling, System.Boolean setLastError, System.Boolean preserveSig, System.Runtime.InteropServices.CallingConvention callingConvention, System.Boolean bestFitMapping, System.Boolean throwOnUnmappableChar)
     // Offset: 0x1C6BBF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DllImportAttribute* New_ctor(::StringW dllName, ::StringW entryPoint, System::Runtime::InteropServices::CharSet charSet, bool exactSpelling, bool setLastError, bool preserveSig, System::Runtime::InteropServices::CallingConvention callingConvention, bool bestFitMapping, bool throwOnUnmappableChar) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::DllImportAttribute::.ctor");
+    static DllImportAttribute* New_ctor(::StringW dllName, ::StringW entryPoint, ::System::Runtime::InteropServices::CharSet charSet, bool exactSpelling, bool setLastError, bool preserveSig, ::System::Runtime::InteropServices::CallingConvention callingConvention, bool bestFitMapping, bool throwOnUnmappableChar) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::InteropServices::DllImportAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DllImportAttribute*, creationType>(dllName, entryPoint, charSet, exactSpelling, setLastError, preserveSig, callingConvention, bestFitMapping, throwOnUnmappableChar)));
     }
     // public System.Void .ctor(System.String dllName)
     // Offset: 0x1C6BCC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DllImportAttribute* New_ctor(::StringW dllName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::DllImportAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::InteropServices::DllImportAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DllImportAttribute*, creationType>(dllName)));
     }
     // static System.Attribute GetCustomAttribute(System.Reflection.RuntimeMethodInfo method)
     // Offset: 0x1C5CAD0
-    static System::Attribute* GetCustomAttribute(System::Reflection::RuntimeMethodInfo* method);
+    static ::System::Attribute* GetCustomAttribute(::System::Reflection::RuntimeMethodInfo* method);
     // static System.Boolean IsDefined(System.Reflection.RuntimeMethodInfo method)
     // Offset: 0x1C6BC94
-    static bool IsDefined(System::Reflection::RuntimeMethodInfo* method);
+    static bool IsDefined(::System::Reflection::RuntimeMethodInfo* method);
   }; // System.Runtime.InteropServices.DllImportAttribute
   #pragma pack(pop)
   static check_size<sizeof(DllImportAttribute), 45 + sizeof(bool)> __System_Runtime_InteropServices_DllImportAttributeSizeCheck;
@@ -174,7 +174,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Runtime::InteropServices::DllImportAttribute::GetCustomAttribute
 // Il2CppName: GetCustomAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Attribute* (*)(System::Reflection::RuntimeMethodInfo*)>(&System::Runtime::InteropServices::DllImportAttribute::GetCustomAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Attribute* (*)(::System::Reflection::RuntimeMethodInfo*)>(&System::Runtime::InteropServices::DllImportAttribute::GetCustomAttribute)> {
   static const MethodInfo* get() {
     static auto* method = &::il2cpp_utils::GetClassFromName("System.Reflection", "RuntimeMethodInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::DllImportAttribute*), "GetCustomAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{method});
@@ -183,7 +183,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Att
 // Writing MetadataGetter for method: System::Runtime::InteropServices::DllImportAttribute::IsDefined
 // Il2CppName: IsDefined
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::RuntimeMethodInfo*)>(&System::Runtime::InteropServices::DllImportAttribute::IsDefined)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::RuntimeMethodInfo*)>(&System::Runtime::InteropServices::DllImportAttribute::IsDefined)> {
   static const MethodInfo* get() {
     static auto* method = &::il2cpp_utils::GetClassFromName("System.Reflection", "RuntimeMethodInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::DllImportAttribute*), "IsDefined", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{method});

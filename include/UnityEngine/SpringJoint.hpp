@@ -14,8 +14,8 @@ namespace UnityEngine {
   class SpringJoint;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::SpringJoint);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SpringJoint*, "UnityEngine", "SpringJoint");
+NEED_NO_BOX(::UnityEngine::SpringJoint);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::SpringJoint*, "UnityEngine", "SpringJoint");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -24,7 +24,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NativeClassAttribute] Offset: 11B9750
   // [NativeHeaderAttribute] Offset: 11B9750
-  class SpringJoint : public UnityEngine::Joint {
+  class SpringJoint : public ::UnityEngine::Joint {
     public:
     // public System.Void set_minDistance(System.Single value)
     // Offset: 0x2A46ACC

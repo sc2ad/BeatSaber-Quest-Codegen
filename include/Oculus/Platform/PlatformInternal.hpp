@@ -32,8 +32,8 @@ namespace Oculus::Platform {
   class PlatformInternal;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::PlatformInternal);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::PlatformInternal*, "Oculus.Platform", "PlatformInternal");
+NEED_NO_BOX(::Oculus::Platform::PlatformInternal);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::PlatformInternal*, "Oculus.Platform", "PlatformInternal");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x10
@@ -42,21 +42,21 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlatformInternal : public ::Il2CppObject {
     public:
-    // Nested type: Oculus::Platform::PlatformInternal::MessageTypeInternal
+    // Nested type: ::Oculus::Platform::PlatformInternal::MessageTypeInternal
     struct MessageTypeInternal;
-    // Nested type: Oculus::Platform::PlatformInternal::HTTP
+    // Nested type: ::Oculus::Platform::PlatformInternal::HTTP
     class HTTP;
-    // Nested type: Oculus::Platform::PlatformInternal::Users
+    // Nested type: ::Oculus::Platform::PlatformInternal::Users
     class Users;
     // static public System.Void CrashApplication()
     // Offset: 0x29FC908
     static void CrashApplication();
     // static Oculus.Platform.Message ParseMessageHandle(System.IntPtr messageHandle, Oculus.Platform.Message/Oculus.Platform.MessageType messageType)
     // Offset: 0x29FC968
-    static Oculus::Platform::Message* ParseMessageHandle(System::IntPtr messageHandle, Oculus::Platform::Message::MessageType messageType);
+    static ::Oculus::Platform::Message* ParseMessageHandle(::System::IntPtr messageHandle, ::Oculus::Platform::Message::MessageType messageType);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.PlatformInitialize> InitializeStandaloneAsync(System.UInt64 appID, System.String accessToken)
     // Offset: 0x29FD320
-    static Oculus::Platform::Request_1<Oculus::Platform::Models::PlatformInitialize*>* InitializeStandaloneAsync(uint64_t appID, ::StringW accessToken);
+    static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* InitializeStandaloneAsync(uint64_t appID, ::StringW accessToken);
   }; // Oculus.Platform.PlatformInternal
   #pragma pack(pop)
 }
@@ -72,7 +72,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Oculus::Platform::PlatformInternal::ParseMessageHandle
 // Il2CppName: ParseMessageHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Message* (*)(System::IntPtr, Oculus::Platform::Message::MessageType)>(&Oculus::Platform::PlatformInternal::ParseMessageHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Message* (*)(::System::IntPtr, ::Oculus::Platform::Message::MessageType)>(&Oculus::Platform::PlatformInternal::ParseMessageHandle)> {
   static const MethodInfo* get() {
     static auto* messageHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* messageType = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "Message/MessageType")->byval_arg;
@@ -82,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Writing MetadataGetter for method: Oculus::Platform::PlatformInternal::InitializeStandaloneAsync
 // Il2CppName: InitializeStandaloneAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::PlatformInitialize*>* (*)(uint64_t, ::StringW)>(&Oculus::Platform::PlatformInternal::InitializeStandaloneAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* (*)(uint64_t, ::StringW)>(&Oculus::Platform::PlatformInternal::InitializeStandaloneAsync)> {
   static const MethodInfo* get() {
     static auto* appID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* accessToken = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

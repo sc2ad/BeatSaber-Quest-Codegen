@@ -30,7 +30,7 @@ namespace UnityEngine {
   struct Matrix4x4;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Matrix4x4, "UnityEngine", "Matrix4x4");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Matrix4x4, "UnityEngine", "Matrix4x4");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x40
@@ -43,7 +43,7 @@ namespace UnityEngine {
   // [NativeTypeAttribute] Offset: 11A5168
   // [RequiredByNativeCodeAttribute] Offset: 11A5168
   // [DefaultMemberAttribute] Offset: 11A5168
-  struct Matrix4x4/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Matrix4x4>*/ {
+  struct Matrix4x4/*, public ::System::ValueType, public ::System::IEquatable_1<::UnityEngine::Matrix4x4>*/ {
     public:
     public:
     // [NativeNameAttribute] Offset: 0x11A9300
@@ -161,22 +161,22 @@ namespace UnityEngine {
     public:
     // Creating value type constructor for type: Matrix4x4
     constexpr Matrix4x4(float m00_ = {}, float m10_ = {}, float m20_ = {}, float m30_ = {}, float m01_ = {}, float m11_ = {}, float m21_ = {}, float m31_ = {}, float m02_ = {}, float m12_ = {}, float m22_ = {}, float m32_ = {}, float m03_ = {}, float m13_ = {}, float m23_ = {}, float m33_ = {}) noexcept : m00{m00_}, m10{m10_}, m20{m20_}, m30{m30_}, m01{m01_}, m11{m11_}, m21{m21_}, m31{m31_}, m02{m02_}, m12{m12_}, m22{m22_}, m32{m32_}, m03{m03_}, m13{m13_}, m23{m23_}, m33{m33_} {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
-    // Creating interface conversion operator: operator System::IEquatable_1<UnityEngine::Matrix4x4>
-    operator System::IEquatable_1<UnityEngine::Matrix4x4>() noexcept {
-      return *reinterpret_cast<System::IEquatable_1<UnityEngine::Matrix4x4>*>(this);
+    // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::Matrix4x4>
+    operator ::System::IEquatable_1<::UnityEngine::Matrix4x4>() noexcept {
+      return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::Matrix4x4>*>(this);
     }
     // Get static field: static private readonly UnityEngine.Matrix4x4 zeroMatrix
-    static UnityEngine::Matrix4x4 _get_zeroMatrix();
+    static ::UnityEngine::Matrix4x4 _get_zeroMatrix();
     // Set static field: static private readonly UnityEngine.Matrix4x4 zeroMatrix
-    static void _set_zeroMatrix(UnityEngine::Matrix4x4 value);
+    static void _set_zeroMatrix(::UnityEngine::Matrix4x4 value);
     // Get static field: static private readonly UnityEngine.Matrix4x4 identityMatrix
-    static UnityEngine::Matrix4x4 _get_identityMatrix();
+    static ::UnityEngine::Matrix4x4 _get_identityMatrix();
     // Set static field: static private readonly UnityEngine.Matrix4x4 identityMatrix
-    static void _set_identityMatrix(UnityEngine::Matrix4x4 value);
+    static void _set_identityMatrix(::UnityEngine::Matrix4x4 value);
     // Get instance field reference: public System.Single m00
     float& dyn_m00();
     // Get instance field reference: public System.Single m10
@@ -211,16 +211,16 @@ namespace UnityEngine {
     float& dyn_m33();
     // public UnityEngine.Quaternion get_rotation()
     // Offset: 0x2030E30
-    UnityEngine::Quaternion get_rotation();
+    ::UnityEngine::Quaternion get_rotation();
     // public UnityEngine.Vector3 get_lossyScale()
     // Offset: 0x2030E34
-    UnityEngine::Vector3 get_lossyScale();
+    ::UnityEngine::Vector3 get_lossyScale();
     // public UnityEngine.Matrix4x4 get_inverse()
     // Offset: 0x2031174
-    UnityEngine::Matrix4x4 get_inverse();
+    ::UnityEngine::Matrix4x4 get_inverse();
     // public UnityEngine.Matrix4x4 get_transpose()
     // Offset: 0x203133C
-    UnityEngine::Matrix4x4 get_transpose();
+    ::UnityEngine::Matrix4x4 get_transpose();
     // public System.Single get_Item(System.Int32 row, System.Int32 column)
     // Offset: 0x20316DC
     float get_Item(int row, int column);
@@ -235,79 +235,79 @@ namespace UnityEngine {
     void set_Item(int index, float value);
     // static public UnityEngine.Matrix4x4 get_identity()
     // Offset: 0x20322E0
-    static UnityEngine::Matrix4x4 get_identity();
+    static ::UnityEngine::Matrix4x4 get_identity();
     // public System.Void .ctor(UnityEngine.Vector4 column0, UnityEngine.Vector4 column1, UnityEngine.Vector4 column2, UnityEngine.Vector4 column3)
     // Offset: 0x20316C0
-    Matrix4x4(UnityEngine::Vector4 column0, UnityEngine::Vector4 column1, UnityEngine::Vector4 column2, UnityEngine::Vector4 column3);
+    Matrix4x4(::UnityEngine::Vector4 column0, ::UnityEngine::Vector4 column1, ::UnityEngine::Vector4 column2, ::UnityEngine::Vector4 column3);
     // static private System.Void .cctor()
     // Offset: 0x20327FC
     static void _cctor();
     // private UnityEngine.Quaternion GetRotation()
     // Offset: 0x2030C4C
-    UnityEngine::Quaternion GetRotation();
+    ::UnityEngine::Quaternion GetRotation();
     // private UnityEngine.Vector3 GetLossyScale()
     // Offset: 0x2030D3C
-    UnityEngine::Vector3 GetLossyScale();
+    ::UnityEngine::Vector3 GetLossyScale();
     // static public UnityEngine.Matrix4x4 TRS(UnityEngine.Vector3 pos, UnityEngine.Quaternion q, UnityEngine.Vector3 s)
     // Offset: 0x2030E38
-    static UnityEngine::Matrix4x4 TRS(UnityEngine::Vector3 pos, UnityEngine::Quaternion q, UnityEngine::Vector3 s);
+    static ::UnityEngine::Matrix4x4 TRS(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion q, ::UnityEngine::Vector3 s);
     // public System.Void SetTRS(UnityEngine.Vector3 pos, UnityEngine.Quaternion q, UnityEngine.Vector3 s)
     // Offset: 0x2030F78
-    void SetTRS(UnityEngine::Vector3 pos, UnityEngine::Quaternion q, UnityEngine::Vector3 s);
+    void SetTRS(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion q, ::UnityEngine::Vector3 s);
     // static public UnityEngine.Matrix4x4 Inverse(UnityEngine.Matrix4x4 m)
     // Offset: 0x2031068
-    static UnityEngine::Matrix4x4 Inverse(UnityEngine::Matrix4x4 m);
+    static ::UnityEngine::Matrix4x4 Inverse(::UnityEngine::Matrix4x4 m);
     // static public UnityEngine.Matrix4x4 Transpose(UnityEngine.Matrix4x4 m)
     // Offset: 0x2031230
-    static UnityEngine::Matrix4x4 Transpose(UnityEngine::Matrix4x4 m);
+    static ::UnityEngine::Matrix4x4 Transpose(::UnityEngine::Matrix4x4 m);
     // static public UnityEngine.Matrix4x4 Ortho(System.Single left, System.Single right, System.Single bottom, System.Single top, System.Single zNear, System.Single zFar)
     // Offset: 0x20313F8
-    static UnityEngine::Matrix4x4 Ortho(float left, float right, float bottom, float top, float zNear, float zFar);
+    static ::UnityEngine::Matrix4x4 Ortho(float left, float right, float bottom, float top, float zNear, float zFar);
     // static public UnityEngine.Matrix4x4 Perspective(System.Single fov, System.Single aspect, System.Single zNear, System.Single zFar)
     // Offset: 0x2031574
-    static UnityEngine::Matrix4x4 Perspective(float fov, float aspect, float zNear, float zFar);
+    static ::UnityEngine::Matrix4x4 Perspective(float fov, float aspect, float zNear, float zFar);
     // public System.Boolean Equals(UnityEngine.Matrix4x4 other)
     // Offset: 0x2031B90
-    bool Equals(UnityEngine::Matrix4x4 other);
+    bool Equals(::UnityEngine::Matrix4x4 other);
     // public UnityEngine.Vector4 GetColumn(System.Int32 index)
     // Offset: 0x20319F8
-    UnityEngine::Vector4 GetColumn(int index);
+    ::UnityEngine::Vector4 GetColumn(int index);
     // public System.Void SetColumn(System.Int32 index, UnityEngine.Vector4 column)
     // Offset: 0x20320AC
-    void SetColumn(int index, UnityEngine::Vector4 column);
+    void SetColumn(int index, ::UnityEngine::Vector4 column);
     // public UnityEngine.Vector3 MultiplyPoint(UnityEngine.Vector3 point)
     // Offset: 0x2032128
-    UnityEngine::Vector3 MultiplyPoint(UnityEngine::Vector3 point);
+    ::UnityEngine::Vector3 MultiplyPoint(::UnityEngine::Vector3 point);
     // public UnityEngine.Vector3 MultiplyPoint3x4(UnityEngine.Vector3 point)
     // Offset: 0x20321A8
-    UnityEngine::Vector3 MultiplyPoint3x4(UnityEngine::Vector3 point);
+    ::UnityEngine::Vector3 MultiplyPoint3x4(::UnityEngine::Vector3 point);
     // public UnityEngine.Vector3 MultiplyVector(UnityEngine.Vector3 vector)
     // Offset: 0x2032200
-    UnityEngine::Vector3 MultiplyVector(UnityEngine::Vector3 vector);
+    ::UnityEngine::Vector3 MultiplyVector(::UnityEngine::Vector3 vector);
     // static public UnityEngine.Matrix4x4 Rotate(UnityEngine.Quaternion q)
     // Offset: 0x2032248
-    static UnityEngine::Matrix4x4 Rotate(UnityEngine::Quaternion q);
+    static ::UnityEngine::Matrix4x4 Rotate(::UnityEngine::Quaternion q);
     // static private System.Void GetRotation_Injected(ref UnityEngine.Matrix4x4 _unity_self, out UnityEngine.Quaternion ret)
     // Offset: 0x2030CEC
-    static void GetRotation_Injected(ByRef<UnityEngine::Matrix4x4> _unity_self, ByRef<UnityEngine::Quaternion> ret);
+    static void GetRotation_Injected(ByRef<::UnityEngine::Matrix4x4> _unity_self, ByRef<::UnityEngine::Quaternion> ret);
     // static private System.Void GetLossyScale_Injected(ref UnityEngine.Matrix4x4 _unity_self, out UnityEngine.Vector3 ret)
     // Offset: 0x2030DE0
-    static void GetLossyScale_Injected(ByRef<UnityEngine::Matrix4x4> _unity_self, ByRef<UnityEngine::Vector3> ret);
+    static void GetLossyScale_Injected(ByRef<::UnityEngine::Matrix4x4> _unity_self, ByRef<::UnityEngine::Vector3> ret);
     // static private System.Void TRS_Injected(ref UnityEngine.Vector3 pos, ref UnityEngine.Quaternion q, ref UnityEngine.Vector3 s, out UnityEngine.Matrix4x4 ret)
     // Offset: 0x2030F10
-    static void TRS_Injected(ByRef<UnityEngine::Vector3> pos, ByRef<UnityEngine::Quaternion> q, ByRef<UnityEngine::Vector3> s, ByRef<UnityEngine::Matrix4x4> ret);
+    static void TRS_Injected(ByRef<::UnityEngine::Vector3> pos, ByRef<::UnityEngine::Quaternion> q, ByRef<::UnityEngine::Vector3> s, ByRef<::UnityEngine::Matrix4x4> ret);
     // static private System.Void Inverse_Injected(ref UnityEngine.Matrix4x4 m, out UnityEngine.Matrix4x4 ret)
     // Offset: 0x2031124
-    static void Inverse_Injected(ByRef<UnityEngine::Matrix4x4> m, ByRef<UnityEngine::Matrix4x4> ret);
+    static void Inverse_Injected(ByRef<::UnityEngine::Matrix4x4> m, ByRef<::UnityEngine::Matrix4x4> ret);
     // static private System.Void Transpose_Injected(ref UnityEngine.Matrix4x4 m, out UnityEngine.Matrix4x4 ret)
     // Offset: 0x20312EC
-    static void Transpose_Injected(ByRef<UnityEngine::Matrix4x4> m, ByRef<UnityEngine::Matrix4x4> ret);
+    static void Transpose_Injected(ByRef<::UnityEngine::Matrix4x4> m, ByRef<::UnityEngine::Matrix4x4> ret);
     // static private System.Void Ortho_Injected(System.Single left, System.Single right, System.Single bottom, System.Single top, System.Single zNear, System.Single zFar, out UnityEngine.Matrix4x4 ret)
     // Offset: 0x20314EC
-    static void Ortho_Injected(float left, float right, float bottom, float top, float zNear, float zFar, ByRef<UnityEngine::Matrix4x4> ret);
+    static void Ortho_Injected(float left, float right, float bottom, float top, float zNear, float zFar, ByRef<::UnityEngine::Matrix4x4> ret);
     // static private System.Void Perspective_Injected(System.Single fov, System.Single aspect, System.Single zNear, System.Single zFar, out UnityEngine.Matrix4x4 ret)
     // Offset: 0x2031650
-    static void Perspective_Injected(float fov, float aspect, float zNear, float zFar, ByRef<UnityEngine::Matrix4x4> ret);
+    static void Perspective_Injected(float fov, float aspect, float zNear, float zFar, ByRef<::UnityEngine::Matrix4x4> ret);
     // public override System.Int32 GetHashCode()
     // Offset: 0x2031938
     // Implemented from: System.ValueType
@@ -329,22 +329,22 @@ namespace UnityEngine {
   static_assert(sizeof(Matrix4x4) == 0x40);
   // static public UnityEngine.Matrix4x4 op_Multiply(UnityEngine.Matrix4x4 lhs, UnityEngine.Matrix4x4 rhs)
   // Offset: 0x2031C84
-  UnityEngine::Matrix4x4 operator*(const UnityEngine::Matrix4x4& lhs, const UnityEngine::Matrix4x4& rhs);
+  ::UnityEngine::Matrix4x4 operator*(const ::UnityEngine::Matrix4x4& lhs, const ::UnityEngine::Matrix4x4& rhs);
   // static public UnityEngine.Vector4 op_Multiply(UnityEngine.Matrix4x4 lhs, UnityEngine.Vector4 vector)
   // Offset: 0x2031D30
-  UnityEngine::Vector4 operator*(const UnityEngine::Matrix4x4& lhs, const UnityEngine::Vector4& vector);
+  ::UnityEngine::Vector4 operator*(const ::UnityEngine::Matrix4x4& lhs, const ::UnityEngine::Vector4& vector);
   // static public System.Boolean op_Equality(UnityEngine.Matrix4x4 lhs, UnityEngine.Matrix4x4 rhs)
   // Offset: 0x2031D64
-  bool operator ==(const UnityEngine::Matrix4x4& lhs, const UnityEngine::Matrix4x4& rhs);
+  bool operator ==(const ::UnityEngine::Matrix4x4& lhs, const ::UnityEngine::Matrix4x4& rhs);
   // static public System.Boolean op_Inequality(UnityEngine.Matrix4x4 lhs, UnityEngine.Matrix4x4 rhs)
   // Offset: 0x2031FE4
-  bool operator !=(const UnityEngine::Matrix4x4& lhs, const UnityEngine::Matrix4x4& rhs);
+  bool operator !=(const ::UnityEngine::Matrix4x4& lhs, const ::UnityEngine::Matrix4x4& rhs);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Matrix4x4::get_rotation
 // Il2CppName: get_rotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (UnityEngine::Matrix4x4::*)()>(&UnityEngine::Matrix4x4::get_rotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (UnityEngine::Matrix4x4::*)()>(&UnityEngine::Matrix4x4::get_rotation)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Matrix4x4), "get_rotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -352,7 +352,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Matrix4x4::get_lossyScale
 // Il2CppName: get_lossyScale
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Matrix4x4::*)()>(&UnityEngine::Matrix4x4::get_lossyScale)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (UnityEngine::Matrix4x4::*)()>(&UnityEngine::Matrix4x4::get_lossyScale)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Matrix4x4), "get_lossyScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -360,7 +360,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Matrix4x4::get_inverse
 // Il2CppName: get_inverse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (UnityEngine::Matrix4x4::*)()>(&UnityEngine::Matrix4x4::get_inverse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Matrix4x4 (UnityEngine::Matrix4x4::*)()>(&UnityEngine::Matrix4x4::get_inverse)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Matrix4x4), "get_inverse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -368,7 +368,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Matrix4x4::get_transpose
 // Il2CppName: get_transpose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (UnityEngine::Matrix4x4::*)()>(&UnityEngine::Matrix4x4::get_transpose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Matrix4x4 (UnityEngine::Matrix4x4::*)()>(&UnityEngine::Matrix4x4::get_transpose)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Matrix4x4), "get_transpose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -416,7 +416,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Matrix4x4::get_identity
 // Il2CppName: get_identity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (*)()>(&UnityEngine::Matrix4x4::get_identity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Matrix4x4 (*)()>(&UnityEngine::Matrix4x4::get_identity)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Matrix4x4), "get_identity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -436,7 +436,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::Matrix4x4::GetRotation
 // Il2CppName: GetRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (UnityEngine::Matrix4x4::*)()>(&UnityEngine::Matrix4x4::GetRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (UnityEngine::Matrix4x4::*)()>(&UnityEngine::Matrix4x4::GetRotation)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Matrix4x4), "GetRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -444,7 +444,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Matrix4x4::GetLossyScale
 // Il2CppName: GetLossyScale
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Matrix4x4::*)()>(&UnityEngine::Matrix4x4::GetLossyScale)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (UnityEngine::Matrix4x4::*)()>(&UnityEngine::Matrix4x4::GetLossyScale)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Matrix4x4), "GetLossyScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -452,7 +452,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Matrix4x4::TRS
 // Il2CppName: TRS
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (*)(UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Vector3)>(&UnityEngine::Matrix4x4::TRS)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Matrix4x4 (*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3)>(&UnityEngine::Matrix4x4::TRS)> {
   static const MethodInfo* get() {
     static auto* pos = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* q = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
@@ -463,7 +463,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Matrix4x4::SetTRS
 // Il2CppName: SetTRS
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Matrix4x4::*)(UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Vector3)>(&UnityEngine::Matrix4x4::SetTRS)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Matrix4x4::*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3)>(&UnityEngine::Matrix4x4::SetTRS)> {
   static const MethodInfo* get() {
     static auto* pos = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* q = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
@@ -474,7 +474,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Matrix4x4::Inverse
 // Il2CppName: Inverse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (*)(UnityEngine::Matrix4x4)>(&UnityEngine::Matrix4x4::Inverse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Matrix4x4 (*)(::UnityEngine::Matrix4x4)>(&UnityEngine::Matrix4x4::Inverse)> {
   static const MethodInfo* get() {
     static auto* m = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Matrix4x4), "Inverse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{m});
@@ -483,7 +483,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Matrix4x4::Transpose
 // Il2CppName: Transpose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (*)(UnityEngine::Matrix4x4)>(&UnityEngine::Matrix4x4::Transpose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Matrix4x4 (*)(::UnityEngine::Matrix4x4)>(&UnityEngine::Matrix4x4::Transpose)> {
   static const MethodInfo* get() {
     static auto* m = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Matrix4x4), "Transpose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{m});
@@ -492,7 +492,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Matrix4x4::Ortho
 // Il2CppName: Ortho
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (*)(float, float, float, float, float, float)>(&UnityEngine::Matrix4x4::Ortho)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Matrix4x4 (*)(float, float, float, float, float, float)>(&UnityEngine::Matrix4x4::Ortho)> {
   static const MethodInfo* get() {
     static auto* left = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* right = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -506,7 +506,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Matrix4x4::Perspective
 // Il2CppName: Perspective
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (*)(float, float, float, float)>(&UnityEngine::Matrix4x4::Perspective)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Matrix4x4 (*)(float, float, float, float)>(&UnityEngine::Matrix4x4::Perspective)> {
   static const MethodInfo* get() {
     static auto* fov = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* aspect = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -518,7 +518,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Matrix4x4::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Matrix4x4::*)(UnityEngine::Matrix4x4)>(&UnityEngine::Matrix4x4::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Matrix4x4::*)(::UnityEngine::Matrix4x4)>(&UnityEngine::Matrix4x4::Equals)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Matrix4x4), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
@@ -527,7 +527,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::Matrix4x4::GetColumn
 // Il2CppName: GetColumn
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (UnityEngine::Matrix4x4::*)(int)>(&UnityEngine::Matrix4x4::GetColumn)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (UnityEngine::Matrix4x4::*)(int)>(&UnityEngine::Matrix4x4::GetColumn)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Matrix4x4), "GetColumn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
@@ -536,7 +536,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Matrix4x4::SetColumn
 // Il2CppName: SetColumn
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Matrix4x4::*)(int, UnityEngine::Vector4)>(&UnityEngine::Matrix4x4::SetColumn)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Matrix4x4::*)(int, ::UnityEngine::Vector4)>(&UnityEngine::Matrix4x4::SetColumn)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* column = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->byval_arg;
@@ -546,7 +546,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Matrix4x4::MultiplyPoint
 // Il2CppName: MultiplyPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Matrix4x4::*)(UnityEngine::Vector3)>(&UnityEngine::Matrix4x4::MultiplyPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (UnityEngine::Matrix4x4::*)(::UnityEngine::Vector3)>(&UnityEngine::Matrix4x4::MultiplyPoint)> {
   static const MethodInfo* get() {
     static auto* point = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Matrix4x4), "MultiplyPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{point});
@@ -555,7 +555,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Matrix4x4::MultiplyPoint3x4
 // Il2CppName: MultiplyPoint3x4
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Matrix4x4::*)(UnityEngine::Vector3)>(&UnityEngine::Matrix4x4::MultiplyPoint3x4)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (UnityEngine::Matrix4x4::*)(::UnityEngine::Vector3)>(&UnityEngine::Matrix4x4::MultiplyPoint3x4)> {
   static const MethodInfo* get() {
     static auto* point = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Matrix4x4), "MultiplyPoint3x4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{point});
@@ -564,7 +564,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Matrix4x4::MultiplyVector
 // Il2CppName: MultiplyVector
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Matrix4x4::*)(UnityEngine::Vector3)>(&UnityEngine::Matrix4x4::MultiplyVector)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (UnityEngine::Matrix4x4::*)(::UnityEngine::Vector3)>(&UnityEngine::Matrix4x4::MultiplyVector)> {
   static const MethodInfo* get() {
     static auto* vector = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Matrix4x4), "MultiplyVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{vector});
@@ -573,7 +573,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Matrix4x4::Rotate
 // Il2CppName: Rotate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (*)(UnityEngine::Quaternion)>(&UnityEngine::Matrix4x4::Rotate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Matrix4x4 (*)(::UnityEngine::Quaternion)>(&UnityEngine::Matrix4x4::Rotate)> {
   static const MethodInfo* get() {
     static auto* q = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Matrix4x4), "Rotate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{q});
@@ -582,7 +582,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Matrix4x4::GetRotation_Injected
 // Il2CppName: GetRotation_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<UnityEngine::Matrix4x4>, ByRef<UnityEngine::Quaternion>)>(&UnityEngine::Matrix4x4::GetRotation_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::Matrix4x4>, ByRef<::UnityEngine::Quaternion>)>(&UnityEngine::Matrix4x4::GetRotation_Injected)> {
   static const MethodInfo* get() {
     static auto* _unity_self = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->this_arg;
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->this_arg;
@@ -592,7 +592,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(By
 // Writing MetadataGetter for method: UnityEngine::Matrix4x4::GetLossyScale_Injected
 // Il2CppName: GetLossyScale_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<UnityEngine::Matrix4x4>, ByRef<UnityEngine::Vector3>)>(&UnityEngine::Matrix4x4::GetLossyScale_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::Matrix4x4>, ByRef<::UnityEngine::Vector3>)>(&UnityEngine::Matrix4x4::GetLossyScale_Injected)> {
   static const MethodInfo* get() {
     static auto* _unity_self = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->this_arg;
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
@@ -602,7 +602,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(By
 // Writing MetadataGetter for method: UnityEngine::Matrix4x4::TRS_Injected
 // Il2CppName: TRS_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<UnityEngine::Vector3>, ByRef<UnityEngine::Quaternion>, ByRef<UnityEngine::Vector3>, ByRef<UnityEngine::Matrix4x4>)>(&UnityEngine::Matrix4x4::TRS_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::Vector3>, ByRef<::UnityEngine::Quaternion>, ByRef<::UnityEngine::Vector3>, ByRef<::UnityEngine::Matrix4x4>)>(&UnityEngine::Matrix4x4::TRS_Injected)> {
   static const MethodInfo* get() {
     static auto* pos = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     static auto* q = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->this_arg;
@@ -614,7 +614,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(By
 // Writing MetadataGetter for method: UnityEngine::Matrix4x4::Inverse_Injected
 // Il2CppName: Inverse_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<UnityEngine::Matrix4x4>, ByRef<UnityEngine::Matrix4x4>)>(&UnityEngine::Matrix4x4::Inverse_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::Matrix4x4>, ByRef<::UnityEngine::Matrix4x4>)>(&UnityEngine::Matrix4x4::Inverse_Injected)> {
   static const MethodInfo* get() {
     static auto* m = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->this_arg;
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->this_arg;
@@ -624,7 +624,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(By
 // Writing MetadataGetter for method: UnityEngine::Matrix4x4::Transpose_Injected
 // Il2CppName: Transpose_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<UnityEngine::Matrix4x4>, ByRef<UnityEngine::Matrix4x4>)>(&UnityEngine::Matrix4x4::Transpose_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::Matrix4x4>, ByRef<::UnityEngine::Matrix4x4>)>(&UnityEngine::Matrix4x4::Transpose_Injected)> {
   static const MethodInfo* get() {
     static auto* m = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->this_arg;
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->this_arg;
@@ -634,7 +634,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(By
 // Writing MetadataGetter for method: UnityEngine::Matrix4x4::Ortho_Injected
 // Il2CppName: Ortho_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float, float, float, float, float, float, ByRef<UnityEngine::Matrix4x4>)>(&UnityEngine::Matrix4x4::Ortho_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float, float, float, float, float, float, ByRef<::UnityEngine::Matrix4x4>)>(&UnityEngine::Matrix4x4::Ortho_Injected)> {
   static const MethodInfo* get() {
     static auto* left = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* right = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -649,7 +649,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(fl
 // Writing MetadataGetter for method: UnityEngine::Matrix4x4::Perspective_Injected
 // Il2CppName: Perspective_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float, float, float, float, ByRef<UnityEngine::Matrix4x4>)>(&UnityEngine::Matrix4x4::Perspective_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float, float, float, float, ByRef<::UnityEngine::Matrix4x4>)>(&UnityEngine::Matrix4x4::Perspective_Injected)> {
   static const MethodInfo* get() {
     static auto* fov = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* aspect = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

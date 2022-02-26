@@ -28,8 +28,8 @@ namespace System::Xml::Schema {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Schema::XdrBuilder::DeclBaseInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::XdrBuilder::DeclBaseInfo*, "System.Xml.Schema", "XdrBuilder/DeclBaseInfo");
+NEED_NO_BOX(::System::Xml::Schema::XdrBuilder::DeclBaseInfo);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XdrBuilder::DeclBaseInfo*, "System.Xml.Schema", "XdrBuilder/DeclBaseInfo");
 // Type namespace: System.Xml.Schema
 namespace System::Xml::Schema {
   // Size: 0x68
@@ -50,9 +50,9 @@ namespace System::Xml::Schema {
     // System.Xml.XmlQualifiedName _Name
     // Size: 0x8
     // Offset: 0x10
-    System::Xml::XmlQualifiedName* Name;
+    ::System::Xml::XmlQualifiedName* Name;
     // Field size check
-    static_assert(sizeof(System::Xml::XmlQualifiedName*) == 0x8);
+    static_assert(sizeof(::System::Xml::XmlQualifiedName*) == 0x8);
     // System.String _Prefix
     // Size: 0x8
     // Offset: 0x18
@@ -62,9 +62,9 @@ namespace System::Xml::Schema {
     // System.Xml.XmlQualifiedName _TypeName
     // Size: 0x8
     // Offset: 0x20
-    System::Xml::XmlQualifiedName* TypeName;
+    ::System::Xml::XmlQualifiedName* TypeName;
     // Field size check
-    static_assert(sizeof(System::Xml::XmlQualifiedName*) == 0x8);
+    static_assert(sizeof(::System::Xml::XmlQualifiedName*) == 0x8);
     // System.String _TypePrefix
     // Size: 0x8
     // Offset: 0x28
@@ -106,28 +106,28 @@ namespace System::Xml::Schema {
     // System.Xml.Schema.SchemaElementDecl _ElementDecl
     // Size: 0x8
     // Offset: 0x50
-    System::Xml::Schema::SchemaElementDecl* ElementDecl;
+    ::System::Xml::Schema::SchemaElementDecl* ElementDecl;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::SchemaElementDecl*) == 0x8);
+    static_assert(sizeof(::System::Xml::Schema::SchemaElementDecl*) == 0x8);
     // System.Xml.Schema.SchemaAttDef _Attdef
     // Size: 0x8
     // Offset: 0x58
-    System::Xml::Schema::SchemaAttDef* Attdef;
+    ::System::Xml::Schema::SchemaAttDef* Attdef;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::SchemaAttDef*) == 0x8);
+    static_assert(sizeof(::System::Xml::Schema::SchemaAttDef*) == 0x8);
     // System.Xml.Schema.XdrBuilder/System.Xml.Schema.DeclBaseInfo _Next
     // Size: 0x8
     // Offset: 0x60
-    System::Xml::Schema::XdrBuilder::DeclBaseInfo* Next;
+    ::System::Xml::Schema::XdrBuilder::DeclBaseInfo* Next;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::XdrBuilder::DeclBaseInfo*) == 0x8);
+    static_assert(sizeof(::System::Xml::Schema::XdrBuilder::DeclBaseInfo*) == 0x8);
     public:
     // Get instance field reference: System.Xml.XmlQualifiedName _Name
-    System::Xml::XmlQualifiedName*& dyn__Name();
+    ::System::Xml::XmlQualifiedName*& dyn__Name();
     // Get instance field reference: System.String _Prefix
     ::StringW& dyn__Prefix();
     // Get instance field reference: System.Xml.XmlQualifiedName _TypeName
-    System::Xml::XmlQualifiedName*& dyn__TypeName();
+    ::System::Xml::XmlQualifiedName*& dyn__TypeName();
     // Get instance field reference: System.String _TypePrefix
     ::StringW& dyn__TypePrefix();
     // Get instance field reference: System.Object _Default
@@ -141,11 +141,11 @@ namespace System::Xml::Schema {
     // Get instance field reference: System.Boolean _Checking
     bool& dyn__Checking();
     // Get instance field reference: System.Xml.Schema.SchemaElementDecl _ElementDecl
-    System::Xml::Schema::SchemaElementDecl*& dyn__ElementDecl();
+    ::System::Xml::Schema::SchemaElementDecl*& dyn__ElementDecl();
     // Get instance field reference: System.Xml.Schema.SchemaAttDef _Attdef
-    System::Xml::Schema::SchemaAttDef*& dyn__Attdef();
+    ::System::Xml::Schema::SchemaAttDef*& dyn__Attdef();
     // Get instance field reference: System.Xml.Schema.XdrBuilder/System.Xml.Schema.DeclBaseInfo _Next
-    System::Xml::Schema::XdrBuilder::DeclBaseInfo*& dyn__Next();
+    ::System::Xml::Schema::XdrBuilder::DeclBaseInfo*& dyn__Next();
     // System.Void Reset()
     // Offset: 0x1C7148C
     void Reset();
@@ -155,12 +155,12 @@ namespace System::Xml::Schema {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XdrBuilder::DeclBaseInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Schema::XdrBuilder::DeclBaseInfo::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XdrBuilder::DeclBaseInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XdrBuilder::DeclBaseInfo*, creationType>()));
     }
   }; // System.Xml.Schema.XdrBuilder/System.Xml.Schema.DeclBaseInfo
   #pragma pack(pop)
-  static check_size<sizeof(XdrBuilder::DeclBaseInfo), 96 + sizeof(System::Xml::Schema::XdrBuilder::DeclBaseInfo*)> __System_Xml_Schema_XdrBuilder_DeclBaseInfoSizeCheck;
+  static check_size<sizeof(XdrBuilder::DeclBaseInfo), 96 + sizeof(::System::Xml::Schema::XdrBuilder::DeclBaseInfo*)> __System_Xml_Schema_XdrBuilder_DeclBaseInfoSizeCheck;
   static_assert(sizeof(XdrBuilder::DeclBaseInfo) == 0x68);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

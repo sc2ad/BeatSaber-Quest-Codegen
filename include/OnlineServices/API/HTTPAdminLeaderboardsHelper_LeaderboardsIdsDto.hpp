@@ -15,8 +15,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsIdsDto);
-DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsIdsDto*, "OnlineServices.API", "HTTPAdminLeaderboardsHelper/LeaderboardsIdsDto");
+NEED_NO_BOX(::OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsIdsDto);
+DEFINE_IL2CPP_ARG_TYPE(::OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsIdsDto*, "OnlineServices.API", "HTTPAdminLeaderboardsHelper/LeaderboardsIdsDto");
 // Type namespace: OnlineServices.API
 namespace OnlineServices::API {
   // Size: 0x18
@@ -53,7 +53,7 @@ namespace OnlineServices::API {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HTTPAdminLeaderboardsHelper::LeaderboardsIdsDto* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsIdsDto::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsIdsDto::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HTTPAdminLeaderboardsHelper::LeaderboardsIdsDto*, creationType>()));
     }
   }; // OnlineServices.API.HTTPAdminLeaderboardsHelper/OnlineServices.API.LeaderboardsIdsDto

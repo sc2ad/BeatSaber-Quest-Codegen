@@ -23,8 +23,8 @@ namespace UnityEngine::TestTools {
   class TestCommandPcHelper;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::TestTools::TestCommandPcHelper);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestCommandPcHelper*, "UnityEngine.TestTools", "TestCommandPcHelper");
+NEED_NO_BOX(::UnityEngine::TestTools::TestCommandPcHelper);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TestTools::TestCommandPcHelper*, "UnityEngine.TestTools", "TestCommandPcHelper");
 // Type namespace: UnityEngine.TestTools
 namespace UnityEngine::TestTools {
   // Size: 0x10
@@ -35,17 +35,17 @@ namespace UnityEngine::TestTools {
     public:
     // public System.Void SetEnumeratorPC(System.Collections.IEnumerator enumerator, System.Int32 pc)
     // Offset: 0x18DB1D0
-    void SetEnumeratorPC(System::Collections::IEnumerator* enumerator, int pc);
+    void SetEnumeratorPC(::System::Collections::IEnumerator* enumerator, int pc);
     // public System.Int32 GetEnumeratorPC(System.Collections.IEnumerator enumerator)
     // Offset: 0x18DB1D4
-    int GetEnumeratorPC(System::Collections::IEnumerator* enumerator);
+    int GetEnumeratorPC(::System::Collections::IEnumerator* enumerator);
     // public System.Void .ctor()
     // Offset: 0x18DB1DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestCommandPcHelper* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::TestCommandPcHelper::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::TestCommandPcHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestCommandPcHelper*, creationType>()));
     }
   }; // UnityEngine.TestTools.TestCommandPcHelper
@@ -55,7 +55,7 @@ namespace UnityEngine::TestTools {
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestCommandPcHelper::SetEnumeratorPC
 // Il2CppName: SetEnumeratorPC
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::TestCommandPcHelper::*)(System::Collections::IEnumerator*, int)>(&UnityEngine::TestTools::TestCommandPcHelper::SetEnumeratorPC)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::TestCommandPcHelper::*)(::System::Collections::IEnumerator*, int)>(&UnityEngine::TestTools::TestCommandPcHelper::SetEnumeratorPC)> {
   static const MethodInfo* get() {
     static auto* enumerator = &::il2cpp_utils::GetClassFromName("System.Collections", "IEnumerator")->byval_arg;
     static auto* pc = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -65,7 +65,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestCommandPcHelper::GetEnumeratorPC
 // Il2CppName: GetEnumeratorPC
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::TestTools::TestCommandPcHelper::*)(System::Collections::IEnumerator*)>(&UnityEngine::TestTools::TestCommandPcHelper::GetEnumeratorPC)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::TestTools::TestCommandPcHelper::*)(::System::Collections::IEnumerator*)>(&UnityEngine::TestTools::TestCommandPcHelper::GetEnumeratorPC)> {
   static const MethodInfo* get() {
     static auto* enumerator = &::il2cpp_utils::GetClassFromName("System.Collections", "IEnumerator")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestCommandPcHelper*), "GetEnumeratorPC", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enumerator});

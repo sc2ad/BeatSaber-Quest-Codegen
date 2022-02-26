@@ -25,8 +25,8 @@ namespace System::Net {
   class IPHostEntry;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::IPHostEntry);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::IPHostEntry*, "System.Net", "IPHostEntry");
+NEED_NO_BOX(::System::Net::IPHostEntry);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::IPHostEntry*, "System.Net", "IPHostEntry");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x29
@@ -59,9 +59,9 @@ namespace System::Net {
     // private System.Net.IPAddress[] addressList
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayW<System::Net::IPAddress*> addressList;
+    ::ArrayW<::System::Net::IPAddress*> addressList;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::Net::IPAddress*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::System::Net::IPAddress*>) == 0x8);
     // System.Boolean isTrustedHost
     // Size: 0x1
     // Offset: 0x28
@@ -74,7 +74,7 @@ namespace System::Net {
     // Get instance field reference: private System.String[] aliases
     ::ArrayW<::StringW>& dyn_aliases();
     // Get instance field reference: private System.Net.IPAddress[] addressList
-    ::ArrayW<System::Net::IPAddress*>& dyn_addressList();
+    ::ArrayW<::System::Net::IPAddress*>& dyn_addressList();
     // Get instance field reference: System.Boolean isTrustedHost
     bool& dyn_isTrustedHost();
     // public System.String get_HostName()
@@ -88,17 +88,17 @@ namespace System::Net {
     void set_Aliases(::ArrayW<::StringW> value);
     // public System.Net.IPAddress[] get_AddressList()
     // Offset: 0x17A512C
-    ::ArrayW<System::Net::IPAddress*> get_AddressList();
+    ::ArrayW<::System::Net::IPAddress*> get_AddressList();
     // public System.Void set_AddressList(System.Net.IPAddress[] value)
     // Offset: 0x17A5134
-    void set_AddressList(::ArrayW<System::Net::IPAddress*> value);
+    void set_AddressList(::ArrayW<::System::Net::IPAddress*> value);
     // public System.Void .ctor()
     // Offset: 0x17A513C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IPHostEntry* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::IPHostEntry::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::IPHostEntry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IPHostEntry*, creationType>()));
     }
   }; // System.Net.IPHostEntry
@@ -136,7 +136,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::IPHostEntry::get_AddressList
 // Il2CppName: get_AddressList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Net::IPAddress*> (System::Net::IPHostEntry::*)()>(&System::Net::IPHostEntry::get_AddressList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Net::IPAddress*> (System::Net::IPHostEntry::*)()>(&System::Net::IPHostEntry::get_AddressList)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::IPHostEntry*), "get_AddressList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -144,7 +144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Sy
 // Writing MetadataGetter for method: System::Net::IPHostEntry::set_AddressList
 // Il2CppName: set_AddressList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::IPHostEntry::*)(::ArrayW<System::Net::IPAddress*>)>(&System::Net::IPHostEntry::set_AddressList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::IPHostEntry::*)(::ArrayW<::System::Net::IPAddress*>)>(&System::Net::IPHostEntry::set_AddressList)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Net", "IPAddress"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::IPHostEntry*), "set_AddressList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

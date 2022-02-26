@@ -24,8 +24,8 @@ namespace Mono::Security::X509 {
   class X509Stores;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Security::X509::X509Stores);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509Stores*, "Mono.Security.X509", "X509Stores");
+NEED_NO_BOX(::Mono::Security::X509::X509Stores);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::X509::X509Stores*, "Mono.Security.X509", "X509Stores");
 // Type namespace: Mono.Security.X509
 namespace Mono::Security::X509 {
   // Size: 0x19
@@ -64,12 +64,12 @@ namespace Mono::Security::X509 {
     // Offset: 0x2A211A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Stores* New_ctor(::StringW path, bool newFormat) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::X509::X509Stores::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::X509::X509Stores::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Stores*, creationType>(path, newFormat)));
     }
     // public Mono.Security.X509.X509Store Open(System.String storeName, System.Boolean create)
     // Offset: 0x2A21280
-    Mono::Security::X509::X509Store* Open(::StringW storeName, bool create);
+    ::Mono::Security::X509::X509Store* Open(::StringW storeName, bool create);
   }; // Mono.Security.X509.X509Stores
   #pragma pack(pop)
   static check_size<sizeof(X509Stores), 24 + sizeof(bool)> __Mono_Security_X509_X509StoresSizeCheck;
@@ -83,7 +83,7 @@ namespace Mono::Security::X509 {
 // Writing MetadataGetter for method: Mono::Security::X509::X509Stores::Open
 // Il2CppName: Open
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::X509::X509Store* (Mono::Security::X509::X509Stores::*)(::StringW, bool)>(&Mono::Security::X509::X509Stores::Open)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::X509::X509Store* (Mono::Security::X509::X509Stores::*)(::StringW, bool)>(&Mono::Security::X509::X509Stores::Open)> {
   static const MethodInfo* get() {
     static auto* storeName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* create = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

@@ -20,8 +20,8 @@ namespace GlobalNamespace {
   class SteamVR_Frustum;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SteamVR_Frustum);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Frustum*, "", "SteamVR_Frustum");
+NEED_NO_BOX(::GlobalNamespace::SteamVR_Frustum);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SteamVR_Frustum*, "", "SteamVR_Frustum");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x34
@@ -30,7 +30,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ExecuteInEditMode] Offset: FFFFFFFF
   // [RequireComponent] Offset: 11ECBFC
-  class SteamVR_Frustum : public UnityEngine::MonoBehaviour {
+  class SteamVR_Frustum : public ::UnityEngine::MonoBehaviour {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -44,9 +44,9 @@ namespace GlobalNamespace {
     // public SteamVR_TrackedObject/EIndex index
     // Size: 0x4
     // Offset: 0x18
-    GlobalNamespace::SteamVR_TrackedObject::EIndex index;
+    ::GlobalNamespace::SteamVR_TrackedObject::EIndex index;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::SteamVR_TrackedObject::EIndex) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::SteamVR_TrackedObject::EIndex) == 0x4);
     // public System.Single fovLeft
     // Size: 0x4
     // Offset: 0x1C
@@ -84,10 +84,10 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     public:
-    // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const noexcept = delete;
+    // Deleting conversion operator: operator ::System::IntPtr
+    constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public SteamVR_TrackedObject/EIndex index
-    GlobalNamespace::SteamVR_TrackedObject::EIndex& dyn_index();
+    ::GlobalNamespace::SteamVR_TrackedObject::EIndex& dyn_index();
     // Get instance field reference: public System.Single fovLeft
     float& dyn_fovLeft();
     // Get instance field reference: public System.Single fovRight
@@ -122,7 +122,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_Frustum* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_Frustum::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_Frustum::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_Frustum*, creationType>()));
     }
   }; // SteamVR_Frustum

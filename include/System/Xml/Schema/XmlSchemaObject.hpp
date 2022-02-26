@@ -37,8 +37,8 @@ namespace System::Xml::Schema {
   class XmlSchemaObject;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Schema::XmlSchemaObject);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::XmlSchemaObject*, "System.Xml.Schema", "XmlSchemaObject");
+NEED_NO_BOX(::System::Xml::Schema::XmlSchemaObject);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XmlSchemaObject*, "System.Xml.Schema", "XmlSchemaObject");
 // Type namespace: System.Xml.Schema
 namespace System::Xml::Schema {
   // Size: 0x31
@@ -77,15 +77,15 @@ namespace System::Xml::Schema {
     // private System.Xml.Serialization.XmlSerializerNamespaces namespaces
     // Size: 0x8
     // Offset: 0x20
-    System::Xml::Serialization::XmlSerializerNamespaces* namespaces;
+    ::System::Xml::Serialization::XmlSerializerNamespaces* namespaces;
     // Field size check
-    static_assert(sizeof(System::Xml::Serialization::XmlSerializerNamespaces*) == 0x8);
+    static_assert(sizeof(::System::Xml::Serialization::XmlSerializerNamespaces*) == 0x8);
     // private System.Xml.Schema.XmlSchemaObject parent
     // Size: 0x8
     // Offset: 0x28
-    System::Xml::Schema::XmlSchemaObject* parent;
+    ::System::Xml::Schema::XmlSchemaObject* parent;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::XmlSchemaObject*) == 0x8);
+    static_assert(sizeof(::System::Xml::Schema::XmlSchemaObject*) == 0x8);
     // private System.Boolean isProcessing
     // Size: 0x1
     // Offset: 0x30
@@ -100,9 +100,9 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.String sourceUri
     ::StringW& dyn_sourceUri();
     // Get instance field reference: private System.Xml.Serialization.XmlSerializerNamespaces namespaces
-    System::Xml::Serialization::XmlSerializerNamespaces*& dyn_namespaces();
+    ::System::Xml::Serialization::XmlSerializerNamespaces*& dyn_namespaces();
     // Get instance field reference: private System.Xml.Schema.XmlSchemaObject parent
-    System::Xml::Schema::XmlSchemaObject*& dyn_parent();
+    ::System::Xml::Schema::XmlSchemaObject*& dyn_parent();
     // Get instance field reference: private System.Boolean isProcessing
     bool& dyn_isProcessing();
     // public System.Int32 get_LineNumber()
@@ -125,16 +125,16 @@ namespace System::Xml::Schema {
     void set_SourceUri(::StringW value);
     // public System.Xml.Schema.XmlSchemaObject get_Parent()
     // Offset: 0x18BD9B0
-    System::Xml::Schema::XmlSchemaObject* get_Parent();
+    ::System::Xml::Schema::XmlSchemaObject* get_Parent();
     // public System.Void set_Parent(System.Xml.Schema.XmlSchemaObject value)
     // Offset: 0x18BD9B8
-    void set_Parent(System::Xml::Schema::XmlSchemaObject* value);
+    void set_Parent(::System::Xml::Schema::XmlSchemaObject* value);
     // public System.Xml.Serialization.XmlSerializerNamespaces get_Namespaces()
     // Offset: 0x18B5808
-    System::Xml::Serialization::XmlSerializerNamespaces* get_Namespaces();
+    ::System::Xml::Serialization::XmlSerializerNamespaces* get_Namespaces();
     // public System.Void set_Namespaces(System.Xml.Serialization.XmlSerializerNamespaces value)
     // Offset: 0x18BD9C0
-    void set_Namespaces(System::Xml::Serialization::XmlSerializerNamespaces* value);
+    void set_Namespaces(::System::Xml::Serialization::XmlSerializerNamespaces* value);
     // System.String get_IdAttribute()
     // Offset: 0x18BD9D4
     ::StringW get_IdAttribute();
@@ -155,29 +155,29 @@ namespace System::Xml::Schema {
     void set_IsProcessing(bool value);
     // System.Void OnAdd(System.Xml.Schema.XmlSchemaObjectCollection container, System.Object item)
     // Offset: 0x18BD9C8
-    void OnAdd(System::Xml::Schema::XmlSchemaObjectCollection* container, ::Il2CppObject* item);
+    void OnAdd(::System::Xml::Schema::XmlSchemaObjectCollection* container, ::Il2CppObject* item);
     // System.Void OnRemove(System.Xml.Schema.XmlSchemaObjectCollection container, System.Object item)
     // Offset: 0x18BD9CC
-    void OnRemove(System::Xml::Schema::XmlSchemaObjectCollection* container, ::Il2CppObject* item);
+    void OnRemove(::System::Xml::Schema::XmlSchemaObjectCollection* container, ::Il2CppObject* item);
     // System.Void OnClear(System.Xml.Schema.XmlSchemaObjectCollection container)
     // Offset: 0x18BD9D0
-    void OnClear(System::Xml::Schema::XmlSchemaObjectCollection* container);
+    void OnClear(::System::Xml::Schema::XmlSchemaObjectCollection* container);
     // System.Void SetUnhandledAttributes(System.Xml.XmlAttribute[] moreAttributes)
     // Offset: 0x18BD9E0
-    void SetUnhandledAttributes(::ArrayW<System::Xml::XmlAttribute*> moreAttributes);
+    void SetUnhandledAttributes(::ArrayW<::System::Xml::XmlAttribute*> moreAttributes);
     // System.Void AddAnnotation(System.Xml.Schema.XmlSchemaAnnotation annotation)
     // Offset: 0x18BD9E4
-    void AddAnnotation(System::Xml::Schema::XmlSchemaAnnotation* annotation);
+    void AddAnnotation(::System::Xml::Schema::XmlSchemaAnnotation* annotation);
     // System.Xml.Schema.XmlSchemaObject Clone()
     // Offset: 0x18BDA08
-    System::Xml::Schema::XmlSchemaObject* Clone();
+    ::System::Xml::Schema::XmlSchemaObject* Clone();
     // protected System.Void .ctor()
     // Offset: 0x18ABE5C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlSchemaObject* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Schema::XmlSchemaObject::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlSchemaObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlSchemaObject*, creationType>()));
     }
   }; // System.Xml.Schema.XmlSchemaObject
@@ -240,7 +240,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaObject::get_Parent
 // Il2CppName: get_Parent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Schema::XmlSchemaObject* (System::Xml::Schema::XmlSchemaObject::*)()>(&System::Xml::Schema::XmlSchemaObject::get_Parent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaObject* (System::Xml::Schema::XmlSchemaObject::*)()>(&System::Xml::Schema::XmlSchemaObject::get_Parent)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaObject*), "get_Parent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -248,7 +248,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaObject::set_Parent
 // Il2CppName: set_Parent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaObject::*)(System::Xml::Schema::XmlSchemaObject*)>(&System::Xml::Schema::XmlSchemaObject::set_Parent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaObject::*)(::System::Xml::Schema::XmlSchemaObject*)>(&System::Xml::Schema::XmlSchemaObject::set_Parent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaObject*), "set_Parent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -257,7 +257,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaObject::get_Namespaces
 // Il2CppName: get_Namespaces
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Serialization::XmlSerializerNamespaces* (System::Xml::Schema::XmlSchemaObject::*)()>(&System::Xml::Schema::XmlSchemaObject::get_Namespaces)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlSerializerNamespaces* (System::Xml::Schema::XmlSchemaObject::*)()>(&System::Xml::Schema::XmlSchemaObject::get_Namespaces)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaObject*), "get_Namespaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -265,7 +265,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaObject::set_Namespaces
 // Il2CppName: set_Namespaces
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaObject::*)(System::Xml::Serialization::XmlSerializerNamespaces*)>(&System::Xml::Schema::XmlSchemaObject::set_Namespaces)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaObject::*)(::System::Xml::Serialization::XmlSerializerNamespaces*)>(&System::Xml::Schema::XmlSchemaObject::set_Namespaces)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Xml.Serialization", "XmlSerializerNamespaces")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaObject*), "set_Namespaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -325,7 +325,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaObject::OnAdd
 // Il2CppName: OnAdd
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaObject::*)(System::Xml::Schema::XmlSchemaObjectCollection*, ::Il2CppObject*)>(&System::Xml::Schema::XmlSchemaObject::OnAdd)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaObject::*)(::System::Xml::Schema::XmlSchemaObjectCollection*, ::Il2CppObject*)>(&System::Xml::Schema::XmlSchemaObject::OnAdd)> {
   static const MethodInfo* get() {
     static auto* container = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaObjectCollection")->byval_arg;
     static auto* item = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -335,7 +335,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaObject::OnRemove
 // Il2CppName: OnRemove
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaObject::*)(System::Xml::Schema::XmlSchemaObjectCollection*, ::Il2CppObject*)>(&System::Xml::Schema::XmlSchemaObject::OnRemove)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaObject::*)(::System::Xml::Schema::XmlSchemaObjectCollection*, ::Il2CppObject*)>(&System::Xml::Schema::XmlSchemaObject::OnRemove)> {
   static const MethodInfo* get() {
     static auto* container = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaObjectCollection")->byval_arg;
     static auto* item = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -345,7 +345,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaObject::OnClear
 // Il2CppName: OnClear
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaObject::*)(System::Xml::Schema::XmlSchemaObjectCollection*)>(&System::Xml::Schema::XmlSchemaObject::OnClear)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaObject::*)(::System::Xml::Schema::XmlSchemaObjectCollection*)>(&System::Xml::Schema::XmlSchemaObject::OnClear)> {
   static const MethodInfo* get() {
     static auto* container = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaObjectCollection")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaObject*), "OnClear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{container});
@@ -354,7 +354,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaObject::SetUnhandledAttributes
 // Il2CppName: SetUnhandledAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaObject::*)(::ArrayW<System::Xml::XmlAttribute*>)>(&System::Xml::Schema::XmlSchemaObject::SetUnhandledAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaObject::*)(::ArrayW<::System::Xml::XmlAttribute*>)>(&System::Xml::Schema::XmlSchemaObject::SetUnhandledAttributes)> {
   static const MethodInfo* get() {
     static auto* moreAttributes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Xml", "XmlAttribute"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaObject*), "SetUnhandledAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{moreAttributes});
@@ -363,7 +363,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaObject::AddAnnotation
 // Il2CppName: AddAnnotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaObject::*)(System::Xml::Schema::XmlSchemaAnnotation*)>(&System::Xml::Schema::XmlSchemaObject::AddAnnotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaObject::*)(::System::Xml::Schema::XmlSchemaAnnotation*)>(&System::Xml::Schema::XmlSchemaObject::AddAnnotation)> {
   static const MethodInfo* get() {
     static auto* annotation = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaAnnotation")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaObject*), "AddAnnotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{annotation});
@@ -372,7 +372,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaObject::Clone
 // Il2CppName: Clone
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Schema::XmlSchemaObject* (System::Xml::Schema::XmlSchemaObject::*)()>(&System::Xml::Schema::XmlSchemaObject::Clone)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaObject* (System::Xml::Schema::XmlSchemaObject::*)()>(&System::Xml::Schema::XmlSchemaObject::Clone)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaObject*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

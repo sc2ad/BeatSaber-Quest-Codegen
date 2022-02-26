@@ -44,8 +44,8 @@ namespace System::Linq::Expressions::Interpreter {
   class LabelInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Linq::Expressions::Interpreter::LabelInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::Linq::Expressions::Interpreter::LabelInfo*, "System.Linq.Expressions.Interpreter", "LabelInfo");
+NEED_NO_BOX(::System::Linq::Expressions::Interpreter::LabelInfo);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::LabelInfo*, "System.Linq.Expressions.Interpreter", "LabelInfo");
 // Type namespace: System.Linq.Expressions.Interpreter
 namespace System::Linq::Expressions::Interpreter {
   // Size: 0x31
@@ -54,7 +54,7 @@ namespace System::Linq::Expressions::Interpreter {
   // [TokenAttribute] Offset: FFFFFFFF
   class LabelInfo : public ::Il2CppObject {
     public:
-    // Nested type: System::Linq::Expressions::Interpreter::LabelInfo::$$c
+    // Nested type: ::System::Linq::Expressions::Interpreter::LabelInfo::$$c
     class $$c;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -68,15 +68,15 @@ namespace System::Linq::Expressions::Interpreter {
     // private readonly System.Linq.Expressions.LabelTarget _node
     // Size: 0x8
     // Offset: 0x10
-    System::Linq::Expressions::LabelTarget* node;
+    ::System::Linq::Expressions::LabelTarget* node;
     // Field size check
-    static_assert(sizeof(System::Linq::Expressions::LabelTarget*) == 0x8);
+    static_assert(sizeof(::System::Linq::Expressions::LabelTarget*) == 0x8);
     // private System.Linq.Expressions.Interpreter.BranchLabel _label
     // Size: 0x8
     // Offset: 0x18
-    System::Linq::Expressions::Interpreter::BranchLabel* label;
+    ::System::Linq::Expressions::Interpreter::BranchLabel* label;
     // Field size check
-    static_assert(sizeof(System::Linq::Expressions::Interpreter::BranchLabel*) == 0x8);
+    static_assert(sizeof(::System::Linq::Expressions::Interpreter::BranchLabel*) == 0x8);
     // private System.Object _definitions
     // Size: 0x8
     // Offset: 0x20
@@ -86,9 +86,9 @@ namespace System::Linq::Expressions::Interpreter {
     // private readonly System.Collections.Generic.List`1<System.Linq.Expressions.Interpreter.LabelScopeInfo> _references
     // Size: 0x8
     // Offset: 0x28
-    System::Collections::Generic::List_1<System::Linq::Expressions::Interpreter::LabelScopeInfo*>* references;
+    ::System::Collections::Generic::List_1<::System::Linq::Expressions::Interpreter::LabelScopeInfo*>* references;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<System::Linq::Expressions::Interpreter::LabelScopeInfo*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::System::Linq::Expressions::Interpreter::LabelScopeInfo*>*) == 0x8);
     // private System.Boolean _acrossBlockJump
     // Size: 0x1
     // Offset: 0x30
@@ -97,13 +97,13 @@ namespace System::Linq::Expressions::Interpreter {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private readonly System.Linq.Expressions.LabelTarget _node
-    System::Linq::Expressions::LabelTarget*& dyn__node();
+    ::System::Linq::Expressions::LabelTarget*& dyn__node();
     // Get instance field reference: private System.Linq.Expressions.Interpreter.BranchLabel _label
-    System::Linq::Expressions::Interpreter::BranchLabel*& dyn__label();
+    ::System::Linq::Expressions::Interpreter::BranchLabel*& dyn__label();
     // Get instance field reference: private System.Object _definitions
     ::Il2CppObject*& dyn__definitions();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<System.Linq.Expressions.Interpreter.LabelScopeInfo> _references
-    System::Collections::Generic::List_1<System::Linq::Expressions::Interpreter::LabelScopeInfo*>*& dyn__references();
+    ::System::Collections::Generic::List_1<::System::Linq::Expressions::Interpreter::LabelScopeInfo*>*& dyn__references();
     // Get instance field reference: private System.Boolean _acrossBlockJump
     bool& dyn__acrossBlockJump();
     // private System.Boolean get_HasDefinitions()
@@ -115,42 +115,42 @@ namespace System::Linq::Expressions::Interpreter {
     // System.Void .ctor(System.Linq.Expressions.LabelTarget node)
     // Offset: 0x1BFF58C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static LabelInfo* New_ctor(System::Linq::Expressions::LabelTarget* node) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Expressions::Interpreter::LabelInfo::.ctor");
+    static LabelInfo* New_ctor(::System::Linq::Expressions::LabelTarget* node) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Expressions::Interpreter::LabelInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LabelInfo*, creationType>(node)));
     }
     // System.Linq.Expressions.Interpreter.BranchLabel GetLabel(System.Linq.Expressions.Interpreter.LightCompiler compiler)
     // Offset: 0x1BFF610
-    System::Linq::Expressions::Interpreter::BranchLabel* GetLabel(System::Linq::Expressions::Interpreter::LightCompiler* compiler);
+    ::System::Linq::Expressions::Interpreter::BranchLabel* GetLabel(::System::Linq::Expressions::Interpreter::LightCompiler* compiler);
     // System.Void Reference(System.Linq.Expressions.Interpreter.LabelScopeInfo block)
     // Offset: 0x1BFF670
-    void Reference(System::Linq::Expressions::Interpreter::LabelScopeInfo* block);
+    void Reference(::System::Linq::Expressions::Interpreter::LabelScopeInfo* block);
     // System.Void Define(System.Linq.Expressions.Interpreter.LabelScopeInfo block)
     // Offset: 0x1BFF988
-    void Define(System::Linq::Expressions::Interpreter::LabelScopeInfo* block);
+    void Define(::System::Linq::Expressions::Interpreter::LabelScopeInfo* block);
     // private System.Void ValidateJump(System.Linq.Expressions.Interpreter.LabelScopeInfo reference)
     // Offset: 0x1BFF70C
-    void ValidateJump(System::Linq::Expressions::Interpreter::LabelScopeInfo* reference);
+    void ValidateJump(::System::Linq::Expressions::Interpreter::LabelScopeInfo* reference);
     // System.Void ValidateFinish()
     // Offset: 0x1C00048
     void ValidateFinish();
     // private System.Void EnsureLabel(System.Linq.Expressions.Interpreter.LightCompiler compiler)
     // Offset: 0x1BFF634
-    void EnsureLabel(System::Linq::Expressions::Interpreter::LightCompiler* compiler);
+    void EnsureLabel(::System::Linq::Expressions::Interpreter::LightCompiler* compiler);
     // private System.Boolean DefinedIn(System.Linq.Expressions.Interpreter.LabelScopeInfo scope)
     // Offset: 0x1BFFDE0
-    bool DefinedIn(System::Linq::Expressions::Interpreter::LabelScopeInfo* scope);
+    bool DefinedIn(::System::Linq::Expressions::Interpreter::LabelScopeInfo* scope);
     // private System.Linq.Expressions.Interpreter.LabelScopeInfo FirstDefinition()
     // Offset: 0x1BFFEA8
-    System::Linq::Expressions::Interpreter::LabelScopeInfo* FirstDefinition();
+    ::System::Linq::Expressions::Interpreter::LabelScopeInfo* FirstDefinition();
     // private System.Void AddDefinition(System.Linq.Expressions.Interpreter.LabelScopeInfo scope)
     // Offset: 0x1BFFBA8
-    void AddDefinition(System::Linq::Expressions::Interpreter::LabelScopeInfo* scope);
+    void AddDefinition(::System::Linq::Expressions::Interpreter::LabelScopeInfo* scope);
     // static T CommonNode(T first, T second, System.Func`2<T,T> parent)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static T CommonNode(T first, T second, System::Func_2<T, T>* parent) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Expressions::Interpreter::LabelInfo::CommonNode");
+    static T CommonNode(T first, T second, ::System::Func_2<T, T>* parent) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Expressions::Interpreter::LabelInfo::CommonNode");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Linq.Expressions.Interpreter", "LabelInfo", "CommonNode", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(first), ::il2cpp_utils::ExtractType(second), ::il2cpp_utils::ExtractType(parent)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, first, second, parent);
@@ -184,7 +184,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LabelInfo::GetLabel
 // Il2CppName: GetLabel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Linq::Expressions::Interpreter::BranchLabel* (System::Linq::Expressions::Interpreter::LabelInfo::*)(System::Linq::Expressions::Interpreter::LightCompiler*)>(&System::Linq::Expressions::Interpreter::LabelInfo::GetLabel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Interpreter::BranchLabel* (System::Linq::Expressions::Interpreter::LabelInfo::*)(::System::Linq::Expressions::Interpreter::LightCompiler*)>(&System::Linq::Expressions::Interpreter::LabelInfo::GetLabel)> {
   static const MethodInfo* get() {
     static auto* compiler = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions.Interpreter", "LightCompiler")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LabelInfo*), "GetLabel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{compiler});
@@ -193,7 +193,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Lin
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LabelInfo::Reference
 // Il2CppName: Reference
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LabelInfo::*)(System::Linq::Expressions::Interpreter::LabelScopeInfo*)>(&System::Linq::Expressions::Interpreter::LabelInfo::Reference)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LabelInfo::*)(::System::Linq::Expressions::Interpreter::LabelScopeInfo*)>(&System::Linq::Expressions::Interpreter::LabelInfo::Reference)> {
   static const MethodInfo* get() {
     static auto* block = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions.Interpreter", "LabelScopeInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LabelInfo*), "Reference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{block});
@@ -202,7 +202,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LabelInfo::Define
 // Il2CppName: Define
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LabelInfo::*)(System::Linq::Expressions::Interpreter::LabelScopeInfo*)>(&System::Linq::Expressions::Interpreter::LabelInfo::Define)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LabelInfo::*)(::System::Linq::Expressions::Interpreter::LabelScopeInfo*)>(&System::Linq::Expressions::Interpreter::LabelInfo::Define)> {
   static const MethodInfo* get() {
     static auto* block = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions.Interpreter", "LabelScopeInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LabelInfo*), "Define", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{block});
@@ -211,7 +211,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LabelInfo::ValidateJump
 // Il2CppName: ValidateJump
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LabelInfo::*)(System::Linq::Expressions::Interpreter::LabelScopeInfo*)>(&System::Linq::Expressions::Interpreter::LabelInfo::ValidateJump)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LabelInfo::*)(::System::Linq::Expressions::Interpreter::LabelScopeInfo*)>(&System::Linq::Expressions::Interpreter::LabelInfo::ValidateJump)> {
   static const MethodInfo* get() {
     static auto* reference = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions.Interpreter", "LabelScopeInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LabelInfo*), "ValidateJump", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reference});
@@ -228,7 +228,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LabelInfo::EnsureLabel
 // Il2CppName: EnsureLabel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LabelInfo::*)(System::Linq::Expressions::Interpreter::LightCompiler*)>(&System::Linq::Expressions::Interpreter::LabelInfo::EnsureLabel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LabelInfo::*)(::System::Linq::Expressions::Interpreter::LightCompiler*)>(&System::Linq::Expressions::Interpreter::LabelInfo::EnsureLabel)> {
   static const MethodInfo* get() {
     static auto* compiler = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions.Interpreter", "LightCompiler")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LabelInfo*), "EnsureLabel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{compiler});
@@ -237,7 +237,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LabelInfo::DefinedIn
 // Il2CppName: DefinedIn
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Linq::Expressions::Interpreter::LabelInfo::*)(System::Linq::Expressions::Interpreter::LabelScopeInfo*)>(&System::Linq::Expressions::Interpreter::LabelInfo::DefinedIn)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Linq::Expressions::Interpreter::LabelInfo::*)(::System::Linq::Expressions::Interpreter::LabelScopeInfo*)>(&System::Linq::Expressions::Interpreter::LabelInfo::DefinedIn)> {
   static const MethodInfo* get() {
     static auto* scope = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions.Interpreter", "LabelScopeInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LabelInfo*), "DefinedIn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scope});
@@ -246,7 +246,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LabelInfo::FirstDefinition
 // Il2CppName: FirstDefinition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Linq::Expressions::Interpreter::LabelScopeInfo* (System::Linq::Expressions::Interpreter::LabelInfo::*)()>(&System::Linq::Expressions::Interpreter::LabelInfo::FirstDefinition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Interpreter::LabelScopeInfo* (System::Linq::Expressions::Interpreter::LabelInfo::*)()>(&System::Linq::Expressions::Interpreter::LabelInfo::FirstDefinition)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LabelInfo*), "FirstDefinition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -254,7 +254,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Lin
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LabelInfo::AddDefinition
 // Il2CppName: AddDefinition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LabelInfo::*)(System::Linq::Expressions::Interpreter::LabelScopeInfo*)>(&System::Linq::Expressions::Interpreter::LabelInfo::AddDefinition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LabelInfo::*)(::System::Linq::Expressions::Interpreter::LabelScopeInfo*)>(&System::Linq::Expressions::Interpreter::LabelInfo::AddDefinition)> {
   static const MethodInfo* get() {
     static auto* scope = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions.Interpreter", "LabelScopeInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LabelInfo*), "AddDefinition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scope});

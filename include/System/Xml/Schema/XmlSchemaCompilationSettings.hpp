@@ -16,8 +16,8 @@ namespace System::Xml::Schema {
   class XmlSchemaCompilationSettings;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Schema::XmlSchemaCompilationSettings);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::XmlSchemaCompilationSettings*, "System.Xml.Schema", "XmlSchemaCompilationSettings");
+NEED_NO_BOX(::System::Xml::Schema::XmlSchemaCompilationSettings);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XmlSchemaCompilationSettings*, "System.Xml.Schema", "XmlSchemaCompilationSettings");
 // Type namespace: System.Xml.Schema
 namespace System::Xml::Schema {
   // Size: 0x11
@@ -57,7 +57,7 @@ namespace System::Xml::Schema {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlSchemaCompilationSettings* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Schema::XmlSchemaCompilationSettings::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlSchemaCompilationSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlSchemaCompilationSettings*, creationType>()));
     }
   }; // System.Xml.Schema.XmlSchemaCompilationSettings

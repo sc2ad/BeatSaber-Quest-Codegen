@@ -14,8 +14,8 @@ namespace System::Runtime::CompilerServices {
   class IStrongBox;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::CompilerServices::IStrongBox);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::IStrongBox*, "System.Runtime.CompilerServices", "IStrongBox");
+NEED_NO_BOX(::System::Runtime::CompilerServices::IStrongBox);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::CompilerServices::IStrongBox*, "System.Runtime.CompilerServices", "IStrongBox");
 // Type namespace: System.Runtime.CompilerServices
 namespace System::Runtime::CompilerServices {
   // Size: 0x10

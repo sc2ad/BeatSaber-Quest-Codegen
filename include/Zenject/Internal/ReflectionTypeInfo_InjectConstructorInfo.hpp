@@ -26,8 +26,8 @@ namespace System::Collections::Generic {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::Internal::ReflectionTypeInfo::InjectConstructorInfo);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ReflectionTypeInfo::InjectConstructorInfo*, "Zenject.Internal", "ReflectionTypeInfo/InjectConstructorInfo");
+NEED_NO_BOX(::Zenject::Internal::ReflectionTypeInfo::InjectConstructorInfo);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::Internal::ReflectionTypeInfo::InjectConstructorInfo*, "Zenject.Internal", "ReflectionTypeInfo/InjectConstructorInfo");
 // Type namespace: Zenject.Internal
 namespace Zenject::Internal {
   // Size: 0x20
@@ -49,30 +49,30 @@ namespace Zenject::Internal {
     // public readonly System.Reflection.ConstructorInfo ConstructorInfo
     // Size: 0x8
     // Offset: 0x10
-    System::Reflection::ConstructorInfo* ConstructorInfo;
+    ::System::Reflection::ConstructorInfo* ConstructorInfo;
     // Field size check
-    static_assert(sizeof(System::Reflection::ConstructorInfo*) == 0x8);
+    static_assert(sizeof(::System::Reflection::ConstructorInfo*) == 0x8);
     // public readonly System.Collections.Generic.List`1<Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectParameterInfo> Parameters
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::Generic::List_1<Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*>* Parameters;
+    ::System::Collections::Generic::List_1<::Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*>* Parameters;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*>*) == 0x8);
     public:
     // Get instance field reference: public readonly System.Reflection.ConstructorInfo ConstructorInfo
-    System::Reflection::ConstructorInfo*& dyn_ConstructorInfo();
+    ::System::Reflection::ConstructorInfo*& dyn_ConstructorInfo();
     // Get instance field reference: public readonly System.Collections.Generic.List`1<Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectParameterInfo> Parameters
-    System::Collections::Generic::List_1<Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*>*& dyn_Parameters();
+    ::System::Collections::Generic::List_1<::Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*>*& dyn_Parameters();
     // public System.Void .ctor(System.Reflection.ConstructorInfo constructorInfo, System.Collections.Generic.List`1<Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectParameterInfo> parameters)
     // Offset: 0x1B05F9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ReflectionTypeInfo::InjectConstructorInfo* New_ctor(System::Reflection::ConstructorInfo* constructorInfo, System::Collections::Generic::List_1<Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*>* parameters) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::Internal::ReflectionTypeInfo::InjectConstructorInfo::.ctor");
+    static ReflectionTypeInfo::InjectConstructorInfo* New_ctor(::System::Reflection::ConstructorInfo* constructorInfo, ::System::Collections::Generic::List_1<::Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*>* parameters) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Internal::ReflectionTypeInfo::InjectConstructorInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReflectionTypeInfo::InjectConstructorInfo*, creationType>(constructorInfo, parameters)));
     }
   }; // Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectConstructorInfo
   #pragma pack(pop)
-  static check_size<sizeof(ReflectionTypeInfo::InjectConstructorInfo), 24 + sizeof(System::Collections::Generic::List_1<Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*>*)> __Zenject_Internal_ReflectionTypeInfo_InjectConstructorInfoSizeCheck;
+  static check_size<sizeof(ReflectionTypeInfo::InjectConstructorInfo), 24 + sizeof(::System::Collections::Generic::List_1<::Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*>*)> __Zenject_Internal_ReflectionTypeInfo_InjectConstructorInfoSizeCheck;
   static_assert(sizeof(ReflectionTypeInfo::InjectConstructorInfo) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

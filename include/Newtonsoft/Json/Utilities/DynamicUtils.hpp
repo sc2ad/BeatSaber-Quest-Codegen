@@ -29,8 +29,8 @@ namespace Newtonsoft::Json::Utilities {
   class DynamicUtils;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Utilities::DynamicUtils);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::DynamicUtils*, "Newtonsoft.Json.Utilities", "DynamicUtils");
+NEED_NO_BOX(::Newtonsoft::Json::Utilities::DynamicUtils);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::DynamicUtils*, "Newtonsoft.Json.Utilities", "DynamicUtils");
 // Type namespace: Newtonsoft.Json.Utilities
 namespace Newtonsoft::Json::Utilities {
   // Size: 0x10
@@ -42,11 +42,11 @@ namespace Newtonsoft::Json::Utilities {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class DynamicUtils : public ::Il2CppObject {
     public:
-    // Nested type: Newtonsoft::Json::Utilities::DynamicUtils::BinderWrapper
+    // Nested type: ::Newtonsoft::Json::Utilities::DynamicUtils::BinderWrapper
     class BinderWrapper;
     // static public System.Collections.Generic.IEnumerable`1<System.String> GetDynamicMemberNames(System.Dynamic.IDynamicMetaObjectProvider dynamicProvider)
     // Offset: 0x19D46F4
-    static System::Collections::Generic::IEnumerable_1<::StringW>* GetDynamicMemberNames(System::Dynamic::IDynamicMetaObjectProvider* dynamicProvider);
+    static ::System::Collections::Generic::IEnumerable_1<::StringW>* GetDynamicMemberNames(::System::Dynamic::IDynamicMetaObjectProvider* dynamicProvider);
   }; // Newtonsoft.Json.Utilities.DynamicUtils
   #pragma pack(pop)
 }
@@ -54,7 +54,7 @@ namespace Newtonsoft::Json::Utilities {
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::DynamicUtils::GetDynamicMemberNames
 // Il2CppName: GetDynamicMemberNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::StringW>* (*)(System::Dynamic::IDynamicMetaObjectProvider*)>(&Newtonsoft::Json::Utilities::DynamicUtils::GetDynamicMemberNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>* (*)(::System::Dynamic::IDynamicMetaObjectProvider*)>(&Newtonsoft::Json::Utilities::DynamicUtils::GetDynamicMemberNames)> {
   static const MethodInfo* get() {
     static auto* dynamicProvider = &::il2cpp_utils::GetClassFromName("System.Dynamic", "IDynamicMetaObjectProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::DynamicUtils*), "GetDynamicMemberNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dynamicProvider});

@@ -32,8 +32,8 @@ namespace System::Collections::Generic {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::SelectionPickerRenderer::$$c);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SelectionPickerRenderer::$$c*, "UnityEngine.ProBuilder", "SelectionPickerRenderer/<>c");
+NEED_NO_BOX(::UnityEngine::ProBuilder::SelectionPickerRenderer::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::SelectionPickerRenderer::$$c*, "UnityEngine.ProBuilder", "SelectionPickerRenderer/<>c");
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
   // Size: 0x10
@@ -44,26 +44,26 @@ namespace UnityEngine::ProBuilder {
   class SelectionPickerRenderer::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly UnityEngine.ProBuilder.SelectionPickerRenderer/UnityEngine.ProBuilder.<>c <>9
-    static UnityEngine::ProBuilder::SelectionPickerRenderer::$$c* _get_$$9();
+    static ::UnityEngine::ProBuilder::SelectionPickerRenderer::$$c* _get_$$9();
     // Set static field: static public readonly UnityEngine.ProBuilder.SelectionPickerRenderer/UnityEngine.ProBuilder.<>c <>9
-    static void _set_$$9(UnityEngine::ProBuilder::SelectionPickerRenderer::$$c* value);
+    static void _set_$$9(::UnityEngine::ProBuilder::SelectionPickerRenderer::$$c* value);
     // Get static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Collections.Generic.IEnumerable`1<System.Int32>> <>9__24_0
-    static System::Func_2<UnityEngine::ProBuilder::Face*, System::Collections::Generic::IEnumerable_1<int>*>* _get_$$9__24_0();
+    static ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<int>*>* _get_$$9__24_0();
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Collections.Generic.IEnumerable`1<System.Int32>> <>9__24_0
-    static void _set_$$9__24_0(System::Func_2<UnityEngine::ProBuilder::Face*, System::Collections::Generic::IEnumerable_1<int>*>* value);
+    static void _set_$$9__24_0(::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<int>*>* value);
     // static private System.Void .cctor()
     // Offset: 0x191BD54
     static void _cctor();
     // System.Collections.Generic.IEnumerable`1<System.Int32> <GenerateFacePickingObjects>b__24_0(UnityEngine.ProBuilder.Face x)
     // Offset: 0x191BDC0
-    System::Collections::Generic::IEnumerable_1<int>* $GenerateFacePickingObjects$b__24_0(UnityEngine::ProBuilder::Face* x);
+    ::System::Collections::Generic::IEnumerable_1<int>* $GenerateFacePickingObjects$b__24_0(::UnityEngine::ProBuilder::Face* x);
     // public System.Void .ctor()
     // Offset: 0x191BDB8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SelectionPickerRenderer::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::SelectionPickerRenderer::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::SelectionPickerRenderer::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SelectionPickerRenderer::$$c*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.SelectionPickerRenderer/UnityEngine.ProBuilder.<>c
@@ -81,7 +81,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SelectionPickerRenderer::$$c::$GenerateFacePickingObjects$b__24_0
 // Il2CppName: <GenerateFacePickingObjects>b__24_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<int>* (UnityEngine::ProBuilder::SelectionPickerRenderer::$$c::*)(UnityEngine::ProBuilder::Face*)>(&UnityEngine::ProBuilder::SelectionPickerRenderer::$$c::$GenerateFacePickingObjects$b__24_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<int>* (UnityEngine::ProBuilder::SelectionPickerRenderer::$$c::*)(::UnityEngine::ProBuilder::Face*)>(&UnityEngine::ProBuilder::SelectionPickerRenderer::$$c::$GenerateFacePickingObjects$b__24_0)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SelectionPickerRenderer::$$c*), "<GenerateFacePickingObjects>b__24_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});

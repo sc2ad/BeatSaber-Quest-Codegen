@@ -59,8 +59,8 @@ namespace NUnit::Framework::Api {
   class DefaultTestAssemblyBuilder;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Api::DefaultTestAssemblyBuilder);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Api::DefaultTestAssemblyBuilder*, "NUnit.Framework.Api", "DefaultTestAssemblyBuilder");
+NEED_NO_BOX(::NUnit::Framework::Api::DefaultTestAssemblyBuilder);
+DEFINE_IL2CPP_ARG_TYPE(::NUnit::Framework::Api::DefaultTestAssemblyBuilder*, "NUnit.Framework.Api", "DefaultTestAssemblyBuilder");
 // Type namespace: NUnit.Framework.Api
 namespace NUnit::Framework::Api {
   // Size: 0x18
@@ -81,50 +81,50 @@ namespace NUnit::Framework::Api {
     // private NUnit.Framework.Interfaces.ISuiteBuilder _defaultSuiteBuilder
     // Size: 0x8
     // Offset: 0x10
-    NUnit::Framework::Interfaces::ISuiteBuilder* defaultSuiteBuilder;
+    ::NUnit::Framework::Interfaces::ISuiteBuilder* defaultSuiteBuilder;
     // Field size check
-    static_assert(sizeof(NUnit::Framework::Interfaces::ISuiteBuilder*) == 0x8);
+    static_assert(sizeof(::NUnit::Framework::Interfaces::ISuiteBuilder*) == 0x8);
     public:
-    // Creating conversion operator: operator NUnit::Framework::Interfaces::ISuiteBuilder*
-    constexpr operator NUnit::Framework::Interfaces::ISuiteBuilder*() const noexcept {
+    // Creating conversion operator: operator ::NUnit::Framework::Interfaces::ISuiteBuilder*
+    constexpr operator ::NUnit::Framework::Interfaces::ISuiteBuilder*() const noexcept {
       return defaultSuiteBuilder;
     }
     // Get static field: static private NUnit.Framework.Internal.Logger log
-    static NUnit::Framework::Internal::Logger* _get_log();
+    static ::NUnit::Framework::Internal::Logger* _get_log();
     // Set static field: static private NUnit.Framework.Internal.Logger log
-    static void _set_log(NUnit::Framework::Internal::Logger* value);
+    static void _set_log(::NUnit::Framework::Internal::Logger* value);
     // Get instance field reference: private NUnit.Framework.Interfaces.ISuiteBuilder _defaultSuiteBuilder
-    NUnit::Framework::Interfaces::ISuiteBuilder*& dyn__defaultSuiteBuilder();
+    ::NUnit::Framework::Interfaces::ISuiteBuilder*& dyn__defaultSuiteBuilder();
     // static private System.Void .cctor()
     // Offset: 0x1B4C0AC
     static void _cctor();
     // public NUnit.Framework.Interfaces.ITest Build(System.Reflection.Assembly assembly, System.Collections.Generic.IDictionary`2<System.String,System.Object> options)
     // Offset: 0x1B4A5B4
-    NUnit::Framework::Interfaces::ITest* Build(System::Reflection::Assembly* assembly, System::Collections::Generic::IDictionary_2<::StringW, ::Il2CppObject*>* options);
+    ::NUnit::Framework::Interfaces::ITest* Build(::System::Reflection::Assembly* assembly, ::System::Collections::Generic::IDictionary_2<::StringW, ::Il2CppObject*>* options);
     // private NUnit.Framework.Internal.TestSuite Build(System.Reflection.Assembly assembly, System.String assemblyPath, System.Collections.Generic.IDictionary`2<System.String,System.Object> options)
     // Offset: 0x1B4A77C
-    NUnit::Framework::Internal::TestSuite* Build(System::Reflection::Assembly* assembly, ::StringW assemblyPath, System::Collections::Generic::IDictionary_2<::StringW, ::Il2CppObject*>* options);
+    ::NUnit::Framework::Internal::TestSuite* Build(::System::Reflection::Assembly* assembly, ::StringW assemblyPath, ::System::Collections::Generic::IDictionary_2<::StringW, ::Il2CppObject*>* options);
     // private System.Collections.Generic.IList`1<NUnit.Framework.Internal.Test> GetFixtures(System.Reflection.Assembly assembly, System.Collections.IList names)
     // Offset: 0x1B4AE54
-    System::Collections::Generic::IList_1<NUnit::Framework::Internal::Test*>* GetFixtures(System::Reflection::Assembly* assembly, System::Collections::IList* names);
+    ::System::Collections::Generic::IList_1<::NUnit::Framework::Internal::Test*>* GetFixtures(::System::Reflection::Assembly* assembly, ::System::Collections::IList* names);
     // private System.Collections.Generic.IList`1<System.Type> GetCandidateFixtureTypes(System.Reflection.Assembly assembly, System.Collections.IList names)
     // Offset: 0x1B4B90C
-    System::Collections::Generic::IList_1<System::Type*>* GetCandidateFixtureTypes(System::Reflection::Assembly* assembly, System::Collections::IList* names);
+    ::System::Collections::Generic::IList_1<::System::Type*>* GetCandidateFixtureTypes(::System::Reflection::Assembly* assembly, ::System::Collections::IList* names);
     // private NUnit.Framework.Internal.TestSuite BuildTestAssembly(System.Reflection.Assembly assembly, System.String assemblyName, System.Collections.Generic.IList`1<NUnit.Framework.Internal.Test> fixtures)
     // Offset: 0x1B4B5D0
-    NUnit::Framework::Internal::TestSuite* BuildTestAssembly(System::Reflection::Assembly* assembly, ::StringW assemblyName, System::Collections::Generic::IList_1<NUnit::Framework::Internal::Test*>* fixtures);
+    ::NUnit::Framework::Internal::TestSuite* BuildTestAssembly(::System::Reflection::Assembly* assembly, ::StringW assemblyName, ::System::Collections::Generic::IList_1<::NUnit::Framework::Internal::Test*>* fixtures);
     // public System.Void .ctor()
     // Offset: 0x1B4A4E8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultTestAssemblyBuilder* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Api::DefaultTestAssemblyBuilder::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Api::DefaultTestAssemblyBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultTestAssemblyBuilder*, creationType>()));
     }
   }; // NUnit.Framework.Api.DefaultTestAssemblyBuilder
   #pragma pack(pop)
-  static check_size<sizeof(DefaultTestAssemblyBuilder), 16 + sizeof(NUnit::Framework::Interfaces::ISuiteBuilder*)> __NUnit_Framework_Api_DefaultTestAssemblyBuilderSizeCheck;
+  static check_size<sizeof(DefaultTestAssemblyBuilder), 16 + sizeof(::NUnit::Framework::Interfaces::ISuiteBuilder*)> __NUnit_Framework_Api_DefaultTestAssemblyBuilderSizeCheck;
   static_assert(sizeof(DefaultTestAssemblyBuilder) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -139,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: NUnit::Framework::Api::DefaultTestAssemblyBuilder::Build
 // Il2CppName: Build
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ITest* (NUnit::Framework::Api::DefaultTestAssemblyBuilder::*)(System::Reflection::Assembly*, System::Collections::Generic::IDictionary_2<::StringW, ::Il2CppObject*>*)>(&NUnit::Framework::Api::DefaultTestAssemblyBuilder::Build)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Framework::Interfaces::ITest* (NUnit::Framework::Api::DefaultTestAssemblyBuilder::*)(::System::Reflection::Assembly*, ::System::Collections::Generic::IDictionary_2<::StringW, ::Il2CppObject*>*)>(&NUnit::Framework::Api::DefaultTestAssemblyBuilder::Build)> {
   static const MethodInfo* get() {
     static auto* assembly = &::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")->byval_arg;
     static auto* options = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IDictionary`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("System", "Object")})->byval_arg;
@@ -149,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Writing MetadataGetter for method: NUnit::Framework::Api::DefaultTestAssemblyBuilder::Build
 // Il2CppName: Build
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestSuite* (NUnit::Framework::Api::DefaultTestAssemblyBuilder::*)(System::Reflection::Assembly*, ::StringW, System::Collections::Generic::IDictionary_2<::StringW, ::Il2CppObject*>*)>(&NUnit::Framework::Api::DefaultTestAssemblyBuilder::Build)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Framework::Internal::TestSuite* (NUnit::Framework::Api::DefaultTestAssemblyBuilder::*)(::System::Reflection::Assembly*, ::StringW, ::System::Collections::Generic::IDictionary_2<::StringW, ::Il2CppObject*>*)>(&NUnit::Framework::Api::DefaultTestAssemblyBuilder::Build)> {
   static const MethodInfo* get() {
     static auto* assembly = &::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")->byval_arg;
     static auto* assemblyPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -160,7 +160,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Writing MetadataGetter for method: NUnit::Framework::Api::DefaultTestAssemblyBuilder::GetFixtures
 // Il2CppName: GetFixtures
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<NUnit::Framework::Internal::Test*>* (NUnit::Framework::Api::DefaultTestAssemblyBuilder::*)(System::Reflection::Assembly*, System::Collections::IList*)>(&NUnit::Framework::Api::DefaultTestAssemblyBuilder::GetFixtures)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IList_1<::NUnit::Framework::Internal::Test*>* (NUnit::Framework::Api::DefaultTestAssemblyBuilder::*)(::System::Reflection::Assembly*, ::System::Collections::IList*)>(&NUnit::Framework::Api::DefaultTestAssemblyBuilder::GetFixtures)> {
   static const MethodInfo* get() {
     static auto* assembly = &::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")->byval_arg;
     static auto* names = &::il2cpp_utils::GetClassFromName("System.Collections", "IList")->byval_arg;
@@ -170,7 +170,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: NUnit::Framework::Api::DefaultTestAssemblyBuilder::GetCandidateFixtureTypes
 // Il2CppName: GetCandidateFixtureTypes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<System::Type*>* (NUnit::Framework::Api::DefaultTestAssemblyBuilder::*)(System::Reflection::Assembly*, System::Collections::IList*)>(&NUnit::Framework::Api::DefaultTestAssemblyBuilder::GetCandidateFixtureTypes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IList_1<::System::Type*>* (NUnit::Framework::Api::DefaultTestAssemblyBuilder::*)(::System::Reflection::Assembly*, ::System::Collections::IList*)>(&NUnit::Framework::Api::DefaultTestAssemblyBuilder::GetCandidateFixtureTypes)> {
   static const MethodInfo* get() {
     static auto* assembly = &::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")->byval_arg;
     static auto* names = &::il2cpp_utils::GetClassFromName("System.Collections", "IList")->byval_arg;
@@ -180,7 +180,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: NUnit::Framework::Api::DefaultTestAssemblyBuilder::BuildTestAssembly
 // Il2CppName: BuildTestAssembly
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestSuite* (NUnit::Framework::Api::DefaultTestAssemblyBuilder::*)(System::Reflection::Assembly*, ::StringW, System::Collections::Generic::IList_1<NUnit::Framework::Internal::Test*>*)>(&NUnit::Framework::Api::DefaultTestAssemblyBuilder::BuildTestAssembly)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Framework::Internal::TestSuite* (NUnit::Framework::Api::DefaultTestAssemblyBuilder::*)(::System::Reflection::Assembly*, ::StringW, ::System::Collections::Generic::IList_1<::NUnit::Framework::Internal::Test*>*)>(&NUnit::Framework::Api::DefaultTestAssemblyBuilder::BuildTestAssembly)> {
   static const MethodInfo* get() {
     static auto* assembly = &::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")->byval_arg;
     static auto* assemblyName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

@@ -15,8 +15,8 @@ namespace UnityEngine {
   class ComputeShader;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ComputeShader);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ComputeShader*, "UnityEngine", "ComputeShader");
+NEED_NO_BOX(::UnityEngine::ComputeShader);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ComputeShader*, "UnityEngine", "ComputeShader");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -25,7 +25,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NativeHeaderAttribute] Offset: 11A6440
   // [UsedByNativeCodeAttribute] Offset: 11A6440
-  class ComputeShader : public UnityEngine::Object {
+  class ComputeShader : public ::UnityEngine::Object {
     public:
     // public System.Int32 FindKernel(System.String name)
     // Offset: 0x1EB4C28

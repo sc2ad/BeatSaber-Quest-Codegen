@@ -37,8 +37,8 @@ namespace NUnit::Compatibility {
   class AdditionalTypeExtensions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Compatibility::AdditionalTypeExtensions);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Compatibility::AdditionalTypeExtensions*, "NUnit.Compatibility", "AdditionalTypeExtensions");
+NEED_NO_BOX(::NUnit::Compatibility::AdditionalTypeExtensions);
+DEFINE_IL2CPP_ARG_TYPE(::NUnit::Compatibility::AdditionalTypeExtensions*, "NUnit.Compatibility", "AdditionalTypeExtensions");
 // Type namespace: NUnit.Compatibility
 namespace NUnit::Compatibility {
   // Size: 0x10
@@ -48,21 +48,21 @@ namespace NUnit::Compatibility {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class AdditionalTypeExtensions : public ::Il2CppObject {
     public:
-    // Nested type: NUnit::Compatibility::AdditionalTypeExtensions::$$c__DisplayClass2_0
+    // Nested type: ::NUnit::Compatibility::AdditionalTypeExtensions::$$c__DisplayClass2_0
     class $$c__DisplayClass2_0;
     // Get static field: static private System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.List`1<System.Type>> convertibleValueTypes
-    static System::Collections::Generic::Dictionary_2<System::Type*, System::Collections::Generic::List_1<System::Type*>*>* _get_convertibleValueTypes();
+    static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::List_1<::System::Type*>*>* _get_convertibleValueTypes();
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.List`1<System.Type>> convertibleValueTypes
-    static void _set_convertibleValueTypes(System::Collections::Generic::Dictionary_2<System::Type*, System::Collections::Generic::List_1<System::Type*>*>* value);
+    static void _set_convertibleValueTypes(::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::List_1<::System::Type*>*>* value);
     // static private System.Void .cctor()
     // Offset: 0x1B4998C
     static void _cctor();
     // static public System.Boolean ParametersMatch(System.Reflection.ParameterInfo[] pinfos, System.Type[] ptypes)
     // Offset: 0x1B4962C
-    static bool ParametersMatch(::ArrayW<System::Reflection::ParameterInfo*> pinfos, ::ArrayW<System::Type*> ptypes);
+    static bool ParametersMatch(::ArrayW<::System::Reflection::ParameterInfo*> pinfos, ::ArrayW<::System::Type*> ptypes);
     // static public System.Boolean IsCastableFrom(System.Type to, System.Type from)
     // Offset: 0x1B49740
-    static bool IsCastableFrom(System::Type* to, System::Type* from);
+    static bool IsCastableFrom(::System::Type* to, ::System::Type* from);
   }; // NUnit.Compatibility.AdditionalTypeExtensions
   #pragma pack(pop)
 }
@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: NUnit::Compatibility::AdditionalTypeExtensions::ParametersMatch
 // Il2CppName: ParametersMatch
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<System::Reflection::ParameterInfo*>, ::ArrayW<System::Type*>)>(&NUnit::Compatibility::AdditionalTypeExtensions::ParametersMatch)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<::System::Reflection::ParameterInfo*>, ::ArrayW<::System::Type*>)>(&NUnit::Compatibility::AdditionalTypeExtensions::ParametersMatch)> {
   static const MethodInfo* get() {
     static auto* pinfos = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Reflection", "ParameterInfo"), 1)->byval_arg;
     static auto* ptypes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
@@ -88,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: NUnit::Compatibility::AdditionalTypeExtensions::IsCastableFrom
 // Il2CppName: IsCastableFrom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, System::Type*)>(&NUnit::Compatibility::AdditionalTypeExtensions::IsCastableFrom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&NUnit::Compatibility::AdditionalTypeExtensions::IsCastableFrom)> {
   static const MethodInfo* get() {
     static auto* to = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* from = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;

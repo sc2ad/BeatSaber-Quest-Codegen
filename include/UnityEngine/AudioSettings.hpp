@@ -20,8 +20,8 @@ namespace UnityEngine {
   class AudioSettings;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::AudioSettings);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioSettings*, "UnityEngine", "AudioSettings");
+NEED_NO_BOX(::UnityEngine::AudioSettings);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AudioSettings*, "UnityEngine", "AudioSettings");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -32,15 +32,15 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: 11D75B8
   class AudioSettings : public ::Il2CppObject {
     public:
-    // Nested type: UnityEngine::AudioSettings::AudioConfigurationChangeHandler
+    // Nested type: ::UnityEngine::AudioSettings::AudioConfigurationChangeHandler
     class AudioConfigurationChangeHandler;
-    // Nested type: UnityEngine::AudioSettings::Mobile
+    // Nested type: ::UnityEngine::AudioSettings::Mobile
     class Mobile;
     // [DebuggerBrowsableAttribute] Offset: 0x11D7CD4
     // Get static field: static private UnityEngine.AudioSettings/UnityEngine.AudioConfigurationChangeHandler OnAudioConfigurationChanged
-    static UnityEngine::AudioSettings::AudioConfigurationChangeHandler* _get_OnAudioConfigurationChanged();
+    static ::UnityEngine::AudioSettings::AudioConfigurationChangeHandler* _get_OnAudioConfigurationChanged();
     // Set static field: static private UnityEngine.AudioSettings/UnityEngine.AudioConfigurationChangeHandler OnAudioConfigurationChanged
-    static void _set_OnAudioConfigurationChanged(UnityEngine::AudioSettings::AudioConfigurationChangeHandler* value);
+    static void _set_OnAudioConfigurationChanged(::UnityEngine::AudioSettings::AudioConfigurationChangeHandler* value);
     // static public System.Double get_dspTime()
     // Offset: 0x2A3F098
     static double get_dspTime();
@@ -55,7 +55,7 @@ namespace UnityEngine {
     static ::StringW GetSpatializerPluginName();
     // static public UnityEngine.AudioConfiguration GetConfiguration()
     // Offset: 0x2A3F134
-    static UnityEngine::AudioConfiguration GetConfiguration();
+    static ::UnityEngine::AudioConfiguration GetConfiguration();
     // static System.Void InvokeOnAudioConfigurationChanged(System.Boolean deviceWasChanged)
     // Offset: 0x2A3F1D8
     static void InvokeOnAudioConfigurationChanged(bool deviceWasChanged);
@@ -67,7 +67,7 @@ namespace UnityEngine {
     static bool StopAudioOutput();
     // static private System.Void GetConfiguration_Injected(out UnityEngine.AudioConfiguration ret)
     // Offset: 0x2A3F198
-    static void GetConfiguration_Injected(ByRef<UnityEngine::AudioConfiguration> ret);
+    static void GetConfiguration_Injected(ByRef<::UnityEngine::AudioConfiguration> ret);
   }; // UnityEngine.AudioSettings
   #pragma pack(pop)
 }
@@ -107,7 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: UnityEngine::AudioSettings::GetConfiguration
 // Il2CppName: GetConfiguration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AudioConfiguration (*)()>(&UnityEngine::AudioSettings::GetConfiguration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AudioConfiguration (*)()>(&UnityEngine::AudioSettings::GetConfiguration)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioSettings*), "GetConfiguration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -140,7 +140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Writing MetadataGetter for method: UnityEngine::AudioSettings::GetConfiguration_Injected
 // Il2CppName: GetConfiguration_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<UnityEngine::AudioConfiguration>)>(&UnityEngine::AudioSettings::GetConfiguration_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::AudioConfiguration>)>(&UnityEngine::AudioSettings::GetConfiguration_Injected)> {
   static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "AudioConfiguration")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioSettings*), "GetConfiguration_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});

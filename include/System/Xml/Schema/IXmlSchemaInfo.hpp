@@ -26,8 +26,8 @@ namespace System::Xml::Schema {
   class IXmlSchemaInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Schema::IXmlSchemaInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::IXmlSchemaInfo*, "System.Xml.Schema", "IXmlSchemaInfo");
+NEED_NO_BOX(::System::Xml::Schema::IXmlSchemaInfo);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::IXmlSchemaInfo*, "System.Xml.Schema", "IXmlSchemaInfo");
 // Type namespace: System.Xml.Schema
 namespace System::Xml::Schema {
   // Size: 0x10
@@ -38,7 +38,7 @@ namespace System::Xml::Schema {
     public:
     // public System.Xml.Schema.XmlSchemaValidity get_Validity()
     // Offset: 0xFFFFFFFF
-    System::Xml::Schema::XmlSchemaValidity get_Validity();
+    ::System::Xml::Schema::XmlSchemaValidity get_Validity();
     // public System.Boolean get_IsDefault()
     // Offset: 0xFFFFFFFF
     bool get_IsDefault();
@@ -47,16 +47,16 @@ namespace System::Xml::Schema {
     bool get_IsNil();
     // public System.Xml.Schema.XmlSchemaSimpleType get_MemberType()
     // Offset: 0xFFFFFFFF
-    System::Xml::Schema::XmlSchemaSimpleType* get_MemberType();
+    ::System::Xml::Schema::XmlSchemaSimpleType* get_MemberType();
     // public System.Xml.Schema.XmlSchemaType get_SchemaType()
     // Offset: 0xFFFFFFFF
-    System::Xml::Schema::XmlSchemaType* get_SchemaType();
+    ::System::Xml::Schema::XmlSchemaType* get_SchemaType();
     // public System.Xml.Schema.XmlSchemaElement get_SchemaElement()
     // Offset: 0xFFFFFFFF
-    System::Xml::Schema::XmlSchemaElement* get_SchemaElement();
+    ::System::Xml::Schema::XmlSchemaElement* get_SchemaElement();
     // public System.Xml.Schema.XmlSchemaAttribute get_SchemaAttribute()
     // Offset: 0xFFFFFFFF
-    System::Xml::Schema::XmlSchemaAttribute* get_SchemaAttribute();
+    ::System::Xml::Schema::XmlSchemaAttribute* get_SchemaAttribute();
   }; // System.Xml.Schema.IXmlSchemaInfo
   #pragma pack(pop)
 }
@@ -64,7 +64,7 @@ namespace System::Xml::Schema {
 // Writing MetadataGetter for method: System::Xml::Schema::IXmlSchemaInfo::get_Validity
 // Il2CppName: get_Validity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Schema::XmlSchemaValidity (System::Xml::Schema::IXmlSchemaInfo::*)()>(&System::Xml::Schema::IXmlSchemaInfo::get_Validity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaValidity (System::Xml::Schema::IXmlSchemaInfo::*)()>(&System::Xml::Schema::IXmlSchemaInfo::get_Validity)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::IXmlSchemaInfo*), "get_Validity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -88,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::IXmlSchemaInfo::get_MemberType
 // Il2CppName: get_MemberType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Schema::XmlSchemaSimpleType* (System::Xml::Schema::IXmlSchemaInfo::*)()>(&System::Xml::Schema::IXmlSchemaInfo::get_MemberType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaSimpleType* (System::Xml::Schema::IXmlSchemaInfo::*)()>(&System::Xml::Schema::IXmlSchemaInfo::get_MemberType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::IXmlSchemaInfo*), "get_MemberType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -96,7 +96,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Schema::IXmlSchemaInfo::get_SchemaType
 // Il2CppName: get_SchemaType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Schema::XmlSchemaType* (System::Xml::Schema::IXmlSchemaInfo::*)()>(&System::Xml::Schema::IXmlSchemaInfo::get_SchemaType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaType* (System::Xml::Schema::IXmlSchemaInfo::*)()>(&System::Xml::Schema::IXmlSchemaInfo::get_SchemaType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::IXmlSchemaInfo*), "get_SchemaType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -104,7 +104,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Schema::IXmlSchemaInfo::get_SchemaElement
 // Il2CppName: get_SchemaElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Schema::XmlSchemaElement* (System::Xml::Schema::IXmlSchemaInfo::*)()>(&System::Xml::Schema::IXmlSchemaInfo::get_SchemaElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaElement* (System::Xml::Schema::IXmlSchemaInfo::*)()>(&System::Xml::Schema::IXmlSchemaInfo::get_SchemaElement)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::IXmlSchemaInfo*), "get_SchemaElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -112,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Schema::IXmlSchemaInfo::get_SchemaAttribute
 // Il2CppName: get_SchemaAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Schema::XmlSchemaAttribute* (System::Xml::Schema::IXmlSchemaInfo::*)()>(&System::Xml::Schema::IXmlSchemaInfo::get_SchemaAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaAttribute* (System::Xml::Schema::IXmlSchemaInfo::*)()>(&System::Xml::Schema::IXmlSchemaInfo::get_SchemaAttribute)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::IXmlSchemaInfo*), "get_SchemaAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

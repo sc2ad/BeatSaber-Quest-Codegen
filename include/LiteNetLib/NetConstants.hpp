@@ -19,8 +19,8 @@ namespace LiteNetLib {
   class NetConstants;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(LiteNetLib::NetConstants);
-DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetConstants*, "LiteNetLib", "NetConstants");
+NEED_NO_BOX(::LiteNetLib::NetConstants);
+DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::NetConstants*, "LiteNetLib", "NetConstants");
 // Type namespace: LiteNetLib
 namespace LiteNetLib {
   // Size: 0x10

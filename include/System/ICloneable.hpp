@@ -14,8 +14,8 @@ namespace System {
   class ICloneable;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::ICloneable);
-DEFINE_IL2CPP_ARG_TYPE(System::ICloneable*, "System", "ICloneable");
+NEED_NO_BOX(::System::ICloneable);
+DEFINE_IL2CPP_ARG_TYPE(::System::ICloneable*, "System", "ICloneable");
 // Type namespace: System
 namespace System {
   // Size: 0x10

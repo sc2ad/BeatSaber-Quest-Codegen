@@ -12,8 +12,8 @@ namespace System::Xml::Serialization {
   class XmlMemberMapping;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Serialization::XmlMemberMapping);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Serialization::XmlMemberMapping*, "System.Xml.Serialization", "XmlMemberMapping");
+NEED_NO_BOX(::System::Xml::Serialization::XmlMemberMapping);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::XmlMemberMapping*, "System.Xml.Serialization", "XmlMemberMapping");
 // Type namespace: System.Xml.Serialization
 namespace System::Xml::Serialization {
   // Size: 0x10

@@ -39,8 +39,8 @@ namespace ModestTree {
   class MiscExtensions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(ModestTree::MiscExtensions);
-DEFINE_IL2CPP_ARG_TYPE(ModestTree::MiscExtensions*, "ModestTree", "MiscExtensions");
+NEED_NO_BOX(::ModestTree::MiscExtensions);
+DEFINE_IL2CPP_ARG_TYPE(::ModestTree::MiscExtensions*, "ModestTree", "MiscExtensions");
 // Type namespace: ModestTree
 namespace ModestTree {
   // Size: 0x10
@@ -56,20 +56,20 @@ namespace ModestTree {
     // static public System.Int32 IndexOf(System.Collections.Generic.IList`1<T> list, T item)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static int IndexOf(System::Collections::Generic::IList_1<T>* list, T item) {
-      static auto ___internal__logger = ::Logger::get().WithContext("ModestTree::MiscExtensions::IndexOf");
+    static int IndexOf(::System::Collections::Generic::IList_1<T>* list, T item) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::ModestTree::MiscExtensions::IndexOf");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "MiscExtensions", "IndexOf", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(list), ::il2cpp_utils::ExtractType(item)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<int, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, list, item);
     }
     // static public System.String Join(System.Collections.Generic.IEnumerable`1<System.String> values, System.String separator)
     // Offset: 0x16D10C0
-    static ::StringW Join(System::Collections::Generic::IEnumerable_1<::StringW>* values, ::StringW separator);
+    static ::StringW Join(::System::Collections::Generic::IEnumerable_1<::StringW>* values, ::StringW separator);
     // static public System.Void AllocFreeAddRange(System.Collections.Generic.IList`1<T> list, System.Collections.Generic.IList`1<T> items)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static void AllocFreeAddRange(System::Collections::Generic::IList_1<T>* list, System::Collections::Generic::IList_1<T>* items) {
-      static auto ___internal__logger = ::Logger::get().WithContext("ModestTree::MiscExtensions::AllocFreeAddRange");
+    static void AllocFreeAddRange(::System::Collections::Generic::IList_1<T>* list, ::System::Collections::Generic::IList_1<T>* items) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::ModestTree::MiscExtensions::AllocFreeAddRange");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "MiscExtensions", "AllocFreeAddRange", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(list), ::il2cpp_utils::ExtractType(items)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, list, items);
@@ -77,8 +77,8 @@ namespace ModestTree {
     // static public System.Void RemoveWithConfirm(System.Collections.Generic.IList`1<T> list, T item)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static void RemoveWithConfirm(System::Collections::Generic::IList_1<T>* list, T item) {
-      static auto ___internal__logger = ::Logger::get().WithContext("ModestTree::MiscExtensions::RemoveWithConfirm");
+    static void RemoveWithConfirm(::System::Collections::Generic::IList_1<T>* list, T item) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::ModestTree::MiscExtensions::RemoveWithConfirm");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "MiscExtensions", "RemoveWithConfirm", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(list), ::il2cpp_utils::ExtractType(item)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, list, item);
@@ -86,8 +86,8 @@ namespace ModestTree {
     // static public System.Void RemoveWithConfirm(System.Collections.Generic.LinkedList`1<T> list, T item)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static void RemoveWithConfirm(System::Collections::Generic::LinkedList_1<T>* list, T item) {
-      static auto ___internal__logger = ::Logger::get().WithContext("ModestTree::MiscExtensions::RemoveWithConfirm");
+    static void RemoveWithConfirm(::System::Collections::Generic::LinkedList_1<T>* list, T item) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::ModestTree::MiscExtensions::RemoveWithConfirm");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "MiscExtensions", "RemoveWithConfirm", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(list), ::il2cpp_utils::ExtractType(item)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, list, item);
@@ -95,8 +95,8 @@ namespace ModestTree {
     // static public System.Void RemoveWithConfirm(System.Collections.Generic.IDictionary`2<TKey,TVal> dictionary, TKey key)
     // Offset: 0xFFFFFFFF
     template<class TKey, class TVal>
-    static void RemoveWithConfirm(System::Collections::Generic::IDictionary_2<TKey, TVal>* dictionary, TKey key) {
-      static auto ___internal__logger = ::Logger::get().WithContext("ModestTree::MiscExtensions::RemoveWithConfirm");
+    static void RemoveWithConfirm(::System::Collections::Generic::IDictionary_2<TKey, TVal>* dictionary, TKey key) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::ModestTree::MiscExtensions::RemoveWithConfirm");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "MiscExtensions", "RemoveWithConfirm", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TVal>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(dictionary), ::il2cpp_utils::ExtractType(key)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TVal>::get()})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, dictionary, key);
@@ -104,8 +104,8 @@ namespace ModestTree {
     // static public System.Void RemoveWithConfirm(System.Collections.Generic.HashSet`1<T> set, T item)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static void RemoveWithConfirm(System::Collections::Generic::HashSet_1<T>* set, T item) {
-      static auto ___internal__logger = ::Logger::get().WithContext("ModestTree::MiscExtensions::RemoveWithConfirm");
+    static void RemoveWithConfirm(::System::Collections::Generic::HashSet_1<T>* set, T item) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::ModestTree::MiscExtensions::RemoveWithConfirm");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "MiscExtensions", "RemoveWithConfirm", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(set), ::il2cpp_utils::ExtractType(item)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, set, item);
@@ -113,8 +113,8 @@ namespace ModestTree {
     // static public TVal GetValueAndRemove(System.Collections.Generic.IDictionary`2<TKey,TVal> dictionary, TKey key)
     // Offset: 0xFFFFFFFF
     template<class TKey, class TVal>
-    static TVal GetValueAndRemove(System::Collections::Generic::IDictionary_2<TKey, TVal>* dictionary, TKey key) {
-      static auto ___internal__logger = ::Logger::get().WithContext("ModestTree::MiscExtensions::GetValueAndRemove");
+    static TVal GetValueAndRemove(::System::Collections::Generic::IDictionary_2<TKey, TVal>* dictionary, TKey key) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::ModestTree::MiscExtensions::GetValueAndRemove");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("ModestTree", "MiscExtensions", "GetValueAndRemove", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TVal>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(dictionary), ::il2cpp_utils::ExtractType(key)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TVal>::get()})));
       return ::il2cpp_utils::RunMethodRethrow<TVal, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, dictionary, key);
@@ -139,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: ModestTree::MiscExtensions::Join
 // Il2CppName: Join
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Collections::Generic::IEnumerable_1<::StringW>*, ::StringW)>(&ModestTree::MiscExtensions::Join)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Collections::Generic::IEnumerable_1<::StringW>*, ::StringW)>(&ModestTree::MiscExtensions::Join)> {
   static const MethodInfo* get() {
     static auto* values = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     static auto* separator = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

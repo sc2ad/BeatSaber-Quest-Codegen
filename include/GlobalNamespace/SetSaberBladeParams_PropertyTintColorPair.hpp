@@ -16,8 +16,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SetSaberBladeParams::PropertyTintColorPair);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SetSaberBladeParams::PropertyTintColorPair*, "", "SetSaberBladeParams/PropertyTintColorPair");
+NEED_NO_BOX(::GlobalNamespace::SetSaberBladeParams::PropertyTintColorPair);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SetSaberBladeParams::PropertyTintColorPair*, "", "SetSaberBladeParams/PropertyTintColorPair");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x28
@@ -38,9 +38,9 @@ namespace GlobalNamespace {
     // public UnityEngine.Color tintColor
     // Size: 0x10
     // Offset: 0x10
-    UnityEngine::Color tintColor;
+    ::UnityEngine::Color tintColor;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     // public System.String property
     // Size: 0x8
     // Offset: 0x20
@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.Color tintColor
-    UnityEngine::Color& dyn_tintColor();
+    ::UnityEngine::Color& dyn_tintColor();
     // Get instance field reference: public System.String property
     ::StringW& dyn_property();
     // public System.Void .ctor()
@@ -58,7 +58,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SetSaberBladeParams::PropertyTintColorPair* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SetSaberBladeParams::PropertyTintColorPair::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SetSaberBladeParams::PropertyTintColorPair::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SetSaberBladeParams::PropertyTintColorPair*, creationType>()));
     }
   }; // SetSaberBladeParams/PropertyTintColorPair

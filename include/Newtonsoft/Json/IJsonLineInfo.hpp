@@ -11,8 +11,8 @@ namespace Newtonsoft::Json {
   class IJsonLineInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::IJsonLineInfo);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::IJsonLineInfo*, "Newtonsoft.Json", "IJsonLineInfo");
+NEED_NO_BOX(::Newtonsoft::Json::IJsonLineInfo);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::IJsonLineInfo*, "Newtonsoft.Json", "IJsonLineInfo");
 // Type namespace: Newtonsoft.Json
 namespace Newtonsoft::Json {
   // Size: 0x10

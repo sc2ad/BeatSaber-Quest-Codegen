@@ -20,8 +20,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::LevelPackDetailViewController::$$c__DisplayClass16_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelPackDetailViewController::$$c__DisplayClass16_0*, "", "LevelPackDetailViewController/<>c__DisplayClass16_0");
+NEED_NO_BOX(::GlobalNamespace::LevelPackDetailViewController::$$c__DisplayClass16_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LevelPackDetailViewController::$$c__DisplayClass16_0*, "", "LevelPackDetailViewController/<>c__DisplayClass16_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -43,20 +43,20 @@ namespace GlobalNamespace {
     // public System.Action handleDidPressRefreshButton
     // Size: 0x8
     // Offset: 0x10
-    System::Action* handleDidPressRefreshButton;
+    ::System::Action* handleDidPressRefreshButton;
     // Field size check
-    static_assert(sizeof(System::Action*) == 0x8);
+    static_assert(sizeof(::System::Action*) == 0x8);
     // public LevelPackDetailViewController <>4__this
     // Size: 0x8
     // Offset: 0x18
-    GlobalNamespace::LevelPackDetailViewController* $$4__this;
+    ::GlobalNamespace::LevelPackDetailViewController* $$4__this;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::LevelPackDetailViewController*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::LevelPackDetailViewController*) == 0x8);
     public:
     // Get instance field reference: public System.Action handleDidPressRefreshButton
-    System::Action*& dyn_handleDidPressRefreshButton();
+    ::System::Action*& dyn_handleDidPressRefreshButton();
     // Get instance field reference: public LevelPackDetailViewController <>4__this
-    GlobalNamespace::LevelPackDetailViewController*& dyn_$$4__this();
+    ::GlobalNamespace::LevelPackDetailViewController*& dyn_$$4__this();
     // System.Void <DidActivate>b__1()
     // Offset: 0x147750C
     void $DidActivate$b__1();
@@ -69,12 +69,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelPackDetailViewController::$$c__DisplayClass16_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LevelPackDetailViewController::$$c__DisplayClass16_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LevelPackDetailViewController::$$c__DisplayClass16_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelPackDetailViewController::$$c__DisplayClass16_0*, creationType>()));
     }
   }; // LevelPackDetailViewController/<>c__DisplayClass16_0
   #pragma pack(pop)
-  static check_size<sizeof(LevelPackDetailViewController::$$c__DisplayClass16_0), 24 + sizeof(GlobalNamespace::LevelPackDetailViewController*)> __GlobalNamespace_LevelPackDetailViewController_$$c__DisplayClass16_0SizeCheck;
+  static check_size<sizeof(LevelPackDetailViewController::$$c__DisplayClass16_0), 24 + sizeof(::GlobalNamespace::LevelPackDetailViewController*)> __GlobalNamespace_LevelPackDetailViewController_$$c__DisplayClass16_0SizeCheck;
   static_assert(sizeof(LevelPackDetailViewController::$$c__DisplayClass16_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

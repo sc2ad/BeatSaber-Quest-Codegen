@@ -61,8 +61,8 @@ namespace HMUI {
   class InputFieldDataBinder;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HMUI::InputFieldDataBinder);
-DEFINE_IL2CPP_ARG_TYPE(HMUI::InputFieldDataBinder*, "HMUI", "InputFieldDataBinder");
+NEED_NO_BOX(::HMUI::InputFieldDataBinder);
+DEFINE_IL2CPP_ARG_TYPE(::HMUI::InputFieldDataBinder*, "HMUI", "InputFieldDataBinder");
 // Type namespace: HMUI
 namespace HMUI {
   // Size: 0x18
@@ -71,10 +71,10 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class InputFieldDataBinder : public ::Il2CppObject {
     public:
-    // Nested type: HMUI::InputFieldDataBinder::$$c__DisplayClass2_0_2<T0, T1>
+    // Nested type: ::HMUI::InputFieldDataBinder::$$c__DisplayClass2_0_2<T0, T1>
     template<typename T0, typename T1>
     class $$c__DisplayClass2_0_2;
-    // Nested type: HMUI::InputFieldDataBinder::$$c__3_1<T>
+    // Nested type: ::HMUI::InputFieldDataBinder::$$c__3_1<T>
     template<typename T>
     class $$c__3_1;
     #ifdef USE_CODEGEN_FIELDS
@@ -89,22 +89,22 @@ namespace HMUI {
     // private System.Collections.Generic.List`1<System.Tuple`4<UnityEngine.UI.InputField,IObservableChange,UnityEngine.Events.UnityAction`1<System.String>,System.Action>> _bindings
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::List_1<System::Tuple_4<UnityEngine::UI::InputField*, GlobalNamespace::IObservableChange*, UnityEngine::Events::UnityAction_1<::StringW>*, System::Action*>*>* bindings;
+    ::System::Collections::Generic::List_1<::System::Tuple_4<::UnityEngine::UI::InputField*, ::GlobalNamespace::IObservableChange*, ::UnityEngine::Events::UnityAction_1<::StringW>*, ::System::Action*>*>* bindings;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<System::Tuple_4<UnityEngine::UI::InputField*, GlobalNamespace::IObservableChange*, UnityEngine::Events::UnityAction_1<::StringW>*, System::Action*>*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::System::Tuple_4<::UnityEngine::UI::InputField*, ::GlobalNamespace::IObservableChange*, ::UnityEngine::Events::UnityAction_1<::StringW>*, ::System::Action*>*>*) == 0x8);
     public:
-    // Creating conversion operator: operator System::Collections::Generic::List_1<System::Tuple_4<UnityEngine::UI::InputField*, GlobalNamespace::IObservableChange*, UnityEngine::Events::UnityAction_1<::StringW>*, System::Action*>*>*
-    constexpr operator System::Collections::Generic::List_1<System::Tuple_4<UnityEngine::UI::InputField*, GlobalNamespace::IObservableChange*, UnityEngine::Events::UnityAction_1<::StringW>*, System::Action*>*>*() const noexcept {
+    // Creating conversion operator: operator ::System::Collections::Generic::List_1<::System::Tuple_4<::UnityEngine::UI::InputField*, ::GlobalNamespace::IObservableChange*, ::UnityEngine::Events::UnityAction_1<::StringW>*, ::System::Action*>*>*
+    constexpr operator ::System::Collections::Generic::List_1<::System::Tuple_4<::UnityEngine::UI::InputField*, ::GlobalNamespace::IObservableChange*, ::UnityEngine::Events::UnityAction_1<::StringW>*, ::System::Action*>*>*() const noexcept {
       return bindings;
     }
     // Get instance field reference: private System.Collections.Generic.List`1<System.Tuple`4<UnityEngine.UI.InputField,IObservableChange,UnityEngine.Events.UnityAction`1<System.String>,System.Action>> _bindings
-    System::Collections::Generic::List_1<System::Tuple_4<UnityEngine::UI::InputField*, GlobalNamespace::IObservableChange*, UnityEngine::Events::UnityAction_1<::StringW>*, System::Action*>*>*& dyn__bindings();
+    ::System::Collections::Generic::List_1<::System::Tuple_4<::UnityEngine::UI::InputField*, ::GlobalNamespace::IObservableChange*, ::UnityEngine::Events::UnityAction_1<::StringW>*, ::System::Action*>*>*& dyn__bindings();
     // public System.Void AddBindings(System.Collections.Generic.List`1<System.Tuple`4<UnityEngine.UI.InputField,T0,System.Func`2<System.String,T1>,System.Func`2<T1,System.String>>> bindingData)
     // Offset: 0xFFFFFFFF
     template<class T0, class T1>
-    void AddBindings(System::Collections::Generic::List_1<System::Tuple_4<UnityEngine::UI::InputField*, T0, System::Func_2<::StringW, T1>*, System::Func_2<T1, ::StringW>*>*>* bindingData) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<T0>, GlobalNamespace::IObservableChange> && std::is_convertible_v<std::remove_pointer_t<T0>, GlobalNamespace::IValue_1<T1>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::InputFieldDataBinder::AddBindings");
+    void AddBindings(::System::Collections::Generic::List_1<::System::Tuple_4<::UnityEngine::UI::InputField*, T0, ::System::Func_2<::StringW, T1>*, ::System::Func_2<T1, ::StringW>*>*>* bindingData) {
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T0>, ::GlobalNamespace::IObservableChange> && std::is_convertible_v<std::remove_pointer_t<T0>, ::GlobalNamespace::IValue_1<T1>>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::InputFieldDataBinder::AddBindings");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "AddBindings", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T0>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(bindingData)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T0>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get()})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, bindingData);
@@ -112,9 +112,9 @@ namespace HMUI {
     // public System.Void AddStringBindings(System.Collections.Generic.List`1<System.Tuple`2<UnityEngine.UI.InputField,T>> bindingData)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void AddStringBindings(System::Collections::Generic::List_1<System::Tuple_2<UnityEngine::UI::InputField*, T>*>* bindingData) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, GlobalNamespace::IObservableChange> && std::is_convertible_v<std::remove_pointer_t<T>, GlobalNamespace::IValue_1<::StringW>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::InputFieldDataBinder::AddStringBindings");
+    void AddStringBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityEngine::UI::InputField*, T>*>* bindingData) {
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::GlobalNamespace::IObservableChange> && std::is_convertible_v<std::remove_pointer_t<T>, ::GlobalNamespace::IValue_1<::StringW>>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::InputFieldDataBinder::AddStringBindings");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "AddStringBindings", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(bindingData)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, bindingData);
@@ -128,12 +128,12 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InputFieldDataBinder* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::InputFieldDataBinder::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::InputFieldDataBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InputFieldDataBinder*, creationType>()));
     }
   }; // HMUI.InputFieldDataBinder
   #pragma pack(pop)
-  static check_size<sizeof(InputFieldDataBinder), 16 + sizeof(System::Collections::Generic::List_1<System::Tuple_4<UnityEngine::UI::InputField*, GlobalNamespace::IObservableChange*, UnityEngine::Events::UnityAction_1<::StringW>*, System::Action*>*>*)> __HMUI_InputFieldDataBinderSizeCheck;
+  static check_size<sizeof(InputFieldDataBinder), 16 + sizeof(::System::Collections::Generic::List_1<::System::Tuple_4<::UnityEngine::UI::InputField*, ::GlobalNamespace::IObservableChange*, ::UnityEngine::Events::UnityAction_1<::StringW>*, ::System::Action*>*>*)> __HMUI_InputFieldDataBinderSizeCheck;
   static_assert(sizeof(InputFieldDataBinder) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

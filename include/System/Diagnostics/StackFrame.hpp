@@ -26,8 +26,8 @@ namespace System::Diagnostics {
   class StackFrame;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Diagnostics::StackFrame);
-DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::StackFrame*, "System.Diagnostics", "StackFrame");
+NEED_NO_BOX(::System::Diagnostics::StackFrame);
+DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::StackFrame*, "System.Diagnostics", "StackFrame");
 // Type namespace: System.Diagnostics
 namespace System::Diagnostics {
   // Size: 0x48
@@ -77,9 +77,9 @@ namespace System::Diagnostics {
     // private System.Reflection.MethodBase methodBase
     // Size: 0x8
     // Offset: 0x28
-    System::Reflection::MethodBase* methodBase;
+    ::System::Reflection::MethodBase* methodBase;
     // Field size check
-    static_assert(sizeof(System::Reflection::MethodBase*) == 0x8);
+    static_assert(sizeof(::System::Reflection::MethodBase*) == 0x8);
     // private System.String fileName
     // Size: 0x8
     // Offset: 0x30
@@ -120,7 +120,7 @@ namespace System::Diagnostics {
     // Get instance field reference: private System.UInt32 methodIndex
     uint& dyn_methodIndex();
     // Get instance field reference: private System.Reflection.MethodBase methodBase
-    System::Reflection::MethodBase*& dyn_methodBase();
+    ::System::Reflection::MethodBase*& dyn_methodBase();
     // Get instance field reference: private System.String fileName
     ::StringW& dyn_fileName();
     // Get instance field reference: private System.Int32 lineNumber
@@ -133,12 +133,12 @@ namespace System::Diagnostics {
     // Offset: 0x1880178
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StackFrame* New_ctor(int skipFrames, bool fNeedFileInfo) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::StackFrame::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Diagnostics::StackFrame::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StackFrame*, creationType>(skipFrames, fNeedFileInfo)));
     }
     // static private System.Boolean get_frame_info(System.Int32 skip, System.Boolean needFileInfo, out System.Reflection.MethodBase method, out System.Int32 iloffset, out System.Int32 native_offset, out System.String file, out System.Int32 line, out System.Int32 column)
     // Offset: 0x1880114
-    static bool get_frame_info(int skip, bool needFileInfo, ByRef<System::Reflection::MethodBase*> method, ByRef<int> iloffset, ByRef<int> native_offset, ByRef<::StringW> file, ByRef<int> line, ByRef<int> column);
+    static bool get_frame_info(int skip, bool needFileInfo, ByRef<::System::Reflection::MethodBase*> method, ByRef<int> iloffset, ByRef<int> native_offset, ByRef<::StringW> file, ByRef<int> line, ByRef<int> column);
     // public System.Int32 GetFileLineNumber()
     // Offset: 0x18801E4
     int GetFileLineNumber();
@@ -153,7 +153,7 @@ namespace System::Diagnostics {
     int GetILOffset();
     // public System.Reflection.MethodBase GetMethod()
     // Offset: 0x18802D8
-    System::Reflection::MethodBase* GetMethod();
+    ::System::Reflection::MethodBase* GetMethod();
     // public System.Int32 GetNativeOffset()
     // Offset: 0x18802E0
     int GetNativeOffset();
@@ -172,7 +172,7 @@ namespace System::Diagnostics {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StackFrame* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::StackFrame::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Diagnostics::StackFrame::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StackFrame*, creationType>()));
     }
     // public override System.String ToString()
@@ -193,7 +193,7 @@ namespace System::Diagnostics {
 // Writing MetadataGetter for method: System::Diagnostics::StackFrame::get_frame_info
 // Il2CppName: get_frame_info
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, bool, ByRef<System::Reflection::MethodBase*>, ByRef<int>, ByRef<int>, ByRef<::StringW>, ByRef<int>, ByRef<int>)>(&System::Diagnostics::StackFrame::get_frame_info)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, bool, ByRef<::System::Reflection::MethodBase*>, ByRef<int>, ByRef<int>, ByRef<::StringW>, ByRef<int>, ByRef<int>)>(&System::Diagnostics::StackFrame::get_frame_info)> {
   static const MethodInfo* get() {
     static auto* skip = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* needFileInfo = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -241,7 +241,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Diagnostics::StackFrame::GetMethod
 // Il2CppName: GetMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodBase* (System::Diagnostics::StackFrame::*)()>(&System::Diagnostics::StackFrame::GetMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodBase* (System::Diagnostics::StackFrame::*)()>(&System::Diagnostics::StackFrame::GetMethod)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::StackFrame*), "GetMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

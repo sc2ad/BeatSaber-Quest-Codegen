@@ -25,8 +25,8 @@ namespace UnityEngine {
   class Light;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Light);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Light*, "UnityEngine", "Light");
+NEED_NO_BOX(::UnityEngine::Light);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Light*, "UnityEngine", "Light");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x1C
@@ -37,7 +37,7 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: 11A4918
   // [RequireComponent] Offset: 11A4918
   // [NativeHeaderAttribute] Offset: 11A4918
-  class Light : public UnityEngine::Behaviour {
+  class Light : public ::UnityEngine::Behaviour {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -55,22 +55,22 @@ namespace UnityEngine {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     public:
-    // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const noexcept = delete;
+    // Deleting conversion operator: operator ::System::IntPtr
+    constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Int32 m_BakedIndex
     int& dyn_m_BakedIndex();
     // public UnityEngine.LightType get_type()
     // Offset: 0x202965C
-    UnityEngine::LightType get_type();
+    ::UnityEngine::LightType get_type();
     // public System.Single get_spotAngle()
     // Offset: 0x202969C
     float get_spotAngle();
     // public UnityEngine.Color get_color()
     // Offset: 0x20296DC
-    UnityEngine::Color get_color();
+    ::UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
     // Offset: 0x2029788
-    void set_color(UnityEngine::Color value);
+    void set_color(::UnityEngine::Color value);
     // public System.Single get_intensity()
     // Offset: 0x2029830
     float get_intensity();
@@ -85,13 +85,13 @@ namespace UnityEngine {
     float get_range();
     // public UnityEngine.LightShadows get_shadows()
     // Offset: 0x2029940
-    UnityEngine::LightShadows get_shadows();
+    ::UnityEngine::LightShadows get_shadows();
     // private System.Void get_color_Injected(out UnityEngine.Color ret)
     // Offset: 0x2029738
-    void get_color_Injected(ByRef<UnityEngine::Color> ret);
+    void get_color_Injected(ByRef<::UnityEngine::Color> ret);
     // private System.Void set_color_Injected(ref UnityEngine.Color value)
     // Offset: 0x20297E0
-    void set_color_Injected(ByRef<UnityEngine::Color> value);
+    void set_color_Injected(ByRef<::UnityEngine::Color> value);
   }; // UnityEngine.Light
   #pragma pack(pop)
   static check_size<sizeof(Light), 24 + sizeof(int)> __UnityEngine_LightSizeCheck;
@@ -101,7 +101,7 @@ namespace UnityEngine {
 // Writing MetadataGetter for method: UnityEngine::Light::get_type
 // Il2CppName: get_type
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LightType (UnityEngine::Light::*)()>(&UnityEngine::Light::get_type)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::LightType (UnityEngine::Light::*)()>(&UnityEngine::Light::get_type)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Light*), "get_type", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -117,7 +117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Writing MetadataGetter for method: UnityEngine::Light::get_color
 // Il2CppName: get_color
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (UnityEngine::Light::*)()>(&UnityEngine::Light::get_color)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (UnityEngine::Light::*)()>(&UnityEngine::Light::get_color)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Light*), "get_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -125,7 +125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Light::set_color
 // Il2CppName: set_color
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Light::*)(UnityEngine::Color)>(&UnityEngine::Light::set_color)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Light::*)(::UnityEngine::Color)>(&UnityEngine::Light::set_color)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Light*), "set_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -167,7 +167,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Writing MetadataGetter for method: UnityEngine::Light::get_shadows
 // Il2CppName: get_shadows
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LightShadows (UnityEngine::Light::*)()>(&UnityEngine::Light::get_shadows)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::LightShadows (UnityEngine::Light::*)()>(&UnityEngine::Light::get_shadows)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Light*), "get_shadows", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -175,7 +175,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Light::get_color_Injected
 // Il2CppName: get_color_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Light::*)(ByRef<UnityEngine::Color>)>(&UnityEngine::Light::get_color_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Light::*)(ByRef<::UnityEngine::Color>)>(&UnityEngine::Light::get_color_Injected)> {
   static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Light*), "get_color_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
@@ -184,7 +184,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Light::set_color_Injected
 // Il2CppName: set_color_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Light::*)(ByRef<UnityEngine::Color>)>(&UnityEngine::Light::set_color_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Light::*)(ByRef<::UnityEngine::Color>)>(&UnityEngine::Light::set_color_Injected)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Light*), "set_color_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

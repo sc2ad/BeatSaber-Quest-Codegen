@@ -25,8 +25,8 @@ namespace GlobalNamespace {
   class IMediaAsyncLoader;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::IMediaAsyncLoader);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IMediaAsyncLoader*, "", "IMediaAsyncLoader");
+NEED_NO_BOX(::GlobalNamespace::IMediaAsyncLoader);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IMediaAsyncLoader*, "", "IMediaAsyncLoader");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     public:
     // public System.Threading.Tasks.Task`1<UnityEngine.AudioClip> LoadAudioClipFromFilePathAsync(System.String filePath)
     // Offset: 0xFFFFFFFF
-    System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* LoadAudioClipFromFilePathAsync(::StringW filePath);
+    ::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>* LoadAudioClipFromFilePathAsync(::StringW filePath);
   }; // IMediaAsyncLoader
   #pragma pack(pop)
 }
@@ -45,7 +45,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::IMediaAsyncLoader::LoadAudioClipFromFilePathAsync
 // Il2CppName: LoadAudioClipFromFilePathAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* (GlobalNamespace::IMediaAsyncLoader::*)(::StringW)>(&GlobalNamespace::IMediaAsyncLoader::LoadAudioClipFromFilePathAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>* (GlobalNamespace::IMediaAsyncLoader::*)(::StringW)>(&GlobalNamespace::IMediaAsyncLoader::LoadAudioClipFromFilePathAsync)> {
   static const MethodInfo* get() {
     static auto* filePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMediaAsyncLoader*), "LoadAudioClipFromFilePathAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{filePath});

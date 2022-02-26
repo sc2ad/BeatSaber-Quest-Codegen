@@ -14,8 +14,8 @@ namespace UnityEngine::Animations {
   class NotKeyableAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Animations::NotKeyableAttribute);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::NotKeyableAttribute*, "UnityEngine.Animations", "NotKeyableAttribute");
+NEED_NO_BOX(::UnityEngine::Animations::NotKeyableAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Animations::NotKeyableAttribute*, "UnityEngine.Animations", "NotKeyableAttribute");
 // Type namespace: UnityEngine.Animations
 namespace UnityEngine::Animations {
   // Size: 0x10
@@ -24,7 +24,7 @@ namespace UnityEngine::Animations {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AttributeUsageAttribute] Offset: 11BFB8C
   // [RequiredByNativeCodeAttribute] Offset: 11BFB8C
-  class NotKeyableAttribute : public System::Attribute {
+  class NotKeyableAttribute : public ::System::Attribute {
     public:
   }; // UnityEngine.Animations.NotKeyableAttribute
   #pragma pack(pop)

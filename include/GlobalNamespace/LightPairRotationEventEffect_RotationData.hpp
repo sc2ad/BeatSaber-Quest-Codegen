@@ -22,8 +22,8 @@ namespace UnityEngine {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::LightPairRotationEventEffect::RotationData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightPairRotationEventEffect::RotationData*, "", "LightPairRotationEventEffect/RotationData");
+NEED_NO_BOX(::GlobalNamespace::LightPairRotationEventEffect::RotationData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LightPairRotationEventEffect::RotationData*, "", "LightPairRotationEventEffect/RotationData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x38
@@ -58,15 +58,15 @@ namespace GlobalNamespace {
     // public UnityEngine.Quaternion startRotation
     // Size: 0x10
     // Offset: 0x18
-    UnityEngine::Quaternion startRotation;
+    ::UnityEngine::Quaternion startRotation;
     // Field size check
-    static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    static_assert(sizeof(::UnityEngine::Quaternion) == 0x10);
     // public UnityEngine.Transform transform
     // Size: 0x8
     // Offset: 0x28
-    UnityEngine::Transform* transform;
+    ::UnityEngine::Transform* transform;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // public System.Single startRotationAngle
     // Size: 0x4
     // Offset: 0x30
@@ -85,9 +85,9 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single rotationSpeed
     float& dyn_rotationSpeed();
     // Get instance field reference: public UnityEngine.Quaternion startRotation
-    UnityEngine::Quaternion& dyn_startRotation();
+    ::UnityEngine::Quaternion& dyn_startRotation();
     // Get instance field reference: public UnityEngine.Transform transform
-    UnityEngine::Transform*& dyn_transform();
+    ::UnityEngine::Transform*& dyn_transform();
     // Get instance field reference: public System.Single startRotationAngle
     float& dyn_startRotationAngle();
     // Get instance field reference: public System.Single rotationAngle
@@ -98,7 +98,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightPairRotationEventEffect::RotationData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LightPairRotationEventEffect::RotationData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightPairRotationEventEffect::RotationData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightPairRotationEventEffect::RotationData*, creationType>()));
     }
   }; // LightPairRotationEventEffect/RotationData

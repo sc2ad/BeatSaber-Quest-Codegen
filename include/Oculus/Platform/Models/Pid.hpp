@@ -19,8 +19,8 @@ namespace Oculus::Platform::Models {
   class Pid;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::Pid);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::Pid*, "Oculus.Platform.Models", "Pid");
+NEED_NO_BOX(::Oculus::Platform::Models::Pid);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::Pid*, "Oculus.Platform.Models", "Pid");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x18
@@ -54,8 +54,8 @@ namespace Oculus::Platform::Models {
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x196DE9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Pid* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::Pid::.ctor");
+    static Pid* New_ctor(::System::IntPtr o) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::Pid::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Pid*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.Pid

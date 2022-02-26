@@ -17,8 +17,8 @@ namespace GlobalNamespace {
   class PerlinNoise;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PerlinNoise);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PerlinNoise*, "", "PerlinNoise");
+NEED_NO_BOX(::GlobalNamespace::PerlinNoise);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PerlinNoise*, "", "PerlinNoise");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -64,7 +64,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PerlinNoise* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PerlinNoise::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PerlinNoise::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PerlinNoise*, creationType>()));
     }
   }; // PerlinNoise

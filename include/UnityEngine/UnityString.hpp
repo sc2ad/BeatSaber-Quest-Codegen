@@ -15,8 +15,8 @@ namespace UnityEngine {
   class UnityString;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::UnityString);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnityString*, "UnityEngine", "UnityString");
+NEED_NO_BOX(::UnityEngine::UnityString);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UnityString*, "UnityEngine", "UnityString");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10

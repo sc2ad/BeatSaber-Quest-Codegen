@@ -35,8 +35,8 @@ namespace System::Xml::Schema {
   class XmlValueConverter;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Schema::XmlValueConverter);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::XmlValueConverter*, "System.Xml.Schema", "XmlValueConverter");
+NEED_NO_BOX(::System::Xml::Schema::XmlValueConverter);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XmlValueConverter*, "System.Xml.Schema", "XmlValueConverter");
 // Type namespace: System.Xml.Schema
 namespace System::Xml::Schema {
   // Size: 0x10
@@ -56,7 +56,7 @@ namespace System::Xml::Schema {
     bool ToBoolean(double value);
     // public System.Boolean ToBoolean(System.DateTime value)
     // Offset: 0xFFFFFFFF
-    bool ToBoolean(System::DateTime value);
+    bool ToBoolean(::System::DateTime value);
     // public System.Boolean ToBoolean(System.String value)
     // Offset: 0xFFFFFFFF
     bool ToBoolean(::StringW value);
@@ -74,7 +74,7 @@ namespace System::Xml::Schema {
     int ToInt32(double value);
     // public System.Int32 ToInt32(System.DateTime value)
     // Offset: 0xFFFFFFFF
-    int ToInt32(System::DateTime value);
+    int ToInt32(::System::DateTime value);
     // public System.Int32 ToInt32(System.String value)
     // Offset: 0xFFFFFFFF
     int ToInt32(::StringW value);
@@ -92,7 +92,7 @@ namespace System::Xml::Schema {
     int64_t ToInt64(double value);
     // public System.Int64 ToInt64(System.DateTime value)
     // Offset: 0xFFFFFFFF
-    int64_t ToInt64(System::DateTime value);
+    int64_t ToInt64(::System::DateTime value);
     // public System.Int64 ToInt64(System.String value)
     // Offset: 0xFFFFFFFF
     int64_t ToInt64(::StringW value);
@@ -101,10 +101,10 @@ namespace System::Xml::Schema {
     int64_t ToInt64(::Il2CppObject* value);
     // public System.Decimal ToDecimal(System.String value)
     // Offset: 0xFFFFFFFF
-    System::Decimal ToDecimal(::StringW value);
+    ::System::Decimal ToDecimal(::StringW value);
     // public System.Decimal ToDecimal(System.Object value)
     // Offset: 0xFFFFFFFF
-    System::Decimal ToDecimal(::Il2CppObject* value);
+    ::System::Decimal ToDecimal(::Il2CppObject* value);
     // public System.Double ToDouble(System.Boolean value)
     // Offset: 0xFFFFFFFF
     double ToDouble(bool value);
@@ -116,7 +116,7 @@ namespace System::Xml::Schema {
     double ToDouble(int64_t value);
     // public System.Double ToDouble(System.DateTime value)
     // Offset: 0xFFFFFFFF
-    double ToDouble(System::DateTime value);
+    double ToDouble(::System::DateTime value);
     // public System.Double ToDouble(System.String value)
     // Offset: 0xFFFFFFFF
     double ToDouble(::StringW value);
@@ -134,34 +134,34 @@ namespace System::Xml::Schema {
     float ToSingle(::Il2CppObject* value);
     // public System.DateTime ToDateTime(System.Boolean value)
     // Offset: 0xFFFFFFFF
-    System::DateTime ToDateTime(bool value);
+    ::System::DateTime ToDateTime(bool value);
     // public System.DateTime ToDateTime(System.Int32 value)
     // Offset: 0xFFFFFFFF
-    System::DateTime ToDateTime(int value);
+    ::System::DateTime ToDateTime(int value);
     // public System.DateTime ToDateTime(System.Int64 value)
     // Offset: 0xFFFFFFFF
-    System::DateTime ToDateTime(int64_t value);
+    ::System::DateTime ToDateTime(int64_t value);
     // public System.DateTime ToDateTime(System.Double value)
     // Offset: 0xFFFFFFFF
-    System::DateTime ToDateTime(double value);
+    ::System::DateTime ToDateTime(double value);
     // public System.DateTime ToDateTime(System.DateTimeOffset value)
     // Offset: 0xFFFFFFFF
-    System::DateTime ToDateTime(System::DateTimeOffset value);
+    ::System::DateTime ToDateTime(::System::DateTimeOffset value);
     // public System.DateTime ToDateTime(System.String value)
     // Offset: 0xFFFFFFFF
-    System::DateTime ToDateTime(::StringW value);
+    ::System::DateTime ToDateTime(::StringW value);
     // public System.DateTime ToDateTime(System.Object value)
     // Offset: 0xFFFFFFFF
-    System::DateTime ToDateTime(::Il2CppObject* value);
+    ::System::DateTime ToDateTime(::Il2CppObject* value);
     // public System.DateTimeOffset ToDateTimeOffset(System.DateTime value)
     // Offset: 0xFFFFFFFF
-    System::DateTimeOffset ToDateTimeOffset(System::DateTime value);
+    ::System::DateTimeOffset ToDateTimeOffset(::System::DateTime value);
     // public System.DateTimeOffset ToDateTimeOffset(System.String value)
     // Offset: 0xFFFFFFFF
-    System::DateTimeOffset ToDateTimeOffset(::StringW value);
+    ::System::DateTimeOffset ToDateTimeOffset(::StringW value);
     // public System.DateTimeOffset ToDateTimeOffset(System.Object value)
     // Offset: 0xFFFFFFFF
-    System::DateTimeOffset ToDateTimeOffset(::Il2CppObject* value);
+    ::System::DateTimeOffset ToDateTimeOffset(::Il2CppObject* value);
     // public System.String ToString(System.Boolean value)
     // Offset: 0xFFFFFFFF
     ::StringW ToString(bool value);
@@ -173,7 +173,7 @@ namespace System::Xml::Schema {
     ::StringW ToString(int64_t value);
     // public System.String ToString(System.Decimal value)
     // Offset: 0xFFFFFFFF
-    ::StringW ToString(System::Decimal value);
+    ::StringW ToString(::System::Decimal value);
     // public System.String ToString(System.Single value)
     // Offset: 0xFFFFFFFF
     ::StringW ToString(float value);
@@ -182,50 +182,50 @@ namespace System::Xml::Schema {
     ::StringW ToString(double value);
     // public System.String ToString(System.DateTime value)
     // Offset: 0xFFFFFFFF
-    ::StringW ToString(System::DateTime value);
+    ::StringW ToString(::System::DateTime value);
     // public System.String ToString(System.DateTimeOffset value)
     // Offset: 0xFFFFFFFF
-    ::StringW ToString(System::DateTimeOffset value);
+    ::StringW ToString(::System::DateTimeOffset value);
     // public System.String ToString(System.Object value)
     // Offset: 0xFFFFFFFF
     ::StringW ToString(::Il2CppObject* value);
     // public System.String ToString(System.Object value, System.Xml.IXmlNamespaceResolver nsResolver)
     // Offset: 0xFFFFFFFF
-    ::StringW ToString(::Il2CppObject* value, System::Xml::IXmlNamespaceResolver* nsResolver);
+    ::StringW ToString(::Il2CppObject* value, ::System::Xml::IXmlNamespaceResolver* nsResolver);
     // public System.Object ChangeType(System.Boolean value, System.Type destinationType)
     // Offset: 0xFFFFFFFF
-    ::Il2CppObject* ChangeType(bool value, System::Type* destinationType);
+    ::Il2CppObject* ChangeType(bool value, ::System::Type* destinationType);
     // public System.Object ChangeType(System.Int32 value, System.Type destinationType)
     // Offset: 0xFFFFFFFF
-    ::Il2CppObject* ChangeType(int value, System::Type* destinationType);
+    ::Il2CppObject* ChangeType(int value, ::System::Type* destinationType);
     // public System.Object ChangeType(System.Int64 value, System.Type destinationType)
     // Offset: 0xFFFFFFFF
-    ::Il2CppObject* ChangeType(int64_t value, System::Type* destinationType);
+    ::Il2CppObject* ChangeType(int64_t value, ::System::Type* destinationType);
     // public System.Object ChangeType(System.Decimal value, System.Type destinationType)
     // Offset: 0xFFFFFFFF
-    ::Il2CppObject* ChangeType(System::Decimal value, System::Type* destinationType);
+    ::Il2CppObject* ChangeType(::System::Decimal value, ::System::Type* destinationType);
     // public System.Object ChangeType(System.Double value, System.Type destinationType)
     // Offset: 0xFFFFFFFF
-    ::Il2CppObject* ChangeType(double value, System::Type* destinationType);
+    ::Il2CppObject* ChangeType(double value, ::System::Type* destinationType);
     // public System.Object ChangeType(System.DateTime value, System.Type destinationType)
     // Offset: 0xFFFFFFFF
-    ::Il2CppObject* ChangeType(System::DateTime value, System::Type* destinationType);
+    ::Il2CppObject* ChangeType(::System::DateTime value, ::System::Type* destinationType);
     // public System.Object ChangeType(System.String value, System.Type destinationType, System.Xml.IXmlNamespaceResolver nsResolver)
     // Offset: 0xFFFFFFFF
-    ::Il2CppObject* ChangeType(::StringW value, System::Type* destinationType, System::Xml::IXmlNamespaceResolver* nsResolver);
+    ::Il2CppObject* ChangeType(::StringW value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
     // public System.Object ChangeType(System.Object value, System.Type destinationType)
     // Offset: 0xFFFFFFFF
-    ::Il2CppObject* ChangeType(::Il2CppObject* value, System::Type* destinationType);
+    ::Il2CppObject* ChangeType(::Il2CppObject* value, ::System::Type* destinationType);
     // public System.Object ChangeType(System.Object value, System.Type destinationType, System.Xml.IXmlNamespaceResolver nsResolver)
     // Offset: 0xFFFFFFFF
-    ::Il2CppObject* ChangeType(::Il2CppObject* value, System::Type* destinationType, System::Xml::IXmlNamespaceResolver* nsResolver);
+    ::Il2CppObject* ChangeType(::Il2CppObject* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
     // protected System.Void .ctor()
     // Offset: 0x1551364
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlValueConverter* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Schema::XmlValueConverter::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlValueConverter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlValueConverter*, creationType>()));
     }
   }; // System.Xml.Schema.XmlValueConverter
@@ -262,7 +262,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::XmlValueConverter::ToBoolean
 // Il2CppName: ToBoolean
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::Schema::XmlValueConverter::*)(System::DateTime)>(&System::Xml::Schema::XmlValueConverter::ToBoolean)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::Schema::XmlValueConverter::*)(::System::DateTime)>(&System::Xml::Schema::XmlValueConverter::ToBoolean)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlValueConverter*), "ToBoolean", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -316,7 +316,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Xml::Schema::XmlValueConverter::ToInt32
 // Il2CppName: ToInt32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Xml::Schema::XmlValueConverter::*)(System::DateTime)>(&System::Xml::Schema::XmlValueConverter::ToInt32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Xml::Schema::XmlValueConverter::*)(::System::DateTime)>(&System::Xml::Schema::XmlValueConverter::ToInt32)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlValueConverter*), "ToInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -370,7 +370,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Sy
 // Writing MetadataGetter for method: System::Xml::Schema::XmlValueConverter::ToInt64
 // Il2CppName: ToInt64
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::Xml::Schema::XmlValueConverter::*)(System::DateTime)>(&System::Xml::Schema::XmlValueConverter::ToInt64)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::Xml::Schema::XmlValueConverter::*)(::System::DateTime)>(&System::Xml::Schema::XmlValueConverter::ToInt64)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlValueConverter*), "ToInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -397,7 +397,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Sy
 // Writing MetadataGetter for method: System::Xml::Schema::XmlValueConverter::ToDecimal
 // Il2CppName: ToDecimal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (System::Xml::Schema::XmlValueConverter::*)(::StringW)>(&System::Xml::Schema::XmlValueConverter::ToDecimal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (System::Xml::Schema::XmlValueConverter::*)(::StringW)>(&System::Xml::Schema::XmlValueConverter::ToDecimal)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlValueConverter*), "ToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -406,7 +406,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dec
 // Writing MetadataGetter for method: System::Xml::Schema::XmlValueConverter::ToDecimal
 // Il2CppName: ToDecimal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (System::Xml::Schema::XmlValueConverter::*)(::Il2CppObject*)>(&System::Xml::Schema::XmlValueConverter::ToDecimal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (System::Xml::Schema::XmlValueConverter::*)(::Il2CppObject*)>(&System::Xml::Schema::XmlValueConverter::ToDecimal)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlValueConverter*), "ToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -442,7 +442,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (Sys
 // Writing MetadataGetter for method: System::Xml::Schema::XmlValueConverter::ToDouble
 // Il2CppName: ToDouble
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (System::Xml::Schema::XmlValueConverter::*)(System::DateTime)>(&System::Xml::Schema::XmlValueConverter::ToDouble)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (System::Xml::Schema::XmlValueConverter::*)(::System::DateTime)>(&System::Xml::Schema::XmlValueConverter::ToDouble)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlValueConverter*), "ToDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -496,7 +496,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Syst
 // Writing MetadataGetter for method: System::Xml::Schema::XmlValueConverter::ToDateTime
 // Il2CppName: ToDateTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (System::Xml::Schema::XmlValueConverter::*)(bool)>(&System::Xml::Schema::XmlValueConverter::ToDateTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (System::Xml::Schema::XmlValueConverter::*)(bool)>(&System::Xml::Schema::XmlValueConverter::ToDateTime)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlValueConverter*), "ToDateTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -505,7 +505,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Xml::Schema::XmlValueConverter::ToDateTime
 // Il2CppName: ToDateTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (System::Xml::Schema::XmlValueConverter::*)(int)>(&System::Xml::Schema::XmlValueConverter::ToDateTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (System::Xml::Schema::XmlValueConverter::*)(int)>(&System::Xml::Schema::XmlValueConverter::ToDateTime)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlValueConverter*), "ToDateTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -514,7 +514,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Xml::Schema::XmlValueConverter::ToDateTime
 // Il2CppName: ToDateTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (System::Xml::Schema::XmlValueConverter::*)(int64_t)>(&System::Xml::Schema::XmlValueConverter::ToDateTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (System::Xml::Schema::XmlValueConverter::*)(int64_t)>(&System::Xml::Schema::XmlValueConverter::ToDateTime)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlValueConverter*), "ToDateTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -523,7 +523,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Xml::Schema::XmlValueConverter::ToDateTime
 // Il2CppName: ToDateTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (System::Xml::Schema::XmlValueConverter::*)(double)>(&System::Xml::Schema::XmlValueConverter::ToDateTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (System::Xml::Schema::XmlValueConverter::*)(double)>(&System::Xml::Schema::XmlValueConverter::ToDateTime)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlValueConverter*), "ToDateTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -532,7 +532,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Xml::Schema::XmlValueConverter::ToDateTime
 // Il2CppName: ToDateTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (System::Xml::Schema::XmlValueConverter::*)(System::DateTimeOffset)>(&System::Xml::Schema::XmlValueConverter::ToDateTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (System::Xml::Schema::XmlValueConverter::*)(::System::DateTimeOffset)>(&System::Xml::Schema::XmlValueConverter::ToDateTime)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "DateTimeOffset")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlValueConverter*), "ToDateTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -541,7 +541,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Xml::Schema::XmlValueConverter::ToDateTime
 // Il2CppName: ToDateTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (System::Xml::Schema::XmlValueConverter::*)(::StringW)>(&System::Xml::Schema::XmlValueConverter::ToDateTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (System::Xml::Schema::XmlValueConverter::*)(::StringW)>(&System::Xml::Schema::XmlValueConverter::ToDateTime)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlValueConverter*), "ToDateTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -550,7 +550,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Xml::Schema::XmlValueConverter::ToDateTime
 // Il2CppName: ToDateTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (System::Xml::Schema::XmlValueConverter::*)(::Il2CppObject*)>(&System::Xml::Schema::XmlValueConverter::ToDateTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (System::Xml::Schema::XmlValueConverter::*)(::Il2CppObject*)>(&System::Xml::Schema::XmlValueConverter::ToDateTime)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlValueConverter*), "ToDateTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -559,7 +559,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Xml::Schema::XmlValueConverter::ToDateTimeOffset
 // Il2CppName: ToDateTimeOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTimeOffset (System::Xml::Schema::XmlValueConverter::*)(System::DateTime)>(&System::Xml::Schema::XmlValueConverter::ToDateTimeOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTimeOffset (System::Xml::Schema::XmlValueConverter::*)(::System::DateTime)>(&System::Xml::Schema::XmlValueConverter::ToDateTimeOffset)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlValueConverter*), "ToDateTimeOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -568,7 +568,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Xml::Schema::XmlValueConverter::ToDateTimeOffset
 // Il2CppName: ToDateTimeOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTimeOffset (System::Xml::Schema::XmlValueConverter::*)(::StringW)>(&System::Xml::Schema::XmlValueConverter::ToDateTimeOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTimeOffset (System::Xml::Schema::XmlValueConverter::*)(::StringW)>(&System::Xml::Schema::XmlValueConverter::ToDateTimeOffset)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlValueConverter*), "ToDateTimeOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -577,7 +577,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Xml::Schema::XmlValueConverter::ToDateTimeOffset
 // Il2CppName: ToDateTimeOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTimeOffset (System::Xml::Schema::XmlValueConverter::*)(::Il2CppObject*)>(&System::Xml::Schema::XmlValueConverter::ToDateTimeOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTimeOffset (System::Xml::Schema::XmlValueConverter::*)(::Il2CppObject*)>(&System::Xml::Schema::XmlValueConverter::ToDateTimeOffset)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlValueConverter*), "ToDateTimeOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -613,7 +613,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Xml::Schema::XmlValueConverter::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Xml::Schema::XmlValueConverter::*)(System::Decimal)>(&System::Xml::Schema::XmlValueConverter::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Xml::Schema::XmlValueConverter::*)(::System::Decimal)>(&System::Xml::Schema::XmlValueConverter::ToString)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Decimal")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlValueConverter*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -640,7 +640,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Xml::Schema::XmlValueConverter::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Xml::Schema::XmlValueConverter::*)(System::DateTime)>(&System::Xml::Schema::XmlValueConverter::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Xml::Schema::XmlValueConverter::*)(::System::DateTime)>(&System::Xml::Schema::XmlValueConverter::ToString)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlValueConverter*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -649,7 +649,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Xml::Schema::XmlValueConverter::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Xml::Schema::XmlValueConverter::*)(System::DateTimeOffset)>(&System::Xml::Schema::XmlValueConverter::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Xml::Schema::XmlValueConverter::*)(::System::DateTimeOffset)>(&System::Xml::Schema::XmlValueConverter::ToString)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "DateTimeOffset")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlValueConverter*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -667,7 +667,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Xml::Schema::XmlValueConverter::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Xml::Schema::XmlValueConverter::*)(::Il2CppObject*, System::Xml::IXmlNamespaceResolver*)>(&System::Xml::Schema::XmlValueConverter::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Xml::Schema::XmlValueConverter::*)(::Il2CppObject*, ::System::Xml::IXmlNamespaceResolver*)>(&System::Xml::Schema::XmlValueConverter::ToString)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* nsResolver = &::il2cpp_utils::GetClassFromName("System.Xml", "IXmlNamespaceResolver")->byval_arg;
@@ -677,7 +677,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Xml::Schema::XmlValueConverter::ChangeType
 // Il2CppName: ChangeType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::Schema::XmlValueConverter::*)(bool, System::Type*)>(&System::Xml::Schema::XmlValueConverter::ChangeType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::Schema::XmlValueConverter::*)(bool, ::System::Type*)>(&System::Xml::Schema::XmlValueConverter::ChangeType)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* destinationType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -687,7 +687,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Xml::Schema::XmlValueConverter::ChangeType
 // Il2CppName: ChangeType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::Schema::XmlValueConverter::*)(int, System::Type*)>(&System::Xml::Schema::XmlValueConverter::ChangeType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::Schema::XmlValueConverter::*)(int, ::System::Type*)>(&System::Xml::Schema::XmlValueConverter::ChangeType)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* destinationType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -697,7 +697,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Xml::Schema::XmlValueConverter::ChangeType
 // Il2CppName: ChangeType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::Schema::XmlValueConverter::*)(int64_t, System::Type*)>(&System::Xml::Schema::XmlValueConverter::ChangeType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::Schema::XmlValueConverter::*)(int64_t, ::System::Type*)>(&System::Xml::Schema::XmlValueConverter::ChangeType)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     static auto* destinationType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -707,7 +707,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Xml::Schema::XmlValueConverter::ChangeType
 // Il2CppName: ChangeType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::Schema::XmlValueConverter::*)(System::Decimal, System::Type*)>(&System::Xml::Schema::XmlValueConverter::ChangeType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::Schema::XmlValueConverter::*)(::System::Decimal, ::System::Type*)>(&System::Xml::Schema::XmlValueConverter::ChangeType)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Decimal")->byval_arg;
     static auto* destinationType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -717,7 +717,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Xml::Schema::XmlValueConverter::ChangeType
 // Il2CppName: ChangeType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::Schema::XmlValueConverter::*)(double, System::Type*)>(&System::Xml::Schema::XmlValueConverter::ChangeType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::Schema::XmlValueConverter::*)(double, ::System::Type*)>(&System::Xml::Schema::XmlValueConverter::ChangeType)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
     static auto* destinationType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -727,7 +727,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Xml::Schema::XmlValueConverter::ChangeType
 // Il2CppName: ChangeType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::Schema::XmlValueConverter::*)(System::DateTime, System::Type*)>(&System::Xml::Schema::XmlValueConverter::ChangeType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::Schema::XmlValueConverter::*)(::System::DateTime, ::System::Type*)>(&System::Xml::Schema::XmlValueConverter::ChangeType)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
     static auto* destinationType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -737,7 +737,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Xml::Schema::XmlValueConverter::ChangeType
 // Il2CppName: ChangeType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::Schema::XmlValueConverter::*)(::StringW, System::Type*, System::Xml::IXmlNamespaceResolver*)>(&System::Xml::Schema::XmlValueConverter::ChangeType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::Schema::XmlValueConverter::*)(::StringW, ::System::Type*, ::System::Xml::IXmlNamespaceResolver*)>(&System::Xml::Schema::XmlValueConverter::ChangeType)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* destinationType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -748,7 +748,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Xml::Schema::XmlValueConverter::ChangeType
 // Il2CppName: ChangeType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::Schema::XmlValueConverter::*)(::Il2CppObject*, System::Type*)>(&System::Xml::Schema::XmlValueConverter::ChangeType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::Schema::XmlValueConverter::*)(::Il2CppObject*, ::System::Type*)>(&System::Xml::Schema::XmlValueConverter::ChangeType)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* destinationType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -758,7 +758,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Xml::Schema::XmlValueConverter::ChangeType
 // Il2CppName: ChangeType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::Schema::XmlValueConverter::*)(::Il2CppObject*, System::Type*, System::Xml::IXmlNamespaceResolver*)>(&System::Xml::Schema::XmlValueConverter::ChangeType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::Schema::XmlValueConverter::*)(::Il2CppObject*, ::System::Type*, ::System::Xml::IXmlNamespaceResolver*)>(&System::Xml::Schema::XmlValueConverter::ChangeType)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* destinationType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;

@@ -15,8 +15,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::VRControllersRecorderSaveData::NodeInfo);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorderSaveData::NodeInfo*, "", "VRControllersRecorderSaveData/NodeInfo");
+NEED_NO_BOX(::GlobalNamespace::VRControllersRecorderSaveData::NodeInfo);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::VRControllersRecorderSaveData::NodeInfo*, "", "VRControllersRecorderSaveData/NodeInfo");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -37,9 +37,9 @@ namespace GlobalNamespace {
     // public UnityEngine.XR.XRNode nodeType
     // Size: 0x4
     // Offset: 0x10
-    UnityEngine::XR::XRNode nodeType;
+    ::UnityEngine::XR::XRNode nodeType;
     // Field size check
-    static_assert(sizeof(UnityEngine::XR::XRNode) == 0x4);
+    static_assert(sizeof(::UnityEngine::XR::XRNode) == 0x4);
     // public System.Int32 nodeIdx
     // Size: 0x4
     // Offset: 0x14
@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public UnityEngine.XR.XRNode nodeType
-    UnityEngine::XR::XRNode& dyn_nodeType();
+    ::UnityEngine::XR::XRNode& dyn_nodeType();
     // Get instance field reference: public System.Int32 nodeIdx
     int& dyn_nodeIdx();
     // public System.Void .ctor()
@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRControllersRecorderSaveData::NodeInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::VRControllersRecorderSaveData::NodeInfo::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VRControllersRecorderSaveData::NodeInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRControllersRecorderSaveData::NodeInfo*, creationType>()));
     }
   }; // VRControllersRecorderSaveData/NodeInfo

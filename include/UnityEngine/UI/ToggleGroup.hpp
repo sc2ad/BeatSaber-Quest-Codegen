@@ -34,8 +34,8 @@ namespace UnityEngine::UI {
   class ToggleGroup;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::UI::ToggleGroup);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ToggleGroup*, "UnityEngine.UI", "ToggleGroup");
+NEED_NO_BOX(::UnityEngine::UI::ToggleGroup);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::ToggleGroup*, "UnityEngine.UI", "ToggleGroup");
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {
   // Size: 0x28
@@ -44,9 +44,9 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AddComponentMenu] Offset: 11E1100
   // [DisallowMultipleComponent] Offset: FFFFFFFF
-  class ToggleGroup : public UnityEngine::EventSystems::UIBehaviour {
+  class ToggleGroup : public ::UnityEngine::EventSystems::UIBehaviour {
     public:
-    // Nested type: UnityEngine::UI::ToggleGroup::$$c
+    // Nested type: ::UnityEngine::UI::ToggleGroup::$$c
     class $$c;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -68,16 +68,16 @@ namespace UnityEngine::UI {
     // protected System.Collections.Generic.List`1<UnityEngine.UI.Toggle> m_Toggles
     // Size: 0x8
     // Offset: 0x20
-    System::Collections::Generic::List_1<UnityEngine::UI::Toggle*>* m_Toggles;
+    ::System::Collections::Generic::List_1<::UnityEngine::UI::Toggle*>* m_Toggles;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::UI::Toggle*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::UnityEngine::UI::Toggle*>*) == 0x8);
     public:
-    // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const noexcept = delete;
+    // Deleting conversion operator: operator ::System::IntPtr
+    constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Boolean m_AllowSwitchOff
     bool& dyn_m_AllowSwitchOff();
     // Get instance field reference: protected System.Collections.Generic.List`1<UnityEngine.UI.Toggle> m_Toggles
-    System::Collections::Generic::List_1<UnityEngine::UI::Toggle*>*& dyn_m_Toggles();
+    ::System::Collections::Generic::List_1<::UnityEngine::UI::Toggle*>*& dyn_m_Toggles();
     // public System.Boolean get_allowSwitchOff()
     // Offset: 0x2A14E0C
     bool get_allowSwitchOff();
@@ -86,16 +86,16 @@ namespace UnityEngine::UI {
     void set_allowSwitchOff(bool value);
     // private System.Void ValidateToggleIsInGroup(UnityEngine.UI.Toggle toggle)
     // Offset: 0x2A14EB8
-    void ValidateToggleIsInGroup(UnityEngine::UI::Toggle* toggle);
+    void ValidateToggleIsInGroup(::UnityEngine::UI::Toggle* toggle);
     // public System.Void NotifyToggleOn(UnityEngine.UI.Toggle toggle, System.Boolean sendCallback)
     // Offset: 0x2A14AF8
-    void NotifyToggleOn(UnityEngine::UI::Toggle* toggle, bool sendCallback);
+    void NotifyToggleOn(::UnityEngine::UI::Toggle* toggle, bool sendCallback);
     // public System.Void UnregisterToggle(UnityEngine.UI.Toggle toggle)
     // Offset: 0x2A149C8
-    void UnregisterToggle(UnityEngine::UI::Toggle* toggle);
+    void UnregisterToggle(::UnityEngine::UI::Toggle* toggle);
     // public System.Void RegisterToggle(UnityEngine.UI.Toggle toggle)
     // Offset: 0x2A14A60
-    void RegisterToggle(UnityEngine::UI::Toggle* toggle);
+    void RegisterToggle(::UnityEngine::UI::Toggle* toggle);
     // public System.Void EnsureValidState()
     // Offset: 0x2A14638
     void EnsureValidState();
@@ -104,7 +104,7 @@ namespace UnityEngine::UI {
     bool AnyTogglesOn();
     // public System.Collections.Generic.IEnumerable`1<UnityEngine.UI.Toggle> ActiveToggles()
     // Offset: 0x2A1500C
-    System::Collections::Generic::IEnumerable_1<UnityEngine::UI::Toggle*>* ActiveToggles();
+    ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UI::Toggle*>* ActiveToggles();
     // public System.Void SetAllTogglesOff(System.Boolean sendCallback)
     // Offset: 0x2A150FC
     void SetAllTogglesOff(bool sendCallback);
@@ -119,7 +119,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ToggleGroup* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::ToggleGroup::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::ToggleGroup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ToggleGroup*, creationType>()));
     }
     // protected override System.Void Start()
@@ -129,7 +129,7 @@ namespace UnityEngine::UI {
     void Start();
   }; // UnityEngine.UI.ToggleGroup
   #pragma pack(pop)
-  static check_size<sizeof(ToggleGroup), 32 + sizeof(System::Collections::Generic::List_1<UnityEngine::UI::Toggle*>*)> __UnityEngine_UI_ToggleGroupSizeCheck;
+  static check_size<sizeof(ToggleGroup), 32 + sizeof(::System::Collections::Generic::List_1<::UnityEngine::UI::Toggle*>*)> __UnityEngine_UI_ToggleGroupSizeCheck;
   static_assert(sizeof(ToggleGroup) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -153,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::ToggleGroup::ValidateToggleIsInGroup
 // Il2CppName: ValidateToggleIsInGroup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ToggleGroup::*)(UnityEngine::UI::Toggle*)>(&UnityEngine::UI::ToggleGroup::ValidateToggleIsInGroup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ToggleGroup::*)(::UnityEngine::UI::Toggle*)>(&UnityEngine::UI::ToggleGroup::ValidateToggleIsInGroup)> {
   static const MethodInfo* get() {
     static auto* toggle = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Toggle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ToggleGroup*), "ValidateToggleIsInGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{toggle});
@@ -162,7 +162,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::ToggleGroup::NotifyToggleOn
 // Il2CppName: NotifyToggleOn
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ToggleGroup::*)(UnityEngine::UI::Toggle*, bool)>(&UnityEngine::UI::ToggleGroup::NotifyToggleOn)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ToggleGroup::*)(::UnityEngine::UI::Toggle*, bool)>(&UnityEngine::UI::ToggleGroup::NotifyToggleOn)> {
   static const MethodInfo* get() {
     static auto* toggle = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Toggle")->byval_arg;
     static auto* sendCallback = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -172,7 +172,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::ToggleGroup::UnregisterToggle
 // Il2CppName: UnregisterToggle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ToggleGroup::*)(UnityEngine::UI::Toggle*)>(&UnityEngine::UI::ToggleGroup::UnregisterToggle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ToggleGroup::*)(::UnityEngine::UI::Toggle*)>(&UnityEngine::UI::ToggleGroup::UnregisterToggle)> {
   static const MethodInfo* get() {
     static auto* toggle = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Toggle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ToggleGroup*), "UnregisterToggle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{toggle});
@@ -181,7 +181,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::ToggleGroup::RegisterToggle
 // Il2CppName: RegisterToggle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ToggleGroup::*)(UnityEngine::UI::Toggle*)>(&UnityEngine::UI::ToggleGroup::RegisterToggle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ToggleGroup::*)(::UnityEngine::UI::Toggle*)>(&UnityEngine::UI::ToggleGroup::RegisterToggle)> {
   static const MethodInfo* get() {
     static auto* toggle = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Toggle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ToggleGroup*), "RegisterToggle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{toggle});
@@ -206,7 +206,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::ToggleGroup::ActiveToggles
 // Il2CppName: ActiveToggles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::UI::Toggle*>* (UnityEngine::UI::ToggleGroup::*)()>(&UnityEngine::UI::ToggleGroup::ActiveToggles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UI::Toggle*>* (UnityEngine::UI::ToggleGroup::*)()>(&UnityEngine::UI::ToggleGroup::ActiveToggles)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ToggleGroup*), "ActiveToggles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

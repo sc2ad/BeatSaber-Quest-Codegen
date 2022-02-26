@@ -20,8 +20,8 @@ namespace GlobalNamespace {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRInput::OVRControllerBase);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerBase*, "", "OVRInput/OVRControllerBase");
+NEED_NO_BOX(::GlobalNamespace::OVRInput::OVRControllerBase);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRInput::OVRControllerBase*, "", "OVRInput/OVRControllerBase");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x101
@@ -30,15 +30,15 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRInput::OVRControllerBase : public ::Il2CppObject {
     public:
-    // Nested type: GlobalNamespace::OVRInput::OVRControllerBase::VirtualButtonMap
+    // Nested type: ::GlobalNamespace::OVRInput::OVRControllerBase::VirtualButtonMap
     class VirtualButtonMap;
-    // Nested type: GlobalNamespace::OVRInput::OVRControllerBase::VirtualTouchMap
+    // Nested type: ::GlobalNamespace::OVRInput::OVRControllerBase::VirtualTouchMap
     class VirtualTouchMap;
-    // Nested type: GlobalNamespace::OVRInput::OVRControllerBase::VirtualNearTouchMap
+    // Nested type: ::GlobalNamespace::OVRInput::OVRControllerBase::VirtualNearTouchMap
     class VirtualNearTouchMap;
-    // Nested type: GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis1DMap
+    // Nested type: ::GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis1DMap
     class VirtualAxis1DMap;
-    // Nested type: GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis2DMap
+    // Nested type: ::GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis2DMap
     class VirtualAxis2DMap;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -52,53 +52,53 @@ namespace GlobalNamespace {
     // public OVRInput/Controller controllerType
     // Size: 0x4
     // Offset: 0x10
-    GlobalNamespace::OVRInput::Controller controllerType;
+    ::GlobalNamespace::OVRInput::Controller controllerType;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::OVRInput::Controller) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::OVRInput::Controller) == 0x4);
     // Padding between fields: controllerType and: buttonMap
     char __padding0[0x4] = {};
     // public OVRInput/OVRControllerBase/VirtualButtonMap buttonMap
     // Size: 0x8
     // Offset: 0x18
-    GlobalNamespace::OVRInput::OVRControllerBase::VirtualButtonMap* buttonMap;
+    ::GlobalNamespace::OVRInput::OVRControllerBase::VirtualButtonMap* buttonMap;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::OVRInput::OVRControllerBase::VirtualButtonMap*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::OVRInput::OVRControllerBase::VirtualButtonMap*) == 0x8);
     // public OVRInput/OVRControllerBase/VirtualTouchMap touchMap
     // Size: 0x8
     // Offset: 0x20
-    GlobalNamespace::OVRInput::OVRControllerBase::VirtualTouchMap* touchMap;
+    ::GlobalNamespace::OVRInput::OVRControllerBase::VirtualTouchMap* touchMap;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::OVRInput::OVRControllerBase::VirtualTouchMap*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::OVRInput::OVRControllerBase::VirtualTouchMap*) == 0x8);
     // public OVRInput/OVRControllerBase/VirtualNearTouchMap nearTouchMap
     // Size: 0x8
     // Offset: 0x28
-    GlobalNamespace::OVRInput::OVRControllerBase::VirtualNearTouchMap* nearTouchMap;
+    ::GlobalNamespace::OVRInput::OVRControllerBase::VirtualNearTouchMap* nearTouchMap;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::OVRInput::OVRControllerBase::VirtualNearTouchMap*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::OVRInput::OVRControllerBase::VirtualNearTouchMap*) == 0x8);
     // public OVRInput/OVRControllerBase/VirtualAxis1DMap axis1DMap
     // Size: 0x8
     // Offset: 0x30
-    GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis1DMap* axis1DMap;
+    ::GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis1DMap* axis1DMap;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis1DMap*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis1DMap*) == 0x8);
     // public OVRInput/OVRControllerBase/VirtualAxis2DMap axis2DMap
     // Size: 0x8
     // Offset: 0x38
-    GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis2DMap* axis2DMap;
+    ::GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis2DMap* axis2DMap;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis2DMap*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis2DMap*) == 0x8);
     // public OVRPlugin/ControllerState4 previousState
     // Size: 0x60
     // Offset: 0x40
-    GlobalNamespace::OVRPlugin::ControllerState4 previousState;
+    ::GlobalNamespace::OVRPlugin::ControllerState4 previousState;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::OVRPlugin::ControllerState4) == 0x60);
+    static_assert(sizeof(::GlobalNamespace::OVRPlugin::ControllerState4) == 0x60);
     // public OVRPlugin/ControllerState4 currentState
     // Size: 0x60
     // Offset: 0xA0
-    GlobalNamespace::OVRPlugin::ControllerState4 currentState;
+    ::GlobalNamespace::OVRPlugin::ControllerState4 currentState;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::OVRPlugin::ControllerState4) == 0x60);
+    static_assert(sizeof(::GlobalNamespace::OVRPlugin::ControllerState4) == 0x60);
     // public System.Boolean shouldApplyDeadzone
     // Size: 0x1
     // Offset: 0x100
@@ -107,29 +107,29 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public OVRInput/Controller controllerType
-    GlobalNamespace::OVRInput::Controller& dyn_controllerType();
+    ::GlobalNamespace::OVRInput::Controller& dyn_controllerType();
     // Get instance field reference: public OVRInput/OVRControllerBase/VirtualButtonMap buttonMap
-    GlobalNamespace::OVRInput::OVRControllerBase::VirtualButtonMap*& dyn_buttonMap();
+    ::GlobalNamespace::OVRInput::OVRControllerBase::VirtualButtonMap*& dyn_buttonMap();
     // Get instance field reference: public OVRInput/OVRControllerBase/VirtualTouchMap touchMap
-    GlobalNamespace::OVRInput::OVRControllerBase::VirtualTouchMap*& dyn_touchMap();
+    ::GlobalNamespace::OVRInput::OVRControllerBase::VirtualTouchMap*& dyn_touchMap();
     // Get instance field reference: public OVRInput/OVRControllerBase/VirtualNearTouchMap nearTouchMap
-    GlobalNamespace::OVRInput::OVRControllerBase::VirtualNearTouchMap*& dyn_nearTouchMap();
+    ::GlobalNamespace::OVRInput::OVRControllerBase::VirtualNearTouchMap*& dyn_nearTouchMap();
     // Get instance field reference: public OVRInput/OVRControllerBase/VirtualAxis1DMap axis1DMap
-    GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis1DMap*& dyn_axis1DMap();
+    ::GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis1DMap*& dyn_axis1DMap();
     // Get instance field reference: public OVRInput/OVRControllerBase/VirtualAxis2DMap axis2DMap
-    GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis2DMap*& dyn_axis2DMap();
+    ::GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis2DMap*& dyn_axis2DMap();
     // Get instance field reference: public OVRPlugin/ControllerState4 previousState
-    GlobalNamespace::OVRPlugin::ControllerState4& dyn_previousState();
+    ::GlobalNamespace::OVRPlugin::ControllerState4& dyn_previousState();
     // Get instance field reference: public OVRPlugin/ControllerState4 currentState
-    GlobalNamespace::OVRPlugin::ControllerState4& dyn_currentState();
+    ::GlobalNamespace::OVRPlugin::ControllerState4& dyn_currentState();
     // Get instance field reference: public System.Boolean shouldApplyDeadzone
     bool& dyn_shouldApplyDeadzone();
     // public OVRInput/Controller Update()
     // Offset: 0x197BAA4
-    GlobalNamespace::OVRInput::Controller Update();
+    ::GlobalNamespace::OVRInput::Controller Update();
     // private OVRPlugin/ControllerState4 GetOpenVRControllerState(OVRInput/Controller controllerType)
     // Offset: 0x197BF78
-    GlobalNamespace::OVRPlugin::ControllerState4 GetOpenVRControllerState(GlobalNamespace::OVRInput::Controller controllerType);
+    ::GlobalNamespace::OVRPlugin::ControllerState4 GetOpenVRControllerState(::GlobalNamespace::OVRInput::Controller controllerType);
     // public System.Void SetControllerVibration(System.Single frequency, System.Single amplitude)
     // Offset: 0x197C4B4
     void SetControllerVibration(float frequency, float amplitude);
@@ -153,26 +153,26 @@ namespace GlobalNamespace {
     void ConfigureAxis2DMap();
     // public OVRInput/RawButton ResolveToRawMask(OVRInput/Button virtualMask)
     // Offset: 0x1978FFC
-    GlobalNamespace::OVRInput::RawButton ResolveToRawMask(GlobalNamespace::OVRInput::Button virtualMask);
+    ::GlobalNamespace::OVRInput::RawButton ResolveToRawMask(::GlobalNamespace::OVRInput::Button virtualMask);
     // public OVRInput/RawTouch ResolveToRawMask(OVRInput/Touch virtualMask)
     // Offset: 0x19796B8
-    GlobalNamespace::OVRInput::RawTouch ResolveToRawMask(GlobalNamespace::OVRInput::Touch virtualMask);
+    ::GlobalNamespace::OVRInput::RawTouch ResolveToRawMask(::GlobalNamespace::OVRInput::Touch virtualMask);
     // public OVRInput/RawNearTouch ResolveToRawMask(OVRInput/NearTouch virtualMask)
     // Offset: 0x1979DEC
-    GlobalNamespace::OVRInput::RawNearTouch ResolveToRawMask(GlobalNamespace::OVRInput::NearTouch virtualMask);
+    ::GlobalNamespace::OVRInput::RawNearTouch ResolveToRawMask(::GlobalNamespace::OVRInput::NearTouch virtualMask);
     // public OVRInput/RawAxis1D ResolveToRawMask(OVRInput/Axis1D virtualMask)
     // Offset: 0x197A7C4
-    GlobalNamespace::OVRInput::RawAxis1D ResolveToRawMask(GlobalNamespace::OVRInput::Axis1D virtualMask);
+    ::GlobalNamespace::OVRInput::RawAxis1D ResolveToRawMask(::GlobalNamespace::OVRInput::Axis1D virtualMask);
     // public OVRInput/RawAxis2D ResolveToRawMask(OVRInput/Axis2D virtualMask)
     // Offset: 0x197AD0C
-    GlobalNamespace::OVRInput::RawAxis2D ResolveToRawMask(GlobalNamespace::OVRInput::Axis2D virtualMask);
+    ::GlobalNamespace::OVRInput::RawAxis2D ResolveToRawMask(::GlobalNamespace::OVRInput::Axis2D virtualMask);
     // public System.Void .ctor()
     // Offset: 0x197B93C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRInput::OVRControllerBase* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRInput::OVRControllerBase::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRInput::OVRControllerBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRInput::OVRControllerBase*, creationType>()));
     }
   }; // OVRInput/OVRControllerBase
@@ -184,7 +184,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::OVRControllerBase::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRInput::Controller (GlobalNamespace::OVRInput::OVRControllerBase::*)()>(&GlobalNamespace::OVRInput::OVRControllerBase::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRInput::Controller (GlobalNamespace::OVRInput::OVRControllerBase::*)()>(&GlobalNamespace::OVRInput::OVRControllerBase::Update)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput::OVRControllerBase*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -192,7 +192,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::OVRControllerBase::GetOpenVRControllerState
 // Il2CppName: GetOpenVRControllerState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::ControllerState4 (GlobalNamespace::OVRInput::OVRControllerBase::*)(GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::OVRControllerBase::GetOpenVRControllerState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::ControllerState4 (GlobalNamespace::OVRInput::OVRControllerBase::*)(::GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::OVRControllerBase::GetOpenVRControllerState)> {
   static const MethodInfo* get() {
     static auto* controllerType = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput::OVRControllerBase*), "GetOpenVRControllerState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{controllerType});
@@ -259,7 +259,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::OVRControllerBase::ResolveToRawMask
 // Il2CppName: ResolveToRawMask
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRInput::RawButton (GlobalNamespace::OVRInput::OVRControllerBase::*)(GlobalNamespace::OVRInput::Button)>(&GlobalNamespace::OVRInput::OVRControllerBase::ResolveToRawMask)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRInput::RawButton (GlobalNamespace::OVRInput::OVRControllerBase::*)(::GlobalNamespace::OVRInput::Button)>(&GlobalNamespace::OVRInput::OVRControllerBase::ResolveToRawMask)> {
   static const MethodInfo* get() {
     static auto* virtualMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Button")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput::OVRControllerBase*), "ResolveToRawMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{virtualMask});
@@ -268,7 +268,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::OVRControllerBase::ResolveToRawMask
 // Il2CppName: ResolveToRawMask
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRInput::RawTouch (GlobalNamespace::OVRInput::OVRControllerBase::*)(GlobalNamespace::OVRInput::Touch)>(&GlobalNamespace::OVRInput::OVRControllerBase::ResolveToRawMask)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRInput::RawTouch (GlobalNamespace::OVRInput::OVRControllerBase::*)(::GlobalNamespace::OVRInput::Touch)>(&GlobalNamespace::OVRInput::OVRControllerBase::ResolveToRawMask)> {
   static const MethodInfo* get() {
     static auto* virtualMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Touch")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput::OVRControllerBase*), "ResolveToRawMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{virtualMask});
@@ -277,7 +277,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::OVRControllerBase::ResolveToRawMask
 // Il2CppName: ResolveToRawMask
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRInput::RawNearTouch (GlobalNamespace::OVRInput::OVRControllerBase::*)(GlobalNamespace::OVRInput::NearTouch)>(&GlobalNamespace::OVRInput::OVRControllerBase::ResolveToRawMask)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRInput::RawNearTouch (GlobalNamespace::OVRInput::OVRControllerBase::*)(::GlobalNamespace::OVRInput::NearTouch)>(&GlobalNamespace::OVRInput::OVRControllerBase::ResolveToRawMask)> {
   static const MethodInfo* get() {
     static auto* virtualMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/NearTouch")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput::OVRControllerBase*), "ResolveToRawMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{virtualMask});
@@ -286,7 +286,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::OVRControllerBase::ResolveToRawMask
 // Il2CppName: ResolveToRawMask
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRInput::RawAxis1D (GlobalNamespace::OVRInput::OVRControllerBase::*)(GlobalNamespace::OVRInput::Axis1D)>(&GlobalNamespace::OVRInput::OVRControllerBase::ResolveToRawMask)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRInput::RawAxis1D (GlobalNamespace::OVRInput::OVRControllerBase::*)(::GlobalNamespace::OVRInput::Axis1D)>(&GlobalNamespace::OVRInput::OVRControllerBase::ResolveToRawMask)> {
   static const MethodInfo* get() {
     static auto* virtualMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Axis1D")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput::OVRControllerBase*), "ResolveToRawMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{virtualMask});
@@ -295,7 +295,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::OVRControllerBase::ResolveToRawMask
 // Il2CppName: ResolveToRawMask
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRInput::RawAxis2D (GlobalNamespace::OVRInput::OVRControllerBase::*)(GlobalNamespace::OVRInput::Axis2D)>(&GlobalNamespace::OVRInput::OVRControllerBase::ResolveToRawMask)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRInput::RawAxis2D (GlobalNamespace::OVRInput::OVRControllerBase::*)(::GlobalNamespace::OVRInput::Axis2D)>(&GlobalNamespace::OVRInput::OVRControllerBase::ResolveToRawMask)> {
   static const MethodInfo* get() {
     static auto* virtualMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Axis2D")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput::OVRControllerBase*), "ResolveToRawMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{virtualMask});

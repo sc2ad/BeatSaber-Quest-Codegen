@@ -19,8 +19,8 @@ namespace System::Linq::Expressions::Interpreter {
   class ScriptingRuntimeHelpers;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Linq::Expressions::Interpreter::ScriptingRuntimeHelpers);
-DEFINE_IL2CPP_ARG_TYPE(System::Linq::Expressions::Interpreter::ScriptingRuntimeHelpers*, "System.Linq.Expressions.Interpreter", "ScriptingRuntimeHelpers");
+NEED_NO_BOX(::System::Linq::Expressions::Interpreter::ScriptingRuntimeHelpers);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::ScriptingRuntimeHelpers*, "System.Linq.Expressions.Interpreter", "ScriptingRuntimeHelpers");
 // Type namespace: System.Linq.Expressions.Interpreter
 namespace System::Linq::Expressions::Interpreter {
   // Size: 0x10
@@ -34,7 +34,7 @@ namespace System::Linq::Expressions::Interpreter {
     static ::Il2CppObject* Int32ToObject(int i);
     // static System.Object GetPrimitiveDefaultValue(System.Type type)
     // Offset: 0x1F03168
-    static ::Il2CppObject* GetPrimitiveDefaultValue(System::Type* type);
+    static ::Il2CppObject* GetPrimitiveDefaultValue(::System::Type* type);
   }; // System.Linq.Expressions.Interpreter.ScriptingRuntimeHelpers
   #pragma pack(pop)
 }
@@ -51,7 +51,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::ScriptingRuntimeHelpers::GetPrimitiveDefaultValue
 // Il2CppName: GetPrimitiveDefaultValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*)>(&System::Linq::Expressions::Interpreter::ScriptingRuntimeHelpers::GetPrimitiveDefaultValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::System::Type*)>(&System::Linq::Expressions::Interpreter::ScriptingRuntimeHelpers::GetPrimitiveDefaultValue)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::ScriptingRuntimeHelpers*), "GetPrimitiveDefaultValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});

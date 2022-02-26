@@ -22,8 +22,8 @@ namespace UnityEngine {
   class Screen;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Screen);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Screen*, "UnityEngine", "Screen");
+NEED_NO_BOX(::UnityEngine::Screen);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Screen*, "UnityEngine", "Screen");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -52,13 +52,13 @@ namespace UnityEngine {
     static void set_fullScreen(bool value);
     // static public UnityEngine.FullScreenMode get_fullScreenMode()
     // Offset: 0x20D4F9C
-    static UnityEngine::FullScreenMode get_fullScreenMode();
+    static ::UnityEngine::FullScreenMode get_fullScreenMode();
     // static public UnityEngine.Resolution[] get_resolutions()
     // Offset: 0x20D510C
-    static ::ArrayW<UnityEngine::Resolution> get_resolutions();
+    static ::ArrayW<::UnityEngine::Resolution> get_resolutions();
     // static public System.Void SetResolution(System.Int32 width, System.Int32 height, UnityEngine.FullScreenMode fullscreenMode, System.Int32 preferredRefreshRate)
     // Offset: 0x20D4FD0
-    static void SetResolution(int width, int height, UnityEngine::FullScreenMode fullscreenMode, int preferredRefreshRate);
+    static void SetResolution(int width, int height, ::UnityEngine::FullScreenMode fullscreenMode, int preferredRefreshRate);
     // static public System.Void SetResolution(System.Int32 width, System.Int32 height, System.Boolean fullscreen, System.Int32 preferredRefreshRate)
     // Offset: 0x20D5038
     static void SetResolution(int width, int height, bool fullscreen, int preferredRefreshRate);
@@ -113,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bo
 // Writing MetadataGetter for method: UnityEngine::Screen::get_fullScreenMode
 // Il2CppName: get_fullScreenMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::FullScreenMode (*)()>(&UnityEngine::Screen::get_fullScreenMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::FullScreenMode (*)()>(&UnityEngine::Screen::get_fullScreenMode)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Screen*), "get_fullScreenMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -121,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Screen::get_resolutions
 // Il2CppName: get_resolutions
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Resolution> (*)()>(&UnityEngine::Screen::get_resolutions)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Resolution> (*)()>(&UnityEngine::Screen::get_resolutions)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Screen*), "get_resolutions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -129,7 +129,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: UnityEngine::Screen::SetResolution
 // Il2CppName: SetResolution
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, int, UnityEngine::FullScreenMode, int)>(&UnityEngine::Screen::SetResolution)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, int, ::UnityEngine::FullScreenMode, int)>(&UnityEngine::Screen::SetResolution)> {
   static const MethodInfo* get() {
     static auto* width = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* height = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

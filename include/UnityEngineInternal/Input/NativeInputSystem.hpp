@@ -36,8 +36,8 @@ namespace UnityEngineInternal::Input {
   class NativeInputSystem;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngineInternal::Input::NativeInputSystem);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngineInternal::Input::NativeInputSystem*, "UnityEngineInternal.Input", "NativeInputSystem");
+NEED_NO_BOX(::UnityEngineInternal::Input::NativeInputSystem);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngineInternal::Input::NativeInputSystem*, "UnityEngineInternal.Input", "NativeInputSystem");
 // Type namespace: UnityEngineInternal.Input
 namespace UnityEngineInternal::Input {
   // Size: 0x10
@@ -49,21 +49,21 @@ namespace UnityEngineInternal::Input {
   class NativeInputSystem : public ::Il2CppObject {
     public:
     // Get static field: static public UnityEngineInternal.Input.NativeUpdateCallback onUpdate
-    static UnityEngineInternal::Input::NativeUpdateCallback* _get_onUpdate();
+    static ::UnityEngineInternal::Input::NativeUpdateCallback* _get_onUpdate();
     // Set static field: static public UnityEngineInternal.Input.NativeUpdateCallback onUpdate
-    static void _set_onUpdate(UnityEngineInternal::Input::NativeUpdateCallback* value);
+    static void _set_onUpdate(::UnityEngineInternal::Input::NativeUpdateCallback* value);
     // Get static field: static public System.Action`1<UnityEngineInternal.Input.NativeInputUpdateType> onBeforeUpdate
-    static System::Action_1<UnityEngineInternal::Input::NativeInputUpdateType>* _get_onBeforeUpdate();
+    static ::System::Action_1<::UnityEngineInternal::Input::NativeInputUpdateType>* _get_onBeforeUpdate();
     // Set static field: static public System.Action`1<UnityEngineInternal.Input.NativeInputUpdateType> onBeforeUpdate
-    static void _set_onBeforeUpdate(System::Action_1<UnityEngineInternal::Input::NativeInputUpdateType>* value);
+    static void _set_onBeforeUpdate(::System::Action_1<::UnityEngineInternal::Input::NativeInputUpdateType>* value);
     // Get static field: static public System.Func`2<UnityEngineInternal.Input.NativeInputUpdateType,System.Boolean> onShouldRunUpdate
-    static System::Func_2<UnityEngineInternal::Input::NativeInputUpdateType, bool>* _get_onShouldRunUpdate();
+    static ::System::Func_2<::UnityEngineInternal::Input::NativeInputUpdateType, bool>* _get_onShouldRunUpdate();
     // Set static field: static public System.Func`2<UnityEngineInternal.Input.NativeInputUpdateType,System.Boolean> onShouldRunUpdate
-    static void _set_onShouldRunUpdate(System::Func_2<UnityEngineInternal::Input::NativeInputUpdateType, bool>* value);
+    static void _set_onShouldRunUpdate(::System::Func_2<::UnityEngineInternal::Input::NativeInputUpdateType, bool>* value);
     // Get static field: static private System.Action`2<System.Int32,System.String> s_OnDeviceDiscoveredCallback
-    static System::Action_2<int, ::StringW>* _get_s_OnDeviceDiscoveredCallback();
+    static ::System::Action_2<int, ::StringW>* _get_s_OnDeviceDiscoveredCallback();
     // Set static field: static private System.Action`2<System.Int32,System.String> s_OnDeviceDiscoveredCallback
-    static void _set_s_OnDeviceDiscoveredCallback(System::Action_2<int, ::StringW>* value);
+    static void _set_s_OnDeviceDiscoveredCallback(::System::Action_2<int, ::StringW>* value);
     // static System.Void set_hasDeviceDiscoveredCallback(System.Boolean value)
     // Offset: 0x2A620CC
     static void set_hasDeviceDiscoveredCallback(bool value);
@@ -72,16 +72,16 @@ namespace UnityEngineInternal::Input {
     static void _cctor();
     // static System.Void NotifyBeforeUpdate(UnityEngineInternal.Input.NativeInputUpdateType updateType)
     // Offset: 0x2A6210C
-    static void NotifyBeforeUpdate(UnityEngineInternal::Input::NativeInputUpdateType updateType);
+    static void NotifyBeforeUpdate(::UnityEngineInternal::Input::NativeInputUpdateType updateType);
     // static System.Void NotifyUpdate(UnityEngineInternal.Input.NativeInputUpdateType updateType, System.IntPtr eventBuffer)
     // Offset: 0x2A62198
-    static void NotifyUpdate(UnityEngineInternal::Input::NativeInputUpdateType updateType, System::IntPtr eventBuffer);
+    static void NotifyUpdate(::UnityEngineInternal::Input::NativeInputUpdateType updateType, ::System::IntPtr eventBuffer);
     // static System.Void NotifyDeviceDiscovered(System.Int32 deviceId, System.String deviceDescriptor)
     // Offset: 0x2A624C8
     static void NotifyDeviceDiscovered(int deviceId, ::StringW deviceDescriptor);
     // static System.Void ShouldRunUpdate(UnityEngineInternal.Input.NativeInputUpdateType updateType, out System.Boolean retval)
     // Offset: 0x2A62568
-    static void ShouldRunUpdate(UnityEngineInternal::Input::NativeInputUpdateType updateType, ByRef<bool> retval);
+    static void ShouldRunUpdate(::UnityEngineInternal::Input::NativeInputUpdateType updateType, ByRef<bool> retval);
   }; // UnityEngineInternal.Input.NativeInputSystem
   #pragma pack(pop)
 }
@@ -106,7 +106,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngineInternal::Input::NativeInputSystem::NotifyBeforeUpdate
 // Il2CppName: NotifyBeforeUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngineInternal::Input::NativeInputUpdateType)>(&UnityEngineInternal::Input::NativeInputSystem::NotifyBeforeUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngineInternal::Input::NativeInputUpdateType)>(&UnityEngineInternal::Input::NativeInputSystem::NotifyBeforeUpdate)> {
   static const MethodInfo* get() {
     static auto* updateType = &::il2cpp_utils::GetClassFromName("UnityEngineInternal.Input", "NativeInputUpdateType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngineInternal::Input::NativeInputSystem*), "NotifyBeforeUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{updateType});
@@ -115,7 +115,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngineInternal::Input::NativeInputSystem::NotifyUpdate
 // Il2CppName: NotifyUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngineInternal::Input::NativeInputUpdateType, System::IntPtr)>(&UnityEngineInternal::Input::NativeInputSystem::NotifyUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngineInternal::Input::NativeInputUpdateType, ::System::IntPtr)>(&UnityEngineInternal::Input::NativeInputSystem::NotifyUpdate)> {
   static const MethodInfo* get() {
     static auto* updateType = &::il2cpp_utils::GetClassFromName("UnityEngineInternal.Input", "NativeInputUpdateType")->byval_arg;
     static auto* eventBuffer = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -135,7 +135,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 // Writing MetadataGetter for method: UnityEngineInternal::Input::NativeInputSystem::ShouldRunUpdate
 // Il2CppName: ShouldRunUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngineInternal::Input::NativeInputUpdateType, ByRef<bool>)>(&UnityEngineInternal::Input::NativeInputSystem::ShouldRunUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngineInternal::Input::NativeInputUpdateType, ByRef<bool>)>(&UnityEngineInternal::Input::NativeInputSystem::ShouldRunUpdate)> {
   static const MethodInfo* get() {
     static auto* updateType = &::il2cpp_utils::GetClassFromName("UnityEngineInternal.Input", "NativeInputUpdateType")->byval_arg;
     static auto* retval = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;

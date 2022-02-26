@@ -16,8 +16,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MainSettingsModelSO::Config);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainSettingsModelSO::Config*, "", "MainSettingsModelSO/Config");
+NEED_NO_BOX(::GlobalNamespace::MainSettingsModelSO::Config);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MainSettingsModelSO::Config*, "", "MainSettingsModelSO/Config");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0xD8
@@ -56,9 +56,9 @@ namespace GlobalNamespace {
     // public MainSettingsModelSO/WindowMode windowMode
     // Size: 0x4
     // Offset: 0x20
-    GlobalNamespace::MainSettingsModelSO::WindowMode windowMode;
+    ::GlobalNamespace::MainSettingsModelSO::WindowMode windowMode;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::MainSettingsModelSO::WindowMode) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::MainSettingsModelSO::WindowMode) == 0x4);
     // public System.Single vrResolutionScale
     // Size: 0x4
     // Offset: 0x24
@@ -355,7 +355,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 windowResolutionHeight
     int& dyn_windowResolutionHeight();
     // Get instance field reference: public MainSettingsModelSO/WindowMode windowMode
-    GlobalNamespace::MainSettingsModelSO::WindowMode& dyn_windowMode();
+    ::GlobalNamespace::MainSettingsModelSO::WindowMode& dyn_windowMode();
     // Get instance field reference: public System.Single vrResolutionScale
     float& dyn_vrResolutionScale();
     // Get instance field reference: public System.Single menuVRResolutionScaleMultiplier
@@ -454,7 +454,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MainSettingsModelSO::Config* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MainSettingsModelSO::Config::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MainSettingsModelSO::Config::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MainSettingsModelSO::Config*, creationType>()));
     }
   }; // MainSettingsModelSO/Config

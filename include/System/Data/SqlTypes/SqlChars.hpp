@@ -57,8 +57,8 @@ namespace System::Data::SqlTypes {
   class SqlChars;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Data::SqlTypes::SqlChars);
-DEFINE_IL2CPP_ARG_TYPE(System::Data::SqlTypes::SqlChars*, "System.Data.SqlTypes", "SqlChars");
+NEED_NO_BOX(::System::Data::SqlTypes::SqlChars);
+DEFINE_IL2CPP_ARG_TYPE(::System::Data::SqlTypes::SqlChars*, "System.Data.SqlTypes", "SqlChars");
 // Type namespace: System.Data.SqlTypes
 namespace System::Data::SqlTypes {
   // Size: 0x38
@@ -67,7 +67,7 @@ namespace System::Data::SqlTypes {
   // [TokenAttribute] Offset: FFFFFFFF
   // [XmlSchemaProviderAttribute] Offset: 11D0A38
   // [DefaultMemberAttribute] Offset: 11D0A38
-  class SqlChars : public ::Il2CppObject/*, public System::Xml::Serialization::IXmlSerializable, public System::Runtime::Serialization::ISerializable, public System::Data::SqlTypes::INullable*/ {
+  class SqlChars : public ::Il2CppObject/*, public ::System::Xml::Serialization::IXmlSerializable, public ::System::Runtime::Serialization::ISerializable, public ::System::Data::SqlTypes::INullable*/ {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -93,15 +93,15 @@ namespace System::Data::SqlTypes {
     // System.Data.SqlTypes.SqlStreamChars _stream
     // Size: 0x8
     // Offset: 0x20
-    System::Data::SqlTypes::SqlStreamChars* stream;
+    ::System::Data::SqlTypes::SqlStreamChars* stream;
     // Field size check
-    static_assert(sizeof(System::Data::SqlTypes::SqlStreamChars*) == 0x8);
+    static_assert(sizeof(::System::Data::SqlTypes::SqlStreamChars*) == 0x8);
     // private System.Data.SqlTypes.SqlBytesCharsState _state
     // Size: 0x4
     // Offset: 0x28
-    System::Data::SqlTypes::SqlBytesCharsState state;
+    ::System::Data::SqlTypes::SqlBytesCharsState state;
     // Field size check
-    static_assert(sizeof(System::Data::SqlTypes::SqlBytesCharsState) == 0x4);
+    static_assert(sizeof(::System::Data::SqlTypes::SqlBytesCharsState) == 0x4);
     // Padding between fields: state and: rgchWorkBuf
     char __padding3[0x4] = {};
     // private System.Char[] _rgchWorkBuf
@@ -111,26 +111,26 @@ namespace System::Data::SqlTypes {
     // Field size check
     static_assert(sizeof(::ArrayW<::Il2CppChar>) == 0x8);
     public:
-    // Creating interface conversion operator: operator System::Xml::Serialization::IXmlSerializable
-    operator System::Xml::Serialization::IXmlSerializable() noexcept {
-      return *reinterpret_cast<System::Xml::Serialization::IXmlSerializable*>(this);
+    // Creating interface conversion operator: operator ::System::Xml::Serialization::IXmlSerializable
+    operator ::System::Xml::Serialization::IXmlSerializable() noexcept {
+      return *reinterpret_cast<::System::Xml::Serialization::IXmlSerializable*>(this);
     }
-    // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
-    operator System::Runtime::Serialization::ISerializable() noexcept {
-      return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);
+    // Creating interface conversion operator: operator ::System::Runtime::Serialization::ISerializable
+    operator ::System::Runtime::Serialization::ISerializable() noexcept {
+      return *reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
     }
-    // Creating interface conversion operator: operator System::Data::SqlTypes::INullable
-    operator System::Data::SqlTypes::INullable() noexcept {
-      return *reinterpret_cast<System::Data::SqlTypes::INullable*>(this);
+    // Creating interface conversion operator: operator ::System::Data::SqlTypes::INullable
+    operator ::System::Data::SqlTypes::INullable() noexcept {
+      return *reinterpret_cast<::System::Data::SqlTypes::INullable*>(this);
     }
     // Get instance field reference: System.Char[] _rgchBuf
     ::ArrayW<::Il2CppChar>& dyn__rgchBuf();
     // Get instance field reference: private System.Int64 _lCurLen
     int64_t& dyn__lCurLen();
     // Get instance field reference: System.Data.SqlTypes.SqlStreamChars _stream
-    System::Data::SqlTypes::SqlStreamChars*& dyn__stream();
+    ::System::Data::SqlTypes::SqlStreamChars*& dyn__stream();
     // Get instance field reference: private System.Data.SqlTypes.SqlBytesCharsState _state
-    System::Data::SqlTypes::SqlBytesCharsState& dyn__state();
+    ::System::Data::SqlTypes::SqlBytesCharsState& dyn__state();
     // Get instance field reference: private System.Char[] _rgchWorkBuf
     ::ArrayW<::Il2CppChar>& dyn__rgchWorkBuf();
     // public System.Boolean get_IsNull()
@@ -147,19 +147,19 @@ namespace System::Data::SqlTypes {
     ::ArrayW<::Il2CppChar> get_Value();
     // static public System.Data.SqlTypes.SqlChars get_Null()
     // Offset: 0x199A8E4
-    static System::Data::SqlTypes::SqlChars* get_Null();
+    static ::System::Data::SqlTypes::SqlChars* get_Null();
     // public System.Void .ctor(System.Char[] buffer)
     // Offset: 0x199A12C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SqlChars* New_ctor(::ArrayW<::Il2CppChar> buffer) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Data::SqlTypes::SqlChars::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Data::SqlTypes::SqlChars::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SqlChars*, creationType>(buffer)));
     }
     // public System.Void .ctor(System.Data.SqlTypes.SqlString value)
     // Offset: 0x199A180
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SqlChars* New_ctor(System::Data::SqlTypes::SqlString value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Data::SqlTypes::SqlChars::.ctor");
+    static SqlChars* New_ctor(::System::Data::SqlTypes::SqlString value) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Data::SqlTypes::SqlChars::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SqlChars*, creationType>(value)));
     }
     // public System.Void SetNull()
@@ -176,26 +176,26 @@ namespace System::Data::SqlTypes {
     void SetBuffer(::ArrayW<::Il2CppChar> buffer);
     // private System.Xml.Schema.XmlSchema System.Xml.Serialization.IXmlSerializable.GetSchema()
     // Offset: 0x199A5F8
-    System::Xml::Schema::XmlSchema* System_Xml_Serialization_IXmlSerializable_GetSchema();
+    ::System::Xml::Schema::XmlSchema* System_Xml_Serialization_IXmlSerializable_GetSchema();
     // private System.Void System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader r)
     // Offset: 0x199A600
-    void System_Xml_Serialization_IXmlSerializable_ReadXml(System::Xml::XmlReader* r);
+    void System_Xml_Serialization_IXmlSerializable_ReadXml(::System::Xml::XmlReader* r);
     // private System.Void System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter writer)
     // Offset: 0x199A720
-    void System_Xml_Serialization_IXmlSerializable_WriteXml(System::Xml::XmlWriter* writer);
+    void System_Xml_Serialization_IXmlSerializable_WriteXml(::System::Xml::XmlWriter* writer);
     // static public System.Xml.XmlQualifiedName GetXsdType(System.Xml.Schema.XmlSchemaSet schemaSet)
     // Offset: 0x199A810
-    static System::Xml::XmlQualifiedName* GetXsdType(System::Xml::Schema::XmlSchemaSet* schemaSet);
+    static ::System::Xml::XmlQualifiedName* GetXsdType(::System::Xml::Schema::XmlSchemaSet* schemaSet);
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x199A884
-    void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
+    void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
     // public System.Void .ctor()
     // Offset: 0x199A0EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SqlChars* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Data::SqlTypes::SqlChars::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Data::SqlTypes::SqlChars::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SqlChars*, creationType>()));
     }
   }; // System.Data.SqlTypes.SqlChars
@@ -239,7 +239,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: System::Data::SqlTypes::SqlChars::get_Null
 // Il2CppName: get_Null
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::SqlTypes::SqlChars* (*)()>(&System::Data::SqlTypes::SqlChars::get_Null)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlChars* (*)()>(&System::Data::SqlTypes::SqlChars::get_Null)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::SqlTypes::SqlChars*), "get_Null", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -288,7 +288,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::SqlTypes::SqlChars::System_Xml_Serialization_IXmlSerializable_GetSchema
 // Il2CppName: System.Xml.Serialization.IXmlSerializable.GetSchema
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Schema::XmlSchema* (System::Data::SqlTypes::SqlChars::*)()>(&System::Data::SqlTypes::SqlChars::System_Xml_Serialization_IXmlSerializable_GetSchema)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchema* (System::Data::SqlTypes::SqlChars::*)()>(&System::Data::SqlTypes::SqlChars::System_Xml_Serialization_IXmlSerializable_GetSchema)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::SqlTypes::SqlChars*), "System.Xml.Serialization.IXmlSerializable.GetSchema", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -296,7 +296,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Data::SqlTypes::SqlChars::System_Xml_Serialization_IXmlSerializable_ReadXml
 // Il2CppName: System.Xml.Serialization.IXmlSerializable.ReadXml
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::SqlTypes::SqlChars::*)(System::Xml::XmlReader*)>(&System::Data::SqlTypes::SqlChars::System_Xml_Serialization_IXmlSerializable_ReadXml)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::SqlTypes::SqlChars::*)(::System::Xml::XmlReader*)>(&System::Data::SqlTypes::SqlChars::System_Xml_Serialization_IXmlSerializable_ReadXml)> {
   static const MethodInfo* get() {
     static auto* r = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlReader")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::SqlTypes::SqlChars*), "System.Xml.Serialization.IXmlSerializable.ReadXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{r});
@@ -305,7 +305,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::SqlTypes::SqlChars::System_Xml_Serialization_IXmlSerializable_WriteXml
 // Il2CppName: System.Xml.Serialization.IXmlSerializable.WriteXml
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::SqlTypes::SqlChars::*)(System::Xml::XmlWriter*)>(&System::Data::SqlTypes::SqlChars::System_Xml_Serialization_IXmlSerializable_WriteXml)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::SqlTypes::SqlChars::*)(::System::Xml::XmlWriter*)>(&System::Data::SqlTypes::SqlChars::System_Xml_Serialization_IXmlSerializable_WriteXml)> {
   static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlWriter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::SqlTypes::SqlChars*), "System.Xml.Serialization.IXmlSerializable.WriteXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{writer});
@@ -314,7 +314,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::SqlTypes::SqlChars::GetXsdType
 // Il2CppName: GetXsdType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlQualifiedName* (*)(System::Xml::Schema::XmlSchemaSet*)>(&System::Data::SqlTypes::SqlChars::GetXsdType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlQualifiedName* (*)(::System::Xml::Schema::XmlSchemaSet*)>(&System::Data::SqlTypes::SqlChars::GetXsdType)> {
   static const MethodInfo* get() {
     static auto* schemaSet = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaSet")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::SqlTypes::SqlChars*), "GetXsdType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{schemaSet});
@@ -323,7 +323,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Data::SqlTypes::SqlChars::System_Runtime_Serialization_ISerializable_GetObjectData
 // Il2CppName: System.Runtime.Serialization.ISerializable.GetObjectData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::SqlTypes::SqlChars::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::Data::SqlTypes::SqlChars::System_Runtime_Serialization_ISerializable_GetObjectData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::SqlTypes::SqlChars::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&System::Data::SqlTypes::SqlChars::System_Runtime_Serialization_ISerializable_GetObjectData)> {
   static const MethodInfo* get() {
     static auto* info = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;

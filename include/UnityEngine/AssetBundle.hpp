@@ -34,8 +34,8 @@ namespace UnityEngine {
   class AssetBundle;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::AssetBundle);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AssetBundle*, "UnityEngine", "AssetBundle");
+NEED_NO_BOX(::UnityEngine::AssetBundle);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AssetBundle*, "UnityEngine", "AssetBundle");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -54,72 +54,72 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: 11D5D7C
   // [NativeHeaderAttribute] Offset: 11D5D7C
   // [NativeHeaderAttribute] Offset: 11D5D7C
-  class AssetBundle : public UnityEngine::Object {
+  class AssetBundle : public ::UnityEngine::Object {
     public:
     // static UnityEngine.AssetBundleCreateRequest LoadFromFileAsync_Internal(System.String path, System.UInt32 crc, System.UInt64 offset)
     // Offset: 0x2A5E428
-    static UnityEngine::AssetBundleCreateRequest* LoadFromFileAsync_Internal(::StringW path, uint crc, uint64_t offset);
+    static ::UnityEngine::AssetBundleCreateRequest* LoadFromFileAsync_Internal(::StringW path, uint crc, uint64_t offset);
     // static public UnityEngine.AssetBundleCreateRequest LoadFromFileAsync(System.String path)
     // Offset: 0x2A5E480
-    static UnityEngine::AssetBundleCreateRequest* LoadFromFileAsync(::StringW path);
+    static ::UnityEngine::AssetBundleCreateRequest* LoadFromFileAsync(::StringW path);
     // static public UnityEngine.AssetBundleCreateRequest LoadFromFileAsync(System.String path, System.UInt32 crc)
     // Offset: 0x2A5E4C8
-    static UnityEngine::AssetBundleCreateRequest* LoadFromFileAsync(::StringW path, uint crc);
+    static ::UnityEngine::AssetBundleCreateRequest* LoadFromFileAsync(::StringW path, uint crc);
     // static UnityEngine.AssetBundle LoadFromFile_Internal(System.String path, System.UInt32 crc, System.UInt64 offset)
     // Offset: 0x2A5E51C
-    static UnityEngine::AssetBundle* LoadFromFile_Internal(::StringW path, uint crc, uint64_t offset);
+    static ::UnityEngine::AssetBundle* LoadFromFile_Internal(::StringW path, uint crc, uint64_t offset);
     // static public UnityEngine.AssetBundle LoadFromFile(System.String path)
     // Offset: 0x2A5E574
-    static UnityEngine::AssetBundle* LoadFromFile(::StringW path);
+    static ::UnityEngine::AssetBundle* LoadFromFile(::StringW path);
     // public UnityEngine.Object LoadAsset(System.String name)
     // Offset: 0x2A5E5BC
-    UnityEngine::Object* LoadAsset(::StringW name);
+    ::UnityEngine::Object* LoadAsset(::StringW name);
     // public T LoadAsset(System.String name)
     // Offset: 0xFFFFFFFF
     template<class T>
     T LoadAsset(::StringW name) {
-      static_assert(std::is_convertible_v<T, UnityEngine::Object*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AssetBundle::LoadAsset");
+      static_assert(std::is_convertible_v<T, ::UnityEngine::Object*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AssetBundle::LoadAsset");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "LoadAsset", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(name)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___generic__method, name);
     }
     // public UnityEngine.Object LoadAsset(System.String name, System.Type type)
     // Offset: 0x2A5E64C
-    UnityEngine::Object* LoadAsset(::StringW name, System::Type* type);
+    ::UnityEngine::Object* LoadAsset(::StringW name, ::System::Type* type);
     // private UnityEngine.Object LoadAsset_Internal(System.String name, System.Type type)
     // Offset: 0x2A5E75C
-    UnityEngine::Object* LoadAsset_Internal(::StringW name, System::Type* type);
+    ::UnityEngine::Object* LoadAsset_Internal(::StringW name, ::System::Type* type);
     // public UnityEngine.AssetBundleRequest LoadAssetAsync(System.String name)
     // Offset: 0xFFFFFFFF
     template<class T>
-    UnityEngine::AssetBundleRequest* LoadAssetAsync(::StringW name) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AssetBundle::LoadAssetAsync");
+    ::UnityEngine::AssetBundleRequest* LoadAssetAsync(::StringW name) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AssetBundle::LoadAssetAsync");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "LoadAssetAsync", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(name)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodRethrow<UnityEngine::AssetBundleRequest*, false>(this, ___generic__method, name);
+      return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::AssetBundleRequest*, false>(this, ___generic__method, name);
     }
     // public UnityEngine.AssetBundleRequest LoadAssetAsync(System.String name, System.Type type)
     // Offset: 0x2A5E7B4
-    UnityEngine::AssetBundleRequest* LoadAssetAsync(::StringW name, System::Type* type);
+    ::UnityEngine::AssetBundleRequest* LoadAssetAsync(::StringW name, ::System::Type* type);
     // public UnityEngine.AssetBundleRequest LoadAssetWithSubAssetsAsync(System.String name, System.Type type)
     // Offset: 0x2A5E91C
-    UnityEngine::AssetBundleRequest* LoadAssetWithSubAssetsAsync(::StringW name, System::Type* type);
+    ::UnityEngine::AssetBundleRequest* LoadAssetWithSubAssetsAsync(::StringW name, ::System::Type* type);
     // public UnityEngine.AssetBundleRequest LoadAllAssetsAsync()
     // Offset: 0xFFFFFFFF
     template<class T>
-    UnityEngine::AssetBundleRequest* LoadAllAssetsAsync() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AssetBundle::LoadAllAssetsAsync");
+    ::UnityEngine::AssetBundleRequest* LoadAllAssetsAsync() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AssetBundle::LoadAllAssetsAsync");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "LoadAllAssetsAsync", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodRethrow<UnityEngine::AssetBundleRequest*, false>(this, ___generic__method);
+      return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::AssetBundleRequest*, false>(this, ___generic__method);
     }
     // public UnityEngine.AssetBundleRequest LoadAllAssetsAsync(System.Type type)
     // Offset: 0x2A5EA84
-    UnityEngine::AssetBundleRequest* LoadAllAssetsAsync(System::Type* type);
+    ::UnityEngine::AssetBundleRequest* LoadAllAssetsAsync(::System::Type* type);
     // private UnityEngine.AssetBundleRequest LoadAssetAsync_Internal(System.String name, System.Type type)
     // Offset: 0x2A5E8C4
-    UnityEngine::AssetBundleRequest* LoadAssetAsync_Internal(::StringW name, System::Type* type);
+    ::UnityEngine::AssetBundleRequest* LoadAssetAsync_Internal(::StringW name, ::System::Type* type);
     // public System.Void Unload(System.Boolean unloadAllLoadedObjects)
     // Offset: 0x2A5EB48
     void Unload(bool unloadAllLoadedObjects);
@@ -131,7 +131,7 @@ namespace UnityEngine {
     ::ArrayW<::StringW> GetAllScenePaths();
     // private UnityEngine.AssetBundleRequest LoadAssetWithSubAssetsAsync_Internal(System.String name, System.Type type)
     // Offset: 0x2A5EA2C
-    UnityEngine::AssetBundleRequest* LoadAssetWithSubAssetsAsync_Internal(::StringW name, System::Type* type);
+    ::UnityEngine::AssetBundleRequest* LoadAssetWithSubAssetsAsync_Internal(::StringW name, ::System::Type* type);
     // private System.Void .ctor()
     // Offset: 0x2A5E3C0
     // Implemented from: UnityEngine.Object
@@ -139,7 +139,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssetBundle* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AssetBundle::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AssetBundle::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssetBundle*, creationType>()));
     }
   }; // UnityEngine.AssetBundle
@@ -149,7 +149,7 @@ namespace UnityEngine {
 // Writing MetadataGetter for method: UnityEngine::AssetBundle::LoadFromFileAsync_Internal
 // Il2CppName: LoadFromFileAsync_Internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AssetBundleCreateRequest* (*)(::StringW, uint, uint64_t)>(&UnityEngine::AssetBundle::LoadFromFileAsync_Internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AssetBundleCreateRequest* (*)(::StringW, uint, uint64_t)>(&UnityEngine::AssetBundle::LoadFromFileAsync_Internal)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* crc = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -160,7 +160,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::AssetBundle::LoadFromFileAsync
 // Il2CppName: LoadFromFileAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AssetBundleCreateRequest* (*)(::StringW)>(&UnityEngine::AssetBundle::LoadFromFileAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AssetBundleCreateRequest* (*)(::StringW)>(&UnityEngine::AssetBundle::LoadFromFileAsync)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AssetBundle*), "LoadFromFileAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
@@ -169,7 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::AssetBundle::LoadFromFileAsync
 // Il2CppName: LoadFromFileAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AssetBundleCreateRequest* (*)(::StringW, uint)>(&UnityEngine::AssetBundle::LoadFromFileAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AssetBundleCreateRequest* (*)(::StringW, uint)>(&UnityEngine::AssetBundle::LoadFromFileAsync)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* crc = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -179,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::AssetBundle::LoadFromFile_Internal
 // Il2CppName: LoadFromFile_Internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AssetBundle* (*)(::StringW, uint, uint64_t)>(&UnityEngine::AssetBundle::LoadFromFile_Internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AssetBundle* (*)(::StringW, uint, uint64_t)>(&UnityEngine::AssetBundle::LoadFromFile_Internal)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* crc = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -190,7 +190,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::AssetBundle::LoadFromFile
 // Il2CppName: LoadFromFile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AssetBundle* (*)(::StringW)>(&UnityEngine::AssetBundle::LoadFromFile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AssetBundle* (*)(::StringW)>(&UnityEngine::AssetBundle::LoadFromFile)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AssetBundle*), "LoadFromFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
@@ -199,7 +199,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::AssetBundle::LoadAsset
 // Il2CppName: LoadAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (UnityEngine::AssetBundle::*)(::StringW)>(&UnityEngine::AssetBundle::LoadAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Object* (UnityEngine::AssetBundle::*)(::StringW)>(&UnityEngine::AssetBundle::LoadAsset)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AssetBundle*), "LoadAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -211,7 +211,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::AssetBundle::LoadAsset
 // Il2CppName: LoadAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (UnityEngine::AssetBundle::*)(::StringW, System::Type*)>(&UnityEngine::AssetBundle::LoadAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Object* (UnityEngine::AssetBundle::*)(::StringW, ::System::Type*)>(&UnityEngine::AssetBundle::LoadAsset)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -221,7 +221,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::AssetBundle::LoadAsset_Internal
 // Il2CppName: LoadAsset_Internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (UnityEngine::AssetBundle::*)(::StringW, System::Type*)>(&UnityEngine::AssetBundle::LoadAsset_Internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Object* (UnityEngine::AssetBundle::*)(::StringW, ::System::Type*)>(&UnityEngine::AssetBundle::LoadAsset_Internal)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -234,7 +234,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::AssetBundle::LoadAssetAsync
 // Il2CppName: LoadAssetAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AssetBundleRequest* (UnityEngine::AssetBundle::*)(::StringW, System::Type*)>(&UnityEngine::AssetBundle::LoadAssetAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AssetBundleRequest* (UnityEngine::AssetBundle::*)(::StringW, ::System::Type*)>(&UnityEngine::AssetBundle::LoadAssetAsync)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -244,7 +244,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::AssetBundle::LoadAssetWithSubAssetsAsync
 // Il2CppName: LoadAssetWithSubAssetsAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AssetBundleRequest* (UnityEngine::AssetBundle::*)(::StringW, System::Type*)>(&UnityEngine::AssetBundle::LoadAssetWithSubAssetsAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AssetBundleRequest* (UnityEngine::AssetBundle::*)(::StringW, ::System::Type*)>(&UnityEngine::AssetBundle::LoadAssetWithSubAssetsAsync)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -257,7 +257,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::AssetBundle::LoadAllAssetsAsync
 // Il2CppName: LoadAllAssetsAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AssetBundleRequest* (UnityEngine::AssetBundle::*)(System::Type*)>(&UnityEngine::AssetBundle::LoadAllAssetsAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AssetBundleRequest* (UnityEngine::AssetBundle::*)(::System::Type*)>(&UnityEngine::AssetBundle::LoadAllAssetsAsync)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AssetBundle*), "LoadAllAssetsAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -266,7 +266,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::AssetBundle::LoadAssetAsync_Internal
 // Il2CppName: LoadAssetAsync_Internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AssetBundleRequest* (UnityEngine::AssetBundle::*)(::StringW, System::Type*)>(&UnityEngine::AssetBundle::LoadAssetAsync_Internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AssetBundleRequest* (UnityEngine::AssetBundle::*)(::StringW, ::System::Type*)>(&UnityEngine::AssetBundle::LoadAssetAsync_Internal)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -301,7 +301,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: UnityEngine::AssetBundle::LoadAssetWithSubAssetsAsync_Internal
 // Il2CppName: LoadAssetWithSubAssetsAsync_Internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AssetBundleRequest* (UnityEngine::AssetBundle::*)(::StringW, System::Type*)>(&UnityEngine::AssetBundle::LoadAssetWithSubAssetsAsync_Internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AssetBundleRequest* (UnityEngine::AssetBundle::*)(::StringW, ::System::Type*)>(&UnityEngine::AssetBundle::LoadAssetWithSubAssetsAsync_Internal)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;

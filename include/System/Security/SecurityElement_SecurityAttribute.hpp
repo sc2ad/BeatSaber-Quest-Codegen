@@ -14,8 +14,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Security::SecurityElement::SecurityAttribute);
-DEFINE_IL2CPP_ARG_TYPE(System::Security::SecurityElement::SecurityAttribute*, "System.Security", "SecurityElement/SecurityAttribute");
+NEED_NO_BOX(::System::Security::SecurityElement::SecurityAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::Security::SecurityElement::SecurityAttribute*, "System.Security", "SecurityElement/SecurityAttribute");
 // Type namespace: System.Security
 namespace System::Security {
   // Size: 0x20
@@ -60,7 +60,7 @@ namespace System::Security {
     // Offset: 0x1FF768C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SecurityElement::SecurityAttribute* New_ctor(::StringW name, ::StringW value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::SecurityElement::SecurityAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::SecurityElement::SecurityAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SecurityElement::SecurityAttribute*, creationType>(name, value)));
     }
   }; // System.Security.SecurityElement/System.Security.SecurityAttribute

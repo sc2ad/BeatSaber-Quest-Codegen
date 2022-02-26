@@ -43,8 +43,8 @@ namespace Zenject {
   class PoolableManager;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::PoolableManager);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::PoolableManager*, "Zenject", "PoolableManager");
+NEED_NO_BOX(::Zenject::PoolableManager);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::PoolableManager*, "Zenject", "PoolableManager");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x19
@@ -53,13 +53,13 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class PoolableManager : public ::Il2CppObject {
     public:
-    // Nested type: Zenject::PoolableManager::PoolableInfo
+    // Nested type: ::Zenject::PoolableManager::PoolableInfo
     struct PoolableInfo;
-    // Nested type: Zenject::PoolableManager::$$c__DisplayClass2_0
+    // Nested type: ::Zenject::PoolableManager::$$c__DisplayClass2_0
     class $$c__DisplayClass2_0;
-    // Nested type: Zenject::PoolableManager::$$c
+    // Nested type: ::Zenject::PoolableManager::$$c
     class $$c;
-    // Nested type: Zenject::PoolableManager::$$c__DisplayClass3_0
+    // Nested type: ::Zenject::PoolableManager::$$c__DisplayClass3_0
     class $$c__DisplayClass3_0;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -73,9 +73,9 @@ namespace Zenject {
     // private readonly System.Collections.Generic.List`1<Zenject.IPoolable> _poolables
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::List_1<Zenject::IPoolable*>* poolables;
+    ::System::Collections::Generic::List_1<::Zenject::IPoolable*>* poolables;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<Zenject::IPoolable*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::Zenject::IPoolable*>*) == 0x8);
     // private System.Boolean _isSpawned
     // Size: 0x1
     // Offset: 0x18
@@ -84,19 +84,19 @@ namespace Zenject {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private readonly System.Collections.Generic.List`1<Zenject.IPoolable> _poolables
-    System::Collections::Generic::List_1<Zenject::IPoolable*>*& dyn__poolables();
+    ::System::Collections::Generic::List_1<::Zenject::IPoolable*>*& dyn__poolables();
     // Get instance field reference: private System.Boolean _isSpawned
     bool& dyn__isSpawned();
     // public System.Void .ctor(System.Collections.Generic.List`1<Zenject.IPoolable> poolables, System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> priorities)
     // Offset: 0x1B0D278
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PoolableManager* New_ctor(System::Collections::Generic::List_1<Zenject::IPoolable*>* poolables, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>* priorities) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::PoolableManager::.ctor");
+    static PoolableManager* New_ctor(::System::Collections::Generic::List_1<::Zenject::IPoolable*>* poolables, ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int>*>* priorities) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PoolableManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PoolableManager*, creationType>(poolables, priorities)));
     }
     // private Zenject.PoolableManager/Zenject.PoolableInfo CreatePoolableInfo(Zenject.IPoolable poolable, System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> priorities)
     // Offset: 0x1B0D4D4
-    Zenject::PoolableManager::PoolableInfo CreatePoolableInfo(Zenject::IPoolable* poolable, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>* priorities);
+    ::Zenject::PoolableManager::PoolableInfo CreatePoolableInfo(::Zenject::IPoolable* poolable, ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int>*>* priorities);
     // public System.Void TriggerOnSpawned()
     // Offset: 0x1B0D6A8
     void TriggerOnSpawned();
@@ -108,7 +108,7 @@ namespace Zenject {
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
     // Offset: 0x1B0D9E4
-    static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.PoolableManager
   #pragma pack(pop)
   static check_size<sizeof(PoolableManager), 24 + sizeof(bool)> __Zenject_PoolableManagerSizeCheck;
@@ -122,7 +122,7 @@ namespace Zenject {
 // Writing MetadataGetter for method: Zenject::PoolableManager::CreatePoolableInfo
 // Il2CppName: CreatePoolableInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::PoolableManager::PoolableInfo (Zenject::PoolableManager::*)(Zenject::IPoolable*, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>*)>(&Zenject::PoolableManager::CreatePoolableInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::PoolableManager::PoolableInfo (Zenject::PoolableManager::*)(::Zenject::IPoolable*, ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int>*>*)>(&Zenject::PoolableManager::CreatePoolableInfo)> {
   static const MethodInfo* get() {
     static auto* poolable = &::il2cpp_utils::GetClassFromName("Zenject", "IPoolable")->byval_arg;
     static auto* priorities = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("ModestTree.Util", "ValuePair`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Type"), ::il2cpp_utils::GetClassFromName("System", "Int32")})})->byval_arg;
@@ -157,7 +157,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: Zenject::PoolableManager::__zenCreateInjectTypeInfo
 // Il2CppName: __zenCreateInjectTypeInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (*)()>(&Zenject::PoolableManager::__zenCreateInjectTypeInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&Zenject::PoolableManager::__zenCreateInjectTypeInfo)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::PoolableManager*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

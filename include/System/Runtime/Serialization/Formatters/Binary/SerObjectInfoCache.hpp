@@ -30,8 +30,8 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   class SerObjectInfoCache;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache*, "System.Runtime.Serialization.Formatters.Binary", "SerObjectInfoCache");
+NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache*, "System.Runtime.Serialization.Formatters.Binary", "SerObjectInfoCache");
 // Type namespace: System.Runtime.Serialization.Formatters.Binary
 namespace System::Runtime::Serialization::Formatters::Binary {
   // Size: 0x40
@@ -72,9 +72,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.Reflection.MemberInfo[] memberInfos
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayW<System::Reflection::MemberInfo*> memberInfos;
+    ::ArrayW<::System::Reflection::MemberInfo*> memberInfos;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::Reflection::MemberInfo*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::System::Reflection::MemberInfo*>) == 0x8);
     // System.String[] memberNames
     // Size: 0x8
     // Offset: 0x30
@@ -84,9 +84,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.Type[] memberTypes
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayW<System::Type*> memberTypes;
+    ::ArrayW<::System::Type*> memberTypes;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::Type*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::System::Type*>) == 0x8);
     public:
     // Get instance field reference: System.String fullTypeName
     ::StringW& dyn_fullTypeName();
@@ -95,28 +95,28 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.Boolean hasTypeForwardedFrom
     bool& dyn_hasTypeForwardedFrom();
     // Get instance field reference: System.Reflection.MemberInfo[] memberInfos
-    ::ArrayW<System::Reflection::MemberInfo*>& dyn_memberInfos();
+    ::ArrayW<::System::Reflection::MemberInfo*>& dyn_memberInfos();
     // Get instance field reference: System.String[] memberNames
     ::ArrayW<::StringW>& dyn_memberNames();
     // Get instance field reference: System.Type[] memberTypes
-    ::ArrayW<System::Type*>& dyn_memberTypes();
+    ::ArrayW<::System::Type*>& dyn_memberTypes();
     // System.Void .ctor(System.String typeName, System.String assemblyName, System.Boolean hasTypeForwardedFrom)
     // Offset: 0x157F958
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SerObjectInfoCache* New_ctor(::StringW typeName, ::StringW assemblyName, bool hasTypeForwardedFrom) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SerObjectInfoCache*, creationType>(typeName, assemblyName, hasTypeForwardedFrom)));
     }
     // System.Void .ctor(System.Type type)
     // Offset: 0x157EA10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SerObjectInfoCache* New_ctor(System::Type* type) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache::.ctor");
+    static SerObjectInfoCache* New_ctor(::System::Type* type) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SerObjectInfoCache*, creationType>(type)));
     }
   }; // System.Runtime.Serialization.Formatters.Binary.SerObjectInfoCache
   #pragma pack(pop)
-  static check_size<sizeof(SerObjectInfoCache), 56 + sizeof(::ArrayW<System::Type*>)> __System_Runtime_Serialization_Formatters_Binary_SerObjectInfoCacheSizeCheck;
+  static check_size<sizeof(SerObjectInfoCache), 56 + sizeof(::ArrayW<::System::Type*>)> __System_Runtime_Serialization_Formatters_Binary_SerObjectInfoCacheSizeCheck;
   static_assert(sizeof(SerObjectInfoCache) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

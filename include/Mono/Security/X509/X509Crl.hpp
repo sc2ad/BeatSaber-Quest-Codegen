@@ -43,8 +43,8 @@ namespace Mono::Security::X509 {
   class X509Crl;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Security::X509::X509Crl);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509Crl*, "Mono.Security.X509", "X509Crl");
+NEED_NO_BOX(::Mono::Security::X509::X509Crl);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::X509::X509Crl*, "Mono.Security.X509", "X509Crl");
 // Type namespace: Mono.Security.X509
 namespace Mono::Security::X509 {
   // Size: 0x60
@@ -54,7 +54,7 @@ namespace Mono::Security::X509 {
   // [DefaultMemberAttribute] Offset: 11938AC
   class X509Crl : public ::Il2CppObject {
     public:
-    // Nested type: Mono::Security::X509::X509Crl::X509CrlEntry
+    // Nested type: ::Mono::Security::X509::X509Crl::X509CrlEntry
     class X509CrlEntry;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -82,21 +82,21 @@ namespace Mono::Security::X509 {
     // private System.DateTime thisUpdate
     // Size: 0x8
     // Offset: 0x20
-    System::DateTime thisUpdate;
+    ::System::DateTime thisUpdate;
     // Field size check
-    static_assert(sizeof(System::DateTime) == 0x8);
+    static_assert(sizeof(::System::DateTime) == 0x8);
     // private System.DateTime nextUpdate
     // Size: 0x8
     // Offset: 0x28
-    System::DateTime nextUpdate;
+    ::System::DateTime nextUpdate;
     // Field size check
-    static_assert(sizeof(System::DateTime) == 0x8);
+    static_assert(sizeof(::System::DateTime) == 0x8);
     // private System.Collections.ArrayList entries
     // Size: 0x8
     // Offset: 0x30
-    System::Collections::ArrayList* entries;
+    ::System::Collections::ArrayList* entries;
     // Field size check
-    static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
+    static_assert(sizeof(::System::Collections::ArrayList*) == 0x8);
     // private System.String signatureOID
     // Size: 0x8
     // Offset: 0x38
@@ -112,9 +112,9 @@ namespace Mono::Security::X509 {
     // private Mono.Security.X509.X509ExtensionCollection extensions
     // Size: 0x8
     // Offset: 0x48
-    Mono::Security::X509::X509ExtensionCollection* extensions;
+    ::Mono::Security::X509::X509ExtensionCollection* extensions;
     // Field size check
-    static_assert(sizeof(Mono::Security::X509::X509ExtensionCollection*) == 0x8);
+    static_assert(sizeof(::Mono::Security::X509::X509ExtensionCollection*) == 0x8);
     // private System.Byte[] encoded
     // Size: 0x8
     // Offset: 0x50
@@ -133,24 +133,24 @@ namespace Mono::Security::X509 {
     // Get instance field reference: private System.Byte version
     uint8_t& dyn_version();
     // Get instance field reference: private System.DateTime thisUpdate
-    System::DateTime& dyn_thisUpdate();
+    ::System::DateTime& dyn_thisUpdate();
     // Get instance field reference: private System.DateTime nextUpdate
-    System::DateTime& dyn_nextUpdate();
+    ::System::DateTime& dyn_nextUpdate();
     // Get instance field reference: private System.Collections.ArrayList entries
-    System::Collections::ArrayList*& dyn_entries();
+    ::System::Collections::ArrayList*& dyn_entries();
     // Get instance field reference: private System.String signatureOID
     ::StringW& dyn_signatureOID();
     // Get instance field reference: private System.Byte[] signature
     ::ArrayW<uint8_t>& dyn_signature();
     // Get instance field reference: private Mono.Security.X509.X509ExtensionCollection extensions
-    Mono::Security::X509::X509ExtensionCollection*& dyn_extensions();
+    ::Mono::Security::X509::X509ExtensionCollection*& dyn_extensions();
     // Get instance field reference: private System.Byte[] encoded
     ::ArrayW<uint8_t>& dyn_encoded();
     // Get instance field reference: private System.Byte[] hash_value
     ::ArrayW<uint8_t>& dyn_hash_value();
     // public Mono.Security.X509.X509ExtensionCollection get_Extensions()
     // Offset: 0x2A1F248
-    Mono::Security::X509::X509ExtensionCollection* get_Extensions();
+    ::Mono::Security::X509::X509ExtensionCollection* get_Extensions();
     // public System.Byte[] get_Hash()
     // Offset: 0x2A1F250
     ::ArrayW<uint8_t> get_Hash();
@@ -159,12 +159,12 @@ namespace Mono::Security::X509 {
     ::StringW get_IssuerName();
     // public System.DateTime get_NextUpdate()
     // Offset: 0x2A1F3F0
-    System::DateTime get_NextUpdate();
+    ::System::DateTime get_NextUpdate();
     // public System.Void .ctor(System.Byte[] crl)
     // Offset: 0x2A1EA18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Crl* New_ctor(::ArrayW<uint8_t> crl) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::X509::X509Crl::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::X509::X509Crl::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Crl*, creationType>(crl)));
     }
     // private System.Void Parse(System.Byte[] crl)
@@ -175,19 +175,19 @@ namespace Mono::Security::X509 {
     bool Compare(::ArrayW<uint8_t> array1, ::ArrayW<uint8_t> array2);
     // public Mono.Security.X509.X509Crl/Mono.Security.X509.X509CrlEntry GetCrlEntry(Mono.Security.X509.X509Certificate x509)
     // Offset: 0x2A1F478
-    Mono::Security::X509::X509Crl::X509CrlEntry* GetCrlEntry(Mono::Security::X509::X509Certificate* x509);
+    ::Mono::Security::X509::X509Crl::X509CrlEntry* GetCrlEntry(::Mono::Security::X509::X509Certificate* x509);
     // public Mono.Security.X509.X509Crl/Mono.Security.X509.X509CrlEntry GetCrlEntry(System.Byte[] serialNumber)
     // Offset: 0x2A1F520
-    Mono::Security::X509::X509Crl::X509CrlEntry* GetCrlEntry(::ArrayW<uint8_t> serialNumber);
+    ::Mono::Security::X509::X509Crl::X509CrlEntry* GetCrlEntry(::ArrayW<uint8_t> serialNumber);
     // System.Boolean VerifySignature(System.Security.Cryptography.DSA dsa)
     // Offset: 0x2A1F6E8
-    bool VerifySignature(System::Security::Cryptography::DSA* dsa);
+    bool VerifySignature(::System::Security::Cryptography::DSA* dsa);
     // System.Boolean VerifySignature(System.Security.Cryptography.RSA rsa)
     // Offset: 0x2A1F984
-    bool VerifySignature(System::Security::Cryptography::RSA* rsa);
+    bool VerifySignature(::System::Security::Cryptography::RSA* rsa);
     // public System.Boolean VerifySignature(System.Security.Cryptography.AsymmetricAlgorithm aa)
     // Offset: 0x2A1FA5C
-    bool VerifySignature(System::Security::Cryptography::AsymmetricAlgorithm* aa);
+    bool VerifySignature(::System::Security::Cryptography::AsymmetricAlgorithm* aa);
   }; // Mono.Security.X509.X509Crl
   #pragma pack(pop)
   static check_size<sizeof(X509Crl), 88 + sizeof(::ArrayW<uint8_t>)> __Mono_Security_X509_X509CrlSizeCheck;
@@ -197,7 +197,7 @@ namespace Mono::Security::X509 {
 // Writing MetadataGetter for method: Mono::Security::X509::X509Crl::get_Extensions
 // Il2CppName: get_Extensions
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::X509::X509ExtensionCollection* (Mono::Security::X509::X509Crl::*)()>(&Mono::Security::X509::X509Crl::get_Extensions)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::X509::X509ExtensionCollection* (Mono::Security::X509::X509Crl::*)()>(&Mono::Security::X509::X509Crl::get_Extensions)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Crl*), "get_Extensions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -221,7 +221,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: Mono::Security::X509::X509Crl::get_NextUpdate
 // Il2CppName: get_NextUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (Mono::Security::X509::X509Crl::*)()>(&Mono::Security::X509::X509Crl::get_NextUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (Mono::Security::X509::X509Crl::*)()>(&Mono::Security::X509::X509Crl::get_NextUpdate)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Crl*), "get_NextUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -252,7 +252,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 // Writing MetadataGetter for method: Mono::Security::X509::X509Crl::GetCrlEntry
 // Il2CppName: GetCrlEntry
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::X509::X509Crl::X509CrlEntry* (Mono::Security::X509::X509Crl::*)(Mono::Security::X509::X509Certificate*)>(&Mono::Security::X509::X509Crl::GetCrlEntry)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::X509::X509Crl::X509CrlEntry* (Mono::Security::X509::X509Crl::*)(::Mono::Security::X509::X509Certificate*)>(&Mono::Security::X509::X509Crl::GetCrlEntry)> {
   static const MethodInfo* get() {
     static auto* x509 = &::il2cpp_utils::GetClassFromName("Mono.Security.X509", "X509Certificate")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Crl*), "GetCrlEntry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x509});
@@ -261,7 +261,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 // Writing MetadataGetter for method: Mono::Security::X509::X509Crl::GetCrlEntry
 // Il2CppName: GetCrlEntry
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::X509::X509Crl::X509CrlEntry* (Mono::Security::X509::X509Crl::*)(::ArrayW<uint8_t>)>(&Mono::Security::X509::X509Crl::GetCrlEntry)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::X509::X509Crl::X509CrlEntry* (Mono::Security::X509::X509Crl::*)(::ArrayW<uint8_t>)>(&Mono::Security::X509::X509Crl::GetCrlEntry)> {
   static const MethodInfo* get() {
     static auto* serialNumber = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Crl*), "GetCrlEntry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{serialNumber});
@@ -270,7 +270,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 // Writing MetadataGetter for method: Mono::Security::X509::X509Crl::VerifySignature
 // Il2CppName: VerifySignature
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::X509::X509Crl::*)(System::Security::Cryptography::DSA*)>(&Mono::Security::X509::X509Crl::VerifySignature)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::X509::X509Crl::*)(::System::Security::Cryptography::DSA*)>(&Mono::Security::X509::X509Crl::VerifySignature)> {
   static const MethodInfo* get() {
     static auto* dsa = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography", "DSA")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Crl*), "VerifySignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dsa});
@@ -279,7 +279,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 // Writing MetadataGetter for method: Mono::Security::X509::X509Crl::VerifySignature
 // Il2CppName: VerifySignature
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::X509::X509Crl::*)(System::Security::Cryptography::RSA*)>(&Mono::Security::X509::X509Crl::VerifySignature)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::X509::X509Crl::*)(::System::Security::Cryptography::RSA*)>(&Mono::Security::X509::X509Crl::VerifySignature)> {
   static const MethodInfo* get() {
     static auto* rsa = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography", "RSA")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Crl*), "VerifySignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rsa});
@@ -288,7 +288,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 // Writing MetadataGetter for method: Mono::Security::X509::X509Crl::VerifySignature
 // Il2CppName: VerifySignature
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::X509::X509Crl::*)(System::Security::Cryptography::AsymmetricAlgorithm*)>(&Mono::Security::X509::X509Crl::VerifySignature)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::X509::X509Crl::*)(::System::Security::Cryptography::AsymmetricAlgorithm*)>(&Mono::Security::X509::X509Crl::VerifySignature)> {
   static const MethodInfo* get() {
     static auto* aa = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography", "AsymmetricAlgorithm")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Crl*), "VerifySignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{aa});

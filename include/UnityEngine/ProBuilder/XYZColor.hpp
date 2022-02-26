@@ -24,8 +24,8 @@ namespace UnityEngine::ProBuilder {
   class XYZColor;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::XYZColor);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::XYZColor*, "UnityEngine.ProBuilder", "XYZColor");
+NEED_NO_BOX(::UnityEngine::ProBuilder::XYZColor);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::XYZColor*, "UnityEngine.ProBuilder", "XYZColor");
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
   // Size: 0x1C
@@ -72,15 +72,15 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x28D0FF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XYZColor* New_ctor(float x, float y, float z) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::XYZColor::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::XYZColor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XYZColor*, creationType>(x, y, z)));
     }
     // static public UnityEngine.ProBuilder.XYZColor FromRGB(UnityEngine.Color col)
     // Offset: 0x28D103C
-    static UnityEngine::ProBuilder::XYZColor* FromRGB(UnityEngine::Color col);
+    static ::UnityEngine::ProBuilder::XYZColor* FromRGB(::UnityEngine::Color col);
     // static public UnityEngine.ProBuilder.XYZColor FromRGB(System.Single R, System.Single G, System.Single B)
     // Offset: 0x28D10CC
-    static UnityEngine::ProBuilder::XYZColor* FromRGB(float R, float G, float B);
+    static ::UnityEngine::ProBuilder::XYZColor* FromRGB(float R, float G, float B);
     // public override System.String ToString()
     // Offset: 0x28D1154
     // Implemented from: System.Object
@@ -99,7 +99,7 @@ namespace UnityEngine::ProBuilder {
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::XYZColor::FromRGB
 // Il2CppName: FromRGB
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::XYZColor* (*)(UnityEngine::Color)>(&UnityEngine::ProBuilder::XYZColor::FromRGB)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::XYZColor* (*)(::UnityEngine::Color)>(&UnityEngine::ProBuilder::XYZColor::FromRGB)> {
   static const MethodInfo* get() {
     static auto* col = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::XYZColor*), "FromRGB", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{col});
@@ -108,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::XYZColor::FromRGB
 // Il2CppName: FromRGB
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::XYZColor* (*)(float, float, float)>(&UnityEngine::ProBuilder::XYZColor::FromRGB)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::XYZColor* (*)(float, float, float)>(&UnityEngine::ProBuilder::XYZColor::FromRGB)> {
   static const MethodInfo* get() {
     static auto* R = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* G = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

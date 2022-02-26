@@ -13,8 +13,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HMUI::ModalView::$$c__DisplayClass21_0);
-DEFINE_IL2CPP_ARG_TYPE(HMUI::ModalView::$$c__DisplayClass21_0*, "HMUI", "ModalView/<>c__DisplayClass21_0");
+NEED_NO_BOX(::HMUI::ModalView::$$c__DisplayClass21_0);
+DEFINE_IL2CPP_ARG_TYPE(::HMUI::ModalView::$$c__DisplayClass21_0*, "HMUI", "ModalView/<>c__DisplayClass21_0");
 // Type namespace: HMUI
 namespace HMUI {
   // Size: 0x19
@@ -36,9 +36,9 @@ namespace HMUI {
     // public HMUI.ModalView <>4__this
     // Size: 0x8
     // Offset: 0x10
-    HMUI::ModalView* $$4__this;
+    ::HMUI::ModalView* $$4__this;
     // Field size check
-    static_assert(sizeof(HMUI::ModalView*) == 0x8);
+    static_assert(sizeof(::HMUI::ModalView*) == 0x8);
     // public System.Boolean prevAnimateParentCanvas
     // Size: 0x1
     // Offset: 0x18
@@ -47,7 +47,7 @@ namespace HMUI {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public HMUI.ModalView <>4__this
-    HMUI::ModalView*& dyn_$$4__this();
+    ::HMUI::ModalView*& dyn_$$4__this();
     // Get instance field reference: public System.Boolean prevAnimateParentCanvas
     bool& dyn_prevAnimateParentCanvas();
     // System.Void <HandleParentViewControllerDidDeactivate>b__0()
@@ -59,7 +59,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ModalView::$$c__DisplayClass21_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::ModalView::$$c__DisplayClass21_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ModalView::$$c__DisplayClass21_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ModalView::$$c__DisplayClass21_0*, creationType>()));
     }
   }; // HMUI.ModalView/HMUI.<>c__DisplayClass21_0

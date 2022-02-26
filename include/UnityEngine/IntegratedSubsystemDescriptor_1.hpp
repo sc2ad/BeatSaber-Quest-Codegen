@@ -26,7 +26,7 @@ namespace UnityEngine {
   class IntegratedSubsystemDescriptor_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::IntegratedSubsystemDescriptor_1, "UnityEngine", "IntegratedSubsystemDescriptor`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::IntegratedSubsystemDescriptor_1, "UnityEngine", "IntegratedSubsystemDescriptor`1");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // WARNING Size may be invalid!
@@ -36,7 +36,7 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: 11BC1EC
   // [NativeTypeAttribute] Offset: 11BC1EC
   template<typename TSubsystem>
-  class IntegratedSubsystemDescriptor_1 : public UnityEngine::IntegratedSubsystemDescriptor {
+  class IntegratedSubsystemDescriptor_1 : public ::UnityEngine::IntegratedSubsystemDescriptor {
     public:
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
@@ -45,7 +45,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IntegratedSubsystemDescriptor_1<TSubsystem>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::IntegratedSubsystemDescriptor_1::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::IntegratedSubsystemDescriptor_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IntegratedSubsystemDescriptor_1<TSubsystem>*, creationType>()));
     }
   }; // UnityEngine.IntegratedSubsystemDescriptor`1

@@ -13,8 +13,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::AlphabetScrollInfo::Data);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AlphabetScrollInfo::Data*, "", "AlphabetScrollInfo/Data");
+NEED_NO_BOX(::GlobalNamespace::AlphabetScrollInfo::Data);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AlphabetScrollInfo::Data*, "", "AlphabetScrollInfo/Data");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     // Offset: 0x2C15584
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AlphabetScrollInfo::Data* New_ctor(::Il2CppChar character, int cellIdx) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AlphabetScrollInfo::Data::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AlphabetScrollInfo::Data::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AlphabetScrollInfo::Data*, creationType>(character, cellIdx)));
     }
   }; // AlphabetScrollInfo/Data

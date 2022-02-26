@@ -19,8 +19,8 @@ namespace System::Configuration {
   class ConfigurationElement;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Configuration::ConfigurationElement);
-DEFINE_IL2CPP_ARG_TYPE(System::Configuration::ConfigurationElement*, "System.Configuration", "ConfigurationElement");
+NEED_NO_BOX(::System::Configuration::ConfigurationElement);
+DEFINE_IL2CPP_ARG_TYPE(::System::Configuration::ConfigurationElement*, "System.Configuration", "ConfigurationElement");
 // Type namespace: System.Configuration
 namespace System::Configuration {
   // Size: 0x10
@@ -32,13 +32,13 @@ namespace System::Configuration {
     public:
     // protected internal System.Configuration.ConfigurationPropertyCollection get_Properties()
     // Offset: 0x2A61C70
-    System::Configuration::ConfigurationPropertyCollection* get_Properties();
+    ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
     // protected internal System.Boolean IsModified()
     // Offset: 0x2A61CB0
     bool IsModified();
     // protected internal System.Void Reset(System.Configuration.ConfigurationElement parentElement)
     // Offset: 0x2A61CF0
-    void Reset(System::Configuration::ConfigurationElement* parentElement);
+    void Reset(::System::Configuration::ConfigurationElement* parentElement);
     // protected internal System.Void ResetModified()
     // Offset: 0x2A61D30
     void ResetModified();
@@ -49,7 +49,7 @@ namespace System::Configuration {
 // Writing MetadataGetter for method: System::Configuration::ConfigurationElement::get_Properties
 // Il2CppName: get_Properties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Configuration::ConfigurationPropertyCollection* (System::Configuration::ConfigurationElement::*)()>(&System::Configuration::ConfigurationElement::get_Properties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Configuration::ConfigurationPropertyCollection* (System::Configuration::ConfigurationElement::*)()>(&System::Configuration::ConfigurationElement::get_Properties)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Configuration::ConfigurationElement*), "get_Properties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -65,7 +65,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Configuration::ConfigurationElement::Reset
 // Il2CppName: Reset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Configuration::ConfigurationElement::*)(System::Configuration::ConfigurationElement*)>(&System::Configuration::ConfigurationElement::Reset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Configuration::ConfigurationElement::*)(::System::Configuration::ConfigurationElement*)>(&System::Configuration::ConfigurationElement::Reset)> {
   static const MethodInfo* get() {
     static auto* parentElement = &::il2cpp_utils::GetClassFromName("System.Configuration", "ConfigurationElement")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Configuration::ConfigurationElement*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{parentElement});

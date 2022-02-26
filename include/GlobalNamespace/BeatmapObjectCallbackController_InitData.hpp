@@ -20,8 +20,8 @@ namespace GlobalNamespace {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BeatmapObjectCallbackController::InitData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectCallbackController::InitData*, "", "BeatmapObjectCallbackController/InitData");
+NEED_NO_BOX(::GlobalNamespace::BeatmapObjectCallbackController::InitData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapObjectCallbackController::InitData*, "", "BeatmapObjectCallbackController/InitData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x1C
@@ -42,9 +42,9 @@ namespace GlobalNamespace {
     // public readonly IReadonlyBeatmapData beatmapData
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::IReadonlyBeatmapData* beatmapData;
+    ::GlobalNamespace::IReadonlyBeatmapData* beatmapData;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::IReadonlyBeatmapData*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::IReadonlyBeatmapData*) == 0x8);
     // public readonly System.Single spawningStartTime
     // Size: 0x4
     // Offset: 0x18
@@ -53,14 +53,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public readonly IReadonlyBeatmapData beatmapData
-    GlobalNamespace::IReadonlyBeatmapData*& dyn_beatmapData();
+    ::GlobalNamespace::IReadonlyBeatmapData*& dyn_beatmapData();
     // Get instance field reference: public readonly System.Single spawningStartTime
     float& dyn_spawningStartTime();
     // public System.Void .ctor(IReadonlyBeatmapData beatmapData, System.Single spawningStartTime)
     // Offset: 0x14C97FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BeatmapObjectCallbackController::InitData* New_ctor(GlobalNamespace::IReadonlyBeatmapData* beatmapData, float spawningStartTime) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapObjectCallbackController::InitData::.ctor");
+    static BeatmapObjectCallbackController::InitData* New_ctor(::GlobalNamespace::IReadonlyBeatmapData* beatmapData, float spawningStartTime) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectCallbackController::InitData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectCallbackController::InitData*, creationType>(beatmapData, spawningStartTime)));
     }
   }; // BeatmapObjectCallbackController/InitData

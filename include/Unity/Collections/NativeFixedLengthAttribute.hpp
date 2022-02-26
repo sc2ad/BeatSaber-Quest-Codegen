@@ -14,8 +14,8 @@ namespace Unity::Collections {
   class NativeFixedLengthAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Unity::Collections::NativeFixedLengthAttribute);
-DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::NativeFixedLengthAttribute*, "Unity.Collections", "NativeFixedLengthAttribute");
+NEED_NO_BOX(::Unity::Collections::NativeFixedLengthAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::Unity::Collections::NativeFixedLengthAttribute*, "Unity.Collections", "NativeFixedLengthAttribute");
 // Type namespace: Unity.Collections
 namespace Unity::Collections {
   // Size: 0x10
@@ -24,7 +24,7 @@ namespace Unity::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   // [RequiredByNativeCodeAttribute] Offset: 11A3130
   // [AttributeUsageAttribute] Offset: 11A3130
-  class NativeFixedLengthAttribute : public System::Attribute {
+  class NativeFixedLengthAttribute : public ::System::Attribute {
     public:
   }; // Unity.Collections.NativeFixedLengthAttribute
   #pragma pack(pop)

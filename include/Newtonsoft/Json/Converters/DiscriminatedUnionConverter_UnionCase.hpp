@@ -27,8 +27,8 @@ namespace Newtonsoft::Json::Utilities {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Converters::DiscriminatedUnionConverter::UnionCase);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Converters::DiscriminatedUnionConverter::UnionCase*, "Newtonsoft.Json.Converters", "DiscriminatedUnionConverter/UnionCase");
+NEED_NO_BOX(::Newtonsoft::Json::Converters::DiscriminatedUnionConverter::UnionCase);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Converters::DiscriminatedUnionConverter::UnionCase*, "Newtonsoft.Json.Converters", "DiscriminatedUnionConverter/UnionCase");
 // Type namespace: Newtonsoft.Json.Converters
 namespace Newtonsoft::Json::Converters {
   // Size: 0x38
@@ -64,42 +64,42 @@ namespace Newtonsoft::Json::Converters {
     // public readonly System.Reflection.PropertyInfo[] Fields
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayW<System::Reflection::PropertyInfo*> Fields;
+    ::ArrayW<::System::Reflection::PropertyInfo*> Fields;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::Reflection::PropertyInfo*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::System::Reflection::PropertyInfo*>) == 0x8);
     // public readonly Newtonsoft.Json.Utilities.FSharpFunction FieldReader
     // Size: 0x8
     // Offset: 0x28
-    Newtonsoft::Json::Utilities::FSharpFunction* FieldReader;
+    ::Newtonsoft::Json::Utilities::FSharpFunction* FieldReader;
     // Field size check
-    static_assert(sizeof(Newtonsoft::Json::Utilities::FSharpFunction*) == 0x8);
+    static_assert(sizeof(::Newtonsoft::Json::Utilities::FSharpFunction*) == 0x8);
     // public readonly Newtonsoft.Json.Utilities.FSharpFunction Constructor
     // Size: 0x8
     // Offset: 0x30
-    Newtonsoft::Json::Utilities::FSharpFunction* Constructor;
+    ::Newtonsoft::Json::Utilities::FSharpFunction* Constructor;
     // Field size check
-    static_assert(sizeof(Newtonsoft::Json::Utilities::FSharpFunction*) == 0x8);
+    static_assert(sizeof(::Newtonsoft::Json::Utilities::FSharpFunction*) == 0x8);
     public:
     // Get instance field reference: public readonly System.Int32 Tag
     int& dyn_Tag();
     // Get instance field reference: public readonly System.String Name
     ::StringW& dyn_Name();
     // Get instance field reference: public readonly System.Reflection.PropertyInfo[] Fields
-    ::ArrayW<System::Reflection::PropertyInfo*>& dyn_Fields();
+    ::ArrayW<::System::Reflection::PropertyInfo*>& dyn_Fields();
     // Get instance field reference: public readonly Newtonsoft.Json.Utilities.FSharpFunction FieldReader
-    Newtonsoft::Json::Utilities::FSharpFunction*& dyn_FieldReader();
+    ::Newtonsoft::Json::Utilities::FSharpFunction*& dyn_FieldReader();
     // Get instance field reference: public readonly Newtonsoft.Json.Utilities.FSharpFunction Constructor
-    Newtonsoft::Json::Utilities::FSharpFunction*& dyn_Constructor();
+    ::Newtonsoft::Json::Utilities::FSharpFunction*& dyn_Constructor();
     // public System.Void .ctor(System.Int32 tag, System.String name, System.Reflection.PropertyInfo[] fields, Newtonsoft.Json.Utilities.FSharpFunction fieldReader, Newtonsoft.Json.Utilities.FSharpFunction constructor)
     // Offset: 0x181F074
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DiscriminatedUnionConverter::UnionCase* New_ctor(int tag, ::StringW name, ::ArrayW<System::Reflection::PropertyInfo*> fields, Newtonsoft::Json::Utilities::FSharpFunction* fieldReader, Newtonsoft::Json::Utilities::FSharpFunction* constructor) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Converters::DiscriminatedUnionConverter::UnionCase::.ctor");
+    static DiscriminatedUnionConverter::UnionCase* New_ctor(int tag, ::StringW name, ::ArrayW<::System::Reflection::PropertyInfo*> fields, ::Newtonsoft::Json::Utilities::FSharpFunction* fieldReader, ::Newtonsoft::Json::Utilities::FSharpFunction* constructor) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Converters::DiscriminatedUnionConverter::UnionCase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DiscriminatedUnionConverter::UnionCase*, creationType>(tag, name, fields, fieldReader, constructor)));
     }
   }; // Newtonsoft.Json.Converters.DiscriminatedUnionConverter/Newtonsoft.Json.Converters.UnionCase
   #pragma pack(pop)
-  static check_size<sizeof(DiscriminatedUnionConverter::UnionCase), 48 + sizeof(Newtonsoft::Json::Utilities::FSharpFunction*)> __Newtonsoft_Json_Converters_DiscriminatedUnionConverter_UnionCaseSizeCheck;
+  static check_size<sizeof(DiscriminatedUnionConverter::UnionCase), 48 + sizeof(::Newtonsoft::Json::Utilities::FSharpFunction*)> __Newtonsoft_Json_Converters_DiscriminatedUnionConverter_UnionCaseSizeCheck;
   static_assert(sizeof(DiscriminatedUnionConverter::UnionCase) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

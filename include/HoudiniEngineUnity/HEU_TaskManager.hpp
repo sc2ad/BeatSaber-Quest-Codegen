@@ -30,8 +30,8 @@ namespace HoudiniEngineUnity {
   class HEU_TaskManager;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_TaskManager);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_TaskManager*, "HoudiniEngineUnity", "HEU_TaskManager");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_TaskManager);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_TaskManager*, "HoudiniEngineUnity", "HEU_TaskManager");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x10
@@ -41,17 +41,17 @@ namespace HoudiniEngineUnity {
   class HEU_TaskManager : public ::Il2CppObject {
     public:
     // Get static field: static private System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_Task> _tasks
-    static System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_Task*>* _get__tasks();
+    static ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Task*>* _get__tasks();
     // Set static field: static private System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_Task> _tasks
-    static void _set__tasks(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_Task*>* value);
+    static void _set__tasks(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Task*>* value);
     // Get static field: static private System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_Task> _pendingAdd
-    static System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_Task*>* _get__pendingAdd();
+    static ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Task*>* _get__pendingAdd();
     // Set static field: static private System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_Task> _pendingAdd
-    static void _set__pendingAdd(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_Task*>* value);
+    static void _set__pendingAdd(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Task*>* value);
     // Get static field: static private System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_Task> _pendingRemove
-    static System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_Task*>* _get__pendingRemove();
+    static ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Task*>* _get__pendingRemove();
     // Set static field: static private System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_Task> _pendingRemove
-    static void _set__pendingRemove(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_Task*>* value);
+    static void _set__pendingRemove(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Task*>* value);
     // static private System.Void .cctor()
     // Offset: 0x1A64548
     static void _cctor();
@@ -60,35 +60,35 @@ namespace HoudiniEngineUnity {
     static void Update();
     // static public HoudiniEngineUnity.HEU_Task GetTask(System.Guid taskGuid)
     // Offset: 0x1A64608
-    static HoudiniEngineUnity::HEU_Task* GetTask(System::Guid taskGuid);
+    static ::HoudiniEngineUnity::HEU_Task* GetTask(::System::Guid taskGuid);
     // static public System.Void AddTask(HoudiniEngineUnity.HEU_Task task)
     // Offset: 0x1A64790
-    static void AddTask(HoudiniEngineUnity::HEU_Task* task);
+    static void AddTask(::HoudiniEngineUnity::HEU_Task* task);
     // static public System.Void KillTask(HoudiniEngineUnity.HEU_Task task, System.Boolean bRemove)
     // Offset: 0x1A648B0
-    static void KillTask(HoudiniEngineUnity::HEU_Task* task, bool bRemove);
+    static void KillTask(::HoudiniEngineUnity::HEU_Task* task, bool bRemove);
     // static public System.Void KillTask(System.Guid taskGuid, System.Boolean bRemove)
     // Offset: 0x1A64AB8
-    static void KillTask(System::Guid taskGuid, bool bRemove);
+    static void KillTask(::System::Guid taskGuid, bool bRemove);
     // static public System.Void RemoveTask(HoudiniEngineUnity.HEU_Task task)
     // Offset: 0x1A649A4
-    static void RemoveTask(HoudiniEngineUnity::HEU_Task* task);
+    static void RemoveTask(::HoudiniEngineUnity::HEU_Task* task);
     // static public System.Void ExecuteTask(HoudiniEngineUnity.HEU_Task task)
     // Offset: 0x1A64B6C
-    static void ExecuteTask(HoudiniEngineUnity::HEU_Task* task);
+    static void ExecuteTask(::HoudiniEngineUnity::HEU_Task* task);
     // static public System.Void CompleteTask(HoudiniEngineUnity.HEU_Task task, HoudiniEngineUnity.HEU_Task/HoudiniEngineUnity.TaskResult result)
     // Offset: 0x1A64BA0
-    static void CompleteTask(HoudiniEngineUnity::HEU_Task* task, HoudiniEngineUnity::HEU_Task::TaskResult result);
+    static void CompleteTask(::HoudiniEngineUnity::HEU_Task* task, ::HoudiniEngineUnity::HEU_Task::TaskResult result);
     // static private System.Void InternalCompleteTask(HoudiniEngineUnity.HEU_Task task)
     // Offset: 0x1A64BC8
-    static void InternalCompleteTask(HoudiniEngineUnity::HEU_Task* task);
+    static void InternalCompleteTask(::HoudiniEngineUnity::HEU_Task* task);
     // public System.Void .ctor()
     // Offset: 0x1A64C2C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_TaskManager* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_TaskManager::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_TaskManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_TaskManager*, creationType>()));
     }
   }; // HoudiniEngineUnity.HEU_TaskManager
@@ -114,7 +114,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_TaskManager::GetTask
 // Il2CppName: GetTask
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_Task* (*)(System::Guid)>(&HoudiniEngineUnity::HEU_TaskManager::GetTask)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_Task* (*)(::System::Guid)>(&HoudiniEngineUnity::HEU_TaskManager::GetTask)> {
   static const MethodInfo* get() {
     static auto* taskGuid = &::il2cpp_utils::GetClassFromName("System", "Guid")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_TaskManager*), "GetTask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{taskGuid});
@@ -123,7 +123,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_TaskManager::AddTask
 // Il2CppName: AddTask
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HoudiniEngineUnity::HEU_Task*)>(&HoudiniEngineUnity::HEU_TaskManager::AddTask)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_Task*)>(&HoudiniEngineUnity::HEU_TaskManager::AddTask)> {
   static const MethodInfo* get() {
     static auto* task = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_Task")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_TaskManager*), "AddTask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{task});
@@ -132,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_TaskManager::KillTask
 // Il2CppName: KillTask
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HoudiniEngineUnity::HEU_Task*, bool)>(&HoudiniEngineUnity::HEU_TaskManager::KillTask)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_Task*, bool)>(&HoudiniEngineUnity::HEU_TaskManager::KillTask)> {
   static const MethodInfo* get() {
     static auto* task = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_Task")->byval_arg;
     static auto* bRemove = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -142,7 +142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_TaskManager::KillTask
 // Il2CppName: KillTask
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Guid, bool)>(&HoudiniEngineUnity::HEU_TaskManager::KillTask)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Guid, bool)>(&HoudiniEngineUnity::HEU_TaskManager::KillTask)> {
   static const MethodInfo* get() {
     static auto* taskGuid = &::il2cpp_utils::GetClassFromName("System", "Guid")->byval_arg;
     static auto* bRemove = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -152,7 +152,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_TaskManager::RemoveTask
 // Il2CppName: RemoveTask
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HoudiniEngineUnity::HEU_Task*)>(&HoudiniEngineUnity::HEU_TaskManager::RemoveTask)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_Task*)>(&HoudiniEngineUnity::HEU_TaskManager::RemoveTask)> {
   static const MethodInfo* get() {
     static auto* task = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_Task")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_TaskManager*), "RemoveTask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{task});
@@ -161,7 +161,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_TaskManager::ExecuteTask
 // Il2CppName: ExecuteTask
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HoudiniEngineUnity::HEU_Task*)>(&HoudiniEngineUnity::HEU_TaskManager::ExecuteTask)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_Task*)>(&HoudiniEngineUnity::HEU_TaskManager::ExecuteTask)> {
   static const MethodInfo* get() {
     static auto* task = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_Task")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_TaskManager*), "ExecuteTask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{task});
@@ -170,7 +170,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_TaskManager::CompleteTask
 // Il2CppName: CompleteTask
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HoudiniEngineUnity::HEU_Task*, HoudiniEngineUnity::HEU_Task::TaskResult)>(&HoudiniEngineUnity::HEU_TaskManager::CompleteTask)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_Task*, ::HoudiniEngineUnity::HEU_Task::TaskResult)>(&HoudiniEngineUnity::HEU_TaskManager::CompleteTask)> {
   static const MethodInfo* get() {
     static auto* task = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_Task")->byval_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_Task/TaskResult")->byval_arg;
@@ -180,7 +180,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_TaskManager::InternalCompleteTask
 // Il2CppName: InternalCompleteTask
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HoudiniEngineUnity::HEU_Task*)>(&HoudiniEngineUnity::HEU_TaskManager::InternalCompleteTask)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_Task*)>(&HoudiniEngineUnity::HEU_TaskManager::InternalCompleteTask)> {
   static const MethodInfo* get() {
     static auto* task = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_Task")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_TaskManager*), "InternalCompleteTask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{task});

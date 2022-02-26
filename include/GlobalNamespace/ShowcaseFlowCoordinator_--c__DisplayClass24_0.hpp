@@ -25,8 +25,8 @@ namespace GlobalNamespace {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::ShowcaseFlowCoordinator::$$c__DisplayClass24_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShowcaseFlowCoordinator::$$c__DisplayClass24_0*, "", "ShowcaseFlowCoordinator/<>c__DisplayClass24_0");
+NEED_NO_BOX(::GlobalNamespace::ShowcaseFlowCoordinator::$$c__DisplayClass24_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ShowcaseFlowCoordinator::$$c__DisplayClass24_0*, "", "ShowcaseFlowCoordinator/<>c__DisplayClass24_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x29
@@ -48,21 +48,21 @@ namespace GlobalNamespace {
     // public ShowcaseFlowCoordinator <>4__this
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::ShowcaseFlowCoordinator* $$4__this;
+    ::GlobalNamespace::ShowcaseFlowCoordinator* $$4__this;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::ShowcaseFlowCoordinator*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::ShowcaseFlowCoordinator*) == 0x8);
     // public LevelCompletionResults levelCompletionResults
     // Size: 0x8
     // Offset: 0x18
-    GlobalNamespace::LevelCompletionResults* levelCompletionResults;
+    ::GlobalNamespace::LevelCompletionResults* levelCompletionResults;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::LevelCompletionResults*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::LevelCompletionResults*) == 0x8);
     // public IDifficultyBeatmap difficultyBeatmap
     // Size: 0x8
     // Offset: 0x20
-    GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap;
+    ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::IDifficultyBeatmap*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::IDifficultyBeatmap*) == 0x8);
     // public System.Boolean practice
     // Size: 0x1
     // Offset: 0x28
@@ -71,23 +71,23 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public ShowcaseFlowCoordinator <>4__this
-    GlobalNamespace::ShowcaseFlowCoordinator*& dyn_$$4__this();
+    ::GlobalNamespace::ShowcaseFlowCoordinator*& dyn_$$4__this();
     // Get instance field reference: public LevelCompletionResults levelCompletionResults
-    GlobalNamespace::LevelCompletionResults*& dyn_levelCompletionResults();
+    ::GlobalNamespace::LevelCompletionResults*& dyn_levelCompletionResults();
     // Get instance field reference: public IDifficultyBeatmap difficultyBeatmap
-    GlobalNamespace::IDifficultyBeatmap*& dyn_difficultyBeatmap();
+    ::GlobalNamespace::IDifficultyBeatmap*& dyn_difficultyBeatmap();
     // Get instance field reference: public System.Boolean practice
     bool& dyn_practice();
     // System.Void <ProcessLevelCompletionResultsAfterLevelDidFinish>b__0(EnterPlayerGuestNameViewController viewController, System.String playerName)
     // Offset: 0x13CB5B0
-    void $ProcessLevelCompletionResultsAfterLevelDidFinish$b__0(GlobalNamespace::EnterPlayerGuestNameViewController* viewController, ::StringW playerName);
+    void $ProcessLevelCompletionResultsAfterLevelDidFinish$b__0(::GlobalNamespace::EnterPlayerGuestNameViewController* viewController, ::StringW playerName);
     // public System.Void .ctor()
     // Offset: 0x13CAEF4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ShowcaseFlowCoordinator::$$c__DisplayClass24_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ShowcaseFlowCoordinator::$$c__DisplayClass24_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ShowcaseFlowCoordinator::$$c__DisplayClass24_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ShowcaseFlowCoordinator::$$c__DisplayClass24_0*, creationType>()));
     }
   }; // ShowcaseFlowCoordinator/<>c__DisplayClass24_0
@@ -99,7 +99,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::ShowcaseFlowCoordinator::$$c__DisplayClass24_0::$ProcessLevelCompletionResultsAfterLevelDidFinish$b__0
 // Il2CppName: <ProcessLevelCompletionResultsAfterLevelDidFinish>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ShowcaseFlowCoordinator::$$c__DisplayClass24_0::*)(GlobalNamespace::EnterPlayerGuestNameViewController*, ::StringW)>(&GlobalNamespace::ShowcaseFlowCoordinator::$$c__DisplayClass24_0::$ProcessLevelCompletionResultsAfterLevelDidFinish$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ShowcaseFlowCoordinator::$$c__DisplayClass24_0::*)(::GlobalNamespace::EnterPlayerGuestNameViewController*, ::StringW)>(&GlobalNamespace::ShowcaseFlowCoordinator::$$c__DisplayClass24_0::$ProcessLevelCompletionResultsAfterLevelDidFinish$b__0)> {
   static const MethodInfo* get() {
     static auto* viewController = &::il2cpp_utils::GetClassFromName("", "EnterPlayerGuestNameViewController")->byval_arg;
     static auto* playerName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

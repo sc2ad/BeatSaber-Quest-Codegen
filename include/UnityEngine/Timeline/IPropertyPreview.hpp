@@ -23,8 +23,8 @@ namespace UnityEngine::Timeline {
   class IPropertyPreview;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Timeline::IPropertyPreview);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::IPropertyPreview*, "UnityEngine.Timeline", "IPropertyPreview");
+NEED_NO_BOX(::UnityEngine::Timeline::IPropertyPreview);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::IPropertyPreview*, "UnityEngine.Timeline", "IPropertyPreview");
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
   // Size: 0x10
@@ -35,7 +35,7 @@ namespace UnityEngine::Timeline {
     public:
     // public System.Void GatherProperties(UnityEngine.Playables.PlayableDirector director, UnityEngine.Timeline.IPropertyCollector driver)
     // Offset: 0xFFFFFFFF
-    void GatherProperties(UnityEngine::Playables::PlayableDirector* director, UnityEngine::Timeline::IPropertyCollector* driver);
+    void GatherProperties(::UnityEngine::Playables::PlayableDirector* director, ::UnityEngine::Timeline::IPropertyCollector* driver);
   }; // UnityEngine.Timeline.IPropertyPreview
   #pragma pack(pop)
 }
@@ -43,7 +43,7 @@ namespace UnityEngine::Timeline {
 // Writing MetadataGetter for method: UnityEngine::Timeline::IPropertyPreview::GatherProperties
 // Il2CppName: GatherProperties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::IPropertyPreview::*)(UnityEngine::Playables::PlayableDirector*, UnityEngine::Timeline::IPropertyCollector*)>(&UnityEngine::Timeline::IPropertyPreview::GatherProperties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::IPropertyPreview::*)(::UnityEngine::Playables::PlayableDirector*, ::UnityEngine::Timeline::IPropertyCollector*)>(&UnityEngine::Timeline::IPropertyPreview::GatherProperties)> {
   static const MethodInfo* get() {
     static auto* director = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableDirector")->byval_arg;
     static auto* driver = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "IPropertyCollector")->byval_arg;

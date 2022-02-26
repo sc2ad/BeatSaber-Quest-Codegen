@@ -18,8 +18,8 @@ namespace System {
   class MonoAsyncCall;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::MonoAsyncCall);
-DEFINE_IL2CPP_ARG_TYPE(System::MonoAsyncCall*, "System", "MonoAsyncCall");
+NEED_NO_BOX(::System::MonoAsyncCall);
+DEFINE_IL2CPP_ARG_TYPE(::System::MonoAsyncCall*, "System", "MonoAsyncCall");
 // Type namespace: System
 namespace System {
   // Size: 0x40
@@ -47,9 +47,9 @@ namespace System {
     // private System.IntPtr cb_method
     // Size: 0x8
     // Offset: 0x18
-    System::IntPtr cb_method;
+    ::System::IntPtr cb_method;
     // Field size check
-    static_assert(sizeof(System::IntPtr) == 0x8);
+    static_assert(sizeof(::System::IntPtr) == 0x8);
     // private System.Object cb_target
     // Size: 0x8
     // Offset: 0x20
@@ -78,7 +78,7 @@ namespace System {
     // Get instance field reference: private System.Object msg
     ::Il2CppObject*& dyn_msg();
     // Get instance field reference: private System.IntPtr cb_method
-    System::IntPtr& dyn_cb_method();
+    ::System::IntPtr& dyn_cb_method();
     // Get instance field reference: private System.Object cb_target
     ::Il2CppObject*& dyn_cb_target();
     // Get instance field reference: private System.Object state
@@ -93,7 +93,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoAsyncCall* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::MonoAsyncCall::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::MonoAsyncCall::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoAsyncCall*, creationType>()));
     }
   }; // System.MonoAsyncCall

@@ -25,8 +25,8 @@ namespace RootMotion::FinalIK {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::FBIKChain::ChildConstraint);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FBIKChain::ChildConstraint*, "RootMotion.FinalIK", "FBIKChain/ChildConstraint");
+NEED_NO_BOX(::RootMotion::FinalIK::FBIKChain::ChildConstraint);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::FBIKChain::ChildConstraint*, "RootMotion.FinalIK", "FBIKChain/ChildConstraint");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x40
@@ -59,15 +59,15 @@ namespace RootMotion::FinalIK {
     // private UnityEngine.Transform bone1
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::Transform* bone1;
+    ::UnityEngine::Transform* bone1;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // private UnityEngine.Transform bone2
     // Size: 0x8
     // Offset: 0x20
-    UnityEngine::Transform* bone2;
+    ::UnityEngine::Transform* bone2;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // private System.Single <nominalDistance>k__BackingField
     // Size: 0x4
     // Offset: 0x28
@@ -112,9 +112,9 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Single pullElasticity
     float& dyn_pullElasticity();
     // Get instance field reference: private UnityEngine.Transform bone1
-    UnityEngine::Transform*& dyn_bone1();
+    ::UnityEngine::Transform*& dyn_bone1();
     // Get instance field reference: private UnityEngine.Transform bone2
-    UnityEngine::Transform*& dyn_bone2();
+    ::UnityEngine::Transform*& dyn_bone2();
     // Get instance field reference: private System.Single <nominalDistance>k__BackingField
     float& dyn_$nominalDistance$k__BackingField();
     // Get instance field reference: private System.Boolean <isRigid>k__BackingField
@@ -142,19 +142,19 @@ namespace RootMotion::FinalIK {
     // public System.Void .ctor(UnityEngine.Transform bone1, UnityEngine.Transform bone2, System.Single pushElasticity, System.Single pullElasticity)
     // Offset: 0x2232C44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static FBIKChain::ChildConstraint* New_ctor(UnityEngine::Transform* bone1, UnityEngine::Transform* bone2, float pushElasticity, float pullElasticity) {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::FBIKChain::ChildConstraint::.ctor");
+    static FBIKChain::ChildConstraint* New_ctor(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, float pushElasticity, float pullElasticity) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::FBIKChain::ChildConstraint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FBIKChain::ChildConstraint*, creationType>(bone1, bone2, pushElasticity, pullElasticity)));
     }
     // public System.Void Initiate(RootMotion.FinalIK.IKSolverFullBody solver)
     // Offset: 0x22309A4
-    void Initiate(RootMotion::FinalIK::IKSolverFullBody* solver);
+    void Initiate(::RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void OnPreSolve(RootMotion.FinalIK.IKSolverFullBody solver)
     // Offset: 0x2230EE4
-    void OnPreSolve(RootMotion::FinalIK::IKSolverFullBody* solver);
+    void OnPreSolve(::RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void Solve(RootMotion.FinalIK.IKSolverFullBody solver)
     // Offset: 0x223291C
-    void Solve(RootMotion::FinalIK::IKSolverFullBody* solver);
+    void Solve(::RootMotion::FinalIK::IKSolverFullBody* solver);
   }; // RootMotion.FinalIK.FBIKChain/RootMotion.FinalIK.ChildConstraint
   #pragma pack(pop)
   static check_size<sizeof(FBIKChain::ChildConstraint), 60 + sizeof(int)> __RootMotion_FinalIK_FBIKChain_ChildConstraintSizeCheck;
@@ -202,7 +202,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::FBIKChain::ChildConstraint::Initiate
 // Il2CppName: Initiate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBIKChain::ChildConstraint::*)(RootMotion::FinalIK::IKSolverFullBody*)>(&RootMotion::FinalIK::FBIKChain::ChildConstraint::Initiate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBIKChain::ChildConstraint::*)(::RootMotion::FinalIK::IKSolverFullBody*)>(&RootMotion::FinalIK::FBIKChain::ChildConstraint::Initiate)> {
   static const MethodInfo* get() {
     static auto* solver = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverFullBody")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBIKChain::ChildConstraint*), "Initiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{solver});
@@ -211,7 +211,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::FBIKChain::ChildConstraint::OnPreSolve
 // Il2CppName: OnPreSolve
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBIKChain::ChildConstraint::*)(RootMotion::FinalIK::IKSolverFullBody*)>(&RootMotion::FinalIK::FBIKChain::ChildConstraint::OnPreSolve)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBIKChain::ChildConstraint::*)(::RootMotion::FinalIK::IKSolverFullBody*)>(&RootMotion::FinalIK::FBIKChain::ChildConstraint::OnPreSolve)> {
   static const MethodInfo* get() {
     static auto* solver = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverFullBody")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBIKChain::ChildConstraint*), "OnPreSolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{solver});
@@ -220,7 +220,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::FBIKChain::ChildConstraint::Solve
 // Il2CppName: Solve
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBIKChain::ChildConstraint::*)(RootMotion::FinalIK::IKSolverFullBody*)>(&RootMotion::FinalIK::FBIKChain::ChildConstraint::Solve)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBIKChain::ChildConstraint::*)(::RootMotion::FinalIK::IKSolverFullBody*)>(&RootMotion::FinalIK::FBIKChain::ChildConstraint::Solve)> {
   static const MethodInfo* get() {
     static auto* solver = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverFullBody")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBIKChain::ChildConstraint*), "Solve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{solver});

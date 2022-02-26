@@ -44,8 +44,8 @@ namespace Zenject {
   class BindingUtil;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::BindingUtil);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::BindingUtil*, "Zenject", "BindingUtil");
+NEED_NO_BOX(::Zenject::BindingUtil);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::BindingUtil*, "Zenject", "BindingUtil");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x10
@@ -56,133 +56,133 @@ namespace Zenject {
     public:
     // static public System.Void AssertIsValidPrefab(UnityEngine.Object prefab)
     // Offset: 0x16D901C
-    static void AssertIsValidPrefab(UnityEngine::Object* prefab);
+    static void AssertIsValidPrefab(::UnityEngine::Object* prefab);
     // static public System.Void AssertIsValidGameObject(UnityEngine.GameObject gameObject)
     // Offset: 0x16D907C
-    static void AssertIsValidGameObject(UnityEngine::GameObject* gameObject);
+    static void AssertIsValidGameObject(::UnityEngine::GameObject* gameObject);
     // static public System.Void AssertIsNotComponent(System.Collections.Generic.IEnumerable`1<System.Type> types)
     // Offset: 0x16D90DC
-    static void AssertIsNotComponent(System::Collections::Generic::IEnumerable_1<System::Type*>* types);
+    static void AssertIsNotComponent(::System::Collections::Generic::IEnumerable_1<::System::Type*>* types);
     // static public System.Void AssertIsNotComponent()
     // Offset: 0xFFFFFFFF
     template<class T>
     static void AssertIsNotComponent() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::BindingUtil::AssertIsNotComponent");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::BindingUtil::AssertIsNotComponent");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "BindingUtil", "AssertIsNotComponent", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
     }
     // static public System.Void AssertIsNotComponent(System.Type type)
     // Offset: 0x16D9324
-    static void AssertIsNotComponent(System::Type* type);
+    static void AssertIsNotComponent(::System::Type* type);
     // static public System.Void AssertDerivesFromUnityObject(System.Collections.Generic.IEnumerable`1<System.Type> types)
     // Offset: 0x16D93E8
-    static void AssertDerivesFromUnityObject(System::Collections::Generic::IEnumerable_1<System::Type*>* types);
+    static void AssertDerivesFromUnityObject(::System::Collections::Generic::IEnumerable_1<::System::Type*>* types);
     // static public System.Void AssertDerivesFromUnityObject()
     // Offset: 0xFFFFFFFF
     template<class T>
     static void AssertDerivesFromUnityObject() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::BindingUtil::AssertDerivesFromUnityObject");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::BindingUtil::AssertDerivesFromUnityObject");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "BindingUtil", "AssertDerivesFromUnityObject", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
     }
     // static public System.Void AssertDerivesFromUnityObject(System.Type type)
     // Offset: 0x16D9630
-    static void AssertDerivesFromUnityObject(System::Type* type);
+    static void AssertDerivesFromUnityObject(::System::Type* type);
     // static public System.Void AssertTypesAreNotComponents(System.Collections.Generic.IEnumerable`1<System.Type> types)
     // Offset: 0x16D96B8
-    static void AssertTypesAreNotComponents(System::Collections::Generic::IEnumerable_1<System::Type*>* types);
+    static void AssertTypesAreNotComponents(::System::Collections::Generic::IEnumerable_1<::System::Type*>* types);
     // static public System.Void AssertIsValidResourcePath(System.String resourcePath)
     // Offset: 0x16D9900
     static void AssertIsValidResourcePath(::StringW resourcePath);
     // static public System.Void AssertIsInterfaceOrScriptableObject(System.Collections.Generic.IEnumerable`1<System.Type> types)
     // Offset: 0x16D9960
-    static void AssertIsInterfaceOrScriptableObject(System::Collections::Generic::IEnumerable_1<System::Type*>* types);
+    static void AssertIsInterfaceOrScriptableObject(::System::Collections::Generic::IEnumerable_1<::System::Type*>* types);
     // static public System.Void AssertIsInterfaceOrScriptableObject()
     // Offset: 0xFFFFFFFF
     template<class T>
     static void AssertIsInterfaceOrScriptableObject() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::BindingUtil::AssertIsInterfaceOrScriptableObject");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::BindingUtil::AssertIsInterfaceOrScriptableObject");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "BindingUtil", "AssertIsInterfaceOrScriptableObject", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
     }
     // static public System.Void AssertIsInterfaceOrScriptableObject(System.Type type)
     // Offset: 0x16D9BA8
-    static void AssertIsInterfaceOrScriptableObject(System::Type* type);
+    static void AssertIsInterfaceOrScriptableObject(::System::Type* type);
     // static public System.Void AssertIsInterfaceOrComponent(System.Collections.Generic.IEnumerable`1<System.Type> types)
     // Offset: 0x16D9CA8
-    static void AssertIsInterfaceOrComponent(System::Collections::Generic::IEnumerable_1<System::Type*>* types);
+    static void AssertIsInterfaceOrComponent(::System::Collections::Generic::IEnumerable_1<::System::Type*>* types);
     // static public System.Void AssertIsInterfaceOrComponent()
     // Offset: 0xFFFFFFFF
     template<class T>
     static void AssertIsInterfaceOrComponent() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::BindingUtil::AssertIsInterfaceOrComponent");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::BindingUtil::AssertIsInterfaceOrComponent");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "BindingUtil", "AssertIsInterfaceOrComponent", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
     }
     // static public System.Void AssertIsInterfaceOrComponent(System.Type type)
     // Offset: 0x16D9EF0
-    static void AssertIsInterfaceOrComponent(System::Type* type);
+    static void AssertIsInterfaceOrComponent(::System::Type* type);
     // static public System.Void AssertIsComponent(System.Collections.Generic.IEnumerable`1<System.Type> types)
     // Offset: 0x16D9FF0
-    static void AssertIsComponent(System::Collections::Generic::IEnumerable_1<System::Type*>* types);
+    static void AssertIsComponent(::System::Collections::Generic::IEnumerable_1<::System::Type*>* types);
     // static public System.Void AssertIsComponent()
     // Offset: 0xFFFFFFFF
     template<class T>
     static void AssertIsComponent() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::BindingUtil::AssertIsComponent");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::BindingUtil::AssertIsComponent");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "BindingUtil", "AssertIsComponent", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
     }
     // static public System.Void AssertIsComponent(System.Type type)
     // Offset: 0x16DA238
-    static void AssertIsComponent(System::Type* type);
+    static void AssertIsComponent(::System::Type* type);
     // static public System.Void AssertTypesAreNotAbstract(System.Collections.Generic.IEnumerable`1<System.Type> types)
     // Offset: 0x16DA2F8
-    static void AssertTypesAreNotAbstract(System::Collections::Generic::IEnumerable_1<System::Type*>* types);
+    static void AssertTypesAreNotAbstract(::System::Collections::Generic::IEnumerable_1<::System::Type*>* types);
     // static public System.Void AssertIsNotAbstract(System.Collections.Generic.IEnumerable`1<System.Type> types)
     // Offset: 0x16DA5CC
-    static void AssertIsNotAbstract(System::Collections::Generic::IEnumerable_1<System::Type*>* types);
+    static void AssertIsNotAbstract(::System::Collections::Generic::IEnumerable_1<::System::Type*>* types);
     // static public System.Void AssertIsNotAbstract()
     // Offset: 0xFFFFFFFF
     template<class T>
     static void AssertIsNotAbstract() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::BindingUtil::AssertIsNotAbstract");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::BindingUtil::AssertIsNotAbstract");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "BindingUtil", "AssertIsNotAbstract", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
     }
     // static public System.Void AssertIsNotAbstract(System.Type type)
     // Offset: 0x16DA540
-    static void AssertIsNotAbstract(System::Type* type);
+    static void AssertIsNotAbstract(::System::Type* type);
     // static public System.Void AssertIsDerivedFromType(System.Type concreteType, System.Type parentType)
     // Offset: 0x16DA814
-    static void AssertIsDerivedFromType(System::Type* concreteType, System::Type* parentType);
+    static void AssertIsDerivedFromType(::System::Type* concreteType, ::System::Type* parentType);
     // static public System.Void AssertConcreteTypeListIsNotEmpty(System.Collections.Generic.IEnumerable`1<System.Type> concreteTypes)
     // Offset: 0x16DA93C
-    static void AssertConcreteTypeListIsNotEmpty(System::Collections::Generic::IEnumerable_1<System::Type*>* concreteTypes);
+    static void AssertConcreteTypeListIsNotEmpty(::System::Collections::Generic::IEnumerable_1<::System::Type*>* concreteTypes);
     // static public System.Void AssertIsDerivedFromTypes(System.Collections.Generic.IEnumerable`1<System.Type> concreteTypes, System.Collections.Generic.IEnumerable`1<System.Type> parentTypes, Zenject.InvalidBindResponses invalidBindResponse)
     // Offset: 0x16DA9A4
-    static void AssertIsDerivedFromTypes(System::Collections::Generic::IEnumerable_1<System::Type*>* concreteTypes, System::Collections::Generic::IEnumerable_1<System::Type*>* parentTypes, Zenject::InvalidBindResponses invalidBindResponse);
+    static void AssertIsDerivedFromTypes(::System::Collections::Generic::IEnumerable_1<::System::Type*>* concreteTypes, ::System::Collections::Generic::IEnumerable_1<::System::Type*>* parentTypes, ::Zenject::InvalidBindResponses invalidBindResponse);
     // static public System.Void AssertIsDerivedFromTypes(System.Collections.Generic.IEnumerable`1<System.Type> concreteTypes, System.Collections.Generic.IEnumerable`1<System.Type> parentTypes)
     // Offset: 0x16DAA58
-    static void AssertIsDerivedFromTypes(System::Collections::Generic::IEnumerable_1<System::Type*>* concreteTypes, System::Collections::Generic::IEnumerable_1<System::Type*>* parentTypes);
+    static void AssertIsDerivedFromTypes(::System::Collections::Generic::IEnumerable_1<::System::Type*>* concreteTypes, ::System::Collections::Generic::IEnumerable_1<::System::Type*>* parentTypes);
     // static public System.Void AssertIsDerivedFromTypes(System.Type concreteType, System.Collections.Generic.IEnumerable`1<System.Type> parentTypes)
     // Offset: 0x16DACAC
-    static void AssertIsDerivedFromTypes(System::Type* concreteType, System::Collections::Generic::IEnumerable_1<System::Type*>* parentTypes);
+    static void AssertIsDerivedFromTypes(::System::Type* concreteType, ::System::Collections::Generic::IEnumerable_1<::System::Type*>* parentTypes);
     // static public System.Void AssertInstanceDerivesFromOrEqual(System.Object instance, System.Collections.Generic.IEnumerable`1<System.Type> parentTypes)
     // Offset: 0x16DAF04
-    static void AssertInstanceDerivesFromOrEqual(::Il2CppObject* instance, System::Collections::Generic::IEnumerable_1<System::Type*>* parentTypes);
+    static void AssertInstanceDerivesFromOrEqual(::Il2CppObject* instance, ::System::Collections::Generic::IEnumerable_1<::System::Type*>* parentTypes);
     // static public System.Void AssertInstanceDerivesFromOrEqual(System.Object instance, System.Type baseType)
     // Offset: 0x16DB16C
-    static void AssertInstanceDerivesFromOrEqual(::Il2CppObject* instance, System::Type* baseType);
+    static void AssertInstanceDerivesFromOrEqual(::Il2CppObject* instance, ::System::Type* baseType);
     // static public Zenject.IProvider CreateCachedProvider(Zenject.IProvider creator)
     // Offset: 0x16DB24C
-    static Zenject::IProvider* CreateCachedProvider(Zenject::IProvider* creator);
+    static ::Zenject::IProvider* CreateCachedProvider(::Zenject::IProvider* creator);
   }; // Zenject.BindingUtil
   #pragma pack(pop)
 }
@@ -190,7 +190,7 @@ namespace Zenject {
 // Writing MetadataGetter for method: Zenject::BindingUtil::AssertIsValidPrefab
 // Il2CppName: AssertIsValidPrefab
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*)>(&Zenject::BindingUtil::AssertIsValidPrefab)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Object*)>(&Zenject::BindingUtil::AssertIsValidPrefab)> {
   static const MethodInfo* get() {
     static auto* prefab = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::BindingUtil*), "AssertIsValidPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{prefab});
@@ -199,7 +199,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: Zenject::BindingUtil::AssertIsValidGameObject
 // Il2CppName: AssertIsValidGameObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*)>(&Zenject::BindingUtil::AssertIsValidGameObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*)>(&Zenject::BindingUtil::AssertIsValidGameObject)> {
   static const MethodInfo* get() {
     static auto* gameObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::BindingUtil*), "AssertIsValidGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameObject});
@@ -208,7 +208,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: Zenject::BindingUtil::AssertIsNotComponent
 // Il2CppName: AssertIsNotComponent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::IEnumerable_1<System::Type*>*)>(&Zenject::BindingUtil::AssertIsNotComponent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::IEnumerable_1<::System::Type*>*)>(&Zenject::BindingUtil::AssertIsNotComponent)> {
   static const MethodInfo* get() {
     static auto* types = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Type")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::BindingUtil*), "AssertIsNotComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{types});
@@ -220,7 +220,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Zenject::BindingUtil::AssertIsNotComponent
 // Il2CppName: AssertIsNotComponent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Type*)>(&Zenject::BindingUtil::AssertIsNotComponent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*)>(&Zenject::BindingUtil::AssertIsNotComponent)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::BindingUtil*), "AssertIsNotComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -229,7 +229,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Zenject::BindingUtil::AssertDerivesFromUnityObject
 // Il2CppName: AssertDerivesFromUnityObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::IEnumerable_1<System::Type*>*)>(&Zenject::BindingUtil::AssertDerivesFromUnityObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::IEnumerable_1<::System::Type*>*)>(&Zenject::BindingUtil::AssertDerivesFromUnityObject)> {
   static const MethodInfo* get() {
     static auto* types = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Type")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::BindingUtil*), "AssertDerivesFromUnityObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{types});
@@ -241,7 +241,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Zenject::BindingUtil::AssertDerivesFromUnityObject
 // Il2CppName: AssertDerivesFromUnityObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Type*)>(&Zenject::BindingUtil::AssertDerivesFromUnityObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*)>(&Zenject::BindingUtil::AssertDerivesFromUnityObject)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::BindingUtil*), "AssertDerivesFromUnityObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -250,7 +250,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Zenject::BindingUtil::AssertTypesAreNotComponents
 // Il2CppName: AssertTypesAreNotComponents
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::IEnumerable_1<System::Type*>*)>(&Zenject::BindingUtil::AssertTypesAreNotComponents)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::IEnumerable_1<::System::Type*>*)>(&Zenject::BindingUtil::AssertTypesAreNotComponents)> {
   static const MethodInfo* get() {
     static auto* types = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Type")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::BindingUtil*), "AssertTypesAreNotComponents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{types});
@@ -268,7 +268,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Zenject::BindingUtil::AssertIsInterfaceOrScriptableObject
 // Il2CppName: AssertIsInterfaceOrScriptableObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::IEnumerable_1<System::Type*>*)>(&Zenject::BindingUtil::AssertIsInterfaceOrScriptableObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::IEnumerable_1<::System::Type*>*)>(&Zenject::BindingUtil::AssertIsInterfaceOrScriptableObject)> {
   static const MethodInfo* get() {
     static auto* types = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Type")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::BindingUtil*), "AssertIsInterfaceOrScriptableObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{types});
@@ -280,7 +280,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Zenject::BindingUtil::AssertIsInterfaceOrScriptableObject
 // Il2CppName: AssertIsInterfaceOrScriptableObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Type*)>(&Zenject::BindingUtil::AssertIsInterfaceOrScriptableObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*)>(&Zenject::BindingUtil::AssertIsInterfaceOrScriptableObject)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::BindingUtil*), "AssertIsInterfaceOrScriptableObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -289,7 +289,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Zenject::BindingUtil::AssertIsInterfaceOrComponent
 // Il2CppName: AssertIsInterfaceOrComponent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::IEnumerable_1<System::Type*>*)>(&Zenject::BindingUtil::AssertIsInterfaceOrComponent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::IEnumerable_1<::System::Type*>*)>(&Zenject::BindingUtil::AssertIsInterfaceOrComponent)> {
   static const MethodInfo* get() {
     static auto* types = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Type")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::BindingUtil*), "AssertIsInterfaceOrComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{types});
@@ -301,7 +301,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Zenject::BindingUtil::AssertIsInterfaceOrComponent
 // Il2CppName: AssertIsInterfaceOrComponent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Type*)>(&Zenject::BindingUtil::AssertIsInterfaceOrComponent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*)>(&Zenject::BindingUtil::AssertIsInterfaceOrComponent)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::BindingUtil*), "AssertIsInterfaceOrComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -310,7 +310,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Zenject::BindingUtil::AssertIsComponent
 // Il2CppName: AssertIsComponent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::IEnumerable_1<System::Type*>*)>(&Zenject::BindingUtil::AssertIsComponent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::IEnumerable_1<::System::Type*>*)>(&Zenject::BindingUtil::AssertIsComponent)> {
   static const MethodInfo* get() {
     static auto* types = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Type")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::BindingUtil*), "AssertIsComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{types});
@@ -322,7 +322,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Zenject::BindingUtil::AssertIsComponent
 // Il2CppName: AssertIsComponent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Type*)>(&Zenject::BindingUtil::AssertIsComponent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*)>(&Zenject::BindingUtil::AssertIsComponent)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::BindingUtil*), "AssertIsComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -331,7 +331,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Zenject::BindingUtil::AssertTypesAreNotAbstract
 // Il2CppName: AssertTypesAreNotAbstract
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::IEnumerable_1<System::Type*>*)>(&Zenject::BindingUtil::AssertTypesAreNotAbstract)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::IEnumerable_1<::System::Type*>*)>(&Zenject::BindingUtil::AssertTypesAreNotAbstract)> {
   static const MethodInfo* get() {
     static auto* types = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Type")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::BindingUtil*), "AssertTypesAreNotAbstract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{types});
@@ -340,7 +340,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Zenject::BindingUtil::AssertIsNotAbstract
 // Il2CppName: AssertIsNotAbstract
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::IEnumerable_1<System::Type*>*)>(&Zenject::BindingUtil::AssertIsNotAbstract)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::IEnumerable_1<::System::Type*>*)>(&Zenject::BindingUtil::AssertIsNotAbstract)> {
   static const MethodInfo* get() {
     static auto* types = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Type")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::BindingUtil*), "AssertIsNotAbstract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{types});
@@ -352,7 +352,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Zenject::BindingUtil::AssertIsNotAbstract
 // Il2CppName: AssertIsNotAbstract
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Type*)>(&Zenject::BindingUtil::AssertIsNotAbstract)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*)>(&Zenject::BindingUtil::AssertIsNotAbstract)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::BindingUtil*), "AssertIsNotAbstract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -361,7 +361,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Zenject::BindingUtil::AssertIsDerivedFromType
 // Il2CppName: AssertIsDerivedFromType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Type*, System::Type*)>(&Zenject::BindingUtil::AssertIsDerivedFromType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*, ::System::Type*)>(&Zenject::BindingUtil::AssertIsDerivedFromType)> {
   static const MethodInfo* get() {
     static auto* concreteType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* parentType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -371,7 +371,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Zenject::BindingUtil::AssertConcreteTypeListIsNotEmpty
 // Il2CppName: AssertConcreteTypeListIsNotEmpty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::IEnumerable_1<System::Type*>*)>(&Zenject::BindingUtil::AssertConcreteTypeListIsNotEmpty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::IEnumerable_1<::System::Type*>*)>(&Zenject::BindingUtil::AssertConcreteTypeListIsNotEmpty)> {
   static const MethodInfo* get() {
     static auto* concreteTypes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Type")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::BindingUtil*), "AssertConcreteTypeListIsNotEmpty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{concreteTypes});
@@ -380,7 +380,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Zenject::BindingUtil::AssertIsDerivedFromTypes
 // Il2CppName: AssertIsDerivedFromTypes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::IEnumerable_1<System::Type*>*, System::Collections::Generic::IEnumerable_1<System::Type*>*, Zenject::InvalidBindResponses)>(&Zenject::BindingUtil::AssertIsDerivedFromTypes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::IEnumerable_1<::System::Type*>*, ::System::Collections::Generic::IEnumerable_1<::System::Type*>*, ::Zenject::InvalidBindResponses)>(&Zenject::BindingUtil::AssertIsDerivedFromTypes)> {
   static const MethodInfo* get() {
     static auto* concreteTypes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Type")})->byval_arg;
     static auto* parentTypes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Type")})->byval_arg;
@@ -391,7 +391,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Zenject::BindingUtil::AssertIsDerivedFromTypes
 // Il2CppName: AssertIsDerivedFromTypes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::IEnumerable_1<System::Type*>*, System::Collections::Generic::IEnumerable_1<System::Type*>*)>(&Zenject::BindingUtil::AssertIsDerivedFromTypes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::IEnumerable_1<::System::Type*>*, ::System::Collections::Generic::IEnumerable_1<::System::Type*>*)>(&Zenject::BindingUtil::AssertIsDerivedFromTypes)> {
   static const MethodInfo* get() {
     static auto* concreteTypes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Type")})->byval_arg;
     static auto* parentTypes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Type")})->byval_arg;
@@ -401,7 +401,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Zenject::BindingUtil::AssertIsDerivedFromTypes
 // Il2CppName: AssertIsDerivedFromTypes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Type*, System::Collections::Generic::IEnumerable_1<System::Type*>*)>(&Zenject::BindingUtil::AssertIsDerivedFromTypes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*, ::System::Collections::Generic::IEnumerable_1<::System::Type*>*)>(&Zenject::BindingUtil::AssertIsDerivedFromTypes)> {
   static const MethodInfo* get() {
     static auto* concreteType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* parentTypes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Type")})->byval_arg;
@@ -411,7 +411,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Zenject::BindingUtil::AssertInstanceDerivesFromOrEqual
 // Il2CppName: AssertInstanceDerivesFromOrEqual
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, System::Collections::Generic::IEnumerable_1<System::Type*>*)>(&Zenject::BindingUtil::AssertInstanceDerivesFromOrEqual)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::System::Collections::Generic::IEnumerable_1<::System::Type*>*)>(&Zenject::BindingUtil::AssertInstanceDerivesFromOrEqual)> {
   static const MethodInfo* get() {
     static auto* instance = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* parentTypes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Type")})->byval_arg;
@@ -421,7 +421,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Zenject::BindingUtil::AssertInstanceDerivesFromOrEqual
 // Il2CppName: AssertInstanceDerivesFromOrEqual
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, System::Type*)>(&Zenject::BindingUtil::AssertInstanceDerivesFromOrEqual)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::System::Type*)>(&Zenject::BindingUtil::AssertInstanceDerivesFromOrEqual)> {
   static const MethodInfo* get() {
     static auto* instance = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* baseType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -431,7 +431,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Zenject::BindingUtil::CreateCachedProvider
 // Il2CppName: CreateCachedProvider
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::IProvider* (*)(Zenject::IProvider*)>(&Zenject::BindingUtil::CreateCachedProvider)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::IProvider* (*)(::Zenject::IProvider*)>(&Zenject::BindingUtil::CreateCachedProvider)> {
   static const MethodInfo* get() {
     static auto* creator = &::il2cpp_utils::GetClassFromName("Zenject", "IProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::BindingUtil*), "CreateCachedProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{creator});

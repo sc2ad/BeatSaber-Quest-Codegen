@@ -21,8 +21,8 @@ namespace TMPro {
   class Compute_DT_EventArgs;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(TMPro::Compute_DT_EventArgs);
-DEFINE_IL2CPP_ARG_TYPE(TMPro::Compute_DT_EventArgs*, "TMPro", "Compute_DT_EventArgs");
+NEED_NO_BOX(::TMPro::Compute_DT_EventArgs);
+DEFINE_IL2CPP_ARG_TYPE(::TMPro::Compute_DT_EventArgs*, "TMPro", "Compute_DT_EventArgs");
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0x20
@@ -43,9 +43,9 @@ namespace TMPro {
     // public TMPro.Compute_DistanceTransform_EventTypes EventType
     // Size: 0x4
     // Offset: 0x10
-    TMPro::Compute_DistanceTransform_EventTypes EventType;
+    ::TMPro::Compute_DistanceTransform_EventTypes EventType;
     // Field size check
-    static_assert(sizeof(TMPro::Compute_DistanceTransform_EventTypes) == 0x4);
+    static_assert(sizeof(::TMPro::Compute_DistanceTransform_EventTypes) == 0x4);
     // public System.Single ProgressPercentage
     // Size: 0x4
     // Offset: 0x14
@@ -55,33 +55,33 @@ namespace TMPro {
     // public UnityEngine.Color[] Colors
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayW<UnityEngine::Color> Colors;
+    ::ArrayW<::UnityEngine::Color> Colors;
     // Field size check
-    static_assert(sizeof(::ArrayW<UnityEngine::Color>) == 0x8);
+    static_assert(sizeof(::ArrayW<::UnityEngine::Color>) == 0x8);
     public:
     // Get instance field reference: public TMPro.Compute_DistanceTransform_EventTypes EventType
-    TMPro::Compute_DistanceTransform_EventTypes& dyn_EventType();
+    ::TMPro::Compute_DistanceTransform_EventTypes& dyn_EventType();
     // Get instance field reference: public System.Single ProgressPercentage
     float& dyn_ProgressPercentage();
     // Get instance field reference: public UnityEngine.Color[] Colors
-    ::ArrayW<UnityEngine::Color>& dyn_Colors();
+    ::ArrayW<::UnityEngine::Color>& dyn_Colors();
     // public System.Void .ctor(TMPro.Compute_DistanceTransform_EventTypes type, System.Single progress)
     // Offset: 0x14034EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Compute_DT_EventArgs* New_ctor(TMPro::Compute_DistanceTransform_EventTypes type, float progress) {
-      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::Compute_DT_EventArgs::.ctor");
+    static Compute_DT_EventArgs* New_ctor(::TMPro::Compute_DistanceTransform_EventTypes type, float progress) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::Compute_DT_EventArgs::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Compute_DT_EventArgs*, creationType>(type, progress)));
     }
     // public System.Void .ctor(TMPro.Compute_DistanceTransform_EventTypes type, UnityEngine.Color[] colors)
     // Offset: 0x1403528
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Compute_DT_EventArgs* New_ctor(TMPro::Compute_DistanceTransform_EventTypes type, ::ArrayW<UnityEngine::Color> colors) {
-      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::Compute_DT_EventArgs::.ctor");
+    static Compute_DT_EventArgs* New_ctor(::TMPro::Compute_DistanceTransform_EventTypes type, ::ArrayW<::UnityEngine::Color> colors) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::Compute_DT_EventArgs::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Compute_DT_EventArgs*, creationType>(type, colors)));
     }
   }; // TMPro.Compute_DT_EventArgs
   #pragma pack(pop)
-  static check_size<sizeof(Compute_DT_EventArgs), 24 + sizeof(::ArrayW<UnityEngine::Color>)> __TMPro_Compute_DT_EventArgsSizeCheck;
+  static check_size<sizeof(Compute_DT_EventArgs), 24 + sizeof(::ArrayW<::UnityEngine::Color>)> __TMPro_Compute_DT_EventArgsSizeCheck;
   static_assert(sizeof(Compute_DT_EventArgs) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

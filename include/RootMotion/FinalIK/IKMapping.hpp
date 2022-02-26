@@ -35,8 +35,8 @@ namespace RootMotion::FinalIK {
   class IKMapping;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::IKMapping);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKMapping*, "RootMotion.FinalIK", "IKMapping");
+NEED_NO_BOX(::RootMotion::FinalIK::IKMapping);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::IKMapping*, "RootMotion.FinalIK", "IKMapping");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x10
@@ -45,27 +45,27 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class IKMapping : public ::Il2CppObject {
     public:
-    // Nested type: RootMotion::FinalIK::IKMapping::BoneMap
+    // Nested type: ::RootMotion::FinalIK::IKMapping::BoneMap
     class BoneMap;
     // public System.Boolean IsValid(RootMotion.FinalIK.IKSolver solver, ref System.String message)
     // Offset: 0x21CEDCC
-    bool IsValid(RootMotion::FinalIK::IKSolver* solver, ByRef<::StringW> message);
+    bool IsValid(::RootMotion::FinalIK::IKSolver* solver, ByRef<::StringW> message);
     // public System.Void Initiate(RootMotion.FinalIK.IKSolverFullBody solver)
     // Offset: 0x21CEDD4
-    void Initiate(RootMotion::FinalIK::IKSolverFullBody* solver);
+    void Initiate(::RootMotion::FinalIK::IKSolverFullBody* solver);
     // protected System.Boolean BoneIsValid(UnityEngine.Transform bone, RootMotion.FinalIK.IKSolver solver, ref System.String message, RootMotion.Warning/RootMotion.Logger logger)
     // Offset: 0x21CEDD8
-    bool BoneIsValid(UnityEngine::Transform* bone, RootMotion::FinalIK::IKSolver* solver, ByRef<::StringW> message, RootMotion::Warning::Logger* logger);
+    bool BoneIsValid(::UnityEngine::Transform* bone, ::RootMotion::FinalIK::IKSolver* solver, ByRef<::StringW> message, ::RootMotion::Warning::Logger* logger);
     // protected UnityEngine.Vector3 SolveFABRIKJoint(UnityEngine.Vector3 pos1, UnityEngine.Vector3 pos2, System.Single length)
     // Offset: 0x21CEEFC
-    UnityEngine::Vector3 SolveFABRIKJoint(UnityEngine::Vector3 pos1, UnityEngine::Vector3 pos2, float length);
+    ::UnityEngine::Vector3 SolveFABRIKJoint(::UnityEngine::Vector3 pos1, ::UnityEngine::Vector3 pos2, float length);
     // public System.Void .ctor()
     // Offset: 0x21CF004
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKMapping* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::IKMapping::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::IKMapping::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKMapping*, creationType>()));
     }
   }; // RootMotion.FinalIK.IKMapping
@@ -75,7 +75,7 @@ namespace RootMotion::FinalIK {
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKMapping::IsValid
 // Il2CppName: IsValid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::IKMapping::*)(RootMotion::FinalIK::IKSolver*, ByRef<::StringW>)>(&RootMotion::FinalIK::IKMapping::IsValid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::IKMapping::*)(::RootMotion::FinalIK::IKSolver*, ByRef<::StringW>)>(&RootMotion::FinalIK::IKMapping::IsValid)> {
   static const MethodInfo* get() {
     static auto* solver = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolver")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
@@ -85,7 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKMapping::Initiate
 // Il2CppName: Initiate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKMapping::*)(RootMotion::FinalIK::IKSolverFullBody*)>(&RootMotion::FinalIK::IKMapping::Initiate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKMapping::*)(::RootMotion::FinalIK::IKSolverFullBody*)>(&RootMotion::FinalIK::IKMapping::Initiate)> {
   static const MethodInfo* get() {
     static auto* solver = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverFullBody")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKMapping*), "Initiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{solver});
@@ -94,7 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKMapping::BoneIsValid
 // Il2CppName: BoneIsValid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::IKMapping::*)(UnityEngine::Transform*, RootMotion::FinalIK::IKSolver*, ByRef<::StringW>, RootMotion::Warning::Logger*)>(&RootMotion::FinalIK::IKMapping::BoneIsValid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::IKMapping::*)(::UnityEngine::Transform*, ::RootMotion::FinalIK::IKSolver*, ByRef<::StringW>, ::RootMotion::Warning::Logger*)>(&RootMotion::FinalIK::IKMapping::BoneIsValid)> {
   static const MethodInfo* get() {
     static auto* bone = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* solver = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolver")->byval_arg;
@@ -106,7 +106,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKMapping::SolveFABRIKJoint
 // Il2CppName: SolveFABRIKJoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RootMotion::FinalIK::IKMapping::*)(UnityEngine::Vector3, UnityEngine::Vector3, float)>(&RootMotion::FinalIK::IKMapping::SolveFABRIKJoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (RootMotion::FinalIK::IKMapping::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, float)>(&RootMotion::FinalIK::IKMapping::SolveFABRIKJoint)> {
   static const MethodInfo* get() {
     static auto* pos1 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* pos2 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;

@@ -38,8 +38,8 @@ namespace System::ComponentModel {
   class TypeConverter;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::ComponentModel::TypeConverter);
-DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::TypeConverter*, "System.ComponentModel", "TypeConverter");
+NEED_NO_BOX(::System::ComponentModel::TypeConverter);
+DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::TypeConverter*, "System.ComponentModel", "TypeConverter");
 // Type namespace: System.ComponentModel
 namespace System::ComponentModel {
   // Size: 0x10
@@ -49,7 +49,7 @@ namespace System::ComponentModel {
   // [ComVisibleAttribute] Offset: 1199FD8
   class TypeConverter : public ::Il2CppObject {
     public:
-    // Nested type: System::ComponentModel::TypeConverter::StandardValuesCollection
+    // Nested type: ::System::ComponentModel::TypeConverter::StandardValuesCollection
     class StandardValuesCollection;
     // static field const value: static private System.String s_UseCompatibleTypeConverterBehavior
     static constexpr const char* s_UseCompatibleTypeConverterBehavior = "UseCompatibleTypeConverterBehavior";
@@ -63,50 +63,50 @@ namespace System::ComponentModel {
     static void _set_useCompatibleTypeConversion(bool value);
     // public System.Boolean CanConvertFrom(System.Type sourceType)
     // Offset: 0x1EC8B6C
-    bool CanConvertFrom(System::Type* sourceType);
+    bool CanConvertFrom(::System::Type* sourceType);
     // public System.Boolean CanConvertFrom(System.ComponentModel.ITypeDescriptorContext context, System.Type sourceType)
     // Offset: 0x1EC7D5C
-    bool CanConvertFrom(System::ComponentModel::ITypeDescriptorContext* context, System::Type* sourceType);
+    bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
     // public System.Boolean CanConvertTo(System.Type destinationType)
     // Offset: 0x1EC8B80
-    bool CanConvertTo(System::Type* destinationType);
+    bool CanConvertTo(::System::Type* destinationType);
     // public System.Boolean CanConvertTo(System.ComponentModel.ITypeDescriptorContext context, System.Type destinationType)
     // Offset: 0x1EC803C
-    bool CanConvertTo(System::ComponentModel::ITypeDescriptorContext* context, System::Type* destinationType);
+    bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
     // public System.Object ConvertFrom(System.ComponentModel.ITypeDescriptorContext context, System.Globalization.CultureInfo culture, System.Object value)
     // Offset: 0x1EC7E70
-    ::Il2CppObject* ConvertFrom(System::ComponentModel::ITypeDescriptorContext* context, System::Globalization::CultureInfo* culture, ::Il2CppObject* value);
+    ::Il2CppObject* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::Il2CppObject* value);
     // public System.Object ConvertFromString(System.String text)
     // Offset: 0x1EC8CF0
     ::Il2CppObject* ConvertFromString(::StringW text);
     // public System.Object ConvertTo(System.ComponentModel.ITypeDescriptorContext context, System.Globalization.CultureInfo culture, System.Object value, System.Type destinationType)
     // Offset: 0x1EC85A4
-    ::Il2CppObject* ConvertTo(System::ComponentModel::ITypeDescriptorContext* context, System::Globalization::CultureInfo* culture, ::Il2CppObject* value, System::Type* destinationType);
+    ::Il2CppObject* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::Il2CppObject* value, ::System::Type* destinationType);
     // public System.String ConvertToInvariantString(System.Object value)
     // Offset: 0x1EC8EAC
     ::StringW ConvertToInvariantString(::Il2CppObject* value);
     // public System.String ConvertToInvariantString(System.ComponentModel.ITypeDescriptorContext context, System.Object value)
     // Offset: 0x1EC9004
-    ::StringW ConvertToInvariantString(System::ComponentModel::ITypeDescriptorContext* context, ::Il2CppObject* value);
+    ::StringW ConvertToInvariantString(::System::ComponentModel::ITypeDescriptorContext* context, ::Il2CppObject* value);
     // public System.String ConvertToString(System.Object value)
     // Offset: 0x1EC908C
     ::StringW ConvertToString(::Il2CppObject* value);
     // public System.String ConvertToString(System.ComponentModel.ITypeDescriptorContext context, System.Globalization.CultureInfo culture, System.Object value)
     // Offset: 0x1EC8F30
-    ::StringW ConvertToString(System::ComponentModel::ITypeDescriptorContext* context, System::Globalization::CultureInfo* culture, ::Il2CppObject* value);
+    ::StringW ConvertToString(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::Il2CppObject* value);
     // protected System.Exception GetConvertFromException(System.Object value)
     // Offset: 0x1EC8B94
-    System::Exception* GetConvertFromException(::Il2CppObject* value);
+    ::System::Exception* GetConvertFromException(::Il2CppObject* value);
     // protected System.Exception GetConvertToException(System.Object value, System.Type destinationType)
     // Offset: 0x1EC8D08
-    System::Exception* GetConvertToException(::Il2CppObject* value, System::Type* destinationType);
+    ::System::Exception* GetConvertToException(::Il2CppObject* value, ::System::Type* destinationType);
     // public System.Void .ctor()
     // Offset: 0x1EC7EF4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeConverter* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::TypeConverter::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::TypeConverter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeConverter*, creationType>()));
     }
   }; // System.ComponentModel.TypeConverter
@@ -116,7 +116,7 @@ namespace System::ComponentModel {
 // Writing MetadataGetter for method: System::ComponentModel::TypeConverter::CanConvertFrom
 // Il2CppName: CanConvertFrom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::ComponentModel::TypeConverter::*)(System::Type*)>(&System::ComponentModel::TypeConverter::CanConvertFrom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::ComponentModel::TypeConverter::*)(::System::Type*)>(&System::ComponentModel::TypeConverter::CanConvertFrom)> {
   static const MethodInfo* get() {
     static auto* sourceType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::TypeConverter*), "CanConvertFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sourceType});
@@ -125,7 +125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::ComponentModel::TypeConverter::CanConvertFrom
 // Il2CppName: CanConvertFrom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::ComponentModel::TypeConverter::*)(System::ComponentModel::ITypeDescriptorContext*, System::Type*)>(&System::ComponentModel::TypeConverter::CanConvertFrom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::ComponentModel::TypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Type*)>(&System::ComponentModel::TypeConverter::CanConvertFrom)> {
   static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("System.ComponentModel", "ITypeDescriptorContext")->byval_arg;
     static auto* sourceType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -135,7 +135,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::ComponentModel::TypeConverter::CanConvertTo
 // Il2CppName: CanConvertTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::ComponentModel::TypeConverter::*)(System::Type*)>(&System::ComponentModel::TypeConverter::CanConvertTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::ComponentModel::TypeConverter::*)(::System::Type*)>(&System::ComponentModel::TypeConverter::CanConvertTo)> {
   static const MethodInfo* get() {
     static auto* destinationType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::TypeConverter*), "CanConvertTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{destinationType});
@@ -144,7 +144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::ComponentModel::TypeConverter::CanConvertTo
 // Il2CppName: CanConvertTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::ComponentModel::TypeConverter::*)(System::ComponentModel::ITypeDescriptorContext*, System::Type*)>(&System::ComponentModel::TypeConverter::CanConvertTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::ComponentModel::TypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Type*)>(&System::ComponentModel::TypeConverter::CanConvertTo)> {
   static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("System.ComponentModel", "ITypeDescriptorContext")->byval_arg;
     static auto* destinationType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -154,7 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::ComponentModel::TypeConverter::ConvertFrom
 // Il2CppName: ConvertFrom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::ComponentModel::TypeConverter::*)(System::ComponentModel::ITypeDescriptorContext*, System::Globalization::CultureInfo*, ::Il2CppObject*)>(&System::ComponentModel::TypeConverter::ConvertFrom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::ComponentModel::TypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Globalization::CultureInfo*, ::Il2CppObject*)>(&System::ComponentModel::TypeConverter::ConvertFrom)> {
   static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("System.ComponentModel", "ITypeDescriptorContext")->byval_arg;
     static auto* culture = &::il2cpp_utils::GetClassFromName("System.Globalization", "CultureInfo")->byval_arg;
@@ -174,7 +174,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::ComponentModel::TypeConverter::ConvertTo
 // Il2CppName: ConvertTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::ComponentModel::TypeConverter::*)(System::ComponentModel::ITypeDescriptorContext*, System::Globalization::CultureInfo*, ::Il2CppObject*, System::Type*)>(&System::ComponentModel::TypeConverter::ConvertTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::ComponentModel::TypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Globalization::CultureInfo*, ::Il2CppObject*, ::System::Type*)>(&System::ComponentModel::TypeConverter::ConvertTo)> {
   static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("System.ComponentModel", "ITypeDescriptorContext")->byval_arg;
     static auto* culture = &::il2cpp_utils::GetClassFromName("System.Globalization", "CultureInfo")->byval_arg;
@@ -195,7 +195,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::ComponentModel::TypeConverter::ConvertToInvariantString
 // Il2CppName: ConvertToInvariantString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::ComponentModel::TypeConverter::*)(System::ComponentModel::ITypeDescriptorContext*, ::Il2CppObject*)>(&System::ComponentModel::TypeConverter::ConvertToInvariantString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::ComponentModel::TypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::Il2CppObject*)>(&System::ComponentModel::TypeConverter::ConvertToInvariantString)> {
   static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("System.ComponentModel", "ITypeDescriptorContext")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -214,7 +214,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::ComponentModel::TypeConverter::ConvertToString
 // Il2CppName: ConvertToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::ComponentModel::TypeConverter::*)(System::ComponentModel::ITypeDescriptorContext*, System::Globalization::CultureInfo*, ::Il2CppObject*)>(&System::ComponentModel::TypeConverter::ConvertToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::ComponentModel::TypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Globalization::CultureInfo*, ::Il2CppObject*)>(&System::ComponentModel::TypeConverter::ConvertToString)> {
   static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("System.ComponentModel", "ITypeDescriptorContext")->byval_arg;
     static auto* culture = &::il2cpp_utils::GetClassFromName("System.Globalization", "CultureInfo")->byval_arg;
@@ -225,7 +225,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::ComponentModel::TypeConverter::GetConvertFromException
 // Il2CppName: GetConvertFromException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (System::ComponentModel::TypeConverter::*)(::Il2CppObject*)>(&System::ComponentModel::TypeConverter::GetConvertFromException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (System::ComponentModel::TypeConverter::*)(::Il2CppObject*)>(&System::ComponentModel::TypeConverter::GetConvertFromException)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::TypeConverter*), "GetConvertFromException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -234,7 +234,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::ComponentModel::TypeConverter::GetConvertToException
 // Il2CppName: GetConvertToException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (System::ComponentModel::TypeConverter::*)(::Il2CppObject*, System::Type*)>(&System::ComponentModel::TypeConverter::GetConvertToException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (System::ComponentModel::TypeConverter::*)(::Il2CppObject*, ::System::Type*)>(&System::ComponentModel::TypeConverter::GetConvertToException)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* destinationType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;

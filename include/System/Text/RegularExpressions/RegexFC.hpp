@@ -29,8 +29,8 @@ namespace System::Text::RegularExpressions {
   class RegexFC;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Text::RegularExpressions::RegexFC);
-DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexFC*, "System.Text.RegularExpressions", "RegexFC");
+NEED_NO_BOX(::System::Text::RegularExpressions::RegexFC);
+DEFINE_IL2CPP_ARG_TYPE(::System::Text::RegularExpressions::RegexFC*, "System.Text.RegularExpressions", "RegexFC");
 // Type namespace: System.Text.RegularExpressions
 namespace System::Text::RegularExpressions {
   // Size: 0x1A
@@ -51,9 +51,9 @@ namespace System::Text::RegularExpressions {
     // System.Text.RegularExpressions.RegexCharClass _cc
     // Size: 0x8
     // Offset: 0x10
-    System::Text::RegularExpressions::RegexCharClass* cc;
+    ::System::Text::RegularExpressions::RegexCharClass* cc;
     // Field size check
-    static_assert(sizeof(System::Text::RegularExpressions::RegexCharClass*) == 0x8);
+    static_assert(sizeof(::System::Text::RegularExpressions::RegexCharClass*) == 0x8);
     // System.Boolean _nullable
     // Size: 0x1
     // Offset: 0x18
@@ -68,7 +68,7 @@ namespace System::Text::RegularExpressions {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: System.Text.RegularExpressions.RegexCharClass _cc
-    System::Text::RegularExpressions::RegexCharClass*& dyn__cc();
+    ::System::Text::RegularExpressions::RegexCharClass*& dyn__cc();
     // Get instance field reference: System.Boolean _nullable
     bool& dyn__nullable();
     // Get instance field reference: System.Boolean _caseInsensitive
@@ -77,29 +77,29 @@ namespace System::Text::RegularExpressions {
     // Offset: 0x1E9E50C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexFC* New_ctor(bool nullable) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::RegexFC::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::RegexFC::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexFC*, creationType>(nullable)));
     }
     // System.Void .ctor(System.Char ch, System.Boolean not, System.Boolean nullable, System.Boolean caseInsensitive)
     // Offset: 0x1E9E588
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexFC* New_ctor(::Il2CppChar ch, bool _not, bool nullable, bool caseInsensitive) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::RegexFC::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::RegexFC::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexFC*, creationType>(ch, _not, nullable, caseInsensitive)));
     }
     // System.Void .ctor(System.String charClass, System.Boolean nullable, System.Boolean caseInsensitive)
     // Offset: 0x1E9E67C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexFC* New_ctor(::StringW charClass, bool nullable, bool caseInsensitive) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::RegexFC::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::RegexFC::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexFC*, creationType>(charClass, nullable, caseInsensitive)));
     }
     // System.Boolean AddFC(System.Text.RegularExpressions.RegexFC fc, System.Boolean concatenate)
     // Offset: 0x1E9E720
-    bool AddFC(System::Text::RegularExpressions::RegexFC* fc, bool concatenate);
+    bool AddFC(::System::Text::RegularExpressions::RegexFC* fc, bool concatenate);
     // System.String GetFirstChars(System.Globalization.CultureInfo culture)
     // Offset: 0x1E9E7BC
-    ::StringW GetFirstChars(System::Globalization::CultureInfo* culture);
+    ::StringW GetFirstChars(::System::Globalization::CultureInfo* culture);
     // System.Boolean IsCaseInsensitive()
     // Offset: 0x1E9E7F8
     bool IsCaseInsensitive();
@@ -124,7 +124,7 @@ namespace System::Text::RegularExpressions {
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexFC::AddFC
 // Il2CppName: AddFC
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::RegularExpressions::RegexFC::*)(System::Text::RegularExpressions::RegexFC*, bool)>(&System::Text::RegularExpressions::RegexFC::AddFC)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::RegularExpressions::RegexFC::*)(::System::Text::RegularExpressions::RegexFC*, bool)>(&System::Text::RegularExpressions::RegexFC::AddFC)> {
   static const MethodInfo* get() {
     static auto* fc = &::il2cpp_utils::GetClassFromName("System.Text.RegularExpressions", "RegexFC")->byval_arg;
     static auto* concatenate = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -134,7 +134,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexFC::GetFirstChars
 // Il2CppName: GetFirstChars
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Text::RegularExpressions::RegexFC::*)(System::Globalization::CultureInfo*)>(&System::Text::RegularExpressions::RegexFC::GetFirstChars)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Text::RegularExpressions::RegexFC::*)(::System::Globalization::CultureInfo*)>(&System::Text::RegularExpressions::RegexFC::GetFirstChars)> {
   static const MethodInfo* get() {
     static auto* culture = &::il2cpp_utils::GetClassFromName("System.Globalization", "CultureInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexFC*), "GetFirstChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{culture});

@@ -17,8 +17,8 @@ namespace LeaderboardsDTO {
   class TokenDTO;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(LeaderboardsDTO::TokenDTO);
-DEFINE_IL2CPP_ARG_TYPE(LeaderboardsDTO::TokenDTO*, "LeaderboardsDTO", "TokenDTO");
+NEED_NO_BOX(::LeaderboardsDTO::TokenDTO);
+DEFINE_IL2CPP_ARG_TYPE(::LeaderboardsDTO::TokenDTO*, "LeaderboardsDTO", "TokenDTO");
 // Type namespace: LeaderboardsDTO
 namespace LeaderboardsDTO {
   // Size: 0x1C
@@ -59,7 +59,7 @@ namespace LeaderboardsDTO {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TokenDTO* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("LeaderboardsDTO::TokenDTO::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::LeaderboardsDTO::TokenDTO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TokenDTO*, creationType>()));
     }
   }; // LeaderboardsDTO.TokenDTO

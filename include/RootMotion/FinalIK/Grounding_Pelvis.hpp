@@ -15,8 +15,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::Grounding::Pelvis);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Grounding::Pelvis*, "RootMotion.FinalIK", "Grounding/Pelvis");
+NEED_NO_BOX(::RootMotion::FinalIK::Grounding::Pelvis);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::Grounding::Pelvis*, "RootMotion.FinalIK", "Grounding/Pelvis");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x40
@@ -37,9 +37,9 @@ namespace RootMotion::FinalIK {
     // private UnityEngine.Vector3 <IKOffset>k__BackingField
     // Size: 0xC
     // Offset: 0x10
-    UnityEngine::Vector3 IKOffset;
+    ::UnityEngine::Vector3 IKOffset;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // private System.Single <heightOffset>k__BackingField
     // Size: 0x4
     // Offset: 0x1C
@@ -49,15 +49,15 @@ namespace RootMotion::FinalIK {
     // private RootMotion.FinalIK.Grounding grounding
     // Size: 0x8
     // Offset: 0x20
-    RootMotion::FinalIK::Grounding* grounding;
+    ::RootMotion::FinalIK::Grounding* grounding;
     // Field size check
-    static_assert(sizeof(RootMotion::FinalIK::Grounding*) == 0x8);
+    static_assert(sizeof(::RootMotion::FinalIK::Grounding*) == 0x8);
     // private UnityEngine.Vector3 lastRootPosition
     // Size: 0xC
     // Offset: 0x28
-    UnityEngine::Vector3 lastRootPosition;
+    ::UnityEngine::Vector3 lastRootPosition;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // private System.Single damperF
     // Size: 0x4
     // Offset: 0x34
@@ -80,13 +80,13 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: private UnityEngine.Vector3 <IKOffset>k__BackingField
-    UnityEngine::Vector3& dyn_$IKOffset$k__BackingField();
+    ::UnityEngine::Vector3& dyn_$IKOffset$k__BackingField();
     // Get instance field reference: private System.Single <heightOffset>k__BackingField
     float& dyn_$heightOffset$k__BackingField();
     // Get instance field reference: private RootMotion.FinalIK.Grounding grounding
-    RootMotion::FinalIK::Grounding*& dyn_grounding();
+    ::RootMotion::FinalIK::Grounding*& dyn_grounding();
     // Get instance field reference: private UnityEngine.Vector3 lastRootPosition
-    UnityEngine::Vector3& dyn_lastRootPosition();
+    ::UnityEngine::Vector3& dyn_lastRootPosition();
     // Get instance field reference: private System.Single damperF
     float& dyn_damperF();
     // Get instance field reference: private System.Boolean initiated
@@ -95,10 +95,10 @@ namespace RootMotion::FinalIK {
     float& dyn_lastTime();
     // public UnityEngine.Vector3 get_IKOffset()
     // Offset: 0x21C8DCC
-    UnityEngine::Vector3 get_IKOffset();
+    ::UnityEngine::Vector3 get_IKOffset();
     // private System.Void set_IKOffset(UnityEngine.Vector3 value)
     // Offset: 0x21C8DD8
-    void set_IKOffset(UnityEngine::Vector3 value);
+    void set_IKOffset(::UnityEngine::Vector3 value);
     // public System.Single get_heightOffset()
     // Offset: 0x21C8DE4
     float get_heightOffset();
@@ -107,7 +107,7 @@ namespace RootMotion::FinalIK {
     void set_heightOffset(float value);
     // public System.Void Initiate(RootMotion.FinalIK.Grounding grounding)
     // Offset: 0x21C6930
-    void Initiate(RootMotion::FinalIK::Grounding* grounding);
+    void Initiate(::RootMotion::FinalIK::Grounding* grounding);
     // public System.Void Reset()
     // Offset: 0x21C7498
     void Reset();
@@ -123,7 +123,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Grounding::Pelvis* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::Grounding::Pelvis::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::Grounding::Pelvis::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Grounding::Pelvis*, creationType>()));
     }
   }; // RootMotion.FinalIK.Grounding/RootMotion.FinalIK.Pelvis
@@ -135,7 +135,7 @@ namespace RootMotion::FinalIK {
 // Writing MetadataGetter for method: RootMotion::FinalIK::Grounding::Pelvis::get_IKOffset
 // Il2CppName: get_IKOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RootMotion::FinalIK::Grounding::Pelvis::*)()>(&RootMotion::FinalIK::Grounding::Pelvis::get_IKOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (RootMotion::FinalIK::Grounding::Pelvis::*)()>(&RootMotion::FinalIK::Grounding::Pelvis::get_IKOffset)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Grounding::Pelvis*), "get_IKOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -143,7 +143,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: RootMotion::FinalIK::Grounding::Pelvis::set_IKOffset
 // Il2CppName: set_IKOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Grounding::Pelvis::*)(UnityEngine::Vector3)>(&RootMotion::FinalIK::Grounding::Pelvis::set_IKOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Grounding::Pelvis::*)(::UnityEngine::Vector3)>(&RootMotion::FinalIK::Grounding::Pelvis::set_IKOffset)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Grounding::Pelvis*), "set_IKOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -169,7 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::Grounding::Pelvis::Initiate
 // Il2CppName: Initiate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Grounding::Pelvis::*)(RootMotion::FinalIK::Grounding*)>(&RootMotion::FinalIK::Grounding::Pelvis::Initiate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Grounding::Pelvis::*)(::RootMotion::FinalIK::Grounding*)>(&RootMotion::FinalIK::Grounding::Pelvis::Initiate)> {
   static const MethodInfo* get() {
     static auto* grounding = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "Grounding")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Grounding::Pelvis*), "Initiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{grounding});

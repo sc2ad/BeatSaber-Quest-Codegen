@@ -13,8 +13,8 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
   class IGcmExponentiator;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator*, "Org.BouncyCastle.Crypto.Modes.Gcm", "IGcmExponentiator");
+NEED_NO_BOX(::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator*, "Org.BouncyCastle.Crypto.Modes.Gcm", "IGcmExponentiator");
 // Type namespace: Org.BouncyCastle.Crypto.Modes.Gcm
 namespace Org::BouncyCastle::Crypto::Modes::Gcm {
   // Size: 0x10

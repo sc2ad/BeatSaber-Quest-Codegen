@@ -23,8 +23,8 @@ namespace System::IO {
   class SearchPattern2;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::IO::SearchPattern2);
-DEFINE_IL2CPP_ARG_TYPE(System::IO::SearchPattern2*, "System.IO", "SearchPattern2");
+NEED_NO_BOX(::System::IO::SearchPattern2);
+DEFINE_IL2CPP_ARG_TYPE(::System::IO::SearchPattern2*, "System.IO", "SearchPattern2");
 // Type namespace: System.IO
 namespace System::IO {
   // Size: 0x28
@@ -33,9 +33,9 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class SearchPattern2 : public ::Il2CppObject {
     public:
-    // Nested type: System::IO::SearchPattern2::Op
+    // Nested type: ::System::IO::SearchPattern2::Op
     class Op;
-    // Nested type: System::IO::SearchPattern2::OpCode
+    // Nested type: ::System::IO::SearchPattern2::OpCode
     struct OpCode;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -49,9 +49,9 @@ namespace System::IO {
     // private System.IO.SearchPattern2/System.IO.Op ops
     // Size: 0x8
     // Offset: 0x10
-    System::IO::SearchPattern2::Op* ops;
+    ::System::IO::SearchPattern2::Op* ops;
     // Field size check
-    static_assert(sizeof(System::IO::SearchPattern2::Op*) == 0x8);
+    static_assert(sizeof(::System::IO::SearchPattern2::Op*) == 0x8);
     // private System.Boolean ignore
     // Size: 0x1
     // Offset: 0x18
@@ -82,7 +82,7 @@ namespace System::IO {
     // Set static field: static readonly System.Char[] InvalidChars
     static void _set_InvalidChars(::ArrayW<::Il2CppChar> value);
     // Get instance field reference: private System.IO.SearchPattern2/System.IO.Op ops
-    System::IO::SearchPattern2::Op*& dyn_ops();
+    ::System::IO::SearchPattern2::Op*& dyn_ops();
     // Get instance field reference: private System.Boolean ignore
     bool& dyn_ignore();
     // Get instance field reference: private System.Boolean hasWildcard
@@ -96,14 +96,14 @@ namespace System::IO {
     // Offset: 0x1AA1644
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SearchPattern2* New_ctor(::StringW pattern) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::SearchPattern2::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::IO::SearchPattern2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SearchPattern2*, creationType>(pattern)));
     }
     // public System.Void .ctor(System.String pattern, System.Boolean ignore)
     // Offset: 0x1AA23B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SearchPattern2* New_ctor(::StringW pattern, bool ignore) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::SearchPattern2::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::IO::SearchPattern2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SearchPattern2*, creationType>(pattern, ignore)));
     }
     // static private System.Void .cctor()

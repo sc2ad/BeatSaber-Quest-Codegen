@@ -25,8 +25,8 @@ namespace System::Runtime::Serialization {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Serialization::JsonContract::$$c__DisplayClass57_0);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Serialization::JsonContract::$$c__DisplayClass57_0*, "Newtonsoft.Json.Serialization", "JsonContract/<>c__DisplayClass57_0");
+NEED_NO_BOX(::Newtonsoft::Json::Serialization::JsonContract::$$c__DisplayClass57_0);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Serialization::JsonContract::$$c__DisplayClass57_0*, "Newtonsoft.Json.Serialization", "JsonContract/<>c__DisplayClass57_0");
 // Type namespace: Newtonsoft.Json.Serialization
 namespace Newtonsoft::Json::Serialization {
   // Size: 0x18
@@ -49,38 +49,38 @@ namespace Newtonsoft::Json::Serialization {
     // public System.Reflection.MethodInfo callbackMethodInfo
     // Size: 0x8
     // Offset: 0x10
-    System::Reflection::MethodInfo* callbackMethodInfo;
+    ::System::Reflection::MethodInfo* callbackMethodInfo;
     // Field size check
-    static_assert(sizeof(System::Reflection::MethodInfo*) == 0x8);
+    static_assert(sizeof(::System::Reflection::MethodInfo*) == 0x8);
     public:
-    // Creating conversion operator: operator System::Reflection::MethodInfo*
-    constexpr operator System::Reflection::MethodInfo*() const noexcept {
+    // Creating conversion operator: operator ::System::Reflection::MethodInfo*
+    constexpr operator ::System::Reflection::MethodInfo*() const noexcept {
       return callbackMethodInfo;
     }
     // Get instance field reference: public System.Reflection.MethodInfo callbackMethodInfo
-    System::Reflection::MethodInfo*& dyn_callbackMethodInfo();
+    ::System::Reflection::MethodInfo*& dyn_callbackMethodInfo();
     // System.Void <CreateSerializationCallback>b__0(System.Object o, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x152EC14
-    void $CreateSerializationCallback$b__0(::Il2CppObject* o, System::Runtime::Serialization::StreamingContext context);
+    void $CreateSerializationCallback$b__0(::Il2CppObject* o, ::System::Runtime::Serialization::StreamingContext context);
     // public System.Void .ctor()
     // Offset: 0x152EC04
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JsonContract::$$c__DisplayClass57_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Serialization::JsonContract::$$c__DisplayClass57_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::JsonContract::$$c__DisplayClass57_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JsonContract::$$c__DisplayClass57_0*, creationType>()));
     }
   }; // Newtonsoft.Json.Serialization.JsonContract/Newtonsoft.Json.Serialization.<>c__DisplayClass57_0
   #pragma pack(pop)
-  static check_size<sizeof(JsonContract::$$c__DisplayClass57_0), 16 + sizeof(System::Reflection::MethodInfo*)> __Newtonsoft_Json_Serialization_JsonContract_$$c__DisplayClass57_0SizeCheck;
+  static check_size<sizeof(JsonContract::$$c__DisplayClass57_0), 16 + sizeof(::System::Reflection::MethodInfo*)> __Newtonsoft_Json_Serialization_JsonContract_$$c__DisplayClass57_0SizeCheck;
   static_assert(sizeof(JsonContract::$$c__DisplayClass57_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::JsonContract::$$c__DisplayClass57_0::$CreateSerializationCallback$b__0
 // Il2CppName: <CreateSerializationCallback>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::JsonContract::$$c__DisplayClass57_0::*)(::Il2CppObject*, System::Runtime::Serialization::StreamingContext)>(&Newtonsoft::Json::Serialization::JsonContract::$$c__DisplayClass57_0::$CreateSerializationCallback$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::JsonContract::$$c__DisplayClass57_0::*)(::Il2CppObject*, ::System::Runtime::Serialization::StreamingContext)>(&Newtonsoft::Json::Serialization::JsonContract::$$c__DisplayClass57_0::$CreateSerializationCallback$b__0)> {
   static const MethodInfo* get() {
     static auto* o = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;

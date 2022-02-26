@@ -32,8 +32,8 @@ namespace UnityEngine {
   class Font;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Font);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Font*, "UnityEngine", "Font");
+NEED_NO_BOX(::UnityEngine::Font);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Font*, "UnityEngine", "Font");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x20
@@ -44,9 +44,9 @@ namespace UnityEngine {
   // [StaticAccessorAttribute] Offset: 11BD85C
   // [NativeHeaderAttribute] Offset: 11BD85C
   // [NativeHeaderAttribute] Offset: 11BD85C
-  class Font : public UnityEngine::Object {
+  class Font : public ::UnityEngine::Object {
     public:
-    // Nested type: UnityEngine::Font::FontTextureRebuildCallback
+    // Nested type: ::UnityEngine::Font::FontTextureRebuildCallback
     class FontTextureRebuildCallback;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -61,22 +61,22 @@ namespace UnityEngine {
     // private UnityEngine.Font/UnityEngine.FontTextureRebuildCallback m_FontTextureRebuildCallback
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::Font::FontTextureRebuildCallback* m_FontTextureRebuildCallback;
+    ::UnityEngine::Font::FontTextureRebuildCallback* m_FontTextureRebuildCallback;
     // Field size check
-    static_assert(sizeof(UnityEngine::Font::FontTextureRebuildCallback*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Font::FontTextureRebuildCallback*) == 0x8);
     public:
-    // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const noexcept = delete;
+    // Deleting conversion operator: operator ::System::IntPtr
+    constexpr operator ::System::IntPtr() const noexcept = delete;
     // [DebuggerBrowsableAttribute] Offset: 0x11BD908
     // Get static field: static private System.Action`1<UnityEngine.Font> textureRebuilt
-    static System::Action_1<UnityEngine::Font*>* _get_textureRebuilt();
+    static ::System::Action_1<::UnityEngine::Font*>* _get_textureRebuilt();
     // Set static field: static private System.Action`1<UnityEngine.Font> textureRebuilt
-    static void _set_textureRebuilt(System::Action_1<UnityEngine::Font*>* value);
+    static void _set_textureRebuilt(::System::Action_1<::UnityEngine::Font*>* value);
     // Get instance field reference: private UnityEngine.Font/UnityEngine.FontTextureRebuildCallback m_FontTextureRebuildCallback
-    UnityEngine::Font::FontTextureRebuildCallback*& dyn_m_FontTextureRebuildCallback();
+    ::UnityEngine::Font::FontTextureRebuildCallback*& dyn_m_FontTextureRebuildCallback();
     // public UnityEngine.Material get_material()
     // Offset: 0x2A50C64
-    UnityEngine::Material* get_material();
+    ::UnityEngine::Material* get_material();
     // public System.Boolean get_dynamic()
     // Offset: 0x2A50CA4
     bool get_dynamic();
@@ -85,13 +85,13 @@ namespace UnityEngine {
     int get_fontSize();
     // static public System.Void add_textureRebuilt(System.Action`1<UnityEngine.Font> value)
     // Offset: 0x2A50AFC
-    static void add_textureRebuilt(System::Action_1<UnityEngine::Font*>* value);
+    static void add_textureRebuilt(::System::Action_1<::UnityEngine::Font*>* value);
     // static public System.Void remove_textureRebuilt(System.Action`1<UnityEngine.Font> value)
     // Offset: 0x2A50BB0
-    static void remove_textureRebuilt(System::Action_1<UnityEngine::Font*>* value);
+    static void remove_textureRebuilt(::System::Action_1<::UnityEngine::Font*>* value);
     // static System.Void InvokeTextureRebuilt_Internal(UnityEngine.Font font)
     // Offset: 0x2A50E08
-    static void InvokeTextureRebuilt_Internal(UnityEngine::Font* font);
+    static void InvokeTextureRebuilt_Internal(::UnityEngine::Font* font);
     // public System.Boolean HasCharacter(System.Char c)
     // Offset: 0x2A5109C
     bool HasCharacter(::Il2CppChar c);
@@ -100,7 +100,7 @@ namespace UnityEngine {
     bool HasCharacter(int c);
     // static private System.Void Internal_CreateFont(UnityEngine.Font self, System.String name)
     // Offset: 0x2A50DB8
-    static void Internal_CreateFont(UnityEngine::Font* self, ::StringW name);
+    static void Internal_CreateFont(::UnityEngine::Font* self, ::StringW name);
     // public System.Void .ctor()
     // Offset: 0x2A50D24
     // Implemented from: UnityEngine.Object
@@ -108,19 +108,19 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Font* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Font::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Font::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Font*, creationType>()));
     }
   }; // UnityEngine.Font
   #pragma pack(pop)
-  static check_size<sizeof(Font), 24 + sizeof(UnityEngine::Font::FontTextureRebuildCallback*)> __UnityEngine_FontSizeCheck;
+  static check_size<sizeof(Font), 24 + sizeof(::UnityEngine::Font::FontTextureRebuildCallback*)> __UnityEngine_FontSizeCheck;
   static_assert(sizeof(Font) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Font::get_material
 // Il2CppName: get_material
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (UnityEngine::Font::*)()>(&UnityEngine::Font::get_material)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Material* (UnityEngine::Font::*)()>(&UnityEngine::Font::get_material)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Font*), "get_material", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -144,7 +144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::Font::add_textureRebuilt
 // Il2CppName: add_textureRebuilt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_1<UnityEngine::Font*>*)>(&UnityEngine::Font::add_textureRebuilt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action_1<::UnityEngine::Font*>*)>(&UnityEngine::Font::add_textureRebuilt)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Font")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Font*), "add_textureRebuilt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -153,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::Font::remove_textureRebuilt
 // Il2CppName: remove_textureRebuilt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_1<UnityEngine::Font*>*)>(&UnityEngine::Font::remove_textureRebuilt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action_1<::UnityEngine::Font*>*)>(&UnityEngine::Font::remove_textureRebuilt)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Font")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Font*), "remove_textureRebuilt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -162,7 +162,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::Font::InvokeTextureRebuilt_Internal
 // Il2CppName: InvokeTextureRebuilt_Internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Font*)>(&UnityEngine::Font::InvokeTextureRebuilt_Internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Font*)>(&UnityEngine::Font::InvokeTextureRebuilt_Internal)> {
   static const MethodInfo* get() {
     static auto* font = &::il2cpp_utils::GetClassFromName("UnityEngine", "Font")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Font*), "InvokeTextureRebuilt_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{font});
@@ -189,7 +189,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::Font::Internal_CreateFont
 // Il2CppName: Internal_CreateFont
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Font*, ::StringW)>(&UnityEngine::Font::Internal_CreateFont)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Font*, ::StringW)>(&UnityEngine::Font::Internal_CreateFont)> {
   static const MethodInfo* get() {
     static auto* self = &::il2cpp_utils::GetClassFromName("UnityEngine", "Font")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

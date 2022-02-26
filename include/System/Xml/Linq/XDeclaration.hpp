@@ -17,8 +17,8 @@ namespace System::Xml::Linq {
   class XDeclaration;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Linq::XDeclaration);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Linq::XDeclaration*, "System.Xml.Linq", "XDeclaration");
+NEED_NO_BOX(::System::Xml::Linq::XDeclaration);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Linq::XDeclaration*, "System.Xml.Linq", "XDeclaration");
 // Type namespace: System.Xml.Linq
 namespace System::Xml::Linq {
   // Size: 0x28
@@ -74,14 +74,14 @@ namespace System::Xml::Linq {
     // Offset: 0x29E41A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XDeclaration* New_ctor(::StringW version, ::StringW encoding, ::StringW standalone) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Linq::XDeclaration::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XDeclaration::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XDeclaration*, creationType>(version, encoding, standalone)));
     }
     // public System.Void .ctor(System.Xml.Linq.XDeclaration other)
     // Offset: 0x29E41E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XDeclaration* New_ctor(System::Xml::Linq::XDeclaration* other) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Linq::XDeclaration::.ctor");
+    static XDeclaration* New_ctor(::System::Xml::Linq::XDeclaration* other) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XDeclaration::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XDeclaration*, creationType>(other)));
     }
     // public override System.String ToString()

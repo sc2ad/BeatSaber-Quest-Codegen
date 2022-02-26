@@ -22,8 +22,8 @@ namespace GlobalNamespace {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::NoteCutter::CuttableBySaberSortParams);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutter::CuttableBySaberSortParams*, "", "NoteCutter/CuttableBySaberSortParams");
+NEED_NO_BOX(::GlobalNamespace::NoteCutter::CuttableBySaberSortParams);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NoteCutter::CuttableBySaberSortParams*, "", "NoteCutter/CuttableBySaberSortParams");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x28
@@ -44,9 +44,9 @@ namespace GlobalNamespace {
     // public CuttableBySaber cuttableBySaber
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::CuttableBySaber* cuttableBySaber;
+    ::GlobalNamespace::CuttableBySaber* cuttableBySaber;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::CuttableBySaber*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::CuttableBySaber*) == 0x8);
     // public System.Single distance
     // Size: 0x4
     // Offset: 0x18
@@ -56,28 +56,28 @@ namespace GlobalNamespace {
     // public UnityEngine.Vector3 pos
     // Size: 0xC
     // Offset: 0x1C
-    UnityEngine::Vector3 pos;
+    ::UnityEngine::Vector3 pos;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     public:
     // Get instance field reference: public CuttableBySaber cuttableBySaber
-    GlobalNamespace::CuttableBySaber*& dyn_cuttableBySaber();
+    ::GlobalNamespace::CuttableBySaber*& dyn_cuttableBySaber();
     // Get instance field reference: public System.Single distance
     float& dyn_distance();
     // Get instance field reference: public UnityEngine.Vector3 pos
-    UnityEngine::Vector3& dyn_pos();
+    ::UnityEngine::Vector3& dyn_pos();
     // public System.Void .ctor()
     // Offset: 0x2B2C748
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteCutter::CuttableBySaberSortParams* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NoteCutter::CuttableBySaberSortParams::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteCutter::CuttableBySaberSortParams::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteCutter::CuttableBySaberSortParams*, creationType>()));
     }
   }; // NoteCutter/CuttableBySaberSortParams
   #pragma pack(pop)
-  static check_size<sizeof(NoteCutter::CuttableBySaberSortParams), 28 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_NoteCutter_CuttableBySaberSortParamsSizeCheck;
+  static check_size<sizeof(NoteCutter::CuttableBySaberSortParams), 28 + sizeof(::UnityEngine::Vector3)> __GlobalNamespace_NoteCutter_CuttableBySaberSortParamsSizeCheck;
   static_assert(sizeof(NoteCutter::CuttableBySaberSortParams) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

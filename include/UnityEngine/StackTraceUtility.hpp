@@ -20,8 +20,8 @@ namespace UnityEngine {
   class StackTraceUtility;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::StackTraceUtility);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::StackTraceUtility*, "UnityEngine", "StackTraceUtility");
+NEED_NO_BOX(::UnityEngine::StackTraceUtility);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::StackTraceUtility*, "UnityEngine", "StackTraceUtility");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -48,7 +48,7 @@ namespace UnityEngine {
     static void ExtractStringFromExceptionInternal(::Il2CppObject* exceptiono, ByRef<::StringW> message, ByRef<::StringW> stackTrace);
     // static System.String ExtractFormattedStackTrace(System.Diagnostics.StackTrace stackTrace)
     // Offset: 0x26F6AEC
-    static ::StringW ExtractFormattedStackTrace(System::Diagnostics::StackTrace* stackTrace);
+    static ::StringW ExtractFormattedStackTrace(::System::Diagnostics::StackTrace* stackTrace);
   }; // UnityEngine.StackTraceUtility
   #pragma pack(pop)
 }
@@ -92,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::StackTraceUtility::ExtractFormattedStackTrace
 // Il2CppName: ExtractFormattedStackTrace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Diagnostics::StackTrace*)>(&UnityEngine::StackTraceUtility::ExtractFormattedStackTrace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Diagnostics::StackTrace*)>(&UnityEngine::StackTraceUtility::ExtractFormattedStackTrace)> {
   static const MethodInfo* get() {
     static auto* stackTrace = &::il2cpp_utils::GetClassFromName("System.Diagnostics", "StackTrace")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::StackTraceUtility*), "ExtractFormattedStackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stackTrace});

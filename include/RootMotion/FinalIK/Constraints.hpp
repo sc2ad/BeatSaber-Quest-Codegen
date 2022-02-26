@@ -25,8 +25,8 @@ namespace RootMotion::FinalIK {
   class Constraints;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::Constraints);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Constraints*, "RootMotion.FinalIK", "Constraints");
+NEED_NO_BOX(::RootMotion::FinalIK::Constraints);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::Constraints*, "RootMotion.FinalIK", "Constraints");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x58
@@ -47,27 +47,27 @@ namespace RootMotion::FinalIK {
     // public UnityEngine.Transform transform
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::Transform* transform;
+    ::UnityEngine::Transform* transform;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // public UnityEngine.Transform target
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::Transform* target;
+    ::UnityEngine::Transform* target;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // public UnityEngine.Vector3 positionOffset
     // Size: 0xC
     // Offset: 0x20
-    UnityEngine::Vector3 positionOffset;
+    ::UnityEngine::Vector3 positionOffset;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // public UnityEngine.Vector3 position
     // Size: 0xC
     // Offset: 0x2C
-    UnityEngine::Vector3 position;
+    ::UnityEngine::Vector3 position;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // [RangeAttribute] Offset: 0x1263830
     // public System.Single positionWeight
     // Size: 0x4
@@ -78,15 +78,15 @@ namespace RootMotion::FinalIK {
     // public UnityEngine.Vector3 rotationOffset
     // Size: 0xC
     // Offset: 0x3C
-    UnityEngine::Vector3 rotationOffset;
+    ::UnityEngine::Vector3 rotationOffset;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // public UnityEngine.Vector3 rotation
     // Size: 0xC
     // Offset: 0x48
-    UnityEngine::Vector3 rotation;
+    ::UnityEngine::Vector3 rotation;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // [RangeAttribute] Offset: 0x1263848
     // public System.Single rotationWeight
     // Size: 0x4
@@ -96,19 +96,19 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public UnityEngine.Transform transform
-    UnityEngine::Transform*& dyn_transform();
+    ::UnityEngine::Transform*& dyn_transform();
     // Get instance field reference: public UnityEngine.Transform target
-    UnityEngine::Transform*& dyn_target();
+    ::UnityEngine::Transform*& dyn_target();
     // Get instance field reference: public UnityEngine.Vector3 positionOffset
-    UnityEngine::Vector3& dyn_positionOffset();
+    ::UnityEngine::Vector3& dyn_positionOffset();
     // Get instance field reference: public UnityEngine.Vector3 position
-    UnityEngine::Vector3& dyn_position();
+    ::UnityEngine::Vector3& dyn_position();
     // Get instance field reference: public System.Single positionWeight
     float& dyn_positionWeight();
     // Get instance field reference: public UnityEngine.Vector3 rotationOffset
-    UnityEngine::Vector3& dyn_rotationOffset();
+    ::UnityEngine::Vector3& dyn_rotationOffset();
     // Get instance field reference: public UnityEngine.Vector3 rotation
-    UnityEngine::Vector3& dyn_rotation();
+    ::UnityEngine::Vector3& dyn_rotation();
     // Get instance field reference: public System.Single rotationWeight
     float& dyn_rotationWeight();
     // public System.Boolean IsValid()
@@ -116,7 +116,7 @@ namespace RootMotion::FinalIK {
     bool IsValid();
     // public System.Void Initiate(UnityEngine.Transform transform)
     // Offset: 0x222A3DC
-    void Initiate(UnityEngine::Transform* transform);
+    void Initiate(::UnityEngine::Transform* transform);
     // public System.Void Update()
     // Offset: 0x222A5B8
     void Update();
@@ -126,7 +126,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Constraints* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::Constraints::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::Constraints::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Constraints*, creationType>()));
     }
   }; // RootMotion.FinalIK.Constraints
@@ -146,7 +146,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::Constraints::Initiate
 // Il2CppName: Initiate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Constraints::*)(UnityEngine::Transform*)>(&RootMotion::FinalIK::Constraints::Initiate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Constraints::*)(::UnityEngine::Transform*)>(&RootMotion::FinalIK::Constraints::Initiate)> {
   static const MethodInfo* get() {
     static auto* transform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Constraints*), "Initiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{transform});

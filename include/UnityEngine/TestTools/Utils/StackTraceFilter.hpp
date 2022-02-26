@@ -19,8 +19,8 @@ namespace UnityEngine::TestTools::Utils {
   class StackTraceFilter;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::TestTools::Utils::StackTraceFilter);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Utils::StackTraceFilter*, "UnityEngine.TestTools.Utils", "StackTraceFilter");
+NEED_NO_BOX(::UnityEngine::TestTools::Utils::StackTraceFilter);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TestTools::Utils::StackTraceFilter*, "UnityEngine.TestTools.Utils", "StackTraceFilter");
 // Type namespace: UnityEngine.TestTools.Utils
 namespace UnityEngine::TestTools::Utils {
   // Size: 0x10
@@ -29,7 +29,7 @@ namespace UnityEngine::TestTools::Utils {
   // [TokenAttribute] Offset: FFFFFFFF
   class StackTraceFilter : public ::Il2CppObject {
     public:
-    // Nested type: UnityEngine::TestTools::Utils::StackTraceFilter::$$c__DisplayClass2_0
+    // Nested type: ::UnityEngine::TestTools::Utils::StackTraceFilter::$$c__DisplayClass2_0
     class $$c__DisplayClass2_0;
     // Get static field: static private readonly System.String[] s_FilteredLogMessages
     static ::ArrayW<::StringW> _get_s_FilteredLogMessages();

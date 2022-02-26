@@ -11,8 +11,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Xml::SmallXmlParser::IAttrList);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Xml::SmallXmlParser::IAttrList*, "Mono.Xml", "SmallXmlParser/IAttrList");
+NEED_NO_BOX(::Mono::Xml::SmallXmlParser::IAttrList);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Xml::SmallXmlParser::IAttrList*, "Mono.Xml", "SmallXmlParser/IAttrList");
 // Type namespace: Mono.Xml
 namespace Mono::Xml {
   // Size: 0x10

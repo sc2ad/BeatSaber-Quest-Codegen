@@ -14,8 +14,8 @@ namespace Unity::Collections {
   class NativeMatchesParallelForLengthAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Unity::Collections::NativeMatchesParallelForLengthAttribute);
-DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::NativeMatchesParallelForLengthAttribute*, "Unity.Collections", "NativeMatchesParallelForLengthAttribute");
+NEED_NO_BOX(::Unity::Collections::NativeMatchesParallelForLengthAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::Unity::Collections::NativeMatchesParallelForLengthAttribute*, "Unity.Collections", "NativeMatchesParallelForLengthAttribute");
 // Type namespace: Unity.Collections
 namespace Unity::Collections {
   // Size: 0x10
@@ -24,7 +24,7 @@ namespace Unity::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   // [RequiredByNativeCodeAttribute] Offset: 11A316C
   // [AttributeUsageAttribute] Offset: 11A316C
-  class NativeMatchesParallelForLengthAttribute : public System::Attribute {
+  class NativeMatchesParallelForLengthAttribute : public ::System::Attribute {
     public:
   }; // Unity.Collections.NativeMatchesParallelForLengthAttribute
   #pragma pack(pop)

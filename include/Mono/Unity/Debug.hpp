@@ -22,8 +22,8 @@ namespace Mono::Unity {
   class Debug;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Unity::Debug);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::Debug*, "Mono.Unity", "Debug");
+NEED_NO_BOX(::Mono::Unity::Debug);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Unity::Debug*, "Mono.Unity", "Debug");
 // Type namespace: Mono.Unity
 namespace Mono::Unity {
   // Size: 0x10
@@ -34,10 +34,10 @@ namespace Mono::Unity {
     public:
     // static public System.Void CheckAndThrow(Mono.Unity.UnityTls/Mono.Unity.unitytls_errorstate errorState, System.String context, Mono.Security.Interface.AlertDescription defaultAlert)
     // Offset: 0x1A377B8
-    static void CheckAndThrow(Mono::Unity::UnityTls::unitytls_errorstate errorState, ::StringW context, Mono::Security::Interface::AlertDescription defaultAlert);
+    static void CheckAndThrow(::Mono::Unity::UnityTls::unitytls_errorstate errorState, ::StringW context, ::Mono::Security::Interface::AlertDescription defaultAlert);
     // static public System.Void CheckAndThrow(Mono.Unity.UnityTls/Mono.Unity.unitytls_errorstate errorState, Mono.Unity.UnityTls/Mono.Unity.unitytls_x509verify_result verifyResult, System.String context, Mono.Security.Interface.AlertDescription defaultAlert)
     // Offset: 0x1A37890
-    static void CheckAndThrow(Mono::Unity::UnityTls::unitytls_errorstate errorState, Mono::Unity::UnityTls::unitytls_x509verify_result verifyResult, ::StringW context, Mono::Security::Interface::AlertDescription defaultAlert);
+    static void CheckAndThrow(::Mono::Unity::UnityTls::unitytls_errorstate errorState, ::Mono::Unity::UnityTls::unitytls_x509verify_result verifyResult, ::StringW context, ::Mono::Security::Interface::AlertDescription defaultAlert);
   }; // Mono.Unity.Debug
   #pragma pack(pop)
 }
@@ -45,7 +45,7 @@ namespace Mono::Unity {
 // Writing MetadataGetter for method: Mono::Unity::Debug::CheckAndThrow
 // Il2CppName: CheckAndThrow
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Mono::Unity::UnityTls::unitytls_errorstate, ::StringW, Mono::Security::Interface::AlertDescription)>(&Mono::Unity::Debug::CheckAndThrow)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Mono::Unity::UnityTls::unitytls_errorstate, ::StringW, ::Mono::Security::Interface::AlertDescription)>(&Mono::Unity::Debug::CheckAndThrow)> {
   static const MethodInfo* get() {
     static auto* errorState = &::il2cpp_utils::GetClassFromName("Mono.Unity", "UnityTls/unitytls_errorstate")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -56,7 +56,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Mo
 // Writing MetadataGetter for method: Mono::Unity::Debug::CheckAndThrow
 // Il2CppName: CheckAndThrow
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Mono::Unity::UnityTls::unitytls_errorstate, Mono::Unity::UnityTls::unitytls_x509verify_result, ::StringW, Mono::Security::Interface::AlertDescription)>(&Mono::Unity::Debug::CheckAndThrow)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Mono::Unity::UnityTls::unitytls_errorstate, ::Mono::Unity::UnityTls::unitytls_x509verify_result, ::StringW, ::Mono::Security::Interface::AlertDescription)>(&Mono::Unity::Debug::CheckAndThrow)> {
   static const MethodInfo* get() {
     static auto* errorState = &::il2cpp_utils::GetClassFromName("Mono.Unity", "UnityTls/unitytls_errorstate")->byval_arg;
     static auto* verifyResult = &::il2cpp_utils::GetClassFromName("Mono.Unity", "UnityTls/unitytls_x509verify_result")->byval_arg;

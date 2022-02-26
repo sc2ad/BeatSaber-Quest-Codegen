@@ -42,8 +42,8 @@ namespace UnityEngine::Events {
   class PersistentCall;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Events::PersistentCall);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::PersistentCall*, "UnityEngine.Events", "PersistentCall");
+NEED_NO_BOX(::UnityEngine::Events::PersistentCall);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Events::PersistentCall*, "UnityEngine.Events", "PersistentCall");
 // Type namespace: UnityEngine.Events
 namespace UnityEngine::Events {
   // Size: 0x34
@@ -65,9 +65,9 @@ namespace UnityEngine::Events {
     // private UnityEngine.Object m_Target
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::Object* m_Target;
+    ::UnityEngine::Object* m_Target;
     // Field size check
-    static_assert(sizeof(UnityEngine::Object*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Object*) == 0x8);
     // [FormerlySerializedAsAttribute] Offset: 0x11A9F5C
     // private System.String m_MethodName
     // Size: 0x8
@@ -79,77 +79,77 @@ namespace UnityEngine::Events {
     // private UnityEngine.Events.PersistentListenerMode m_Mode
     // Size: 0x4
     // Offset: 0x20
-    UnityEngine::Events::PersistentListenerMode m_Mode;
+    ::UnityEngine::Events::PersistentListenerMode m_Mode;
     // Field size check
-    static_assert(sizeof(UnityEngine::Events::PersistentListenerMode) == 0x4);
+    static_assert(sizeof(::UnityEngine::Events::PersistentListenerMode) == 0x4);
     // Padding between fields: m_Mode and: m_Arguments
     char __padding2[0x4] = {};
     // [FormerlySerializedAsAttribute] Offset: 0x11A9FF4
     // private UnityEngine.Events.ArgumentCache m_Arguments
     // Size: 0x8
     // Offset: 0x28
-    UnityEngine::Events::ArgumentCache* m_Arguments;
+    ::UnityEngine::Events::ArgumentCache* m_Arguments;
     // Field size check
-    static_assert(sizeof(UnityEngine::Events::ArgumentCache*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Events::ArgumentCache*) == 0x8);
     // [FormerlySerializedAsAttribute] Offset: 0x11AA040
     // [FormerlySerializedAsAttribute] Offset: 0x11AA040
     // private UnityEngine.Events.UnityEventCallState m_CallState
     // Size: 0x4
     // Offset: 0x30
-    UnityEngine::Events::UnityEventCallState m_CallState;
+    ::UnityEngine::Events::UnityEventCallState m_CallState;
     // Field size check
-    static_assert(sizeof(UnityEngine::Events::UnityEventCallState) == 0x4);
+    static_assert(sizeof(::UnityEngine::Events::UnityEventCallState) == 0x4);
     public:
     // Get instance field reference: private UnityEngine.Object m_Target
-    UnityEngine::Object*& dyn_m_Target();
+    ::UnityEngine::Object*& dyn_m_Target();
     // Get instance field reference: private System.String m_MethodName
     ::StringW& dyn_m_MethodName();
     // Get instance field reference: private UnityEngine.Events.PersistentListenerMode m_Mode
-    UnityEngine::Events::PersistentListenerMode& dyn_m_Mode();
+    ::UnityEngine::Events::PersistentListenerMode& dyn_m_Mode();
     // Get instance field reference: private UnityEngine.Events.ArgumentCache m_Arguments
-    UnityEngine::Events::ArgumentCache*& dyn_m_Arguments();
+    ::UnityEngine::Events::ArgumentCache*& dyn_m_Arguments();
     // Get instance field reference: private UnityEngine.Events.UnityEventCallState m_CallState
-    UnityEngine::Events::UnityEventCallState& dyn_m_CallState();
+    ::UnityEngine::Events::UnityEventCallState& dyn_m_CallState();
     // public UnityEngine.Object get_target()
     // Offset: 0x1EB9210
-    UnityEngine::Object* get_target();
+    ::UnityEngine::Object* get_target();
     // public System.String get_methodName()
     // Offset: 0x1EB9218
     ::StringW get_methodName();
     // public UnityEngine.Events.PersistentListenerMode get_mode()
     // Offset: 0x1EB9220
-    UnityEngine::Events::PersistentListenerMode get_mode();
+    ::UnityEngine::Events::PersistentListenerMode get_mode();
     // public UnityEngine.Events.ArgumentCache get_arguments()
     // Offset: 0x1EB9228
-    UnityEngine::Events::ArgumentCache* get_arguments();
+    ::UnityEngine::Events::ArgumentCache* get_arguments();
     // public System.Boolean IsValid()
     // Offset: 0x1EB9230
     bool IsValid();
     // public UnityEngine.Events.BaseInvokableCall GetRuntimeCall(UnityEngine.Events.UnityEventBase theEvent)
     // Offset: 0x1EB92C4
-    UnityEngine::Events::BaseInvokableCall* GetRuntimeCall(UnityEngine::Events::UnityEventBase* theEvent);
+    ::UnityEngine::Events::BaseInvokableCall* GetRuntimeCall(::UnityEngine::Events::UnityEventBase* theEvent);
     // static private UnityEngine.Events.BaseInvokableCall GetObjectCall(UnityEngine.Object target, System.Reflection.MethodInfo method, UnityEngine.Events.ArgumentCache arguments)
     // Offset: 0x1EB9634
-    static UnityEngine::Events::BaseInvokableCall* GetObjectCall(UnityEngine::Object* target, System::Reflection::MethodInfo* method, UnityEngine::Events::ArgumentCache* arguments);
+    static ::UnityEngine::Events::BaseInvokableCall* GetObjectCall(::UnityEngine::Object* target, ::System::Reflection::MethodInfo* method, ::UnityEngine::Events::ArgumentCache* arguments);
     // public System.Void .ctor()
     // Offset: 0x1EB9A40
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PersistentCall* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::PersistentCall::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Events::PersistentCall::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PersistentCall*, creationType>()));
     }
   }; // UnityEngine.Events.PersistentCall
   #pragma pack(pop)
-  static check_size<sizeof(PersistentCall), 48 + sizeof(UnityEngine::Events::UnityEventCallState)> __UnityEngine_Events_PersistentCallSizeCheck;
+  static check_size<sizeof(PersistentCall), 48 + sizeof(::UnityEngine::Events::UnityEventCallState)> __UnityEngine_Events_PersistentCallSizeCheck;
   static_assert(sizeof(PersistentCall) == 0x34);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Events::PersistentCall::get_target
 // Il2CppName: get_target
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (UnityEngine::Events::PersistentCall::*)()>(&UnityEngine::Events::PersistentCall::get_target)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Object* (UnityEngine::Events::PersistentCall::*)()>(&UnityEngine::Events::PersistentCall::get_target)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::PersistentCall*), "get_target", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -165,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: UnityEngine::Events::PersistentCall::get_mode
 // Il2CppName: get_mode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Events::PersistentListenerMode (UnityEngine::Events::PersistentCall::*)()>(&UnityEngine::Events::PersistentCall::get_mode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Events::PersistentListenerMode (UnityEngine::Events::PersistentCall::*)()>(&UnityEngine::Events::PersistentCall::get_mode)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::PersistentCall*), "get_mode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -173,7 +173,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Events::PersistentCall::get_arguments
 // Il2CppName: get_arguments
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Events::ArgumentCache* (UnityEngine::Events::PersistentCall::*)()>(&UnityEngine::Events::PersistentCall::get_arguments)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Events::ArgumentCache* (UnityEngine::Events::PersistentCall::*)()>(&UnityEngine::Events::PersistentCall::get_arguments)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::PersistentCall*), "get_arguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -189,7 +189,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::Events::PersistentCall::GetRuntimeCall
 // Il2CppName: GetRuntimeCall
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Events::BaseInvokableCall* (UnityEngine::Events::PersistentCall::*)(UnityEngine::Events::UnityEventBase*)>(&UnityEngine::Events::PersistentCall::GetRuntimeCall)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Events::BaseInvokableCall* (UnityEngine::Events::PersistentCall::*)(::UnityEngine::Events::UnityEventBase*)>(&UnityEngine::Events::PersistentCall::GetRuntimeCall)> {
   static const MethodInfo* get() {
     static auto* theEvent = &::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityEventBase")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::PersistentCall*), "GetRuntimeCall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{theEvent});
@@ -198,7 +198,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Events::PersistentCall::GetObjectCall
 // Il2CppName: GetObjectCall
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Events::BaseInvokableCall* (*)(UnityEngine::Object*, System::Reflection::MethodInfo*, UnityEngine::Events::ArgumentCache*)>(&UnityEngine::Events::PersistentCall::GetObjectCall)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Events::BaseInvokableCall* (*)(::UnityEngine::Object*, ::System::Reflection::MethodInfo*, ::UnityEngine::Events::ArgumentCache*)>(&UnityEngine::Events::PersistentCall::GetObjectCall)> {
   static const MethodInfo* get() {
     static auto* target = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* method = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodInfo")->byval_arg;

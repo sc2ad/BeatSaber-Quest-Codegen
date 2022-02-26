@@ -18,8 +18,8 @@ namespace Microsoft::Win32 {
   class Win32Native;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Microsoft::Win32::Win32Native);
-DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::Win32Native*, "Microsoft.Win32", "Win32Native");
+NEED_NO_BOX(::Microsoft::Win32::Win32Native);
+DEFINE_IL2CPP_ARG_TYPE(::Microsoft::Win32::Win32Native*, "Microsoft.Win32", "Win32Native");
 // Type namespace: Microsoft.Win32
 namespace Microsoft::Win32 {
   // Size: 0x10
@@ -28,7 +28,7 @@ namespace Microsoft::Win32 {
   // [TokenAttribute] Offset: FFFFFFFF
   class Win32Native : public ::Il2CppObject {
     public:
-    // Nested type: Microsoft::Win32::Win32Native::WIN32_FIND_DATA
+    // Nested type: ::Microsoft::Win32::Win32Native::WIN32_FIND_DATA
     class WIN32_FIND_DATA;
     // static public System.String GetMessage(System.Int32 hr)
     // Offset: 0x1E657F0

@@ -20,8 +20,8 @@ namespace System::Runtime::Serialization {
   class ISerializable;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Serialization::ISerializable);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::ISerializable*, "System.Runtime.Serialization", "ISerializable");
+NEED_NO_BOX(::System::Runtime::Serialization::ISerializable);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::ISerializable*, "System.Runtime.Serialization", "ISerializable");
 // Type namespace: System.Runtime.Serialization
 namespace System::Runtime::Serialization {
   // Size: 0x10
@@ -33,7 +33,7 @@ namespace System::Runtime::Serialization {
     public:
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0xFFFFFFFF
-    void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
+    void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
   }; // System.Runtime.Serialization.ISerializable
   #pragma pack(pop)
 }
@@ -41,7 +41,7 @@ namespace System::Runtime::Serialization {
 // Writing MetadataGetter for method: System::Runtime::Serialization::ISerializable::GetObjectData
 // Il2CppName: GetObjectData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::ISerializable::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::Runtime::Serialization::ISerializable::GetObjectData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::ISerializable::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&System::Runtime::Serialization::ISerializable::GetObjectData)> {
   static const MethodInfo* get() {
     static auto* info = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;

@@ -20,8 +20,8 @@ namespace System::Runtime::InteropServices {
   class InterfaceTypeAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::InteropServices::InterfaceTypeAttribute);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::InterfaceTypeAttribute*, "System.Runtime.InteropServices", "InterfaceTypeAttribute");
+NEED_NO_BOX(::System::Runtime::InteropServices::InterfaceTypeAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::InteropServices::InterfaceTypeAttribute*, "System.Runtime.InteropServices", "InterfaceTypeAttribute");
 // Type namespace: System.Runtime.InteropServices
 namespace System::Runtime::InteropServices {
   // Size: 0x14
@@ -30,7 +30,7 @@ namespace System::Runtime::InteropServices {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: 118B6AC
   // [AttributeUsageAttribute] Offset: 118B6AC
-  class InterfaceTypeAttribute : public System::Attribute {
+  class InterfaceTypeAttribute : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -44,26 +44,26 @@ namespace System::Runtime::InteropServices {
     // System.Runtime.InteropServices.ComInterfaceType _val
     // Size: 0x4
     // Offset: 0x10
-    System::Runtime::InteropServices::ComInterfaceType val;
+    ::System::Runtime::InteropServices::ComInterfaceType val;
     // Field size check
-    static_assert(sizeof(System::Runtime::InteropServices::ComInterfaceType) == 0x4);
+    static_assert(sizeof(::System::Runtime::InteropServices::ComInterfaceType) == 0x4);
     public:
-    // Creating conversion operator: operator System::Runtime::InteropServices::ComInterfaceType
-    constexpr operator System::Runtime::InteropServices::ComInterfaceType() const noexcept {
+    // Creating conversion operator: operator ::System::Runtime::InteropServices::ComInterfaceType
+    constexpr operator ::System::Runtime::InteropServices::ComInterfaceType() const noexcept {
       return val;
     }
     // Get instance field reference: System.Runtime.InteropServices.ComInterfaceType _val
-    System::Runtime::InteropServices::ComInterfaceType& dyn__val();
+    ::System::Runtime::InteropServices::ComInterfaceType& dyn__val();
     // public System.Void .ctor(System.Runtime.InteropServices.ComInterfaceType interfaceType)
     // Offset: 0x1C6C4D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static InterfaceTypeAttribute* New_ctor(System::Runtime::InteropServices::ComInterfaceType interfaceType) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::InterfaceTypeAttribute::.ctor");
+    static InterfaceTypeAttribute* New_ctor(::System::Runtime::InteropServices::ComInterfaceType interfaceType) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::InteropServices::InterfaceTypeAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InterfaceTypeAttribute*, creationType>(interfaceType)));
     }
   }; // System.Runtime.InteropServices.InterfaceTypeAttribute
   #pragma pack(pop)
-  static check_size<sizeof(InterfaceTypeAttribute), 16 + sizeof(System::Runtime::InteropServices::ComInterfaceType)> __System_Runtime_InteropServices_InterfaceTypeAttributeSizeCheck;
+  static check_size<sizeof(InterfaceTypeAttribute), 16 + sizeof(::System::Runtime::InteropServices::ComInterfaceType)> __System_Runtime_InteropServices_InterfaceTypeAttributeSizeCheck;
   static_assert(sizeof(InterfaceTypeAttribute) == 0x14);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

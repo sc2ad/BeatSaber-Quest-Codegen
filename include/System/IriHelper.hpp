@@ -20,8 +20,8 @@ namespace System {
   class IriHelper;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::IriHelper);
-DEFINE_IL2CPP_ARG_TYPE(System::IriHelper*, "System", "IriHelper");
+NEED_NO_BOX(::System::IriHelper);
+DEFINE_IL2CPP_ARG_TYPE(::System::IriHelper*, "System", "IriHelper");
 // Type namespace: System
 namespace System {
   // Size: 0x10
@@ -38,10 +38,10 @@ namespace System {
     static bool CheckIriUnicodeRange(::Il2CppChar highSurr, ::Il2CppChar lowSurr, ByRef<bool> surrogatePair, bool isQuery);
     // static System.Boolean CheckIsReserved(System.Char ch, System.UriComponents component)
     // Offset: 0x1AA4C84
-    static bool CheckIsReserved(::Il2CppChar ch, System::UriComponents component);
+    static bool CheckIsReserved(::Il2CppChar ch, ::System::UriComponents component);
     // static System.String EscapeUnescapeIri(System.Char* pInput, System.Int32 start, System.Int32 end, System.UriComponents component)
     // Offset: 0x1AA4DE8
-    static ::StringW EscapeUnescapeIri(::Il2CppChar* pInput, int start, int end, System::UriComponents component);
+    static ::StringW EscapeUnescapeIri(::Il2CppChar* pInput, int start, int end, ::System::UriComponents component);
   }; // System.IriHelper
   #pragma pack(pop)
 }
@@ -71,7 +71,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::IriHelper::CheckIsReserved
 // Il2CppName: CheckIsReserved
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar, System::UriComponents)>(&System::IriHelper::CheckIsReserved)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar, ::System::UriComponents)>(&System::IriHelper::CheckIsReserved)> {
   static const MethodInfo* get() {
     static auto* ch = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     static auto* component = &::il2cpp_utils::GetClassFromName("System", "UriComponents")->byval_arg;
@@ -81,7 +81,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::IriHelper::EscapeUnescapeIri
 // Il2CppName: EscapeUnescapeIri
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::Il2CppChar*, int, int, System::UriComponents)>(&System::IriHelper::EscapeUnescapeIri)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::Il2CppChar*, int, int, ::System::UriComponents)>(&System::IriHelper::EscapeUnescapeIri)> {
   static const MethodInfo* get() {
     static auto* pInput = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

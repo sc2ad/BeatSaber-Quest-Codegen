@@ -32,8 +32,8 @@ namespace System::Net::Security {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass5_0);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass5_0*, "Mono.Net.Security.Private", "CallbackHelpers/<>c__DisplayClass5_0");
+NEED_NO_BOX(::Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass5_0);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass5_0*, "Mono.Net.Security.Private", "CallbackHelpers/<>c__DisplayClass5_0");
 // Type namespace: Mono.Net.Security.Private
 namespace Mono::Net::Security::Private {
   // Size: 0x18
@@ -55,38 +55,38 @@ namespace Mono::Net::Security::Private {
     // public Mono.Security.Interface.MonoRemoteCertificateValidationCallback callback
     // Size: 0x8
     // Offset: 0x10
-    Mono::Security::Interface::MonoRemoteCertificateValidationCallback* callback;
+    ::Mono::Security::Interface::MonoRemoteCertificateValidationCallback* callback;
     // Field size check
-    static_assert(sizeof(Mono::Security::Interface::MonoRemoteCertificateValidationCallback*) == 0x8);
+    static_assert(sizeof(::Mono::Security::Interface::MonoRemoteCertificateValidationCallback*) == 0x8);
     public:
-    // Creating conversion operator: operator Mono::Security::Interface::MonoRemoteCertificateValidationCallback*
-    constexpr operator Mono::Security::Interface::MonoRemoteCertificateValidationCallback*() const noexcept {
+    // Creating conversion operator: operator ::Mono::Security::Interface::MonoRemoteCertificateValidationCallback*
+    constexpr operator ::Mono::Security::Interface::MonoRemoteCertificateValidationCallback*() const noexcept {
       return callback;
     }
     // Get instance field reference: public Mono.Security.Interface.MonoRemoteCertificateValidationCallback callback
-    Mono::Security::Interface::MonoRemoteCertificateValidationCallback*& dyn_callback();
+    ::Mono::Security::Interface::MonoRemoteCertificateValidationCallback*& dyn_callback();
     // System.Boolean <MonoToPublic>b__0(System.Object t, System.Security.Cryptography.X509Certificates.X509Certificate c, System.Security.Cryptography.X509Certificates.X509Chain ch, System.Net.Security.SslPolicyErrors e)
     // Offset: 0x1A36750
-    bool $MonoToPublic$b__0(::Il2CppObject* t, System::Security::Cryptography::X509Certificates::X509Certificate* c, System::Security::Cryptography::X509Certificates::X509Chain* ch, System::Net::Security::SslPolicyErrors e);
+    bool $MonoToPublic$b__0(::Il2CppObject* t, ::System::Security::Cryptography::X509Certificates::X509Certificate* c, ::System::Security::Cryptography::X509Certificates::X509Chain* ch, ::System::Net::Security::SslPolicyErrors e);
     // public System.Void .ctor()
     // Offset: 0x1A36724
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CallbackHelpers::$$c__DisplayClass5_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass5_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass5_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CallbackHelpers::$$c__DisplayClass5_0*, creationType>()));
     }
   }; // Mono.Net.Security.Private.CallbackHelpers/Mono.Net.Security.Private.<>c__DisplayClass5_0
   #pragma pack(pop)
-  static check_size<sizeof(CallbackHelpers::$$c__DisplayClass5_0), 16 + sizeof(Mono::Security::Interface::MonoRemoteCertificateValidationCallback*)> __Mono_Net_Security_Private_CallbackHelpers_$$c__DisplayClass5_0SizeCheck;
+  static check_size<sizeof(CallbackHelpers::$$c__DisplayClass5_0), 16 + sizeof(::Mono::Security::Interface::MonoRemoteCertificateValidationCallback*)> __Mono_Net_Security_Private_CallbackHelpers_$$c__DisplayClass5_0SizeCheck;
   static_assert(sizeof(CallbackHelpers::$$c__DisplayClass5_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass5_0::$MonoToPublic$b__0
 // Il2CppName: <MonoToPublic>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass5_0::*)(::Il2CppObject*, System::Security::Cryptography::X509Certificates::X509Certificate*, System::Security::Cryptography::X509Certificates::X509Chain*, System::Net::Security::SslPolicyErrors)>(&Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass5_0::$MonoToPublic$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass5_0::*)(::Il2CppObject*, ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::System::Security::Cryptography::X509Certificates::X509Chain*, ::System::Net::Security::SslPolicyErrors)>(&Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass5_0::$MonoToPublic$b__0)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* c = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509Certificate")->byval_arg;

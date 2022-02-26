@@ -25,8 +25,8 @@ namespace System::Collections {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Schema::XdrBuilder::ElementContent);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::XdrBuilder::ElementContent*, "System.Xml.Schema", "XdrBuilder/ElementContent");
+NEED_NO_BOX(::System::Xml::Schema::XdrBuilder::ElementContent);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XdrBuilder::ElementContent*, "System.Xml.Schema", "XdrBuilder/ElementContent");
 // Type namespace: System.Xml.Schema
 namespace System::Xml::Schema {
   // Size: 0x40
@@ -47,9 +47,9 @@ namespace System::Xml::Schema {
     // System.Xml.Schema.SchemaElementDecl _ElementDecl
     // Size: 0x8
     // Offset: 0x10
-    System::Xml::Schema::SchemaElementDecl* ElementDecl;
+    ::System::Xml::Schema::SchemaElementDecl* ElementDecl;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::SchemaElementDecl*) == 0x8);
+    static_assert(sizeof(::System::Xml::Schema::SchemaElementDecl*) == 0x8);
     // System.Int32 _ContentAttr
     // Size: 0x4
     // Offset: 0x18
@@ -127,12 +127,12 @@ namespace System::Xml::Schema {
     // System.Collections.Hashtable _AttDefList
     // Size: 0x8
     // Offset: 0x38
-    System::Collections::Hashtable* AttDefList;
+    ::System::Collections::Hashtable* AttDefList;
     // Field size check
-    static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
+    static_assert(sizeof(::System::Collections::Hashtable*) == 0x8);
     public:
     // Get instance field reference: System.Xml.Schema.SchemaElementDecl _ElementDecl
-    System::Xml::Schema::SchemaElementDecl*& dyn__ElementDecl();
+    ::System::Xml::Schema::SchemaElementDecl*& dyn__ElementDecl();
     // Get instance field reference: System.Int32 _ContentAttr
     int& dyn__ContentAttr();
     // Get instance field reference: System.Int32 _OrderAttr
@@ -158,19 +158,19 @@ namespace System::Xml::Schema {
     // Get instance field reference: System.UInt32 _MinLength
     uint& dyn__MinLength();
     // Get instance field reference: System.Collections.Hashtable _AttDefList
-    System::Collections::Hashtable*& dyn__AttDefList();
+    ::System::Collections::Hashtable*& dyn__AttDefList();
     // public System.Void .ctor()
     // Offset: 0x1C71520
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XdrBuilder::ElementContent* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Schema::XdrBuilder::ElementContent::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XdrBuilder::ElementContent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XdrBuilder::ElementContent*, creationType>()));
     }
   }; // System.Xml.Schema.XdrBuilder/System.Xml.Schema.ElementContent
   #pragma pack(pop)
-  static check_size<sizeof(XdrBuilder::ElementContent), 56 + sizeof(System::Collections::Hashtable*)> __System_Xml_Schema_XdrBuilder_ElementContentSizeCheck;
+  static check_size<sizeof(XdrBuilder::ElementContent), 56 + sizeof(::System::Collections::Hashtable*)> __System_Xml_Schema_XdrBuilder_ElementContentSizeCheck;
   static_assert(sizeof(XdrBuilder::ElementContent) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -14,8 +14,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::StandardLevelInfoSaveData::VersionCheck);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelInfoSaveData::VersionCheck*, "", "StandardLevelInfoSaveData/VersionCheck");
+NEED_NO_BOX(::GlobalNamespace::StandardLevelInfoSaveData::VersionCheck);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StandardLevelInfoSaveData::VersionCheck*, "", "StandardLevelInfoSaveData/VersionCheck");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardLevelInfoSaveData::VersionCheck* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StandardLevelInfoSaveData::VersionCheck::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::StandardLevelInfoSaveData::VersionCheck::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StandardLevelInfoSaveData::VersionCheck*, creationType>()));
     }
   }; // StandardLevelInfoSaveData/VersionCheck

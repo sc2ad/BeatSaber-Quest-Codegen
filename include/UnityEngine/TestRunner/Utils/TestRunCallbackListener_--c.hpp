@@ -41,8 +41,8 @@ namespace UnityEngine::TestRunner {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c*, "UnityEngine.TestRunner.Utils", "TestRunCallbackListener/<>c");
+NEED_NO_BOX(::UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c*, "UnityEngine.TestRunner.Utils", "TestRunCallbackListener/<>c");
 // Type namespace: UnityEngine.TestRunner.Utils
 namespace UnityEngine::TestRunner::Utils {
   // Size: 0x10
@@ -53,47 +53,47 @@ namespace UnityEngine::TestRunner::Utils {
   class TestRunCallbackListener::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly UnityEngine.TestRunner.Utils.TestRunCallbackListener/UnityEngine.TestRunner.Utils.<>c <>9
-    static UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c* _get_$$9();
+    static ::UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c* _get_$$9();
     // Set static field: static public readonly UnityEngine.TestRunner.Utils.TestRunCallbackListener/UnityEngine.TestRunner.Utils.<>c <>9
-    static void _set_$$9(UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c* value);
+    static void _set_$$9(::UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c* value);
     // Get static field: static public System.Func`2<System.Reflection.AssemblyName,System.Boolean> <>9__2_3
-    static System::Func_2<System::Reflection::AssemblyName*, bool>* _get_$$9__2_3();
+    static ::System::Func_2<::System::Reflection::AssemblyName*, bool>* _get_$$9__2_3();
     // Set static field: static public System.Func`2<System.Reflection.AssemblyName,System.Boolean> <>9__2_3
-    static void _set_$$9__2_3(System::Func_2<System::Reflection::AssemblyName*, bool>* value);
+    static void _set_$$9__2_3(::System::Func_2<::System::Reflection::AssemblyName*, bool>* value);
     // Get static field: static public System.Func`2<System.Reflection.Assembly,System.Boolean> <>9__2_0
-    static System::Func_2<System::Reflection::Assembly*, bool>* _get_$$9__2_0();
+    static ::System::Func_2<::System::Reflection::Assembly*, bool>* _get_$$9__2_0();
     // Set static field: static public System.Func`2<System.Reflection.Assembly,System.Boolean> <>9__2_0
-    static void _set_$$9__2_0(System::Func_2<System::Reflection::Assembly*, bool>* value);
+    static void _set_$$9__2_0(::System::Func_2<::System::Reflection::Assembly*, bool>* value);
     // Get static field: static public System.Func`2<System.Reflection.Assembly,System.Collections.Generic.IEnumerable`1<UnityEngine.TestRunner.TestRunCallbackAttribute>> <>9__2_1
-    static System::Func_2<System::Reflection::Assembly*, System::Collections::Generic::IEnumerable_1<UnityEngine::TestRunner::TestRunCallbackAttribute*>*>* _get_$$9__2_1();
+    static ::System::Func_2<::System::Reflection::Assembly*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::TestRunner::TestRunCallbackAttribute*>*>* _get_$$9__2_1();
     // Set static field: static public System.Func`2<System.Reflection.Assembly,System.Collections.Generic.IEnumerable`1<UnityEngine.TestRunner.TestRunCallbackAttribute>> <>9__2_1
-    static void _set_$$9__2_1(System::Func_2<System::Reflection::Assembly*, System::Collections::Generic::IEnumerable_1<UnityEngine::TestRunner::TestRunCallbackAttribute*>*>* value);
+    static void _set_$$9__2_1(::System::Func_2<::System::Reflection::Assembly*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::TestRunner::TestRunCallbackAttribute*>*>* value);
     // Get static field: static public System.Func`2<UnityEngine.TestRunner.TestRunCallbackAttribute,UnityEngine.TestRunner.ITestRunCallback> <>9__2_2
-    static System::Func_2<UnityEngine::TestRunner::TestRunCallbackAttribute*, UnityEngine::TestRunner::ITestRunCallback*>* _get_$$9__2_2();
+    static ::System::Func_2<::UnityEngine::TestRunner::TestRunCallbackAttribute*, ::UnityEngine::TestRunner::ITestRunCallback*>* _get_$$9__2_2();
     // Set static field: static public System.Func`2<UnityEngine.TestRunner.TestRunCallbackAttribute,UnityEngine.TestRunner.ITestRunCallback> <>9__2_2
-    static void _set_$$9__2_2(System::Func_2<UnityEngine::TestRunner::TestRunCallbackAttribute*, UnityEngine::TestRunner::ITestRunCallback*>* value);
+    static void _set_$$9__2_2(::System::Func_2<::UnityEngine::TestRunner::TestRunCallbackAttribute*, ::UnityEngine::TestRunner::ITestRunCallback*>* value);
     // static private System.Void .cctor()
     // Offset: 0x18D51EC
     static void _cctor();
     // System.Boolean <GetAllCallbacks>b__2_0(System.Reflection.Assembly x)
     // Offset: 0x18D5258
-    bool $GetAllCallbacks$b__2_0(System::Reflection::Assembly* x);
+    bool $GetAllCallbacks$b__2_0(::System::Reflection::Assembly* x);
     // System.Boolean <GetAllCallbacks>b__2_3(System.Reflection.AssemblyName z)
     // Offset: 0x18D536C
-    bool $GetAllCallbacks$b__2_3(System::Reflection::AssemblyName* z);
+    bool $GetAllCallbacks$b__2_3(::System::Reflection::AssemblyName* z);
     // System.Collections.Generic.IEnumerable`1<UnityEngine.TestRunner.TestRunCallbackAttribute> <GetAllCallbacks>b__2_1(System.Reflection.Assembly assembly)
     // Offset: 0x18D53C8
-    System::Collections::Generic::IEnumerable_1<UnityEngine::TestRunner::TestRunCallbackAttribute*>* $GetAllCallbacks$b__2_1(System::Reflection::Assembly* assembly);
+    ::System::Collections::Generic::IEnumerable_1<::UnityEngine::TestRunner::TestRunCallbackAttribute*>* $GetAllCallbacks$b__2_1(::System::Reflection::Assembly* assembly);
     // UnityEngine.TestRunner.ITestRunCallback <GetAllCallbacks>b__2_2(UnityEngine.TestRunner.TestRunCallbackAttribute attribute)
     // Offset: 0x18D5470
-    UnityEngine::TestRunner::ITestRunCallback* $GetAllCallbacks$b__2_2(UnityEngine::TestRunner::TestRunCallbackAttribute* attribute);
+    ::UnityEngine::TestRunner::ITestRunCallback* $GetAllCallbacks$b__2_2(::UnityEngine::TestRunner::TestRunCallbackAttribute* attribute);
     // public System.Void .ctor()
     // Offset: 0x18D5250
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestRunCallbackListener::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestRunCallbackListener::$$c*, creationType>()));
     }
   }; // UnityEngine.TestRunner.Utils.TestRunCallbackListener/UnityEngine.TestRunner.Utils.<>c
@@ -111,7 +111,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c::$GetAllCallbacks$b__2_0
 // Il2CppName: <GetAllCallbacks>b__2_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c::*)(System::Reflection::Assembly*)>(&UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c::$GetAllCallbacks$b__2_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c::*)(::System::Reflection::Assembly*)>(&UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c::$GetAllCallbacks$b__2_0)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c*), "<GetAllCallbacks>b__2_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -120,7 +120,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c::$GetAllCallbacks$b__2_3
 // Il2CppName: <GetAllCallbacks>b__2_3
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c::*)(System::Reflection::AssemblyName*)>(&UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c::$GetAllCallbacks$b__2_3)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c::*)(::System::Reflection::AssemblyName*)>(&UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c::$GetAllCallbacks$b__2_3)> {
   static const MethodInfo* get() {
     static auto* z = &::il2cpp_utils::GetClassFromName("System.Reflection", "AssemblyName")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c*), "<GetAllCallbacks>b__2_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{z});
@@ -129,7 +129,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c::$GetAllCallbacks$b__2_1
 // Il2CppName: <GetAllCallbacks>b__2_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::TestRunner::TestRunCallbackAttribute*>* (UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c::*)(System::Reflection::Assembly*)>(&UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c::$GetAllCallbacks$b__2_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::TestRunner::TestRunCallbackAttribute*>* (UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c::*)(::System::Reflection::Assembly*)>(&UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c::$GetAllCallbacks$b__2_1)> {
   static const MethodInfo* get() {
     static auto* assembly = &::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c*), "<GetAllCallbacks>b__2_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assembly});
@@ -138,7 +138,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c::$GetAllCallbacks$b__2_2
 // Il2CppName: <GetAllCallbacks>b__2_2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestRunner::ITestRunCallback* (UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c::*)(UnityEngine::TestRunner::TestRunCallbackAttribute*)>(&UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c::$GetAllCallbacks$b__2_2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TestRunner::ITestRunCallback* (UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c::*)(::UnityEngine::TestRunner::TestRunCallbackAttribute*)>(&UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c::$GetAllCallbacks$b__2_2)> {
   static const MethodInfo* get() {
     static auto* attribute = &::il2cpp_utils::GetClassFromName("UnityEngine.TestRunner", "TestRunCallbackAttribute")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c*), "<GetAllCallbacks>b__2_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attribute});

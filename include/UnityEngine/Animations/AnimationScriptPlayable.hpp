@@ -19,7 +19,7 @@ namespace UnityEngine::Animations {
   struct AnimationScriptPlayable;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationScriptPlayable, "UnityEngine.Animations", "AnimationScriptPlayable");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Animations::AnimationScriptPlayable, "UnityEngine.Animations", "AnimationScriptPlayable");
 // Type namespace: UnityEngine.Animations
 namespace UnityEngine::Animations {
   // Size: 0xC
@@ -33,55 +33,55 @@ namespace UnityEngine::Animations {
   // [NativeHeaderAttribute] Offset: 11C038C
   // [RequiredByNativeCodeAttribute] Offset: 11C038C
   // [StaticAccessorAttribute] Offset: 11C038C
-  struct AnimationScriptPlayable/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Animations::AnimationScriptPlayable>, public UnityEngine::Playables::IPlayable*/ {
+  struct AnimationScriptPlayable/*, public ::System::ValueType, public ::System::IEquatable_1<::UnityEngine::Animations::AnimationScriptPlayable>, public ::UnityEngine::Playables::IPlayable*/ {
     public:
     public:
     // private UnityEngine.Playables.PlayableHandle m_Handle
     // Size: 0xC
     // Offset: 0x0
-    UnityEngine::Playables::PlayableHandle m_Handle;
+    ::UnityEngine::Playables::PlayableHandle m_Handle;
     // Field size check
-    static_assert(sizeof(UnityEngine::Playables::PlayableHandle) == 0xC);
+    static_assert(sizeof(::UnityEngine::Playables::PlayableHandle) == 0xC);
     public:
     // Creating value type constructor for type: AnimationScriptPlayable
-    constexpr AnimationScriptPlayable(UnityEngine::Playables::PlayableHandle m_Handle_ = {}) noexcept : m_Handle{m_Handle_} {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    constexpr AnimationScriptPlayable(::UnityEngine::Playables::PlayableHandle m_Handle_ = {}) noexcept : m_Handle{m_Handle_} {}
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
-    // Creating interface conversion operator: operator System::IEquatable_1<UnityEngine::Animations::AnimationScriptPlayable>
-    operator System::IEquatable_1<UnityEngine::Animations::AnimationScriptPlayable>() noexcept {
-      return *reinterpret_cast<System::IEquatable_1<UnityEngine::Animations::AnimationScriptPlayable>*>(this);
+    // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::Animations::AnimationScriptPlayable>
+    operator ::System::IEquatable_1<::UnityEngine::Animations::AnimationScriptPlayable>() noexcept {
+      return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::Animations::AnimationScriptPlayable>*>(this);
     }
-    // Creating interface conversion operator: operator UnityEngine::Playables::IPlayable
-    operator UnityEngine::Playables::IPlayable() noexcept {
-      return *reinterpret_cast<UnityEngine::Playables::IPlayable*>(this);
+    // Creating interface conversion operator: operator ::UnityEngine::Playables::IPlayable
+    operator ::UnityEngine::Playables::IPlayable() noexcept {
+      return *reinterpret_cast<::UnityEngine::Playables::IPlayable*>(this);
     }
-    // Creating conversion operator: operator UnityEngine::Playables::PlayableHandle
-    constexpr operator UnityEngine::Playables::PlayableHandle() const noexcept {
+    // Creating conversion operator: operator ::UnityEngine::Playables::PlayableHandle
+    constexpr operator ::UnityEngine::Playables::PlayableHandle() const noexcept {
       return m_Handle;
     }
     // Get static field: static private readonly UnityEngine.Animations.AnimationScriptPlayable m_NullPlayable
-    static UnityEngine::Animations::AnimationScriptPlayable _get_m_NullPlayable();
+    static ::UnityEngine::Animations::AnimationScriptPlayable _get_m_NullPlayable();
     // Set static field: static private readonly UnityEngine.Animations.AnimationScriptPlayable m_NullPlayable
-    static void _set_m_NullPlayable(UnityEngine::Animations::AnimationScriptPlayable value);
+    static void _set_m_NullPlayable(::UnityEngine::Animations::AnimationScriptPlayable value);
     // Get instance field reference: private UnityEngine.Playables.PlayableHandle m_Handle
-    UnityEngine::Playables::PlayableHandle& dyn_m_Handle();
+    ::UnityEngine::Playables::PlayableHandle& dyn_m_Handle();
     // System.Void .ctor(UnityEngine.Playables.PlayableHandle handle)
     // Offset: 0x29A6A58
-    // ABORTED: conflicts with another method.  AnimationScriptPlayable(UnityEngine::Playables::PlayableHandle handle);
+    // ABORTED: conflicts with another method.  AnimationScriptPlayable(::UnityEngine::Playables::PlayableHandle handle);
     // static private System.Void .cctor()
     // Offset: 0x29A6BA4
     static void _cctor();
     // public UnityEngine.Playables.PlayableHandle GetHandle()
     // Offset: 0x29A6B10
-    UnityEngine::Playables::PlayableHandle GetHandle();
+    ::UnityEngine::Playables::PlayableHandle GetHandle();
     // public System.Boolean Equals(UnityEngine.Animations.AnimationScriptPlayable other)
     // Offset: 0x29A6B1C
-    bool Equals(UnityEngine::Animations::AnimationScriptPlayable other);
+    bool Equals(::UnityEngine::Animations::AnimationScriptPlayable other);
   }; // UnityEngine.Animations.AnimationScriptPlayable
   #pragma pack(pop)
-  static check_size<sizeof(AnimationScriptPlayable), 0 + sizeof(UnityEngine::Playables::PlayableHandle)> __UnityEngine_Animations_AnimationScriptPlayableSizeCheck;
+  static check_size<sizeof(AnimationScriptPlayable), 0 + sizeof(::UnityEngine::Playables::PlayableHandle)> __UnityEngine_Animations_AnimationScriptPlayableSizeCheck;
   static_assert(sizeof(AnimationScriptPlayable) == 0xC);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -100,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::Animations::AnimationScriptPlayable::GetHandle
 // Il2CppName: GetHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (UnityEngine::Animations::AnimationScriptPlayable::*)()>(&UnityEngine::Animations::AnimationScriptPlayable::GetHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::PlayableHandle (UnityEngine::Animations::AnimationScriptPlayable::*)()>(&UnityEngine::Animations::AnimationScriptPlayable::GetHandle)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationScriptPlayable), "GetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -108,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Animations::AnimationScriptPlayable::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animations::AnimationScriptPlayable::*)(UnityEngine::Animations::AnimationScriptPlayable)>(&UnityEngine::Animations::AnimationScriptPlayable::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animations::AnimationScriptPlayable::*)(::UnityEngine::Animations::AnimationScriptPlayable)>(&UnityEngine::Animations::AnimationScriptPlayable::Equals)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("UnityEngine.Animations", "AnimationScriptPlayable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationScriptPlayable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});

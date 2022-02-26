@@ -18,8 +18,8 @@ namespace GlobalNamespace {
   class ISaberSwingRatingCounterDidChangeReceiver;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*, "", "ISaberSwingRatingCounterDidChangeReceiver");
+NEED_NO_BOX(::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*, "", "ISaberSwingRatingCounterDidChangeReceiver");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -30,7 +30,7 @@ namespace GlobalNamespace {
     public:
     // public System.Void HandleSaberSwingRatingCounterDidChange(ISaberSwingRatingCounter saberSwingRatingCounter, System.Single rating)
     // Offset: 0xFFFFFFFF
-    void HandleSaberSwingRatingCounterDidChange(GlobalNamespace::ISaberSwingRatingCounter* saberSwingRatingCounter, float rating);
+    void HandleSaberSwingRatingCounterDidChange(::GlobalNamespace::ISaberSwingRatingCounter* saberSwingRatingCounter, float rating);
   }; // ISaberSwingRatingCounterDidChangeReceiver
   #pragma pack(pop)
 }
@@ -38,7 +38,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver::HandleSaberSwingRatingCounterDidChange
 // Il2CppName: HandleSaberSwingRatingCounterDidChange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver::*)(GlobalNamespace::ISaberSwingRatingCounter*, float)>(&GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver::HandleSaberSwingRatingCounterDidChange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver::*)(::GlobalNamespace::ISaberSwingRatingCounter*, float)>(&GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver::HandleSaberSwingRatingCounterDidChange)> {
   static const MethodInfo* get() {
     static auto* saberSwingRatingCounter = &::il2cpp_utils::GetClassFromName("", "ISaberSwingRatingCounter")->byval_arg;
     static auto* rating = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

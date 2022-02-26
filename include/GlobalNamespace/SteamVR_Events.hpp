@@ -48,8 +48,8 @@ namespace GlobalNamespace {
   class SteamVR_Events;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SteamVR_Events);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Events*, "", "SteamVR_Events");
+NEED_NO_BOX(::GlobalNamespace::SteamVR_Events);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SteamVR_Events*, "", "SteamVR_Events");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -58,141 +58,141 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SteamVR_Events : public ::Il2CppObject {
     public:
-    // Nested type: GlobalNamespace::SteamVR_Events::Action
+    // Nested type: ::GlobalNamespace::SteamVR_Events::Action
     class Action;
-    // Nested type: GlobalNamespace::SteamVR_Events::ActionNoArgs
+    // Nested type: ::GlobalNamespace::SteamVR_Events::ActionNoArgs
     class ActionNoArgs;
-    // Nested type: GlobalNamespace::SteamVR_Events::Action_1<T>
+    // Nested type: ::GlobalNamespace::SteamVR_Events::Action_1<T>
     template<typename T>
     class Action_1;
-    // Nested type: GlobalNamespace::SteamVR_Events::Action_2<T0, T1>
+    // Nested type: ::GlobalNamespace::SteamVR_Events::Action_2<T0, T1>
     template<typename T0, typename T1>
     class Action_2;
-    // Nested type: GlobalNamespace::SteamVR_Events::Action_3<T0, T1, T2>
+    // Nested type: ::GlobalNamespace::SteamVR_Events::Action_3<T0, T1, T2>
     template<typename T0, typename T1, typename T2>
     class Action_3;
-    // Nested type: GlobalNamespace::SteamVR_Events::Event
+    // Nested type: ::GlobalNamespace::SteamVR_Events::Event
     class Event;
-    // Nested type: GlobalNamespace::SteamVR_Events::Event_1<T>
+    // Nested type: ::GlobalNamespace::SteamVR_Events::Event_1<T>
     template<typename T>
     class Event_1;
-    // Nested type: GlobalNamespace::SteamVR_Events::Event_2<T0, T1>
+    // Nested type: ::GlobalNamespace::SteamVR_Events::Event_2<T0, T1>
     template<typename T0, typename T1>
     class Event_2;
-    // Nested type: GlobalNamespace::SteamVR_Events::Event_3<T0, T1, T2>
+    // Nested type: ::GlobalNamespace::SteamVR_Events::Event_3<T0, T1, T2>
     template<typename T0, typename T1, typename T2>
     class Event_3;
     // Get static field: static public SteamVR_Events/Event`1<System.Boolean> Calibrating
-    static GlobalNamespace::SteamVR_Events::Event_1<bool>* _get_Calibrating();
+    static ::GlobalNamespace::SteamVR_Events::Event_1<bool>* _get_Calibrating();
     // Set static field: static public SteamVR_Events/Event`1<System.Boolean> Calibrating
-    static void _set_Calibrating(GlobalNamespace::SteamVR_Events::Event_1<bool>* value);
+    static void _set_Calibrating(::GlobalNamespace::SteamVR_Events::Event_1<bool>* value);
     // Get static field: static public SteamVR_Events/Event`2<System.Int32,System.Boolean> DeviceConnected
-    static GlobalNamespace::SteamVR_Events::Event_2<int, bool>* _get_DeviceConnected();
+    static ::GlobalNamespace::SteamVR_Events::Event_2<int, bool>* _get_DeviceConnected();
     // Set static field: static public SteamVR_Events/Event`2<System.Int32,System.Boolean> DeviceConnected
-    static void _set_DeviceConnected(GlobalNamespace::SteamVR_Events::Event_2<int, bool>* value);
+    static void _set_DeviceConnected(::GlobalNamespace::SteamVR_Events::Event_2<int, bool>* value);
     // Get static field: static public SteamVR_Events/Event`3<UnityEngine.Color,System.Single,System.Boolean> Fade
-    static GlobalNamespace::SteamVR_Events::Event_3<UnityEngine::Color, float, bool>* _get_Fade();
+    static ::GlobalNamespace::SteamVR_Events::Event_3<::UnityEngine::Color, float, bool>* _get_Fade();
     // Set static field: static public SteamVR_Events/Event`3<UnityEngine.Color,System.Single,System.Boolean> Fade
-    static void _set_Fade(GlobalNamespace::SteamVR_Events::Event_3<UnityEngine::Color, float, bool>* value);
+    static void _set_Fade(::GlobalNamespace::SteamVR_Events::Event_3<::UnityEngine::Color, float, bool>* value);
     // Get static field: static public SteamVR_Events/Event FadeReady
-    static GlobalNamespace::SteamVR_Events::Event* _get_FadeReady();
+    static ::GlobalNamespace::SteamVR_Events::Event* _get_FadeReady();
     // Set static field: static public SteamVR_Events/Event FadeReady
-    static void _set_FadeReady(GlobalNamespace::SteamVR_Events::Event* value);
+    static void _set_FadeReady(::GlobalNamespace::SteamVR_Events::Event* value);
     // Get static field: static public SteamVR_Events/Event`1<System.Boolean> HideRenderModels
-    static GlobalNamespace::SteamVR_Events::Event_1<bool>* _get_HideRenderModels();
+    static ::GlobalNamespace::SteamVR_Events::Event_1<bool>* _get_HideRenderModels();
     // Set static field: static public SteamVR_Events/Event`1<System.Boolean> HideRenderModels
-    static void _set_HideRenderModels(GlobalNamespace::SteamVR_Events::Event_1<bool>* value);
+    static void _set_HideRenderModels(::GlobalNamespace::SteamVR_Events::Event_1<bool>* value);
     // Get static field: static public SteamVR_Events/Event`1<System.Boolean> Initializing
-    static GlobalNamespace::SteamVR_Events::Event_1<bool>* _get_Initializing();
+    static ::GlobalNamespace::SteamVR_Events::Event_1<bool>* _get_Initializing();
     // Set static field: static public SteamVR_Events/Event`1<System.Boolean> Initializing
-    static void _set_Initializing(GlobalNamespace::SteamVR_Events::Event_1<bool>* value);
+    static void _set_Initializing(::GlobalNamespace::SteamVR_Events::Event_1<bool>* value);
     // Get static field: static public SteamVR_Events/Event`1<System.Boolean> InputFocus
-    static GlobalNamespace::SteamVR_Events::Event_1<bool>* _get_InputFocus();
+    static ::GlobalNamespace::SteamVR_Events::Event_1<bool>* _get_InputFocus();
     // Set static field: static public SteamVR_Events/Event`1<System.Boolean> InputFocus
-    static void _set_InputFocus(GlobalNamespace::SteamVR_Events::Event_1<bool>* value);
+    static void _set_InputFocus(::GlobalNamespace::SteamVR_Events::Event_1<bool>* value);
     // Get static field: static public SteamVR_Events/Event`1<System.Boolean> Loading
-    static GlobalNamespace::SteamVR_Events::Event_1<bool>* _get_Loading();
+    static ::GlobalNamespace::SteamVR_Events::Event_1<bool>* _get_Loading();
     // Set static field: static public SteamVR_Events/Event`1<System.Boolean> Loading
-    static void _set_Loading(GlobalNamespace::SteamVR_Events::Event_1<bool>* value);
+    static void _set_Loading(::GlobalNamespace::SteamVR_Events::Event_1<bool>* value);
     // Get static field: static public SteamVR_Events/Event`1<System.Single> LoadingFadeIn
-    static GlobalNamespace::SteamVR_Events::Event_1<float>* _get_LoadingFadeIn();
+    static ::GlobalNamespace::SteamVR_Events::Event_1<float>* _get_LoadingFadeIn();
     // Set static field: static public SteamVR_Events/Event`1<System.Single> LoadingFadeIn
-    static void _set_LoadingFadeIn(GlobalNamespace::SteamVR_Events::Event_1<float>* value);
+    static void _set_LoadingFadeIn(::GlobalNamespace::SteamVR_Events::Event_1<float>* value);
     // Get static field: static public SteamVR_Events/Event`1<System.Single> LoadingFadeOut
-    static GlobalNamespace::SteamVR_Events::Event_1<float>* _get_LoadingFadeOut();
+    static ::GlobalNamespace::SteamVR_Events::Event_1<float>* _get_LoadingFadeOut();
     // Set static field: static public SteamVR_Events/Event`1<System.Single> LoadingFadeOut
-    static void _set_LoadingFadeOut(GlobalNamespace::SteamVR_Events::Event_1<float>* value);
+    static void _set_LoadingFadeOut(::GlobalNamespace::SteamVR_Events::Event_1<float>* value);
     // Get static field: static public SteamVR_Events/Event`1<Valve.VR.TrackedDevicePose_t[]> NewPoses
-    static GlobalNamespace::SteamVR_Events::Event_1<::ArrayW<Valve::VR::TrackedDevicePose_t>>* _get_NewPoses();
+    static ::GlobalNamespace::SteamVR_Events::Event_1<::ArrayW<::Valve::VR::TrackedDevicePose_t>>* _get_NewPoses();
     // Set static field: static public SteamVR_Events/Event`1<Valve.VR.TrackedDevicePose_t[]> NewPoses
-    static void _set_NewPoses(GlobalNamespace::SteamVR_Events::Event_1<::ArrayW<Valve::VR::TrackedDevicePose_t>>* value);
+    static void _set_NewPoses(::GlobalNamespace::SteamVR_Events::Event_1<::ArrayW<::Valve::VR::TrackedDevicePose_t>>* value);
     // Get static field: static public SteamVR_Events/Event NewPosesApplied
-    static GlobalNamespace::SteamVR_Events::Event* _get_NewPosesApplied();
+    static ::GlobalNamespace::SteamVR_Events::Event* _get_NewPosesApplied();
     // Set static field: static public SteamVR_Events/Event NewPosesApplied
-    static void _set_NewPosesApplied(GlobalNamespace::SteamVR_Events::Event* value);
+    static void _set_NewPosesApplied(::GlobalNamespace::SteamVR_Events::Event* value);
     // Get static field: static public SteamVR_Events/Event`1<System.Boolean> OutOfRange
-    static GlobalNamespace::SteamVR_Events::Event_1<bool>* _get_OutOfRange();
+    static ::GlobalNamespace::SteamVR_Events::Event_1<bool>* _get_OutOfRange();
     // Set static field: static public SteamVR_Events/Event`1<System.Boolean> OutOfRange
-    static void _set_OutOfRange(GlobalNamespace::SteamVR_Events::Event_1<bool>* value);
+    static void _set_OutOfRange(::GlobalNamespace::SteamVR_Events::Event_1<bool>* value);
     // Get static field: static public SteamVR_Events/Event`2<SteamVR_RenderModel,System.Boolean> RenderModelLoaded
-    static GlobalNamespace::SteamVR_Events::Event_2<GlobalNamespace::SteamVR_RenderModel*, bool>* _get_RenderModelLoaded();
+    static ::GlobalNamespace::SteamVR_Events::Event_2<::GlobalNamespace::SteamVR_RenderModel*, bool>* _get_RenderModelLoaded();
     // Set static field: static public SteamVR_Events/Event`2<SteamVR_RenderModel,System.Boolean> RenderModelLoaded
-    static void _set_RenderModelLoaded(GlobalNamespace::SteamVR_Events::Event_2<GlobalNamespace::SteamVR_RenderModel*, bool>* value);
+    static void _set_RenderModelLoaded(::GlobalNamespace::SteamVR_Events::Event_2<::GlobalNamespace::SteamVR_RenderModel*, bool>* value);
     // Get static field: static private System.Collections.Generic.Dictionary`2<Valve.VR.EVREventType,SteamVR_Events/Event`1<Valve.VR.VREvent_t>> systemEvents
-    static System::Collections::Generic::Dictionary_2<Valve::VR::EVREventType, GlobalNamespace::SteamVR_Events::Event_1<Valve::VR::VREvent_t>*>* _get_systemEvents();
+    static ::System::Collections::Generic::Dictionary_2<::Valve::VR::EVREventType, ::GlobalNamespace::SteamVR_Events::Event_1<::Valve::VR::VREvent_t>*>* _get_systemEvents();
     // Set static field: static private System.Collections.Generic.Dictionary`2<Valve.VR.EVREventType,SteamVR_Events/Event`1<Valve.VR.VREvent_t>> systemEvents
-    static void _set_systemEvents(System::Collections::Generic::Dictionary_2<Valve::VR::EVREventType, GlobalNamespace::SteamVR_Events::Event_1<Valve::VR::VREvent_t>*>* value);
+    static void _set_systemEvents(::System::Collections::Generic::Dictionary_2<::Valve::VR::EVREventType, ::GlobalNamespace::SteamVR_Events::Event_1<::Valve::VR::VREvent_t>*>* value);
     // static private System.Void .cctor()
     // Offset: 0x17C0390
     static void _cctor();
     // static public SteamVR_Events/Action CalibratingAction(UnityEngine.Events.UnityAction`1<System.Boolean> action)
     // Offset: 0x17BFAB8
-    static GlobalNamespace::SteamVR_Events::Action* CalibratingAction(UnityEngine::Events::UnityAction_1<bool>* action);
+    static ::GlobalNamespace::SteamVR_Events::Action* CalibratingAction(::UnityEngine::Events::UnityAction_1<bool>* action);
     // static public SteamVR_Events/Action DeviceConnectedAction(UnityEngine.Events.UnityAction`2<System.Int32,System.Boolean> action)
     // Offset: 0x17BE6DC
-    static GlobalNamespace::SteamVR_Events::Action* DeviceConnectedAction(UnityEngine::Events::UnityAction_2<int, bool>* action);
+    static ::GlobalNamespace::SteamVR_Events::Action* DeviceConnectedAction(::UnityEngine::Events::UnityAction_2<int, bool>* action);
     // static public SteamVR_Events/Action FadeAction(UnityEngine.Events.UnityAction`3<UnityEngine.Color,System.Single,System.Boolean> action)
     // Offset: 0x17BFB5C
-    static GlobalNamespace::SteamVR_Events::Action* FadeAction(UnityEngine::Events::UnityAction_3<UnityEngine::Color, float, bool>* action);
+    static ::GlobalNamespace::SteamVR_Events::Action* FadeAction(::UnityEngine::Events::UnityAction_3<::UnityEngine::Color, float, bool>* action);
     // static public SteamVR_Events/Action FadeReadyAction(UnityEngine.Events.UnityAction action)
     // Offset: 0x17BFC00
-    static GlobalNamespace::SteamVR_Events::Action* FadeReadyAction(UnityEngine::Events::UnityAction* action);
+    static ::GlobalNamespace::SteamVR_Events::Action* FadeReadyAction(::UnityEngine::Events::UnityAction* action);
     // static public SteamVR_Events/Action HideRenderModelsAction(UnityEngine.Events.UnityAction`1<System.Boolean> action)
     // Offset: 0x17BFCD0
-    static GlobalNamespace::SteamVR_Events::Action* HideRenderModelsAction(UnityEngine::Events::UnityAction_1<bool>* action);
+    static ::GlobalNamespace::SteamVR_Events::Action* HideRenderModelsAction(::UnityEngine::Events::UnityAction_1<bool>* action);
     // static public SteamVR_Events/Action InitializingAction(UnityEngine.Events.UnityAction`1<System.Boolean> action)
     // Offset: 0x17BFD74
-    static GlobalNamespace::SteamVR_Events::Action* InitializingAction(UnityEngine::Events::UnityAction_1<bool>* action);
+    static ::GlobalNamespace::SteamVR_Events::Action* InitializingAction(::UnityEngine::Events::UnityAction_1<bool>* action);
     // static public SteamVR_Events/Action InputFocusAction(UnityEngine.Events.UnityAction`1<System.Boolean> action)
     // Offset: 0x17BE638
-    static GlobalNamespace::SteamVR_Events::Action* InputFocusAction(UnityEngine::Events::UnityAction_1<bool>* action);
+    static ::GlobalNamespace::SteamVR_Events::Action* InputFocusAction(::UnityEngine::Events::UnityAction_1<bool>* action);
     // static public SteamVR_Events/Action LoadingAction(UnityEngine.Events.UnityAction`1<System.Boolean> action)
     // Offset: 0x17BFE18
-    static GlobalNamespace::SteamVR_Events::Action* LoadingAction(UnityEngine::Events::UnityAction_1<bool>* action);
+    static ::GlobalNamespace::SteamVR_Events::Action* LoadingAction(::UnityEngine::Events::UnityAction_1<bool>* action);
     // static public SteamVR_Events/Action LoadingFadeInAction(UnityEngine.Events.UnityAction`1<System.Single> action)
     // Offset: 0x17BFEBC
-    static GlobalNamespace::SteamVR_Events::Action* LoadingFadeInAction(UnityEngine::Events::UnityAction_1<float>* action);
+    static ::GlobalNamespace::SteamVR_Events::Action* LoadingFadeInAction(::UnityEngine::Events::UnityAction_1<float>* action);
     // static public SteamVR_Events/Action LoadingFadeOutAction(UnityEngine.Events.UnityAction`1<System.Single> action)
     // Offset: 0x17BFF60
-    static GlobalNamespace::SteamVR_Events::Action* LoadingFadeOutAction(UnityEngine::Events::UnityAction_1<float>* action);
+    static ::GlobalNamespace::SteamVR_Events::Action* LoadingFadeOutAction(::UnityEngine::Events::UnityAction_1<float>* action);
     // static public SteamVR_Events/Action NewPosesAction(UnityEngine.Events.UnityAction`1<Valve.VR.TrackedDevicePose_t[]> action)
     // Offset: 0x17C0004
-    static GlobalNamespace::SteamVR_Events::Action* NewPosesAction(UnityEngine::Events::UnityAction_1<::ArrayW<Valve::VR::TrackedDevicePose_t>>* action);
+    static ::GlobalNamespace::SteamVR_Events::Action* NewPosesAction(::UnityEngine::Events::UnityAction_1<::ArrayW<::Valve::VR::TrackedDevicePose_t>>* action);
     // static public SteamVR_Events/Action NewPosesAppliedAction(UnityEngine.Events.UnityAction action)
     // Offset: 0x17C00A8
-    static GlobalNamespace::SteamVR_Events::Action* NewPosesAppliedAction(UnityEngine::Events::UnityAction* action);
+    static ::GlobalNamespace::SteamVR_Events::Action* NewPosesAppliedAction(::UnityEngine::Events::UnityAction* action);
     // static public SteamVR_Events/Action OutOfRangeAction(UnityEngine.Events.UnityAction`1<System.Boolean> action)
     // Offset: 0x17C0140
-    static GlobalNamespace::SteamVR_Events::Action* OutOfRangeAction(UnityEngine::Events::UnityAction_1<bool>* action);
+    static ::GlobalNamespace::SteamVR_Events::Action* OutOfRangeAction(::UnityEngine::Events::UnityAction_1<bool>* action);
     // static public SteamVR_Events/Action RenderModelLoadedAction(UnityEngine.Events.UnityAction`2<SteamVR_RenderModel,System.Boolean> action)
     // Offset: 0x17C01E4
-    static GlobalNamespace::SteamVR_Events::Action* RenderModelLoadedAction(UnityEngine::Events::UnityAction_2<GlobalNamespace::SteamVR_RenderModel*, bool>* action);
+    static ::GlobalNamespace::SteamVR_Events::Action* RenderModelLoadedAction(::UnityEngine::Events::UnityAction_2<::GlobalNamespace::SteamVR_RenderModel*, bool>* action);
     // static public SteamVR_Events/Event`1<Valve.VR.VREvent_t> System(Valve.VR.EVREventType eventType)
     // Offset: 0x17C0288
-    static GlobalNamespace::SteamVR_Events::Event_1<Valve::VR::VREvent_t>* System(Valve::VR::EVREventType eventType);
+    static ::GlobalNamespace::SteamVR_Events::Event_1<::Valve::VR::VREvent_t>* System(::Valve::VR::EVREventType eventType);
     // static public SteamVR_Events/Action SystemAction(Valve.VR.EVREventType eventType, UnityEngine.Events.UnityAction`1<Valve.VR.VREvent_t> action)
     // Offset: 0x17BE780
-    static GlobalNamespace::SteamVR_Events::Action* SystemAction(Valve::VR::EVREventType eventType, UnityEngine::Events::UnityAction_1<Valve::VR::VREvent_t>* action);
+    static ::GlobalNamespace::SteamVR_Events::Action* SystemAction(::Valve::VR::EVREventType eventType, ::UnityEngine::Events::UnityAction_1<::Valve::VR::VREvent_t>* action);
   }; // SteamVR_Events
   #pragma pack(pop)
 }
@@ -208,7 +208,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::CalibratingAction
 // Il2CppName: CalibratingAction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Events::Action* (*)(UnityEngine::Events::UnityAction_1<bool>*)>(&GlobalNamespace::SteamVR_Events::CalibratingAction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SteamVR_Events::Action* (*)(::UnityEngine::Events::UnityAction_1<bool>*)>(&GlobalNamespace::SteamVR_Events::CalibratingAction)> {
   static const MethodInfo* get() {
     static auto* action = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityAction`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Events*), "CalibratingAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{action});
@@ -217,7 +217,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::DeviceConnectedAction
 // Il2CppName: DeviceConnectedAction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Events::Action* (*)(UnityEngine::Events::UnityAction_2<int, bool>*)>(&GlobalNamespace::SteamVR_Events::DeviceConnectedAction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SteamVR_Events::Action* (*)(::UnityEngine::Events::UnityAction_2<int, bool>*)>(&GlobalNamespace::SteamVR_Events::DeviceConnectedAction)> {
   static const MethodInfo* get() {
     static auto* action = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityAction`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32"), ::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Events*), "DeviceConnectedAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{action});
@@ -226,7 +226,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::FadeAction
 // Il2CppName: FadeAction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Events::Action* (*)(UnityEngine::Events::UnityAction_3<UnityEngine::Color, float, bool>*)>(&GlobalNamespace::SteamVR_Events::FadeAction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SteamVR_Events::Action* (*)(::UnityEngine::Events::UnityAction_3<::UnityEngine::Color, float, bool>*)>(&GlobalNamespace::SteamVR_Events::FadeAction)> {
   static const MethodInfo* get() {
     static auto* action = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityAction`3"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Color"), ::il2cpp_utils::GetClassFromName("System", "Single"), ::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Events*), "FadeAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{action});
@@ -235,7 +235,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::FadeReadyAction
 // Il2CppName: FadeReadyAction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Events::Action* (*)(UnityEngine::Events::UnityAction*)>(&GlobalNamespace::SteamVR_Events::FadeReadyAction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SteamVR_Events::Action* (*)(::UnityEngine::Events::UnityAction*)>(&GlobalNamespace::SteamVR_Events::FadeReadyAction)> {
   static const MethodInfo* get() {
     static auto* action = &::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityAction")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Events*), "FadeReadyAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{action});
@@ -244,7 +244,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::HideRenderModelsAction
 // Il2CppName: HideRenderModelsAction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Events::Action* (*)(UnityEngine::Events::UnityAction_1<bool>*)>(&GlobalNamespace::SteamVR_Events::HideRenderModelsAction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SteamVR_Events::Action* (*)(::UnityEngine::Events::UnityAction_1<bool>*)>(&GlobalNamespace::SteamVR_Events::HideRenderModelsAction)> {
   static const MethodInfo* get() {
     static auto* action = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityAction`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Events*), "HideRenderModelsAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{action});
@@ -253,7 +253,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::InitializingAction
 // Il2CppName: InitializingAction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Events::Action* (*)(UnityEngine::Events::UnityAction_1<bool>*)>(&GlobalNamespace::SteamVR_Events::InitializingAction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SteamVR_Events::Action* (*)(::UnityEngine::Events::UnityAction_1<bool>*)>(&GlobalNamespace::SteamVR_Events::InitializingAction)> {
   static const MethodInfo* get() {
     static auto* action = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityAction`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Events*), "InitializingAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{action});
@@ -262,7 +262,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::InputFocusAction
 // Il2CppName: InputFocusAction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Events::Action* (*)(UnityEngine::Events::UnityAction_1<bool>*)>(&GlobalNamespace::SteamVR_Events::InputFocusAction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SteamVR_Events::Action* (*)(::UnityEngine::Events::UnityAction_1<bool>*)>(&GlobalNamespace::SteamVR_Events::InputFocusAction)> {
   static const MethodInfo* get() {
     static auto* action = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityAction`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Events*), "InputFocusAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{action});
@@ -271,7 +271,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::LoadingAction
 // Il2CppName: LoadingAction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Events::Action* (*)(UnityEngine::Events::UnityAction_1<bool>*)>(&GlobalNamespace::SteamVR_Events::LoadingAction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SteamVR_Events::Action* (*)(::UnityEngine::Events::UnityAction_1<bool>*)>(&GlobalNamespace::SteamVR_Events::LoadingAction)> {
   static const MethodInfo* get() {
     static auto* action = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityAction`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Events*), "LoadingAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{action});
@@ -280,7 +280,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::LoadingFadeInAction
 // Il2CppName: LoadingFadeInAction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Events::Action* (*)(UnityEngine::Events::UnityAction_1<float>*)>(&GlobalNamespace::SteamVR_Events::LoadingFadeInAction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SteamVR_Events::Action* (*)(::UnityEngine::Events::UnityAction_1<float>*)>(&GlobalNamespace::SteamVR_Events::LoadingFadeInAction)> {
   static const MethodInfo* get() {
     static auto* action = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityAction`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Events*), "LoadingFadeInAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{action});
@@ -289,7 +289,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::LoadingFadeOutAction
 // Il2CppName: LoadingFadeOutAction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Events::Action* (*)(UnityEngine::Events::UnityAction_1<float>*)>(&GlobalNamespace::SteamVR_Events::LoadingFadeOutAction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SteamVR_Events::Action* (*)(::UnityEngine::Events::UnityAction_1<float>*)>(&GlobalNamespace::SteamVR_Events::LoadingFadeOutAction)> {
   static const MethodInfo* get() {
     static auto* action = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityAction`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Events*), "LoadingFadeOutAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{action});
@@ -298,7 +298,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::NewPosesAction
 // Il2CppName: NewPosesAction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Events::Action* (*)(UnityEngine::Events::UnityAction_1<::ArrayW<Valve::VR::TrackedDevicePose_t>>*)>(&GlobalNamespace::SteamVR_Events::NewPosesAction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SteamVR_Events::Action* (*)(::UnityEngine::Events::UnityAction_1<::ArrayW<::Valve::VR::TrackedDevicePose_t>>*)>(&GlobalNamespace::SteamVR_Events::NewPosesAction)> {
   static const MethodInfo* get() {
     static auto* action = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityAction`1"), ::std::vector<const Il2CppClass*>{il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Valve.VR", "TrackedDevicePose_t"), 1)})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Events*), "NewPosesAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{action});
@@ -307,7 +307,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::NewPosesAppliedAction
 // Il2CppName: NewPosesAppliedAction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Events::Action* (*)(UnityEngine::Events::UnityAction*)>(&GlobalNamespace::SteamVR_Events::NewPosesAppliedAction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SteamVR_Events::Action* (*)(::UnityEngine::Events::UnityAction*)>(&GlobalNamespace::SteamVR_Events::NewPosesAppliedAction)> {
   static const MethodInfo* get() {
     static auto* action = &::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityAction")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Events*), "NewPosesAppliedAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{action});
@@ -316,7 +316,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::OutOfRangeAction
 // Il2CppName: OutOfRangeAction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Events::Action* (*)(UnityEngine::Events::UnityAction_1<bool>*)>(&GlobalNamespace::SteamVR_Events::OutOfRangeAction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SteamVR_Events::Action* (*)(::UnityEngine::Events::UnityAction_1<bool>*)>(&GlobalNamespace::SteamVR_Events::OutOfRangeAction)> {
   static const MethodInfo* get() {
     static auto* action = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityAction`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Events*), "OutOfRangeAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{action});
@@ -325,7 +325,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::RenderModelLoadedAction
 // Il2CppName: RenderModelLoadedAction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Events::Action* (*)(UnityEngine::Events::UnityAction_2<GlobalNamespace::SteamVR_RenderModel*, bool>*)>(&GlobalNamespace::SteamVR_Events::RenderModelLoadedAction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SteamVR_Events::Action* (*)(::UnityEngine::Events::UnityAction_2<::GlobalNamespace::SteamVR_RenderModel*, bool>*)>(&GlobalNamespace::SteamVR_Events::RenderModelLoadedAction)> {
   static const MethodInfo* get() {
     static auto* action = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityAction`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "SteamVR_RenderModel"), ::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Events*), "RenderModelLoadedAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{action});
@@ -334,7 +334,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::System
 // Il2CppName: System
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Events::Event_1<Valve::VR::VREvent_t>* (*)(Valve::VR::EVREventType)>(&GlobalNamespace::SteamVR_Events::System)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SteamVR_Events::Event_1<::Valve::VR::VREvent_t>* (*)(::Valve::VR::EVREventType)>(&GlobalNamespace::SteamVR_Events::System)> {
   static const MethodInfo* get() {
     static auto* eventType = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVREventType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Events*), "System", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eventType});
@@ -343,7 +343,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::SystemAction
 // Il2CppName: SystemAction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Events::Action* (*)(Valve::VR::EVREventType, UnityEngine::Events::UnityAction_1<Valve::VR::VREvent_t>*)>(&GlobalNamespace::SteamVR_Events::SystemAction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SteamVR_Events::Action* (*)(::Valve::VR::EVREventType, ::UnityEngine::Events::UnityAction_1<::Valve::VR::VREvent_t>*)>(&GlobalNamespace::SteamVR_Events::SystemAction)> {
   static const MethodInfo* get() {
     static auto* eventType = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVREventType")->byval_arg;
     static auto* action = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityAction`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Valve.VR", "VREvent_t")})->byval_arg;

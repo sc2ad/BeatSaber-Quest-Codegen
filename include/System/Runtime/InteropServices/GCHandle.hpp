@@ -28,7 +28,7 @@ namespace System::Runtime::InteropServices {
   struct GCHandle;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::GCHandle, "System.Runtime.InteropServices", "GCHandle");
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::InteropServices::GCHandle, "System.Runtime.InteropServices", "GCHandle");
 // Type namespace: System.Runtime.InteropServices
 namespace System::Runtime::InteropServices {
   // Size: 0x4
@@ -38,7 +38,7 @@ namespace System::Runtime::InteropServices {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: 118BBAC
   // [MonoTODOAttribute] Offset: 118BBAC
-  struct GCHandle/*, public System::ValueType*/ {
+  struct GCHandle/*, public ::System::ValueType*/ {
     public:
     public:
     // private System.Int32 handle
@@ -50,9 +50,9 @@ namespace System::Runtime::InteropServices {
     public:
     // Creating value type constructor for type: GCHandle
     constexpr GCHandle(int handle_ = {}) noexcept : handle{handle_} {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
@@ -71,31 +71,31 @@ namespace System::Runtime::InteropServices {
     void set_Target(::Il2CppObject* value);
     // private System.Void .ctor(System.IntPtr h)
     // Offset: 0x1C6BF78
-    GCHandle(System::IntPtr h);
+    GCHandle(::System::IntPtr h);
     // private System.Void .ctor(System.Object obj)
     // Offset: 0x1C6BFA4
     GCHandle(::Il2CppObject* obj);
     // System.Void .ctor(System.Object value, System.Runtime.InteropServices.GCHandleType type)
     // Offset: 0x1C6BFD4
-    GCHandle(::Il2CppObject* value, System::Runtime::InteropServices::GCHandleType type);
+    GCHandle(::Il2CppObject* value, ::System::Runtime::InteropServices::GCHandleType type);
     // public System.IntPtr AddrOfPinnedObject()
     // Offset: 0x1C6C0F0
-    System::IntPtr AddrOfPinnedObject();
+    ::System::IntPtr AddrOfPinnedObject();
     // static public System.Runtime.InteropServices.GCHandle Alloc(System.Object value)
     // Offset: 0x1C6C1F4
-    static System::Runtime::InteropServices::GCHandle Alloc(::Il2CppObject* value);
+    static ::System::Runtime::InteropServices::GCHandle Alloc(::Il2CppObject* value);
     // static public System.Runtime.InteropServices.GCHandle Alloc(System.Object value, System.Runtime.InteropServices.GCHandleType type)
     // Offset: 0x1C6C214
-    static System::Runtime::InteropServices::GCHandle Alloc(::Il2CppObject* value, System::Runtime::InteropServices::GCHandleType type);
+    static ::System::Runtime::InteropServices::GCHandle Alloc(::Il2CppObject* value, ::System::Runtime::InteropServices::GCHandleType type);
     // public System.Void Free()
     // Offset: 0x1C6C23C
     void Free();
     // static public System.IntPtr op_Explicit(System.Runtime.InteropServices.GCHandle value)
     // Offset: 0x1C6C2E4
-    explicit operator System::IntPtr();
+    explicit operator ::System::IntPtr();
     // static public System.Runtime.InteropServices.GCHandle op_Explicit(System.IntPtr value)
     // Offset: 0x1C6C2EC
-    explicit GCHandle(System::IntPtr& value);
+    explicit GCHandle(::System::IntPtr& value);
     // static private System.Boolean CheckCurrentDomain(System.Int32 handle)
     // Offset: 0x1C6C3CC
     static bool CheckCurrentDomain(int handle);
@@ -104,19 +104,19 @@ namespace System::Runtime::InteropServices {
     static ::Il2CppObject* GetTarget(int handle);
     // static private System.Int32 GetTargetHandle(System.Object obj, System.Int32 handle, System.Runtime.InteropServices.GCHandleType type)
     // Offset: 0x1C6C00C
-    static int GetTargetHandle(::Il2CppObject* obj, int handle, System::Runtime::InteropServices::GCHandleType type);
+    static int GetTargetHandle(::Il2CppObject* obj, int handle, ::System::Runtime::InteropServices::GCHandleType type);
     // static private System.Void FreeHandle(System.Int32 handle)
     // Offset: 0x1C6C2E0
     static void FreeHandle(int handle);
     // static private System.IntPtr GetAddrOfPinnedObject(System.Int32 handle)
     // Offset: 0x1C6C1F0
-    static System::IntPtr GetAddrOfPinnedObject(int handle);
+    static ::System::IntPtr GetAddrOfPinnedObject(int handle);
     // static public System.Runtime.InteropServices.GCHandle FromIntPtr(System.IntPtr value)
     // Offset: 0x1C6C46C
-    static System::Runtime::InteropServices::GCHandle FromIntPtr(System::IntPtr value);
+    static ::System::Runtime::InteropServices::GCHandle FromIntPtr(::System::IntPtr value);
     // static public System.IntPtr ToIntPtr(System.Runtime.InteropServices.GCHandle value)
     // Offset: 0x1C6C484
-    static System::IntPtr ToIntPtr(System::Runtime::InteropServices::GCHandle value);
+    static ::System::IntPtr ToIntPtr(::System::Runtime::InteropServices::GCHandle value);
     // public override System.Boolean Equals(System.Object o)
     // Offset: 0x1C6C3DC
     // Implemented from: System.ValueType
@@ -133,7 +133,7 @@ namespace System::Runtime::InteropServices {
   static_assert(sizeof(GCHandle) == 0x4);
   // static public System.Boolean op_Equality(System.Runtime.InteropServices.GCHandle a, System.Runtime.InteropServices.GCHandle b)
   // Offset: 0x1C6C3D0
-  bool operator ==(const System::Runtime::InteropServices::GCHandle& a, const System::Runtime::InteropServices::GCHandle& b);
+  bool operator ==(const ::System::Runtime::InteropServices::GCHandle& a, const ::System::Runtime::InteropServices::GCHandle& b);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::InteropServices::GCHandle::get_IsAllocated
@@ -176,7 +176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::InteropServices::GCHandle::AddrOfPinnedObject
 // Il2CppName: AddrOfPinnedObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (System::Runtime::InteropServices::GCHandle::*)()>(&System::Runtime::InteropServices::GCHandle::AddrOfPinnedObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (System::Runtime::InteropServices::GCHandle::*)()>(&System::Runtime::InteropServices::GCHandle::AddrOfPinnedObject)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::GCHandle), "AddrOfPinnedObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -184,7 +184,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: System::Runtime::InteropServices::GCHandle::Alloc
 // Il2CppName: Alloc
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::InteropServices::GCHandle (*)(::Il2CppObject*)>(&System::Runtime::InteropServices::GCHandle::Alloc)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::InteropServices::GCHandle (*)(::Il2CppObject*)>(&System::Runtime::InteropServices::GCHandle::Alloc)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::GCHandle), "Alloc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -193,7 +193,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: System::Runtime::InteropServices::GCHandle::Alloc
 // Il2CppName: Alloc
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::InteropServices::GCHandle (*)(::Il2CppObject*, System::Runtime::InteropServices::GCHandleType)>(&System::Runtime::InteropServices::GCHandle::Alloc)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::InteropServices::GCHandle (*)(::Il2CppObject*, ::System::Runtime::InteropServices::GCHandleType)>(&System::Runtime::InteropServices::GCHandle::Alloc)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("System.Runtime.InteropServices", "GCHandleType")->byval_arg;
@@ -208,7 +208,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::GCHandle), "Free", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: System::Runtime::InteropServices::GCHandle::operator System::IntPtr
+// Writing MetadataGetter for method: System::Runtime::InteropServices::GCHandle::operator ::System::IntPtr
 // Il2CppName: op_Explicit
 // Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: System::Runtime::InteropServices::GCHandle::GCHandle
@@ -235,7 +235,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Runtime::InteropServices::GCHandle::GetTargetHandle
 // Il2CppName: GetTargetHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppObject*, int, System::Runtime::InteropServices::GCHandleType)>(&System::Runtime::InteropServices::GCHandle::GetTargetHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppObject*, int, ::System::Runtime::InteropServices::GCHandleType)>(&System::Runtime::InteropServices::GCHandle::GetTargetHandle)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -255,7 +255,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 // Writing MetadataGetter for method: System::Runtime::InteropServices::GCHandle::GetAddrOfPinnedObject
 // Il2CppName: GetAddrOfPinnedObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(int)>(&System::Runtime::InteropServices::GCHandle::GetAddrOfPinnedObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(int)>(&System::Runtime::InteropServices::GCHandle::GetAddrOfPinnedObject)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::GCHandle), "GetAddrOfPinnedObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{handle});
@@ -264,7 +264,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: System::Runtime::InteropServices::GCHandle::FromIntPtr
 // Il2CppName: FromIntPtr
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::InteropServices::GCHandle (*)(System::IntPtr)>(&System::Runtime::InteropServices::GCHandle::FromIntPtr)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::InteropServices::GCHandle (*)(::System::IntPtr)>(&System::Runtime::InteropServices::GCHandle::FromIntPtr)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::GCHandle), "FromIntPtr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -273,7 +273,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: System::Runtime::InteropServices::GCHandle::ToIntPtr
 // Il2CppName: ToIntPtr
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::Runtime::InteropServices::GCHandle)>(&System::Runtime::InteropServices::GCHandle::ToIntPtr)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::Runtime::InteropServices::GCHandle)>(&System::Runtime::InteropServices::GCHandle::ToIntPtr)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Runtime.InteropServices", "GCHandle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::GCHandle), "ToIntPtr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

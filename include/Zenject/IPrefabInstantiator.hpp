@@ -42,8 +42,8 @@ namespace Zenject {
   class IPrefabInstantiator;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::IPrefabInstantiator);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::IPrefabInstantiator*, "Zenject", "IPrefabInstantiator");
+NEED_NO_BOX(::Zenject::IPrefabInstantiator);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::IPrefabInstantiator*, "Zenject", "IPrefabInstantiator");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x10
@@ -54,19 +54,19 @@ namespace Zenject {
     public:
     // public System.Type get_ArgumentTarget()
     // Offset: 0xFFFFFFFF
-    System::Type* get_ArgumentTarget();
+    ::System::Type* get_ArgumentTarget();
     // public System.Collections.Generic.List`1<Zenject.TypeValuePair> get_ExtraArguments()
     // Offset: 0xFFFFFFFF
-    System::Collections::Generic::List_1<Zenject::TypeValuePair>* get_ExtraArguments();
+    ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* get_ExtraArguments();
     // public Zenject.GameObjectCreationParameters get_GameObjectCreationParameters()
     // Offset: 0xFFFFFFFF
-    Zenject::GameObjectCreationParameters* get_GameObjectCreationParameters();
+    ::Zenject::GameObjectCreationParameters* get_GameObjectCreationParameters();
     // public UnityEngine.GameObject Instantiate(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction)
     // Offset: 0xFFFFFFFF
-    UnityEngine::GameObject* Instantiate(Zenject::InjectContext* context, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, ByRef<System::Action*> injectAction);
+    ::UnityEngine::GameObject* Instantiate(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction);
     // public UnityEngine.Object GetPrefab()
     // Offset: 0xFFFFFFFF
-    UnityEngine::Object* GetPrefab();
+    ::UnityEngine::Object* GetPrefab();
   }; // Zenject.IPrefabInstantiator
   #pragma pack(pop)
 }
@@ -74,7 +74,7 @@ namespace Zenject {
 // Writing MetadataGetter for method: Zenject::IPrefabInstantiator::get_ArgumentTarget
 // Il2CppName: get_ArgumentTarget
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (Zenject::IPrefabInstantiator::*)()>(&Zenject::IPrefabInstantiator::get_ArgumentTarget)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (Zenject::IPrefabInstantiator::*)()>(&Zenject::IPrefabInstantiator::get_ArgumentTarget)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::IPrefabInstantiator*), "get_ArgumentTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -82,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: Zenject::IPrefabInstantiator::get_ExtraArguments
 // Il2CppName: get_ExtraArguments
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<Zenject::TypeValuePair>* (Zenject::IPrefabInstantiator::*)()>(&Zenject::IPrefabInstantiator::get_ExtraArguments)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* (Zenject::IPrefabInstantiator::*)()>(&Zenject::IPrefabInstantiator::get_ExtraArguments)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::IPrefabInstantiator*), "get_ExtraArguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -90,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: Zenject::IPrefabInstantiator::get_GameObjectCreationParameters
 // Il2CppName: get_GameObjectCreationParameters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::GameObjectCreationParameters* (Zenject::IPrefabInstantiator::*)()>(&Zenject::IPrefabInstantiator::get_GameObjectCreationParameters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::GameObjectCreationParameters* (Zenject::IPrefabInstantiator::*)()>(&Zenject::IPrefabInstantiator::get_GameObjectCreationParameters)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::IPrefabInstantiator*), "get_GameObjectCreationParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -98,7 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Ga
 // Writing MetadataGetter for method: Zenject::IPrefabInstantiator::Instantiate
 // Il2CppName: Instantiate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::IPrefabInstantiator::*)(Zenject::InjectContext*, System::Collections::Generic::List_1<Zenject::TypeValuePair>*, ByRef<System::Action*>)>(&Zenject::IPrefabInstantiator::Instantiate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GameObject* (Zenject::IPrefabInstantiator::*)(::Zenject::InjectContext*, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, ByRef<::System::Action*>)>(&Zenject::IPrefabInstantiator::Instantiate)> {
   static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("Zenject", "InjectContext")->byval_arg;
     static auto* args = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "TypeValuePair")})->byval_arg;
@@ -109,7 +109,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: Zenject::IPrefabInstantiator::GetPrefab
 // Il2CppName: GetPrefab
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (Zenject::IPrefabInstantiator::*)()>(&Zenject::IPrefabInstantiator::GetPrefab)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Object* (Zenject::IPrefabInstantiator::*)()>(&Zenject::IPrefabInstantiator::GetPrefab)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::IPrefabInstantiator*), "GetPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

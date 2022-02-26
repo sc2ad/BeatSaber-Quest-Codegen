@@ -11,8 +11,8 @@ namespace UnityEngine::ProBuilder {
   class IHasDefault;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::IHasDefault);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::IHasDefault*, "UnityEngine.ProBuilder", "IHasDefault");
+NEED_NO_BOX(::UnityEngine::ProBuilder::IHasDefault);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::IHasDefault*, "UnityEngine.ProBuilder", "IHasDefault");
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
   // Size: 0x10

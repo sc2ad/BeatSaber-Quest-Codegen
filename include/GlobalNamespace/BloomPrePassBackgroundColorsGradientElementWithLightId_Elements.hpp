@@ -13,8 +13,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::Elements);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::Elements*, "", "BloomPrePassBackgroundColorsGradientElementWithLightId/Elements");
+NEED_NO_BOX(::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::Elements);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::Elements*, "", "BloomPrePassBackgroundColorsGradientElementWithLightId/Elements");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x1C
@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomPrePassBackgroundColorsGradientElementWithLightId::Elements* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::Elements::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::Elements::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassBackgroundColorsGradientElementWithLightId::Elements*, creationType>()));
     }
   }; // BloomPrePassBackgroundColorsGradientElementWithLightId/Elements

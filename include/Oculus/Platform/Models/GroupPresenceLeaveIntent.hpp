@@ -19,8 +19,8 @@ namespace Oculus::Platform::Models {
   class GroupPresenceLeaveIntent;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::GroupPresenceLeaveIntent);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::GroupPresenceLeaveIntent*, "Oculus.Platform.Models", "GroupPresenceLeaveIntent");
+NEED_NO_BOX(::Oculus::Platform::Models::GroupPresenceLeaveIntent);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::GroupPresenceLeaveIntent*, "Oculus.Platform.Models", "GroupPresenceLeaveIntent");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x28
@@ -66,8 +66,8 @@ namespace Oculus::Platform::Models {
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x19661C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static GroupPresenceLeaveIntent* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::GroupPresenceLeaveIntent::.ctor");
+    static GroupPresenceLeaveIntent* New_ctor(::System::IntPtr o) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::GroupPresenceLeaveIntent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GroupPresenceLeaveIntent*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.GroupPresenceLeaveIntent

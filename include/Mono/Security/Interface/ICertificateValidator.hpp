@@ -29,8 +29,8 @@ namespace Mono::Security::Interface {
   class ICertificateValidator;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Security::Interface::ICertificateValidator);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::ICertificateValidator*, "Mono.Security.Interface", "ICertificateValidator");
+NEED_NO_BOX(::Mono::Security::Interface::ICertificateValidator);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Interface::ICertificateValidator*, "Mono.Security.Interface", "ICertificateValidator");
 // Type namespace: Mono.Security.Interface
 namespace Mono::Security::Interface {
   // Size: 0x10
@@ -41,13 +41,13 @@ namespace Mono::Security::Interface {
     public:
     // public Mono.Security.Interface.MonoTlsSettings get_Settings()
     // Offset: 0xFFFFFFFF
-    Mono::Security::Interface::MonoTlsSettings* get_Settings();
+    ::Mono::Security::Interface::MonoTlsSettings* get_Settings();
     // public System.Boolean SelectClientCertificate(System.String targetHost, System.Security.Cryptography.X509Certificates.X509CertificateCollection localCertificates, System.Security.Cryptography.X509Certificates.X509Certificate remoteCertificate, System.String[] acceptableIssuers, out System.Security.Cryptography.X509Certificates.X509Certificate clientCertificate)
     // Offset: 0xFFFFFFFF
-    bool SelectClientCertificate(::StringW targetHost, System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates, System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate, ::ArrayW<::StringW> acceptableIssuers, ByRef<System::Security::Cryptography::X509Certificates::X509Certificate*> clientCertificate);
+    bool SelectClientCertificate(::StringW targetHost, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates, ::System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate, ::ArrayW<::StringW> acceptableIssuers, ByRef<::System::Security::Cryptography::X509Certificates::X509Certificate*> clientCertificate);
     // public Mono.Security.Interface.ValidationResult ValidateCertificate(System.String targetHost, System.Boolean serverMode, System.Security.Cryptography.X509Certificates.X509CertificateCollection certificates)
     // Offset: 0xFFFFFFFF
-    Mono::Security::Interface::ValidationResult* ValidateCertificate(::StringW targetHost, bool serverMode, System::Security::Cryptography::X509Certificates::X509CertificateCollection* certificates);
+    ::Mono::Security::Interface::ValidationResult* ValidateCertificate(::StringW targetHost, bool serverMode, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* certificates);
   }; // Mono.Security.Interface.ICertificateValidator
   #pragma pack(pop)
 }
@@ -55,7 +55,7 @@ namespace Mono::Security::Interface {
 // Writing MetadataGetter for method: Mono::Security::Interface::ICertificateValidator::get_Settings
 // Il2CppName: get_Settings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::MonoTlsSettings* (Mono::Security::Interface::ICertificateValidator::*)()>(&Mono::Security::Interface::ICertificateValidator::get_Settings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::Interface::MonoTlsSettings* (Mono::Security::Interface::ICertificateValidator::*)()>(&Mono::Security::Interface::ICertificateValidator::get_Settings)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::ICertificateValidator*), "get_Settings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -63,7 +63,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 // Writing MetadataGetter for method: Mono::Security::Interface::ICertificateValidator::SelectClientCertificate
 // Il2CppName: SelectClientCertificate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::Interface::ICertificateValidator::*)(::StringW, System::Security::Cryptography::X509Certificates::X509CertificateCollection*, System::Security::Cryptography::X509Certificates::X509Certificate*, ::ArrayW<::StringW>, ByRef<System::Security::Cryptography::X509Certificates::X509Certificate*>)>(&Mono::Security::Interface::ICertificateValidator::SelectClientCertificate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::Interface::ICertificateValidator::*)(::StringW, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*, ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::ArrayW<::StringW>, ByRef<::System::Security::Cryptography::X509Certificates::X509Certificate*>)>(&Mono::Security::Interface::ICertificateValidator::SelectClientCertificate)> {
   static const MethodInfo* get() {
     static auto* targetHost = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* localCertificates = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509CertificateCollection")->byval_arg;
@@ -76,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 // Writing MetadataGetter for method: Mono::Security::Interface::ICertificateValidator::ValidateCertificate
 // Il2CppName: ValidateCertificate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::ValidationResult* (Mono::Security::Interface::ICertificateValidator::*)(::StringW, bool, System::Security::Cryptography::X509Certificates::X509CertificateCollection*)>(&Mono::Security::Interface::ICertificateValidator::ValidateCertificate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::Interface::ValidationResult* (Mono::Security::Interface::ICertificateValidator::*)(::StringW, bool, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*)>(&Mono::Security::Interface::ICertificateValidator::ValidateCertificate)> {
   static const MethodInfo* get() {
     static auto* targetHost = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* serverMode = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

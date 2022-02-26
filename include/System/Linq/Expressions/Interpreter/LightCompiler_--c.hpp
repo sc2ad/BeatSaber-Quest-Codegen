@@ -31,8 +31,8 @@ namespace System::Linq::Expressions {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Linq::Expressions::Interpreter::LightCompiler::$$c);
-DEFINE_IL2CPP_ARG_TYPE(System::Linq::Expressions::Interpreter::LightCompiler::$$c*, "System.Linq.Expressions.Interpreter", "LightCompiler/<>c");
+NEED_NO_BOX(::System::Linq::Expressions::Interpreter::LightCompiler::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::LightCompiler::$$c*, "System.Linq.Expressions.Interpreter", "LightCompiler/<>c");
 // Type namespace: System.Linq.Expressions.Interpreter
 namespace System::Linq::Expressions::Interpreter {
   // Size: 0x10
@@ -43,40 +43,40 @@ namespace System::Linq::Expressions::Interpreter {
   class LightCompiler::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly System.Linq.Expressions.Interpreter.LightCompiler/System.Linq.Expressions.Interpreter.<>c <>9
-    static System::Linq::Expressions::Interpreter::LightCompiler::$$c* _get_$$9();
+    static ::System::Linq::Expressions::Interpreter::LightCompiler::$$c* _get_$$9();
     // Set static field: static public readonly System.Linq.Expressions.Interpreter.LightCompiler/System.Linq.Expressions.Interpreter.<>c <>9
-    static void _set_$$9(System::Linq::Expressions::Interpreter::LightCompiler::$$c* value);
+    static void _set_$$9(::System::Linq::Expressions::Interpreter::LightCompiler::$$c* value);
     // Get static field: static public System.Func`2<System.Linq.Expressions.Expression,System.Boolean> <>9__56_1
-    static System::Func_2<System::Linq::Expressions::Expression*, bool>* _get_$$9__56_1();
+    static ::System::Func_2<::System::Linq::Expressions::Expression*, bool>* _get_$$9__56_1();
     // Set static field: static public System.Func`2<System.Linq.Expressions.Expression,System.Boolean> <>9__56_1
-    static void _set_$$9__56_1(System::Func_2<System::Linq::Expressions::Expression*, bool>* value);
+    static void _set_$$9__56_1(::System::Func_2<::System::Linq::Expressions::Expression*, bool>* value);
     // Get static field: static public System.Func`2<System.Linq.Expressions.SwitchCase,System.Boolean> <>9__56_0
-    static System::Func_2<System::Linq::Expressions::SwitchCase*, bool>* _get_$$9__56_0();
+    static ::System::Func_2<::System::Linq::Expressions::SwitchCase*, bool>* _get_$$9__56_0();
     // Set static field: static public System.Func`2<System.Linq.Expressions.SwitchCase,System.Boolean> <>9__56_0
-    static void _set_$$9__56_0(System::Func_2<System::Linq::Expressions::SwitchCase*, bool>* value);
+    static void _set_$$9__56_0(::System::Func_2<::System::Linq::Expressions::SwitchCase*, bool>* value);
     // Get static field: static public System.Action`2<System.Linq.Expressions.Interpreter.LightCompiler,System.Linq.Expressions.Expression> <>9__101_0
-    static System::Action_2<System::Linq::Expressions::Interpreter::LightCompiler*, System::Linq::Expressions::Expression*>* _get_$$9__101_0();
+    static ::System::Action_2<::System::Linq::Expressions::Interpreter::LightCompiler*, ::System::Linq::Expressions::Expression*>* _get_$$9__101_0();
     // Set static field: static public System.Action`2<System.Linq.Expressions.Interpreter.LightCompiler,System.Linq.Expressions.Expression> <>9__101_0
-    static void _set_$$9__101_0(System::Action_2<System::Linq::Expressions::Interpreter::LightCompiler*, System::Linq::Expressions::Expression*>* value);
+    static void _set_$$9__101_0(::System::Action_2<::System::Linq::Expressions::Interpreter::LightCompiler*, ::System::Linq::Expressions::Expression*>* value);
     // static private System.Void .cctor()
     // Offset: 0x1EF38E0
     static void _cctor();
     // System.Boolean <CompileSwitchExpression>b__56_0(System.Linq.Expressions.SwitchCase c)
     // Offset: 0x1EF394C
-    bool $CompileSwitchExpression$b__56_0(System::Linq::Expressions::SwitchCase* c);
+    bool $CompileSwitchExpression$b__56_0(::System::Linq::Expressions::SwitchCase* c);
     // System.Boolean <CompileSwitchExpression>b__56_1(System.Linq.Expressions.Expression t)
     // Offset: 0x1EF3A44
-    bool $CompileSwitchExpression$b__56_1(System::Linq::Expressions::Expression* t);
+    bool $CompileSwitchExpression$b__56_1(::System::Linq::Expressions::Expression* t);
     // System.Void <CompileNoLabelPush>b__101_0(System.Linq.Expressions.Interpreter.LightCompiler this, System.Linq.Expressions.Expression e)
     // Offset: 0x1EF3AC4
-    void $CompileNoLabelPush$b__101_0(System::Linq::Expressions::Interpreter::LightCompiler* _this, System::Linq::Expressions::Expression* e);
+    void $CompileNoLabelPush$b__101_0(::System::Linq::Expressions::Interpreter::LightCompiler* _this, ::System::Linq::Expressions::Expression* e);
     // public System.Void .ctor()
     // Offset: 0x1EF3944
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightCompiler::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Expressions::Interpreter::LightCompiler::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Expressions::Interpreter::LightCompiler::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightCompiler::$$c*, creationType>()));
     }
   }; // System.Linq.Expressions.Interpreter.LightCompiler/System.Linq.Expressions.Interpreter.<>c
@@ -94,7 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::$$c::$CompileSwitchExpression$b__56_0
 // Il2CppName: <CompileSwitchExpression>b__56_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Linq::Expressions::Interpreter::LightCompiler::$$c::*)(System::Linq::Expressions::SwitchCase*)>(&System::Linq::Expressions::Interpreter::LightCompiler::$$c::$CompileSwitchExpression$b__56_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Linq::Expressions::Interpreter::LightCompiler::$$c::*)(::System::Linq::Expressions::SwitchCase*)>(&System::Linq::Expressions::Interpreter::LightCompiler::$$c::$CompileSwitchExpression$b__56_0)> {
   static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "SwitchCase")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler::$$c*), "<CompileSwitchExpression>b__56_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
@@ -103,7 +103,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::$$c::$CompileSwitchExpression$b__56_1
 // Il2CppName: <CompileSwitchExpression>b__56_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Linq::Expressions::Interpreter::LightCompiler::$$c::*)(System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::$$c::$CompileSwitchExpression$b__56_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Linq::Expressions::Interpreter::LightCompiler::$$c::*)(::System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::$$c::$CompileSwitchExpression$b__56_1)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightCompiler::$$c*), "<CompileSwitchExpression>b__56_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
@@ -112,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightCompiler::$$c::$CompileNoLabelPush$b__101_0
 // Il2CppName: <CompileNoLabelPush>b__101_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::$$c::*)(System::Linq::Expressions::Interpreter::LightCompiler*, System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::$$c::$CompileNoLabelPush$b__101_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LightCompiler::$$c::*)(::System::Linq::Expressions::Interpreter::LightCompiler*, ::System::Linq::Expressions::Expression*)>(&System::Linq::Expressions::Interpreter::LightCompiler::$$c::$CompileNoLabelPush$b__101_0)> {
   static const MethodInfo* get() {
     static auto* _this = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions.Interpreter", "LightCompiler")->byval_arg;
     static auto* e = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;

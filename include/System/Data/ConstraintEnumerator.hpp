@@ -30,8 +30,8 @@ namespace System::Data {
   class ConstraintEnumerator;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Data::ConstraintEnumerator);
-DEFINE_IL2CPP_ARG_TYPE(System::Data::ConstraintEnumerator*, "System.Data", "ConstraintEnumerator");
+NEED_NO_BOX(::System::Data::ConstraintEnumerator);
+DEFINE_IL2CPP_ARG_TYPE(::System::Data::ConstraintEnumerator*, "System.Data", "ConstraintEnumerator");
 // Type namespace: System.Data
 namespace System::Data {
   // Size: 0x28
@@ -52,36 +52,36 @@ namespace System::Data {
     // private System.Collections.IEnumerator _tables
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::IEnumerator* tables;
+    ::System::Collections::IEnumerator* tables;
     // Field size check
-    static_assert(sizeof(System::Collections::IEnumerator*) == 0x8);
+    static_assert(sizeof(::System::Collections::IEnumerator*) == 0x8);
     // private System.Collections.IEnumerator _constraints
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::IEnumerator* constraints;
+    ::System::Collections::IEnumerator* constraints;
     // Field size check
-    static_assert(sizeof(System::Collections::IEnumerator*) == 0x8);
+    static_assert(sizeof(::System::Collections::IEnumerator*) == 0x8);
     // private System.Data.Constraint _currentObject
     // Size: 0x8
     // Offset: 0x20
-    System::Data::Constraint* currentObject;
+    ::System::Data::Constraint* currentObject;
     // Field size check
-    static_assert(sizeof(System::Data::Constraint*) == 0x8);
+    static_assert(sizeof(::System::Data::Constraint*) == 0x8);
     public:
     // Get instance field reference: private System.Collections.IEnumerator _tables
-    System::Collections::IEnumerator*& dyn__tables();
+    ::System::Collections::IEnumerator*& dyn__tables();
     // Get instance field reference: private System.Collections.IEnumerator _constraints
-    System::Collections::IEnumerator*& dyn__constraints();
+    ::System::Collections::IEnumerator*& dyn__constraints();
     // Get instance field reference: private System.Data.Constraint _currentObject
-    System::Data::Constraint*& dyn__currentObject();
+    ::System::Data::Constraint*& dyn__currentObject();
     // protected System.Data.Constraint get_CurrentObject()
     // Offset: 0x1E4AB1C
-    System::Data::Constraint* get_CurrentObject();
+    ::System::Data::Constraint* get_CurrentObject();
     // public System.Void .ctor(System.Data.DataSet dataSet)
     // Offset: 0x1E4A7C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ConstraintEnumerator* New_ctor(System::Data::DataSet* dataSet) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Data::ConstraintEnumerator::.ctor");
+    static ConstraintEnumerator* New_ctor(::System::Data::DataSet* dataSet) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Data::ConstraintEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConstraintEnumerator*, creationType>(dataSet)));
     }
     // public System.Boolean GetNext()
@@ -89,20 +89,20 @@ namespace System::Data {
     bool GetNext();
     // public System.Data.Constraint GetConstraint()
     // Offset: 0x1E4AB0C
-    System::Data::Constraint* GetConstraint();
+    ::System::Data::Constraint* GetConstraint();
     // protected System.Boolean IsValidCandidate(System.Data.Constraint constraint)
     // Offset: 0x1E4AB14
-    bool IsValidCandidate(System::Data::Constraint* constraint);
+    bool IsValidCandidate(::System::Data::Constraint* constraint);
   }; // System.Data.ConstraintEnumerator
   #pragma pack(pop)
-  static check_size<sizeof(ConstraintEnumerator), 32 + sizeof(System::Data::Constraint*)> __System_Data_ConstraintEnumeratorSizeCheck;
+  static check_size<sizeof(ConstraintEnumerator), 32 + sizeof(::System::Data::Constraint*)> __System_Data_ConstraintEnumeratorSizeCheck;
   static_assert(sizeof(ConstraintEnumerator) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Data::ConstraintEnumerator::get_CurrentObject
 // Il2CppName: get_CurrentObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::Constraint* (System::Data::ConstraintEnumerator::*)()>(&System::Data::ConstraintEnumerator::get_CurrentObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::Constraint* (System::Data::ConstraintEnumerator::*)()>(&System::Data::ConstraintEnumerator::get_CurrentObject)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ConstraintEnumerator*), "get_CurrentObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Data::ConstraintEnumerator::GetConstraint
 // Il2CppName: GetConstraint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::Constraint* (System::Data::ConstraintEnumerator::*)()>(&System::Data::ConstraintEnumerator::GetConstraint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::Constraint* (System::Data::ConstraintEnumerator::*)()>(&System::Data::ConstraintEnumerator::GetConstraint)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ConstraintEnumerator*), "GetConstraint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -130,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::ConstraintEnumerator::IsValidCandidate
 // Il2CppName: IsValidCandidate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Data::ConstraintEnumerator::*)(System::Data::Constraint*)>(&System::Data::ConstraintEnumerator::IsValidCandidate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Data::ConstraintEnumerator::*)(::System::Data::Constraint*)>(&System::Data::ConstraintEnumerator::IsValidCandidate)> {
   static const MethodInfo* get() {
     static auto* constraint = &::il2cpp_utils::GetClassFromName("System.Data", "Constraint")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ConstraintEnumerator*), "IsValidCandidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{constraint});

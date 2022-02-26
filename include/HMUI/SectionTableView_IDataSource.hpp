@@ -15,8 +15,8 @@ namespace HMUI {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HMUI::SectionTableView::IDataSource);
-DEFINE_IL2CPP_ARG_TYPE(HMUI::SectionTableView::IDataSource*, "HMUI", "SectionTableView/IDataSource");
+NEED_NO_BOX(::HMUI::SectionTableView::IDataSource);
+DEFINE_IL2CPP_ARG_TYPE(::HMUI::SectionTableView::IDataSource*, "HMUI", "SectionTableView/IDataSource");
 // Type namespace: HMUI
 namespace HMUI {
   // Size: 0x10
@@ -36,10 +36,10 @@ namespace HMUI {
     int NumberOfRowsInSection(int section);
     // public HMUI.TableCell CellForSectionHeader(System.Int32 section, System.Boolean unfolded)
     // Offset: 0xFFFFFFFF
-    HMUI::TableCell* CellForSectionHeader(int section, bool unfolded);
+    ::HMUI::TableCell* CellForSectionHeader(int section, bool unfolded);
     // public HMUI.TableCell CellForRowInSection(System.Int32 section, System.Int32 row)
     // Offset: 0xFFFFFFFF
-    HMUI::TableCell* CellForRowInSection(int section, int row);
+    ::HMUI::TableCell* CellForRowInSection(int section, int row);
   }; // HMUI.SectionTableView/HMUI.IDataSource
   #pragma pack(pop)
 }
@@ -72,7 +72,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (HMUI::
 // Writing MetadataGetter for method: HMUI::SectionTableView::IDataSource::CellForSectionHeader
 // Il2CppName: CellForSectionHeader
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableCell* (HMUI::SectionTableView::IDataSource::*)(int, bool)>(&HMUI::SectionTableView::IDataSource::CellForSectionHeader)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HMUI::TableCell* (HMUI::SectionTableView::IDataSource::*)(int, bool)>(&HMUI::SectionTableView::IDataSource::CellForSectionHeader)> {
   static const MethodInfo* get() {
     static auto* section = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* unfolded = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -82,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::Table
 // Writing MetadataGetter for method: HMUI::SectionTableView::IDataSource::CellForRowInSection
 // Il2CppName: CellForRowInSection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableCell* (HMUI::SectionTableView::IDataSource::*)(int, int)>(&HMUI::SectionTableView::IDataSource::CellForRowInSection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HMUI::TableCell* (HMUI::SectionTableView::IDataSource::*)(int, int)>(&HMUI::SectionTableView::IDataSource::CellForRowInSection)> {
   static const MethodInfo* get() {
     static auto* section = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* row = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

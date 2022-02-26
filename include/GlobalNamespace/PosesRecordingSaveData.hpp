@@ -23,8 +23,8 @@ namespace GlobalNamespace {
   class PosesRecordingSaveData;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PosesRecordingSaveData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PosesRecordingSaveData*, "", "PosesRecordingSaveData");
+NEED_NO_BOX(::GlobalNamespace::PosesRecordingSaveData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PosesRecordingSaveData*, "", "PosesRecordingSaveData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x28
@@ -33,11 +33,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PosesRecordingSaveData : public ::Il2CppObject {
     public:
-    // Nested type: GlobalNamespace::PosesRecordingSaveData::PoseSaveData
+    // Nested type: ::GlobalNamespace::PosesRecordingSaveData::PoseSaveData
     class PoseSaveData;
-    // Nested type: GlobalNamespace::PosesRecordingSaveData::TransformsSaveKeyframe
+    // Nested type: ::GlobalNamespace::PosesRecordingSaveData::TransformsSaveKeyframe
     class TransformsSaveKeyframe;
-    // Nested type: GlobalNamespace::PosesRecordingSaveData::ExternalCameraCalibrationSaveData
+    // Nested type: ::GlobalNamespace::PosesRecordingSaveData::ExternalCameraCalibrationSaveData
     class ExternalCameraCalibrationSaveData;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -57,32 +57,32 @@ namespace GlobalNamespace {
     // public readonly PosesRecordingSaveData/TransformsSaveKeyframe[] keyframes
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayW<GlobalNamespace::PosesRecordingSaveData::TransformsSaveKeyframe*> keyframes;
+    ::ArrayW<::GlobalNamespace::PosesRecordingSaveData::TransformsSaveKeyframe*> keyframes;
     // Field size check
-    static_assert(sizeof(::ArrayW<GlobalNamespace::PosesRecordingSaveData::TransformsSaveKeyframe*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::GlobalNamespace::PosesRecordingSaveData::TransformsSaveKeyframe*>) == 0x8);
     // public readonly PosesRecordingSaveData/ExternalCameraCalibrationSaveData externalCameraCalibration
     // Size: 0x8
     // Offset: 0x20
-    GlobalNamespace::PosesRecordingSaveData::ExternalCameraCalibrationSaveData* externalCameraCalibration;
+    ::GlobalNamespace::PosesRecordingSaveData::ExternalCameraCalibrationSaveData* externalCameraCalibration;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::PosesRecordingSaveData::ExternalCameraCalibrationSaveData*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::PosesRecordingSaveData::ExternalCameraCalibrationSaveData*) == 0x8);
     public:
     // Get instance field reference: public readonly System.String[] objectIds
     ::ArrayW<::StringW>& dyn_objectIds();
     // Get instance field reference: public readonly PosesRecordingSaveData/TransformsSaveKeyframe[] keyframes
-    ::ArrayW<GlobalNamespace::PosesRecordingSaveData::TransformsSaveKeyframe*>& dyn_keyframes();
+    ::ArrayW<::GlobalNamespace::PosesRecordingSaveData::TransformsSaveKeyframe*>& dyn_keyframes();
     // Get instance field reference: public readonly PosesRecordingSaveData/ExternalCameraCalibrationSaveData externalCameraCalibration
-    GlobalNamespace::PosesRecordingSaveData::ExternalCameraCalibrationSaveData*& dyn_externalCameraCalibration();
+    ::GlobalNamespace::PosesRecordingSaveData::ExternalCameraCalibrationSaveData*& dyn_externalCameraCalibration();
     // public System.Void .ctor(System.String[] objectIds, PosesRecordingSaveData/TransformsSaveKeyframe[] keyframes, PosesRecordingSaveData/ExternalCameraCalibrationSaveData externalCameraCalibration)
     // Offset: 0x13E71CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PosesRecordingSaveData* New_ctor(::ArrayW<::StringW> objectIds, ::ArrayW<GlobalNamespace::PosesRecordingSaveData::TransformsSaveKeyframe*> keyframes, GlobalNamespace::PosesRecordingSaveData::ExternalCameraCalibrationSaveData* externalCameraCalibration) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PosesRecordingSaveData::.ctor");
+    static PosesRecordingSaveData* New_ctor(::ArrayW<::StringW> objectIds, ::ArrayW<::GlobalNamespace::PosesRecordingSaveData::TransformsSaveKeyframe*> keyframes, ::GlobalNamespace::PosesRecordingSaveData::ExternalCameraCalibrationSaveData* externalCameraCalibration) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PosesRecordingSaveData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PosesRecordingSaveData*, creationType>(objectIds, keyframes, externalCameraCalibration)));
     }
   }; // PosesRecordingSaveData
   #pragma pack(pop)
-  static check_size<sizeof(PosesRecordingSaveData), 32 + sizeof(GlobalNamespace::PosesRecordingSaveData::ExternalCameraCalibrationSaveData*)> __GlobalNamespace_PosesRecordingSaveDataSizeCheck;
+  static check_size<sizeof(PosesRecordingSaveData), 32 + sizeof(::GlobalNamespace::PosesRecordingSaveData::ExternalCameraCalibrationSaveData*)> __GlobalNamespace_PosesRecordingSaveDataSizeCheck;
   static_assert(sizeof(PosesRecordingSaveData) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

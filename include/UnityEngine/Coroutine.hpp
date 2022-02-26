@@ -20,8 +20,8 @@ namespace UnityEngine {
   class Coroutine;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Coroutine);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Coroutine*, "UnityEngine", "Coroutine");
+NEED_NO_BOX(::UnityEngine::Coroutine);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Coroutine*, "UnityEngine", "Coroutine");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -31,7 +31,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NativeHeaderAttribute] Offset: 11A5D38
   // [RequiredByNativeCodeAttribute] Offset: 11A5D38
-  class Coroutine : public UnityEngine::YieldInstruction {
+  class Coroutine : public ::UnityEngine::YieldInstruction {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -45,19 +45,19 @@ namespace UnityEngine {
     // System.IntPtr m_Ptr
     // Size: 0x8
     // Offset: 0x10
-    System::IntPtr m_Ptr;
+    ::System::IntPtr m_Ptr;
     // Field size check
-    static_assert(sizeof(System::IntPtr) == 0x8);
+    static_assert(sizeof(::System::IntPtr) == 0x8);
     public:
-    // Creating conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const noexcept {
+    // Creating conversion operator: operator ::System::IntPtr
+    constexpr operator ::System::IntPtr() const noexcept {
       return m_Ptr;
     }
     // Get instance field reference: System.IntPtr m_Ptr
-    System::IntPtr& dyn_m_Ptr();
+    ::System::IntPtr& dyn_m_Ptr();
     // static private System.Void ReleaseCoroutine(System.IntPtr ptr)
     // Offset: 0x1EB4E24
-    static void ReleaseCoroutine(System::IntPtr ptr);
+    static void ReleaseCoroutine(::System::IntPtr ptr);
     // private System.Void .ctor()
     // Offset: 0x1EB4D80
     // Implemented from: UnityEngine.YieldInstruction
@@ -65,7 +65,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Coroutine* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Coroutine::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Coroutine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Coroutine*, creationType>()));
     }
     // protected override System.Void Finalize()
@@ -75,14 +75,14 @@ namespace UnityEngine {
     void Finalize();
   }; // UnityEngine.Coroutine
   #pragma pack(pop)
-  static check_size<sizeof(Coroutine), 16 + sizeof(System::IntPtr)> __UnityEngine_CoroutineSizeCheck;
+  static check_size<sizeof(Coroutine), 16 + sizeof(::System::IntPtr)> __UnityEngine_CoroutineSizeCheck;
   static_assert(sizeof(Coroutine) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Coroutine::ReleaseCoroutine
 // Il2CppName: ReleaseCoroutine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&UnityEngine::Coroutine::ReleaseCoroutine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&UnityEngine::Coroutine::ReleaseCoroutine)> {
   static const MethodInfo* get() {
     static auto* ptr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Coroutine*), "ReleaseCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ptr});

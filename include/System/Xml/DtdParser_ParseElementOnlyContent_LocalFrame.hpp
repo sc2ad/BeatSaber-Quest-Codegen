@@ -15,8 +15,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::DtdParser::ParseElementOnlyContent_LocalFrame);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::DtdParser::ParseElementOnlyContent_LocalFrame*, "System.Xml", "DtdParser/ParseElementOnlyContent_LocalFrame");
+NEED_NO_BOX(::System::Xml::DtdParser::ParseElementOnlyContent_LocalFrame);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::DtdParser::ParseElementOnlyContent_LocalFrame*, "System.Xml", "DtdParser/ParseElementOnlyContent_LocalFrame");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x18
@@ -43,24 +43,24 @@ namespace System::Xml {
     // public System.Xml.DtdParser/System.Xml.Token parsingSchema
     // Size: 0x4
     // Offset: 0x14
-    System::Xml::DtdParser::Token parsingSchema;
+    ::System::Xml::DtdParser::Token parsingSchema;
     // Field size check
-    static_assert(sizeof(System::Xml::DtdParser::Token) == 0x4);
+    static_assert(sizeof(::System::Xml::DtdParser::Token) == 0x4);
     public:
     // Get instance field reference: public System.Int32 startParenEntityId
     int& dyn_startParenEntityId();
     // Get instance field reference: public System.Xml.DtdParser/System.Xml.Token parsingSchema
-    System::Xml::DtdParser::Token& dyn_parsingSchema();
+    ::System::Xml::DtdParser::Token& dyn_parsingSchema();
     // public System.Void .ctor(System.Int32 startParentEntityIdParam)
     // Offset: 0x1BA3EE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DtdParser::ParseElementOnlyContent_LocalFrame* New_ctor(int startParentEntityIdParam) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::DtdParser::ParseElementOnlyContent_LocalFrame::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::DtdParser::ParseElementOnlyContent_LocalFrame::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DtdParser::ParseElementOnlyContent_LocalFrame*, creationType>(startParentEntityIdParam)));
     }
   }; // System.Xml.DtdParser/System.Xml.ParseElementOnlyContent_LocalFrame
   #pragma pack(pop)
-  static check_size<sizeof(DtdParser::ParseElementOnlyContent_LocalFrame), 20 + sizeof(System::Xml::DtdParser::Token)> __System_Xml_DtdParser_ParseElementOnlyContent_LocalFrameSizeCheck;
+  static check_size<sizeof(DtdParser::ParseElementOnlyContent_LocalFrame), 20 + sizeof(::System::Xml::DtdParser::Token)> __System_Xml_DtdParser_ParseElementOnlyContent_LocalFrameSizeCheck;
   static_assert(sizeof(DtdParser::ParseElementOnlyContent_LocalFrame) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

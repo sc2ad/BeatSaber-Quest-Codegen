@@ -26,8 +26,8 @@ namespace UnityEngine::ProBuilder {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass2_0);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass2_0*, "UnityEngine.ProBuilder.MeshOperations", "ConnectElements/<>c__DisplayClass2_0");
+NEED_NO_BOX(::UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass2_0);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass2_0*, "UnityEngine.ProBuilder.MeshOperations", "ConnectElements/<>c__DisplayClass2_0");
 // Type namespace: UnityEngine.ProBuilder.MeshOperations
 namespace UnityEngine::ProBuilder::MeshOperations {
   // Size: 0x20
@@ -49,20 +49,20 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // public System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> lookup
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::Dictionary_2<int, int>* lookup;
+    ::System::Collections::Generic::Dictionary_2<int, int>* lookup;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<int, int>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::Dictionary_2<int, int>*) == 0x8);
     // public UnityEngine.ProBuilder.ProBuilderMesh mesh
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::ProBuilder::ProBuilderMesh* mesh;
+    ::UnityEngine::ProBuilder::ProBuilderMesh* mesh;
     // Field size check
-    static_assert(sizeof(UnityEngine::ProBuilder::ProBuilderMesh*) == 0x8);
+    static_assert(sizeof(::UnityEngine::ProBuilder::ProBuilderMesh*) == 0x8);
     public:
     // Get instance field reference: public System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> lookup
-    System::Collections::Generic::Dictionary_2<int, int>*& dyn_lookup();
+    ::System::Collections::Generic::Dictionary_2<int, int>*& dyn_lookup();
     // Get instance field reference: public UnityEngine.ProBuilder.ProBuilderMesh mesh
-    UnityEngine::ProBuilder::ProBuilderMesh*& dyn_mesh();
+    ::UnityEngine::ProBuilder::ProBuilderMesh*& dyn_mesh();
     // System.Int32 <Connect>b__0(System.Int32 x)
     // Offset: 0x19C1A40
     int $Connect$b__0(int x);
@@ -75,12 +75,12 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConnectElements::$$c__DisplayClass2_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass2_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass2_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConnectElements::$$c__DisplayClass2_0*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.MeshOperations.ConnectElements/UnityEngine.ProBuilder.MeshOperations.<>c__DisplayClass2_0
   #pragma pack(pop)
-  static check_size<sizeof(ConnectElements::$$c__DisplayClass2_0), 24 + sizeof(UnityEngine::ProBuilder::ProBuilderMesh*)> __UnityEngine_ProBuilder_MeshOperations_ConnectElements_$$c__DisplayClass2_0SizeCheck;
+  static check_size<sizeof(ConnectElements::$$c__DisplayClass2_0), 24 + sizeof(::UnityEngine::ProBuilder::ProBuilderMesh*)> __UnityEngine_ProBuilder_MeshOperations_ConnectElements_$$c__DisplayClass2_0SizeCheck;
   static_assert(sizeof(ConnectElements::$$c__DisplayClass2_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

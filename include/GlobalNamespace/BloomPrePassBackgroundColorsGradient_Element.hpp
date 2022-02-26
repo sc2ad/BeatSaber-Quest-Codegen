@@ -15,8 +15,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BloomPrePassBackgroundColorsGradient::Element);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBackgroundColorsGradient::Element*, "", "BloomPrePassBackgroundColorsGradient/Element");
+NEED_NO_BOX(::GlobalNamespace::BloomPrePassBackgroundColorsGradient::Element);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BloomPrePassBackgroundColorsGradient::Element*, "", "BloomPrePassBackgroundColorsGradient/Element");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x28
@@ -37,9 +37,9 @@ namespace GlobalNamespace {
     // public UnityEngine.Color color
     // Size: 0x10
     // Offset: 0x10
-    UnityEngine::Color color;
+    ::UnityEngine::Color color;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     // public System.Single startT
     // Size: 0x4
     // Offset: 0x20
@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public UnityEngine.Color color
-    UnityEngine::Color& dyn_color();
+    ::UnityEngine::Color& dyn_color();
     // Get instance field reference: public System.Single startT
     float& dyn_startT();
     // Get instance field reference: public System.Single exp
@@ -65,7 +65,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomPrePassBackgroundColorsGradient::Element* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BloomPrePassBackgroundColorsGradient::Element::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomPrePassBackgroundColorsGradient::Element::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassBackgroundColorsGradient::Element*, creationType>()));
     }
   }; // BloomPrePassBackgroundColorsGradient/Element

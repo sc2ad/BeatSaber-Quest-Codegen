@@ -45,8 +45,8 @@ namespace UnityEngine::Timeline {
   class NotificationUtilities;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Timeline::NotificationUtilities);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::NotificationUtilities*, "UnityEngine.Timeline", "NotificationUtilities");
+NEED_NO_BOX(::UnityEngine::Timeline::NotificationUtilities);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::NotificationUtilities*, "UnityEngine.Timeline", "NotificationUtilities");
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
   // Size: 0x10
@@ -57,10 +57,10 @@ namespace UnityEngine::Timeline {
     public:
     // static public UnityEngine.Playables.ScriptPlayable`1<UnityEngine.Timeline.TimeNotificationBehaviour> CreateNotificationsPlayable(UnityEngine.Playables.PlayableGraph graph, System.Collections.Generic.IEnumerable`1<UnityEngine.Timeline.IMarker> markers, UnityEngine.GameObject go)
     // Offset: 0x1C9DC38
-    static UnityEngine::Playables::ScriptPlayable_1<UnityEngine::Timeline::TimeNotificationBehaviour*> CreateNotificationsPlayable(UnityEngine::Playables::PlayableGraph graph, System::Collections::Generic::IEnumerable_1<UnityEngine::Timeline::IMarker*>* markers, UnityEngine::GameObject* go);
+    static ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::TimeNotificationBehaviour*> CreateNotificationsPlayable(::UnityEngine::Playables::PlayableGraph graph, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::IMarker*>* markers, ::UnityEngine::GameObject* go);
     // static public System.Boolean TrackTypeSupportsNotifications(System.Type type)
     // Offset: 0x1C9E44C
-    static bool TrackTypeSupportsNotifications(System::Type* type);
+    static bool TrackTypeSupportsNotifications(::System::Type* type);
   }; // UnityEngine.Timeline.NotificationUtilities
   #pragma pack(pop)
 }
@@ -68,7 +68,7 @@ namespace UnityEngine::Timeline {
 // Writing MetadataGetter for method: UnityEngine::Timeline::NotificationUtilities::CreateNotificationsPlayable
 // Il2CppName: CreateNotificationsPlayable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::ScriptPlayable_1<UnityEngine::Timeline::TimeNotificationBehaviour*> (*)(UnityEngine::Playables::PlayableGraph, System::Collections::Generic::IEnumerable_1<UnityEngine::Timeline::IMarker*>*, UnityEngine::GameObject*)>(&UnityEngine::Timeline::NotificationUtilities::CreateNotificationsPlayable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::TimeNotificationBehaviour*> (*)(::UnityEngine::Playables::PlayableGraph, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::IMarker*>*, ::UnityEngine::GameObject*)>(&UnityEngine::Timeline::NotificationUtilities::CreateNotificationsPlayable)> {
   static const MethodInfo* get() {
     static auto* graph = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableGraph")->byval_arg;
     static auto* markers = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "IMarker")})->byval_arg;
@@ -79,7 +79,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Timeline::NotificationUtilities::TrackTypeSupportsNotifications
 // Il2CppName: TrackTypeSupportsNotifications
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&UnityEngine::Timeline::NotificationUtilities::TrackTypeSupportsNotifications)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&UnityEngine::Timeline::NotificationUtilities::TrackTypeSupportsNotifications)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::NotificationUtilities*), "TrackTypeSupportsNotifications", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});

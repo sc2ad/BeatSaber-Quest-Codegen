@@ -23,8 +23,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Serialization::JsonTypeReflector::$$c);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Serialization::JsonTypeReflector::$$c*, "Newtonsoft.Json.Serialization", "JsonTypeReflector/<>c");
+NEED_NO_BOX(::Newtonsoft::Json::Serialization::JsonTypeReflector::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Serialization::JsonTypeReflector::$$c*, "Newtonsoft.Json.Serialization", "JsonTypeReflector/<>c");
 // Type namespace: Newtonsoft.Json.Serialization
 namespace Newtonsoft::Json::Serialization {
   // Size: 0x10
@@ -36,27 +36,27 @@ namespace Newtonsoft::Json::Serialization {
     public:
     // [NullableAttribute] Offset: 0x1206CD8
     // Get static field: static public readonly Newtonsoft.Json.Serialization.JsonTypeReflector/Newtonsoft.Json.Serialization.<>c <>9
-    static Newtonsoft::Json::Serialization::JsonTypeReflector::$$c* _get_$$9();
+    static ::Newtonsoft::Json::Serialization::JsonTypeReflector::$$c* _get_$$9();
     // Set static field: static public readonly Newtonsoft.Json.Serialization.JsonTypeReflector/Newtonsoft.Json.Serialization.<>c <>9
-    static void _set_$$9(Newtonsoft::Json::Serialization::JsonTypeReflector::$$c* value);
+    static void _set_$$9(::Newtonsoft::Json::Serialization::JsonTypeReflector::$$c* value);
     // [NullableAttribute] Offset: 0x1206CEC
     // Get static field: static public System.Func`2<System.Object,System.Type> <>9__22_1
-    static System::Func_2<::Il2CppObject*, System::Type*>* _get_$$9__22_1();
+    static ::System::Func_2<::Il2CppObject*, ::System::Type*>* _get_$$9__22_1();
     // Set static field: static public System.Func`2<System.Object,System.Type> <>9__22_1
-    static void _set_$$9__22_1(System::Func_2<::Il2CppObject*, System::Type*>* value);
+    static void _set_$$9__22_1(::System::Func_2<::Il2CppObject*, ::System::Type*>* value);
     // static private System.Void .cctor()
     // Offset: 0x19D6230
     static void _cctor();
     // System.Type <GetCreator>b__22_1(System.Object param)
     // Offset: 0x19D629C
-    System::Type* $GetCreator$b__22_1(::Il2CppObject* param);
+    ::System::Type* $GetCreator$b__22_1(::Il2CppObject* param);
     // public System.Void .ctor()
     // Offset: 0x19D6294
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JsonTypeReflector::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Serialization::JsonTypeReflector::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::JsonTypeReflector::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JsonTypeReflector::$$c*, creationType>()));
     }
   }; // Newtonsoft.Json.Serialization.JsonTypeReflector/Newtonsoft.Json.Serialization.<>c
@@ -74,7 +74,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::JsonTypeReflector::$$c::$GetCreator$b__22_1
 // Il2CppName: <GetCreator>b__22_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (Newtonsoft::Json::Serialization::JsonTypeReflector::$$c::*)(::Il2CppObject*)>(&Newtonsoft::Json::Serialization::JsonTypeReflector::$$c::$GetCreator$b__22_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (Newtonsoft::Json::Serialization::JsonTypeReflector::$$c::*)(::Il2CppObject*)>(&Newtonsoft::Json::Serialization::JsonTypeReflector::$$c::$GetCreator$b__22_1)> {
   static const MethodInfo* get() {
     static auto* param = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::JsonTypeReflector::$$c*), "<GetCreator>b__22_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{param});

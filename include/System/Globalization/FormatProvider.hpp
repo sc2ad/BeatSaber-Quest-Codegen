@@ -34,8 +34,8 @@ namespace System::Globalization {
   class FormatProvider;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Globalization::FormatProvider);
-DEFINE_IL2CPP_ARG_TYPE(System::Globalization::FormatProvider*, "System.Globalization", "FormatProvider");
+NEED_NO_BOX(::System::Globalization::FormatProvider);
+DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::FormatProvider*, "System.Globalization", "FormatProvider");
 // Type namespace: System.Globalization
 namespace System::Globalization {
   // Size: 0x10
@@ -44,14 +44,14 @@ namespace System::Globalization {
   // [TokenAttribute] Offset: FFFFFFFF
   class FormatProvider : public ::Il2CppObject {
     public:
-    // Nested type: System::Globalization::FormatProvider::Number
+    // Nested type: ::System::Globalization::FormatProvider::Number
     class Number;
     // static System.String FormatBigInteger(System.Int32 precision, System.Int32 scale, System.Boolean sign, System.String format, System.Globalization.NumberFormatInfo numberFormatInfo, System.Char[] digits, System.Int32 startIndex)
     // Offset: 0x29E8C18
-    static ::StringW FormatBigInteger(int precision, int scale, bool sign, ::StringW format, System::Globalization::NumberFormatInfo* numberFormatInfo, ::ArrayW<::Il2CppChar> digits, int startIndex);
+    static ::StringW FormatBigInteger(int precision, int scale, bool sign, ::StringW format, ::System::Globalization::NumberFormatInfo* numberFormatInfo, ::ArrayW<::Il2CppChar> digits, int startIndex);
     // static System.Boolean TryStringToBigInteger(System.ReadOnlySpan`1<System.Char> s, System.Globalization.NumberStyles styles, System.Globalization.NumberFormatInfo numberFormatInfo, System.Text.StringBuilder receiver, out System.Int32 precision, out System.Int32 scale, out System.Boolean sign)
     // Offset: 0x29E9D94
-    static bool TryStringToBigInteger(System::ReadOnlySpan_1<::Il2CppChar> s, System::Globalization::NumberStyles styles, System::Globalization::NumberFormatInfo* numberFormatInfo, System::Text::StringBuilder* receiver, ByRef<int> precision, ByRef<int> scale, ByRef<bool> sign);
+    static bool TryStringToBigInteger(::System::ReadOnlySpan_1<::Il2CppChar> s, ::System::Globalization::NumberStyles styles, ::System::Globalization::NumberFormatInfo* numberFormatInfo, ::System::Text::StringBuilder* receiver, ByRef<int> precision, ByRef<int> scale, ByRef<bool> sign);
   }; // System.Globalization.FormatProvider
   #pragma pack(pop)
 }
@@ -59,7 +59,7 @@ namespace System::Globalization {
 // Writing MetadataGetter for method: System::Globalization::FormatProvider::FormatBigInteger
 // Il2CppName: FormatBigInteger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int, int, bool, ::StringW, System::Globalization::NumberFormatInfo*, ::ArrayW<::Il2CppChar>, int)>(&System::Globalization::FormatProvider::FormatBigInteger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int, int, bool, ::StringW, ::System::Globalization::NumberFormatInfo*, ::ArrayW<::Il2CppChar>, int)>(&System::Globalization::FormatProvider::FormatBigInteger)> {
   static const MethodInfo* get() {
     static auto* precision = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* scale = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -74,7 +74,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Globalization::FormatProvider::TryStringToBigInteger
 // Il2CppName: TryStringToBigInteger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::ReadOnlySpan_1<::Il2CppChar>, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*, System::Text::StringBuilder*, ByRef<int>, ByRef<int>, ByRef<bool>)>(&System::Globalization::FormatProvider::TryStringToBigInteger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::ReadOnlySpan_1<::Il2CppChar>, ::System::Globalization::NumberStyles, ::System::Globalization::NumberFormatInfo*, ::System::Text::StringBuilder*, ByRef<int>, ByRef<int>, ByRef<bool>)>(&System::Globalization::FormatProvider::TryStringToBigInteger)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "ReadOnlySpan`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Char")})->byval_arg;
     static auto* styles = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberStyles")->byval_arg;

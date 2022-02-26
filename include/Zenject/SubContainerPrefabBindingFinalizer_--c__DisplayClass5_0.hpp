@@ -30,8 +30,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::SubContainerPrefabBindingFinalizer::$$c__DisplayClass5_0);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerPrefabBindingFinalizer::$$c__DisplayClass5_0*, "Zenject", "SubContainerPrefabBindingFinalizer/<>c__DisplayClass5_0");
+NEED_NO_BOX(::Zenject::SubContainerPrefabBindingFinalizer::$$c__DisplayClass5_0);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::SubContainerPrefabBindingFinalizer::$$c__DisplayClass5_0*, "Zenject", "SubContainerPrefabBindingFinalizer/<>c__DisplayClass5_0");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x20
@@ -53,48 +53,48 @@ namespace Zenject {
     // public Zenject.SubContainerPrefabBindingFinalizer <>4__this
     // Size: 0x8
     // Offset: 0x10
-    Zenject::SubContainerPrefabBindingFinalizer* $$4__this;
+    ::Zenject::SubContainerPrefabBindingFinalizer* $$4__this;
     // Field size check
-    static_assert(sizeof(Zenject::SubContainerPrefabBindingFinalizer*) == 0x8);
+    static_assert(sizeof(::Zenject::SubContainerPrefabBindingFinalizer*) == 0x8);
     // public Zenject.DiContainer container
     // Size: 0x8
     // Offset: 0x18
-    Zenject::DiContainer* container;
+    ::Zenject::DiContainer* container;
     // Field size check
-    static_assert(sizeof(Zenject::DiContainer*) == 0x8);
+    static_assert(sizeof(::Zenject::DiContainer*) == 0x8);
     public:
     // Get instance field reference: public Zenject.SubContainerPrefabBindingFinalizer <>4__this
-    Zenject::SubContainerPrefabBindingFinalizer*& dyn_$$4__this();
+    ::Zenject::SubContainerPrefabBindingFinalizer*& dyn_$$4__this();
     // Get instance field reference: public Zenject.DiContainer container
-    Zenject::DiContainer*& dyn_container();
+    ::Zenject::DiContainer*& dyn_container();
     // Zenject.IProvider <FinalizeBindingConcrete>b__0(Zenject.DiContainer _, System.Type concreteType)
     // Offset: 0x246C118
-    Zenject::IProvider* $FinalizeBindingConcrete$b__0(Zenject::DiContainer* _, System::Type* concreteType);
+    ::Zenject::IProvider* $FinalizeBindingConcrete$b__0(::Zenject::DiContainer* _, ::System::Type* concreteType);
     // static private System.Object __zenCreate(System.Object[] P_0)
     // Offset: 0x246C1D4
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
     // Offset: 0x246C230
-    static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
     // Offset: 0x246C0F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubContainerPrefabBindingFinalizer::$$c__DisplayClass5_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::SubContainerPrefabBindingFinalizer::$$c__DisplayClass5_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SubContainerPrefabBindingFinalizer::$$c__DisplayClass5_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SubContainerPrefabBindingFinalizer::$$c__DisplayClass5_0*, creationType>()));
     }
   }; // Zenject.SubContainerPrefabBindingFinalizer/Zenject.<>c__DisplayClass5_0
   #pragma pack(pop)
-  static check_size<sizeof(SubContainerPrefabBindingFinalizer::$$c__DisplayClass5_0), 24 + sizeof(Zenject::DiContainer*)> __Zenject_SubContainerPrefabBindingFinalizer_$$c__DisplayClass5_0SizeCheck;
+  static check_size<sizeof(SubContainerPrefabBindingFinalizer::$$c__DisplayClass5_0), 24 + sizeof(::Zenject::DiContainer*)> __Zenject_SubContainerPrefabBindingFinalizer_$$c__DisplayClass5_0SizeCheck;
   static_assert(sizeof(SubContainerPrefabBindingFinalizer::$$c__DisplayClass5_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::SubContainerPrefabBindingFinalizer::$$c__DisplayClass5_0::$FinalizeBindingConcrete$b__0
 // Il2CppName: <FinalizeBindingConcrete>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::IProvider* (Zenject::SubContainerPrefabBindingFinalizer::$$c__DisplayClass5_0::*)(Zenject::DiContainer*, System::Type*)>(&Zenject::SubContainerPrefabBindingFinalizer::$$c__DisplayClass5_0::$FinalizeBindingConcrete$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::IProvider* (Zenject::SubContainerPrefabBindingFinalizer::$$c__DisplayClass5_0::*)(::Zenject::DiContainer*, ::System::Type*)>(&Zenject::SubContainerPrefabBindingFinalizer::$$c__DisplayClass5_0::$FinalizeBindingConcrete$b__0)> {
   static const MethodInfo* get() {
     static auto* _ = &::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")->byval_arg;
     static auto* concreteType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -113,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: Zenject::SubContainerPrefabBindingFinalizer::$$c__DisplayClass5_0::__zenCreateInjectTypeInfo
 // Il2CppName: __zenCreateInjectTypeInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (*)()>(&Zenject::SubContainerPrefabBindingFinalizer::$$c__DisplayClass5_0::__zenCreateInjectTypeInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&Zenject::SubContainerPrefabBindingFinalizer::$$c__DisplayClass5_0::__zenCreateInjectTypeInfo)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerPrefabBindingFinalizer::$$c__DisplayClass5_0*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

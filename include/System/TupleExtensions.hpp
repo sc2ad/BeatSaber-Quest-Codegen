@@ -24,8 +24,8 @@ namespace System {
   class TupleExtensions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::TupleExtensions);
-DEFINE_IL2CPP_ARG_TYPE(System::TupleExtensions*, "System", "TupleExtensions");
+NEED_NO_BOX(::System::TupleExtensions);
+DEFINE_IL2CPP_ARG_TYPE(::System::TupleExtensions*, "System", "TupleExtensions");
 // Type namespace: System
 namespace System {
   // Size: 0x10
@@ -38,8 +38,8 @@ namespace System {
     // static public System.Void Deconstruct(System.Tuple`2<T1,T2> value, out T1 item1, out T2 item2)
     // Offset: 0xFFFFFFFF
     template<class T1, class T2>
-    static void Deconstruct(System::Tuple_2<T1, T2>* value, ByRef<T1> item1, ByRef<T2> item2) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::TupleExtensions::Deconstruct");
+    static void Deconstruct(::System::Tuple_2<T1, T2>* value, ByRef<T1> item1, ByRef<T2> item2) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::TupleExtensions::Deconstruct");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "TupleExtensions", "Deconstruct", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T2>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value), ::il2cpp_utils::ExtractIndependentType<T1&>(), ::il2cpp_utils::ExtractIndependentType<T2&>()})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T2>::get()})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, value, byref(item1), byref(item2));

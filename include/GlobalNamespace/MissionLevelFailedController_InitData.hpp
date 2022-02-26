@@ -13,8 +13,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MissionLevelFailedController::InitData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelFailedController::InitData*, "", "MissionLevelFailedController/InitData");
+NEED_NO_BOX(::GlobalNamespace::MissionLevelFailedController::InitData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MissionLevelFailedController::InitData*, "", "MissionLevelFailedController/InitData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x11
@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     // Offset: 0x2A6CD6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionLevelFailedController::InitData* New_ctor(bool autoRestart) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MissionLevelFailedController::InitData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionLevelFailedController::InitData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionLevelFailedController::InitData*, creationType>(autoRestart)));
     }
   }; // MissionLevelFailedController/InitData

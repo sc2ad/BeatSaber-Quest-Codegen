@@ -33,8 +33,8 @@ namespace System::Xml {
   class XmlParserContext;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::XmlParserContext);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlParserContext*, "System.Xml", "XmlParserContext");
+NEED_NO_BOX(::System::Xml::XmlParserContext);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlParserContext*, "System.Xml", "XmlParserContext");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x60
@@ -55,15 +55,15 @@ namespace System::Xml {
     // private System.Xml.XmlNameTable _nt
     // Size: 0x8
     // Offset: 0x10
-    System::Xml::XmlNameTable* nt;
+    ::System::Xml::XmlNameTable* nt;
     // Field size check
-    static_assert(sizeof(System::Xml::XmlNameTable*) == 0x8);
+    static_assert(sizeof(::System::Xml::XmlNameTable*) == 0x8);
     // private System.Xml.XmlNamespaceManager _nsMgr
     // Size: 0x8
     // Offset: 0x18
-    System::Xml::XmlNamespaceManager* nsMgr;
+    ::System::Xml::XmlNamespaceManager* nsMgr;
     // Field size check
-    static_assert(sizeof(System::Xml::XmlNamespaceManager*) == 0x8);
+    static_assert(sizeof(::System::Xml::XmlNamespaceManager*) == 0x8);
     // private System.String _docTypeName
     // Size: 0x8
     // Offset: 0x20
@@ -97,9 +97,9 @@ namespace System::Xml {
     // private System.Xml.XmlSpace _xmlSpace
     // Size: 0x4
     // Offset: 0x48
-    System::Xml::XmlSpace xmlSpace;
+    ::System::Xml::XmlSpace xmlSpace;
     // Field size check
-    static_assert(sizeof(System::Xml::XmlSpace) == 0x4);
+    static_assert(sizeof(::System::Xml::XmlSpace) == 0x4);
     // Padding between fields: xmlSpace and: baseURI
     char __padding7[0x4] = {};
     // private System.String _baseURI
@@ -111,14 +111,14 @@ namespace System::Xml {
     // private System.Text.Encoding _encoding
     // Size: 0x8
     // Offset: 0x58
-    System::Text::Encoding* encoding;
+    ::System::Text::Encoding* encoding;
     // Field size check
-    static_assert(sizeof(System::Text::Encoding*) == 0x8);
+    static_assert(sizeof(::System::Text::Encoding*) == 0x8);
     public:
     // Get instance field reference: private System.Xml.XmlNameTable _nt
-    System::Xml::XmlNameTable*& dyn__nt();
+    ::System::Xml::XmlNameTable*& dyn__nt();
     // Get instance field reference: private System.Xml.XmlNamespaceManager _nsMgr
-    System::Xml::XmlNamespaceManager*& dyn__nsMgr();
+    ::System::Xml::XmlNamespaceManager*& dyn__nsMgr();
     // Get instance field reference: private System.String _docTypeName
     ::StringW& dyn__docTypeName();
     // Get instance field reference: private System.String _pubId
@@ -130,17 +130,17 @@ namespace System::Xml {
     // Get instance field reference: private System.String _xmlLang
     ::StringW& dyn__xmlLang();
     // Get instance field reference: private System.Xml.XmlSpace _xmlSpace
-    System::Xml::XmlSpace& dyn__xmlSpace();
+    ::System::Xml::XmlSpace& dyn__xmlSpace();
     // Get instance field reference: private System.String _baseURI
     ::StringW& dyn__baseURI();
     // Get instance field reference: private System.Text.Encoding _encoding
-    System::Text::Encoding*& dyn__encoding();
+    ::System::Text::Encoding*& dyn__encoding();
     // public System.Xml.XmlNameTable get_NameTable()
     // Offset: 0x14D5F90
-    System::Xml::XmlNameTable* get_NameTable();
+    ::System::Xml::XmlNameTable* get_NameTable();
     // public System.Xml.XmlNamespaceManager get_NamespaceManager()
     // Offset: 0x14D5F98
-    System::Xml::XmlNamespaceManager* get_NamespaceManager();
+    ::System::Xml::XmlNamespaceManager* get_NamespaceManager();
     // public System.String get_DocTypeName()
     // Offset: 0x14D5FA0
     ::StringW get_DocTypeName();
@@ -161,44 +161,44 @@ namespace System::Xml {
     ::StringW get_XmlLang();
     // public System.Xml.XmlSpace get_XmlSpace()
     // Offset: 0x14D5FD0
-    System::Xml::XmlSpace get_XmlSpace();
+    ::System::Xml::XmlSpace get_XmlSpace();
     // public System.Text.Encoding get_Encoding()
     // Offset: 0x14D5FD8
-    System::Text::Encoding* get_Encoding();
+    ::System::Text::Encoding* get_Encoding();
     // System.Boolean get_HasDtdInfo()
     // Offset: 0x14D5FE0
     bool get_HasDtdInfo();
     // public System.Void .ctor(System.Xml.XmlNameTable nt, System.Xml.XmlNamespaceManager nsMgr, System.String xmlLang, System.Xml.XmlSpace xmlSpace)
     // Offset: 0x14D5CDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlParserContext* New_ctor(System::Xml::XmlNameTable* nt, System::Xml::XmlNamespaceManager* nsMgr, ::StringW xmlLang, System::Xml::XmlSpace xmlSpace) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlParserContext::.ctor");
+    static XmlParserContext* New_ctor(::System::Xml::XmlNameTable* nt, ::System::Xml::XmlNamespaceManager* nsMgr, ::StringW xmlLang, ::System::Xml::XmlSpace xmlSpace) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlParserContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlParserContext*, creationType>(nt, nsMgr, xmlLang, xmlSpace)));
     }
     // public System.Void .ctor(System.Xml.XmlNameTable nt, System.Xml.XmlNamespaceManager nsMgr, System.String docTypeName, System.String pubId, System.String sysId, System.String internalSubset, System.String baseURI, System.String xmlLang, System.Xml.XmlSpace xmlSpace)
     // Offset: 0x14D5D84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlParserContext* New_ctor(System::Xml::XmlNameTable* nt, System::Xml::XmlNamespaceManager* nsMgr, ::StringW docTypeName, ::StringW pubId, ::StringW sysId, ::StringW internalSubset, ::StringW baseURI, ::StringW xmlLang, System::Xml::XmlSpace xmlSpace) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlParserContext::.ctor");
+    static XmlParserContext* New_ctor(::System::Xml::XmlNameTable* nt, ::System::Xml::XmlNamespaceManager* nsMgr, ::StringW docTypeName, ::StringW pubId, ::StringW sysId, ::StringW internalSubset, ::StringW baseURI, ::StringW xmlLang, ::System::Xml::XmlSpace xmlSpace) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlParserContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlParserContext*, creationType>(nt, nsMgr, docTypeName, pubId, sysId, internalSubset, baseURI, xmlLang, xmlSpace)));
     }
     // public System.Void .ctor(System.Xml.XmlNameTable nt, System.Xml.XmlNamespaceManager nsMgr, System.String docTypeName, System.String pubId, System.String sysId, System.String internalSubset, System.String baseURI, System.String xmlLang, System.Xml.XmlSpace xmlSpace, System.Text.Encoding enc)
     // Offset: 0x14D5DB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlParserContext* New_ctor(System::Xml::XmlNameTable* nt, System::Xml::XmlNamespaceManager* nsMgr, ::StringW docTypeName, ::StringW pubId, ::StringW sysId, ::StringW internalSubset, ::StringW baseURI, ::StringW xmlLang, System::Xml::XmlSpace xmlSpace, System::Text::Encoding* enc) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlParserContext::.ctor");
+    static XmlParserContext* New_ctor(::System::Xml::XmlNameTable* nt, ::System::Xml::XmlNamespaceManager* nsMgr, ::StringW docTypeName, ::StringW pubId, ::StringW sysId, ::StringW internalSubset, ::StringW baseURI, ::StringW xmlLang, ::System::Xml::XmlSpace xmlSpace, ::System::Text::Encoding* enc) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlParserContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlParserContext*, creationType>(nt, nsMgr, docTypeName, pubId, sysId, internalSubset, baseURI, xmlLang, xmlSpace, enc)));
     }
   }; // System.Xml.XmlParserContext
   #pragma pack(pop)
-  static check_size<sizeof(XmlParserContext), 88 + sizeof(System::Text::Encoding*)> __System_Xml_XmlParserContextSizeCheck;
+  static check_size<sizeof(XmlParserContext), 88 + sizeof(::System::Text::Encoding*)> __System_Xml_XmlParserContextSizeCheck;
   static_assert(sizeof(XmlParserContext) == 0x60);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::XmlParserContext::get_NameTable
 // Il2CppName: get_NameTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlNameTable* (System::Xml::XmlParserContext::*)()>(&System::Xml::XmlParserContext::get_NameTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNameTable* (System::Xml::XmlParserContext::*)()>(&System::Xml::XmlParserContext::get_NameTable)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlParserContext*), "get_NameTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -206,7 +206,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlParserContext::get_NamespaceManager
 // Il2CppName: get_NamespaceManager
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlNamespaceManager* (System::Xml::XmlParserContext::*)()>(&System::Xml::XmlParserContext::get_NamespaceManager)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNamespaceManager* (System::Xml::XmlParserContext::*)()>(&System::Xml::XmlParserContext::get_NamespaceManager)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlParserContext*), "get_NamespaceManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -262,7 +262,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Xml::XmlParserContext::get_XmlSpace
 // Il2CppName: get_XmlSpace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlSpace (System::Xml::XmlParserContext::*)()>(&System::Xml::XmlParserContext::get_XmlSpace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlSpace (System::Xml::XmlParserContext::*)()>(&System::Xml::XmlParserContext::get_XmlSpace)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlParserContext*), "get_XmlSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -270,7 +270,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlParserContext::get_Encoding
 // Il2CppName: get_Encoding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (System::Xml::XmlParserContext::*)()>(&System::Xml::XmlParserContext::get_Encoding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (System::Xml::XmlParserContext::*)()>(&System::Xml::XmlParserContext::get_Encoding)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlParserContext*), "get_Encoding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

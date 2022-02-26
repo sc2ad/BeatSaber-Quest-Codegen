@@ -15,8 +15,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SaberManager::InitData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberManager::InitData*, "", "SaberManager/InitData");
+NEED_NO_BOX(::GlobalNamespace::SaberManager::InitData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SaberManager::InitData*, "", "SaberManager/InitData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -45,24 +45,24 @@ namespace GlobalNamespace {
     // public readonly SaberType oneSaberType
     // Size: 0x4
     // Offset: 0x14
-    GlobalNamespace::SaberType oneSaberType;
+    ::GlobalNamespace::SaberType oneSaberType;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::SaberType) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::SaberType) == 0x4);
     public:
     // Get instance field reference: public readonly System.Boolean oneSaberMode
     bool& dyn_oneSaberMode();
     // Get instance field reference: public readonly SaberType oneSaberType
-    GlobalNamespace::SaberType& dyn_oneSaberType();
+    ::GlobalNamespace::SaberType& dyn_oneSaberType();
     // public System.Void .ctor(System.Boolean oneSaberMode, SaberType oneSaberType)
     // Offset: 0x2B55D24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SaberManager::InitData* New_ctor(bool oneSaberMode, GlobalNamespace::SaberType oneSaberType) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SaberManager::InitData::.ctor");
+    static SaberManager::InitData* New_ctor(bool oneSaberMode, ::GlobalNamespace::SaberType oneSaberType) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SaberManager::InitData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SaberManager::InitData*, creationType>(oneSaberMode, oneSaberType)));
     }
   }; // SaberManager/InitData
   #pragma pack(pop)
-  static check_size<sizeof(SaberManager::InitData), 20 + sizeof(GlobalNamespace::SaberType)> __GlobalNamespace_SaberManager_InitDataSizeCheck;
+  static check_size<sizeof(SaberManager::InitData), 20 + sizeof(::GlobalNamespace::SaberType)> __GlobalNamespace_SaberManager_InitDataSizeCheck;
   static_assert(sizeof(SaberManager::InitData) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

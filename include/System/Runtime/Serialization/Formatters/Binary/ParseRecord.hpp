@@ -51,8 +51,8 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   class ParseRecord;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::ParseRecord);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::ParseRecord*, "System.Runtime.Serialization.Formatters.Binary", "ParseRecord");
+NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::ParseRecord);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::ParseRecord*, "System.Runtime.Serialization.Formatters.Binary", "ParseRecord");
 // Type namespace: System.Runtime.Serialization.Formatters.Binary
 namespace System::Runtime::Serialization::Formatters::Binary {
   // Size: 0x11C
@@ -73,39 +73,39 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.Runtime.Serialization.Formatters.Binary.InternalParseTypeE PRparseTypeEnum
     // Size: 0x4
     // Offset: 0x10
-    System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE PRparseTypeEnum;
+    ::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE PRparseTypeEnum;
     // Field size check
-    static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE) == 0x4);
+    static_assert(sizeof(::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE) == 0x4);
     // System.Runtime.Serialization.Formatters.Binary.InternalObjectTypeE PRobjectTypeEnum
     // Size: 0x4
     // Offset: 0x14
-    System::Runtime::Serialization::Formatters::Binary::InternalObjectTypeE PRobjectTypeEnum;
+    ::System::Runtime::Serialization::Formatters::Binary::InternalObjectTypeE PRobjectTypeEnum;
     // Field size check
-    static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::InternalObjectTypeE) == 0x4);
+    static_assert(sizeof(::System::Runtime::Serialization::Formatters::Binary::InternalObjectTypeE) == 0x4);
     // System.Runtime.Serialization.Formatters.Binary.InternalArrayTypeE PRarrayTypeEnum
     // Size: 0x4
     // Offset: 0x18
-    System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE PRarrayTypeEnum;
+    ::System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE PRarrayTypeEnum;
     // Field size check
-    static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE) == 0x4);
+    static_assert(sizeof(::System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE) == 0x4);
     // System.Runtime.Serialization.Formatters.Binary.InternalMemberTypeE PRmemberTypeEnum
     // Size: 0x4
     // Offset: 0x1C
-    System::Runtime::Serialization::Formatters::Binary::InternalMemberTypeE PRmemberTypeEnum;
+    ::System::Runtime::Serialization::Formatters::Binary::InternalMemberTypeE PRmemberTypeEnum;
     // Field size check
-    static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::InternalMemberTypeE) == 0x4);
+    static_assert(sizeof(::System::Runtime::Serialization::Formatters::Binary::InternalMemberTypeE) == 0x4);
     // System.Runtime.Serialization.Formatters.Binary.InternalMemberValueE PRmemberValueEnum
     // Size: 0x4
     // Offset: 0x20
-    System::Runtime::Serialization::Formatters::Binary::InternalMemberValueE PRmemberValueEnum;
+    ::System::Runtime::Serialization::Formatters::Binary::InternalMemberValueE PRmemberValueEnum;
     // Field size check
-    static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::InternalMemberValueE) == 0x4);
+    static_assert(sizeof(::System::Runtime::Serialization::Formatters::Binary::InternalMemberValueE) == 0x4);
     // System.Runtime.Serialization.Formatters.Binary.InternalObjectPositionE PRobjectPositionEnum
     // Size: 0x4
     // Offset: 0x24
-    System::Runtime::Serialization::Formatters::Binary::InternalObjectPositionE PRobjectPositionEnum;
+    ::System::Runtime::Serialization::Formatters::Binary::InternalObjectPositionE PRobjectPositionEnum;
     // Field size check
-    static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::InternalObjectPositionE) == 0x4);
+    static_assert(sizeof(::System::Runtime::Serialization::Formatters::Binary::InternalObjectPositionE) == 0x4);
     // System.String PRname
     // Size: 0x8
     // Offset: 0x28
@@ -133,15 +133,15 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.Type PRdtType
     // Size: 0x8
     // Offset: 0x48
-    System::Type* PRdtType;
+    ::System::Type* PRdtType;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     // System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE PRdtTypeCode
     // Size: 0x4
     // Offset: 0x50
-    System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE PRdtTypeCode;
+    ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE PRdtTypeCode;
     // Field size check
-    static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE) == 0x4);
+    static_assert(sizeof(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE) == 0x4);
     // System.Boolean PRisEnum
     // Size: 0x1
     // Offset: 0x54
@@ -171,9 +171,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.Type PRarrayElementType
     // Size: 0x8
     // Offset: 0x70
-    System::Type* PRarrayElementType;
+    ::System::Type* PRarrayElementType;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     // System.Boolean PRisArrayVariant
     // Size: 0x1
     // Offset: 0x78
@@ -185,9 +185,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE PRarrayElementTypeCode
     // Size: 0x4
     // Offset: 0x7C
-    System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE PRarrayElementTypeCode;
+    ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE PRarrayElementTypeCode;
     // Field size check
-    static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE) == 0x4);
+    static_assert(sizeof(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE) == 0x4);
     // System.Int32 PRrank
     // Size: 0x4
     // Offset: 0x80
@@ -267,9 +267,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo PRobjectInfo
     // Size: 0x8
     // Offset: 0xD8
-    System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* PRobjectInfo;
+    ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* PRobjectInfo;
     // Field size check
-    static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo*) == 0x8);
+    static_assert(sizeof(::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo*) == 0x8);
     // System.Boolean PRisValueTypeFixup
     // Size: 0x1
     // Offset: 0xE0
@@ -293,9 +293,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.Runtime.Serialization.Formatters.Binary.PrimitiveArray PRprimitiveArray
     // Size: 0x8
     // Offset: 0xF8
-    System::Runtime::Serialization::Formatters::Binary::PrimitiveArray* PRprimitiveArray;
+    ::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray* PRprimitiveArray;
     // Field size check
-    static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::PrimitiveArray*) == 0x8);
+    static_assert(sizeof(::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray*) == 0x8);
     // System.Boolean PRisRegistered
     // Size: 0x1
     // Offset: 0x100
@@ -313,9 +313,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.Runtime.Serialization.SerializationInfo PRsi
     // Size: 0x8
     // Offset: 0x110
-    System::Runtime::Serialization::SerializationInfo* PRsi;
+    ::System::Runtime::Serialization::SerializationInfo* PRsi;
     // Field size check
-    static_assert(sizeof(System::Runtime::Serialization::SerializationInfo*) == 0x8);
+    static_assert(sizeof(::System::Runtime::Serialization::SerializationInfo*) == 0x8);
     // System.Int32 PRnullCount
     // Size: 0x4
     // Offset: 0x118
@@ -328,17 +328,17 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Set static field: static System.Int32 parseRecordIdCount
     static void _set_parseRecordIdCount(int value);
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.InternalParseTypeE PRparseTypeEnum
-    System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE& dyn_PRparseTypeEnum();
+    ::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE& dyn_PRparseTypeEnum();
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.InternalObjectTypeE PRobjectTypeEnum
-    System::Runtime::Serialization::Formatters::Binary::InternalObjectTypeE& dyn_PRobjectTypeEnum();
+    ::System::Runtime::Serialization::Formatters::Binary::InternalObjectTypeE& dyn_PRobjectTypeEnum();
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.InternalArrayTypeE PRarrayTypeEnum
-    System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE& dyn_PRarrayTypeEnum();
+    ::System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE& dyn_PRarrayTypeEnum();
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.InternalMemberTypeE PRmemberTypeEnum
-    System::Runtime::Serialization::Formatters::Binary::InternalMemberTypeE& dyn_PRmemberTypeEnum();
+    ::System::Runtime::Serialization::Formatters::Binary::InternalMemberTypeE& dyn_PRmemberTypeEnum();
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.InternalMemberValueE PRmemberValueEnum
-    System::Runtime::Serialization::Formatters::Binary::InternalMemberValueE& dyn_PRmemberValueEnum();
+    ::System::Runtime::Serialization::Formatters::Binary::InternalMemberValueE& dyn_PRmemberValueEnum();
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.InternalObjectPositionE PRobjectPositionEnum
-    System::Runtime::Serialization::Formatters::Binary::InternalObjectPositionE& dyn_PRobjectPositionEnum();
+    ::System::Runtime::Serialization::Formatters::Binary::InternalObjectPositionE& dyn_PRobjectPositionEnum();
     // Get instance field reference: System.String PRname
     ::StringW& dyn_PRname();
     // Get instance field reference: System.String PRvalue
@@ -348,9 +348,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.String PRkeyDt
     ::StringW& dyn_PRkeyDt();
     // Get instance field reference: System.Type PRdtType
-    System::Type*& dyn_PRdtType();
+    ::System::Type*& dyn_PRdtType();
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE PRdtTypeCode
-    System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE& dyn_PRdtTypeCode();
+    ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE& dyn_PRdtTypeCode();
     // Get instance field reference: System.Boolean PRisEnum
     bool& dyn_PRisEnum();
     // Get instance field reference: System.Int64 PRobjectId
@@ -360,11 +360,11 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.String PRarrayElementTypeString
     ::StringW& dyn_PRarrayElementTypeString();
     // Get instance field reference: System.Type PRarrayElementType
-    System::Type*& dyn_PRarrayElementType();
+    ::System::Type*& dyn_PRarrayElementType();
     // Get instance field reference: System.Boolean PRisArrayVariant
     bool& dyn_PRisArrayVariant();
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE PRarrayElementTypeCode
-    System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE& dyn_PRarrayElementTypeCode();
+    ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE& dyn_PRarrayElementTypeCode();
     // Get instance field reference: System.Int32 PRrank
     int& dyn_PRrank();
     // Get instance field reference: System.Int32[] PRlengthA
@@ -390,7 +390,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.Int64 PRheaderId
     int64_t& dyn_PRheaderId();
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo PRobjectInfo
-    System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo*& dyn_PRobjectInfo();
+    ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo*& dyn_PRobjectInfo();
     // Get instance field reference: System.Boolean PRisValueTypeFixup
     bool& dyn_PRisValueTypeFixup();
     // Get instance field reference: System.Object PRnewObj
@@ -398,13 +398,13 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.Object[] PRobjectA
     ::ArrayW<::Il2CppObject*>& dyn_PRobjectA();
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.PrimitiveArray PRprimitiveArray
-    System::Runtime::Serialization::Formatters::Binary::PrimitiveArray*& dyn_PRprimitiveArray();
+    ::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray*& dyn_PRprimitiveArray();
     // Get instance field reference: System.Boolean PRisRegistered
     bool& dyn_PRisRegistered();
     // Get instance field reference: System.Object[] PRmemberData
     ::ArrayW<::Il2CppObject*>& dyn_PRmemberData();
     // Get instance field reference: System.Runtime.Serialization.SerializationInfo PRsi
-    System::Runtime::Serialization::SerializationInfo*& dyn_PRsi();
+    ::System::Runtime::Serialization::SerializationInfo*& dyn_PRsi();
     // Get instance field reference: System.Int32 PRnullCount
     int& dyn_PRnullCount();
     // static private System.Void .cctor()
@@ -419,7 +419,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ParseRecord* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::ParseRecord::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::Formatters::Binary::ParseRecord::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ParseRecord*, creationType>()));
     }
   }; // System.Runtime.Serialization.Formatters.Binary.ParseRecord

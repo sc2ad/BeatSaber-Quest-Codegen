@@ -32,8 +32,8 @@ namespace GlobalNamespace {
   class BeatmapDataObstaclesMergingTransform;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BeatmapDataObstaclesMergingTransform);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataObstaclesMergingTransform*, "", "BeatmapDataObstaclesMergingTransform");
+NEED_NO_BOX(::GlobalNamespace::BeatmapDataObstaclesMergingTransform);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapDataObstaclesMergingTransform*, "", "BeatmapDataObstaclesMergingTransform");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -44,16 +44,16 @@ namespace GlobalNamespace {
     public:
     // static public IReadonlyBeatmapData CreateTransformedData(IReadonlyBeatmapData beatmapData)
     // Offset: 0x2B49F58
-    static GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(GlobalNamespace::IReadonlyBeatmapData* beatmapData);
+    static ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
     // static private System.Boolean CanBeMerged(ObstacleData firstObstacle, ObstacleData secondObstacle)
     // Offset: 0x2B4AB60
-    static bool CanBeMerged(GlobalNamespace::ObstacleData* firstObstacle, GlobalNamespace::ObstacleData* secondObstacle);
+    static bool CanBeMerged(::GlobalNamespace::ObstacleData* firstObstacle, ::GlobalNamespace::ObstacleData* secondObstacle);
     // static private System.Void RemoveLastObstaclesByRotationEvents(ObstacleData[] lastObstacleInLine, BeatmapObjectData beatmapObjectData, System.Collections.Generic.IReadOnlyList`1<BeatmapEventData> events, ref System.Int32 eventIndex, ref System.Boolean obstaclesCanBeMerged)
     // Offset: 0x2B4A734
-    static void RemoveLastObstaclesByRotationEvents(::ArrayW<GlobalNamespace::ObstacleData*> lastObstacleInLine, GlobalNamespace::BeatmapObjectData* beatmapObjectData, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::BeatmapEventData*>* events, ByRef<int> eventIndex, ByRef<bool> obstaclesCanBeMerged);
+    static void RemoveLastObstaclesByRotationEvents(::ArrayW<::GlobalNamespace::ObstacleData*> lastObstacleInLine, ::GlobalNamespace::BeatmapObjectData* beatmapObjectData, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapEventData*>* events, ByRef<int> eventIndex, ByRef<bool> obstaclesCanBeMerged);
     // static private System.Void RemoveObstaclesInRange(ObstacleData[] obstacleInLine, System.Int32 startLine, System.Int32 endLine)
     // Offset: 0x2B4ABD0
-    static void RemoveObstaclesInRange(::ArrayW<GlobalNamespace::ObstacleData*> obstacleInLine, int startLine, int endLine);
+    static void RemoveObstaclesInRange(::ArrayW<::GlobalNamespace::ObstacleData*> obstacleInLine, int startLine, int endLine);
   }; // BeatmapDataObstaclesMergingTransform
   #pragma pack(pop)
 }
@@ -61,7 +61,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataObstaclesMergingTransform::CreateTransformedData
 // Il2CppName: CreateTransformedData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IReadonlyBeatmapData* (*)(GlobalNamespace::IReadonlyBeatmapData*)>(&GlobalNamespace::BeatmapDataObstaclesMergingTransform::CreateTransformedData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IReadonlyBeatmapData* (*)(::GlobalNamespace::IReadonlyBeatmapData*)>(&GlobalNamespace::BeatmapDataObstaclesMergingTransform::CreateTransformedData)> {
   static const MethodInfo* get() {
     static auto* beatmapData = &::il2cpp_utils::GetClassFromName("", "IReadonlyBeatmapData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataObstaclesMergingTransform*), "CreateTransformedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapData});
@@ -70,7 +70,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataObstaclesMergingTransform::CanBeMerged
 // Il2CppName: CanBeMerged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::ObstacleData*, GlobalNamespace::ObstacleData*)>(&GlobalNamespace::BeatmapDataObstaclesMergingTransform::CanBeMerged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::ObstacleData*, ::GlobalNamespace::ObstacleData*)>(&GlobalNamespace::BeatmapDataObstaclesMergingTransform::CanBeMerged)> {
   static const MethodInfo* get() {
     static auto* firstObstacle = &::il2cpp_utils::GetClassFromName("", "ObstacleData")->byval_arg;
     static auto* secondObstacle = &::il2cpp_utils::GetClassFromName("", "ObstacleData")->byval_arg;
@@ -80,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataObstaclesMergingTransform::RemoveLastObstaclesByRotationEvents
 // Il2CppName: RemoveLastObstaclesByRotationEvents
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<GlobalNamespace::ObstacleData*>, GlobalNamespace::BeatmapObjectData*, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::BeatmapEventData*>*, ByRef<int>, ByRef<bool>)>(&GlobalNamespace::BeatmapDataObstaclesMergingTransform::RemoveLastObstaclesByRotationEvents)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<::GlobalNamespace::ObstacleData*>, ::GlobalNamespace::BeatmapObjectData*, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapEventData*>*, ByRef<int>, ByRef<bool>)>(&GlobalNamespace::BeatmapDataObstaclesMergingTransform::RemoveLastObstaclesByRotationEvents)> {
   static const MethodInfo* get() {
     static auto* lastObstacleInLine = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "ObstacleData"), 1)->byval_arg;
     static auto* beatmapObjectData = &::il2cpp_utils::GetClassFromName("", "BeatmapObjectData")->byval_arg;
@@ -93,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataObstaclesMergingTransform::RemoveObstaclesInRange
 // Il2CppName: RemoveObstaclesInRange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<GlobalNamespace::ObstacleData*>, int, int)>(&GlobalNamespace::BeatmapDataObstaclesMergingTransform::RemoveObstaclesInRange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<::GlobalNamespace::ObstacleData*>, int, int)>(&GlobalNamespace::BeatmapDataObstaclesMergingTransform::RemoveObstaclesInRange)> {
   static const MethodInfo* get() {
     static auto* obstacleInLine = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "ObstacleData"), 1)->byval_arg;
     static auto* startLine = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

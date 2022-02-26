@@ -12,8 +12,8 @@ namespace System::Runtime::Serialization {
   class SurrogateForCyclicalReference;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Serialization::SurrogateForCyclicalReference);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SurrogateForCyclicalReference*, "System.Runtime.Serialization", "SurrogateForCyclicalReference");
+NEED_NO_BOX(::System::Runtime::Serialization::SurrogateForCyclicalReference);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::SurrogateForCyclicalReference*, "System.Runtime.Serialization", "SurrogateForCyclicalReference");
 // Type namespace: System.Runtime.Serialization
 namespace System::Runtime::Serialization {
   // Size: 0x10

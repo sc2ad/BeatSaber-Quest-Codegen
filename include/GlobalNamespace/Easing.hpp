@@ -12,8 +12,8 @@ namespace GlobalNamespace {
   class Easing;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::Easing);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Easing*, "", "Easing");
+NEED_NO_BOX(::GlobalNamespace::Easing);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::Easing*, "", "Easing");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10

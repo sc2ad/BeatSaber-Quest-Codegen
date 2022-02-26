@@ -25,8 +25,8 @@ namespace System::Xml::Serialization {
   class IXmlSerializable;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Serialization::IXmlSerializable);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Serialization::IXmlSerializable*, "System.Xml.Serialization", "IXmlSerializable");
+NEED_NO_BOX(::System::Xml::Serialization::IXmlSerializable);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::IXmlSerializable*, "System.Xml.Serialization", "IXmlSerializable");
 // Type namespace: System.Xml.Serialization
 namespace System::Xml::Serialization {
   // Size: 0x10
@@ -37,13 +37,13 @@ namespace System::Xml::Serialization {
     public:
     // public System.Xml.Schema.XmlSchema GetSchema()
     // Offset: 0xFFFFFFFF
-    System::Xml::Schema::XmlSchema* GetSchema();
+    ::System::Xml::Schema::XmlSchema* GetSchema();
     // public System.Void ReadXml(System.Xml.XmlReader reader)
     // Offset: 0xFFFFFFFF
-    void ReadXml(System::Xml::XmlReader* reader);
+    void ReadXml(::System::Xml::XmlReader* reader);
     // public System.Void WriteXml(System.Xml.XmlWriter writer)
     // Offset: 0xFFFFFFFF
-    void WriteXml(System::Xml::XmlWriter* writer);
+    void WriteXml(::System::Xml::XmlWriter* writer);
   }; // System.Xml.Serialization.IXmlSerializable
   #pragma pack(pop)
 }
@@ -51,7 +51,7 @@ namespace System::Xml::Serialization {
 // Writing MetadataGetter for method: System::Xml::Serialization::IXmlSerializable::GetSchema
 // Il2CppName: GetSchema
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Schema::XmlSchema* (System::Xml::Serialization::IXmlSerializable::*)()>(&System::Xml::Serialization::IXmlSerializable::GetSchema)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchema* (System::Xml::Serialization::IXmlSerializable::*)()>(&System::Xml::Serialization::IXmlSerializable::GetSchema)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::IXmlSerializable*), "GetSchema", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -59,7 +59,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Serialization::IXmlSerializable::ReadXml
 // Il2CppName: ReadXml
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Serialization::IXmlSerializable::*)(System::Xml::XmlReader*)>(&System::Xml::Serialization::IXmlSerializable::ReadXml)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Serialization::IXmlSerializable::*)(::System::Xml::XmlReader*)>(&System::Xml::Serialization::IXmlSerializable::ReadXml)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlReader")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::IXmlSerializable*), "ReadXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader});
@@ -68,7 +68,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Serialization::IXmlSerializable::WriteXml
 // Il2CppName: WriteXml
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Serialization::IXmlSerializable::*)(System::Xml::XmlWriter*)>(&System::Xml::Serialization::IXmlSerializable::WriteXml)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Serialization::IXmlSerializable::*)(::System::Xml::XmlWriter*)>(&System::Xml::Serialization::IXmlSerializable::WriteXml)> {
   static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlWriter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::IXmlSerializable*), "WriteXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{writer});

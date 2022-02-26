@@ -18,8 +18,8 @@ namespace UnityEngine {
   class ThreadAndSerializationSafeAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ThreadAndSerializationSafeAttribute);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ThreadAndSerializationSafeAttribute*, "UnityEngine", "ThreadAndSerializationSafeAttribute");
+NEED_NO_BOX(::UnityEngine::ThreadAndSerializationSafeAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ThreadAndSerializationSafeAttribute*, "UnityEngine", "ThreadAndSerializationSafeAttribute");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -28,7 +28,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [VisibleToOtherModulesAttribute] Offset: 11A0F8C
   // [AttributeUsageAttribute] Offset: 11A0F8C
-  class ThreadAndSerializationSafeAttribute : public System::Attribute {
+  class ThreadAndSerializationSafeAttribute : public ::System::Attribute {
     public:
     // public System.Void .ctor()
     // Offset: 0x2A57738
@@ -37,7 +37,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ThreadAndSerializationSafeAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ThreadAndSerializationSafeAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ThreadAndSerializationSafeAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ThreadAndSerializationSafeAttribute*, creationType>()));
     }
   }; // UnityEngine.ThreadAndSerializationSafeAttribute

@@ -19,8 +19,8 @@ namespace System::Net {
   class CredentialCache;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::CredentialCache);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::CredentialCache*, "System.Net", "CredentialCache");
+NEED_NO_BOX(::System::Net::CredentialCache);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::CredentialCache*, "System.Net", "CredentialCache");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x10
@@ -31,7 +31,7 @@ namespace System::Net {
     public:
     // static public System.Net.ICredentials get_DefaultCredentials()
     // Offset: 0x1AB06D4
-    static System::Net::ICredentials* get_DefaultCredentials();
+    static ::System::Net::ICredentials* get_DefaultCredentials();
   }; // System.Net.CredentialCache
   #pragma pack(pop)
 }
@@ -39,7 +39,7 @@ namespace System::Net {
 // Writing MetadataGetter for method: System::Net::CredentialCache::get_DefaultCredentials
 // Il2CppName: get_DefaultCredentials
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::ICredentials* (*)()>(&System::Net::CredentialCache::get_DefaultCredentials)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::ICredentials* (*)()>(&System::Net::CredentialCache::get_DefaultCredentials)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::CredentialCache*), "get_DefaultCredentials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

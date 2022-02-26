@@ -9,8 +9,8 @@
 #include "System/ComponentModel/TypeConverter.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::ComponentModel::TypeConverter::StandardValuesCollection);
-DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::TypeConverter::StandardValuesCollection*, "System.ComponentModel", "TypeConverter/StandardValuesCollection");
+NEED_NO_BOX(::System::ComponentModel::TypeConverter::StandardValuesCollection);
+DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::TypeConverter::StandardValuesCollection*, "System.ComponentModel", "TypeConverter/StandardValuesCollection");
 // Type namespace: System.ComponentModel
 namespace System::ComponentModel {
   // Size: 0x10

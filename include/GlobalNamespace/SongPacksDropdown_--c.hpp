@@ -22,8 +22,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SongPacksDropdown::$$c);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPacksDropdown::$$c*, "", "SongPacksDropdown/<>c");
+NEED_NO_BOX(::GlobalNamespace::SongPacksDropdown::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SongPacksDropdown::$$c*, "", "SongPacksDropdown/<>c");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -34,13 +34,13 @@ namespace GlobalNamespace {
   class SongPacksDropdown::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly SongPacksDropdown/<>c <>9
-    static GlobalNamespace::SongPacksDropdown::$$c* _get_$$9();
+    static ::GlobalNamespace::SongPacksDropdown::$$c* _get_$$9();
     // Set static field: static public readonly SongPacksDropdown/<>c <>9
-    static void _set_$$9(GlobalNamespace::SongPacksDropdown::$$c* value);
+    static void _set_$$9(::GlobalNamespace::SongPacksDropdown::$$c* value);
     // Get static field: static public System.Func`2<System.String,System.String> <>9__7_0
-    static System::Func_2<::StringW, ::StringW>* _get_$$9__7_0();
+    static ::System::Func_2<::StringW, ::StringW>* _get_$$9__7_0();
     // Set static field: static public System.Func`2<System.String,System.String> <>9__7_0
-    static void _set_$$9__7_0(System::Func_2<::StringW, ::StringW>* value);
+    static void _set_$$9__7_0(::System::Func_2<::StringW, ::StringW>* value);
     // static private System.Void .cctor()
     // Offset: 0x13D29D0
     static void _cctor();
@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongPacksDropdown::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SongPacksDropdown::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SongPacksDropdown::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SongPacksDropdown::$$c*, creationType>()));
     }
   }; // SongPacksDropdown/<>c

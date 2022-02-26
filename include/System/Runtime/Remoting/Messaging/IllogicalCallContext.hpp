@@ -27,8 +27,8 @@ namespace System::Runtime::Remoting::Messaging {
   class IllogicalCallContext;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Remoting::Messaging::IllogicalCallContext);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::IllogicalCallContext*, "System.Runtime.Remoting.Messaging", "IllogicalCallContext");
+NEED_NO_BOX(::System::Runtime::Remoting::Messaging::IllogicalCallContext);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Messaging::IllogicalCallContext*, "System.Runtime.Remoting.Messaging", "IllogicalCallContext");
 // Type namespace: System.Runtime.Remoting.Messaging
 namespace System::Runtime::Remoting::Messaging {
   // Size: 0x20
@@ -37,7 +37,7 @@ namespace System::Runtime::Remoting::Messaging {
   // [TokenAttribute] Offset: FFFFFFFF
   class IllogicalCallContext : public ::Il2CppObject {
     public:
-    // Nested type: System::Runtime::Remoting::Messaging::IllogicalCallContext::Reader
+    // Nested type: ::System::Runtime::Remoting::Messaging::IllogicalCallContext::Reader
     struct Reader;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -51,9 +51,9 @@ namespace System::Runtime::Remoting::Messaging {
     // private System.Collections.Hashtable m_Datastore
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Hashtable* m_Datastore;
+    ::System::Collections::Hashtable* m_Datastore;
     // Field size check
-    static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
+    static_assert(sizeof(::System::Collections::Hashtable*) == 0x8);
     // private System.Object m_HostContext
     // Size: 0x8
     // Offset: 0x18
@@ -62,12 +62,12 @@ namespace System::Runtime::Remoting::Messaging {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     public:
     // Get instance field reference: private System.Collections.Hashtable m_Datastore
-    System::Collections::Hashtable*& dyn_m_Datastore();
+    ::System::Collections::Hashtable*& dyn_m_Datastore();
     // Get instance field reference: private System.Object m_HostContext
     ::Il2CppObject*& dyn_m_HostContext();
     // private System.Collections.Hashtable get_Datastore()
     // Offset: 0x1B8B418
-    System::Collections::Hashtable* get_Datastore();
+    ::System::Collections::Hashtable* get_Datastore();
     // System.Object get_HostContext()
     // Offset: 0x1B8B484
     ::Il2CppObject* get_HostContext();
@@ -88,14 +88,14 @@ namespace System::Runtime::Remoting::Messaging {
     void SetData(::StringW name, ::Il2CppObject* data);
     // public System.Runtime.Remoting.Messaging.IllogicalCallContext CreateCopy()
     // Offset: 0x1B8B4FC
-    System::Runtime::Remoting::Messaging::IllogicalCallContext* CreateCopy();
+    ::System::Runtime::Remoting::Messaging::IllogicalCallContext* CreateCopy();
     // public System.Void .ctor()
     // Offset: 0x1B8B754
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IllogicalCallContext* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::IllogicalCallContext::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::Messaging::IllogicalCallContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IllogicalCallContext*, creationType>()));
     }
   }; // System.Runtime.Remoting.Messaging.IllogicalCallContext
@@ -107,7 +107,7 @@ namespace System::Runtime::Remoting::Messaging {
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::IllogicalCallContext::get_Datastore
 // Il2CppName: get_Datastore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Hashtable* (System::Runtime::Remoting::Messaging::IllogicalCallContext::*)()>(&System::Runtime::Remoting::Messaging::IllogicalCallContext::get_Datastore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Hashtable* (System::Runtime::Remoting::Messaging::IllogicalCallContext::*)()>(&System::Runtime::Remoting::Messaging::IllogicalCallContext::get_Datastore)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::IllogicalCallContext*), "get_Datastore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -168,7 +168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::IllogicalCallContext::CreateCopy
 // Il2CppName: CreateCopy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IllogicalCallContext* (System::Runtime::Remoting::Messaging::IllogicalCallContext::*)()>(&System::Runtime::Remoting::Messaging::IllogicalCallContext::CreateCopy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::IllogicalCallContext* (System::Runtime::Remoting::Messaging::IllogicalCallContext::*)()>(&System::Runtime::Remoting::Messaging::IllogicalCallContext::CreateCopy)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::IllogicalCallContext*), "CreateCopy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

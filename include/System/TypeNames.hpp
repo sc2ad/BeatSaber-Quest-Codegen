@@ -17,8 +17,8 @@ namespace System {
   class TypeNames;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::TypeNames);
-DEFINE_IL2CPP_ARG_TYPE(System::TypeNames*, "System", "TypeNames");
+NEED_NO_BOX(::System::TypeNames);
+DEFINE_IL2CPP_ARG_TYPE(::System::TypeNames*, "System", "TypeNames");
 // Type namespace: System
 namespace System {
   // Size: 0x10
@@ -27,7 +27,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class TypeNames : public ::Il2CppObject {
     public:
-    // Nested type: System::TypeNames::ATypeName
+    // Nested type: ::System::TypeNames::ATypeName
     class ATypeName;
   }; // System.TypeNames
   #pragma pack(pop)

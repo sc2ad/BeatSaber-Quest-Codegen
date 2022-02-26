@@ -22,8 +22,8 @@ namespace Mono::Unity {
   class UnityTls;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Unity::UnityTls);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls*, "Mono.Unity", "UnityTls");
+NEED_NO_BOX(::Mono::Unity::UnityTls);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Unity::UnityTls*, "Mono.Unity", "UnityTls");
 // Type namespace: Mono.Unity
 namespace Mono::Unity {
   // Size: 0x10
@@ -32,61 +32,61 @@ namespace Mono::Unity {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnityTls : public ::Il2CppObject {
     public:
-    // Nested type: Mono::Unity::UnityTls::unitytls_error_code
+    // Nested type: ::Mono::Unity::UnityTls::unitytls_error_code
     struct unitytls_error_code;
-    // Nested type: Mono::Unity::UnityTls::unitytls_errorstate
+    // Nested type: ::Mono::Unity::UnityTls::unitytls_errorstate
     struct unitytls_errorstate;
-    // Nested type: Mono::Unity::UnityTls::unitytls_key
+    // Nested type: ::Mono::Unity::UnityTls::unitytls_key
     struct unitytls_key;
-    // Nested type: Mono::Unity::UnityTls::unitytls_key_ref
+    // Nested type: ::Mono::Unity::UnityTls::unitytls_key_ref
     struct unitytls_key_ref;
-    // Nested type: Mono::Unity::UnityTls::unitytls_x509_ref
+    // Nested type: ::Mono::Unity::UnityTls::unitytls_x509_ref
     struct unitytls_x509_ref;
-    // Nested type: Mono::Unity::UnityTls::unitytls_x509list
+    // Nested type: ::Mono::Unity::UnityTls::unitytls_x509list
     struct unitytls_x509list;
-    // Nested type: Mono::Unity::UnityTls::unitytls_x509list_ref
+    // Nested type: ::Mono::Unity::UnityTls::unitytls_x509list_ref
     struct unitytls_x509list_ref;
-    // Nested type: Mono::Unity::UnityTls::unitytls_x509verify_result
+    // Nested type: ::Mono::Unity::UnityTls::unitytls_x509verify_result
     struct unitytls_x509verify_result;
-    // Nested type: Mono::Unity::UnityTls::unitytls_x509verify_callback
+    // Nested type: ::Mono::Unity::UnityTls::unitytls_x509verify_callback
     class unitytls_x509verify_callback;
-    // Nested type: Mono::Unity::UnityTls::unitytls_tlsctx
+    // Nested type: ::Mono::Unity::UnityTls::unitytls_tlsctx
     struct unitytls_tlsctx;
-    // Nested type: Mono::Unity::UnityTls::unitytls_x509name
+    // Nested type: ::Mono::Unity::UnityTls::unitytls_x509name
     struct unitytls_x509name;
-    // Nested type: Mono::Unity::UnityTls::unitytls_ciphersuite
+    // Nested type: ::Mono::Unity::UnityTls::unitytls_ciphersuite
     struct unitytls_ciphersuite;
-    // Nested type: Mono::Unity::UnityTls::unitytls_protocol
+    // Nested type: ::Mono::Unity::UnityTls::unitytls_protocol
     struct unitytls_protocol;
-    // Nested type: Mono::Unity::UnityTls::unitytls_tlsctx_protocolrange
+    // Nested type: ::Mono::Unity::UnityTls::unitytls_tlsctx_protocolrange
     struct unitytls_tlsctx_protocolrange;
-    // Nested type: Mono::Unity::UnityTls::unitytls_tlsctx_write_callback
+    // Nested type: ::Mono::Unity::UnityTls::unitytls_tlsctx_write_callback
     class unitytls_tlsctx_write_callback;
-    // Nested type: Mono::Unity::UnityTls::unitytls_tlsctx_read_callback
+    // Nested type: ::Mono::Unity::UnityTls::unitytls_tlsctx_read_callback
     class unitytls_tlsctx_read_callback;
-    // Nested type: Mono::Unity::UnityTls::unitytls_tlsctx_trace_callback
+    // Nested type: ::Mono::Unity::UnityTls::unitytls_tlsctx_trace_callback
     class unitytls_tlsctx_trace_callback;
-    // Nested type: Mono::Unity::UnityTls::unitytls_tlsctx_certificate_callback
+    // Nested type: ::Mono::Unity::UnityTls::unitytls_tlsctx_certificate_callback
     class unitytls_tlsctx_certificate_callback;
-    // Nested type: Mono::Unity::UnityTls::unitytls_tlsctx_x509verify_callback
+    // Nested type: ::Mono::Unity::UnityTls::unitytls_tlsctx_x509verify_callback
     class unitytls_tlsctx_x509verify_callback;
-    // Nested type: Mono::Unity::UnityTls::unitytls_tlsctx_callbacks
+    // Nested type: ::Mono::Unity::UnityTls::unitytls_tlsctx_callbacks
     struct unitytls_tlsctx_callbacks;
-    // Nested type: Mono::Unity::UnityTls::unitytls_interface_struct
+    // Nested type: ::Mono::Unity::UnityTls::unitytls_interface_struct
     class unitytls_interface_struct;
     // Get static field: static private Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct marshalledInterface
-    static Mono::Unity::UnityTls::unitytls_interface_struct* _get_marshalledInterface();
+    static ::Mono::Unity::UnityTls::unitytls_interface_struct* _get_marshalledInterface();
     // Set static field: static private Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct marshalledInterface
-    static void _set_marshalledInterface(Mono::Unity::UnityTls::unitytls_interface_struct* value);
+    static void _set_marshalledInterface(::Mono::Unity::UnityTls::unitytls_interface_struct* value);
     // static public System.Boolean get_IsSupported()
     // Offset: 0x1A35DD0
     static bool get_IsSupported();
     // static public Mono.Unity.UnityTls/Mono.Unity.unitytls_interface_struct get_NativeInterface()
     // Offset: 0x1A36D10
-    static Mono::Unity::UnityTls::unitytls_interface_struct* get_NativeInterface();
+    static ::Mono::Unity::UnityTls::unitytls_interface_struct* get_NativeInterface();
     // static private System.IntPtr GetUnityTlsInterface()
     // Offset: 0x1A379BC
-    static System::IntPtr GetUnityTlsInterface();
+    static ::System::IntPtr GetUnityTlsInterface();
   }; // Mono.Unity.UnityTls
   #pragma pack(pop)
 }
@@ -102,7 +102,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Writing MetadataGetter for method: Mono::Unity::UnityTls::get_NativeInterface
 // Il2CppName: get_NativeInterface
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Unity::UnityTls::unitytls_interface_struct* (*)()>(&Mono::Unity::UnityTls::get_NativeInterface)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Unity::UnityTls::unitytls_interface_struct* (*)()>(&Mono::Unity::UnityTls::get_NativeInterface)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTls*), "get_NativeInterface", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -110,7 +110,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Unity
 // Writing MetadataGetter for method: Mono::Unity::UnityTls::GetUnityTlsInterface
 // Il2CppName: GetUnityTlsInterface
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&Mono::Unity::UnityTls::GetUnityTlsInterface)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&Mono::Unity::UnityTls::GetUnityTlsInterface)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTls*), "GetUnityTlsInterface", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

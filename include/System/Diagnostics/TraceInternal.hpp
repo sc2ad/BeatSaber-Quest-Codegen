@@ -20,8 +20,8 @@ namespace System::Diagnostics {
   class TraceInternal;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Diagnostics::TraceInternal);
-DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::TraceInternal*, "System.Diagnostics", "TraceInternal");
+NEED_NO_BOX(::System::Diagnostics::TraceInternal);
+DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::TraceInternal*, "System.Diagnostics", "TraceInternal");
 // Type namespace: System.Diagnostics
 namespace System::Diagnostics {
   // Size: 0x10
@@ -35,9 +35,9 @@ namespace System::Diagnostics {
     // Set static field: static private System.String appName
     static void _set_appName(::StringW value);
     // Get static field: static private System.Diagnostics.TraceListenerCollection listeners
-    static System::Diagnostics::TraceListenerCollection* _get_listeners();
+    static ::System::Diagnostics::TraceListenerCollection* _get_listeners();
     // Set static field: static private System.Diagnostics.TraceListenerCollection listeners
-    static void _set_listeners(System::Diagnostics::TraceListenerCollection* value);
+    static void _set_listeners(::System::Diagnostics::TraceListenerCollection* value);
     // Get static field: static private System.Boolean autoFlush
     static bool _get_autoFlush();
     // Set static field: static private System.Boolean autoFlush
@@ -60,7 +60,7 @@ namespace System::Diagnostics {
     static void _set_critSec(::Il2CppObject* value);
     // static public System.Diagnostics.TraceListenerCollection get_Listeners()
     // Offset: 0x1EDA9FC
-    static System::Diagnostics::TraceListenerCollection* get_Listeners();
+    static ::System::Diagnostics::TraceListenerCollection* get_Listeners();
     // static public System.Boolean get_AutoFlush()
     // Offset: 0x1EDAE98
     static bool get_AutoFlush();
@@ -92,7 +92,7 @@ namespace System::Diagnostics {
 // Writing MetadataGetter for method: System::Diagnostics::TraceInternal::get_Listeners
 // Il2CppName: get_Listeners
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Diagnostics::TraceListenerCollection* (*)()>(&System::Diagnostics::TraceInternal::get_Listeners)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Diagnostics::TraceListenerCollection* (*)()>(&System::Diagnostics::TraceInternal::get_Listeners)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::TraceInternal*), "get_Listeners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

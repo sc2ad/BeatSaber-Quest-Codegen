@@ -33,8 +33,8 @@ namespace System::Collections {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Dynamic::ExpandoObject::KeyCollection);
-DEFINE_IL2CPP_ARG_TYPE(System::Dynamic::ExpandoObject::KeyCollection*, "System.Dynamic", "ExpandoObject/KeyCollection");
+NEED_NO_BOX(::System::Dynamic::ExpandoObject::KeyCollection);
+DEFINE_IL2CPP_ARG_TYPE(::System::Dynamic::ExpandoObject::KeyCollection*, "System.Dynamic", "ExpandoObject/KeyCollection");
 // Type namespace: System.Dynamic
 namespace System::Dynamic {
   // Size: 0x28
@@ -43,9 +43,9 @@ namespace System::Dynamic {
   // [TokenAttribute] Offset: FFFFFFFF
   // [DebuggerTypeProxyAttribute] Offset: 119DF3C
   // [DebuggerDisplayAttribute] Offset: 119DF3C
-  class ExpandoObject::KeyCollection : public ::Il2CppObject/*, public System::Collections::Generic::ICollection_1<::StringW>*/ {
+  class ExpandoObject::KeyCollection : public ::Il2CppObject/*, public ::System::Collections::Generic::ICollection_1<::StringW>*/ {
     public:
-    // Nested type: System::Dynamic::ExpandoObject::KeyCollection::$GetEnumerator$d__15
+    // Nested type: ::System::Dynamic::ExpandoObject::KeyCollection::$GetEnumerator$d__15
     class $GetEnumerator$d__15;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -59,9 +59,9 @@ namespace System::Dynamic {
     // private readonly System.Dynamic.ExpandoObject _expando
     // Size: 0x8
     // Offset: 0x10
-    System::Dynamic::ExpandoObject* expando;
+    ::System::Dynamic::ExpandoObject* expando;
     // Field size check
-    static_assert(sizeof(System::Dynamic::ExpandoObject*) == 0x8);
+    static_assert(sizeof(::System::Dynamic::ExpandoObject*) == 0x8);
     // private readonly System.Int32 _expandoVersion
     // Size: 0x4
     // Offset: 0x18
@@ -77,22 +77,22 @@ namespace System::Dynamic {
     // private readonly System.Dynamic.ExpandoObject/System.Dynamic.ExpandoData _expandoData
     // Size: 0x8
     // Offset: 0x20
-    System::Dynamic::ExpandoObject::ExpandoData* expandoData;
+    ::System::Dynamic::ExpandoObject::ExpandoData* expandoData;
     // Field size check
-    static_assert(sizeof(System::Dynamic::ExpandoObject::ExpandoData*) == 0x8);
+    static_assert(sizeof(::System::Dynamic::ExpandoObject::ExpandoData*) == 0x8);
     public:
-    // Creating interface conversion operator: operator System::Collections::Generic::ICollection_1<::StringW>
-    operator System::Collections::Generic::ICollection_1<::StringW>() noexcept {
-      return *reinterpret_cast<System::Collections::Generic::ICollection_1<::StringW>*>(this);
+    // Creating interface conversion operator: operator ::System::Collections::Generic::ICollection_1<::StringW>
+    operator ::System::Collections::Generic::ICollection_1<::StringW>() noexcept {
+      return *reinterpret_cast<::System::Collections::Generic::ICollection_1<::StringW>*>(this);
     }
     // Get instance field reference: private readonly System.Dynamic.ExpandoObject _expando
-    System::Dynamic::ExpandoObject*& dyn__expando();
+    ::System::Dynamic::ExpandoObject*& dyn__expando();
     // Get instance field reference: private readonly System.Int32 _expandoVersion
     int& dyn__expandoVersion();
     // Get instance field reference: private readonly System.Int32 _expandoCount
     int& dyn__expandoCount();
     // Get instance field reference: private readonly System.Dynamic.ExpandoObject/System.Dynamic.ExpandoData _expandoData
-    System::Dynamic::ExpandoObject::ExpandoData*& dyn__expandoData();
+    ::System::Dynamic::ExpandoObject::ExpandoData*& dyn__expandoData();
     // public System.Int32 get_Count()
     // Offset: 0x15EE37C
     int get_Count();
@@ -102,8 +102,8 @@ namespace System::Dynamic {
     // System.Void .ctor(System.Dynamic.ExpandoObject expando)
     // Offset: 0x15ECC10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ExpandoObject::KeyCollection* New_ctor(System::Dynamic::ExpandoObject* expando) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Dynamic::ExpandoObject::KeyCollection::.ctor");
+    static ExpandoObject::KeyCollection* New_ctor(::System::Dynamic::ExpandoObject* expando) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Dynamic::ExpandoObject::KeyCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExpandoObject::KeyCollection*, creationType>(expando)));
     }
     // private System.Void CheckVersion()
@@ -126,13 +126,13 @@ namespace System::Dynamic {
     bool Remove(::StringW item);
     // public System.Collections.Generic.IEnumerator`1<System.String> GetEnumerator()
     // Offset: 0x15EE3EC
-    System::Collections::Generic::IEnumerator_1<::StringW>* GetEnumerator();
+    ::System::Collections::Generic::IEnumerator_1<::StringW>* GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
     // Offset: 0x15EE488
-    System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
+    ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // System.Dynamic.ExpandoObject/System.Dynamic.KeyCollection
   #pragma pack(pop)
-  static check_size<sizeof(ExpandoObject::KeyCollection), 32 + sizeof(System::Dynamic::ExpandoObject::ExpandoData*)> __System_Dynamic_ExpandoObject_KeyCollectionSizeCheck;
+  static check_size<sizeof(ExpandoObject::KeyCollection), 32 + sizeof(::System::Dynamic::ExpandoObject::ExpandoData*)> __System_Dynamic_ExpandoObject_KeyCollectionSizeCheck;
   static_assert(sizeof(ExpandoObject::KeyCollection) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -212,7 +212,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Dynamic::ExpandoObject::KeyCollection::GetEnumerator
 // Il2CppName: GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerator_1<::StringW>* (System::Dynamic::ExpandoObject::KeyCollection::*)()>(&System::Dynamic::ExpandoObject::KeyCollection::GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerator_1<::StringW>* (System::Dynamic::ExpandoObject::KeyCollection::*)()>(&System::Dynamic::ExpandoObject::KeyCollection::GetEnumerator)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Dynamic::ExpandoObject::KeyCollection*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -220,7 +220,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::Dynamic::ExpandoObject::KeyCollection::System_Collections_IEnumerable_GetEnumerator
 // Il2CppName: System.Collections.IEnumerable.GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (System::Dynamic::ExpandoObject::KeyCollection::*)()>(&System::Dynamic::ExpandoObject::KeyCollection::System_Collections_IEnumerable_GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (System::Dynamic::ExpandoObject::KeyCollection::*)()>(&System::Dynamic::ExpandoObject::KeyCollection::System_Collections_IEnumerable_GetEnumerator)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Dynamic::ExpandoObject::KeyCollection*), "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

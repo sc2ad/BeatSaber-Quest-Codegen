@@ -15,8 +15,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Schema::XsdBuilder::XsdAttributeEntry);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::XsdBuilder::XsdAttributeEntry*, "System.Xml.Schema", "XsdBuilder/XsdAttributeEntry");
+NEED_NO_BOX(::System::Xml::Schema::XsdBuilder::XsdAttributeEntry);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XsdBuilder::XsdAttributeEntry*, "System.Xml.Schema", "XsdBuilder/XsdAttributeEntry");
 // Type namespace: System.Xml.Schema
 namespace System::Xml::Schema {
   // Size: 0x20
@@ -37,32 +37,32 @@ namespace System::Xml::Schema {
     // public System.Xml.Schema.SchemaNames/System.Xml.Schema.Token Attribute
     // Size: 0x4
     // Offset: 0x10
-    System::Xml::Schema::SchemaNames::Token Attribute;
+    ::System::Xml::Schema::SchemaNames::Token Attribute;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::SchemaNames::Token) == 0x4);
+    static_assert(sizeof(::System::Xml::Schema::SchemaNames::Token) == 0x4);
     // Padding between fields: Attribute and: BuildFunc
     char __padding0[0x4] = {};
     // public System.Xml.Schema.XsdBuilder/System.Xml.Schema.XsdBuildFunction BuildFunc
     // Size: 0x8
     // Offset: 0x18
-    System::Xml::Schema::XsdBuilder::XsdBuildFunction* BuildFunc;
+    ::System::Xml::Schema::XsdBuilder::XsdBuildFunction* BuildFunc;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::XsdBuilder::XsdBuildFunction*) == 0x8);
+    static_assert(sizeof(::System::Xml::Schema::XsdBuilder::XsdBuildFunction*) == 0x8);
     public:
     // Get instance field reference: public System.Xml.Schema.SchemaNames/System.Xml.Schema.Token Attribute
-    System::Xml::Schema::SchemaNames::Token& dyn_Attribute();
+    ::System::Xml::Schema::SchemaNames::Token& dyn_Attribute();
     // Get instance field reference: public System.Xml.Schema.XsdBuilder/System.Xml.Schema.XsdBuildFunction BuildFunc
-    System::Xml::Schema::XsdBuilder::XsdBuildFunction*& dyn_BuildFunc();
+    ::System::Xml::Schema::XsdBuilder::XsdBuildFunction*& dyn_BuildFunc();
     // public System.Void .ctor(System.Xml.Schema.SchemaNames/System.Xml.Schema.Token a, System.Xml.Schema.XsdBuilder/System.Xml.Schema.XsdBuildFunction build)
     // Offset: 0x193B620
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XsdBuilder::XsdAttributeEntry* New_ctor(System::Xml::Schema::SchemaNames::Token a, System::Xml::Schema::XsdBuilder::XsdBuildFunction* build) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Schema::XsdBuilder::XsdAttributeEntry::.ctor");
+    static XsdBuilder::XsdAttributeEntry* New_ctor(::System::Xml::Schema::SchemaNames::Token a, ::System::Xml::Schema::XsdBuilder::XsdBuildFunction* build) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XsdBuilder::XsdAttributeEntry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XsdBuilder::XsdAttributeEntry*, creationType>(a, build)));
     }
   }; // System.Xml.Schema.XsdBuilder/System.Xml.Schema.XsdAttributeEntry
   #pragma pack(pop)
-  static check_size<sizeof(XsdBuilder::XsdAttributeEntry), 24 + sizeof(System::Xml::Schema::XsdBuilder::XsdBuildFunction*)> __System_Xml_Schema_XsdBuilder_XsdAttributeEntrySizeCheck;
+  static check_size<sizeof(XsdBuilder::XsdAttributeEntry), 24 + sizeof(::System::Xml::Schema::XsdBuilder::XsdBuildFunction*)> __System_Xml_Schema_XsdBuilder_XsdAttributeEntrySizeCheck;
   static_assert(sizeof(XsdBuilder::XsdAttributeEntry) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

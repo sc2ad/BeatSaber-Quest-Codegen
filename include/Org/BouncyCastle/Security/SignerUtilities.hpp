@@ -30,8 +30,8 @@ namespace Org::BouncyCastle::Security {
   class SignerUtilities;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Security::SignerUtilities);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::SignerUtilities*, "Org.BouncyCastle.Security", "SignerUtilities");
+NEED_NO_BOX(::Org::BouncyCastle::Security::SignerUtilities);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Security::SignerUtilities*, "Org.BouncyCastle.Security", "SignerUtilities");
 // Type namespace: Org.BouncyCastle.Security
 namespace Org::BouncyCastle::Security {
   // Size: 0x10
@@ -41,22 +41,22 @@ namespace Org::BouncyCastle::Security {
   class SignerUtilities : public ::Il2CppObject {
     public:
     // Get static field: static readonly System.Collections.IDictionary algorithms
-    static System::Collections::IDictionary* _get_algorithms();
+    static ::System::Collections::IDictionary* _get_algorithms();
     // Set static field: static readonly System.Collections.IDictionary algorithms
-    static void _set_algorithms(System::Collections::IDictionary* value);
+    static void _set_algorithms(::System::Collections::IDictionary* value);
     // Get static field: static readonly System.Collections.IDictionary oids
-    static System::Collections::IDictionary* _get_oids();
+    static ::System::Collections::IDictionary* _get_oids();
     // Set static field: static readonly System.Collections.IDictionary oids
-    static void _set_oids(System::Collections::IDictionary* value);
+    static void _set_oids(::System::Collections::IDictionary* value);
     // static private System.Void .cctor()
     // Offset: 0x1738FDC
     static void _cctor();
     // static public Org.BouncyCastle.Crypto.ISigner GetSigner(System.String algorithm)
     // Offset: 0x1743E1C
-    static Org::BouncyCastle::Crypto::ISigner* GetSigner(::StringW algorithm);
+    static ::Org::BouncyCastle::Crypto::ISigner* GetSigner(::StringW algorithm);
     // static public System.String GetEncodingName(Org.BouncyCastle.Asn1.DerObjectIdentifier oid)
     // Offset: 0x1744C9C
-    static ::StringW GetEncodingName(Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
+    static ::StringW GetEncodingName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
   }; // Org.BouncyCastle.Security.SignerUtilities
   #pragma pack(pop)
 }
@@ -72,7 +72,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::SignerUtilities::GetSigner
 // Il2CppName: GetSigner
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::ISigner* (*)(::StringW)>(&Org::BouncyCastle::Security::SignerUtilities::GetSigner)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::ISigner* (*)(::StringW)>(&Org::BouncyCastle::Security::SignerUtilities::GetSigner)> {
   static const MethodInfo* get() {
     static auto* algorithm = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::SignerUtilities*), "GetSigner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{algorithm});
@@ -81,7 +81,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::SignerUtilities::GetEncodingName
 // Il2CppName: GetEncodingName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&Org::BouncyCastle::Security::SignerUtilities::GetEncodingName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&Org::BouncyCastle::Security::SignerUtilities::GetEncodingName)> {
   static const MethodInfo* get() {
     static auto* oid = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1", "DerObjectIdentifier")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::SignerUtilities*), "GetEncodingName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{oid});

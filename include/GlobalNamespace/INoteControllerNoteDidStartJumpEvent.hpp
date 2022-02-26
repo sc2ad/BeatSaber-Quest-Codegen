@@ -18,8 +18,8 @@ namespace GlobalNamespace {
   class INoteControllerNoteDidStartJumpEvent;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::INoteControllerNoteDidStartJumpEvent);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::INoteControllerNoteDidStartJumpEvent*, "", "INoteControllerNoteDidStartJumpEvent");
+NEED_NO_BOX(::GlobalNamespace::INoteControllerNoteDidStartJumpEvent);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::INoteControllerNoteDidStartJumpEvent*, "", "INoteControllerNoteDidStartJumpEvent");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -30,7 +30,7 @@ namespace GlobalNamespace {
     public:
     // public System.Void HandleNoteControllerNoteDidStartJump(NoteController noteController)
     // Offset: 0xFFFFFFFF
-    void HandleNoteControllerNoteDidStartJump(GlobalNamespace::NoteController* noteController);
+    void HandleNoteControllerNoteDidStartJump(::GlobalNamespace::NoteController* noteController);
   }; // INoteControllerNoteDidStartJumpEvent
   #pragma pack(pop)
 }
@@ -38,7 +38,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::INoteControllerNoteDidStartJumpEvent::HandleNoteControllerNoteDidStartJump
 // Il2CppName: HandleNoteControllerNoteDidStartJump
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::INoteControllerNoteDidStartJumpEvent::*)(GlobalNamespace::NoteController*)>(&GlobalNamespace::INoteControllerNoteDidStartJumpEvent::HandleNoteControllerNoteDidStartJump)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::INoteControllerNoteDidStartJumpEvent::*)(::GlobalNamespace::NoteController*)>(&GlobalNamespace::INoteControllerNoteDidStartJumpEvent::HandleNoteControllerNoteDidStartJump)> {
   static const MethodInfo* get() {
     static auto* noteController = &::il2cpp_utils::GetClassFromName("", "NoteController")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INoteControllerNoteDidStartJumpEvent*), "HandleNoteControllerNoteDidStartJump", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteController});

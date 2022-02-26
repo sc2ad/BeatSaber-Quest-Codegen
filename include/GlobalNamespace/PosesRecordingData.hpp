@@ -29,8 +29,8 @@ namespace GlobalNamespace {
   class PosesRecordingData;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PosesRecordingData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PosesRecordingData*, "", "PosesRecordingData");
+NEED_NO_BOX(::GlobalNamespace::PosesRecordingData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PosesRecordingData*, "", "PosesRecordingData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x28
@@ -39,9 +39,9 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PosesRecordingData : public ::Il2CppObject {
     public:
-    // Nested type: GlobalNamespace::PosesRecordingData::TransformsKeyframe
+    // Nested type: ::GlobalNamespace::PosesRecordingData::TransformsKeyframe
     class TransformsKeyframe;
-    // Nested type: GlobalNamespace::PosesRecordingData::ExternalCameraCalibration
+    // Nested type: ::GlobalNamespace::PosesRecordingData::ExternalCameraCalibration
     class ExternalCameraCalibration;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -61,42 +61,42 @@ namespace GlobalNamespace {
     // public readonly System.Collections.Generic.List`1<PosesRecordingData/TransformsKeyframe> keyframes
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::Generic::List_1<GlobalNamespace::PosesRecordingData::TransformsKeyframe*>* keyframes;
+    ::System::Collections::Generic::List_1<::GlobalNamespace::PosesRecordingData::TransformsKeyframe*>* keyframes;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::PosesRecordingData::TransformsKeyframe*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::GlobalNamespace::PosesRecordingData::TransformsKeyframe*>*) == 0x8);
     // public readonly PosesRecordingData/ExternalCameraCalibration externalCameraCalibration
     // Size: 0x8
     // Offset: 0x20
-    GlobalNamespace::PosesRecordingData::ExternalCameraCalibration* externalCameraCalibration;
+    ::GlobalNamespace::PosesRecordingData::ExternalCameraCalibration* externalCameraCalibration;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::PosesRecordingData::ExternalCameraCalibration*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::PosesRecordingData::ExternalCameraCalibration*) == 0x8);
     public:
     // Get instance field reference: public readonly System.String[] objectIds
     ::ArrayW<::StringW>& dyn_objectIds();
     // Get instance field reference: public readonly System.Collections.Generic.List`1<PosesRecordingData/TransformsKeyframe> keyframes
-    System::Collections::Generic::List_1<GlobalNamespace::PosesRecordingData::TransformsKeyframe*>*& dyn_keyframes();
+    ::System::Collections::Generic::List_1<::GlobalNamespace::PosesRecordingData::TransformsKeyframe*>*& dyn_keyframes();
     // Get instance field reference: public readonly PosesRecordingData/ExternalCameraCalibration externalCameraCalibration
-    GlobalNamespace::PosesRecordingData::ExternalCameraCalibration*& dyn_externalCameraCalibration();
+    ::GlobalNamespace::PosesRecordingData::ExternalCameraCalibration*& dyn_externalCameraCalibration();
     // public System.Void .ctor(System.String[] objectIds, PosesRecordingData/ExternalCameraCalibration externalCameraCalibration)
     // Offset: 0x13E6F3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PosesRecordingData* New_ctor(::ArrayW<::StringW> objectIds, GlobalNamespace::PosesRecordingData::ExternalCameraCalibration* externalCameraCalibration) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PosesRecordingData::.ctor");
+    static PosesRecordingData* New_ctor(::ArrayW<::StringW> objectIds, ::GlobalNamespace::PosesRecordingData::ExternalCameraCalibration* externalCameraCalibration) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PosesRecordingData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PosesRecordingData*, creationType>(objectIds, externalCameraCalibration)));
     }
     // public System.Void .ctor(System.String[] objectIds, System.Collections.Generic.List`1<PosesRecordingData/TransformsKeyframe> keyframes, PosesRecordingData/ExternalCameraCalibration externalCameraCalibration)
     // Offset: 0x13E7130
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PosesRecordingData* New_ctor(::ArrayW<::StringW> objectIds, System::Collections::Generic::List_1<GlobalNamespace::PosesRecordingData::TransformsKeyframe*>* keyframes, GlobalNamespace::PosesRecordingData::ExternalCameraCalibration* externalCameraCalibration) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PosesRecordingData::.ctor");
+    static PosesRecordingData* New_ctor(::ArrayW<::StringW> objectIds, ::System::Collections::Generic::List_1<::GlobalNamespace::PosesRecordingData::TransformsKeyframe*>* keyframes, ::GlobalNamespace::PosesRecordingData::ExternalCameraCalibration* externalCameraCalibration) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PosesRecordingData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PosesRecordingData*, creationType>(objectIds, keyframes, externalCameraCalibration)));
     }
     // public System.Void AddKeyframe(PosesRecordingData/TransformsKeyframe keyframe)
     // Offset: 0x13E700C
-    void AddKeyframe(GlobalNamespace::PosesRecordingData::TransformsKeyframe* keyframe);
+    void AddKeyframe(::GlobalNamespace::PosesRecordingData::TransformsKeyframe* keyframe);
   }; // PosesRecordingData
   #pragma pack(pop)
-  static check_size<sizeof(PosesRecordingData), 32 + sizeof(GlobalNamespace::PosesRecordingData::ExternalCameraCalibration*)> __GlobalNamespace_PosesRecordingDataSizeCheck;
+  static check_size<sizeof(PosesRecordingData), 32 + sizeof(::GlobalNamespace::PosesRecordingData::ExternalCameraCalibration*)> __GlobalNamespace_PosesRecordingDataSizeCheck;
   static_assert(sizeof(PosesRecordingData) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -111,7 +111,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::PosesRecordingData::AddKeyframe
 // Il2CppName: AddKeyframe
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PosesRecordingData::*)(GlobalNamespace::PosesRecordingData::TransformsKeyframe*)>(&GlobalNamespace::PosesRecordingData::AddKeyframe)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PosesRecordingData::*)(::GlobalNamespace::PosesRecordingData::TransformsKeyframe*)>(&GlobalNamespace::PosesRecordingData::AddKeyframe)> {
   static const MethodInfo* get() {
     static auto* keyframe = &::il2cpp_utils::GetClassFromName("", "PosesRecordingData/TransformsKeyframe")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PosesRecordingData*), "AddKeyframe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{keyframe});

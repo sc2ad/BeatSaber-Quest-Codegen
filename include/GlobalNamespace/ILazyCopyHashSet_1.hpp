@@ -16,7 +16,7 @@ namespace GlobalNamespace {
   class ILazyCopyHashSet_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::ILazyCopyHashSet_1, "", "ILazyCopyHashSet`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::ILazyCopyHashSet_1, "", "ILazyCopyHashSet`1");
 // Type namespace: 
 namespace GlobalNamespace {
   // WARNING Size may be invalid!
@@ -28,14 +28,14 @@ namespace GlobalNamespace {
     // public System.Void Add(T listener)
     // Offset: 0xFFFFFFFF
     void Add(T listener) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ILazyCopyHashSet_1::Add");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ILazyCopyHashSet_1::Add");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Add", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(listener)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, listener);
     }
     // public System.Void Remove(T listener)
     // Offset: 0xFFFFFFFF
     void Remove(T listener) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ILazyCopyHashSet_1::Remove");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ILazyCopyHashSet_1::Remove");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Remove", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(listener)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, listener);
     }

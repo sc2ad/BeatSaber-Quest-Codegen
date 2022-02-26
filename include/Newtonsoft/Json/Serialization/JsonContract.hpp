@@ -65,8 +65,8 @@ namespace Newtonsoft::Json::Serialization {
   class JsonContract;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Serialization::JsonContract);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Serialization::JsonContract*, "Newtonsoft.Json.Serialization", "JsonContract");
+NEED_NO_BOX(::Newtonsoft::Json::Serialization::JsonContract);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Serialization::JsonContract*, "Newtonsoft.Json.Serialization", "JsonContract");
 // Type namespace: Newtonsoft.Json.Serialization
 namespace Newtonsoft::Json::Serialization {
   // WARNING Size may be invalid!
@@ -76,9 +76,9 @@ namespace Newtonsoft::Json::Serialization {
   // [NullableAttribute] Offset: 1202908
   class JsonContract : public ::Il2CppObject {
     public:
-    // Nested type: Newtonsoft::Json::Serialization::JsonContract::$$c__DisplayClass57_0
+    // Nested type: ::Newtonsoft::Json::Serialization::JsonContract::$$c__DisplayClass57_0
     class $$c__DisplayClass57_0;
-    // Nested type: Newtonsoft::Json::Serialization::JsonContract::$$c__DisplayClass58_0
+    // Nested type: ::Newtonsoft::Json::Serialization::JsonContract::$$c__DisplayClass58_0
     class $$c__DisplayClass58_0;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -110,21 +110,21 @@ namespace Newtonsoft::Json::Serialization {
     // System.Type NonNullableUnderlyingType
     // Size: 0x8
     // Offset: 0x18
-    System::Type* NonNullableUnderlyingType;
+    ::System::Type* NonNullableUnderlyingType;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     // Newtonsoft.Json.ReadType InternalReadType
     // Size: 0x4
     // Offset: 0x20
-    Newtonsoft::Json::ReadType InternalReadType;
+    ::Newtonsoft::Json::ReadType InternalReadType;
     // Field size check
-    static_assert(sizeof(Newtonsoft::Json::ReadType) == 0x4);
+    static_assert(sizeof(::Newtonsoft::Json::ReadType) == 0x4);
     // Newtonsoft.Json.Serialization.JsonContractType ContractType
     // Size: 0x4
     // Offset: 0x24
-    Newtonsoft::Json::Serialization::JsonContractType ContractType;
+    ::Newtonsoft::Json::Serialization::JsonContractType ContractType;
     // Field size check
-    static_assert(sizeof(Newtonsoft::Json::Serialization::JsonContractType) == 0x4);
+    static_assert(sizeof(::Newtonsoft::Json::Serialization::JsonContractType) == 0x4);
     // System.Boolean IsReadOnlyOrFixedSize
     // Size: 0x1
     // Offset: 0x28
@@ -147,74 +147,74 @@ namespace Newtonsoft::Json::Serialization {
     // private System.Collections.Generic.List`1<Newtonsoft.Json.Serialization.SerializationCallback> _onDeserializedCallbacks
     // Size: 0x8
     // Offset: 0x30
-    System::Collections::Generic::List_1<Newtonsoft::Json::Serialization::SerializationCallback*>* onDeserializedCallbacks;
+    ::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationCallback*>* onDeserializedCallbacks;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<Newtonsoft::Json::Serialization::SerializationCallback*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationCallback*>*) == 0x8);
     // [NullableAttribute] Offset: 0x1205D10
     // private System.Collections.Generic.List`1<Newtonsoft.Json.Serialization.SerializationCallback> _onDeserializingCallbacks
     // Size: 0x8
     // Offset: 0x38
-    System::Collections::Generic::List_1<Newtonsoft::Json::Serialization::SerializationCallback*>* onDeserializingCallbacks;
+    ::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationCallback*>* onDeserializingCallbacks;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<Newtonsoft::Json::Serialization::SerializationCallback*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationCallback*>*) == 0x8);
     // [NullableAttribute] Offset: 0x1205D7C
     // private System.Collections.Generic.List`1<Newtonsoft.Json.Serialization.SerializationCallback> _onSerializedCallbacks
     // Size: 0x8
     // Offset: 0x40
-    System::Collections::Generic::List_1<Newtonsoft::Json::Serialization::SerializationCallback*>* onSerializedCallbacks;
+    ::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationCallback*>* onSerializedCallbacks;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<Newtonsoft::Json::Serialization::SerializationCallback*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationCallback*>*) == 0x8);
     // [NullableAttribute] Offset: 0x1205DE8
     // private System.Collections.Generic.List`1<Newtonsoft.Json.Serialization.SerializationCallback> _onSerializingCallbacks
     // Size: 0x8
     // Offset: 0x48
-    System::Collections::Generic::List_1<Newtonsoft::Json::Serialization::SerializationCallback*>* onSerializingCallbacks;
+    ::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationCallback*>* onSerializingCallbacks;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<Newtonsoft::Json::Serialization::SerializationCallback*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationCallback*>*) == 0x8);
     // [NullableAttribute] Offset: 0x1205E54
     // private System.Collections.Generic.List`1<Newtonsoft.Json.Serialization.SerializationErrorCallback> _onErrorCallbacks
     // Size: 0x8
     // Offset: 0x50
-    System::Collections::Generic::List_1<Newtonsoft::Json::Serialization::SerializationErrorCallback*>* onErrorCallbacks;
+    ::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationErrorCallback*>* onErrorCallbacks;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<Newtonsoft::Json::Serialization::SerializationErrorCallback*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationErrorCallback*>*) == 0x8);
     // private System.Type _createdType
     // Size: 0x8
     // Offset: 0x58
-    System::Type* createdType;
+    ::System::Type* createdType;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     // private readonly System.Type <UnderlyingType>k__BackingField
     // Size: 0x8
     // Offset: 0x60
-    System::Type* UnderlyingType;
+    ::System::Type* UnderlyingType;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     // private System.Nullable`1<System.Boolean> <IsReference>k__BackingField
     // Size: 0xFFFFFFFF
     // Offset: 0x68
-    System::Nullable_1<bool> IsReference;
+    ::System::Nullable_1<bool> IsReference;
     // [NullableAttribute] Offset: 0x1205EE0
     // private Newtonsoft.Json.JsonConverter <Converter>k__BackingField
     // Size: 0x8
     // Offset: 0x70
-    Newtonsoft::Json::JsonConverter* Converter;
+    ::Newtonsoft::Json::JsonConverter* Converter;
     // Field size check
-    static_assert(sizeof(Newtonsoft::Json::JsonConverter*) == 0x8);
+    static_assert(sizeof(::Newtonsoft::Json::JsonConverter*) == 0x8);
     // [NullableAttribute] Offset: 0x1205F1C
     // private Newtonsoft.Json.JsonConverter <InternalConverter>k__BackingField
     // Size: 0x8
     // Offset: 0x78
-    Newtonsoft::Json::JsonConverter* InternalConverter;
+    ::Newtonsoft::Json::JsonConverter* InternalConverter;
     // Field size check
-    static_assert(sizeof(Newtonsoft::Json::JsonConverter*) == 0x8);
+    static_assert(sizeof(::Newtonsoft::Json::JsonConverter*) == 0x8);
     // [NullableAttribute] Offset: 0x1205F58
     // private System.Func`1<System.Object> <DefaultCreator>k__BackingField
     // Size: 0x8
     // Offset: 0x80
-    System::Func_1<::Il2CppObject*>* DefaultCreator;
+    ::System::Func_1<::Il2CppObject*>* DefaultCreator;
     // Field size check
-    static_assert(sizeof(System::Func_1<::Il2CppObject*>*) == 0x8);
+    static_assert(sizeof(::System::Func_1<::Il2CppObject*>*) == 0x8);
     // private System.Boolean <DefaultCreatorNonPublic>k__BackingField
     // Size: 0x1
     // Offset: 0x88
@@ -229,11 +229,11 @@ namespace Newtonsoft::Json::Serialization {
     // Get instance field reference: System.Boolean IsEnum
     bool& dyn_IsEnum();
     // Get instance field reference: System.Type NonNullableUnderlyingType
-    System::Type*& dyn_NonNullableUnderlyingType();
+    ::System::Type*& dyn_NonNullableUnderlyingType();
     // Get instance field reference: Newtonsoft.Json.ReadType InternalReadType
-    Newtonsoft::Json::ReadType& dyn_InternalReadType();
+    ::Newtonsoft::Json::ReadType& dyn_InternalReadType();
     // Get instance field reference: Newtonsoft.Json.Serialization.JsonContractType ContractType
-    Newtonsoft::Json::Serialization::JsonContractType& dyn_ContractType();
+    ::Newtonsoft::Json::Serialization::JsonContractType& dyn_ContractType();
     // Get instance field reference: System.Boolean IsReadOnlyOrFixedSize
     bool& dyn_IsReadOnlyOrFixedSize();
     // Get instance field reference: System.Boolean IsSealed
@@ -241,77 +241,77 @@ namespace Newtonsoft::Json::Serialization {
     // Get instance field reference: System.Boolean IsInstantiable
     bool& dyn_IsInstantiable();
     // Get instance field reference: private System.Collections.Generic.List`1<Newtonsoft.Json.Serialization.SerializationCallback> _onDeserializedCallbacks
-    System::Collections::Generic::List_1<Newtonsoft::Json::Serialization::SerializationCallback*>*& dyn__onDeserializedCallbacks();
+    ::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationCallback*>*& dyn__onDeserializedCallbacks();
     // Get instance field reference: private System.Collections.Generic.List`1<Newtonsoft.Json.Serialization.SerializationCallback> _onDeserializingCallbacks
-    System::Collections::Generic::List_1<Newtonsoft::Json::Serialization::SerializationCallback*>*& dyn__onDeserializingCallbacks();
+    ::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationCallback*>*& dyn__onDeserializingCallbacks();
     // Get instance field reference: private System.Collections.Generic.List`1<Newtonsoft.Json.Serialization.SerializationCallback> _onSerializedCallbacks
-    System::Collections::Generic::List_1<Newtonsoft::Json::Serialization::SerializationCallback*>*& dyn__onSerializedCallbacks();
+    ::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationCallback*>*& dyn__onSerializedCallbacks();
     // Get instance field reference: private System.Collections.Generic.List`1<Newtonsoft.Json.Serialization.SerializationCallback> _onSerializingCallbacks
-    System::Collections::Generic::List_1<Newtonsoft::Json::Serialization::SerializationCallback*>*& dyn__onSerializingCallbacks();
+    ::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationCallback*>*& dyn__onSerializingCallbacks();
     // Get instance field reference: private System.Collections.Generic.List`1<Newtonsoft.Json.Serialization.SerializationErrorCallback> _onErrorCallbacks
-    System::Collections::Generic::List_1<Newtonsoft::Json::Serialization::SerializationErrorCallback*>*& dyn__onErrorCallbacks();
+    ::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationErrorCallback*>*& dyn__onErrorCallbacks();
     // Get instance field reference: private System.Type _createdType
-    System::Type*& dyn__createdType();
+    ::System::Type*& dyn__createdType();
     // Get instance field reference: private readonly System.Type <UnderlyingType>k__BackingField
-    System::Type*& dyn_$UnderlyingType$k__BackingField();
+    ::System::Type*& dyn_$UnderlyingType$k__BackingField();
     // Get instance field reference: private System.Nullable`1<System.Boolean> <IsReference>k__BackingField
-    System::Nullable_1<bool>& dyn_$IsReference$k__BackingField();
+    ::System::Nullable_1<bool>& dyn_$IsReference$k__BackingField();
     // Get instance field reference: private Newtonsoft.Json.JsonConverter <Converter>k__BackingField
-    Newtonsoft::Json::JsonConverter*& dyn_$Converter$k__BackingField();
+    ::Newtonsoft::Json::JsonConverter*& dyn_$Converter$k__BackingField();
     // Get instance field reference: private Newtonsoft.Json.JsonConverter <InternalConverter>k__BackingField
-    Newtonsoft::Json::JsonConverter*& dyn_$InternalConverter$k__BackingField();
+    ::Newtonsoft::Json::JsonConverter*& dyn_$InternalConverter$k__BackingField();
     // Get instance field reference: private System.Func`1<System.Object> <DefaultCreator>k__BackingField
-    System::Func_1<::Il2CppObject*>*& dyn_$DefaultCreator$k__BackingField();
+    ::System::Func_1<::Il2CppObject*>*& dyn_$DefaultCreator$k__BackingField();
     // Get instance field reference: private System.Boolean <DefaultCreatorNonPublic>k__BackingField
     bool& dyn_$DefaultCreatorNonPublic$k__BackingField();
     // public System.Type get_UnderlyingType()
     // Offset: 0x152E60C
-    System::Type* get_UnderlyingType();
+    ::System::Type* get_UnderlyingType();
     // public System.Type get_CreatedType()
     // Offset: 0x152E614
-    System::Type* get_CreatedType();
+    ::System::Type* get_CreatedType();
     // public System.Void set_CreatedType(System.Type value)
     // Offset: 0x152DC70
-    void set_CreatedType(System::Type* value);
+    void set_CreatedType(::System::Type* value);
     // public System.Nullable`1<System.Boolean> get_IsReference()
     // Offset: 0x152E61C
-    System::Nullable_1<bool> get_IsReference();
+    ::System::Nullable_1<bool> get_IsReference();
     // public System.Void set_IsReference(System.Nullable`1<System.Boolean> value)
     // Offset: 0x152E624
-    void set_IsReference(System::Nullable_1<bool> value);
+    void set_IsReference(::System::Nullable_1<bool> value);
     // public Newtonsoft.Json.JsonConverter get_Converter()
     // Offset: 0x152E62C
-    Newtonsoft::Json::JsonConverter* get_Converter();
+    ::Newtonsoft::Json::JsonConverter* get_Converter();
     // public System.Void set_Converter(Newtonsoft.Json.JsonConverter value)
     // Offset: 0x152E634
-    void set_Converter(Newtonsoft::Json::JsonConverter* value);
+    void set_Converter(::Newtonsoft::Json::JsonConverter* value);
     // public Newtonsoft.Json.JsonConverter get_InternalConverter()
     // Offset: 0x152E63C
-    Newtonsoft::Json::JsonConverter* get_InternalConverter();
+    ::Newtonsoft::Json::JsonConverter* get_InternalConverter();
     // System.Void set_InternalConverter(Newtonsoft.Json.JsonConverter value)
     // Offset: 0x152E644
-    void set_InternalConverter(Newtonsoft::Json::JsonConverter* value);
+    void set_InternalConverter(::Newtonsoft::Json::JsonConverter* value);
     // public System.Collections.Generic.IList`1<Newtonsoft.Json.Serialization.SerializationCallback> get_OnDeserializedCallbacks()
     // Offset: 0x1526A6C
-    System::Collections::Generic::IList_1<Newtonsoft::Json::Serialization::SerializationCallback*>* get_OnDeserializedCallbacks();
+    ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::SerializationCallback*>* get_OnDeserializedCallbacks();
     // public System.Collections.Generic.IList`1<Newtonsoft.Json.Serialization.SerializationCallback> get_OnDeserializingCallbacks()
     // Offset: 0x15269F8
-    System::Collections::Generic::IList_1<Newtonsoft::Json::Serialization::SerializationCallback*>* get_OnDeserializingCallbacks();
+    ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::SerializationCallback*>* get_OnDeserializingCallbacks();
     // public System.Collections.Generic.IList`1<Newtonsoft.Json.Serialization.SerializationCallback> get_OnSerializedCallbacks()
     // Offset: 0x1526984
-    System::Collections::Generic::IList_1<Newtonsoft::Json::Serialization::SerializationCallback*>* get_OnSerializedCallbacks();
+    ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::SerializationCallback*>* get_OnSerializedCallbacks();
     // public System.Collections.Generic.IList`1<Newtonsoft.Json.Serialization.SerializationCallback> get_OnSerializingCallbacks()
     // Offset: 0x1524C00
-    System::Collections::Generic::IList_1<Newtonsoft::Json::Serialization::SerializationCallback*>* get_OnSerializingCallbacks();
+    ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::SerializationCallback*>* get_OnSerializingCallbacks();
     // public System.Collections.Generic.IList`1<Newtonsoft.Json.Serialization.SerializationErrorCallback> get_OnErrorCallbacks()
     // Offset: 0x1526AE0
-    System::Collections::Generic::IList_1<Newtonsoft::Json::Serialization::SerializationErrorCallback*>* get_OnErrorCallbacks();
+    ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::SerializationErrorCallback*>* get_OnErrorCallbacks();
     // public System.Func`1<System.Object> get_DefaultCreator()
     // Offset: 0x152E64C
-    System::Func_1<::Il2CppObject*>* get_DefaultCreator();
+    ::System::Func_1<::Il2CppObject*>* get_DefaultCreator();
     // public System.Void set_DefaultCreator(System.Func`1<System.Object> value)
     // Offset: 0x152E654
-    void set_DefaultCreator(System::Func_1<::Il2CppObject*>* value);
+    void set_DefaultCreator(::System::Func_1<::Il2CppObject*>* value);
     // public System.Boolean get_DefaultCreatorNonPublic()
     // Offset: 0x152E65C
     bool get_DefaultCreatorNonPublic();
@@ -321,31 +321,31 @@ namespace Newtonsoft::Json::Serialization {
     // System.Void .ctor(System.Type underlyingType)
     // Offset: 0x152E4B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static JsonContract* New_ctor(System::Type* underlyingType) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Serialization::JsonContract::.ctor");
+    static JsonContract* New_ctor(::System::Type* underlyingType) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::JsonContract::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JsonContract*, creationType>(underlyingType)));
     }
     // System.Void InvokeOnSerializing(System.Object o, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x152E670
-    void InvokeOnSerializing(::Il2CppObject* o, System::Runtime::Serialization::StreamingContext context);
+    void InvokeOnSerializing(::Il2CppObject* o, ::System::Runtime::Serialization::StreamingContext context);
     // System.Void InvokeOnSerialized(System.Object o, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x152E78C
-    void InvokeOnSerialized(::Il2CppObject* o, System::Runtime::Serialization::StreamingContext context);
+    void InvokeOnSerialized(::Il2CppObject* o, ::System::Runtime::Serialization::StreamingContext context);
     // System.Void InvokeOnDeserializing(System.Object o, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x152E8A8
-    void InvokeOnDeserializing(::Il2CppObject* o, System::Runtime::Serialization::StreamingContext context);
+    void InvokeOnDeserializing(::Il2CppObject* o, ::System::Runtime::Serialization::StreamingContext context);
     // System.Void InvokeOnDeserialized(System.Object o, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x152E9C4
-    void InvokeOnDeserialized(::Il2CppObject* o, System::Runtime::Serialization::StreamingContext context);
+    void InvokeOnDeserialized(::Il2CppObject* o, ::System::Runtime::Serialization::StreamingContext context);
     // System.Void InvokeOnError(System.Object o, System.Runtime.Serialization.StreamingContext context, Newtonsoft.Json.Serialization.ErrorContext errorContext)
     // Offset: 0x152EAE0
-    void InvokeOnError(::Il2CppObject* o, System::Runtime::Serialization::StreamingContext context, Newtonsoft::Json::Serialization::ErrorContext* errorContext);
+    void InvokeOnError(::Il2CppObject* o, ::System::Runtime::Serialization::StreamingContext context, ::Newtonsoft::Json::Serialization::ErrorContext* errorContext);
     // static Newtonsoft.Json.Serialization.SerializationCallback CreateSerializationCallback(System.Reflection.MethodInfo callbackMethodInfo)
     // Offset: 0x1527420
-    static Newtonsoft::Json::Serialization::SerializationCallback* CreateSerializationCallback(System::Reflection::MethodInfo* callbackMethodInfo);
+    static ::Newtonsoft::Json::Serialization::SerializationCallback* CreateSerializationCallback(::System::Reflection::MethodInfo* callbackMethodInfo);
     // static Newtonsoft.Json.Serialization.SerializationErrorCallback CreateSerializationErrorCallback(System.Reflection.MethodInfo callbackMethodInfo)
     // Offset: 0x15274B8
-    static Newtonsoft::Json::Serialization::SerializationErrorCallback* CreateSerializationErrorCallback(System::Reflection::MethodInfo* callbackMethodInfo);
+    static ::Newtonsoft::Json::Serialization::SerializationErrorCallback* CreateSerializationErrorCallback(::System::Reflection::MethodInfo* callbackMethodInfo);
   }; // Newtonsoft.Json.Serialization.JsonContract
   // WARNING Not writing size check since size may be invalid!
 }
@@ -353,7 +353,7 @@ namespace Newtonsoft::Json::Serialization {
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::JsonContract::get_UnderlyingType
 // Il2CppName: get_UnderlyingType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (Newtonsoft::Json::Serialization::JsonContract::*)()>(&Newtonsoft::Json::Serialization::JsonContract::get_UnderlyingType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (Newtonsoft::Json::Serialization::JsonContract::*)()>(&Newtonsoft::Json::Serialization::JsonContract::get_UnderlyingType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::JsonContract*), "get_UnderlyingType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -361,7 +361,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::JsonContract::get_CreatedType
 // Il2CppName: get_CreatedType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (Newtonsoft::Json::Serialization::JsonContract::*)()>(&Newtonsoft::Json::Serialization::JsonContract::get_CreatedType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (Newtonsoft::Json::Serialization::JsonContract::*)()>(&Newtonsoft::Json::Serialization::JsonContract::get_CreatedType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::JsonContract*), "get_CreatedType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -369,7 +369,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::JsonContract::set_CreatedType
 // Il2CppName: set_CreatedType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::JsonContract::*)(System::Type*)>(&Newtonsoft::Json::Serialization::JsonContract::set_CreatedType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::JsonContract::*)(::System::Type*)>(&Newtonsoft::Json::Serialization::JsonContract::set_CreatedType)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::JsonContract*), "set_CreatedType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -378,7 +378,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::JsonContract::get_IsReference
 // Il2CppName: get_IsReference
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<bool> (Newtonsoft::Json::Serialization::JsonContract::*)()>(&Newtonsoft::Json::Serialization::JsonContract::get_IsReference)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<bool> (Newtonsoft::Json::Serialization::JsonContract::*)()>(&Newtonsoft::Json::Serialization::JsonContract::get_IsReference)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::JsonContract*), "get_IsReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -386,7 +386,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nul
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::JsonContract::set_IsReference
 // Il2CppName: set_IsReference
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::JsonContract::*)(System::Nullable_1<bool>)>(&Newtonsoft::Json::Serialization::JsonContract::set_IsReference)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::JsonContract::*)(::System::Nullable_1<bool>)>(&Newtonsoft::Json::Serialization::JsonContract::set_IsReference)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::JsonContract*), "set_IsReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -395,7 +395,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::JsonContract::get_Converter
 // Il2CppName: get_Converter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::JsonConverter* (Newtonsoft::Json::Serialization::JsonContract::*)()>(&Newtonsoft::Json::Serialization::JsonContract::get_Converter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::JsonConverter* (Newtonsoft::Json::Serialization::JsonContract::*)()>(&Newtonsoft::Json::Serialization::JsonContract::get_Converter)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::JsonContract*), "get_Converter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -403,7 +403,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft:
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::JsonContract::set_Converter
 // Il2CppName: set_Converter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::JsonContract::*)(Newtonsoft::Json::JsonConverter*)>(&Newtonsoft::Json::Serialization::JsonContract::set_Converter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::JsonContract::*)(::Newtonsoft::Json::JsonConverter*)>(&Newtonsoft::Json::Serialization::JsonContract::set_Converter)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonConverter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::JsonContract*), "set_Converter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -412,7 +412,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::JsonContract::get_InternalConverter
 // Il2CppName: get_InternalConverter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::JsonConverter* (Newtonsoft::Json::Serialization::JsonContract::*)()>(&Newtonsoft::Json::Serialization::JsonContract::get_InternalConverter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::JsonConverter* (Newtonsoft::Json::Serialization::JsonContract::*)()>(&Newtonsoft::Json::Serialization::JsonContract::get_InternalConverter)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::JsonContract*), "get_InternalConverter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -420,7 +420,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft:
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::JsonContract::set_InternalConverter
 // Il2CppName: set_InternalConverter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::JsonContract::*)(Newtonsoft::Json::JsonConverter*)>(&Newtonsoft::Json::Serialization::JsonContract::set_InternalConverter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::JsonContract::*)(::Newtonsoft::Json::JsonConverter*)>(&Newtonsoft::Json::Serialization::JsonContract::set_InternalConverter)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonConverter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::JsonContract*), "set_InternalConverter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -429,7 +429,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::JsonContract::get_OnDeserializedCallbacks
 // Il2CppName: get_OnDeserializedCallbacks
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<Newtonsoft::Json::Serialization::SerializationCallback*>* (Newtonsoft::Json::Serialization::JsonContract::*)()>(&Newtonsoft::Json::Serialization::JsonContract::get_OnDeserializedCallbacks)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::SerializationCallback*>* (Newtonsoft::Json::Serialization::JsonContract::*)()>(&Newtonsoft::Json::Serialization::JsonContract::get_OnDeserializedCallbacks)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::JsonContract*), "get_OnDeserializedCallbacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -437,7 +437,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::JsonContract::get_OnDeserializingCallbacks
 // Il2CppName: get_OnDeserializingCallbacks
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<Newtonsoft::Json::Serialization::SerializationCallback*>* (Newtonsoft::Json::Serialization::JsonContract::*)()>(&Newtonsoft::Json::Serialization::JsonContract::get_OnDeserializingCallbacks)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::SerializationCallback*>* (Newtonsoft::Json::Serialization::JsonContract::*)()>(&Newtonsoft::Json::Serialization::JsonContract::get_OnDeserializingCallbacks)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::JsonContract*), "get_OnDeserializingCallbacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -445,7 +445,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::JsonContract::get_OnSerializedCallbacks
 // Il2CppName: get_OnSerializedCallbacks
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<Newtonsoft::Json::Serialization::SerializationCallback*>* (Newtonsoft::Json::Serialization::JsonContract::*)()>(&Newtonsoft::Json::Serialization::JsonContract::get_OnSerializedCallbacks)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::SerializationCallback*>* (Newtonsoft::Json::Serialization::JsonContract::*)()>(&Newtonsoft::Json::Serialization::JsonContract::get_OnSerializedCallbacks)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::JsonContract*), "get_OnSerializedCallbacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -453,7 +453,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::JsonContract::get_OnSerializingCallbacks
 // Il2CppName: get_OnSerializingCallbacks
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<Newtonsoft::Json::Serialization::SerializationCallback*>* (Newtonsoft::Json::Serialization::JsonContract::*)()>(&Newtonsoft::Json::Serialization::JsonContract::get_OnSerializingCallbacks)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::SerializationCallback*>* (Newtonsoft::Json::Serialization::JsonContract::*)()>(&Newtonsoft::Json::Serialization::JsonContract::get_OnSerializingCallbacks)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::JsonContract*), "get_OnSerializingCallbacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -461,7 +461,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::JsonContract::get_OnErrorCallbacks
 // Il2CppName: get_OnErrorCallbacks
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<Newtonsoft::Json::Serialization::SerializationErrorCallback*>* (Newtonsoft::Json::Serialization::JsonContract::*)()>(&Newtonsoft::Json::Serialization::JsonContract::get_OnErrorCallbacks)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IList_1<::Newtonsoft::Json::Serialization::SerializationErrorCallback*>* (Newtonsoft::Json::Serialization::JsonContract::*)()>(&Newtonsoft::Json::Serialization::JsonContract::get_OnErrorCallbacks)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::JsonContract*), "get_OnErrorCallbacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -469,7 +469,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::JsonContract::get_DefaultCreator
 // Il2CppName: get_DefaultCreator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Func_1<::Il2CppObject*>* (Newtonsoft::Json::Serialization::JsonContract::*)()>(&Newtonsoft::Json::Serialization::JsonContract::get_DefaultCreator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Func_1<::Il2CppObject*>* (Newtonsoft::Json::Serialization::JsonContract::*)()>(&Newtonsoft::Json::Serialization::JsonContract::get_DefaultCreator)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::JsonContract*), "get_DefaultCreator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -477,7 +477,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Fun
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::JsonContract::set_DefaultCreator
 // Il2CppName: set_DefaultCreator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::JsonContract::*)(System::Func_1<::Il2CppObject*>*)>(&Newtonsoft::Json::Serialization::JsonContract::set_DefaultCreator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::JsonContract::*)(::System::Func_1<::Il2CppObject*>*)>(&Newtonsoft::Json::Serialization::JsonContract::set_DefaultCreator)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Object")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::JsonContract*), "set_DefaultCreator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -507,7 +507,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::JsonContract::InvokeOnSerializing
 // Il2CppName: InvokeOnSerializing
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::JsonContract::*)(::Il2CppObject*, System::Runtime::Serialization::StreamingContext)>(&Newtonsoft::Json::Serialization::JsonContract::InvokeOnSerializing)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::JsonContract::*)(::Il2CppObject*, ::System::Runtime::Serialization::StreamingContext)>(&Newtonsoft::Json::Serialization::JsonContract::InvokeOnSerializing)> {
   static const MethodInfo* get() {
     static auto* o = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
@@ -517,7 +517,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::JsonContract::InvokeOnSerialized
 // Il2CppName: InvokeOnSerialized
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::JsonContract::*)(::Il2CppObject*, System::Runtime::Serialization::StreamingContext)>(&Newtonsoft::Json::Serialization::JsonContract::InvokeOnSerialized)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::JsonContract::*)(::Il2CppObject*, ::System::Runtime::Serialization::StreamingContext)>(&Newtonsoft::Json::Serialization::JsonContract::InvokeOnSerialized)> {
   static const MethodInfo* get() {
     static auto* o = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
@@ -527,7 +527,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::JsonContract::InvokeOnDeserializing
 // Il2CppName: InvokeOnDeserializing
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::JsonContract::*)(::Il2CppObject*, System::Runtime::Serialization::StreamingContext)>(&Newtonsoft::Json::Serialization::JsonContract::InvokeOnDeserializing)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::JsonContract::*)(::Il2CppObject*, ::System::Runtime::Serialization::StreamingContext)>(&Newtonsoft::Json::Serialization::JsonContract::InvokeOnDeserializing)> {
   static const MethodInfo* get() {
     static auto* o = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
@@ -537,7 +537,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::JsonContract::InvokeOnDeserialized
 // Il2CppName: InvokeOnDeserialized
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::JsonContract::*)(::Il2CppObject*, System::Runtime::Serialization::StreamingContext)>(&Newtonsoft::Json::Serialization::JsonContract::InvokeOnDeserialized)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::JsonContract::*)(::Il2CppObject*, ::System::Runtime::Serialization::StreamingContext)>(&Newtonsoft::Json::Serialization::JsonContract::InvokeOnDeserialized)> {
   static const MethodInfo* get() {
     static auto* o = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
@@ -547,7 +547,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::JsonContract::InvokeOnError
 // Il2CppName: InvokeOnError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::JsonContract::*)(::Il2CppObject*, System::Runtime::Serialization::StreamingContext, Newtonsoft::Json::Serialization::ErrorContext*)>(&Newtonsoft::Json::Serialization::JsonContract::InvokeOnError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::JsonContract::*)(::Il2CppObject*, ::System::Runtime::Serialization::StreamingContext, ::Newtonsoft::Json::Serialization::ErrorContext*)>(&Newtonsoft::Json::Serialization::JsonContract::InvokeOnError)> {
   static const MethodInfo* get() {
     static auto* o = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
@@ -558,7 +558,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::JsonContract::CreateSerializationCallback
 // Il2CppName: CreateSerializationCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Serialization::SerializationCallback* (*)(System::Reflection::MethodInfo*)>(&Newtonsoft::Json::Serialization::JsonContract::CreateSerializationCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Serialization::SerializationCallback* (*)(::System::Reflection::MethodInfo*)>(&Newtonsoft::Json::Serialization::JsonContract::CreateSerializationCallback)> {
   static const MethodInfo* get() {
     static auto* callbackMethodInfo = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::JsonContract*), "CreateSerializationCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{callbackMethodInfo});
@@ -567,7 +567,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft:
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::JsonContract::CreateSerializationErrorCallback
 // Il2CppName: CreateSerializationErrorCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Serialization::SerializationErrorCallback* (*)(System::Reflection::MethodInfo*)>(&Newtonsoft::Json::Serialization::JsonContract::CreateSerializationErrorCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Serialization::SerializationErrorCallback* (*)(::System::Reflection::MethodInfo*)>(&Newtonsoft::Json::Serialization::JsonContract::CreateSerializationErrorCallback)> {
   static const MethodInfo* get() {
     static auto* callbackMethodInfo = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::JsonContract*), "CreateSerializationErrorCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{callbackMethodInfo});

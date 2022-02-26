@@ -18,8 +18,8 @@ namespace Oculus::Platform::Models {
   class MatchmakingStats;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::MatchmakingStats);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::MatchmakingStats*, "Oculus.Platform.Models", "MatchmakingStats");
+NEED_NO_BOX(::Oculus::Platform::Models::MatchmakingStats);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::MatchmakingStats*, "Oculus.Platform.Models", "MatchmakingStats");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x34
@@ -91,8 +91,8 @@ namespace Oculus::Platform::Models {
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x1968F6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MatchmakingStats* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::MatchmakingStats::.ctor");
+    static MatchmakingStats* New_ctor(::System::IntPtr o) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::MatchmakingStats::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MatchmakingStats*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.MatchmakingStats

@@ -13,8 +13,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PosesRecordingSaveData::PoseSaveData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PosesRecordingSaveData::PoseSaveData*, "", "PosesRecordingSaveData/PoseSaveData");
+NEED_NO_BOX(::GlobalNamespace::PosesRecordingSaveData::PoseSaveData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PosesRecordingSaveData::PoseSaveData*, "", "PosesRecordingSaveData/PoseSaveData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x2C
@@ -93,7 +93,7 @@ namespace GlobalNamespace {
     // Offset: 0x13E7268
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PosesRecordingSaveData::PoseSaveData* New_ctor(float posX, float posY, float posZ, float rotX, float rotY, float rotZ, float rotW) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PosesRecordingSaveData::PoseSaveData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PosesRecordingSaveData::PoseSaveData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PosesRecordingSaveData::PoseSaveData*, creationType>(posX, posY, posZ, rotX, rotY, rotZ, rotW)));
     }
   }; // PosesRecordingSaveData/PoseSaveData

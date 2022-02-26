@@ -27,8 +27,8 @@ namespace GlobalNamespace {
   class SaberClashChecker;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SaberClashChecker);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberClashChecker*, "", "SaberClashChecker");
+NEED_NO_BOX(::GlobalNamespace::SaberClashChecker);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SaberClashChecker*, "", "SaberClashChecker");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x34
@@ -57,21 +57,21 @@ namespace GlobalNamespace {
     // private UnityEngine.Vector3 _clashingPoint
     // Size: 0xC
     // Offset: 0x14
-    UnityEngine::Vector3 clashingPoint;
+    ::UnityEngine::Vector3 clashingPoint;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // private Saber _leftSaber
     // Size: 0x8
     // Offset: 0x20
-    GlobalNamespace::Saber* leftSaber;
+    ::GlobalNamespace::Saber* leftSaber;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::Saber*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::Saber*) == 0x8);
     // private Saber _rightSaber
     // Size: 0x8
     // Offset: 0x28
-    GlobalNamespace::Saber* rightSaber;
+    ::GlobalNamespace::Saber* rightSaber;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::Saber*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::Saber*) == 0x8);
     // private System.Int32 _prevGetFrameNum
     // Size: 0x4
     // Offset: 0x30
@@ -94,29 +94,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _sabersAreClashing
     bool& dyn__sabersAreClashing();
     // Get instance field reference: private UnityEngine.Vector3 _clashingPoint
-    UnityEngine::Vector3& dyn__clashingPoint();
+    ::UnityEngine::Vector3& dyn__clashingPoint();
     // Get instance field reference: private Saber _leftSaber
-    GlobalNamespace::Saber*& dyn__leftSaber();
+    ::GlobalNamespace::Saber*& dyn__leftSaber();
     // Get instance field reference: private Saber _rightSaber
-    GlobalNamespace::Saber*& dyn__rightSaber();
+    ::GlobalNamespace::Saber*& dyn__rightSaber();
     // Get instance field reference: private System.Int32 _prevGetFrameNum
     int& dyn__prevGetFrameNum();
     // private System.Void Init(SaberManager saberManager)
     // Offset: 0x2B54F98
-    void Init(GlobalNamespace::SaberManager* saberManager);
+    void Init(::GlobalNamespace::SaberManager* saberManager);
     // public System.Boolean AreSabersClashing(out UnityEngine.Vector3 clashingPoint)
     // Offset: 0x2B54FBC
-    bool AreSabersClashing(ByRef<UnityEngine::Vector3> clashingPoint);
+    bool AreSabersClashing(ByRef<::UnityEngine::Vector3> clashingPoint);
     // private System.Single SegmentToSegmentDist(UnityEngine.Vector3 fromA, UnityEngine.Vector3 toA, UnityEngine.Vector3 fromB, UnityEngine.Vector3 toB, out UnityEngine.Vector3 inbetweenPoint)
     // Offset: 0x2B55194
-    float SegmentToSegmentDist(UnityEngine::Vector3 fromA, UnityEngine::Vector3 toA, UnityEngine::Vector3 fromB, UnityEngine::Vector3 toB, ByRef<UnityEngine::Vector3> inbetweenPoint);
+    float SegmentToSegmentDist(::UnityEngine::Vector3 fromA, ::UnityEngine::Vector3 toA, ::UnityEngine::Vector3 fromB, ::UnityEngine::Vector3 toB, ByRef<::UnityEngine::Vector3> inbetweenPoint);
     // public System.Void .ctor()
     // Offset: 0x2B55640
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SaberClashChecker* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SaberClashChecker::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SaberClashChecker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SaberClashChecker*, creationType>()));
     }
   }; // SaberClashChecker
@@ -128,7 +128,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::SaberClashChecker::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberClashChecker::*)(GlobalNamespace::SaberManager*)>(&GlobalNamespace::SaberClashChecker::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberClashChecker::*)(::GlobalNamespace::SaberManager*)>(&GlobalNamespace::SaberClashChecker::Init)> {
   static const MethodInfo* get() {
     static auto* saberManager = &::il2cpp_utils::GetClassFromName("", "SaberManager")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberClashChecker*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{saberManager});
@@ -137,7 +137,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SaberClashChecker::AreSabersClashing
 // Il2CppName: AreSabersClashing
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SaberClashChecker::*)(ByRef<UnityEngine::Vector3>)>(&GlobalNamespace::SaberClashChecker::AreSabersClashing)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SaberClashChecker::*)(ByRef<::UnityEngine::Vector3>)>(&GlobalNamespace::SaberClashChecker::AreSabersClashing)> {
   static const MethodInfo* get() {
     static auto* clashingPoint = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberClashChecker*), "AreSabersClashing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clashingPoint});
@@ -146,7 +146,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SaberClashChecker::SegmentToSegmentDist
 // Il2CppName: SegmentToSegmentDist
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::SaberClashChecker::*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3, ByRef<UnityEngine::Vector3>)>(&GlobalNamespace::SaberClashChecker::SegmentToSegmentDist)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::SaberClashChecker::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ByRef<::UnityEngine::Vector3>)>(&GlobalNamespace::SaberClashChecker::SegmentToSegmentDist)> {
   static const MethodInfo* get() {
     static auto* fromA = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* toA = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;

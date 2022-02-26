@@ -32,8 +32,8 @@ namespace System::Xml::Serialization {
   class XmlSerializerNamespaces;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Serialization::XmlSerializerNamespaces);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Serialization::XmlSerializerNamespaces*, "System.Xml.Serialization", "XmlSerializerNamespaces");
+NEED_NO_BOX(::System::Xml::Serialization::XmlSerializerNamespaces);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::XmlSerializerNamespaces*, "System.Xml.Serialization", "XmlSerializerNamespaces");
 // Type namespace: System.Xml.Serialization
 namespace System::Xml::Serialization {
   // Size: 0x18
@@ -54,28 +54,28 @@ namespace System::Xml::Serialization {
     // private System.Collections.Hashtable namespaces
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Hashtable* namespaces;
+    ::System::Collections::Hashtable* namespaces;
     // Field size check
-    static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
+    static_assert(sizeof(::System::Collections::Hashtable*) == 0x8);
     public:
-    // Creating conversion operator: operator System::Collections::Hashtable*
-    constexpr operator System::Collections::Hashtable*() const noexcept {
+    // Creating conversion operator: operator ::System::Collections::Hashtable*
+    constexpr operator ::System::Collections::Hashtable*() const noexcept {
       return namespaces;
     }
     // Get instance field reference: private System.Collections.Hashtable namespaces
-    System::Collections::Hashtable*& dyn_namespaces();
+    ::System::Collections::Hashtable*& dyn_namespaces();
     // public System.Int32 get_Count()
     // Offset: 0x16136E0
     int get_Count();
     // System.Collections.ArrayList get_NamespaceList()
     // Offset: 0x16140C8
-    System::Collections::ArrayList* get_NamespaceList();
+    ::System::Collections::ArrayList* get_NamespaceList();
     // System.Collections.Hashtable get_Namespaces()
     // Offset: 0x1613F68
-    System::Collections::Hashtable* get_Namespaces();
+    ::System::Collections::Hashtable* get_Namespaces();
     // System.Void set_Namespaces(System.Collections.Hashtable value)
     // Offset: 0x161445C
-    void set_Namespaces(System::Collections::Hashtable* value);
+    void set_Namespaces(::System::Collections::Hashtable* value);
     // public System.Void Add(System.String prefix, System.String ns)
     // Offset: 0x1613710
     void Add(::StringW prefix, ::StringW ns);
@@ -84,19 +84,19 @@ namespace System::Xml::Serialization {
     void AddInternal(::StringW prefix, ::StringW ns);
     // public System.Xml.XmlQualifiedName[] ToArray()
     // Offset: 0x1613FD4
-    ::ArrayW<System::Xml::XmlQualifiedName*> ToArray();
+    ::ArrayW<::System::Xml::XmlQualifiedName*> ToArray();
     // public System.Void .ctor()
     // Offset: 0x1613708
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlSerializerNamespaces* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Serialization::XmlSerializerNamespaces::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Serialization::XmlSerializerNamespaces::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlSerializerNamespaces*, creationType>()));
     }
   }; // System.Xml.Serialization.XmlSerializerNamespaces
   #pragma pack(pop)
-  static check_size<sizeof(XmlSerializerNamespaces), 16 + sizeof(System::Collections::Hashtable*)> __System_Xml_Serialization_XmlSerializerNamespacesSizeCheck;
+  static check_size<sizeof(XmlSerializerNamespaces), 16 + sizeof(::System::Collections::Hashtable*)> __System_Xml_Serialization_XmlSerializerNamespacesSizeCheck;
   static_assert(sizeof(XmlSerializerNamespaces) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -111,7 +111,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlSerializerNamespaces::get_NamespaceList
 // Il2CppName: get_NamespaceList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ArrayList* (System::Xml::Serialization::XmlSerializerNamespaces::*)()>(&System::Xml::Serialization::XmlSerializerNamespaces::get_NamespaceList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (System::Xml::Serialization::XmlSerializerNamespaces::*)()>(&System::Xml::Serialization::XmlSerializerNamespaces::get_NamespaceList)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::XmlSerializerNamespaces*), "get_NamespaceList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -119,7 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlSerializerNamespaces::get_Namespaces
 // Il2CppName: get_Namespaces
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Hashtable* (System::Xml::Serialization::XmlSerializerNamespaces::*)()>(&System::Xml::Serialization::XmlSerializerNamespaces::get_Namespaces)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Hashtable* (System::Xml::Serialization::XmlSerializerNamespaces::*)()>(&System::Xml::Serialization::XmlSerializerNamespaces::get_Namespaces)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::XmlSerializerNamespaces*), "get_Namespaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -127,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlSerializerNamespaces::set_Namespaces
 // Il2CppName: set_Namespaces
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Serialization::XmlSerializerNamespaces::*)(System::Collections::Hashtable*)>(&System::Xml::Serialization::XmlSerializerNamespaces::set_Namespaces)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Serialization::XmlSerializerNamespaces::*)(::System::Collections::Hashtable*)>(&System::Xml::Serialization::XmlSerializerNamespaces::set_Namespaces)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Collections", "Hashtable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::XmlSerializerNamespaces*), "set_Namespaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -156,7 +156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlSerializerNamespaces::ToArray
 // Il2CppName: ToArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Xml::XmlQualifiedName*> (System::Xml::Serialization::XmlSerializerNamespaces::*)()>(&System::Xml::Serialization::XmlSerializerNamespaces::ToArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Xml::XmlQualifiedName*> (System::Xml::Serialization::XmlSerializerNamespaces::*)()>(&System::Xml::Serialization::XmlSerializerNamespaces::ToArray)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::XmlSerializerNamespaces*), "ToArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

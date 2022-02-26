@@ -17,8 +17,8 @@ namespace GlobalNamespace {
   class GameplayModifiersConfiguration;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::GameplayModifiersConfiguration);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiersConfiguration*, "", "GameplayModifiersConfiguration");
+NEED_NO_BOX(::GlobalNamespace::GameplayModifiersConfiguration);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameplayModifiersConfiguration*, "", "GameplayModifiersConfiguration");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -27,11 +27,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameplayModifiersConfiguration : public ::Il2CppObject {
     public:
-    // Nested type: GlobalNamespace::GameplayModifiersConfiguration::SongSpeed
+    // Nested type: ::GlobalNamespace::GameplayModifiersConfiguration::SongSpeed
     class SongSpeed;
-    // Nested type: GlobalNamespace::GameplayModifiersConfiguration::CutAngleTolerance
+    // Nested type: ::GlobalNamespace::GameplayModifiersConfiguration::CutAngleTolerance
     class CutAngleTolerance;
-    // Nested type: GlobalNamespace::GameplayModifiersConfiguration::NoteUniformScale
+    // Nested type: ::GlobalNamespace::GameplayModifiersConfiguration::NoteUniformScale
     class NoteUniformScale;
   }; // GameplayModifiersConfiguration
   #pragma pack(pop)

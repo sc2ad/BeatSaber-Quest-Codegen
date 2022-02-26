@@ -13,8 +13,8 @@ namespace System {
   class UncNameHelper;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::UncNameHelper);
-DEFINE_IL2CPP_ARG_TYPE(System::UncNameHelper*, "System", "UncNameHelper");
+NEED_NO_BOX(::System::UncNameHelper);
+DEFINE_IL2CPP_ARG_TYPE(::System::UncNameHelper*, "System", "UncNameHelper");
 // Type namespace: System
 namespace System {
   // Size: 0x10

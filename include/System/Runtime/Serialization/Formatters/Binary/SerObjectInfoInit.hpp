@@ -28,8 +28,8 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   class SerObjectInfoInit;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit*, "System.Runtime.Serialization.Formatters.Binary", "SerObjectInfoInit");
+NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit*, "System.Runtime.Serialization.Formatters.Binary", "SerObjectInfoInit");
 // Type namespace: System.Runtime.Serialization.Formatters.Binary
 namespace System::Runtime::Serialization::Formatters::Binary {
   // Size: 0x28
@@ -50,9 +50,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.Collections.Hashtable seenBeforeTable
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Hashtable* seenBeforeTable;
+    ::System::Collections::Hashtable* seenBeforeTable;
     // Field size check
-    static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
+    static_assert(sizeof(::System::Collections::Hashtable*) == 0x8);
     // System.Int32 objectInfoIdCount
     // Size: 0x4
     // Offset: 0x18
@@ -64,28 +64,28 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.Runtime.Serialization.Formatters.Binary.SerStack oiPool
     // Size: 0x8
     // Offset: 0x20
-    System::Runtime::Serialization::Formatters::Binary::SerStack* oiPool;
+    ::System::Runtime::Serialization::Formatters::Binary::SerStack* oiPool;
     // Field size check
-    static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::SerStack*) == 0x8);
+    static_assert(sizeof(::System::Runtime::Serialization::Formatters::Binary::SerStack*) == 0x8);
     public:
     // Get instance field reference: System.Collections.Hashtable seenBeforeTable
-    System::Collections::Hashtable*& dyn_seenBeforeTable();
+    ::System::Collections::Hashtable*& dyn_seenBeforeTable();
     // Get instance field reference: System.Int32 objectInfoIdCount
     int& dyn_objectInfoIdCount();
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.SerStack oiPool
-    System::Runtime::Serialization::Formatters::Binary::SerStack*& dyn_oiPool();
+    ::System::Runtime::Serialization::Formatters::Binary::SerStack*& dyn_oiPool();
     // public System.Void .ctor()
     // Offset: 0x157F99C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SerObjectInfoInit* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SerObjectInfoInit*, creationType>()));
     }
   }; // System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit
   #pragma pack(pop)
-  static check_size<sizeof(SerObjectInfoInit), 32 + sizeof(System::Runtime::Serialization::Formatters::Binary::SerStack*)> __System_Runtime_Serialization_Formatters_Binary_SerObjectInfoInitSizeCheck;
+  static check_size<sizeof(SerObjectInfoInit), 32 + sizeof(::System::Runtime::Serialization::Formatters::Binary::SerStack*)> __System_Runtime_Serialization_Formatters_Binary_SerObjectInfoInitSizeCheck;
   static_assert(sizeof(SerObjectInfoInit) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

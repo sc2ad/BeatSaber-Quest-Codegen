@@ -19,8 +19,8 @@ namespace GlobalNamespace {
   class BeatmapEventDataExtensions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BeatmapEventDataExtensions);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapEventDataExtensions*, "", "BeatmapEventDataExtensions");
+NEED_NO_BOX(::GlobalNamespace::BeatmapEventDataExtensions);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapEventDataExtensions*, "", "BeatmapEventDataExtensions");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -30,11 +30,11 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class BeatmapEventDataExtensions : public ::Il2CppObject {
     public:
-    // Nested type: GlobalNamespace::BeatmapEventDataExtensions::LightSwitchEventEffectDataValues
+    // Nested type: ::GlobalNamespace::BeatmapEventDataExtensions::LightSwitchEventEffectDataValues
     class LightSwitchEventEffectDataValues;
     // static public System.Boolean HasLightFadeEventDataValue(BeatmapEventData beatmapEventData)
     // Offset: 0x2A4A1A4
-    static bool HasLightFadeEventDataValue(GlobalNamespace::BeatmapEventData* beatmapEventData);
+    static bool HasLightFadeEventDataValue(::GlobalNamespace::BeatmapEventData* beatmapEventData);
   }; // BeatmapEventDataExtensions
   #pragma pack(pop)
 }
@@ -42,7 +42,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapEventDataExtensions::HasLightFadeEventDataValue
 // Il2CppName: HasLightFadeEventDataValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::BeatmapEventData*)>(&GlobalNamespace::BeatmapEventDataExtensions::HasLightFadeEventDataValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::BeatmapEventData*)>(&GlobalNamespace::BeatmapEventDataExtensions::HasLightFadeEventDataValue)> {
   static const MethodInfo* get() {
     static auto* beatmapEventData = &::il2cpp_utils::GetClassFromName("", "BeatmapEventData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventDataExtensions*), "HasLightFadeEventDataValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapEventData});

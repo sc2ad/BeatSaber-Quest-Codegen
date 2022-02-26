@@ -15,8 +15,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Globalization::HebrewNumber::HebrewValue);
-DEFINE_IL2CPP_ARG_TYPE(System::Globalization::HebrewNumber::HebrewValue*, "System.Globalization", "HebrewNumber/HebrewValue");
+NEED_NO_BOX(::System::Globalization::HebrewNumber::HebrewValue);
+DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::HebrewNumber::HebrewValue*, "System.Globalization", "HebrewNumber/HebrewValue");
 // Type namespace: System.Globalization
 namespace System::Globalization {
   // Size: 0x18
@@ -37,9 +37,9 @@ namespace System::Globalization {
     // System.Globalization.HebrewNumber/System.Globalization.HebrewToken token
     // Size: 0x4
     // Offset: 0x10
-    System::Globalization::HebrewNumber::HebrewToken token;
+    ::System::Globalization::HebrewNumber::HebrewToken token;
     // Field size check
-    static_assert(sizeof(System::Globalization::HebrewNumber::HebrewToken) == 0x4);
+    static_assert(sizeof(::System::Globalization::HebrewNumber::HebrewToken) == 0x4);
     // System.Int32 value
     // Size: 0x4
     // Offset: 0x14
@@ -48,14 +48,14 @@ namespace System::Globalization {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: System.Globalization.HebrewNumber/System.Globalization.HebrewToken token
-    System::Globalization::HebrewNumber::HebrewToken& dyn_token();
+    ::System::Globalization::HebrewNumber::HebrewToken& dyn_token();
     // Get instance field reference: System.Int32 value
     int& dyn_value();
     // System.Void .ctor(System.Globalization.HebrewNumber/System.Globalization.HebrewToken token, System.Int32 value)
     // Offset: 0x20B6548
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static HebrewNumber::HebrewValue* New_ctor(System::Globalization::HebrewNumber::HebrewToken token, int value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::HebrewNumber::HebrewValue::.ctor");
+    static HebrewNumber::HebrewValue* New_ctor(::System::Globalization::HebrewNumber::HebrewToken token, int value) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Globalization::HebrewNumber::HebrewValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HebrewNumber::HebrewValue*, creationType>(token, value)));
     }
   }; // System.Globalization.HebrewNumber/System.Globalization.HebrewValue

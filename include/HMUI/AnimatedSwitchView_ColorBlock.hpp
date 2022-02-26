@@ -15,8 +15,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HMUI::AnimatedSwitchView::ColorBlock);
-DEFINE_IL2CPP_ARG_TYPE(HMUI::AnimatedSwitchView::ColorBlock*, "HMUI", "AnimatedSwitchView/ColorBlock");
+NEED_NO_BOX(::HMUI::AnimatedSwitchView::ColorBlock);
+DEFINE_IL2CPP_ARG_TYPE(::HMUI::AnimatedSwitchView::ColorBlock*, "HMUI", "AnimatedSwitchView/ColorBlock");
 // Type namespace: HMUI
 namespace HMUI {
   // Size: 0x70
@@ -37,65 +37,65 @@ namespace HMUI {
     // public UnityEngine.Color knobColor
     // Size: 0x10
     // Offset: 0x10
-    UnityEngine::Color knobColor;
+    ::UnityEngine::Color knobColor;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     // public UnityEngine.Color knobColor0
     // Size: 0x10
     // Offset: 0x20
-    UnityEngine::Color knobColor0;
+    ::UnityEngine::Color knobColor0;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     // public UnityEngine.Color knobColor1
     // Size: 0x10
     // Offset: 0x30
-    UnityEngine::Color knobColor1;
+    ::UnityEngine::Color knobColor1;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     // [SpaceAttribute] Offset: 0x122D4E8
     // public UnityEngine.Color backgroundColor
     // Size: 0x10
     // Offset: 0x40
-    UnityEngine::Color backgroundColor;
+    ::UnityEngine::Color backgroundColor;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     // public UnityEngine.Color backgroundColor0
     // Size: 0x10
     // Offset: 0x50
-    UnityEngine::Color backgroundColor0;
+    ::UnityEngine::Color backgroundColor0;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     // public UnityEngine.Color backgroundColor1
     // Size: 0x10
     // Offset: 0x60
-    UnityEngine::Color backgroundColor1;
+    ::UnityEngine::Color backgroundColor1;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     public:
     // Get instance field reference: public UnityEngine.Color knobColor
-    UnityEngine::Color& dyn_knobColor();
+    ::UnityEngine::Color& dyn_knobColor();
     // Get instance field reference: public UnityEngine.Color knobColor0
-    UnityEngine::Color& dyn_knobColor0();
+    ::UnityEngine::Color& dyn_knobColor0();
     // Get instance field reference: public UnityEngine.Color knobColor1
-    UnityEngine::Color& dyn_knobColor1();
+    ::UnityEngine::Color& dyn_knobColor1();
     // Get instance field reference: public UnityEngine.Color backgroundColor
-    UnityEngine::Color& dyn_backgroundColor();
+    ::UnityEngine::Color& dyn_backgroundColor();
     // Get instance field reference: public UnityEngine.Color backgroundColor0
-    UnityEngine::Color& dyn_backgroundColor0();
+    ::UnityEngine::Color& dyn_backgroundColor0();
     // Get instance field reference: public UnityEngine.Color backgroundColor1
-    UnityEngine::Color& dyn_backgroundColor1();
+    ::UnityEngine::Color& dyn_backgroundColor1();
     // public System.Void .ctor()
     // Offset: 0x1667FF0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnimatedSwitchView::ColorBlock* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::AnimatedSwitchView::ColorBlock::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::AnimatedSwitchView::ColorBlock::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnimatedSwitchView::ColorBlock*, creationType>()));
     }
   }; // HMUI.AnimatedSwitchView/HMUI.ColorBlock
   #pragma pack(pop)
-  static check_size<sizeof(AnimatedSwitchView::ColorBlock), 96 + sizeof(UnityEngine::Color)> __HMUI_AnimatedSwitchView_ColorBlockSizeCheck;
+  static check_size<sizeof(AnimatedSwitchView::ColorBlock), 96 + sizeof(::UnityEngine::Color)> __HMUI_AnimatedSwitchView_ColorBlockSizeCheck;
   static_assert(sizeof(AnimatedSwitchView::ColorBlock) == 0x70);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

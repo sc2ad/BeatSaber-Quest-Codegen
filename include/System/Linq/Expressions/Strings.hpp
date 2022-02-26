@@ -13,8 +13,8 @@ namespace System::Linq::Expressions {
   class Strings;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Linq::Expressions::Strings);
-DEFINE_IL2CPP_ARG_TYPE(System::Linq::Expressions::Strings*, "System.Linq.Expressions", "Strings");
+NEED_NO_BOX(::System::Linq::Expressions::Strings);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Strings*, "System.Linq.Expressions", "Strings");
 // Type namespace: System.Linq.Expressions
 namespace System::Linq::Expressions {
   // Size: 0x10

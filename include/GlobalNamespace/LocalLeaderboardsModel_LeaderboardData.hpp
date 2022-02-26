@@ -22,8 +22,8 @@ namespace System::Collections::Generic {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::LocalLeaderboardsModel::LeaderboardData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*, "", "LocalLeaderboardsModel/LeaderboardData");
+NEED_NO_BOX(::GlobalNamespace::LocalLeaderboardsModel::LeaderboardData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*, "", "LocalLeaderboardsModel/LeaderboardData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -50,26 +50,26 @@ namespace GlobalNamespace {
     // public System.Collections.Generic.List`1<LocalLeaderboardsModel/ScoreData> _scores
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::ScoreData*>* scores;
+    ::System::Collections::Generic::List_1<::GlobalNamespace::LocalLeaderboardsModel::ScoreData*>* scores;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::ScoreData*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::GlobalNamespace::LocalLeaderboardsModel::ScoreData*>*) == 0x8);
     public:
     // Get instance field reference: public System.String _leaderboardId
     ::StringW& dyn__leaderboardId();
     // Get instance field reference: public System.Collections.Generic.List`1<LocalLeaderboardsModel/ScoreData> _scores
-    System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::ScoreData*>*& dyn__scores();
+    ::System::Collections::Generic::List_1<::GlobalNamespace::LocalLeaderboardsModel::ScoreData*>*& dyn__scores();
     // public System.Void .ctor()
     // Offset: 0x2B9DA10
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalLeaderboardsModel::LeaderboardData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LocalLeaderboardsModel::LeaderboardData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LocalLeaderboardsModel::LeaderboardData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalLeaderboardsModel::LeaderboardData*, creationType>()));
     }
   }; // LocalLeaderboardsModel/LeaderboardData
   #pragma pack(pop)
-  static check_size<sizeof(LocalLeaderboardsModel::LeaderboardData), 24 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::ScoreData*>*)> __GlobalNamespace_LocalLeaderboardsModel_LeaderboardDataSizeCheck;
+  static check_size<sizeof(LocalLeaderboardsModel::LeaderboardData), 24 + sizeof(::System::Collections::Generic::List_1<::GlobalNamespace::LocalLeaderboardsModel::ScoreData*>*)> __GlobalNamespace_LocalLeaderboardsModel_LeaderboardDataSizeCheck;
   static_assert(sizeof(LocalLeaderboardsModel::LeaderboardData) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

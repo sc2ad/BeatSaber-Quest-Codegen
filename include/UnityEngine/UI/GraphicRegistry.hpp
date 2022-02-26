@@ -46,8 +46,8 @@ namespace UnityEngine::UI {
   class GraphicRegistry;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::UI::GraphicRegistry);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GraphicRegistry*, "UnityEngine.UI", "GraphicRegistry");
+NEED_NO_BOX(::UnityEngine::UI::GraphicRegistry);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::GraphicRegistry*, "UnityEngine.UI", "GraphicRegistry");
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {
   // Size: 0x18
@@ -68,58 +68,58 @@ namespace UnityEngine::UI {
     // private readonly System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>> m_Graphics
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::Dictionary_2<UnityEngine::Canvas*, UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::Graphic*>*>* m_Graphics;
+    ::System::Collections::Generic::Dictionary_2<::UnityEngine::Canvas*, ::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::Graphic*>*>* m_Graphics;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<UnityEngine::Canvas*, UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::Graphic*>*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::Dictionary_2<::UnityEngine::Canvas*, ::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::Graphic*>*>*) == 0x8);
     public:
-    // Creating conversion operator: operator System::Collections::Generic::Dictionary_2<UnityEngine::Canvas*, UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::Graphic*>*>*
-    constexpr operator System::Collections::Generic::Dictionary_2<UnityEngine::Canvas*, UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::Graphic*>*>*() const noexcept {
+    // Creating conversion operator: operator ::System::Collections::Generic::Dictionary_2<::UnityEngine::Canvas*, ::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::Graphic*>*>*
+    constexpr operator ::System::Collections::Generic::Dictionary_2<::UnityEngine::Canvas*, ::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::Graphic*>*>*() const noexcept {
       return m_Graphics;
     }
     // Get static field: static private UnityEngine.UI.GraphicRegistry s_Instance
-    static UnityEngine::UI::GraphicRegistry* _get_s_Instance();
+    static ::UnityEngine::UI::GraphicRegistry* _get_s_Instance();
     // Set static field: static private UnityEngine.UI.GraphicRegistry s_Instance
-    static void _set_s_Instance(UnityEngine::UI::GraphicRegistry* value);
+    static void _set_s_Instance(::UnityEngine::UI::GraphicRegistry* value);
     // Get static field: static private readonly System.Collections.Generic.List`1<UnityEngine.UI.Graphic> s_EmptyList
-    static System::Collections::Generic::List_1<UnityEngine::UI::Graphic*>* _get_s_EmptyList();
+    static ::System::Collections::Generic::List_1<::UnityEngine::UI::Graphic*>* _get_s_EmptyList();
     // Set static field: static private readonly System.Collections.Generic.List`1<UnityEngine.UI.Graphic> s_EmptyList
-    static void _set_s_EmptyList(System::Collections::Generic::List_1<UnityEngine::UI::Graphic*>* value);
+    static void _set_s_EmptyList(::System::Collections::Generic::List_1<::UnityEngine::UI::Graphic*>* value);
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>> m_Graphics
-    System::Collections::Generic::Dictionary_2<UnityEngine::Canvas*, UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::Graphic*>*>*& dyn_m_Graphics();
+    ::System::Collections::Generic::Dictionary_2<::UnityEngine::Canvas*, ::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::Graphic*>*>*& dyn_m_Graphics();
     // static public UnityEngine.UI.GraphicRegistry get_instance()
     // Offset: 0x1D8C4D4
-    static UnityEngine::UI::GraphicRegistry* get_instance();
+    static ::UnityEngine::UI::GraphicRegistry* get_instance();
     // static private System.Void .cctor()
     // Offset: 0x1D8C594
     static void _cctor();
     // static public System.Void RegisterGraphicForCanvas(UnityEngine.Canvas c, UnityEngine.UI.Graphic graphic)
     // Offset: 0x1D884B4
-    static void RegisterGraphicForCanvas(UnityEngine::Canvas* c, UnityEngine::UI::Graphic* graphic);
+    static void RegisterGraphicForCanvas(::UnityEngine::Canvas* c, ::UnityEngine::UI::Graphic* graphic);
     // static public System.Void UnregisterGraphicForCanvas(UnityEngine.Canvas c, UnityEngine.UI.Graphic graphic)
     // Offset: 0x1D88154
-    static void UnregisterGraphicForCanvas(UnityEngine::Canvas* c, UnityEngine::UI::Graphic* graphic);
+    static void UnregisterGraphicForCanvas(::UnityEngine::Canvas* c, ::UnityEngine::UI::Graphic* graphic);
     // static public System.Collections.Generic.IList`1<UnityEngine.UI.Graphic> GetGraphicsForCanvas(UnityEngine.Canvas canvas)
     // Offset: 0x1D8BBCC
-    static System::Collections::Generic::IList_1<UnityEngine::UI::Graphic*>* GetGraphicsForCanvas(UnityEngine::Canvas* canvas);
+    static ::System::Collections::Generic::IList_1<::UnityEngine::UI::Graphic*>* GetGraphicsForCanvas(::UnityEngine::Canvas* canvas);
     // protected System.Void .ctor()
     // Offset: 0x1D8C3B4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GraphicRegistry* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::GraphicRegistry::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::GraphicRegistry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GraphicRegistry*, creationType>()));
     }
   }; // UnityEngine.UI.GraphicRegistry
   #pragma pack(pop)
-  static check_size<sizeof(GraphicRegistry), 16 + sizeof(System::Collections::Generic::Dictionary_2<UnityEngine::Canvas*, UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::Graphic*>*>*)> __UnityEngine_UI_GraphicRegistrySizeCheck;
+  static check_size<sizeof(GraphicRegistry), 16 + sizeof(::System::Collections::Generic::Dictionary_2<::UnityEngine::Canvas*, ::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::Graphic*>*>*)> __UnityEngine_UI_GraphicRegistrySizeCheck;
   static_assert(sizeof(GraphicRegistry) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::GraphicRegistry::get_instance
 // Il2CppName: get_instance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::GraphicRegistry* (*)()>(&UnityEngine::UI::GraphicRegistry::get_instance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::GraphicRegistry* (*)()>(&UnityEngine::UI::GraphicRegistry::get_instance)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GraphicRegistry*), "get_instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -135,7 +135,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::UI::GraphicRegistry::RegisterGraphicForCanvas
 // Il2CppName: RegisterGraphicForCanvas
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Canvas*, UnityEngine::UI::Graphic*)>(&UnityEngine::UI::GraphicRegistry::RegisterGraphicForCanvas)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Canvas*, ::UnityEngine::UI::Graphic*)>(&UnityEngine::UI::GraphicRegistry::RegisterGraphicForCanvas)> {
   static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("UnityEngine", "Canvas")->byval_arg;
     static auto* graphic = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Graphic")->byval_arg;
@@ -145,7 +145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::UI::GraphicRegistry::UnregisterGraphicForCanvas
 // Il2CppName: UnregisterGraphicForCanvas
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Canvas*, UnityEngine::UI::Graphic*)>(&UnityEngine::UI::GraphicRegistry::UnregisterGraphicForCanvas)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Canvas*, ::UnityEngine::UI::Graphic*)>(&UnityEngine::UI::GraphicRegistry::UnregisterGraphicForCanvas)> {
   static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("UnityEngine", "Canvas")->byval_arg;
     static auto* graphic = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Graphic")->byval_arg;
@@ -155,7 +155,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::UI::GraphicRegistry::GetGraphicsForCanvas
 // Il2CppName: GetGraphicsForCanvas
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<UnityEngine::UI::Graphic*>* (*)(UnityEngine::Canvas*)>(&UnityEngine::UI::GraphicRegistry::GetGraphicsForCanvas)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IList_1<::UnityEngine::UI::Graphic*>* (*)(::UnityEngine::Canvas*)>(&UnityEngine::UI::GraphicRegistry::GetGraphicsForCanvas)> {
   static const MethodInfo* get() {
     static auto* canvas = &::il2cpp_utils::GetClassFromName("UnityEngine", "Canvas")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GraphicRegistry*), "GetGraphicsForCanvas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{canvas});

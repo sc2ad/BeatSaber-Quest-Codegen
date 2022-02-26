@@ -20,8 +20,8 @@ namespace Org::BouncyCastle::Crypto::Modes {
   class IAeadCipher;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Crypto::Modes::IAeadCipher);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::IAeadCipher*, "Org.BouncyCastle.Crypto.Modes", "IAeadCipher");
+NEED_NO_BOX(::Org::BouncyCastle::Crypto::Modes::IAeadCipher);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Modes::IAeadCipher*, "Org.BouncyCastle.Crypto.Modes", "IAeadCipher");
 // Type namespace: Org.BouncyCastle.Crypto.Modes
 namespace Org::BouncyCastle::Crypto::Modes {
   // Size: 0x10
@@ -32,7 +32,7 @@ namespace Org::BouncyCastle::Crypto::Modes {
     public:
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     // Offset: 0xFFFFFFFF
-    void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+    void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 ProcessBytes(System.Byte[] inBytes, System.Int32 inOff, System.Int32 len, System.Byte[] outBytes, System.Int32 outOff)
     // Offset: 0xFFFFFFFF
     int ProcessBytes(::ArrayW<uint8_t> inBytes, int inOff, int len, ::ArrayW<uint8_t> outBytes, int outOff);
@@ -55,7 +55,7 @@ namespace Org::BouncyCastle::Crypto::Modes {
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Modes::IAeadCipher::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Modes::IAeadCipher::*)(bool, Org::BouncyCastle::Crypto::ICipherParameters*)>(&Org::BouncyCastle::Crypto::Modes::IAeadCipher::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Modes::IAeadCipher::*)(bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(&Org::BouncyCastle::Crypto::Modes::IAeadCipher::Init)> {
   static const MethodInfo* get() {
     static auto* forEncryption = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* parameters = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Crypto", "ICipherParameters")->byval_arg;

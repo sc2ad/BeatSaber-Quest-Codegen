@@ -25,8 +25,8 @@ namespace GlobalNamespace {
   class OVRBoneCapsule;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRBoneCapsule);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRBoneCapsule*, "", "OVRBoneCapsule");
+NEED_NO_BOX(::GlobalNamespace::OVRBoneCapsule);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRBoneCapsule*, "", "OVRBoneCapsule");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x28
@@ -55,22 +55,22 @@ namespace GlobalNamespace {
     // private UnityEngine.Rigidbody <CapsuleRigidbody>k__BackingField
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::Rigidbody* CapsuleRigidbody;
+    ::UnityEngine::Rigidbody* CapsuleRigidbody;
     // Field size check
-    static_assert(sizeof(UnityEngine::Rigidbody*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Rigidbody*) == 0x8);
     // private UnityEngine.CapsuleCollider <CapsuleCollider>k__BackingField
     // Size: 0x8
     // Offset: 0x20
-    UnityEngine::CapsuleCollider* CapsuleCollider;
+    ::UnityEngine::CapsuleCollider* CapsuleCollider;
     // Field size check
-    static_assert(sizeof(UnityEngine::CapsuleCollider*) == 0x8);
+    static_assert(sizeof(::UnityEngine::CapsuleCollider*) == 0x8);
     public:
     // Get instance field reference: private System.Int16 <BoneIndex>k__BackingField
     int16_t& dyn_$BoneIndex$k__BackingField();
     // Get instance field reference: private UnityEngine.Rigidbody <CapsuleRigidbody>k__BackingField
-    UnityEngine::Rigidbody*& dyn_$CapsuleRigidbody$k__BackingField();
+    ::UnityEngine::Rigidbody*& dyn_$CapsuleRigidbody$k__BackingField();
     // Get instance field reference: private UnityEngine.CapsuleCollider <CapsuleCollider>k__BackingField
-    UnityEngine::CapsuleCollider*& dyn_$CapsuleCollider$k__BackingField();
+    ::UnityEngine::CapsuleCollider*& dyn_$CapsuleCollider$k__BackingField();
     // public System.Int16 get_BoneIndex()
     // Offset: 0x15A1838
     int16_t get_BoneIndex();
@@ -79,21 +79,21 @@ namespace GlobalNamespace {
     void set_BoneIndex(int16_t value);
     // public UnityEngine.Rigidbody get_CapsuleRigidbody()
     // Offset: 0x15A1848
-    UnityEngine::Rigidbody* get_CapsuleRigidbody();
+    ::UnityEngine::Rigidbody* get_CapsuleRigidbody();
     // public System.Void set_CapsuleRigidbody(UnityEngine.Rigidbody value)
     // Offset: 0x15A1850
-    void set_CapsuleRigidbody(UnityEngine::Rigidbody* value);
+    void set_CapsuleRigidbody(::UnityEngine::Rigidbody* value);
     // public UnityEngine.CapsuleCollider get_CapsuleCollider()
     // Offset: 0x15A1858
-    UnityEngine::CapsuleCollider* get_CapsuleCollider();
+    ::UnityEngine::CapsuleCollider* get_CapsuleCollider();
     // public System.Void set_CapsuleCollider(UnityEngine.CapsuleCollider value)
     // Offset: 0x15A1860
-    void set_CapsuleCollider(UnityEngine::CapsuleCollider* value);
+    void set_CapsuleCollider(::UnityEngine::CapsuleCollider* value);
     // public System.Void .ctor(System.Int16 boneIndex, UnityEngine.Rigidbody capsuleRigidBody, UnityEngine.CapsuleCollider capsuleCollider)
     // Offset: 0x15A1870
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static OVRBoneCapsule* New_ctor(int16_t boneIndex, UnityEngine::Rigidbody* capsuleRigidBody, UnityEngine::CapsuleCollider* capsuleCollider) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRBoneCapsule::.ctor");
+    static OVRBoneCapsule* New_ctor(int16_t boneIndex, ::UnityEngine::Rigidbody* capsuleRigidBody, ::UnityEngine::CapsuleCollider* capsuleCollider) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRBoneCapsule::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRBoneCapsule*, creationType>(boneIndex, capsuleRigidBody, capsuleCollider)));
     }
     // public System.Void .ctor()
@@ -102,12 +102,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRBoneCapsule* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRBoneCapsule::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRBoneCapsule::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRBoneCapsule*, creationType>()));
     }
   }; // OVRBoneCapsule
   #pragma pack(pop)
-  static check_size<sizeof(OVRBoneCapsule), 32 + sizeof(UnityEngine::CapsuleCollider*)> __GlobalNamespace_OVRBoneCapsuleSizeCheck;
+  static check_size<sizeof(OVRBoneCapsule), 32 + sizeof(::UnityEngine::CapsuleCollider*)> __GlobalNamespace_OVRBoneCapsuleSizeCheck;
   static_assert(sizeof(OVRBoneCapsule) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -131,7 +131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::OVRBoneCapsule::get_CapsuleRigidbody
 // Il2CppName: get_CapsuleRigidbody
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rigidbody* (GlobalNamespace::OVRBoneCapsule::*)()>(&GlobalNamespace::OVRBoneCapsule::get_CapsuleRigidbody)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rigidbody* (GlobalNamespace::OVRBoneCapsule::*)()>(&GlobalNamespace::OVRBoneCapsule::get_CapsuleRigidbody)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRBoneCapsule*), "get_CapsuleRigidbody", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -139,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::OVRBoneCapsule::set_CapsuleRigidbody
 // Il2CppName: set_CapsuleRigidbody
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRBoneCapsule::*)(UnityEngine::Rigidbody*)>(&GlobalNamespace::OVRBoneCapsule::set_CapsuleRigidbody)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRBoneCapsule::*)(::UnityEngine::Rigidbody*)>(&GlobalNamespace::OVRBoneCapsule::set_CapsuleRigidbody)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rigidbody")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRBoneCapsule*), "set_CapsuleRigidbody", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -148,7 +148,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::OVRBoneCapsule::get_CapsuleCollider
 // Il2CppName: get_CapsuleCollider
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::CapsuleCollider* (GlobalNamespace::OVRBoneCapsule::*)()>(&GlobalNamespace::OVRBoneCapsule::get_CapsuleCollider)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::CapsuleCollider* (GlobalNamespace::OVRBoneCapsule::*)()>(&GlobalNamespace::OVRBoneCapsule::get_CapsuleCollider)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRBoneCapsule*), "get_CapsuleCollider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -156,7 +156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::OVRBoneCapsule::set_CapsuleCollider
 // Il2CppName: set_CapsuleCollider
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRBoneCapsule::*)(UnityEngine::CapsuleCollider*)>(&GlobalNamespace::OVRBoneCapsule::set_CapsuleCollider)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRBoneCapsule::*)(::UnityEngine::CapsuleCollider*)>(&GlobalNamespace::OVRBoneCapsule::set_CapsuleCollider)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "CapsuleCollider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRBoneCapsule*), "set_CapsuleCollider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

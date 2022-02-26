@@ -19,8 +19,8 @@ namespace UnityEngine {
   class HelpURLAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::HelpURLAttribute);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HelpURLAttribute*, "UnityEngine", "HelpURLAttribute");
+NEED_NO_BOX(::UnityEngine::HelpURLAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::HelpURLAttribute*, "UnityEngine", "HelpURLAttribute");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -29,7 +29,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AttributeUsageAttribute] Offset: 11A5B7C
   // [UsedByNativeCodeAttribute] Offset: 11A5B7C
-  class HelpURLAttribute : public System::Attribute {
+  class HelpURLAttribute : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -57,7 +57,7 @@ namespace UnityEngine {
     // Offset: 0x2029294
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HelpURLAttribute* New_ctor(::StringW url) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::HelpURLAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::HelpURLAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HelpURLAttribute*, creationType>(url)));
     }
   }; // UnityEngine.HelpURLAttribute

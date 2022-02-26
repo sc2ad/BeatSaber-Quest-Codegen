@@ -20,8 +20,8 @@ namespace UnityEngine {
   class IExposedPropertyTable;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::IExposedPropertyTable);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::IExposedPropertyTable*, "UnityEngine", "IExposedPropertyTable");
+NEED_NO_BOX(::UnityEngine::IExposedPropertyTable);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::IExposedPropertyTable*, "UnityEngine", "IExposedPropertyTable");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -32,7 +32,7 @@ namespace UnityEngine {
     public:
     // public UnityEngine.Object GetReferenceValue(UnityEngine.PropertyName id, out System.Boolean idValid)
     // Offset: 0xFFFFFFFF
-    UnityEngine::Object* GetReferenceValue(UnityEngine::PropertyName id, ByRef<bool> idValid);
+    ::UnityEngine::Object* GetReferenceValue(::UnityEngine::PropertyName id, ByRef<bool> idValid);
   }; // UnityEngine.IExposedPropertyTable
   #pragma pack(pop)
 }
@@ -40,7 +40,7 @@ namespace UnityEngine {
 // Writing MetadataGetter for method: UnityEngine::IExposedPropertyTable::GetReferenceValue
 // Il2CppName: GetReferenceValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (UnityEngine::IExposedPropertyTable::*)(UnityEngine::PropertyName, ByRef<bool>)>(&UnityEngine::IExposedPropertyTable::GetReferenceValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Object* (UnityEngine::IExposedPropertyTable::*)(::UnityEngine::PropertyName, ByRef<bool>)>(&UnityEngine::IExposedPropertyTable::GetReferenceValue)> {
   static const MethodInfo* get() {
     static auto* id = &::il2cpp_utils::GetClassFromName("UnityEngine", "PropertyName")->byval_arg;
     static auto* idValid = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;

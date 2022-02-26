@@ -18,8 +18,8 @@ namespace UnityEngine::Bindings {
   class NativeWritableSelfAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Bindings::NativeWritableSelfAttribute);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativeWritableSelfAttribute*, "UnityEngine.Bindings", "NativeWritableSelfAttribute");
+NEED_NO_BOX(::UnityEngine::Bindings::NativeWritableSelfAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Bindings::NativeWritableSelfAttribute*, "UnityEngine.Bindings", "NativeWritableSelfAttribute");
 // Type namespace: UnityEngine.Bindings
 namespace UnityEngine::Bindings {
   // Size: 0x11
@@ -28,7 +28,7 @@ namespace UnityEngine::Bindings {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AttributeUsageAttribute] Offset: 11A11A8
   // [VisibleToOtherModulesAttribute] Offset: FFFFFFFF
-  class NativeWritableSelfAttribute : public System::Attribute {
+  class NativeWritableSelfAttribute : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -63,7 +63,7 @@ namespace UnityEngine::Bindings {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NativeWritableSelfAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::NativeWritableSelfAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Bindings::NativeWritableSelfAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativeWritableSelfAttribute*, creationType>()));
     }
   }; // UnityEngine.Bindings.NativeWritableSelfAttribute

@@ -98,8 +98,8 @@ namespace System::Data {
   class DataColumn;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Data::DataColumn);
-DEFINE_IL2CPP_ARG_TYPE(System::Data::DataColumn*, "System.Data", "DataColumn");
+NEED_NO_BOX(::System::Data::DataColumn);
+DEFINE_IL2CPP_ARG_TYPE(::System::Data::DataColumn*, "System.Data", "DataColumn");
 // Type namespace: System.Data
 namespace System::Data {
   // Size: 0xF0
@@ -110,7 +110,7 @@ namespace System::Data {
   // [DefaultPropertyAttribute] Offset: 11D01D0
   // [DesignTimeVisibleAttribute] Offset: 11D01D0
   // [DefaultMemberAttribute] Offset: 11D01D0
-  class DataColumn : public System::ComponentModel::MarshalByValueComponent {
+  class DataColumn : public ::System::ComponentModel::MarshalByValueComponent {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -144,15 +144,15 @@ namespace System::Data {
     // private System.Type _dataType
     // Size: 0x8
     // Offset: 0x38
-    System::Type* dataType;
+    ::System::Type* dataType;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     // private System.Data.Common.StorageType _storageType
     // Size: 0x4
     // Offset: 0x40
-    System::Data::Common::StorageType storageType;
+    ::System::Data::Common::StorageType storageType;
     // Field size check
-    static_assert(sizeof(System::Data::Common::StorageType) == 0x4);
+    static_assert(sizeof(::System::Data::Common::StorageType) == 0x4);
     // Padding between fields: storageType and: defaultValue
     char __padding4[0x4] = {};
     // System.Object _defaultValue
@@ -164,17 +164,17 @@ namespace System::Data {
     // private System.Data.DataSetDateTime _dateTimeMode
     // Size: 0x4
     // Offset: 0x50
-    System::Data::DataSetDateTime dateTimeMode;
+    ::System::Data::DataSetDateTime dateTimeMode;
     // Field size check
-    static_assert(sizeof(System::Data::DataSetDateTime) == 0x4);
+    static_assert(sizeof(::System::Data::DataSetDateTime) == 0x4);
     // Padding between fields: dateTimeMode and: expression
     char __padding6[0x4] = {};
     // private System.Data.DataExpression _expression
     // Size: 0x8
     // Offset: 0x58
-    System::Data::DataExpression* expression;
+    ::System::Data::DataExpression* expression;
     // Field size check
-    static_assert(sizeof(System::Data::DataExpression*) == 0x8);
+    static_assert(sizeof(::System::Data::DataExpression*) == 0x8);
     // private System.Int32 _maxLength
     // Size: 0x4
     // Offset: 0x60
@@ -198,15 +198,15 @@ namespace System::Data {
     // System.Data.Index _sortIndex
     // Size: 0x8
     // Offset: 0x70
-    System::Data::Index* sortIndex;
+    ::System::Data::Index* sortIndex;
     // Field size check
-    static_assert(sizeof(System::Data::Index*) == 0x8);
+    static_assert(sizeof(::System::Data::Index*) == 0x8);
     // System.Data.DataTable _table
     // Size: 0x8
     // Offset: 0x78
-    System::Data::DataTable* table;
+    ::System::Data::DataTable* table;
     // Field size check
-    static_assert(sizeof(System::Data::DataTable*) == 0x8);
+    static_assert(sizeof(::System::Data::DataTable*) == 0x8);
     // private System.Boolean _unique
     // Size: 0x1
     // Offset: 0x80
@@ -218,9 +218,9 @@ namespace System::Data {
     // System.Data.MappingType _columnMapping
     // Size: 0x4
     // Offset: 0x84
-    System::Data::MappingType columnMapping;
+    ::System::Data::MappingType columnMapping;
     // Field size check
-    static_assert(sizeof(System::Data::MappingType) == 0x4);
+    static_assert(sizeof(::System::Data::MappingType) == 0x4);
     // System.Int32 _hashCode
     // Size: 0x4
     // Offset: 0x88
@@ -274,27 +274,27 @@ namespace System::Data {
     // System.Collections.Generic.List`1<System.Data.DataColumn> _dependentColumns
     // Size: 0x8
     // Offset: 0x98
-    System::Collections::Generic::List_1<System::Data::DataColumn*>* dependentColumns;
+    ::System::Collections::Generic::List_1<::System::Data::DataColumn*>* dependentColumns;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<System::Data::DataColumn*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::System::Data::DataColumn*>*) == 0x8);
     // System.Data.PropertyCollection _extendedProperties
     // Size: 0x8
     // Offset: 0xA0
-    System::Data::PropertyCollection* extendedProperties;
+    ::System::Data::PropertyCollection* extendedProperties;
     // Field size check
-    static_assert(sizeof(System::Data::PropertyCollection*) == 0x8);
+    static_assert(sizeof(::System::Data::PropertyCollection*) == 0x8);
     // private System.Data.Common.DataStorage _storage
     // Size: 0x8
     // Offset: 0xA8
-    System::Data::Common::DataStorage* storage;
+    ::System::Data::Common::DataStorage* storage;
     // Field size check
-    static_assert(sizeof(System::Data::Common::DataStorage*) == 0x8);
+    static_assert(sizeof(::System::Data::Common::DataStorage*) == 0x8);
     // private System.Data.AutoIncrementValue _autoInc
     // Size: 0x8
     // Offset: 0xB0
-    System::Data::AutoIncrementValue* autoInc;
+    ::System::Data::AutoIncrementValue* autoInc;
     // Field size check
-    static_assert(sizeof(System::Data::AutoIncrementValue*) == 0x8);
+    static_assert(sizeof(::System::Data::AutoIncrementValue*) == 0x8);
     // System.String _columnUri
     // Size: 0x8
     // Offset: 0xB8
@@ -316,9 +316,9 @@ namespace System::Data {
     // System.Data.SimpleType _simpleType
     // Size: 0x8
     // Offset: 0xD0
-    System::Data::SimpleType* simpleType;
+    ::System::Data::SimpleType* simpleType;
     // Field size check
-    static_assert(sizeof(System::Data::SimpleType*) == 0x8);
+    static_assert(sizeof(::System::Data::SimpleType*) == 0x8);
     // private readonly System.Int32 _objectID
     // Size: 0x4
     // Offset: 0xD8
@@ -336,9 +336,9 @@ namespace System::Data {
     // private System.ComponentModel.PropertyChangedEventHandler PropertyChanging
     // Size: 0x8
     // Offset: 0xE8
-    System::ComponentModel::PropertyChangedEventHandler* PropertyChanging;
+    ::System::ComponentModel::PropertyChangedEventHandler* PropertyChanging;
     // Field size check
-    static_assert(sizeof(System::ComponentModel::PropertyChangedEventHandler*) == 0x8);
+    static_assert(sizeof(::System::ComponentModel::PropertyChangedEventHandler*) == 0x8);
     public:
     // Get static field: static private System.Int32 s_objectTypeCount
     static int _get_s_objectTypeCount();
@@ -351,15 +351,15 @@ namespace System::Data {
     // Get instance field reference: private System.String _columnName
     ::StringW& dyn__columnName();
     // Get instance field reference: private System.Type _dataType
-    System::Type*& dyn__dataType();
+    ::System::Type*& dyn__dataType();
     // Get instance field reference: private System.Data.Common.StorageType _storageType
-    System::Data::Common::StorageType& dyn__storageType();
+    ::System::Data::Common::StorageType& dyn__storageType();
     // Get instance field reference: System.Object _defaultValue
     ::Il2CppObject*& dyn__defaultValue();
     // Get instance field reference: private System.Data.DataSetDateTime _dateTimeMode
-    System::Data::DataSetDateTime& dyn__dateTimeMode();
+    ::System::Data::DataSetDateTime& dyn__dateTimeMode();
     // Get instance field reference: private System.Data.DataExpression _expression
-    System::Data::DataExpression*& dyn__expression();
+    ::System::Data::DataExpression*& dyn__expression();
     // Get instance field reference: private System.Int32 _maxLength
     int& dyn__maxLength();
     // Get instance field reference: private System.Int32 _ordinal
@@ -367,13 +367,13 @@ namespace System::Data {
     // Get instance field reference: private System.Boolean _readOnly
     bool& dyn__readOnly();
     // Get instance field reference: System.Data.Index _sortIndex
-    System::Data::Index*& dyn__sortIndex();
+    ::System::Data::Index*& dyn__sortIndex();
     // Get instance field reference: System.Data.DataTable _table
-    System::Data::DataTable*& dyn__table();
+    ::System::Data::DataTable*& dyn__table();
     // Get instance field reference: private System.Boolean _unique
     bool& dyn__unique();
     // Get instance field reference: System.Data.MappingType _columnMapping
-    System::Data::MappingType& dyn__columnMapping();
+    ::System::Data::MappingType& dyn__columnMapping();
     // Get instance field reference: System.Int32 _hashCode
     int& dyn__hashCode();
     // Get instance field reference: System.Int32 _errors
@@ -391,13 +391,13 @@ namespace System::Data {
     // Get instance field reference: private System.Boolean _defaultValueIsNull
     bool& dyn__defaultValueIsNull();
     // Get instance field reference: System.Collections.Generic.List`1<System.Data.DataColumn> _dependentColumns
-    System::Collections::Generic::List_1<System::Data::DataColumn*>*& dyn__dependentColumns();
+    ::System::Collections::Generic::List_1<::System::Data::DataColumn*>*& dyn__dependentColumns();
     // Get instance field reference: System.Data.PropertyCollection _extendedProperties
-    System::Data::PropertyCollection*& dyn__extendedProperties();
+    ::System::Data::PropertyCollection*& dyn__extendedProperties();
     // Get instance field reference: private System.Data.Common.DataStorage _storage
-    System::Data::Common::DataStorage*& dyn__storage();
+    ::System::Data::Common::DataStorage*& dyn__storage();
     // Get instance field reference: private System.Data.AutoIncrementValue _autoInc
-    System::Data::AutoIncrementValue*& dyn__autoInc();
+    ::System::Data::AutoIncrementValue*& dyn__autoInc();
     // Get instance field reference: System.String _columnUri
     ::StringW& dyn__columnUri();
     // Get instance field reference: private System.String _columnPrefix
@@ -405,13 +405,13 @@ namespace System::Data {
     // Get instance field reference: System.String _encodedColumnName
     ::StringW& dyn__encodedColumnName();
     // Get instance field reference: System.Data.SimpleType _simpleType
-    System::Data::SimpleType*& dyn__simpleType();
+    ::System::Data::SimpleType*& dyn__simpleType();
     // Get instance field reference: private readonly System.Int32 _objectID
     int& dyn__objectID();
     // Get instance field reference: private System.String <XmlDataType>k__BackingField
     ::StringW& dyn_$XmlDataType$k__BackingField();
     // Get instance field reference: private System.ComponentModel.PropertyChangedEventHandler PropertyChanging
-    System::ComponentModel::PropertyChangedEventHandler*& dyn_PropertyChanging();
+    ::System::ComponentModel::PropertyChangedEventHandler*& dyn_PropertyChanging();
     // public System.Boolean get_AllowDBNull()
     // Offset: 0x1E4B8E4
     bool get_AllowDBNull();
@@ -432,7 +432,7 @@ namespace System::Data {
     void set_AutoIncrementCurrent(::Il2CppObject* value);
     // System.Data.AutoIncrementValue get_AutoInc()
     // Offset: 0x1E4CA68
-    System::Data::AutoIncrementValue* get_AutoInc();
+    ::System::Data::AutoIncrementValue* get_AutoInc();
     // public System.Int64 get_AutoIncrementSeed()
     // Offset: 0x1E4CBCC
     int64_t get_AutoIncrementSeed();
@@ -462,10 +462,10 @@ namespace System::Data {
     ::StringW get_EncodedColumnName();
     // System.IFormatProvider get_FormatProvider()
     // Offset: 0x1E4CCF8
-    System::IFormatProvider* get_FormatProvider();
+    ::System::IFormatProvider* get_FormatProvider();
     // System.Globalization.CultureInfo get_Locale()
     // Offset: 0x1E4D014
-    System::Globalization::CultureInfo* get_Locale();
+    ::System::Globalization::CultureInfo* get_Locale();
     // System.Int32 get_ObjectID()
     // Offset: 0x1E4D724
     int get_ObjectID();
@@ -480,19 +480,19 @@ namespace System::Data {
     bool get_Computed();
     // System.Data.DataExpression get_DataExpression()
     // Offset: 0x1E4DA90
-    System::Data::DataExpression* get_DataExpression();
+    ::System::Data::DataExpression* get_DataExpression();
     // public System.Type get_DataType()
     // Offset: 0x1E4DA98
-    System::Type* get_DataType();
+    ::System::Type* get_DataType();
     // public System.Void set_DataType(System.Type value)
     // Offset: 0x1E4C23C
-    void set_DataType(System::Type* value);
+    void set_DataType(::System::Type* value);
     // public System.Data.DataSetDateTime get_DateTimeMode()
     // Offset: 0x1E4DFF8
-    System::Data::DataSetDateTime get_DateTimeMode();
+    ::System::Data::DataSetDateTime get_DateTimeMode();
     // public System.Void set_DateTimeMode(System.Data.DataSetDateTime value)
     // Offset: 0x1E4E000
-    void set_DateTimeMode(System::Data::DataSetDateTime value);
+    void set_DateTimeMode(::System::Data::DataSetDateTime value);
     // public System.Object get_DefaultValue()
     // Offset: 0x1E4DBE8
     ::Il2CppObject* get_DefaultValue();
@@ -510,7 +510,7 @@ namespace System::Data {
     void set_Expression(::StringW value);
     // public System.Data.PropertyCollection get_ExtendedProperties()
     // Offset: 0x1E4E698
-    System::Data::PropertyCollection* get_ExtendedProperties();
+    ::System::Data::PropertyCollection* get_ExtendedProperties();
     // System.Boolean get_HasData()
     // Offset: 0x1E4C22C
     bool get_HasData();
@@ -552,10 +552,10 @@ namespace System::Data {
     void set_ReadOnly(bool value);
     // private System.Data.Index get_SortIndex()
     // Offset: 0x1E4F0B8
-    System::Data::Index* get_SortIndex();
+    ::System::Data::Index* get_SortIndex();
     // public System.Data.DataTable get_Table()
     // Offset: 0x1E4F18C
-    System::Data::DataTable* get_Table();
+    ::System::Data::DataTable* get_Table();
     // System.Object get_Item(System.Int32 record)
     // Offset: 0x1E4DA20
     ::Il2CppObject* get_Item(int record);
@@ -576,16 +576,16 @@ namespace System::Data {
     void set_XmlDataType(::StringW value);
     // System.Data.SimpleType get_SimpleType()
     // Offset: 0x1E4FAE0
-    System::Data::SimpleType* get_SimpleType();
+    ::System::Data::SimpleType* get_SimpleType();
     // System.Void set_SimpleType(System.Data.SimpleType value)
     // Offset: 0x1E4B060
-    void set_SimpleType(System::Data::SimpleType* value);
+    void set_SimpleType(::System::Data::SimpleType* value);
     // public System.Data.MappingType get_ColumnMapping()
     // Offset: 0x1E4FAE8
-    System::Data::MappingType get_ColumnMapping();
+    ::System::Data::MappingType get_ColumnMapping();
     // public System.Void set_ColumnMapping(System.Data.MappingType value)
     // Offset: 0x1E4FAF0
-    void set_ColumnMapping(System::Data::MappingType value);
+    void set_ColumnMapping(::System::Data::MappingType value);
     // System.Boolean get_IsCustomType()
     // Offset: 0x1E50AC8
     bool get_IsCustomType();
@@ -595,23 +595,23 @@ namespace System::Data {
     // public System.Void .ctor(System.String columnName, System.Type dataType)
     // Offset: 0x1E4B054
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DataColumn* New_ctor(::StringW columnName, System::Type* dataType) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Data::DataColumn::.ctor");
+    static DataColumn* New_ctor(::StringW columnName, ::System::Type* dataType) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Data::DataColumn::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DataColumn*, creationType>(columnName, dataType)));
     }
     // public System.Void .ctor(System.String columnName, System.Type dataType, System.String expr, System.Data.MappingType type)
     // Offset: 0x1E4AD98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DataColumn* New_ctor(::StringW columnName, System::Type* dataType, ::StringW expr, System::Data::MappingType type) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Data::DataColumn::.ctor");
+    static DataColumn* New_ctor(::StringW columnName, ::System::Type* dataType, ::StringW expr, ::System::Data::MappingType type) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Data::DataColumn::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DataColumn*, creationType>(columnName, dataType, expr, type)));
     }
     // private System.Void UpdateColumnType(System.Type type, System.Data.Common.StorageType typeCode)
     // Offset: 0x1E4B0A8
-    void UpdateColumnType(System::Type* type, System::Data::Common::StorageType typeCode);
+    void UpdateColumnType(::System::Type* type, ::System::Data::Common::StorageType typeCode);
     // System.String GetColumnValueAsString(System.Data.DataRow row, System.Data.DataRowVersion version)
     // Offset: 0x1E4D880
-    ::StringW GetColumnValueAsString(System::Data::DataRow* row, System::Data::DataRowVersion version);
+    ::StringW GetColumnValueAsString(::System::Data::DataRow* row, ::System::Data::DataRowVersion version);
     // private System.Void SetMaxLengthSimpleType()
     // Offset: 0x1E4E740
     void SetMaxLengthSimpleType();
@@ -620,10 +620,10 @@ namespace System::Data {
     void SetOrdinalInternal(int ordinal);
     // System.Void SetTable(System.Data.DataTable table)
     // Offset: 0x1E4F194
-    void SetTable(System::Data::DataTable* table);
+    void SetTable(::System::Data::DataTable* table);
     // private System.Data.DataRow GetDataRow(System.Int32 index)
     // Offset: 0x1E4F324
-    System::Data::DataRow* GetDataRow(int index);
+    ::System::Data::DataRow* GetDataRow(int index);
     // System.Void InitializeRecord(System.Int32 record)
     // Offset: 0x1E4E658
     void InitializeRecord(int record);
@@ -638,19 +638,19 @@ namespace System::Data {
     void InternalUnique(bool value);
     // System.Void CheckColumnConstraint(System.Data.DataRow row, System.Data.DataRowAction action)
     // Offset: 0x1E4FD00
-    void CheckColumnConstraint(System::Data::DataRow* row, System::Data::DataRowAction action);
+    void CheckColumnConstraint(::System::Data::DataRow* row, ::System::Data::DataRowAction action);
     // System.Boolean CheckMaxLength()
     // Offset: 0x1E4EA98
     bool CheckMaxLength();
     // System.Void CheckMaxLength(System.Data.DataRow dr)
     // Offset: 0x1E4FDF8
-    void CheckMaxLength(System::Data::DataRow* dr);
+    void CheckMaxLength(::System::Data::DataRow* dr);
     // protected internal System.Void CheckNotAllowNull()
     // Offset: 0x1E4BA30
     void CheckNotAllowNull();
     // System.Void CheckNullable(System.Data.DataRow row)
     // Offset: 0x1E4FD58
-    void CheckNullable(System::Data::DataRow* row);
+    void CheckNullable(::System::Data::DataRow* row);
     // protected System.Void CheckUnique()
     // Offset: 0x1E4FA4C
     void CheckUnique();
@@ -671,10 +671,10 @@ namespace System::Data {
     void Copy(int srcRecordNo, int dstRecordNo);
     // System.Data.DataColumn Clone()
     // Offset: 0x1E50518
-    System::Data::DataColumn* Clone();
+    ::System::Data::DataColumn* Clone();
     // System.Object GetAggregateValue(System.Int32[] records, System.Data.AggregateType kind)
     // Offset: 0x1E50958
-    ::Il2CppObject* GetAggregateValue(::ArrayW<int> records, System::Data::AggregateType kind);
+    ::Il2CppObject* GetAggregateValue(::ArrayW<int> records, ::System::Data::AggregateType kind);
     // private System.Int32 GetStringLength(System.Int32 record)
     // Offset: 0x1E4FFC0
     int GetStringLength(int record);
@@ -683,7 +683,7 @@ namespace System::Data {
     void Init(int record);
     // static System.Boolean IsAutoIncrementType(System.Type dataType)
     // Offset: 0x1E4BF6C
-    static bool IsAutoIncrementType(System::Type* dataType);
+    static bool IsAutoIncrementType(::System::Type* dataType);
     // System.Boolean IsValueCustomTypeInstance(System.Object value)
     // Offset: 0x1E50B4C
     bool IsValueCustomTypeInstance(::Il2CppObject* value);
@@ -698,7 +698,7 @@ namespace System::Data {
     bool IsNotAllowDBNullViolated();
     // protected System.Void OnPropertyChanging(System.ComponentModel.PropertyChangedEventArgs pcevent)
     // Offset: 0x1E515AC
-    void OnPropertyChanging(System::ComponentModel::PropertyChangedEventArgs* pcevent);
+    void OnPropertyChanging(::System::ComponentModel::PropertyChangedEventArgs* pcevent);
     // protected internal System.Void RaisePropertyChanging(System.String name)
     // Offset: 0x1E4D5D8
     void RaisePropertyChanging(::StringW name);
@@ -716,31 +716,31 @@ namespace System::Data {
     ::Il2CppObject* ConvertXmlToObject(::StringW s);
     // System.Object ConvertXmlToObject(System.Xml.XmlReader xmlReader, System.Xml.Serialization.XmlRootAttribute xmlAttrib)
     // Offset: 0x1E5175C
-    ::Il2CppObject* ConvertXmlToObject(System::Xml::XmlReader* xmlReader, System::Xml::Serialization::XmlRootAttribute* xmlAttrib);
+    ::Il2CppObject* ConvertXmlToObject(::System::Xml::XmlReader* xmlReader, ::System::Xml::Serialization::XmlRootAttribute* xmlAttrib);
     // System.String ConvertObjectToXml(System.Object value)
     // Offset: 0x1E4DA40
     ::StringW ConvertObjectToXml(::Il2CppObject* value);
     // System.Void ConvertObjectToXml(System.Object value, System.Xml.XmlWriter xmlWriter, System.Xml.Serialization.XmlRootAttribute xmlAttrib)
     // Offset: 0x1E517AC
-    void ConvertObjectToXml(::Il2CppObject* value, System::Xml::XmlWriter* xmlWriter, System::Xml::Serialization::XmlRootAttribute* xmlAttrib);
+    void ConvertObjectToXml(::Il2CppObject* value, ::System::Xml::XmlWriter* xmlWriter, ::System::Xml::Serialization::XmlRootAttribute* xmlAttrib);
     // System.Object GetEmptyColumnStore(System.Int32 recordCount)
     // Offset: 0x1E51804
     ::Il2CppObject* GetEmptyColumnStore(int recordCount);
     // System.Void CopyValueIntoStore(System.Int32 record, System.Object store, System.Collections.BitArray nullbits, System.Int32 storeIndex)
     // Offset: 0x1E5183C
-    void CopyValueIntoStore(int record, ::Il2CppObject* store, System::Collections::BitArray* nullbits, int storeIndex);
+    void CopyValueIntoStore(int record, ::Il2CppObject* store, ::System::Collections::BitArray* nullbits, int storeIndex);
     // System.Void SetStorage(System.Object store, System.Collections.BitArray nullbits)
     // Offset: 0x1E51858
-    void SetStorage(::Il2CppObject* store, System::Collections::BitArray* nullbits);
+    void SetStorage(::Il2CppObject* store, ::System::Collections::BitArray* nullbits);
     // System.Void AddDependentColumn(System.Data.DataColumn expressionColumn)
     // Offset: 0x1E518A0
-    void AddDependentColumn(System::Data::DataColumn* expressionColumn);
+    void AddDependentColumn(::System::Data::DataColumn* expressionColumn);
     // System.Void RemoveDependentColumn(System.Data.DataColumn expressionColumn)
     // Offset: 0x1E5194C
-    void RemoveDependentColumn(System::Data::DataColumn* expressionColumn);
+    void RemoveDependentColumn(::System::Data::DataColumn* expressionColumn);
     // System.Void HandleDependentColumnList(System.Data.DataExpression oldExpression, System.Data.DataExpression newExpression)
     // Offset: 0x1E4E508
-    void HandleDependentColumnList(System::Data::DataExpression* oldExpression, System::Data::DataExpression* newExpression);
+    void HandleDependentColumnList(::System::Data::DataExpression* oldExpression, ::System::Data::DataExpression* newExpression);
     // public System.Void .ctor()
     // Offset: 0x1E4AD0C
     // Implemented from: System.ComponentModel.MarshalByValueComponent
@@ -748,7 +748,7 @@ namespace System::Data {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DataColumn* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Data::DataColumn::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Data::DataColumn::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DataColumn*, creationType>()));
     }
     // public override System.String ToString()
@@ -758,7 +758,7 @@ namespace System::Data {
     ::StringW ToString();
   }; // System.Data.DataColumn
   #pragma pack(pop)
-  static check_size<sizeof(DataColumn), 232 + sizeof(System::ComponentModel::PropertyChangedEventHandler*)> __System_Data_DataColumnSizeCheck;
+  static check_size<sizeof(DataColumn), 232 + sizeof(::System::ComponentModel::PropertyChangedEventHandler*)> __System_Data_DataColumnSizeCheck;
   static_assert(sizeof(DataColumn) == 0xF0);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -816,7 +816,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataColumn::get_AutoInc
 // Il2CppName: get_AutoInc
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::AutoIncrementValue* (System::Data::DataColumn::*)()>(&System::Data::DataColumn::get_AutoInc)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::AutoIncrementValue* (System::Data::DataColumn::*)()>(&System::Data::DataColumn::get_AutoInc)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataColumn*), "get_AutoInc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -900,7 +900,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Data::DataColumn::get_FormatProvider
 // Il2CppName: get_FormatProvider
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IFormatProvider* (System::Data::DataColumn::*)()>(&System::Data::DataColumn::get_FormatProvider)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IFormatProvider* (System::Data::DataColumn::*)()>(&System::Data::DataColumn::get_FormatProvider)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataColumn*), "get_FormatProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -908,7 +908,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IFo
 // Writing MetadataGetter for method: System::Data::DataColumn::get_Locale
 // Il2CppName: get_Locale
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureInfo* (System::Data::DataColumn::*)()>(&System::Data::DataColumn::get_Locale)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::CultureInfo* (System::Data::DataColumn::*)()>(&System::Data::DataColumn::get_Locale)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataColumn*), "get_Locale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -949,7 +949,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Data::DataColumn::get_DataExpression
 // Il2CppName: get_DataExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::DataExpression* (System::Data::DataColumn::*)()>(&System::Data::DataColumn::get_DataExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataExpression* (System::Data::DataColumn::*)()>(&System::Data::DataColumn::get_DataExpression)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataColumn*), "get_DataExpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -957,7 +957,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::DataColumn::get_DataType
 // Il2CppName: get_DataType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Data::DataColumn::*)()>(&System::Data::DataColumn::get_DataType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (System::Data::DataColumn::*)()>(&System::Data::DataColumn::get_DataType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataColumn*), "get_DataType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -965,7 +965,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: System::Data::DataColumn::set_DataType
 // Il2CppName: set_DataType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumn::*)(System::Type*)>(&System::Data::DataColumn::set_DataType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumn::*)(::System::Type*)>(&System::Data::DataColumn::set_DataType)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataColumn*), "set_DataType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -974,7 +974,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataColumn::get_DateTimeMode
 // Il2CppName: get_DateTimeMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::DataSetDateTime (System::Data::DataColumn::*)()>(&System::Data::DataColumn::get_DateTimeMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataSetDateTime (System::Data::DataColumn::*)()>(&System::Data::DataColumn::get_DateTimeMode)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataColumn*), "get_DateTimeMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -982,7 +982,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::DataColumn::set_DateTimeMode
 // Il2CppName: set_DateTimeMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumn::*)(System::Data::DataSetDateTime)>(&System::Data::DataColumn::set_DateTimeMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumn::*)(::System::Data::DataSetDateTime)>(&System::Data::DataColumn::set_DateTimeMode)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Data", "DataSetDateTime")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataColumn*), "set_DateTimeMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1033,7 +1033,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataColumn::get_ExtendedProperties
 // Il2CppName: get_ExtendedProperties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::PropertyCollection* (System::Data::DataColumn::*)()>(&System::Data::DataColumn::get_ExtendedProperties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::PropertyCollection* (System::Data::DataColumn::*)()>(&System::Data::DataColumn::get_ExtendedProperties)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataColumn*), "get_ExtendedProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1148,7 +1148,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataColumn::get_SortIndex
 // Il2CppName: get_SortIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::Index* (System::Data::DataColumn::*)()>(&System::Data::DataColumn::get_SortIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::Index* (System::Data::DataColumn::*)()>(&System::Data::DataColumn::get_SortIndex)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataColumn*), "get_SortIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1156,7 +1156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::DataColumn::get_Table
 // Il2CppName: get_Table
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::DataTable* (System::Data::DataColumn::*)()>(&System::Data::DataColumn::get_Table)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataTable* (System::Data::DataColumn::*)()>(&System::Data::DataColumn::get_Table)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataColumn*), "get_Table", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1217,7 +1217,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataColumn::get_SimpleType
 // Il2CppName: get_SimpleType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::SimpleType* (System::Data::DataColumn::*)()>(&System::Data::DataColumn::get_SimpleType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SimpleType* (System::Data::DataColumn::*)()>(&System::Data::DataColumn::get_SimpleType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataColumn*), "get_SimpleType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1225,7 +1225,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::DataColumn::set_SimpleType
 // Il2CppName: set_SimpleType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumn::*)(System::Data::SimpleType*)>(&System::Data::DataColumn::set_SimpleType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumn::*)(::System::Data::SimpleType*)>(&System::Data::DataColumn::set_SimpleType)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Data", "SimpleType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataColumn*), "set_SimpleType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1234,7 +1234,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataColumn::get_ColumnMapping
 // Il2CppName: get_ColumnMapping
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::MappingType (System::Data::DataColumn::*)()>(&System::Data::DataColumn::get_ColumnMapping)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::MappingType (System::Data::DataColumn::*)()>(&System::Data::DataColumn::get_ColumnMapping)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataColumn*), "get_ColumnMapping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1242,7 +1242,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::DataColumn::set_ColumnMapping
 // Il2CppName: set_ColumnMapping
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumn::*)(System::Data::MappingType)>(&System::Data::DataColumn::set_ColumnMapping)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumn::*)(::System::Data::MappingType)>(&System::Data::DataColumn::set_ColumnMapping)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Data", "MappingType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataColumn*), "set_ColumnMapping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1275,7 +1275,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Data::DataColumn::UpdateColumnType
 // Il2CppName: UpdateColumnType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumn::*)(System::Type*, System::Data::Common::StorageType)>(&System::Data::DataColumn::UpdateColumnType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumn::*)(::System::Type*, ::System::Data::Common::StorageType)>(&System::Data::DataColumn::UpdateColumnType)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* typeCode = &::il2cpp_utils::GetClassFromName("System.Data.Common", "StorageType")->byval_arg;
@@ -1285,7 +1285,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataColumn::GetColumnValueAsString
 // Il2CppName: GetColumnValueAsString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Data::DataColumn::*)(System::Data::DataRow*, System::Data::DataRowVersion)>(&System::Data::DataColumn::GetColumnValueAsString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Data::DataColumn::*)(::System::Data::DataRow*, ::System::Data::DataRowVersion)>(&System::Data::DataColumn::GetColumnValueAsString)> {
   static const MethodInfo* get() {
     static auto* row = &::il2cpp_utils::GetClassFromName("System.Data", "DataRow")->byval_arg;
     static auto* version = &::il2cpp_utils::GetClassFromName("System.Data", "DataRowVersion")->byval_arg;
@@ -1312,7 +1312,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataColumn::SetTable
 // Il2CppName: SetTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumn::*)(System::Data::DataTable*)>(&System::Data::DataColumn::SetTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumn::*)(::System::Data::DataTable*)>(&System::Data::DataColumn::SetTable)> {
   static const MethodInfo* get() {
     static auto* table = &::il2cpp_utils::GetClassFromName("System.Data", "DataTable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataColumn*), "SetTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{table});
@@ -1321,7 +1321,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataColumn::GetDataRow
 // Il2CppName: GetDataRow
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::DataRow* (System::Data::DataColumn::*)(int)>(&System::Data::DataColumn::GetDataRow)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataRow* (System::Data::DataColumn::*)(int)>(&System::Data::DataColumn::GetDataRow)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataColumn*), "GetDataRow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
@@ -1367,7 +1367,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataColumn::CheckColumnConstraint
 // Il2CppName: CheckColumnConstraint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumn::*)(System::Data::DataRow*, System::Data::DataRowAction)>(&System::Data::DataColumn::CheckColumnConstraint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumn::*)(::System::Data::DataRow*, ::System::Data::DataRowAction)>(&System::Data::DataColumn::CheckColumnConstraint)> {
   static const MethodInfo* get() {
     static auto* row = &::il2cpp_utils::GetClassFromName("System.Data", "DataRow")->byval_arg;
     static auto* action = &::il2cpp_utils::GetClassFromName("System.Data", "DataRowAction")->byval_arg;
@@ -1385,7 +1385,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Data::DataColumn::CheckMaxLength
 // Il2CppName: CheckMaxLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumn::*)(System::Data::DataRow*)>(&System::Data::DataColumn::CheckMaxLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumn::*)(::System::Data::DataRow*)>(&System::Data::DataColumn::CheckMaxLength)> {
   static const MethodInfo* get() {
     static auto* dr = &::il2cpp_utils::GetClassFromName("System.Data", "DataRow")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataColumn*), "CheckMaxLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dr});
@@ -1402,7 +1402,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataColumn::CheckNullable
 // Il2CppName: CheckNullable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumn::*)(System::Data::DataRow*)>(&System::Data::DataColumn::CheckNullable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumn::*)(::System::Data::DataRow*)>(&System::Data::DataColumn::CheckNullable)> {
   static const MethodInfo* get() {
     static auto* row = &::il2cpp_utils::GetClassFromName("System.Data", "DataRow")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataColumn*), "CheckNullable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{row});
@@ -1469,7 +1469,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataColumn::Clone
 // Il2CppName: Clone
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::DataColumn* (System::Data::DataColumn::*)()>(&System::Data::DataColumn::Clone)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataColumn* (System::Data::DataColumn::*)()>(&System::Data::DataColumn::Clone)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataColumn*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1477,7 +1477,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::DataColumn::GetAggregateValue
 // Il2CppName: GetAggregateValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Data::DataColumn::*)(::ArrayW<int>, System::Data::AggregateType)>(&System::Data::DataColumn::GetAggregateValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Data::DataColumn::*)(::ArrayW<int>, ::System::Data::AggregateType)>(&System::Data::DataColumn::GetAggregateValue)> {
   static const MethodInfo* get() {
     static auto* records = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* kind = &::il2cpp_utils::GetClassFromName("System.Data", "AggregateType")->byval_arg;
@@ -1505,7 +1505,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataColumn::IsAutoIncrementType
 // Il2CppName: IsAutoIncrementType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&System::Data::DataColumn::IsAutoIncrementType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&System::Data::DataColumn::IsAutoIncrementType)> {
   static const MethodInfo* get() {
     static auto* dataType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataColumn*), "IsAutoIncrementType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dataType});
@@ -1547,7 +1547,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Data::DataColumn::OnPropertyChanging
 // Il2CppName: OnPropertyChanging
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumn::*)(System::ComponentModel::PropertyChangedEventArgs*)>(&System::Data::DataColumn::OnPropertyChanging)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumn::*)(::System::ComponentModel::PropertyChangedEventArgs*)>(&System::Data::DataColumn::OnPropertyChanging)> {
   static const MethodInfo* get() {
     static auto* pcevent = &::il2cpp_utils::GetClassFromName("System.ComponentModel", "PropertyChangedEventArgs")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataColumn*), "OnPropertyChanging", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pcevent});
@@ -1599,7 +1599,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Data::DataColumn::ConvertXmlToObject
 // Il2CppName: ConvertXmlToObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Data::DataColumn::*)(System::Xml::XmlReader*, System::Xml::Serialization::XmlRootAttribute*)>(&System::Data::DataColumn::ConvertXmlToObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Data::DataColumn::*)(::System::Xml::XmlReader*, ::System::Xml::Serialization::XmlRootAttribute*)>(&System::Data::DataColumn::ConvertXmlToObject)> {
   static const MethodInfo* get() {
     static auto* xmlReader = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlReader")->byval_arg;
     static auto* xmlAttrib = &::il2cpp_utils::GetClassFromName("System.Xml.Serialization", "XmlRootAttribute")->byval_arg;
@@ -1618,7 +1618,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Data::DataColumn::ConvertObjectToXml
 // Il2CppName: ConvertObjectToXml
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumn::*)(::Il2CppObject*, System::Xml::XmlWriter*, System::Xml::Serialization::XmlRootAttribute*)>(&System::Data::DataColumn::ConvertObjectToXml)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumn::*)(::Il2CppObject*, ::System::Xml::XmlWriter*, ::System::Xml::Serialization::XmlRootAttribute*)>(&System::Data::DataColumn::ConvertObjectToXml)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* xmlWriter = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlWriter")->byval_arg;
@@ -1638,7 +1638,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Data::DataColumn::CopyValueIntoStore
 // Il2CppName: CopyValueIntoStore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumn::*)(int, ::Il2CppObject*, System::Collections::BitArray*, int)>(&System::Data::DataColumn::CopyValueIntoStore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumn::*)(int, ::Il2CppObject*, ::System::Collections::BitArray*, int)>(&System::Data::DataColumn::CopyValueIntoStore)> {
   static const MethodInfo* get() {
     static auto* record = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* store = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -1650,7 +1650,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataColumn::SetStorage
 // Il2CppName: SetStorage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumn::*)(::Il2CppObject*, System::Collections::BitArray*)>(&System::Data::DataColumn::SetStorage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumn::*)(::Il2CppObject*, ::System::Collections::BitArray*)>(&System::Data::DataColumn::SetStorage)> {
   static const MethodInfo* get() {
     static auto* store = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* nullbits = &::il2cpp_utils::GetClassFromName("System.Collections", "BitArray")->byval_arg;
@@ -1660,7 +1660,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataColumn::AddDependentColumn
 // Il2CppName: AddDependentColumn
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumn::*)(System::Data::DataColumn*)>(&System::Data::DataColumn::AddDependentColumn)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumn::*)(::System::Data::DataColumn*)>(&System::Data::DataColumn::AddDependentColumn)> {
   static const MethodInfo* get() {
     static auto* expressionColumn = &::il2cpp_utils::GetClassFromName("System.Data", "DataColumn")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataColumn*), "AddDependentColumn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expressionColumn});
@@ -1669,7 +1669,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataColumn::RemoveDependentColumn
 // Il2CppName: RemoveDependentColumn
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumn::*)(System::Data::DataColumn*)>(&System::Data::DataColumn::RemoveDependentColumn)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumn::*)(::System::Data::DataColumn*)>(&System::Data::DataColumn::RemoveDependentColumn)> {
   static const MethodInfo* get() {
     static auto* expressionColumn = &::il2cpp_utils::GetClassFromName("System.Data", "DataColumn")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataColumn*), "RemoveDependentColumn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expressionColumn});
@@ -1678,7 +1678,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataColumn::HandleDependentColumnList
 // Il2CppName: HandleDependentColumnList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumn::*)(System::Data::DataExpression*, System::Data::DataExpression*)>(&System::Data::DataColumn::HandleDependentColumnList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumn::*)(::System::Data::DataExpression*, ::System::Data::DataExpression*)>(&System::Data::DataColumn::HandleDependentColumnList)> {
   static const MethodInfo* get() {
     static auto* oldExpression = &::il2cpp_utils::GetClassFromName("System.Data", "DataExpression")->byval_arg;
     static auto* newExpression = &::il2cpp_utils::GetClassFromName("System.Data", "DataExpression")->byval_arg;

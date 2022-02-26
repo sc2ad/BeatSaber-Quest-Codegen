@@ -35,8 +35,8 @@ namespace GlobalNamespace {
   class BeatmapObjectsInTimeRowProcessor;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BeatmapObjectsInTimeRowProcessor);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectsInTimeRowProcessor*, "", "BeatmapObjectsInTimeRowProcessor");
+NEED_NO_BOX(::GlobalNamespace::BeatmapObjectsInTimeRowProcessor);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapObjectsInTimeRowProcessor*, "", "BeatmapObjectsInTimeRowProcessor");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x2C
@@ -57,21 +57,21 @@ namespace GlobalNamespace {
     // private readonly System.Collections.Generic.List`1<NoteData> _currentTimeRowColorNotes
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::List_1<GlobalNamespace::NoteData*>* currentTimeRowColorNotes;
+    ::System::Collections::Generic::List_1<::GlobalNamespace::NoteData*>* currentTimeRowColorNotes;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::GlobalNamespace::NoteData*>*) == 0x8);
     // private readonly System.Collections.Generic.List`1<NoteData> _currentTimeRowAllNotes
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::Generic::List_1<GlobalNamespace::NoteData*>* currentTimeRowAllNotes;
+    ::System::Collections::Generic::List_1<::GlobalNamespace::NoteData*>* currentTimeRowAllNotes;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::GlobalNamespace::NoteData*>*) == 0x8);
     // private readonly System.Collections.Generic.List`1<NoteData>[] _notesInColumns
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayW<System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*> notesInColumns;
+    ::ArrayW<::System::Collections::Generic::List_1<::GlobalNamespace::NoteData*>*> notesInColumns;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::System::Collections::Generic::List_1<::GlobalNamespace::NoteData*>*>) == 0x8);
     // private System.Single _prevBasicNotesTimeRowTime
     // Size: 0x4
     // Offset: 0x28
@@ -86,23 +86,23 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kTimeRowEpsilon
     static void _set_kTimeRowEpsilon(float value);
     // Get instance field reference: private readonly System.Collections.Generic.List`1<NoteData> _currentTimeRowColorNotes
-    System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*& dyn__currentTimeRowColorNotes();
+    ::System::Collections::Generic::List_1<::GlobalNamespace::NoteData*>*& dyn__currentTimeRowColorNotes();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<NoteData> _currentTimeRowAllNotes
-    System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*& dyn__currentTimeRowAllNotes();
+    ::System::Collections::Generic::List_1<::GlobalNamespace::NoteData*>*& dyn__currentTimeRowAllNotes();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<NoteData>[] _notesInColumns
-    ::ArrayW<System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*>& dyn__notesInColumns();
+    ::ArrayW<::System::Collections::Generic::List_1<::GlobalNamespace::NoteData*>*>& dyn__notesInColumns();
     // Get instance field reference: private System.Single _prevBasicNotesTimeRowTime
     float& dyn__prevBasicNotesTimeRowTime();
     // public System.Void .ctor(System.Int32 numberOfLines)
     // Offset: 0x2A4A8D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectsInTimeRowProcessor* New_ctor(int numberOfLines) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapObjectsInTimeRowProcessor::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectsInTimeRowProcessor*, creationType>(numberOfLines)));
     }
     // public System.Void ProcessNote(NoteData noteData)
     // Offset: 0x2A4AA4C
-    void ProcessNote(GlobalNamespace::NoteData* noteData);
+    void ProcessNote(::GlobalNamespace::NoteData* noteData);
     // private System.Boolean TimeIsOverCurrentTimeRow(System.Single time)
     // Offset: 0x2A4AF34
     bool TimeIsOverCurrentTimeRow(float time);
@@ -111,10 +111,10 @@ namespace GlobalNamespace {
     void ProcessAllRemainingData();
     // static private System.Void ProcessColorNotesInTimeRow(System.Collections.Generic.IList`1<NoteData> colorNotesData, System.Single nextBasicNoteTimeRowTime)
     // Offset: 0x2A4AB70
-    static void ProcessColorNotesInTimeRow(System::Collections::Generic::IList_1<GlobalNamespace::NoteData*>* colorNotesData, float nextBasicNoteTimeRowTime);
+    static void ProcessColorNotesInTimeRow(::System::Collections::Generic::IList_1<::GlobalNamespace::NoteData*>* colorNotesData, float nextBasicNoteTimeRowTime);
     // private System.Void ProcessAllNotesInTimeRow(System.Collections.Generic.List`1<NoteData> notesInTimeRow)
     // Offset: 0x2A4AFC4
-    void ProcessAllNotesInTimeRow(System::Collections::Generic::List_1<GlobalNamespace::NoteData*>* notesInTimeRow);
+    void ProcessAllNotesInTimeRow(::System::Collections::Generic::List_1<::GlobalNamespace::NoteData*>* notesInTimeRow);
   }; // BeatmapObjectsInTimeRowProcessor
   #pragma pack(pop)
   static check_size<sizeof(BeatmapObjectsInTimeRowProcessor), 40 + sizeof(float)> __GlobalNamespace_BeatmapObjectsInTimeRowProcessorSizeCheck;
@@ -128,7 +128,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectsInTimeRowProcessor::ProcessNote
 // Il2CppName: ProcessNote
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectsInTimeRowProcessor::*)(GlobalNamespace::NoteData*)>(&GlobalNamespace::BeatmapObjectsInTimeRowProcessor::ProcessNote)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectsInTimeRowProcessor::*)(::GlobalNamespace::NoteData*)>(&GlobalNamespace::BeatmapObjectsInTimeRowProcessor::ProcessNote)> {
   static const MethodInfo* get() {
     static auto* noteData = &::il2cpp_utils::GetClassFromName("", "NoteData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectsInTimeRowProcessor*), "ProcessNote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteData});
@@ -154,7 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectsInTimeRowProcessor::ProcessColorNotesInTimeRow
 // Il2CppName: ProcessColorNotesInTimeRow
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::IList_1<GlobalNamespace::NoteData*>*, float)>(&GlobalNamespace::BeatmapObjectsInTimeRowProcessor::ProcessColorNotesInTimeRow)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::IList_1<::GlobalNamespace::NoteData*>*, float)>(&GlobalNamespace::BeatmapObjectsInTimeRowProcessor::ProcessColorNotesInTimeRow)> {
   static const MethodInfo* get() {
     static auto* colorNotesData = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "NoteData")})->byval_arg;
     static auto* nextBasicNoteTimeRowTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -164,7 +164,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectsInTimeRowProcessor::ProcessAllNotesInTimeRow
 // Il2CppName: ProcessAllNotesInTimeRow
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectsInTimeRowProcessor::*)(System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*)>(&GlobalNamespace::BeatmapObjectsInTimeRowProcessor::ProcessAllNotesInTimeRow)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectsInTimeRowProcessor::*)(::System::Collections::Generic::List_1<::GlobalNamespace::NoteData*>*)>(&GlobalNamespace::BeatmapObjectsInTimeRowProcessor::ProcessAllNotesInTimeRow)> {
   static const MethodInfo* get() {
     static auto* notesInTimeRow = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "NoteData")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectsInTimeRowProcessor*), "ProcessAllNotesInTimeRow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{notesInTimeRow});

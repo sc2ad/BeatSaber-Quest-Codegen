@@ -17,8 +17,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*, "", "SimpleVRNodeRecorder/SavedData/NodeKeyframe");
+NEED_NO_BOX(::GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*, "", "SimpleVRNodeRecorder/SavedData/NodeKeyframe");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x30
@@ -103,15 +103,15 @@ namespace GlobalNamespace {
     float& dyn_time();
     // public UnityEngine.Vector3 get_pos()
     // Offset: 0x13CE158
-    UnityEngine::Vector3 get_pos();
+    ::UnityEngine::Vector3 get_pos();
     // public UnityEngine.Quaternion get_rot()
     // Offset: 0x13CE194
-    UnityEngine::Quaternion get_rot();
+    ::UnityEngine::Quaternion get_rot();
     // public System.Void .ctor(UnityEngine.Vector3 pos, UnityEngine.Quaternion rot, System.Single time)
     // Offset: 0x13CDBD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SimpleVRNodeRecorder::SavedData::NodeKeyframe* New_ctor(UnityEngine::Vector3 pos, UnityEngine::Quaternion rot, float time) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe::.ctor");
+    static SimpleVRNodeRecorder::SavedData::NodeKeyframe* New_ctor(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot, float time) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimpleVRNodeRecorder::SavedData::NodeKeyframe*, creationType>(pos, rot, time)));
     }
   }; // SimpleVRNodeRecorder/SavedData/NodeKeyframe
@@ -123,7 +123,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe::get_pos
 // Il2CppName: get_pos
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe::*)()>(&GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe::get_pos)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe::*)()>(&GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe::get_pos)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*), "get_pos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -131,7 +131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe::get_rot
 // Il2CppName: get_rot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe::*)()>(&GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe::get_rot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe::*)()>(&GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe::get_rot)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*), "get_rot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

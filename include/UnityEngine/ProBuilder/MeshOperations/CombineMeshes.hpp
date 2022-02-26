@@ -51,8 +51,8 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   class CombineMeshes;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::MeshOperations::CombineMeshes);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::CombineMeshes*, "UnityEngine.ProBuilder.MeshOperations", "CombineMeshes");
+NEED_NO_BOX(::UnityEngine::ProBuilder::MeshOperations::CombineMeshes);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::MeshOperations::CombineMeshes*, "UnityEngine.ProBuilder.MeshOperations", "CombineMeshes");
 // Type namespace: UnityEngine.ProBuilder.MeshOperations
 namespace UnityEngine::ProBuilder::MeshOperations {
   // Size: 0x10
@@ -61,26 +61,26 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   // [TokenAttribute] Offset: FFFFFFFF
   class CombineMeshes : public ::Il2CppObject {
     public:
-    // Nested type: UnityEngine::ProBuilder::MeshOperations::CombineMeshes::$$c
+    // Nested type: ::UnityEngine::ProBuilder::MeshOperations::CombineMeshes::$$c
     class $$c;
     // static public System.Collections.Generic.List`1<UnityEngine.ProBuilder.ProBuilderMesh> Combine(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.ProBuilderMesh> meshes)
     // Offset: 0x19BA898
-    static System::Collections::Generic::List_1<UnityEngine::ProBuilder::ProBuilderMesh*>* Combine(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::ProBuilderMesh*>* meshes);
+    static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* Combine(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* meshes);
     // static public System.Collections.Generic.List`1<UnityEngine.ProBuilder.ProBuilderMesh> Combine(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.ProBuilderMesh> meshes, UnityEngine.ProBuilder.ProBuilderMesh meshTarget)
     // Offset: 0x19BAC48
-    static System::Collections::Generic::List_1<UnityEngine::ProBuilder::ProBuilderMesh*>* Combine(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::ProBuilderMesh*>* meshes, UnityEngine::ProBuilder::ProBuilderMesh* meshTarget);
+    static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* Combine(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* meshes, ::UnityEngine::ProBuilder::ProBuilderMesh* meshTarget);
     // static private System.Collections.Generic.List`1<UnityEngine.ProBuilder.ProBuilderMesh> CombineToNewMeshes(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.ProBuilderMesh> meshes)
     // Offset: 0x19BA89C
-    static System::Collections::Generic::List_1<UnityEngine::ProBuilder::ProBuilderMesh*>* CombineToNewMeshes(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::ProBuilderMesh*>* meshes);
+    static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* CombineToNewMeshes(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* meshes);
     // static private System.Void AccumulateMeshesInfo(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.ProBuilderMesh> meshes, System.Int32 offset, ref System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex> vertices, ref System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face> faces, ref System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face> autoUvFaces, ref System.Collections.Generic.List`1<UnityEngine.ProBuilder.SharedVertex> sharedVertices, ref System.Collections.Generic.List`1<UnityEngine.ProBuilder.SharedVertex> sharedTextures, ref System.Collections.Generic.List`1<UnityEngine.Material> materialMap, UnityEngine.Transform targetTransform)
     // Offset: 0x19BB50C
-    static void AccumulateMeshesInfo(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::ProBuilderMesh*>* meshes, int offset, ByRef<System::Collections::Generic::List_1<UnityEngine::ProBuilder::Vertex*>*> vertices, ByRef<System::Collections::Generic::List_1<UnityEngine::ProBuilder::Face*>*> faces, ByRef<System::Collections::Generic::List_1<UnityEngine::ProBuilder::Face*>*> autoUvFaces, ByRef<System::Collections::Generic::List_1<UnityEngine::ProBuilder::SharedVertex*>*> sharedVertices, ByRef<System::Collections::Generic::List_1<UnityEngine::ProBuilder::SharedVertex*>*> sharedTextures, ByRef<System::Collections::Generic::List_1<UnityEngine::Material*>*> materialMap, UnityEngine::Transform* targetTransform);
+    static void AccumulateMeshesInfo(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* meshes, int offset, ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*> vertices, ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*> faces, ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*> autoUvFaces, ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::SharedVertex*>*> sharedVertices, ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::SharedVertex*>*> sharedTextures, ByRef<::System::Collections::Generic::List_1<::UnityEngine::Material*>*> materialMap, ::UnityEngine::Transform* targetTransform);
     // static private UnityEngine.ProBuilder.ProBuilderMesh CreateMeshFromSplit(System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex> vertices, System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face> faces, System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> sharedVertexLookup, System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> sharedTextureLookup, System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> remap, UnityEngine.Material[] materials)
     // Offset: 0x19BCE5C
-    static UnityEngine::ProBuilder::ProBuilderMesh* CreateMeshFromSplit(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Vertex*>* vertices, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Face*>* faces, System::Collections::Generic::Dictionary_2<int, int>* sharedVertexLookup, System::Collections::Generic::Dictionary_2<int, int>* sharedTextureLookup, System::Collections::Generic::Dictionary_2<int, int>* remap, ::ArrayW<UnityEngine::Material*> materials);
+    static ::UnityEngine::ProBuilder::ProBuilderMesh* CreateMeshFromSplit(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* faces, ::System::Collections::Generic::Dictionary_2<int, int>* sharedVertexLookup, ::System::Collections::Generic::Dictionary_2<int, int>* sharedTextureLookup, ::System::Collections::Generic::Dictionary_2<int, int>* remap, ::ArrayW<::UnityEngine::Material*> materials);
     // static System.Collections.Generic.List`1<UnityEngine.ProBuilder.ProBuilderMesh> SplitByMaxVertexCount(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex> vertices, System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Face> faces, System.Collections.Generic.IList`1<UnityEngine.ProBuilder.SharedVertex> sharedVertices, System.Collections.Generic.IList`1<UnityEngine.ProBuilder.SharedVertex> sharedTextures, System.UInt32 maxVertexCount)
     // Offset: 0x19BBFA0
-    static System::Collections::Generic::List_1<UnityEngine::ProBuilder::ProBuilderMesh*>* SplitByMaxVertexCount(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Vertex*>* vertices, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Face*>* faces, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::SharedVertex*>* sharedVertices, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::SharedVertex*>* sharedTextures, uint maxVertexCount);
+    static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* SplitByMaxVertexCount(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* faces, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SharedVertex*>* sharedVertices, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SharedVertex*>* sharedTextures, uint maxVertexCount);
   }; // UnityEngine.ProBuilder.MeshOperations.CombineMeshes
   #pragma pack(pop)
 }
@@ -88,7 +88,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::CombineMeshes::Combine
 // Il2CppName: Combine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::ProBuilder::ProBuilderMesh*>* (*)(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::ProBuilderMesh*>*)>(&UnityEngine::ProBuilder::MeshOperations::CombineMeshes::Combine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* (*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*)>(&UnityEngine::ProBuilder::MeshOperations::CombineMeshes::Combine)> {
   static const MethodInfo* get() {
     static auto* meshes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::CombineMeshes*), "Combine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{meshes});
@@ -97,7 +97,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::CombineMeshes::Combine
 // Il2CppName: Combine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::ProBuilder::ProBuilderMesh*>* (*)(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::ProBuilderMesh*>*, UnityEngine::ProBuilder::ProBuilderMesh*)>(&UnityEngine::ProBuilder::MeshOperations::CombineMeshes::Combine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* (*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*, ::UnityEngine::ProBuilder::ProBuilderMesh*)>(&UnityEngine::ProBuilder::MeshOperations::CombineMeshes::Combine)> {
   static const MethodInfo* get() {
     static auto* meshes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")})->byval_arg;
     static auto* meshTarget = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
@@ -107,7 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::CombineMeshes::CombineToNewMeshes
 // Il2CppName: CombineToNewMeshes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::ProBuilder::ProBuilderMesh*>* (*)(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::ProBuilderMesh*>*)>(&UnityEngine::ProBuilder::MeshOperations::CombineMeshes::CombineToNewMeshes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* (*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*)>(&UnityEngine::ProBuilder::MeshOperations::CombineMeshes::CombineToNewMeshes)> {
   static const MethodInfo* get() {
     static auto* meshes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::CombineMeshes*), "CombineToNewMeshes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{meshes});
@@ -116,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::CombineMeshes::AccumulateMeshesInfo
 // Il2CppName: AccumulateMeshesInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::ProBuilderMesh*>*, int, ByRef<System::Collections::Generic::List_1<UnityEngine::ProBuilder::Vertex*>*>, ByRef<System::Collections::Generic::List_1<UnityEngine::ProBuilder::Face*>*>, ByRef<System::Collections::Generic::List_1<UnityEngine::ProBuilder::Face*>*>, ByRef<System::Collections::Generic::List_1<UnityEngine::ProBuilder::SharedVertex*>*>, ByRef<System::Collections::Generic::List_1<UnityEngine::ProBuilder::SharedVertex*>*>, ByRef<System::Collections::Generic::List_1<UnityEngine::Material*>*>, UnityEngine::Transform*)>(&UnityEngine::ProBuilder::MeshOperations::CombineMeshes::AccumulateMeshesInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*, int, ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>, ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*>, ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*>, ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::SharedVertex*>*>, ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::SharedVertex*>*>, ByRef<::System::Collections::Generic::List_1<::UnityEngine::Material*>*>, ::UnityEngine::Transform*)>(&UnityEngine::ProBuilder::MeshOperations::CombineMeshes::AccumulateMeshesInfo)> {
   static const MethodInfo* get() {
     static auto* meshes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")})->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -133,7 +133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::CombineMeshes::CreateMeshFromSplit
 // Il2CppName: CreateMeshFromSplit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ProBuilderMesh* (*)(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Vertex*>*, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Face*>*, System::Collections::Generic::Dictionary_2<int, int>*, System::Collections::Generic::Dictionary_2<int, int>*, System::Collections::Generic::Dictionary_2<int, int>*, ::ArrayW<UnityEngine::Material*>)>(&UnityEngine::ProBuilder::MeshOperations::CombineMeshes::CreateMeshFromSplit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::ProBuilderMesh* (*)(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*, ::System::Collections::Generic::Dictionary_2<int, int>*, ::System::Collections::Generic::Dictionary_2<int, int>*, ::System::Collections::Generic::Dictionary_2<int, int>*, ::ArrayW<::UnityEngine::Material*>)>(&UnityEngine::ProBuilder::MeshOperations::CombineMeshes::CreateMeshFromSplit)> {
   static const MethodInfo* get() {
     static auto* vertices = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Vertex")})->byval_arg;
     static auto* faces = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face")})->byval_arg;
@@ -147,7 +147,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::CombineMeshes::SplitByMaxVertexCount
 // Il2CppName: SplitByMaxVertexCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::ProBuilder::ProBuilderMesh*>* (*)(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Vertex*>*, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Face*>*, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::SharedVertex*>*, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::SharedVertex*>*, uint)>(&UnityEngine::ProBuilder::MeshOperations::CombineMeshes::SplitByMaxVertexCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* (*)(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>*, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>*, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SharedVertex*>*, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SharedVertex*>*, uint)>(&UnityEngine::ProBuilder::MeshOperations::CombineMeshes::SplitByMaxVertexCount)> {
   static const MethodInfo* get() {
     static auto* vertices = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Vertex")})->byval_arg;
     static auto* faces = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face")})->byval_arg;

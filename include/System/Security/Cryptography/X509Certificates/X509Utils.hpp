@@ -20,8 +20,8 @@ namespace System::Security::Cryptography::X509Certificates {
   class X509Utils;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Security::Cryptography::X509Certificates::X509Utils);
-DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509Utils*, "System.Security.Cryptography.X509Certificates", "X509Utils");
+NEED_NO_BOX(::System::Security::Cryptography::X509Certificates::X509Utils);
+DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::X509Certificates::X509Utils*, "System.Security.Cryptography.X509Certificates", "X509Utils");
 // Type namespace: System.Security.Cryptography.X509Certificates
 namespace System::Security::Cryptography::X509Certificates {
   // Size: 0x10
@@ -32,10 +32,10 @@ namespace System::Security::Cryptography::X509Certificates {
     public:
     // static System.String FindOidInfo(System.UInt32 keyType, System.String keyValue, System.Security.Cryptography.OidGroup oidGroup)
     // Offset: 0x1E91E54
-    static ::StringW FindOidInfo(uint keyType, ::StringW keyValue, System::Security::Cryptography::OidGroup oidGroup);
+    static ::StringW FindOidInfo(uint keyType, ::StringW keyValue, ::System::Security::Cryptography::OidGroup oidGroup);
     // static System.String FindOidInfoWithFallback(System.UInt32 key, System.String value, System.Security.Cryptography.OidGroup group)
     // Offset: 0x1E91F94
-    static ::StringW FindOidInfoWithFallback(uint key, ::StringW value, System::Security::Cryptography::OidGroup group);
+    static ::StringW FindOidInfoWithFallback(uint key, ::StringW value, ::System::Security::Cryptography::OidGroup group);
   }; // System.Security.Cryptography.X509Certificates.X509Utils
   #pragma pack(pop)
 }
@@ -43,7 +43,7 @@ namespace System::Security::Cryptography::X509Certificates {
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Utils::FindOidInfo
 // Il2CppName: FindOidInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(uint, ::StringW, System::Security::Cryptography::OidGroup)>(&System::Security::Cryptography::X509Certificates::X509Utils::FindOidInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(uint, ::StringW, ::System::Security::Cryptography::OidGroup)>(&System::Security::Cryptography::X509Certificates::X509Utils::FindOidInfo)> {
   static const MethodInfo* get() {
     static auto* keyType = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* keyValue = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -54,7 +54,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Utils::FindOidInfoWithFallback
 // Il2CppName: FindOidInfoWithFallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(uint, ::StringW, System::Security::Cryptography::OidGroup)>(&System::Security::Cryptography::X509Certificates::X509Utils::FindOidInfoWithFallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(uint, ::StringW, ::System::Security::Cryptography::OidGroup)>(&System::Security::Cryptography::X509Certificates::X509Utils::FindOidInfoWithFallback)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

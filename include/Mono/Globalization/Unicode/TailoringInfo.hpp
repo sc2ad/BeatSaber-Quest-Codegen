@@ -16,8 +16,8 @@ namespace Mono::Globalization::Unicode {
   class TailoringInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Globalization::Unicode::TailoringInfo);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::TailoringInfo*, "Mono.Globalization.Unicode", "TailoringInfo");
+NEED_NO_BOX(::Mono::Globalization::Unicode::TailoringInfo);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Globalization::Unicode::TailoringInfo*, "Mono.Globalization.Unicode", "TailoringInfo");
 // Type namespace: Mono.Globalization.Unicode
 namespace Mono::Globalization::Unicode {
   // Size: 0x1D
@@ -72,7 +72,7 @@ namespace Mono::Globalization::Unicode {
     // Offset: 0x1E684F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TailoringInfo* New_ctor(int lcid, int tailoringIndex, int tailoringCount, bool frenchSort) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Globalization::Unicode::TailoringInfo::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Globalization::Unicode::TailoringInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TailoringInfo*, creationType>(lcid, tailoringIndex, tailoringCount, frenchSort)));
     }
   }; // Mono.Globalization.Unicode.TailoringInfo

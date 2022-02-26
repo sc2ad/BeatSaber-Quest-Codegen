@@ -17,8 +17,8 @@ namespace HoudiniEngineUnity {
   class HEU_UnityMaterialInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_UnityMaterialInfo);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_UnityMaterialInfo*, "HoudiniEngineUnity", "HEU_UnityMaterialInfo");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_UnityMaterialInfo);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_UnityMaterialInfo*, "HoudiniEngineUnity", "HEU_UnityMaterialInfo");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x24
@@ -65,7 +65,7 @@ namespace HoudiniEngineUnity {
     // Offset: 0x19A8698
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_UnityMaterialInfo* New_ctor(::StringW unityMaterialPath, ::StringW substancePath, int substanceIndex) {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_UnityMaterialInfo::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_UnityMaterialInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_UnityMaterialInfo*, creationType>(unityMaterialPath, substancePath, substanceIndex)));
     }
   }; // HoudiniEngineUnity.HEU_UnityMaterialInfo

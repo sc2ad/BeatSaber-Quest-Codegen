@@ -38,8 +38,8 @@ namespace GlobalNamespace {
   class GameplayLevelSceneTransitionEvents;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::GameplayLevelSceneTransitionEvents);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayLevelSceneTransitionEvents*, "", "GameplayLevelSceneTransitionEvents");
+NEED_NO_BOX(::GlobalNamespace::GameplayLevelSceneTransitionEvents);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameplayLevelSceneTransitionEvents*, "", "GameplayLevelSceneTransitionEvents");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x30
@@ -60,58 +60,58 @@ namespace GlobalNamespace {
     // private readonly StandardLevelScenesTransitionSetupDataSO _standardLevelScenesTransitionSetupData
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelScenesTransitionSetupData;
+    ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelScenesTransitionSetupData;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*) == 0x8);
     // private readonly MissionLevelScenesTransitionSetupDataSO _missionLevelScenesTransitionSetupData
     // Size: 0x8
     // Offset: 0x18
-    GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelScenesTransitionSetupData;
+    ::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelScenesTransitionSetupData;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*) == 0x8);
     // private readonly MultiplayerLevelScenesTransitionSetupDataSO _multiplayerLevelScenesTransitionSetupData
     // Size: 0x8
     // Offset: 0x20
-    GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData;
+    ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*) == 0x8);
     // private System.Action anyGameplayLevelDidFinishEvent
     // Size: 0x8
     // Offset: 0x28
-    System::Action* anyGameplayLevelDidFinishEvent;
+    ::System::Action* anyGameplayLevelDidFinishEvent;
     // Field size check
-    static_assert(sizeof(System::Action*) == 0x8);
+    static_assert(sizeof(::System::Action*) == 0x8);
     public:
     // Get instance field reference: private readonly StandardLevelScenesTransitionSetupDataSO _standardLevelScenesTransitionSetupData
-    GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*& dyn__standardLevelScenesTransitionSetupData();
+    ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*& dyn__standardLevelScenesTransitionSetupData();
     // Get instance field reference: private readonly MissionLevelScenesTransitionSetupDataSO _missionLevelScenesTransitionSetupData
-    GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*& dyn__missionLevelScenesTransitionSetupData();
+    ::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*& dyn__missionLevelScenesTransitionSetupData();
     // Get instance field reference: private readonly MultiplayerLevelScenesTransitionSetupDataSO _multiplayerLevelScenesTransitionSetupData
-    GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*& dyn__multiplayerLevelScenesTransitionSetupData();
+    ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*& dyn__multiplayerLevelScenesTransitionSetupData();
     // Get instance field reference: private System.Action anyGameplayLevelDidFinishEvent
-    System::Action*& dyn_anyGameplayLevelDidFinishEvent();
+    ::System::Action*& dyn_anyGameplayLevelDidFinishEvent();
     // public System.Void add_anyGameplayLevelDidFinishEvent(System.Action value)
     // Offset: 0x2ADA2F8
-    void add_anyGameplayLevelDidFinishEvent(System::Action* value);
+    void add_anyGameplayLevelDidFinishEvent(::System::Action* value);
     // public System.Void remove_anyGameplayLevelDidFinishEvent(System.Action value)
     // Offset: 0x2ADA39C
-    void remove_anyGameplayLevelDidFinishEvent(System::Action* value);
+    void remove_anyGameplayLevelDidFinishEvent(::System::Action* value);
     // public System.Void .ctor(StandardLevelScenesTransitionSetupDataSO standardLevelScenesTransitionSetupData, MissionLevelScenesTransitionSetupDataSO missionLevelScenesTransitionSetupData, MultiplayerLevelScenesTransitionSetupDataSO multiplayerLevelScenesTransitionSetupData)
     // Offset: 0x2ADA440
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static GameplayLevelSceneTransitionEvents* New_ctor(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelScenesTransitionSetupData, GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelScenesTransitionSetupData, GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GameplayLevelSceneTransitionEvents::.ctor");
+    static GameplayLevelSceneTransitionEvents* New_ctor(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelScenesTransitionSetupData, ::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelScenesTransitionSetupData, ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameplayLevelSceneTransitionEvents::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameplayLevelSceneTransitionEvents*, creationType>(standardLevelScenesTransitionSetupData, missionLevelScenesTransitionSetupData, multiplayerLevelScenesTransitionSetupData)));
     }
     // private System.Void HandleStandardLevelDidFinish(StandardLevelScenesTransitionSetupDataSO standardLevelScenesTransitionSetupData, LevelCompletionResults levelCompletionResults)
     // Offset: 0x2ADA71C
-    void HandleStandardLevelDidFinish(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelScenesTransitionSetupData, GlobalNamespace::LevelCompletionResults* levelCompletionResults);
+    void HandleStandardLevelDidFinish(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelScenesTransitionSetupData, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // private System.Void HandleMultiplayerLevelDidFinish(MultiplayerLevelScenesTransitionSetupDataSO multiplayerLevelScenesTransitionSetupData, MultiplayerResultsData multiplayerResultsData)
     // Offset: 0x2ADA744
-    void HandleMultiplayerLevelDidFinish(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData, GlobalNamespace::MultiplayerResultsData* multiplayerResultsData);
+    void HandleMultiplayerLevelDidFinish(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData, ::GlobalNamespace::MultiplayerResultsData* multiplayerResultsData);
     // private System.Void HandleMissionLevelDidFinish(MissionLevelScenesTransitionSetupDataSO missionLevelScenesTransitionSetupData, MissionCompletionResults missionCompletionResults)
     // Offset: 0x2ADA758
-    void HandleMissionLevelDidFinish(GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelScenesTransitionSetupData, GlobalNamespace::MissionCompletionResults* missionCompletionResults);
+    void HandleMissionLevelDidFinish(::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelScenesTransitionSetupData, ::GlobalNamespace::MissionCompletionResults* missionCompletionResults);
     // private System.Void InvokeAnyGameplayLevelDidFinish()
     // Offset: 0x2ADA730
     void InvokeAnyGameplayLevelDidFinish();
@@ -122,14 +122,14 @@ namespace GlobalNamespace {
     void Finalize();
   }; // GameplayLevelSceneTransitionEvents
   #pragma pack(pop)
-  static check_size<sizeof(GameplayLevelSceneTransitionEvents), 40 + sizeof(System::Action*)> __GlobalNamespace_GameplayLevelSceneTransitionEventsSizeCheck;
+  static check_size<sizeof(GameplayLevelSceneTransitionEvents), 40 + sizeof(::System::Action*)> __GlobalNamespace_GameplayLevelSceneTransitionEventsSizeCheck;
   static_assert(sizeof(GameplayLevelSceneTransitionEvents) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameplayLevelSceneTransitionEvents::add_anyGameplayLevelDidFinishEvent
 // Il2CppName: add_anyGameplayLevelDidFinishEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplayLevelSceneTransitionEvents::*)(System::Action*)>(&GlobalNamespace::GameplayLevelSceneTransitionEvents::add_anyGameplayLevelDidFinishEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplayLevelSceneTransitionEvents::*)(::System::Action*)>(&GlobalNamespace::GameplayLevelSceneTransitionEvents::add_anyGameplayLevelDidFinishEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayLevelSceneTransitionEvents*), "add_anyGameplayLevelDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -138,7 +138,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::GameplayLevelSceneTransitionEvents::remove_anyGameplayLevelDidFinishEvent
 // Il2CppName: remove_anyGameplayLevelDidFinishEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplayLevelSceneTransitionEvents::*)(System::Action*)>(&GlobalNamespace::GameplayLevelSceneTransitionEvents::remove_anyGameplayLevelDidFinishEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplayLevelSceneTransitionEvents::*)(::System::Action*)>(&GlobalNamespace::GameplayLevelSceneTransitionEvents::remove_anyGameplayLevelDidFinishEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayLevelSceneTransitionEvents*), "remove_anyGameplayLevelDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -151,7 +151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::GameplayLevelSceneTransitionEvents::HandleStandardLevelDidFinish
 // Il2CppName: HandleStandardLevelDidFinish
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplayLevelSceneTransitionEvents::*)(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*)>(&GlobalNamespace::GameplayLevelSceneTransitionEvents::HandleStandardLevelDidFinish)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplayLevelSceneTransitionEvents::*)(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*)>(&GlobalNamespace::GameplayLevelSceneTransitionEvents::HandleStandardLevelDidFinish)> {
   static const MethodInfo* get() {
     static auto* standardLevelScenesTransitionSetupData = &::il2cpp_utils::GetClassFromName("", "StandardLevelScenesTransitionSetupDataSO")->byval_arg;
     static auto* levelCompletionResults = &::il2cpp_utils::GetClassFromName("", "LevelCompletionResults")->byval_arg;
@@ -161,7 +161,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::GameplayLevelSceneTransitionEvents::HandleMultiplayerLevelDidFinish
 // Il2CppName: HandleMultiplayerLevelDidFinish
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplayLevelSceneTransitionEvents::*)(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::MultiplayerResultsData*)>(&GlobalNamespace::GameplayLevelSceneTransitionEvents::HandleMultiplayerLevelDidFinish)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplayLevelSceneTransitionEvents::*)(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MultiplayerResultsData*)>(&GlobalNamespace::GameplayLevelSceneTransitionEvents::HandleMultiplayerLevelDidFinish)> {
   static const MethodInfo* get() {
     static auto* multiplayerLevelScenesTransitionSetupData = &::il2cpp_utils::GetClassFromName("", "MultiplayerLevelScenesTransitionSetupDataSO")->byval_arg;
     static auto* multiplayerResultsData = &::il2cpp_utils::GetClassFromName("", "MultiplayerResultsData")->byval_arg;
@@ -171,7 +171,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::GameplayLevelSceneTransitionEvents::HandleMissionLevelDidFinish
 // Il2CppName: HandleMissionLevelDidFinish
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplayLevelSceneTransitionEvents::*)(GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, GlobalNamespace::MissionCompletionResults*)>(&GlobalNamespace::GameplayLevelSceneTransitionEvents::HandleMissionLevelDidFinish)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplayLevelSceneTransitionEvents::*)(::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MissionCompletionResults*)>(&GlobalNamespace::GameplayLevelSceneTransitionEvents::HandleMissionLevelDidFinish)> {
   static const MethodInfo* get() {
     static auto* missionLevelScenesTransitionSetupData = &::il2cpp_utils::GetClassFromName("", "MissionLevelScenesTransitionSetupDataSO")->byval_arg;
     static auto* missionCompletionResults = &::il2cpp_utils::GetClassFromName("", "MissionCompletionResults")->byval_arg;

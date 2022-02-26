@@ -26,8 +26,8 @@ namespace UnityEngine::UI {
   class BaseVertexEffect;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::UI::BaseVertexEffect);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::BaseVertexEffect*, "UnityEngine.UI", "BaseVertexEffect");
+NEED_NO_BOX(::UnityEngine::UI::BaseVertexEffect);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::BaseVertexEffect*, "UnityEngine.UI", "BaseVertexEffect");
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {
   // Size: 0x10
@@ -39,14 +39,14 @@ namespace UnityEngine::UI {
     public:
     // public System.Void ModifyVertices(System.Collections.Generic.List`1<UnityEngine.UIVertex> vertices)
     // Offset: 0xFFFFFFFF
-    void ModifyVertices(System::Collections::Generic::List_1<UnityEngine::UIVertex>* vertices);
+    void ModifyVertices(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* vertices);
     // protected System.Void .ctor()
     // Offset: 0x1871E1C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseVertexEffect* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::BaseVertexEffect::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::BaseVertexEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseVertexEffect*, creationType>()));
     }
   }; // UnityEngine.UI.BaseVertexEffect
@@ -56,7 +56,7 @@ namespace UnityEngine::UI {
 // Writing MetadataGetter for method: UnityEngine::UI::BaseVertexEffect::ModifyVertices
 // Il2CppName: ModifyVertices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::BaseVertexEffect::*)(System::Collections::Generic::List_1<UnityEngine::UIVertex>*)>(&UnityEngine::UI::BaseVertexEffect::ModifyVertices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::BaseVertexEffect::*)(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>*)>(&UnityEngine::UI::BaseVertexEffect::ModifyVertices)> {
   static const MethodInfo* get() {
     static auto* vertices = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "UIVertex")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::BaseVertexEffect*), "ModifyVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{vertices});

@@ -18,8 +18,8 @@ namespace Zenject {
   class MemoryPoolBindInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::MemoryPoolBindInfo);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::MemoryPoolBindInfo*, "Zenject", "MemoryPoolBindInfo");
+NEED_NO_BOX(::Zenject::MemoryPoolBindInfo);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::MemoryPoolBindInfo*, "Zenject", "MemoryPoolBindInfo");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x1C
@@ -41,9 +41,9 @@ namespace Zenject {
     // private Zenject.PoolExpandMethods <ExpandMethod>k__BackingField
     // Size: 0x4
     // Offset: 0x10
-    Zenject::PoolExpandMethods ExpandMethod;
+    ::Zenject::PoolExpandMethods ExpandMethod;
     // Field size check
-    static_assert(sizeof(Zenject::PoolExpandMethods) == 0x4);
+    static_assert(sizeof(::Zenject::PoolExpandMethods) == 0x4);
     // private System.Int32 <InitialSize>k__BackingField
     // Size: 0x4
     // Offset: 0x14
@@ -58,17 +58,17 @@ namespace Zenject {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private Zenject.PoolExpandMethods <ExpandMethod>k__BackingField
-    Zenject::PoolExpandMethods& dyn_$ExpandMethod$k__BackingField();
+    ::Zenject::PoolExpandMethods& dyn_$ExpandMethod$k__BackingField();
     // Get instance field reference: private System.Int32 <InitialSize>k__BackingField
     int& dyn_$InitialSize$k__BackingField();
     // Get instance field reference: private System.Int32 <MaxSize>k__BackingField
     int& dyn_$MaxSize$k__BackingField();
     // public Zenject.PoolExpandMethods get_ExpandMethod()
     // Offset: 0x1B0AD04
-    Zenject::PoolExpandMethods get_ExpandMethod();
+    ::Zenject::PoolExpandMethods get_ExpandMethod();
     // public System.Void set_ExpandMethod(Zenject.PoolExpandMethods value)
     // Offset: 0x1B0AD0C
-    void set_ExpandMethod(Zenject::PoolExpandMethods value);
+    void set_ExpandMethod(::Zenject::PoolExpandMethods value);
     // public System.Int32 get_InitialSize()
     // Offset: 0x1B0AD14
     int get_InitialSize();
@@ -87,7 +87,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MemoryPoolBindInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MemoryPoolBindInfo::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MemoryPoolBindInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MemoryPoolBindInfo*, creationType>()));
     }
   }; // Zenject.MemoryPoolBindInfo
@@ -99,7 +99,7 @@ namespace Zenject {
 // Writing MetadataGetter for method: Zenject::MemoryPoolBindInfo::get_ExpandMethod
 // Il2CppName: get_ExpandMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::PoolExpandMethods (Zenject::MemoryPoolBindInfo::*)()>(&Zenject::MemoryPoolBindInfo::get_ExpandMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::PoolExpandMethods (Zenject::MemoryPoolBindInfo::*)()>(&Zenject::MemoryPoolBindInfo::get_ExpandMethod)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::MemoryPoolBindInfo*), "get_ExpandMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -107,7 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Po
 // Writing MetadataGetter for method: Zenject::MemoryPoolBindInfo::set_ExpandMethod
 // Il2CppName: set_ExpandMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::MemoryPoolBindInfo::*)(Zenject::PoolExpandMethods)>(&Zenject::MemoryPoolBindInfo::set_ExpandMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::MemoryPoolBindInfo::*)(::Zenject::PoolExpandMethods)>(&Zenject::MemoryPoolBindInfo::set_ExpandMethod)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("Zenject", "PoolExpandMethods")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::MemoryPoolBindInfo*), "set_ExpandMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

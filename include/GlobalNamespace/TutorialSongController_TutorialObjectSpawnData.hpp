@@ -20,8 +20,8 @@ namespace GlobalNamespace {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::TutorialSongController::TutorialObjectSpawnData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialSongController::TutorialObjectSpawnData*, "", "TutorialSongController/TutorialObjectSpawnData");
+NEED_NO_BOX(::GlobalNamespace::TutorialSongController::TutorialObjectSpawnData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TutorialSongController::TutorialObjectSpawnData*, "", "TutorialSongController/TutorialObjectSpawnData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x24
@@ -42,9 +42,9 @@ namespace GlobalNamespace {
     // public readonly Signal signal
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::Signal* signal;
+    ::GlobalNamespace::Signal* signal;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::Signal*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::Signal*) == 0x8);
     // public readonly System.Int32 beatOffset
     // Size: 0x4
     // Offset: 0x18
@@ -65,7 +65,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public readonly Signal signal
-    GlobalNamespace::Signal*& dyn_signal();
+    ::GlobalNamespace::Signal*& dyn_signal();
     // Get instance field reference: public readonly System.Int32 beatOffset
     int& dyn_beatOffset();
     // Get instance field reference: public readonly System.Int32 firstTimeBeatOffset
@@ -75,8 +75,8 @@ namespace GlobalNamespace {
     // protected System.Void .ctor(Signal signal, System.Int32 firstTimeBeatOffset, System.Int32 beatOffset, System.Int32 lineIndex)
     // Offset: 0x2AEE974
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TutorialSongController::TutorialObjectSpawnData* New_ctor(GlobalNamespace::Signal* signal, int firstTimeBeatOffset, int beatOffset, int lineIndex) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TutorialSongController::TutorialObjectSpawnData::.ctor");
+    static TutorialSongController::TutorialObjectSpawnData* New_ctor(::GlobalNamespace::Signal* signal, int firstTimeBeatOffset, int beatOffset, int lineIndex) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TutorialSongController::TutorialObjectSpawnData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TutorialSongController::TutorialObjectSpawnData*, creationType>(signal, firstTimeBeatOffset, beatOffset, lineIndex)));
     }
   }; // TutorialSongController/TutorialObjectSpawnData

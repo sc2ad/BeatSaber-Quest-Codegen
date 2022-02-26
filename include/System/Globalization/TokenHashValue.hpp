@@ -19,8 +19,8 @@ namespace System::Globalization {
   class TokenHashValue;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Globalization::TokenHashValue);
-DEFINE_IL2CPP_ARG_TYPE(System::Globalization::TokenHashValue*, "System.Globalization", "TokenHashValue");
+NEED_NO_BOX(::System::Globalization::TokenHashValue);
+DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::TokenHashValue*, "System.Globalization", "TokenHashValue");
 // Type namespace: System.Globalization
 namespace System::Globalization {
   // Size: 0x20
@@ -47,9 +47,9 @@ namespace System::Globalization {
     // System.TokenType tokenType
     // Size: 0x4
     // Offset: 0x18
-    System::TokenType tokenType;
+    ::System::TokenType tokenType;
     // Field size check
-    static_assert(sizeof(System::TokenType) == 0x4);
+    static_assert(sizeof(::System::TokenType) == 0x4);
     // System.Int32 tokenValue
     // Size: 0x4
     // Offset: 0x1C
@@ -60,14 +60,14 @@ namespace System::Globalization {
     // Get instance field reference: System.String tokenString
     ::StringW& dyn_tokenString();
     // Get instance field reference: System.TokenType tokenType
-    System::TokenType& dyn_tokenType();
+    ::System::TokenType& dyn_tokenType();
     // Get instance field reference: System.Int32 tokenValue
     int& dyn_tokenValue();
     // System.Void .ctor(System.String tokenString, System.TokenType tokenType, System.Int32 tokenValue)
     // Offset: 0x1F6EA34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TokenHashValue* New_ctor(::StringW tokenString, System::TokenType tokenType, int tokenValue) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::TokenHashValue::.ctor");
+    static TokenHashValue* New_ctor(::StringW tokenString, ::System::TokenType tokenType, int tokenValue) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Globalization::TokenHashValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TokenHashValue*, creationType>(tokenString, tokenType, tokenValue)));
     }
   }; // System.Globalization.TokenHashValue

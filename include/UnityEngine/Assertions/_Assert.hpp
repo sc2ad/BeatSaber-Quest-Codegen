@@ -30,8 +30,8 @@ namespace UnityEngine::Assertions {
   class _Assert;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Assertions::_Assert);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Assertions::_Assert*, "UnityEngine.Assertions", "Assert");
+NEED_NO_BOX(::UnityEngine::Assertions::_Assert);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Assertions::_Assert*, "UnityEngine.Assertions", "Assert");
 // Type namespace: UnityEngine.Assertions
 namespace UnityEngine::Assertions {
   // Size: 0x10
@@ -56,7 +56,7 @@ namespace UnityEngine::Assertions {
     // Offset: 0xFFFFFFFF
     template<class T>
     static void AreEqual(T expected, T actual, ::StringW message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Assertions::_Assert::AreEqual");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Assertions::_Assert::AreEqual");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Assertions", "Assert", "AreEqual", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(expected), ::il2cpp_utils::ExtractType(actual), ::il2cpp_utils::ExtractType(message)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, expected, actual, message);
@@ -64,15 +64,15 @@ namespace UnityEngine::Assertions {
     // static public System.Void AreEqual(T expected, T actual, System.String message, System.Collections.Generic.IEqualityComparer`1<T> comparer)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static void AreEqual(T expected, T actual, ::StringW message, System::Collections::Generic::IEqualityComparer_1<T>* comparer) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Assertions::_Assert::AreEqual");
+    static void AreEqual(T expected, T actual, ::StringW message, ::System::Collections::Generic::IEqualityComparer_1<T>* comparer) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Assertions::_Assert::AreEqual");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.Assertions", "Assert", "AreEqual", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(expected), ::il2cpp_utils::ExtractType(actual), ::il2cpp_utils::ExtractType(message), ::il2cpp_utils::ExtractType(comparer)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, expected, actual, message, comparer);
     }
     // static public System.Void AreEqual(UnityEngine.Object expected, UnityEngine.Object actual, System.String message)
     // Offset: 0x1EAC304
-    static void AreEqual(UnityEngine::Object* expected, UnityEngine::Object* actual, ::StringW message);
+    static void AreEqual(::UnityEngine::Object* expected, ::UnityEngine::Object* actual, ::StringW message);
     // static public System.Void AreEqual(System.Int32 expected, System.Int32 actual)
     // Offset: 0x1EAC59C
     static void AreEqual(int expected, int actual);
@@ -107,7 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::Assertions::_Assert::AreEqual
 // Il2CppName: AreEqual
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*, UnityEngine::Object*, ::StringW)>(&UnityEngine::Assertions::_Assert::AreEqual)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Object*, ::UnityEngine::Object*, ::StringW)>(&UnityEngine::Assertions::_Assert::AreEqual)> {
   static const MethodInfo* get() {
     static auto* expected = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* actual = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;

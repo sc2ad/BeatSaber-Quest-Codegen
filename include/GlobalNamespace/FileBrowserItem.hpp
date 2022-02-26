@@ -17,8 +17,8 @@ namespace GlobalNamespace {
   class FileBrowserItem;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::FileBrowserItem);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FileBrowserItem*, "", "FileBrowserItem");
+NEED_NO_BOX(::GlobalNamespace::FileBrowserItem);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FileBrowserItem*, "", "FileBrowserItem");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x21
@@ -83,7 +83,7 @@ namespace GlobalNamespace {
     // Offset: 0x13FED14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileBrowserItem* New_ctor(::StringW displayName, ::StringW fullPath, bool isDirectory) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::FileBrowserItem::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FileBrowserItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileBrowserItem*, creationType>(displayName, fullPath, isDirectory)));
     }
   }; // FileBrowserItem

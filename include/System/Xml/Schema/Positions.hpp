@@ -28,8 +28,8 @@ namespace System::Xml::Schema {
   class Positions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Schema::Positions);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::Positions*, "System.Xml.Schema", "Positions");
+NEED_NO_BOX(::System::Xml::Schema::Positions);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::Positions*, "System.Xml.Schema", "Positions");
 // Type namespace: System.Xml.Schema
 namespace System::Xml::Schema {
   // Size: 0x18
@@ -51,19 +51,19 @@ namespace System::Xml::Schema {
     // private System.Collections.ArrayList positions
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::ArrayList* positions;
+    ::System::Collections::ArrayList* positions;
     // Field size check
-    static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
+    static_assert(sizeof(::System::Collections::ArrayList*) == 0x8);
     public:
-    // Creating conversion operator: operator System::Collections::ArrayList*
-    constexpr operator System::Collections::ArrayList*() const noexcept {
+    // Creating conversion operator: operator ::System::Collections::ArrayList*
+    constexpr operator ::System::Collections::ArrayList*() const noexcept {
       return positions;
     }
     // Get instance field reference: private System.Collections.ArrayList positions
-    System::Collections::ArrayList*& dyn_positions();
+    ::System::Collections::ArrayList*& dyn_positions();
     // public System.Xml.Schema.Position get_Item(System.Int32 pos)
     // Offset: 0x149CF80
-    System::Xml::Schema::Position get_Item(int pos);
+    ::System::Xml::Schema::Position get_Item(int pos);
     // public System.Int32 get_Count()
     // Offset: 0x14A0CDC
     int get_Count();
@@ -76,19 +76,19 @@ namespace System::Xml::Schema {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Positions* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Schema::Positions::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::Positions::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Positions*, creationType>()));
     }
   }; // System.Xml.Schema.Positions
   #pragma pack(pop)
-  static check_size<sizeof(Positions), 16 + sizeof(System::Collections::ArrayList*)> __System_Xml_Schema_PositionsSizeCheck;
+  static check_size<sizeof(Positions), 16 + sizeof(::System::Collections::ArrayList*)> __System_Xml_Schema_PositionsSizeCheck;
   static_assert(sizeof(Positions) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::Schema::Positions::get_Item
 // Il2CppName: get_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Schema::Position (System::Xml::Schema::Positions::*)(int)>(&System::Xml::Schema::Positions::get_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::Position (System::Xml::Schema::Positions::*)(int)>(&System::Xml::Schema::Positions::get_Item)> {
   static const MethodInfo* get() {
     static auto* pos = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::Positions*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pos});

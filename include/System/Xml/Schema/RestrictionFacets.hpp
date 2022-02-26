@@ -27,8 +27,8 @@ namespace System::Xml::Schema {
   class RestrictionFacets;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Schema::RestrictionFacets);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::RestrictionFacets*, "System.Xml.Schema", "RestrictionFacets");
+NEED_NO_BOX(::System::Xml::Schema::RestrictionFacets);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::RestrictionFacets*, "System.Xml.Schema", "RestrictionFacets");
 // Type namespace: System.Xml.Schema
 namespace System::Xml::Schema {
   // Size: 0x68
@@ -69,21 +69,21 @@ namespace System::Xml::Schema {
     // System.Collections.ArrayList Patterns
     // Size: 0x8
     // Offset: 0x20
-    System::Collections::ArrayList* Patterns;
+    ::System::Collections::ArrayList* Patterns;
     // Field size check
-    static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
+    static_assert(sizeof(::System::Collections::ArrayList*) == 0x8);
     // System.Collections.ArrayList Enumeration
     // Size: 0x8
     // Offset: 0x28
-    System::Collections::ArrayList* Enumeration;
+    ::System::Collections::ArrayList* Enumeration;
     // Field size check
-    static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
+    static_assert(sizeof(::System::Collections::ArrayList*) == 0x8);
     // System.Xml.Schema.XmlSchemaWhiteSpace WhiteSpace
     // Size: 0x4
     // Offset: 0x30
-    System::Xml::Schema::XmlSchemaWhiteSpace WhiteSpace;
+    ::System::Xml::Schema::XmlSchemaWhiteSpace WhiteSpace;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::XmlSchemaWhiteSpace) == 0x4);
+    static_assert(sizeof(::System::Xml::Schema::XmlSchemaWhiteSpace) == 0x4);
     // Padding between fields: WhiteSpace and: MaxInclusive
     char __padding5[0x4] = {};
     // System.Object MaxInclusive
@@ -125,15 +125,15 @@ namespace System::Xml::Schema {
     // System.Xml.Schema.RestrictionFlags Flags
     // Size: 0x4
     // Offset: 0x60
-    System::Xml::Schema::RestrictionFlags Flags;
+    ::System::Xml::Schema::RestrictionFlags Flags;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::RestrictionFlags) == 0x4);
+    static_assert(sizeof(::System::Xml::Schema::RestrictionFlags) == 0x4);
     // System.Xml.Schema.RestrictionFlags FixedFlags
     // Size: 0x4
     // Offset: 0x64
-    System::Xml::Schema::RestrictionFlags FixedFlags;
+    ::System::Xml::Schema::RestrictionFlags FixedFlags;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::RestrictionFlags) == 0x4);
+    static_assert(sizeof(::System::Xml::Schema::RestrictionFlags) == 0x4);
     public:
     // Get instance field reference: System.Int32 Length
     int& dyn_Length();
@@ -142,11 +142,11 @@ namespace System::Xml::Schema {
     // Get instance field reference: System.Int32 MaxLength
     int& dyn_MaxLength();
     // Get instance field reference: System.Collections.ArrayList Patterns
-    System::Collections::ArrayList*& dyn_Patterns();
+    ::System::Collections::ArrayList*& dyn_Patterns();
     // Get instance field reference: System.Collections.ArrayList Enumeration
-    System::Collections::ArrayList*& dyn_Enumeration();
+    ::System::Collections::ArrayList*& dyn_Enumeration();
     // Get instance field reference: System.Xml.Schema.XmlSchemaWhiteSpace WhiteSpace
-    System::Xml::Schema::XmlSchemaWhiteSpace& dyn_WhiteSpace();
+    ::System::Xml::Schema::XmlSchemaWhiteSpace& dyn_WhiteSpace();
     // Get instance field reference: System.Object MaxInclusive
     ::Il2CppObject*& dyn_MaxInclusive();
     // Get instance field reference: System.Object MaxExclusive
@@ -160,21 +160,21 @@ namespace System::Xml::Schema {
     // Get instance field reference: System.Int32 FractionDigits
     int& dyn_FractionDigits();
     // Get instance field reference: System.Xml.Schema.RestrictionFlags Flags
-    System::Xml::Schema::RestrictionFlags& dyn_Flags();
+    ::System::Xml::Schema::RestrictionFlags& dyn_Flags();
     // Get instance field reference: System.Xml.Schema.RestrictionFlags FixedFlags
-    System::Xml::Schema::RestrictionFlags& dyn_FixedFlags();
+    ::System::Xml::Schema::RestrictionFlags& dyn_FixedFlags();
     // public System.Void .ctor()
     // Offset: 0x14ABE3C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RestrictionFacets* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Schema::RestrictionFacets::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::RestrictionFacets::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RestrictionFacets*, creationType>()));
     }
   }; // System.Xml.Schema.RestrictionFacets
   #pragma pack(pop)
-  static check_size<sizeof(RestrictionFacets), 100 + sizeof(System::Xml::Schema::RestrictionFlags)> __System_Xml_Schema_RestrictionFacetsSizeCheck;
+  static check_size<sizeof(RestrictionFacets), 100 + sizeof(::System::Xml::Schema::RestrictionFlags)> __System_Xml_Schema_RestrictionFacetsSizeCheck;
   static_assert(sizeof(RestrictionFacets) == 0x68);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

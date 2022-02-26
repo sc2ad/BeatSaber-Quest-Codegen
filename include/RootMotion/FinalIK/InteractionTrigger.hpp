@@ -31,8 +31,8 @@ namespace RootMotion::FinalIK {
   class InteractionTrigger;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::InteractionTrigger);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionTrigger*, "RootMotion.FinalIK", "InteractionTrigger");
+NEED_NO_BOX(::RootMotion::FinalIK::InteractionTrigger);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::InteractionTrigger*, "RootMotion.FinalIK", "InteractionTrigger");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x20
@@ -41,13 +41,13 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   // [HelpURLAttribute] Offset: 1262F38
   // [AddComponentMenu] Offset: 1262F38
-  class InteractionTrigger : public UnityEngine::MonoBehaviour {
+  class InteractionTrigger : public ::UnityEngine::MonoBehaviour {
     public:
-    // Nested type: RootMotion::FinalIK::InteractionTrigger::CharacterPosition
+    // Nested type: ::RootMotion::FinalIK::InteractionTrigger::CharacterPosition
     class CharacterPosition;
-    // Nested type: RootMotion::FinalIK::InteractionTrigger::CameraPosition
+    // Nested type: ::RootMotion::FinalIK::InteractionTrigger::CameraPosition
     class CameraPosition;
-    // Nested type: RootMotion::FinalIK::InteractionTrigger::Range
+    // Nested type: ::RootMotion::FinalIK::InteractionTrigger::Range
     class Range;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -62,14 +62,14 @@ namespace RootMotion::FinalIK {
     // public RootMotion.FinalIK.InteractionTrigger/RootMotion.FinalIK.Range[] ranges
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayW<RootMotion::FinalIK::InteractionTrigger::Range*> ranges;
+    ::ArrayW<::RootMotion::FinalIK::InteractionTrigger::Range*> ranges;
     // Field size check
-    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::InteractionTrigger::Range*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::RootMotion::FinalIK::InteractionTrigger::Range*>) == 0x8);
     public:
-    // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const noexcept = delete;
+    // Deleting conversion operator: operator ::System::IntPtr
+    constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public RootMotion.FinalIK.InteractionTrigger/RootMotion.FinalIK.Range[] ranges
-    ::ArrayW<RootMotion::FinalIK::InteractionTrigger::Range*>& dyn_ranges();
+    ::ArrayW<::RootMotion::FinalIK::InteractionTrigger::Range*>& dyn_ranges();
     // private System.Void OpenUserManual()
     // Offset: 0x1F0901C
     void OpenUserManual();
@@ -90,7 +90,7 @@ namespace RootMotion::FinalIK {
     void Start();
     // public System.Int32 GetBestRangeIndex(UnityEngine.Transform character, UnityEngine.Transform raycastFrom, UnityEngine.RaycastHit raycastHit)
     // Offset: 0x1F0919C
-    int GetBestRangeIndex(UnityEngine::Transform* character, UnityEngine::Transform* raycastFrom, UnityEngine::RaycastHit raycastHit);
+    int GetBestRangeIndex(::UnityEngine::Transform* character, ::UnityEngine::Transform* raycastFrom, ::UnityEngine::RaycastHit raycastHit);
     // public System.Void .ctor()
     // Offset: 0x1F09530
     // Implemented from: UnityEngine.MonoBehaviour
@@ -101,12 +101,12 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InteractionTrigger* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::InteractionTrigger::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::InteractionTrigger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InteractionTrigger*, creationType>()));
     }
   }; // RootMotion.FinalIK.InteractionTrigger
   #pragma pack(pop)
-  static check_size<sizeof(InteractionTrigger), 24 + sizeof(::ArrayW<RootMotion::FinalIK::InteractionTrigger::Range*>)> __RootMotion_FinalIK_InteractionTriggerSizeCheck;
+  static check_size<sizeof(InteractionTrigger), 24 + sizeof(::ArrayW<::RootMotion::FinalIK::InteractionTrigger::Range*>)> __RootMotion_FinalIK_InteractionTriggerSizeCheck;
   static_assert(sizeof(InteractionTrigger) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -161,7 +161,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionTrigger::GetBestRangeIndex
 // Il2CppName: GetBestRangeIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RootMotion::FinalIK::InteractionTrigger::*)(UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::RaycastHit)>(&RootMotion::FinalIK::InteractionTrigger::GetBestRangeIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RootMotion::FinalIK::InteractionTrigger::*)(::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::RaycastHit)>(&RootMotion::FinalIK::InteractionTrigger::GetBestRangeIndex)> {
   static const MethodInfo* get() {
     static auto* character = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* raycastFrom = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;

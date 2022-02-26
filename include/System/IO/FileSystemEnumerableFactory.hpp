@@ -26,8 +26,8 @@ namespace System::IO {
   class FileSystemEnumerableFactory;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::IO::FileSystemEnumerableFactory);
-DEFINE_IL2CPP_ARG_TYPE(System::IO::FileSystemEnumerableFactory*, "System.IO", "FileSystemEnumerableFactory");
+NEED_NO_BOX(::System::IO::FileSystemEnumerableFactory);
+DEFINE_IL2CPP_ARG_TYPE(::System::IO::FileSystemEnumerableFactory*, "System.IO", "FileSystemEnumerableFactory");
 // Type namespace: System.IO
 namespace System::IO {
   // Size: 0x10
@@ -38,7 +38,7 @@ namespace System::IO {
     public:
     // static System.Collections.Generic.IEnumerable`1<System.String> CreateFileNameIterator(System.String path, System.String originalUserPath, System.String searchPattern, System.Boolean includeFiles, System.Boolean includeDirs, System.IO.SearchOption searchOption, System.Boolean checkHost)
     // Offset: 0x1F75F20
-    static System::Collections::Generic::IEnumerable_1<::StringW>* CreateFileNameIterator(::StringW path, ::StringW originalUserPath, ::StringW searchPattern, bool includeFiles, bool includeDirs, System::IO::SearchOption searchOption, bool checkHost);
+    static ::System::Collections::Generic::IEnumerable_1<::StringW>* CreateFileNameIterator(::StringW path, ::StringW originalUserPath, ::StringW searchPattern, bool includeFiles, bool includeDirs, ::System::IO::SearchOption searchOption, bool checkHost);
   }; // System.IO.FileSystemEnumerableFactory
   #pragma pack(pop)
 }
@@ -46,7 +46,7 @@ namespace System::IO {
 // Writing MetadataGetter for method: System::IO::FileSystemEnumerableFactory::CreateFileNameIterator
 // Il2CppName: CreateFileNameIterator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::StringW>* (*)(::StringW, ::StringW, ::StringW, bool, bool, System::IO::SearchOption, bool)>(&System::IO::FileSystemEnumerableFactory::CreateFileNameIterator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>* (*)(::StringW, ::StringW, ::StringW, bool, bool, ::System::IO::SearchOption, bool)>(&System::IO::FileSystemEnumerableFactory::CreateFileNameIterator)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* originalUserPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

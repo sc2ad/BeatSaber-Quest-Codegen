@@ -47,8 +47,8 @@ namespace GlobalNamespace {
   class GradientImageViewStateTransition;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::GradientImageViewStateTransition);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GradientImageViewStateTransition*, "", "GradientImageViewStateTransition");
+NEED_NO_BOX(::GlobalNamespace::GradientImageViewStateTransition);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GradientImageViewStateTransition*, "", "GradientImageViewStateTransition");
 // Type namespace: 
 namespace GlobalNamespace {
   // WARNING Size may be invalid!
@@ -56,7 +56,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AddComponentMenu] Offset: 1237FFC
   // [RequireComponent] Offset: 1237FFC
-  class GradientImageViewStateTransition : public GlobalNamespace::BaseStateTransition_1<HMUI::ImageView*> {
+  class GradientImageViewStateTransition : public ::GlobalNamespace::BaseStateTransition_1<::HMUI::ImageView*> {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -71,37 +71,37 @@ namespace GlobalNamespace {
     // private GradientTransitionSO _transition
     // Size: 0x8
     // Offset: 0x28
-    GlobalNamespace::GradientTransitionSO* transition;
+    ::GlobalNamespace::GradientTransitionSO* transition;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::GradientTransitionSO*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::GradientTransitionSO*) == 0x8);
     // private Tweening.ColorTween _colorTweenA
     // Size: 0x8
     // Offset: 0x30
-    Tweening::ColorTween* colorTweenA;
+    ::Tweening::ColorTween* colorTweenA;
     // Field size check
-    static_assert(sizeof(Tweening::ColorTween*) == 0x8);
+    static_assert(sizeof(::Tweening::ColorTween*) == 0x8);
     // private Tweening.ColorTween _colorTweenB
     // Size: 0x8
     // Offset: 0x38
-    Tweening::ColorTween* colorTweenB;
+    ::Tweening::ColorTween* colorTweenB;
     // Field size check
-    static_assert(sizeof(Tweening::ColorTween*) == 0x8);
+    static_assert(sizeof(::Tweening::ColorTween*) == 0x8);
     public:
     // Get instance field reference: private GradientTransitionSO _transition
-    GlobalNamespace::GradientTransitionSO*& dyn__transition();
+    ::GlobalNamespace::GradientTransitionSO*& dyn__transition();
     // Get instance field reference: private Tweening.ColorTween _colorTweenA
-    Tweening::ColorTween*& dyn__colorTweenA();
+    ::Tweening::ColorTween*& dyn__colorTweenA();
     // Get instance field reference: private Tweening.ColorTween _colorTweenB
-    Tweening::ColorTween*& dyn__colorTweenB();
+    ::Tweening::ColorTween*& dyn__colorTweenB();
     // private System.Void StartTweens(UnityEngine.Color endColor1, UnityEngine.Color endColor2)
     // Offset: 0x13A666C
-    void StartTweens(UnityEngine::Color endColor1, UnityEngine::Color endColor2);
+    void StartTweens(::UnityEngine::Color endColor1, ::UnityEngine::Color endColor2);
     // private System.Void StartTween(UnityEngine.Color startColor, UnityEngine.Color endColor, System.Action`1<UnityEngine.Color> tweenAction, System.Action onCompleteAction, ref Tweening.ColorTween colorTween)
     // Offset: 0x13A6F2C
-    void StartTween(UnityEngine::Color startColor, UnityEngine::Color endColor, System::Action_1<UnityEngine::Color>* tweenAction, System::Action* onCompleteAction, ByRef<Tweening::ColorTween*> colorTween);
+    void StartTween(::UnityEngine::Color startColor, ::UnityEngine::Color endColor, ::System::Action_1<::UnityEngine::Color>* tweenAction, ::System::Action* onCompleteAction, ByRef<::Tweening::ColorTween*> colorTween);
     // private System.Void SetColors(UnityEngine.Color startColor, UnityEngine.Color endColor)
     // Offset: 0x13A6C04
-    void SetColors(UnityEngine::Color startColor, UnityEngine::Color endColor);
+    void SetColors(::UnityEngine::Color startColor, ::UnityEngine::Color endColor);
     // private System.Void <StartTweens>g__Color1CompleteAction|17_0()
     // Offset: 0x13A7158
     void $StartTweens$g__Color1CompleteAction_17_0();
@@ -110,15 +110,15 @@ namespace GlobalNamespace {
     void $StartTweens$g__Color2CompleteAction_17_1();
     // private System.Void <StartTweens>b__17_2(UnityEngine.Color color)
     // Offset: 0x13A7270
-    void $StartTweens$b__17_2(UnityEngine::Color color);
+    void $StartTweens$b__17_2(::UnityEngine::Color color);
     // private System.Void <StartTweens>b__17_3(UnityEngine.Color color)
     // Offset: 0x13A728C
-    void $StartTweens$b__17_3(UnityEngine::Color color);
+    void $StartTweens$b__17_3(::UnityEngine::Color color);
     // protected override BaseTransitionSO get_transition()
     // Offset: 0x13A65C0
     // Implemented from: BaseStateTransition
     // Base method: BaseTransitionSO BaseStateTransition::get_transition()
-    GlobalNamespace::BaseTransitionSO* get_transition();
+    ::GlobalNamespace::BaseTransitionSO* get_transition();
     // public System.Void .ctor()
     // Offset: 0x13A7108
     // Implemented from: BaseStateTransition`1
@@ -131,7 +131,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GradientImageViewStateTransition* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GradientImageViewStateTransition::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GradientImageViewStateTransition::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GradientImageViewStateTransition*, creationType>()));
     }
     // protected override System.Void TransitionToNormalState()
@@ -201,7 +201,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::GradientImageViewStateTransition::StartTweens
 // Il2CppName: StartTweens
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GradientImageViewStateTransition::*)(UnityEngine::Color, UnityEngine::Color)>(&GlobalNamespace::GradientImageViewStateTransition::StartTweens)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GradientImageViewStateTransition::*)(::UnityEngine::Color, ::UnityEngine::Color)>(&GlobalNamespace::GradientImageViewStateTransition::StartTweens)> {
   static const MethodInfo* get() {
     static auto* endColor1 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     static auto* endColor2 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
@@ -211,7 +211,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::GradientImageViewStateTransition::StartTween
 // Il2CppName: StartTween
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GradientImageViewStateTransition::*)(UnityEngine::Color, UnityEngine::Color, System::Action_1<UnityEngine::Color>*, System::Action*, ByRef<Tweening::ColorTween*>)>(&GlobalNamespace::GradientImageViewStateTransition::StartTween)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GradientImageViewStateTransition::*)(::UnityEngine::Color, ::UnityEngine::Color, ::System::Action_1<::UnityEngine::Color>*, ::System::Action*, ByRef<::Tweening::ColorTween*>)>(&GlobalNamespace::GradientImageViewStateTransition::StartTween)> {
   static const MethodInfo* get() {
     static auto* startColor = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     static auto* endColor = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
@@ -224,7 +224,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::GradientImageViewStateTransition::SetColors
 // Il2CppName: SetColors
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GradientImageViewStateTransition::*)(UnityEngine::Color, UnityEngine::Color)>(&GlobalNamespace::GradientImageViewStateTransition::SetColors)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GradientImageViewStateTransition::*)(::UnityEngine::Color, ::UnityEngine::Color)>(&GlobalNamespace::GradientImageViewStateTransition::SetColors)> {
   static const MethodInfo* get() {
     static auto* startColor = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     static auto* endColor = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
@@ -250,7 +250,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::GradientImageViewStateTransition::$StartTweens$b__17_2
 // Il2CppName: <StartTweens>b__17_2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GradientImageViewStateTransition::*)(UnityEngine::Color)>(&GlobalNamespace::GradientImageViewStateTransition::$StartTweens$b__17_2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GradientImageViewStateTransition::*)(::UnityEngine::Color)>(&GlobalNamespace::GradientImageViewStateTransition::$StartTweens$b__17_2)> {
   static const MethodInfo* get() {
     static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GradientImageViewStateTransition*), "<StartTweens>b__17_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{color});
@@ -259,7 +259,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::GradientImageViewStateTransition::$StartTweens$b__17_3
 // Il2CppName: <StartTweens>b__17_3
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GradientImageViewStateTransition::*)(UnityEngine::Color)>(&GlobalNamespace::GradientImageViewStateTransition::$StartTweens$b__17_3)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GradientImageViewStateTransition::*)(::UnityEngine::Color)>(&GlobalNamespace::GradientImageViewStateTransition::$StartTweens$b__17_3)> {
   static const MethodInfo* get() {
     static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GradientImageViewStateTransition*), "<StartTweens>b__17_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{color});
@@ -268,7 +268,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::GradientImageViewStateTransition::get_transition
 // Il2CppName: get_transition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BaseTransitionSO* (GlobalNamespace::GradientImageViewStateTransition::*)()>(&GlobalNamespace::GradientImageViewStateTransition::get_transition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BaseTransitionSO* (GlobalNamespace::GradientImageViewStateTransition::*)()>(&GlobalNamespace::GradientImageViewStateTransition::get_transition)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GradientImageViewStateTransition*), "get_transition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -27,8 +27,8 @@ namespace System::Net::Http::Headers {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::Http::Headers::HttpRequestHeaders::$$c);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::HttpRequestHeaders::$$c*, "System.Net.Http.Headers", "HttpRequestHeaders/<>c");
+NEED_NO_BOX(::System::Net::Http::Headers::HttpRequestHeaders::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::HttpRequestHeaders::$$c*, "System.Net.Http.Headers", "HttpRequestHeaders/<>c");
 // Type namespace: System.Net.Http.Headers
 namespace System::Net::Http::Headers {
   // Size: 0x10
@@ -39,25 +39,25 @@ namespace System::Net::Http::Headers {
   class HttpRequestHeaders::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly System.Net.Http.Headers.HttpRequestHeaders/System.Net.Http.Headers.<>c <>9
-    static System::Net::Http::Headers::HttpRequestHeaders::$$c* _get_$$9();
+    static ::System::Net::Http::Headers::HttpRequestHeaders::$$c* _get_$$9();
     // Set static field: static public readonly System.Net.Http.Headers.HttpRequestHeaders/System.Net.Http.Headers.<>c <>9
-    static void _set_$$9(System::Net::Http::Headers::HttpRequestHeaders::$$c* value);
+    static void _set_$$9(::System::Net::Http::Headers::HttpRequestHeaders::$$c* value);
     // Get static field: static public System.Predicate`1<System.String> <>9__19_0
-    static System::Predicate_1<::StringW>* _get_$$9__19_0();
+    static ::System::Predicate_1<::StringW>* _get_$$9__19_0();
     // Set static field: static public System.Predicate`1<System.String> <>9__19_0
-    static void _set_$$9__19_0(System::Predicate_1<::StringW>* value);
+    static void _set_$$9__19_0(::System::Predicate_1<::StringW>* value);
     // Get static field: static public System.Predicate`1<System.String> <>9__22_0
-    static System::Predicate_1<::StringW>* _get_$$9__22_0();
+    static ::System::Predicate_1<::StringW>* _get_$$9__22_0();
     // Set static field: static public System.Predicate`1<System.String> <>9__22_0
-    static void _set_$$9__22_0(System::Predicate_1<::StringW>* value);
+    static void _set_$$9__22_0(::System::Predicate_1<::StringW>* value);
     // Get static field: static public System.Predicate`1<System.Net.Http.Headers.TransferCodingHeaderValue> <>9__29_0
-    static System::Predicate_1<System::Net::Http::Headers::TransferCodingHeaderValue*>* _get_$$9__29_0();
+    static ::System::Predicate_1<::System::Net::Http::Headers::TransferCodingHeaderValue*>* _get_$$9__29_0();
     // Set static field: static public System.Predicate`1<System.Net.Http.Headers.TransferCodingHeaderValue> <>9__29_0
-    static void _set_$$9__29_0(System::Predicate_1<System::Net::Http::Headers::TransferCodingHeaderValue*>* value);
+    static void _set_$$9__29_0(::System::Predicate_1<::System::Net::Http::Headers::TransferCodingHeaderValue*>* value);
     // Get static field: static public System.Predicate`1<System.Net.Http.Headers.TransferCodingHeaderValue> <>9__71_0
-    static System::Predicate_1<System::Net::Http::Headers::TransferCodingHeaderValue*>* _get_$$9__71_0();
+    static ::System::Predicate_1<::System::Net::Http::Headers::TransferCodingHeaderValue*>* _get_$$9__71_0();
     // Set static field: static public System.Predicate`1<System.Net.Http.Headers.TransferCodingHeaderValue> <>9__71_0
-    static void _set_$$9__71_0(System::Predicate_1<System::Net::Http::Headers::TransferCodingHeaderValue*>* value);
+    static void _set_$$9__71_0(::System::Predicate_1<::System::Net::Http::Headers::TransferCodingHeaderValue*>* value);
     // static private System.Void .cctor()
     // Offset: 0x18FAD58
     static void _cctor();
@@ -69,17 +69,17 @@ namespace System::Net::Http::Headers {
     bool $get_ConnectionKeepAlive$b__22_0(::StringW l);
     // System.Boolean <get_ExpectContinue>b__29_0(System.Net.Http.Headers.TransferCodingHeaderValue l)
     // Offset: 0x18FAE74
-    bool $get_ExpectContinue$b__29_0(System::Net::Http::Headers::TransferCodingHeaderValue* l);
+    bool $get_ExpectContinue$b__29_0(::System::Net::Http::Headers::TransferCodingHeaderValue* l);
     // System.Boolean <get_TransferEncodingChunked>b__71_0(System.Net.Http.Headers.TransferCodingHeaderValue l)
     // Offset: 0x18FAED4
-    bool $get_TransferEncodingChunked$b__71_0(System::Net::Http::Headers::TransferCodingHeaderValue* l);
+    bool $get_TransferEncodingChunked$b__71_0(::System::Net::Http::Headers::TransferCodingHeaderValue* l);
     // public System.Void .ctor()
     // Offset: 0x18FADBC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpRequestHeaders::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HttpRequestHeaders::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::HttpRequestHeaders::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpRequestHeaders::$$c*, creationType>()));
     }
   }; // System.Net.Http.Headers.HttpRequestHeaders/System.Net.Http.Headers.<>c
@@ -115,7 +115,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Net::Http::Headers::HttpRequestHeaders::$$c::$get_ExpectContinue$b__29_0
 // Il2CppName: <get_ExpectContinue>b__29_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::HttpRequestHeaders::$$c::*)(System::Net::Http::Headers::TransferCodingHeaderValue*)>(&System::Net::Http::Headers::HttpRequestHeaders::$$c::$get_ExpectContinue$b__29_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::HttpRequestHeaders::$$c::*)(::System::Net::Http::Headers::TransferCodingHeaderValue*)>(&System::Net::Http::Headers::HttpRequestHeaders::$$c::$get_ExpectContinue$b__29_0)> {
   static const MethodInfo* get() {
     static auto* l = &::il2cpp_utils::GetClassFromName("System.Net.Http.Headers", "TransferCodingHeaderValue")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HttpRequestHeaders::$$c*), "<get_ExpectContinue>b__29_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{l});
@@ -124,7 +124,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Net::Http::Headers::HttpRequestHeaders::$$c::$get_TransferEncodingChunked$b__71_0
 // Il2CppName: <get_TransferEncodingChunked>b__71_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::HttpRequestHeaders::$$c::*)(System::Net::Http::Headers::TransferCodingHeaderValue*)>(&System::Net::Http::Headers::HttpRequestHeaders::$$c::$get_TransferEncodingChunked$b__71_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::HttpRequestHeaders::$$c::*)(::System::Net::Http::Headers::TransferCodingHeaderValue*)>(&System::Net::Http::Headers::HttpRequestHeaders::$$c::$get_TransferEncodingChunked$b__71_0)> {
   static const MethodInfo* get() {
     static auto* l = &::il2cpp_utils::GetClassFromName("System.Net.Http.Headers", "TransferCodingHeaderValue")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HttpRequestHeaders::$$c*), "<get_TransferEncodingChunked>b__71_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{l});

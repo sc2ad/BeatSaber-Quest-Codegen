@@ -13,8 +13,8 @@ namespace Org::BouncyCastle::OpenSsl {
   class IPasswordFinder;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::OpenSsl::IPasswordFinder);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::OpenSsl::IPasswordFinder*, "Org.BouncyCastle.OpenSsl", "IPasswordFinder");
+NEED_NO_BOX(::Org::BouncyCastle::OpenSsl::IPasswordFinder);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::OpenSsl::IPasswordFinder*, "Org.BouncyCastle.OpenSsl", "IPasswordFinder");
 // Type namespace: Org.BouncyCastle.OpenSsl
 namespace Org::BouncyCastle::OpenSsl {
   // Size: 0x10

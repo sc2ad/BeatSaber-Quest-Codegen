@@ -28,8 +28,8 @@ namespace MS::Internal::Xml::Cache {
   class XPathNodeInfoAtom;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(MS::Internal::Xml::Cache::XPathNodeInfoAtom);
-DEFINE_IL2CPP_ARG_TYPE(MS::Internal::Xml::Cache::XPathNodeInfoAtom*, "MS.Internal.Xml.Cache", "XPathNodeInfoAtom");
+NEED_NO_BOX(::MS::Internal::Xml::Cache::XPathNodeInfoAtom);
+DEFINE_IL2CPP_ARG_TYPE(::MS::Internal::Xml::Cache::XPathNodeInfoAtom*, "MS.Internal.Xml.Cache", "XPathNodeInfoAtom");
 // Type namespace: MS.Internal.Xml.Cache
 namespace MS::Internal::Xml::Cache {
   // Size: 0x50
@@ -68,21 +68,21 @@ namespace MS::Internal::Xml::Cache {
     // private MS.Internal.Xml.Cache.XPathNode[] pageParent
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayW<MS::Internal::Xml::Cache::XPathNode> pageParent;
+    ::ArrayW<::MS::Internal::Xml::Cache::XPathNode> pageParent;
     // Field size check
-    static_assert(sizeof(::ArrayW<MS::Internal::Xml::Cache::XPathNode>) == 0x8);
+    static_assert(sizeof(::ArrayW<::MS::Internal::Xml::Cache::XPathNode>) == 0x8);
     // private MS.Internal.Xml.Cache.XPathNode[] pageSibling
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayW<MS::Internal::Xml::Cache::XPathNode> pageSibling;
+    ::ArrayW<::MS::Internal::Xml::Cache::XPathNode> pageSibling;
     // Field size check
-    static_assert(sizeof(::ArrayW<MS::Internal::Xml::Cache::XPathNode>) == 0x8);
+    static_assert(sizeof(::ArrayW<::MS::Internal::Xml::Cache::XPathNode>) == 0x8);
     // private System.Xml.XPath.XPathDocument doc
     // Size: 0x8
     // Offset: 0x38
-    System::Xml::XPath::XPathDocument* doc;
+    ::System::Xml::XPath::XPathDocument* doc;
     // Field size check
-    static_assert(sizeof(System::Xml::XPath::XPathDocument*) == 0x8);
+    static_assert(sizeof(::System::Xml::XPath::XPathDocument*) == 0x8);
     // private System.Int32 lineNumBase
     // Size: 0x4
     // Offset: 0x40
@@ -98,9 +98,9 @@ namespace MS::Internal::Xml::Cache {
     // private MS.Internal.Xml.Cache.XPathNodePageInfo pageInfo
     // Size: 0x8
     // Offset: 0x48
-    MS::Internal::Xml::Cache::XPathNodePageInfo* pageInfo;
+    ::MS::Internal::Xml::Cache::XPathNodePageInfo* pageInfo;
     // Field size check
-    static_assert(sizeof(MS::Internal::Xml::Cache::XPathNodePageInfo*) == 0x8);
+    static_assert(sizeof(::MS::Internal::Xml::Cache::XPathNodePageInfo*) == 0x8);
     public:
     // Get instance field reference: private System.String localName
     ::StringW& dyn_localName();
@@ -109,20 +109,20 @@ namespace MS::Internal::Xml::Cache {
     // Get instance field reference: private System.String prefix
     ::StringW& dyn_prefix();
     // Get instance field reference: private MS.Internal.Xml.Cache.XPathNode[] pageParent
-    ::ArrayW<MS::Internal::Xml::Cache::XPathNode>& dyn_pageParent();
+    ::ArrayW<::MS::Internal::Xml::Cache::XPathNode>& dyn_pageParent();
     // Get instance field reference: private MS.Internal.Xml.Cache.XPathNode[] pageSibling
-    ::ArrayW<MS::Internal::Xml::Cache::XPathNode>& dyn_pageSibling();
+    ::ArrayW<::MS::Internal::Xml::Cache::XPathNode>& dyn_pageSibling();
     // Get instance field reference: private System.Xml.XPath.XPathDocument doc
-    System::Xml::XPath::XPathDocument*& dyn_doc();
+    ::System::Xml::XPath::XPathDocument*& dyn_doc();
     // Get instance field reference: private System.Int32 lineNumBase
     int& dyn_lineNumBase();
     // Get instance field reference: private System.Int32 linePosBase
     int& dyn_linePosBase();
     // Get instance field reference: private MS.Internal.Xml.Cache.XPathNodePageInfo pageInfo
-    MS::Internal::Xml::Cache::XPathNodePageInfo*& dyn_pageInfo();
+    ::MS::Internal::Xml::Cache::XPathNodePageInfo*& dyn_pageInfo();
     // public MS.Internal.Xml.Cache.XPathNodePageInfo get_PageInfo()
     // Offset: 0x1B959B8
-    MS::Internal::Xml::Cache::XPathNodePageInfo* get_PageInfo();
+    ::MS::Internal::Xml::Cache::XPathNodePageInfo* get_PageInfo();
     // public System.String get_LocalName()
     // Offset: 0x1B959C0
     ::StringW get_LocalName();
@@ -134,13 +134,13 @@ namespace MS::Internal::Xml::Cache {
     ::StringW get_Prefix();
     // public MS.Internal.Xml.Cache.XPathNode[] get_SiblingPage()
     // Offset: 0x1B959D8
-    ::ArrayW<MS::Internal::Xml::Cache::XPathNode> get_SiblingPage();
+    ::ArrayW<::MS::Internal::Xml::Cache::XPathNode> get_SiblingPage();
     // public MS.Internal.Xml.Cache.XPathNode[] get_ParentPage()
     // Offset: 0x1B959E0
-    ::ArrayW<MS::Internal::Xml::Cache::XPathNode> get_ParentPage();
+    ::ArrayW<::MS::Internal::Xml::Cache::XPathNode> get_ParentPage();
     // public System.Xml.XPath.XPathDocument get_Document()
     // Offset: 0x1B959E8
-    System::Xml::XPath::XPathDocument* get_Document();
+    ::System::Xml::XPath::XPathDocument* get_Document();
     // public System.Int32 get_LineNumberBase()
     // Offset: 0x1B959F0
     int get_LineNumberBase();
@@ -149,14 +149,14 @@ namespace MS::Internal::Xml::Cache {
     int get_LinePositionBase();
   }; // MS.Internal.Xml.Cache.XPathNodeInfoAtom
   #pragma pack(pop)
-  static check_size<sizeof(XPathNodeInfoAtom), 72 + sizeof(MS::Internal::Xml::Cache::XPathNodePageInfo*)> __MS_Internal_Xml_Cache_XPathNodeInfoAtomSizeCheck;
+  static check_size<sizeof(XPathNodeInfoAtom), 72 + sizeof(::MS::Internal::Xml::Cache::XPathNodePageInfo*)> __MS_Internal_Xml_Cache_XPathNodeInfoAtomSizeCheck;
   static_assert(sizeof(XPathNodeInfoAtom) == 0x50);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MS::Internal::Xml::Cache::XPathNodeInfoAtom::get_PageInfo
 // Il2CppName: get_PageInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MS::Internal::Xml::Cache::XPathNodePageInfo* (MS::Internal::Xml::Cache::XPathNodeInfoAtom::*)()>(&MS::Internal::Xml::Cache::XPathNodeInfoAtom::get_PageInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::MS::Internal::Xml::Cache::XPathNodePageInfo* (MS::Internal::Xml::Cache::XPathNodeInfoAtom::*)()>(&MS::Internal::Xml::Cache::XPathNodeInfoAtom::get_PageInfo)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MS::Internal::Xml::Cache::XPathNodeInfoAtom*), "get_PageInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -188,7 +188,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: MS::Internal::Xml::Cache::XPathNodeInfoAtom::get_SiblingPage
 // Il2CppName: get_SiblingPage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<MS::Internal::Xml::Cache::XPathNode> (MS::Internal::Xml::Cache::XPathNodeInfoAtom::*)()>(&MS::Internal::Xml::Cache::XPathNodeInfoAtom::get_SiblingPage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::MS::Internal::Xml::Cache::XPathNode> (MS::Internal::Xml::Cache::XPathNodeInfoAtom::*)()>(&MS::Internal::Xml::Cache::XPathNodeInfoAtom::get_SiblingPage)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MS::Internal::Xml::Cache::XPathNodeInfoAtom*), "get_SiblingPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -196,7 +196,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<MS
 // Writing MetadataGetter for method: MS::Internal::Xml::Cache::XPathNodeInfoAtom::get_ParentPage
 // Il2CppName: get_ParentPage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<MS::Internal::Xml::Cache::XPathNode> (MS::Internal::Xml::Cache::XPathNodeInfoAtom::*)()>(&MS::Internal::Xml::Cache::XPathNodeInfoAtom::get_ParentPage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::MS::Internal::Xml::Cache::XPathNode> (MS::Internal::Xml::Cache::XPathNodeInfoAtom::*)()>(&MS::Internal::Xml::Cache::XPathNodeInfoAtom::get_ParentPage)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MS::Internal::Xml::Cache::XPathNodeInfoAtom*), "get_ParentPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -204,7 +204,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<MS
 // Writing MetadataGetter for method: MS::Internal::Xml::Cache::XPathNodeInfoAtom::get_Document
 // Il2CppName: get_Document
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XPath::XPathDocument* (MS::Internal::Xml::Cache::XPathNodeInfoAtom::*)()>(&MS::Internal::Xml::Cache::XPathNodeInfoAtom::get_Document)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XPath::XPathDocument* (MS::Internal::Xml::Cache::XPathNodeInfoAtom::*)()>(&MS::Internal::Xml::Cache::XPathNodeInfoAtom::get_Document)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MS::Internal::Xml::Cache::XPathNodeInfoAtom*), "get_Document", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

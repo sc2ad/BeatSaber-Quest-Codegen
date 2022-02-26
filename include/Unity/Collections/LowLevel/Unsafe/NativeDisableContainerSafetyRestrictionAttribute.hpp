@@ -14,8 +14,8 @@ namespace Unity::Collections::LowLevel::Unsafe {
   class NativeDisableContainerSafetyRestrictionAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Unity::Collections::LowLevel::Unsafe::NativeDisableContainerSafetyRestrictionAttribute);
-DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::LowLevel::Unsafe::NativeDisableContainerSafetyRestrictionAttribute*, "Unity.Collections.LowLevel.Unsafe", "NativeDisableContainerSafetyRestrictionAttribute");
+NEED_NO_BOX(::Unity::Collections::LowLevel::Unsafe::NativeDisableContainerSafetyRestrictionAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::Unity::Collections::LowLevel::Unsafe::NativeDisableContainerSafetyRestrictionAttribute*, "Unity.Collections.LowLevel.Unsafe", "NativeDisableContainerSafetyRestrictionAttribute");
 // Type namespace: Unity.Collections.LowLevel.Unsafe
 namespace Unity::Collections::LowLevel::Unsafe {
   // Size: 0x10
@@ -24,7 +24,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
   // [TokenAttribute] Offset: FFFFFFFF
   // [RequiredByNativeCodeAttribute] Offset: 11A3544
   // [AttributeUsageAttribute] Offset: 11A3544
-  class NativeDisableContainerSafetyRestrictionAttribute : public System::Attribute {
+  class NativeDisableContainerSafetyRestrictionAttribute : public ::System::Attribute {
     public:
   }; // Unity.Collections.LowLevel.Unsafe.NativeDisableContainerSafetyRestrictionAttribute
   #pragma pack(pop)

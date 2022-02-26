@@ -13,8 +13,8 @@ namespace GlobalNamespace {
   class CommandLineArguments;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::CommandLineArguments);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CommandLineArguments*, "", "CommandLineArguments");
+NEED_NO_BOX(::GlobalNamespace::CommandLineArguments);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CommandLineArguments*, "", "CommandLineArguments");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10

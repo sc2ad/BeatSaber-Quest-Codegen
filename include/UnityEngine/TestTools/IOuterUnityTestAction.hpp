@@ -23,8 +23,8 @@ namespace UnityEngine::TestTools {
   class IOuterUnityTestAction;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::TestTools::IOuterUnityTestAction);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::IOuterUnityTestAction*, "UnityEngine.TestTools", "IOuterUnityTestAction");
+NEED_NO_BOX(::UnityEngine::TestTools::IOuterUnityTestAction);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TestTools::IOuterUnityTestAction*, "UnityEngine.TestTools", "IOuterUnityTestAction");
 // Type namespace: UnityEngine.TestTools
 namespace UnityEngine::TestTools {
   // Size: 0x10
@@ -35,10 +35,10 @@ namespace UnityEngine::TestTools {
     public:
     // public System.Collections.IEnumerator BeforeTest(NUnit.Framework.Interfaces.ITest test)
     // Offset: 0xFFFFFFFF
-    System::Collections::IEnumerator* BeforeTest(NUnit::Framework::Interfaces::ITest* test);
+    ::System::Collections::IEnumerator* BeforeTest(::NUnit::Framework::Interfaces::ITest* test);
     // public System.Collections.IEnumerator AfterTest(NUnit.Framework.Interfaces.ITest test)
     // Offset: 0xFFFFFFFF
-    System::Collections::IEnumerator* AfterTest(NUnit::Framework::Interfaces::ITest* test);
+    ::System::Collections::IEnumerator* AfterTest(::NUnit::Framework::Interfaces::ITest* test);
   }; // UnityEngine.TestTools.IOuterUnityTestAction
   #pragma pack(pop)
 }
@@ -46,7 +46,7 @@ namespace UnityEngine::TestTools {
 // Writing MetadataGetter for method: UnityEngine::TestTools::IOuterUnityTestAction::BeforeTest
 // Il2CppName: BeforeTest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (UnityEngine::TestTools::IOuterUnityTestAction::*)(NUnit::Framework::Interfaces::ITest*)>(&UnityEngine::TestTools::IOuterUnityTestAction::BeforeTest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (UnityEngine::TestTools::IOuterUnityTestAction::*)(::NUnit::Framework::Interfaces::ITest*)>(&UnityEngine::TestTools::IOuterUnityTestAction::BeforeTest)> {
   static const MethodInfo* get() {
     static auto* test = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ITest")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::IOuterUnityTestAction*), "BeforeTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{test});
@@ -55,7 +55,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::TestTools::IOuterUnityTestAction::AfterTest
 // Il2CppName: AfterTest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (UnityEngine::TestTools::IOuterUnityTestAction::*)(NUnit::Framework::Interfaces::ITest*)>(&UnityEngine::TestTools::IOuterUnityTestAction::AfterTest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (UnityEngine::TestTools::IOuterUnityTestAction::*)(::NUnit::Framework::Interfaces::ITest*)>(&UnityEngine::TestTools::IOuterUnityTestAction::AfterTest)> {
   static const MethodInfo* get() {
     static auto* test = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ITest")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::IOuterUnityTestAction*), "AfterTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{test});

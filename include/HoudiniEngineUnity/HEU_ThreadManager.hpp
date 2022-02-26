@@ -29,8 +29,8 @@ namespace HoudiniEngineUnity {
   class HEU_ThreadManager;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_ThreadManager);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_ThreadManager*, "HoudiniEngineUnity", "HEU_ThreadManager");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_ThreadManager);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_ThreadManager*, "HoudiniEngineUnity", "HEU_ThreadManager");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x28
@@ -51,35 +51,35 @@ namespace HoudiniEngineUnity {
     // private System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_ThreadedTask> _tasks
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ThreadedTask*>* tasks;
+    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ThreadedTask*>* tasks;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ThreadedTask*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ThreadedTask*>*) == 0x8);
     // private System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_ThreadedTask> _pendingAdd
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ThreadedTask*>* pendingAdd;
+    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ThreadedTask*>* pendingAdd;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ThreadedTask*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ThreadedTask*>*) == 0x8);
     // private System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_ThreadedTask> _pendingRemove
     // Size: 0x8
     // Offset: 0x20
-    System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ThreadedTask*>* pendingRemove;
+    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ThreadedTask*>* pendingRemove;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ThreadedTask*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ThreadedTask*>*) == 0x8);
     public:
     // Get static field: static private HoudiniEngineUnity.HEU_ThreadManager _instance
-    static HoudiniEngineUnity::HEU_ThreadManager* _get__instance();
+    static ::HoudiniEngineUnity::HEU_ThreadManager* _get__instance();
     // Set static field: static private HoudiniEngineUnity.HEU_ThreadManager _instance
-    static void _set__instance(HoudiniEngineUnity::HEU_ThreadManager* value);
+    static void _set__instance(::HoudiniEngineUnity::HEU_ThreadManager* value);
     // Get instance field reference: private System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_ThreadedTask> _tasks
-    System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ThreadedTask*>*& dyn__tasks();
+    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ThreadedTask*>*& dyn__tasks();
     // Get instance field reference: private System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_ThreadedTask> _pendingAdd
-    System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ThreadedTask*>*& dyn__pendingAdd();
+    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ThreadedTask*>*& dyn__pendingAdd();
     // Get instance field reference: private System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_ThreadedTask> _pendingRemove
-    System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ThreadedTask*>*& dyn__pendingRemove();
+    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ThreadedTask*>*& dyn__pendingRemove();
     // static public HoudiniEngineUnity.HEU_ThreadManager get_Instance()
     // Offset: 0x1A69E54
-    static HoudiniEngineUnity::HEU_ThreadManager* get_Instance();
+    static ::HoudiniEngineUnity::HEU_ThreadManager* get_Instance();
     // static private System.Void CreateInstance()
     // Offset: 0x1A69EA4
     static void CreateInstance();
@@ -94,17 +94,17 @@ namespace HoudiniEngineUnity {
     void Update();
     // public System.Void AddTask(HoudiniEngineUnity.HEU_ThreadedTask task)
     // Offset: 0x1A6A200
-    void AddTask(HoudiniEngineUnity::HEU_ThreadedTask* task);
+    void AddTask(::HoudiniEngineUnity::HEU_ThreadedTask* task);
     // public System.Void RemoveTask(HoudiniEngineUnity.HEU_ThreadedTask task)
     // Offset: 0x1A6A2B0
-    void RemoveTask(HoudiniEngineUnity::HEU_ThreadedTask* task);
+    void RemoveTask(::HoudiniEngineUnity::HEU_ThreadedTask* task);
     // public System.Void .ctor()
     // Offset: 0x1A6A360
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_ThreadManager* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_ThreadManager::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_ThreadManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_ThreadManager*, creationType>()));
     }
     // protected override System.Void Finalize()
@@ -114,14 +114,14 @@ namespace HoudiniEngineUnity {
     void Finalize();
   }; // HoudiniEngineUnity.HEU_ThreadManager
   #pragma pack(pop)
-  static check_size<sizeof(HEU_ThreadManager), 32 + sizeof(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ThreadedTask*>*)> __HoudiniEngineUnity_HEU_ThreadManagerSizeCheck;
+  static check_size<sizeof(HEU_ThreadManager), 32 + sizeof(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ThreadedTask*>*)> __HoudiniEngineUnity_HEU_ThreadManagerSizeCheck;
   static_assert(sizeof(HEU_ThreadManager) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ThreadManager::get_Instance
 // Il2CppName: get_Instance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_ThreadManager* (*)()>(&HoudiniEngineUnity::HEU_ThreadManager::get_Instance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_ThreadManager* (*)()>(&HoudiniEngineUnity::HEU_ThreadManager::get_Instance)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_ThreadManager*), "get_Instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -161,7 +161,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ThreadManager::AddTask
 // Il2CppName: AddTask
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_ThreadManager::*)(HoudiniEngineUnity::HEU_ThreadedTask*)>(&HoudiniEngineUnity::HEU_ThreadManager::AddTask)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_ThreadManager::*)(::HoudiniEngineUnity::HEU_ThreadedTask*)>(&HoudiniEngineUnity::HEU_ThreadManager::AddTask)> {
   static const MethodInfo* get() {
     static auto* task = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_ThreadedTask")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_ThreadManager*), "AddTask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{task});
@@ -170,7 +170,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ThreadManager::RemoveTask
 // Il2CppName: RemoveTask
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_ThreadManager::*)(HoudiniEngineUnity::HEU_ThreadedTask*)>(&HoudiniEngineUnity::HEU_ThreadManager::RemoveTask)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_ThreadManager::*)(::HoudiniEngineUnity::HEU_ThreadedTask*)>(&HoudiniEngineUnity::HEU_ThreadManager::RemoveTask)> {
   static const MethodInfo* get() {
     static auto* task = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_ThreadedTask")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_ThreadManager*), "RemoveTask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{task});

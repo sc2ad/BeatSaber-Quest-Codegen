@@ -19,8 +19,8 @@ namespace GlobalNamespace {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MultiplayerStatusData::UserMessage);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerStatusData::UserMessage*, "", "MultiplayerStatusData/UserMessage");
+NEED_NO_BOX(::GlobalNamespace::MultiplayerStatusData::UserMessage);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerStatusData::UserMessage*, "", "MultiplayerStatusData/UserMessage");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerStatusData::UserMessage : public ::Il2CppObject {
     public:
-    // Nested type: GlobalNamespace::MultiplayerStatusData::UserMessage::LocalizedMessage
+    // Nested type: ::GlobalNamespace::MultiplayerStatusData::UserMessage::LocalizedMessage
     class LocalizedMessage;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -43,28 +43,28 @@ namespace GlobalNamespace {
     // public MultiplayerStatusData/UserMessage/LocalizedMessage[] localizations
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<GlobalNamespace::MultiplayerStatusData::UserMessage::LocalizedMessage*> localizations;
+    ::ArrayW<::GlobalNamespace::MultiplayerStatusData::UserMessage::LocalizedMessage*> localizations;
     // Field size check
-    static_assert(sizeof(::ArrayW<GlobalNamespace::MultiplayerStatusData::UserMessage::LocalizedMessage*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::GlobalNamespace::MultiplayerStatusData::UserMessage::LocalizedMessage*>) == 0x8);
     public:
-    // Creating conversion operator: operator ::ArrayW<GlobalNamespace::MultiplayerStatusData::UserMessage::LocalizedMessage*>
-    constexpr operator ::ArrayW<GlobalNamespace::MultiplayerStatusData::UserMessage::LocalizedMessage*>() const noexcept {
+    // Creating conversion operator: operator ::ArrayW<::GlobalNamespace::MultiplayerStatusData::UserMessage::LocalizedMessage*>
+    constexpr operator ::ArrayW<::GlobalNamespace::MultiplayerStatusData::UserMessage::LocalizedMessage*>() const noexcept {
       return localizations;
     }
     // Get instance field reference: public MultiplayerStatusData/UserMessage/LocalizedMessage[] localizations
-    ::ArrayW<GlobalNamespace::MultiplayerStatusData::UserMessage::LocalizedMessage*>& dyn_localizations();
+    ::ArrayW<::GlobalNamespace::MultiplayerStatusData::UserMessage::LocalizedMessage*>& dyn_localizations();
     // public System.Void .ctor()
     // Offset: 0x2AADA90
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerStatusData::UserMessage* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerStatusData::UserMessage::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerStatusData::UserMessage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerStatusData::UserMessage*, creationType>()));
     }
   }; // MultiplayerStatusData/UserMessage
   #pragma pack(pop)
-  static check_size<sizeof(MultiplayerStatusData::UserMessage), 16 + sizeof(::ArrayW<GlobalNamespace::MultiplayerStatusData::UserMessage::LocalizedMessage*>)> __GlobalNamespace_MultiplayerStatusData_UserMessageSizeCheck;
+  static check_size<sizeof(MultiplayerStatusData::UserMessage), 16 + sizeof(::ArrayW<::GlobalNamespace::MultiplayerStatusData::UserMessage::LocalizedMessage*>)> __GlobalNamespace_MultiplayerStatusData_UserMessageSizeCheck;
   static_assert(sizeof(MultiplayerStatusData::UserMessage) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

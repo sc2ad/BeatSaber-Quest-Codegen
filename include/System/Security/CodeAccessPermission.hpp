@@ -31,8 +31,8 @@ namespace System::Security {
   class CodeAccessPermission;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Security::CodeAccessPermission);
-DEFINE_IL2CPP_ARG_TYPE(System::Security::CodeAccessPermission*, "System.Security", "CodeAccessPermission");
+NEED_NO_BOX(::System::Security::CodeAccessPermission);
+DEFINE_IL2CPP_ARG_TYPE(::System::Security::CodeAccessPermission*, "System.Security", "CodeAccessPermission");
 // Type namespace: System.Security
 namespace System::Security {
   // Size: 0x10
@@ -41,24 +41,24 @@ namespace System::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: 1189C08
   // [MonoTODOAttribute] Offset: 1189C08
-  class CodeAccessPermission : public ::Il2CppObject/*, public System::Security::IPermission*/ {
+  class CodeAccessPermission : public ::Il2CppObject/*, public ::System::Security::IPermission*/ {
     public:
-    // Creating interface conversion operator: operator System::Security::IPermission
-    operator System::Security::IPermission() noexcept {
-      return *reinterpret_cast<System::Security::IPermission*>(this);
+    // Creating interface conversion operator: operator ::System::Security::IPermission
+    operator ::System::Security::IPermission() noexcept {
+      return *reinterpret_cast<::System::Security::IPermission*>(this);
     }
     // public System.Void Demand()
     // Offset: 0x1ABBF74
     void Demand();
     // public System.Boolean IsSubsetOf(System.Security.IPermission target)
     // Offset: 0xFFFFFFFF
-    bool IsSubsetOf(System::Security::IPermission* target);
+    bool IsSubsetOf(::System::Security::IPermission* target);
     // public System.Security.SecurityElement ToXml()
     // Offset: 0xFFFFFFFF
-    System::Security::SecurityElement* ToXml();
+    ::System::Security::SecurityElement* ToXml();
     // static System.Security.Permissions.PermissionState CheckPermissionState(System.Security.Permissions.PermissionState state, System.Boolean allowUnrestricted)
     // Offset: 0x1ABC15C
-    static System::Security::Permissions::PermissionState CheckPermissionState(System::Security::Permissions::PermissionState state, bool allowUnrestricted);
+    static ::System::Security::Permissions::PermissionState CheckPermissionState(::System::Security::Permissions::PermissionState state, bool allowUnrestricted);
     // private System.Void System.Security.IPermission.Demand()
     // Offset: 0x1ABC238
     void System_Security_IPermission_Demand();
@@ -68,7 +68,7 @@ namespace System::Security {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CodeAccessPermission* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::CodeAccessPermission::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::CodeAccessPermission::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CodeAccessPermission*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object obj)
@@ -101,7 +101,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::CodeAccessPermission::IsSubsetOf
 // Il2CppName: IsSubsetOf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Security::CodeAccessPermission::*)(System::Security::IPermission*)>(&System::Security::CodeAccessPermission::IsSubsetOf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Security::CodeAccessPermission::*)(::System::Security::IPermission*)>(&System::Security::CodeAccessPermission::IsSubsetOf)> {
   static const MethodInfo* get() {
     static auto* target = &::il2cpp_utils::GetClassFromName("System.Security", "IPermission")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::CodeAccessPermission*), "IsSubsetOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{target});
@@ -110,7 +110,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Security::CodeAccessPermission::ToXml
 // Il2CppName: ToXml
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::SecurityElement* (System::Security::CodeAccessPermission::*)()>(&System::Security::CodeAccessPermission::ToXml)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::SecurityElement* (System::Security::CodeAccessPermission::*)()>(&System::Security::CodeAccessPermission::ToXml)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::CodeAccessPermission*), "ToXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -118,7 +118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Writing MetadataGetter for method: System::Security::CodeAccessPermission::CheckPermissionState
 // Il2CppName: CheckPermissionState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Permissions::PermissionState (*)(System::Security::Permissions::PermissionState, bool)>(&System::Security::CodeAccessPermission::CheckPermissionState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Permissions::PermissionState (*)(::System::Security::Permissions::PermissionState, bool)>(&System::Security::CodeAccessPermission::CheckPermissionState)> {
   static const MethodInfo* get() {
     static auto* state = &::il2cpp_utils::GetClassFromName("System.Security.Permissions", "PermissionState")->byval_arg;
     static auto* allowUnrestricted = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

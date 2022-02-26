@@ -23,8 +23,8 @@ namespace Newtonsoft::Json::Bson {
   class BsonToken;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Bson::BsonToken);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Bson::BsonToken*, "Newtonsoft.Json.Bson", "BsonToken");
+NEED_NO_BOX(::Newtonsoft::Json::Bson::BsonToken);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Bson::BsonToken*, "Newtonsoft.Json.Bson", "BsonToken");
 // Type namespace: Newtonsoft.Json.Bson
 namespace Newtonsoft::Json::Bson {
   // Size: 0x18
@@ -45,41 +45,41 @@ namespace Newtonsoft::Json::Bson {
     // private Newtonsoft.Json.Bson.BsonToken <Parent>k__BackingField
     // Size: 0x8
     // Offset: 0x10
-    Newtonsoft::Json::Bson::BsonToken* Parent;
+    ::Newtonsoft::Json::Bson::BsonToken* Parent;
     // Field size check
-    static_assert(sizeof(Newtonsoft::Json::Bson::BsonToken*) == 0x8);
+    static_assert(sizeof(::Newtonsoft::Json::Bson::BsonToken*) == 0x8);
     public:
-    // Creating conversion operator: operator Newtonsoft::Json::Bson::BsonToken*
-    constexpr operator Newtonsoft::Json::Bson::BsonToken*() const noexcept {
+    // Creating conversion operator: operator ::Newtonsoft::Json::Bson::BsonToken*
+    constexpr operator ::Newtonsoft::Json::Bson::BsonToken*() const noexcept {
       return Parent;
     }
     // Get instance field reference: private Newtonsoft.Json.Bson.BsonToken <Parent>k__BackingField
-    Newtonsoft::Json::Bson::BsonToken*& dyn_$Parent$k__BackingField();
+    ::Newtonsoft::Json::Bson::BsonToken*& dyn_$Parent$k__BackingField();
     // public Newtonsoft.Json.Bson.BsonType get_Type()
     // Offset: 0xFFFFFFFF
-    Newtonsoft::Json::Bson::BsonType get_Type();
+    ::Newtonsoft::Json::Bson::BsonType get_Type();
     // public System.Void set_Parent(Newtonsoft.Json.Bson.BsonToken value)
     // Offset: 0x181BC70
-    void set_Parent(Newtonsoft::Json::Bson::BsonToken* value);
+    void set_Parent(::Newtonsoft::Json::Bson::BsonToken* value);
     // protected System.Void .ctor()
     // Offset: 0x181BC24
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BsonToken* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Bson::BsonToken::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Bson::BsonToken::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BsonToken*, creationType>()));
     }
   }; // Newtonsoft.Json.Bson.BsonToken
   #pragma pack(pop)
-  static check_size<sizeof(BsonToken), 16 + sizeof(Newtonsoft::Json::Bson::BsonToken*)> __Newtonsoft_Json_Bson_BsonTokenSizeCheck;
+  static check_size<sizeof(BsonToken), 16 + sizeof(::Newtonsoft::Json::Bson::BsonToken*)> __Newtonsoft_Json_Bson_BsonTokenSizeCheck;
   static_assert(sizeof(BsonToken) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Newtonsoft::Json::Bson::BsonToken::get_Type
 // Il2CppName: get_Type
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Bson::BsonType (Newtonsoft::Json::Bson::BsonToken::*)()>(&Newtonsoft::Json::Bson::BsonToken::get_Type)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Bson::BsonType (Newtonsoft::Json::Bson::BsonToken::*)()>(&Newtonsoft::Json::Bson::BsonToken::get_Type)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Bson::BsonToken*), "get_Type", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -87,7 +87,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft:
 // Writing MetadataGetter for method: Newtonsoft::Json::Bson::BsonToken::set_Parent
 // Il2CppName: set_Parent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Bson::BsonToken::*)(Newtonsoft::Json::Bson::BsonToken*)>(&Newtonsoft::Json::Bson::BsonToken::set_Parent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Bson::BsonToken::*)(::Newtonsoft::Json::Bson::BsonToken*)>(&Newtonsoft::Json::Bson::BsonToken::set_Parent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Bson", "BsonToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Bson::BsonToken*), "set_Parent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

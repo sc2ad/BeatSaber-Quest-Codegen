@@ -26,8 +26,8 @@ namespace GlobalNamespace {
   class DifficultyBeatmapSetExtensions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::DifficultyBeatmapSetExtensions);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DifficultyBeatmapSetExtensions*, "", "DifficultyBeatmapSetExtensions");
+NEED_NO_BOX(::GlobalNamespace::DifficultyBeatmapSetExtensions);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DifficultyBeatmapSetExtensions*, "", "DifficultyBeatmapSetExtensions");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -41,8 +41,8 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     template<class T>
     static ::ArrayW<T> GetDifficultyBeatmapSetsWithout360Movement(::ArrayW<T> difficultyBeatmapSets) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, GlobalNamespace::IDifficultyBeatmapSet>);
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DifficultyBeatmapSetExtensions::GetDifficultyBeatmapSetsWithout360Movement");
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::GlobalNamespace::IDifficultyBeatmapSet>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DifficultyBeatmapSetExtensions::GetDifficultyBeatmapSetsWithout360Movement");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "DifficultyBeatmapSetExtensions", "GetDifficultyBeatmapSetsWithout360Movement", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(difficultyBeatmapSets)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<T>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, difficultyBeatmapSets);
@@ -50,12 +50,12 @@ namespace GlobalNamespace {
     // static public PreviewDifficultyBeatmapSet[] GetPreviewDifficultyBeatmapSets(T[] difficultyBeatmapSets)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static ::ArrayW<GlobalNamespace::PreviewDifficultyBeatmapSet*> GetPreviewDifficultyBeatmapSets(::ArrayW<T> difficultyBeatmapSets) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, GlobalNamespace::IDifficultyBeatmapSet>);
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DifficultyBeatmapSetExtensions::GetPreviewDifficultyBeatmapSets");
+    static ::ArrayW<::GlobalNamespace::PreviewDifficultyBeatmapSet*> GetPreviewDifficultyBeatmapSets(::ArrayW<T> difficultyBeatmapSets) {
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::GlobalNamespace::IDifficultyBeatmapSet>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DifficultyBeatmapSetExtensions::GetPreviewDifficultyBeatmapSets");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "DifficultyBeatmapSetExtensions", "GetPreviewDifficultyBeatmapSets", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(difficultyBeatmapSets)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodRethrow<::ArrayW<GlobalNamespace::PreviewDifficultyBeatmapSet*>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, difficultyBeatmapSets);
+      return ::il2cpp_utils::RunMethodRethrow<::ArrayW<::GlobalNamespace::PreviewDifficultyBeatmapSet*>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, difficultyBeatmapSets);
     }
   }; // DifficultyBeatmapSetExtensions
   #pragma pack(pop)

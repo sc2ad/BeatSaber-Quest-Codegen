@@ -34,8 +34,8 @@ namespace System::Collections::Generic {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MockBeatmapLoader::$$c);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockBeatmapLoader::$$c*, "", "MockBeatmapLoader/<>c");
+NEED_NO_BOX(::GlobalNamespace::MockBeatmapLoader::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MockBeatmapLoader::$$c*, "", "MockBeatmapLoader/<>c");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -46,26 +46,26 @@ namespace GlobalNamespace {
   class MockBeatmapLoader::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly MockBeatmapLoader/<>c <>9
-    static GlobalNamespace::MockBeatmapLoader::$$c* _get_$$9();
+    static ::GlobalNamespace::MockBeatmapLoader::$$c* _get_$$9();
     // Set static field: static public readonly MockBeatmapLoader/<>c <>9
-    static void _set_$$9(GlobalNamespace::MockBeatmapLoader::$$c* value);
+    static void _set_$$9(::GlobalNamespace::MockBeatmapLoader::$$c* value);
     // Get static field: static public System.Func`2<IDifficultyBeatmapSet,System.Collections.Generic.IEnumerable`1<IDifficultyBeatmap>> <>9__2_1
-    static System::Func_2<GlobalNamespace::IDifficultyBeatmapSet*, System::Collections::Generic::IEnumerable_1<GlobalNamespace::IDifficultyBeatmap*>*>* _get_$$9__2_1();
+    static ::System::Func_2<::GlobalNamespace::IDifficultyBeatmapSet*, ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::IDifficultyBeatmap*>*>* _get_$$9__2_1();
     // Set static field: static public System.Func`2<IDifficultyBeatmapSet,System.Collections.Generic.IEnumerable`1<IDifficultyBeatmap>> <>9__2_1
-    static void _set_$$9__2_1(System::Func_2<GlobalNamespace::IDifficultyBeatmapSet*, System::Collections::Generic::IEnumerable_1<GlobalNamespace::IDifficultyBeatmap*>*>* value);
+    static void _set_$$9__2_1(::System::Func_2<::GlobalNamespace::IDifficultyBeatmapSet*, ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::IDifficultyBeatmap*>*>* value);
     // static private System.Void .cctor()
     // Offset: 0x1422084
     static void _cctor();
     // System.Collections.Generic.IEnumerable`1<IDifficultyBeatmap> <GetBeatmapData>b__2_1(IDifficultyBeatmapSet bds)
     // Offset: 0x14220F0
-    System::Collections::Generic::IEnumerable_1<GlobalNamespace::IDifficultyBeatmap*>* $GetBeatmapData$b__2_1(GlobalNamespace::IDifficultyBeatmapSet* bds);
+    ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::IDifficultyBeatmap*>* $GetBeatmapData$b__2_1(::GlobalNamespace::IDifficultyBeatmapSet* bds);
     // public System.Void .ctor()
     // Offset: 0x14220E8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockBeatmapLoader::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MockBeatmapLoader::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MockBeatmapLoader::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockBeatmapLoader::$$c*, creationType>()));
     }
   }; // MockBeatmapLoader/<>c
@@ -83,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::MockBeatmapLoader::$$c::$GetBeatmapData$b__2_1
 // Il2CppName: <GetBeatmapData>b__2_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<GlobalNamespace::IDifficultyBeatmap*>* (GlobalNamespace::MockBeatmapLoader::$$c::*)(GlobalNamespace::IDifficultyBeatmapSet*)>(&GlobalNamespace::MockBeatmapLoader::$$c::$GetBeatmapData$b__2_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::IDifficultyBeatmap*>* (GlobalNamespace::MockBeatmapLoader::$$c::*)(::GlobalNamespace::IDifficultyBeatmapSet*)>(&GlobalNamespace::MockBeatmapLoader::$$c::$GetBeatmapData$b__2_1)> {
   static const MethodInfo* get() {
     static auto* bds = &::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmapSet")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockBeatmapLoader::$$c*), "<GetBeatmapData>b__2_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bds});

@@ -25,8 +25,8 @@ namespace GlobalNamespace {
   class OVRBone;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRBone);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRBone*, "", "OVRBone");
+NEED_NO_BOX(::GlobalNamespace::OVRBone);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRBone*, "", "OVRBone");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -47,9 +47,9 @@ namespace GlobalNamespace {
     // private OVRSkeleton/BoneId <Id>k__BackingField
     // Size: 0x4
     // Offset: 0x10
-    GlobalNamespace::OVRSkeleton::BoneId Id;
+    ::GlobalNamespace::OVRSkeleton::BoneId Id;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::OVRSkeleton::BoneId) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::OVRSkeleton::BoneId) == 0x4);
     // private System.Int16 <ParentBoneIndex>k__BackingField
     // Size: 0x2
     // Offset: 0x14
@@ -61,22 +61,22 @@ namespace GlobalNamespace {
     // private UnityEngine.Transform <Transform>k__BackingField
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::Transform* Transform;
+    ::UnityEngine::Transform* Transform;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     public:
     // Get instance field reference: private OVRSkeleton/BoneId <Id>k__BackingField
-    GlobalNamespace::OVRSkeleton::BoneId& dyn_$Id$k__BackingField();
+    ::GlobalNamespace::OVRSkeleton::BoneId& dyn_$Id$k__BackingField();
     // Get instance field reference: private System.Int16 <ParentBoneIndex>k__BackingField
     int16_t& dyn_$ParentBoneIndex$k__BackingField();
     // Get instance field reference: private UnityEngine.Transform <Transform>k__BackingField
-    UnityEngine::Transform*& dyn_$Transform$k__BackingField();
+    ::UnityEngine::Transform*& dyn_$Transform$k__BackingField();
     // public OVRSkeleton/BoneId get_Id()
     // Offset: 0x15A17BC
-    GlobalNamespace::OVRSkeleton::BoneId get_Id();
+    ::GlobalNamespace::OVRSkeleton::BoneId get_Id();
     // public System.Void set_Id(OVRSkeleton/BoneId value)
     // Offset: 0x15A17C4
-    void set_Id(GlobalNamespace::OVRSkeleton::BoneId value);
+    void set_Id(::GlobalNamespace::OVRSkeleton::BoneId value);
     // public System.Int16 get_ParentBoneIndex()
     // Offset: 0x15A17CC
     int16_t get_ParentBoneIndex();
@@ -85,15 +85,15 @@ namespace GlobalNamespace {
     void set_ParentBoneIndex(int16_t value);
     // public UnityEngine.Transform get_Transform()
     // Offset: 0x15A17DC
-    UnityEngine::Transform* get_Transform();
+    ::UnityEngine::Transform* get_Transform();
     // public System.Void set_Transform(UnityEngine.Transform value)
     // Offset: 0x15A17E4
-    void set_Transform(UnityEngine::Transform* value);
+    void set_Transform(::UnityEngine::Transform* value);
     // public System.Void .ctor(OVRSkeleton/BoneId id, System.Int16 parentBoneIndex, UnityEngine.Transform trans)
     // Offset: 0x15A17F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static OVRBone* New_ctor(GlobalNamespace::OVRSkeleton::BoneId id, int16_t parentBoneIndex, UnityEngine::Transform* trans) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRBone::.ctor");
+    static OVRBone* New_ctor(::GlobalNamespace::OVRSkeleton::BoneId id, int16_t parentBoneIndex, ::UnityEngine::Transform* trans) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRBone::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRBone*, creationType>(id, parentBoneIndex, trans)));
     }
     // public System.Void .ctor()
@@ -102,19 +102,19 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRBone* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRBone::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRBone::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRBone*, creationType>()));
     }
   }; // OVRBone
   #pragma pack(pop)
-  static check_size<sizeof(OVRBone), 24 + sizeof(UnityEngine::Transform*)> __GlobalNamespace_OVRBoneSizeCheck;
+  static check_size<sizeof(OVRBone), 24 + sizeof(::UnityEngine::Transform*)> __GlobalNamespace_OVRBoneSizeCheck;
   static_assert(sizeof(OVRBone) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRBone::get_Id
 // Il2CppName: get_Id
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRSkeleton::BoneId (GlobalNamespace::OVRBone::*)()>(&GlobalNamespace::OVRBone::get_Id)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRSkeleton::BoneId (GlobalNamespace::OVRBone::*)()>(&GlobalNamespace::OVRBone::get_Id)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRBone*), "get_Id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRBone::set_Id
 // Il2CppName: set_Id
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRBone::*)(GlobalNamespace::OVRSkeleton::BoneId)>(&GlobalNamespace::OVRBone::set_Id)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRBone::*)(::GlobalNamespace::OVRSkeleton::BoneId)>(&GlobalNamespace::OVRBone::set_Id)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "OVRSkeleton/BoneId")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRBone*), "set_Id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -148,7 +148,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::OVRBone::get_Transform
 // Il2CppName: get_Transform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (GlobalNamespace::OVRBone::*)()>(&GlobalNamespace::OVRBone::get_Transform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Transform* (GlobalNamespace::OVRBone::*)()>(&GlobalNamespace::OVRBone::get_Transform)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRBone*), "get_Transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -156,7 +156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::OVRBone::set_Transform
 // Il2CppName: set_Transform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRBone::*)(UnityEngine::Transform*)>(&GlobalNamespace::OVRBone::set_Transform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRBone::*)(::UnityEngine::Transform*)>(&GlobalNamespace::OVRBone::set_Transform)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRBone*), "set_Transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

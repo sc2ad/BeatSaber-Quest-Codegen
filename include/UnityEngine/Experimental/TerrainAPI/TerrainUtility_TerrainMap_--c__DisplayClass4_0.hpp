@@ -20,8 +20,8 @@ namespace UnityEngine {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::$$c__DisplayClass4_0);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::$$c__DisplayClass4_0*, "UnityEngine.Experimental.TerrainAPI", "TerrainUtility/TerrainMap/<>c__DisplayClass4_0");
+NEED_NO_BOX(::UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::$$c__DisplayClass4_0);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::$$c__DisplayClass4_0*, "UnityEngine.Experimental.TerrainAPI", "TerrainUtility/TerrainMap/<>c__DisplayClass4_0");
 // Type namespace: UnityEngine.Experimental.TerrainAPI
 namespace UnityEngine::Experimental::TerrainAPI {
   // Size: 0x14
@@ -55,14 +55,14 @@ namespace UnityEngine::Experimental::TerrainAPI {
     int& dyn_groupID();
     // System.Boolean <CreateFromPlacement>b__0(UnityEngine.Terrain x)
     // Offset: 0x2A2A0F4
-    bool $CreateFromPlacement$b__0(UnityEngine::Terrain* x);
+    bool $CreateFromPlacement$b__0(::UnityEngine::Terrain* x);
     // public System.Void .ctor()
     // Offset: 0x2A28FD4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TerrainUtility::TerrainMap::$$c__DisplayClass4_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::$$c__DisplayClass4_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::$$c__DisplayClass4_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TerrainUtility::TerrainMap::$$c__DisplayClass4_0*, creationType>()));
     }
   }; // UnityEngine.Experimental.TerrainAPI.TerrainUtility/UnityEngine.Experimental.TerrainAPI.TerrainMap/UnityEngine.Experimental.TerrainAPI.<>c__DisplayClass4_0
@@ -74,7 +74,7 @@ namespace UnityEngine::Experimental::TerrainAPI {
 // Writing MetadataGetter for method: UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::$$c__DisplayClass4_0::$CreateFromPlacement$b__0
 // Il2CppName: <CreateFromPlacement>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::$$c__DisplayClass4_0::*)(UnityEngine::Terrain*)>(&UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::$$c__DisplayClass4_0::$CreateFromPlacement$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::$$c__DisplayClass4_0::*)(::UnityEngine::Terrain*)>(&UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::$$c__DisplayClass4_0::$CreateFromPlacement$b__0)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine", "Terrain")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::$$c__DisplayClass4_0*), "<CreateFromPlacement>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});

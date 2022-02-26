@@ -27,8 +27,8 @@ namespace System::Globalization {
   class CultureData;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Globalization::CultureData);
-DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CultureData*, "System.Globalization", "CultureData");
+NEED_NO_BOX(::System::Globalization::CultureData);
+DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::CultureData*, "System.Globalization", "CultureData");
 // Type namespace: System.Globalization
 namespace System::Globalization {
   // Size: 0x88
@@ -98,9 +98,9 @@ namespace System::Globalization {
     // private System.Globalization.CalendarData[] calendars
     // Size: 0x8
     // Offset: 0x48
-    ::ArrayW<System::Globalization::CalendarData*> calendars;
+    ::ArrayW<::System::Globalization::CalendarData*> calendars;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::Globalization::CalendarData*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::System::Globalization::CalendarData*>) == 0x8);
     // private System.String sISO639Language
     // Size: 0x8
     // Offset: 0x50
@@ -173,9 +173,9 @@ namespace System::Globalization {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get static field: static private System.Globalization.CultureData s_Invariant
-    static System::Globalization::CultureData* _get_s_Invariant();
+    static ::System::Globalization::CultureData* _get_s_Invariant();
     // Set static field: static private System.Globalization.CultureData s_Invariant
-    static void _set_s_Invariant(System::Globalization::CultureData* value);
+    static void _set_s_Invariant(::System::Globalization::CultureData* value);
     // Get instance field reference: private System.String sAM1159
     ::StringW& dyn_sAM1159();
     // Get instance field reference: private System.String sPM2359
@@ -193,7 +193,7 @@ namespace System::Globalization {
     // Get instance field reference: private System.Int32[] waCalendars
     ::ArrayW<int>& dyn_waCalendars();
     // Get instance field reference: private System.Globalization.CalendarData[] calendars
-    ::ArrayW<System::Globalization::CalendarData*>& dyn_calendars();
+    ::ArrayW<::System::Globalization::CalendarData*>& dyn_calendars();
     // Get instance field reference: private System.String sISO639Language
     ::StringW& dyn_sISO639Language();
     // Get instance field reference: private readonly System.String sRealName
@@ -218,7 +218,7 @@ namespace System::Globalization {
     ::StringW& dyn_sListSeparator();
     // static public System.Globalization.CultureData get_Invariant()
     // Offset: 0x188F784
-    static System::Globalization::CultureData* get_Invariant();
+    static ::System::Globalization::CultureData* get_Invariant();
     // System.String[] get_LongTimes()
     // Offset: 0x188FCC0
     ::ArrayW<::StringW> get_LongTimes();
@@ -268,24 +268,24 @@ namespace System::Globalization {
     // Offset: 0x188F758
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CultureData* New_ctor(::StringW name) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::CultureData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Globalization::CultureData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CultureData*, creationType>(name)));
     }
     // static public System.Globalization.CultureData GetCultureData(System.String cultureName, System.Boolean useUserOverride)
     // Offset: 0x188FA88
-    static System::Globalization::CultureData* GetCultureData(::StringW cultureName, bool useUserOverride);
+    static ::System::Globalization::CultureData* GetCultureData(::StringW cultureName, bool useUserOverride);
     // static public System.Globalization.CultureData GetCultureData(System.String cultureName, System.Boolean useUserOverride, System.Int32 datetimeIndex, System.Int32 calendarId, System.Int32 numberIndex, System.String iso2lang, System.Int32 ansiCodePage, System.Int32 oemCodePage, System.Int32 macCodePage, System.Int32 ebcdicCodePage, System.Boolean rightToLeft, System.String listSeparator)
     // Offset: 0x188FB84
-    static System::Globalization::CultureData* GetCultureData(::StringW cultureName, bool useUserOverride, int datetimeIndex, int calendarId, int numberIndex, ::StringW iso2lang, int ansiCodePage, int oemCodePage, int macCodePage, int ebcdicCodePage, bool rightToLeft, ::StringW listSeparator);
+    static ::System::Globalization::CultureData* GetCultureData(::StringW cultureName, bool useUserOverride, int datetimeIndex, int calendarId, int numberIndex, ::StringW iso2lang, int ansiCodePage, int oemCodePage, int macCodePage, int ebcdicCodePage, bool rightToLeft, ::StringW listSeparator);
     // static System.Globalization.CultureData GetCultureData(System.Int32 culture, System.Boolean bUseUserOverride)
     // Offset: 0x188FCB8
-    static System::Globalization::CultureData* GetCultureData(int culture, bool bUseUserOverride);
+    static ::System::Globalization::CultureData* GetCultureData(int culture, bool bUseUserOverride);
     // private System.Void fill_culture_data(System.Int32 datetimeIndex)
     // Offset: 0x188FCB4
     void fill_culture_data(int datetimeIndex);
     // public System.Globalization.CalendarData GetCalendar(System.Int32 calendarId)
     // Offset: 0x188CEE8
-    System::Globalization::CalendarData* GetCalendar(int calendarId);
+    ::System::Globalization::CalendarData* GetCalendar(int calendarId);
     // System.String[] EraNames(System.Int32 calendarId)
     // Offset: 0x188FF00
     ::ArrayW<::StringW> EraNames(int calendarId);
@@ -351,10 +351,10 @@ namespace System::Globalization {
     static ::StringW ReescapeWin32String(::StringW str);
     // System.Void GetNFIValues(System.Globalization.NumberFormatInfo nfi)
     // Offset: 0x1890504
-    void GetNFIValues(System::Globalization::NumberFormatInfo* nfi);
+    void GetNFIValues(::System::Globalization::NumberFormatInfo* nfi);
     // static private System.Void fill_number_data(System.Globalization.NumberFormatInfo nfi, System.Int32 numberIndex)
     // Offset: 0x1890560
-    static void fill_number_data(System::Globalization::NumberFormatInfo* nfi, int numberIndex);
+    static void fill_number_data(::System::Globalization::NumberFormatInfo* nfi, int numberIndex);
   }; // System.Globalization.CultureData
   #pragma pack(pop)
   static check_size<sizeof(CultureData), 128 + sizeof(::StringW)> __System_Globalization_CultureDataSizeCheck;
@@ -364,7 +364,7 @@ namespace System::Globalization {
 // Writing MetadataGetter for method: System::Globalization::CultureData::get_Invariant
 // Il2CppName: get_Invariant
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureData* (*)()>(&System::Globalization::CultureData::get_Invariant)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::CultureData* (*)()>(&System::Globalization::CultureData::get_Invariant)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::CultureData*), "get_Invariant", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -496,7 +496,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Globalization::CultureData::GetCultureData
 // Il2CppName: GetCultureData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureData* (*)(::StringW, bool)>(&System::Globalization::CultureData::GetCultureData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::CultureData* (*)(::StringW, bool)>(&System::Globalization::CultureData::GetCultureData)> {
   static const MethodInfo* get() {
     static auto* cultureName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* useUserOverride = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -506,7 +506,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 // Writing MetadataGetter for method: System::Globalization::CultureData::GetCultureData
 // Il2CppName: GetCultureData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureData* (*)(::StringW, bool, int, int, int, ::StringW, int, int, int, int, bool, ::StringW)>(&System::Globalization::CultureData::GetCultureData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::CultureData* (*)(::StringW, bool, int, int, int, ::StringW, int, int, int, int, bool, ::StringW)>(&System::Globalization::CultureData::GetCultureData)> {
   static const MethodInfo* get() {
     static auto* cultureName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* useUserOverride = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -526,7 +526,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 // Writing MetadataGetter for method: System::Globalization::CultureData::GetCultureData
 // Il2CppName: GetCultureData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureData* (*)(int, bool)>(&System::Globalization::CultureData::GetCultureData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::CultureData* (*)(int, bool)>(&System::Globalization::CultureData::GetCultureData)> {
   static const MethodInfo* get() {
     static auto* culture = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* bUseUserOverride = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -545,7 +545,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Globalization::CultureData::GetCalendar
 // Il2CppName: GetCalendar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CalendarData* (System::Globalization::CultureData::*)(int)>(&System::Globalization::CultureData::GetCalendar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::CalendarData* (System::Globalization::CultureData::*)(int)>(&System::Globalization::CultureData::GetCalendar)> {
   static const MethodInfo* get() {
     static auto* calendarId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::CultureData*), "GetCalendar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{calendarId});
@@ -748,7 +748,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Globalization::CultureData::GetNFIValues
 // Il2CppName: GetNFIValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::CultureData::*)(System::Globalization::NumberFormatInfo*)>(&System::Globalization::CultureData::GetNFIValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::CultureData::*)(::System::Globalization::NumberFormatInfo*)>(&System::Globalization::CultureData::GetNFIValues)> {
   static const MethodInfo* get() {
     static auto* nfi = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberFormatInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::CultureData*), "GetNFIValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nfi});
@@ -757,7 +757,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Globalization::CultureData::fill_number_data
 // Il2CppName: fill_number_data
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Globalization::NumberFormatInfo*, int)>(&System::Globalization::CultureData::fill_number_data)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Globalization::NumberFormatInfo*, int)>(&System::Globalization::CultureData::fill_number_data)> {
   static const MethodInfo* get() {
     static auto* nfi = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberFormatInfo")->byval_arg;
     static auto* numberIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

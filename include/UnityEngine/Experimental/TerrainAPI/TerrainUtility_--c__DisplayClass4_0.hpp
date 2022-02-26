@@ -13,8 +13,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Experimental::TerrainAPI::TerrainUtility::$$c__DisplayClass4_0);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::TerrainAPI::TerrainUtility::$$c__DisplayClass4_0*, "UnityEngine.Experimental.TerrainAPI", "TerrainUtility/<>c__DisplayClass4_0");
+NEED_NO_BOX(::UnityEngine::Experimental::TerrainAPI::TerrainUtility::$$c__DisplayClass4_0);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::TerrainAPI::TerrainUtility::$$c__DisplayClass4_0*, "UnityEngine.Experimental.TerrainAPI", "TerrainUtility/<>c__DisplayClass4_0");
 // Type namespace: UnityEngine.Experimental.TerrainAPI
 namespace UnityEngine::Experimental::TerrainAPI {
   // Size: 0x11
@@ -52,7 +52,7 @@ namespace UnityEngine::Experimental::TerrainAPI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TerrainUtility::$$c__DisplayClass4_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Experimental::TerrainAPI::TerrainUtility::$$c__DisplayClass4_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Experimental::TerrainAPI::TerrainUtility::$$c__DisplayClass4_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TerrainUtility::$$c__DisplayClass4_0*, creationType>()));
     }
   }; // UnityEngine.Experimental.TerrainAPI.TerrainUtility/UnityEngine.Experimental.TerrainAPI.<>c__DisplayClass4_0

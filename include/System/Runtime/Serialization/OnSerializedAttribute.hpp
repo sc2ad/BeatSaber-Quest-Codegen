@@ -14,8 +14,8 @@ namespace System::Runtime::Serialization {
   class OnSerializedAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Serialization::OnSerializedAttribute);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::OnSerializedAttribute*, "System.Runtime.Serialization", "OnSerializedAttribute");
+NEED_NO_BOX(::System::Runtime::Serialization::OnSerializedAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::OnSerializedAttribute*, "System.Runtime.Serialization", "OnSerializedAttribute");
 // Type namespace: System.Runtime.Serialization
 namespace System::Runtime::Serialization {
   // Size: 0x10
@@ -24,7 +24,7 @@ namespace System::Runtime::Serialization {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: 118A680
   // [AttributeUsageAttribute] Offset: 118A680
-  class OnSerializedAttribute : public System::Attribute {
+  class OnSerializedAttribute : public ::System::Attribute {
     public:
   }; // System.Runtime.Serialization.OnSerializedAttribute
   #pragma pack(pop)

@@ -24,8 +24,8 @@ namespace System::Net {
   class ListenerPrefix;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::ListenerPrefix);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::ListenerPrefix*, "System.Net", "ListenerPrefix");
+NEED_NO_BOX(::System::Net::ListenerPrefix);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::ListenerPrefix*, "System.Net", "ListenerPrefix");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x40
@@ -80,9 +80,9 @@ namespace System::Net {
     // public System.Net.HttpListener Listener
     // Size: 0x8
     // Offset: 0x38
-    System::Net::HttpListener* Listener;
+    ::System::Net::HttpListener* Listener;
     // Field size check
-    static_assert(sizeof(System::Net::HttpListener*) == 0x8);
+    static_assert(sizeof(::System::Net::HttpListener*) == 0x8);
     public:
     // Get instance field reference: private System.String original
     ::StringW& dyn_original();
@@ -95,7 +95,7 @@ namespace System::Net {
     // Get instance field reference: private System.Boolean secure
     bool& dyn_secure();
     // Get instance field reference: public System.Net.HttpListener Listener
-    System::Net::HttpListener*& dyn_Listener();
+    ::System::Net::HttpListener*& dyn_Listener();
     // public System.Boolean get_Secure()
     // Offset: 0x17A7040
     bool get_Secure();
@@ -112,7 +112,7 @@ namespace System::Net {
     // Offset: 0x17A6D2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ListenerPrefix* New_ctor(::StringW prefix) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::ListenerPrefix::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::ListenerPrefix::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ListenerPrefix*, creationType>(prefix)));
     }
     // private System.Void Parse(System.String uri)
@@ -138,7 +138,7 @@ namespace System::Net {
     int GetHashCode();
   }; // System.Net.ListenerPrefix
   #pragma pack(pop)
-  static check_size<sizeof(ListenerPrefix), 56 + sizeof(System::Net::HttpListener*)> __System_Net_ListenerPrefixSizeCheck;
+  static check_size<sizeof(ListenerPrefix), 56 + sizeof(::System::Net::HttpListener*)> __System_Net_ListenerPrefixSizeCheck;
   static_assert(sizeof(ListenerPrefix) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

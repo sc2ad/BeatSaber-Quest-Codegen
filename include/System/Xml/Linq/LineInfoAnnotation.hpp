@@ -16,8 +16,8 @@ namespace System::Xml::Linq {
   class LineInfoAnnotation;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Linq::LineInfoAnnotation);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Linq::LineInfoAnnotation*, "System.Xml.Linq", "LineInfoAnnotation");
+NEED_NO_BOX(::System::Xml::Linq::LineInfoAnnotation);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Linq::LineInfoAnnotation*, "System.Xml.Linq", "LineInfoAnnotation");
 // Type namespace: System.Xml.Linq
 namespace System::Xml::Linq {
   // Size: 0x18
@@ -56,7 +56,7 @@ namespace System::Xml::Linq {
     // Offset: 0x29DEFDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LineInfoAnnotation* New_ctor(int lineNumber, int linePosition) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Linq::LineInfoAnnotation::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::LineInfoAnnotation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LineInfoAnnotation*, creationType>(lineNumber, linePosition)));
     }
   }; // System.Xml.Linq.LineInfoAnnotation

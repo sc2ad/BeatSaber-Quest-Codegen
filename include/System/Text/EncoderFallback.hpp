@@ -23,8 +23,8 @@ namespace System::Text {
   class EncoderFallback;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Text::EncoderFallback);
-DEFINE_IL2CPP_ARG_TYPE(System::Text::EncoderFallback*, "System.Text", "EncoderFallback");
+NEED_NO_BOX(::System::Text::EncoderFallback);
+DEFINE_IL2CPP_ARG_TYPE(::System::Text::EncoderFallback*, "System.Text", "EncoderFallback");
 // Type namespace: System.Text
 namespace System::Text {
   // Size: 0x11
@@ -54,13 +54,13 @@ namespace System::Text {
       return bIsMicrosoftBestFitFallback;
     }
     // Get static field: static private System.Text.EncoderFallback replacementFallback
-    static System::Text::EncoderFallback* _get_replacementFallback();
+    static ::System::Text::EncoderFallback* _get_replacementFallback();
     // Set static field: static private System.Text.EncoderFallback replacementFallback
-    static void _set_replacementFallback(System::Text::EncoderFallback* value);
+    static void _set_replacementFallback(::System::Text::EncoderFallback* value);
     // Get static field: static private System.Text.EncoderFallback exceptionFallback
-    static System::Text::EncoderFallback* _get_exceptionFallback();
+    static ::System::Text::EncoderFallback* _get_exceptionFallback();
     // Set static field: static private System.Text.EncoderFallback exceptionFallback
-    static void _set_exceptionFallback(System::Text::EncoderFallback* value);
+    static void _set_exceptionFallback(::System::Text::EncoderFallback* value);
     // Get static field: static private System.Object s_InternalSyncObject
     static ::Il2CppObject* _get_s_InternalSyncObject();
     // Set static field: static private System.Object s_InternalSyncObject
@@ -72,23 +72,23 @@ namespace System::Text {
     static ::Il2CppObject* get_InternalSyncObject();
     // static public System.Text.EncoderFallback get_ReplacementFallback()
     // Offset: 0x1F9F274
-    static System::Text::EncoderFallback* get_ReplacementFallback();
+    static ::System::Text::EncoderFallback* get_ReplacementFallback();
     // static public System.Text.EncoderFallback get_ExceptionFallback()
     // Offset: 0x1FA076C
-    static System::Text::EncoderFallback* get_ExceptionFallback();
+    static ::System::Text::EncoderFallback* get_ExceptionFallback();
     // public System.Int32 get_MaxCharCount()
     // Offset: 0xFFFFFFFF
     int get_MaxCharCount();
     // public System.Text.EncoderFallbackBuffer CreateFallbackBuffer()
     // Offset: 0xFFFFFFFF
-    System::Text::EncoderFallbackBuffer* CreateFallbackBuffer();
+    ::System::Text::EncoderFallbackBuffer* CreateFallbackBuffer();
     // protected System.Void .ctor()
     // Offset: 0x1F9FDF0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EncoderFallback* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::EncoderFallback::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::EncoderFallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EncoderFallback*, creationType>()));
     }
   }; // System.Text.EncoderFallback
@@ -108,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Text::EncoderFallback::get_ReplacementFallback
 // Il2CppName: get_ReplacementFallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::EncoderFallback* (*)()>(&System::Text::EncoderFallback::get_ReplacementFallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::EncoderFallback* (*)()>(&System::Text::EncoderFallback::get_ReplacementFallback)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Text::EncoderFallback*), "get_ReplacementFallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -116,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::EncoderFallback::get_ExceptionFallback
 // Il2CppName: get_ExceptionFallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::EncoderFallback* (*)()>(&System::Text::EncoderFallback::get_ExceptionFallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::EncoderFallback* (*)()>(&System::Text::EncoderFallback::get_ExceptionFallback)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Text::EncoderFallback*), "get_ExceptionFallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -132,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Text::EncoderFallback::CreateFallbackBuffer
 // Il2CppName: CreateFallbackBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::EncoderFallbackBuffer* (System::Text::EncoderFallback::*)()>(&System::Text::EncoderFallback::CreateFallbackBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::EncoderFallbackBuffer* (System::Text::EncoderFallback::*)()>(&System::Text::EncoderFallback::CreateFallbackBuffer)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Text::EncoderFallback*), "CreateFallbackBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

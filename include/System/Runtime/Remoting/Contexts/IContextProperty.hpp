@@ -19,8 +19,8 @@ namespace System::Runtime::Remoting::Contexts {
   class IContextProperty;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Remoting::Contexts::IContextProperty);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::IContextProperty*, "System.Runtime.Remoting.Contexts", "IContextProperty");
+NEED_NO_BOX(::System::Runtime::Remoting::Contexts::IContextProperty);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Contexts::IContextProperty*, "System.Runtime.Remoting.Contexts", "IContextProperty");
 // Type namespace: System.Runtime.Remoting.Contexts
 namespace System::Runtime::Remoting::Contexts {
   // Size: 0x10
@@ -35,10 +35,10 @@ namespace System::Runtime::Remoting::Contexts {
     ::StringW get_Name();
     // public System.Void Freeze(System.Runtime.Remoting.Contexts.Context newContext)
     // Offset: 0xFFFFFFFF
-    void Freeze(System::Runtime::Remoting::Contexts::Context* newContext);
+    void Freeze(::System::Runtime::Remoting::Contexts::Context* newContext);
     // public System.Boolean IsNewContextOK(System.Runtime.Remoting.Contexts.Context newCtx)
     // Offset: 0xFFFFFFFF
-    bool IsNewContextOK(System::Runtime::Remoting::Contexts::Context* newCtx);
+    bool IsNewContextOK(::System::Runtime::Remoting::Contexts::Context* newCtx);
   }; // System.Runtime.Remoting.Contexts.IContextProperty
   #pragma pack(pop)
 }
@@ -54,7 +54,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::IContextProperty::Freeze
 // Il2CppName: Freeze
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Contexts::IContextProperty::*)(System::Runtime::Remoting::Contexts::Context*)>(&System::Runtime::Remoting::Contexts::IContextProperty::Freeze)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Contexts::IContextProperty::*)(::System::Runtime::Remoting::Contexts::Context*)>(&System::Runtime::Remoting::Contexts::IContextProperty::Freeze)> {
   static const MethodInfo* get() {
     static auto* newContext = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Contexts", "Context")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::IContextProperty*), "Freeze", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newContext});
@@ -63,7 +63,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::IContextProperty::IsNewContextOK
 // Il2CppName: IsNewContextOK
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Remoting::Contexts::IContextProperty::*)(System::Runtime::Remoting::Contexts::Context*)>(&System::Runtime::Remoting::Contexts::IContextProperty::IsNewContextOK)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Remoting::Contexts::IContextProperty::*)(::System::Runtime::Remoting::Contexts::Context*)>(&System::Runtime::Remoting::Contexts::IContextProperty::IsNewContextOK)> {
   static const MethodInfo* get() {
     static auto* newCtx = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Contexts", "Context")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::IContextProperty*), "IsNewContextOK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newCtx});

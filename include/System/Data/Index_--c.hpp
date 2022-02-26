@@ -27,8 +27,8 @@ namespace System::ComponentModel {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Data::Index::$$c);
-DEFINE_IL2CPP_ARG_TYPE(System::Data::Index::$$c*, "System.Data", "Index/<>c");
+NEED_NO_BOX(::System::Data::Index::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::System::Data::Index::$$c*, "System.Data", "Index/<>c");
 // Type namespace: System.Data
 namespace System::Data {
   // Size: 0x10
@@ -39,33 +39,33 @@ namespace System::Data {
   class Index::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly System.Data.Index/System.Data.<>c <>9
-    static System::Data::Index::$$c* _get_$$9();
+    static ::System::Data::Index::$$c* _get_$$9();
     // Set static field: static public readonly System.Data.Index/System.Data.<>c <>9
-    static void _set_$$9(System::Data::Index::$$c* value);
+    static void _set_$$9(::System::Data::Index::$$c* value);
     // Get static field: static public System.Data.Listeners`1/System.Data.Func`2<System.Data.DataViewListener,System.Data.DataViewListener,System.Boolean> <>9__22_0
-    static typename System::Data::Listeners_1<System::Data::DataViewListener*>::Func_2<System::Data::DataViewListener*, bool>* _get_$$9__22_0();
+    static typename ::System::Data::Listeners_1<::System::Data::DataViewListener*>::Func_2<::System::Data::DataViewListener*, bool>* _get_$$9__22_0();
     // Set static field: static public System.Data.Listeners`1/System.Data.Func`2<System.Data.DataViewListener,System.Data.DataViewListener,System.Boolean> <>9__22_0
-    static void _set_$$9__22_0(typename System::Data::Listeners_1<System::Data::DataViewListener*>::Func_2<System::Data::DataViewListener*, bool>* value);
+    static void _set_$$9__22_0(typename ::System::Data::Listeners_1<::System::Data::DataViewListener*>::Func_2<::System::Data::DataViewListener*, bool>* value);
     // Get static field: static public System.Data.Listeners`1/System.Data.Action`4<System.Data.DataViewListener,System.Data.DataViewListener,System.ComponentModel.ListChangedEventArgs,System.Boolean,System.Boolean> <>9__85_0
-    static typename System::Data::Listeners_1<System::Data::DataViewListener*>::Action_4<System::Data::DataViewListener*, System::ComponentModel::ListChangedEventArgs*, bool, bool>* _get_$$9__85_0();
+    static typename ::System::Data::Listeners_1<::System::Data::DataViewListener*>::Action_4<::System::Data::DataViewListener*, ::System::ComponentModel::ListChangedEventArgs*, bool, bool>* _get_$$9__85_0();
     // Set static field: static public System.Data.Listeners`1/System.Data.Action`4<System.Data.DataViewListener,System.Data.DataViewListener,System.ComponentModel.ListChangedEventArgs,System.Boolean,System.Boolean> <>9__85_0
-    static void _set_$$9__85_0(typename System::Data::Listeners_1<System::Data::DataViewListener*>::Action_4<System::Data::DataViewListener*, System::ComponentModel::ListChangedEventArgs*, bool, bool>* value);
+    static void _set_$$9__85_0(typename ::System::Data::Listeners_1<::System::Data::DataViewListener*>::Action_4<::System::Data::DataViewListener*, ::System::ComponentModel::ListChangedEventArgs*, bool, bool>* value);
     // static private System.Void .cctor()
     // Offset: 0x198C760
     static void _cctor();
     // System.Boolean <.ctor>b__22_0(System.Data.DataViewListener listener)
     // Offset: 0x198C7CC
-    bool $_ctor$b__22_0(System::Data::DataViewListener* listener);
+    bool $_ctor$b__22_0(::System::Data::DataViewListener* listener);
     // System.Void <OnListChanged>b__85_0(System.Data.DataViewListener listener, System.ComponentModel.ListChangedEventArgs args, System.Boolean arg2, System.Boolean arg3)
     // Offset: 0x198C7D8
-    void $OnListChanged$b__85_0(System::Data::DataViewListener* listener, System::ComponentModel::ListChangedEventArgs* args, bool arg2, bool arg3);
+    void $OnListChanged$b__85_0(::System::Data::DataViewListener* listener, ::System::ComponentModel::ListChangedEventArgs* args, bool arg2, bool arg3);
     // public System.Void .ctor()
     // Offset: 0x198C7C4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Index::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Data::Index::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Data::Index::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Index::$$c*, creationType>()));
     }
   }; // System.Data.Index/System.Data.<>c
@@ -83,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Data::Index::$$c::$_ctor$b__22_0
 // Il2CppName: <.ctor>b__22_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Data::Index::$$c::*)(System::Data::DataViewListener*)>(&System::Data::Index::$$c::$_ctor$b__22_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Data::Index::$$c::*)(::System::Data::DataViewListener*)>(&System::Data::Index::$$c::$_ctor$b__22_0)> {
   static const MethodInfo* get() {
     static auto* listener = &::il2cpp_utils::GetClassFromName("System.Data", "DataViewListener")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::Index::$$c*), "<.ctor>b__22_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{listener});
@@ -92,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Data::Index::$$c::$OnListChanged$b__85_0
 // Il2CppName: <OnListChanged>b__85_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::Index::$$c::*)(System::Data::DataViewListener*, System::ComponentModel::ListChangedEventArgs*, bool, bool)>(&System::Data::Index::$$c::$OnListChanged$b__85_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::Index::$$c::*)(::System::Data::DataViewListener*, ::System::ComponentModel::ListChangedEventArgs*, bool, bool)>(&System::Data::Index::$$c::$OnListChanged$b__85_0)> {
   static const MethodInfo* get() {
     static auto* listener = &::il2cpp_utils::GetClassFromName("System.Data", "DataViewListener")->byval_arg;
     static auto* args = &::il2cpp_utils::GetClassFromName("System.ComponentModel", "ListChangedEventArgs")->byval_arg;

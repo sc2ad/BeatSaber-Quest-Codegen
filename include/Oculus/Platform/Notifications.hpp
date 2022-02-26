@@ -27,8 +27,8 @@ namespace Oculus::Platform {
   class Notifications;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Notifications);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Notifications*, "Oculus.Platform", "Notifications");
+NEED_NO_BOX(::Oculus::Platform::Notifications);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Notifications*, "Oculus.Platform", "Notifications");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x10
@@ -39,13 +39,13 @@ namespace Oculus::Platform {
     public:
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.RoomInviteNotificationList> GetRoomInviteNotifications()
     // Offset: 0x29FC088
-    static Oculus::Platform::Request_1<Oculus::Platform::Models::RoomInviteNotificationList*>* GetRoomInviteNotifications();
+    static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::RoomInviteNotificationList*>* GetRoomInviteNotifications();
     // static public Oculus.Platform.Request MarkAsRead(System.UInt64 notificationID)
     // Offset: 0x29FC194
-    static Oculus::Platform::Request* MarkAsRead(uint64_t notificationID);
+    static ::Oculus::Platform::Request* MarkAsRead(uint64_t notificationID);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.RoomInviteNotificationList> GetNextRoomInviteNotificationListPage(Oculus.Platform.Models.RoomInviteNotificationList list)
     // Offset: 0x29FC2D4
-    static Oculus::Platform::Request_1<Oculus::Platform::Models::RoomInviteNotificationList*>* GetNextRoomInviteNotificationListPage(Oculus::Platform::Models::RoomInviteNotificationList* list);
+    static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::RoomInviteNotificationList*>* GetNextRoomInviteNotificationListPage(::Oculus::Platform::Models::RoomInviteNotificationList* list);
   }; // Oculus.Platform.Notifications
   #pragma pack(pop)
 }
@@ -53,7 +53,7 @@ namespace Oculus::Platform {
 // Writing MetadataGetter for method: Oculus::Platform::Notifications::GetRoomInviteNotifications
 // Il2CppName: GetRoomInviteNotifications
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::RoomInviteNotificationList*>* (*)()>(&Oculus::Platform::Notifications::GetRoomInviteNotifications)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::RoomInviteNotificationList*>* (*)()>(&Oculus::Platform::Notifications::GetRoomInviteNotifications)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Notifications*), "GetRoomInviteNotifications", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -61,7 +61,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Writing MetadataGetter for method: Oculus::Platform::Notifications::MarkAsRead
 // Il2CppName: MarkAsRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request* (*)(uint64_t)>(&Oculus::Platform::Notifications::MarkAsRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request* (*)(uint64_t)>(&Oculus::Platform::Notifications::MarkAsRead)> {
   static const MethodInfo* get() {
     static auto* notificationID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Notifications*), "MarkAsRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{notificationID});
@@ -70,7 +70,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Writing MetadataGetter for method: Oculus::Platform::Notifications::GetNextRoomInviteNotificationListPage
 // Il2CppName: GetNextRoomInviteNotificationListPage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::RoomInviteNotificationList*>* (*)(Oculus::Platform::Models::RoomInviteNotificationList*)>(&Oculus::Platform::Notifications::GetNextRoomInviteNotificationListPage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::RoomInviteNotificationList*>* (*)(::Oculus::Platform::Models::RoomInviteNotificationList*)>(&Oculus::Platform::Notifications::GetNextRoomInviteNotificationListPage)> {
   static const MethodInfo* get() {
     static auto* list = &::il2cpp_utils::GetClassFromName("Oculus.Platform.Models", "RoomInviteNotificationList")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Notifications*), "GetNextRoomInviteNotificationListPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{list});

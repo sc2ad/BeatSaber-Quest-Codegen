@@ -23,8 +23,8 @@ namespace System {
   class LocalDataStoreHolder;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::LocalDataStoreHolder);
-DEFINE_IL2CPP_ARG_TYPE(System::LocalDataStoreHolder*, "System", "LocalDataStoreHolder");
+NEED_NO_BOX(::System::LocalDataStoreHolder);
+DEFINE_IL2CPP_ARG_TYPE(::System::LocalDataStoreHolder*, "System", "LocalDataStoreHolder");
 // Type namespace: System
 namespace System {
   // Size: 0x18
@@ -45,24 +45,24 @@ namespace System {
     // private System.LocalDataStore m_Store
     // Size: 0x8
     // Offset: 0x10
-    System::LocalDataStore* m_Store;
+    ::System::LocalDataStore* m_Store;
     // Field size check
-    static_assert(sizeof(System::LocalDataStore*) == 0x8);
+    static_assert(sizeof(::System::LocalDataStore*) == 0x8);
     public:
-    // Creating conversion operator: operator System::LocalDataStore*
-    constexpr operator System::LocalDataStore*() const noexcept {
+    // Creating conversion operator: operator ::System::LocalDataStore*
+    constexpr operator ::System::LocalDataStore*() const noexcept {
       return m_Store;
     }
     // Get instance field reference: private System.LocalDataStore m_Store
-    System::LocalDataStore*& dyn_m_Store();
+    ::System::LocalDataStore*& dyn_m_Store();
     // public System.LocalDataStore get_Store()
     // Offset: 0x1A93264
-    System::LocalDataStore* get_Store();
+    ::System::LocalDataStore* get_Store();
     // public System.Void .ctor(System.LocalDataStore store)
     // Offset: 0x1A931C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static LocalDataStoreHolder* New_ctor(System::LocalDataStore* store) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::LocalDataStoreHolder::.ctor");
+    static LocalDataStoreHolder* New_ctor(::System::LocalDataStore* store) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::LocalDataStoreHolder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalDataStoreHolder*, creationType>(store)));
     }
     // protected override System.Void Finalize()
@@ -72,14 +72,14 @@ namespace System {
     void Finalize();
   }; // System.LocalDataStoreHolder
   #pragma pack(pop)
-  static check_size<sizeof(LocalDataStoreHolder), 16 + sizeof(System::LocalDataStore*)> __System_LocalDataStoreHolderSizeCheck;
+  static check_size<sizeof(LocalDataStoreHolder), 16 + sizeof(::System::LocalDataStore*)> __System_LocalDataStoreHolderSizeCheck;
   static_assert(sizeof(LocalDataStoreHolder) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::LocalDataStoreHolder::get_Store
 // Il2CppName: get_Store
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::LocalDataStore* (System::LocalDataStoreHolder::*)()>(&System::LocalDataStoreHolder::get_Store)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::LocalDataStore* (System::LocalDataStoreHolder::*)()>(&System::LocalDataStoreHolder::get_Store)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::LocalDataStoreHolder*), "get_Store", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

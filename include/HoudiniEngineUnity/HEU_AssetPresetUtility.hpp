@@ -21,8 +21,8 @@ namespace HoudiniEngineUnity {
   class HEU_AssetPresetUtility;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_AssetPresetUtility);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_AssetPresetUtility*, "HoudiniEngineUnity", "HEU_AssetPresetUtility");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_AssetPresetUtility);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_AssetPresetUtility*, "HoudiniEngineUnity", "HEU_AssetPresetUtility");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x10
@@ -44,10 +44,10 @@ namespace HoudiniEngineUnity {
     static void _cctor();
     // static public System.Void SaveAssetPresetToFile(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.String filePath)
     // Offset: 0x16357C4
-    static void SaveAssetPresetToFile(HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW filePath);
+    static void SaveAssetPresetToFile(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW filePath);
     // static public System.Void LoadPresetFileIntoAssetAndCook(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.String filePath)
     // Offset: 0x1635D94
-    static void LoadPresetFileIntoAssetAndCook(HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW filePath);
+    static void LoadPresetFileIntoAssetAndCook(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW filePath);
   }; // HoudiniEngineUnity.HEU_AssetPresetUtility
   #pragma pack(pop)
 }
@@ -63,7 +63,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_AssetPresetUtility::SaveAssetPresetToFile
 // Il2CppName: SaveAssetPresetToFile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HoudiniEngineUnity::HEU_HoudiniAsset*, ::StringW)>(&HoudiniEngineUnity::HEU_AssetPresetUtility::SaveAssetPresetToFile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, ::StringW)>(&HoudiniEngineUnity::HEU_AssetPresetUtility::SaveAssetPresetToFile)> {
   static const MethodInfo* get() {
     static auto* asset = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_HoudiniAsset")->byval_arg;
     static auto* filePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -73,7 +73,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_AssetPresetUtility::LoadPresetFileIntoAssetAndCook
 // Il2CppName: LoadPresetFileIntoAssetAndCook
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HoudiniEngineUnity::HEU_HoudiniAsset*, ::StringW)>(&HoudiniEngineUnity::HEU_AssetPresetUtility::LoadPresetFileIntoAssetAndCook)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, ::StringW)>(&HoudiniEngineUnity::HEU_AssetPresetUtility::LoadPresetFileIntoAssetAndCook)> {
   static const MethodInfo* get() {
     static auto* asset = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_HoudiniAsset")->byval_arg;
     static auto* filePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

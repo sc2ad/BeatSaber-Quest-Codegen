@@ -21,8 +21,8 @@ namespace NUnit::Framework::Constraints {
   class ComparisonAdapter;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Constraints::ComparisonAdapter);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ComparisonAdapter*, "NUnit.Framework.Constraints", "ComparisonAdapter");
+NEED_NO_BOX(::NUnit::Framework::Constraints::ComparisonAdapter);
+DEFINE_IL2CPP_ARG_TYPE(::NUnit::Framework::Constraints::ComparisonAdapter*, "NUnit.Framework.Constraints", "ComparisonAdapter");
 // Type namespace: NUnit.Framework.Constraints
 namespace NUnit::Framework::Constraints {
   // Size: 0x10
@@ -31,13 +31,13 @@ namespace NUnit::Framework::Constraints {
   // [TokenAttribute] Offset: FFFFFFFF
   class ComparisonAdapter : public ::Il2CppObject {
     public:
-    // Nested type: NUnit::Framework::Constraints::ComparisonAdapter::DefaultComparisonAdapter
+    // Nested type: ::NUnit::Framework::Constraints::ComparisonAdapter::DefaultComparisonAdapter
     class DefaultComparisonAdapter;
-    // Nested type: NUnit::Framework::Constraints::ComparisonAdapter::ComparerAdapter
+    // Nested type: ::NUnit::Framework::Constraints::ComparisonAdapter::ComparerAdapter
     class ComparerAdapter;
     // static public NUnit.Framework.Constraints.ComparisonAdapter get_Default()
     // Offset: 0x1B4E50C
-    static NUnit::Framework::Constraints::ComparisonAdapter* get_Default();
+    static ::NUnit::Framework::Constraints::ComparisonAdapter* get_Default();
     // public System.Int32 Compare(System.Object expected, System.Object actual)
     // Offset: 0xFFFFFFFF
     int Compare(::Il2CppObject* expected, ::Il2CppObject* actual);
@@ -47,7 +47,7 @@ namespace NUnit::Framework::Constraints {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ComparisonAdapter* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::ComparisonAdapter::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Constraints::ComparisonAdapter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ComparisonAdapter*, creationType>()));
     }
   }; // NUnit.Framework.Constraints.ComparisonAdapter
@@ -57,7 +57,7 @@ namespace NUnit::Framework::Constraints {
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::ComparisonAdapter::get_Default
 // Il2CppName: get_Default
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::ComparisonAdapter* (*)()>(&NUnit::Framework::Constraints::ComparisonAdapter::get_Default)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Framework::Constraints::ComparisonAdapter* (*)()>(&NUnit::Framework::Constraints::ComparisonAdapter::get_Default)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::ComparisonAdapter*), "get_Default", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

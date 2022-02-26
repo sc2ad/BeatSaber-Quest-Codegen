@@ -44,8 +44,8 @@ namespace System::Runtime::Remoting::Messaging {
   class ConstructionResponse;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Remoting::Messaging::ConstructionResponse);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::ConstructionResponse*, "System.Runtime.Remoting.Messaging", "ConstructionResponse");
+NEED_NO_BOX(::System::Runtime::Remoting::Messaging::ConstructionResponse);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Messaging::ConstructionResponse*, "System.Runtime.Remoting.Messaging", "ConstructionResponse");
 // Type namespace: System.Runtime.Remoting.Messaging
 namespace System::Runtime::Remoting::Messaging {
   // Size: 0x88
@@ -54,31 +54,31 @@ namespace System::Runtime::Remoting::Messaging {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: 118AEC4
   // [CLSCompliantAttribute] Offset: 118AEC4
-  class ConstructionResponse : public System::Runtime::Remoting::Messaging::MethodResponse/*, public System::Runtime::Remoting::Activation::IConstructionReturnMessage*/ {
+  class ConstructionResponse : public ::System::Runtime::Remoting::Messaging::MethodResponse/*, public ::System::Runtime::Remoting::Activation::IConstructionReturnMessage*/ {
     public:
-    // Creating interface conversion operator: operator System::Runtime::Remoting::Activation::IConstructionReturnMessage
-    operator System::Runtime::Remoting::Activation::IConstructionReturnMessage() noexcept {
-      return *reinterpret_cast<System::Runtime::Remoting::Activation::IConstructionReturnMessage*>(this);
+    // Creating interface conversion operator: operator ::System::Runtime::Remoting::Activation::IConstructionReturnMessage
+    operator ::System::Runtime::Remoting::Activation::IConstructionReturnMessage() noexcept {
+      return *reinterpret_cast<::System::Runtime::Remoting::Activation::IConstructionReturnMessage*>(this);
     }
     // System.Void .ctor(System.Object resultObject, System.Runtime.Remoting.Messaging.LogicalCallContext callCtx, System.Runtime.Remoting.Messaging.IMethodCallMessage msg)
     // Offset: 0x1B8AB48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ConstructionResponse* New_ctor(::Il2CppObject* resultObject, System::Runtime::Remoting::Messaging::LogicalCallContext* callCtx, System::Runtime::Remoting::Messaging::IMethodCallMessage* msg) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::ConstructionResponse::.ctor");
+    static ConstructionResponse* New_ctor(::Il2CppObject* resultObject, ::System::Runtime::Remoting::Messaging::LogicalCallContext* callCtx, ::System::Runtime::Remoting::Messaging::IMethodCallMessage* msg) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::Messaging::ConstructionResponse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConstructionResponse*, creationType>(resultObject, callCtx, msg)));
     }
     // public override System.Collections.IDictionary get_Properties()
     // Offset: 0x1B8ACC4
     // Implemented from: System.Runtime.Remoting.Messaging.MethodResponse
     // Base method: System.Collections.IDictionary MethodResponse::get_Properties()
-    System::Collections::IDictionary* get_Properties();
+    ::System::Collections::IDictionary* get_Properties();
     // System.Void .ctor(System.Exception e, System.Runtime.Remoting.Messaging.IMethodCallMessage msg)
     // Offset: 0x1B8AC40
     // Implemented from: System.Runtime.Remoting.Messaging.MethodResponse
     // Base method: System.Void MethodResponse::.ctor(System.Exception e, System.Runtime.Remoting.Messaging.IMethodCallMessage msg)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ConstructionResponse* New_ctor(System::Exception* e, System::Runtime::Remoting::Messaging::IMethodCallMessage* msg) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::ConstructionResponse::.ctor");
+    static ConstructionResponse* New_ctor(::System::Exception* e, ::System::Runtime::Remoting::Messaging::IMethodCallMessage* msg) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::Messaging::ConstructionResponse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConstructionResponse*, creationType>(e, msg)));
     }
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
@@ -86,8 +86,8 @@ namespace System::Runtime::Remoting::Messaging {
     // Implemented from: System.Runtime.Remoting.Messaging.MethodResponse
     // Base method: System.Void MethodResponse::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ConstructionResponse* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::ConstructionResponse::.ctor");
+    static ConstructionResponse* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::Messaging::ConstructionResponse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConstructionResponse*, creationType>(info, context)));
     }
   }; // System.Runtime.Remoting.Messaging.ConstructionResponse
@@ -101,7 +101,7 @@ namespace System::Runtime::Remoting::Messaging {
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ConstructionResponse::get_Properties
 // Il2CppName: get_Properties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IDictionary* (System::Runtime::Remoting::Messaging::ConstructionResponse::*)()>(&System::Runtime::Remoting::Messaging::ConstructionResponse::get_Properties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IDictionary* (System::Runtime::Remoting::Messaging::ConstructionResponse::*)()>(&System::Runtime::Remoting::Messaging::ConstructionResponse::get_Properties)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ConstructionResponse*), "get_Properties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

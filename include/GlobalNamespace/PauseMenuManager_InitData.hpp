@@ -25,8 +25,8 @@ namespace GlobalNamespace {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PauseMenuManager::InitData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PauseMenuManager::InitData*, "", "PauseMenuManager/InitData");
+NEED_NO_BOX(::GlobalNamespace::PauseMenuManager::InitData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PauseMenuManager::InitData*, "", "PauseMenuManager/InitData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x32
@@ -53,23 +53,23 @@ namespace GlobalNamespace {
     // public readonly IPreviewBeatmapLevel previewBeatmapLevel
     // Size: 0x8
     // Offset: 0x18
-    GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel;
+    ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::IPreviewBeatmapLevel*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::IPreviewBeatmapLevel*) == 0x8);
     // public readonly BeatmapDifficulty beatmapDifficulty
     // Size: 0x4
     // Offset: 0x20
-    GlobalNamespace::BeatmapDifficulty beatmapDifficulty;
+    ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::BeatmapDifficulty) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::BeatmapDifficulty) == 0x4);
     // Padding between fields: beatmapDifficulty and: beatmapCharacteristic
     char __padding2[0x4] = {};
     // public readonly BeatmapCharacteristicSO beatmapCharacteristic
     // Size: 0x8
     // Offset: 0x28
-    GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic;
+    ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::BeatmapCharacteristicSO*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::BeatmapCharacteristicSO*) == 0x8);
     // public readonly System.Boolean showRestartButton
     // Size: 0x1
     // Offset: 0x30
@@ -86,11 +86,11 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.String backButtonText
     ::StringW& dyn_backButtonText();
     // Get instance field reference: public readonly IPreviewBeatmapLevel previewBeatmapLevel
-    GlobalNamespace::IPreviewBeatmapLevel*& dyn_previewBeatmapLevel();
+    ::GlobalNamespace::IPreviewBeatmapLevel*& dyn_previewBeatmapLevel();
     // Get instance field reference: public readonly BeatmapDifficulty beatmapDifficulty
-    GlobalNamespace::BeatmapDifficulty& dyn_beatmapDifficulty();
+    ::GlobalNamespace::BeatmapDifficulty& dyn_beatmapDifficulty();
     // Get instance field reference: public readonly BeatmapCharacteristicSO beatmapCharacteristic
-    GlobalNamespace::BeatmapCharacteristicSO*& dyn_beatmapCharacteristic();
+    ::GlobalNamespace::BeatmapCharacteristicSO*& dyn_beatmapCharacteristic();
     // Get instance field reference: public readonly System.Boolean showRestartButton
     bool& dyn_showRestartButton();
     // Get instance field reference: public readonly System.Boolean showLevelBar
@@ -98,8 +98,8 @@ namespace GlobalNamespace {
     // public System.Void .ctor(System.String backButtonText, IPreviewBeatmapLevel previewBeatmapLevel, BeatmapDifficulty beatmapDifficulty, BeatmapCharacteristicSO beatmapCharacteristic, System.Boolean showRestartButton, System.Boolean showLevelBar)
     // Offset: 0x2ABD5C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PauseMenuManager::InitData* New_ctor(::StringW backButtonText, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, bool showRestartButton, bool showLevelBar) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PauseMenuManager::InitData::.ctor");
+    static PauseMenuManager::InitData* New_ctor(::StringW backButtonText, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, bool showRestartButton, bool showLevelBar) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PauseMenuManager::InitData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PauseMenuManager::InitData*, creationType>(backButtonText, previewBeatmapLevel, beatmapDifficulty, beatmapCharacteristic, showRestartButton, showLevelBar)));
     }
   }; // PauseMenuManager/InitData

@@ -31,8 +31,8 @@ namespace System::IO {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::WebRequest::$$c__DisplayClass78_0);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::WebRequest::$$c__DisplayClass78_0*, "System.Net", "WebRequest/<>c__DisplayClass78_0");
+NEED_NO_BOX(::System::Net::WebRequest::$$c__DisplayClass78_0);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::WebRequest::$$c__DisplayClass78_0*, "System.Net", "WebRequest/<>c__DisplayClass78_0");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x20
@@ -54,42 +54,42 @@ namespace System::Net {
     // public System.Security.Principal.WindowsIdentity currentUser
     // Size: 0x8
     // Offset: 0x10
-    System::Security::Principal::WindowsIdentity* currentUser;
+    ::System::Security::Principal::WindowsIdentity* currentUser;
     // Field size check
-    static_assert(sizeof(System::Security::Principal::WindowsIdentity*) == 0x8);
+    static_assert(sizeof(::System::Security::Principal::WindowsIdentity*) == 0x8);
     // public System.Net.WebRequest <>4__this
     // Size: 0x8
     // Offset: 0x18
-    System::Net::WebRequest* $$4__this;
+    ::System::Net::WebRequest* $$4__this;
     // Field size check
-    static_assert(sizeof(System::Net::WebRequest*) == 0x8);
+    static_assert(sizeof(::System::Net::WebRequest*) == 0x8);
     public:
     // Get instance field reference: public System.Security.Principal.WindowsIdentity currentUser
-    System::Security::Principal::WindowsIdentity*& dyn_currentUser();
+    ::System::Security::Principal::WindowsIdentity*& dyn_currentUser();
     // Get instance field reference: public System.Net.WebRequest <>4__this
-    System::Net::WebRequest*& dyn_$$4__this();
+    ::System::Net::WebRequest*& dyn_$$4__this();
     // System.Threading.Tasks.Task`1<System.IO.Stream> <GetRequestStreamAsync>b__1()
     // Offset: 0x1BE4788
-    System::Threading::Tasks::Task_1<System::IO::Stream*>* $GetRequestStreamAsync$b__1();
+    ::System::Threading::Tasks::Task_1<::System::IO::Stream*>* $GetRequestStreamAsync$b__1();
     // public System.Void .ctor()
     // Offset: 0x1BE3F74
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebRequest::$$c__DisplayClass78_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebRequest::$$c__DisplayClass78_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::WebRequest::$$c__DisplayClass78_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebRequest::$$c__DisplayClass78_0*, creationType>()));
     }
   }; // System.Net.WebRequest/System.Net.<>c__DisplayClass78_0
   #pragma pack(pop)
-  static check_size<sizeof(WebRequest::$$c__DisplayClass78_0), 24 + sizeof(System::Net::WebRequest*)> __System_Net_WebRequest_$$c__DisplayClass78_0SizeCheck;
+  static check_size<sizeof(WebRequest::$$c__DisplayClass78_0), 24 + sizeof(::System::Net::WebRequest*)> __System_Net_WebRequest_$$c__DisplayClass78_0SizeCheck;
   static_assert(sizeof(WebRequest::$$c__DisplayClass78_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::WebRequest::$$c__DisplayClass78_0::$GetRequestStreamAsync$b__1
 // Il2CppName: <GetRequestStreamAsync>b__1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<System::IO::Stream*>* (System::Net::WebRequest::$$c__DisplayClass78_0::*)()>(&System::Net::WebRequest::$$c__DisplayClass78_0::$GetRequestStreamAsync$b__1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::System::IO::Stream*>* (System::Net::WebRequest::$$c__DisplayClass78_0::*)()>(&System::Net::WebRequest::$$c__DisplayClass78_0::$GetRequestStreamAsync$b__1)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebRequest::$$c__DisplayClass78_0*), "<GetRequestStreamAsync>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

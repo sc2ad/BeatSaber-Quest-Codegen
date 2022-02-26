@@ -41,8 +41,8 @@ namespace UnityEngine::ProBuilder {
   class Changelog;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::Changelog);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Changelog*, "UnityEngine.ProBuilder", "Changelog");
+NEED_NO_BOX(::UnityEngine::ProBuilder::Changelog);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Changelog*, "UnityEngine.ProBuilder", "Changelog");
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
   // Size: 0x18
@@ -63,12 +63,12 @@ namespace UnityEngine::ProBuilder {
     // private System.Collections.Generic.List`1<UnityEngine.ProBuilder.ChangelogEntry> m_Entries
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::List_1<UnityEngine::ProBuilder::ChangelogEntry*>* m_Entries;
+    ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ChangelogEntry*>* m_Entries;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::ProBuilder::ChangelogEntry*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ChangelogEntry*>*) == 0x8);
     public:
-    // Creating conversion operator: operator System::Collections::Generic::List_1<UnityEngine::ProBuilder::ChangelogEntry*>*
-    constexpr operator System::Collections::Generic::List_1<UnityEngine::ProBuilder::ChangelogEntry*>*() const noexcept {
+    // Creating conversion operator: operator ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ChangelogEntry*>*
+    constexpr operator ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ChangelogEntry*>*() const noexcept {
       return m_Entries;
     }
     // static field const value: static private System.String k_ChangelogEntryPattern
@@ -90,30 +90,30 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static private System.String k_VersionDatePattern
     static void _set_k_VersionDatePattern(::StringW value);
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.ProBuilder.ChangelogEntry> m_Entries
-    System::Collections::Generic::List_1<UnityEngine::ProBuilder::ChangelogEntry*>*& dyn_m_Entries();
+    ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ChangelogEntry*>*& dyn_m_Entries();
     // public System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.ProBuilder.ChangelogEntry> get_entries()
     // Offset: 0x2504618
-    System::Collections::ObjectModel::ReadOnlyCollection_1<UnityEngine::ProBuilder::ChangelogEntry*>* get_entries();
+    ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::ProBuilder::ChangelogEntry*>* get_entries();
     // public System.Void .ctor(System.String log)
     // Offset: 0x2504688
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Changelog* New_ctor(::StringW log) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Changelog::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::Changelog::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Changelog*, creationType>(log)));
     }
     // private UnityEngine.ProBuilder.ChangelogEntry CreateEntry(System.String version, System.String contents)
     // Offset: 0x25048FC
-    UnityEngine::ProBuilder::ChangelogEntry* CreateEntry(::StringW version, ::StringW contents);
+    ::UnityEngine::ProBuilder::ChangelogEntry* CreateEntry(::StringW version, ::StringW contents);
   }; // UnityEngine.ProBuilder.Changelog
   #pragma pack(pop)
-  static check_size<sizeof(Changelog), 16 + sizeof(System::Collections::Generic::List_1<UnityEngine::ProBuilder::ChangelogEntry*>*)> __UnityEngine_ProBuilder_ChangelogSizeCheck;
+  static check_size<sizeof(Changelog), 16 + sizeof(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ChangelogEntry*>*)> __UnityEngine_ProBuilder_ChangelogSizeCheck;
   static_assert(sizeof(Changelog) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Changelog::get_entries
 // Il2CppName: get_entries
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ObjectModel::ReadOnlyCollection_1<UnityEngine::ProBuilder::ChangelogEntry*>* (UnityEngine::ProBuilder::Changelog::*)()>(&UnityEngine::ProBuilder::Changelog::get_entries)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::ProBuilder::ChangelogEntry*>* (UnityEngine::ProBuilder::Changelog::*)()>(&UnityEngine::ProBuilder::Changelog::get_entries)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Changelog*), "get_entries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -125,7 +125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Changelog::CreateEntry
 // Il2CppName: CreateEntry
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ChangelogEntry* (UnityEngine::ProBuilder::Changelog::*)(::StringW, ::StringW)>(&UnityEngine::ProBuilder::Changelog::CreateEntry)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::ChangelogEntry* (UnityEngine::ProBuilder::Changelog::*)(::StringW, ::StringW)>(&UnityEngine::ProBuilder::Changelog::CreateEntry)> {
   static const MethodInfo* get() {
     static auto* version = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* contents = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

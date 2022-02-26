@@ -30,8 +30,8 @@ namespace System::Text::RegularExpressions {
   class RegexFCD;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Text::RegularExpressions::RegexFCD);
-DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexFCD*, "System.Text.RegularExpressions", "RegexFCD");
+NEED_NO_BOX(::System::Text::RegularExpressions::RegexFCD);
+DEFINE_IL2CPP_ARG_TYPE(::System::Text::RegularExpressions::RegexFCD*, "System.Text.RegularExpressions", "RegexFCD");
 // Type namespace: System.Text.RegularExpressions
 namespace System::Text::RegularExpressions {
   // Size: 0x2F
@@ -66,9 +66,9 @@ namespace System::Text::RegularExpressions {
     // private System.Text.RegularExpressions.RegexFC[] _fcStack
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayW<System::Text::RegularExpressions::RegexFC*> fcStack;
+    ::ArrayW<::System::Text::RegularExpressions::RegexFC*> fcStack;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::Text::RegularExpressions::RegexFC*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::System::Text::RegularExpressions::RegexFC*>) == 0x8);
     // private System.Int32 _fcDepth
     // Size: 0x4
     // Offset: 0x28
@@ -99,7 +99,7 @@ namespace System::Text::RegularExpressions {
     // Get instance field reference: private System.Int32 _intDepth
     int& dyn__intDepth();
     // Get instance field reference: private System.Text.RegularExpressions.RegexFC[] _fcStack
-    ::ArrayW<System::Text::RegularExpressions::RegexFC*>& dyn__fcStack();
+    ::ArrayW<::System::Text::RegularExpressions::RegexFC*>& dyn__fcStack();
     // Get instance field reference: private System.Int32 _fcDepth
     int& dyn__fcDepth();
     // Get instance field reference: private System.Boolean _skipAllChildren
@@ -110,13 +110,13 @@ namespace System::Text::RegularExpressions {
     bool& dyn__failed();
     // static System.Text.RegularExpressions.RegexPrefix FirstChars(System.Text.RegularExpressions.RegexTree t)
     // Offset: 0x1E9E800
-    static System::Text::RegularExpressions::RegexPrefix* FirstChars(System::Text::RegularExpressions::RegexTree* t);
+    static ::System::Text::RegularExpressions::RegexPrefix* FirstChars(::System::Text::RegularExpressions::RegexTree* t);
     // static System.Text.RegularExpressions.RegexPrefix Prefix(System.Text.RegularExpressions.RegexTree tree)
     // Offset: 0x1E9EB04
-    static System::Text::RegularExpressions::RegexPrefix* Prefix(System::Text::RegularExpressions::RegexTree* tree);
+    static ::System::Text::RegularExpressions::RegexPrefix* Prefix(::System::Text::RegularExpressions::RegexTree* tree);
     // static System.Int32 Anchors(System.Text.RegularExpressions.RegexTree tree)
     // Offset: 0x1E9EE3C
-    static int Anchors(System::Text::RegularExpressions::RegexTree* tree);
+    static int Anchors(::System::Text::RegularExpressions::RegexTree* tree);
     // static private System.Int32 AnchorFromType(System.Int32 type)
     // Offset: 0x1E9EF70
     static int AnchorFromType(int type);
@@ -131,32 +131,32 @@ namespace System::Text::RegularExpressions {
     int PopInt();
     // private System.Void PushFC(System.Text.RegularExpressions.RegexFC fc)
     // Offset: 0x1E9F114
-    void PushFC(System::Text::RegularExpressions::RegexFC* fc);
+    void PushFC(::System::Text::RegularExpressions::RegexFC* fc);
     // private System.Boolean FCIsEmpty()
     // Offset: 0x1E9F21C
     bool FCIsEmpty();
     // private System.Text.RegularExpressions.RegexFC PopFC()
     // Offset: 0x1E9F22C
-    System::Text::RegularExpressions::RegexFC* PopFC();
+    ::System::Text::RegularExpressions::RegexFC* PopFC();
     // private System.Text.RegularExpressions.RegexFC TopFC()
     // Offset: 0x1E9F274
-    System::Text::RegularExpressions::RegexFC* TopFC();
+    ::System::Text::RegularExpressions::RegexFC* TopFC();
     // private System.Text.RegularExpressions.RegexFC RegexFCFromRegexTree(System.Text.RegularExpressions.RegexTree tree)
     // Offset: 0x1E9E998
-    System::Text::RegularExpressions::RegexFC* RegexFCFromRegexTree(System::Text::RegularExpressions::RegexTree* tree);
+    ::System::Text::RegularExpressions::RegexFC* RegexFCFromRegexTree(::System::Text::RegularExpressions::RegexTree* tree);
     // private System.Void SkipChild()
     // Offset: 0x1E9F724
     void SkipChild();
     // private System.Void CalculateFC(System.Int32 NodeType, System.Text.RegularExpressions.RegexNode node, System.Int32 CurIndex)
     // Offset: 0x1E9F2B8
-    void CalculateFC(int NodeType, System::Text::RegularExpressions::RegexNode* node, int CurIndex);
+    void CalculateFC(int NodeType, ::System::Text::RegularExpressions::RegexNode* node, int CurIndex);
     // private System.Void .ctor()
     // Offset: 0x1E9E91C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexFCD* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::RegexFCD::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::RegexFCD::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexFCD*, creationType>()));
     }
   }; // System.Text.RegularExpressions.RegexFCD
@@ -168,7 +168,7 @@ namespace System::Text::RegularExpressions {
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexFCD::FirstChars
 // Il2CppName: FirstChars
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexPrefix* (*)(System::Text::RegularExpressions::RegexTree*)>(&System::Text::RegularExpressions::RegexFCD::FirstChars)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::RegexPrefix* (*)(::System::Text::RegularExpressions::RegexTree*)>(&System::Text::RegularExpressions::RegexFCD::FirstChars)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System.Text.RegularExpressions", "RegexTree")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexFCD*), "FirstChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
@@ -177,7 +177,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexFCD::Prefix
 // Il2CppName: Prefix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexPrefix* (*)(System::Text::RegularExpressions::RegexTree*)>(&System::Text::RegularExpressions::RegexFCD::Prefix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::RegexPrefix* (*)(::System::Text::RegularExpressions::RegexTree*)>(&System::Text::RegularExpressions::RegexFCD::Prefix)> {
   static const MethodInfo* get() {
     static auto* tree = &::il2cpp_utils::GetClassFromName("System.Text.RegularExpressions", "RegexTree")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexFCD*), "Prefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tree});
@@ -186,7 +186,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexFCD::Anchors
 // Il2CppName: Anchors
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Text::RegularExpressions::RegexTree*)>(&System::Text::RegularExpressions::RegexFCD::Anchors)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::System::Text::RegularExpressions::RegexTree*)>(&System::Text::RegularExpressions::RegexFCD::Anchors)> {
   static const MethodInfo* get() {
     static auto* tree = &::il2cpp_utils::GetClassFromName("System.Text.RegularExpressions", "RegexTree")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexFCD*), "Anchors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tree});
@@ -229,7 +229,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexFCD::PushFC
 // Il2CppName: PushFC
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexFCD::*)(System::Text::RegularExpressions::RegexFC*)>(&System::Text::RegularExpressions::RegexFCD::PushFC)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexFCD::*)(::System::Text::RegularExpressions::RegexFC*)>(&System::Text::RegularExpressions::RegexFCD::PushFC)> {
   static const MethodInfo* get() {
     static auto* fc = &::il2cpp_utils::GetClassFromName("System.Text.RegularExpressions", "RegexFC")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexFCD*), "PushFC", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fc});
@@ -246,7 +246,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexFCD::PopFC
 // Il2CppName: PopFC
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexFC* (System::Text::RegularExpressions::RegexFCD::*)()>(&System::Text::RegularExpressions::RegexFCD::PopFC)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::RegexFC* (System::Text::RegularExpressions::RegexFCD::*)()>(&System::Text::RegularExpressions::RegexFCD::PopFC)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexFCD*), "PopFC", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -254,7 +254,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexFCD::TopFC
 // Il2CppName: TopFC
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexFC* (System::Text::RegularExpressions::RegexFCD::*)()>(&System::Text::RegularExpressions::RegexFCD::TopFC)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::RegexFC* (System::Text::RegularExpressions::RegexFCD::*)()>(&System::Text::RegularExpressions::RegexFCD::TopFC)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexFCD*), "TopFC", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -262,7 +262,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexFCD::RegexFCFromRegexTree
 // Il2CppName: RegexFCFromRegexTree
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexFC* (System::Text::RegularExpressions::RegexFCD::*)(System::Text::RegularExpressions::RegexTree*)>(&System::Text::RegularExpressions::RegexFCD::RegexFCFromRegexTree)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::RegexFC* (System::Text::RegularExpressions::RegexFCD::*)(::System::Text::RegularExpressions::RegexTree*)>(&System::Text::RegularExpressions::RegexFCD::RegexFCFromRegexTree)> {
   static const MethodInfo* get() {
     static auto* tree = &::il2cpp_utils::GetClassFromName("System.Text.RegularExpressions", "RegexTree")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexFCD*), "RegexFCFromRegexTree", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tree});
@@ -279,7 +279,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexFCD::CalculateFC
 // Il2CppName: CalculateFC
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexFCD::*)(int, System::Text::RegularExpressions::RegexNode*, int)>(&System::Text::RegularExpressions::RegexFCD::CalculateFC)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexFCD::*)(int, ::System::Text::RegularExpressions::RegexNode*, int)>(&System::Text::RegularExpressions::RegexFCD::CalculateFC)> {
   static const MethodInfo* get() {
     static auto* NodeType = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* node = &::il2cpp_utils::GetClassFromName("System.Text.RegularExpressions", "RegexNode")->byval_arg;

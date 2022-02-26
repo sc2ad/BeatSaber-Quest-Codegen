@@ -28,7 +28,7 @@ namespace UnityEngine::Audio {
   struct AudioMixerPlayable;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Audio::AudioMixerPlayable, "UnityEngine.Audio", "AudioMixerPlayable");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Audio::AudioMixerPlayable, "UnityEngine.Audio", "AudioMixerPlayable");
 // Type namespace: UnityEngine.Audio
 namespace UnityEngine::Audio {
   // Size: 0xC
@@ -41,57 +41,57 @@ namespace UnityEngine::Audio {
   // [NativeHeaderAttribute] Offset: 11D79F8
   // [NativeHeaderAttribute] Offset: 11D79F8
   // [NativeHeaderAttribute] Offset: 11D79F8
-  struct AudioMixerPlayable/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Audio::AudioMixerPlayable>, public UnityEngine::Playables::IPlayable*/ {
+  struct AudioMixerPlayable/*, public ::System::ValueType, public ::System::IEquatable_1<::UnityEngine::Audio::AudioMixerPlayable>, public ::UnityEngine::Playables::IPlayable*/ {
     public:
     public:
     // private UnityEngine.Playables.PlayableHandle m_Handle
     // Size: 0xC
     // Offset: 0x0
-    UnityEngine::Playables::PlayableHandle m_Handle;
+    ::UnityEngine::Playables::PlayableHandle m_Handle;
     // Field size check
-    static_assert(sizeof(UnityEngine::Playables::PlayableHandle) == 0xC);
+    static_assert(sizeof(::UnityEngine::Playables::PlayableHandle) == 0xC);
     public:
     // Creating value type constructor for type: AudioMixerPlayable
-    constexpr AudioMixerPlayable(UnityEngine::Playables::PlayableHandle m_Handle_ = {}) noexcept : m_Handle{m_Handle_} {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    constexpr AudioMixerPlayable(::UnityEngine::Playables::PlayableHandle m_Handle_ = {}) noexcept : m_Handle{m_Handle_} {}
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
-    // Creating interface conversion operator: operator System::IEquatable_1<UnityEngine::Audio::AudioMixerPlayable>
-    operator System::IEquatable_1<UnityEngine::Audio::AudioMixerPlayable>() noexcept {
-      return *reinterpret_cast<System::IEquatable_1<UnityEngine::Audio::AudioMixerPlayable>*>(this);
+    // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::Audio::AudioMixerPlayable>
+    operator ::System::IEquatable_1<::UnityEngine::Audio::AudioMixerPlayable>() noexcept {
+      return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::Audio::AudioMixerPlayable>*>(this);
     }
-    // Creating interface conversion operator: operator UnityEngine::Playables::IPlayable
-    operator UnityEngine::Playables::IPlayable() noexcept {
-      return *reinterpret_cast<UnityEngine::Playables::IPlayable*>(this);
+    // Creating interface conversion operator: operator ::UnityEngine::Playables::IPlayable
+    operator ::UnityEngine::Playables::IPlayable() noexcept {
+      return *reinterpret_cast<::UnityEngine::Playables::IPlayable*>(this);
     }
-    // Creating conversion operator: operator UnityEngine::Playables::PlayableHandle
-    constexpr operator UnityEngine::Playables::PlayableHandle() const noexcept {
+    // Creating conversion operator: operator ::UnityEngine::Playables::PlayableHandle
+    constexpr operator ::UnityEngine::Playables::PlayableHandle() const noexcept {
       return m_Handle;
     }
     // Get instance field reference: private UnityEngine.Playables.PlayableHandle m_Handle
-    UnityEngine::Playables::PlayableHandle& dyn_m_Handle();
+    ::UnityEngine::Playables::PlayableHandle& dyn_m_Handle();
     // System.Void .ctor(UnityEngine.Playables.PlayableHandle handle)
     // Offset: 0x2A3D560
-    // ABORTED: conflicts with another method.  AudioMixerPlayable(UnityEngine::Playables::PlayableHandle handle);
+    // ABORTED: conflicts with another method.  AudioMixerPlayable(::UnityEngine::Playables::PlayableHandle handle);
     // static public UnityEngine.Audio.AudioMixerPlayable Create(UnityEngine.Playables.PlayableGraph graph, System.Int32 inputCount, System.Boolean normalizeInputVolumes)
     // Offset: 0x2A3D42C
-    static UnityEngine::Audio::AudioMixerPlayable Create(UnityEngine::Playables::PlayableGraph graph, int inputCount, bool normalizeInputVolumes);
+    static ::UnityEngine::Audio::AudioMixerPlayable Create(::UnityEngine::Playables::PlayableGraph graph, int inputCount, bool normalizeInputVolumes);
     // static private UnityEngine.Playables.PlayableHandle CreateHandle(UnityEngine.Playables.PlayableGraph graph, System.Int32 inputCount, System.Boolean normalizeInputVolumes)
     // Offset: 0x2A3D46C
-    static UnityEngine::Playables::PlayableHandle CreateHandle(UnityEngine::Playables::PlayableGraph graph, int inputCount, bool normalizeInputVolumes);
+    static ::UnityEngine::Playables::PlayableHandle CreateHandle(::UnityEngine::Playables::PlayableGraph graph, int inputCount, bool normalizeInputVolumes);
     // public UnityEngine.Playables.PlayableHandle GetHandle()
     // Offset: 0x2A3D670
-    UnityEngine::Playables::PlayableHandle GetHandle();
+    ::UnityEngine::Playables::PlayableHandle GetHandle();
     // public System.Boolean Equals(UnityEngine.Audio.AudioMixerPlayable other)
     // Offset: 0x2A3D6B0
-    bool Equals(UnityEngine::Audio::AudioMixerPlayable other);
+    bool Equals(::UnityEngine::Audio::AudioMixerPlayable other);
     // static private System.Boolean CreateAudioMixerPlayableInternal(ref UnityEngine.Playables.PlayableGraph graph, System.Boolean normalizeInputVolumes, ref UnityEngine.Playables.PlayableHandle handle)
     // Offset: 0x2A3D618
-    static bool CreateAudioMixerPlayableInternal(ByRef<UnityEngine::Playables::PlayableGraph> graph, bool normalizeInputVolumes, ByRef<UnityEngine::Playables::PlayableHandle> handle);
+    static bool CreateAudioMixerPlayableInternal(ByRef<::UnityEngine::Playables::PlayableGraph> graph, bool normalizeInputVolumes, ByRef<::UnityEngine::Playables::PlayableHandle> handle);
   }; // UnityEngine.Audio.AudioMixerPlayable
   #pragma pack(pop)
-  static check_size<sizeof(AudioMixerPlayable), 0 + sizeof(UnityEngine::Playables::PlayableHandle)> __UnityEngine_Audio_AudioMixerPlayableSizeCheck;
+  static check_size<sizeof(AudioMixerPlayable), 0 + sizeof(::UnityEngine::Playables::PlayableHandle)> __UnityEngine_Audio_AudioMixerPlayableSizeCheck;
   static_assert(sizeof(AudioMixerPlayable) == 0xC);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -102,7 +102,7 @@ namespace UnityEngine::Audio {
 // Writing MetadataGetter for method: UnityEngine::Audio::AudioMixerPlayable::Create
 // Il2CppName: Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Audio::AudioMixerPlayable (*)(UnityEngine::Playables::PlayableGraph, int, bool)>(&UnityEngine::Audio::AudioMixerPlayable::Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Audio::AudioMixerPlayable (*)(::UnityEngine::Playables::PlayableGraph, int, bool)>(&UnityEngine::Audio::AudioMixerPlayable::Create)> {
   static const MethodInfo* get() {
     static auto* graph = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableGraph")->byval_arg;
     static auto* inputCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -113,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Audio::AudioMixerPlayable::CreateHandle
 // Il2CppName: CreateHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (*)(UnityEngine::Playables::PlayableGraph, int, bool)>(&UnityEngine::Audio::AudioMixerPlayable::CreateHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::PlayableHandle (*)(::UnityEngine::Playables::PlayableGraph, int, bool)>(&UnityEngine::Audio::AudioMixerPlayable::CreateHandle)> {
   static const MethodInfo* get() {
     static auto* graph = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableGraph")->byval_arg;
     static auto* inputCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -124,7 +124,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Audio::AudioMixerPlayable::GetHandle
 // Il2CppName: GetHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (UnityEngine::Audio::AudioMixerPlayable::*)()>(&UnityEngine::Audio::AudioMixerPlayable::GetHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::PlayableHandle (UnityEngine::Audio::AudioMixerPlayable::*)()>(&UnityEngine::Audio::AudioMixerPlayable::GetHandle)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Audio::AudioMixerPlayable), "GetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -132,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Audio::AudioMixerPlayable::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Audio::AudioMixerPlayable::*)(UnityEngine::Audio::AudioMixerPlayable)>(&UnityEngine::Audio::AudioMixerPlayable::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Audio::AudioMixerPlayable::*)(::UnityEngine::Audio::AudioMixerPlayable)>(&UnityEngine::Audio::AudioMixerPlayable::Equals)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("UnityEngine.Audio", "AudioMixerPlayable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Audio::AudioMixerPlayable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
@@ -141,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::Audio::AudioMixerPlayable::CreateAudioMixerPlayableInternal
 // Il2CppName: CreateAudioMixerPlayableInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<UnityEngine::Playables::PlayableGraph>, bool, ByRef<UnityEngine::Playables::PlayableHandle>)>(&UnityEngine::Audio::AudioMixerPlayable::CreateAudioMixerPlayableInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<::UnityEngine::Playables::PlayableGraph>, bool, ByRef<::UnityEngine::Playables::PlayableHandle>)>(&UnityEngine::Audio::AudioMixerPlayable::CreateAudioMixerPlayableInternal)> {
   static const MethodInfo* get() {
     static auto* graph = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableGraph")->this_arg;
     static auto* normalizeInputVolumes = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

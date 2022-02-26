@@ -21,8 +21,8 @@ namespace GlobalNamespace {
   class BeatmapDataNoEnvironmentEffectsTransform;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BeatmapDataNoEnvironmentEffectsTransform);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataNoEnvironmentEffectsTransform*, "", "BeatmapDataNoEnvironmentEffectsTransform");
+NEED_NO_BOX(::GlobalNamespace::BeatmapDataNoEnvironmentEffectsTransform);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapDataNoEnvironmentEffectsTransform*, "", "BeatmapDataNoEnvironmentEffectsTransform");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     public:
     // static public BeatmapData CreateTransformedData(IReadonlyBeatmapData beatmapData)
     // Offset: 0x2B496AC
-    static GlobalNamespace::BeatmapData* CreateTransformedData(GlobalNamespace::IReadonlyBeatmapData* beatmapData);
+    static ::GlobalNamespace::BeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
   }; // BeatmapDataNoEnvironmentEffectsTransform
   #pragma pack(pop)
 }
@@ -41,7 +41,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataNoEnvironmentEffectsTransform::CreateTransformedData
 // Il2CppName: CreateTransformedData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapData* (*)(GlobalNamespace::IReadonlyBeatmapData*)>(&GlobalNamespace::BeatmapDataNoEnvironmentEffectsTransform::CreateTransformedData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapData* (*)(::GlobalNamespace::IReadonlyBeatmapData*)>(&GlobalNamespace::BeatmapDataNoEnvironmentEffectsTransform::CreateTransformedData)> {
   static const MethodInfo* get() {
     static auto* beatmapData = &::il2cpp_utils::GetClassFromName("", "IReadonlyBeatmapData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataNoEnvironmentEffectsTransform*), "CreateTransformedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapData});

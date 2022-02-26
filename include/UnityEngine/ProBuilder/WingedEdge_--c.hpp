@@ -23,8 +23,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::WingedEdge::$$c);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::WingedEdge::$$c*, "UnityEngine.ProBuilder", "WingedEdge/<>c");
+NEED_NO_BOX(::UnityEngine::ProBuilder::WingedEdge::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::WingedEdge::$$c*, "UnityEngine.ProBuilder", "WingedEdge/<>c");
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
   // Size: 0x10
@@ -35,33 +35,33 @@ namespace UnityEngine::ProBuilder {
   class WingedEdge::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly UnityEngine.ProBuilder.WingedEdge/UnityEngine.ProBuilder.<>c <>9
-    static UnityEngine::ProBuilder::WingedEdge::$$c* _get_$$9();
+    static ::UnityEngine::ProBuilder::WingedEdge::$$c* _get_$$9();
     // Set static field: static public readonly UnityEngine.ProBuilder.WingedEdge/UnityEngine.ProBuilder.<>c <>9
-    static void _set_$$9(UnityEngine::ProBuilder::WingedEdge::$$c* value);
+    static void _set_$$9(::UnityEngine::ProBuilder::WingedEdge::$$c* value);
     // Get static field: static public System.Func`2<UnityEngine.ProBuilder.WingedEdge,UnityEngine.ProBuilder.Edge> <>9__32_1
-    static System::Func_2<UnityEngine::ProBuilder::WingedEdge*, UnityEngine::ProBuilder::Edge>* _get_$$9__32_1();
+    static ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>* _get_$$9__32_1();
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.WingedEdge,UnityEngine.ProBuilder.Edge> <>9__32_1
-    static void _set_$$9__32_1(System::Func_2<UnityEngine::ProBuilder::WingedEdge*, UnityEngine::ProBuilder::Edge>* value);
+    static void _set_$$9__32_1(::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>* value);
     // Get static field: static public System.Func`2<UnityEngine.ProBuilder.Edge,System.Int32> <>9__32_2
-    static System::Func_2<UnityEngine::ProBuilder::Edge, int>* _get_$$9__32_2();
+    static ::System::Func_2<::UnityEngine::ProBuilder::Edge, int>* _get_$$9__32_2();
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Edge,System.Int32> <>9__32_2
-    static void _set_$$9__32_2(System::Func_2<UnityEngine::ProBuilder::Edge, int>* value);
+    static void _set_$$9__32_2(::System::Func_2<::UnityEngine::ProBuilder::Edge, int>* value);
     // static private System.Void .cctor()
     // Offset: 0x28D0E80
     static void _cctor();
     // UnityEngine.ProBuilder.Edge <SortCommonIndexesByAdjacency>b__32_1(UnityEngine.ProBuilder.WingedEdge y)
     // Offset: 0x28D0EEC
-    UnityEngine::ProBuilder::Edge $SortCommonIndexesByAdjacency$b__32_1(UnityEngine::ProBuilder::WingedEdge* y);
+    ::UnityEngine::ProBuilder::Edge $SortCommonIndexesByAdjacency$b__32_1(::UnityEngine::ProBuilder::WingedEdge* y);
     // System.Int32 <SortCommonIndexesByAdjacency>b__32_2(UnityEngine.ProBuilder.Edge x)
     // Offset: 0x28D0F04
-    int $SortCommonIndexesByAdjacency$b__32_2(UnityEngine::ProBuilder::Edge x);
+    int $SortCommonIndexesByAdjacency$b__32_2(::UnityEngine::ProBuilder::Edge x);
     // public System.Void .ctor()
     // Offset: 0x28D0EE4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WingedEdge::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::WingedEdge::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::WingedEdge::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WingedEdge::$$c*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.WingedEdge/UnityEngine.ProBuilder.<>c
@@ -79,7 +79,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::WingedEdge::$$c::$SortCommonIndexesByAdjacency$b__32_1
 // Il2CppName: <SortCommonIndexesByAdjacency>b__32_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (UnityEngine::ProBuilder::WingedEdge::$$c::*)(UnityEngine::ProBuilder::WingedEdge*)>(&UnityEngine::ProBuilder::WingedEdge::$$c::$SortCommonIndexesByAdjacency$b__32_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Edge (UnityEngine::ProBuilder::WingedEdge::$$c::*)(::UnityEngine::ProBuilder::WingedEdge*)>(&UnityEngine::ProBuilder::WingedEdge::$$c::$SortCommonIndexesByAdjacency$b__32_1)> {
   static const MethodInfo* get() {
     static auto* y = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "WingedEdge")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::WingedEdge::$$c*), "<SortCommonIndexesByAdjacency>b__32_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{y});
@@ -88,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::WingedEdge::$$c::$SortCommonIndexesByAdjacency$b__32_2
 // Il2CppName: <SortCommonIndexesByAdjacency>b__32_2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ProBuilder::WingedEdge::$$c::*)(UnityEngine::ProBuilder::Edge)>(&UnityEngine::ProBuilder::WingedEdge::$$c::$SortCommonIndexesByAdjacency$b__32_2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ProBuilder::WingedEdge::$$c::*)(::UnityEngine::ProBuilder::Edge)>(&UnityEngine::ProBuilder::WingedEdge::$$c::$SortCommonIndexesByAdjacency$b__32_2)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Edge")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::WingedEdge::$$c*), "<SortCommonIndexesByAdjacency>b__32_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});

@@ -11,8 +11,8 @@ namespace NUnit::Framework::Interfaces {
   class IImplyFixture;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Interfaces::IImplyFixture);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::IImplyFixture*, "NUnit.Framework.Interfaces", "IImplyFixture");
+NEED_NO_BOX(::NUnit::Framework::Interfaces::IImplyFixture);
+DEFINE_IL2CPP_ARG_TYPE(::NUnit::Framework::Interfaces::IImplyFixture*, "NUnit.Framework.Interfaces", "IImplyFixture");
 // Type namespace: NUnit.Framework.Interfaces
 namespace NUnit::Framework::Interfaces {
   // Size: 0x10

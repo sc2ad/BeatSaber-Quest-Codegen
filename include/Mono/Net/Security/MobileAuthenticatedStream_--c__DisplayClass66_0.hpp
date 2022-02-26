@@ -13,8 +13,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Net::Security::MobileAuthenticatedStream::$$c__DisplayClass66_0);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::MobileAuthenticatedStream::$$c__DisplayClass66_0*, "Mono.Net.Security", "MobileAuthenticatedStream/<>c__DisplayClass66_0");
+NEED_NO_BOX(::Mono::Net::Security::MobileAuthenticatedStream::$$c__DisplayClass66_0);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Net::Security::MobileAuthenticatedStream::$$c__DisplayClass66_0*, "Mono.Net.Security", "MobileAuthenticatedStream/<>c__DisplayClass66_0");
 // Type namespace: Mono.Net.Security
 namespace Mono::Net::Security {
   // Size: 0x1C
@@ -36,9 +36,9 @@ namespace Mono::Net::Security {
     // public Mono.Net.Security.MobileAuthenticatedStream <>4__this
     // Size: 0x8
     // Offset: 0x10
-    Mono::Net::Security::MobileAuthenticatedStream* $$4__this;
+    ::Mono::Net::Security::MobileAuthenticatedStream* $$4__this;
     // Field size check
-    static_assert(sizeof(Mono::Net::Security::MobileAuthenticatedStream*) == 0x8);
+    static_assert(sizeof(::Mono::Net::Security::MobileAuthenticatedStream*) == 0x8);
     // public System.Int32 len
     // Size: 0x4
     // Offset: 0x18
@@ -47,7 +47,7 @@ namespace Mono::Net::Security {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public Mono.Net.Security.MobileAuthenticatedStream <>4__this
-    Mono::Net::Security::MobileAuthenticatedStream*& dyn_$$4__this();
+    ::Mono::Net::Security::MobileAuthenticatedStream*& dyn_$$4__this();
     // Get instance field reference: public System.Int32 len
     int& dyn_len();
     // System.Int32 <InnerRead>b__0()
@@ -59,7 +59,7 @@ namespace Mono::Net::Security {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MobileAuthenticatedStream::$$c__DisplayClass66_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::Security::MobileAuthenticatedStream::$$c__DisplayClass66_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Net::Security::MobileAuthenticatedStream::$$c__DisplayClass66_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MobileAuthenticatedStream::$$c__DisplayClass66_0*, creationType>()));
     }
   }; // Mono.Net.Security.MobileAuthenticatedStream/Mono.Net.Security.<>c__DisplayClass66_0

@@ -29,8 +29,8 @@ namespace UnityEngine::AddressableAssets {
   class PlatformMappingService;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::AddressableAssets::PlatformMappingService);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::PlatformMappingService*, "UnityEngine.AddressableAssets", "PlatformMappingService");
+NEED_NO_BOX(::UnityEngine::AddressableAssets::PlatformMappingService);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AddressableAssets::PlatformMappingService*, "UnityEngine.AddressableAssets", "PlatformMappingService");
 // Type namespace: UnityEngine.AddressableAssets
 namespace UnityEngine::AddressableAssets {
   // Size: 0x10
@@ -40,21 +40,21 @@ namespace UnityEngine::AddressableAssets {
   class PlatformMappingService : public ::Il2CppObject {
     public:
     // Get static field: static readonly System.Collections.Generic.Dictionary`2<UnityEngine.RuntimePlatform,UnityEngine.AddressableAssets.AddressablesPlatform> s_RuntimeTargetMapping
-    static System::Collections::Generic::Dictionary_2<UnityEngine::RuntimePlatform, UnityEngine::AddressableAssets::AddressablesPlatform>* _get_s_RuntimeTargetMapping();
+    static ::System::Collections::Generic::Dictionary_2<::UnityEngine::RuntimePlatform, ::UnityEngine::AddressableAssets::AddressablesPlatform>* _get_s_RuntimeTargetMapping();
     // Set static field: static readonly System.Collections.Generic.Dictionary`2<UnityEngine.RuntimePlatform,UnityEngine.AddressableAssets.AddressablesPlatform> s_RuntimeTargetMapping
-    static void _set_s_RuntimeTargetMapping(System::Collections::Generic::Dictionary_2<UnityEngine::RuntimePlatform, UnityEngine::AddressableAssets::AddressablesPlatform>* value);
+    static void _set_s_RuntimeTargetMapping(::System::Collections::Generic::Dictionary_2<::UnityEngine::RuntimePlatform, ::UnityEngine::AddressableAssets::AddressablesPlatform>* value);
     // static private System.Void .cctor()
     // Offset: 0x17E81C4
     static void _cctor();
     // static UnityEngine.AddressableAssets.AddressablesPlatform GetAddressablesPlatformInternal(UnityEngine.RuntimePlatform platform)
     // Offset: 0x17E7F18
-    static UnityEngine::AddressableAssets::AddressablesPlatform GetAddressablesPlatformInternal(UnityEngine::RuntimePlatform platform);
+    static ::UnityEngine::AddressableAssets::AddressablesPlatform GetAddressablesPlatformInternal(::UnityEngine::RuntimePlatform platform);
     // static System.String GetAddressablesPlatformPathInternal(UnityEngine.RuntimePlatform platform)
     // Offset: 0x17E7FEC
-    static ::StringW GetAddressablesPlatformPathInternal(UnityEngine::RuntimePlatform platform);
+    static ::StringW GetAddressablesPlatformPathInternal(::UnityEngine::RuntimePlatform platform);
     // static public UnityEngine.AddressableAssets.AddressablesPlatform GetPlatform()
     // Offset: 0x17E814C
-    static UnityEngine::AddressableAssets::AddressablesPlatform GetPlatform();
+    static ::UnityEngine::AddressableAssets::AddressablesPlatform GetPlatform();
     // static public System.String GetPlatformPathSubFolder()
     // Offset: 0x17DAEB4
     static ::StringW GetPlatformPathSubFolder();
@@ -64,7 +64,7 @@ namespace UnityEngine::AddressableAssets {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlatformMappingService* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::PlatformMappingService::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::PlatformMappingService::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlatformMappingService*, creationType>()));
     }
   }; // UnityEngine.AddressableAssets.PlatformMappingService
@@ -82,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::PlatformMappingService::GetAddressablesPlatformInternal
 // Il2CppName: GetAddressablesPlatformInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AddressableAssets::AddressablesPlatform (*)(UnityEngine::RuntimePlatform)>(&UnityEngine::AddressableAssets::PlatformMappingService::GetAddressablesPlatformInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AddressableAssets::AddressablesPlatform (*)(::UnityEngine::RuntimePlatform)>(&UnityEngine::AddressableAssets::PlatformMappingService::GetAddressablesPlatformInternal)> {
   static const MethodInfo* get() {
     static auto* platform = &::il2cpp_utils::GetClassFromName("UnityEngine", "RuntimePlatform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::PlatformMappingService*), "GetAddressablesPlatformInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{platform});
@@ -91,7 +91,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::PlatformMappingService::GetAddressablesPlatformPathInternal
 // Il2CppName: GetAddressablesPlatformPathInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(UnityEngine::RuntimePlatform)>(&UnityEngine::AddressableAssets::PlatformMappingService::GetAddressablesPlatformPathInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::UnityEngine::RuntimePlatform)>(&UnityEngine::AddressableAssets::PlatformMappingService::GetAddressablesPlatformPathInternal)> {
   static const MethodInfo* get() {
     static auto* platform = &::il2cpp_utils::GetClassFromName("UnityEngine", "RuntimePlatform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::PlatformMappingService*), "GetAddressablesPlatformPathInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{platform});
@@ -100,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::PlatformMappingService::GetPlatform
 // Il2CppName: GetPlatform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AddressableAssets::AddressablesPlatform (*)()>(&UnityEngine::AddressableAssets::PlatformMappingService::GetPlatform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AddressableAssets::AddressablesPlatform (*)()>(&UnityEngine::AddressableAssets::PlatformMappingService::GetPlatform)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::PlatformMappingService*), "GetPlatform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

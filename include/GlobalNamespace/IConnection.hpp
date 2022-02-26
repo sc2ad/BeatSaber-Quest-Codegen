@@ -24,8 +24,8 @@ namespace GlobalNamespace {
   class IConnection;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::IConnection);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IConnection*, "", "IConnection");
+NEED_NO_BOX(::GlobalNamespace::IConnection);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IConnection*, "", "IConnection");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     bool get_isConnectionOwner();
     // public System.Void Send(LiteNetLib.Utils.NetDataWriter writer, LiteNetLib.DeliveryMethod deliveryMethod)
     // Offset: 0xFFFFFFFF
-    void Send(LiteNetLib::Utils::NetDataWriter* writer, LiteNetLib::DeliveryMethod deliveryMethod);
+    void Send(::LiteNetLib::Utils::NetDataWriter* writer, ::LiteNetLib::DeliveryMethod deliveryMethod);
     // public System.Void Disconnect()
     // Offset: 0xFFFFFFFF
     void Disconnect();
@@ -80,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IConnection::Send
 // Il2CppName: Send
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IConnection::*)(LiteNetLib::Utils::NetDataWriter*, LiteNetLib::DeliveryMethod)>(&GlobalNamespace::IConnection::Send)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IConnection::*)(::LiteNetLib::Utils::NetDataWriter*, ::LiteNetLib::DeliveryMethod)>(&GlobalNamespace::IConnection::Send)> {
   static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataWriter")->byval_arg;
     static auto* deliveryMethod = &::il2cpp_utils::GetClassFromName("LiteNetLib", "DeliveryMethod")->byval_arg;

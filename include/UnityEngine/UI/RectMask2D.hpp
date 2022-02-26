@@ -60,8 +60,8 @@ namespace UnityEngine::UI {
   class RectMask2D;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::UI::RectMask2D);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::RectMask2D*, "UnityEngine.UI", "RectMask2D");
+NEED_NO_BOX(::UnityEngine::UI::RectMask2D);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::RectMask2D*, "UnityEngine.UI", "RectMask2D");
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {
   // Size: 0x88
@@ -72,7 +72,7 @@ namespace UnityEngine::UI {
   // [ExecuteAlways] Offset: FFFFFFFF
   // [DisallowMultipleComponent] Offset: FFFFFFFF
   // [RequireComponent] Offset: 11E0D28
-  class RectMask2D : public UnityEngine::EventSystems::UIBehaviour/*, public UnityEngine::UI::IClipper, public UnityEngine::ICanvasRaycastFilter*/ {
+  class RectMask2D : public ::UnityEngine::EventSystems::UIBehaviour/*, public ::UnityEngine::UI::IClipper, public ::UnityEngine::ICanvasRaycastFilter*/ {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -86,27 +86,27 @@ namespace UnityEngine::UI {
     // private readonly UnityEngine.UI.RectangularVertexClipper m_VertexClipper
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::UI::RectangularVertexClipper* m_VertexClipper;
+    ::UnityEngine::UI::RectangularVertexClipper* m_VertexClipper;
     // Field size check
-    static_assert(sizeof(UnityEngine::UI::RectangularVertexClipper*) == 0x8);
+    static_assert(sizeof(::UnityEngine::UI::RectangularVertexClipper*) == 0x8);
     // private UnityEngine.RectTransform m_RectTransform
     // Size: 0x8
     // Offset: 0x20
-    UnityEngine::RectTransform* m_RectTransform;
+    ::UnityEngine::RectTransform* m_RectTransform;
     // Field size check
-    static_assert(sizeof(UnityEngine::RectTransform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::RectTransform*) == 0x8);
     // private System.Collections.Generic.HashSet`1<UnityEngine.UI.MaskableGraphic> m_MaskableTargets
     // Size: 0x8
     // Offset: 0x28
-    System::Collections::Generic::HashSet_1<UnityEngine::UI::MaskableGraphic*>* m_MaskableTargets;
+    ::System::Collections::Generic::HashSet_1<::UnityEngine::UI::MaskableGraphic*>* m_MaskableTargets;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::HashSet_1<UnityEngine::UI::MaskableGraphic*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::HashSet_1<::UnityEngine::UI::MaskableGraphic*>*) == 0x8);
     // private System.Collections.Generic.HashSet`1<UnityEngine.UI.IClippable> m_ClipTargets
     // Size: 0x8
     // Offset: 0x30
-    System::Collections::Generic::HashSet_1<UnityEngine::UI::IClippable*>* m_ClipTargets;
+    ::System::Collections::Generic::HashSet_1<::UnityEngine::UI::IClippable*>* m_ClipTargets;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::HashSet_1<UnityEngine::UI::IClippable*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::HashSet_1<::UnityEngine::UI::IClippable*>*) == 0x8);
     // private System.Boolean m_ShouldRecalculateClipRects
     // Size: 0x1
     // Offset: 0x38
@@ -118,15 +118,15 @@ namespace UnityEngine::UI {
     // private System.Collections.Generic.List`1<UnityEngine.UI.RectMask2D> m_Clippers
     // Size: 0x8
     // Offset: 0x40
-    System::Collections::Generic::List_1<UnityEngine::UI::RectMask2D*>* m_Clippers;
+    ::System::Collections::Generic::List_1<::UnityEngine::UI::RectMask2D*>* m_Clippers;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::UI::RectMask2D*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::UnityEngine::UI::RectMask2D*>*) == 0x8);
     // private UnityEngine.Rect m_LastClipRectCanvasSpace
     // Size: 0x10
     // Offset: 0x48
-    UnityEngine::Rect m_LastClipRectCanvasSpace;
+    ::UnityEngine::Rect m_LastClipRectCanvasSpace;
     // Field size check
-    static_assert(sizeof(UnityEngine::Rect) == 0x10);
+    static_assert(sizeof(::UnityEngine::Rect) == 0x10);
     // private System.Boolean m_ForceClip
     // Size: 0x1
     // Offset: 0x58
@@ -138,91 +138,91 @@ namespace UnityEngine::UI {
     // private UnityEngine.Vector4 m_Padding
     // Size: 0x10
     // Offset: 0x5C
-    UnityEngine::Vector4 m_Padding;
+    ::UnityEngine::Vector4 m_Padding;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector4) == 0x10);
+    static_assert(sizeof(::UnityEngine::Vector4) == 0x10);
     // private UnityEngine.Vector2Int m_Softness
     // Size: 0x8
     // Offset: 0x6C
-    UnityEngine::Vector2Int m_Softness;
+    ::UnityEngine::Vector2Int m_Softness;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector2Int) == 0x8);
+    static_assert(sizeof(::UnityEngine::Vector2Int) == 0x8);
     // Padding between fields: m_Softness and: m_Canvas
     char __padding9[0x4] = {};
     // private UnityEngine.Canvas m_Canvas
     // Size: 0x8
     // Offset: 0x78
-    UnityEngine::Canvas* m_Canvas;
+    ::UnityEngine::Canvas* m_Canvas;
     // Field size check
-    static_assert(sizeof(UnityEngine::Canvas*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Canvas*) == 0x8);
     // private UnityEngine.Vector3[] m_Corners
     // Size: 0x8
     // Offset: 0x80
-    ::ArrayW<UnityEngine::Vector3> m_Corners;
+    ::ArrayW<::UnityEngine::Vector3> m_Corners;
     // Field size check
-    static_assert(sizeof(::ArrayW<UnityEngine::Vector3>) == 0x8);
+    static_assert(sizeof(::ArrayW<::UnityEngine::Vector3>) == 0x8);
     public:
-    // Creating interface conversion operator: operator UnityEngine::UI::IClipper
-    operator UnityEngine::UI::IClipper() noexcept {
-      return *reinterpret_cast<UnityEngine::UI::IClipper*>(this);
+    // Creating interface conversion operator: operator ::UnityEngine::UI::IClipper
+    operator ::UnityEngine::UI::IClipper() noexcept {
+      return *reinterpret_cast<::UnityEngine::UI::IClipper*>(this);
     }
-    // Creating interface conversion operator: operator UnityEngine::ICanvasRaycastFilter
-    operator UnityEngine::ICanvasRaycastFilter() noexcept {
-      return *reinterpret_cast<UnityEngine::ICanvasRaycastFilter*>(this);
+    // Creating interface conversion operator: operator ::UnityEngine::ICanvasRaycastFilter
+    operator ::UnityEngine::ICanvasRaycastFilter() noexcept {
+      return *reinterpret_cast<::UnityEngine::ICanvasRaycastFilter*>(this);
     }
-    // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const noexcept = delete;
+    // Deleting conversion operator: operator ::System::IntPtr
+    constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly UnityEngine.UI.RectangularVertexClipper m_VertexClipper
-    UnityEngine::UI::RectangularVertexClipper*& dyn_m_VertexClipper();
+    ::UnityEngine::UI::RectangularVertexClipper*& dyn_m_VertexClipper();
     // Get instance field reference: private UnityEngine.RectTransform m_RectTransform
-    UnityEngine::RectTransform*& dyn_m_RectTransform();
+    ::UnityEngine::RectTransform*& dyn_m_RectTransform();
     // Get instance field reference: private System.Collections.Generic.HashSet`1<UnityEngine.UI.MaskableGraphic> m_MaskableTargets
-    System::Collections::Generic::HashSet_1<UnityEngine::UI::MaskableGraphic*>*& dyn_m_MaskableTargets();
+    ::System::Collections::Generic::HashSet_1<::UnityEngine::UI::MaskableGraphic*>*& dyn_m_MaskableTargets();
     // Get instance field reference: private System.Collections.Generic.HashSet`1<UnityEngine.UI.IClippable> m_ClipTargets
-    System::Collections::Generic::HashSet_1<UnityEngine::UI::IClippable*>*& dyn_m_ClipTargets();
+    ::System::Collections::Generic::HashSet_1<::UnityEngine::UI::IClippable*>*& dyn_m_ClipTargets();
     // Get instance field reference: private System.Boolean m_ShouldRecalculateClipRects
     bool& dyn_m_ShouldRecalculateClipRects();
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.UI.RectMask2D> m_Clippers
-    System::Collections::Generic::List_1<UnityEngine::UI::RectMask2D*>*& dyn_m_Clippers();
+    ::System::Collections::Generic::List_1<::UnityEngine::UI::RectMask2D*>*& dyn_m_Clippers();
     // Get instance field reference: private UnityEngine.Rect m_LastClipRectCanvasSpace
-    UnityEngine::Rect& dyn_m_LastClipRectCanvasSpace();
+    ::UnityEngine::Rect& dyn_m_LastClipRectCanvasSpace();
     // Get instance field reference: private System.Boolean m_ForceClip
     bool& dyn_m_ForceClip();
     // Get instance field reference: private UnityEngine.Vector4 m_Padding
-    UnityEngine::Vector4& dyn_m_Padding();
+    ::UnityEngine::Vector4& dyn_m_Padding();
     // Get instance field reference: private UnityEngine.Vector2Int m_Softness
-    UnityEngine::Vector2Int& dyn_m_Softness();
+    ::UnityEngine::Vector2Int& dyn_m_Softness();
     // Get instance field reference: private UnityEngine.Canvas m_Canvas
-    UnityEngine::Canvas*& dyn_m_Canvas();
+    ::UnityEngine::Canvas*& dyn_m_Canvas();
     // Get instance field reference: private UnityEngine.Vector3[] m_Corners
-    ::ArrayW<UnityEngine::Vector3>& dyn_m_Corners();
+    ::ArrayW<::UnityEngine::Vector3>& dyn_m_Corners();
     // public UnityEngine.Vector4 get_padding()
     // Offset: 0x1DD7F60
-    UnityEngine::Vector4 get_padding();
+    ::UnityEngine::Vector4 get_padding();
     // public System.Void set_padding(UnityEngine.Vector4 value)
     // Offset: 0x1DD7F6C
-    void set_padding(UnityEngine::Vector4 value);
+    void set_padding(::UnityEngine::Vector4 value);
     // public UnityEngine.Vector2Int get_softness()
     // Offset: 0x1DD7F78
-    UnityEngine::Vector2Int get_softness();
+    ::UnityEngine::Vector2Int get_softness();
     // public System.Void set_softness(UnityEngine.Vector2Int value)
     // Offset: 0x1DD7F80
-    void set_softness(UnityEngine::Vector2Int value);
+    void set_softness(::UnityEngine::Vector2Int value);
     // private UnityEngine.Canvas get_Canvas()
     // Offset: 0x1DD8058
-    UnityEngine::Canvas* get_Canvas();
+    ::UnityEngine::Canvas* get_Canvas();
     // public UnityEngine.Rect get_canvasRect()
     // Offset: 0x1DD8190
-    UnityEngine::Rect get_canvasRect();
+    ::UnityEngine::Rect get_canvasRect();
     // public UnityEngine.RectTransform get_rectTransform()
     // Offset: 0x1DD81DC
-    UnityEngine::RectTransform* get_rectTransform();
+    ::UnityEngine::RectTransform* get_rectTransform();
     // private UnityEngine.Rect get_rootCanvasRect()
     // Offset: 0x1DD8704
-    UnityEngine::Rect get_rootCanvasRect();
+    ::UnityEngine::Rect get_rootCanvasRect();
     // public System.Boolean IsRaycastLocationValid(UnityEngine.Vector2 sp, UnityEngine.Camera eventCamera)
     // Offset: 0x1DD860C
-    bool IsRaycastLocationValid(UnityEngine::Vector2 sp, UnityEngine::Camera* eventCamera);
+    bool IsRaycastLocationValid(::UnityEngine::Vector2 sp, ::UnityEngine::Camera* eventCamera);
     // public System.Void PerformClipping()
     // Offset: 0x1DD8838
     void PerformClipping();
@@ -231,10 +231,10 @@ namespace UnityEngine::UI {
     void UpdateClipSoftness();
     // public System.Void AddClippable(UnityEngine.UI.IClippable clippable)
     // Offset: 0x1DD6814
-    void AddClippable(UnityEngine::UI::IClippable* clippable);
+    void AddClippable(::UnityEngine::UI::IClippable* clippable);
     // public System.Void RemoveClippable(UnityEngine.UI.IClippable clippable)
     // Offset: 0x1DD668C
-    void RemoveClippable(UnityEngine::UI::IClippable* clippable);
+    void RemoveClippable(::UnityEngine::UI::IClippable* clippable);
     // protected System.Void .ctor()
     // Offset: 0x1DD83C4
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
@@ -246,7 +246,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RectMask2D* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::RectMask2D::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::RectMask2D::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RectMask2D*, creationType>()));
     }
     // protected override System.Void OnEnable()
@@ -271,14 +271,14 @@ namespace UnityEngine::UI {
     void OnCanvasHierarchyChanged();
   }; // UnityEngine.UI.RectMask2D
   #pragma pack(pop)
-  static check_size<sizeof(RectMask2D), 128 + sizeof(::ArrayW<UnityEngine::Vector3>)> __UnityEngine_UI_RectMask2DSizeCheck;
+  static check_size<sizeof(RectMask2D), 128 + sizeof(::ArrayW<::UnityEngine::Vector3>)> __UnityEngine_UI_RectMask2DSizeCheck;
   static_assert(sizeof(RectMask2D) == 0x88);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::RectMask2D::get_padding
 // Il2CppName: get_padding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (UnityEngine::UI::RectMask2D::*)()>(&UnityEngine::UI::RectMask2D::get_padding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (UnityEngine::UI::RectMask2D::*)()>(&UnityEngine::UI::RectMask2D::get_padding)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::RectMask2D*), "get_padding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -286,7 +286,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::UI::RectMask2D::set_padding
 // Il2CppName: set_padding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::RectMask2D::*)(UnityEngine::Vector4)>(&UnityEngine::UI::RectMask2D::set_padding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::RectMask2D::*)(::UnityEngine::Vector4)>(&UnityEngine::UI::RectMask2D::set_padding)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::RectMask2D*), "set_padding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -295,7 +295,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::RectMask2D::get_softness
 // Il2CppName: get_softness
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2Int (UnityEngine::UI::RectMask2D::*)()>(&UnityEngine::UI::RectMask2D::get_softness)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2Int (UnityEngine::UI::RectMask2D::*)()>(&UnityEngine::UI::RectMask2D::get_softness)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::RectMask2D*), "get_softness", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -303,7 +303,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::UI::RectMask2D::set_softness
 // Il2CppName: set_softness
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::RectMask2D::*)(UnityEngine::Vector2Int)>(&UnityEngine::UI::RectMask2D::set_softness)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::RectMask2D::*)(::UnityEngine::Vector2Int)>(&UnityEngine::UI::RectMask2D::set_softness)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2Int")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::RectMask2D*), "set_softness", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -312,7 +312,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::RectMask2D::get_Canvas
 // Il2CppName: get_Canvas
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Canvas* (UnityEngine::UI::RectMask2D::*)()>(&UnityEngine::UI::RectMask2D::get_Canvas)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Canvas* (UnityEngine::UI::RectMask2D::*)()>(&UnityEngine::UI::RectMask2D::get_Canvas)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::RectMask2D*), "get_Canvas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -320,7 +320,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::UI::RectMask2D::get_canvasRect
 // Il2CppName: get_canvasRect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (UnityEngine::UI::RectMask2D::*)()>(&UnityEngine::UI::RectMask2D::get_canvasRect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rect (UnityEngine::UI::RectMask2D::*)()>(&UnityEngine::UI::RectMask2D::get_canvasRect)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::RectMask2D*), "get_canvasRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -328,7 +328,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::UI::RectMask2D::get_rectTransform
 // Il2CppName: get_rectTransform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (UnityEngine::UI::RectMask2D::*)()>(&UnityEngine::UI::RectMask2D::get_rectTransform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RectTransform* (UnityEngine::UI::RectMask2D::*)()>(&UnityEngine::UI::RectMask2D::get_rectTransform)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::RectMask2D*), "get_rectTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -336,7 +336,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::UI::RectMask2D::get_rootCanvasRect
 // Il2CppName: get_rootCanvasRect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (UnityEngine::UI::RectMask2D::*)()>(&UnityEngine::UI::RectMask2D::get_rootCanvasRect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rect (UnityEngine::UI::RectMask2D::*)()>(&UnityEngine::UI::RectMask2D::get_rootCanvasRect)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::RectMask2D*), "get_rootCanvasRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -344,7 +344,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::UI::RectMask2D::IsRaycastLocationValid
 // Il2CppName: IsRaycastLocationValid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::RectMask2D::*)(UnityEngine::Vector2, UnityEngine::Camera*)>(&UnityEngine::UI::RectMask2D::IsRaycastLocationValid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::RectMask2D::*)(::UnityEngine::Vector2, ::UnityEngine::Camera*)>(&UnityEngine::UI::RectMask2D::IsRaycastLocationValid)> {
   static const MethodInfo* get() {
     static auto* sp = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     static auto* eventCamera = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
@@ -370,7 +370,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::RectMask2D::AddClippable
 // Il2CppName: AddClippable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::RectMask2D::*)(UnityEngine::UI::IClippable*)>(&UnityEngine::UI::RectMask2D::AddClippable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::RectMask2D::*)(::UnityEngine::UI::IClippable*)>(&UnityEngine::UI::RectMask2D::AddClippable)> {
   static const MethodInfo* get() {
     static auto* clippable = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "IClippable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::RectMask2D*), "AddClippable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clippable});
@@ -379,7 +379,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::RectMask2D::RemoveClippable
 // Il2CppName: RemoveClippable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::RectMask2D::*)(UnityEngine::UI::IClippable*)>(&UnityEngine::UI::RectMask2D::RemoveClippable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::RectMask2D::*)(::UnityEngine::UI::IClippable*)>(&UnityEngine::UI::RectMask2D::RemoveClippable)> {
   static const MethodInfo* get() {
     static auto* clippable = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "IClippable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::RectMask2D*), "RemoveClippable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clippable});

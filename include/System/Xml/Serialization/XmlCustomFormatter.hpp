@@ -21,8 +21,8 @@ namespace System::Xml::Serialization {
   class XmlCustomFormatter;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Serialization::XmlCustomFormatter);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Serialization::XmlCustomFormatter*, "System.Xml.Serialization", "XmlCustomFormatter");
+NEED_NO_BOX(::System::Xml::Serialization::XmlCustomFormatter);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::XmlCustomFormatter*, "System.Xml.Serialization", "XmlCustomFormatter");
 // Type namespace: System.Xml.Serialization
 namespace System::Xml::Serialization {
   // Size: 0x10
@@ -49,10 +49,10 @@ namespace System::Xml::Serialization {
     static ::StringW FromXmlNCName(::StringW ncName);
     // static System.String ToXmlString(System.Xml.Serialization.TypeData type, System.Object value)
     // Offset: 0x1952C28
-    static ::StringW ToXmlString(System::Xml::Serialization::TypeData* type, ::Il2CppObject* value);
+    static ::StringW ToXmlString(::System::Xml::Serialization::TypeData* type, ::Il2CppObject* value);
     // static System.Object FromXmlString(System.Xml.Serialization.TypeData type, System.String value)
     // Offset: 0x1953DF8
-    static ::Il2CppObject* FromXmlString(System::Xml::Serialization::TypeData* type, ::StringW value);
+    static ::Il2CppObject* FromXmlString(::System::Xml::Serialization::TypeData* type, ::StringW value);
   }; // System.Xml.Serialization.XmlCustomFormatter
   #pragma pack(pop)
 }
@@ -98,7 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlCustomFormatter::ToXmlString
 // Il2CppName: ToXmlString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Xml::Serialization::TypeData*, ::Il2CppObject*)>(&System::Xml::Serialization::XmlCustomFormatter::ToXmlString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Xml::Serialization::TypeData*, ::Il2CppObject*)>(&System::Xml::Serialization::XmlCustomFormatter::ToXmlString)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System.Xml.Serialization", "TypeData")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -108,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlCustomFormatter::FromXmlString
 // Il2CppName: FromXmlString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Xml::Serialization::TypeData*, ::StringW)>(&System::Xml::Serialization::XmlCustomFormatter::FromXmlString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::System::Xml::Serialization::TypeData*, ::StringW)>(&System::Xml::Serialization::XmlCustomFormatter::FromXmlString)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System.Xml.Serialization", "TypeData")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

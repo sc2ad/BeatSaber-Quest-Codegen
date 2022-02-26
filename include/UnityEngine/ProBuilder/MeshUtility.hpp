@@ -53,8 +53,8 @@ namespace UnityEngine::ProBuilder {
   class MeshUtility;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::MeshUtility);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshUtility*, "UnityEngine.ProBuilder", "MeshUtility");
+NEED_NO_BOX(::UnityEngine::ProBuilder::MeshUtility);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::MeshUtility*, "UnityEngine.ProBuilder", "MeshUtility");
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
   // Size: 0x10
@@ -64,57 +64,57 @@ namespace UnityEngine::ProBuilder {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class MeshUtility : public ::Il2CppObject {
     public:
-    // Nested type: UnityEngine::ProBuilder::MeshUtility::$$c
+    // Nested type: ::UnityEngine::ProBuilder::MeshUtility::$$c
     class $$c;
     // static UnityEngine.ProBuilder.Vertex[] GeneratePerTriangleMesh(UnityEngine.Mesh mesh)
     // Offset: 0x1B42204
-    static ::ArrayW<UnityEngine::ProBuilder::Vertex*> GeneratePerTriangleMesh(UnityEngine::Mesh* mesh);
+    static ::ArrayW<::UnityEngine::ProBuilder::Vertex*> GeneratePerTriangleMesh(::UnityEngine::Mesh* mesh);
     // static public System.Void GenerateTangent(UnityEngine.Mesh mesh)
     // Offset: 0x1B42560
-    static void GenerateTangent(UnityEngine::Mesh* mesh);
+    static void GenerateTangent(::UnityEngine::Mesh* mesh);
     // static public UnityEngine.Mesh DeepCopy(UnityEngine.Mesh source)
     // Offset: 0x1B42BC8
-    static UnityEngine::Mesh* DeepCopy(UnityEngine::Mesh* source);
+    static ::UnityEngine::Mesh* DeepCopy(::UnityEngine::Mesh* source);
     // static public System.Void CopyTo(UnityEngine.Mesh source, UnityEngine.Mesh destination)
     // Offset: 0x1B42C34
-    static void CopyTo(UnityEngine::Mesh* source, UnityEngine::Mesh* destination);
+    static void CopyTo(::UnityEngine::Mesh* source, ::UnityEngine::Mesh* destination);
     // static T GetMeshChannel(UnityEngine.GameObject gameObject, System.Func`2<UnityEngine.Mesh,T> attributeGetter)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static T GetMeshChannel(UnityEngine::GameObject* gameObject, System::Func_2<UnityEngine::Mesh*, T>* attributeGetter) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, System::Collections::IList>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::MeshUtility::GetMeshChannel");
+    static T GetMeshChannel(::UnityEngine::GameObject* gameObject, ::System::Func_2<::UnityEngine::Mesh*, T>* attributeGetter) {
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::System::Collections::IList>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshUtility::GetMeshChannel");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ProBuilder", "MeshUtility", "GetMeshChannel", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(gameObject), ::il2cpp_utils::ExtractType(attributeGetter)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, gameObject, attributeGetter);
     }
     // static public System.String Print(UnityEngine.Mesh mesh)
     // Offset: 0x1B430A8
-    static ::StringW Print(UnityEngine::Mesh* mesh);
+    static ::StringW Print(::UnityEngine::Mesh* mesh);
     // static public System.UInt32 GetIndexCount(UnityEngine.Mesh mesh)
     // Offset: 0x1B4488C
-    static uint GetIndexCount(UnityEngine::Mesh* mesh);
+    static uint GetIndexCount(::UnityEngine::Mesh* mesh);
     // static public System.UInt32 GetPrimitiveCount(UnityEngine.Mesh mesh)
     // Offset: 0x1B4495C
-    static uint GetPrimitiveCount(UnityEngine::Mesh* mesh);
+    static uint GetPrimitiveCount(::UnityEngine::Mesh* mesh);
     // static public System.Void Compile(UnityEngine.ProBuilder.ProBuilderMesh probuilderMesh, UnityEngine.Mesh targetMesh, UnityEngine.MeshTopology preferredTopology)
     // Offset: 0x1B44A88
-    static void Compile(UnityEngine::ProBuilder::ProBuilderMesh* probuilderMesh, UnityEngine::Mesh* targetMesh, UnityEngine::MeshTopology preferredTopology);
+    static void Compile(::UnityEngine::ProBuilder::ProBuilderMesh* probuilderMesh, ::UnityEngine::Mesh* targetMesh, ::UnityEngine::MeshTopology preferredTopology);
     // static public UnityEngine.ProBuilder.Vertex[] GetVertices(UnityEngine.Mesh mesh)
     // Offset: 0x1B34D7C
-    static ::ArrayW<UnityEngine::ProBuilder::Vertex*> GetVertices(UnityEngine::Mesh* mesh);
+    static ::ArrayW<::UnityEngine::ProBuilder::Vertex*> GetVertices(::UnityEngine::Mesh* mesh);
     // static public System.Void CollapseSharedVertices(UnityEngine.Mesh mesh, UnityEngine.ProBuilder.Vertex[] vertices)
     // Offset: 0x1B44E00
-    static void CollapseSharedVertices(UnityEngine::Mesh* mesh, ::ArrayW<UnityEngine::ProBuilder::Vertex*> vertices);
+    static void CollapseSharedVertices(::UnityEngine::Mesh* mesh, ::ArrayW<::UnityEngine::ProBuilder::Vertex*> vertices);
     // static System.String SanityCheck(UnityEngine.ProBuilder.ProBuilderMesh mesh)
     // Offset: 0x1B45218
-    static ::StringW SanityCheck(UnityEngine::ProBuilder::ProBuilderMesh* mesh);
+    static ::StringW SanityCheck(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
     // static System.String SanityCheck(UnityEngine.Mesh mesh)
     // Offset: 0x1B454BC
-    static ::StringW SanityCheck(UnityEngine::Mesh* mesh);
+    static ::StringW SanityCheck(::UnityEngine::Mesh* mesh);
     // static System.String SanityCheck(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex> vertices)
     // Offset: 0x1B4523C
-    static ::StringW SanityCheck(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Vertex*>* vertices);
+    static ::StringW SanityCheck(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices);
   }; // UnityEngine.ProBuilder.MeshUtility
   #pragma pack(pop)
 }
@@ -122,7 +122,7 @@ namespace UnityEngine::ProBuilder {
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshUtility::GeneratePerTriangleMesh
 // Il2CppName: GeneratePerTriangleMesh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::ProBuilder::Vertex*> (*)(UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshUtility::GeneratePerTriangleMesh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::ProBuilder::Vertex*> (*)(::UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshUtility::GeneratePerTriangleMesh)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshUtility*), "GeneratePerTriangleMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mesh});
@@ -131,7 +131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshUtility::GenerateTangent
 // Il2CppName: GenerateTangent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshUtility::GenerateTangent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshUtility::GenerateTangent)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshUtility*), "GenerateTangent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mesh});
@@ -140,7 +140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshUtility::DeepCopy
 // Il2CppName: DeepCopy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Mesh* (*)(UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshUtility::DeepCopy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Mesh* (*)(::UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshUtility::DeepCopy)> {
   static const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshUtility*), "DeepCopy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{source});
@@ -149,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshUtility::CopyTo
 // Il2CppName: CopyTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Mesh*, UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshUtility::CopyTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Mesh*, ::UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshUtility::CopyTo)> {
   static const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     static auto* destination = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
@@ -162,7 +162,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshUtility::Print
 // Il2CppName: Print
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshUtility::Print)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshUtility::Print)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshUtility*), "Print", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mesh});
@@ -171,7 +171,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshUtility::GetIndexCount
 // Il2CppName: GetIndexCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshUtility::GetIndexCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshUtility::GetIndexCount)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshUtility*), "GetIndexCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mesh});
@@ -180,7 +180,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshUtility::GetPrimitiveCount
 // Il2CppName: GetPrimitiveCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshUtility::GetPrimitiveCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshUtility::GetPrimitiveCount)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshUtility*), "GetPrimitiveCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mesh});
@@ -189,7 +189,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshUtility::Compile
 // Il2CppName: Compile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::Mesh*, UnityEngine::MeshTopology)>(&UnityEngine::ProBuilder::MeshUtility::Compile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Mesh*, ::UnityEngine::MeshTopology)>(&UnityEngine::ProBuilder::MeshUtility::Compile)> {
   static const MethodInfo* get() {
     static auto* probuilderMesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* targetMesh = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
@@ -200,7 +200,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshUtility::GetVertices
 // Il2CppName: GetVertices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::ProBuilder::Vertex*> (*)(UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshUtility::GetVertices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::ProBuilder::Vertex*> (*)(::UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshUtility::GetVertices)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshUtility*), "GetVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mesh});
@@ -209,7 +209,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshUtility::CollapseSharedVertices
 // Il2CppName: CollapseSharedVertices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Mesh*, ::ArrayW<UnityEngine::ProBuilder::Vertex*>)>(&UnityEngine::ProBuilder::MeshUtility::CollapseSharedVertices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Mesh*, ::ArrayW<::UnityEngine::ProBuilder::Vertex*>)>(&UnityEngine::ProBuilder::MeshUtility::CollapseSharedVertices)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     static auto* vertices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Vertex"), 1)->byval_arg;
@@ -219,7 +219,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshUtility::SanityCheck
 // Il2CppName: SanityCheck
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(UnityEngine::ProBuilder::ProBuilderMesh*)>(&UnityEngine::ProBuilder::MeshUtility::SanityCheck)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::UnityEngine::ProBuilder::ProBuilderMesh*)>(&UnityEngine::ProBuilder::MeshUtility::SanityCheck)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshUtility*), "SanityCheck", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mesh});
@@ -228,7 +228,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshUtility::SanityCheck
 // Il2CppName: SanityCheck
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshUtility::SanityCheck)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshUtility::SanityCheck)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshUtility*), "SanityCheck", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mesh});
@@ -237,7 +237,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshUtility::SanityCheck
 // Il2CppName: SanityCheck
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Vertex*>*)>(&UnityEngine::ProBuilder::MeshUtility::SanityCheck)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>*)>(&UnityEngine::ProBuilder::MeshUtility::SanityCheck)> {
   static const MethodInfo* get() {
     static auto* vertices = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Vertex")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshUtility*), "SanityCheck", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{vertices});

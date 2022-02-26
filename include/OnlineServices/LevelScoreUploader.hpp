@@ -50,8 +50,8 @@ namespace OnlineServices {
   class LevelScoreUploader;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(OnlineServices::LevelScoreUploader);
-DEFINE_IL2CPP_ARG_TYPE(OnlineServices::LevelScoreUploader*, "OnlineServices", "LevelScoreUploader");
+NEED_NO_BOX(::OnlineServices::LevelScoreUploader);
+DEFINE_IL2CPP_ARG_TYPE(::OnlineServices::LevelScoreUploader*, "OnlineServices", "LevelScoreUploader");
 // Type namespace: OnlineServices
 namespace OnlineServices {
   // Size: 0x40
@@ -60,9 +60,9 @@ namespace OnlineServices {
   // [TokenAttribute] Offset: FFFFFFFF
   class LevelScoreUploader : public ::Il2CppObject {
     public:
-    // Nested type: OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo
+    // Nested type: ::OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo
     class LevelScoreResultsDataUploadInfo;
-    // Nested type: OnlineServices::LevelScoreUploader::$SendLevelScoreResultAsync$d__13
+    // Nested type: ::OnlineServices::LevelScoreUploader::$SendLevelScoreResultAsync$d__13
     struct $SendLevelScoreResultAsync$d__13;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -76,39 +76,39 @@ namespace OnlineServices {
     // private System.Action`1<System.String> scoreForLeaderboardDidUploadEvent
     // Size: 0x8
     // Offset: 0x10
-    System::Action_1<::StringW>* scoreForLeaderboardDidUploadEvent;
+    ::System::Action_1<::StringW>* scoreForLeaderboardDidUploadEvent;
     // Field size check
-    static_assert(sizeof(System::Action_1<::StringW>*) == 0x8);
+    static_assert(sizeof(::System::Action_1<::StringW>*) == 0x8);
     // private System.Threading.CancellationTokenSource _cancellationTokenSource
     // Size: 0x8
     // Offset: 0x18
-    System::Threading::CancellationTokenSource* cancellationTokenSource;
+    ::System::Threading::CancellationTokenSource* cancellationTokenSource;
     // Field size check
-    static_assert(sizeof(System::Threading::CancellationTokenSource*) == 0x8);
+    static_assert(sizeof(::System::Threading::CancellationTokenSource*) == 0x8);
     // private HTTPLeaderboardsModel _leaderboardsModel
     // Size: 0x8
     // Offset: 0x20
-    GlobalNamespace::HTTPLeaderboardsModel* leaderboardsModel;
+    ::GlobalNamespace::HTTPLeaderboardsModel* leaderboardsModel;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::HTTPLeaderboardsModel*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::HTTPLeaderboardsModel*) == 0x8);
     // private System.Collections.Generic.List`1<OnlineServices.LevelScoreUploader/OnlineServices.LevelScoreResultsDataUploadInfo> _unsuccessfullySentLevelScoreResultsDataUploadInfos
     // Size: 0x8
     // Offset: 0x28
-    System::Collections::Generic::List_1<OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo*>* unsuccessfullySentLevelScoreResultsDataUploadInfos;
+    ::System::Collections::Generic::List_1<::OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo*>* unsuccessfullySentLevelScoreResultsDataUploadInfos;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo*>*) == 0x8);
     // private System.Collections.Generic.List`1<OnlineServices.LevelScoreUploader/OnlineServices.LevelScoreResultsDataUploadInfo> _levelScoreResultsDataUploadInfos
     // Size: 0x8
     // Offset: 0x30
-    System::Collections::Generic::List_1<OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo*>* levelScoreResultsDataUploadInfos;
+    ::System::Collections::Generic::List_1<::OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo*>* levelScoreResultsDataUploadInfos;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo*>*) == 0x8);
     // private OnlineServices.PlatformOnlineServicesAvailabilityModel _platformOnlineServicesAvailabilityModel
     // Size: 0x8
     // Offset: 0x38
-    OnlineServices::PlatformOnlineServicesAvailabilityModel* platformOnlineServicesAvailabilityModel;
+    ::OnlineServices::PlatformOnlineServicesAvailabilityModel* platformOnlineServicesAvailabilityModel;
     // Field size check
-    static_assert(sizeof(OnlineServices::PlatformOnlineServicesAvailabilityModel*) == 0x8);
+    static_assert(sizeof(::OnlineServices::PlatformOnlineServicesAvailabilityModel*) == 0x8);
     public:
     // static field const value: static private System.Int32 kMaxUploadAttempts
     static constexpr const int kMaxUploadAttempts = 3;
@@ -117,33 +117,33 @@ namespace OnlineServices {
     // Set static field: static private System.Int32 kMaxUploadAttempts
     static void _set_kMaxUploadAttempts(int value);
     // Get instance field reference: private System.Action`1<System.String> scoreForLeaderboardDidUploadEvent
-    System::Action_1<::StringW>*& dyn_scoreForLeaderboardDidUploadEvent();
+    ::System::Action_1<::StringW>*& dyn_scoreForLeaderboardDidUploadEvent();
     // Get instance field reference: private System.Threading.CancellationTokenSource _cancellationTokenSource
-    System::Threading::CancellationTokenSource*& dyn__cancellationTokenSource();
+    ::System::Threading::CancellationTokenSource*& dyn__cancellationTokenSource();
     // Get instance field reference: private HTTPLeaderboardsModel _leaderboardsModel
-    GlobalNamespace::HTTPLeaderboardsModel*& dyn__leaderboardsModel();
+    ::GlobalNamespace::HTTPLeaderboardsModel*& dyn__leaderboardsModel();
     // Get instance field reference: private System.Collections.Generic.List`1<OnlineServices.LevelScoreUploader/OnlineServices.LevelScoreResultsDataUploadInfo> _unsuccessfullySentLevelScoreResultsDataUploadInfos
-    System::Collections::Generic::List_1<OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo*>*& dyn__unsuccessfullySentLevelScoreResultsDataUploadInfos();
+    ::System::Collections::Generic::List_1<::OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo*>*& dyn__unsuccessfullySentLevelScoreResultsDataUploadInfos();
     // Get instance field reference: private System.Collections.Generic.List`1<OnlineServices.LevelScoreUploader/OnlineServices.LevelScoreResultsDataUploadInfo> _levelScoreResultsDataUploadInfos
-    System::Collections::Generic::List_1<OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo*>*& dyn__levelScoreResultsDataUploadInfos();
+    ::System::Collections::Generic::List_1<::OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo*>*& dyn__levelScoreResultsDataUploadInfos();
     // Get instance field reference: private OnlineServices.PlatformOnlineServicesAvailabilityModel _platformOnlineServicesAvailabilityModel
-    OnlineServices::PlatformOnlineServicesAvailabilityModel*& dyn__platformOnlineServicesAvailabilityModel();
+    ::OnlineServices::PlatformOnlineServicesAvailabilityModel*& dyn__platformOnlineServicesAvailabilityModel();
     // public System.Void add_scoreForLeaderboardDidUploadEvent(System.Action`1<System.String> value)
     // Offset: 0x2AB31D8
-    void add_scoreForLeaderboardDidUploadEvent(System::Action_1<::StringW>* value);
+    void add_scoreForLeaderboardDidUploadEvent(::System::Action_1<::StringW>* value);
     // public System.Void remove_scoreForLeaderboardDidUploadEvent(System.Action`1<System.String> value)
     // Offset: 0x2AB327C
-    void remove_scoreForLeaderboardDidUploadEvent(System::Action_1<::StringW>* value);
+    void remove_scoreForLeaderboardDidUploadEvent(::System::Action_1<::StringW>* value);
     // public System.Void .ctor(HTTPLeaderboardsModel leaderboardsModel, OnlineServices.PlatformOnlineServicesAvailabilityModel platformOnlineServicesAvailabilityModel)
     // Offset: 0x2AB3320
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static LevelScoreUploader* New_ctor(GlobalNamespace::HTTPLeaderboardsModel* leaderboardsModel, OnlineServices::PlatformOnlineServicesAvailabilityModel* platformOnlineServicesAvailabilityModel) {
-      static auto ___internal__logger = ::Logger::get().WithContext("OnlineServices::LevelScoreUploader::.ctor");
+    static LevelScoreUploader* New_ctor(::GlobalNamespace::HTTPLeaderboardsModel* leaderboardsModel, ::OnlineServices::PlatformOnlineServicesAvailabilityModel* platformOnlineServicesAvailabilityModel) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::OnlineServices::LevelScoreUploader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelScoreUploader*, creationType>(leaderboardsModel, platformOnlineServicesAvailabilityModel)));
     }
     // public System.Void SendLevelScoreResult(OnlineServices.LevelScoreResultsData levelScoreResultsData)
     // Offset: 0x2AB33CC
-    void SendLevelScoreResult(OnlineServices::LevelScoreResultsData levelScoreResultsData);
+    void SendLevelScoreResult(::OnlineServices::LevelScoreResultsData levelScoreResultsData);
     // public System.Void TrySendPreviouslyUnsuccessfullySentResults()
     // Offset: 0x2AB3594
     void TrySendPreviouslyUnsuccessfullySentResults();
@@ -158,14 +158,14 @@ namespace OnlineServices {
     void OnDestroy();
   }; // OnlineServices.LevelScoreUploader
   #pragma pack(pop)
-  static check_size<sizeof(LevelScoreUploader), 56 + sizeof(OnlineServices::PlatformOnlineServicesAvailabilityModel*)> __OnlineServices_LevelScoreUploaderSizeCheck;
+  static check_size<sizeof(LevelScoreUploader), 56 + sizeof(::OnlineServices::PlatformOnlineServicesAvailabilityModel*)> __OnlineServices_LevelScoreUploaderSizeCheck;
   static_assert(sizeof(LevelScoreUploader) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OnlineServices::LevelScoreUploader::add_scoreForLeaderboardDidUploadEvent
 // Il2CppName: add_scoreForLeaderboardDidUploadEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServices::LevelScoreUploader::*)(System::Action_1<::StringW>*)>(&OnlineServices::LevelScoreUploader::add_scoreForLeaderboardDidUploadEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServices::LevelScoreUploader::*)(::System::Action_1<::StringW>*)>(&OnlineServices::LevelScoreUploader::add_scoreForLeaderboardDidUploadEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::LevelScoreUploader*), "add_scoreForLeaderboardDidUploadEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -174,7 +174,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Onlin
 // Writing MetadataGetter for method: OnlineServices::LevelScoreUploader::remove_scoreForLeaderboardDidUploadEvent
 // Il2CppName: remove_scoreForLeaderboardDidUploadEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServices::LevelScoreUploader::*)(System::Action_1<::StringW>*)>(&OnlineServices::LevelScoreUploader::remove_scoreForLeaderboardDidUploadEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServices::LevelScoreUploader::*)(::System::Action_1<::StringW>*)>(&OnlineServices::LevelScoreUploader::remove_scoreForLeaderboardDidUploadEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::LevelScoreUploader*), "remove_scoreForLeaderboardDidUploadEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -187,7 +187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Onlin
 // Writing MetadataGetter for method: OnlineServices::LevelScoreUploader::SendLevelScoreResult
 // Il2CppName: SendLevelScoreResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServices::LevelScoreUploader::*)(OnlineServices::LevelScoreResultsData)>(&OnlineServices::LevelScoreUploader::SendLevelScoreResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServices::LevelScoreUploader::*)(::OnlineServices::LevelScoreResultsData)>(&OnlineServices::LevelScoreUploader::SendLevelScoreResult)> {
   static const MethodInfo* get() {
     static auto* levelScoreResultsData = &::il2cpp_utils::GetClassFromName("OnlineServices", "LevelScoreResultsData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::LevelScoreUploader*), "SendLevelScoreResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{levelScoreResultsData});

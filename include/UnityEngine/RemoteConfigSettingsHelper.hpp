@@ -17,8 +17,8 @@ namespace UnityEngine {
   class RemoteConfigSettingsHelper;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::RemoteConfigSettingsHelper);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RemoteConfigSettingsHelper*, "UnityEngine", "RemoteConfigSettingsHelper");
+NEED_NO_BOX(::UnityEngine::RemoteConfigSettingsHelper);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::RemoteConfigSettingsHelper*, "UnityEngine", "RemoteConfigSettingsHelper");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -27,7 +27,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class RemoteConfigSettingsHelper : public ::Il2CppObject {
     public:
-    // Nested type: UnityEngine::RemoteConfigSettingsHelper::Tag
+    // Nested type: ::UnityEngine::RemoteConfigSettingsHelper::Tag
     struct Tag;
   }; // UnityEngine.RemoteConfigSettingsHelper
   #pragma pack(pop)

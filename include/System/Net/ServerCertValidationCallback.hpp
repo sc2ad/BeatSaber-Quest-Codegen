@@ -40,8 +40,8 @@ namespace System::Net {
   class ServerCertValidationCallback;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::ServerCertValidationCallback);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::ServerCertValidationCallback*, "System.Net", "ServerCertValidationCallback");
+NEED_NO_BOX(::System::Net::ServerCertValidationCallback);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::ServerCertValidationCallback*, "System.Net", "ServerCertValidationCallback");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x20
@@ -50,7 +50,7 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class ServerCertValidationCallback : public ::Il2CppObject {
     public:
-    // Nested type: System::Net::ServerCertValidationCallback::CallbackContext
+    // Nested type: ::System::Net::ServerCertValidationCallback::CallbackContext
     class CallbackContext;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -64,25 +64,25 @@ namespace System::Net {
     // private readonly System.Net.Security.RemoteCertificateValidationCallback m_ValidationCallback
     // Size: 0x8
     // Offset: 0x10
-    System::Net::Security::RemoteCertificateValidationCallback* m_ValidationCallback;
+    ::System::Net::Security::RemoteCertificateValidationCallback* m_ValidationCallback;
     // Field size check
-    static_assert(sizeof(System::Net::Security::RemoteCertificateValidationCallback*) == 0x8);
+    static_assert(sizeof(::System::Net::Security::RemoteCertificateValidationCallback*) == 0x8);
     // private readonly System.Threading.ExecutionContext m_Context
     // Size: 0x8
     // Offset: 0x18
-    System::Threading::ExecutionContext* m_Context;
+    ::System::Threading::ExecutionContext* m_Context;
     // Field size check
-    static_assert(sizeof(System::Threading::ExecutionContext*) == 0x8);
+    static_assert(sizeof(::System::Threading::ExecutionContext*) == 0x8);
     public:
     // Get instance field reference: private readonly System.Net.Security.RemoteCertificateValidationCallback m_ValidationCallback
-    System::Net::Security::RemoteCertificateValidationCallback*& dyn_m_ValidationCallback();
+    ::System::Net::Security::RemoteCertificateValidationCallback*& dyn_m_ValidationCallback();
     // Get instance field reference: private readonly System.Threading.ExecutionContext m_Context
-    System::Threading::ExecutionContext*& dyn_m_Context();
+    ::System::Threading::ExecutionContext*& dyn_m_Context();
     // System.Void .ctor(System.Net.Security.RemoteCertificateValidationCallback validationCallback)
     // Offset: 0x17B28FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ServerCertValidationCallback* New_ctor(System::Net::Security::RemoteCertificateValidationCallback* validationCallback) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::ServerCertValidationCallback::.ctor");
+    static ServerCertValidationCallback* New_ctor(::System::Net::Security::RemoteCertificateValidationCallback* validationCallback) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::ServerCertValidationCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ServerCertValidationCallback*, creationType>(validationCallback)));
     }
     // System.Void Callback(System.Object state)
@@ -90,10 +90,10 @@ namespace System::Net {
     void Callback(::Il2CppObject* state);
     // System.Boolean Invoke(System.Object request, System.Security.Cryptography.X509Certificates.X509Certificate certificate, System.Security.Cryptography.X509Certificates.X509Chain chain, System.Net.Security.SslPolicyErrors sslPolicyErrors)
     // Offset: 0x17B2A34
-    bool Invoke(::Il2CppObject* request, System::Security::Cryptography::X509Certificates::X509Certificate* certificate, System::Security::Cryptography::X509Certificates::X509Chain* chain, System::Net::Security::SslPolicyErrors sslPolicyErrors);
+    bool Invoke(::Il2CppObject* request, ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate, ::System::Security::Cryptography::X509Certificates::X509Chain* chain, ::System::Net::Security::SslPolicyErrors sslPolicyErrors);
   }; // System.Net.ServerCertValidationCallback
   #pragma pack(pop)
-  static check_size<sizeof(ServerCertValidationCallback), 24 + sizeof(System::Threading::ExecutionContext*)> __System_Net_ServerCertValidationCallbackSizeCheck;
+  static check_size<sizeof(ServerCertValidationCallback), 24 + sizeof(::System::Threading::ExecutionContext*)> __System_Net_ServerCertValidationCallbackSizeCheck;
   static_assert(sizeof(ServerCertValidationCallback) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -113,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::ServerCertValidationCallback::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::ServerCertValidationCallback::*)(::Il2CppObject*, System::Security::Cryptography::X509Certificates::X509Certificate*, System::Security::Cryptography::X509Certificates::X509Chain*, System::Net::Security::SslPolicyErrors)>(&System::Net::ServerCertValidationCallback::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::ServerCertValidationCallback::*)(::Il2CppObject*, ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::System::Security::Cryptography::X509Certificates::X509Chain*, ::System::Net::Security::SslPolicyErrors)>(&System::Net::ServerCertValidationCallback::Invoke)> {
   static const MethodInfo* get() {
     static auto* request = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* certificate = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509Certificate")->byval_arg;

@@ -16,7 +16,7 @@ namespace System::Collections::Generic {
   class IEqualityComparer_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Collections::Generic::IEqualityComparer_1, "System.Collections.Generic", "IEqualityComparer`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Collections::Generic::IEqualityComparer_1, "System.Collections.Generic", "IEqualityComparer`1");
 // Type namespace: System.Collections.Generic
 namespace System::Collections::Generic {
   // WARNING Size may be invalid!
@@ -28,14 +28,14 @@ namespace System::Collections::Generic {
     // public System.Boolean Equals(T x, T y)
     // Offset: 0xFFFFFFFF
     bool Equals(T x, T y) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::IEqualityComparer_1::Equals");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Generic::IEqualityComparer_1::Equals");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Equals", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x), ::il2cpp_utils::ExtractType(y)})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, x, y);
     }
     // public System.Int32 GetHashCode(T obj)
     // Offset: 0xFFFFFFFF
     int GetHashCode(T obj) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::IEqualityComparer_1::GetHashCode");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Generic::IEqualityComparer_1::GetHashCode");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetHashCode", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(obj)})));
       return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method, obj);
     }

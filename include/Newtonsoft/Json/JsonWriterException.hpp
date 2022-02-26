@@ -35,8 +35,8 @@ namespace Newtonsoft::Json {
   class JsonWriterException;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::JsonWriterException);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::JsonWriterException*, "Newtonsoft.Json", "JsonWriterException");
+NEED_NO_BOX(::Newtonsoft::Json::JsonWriterException);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::JsonWriterException*, "Newtonsoft.Json", "JsonWriterException");
 // Type namespace: Newtonsoft.Json
 namespace Newtonsoft::Json {
   // Size: 0x90
@@ -45,7 +45,7 @@ namespace Newtonsoft::Json {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NullableAttribute] Offset: 12019D4
   // [NullableContextAttribute] Offset: 12019D4
-  class JsonWriterException : public Newtonsoft::Json::JsonException {
+  class JsonWriterException : public ::Newtonsoft::Json::JsonException {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -73,16 +73,16 @@ namespace Newtonsoft::Json {
     // public System.Void .ctor(System.String message, System.String path, System.Exception innerException)
     // Offset: 0x1C49EAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static JsonWriterException* New_ctor(::StringW message, ::StringW path, System::Exception* innerException) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::JsonWriterException::.ctor");
+    static JsonWriterException* New_ctor(::StringW message, ::StringW path, ::System::Exception* innerException) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::JsonWriterException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JsonWriterException*, creationType>(message, path, innerException)));
     }
     // static Newtonsoft.Json.JsonWriterException Create(Newtonsoft.Json.JsonWriter writer, System.String message, System.Exception ex)
     // Offset: 0x1C43EDC
-    static Newtonsoft::Json::JsonWriterException* Create(Newtonsoft::Json::JsonWriter* writer, ::StringW message, System::Exception* ex);
+    static ::Newtonsoft::Json::JsonWriterException* Create(::Newtonsoft::Json::JsonWriter* writer, ::StringW message, ::System::Exception* ex);
     // static Newtonsoft.Json.JsonWriterException Create(System.String path, System.String message, System.Exception ex)
     // Offset: 0x1C49EDC
-    static Newtonsoft::Json::JsonWriterException* Create(::StringW path, ::StringW message, System::Exception* ex);
+    static ::Newtonsoft::Json::JsonWriterException* Create(::StringW path, ::StringW message, ::System::Exception* ex);
     // public System.Void .ctor()
     // Offset: 0x1C49E9C
     // Implemented from: Newtonsoft.Json.JsonException
@@ -91,7 +91,7 @@ namespace Newtonsoft::Json {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JsonWriterException* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::JsonWriterException::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::JsonWriterException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JsonWriterException*, creationType>()));
     }
     // public System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
@@ -100,8 +100,8 @@ namespace Newtonsoft::Json {
     // Base method: System.Void JsonException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static JsonWriterException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::JsonWriterException::.ctor");
+    static JsonWriterException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::JsonWriterException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JsonWriterException*, creationType>(info, context)));
     }
   }; // Newtonsoft.Json.JsonWriterException
@@ -117,7 +117,7 @@ namespace Newtonsoft::Json {
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonWriterException::Create
 // Il2CppName: Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::JsonWriterException* (*)(Newtonsoft::Json::JsonWriter*, ::StringW, System::Exception*)>(&Newtonsoft::Json::JsonWriterException::Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::JsonWriterException* (*)(::Newtonsoft::Json::JsonWriter*, ::StringW, ::System::Exception*)>(&Newtonsoft::Json::JsonWriterException::Create)> {
   static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonWriter")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -128,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft:
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonWriterException::Create
 // Il2CppName: Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::JsonWriterException* (*)(::StringW, ::StringW, System::Exception*)>(&Newtonsoft::Json::JsonWriterException::Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::JsonWriterException* (*)(::StringW, ::StringW, ::System::Exception*)>(&Newtonsoft::Json::JsonWriterException::Create)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

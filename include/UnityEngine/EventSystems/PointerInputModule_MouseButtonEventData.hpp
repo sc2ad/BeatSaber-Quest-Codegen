@@ -21,8 +21,8 @@ namespace UnityEngine::EventSystems {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData*, "UnityEngine.EventSystems", "PointerInputModule/MouseButtonEventData");
+NEED_NO_BOX(::UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData*, "UnityEngine.EventSystems", "PointerInputModule/MouseButtonEventData");
 // Type namespace: UnityEngine.EventSystems
 namespace UnityEngine::EventSystems {
   // Size: 0x20
@@ -43,22 +43,22 @@ namespace UnityEngine::EventSystems {
     // public UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.FramePressState buttonState
     // Size: 0x4
     // Offset: 0x10
-    UnityEngine::EventSystems::PointerEventData::FramePressState buttonState;
+    ::UnityEngine::EventSystems::PointerEventData::FramePressState buttonState;
     // Field size check
-    static_assert(sizeof(UnityEngine::EventSystems::PointerEventData::FramePressState) == 0x4);
+    static_assert(sizeof(::UnityEngine::EventSystems::PointerEventData::FramePressState) == 0x4);
     // Padding between fields: buttonState and: buttonData
     char __padding0[0x4] = {};
     // public UnityEngine.EventSystems.PointerEventData buttonData
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::EventSystems::PointerEventData* buttonData;
+    ::UnityEngine::EventSystems::PointerEventData* buttonData;
     // Field size check
-    static_assert(sizeof(UnityEngine::EventSystems::PointerEventData*) == 0x8);
+    static_assert(sizeof(::UnityEngine::EventSystems::PointerEventData*) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.FramePressState buttonState
-    UnityEngine::EventSystems::PointerEventData::FramePressState& dyn_buttonState();
+    ::UnityEngine::EventSystems::PointerEventData::FramePressState& dyn_buttonState();
     // Get instance field reference: public UnityEngine.EventSystems.PointerEventData buttonData
-    UnityEngine::EventSystems::PointerEventData*& dyn_buttonData();
+    ::UnityEngine::EventSystems::PointerEventData*& dyn_buttonData();
     // public System.Boolean PressedThisFrame()
     // Offset: 0x186DDDC
     bool PressedThisFrame();
@@ -71,12 +71,12 @@ namespace UnityEngine::EventSystems {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PointerInputModule::MouseButtonEventData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PointerInputModule::MouseButtonEventData*, creationType>()));
     }
   }; // UnityEngine.EventSystems.PointerInputModule/UnityEngine.EventSystems.MouseButtonEventData
   #pragma pack(pop)
-  static check_size<sizeof(PointerInputModule::MouseButtonEventData), 24 + sizeof(UnityEngine::EventSystems::PointerEventData*)> __UnityEngine_EventSystems_PointerInputModule_MouseButtonEventDataSizeCheck;
+  static check_size<sizeof(PointerInputModule::MouseButtonEventData), 24 + sizeof(::UnityEngine::EventSystems::PointerEventData*)> __UnityEngine_EventSystems_PointerInputModule_MouseButtonEventDataSizeCheck;
   static_assert(sizeof(PointerInputModule::MouseButtonEventData) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

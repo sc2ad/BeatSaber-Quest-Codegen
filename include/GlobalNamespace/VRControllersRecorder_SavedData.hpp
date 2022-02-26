@@ -19,8 +19,8 @@ namespace GlobalNamespace {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::VRControllersRecorder::SavedData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorder::SavedData*, "", "VRControllersRecorder/SavedData");
+NEED_NO_BOX(::GlobalNamespace::VRControllersRecorder::SavedData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::VRControllersRecorder::SavedData*, "", "VRControllersRecorder/SavedData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class VRControllersRecorder::SavedData : public ::Il2CppObject {
     public:
-    // Nested type: GlobalNamespace::VRControllersRecorder::SavedData::KeyframeSerializable
+    // Nested type: ::GlobalNamespace::VRControllersRecorder::SavedData::KeyframeSerializable
     class KeyframeSerializable;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -43,28 +43,28 @@ namespace GlobalNamespace {
     // public VRControllersRecorder/SavedData/KeyframeSerializable[] _keyframes
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<GlobalNamespace::VRControllersRecorder::SavedData::KeyframeSerializable*> keyframes;
+    ::ArrayW<::GlobalNamespace::VRControllersRecorder::SavedData::KeyframeSerializable*> keyframes;
     // Field size check
-    static_assert(sizeof(::ArrayW<GlobalNamespace::VRControllersRecorder::SavedData::KeyframeSerializable*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::GlobalNamespace::VRControllersRecorder::SavedData::KeyframeSerializable*>) == 0x8);
     public:
-    // Creating conversion operator: operator ::ArrayW<GlobalNamespace::VRControllersRecorder::SavedData::KeyframeSerializable*>
-    constexpr operator ::ArrayW<GlobalNamespace::VRControllersRecorder::SavedData::KeyframeSerializable*>() const noexcept {
+    // Creating conversion operator: operator ::ArrayW<::GlobalNamespace::VRControllersRecorder::SavedData::KeyframeSerializable*>
+    constexpr operator ::ArrayW<::GlobalNamespace::VRControllersRecorder::SavedData::KeyframeSerializable*>() const noexcept {
       return keyframes;
     }
     // Get instance field reference: public VRControllersRecorder/SavedData/KeyframeSerializable[] _keyframes
-    ::ArrayW<GlobalNamespace::VRControllersRecorder::SavedData::KeyframeSerializable*>& dyn__keyframes();
+    ::ArrayW<::GlobalNamespace::VRControllersRecorder::SavedData::KeyframeSerializable*>& dyn__keyframes();
     // public System.Void .ctor()
     // Offset: 0x2CB809C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRControllersRecorder::SavedData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::VRControllersRecorder::SavedData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VRControllersRecorder::SavedData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRControllersRecorder::SavedData*, creationType>()));
     }
   }; // VRControllersRecorder/SavedData
   #pragma pack(pop)
-  static check_size<sizeof(VRControllersRecorder::SavedData), 16 + sizeof(::ArrayW<GlobalNamespace::VRControllersRecorder::SavedData::KeyframeSerializable*>)> __GlobalNamespace_VRControllersRecorder_SavedDataSizeCheck;
+  static check_size<sizeof(VRControllersRecorder::SavedData), 16 + sizeof(::ArrayW<::GlobalNamespace::VRControllersRecorder::SavedData::KeyframeSerializable*>)> __GlobalNamespace_VRControllersRecorder_SavedDataSizeCheck;
   static_assert(sizeof(VRControllersRecorder::SavedData) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

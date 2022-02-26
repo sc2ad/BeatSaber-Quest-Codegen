@@ -21,8 +21,8 @@ namespace UnityEngine {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*, "", "SelectLevelCategoryViewController/LevelCategoryInfo");
+NEED_NO_BOX(::GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*, "", "SelectLevelCategoryViewController/LevelCategoryInfo");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x28
@@ -43,9 +43,9 @@ namespace GlobalNamespace {
     // public SelectLevelCategoryViewController/LevelCategory levelCategory
     // Size: 0x4
     // Offset: 0x10
-    GlobalNamespace::SelectLevelCategoryViewController::LevelCategory levelCategory;
+    ::GlobalNamespace::SelectLevelCategoryViewController::LevelCategory levelCategory;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::SelectLevelCategoryViewController::LevelCategory) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::SelectLevelCategoryViewController::LevelCategory) == 0x4);
     // Padding between fields: levelCategory and: localizedKey
     char __padding0[0x4] = {};
     // public System.String localizedKey
@@ -57,28 +57,28 @@ namespace GlobalNamespace {
     // public UnityEngine.Sprite categoryIcon
     // Size: 0x8
     // Offset: 0x20
-    UnityEngine::Sprite* categoryIcon;
+    ::UnityEngine::Sprite* categoryIcon;
     // Field size check
-    static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Sprite*) == 0x8);
     public:
     // Get instance field reference: public SelectLevelCategoryViewController/LevelCategory levelCategory
-    GlobalNamespace::SelectLevelCategoryViewController::LevelCategory& dyn_levelCategory();
+    ::GlobalNamespace::SelectLevelCategoryViewController::LevelCategory& dyn_levelCategory();
     // Get instance field reference: public System.String localizedKey
     ::StringW& dyn_localizedKey();
     // Get instance field reference: public UnityEngine.Sprite categoryIcon
-    UnityEngine::Sprite*& dyn_categoryIcon();
+    ::UnityEngine::Sprite*& dyn_categoryIcon();
     // public System.Void .ctor()
     // Offset: 0x2B5F9C4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SelectLevelCategoryViewController::LevelCategoryInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SelectLevelCategoryViewController::LevelCategoryInfo*, creationType>()));
     }
   }; // SelectLevelCategoryViewController/LevelCategoryInfo
   #pragma pack(pop)
-  static check_size<sizeof(SelectLevelCategoryViewController::LevelCategoryInfo), 32 + sizeof(UnityEngine::Sprite*)> __GlobalNamespace_SelectLevelCategoryViewController_LevelCategoryInfoSizeCheck;
+  static check_size<sizeof(SelectLevelCategoryViewController::LevelCategoryInfo), 32 + sizeof(::UnityEngine::Sprite*)> __GlobalNamespace_SelectLevelCategoryViewController_LevelCategoryInfoSizeCheck;
   static_assert(sizeof(SelectLevelCategoryViewController::LevelCategoryInfo) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -17,8 +17,8 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   class DHValidationParameters;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Crypto::Parameters::DHValidationParameters);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::DHValidationParameters*, "Org.BouncyCastle.Crypto.Parameters", "DHValidationParameters");
+NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters*, "Org.BouncyCastle.Crypto.Parameters", "DHValidationParameters");
 // Type namespace: Org.BouncyCastle.Crypto.Parameters
 namespace Org::BouncyCastle::Crypto::Parameters {
   // Size: 0x1C
@@ -57,12 +57,12 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Offset: 0x1560AEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DHValidationParameters* New_ctor(::ArrayW<uint8_t> seed, int counter) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DHValidationParameters*, creationType>(seed, counter)));
     }
     // protected System.Boolean Equals(Org.BouncyCastle.Crypto.Parameters.DHValidationParameters other)
     // Offset: 0x1560C78
-    bool Equals(Org::BouncyCastle::Crypto::Parameters::DHValidationParameters* other);
+    bool Equals(::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters* other);
     // public override System.Boolean Equals(System.Object obj)
     // Offset: 0x1560BC8
     // Implemented from: System.Object
@@ -86,7 +86,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::*)(Org::BouncyCastle::Crypto::Parameters::DHValidationParameters*)>(&Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::*)(::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters*)>(&Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::Equals)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Crypto.Parameters", "DHValidationParameters")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::DHValidationParameters*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});

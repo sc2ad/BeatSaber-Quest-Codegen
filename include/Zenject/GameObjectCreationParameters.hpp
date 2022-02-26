@@ -41,8 +41,8 @@ namespace Zenject {
   class GameObjectCreationParameters;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::GameObjectCreationParameters);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::GameObjectCreationParameters*, "Zenject", "GameObjectCreationParameters");
+NEED_NO_BOX(::Zenject::GameObjectCreationParameters);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::GameObjectCreationParameters*, "Zenject", "GameObjectCreationParameters");
 // Type namespace: Zenject
 namespace Zenject {
   // WARNING Size may be invalid!
@@ -75,40 +75,40 @@ namespace Zenject {
     // private UnityEngine.Transform <ParentTransform>k__BackingField
     // Size: 0x8
     // Offset: 0x20
-    UnityEngine::Transform* ParentTransform;
+    ::UnityEngine::Transform* ParentTransform;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // private System.Func`2<Zenject.InjectContext,UnityEngine.Transform> <ParentTransformGetter>k__BackingField
     // Size: 0x8
     // Offset: 0x28
-    System::Func_2<Zenject::InjectContext*, UnityEngine::Transform*>* ParentTransformGetter;
+    ::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::Transform*>* ParentTransformGetter;
     // Field size check
-    static_assert(sizeof(System::Func_2<Zenject::InjectContext*, UnityEngine::Transform*>*) == 0x8);
+    static_assert(sizeof(::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::Transform*>*) == 0x8);
     // private System.Nullable`1<UnityEngine.Vector3> <Position>k__BackingField
     // Size: 0xFFFFFFFF
     // Offset: 0x30
-    System::Nullable_1<UnityEngine::Vector3> Position;
+    ::System::Nullable_1<::UnityEngine::Vector3> Position;
     // private System.Nullable`1<UnityEngine.Quaternion> <Rotation>k__BackingField
     // Size: 0xFFFFFFFF
     // Offset: 0x40
-    System::Nullable_1<UnityEngine::Quaternion> Rotation;
+    ::System::Nullable_1<::UnityEngine::Quaternion> Rotation;
     public:
     // Get static field: static public readonly Zenject.GameObjectCreationParameters Default
-    static Zenject::GameObjectCreationParameters* _get_Default();
+    static ::Zenject::GameObjectCreationParameters* _get_Default();
     // Set static field: static public readonly Zenject.GameObjectCreationParameters Default
-    static void _set_Default(Zenject::GameObjectCreationParameters* value);
+    static void _set_Default(::Zenject::GameObjectCreationParameters* value);
     // Get instance field reference: private System.String <Name>k__BackingField
     ::StringW& dyn_$Name$k__BackingField();
     // Get instance field reference: private System.String <GroupName>k__BackingField
     ::StringW& dyn_$GroupName$k__BackingField();
     // Get instance field reference: private UnityEngine.Transform <ParentTransform>k__BackingField
-    UnityEngine::Transform*& dyn_$ParentTransform$k__BackingField();
+    ::UnityEngine::Transform*& dyn_$ParentTransform$k__BackingField();
     // Get instance field reference: private System.Func`2<Zenject.InjectContext,UnityEngine.Transform> <ParentTransformGetter>k__BackingField
-    System::Func_2<Zenject::InjectContext*, UnityEngine::Transform*>*& dyn_$ParentTransformGetter$k__BackingField();
+    ::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::Transform*>*& dyn_$ParentTransformGetter$k__BackingField();
     // Get instance field reference: private System.Nullable`1<UnityEngine.Vector3> <Position>k__BackingField
-    System::Nullable_1<UnityEngine::Vector3>& dyn_$Position$k__BackingField();
+    ::System::Nullable_1<::UnityEngine::Vector3>& dyn_$Position$k__BackingField();
     // Get instance field reference: private System.Nullable`1<UnityEngine.Quaternion> <Rotation>k__BackingField
-    System::Nullable_1<UnityEngine::Quaternion>& dyn_$Rotation$k__BackingField();
+    ::System::Nullable_1<::UnityEngine::Quaternion>& dyn_$Rotation$k__BackingField();
     // public System.String get_Name()
     // Offset: 0x1D38734
     ::StringW get_Name();
@@ -123,41 +123,41 @@ namespace Zenject {
     void set_GroupName(::StringW value);
     // public UnityEngine.Transform get_ParentTransform()
     // Offset: 0x1D38754
-    UnityEngine::Transform* get_ParentTransform();
+    ::UnityEngine::Transform* get_ParentTransform();
     // public System.Void set_ParentTransform(UnityEngine.Transform value)
     // Offset: 0x1D3875C
-    void set_ParentTransform(UnityEngine::Transform* value);
+    void set_ParentTransform(::UnityEngine::Transform* value);
     // public System.Func`2<Zenject.InjectContext,UnityEngine.Transform> get_ParentTransformGetter()
     // Offset: 0x1D38764
-    System::Func_2<Zenject::InjectContext*, UnityEngine::Transform*>* get_ParentTransformGetter();
+    ::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::Transform*>* get_ParentTransformGetter();
     // public System.Void set_ParentTransformGetter(System.Func`2<Zenject.InjectContext,UnityEngine.Transform> value)
     // Offset: 0x1D3876C
-    void set_ParentTransformGetter(System::Func_2<Zenject::InjectContext*, UnityEngine::Transform*>* value);
+    void set_ParentTransformGetter(::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::Transform*>* value);
     // public System.Nullable`1<UnityEngine.Vector3> get_Position()
     // Offset: 0x1D38774
-    System::Nullable_1<UnityEngine::Vector3> get_Position();
+    ::System::Nullable_1<::UnityEngine::Vector3> get_Position();
     // public System.Void set_Position(System.Nullable`1<UnityEngine.Vector3> value)
     // Offset: 0x1D38780
-    void set_Position(System::Nullable_1<UnityEngine::Vector3> value);
+    void set_Position(::System::Nullable_1<::UnityEngine::Vector3> value);
     // public System.Nullable`1<UnityEngine.Quaternion> get_Rotation()
     // Offset: 0x1D38788
-    System::Nullable_1<UnityEngine::Quaternion> get_Rotation();
+    ::System::Nullable_1<::UnityEngine::Quaternion> get_Rotation();
     // public System.Void set_Rotation(System.Nullable`1<UnityEngine.Quaternion> value)
     // Offset: 0x1D3879C
-    void set_Rotation(System::Nullable_1<UnityEngine::Quaternion> value);
+    void set_Rotation(::System::Nullable_1<::UnityEngine::Quaternion> value);
     // static private System.Void .cctor()
     // Offset: 0x1D38B7C
     static void _cctor();
     // public System.Boolean Equals(Zenject.GameObjectCreationParameters that)
     // Offset: 0x1D38AE4
-    bool Equals(Zenject::GameObjectCreationParameters* that);
+    bool Equals(::Zenject::GameObjectCreationParameters* that);
     // public System.Void .ctor()
     // Offset: 0x1D2AFAC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameObjectCreationParameters* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::GameObjectCreationParameters::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GameObjectCreationParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameObjectCreationParameters*, creationType>()));
     }
     // public override System.Int32 GetHashCode()
@@ -174,10 +174,10 @@ namespace Zenject {
   // WARNING Not writing size check since size may be invalid!
   // static public System.Boolean op_Equality(Zenject.GameObjectCreationParameters left, Zenject.GameObjectCreationParameters right)
   // Offset: 0x1D38A88
-  bool operator ==(Zenject::GameObjectCreationParameters* left, Zenject::GameObjectCreationParameters& right);
+  bool operator ==(::Zenject::GameObjectCreationParameters* left, ::Zenject::GameObjectCreationParameters& right);
   // static public System.Boolean op_Inequality(Zenject.GameObjectCreationParameters left, Zenject.GameObjectCreationParameters right)
   // Offset: 0x1D38B58
-  bool operator !=(Zenject::GameObjectCreationParameters* left, Zenject::GameObjectCreationParameters& right);
+  bool operator !=(::Zenject::GameObjectCreationParameters* left, ::Zenject::GameObjectCreationParameters& right);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::GameObjectCreationParameters::get_Name
@@ -217,7 +217,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Writing MetadataGetter for method: Zenject::GameObjectCreationParameters::get_ParentTransform
 // Il2CppName: get_ParentTransform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (Zenject::GameObjectCreationParameters::*)()>(&Zenject::GameObjectCreationParameters::get_ParentTransform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Transform* (Zenject::GameObjectCreationParameters::*)()>(&Zenject::GameObjectCreationParameters::get_ParentTransform)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::GameObjectCreationParameters*), "get_ParentTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -225,7 +225,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: Zenject::GameObjectCreationParameters::set_ParentTransform
 // Il2CppName: set_ParentTransform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::GameObjectCreationParameters::*)(UnityEngine::Transform*)>(&Zenject::GameObjectCreationParameters::set_ParentTransform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::GameObjectCreationParameters::*)(::UnityEngine::Transform*)>(&Zenject::GameObjectCreationParameters::set_ParentTransform)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::GameObjectCreationParameters*), "set_ParentTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -234,7 +234,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Writing MetadataGetter for method: Zenject::GameObjectCreationParameters::get_ParentTransformGetter
 // Il2CppName: get_ParentTransformGetter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Func_2<Zenject::InjectContext*, UnityEngine::Transform*>* (Zenject::GameObjectCreationParameters::*)()>(&Zenject::GameObjectCreationParameters::get_ParentTransformGetter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::Transform*>* (Zenject::GameObjectCreationParameters::*)()>(&Zenject::GameObjectCreationParameters::get_ParentTransformGetter)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::GameObjectCreationParameters*), "get_ParentTransformGetter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -242,7 +242,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Fun
 // Writing MetadataGetter for method: Zenject::GameObjectCreationParameters::set_ParentTransformGetter
 // Il2CppName: set_ParentTransformGetter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::GameObjectCreationParameters::*)(System::Func_2<Zenject::InjectContext*, UnityEngine::Transform*>*)>(&Zenject::GameObjectCreationParameters::set_ParentTransformGetter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::GameObjectCreationParameters::*)(::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::Transform*>*)>(&Zenject::GameObjectCreationParameters::set_ParentTransformGetter)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "InjectContext"), ::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::GameObjectCreationParameters*), "set_ParentTransformGetter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -251,7 +251,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Writing MetadataGetter for method: Zenject::GameObjectCreationParameters::get_Position
 // Il2CppName: get_Position
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<UnityEngine::Vector3> (Zenject::GameObjectCreationParameters::*)()>(&Zenject::GameObjectCreationParameters::get_Position)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::UnityEngine::Vector3> (Zenject::GameObjectCreationParameters::*)()>(&Zenject::GameObjectCreationParameters::get_Position)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::GameObjectCreationParameters*), "get_Position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -259,7 +259,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nul
 // Writing MetadataGetter for method: Zenject::GameObjectCreationParameters::set_Position
 // Il2CppName: set_Position
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::GameObjectCreationParameters::*)(System::Nullable_1<UnityEngine::Vector3>)>(&Zenject::GameObjectCreationParameters::set_Position)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::GameObjectCreationParameters::*)(::System::Nullable_1<::UnityEngine::Vector3>)>(&Zenject::GameObjectCreationParameters::set_Position)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::GameObjectCreationParameters*), "set_Position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -268,7 +268,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Writing MetadataGetter for method: Zenject::GameObjectCreationParameters::get_Rotation
 // Il2CppName: get_Rotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<UnityEngine::Quaternion> (Zenject::GameObjectCreationParameters::*)()>(&Zenject::GameObjectCreationParameters::get_Rotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::UnityEngine::Quaternion> (Zenject::GameObjectCreationParameters::*)()>(&Zenject::GameObjectCreationParameters::get_Rotation)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::GameObjectCreationParameters*), "get_Rotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -276,7 +276,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nul
 // Writing MetadataGetter for method: Zenject::GameObjectCreationParameters::set_Rotation
 // Il2CppName: set_Rotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::GameObjectCreationParameters::*)(System::Nullable_1<UnityEngine::Quaternion>)>(&Zenject::GameObjectCreationParameters::set_Rotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::GameObjectCreationParameters::*)(::System::Nullable_1<::UnityEngine::Quaternion>)>(&Zenject::GameObjectCreationParameters::set_Rotation)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::GameObjectCreationParameters*), "set_Rotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -293,7 +293,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Zenject::GameObjectCreationParameters::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::GameObjectCreationParameters::*)(Zenject::GameObjectCreationParameters*)>(&Zenject::GameObjectCreationParameters::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::GameObjectCreationParameters::*)(::Zenject::GameObjectCreationParameters*)>(&Zenject::GameObjectCreationParameters::Equals)> {
   static const MethodInfo* get() {
     static auto* that = &::il2cpp_utils::GetClassFromName("Zenject", "GameObjectCreationParameters")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::GameObjectCreationParameters*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{that});

@@ -26,8 +26,8 @@ namespace HoudiniEngineUnity {
   class HEU_ThreadedTask;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_ThreadedTask);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_ThreadedTask*, "HoudiniEngineUnity", "HEU_ThreadedTask");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_ThreadedTask);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_ThreadedTask*, "HoudiniEngineUnity", "HEU_ThreadedTask");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x38
@@ -74,15 +74,15 @@ namespace HoudiniEngineUnity {
     // private System.Threading.Thread _thread
     // Size: 0x8
     // Offset: 0x20
-    System::Threading::Thread* thread;
+    ::System::Threading::Thread* thread;
     // Field size check
-    static_assert(sizeof(System::Threading::Thread*) == 0x8);
+    static_assert(sizeof(::System::Threading::Thread*) == 0x8);
     // private System.Threading.ThreadPriority _priority
     // Size: 0x4
     // Offset: 0x28
-    System::Threading::ThreadPriority priority;
+    ::System::Threading::ThreadPriority priority;
     // Field size check
-    static_assert(sizeof(System::Threading::ThreadPriority) == 0x4);
+    static_assert(sizeof(::System::Threading::ThreadPriority) == 0x4);
     // private System.Boolean _isBackground
     // Size: 0x1
     // Offset: 0x2C
@@ -107,9 +107,9 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private System.Object _lockHandle
     ::Il2CppObject*& dyn__lockHandle();
     // Get instance field reference: private System.Threading.Thread _thread
-    System::Threading::Thread*& dyn__thread();
+    ::System::Threading::Thread*& dyn__thread();
     // Get instance field reference: private System.Threading.ThreadPriority _priority
-    System::Threading::ThreadPriority& dyn__priority();
+    ::System::Threading::ThreadPriority& dyn__priority();
     // Get instance field reference: private System.Boolean _isBackground
     bool& dyn__isBackground();
     // Get instance field reference: protected System.String _name
@@ -137,10 +137,10 @@ namespace HoudiniEngineUnity {
     void set_StopRequested(bool value);
     // public System.Threading.ThreadPriority get_Priority()
     // Offset: 0x1A6AA3C
-    System::Threading::ThreadPriority get_Priority();
+    ::System::Threading::ThreadPriority get_Priority();
     // public System.Void set_Priority(System.Threading.ThreadPriority value)
     // Offset: 0x1A6AA44
-    void set_Priority(System::Threading::ThreadPriority value);
+    void set_Priority(::System::Threading::ThreadPriority value);
     // public System.Boolean get_IsBackground()
     // Offset: 0x1A6AA4C
     bool get_IsBackground();
@@ -183,7 +183,7 @@ namespace HoudiniEngineUnity {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_ThreadedTask* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_ThreadedTask::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_ThreadedTask::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_ThreadedTask*, creationType>()));
     }
   }; // HoudiniEngineUnity.HEU_ThreadedTask
@@ -254,7 +254,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ThreadedTask::get_Priority
 // Il2CppName: get_Priority
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::ThreadPriority (HoudiniEngineUnity::HEU_ThreadedTask::*)()>(&HoudiniEngineUnity::HEU_ThreadedTask::get_Priority)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::ThreadPriority (HoudiniEngineUnity::HEU_ThreadedTask::*)()>(&HoudiniEngineUnity::HEU_ThreadedTask::get_Priority)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_ThreadedTask*), "get_Priority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -262,7 +262,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ThreadedTask::set_Priority
 // Il2CppName: set_Priority
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_ThreadedTask::*)(System::Threading::ThreadPriority)>(&HoudiniEngineUnity::HEU_ThreadedTask::set_Priority)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_ThreadedTask::*)(::System::Threading::ThreadPriority)>(&HoudiniEngineUnity::HEU_ThreadedTask::set_Priority)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Threading", "ThreadPriority")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_ThreadedTask*), "set_Priority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

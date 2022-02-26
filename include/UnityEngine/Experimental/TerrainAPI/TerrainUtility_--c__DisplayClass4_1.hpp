@@ -20,8 +20,8 @@ namespace UnityEngine {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Experimental::TerrainAPI::TerrainUtility::$$c__DisplayClass4_1);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::TerrainAPI::TerrainUtility::$$c__DisplayClass4_1*, "UnityEngine.Experimental.TerrainAPI", "TerrainUtility/<>c__DisplayClass4_1");
+NEED_NO_BOX(::UnityEngine::Experimental::TerrainAPI::TerrainUtility::$$c__DisplayClass4_1);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::TerrainAPI::TerrainUtility::$$c__DisplayClass4_1*, "UnityEngine.Experimental.TerrainAPI", "TerrainUtility/<>c__DisplayClass4_1");
 // Type namespace: UnityEngine.Experimental.TerrainAPI
 namespace UnityEngine::Experimental::TerrainAPI {
   // Size: 0x20
@@ -43,42 +43,42 @@ namespace UnityEngine::Experimental::TerrainAPI {
     // public UnityEngine.Terrain t
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::Terrain* t;
+    ::UnityEngine::Terrain* t;
     // Field size check
-    static_assert(sizeof(UnityEngine::Terrain*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Terrain*) == 0x8);
     // public UnityEngine.Experimental.TerrainAPI.TerrainUtility/UnityEngine.Experimental.TerrainAPI.<>c__DisplayClass4_0 CS$<>8__locals1
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::Experimental::TerrainAPI::TerrainUtility::$$c__DisplayClass4_0* CS$$$8__locals1;
+    ::UnityEngine::Experimental::TerrainAPI::TerrainUtility::$$c__DisplayClass4_0* CS$$$8__locals1;
     // Field size check
-    static_assert(sizeof(UnityEngine::Experimental::TerrainAPI::TerrainUtility::$$c__DisplayClass4_0*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Experimental::TerrainAPI::TerrainUtility::$$c__DisplayClass4_0*) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.Terrain t
-    UnityEngine::Terrain*& dyn_t();
+    ::UnityEngine::Terrain*& dyn_t();
     // Get instance field reference: public UnityEngine.Experimental.TerrainAPI.TerrainUtility/UnityEngine.Experimental.TerrainAPI.<>c__DisplayClass4_0 CS$<>8__locals1
-    UnityEngine::Experimental::TerrainAPI::TerrainUtility::$$c__DisplayClass4_0*& dyn_CS$$$8__locals1();
+    ::UnityEngine::Experimental::TerrainAPI::TerrainUtility::$$c__DisplayClass4_0*& dyn_CS$$$8__locals1();
     // System.Boolean <CollectTerrains>b__0(UnityEngine.Terrain x)
     // Offset: 0x2A28EE0
-    bool $CollectTerrains$b__0(UnityEngine::Terrain* x);
+    bool $CollectTerrains$b__0(::UnityEngine::Terrain* x);
     // public System.Void .ctor()
     // Offset: 0x2A287E8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TerrainUtility::$$c__DisplayClass4_1* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Experimental::TerrainAPI::TerrainUtility::$$c__DisplayClass4_1::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Experimental::TerrainAPI::TerrainUtility::$$c__DisplayClass4_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TerrainUtility::$$c__DisplayClass4_1*, creationType>()));
     }
   }; // UnityEngine.Experimental.TerrainAPI.TerrainUtility/UnityEngine.Experimental.TerrainAPI.<>c__DisplayClass4_1
   #pragma pack(pop)
-  static check_size<sizeof(TerrainUtility::$$c__DisplayClass4_1), 24 + sizeof(UnityEngine::Experimental::TerrainAPI::TerrainUtility::$$c__DisplayClass4_0*)> __UnityEngine_Experimental_TerrainAPI_TerrainUtility_$$c__DisplayClass4_1SizeCheck;
+  static check_size<sizeof(TerrainUtility::$$c__DisplayClass4_1), 24 + sizeof(::UnityEngine::Experimental::TerrainAPI::TerrainUtility::$$c__DisplayClass4_0*)> __UnityEngine_Experimental_TerrainAPI_TerrainUtility_$$c__DisplayClass4_1SizeCheck;
   static_assert(sizeof(TerrainUtility::$$c__DisplayClass4_1) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Experimental::TerrainAPI::TerrainUtility::$$c__DisplayClass4_1::$CollectTerrains$b__0
 // Il2CppName: <CollectTerrains>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Experimental::TerrainAPI::TerrainUtility::$$c__DisplayClass4_1::*)(UnityEngine::Terrain*)>(&UnityEngine::Experimental::TerrainAPI::TerrainUtility::$$c__DisplayClass4_1::$CollectTerrains$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Experimental::TerrainAPI::TerrainUtility::$$c__DisplayClass4_1::*)(::UnityEngine::Terrain*)>(&UnityEngine::Experimental::TerrainAPI::TerrainUtility::$$c__DisplayClass4_1::$CollectTerrains$b__0)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine", "Terrain")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::TerrainAPI::TerrainUtility::$$c__DisplayClass4_1*), "<CollectTerrains>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});

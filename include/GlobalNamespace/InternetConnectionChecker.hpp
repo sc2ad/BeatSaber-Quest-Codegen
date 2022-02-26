@@ -32,8 +32,8 @@ namespace GlobalNamespace {
   class InternetConnectionChecker;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::InternetConnectionChecker);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::InternetConnectionChecker*, "", "InternetConnectionChecker");
+NEED_NO_BOX(::GlobalNamespace::InternetConnectionChecker);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::InternetConnectionChecker*, "", "InternetConnectionChecker");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -42,18 +42,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class InternetConnectionChecker : public ::Il2CppObject {
     public:
-    // Nested type: GlobalNamespace::InternetConnectionChecker::$IsConnectedToInternetAsync$d__0
+    // Nested type: ::GlobalNamespace::InternetConnectionChecker::$IsConnectedToInternetAsync$d__0
     struct $IsConnectedToInternetAsync$d__0;
     // static public System.Threading.Tasks.Task`1<System.Boolean> IsConnectedToInternetAsync(System.Threading.CancellationToken cancellationToken)
     // Offset: 0x13AE184
-    static System::Threading::Tasks::Task_1<bool>* IsConnectedToInternetAsync(System::Threading::CancellationToken cancellationToken);
+    static ::System::Threading::Tasks::Task_1<bool>* IsConnectedToInternetAsync(::System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
     // Offset: 0x13AE284
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InternetConnectionChecker* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::InternetConnectionChecker::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::InternetConnectionChecker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InternetConnectionChecker*, creationType>()));
     }
   }; // InternetConnectionChecker
@@ -63,7 +63,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::InternetConnectionChecker::IsConnectedToInternetAsync
 // Il2CppName: IsConnectedToInternetAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<bool>* (*)(System::Threading::CancellationToken)>(&GlobalNamespace::InternetConnectionChecker::IsConnectedToInternetAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<bool>* (*)(::System::Threading::CancellationToken)>(&GlobalNamespace::InternetConnectionChecker::IsConnectedToInternetAsync)> {
   static const MethodInfo* get() {
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::InternetConnectionChecker*), "IsConnectedToInternetAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cancellationToken});

@@ -14,8 +14,8 @@ namespace System {
   class BitConverter;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::BitConverter);
-DEFINE_IL2CPP_ARG_TYPE(System::BitConverter*, "System", "BitConverter");
+NEED_NO_BOX(::System::BitConverter);
+DEFINE_IL2CPP_ARG_TYPE(::System::BitConverter*, "System", "BitConverter");
 // Type namespace: System
 namespace System {
   // Size: 0x10

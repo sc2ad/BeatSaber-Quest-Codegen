@@ -21,8 +21,8 @@ namespace System::Collections::Generic {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c__DisplayClass13_0);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c__DisplayClass13_0*, "UnityEngine.ProBuilder.MeshOperations", "UVEditing/<>c__DisplayClass13_0");
+NEED_NO_BOX(::UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c__DisplayClass13_0);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c__DisplayClass13_0*, "UnityEngine.ProBuilder.MeshOperations", "UVEditing/<>c__DisplayClass13_0");
 // Type namespace: UnityEngine.ProBuilder.MeshOperations
 namespace UnityEngine::ProBuilder::MeshOperations {
   // Size: 0x14
@@ -56,14 +56,14 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     int& dyn_b();
     // System.Boolean <SewUVs>b__0(System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> x)
     // Offset: 0x1B402E4
-    bool $SewUVs$b__0(System::Collections::Generic::KeyValuePair_2<int, int> x);
+    bool $SewUVs$b__0(::System::Collections::Generic::KeyValuePair_2<int, int> x);
     // public System.Void .ctor()
     // Offset: 0x1B3E8D4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UVEditing::$$c__DisplayClass13_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c__DisplayClass13_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c__DisplayClass13_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UVEditing::$$c__DisplayClass13_0*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.MeshOperations.UVEditing/UnityEngine.ProBuilder.MeshOperations.<>c__DisplayClass13_0
@@ -75,7 +75,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c__DisplayClass13_0::$SewUVs$b__0
 // Il2CppName: <SewUVs>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c__DisplayClass13_0::*)(System::Collections::Generic::KeyValuePair_2<int, int>)>(&UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c__DisplayClass13_0::$SewUVs$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c__DisplayClass13_0::*)(::System::Collections::Generic::KeyValuePair_2<int, int>)>(&UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c__DisplayClass13_0::$SewUVs$b__0)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "KeyValuePair`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32"), ::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c__DisplayClass13_0*), "<SewUVs>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});

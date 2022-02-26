@@ -12,8 +12,8 @@ namespace System::Linq::Expressions::Interpreter {
   class ConvertHelper;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Linq::Expressions::Interpreter::ConvertHelper);
-DEFINE_IL2CPP_ARG_TYPE(System::Linq::Expressions::Interpreter::ConvertHelper*, "System.Linq.Expressions.Interpreter", "ConvertHelper");
+NEED_NO_BOX(::System::Linq::Expressions::Interpreter::ConvertHelper);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::ConvertHelper*, "System.Linq.Expressions.Interpreter", "ConvertHelper");
 // Type namespace: System.Linq.Expressions.Interpreter
 namespace System::Linq::Expressions::Interpreter {
   // Size: 0x10

@@ -36,8 +36,8 @@ namespace UnityEngine::Timeline {
   class SignalEmitter;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Timeline::SignalEmitter);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::SignalEmitter*, "UnityEngine.Timeline", "SignalEmitter");
+NEED_NO_BOX(::UnityEngine::Timeline::SignalEmitter);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::SignalEmitter*, "UnityEngine.Timeline", "SignalEmitter");
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
   // Size: 0x38
@@ -46,7 +46,7 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   // [CustomStyleAttribute] Offset: 11F11D0
   // [ExcludeFromPresetAttribute] Offset: FFFFFFFF
-  class SignalEmitter : public UnityEngine::Timeline::Marker/*, public UnityEngine::Playables::INotification, public UnityEngine::Timeline::INotificationOptionProvider*/ {
+  class SignalEmitter : public ::UnityEngine::Timeline::Marker/*, public ::UnityEngine::Playables::INotification, public ::UnityEngine::Timeline::INotificationOptionProvider*/ {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -74,24 +74,24 @@ namespace UnityEngine::Timeline {
     // private UnityEngine.Timeline.SignalAsset m_Asset
     // Size: 0x8
     // Offset: 0x30
-    UnityEngine::Timeline::SignalAsset* m_Asset;
+    ::UnityEngine::Timeline::SignalAsset* m_Asset;
     // Field size check
-    static_assert(sizeof(UnityEngine::Timeline::SignalAsset*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Timeline::SignalAsset*) == 0x8);
     public:
-    // Creating interface conversion operator: operator UnityEngine::Playables::INotification
-    operator UnityEngine::Playables::INotification() noexcept {
-      return *reinterpret_cast<UnityEngine::Playables::INotification*>(this);
+    // Creating interface conversion operator: operator ::UnityEngine::Playables::INotification
+    operator ::UnityEngine::Playables::INotification() noexcept {
+      return *reinterpret_cast<::UnityEngine::Playables::INotification*>(this);
     }
-    // Creating interface conversion operator: operator UnityEngine::Timeline::INotificationOptionProvider
-    operator UnityEngine::Timeline::INotificationOptionProvider() noexcept {
-      return *reinterpret_cast<UnityEngine::Timeline::INotificationOptionProvider*>(this);
+    // Creating interface conversion operator: operator ::UnityEngine::Timeline::INotificationOptionProvider
+    operator ::UnityEngine::Timeline::INotificationOptionProvider() noexcept {
+      return *reinterpret_cast<::UnityEngine::Timeline::INotificationOptionProvider*>(this);
     }
     // Get instance field reference: private System.Boolean m_Retroactive
     bool& dyn_m_Retroactive();
     // Get instance field reference: private System.Boolean m_EmitOnce
     bool& dyn_m_EmitOnce();
     // Get instance field reference: private UnityEngine.Timeline.SignalAsset m_Asset
-    UnityEngine::Timeline::SignalAsset*& dyn_m_Asset();
+    ::UnityEngine::Timeline::SignalAsset*& dyn_m_Asset();
     // public System.Boolean get_retroactive()
     // Offset: 0x1CA0170
     bool get_retroactive();
@@ -106,16 +106,16 @@ namespace UnityEngine::Timeline {
     void set_emitOnce(bool value);
     // public UnityEngine.Timeline.SignalAsset get_asset()
     // Offset: 0x1CA0198
-    UnityEngine::Timeline::SignalAsset* get_asset();
+    ::UnityEngine::Timeline::SignalAsset* get_asset();
     // public System.Void set_asset(UnityEngine.Timeline.SignalAsset value)
     // Offset: 0x1CA01A0
-    void set_asset(UnityEngine::Timeline::SignalAsset* value);
+    void set_asset(::UnityEngine::Timeline::SignalAsset* value);
     // private UnityEngine.PropertyName UnityEngine.Playables.INotification.get_id()
     // Offset: 0x1CA01A8
-    UnityEngine::PropertyName UnityEngine_Playables_INotification_get_id();
+    ::UnityEngine::PropertyName UnityEngine_Playables_INotification_get_id();
     // private UnityEngine.Timeline.NotificationFlags UnityEngine.Timeline.INotificationOptionProvider.get_flags()
     // Offset: 0x1CA026C
-    UnityEngine::Timeline::NotificationFlags UnityEngine_Timeline_INotificationOptionProvider_get_flags();
+    ::UnityEngine::Timeline::NotificationFlags UnityEngine_Timeline_INotificationOptionProvider_get_flags();
     // public System.Void .ctor()
     // Offset: 0x1CA0294
     // Implemented from: UnityEngine.Timeline.Marker
@@ -125,12 +125,12 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SignalEmitter* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::SignalEmitter::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Timeline::SignalEmitter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SignalEmitter*, creationType>()));
     }
   }; // UnityEngine.Timeline.SignalEmitter
   #pragma pack(pop)
-  static check_size<sizeof(SignalEmitter), 48 + sizeof(UnityEngine::Timeline::SignalAsset*)> __UnityEngine_Timeline_SignalEmitterSizeCheck;
+  static check_size<sizeof(SignalEmitter), 48 + sizeof(::UnityEngine::Timeline::SignalAsset*)> __UnityEngine_Timeline_SignalEmitterSizeCheck;
   static_assert(sizeof(SignalEmitter) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -171,7 +171,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Timeline::SignalEmitter::get_asset
 // Il2CppName: get_asset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::SignalAsset* (UnityEngine::Timeline::SignalEmitter::*)()>(&UnityEngine::Timeline::SignalEmitter::get_asset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Timeline::SignalAsset* (UnityEngine::Timeline::SignalEmitter::*)()>(&UnityEngine::Timeline::SignalEmitter::get_asset)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalEmitter*), "get_asset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -179,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Timeline::SignalEmitter::set_asset
 // Il2CppName: set_asset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::SignalEmitter::*)(UnityEngine::Timeline::SignalAsset*)>(&UnityEngine::Timeline::SignalEmitter::set_asset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::SignalEmitter::*)(::UnityEngine::Timeline::SignalAsset*)>(&UnityEngine::Timeline::SignalEmitter::set_asset)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "SignalAsset")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalEmitter*), "set_asset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -188,7 +188,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Timeline::SignalEmitter::UnityEngine_Playables_INotification_get_id
 // Il2CppName: UnityEngine.Playables.INotification.get_id
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::PropertyName (UnityEngine::Timeline::SignalEmitter::*)()>(&UnityEngine::Timeline::SignalEmitter::UnityEngine_Playables_INotification_get_id)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::PropertyName (UnityEngine::Timeline::SignalEmitter::*)()>(&UnityEngine::Timeline::SignalEmitter::UnityEngine_Playables_INotification_get_id)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalEmitter*), "UnityEngine.Playables.INotification.get_id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -196,7 +196,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Timeline::SignalEmitter::UnityEngine_Timeline_INotificationOptionProvider_get_flags
 // Il2CppName: UnityEngine.Timeline.INotificationOptionProvider.get_flags
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::NotificationFlags (UnityEngine::Timeline::SignalEmitter::*)()>(&UnityEngine::Timeline::SignalEmitter::UnityEngine_Timeline_INotificationOptionProvider_get_flags)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Timeline::NotificationFlags (UnityEngine::Timeline::SignalEmitter::*)()>(&UnityEngine::Timeline::SignalEmitter::UnityEngine_Timeline_INotificationOptionProvider_get_flags)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalEmitter*), "UnityEngine.Timeline.INotificationOptionProvider.get_flags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

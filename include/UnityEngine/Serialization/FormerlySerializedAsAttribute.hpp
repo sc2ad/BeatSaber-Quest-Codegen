@@ -19,8 +19,8 @@ namespace UnityEngine::Serialization {
   class FormerlySerializedAsAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Serialization::FormerlySerializedAsAttribute);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Serialization::FormerlySerializedAsAttribute*, "UnityEngine.Serialization", "FormerlySerializedAsAttribute");
+NEED_NO_BOX(::UnityEngine::Serialization::FormerlySerializedAsAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Serialization::FormerlySerializedAsAttribute*, "UnityEngine.Serialization", "FormerlySerializedAsAttribute");
 // Type namespace: UnityEngine.Serialization
 namespace UnityEngine::Serialization {
   // Size: 0x18
@@ -29,7 +29,7 @@ namespace UnityEngine::Serialization {
   // [TokenAttribute] Offset: FFFFFFFF
   // [RequiredByNativeCodeAttribute] Offset: 11A6BA4
   // [AttributeUsageAttribute] Offset: 11A6BA4
-  class FormerlySerializedAsAttribute : public System::Attribute {
+  class FormerlySerializedAsAttribute : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -57,7 +57,7 @@ namespace UnityEngine::Serialization {
     // Offset: 0x20D5458
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FormerlySerializedAsAttribute* New_ctor(::StringW oldName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Serialization::FormerlySerializedAsAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Serialization::FormerlySerializedAsAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FormerlySerializedAsAttribute*, creationType>(oldName)));
     }
   }; // UnityEngine.Serialization.FormerlySerializedAsAttribute

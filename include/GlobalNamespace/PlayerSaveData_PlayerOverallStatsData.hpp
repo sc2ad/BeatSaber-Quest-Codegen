@@ -13,8 +13,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PlayerSaveData::PlayerOverallStatsData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveData::PlayerOverallStatsData*, "", "PlayerSaveData/PlayerOverallStatsData");
+NEED_NO_BOX(::GlobalNamespace::PlayerSaveData::PlayerOverallStatsData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlayerSaveData::PlayerOverallStatsData*, "", "PlayerSaveData/PlayerOverallStatsData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x48
@@ -127,7 +127,7 @@ namespace GlobalNamespace {
     // Offset: 0x13E2058
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSaveData::PlayerOverallStatsData* New_ctor(int goodCutsCount, int badCutsCount, int missedCutsCount, int64_t totalScore, int playedLevelsCount, int cleardLevelsCount, int failedLevelsCount, int fullComboCount, float timePlayed, int handDistanceTravelled, int64_t cummulativeCutScoreWithoutMultiplier) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerSaveData::PlayerOverallStatsData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSaveData::PlayerOverallStatsData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerSaveData::PlayerOverallStatsData*, creationType>(goodCutsCount, badCutsCount, missedCutsCount, totalScore, playedLevelsCount, cleardLevelsCount, failedLevelsCount, fullComboCount, timePlayed, handDistanceTravelled, cummulativeCutScoreWithoutMultiplier)));
     }
     // public System.Void .ctor()
@@ -136,7 +136,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSaveData::PlayerOverallStatsData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerSaveData::PlayerOverallStatsData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSaveData::PlayerOverallStatsData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerSaveData::PlayerOverallStatsData*, creationType>()));
     }
   }; // PlayerSaveData/PlayerOverallStatsData

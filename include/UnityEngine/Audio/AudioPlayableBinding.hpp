@@ -29,8 +29,8 @@ namespace UnityEngine::Audio {
   class AudioPlayableBinding;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Audio::AudioPlayableBinding);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Audio::AudioPlayableBinding*, "UnityEngine.Audio", "AudioPlayableBinding");
+NEED_NO_BOX(::UnityEngine::Audio::AudioPlayableBinding);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Audio::AudioPlayableBinding*, "UnityEngine.Audio", "AudioPlayableBinding");
 // Type namespace: UnityEngine.Audio
 namespace UnityEngine::Audio {
   // Size: 0x10
@@ -41,10 +41,10 @@ namespace UnityEngine::Audio {
     public:
     // static public UnityEngine.Playables.PlayableBinding Create(System.String name, UnityEngine.Object key)
     // Offset: 0x2A3D738
-    static UnityEngine::Playables::PlayableBinding Create(::StringW name, UnityEngine::Object* key);
+    static ::UnityEngine::Playables::PlayableBinding Create(::StringW name, ::UnityEngine::Object* key);
     // static private UnityEngine.Playables.PlayableOutput CreateAudioOutput(UnityEngine.Playables.PlayableGraph graph, System.String name)
     // Offset: 0x2A3D858
-    static UnityEngine::Playables::PlayableOutput CreateAudioOutput(UnityEngine::Playables::PlayableGraph graph, ::StringW name);
+    static ::UnityEngine::Playables::PlayableOutput CreateAudioOutput(::UnityEngine::Playables::PlayableGraph graph, ::StringW name);
   }; // UnityEngine.Audio.AudioPlayableBinding
   #pragma pack(pop)
 }
@@ -52,7 +52,7 @@ namespace UnityEngine::Audio {
 // Writing MetadataGetter for method: UnityEngine::Audio::AudioPlayableBinding::Create
 // Il2CppName: Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableBinding (*)(::StringW, UnityEngine::Object*)>(&UnityEngine::Audio::AudioPlayableBinding::Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::PlayableBinding (*)(::StringW, ::UnityEngine::Object*)>(&UnityEngine::Audio::AudioPlayableBinding::Create)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* key = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
@@ -62,7 +62,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Audio::AudioPlayableBinding::CreateAudioOutput
 // Il2CppName: CreateAudioOutput
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableOutput (*)(UnityEngine::Playables::PlayableGraph, ::StringW)>(&UnityEngine::Audio::AudioPlayableBinding::CreateAudioOutput)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::PlayableOutput (*)(::UnityEngine::Playables::PlayableGraph, ::StringW)>(&UnityEngine::Audio::AudioPlayableBinding::CreateAudioOutput)> {
   static const MethodInfo* get() {
     static auto* graph = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableGraph")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

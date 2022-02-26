@@ -34,8 +34,8 @@ namespace Mono::Net::Security {
   class MonoTlsProviderFactory;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Net::Security::MonoTlsProviderFactory);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::MonoTlsProviderFactory*, "Mono.Net.Security", "MonoTlsProviderFactory");
+NEED_NO_BOX(::Mono::Net::Security::MonoTlsProviderFactory);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Net::Security::MonoTlsProviderFactory*, "Mono.Net.Security", "MonoTlsProviderFactory");
 // Type namespace: Mono.Net.Security
 namespace Mono::Net::Security {
   // Size: 0x10
@@ -53,54 +53,54 @@ namespace Mono::Net::Security {
     // Set static field: static private System.Boolean initialized
     static void _set_initialized(bool value);
     // Get static field: static private Mono.Security.Interface.MonoTlsProvider defaultProvider
-    static Mono::Security::Interface::MonoTlsProvider* _get_defaultProvider();
+    static ::Mono::Security::Interface::MonoTlsProvider* _get_defaultProvider();
     // Set static field: static private Mono.Security.Interface.MonoTlsProvider defaultProvider
-    static void _set_defaultProvider(Mono::Security::Interface::MonoTlsProvider* value);
+    static void _set_defaultProvider(::Mono::Security::Interface::MonoTlsProvider* value);
     // Get static field: static private System.Collections.Generic.Dictionary`2<System.String,System.Tuple`2<System.Guid,System.String>> providerRegistration
-    static System::Collections::Generic::Dictionary_2<::StringW, System::Tuple_2<System::Guid, ::StringW>*>* _get_providerRegistration();
+    static ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Tuple_2<::System::Guid, ::StringW>*>* _get_providerRegistration();
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.String,System.Tuple`2<System.Guid,System.String>> providerRegistration
-    static void _set_providerRegistration(System::Collections::Generic::Dictionary_2<::StringW, System::Tuple_2<System::Guid, ::StringW>*>* value);
+    static void _set_providerRegistration(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Tuple_2<::System::Guid, ::StringW>*>* value);
     // Get static field: static private System.Collections.Generic.Dictionary`2<System.Guid,Mono.Security.Interface.MonoTlsProvider> providerCache
-    static System::Collections::Generic::Dictionary_2<System::Guid, Mono::Security::Interface::MonoTlsProvider*>* _get_providerCache();
+    static ::System::Collections::Generic::Dictionary_2<::System::Guid, ::Mono::Security::Interface::MonoTlsProvider*>* _get_providerCache();
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.Guid,Mono.Security.Interface.MonoTlsProvider> providerCache
-    static void _set_providerCache(System::Collections::Generic::Dictionary_2<System::Guid, Mono::Security::Interface::MonoTlsProvider*>* value);
+    static void _set_providerCache(::System::Collections::Generic::Dictionary_2<::System::Guid, ::Mono::Security::Interface::MonoTlsProvider*>* value);
     // Get static field: static readonly System.Guid UnityTlsId
-    static System::Guid _get_UnityTlsId();
+    static ::System::Guid _get_UnityTlsId();
     // Set static field: static readonly System.Guid UnityTlsId
-    static void _set_UnityTlsId(System::Guid value);
+    static void _set_UnityTlsId(::System::Guid value);
     // Get static field: static readonly System.Guid AppleTlsId
-    static System::Guid _get_AppleTlsId();
+    static ::System::Guid _get_AppleTlsId();
     // Set static field: static readonly System.Guid AppleTlsId
-    static void _set_AppleTlsId(System::Guid value);
+    static void _set_AppleTlsId(::System::Guid value);
     // Get static field: static readonly System.Guid BtlsId
-    static System::Guid _get_BtlsId();
+    static ::System::Guid _get_BtlsId();
     // Set static field: static readonly System.Guid BtlsId
-    static void _set_BtlsId(System::Guid value);
+    static void _set_BtlsId(::System::Guid value);
     // Get static field: static readonly System.Guid LegacyId
-    static System::Guid _get_LegacyId();
+    static ::System::Guid _get_LegacyId();
     // Set static field: static readonly System.Guid LegacyId
-    static void _set_LegacyId(System::Guid value);
+    static void _set_LegacyId(::System::Guid value);
     // static private System.Void .cctor()
     // Offset: 0x1A35DEC
     static void _cctor();
     // static Mono.Security.Interface.MonoTlsProvider GetProviderInternal()
     // Offset: 0x1A35024
-    static Mono::Security::Interface::MonoTlsProvider* GetProviderInternal();
+    static ::Mono::Security::Interface::MonoTlsProvider* GetProviderInternal();
     // static System.Void InitializeInternal()
     // Offset: 0x1A35120
     static void InitializeInternal();
     // static private Mono.Security.Interface.MonoTlsProvider LookupProvider(System.String name, System.Boolean throwOnError)
     // Offset: 0x1A358E0
-    static Mono::Security::Interface::MonoTlsProvider* LookupProvider(::StringW name, bool throwOnError);
+    static ::Mono::Security::Interface::MonoTlsProvider* LookupProvider(::StringW name, bool throwOnError);
     // static private System.Void InitializeProviderRegistration()
     // Offset: 0x1A35480
     static void InitializeProviderRegistration();
     // static private Mono.Security.Interface.MonoTlsProvider CreateDefaultProviderImpl()
     // Offset: 0x1A35844
-    static Mono::Security::Interface::MonoTlsProvider* CreateDefaultProviderImpl();
+    static ::Mono::Security::Interface::MonoTlsProvider* CreateDefaultProviderImpl();
     // static Mono.Security.Interface.MonoTlsProvider GetProvider()
     // Offset: 0x1A30E64
-    static Mono::Security::Interface::MonoTlsProvider* GetProvider();
+    static ::Mono::Security::Interface::MonoTlsProvider* GetProvider();
   }; // Mono.Net.Security.MonoTlsProviderFactory
   #pragma pack(pop)
 }
@@ -116,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Mono::Net::Security::MonoTlsProviderFactory::GetProviderInternal
 // Il2CppName: GetProviderInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::MonoTlsProvider* (*)()>(&Mono::Net::Security::MonoTlsProviderFactory::GetProviderInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::Interface::MonoTlsProvider* (*)()>(&Mono::Net::Security::MonoTlsProviderFactory::GetProviderInternal)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MonoTlsProviderFactory*), "GetProviderInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -132,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Mono::Net::Security::MonoTlsProviderFactory::LookupProvider
 // Il2CppName: LookupProvider
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::MonoTlsProvider* (*)(::StringW, bool)>(&Mono::Net::Security::MonoTlsProviderFactory::LookupProvider)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::Interface::MonoTlsProvider* (*)(::StringW, bool)>(&Mono::Net::Security::MonoTlsProviderFactory::LookupProvider)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* throwOnError = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -150,7 +150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Mono::Net::Security::MonoTlsProviderFactory::CreateDefaultProviderImpl
 // Il2CppName: CreateDefaultProviderImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::MonoTlsProvider* (*)()>(&Mono::Net::Security::MonoTlsProviderFactory::CreateDefaultProviderImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::Interface::MonoTlsProvider* (*)()>(&Mono::Net::Security::MonoTlsProviderFactory::CreateDefaultProviderImpl)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MonoTlsProviderFactory*), "CreateDefaultProviderImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -158,7 +158,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 // Writing MetadataGetter for method: Mono::Net::Security::MonoTlsProviderFactory::GetProvider
 // Il2CppName: GetProvider
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::MonoTlsProvider* (*)()>(&Mono::Net::Security::MonoTlsProviderFactory::GetProvider)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::Interface::MonoTlsProvider* (*)()>(&Mono::Net::Security::MonoTlsProviderFactory::GetProvider)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MonoTlsProviderFactory*), "GetProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

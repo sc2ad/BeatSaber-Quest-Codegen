@@ -31,8 +31,8 @@ namespace System::Text {
   class Encoder;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Text::Encoder);
-DEFINE_IL2CPP_ARG_TYPE(System::Text::Encoder*, "System.Text", "Encoder");
+NEED_NO_BOX(::System::Text::Encoder);
+DEFINE_IL2CPP_ARG_TYPE(::System::Text::Encoder*, "System.Text", "Encoder");
 // Type namespace: System.Text
 namespace System::Text {
   // Size: 0x20
@@ -54,32 +54,32 @@ namespace System::Text {
     // System.Text.EncoderFallback m_fallback
     // Size: 0x8
     // Offset: 0x10
-    System::Text::EncoderFallback* m_fallback;
+    ::System::Text::EncoderFallback* m_fallback;
     // Field size check
-    static_assert(sizeof(System::Text::EncoderFallback*) == 0x8);
+    static_assert(sizeof(::System::Text::EncoderFallback*) == 0x8);
     // System.Text.EncoderFallbackBuffer m_fallbackBuffer
     // Size: 0x8
     // Offset: 0x18
-    System::Text::EncoderFallbackBuffer* m_fallbackBuffer;
+    ::System::Text::EncoderFallbackBuffer* m_fallbackBuffer;
     // Field size check
-    static_assert(sizeof(System::Text::EncoderFallbackBuffer*) == 0x8);
+    static_assert(sizeof(::System::Text::EncoderFallbackBuffer*) == 0x8);
     public:
     // Get instance field reference: System.Text.EncoderFallback m_fallback
-    System::Text::EncoderFallback*& dyn_m_fallback();
+    ::System::Text::EncoderFallback*& dyn_m_fallback();
     // Get instance field reference: System.Text.EncoderFallbackBuffer m_fallbackBuffer
-    System::Text::EncoderFallbackBuffer*& dyn_m_fallbackBuffer();
+    ::System::Text::EncoderFallbackBuffer*& dyn_m_fallbackBuffer();
     // public System.Text.EncoderFallback get_Fallback()
     // Offset: 0x1F9F224
-    System::Text::EncoderFallback* get_Fallback();
+    ::System::Text::EncoderFallback* get_Fallback();
     // public System.Text.EncoderFallbackBuffer get_FallbackBuffer()
     // Offset: 0x1F9F22C
-    System::Text::EncoderFallbackBuffer* get_FallbackBuffer();
+    ::System::Text::EncoderFallbackBuffer* get_FallbackBuffer();
     // System.Boolean get_InternalHasFallbackBuffer()
     // Offset: 0x1F9F39C
     bool get_InternalHasFallbackBuffer();
     // System.Void SerializeEncoder(System.Runtime.Serialization.SerializationInfo info)
     // Offset: 0x1F9F1B0
-    void SerializeEncoder(System::Runtime::Serialization::SerializationInfo* info);
+    void SerializeEncoder(::System::Runtime::Serialization::SerializationInfo* info);
     // public System.Void Reset()
     // Offset: 0x1F9F3AC
     void Reset();
@@ -107,19 +107,19 @@ namespace System::Text {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Encoder* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::Encoder::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::Encoder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Encoder*, creationType>()));
     }
   }; // System.Text.Encoder
   #pragma pack(pop)
-  static check_size<sizeof(Encoder), 24 + sizeof(System::Text::EncoderFallbackBuffer*)> __System_Text_EncoderSizeCheck;
+  static check_size<sizeof(Encoder), 24 + sizeof(::System::Text::EncoderFallbackBuffer*)> __System_Text_EncoderSizeCheck;
   static_assert(sizeof(Encoder) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::Encoder::get_Fallback
 // Il2CppName: get_Fallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::EncoderFallback* (System::Text::Encoder::*)()>(&System::Text::Encoder::get_Fallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::EncoderFallback* (System::Text::Encoder::*)()>(&System::Text::Encoder::get_Fallback)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Text::Encoder*), "get_Fallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -127,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::Encoder::get_FallbackBuffer
 // Il2CppName: get_FallbackBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::EncoderFallbackBuffer* (System::Text::Encoder::*)()>(&System::Text::Encoder::get_FallbackBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::EncoderFallbackBuffer* (System::Text::Encoder::*)()>(&System::Text::Encoder::get_FallbackBuffer)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Text::Encoder*), "get_FallbackBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -143,7 +143,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Text::Encoder::SerializeEncoder
 // Il2CppName: SerializeEncoder
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::Encoder::*)(System::Runtime::Serialization::SerializationInfo*)>(&System::Text::Encoder::SerializeEncoder)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::Encoder::*)(::System::Runtime::Serialization::SerializationInfo*)>(&System::Text::Encoder::SerializeEncoder)> {
   static const MethodInfo* get() {
     static auto* info = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::Encoder*), "SerializeEncoder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{info});

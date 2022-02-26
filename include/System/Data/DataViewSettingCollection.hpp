@@ -28,8 +28,8 @@ namespace System::Data {
   class DataViewSettingCollection;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Data::DataViewSettingCollection);
-DEFINE_IL2CPP_ARG_TYPE(System::Data::DataViewSettingCollection*, "System.Data", "DataViewSettingCollection");
+NEED_NO_BOX(::System::Data::DataViewSettingCollection);
+DEFINE_IL2CPP_ARG_TYPE(::System::Data::DataViewSettingCollection*, "System.Data", "DataViewSettingCollection");
 // Type namespace: System.Data
 namespace System::Data {
   // Size: 0x20
@@ -51,39 +51,39 @@ namespace System::Data {
     // private readonly System.Data.DataViewManager _dataViewManager
     // Size: 0x8
     // Offset: 0x10
-    System::Data::DataViewManager* dataViewManager;
+    ::System::Data::DataViewManager* dataViewManager;
     // Field size check
-    static_assert(sizeof(System::Data::DataViewManager*) == 0x8);
+    static_assert(sizeof(::System::Data::DataViewManager*) == 0x8);
     // private readonly System.Collections.Hashtable _list
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::Hashtable* list;
+    ::System::Collections::Hashtable* list;
     // Field size check
-    static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
+    static_assert(sizeof(::System::Collections::Hashtable*) == 0x8);
     public:
     // Get instance field reference: private readonly System.Data.DataViewManager _dataViewManager
-    System::Data::DataViewManager*& dyn__dataViewManager();
+    ::System::Data::DataViewManager*& dyn__dataViewManager();
     // Get instance field reference: private readonly System.Collections.Hashtable _list
-    System::Collections::Hashtable*& dyn__list();
+    ::System::Collections::Hashtable*& dyn__list();
     // public System.Data.DataViewSetting get_Item(System.Data.DataTable table)
     // Offset: 0x1CC708C
-    System::Data::DataViewSetting* get_Item(System::Data::DataTable* table);
+    ::System::Data::DataViewSetting* get_Item(::System::Data::DataTable* table);
     // public System.Void set_Item(System.Data.DataTable table, System.Data.DataViewSetting value)
     // Offset: 0x1CC718C
-    void set_Item(System::Data::DataTable* table, System::Data::DataViewSetting* value);
+    void set_Item(::System::Data::DataTable* table, ::System::Data::DataViewSetting* value);
     // System.Void Remove(System.Data.DataTable table)
     // Offset: 0x1CC7248
-    void Remove(System::Data::DataTable* table);
+    void Remove(::System::Data::DataTable* table);
   }; // System.Data.DataViewSettingCollection
   #pragma pack(pop)
-  static check_size<sizeof(DataViewSettingCollection), 24 + sizeof(System::Collections::Hashtable*)> __System_Data_DataViewSettingCollectionSizeCheck;
+  static check_size<sizeof(DataViewSettingCollection), 24 + sizeof(::System::Collections::Hashtable*)> __System_Data_DataViewSettingCollectionSizeCheck;
   static_assert(sizeof(DataViewSettingCollection) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Data::DataViewSettingCollection::get_Item
 // Il2CppName: get_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::DataViewSetting* (System::Data::DataViewSettingCollection::*)(System::Data::DataTable*)>(&System::Data::DataViewSettingCollection::get_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataViewSetting* (System::Data::DataViewSettingCollection::*)(::System::Data::DataTable*)>(&System::Data::DataViewSettingCollection::get_Item)> {
   static const MethodInfo* get() {
     static auto* table = &::il2cpp_utils::GetClassFromName("System.Data", "DataTable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataViewSettingCollection*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{table});
@@ -92,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::DataViewSettingCollection::set_Item
 // Il2CppName: set_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataViewSettingCollection::*)(System::Data::DataTable*, System::Data::DataViewSetting*)>(&System::Data::DataViewSettingCollection::set_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataViewSettingCollection::*)(::System::Data::DataTable*, ::System::Data::DataViewSetting*)>(&System::Data::DataViewSettingCollection::set_Item)> {
   static const MethodInfo* get() {
     static auto* table = &::il2cpp_utils::GetClassFromName("System.Data", "DataTable")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Data", "DataViewSetting")->byval_arg;
@@ -102,7 +102,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataViewSettingCollection::Remove
 // Il2CppName: Remove
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataViewSettingCollection::*)(System::Data::DataTable*)>(&System::Data::DataViewSettingCollection::Remove)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataViewSettingCollection::*)(::System::Data::DataTable*)>(&System::Data::DataViewSettingCollection::Remove)> {
   static const MethodInfo* get() {
     static auto* table = &::il2cpp_utils::GetClassFromName("System.Data", "DataTable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataViewSettingCollection*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{table});

@@ -23,8 +23,8 @@ namespace UnityEngine {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo*, "", "CentralLeaderboardViewController/ScoreScopeInfo");
+NEED_NO_BOX(::GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo*, "", "CentralLeaderboardViewController/ScoreScopeInfo");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x2C
@@ -45,9 +45,9 @@ namespace GlobalNamespace {
     // public OnlineServices.ScoresScope scoreScope
     // Size: 0x4
     // Offset: 0x10
-    OnlineServices::ScoresScope scoreScope;
+    ::OnlineServices::ScoresScope scoreScope;
     // Field size check
-    static_assert(sizeof(OnlineServices::ScoresScope) == 0x4);
+    static_assert(sizeof(::OnlineServices::ScoresScope) == 0x4);
     // Padding between fields: scoreScope and: localizedTitle
     char __padding0[0x4] = {};
     // public System.String localizedTitle
@@ -59,9 +59,9 @@ namespace GlobalNamespace {
     // public UnityEngine.Sprite icon
     // Size: 0x8
     // Offset: 0x20
-    UnityEngine::Sprite* icon;
+    ::UnityEngine::Sprite* icon;
     // Field size check
-    static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Sprite*) == 0x8);
     // public System.Int32 playerScorePos
     // Size: 0x4
     // Offset: 0x28
@@ -70,18 +70,18 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public OnlineServices.ScoresScope scoreScope
-    OnlineServices::ScoresScope& dyn_scoreScope();
+    ::OnlineServices::ScoresScope& dyn_scoreScope();
     // Get instance field reference: public System.String localizedTitle
     ::StringW& dyn_localizedTitle();
     // Get instance field reference: public UnityEngine.Sprite icon
-    UnityEngine::Sprite*& dyn_icon();
+    ::UnityEngine::Sprite*& dyn_icon();
     // Get instance field reference: public System.Int32 playerScorePos
     int& dyn_playerScorePos();
     // public System.Void .ctor(OnlineServices.ScoresScope scoreScope, UnityEngine.Sprite icon, System.String localizedTitle)
     // Offset: 0x13BC7B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CentralLeaderboardViewController::ScoreScopeInfo* New_ctor(OnlineServices::ScoresScope scoreScope, UnityEngine::Sprite* icon, ::StringW localizedTitle) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo::.ctor");
+    static CentralLeaderboardViewController::ScoreScopeInfo* New_ctor(::OnlineServices::ScoresScope scoreScope, ::UnityEngine::Sprite* icon, ::StringW localizedTitle) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CentralLeaderboardViewController::ScoreScopeInfo*, creationType>(scoreScope, icon, localizedTitle)));
     }
   }; // CentralLeaderboardViewController/ScoreScopeInfo

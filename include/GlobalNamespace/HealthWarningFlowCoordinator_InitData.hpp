@@ -20,8 +20,8 @@ namespace GlobalNamespace {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::HealthWarningFlowCoordinator::InitData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HealthWarningFlowCoordinator::InitData*, "", "HealthWarningFlowCoordinator/InitData");
+NEED_NO_BOX(::GlobalNamespace::HealthWarningFlowCoordinator::InitData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::HealthWarningFlowCoordinator::InitData*, "", "HealthWarningFlowCoordinator/InitData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -42,26 +42,26 @@ namespace GlobalNamespace {
     // public readonly ScenesTransitionSetupDataSO nextScenesTransitionSetupData
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData;
+    ::GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::ScenesTransitionSetupDataSO*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::ScenesTransitionSetupDataSO*) == 0x8);
     public:
-    // Creating conversion operator: operator GlobalNamespace::ScenesTransitionSetupDataSO*
-    constexpr operator GlobalNamespace::ScenesTransitionSetupDataSO*() const noexcept {
+    // Creating conversion operator: operator ::GlobalNamespace::ScenesTransitionSetupDataSO*
+    constexpr operator ::GlobalNamespace::ScenesTransitionSetupDataSO*() const noexcept {
       return nextScenesTransitionSetupData;
     }
     // Get instance field reference: public readonly ScenesTransitionSetupDataSO nextScenesTransitionSetupData
-    GlobalNamespace::ScenesTransitionSetupDataSO*& dyn_nextScenesTransitionSetupData();
+    ::GlobalNamespace::ScenesTransitionSetupDataSO*& dyn_nextScenesTransitionSetupData();
     // public System.Void .ctor(ScenesTransitionSetupDataSO nextScenesTransitionSetupData)
     // Offset: 0x13AA9B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static HealthWarningFlowCoordinator::InitData* New_ctor(GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::HealthWarningFlowCoordinator::InitData::.ctor");
+    static HealthWarningFlowCoordinator::InitData* New_ctor(::GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HealthWarningFlowCoordinator::InitData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HealthWarningFlowCoordinator::InitData*, creationType>(nextScenesTransitionSetupData)));
     }
   }; // HealthWarningFlowCoordinator/InitData
   #pragma pack(pop)
-  static check_size<sizeof(HealthWarningFlowCoordinator::InitData), 16 + sizeof(GlobalNamespace::ScenesTransitionSetupDataSO*)> __GlobalNamespace_HealthWarningFlowCoordinator_InitDataSizeCheck;
+  static check_size<sizeof(HealthWarningFlowCoordinator::InitData), 16 + sizeof(::GlobalNamespace::ScenesTransitionSetupDataSO*)> __GlobalNamespace_HealthWarningFlowCoordinator_InitDataSizeCheck;
   static_assert(sizeof(HealthWarningFlowCoordinator::InitData) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -14,8 +14,8 @@ namespace System::ComponentModel {
   class IExtenderProvider;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::ComponentModel::IExtenderProvider);
-DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::IExtenderProvider*, "System.ComponentModel", "IExtenderProvider");
+NEED_NO_BOX(::System::ComponentModel::IExtenderProvider);
+DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::IExtenderProvider*, "System.ComponentModel", "IExtenderProvider");
 // Type namespace: System.ComponentModel
 namespace System::ComponentModel {
   // Size: 0x10

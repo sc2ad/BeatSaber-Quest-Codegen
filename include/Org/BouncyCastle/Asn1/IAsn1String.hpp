@@ -12,8 +12,8 @@ namespace Org::BouncyCastle::Asn1 {
   class IAsn1String;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Asn1::IAsn1String);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::IAsn1String*, "Org.BouncyCastle.Asn1", "IAsn1String");
+NEED_NO_BOX(::Org::BouncyCastle::Asn1::IAsn1String);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::IAsn1String*, "Org.BouncyCastle.Asn1", "IAsn1String");
 // Type namespace: Org.BouncyCastle.Asn1
 namespace Org::BouncyCastle::Asn1 {
   // Size: 0x10

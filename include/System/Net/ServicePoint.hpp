@@ -67,8 +67,8 @@ namespace System::Net {
   class ServicePoint;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::ServicePoint);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::ServicePoint*, "System.Net", "ServicePoint");
+NEED_NO_BOX(::System::Net::ServicePoint);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::ServicePoint*, "System.Net", "ServicePoint");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0xA0
@@ -89,9 +89,9 @@ namespace System::Net {
     // private readonly System.Uri uri
     // Size: 0x8
     // Offset: 0x10
-    System::Uri* uri;
+    ::System::Uri* uri;
     // Field size check
-    static_assert(sizeof(System::Uri*) == 0x8);
+    static_assert(sizeof(::System::Uri*) == 0x8);
     // private System.Int32 connectionLimit
     // Size: 0x4
     // Offset: 0x18
@@ -115,27 +115,27 @@ namespace System::Net {
     // private System.DateTime idleSince
     // Size: 0x8
     // Offset: 0x28
-    System::DateTime idleSince;
+    ::System::DateTime idleSince;
     // Field size check
-    static_assert(sizeof(System::DateTime) == 0x8);
+    static_assert(sizeof(::System::DateTime) == 0x8);
     // private System.DateTime lastDnsResolve
     // Size: 0x8
     // Offset: 0x30
-    System::DateTime lastDnsResolve;
+    ::System::DateTime lastDnsResolve;
     // Field size check
-    static_assert(sizeof(System::DateTime) == 0x8);
+    static_assert(sizeof(::System::DateTime) == 0x8);
     // private System.Version protocolVersion
     // Size: 0x8
     // Offset: 0x38
-    System::Version* protocolVersion;
+    ::System::Version* protocolVersion;
     // Field size check
-    static_assert(sizeof(System::Version*) == 0x8);
+    static_assert(sizeof(::System::Version*) == 0x8);
     // private System.Net.IPHostEntry host
     // Size: 0x8
     // Offset: 0x40
-    System::Net::IPHostEntry* host;
+    ::System::Net::IPHostEntry* host;
     // Field size check
-    static_assert(sizeof(System::Net::IPHostEntry*) == 0x8);
+    static_assert(sizeof(::System::Net::IPHostEntry*) == 0x8);
     // private System.Boolean usesProxy
     // Size: 0x1
     // Offset: 0x48
@@ -147,9 +147,9 @@ namespace System::Net {
     // private System.Collections.Generic.Dictionary`2<System.String,System.Net.WebConnectionGroup> groups
     // Size: 0x8
     // Offset: 0x50
-    System::Collections::Generic::Dictionary_2<::StringW, System::Net::WebConnectionGroup*>* groups;
+    ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Net::WebConnectionGroup*>* groups;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, System::Net::WebConnectionGroup*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Net::WebConnectionGroup*>*) == 0x8);
     // private System.Boolean sendContinue
     // Size: 0x1
     // Offset: 0x58
@@ -181,9 +181,9 @@ namespace System::Net {
     // private System.Net.BindIPEndPoint endPointCallback
     // Size: 0x8
     // Offset: 0x70
-    System::Net::BindIPEndPoint* endPointCallback;
+    ::System::Net::BindIPEndPoint* endPointCallback;
     // Field size check
-    static_assert(sizeof(System::Net::BindIPEndPoint*) == 0x8);
+    static_assert(sizeof(::System::Net::BindIPEndPoint*) == 0x8);
     // private System.Boolean tcp_keepalive
     // Size: 0x1
     // Offset: 0x78
@@ -209,9 +209,9 @@ namespace System::Net {
     // private System.Threading.Timer idleTimer
     // Size: 0x8
     // Offset: 0x88
-    System::Threading::Timer* idleTimer;
+    ::System::Threading::Timer* idleTimer;
     // Field size check
-    static_assert(sizeof(System::Threading::Timer*) == 0x8);
+    static_assert(sizeof(::System::Threading::Timer*) == 0x8);
     // private System.Object m_ServerCertificateOrBytes
     // Size: 0x8
     // Offset: 0x90
@@ -226,7 +226,7 @@ namespace System::Net {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     public:
     // Get instance field reference: private readonly System.Uri uri
-    System::Uri*& dyn_uri();
+    ::System::Uri*& dyn_uri();
     // Get instance field reference: private System.Int32 connectionLimit
     int& dyn_connectionLimit();
     // Get instance field reference: private System.Int32 maxIdleTime
@@ -234,17 +234,17 @@ namespace System::Net {
     // Get instance field reference: private System.Int32 currentConnections
     int& dyn_currentConnections();
     // Get instance field reference: private System.DateTime idleSince
-    System::DateTime& dyn_idleSince();
+    ::System::DateTime& dyn_idleSince();
     // Get instance field reference: private System.DateTime lastDnsResolve
-    System::DateTime& dyn_lastDnsResolve();
+    ::System::DateTime& dyn_lastDnsResolve();
     // Get instance field reference: private System.Version protocolVersion
-    System::Version*& dyn_protocolVersion();
+    ::System::Version*& dyn_protocolVersion();
     // Get instance field reference: private System.Net.IPHostEntry host
-    System::Net::IPHostEntry*& dyn_host();
+    ::System::Net::IPHostEntry*& dyn_host();
     // Get instance field reference: private System.Boolean usesProxy
     bool& dyn_usesProxy();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.Net.WebConnectionGroup> groups
-    System::Collections::Generic::Dictionary_2<::StringW, System::Net::WebConnectionGroup*>*& dyn_groups();
+    ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Net::WebConnectionGroup*>*& dyn_groups();
     // Get instance field reference: private System.Boolean sendContinue
     bool& dyn_sendContinue();
     // Get instance field reference: private System.Boolean useConnect
@@ -254,7 +254,7 @@ namespace System::Net {
     // Get instance field reference: private System.Boolean useNagle
     bool& dyn_useNagle();
     // Get instance field reference: private System.Net.BindIPEndPoint endPointCallback
-    System::Net::BindIPEndPoint*& dyn_endPointCallback();
+    ::System::Net::BindIPEndPoint*& dyn_endPointCallback();
     // Get instance field reference: private System.Boolean tcp_keepalive
     bool& dyn_tcp_keepalive();
     // Get instance field reference: private System.Int32 tcp_keepalive_time
@@ -262,20 +262,20 @@ namespace System::Net {
     // Get instance field reference: private System.Int32 tcp_keepalive_interval
     int& dyn_tcp_keepalive_interval();
     // Get instance field reference: private System.Threading.Timer idleTimer
-    System::Threading::Timer*& dyn_idleTimer();
+    ::System::Threading::Timer*& dyn_idleTimer();
     // Get instance field reference: private System.Object m_ServerCertificateOrBytes
     ::Il2CppObject*& dyn_m_ServerCertificateOrBytes();
     // Get instance field reference: private System.Object m_ClientCertificateOrBytes
     ::Il2CppObject*& dyn_m_ClientCertificateOrBytes();
     // public System.Uri get_Address()
     // Offset: 0x17B2D04
-    System::Uri* get_Address();
+    ::System::Uri* get_Address();
     // public System.Int32 get_ConnectionLimit()
     // Offset: 0x17B2D0C
     int get_ConnectionLimit();
     // public System.Version get_ProtocolVersion()
     // Offset: 0x17B2D14
-    System::Version* get_ProtocolVersion();
+    ::System::Version* get_ProtocolVersion();
     // public System.Void set_Expect100Continue(System.Boolean value)
     // Offset: 0x17B2D1C
     void set_Expect100Continue(bool value);
@@ -308,12 +308,12 @@ namespace System::Net {
     bool get_HasTimedOut();
     // System.Net.IPHostEntry get_HostEntry()
     // Offset: 0x17B3A80
-    System::Net::IPHostEntry* get_HostEntry();
+    ::System::Net::IPHostEntry* get_HostEntry();
     // System.Void .ctor(System.Uri uri, System.Int32 connectionLimit, System.Int32 maxIdleTime)
     // Offset: 0x17B2C3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ServicePoint* New_ctor(System::Uri* uri, int connectionLimit, int maxIdleTime) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::ServicePoint::.ctor");
+    static ServicePoint* New_ctor(::System::Uri* uri, int connectionLimit, int maxIdleTime) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::ServicePoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ServicePoint*, creationType>(uri, connectionLimit, maxIdleTime)));
     }
     // public System.Void SetTcpKeepAlive(System.Boolean enabled, System.Int32 keepAliveTime, System.Int32 keepAliveInterval)
@@ -321,43 +321,43 @@ namespace System::Net {
     void SetTcpKeepAlive(bool enabled, int keepAliveTime, int keepAliveInterval);
     // System.Void KeepAliveSetup(System.Net.Sockets.Socket socket)
     // Offset: 0x17B2F24
-    void KeepAliveSetup(System::Net::Sockets::Socket* socket);
+    void KeepAliveSetup(::System::Net::Sockets::Socket* socket);
     // static private System.Void PutBytes(System.Byte[] bytes, System.UInt32 v, System.Int32 offset)
     // Offset: 0x17B2FEC
     static void PutBytes(::ArrayW<uint8_t> bytes, uint v, int offset);
     // private System.Net.WebConnectionGroup GetConnectionGroup(System.String name)
     // Offset: 0x17B3170
-    System::Net::WebConnectionGroup* GetConnectionGroup(::StringW name);
+    ::System::Net::WebConnectionGroup* GetConnectionGroup(::StringW name);
     // private System.Void RemoveConnectionGroup(System.Net.WebConnectionGroup group)
     // Offset: 0x17B32C0
-    void RemoveConnectionGroup(System::Net::WebConnectionGroup* group);
+    void RemoveConnectionGroup(::System::Net::WebConnectionGroup* group);
     // private System.Boolean CheckAvailableForRecycling(out System.DateTime outIdleSince)
     // Offset: 0x17B3378
-    bool CheckAvailableForRecycling(ByRef<System::DateTime> outIdleSince);
+    bool CheckAvailableForRecycling(ByRef<::System::DateTime> outIdleSince);
     // private System.Void IdleTimerCallback(System.Object obj)
     // Offset: 0x17B3910
     void IdleTimerCallback(::Il2CppObject* obj);
     // System.Void SetVersion(System.Version version)
     // Offset: 0x17B3E00
-    void SetVersion(System::Version* version);
+    void SetVersion(::System::Version* version);
     // System.EventHandler SendRequest(System.Net.HttpWebRequest request, System.String groupName)
     // Offset: 0x17A2014
-    System::EventHandler* SendRequest(System::Net::HttpWebRequest* request, ::StringW groupName);
+    ::System::EventHandler* SendRequest(::System::Net::HttpWebRequest* request, ::StringW groupName);
     // public System.Boolean CloseConnectionGroup(System.String connectionGroupName)
     // Offset: 0x17B3E08
     bool CloseConnectionGroup(::StringW connectionGroupName);
     // System.Void UpdateServerCertificate(System.Security.Cryptography.X509Certificates.X509Certificate certificate)
     // Offset: 0x17B3ECC
-    void UpdateServerCertificate(System::Security::Cryptography::X509Certificates::X509Certificate* certificate);
+    void UpdateServerCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate* certificate);
     // System.Void UpdateClientCertificate(System.Security.Cryptography.X509Certificates.X509Certificate certificate)
     // Offset: 0x17B3F0C
-    void UpdateClientCertificate(System::Security::Cryptography::X509Certificates::X509Certificate* certificate);
+    void UpdateClientCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate* certificate);
     // System.Boolean CallEndPointDelegate(System.Net.Sockets.Socket sock, System.Net.IPEndPoint remote)
     // Offset: 0x17B3F4C
-    bool CallEndPointDelegate(System::Net::Sockets::Socket* sock, System::Net::IPEndPoint* remote);
+    bool CallEndPointDelegate(::System::Net::Sockets::Socket* sock, ::System::Net::IPEndPoint* remote);
     // private System.Void <GetConnectionGroup>b__66_0(System.Object s, System.EventArgs e)
     // Offset: 0x17B4100
-    void $GetConnectionGroup$b__66_0(::Il2CppObject* s, System::EventArgs* e);
+    void $GetConnectionGroup$b__66_0(::Il2CppObject* s, ::System::EventArgs* e);
   }; // System.Net.ServicePoint
   #pragma pack(pop)
   static check_size<sizeof(ServicePoint), 152 + sizeof(::Il2CppObject*)> __System_Net_ServicePointSizeCheck;
@@ -367,7 +367,7 @@ namespace System::Net {
 // Writing MetadataGetter for method: System::Net::ServicePoint::get_Address
 // Il2CppName: get_Address
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (System::Net::ServicePoint::*)()>(&System::Net::ServicePoint::get_Address)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Uri* (System::Net::ServicePoint::*)()>(&System::Net::ServicePoint::get_Address)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::ServicePoint*), "get_Address", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -383,7 +383,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Net::ServicePoint::get_ProtocolVersion
 // Il2CppName: get_ProtocolVersion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Version* (System::Net::ServicePoint::*)()>(&System::Net::ServicePoint::get_ProtocolVersion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Version* (System::Net::ServicePoint::*)()>(&System::Net::ServicePoint::get_ProtocolVersion)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::ServicePoint*), "get_ProtocolVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -476,7 +476,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Net::ServicePoint::get_HostEntry
 // Il2CppName: get_HostEntry
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPHostEntry* (System::Net::ServicePoint::*)()>(&System::Net::ServicePoint::get_HostEntry)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::IPHostEntry* (System::Net::ServicePoint::*)()>(&System::Net::ServicePoint::get_HostEntry)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::ServicePoint*), "get_HostEntry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -499,7 +499,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::ServicePoint::KeepAliveSetup
 // Il2CppName: KeepAliveSetup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::ServicePoint::*)(System::Net::Sockets::Socket*)>(&System::Net::ServicePoint::KeepAliveSetup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::ServicePoint::*)(::System::Net::Sockets::Socket*)>(&System::Net::ServicePoint::KeepAliveSetup)> {
   static const MethodInfo* get() {
     static auto* socket = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "Socket")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::ServicePoint*), "KeepAliveSetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{socket});
@@ -519,7 +519,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::Net::ServicePoint::GetConnectionGroup
 // Il2CppName: GetConnectionGroup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebConnectionGroup* (System::Net::ServicePoint::*)(::StringW)>(&System::Net::ServicePoint::GetConnectionGroup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::WebConnectionGroup* (System::Net::ServicePoint::*)(::StringW)>(&System::Net::ServicePoint::GetConnectionGroup)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::ServicePoint*), "GetConnectionGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -528,7 +528,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Writing MetadataGetter for method: System::Net::ServicePoint::RemoveConnectionGroup
 // Il2CppName: RemoveConnectionGroup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::ServicePoint::*)(System::Net::WebConnectionGroup*)>(&System::Net::ServicePoint::RemoveConnectionGroup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::ServicePoint::*)(::System::Net::WebConnectionGroup*)>(&System::Net::ServicePoint::RemoveConnectionGroup)> {
   static const MethodInfo* get() {
     static auto* group = &::il2cpp_utils::GetClassFromName("System.Net", "WebConnectionGroup")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::ServicePoint*), "RemoveConnectionGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{group});
@@ -537,7 +537,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::ServicePoint::CheckAvailableForRecycling
 // Il2CppName: CheckAvailableForRecycling
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::ServicePoint::*)(ByRef<System::DateTime>)>(&System::Net::ServicePoint::CheckAvailableForRecycling)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::ServicePoint::*)(ByRef<::System::DateTime>)>(&System::Net::ServicePoint::CheckAvailableForRecycling)> {
   static const MethodInfo* get() {
     static auto* outIdleSince = &::il2cpp_utils::GetClassFromName("System", "DateTime")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::ServicePoint*), "CheckAvailableForRecycling", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{outIdleSince});
@@ -555,7 +555,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::ServicePoint::SetVersion
 // Il2CppName: SetVersion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::ServicePoint::*)(System::Version*)>(&System::Net::ServicePoint::SetVersion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::ServicePoint::*)(::System::Version*)>(&System::Net::ServicePoint::SetVersion)> {
   static const MethodInfo* get() {
     static auto* version = &::il2cpp_utils::GetClassFromName("System", "Version")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::ServicePoint*), "SetVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{version});
@@ -564,7 +564,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::ServicePoint::SendRequest
 // Il2CppName: SendRequest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::EventHandler* (System::Net::ServicePoint::*)(System::Net::HttpWebRequest*, ::StringW)>(&System::Net::ServicePoint::SendRequest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::EventHandler* (System::Net::ServicePoint::*)(::System::Net::HttpWebRequest*, ::StringW)>(&System::Net::ServicePoint::SendRequest)> {
   static const MethodInfo* get() {
     static auto* request = &::il2cpp_utils::GetClassFromName("System.Net", "HttpWebRequest")->byval_arg;
     static auto* groupName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -583,7 +583,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Net::ServicePoint::UpdateServerCertificate
 // Il2CppName: UpdateServerCertificate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::ServicePoint::*)(System::Security::Cryptography::X509Certificates::X509Certificate*)>(&System::Net::ServicePoint::UpdateServerCertificate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::ServicePoint::*)(::System::Security::Cryptography::X509Certificates::X509Certificate*)>(&System::Net::ServicePoint::UpdateServerCertificate)> {
   static const MethodInfo* get() {
     static auto* certificate = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509Certificate")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::ServicePoint*), "UpdateServerCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{certificate});
@@ -592,7 +592,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::ServicePoint::UpdateClientCertificate
 // Il2CppName: UpdateClientCertificate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::ServicePoint::*)(System::Security::Cryptography::X509Certificates::X509Certificate*)>(&System::Net::ServicePoint::UpdateClientCertificate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::ServicePoint::*)(::System::Security::Cryptography::X509Certificates::X509Certificate*)>(&System::Net::ServicePoint::UpdateClientCertificate)> {
   static const MethodInfo* get() {
     static auto* certificate = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509Certificate")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::ServicePoint*), "UpdateClientCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{certificate});
@@ -601,7 +601,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::ServicePoint::CallEndPointDelegate
 // Il2CppName: CallEndPointDelegate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::ServicePoint::*)(System::Net::Sockets::Socket*, System::Net::IPEndPoint*)>(&System::Net::ServicePoint::CallEndPointDelegate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::ServicePoint::*)(::System::Net::Sockets::Socket*, ::System::Net::IPEndPoint*)>(&System::Net::ServicePoint::CallEndPointDelegate)> {
   static const MethodInfo* get() {
     static auto* sock = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "Socket")->byval_arg;
     static auto* remote = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
@@ -611,7 +611,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Net::ServicePoint::$GetConnectionGroup$b__66_0
 // Il2CppName: <GetConnectionGroup>b__66_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::ServicePoint::*)(::Il2CppObject*, System::EventArgs*)>(&System::Net::ServicePoint::$GetConnectionGroup$b__66_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::ServicePoint::*)(::Il2CppObject*, ::System::EventArgs*)>(&System::Net::ServicePoint::$GetConnectionGroup$b__66_0)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* e = &::il2cpp_utils::GetClassFromName("System", "EventArgs")->byval_arg;

@@ -51,8 +51,8 @@ namespace Polyglot {
   class LocalizationImporter;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Polyglot::LocalizationImporter);
-DEFINE_IL2CPP_ARG_TYPE(Polyglot::LocalizationImporter*, "Polyglot", "LocalizationImporter");
+NEED_NO_BOX(::Polyglot::LocalizationImporter);
+DEFINE_IL2CPP_ARG_TYPE(::Polyglot::LocalizationImporter*, "Polyglot", "LocalizationImporter");
 // Type namespace: Polyglot
 namespace Polyglot {
   // Size: 0x10
@@ -61,22 +61,22 @@ namespace Polyglot {
   // [TokenAttribute] Offset: FFFFFFFF
   class LocalizationImporter : public ::Il2CppObject {
     public:
-    // Nested type: Polyglot::LocalizationImporter::$$c__DisplayClass5_0
+    // Nested type: ::Polyglot::LocalizationImporter::$$c__DisplayClass5_0
     class $$c__DisplayClass5_0;
-    // Nested type: Polyglot::LocalizationImporter::$$c__DisplayClass8_0
+    // Nested type: ::Polyglot::LocalizationImporter::$$c__DisplayClass8_0
     class $$c__DisplayClass8_0;
     // Get static field: static private System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<System.String>> languageStrings
-    static System::Collections::Generic::Dictionary_2<::StringW, System::Collections::Generic::List_1<::StringW>*>* _get_languageStrings();
+    static ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::StringW>*>* _get_languageStrings();
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<System.String>> languageStrings
-    static void _set_languageStrings(System::Collections::Generic::Dictionary_2<::StringW, System::Collections::Generic::List_1<::StringW>*>* value);
+    static void _set_languageStrings(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::StringW>*>* value);
     // Get static field: static private System.Collections.Generic.List`1<System.String> EmptyList
-    static System::Collections::Generic::List_1<::StringW>* _get_EmptyList();
+    static ::System::Collections::Generic::List_1<::StringW>* _get_EmptyList();
     // Set static field: static private System.Collections.Generic.List`1<System.String> EmptyList
-    static void _set_EmptyList(System::Collections::Generic::List_1<::StringW>* value);
+    static void _set_EmptyList(::System::Collections::Generic::List_1<::StringW>* value);
     // Get static field: static private System.Collections.Generic.List`1<Polyglot.LocalizationAsset> InputFiles
-    static System::Collections::Generic::List_1<Polyglot::LocalizationAsset*>* _get_InputFiles();
+    static ::System::Collections::Generic::List_1<::Polyglot::LocalizationAsset*>* _get_InputFiles();
     // Set static field: static private System.Collections.Generic.List`1<Polyglot.LocalizationAsset> InputFiles
-    static void _set_InputFiles(System::Collections::Generic::List_1<Polyglot::LocalizationAsset*>* value);
+    static void _set_InputFiles(::System::Collections::Generic::List_1<::Polyglot::LocalizationAsset*>* value);
     // static private System.Void .cctor()
     // Offset: 0x29981C0
     static void _cctor();
@@ -85,43 +85,43 @@ namespace Polyglot {
     static void Initialize();
     // static private System.Void ImportFromGoogle(Polyglot.Localization settings)
     // Offset: 0x2998448
-    static void ImportFromGoogle(Polyglot::Localization* settings);
+    static void ImportFromGoogle(::Polyglot::Localization* settings);
     // static private System.Void Import(System.String text, Polyglot.GoogleDriveDownloadFormat format)
     // Offset: 0x299856C
-    static void Import(::StringW text, Polyglot::GoogleDriveDownloadFormat format);
+    static void Import(::StringW text, ::Polyglot::GoogleDriveDownloadFormat format);
     // static private System.Collections.IEnumerator Download(Polyglot.LocalizationDocument document, System.Action`1<System.String> done, System.Func`2<System.Single,System.Boolean> progressbar)
     // Offset: 0x2998544
-    static System::Collections::IEnumerator* Download(Polyglot::LocalizationDocument* document, System::Action_1<::StringW>* done, System::Func_2<float, bool>* progressbar);
+    static ::System::Collections::IEnumerator* Download(::Polyglot::LocalizationDocument* document, ::System::Action_1<::StringW>* done, ::System::Func_2<float, bool>* progressbar);
     // static public System.Collections.IEnumerator DownloadCustomSheet(System.Func`2<System.Single,System.Boolean> progressbar)
     // Offset: 0x2998A58
-    static System::Collections::IEnumerator* DownloadCustomSheet(System::Func_2<float, bool>* progressbar);
+    static ::System::Collections::IEnumerator* DownloadCustomSheet(::System::Func_2<float, bool>* progressbar);
     // static private System.Void ImportFromFiles(Polyglot.Localization settings)
     // Offset: 0x299839C
-    static void ImportFromFiles(Polyglot::Localization* settings);
+    static void ImportFromFiles(::Polyglot::Localization* settings);
     // static private System.Void ImportInputFiles()
     // Offset: 0x2998BC0
     static void ImportInputFiles();
     // static private System.Void ImportTextFile(System.String text, Polyglot.GoogleDriveDownloadFormat format)
     // Offset: 0x29985E0
-    static void ImportTextFile(::StringW text, Polyglot::GoogleDriveDownloadFormat format);
+    static void ImportTextFile(::StringW text, ::Polyglot::GoogleDriveDownloadFormat format);
     // static public System.Boolean IsLineBreak(System.String currentString)
     // Offset: 0x2997C8C
     static bool IsLineBreak(::StringW currentString);
     // static public System.Collections.Generic.List`1<System.String> GetLanguages(System.String key, System.Collections.Generic.List`1<Polyglot.Language> supportedLanguages)
     // Offset: 0x2997394
-    static System::Collections::Generic::List_1<::StringW>* GetLanguages(::StringW key, System::Collections::Generic::List_1<Polyglot::Language>* supportedLanguages);
+    static ::System::Collections::Generic::List_1<::StringW>* GetLanguages(::StringW key, ::System::Collections::Generic::List_1<::Polyglot::Language>* supportedLanguages);
     // static public System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<System.String>> GetLanguagesStartsWith(System.String key)
     // Offset: 0x2998F54
-    static System::Collections::Generic::Dictionary_2<::StringW, System::Collections::Generic::List_1<::StringW>*>* GetLanguagesStartsWith(::StringW key);
+    static ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::StringW>*>* GetLanguagesStartsWith(::StringW key);
     // static public System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<System.String>> GetLanguagesContains(System.String key)
     // Offset: 0x29991C4
-    static System::Collections::Generic::Dictionary_2<::StringW, System::Collections::Generic::List_1<::StringW>*>* GetLanguagesContains(::StringW key);
+    static ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::StringW>*>* GetLanguagesContains(::StringW key);
     // static public System.Void Refresh()
     // Offset: 0x2999434
     static void Refresh();
     // static public System.Collections.Generic.List`1<System.String> GetKeys()
     // Offset: 0x2997E3C
-    static System::Collections::Generic::List_1<::StringW>* GetKeys();
+    static ::System::Collections::Generic::List_1<::StringW>* GetKeys();
   }; // Polyglot.LocalizationImporter
   #pragma pack(pop)
 }
@@ -145,7 +145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Polyglot::LocalizationImporter::ImportFromGoogle
 // Il2CppName: ImportFromGoogle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Polyglot::Localization*)>(&Polyglot::LocalizationImporter::ImportFromGoogle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Polyglot::Localization*)>(&Polyglot::LocalizationImporter::ImportFromGoogle)> {
   static const MethodInfo* get() {
     static auto* settings = &::il2cpp_utils::GetClassFromName("Polyglot", "Localization")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizationImporter*), "ImportFromGoogle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{settings});
@@ -154,7 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Po
 // Writing MetadataGetter for method: Polyglot::LocalizationImporter::Import
 // Il2CppName: Import
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, Polyglot::GoogleDriveDownloadFormat)>(&Polyglot::LocalizationImporter::Import)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::Polyglot::GoogleDriveDownloadFormat)>(&Polyglot::LocalizationImporter::Import)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("Polyglot", "GoogleDriveDownloadFormat")->byval_arg;
@@ -164,7 +164,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Polyglot::LocalizationImporter::Download
 // Il2CppName: Download
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (*)(Polyglot::LocalizationDocument*, System::Action_1<::StringW>*, System::Func_2<float, bool>*)>(&Polyglot::LocalizationImporter::Download)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (*)(::Polyglot::LocalizationDocument*, ::System::Action_1<::StringW>*, ::System::Func_2<float, bool>*)>(&Polyglot::LocalizationImporter::Download)> {
   static const MethodInfo* get() {
     static auto* document = &::il2cpp_utils::GetClassFromName("Polyglot", "LocalizationDocument")->byval_arg;
     static auto* done = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
@@ -175,7 +175,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: Polyglot::LocalizationImporter::DownloadCustomSheet
 // Il2CppName: DownloadCustomSheet
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (*)(System::Func_2<float, bool>*)>(&Polyglot::LocalizationImporter::DownloadCustomSheet)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (*)(::System::Func_2<float, bool>*)>(&Polyglot::LocalizationImporter::DownloadCustomSheet)> {
   static const MethodInfo* get() {
     static auto* progressbar = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single"), ::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizationImporter*), "DownloadCustomSheet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{progressbar});
@@ -184,7 +184,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: Polyglot::LocalizationImporter::ImportFromFiles
 // Il2CppName: ImportFromFiles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Polyglot::Localization*)>(&Polyglot::LocalizationImporter::ImportFromFiles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Polyglot::Localization*)>(&Polyglot::LocalizationImporter::ImportFromFiles)> {
   static const MethodInfo* get() {
     static auto* settings = &::il2cpp_utils::GetClassFromName("Polyglot", "Localization")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizationImporter*), "ImportFromFiles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{settings});
@@ -201,7 +201,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Polyglot::LocalizationImporter::ImportTextFile
 // Il2CppName: ImportTextFile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, Polyglot::GoogleDriveDownloadFormat)>(&Polyglot::LocalizationImporter::ImportTextFile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::Polyglot::GoogleDriveDownloadFormat)>(&Polyglot::LocalizationImporter::ImportTextFile)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("Polyglot", "GoogleDriveDownloadFormat")->byval_arg;
@@ -220,7 +220,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: Polyglot::LocalizationImporter::GetLanguages
 // Il2CppName: GetLanguages
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::StringW>* (*)(::StringW, System::Collections::Generic::List_1<Polyglot::Language>*)>(&Polyglot::LocalizationImporter::GetLanguages)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::StringW>* (*)(::StringW, ::System::Collections::Generic::List_1<::Polyglot::Language>*)>(&Polyglot::LocalizationImporter::GetLanguages)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* supportedLanguages = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Polyglot", "Language")})->byval_arg;
@@ -230,7 +230,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: Polyglot::LocalizationImporter::GetLanguagesStartsWith
 // Il2CppName: GetLanguagesStartsWith
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::StringW, System::Collections::Generic::List_1<::StringW>*>* (*)(::StringW)>(&Polyglot::LocalizationImporter::GetLanguagesStartsWith)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::StringW>*>* (*)(::StringW)>(&Polyglot::LocalizationImporter::GetLanguagesStartsWith)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizationImporter*), "GetLanguagesStartsWith", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});
@@ -239,7 +239,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: Polyglot::LocalizationImporter::GetLanguagesContains
 // Il2CppName: GetLanguagesContains
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::StringW, System::Collections::Generic::List_1<::StringW>*>* (*)(::StringW)>(&Polyglot::LocalizationImporter::GetLanguagesContains)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::StringW>*>* (*)(::StringW)>(&Polyglot::LocalizationImporter::GetLanguagesContains)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizationImporter*), "GetLanguagesContains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});
@@ -256,7 +256,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Polyglot::LocalizationImporter::GetKeys
 // Il2CppName: GetKeys
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::StringW>* (*)()>(&Polyglot::LocalizationImporter::GetKeys)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::StringW>* (*)()>(&Polyglot::LocalizationImporter::GetKeys)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizationImporter*), "GetKeys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

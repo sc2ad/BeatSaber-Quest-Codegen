@@ -21,8 +21,8 @@ namespace UnityEngine {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Timeline::TimelineCreateUtilities::$$c__DisplayClass0_1);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineCreateUtilities::$$c__DisplayClass0_1*, "UnityEngine.Timeline", "TimelineCreateUtilities/<>c__DisplayClass0_1");
+NEED_NO_BOX(::UnityEngine::Timeline::TimelineCreateUtilities::$$c__DisplayClass0_1);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::TimelineCreateUtilities::$$c__DisplayClass0_1*, "UnityEngine.Timeline", "TimelineCreateUtilities/<>c__DisplayClass0_1");
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
   // Size: 0x18
@@ -56,14 +56,14 @@ namespace UnityEngine::Timeline {
     ::StringW& dyn_result();
     // System.Boolean <GenerateUniqueActorName>b__1(UnityEngine.ScriptableObject x)
     // Offset: 0x298B8F8
-    bool $GenerateUniqueActorName$b__1(UnityEngine::ScriptableObject* x);
+    bool $GenerateUniqueActorName$b__1(::UnityEngine::ScriptableObject* x);
     // public System.Void .ctor()
     // Offset: 0x298B47C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimelineCreateUtilities::$$c__DisplayClass0_1* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::TimelineCreateUtilities::$$c__DisplayClass0_1::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Timeline::TimelineCreateUtilities::$$c__DisplayClass0_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimelineCreateUtilities::$$c__DisplayClass0_1*, creationType>()));
     }
   }; // UnityEngine.Timeline.TimelineCreateUtilities/UnityEngine.Timeline.<>c__DisplayClass0_1
@@ -75,7 +75,7 @@ namespace UnityEngine::Timeline {
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineCreateUtilities::$$c__DisplayClass0_1::$GenerateUniqueActorName$b__1
 // Il2CppName: <GenerateUniqueActorName>b__1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::TimelineCreateUtilities::$$c__DisplayClass0_1::*)(UnityEngine::ScriptableObject*)>(&UnityEngine::Timeline::TimelineCreateUtilities::$$c__DisplayClass0_1::$GenerateUniqueActorName$b__1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::TimelineCreateUtilities::$$c__DisplayClass0_1::*)(::UnityEngine::ScriptableObject*)>(&UnityEngine::Timeline::TimelineCreateUtilities::$$c__DisplayClass0_1::$GenerateUniqueActorName$b__1)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine", "ScriptableObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineCreateUtilities::$$c__DisplayClass0_1*), "<GenerateUniqueActorName>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});

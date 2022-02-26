@@ -22,7 +22,7 @@ namespace UnityEngine::Experimental::U2D {
   struct SpriteIntermediateRendererInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfo, "UnityEngine.Experimental.U2D", "SpriteIntermediateRendererInfo");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfo, "UnityEngine.Experimental.U2D", "SpriteIntermediateRendererInfo");
 // Type namespace: UnityEngine.Experimental.U2D
 namespace UnityEngine::Experimental::U2D {
   // Size: 0xA4
@@ -32,7 +32,7 @@ namespace UnityEngine::Experimental::U2D {
   // [TokenAttribute] Offset: FFFFFFFF
   // [RequiredByNativeCodeAttribute] Offset: 11A7FD4
   // [NativeHeaderAttribute] Offset: 11A7FD4
-  struct SpriteIntermediateRendererInfo/*, public System::ValueType*/ {
+  struct SpriteIntermediateRendererInfo/*, public ::System::ValueType*/ {
     public:
     public:
     // public System.Int32 SpriteID
@@ -56,21 +56,21 @@ namespace UnityEngine::Experimental::U2D {
     // public UnityEngine.Color Color
     // Size: 0x10
     // Offset: 0xC
-    UnityEngine::Color Color;
+    ::UnityEngine::Color Color;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     // public UnityEngine.Matrix4x4 Transform
     // Size: 0x40
     // Offset: 0x1C
-    UnityEngine::Matrix4x4 Transform;
+    ::UnityEngine::Matrix4x4 Transform;
     // Field size check
-    static_assert(sizeof(UnityEngine::Matrix4x4) == 0x40);
+    static_assert(sizeof(::UnityEngine::Matrix4x4) == 0x40);
     // public UnityEngine.Bounds Bounds
     // Size: 0x18
     // Offset: 0x5C
-    UnityEngine::Bounds Bounds;
+    ::UnityEngine::Bounds Bounds;
     // Field size check
-    static_assert(sizeof(UnityEngine::Bounds) == 0x18);
+    static_assert(sizeof(::UnityEngine::Bounds) == 0x18);
     // public System.Int32 Layer
     // Size: 0x4
     // Offset: 0x74
@@ -98,15 +98,15 @@ namespace UnityEngine::Experimental::U2D {
     // public System.IntPtr IndexData
     // Size: 0x8
     // Offset: 0x88
-    System::IntPtr IndexData;
+    ::System::IntPtr IndexData;
     // Field size check
-    static_assert(sizeof(System::IntPtr) == 0x8);
+    static_assert(sizeof(::System::IntPtr) == 0x8);
     // public System.IntPtr VertexData
     // Size: 0x8
     // Offset: 0x90
-    System::IntPtr VertexData;
+    ::System::IntPtr VertexData;
     // Field size check
-    static_assert(sizeof(System::IntPtr) == 0x8);
+    static_assert(sizeof(::System::IntPtr) == 0x8);
     // public System.Int32 IndexCount
     // Size: 0x4
     // Offset: 0x98
@@ -127,10 +127,10 @@ namespace UnityEngine::Experimental::U2D {
     static_assert(sizeof(int) == 0x4);
     public:
     // Creating value type constructor for type: SpriteIntermediateRendererInfo
-    constexpr SpriteIntermediateRendererInfo(int SpriteID_ = {}, int TextureID_ = {}, int MaterialID_ = {}, UnityEngine::Color Color_ = {}, UnityEngine::Matrix4x4 Transform_ = {}, UnityEngine::Bounds Bounds_ = {}, int Layer_ = {}, int SortingLayer_ = {}, int SortingOrder_ = {}, uint64_t SceneCullingMask_ = {}, System::IntPtr IndexData_ = {}, System::IntPtr VertexData_ = {}, int IndexCount_ = {}, int VertexCount_ = {}, int ShaderChannelMask_ = {}) noexcept : SpriteID{SpriteID_}, TextureID{TextureID_}, MaterialID{MaterialID_}, Color{Color_}, Transform{Transform_}, Bounds{Bounds_}, Layer{Layer_}, SortingLayer{SortingLayer_}, SortingOrder{SortingOrder_}, SceneCullingMask{SceneCullingMask_}, IndexData{IndexData_}, VertexData{VertexData_}, IndexCount{IndexCount_}, VertexCount{VertexCount_}, ShaderChannelMask{ShaderChannelMask_} {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    constexpr SpriteIntermediateRendererInfo(int SpriteID_ = {}, int TextureID_ = {}, int MaterialID_ = {}, ::UnityEngine::Color Color_ = {}, ::UnityEngine::Matrix4x4 Transform_ = {}, ::UnityEngine::Bounds Bounds_ = {}, int Layer_ = {}, int SortingLayer_ = {}, int SortingOrder_ = {}, uint64_t SceneCullingMask_ = {}, ::System::IntPtr IndexData_ = {}, ::System::IntPtr VertexData_ = {}, int IndexCount_ = {}, int VertexCount_ = {}, int ShaderChannelMask_ = {}) noexcept : SpriteID{SpriteID_}, TextureID{TextureID_}, MaterialID{MaterialID_}, Color{Color_}, Transform{Transform_}, Bounds{Bounds_}, Layer{Layer_}, SortingLayer{SortingLayer_}, SortingOrder{SortingOrder_}, SceneCullingMask{SceneCullingMask_}, IndexData{IndexData_}, VertexData{VertexData_}, IndexCount{IndexCount_}, VertexCount{VertexCount_}, ShaderChannelMask{ShaderChannelMask_} {}
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public System.Int32 SpriteID
     int& dyn_SpriteID();
@@ -139,11 +139,11 @@ namespace UnityEngine::Experimental::U2D {
     // Get instance field reference: public System.Int32 MaterialID
     int& dyn_MaterialID();
     // Get instance field reference: public UnityEngine.Color Color
-    UnityEngine::Color& dyn_Color();
+    ::UnityEngine::Color& dyn_Color();
     // Get instance field reference: public UnityEngine.Matrix4x4 Transform
-    UnityEngine::Matrix4x4& dyn_Transform();
+    ::UnityEngine::Matrix4x4& dyn_Transform();
     // Get instance field reference: public UnityEngine.Bounds Bounds
-    UnityEngine::Bounds& dyn_Bounds();
+    ::UnityEngine::Bounds& dyn_Bounds();
     // Get instance field reference: public System.Int32 Layer
     int& dyn_Layer();
     // Get instance field reference: public System.Int32 SortingLayer
@@ -153,9 +153,9 @@ namespace UnityEngine::Experimental::U2D {
     // Get instance field reference: public System.UInt64 SceneCullingMask
     uint64_t& dyn_SceneCullingMask();
     // Get instance field reference: public System.IntPtr IndexData
-    System::IntPtr& dyn_IndexData();
+    ::System::IntPtr& dyn_IndexData();
     // Get instance field reference: public System.IntPtr VertexData
-    System::IntPtr& dyn_VertexData();
+    ::System::IntPtr& dyn_VertexData();
     // Get instance field reference: public System.Int32 IndexCount
     int& dyn_IndexCount();
     // Get instance field reference: public System.Int32 VertexCount

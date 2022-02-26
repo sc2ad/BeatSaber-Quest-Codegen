@@ -23,8 +23,8 @@ namespace GlobalNamespace {
   class BGNetDebug;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BGNetDebug);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BGNetDebug*, "", "BGNetDebug");
+NEED_NO_BOX(::GlobalNamespace::BGNetDebug);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BGNetDebug*, "", "BGNetDebug");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -33,21 +33,21 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BGNetDebug : public ::Il2CppObject {
     public:
-    // Nested type: GlobalNamespace::BGNetDebug::ILogger
+    // Nested type: ::GlobalNamespace::BGNetDebug::ILogger
     class ILogger;
-    // Nested type: GlobalNamespace::BGNetDebug::NetLogger
+    // Nested type: ::GlobalNamespace::BGNetDebug::NetLogger
     class NetLogger;
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1221720
     // Get static field: static private BGNetDebug/ILogger _logger
-    static GlobalNamespace::BGNetDebug::ILogger* _get__logger();
+    static ::GlobalNamespace::BGNetDebug::ILogger* _get__logger();
     // Set static field: static private BGNetDebug/ILogger _logger
-    static void _set__logger(GlobalNamespace::BGNetDebug::ILogger* value);
+    static void _set__logger(::GlobalNamespace::BGNetDebug::ILogger* value);
     // static private System.Void .cctor()
     // Offset: 0x2B8D0AC
     static void _cctor();
     // static public System.Void SetLogger(BGNetDebug/ILogger logger)
     // Offset: 0x2B8D138
-    static void SetLogger(GlobalNamespace::BGNetDebug::ILogger* logger);
+    static void SetLogger(::GlobalNamespace::BGNetDebug::ILogger* logger);
     // static public System.Void Log(System.String message)
     // Offset: 0x2B80858
     static void Log(::StringW message);
@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     static void LogError(::StringW message);
     // static public System.Void LogException(System.Exception exception, System.String message)
     // Offset: 0x2B7C048
-    static void LogException(System::Exception* exception, ::StringW message);
+    static void LogException(::System::Exception* exception, ::StringW message);
     // static public System.Void LogWarning(System.String message)
     // Offset: 0x2B853BC
     static void LogWarning(::StringW message);
@@ -75,7 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::BGNetDebug::SetLogger
 // Il2CppName: SetLogger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::BGNetDebug::ILogger*)>(&GlobalNamespace::BGNetDebug::SetLogger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::BGNetDebug::ILogger*)>(&GlobalNamespace::BGNetDebug::SetLogger)> {
   static const MethodInfo* get() {
     static auto* logger = &::il2cpp_utils::GetClassFromName("", "BGNetDebug/ILogger")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BGNetDebug*), "SetLogger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{logger});
@@ -102,7 +102,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: GlobalNamespace::BGNetDebug::LogException
 // Il2CppName: LogException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Exception*, ::StringW)>(&GlobalNamespace::BGNetDebug::LogException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Exception*, ::StringW)>(&GlobalNamespace::BGNetDebug::LogException)> {
   static const MethodInfo* get() {
     static auto* exception = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

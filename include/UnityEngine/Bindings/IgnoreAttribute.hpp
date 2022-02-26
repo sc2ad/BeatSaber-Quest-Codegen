@@ -18,8 +18,8 @@ namespace UnityEngine::Bindings {
   class IgnoreAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Bindings::IgnoreAttribute);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::IgnoreAttribute*, "UnityEngine.Bindings", "IgnoreAttribute");
+NEED_NO_BOX(::UnityEngine::Bindings::IgnoreAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Bindings::IgnoreAttribute*, "UnityEngine.Bindings", "IgnoreAttribute");
 // Type namespace: UnityEngine.Bindings
 namespace UnityEngine::Bindings {
   // Size: 0x11
@@ -28,7 +28,7 @@ namespace UnityEngine::Bindings {
   // [TokenAttribute] Offset: FFFFFFFF
   // [VisibleToOtherModulesAttribute] Offset: FFFFFFFF
   // [AttributeUsageAttribute] Offset: 11A146C
-  class IgnoreAttribute : public System::Attribute {
+  class IgnoreAttribute : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -63,7 +63,7 @@ namespace UnityEngine::Bindings {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IgnoreAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::IgnoreAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Bindings::IgnoreAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IgnoreAttribute*, creationType>()));
     }
   }; // UnityEngine.Bindings.IgnoreAttribute

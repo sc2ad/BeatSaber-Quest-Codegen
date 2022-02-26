@@ -23,8 +23,8 @@ namespace Org::BouncyCastle::Math::EC::Abc {
   class ZTauElement;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Math::EC::Abc::ZTauElement);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Abc::ZTauElement*, "Org.BouncyCastle.Math.EC.Abc", "ZTauElement");
+NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Abc::ZTauElement);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::Abc::ZTauElement*, "Org.BouncyCastle.Math.EC.Abc", "ZTauElement");
 // Type namespace: Org.BouncyCastle.Math.EC.Abc
 namespace Org::BouncyCastle::Math::EC::Abc {
   // Size: 0x20
@@ -45,30 +45,30 @@ namespace Org::BouncyCastle::Math::EC::Abc {
     // public readonly Org.BouncyCastle.Math.BigInteger u
     // Size: 0x8
     // Offset: 0x10
-    Org::BouncyCastle::Math::BigInteger* u;
+    ::Org::BouncyCastle::Math::BigInteger* u;
     // Field size check
-    static_assert(sizeof(Org::BouncyCastle::Math::BigInteger*) == 0x8);
+    static_assert(sizeof(::Org::BouncyCastle::Math::BigInteger*) == 0x8);
     // public readonly Org.BouncyCastle.Math.BigInteger v
     // Size: 0x8
     // Offset: 0x18
-    Org::BouncyCastle::Math::BigInteger* v;
+    ::Org::BouncyCastle::Math::BigInteger* v;
     // Field size check
-    static_assert(sizeof(Org::BouncyCastle::Math::BigInteger*) == 0x8);
+    static_assert(sizeof(::Org::BouncyCastle::Math::BigInteger*) == 0x8);
     public:
     // Get instance field reference: public readonly Org.BouncyCastle.Math.BigInteger u
-    Org::BouncyCastle::Math::BigInteger*& dyn_u();
+    ::Org::BouncyCastle::Math::BigInteger*& dyn_u();
     // Get instance field reference: public readonly Org.BouncyCastle.Math.BigInteger v
-    Org::BouncyCastle::Math::BigInteger*& dyn_v();
+    ::Org::BouncyCastle::Math::BigInteger*& dyn_v();
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger u, Org.BouncyCastle.Math.BigInteger v)
     // Offset: 0x2264D4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ZTauElement* New_ctor(Org::BouncyCastle::Math::BigInteger* u, Org::BouncyCastle::Math::BigInteger* v) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Abc::ZTauElement::.ctor");
+    static ZTauElement* New_ctor(::Org::BouncyCastle::Math::BigInteger* u, ::Org::BouncyCastle::Math::BigInteger* v) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::Abc::ZTauElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ZTauElement*, creationType>(u, v)));
     }
   }; // Org.BouncyCastle.Math.EC.Abc.ZTauElement
   #pragma pack(pop)
-  static check_size<sizeof(ZTauElement), 24 + sizeof(Org::BouncyCastle::Math::BigInteger*)> __Org_BouncyCastle_Math_EC_Abc_ZTauElementSizeCheck;
+  static check_size<sizeof(ZTauElement), 24 + sizeof(::Org::BouncyCastle::Math::BigInteger*)> __Org_BouncyCastle_Math_EC_Abc_ZTauElementSizeCheck;
   static_assert(sizeof(ZTauElement) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

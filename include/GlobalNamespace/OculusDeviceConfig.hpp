@@ -25,8 +25,8 @@ namespace GlobalNamespace {
   class OculusDeviceConfig;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OculusDeviceConfig);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusDeviceConfig*, "", "OculusDeviceConfig");
+NEED_NO_BOX(::GlobalNamespace::OculusDeviceConfig);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OculusDeviceConfig*, "", "OculusDeviceConfig");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -35,16 +35,16 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OculusDeviceConfig : public ::Il2CppObject {
     public:
-    // Nested type: GlobalNamespace::OculusDeviceConfig::State
+    // Nested type: ::GlobalNamespace::OculusDeviceConfig::State
     struct State;
     // Get static field: static private UnityEngine.AndroidJavaObject _context
-    static UnityEngine::AndroidJavaObject* _get__context();
+    static ::UnityEngine::AndroidJavaObject* _get__context();
     // Set static field: static private UnityEngine.AndroidJavaObject _context
-    static void _set__context(UnityEngine::AndroidJavaObject* value);
+    static void _set__context(::UnityEngine::AndroidJavaObject* value);
     // Get static field: static private UnityEngine.AndroidJavaClass _oculusDeviceConfig
-    static UnityEngine::AndroidJavaClass* _get__oculusDeviceConfig();
+    static ::UnityEngine::AndroidJavaClass* _get__oculusDeviceConfig();
     // Set static field: static private UnityEngine.AndroidJavaClass _oculusDeviceConfig
-    static void _set__oculusDeviceConfig(UnityEngine::AndroidJavaClass* value);
+    static void _set__oculusDeviceConfig(::UnityEngine::AndroidJavaClass* value);
     // static private System.Void .cctor()
     // Offset: 0x2BAFE1C
     static void _cctor();
@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     static void Init();
     // static public OculusDeviceConfig/State GetCurrentState()
     // Offset: 0x2BAFFE4
-    static GlobalNamespace::OculusDeviceConfig::State GetCurrentState();
+    static ::GlobalNamespace::OculusDeviceConfig::State GetCurrentState();
     // static public System.Boolean DidPrefetchParamName(System.String key)
     // Offset: 0x2BB0104
     static bool DidPrefetchParamName(::StringW key);
@@ -95,7 +95,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OculusDeviceConfig::GetCurrentState
 // Il2CppName: GetCurrentState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OculusDeviceConfig::State (*)()>(&GlobalNamespace::OculusDeviceConfig::GetCurrentState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OculusDeviceConfig::State (*)()>(&GlobalNamespace::OculusDeviceConfig::GetCurrentState)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusDeviceConfig*), "GetCurrentState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

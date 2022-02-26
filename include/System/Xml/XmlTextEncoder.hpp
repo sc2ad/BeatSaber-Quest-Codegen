@@ -32,8 +32,8 @@ namespace System::Xml {
   class XmlTextEncoder;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::XmlTextEncoder);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlTextEncoder*, "System.Xml", "XmlTextEncoder");
+NEED_NO_BOX(::System::Xml::XmlTextEncoder);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlTextEncoder*, "System.Xml", "XmlTextEncoder");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x38
@@ -54,9 +54,9 @@ namespace System::Xml {
     // private System.IO.TextWriter textWriter
     // Size: 0x8
     // Offset: 0x10
-    System::IO::TextWriter* textWriter;
+    ::System::IO::TextWriter* textWriter;
     // Field size check
-    static_assert(sizeof(System::IO::TextWriter*) == 0x8);
+    static_assert(sizeof(::System::IO::TextWriter*) == 0x8);
     // private System.Boolean inAttribute
     // Size: 0x1
     // Offset: 0x18
@@ -76,9 +76,9 @@ namespace System::Xml {
     // private System.Text.StringBuilder attrValue
     // Size: 0x8
     // Offset: 0x20
-    System::Text::StringBuilder* attrValue;
+    ::System::Text::StringBuilder* attrValue;
     // Field size check
-    static_assert(sizeof(System::Text::StringBuilder*) == 0x8);
+    static_assert(sizeof(::System::Text::StringBuilder*) == 0x8);
     // private System.Boolean cacheAttrValue
     // Size: 0x1
     // Offset: 0x28
@@ -90,22 +90,22 @@ namespace System::Xml {
     // private System.Xml.XmlCharType xmlCharType
     // Size: 0x8
     // Offset: 0x30
-    System::Xml::XmlCharType xmlCharType;
+    ::System::Xml::XmlCharType xmlCharType;
     // Field size check
-    static_assert(sizeof(System::Xml::XmlCharType) == 0x8);
+    static_assert(sizeof(::System::Xml::XmlCharType) == 0x8);
     public:
     // Get instance field reference: private System.IO.TextWriter textWriter
-    System::IO::TextWriter*& dyn_textWriter();
+    ::System::IO::TextWriter*& dyn_textWriter();
     // Get instance field reference: private System.Boolean inAttribute
     bool& dyn_inAttribute();
     // Get instance field reference: private System.Char quoteChar
     ::Il2CppChar& dyn_quoteChar();
     // Get instance field reference: private System.Text.StringBuilder attrValue
-    System::Text::StringBuilder*& dyn_attrValue();
+    ::System::Text::StringBuilder*& dyn_attrValue();
     // Get instance field reference: private System.Boolean cacheAttrValue
     bool& dyn_cacheAttrValue();
     // Get instance field reference: private System.Xml.XmlCharType xmlCharType
-    System::Xml::XmlCharType& dyn_xmlCharType();
+    ::System::Xml::XmlCharType& dyn_xmlCharType();
     // System.Void set_QuoteChar(System.Char value)
     // Offset: 0x14E4510
     void set_QuoteChar(::Il2CppChar value);
@@ -115,8 +115,8 @@ namespace System::Xml {
     // System.Void .ctor(System.IO.TextWriter textWriter)
     // Offset: 0x14E44D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlTextEncoder* New_ctor(System::IO::TextWriter* textWriter) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlTextEncoder::.ctor");
+    static XmlTextEncoder* New_ctor(::System::IO::TextWriter* textWriter) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlTextEncoder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlTextEncoder*, creationType>(textWriter)));
     }
     // System.Void StartAttribute(System.Boolean cacheAttrValue)
@@ -163,7 +163,7 @@ namespace System::Xml {
     void WriteEntityRefImpl(::StringW name);
   }; // System.Xml.XmlTextEncoder
   #pragma pack(pop)
-  static check_size<sizeof(XmlTextEncoder), 48 + sizeof(System::Xml::XmlCharType)> __System_Xml_XmlTextEncoderSizeCheck;
+  static check_size<sizeof(XmlTextEncoder), 48 + sizeof(::System::Xml::XmlCharType)> __System_Xml_XmlTextEncoderSizeCheck;
   static_assert(sizeof(XmlTextEncoder) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

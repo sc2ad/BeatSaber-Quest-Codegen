@@ -21,8 +21,8 @@ namespace GlobalNamespace {
   class BeatmapObjectSpawnControllerHelpers;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BeatmapObjectSpawnControllerHelpers);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectSpawnControllerHelpers*, "", "BeatmapObjectSpawnControllerHelpers");
+NEED_NO_BOX(::GlobalNamespace::BeatmapObjectSpawnControllerHelpers);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapObjectSpawnControllerHelpers*, "", "BeatmapObjectSpawnControllerHelpers");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     public:
     // static public System.Void GetNoteJumpValues(PlayerSpecificSettings playerSpecificSettings, System.Single defaultNoteJumpStartBeatOffset, out BeatmapObjectSpawnMovementData/NoteJumpValueType noteJumpValueType, out System.Single noteJumpValue)
     // Offset: 0x14CE74C
-    static void GetNoteJumpValues(GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, float defaultNoteJumpStartBeatOffset, ByRef<GlobalNamespace::BeatmapObjectSpawnMovementData::NoteJumpValueType> noteJumpValueType, ByRef<float> noteJumpValue);
+    static void GetNoteJumpValues(::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, float defaultNoteJumpStartBeatOffset, ByRef<::GlobalNamespace::BeatmapObjectSpawnMovementData::NoteJumpValueType> noteJumpValueType, ByRef<float> noteJumpValue);
   }; // BeatmapObjectSpawnControllerHelpers
   #pragma pack(pop)
 }
@@ -41,7 +41,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnControllerHelpers::GetNoteJumpValues
 // Il2CppName: GetNoteJumpValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::PlayerSpecificSettings*, float, ByRef<GlobalNamespace::BeatmapObjectSpawnMovementData::NoteJumpValueType>, ByRef<float>)>(&GlobalNamespace::BeatmapObjectSpawnControllerHelpers::GetNoteJumpValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::PlayerSpecificSettings*, float, ByRef<::GlobalNamespace::BeatmapObjectSpawnMovementData::NoteJumpValueType>, ByRef<float>)>(&GlobalNamespace::BeatmapObjectSpawnControllerHelpers::GetNoteJumpValues)> {
   static const MethodInfo* get() {
     static auto* playerSpecificSettings = &::il2cpp_utils::GetClassFromName("", "PlayerSpecificSettings")->byval_arg;
     static auto* defaultNoteJumpStartBeatOffset = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

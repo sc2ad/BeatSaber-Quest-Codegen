@@ -26,8 +26,8 @@ namespace GlobalNamespace {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MultiplayerSpectatingSpotManager::$$c);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSpectatingSpotManager::$$c*, "", "MultiplayerSpectatingSpotManager/<>c");
+NEED_NO_BOX(::GlobalNamespace::MultiplayerSpectatingSpotManager::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerSpectatingSpotManager::$$c*, "", "MultiplayerSpectatingSpotManager/<>c");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -38,26 +38,26 @@ namespace GlobalNamespace {
   class MultiplayerSpectatingSpotManager::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly MultiplayerSpectatingSpotManager/<>c <>9
-    static GlobalNamespace::MultiplayerSpectatingSpotManager::$$c* _get_$$9();
+    static ::GlobalNamespace::MultiplayerSpectatingSpotManager::$$c* _get_$$9();
     // Set static field: static public readonly MultiplayerSpectatingSpotManager/<>c <>9
-    static void _set_$$9(GlobalNamespace::MultiplayerSpectatingSpotManager::$$c* value);
+    static void _set_$$9(::GlobalNamespace::MultiplayerSpectatingSpotManager::$$c* value);
     // Get static field: static public System.Func`2<IMultiplayerSpectatingSpot,System.Boolean> <>9__3_0
-    static System::Func_2<GlobalNamespace::IMultiplayerSpectatingSpot*, bool>* _get_$$9__3_0();
+    static ::System::Func_2<::GlobalNamespace::IMultiplayerSpectatingSpot*, bool>* _get_$$9__3_0();
     // Set static field: static public System.Func`2<IMultiplayerSpectatingSpot,System.Boolean> <>9__3_0
-    static void _set_$$9__3_0(System::Func_2<GlobalNamespace::IMultiplayerSpectatingSpot*, bool>* value);
+    static void _set_$$9__3_0(::System::Func_2<::GlobalNamespace::IMultiplayerSpectatingSpot*, bool>* value);
     // static private System.Void .cctor()
     // Offset: 0x2AACB8C
     static void _cctor();
     // System.Boolean <get_defaultSpot>b__3_0(IMultiplayerSpectatingSpot s)
     // Offset: 0x2AACBF8
-    bool $get_defaultSpot$b__3_0(GlobalNamespace::IMultiplayerSpectatingSpot* s);
+    bool $get_defaultSpot$b__3_0(::GlobalNamespace::IMultiplayerSpectatingSpot* s);
     // public System.Void .ctor()
     // Offset: 0x2AACBF0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerSpectatingSpotManager::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerSpectatingSpotManager::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerSpectatingSpotManager::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerSpectatingSpotManager::$$c*, creationType>()));
     }
   }; // MultiplayerSpectatingSpotManager/<>c
@@ -75,7 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerSpectatingSpotManager::$$c::$get_defaultSpot$b__3_0
 // Il2CppName: <get_defaultSpot>b__3_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MultiplayerSpectatingSpotManager::$$c::*)(GlobalNamespace::IMultiplayerSpectatingSpot*)>(&GlobalNamespace::MultiplayerSpectatingSpotManager::$$c::$get_defaultSpot$b__3_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MultiplayerSpectatingSpotManager::$$c::*)(::GlobalNamespace::IMultiplayerSpectatingSpot*)>(&GlobalNamespace::MultiplayerSpectatingSpotManager::$$c::$get_defaultSpot$b__3_0)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("", "IMultiplayerSpectatingSpot")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSpectatingSpotManager::$$c*), "<get_defaultSpot>b__3_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});

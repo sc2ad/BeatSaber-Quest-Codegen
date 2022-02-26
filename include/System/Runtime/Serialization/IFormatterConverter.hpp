@@ -23,8 +23,8 @@ namespace System::Runtime::Serialization {
   class IFormatterConverter;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Serialization::IFormatterConverter);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::IFormatterConverter*, "System.Runtime.Serialization", "IFormatterConverter");
+NEED_NO_BOX(::System::Runtime::Serialization::IFormatterConverter);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::IFormatterConverter*, "System.Runtime.Serialization", "IFormatterConverter");
 // Type namespace: System.Runtime.Serialization
 namespace System::Runtime::Serialization {
   // Size: 0x10
@@ -37,7 +37,7 @@ namespace System::Runtime::Serialization {
     public:
     // public System.Object Convert(System.Object value, System.Type type)
     // Offset: 0xFFFFFFFF
-    ::Il2CppObject* Convert(::Il2CppObject* value, System::Type* type);
+    ::Il2CppObject* Convert(::Il2CppObject* value, ::System::Type* type);
     // public System.Boolean ToBoolean(System.Object value)
     // Offset: 0xFFFFFFFF
     bool ToBoolean(::Il2CppObject* value);
@@ -60,7 +60,7 @@ namespace System::Runtime::Serialization {
 // Writing MetadataGetter for method: System::Runtime::Serialization::IFormatterConverter::Convert
 // Il2CppName: Convert
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Serialization::IFormatterConverter::*)(::Il2CppObject*, System::Type*)>(&System::Runtime::Serialization::IFormatterConverter::Convert)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Serialization::IFormatterConverter::*)(::Il2CppObject*, ::System::Type*)>(&System::Runtime::Serialization::IFormatterConverter::Convert)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;

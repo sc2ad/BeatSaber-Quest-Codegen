@@ -12,8 +12,8 @@ namespace System::Threading {
   class TimeoutHelper;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Threading::TimeoutHelper);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::TimeoutHelper*, "System.Threading", "TimeoutHelper");
+NEED_NO_BOX(::System::Threading::TimeoutHelper);
+DEFINE_IL2CPP_ARG_TYPE(::System::Threading::TimeoutHelper*, "System.Threading", "TimeoutHelper");
 // Type namespace: System.Threading
 namespace System::Threading {
   // Size: 0x10

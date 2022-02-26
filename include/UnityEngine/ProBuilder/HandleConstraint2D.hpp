@@ -24,8 +24,8 @@ namespace UnityEngine::ProBuilder {
   class HandleConstraint2D;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::HandleConstraint2D);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::HandleConstraint2D*, "UnityEngine.ProBuilder", "HandleConstraint2D");
+NEED_NO_BOX(::UnityEngine::ProBuilder::HandleConstraint2D);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::HandleConstraint2D*, "UnityEngine.ProBuilder", "HandleConstraint2D");
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
   // Size: 0x18
@@ -57,9 +57,9 @@ namespace UnityEngine::ProBuilder {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get static field: static public readonly UnityEngine.ProBuilder.HandleConstraint2D None
-    static UnityEngine::ProBuilder::HandleConstraint2D* _get_None();
+    static ::UnityEngine::ProBuilder::HandleConstraint2D* _get_None();
     // Set static field: static public readonly UnityEngine.ProBuilder.HandleConstraint2D None
-    static void _set_None(UnityEngine::ProBuilder::HandleConstraint2D* value);
+    static void _set_None(::UnityEngine::ProBuilder::HandleConstraint2D* value);
     // Get instance field reference: public System.Int32 x
     int& dyn_x();
     // Get instance field reference: public System.Int32 y
@@ -68,7 +68,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x1F3B850
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HandleConstraint2D* New_ctor(int x, int y) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::HandleConstraint2D::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::HandleConstraint2D::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HandleConstraint2D*, creationType>(x, y)));
     }
     // static private System.Void .cctor()
@@ -76,13 +76,13 @@ namespace UnityEngine::ProBuilder {
     static void _cctor();
     // public UnityEngine.ProBuilder.HandleConstraint2D Inverse()
     // Offset: 0x1F3B888
-    UnityEngine::ProBuilder::HandleConstraint2D* Inverse();
+    ::UnityEngine::ProBuilder::HandleConstraint2D* Inverse();
     // public UnityEngine.Vector2 Mask(UnityEngine.Vector2 v)
     // Offset: 0x1F3B908
-    UnityEngine::Vector2 Mask(UnityEngine::Vector2 v);
+    ::UnityEngine::Vector2 Mask(::UnityEngine::Vector2 v);
     // public UnityEngine.Vector2 InverseMask(UnityEngine.Vector2 v)
     // Offset: 0x1F3B920
-    UnityEngine::Vector2 InverseMask(UnityEngine::Vector2 v);
+    ::UnityEngine::Vector2 InverseMask(::UnityEngine::Vector2 v);
     // public override System.Int32 GetHashCode()
     // Offset: 0x1F3B9D0
     // Implemented from: System.Object
@@ -104,10 +104,10 @@ namespace UnityEngine::ProBuilder {
   static_assert(sizeof(HandleConstraint2D) == 0x18);
   // static public System.Boolean op_Equality(UnityEngine.ProBuilder.HandleConstraint2D a, UnityEngine.ProBuilder.HandleConstraint2D b)
   // Offset: 0x1F3B948
-  bool operator ==(UnityEngine::ProBuilder::HandleConstraint2D* a, UnityEngine::ProBuilder::HandleConstraint2D& b);
+  bool operator ==(::UnityEngine::ProBuilder::HandleConstraint2D* a, ::UnityEngine::ProBuilder::HandleConstraint2D& b);
   // static public System.Boolean op_Inequality(UnityEngine.ProBuilder.HandleConstraint2D a, UnityEngine.ProBuilder.HandleConstraint2D b)
   // Offset: 0x1F3B98C
-  bool operator !=(UnityEngine::ProBuilder::HandleConstraint2D* a, UnityEngine::ProBuilder::HandleConstraint2D& b);
+  bool operator !=(::UnityEngine::ProBuilder::HandleConstraint2D* a, ::UnityEngine::ProBuilder::HandleConstraint2D& b);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::HandleConstraint2D::New_ctor
@@ -125,7 +125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::HandleConstraint2D::Inverse
 // Il2CppName: Inverse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::HandleConstraint2D* (UnityEngine::ProBuilder::HandleConstraint2D::*)()>(&UnityEngine::ProBuilder::HandleConstraint2D::Inverse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::HandleConstraint2D* (UnityEngine::ProBuilder::HandleConstraint2D::*)()>(&UnityEngine::ProBuilder::HandleConstraint2D::Inverse)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::HandleConstraint2D*), "Inverse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -133,7 +133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::HandleConstraint2D::Mask
 // Il2CppName: Mask
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::ProBuilder::HandleConstraint2D::*)(UnityEngine::Vector2)>(&UnityEngine::ProBuilder::HandleConstraint2D::Mask)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (UnityEngine::ProBuilder::HandleConstraint2D::*)(::UnityEngine::Vector2)>(&UnityEngine::ProBuilder::HandleConstraint2D::Mask)> {
   static const MethodInfo* get() {
     static auto* v = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::HandleConstraint2D*), "Mask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{v});
@@ -142,7 +142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::HandleConstraint2D::InverseMask
 // Il2CppName: InverseMask
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::ProBuilder::HandleConstraint2D::*)(UnityEngine::Vector2)>(&UnityEngine::ProBuilder::HandleConstraint2D::InverseMask)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (UnityEngine::ProBuilder::HandleConstraint2D::*)(::UnityEngine::Vector2)>(&UnityEngine::ProBuilder::HandleConstraint2D::InverseMask)> {
   static const MethodInfo* get() {
     static auto* v = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::HandleConstraint2D*), "InverseMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{v});

@@ -23,8 +23,8 @@ namespace GlobalNamespace {
   class MissionObjectiveResult;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MissionObjectiveResult);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveResult*, "", "MissionObjectiveResult");
+NEED_NO_BOX(::GlobalNamespace::MissionObjectiveResult);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MissionObjectiveResult*, "", "MissionObjectiveResult");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -45,9 +45,9 @@ namespace GlobalNamespace {
     // private MissionObjective <missionObjective>k__BackingField
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::MissionObjective* missionObjective;
+    ::GlobalNamespace::MissionObjective* missionObjective;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::MissionObjective*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::MissionObjective*) == 0x8);
     // private System.Boolean <cleared>k__BackingField
     // Size: 0x1
     // Offset: 0x18
@@ -64,17 +64,17 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private MissionObjective <missionObjective>k__BackingField
-    GlobalNamespace::MissionObjective*& dyn_$missionObjective$k__BackingField();
+    ::GlobalNamespace::MissionObjective*& dyn_$missionObjective$k__BackingField();
     // Get instance field reference: private System.Boolean <cleared>k__BackingField
     bool& dyn_$cleared$k__BackingField();
     // Get instance field reference: private System.Int32 <value>k__BackingField
     int& dyn_$value$k__BackingField();
     // public MissionObjective get_missionObjective()
     // Offset: 0x2A73888
-    GlobalNamespace::MissionObjective* get_missionObjective();
+    ::GlobalNamespace::MissionObjective* get_missionObjective();
     // private System.Void set_missionObjective(MissionObjective value)
     // Offset: 0x2A73890
-    void set_missionObjective(GlobalNamespace::MissionObjective* value);
+    void set_missionObjective(::GlobalNamespace::MissionObjective* value);
     // public System.Boolean get_cleared()
     // Offset: 0x2A73898
     bool get_cleared();
@@ -90,8 +90,8 @@ namespace GlobalNamespace {
     // public System.Void .ctor(MissionObjective missionObjective, System.Boolean cleared, System.Int32 value)
     // Offset: 0x2A7332C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MissionObjectiveResult* New_ctor(GlobalNamespace::MissionObjective* missionObjective, bool cleared, int value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MissionObjectiveResult::.ctor");
+    static MissionObjectiveResult* New_ctor(::GlobalNamespace::MissionObjective* missionObjective, bool cleared, int value) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionObjectiveResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionObjectiveResult*, creationType>(missionObjective, cleared, value)));
     }
   }; // MissionObjectiveResult
@@ -103,7 +103,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveResult::get_missionObjective
 // Il2CppName: get_missionObjective
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MissionObjective* (GlobalNamespace::MissionObjectiveResult::*)()>(&GlobalNamespace::MissionObjectiveResult::get_missionObjective)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MissionObjective* (GlobalNamespace::MissionObjectiveResult::*)()>(&GlobalNamespace::MissionObjectiveResult::get_missionObjective)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveResult*), "get_missionObjective", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -111,7 +111,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveResult::set_missionObjective
 // Il2CppName: set_missionObjective
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionObjectiveResult::*)(GlobalNamespace::MissionObjective*)>(&GlobalNamespace::MissionObjectiveResult::set_missionObjective)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionObjectiveResult::*)(::GlobalNamespace::MissionObjective*)>(&GlobalNamespace::MissionObjectiveResult::set_missionObjective)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "MissionObjective")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveResult*), "set_missionObjective", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

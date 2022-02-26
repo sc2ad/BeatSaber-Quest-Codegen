@@ -19,8 +19,8 @@ namespace LiteNetLib {
   class NetPacket;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(LiteNetLib::NetPacket);
-DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetPacket*, "LiteNetLib", "NetPacket");
+NEED_NO_BOX(::LiteNetLib::NetPacket);
+DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::NetPacket*, "LiteNetLib", "NetPacket");
 // Type namespace: LiteNetLib
 namespace LiteNetLib {
   // Size: 0x28
@@ -71,10 +71,10 @@ namespace LiteNetLib {
     ::Il2CppObject*& dyn_UserData();
     // public LiteNetLib.PacketProperty get_Property()
     // Offset: 0x20E4094
-    LiteNetLib::PacketProperty get_Property();
+    ::LiteNetLib::PacketProperty get_Property();
     // public System.Void set_Property(LiteNetLib.PacketProperty value)
     // Offset: 0x20E5940
-    void set_Property(LiteNetLib::PacketProperty value);
+    void set_Property(::LiteNetLib::PacketProperty value);
     // public System.Byte get_ConnectionNumber()
     // Offset: 0x20E03F8
     uint8_t get_ConnectionNumber();
@@ -118,14 +118,14 @@ namespace LiteNetLib {
     // Offset: 0x20E6FE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetPacket* New_ctor(int size) {
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::NetPacket::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::NetPacket::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetPacket*, creationType>(size)));
     }
     // public System.Void .ctor(LiteNetLib.PacketProperty property, System.Int32 size)
     // Offset: 0x20E00C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static NetPacket* New_ctor(LiteNetLib::PacketProperty property, int size) {
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::NetPacket::.ctor");
+    static NetPacket* New_ctor(::LiteNetLib::PacketProperty property, int size) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::NetPacket::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetPacket*, creationType>(property, size)));
     }
     // static private System.Void .cctor()
@@ -136,7 +136,7 @@ namespace LiteNetLib {
     void MarkFragmented();
     // static public System.Int32 GetHeaderSize(LiteNetLib.PacketProperty property)
     // Offset: 0x20E5914
-    static int GetHeaderSize(LiteNetLib::PacketProperty property);
+    static int GetHeaderSize(::LiteNetLib::PacketProperty property);
     // public System.Int32 GetHeaderSize()
     // Offset: 0x20E7054
     int GetHeaderSize();
@@ -152,7 +152,7 @@ namespace LiteNetLib {
 // Writing MetadataGetter for method: LiteNetLib::NetPacket::get_Property
 // Il2CppName: get_Property
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::PacketProperty (LiteNetLib::NetPacket::*)()>(&LiteNetLib::NetPacket::get_Property)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LiteNetLib::PacketProperty (LiteNetLib::NetPacket::*)()>(&LiteNetLib::NetPacket::get_Property)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPacket*), "get_Property", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -160,7 +160,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib:
 // Writing MetadataGetter for method: LiteNetLib::NetPacket::set_Property
 // Il2CppName: set_Property
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPacket::*)(LiteNetLib::PacketProperty)>(&LiteNetLib::NetPacket::set_Property)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPacket::*)(::LiteNetLib::PacketProperty)>(&LiteNetLib::NetPacket::set_Property)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("LiteNetLib", "PacketProperty")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPacket*), "set_Property", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -303,7 +303,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::NetPacket::GetHeaderSize
 // Il2CppName: GetHeaderSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(LiteNetLib::PacketProperty)>(&LiteNetLib::NetPacket::GetHeaderSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::LiteNetLib::PacketProperty)>(&LiteNetLib::NetPacket::GetHeaderSize)> {
   static const MethodInfo* get() {
     static auto* property = &::il2cpp_utils::GetClassFromName("LiteNetLib", "PacketProperty")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPacket*), "GetHeaderSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{property});

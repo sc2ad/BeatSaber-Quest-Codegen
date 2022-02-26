@@ -18,8 +18,8 @@ namespace System::Collections {
   class IEnumerable;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Collections::IEnumerable);
-DEFINE_IL2CPP_ARG_TYPE(System::Collections::IEnumerable*, "System.Collections", "IEnumerable");
+NEED_NO_BOX(::System::Collections::IEnumerable);
+DEFINE_IL2CPP_ARG_TYPE(::System::Collections::IEnumerable*, "System.Collections", "IEnumerable");
 // Type namespace: System.Collections
 namespace System::Collections {
   // Size: 0x10
@@ -32,7 +32,7 @@ namespace System::Collections {
     public:
     // public System.Collections.IEnumerator GetEnumerator()
     // Offset: 0xFFFFFFFF
-    System::Collections::IEnumerator* GetEnumerator();
+    ::System::Collections::IEnumerator* GetEnumerator();
   }; // System.Collections.IEnumerable
   #pragma pack(pop)
 }
@@ -40,7 +40,7 @@ namespace System::Collections {
 // Writing MetadataGetter for method: System::Collections::IEnumerable::GetEnumerator
 // Il2CppName: GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (System::Collections::IEnumerable::*)()>(&System::Collections::IEnumerable::GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (System::Collections::IEnumerable::*)()>(&System::Collections::IEnumerable::GetEnumerator)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Collections::IEnumerable*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -27,8 +27,8 @@ namespace RootMotion {
   class BakerMuscle;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::BakerMuscle);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::BakerMuscle*, "RootMotion", "BakerMuscle");
+NEED_NO_BOX(::RootMotion::BakerMuscle);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::BakerMuscle*, "RootMotion", "BakerMuscle");
 // Type namespace: RootMotion
 namespace RootMotion {
   // Size: 0x28
@@ -49,9 +49,9 @@ namespace RootMotion {
     // public UnityEngine.AnimationCurve curve
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::AnimationCurve* curve;
+    ::UnityEngine::AnimationCurve* curve;
     // Field size check
-    static_assert(sizeof(UnityEngine::AnimationCurve*) == 0x8);
+    static_assert(sizeof(::UnityEngine::AnimationCurve*) == 0x8);
     // private System.Int32 muscleIndex
     // Size: 0x4
     // Offset: 0x18
@@ -68,7 +68,7 @@ namespace RootMotion {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.AnimationCurve curve
-    UnityEngine::AnimationCurve*& dyn_curve();
+    ::UnityEngine::AnimationCurve*& dyn_curve();
     // Get instance field reference: private System.Int32 muscleIndex
     int& dyn_muscleIndex();
     // Get instance field reference: private System.String propertyName
@@ -77,7 +77,7 @@ namespace RootMotion {
     // Offset: 0x221EEC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BakerMuscle* New_ctor(int muscleIndex) {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::BakerMuscle::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::BakerMuscle::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BakerMuscle*, creationType>(muscleIndex)));
     }
     // private System.String MuscleNameToPropertyName(System.String n)
@@ -85,10 +85,10 @@ namespace RootMotion {
     ::StringW MuscleNameToPropertyName(::StringW n);
     // public System.Void MultiplyLength(UnityEngine.AnimationCurve curve, System.Single mlp)
     // Offset: 0x221F618
-    void MultiplyLength(UnityEngine::AnimationCurve* curve, float mlp);
+    void MultiplyLength(::UnityEngine::AnimationCurve* curve, float mlp);
     // public System.Void SetCurves(ref UnityEngine.AnimationClip clip, System.Single maxError, System.Single lengthMlp)
     // Offset: 0x221F6CC
-    void SetCurves(ByRef<UnityEngine::AnimationClip*> clip, float maxError, float lengthMlp);
+    void SetCurves(ByRef<::UnityEngine::AnimationClip*> clip, float maxError, float lengthMlp);
     // public System.Void Reset()
     // Offset: 0x221F5B8
     void Reset();
@@ -120,7 +120,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: RootMotion::BakerMuscle::MultiplyLength
 // Il2CppName: MultiplyLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerMuscle::*)(UnityEngine::AnimationCurve*, float)>(&RootMotion::BakerMuscle::MultiplyLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerMuscle::*)(::UnityEngine::AnimationCurve*, float)>(&RootMotion::BakerMuscle::MultiplyLength)> {
   static const MethodInfo* get() {
     static auto* curve = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationCurve")->byval_arg;
     static auto* mlp = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -130,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::BakerMuscle::SetCurves
 // Il2CppName: SetCurves
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerMuscle::*)(ByRef<UnityEngine::AnimationClip*>, float, float)>(&RootMotion::BakerMuscle::SetCurves)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerMuscle::*)(ByRef<::UnityEngine::AnimationClip*>, float, float)>(&RootMotion::BakerMuscle::SetCurves)> {
   static const MethodInfo* get() {
     static auto* clip = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationClip")->this_arg;
     static auto* maxError = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

@@ -23,8 +23,8 @@ namespace System::Threading::Tasks {
   class TaskContinuation;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Threading::Tasks::TaskContinuation);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskContinuation*, "System.Threading.Tasks", "TaskContinuation");
+NEED_NO_BOX(::System::Threading::Tasks::TaskContinuation);
+DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Tasks::TaskContinuation*, "System.Threading.Tasks", "TaskContinuation");
 // Type namespace: System.Threading.Tasks
 namespace System::Threading::Tasks {
   // Size: 0x10
@@ -35,17 +35,17 @@ namespace System::Threading::Tasks {
     public:
     // System.Void Run(System.Threading.Tasks.Task completedTask, System.Boolean bCanInlineContinuationTask)
     // Offset: 0xFFFFFFFF
-    void Run(System::Threading::Tasks::Task* completedTask, bool bCanInlineContinuationTask);
+    void Run(::System::Threading::Tasks::Task* completedTask, bool bCanInlineContinuationTask);
     // static protected System.Void InlineIfPossibleOrElseQueue(System.Threading.Tasks.Task task, System.Boolean needsProtection)
     // Offset: 0x1CD9CEC
-    static void InlineIfPossibleOrElseQueue(System::Threading::Tasks::Task* task, bool needsProtection);
+    static void InlineIfPossibleOrElseQueue(::System::Threading::Tasks::Task* task, bool needsProtection);
     // protected System.Void .ctor()
     // Offset: 0x1CDA0F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TaskContinuation* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::TaskContinuation::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::Tasks::TaskContinuation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TaskContinuation*, creationType>()));
     }
   }; // System.Threading.Tasks.TaskContinuation
@@ -55,7 +55,7 @@ namespace System::Threading::Tasks {
 // Writing MetadataGetter for method: System::Threading::Tasks::TaskContinuation::Run
 // Il2CppName: Run
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::TaskContinuation::*)(System::Threading::Tasks::Task*, bool)>(&System::Threading::Tasks::TaskContinuation::Run)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::TaskContinuation::*)(::System::Threading::Tasks::Task*, bool)>(&System::Threading::Tasks::TaskContinuation::Run)> {
   static const MethodInfo* get() {
     static auto* completedTask = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")->byval_arg;
     static auto* bCanInlineContinuationTask = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -65,7 +65,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Threading::Tasks::TaskContinuation::InlineIfPossibleOrElseQueue
 // Il2CppName: InlineIfPossibleOrElseQueue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::Tasks::Task*, bool)>(&System::Threading::Tasks::TaskContinuation::InlineIfPossibleOrElseQueue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Threading::Tasks::Task*, bool)>(&System::Threading::Tasks::TaskContinuation::InlineIfPossibleOrElseQueue)> {
   static const MethodInfo* get() {
     static auto* task = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")->byval_arg;
     static auto* needsProtection = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

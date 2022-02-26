@@ -27,8 +27,8 @@ namespace System::Collections::Generic {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::JSONObject::$$c__DisplayClass21_0);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::JSONObject::$$c__DisplayClass21_0*, "HoudiniEngineUnity", "JSONObject/<>c__DisplayClass21_0");
+NEED_NO_BOX(::HoudiniEngineUnity::JSONObject::$$c__DisplayClass21_0);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::JSONObject::$$c__DisplayClass21_0*, "HoudiniEngineUnity", "JSONObject/<>c__DisplayClass21_0");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x18
@@ -50,38 +50,38 @@ namespace HoudiniEngineUnity {
     // public HoudiniEngineUnity.JSONNode aNode
     // Size: 0x8
     // Offset: 0x10
-    HoudiniEngineUnity::JSONNode* aNode;
+    ::HoudiniEngineUnity::JSONNode* aNode;
     // Field size check
-    static_assert(sizeof(HoudiniEngineUnity::JSONNode*) == 0x8);
+    static_assert(sizeof(::HoudiniEngineUnity::JSONNode*) == 0x8);
     public:
-    // Creating conversion operator: operator HoudiniEngineUnity::JSONNode*
-    constexpr operator HoudiniEngineUnity::JSONNode*() const noexcept {
+    // Creating conversion operator: operator ::HoudiniEngineUnity::JSONNode*
+    constexpr operator ::HoudiniEngineUnity::JSONNode*() const noexcept {
       return aNode;
     }
     // Get instance field reference: public HoudiniEngineUnity.JSONNode aNode
-    HoudiniEngineUnity::JSONNode*& dyn_aNode();
+    ::HoudiniEngineUnity::JSONNode*& dyn_aNode();
     // System.Boolean <Remove>b__0(System.Collections.Generic.KeyValuePair`2<System.String,HoudiniEngineUnity.JSONNode> k)
     // Offset: 0x19B4F2C
-    bool $Remove$b__0(System::Collections::Generic::KeyValuePair_2<::StringW, HoudiniEngineUnity::JSONNode*> k);
+    bool $Remove$b__0(::System::Collections::Generic::KeyValuePair_2<::StringW, ::HoudiniEngineUnity::JSONNode*> k);
     // public System.Void .ctor()
     // Offset: 0x19B4BA0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JSONObject::$$c__DisplayClass21_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::JSONObject::$$c__DisplayClass21_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::JSONObject::$$c__DisplayClass21_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JSONObject::$$c__DisplayClass21_0*, creationType>()));
     }
   }; // HoudiniEngineUnity.JSONObject/HoudiniEngineUnity.<>c__DisplayClass21_0
   #pragma pack(pop)
-  static check_size<sizeof(JSONObject::$$c__DisplayClass21_0), 16 + sizeof(HoudiniEngineUnity::JSONNode*)> __HoudiniEngineUnity_JSONObject_$$c__DisplayClass21_0SizeCheck;
+  static check_size<sizeof(JSONObject::$$c__DisplayClass21_0), 16 + sizeof(::HoudiniEngineUnity::JSONNode*)> __HoudiniEngineUnity_JSONObject_$$c__DisplayClass21_0SizeCheck;
   static_assert(sizeof(JSONObject::$$c__DisplayClass21_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONObject::$$c__DisplayClass21_0::$Remove$b__0
 // Il2CppName: <Remove>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::JSONObject::$$c__DisplayClass21_0::*)(System::Collections::Generic::KeyValuePair_2<::StringW, HoudiniEngineUnity::JSONNode*>)>(&HoudiniEngineUnity::JSONObject::$$c__DisplayClass21_0::$Remove$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::JSONObject::$$c__DisplayClass21_0::*)(::System::Collections::Generic::KeyValuePair_2<::StringW, ::HoudiniEngineUnity::JSONNode*>)>(&HoudiniEngineUnity::JSONObject::$$c__DisplayClass21_0::$Remove$b__0)> {
   static const MethodInfo* get() {
     static auto* k = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "KeyValuePair`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "JSONNode")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::JSONObject::$$c__DisplayClass21_0*), "<Remove>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{k});

@@ -13,8 +13,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Resources::ResourceManager::ResourceManagerMediator);
-DEFINE_IL2CPP_ARG_TYPE(System::Resources::ResourceManager::ResourceManagerMediator*, "System.Resources", "ResourceManager/ResourceManagerMediator");
+NEED_NO_BOX(::System::Resources::ResourceManager::ResourceManagerMediator);
+DEFINE_IL2CPP_ARG_TYPE(::System::Resources::ResourceManager::ResourceManagerMediator*, "System.Resources", "ResourceManager/ResourceManagerMediator");
 // Type namespace: System.Resources
 namespace System::Resources {
   // Size: 0x18
@@ -35,26 +35,26 @@ namespace System::Resources {
     // private System.Resources.ResourceManager _rm
     // Size: 0x8
     // Offset: 0x10
-    System::Resources::ResourceManager* rm;
+    ::System::Resources::ResourceManager* rm;
     // Field size check
-    static_assert(sizeof(System::Resources::ResourceManager*) == 0x8);
+    static_assert(sizeof(::System::Resources::ResourceManager*) == 0x8);
     public:
-    // Creating conversion operator: operator System::Resources::ResourceManager*
-    constexpr operator System::Resources::ResourceManager*() const noexcept {
+    // Creating conversion operator: operator ::System::Resources::ResourceManager*
+    constexpr operator ::System::Resources::ResourceManager*() const noexcept {
       return rm;
     }
     // Get instance field reference: private System.Resources.ResourceManager _rm
-    System::Resources::ResourceManager*& dyn__rm();
+    ::System::Resources::ResourceManager*& dyn__rm();
     // System.Void .ctor(System.Resources.ResourceManager rm)
     // Offset: 0x1C63228
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ResourceManager::ResourceManagerMediator* New_ctor(System::Resources::ResourceManager* rm) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Resources::ResourceManager::ResourceManagerMediator::.ctor");
+    static ResourceManager::ResourceManagerMediator* New_ctor(::System::Resources::ResourceManager* rm) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Resources::ResourceManager::ResourceManagerMediator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResourceManager::ResourceManagerMediator*, creationType>(rm)));
     }
   }; // System.Resources.ResourceManager/System.Resources.ResourceManagerMediator
   #pragma pack(pop)
-  static check_size<sizeof(ResourceManager::ResourceManagerMediator), 16 + sizeof(System::Resources::ResourceManager*)> __System_Resources_ResourceManager_ResourceManagerMediatorSizeCheck;
+  static check_size<sizeof(ResourceManager::ResourceManagerMediator), 16 + sizeof(::System::Resources::ResourceManager*)> __System_Resources_ResourceManager_ResourceManagerMediatorSizeCheck;
   static_assert(sizeof(ResourceManager::ResourceManagerMediator) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

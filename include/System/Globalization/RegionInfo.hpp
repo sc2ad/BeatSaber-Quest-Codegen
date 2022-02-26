@@ -24,8 +24,8 @@ namespace System::Globalization {
   class RegionInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Globalization::RegionInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::Globalization::RegionInfo*, "System.Globalization", "RegionInfo");
+NEED_NO_BOX(::System::Globalization::RegionInfo);
+DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::RegionInfo*, "System.Globalization", "RegionInfo");
 // Type namespace: System.Globalization
 namespace System::Globalization {
   // Size: 0x60
@@ -109,9 +109,9 @@ namespace System::Globalization {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get static field: static private System.Globalization.RegionInfo currentRegion
-    static System::Globalization::RegionInfo* _get_currentRegion();
+    static ::System::Globalization::RegionInfo* _get_currentRegion();
     // Set static field: static private System.Globalization.RegionInfo currentRegion
-    static void _set_currentRegion(System::Globalization::RegionInfo* value);
+    static void _set_currentRegion(::System::Globalization::RegionInfo* value);
     // Get instance field reference: private System.Int32 regionId
     int& dyn_regionId();
     // Get instance field reference: private System.String iso2Name
@@ -134,7 +134,7 @@ namespace System::Globalization {
     ::StringW& dyn_currencyNativeName();
     // static public System.Globalization.RegionInfo get_CurrentRegion()
     // Offset: 0x20B95BC
-    static System::Globalization::RegionInfo* get_CurrentRegion();
+    static ::System::Globalization::RegionInfo* get_CurrentRegion();
     // public System.String get_CurrencyEnglishName()
     // Offset: 0x20B9B08
     ::StringW get_CurrencyEnglishName();
@@ -178,26 +178,26 @@ namespace System::Globalization {
     // Offset: 0x20B97E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegionInfo* New_ctor(int culture) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::RegionInfo::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Globalization::RegionInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegionInfo*, creationType>(culture)));
     }
     // public System.Void .ctor(System.String name)
     // Offset: 0x20B99C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegionInfo* New_ctor(::StringW name) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::RegionInfo::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Globalization::RegionInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegionInfo*, creationType>(name)));
     }
     // private System.Void .ctor(System.Globalization.CultureInfo ci)
     // Offset: 0x20B968C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static RegionInfo* New_ctor(System::Globalization::CultureInfo* ci) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::RegionInfo::.ctor");
+    static RegionInfo* New_ctor(::System::Globalization::CultureInfo* ci) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Globalization::RegionInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegionInfo*, creationType>(ci)));
     }
     // private System.Boolean GetByTerritory(System.Globalization.CultureInfo ci)
     // Offset: 0x20B98F0
-    bool GetByTerritory(System::Globalization::CultureInfo* ci);
+    bool GetByTerritory(::System::Globalization::CultureInfo* ci);
     // private System.Boolean construct_internal_region_from_name(System.String name)
     // Offset: 0x20B9B04
     bool construct_internal_region_from_name(::StringW name);
@@ -228,7 +228,7 @@ namespace System::Globalization {
 // Writing MetadataGetter for method: System::Globalization::RegionInfo::get_CurrentRegion
 // Il2CppName: get_CurrentRegion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::RegionInfo* (*)()>(&System::Globalization::RegionInfo::get_CurrentRegion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::RegionInfo* (*)()>(&System::Globalization::RegionInfo::get_CurrentRegion)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::RegionInfo*), "get_CurrentRegion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -352,7 +352,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Globalization::RegionInfo::GetByTerritory
 // Il2CppName: GetByTerritory
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Globalization::RegionInfo::*)(System::Globalization::CultureInfo*)>(&System::Globalization::RegionInfo::GetByTerritory)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Globalization::RegionInfo::*)(::System::Globalization::CultureInfo*)>(&System::Globalization::RegionInfo::GetByTerritory)> {
   static const MethodInfo* get() {
     static auto* ci = &::il2cpp_utils::GetClassFromName("System.Globalization", "CultureInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::RegionInfo*), "GetByTerritory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ci});

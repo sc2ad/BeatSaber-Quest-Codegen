@@ -21,8 +21,8 @@ namespace NUnit::Framework::Constraints {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Constraints::MsgUtils::$$c);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::MsgUtils::$$c*, "NUnit.Framework.Constraints", "MsgUtils/<>c");
+NEED_NO_BOX(::NUnit::Framework::Constraints::MsgUtils::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::NUnit::Framework::Constraints::MsgUtils::$$c*, "NUnit.Framework.Constraints", "MsgUtils/<>c");
 // Type namespace: NUnit.Framework.Constraints
 namespace NUnit::Framework::Constraints {
   // Size: 0x10
@@ -33,9 +33,9 @@ namespace NUnit::Framework::Constraints {
   class MsgUtils::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly NUnit.Framework.Constraints.MsgUtils/NUnit.Framework.Constraints.<>c <>9
-    static NUnit::Framework::Constraints::MsgUtils::$$c* _get_$$9();
+    static ::NUnit::Framework::Constraints::MsgUtils::$$c* _get_$$9();
     // Set static field: static public readonly NUnit.Framework.Constraints.MsgUtils/NUnit.Framework.Constraints.<>c <>9
-    static void _set_$$9(NUnit::Framework::Constraints::MsgUtils::$$c* value);
+    static void _set_$$9(::NUnit::Framework::Constraints::MsgUtils::$$c* value);
     // static private System.Void .cctor()
     // Offset: 0x1B53B04
     static void _cctor();
@@ -44,41 +44,41 @@ namespace NUnit::Framework::Constraints {
     ::StringW $_cctor$b__14_0(::Il2CppObject* val);
     // NUnit.Framework.Constraints.ValueFormatter <.cctor>b__14_1(NUnit.Framework.Constraints.ValueFormatter next)
     // Offset: 0x1B53BE4
-    NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__14_1(NUnit::Framework::Constraints::ValueFormatter* next);
+    ::NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__14_1(::NUnit::Framework::Constraints::ValueFormatter* next);
     // NUnit.Framework.Constraints.ValueFormatter <.cctor>b__14_2(NUnit.Framework.Constraints.ValueFormatter next)
     // Offset: 0x1B53C7C
-    NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__14_2(NUnit::Framework::Constraints::ValueFormatter* next);
+    ::NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__14_2(::NUnit::Framework::Constraints::ValueFormatter* next);
     // NUnit.Framework.Constraints.ValueFormatter <.cctor>b__14_3(NUnit.Framework.Constraints.ValueFormatter next)
     // Offset: 0x1B53D14
-    NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__14_3(NUnit::Framework::Constraints::ValueFormatter* next);
+    ::NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__14_3(::NUnit::Framework::Constraints::ValueFormatter* next);
     // NUnit.Framework.Constraints.ValueFormatter <.cctor>b__14_4(NUnit.Framework.Constraints.ValueFormatter next)
     // Offset: 0x1B53DAC
-    NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__14_4(NUnit::Framework::Constraints::ValueFormatter* next);
+    ::NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__14_4(::NUnit::Framework::Constraints::ValueFormatter* next);
     // NUnit.Framework.Constraints.ValueFormatter <.cctor>b__14_5(NUnit.Framework.Constraints.ValueFormatter next)
     // Offset: 0x1B53E44
-    NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__14_5(NUnit::Framework::Constraints::ValueFormatter* next);
+    ::NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__14_5(::NUnit::Framework::Constraints::ValueFormatter* next);
     // NUnit.Framework.Constraints.ValueFormatter <.cctor>b__14_6(NUnit.Framework.Constraints.ValueFormatter next)
     // Offset: 0x1B53EDC
-    NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__14_6(NUnit::Framework::Constraints::ValueFormatter* next);
+    ::NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__14_6(::NUnit::Framework::Constraints::ValueFormatter* next);
     // NUnit.Framework.Constraints.ValueFormatter <.cctor>b__14_7(NUnit.Framework.Constraints.ValueFormatter next)
     // Offset: 0x1B53F74
-    NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__14_7(NUnit::Framework::Constraints::ValueFormatter* next);
+    ::NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__14_7(::NUnit::Framework::Constraints::ValueFormatter* next);
     // NUnit.Framework.Constraints.ValueFormatter <.cctor>b__14_8(NUnit.Framework.Constraints.ValueFormatter next)
     // Offset: 0x1B5400C
-    NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__14_8(NUnit::Framework::Constraints::ValueFormatter* next);
+    ::NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__14_8(::NUnit::Framework::Constraints::ValueFormatter* next);
     // NUnit.Framework.Constraints.ValueFormatter <.cctor>b__14_9(NUnit.Framework.Constraints.ValueFormatter next)
     // Offset: 0x1B540A4
-    NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__14_9(NUnit::Framework::Constraints::ValueFormatter* next);
+    ::NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__14_9(::NUnit::Framework::Constraints::ValueFormatter* next);
     // NUnit.Framework.Constraints.ValueFormatter <.cctor>b__14_10(NUnit.Framework.Constraints.ValueFormatter next)
     // Offset: 0x1B5413C
-    NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__14_10(NUnit::Framework::Constraints::ValueFormatter* next);
+    ::NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__14_10(::NUnit::Framework::Constraints::ValueFormatter* next);
     // public System.Void .ctor()
     // Offset: 0x1B53B68
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MsgUtils::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::MsgUtils::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Constraints::MsgUtils::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MsgUtils::$$c*, creationType>()));
     }
   }; // NUnit.Framework.Constraints.MsgUtils/NUnit.Framework.Constraints.<>c
@@ -105,7 +105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::MsgUtils::$$c::$_cctor$b__14_1
 // Il2CppName: <.cctor>b__14_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::ValueFormatter* (NUnit::Framework::Constraints::MsgUtils::$$c::*)(NUnit::Framework::Constraints::ValueFormatter*)>(&NUnit::Framework::Constraints::MsgUtils::$$c::$_cctor$b__14_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Framework::Constraints::ValueFormatter* (NUnit::Framework::Constraints::MsgUtils::$$c::*)(::NUnit::Framework::Constraints::ValueFormatter*)>(&NUnit::Framework::Constraints::MsgUtils::$$c::$_cctor$b__14_1)> {
   static const MethodInfo* get() {
     static auto* next = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Constraints", "ValueFormatter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils::$$c*), "<.cctor>b__14_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{next});
@@ -114,7 +114,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::MsgUtils::$$c::$_cctor$b__14_2
 // Il2CppName: <.cctor>b__14_2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::ValueFormatter* (NUnit::Framework::Constraints::MsgUtils::$$c::*)(NUnit::Framework::Constraints::ValueFormatter*)>(&NUnit::Framework::Constraints::MsgUtils::$$c::$_cctor$b__14_2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Framework::Constraints::ValueFormatter* (NUnit::Framework::Constraints::MsgUtils::$$c::*)(::NUnit::Framework::Constraints::ValueFormatter*)>(&NUnit::Framework::Constraints::MsgUtils::$$c::$_cctor$b__14_2)> {
   static const MethodInfo* get() {
     static auto* next = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Constraints", "ValueFormatter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils::$$c*), "<.cctor>b__14_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{next});
@@ -123,7 +123,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::MsgUtils::$$c::$_cctor$b__14_3
 // Il2CppName: <.cctor>b__14_3
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::ValueFormatter* (NUnit::Framework::Constraints::MsgUtils::$$c::*)(NUnit::Framework::Constraints::ValueFormatter*)>(&NUnit::Framework::Constraints::MsgUtils::$$c::$_cctor$b__14_3)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Framework::Constraints::ValueFormatter* (NUnit::Framework::Constraints::MsgUtils::$$c::*)(::NUnit::Framework::Constraints::ValueFormatter*)>(&NUnit::Framework::Constraints::MsgUtils::$$c::$_cctor$b__14_3)> {
   static const MethodInfo* get() {
     static auto* next = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Constraints", "ValueFormatter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils::$$c*), "<.cctor>b__14_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{next});
@@ -132,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::MsgUtils::$$c::$_cctor$b__14_4
 // Il2CppName: <.cctor>b__14_4
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::ValueFormatter* (NUnit::Framework::Constraints::MsgUtils::$$c::*)(NUnit::Framework::Constraints::ValueFormatter*)>(&NUnit::Framework::Constraints::MsgUtils::$$c::$_cctor$b__14_4)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Framework::Constraints::ValueFormatter* (NUnit::Framework::Constraints::MsgUtils::$$c::*)(::NUnit::Framework::Constraints::ValueFormatter*)>(&NUnit::Framework::Constraints::MsgUtils::$$c::$_cctor$b__14_4)> {
   static const MethodInfo* get() {
     static auto* next = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Constraints", "ValueFormatter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils::$$c*), "<.cctor>b__14_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{next});
@@ -141,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::MsgUtils::$$c::$_cctor$b__14_5
 // Il2CppName: <.cctor>b__14_5
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::ValueFormatter* (NUnit::Framework::Constraints::MsgUtils::$$c::*)(NUnit::Framework::Constraints::ValueFormatter*)>(&NUnit::Framework::Constraints::MsgUtils::$$c::$_cctor$b__14_5)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Framework::Constraints::ValueFormatter* (NUnit::Framework::Constraints::MsgUtils::$$c::*)(::NUnit::Framework::Constraints::ValueFormatter*)>(&NUnit::Framework::Constraints::MsgUtils::$$c::$_cctor$b__14_5)> {
   static const MethodInfo* get() {
     static auto* next = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Constraints", "ValueFormatter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils::$$c*), "<.cctor>b__14_5", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{next});
@@ -150,7 +150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::MsgUtils::$$c::$_cctor$b__14_6
 // Il2CppName: <.cctor>b__14_6
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::ValueFormatter* (NUnit::Framework::Constraints::MsgUtils::$$c::*)(NUnit::Framework::Constraints::ValueFormatter*)>(&NUnit::Framework::Constraints::MsgUtils::$$c::$_cctor$b__14_6)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Framework::Constraints::ValueFormatter* (NUnit::Framework::Constraints::MsgUtils::$$c::*)(::NUnit::Framework::Constraints::ValueFormatter*)>(&NUnit::Framework::Constraints::MsgUtils::$$c::$_cctor$b__14_6)> {
   static const MethodInfo* get() {
     static auto* next = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Constraints", "ValueFormatter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils::$$c*), "<.cctor>b__14_6", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{next});
@@ -159,7 +159,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::MsgUtils::$$c::$_cctor$b__14_7
 // Il2CppName: <.cctor>b__14_7
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::ValueFormatter* (NUnit::Framework::Constraints::MsgUtils::$$c::*)(NUnit::Framework::Constraints::ValueFormatter*)>(&NUnit::Framework::Constraints::MsgUtils::$$c::$_cctor$b__14_7)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Framework::Constraints::ValueFormatter* (NUnit::Framework::Constraints::MsgUtils::$$c::*)(::NUnit::Framework::Constraints::ValueFormatter*)>(&NUnit::Framework::Constraints::MsgUtils::$$c::$_cctor$b__14_7)> {
   static const MethodInfo* get() {
     static auto* next = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Constraints", "ValueFormatter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils::$$c*), "<.cctor>b__14_7", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{next});
@@ -168,7 +168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::MsgUtils::$$c::$_cctor$b__14_8
 // Il2CppName: <.cctor>b__14_8
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::ValueFormatter* (NUnit::Framework::Constraints::MsgUtils::$$c::*)(NUnit::Framework::Constraints::ValueFormatter*)>(&NUnit::Framework::Constraints::MsgUtils::$$c::$_cctor$b__14_8)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Framework::Constraints::ValueFormatter* (NUnit::Framework::Constraints::MsgUtils::$$c::*)(::NUnit::Framework::Constraints::ValueFormatter*)>(&NUnit::Framework::Constraints::MsgUtils::$$c::$_cctor$b__14_8)> {
   static const MethodInfo* get() {
     static auto* next = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Constraints", "ValueFormatter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils::$$c*), "<.cctor>b__14_8", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{next});
@@ -177,7 +177,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::MsgUtils::$$c::$_cctor$b__14_9
 // Il2CppName: <.cctor>b__14_9
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::ValueFormatter* (NUnit::Framework::Constraints::MsgUtils::$$c::*)(NUnit::Framework::Constraints::ValueFormatter*)>(&NUnit::Framework::Constraints::MsgUtils::$$c::$_cctor$b__14_9)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Framework::Constraints::ValueFormatter* (NUnit::Framework::Constraints::MsgUtils::$$c::*)(::NUnit::Framework::Constraints::ValueFormatter*)>(&NUnit::Framework::Constraints::MsgUtils::$$c::$_cctor$b__14_9)> {
   static const MethodInfo* get() {
     static auto* next = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Constraints", "ValueFormatter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils::$$c*), "<.cctor>b__14_9", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{next});
@@ -186,7 +186,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::MsgUtils::$$c::$_cctor$b__14_10
 // Il2CppName: <.cctor>b__14_10
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::ValueFormatter* (NUnit::Framework::Constraints::MsgUtils::$$c::*)(NUnit::Framework::Constraints::ValueFormatter*)>(&NUnit::Framework::Constraints::MsgUtils::$$c::$_cctor$b__14_10)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Framework::Constraints::ValueFormatter* (NUnit::Framework::Constraints::MsgUtils::$$c::*)(::NUnit::Framework::Constraints::ValueFormatter*)>(&NUnit::Framework::Constraints::MsgUtils::$$c::$_cctor$b__14_10)> {
   static const MethodInfo* get() {
     static auto* next = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Constraints", "ValueFormatter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils::$$c*), "<.cctor>b__14_10", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{next});

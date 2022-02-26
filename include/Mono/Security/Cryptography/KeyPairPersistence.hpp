@@ -24,8 +24,8 @@ namespace Mono::Security::Cryptography {
   class KeyPairPersistence;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Security::Cryptography::KeyPairPersistence);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::KeyPairPersistence*, "Mono.Security.Cryptography", "KeyPairPersistence");
+NEED_NO_BOX(::Mono::Security::Cryptography::KeyPairPersistence);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Cryptography::KeyPairPersistence*, "Mono.Security.Cryptography", "KeyPairPersistence");
 // Type namespace: Mono.Security.Cryptography
 namespace Mono::Security::Cryptography {
   // Size: 0x30
@@ -46,9 +46,9 @@ namespace Mono::Security::Cryptography {
     // private System.Security.Cryptography.CspParameters _params
     // Size: 0x8
     // Offset: 0x10
-    System::Security::Cryptography::CspParameters* params;
+    ::System::Security::Cryptography::CspParameters* params;
     // Field size check
-    static_assert(sizeof(System::Security::Cryptography::CspParameters*) == 0x8);
+    static_assert(sizeof(::System::Security::Cryptography::CspParameters*) == 0x8);
     // private System.String _keyvalue
     // Size: 0x8
     // Offset: 0x18
@@ -89,7 +89,7 @@ namespace Mono::Security::Cryptography {
     // Set static field: static private System.Object lockobj
     static void _set_lockobj(::Il2CppObject* value);
     // Get instance field reference: private System.Security.Cryptography.CspParameters _params
-    System::Security::Cryptography::CspParameters*& dyn__params();
+    ::System::Security::Cryptography::CspParameters*& dyn__params();
     // Get instance field reference: private System.String _keyvalue
     ::StringW& dyn__keyvalue();
     // Get instance field reference: private System.String _filename
@@ -126,15 +126,15 @@ namespace Mono::Security::Cryptography {
     // public System.Void .ctor(System.Security.Cryptography.CspParameters parameters)
     // Offset: 0x1E7AE04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static KeyPairPersistence* New_ctor(System::Security::Cryptography::CspParameters* parameters) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Cryptography::KeyPairPersistence::.ctor");
+    static KeyPairPersistence* New_ctor(::System::Security::Cryptography::CspParameters* parameters) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::Cryptography::KeyPairPersistence::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeyPairPersistence*, creationType>(parameters)));
     }
     // public System.Void .ctor(System.Security.Cryptography.CspParameters parameters, System.String keyPair)
     // Offset: 0x1E7AE0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static KeyPairPersistence* New_ctor(System::Security::Cryptography::CspParameters* parameters, ::StringW keyPair) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Cryptography::KeyPairPersistence::.ctor");
+    static KeyPairPersistence* New_ctor(::System::Security::Cryptography::CspParameters* parameters, ::StringW keyPair) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::Cryptography::KeyPairPersistence::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeyPairPersistence*, creationType>(parameters, keyPair)));
     }
     // static private System.Void .cctor()
@@ -181,7 +181,7 @@ namespace Mono::Security::Cryptography {
     static bool IsMachineProtected(::StringW path);
     // private System.Security.Cryptography.CspParameters Copy(System.Security.Cryptography.CspParameters p)
     // Offset: 0x1E7AEB4
-    System::Security::Cryptography::CspParameters* Copy(System::Security::Cryptography::CspParameters* p);
+    ::System::Security::Cryptography::CspParameters* Copy(::System::Security::Cryptography::CspParameters* p);
     // private System.Void FromXml(System.String xml)
     // Offset: 0x1E7BDE4
     void FromXml(::StringW xml);
@@ -400,7 +400,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: Mono::Security::Cryptography::KeyPairPersistence::Copy
 // Il2CppName: Copy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::CspParameters* (Mono::Security::Cryptography::KeyPairPersistence::*)(System::Security::Cryptography::CspParameters*)>(&Mono::Security::Cryptography::KeyPairPersistence::Copy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::CspParameters* (Mono::Security::Cryptography::KeyPairPersistence::*)(::System::Security::Cryptography::CspParameters*)>(&Mono::Security::Cryptography::KeyPairPersistence::Copy)> {
   static const MethodInfo* get() {
     static auto* p = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography", "CspParameters")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::KeyPairPersistence*), "Copy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{p});

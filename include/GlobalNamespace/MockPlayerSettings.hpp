@@ -21,8 +21,8 @@ namespace GlobalNamespace {
   class MockPlayerSettings;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MockPlayerSettings);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockPlayerSettings*, "", "MockPlayerSettings");
+NEED_NO_BOX(::GlobalNamespace::MockPlayerSettings);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MockPlayerSettings*, "", "MockPlayerSettings");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x70
@@ -81,9 +81,9 @@ namespace GlobalNamespace {
     // private MockPlayerMovementType _movementType
     // Size: 0x4
     // Offset: 0x2C
-    GlobalNamespace::MockPlayerMovementType movementType;
+    ::GlobalNamespace::MockPlayerMovementType movementType;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::MockPlayerMovementType) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::MockPlayerMovementType) == 0x4);
     // private System.String _recodingFile
     // Size: 0x8
     // Offset: 0x30
@@ -108,21 +108,21 @@ namespace GlobalNamespace {
     // private UnityEngine.Color _saberAColor
     // Size: 0x10
     // Offset: 0x40
-    UnityEngine::Color saberAColor;
+    ::UnityEngine::Color saberAColor;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     // private UnityEngine.Color _saberBColor
     // Size: 0x10
     // Offset: 0x50
-    UnityEngine::Color saberBColor;
+    ::UnityEngine::Color saberBColor;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     // private UnityEngine.Color _obstaclesColor
     // Size: 0x10
     // Offset: 0x60
-    UnityEngine::Color obstaclesColor;
+    ::UnityEngine::Color obstaclesColor;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     public:
     // Get instance field reference: private System.String _userName
     ::StringW& dyn__userName();
@@ -137,7 +137,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _inactiveByDefault
     bool& dyn__inactiveByDefault();
     // Get instance field reference: private MockPlayerMovementType _movementType
-    GlobalNamespace::MockPlayerMovementType& dyn__movementType();
+    ::GlobalNamespace::MockPlayerMovementType& dyn__movementType();
     // Get instance field reference: private System.String _recodingFile
     ::StringW& dyn__recodingFile();
     // Get instance field reference: private System.Single _aiCubeHitChance
@@ -145,11 +145,11 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _leftHanded
     bool& dyn__leftHanded();
     // Get instance field reference: private UnityEngine.Color _saberAColor
-    UnityEngine::Color& dyn__saberAColor();
+    ::UnityEngine::Color& dyn__saberAColor();
     // Get instance field reference: private UnityEngine.Color _saberBColor
-    UnityEngine::Color& dyn__saberBColor();
+    ::UnityEngine::Color& dyn__saberBColor();
     // Get instance field reference: private UnityEngine.Color _obstaclesColor
-    UnityEngine::Color& dyn__obstaclesColor();
+    ::UnityEngine::Color& dyn__obstaclesColor();
     // public System.String get_userName()
     // Offset: 0x142679C
     ::StringW get_userName();
@@ -188,10 +188,10 @@ namespace GlobalNamespace {
     void set_inactiveByDefault(bool value);
     // public MockPlayerMovementType get_movementType()
     // Offset: 0x1426804
-    GlobalNamespace::MockPlayerMovementType get_movementType();
+    ::GlobalNamespace::MockPlayerMovementType get_movementType();
     // public System.Void set_movementType(MockPlayerMovementType value)
     // Offset: 0x142680C
-    void set_movementType(GlobalNamespace::MockPlayerMovementType value);
+    void set_movementType(::GlobalNamespace::MockPlayerMovementType value);
     // public System.String get_recodingFile()
     // Offset: 0x1426814
     ::StringW get_recodingFile();
@@ -212,34 +212,34 @@ namespace GlobalNamespace {
     void set_leftHanded(bool value);
     // public UnityEngine.Color get_saberAColor()
     // Offset: 0x1426848
-    UnityEngine::Color get_saberAColor();
+    ::UnityEngine::Color get_saberAColor();
     // public System.Void set_saberAColor(UnityEngine.Color value)
     // Offset: 0x1426854
-    void set_saberAColor(UnityEngine::Color value);
+    void set_saberAColor(::UnityEngine::Color value);
     // public UnityEngine.Color get_saberBColor()
     // Offset: 0x1426860
-    UnityEngine::Color get_saberBColor();
+    ::UnityEngine::Color get_saberBColor();
     // public System.Void set_saberBColor(UnityEngine.Color value)
     // Offset: 0x142686C
-    void set_saberBColor(UnityEngine::Color value);
+    void set_saberBColor(::UnityEngine::Color value);
     // public UnityEngine.Color get_obstaclesColor()
     // Offset: 0x1426878
-    UnityEngine::Color get_obstaclesColor();
+    ::UnityEngine::Color get_obstaclesColor();
     // public System.Void set_obstaclesColor(UnityEngine.Color value)
     // Offset: 0x1426884
-    void set_obstaclesColor(UnityEngine::Color value);
+    void set_obstaclesColor(::UnityEngine::Color value);
     // public System.Void .ctor()
     // Offset: 0x1426890
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockPlayerSettings* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MockPlayerSettings::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MockPlayerSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockPlayerSettings*, creationType>()));
     }
   }; // MockPlayerSettings
   #pragma pack(pop)
-  static check_size<sizeof(MockPlayerSettings), 96 + sizeof(UnityEngine::Color)> __GlobalNamespace_MockPlayerSettingsSizeCheck;
+  static check_size<sizeof(MockPlayerSettings), 96 + sizeof(::UnityEngine::Color)> __GlobalNamespace_MockPlayerSettingsSizeCheck;
   static_assert(sizeof(MockPlayerSettings) == 0x70);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -348,7 +348,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerSettings::get_movementType
 // Il2CppName: get_movementType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MockPlayerMovementType (GlobalNamespace::MockPlayerSettings::*)()>(&GlobalNamespace::MockPlayerSettings::get_movementType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MockPlayerMovementType (GlobalNamespace::MockPlayerSettings::*)()>(&GlobalNamespace::MockPlayerSettings::get_movementType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerSettings*), "get_movementType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -356,7 +356,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerSettings::set_movementType
 // Il2CppName: set_movementType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerSettings::*)(GlobalNamespace::MockPlayerMovementType)>(&GlobalNamespace::MockPlayerSettings::set_movementType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerSettings::*)(::GlobalNamespace::MockPlayerMovementType)>(&GlobalNamespace::MockPlayerSettings::set_movementType)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "MockPlayerMovementType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerSettings*), "set_movementType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -416,7 +416,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerSettings::get_saberAColor
 // Il2CppName: get_saberAColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::MockPlayerSettings::*)()>(&GlobalNamespace::MockPlayerSettings::get_saberAColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (GlobalNamespace::MockPlayerSettings::*)()>(&GlobalNamespace::MockPlayerSettings::get_saberAColor)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerSettings*), "get_saberAColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -424,7 +424,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerSettings::set_saberAColor
 // Il2CppName: set_saberAColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerSettings::*)(UnityEngine::Color)>(&GlobalNamespace::MockPlayerSettings::set_saberAColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerSettings::*)(::UnityEngine::Color)>(&GlobalNamespace::MockPlayerSettings::set_saberAColor)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerSettings*), "set_saberAColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -433,7 +433,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerSettings::get_saberBColor
 // Il2CppName: get_saberBColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::MockPlayerSettings::*)()>(&GlobalNamespace::MockPlayerSettings::get_saberBColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (GlobalNamespace::MockPlayerSettings::*)()>(&GlobalNamespace::MockPlayerSettings::get_saberBColor)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerSettings*), "get_saberBColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -441,7 +441,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerSettings::set_saberBColor
 // Il2CppName: set_saberBColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerSettings::*)(UnityEngine::Color)>(&GlobalNamespace::MockPlayerSettings::set_saberBColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerSettings::*)(::UnityEngine::Color)>(&GlobalNamespace::MockPlayerSettings::set_saberBColor)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerSettings*), "set_saberBColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -450,7 +450,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerSettings::get_obstaclesColor
 // Il2CppName: get_obstaclesColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::MockPlayerSettings::*)()>(&GlobalNamespace::MockPlayerSettings::get_obstaclesColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (GlobalNamespace::MockPlayerSettings::*)()>(&GlobalNamespace::MockPlayerSettings::get_obstaclesColor)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerSettings*), "get_obstaclesColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -458,7 +458,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerSettings::set_obstaclesColor
 // Il2CppName: set_obstaclesColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerSettings::*)(UnityEngine::Color)>(&GlobalNamespace::MockPlayerSettings::set_obstaclesColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerSettings::*)(::UnityEngine::Color)>(&GlobalNamespace::MockPlayerSettings::set_obstaclesColor)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerSettings*), "set_obstaclesColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

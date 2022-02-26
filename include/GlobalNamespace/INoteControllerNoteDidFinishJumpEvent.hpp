@@ -18,8 +18,8 @@ namespace GlobalNamespace {
   class INoteControllerNoteDidFinishJumpEvent;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::INoteControllerNoteDidFinishJumpEvent);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::INoteControllerNoteDidFinishJumpEvent*, "", "INoteControllerNoteDidFinishJumpEvent");
+NEED_NO_BOX(::GlobalNamespace::INoteControllerNoteDidFinishJumpEvent);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::INoteControllerNoteDidFinishJumpEvent*, "", "INoteControllerNoteDidFinishJumpEvent");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -30,7 +30,7 @@ namespace GlobalNamespace {
     public:
     // public System.Void HandleNoteControllerNoteDidFinishJump(NoteController noteController)
     // Offset: 0xFFFFFFFF
-    void HandleNoteControllerNoteDidFinishJump(GlobalNamespace::NoteController* noteController);
+    void HandleNoteControllerNoteDidFinishJump(::GlobalNamespace::NoteController* noteController);
   }; // INoteControllerNoteDidFinishJumpEvent
   #pragma pack(pop)
 }
@@ -38,7 +38,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::INoteControllerNoteDidFinishJumpEvent::HandleNoteControllerNoteDidFinishJump
 // Il2CppName: HandleNoteControllerNoteDidFinishJump
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::INoteControllerNoteDidFinishJumpEvent::*)(GlobalNamespace::NoteController*)>(&GlobalNamespace::INoteControllerNoteDidFinishJumpEvent::HandleNoteControllerNoteDidFinishJump)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::INoteControllerNoteDidFinishJumpEvent::*)(::GlobalNamespace::NoteController*)>(&GlobalNamespace::INoteControllerNoteDidFinishJumpEvent::HandleNoteControllerNoteDidFinishJump)> {
   static const MethodInfo* get() {
     static auto* noteController = &::il2cpp_utils::GetClassFromName("", "NoteController")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INoteControllerNoteDidFinishJumpEvent*), "HandleNoteControllerNoteDidFinishJump", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteController});

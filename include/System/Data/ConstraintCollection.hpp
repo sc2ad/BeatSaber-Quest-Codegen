@@ -47,8 +47,8 @@ namespace System::Data {
   class ConstraintCollection;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Data::ConstraintCollection);
-DEFINE_IL2CPP_ARG_TYPE(System::Data::ConstraintCollection*, "System.Data", "ConstraintCollection");
+NEED_NO_BOX(::System::Data::ConstraintCollection);
+DEFINE_IL2CPP_ARG_TYPE(::System::Data::ConstraintCollection*, "System.Data", "ConstraintCollection");
 // Type namespace: System.Data
 namespace System::Data {
   // Size: 0x39
@@ -57,7 +57,7 @@ namespace System::Data {
   // [TokenAttribute] Offset: FFFFFFFF
   // [DefaultEventAttribute] Offset: 11D0170
   // [DefaultMemberAttribute] Offset: 11D0170
-  class ConstraintCollection : public System::Data::InternalDataCollectionBase {
+  class ConstraintCollection : public ::System::Data::InternalDataCollectionBase {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -71,15 +71,15 @@ namespace System::Data {
     // private readonly System.Data.DataTable _table
     // Size: 0x8
     // Offset: 0x10
-    System::Data::DataTable* table;
+    ::System::Data::DataTable* table;
     // Field size check
-    static_assert(sizeof(System::Data::DataTable*) == 0x8);
+    static_assert(sizeof(::System::Data::DataTable*) == 0x8);
     // private readonly System.Collections.ArrayList _list
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::ArrayList* list;
+    ::System::Collections::ArrayList* list;
     // Field size check
-    static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
+    static_assert(sizeof(::System::Collections::ArrayList*) == 0x8);
     // private System.Int32 _defaultNameIndex
     // Size: 0x4
     // Offset: 0x20
@@ -91,15 +91,15 @@ namespace System::Data {
     // private System.ComponentModel.CollectionChangeEventHandler _onCollectionChanged
     // Size: 0x8
     // Offset: 0x28
-    System::ComponentModel::CollectionChangeEventHandler* onCollectionChanged;
+    ::System::ComponentModel::CollectionChangeEventHandler* onCollectionChanged;
     // Field size check
-    static_assert(sizeof(System::ComponentModel::CollectionChangeEventHandler*) == 0x8);
+    static_assert(sizeof(::System::ComponentModel::CollectionChangeEventHandler*) == 0x8);
     // private System.Data.Constraint[] _delayLoadingConstraints
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayW<System::Data::Constraint*> delayLoadingConstraints;
+    ::ArrayW<::System::Data::Constraint*> delayLoadingConstraints;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::Data::Constraint*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::System::Data::Constraint*>) == 0x8);
     // private System.Boolean _fLoadForeignKeyConstraintsOnly
     // Size: 0x1
     // Offset: 0x38
@@ -108,72 +108,72 @@ namespace System::Data {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private readonly System.Data.DataTable _table
-    System::Data::DataTable*& dyn__table();
+    ::System::Data::DataTable*& dyn__table();
     // Get instance field reference: private readonly System.Collections.ArrayList _list
-    System::Collections::ArrayList*& dyn__list();
+    ::System::Collections::ArrayList*& dyn__list();
     // Get instance field reference: private System.Int32 _defaultNameIndex
     int& dyn__defaultNameIndex();
     // Get instance field reference: private System.ComponentModel.CollectionChangeEventHandler _onCollectionChanged
-    System::ComponentModel::CollectionChangeEventHandler*& dyn__onCollectionChanged();
+    ::System::ComponentModel::CollectionChangeEventHandler*& dyn__onCollectionChanged();
     // Get instance field reference: private System.Data.Constraint[] _delayLoadingConstraints
-    ::ArrayW<System::Data::Constraint*>& dyn__delayLoadingConstraints();
+    ::ArrayW<::System::Data::Constraint*>& dyn__delayLoadingConstraints();
     // Get instance field reference: private System.Boolean _fLoadForeignKeyConstraintsOnly
     bool& dyn__fLoadForeignKeyConstraintsOnly();
     // public System.Data.Constraint get_Item(System.Int32 index)
     // Offset: 0x1E48AB4
-    System::Data::Constraint* get_Item(int index);
+    ::System::Data::Constraint* get_Item(int index);
     // System.Data.DataTable get_Table()
     // Offset: 0x1E48BB4
-    System::Data::DataTable* get_Table();
+    ::System::Data::DataTable* get_Table();
     // public System.Data.Constraint get_Item(System.String name)
     // Offset: 0x1E48BBC
-    System::Data::Constraint* get_Item(::StringW name);
+    ::System::Data::Constraint* get_Item(::StringW name);
     // System.Void .ctor(System.Data.DataTable table)
     // Offset: 0x1E48A08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ConstraintCollection* New_ctor(System::Data::DataTable* table) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Data::ConstraintCollection::.ctor");
+    static ConstraintCollection* New_ctor(::System::Data::DataTable* table) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Data::ConstraintCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConstraintCollection*, creationType>(table)));
     }
     // public System.Void Add(System.Data.Constraint constraint)
     // Offset: 0x1E48E20
-    void Add(System::Data::Constraint* constraint);
+    void Add(::System::Data::Constraint* constraint);
     // System.Void Add(System.Data.Constraint constraint, System.Boolean addUniqueWhenAddingForeign)
     // Offset: 0x1E48E28
-    void Add(System::Data::Constraint* constraint, bool addUniqueWhenAddingForeign);
+    void Add(::System::Data::Constraint* constraint, bool addUniqueWhenAddingForeign);
     // public System.Data.Constraint Add(System.String name, System.Data.DataColumn[] columns, System.Boolean primaryKey)
     // Offset: 0x1E49848
-    System::Data::Constraint* Add(::StringW name, ::ArrayW<System::Data::DataColumn*> columns, bool primaryKey);
+    ::System::Data::Constraint* Add(::StringW name, ::ArrayW<::System::Data::DataColumn*> columns, bool primaryKey);
     // private System.Void AddUniqueConstraint(System.Data.UniqueConstraint constraint)
     // Offset: 0x1E49418
-    void AddUniqueConstraint(System::Data::UniqueConstraint* constraint);
+    void AddUniqueConstraint(::System::Data::UniqueConstraint* constraint);
     // private System.Void AddForeignKeyConstraint(System.Data.ForeignKeyConstraint constraint)
     // Offset: 0x1E49664
-    void AddForeignKeyConstraint(System::Data::ForeignKeyConstraint* constraint);
+    void AddForeignKeyConstraint(::System::Data::ForeignKeyConstraint* constraint);
     // private System.Boolean AutoGenerated(System.Data.Constraint constraint)
     // Offset: 0x1E4934C
-    bool AutoGenerated(System::Data::Constraint* constraint);
+    bool AutoGenerated(::System::Data::Constraint* constraint);
     // private System.Void ArrayAdd(System.Data.Constraint constraint)
     // Offset: 0x1E497E4
-    void ArrayAdd(System::Data::Constraint* constraint);
+    void ArrayAdd(::System::Data::Constraint* constraint);
     // private System.Void ArrayRemove(System.Data.Constraint constraint)
     // Offset: 0x1E498F8
-    void ArrayRemove(System::Data::Constraint* constraint);
+    void ArrayRemove(::System::Data::Constraint* constraint);
     // System.String AssignName()
     // Offset: 0x1E49634
     ::StringW AssignName();
     // private System.Void BaseAdd(System.Data.Constraint constraint)
     // Offset: 0x1E496F8
-    void BaseAdd(System::Data::Constraint* constraint);
+    void BaseAdd(::System::Data::Constraint* constraint);
     // private System.Void BaseGroupSwitch(System.Data.Constraint[] oldArray, System.Int32 oldLength, System.Data.Constraint[] newArray, System.Int32 newLength)
     // Offset: 0x1E499F4
-    void BaseGroupSwitch(::ArrayW<System::Data::Constraint*> oldArray, int oldLength, ::ArrayW<System::Data::Constraint*> newArray, int newLength);
+    void BaseGroupSwitch(::ArrayW<::System::Data::Constraint*> oldArray, int oldLength, ::ArrayW<::System::Data::Constraint*> newArray, int newLength);
     // private System.Void BaseRemove(System.Data.Constraint constraint)
     // Offset: 0x1E49BC0
-    void BaseRemove(System::Data::Constraint* constraint);
+    void BaseRemove(::System::Data::Constraint* constraint);
     // System.Boolean CanRemove(System.Data.Constraint constraint, System.Boolean fThrowException)
     // Offset: 0x1E49E48
-    bool CanRemove(System::Data::Constraint* constraint, bool fThrowException);
+    bool CanRemove(::System::Data::Constraint* constraint, bool fThrowException);
     // public System.Void Clear()
     // Offset: 0x1E49E78
     void Clear();
@@ -185,19 +185,19 @@ namespace System::Data {
     bool Contains(::StringW name, bool caseSensitive);
     // System.Data.Constraint FindConstraint(System.Data.Constraint constraint)
     // Offset: 0x1E491B8
-    System::Data::Constraint* FindConstraint(System::Data::Constraint* constraint);
+    ::System::Data::Constraint* FindConstraint(::System::Data::Constraint* constraint);
     // System.Data.UniqueConstraint FindKeyConstraint(System.Data.DataColumn[] columns)
     // Offset: 0x1E49520
-    System::Data::UniqueConstraint* FindKeyConstraint(::ArrayW<System::Data::DataColumn*> columns);
+    ::System::Data::UniqueConstraint* FindKeyConstraint(::ArrayW<::System::Data::DataColumn*> columns);
     // System.Data.UniqueConstraint FindKeyConstraint(System.Data.DataColumn column)
     // Offset: 0x1E4A418
-    System::Data::UniqueConstraint* FindKeyConstraint(System::Data::DataColumn* column);
+    ::System::Data::UniqueConstraint* FindKeyConstraint(::System::Data::DataColumn* column);
     // System.Data.ForeignKeyConstraint FindForeignKeyConstraint(System.Data.DataColumn[] parentColumns, System.Data.DataColumn[] childColumns)
     // Offset: 0x1E4A534
-    System::Data::ForeignKeyConstraint* FindForeignKeyConstraint(::ArrayW<System::Data::DataColumn*> parentColumns, ::ArrayW<System::Data::DataColumn*> childColumns);
+    ::System::Data::ForeignKeyConstraint* FindForeignKeyConstraint(::ArrayW<::System::Data::DataColumn*> parentColumns, ::ArrayW<::System::Data::DataColumn*> childColumns);
     // static private System.Boolean CompareArrays(System.Data.DataColumn[] a1, System.Data.DataColumn[] a2)
     // Offset: 0x1E4A38C
-    static bool CompareArrays(::ArrayW<System::Data::DataColumn*> a1, ::ArrayW<System::Data::DataColumn*> a2);
+    static bool CompareArrays(::ArrayW<::System::Data::DataColumn*> a1, ::ArrayW<::System::Data::DataColumn*> a2);
     // System.Int32 InternalIndexOf(System.String constraintName)
     // Offset: 0x1E48CAC
     int InternalIndexOf(::StringW constraintName);
@@ -206,13 +206,13 @@ namespace System::Data {
     ::StringW MakeName(int index);
     // private System.Void OnCollectionChanged(System.ComponentModel.CollectionChangeEventArgs ccevent)
     // Offset: 0x1E49828
-    void OnCollectionChanged(System::ComponentModel::CollectionChangeEventArgs* ccevent);
+    void OnCollectionChanged(::System::ComponentModel::CollectionChangeEventArgs* ccevent);
     // System.Void RegisterName(System.String name)
     // Offset: 0x1E48418
     void RegisterName(::StringW name);
     // public System.Void Remove(System.Data.Constraint constraint)
     // Offset: 0x1E4A674
-    void Remove(System::Data::Constraint* constraint);
+    void Remove(::System::Data::Constraint* constraint);
     // System.Void UnregisterName(System.String name)
     // Offset: 0x1E48618
     void UnregisterName(::StringW name);
@@ -220,7 +220,7 @@ namespace System::Data {
     // Offset: 0x1E48AAC
     // Implemented from: System.Data.InternalDataCollectionBase
     // Base method: System.Collections.ArrayList InternalDataCollectionBase::get_List()
-    System::Collections::ArrayList* get_List();
+    ::System::Collections::ArrayList* get_List();
   }; // System.Data.ConstraintCollection
   #pragma pack(pop)
   static check_size<sizeof(ConstraintCollection), 56 + sizeof(bool)> __System_Data_ConstraintCollectionSizeCheck;
@@ -230,7 +230,7 @@ namespace System::Data {
 // Writing MetadataGetter for method: System::Data::ConstraintCollection::get_Item
 // Il2CppName: get_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::Constraint* (System::Data::ConstraintCollection::*)(int)>(&System::Data::ConstraintCollection::get_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::Constraint* (System::Data::ConstraintCollection::*)(int)>(&System::Data::ConstraintCollection::get_Item)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ConstraintCollection*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
@@ -239,7 +239,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::ConstraintCollection::get_Table
 // Il2CppName: get_Table
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::DataTable* (System::Data::ConstraintCollection::*)()>(&System::Data::ConstraintCollection::get_Table)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataTable* (System::Data::ConstraintCollection::*)()>(&System::Data::ConstraintCollection::get_Table)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ConstraintCollection*), "get_Table", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -247,7 +247,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::ConstraintCollection::get_Item
 // Il2CppName: get_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::Constraint* (System::Data::ConstraintCollection::*)(::StringW)>(&System::Data::ConstraintCollection::get_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::Constraint* (System::Data::ConstraintCollection::*)(::StringW)>(&System::Data::ConstraintCollection::get_Item)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ConstraintCollection*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -260,7 +260,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::ConstraintCollection::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::ConstraintCollection::*)(System::Data::Constraint*)>(&System::Data::ConstraintCollection::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::ConstraintCollection::*)(::System::Data::Constraint*)>(&System::Data::ConstraintCollection::Add)> {
   static const MethodInfo* get() {
     static auto* constraint = &::il2cpp_utils::GetClassFromName("System.Data", "Constraint")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ConstraintCollection*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{constraint});
@@ -269,7 +269,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::ConstraintCollection::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::ConstraintCollection::*)(System::Data::Constraint*, bool)>(&System::Data::ConstraintCollection::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::ConstraintCollection::*)(::System::Data::Constraint*, bool)>(&System::Data::ConstraintCollection::Add)> {
   static const MethodInfo* get() {
     static auto* constraint = &::il2cpp_utils::GetClassFromName("System.Data", "Constraint")->byval_arg;
     static auto* addUniqueWhenAddingForeign = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -279,7 +279,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::ConstraintCollection::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::Constraint* (System::Data::ConstraintCollection::*)(::StringW, ::ArrayW<System::Data::DataColumn*>, bool)>(&System::Data::ConstraintCollection::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::Constraint* (System::Data::ConstraintCollection::*)(::StringW, ::ArrayW<::System::Data::DataColumn*>, bool)>(&System::Data::ConstraintCollection::Add)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* columns = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Data", "DataColumn"), 1)->byval_arg;
@@ -290,7 +290,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::ConstraintCollection::AddUniqueConstraint
 // Il2CppName: AddUniqueConstraint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::ConstraintCollection::*)(System::Data::UniqueConstraint*)>(&System::Data::ConstraintCollection::AddUniqueConstraint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::ConstraintCollection::*)(::System::Data::UniqueConstraint*)>(&System::Data::ConstraintCollection::AddUniqueConstraint)> {
   static const MethodInfo* get() {
     static auto* constraint = &::il2cpp_utils::GetClassFromName("System.Data", "UniqueConstraint")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ConstraintCollection*), "AddUniqueConstraint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{constraint});
@@ -299,7 +299,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::ConstraintCollection::AddForeignKeyConstraint
 // Il2CppName: AddForeignKeyConstraint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::ConstraintCollection::*)(System::Data::ForeignKeyConstraint*)>(&System::Data::ConstraintCollection::AddForeignKeyConstraint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::ConstraintCollection::*)(::System::Data::ForeignKeyConstraint*)>(&System::Data::ConstraintCollection::AddForeignKeyConstraint)> {
   static const MethodInfo* get() {
     static auto* constraint = &::il2cpp_utils::GetClassFromName("System.Data", "ForeignKeyConstraint")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ConstraintCollection*), "AddForeignKeyConstraint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{constraint});
@@ -308,7 +308,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::ConstraintCollection::AutoGenerated
 // Il2CppName: AutoGenerated
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Data::ConstraintCollection::*)(System::Data::Constraint*)>(&System::Data::ConstraintCollection::AutoGenerated)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Data::ConstraintCollection::*)(::System::Data::Constraint*)>(&System::Data::ConstraintCollection::AutoGenerated)> {
   static const MethodInfo* get() {
     static auto* constraint = &::il2cpp_utils::GetClassFromName("System.Data", "Constraint")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ConstraintCollection*), "AutoGenerated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{constraint});
@@ -317,7 +317,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Data::ConstraintCollection::ArrayAdd
 // Il2CppName: ArrayAdd
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::ConstraintCollection::*)(System::Data::Constraint*)>(&System::Data::ConstraintCollection::ArrayAdd)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::ConstraintCollection::*)(::System::Data::Constraint*)>(&System::Data::ConstraintCollection::ArrayAdd)> {
   static const MethodInfo* get() {
     static auto* constraint = &::il2cpp_utils::GetClassFromName("System.Data", "Constraint")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ConstraintCollection*), "ArrayAdd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{constraint});
@@ -326,7 +326,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::ConstraintCollection::ArrayRemove
 // Il2CppName: ArrayRemove
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::ConstraintCollection::*)(System::Data::Constraint*)>(&System::Data::ConstraintCollection::ArrayRemove)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::ConstraintCollection::*)(::System::Data::Constraint*)>(&System::Data::ConstraintCollection::ArrayRemove)> {
   static const MethodInfo* get() {
     static auto* constraint = &::il2cpp_utils::GetClassFromName("System.Data", "Constraint")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ConstraintCollection*), "ArrayRemove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{constraint});
@@ -343,7 +343,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Data::ConstraintCollection::BaseAdd
 // Il2CppName: BaseAdd
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::ConstraintCollection::*)(System::Data::Constraint*)>(&System::Data::ConstraintCollection::BaseAdd)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::ConstraintCollection::*)(::System::Data::Constraint*)>(&System::Data::ConstraintCollection::BaseAdd)> {
   static const MethodInfo* get() {
     static auto* constraint = &::il2cpp_utils::GetClassFromName("System.Data", "Constraint")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ConstraintCollection*), "BaseAdd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{constraint});
@@ -352,7 +352,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::ConstraintCollection::BaseGroupSwitch
 // Il2CppName: BaseGroupSwitch
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::ConstraintCollection::*)(::ArrayW<System::Data::Constraint*>, int, ::ArrayW<System::Data::Constraint*>, int)>(&System::Data::ConstraintCollection::BaseGroupSwitch)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::ConstraintCollection::*)(::ArrayW<::System::Data::Constraint*>, int, ::ArrayW<::System::Data::Constraint*>, int)>(&System::Data::ConstraintCollection::BaseGroupSwitch)> {
   static const MethodInfo* get() {
     static auto* oldArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Data", "Constraint"), 1)->byval_arg;
     static auto* oldLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -364,7 +364,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::ConstraintCollection::BaseRemove
 // Il2CppName: BaseRemove
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::ConstraintCollection::*)(System::Data::Constraint*)>(&System::Data::ConstraintCollection::BaseRemove)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::ConstraintCollection::*)(::System::Data::Constraint*)>(&System::Data::ConstraintCollection::BaseRemove)> {
   static const MethodInfo* get() {
     static auto* constraint = &::il2cpp_utils::GetClassFromName("System.Data", "Constraint")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ConstraintCollection*), "BaseRemove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{constraint});
@@ -373,7 +373,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::ConstraintCollection::CanRemove
 // Il2CppName: CanRemove
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Data::ConstraintCollection::*)(System::Data::Constraint*, bool)>(&System::Data::ConstraintCollection::CanRemove)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Data::ConstraintCollection::*)(::System::Data::Constraint*, bool)>(&System::Data::ConstraintCollection::CanRemove)> {
   static const MethodInfo* get() {
     static auto* constraint = &::il2cpp_utils::GetClassFromName("System.Data", "Constraint")->byval_arg;
     static auto* fThrowException = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -410,7 +410,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Data::ConstraintCollection::FindConstraint
 // Il2CppName: FindConstraint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::Constraint* (System::Data::ConstraintCollection::*)(System::Data::Constraint*)>(&System::Data::ConstraintCollection::FindConstraint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::Constraint* (System::Data::ConstraintCollection::*)(::System::Data::Constraint*)>(&System::Data::ConstraintCollection::FindConstraint)> {
   static const MethodInfo* get() {
     static auto* constraint = &::il2cpp_utils::GetClassFromName("System.Data", "Constraint")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ConstraintCollection*), "FindConstraint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{constraint});
@@ -419,7 +419,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::ConstraintCollection::FindKeyConstraint
 // Il2CppName: FindKeyConstraint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::UniqueConstraint* (System::Data::ConstraintCollection::*)(::ArrayW<System::Data::DataColumn*>)>(&System::Data::ConstraintCollection::FindKeyConstraint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::UniqueConstraint* (System::Data::ConstraintCollection::*)(::ArrayW<::System::Data::DataColumn*>)>(&System::Data::ConstraintCollection::FindKeyConstraint)> {
   static const MethodInfo* get() {
     static auto* columns = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Data", "DataColumn"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ConstraintCollection*), "FindKeyConstraint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{columns});
@@ -428,7 +428,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::ConstraintCollection::FindKeyConstraint
 // Il2CppName: FindKeyConstraint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::UniqueConstraint* (System::Data::ConstraintCollection::*)(System::Data::DataColumn*)>(&System::Data::ConstraintCollection::FindKeyConstraint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::UniqueConstraint* (System::Data::ConstraintCollection::*)(::System::Data::DataColumn*)>(&System::Data::ConstraintCollection::FindKeyConstraint)> {
   static const MethodInfo* get() {
     static auto* column = &::il2cpp_utils::GetClassFromName("System.Data", "DataColumn")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ConstraintCollection*), "FindKeyConstraint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{column});
@@ -437,7 +437,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::ConstraintCollection::FindForeignKeyConstraint
 // Il2CppName: FindForeignKeyConstraint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::ForeignKeyConstraint* (System::Data::ConstraintCollection::*)(::ArrayW<System::Data::DataColumn*>, ::ArrayW<System::Data::DataColumn*>)>(&System::Data::ConstraintCollection::FindForeignKeyConstraint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::ForeignKeyConstraint* (System::Data::ConstraintCollection::*)(::ArrayW<::System::Data::DataColumn*>, ::ArrayW<::System::Data::DataColumn*>)>(&System::Data::ConstraintCollection::FindForeignKeyConstraint)> {
   static const MethodInfo* get() {
     static auto* parentColumns = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Data", "DataColumn"), 1)->byval_arg;
     static auto* childColumns = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Data", "DataColumn"), 1)->byval_arg;
@@ -447,7 +447,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::ConstraintCollection::CompareArrays
 // Il2CppName: CompareArrays
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<System::Data::DataColumn*>, ::ArrayW<System::Data::DataColumn*>)>(&System::Data::ConstraintCollection::CompareArrays)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<::System::Data::DataColumn*>, ::ArrayW<::System::Data::DataColumn*>)>(&System::Data::ConstraintCollection::CompareArrays)> {
   static const MethodInfo* get() {
     static auto* a1 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Data", "DataColumn"), 1)->byval_arg;
     static auto* a2 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Data", "DataColumn"), 1)->byval_arg;
@@ -475,7 +475,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Data::ConstraintCollection::OnCollectionChanged
 // Il2CppName: OnCollectionChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::ConstraintCollection::*)(System::ComponentModel::CollectionChangeEventArgs*)>(&System::Data::ConstraintCollection::OnCollectionChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::ConstraintCollection::*)(::System::ComponentModel::CollectionChangeEventArgs*)>(&System::Data::ConstraintCollection::OnCollectionChanged)> {
   static const MethodInfo* get() {
     static auto* ccevent = &::il2cpp_utils::GetClassFromName("System.ComponentModel", "CollectionChangeEventArgs")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ConstraintCollection*), "OnCollectionChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ccevent});
@@ -493,7 +493,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::ConstraintCollection::Remove
 // Il2CppName: Remove
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::ConstraintCollection::*)(System::Data::Constraint*)>(&System::Data::ConstraintCollection::Remove)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::ConstraintCollection::*)(::System::Data::Constraint*)>(&System::Data::ConstraintCollection::Remove)> {
   static const MethodInfo* get() {
     static auto* constraint = &::il2cpp_utils::GetClassFromName("System.Data", "Constraint")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ConstraintCollection*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{constraint});
@@ -511,7 +511,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::ConstraintCollection::get_List
 // Il2CppName: get_List
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ArrayList* (System::Data::ConstraintCollection::*)()>(&System::Data::ConstraintCollection::get_List)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (System::Data::ConstraintCollection::*)()>(&System::Data::ConstraintCollection::get_List)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ConstraintCollection*), "get_List", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -16,8 +16,8 @@ namespace System {
   class __ComObject;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::__ComObject);
-DEFINE_IL2CPP_ARG_TYPE(System::__ComObject*, "System", "__ComObject");
+NEED_NO_BOX(::System::__ComObject);
+DEFINE_IL2CPP_ARG_TYPE(::System::__ComObject*, "System", "__ComObject");
 // Type namespace: System
 namespace System {
   // Size: 0x10
@@ -32,7 +32,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static __ComObject* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::__ComObject::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::__ComObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<__ComObject*, creationType>()));
     }
   }; // System.__ComObject

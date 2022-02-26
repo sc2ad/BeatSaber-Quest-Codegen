@@ -19,8 +19,8 @@ namespace UnityEngine {
   class Ping;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Ping);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Ping*, "UnityEngine", "Ping");
+NEED_NO_BOX(::UnityEngine::Ping);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Ping*, "UnityEngine", "Ping");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -42,16 +42,16 @@ namespace UnityEngine {
     // System.IntPtr m_Ptr
     // Size: 0x8
     // Offset: 0x10
-    System::IntPtr m_Ptr;
+    ::System::IntPtr m_Ptr;
     // Field size check
-    static_assert(sizeof(System::IntPtr) == 0x8);
+    static_assert(sizeof(::System::IntPtr) == 0x8);
     public:
-    // Creating conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const noexcept {
+    // Creating conversion operator: operator ::System::IntPtr
+    constexpr operator ::System::IntPtr() const noexcept {
       return m_Ptr;
     }
     // Get instance field reference: System.IntPtr m_Ptr
-    System::IntPtr& dyn_m_Ptr();
+    ::System::IntPtr& dyn_m_Ptr();
     // public System.Boolean get_isDone()
     // Offset: 0x203DA54
     bool get_isDone();
@@ -62,7 +62,7 @@ namespace UnityEngine {
     // Offset: 0x203D884
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Ping* New_ctor(::StringW address) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Ping::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Ping::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Ping*, creationType>(address)));
     }
     // public System.Void DestroyPing()
@@ -70,10 +70,10 @@ namespace UnityEngine {
     void DestroyPing();
     // static private System.Void Internal_Destroy(System.IntPtr ptr)
     // Offset: 0x203DA14
-    static void Internal_Destroy(System::IntPtr ptr);
+    static void Internal_Destroy(::System::IntPtr ptr);
     // static private System.IntPtr Internal_Create(System.String address)
     // Offset: 0x203D8E0
-    static System::IntPtr Internal_Create(::StringW address);
+    static ::System::IntPtr Internal_Create(::StringW address);
     // private System.Boolean Internal_IsDone()
     // Offset: 0x203DADC
     bool Internal_IsDone();
@@ -84,7 +84,7 @@ namespace UnityEngine {
     void Finalize();
   }; // UnityEngine.Ping
   #pragma pack(pop)
-  static check_size<sizeof(Ping), 16 + sizeof(System::IntPtr)> __UnityEngine_PingSizeCheck;
+  static check_size<sizeof(Ping), 16 + sizeof(::System::IntPtr)> __UnityEngine_PingSizeCheck;
   static_assert(sizeof(Ping) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -119,7 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Ping::Internal_Destroy
 // Il2CppName: Internal_Destroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&UnityEngine::Ping::Internal_Destroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&UnityEngine::Ping::Internal_Destroy)> {
   static const MethodInfo* get() {
     static auto* ptr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Ping*), "Internal_Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ptr});
@@ -128,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::Ping::Internal_Create
 // Il2CppName: Internal_Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::StringW)>(&UnityEngine::Ping::Internal_Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::StringW)>(&UnityEngine::Ping::Internal_Create)> {
   static const MethodInfo* get() {
     static auto* address = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Ping*), "Internal_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{address});

@@ -36,8 +36,8 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
   class TestResultRenderer;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer*, "UnityEngine.TestTools.TestRunner.Callbacks", "TestResultRenderer");
+NEED_NO_BOX(::UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer*, "UnityEngine.TestTools.TestRunner.Callbacks", "TestResultRenderer");
 // Type namespace: UnityEngine.TestTools.TestRunner.Callbacks
 namespace UnityEngine::TestTools::TestRunner::Callbacks {
   // Size: 0x24
@@ -46,9 +46,9 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestResultRenderer : public ::Il2CppObject {
     public:
-    // Nested type: UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer::Styles
+    // Nested type: ::UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer::Styles
     class Styles;
-    // Nested type: UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer::$$c
+    // Nested type: ::UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer::$$c
     class $$c;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -62,9 +62,9 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // private readonly System.Collections.Generic.List`1<NUnit.Framework.Interfaces.ITestResult> m_FailedTestCollection
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::List_1<NUnit::Framework::Interfaces::ITestResult*>* m_FailedTestCollection;
+    ::System::Collections::Generic::List_1<::NUnit::Framework::Interfaces::ITestResult*>* m_FailedTestCollection;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<NUnit::Framework::Interfaces::ITestResult*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::NUnit::Framework::Interfaces::ITestResult*>*) == 0x8);
     // private System.Boolean m_ShowResults
     // Size: 0x1
     // Offset: 0x18
@@ -76,9 +76,9 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // private UnityEngine.Vector2 m_ScrollPosition
     // Size: 0x8
     // Offset: 0x1C
-    UnityEngine::Vector2 m_ScrollPosition;
+    ::UnityEngine::Vector2 m_ScrollPosition;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector2) == 0x8);
+    static_assert(sizeof(::UnityEngine::Vector2) == 0x8);
     public:
     // static field const value: static private System.Int32 k_MaxStringLength
     static constexpr const int k_MaxStringLength = 15000;
@@ -87,21 +87,21 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // Set static field: static private System.Int32 k_MaxStringLength
     static void _set_k_MaxStringLength(int value);
     // Get instance field reference: private readonly System.Collections.Generic.List`1<NUnit.Framework.Interfaces.ITestResult> m_FailedTestCollection
-    System::Collections::Generic::List_1<NUnit::Framework::Interfaces::ITestResult*>*& dyn_m_FailedTestCollection();
+    ::System::Collections::Generic::List_1<::NUnit::Framework::Interfaces::ITestResult*>*& dyn_m_FailedTestCollection();
     // Get instance field reference: private System.Boolean m_ShowResults
     bool& dyn_m_ShowResults();
     // Get instance field reference: private UnityEngine.Vector2 m_ScrollPosition
-    UnityEngine::Vector2& dyn_m_ScrollPosition();
+    ::UnityEngine::Vector2& dyn_m_ScrollPosition();
     // public System.Void .ctor(NUnit.Framework.Interfaces.ITestResult testResults)
     // Offset: 0x18DB7E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TestResultRenderer* New_ctor(NUnit::Framework::Interfaces::ITestResult* testResults) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer::.ctor");
+    static TestResultRenderer* New_ctor(::NUnit::Framework::Interfaces::ITestResult* testResults) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestResultRenderer*, creationType>(testResults)));
     }
     // private System.Void GetFailedTests(NUnit.Framework.Interfaces.ITestResult testResults)
     // Offset: 0x18DCD60
-    void GetFailedTests(NUnit::Framework::Interfaces::ITestResult* testResults);
+    void GetFailedTests(::NUnit::Framework::Interfaces::ITestResult* testResults);
     // public System.Void ShowResults()
     // Offset: 0x18DB868
     void ShowResults();
@@ -110,7 +110,7 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     void Draw();
   }; // UnityEngine.TestTools.TestRunner.Callbacks.TestResultRenderer
   #pragma pack(pop)
-  static check_size<sizeof(TestResultRenderer), 28 + sizeof(UnityEngine::Vector2)> __UnityEngine_TestTools_TestRunner_Callbacks_TestResultRendererSizeCheck;
+  static check_size<sizeof(TestResultRenderer), 28 + sizeof(::UnityEngine::Vector2)> __UnityEngine_TestTools_TestRunner_Callbacks_TestResultRendererSizeCheck;
   static_assert(sizeof(TestResultRenderer) == 0x24);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -121,7 +121,7 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer::GetFailedTests
 // Il2CppName: GetFailedTests
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer::*)(NUnit::Framework::Interfaces::ITestResult*)>(&UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer::GetFailedTests)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer::*)(::NUnit::Framework::Interfaces::ITestResult*)>(&UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer::GetFailedTests)> {
   static const MethodInfo* get() {
     static auto* testResults = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ITestResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer*), "GetFailedTests", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{testResults});

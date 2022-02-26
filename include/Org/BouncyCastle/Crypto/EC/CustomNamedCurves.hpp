@@ -49,8 +49,8 @@ namespace Org::BouncyCastle::Crypto::EC {
   class CustomNamedCurves;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Crypto::EC::CustomNamedCurves);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::EC::CustomNamedCurves*, "Org.BouncyCastle.Crypto.EC", "CustomNamedCurves");
+NEED_NO_BOX(::Org::BouncyCastle::Crypto::EC::CustomNamedCurves);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::EC::CustomNamedCurves*, "Org.BouncyCastle.Crypto.EC", "CustomNamedCurves");
 // Type namespace: Org.BouncyCastle.Crypto.EC
 namespace Org::BouncyCastle::Crypto::EC {
   // Size: 0x10
@@ -59,117 +59,117 @@ namespace Org::BouncyCastle::Crypto::EC {
   // [TokenAttribute] Offset: FFFFFFFF
   class CustomNamedCurves : public ::Il2CppObject {
     public:
-    // Nested type: Org::BouncyCastle::Crypto::EC::CustomNamedCurves::Curve25519Holder
+    // Nested type: ::Org::BouncyCastle::Crypto::EC::CustomNamedCurves::Curve25519Holder
     class Curve25519Holder;
-    // Nested type: Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecP128R1Holder
+    // Nested type: ::Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecP128R1Holder
     class SecP128R1Holder;
-    // Nested type: Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecP160K1Holder
+    // Nested type: ::Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecP160K1Holder
     class SecP160K1Holder;
-    // Nested type: Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecP160R1Holder
+    // Nested type: ::Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecP160R1Holder
     class SecP160R1Holder;
-    // Nested type: Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecP160R2Holder
+    // Nested type: ::Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecP160R2Holder
     class SecP160R2Holder;
-    // Nested type: Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecP192K1Holder
+    // Nested type: ::Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecP192K1Holder
     class SecP192K1Holder;
-    // Nested type: Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecP192R1Holder
+    // Nested type: ::Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecP192R1Holder
     class SecP192R1Holder;
-    // Nested type: Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecP224K1Holder
+    // Nested type: ::Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecP224K1Holder
     class SecP224K1Holder;
-    // Nested type: Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecP224R1Holder
+    // Nested type: ::Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecP224R1Holder
     class SecP224R1Holder;
-    // Nested type: Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecP256K1Holder
+    // Nested type: ::Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecP256K1Holder
     class SecP256K1Holder;
-    // Nested type: Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecP256R1Holder
+    // Nested type: ::Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecP256R1Holder
     class SecP256R1Holder;
-    // Nested type: Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecP384R1Holder
+    // Nested type: ::Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecP384R1Holder
     class SecP384R1Holder;
-    // Nested type: Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecP521R1Holder
+    // Nested type: ::Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecP521R1Holder
     class SecP521R1Holder;
-    // Nested type: Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecT113R1Holder
+    // Nested type: ::Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecT113R1Holder
     class SecT113R1Holder;
-    // Nested type: Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecT113R2Holder
+    // Nested type: ::Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecT113R2Holder
     class SecT113R2Holder;
-    // Nested type: Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecT131R1Holder
+    // Nested type: ::Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecT131R1Holder
     class SecT131R1Holder;
-    // Nested type: Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecT131R2Holder
+    // Nested type: ::Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecT131R2Holder
     class SecT131R2Holder;
-    // Nested type: Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecT163K1Holder
+    // Nested type: ::Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecT163K1Holder
     class SecT163K1Holder;
-    // Nested type: Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecT163R1Holder
+    // Nested type: ::Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecT163R1Holder
     class SecT163R1Holder;
-    // Nested type: Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecT163R2Holder
+    // Nested type: ::Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecT163R2Holder
     class SecT163R2Holder;
-    // Nested type: Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecT193R1Holder
+    // Nested type: ::Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecT193R1Holder
     class SecT193R1Holder;
-    // Nested type: Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecT193R2Holder
+    // Nested type: ::Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecT193R2Holder
     class SecT193R2Holder;
-    // Nested type: Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecT233K1Holder
+    // Nested type: ::Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecT233K1Holder
     class SecT233K1Holder;
-    // Nested type: Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecT233R1Holder
+    // Nested type: ::Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecT233R1Holder
     class SecT233R1Holder;
-    // Nested type: Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecT239K1Holder
+    // Nested type: ::Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecT239K1Holder
     class SecT239K1Holder;
-    // Nested type: Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecT283K1Holder
+    // Nested type: ::Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecT283K1Holder
     class SecT283K1Holder;
-    // Nested type: Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecT283R1Holder
+    // Nested type: ::Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecT283R1Holder
     class SecT283R1Holder;
-    // Nested type: Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecT409K1Holder
+    // Nested type: ::Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecT409K1Holder
     class SecT409K1Holder;
-    // Nested type: Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecT409R1Holder
+    // Nested type: ::Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecT409R1Holder
     class SecT409R1Holder;
-    // Nested type: Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecT571K1Holder
+    // Nested type: ::Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecT571K1Holder
     class SecT571K1Holder;
-    // Nested type: Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecT571R1Holder
+    // Nested type: ::Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecT571R1Holder
     class SecT571R1Holder;
-    // Nested type: Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SM2P256V1Holder
+    // Nested type: ::Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SM2P256V1Holder
     class SM2P256V1Holder;
     // Get static field: static private readonly System.Collections.IDictionary nameToCurve
-    static System::Collections::IDictionary* _get_nameToCurve();
+    static ::System::Collections::IDictionary* _get_nameToCurve();
     // Set static field: static private readonly System.Collections.IDictionary nameToCurve
-    static void _set_nameToCurve(System::Collections::IDictionary* value);
+    static void _set_nameToCurve(::System::Collections::IDictionary* value);
     // Get static field: static private readonly System.Collections.IDictionary nameToOid
-    static System::Collections::IDictionary* _get_nameToOid();
+    static ::System::Collections::IDictionary* _get_nameToOid();
     // Set static field: static private readonly System.Collections.IDictionary nameToOid
-    static void _set_nameToOid(System::Collections::IDictionary* value);
+    static void _set_nameToOid(::System::Collections::IDictionary* value);
     // Get static field: static private readonly System.Collections.IDictionary oidToCurve
-    static System::Collections::IDictionary* _get_oidToCurve();
+    static ::System::Collections::IDictionary* _get_oidToCurve();
     // Set static field: static private readonly System.Collections.IDictionary oidToCurve
-    static void _set_oidToCurve(System::Collections::IDictionary* value);
+    static void _set_oidToCurve(::System::Collections::IDictionary* value);
     // Get static field: static private readonly System.Collections.IDictionary oidToName
-    static System::Collections::IDictionary* _get_oidToName();
+    static ::System::Collections::IDictionary* _get_oidToName();
     // Set static field: static private readonly System.Collections.IDictionary oidToName
-    static void _set_oidToName(System::Collections::IDictionary* value);
+    static void _set_oidToName(::System::Collections::IDictionary* value);
     // Get static field: static private readonly System.Collections.IList names
-    static System::Collections::IList* _get_names();
+    static ::System::Collections::IList* _get_names();
     // Set static field: static private readonly System.Collections.IList names
-    static void _set_names(System::Collections::IList* value);
+    static void _set_names(::System::Collections::IList* value);
     // static private System.Void .cctor()
     // Offset: 0x1D7B8E0
     static void _cctor();
     // static private Org.BouncyCastle.Asn1.X9.X9ECPoint ConfigureBasepoint(Org.BouncyCastle.Math.EC.ECCurve curve, System.String encoding)
     // Offset: 0x1D7B014
-    static Org::BouncyCastle::Asn1::X9::X9ECPoint* ConfigureBasepoint(Org::BouncyCastle::Math::EC::ECCurve* curve, ::StringW encoding);
+    static ::Org::BouncyCastle::Asn1::X9::X9ECPoint* ConfigureBasepoint(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::StringW encoding);
     // static private Org.BouncyCastle.Math.EC.ECCurve ConfigureCurve(Org.BouncyCastle.Math.EC.ECCurve curve)
     // Offset: 0x1D7B104
-    static Org::BouncyCastle::Math::EC::ECCurve* ConfigureCurve(Org::BouncyCastle::Math::EC::ECCurve* curve);
+    static ::Org::BouncyCastle::Math::EC::ECCurve* ConfigureCurve(::Org::BouncyCastle::Math::EC::ECCurve* curve);
     // static private Org.BouncyCastle.Math.EC.ECCurve ConfigureCurveGlv(Org.BouncyCastle.Math.EC.ECCurve c, Org.BouncyCastle.Math.EC.Endo.GlvTypeBParameters p)
     // Offset: 0x1D7B108
-    static Org::BouncyCastle::Math::EC::ECCurve* ConfigureCurveGlv(Org::BouncyCastle::Math::EC::ECCurve* c, Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters* p);
+    static ::Org::BouncyCastle::Math::EC::ECCurve* ConfigureCurveGlv(::Org::BouncyCastle::Math::EC::ECCurve* c, ::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters* p);
     // static private System.Void DefineCurve(System.String name, Org.BouncyCastle.Asn1.X9.X9ECParametersHolder holder)
     // Offset: 0x1D7B1B4
-    static void DefineCurve(::StringW name, Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* holder);
+    static void DefineCurve(::StringW name, ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* holder);
     // static private System.Void DefineCurveWithOid(System.String name, Org.BouncyCastle.Asn1.DerObjectIdentifier oid, Org.BouncyCastle.Asn1.X9.X9ECParametersHolder holder)
     // Offset: 0x1D7B354
-    static void DefineCurveWithOid(::StringW name, Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* holder);
+    static void DefineCurveWithOid(::StringW name, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* holder);
     // static private System.Void DefineCurveAlias(System.String name, Org.BouncyCastle.Asn1.DerObjectIdentifier oid)
     // Offset: 0x1D7B674
-    static void DefineCurveAlias(::StringW name, Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
+    static void DefineCurveAlias(::StringW name, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
     // static public Org.BouncyCastle.Asn1.X9.X9ECParameters GetByName(System.String name)
     // Offset: 0x1D7C508
-    static Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByName(::StringW name);
+    static ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByName(::StringW name);
     // static public Org.BouncyCastle.Asn1.X9.X9ECParameters GetByOid(Org.BouncyCastle.Asn1.DerObjectIdentifier oid)
     // Offset: 0x1D7C668
-    static Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByOid(Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
+    static ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
   }; // Org.BouncyCastle.Crypto.EC.CustomNamedCurves
   #pragma pack(pop)
 }
@@ -185,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::EC::CustomNamedCurves::ConfigureBasepoint
 // Il2CppName: ConfigureBasepoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECPoint* (*)(Org::BouncyCastle::Math::EC::ECCurve*, ::StringW)>(&Org::BouncyCastle::Crypto::EC::CustomNamedCurves::ConfigureBasepoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECPoint* (*)(::Org::BouncyCastle::Math::EC::ECCurve*, ::StringW)>(&Org::BouncyCastle::Crypto::EC::CustomNamedCurves::ConfigureBasepoint)> {
   static const MethodInfo* get() {
     static auto* curve = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECCurve")->byval_arg;
     static auto* encoding = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -195,7 +195,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::EC::CustomNamedCurves::ConfigureCurve
 // Il2CppName: ConfigureCurve
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECCurve* (*)(Org::BouncyCastle::Math::EC::ECCurve*)>(&Org::BouncyCastle::Crypto::EC::CustomNamedCurves::ConfigureCurve)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECCurve* (*)(::Org::BouncyCastle::Math::EC::ECCurve*)>(&Org::BouncyCastle::Crypto::EC::CustomNamedCurves::ConfigureCurve)> {
   static const MethodInfo* get() {
     static auto* curve = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECCurve")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::EC::CustomNamedCurves*), "ConfigureCurve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{curve});
@@ -204,7 +204,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::EC::CustomNamedCurves::ConfigureCurveGlv
 // Il2CppName: ConfigureCurveGlv
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECCurve* (*)(Org::BouncyCastle::Math::EC::ECCurve*, Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters*)>(&Org::BouncyCastle::Crypto::EC::CustomNamedCurves::ConfigureCurveGlv)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECCurve* (*)(::Org::BouncyCastle::Math::EC::ECCurve*, ::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters*)>(&Org::BouncyCastle::Crypto::EC::CustomNamedCurves::ConfigureCurveGlv)> {
   static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECCurve")->byval_arg;
     static auto* p = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC.Endo", "GlvTypeBParameters")->byval_arg;
@@ -214,7 +214,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::EC::CustomNamedCurves::DefineCurve
 // Il2CppName: DefineCurve
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*)>(&Org::BouncyCastle::Crypto::EC::CustomNamedCurves::DefineCurve)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*)>(&Org::BouncyCastle::Crypto::EC::CustomNamedCurves::DefineCurve)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* holder = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1.X9", "X9ECParametersHolder")->byval_arg;
@@ -224,7 +224,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::EC::CustomNamedCurves::DefineCurveWithOid
 // Il2CppName: DefineCurveWithOid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, Org::BouncyCastle::Asn1::DerObjectIdentifier*, Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*)>(&Org::BouncyCastle::Crypto::EC::CustomNamedCurves::DefineCurveWithOid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*)>(&Org::BouncyCastle::Crypto::EC::CustomNamedCurves::DefineCurveWithOid)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* oid = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1", "DerObjectIdentifier")->byval_arg;
@@ -235,7 +235,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::EC::CustomNamedCurves::DefineCurveAlias
 // Il2CppName: DefineCurveAlias
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&Org::BouncyCastle::Crypto::EC::CustomNamedCurves::DefineCurveAlias)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&Org::BouncyCastle::Crypto::EC::CustomNamedCurves::DefineCurveAlias)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* oid = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1", "DerObjectIdentifier")->byval_arg;
@@ -245,7 +245,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::EC::CustomNamedCurves::GetByName
 // Il2CppName: GetByName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (*)(::StringW)>(&Org::BouncyCastle::Crypto::EC::CustomNamedCurves::GetByName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (*)(::StringW)>(&Org::BouncyCastle::Crypto::EC::CustomNamedCurves::GetByName)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::EC::CustomNamedCurves*), "GetByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -254,7 +254,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::EC::CustomNamedCurves::GetByOid
 // Il2CppName: GetByOid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (*)(Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&Org::BouncyCastle::Crypto::EC::CustomNamedCurves::GetByOid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&Org::BouncyCastle::Crypto::EC::CustomNamedCurves::GetByOid)> {
   static const MethodInfo* get() {
     static auto* oid = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1", "DerObjectIdentifier")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::EC::CustomNamedCurves*), "GetByOid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{oid});

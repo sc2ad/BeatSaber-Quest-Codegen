@@ -25,8 +25,8 @@ namespace System::Security::Cryptography {
   class AsymmetricSignatureDeformatter;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Security::Cryptography::AsymmetricSignatureDeformatter);
-DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::AsymmetricSignatureDeformatter*, "System.Security.Cryptography", "AsymmetricSignatureDeformatter");
+NEED_NO_BOX(::System::Security::Cryptography::AsymmetricSignatureDeformatter);
+DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::AsymmetricSignatureDeformatter*, "System.Security.Cryptography", "AsymmetricSignatureDeformatter");
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {
   // Size: 0x10
@@ -38,7 +38,7 @@ namespace System::Security::Cryptography {
     public:
     // public System.Void SetKey(System.Security.Cryptography.AsymmetricAlgorithm key)
     // Offset: 0xFFFFFFFF
-    void SetKey(System::Security::Cryptography::AsymmetricAlgorithm* key);
+    void SetKey(::System::Security::Cryptography::AsymmetricAlgorithm* key);
     // public System.Void SetHashAlgorithm(System.String strName)
     // Offset: 0xFFFFFFFF
     void SetHashAlgorithm(::StringW strName);
@@ -51,7 +51,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsymmetricSignatureDeformatter* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::AsymmetricSignatureDeformatter::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::AsymmetricSignatureDeformatter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsymmetricSignatureDeformatter*, creationType>()));
     }
   }; // System.Security.Cryptography.AsymmetricSignatureDeformatter
@@ -61,7 +61,7 @@ namespace System::Security::Cryptography {
 // Writing MetadataGetter for method: System::Security::Cryptography::AsymmetricSignatureDeformatter::SetKey
 // Il2CppName: SetKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::AsymmetricSignatureDeformatter::*)(System::Security::Cryptography::AsymmetricAlgorithm*)>(&System::Security::Cryptography::AsymmetricSignatureDeformatter::SetKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::AsymmetricSignatureDeformatter::*)(::System::Security::Cryptography::AsymmetricAlgorithm*)>(&System::Security::Cryptography::AsymmetricSignatureDeformatter::SetKey)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography", "AsymmetricAlgorithm")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::AsymmetricSignatureDeformatter*), "SetKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});

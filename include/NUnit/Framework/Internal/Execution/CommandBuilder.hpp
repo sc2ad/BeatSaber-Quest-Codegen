@@ -51,8 +51,8 @@ namespace NUnit::Framework::Internal::Execution {
   class CommandBuilder;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Internal::Execution::CommandBuilder);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Execution::CommandBuilder*, "NUnit.Framework.Internal.Execution", "CommandBuilder");
+NEED_NO_BOX(::NUnit::Framework::Internal::Execution::CommandBuilder);
+DEFINE_IL2CPP_ARG_TYPE(::NUnit::Framework::Internal::Execution::CommandBuilder*, "NUnit.Framework.Internal.Execution", "CommandBuilder");
 // Type namespace: NUnit.Framework.Internal.Execution
 namespace NUnit::Framework::Internal::Execution {
   // Size: 0x10
@@ -63,22 +63,22 @@ namespace NUnit::Framework::Internal::Execution {
     public:
     // static public NUnit.Framework.Internal.Commands.TestCommand MakeOneTimeSetUpCommand(NUnit.Framework.Internal.TestSuite suite, System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.SetUpTearDownItem> setUpTearDown, System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.TestActionItem> actions)
     // Offset: 0x1B63114
-    static NUnit::Framework::Internal::Commands::TestCommand* MakeOneTimeSetUpCommand(NUnit::Framework::Internal::TestSuite* suite, System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::SetUpTearDownItem*>* setUpTearDown, System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>* actions);
+    static ::NUnit::Framework::Internal::Commands::TestCommand* MakeOneTimeSetUpCommand(::NUnit::Framework::Internal::TestSuite* suite, ::System::Collections::Generic::List_1<::NUnit::Framework::Internal::Commands::SetUpTearDownItem*>* setUpTearDown, ::System::Collections::Generic::List_1<::NUnit::Framework::Internal::Commands::TestActionItem*>* actions);
     // static public NUnit.Framework.Internal.Commands.TestCommand MakeOneTimeTearDownCommand(NUnit.Framework.Internal.TestSuite suite, System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.SetUpTearDownItem> setUpTearDownItems, System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.TestActionItem> actions)
     // Offset: 0x1B634AC
-    static NUnit::Framework::Internal::Commands::TestCommand* MakeOneTimeTearDownCommand(NUnit::Framework::Internal::TestSuite* suite, System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::SetUpTearDownItem*>* setUpTearDownItems, System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>* actions);
+    static ::NUnit::Framework::Internal::Commands::TestCommand* MakeOneTimeTearDownCommand(::NUnit::Framework::Internal::TestSuite* suite, ::System::Collections::Generic::List_1<::NUnit::Framework::Internal::Commands::SetUpTearDownItem*>* setUpTearDownItems, ::System::Collections::Generic::List_1<::NUnit::Framework::Internal::Commands::TestActionItem*>* actions);
     // static public NUnit.Framework.Internal.Commands.SkipCommand MakeSkipCommand(NUnit.Framework.Internal.Test test)
     // Offset: 0x1B63448
-    static NUnit::Framework::Internal::Commands::SkipCommand* MakeSkipCommand(NUnit::Framework::Internal::Test* test);
+    static ::NUnit::Framework::Internal::Commands::SkipCommand* MakeSkipCommand(::NUnit::Framework::Internal::Test* test);
     // static public System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.SetUpTearDownItem> BuildSetUpTearDownList(System.Type fixtureType, System.Type setUpType, System.Type tearDownType)
     // Offset: 0x1B63578
-    static System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::SetUpTearDownItem*>* BuildSetUpTearDownList(System::Type* fixtureType, System::Type* setUpType, System::Type* tearDownType);
+    static ::System::Collections::Generic::List_1<::NUnit::Framework::Internal::Commands::SetUpTearDownItem*>* BuildSetUpTearDownList(::System::Type* fixtureType, ::System::Type* setUpType, ::System::Type* tearDownType);
     // static private NUnit.Framework.Internal.Commands.SetUpTearDownItem BuildNode(System.Type fixtureType, System.Collections.Generic.IList`1<System.Reflection.MethodInfo> setUpMethods, System.Collections.Generic.IList`1<System.Reflection.MethodInfo> tearDownMethods)
     // Offset: 0x1B63708
-    static NUnit::Framework::Internal::Commands::SetUpTearDownItem* BuildNode(System::Type* fixtureType, System::Collections::Generic::IList_1<System::Reflection::MethodInfo*>* setUpMethods, System::Collections::Generic::IList_1<System::Reflection::MethodInfo*>* tearDownMethods);
+    static ::NUnit::Framework::Internal::Commands::SetUpTearDownItem* BuildNode(::System::Type* fixtureType, ::System::Collections::Generic::IList_1<::System::Reflection::MethodInfo*>* setUpMethods, ::System::Collections::Generic::IList_1<::System::Reflection::MethodInfo*>* tearDownMethods);
     // static private System.Collections.Generic.List`1<System.Reflection.MethodInfo> SelectMethodsByDeclaringType(System.Type type, System.Collections.Generic.IList`1<System.Reflection.MethodInfo> methods)
     // Offset: 0x1B637A0
-    static System::Collections::Generic::List_1<System::Reflection::MethodInfo*>* SelectMethodsByDeclaringType(System::Type* type, System::Collections::Generic::IList_1<System::Reflection::MethodInfo*>* methods);
+    static ::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>* SelectMethodsByDeclaringType(::System::Type* type, ::System::Collections::Generic::IList_1<::System::Reflection::MethodInfo*>* methods);
   }; // NUnit.Framework.Internal.Execution.CommandBuilder
   #pragma pack(pop)
 }
@@ -86,7 +86,7 @@ namespace NUnit::Framework::Internal::Execution {
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Execution::CommandBuilder::MakeOneTimeSetUpCommand
 // Il2CppName: MakeOneTimeSetUpCommand
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Commands::TestCommand* (*)(NUnit::Framework::Internal::TestSuite*, System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::SetUpTearDownItem*>*, System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>*)>(&NUnit::Framework::Internal::Execution::CommandBuilder::MakeOneTimeSetUpCommand)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Framework::Internal::Commands::TestCommand* (*)(::NUnit::Framework::Internal::TestSuite*, ::System::Collections::Generic::List_1<::NUnit::Framework::Internal::Commands::SetUpTearDownItem*>*, ::System::Collections::Generic::List_1<::NUnit::Framework::Internal::Commands::TestActionItem*>*)>(&NUnit::Framework::Internal::Execution::CommandBuilder::MakeOneTimeSetUpCommand)> {
   static const MethodInfo* get() {
     static auto* suite = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "TestSuite")->byval_arg;
     static auto* setUpTearDown = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal.Commands", "SetUpTearDownItem")})->byval_arg;
@@ -97,7 +97,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Execution::CommandBuilder::MakeOneTimeTearDownCommand
 // Il2CppName: MakeOneTimeTearDownCommand
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Commands::TestCommand* (*)(NUnit::Framework::Internal::TestSuite*, System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::SetUpTearDownItem*>*, System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>*)>(&NUnit::Framework::Internal::Execution::CommandBuilder::MakeOneTimeTearDownCommand)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Framework::Internal::Commands::TestCommand* (*)(::NUnit::Framework::Internal::TestSuite*, ::System::Collections::Generic::List_1<::NUnit::Framework::Internal::Commands::SetUpTearDownItem*>*, ::System::Collections::Generic::List_1<::NUnit::Framework::Internal::Commands::TestActionItem*>*)>(&NUnit::Framework::Internal::Execution::CommandBuilder::MakeOneTimeTearDownCommand)> {
   static const MethodInfo* get() {
     static auto* suite = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "TestSuite")->byval_arg;
     static auto* setUpTearDownItems = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal.Commands", "SetUpTearDownItem")})->byval_arg;
@@ -108,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Execution::CommandBuilder::MakeSkipCommand
 // Il2CppName: MakeSkipCommand
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Commands::SkipCommand* (*)(NUnit::Framework::Internal::Test*)>(&NUnit::Framework::Internal::Execution::CommandBuilder::MakeSkipCommand)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Framework::Internal::Commands::SkipCommand* (*)(::NUnit::Framework::Internal::Test*)>(&NUnit::Framework::Internal::Execution::CommandBuilder::MakeSkipCommand)> {
   static const MethodInfo* get() {
     static auto* test = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "Test")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Execution::CommandBuilder*), "MakeSkipCommand", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{test});
@@ -117,7 +117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Execution::CommandBuilder::BuildSetUpTearDownList
 // Il2CppName: BuildSetUpTearDownList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::SetUpTearDownItem*>* (*)(System::Type*, System::Type*, System::Type*)>(&NUnit::Framework::Internal::Execution::CommandBuilder::BuildSetUpTearDownList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::NUnit::Framework::Internal::Commands::SetUpTearDownItem*>* (*)(::System::Type*, ::System::Type*, ::System::Type*)>(&NUnit::Framework::Internal::Execution::CommandBuilder::BuildSetUpTearDownList)> {
   static const MethodInfo* get() {
     static auto* fixtureType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* setUpType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -128,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Execution::CommandBuilder::BuildNode
 // Il2CppName: BuildNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Commands::SetUpTearDownItem* (*)(System::Type*, System::Collections::Generic::IList_1<System::Reflection::MethodInfo*>*, System::Collections::Generic::IList_1<System::Reflection::MethodInfo*>*)>(&NUnit::Framework::Internal::Execution::CommandBuilder::BuildNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Framework::Internal::Commands::SetUpTearDownItem* (*)(::System::Type*, ::System::Collections::Generic::IList_1<::System::Reflection::MethodInfo*>*, ::System::Collections::Generic::IList_1<::System::Reflection::MethodInfo*>*)>(&NUnit::Framework::Internal::Execution::CommandBuilder::BuildNode)> {
   static const MethodInfo* get() {
     static auto* fixtureType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* setUpMethods = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System.Reflection", "MethodInfo")})->byval_arg;
@@ -139,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Execution::CommandBuilder::SelectMethodsByDeclaringType
 // Il2CppName: SelectMethodsByDeclaringType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<System::Reflection::MethodInfo*>* (*)(System::Type*, System::Collections::Generic::IList_1<System::Reflection::MethodInfo*>*)>(&NUnit::Framework::Internal::Execution::CommandBuilder::SelectMethodsByDeclaringType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>* (*)(::System::Type*, ::System::Collections::Generic::IList_1<::System::Reflection::MethodInfo*>*)>(&NUnit::Framework::Internal::Execution::CommandBuilder::SelectMethodsByDeclaringType)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* methods = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System.Reflection", "MethodInfo")})->byval_arg;

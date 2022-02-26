@@ -28,8 +28,8 @@ namespace System::Xml::Serialization {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Serialization::XmlSerializer::SerializerData);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Serialization::XmlSerializer::SerializerData*, "System.Xml.Serialization", "XmlSerializer/SerializerData");
+NEED_NO_BOX(::System::Xml::Serialization::XmlSerializer::SerializerData);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::XmlSerializer::SerializerData*, "System.Xml.Serialization", "XmlSerializer/SerializerData");
 // Type namespace: System.Xml.Serialization
 namespace System::Xml::Serialization {
   // Size: 0x30
@@ -50,49 +50,49 @@ namespace System::Xml::Serialization {
     // public System.Reflection.MethodInfo ReaderMethod
     // Size: 0x8
     // Offset: 0x10
-    System::Reflection::MethodInfo* ReaderMethod;
+    ::System::Reflection::MethodInfo* ReaderMethod;
     // Field size check
-    static_assert(sizeof(System::Reflection::MethodInfo*) == 0x8);
+    static_assert(sizeof(::System::Reflection::MethodInfo*) == 0x8);
     // public System.Type WriterType
     // Size: 0x8
     // Offset: 0x18
-    System::Type* WriterType;
+    ::System::Type* WriterType;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     // public System.Reflection.MethodInfo WriterMethod
     // Size: 0x8
     // Offset: 0x20
-    System::Reflection::MethodInfo* WriterMethod;
+    ::System::Reflection::MethodInfo* WriterMethod;
     // Field size check
-    static_assert(sizeof(System::Reflection::MethodInfo*) == 0x8);
+    static_assert(sizeof(::System::Reflection::MethodInfo*) == 0x8);
     // public System.Xml.Serialization.XmlSerializerImplementation Implementation
     // Size: 0x8
     // Offset: 0x28
-    System::Xml::Serialization::XmlSerializerImplementation* Implementation;
+    ::System::Xml::Serialization::XmlSerializerImplementation* Implementation;
     // Field size check
-    static_assert(sizeof(System::Xml::Serialization::XmlSerializerImplementation*) == 0x8);
+    static_assert(sizeof(::System::Xml::Serialization::XmlSerializerImplementation*) == 0x8);
     public:
     // Get instance field reference: public System.Reflection.MethodInfo ReaderMethod
-    System::Reflection::MethodInfo*& dyn_ReaderMethod();
+    ::System::Reflection::MethodInfo*& dyn_ReaderMethod();
     // Get instance field reference: public System.Type WriterType
-    System::Type*& dyn_WriterType();
+    ::System::Type*& dyn_WriterType();
     // Get instance field reference: public System.Reflection.MethodInfo WriterMethod
-    System::Reflection::MethodInfo*& dyn_WriterMethod();
+    ::System::Reflection::MethodInfo*& dyn_WriterMethod();
     // Get instance field reference: public System.Xml.Serialization.XmlSerializerImplementation Implementation
-    System::Xml::Serialization::XmlSerializerImplementation*& dyn_Implementation();
+    ::System::Xml::Serialization::XmlSerializerImplementation*& dyn_Implementation();
     // public System.Xml.Serialization.XmlSerializationWriter CreateWriter()
     // Offset: 0x16137DC
-    System::Xml::Serialization::XmlSerializationWriter* CreateWriter();
+    ::System::Xml::Serialization::XmlSerializationWriter* CreateWriter();
   }; // System.Xml.Serialization.XmlSerializer/System.Xml.Serialization.SerializerData
   #pragma pack(pop)
-  static check_size<sizeof(XmlSerializer::SerializerData), 40 + sizeof(System::Xml::Serialization::XmlSerializerImplementation*)> __System_Xml_Serialization_XmlSerializer_SerializerDataSizeCheck;
+  static check_size<sizeof(XmlSerializer::SerializerData), 40 + sizeof(::System::Xml::Serialization::XmlSerializerImplementation*)> __System_Xml_Serialization_XmlSerializer_SerializerDataSizeCheck;
   static_assert(sizeof(XmlSerializer::SerializerData) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlSerializer::SerializerData::CreateWriter
 // Il2CppName: CreateWriter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Serialization::XmlSerializationWriter* (System::Xml::Serialization::XmlSerializer::SerializerData::*)()>(&System::Xml::Serialization::XmlSerializer::SerializerData::CreateWriter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlSerializationWriter* (System::Xml::Serialization::XmlSerializer::SerializerData::*)()>(&System::Xml::Serialization::XmlSerializer::SerializerData::CreateWriter)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::XmlSerializer::SerializerData*), "CreateWriter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

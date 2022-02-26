@@ -9,8 +9,8 @@
 #include "GlobalNamespace/BeatmapSaveData.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BeatmapSaveData::ITime);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapSaveData::ITime*, "", "BeatmapSaveData/ITime");
+NEED_NO_BOX(::GlobalNamespace::BeatmapSaveData::ITime);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapSaveData::ITime*, "", "BeatmapSaveData/ITime");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10

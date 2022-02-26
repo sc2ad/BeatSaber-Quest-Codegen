@@ -71,8 +71,8 @@ namespace OVR::OpenVR {
   class CVRSystem;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(OVR::OpenVR::CVRSystem);
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRSystem*, "OVR.OpenVR", "CVRSystem");
+NEED_NO_BOX(::OVR::OpenVR::CVRSystem);
+DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::CVRSystem*, "OVR.OpenVR", "CVRSystem");
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
   // Size: 0x188
@@ -81,17 +81,17 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   class CVRSystem : public ::Il2CppObject {
     public:
-    // Nested type: OVR::OpenVR::CVRSystem::_PollNextEventPacked
+    // Nested type: ::OVR::OpenVR::CVRSystem::_PollNextEventPacked
     class _PollNextEventPacked;
-    // Nested type: OVR::OpenVR::CVRSystem::PollNextEventUnion
+    // Nested type: ::OVR::OpenVR::CVRSystem::PollNextEventUnion
     struct PollNextEventUnion;
-    // Nested type: OVR::OpenVR::CVRSystem::_GetControllerStatePacked
+    // Nested type: ::OVR::OpenVR::CVRSystem::_GetControllerStatePacked
     class _GetControllerStatePacked;
-    // Nested type: OVR::OpenVR::CVRSystem::GetControllerStateUnion
+    // Nested type: ::OVR::OpenVR::CVRSystem::GetControllerStateUnion
     struct GetControllerStateUnion;
-    // Nested type: OVR::OpenVR::CVRSystem::_GetControllerStateWithPosePacked
+    // Nested type: ::OVR::OpenVR::CVRSystem::_GetControllerStateWithPosePacked
     class _GetControllerStateWithPosePacked;
-    // Nested type: OVR::OpenVR::CVRSystem::GetControllerStateWithPoseUnion
+    // Nested type: ::OVR::OpenVR::CVRSystem::GetControllerStateWithPoseUnion
     struct GetControllerStateWithPoseUnion;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -105,21 +105,21 @@ namespace OVR::OpenVR {
     // private OVR.OpenVR.IVRSystem FnTable
     // Size: 0x178
     // Offset: 0x10
-    OVR::OpenVR::IVRSystem FnTable;
+    ::OVR::OpenVR::IVRSystem FnTable;
     // Field size check
-    static_assert(sizeof(OVR::OpenVR::IVRSystem) == 0x178);
+    static_assert(sizeof(::OVR::OpenVR::IVRSystem) == 0x178);
     public:
-    // Creating conversion operator: operator OVR::OpenVR::IVRSystem
-    constexpr operator OVR::OpenVR::IVRSystem() const noexcept {
+    // Creating conversion operator: operator ::OVR::OpenVR::IVRSystem
+    constexpr operator ::OVR::OpenVR::IVRSystem() const noexcept {
       return FnTable;
     }
     // Get instance field reference: private OVR.OpenVR.IVRSystem FnTable
-    OVR::OpenVR::IVRSystem& dyn_FnTable();
+    ::OVR::OpenVR::IVRSystem& dyn_FnTable();
     // System.Void .ctor(System.IntPtr pInterface)
     // Offset: 0x1A0ECA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CVRSystem* New_ctor(System::IntPtr pInterface) {
-      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::CVRSystem::.ctor");
+    static CVRSystem* New_ctor(::System::IntPtr pInterface) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::OVR::OpenVR::CVRSystem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRSystem*, creationType>(pInterface)));
     }
     // public System.Void GetRecommendedRenderTargetSize(ref System.UInt32 pnWidth, ref System.UInt32 pnHeight)
@@ -127,16 +127,16 @@ namespace OVR::OpenVR {
     void GetRecommendedRenderTargetSize(ByRef<uint> pnWidth, ByRef<uint> pnHeight);
     // public OVR.OpenVR.HmdMatrix44_t GetProjectionMatrix(OVR.OpenVR.EVREye eEye, System.Single fNearZ, System.Single fFarZ)
     // Offset: 0x1A0EDD4
-    OVR::OpenVR::HmdMatrix44_t GetProjectionMatrix(OVR::OpenVR::EVREye eEye, float fNearZ, float fFarZ);
+    ::OVR::OpenVR::HmdMatrix44_t GetProjectionMatrix(::OVR::OpenVR::EVREye eEye, float fNearZ, float fFarZ);
     // public System.Void GetProjectionRaw(OVR.OpenVR.EVREye eEye, ref System.Single pfLeft, ref System.Single pfRight, ref System.Single pfTop, ref System.Single pfBottom)
     // Offset: 0x1A0EDF0
-    void GetProjectionRaw(OVR::OpenVR::EVREye eEye, ByRef<float> pfLeft, ByRef<float> pfRight, ByRef<float> pfTop, ByRef<float> pfBottom);
+    void GetProjectionRaw(::OVR::OpenVR::EVREye eEye, ByRef<float> pfLeft, ByRef<float> pfRight, ByRef<float> pfTop, ByRef<float> pfBottom);
     // public System.Boolean ComputeDistortion(OVR.OpenVR.EVREye eEye, System.Single fU, System.Single fV, ref OVR.OpenVR.DistortionCoordinates_t pDistortionCoordinates)
     // Offset: 0x1A0EE1C
-    bool ComputeDistortion(OVR::OpenVR::EVREye eEye, float fU, float fV, ByRef<OVR::OpenVR::DistortionCoordinates_t> pDistortionCoordinates);
+    bool ComputeDistortion(::OVR::OpenVR::EVREye eEye, float fU, float fV, ByRef<::OVR::OpenVR::DistortionCoordinates_t> pDistortionCoordinates);
     // public OVR.OpenVR.HmdMatrix34_t GetEyeToHeadTransform(OVR.OpenVR.EVREye eEye)
     // Offset: 0x1A0EE38
-    OVR::OpenVR::HmdMatrix34_t GetEyeToHeadTransform(OVR::OpenVR::EVREye eEye);
+    ::OVR::OpenVR::HmdMatrix34_t GetEyeToHeadTransform(::OVR::OpenVR::EVREye eEye);
     // public System.Boolean GetTimeSinceLastVsync(ref System.Single pfSecondsSinceLastVsync, ref System.UInt64 pulFrameCounter)
     // Offset: 0x1A0EE54
     bool GetTimeSinceLastVsync(ByRef<float> pfSecondsSinceLastVsync, ByRef<uint64_t> pulFrameCounter);
@@ -148,7 +148,7 @@ namespace OVR::OpenVR {
     void GetDXGIOutputInfo(ByRef<int> pnAdapterIndex);
     // public System.Void GetOutputDevice(ref System.UInt64 pnDevice, OVR.OpenVR.ETextureType textureType, System.IntPtr pInstance)
     // Offset: 0x1A0EEB4
-    void GetOutputDevice(ByRef<uint64_t> pnDevice, OVR::OpenVR::ETextureType textureType, System::IntPtr pInstance);
+    void GetOutputDevice(ByRef<uint64_t> pnDevice, ::OVR::OpenVR::ETextureType textureType, ::System::IntPtr pInstance);
     // public System.Boolean IsDisplayOnDesktop()
     // Offset: 0x1A0EED4
     bool IsDisplayOnDesktop();
@@ -157,88 +157,88 @@ namespace OVR::OpenVR {
     bool SetDisplayVisibility(bool bIsVisibleOnDesktop);
     // public System.Void GetDeviceToAbsoluteTrackingPose(OVR.OpenVR.ETrackingUniverseOrigin eOrigin, System.Single fPredictedSecondsToPhotonsFromNow, OVR.OpenVR.TrackedDevicePose_t[] pTrackedDevicePoseArray)
     // Offset: 0x1A0EF10
-    void GetDeviceToAbsoluteTrackingPose(OVR::OpenVR::ETrackingUniverseOrigin eOrigin, float fPredictedSecondsToPhotonsFromNow, ::ArrayW<OVR::OpenVR::TrackedDevicePose_t> pTrackedDevicePoseArray);
+    void GetDeviceToAbsoluteTrackingPose(::OVR::OpenVR::ETrackingUniverseOrigin eOrigin, float fPredictedSecondsToPhotonsFromNow, ::ArrayW<::OVR::OpenVR::TrackedDevicePose_t> pTrackedDevicePoseArray);
     // public System.Void ResetSeatedZeroPose()
     // Offset: 0x1A0EF38
     void ResetSeatedZeroPose();
     // public OVR.OpenVR.HmdMatrix34_t GetSeatedZeroPoseToStandingAbsoluteTrackingPose()
     // Offset: 0x1A0EF54
-    OVR::OpenVR::HmdMatrix34_t GetSeatedZeroPoseToStandingAbsoluteTrackingPose();
+    ::OVR::OpenVR::HmdMatrix34_t GetSeatedZeroPoseToStandingAbsoluteTrackingPose();
     // public OVR.OpenVR.HmdMatrix34_t GetRawZeroPoseToStandingAbsoluteTrackingPose()
     // Offset: 0x1A0EF70
-    OVR::OpenVR::HmdMatrix34_t GetRawZeroPoseToStandingAbsoluteTrackingPose();
+    ::OVR::OpenVR::HmdMatrix34_t GetRawZeroPoseToStandingAbsoluteTrackingPose();
     // public System.UInt32 GetSortedTrackedDeviceIndicesOfClass(OVR.OpenVR.ETrackedDeviceClass eTrackedDeviceClass, System.UInt32[] punTrackedDeviceIndexArray, System.UInt32 unRelativeToTrackedDeviceIndex)
     // Offset: 0x1A0EF8C
-    uint GetSortedTrackedDeviceIndicesOfClass(OVR::OpenVR::ETrackedDeviceClass eTrackedDeviceClass, ::ArrayW<uint> punTrackedDeviceIndexArray, uint unRelativeToTrackedDeviceIndex);
+    uint GetSortedTrackedDeviceIndicesOfClass(::OVR::OpenVR::ETrackedDeviceClass eTrackedDeviceClass, ::ArrayW<uint> punTrackedDeviceIndexArray, uint unRelativeToTrackedDeviceIndex);
     // public OVR.OpenVR.EDeviceActivityLevel GetTrackedDeviceActivityLevel(System.UInt32 unDeviceId)
     // Offset: 0x1A0EFB8
-    OVR::OpenVR::EDeviceActivityLevel GetTrackedDeviceActivityLevel(uint unDeviceId);
+    ::OVR::OpenVR::EDeviceActivityLevel GetTrackedDeviceActivityLevel(uint unDeviceId);
     // public System.Void ApplyTransform(ref OVR.OpenVR.TrackedDevicePose_t pOutputPose, ref OVR.OpenVR.TrackedDevicePose_t pTrackedDevicePose, ref OVR.OpenVR.HmdMatrix34_t pTransform)
     // Offset: 0x1A0EFD4
-    void ApplyTransform(ByRef<OVR::OpenVR::TrackedDevicePose_t> pOutputPose, ByRef<OVR::OpenVR::TrackedDevicePose_t> pTrackedDevicePose, ByRef<OVR::OpenVR::HmdMatrix34_t> pTransform);
+    void ApplyTransform(ByRef<::OVR::OpenVR::TrackedDevicePose_t> pOutputPose, ByRef<::OVR::OpenVR::TrackedDevicePose_t> pTrackedDevicePose, ByRef<::OVR::OpenVR::HmdMatrix34_t> pTransform);
     // public System.UInt32 GetTrackedDeviceIndexForControllerRole(OVR.OpenVR.ETrackedControllerRole unDeviceType)
     // Offset: 0x1A0EFF0
-    uint GetTrackedDeviceIndexForControllerRole(OVR::OpenVR::ETrackedControllerRole unDeviceType);
+    uint GetTrackedDeviceIndexForControllerRole(::OVR::OpenVR::ETrackedControllerRole unDeviceType);
     // public OVR.OpenVR.ETrackedControllerRole GetControllerRoleForTrackedDeviceIndex(System.UInt32 unDeviceIndex)
     // Offset: 0x1A0F00C
-    OVR::OpenVR::ETrackedControllerRole GetControllerRoleForTrackedDeviceIndex(uint unDeviceIndex);
+    ::OVR::OpenVR::ETrackedControllerRole GetControllerRoleForTrackedDeviceIndex(uint unDeviceIndex);
     // public OVR.OpenVR.ETrackedDeviceClass GetTrackedDeviceClass(System.UInt32 unDeviceIndex)
     // Offset: 0x1A0F028
-    OVR::OpenVR::ETrackedDeviceClass GetTrackedDeviceClass(uint unDeviceIndex);
+    ::OVR::OpenVR::ETrackedDeviceClass GetTrackedDeviceClass(uint unDeviceIndex);
     // public System.Boolean IsTrackedDeviceConnected(System.UInt32 unDeviceIndex)
     // Offset: 0x1A0F044
     bool IsTrackedDeviceConnected(uint unDeviceIndex);
     // public System.Boolean GetBoolTrackedDeviceProperty(System.UInt32 unDeviceIndex, OVR.OpenVR.ETrackedDeviceProperty prop, ref OVR.OpenVR.ETrackedPropertyError pError)
     // Offset: 0x1A0F060
-    bool GetBoolTrackedDeviceProperty(uint unDeviceIndex, OVR::OpenVR::ETrackedDeviceProperty prop, ByRef<OVR::OpenVR::ETrackedPropertyError> pError);
+    bool GetBoolTrackedDeviceProperty(uint unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty prop, ByRef<::OVR::OpenVR::ETrackedPropertyError> pError);
     // public System.Single GetFloatTrackedDeviceProperty(System.UInt32 unDeviceIndex, OVR.OpenVR.ETrackedDeviceProperty prop, ref OVR.OpenVR.ETrackedPropertyError pError)
     // Offset: 0x1A0F07C
-    float GetFloatTrackedDeviceProperty(uint unDeviceIndex, OVR::OpenVR::ETrackedDeviceProperty prop, ByRef<OVR::OpenVR::ETrackedPropertyError> pError);
+    float GetFloatTrackedDeviceProperty(uint unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty prop, ByRef<::OVR::OpenVR::ETrackedPropertyError> pError);
     // public System.Int32 GetInt32TrackedDeviceProperty(System.UInt32 unDeviceIndex, OVR.OpenVR.ETrackedDeviceProperty prop, ref OVR.OpenVR.ETrackedPropertyError pError)
     // Offset: 0x1A0F098
-    int GetInt32TrackedDeviceProperty(uint unDeviceIndex, OVR::OpenVR::ETrackedDeviceProperty prop, ByRef<OVR::OpenVR::ETrackedPropertyError> pError);
+    int GetInt32TrackedDeviceProperty(uint unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty prop, ByRef<::OVR::OpenVR::ETrackedPropertyError> pError);
     // public System.UInt64 GetUint64TrackedDeviceProperty(System.UInt32 unDeviceIndex, OVR.OpenVR.ETrackedDeviceProperty prop, ref OVR.OpenVR.ETrackedPropertyError pError)
     // Offset: 0x1A0F0B4
-    uint64_t GetUint64TrackedDeviceProperty(uint unDeviceIndex, OVR::OpenVR::ETrackedDeviceProperty prop, ByRef<OVR::OpenVR::ETrackedPropertyError> pError);
+    uint64_t GetUint64TrackedDeviceProperty(uint unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty prop, ByRef<::OVR::OpenVR::ETrackedPropertyError> pError);
     // public OVR.OpenVR.HmdMatrix34_t GetMatrix34TrackedDeviceProperty(System.UInt32 unDeviceIndex, OVR.OpenVR.ETrackedDeviceProperty prop, ref OVR.OpenVR.ETrackedPropertyError pError)
     // Offset: 0x1A0F0D0
-    OVR::OpenVR::HmdMatrix34_t GetMatrix34TrackedDeviceProperty(uint unDeviceIndex, OVR::OpenVR::ETrackedDeviceProperty prop, ByRef<OVR::OpenVR::ETrackedPropertyError> pError);
+    ::OVR::OpenVR::HmdMatrix34_t GetMatrix34TrackedDeviceProperty(uint unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty prop, ByRef<::OVR::OpenVR::ETrackedPropertyError> pError);
     // public System.UInt32 GetArrayTrackedDeviceProperty(System.UInt32 unDeviceIndex, OVR.OpenVR.ETrackedDeviceProperty prop, System.UInt32 propType, System.IntPtr pBuffer, System.UInt32 unBufferSize, ref OVR.OpenVR.ETrackedPropertyError pError)
     // Offset: 0x1A0F0EC
-    uint GetArrayTrackedDeviceProperty(uint unDeviceIndex, OVR::OpenVR::ETrackedDeviceProperty prop, uint propType, System::IntPtr pBuffer, uint unBufferSize, ByRef<OVR::OpenVR::ETrackedPropertyError> pError);
+    uint GetArrayTrackedDeviceProperty(uint unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty prop, uint propType, ::System::IntPtr pBuffer, uint unBufferSize, ByRef<::OVR::OpenVR::ETrackedPropertyError> pError);
     // public System.UInt32 GetStringTrackedDeviceProperty(System.UInt32 unDeviceIndex, OVR.OpenVR.ETrackedDeviceProperty prop, System.Text.StringBuilder pchValue, System.UInt32 unBufferSize, ref OVR.OpenVR.ETrackedPropertyError pError)
     // Offset: 0x1A0F108
-    uint GetStringTrackedDeviceProperty(uint unDeviceIndex, OVR::OpenVR::ETrackedDeviceProperty prop, System::Text::StringBuilder* pchValue, uint unBufferSize, ByRef<OVR::OpenVR::ETrackedPropertyError> pError);
+    uint GetStringTrackedDeviceProperty(uint unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty prop, ::System::Text::StringBuilder* pchValue, uint unBufferSize, ByRef<::OVR::OpenVR::ETrackedPropertyError> pError);
     // public System.String GetPropErrorNameFromEnum(OVR.OpenVR.ETrackedPropertyError error)
     // Offset: 0x1A0F124
-    ::StringW GetPropErrorNameFromEnum(OVR::OpenVR::ETrackedPropertyError error);
+    ::StringW GetPropErrorNameFromEnum(::OVR::OpenVR::ETrackedPropertyError error);
     // public System.Boolean PollNextEvent(ref OVR.OpenVR.VREvent_t pEvent, System.UInt32 uncbVREvent)
     // Offset: 0x1A0F1B8
-    bool PollNextEvent(ByRef<OVR::OpenVR::VREvent_t> pEvent, uint uncbVREvent);
+    bool PollNextEvent(ByRef<::OVR::OpenVR::VREvent_t> pEvent, uint uncbVREvent);
     // public System.Boolean PollNextEventWithPose(OVR.OpenVR.ETrackingUniverseOrigin eOrigin, ref OVR.OpenVR.VREvent_t pEvent, System.UInt32 uncbVREvent, ref OVR.OpenVR.TrackedDevicePose_t pTrackedDevicePose)
     // Offset: 0x1A0F5A0
-    bool PollNextEventWithPose(OVR::OpenVR::ETrackingUniverseOrigin eOrigin, ByRef<OVR::OpenVR::VREvent_t> pEvent, uint uncbVREvent, ByRef<OVR::OpenVR::TrackedDevicePose_t> pTrackedDevicePose);
+    bool PollNextEventWithPose(::OVR::OpenVR::ETrackingUniverseOrigin eOrigin, ByRef<::OVR::OpenVR::VREvent_t> pEvent, uint uncbVREvent, ByRef<::OVR::OpenVR::TrackedDevicePose_t> pTrackedDevicePose);
     // public System.String GetEventTypeNameFromEnum(OVR.OpenVR.EVREventType eType)
     // Offset: 0x1A0F5BC
-    ::StringW GetEventTypeNameFromEnum(OVR::OpenVR::EVREventType eType);
+    ::StringW GetEventTypeNameFromEnum(::OVR::OpenVR::EVREventType eType);
     // public OVR.OpenVR.HiddenAreaMesh_t GetHiddenAreaMesh(OVR.OpenVR.EVREye eEye, OVR.OpenVR.EHiddenAreaMeshType type)
     // Offset: 0x1A0F650
-    OVR::OpenVR::HiddenAreaMesh_t GetHiddenAreaMesh(OVR::OpenVR::EVREye eEye, OVR::OpenVR::EHiddenAreaMeshType type);
+    ::OVR::OpenVR::HiddenAreaMesh_t GetHiddenAreaMesh(::OVR::OpenVR::EVREye eEye, ::OVR::OpenVR::EHiddenAreaMeshType type);
     // public System.Boolean GetControllerState(System.UInt32 unControllerDeviceIndex, ref OVR.OpenVR.VRControllerState_t pControllerState, System.UInt32 unControllerStateSize)
     // Offset: 0x1A0F66C
-    bool GetControllerState(uint unControllerDeviceIndex, ByRef<OVR::OpenVR::VRControllerState_t> pControllerState, uint unControllerStateSize);
+    bool GetControllerState(uint unControllerDeviceIndex, ByRef<::OVR::OpenVR::VRControllerState_t> pControllerState, uint unControllerStateSize);
     // public System.Boolean GetControllerStateWithPose(OVR.OpenVR.ETrackingUniverseOrigin eOrigin, System.UInt32 unControllerDeviceIndex, ref OVR.OpenVR.VRControllerState_t pControllerState, System.UInt32 unControllerStateSize, ref OVR.OpenVR.TrackedDevicePose_t pTrackedDevicePose)
     // Offset: 0x1A0FAA0
-    bool GetControllerStateWithPose(OVR::OpenVR::ETrackingUniverseOrigin eOrigin, uint unControllerDeviceIndex, ByRef<OVR::OpenVR::VRControllerState_t> pControllerState, uint unControllerStateSize, ByRef<OVR::OpenVR::TrackedDevicePose_t> pTrackedDevicePose);
+    bool GetControllerStateWithPose(::OVR::OpenVR::ETrackingUniverseOrigin eOrigin, uint unControllerDeviceIndex, ByRef<::OVR::OpenVR::VRControllerState_t> pControllerState, uint unControllerStateSize, ByRef<::OVR::OpenVR::TrackedDevicePose_t> pTrackedDevicePose);
     // public System.Void TriggerHapticPulse(System.UInt32 unControllerDeviceIndex, System.UInt32 unAxisId, System.UInt16 usDurationMicroSec)
     // Offset: 0x1A0FF4C
     void TriggerHapticPulse(uint unControllerDeviceIndex, uint unAxisId, uint16_t usDurationMicroSec);
     // public System.String GetButtonIdNameFromEnum(OVR.OpenVR.EVRButtonId eButtonId)
     // Offset: 0x1A0FF68
-    ::StringW GetButtonIdNameFromEnum(OVR::OpenVR::EVRButtonId eButtonId);
+    ::StringW GetButtonIdNameFromEnum(::OVR::OpenVR::EVRButtonId eButtonId);
     // public System.String GetControllerAxisTypeNameFromEnum(OVR.OpenVR.EVRControllerAxisType eAxisType)
     // Offset: 0x1A0FFFC
-    ::StringW GetControllerAxisTypeNameFromEnum(OVR::OpenVR::EVRControllerAxisType eAxisType);
+    ::StringW GetControllerAxisTypeNameFromEnum(::OVR::OpenVR::EVRControllerAxisType eAxisType);
     // public System.Boolean IsInputAvailable()
     // Offset: 0x1A10090
     bool IsInputAvailable();
@@ -253,10 +253,10 @@ namespace OVR::OpenVR {
     bool ShouldApplicationReduceRenderingWork();
     // public System.UInt32 DriverDebugRequest(System.UInt32 unDeviceIndex, System.String pchRequest, System.Text.StringBuilder pchResponseBuffer, System.UInt32 unResponseBufferSize)
     // Offset: 0x1A10100
-    uint DriverDebugRequest(uint unDeviceIndex, ::StringW pchRequest, System::Text::StringBuilder* pchResponseBuffer, uint unResponseBufferSize);
+    uint DriverDebugRequest(uint unDeviceIndex, ::StringW pchRequest, ::System::Text::StringBuilder* pchResponseBuffer, uint unResponseBufferSize);
     // public OVR.OpenVR.EVRFirmwareError PerformFirmwareUpdate(System.UInt32 unDeviceIndex)
     // Offset: 0x1A1011C
-    OVR::OpenVR::EVRFirmwareError PerformFirmwareUpdate(uint unDeviceIndex);
+    ::OVR::OpenVR::EVRFirmwareError PerformFirmwareUpdate(uint unDeviceIndex);
     // public System.Void AcknowledgeQuit_Exiting()
     // Offset: 0x1A10138
     void AcknowledgeQuit_Exiting();
@@ -265,7 +265,7 @@ namespace OVR::OpenVR {
     void AcknowledgeQuit_UserPrompt();
   }; // OVR.OpenVR.CVRSystem
   #pragma pack(pop)
-  static check_size<sizeof(CVRSystem), 16 + sizeof(OVR::OpenVR::IVRSystem)> __OVR_OpenVR_CVRSystemSizeCheck;
+  static check_size<sizeof(CVRSystem), 16 + sizeof(::OVR::OpenVR::IVRSystem)> __OVR_OpenVR_CVRSystemSizeCheck;
   static_assert(sizeof(CVRSystem) == 0x188);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -286,7 +286,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVRSystem::GetProjectionMatrix
 // Il2CppName: GetProjectionMatrix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::HmdMatrix44_t (OVR::OpenVR::CVRSystem::*)(OVR::OpenVR::EVREye, float, float)>(&OVR::OpenVR::CVRSystem::GetProjectionMatrix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::HmdMatrix44_t (OVR::OpenVR::CVRSystem::*)(::OVR::OpenVR::EVREye, float, float)>(&OVR::OpenVR::CVRSystem::GetProjectionMatrix)> {
   static const MethodInfo* get() {
     static auto* eEye = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVREye")->byval_arg;
     static auto* fNearZ = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -297,7 +297,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVRSystem::GetProjectionRaw
 // Il2CppName: GetProjectionRaw
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRSystem::*)(OVR::OpenVR::EVREye, ByRef<float>, ByRef<float>, ByRef<float>, ByRef<float>)>(&OVR::OpenVR::CVRSystem::GetProjectionRaw)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRSystem::*)(::OVR::OpenVR::EVREye, ByRef<float>, ByRef<float>, ByRef<float>, ByRef<float>)>(&OVR::OpenVR::CVRSystem::GetProjectionRaw)> {
   static const MethodInfo* get() {
     static auto* eEye = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVREye")->byval_arg;
     static auto* pfLeft = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
@@ -310,7 +310,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVRSystem::ComputeDistortion
 // Il2CppName: ComputeDistortion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRSystem::*)(OVR::OpenVR::EVREye, float, float, ByRef<OVR::OpenVR::DistortionCoordinates_t>)>(&OVR::OpenVR::CVRSystem::ComputeDistortion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRSystem::*)(::OVR::OpenVR::EVREye, float, float, ByRef<::OVR::OpenVR::DistortionCoordinates_t>)>(&OVR::OpenVR::CVRSystem::ComputeDistortion)> {
   static const MethodInfo* get() {
     static auto* eEye = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVREye")->byval_arg;
     static auto* fU = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -322,7 +322,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVRSystem::GetEyeToHeadTransform
 // Il2CppName: GetEyeToHeadTransform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::HmdMatrix34_t (OVR::OpenVR::CVRSystem::*)(OVR::OpenVR::EVREye)>(&OVR::OpenVR::CVRSystem::GetEyeToHeadTransform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::HmdMatrix34_t (OVR::OpenVR::CVRSystem::*)(::OVR::OpenVR::EVREye)>(&OVR::OpenVR::CVRSystem::GetEyeToHeadTransform)> {
   static const MethodInfo* get() {
     static auto* eEye = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVREye")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRSystem*), "GetEyeToHeadTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eEye});
@@ -358,7 +358,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVRSystem::GetOutputDevice
 // Il2CppName: GetOutputDevice
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRSystem::*)(ByRef<uint64_t>, OVR::OpenVR::ETextureType, System::IntPtr)>(&OVR::OpenVR::CVRSystem::GetOutputDevice)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRSystem::*)(ByRef<uint64_t>, ::OVR::OpenVR::ETextureType, ::System::IntPtr)>(&OVR::OpenVR::CVRSystem::GetOutputDevice)> {
   static const MethodInfo* get() {
     static auto* pnDevice = &::il2cpp_utils::GetClassFromName("System", "UInt64")->this_arg;
     static auto* textureType = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "ETextureType")->byval_arg;
@@ -386,7 +386,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVRSystem::GetDeviceToAbsoluteTrackingPose
 // Il2CppName: GetDeviceToAbsoluteTrackingPose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRSystem::*)(OVR::OpenVR::ETrackingUniverseOrigin, float, ::ArrayW<OVR::OpenVR::TrackedDevicePose_t>)>(&OVR::OpenVR::CVRSystem::GetDeviceToAbsoluteTrackingPose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRSystem::*)(::OVR::OpenVR::ETrackingUniverseOrigin, float, ::ArrayW<::OVR::OpenVR::TrackedDevicePose_t>)>(&OVR::OpenVR::CVRSystem::GetDeviceToAbsoluteTrackingPose)> {
   static const MethodInfo* get() {
     static auto* eOrigin = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "ETrackingUniverseOrigin")->byval_arg;
     static auto* fPredictedSecondsToPhotonsFromNow = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -405,7 +405,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVRSystem::GetSeatedZeroPoseToStandingAbsoluteTrackingPose
 // Il2CppName: GetSeatedZeroPoseToStandingAbsoluteTrackingPose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::HmdMatrix34_t (OVR::OpenVR::CVRSystem::*)()>(&OVR::OpenVR::CVRSystem::GetSeatedZeroPoseToStandingAbsoluteTrackingPose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::HmdMatrix34_t (OVR::OpenVR::CVRSystem::*)()>(&OVR::OpenVR::CVRSystem::GetSeatedZeroPoseToStandingAbsoluteTrackingPose)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRSystem*), "GetSeatedZeroPoseToStandingAbsoluteTrackingPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -413,7 +413,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVRSystem::GetRawZeroPoseToStandingAbsoluteTrackingPose
 // Il2CppName: GetRawZeroPoseToStandingAbsoluteTrackingPose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::HmdMatrix34_t (OVR::OpenVR::CVRSystem::*)()>(&OVR::OpenVR::CVRSystem::GetRawZeroPoseToStandingAbsoluteTrackingPose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::HmdMatrix34_t (OVR::OpenVR::CVRSystem::*)()>(&OVR::OpenVR::CVRSystem::GetRawZeroPoseToStandingAbsoluteTrackingPose)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRSystem*), "GetRawZeroPoseToStandingAbsoluteTrackingPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -421,7 +421,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVRSystem::GetSortedTrackedDeviceIndicesOfClass
 // Il2CppName: GetSortedTrackedDeviceIndicesOfClass
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRSystem::*)(OVR::OpenVR::ETrackedDeviceClass, ::ArrayW<uint>, uint)>(&OVR::OpenVR::CVRSystem::GetSortedTrackedDeviceIndicesOfClass)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRSystem::*)(::OVR::OpenVR::ETrackedDeviceClass, ::ArrayW<uint>, uint)>(&OVR::OpenVR::CVRSystem::GetSortedTrackedDeviceIndicesOfClass)> {
   static const MethodInfo* get() {
     static auto* eTrackedDeviceClass = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "ETrackedDeviceClass")->byval_arg;
     static auto* punTrackedDeviceIndexArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
@@ -432,7 +432,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVRSystem::GetTrackedDeviceActivityLevel
 // Il2CppName: GetTrackedDeviceActivityLevel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EDeviceActivityLevel (OVR::OpenVR::CVRSystem::*)(uint)>(&OVR::OpenVR::CVRSystem::GetTrackedDeviceActivityLevel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EDeviceActivityLevel (OVR::OpenVR::CVRSystem::*)(uint)>(&OVR::OpenVR::CVRSystem::GetTrackedDeviceActivityLevel)> {
   static const MethodInfo* get() {
     static auto* unDeviceId = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRSystem*), "GetTrackedDeviceActivityLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unDeviceId});
@@ -441,7 +441,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVRSystem::ApplyTransform
 // Il2CppName: ApplyTransform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRSystem::*)(ByRef<OVR::OpenVR::TrackedDevicePose_t>, ByRef<OVR::OpenVR::TrackedDevicePose_t>, ByRef<OVR::OpenVR::HmdMatrix34_t>)>(&OVR::OpenVR::CVRSystem::ApplyTransform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRSystem::*)(ByRef<::OVR::OpenVR::TrackedDevicePose_t>, ByRef<::OVR::OpenVR::TrackedDevicePose_t>, ByRef<::OVR::OpenVR::HmdMatrix34_t>)>(&OVR::OpenVR::CVRSystem::ApplyTransform)> {
   static const MethodInfo* get() {
     static auto* pOutputPose = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "TrackedDevicePose_t")->this_arg;
     static auto* pTrackedDevicePose = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "TrackedDevicePose_t")->this_arg;
@@ -452,7 +452,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVRSystem::GetTrackedDeviceIndexForControllerRole
 // Il2CppName: GetTrackedDeviceIndexForControllerRole
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRSystem::*)(OVR::OpenVR::ETrackedControllerRole)>(&OVR::OpenVR::CVRSystem::GetTrackedDeviceIndexForControllerRole)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRSystem::*)(::OVR::OpenVR::ETrackedControllerRole)>(&OVR::OpenVR::CVRSystem::GetTrackedDeviceIndexForControllerRole)> {
   static const MethodInfo* get() {
     static auto* unDeviceType = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "ETrackedControllerRole")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRSystem*), "GetTrackedDeviceIndexForControllerRole", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unDeviceType});
@@ -461,7 +461,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVRSystem::GetControllerRoleForTrackedDeviceIndex
 // Il2CppName: GetControllerRoleForTrackedDeviceIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::ETrackedControllerRole (OVR::OpenVR::CVRSystem::*)(uint)>(&OVR::OpenVR::CVRSystem::GetControllerRoleForTrackedDeviceIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::ETrackedControllerRole (OVR::OpenVR::CVRSystem::*)(uint)>(&OVR::OpenVR::CVRSystem::GetControllerRoleForTrackedDeviceIndex)> {
   static const MethodInfo* get() {
     static auto* unDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRSystem*), "GetControllerRoleForTrackedDeviceIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unDeviceIndex});
@@ -470,7 +470,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVRSystem::GetTrackedDeviceClass
 // Il2CppName: GetTrackedDeviceClass
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::ETrackedDeviceClass (OVR::OpenVR::CVRSystem::*)(uint)>(&OVR::OpenVR::CVRSystem::GetTrackedDeviceClass)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::ETrackedDeviceClass (OVR::OpenVR::CVRSystem::*)(uint)>(&OVR::OpenVR::CVRSystem::GetTrackedDeviceClass)> {
   static const MethodInfo* get() {
     static auto* unDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRSystem*), "GetTrackedDeviceClass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unDeviceIndex});
@@ -488,7 +488,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVRSystem::GetBoolTrackedDeviceProperty
 // Il2CppName: GetBoolTrackedDeviceProperty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRSystem::*)(uint, OVR::OpenVR::ETrackedDeviceProperty, ByRef<OVR::OpenVR::ETrackedPropertyError>)>(&OVR::OpenVR::CVRSystem::GetBoolTrackedDeviceProperty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRSystem::*)(uint, ::OVR::OpenVR::ETrackedDeviceProperty, ByRef<::OVR::OpenVR::ETrackedPropertyError>)>(&OVR::OpenVR::CVRSystem::GetBoolTrackedDeviceProperty)> {
   static const MethodInfo* get() {
     static auto* unDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* prop = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "ETrackedDeviceProperty")->byval_arg;
@@ -499,7 +499,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVRSystem::GetFloatTrackedDeviceProperty
 // Il2CppName: GetFloatTrackedDeviceProperty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (OVR::OpenVR::CVRSystem::*)(uint, OVR::OpenVR::ETrackedDeviceProperty, ByRef<OVR::OpenVR::ETrackedPropertyError>)>(&OVR::OpenVR::CVRSystem::GetFloatTrackedDeviceProperty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (OVR::OpenVR::CVRSystem::*)(uint, ::OVR::OpenVR::ETrackedDeviceProperty, ByRef<::OVR::OpenVR::ETrackedPropertyError>)>(&OVR::OpenVR::CVRSystem::GetFloatTrackedDeviceProperty)> {
   static const MethodInfo* get() {
     static auto* unDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* prop = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "ETrackedDeviceProperty")->byval_arg;
@@ -510,7 +510,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (OVR:
 // Writing MetadataGetter for method: OVR::OpenVR::CVRSystem::GetInt32TrackedDeviceProperty
 // Il2CppName: GetInt32TrackedDeviceProperty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (OVR::OpenVR::CVRSystem::*)(uint, OVR::OpenVR::ETrackedDeviceProperty, ByRef<OVR::OpenVR::ETrackedPropertyError>)>(&OVR::OpenVR::CVRSystem::GetInt32TrackedDeviceProperty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (OVR::OpenVR::CVRSystem::*)(uint, ::OVR::OpenVR::ETrackedDeviceProperty, ByRef<::OVR::OpenVR::ETrackedPropertyError>)>(&OVR::OpenVR::CVRSystem::GetInt32TrackedDeviceProperty)> {
   static const MethodInfo* get() {
     static auto* unDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* prop = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "ETrackedDeviceProperty")->byval_arg;
@@ -521,7 +521,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (OVR::O
 // Writing MetadataGetter for method: OVR::OpenVR::CVRSystem::GetUint64TrackedDeviceProperty
 // Il2CppName: GetUint64TrackedDeviceProperty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (OVR::OpenVR::CVRSystem::*)(uint, OVR::OpenVR::ETrackedDeviceProperty, ByRef<OVR::OpenVR::ETrackedPropertyError>)>(&OVR::OpenVR::CVRSystem::GetUint64TrackedDeviceProperty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (OVR::OpenVR::CVRSystem::*)(uint, ::OVR::OpenVR::ETrackedDeviceProperty, ByRef<::OVR::OpenVR::ETrackedPropertyError>)>(&OVR::OpenVR::CVRSystem::GetUint64TrackedDeviceProperty)> {
   static const MethodInfo* get() {
     static auto* unDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* prop = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "ETrackedDeviceProperty")->byval_arg;
@@ -532,7 +532,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (O
 // Writing MetadataGetter for method: OVR::OpenVR::CVRSystem::GetMatrix34TrackedDeviceProperty
 // Il2CppName: GetMatrix34TrackedDeviceProperty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::HmdMatrix34_t (OVR::OpenVR::CVRSystem::*)(uint, OVR::OpenVR::ETrackedDeviceProperty, ByRef<OVR::OpenVR::ETrackedPropertyError>)>(&OVR::OpenVR::CVRSystem::GetMatrix34TrackedDeviceProperty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::HmdMatrix34_t (OVR::OpenVR::CVRSystem::*)(uint, ::OVR::OpenVR::ETrackedDeviceProperty, ByRef<::OVR::OpenVR::ETrackedPropertyError>)>(&OVR::OpenVR::CVRSystem::GetMatrix34TrackedDeviceProperty)> {
   static const MethodInfo* get() {
     static auto* unDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* prop = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "ETrackedDeviceProperty")->byval_arg;
@@ -543,7 +543,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVRSystem::GetArrayTrackedDeviceProperty
 // Il2CppName: GetArrayTrackedDeviceProperty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRSystem::*)(uint, OVR::OpenVR::ETrackedDeviceProperty, uint, System::IntPtr, uint, ByRef<OVR::OpenVR::ETrackedPropertyError>)>(&OVR::OpenVR::CVRSystem::GetArrayTrackedDeviceProperty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRSystem::*)(uint, ::OVR::OpenVR::ETrackedDeviceProperty, uint, ::System::IntPtr, uint, ByRef<::OVR::OpenVR::ETrackedPropertyError>)>(&OVR::OpenVR::CVRSystem::GetArrayTrackedDeviceProperty)> {
   static const MethodInfo* get() {
     static auto* unDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* prop = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "ETrackedDeviceProperty")->byval_arg;
@@ -557,7 +557,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVRSystem::GetStringTrackedDeviceProperty
 // Il2CppName: GetStringTrackedDeviceProperty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRSystem::*)(uint, OVR::OpenVR::ETrackedDeviceProperty, System::Text::StringBuilder*, uint, ByRef<OVR::OpenVR::ETrackedPropertyError>)>(&OVR::OpenVR::CVRSystem::GetStringTrackedDeviceProperty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRSystem::*)(uint, ::OVR::OpenVR::ETrackedDeviceProperty, ::System::Text::StringBuilder*, uint, ByRef<::OVR::OpenVR::ETrackedPropertyError>)>(&OVR::OpenVR::CVRSystem::GetStringTrackedDeviceProperty)> {
   static const MethodInfo* get() {
     static auto* unDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* prop = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "ETrackedDeviceProperty")->byval_arg;
@@ -570,7 +570,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVRSystem::GetPropErrorNameFromEnum
 // Il2CppName: GetPropErrorNameFromEnum
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (OVR::OpenVR::CVRSystem::*)(OVR::OpenVR::ETrackedPropertyError)>(&OVR::OpenVR::CVRSystem::GetPropErrorNameFromEnum)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (OVR::OpenVR::CVRSystem::*)(::OVR::OpenVR::ETrackedPropertyError)>(&OVR::OpenVR::CVRSystem::GetPropErrorNameFromEnum)> {
   static const MethodInfo* get() {
     static auto* error = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "ETrackedPropertyError")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRSystem*), "GetPropErrorNameFromEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{error});
@@ -579,7 +579,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: OVR::OpenVR::CVRSystem::PollNextEvent
 // Il2CppName: PollNextEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRSystem::*)(ByRef<OVR::OpenVR::VREvent_t>, uint)>(&OVR::OpenVR::CVRSystem::PollNextEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRSystem::*)(ByRef<::OVR::OpenVR::VREvent_t>, uint)>(&OVR::OpenVR::CVRSystem::PollNextEvent)> {
   static const MethodInfo* get() {
     static auto* pEvent = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "VREvent_t")->this_arg;
     static auto* uncbVREvent = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -589,7 +589,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVRSystem::PollNextEventWithPose
 // Il2CppName: PollNextEventWithPose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRSystem::*)(OVR::OpenVR::ETrackingUniverseOrigin, ByRef<OVR::OpenVR::VREvent_t>, uint, ByRef<OVR::OpenVR::TrackedDevicePose_t>)>(&OVR::OpenVR::CVRSystem::PollNextEventWithPose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRSystem::*)(::OVR::OpenVR::ETrackingUniverseOrigin, ByRef<::OVR::OpenVR::VREvent_t>, uint, ByRef<::OVR::OpenVR::TrackedDevicePose_t>)>(&OVR::OpenVR::CVRSystem::PollNextEventWithPose)> {
   static const MethodInfo* get() {
     static auto* eOrigin = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "ETrackingUniverseOrigin")->byval_arg;
     static auto* pEvent = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "VREvent_t")->this_arg;
@@ -601,7 +601,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVRSystem::GetEventTypeNameFromEnum
 // Il2CppName: GetEventTypeNameFromEnum
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (OVR::OpenVR::CVRSystem::*)(OVR::OpenVR::EVREventType)>(&OVR::OpenVR::CVRSystem::GetEventTypeNameFromEnum)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (OVR::OpenVR::CVRSystem::*)(::OVR::OpenVR::EVREventType)>(&OVR::OpenVR::CVRSystem::GetEventTypeNameFromEnum)> {
   static const MethodInfo* get() {
     static auto* eType = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVREventType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRSystem*), "GetEventTypeNameFromEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eType});
@@ -610,7 +610,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: OVR::OpenVR::CVRSystem::GetHiddenAreaMesh
 // Il2CppName: GetHiddenAreaMesh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::HiddenAreaMesh_t (OVR::OpenVR::CVRSystem::*)(OVR::OpenVR::EVREye, OVR::OpenVR::EHiddenAreaMeshType)>(&OVR::OpenVR::CVRSystem::GetHiddenAreaMesh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::HiddenAreaMesh_t (OVR::OpenVR::CVRSystem::*)(::OVR::OpenVR::EVREye, ::OVR::OpenVR::EHiddenAreaMeshType)>(&OVR::OpenVR::CVRSystem::GetHiddenAreaMesh)> {
   static const MethodInfo* get() {
     static auto* eEye = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVREye")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EHiddenAreaMeshType")->byval_arg;
@@ -620,7 +620,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVRSystem::GetControllerState
 // Il2CppName: GetControllerState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRSystem::*)(uint, ByRef<OVR::OpenVR::VRControllerState_t>, uint)>(&OVR::OpenVR::CVRSystem::GetControllerState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRSystem::*)(uint, ByRef<::OVR::OpenVR::VRControllerState_t>, uint)>(&OVR::OpenVR::CVRSystem::GetControllerState)> {
   static const MethodInfo* get() {
     static auto* unControllerDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* pControllerState = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "VRControllerState_t")->this_arg;
@@ -631,7 +631,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVRSystem::GetControllerStateWithPose
 // Il2CppName: GetControllerStateWithPose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRSystem::*)(OVR::OpenVR::ETrackingUniverseOrigin, uint, ByRef<OVR::OpenVR::VRControllerState_t>, uint, ByRef<OVR::OpenVR::TrackedDevicePose_t>)>(&OVR::OpenVR::CVRSystem::GetControllerStateWithPose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRSystem::*)(::OVR::OpenVR::ETrackingUniverseOrigin, uint, ByRef<::OVR::OpenVR::VRControllerState_t>, uint, ByRef<::OVR::OpenVR::TrackedDevicePose_t>)>(&OVR::OpenVR::CVRSystem::GetControllerStateWithPose)> {
   static const MethodInfo* get() {
     static auto* eOrigin = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "ETrackingUniverseOrigin")->byval_arg;
     static auto* unControllerDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -655,7 +655,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVRSystem::GetButtonIdNameFromEnum
 // Il2CppName: GetButtonIdNameFromEnum
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (OVR::OpenVR::CVRSystem::*)(OVR::OpenVR::EVRButtonId)>(&OVR::OpenVR::CVRSystem::GetButtonIdNameFromEnum)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (OVR::OpenVR::CVRSystem::*)(::OVR::OpenVR::EVRButtonId)>(&OVR::OpenVR::CVRSystem::GetButtonIdNameFromEnum)> {
   static const MethodInfo* get() {
     static auto* eButtonId = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRButtonId")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRSystem*), "GetButtonIdNameFromEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eButtonId});
@@ -664,7 +664,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: OVR::OpenVR::CVRSystem::GetControllerAxisTypeNameFromEnum
 // Il2CppName: GetControllerAxisTypeNameFromEnum
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (OVR::OpenVR::CVRSystem::*)(OVR::OpenVR::EVRControllerAxisType)>(&OVR::OpenVR::CVRSystem::GetControllerAxisTypeNameFromEnum)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (OVR::OpenVR::CVRSystem::*)(::OVR::OpenVR::EVRControllerAxisType)>(&OVR::OpenVR::CVRSystem::GetControllerAxisTypeNameFromEnum)> {
   static const MethodInfo* get() {
     static auto* eAxisType = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRControllerAxisType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRSystem*), "GetControllerAxisTypeNameFromEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eAxisType});
@@ -705,7 +705,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVRSystem::DriverDebugRequest
 // Il2CppName: DriverDebugRequest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRSystem::*)(uint, ::StringW, System::Text::StringBuilder*, uint)>(&OVR::OpenVR::CVRSystem::DriverDebugRequest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRSystem::*)(uint, ::StringW, ::System::Text::StringBuilder*, uint)>(&OVR::OpenVR::CVRSystem::DriverDebugRequest)> {
   static const MethodInfo* get() {
     static auto* unDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* pchRequest = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -717,7 +717,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVRSystem::PerformFirmwareUpdate
 // Il2CppName: PerformFirmwareUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRFirmwareError (OVR::OpenVR::CVRSystem::*)(uint)>(&OVR::OpenVR::CVRSystem::PerformFirmwareUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRFirmwareError (OVR::OpenVR::CVRSystem::*)(uint)>(&OVR::OpenVR::CVRSystem::PerformFirmwareUpdate)> {
   static const MethodInfo* get() {
     static auto* unDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRSystem*), "PerformFirmwareUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unDeviceIndex});

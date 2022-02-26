@@ -22,8 +22,8 @@ namespace UnityEngine {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::FireworkItemController::FireworkItemParticleSystem);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FireworkItemController::FireworkItemParticleSystem*, "", "FireworkItemController/FireworkItemParticleSystem");
+NEED_NO_BOX(::GlobalNamespace::FireworkItemController::FireworkItemParticleSystem);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FireworkItemController::FireworkItemParticleSystem*, "", "FireworkItemController/FireworkItemParticleSystem");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x29
@@ -44,9 +44,9 @@ namespace GlobalNamespace {
     // public UnityEngine.ParticleSystem _particleSystem
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::ParticleSystem* particleSystem;
+    ::UnityEngine::ParticleSystem* particleSystem;
     // Field size check
-    static_assert(sizeof(UnityEngine::ParticleSystem*) == 0x8);
+    static_assert(sizeof(::UnityEngine::ParticleSystem*) == 0x8);
     // public System.Boolean _isSubemitter
     // Size: 0x1
     // Offset: 0x18
@@ -72,9 +72,9 @@ namespace GlobalNamespace {
     // public UnityEngine.Gradient _particleColorGradient
     // Size: 0x8
     // Offset: 0x20
-    UnityEngine::Gradient* particleColorGradient;
+    ::UnityEngine::Gradient* particleColorGradient;
     // Field size check
-    static_assert(sizeof(UnityEngine::Gradient*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Gradient*) == 0x8);
     // public System.Boolean _randomizeSpeed
     // Size: 0x1
     // Offset: 0x28
@@ -83,7 +83,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public UnityEngine.ParticleSystem _particleSystem
-    UnityEngine::ParticleSystem*& dyn__particleSystem();
+    ::UnityEngine::ParticleSystem*& dyn__particleSystem();
     // Get instance field reference: public System.Boolean _isSubemitter
     bool& dyn__isSubemitter();
     // Get instance field reference: public System.Boolean _useMainColor
@@ -91,7 +91,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean _useOwnGradient
     bool& dyn__useOwnGradient();
     // Get instance field reference: public UnityEngine.Gradient _particleColorGradient
-    UnityEngine::Gradient*& dyn__particleColorGradient();
+    ::UnityEngine::Gradient*& dyn__particleColorGradient();
     // Get instance field reference: public System.Boolean _randomizeSpeed
     bool& dyn__randomizeSpeed();
     // public System.Void .ctor()
@@ -100,7 +100,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FireworkItemController::FireworkItemParticleSystem* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::FireworkItemController::FireworkItemParticleSystem::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FireworkItemController::FireworkItemParticleSystem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FireworkItemController::FireworkItemParticleSystem*, creationType>()));
     }
   }; // FireworkItemController/FireworkItemParticleSystem

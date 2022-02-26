@@ -18,8 +18,8 @@ namespace Oculus::Platform::Models {
   class UserReportID;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::UserReportID);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::UserReportID*, "Oculus.Platform.Models", "UserReportID");
+NEED_NO_BOX(::Oculus::Platform::Models::UserReportID);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::UserReportID*, "Oculus.Platform.Models", "UserReportID");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x20
@@ -59,8 +59,8 @@ namespace Oculus::Platform::Models {
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x29FAFC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static UserReportID* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::UserReportID::.ctor");
+    static UserReportID* New_ctor(::System::IntPtr o) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::UserReportID::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UserReportID*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.UserReportID

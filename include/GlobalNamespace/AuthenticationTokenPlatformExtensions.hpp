@@ -16,8 +16,8 @@ namespace GlobalNamespace {
   class AuthenticationTokenPlatformExtensions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::AuthenticationTokenPlatformExtensions);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AuthenticationTokenPlatformExtensions*, "", "AuthenticationTokenPlatformExtensions");
+NEED_NO_BOX(::GlobalNamespace::AuthenticationTokenPlatformExtensions);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AuthenticationTokenPlatformExtensions*, "", "AuthenticationTokenPlatformExtensions");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -29,10 +29,10 @@ namespace GlobalNamespace {
     public:
     // static public AuthenticationToken/Platform ToAuthenticationTokenPlatform(UserInfo/Platform platform)
     // Offset: 0x14917AC
-    static GlobalNamespace::AuthenticationToken::Platform ToAuthenticationTokenPlatform(GlobalNamespace::UserInfo::Platform platform);
+    static ::GlobalNamespace::AuthenticationToken::Platform ToAuthenticationTokenPlatform(::GlobalNamespace::UserInfo::Platform platform);
     // static public UserInfo/Platform ToUserInfoPlatform(AuthenticationToken/Platform platform)
     // Offset: 0x14917D8
-    static GlobalNamespace::UserInfo::Platform ToUserInfoPlatform(GlobalNamespace::AuthenticationToken::Platform platform);
+    static ::GlobalNamespace::UserInfo::Platform ToUserInfoPlatform(::GlobalNamespace::AuthenticationToken::Platform platform);
   }; // AuthenticationTokenPlatformExtensions
   #pragma pack(pop)
 }
@@ -40,7 +40,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::AuthenticationTokenPlatformExtensions::ToAuthenticationTokenPlatform
 // Il2CppName: ToAuthenticationTokenPlatform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::AuthenticationToken::Platform (*)(GlobalNamespace::UserInfo::Platform)>(&GlobalNamespace::AuthenticationTokenPlatformExtensions::ToAuthenticationTokenPlatform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::AuthenticationToken::Platform (*)(::GlobalNamespace::UserInfo::Platform)>(&GlobalNamespace::AuthenticationTokenPlatformExtensions::ToAuthenticationTokenPlatform)> {
   static const MethodInfo* get() {
     static auto* platform = &::il2cpp_utils::GetClassFromName("", "UserInfo/Platform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AuthenticationTokenPlatformExtensions*), "ToAuthenticationTokenPlatform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{platform});
@@ -49,7 +49,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::AuthenticationTokenPlatformExtensions::ToUserInfoPlatform
 // Il2CppName: ToUserInfoPlatform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::UserInfo::Platform (*)(GlobalNamespace::AuthenticationToken::Platform)>(&GlobalNamespace::AuthenticationTokenPlatformExtensions::ToUserInfoPlatform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::UserInfo::Platform (*)(::GlobalNamespace::AuthenticationToken::Platform)>(&GlobalNamespace::AuthenticationTokenPlatformExtensions::ToUserInfoPlatform)> {
   static const MethodInfo* get() {
     static auto* platform = &::il2cpp_utils::GetClassFromName("", "AuthenticationToken/Platform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AuthenticationTokenPlatformExtensions*), "ToUserInfoPlatform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{platform});

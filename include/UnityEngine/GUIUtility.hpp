@@ -48,8 +48,8 @@ namespace UnityEngine {
   class GUIUtility;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::GUIUtility);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUIUtility*, "UnityEngine", "GUIUtility");
+NEED_NO_BOX(::UnityEngine::GUIUtility);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::GUIUtility*, "UnityEngine", "GUIUtility");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -73,34 +73,34 @@ namespace UnityEngine {
     // Set static field: static System.Int32 s_OriginalID
     static void _set_s_OriginalID(int value);
     // Get static field: static System.Action takeCapture
-    static System::Action* _get_takeCapture();
+    static ::System::Action* _get_takeCapture();
     // Set static field: static System.Action takeCapture
-    static void _set_takeCapture(System::Action* value);
+    static void _set_takeCapture(::System::Action* value);
     // Get static field: static System.Action releaseCapture
-    static System::Action* _get_releaseCapture();
+    static ::System::Action* _get_releaseCapture();
     // Set static field: static System.Action releaseCapture
-    static void _set_releaseCapture(System::Action* value);
+    static void _set_releaseCapture(::System::Action* value);
     // Get static field: static System.Func`3<System.Int32,System.IntPtr,System.Boolean> processEvent
-    static System::Func_3<int, System::IntPtr, bool>* _get_processEvent();
+    static ::System::Func_3<int, ::System::IntPtr, bool>* _get_processEvent();
     // Set static field: static System.Func`3<System.Int32,System.IntPtr,System.Boolean> processEvent
-    static void _set_processEvent(System::Func_3<int, System::IntPtr, bool>* value);
+    static void _set_processEvent(::System::Func_3<int, ::System::IntPtr, bool>* value);
     // Get static field: static System.Func`2<System.Exception,System.Boolean> endContainerGUIFromException
-    static System::Func_2<System::Exception*, bool>* _get_endContainerGUIFromException();
+    static ::System::Func_2<::System::Exception*, bool>* _get_endContainerGUIFromException();
     // Set static field: static System.Func`2<System.Exception,System.Boolean> endContainerGUIFromException
-    static void _set_endContainerGUIFromException(System::Func_2<System::Exception*, bool>* value);
+    static void _set_endContainerGUIFromException(::System::Func_2<::System::Exception*, bool>* value);
     // Get static field: static System.Action guiChanged
-    static System::Action* _get_guiChanged();
+    static ::System::Action* _get_guiChanged();
     // Set static field: static System.Action guiChanged
-    static void _set_guiChanged(System::Action* value);
+    static void _set_guiChanged(::System::Action* value);
     // [DebuggerBrowsableAttribute] Offset: 0x11C60B4
     // Get static field: static private System.Boolean <guiIsExiting>k__BackingField
     static bool _get_$guiIsExiting$k__BackingField();
     // Set static field: static private System.Boolean <guiIsExiting>k__BackingField
     static void _set_$guiIsExiting$k__BackingField(bool value);
     // Get static field: static System.Func`1<System.Boolean> s_HasCurrentWindowKeyFocusFunc
-    static System::Func_1<bool>* _get_s_HasCurrentWindowKeyFocusFunc();
+    static ::System::Func_1<bool>* _get_s_HasCurrentWindowKeyFocusFunc();
     // Set static field: static System.Func`1<System.Boolean> s_HasCurrentWindowKeyFocusFunc
-    static void _set_s_HasCurrentWindowKeyFocusFunc(System::Func_1<bool>* value);
+    static void _set_s_HasCurrentWindowKeyFocusFunc(::System::Func_1<bool>* value);
     // static System.Single get_pixelsPerPoint()
     // Offset: 0x1F62D28
     static float get_pixelsPerPoint();
@@ -124,7 +124,7 @@ namespace UnityEngine {
     static ::StringW get_compositionString();
     // static System.Void set_compositionCursorPos(UnityEngine.Vector2 value)
     // Offset: 0x1F67CE4
-    static void set_compositionCursorPos(UnityEngine::Vector2 value);
+    static void set_compositionCursorPos(::UnityEngine::Vector2 value);
     // static System.Void set_guiIsExiting(System.Boolean value)
     // Offset: 0x1F67F28
     static void set_guiIsExiting(bool value);
@@ -142,7 +142,7 @@ namespace UnityEngine {
     static void set_keyboardControl(int value);
     // static public System.Int32 GetControlID(System.Int32 hint, UnityEngine.FocusType focusType, UnityEngine.Rect rect)
     // Offset: 0x1F555D4
-    static int GetControlID(int hint, UnityEngine::FocusType focusType, UnityEngine::Rect rect);
+    static int GetControlID(int hint, ::UnityEngine::FocusType focusType, ::UnityEngine::Rect rect);
     // static private System.Int32 Internal_GetHotControl()
     // Offset: 0x1F67D68
     static int Internal_GetHotControl();
@@ -166,13 +166,13 @@ namespace UnityEngine {
     static void MarkGUIChanged();
     // static public System.Int32 GetControlID(UnityEngine.FocusType focus)
     // Offset: 0x1F5D010
-    static int GetControlID(UnityEngine::FocusType focus);
+    static int GetControlID(::UnityEngine::FocusType focus);
     // static public System.Int32 GetControlID(System.Int32 hint, UnityEngine.FocusType focus)
     // Offset: 0x1F55420
-    static int GetControlID(int hint, UnityEngine::FocusType focus);
+    static int GetControlID(int hint, ::UnityEngine::FocusType focus);
     // static public System.Object GetStateObject(System.Type t, System.Int32 controlID)
     // Offset: 0x1F561B4
-    static ::Il2CppObject* GetStateObject(System::Type* t, int controlID);
+    static ::Il2CppObject* GetStateObject(::System::Type* t, int controlID);
     // static System.Void TakeCapture()
     // Offset: 0x1F67F80
     static void TakeCapture();
@@ -184,10 +184,10 @@ namespace UnityEngine {
     static bool HasKeyFocus(int controlID);
     // static UnityEngine.GUISkin GetDefaultSkin()
     // Offset: 0x1F53AA8
-    static UnityEngine::GUISkin* GetDefaultSkin();
+    static ::UnityEngine::GUISkin* GetDefaultSkin();
     // static System.Boolean ProcessEvent(System.Int32 instanceID, System.IntPtr nativeEventPtr)
     // Offset: 0x1F68048
-    static bool ProcessEvent(int instanceID, System::IntPtr nativeEventPtr);
+    static bool ProcessEvent(int instanceID, ::System::IntPtr nativeEventPtr);
     // static System.Void BeginGUI(System.Int32 skinMode, System.Int32 instanceID, System.Int32 useGUILayout)
     // Offset: 0x1F680D0
     static void BeginGUI(int skinMode, int instanceID, int useGUILayout);
@@ -196,37 +196,37 @@ namespace UnityEngine {
     static void EndGUI(int layoutType);
     // static System.Boolean EndGUIFromException(System.Exception exception)
     // Offset: 0x1F6846C
-    static bool EndGUIFromException(System::Exception* exception);
+    static bool EndGUIFromException(::System::Exception* exception);
     // static System.Boolean EndContainerGUIFromException(System.Exception exception)
     // Offset: 0x1F684B4
-    static bool EndContainerGUIFromException(System::Exception* exception);
+    static bool EndContainerGUIFromException(::System::Exception* exception);
     // static System.Void ResetGlobalState()
     // Offset: 0x1F6817C
     static void ResetGlobalState();
     // static System.Boolean IsExitGUIException(System.Exception exception)
     // Offset: 0x1F68528
-    static bool IsExitGUIException(System::Exception* exception);
+    static bool IsExitGUIException(::System::Exception* exception);
     // static System.Boolean ShouldRethrowException(System.Exception exception)
     // Offset: 0x1F684B0
-    static bool ShouldRethrowException(System::Exception* exception);
+    static bool ShouldRethrowException(::System::Exception* exception);
     // static System.Void CheckOnGUI()
     // Offset: 0x1F538E8
     static void CheckOnGUI();
     // static System.Boolean HitTest(UnityEngine.Rect rect, UnityEngine.Vector2 point, System.Int32 offset)
     // Offset: 0x1F685A8
-    static bool HitTest(UnityEngine::Rect rect, UnityEngine::Vector2 point, int offset);
+    static bool HitTest(::UnityEngine::Rect rect, ::UnityEngine::Vector2 point, int offset);
     // static System.Boolean HitTest(UnityEngine.Rect rect, UnityEngine.Vector2 point, System.Boolean isDirectManipulationDevice)
     // Offset: 0x1F68658
-    static bool HitTest(UnityEngine::Rect rect, UnityEngine::Vector2 point, bool isDirectManipulationDevice);
+    static bool HitTest(::UnityEngine::Rect rect, ::UnityEngine::Vector2 point, bool isDirectManipulationDevice);
     // static System.Boolean HitTest(UnityEngine.Rect rect, UnityEngine.Event evt)
     // Offset: 0x1F58318
-    static bool HitTest(UnityEngine::Rect rect, UnityEngine::Event* evt);
+    static bool HitTest(::UnityEngine::Rect rect, ::UnityEngine::Event* evt);
     // static private System.Int32 GetControlID_Injected(System.Int32 hint, UnityEngine.FocusType focusType, ref UnityEngine.Rect rect)
     // Offset: 0x1F67C8C
-    static int GetControlID_Injected(int hint, UnityEngine::FocusType focusType, ByRef<UnityEngine::Rect> rect);
+    static int GetControlID_Injected(int hint, ::UnityEngine::FocusType focusType, ByRef<::UnityEngine::Rect> rect);
     // static private System.Void set_compositionCursorPos_Injected(ref UnityEngine.Vector2 value)
     // Offset: 0x1F67D28
-    static void set_compositionCursorPos_Injected(ByRef<UnityEngine::Vector2> value);
+    static void set_compositionCursorPos_Injected(ByRef<::UnityEngine::Vector2> value);
   }; // UnityEngine.GUIUtility
   #pragma pack(pop)
 }
@@ -293,7 +293,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: UnityEngine::GUIUtility::set_compositionCursorPos
 // Il2CppName: set_compositionCursorPos
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector2)>(&UnityEngine::GUIUtility::set_compositionCursorPos)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Vector2)>(&UnityEngine::GUIUtility::set_compositionCursorPos)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "set_compositionCursorPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -345,7 +345,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 // Writing MetadataGetter for method: UnityEngine::GUIUtility::GetControlID
 // Il2CppName: GetControlID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, UnityEngine::FocusType, UnityEngine::Rect)>(&UnityEngine::GUIUtility::GetControlID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, ::UnityEngine::FocusType, ::UnityEngine::Rect)>(&UnityEngine::GUIUtility::GetControlID)> {
   static const MethodInfo* get() {
     static auto* hint = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* focusType = &::il2cpp_utils::GetClassFromName("UnityEngine", "FocusType")->byval_arg;
@@ -415,7 +415,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::GUIUtility::GetControlID
 // Il2CppName: GetControlID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::FocusType)>(&UnityEngine::GUIUtility::GetControlID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::UnityEngine::FocusType)>(&UnityEngine::GUIUtility::GetControlID)> {
   static const MethodInfo* get() {
     static auto* focus = &::il2cpp_utils::GetClassFromName("UnityEngine", "FocusType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "GetControlID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{focus});
@@ -424,7 +424,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
 // Writing MetadataGetter for method: UnityEngine::GUIUtility::GetControlID
 // Il2CppName: GetControlID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, UnityEngine::FocusType)>(&UnityEngine::GUIUtility::GetControlID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, ::UnityEngine::FocusType)>(&UnityEngine::GUIUtility::GetControlID)> {
   static const MethodInfo* get() {
     static auto* hint = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* focus = &::il2cpp_utils::GetClassFromName("UnityEngine", "FocusType")->byval_arg;
@@ -434,7 +434,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 // Writing MetadataGetter for method: UnityEngine::GUIUtility::GetStateObject
 // Il2CppName: GetStateObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*, int)>(&UnityEngine::GUIUtility::GetStateObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::System::Type*, int)>(&UnityEngine::GUIUtility::GetStateObject)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* controlID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -469,7 +469,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(in
 // Writing MetadataGetter for method: UnityEngine::GUIUtility::GetDefaultSkin
 // Il2CppName: GetDefaultSkin
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUISkin* (*)()>(&UnityEngine::GUIUtility::GetDefaultSkin)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GUISkin* (*)()>(&UnityEngine::GUIUtility::GetDefaultSkin)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "GetDefaultSkin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -477,7 +477,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::GUIUtility::ProcessEvent
 // Il2CppName: ProcessEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, System::IntPtr)>(&UnityEngine::GUIUtility::ProcessEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, ::System::IntPtr)>(&UnityEngine::GUIUtility::ProcessEvent)> {
   static const MethodInfo* get() {
     static auto* instanceID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* nativeEventPtr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -507,7 +507,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 // Writing MetadataGetter for method: UnityEngine::GUIUtility::EndGUIFromException
 // Il2CppName: EndGUIFromException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Exception*)>(&UnityEngine::GUIUtility::EndGUIFromException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Exception*)>(&UnityEngine::GUIUtility::EndGUIFromException)> {
   static const MethodInfo* get() {
     static auto* exception = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "EndGUIFromException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{exception});
@@ -516,7 +516,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::GUIUtility::EndContainerGUIFromException
 // Il2CppName: EndContainerGUIFromException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Exception*)>(&UnityEngine::GUIUtility::EndContainerGUIFromException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Exception*)>(&UnityEngine::GUIUtility::EndContainerGUIFromException)> {
   static const MethodInfo* get() {
     static auto* exception = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "EndContainerGUIFromException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{exception});
@@ -533,7 +533,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::GUIUtility::IsExitGUIException
 // Il2CppName: IsExitGUIException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Exception*)>(&UnityEngine::GUIUtility::IsExitGUIException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Exception*)>(&UnityEngine::GUIUtility::IsExitGUIException)> {
   static const MethodInfo* get() {
     static auto* exception = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "IsExitGUIException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{exception});
@@ -542,7 +542,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::GUIUtility::ShouldRethrowException
 // Il2CppName: ShouldRethrowException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Exception*)>(&UnityEngine::GUIUtility::ShouldRethrowException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Exception*)>(&UnityEngine::GUIUtility::ShouldRethrowException)> {
   static const MethodInfo* get() {
     static auto* exception = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "ShouldRethrowException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{exception});
@@ -559,7 +559,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::GUIUtility::HitTest
 // Il2CppName: HitTest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Rect, UnityEngine::Vector2, int)>(&UnityEngine::GUIUtility::HitTest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Rect, ::UnityEngine::Vector2, int)>(&UnityEngine::GUIUtility::HitTest)> {
   static const MethodInfo* get() {
     static auto* rect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
     static auto* point = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
@@ -570,7 +570,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: UnityEngine::GUIUtility::HitTest
 // Il2CppName: HitTest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Rect, UnityEngine::Vector2, bool)>(&UnityEngine::GUIUtility::HitTest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Rect, ::UnityEngine::Vector2, bool)>(&UnityEngine::GUIUtility::HitTest)> {
   static const MethodInfo* get() {
     static auto* rect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
     static auto* point = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
@@ -581,7 +581,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: UnityEngine::GUIUtility::HitTest
 // Il2CppName: HitTest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Rect, UnityEngine::Event*)>(&UnityEngine::GUIUtility::HitTest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Rect, ::UnityEngine::Event*)>(&UnityEngine::GUIUtility::HitTest)> {
   static const MethodInfo* get() {
     static auto* rect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
     static auto* evt = &::il2cpp_utils::GetClassFromName("UnityEngine", "Event")->byval_arg;
@@ -591,7 +591,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: UnityEngine::GUIUtility::GetControlID_Injected
 // Il2CppName: GetControlID_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, UnityEngine::FocusType, ByRef<UnityEngine::Rect>)>(&UnityEngine::GUIUtility::GetControlID_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, ::UnityEngine::FocusType, ByRef<::UnityEngine::Rect>)>(&UnityEngine::GUIUtility::GetControlID_Injected)> {
   static const MethodInfo* get() {
     static auto* hint = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* focusType = &::il2cpp_utils::GetClassFromName("UnityEngine", "FocusType")->byval_arg;
@@ -602,7 +602,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 // Writing MetadataGetter for method: UnityEngine::GUIUtility::set_compositionCursorPos_Injected
 // Il2CppName: set_compositionCursorPos_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<UnityEngine::Vector2>)>(&UnityEngine::GUIUtility::set_compositionCursorPos_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::Vector2>)>(&UnityEngine::GUIUtility::set_compositionCursorPos_Injected)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "set_compositionCursorPos_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

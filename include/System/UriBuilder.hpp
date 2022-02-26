@@ -24,8 +24,8 @@ namespace System {
   class UriBuilder;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::UriBuilder);
-DEFINE_IL2CPP_ARG_TYPE(System::UriBuilder*, "System", "UriBuilder");
+NEED_NO_BOX(::System::UriBuilder);
+DEFINE_IL2CPP_ARG_TYPE(::System::UriBuilder*, "System", "UriBuilder");
 // Type namespace: System
 namespace System {
   // Size: 0x68
@@ -104,9 +104,9 @@ namespace System {
     // private System.Uri _uri
     // Size: 0x8
     // Offset: 0x58
-    System::Uri* uri;
+    ::System::Uri* uri;
     // Field size check
-    static_assert(sizeof(System::Uri*) == 0x8);
+    static_assert(sizeof(::System::Uri*) == 0x8);
     // private System.String _username
     // Size: 0x8
     // Offset: 0x60
@@ -133,7 +133,7 @@ namespace System {
     // Get instance field reference: private System.String _schemeDelimiter
     ::StringW& dyn__schemeDelimiter();
     // Get instance field reference: private System.Uri _uri
-    System::Uri*& dyn__uri();
+    ::System::Uri*& dyn__uri();
     // Get instance field reference: private System.String _username
     ::StringW& dyn__username();
     // public System.Void set_Host(System.String value)
@@ -153,41 +153,41 @@ namespace System {
     void set_Scheme(::StringW value);
     // public System.Uri get_Uri()
     // Offset: 0x2437604
-    System::Uri* get_Uri();
+    ::System::Uri* get_Uri();
     // public System.Void .ctor(System.String uri)
     // Offset: 0x2436C4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UriBuilder* New_ctor(::StringW uri) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::UriBuilder::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::UriBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UriBuilder*, creationType>(uri)));
     }
     // public System.Void .ctor(System.String schemeName, System.String hostName)
     // Offset: 0x2437078
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UriBuilder* New_ctor(::StringW schemeName, ::StringW hostName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::UriBuilder::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::UriBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UriBuilder*, creationType>(schemeName, hostName)));
     }
     // public System.Void .ctor(System.String scheme, System.String host, System.Int32 portNumber)
     // Offset: 0x24373C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UriBuilder* New_ctor(::StringW scheme, ::StringW host, int portNumber) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::UriBuilder::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::UriBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UriBuilder*, creationType>(scheme, host, portNumber)));
     }
     // private System.Void Init(System.Uri uri)
     // Offset: 0x2436DD8
-    void Init(System::Uri* uri);
+    void Init(::System::Uri* uri);
     // private System.Void SetFieldsFromUri(System.Uri uri)
     // Offset: 0x2436F2C
-    void SetFieldsFromUri(System::Uri* uri);
+    void SetFieldsFromUri(::System::Uri* uri);
     // public System.Void .ctor()
     // Offset: 0x2436B48
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UriBuilder* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::UriBuilder::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::UriBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UriBuilder*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object rparam)
@@ -259,7 +259,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::UriBuilder::get_Uri
 // Il2CppName: get_Uri
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (System::UriBuilder::*)()>(&System::UriBuilder::get_Uri)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Uri* (System::UriBuilder::*)()>(&System::UriBuilder::get_Uri)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::UriBuilder*), "get_Uri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -279,7 +279,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri
 // Writing MetadataGetter for method: System::UriBuilder::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::UriBuilder::*)(System::Uri*)>(&System::UriBuilder::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::UriBuilder::*)(::System::Uri*)>(&System::UriBuilder::Init)> {
   static const MethodInfo* get() {
     static auto* uri = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::UriBuilder*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{uri});
@@ -288,7 +288,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::UriBuilder::SetFieldsFromUri
 // Il2CppName: SetFieldsFromUri
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::UriBuilder::*)(System::Uri*)>(&System::UriBuilder::SetFieldsFromUri)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::UriBuilder::*)(::System::Uri*)>(&System::UriBuilder::SetFieldsFromUri)> {
   static const MethodInfo* get() {
     static auto* uri = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::UriBuilder*), "SetFieldsFromUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{uri});

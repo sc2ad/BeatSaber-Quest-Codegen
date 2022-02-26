@@ -25,8 +25,8 @@ namespace Org::BouncyCastle::Asn1::X509 {
   class X509Extension;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::X509Extension);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::X509Extension*, "Org.BouncyCastle.Asn1.X509", "X509Extension");
+NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::X509Extension);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::X509::X509Extension*, "Org.BouncyCastle.Asn1.X509", "X509Extension");
 // Type namespace: Org.BouncyCastle.Asn1.X509
 namespace Org::BouncyCastle::Asn1::X509 {
   // Size: 0x20
@@ -55,30 +55,30 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Org.BouncyCastle.Asn1.Asn1OctetString value
     // Size: 0x8
     // Offset: 0x18
-    Org::BouncyCastle::Asn1::Asn1OctetString* value;
+    ::Org::BouncyCastle::Asn1::Asn1OctetString* value;
     // Field size check
-    static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1OctetString*) == 0x8);
+    static_assert(sizeof(::Org::BouncyCastle::Asn1::Asn1OctetString*) == 0x8);
     public:
     // Get instance field reference: System.Boolean critical
     bool& dyn_critical();
     // Get instance field reference: Org.BouncyCastle.Asn1.Asn1OctetString value
-    Org::BouncyCastle::Asn1::Asn1OctetString*& dyn_value();
+    ::Org::BouncyCastle::Asn1::Asn1OctetString*& dyn_value();
     // public System.Boolean get_IsCritical()
     // Offset: 0x1E37B80
     bool get_IsCritical();
     // public Org.BouncyCastle.Asn1.Asn1OctetString get_Value()
     // Offset: 0x1E37B88
-    Org::BouncyCastle::Asn1::Asn1OctetString* get_Value();
+    ::Org::BouncyCastle::Asn1::Asn1OctetString* get_Value();
     // public System.Void .ctor(System.Boolean critical, Org.BouncyCastle.Asn1.Asn1OctetString value)
     // Offset: 0x1E37B40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static X509Extension* New_ctor(bool critical, Org::BouncyCastle::Asn1::Asn1OctetString* value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::X509Extension::.ctor");
+    static X509Extension* New_ctor(bool critical, ::Org::BouncyCastle::Asn1::Asn1OctetString* value) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::X509::X509Extension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Extension*, creationType>(critical, value)));
     }
     // static public Org.BouncyCastle.Asn1.Asn1Object ConvertValueToObject(Org.BouncyCastle.Asn1.X509.X509Extension ext)
     // Offset: 0x1E30CF8
-    static Org::BouncyCastle::Asn1::Asn1Object* ConvertValueToObject(Org::BouncyCastle::Asn1::X509::X509Extension* ext);
+    static ::Org::BouncyCastle::Asn1::Asn1Object* ConvertValueToObject(::Org::BouncyCastle::Asn1::X509::X509Extension* ext);
     // public override System.Int32 GetHashCode()
     // Offset: 0x1E37B90
     // Implemented from: System.Object
@@ -91,7 +91,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     bool Equals(::Il2CppObject* obj);
   }; // Org.BouncyCastle.Asn1.X509.X509Extension
   #pragma pack(pop)
-  static check_size<sizeof(X509Extension), 24 + sizeof(Org::BouncyCastle::Asn1::Asn1OctetString*)> __Org_BouncyCastle_Asn1_X509_X509ExtensionSizeCheck;
+  static check_size<sizeof(X509Extension), 24 + sizeof(::Org::BouncyCastle::Asn1::Asn1OctetString*)> __Org_BouncyCastle_Asn1_X509_X509ExtensionSizeCheck;
   static_assert(sizeof(X509Extension) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -106,7 +106,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::X509Extension::get_Value
 // Il2CppName: get_Value
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1OctetString* (Org::BouncyCastle::Asn1::X509::X509Extension::*)()>(&Org::BouncyCastle::Asn1::X509::X509Extension::get_Value)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1OctetString* (Org::BouncyCastle::Asn1::X509::X509Extension::*)()>(&Org::BouncyCastle::Asn1::X509::X509Extension::get_Value)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X509::X509Extension*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -118,7 +118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::X509Extension::ConvertValueToObject
 // Il2CppName: ConvertValueToObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (*)(Org::BouncyCastle::Asn1::X509::X509Extension*)>(&Org::BouncyCastle::Asn1::X509::X509Extension::ConvertValueToObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (*)(::Org::BouncyCastle::Asn1::X509::X509Extension*)>(&Org::BouncyCastle::Asn1::X509::X509Extension::ConvertValueToObject)> {
   static const MethodInfo* get() {
     static auto* ext = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1.X509", "X509Extension")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X509::X509Extension*), "ConvertValueToObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ext});

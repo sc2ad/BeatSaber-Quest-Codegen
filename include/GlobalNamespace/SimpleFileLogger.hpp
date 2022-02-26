@@ -32,8 +32,8 @@ namespace GlobalNamespace {
   class SimpleFileLogger;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SimpleFileLogger);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleFileLogger*, "", "SimpleFileLogger");
+NEED_NO_BOX(::GlobalNamespace::SimpleFileLogger);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SimpleFileLogger*, "", "SimpleFileLogger");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -42,7 +42,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SimpleFileLogger : public ::Il2CppObject {
     public:
-    // Nested type: GlobalNamespace::SimpleFileLogger::MonoLogger
+    // Nested type: ::GlobalNamespace::SimpleFileLogger::MonoLogger
     class MonoLogger;
     // static field const value: static private System.String kFilename
     static constexpr const char* kFilename = "SimpleLog.txt";
@@ -51,18 +51,18 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kFilename
     static void _set_kFilename(::StringW value);
     // Get static field: static private SimpleFileLogger/MonoLogger _monoLogger
-    static GlobalNamespace::SimpleFileLogger::MonoLogger* _get__monoLogger();
+    static ::GlobalNamespace::SimpleFileLogger::MonoLogger* _get__monoLogger();
     // Set static field: static private SimpleFileLogger/MonoLogger _monoLogger
-    static void _set__monoLogger(GlobalNamespace::SimpleFileLogger::MonoLogger* value);
+    static void _set__monoLogger(::GlobalNamespace::SimpleFileLogger::MonoLogger* value);
     // static private SimpleFileLogger/MonoLogger get_monoLogger()
     // Offset: 0x299D0C0
-    static GlobalNamespace::SimpleFileLogger::MonoLogger* get_monoLogger();
+    static ::GlobalNamespace::SimpleFileLogger::MonoLogger* get_monoLogger();
     // static public System.Void Log(System.String text)
     // Offset: 0x299D1A0
     static void Log(::StringW text);
     // static public System.Void LogVector(System.String description, UnityEngine.Vector3 vec)
     // Offset: 0x299D234
-    static void LogVector(::StringW description, UnityEngine::Vector3 vec);
+    static void LogVector(::StringW description, ::UnityEngine::Vector3 vec);
     // static public System.Void Clear()
     // Offset: 0x299D4A4
     static void Clear();
@@ -72,7 +72,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimpleFileLogger* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SimpleFileLogger::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SimpleFileLogger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimpleFileLogger*, creationType>()));
     }
   }; // SimpleFileLogger
@@ -82,7 +82,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::SimpleFileLogger::get_monoLogger
 // Il2CppName: get_monoLogger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SimpleFileLogger::MonoLogger* (*)()>(&GlobalNamespace::SimpleFileLogger::get_monoLogger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SimpleFileLogger::MonoLogger* (*)()>(&GlobalNamespace::SimpleFileLogger::get_monoLogger)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleFileLogger*), "get_monoLogger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -99,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: GlobalNamespace::SimpleFileLogger::LogVector
 // Il2CppName: LogVector
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, UnityEngine::Vector3)>(&GlobalNamespace::SimpleFileLogger::LogVector)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::UnityEngine::Vector3)>(&GlobalNamespace::SimpleFileLogger::LogVector)> {
   static const MethodInfo* get() {
     static auto* description = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* vec = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;

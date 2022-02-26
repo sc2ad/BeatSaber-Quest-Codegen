@@ -28,8 +28,8 @@ namespace Polyglot {
   class CsvReader;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Polyglot::CsvReader);
-DEFINE_IL2CPP_ARG_TYPE(Polyglot::CsvReader*, "Polyglot", "CsvReader");
+NEED_NO_BOX(::Polyglot::CsvReader);
+DEFINE_IL2CPP_ARG_TYPE(::Polyglot::CsvReader*, "Polyglot", "CsvReader");
 // Type namespace: Polyglot
 namespace Polyglot {
   // Size: 0x10
@@ -38,18 +38,18 @@ namespace Polyglot {
   // [TokenAttribute] Offset: FFFFFFFF
   class CsvReader : public ::Il2CppObject {
     public:
-    // Nested type: Polyglot::CsvReader::ParsingMode
+    // Nested type: ::Polyglot::CsvReader::ParsingMode
     struct ParsingMode;
     // static public System.Collections.Generic.List`1<System.Collections.Generic.List`1<System.String>> Parse(System.String src)
     // Offset: 0x2995490
-    static System::Collections::Generic::List_1<System::Collections::Generic::List_1<::StringW>*>* Parse(::StringW src);
+    static ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::StringW>*>* Parse(::StringW src);
     // public System.Void .ctor()
     // Offset: 0x29959CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CsvReader* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Polyglot::CsvReader::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Polyglot::CsvReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CsvReader*, creationType>()));
     }
   }; // Polyglot.CsvReader
@@ -59,7 +59,7 @@ namespace Polyglot {
 // Writing MetadataGetter for method: Polyglot::CsvReader::Parse
 // Il2CppName: Parse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<System::Collections::Generic::List_1<::StringW>*>* (*)(::StringW)>(&Polyglot::CsvReader::Parse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::StringW>*>* (*)(::StringW)>(&Polyglot::CsvReader::Parse)> {
   static const MethodInfo* get() {
     static auto* src = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Polyglot::CsvReader*), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{src});

@@ -33,8 +33,8 @@ namespace UnityEngine::ProBuilder {
   class BezierShape;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::BezierShape);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::BezierShape*, "UnityEngine.ProBuilder", "BezierShape");
+NEED_NO_BOX(::UnityEngine::ProBuilder::BezierShape);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::BezierShape*, "UnityEngine.ProBuilder", "BezierShape");
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
   // Size: 0x40
@@ -46,7 +46,7 @@ namespace UnityEngine::ProBuilder {
   // [ExcludeFromPresetAttribute] Offset: FFFFFFFF
   // [ExcludeFromObjectFactoryAttribute] Offset: FFFFFFFF
   // [RequireComponent] Offset: 126ED1C
-  class BezierShape : public UnityEngine::MonoBehaviour {
+  class BezierShape : public ::UnityEngine::MonoBehaviour {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -60,9 +60,9 @@ namespace UnityEngine::ProBuilder {
     // public System.Collections.Generic.List`1<UnityEngine.ProBuilder.BezierPoint> points
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::Generic::List_1<UnityEngine::ProBuilder::BezierPoint>* points;
+    ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::BezierPoint>* points;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::ProBuilder::BezierPoint>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::BezierPoint>*) == 0x8);
     // public System.Boolean closeLoop
     // Size: 0x1
     // Offset: 0x20
@@ -106,14 +106,14 @@ namespace UnityEngine::ProBuilder {
     // private UnityEngine.ProBuilder.ProBuilderMesh m_Mesh
     // Size: 0x8
     // Offset: 0x38
-    UnityEngine::ProBuilder::ProBuilderMesh* m_Mesh;
+    ::UnityEngine::ProBuilder::ProBuilderMesh* m_Mesh;
     // Field size check
-    static_assert(sizeof(UnityEngine::ProBuilder::ProBuilderMesh*) == 0x8);
+    static_assert(sizeof(::UnityEngine::ProBuilder::ProBuilderMesh*) == 0x8);
     public:
-    // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const noexcept = delete;
+    // Deleting conversion operator: operator ::System::IntPtr
+    constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.ProBuilder.BezierPoint> points
-    System::Collections::Generic::List_1<UnityEngine::ProBuilder::BezierPoint>*& dyn_points();
+    ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::BezierPoint>*& dyn_points();
     // Get instance field reference: public System.Boolean closeLoop
     bool& dyn_closeLoop();
     // Get instance field reference: public System.Single radius
@@ -127,7 +127,7 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: private System.Boolean m_IsEditing
     bool& dyn_m_IsEditing();
     // Get instance field reference: private UnityEngine.ProBuilder.ProBuilderMesh m_Mesh
-    UnityEngine::ProBuilder::ProBuilderMesh*& dyn_m_Mesh();
+    ::UnityEngine::ProBuilder::ProBuilderMesh*& dyn_m_Mesh();
     // public System.Boolean get_isEditing()
     // Offset: 0x25001A0
     bool get_isEditing();
@@ -136,10 +136,10 @@ namespace UnityEngine::ProBuilder {
     void set_isEditing(bool value);
     // public UnityEngine.ProBuilder.ProBuilderMesh get_mesh()
     // Offset: 0x25001B4
-    UnityEngine::ProBuilder::ProBuilderMesh* get_mesh();
+    ::UnityEngine::ProBuilder::ProBuilderMesh* get_mesh();
     // public System.Void set_mesh(UnityEngine.ProBuilder.ProBuilderMesh value)
     // Offset: 0x250024C
-    void set_mesh(UnityEngine::ProBuilder::ProBuilderMesh* value);
+    void set_mesh(::UnityEngine::ProBuilder::ProBuilderMesh* value);
     // public System.Void Init()
     // Offset: 0x2500254
     void Init();
@@ -156,12 +156,12 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BezierShape* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::BezierShape::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::BezierShape::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BezierShape*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.BezierShape
   #pragma pack(pop)
-  static check_size<sizeof(BezierShape), 56 + sizeof(UnityEngine::ProBuilder::ProBuilderMesh*)> __UnityEngine_ProBuilder_BezierShapeSizeCheck;
+  static check_size<sizeof(BezierShape), 56 + sizeof(::UnityEngine::ProBuilder::ProBuilderMesh*)> __UnityEngine_ProBuilder_BezierShapeSizeCheck;
   static_assert(sizeof(BezierShape) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -185,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::BezierShape::get_mesh
 // Il2CppName: get_mesh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ProBuilderMesh* (UnityEngine::ProBuilder::BezierShape::*)()>(&UnityEngine::ProBuilder::BezierShape::get_mesh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::ProBuilderMesh* (UnityEngine::ProBuilder::BezierShape::*)()>(&UnityEngine::ProBuilder::BezierShape::get_mesh)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::BezierShape*), "get_mesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -193,7 +193,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::BezierShape::set_mesh
 // Il2CppName: set_mesh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::BezierShape::*)(UnityEngine::ProBuilder::ProBuilderMesh*)>(&UnityEngine::ProBuilder::BezierShape::set_mesh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::BezierShape::*)(::UnityEngine::ProBuilder::ProBuilderMesh*)>(&UnityEngine::ProBuilder::BezierShape::set_mesh)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::BezierShape*), "set_mesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

@@ -11,8 +11,8 @@ namespace System::Runtime::InteropServices {
   class _Activator;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::InteropServices::_Activator);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::_Activator*, "System.Runtime.InteropServices", "_Activator");
+NEED_NO_BOX(::System::Runtime::InteropServices::_Activator);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::InteropServices::_Activator*, "System.Runtime.InteropServices", "_Activator");
 // Type namespace: System.Runtime.InteropServices
 namespace System::Runtime::InteropServices {
   // Size: 0x10

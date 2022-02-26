@@ -24,8 +24,8 @@ namespace Org::BouncyCastle::Math::EC::Abc {
   class SimpleBigDecimal;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*, "Org.BouncyCastle.Math.EC.Abc", "SimpleBigDecimal");
+NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*, "Org.BouncyCastle.Math.EC.Abc", "SimpleBigDecimal");
 // Type namespace: Org.BouncyCastle.Math.EC.Abc
 namespace Org::BouncyCastle::Math::EC::Abc {
   // Size: 0x1C
@@ -46,9 +46,9 @@ namespace Org::BouncyCastle::Math::EC::Abc {
     // private readonly Org.BouncyCastle.Math.BigInteger bigInt
     // Size: 0x8
     // Offset: 0x10
-    Org::BouncyCastle::Math::BigInteger* bigInt;
+    ::Org::BouncyCastle::Math::BigInteger* bigInt;
     // Field size check
-    static_assert(sizeof(Org::BouncyCastle::Math::BigInteger*) == 0x8);
+    static_assert(sizeof(::Org::BouncyCastle::Math::BigInteger*) == 0x8);
     // private readonly System.Int32 scale
     // Size: 0x4
     // Offset: 0x18
@@ -57,7 +57,7 @@ namespace Org::BouncyCastle::Math::EC::Abc {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private readonly Org.BouncyCastle.Math.BigInteger bigInt
-    Org::BouncyCastle::Math::BigInteger*& dyn_bigInt();
+    ::Org::BouncyCastle::Math::BigInteger*& dyn_bigInt();
     // Get instance field reference: private readonly System.Int32 scale
     int& dyn_scale();
     // public System.Int32 get_Scale()
@@ -66,37 +66,37 @@ namespace Org::BouncyCastle::Math::EC::Abc {
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger bigInt, System.Int32 scale)
     // Offset: 0x2263ED0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SimpleBigDecimal* New_ctor(Org::BouncyCastle::Math::BigInteger* bigInt, int scale) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::.ctor");
+    static SimpleBigDecimal* New_ctor(::Org::BouncyCastle::Math::BigInteger* bigInt, int scale) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimpleBigDecimal*, creationType>(bigInt, scale)));
     }
     // private System.Void CheckScale(Org.BouncyCastle.Math.EC.Abc.SimpleBigDecimal b)
     // Offset: 0x2263F74
-    void CheckScale(Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* b);
+    void CheckScale(::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* b);
     // public Org.BouncyCastle.Math.EC.Abc.SimpleBigDecimal AdjustScale(System.Int32 newScale)
     // Offset: 0x2264014
-    Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* AdjustScale(int newScale);
+    ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* AdjustScale(int newScale);
     // public Org.BouncyCastle.Math.EC.Abc.SimpleBigDecimal Add(Org.BouncyCastle.Math.EC.Abc.SimpleBigDecimal b)
     // Offset: 0x22640F0
-    Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* Add(Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* b);
+    ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* Add(::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* b);
     // public Org.BouncyCastle.Math.EC.Abc.SimpleBigDecimal Negate()
     // Offset: 0x2264194
-    Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* Negate();
+    ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* Negate();
     // public Org.BouncyCastle.Math.EC.Abc.SimpleBigDecimal Subtract(Org.BouncyCastle.Math.EC.Abc.SimpleBigDecimal b)
     // Offset: 0x2264220
-    Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* Subtract(Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* b);
+    ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* Subtract(::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* b);
     // public Org.BouncyCastle.Math.EC.Abc.SimpleBigDecimal Subtract(Org.BouncyCastle.Math.BigInteger b)
     // Offset: 0x2264254
-    Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* Subtract(Org::BouncyCastle::Math::BigInteger* b);
+    ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* Subtract(::Org::BouncyCastle::Math::BigInteger* b);
     // public System.Int32 CompareTo(Org.BouncyCastle.Math.BigInteger val)
     // Offset: 0x2264300
-    int CompareTo(Org::BouncyCastle::Math::BigInteger* val);
+    int CompareTo(::Org::BouncyCastle::Math::BigInteger* val);
     // public Org.BouncyCastle.Math.BigInteger Floor()
     // Offset: 0x2264348
-    Org::BouncyCastle::Math::BigInteger* Floor();
+    ::Org::BouncyCastle::Math::BigInteger* Floor();
     // public Org.BouncyCastle.Math.BigInteger Round()
     // Offset: 0x226436C
-    Org::BouncyCastle::Math::BigInteger* Round();
+    ::Org::BouncyCastle::Math::BigInteger* Round();
     // public override System.String ToString()
     // Offset: 0x226442C
     // Implemented from: System.Object
@@ -133,7 +133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::CheckScale
 // Il2CppName: CheckScale
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)(Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*)>(&Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::CheckScale)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)(::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*)>(&Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::CheckScale)> {
   static const MethodInfo* get() {
     static auto* b = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC.Abc", "SimpleBigDecimal")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*), "CheckScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{b});
@@ -142,7 +142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::AdjustScale
 // Il2CppName: AdjustScale
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* (Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)(int)>(&Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::AdjustScale)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* (Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)(int)>(&Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::AdjustScale)> {
   static const MethodInfo* get() {
     static auto* newScale = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*), "AdjustScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newScale});
@@ -151,7 +151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* (Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)(Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*)>(&Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* (Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)(::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*)>(&Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::Add)> {
   static const MethodInfo* get() {
     static auto* b = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC.Abc", "SimpleBigDecimal")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{b});
@@ -160,7 +160,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::Negate
 // Il2CppName: Negate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* (Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)()>(&Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::Negate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* (Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)()>(&Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::Negate)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*), "Negate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -168,7 +168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::Subtract
 // Il2CppName: Subtract
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* (Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)(Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*)>(&Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::Subtract)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* (Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)(::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*)>(&Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::Subtract)> {
   static const MethodInfo* get() {
     static auto* b = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC.Abc", "SimpleBigDecimal")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*), "Subtract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{b});
@@ -177,7 +177,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::Subtract
 // Il2CppName: Subtract
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* (Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)(Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::Subtract)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* (Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)(::Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::Subtract)> {
   static const MethodInfo* get() {
     static auto* b = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math", "BigInteger")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*), "Subtract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{b});
@@ -186,7 +186,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::CompareTo
 // Il2CppName: CompareTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)(Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::CompareTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)(::Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::CompareTo)> {
   static const MethodInfo* get() {
     static auto* val = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math", "BigInteger")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*), "CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{val});
@@ -195,7 +195,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::Floor
 // Il2CppName: Floor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)()>(&Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::Floor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)()>(&Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::Floor)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*), "Floor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -203,7 +203,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::Round
 // Il2CppName: Round
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)()>(&Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::Round)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)()>(&Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::Round)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*), "Round", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

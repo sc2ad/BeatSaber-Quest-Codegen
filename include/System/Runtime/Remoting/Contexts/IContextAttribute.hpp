@@ -23,8 +23,8 @@ namespace System::Runtime::Remoting::Contexts {
   class IContextAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Remoting::Contexts::IContextAttribute);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::IContextAttribute*, "System.Runtime.Remoting.Contexts", "IContextAttribute");
+NEED_NO_BOX(::System::Runtime::Remoting::Contexts::IContextAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Contexts::IContextAttribute*, "System.Runtime.Remoting.Contexts", "IContextAttribute");
 // Type namespace: System.Runtime.Remoting.Contexts
 namespace System::Runtime::Remoting::Contexts {
   // Size: 0x10
@@ -36,10 +36,10 @@ namespace System::Runtime::Remoting::Contexts {
     public:
     // public System.Void GetPropertiesForNewContext(System.Runtime.Remoting.Activation.IConstructionCallMessage msg)
     // Offset: 0xFFFFFFFF
-    void GetPropertiesForNewContext(System::Runtime::Remoting::Activation::IConstructionCallMessage* msg);
+    void GetPropertiesForNewContext(::System::Runtime::Remoting::Activation::IConstructionCallMessage* msg);
     // public System.Boolean IsContextOK(System.Runtime.Remoting.Contexts.Context ctx, System.Runtime.Remoting.Activation.IConstructionCallMessage msg)
     // Offset: 0xFFFFFFFF
-    bool IsContextOK(System::Runtime::Remoting::Contexts::Context* ctx, System::Runtime::Remoting::Activation::IConstructionCallMessage* msg);
+    bool IsContextOK(::System::Runtime::Remoting::Contexts::Context* ctx, ::System::Runtime::Remoting::Activation::IConstructionCallMessage* msg);
   }; // System.Runtime.Remoting.Contexts.IContextAttribute
   #pragma pack(pop)
 }
@@ -47,7 +47,7 @@ namespace System::Runtime::Remoting::Contexts {
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::IContextAttribute::GetPropertiesForNewContext
 // Il2CppName: GetPropertiesForNewContext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Contexts::IContextAttribute::*)(System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(&System::Runtime::Remoting::Contexts::IContextAttribute::GetPropertiesForNewContext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Contexts::IContextAttribute::*)(::System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(&System::Runtime::Remoting::Contexts::IContextAttribute::GetPropertiesForNewContext)> {
   static const MethodInfo* get() {
     static auto* msg = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Activation", "IConstructionCallMessage")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::IContextAttribute*), "GetPropertiesForNewContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{msg});
@@ -56,7 +56,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::IContextAttribute::IsContextOK
 // Il2CppName: IsContextOK
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Remoting::Contexts::IContextAttribute::*)(System::Runtime::Remoting::Contexts::Context*, System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(&System::Runtime::Remoting::Contexts::IContextAttribute::IsContextOK)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Remoting::Contexts::IContextAttribute::*)(::System::Runtime::Remoting::Contexts::Context*, ::System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(&System::Runtime::Remoting::Contexts::IContextAttribute::IsContextOK)> {
   static const MethodInfo* get() {
     static auto* ctx = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Contexts", "Context")->byval_arg;
     static auto* msg = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Activation", "IConstructionCallMessage")->byval_arg;

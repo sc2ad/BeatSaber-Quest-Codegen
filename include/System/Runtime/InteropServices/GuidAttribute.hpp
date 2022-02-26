@@ -19,8 +19,8 @@ namespace System::Runtime::InteropServices {
   class GuidAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::InteropServices::GuidAttribute);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::GuidAttribute*, "System.Runtime.InteropServices", "GuidAttribute");
+NEED_NO_BOX(::System::Runtime::InteropServices::GuidAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::InteropServices::GuidAttribute*, "System.Runtime.InteropServices", "GuidAttribute");
 // Type namespace: System.Runtime.InteropServices
 namespace System::Runtime::InteropServices {
   // Size: 0x18
@@ -29,7 +29,7 @@ namespace System::Runtime::InteropServices {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: 118B860
   // [AttributeUsageAttribute] Offset: 118B860
-  class GuidAttribute : public System::Attribute {
+  class GuidAttribute : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -60,7 +60,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x1C6C48C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GuidAttribute* New_ctor(::StringW guid) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::GuidAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::InteropServices::GuidAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GuidAttribute*, creationType>(guid)));
     }
   }; // System.Runtime.InteropServices.GuidAttribute

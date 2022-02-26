@@ -18,8 +18,8 @@ namespace Org::BouncyCastle::Math::EC::Endo {
   class ECEndomorphism;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Math::EC::Endo::ECEndomorphism);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*, "Org.BouncyCastle.Math.EC.Endo", "ECEndomorphism");
+NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*, "Org.BouncyCastle.Math.EC.Endo", "ECEndomorphism");
 // Type namespace: Org.BouncyCastle.Math.EC.Endo
 namespace Org::BouncyCastle::Math::EC::Endo {
   // Size: 0x10
@@ -30,7 +30,7 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     public:
     // public Org.BouncyCastle.Math.EC.ECPointMap get_PointMap()
     // Offset: 0xFFFFFFFF
-    Org::BouncyCastle::Math::EC::ECPointMap* get_PointMap();
+    ::Org::BouncyCastle::Math::EC::ECPointMap* get_PointMap();
     // public System.Boolean get_HasEfficientPointMap()
     // Offset: 0xFFFFFFFF
     bool get_HasEfficientPointMap();
@@ -41,7 +41,7 @@ namespace Org::BouncyCastle::Math::EC::Endo {
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Endo::ECEndomorphism::get_PointMap
 // Il2CppName: get_PointMap
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPointMap* (Org::BouncyCastle::Math::EC::Endo::ECEndomorphism::*)()>(&Org::BouncyCastle::Math::EC::Endo::ECEndomorphism::get_PointMap)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECPointMap* (Org::BouncyCastle::Math::EC::Endo::ECEndomorphism::*)()>(&Org::BouncyCastle::Math::EC::Endo::ECEndomorphism::get_PointMap)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*), "get_PointMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -12,8 +12,8 @@ namespace System::Threading {
   class PlatformHelper;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Threading::PlatformHelper);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::PlatformHelper*, "System.Threading", "PlatformHelper");
+NEED_NO_BOX(::System::Threading::PlatformHelper);
+DEFINE_IL2CPP_ARG_TYPE(::System::Threading::PlatformHelper*, "System.Threading", "PlatformHelper");
 // Type namespace: System.Threading
 namespace System::Threading {
   // Size: 0x10

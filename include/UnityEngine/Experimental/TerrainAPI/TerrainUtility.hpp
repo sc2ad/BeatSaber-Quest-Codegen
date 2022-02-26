@@ -17,8 +17,8 @@ namespace UnityEngine::Experimental::TerrainAPI {
   class TerrainUtility;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Experimental::TerrainAPI::TerrainUtility);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::TerrainAPI::TerrainUtility*, "UnityEngine.Experimental.TerrainAPI", "TerrainUtility");
+NEED_NO_BOX(::UnityEngine::Experimental::TerrainAPI::TerrainUtility);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::TerrainAPI::TerrainUtility*, "UnityEngine.Experimental.TerrainAPI", "TerrainUtility");
 // Type namespace: UnityEngine.Experimental.TerrainAPI
 namespace UnityEngine::Experimental::TerrainAPI {
   // Size: 0x10
@@ -27,13 +27,13 @@ namespace UnityEngine::Experimental::TerrainAPI {
   // [TokenAttribute] Offset: FFFFFFFF
   class TerrainUtility : public ::Il2CppObject {
     public:
-    // Nested type: UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap
+    // Nested type: ::UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap
     class TerrainMap;
-    // Nested type: UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainGroups
+    // Nested type: ::UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainGroups
     class TerrainGroups;
-    // Nested type: UnityEngine::Experimental::TerrainAPI::TerrainUtility::$$c__DisplayClass4_0
+    // Nested type: ::UnityEngine::Experimental::TerrainAPI::TerrainUtility::$$c__DisplayClass4_0
     class $$c__DisplayClass4_0;
-    // Nested type: UnityEngine::Experimental::TerrainAPI::TerrainUtility::$$c__DisplayClass4_1
+    // Nested type: ::UnityEngine::Experimental::TerrainAPI::TerrainUtility::$$c__DisplayClass4_1
     class $$c__DisplayClass4_1;
     // static System.Boolean HasValidTerrains()
     // Offset: 0x2A28328
@@ -43,7 +43,7 @@ namespace UnityEngine::Experimental::TerrainAPI {
     static void ClearConnectivity();
     // static UnityEngine.Experimental.TerrainAPI.TerrainUtility/UnityEngine.Experimental.TerrainAPI.TerrainGroups CollectTerrains(System.Boolean onlyAutoConnectedTerrains)
     // Offset: 0x2A28514
-    static UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainGroups* CollectTerrains(bool onlyAutoConnectedTerrains);
+    static ::UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainGroups* CollectTerrains(bool onlyAutoConnectedTerrains);
     // static public System.Void AutoConnect()
     // Offset: 0x2A28B4C
     static void AutoConnect();
@@ -70,7 +70,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::Experimental::TerrainAPI::TerrainUtility::CollectTerrains
 // Il2CppName: CollectTerrains
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainGroups* (*)(bool)>(&UnityEngine::Experimental::TerrainAPI::TerrainUtility::CollectTerrains)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainGroups* (*)(bool)>(&UnityEngine::Experimental::TerrainAPI::TerrainUtility::CollectTerrains)> {
   static const MethodInfo* get() {
     static auto* onlyAutoConnectedTerrains = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::TerrainAPI::TerrainUtility*), "CollectTerrains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{onlyAutoConnectedTerrains});

@@ -42,8 +42,8 @@ namespace UnityEngine::SceneManagement {
   class SceneManager;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::SceneManagement::SceneManager);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SceneManagement::SceneManager*, "UnityEngine.SceneManagement", "SceneManager");
+NEED_NO_BOX(::UnityEngine::SceneManagement::SceneManager);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::SceneManagement::SceneManager*, "UnityEngine.SceneManagement", "SceneManager");
 // Type namespace: UnityEngine.SceneManagement
 namespace UnityEngine::SceneManagement {
   // Size: 0x10
@@ -60,19 +60,19 @@ namespace UnityEngine::SceneManagement {
     static void _set_s_AllowLoadScene(bool value);
     // [DebuggerBrowsableAttribute] Offset: 0x11AA194
     // Get static field: static private UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode> sceneLoaded
-    static UnityEngine::Events::UnityAction_2<UnityEngine::SceneManagement::Scene, UnityEngine::SceneManagement::LoadSceneMode>* _get_sceneLoaded();
+    static ::UnityEngine::Events::UnityAction_2<::UnityEngine::SceneManagement::Scene, ::UnityEngine::SceneManagement::LoadSceneMode>* _get_sceneLoaded();
     // Set static field: static private UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode> sceneLoaded
-    static void _set_sceneLoaded(UnityEngine::Events::UnityAction_2<UnityEngine::SceneManagement::Scene, UnityEngine::SceneManagement::LoadSceneMode>* value);
+    static void _set_sceneLoaded(::UnityEngine::Events::UnityAction_2<::UnityEngine::SceneManagement::Scene, ::UnityEngine::SceneManagement::LoadSceneMode>* value);
     // [DebuggerBrowsableAttribute] Offset: 0x11AA1D0
     // Get static field: static private UnityEngine.Events.UnityAction`1<UnityEngine.SceneManagement.Scene> sceneUnloaded
-    static UnityEngine::Events::UnityAction_1<UnityEngine::SceneManagement::Scene>* _get_sceneUnloaded();
+    static ::UnityEngine::Events::UnityAction_1<::UnityEngine::SceneManagement::Scene>* _get_sceneUnloaded();
     // Set static field: static private UnityEngine.Events.UnityAction`1<UnityEngine.SceneManagement.Scene> sceneUnloaded
-    static void _set_sceneUnloaded(UnityEngine::Events::UnityAction_1<UnityEngine::SceneManagement::Scene>* value);
+    static void _set_sceneUnloaded(::UnityEngine::Events::UnityAction_1<::UnityEngine::SceneManagement::Scene>* value);
     // [DebuggerBrowsableAttribute] Offset: 0x11AA20C
     // Get static field: static private UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.Scene> activeSceneChanged
-    static UnityEngine::Events::UnityAction_2<UnityEngine::SceneManagement::Scene, UnityEngine::SceneManagement::Scene>* _get_activeSceneChanged();
+    static ::UnityEngine::Events::UnityAction_2<::UnityEngine::SceneManagement::Scene, ::UnityEngine::SceneManagement::Scene>* _get_activeSceneChanged();
     // Set static field: static private UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.Scene> activeSceneChanged
-    static void _set_activeSceneChanged(UnityEngine::Events::UnityAction_2<UnityEngine::SceneManagement::Scene, UnityEngine::SceneManagement::Scene>* value);
+    static void _set_activeSceneChanged(::UnityEngine::Events::UnityAction_2<::UnityEngine::SceneManagement::Scene, ::UnityEngine::SceneManagement::Scene>* value);
     // static public System.Int32 get_sceneCount()
     // Offset: 0x20D399C
     static int get_sceneCount();
@@ -81,106 +81,106 @@ namespace UnityEngine::SceneManagement {
     static int get_sceneCountInBuildSettings();
     // static public System.Void add_sceneLoaded(UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode> value)
     // Offset: 0x20D41CC
-    static void add_sceneLoaded(UnityEngine::Events::UnityAction_2<UnityEngine::SceneManagement::Scene, UnityEngine::SceneManagement::LoadSceneMode>* value);
+    static void add_sceneLoaded(::UnityEngine::Events::UnityAction_2<::UnityEngine::SceneManagement::Scene, ::UnityEngine::SceneManagement::LoadSceneMode>* value);
     // static public System.Void remove_sceneLoaded(UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode> value)
     // Offset: 0x20D42BC
-    static void remove_sceneLoaded(UnityEngine::Events::UnityAction_2<UnityEngine::SceneManagement::Scene, UnityEngine::SceneManagement::LoadSceneMode>* value);
+    static void remove_sceneLoaded(::UnityEngine::Events::UnityAction_2<::UnityEngine::SceneManagement::Scene, ::UnityEngine::SceneManagement::LoadSceneMode>* value);
     // static public System.Void add_sceneUnloaded(UnityEngine.Events.UnityAction`1<UnityEngine.SceneManagement.Scene> value)
     // Offset: 0x20D43AC
-    static void add_sceneUnloaded(UnityEngine::Events::UnityAction_1<UnityEngine::SceneManagement::Scene>* value);
+    static void add_sceneUnloaded(::UnityEngine::Events::UnityAction_1<::UnityEngine::SceneManagement::Scene>* value);
     // static public System.Void remove_sceneUnloaded(UnityEngine.Events.UnityAction`1<UnityEngine.SceneManagement.Scene> value)
     // Offset: 0x20D449C
-    static void remove_sceneUnloaded(UnityEngine::Events::UnityAction_1<UnityEngine::SceneManagement::Scene>* value);
+    static void remove_sceneUnloaded(::UnityEngine::Events::UnityAction_1<::UnityEngine::SceneManagement::Scene>* value);
     // static private System.Void .cctor()
     // Offset: 0x20D4DD0
     static void _cctor();
     // static public UnityEngine.SceneManagement.Scene GetActiveScene()
     // Offset: 0x20D3A04
-    static UnityEngine::SceneManagement::Scene GetActiveScene();
+    static ::UnityEngine::SceneManagement::Scene GetActiveScene();
     // static public System.Boolean SetActiveScene(UnityEngine.SceneManagement.Scene scene)
     // Offset: 0x20D3AD0
-    static bool SetActiveScene(UnityEngine::SceneManagement::Scene scene);
+    static bool SetActiveScene(::UnityEngine::SceneManagement::Scene scene);
     // static public UnityEngine.SceneManagement.Scene GetSceneByName(System.String name)
     // Offset: 0x20D3B9C
-    static UnityEngine::SceneManagement::Scene GetSceneByName(::StringW name);
+    static ::UnityEngine::SceneManagement::Scene GetSceneByName(::StringW name);
     // static public UnityEngine.SceneManagement.Scene GetSceneAt(System.Int32 index)
     // Offset: 0x20D3C88
-    static UnityEngine::SceneManagement::Scene GetSceneAt(int index);
+    static ::UnityEngine::SceneManagement::Scene GetSceneAt(int index);
     // static private UnityEngine.AsyncOperation UnloadSceneAsyncInternal(UnityEngine.SceneManagement.Scene scene, UnityEngine.SceneManagement.UnloadSceneOptions options)
     // Offset: 0x20D3D74
-    static UnityEngine::AsyncOperation* UnloadSceneAsyncInternal(UnityEngine::SceneManagement::Scene scene, UnityEngine::SceneManagement::UnloadSceneOptions options);
+    static ::UnityEngine::AsyncOperation* UnloadSceneAsyncInternal(::UnityEngine::SceneManagement::Scene scene, ::UnityEngine::SceneManagement::UnloadSceneOptions options);
     // static private UnityEngine.AsyncOperation LoadSceneAsyncNameIndexInternal(System.String sceneName, System.Int32 sceneBuildIndex, UnityEngine.SceneManagement.LoadSceneParameters parameters, System.Boolean mustCompleteNextFrame)
     // Offset: 0x20D3E5C
-    static UnityEngine::AsyncOperation* LoadSceneAsyncNameIndexInternal(::StringW sceneName, int sceneBuildIndex, UnityEngine::SceneManagement::LoadSceneParameters parameters, bool mustCompleteNextFrame);
+    static ::UnityEngine::AsyncOperation* LoadSceneAsyncNameIndexInternal(::StringW sceneName, int sceneBuildIndex, ::UnityEngine::SceneManagement::LoadSceneParameters parameters, bool mustCompleteNextFrame);
     // static private UnityEngine.AsyncOperation UnloadSceneNameIndexInternal(System.String sceneName, System.Int32 sceneBuildIndex, System.Boolean immediately, UnityEngine.SceneManagement.UnloadSceneOptions options, out System.Boolean outSuccess)
     // Offset: 0x20D3F94
-    static UnityEngine::AsyncOperation* UnloadSceneNameIndexInternal(::StringW sceneName, int sceneBuildIndex, bool immediately, UnityEngine::SceneManagement::UnloadSceneOptions options, ByRef<bool> outSuccess);
+    static ::UnityEngine::AsyncOperation* UnloadSceneNameIndexInternal(::StringW sceneName, int sceneBuildIndex, bool immediately, ::UnityEngine::SceneManagement::UnloadSceneOptions options, ByRef<bool> outSuccess);
     // static public System.Void MoveGameObjectToScene(UnityEngine.GameObject go, UnityEngine.SceneManagement.Scene scene)
     // Offset: 0x20D40E4
-    static void MoveGameObjectToScene(UnityEngine::GameObject* go, UnityEngine::SceneManagement::Scene scene);
+    static void MoveGameObjectToScene(::UnityEngine::GameObject* go, ::UnityEngine::SceneManagement::Scene scene);
     // static public System.Void LoadScene(System.String sceneName, UnityEngine.SceneManagement.LoadSceneMode mode)
     // Offset: 0x20D458C
-    static void LoadScene(::StringW sceneName, UnityEngine::SceneManagement::LoadSceneMode mode);
+    static void LoadScene(::StringW sceneName, ::UnityEngine::SceneManagement::LoadSceneMode mode);
     // static public System.Void LoadScene(System.String sceneName)
     // Offset: 0x20D46B4
     static void LoadScene(::StringW sceneName);
     // static public UnityEngine.SceneManagement.Scene LoadScene(System.String sceneName, UnityEngine.SceneManagement.LoadSceneParameters parameters)
     // Offset: 0x20D4604
-    static UnityEngine::SceneManagement::Scene LoadScene(::StringW sceneName, UnityEngine::SceneManagement::LoadSceneParameters parameters);
+    static ::UnityEngine::SceneManagement::Scene LoadScene(::StringW sceneName, ::UnityEngine::SceneManagement::LoadSceneParameters parameters);
     // static public System.Void LoadScene(System.Int32 sceneBuildIndex, UnityEngine.SceneManagement.LoadSceneMode mode)
     // Offset: 0x20D471C
-    static void LoadScene(int sceneBuildIndex, UnityEngine::SceneManagement::LoadSceneMode mode);
+    static void LoadScene(int sceneBuildIndex, ::UnityEngine::SceneManagement::LoadSceneMode mode);
     // static public UnityEngine.SceneManagement.Scene LoadScene(System.Int32 sceneBuildIndex, UnityEngine.SceneManagement.LoadSceneParameters parameters)
     // Offset: 0x20D4794
-    static UnityEngine::SceneManagement::Scene LoadScene(int sceneBuildIndex, UnityEngine::SceneManagement::LoadSceneParameters parameters);
+    static ::UnityEngine::SceneManagement::Scene LoadScene(int sceneBuildIndex, ::UnityEngine::SceneManagement::LoadSceneParameters parameters);
     // static public UnityEngine.AsyncOperation LoadSceneAsync(System.Int32 sceneBuildIndex, UnityEngine.SceneManagement.LoadSceneMode mode)
     // Offset: 0x20D4844
-    static UnityEngine::AsyncOperation* LoadSceneAsync(int sceneBuildIndex, UnityEngine::SceneManagement::LoadSceneMode mode);
+    static ::UnityEngine::AsyncOperation* LoadSceneAsync(int sceneBuildIndex, ::UnityEngine::SceneManagement::LoadSceneMode mode);
     // static public UnityEngine.AsyncOperation LoadSceneAsync(System.Int32 sceneBuildIndex, UnityEngine.SceneManagement.LoadSceneParameters parameters)
     // Offset: 0x20D48BC
-    static UnityEngine::AsyncOperation* LoadSceneAsync(int sceneBuildIndex, UnityEngine::SceneManagement::LoadSceneParameters parameters);
+    static ::UnityEngine::AsyncOperation* LoadSceneAsync(int sceneBuildIndex, ::UnityEngine::SceneManagement::LoadSceneParameters parameters);
     // static public UnityEngine.AsyncOperation LoadSceneAsync(System.String sceneName, UnityEngine.SceneManagement.LoadSceneMode mode)
     // Offset: 0x20D4938
-    static UnityEngine::AsyncOperation* LoadSceneAsync(::StringW sceneName, UnityEngine::SceneManagement::LoadSceneMode mode);
+    static ::UnityEngine::AsyncOperation* LoadSceneAsync(::StringW sceneName, ::UnityEngine::SceneManagement::LoadSceneMode mode);
     // static public UnityEngine.AsyncOperation LoadSceneAsync(System.String sceneName)
     // Offset: 0x20D4A2C
-    static UnityEngine::AsyncOperation* LoadSceneAsync(::StringW sceneName);
+    static ::UnityEngine::AsyncOperation* LoadSceneAsync(::StringW sceneName);
     // static public UnityEngine.AsyncOperation LoadSceneAsync(System.String sceneName, UnityEngine.SceneManagement.LoadSceneParameters parameters)
     // Offset: 0x20D49B0
-    static UnityEngine::AsyncOperation* LoadSceneAsync(::StringW sceneName, UnityEngine::SceneManagement::LoadSceneParameters parameters);
+    static ::UnityEngine::AsyncOperation* LoadSceneAsync(::StringW sceneName, ::UnityEngine::SceneManagement::LoadSceneParameters parameters);
     // static public UnityEngine.AsyncOperation UnloadSceneAsync(System.String sceneName)
     // Offset: 0x20D4A94
-    static UnityEngine::AsyncOperation* UnloadSceneAsync(::StringW sceneName);
+    static ::UnityEngine::AsyncOperation* UnloadSceneAsync(::StringW sceneName);
     // static public UnityEngine.AsyncOperation UnloadSceneAsync(UnityEngine.SceneManagement.Scene scene)
     // Offset: 0x20D4B18
-    static UnityEngine::AsyncOperation* UnloadSceneAsync(UnityEngine::SceneManagement::Scene scene);
+    static ::UnityEngine::AsyncOperation* UnloadSceneAsync(::UnityEngine::SceneManagement::Scene scene);
     // static private System.Void Internal_SceneLoaded(UnityEngine.SceneManagement.Scene scene, UnityEngine.SceneManagement.LoadSceneMode mode)
     // Offset: 0x20D4B80
-    static void Internal_SceneLoaded(UnityEngine::SceneManagement::Scene scene, UnityEngine::SceneManagement::LoadSceneMode mode);
+    static void Internal_SceneLoaded(::UnityEngine::SceneManagement::Scene scene, ::UnityEngine::SceneManagement::LoadSceneMode mode);
     // static private System.Void Internal_SceneUnloaded(UnityEngine.SceneManagement.Scene scene)
     // Offset: 0x20D4C4C
-    static void Internal_SceneUnloaded(UnityEngine::SceneManagement::Scene scene);
+    static void Internal_SceneUnloaded(::UnityEngine::SceneManagement::Scene scene);
     // static private System.Void Internal_ActiveSceneChanged(UnityEngine.SceneManagement.Scene previousActiveScene, UnityEngine.SceneManagement.Scene newActiveScene)
     // Offset: 0x20D4D04
-    static void Internal_ActiveSceneChanged(UnityEngine::SceneManagement::Scene previousActiveScene, UnityEngine::SceneManagement::Scene newActiveScene);
+    static void Internal_ActiveSceneChanged(::UnityEngine::SceneManagement::Scene previousActiveScene, ::UnityEngine::SceneManagement::Scene newActiveScene);
     // static private System.Void GetActiveScene_Injected(out UnityEngine.SceneManagement.Scene ret)
     // Offset: 0x20D3A90
-    static void GetActiveScene_Injected(ByRef<UnityEngine::SceneManagement::Scene> ret);
+    static void GetActiveScene_Injected(ByRef<::UnityEngine::SceneManagement::Scene> ret);
     // static private System.Boolean SetActiveScene_Injected(ref UnityEngine.SceneManagement.Scene scene)
     // Offset: 0x20D3B5C
-    static bool SetActiveScene_Injected(ByRef<UnityEngine::SceneManagement::Scene> scene);
+    static bool SetActiveScene_Injected(ByRef<::UnityEngine::SceneManagement::Scene> scene);
     // static private System.Void GetSceneByName_Injected(System.String name, out UnityEngine.SceneManagement.Scene ret)
     // Offset: 0x20D3C38
-    static void GetSceneByName_Injected(::StringW name, ByRef<UnityEngine::SceneManagement::Scene> ret);
+    static void GetSceneByName_Injected(::StringW name, ByRef<::UnityEngine::SceneManagement::Scene> ret);
     // static private System.Void GetSceneAt_Injected(System.Int32 index, out UnityEngine.SceneManagement.Scene ret)
     // Offset: 0x20D3D24
-    static void GetSceneAt_Injected(int index, ByRef<UnityEngine::SceneManagement::Scene> ret);
+    static void GetSceneAt_Injected(int index, ByRef<::UnityEngine::SceneManagement::Scene> ret);
     // static private UnityEngine.AsyncOperation UnloadSceneAsyncInternal_Injected(ref UnityEngine.SceneManagement.Scene scene, UnityEngine.SceneManagement.UnloadSceneOptions options)
     // Offset: 0x20D3E0C
-    static UnityEngine::AsyncOperation* UnloadSceneAsyncInternal_Injected(ByRef<UnityEngine::SceneManagement::Scene> scene, UnityEngine::SceneManagement::UnloadSceneOptions options);
+    static ::UnityEngine::AsyncOperation* UnloadSceneAsyncInternal_Injected(ByRef<::UnityEngine::SceneManagement::Scene> scene, ::UnityEngine::SceneManagement::UnloadSceneOptions options);
     // static private System.Void MoveGameObjectToScene_Injected(UnityEngine.GameObject go, ref UnityEngine.SceneManagement.Scene scene)
     // Offset: 0x20D417C
-    static void MoveGameObjectToScene_Injected(UnityEngine::GameObject* go, ByRef<UnityEngine::SceneManagement::Scene> scene);
+    static void MoveGameObjectToScene_Injected(::UnityEngine::GameObject* go, ByRef<::UnityEngine::SceneManagement::Scene> scene);
   }; // UnityEngine.SceneManagement.SceneManager
   #pragma pack(pop)
 }
@@ -204,7 +204,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(
 // Writing MetadataGetter for method: UnityEngine::SceneManagement::SceneManager::add_sceneLoaded
 // Il2CppName: add_sceneLoaded
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Events::UnityAction_2<UnityEngine::SceneManagement::Scene, UnityEngine::SceneManagement::LoadSceneMode>*)>(&UnityEngine::SceneManagement::SceneManager::add_sceneLoaded)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Events::UnityAction_2<::UnityEngine::SceneManagement::Scene, ::UnityEngine::SceneManagement::LoadSceneMode>*)>(&UnityEngine::SceneManagement::SceneManager::add_sceneLoaded)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityAction`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "Scene"), ::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneMode")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::SceneManagement::SceneManager*), "add_sceneLoaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -213,7 +213,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::SceneManagement::SceneManager::remove_sceneLoaded
 // Il2CppName: remove_sceneLoaded
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Events::UnityAction_2<UnityEngine::SceneManagement::Scene, UnityEngine::SceneManagement::LoadSceneMode>*)>(&UnityEngine::SceneManagement::SceneManager::remove_sceneLoaded)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Events::UnityAction_2<::UnityEngine::SceneManagement::Scene, ::UnityEngine::SceneManagement::LoadSceneMode>*)>(&UnityEngine::SceneManagement::SceneManager::remove_sceneLoaded)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityAction`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "Scene"), ::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneMode")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::SceneManagement::SceneManager*), "remove_sceneLoaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -222,7 +222,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::SceneManagement::SceneManager::add_sceneUnloaded
 // Il2CppName: add_sceneUnloaded
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Events::UnityAction_1<UnityEngine::SceneManagement::Scene>*)>(&UnityEngine::SceneManagement::SceneManager::add_sceneUnloaded)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Events::UnityAction_1<::UnityEngine::SceneManagement::Scene>*)>(&UnityEngine::SceneManagement::SceneManager::add_sceneUnloaded)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityAction`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "Scene")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::SceneManagement::SceneManager*), "add_sceneUnloaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -231,7 +231,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::SceneManagement::SceneManager::remove_sceneUnloaded
 // Il2CppName: remove_sceneUnloaded
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Events::UnityAction_1<UnityEngine::SceneManagement::Scene>*)>(&UnityEngine::SceneManagement::SceneManager::remove_sceneUnloaded)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Events::UnityAction_1<::UnityEngine::SceneManagement::Scene>*)>(&UnityEngine::SceneManagement::SceneManager::remove_sceneUnloaded)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityAction`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "Scene")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::SceneManagement::SceneManager*), "remove_sceneUnloaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -248,7 +248,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::SceneManagement::SceneManager::GetActiveScene
 // Il2CppName: GetActiveScene
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::SceneManagement::Scene (*)()>(&UnityEngine::SceneManagement::SceneManager::GetActiveScene)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::SceneManagement::Scene (*)()>(&UnityEngine::SceneManagement::SceneManager::GetActiveScene)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::SceneManagement::SceneManager*), "GetActiveScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -256,7 +256,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::SceneManagement::SceneManager::SetActiveScene
 // Il2CppName: SetActiveScene
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::SceneManagement::Scene)>(&UnityEngine::SceneManagement::SceneManager::SetActiveScene)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::SceneManagement::Scene)>(&UnityEngine::SceneManagement::SceneManager::SetActiveScene)> {
   static const MethodInfo* get() {
     static auto* scene = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "Scene")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::SceneManagement::SceneManager*), "SetActiveScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scene});
@@ -265,7 +265,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: UnityEngine::SceneManagement::SceneManager::GetSceneByName
 // Il2CppName: GetSceneByName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::SceneManagement::Scene (*)(::StringW)>(&UnityEngine::SceneManagement::SceneManager::GetSceneByName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::SceneManagement::Scene (*)(::StringW)>(&UnityEngine::SceneManagement::SceneManager::GetSceneByName)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::SceneManagement::SceneManager*), "GetSceneByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -274,7 +274,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::SceneManagement::SceneManager::GetSceneAt
 // Il2CppName: GetSceneAt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::SceneManagement::Scene (*)(int)>(&UnityEngine::SceneManagement::SceneManager::GetSceneAt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::SceneManagement::Scene (*)(int)>(&UnityEngine::SceneManagement::SceneManager::GetSceneAt)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::SceneManagement::SceneManager*), "GetSceneAt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
@@ -283,7 +283,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::SceneManagement::SceneManager::UnloadSceneAsyncInternal
 // Il2CppName: UnloadSceneAsyncInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (*)(UnityEngine::SceneManagement::Scene, UnityEngine::SceneManagement::UnloadSceneOptions)>(&UnityEngine::SceneManagement::SceneManager::UnloadSceneAsyncInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AsyncOperation* (*)(::UnityEngine::SceneManagement::Scene, ::UnityEngine::SceneManagement::UnloadSceneOptions)>(&UnityEngine::SceneManagement::SceneManager::UnloadSceneAsyncInternal)> {
   static const MethodInfo* get() {
     static auto* scene = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "Scene")->byval_arg;
     static auto* options = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "UnloadSceneOptions")->byval_arg;
@@ -293,7 +293,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::SceneManagement::SceneManager::LoadSceneAsyncNameIndexInternal
 // Il2CppName: LoadSceneAsyncNameIndexInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (*)(::StringW, int, UnityEngine::SceneManagement::LoadSceneParameters, bool)>(&UnityEngine::SceneManagement::SceneManager::LoadSceneAsyncNameIndexInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AsyncOperation* (*)(::StringW, int, ::UnityEngine::SceneManagement::LoadSceneParameters, bool)>(&UnityEngine::SceneManagement::SceneManager::LoadSceneAsyncNameIndexInternal)> {
   static const MethodInfo* get() {
     static auto* sceneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* sceneBuildIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -305,7 +305,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::SceneManagement::SceneManager::UnloadSceneNameIndexInternal
 // Il2CppName: UnloadSceneNameIndexInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (*)(::StringW, int, bool, UnityEngine::SceneManagement::UnloadSceneOptions, ByRef<bool>)>(&UnityEngine::SceneManagement::SceneManager::UnloadSceneNameIndexInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AsyncOperation* (*)(::StringW, int, bool, ::UnityEngine::SceneManagement::UnloadSceneOptions, ByRef<bool>)>(&UnityEngine::SceneManagement::SceneManager::UnloadSceneNameIndexInternal)> {
   static const MethodInfo* get() {
     static auto* sceneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* sceneBuildIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -318,7 +318,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::SceneManagement::SceneManager::MoveGameObjectToScene
 // Il2CppName: MoveGameObjectToScene
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, UnityEngine::SceneManagement::Scene)>(&UnityEngine::SceneManagement::SceneManager::MoveGameObjectToScene)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*, ::UnityEngine::SceneManagement::Scene)>(&UnityEngine::SceneManagement::SceneManager::MoveGameObjectToScene)> {
   static const MethodInfo* get() {
     static auto* go = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* scene = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "Scene")->byval_arg;
@@ -328,7 +328,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::SceneManagement::SceneManager::LoadScene
 // Il2CppName: LoadScene
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, UnityEngine::SceneManagement::LoadSceneMode)>(&UnityEngine::SceneManagement::SceneManager::LoadScene)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::UnityEngine::SceneManagement::LoadSceneMode)>(&UnityEngine::SceneManagement::SceneManager::LoadScene)> {
   static const MethodInfo* get() {
     static auto* sceneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* mode = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneMode")->byval_arg;
@@ -347,7 +347,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::SceneManagement::SceneManager::LoadScene
 // Il2CppName: LoadScene
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::SceneManagement::Scene (*)(::StringW, UnityEngine::SceneManagement::LoadSceneParameters)>(&UnityEngine::SceneManagement::SceneManager::LoadScene)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::SceneManagement::Scene (*)(::StringW, ::UnityEngine::SceneManagement::LoadSceneParameters)>(&UnityEngine::SceneManagement::SceneManager::LoadScene)> {
   static const MethodInfo* get() {
     static auto* sceneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* parameters = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneParameters")->byval_arg;
@@ -357,7 +357,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::SceneManagement::SceneManager::LoadScene
 // Il2CppName: LoadScene
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::SceneManagement::LoadSceneMode)>(&UnityEngine::SceneManagement::SceneManager::LoadScene)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::UnityEngine::SceneManagement::LoadSceneMode)>(&UnityEngine::SceneManagement::SceneManager::LoadScene)> {
   static const MethodInfo* get() {
     static auto* sceneBuildIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* mode = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneMode")->byval_arg;
@@ -367,7 +367,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 // Writing MetadataGetter for method: UnityEngine::SceneManagement::SceneManager::LoadScene
 // Il2CppName: LoadScene
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::SceneManagement::Scene (*)(int, UnityEngine::SceneManagement::LoadSceneParameters)>(&UnityEngine::SceneManagement::SceneManager::LoadScene)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::SceneManagement::Scene (*)(int, ::UnityEngine::SceneManagement::LoadSceneParameters)>(&UnityEngine::SceneManagement::SceneManager::LoadScene)> {
   static const MethodInfo* get() {
     static auto* sceneBuildIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* parameters = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneParameters")->byval_arg;
@@ -377,7 +377,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::SceneManagement::SceneManager::LoadSceneAsync
 // Il2CppName: LoadSceneAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (*)(int, UnityEngine::SceneManagement::LoadSceneMode)>(&UnityEngine::SceneManagement::SceneManager::LoadSceneAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AsyncOperation* (*)(int, ::UnityEngine::SceneManagement::LoadSceneMode)>(&UnityEngine::SceneManagement::SceneManager::LoadSceneAsync)> {
   static const MethodInfo* get() {
     static auto* sceneBuildIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* mode = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneMode")->byval_arg;
@@ -387,7 +387,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::SceneManagement::SceneManager::LoadSceneAsync
 // Il2CppName: LoadSceneAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (*)(int, UnityEngine::SceneManagement::LoadSceneParameters)>(&UnityEngine::SceneManagement::SceneManager::LoadSceneAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AsyncOperation* (*)(int, ::UnityEngine::SceneManagement::LoadSceneParameters)>(&UnityEngine::SceneManagement::SceneManager::LoadSceneAsync)> {
   static const MethodInfo* get() {
     static auto* sceneBuildIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* parameters = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneParameters")->byval_arg;
@@ -397,7 +397,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::SceneManagement::SceneManager::LoadSceneAsync
 // Il2CppName: LoadSceneAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (*)(::StringW, UnityEngine::SceneManagement::LoadSceneMode)>(&UnityEngine::SceneManagement::SceneManager::LoadSceneAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AsyncOperation* (*)(::StringW, ::UnityEngine::SceneManagement::LoadSceneMode)>(&UnityEngine::SceneManagement::SceneManager::LoadSceneAsync)> {
   static const MethodInfo* get() {
     static auto* sceneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* mode = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneMode")->byval_arg;
@@ -407,7 +407,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::SceneManagement::SceneManager::LoadSceneAsync
 // Il2CppName: LoadSceneAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (*)(::StringW)>(&UnityEngine::SceneManagement::SceneManager::LoadSceneAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AsyncOperation* (*)(::StringW)>(&UnityEngine::SceneManagement::SceneManager::LoadSceneAsync)> {
   static const MethodInfo* get() {
     static auto* sceneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::SceneManagement::SceneManager*), "LoadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sceneName});
@@ -416,7 +416,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::SceneManagement::SceneManager::LoadSceneAsync
 // Il2CppName: LoadSceneAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (*)(::StringW, UnityEngine::SceneManagement::LoadSceneParameters)>(&UnityEngine::SceneManagement::SceneManager::LoadSceneAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AsyncOperation* (*)(::StringW, ::UnityEngine::SceneManagement::LoadSceneParameters)>(&UnityEngine::SceneManagement::SceneManager::LoadSceneAsync)> {
   static const MethodInfo* get() {
     static auto* sceneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* parameters = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneParameters")->byval_arg;
@@ -426,7 +426,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::SceneManagement::SceneManager::UnloadSceneAsync
 // Il2CppName: UnloadSceneAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (*)(::StringW)>(&UnityEngine::SceneManagement::SceneManager::UnloadSceneAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AsyncOperation* (*)(::StringW)>(&UnityEngine::SceneManagement::SceneManager::UnloadSceneAsync)> {
   static const MethodInfo* get() {
     static auto* sceneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::SceneManagement::SceneManager*), "UnloadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sceneName});
@@ -435,7 +435,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::SceneManagement::SceneManager::UnloadSceneAsync
 // Il2CppName: UnloadSceneAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (*)(UnityEngine::SceneManagement::Scene)>(&UnityEngine::SceneManagement::SceneManager::UnloadSceneAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AsyncOperation* (*)(::UnityEngine::SceneManagement::Scene)>(&UnityEngine::SceneManagement::SceneManager::UnloadSceneAsync)> {
   static const MethodInfo* get() {
     static auto* scene = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "Scene")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::SceneManagement::SceneManager*), "UnloadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scene});
@@ -444,7 +444,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::SceneManagement::SceneManager::Internal_SceneLoaded
 // Il2CppName: Internal_SceneLoaded
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::SceneManagement::Scene, UnityEngine::SceneManagement::LoadSceneMode)>(&UnityEngine::SceneManagement::SceneManager::Internal_SceneLoaded)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::SceneManagement::Scene, ::UnityEngine::SceneManagement::LoadSceneMode)>(&UnityEngine::SceneManagement::SceneManager::Internal_SceneLoaded)> {
   static const MethodInfo* get() {
     static auto* scene = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "Scene")->byval_arg;
     static auto* mode = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneMode")->byval_arg;
@@ -454,7 +454,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::SceneManagement::SceneManager::Internal_SceneUnloaded
 // Il2CppName: Internal_SceneUnloaded
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::SceneManagement::Scene)>(&UnityEngine::SceneManagement::SceneManager::Internal_SceneUnloaded)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::SceneManagement::Scene)>(&UnityEngine::SceneManagement::SceneManager::Internal_SceneUnloaded)> {
   static const MethodInfo* get() {
     static auto* scene = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "Scene")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::SceneManagement::SceneManager*), "Internal_SceneUnloaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scene});
@@ -463,7 +463,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::SceneManagement::SceneManager::Internal_ActiveSceneChanged
 // Il2CppName: Internal_ActiveSceneChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::SceneManagement::Scene, UnityEngine::SceneManagement::Scene)>(&UnityEngine::SceneManagement::SceneManager::Internal_ActiveSceneChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::SceneManagement::Scene, ::UnityEngine::SceneManagement::Scene)>(&UnityEngine::SceneManagement::SceneManager::Internal_ActiveSceneChanged)> {
   static const MethodInfo* get() {
     static auto* previousActiveScene = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "Scene")->byval_arg;
     static auto* newActiveScene = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "Scene")->byval_arg;
@@ -473,7 +473,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::SceneManagement::SceneManager::GetActiveScene_Injected
 // Il2CppName: GetActiveScene_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<UnityEngine::SceneManagement::Scene>)>(&UnityEngine::SceneManagement::SceneManager::GetActiveScene_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::SceneManagement::Scene>)>(&UnityEngine::SceneManagement::SceneManager::GetActiveScene_Injected)> {
   static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "Scene")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::SceneManagement::SceneManager*), "GetActiveScene_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
@@ -482,7 +482,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(By
 // Writing MetadataGetter for method: UnityEngine::SceneManagement::SceneManager::SetActiveScene_Injected
 // Il2CppName: SetActiveScene_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<UnityEngine::SceneManagement::Scene>)>(&UnityEngine::SceneManagement::SceneManager::SetActiveScene_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<::UnityEngine::SceneManagement::Scene>)>(&UnityEngine::SceneManagement::SceneManager::SetActiveScene_Injected)> {
   static const MethodInfo* get() {
     static auto* scene = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "Scene")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::SceneManagement::SceneManager*), "SetActiveScene_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scene});
@@ -491,7 +491,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(By
 // Writing MetadataGetter for method: UnityEngine::SceneManagement::SceneManager::GetSceneByName_Injected
 // Il2CppName: GetSceneByName_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ByRef<UnityEngine::SceneManagement::Scene>)>(&UnityEngine::SceneManagement::SceneManager::GetSceneByName_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ByRef<::UnityEngine::SceneManagement::Scene>)>(&UnityEngine::SceneManagement::SceneManager::GetSceneByName_Injected)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "Scene")->this_arg;
@@ -501,7 +501,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::SceneManagement::SceneManager::GetSceneAt_Injected
 // Il2CppName: GetSceneAt_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ByRef<UnityEngine::SceneManagement::Scene>)>(&UnityEngine::SceneManagement::SceneManager::GetSceneAt_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ByRef<::UnityEngine::SceneManagement::Scene>)>(&UnityEngine::SceneManagement::SceneManager::GetSceneAt_Injected)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "Scene")->this_arg;
@@ -511,7 +511,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 // Writing MetadataGetter for method: UnityEngine::SceneManagement::SceneManager::UnloadSceneAsyncInternal_Injected
 // Il2CppName: UnloadSceneAsyncInternal_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (*)(ByRef<UnityEngine::SceneManagement::Scene>, UnityEngine::SceneManagement::UnloadSceneOptions)>(&UnityEngine::SceneManagement::SceneManager::UnloadSceneAsyncInternal_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AsyncOperation* (*)(ByRef<::UnityEngine::SceneManagement::Scene>, ::UnityEngine::SceneManagement::UnloadSceneOptions)>(&UnityEngine::SceneManagement::SceneManager::UnloadSceneAsyncInternal_Injected)> {
   static const MethodInfo* get() {
     static auto* scene = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "Scene")->this_arg;
     static auto* options = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "UnloadSceneOptions")->byval_arg;
@@ -521,7 +521,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::SceneManagement::SceneManager::MoveGameObjectToScene_Injected
 // Il2CppName: MoveGameObjectToScene_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, ByRef<UnityEngine::SceneManagement::Scene>)>(&UnityEngine::SceneManagement::SceneManager::MoveGameObjectToScene_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*, ByRef<::UnityEngine::SceneManagement::Scene>)>(&UnityEngine::SceneManagement::SceneManager::MoveGameObjectToScene_Injected)> {
   static const MethodInfo* get() {
     static auto* go = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* scene = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "Scene")->this_arg;

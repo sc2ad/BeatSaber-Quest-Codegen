@@ -14,8 +14,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::DefaultBinder::BinderState);
-DEFINE_IL2CPP_ARG_TYPE(System::DefaultBinder::BinderState*, "System", "DefaultBinder/BinderState");
+NEED_NO_BOX(::System::DefaultBinder::BinderState);
+DEFINE_IL2CPP_ARG_TYPE(::System::DefaultBinder::BinderState*, "System", "DefaultBinder/BinderState");
 // Type namespace: System
 namespace System {
   // Size: 0x1D
@@ -62,7 +62,7 @@ namespace System {
     // Offset: 0x187D3B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultBinder::BinderState* New_ctor(::ArrayW<int> argsMap, int originalSize, bool isParamArray) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::DefaultBinder::BinderState::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::DefaultBinder::BinderState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultBinder::BinderState*, creationType>(argsMap, originalSize, isParamArray)));
     }
   }; // System.DefaultBinder/System.BinderState

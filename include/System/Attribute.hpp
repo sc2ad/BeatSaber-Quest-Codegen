@@ -39,8 +39,8 @@ namespace System {
   class Attribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Attribute);
-DEFINE_IL2CPP_ARG_TYPE(System::Attribute*, "System", "Attribute");
+NEED_NO_BOX(::System::Attribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::Attribute*, "System", "Attribute");
 // Type namespace: System
 namespace System {
   // Size: 0x10
@@ -55,67 +55,67 @@ namespace System {
     ::Il2CppObject* get_TypeId();
     // static private System.Attribute[] InternalGetCustomAttributes(System.Reflection.PropertyInfo element, System.Type type, System.Boolean inherit)
     // Offset: 0x1DA7F20
-    static ::ArrayW<System::Attribute*> InternalGetCustomAttributes(System::Reflection::PropertyInfo* element, System::Type* type, bool inherit);
+    static ::ArrayW<::System::Attribute*> InternalGetCustomAttributes(::System::Reflection::PropertyInfo* element, ::System::Type* type, bool inherit);
     // static private System.Attribute[] InternalGetCustomAttributes(System.Reflection.EventInfo element, System.Type type, System.Boolean inherit)
     // Offset: 0x1DA7FD0
-    static ::ArrayW<System::Attribute*> InternalGetCustomAttributes(System::Reflection::EventInfo* element, System::Type* type, bool inherit);
+    static ::ArrayW<::System::Attribute*> InternalGetCustomAttributes(::System::Reflection::EventInfo* element, ::System::Type* type, bool inherit);
     // static private System.Attribute[] InternalParamGetCustomAttributes(System.Reflection.ParameterInfo parameter, System.Type attributeType, System.Boolean inherit)
     // Offset: 0x1DA8080
-    static ::ArrayW<System::Attribute*> InternalParamGetCustomAttributes(System::Reflection::ParameterInfo* parameter, System::Type* attributeType, bool inherit);
+    static ::ArrayW<::System::Attribute*> InternalParamGetCustomAttributes(::System::Reflection::ParameterInfo* parameter, ::System::Type* attributeType, bool inherit);
     // static private System.Boolean InternalIsDefined(System.Reflection.PropertyInfo element, System.Type attributeType, System.Boolean inherit)
     // Offset: 0x1DA8464
-    static bool InternalIsDefined(System::Reflection::PropertyInfo* element, System::Type* attributeType, bool inherit);
+    static bool InternalIsDefined(::System::Reflection::PropertyInfo* element, ::System::Type* attributeType, bool inherit);
     // static private System.Boolean InternalIsDefined(System.Reflection.EventInfo element, System.Type attributeType, System.Boolean inherit)
     // Offset: 0x1DA84E4
-    static bool InternalIsDefined(System::Reflection::EventInfo* element, System::Type* attributeType, bool inherit);
+    static bool InternalIsDefined(::System::Reflection::EventInfo* element, ::System::Type* attributeType, bool inherit);
     // static public System.Attribute[] GetCustomAttributes(System.Reflection.MemberInfo element, System.Type type, System.Boolean inherit)
     // Offset: 0x1DA8564
-    static ::ArrayW<System::Attribute*> GetCustomAttributes(System::Reflection::MemberInfo* element, System::Type* type, bool inherit);
+    static ::ArrayW<::System::Attribute*> GetCustomAttributes(::System::Reflection::MemberInfo* element, ::System::Type* type, bool inherit);
     // static public System.Attribute[] GetCustomAttributes(System.Reflection.MemberInfo element, System.Boolean inherit)
     // Offset: 0x1DA882C
-    static ::ArrayW<System::Attribute*> GetCustomAttributes(System::Reflection::MemberInfo* element, bool inherit);
+    static ::ArrayW<::System::Attribute*> GetCustomAttributes(::System::Reflection::MemberInfo* element, bool inherit);
     // static public System.Boolean IsDefined(System.Reflection.MemberInfo element, System.Type attributeType)
     // Offset: 0x1DA8A58
-    static bool IsDefined(System::Reflection::MemberInfo* element, System::Type* attributeType);
+    static bool IsDefined(::System::Reflection::MemberInfo* element, ::System::Type* attributeType);
     // static public System.Boolean IsDefined(System.Reflection.MemberInfo element, System.Type attributeType, System.Boolean inherit)
     // Offset: 0x1DA8A60
-    static bool IsDefined(System::Reflection::MemberInfo* element, System::Type* attributeType, bool inherit);
+    static bool IsDefined(::System::Reflection::MemberInfo* element, ::System::Type* attributeType, bool inherit);
     // static public System.Attribute GetCustomAttribute(System.Reflection.MemberInfo element, System.Type attributeType)
     // Offset: 0x1DA8D1C
-    static System::Attribute* GetCustomAttribute(System::Reflection::MemberInfo* element, System::Type* attributeType);
+    static ::System::Attribute* GetCustomAttribute(::System::Reflection::MemberInfo* element, ::System::Type* attributeType);
     // static public System.Attribute GetCustomAttribute(System.Reflection.MemberInfo element, System.Type attributeType, System.Boolean inherit)
     // Offset: 0x1DA8D24
-    static System::Attribute* GetCustomAttribute(System::Reflection::MemberInfo* element, System::Type* attributeType, bool inherit);
+    static ::System::Attribute* GetCustomAttribute(::System::Reflection::MemberInfo* element, ::System::Type* attributeType, bool inherit);
     // static public System.Attribute[] GetCustomAttributes(System.Reflection.ParameterInfo element, System.Type attributeType, System.Boolean inherit)
     // Offset: 0x1DA8DF4
-    static ::ArrayW<System::Attribute*> GetCustomAttributes(System::Reflection::ParameterInfo* element, System::Type* attributeType, bool inherit);
+    static ::ArrayW<::System::Attribute*> GetCustomAttributes(::System::Reflection::ParameterInfo* element, ::System::Type* attributeType, bool inherit);
     // static public System.Attribute[] GetCustomAttributes(System.Reflection.ParameterInfo element, System.Boolean inherit)
     // Offset: 0x1DA9090
-    static ::ArrayW<System::Attribute*> GetCustomAttributes(System::Reflection::ParameterInfo* element, bool inherit);
+    static ::ArrayW<::System::Attribute*> GetCustomAttributes(::System::Reflection::ParameterInfo* element, bool inherit);
     // static public System.Attribute[] GetCustomAttributes(System.Reflection.Module element, System.Boolean inherit)
     // Offset: 0x1DA923C
-    static ::ArrayW<System::Attribute*> GetCustomAttributes(System::Reflection::Module* element, bool inherit);
+    static ::ArrayW<::System::Attribute*> GetCustomAttributes(::System::Reflection::Module* element, bool inherit);
     // static public System.Attribute[] GetCustomAttributes(System.Reflection.Module element, System.Type attributeType, System.Boolean inherit)
     // Offset: 0x1DA937C
-    static ::ArrayW<System::Attribute*> GetCustomAttributes(System::Reflection::Module* element, System::Type* attributeType, bool inherit);
+    static ::ArrayW<::System::Attribute*> GetCustomAttributes(::System::Reflection::Module* element, ::System::Type* attributeType, bool inherit);
     // static public System.Attribute[] GetCustomAttributes(System.Reflection.Assembly element, System.Type attributeType)
     // Offset: 0x1DA95B8
-    static ::ArrayW<System::Attribute*> GetCustomAttributes(System::Reflection::Assembly* element, System::Type* attributeType);
+    static ::ArrayW<::System::Attribute*> GetCustomAttributes(::System::Reflection::Assembly* element, ::System::Type* attributeType);
     // static public System.Attribute[] GetCustomAttributes(System.Reflection.Assembly element, System.Type attributeType, System.Boolean inherit)
     // Offset: 0x1DA95C0
-    static ::ArrayW<System::Attribute*> GetCustomAttributes(System::Reflection::Assembly* element, System::Type* attributeType, bool inherit);
+    static ::ArrayW<::System::Attribute*> GetCustomAttributes(::System::Reflection::Assembly* element, ::System::Type* attributeType, bool inherit);
     // static public System.Attribute[] GetCustomAttributes(System.Reflection.Assembly element)
     // Offset: 0x1DA97DC
-    static ::ArrayW<System::Attribute*> GetCustomAttributes(System::Reflection::Assembly* element);
+    static ::ArrayW<::System::Attribute*> GetCustomAttributes(::System::Reflection::Assembly* element);
     // static public System.Attribute[] GetCustomAttributes(System.Reflection.Assembly element, System.Boolean inherit)
     // Offset: 0x1DA97E4
-    static ::ArrayW<System::Attribute*> GetCustomAttributes(System::Reflection::Assembly* element, bool inherit);
+    static ::ArrayW<::System::Attribute*> GetCustomAttributes(::System::Reflection::Assembly* element, bool inherit);
     // static public System.Attribute GetCustomAttribute(System.Reflection.Assembly element, System.Type attributeType)
     // Offset: 0x1DA9904
-    static System::Attribute* GetCustomAttribute(System::Reflection::Assembly* element, System::Type* attributeType);
+    static ::System::Attribute* GetCustomAttribute(::System::Reflection::Assembly* element, ::System::Type* attributeType);
     // static public System.Attribute GetCustomAttribute(System.Reflection.Assembly element, System.Type attributeType, System.Boolean inherit)
     // Offset: 0x1DA990C
-    static System::Attribute* GetCustomAttribute(System::Reflection::Assembly* element, System::Type* attributeType, bool inherit);
+    static ::System::Attribute* GetCustomAttribute(::System::Reflection::Assembly* element, ::System::Type* attributeType, bool inherit);
     // static private System.Boolean AreFieldValuesEqual(System.Object thisValue, System.Object thatValue)
     // Offset: 0x1DA9C2C
     static bool AreFieldValuesEqual(::Il2CppObject* thisValue, ::Il2CppObject* thatValue);
@@ -131,7 +131,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Attribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Attribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Attribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Attribute*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object obj)
@@ -159,7 +159,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Attribute::InternalGetCustomAttributes
 // Il2CppName: InternalGetCustomAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Attribute*> (*)(System::Reflection::PropertyInfo*, System::Type*, bool)>(&System::Attribute::InternalGetCustomAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Attribute*> (*)(::System::Reflection::PropertyInfo*, ::System::Type*, bool)>(&System::Attribute::InternalGetCustomAttributes)> {
   static const MethodInfo* get() {
     static auto* element = &::il2cpp_utils::GetClassFromName("System.Reflection", "PropertyInfo")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -170,7 +170,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Sy
 // Writing MetadataGetter for method: System::Attribute::InternalGetCustomAttributes
 // Il2CppName: InternalGetCustomAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Attribute*> (*)(System::Reflection::EventInfo*, System::Type*, bool)>(&System::Attribute::InternalGetCustomAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Attribute*> (*)(::System::Reflection::EventInfo*, ::System::Type*, bool)>(&System::Attribute::InternalGetCustomAttributes)> {
   static const MethodInfo* get() {
     static auto* element = &::il2cpp_utils::GetClassFromName("System.Reflection", "EventInfo")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -181,7 +181,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Sy
 // Writing MetadataGetter for method: System::Attribute::InternalParamGetCustomAttributes
 // Il2CppName: InternalParamGetCustomAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Attribute*> (*)(System::Reflection::ParameterInfo*, System::Type*, bool)>(&System::Attribute::InternalParamGetCustomAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Attribute*> (*)(::System::Reflection::ParameterInfo*, ::System::Type*, bool)>(&System::Attribute::InternalParamGetCustomAttributes)> {
   static const MethodInfo* get() {
     static auto* parameter = &::il2cpp_utils::GetClassFromName("System.Reflection", "ParameterInfo")->byval_arg;
     static auto* attributeType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -192,7 +192,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Sy
 // Writing MetadataGetter for method: System::Attribute::InternalIsDefined
 // Il2CppName: InternalIsDefined
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::PropertyInfo*, System::Type*, bool)>(&System::Attribute::InternalIsDefined)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::PropertyInfo*, ::System::Type*, bool)>(&System::Attribute::InternalIsDefined)> {
   static const MethodInfo* get() {
     static auto* element = &::il2cpp_utils::GetClassFromName("System.Reflection", "PropertyInfo")->byval_arg;
     static auto* attributeType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -203,7 +203,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Attribute::InternalIsDefined
 // Il2CppName: InternalIsDefined
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::EventInfo*, System::Type*, bool)>(&System::Attribute::InternalIsDefined)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::EventInfo*, ::System::Type*, bool)>(&System::Attribute::InternalIsDefined)> {
   static const MethodInfo* get() {
     static auto* element = &::il2cpp_utils::GetClassFromName("System.Reflection", "EventInfo")->byval_arg;
     static auto* attributeType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -214,7 +214,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Attribute::GetCustomAttributes
 // Il2CppName: GetCustomAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Attribute*> (*)(System::Reflection::MemberInfo*, System::Type*, bool)>(&System::Attribute::GetCustomAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Attribute*> (*)(::System::Reflection::MemberInfo*, ::System::Type*, bool)>(&System::Attribute::GetCustomAttributes)> {
   static const MethodInfo* get() {
     static auto* element = &::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -225,7 +225,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Sy
 // Writing MetadataGetter for method: System::Attribute::GetCustomAttributes
 // Il2CppName: GetCustomAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Attribute*> (*)(System::Reflection::MemberInfo*, bool)>(&System::Attribute::GetCustomAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Attribute*> (*)(::System::Reflection::MemberInfo*, bool)>(&System::Attribute::GetCustomAttributes)> {
   static const MethodInfo* get() {
     static auto* element = &::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo")->byval_arg;
     static auto* inherit = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -235,7 +235,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Sy
 // Writing MetadataGetter for method: System::Attribute::IsDefined
 // Il2CppName: IsDefined
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::MemberInfo*, System::Type*)>(&System::Attribute::IsDefined)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::MemberInfo*, ::System::Type*)>(&System::Attribute::IsDefined)> {
   static const MethodInfo* get() {
     static auto* element = &::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo")->byval_arg;
     static auto* attributeType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -245,7 +245,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Attribute::IsDefined
 // Il2CppName: IsDefined
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::MemberInfo*, System::Type*, bool)>(&System::Attribute::IsDefined)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::MemberInfo*, ::System::Type*, bool)>(&System::Attribute::IsDefined)> {
   static const MethodInfo* get() {
     static auto* element = &::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo")->byval_arg;
     static auto* attributeType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -256,7 +256,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Attribute::GetCustomAttribute
 // Il2CppName: GetCustomAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Attribute* (*)(System::Reflection::MemberInfo*, System::Type*)>(&System::Attribute::GetCustomAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Attribute* (*)(::System::Reflection::MemberInfo*, ::System::Type*)>(&System::Attribute::GetCustomAttribute)> {
   static const MethodInfo* get() {
     static auto* element = &::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo")->byval_arg;
     static auto* attributeType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -266,7 +266,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Att
 // Writing MetadataGetter for method: System::Attribute::GetCustomAttribute
 // Il2CppName: GetCustomAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Attribute* (*)(System::Reflection::MemberInfo*, System::Type*, bool)>(&System::Attribute::GetCustomAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Attribute* (*)(::System::Reflection::MemberInfo*, ::System::Type*, bool)>(&System::Attribute::GetCustomAttribute)> {
   static const MethodInfo* get() {
     static auto* element = &::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo")->byval_arg;
     static auto* attributeType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -277,7 +277,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Att
 // Writing MetadataGetter for method: System::Attribute::GetCustomAttributes
 // Il2CppName: GetCustomAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Attribute*> (*)(System::Reflection::ParameterInfo*, System::Type*, bool)>(&System::Attribute::GetCustomAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Attribute*> (*)(::System::Reflection::ParameterInfo*, ::System::Type*, bool)>(&System::Attribute::GetCustomAttributes)> {
   static const MethodInfo* get() {
     static auto* element = &::il2cpp_utils::GetClassFromName("System.Reflection", "ParameterInfo")->byval_arg;
     static auto* attributeType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -288,7 +288,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Sy
 // Writing MetadataGetter for method: System::Attribute::GetCustomAttributes
 // Il2CppName: GetCustomAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Attribute*> (*)(System::Reflection::ParameterInfo*, bool)>(&System::Attribute::GetCustomAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Attribute*> (*)(::System::Reflection::ParameterInfo*, bool)>(&System::Attribute::GetCustomAttributes)> {
   static const MethodInfo* get() {
     static auto* element = &::il2cpp_utils::GetClassFromName("System.Reflection", "ParameterInfo")->byval_arg;
     static auto* inherit = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -298,7 +298,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Sy
 // Writing MetadataGetter for method: System::Attribute::GetCustomAttributes
 // Il2CppName: GetCustomAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Attribute*> (*)(System::Reflection::Module*, bool)>(&System::Attribute::GetCustomAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Attribute*> (*)(::System::Reflection::Module*, bool)>(&System::Attribute::GetCustomAttributes)> {
   static const MethodInfo* get() {
     static auto* element = &::il2cpp_utils::GetClassFromName("System.Reflection", "Module")->byval_arg;
     static auto* inherit = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -308,7 +308,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Sy
 // Writing MetadataGetter for method: System::Attribute::GetCustomAttributes
 // Il2CppName: GetCustomAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Attribute*> (*)(System::Reflection::Module*, System::Type*, bool)>(&System::Attribute::GetCustomAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Attribute*> (*)(::System::Reflection::Module*, ::System::Type*, bool)>(&System::Attribute::GetCustomAttributes)> {
   static const MethodInfo* get() {
     static auto* element = &::il2cpp_utils::GetClassFromName("System.Reflection", "Module")->byval_arg;
     static auto* attributeType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -319,7 +319,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Sy
 // Writing MetadataGetter for method: System::Attribute::GetCustomAttributes
 // Il2CppName: GetCustomAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Attribute*> (*)(System::Reflection::Assembly*, System::Type*)>(&System::Attribute::GetCustomAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Attribute*> (*)(::System::Reflection::Assembly*, ::System::Type*)>(&System::Attribute::GetCustomAttributes)> {
   static const MethodInfo* get() {
     static auto* element = &::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")->byval_arg;
     static auto* attributeType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -329,7 +329,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Sy
 // Writing MetadataGetter for method: System::Attribute::GetCustomAttributes
 // Il2CppName: GetCustomAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Attribute*> (*)(System::Reflection::Assembly*, System::Type*, bool)>(&System::Attribute::GetCustomAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Attribute*> (*)(::System::Reflection::Assembly*, ::System::Type*, bool)>(&System::Attribute::GetCustomAttributes)> {
   static const MethodInfo* get() {
     static auto* element = &::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")->byval_arg;
     static auto* attributeType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -340,7 +340,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Sy
 // Writing MetadataGetter for method: System::Attribute::GetCustomAttributes
 // Il2CppName: GetCustomAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Attribute*> (*)(System::Reflection::Assembly*)>(&System::Attribute::GetCustomAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Attribute*> (*)(::System::Reflection::Assembly*)>(&System::Attribute::GetCustomAttributes)> {
   static const MethodInfo* get() {
     static auto* element = &::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Attribute*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{element});
@@ -349,7 +349,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Sy
 // Writing MetadataGetter for method: System::Attribute::GetCustomAttributes
 // Il2CppName: GetCustomAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Attribute*> (*)(System::Reflection::Assembly*, bool)>(&System::Attribute::GetCustomAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Attribute*> (*)(::System::Reflection::Assembly*, bool)>(&System::Attribute::GetCustomAttributes)> {
   static const MethodInfo* get() {
     static auto* element = &::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")->byval_arg;
     static auto* inherit = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -359,7 +359,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Sy
 // Writing MetadataGetter for method: System::Attribute::GetCustomAttribute
 // Il2CppName: GetCustomAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Attribute* (*)(System::Reflection::Assembly*, System::Type*)>(&System::Attribute::GetCustomAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Attribute* (*)(::System::Reflection::Assembly*, ::System::Type*)>(&System::Attribute::GetCustomAttribute)> {
   static const MethodInfo* get() {
     static auto* element = &::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")->byval_arg;
     static auto* attributeType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -369,7 +369,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Att
 // Writing MetadataGetter for method: System::Attribute::GetCustomAttribute
 // Il2CppName: GetCustomAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Attribute* (*)(System::Reflection::Assembly*, System::Type*, bool)>(&System::Attribute::GetCustomAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Attribute* (*)(::System::Reflection::Assembly*, ::System::Type*, bool)>(&System::Attribute::GetCustomAttribute)> {
   static const MethodInfo* get() {
     static auto* element = &::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")->byval_arg;
     static auto* attributeType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;

@@ -38,8 +38,8 @@ namespace GlobalNamespace {
   class Mirror;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::Mirror);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Mirror*, "", "Mirror");
+NEED_NO_BOX(::GlobalNamespace::Mirror);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::Mirror*, "", "Mirror");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x48
@@ -48,7 +48,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ExecuteInEditMode] Offset: FFFFFFFF
   // [RequireComponent] Offset: 1232B08
-  class Mirror : public UnityEngine::MonoBehaviour {
+  class Mirror : public ::UnityEngine::MonoBehaviour {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -62,27 +62,27 @@ namespace GlobalNamespace {
     // private MirrorRendererSO _mirrorRenderer
     // Size: 0x8
     // Offset: 0x18
-    GlobalNamespace::MirrorRendererSO* mirrorRenderer;
+    ::GlobalNamespace::MirrorRendererSO* mirrorRenderer;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::MirrorRendererSO*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::MirrorRendererSO*) == 0x8);
     // private UnityEngine.MeshRenderer _renderer
     // Size: 0x8
     // Offset: 0x20
-    UnityEngine::MeshRenderer* renderer;
+    ::UnityEngine::MeshRenderer* renderer;
     // Field size check
-    static_assert(sizeof(UnityEngine::MeshRenderer*) == 0x8);
+    static_assert(sizeof(::UnityEngine::MeshRenderer*) == 0x8);
     // private UnityEngine.Material _mirrorMaterial
     // Size: 0x8
     // Offset: 0x28
-    UnityEngine::Material* mirrorMaterial;
+    ::UnityEngine::Material* mirrorMaterial;
     // Field size check
-    static_assert(sizeof(UnityEngine::Material*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Material*) == 0x8);
     // private UnityEngine.Material _noMirrorMaterial
     // Size: 0x8
     // Offset: 0x30
-    UnityEngine::Material* noMirrorMaterial;
+    ::UnityEngine::Material* noMirrorMaterial;
     // Field size check
-    static_assert(sizeof(UnityEngine::Material*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Material*) == 0x8);
     // private System.Boolean <isEnabled>k__BackingField
     // Size: 0x1
     // Offset: 0x38
@@ -94,32 +94,32 @@ namespace GlobalNamespace {
     // private System.Action`1<System.Boolean> mirrorDidChangeEnabledStateEvent
     // Size: 0x8
     // Offset: 0x40
-    System::Action_1<bool>* mirrorDidChangeEnabledStateEvent;
+    ::System::Action_1<bool>* mirrorDidChangeEnabledStateEvent;
     // Field size check
-    static_assert(sizeof(System::Action_1<bool>*) == 0x8);
+    static_assert(sizeof(::System::Action_1<bool>*) == 0x8);
     public:
-    // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const noexcept = delete;
+    // Deleting conversion operator: operator ::System::IntPtr
+    constexpr operator ::System::IntPtr() const noexcept = delete;
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x12334E4
     // Get static field: static private readonly System.Int32 _texturePropertyID
     static int _get__texturePropertyID();
     // Set static field: static private readonly System.Int32 _texturePropertyID
     static void _set__texturePropertyID(int value);
     // Get instance field reference: private MirrorRendererSO _mirrorRenderer
-    GlobalNamespace::MirrorRendererSO*& dyn__mirrorRenderer();
+    ::GlobalNamespace::MirrorRendererSO*& dyn__mirrorRenderer();
     // Get instance field reference: private UnityEngine.MeshRenderer _renderer
-    UnityEngine::MeshRenderer*& dyn__renderer();
+    ::UnityEngine::MeshRenderer*& dyn__renderer();
     // Get instance field reference: private UnityEngine.Material _mirrorMaterial
-    UnityEngine::Material*& dyn__mirrorMaterial();
+    ::UnityEngine::Material*& dyn__mirrorMaterial();
     // Get instance field reference: private UnityEngine.Material _noMirrorMaterial
-    UnityEngine::Material*& dyn__noMirrorMaterial();
+    ::UnityEngine::Material*& dyn__noMirrorMaterial();
     // Get instance field reference: private System.Boolean <isEnabled>k__BackingField
     bool& dyn_$isEnabled$k__BackingField();
     // Get instance field reference: private System.Action`1<System.Boolean> mirrorDidChangeEnabledStateEvent
-    System::Action_1<bool>*& dyn_mirrorDidChangeEnabledStateEvent();
+    ::System::Action_1<bool>*& dyn_mirrorDidChangeEnabledStateEvent();
     // public UnityEngine.Material get_noMirrorMaterial()
     // Offset: 0x2E0D1BC
-    UnityEngine::Material* get_noMirrorMaterial();
+    ::UnityEngine::Material* get_noMirrorMaterial();
     // public System.Boolean get_isEnabled()
     // Offset: 0x2E0D1C4
     bool get_isEnabled();
@@ -128,10 +128,10 @@ namespace GlobalNamespace {
     void set_isEnabled(bool value);
     // public System.Void add_mirrorDidChangeEnabledStateEvent(System.Action`1<System.Boolean> value)
     // Offset: 0x2E0D1D8
-    void add_mirrorDidChangeEnabledStateEvent(System::Action_1<bool>* value);
+    void add_mirrorDidChangeEnabledStateEvent(::System::Action_1<bool>* value);
     // public System.Void remove_mirrorDidChangeEnabledStateEvent(System.Action`1<System.Boolean> value)
     // Offset: 0x2E0D27C
-    void remove_mirrorDidChangeEnabledStateEvent(System::Action_1<bool>* value);
+    void remove_mirrorDidChangeEnabledStateEvent(::System::Action_1<bool>* value);
     // protected System.Void Update()
     // Offset: 0x2E0D320
     void Update();
@@ -151,7 +151,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Mirror* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::Mirror::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::Mirror::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Mirror*, creationType>()));
     }
     // static private System.Void .cctor()
@@ -161,14 +161,14 @@ namespace GlobalNamespace {
     static void _cctor();
   }; // Mirror
   #pragma pack(pop)
-  static check_size<sizeof(Mirror), 64 + sizeof(System::Action_1<bool>*)> __GlobalNamespace_MirrorSizeCheck;
+  static check_size<sizeof(Mirror), 64 + sizeof(::System::Action_1<bool>*)> __GlobalNamespace_MirrorSizeCheck;
   static_assert(sizeof(Mirror) == 0x48);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::Mirror::get_noMirrorMaterial
 // Il2CppName: get_noMirrorMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (GlobalNamespace::Mirror::*)()>(&GlobalNamespace::Mirror::get_noMirrorMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Material* (GlobalNamespace::Mirror::*)()>(&GlobalNamespace::Mirror::get_noMirrorMaterial)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::Mirror*), "get_noMirrorMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -193,7 +193,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::Mirror::add_mirrorDidChangeEnabledStateEvent
 // Il2CppName: add_mirrorDidChangeEnabledStateEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::Mirror::*)(System::Action_1<bool>*)>(&GlobalNamespace::Mirror::add_mirrorDidChangeEnabledStateEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::Mirror::*)(::System::Action_1<bool>*)>(&GlobalNamespace::Mirror::add_mirrorDidChangeEnabledStateEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::Mirror*), "add_mirrorDidChangeEnabledStateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -202,7 +202,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::Mirror::remove_mirrorDidChangeEnabledStateEvent
 // Il2CppName: remove_mirrorDidChangeEnabledStateEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::Mirror::*)(System::Action_1<bool>*)>(&GlobalNamespace::Mirror::remove_mirrorDidChangeEnabledStateEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::Mirror::*)(::System::Action_1<bool>*)>(&GlobalNamespace::Mirror::remove_mirrorDidChangeEnabledStateEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::Mirror*), "remove_mirrorDidChangeEnabledStateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

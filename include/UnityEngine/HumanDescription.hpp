@@ -20,7 +20,7 @@ namespace UnityEngine {
   struct HumanDescription;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HumanDescription, "UnityEngine", "HumanDescription");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::HumanDescription, "UnityEngine", "HumanDescription");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x3B
@@ -30,23 +30,23 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NativeHeaderAttribute] Offset: 11BF8A4
   // [NativeHeaderAttribute] Offset: 11BF8A4
-  struct HumanDescription/*, public System::ValueType*/ {
+  struct HumanDescription/*, public ::System::ValueType*/ {
     public:
     public:
     // [NativeNameAttribute] Offset: 0x11C0914
     // public UnityEngine.HumanBone[] human
     // Size: 0x8
     // Offset: 0x0
-    ::ArrayW<UnityEngine::HumanBone> human;
+    ::ArrayW<::UnityEngine::HumanBone> human;
     // Field size check
-    static_assert(sizeof(::ArrayW<UnityEngine::HumanBone>) == 0x8);
+    static_assert(sizeof(::ArrayW<::UnityEngine::HumanBone>) == 0x8);
     // [NativeNameAttribute] Offset: 0x11C094C
     // public UnityEngine.SkeletonBone[] skeleton
     // Size: 0x8
     // Offset: 0x8
-    ::ArrayW<UnityEngine::SkeletonBone> skeleton;
+    ::ArrayW<::UnityEngine::SkeletonBone> skeleton;
     // Field size check
-    static_assert(sizeof(::ArrayW<UnityEngine::SkeletonBone>) == 0x8);
+    static_assert(sizeof(::ArrayW<::UnityEngine::SkeletonBone>) == 0x8);
     // System.Single m_ArmTwist
     // Size: 0x4
     // Offset: 0x10
@@ -121,15 +121,15 @@ namespace UnityEngine {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Creating value type constructor for type: HumanDescription
-    constexpr HumanDescription(::ArrayW<UnityEngine::HumanBone> human_ = ::ArrayW<UnityEngine::HumanBone>(static_cast<void*>(nullptr)), ::ArrayW<UnityEngine::SkeletonBone> skeleton_ = ::ArrayW<UnityEngine::SkeletonBone>(static_cast<void*>(nullptr)), float m_ArmTwist_ = {}, float m_ForeArmTwist_ = {}, float m_UpperLegTwist_ = {}, float m_LegTwist_ = {}, float m_ArmStretch_ = {}, float m_LegStretch_ = {}, float m_FeetSpacing_ = {}, float m_GlobalScale_ = {}, ::StringW m_RootMotionBoneName_ = {}, bool m_HasTranslationDoF_ = {}, bool m_HasExtraRoot_ = {}, bool m_SkeletonHasParents_ = {}) noexcept : human{human_}, skeleton{skeleton_}, m_ArmTwist{m_ArmTwist_}, m_ForeArmTwist{m_ForeArmTwist_}, m_UpperLegTwist{m_UpperLegTwist_}, m_LegTwist{m_LegTwist_}, m_ArmStretch{m_ArmStretch_}, m_LegStretch{m_LegStretch_}, m_FeetSpacing{m_FeetSpacing_}, m_GlobalScale{m_GlobalScale_}, m_RootMotionBoneName{m_RootMotionBoneName_}, m_HasTranslationDoF{m_HasTranslationDoF_}, m_HasExtraRoot{m_HasExtraRoot_}, m_SkeletonHasParents{m_SkeletonHasParents_} {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    constexpr HumanDescription(::ArrayW<::UnityEngine::HumanBone> human_ = ::ArrayW<::UnityEngine::HumanBone>(static_cast<void*>(nullptr)), ::ArrayW<::UnityEngine::SkeletonBone> skeleton_ = ::ArrayW<::UnityEngine::SkeletonBone>(static_cast<void*>(nullptr)), float m_ArmTwist_ = {}, float m_ForeArmTwist_ = {}, float m_UpperLegTwist_ = {}, float m_LegTwist_ = {}, float m_ArmStretch_ = {}, float m_LegStretch_ = {}, float m_FeetSpacing_ = {}, float m_GlobalScale_ = {}, ::StringW m_RootMotionBoneName_ = {}, bool m_HasTranslationDoF_ = {}, bool m_HasExtraRoot_ = {}, bool m_SkeletonHasParents_ = {}) noexcept : human{human_}, skeleton{skeleton_}, m_ArmTwist{m_ArmTwist_}, m_ForeArmTwist{m_ForeArmTwist_}, m_UpperLegTwist{m_UpperLegTwist_}, m_LegTwist{m_LegTwist_}, m_ArmStretch{m_ArmStretch_}, m_LegStretch{m_LegStretch_}, m_FeetSpacing{m_FeetSpacing_}, m_GlobalScale{m_GlobalScale_}, m_RootMotionBoneName{m_RootMotionBoneName_}, m_HasTranslationDoF{m_HasTranslationDoF_}, m_HasExtraRoot{m_HasExtraRoot_}, m_SkeletonHasParents{m_SkeletonHasParents_} {}
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public UnityEngine.HumanBone[] human
-    ::ArrayW<UnityEngine::HumanBone>& dyn_human();
+    ::ArrayW<::UnityEngine::HumanBone>& dyn_human();
     // Get instance field reference: public UnityEngine.SkeletonBone[] skeleton
-    ::ArrayW<UnityEngine::SkeletonBone>& dyn_skeleton();
+    ::ArrayW<::UnityEngine::SkeletonBone>& dyn_skeleton();
     // Get instance field reference: System.Single m_ArmTwist
     float& dyn_m_ArmTwist();
     // Get instance field reference: System.Single m_ForeArmTwist

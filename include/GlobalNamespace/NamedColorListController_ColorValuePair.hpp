@@ -15,8 +15,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::NamedColorListController::ColorValuePair);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NamedColorListController::ColorValuePair*, "", "NamedColorListController/ColorValuePair");
+NEED_NO_BOX(::GlobalNamespace::NamedColorListController::ColorValuePair);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NamedColorListController::ColorValuePair*, "", "NamedColorListController/ColorValuePair");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x24
@@ -37,9 +37,9 @@ namespace GlobalNamespace {
     // public UnityEngine.Color color
     // Size: 0x10
     // Offset: 0x10
-    UnityEngine::Color color;
+    ::UnityEngine::Color color;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     // public System.Int32 value
     // Size: 0x4
     // Offset: 0x20
@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public UnityEngine.Color color
-    UnityEngine::Color& dyn_color();
+    ::UnityEngine::Color& dyn_color();
     // Get instance field reference: public System.Int32 value
     int& dyn_value();
     // public System.Void .ctor()
@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NamedColorListController::ColorValuePair* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NamedColorListController::ColorValuePair::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NamedColorListController::ColorValuePair::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NamedColorListController::ColorValuePair*, creationType>()));
     }
   }; // NamedColorListController/ColorValuePair

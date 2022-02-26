@@ -21,8 +21,8 @@ namespace System::Xml {
   class IDtdParser;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::IDtdParser);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::IDtdParser*, "System.Xml", "IDtdParser");
+NEED_NO_BOX(::System::Xml::IDtdParser);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::IDtdParser*, "System.Xml", "IDtdParser");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x10
@@ -33,10 +33,10 @@ namespace System::Xml {
     public:
     // public System.Xml.IDtdInfo ParseInternalDtd(System.Xml.IDtdParserAdapter adapter, System.Boolean saveInternalSubset)
     // Offset: 0xFFFFFFFF
-    System::Xml::IDtdInfo* ParseInternalDtd(System::Xml::IDtdParserAdapter* adapter, bool saveInternalSubset);
+    ::System::Xml::IDtdInfo* ParseInternalDtd(::System::Xml::IDtdParserAdapter* adapter, bool saveInternalSubset);
     // public System.Xml.IDtdInfo ParseFreeFloatingDtd(System.String baseUri, System.String docTypeName, System.String publicId, System.String systemId, System.String internalSubset, System.Xml.IDtdParserAdapter adapter)
     // Offset: 0xFFFFFFFF
-    System::Xml::IDtdInfo* ParseFreeFloatingDtd(::StringW baseUri, ::StringW docTypeName, ::StringW publicId, ::StringW systemId, ::StringW internalSubset, System::Xml::IDtdParserAdapter* adapter);
+    ::System::Xml::IDtdInfo* ParseFreeFloatingDtd(::StringW baseUri, ::StringW docTypeName, ::StringW publicId, ::StringW systemId, ::StringW internalSubset, ::System::Xml::IDtdParserAdapter* adapter);
   }; // System.Xml.IDtdParser
   #pragma pack(pop)
 }
@@ -44,7 +44,7 @@ namespace System::Xml {
 // Writing MetadataGetter for method: System::Xml::IDtdParser::ParseInternalDtd
 // Il2CppName: ParseInternalDtd
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::IDtdInfo* (System::Xml::IDtdParser::*)(System::Xml::IDtdParserAdapter*, bool)>(&System::Xml::IDtdParser::ParseInternalDtd)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::IDtdInfo* (System::Xml::IDtdParser::*)(::System::Xml::IDtdParserAdapter*, bool)>(&System::Xml::IDtdParser::ParseInternalDtd)> {
   static const MethodInfo* get() {
     static auto* adapter = &::il2cpp_utils::GetClassFromName("System.Xml", "IDtdParserAdapter")->byval_arg;
     static auto* saveInternalSubset = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -54,7 +54,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::IDtdParser::ParseFreeFloatingDtd
 // Il2CppName: ParseFreeFloatingDtd
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::IDtdInfo* (System::Xml::IDtdParser::*)(::StringW, ::StringW, ::StringW, ::StringW, ::StringW, System::Xml::IDtdParserAdapter*)>(&System::Xml::IDtdParser::ParseFreeFloatingDtd)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::IDtdInfo* (System::Xml::IDtdParser::*)(::StringW, ::StringW, ::StringW, ::StringW, ::StringW, ::System::Xml::IDtdParserAdapter*)>(&System::Xml::IDtdParser::ParseFreeFloatingDtd)> {
   static const MethodInfo* get() {
     static auto* baseUri = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* docTypeName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

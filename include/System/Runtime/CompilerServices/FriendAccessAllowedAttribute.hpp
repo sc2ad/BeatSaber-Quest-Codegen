@@ -18,8 +18,8 @@ namespace System::Runtime::CompilerServices {
   class FriendAccessAllowedAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::CompilerServices::FriendAccessAllowedAttribute);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::FriendAccessAllowedAttribute*, "System.Runtime.CompilerServices", "FriendAccessAllowedAttribute");
+NEED_NO_BOX(::System::Runtime::CompilerServices::FriendAccessAllowedAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::CompilerServices::FriendAccessAllowedAttribute*, "System.Runtime.CompilerServices", "FriendAccessAllowedAttribute");
 // Type namespace: System.Runtime.CompilerServices
 namespace System::Runtime::CompilerServices {
   // Size: 0x10
@@ -28,7 +28,7 @@ namespace System::Runtime::CompilerServices {
   // [TokenAttribute] Offset: FFFFFFFF
   // [FriendAccessAllowedAttribute] Offset: 118B518
   // [AttributeUsageAttribute] Offset: 118B518
-  class FriendAccessAllowedAttribute : public System::Attribute {
+  class FriendAccessAllowedAttribute : public ::System::Attribute {
     public:
     // public System.Void .ctor()
     // Offset: 0x1C6A974
@@ -37,7 +37,7 @@ namespace System::Runtime::CompilerServices {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FriendAccessAllowedAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::FriendAccessAllowedAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::FriendAccessAllowedAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FriendAccessAllowedAttribute*, creationType>()));
     }
   }; // System.Runtime.CompilerServices.FriendAccessAllowedAttribute

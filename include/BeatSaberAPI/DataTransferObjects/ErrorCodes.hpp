@@ -20,8 +20,8 @@ namespace BeatSaberAPI::DataTransferObjects {
   class ErrorCodes;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(BeatSaberAPI::DataTransferObjects::ErrorCodes);
-DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::ErrorCodes*, "BeatSaberAPI.DataTransferObjects", "ErrorCodes");
+NEED_NO_BOX(::BeatSaberAPI::DataTransferObjects::ErrorCodes);
+DEFINE_IL2CPP_ARG_TYPE(::BeatSaberAPI::DataTransferObjects::ErrorCodes*, "BeatSaberAPI.DataTransferObjects", "ErrorCodes");
 // Type namespace: BeatSaberAPI.DataTransferObjects
 namespace BeatSaberAPI::DataTransferObjects {
   // Size: 0x10

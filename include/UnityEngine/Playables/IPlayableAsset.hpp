@@ -25,8 +25,8 @@ namespace UnityEngine::Playables {
   class IPlayableAsset;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Playables::IPlayableAsset);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::IPlayableAsset*, "UnityEngine.Playables", "IPlayableAsset");
+NEED_NO_BOX(::UnityEngine::Playables::IPlayableAsset);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Playables::IPlayableAsset*, "UnityEngine.Playables", "IPlayableAsset");
 // Type namespace: UnityEngine.Playables
 namespace UnityEngine::Playables {
   // Size: 0x10
@@ -40,7 +40,7 @@ namespace UnityEngine::Playables {
     double get_duration();
     // public UnityEngine.Playables.Playable CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject owner)
     // Offset: 0xFFFFFFFF
-    UnityEngine::Playables::Playable CreatePlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* owner);
+    ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* owner);
   }; // UnityEngine.Playables.IPlayableAsset
   #pragma pack(pop)
 }
@@ -56,7 +56,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (Uni
 // Writing MetadataGetter for method: UnityEngine::Playables::IPlayableAsset::CreatePlayable
 // Il2CppName: CreatePlayable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (UnityEngine::Playables::IPlayableAsset::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*)>(&UnityEngine::Playables::IPlayableAsset::CreatePlayable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::Playable (UnityEngine::Playables::IPlayableAsset::*)(::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*)>(&UnityEngine::Playables::IPlayableAsset::CreatePlayable)> {
   static const MethodInfo* get() {
     static auto* graph = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableGraph")->byval_arg;
     static auto* owner = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;

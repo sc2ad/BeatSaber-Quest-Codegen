@@ -11,8 +11,8 @@ namespace System::Data::SqlTypes {
   class INullable;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Data::SqlTypes::INullable);
-DEFINE_IL2CPP_ARG_TYPE(System::Data::SqlTypes::INullable*, "System.Data.SqlTypes", "INullable");
+NEED_NO_BOX(::System::Data::SqlTypes::INullable);
+DEFINE_IL2CPP_ARG_TYPE(::System::Data::SqlTypes::INullable*, "System.Data.SqlTypes", "INullable");
 // Type namespace: System.Data.SqlTypes
 namespace System::Data::SqlTypes {
   // Size: 0x10

@@ -31,8 +31,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRPlugin::Media);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Media*, "", "OVRPlugin/Media");
+NEED_NO_BOX(::GlobalNamespace::OVRPlugin::Media);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRPlugin::Media*, "", "OVRPlugin/Media");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -41,16 +41,16 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRPlugin::Media : public ::Il2CppObject {
     public:
-    // Nested type: GlobalNamespace::OVRPlugin::Media::MrcActivationMode
+    // Nested type: ::GlobalNamespace::OVRPlugin::Media::MrcActivationMode
     struct MrcActivationMode;
-    // Nested type: GlobalNamespace::OVRPlugin::Media::PlatformCameraMode
+    // Nested type: ::GlobalNamespace::OVRPlugin::Media::PlatformCameraMode
     struct PlatformCameraMode;
-    // Nested type: GlobalNamespace::OVRPlugin::Media::InputVideoBufferType
+    // Nested type: ::GlobalNamespace::OVRPlugin::Media::InputVideoBufferType
     struct InputVideoBufferType;
     // Get static field: static private UnityEngine.Texture2D cachedTexture
-    static UnityEngine::Texture2D* _get_cachedTexture();
+    static ::UnityEngine::Texture2D* _get_cachedTexture();
     // Set static field: static private UnityEngine.Texture2D cachedTexture
-    static void _set_cachedTexture(UnityEngine::Texture2D* value);
+    static void _set_cachedTexture(::UnityEngine::Texture2D* value);
     // static private System.Void .cctor()
     // Offset: 0x1A6F118
     static void _cctor();
@@ -68,19 +68,19 @@ namespace GlobalNamespace {
     static bool Update();
     // static public OVRPlugin/Media/MrcActivationMode GetMrcActivationMode()
     // Offset: 0x1A6C598
-    static GlobalNamespace::OVRPlugin::Media::MrcActivationMode GetMrcActivationMode();
+    static ::GlobalNamespace::OVRPlugin::Media::MrcActivationMode GetMrcActivationMode();
     // static public System.Boolean SetMrcActivationMode(OVRPlugin/Media/MrcActivationMode mode)
     // Offset: 0x1A6C724
-    static bool SetMrcActivationMode(GlobalNamespace::OVRPlugin::Media::MrcActivationMode mode);
+    static bool SetMrcActivationMode(::GlobalNamespace::OVRPlugin::Media::MrcActivationMode mode);
     // static public System.Boolean SetPlatformInitialized()
     // Offset: 0x1A6C8AC
     static bool SetPlatformInitialized();
     // static public OVRPlugin/Media/PlatformCameraMode GetPlatformCameraMode()
     // Offset: 0x1A6CA20
-    static GlobalNamespace::OVRPlugin::Media::PlatformCameraMode GetPlatformCameraMode();
+    static ::GlobalNamespace::OVRPlugin::Media::PlatformCameraMode GetPlatformCameraMode();
     // static public System.Boolean SetPlatformCameraMode(OVRPlugin/Media/PlatformCameraMode mode)
     // Offset: 0x1A6CBAC
-    static bool SetPlatformCameraMode(GlobalNamespace::OVRPlugin::Media::PlatformCameraMode mode);
+    static bool SetPlatformCameraMode(::GlobalNamespace::OVRPlugin::Media::PlatformCameraMode mode);
     // static public System.Boolean IsMrcEnabled()
     // Offset: 0x1A6CD34
     static bool IsMrcEnabled();
@@ -92,10 +92,10 @@ namespace GlobalNamespace {
     static bool UseMrcDebugCamera();
     // static public System.Boolean SetMrcInputVideoBufferType(OVRPlugin/Media/InputVideoBufferType videoBufferType)
     // Offset: 0x1A6D1E4
-    static bool SetMrcInputVideoBufferType(GlobalNamespace::OVRPlugin::Media::InputVideoBufferType videoBufferType);
+    static bool SetMrcInputVideoBufferType(::GlobalNamespace::OVRPlugin::Media::InputVideoBufferType videoBufferType);
     // static public OVRPlugin/Media/InputVideoBufferType GetMrcInputVideoBufferType()
     // Offset: 0x1A6D36C
-    static GlobalNamespace::OVRPlugin::Media::InputVideoBufferType GetMrcInputVideoBufferType();
+    static ::GlobalNamespace::OVRPlugin::Media::InputVideoBufferType GetMrcInputVideoBufferType();
     // static public System.Boolean SetMrcFrameSize(System.Int32 frameWidth, System.Int32 frameHeight)
     // Offset: 0x1A6D4F4
     static bool SetMrcFrameSize(int frameWidth, int frameHeight);
@@ -116,10 +116,10 @@ namespace GlobalNamespace {
     static bool GetMrcFrameImageFlipped();
     // static public System.Boolean EncodeMrcFrame(System.IntPtr textureHandle, System.IntPtr fgTextureHandle, System.Single[] audioData, System.Int32 audioFrames, System.Int32 audioChannels, System.Double timestamp, System.Double poseTime, ref System.Int32 outSyncId)
     // Offset: 0x1A6DE74
-    static bool EncodeMrcFrame(System::IntPtr textureHandle, System::IntPtr fgTextureHandle, ::ArrayW<float> audioData, int audioFrames, int audioChannels, double timestamp, double poseTime, ByRef<int> outSyncId);
+    static bool EncodeMrcFrame(::System::IntPtr textureHandle, ::System::IntPtr fgTextureHandle, ::ArrayW<float> audioData, int audioFrames, int audioChannels, double timestamp, double poseTime, ByRef<int> outSyncId);
     // static public System.Boolean EncodeMrcFrame(UnityEngine.RenderTexture frame, System.Single[] audioData, System.Int32 audioFrames, System.Int32 audioChannels, System.Double timestamp, System.Double poseTime, ref System.Int32 outSyncId)
     // Offset: 0x1A6E5C8
-    static bool EncodeMrcFrame(UnityEngine::RenderTexture* frame, ::ArrayW<float> audioData, int audioFrames, int audioChannels, double timestamp, double poseTime, ByRef<int> outSyncId);
+    static bool EncodeMrcFrame(::UnityEngine::RenderTexture* frame, ::ArrayW<float> audioData, int audioFrames, int audioChannels, double timestamp, double poseTime, ByRef<int> outSyncId);
     // static public System.Boolean SyncMrcFrame(System.Int32 syncId)
     // Offset: 0x1A6EBA4
     static bool SyncMrcFrame(int syncId);
@@ -128,14 +128,14 @@ namespace GlobalNamespace {
     static bool SetAvailableQueueIndexVulkan(uint queueIndexVk);
     // static public System.Boolean SetMrcHeadsetControllerPose(OVRPlugin/Posef headsetPose, OVRPlugin/Posef leftControllerPose, OVRPlugin/Posef rightControllerPose)
     // Offset: 0x1A6EEB4
-    static bool SetMrcHeadsetControllerPose(GlobalNamespace::OVRPlugin::Posef headsetPose, GlobalNamespace::OVRPlugin::Posef leftControllerPose, GlobalNamespace::OVRPlugin::Posef rightControllerPose);
+    static bool SetMrcHeadsetControllerPose(::GlobalNamespace::OVRPlugin::Posef headsetPose, ::GlobalNamespace::OVRPlugin::Posef leftControllerPose, ::GlobalNamespace::OVRPlugin::Posef rightControllerPose);
     // public System.Void .ctor()
     // Offset: 0x1A6F110
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRPlugin::Media* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Media::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRPlugin::Media::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRPlugin::Media*, creationType>()));
     }
   }; // OVRPlugin/Media
@@ -185,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::Media::GetMrcActivationMode
 // Il2CppName: GetMrcActivationMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Media::MrcActivationMode (*)()>(&GlobalNamespace::OVRPlugin::Media::GetMrcActivationMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Media::MrcActivationMode (*)()>(&GlobalNamespace::OVRPlugin::Media::GetMrcActivationMode)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::Media*), "GetMrcActivationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -193,7 +193,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::Media::SetMrcActivationMode
 // Il2CppName: SetMrcActivationMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRPlugin::Media::MrcActivationMode)>(&GlobalNamespace::OVRPlugin::Media::SetMrcActivationMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin::Media::MrcActivationMode)>(&GlobalNamespace::OVRPlugin::Media::SetMrcActivationMode)> {
   static const MethodInfo* get() {
     static auto* mode = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Media/MrcActivationMode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::Media*), "SetMrcActivationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mode});
@@ -210,7 +210,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::Media::GetPlatformCameraMode
 // Il2CppName: GetPlatformCameraMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Media::PlatformCameraMode (*)()>(&GlobalNamespace::OVRPlugin::Media::GetPlatformCameraMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Media::PlatformCameraMode (*)()>(&GlobalNamespace::OVRPlugin::Media::GetPlatformCameraMode)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::Media*), "GetPlatformCameraMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -218,7 +218,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::Media::SetPlatformCameraMode
 // Il2CppName: SetPlatformCameraMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRPlugin::Media::PlatformCameraMode)>(&GlobalNamespace::OVRPlugin::Media::SetPlatformCameraMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin::Media::PlatformCameraMode)>(&GlobalNamespace::OVRPlugin::Media::SetPlatformCameraMode)> {
   static const MethodInfo* get() {
     static auto* mode = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Media/PlatformCameraMode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::Media*), "SetPlatformCameraMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mode});
@@ -251,7 +251,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::Media::SetMrcInputVideoBufferType
 // Il2CppName: SetMrcInputVideoBufferType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRPlugin::Media::InputVideoBufferType)>(&GlobalNamespace::OVRPlugin::Media::SetMrcInputVideoBufferType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin::Media::InputVideoBufferType)>(&GlobalNamespace::OVRPlugin::Media::SetMrcInputVideoBufferType)> {
   static const MethodInfo* get() {
     static auto* videoBufferType = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Media/InputVideoBufferType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::Media*), "SetMrcInputVideoBufferType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{videoBufferType});
@@ -260,7 +260,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::Media::GetMrcInputVideoBufferType
 // Il2CppName: GetMrcInputVideoBufferType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Media::InputVideoBufferType (*)()>(&GlobalNamespace::OVRPlugin::Media::GetMrcInputVideoBufferType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Media::InputVideoBufferType (*)()>(&GlobalNamespace::OVRPlugin::Media::GetMrcInputVideoBufferType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::Media*), "GetMrcInputVideoBufferType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -322,7 +322,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::Media::EncodeMrcFrame
 // Il2CppName: EncodeMrcFrame
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, System::IntPtr, ::ArrayW<float>, int, int, double, double, ByRef<int>)>(&GlobalNamespace::OVRPlugin::Media::EncodeMrcFrame)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<float>, int, int, double, double, ByRef<int>)>(&GlobalNamespace::OVRPlugin::Media::EncodeMrcFrame)> {
   static const MethodInfo* get() {
     static auto* textureHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fgTextureHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -338,7 +338,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::Media::EncodeMrcFrame
 // Il2CppName: EncodeMrcFrame
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::RenderTexture*, ::ArrayW<float>, int, int, double, double, ByRef<int>)>(&GlobalNamespace::OVRPlugin::Media::EncodeMrcFrame)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::RenderTexture*, ::ArrayW<float>, int, int, double, double, ByRef<int>)>(&GlobalNamespace::OVRPlugin::Media::EncodeMrcFrame)> {
   static const MethodInfo* get() {
     static auto* frame = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
     static auto* audioData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
@@ -371,7 +371,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ui
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::Media::SetMrcHeadsetControllerPose
 // Il2CppName: SetMrcHeadsetControllerPose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRPlugin::Posef, GlobalNamespace::OVRPlugin::Posef, GlobalNamespace::OVRPlugin::Posef)>(&GlobalNamespace::OVRPlugin::Media::SetMrcHeadsetControllerPose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin::Posef, ::GlobalNamespace::OVRPlugin::Posef, ::GlobalNamespace::OVRPlugin::Posef)>(&GlobalNamespace::OVRPlugin::Media::SetMrcHeadsetControllerPose)> {
   static const MethodInfo* get() {
     static auto* headsetPose = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Posef")->byval_arg;
     static auto* leftControllerPose = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Posef")->byval_arg;

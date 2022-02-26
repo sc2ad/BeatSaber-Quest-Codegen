@@ -12,8 +12,8 @@ namespace System::Runtime::CompilerServices {
   class IsVolatile;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::CompilerServices::IsVolatile);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::IsVolatile*, "System.Runtime.CompilerServices", "IsVolatile");
+NEED_NO_BOX(::System::Runtime::CompilerServices::IsVolatile);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::CompilerServices::IsVolatile*, "System.Runtime.CompilerServices", "IsVolatile");
 // Type namespace: System.Runtime.CompilerServices
 namespace System::Runtime::CompilerServices {
   // Size: 0x10

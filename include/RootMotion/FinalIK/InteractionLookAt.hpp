@@ -28,8 +28,8 @@ namespace RootMotion::FinalIK {
   class InteractionLookAt;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::InteractionLookAt);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionLookAt*, "RootMotion.FinalIK", "InteractionLookAt");
+NEED_NO_BOX(::RootMotion::FinalIK::InteractionLookAt);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::InteractionLookAt*, "RootMotion.FinalIK", "InteractionLookAt");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x39
@@ -51,9 +51,9 @@ namespace RootMotion::FinalIK {
     // public RootMotion.FinalIK.LookAtIK ik
     // Size: 0x8
     // Offset: 0x10
-    RootMotion::FinalIK::LookAtIK* ik;
+    ::RootMotion::FinalIK::LookAtIK* ik;
     // Field size check
-    static_assert(sizeof(RootMotion::FinalIK::LookAtIK*) == 0x8);
+    static_assert(sizeof(::RootMotion::FinalIK::LookAtIK*) == 0x8);
     // [TooltipAttribute] Offset: 0x1265598
     // public System.Single lerpSpeed
     // Size: 0x4
@@ -79,9 +79,9 @@ namespace RootMotion::FinalIK {
     // private UnityEngine.Transform lookAtTarget
     // Size: 0x8
     // Offset: 0x28
-    UnityEngine::Transform* lookAtTarget;
+    ::UnityEngine::Transform* lookAtTarget;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // private System.Single stopLookTime
     // Size: 0x4
     // Offset: 0x30
@@ -102,7 +102,7 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public RootMotion.FinalIK.LookAtIK ik
-    RootMotion::FinalIK::LookAtIK*& dyn_ik();
+    ::RootMotion::FinalIK::LookAtIK*& dyn_ik();
     // Get instance field reference: public System.Single lerpSpeed
     float& dyn_lerpSpeed();
     // Get instance field reference: public System.Single weightSpeed
@@ -110,7 +110,7 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Boolean isPaused
     bool& dyn_isPaused();
     // Get instance field reference: private UnityEngine.Transform lookAtTarget
-    UnityEngine::Transform*& dyn_lookAtTarget();
+    ::UnityEngine::Transform*& dyn_lookAtTarget();
     // Get instance field reference: private System.Single stopLookTime
     float& dyn_stopLookTime();
     // Get instance field reference: private System.Single weight
@@ -119,7 +119,7 @@ namespace RootMotion::FinalIK {
     bool& dyn_firstFBBIKSolve();
     // public System.Void Look(UnityEngine.Transform target, System.Single time)
     // Offset: 0x23394F8
-    void Look(UnityEngine::Transform* target, float time);
+    void Look(::UnityEngine::Transform* target, float time);
     // public System.Void OnFixTransforms()
     // Offset: 0x2339670
     void OnFixTransforms();
@@ -138,7 +138,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InteractionLookAt* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::InteractionLookAt::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::InteractionLookAt::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InteractionLookAt*, creationType>()));
     }
   }; // RootMotion.FinalIK.InteractionLookAt
@@ -150,7 +150,7 @@ namespace RootMotion::FinalIK {
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionLookAt::Look
 // Il2CppName: Look
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionLookAt::*)(UnityEngine::Transform*, float)>(&RootMotion::FinalIK::InteractionLookAt::Look)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionLookAt::*)(::UnityEngine::Transform*, float)>(&RootMotion::FinalIK::InteractionLookAt::Look)> {
   static const MethodInfo* get() {
     static auto* target = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

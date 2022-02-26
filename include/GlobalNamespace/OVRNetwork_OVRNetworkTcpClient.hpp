@@ -39,8 +39,8 @@ namespace System::Threading {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRNetwork::OVRNetworkTcpClient);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRNetwork::OVRNetworkTcpClient*, "", "OVRNetwork/OVRNetworkTcpClient");
+NEED_NO_BOX(::GlobalNamespace::OVRNetwork::OVRNetworkTcpClient);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRNetwork::OVRNetworkTcpClient*, "", "OVRNetwork/OVRNetworkTcpClient");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x40
@@ -49,7 +49,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRNetwork::OVRNetworkTcpClient : public ::Il2CppObject {
     public:
-    // Nested type: GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::ConnectionState
+    // Nested type: ::GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::ConnectionState
     struct ConnectionState;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -63,21 +63,21 @@ namespace GlobalNamespace {
     // public System.Action connectionStateChangedCallback
     // Size: 0x8
     // Offset: 0x10
-    System::Action* connectionStateChangedCallback;
+    ::System::Action* connectionStateChangedCallback;
     // Field size check
-    static_assert(sizeof(System::Action*) == 0x8);
+    static_assert(sizeof(::System::Action*) == 0x8);
     // public System.Action`4<System.Int32,System.Byte[],System.Int32,System.Int32> payloadReceivedCallback
     // Size: 0x8
     // Offset: 0x18
-    System::Action_4<int, ::ArrayW<uint8_t>, int, int>* payloadReceivedCallback;
+    ::System::Action_4<int, ::ArrayW<uint8_t>, int, int>* payloadReceivedCallback;
     // Field size check
-    static_assert(sizeof(System::Action_4<int, ::ArrayW<uint8_t>, int, int>*) == 0x8);
+    static_assert(sizeof(::System::Action_4<int, ::ArrayW<uint8_t>, int, int>*) == 0x8);
     // private System.Net.Sockets.TcpClient tcpClient
     // Size: 0x8
     // Offset: 0x20
-    System::Net::Sockets::TcpClient* tcpClient;
+    ::System::Net::Sockets::TcpClient* tcpClient;
     // Field size check
-    static_assert(sizeof(System::Net::Sockets::TcpClient*) == 0x8);
+    static_assert(sizeof(::System::Net::Sockets::TcpClient*) == 0x8);
     // private System.Byte[][] receivedBuffers
     // Size: 0x8
     // Offset: 0x28
@@ -99,16 +99,16 @@ namespace GlobalNamespace {
     // private System.Threading.ManualResetEvent readyReceiveDataEvent
     // Size: 0x8
     // Offset: 0x38
-    System::Threading::ManualResetEvent* readyReceiveDataEvent;
+    ::System::Threading::ManualResetEvent* readyReceiveDataEvent;
     // Field size check
-    static_assert(sizeof(System::Threading::ManualResetEvent*) == 0x8);
+    static_assert(sizeof(::System::Threading::ManualResetEvent*) == 0x8);
     public:
     // Get instance field reference: public System.Action connectionStateChangedCallback
-    System::Action*& dyn_connectionStateChangedCallback();
+    ::System::Action*& dyn_connectionStateChangedCallback();
     // Get instance field reference: public System.Action`4<System.Int32,System.Byte[],System.Int32,System.Int32> payloadReceivedCallback
-    System::Action_4<int, ::ArrayW<uint8_t>, int, int>*& dyn_payloadReceivedCallback();
+    ::System::Action_4<int, ::ArrayW<uint8_t>, int, int>*& dyn_payloadReceivedCallback();
     // Get instance field reference: private System.Net.Sockets.TcpClient tcpClient
-    System::Net::Sockets::TcpClient*& dyn_tcpClient();
+    ::System::Net::Sockets::TcpClient*& dyn_tcpClient();
     // Get instance field reference: private System.Byte[][] receivedBuffers
     ::ArrayW<::ArrayW<uint8_t>>& dyn_receivedBuffers();
     // Get instance field reference: private System.Int32 receivedBufferIndex
@@ -116,10 +116,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 receivedBufferDataSize
     int& dyn_receivedBufferDataSize();
     // Get instance field reference: private System.Threading.ManualResetEvent readyReceiveDataEvent
-    System::Threading::ManualResetEvent*& dyn_readyReceiveDataEvent();
+    ::System::Threading::ManualResetEvent*& dyn_readyReceiveDataEvent();
     // public OVRNetwork/OVRNetworkTcpClient/ConnectionState get_connectionState()
     // Offset: 0x164BC74
-    GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::ConnectionState get_connectionState();
+    ::GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::ConnectionState get_connectionState();
     // public System.Boolean get_Connected()
     // Offset: 0x164BCA0
     bool get_Connected();
@@ -128,7 +128,7 @@ namespace GlobalNamespace {
     void Connect(int listeningPort);
     // private System.Void ConnectCallback(System.IAsyncResult ar)
     // Offset: 0x164BE08
-    void ConnectCallback(System::IAsyncResult* ar);
+    void ConnectCallback(::System::IAsyncResult* ar);
     // public System.Void Disconnect()
     // Offset: 0x164C108
     void Disconnect();
@@ -137,26 +137,26 @@ namespace GlobalNamespace {
     void Tick();
     // private System.Void OnReadDataCallback(System.IAsyncResult ar)
     // Offset: 0x164C560
-    void OnReadDataCallback(System::IAsyncResult* ar);
+    void OnReadDataCallback(::System::IAsyncResult* ar);
     // public System.Void .ctor()
     // Offset: 0x164CA44
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRNetwork::OVRNetworkTcpClient* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRNetwork::OVRNetworkTcpClient*, creationType>()));
     }
   }; // OVRNetwork/OVRNetworkTcpClient
   #pragma pack(pop)
-  static check_size<sizeof(OVRNetwork::OVRNetworkTcpClient), 56 + sizeof(System::Threading::ManualResetEvent*)> __GlobalNamespace_OVRNetwork_OVRNetworkTcpClientSizeCheck;
+  static check_size<sizeof(OVRNetwork::OVRNetworkTcpClient), 56 + sizeof(::System::Threading::ManualResetEvent*)> __GlobalNamespace_OVRNetwork_OVRNetworkTcpClientSizeCheck;
   static_assert(sizeof(OVRNetwork::OVRNetworkTcpClient) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::get_connectionState
 // Il2CppName: get_connectionState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::ConnectionState (GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::*)()>(&GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::get_connectionState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::ConnectionState (GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::*)()>(&GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::get_connectionState)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRNetwork::OVRNetworkTcpClient*), "get_connectionState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -181,7 +181,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::ConnectCallback
 // Il2CppName: ConnectCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::*)(System::IAsyncResult*)>(&GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::ConnectCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::*)(::System::IAsyncResult*)>(&GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::ConnectCallback)> {
   static const MethodInfo* get() {
     static auto* ar = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRNetwork::OVRNetworkTcpClient*), "ConnectCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ar});
@@ -206,7 +206,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::OnReadDataCallback
 // Il2CppName: OnReadDataCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::*)(System::IAsyncResult*)>(&GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::OnReadDataCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::*)(::System::IAsyncResult*)>(&GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::OnReadDataCallback)> {
   static const MethodInfo* get() {
     static auto* ar = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRNetwork::OVRNetworkTcpClient*), "OnReadDataCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ar});

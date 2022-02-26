@@ -14,8 +14,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass87_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass87_0*, "", "GameServerLobbyFlowCoordinator/<>c__DisplayClass87_0");
+NEED_NO_BOX(::GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass87_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass87_0*, "", "GameServerLobbyFlowCoordinator/<>c__DisplayClass87_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -37,9 +37,9 @@ namespace GlobalNamespace {
     // public GameServerLobbyFlowCoordinator <>4__this
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::GameServerLobbyFlowCoordinator* $$4__this;
+    ::GlobalNamespace::GameServerLobbyFlowCoordinator* $$4__this;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::GameServerLobbyFlowCoordinator*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::GameServerLobbyFlowCoordinator*) == 0x8);
     // public System.String userId
     // Size: 0x8
     // Offset: 0x18
@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public GameServerLobbyFlowCoordinator <>4__this
-    GlobalNamespace::GameServerLobbyFlowCoordinator*& dyn_$$4__this();
+    ::GlobalNamespace::GameServerLobbyFlowCoordinator*& dyn_$$4__this();
     // Get instance field reference: public System.String userId
     ::StringW& dyn_userId();
     // System.Void <HandleServerPlayerListViewControllerKickPlayer>b__0(System.Int32 btnId)
@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameServerLobbyFlowCoordinator::$$c__DisplayClass87_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass87_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass87_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameServerLobbyFlowCoordinator::$$c__DisplayClass87_0*, creationType>()));
     }
   }; // GameServerLobbyFlowCoordinator/<>c__DisplayClass87_0

@@ -25,8 +25,8 @@ namespace GlobalNamespace {
   class CannotStartGameReasonMethods;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::CannotStartGameReasonMethods);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CannotStartGameReasonMethods*, "", "CannotStartGameReasonMethods");
+NEED_NO_BOX(::GlobalNamespace::CannotStartGameReasonMethods);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CannotStartGameReasonMethods*, "", "CannotStartGameReasonMethods");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -66,7 +66,7 @@ namespace GlobalNamespace {
     static void _set_kDoNotOwnSong(::StringW value);
     // static public System.String LocalizedKey(CannotStartGameReason cannotStartGameReason)
     // Offset: 0x13BAF8C
-    static ::StringW LocalizedKey(GlobalNamespace::CannotStartGameReason cannotStartGameReason);
+    static ::StringW LocalizedKey(::GlobalNamespace::CannotStartGameReason cannotStartGameReason);
   }; // CannotStartGameReasonMethods
   #pragma pack(pop)
 }
@@ -74,7 +74,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::CannotStartGameReasonMethods::LocalizedKey
 // Il2CppName: LocalizedKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(GlobalNamespace::CannotStartGameReason)>(&GlobalNamespace::CannotStartGameReasonMethods::LocalizedKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::GlobalNamespace::CannotStartGameReason)>(&GlobalNamespace::CannotStartGameReasonMethods::LocalizedKey)> {
   static const MethodInfo* get() {
     static auto* cannotStartGameReason = &::il2cpp_utils::GetClassFromName("", "CannotStartGameReason")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CannotStartGameReasonMethods*), "LocalizedKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cannotStartGameReason});

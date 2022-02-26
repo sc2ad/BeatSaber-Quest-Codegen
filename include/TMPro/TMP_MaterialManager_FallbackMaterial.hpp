@@ -20,8 +20,8 @@ namespace UnityEngine {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(TMPro::TMP_MaterialManager::FallbackMaterial);
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_MaterialManager::FallbackMaterial*, "TMPro", "TMP_MaterialManager/FallbackMaterial");
+NEED_NO_BOX(::TMPro::TMP_MaterialManager::FallbackMaterial);
+DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_MaterialManager::FallbackMaterial*, "TMPro", "TMP_MaterialManager/FallbackMaterial");
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0x34
@@ -50,9 +50,9 @@ namespace TMPro {
     // public UnityEngine.Material baseMaterial
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::Material* baseMaterial;
+    ::UnityEngine::Material* baseMaterial;
     // Field size check
-    static_assert(sizeof(UnityEngine::Material*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Material*) == 0x8);
     // public System.Int64 fallbackID
     // Size: 0x8
     // Offset: 0x20
@@ -62,9 +62,9 @@ namespace TMPro {
     // public UnityEngine.Material fallbackMaterial
     // Size: 0x8
     // Offset: 0x28
-    UnityEngine::Material* fallbackMaterial;
+    ::UnityEngine::Material* fallbackMaterial;
     // Field size check
-    static_assert(sizeof(UnityEngine::Material*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Material*) == 0x8);
     // public System.Int32 count
     // Size: 0x4
     // Offset: 0x30
@@ -75,11 +75,11 @@ namespace TMPro {
     // Get instance field reference: public System.Int32 baseID
     int& dyn_baseID();
     // Get instance field reference: public UnityEngine.Material baseMaterial
-    UnityEngine::Material*& dyn_baseMaterial();
+    ::UnityEngine::Material*& dyn_baseMaterial();
     // Get instance field reference: public System.Int64 fallbackID
     int64_t& dyn_fallbackID();
     // Get instance field reference: public UnityEngine.Material fallbackMaterial
-    UnityEngine::Material*& dyn_fallbackMaterial();
+    ::UnityEngine::Material*& dyn_fallbackMaterial();
     // Get instance field reference: public System.Int32 count
     int& dyn_count();
     // public System.Void .ctor()
@@ -88,7 +88,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_MaterialManager::FallbackMaterial* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_MaterialManager::FallbackMaterial::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_MaterialManager::FallbackMaterial::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_MaterialManager::FallbackMaterial*, creationType>()));
     }
   }; // TMPro.TMP_MaterialManager/TMPro.FallbackMaterial

@@ -15,8 +15,8 @@ namespace MS::Internal::Xml::Cache {
   class XPathNodeHelper;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(MS::Internal::Xml::Cache::XPathNodeHelper);
-DEFINE_IL2CPP_ARG_TYPE(MS::Internal::Xml::Cache::XPathNodeHelper*, "MS.Internal.Xml.Cache", "XPathNodeHelper");
+NEED_NO_BOX(::MS::Internal::Xml::Cache::XPathNodeHelper);
+DEFINE_IL2CPP_ARG_TYPE(::MS::Internal::Xml::Cache::XPathNodeHelper*, "MS.Internal.Xml.Cache", "XPathNodeHelper");
 // Type namespace: MS.Internal.Xml.Cache
 namespace MS::Internal::Xml::Cache {
   // Size: 0x10
@@ -27,22 +27,22 @@ namespace MS::Internal::Xml::Cache {
     public:
     // static public System.Int32 GetLocalNamespaces(MS.Internal.Xml.Cache.XPathNode[] pageElem, System.Int32 idxElem, out MS.Internal.Xml.Cache.XPathNode[] pageNmsp)
     // Offset: 0x1B95218
-    static int GetLocalNamespaces(::ArrayW<MS::Internal::Xml::Cache::XPathNode> pageElem, int idxElem, ByRef<::ArrayW<MS::Internal::Xml::Cache::XPathNode>> pageNmsp);
+    static int GetLocalNamespaces(::ArrayW<::MS::Internal::Xml::Cache::XPathNode> pageElem, int idxElem, ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode>> pageNmsp);
     // static public System.Int32 GetInScopeNamespaces(MS.Internal.Xml.Cache.XPathNode[] pageElem, System.Int32 idxElem, out MS.Internal.Xml.Cache.XPathNode[] pageNmsp)
     // Offset: 0x1B95288
-    static int GetInScopeNamespaces(::ArrayW<MS::Internal::Xml::Cache::XPathNode> pageElem, int idxElem, ByRef<::ArrayW<MS::Internal::Xml::Cache::XPathNode>> pageNmsp);
+    static int GetInScopeNamespaces(::ArrayW<::MS::Internal::Xml::Cache::XPathNode> pageElem, int idxElem, ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode>> pageNmsp);
     // static public System.Boolean GetParent(ref MS.Internal.Xml.Cache.XPathNode[] pageNode, ref System.Int32 idxNode)
     // Offset: 0x1B95564
-    static bool GetParent(ByRef<::ArrayW<MS::Internal::Xml::Cache::XPathNode>> pageNode, ByRef<int> idxNode);
+    static bool GetParent(ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode>> pageNode, ByRef<int> idxNode);
     // static public System.Int32 GetLocation(MS.Internal.Xml.Cache.XPathNode[] pageNode, System.Int32 idxNode)
     // Offset: 0x1B95974
-    static int GetLocation(::ArrayW<MS::Internal::Xml::Cache::XPathNode> pageNode, int idxNode);
+    static int GetLocation(::ArrayW<::MS::Internal::Xml::Cache::XPathNode> pageNode, int idxNode);
     // static public System.Boolean GetTextFollowing(ref MS.Internal.Xml.Cache.XPathNode[] pageCurrent, ref System.Int32 idxCurrent, MS.Internal.Xml.Cache.XPathNode[] pageEnd, System.Int32 idxEnd)
     // Offset: 0x1B94D40
-    static bool GetTextFollowing(ByRef<::ArrayW<MS::Internal::Xml::Cache::XPathNode>> pageCurrent, ByRef<int> idxCurrent, ::ArrayW<MS::Internal::Xml::Cache::XPathNode> pageEnd, int idxEnd);
+    static bool GetTextFollowing(ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode>> pageCurrent, ByRef<int> idxCurrent, ::ArrayW<::MS::Internal::Xml::Cache::XPathNode> pageEnd, int idxEnd);
     // static public System.Boolean GetNonDescendant(ref MS.Internal.Xml.Cache.XPathNode[] pageNode, ref System.Int32 idxNode)
     // Offset: 0x1B94CA4
-    static bool GetNonDescendant(ByRef<::ArrayW<MS::Internal::Xml::Cache::XPathNode>> pageNode, ByRef<int> idxNode);
+    static bool GetNonDescendant(ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode>> pageNode, ByRef<int> idxNode);
   }; // MS.Internal.Xml.Cache.XPathNodeHelper
   #pragma pack(pop)
 }
@@ -50,7 +50,7 @@ namespace MS::Internal::Xml::Cache {
 // Writing MetadataGetter for method: MS::Internal::Xml::Cache::XPathNodeHelper::GetLocalNamespaces
 // Il2CppName: GetLocalNamespaces
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayW<MS::Internal::Xml::Cache::XPathNode>, int, ByRef<::ArrayW<MS::Internal::Xml::Cache::XPathNode>>)>(&MS::Internal::Xml::Cache::XPathNodeHelper::GetLocalNamespaces)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayW<::MS::Internal::Xml::Cache::XPathNode>, int, ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode>>)>(&MS::Internal::Xml::Cache::XPathNodeHelper::GetLocalNamespaces)> {
   static const MethodInfo* get() {
     static auto* pageElem = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("MS.Internal.Xml.Cache", "XPathNode"), 1)->byval_arg;
     static auto* idxElem = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -61,7 +61,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::A
 // Writing MetadataGetter for method: MS::Internal::Xml::Cache::XPathNodeHelper::GetInScopeNamespaces
 // Il2CppName: GetInScopeNamespaces
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayW<MS::Internal::Xml::Cache::XPathNode>, int, ByRef<::ArrayW<MS::Internal::Xml::Cache::XPathNode>>)>(&MS::Internal::Xml::Cache::XPathNodeHelper::GetInScopeNamespaces)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayW<::MS::Internal::Xml::Cache::XPathNode>, int, ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode>>)>(&MS::Internal::Xml::Cache::XPathNodeHelper::GetInScopeNamespaces)> {
   static const MethodInfo* get() {
     static auto* pageElem = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("MS.Internal.Xml.Cache", "XPathNode"), 1)->byval_arg;
     static auto* idxElem = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -72,7 +72,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::A
 // Writing MetadataGetter for method: MS::Internal::Xml::Cache::XPathNodeHelper::GetParent
 // Il2CppName: GetParent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<::ArrayW<MS::Internal::Xml::Cache::XPathNode>>, ByRef<int>)>(&MS::Internal::Xml::Cache::XPathNodeHelper::GetParent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode>>, ByRef<int>)>(&MS::Internal::Xml::Cache::XPathNodeHelper::GetParent)> {
   static const MethodInfo* get() {
     static auto* pageNode = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("MS.Internal.Xml.Cache", "XPathNode"), 1)->this_arg;
     static auto* idxNode = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -82,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(By
 // Writing MetadataGetter for method: MS::Internal::Xml::Cache::XPathNodeHelper::GetLocation
 // Il2CppName: GetLocation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayW<MS::Internal::Xml::Cache::XPathNode>, int)>(&MS::Internal::Xml::Cache::XPathNodeHelper::GetLocation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayW<::MS::Internal::Xml::Cache::XPathNode>, int)>(&MS::Internal::Xml::Cache::XPathNodeHelper::GetLocation)> {
   static const MethodInfo* get() {
     static auto* pageNode = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("MS.Internal.Xml.Cache", "XPathNode"), 1)->byval_arg;
     static auto* idxNode = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -92,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::A
 // Writing MetadataGetter for method: MS::Internal::Xml::Cache::XPathNodeHelper::GetTextFollowing
 // Il2CppName: GetTextFollowing
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<::ArrayW<MS::Internal::Xml::Cache::XPathNode>>, ByRef<int>, ::ArrayW<MS::Internal::Xml::Cache::XPathNode>, int)>(&MS::Internal::Xml::Cache::XPathNodeHelper::GetTextFollowing)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode>>, ByRef<int>, ::ArrayW<::MS::Internal::Xml::Cache::XPathNode>, int)>(&MS::Internal::Xml::Cache::XPathNodeHelper::GetTextFollowing)> {
   static const MethodInfo* get() {
     static auto* pageCurrent = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("MS.Internal.Xml.Cache", "XPathNode"), 1)->this_arg;
     static auto* idxCurrent = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -104,7 +104,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(By
 // Writing MetadataGetter for method: MS::Internal::Xml::Cache::XPathNodeHelper::GetNonDescendant
 // Il2CppName: GetNonDescendant
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<::ArrayW<MS::Internal::Xml::Cache::XPathNode>>, ByRef<int>)>(&MS::Internal::Xml::Cache::XPathNodeHelper::GetNonDescendant)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode>>, ByRef<int>)>(&MS::Internal::Xml::Cache::XPathNodeHelper::GetNonDescendant)> {
   static const MethodInfo* get() {
     static auto* pageNode = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("MS.Internal.Xml.Cache", "XPathNode"), 1)->this_arg;
     static auto* idxNode = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;

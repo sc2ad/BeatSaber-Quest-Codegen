@@ -41,8 +41,8 @@ namespace System::Net {
   class DigestSession;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::DigestSession);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::DigestSession*, "System.Net", "DigestSession");
+NEED_NO_BOX(::System::Net::DigestSession);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::DigestSession*, "System.Net", "DigestSession");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x38
@@ -63,9 +63,9 @@ namespace System::Net {
     // private System.DateTime lastUse
     // Size: 0x8
     // Offset: 0x10
-    System::DateTime lastUse;
+    ::System::DateTime lastUse;
     // Field size check
-    static_assert(sizeof(System::DateTime) == 0x8);
+    static_assert(sizeof(::System::DateTime) == 0x8);
     // private System.Int32 _nc
     // Size: 0x4
     // Offset: 0x18
@@ -77,15 +77,15 @@ namespace System::Net {
     // private System.Security.Cryptography.HashAlgorithm hash
     // Size: 0x8
     // Offset: 0x20
-    System::Security::Cryptography::HashAlgorithm* hash;
+    ::System::Security::Cryptography::HashAlgorithm* hash;
     // Field size check
-    static_assert(sizeof(System::Security::Cryptography::HashAlgorithm*) == 0x8);
+    static_assert(sizeof(::System::Security::Cryptography::HashAlgorithm*) == 0x8);
     // private System.Net.DigestHeaderParser parser
     // Size: 0x8
     // Offset: 0x28
-    System::Net::DigestHeaderParser* parser;
+    ::System::Net::DigestHeaderParser* parser;
     // Field size check
-    static_assert(sizeof(System::Net::DigestHeaderParser*) == 0x8);
+    static_assert(sizeof(::System::Net::DigestHeaderParser*) == 0x8);
     // private System.String _cnonce
     // Size: 0x8
     // Offset: 0x30
@@ -94,17 +94,17 @@ namespace System::Net {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get static field: static private System.Security.Cryptography.RandomNumberGenerator rng
-    static System::Security::Cryptography::RandomNumberGenerator* _get_rng();
+    static ::System::Security::Cryptography::RandomNumberGenerator* _get_rng();
     // Set static field: static private System.Security.Cryptography.RandomNumberGenerator rng
-    static void _set_rng(System::Security::Cryptography::RandomNumberGenerator* value);
+    static void _set_rng(::System::Security::Cryptography::RandomNumberGenerator* value);
     // Get instance field reference: private System.DateTime lastUse
-    System::DateTime& dyn_lastUse();
+    ::System::DateTime& dyn_lastUse();
     // Get instance field reference: private System.Int32 _nc
     int& dyn__nc();
     // Get instance field reference: private System.Security.Cryptography.HashAlgorithm hash
-    System::Security::Cryptography::HashAlgorithm*& dyn_hash();
+    ::System::Security::Cryptography::HashAlgorithm*& dyn_hash();
     // Get instance field reference: private System.Net.DigestHeaderParser parser
-    System::Net::DigestHeaderParser*& dyn_parser();
+    ::System::Net::DigestHeaderParser*& dyn_parser();
     // Get instance field reference: private System.String _cnonce
     ::StringW& dyn__cnonce();
     // public System.String get_Algorithm()
@@ -127,7 +127,7 @@ namespace System::Net {
     ::StringW get_CNonce();
     // public System.DateTime get_LastUse()
     // Offset: 0x1AB2994
-    System::DateTime get_LastUse();
+    ::System::DateTime get_LastUse();
     // static private System.Void .cctor()
     // Offset: 0x1AB2344
     static void _cctor();
@@ -142,20 +142,20 @@ namespace System::Net {
     ::StringW HA1(::StringW username, ::StringW password);
     // private System.String HA2(System.Net.HttpWebRequest webRequest)
     // Offset: 0x1AB2770
-    ::StringW HA2(System::Net::HttpWebRequest* webRequest);
+    ::StringW HA2(::System::Net::HttpWebRequest* webRequest);
     // private System.String Response(System.String username, System.String password, System.Net.HttpWebRequest webRequest)
     // Offset: 0x1AB2844
-    ::StringW Response(::StringW username, ::StringW password, System::Net::HttpWebRequest* webRequest);
+    ::StringW Response(::StringW username, ::StringW password, ::System::Net::HttpWebRequest* webRequest);
     // public System.Net.Authorization Authenticate(System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
     // Offset: 0x1AB1448
-    System::Net::Authorization* Authenticate(System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
+    ::System::Net::Authorization* Authenticate(::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
     // public System.Void .ctor()
     // Offset: 0x1AB12D4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DigestSession* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::DigestSession::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::DigestSession::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DigestSession*, creationType>()));
     }
   }; // System.Net.DigestSession
@@ -215,7 +215,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Net::DigestSession::get_LastUse
 // Il2CppName: get_LastUse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (System::Net::DigestSession::*)()>(&System::Net::DigestSession::get_LastUse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (System::Net::DigestSession::*)()>(&System::Net::DigestSession::get_LastUse)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::DigestSession*), "get_LastUse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -259,7 +259,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Net::DigestSession::HA2
 // Il2CppName: HA2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::DigestSession::*)(System::Net::HttpWebRequest*)>(&System::Net::DigestSession::HA2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::DigestSession::*)(::System::Net::HttpWebRequest*)>(&System::Net::DigestSession::HA2)> {
   static const MethodInfo* get() {
     static auto* webRequest = &::il2cpp_utils::GetClassFromName("System.Net", "HttpWebRequest")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::DigestSession*), "HA2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{webRequest});
@@ -268,7 +268,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Net::DigestSession::Response
 // Il2CppName: Response
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::DigestSession::*)(::StringW, ::StringW, System::Net::HttpWebRequest*)>(&System::Net::DigestSession::Response)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Net::DigestSession::*)(::StringW, ::StringW, ::System::Net::HttpWebRequest*)>(&System::Net::DigestSession::Response)> {
   static const MethodInfo* get() {
     static auto* username = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* password = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -279,7 +279,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Net::DigestSession::Authenticate
 // Il2CppName: Authenticate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Authorization* (System::Net::DigestSession::*)(System::Net::WebRequest*, System::Net::ICredentials*)>(&System::Net::DigestSession::Authenticate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Authorization* (System::Net::DigestSession::*)(::System::Net::WebRequest*, ::System::Net::ICredentials*)>(&System::Net::DigestSession::Authenticate)> {
   static const MethodInfo* get() {
     static auto* webRequest = &::il2cpp_utils::GetClassFromName("System.Net", "WebRequest")->byval_arg;
     static auto* credentials = &::il2cpp_utils::GetClassFromName("System.Net", "ICredentials")->byval_arg;

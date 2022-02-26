@@ -19,8 +19,8 @@ namespace UnityEngine {
   class WWWForm;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::WWWForm);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::WWWForm*, "UnityEngine", "WWWForm");
+NEED_NO_BOX(::UnityEngine::WWWForm);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::WWWForm*, "UnityEngine", "WWWForm");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -31,7 +31,7 @@ namespace UnityEngine {
     public:
     // static System.Text.Encoding get_DefaultEncoding()
     // Offset: 0x2A32A04
-    static System::Text::Encoding* get_DefaultEncoding();
+    static ::System::Text::Encoding* get_DefaultEncoding();
   }; // UnityEngine.WWWForm
   #pragma pack(pop)
 }
@@ -39,7 +39,7 @@ namespace UnityEngine {
 // Writing MetadataGetter for method: UnityEngine::WWWForm::get_DefaultEncoding
 // Il2CppName: get_DefaultEncoding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (*)()>(&UnityEngine::WWWForm::get_DefaultEncoding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (*)()>(&UnityEngine::WWWForm::get_DefaultEncoding)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::WWWForm*), "get_DefaultEncoding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

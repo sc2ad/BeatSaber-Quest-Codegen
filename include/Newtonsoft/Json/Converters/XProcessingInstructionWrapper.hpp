@@ -26,8 +26,8 @@ namespace Newtonsoft::Json::Converters {
   class XProcessingInstructionWrapper;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Converters::XProcessingInstructionWrapper);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Converters::XProcessingInstructionWrapper*, "Newtonsoft.Json.Converters", "XProcessingInstructionWrapper");
+NEED_NO_BOX(::Newtonsoft::Json::Converters::XProcessingInstructionWrapper);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Converters::XProcessingInstructionWrapper*, "Newtonsoft.Json.Converters", "XProcessingInstructionWrapper");
 // Type namespace: Newtonsoft.Json.Converters
 namespace Newtonsoft::Json::Converters {
   // Size: 0x18
@@ -36,16 +36,16 @@ namespace Newtonsoft::Json::Converters {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NullableContextAttribute] Offset: 1203A04
   // [NullableAttribute] Offset: 1203A04
-  class XProcessingInstructionWrapper : public Newtonsoft::Json::Converters::XObjectWrapper {
+  class XProcessingInstructionWrapper : public ::Newtonsoft::Json::Converters::XObjectWrapper {
     public:
     // private System.Xml.Linq.XProcessingInstruction get_ProcessingInstruction()
     // Offset: 0x182452C
-    System::Xml::Linq::XProcessingInstruction* get_ProcessingInstruction();
+    ::System::Xml::Linq::XProcessingInstruction* get_ProcessingInstruction();
     // public System.Void .ctor(System.Xml.Linq.XProcessingInstruction processingInstruction)
     // Offset: 0x1822C3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XProcessingInstructionWrapper* New_ctor(System::Xml::Linq::XProcessingInstruction* processingInstruction) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Converters::XProcessingInstructionWrapper::.ctor");
+    static XProcessingInstructionWrapper* New_ctor(::System::Xml::Linq::XProcessingInstruction* processingInstruction) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Converters::XProcessingInstructionWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XProcessingInstructionWrapper*, creationType>(processingInstruction)));
     }
     // public override System.String get_LocalName()
@@ -65,7 +65,7 @@ namespace Newtonsoft::Json::Converters {
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XProcessingInstructionWrapper::get_ProcessingInstruction
 // Il2CppName: get_ProcessingInstruction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Linq::XProcessingInstruction* (Newtonsoft::Json::Converters::XProcessingInstructionWrapper::*)()>(&Newtonsoft::Json::Converters::XProcessingInstructionWrapper::get_ProcessingInstruction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Linq::XProcessingInstruction* (Newtonsoft::Json::Converters::XProcessingInstructionWrapper::*)()>(&Newtonsoft::Json::Converters::XProcessingInstructionWrapper::get_ProcessingInstruction)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Converters::XProcessingInstructionWrapper*), "get_ProcessingInstruction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

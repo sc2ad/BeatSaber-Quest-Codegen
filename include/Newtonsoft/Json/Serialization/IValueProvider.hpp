@@ -14,8 +14,8 @@ namespace Newtonsoft::Json::Serialization {
   class IValueProvider;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Serialization::IValueProvider);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Serialization::IValueProvider*, "Newtonsoft.Json.Serialization", "IValueProvider");
+NEED_NO_BOX(::Newtonsoft::Json::Serialization::IValueProvider);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Serialization::IValueProvider*, "Newtonsoft.Json.Serialization", "IValueProvider");
 // Type namespace: Newtonsoft.Json.Serialization
 namespace Newtonsoft::Json::Serialization {
   // Size: 0x10

@@ -15,8 +15,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo);
-DEFINE_IL2CPP_ARG_TYPE(OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo*, "OnlineServices", "LevelScoreUploader/LevelScoreResultsDataUploadInfo");
+NEED_NO_BOX(::OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo);
+DEFINE_IL2CPP_ARG_TYPE(::OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo*, "OnlineServices", "LevelScoreUploader/LevelScoreResultsDataUploadInfo");
 // Type namespace: OnlineServices
 namespace OnlineServices {
   // Size: 0x44
@@ -37,9 +37,9 @@ namespace OnlineServices {
     // public OnlineServices.LevelScoreResultsData levelScoreResultsData
     // Size: 0x30
     // Offset: 0x10
-    OnlineServices::LevelScoreResultsData levelScoreResultsData;
+    ::OnlineServices::LevelScoreResultsData levelScoreResultsData;
     // Field size check
-    static_assert(sizeof(OnlineServices::LevelScoreResultsData) == 0x30);
+    static_assert(sizeof(::OnlineServices::LevelScoreResultsData) == 0x30);
     // public System.Int32 uploadAttemptCountLeft
     // Size: 0x4
     // Offset: 0x40
@@ -48,7 +48,7 @@ namespace OnlineServices {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public OnlineServices.LevelScoreResultsData levelScoreResultsData
-    OnlineServices::LevelScoreResultsData& dyn_levelScoreResultsData();
+    ::OnlineServices::LevelScoreResultsData& dyn_levelScoreResultsData();
     // Get instance field reference: public System.Int32 uploadAttemptCountLeft
     int& dyn_uploadAttemptCountLeft();
     // public System.Void .ctor()
@@ -57,7 +57,7 @@ namespace OnlineServices {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelScoreUploader::LevelScoreResultsDataUploadInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelScoreUploader::LevelScoreResultsDataUploadInfo*, creationType>()));
     }
   }; // OnlineServices.LevelScoreUploader/OnlineServices.LevelScoreResultsDataUploadInfo

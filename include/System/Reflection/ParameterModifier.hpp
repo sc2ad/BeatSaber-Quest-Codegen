@@ -14,7 +14,7 @@ namespace System::Reflection {
   struct ParameterModifier;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::ParameterModifier, "System.Reflection", "ParameterModifier");
+DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::ParameterModifier, "System.Reflection", "ParameterModifier");
 // Type namespace: System.Reflection
 namespace System::Reflection {
   // Size: 0x8
@@ -24,7 +24,7 @@ namespace System::Reflection {
   // [TokenAttribute] Offset: FFFFFFFF
   // [DefaultMemberAttribute] Offset: 1188618
   // [ComVisibleAttribute] Offset: 1188618
-  struct ParameterModifier/*, public System::ValueType*/ {
+  struct ParameterModifier/*, public ::System::ValueType*/ {
     public:
     public:
     // private System.Boolean[] _byRef
@@ -36,9 +36,9 @@ namespace System::Reflection {
     public:
     // Creating value type constructor for type: ParameterModifier
     constexpr ParameterModifier(::ArrayW<bool> byRef_ = ::ArrayW<bool>(static_cast<void*>(nullptr))) noexcept : byRef{byRef_} {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Creating conversion operator: operator ::ArrayW<bool>
     constexpr operator ::ArrayW<bool>() const noexcept {

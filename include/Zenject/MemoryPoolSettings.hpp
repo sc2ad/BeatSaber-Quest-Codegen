@@ -26,8 +26,8 @@ namespace Zenject {
   class MemoryPoolSettings;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::MemoryPoolSettings);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::MemoryPoolSettings*, "Zenject", "MemoryPoolSettings");
+NEED_NO_BOX(::Zenject::MemoryPoolSettings);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::MemoryPoolSettings*, "Zenject", "MemoryPoolSettings");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x1C
@@ -60,25 +60,25 @@ namespace Zenject {
     // public Zenject.PoolExpandMethods ExpandMethod
     // Size: 0x4
     // Offset: 0x18
-    Zenject::PoolExpandMethods ExpandMethod;
+    ::Zenject::PoolExpandMethods ExpandMethod;
     // Field size check
-    static_assert(sizeof(Zenject::PoolExpandMethods) == 0x4);
+    static_assert(sizeof(::Zenject::PoolExpandMethods) == 0x4);
     public:
     // Get static field: static public readonly Zenject.MemoryPoolSettings Default
-    static Zenject::MemoryPoolSettings* _get_Default();
+    static ::Zenject::MemoryPoolSettings* _get_Default();
     // Set static field: static public readonly Zenject.MemoryPoolSettings Default
-    static void _set_Default(Zenject::MemoryPoolSettings* value);
+    static void _set_Default(::Zenject::MemoryPoolSettings* value);
     // Get instance field reference: public System.Int32 InitialSize
     int& dyn_InitialSize();
     // Get instance field reference: public System.Int32 MaxSize
     int& dyn_MaxSize();
     // Get instance field reference: public Zenject.PoolExpandMethods ExpandMethod
-    Zenject::PoolExpandMethods& dyn_ExpandMethod();
+    ::Zenject::PoolExpandMethods& dyn_ExpandMethod();
     // public System.Void .ctor(System.Int32 initialSize, System.Int32 maxSize, Zenject.PoolExpandMethods expandMethod)
     // Offset: 0x1B0AD68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MemoryPoolSettings* New_ctor(int initialSize, int maxSize, Zenject::PoolExpandMethods expandMethod) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MemoryPoolSettings::.ctor");
+    static MemoryPoolSettings* New_ctor(int initialSize, int maxSize, ::Zenject::PoolExpandMethods expandMethod) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MemoryPoolSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MemoryPoolSettings*, creationType>(initialSize, maxSize, expandMethod)));
     }
     // static private System.Void .cctor()
@@ -89,19 +89,19 @@ namespace Zenject {
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
     // Offset: 0x1B0AE88
-    static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
     // Offset: 0x1B0AD34
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MemoryPoolSettings* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MemoryPoolSettings::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MemoryPoolSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MemoryPoolSettings*, creationType>()));
     }
   }; // Zenject.MemoryPoolSettings
   #pragma pack(pop)
-  static check_size<sizeof(MemoryPoolSettings), 24 + sizeof(Zenject::PoolExpandMethods)> __Zenject_MemoryPoolSettingsSizeCheck;
+  static check_size<sizeof(MemoryPoolSettings), 24 + sizeof(::Zenject::PoolExpandMethods)> __Zenject_MemoryPoolSettingsSizeCheck;
   static_assert(sizeof(MemoryPoolSettings) == 0x1C);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -129,7 +129,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: Zenject::MemoryPoolSettings::__zenCreateInjectTypeInfo
 // Il2CppName: __zenCreateInjectTypeInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (*)()>(&Zenject::MemoryPoolSettings::__zenCreateInjectTypeInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&Zenject::MemoryPoolSettings::__zenCreateInjectTypeInfo)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::MemoryPoolSettings*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -18,8 +18,8 @@ namespace UnityEngine {
   class DefaultExecutionOrder;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::DefaultExecutionOrder);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::DefaultExecutionOrder*, "UnityEngine", "DefaultExecutionOrder");
+NEED_NO_BOX(::UnityEngine::DefaultExecutionOrder);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::DefaultExecutionOrder*, "UnityEngine", "DefaultExecutionOrder");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x14
@@ -28,7 +28,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [UsedByNativeCodeAttribute] Offset: 11A5BC0
   // [AttributeUsageAttribute] Offset: 11A5BC0
-  class DefaultExecutionOrder : public System::Attribute {
+  class DefaultExecutionOrder : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -59,7 +59,7 @@ namespace UnityEngine {
     // Offset: 0x1EB7BAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultExecutionOrder* New_ctor(int order) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::DefaultExecutionOrder::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::DefaultExecutionOrder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultExecutionOrder*, creationType>(order)));
     }
   }; // UnityEngine.DefaultExecutionOrder

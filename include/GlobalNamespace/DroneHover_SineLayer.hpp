@@ -13,8 +13,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::DroneHover::SineLayer);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DroneHover::SineLayer*, "", "DroneHover/SineLayer");
+NEED_NO_BOX(::GlobalNamespace::DroneHover::SineLayer);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DroneHover::SineLayer*, "", "DroneHover/SineLayer");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DroneHover::SineLayer* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DroneHover::SineLayer::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DroneHover::SineLayer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DroneHover::SineLayer*, creationType>()));
     }
   }; // DroneHover/SineLayer

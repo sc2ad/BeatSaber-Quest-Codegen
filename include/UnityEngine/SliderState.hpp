@@ -16,8 +16,8 @@ namespace UnityEngine {
   class SliderState;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::SliderState);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SliderState*, "UnityEngine", "SliderState");
+NEED_NO_BOX(::UnityEngine::SliderState);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::SliderState*, "UnityEngine", "SliderState");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x19
@@ -66,7 +66,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SliderState* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::SliderState::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::SliderState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SliderState*, creationType>()));
     }
   }; // UnityEngine.SliderState

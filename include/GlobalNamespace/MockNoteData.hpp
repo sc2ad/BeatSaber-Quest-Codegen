@@ -22,8 +22,8 @@ namespace GlobalNamespace {
   class MockNoteData;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MockNoteData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockNoteData*, "", "MockNoteData");
+NEED_NO_BOX(::GlobalNamespace::MockNoteData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MockNoteData*, "", "MockNoteData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x28
@@ -56,21 +56,21 @@ namespace GlobalNamespace {
     // private ColorType <colorType>k__BackingField
     // Size: 0x4
     // Offset: 0x18
-    GlobalNamespace::ColorType colorType;
+    ::GlobalNamespace::ColorType colorType;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::ColorType) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::ColorType) == 0x4);
     // private NoteCutDirection <cutDirection>k__BackingField
     // Size: 0x4
     // Offset: 0x1C
-    GlobalNamespace::NoteCutDirection cutDirection;
+    ::GlobalNamespace::NoteCutDirection cutDirection;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::NoteCutDirection) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::NoteCutDirection) == 0x4);
     // private NoteLineLayer <noteLineLayer>k__BackingField
     // Size: 0x4
     // Offset: 0x20
-    GlobalNamespace::NoteLineLayer noteLineLayer;
+    ::GlobalNamespace::NoteLineLayer noteLineLayer;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::NoteLineLayer) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::NoteLineLayer) == 0x4);
     // private System.Single <duration>k__BackingField
     // Size: 0x4
     // Offset: 0x24
@@ -83,11 +83,11 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 <lineIndex>k__BackingField
     int& dyn_$lineIndex$k__BackingField();
     // Get instance field reference: private ColorType <colorType>k__BackingField
-    GlobalNamespace::ColorType& dyn_$colorType$k__BackingField();
+    ::GlobalNamespace::ColorType& dyn_$colorType$k__BackingField();
     // Get instance field reference: private NoteCutDirection <cutDirection>k__BackingField
-    GlobalNamespace::NoteCutDirection& dyn_$cutDirection$k__BackingField();
+    ::GlobalNamespace::NoteCutDirection& dyn_$cutDirection$k__BackingField();
     // Get instance field reference: private NoteLineLayer <noteLineLayer>k__BackingField
-    GlobalNamespace::NoteLineLayer& dyn_$noteLineLayer$k__BackingField();
+    ::GlobalNamespace::NoteLineLayer& dyn_$noteLineLayer$k__BackingField();
     // Get instance field reference: private System.Single <duration>k__BackingField
     float& dyn_$duration$k__BackingField();
     // public System.Single get_time()
@@ -104,22 +104,22 @@ namespace GlobalNamespace {
     void set_lineIndex(int value);
     // public ColorType get_colorType()
     // Offset: 0x2A219D4
-    GlobalNamespace::ColorType get_colorType();
+    ::GlobalNamespace::ColorType get_colorType();
     // public System.Void set_colorType(ColorType value)
     // Offset: 0x2A219DC
-    void set_colorType(GlobalNamespace::ColorType value);
+    void set_colorType(::GlobalNamespace::ColorType value);
     // public NoteCutDirection get_cutDirection()
     // Offset: 0x2A219E4
-    GlobalNamespace::NoteCutDirection get_cutDirection();
+    ::GlobalNamespace::NoteCutDirection get_cutDirection();
     // public System.Void set_cutDirection(NoteCutDirection value)
     // Offset: 0x2A219EC
-    void set_cutDirection(GlobalNamespace::NoteCutDirection value);
+    void set_cutDirection(::GlobalNamespace::NoteCutDirection value);
     // public NoteLineLayer get_noteLineLayer()
     // Offset: 0x2A219F4
-    GlobalNamespace::NoteLineLayer get_noteLineLayer();
+    ::GlobalNamespace::NoteLineLayer get_noteLineLayer();
     // public System.Void set_noteLineLayer(NoteLineLayer value)
     // Offset: 0x2A219FC
-    void set_noteLineLayer(GlobalNamespace::NoteLineLayer value);
+    void set_noteLineLayer(::GlobalNamespace::NoteLineLayer value);
     // public System.Single get_duration()
     // Offset: 0x2A21A04
     float get_duration();
@@ -135,7 +135,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockNoteData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MockNoteData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MockNoteData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockNoteData*, creationType>()));
     }
   }; // MockNoteData
@@ -181,7 +181,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MockNoteData::get_colorType
 // Il2CppName: get_colorType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ColorType (GlobalNamespace::MockNoteData::*)()>(&GlobalNamespace::MockNoteData::get_colorType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ColorType (GlobalNamespace::MockNoteData::*)()>(&GlobalNamespace::MockNoteData::get_colorType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNoteData*), "get_colorType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -189,7 +189,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::MockNoteData::set_colorType
 // Il2CppName: set_colorType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockNoteData::*)(GlobalNamespace::ColorType)>(&GlobalNamespace::MockNoteData::set_colorType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockNoteData::*)(::GlobalNamespace::ColorType)>(&GlobalNamespace::MockNoteData::set_colorType)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "ColorType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNoteData*), "set_colorType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -198,7 +198,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MockNoteData::get_cutDirection
 // Il2CppName: get_cutDirection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteCutDirection (GlobalNamespace::MockNoteData::*)()>(&GlobalNamespace::MockNoteData::get_cutDirection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NoteCutDirection (GlobalNamespace::MockNoteData::*)()>(&GlobalNamespace::MockNoteData::get_cutDirection)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNoteData*), "get_cutDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -206,7 +206,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::MockNoteData::set_cutDirection
 // Il2CppName: set_cutDirection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockNoteData::*)(GlobalNamespace::NoteCutDirection)>(&GlobalNamespace::MockNoteData::set_cutDirection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockNoteData::*)(::GlobalNamespace::NoteCutDirection)>(&GlobalNamespace::MockNoteData::set_cutDirection)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "NoteCutDirection")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNoteData*), "set_cutDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -215,7 +215,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MockNoteData::get_noteLineLayer
 // Il2CppName: get_noteLineLayer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteLineLayer (GlobalNamespace::MockNoteData::*)()>(&GlobalNamespace::MockNoteData::get_noteLineLayer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NoteLineLayer (GlobalNamespace::MockNoteData::*)()>(&GlobalNamespace::MockNoteData::get_noteLineLayer)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNoteData*), "get_noteLineLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -223,7 +223,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::MockNoteData::set_noteLineLayer
 // Il2CppName: set_noteLineLayer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockNoteData::*)(GlobalNamespace::NoteLineLayer)>(&GlobalNamespace::MockNoteData::set_noteLineLayer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockNoteData::*)(::GlobalNamespace::NoteLineLayer)>(&GlobalNamespace::MockNoteData::set_noteLineLayer)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "NoteLineLayer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNoteData*), "set_noteLineLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

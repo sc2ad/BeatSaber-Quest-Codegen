@@ -29,8 +29,8 @@ namespace Oculus::Platform::Models {
   class ChallengeEntry;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::ChallengeEntry);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::ChallengeEntry*, "Oculus.Platform.Models", "ChallengeEntry");
+NEED_NO_BOX(::Oculus::Platform::Models::ChallengeEntry);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::ChallengeEntry*, "Oculus.Platform.Models", "ChallengeEntry");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x40
@@ -77,15 +77,15 @@ namespace Oculus::Platform::Models {
     // public readonly System.DateTime Timestamp
     // Size: 0x8
     // Offset: 0x30
-    System::DateTime Timestamp;
+    ::System::DateTime Timestamp;
     // Field size check
-    static_assert(sizeof(System::DateTime) == 0x8);
+    static_assert(sizeof(::System::DateTime) == 0x8);
     // public readonly Oculus.Platform.Models.User User
     // Size: 0x8
     // Offset: 0x38
-    Oculus::Platform::Models::User* User;
+    ::Oculus::Platform::Models::User* User;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::Models::User*) == 0x8);
+    static_assert(sizeof(::Oculus::Platform::Models::User*) == 0x8);
     public:
     // Get instance field reference: public readonly System.String DisplayScore
     ::StringW& dyn_DisplayScore();
@@ -96,19 +96,19 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.Int64 Score
     int64_t& dyn_Score();
     // Get instance field reference: public readonly System.DateTime Timestamp
-    System::DateTime& dyn_Timestamp();
+    ::System::DateTime& dyn_Timestamp();
     // Get instance field reference: public readonly Oculus.Platform.Models.User User
-    Oculus::Platform::Models::User*& dyn_User();
+    ::Oculus::Platform::Models::User*& dyn_User();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x196D170
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ChallengeEntry* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::ChallengeEntry::.ctor");
+    static ChallengeEntry* New_ctor(::System::IntPtr o) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::ChallengeEntry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ChallengeEntry*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.ChallengeEntry
   #pragma pack(pop)
-  static check_size<sizeof(ChallengeEntry), 56 + sizeof(Oculus::Platform::Models::User*)> __Oculus_Platform_Models_ChallengeEntrySizeCheck;
+  static check_size<sizeof(ChallengeEntry), 56 + sizeof(::Oculus::Platform::Models::User*)> __Oculus_Platform_Models_ChallengeEntrySizeCheck;
   static_assert(sizeof(ChallengeEntry) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

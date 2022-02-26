@@ -31,8 +31,8 @@ namespace RootMotion::FinalIK {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::IKMapping::BoneMap);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKMapping::BoneMap*, "RootMotion.FinalIK", "IKMapping/BoneMap");
+NEED_NO_BOX(::RootMotion::FinalIK::IKMapping::BoneMap);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::IKMapping::BoneMap*, "RootMotion.FinalIK", "IKMapping/BoneMap");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0xD0
@@ -53,9 +53,9 @@ namespace RootMotion::FinalIK {
     // public UnityEngine.Transform transform
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::Transform* transform;
+    ::UnityEngine::Transform* transform;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // public System.Int32 chainIndex
     // Size: 0x4
     // Offset: 0x18
@@ -71,51 +71,51 @@ namespace RootMotion::FinalIK {
     // public UnityEngine.Vector3 defaultLocalPosition
     // Size: 0xC
     // Offset: 0x20
-    UnityEngine::Vector3 defaultLocalPosition;
+    ::UnityEngine::Vector3 defaultLocalPosition;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // public UnityEngine.Quaternion defaultLocalRotation
     // Size: 0x10
     // Offset: 0x2C
-    UnityEngine::Quaternion defaultLocalRotation;
+    ::UnityEngine::Quaternion defaultLocalRotation;
     // Field size check
-    static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    static_assert(sizeof(::UnityEngine::Quaternion) == 0x10);
     // public UnityEngine.Vector3 localSwingAxis
     // Size: 0xC
     // Offset: 0x3C
-    UnityEngine::Vector3 localSwingAxis;
+    ::UnityEngine::Vector3 localSwingAxis;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // public UnityEngine.Vector3 localTwistAxis
     // Size: 0xC
     // Offset: 0x48
-    UnityEngine::Vector3 localTwistAxis;
+    ::UnityEngine::Vector3 localTwistAxis;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // public UnityEngine.Vector3 planePosition
     // Size: 0xC
     // Offset: 0x54
-    UnityEngine::Vector3 planePosition;
+    ::UnityEngine::Vector3 planePosition;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // public UnityEngine.Vector3 ikPosition
     // Size: 0xC
     // Offset: 0x60
-    UnityEngine::Vector3 ikPosition;
+    ::UnityEngine::Vector3 ikPosition;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // public UnityEngine.Quaternion defaultLocalTargetRotation
     // Size: 0x10
     // Offset: 0x6C
-    UnityEngine::Quaternion defaultLocalTargetRotation;
+    ::UnityEngine::Quaternion defaultLocalTargetRotation;
     // Field size check
-    static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    static_assert(sizeof(::UnityEngine::Quaternion) == 0x10);
     // private UnityEngine.Quaternion maintainRotation
     // Size: 0x10
     // Offset: 0x7C
-    UnityEngine::Quaternion maintainRotation;
+    ::UnityEngine::Quaternion maintainRotation;
     // Field size check
-    static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    static_assert(sizeof(::UnityEngine::Quaternion) == 0x10);
     // public System.Single length
     // Size: 0x4
     // Offset: 0x8C
@@ -125,27 +125,27 @@ namespace RootMotion::FinalIK {
     // public UnityEngine.Quaternion animatedRotation
     // Size: 0x10
     // Offset: 0x90
-    UnityEngine::Quaternion animatedRotation;
+    ::UnityEngine::Quaternion animatedRotation;
     // Field size check
-    static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    static_assert(sizeof(::UnityEngine::Quaternion) == 0x10);
     // private UnityEngine.Transform planeBone1
     // Size: 0x8
     // Offset: 0xA0
-    UnityEngine::Transform* planeBone1;
+    ::UnityEngine::Transform* planeBone1;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // private UnityEngine.Transform planeBone2
     // Size: 0x8
     // Offset: 0xA8
-    UnityEngine::Transform* planeBone2;
+    ::UnityEngine::Transform* planeBone2;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // private UnityEngine.Transform planeBone3
     // Size: 0x8
     // Offset: 0xB0
-    UnityEngine::Transform* planeBone3;
+    ::UnityEngine::Transform* planeBone3;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // private System.Int32 plane1ChainIndex
     // Size: 0x4
     // Offset: 0xB8
@@ -184,37 +184,37 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public UnityEngine.Transform transform
-    UnityEngine::Transform*& dyn_transform();
+    ::UnityEngine::Transform*& dyn_transform();
     // Get instance field reference: public System.Int32 chainIndex
     int& dyn_chainIndex();
     // Get instance field reference: public System.Int32 nodeIndex
     int& dyn_nodeIndex();
     // Get instance field reference: public UnityEngine.Vector3 defaultLocalPosition
-    UnityEngine::Vector3& dyn_defaultLocalPosition();
+    ::UnityEngine::Vector3& dyn_defaultLocalPosition();
     // Get instance field reference: public UnityEngine.Quaternion defaultLocalRotation
-    UnityEngine::Quaternion& dyn_defaultLocalRotation();
+    ::UnityEngine::Quaternion& dyn_defaultLocalRotation();
     // Get instance field reference: public UnityEngine.Vector3 localSwingAxis
-    UnityEngine::Vector3& dyn_localSwingAxis();
+    ::UnityEngine::Vector3& dyn_localSwingAxis();
     // Get instance field reference: public UnityEngine.Vector3 localTwistAxis
-    UnityEngine::Vector3& dyn_localTwistAxis();
+    ::UnityEngine::Vector3& dyn_localTwistAxis();
     // Get instance field reference: public UnityEngine.Vector3 planePosition
-    UnityEngine::Vector3& dyn_planePosition();
+    ::UnityEngine::Vector3& dyn_planePosition();
     // Get instance field reference: public UnityEngine.Vector3 ikPosition
-    UnityEngine::Vector3& dyn_ikPosition();
+    ::UnityEngine::Vector3& dyn_ikPosition();
     // Get instance field reference: public UnityEngine.Quaternion defaultLocalTargetRotation
-    UnityEngine::Quaternion& dyn_defaultLocalTargetRotation();
+    ::UnityEngine::Quaternion& dyn_defaultLocalTargetRotation();
     // Get instance field reference: private UnityEngine.Quaternion maintainRotation
-    UnityEngine::Quaternion& dyn_maintainRotation();
+    ::UnityEngine::Quaternion& dyn_maintainRotation();
     // Get instance field reference: public System.Single length
     float& dyn_length();
     // Get instance field reference: public UnityEngine.Quaternion animatedRotation
-    UnityEngine::Quaternion& dyn_animatedRotation();
+    ::UnityEngine::Quaternion& dyn_animatedRotation();
     // Get instance field reference: private UnityEngine.Transform planeBone1
-    UnityEngine::Transform*& dyn_planeBone1();
+    ::UnityEngine::Transform*& dyn_planeBone1();
     // Get instance field reference: private UnityEngine.Transform planeBone2
-    UnityEngine::Transform*& dyn_planeBone2();
+    ::UnityEngine::Transform*& dyn_planeBone2();
     // Get instance field reference: private UnityEngine.Transform planeBone3
-    UnityEngine::Transform*& dyn_planeBone3();
+    ::UnityEngine::Transform*& dyn_planeBone3();
     // Get instance field reference: private System.Int32 plane1ChainIndex
     int& dyn_plane1ChainIndex();
     // Get instance field reference: private System.Int32 plane1NodeIndex
@@ -229,16 +229,16 @@ namespace RootMotion::FinalIK {
     int& dyn_plane3NodeIndex();
     // public UnityEngine.Vector3 get_swingDirection()
     // Offset: 0x21CF038
-    UnityEngine::Vector3 get_swingDirection();
+    ::UnityEngine::Vector3 get_swingDirection();
     // public System.Boolean get_isNodeBone()
     // Offset: 0x21CF1A4
     bool get_isNodeBone();
     // private UnityEngine.Quaternion get_lastAnimatedTargetRotation()
     // Offset: 0x21CF788
-    UnityEngine::Quaternion get_lastAnimatedTargetRotation();
+    ::UnityEngine::Quaternion get_lastAnimatedTargetRotation();
     // public System.Void Initiate(UnityEngine.Transform transform, RootMotion.FinalIK.IKSolverFullBody solver)
     // Offset: 0x21CF00C
-    void Initiate(UnityEngine::Transform* transform, RootMotion::FinalIK::IKSolverFullBody* solver);
+    void Initiate(::UnityEngine::Transform* transform, ::RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void StoreDefaultLocalState()
     // Offset: 0x21CF104
     void StoreDefaultLocalState();
@@ -247,19 +247,19 @@ namespace RootMotion::FinalIK {
     void FixTransform(bool position);
     // public System.Void SetLength(RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap nextBone)
     // Offset: 0x21CF1B4
-    void SetLength(RootMotion::FinalIK::IKMapping::BoneMap* nextBone);
+    void SetLength(::RootMotion::FinalIK::IKMapping::BoneMap* nextBone);
     // public System.Void SetLocalSwingAxis(RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap swingTarget)
     // Offset: 0x21CF29C
-    void SetLocalSwingAxis(RootMotion::FinalIK::IKMapping::BoneMap* swingTarget);
+    void SetLocalSwingAxis(::RootMotion::FinalIK::IKMapping::BoneMap* swingTarget);
     // public System.Void SetLocalSwingAxis(RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap bone1, RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap bone2)
     // Offset: 0x21CF2A4
-    void SetLocalSwingAxis(RootMotion::FinalIK::IKMapping::BoneMap* bone1, RootMotion::FinalIK::IKMapping::BoneMap* bone2);
+    void SetLocalSwingAxis(::RootMotion::FinalIK::IKMapping::BoneMap* bone1, ::RootMotion::FinalIK::IKMapping::BoneMap* bone2);
     // public System.Void SetLocalTwistAxis(UnityEngine.Vector3 twistDirection, UnityEngine.Vector3 normalDirection)
     // Offset: 0x21CF434
-    void SetLocalTwistAxis(UnityEngine::Vector3 twistDirection, UnityEngine::Vector3 normalDirection);
+    void SetLocalTwistAxis(::UnityEngine::Vector3 twistDirection, ::UnityEngine::Vector3 normalDirection);
     // public System.Void SetPlane(RootMotion.FinalIK.IKSolverFullBody solver, UnityEngine.Transform planeBone1, UnityEngine.Transform planeBone2, UnityEngine.Transform planeBone3)
     // Offset: 0x21CF540
-    void SetPlane(RootMotion::FinalIK::IKSolverFullBody* solver, UnityEngine::Transform* planeBone1, UnityEngine::Transform* planeBone2, UnityEngine::Transform* planeBone3);
+    void SetPlane(::RootMotion::FinalIK::IKSolverFullBody* solver, ::UnityEngine::Transform* planeBone1, ::UnityEngine::Transform* planeBone2, ::UnityEngine::Transform* planeBone3);
     // public System.Void UpdatePlane(System.Boolean rotation, System.Boolean position)
     // Offset: 0x21CF5D8
     void UpdatePlane(bool rotation, bool position);
@@ -274,41 +274,41 @@ namespace RootMotion::FinalIK {
     void SetToIKPosition();
     // public System.Void FixToNode(RootMotion.FinalIK.IKSolverFullBody solver, System.Single weight, RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Node fixNode)
     // Offset: 0x21CFA44
-    void FixToNode(RootMotion::FinalIK::IKSolverFullBody* solver, float weight, RootMotion::FinalIK::IKSolver::Node* fixNode);
+    void FixToNode(::RootMotion::FinalIK::IKSolverFullBody* solver, float weight, ::RootMotion::FinalIK::IKSolver::Node* fixNode);
     // public UnityEngine.Vector3 GetPlanePosition(RootMotion.FinalIK.IKSolverFullBody solver)
     // Offset: 0x21CFB70
-    UnityEngine::Vector3 GetPlanePosition(RootMotion::FinalIK::IKSolverFullBody* solver);
+    ::UnityEngine::Vector3 GetPlanePosition(::RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void PositionToPlane(RootMotion.FinalIK.IKSolverFullBody solver)
     // Offset: 0x21CFEB8
-    void PositionToPlane(RootMotion::FinalIK::IKSolverFullBody* solver);
+    void PositionToPlane(::RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void RotateToPlane(RootMotion.FinalIK.IKSolverFullBody solver, System.Single weight)
     // Offset: 0x21CFEE8
-    void RotateToPlane(RootMotion::FinalIK::IKSolverFullBody* solver, float weight);
+    void RotateToPlane(::RootMotion::FinalIK::IKSolverFullBody* solver, float weight);
     // public System.Void Swing(UnityEngine.Vector3 swingTarget, System.Single weight)
     // Offset: 0x21D0080
-    void Swing(UnityEngine::Vector3 swingTarget, float weight);
+    void Swing(::UnityEngine::Vector3 swingTarget, float weight);
     // public System.Void Swing(UnityEngine.Vector3 pos1, UnityEngine.Vector3 pos2, System.Single weight)
     // Offset: 0x21D00F0
-    void Swing(UnityEngine::Vector3 pos1, UnityEngine::Vector3 pos2, float weight);
+    void Swing(::UnityEngine::Vector3 pos1, ::UnityEngine::Vector3 pos2, float weight);
     // public System.Void Twist(UnityEngine.Vector3 twistDirection, UnityEngine.Vector3 normalDirection, System.Single weight)
     // Offset: 0x21D0334
-    void Twist(UnityEngine::Vector3 twistDirection, UnityEngine::Vector3 normalDirection, float weight);
+    void Twist(::UnityEngine::Vector3 twistDirection, ::UnityEngine::Vector3 normalDirection, float weight);
     // public System.Void RotateToMaintain(System.Single weight)
     // Offset: 0x21D055C
     void RotateToMaintain(float weight);
     // public System.Void RotateToEffector(RootMotion.FinalIK.IKSolverFullBody solver, System.Single weight)
     // Offset: 0x21D0674
-    void RotateToEffector(RootMotion::FinalIK::IKSolverFullBody* solver, float weight);
+    void RotateToEffector(::RootMotion::FinalIK::IKSolverFullBody* solver, float weight);
     // private UnityEngine.Quaternion GetTargetRotation(RootMotion.FinalIK.IKSolverFullBody solver)
     // Offset: 0x21CFCB4
-    UnityEngine::Quaternion GetTargetRotation(RootMotion::FinalIK::IKSolverFullBody* solver);
+    ::UnityEngine::Quaternion GetTargetRotation(::RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void .ctor()
     // Offset: 0x21D0810
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKMapping::BoneMap* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::IKMapping::BoneMap::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::IKMapping::BoneMap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKMapping::BoneMap*, creationType>()));
     }
   }; // RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap
@@ -320,7 +320,7 @@ namespace RootMotion::FinalIK {
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKMapping::BoneMap::get_swingDirection
 // Il2CppName: get_swingDirection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RootMotion::FinalIK::IKMapping::BoneMap::*)()>(&RootMotion::FinalIK::IKMapping::BoneMap::get_swingDirection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (RootMotion::FinalIK::IKMapping::BoneMap::*)()>(&RootMotion::FinalIK::IKMapping::BoneMap::get_swingDirection)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKMapping::BoneMap*), "get_swingDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -336,7 +336,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKMapping::BoneMap::get_lastAnimatedTargetRotation
 // Il2CppName: get_lastAnimatedTargetRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (RootMotion::FinalIK::IKMapping::BoneMap::*)()>(&RootMotion::FinalIK::IKMapping::BoneMap::get_lastAnimatedTargetRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (RootMotion::FinalIK::IKMapping::BoneMap::*)()>(&RootMotion::FinalIK::IKMapping::BoneMap::get_lastAnimatedTargetRotation)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKMapping::BoneMap*), "get_lastAnimatedTargetRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -344,7 +344,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKMapping::BoneMap::Initiate
 // Il2CppName: Initiate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKMapping::BoneMap::*)(UnityEngine::Transform*, RootMotion::FinalIK::IKSolverFullBody*)>(&RootMotion::FinalIK::IKMapping::BoneMap::Initiate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKMapping::BoneMap::*)(::UnityEngine::Transform*, ::RootMotion::FinalIK::IKSolverFullBody*)>(&RootMotion::FinalIK::IKMapping::BoneMap::Initiate)> {
   static const MethodInfo* get() {
     static auto* transform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* solver = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverFullBody")->byval_arg;
@@ -371,7 +371,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKMapping::BoneMap::SetLength
 // Il2CppName: SetLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKMapping::BoneMap::*)(RootMotion::FinalIK::IKMapping::BoneMap*)>(&RootMotion::FinalIK::IKMapping::BoneMap::SetLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKMapping::BoneMap::*)(::RootMotion::FinalIK::IKMapping::BoneMap*)>(&RootMotion::FinalIK::IKMapping::BoneMap::SetLength)> {
   static const MethodInfo* get() {
     static auto* nextBone = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKMapping/BoneMap")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKMapping::BoneMap*), "SetLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nextBone});
@@ -380,7 +380,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKMapping::BoneMap::SetLocalSwingAxis
 // Il2CppName: SetLocalSwingAxis
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKMapping::BoneMap::*)(RootMotion::FinalIK::IKMapping::BoneMap*)>(&RootMotion::FinalIK::IKMapping::BoneMap::SetLocalSwingAxis)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKMapping::BoneMap::*)(::RootMotion::FinalIK::IKMapping::BoneMap*)>(&RootMotion::FinalIK::IKMapping::BoneMap::SetLocalSwingAxis)> {
   static const MethodInfo* get() {
     static auto* swingTarget = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKMapping/BoneMap")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKMapping::BoneMap*), "SetLocalSwingAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{swingTarget});
@@ -389,7 +389,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKMapping::BoneMap::SetLocalSwingAxis
 // Il2CppName: SetLocalSwingAxis
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKMapping::BoneMap::*)(RootMotion::FinalIK::IKMapping::BoneMap*, RootMotion::FinalIK::IKMapping::BoneMap*)>(&RootMotion::FinalIK::IKMapping::BoneMap::SetLocalSwingAxis)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKMapping::BoneMap::*)(::RootMotion::FinalIK::IKMapping::BoneMap*, ::RootMotion::FinalIK::IKMapping::BoneMap*)>(&RootMotion::FinalIK::IKMapping::BoneMap::SetLocalSwingAxis)> {
   static const MethodInfo* get() {
     static auto* bone1 = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKMapping/BoneMap")->byval_arg;
     static auto* bone2 = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKMapping/BoneMap")->byval_arg;
@@ -399,7 +399,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKMapping::BoneMap::SetLocalTwistAxis
 // Il2CppName: SetLocalTwistAxis
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKMapping::BoneMap::*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&RootMotion::FinalIK::IKMapping::BoneMap::SetLocalTwistAxis)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKMapping::BoneMap::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&RootMotion::FinalIK::IKMapping::BoneMap::SetLocalTwistAxis)> {
   static const MethodInfo* get() {
     static auto* twistDirection = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* normalDirection = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -409,7 +409,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKMapping::BoneMap::SetPlane
 // Il2CppName: SetPlane
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKMapping::BoneMap::*)(RootMotion::FinalIK::IKSolverFullBody*, UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*)>(&RootMotion::FinalIK::IKMapping::BoneMap::SetPlane)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKMapping::BoneMap::*)(::RootMotion::FinalIK::IKSolverFullBody*, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*)>(&RootMotion::FinalIK::IKMapping::BoneMap::SetPlane)> {
   static const MethodInfo* get() {
     static auto* solver = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverFullBody")->byval_arg;
     static auto* planeBone1 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
@@ -455,7 +455,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKMapping::BoneMap::FixToNode
 // Il2CppName: FixToNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKMapping::BoneMap::*)(RootMotion::FinalIK::IKSolverFullBody*, float, RootMotion::FinalIK::IKSolver::Node*)>(&RootMotion::FinalIK::IKMapping::BoneMap::FixToNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKMapping::BoneMap::*)(::RootMotion::FinalIK::IKSolverFullBody*, float, ::RootMotion::FinalIK::IKSolver::Node*)>(&RootMotion::FinalIK::IKMapping::BoneMap::FixToNode)> {
   static const MethodInfo* get() {
     static auto* solver = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverFullBody")->byval_arg;
     static auto* weight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -466,7 +466,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKMapping::BoneMap::GetPlanePosition
 // Il2CppName: GetPlanePosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RootMotion::FinalIK::IKMapping::BoneMap::*)(RootMotion::FinalIK::IKSolverFullBody*)>(&RootMotion::FinalIK::IKMapping::BoneMap::GetPlanePosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (RootMotion::FinalIK::IKMapping::BoneMap::*)(::RootMotion::FinalIK::IKSolverFullBody*)>(&RootMotion::FinalIK::IKMapping::BoneMap::GetPlanePosition)> {
   static const MethodInfo* get() {
     static auto* solver = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverFullBody")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKMapping::BoneMap*), "GetPlanePosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{solver});
@@ -475,7 +475,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKMapping::BoneMap::PositionToPlane
 // Il2CppName: PositionToPlane
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKMapping::BoneMap::*)(RootMotion::FinalIK::IKSolverFullBody*)>(&RootMotion::FinalIK::IKMapping::BoneMap::PositionToPlane)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKMapping::BoneMap::*)(::RootMotion::FinalIK::IKSolverFullBody*)>(&RootMotion::FinalIK::IKMapping::BoneMap::PositionToPlane)> {
   static const MethodInfo* get() {
     static auto* solver = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverFullBody")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKMapping::BoneMap*), "PositionToPlane", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{solver});
@@ -484,7 +484,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKMapping::BoneMap::RotateToPlane
 // Il2CppName: RotateToPlane
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKMapping::BoneMap::*)(RootMotion::FinalIK::IKSolverFullBody*, float)>(&RootMotion::FinalIK::IKMapping::BoneMap::RotateToPlane)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKMapping::BoneMap::*)(::RootMotion::FinalIK::IKSolverFullBody*, float)>(&RootMotion::FinalIK::IKMapping::BoneMap::RotateToPlane)> {
   static const MethodInfo* get() {
     static auto* solver = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverFullBody")->byval_arg;
     static auto* weight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -494,7 +494,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKMapping::BoneMap::Swing
 // Il2CppName: Swing
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKMapping::BoneMap::*)(UnityEngine::Vector3, float)>(&RootMotion::FinalIK::IKMapping::BoneMap::Swing)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKMapping::BoneMap::*)(::UnityEngine::Vector3, float)>(&RootMotion::FinalIK::IKMapping::BoneMap::Swing)> {
   static const MethodInfo* get() {
     static auto* swingTarget = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* weight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -504,7 +504,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKMapping::BoneMap::Swing
 // Il2CppName: Swing
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKMapping::BoneMap::*)(UnityEngine::Vector3, UnityEngine::Vector3, float)>(&RootMotion::FinalIK::IKMapping::BoneMap::Swing)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKMapping::BoneMap::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, float)>(&RootMotion::FinalIK::IKMapping::BoneMap::Swing)> {
   static const MethodInfo* get() {
     static auto* pos1 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* pos2 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -515,7 +515,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKMapping::BoneMap::Twist
 // Il2CppName: Twist
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKMapping::BoneMap::*)(UnityEngine::Vector3, UnityEngine::Vector3, float)>(&RootMotion::FinalIK::IKMapping::BoneMap::Twist)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKMapping::BoneMap::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, float)>(&RootMotion::FinalIK::IKMapping::BoneMap::Twist)> {
   static const MethodInfo* get() {
     static auto* twistDirection = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* normalDirection = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -535,7 +535,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKMapping::BoneMap::RotateToEffector
 // Il2CppName: RotateToEffector
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKMapping::BoneMap::*)(RootMotion::FinalIK::IKSolverFullBody*, float)>(&RootMotion::FinalIK::IKMapping::BoneMap::RotateToEffector)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKMapping::BoneMap::*)(::RootMotion::FinalIK::IKSolverFullBody*, float)>(&RootMotion::FinalIK::IKMapping::BoneMap::RotateToEffector)> {
   static const MethodInfo* get() {
     static auto* solver = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverFullBody")->byval_arg;
     static auto* weight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -545,7 +545,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKMapping::BoneMap::GetTargetRotation
 // Il2CppName: GetTargetRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (RootMotion::FinalIK::IKMapping::BoneMap::*)(RootMotion::FinalIK::IKSolverFullBody*)>(&RootMotion::FinalIK::IKMapping::BoneMap::GetTargetRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (RootMotion::FinalIK::IKMapping::BoneMap::*)(::RootMotion::FinalIK::IKSolverFullBody*)>(&RootMotion::FinalIK::IKMapping::BoneMap::GetTargetRotation)> {
   static const MethodInfo* get() {
     static auto* solver = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverFullBody")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKMapping::BoneMap*), "GetTargetRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{solver});

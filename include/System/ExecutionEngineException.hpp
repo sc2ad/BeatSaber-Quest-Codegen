@@ -30,8 +30,8 @@ namespace System {
   class ExecutionEngineException;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::ExecutionEngineException);
-DEFINE_IL2CPP_ARG_TYPE(System::ExecutionEngineException*, "System", "ExecutionEngineException");
+NEED_NO_BOX(::System::ExecutionEngineException);
+DEFINE_IL2CPP_ARG_TYPE(::System::ExecutionEngineException*, "System", "ExecutionEngineException");
 // Type namespace: System
 namespace System {
   // Size: 0x88
@@ -40,7 +40,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: 1186D74
   // [ObsoleteAttribute] Offset: 1186D74
-  class ExecutionEngineException : public System::SystemException {
+  class ExecutionEngineException : public ::System::SystemException {
     public:
     // public System.Void .ctor()
     // Offset: 0x188A080
@@ -50,7 +50,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExecutionEngineException* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::ExecutionEngineException::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::ExecutionEngineException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExecutionEngineException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
@@ -60,7 +60,7 @@ namespace System {
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExecutionEngineException* New_ctor(::StringW message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::ExecutionEngineException::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::ExecutionEngineException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExecutionEngineException*, creationType>(message)));
     }
     // public System.Void .ctor(System.String message, System.Exception innerException)
@@ -69,8 +69,8 @@ namespace System {
     // Base method: System.Void SystemException::.ctor(System.String message, System.Exception innerException)
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception innerException)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ExecutionEngineException* New_ctor(::StringW message, System::Exception* innerException) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::ExecutionEngineException::.ctor");
+    static ExecutionEngineException* New_ctor(::StringW message, ::System::Exception* innerException) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::ExecutionEngineException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExecutionEngineException*, creationType>(message, innerException)));
     }
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
@@ -79,8 +79,8 @@ namespace System {
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ExecutionEngineException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::ExecutionEngineException::.ctor");
+    static ExecutionEngineException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::ExecutionEngineException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExecutionEngineException*, creationType>(info, context)));
     }
   }; // System.ExecutionEngineException

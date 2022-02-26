@@ -14,8 +14,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData*, "", "PS4LeaderboardIdsModelSO/LeaderboardIdData");
+NEED_NO_BOX(::GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData*, "", "PS4LeaderboardIdsModelSO/LeaderboardIdData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     // Offset: 0x2AB78B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PS4LeaderboardIdsModelSO::LeaderboardIdData* New_ctor(uint ps4LeaderboardId, ::StringW leaderboardId) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PS4LeaderboardIdsModelSO::LeaderboardIdData*, creationType>(ps4LeaderboardId, leaderboardId)));
     }
   }; // PS4LeaderboardIdsModelSO/LeaderboardIdData

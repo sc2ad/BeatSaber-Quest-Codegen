@@ -18,7 +18,7 @@ namespace UnityEngine::PlayerLoop {
   struct FixedUpdate;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PlayerLoop::FixedUpdate, "UnityEngine.PlayerLoop", "FixedUpdate");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::FixedUpdate, "UnityEngine.PlayerLoop", "FixedUpdate");
 // Type namespace: UnityEngine.PlayerLoop
 namespace UnityEngine::PlayerLoop {
   // Size: 0x0
@@ -28,39 +28,39 @@ namespace UnityEngine::PlayerLoop {
   // [TokenAttribute] Offset: FFFFFFFF
   // [MovedFromAttribute] Offset: 11A711C
   // [RequiredByNativeCodeAttribute] Offset: 11A711C
-  struct FixedUpdate/*, public System::ValueType*/ {
+  struct FixedUpdate/*, public ::System::ValueType*/ {
     public:
-    // Nested type: UnityEngine::PlayerLoop::FixedUpdate::ClearLines
+    // Nested type: ::UnityEngine::PlayerLoop::FixedUpdate::ClearLines
     struct ClearLines;
-    // Nested type: UnityEngine::PlayerLoop::FixedUpdate::DirectorFixedSampleTime
+    // Nested type: ::UnityEngine::PlayerLoop::FixedUpdate::DirectorFixedSampleTime
     struct DirectorFixedSampleTime;
-    // Nested type: UnityEngine::PlayerLoop::FixedUpdate::AudioFixedUpdate
+    // Nested type: ::UnityEngine::PlayerLoop::FixedUpdate::AudioFixedUpdate
     struct AudioFixedUpdate;
-    // Nested type: UnityEngine::PlayerLoop::FixedUpdate::ScriptRunBehaviourFixedUpdate
+    // Nested type: ::UnityEngine::PlayerLoop::FixedUpdate::ScriptRunBehaviourFixedUpdate
     struct ScriptRunBehaviourFixedUpdate;
-    // Nested type: UnityEngine::PlayerLoop::FixedUpdate::DirectorFixedUpdate
+    // Nested type: ::UnityEngine::PlayerLoop::FixedUpdate::DirectorFixedUpdate
     struct DirectorFixedUpdate;
-    // Nested type: UnityEngine::PlayerLoop::FixedUpdate::LegacyFixedAnimationUpdate
+    // Nested type: ::UnityEngine::PlayerLoop::FixedUpdate::LegacyFixedAnimationUpdate
     struct LegacyFixedAnimationUpdate;
-    // Nested type: UnityEngine::PlayerLoop::FixedUpdate::XRFixedUpdate
+    // Nested type: ::UnityEngine::PlayerLoop::FixedUpdate::XRFixedUpdate
     struct XRFixedUpdate;
-    // Nested type: UnityEngine::PlayerLoop::FixedUpdate::PhysicsFixedUpdate
+    // Nested type: ::UnityEngine::PlayerLoop::FixedUpdate::PhysicsFixedUpdate
     struct PhysicsFixedUpdate;
-    // Nested type: UnityEngine::PlayerLoop::FixedUpdate::Physics2DFixedUpdate
+    // Nested type: ::UnityEngine::PlayerLoop::FixedUpdate::Physics2DFixedUpdate
     struct Physics2DFixedUpdate;
-    // Nested type: UnityEngine::PlayerLoop::FixedUpdate::PhysicsClothFixedUpdate
+    // Nested type: ::UnityEngine::PlayerLoop::FixedUpdate::PhysicsClothFixedUpdate
     struct PhysicsClothFixedUpdate;
-    // Nested type: UnityEngine::PlayerLoop::FixedUpdate::DirectorFixedUpdatePostPhysics
+    // Nested type: ::UnityEngine::PlayerLoop::FixedUpdate::DirectorFixedUpdatePostPhysics
     struct DirectorFixedUpdatePostPhysics;
-    // Nested type: UnityEngine::PlayerLoop::FixedUpdate::ScriptRunDelayedFixedFrameRate
+    // Nested type: ::UnityEngine::PlayerLoop::FixedUpdate::ScriptRunDelayedFixedFrameRate
     struct ScriptRunDelayedFixedFrameRate;
-    // Nested type: UnityEngine::PlayerLoop::FixedUpdate::NewInputFixedUpdate
+    // Nested type: ::UnityEngine::PlayerLoop::FixedUpdate::NewInputFixedUpdate
     struct NewInputFixedUpdate;
     // Creating value type constructor for type: FixedUpdate
     constexpr FixedUpdate() noexcept {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
   }; // UnityEngine.PlayerLoop.FixedUpdate
   #pragma pack(pop)

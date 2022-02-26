@@ -52,8 +52,8 @@ namespace GlobalNamespace {
   class OVROverlayMeshGenerator;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVROverlayMeshGenerator);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVROverlayMeshGenerator*, "", "OVROverlayMeshGenerator");
+NEED_NO_BOX(::GlobalNamespace::OVROverlayMeshGenerator);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVROverlayMeshGenerator*, "", "OVROverlayMeshGenerator");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0xD1
@@ -63,9 +63,9 @@ namespace GlobalNamespace {
   // [RequireComponent] Offset: 11E7690
   // [RequireComponent] Offset: 11E7690
   // [ExecuteInEditMode] Offset: FFFFFFFF
-  class OVROverlayMeshGenerator : public UnityEngine::MonoBehaviour {
+  class OVROverlayMeshGenerator : public ::UnityEngine::MonoBehaviour {
     public:
-    // Nested type: GlobalNamespace::OVROverlayMeshGenerator::CubeFace
+    // Nested type: ::GlobalNamespace::OVROverlayMeshGenerator::CubeFace
     struct CubeFace;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -79,113 +79,113 @@ namespace GlobalNamespace {
     // private UnityEngine.Mesh _Mesh
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::Mesh* Mesh;
+    ::UnityEngine::Mesh* Mesh;
     // Field size check
-    static_assert(sizeof(UnityEngine::Mesh*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Mesh*) == 0x8);
     // private System.Collections.Generic.List`1<UnityEngine.Vector3> _Verts
     // Size: 0x8
     // Offset: 0x20
-    System::Collections::Generic::List_1<UnityEngine::Vector3>* Verts;
+    ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* Verts;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::Vector3>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*) == 0x8);
     // private System.Collections.Generic.List`1<UnityEngine.Vector2> _UV
     // Size: 0x8
     // Offset: 0x28
-    System::Collections::Generic::List_1<UnityEngine::Vector2>* UV;
+    ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* UV;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::Vector2>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::UnityEngine::Vector2>*) == 0x8);
     // private System.Collections.Generic.List`1<System.Int32> _Tris
     // Size: 0x8
     // Offset: 0x30
-    System::Collections::Generic::List_1<int>* Tris;
+    ::System::Collections::Generic::List_1<int>* Tris;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<int>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<int>*) == 0x8);
     // private OVROverlay _Overlay
     // Size: 0x8
     // Offset: 0x38
-    GlobalNamespace::OVROverlay* Overlay;
+    ::GlobalNamespace::OVROverlay* Overlay;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::OVROverlay*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::OVROverlay*) == 0x8);
     // private UnityEngine.MeshFilter _MeshFilter
     // Size: 0x8
     // Offset: 0x40
-    UnityEngine::MeshFilter* MeshFilter;
+    ::UnityEngine::MeshFilter* MeshFilter;
     // Field size check
-    static_assert(sizeof(UnityEngine::MeshFilter*) == 0x8);
+    static_assert(sizeof(::UnityEngine::MeshFilter*) == 0x8);
     // private UnityEngine.MeshCollider _MeshCollider
     // Size: 0x8
     // Offset: 0x48
-    UnityEngine::MeshCollider* MeshCollider;
+    ::UnityEngine::MeshCollider* MeshCollider;
     // Field size check
-    static_assert(sizeof(UnityEngine::MeshCollider*) == 0x8);
+    static_assert(sizeof(::UnityEngine::MeshCollider*) == 0x8);
     // private UnityEngine.MeshRenderer _MeshRenderer
     // Size: 0x8
     // Offset: 0x50
-    UnityEngine::MeshRenderer* MeshRenderer;
+    ::UnityEngine::MeshRenderer* MeshRenderer;
     // Field size check
-    static_assert(sizeof(UnityEngine::MeshRenderer*) == 0x8);
+    static_assert(sizeof(::UnityEngine::MeshRenderer*) == 0x8);
     // private UnityEngine.Transform _CameraRoot
     // Size: 0x8
     // Offset: 0x58
-    UnityEngine::Transform* CameraRoot;
+    ::UnityEngine::Transform* CameraRoot;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // private UnityEngine.Transform _Transform
     // Size: 0x8
     // Offset: 0x60
-    UnityEngine::Transform* Transform;
+    ::UnityEngine::Transform* Transform;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // private OVROverlay/OverlayShape _LastShape
     // Size: 0x4
     // Offset: 0x68
-    GlobalNamespace::OVROverlay::OverlayShape LastShape;
+    ::GlobalNamespace::OVROverlay::OverlayShape LastShape;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::OVROverlay::OverlayShape) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::OVROverlay::OverlayShape) == 0x4);
     // private UnityEngine.Vector3 _LastPosition
     // Size: 0xC
     // Offset: 0x6C
-    UnityEngine::Vector3 LastPosition;
+    ::UnityEngine::Vector3 LastPosition;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // private UnityEngine.Quaternion _LastRotation
     // Size: 0x10
     // Offset: 0x78
-    UnityEngine::Quaternion LastRotation;
+    ::UnityEngine::Quaternion LastRotation;
     // Field size check
-    static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    static_assert(sizeof(::UnityEngine::Quaternion) == 0x10);
     // private UnityEngine.Vector3 _LastScale
     // Size: 0xC
     // Offset: 0x88
-    UnityEngine::Vector3 LastScale;
+    ::UnityEngine::Vector3 LastScale;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // private UnityEngine.Rect _LastDestRectLeft
     // Size: 0x10
     // Offset: 0x94
-    UnityEngine::Rect LastDestRectLeft;
+    ::UnityEngine::Rect LastDestRectLeft;
     // Field size check
-    static_assert(sizeof(UnityEngine::Rect) == 0x10);
+    static_assert(sizeof(::UnityEngine::Rect) == 0x10);
     // private UnityEngine.Rect _LastDestRectRight
     // Size: 0x10
     // Offset: 0xA4
-    UnityEngine::Rect LastDestRectRight;
+    ::UnityEngine::Rect LastDestRectRight;
     // Field size check
-    static_assert(sizeof(UnityEngine::Rect) == 0x10);
+    static_assert(sizeof(::UnityEngine::Rect) == 0x10);
     // private UnityEngine.Rect _LastSrcRectLeft
     // Size: 0x10
     // Offset: 0xB4
-    UnityEngine::Rect LastSrcRectLeft;
+    ::UnityEngine::Rect LastSrcRectLeft;
     // Field size check
-    static_assert(sizeof(UnityEngine::Rect) == 0x10);
+    static_assert(sizeof(::UnityEngine::Rect) == 0x10);
     // Padding between fields: LastSrcRectLeft and: LastTexture
     char __padding16[0x4] = {};
     // private UnityEngine.Texture _LastTexture
     // Size: 0x8
     // Offset: 0xC8
-    UnityEngine::Texture* LastTexture;
+    ::UnityEngine::Texture* LastTexture;
     // Field size check
-    static_assert(sizeof(UnityEngine::Texture*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Texture*) == 0x8);
     // private System.Boolean _Awake
     // Size: 0x1
     // Offset: 0xD0
@@ -193,56 +193,56 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     public:
-    // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const noexcept = delete;
+    // Deleting conversion operator: operator ::System::IntPtr
+    constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get static field: static private readonly UnityEngine.Vector3[] BottomLeft
-    static ::ArrayW<UnityEngine::Vector3> _get_BottomLeft();
+    static ::ArrayW<::UnityEngine::Vector3> _get_BottomLeft();
     // Set static field: static private readonly UnityEngine.Vector3[] BottomLeft
-    static void _set_BottomLeft(::ArrayW<UnityEngine::Vector3> value);
+    static void _set_BottomLeft(::ArrayW<::UnityEngine::Vector3> value);
     // Get static field: static private readonly UnityEngine.Vector3[] RightVector
-    static ::ArrayW<UnityEngine::Vector3> _get_RightVector();
+    static ::ArrayW<::UnityEngine::Vector3> _get_RightVector();
     // Set static field: static private readonly UnityEngine.Vector3[] RightVector
-    static void _set_RightVector(::ArrayW<UnityEngine::Vector3> value);
+    static void _set_RightVector(::ArrayW<::UnityEngine::Vector3> value);
     // Get static field: static private readonly UnityEngine.Vector3[] UpVector
-    static ::ArrayW<UnityEngine::Vector3> _get_UpVector();
+    static ::ArrayW<::UnityEngine::Vector3> _get_UpVector();
     // Set static field: static private readonly UnityEngine.Vector3[] UpVector
-    static void _set_UpVector(::ArrayW<UnityEngine::Vector3> value);
+    static void _set_UpVector(::ArrayW<::UnityEngine::Vector3> value);
     // Get instance field reference: private UnityEngine.Mesh _Mesh
-    UnityEngine::Mesh*& dyn__Mesh();
+    ::UnityEngine::Mesh*& dyn__Mesh();
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.Vector3> _Verts
-    System::Collections::Generic::List_1<UnityEngine::Vector3>*& dyn__Verts();
+    ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& dyn__Verts();
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.Vector2> _UV
-    System::Collections::Generic::List_1<UnityEngine::Vector2>*& dyn__UV();
+    ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*& dyn__UV();
     // Get instance field reference: private System.Collections.Generic.List`1<System.Int32> _Tris
-    System::Collections::Generic::List_1<int>*& dyn__Tris();
+    ::System::Collections::Generic::List_1<int>*& dyn__Tris();
     // Get instance field reference: private OVROverlay _Overlay
-    GlobalNamespace::OVROverlay*& dyn__Overlay();
+    ::GlobalNamespace::OVROverlay*& dyn__Overlay();
     // Get instance field reference: private UnityEngine.MeshFilter _MeshFilter
-    UnityEngine::MeshFilter*& dyn__MeshFilter();
+    ::UnityEngine::MeshFilter*& dyn__MeshFilter();
     // Get instance field reference: private UnityEngine.MeshCollider _MeshCollider
-    UnityEngine::MeshCollider*& dyn__MeshCollider();
+    ::UnityEngine::MeshCollider*& dyn__MeshCollider();
     // Get instance field reference: private UnityEngine.MeshRenderer _MeshRenderer
-    UnityEngine::MeshRenderer*& dyn__MeshRenderer();
+    ::UnityEngine::MeshRenderer*& dyn__MeshRenderer();
     // Get instance field reference: private UnityEngine.Transform _CameraRoot
-    UnityEngine::Transform*& dyn__CameraRoot();
+    ::UnityEngine::Transform*& dyn__CameraRoot();
     // Get instance field reference: private UnityEngine.Transform _Transform
-    UnityEngine::Transform*& dyn__Transform();
+    ::UnityEngine::Transform*& dyn__Transform();
     // Get instance field reference: private OVROverlay/OverlayShape _LastShape
-    GlobalNamespace::OVROverlay::OverlayShape& dyn__LastShape();
+    ::GlobalNamespace::OVROverlay::OverlayShape& dyn__LastShape();
     // Get instance field reference: private UnityEngine.Vector3 _LastPosition
-    UnityEngine::Vector3& dyn__LastPosition();
+    ::UnityEngine::Vector3& dyn__LastPosition();
     // Get instance field reference: private UnityEngine.Quaternion _LastRotation
-    UnityEngine::Quaternion& dyn__LastRotation();
+    ::UnityEngine::Quaternion& dyn__LastRotation();
     // Get instance field reference: private UnityEngine.Vector3 _LastScale
-    UnityEngine::Vector3& dyn__LastScale();
+    ::UnityEngine::Vector3& dyn__LastScale();
     // Get instance field reference: private UnityEngine.Rect _LastDestRectLeft
-    UnityEngine::Rect& dyn__LastDestRectLeft();
+    ::UnityEngine::Rect& dyn__LastDestRectLeft();
     // Get instance field reference: private UnityEngine.Rect _LastDestRectRight
-    UnityEngine::Rect& dyn__LastDestRectRight();
+    ::UnityEngine::Rect& dyn__LastDestRectRight();
     // Get instance field reference: private UnityEngine.Rect _LastSrcRectLeft
-    UnityEngine::Rect& dyn__LastSrcRectLeft();
+    ::UnityEngine::Rect& dyn__LastSrcRectLeft();
     // Get instance field reference: private UnityEngine.Texture _LastTexture
-    UnityEngine::Texture*& dyn__LastTexture();
+    ::UnityEngine::Texture*& dyn__LastTexture();
     // Get instance field reference: private System.Boolean _Awake
     bool& dyn__Awake();
     // protected System.Void Awake()
@@ -250,10 +250,10 @@ namespace GlobalNamespace {
     void Awake();
     // public System.Void SetOverlay(OVROverlay overlay)
     // Offset: 0x1654FC4
-    void SetOverlay(GlobalNamespace::OVROverlay* overlay);
+    void SetOverlay(::GlobalNamespace::OVROverlay* overlay);
     // private UnityEngine.Rect GetBoundingRect(UnityEngine.Rect a, UnityEngine.Rect b)
     // Offset: 0x1654FCC
-    UnityEngine::Rect GetBoundingRect(UnityEngine::Rect a, UnityEngine::Rect b);
+    ::UnityEngine::Rect GetBoundingRect(::UnityEngine::Rect a, ::UnityEngine::Rect b);
     // protected System.Void OnEnable()
     // Offset: 0x1655188
     void OnEnable();
@@ -265,34 +265,34 @@ namespace GlobalNamespace {
     void Update();
     // private System.Void UpdateMesh(OVROverlay/OverlayShape shape, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Vector3 scale, UnityEngine.Rect rect)
     // Offset: 0x1655880
-    void UpdateMesh(GlobalNamespace::OVROverlay::OverlayShape shape, UnityEngine::Vector3 position, UnityEngine::Quaternion rotation, UnityEngine::Vector3 scale, UnityEngine::Rect rect);
+    void UpdateMesh(::GlobalNamespace::OVROverlay::OverlayShape shape, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 scale, ::UnityEngine::Rect rect);
     // static public System.Void GenerateMesh(System.Collections.Generic.List`1<UnityEngine.Vector3> verts, System.Collections.Generic.List`1<UnityEngine.Vector2> uvs, System.Collections.Generic.List`1<System.Int32> tris, OVROverlay/OverlayShape shape, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Vector3 scale, UnityEngine.Rect rect)
     // Offset: 0x1655B54
-    static void GenerateMesh(System::Collections::Generic::List_1<UnityEngine::Vector3>* verts, System::Collections::Generic::List_1<UnityEngine::Vector2>* uvs, System::Collections::Generic::List_1<int>* tris, GlobalNamespace::OVROverlay::OverlayShape shape, UnityEngine::Vector3 position, UnityEngine::Quaternion rotation, UnityEngine::Vector3 scale, UnityEngine::Rect rect);
+    static void GenerateMesh(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* verts, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* uvs, ::System::Collections::Generic::List_1<int>* tris, ::GlobalNamespace::OVROverlay::OverlayShape shape, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 scale, ::UnityEngine::Rect rect);
     // static private UnityEngine.Vector2 GetSphereUV(System.Single theta, System.Single phi, System.Single expand_coef)
     // Offset: 0x1656DB0
-    static UnityEngine::Vector2 GetSphereUV(float theta, float phi, float expand_coef);
+    static ::UnityEngine::Vector2 GetSphereUV(float theta, float phi, float expand_coef);
     // static private UnityEngine.Vector3 GetSphereVert(System.Single theta, System.Single phi)
     // Offset: 0x1656E10
-    static UnityEngine::Vector3 GetSphereVert(float theta, float phi);
+    static ::UnityEngine::Vector3 GetSphereVert(float theta, float phi);
     // static public System.Void BuildSphere(System.Collections.Generic.List`1<UnityEngine.Vector3> verts, System.Collections.Generic.List`1<UnityEngine.Vector2> uv, System.Collections.Generic.List`1<System.Int32> triangles, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Vector3 scale, UnityEngine.Rect rect, System.Single worldScale, System.Int32 latitudes, System.Int32 longitudes, System.Single expand_coef)
     // Offset: 0x1655ED4
-    static void BuildSphere(System::Collections::Generic::List_1<UnityEngine::Vector3>* verts, System::Collections::Generic::List_1<UnityEngine::Vector2>* uv, System::Collections::Generic::List_1<int>* triangles, UnityEngine::Vector3 position, UnityEngine::Quaternion rotation, UnityEngine::Vector3 scale, UnityEngine::Rect rect, float worldScale, int latitudes, int longitudes, float expand_coef);
+    static void BuildSphere(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* verts, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* uv, ::System::Collections::Generic::List_1<int>* triangles, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 scale, ::UnityEngine::Rect rect, float worldScale, int latitudes, int longitudes, float expand_coef);
     // static private UnityEngine.Vector2 GetCubeUV(OVROverlayMeshGenerator/CubeFace face, UnityEngine.Vector2 sideUV, System.Single expand_coef)
     // Offset: 0x1656EF8
-    static UnityEngine::Vector2 GetCubeUV(GlobalNamespace::OVROverlayMeshGenerator::CubeFace face, UnityEngine::Vector2 sideUV, float expand_coef);
+    static ::UnityEngine::Vector2 GetCubeUV(::GlobalNamespace::OVROverlayMeshGenerator::CubeFace face, ::UnityEngine::Vector2 sideUV, float expand_coef);
     // static private UnityEngine.Vector3 GetCubeVert(OVROverlayMeshGenerator/CubeFace face, UnityEngine.Vector2 sideUV, System.Single expand_coef)
     // Offset: 0x16570E4
-    static UnityEngine::Vector3 GetCubeVert(GlobalNamespace::OVROverlayMeshGenerator::CubeFace face, UnityEngine::Vector2 sideUV, float expand_coef);
+    static ::UnityEngine::Vector3 GetCubeVert(::GlobalNamespace::OVROverlayMeshGenerator::CubeFace face, ::UnityEngine::Vector2 sideUV, float expand_coef);
     // static public System.Void BuildCube(System.Collections.Generic.List`1<UnityEngine.Vector3> verts, System.Collections.Generic.List`1<UnityEngine.Vector2> uv, System.Collections.Generic.List`1<System.Int32> triangles, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Vector3 scale, System.Single worldScale, System.Int32 subQuads, System.Single expand_coef)
     // Offset: 0x165638C
-    static void BuildCube(System::Collections::Generic::List_1<UnityEngine::Vector3>* verts, System::Collections::Generic::List_1<UnityEngine::Vector2>* uv, System::Collections::Generic::List_1<int>* triangles, UnityEngine::Vector3 position, UnityEngine::Quaternion rotation, UnityEngine::Vector3 scale, float worldScale, int subQuads, float expand_coef);
+    static void BuildCube(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* verts, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* uv, ::System::Collections::Generic::List_1<int>* triangles, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 scale, float worldScale, int subQuads, float expand_coef);
     // static public System.Void BuildQuad(System.Collections.Generic.List`1<UnityEngine.Vector3> verts, System.Collections.Generic.List`1<UnityEngine.Vector2> uv, System.Collections.Generic.List`1<System.Int32> triangles, UnityEngine.Rect rect)
     // Offset: 0x16566B4
-    static void BuildQuad(System::Collections::Generic::List_1<UnityEngine::Vector3>* verts, System::Collections::Generic::List_1<UnityEngine::Vector2>* uv, System::Collections::Generic::List_1<int>* triangles, UnityEngine::Rect rect);
+    static void BuildQuad(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* verts, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* uv, ::System::Collections::Generic::List_1<int>* triangles, ::UnityEngine::Rect rect);
     // static public System.Void BuildHemicylinder(System.Collections.Generic.List`1<UnityEngine.Vector3> verts, System.Collections.Generic.List`1<UnityEngine.Vector2> uv, System.Collections.Generic.List`1<System.Int32> triangles, UnityEngine.Vector3 scale, UnityEngine.Rect rect, System.Int32 longitudes)
     // Offset: 0x1656A0C
-    static void BuildHemicylinder(System::Collections::Generic::List_1<UnityEngine::Vector3>* verts, System::Collections::Generic::List_1<UnityEngine::Vector2>* uv, System::Collections::Generic::List_1<int>* triangles, UnityEngine::Vector3 scale, UnityEngine::Rect rect, int longitudes);
+    static void BuildHemicylinder(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* verts, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* uv, ::System::Collections::Generic::List_1<int>* triangles, ::UnityEngine::Vector3 scale, ::UnityEngine::Rect rect, int longitudes);
     // public System.Void .ctor()
     // Offset: 0x1657298
     // Implemented from: UnityEngine.MonoBehaviour
@@ -303,7 +303,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVROverlayMeshGenerator* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVROverlayMeshGenerator::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVROverlayMeshGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVROverlayMeshGenerator*, creationType>()));
     }
     // static private System.Void .cctor()
@@ -328,7 +328,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::OVROverlayMeshGenerator::SetOverlay
 // Il2CppName: SetOverlay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVROverlayMeshGenerator::*)(GlobalNamespace::OVROverlay*)>(&GlobalNamespace::OVROverlayMeshGenerator::SetOverlay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVROverlayMeshGenerator::*)(::GlobalNamespace::OVROverlay*)>(&GlobalNamespace::OVROverlayMeshGenerator::SetOverlay)> {
   static const MethodInfo* get() {
     static auto* overlay = &::il2cpp_utils::GetClassFromName("", "OVROverlay")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVROverlayMeshGenerator*), "SetOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{overlay});
@@ -337,7 +337,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::OVROverlayMeshGenerator::GetBoundingRect
 // Il2CppName: GetBoundingRect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (GlobalNamespace::OVROverlayMeshGenerator::*)(UnityEngine::Rect, UnityEngine::Rect)>(&GlobalNamespace::OVROverlayMeshGenerator::GetBoundingRect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rect (GlobalNamespace::OVROverlayMeshGenerator::*)(::UnityEngine::Rect, ::UnityEngine::Rect)>(&GlobalNamespace::OVROverlayMeshGenerator::GetBoundingRect)> {
   static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
@@ -371,7 +371,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::OVROverlayMeshGenerator::UpdateMesh
 // Il2CppName: UpdateMesh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVROverlayMeshGenerator::*)(GlobalNamespace::OVROverlay::OverlayShape, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Vector3, UnityEngine::Rect)>(&GlobalNamespace::OVROverlayMeshGenerator::UpdateMesh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVROverlayMeshGenerator::*)(::GlobalNamespace::OVROverlay::OverlayShape, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3, ::UnityEngine::Rect)>(&GlobalNamespace::OVROverlayMeshGenerator::UpdateMesh)> {
   static const MethodInfo* get() {
     static auto* shape = &::il2cpp_utils::GetClassFromName("", "OVROverlay/OverlayShape")->byval_arg;
     static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -384,7 +384,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::OVROverlayMeshGenerator::GenerateMesh
 // Il2CppName: GenerateMesh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::List_1<UnityEngine::Vector3>*, System::Collections::Generic::List_1<UnityEngine::Vector2>*, System::Collections::Generic::List_1<int>*, GlobalNamespace::OVROverlay::OverlayShape, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Vector3, UnityEngine::Rect)>(&GlobalNamespace::OVROverlayMeshGenerator::GenerateMesh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::List_1<int>*, ::GlobalNamespace::OVROverlay::OverlayShape, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3, ::UnityEngine::Rect)>(&GlobalNamespace::OVROverlayMeshGenerator::GenerateMesh)> {
   static const MethodInfo* get() {
     static auto* verts = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")})->byval_arg;
     static auto* uvs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")})->byval_arg;
@@ -400,7 +400,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: GlobalNamespace::OVROverlayMeshGenerator::GetSphereUV
 // Il2CppName: GetSphereUV
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(float, float, float)>(&GlobalNamespace::OVROverlayMeshGenerator::GetSphereUV)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(float, float, float)>(&GlobalNamespace::OVROverlayMeshGenerator::GetSphereUV)> {
   static const MethodInfo* get() {
     static auto* theta = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* phi = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -411,7 +411,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::OVROverlayMeshGenerator::GetSphereVert
 // Il2CppName: GetSphereVert
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(float, float)>(&GlobalNamespace::OVROverlayMeshGenerator::GetSphereVert)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(float, float)>(&GlobalNamespace::OVROverlayMeshGenerator::GetSphereVert)> {
   static const MethodInfo* get() {
     static auto* theta = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* phi = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -421,7 +421,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::OVROverlayMeshGenerator::BuildSphere
 // Il2CppName: BuildSphere
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::List_1<UnityEngine::Vector3>*, System::Collections::Generic::List_1<UnityEngine::Vector2>*, System::Collections::Generic::List_1<int>*, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Vector3, UnityEngine::Rect, float, int, int, float)>(&GlobalNamespace::OVROverlayMeshGenerator::BuildSphere)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::List_1<int>*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3, ::UnityEngine::Rect, float, int, int, float)>(&GlobalNamespace::OVROverlayMeshGenerator::BuildSphere)> {
   static const MethodInfo* get() {
     static auto* verts = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")})->byval_arg;
     static auto* uv = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")})->byval_arg;
@@ -440,7 +440,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: GlobalNamespace::OVROverlayMeshGenerator::GetCubeUV
 // Il2CppName: GetCubeUV
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(GlobalNamespace::OVROverlayMeshGenerator::CubeFace, UnityEngine::Vector2, float)>(&GlobalNamespace::OVROverlayMeshGenerator::GetCubeUV)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(::GlobalNamespace::OVROverlayMeshGenerator::CubeFace, ::UnityEngine::Vector2, float)>(&GlobalNamespace::OVROverlayMeshGenerator::GetCubeUV)> {
   static const MethodInfo* get() {
     static auto* face = &::il2cpp_utils::GetClassFromName("", "OVROverlayMeshGenerator/CubeFace")->byval_arg;
     static auto* sideUV = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
@@ -451,7 +451,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::OVROverlayMeshGenerator::GetCubeVert
 // Il2CppName: GetCubeVert
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(GlobalNamespace::OVROverlayMeshGenerator::CubeFace, UnityEngine::Vector2, float)>(&GlobalNamespace::OVROverlayMeshGenerator::GetCubeVert)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::GlobalNamespace::OVROverlayMeshGenerator::CubeFace, ::UnityEngine::Vector2, float)>(&GlobalNamespace::OVROverlayMeshGenerator::GetCubeVert)> {
   static const MethodInfo* get() {
     static auto* face = &::il2cpp_utils::GetClassFromName("", "OVROverlayMeshGenerator/CubeFace")->byval_arg;
     static auto* sideUV = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
@@ -462,7 +462,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::OVROverlayMeshGenerator::BuildCube
 // Il2CppName: BuildCube
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::List_1<UnityEngine::Vector3>*, System::Collections::Generic::List_1<UnityEngine::Vector2>*, System::Collections::Generic::List_1<int>*, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Vector3, float, int, float)>(&GlobalNamespace::OVROverlayMeshGenerator::BuildCube)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::List_1<int>*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3, float, int, float)>(&GlobalNamespace::OVROverlayMeshGenerator::BuildCube)> {
   static const MethodInfo* get() {
     static auto* verts = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")})->byval_arg;
     static auto* uv = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")})->byval_arg;
@@ -479,7 +479,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: GlobalNamespace::OVROverlayMeshGenerator::BuildQuad
 // Il2CppName: BuildQuad
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::List_1<UnityEngine::Vector3>*, System::Collections::Generic::List_1<UnityEngine::Vector2>*, System::Collections::Generic::List_1<int>*, UnityEngine::Rect)>(&GlobalNamespace::OVROverlayMeshGenerator::BuildQuad)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::List_1<int>*, ::UnityEngine::Rect)>(&GlobalNamespace::OVROverlayMeshGenerator::BuildQuad)> {
   static const MethodInfo* get() {
     static auto* verts = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")})->byval_arg;
     static auto* uv = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")})->byval_arg;
@@ -491,7 +491,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: GlobalNamespace::OVROverlayMeshGenerator::BuildHemicylinder
 // Il2CppName: BuildHemicylinder
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::List_1<UnityEngine::Vector3>*, System::Collections::Generic::List_1<UnityEngine::Vector2>*, System::Collections::Generic::List_1<int>*, UnityEngine::Vector3, UnityEngine::Rect, int)>(&GlobalNamespace::OVROverlayMeshGenerator::BuildHemicylinder)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::List_1<int>*, ::UnityEngine::Vector3, ::UnityEngine::Rect, int)>(&GlobalNamespace::OVROverlayMeshGenerator::BuildHemicylinder)> {
   static const MethodInfo* get() {
     static auto* verts = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")})->byval_arg;
     static auto* uv = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")})->byval_arg;

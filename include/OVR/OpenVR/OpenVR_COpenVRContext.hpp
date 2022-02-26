@@ -44,8 +44,8 @@ namespace OVR::OpenVR {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(OVR::OpenVR::OpenVR::COpenVRContext);
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::OpenVR::COpenVRContext*, "OVR.OpenVR", "OpenVR/COpenVRContext");
+NEED_NO_BOX(::OVR::OpenVR::OpenVR::COpenVRContext);
+DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::OpenVR::COpenVRContext*, "OVR.OpenVR", "OpenVR/COpenVRContext");
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
   // Size: 0x78
@@ -66,108 +66,108 @@ namespace OVR::OpenVR {
     // private OVR.OpenVR.CVRSystem m_pVRSystem
     // Size: 0x8
     // Offset: 0x10
-    OVR::OpenVR::CVRSystem* m_pVRSystem;
+    ::OVR::OpenVR::CVRSystem* m_pVRSystem;
     // Field size check
-    static_assert(sizeof(OVR::OpenVR::CVRSystem*) == 0x8);
+    static_assert(sizeof(::OVR::OpenVR::CVRSystem*) == 0x8);
     // private OVR.OpenVR.CVRChaperone m_pVRChaperone
     // Size: 0x8
     // Offset: 0x18
-    OVR::OpenVR::CVRChaperone* m_pVRChaperone;
+    ::OVR::OpenVR::CVRChaperone* m_pVRChaperone;
     // Field size check
-    static_assert(sizeof(OVR::OpenVR::CVRChaperone*) == 0x8);
+    static_assert(sizeof(::OVR::OpenVR::CVRChaperone*) == 0x8);
     // private OVR.OpenVR.CVRChaperoneSetup m_pVRChaperoneSetup
     // Size: 0x8
     // Offset: 0x20
-    OVR::OpenVR::CVRChaperoneSetup* m_pVRChaperoneSetup;
+    ::OVR::OpenVR::CVRChaperoneSetup* m_pVRChaperoneSetup;
     // Field size check
-    static_assert(sizeof(OVR::OpenVR::CVRChaperoneSetup*) == 0x8);
+    static_assert(sizeof(::OVR::OpenVR::CVRChaperoneSetup*) == 0x8);
     // private OVR.OpenVR.CVRCompositor m_pVRCompositor
     // Size: 0x8
     // Offset: 0x28
-    OVR::OpenVR::CVRCompositor* m_pVRCompositor;
+    ::OVR::OpenVR::CVRCompositor* m_pVRCompositor;
     // Field size check
-    static_assert(sizeof(OVR::OpenVR::CVRCompositor*) == 0x8);
+    static_assert(sizeof(::OVR::OpenVR::CVRCompositor*) == 0x8);
     // private OVR.OpenVR.CVROverlay m_pVROverlay
     // Size: 0x8
     // Offset: 0x30
-    OVR::OpenVR::CVROverlay* m_pVROverlay;
+    ::OVR::OpenVR::CVROverlay* m_pVROverlay;
     // Field size check
-    static_assert(sizeof(OVR::OpenVR::CVROverlay*) == 0x8);
+    static_assert(sizeof(::OVR::OpenVR::CVROverlay*) == 0x8);
     // private OVR.OpenVR.CVRRenderModels m_pVRRenderModels
     // Size: 0x8
     // Offset: 0x38
-    OVR::OpenVR::CVRRenderModels* m_pVRRenderModels;
+    ::OVR::OpenVR::CVRRenderModels* m_pVRRenderModels;
     // Field size check
-    static_assert(sizeof(OVR::OpenVR::CVRRenderModels*) == 0x8);
+    static_assert(sizeof(::OVR::OpenVR::CVRRenderModels*) == 0x8);
     // private OVR.OpenVR.CVRExtendedDisplay m_pVRExtendedDisplay
     // Size: 0x8
     // Offset: 0x40
-    OVR::OpenVR::CVRExtendedDisplay* m_pVRExtendedDisplay;
+    ::OVR::OpenVR::CVRExtendedDisplay* m_pVRExtendedDisplay;
     // Field size check
-    static_assert(sizeof(OVR::OpenVR::CVRExtendedDisplay*) == 0x8);
+    static_assert(sizeof(::OVR::OpenVR::CVRExtendedDisplay*) == 0x8);
     // private OVR.OpenVR.CVRSettings m_pVRSettings
     // Size: 0x8
     // Offset: 0x48
-    OVR::OpenVR::CVRSettings* m_pVRSettings;
+    ::OVR::OpenVR::CVRSettings* m_pVRSettings;
     // Field size check
-    static_assert(sizeof(OVR::OpenVR::CVRSettings*) == 0x8);
+    static_assert(sizeof(::OVR::OpenVR::CVRSettings*) == 0x8);
     // private OVR.OpenVR.CVRApplications m_pVRApplications
     // Size: 0x8
     // Offset: 0x50
-    OVR::OpenVR::CVRApplications* m_pVRApplications;
+    ::OVR::OpenVR::CVRApplications* m_pVRApplications;
     // Field size check
-    static_assert(sizeof(OVR::OpenVR::CVRApplications*) == 0x8);
+    static_assert(sizeof(::OVR::OpenVR::CVRApplications*) == 0x8);
     // private OVR.OpenVR.CVRScreenshots m_pVRScreenshots
     // Size: 0x8
     // Offset: 0x58
-    OVR::OpenVR::CVRScreenshots* m_pVRScreenshots;
+    ::OVR::OpenVR::CVRScreenshots* m_pVRScreenshots;
     // Field size check
-    static_assert(sizeof(OVR::OpenVR::CVRScreenshots*) == 0x8);
+    static_assert(sizeof(::OVR::OpenVR::CVRScreenshots*) == 0x8);
     // private OVR.OpenVR.CVRTrackedCamera m_pVRTrackedCamera
     // Size: 0x8
     // Offset: 0x60
-    OVR::OpenVR::CVRTrackedCamera* m_pVRTrackedCamera;
+    ::OVR::OpenVR::CVRTrackedCamera* m_pVRTrackedCamera;
     // Field size check
-    static_assert(sizeof(OVR::OpenVR::CVRTrackedCamera*) == 0x8);
+    static_assert(sizeof(::OVR::OpenVR::CVRTrackedCamera*) == 0x8);
     // private OVR.OpenVR.CVRInput m_pVRInput
     // Size: 0x8
     // Offset: 0x68
-    OVR::OpenVR::CVRInput* m_pVRInput;
+    ::OVR::OpenVR::CVRInput* m_pVRInput;
     // Field size check
-    static_assert(sizeof(OVR::OpenVR::CVRInput*) == 0x8);
+    static_assert(sizeof(::OVR::OpenVR::CVRInput*) == 0x8);
     // private OVR.OpenVR.CVRSpatialAnchors m_pVRSpatialAnchors
     // Size: 0x8
     // Offset: 0x70
-    OVR::OpenVR::CVRSpatialAnchors* m_pVRSpatialAnchors;
+    ::OVR::OpenVR::CVRSpatialAnchors* m_pVRSpatialAnchors;
     // Field size check
-    static_assert(sizeof(OVR::OpenVR::CVRSpatialAnchors*) == 0x8);
+    static_assert(sizeof(::OVR::OpenVR::CVRSpatialAnchors*) == 0x8);
     public:
     // Get instance field reference: private OVR.OpenVR.CVRSystem m_pVRSystem
-    OVR::OpenVR::CVRSystem*& dyn_m_pVRSystem();
+    ::OVR::OpenVR::CVRSystem*& dyn_m_pVRSystem();
     // Get instance field reference: private OVR.OpenVR.CVRChaperone m_pVRChaperone
-    OVR::OpenVR::CVRChaperone*& dyn_m_pVRChaperone();
+    ::OVR::OpenVR::CVRChaperone*& dyn_m_pVRChaperone();
     // Get instance field reference: private OVR.OpenVR.CVRChaperoneSetup m_pVRChaperoneSetup
-    OVR::OpenVR::CVRChaperoneSetup*& dyn_m_pVRChaperoneSetup();
+    ::OVR::OpenVR::CVRChaperoneSetup*& dyn_m_pVRChaperoneSetup();
     // Get instance field reference: private OVR.OpenVR.CVRCompositor m_pVRCompositor
-    OVR::OpenVR::CVRCompositor*& dyn_m_pVRCompositor();
+    ::OVR::OpenVR::CVRCompositor*& dyn_m_pVRCompositor();
     // Get instance field reference: private OVR.OpenVR.CVROverlay m_pVROverlay
-    OVR::OpenVR::CVROverlay*& dyn_m_pVROverlay();
+    ::OVR::OpenVR::CVROverlay*& dyn_m_pVROverlay();
     // Get instance field reference: private OVR.OpenVR.CVRRenderModels m_pVRRenderModels
-    OVR::OpenVR::CVRRenderModels*& dyn_m_pVRRenderModels();
+    ::OVR::OpenVR::CVRRenderModels*& dyn_m_pVRRenderModels();
     // Get instance field reference: private OVR.OpenVR.CVRExtendedDisplay m_pVRExtendedDisplay
-    OVR::OpenVR::CVRExtendedDisplay*& dyn_m_pVRExtendedDisplay();
+    ::OVR::OpenVR::CVRExtendedDisplay*& dyn_m_pVRExtendedDisplay();
     // Get instance field reference: private OVR.OpenVR.CVRSettings m_pVRSettings
-    OVR::OpenVR::CVRSettings*& dyn_m_pVRSettings();
+    ::OVR::OpenVR::CVRSettings*& dyn_m_pVRSettings();
     // Get instance field reference: private OVR.OpenVR.CVRApplications m_pVRApplications
-    OVR::OpenVR::CVRApplications*& dyn_m_pVRApplications();
+    ::OVR::OpenVR::CVRApplications*& dyn_m_pVRApplications();
     // Get instance field reference: private OVR.OpenVR.CVRScreenshots m_pVRScreenshots
-    OVR::OpenVR::CVRScreenshots*& dyn_m_pVRScreenshots();
+    ::OVR::OpenVR::CVRScreenshots*& dyn_m_pVRScreenshots();
     // Get instance field reference: private OVR.OpenVR.CVRTrackedCamera m_pVRTrackedCamera
-    OVR::OpenVR::CVRTrackedCamera*& dyn_m_pVRTrackedCamera();
+    ::OVR::OpenVR::CVRTrackedCamera*& dyn_m_pVRTrackedCamera();
     // Get instance field reference: private OVR.OpenVR.CVRInput m_pVRInput
-    OVR::OpenVR::CVRInput*& dyn_m_pVRInput();
+    ::OVR::OpenVR::CVRInput*& dyn_m_pVRInput();
     // Get instance field reference: private OVR.OpenVR.CVRSpatialAnchors m_pVRSpatialAnchors
-    OVR::OpenVR::CVRSpatialAnchors*& dyn_m_pVRSpatialAnchors();
+    ::OVR::OpenVR::CVRSpatialAnchors*& dyn_m_pVRSpatialAnchors();
     // public System.Void Clear()
     // Offset: 0x15A0F94
     void Clear();
@@ -176,55 +176,55 @@ namespace OVR::OpenVR {
     void CheckClear();
     // public OVR.OpenVR.CVRSystem VRSystem()
     // Offset: 0x159FE8C
-    OVR::OpenVR::CVRSystem* VRSystem();
+    ::OVR::OpenVR::CVRSystem* VRSystem();
     // public OVR.OpenVR.CVRChaperone VRChaperone()
     // Offset: 0x159FFB4
-    OVR::OpenVR::CVRChaperone* VRChaperone();
+    ::OVR::OpenVR::CVRChaperone* VRChaperone();
     // public OVR.OpenVR.CVRChaperoneSetup VRChaperoneSetup()
     // Offset: 0x15A00DC
-    OVR::OpenVR::CVRChaperoneSetup* VRChaperoneSetup();
+    ::OVR::OpenVR::CVRChaperoneSetup* VRChaperoneSetup();
     // public OVR.OpenVR.CVRCompositor VRCompositor()
     // Offset: 0x15A0204
-    OVR::OpenVR::CVRCompositor* VRCompositor();
+    ::OVR::OpenVR::CVRCompositor* VRCompositor();
     // public OVR.OpenVR.CVROverlay VROverlay()
     // Offset: 0x15A032C
-    OVR::OpenVR::CVROverlay* VROverlay();
+    ::OVR::OpenVR::CVROverlay* VROverlay();
     // public OVR.OpenVR.CVRRenderModels VRRenderModels()
     // Offset: 0x15A0454
-    OVR::OpenVR::CVRRenderModels* VRRenderModels();
+    ::OVR::OpenVR::CVRRenderModels* VRRenderModels();
     // public OVR.OpenVR.CVRExtendedDisplay VRExtendedDisplay()
     // Offset: 0x15A057C
-    OVR::OpenVR::CVRExtendedDisplay* VRExtendedDisplay();
+    ::OVR::OpenVR::CVRExtendedDisplay* VRExtendedDisplay();
     // public OVR.OpenVR.CVRSettings VRSettings()
     // Offset: 0x15A06A4
-    OVR::OpenVR::CVRSettings* VRSettings();
+    ::OVR::OpenVR::CVRSettings* VRSettings();
     // public OVR.OpenVR.CVRApplications VRApplications()
     // Offset: 0x15A07CC
-    OVR::OpenVR::CVRApplications* VRApplications();
+    ::OVR::OpenVR::CVRApplications* VRApplications();
     // public OVR.OpenVR.CVRScreenshots VRScreenshots()
     // Offset: 0x15A08F4
-    OVR::OpenVR::CVRScreenshots* VRScreenshots();
+    ::OVR::OpenVR::CVRScreenshots* VRScreenshots();
     // public OVR.OpenVR.CVRTrackedCamera VRTrackedCamera()
     // Offset: 0x15A0A1C
-    OVR::OpenVR::CVRTrackedCamera* VRTrackedCamera();
+    ::OVR::OpenVR::CVRTrackedCamera* VRTrackedCamera();
     // public OVR.OpenVR.CVRInput VRInput()
     // Offset: 0x15A0B44
-    OVR::OpenVR::CVRInput* VRInput();
+    ::OVR::OpenVR::CVRInput* VRInput();
     // public OVR.OpenVR.CVRSpatialAnchors VRSpatialAnchors()
     // Offset: 0x15A0C6C
-    OVR::OpenVR::CVRSpatialAnchors* VRSpatialAnchors();
+    ::OVR::OpenVR::CVRSpatialAnchors* VRSpatialAnchors();
     // public System.Void .ctor()
     // Offset: 0x159FDF4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OpenVR::COpenVRContext* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::OpenVR::COpenVRContext::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::OVR::OpenVR::OpenVR::COpenVRContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OpenVR::COpenVRContext*, creationType>()));
     }
   }; // OVR.OpenVR.OpenVR/OVR.OpenVR.COpenVRContext
   #pragma pack(pop)
-  static check_size<sizeof(OpenVR::COpenVRContext), 112 + sizeof(OVR::OpenVR::CVRSpatialAnchors*)> __OVR_OpenVR_OpenVR_COpenVRContextSizeCheck;
+  static check_size<sizeof(OpenVR::COpenVRContext), 112 + sizeof(::OVR::OpenVR::CVRSpatialAnchors*)> __OVR_OpenVR_OpenVR_COpenVRContextSizeCheck;
   static_assert(sizeof(OpenVR::COpenVRContext) == 0x78);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -247,7 +247,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::OpenVR::COpenVRContext::VRSystem
 // Il2CppName: VRSystem
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::CVRSystem* (OVR::OpenVR::OpenVR::COpenVRContext::*)()>(&OVR::OpenVR::OpenVR::COpenVRContext::VRSystem)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::CVRSystem* (OVR::OpenVR::OpenVR::COpenVRContext::*)()>(&OVR::OpenVR::OpenVR::COpenVRContext::VRSystem)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::OpenVR::COpenVRContext*), "VRSystem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -255,7 +255,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::OpenVR::COpenVRContext::VRChaperone
 // Il2CppName: VRChaperone
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::CVRChaperone* (OVR::OpenVR::OpenVR::COpenVRContext::*)()>(&OVR::OpenVR::OpenVR::COpenVRContext::VRChaperone)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::CVRChaperone* (OVR::OpenVR::OpenVR::COpenVRContext::*)()>(&OVR::OpenVR::OpenVR::COpenVRContext::VRChaperone)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::OpenVR::COpenVRContext*), "VRChaperone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -263,7 +263,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::OpenVR::COpenVRContext::VRChaperoneSetup
 // Il2CppName: VRChaperoneSetup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::CVRChaperoneSetup* (OVR::OpenVR::OpenVR::COpenVRContext::*)()>(&OVR::OpenVR::OpenVR::COpenVRContext::VRChaperoneSetup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::CVRChaperoneSetup* (OVR::OpenVR::OpenVR::COpenVRContext::*)()>(&OVR::OpenVR::OpenVR::COpenVRContext::VRChaperoneSetup)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::OpenVR::COpenVRContext*), "VRChaperoneSetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -271,7 +271,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::OpenVR::COpenVRContext::VRCompositor
 // Il2CppName: VRCompositor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::CVRCompositor* (OVR::OpenVR::OpenVR::COpenVRContext::*)()>(&OVR::OpenVR::OpenVR::COpenVRContext::VRCompositor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::CVRCompositor* (OVR::OpenVR::OpenVR::COpenVRContext::*)()>(&OVR::OpenVR::OpenVR::COpenVRContext::VRCompositor)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::OpenVR::COpenVRContext*), "VRCompositor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -279,7 +279,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::OpenVR::COpenVRContext::VROverlay
 // Il2CppName: VROverlay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::CVROverlay* (OVR::OpenVR::OpenVR::COpenVRContext::*)()>(&OVR::OpenVR::OpenVR::COpenVRContext::VROverlay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::CVROverlay* (OVR::OpenVR::OpenVR::COpenVRContext::*)()>(&OVR::OpenVR::OpenVR::COpenVRContext::VROverlay)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::OpenVR::COpenVRContext*), "VROverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -287,7 +287,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::OpenVR::COpenVRContext::VRRenderModels
 // Il2CppName: VRRenderModels
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::CVRRenderModels* (OVR::OpenVR::OpenVR::COpenVRContext::*)()>(&OVR::OpenVR::OpenVR::COpenVRContext::VRRenderModels)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::CVRRenderModels* (OVR::OpenVR::OpenVR::COpenVRContext::*)()>(&OVR::OpenVR::OpenVR::COpenVRContext::VRRenderModels)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::OpenVR::COpenVRContext*), "VRRenderModels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -295,7 +295,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::OpenVR::COpenVRContext::VRExtendedDisplay
 // Il2CppName: VRExtendedDisplay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::CVRExtendedDisplay* (OVR::OpenVR::OpenVR::COpenVRContext::*)()>(&OVR::OpenVR::OpenVR::COpenVRContext::VRExtendedDisplay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::CVRExtendedDisplay* (OVR::OpenVR::OpenVR::COpenVRContext::*)()>(&OVR::OpenVR::OpenVR::COpenVRContext::VRExtendedDisplay)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::OpenVR::COpenVRContext*), "VRExtendedDisplay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -303,7 +303,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::OpenVR::COpenVRContext::VRSettings
 // Il2CppName: VRSettings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::CVRSettings* (OVR::OpenVR::OpenVR::COpenVRContext::*)()>(&OVR::OpenVR::OpenVR::COpenVRContext::VRSettings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::CVRSettings* (OVR::OpenVR::OpenVR::COpenVRContext::*)()>(&OVR::OpenVR::OpenVR::COpenVRContext::VRSettings)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::OpenVR::COpenVRContext*), "VRSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -311,7 +311,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::OpenVR::COpenVRContext::VRApplications
 // Il2CppName: VRApplications
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::CVRApplications* (OVR::OpenVR::OpenVR::COpenVRContext::*)()>(&OVR::OpenVR::OpenVR::COpenVRContext::VRApplications)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::CVRApplications* (OVR::OpenVR::OpenVR::COpenVRContext::*)()>(&OVR::OpenVR::OpenVR::COpenVRContext::VRApplications)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::OpenVR::COpenVRContext*), "VRApplications", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -319,7 +319,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::OpenVR::COpenVRContext::VRScreenshots
 // Il2CppName: VRScreenshots
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::CVRScreenshots* (OVR::OpenVR::OpenVR::COpenVRContext::*)()>(&OVR::OpenVR::OpenVR::COpenVRContext::VRScreenshots)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::CVRScreenshots* (OVR::OpenVR::OpenVR::COpenVRContext::*)()>(&OVR::OpenVR::OpenVR::COpenVRContext::VRScreenshots)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::OpenVR::COpenVRContext*), "VRScreenshots", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -327,7 +327,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::OpenVR::COpenVRContext::VRTrackedCamera
 // Il2CppName: VRTrackedCamera
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::CVRTrackedCamera* (OVR::OpenVR::OpenVR::COpenVRContext::*)()>(&OVR::OpenVR::OpenVR::COpenVRContext::VRTrackedCamera)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::CVRTrackedCamera* (OVR::OpenVR::OpenVR::COpenVRContext::*)()>(&OVR::OpenVR::OpenVR::COpenVRContext::VRTrackedCamera)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::OpenVR::COpenVRContext*), "VRTrackedCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -335,7 +335,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::OpenVR::COpenVRContext::VRInput
 // Il2CppName: VRInput
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::CVRInput* (OVR::OpenVR::OpenVR::COpenVRContext::*)()>(&OVR::OpenVR::OpenVR::COpenVRContext::VRInput)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::CVRInput* (OVR::OpenVR::OpenVR::COpenVRContext::*)()>(&OVR::OpenVR::OpenVR::COpenVRContext::VRInput)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::OpenVR::COpenVRContext*), "VRInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -343,7 +343,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::OpenVR::COpenVRContext::VRSpatialAnchors
 // Il2CppName: VRSpatialAnchors
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::CVRSpatialAnchors* (OVR::OpenVR::OpenVR::COpenVRContext::*)()>(&OVR::OpenVR::OpenVR::COpenVRContext::VRSpatialAnchors)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::CVRSpatialAnchors* (OVR::OpenVR::OpenVR::COpenVRContext::*)()>(&OVR::OpenVR::OpenVR::COpenVRContext::VRSpatialAnchors)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::OpenVR::COpenVRContext*), "VRSpatialAnchors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

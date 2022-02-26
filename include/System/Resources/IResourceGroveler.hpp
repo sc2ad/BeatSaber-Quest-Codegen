@@ -11,8 +11,8 @@ namespace System::Resources {
   class IResourceGroveler;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Resources::IResourceGroveler);
-DEFINE_IL2CPP_ARG_TYPE(System::Resources::IResourceGroveler*, "System.Resources", "IResourceGroveler");
+NEED_NO_BOX(::System::Resources::IResourceGroveler);
+DEFINE_IL2CPP_ARG_TYPE(::System::Resources::IResourceGroveler*, "System.Resources", "IResourceGroveler");
 // Type namespace: System.Resources
 namespace System::Resources {
   // Size: 0x10

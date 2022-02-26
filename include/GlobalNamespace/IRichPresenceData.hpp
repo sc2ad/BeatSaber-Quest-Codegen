@@ -12,8 +12,8 @@ namespace GlobalNamespace {
   class IRichPresenceData;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::IRichPresenceData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IRichPresenceData*, "", "IRichPresenceData");
+NEED_NO_BOX(::GlobalNamespace::IRichPresenceData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IRichPresenceData*, "", "IRichPresenceData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10

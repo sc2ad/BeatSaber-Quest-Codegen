@@ -19,8 +19,8 @@ namespace Microsoft::Extensions::Logging {
   class ILogger;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Microsoft::Extensions::Logging::ILogger);
-DEFINE_IL2CPP_ARG_TYPE(Microsoft::Extensions::Logging::ILogger*, "Microsoft.Extensions.Logging", "ILogger");
+NEED_NO_BOX(::Microsoft::Extensions::Logging::ILogger);
+DEFINE_IL2CPP_ARG_TYPE(::Microsoft::Extensions::Logging::ILogger*, "Microsoft.Extensions.Logging", "ILogger");
 // Type namespace: Microsoft.Extensions.Logging
 namespace Microsoft::Extensions::Logging {
   // Size: 0x10
@@ -34,7 +34,7 @@ namespace Microsoft::Extensions::Logging {
     void LogError(::StringW message);
     // public System.Void LogError(System.Exception exception, System.String message)
     // Offset: 0xFFFFFFFF
-    void LogError(System::Exception* exception, ::StringW message);
+    void LogError(::System::Exception* exception, ::StringW message);
     // public System.Void LogInformation(System.String message)
     // Offset: 0xFFFFFFFF
     void LogInformation(::StringW message);
@@ -57,7 +57,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Micro
 // Writing MetadataGetter for method: Microsoft::Extensions::Logging::ILogger::LogError
 // Il2CppName: LogError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Microsoft::Extensions::Logging::ILogger::*)(System::Exception*, ::StringW)>(&Microsoft::Extensions::Logging::ILogger::LogError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Microsoft::Extensions::Logging::ILogger::*)(::System::Exception*, ::StringW)>(&Microsoft::Extensions::Logging::ILogger::LogError)> {
   static const MethodInfo* get() {
     static auto* exception = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

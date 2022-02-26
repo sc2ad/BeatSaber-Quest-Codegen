@@ -30,8 +30,8 @@ namespace GlobalNamespace {
   class StandardLevelInfoSaveData_V100;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::StandardLevelInfoSaveData_V100);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelInfoSaveData_V100*, "", "StandardLevelInfoSaveData_V100");
+NEED_NO_BOX(::GlobalNamespace::StandardLevelInfoSaveData_V100);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StandardLevelInfoSaveData_V100*, "", "StandardLevelInfoSaveData_V100");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x70
@@ -40,9 +40,9 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class StandardLevelInfoSaveData_V100 : public ::Il2CppObject {
     public:
-    // Nested type: GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap
+    // Nested type: ::GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap
     class DifficultyBeatmap;
-    // Nested type: GlobalNamespace::StandardLevelInfoSaveData_V100::VersionCheck
+    // Nested type: ::GlobalNamespace::StandardLevelInfoSaveData_V100::VersionCheck
     class VersionCheck;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -143,9 +143,9 @@ namespace GlobalNamespace {
     // private StandardLevelInfoSaveData_V100/DifficultyBeatmap[] _difficultyBeatmaps
     // Size: 0x8
     // Offset: 0x68
-    ::ArrayW<GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap*> difficultyBeatmaps;
+    ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap*> difficultyBeatmaps;
     // Field size check
-    static_assert(sizeof(::ArrayW<GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap*>) == 0x8);
     public:
     // static field const value: static public System.String kCurrentVersion
     static constexpr const char* kCurrentVersion = "1.0.0";
@@ -182,7 +182,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _environmentName
     ::StringW& dyn__environmentName();
     // Get instance field reference: private StandardLevelInfoSaveData_V100/DifficultyBeatmap[] _difficultyBeatmaps
-    ::ArrayW<GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap*>& dyn__difficultyBeatmaps();
+    ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap*>& dyn__difficultyBeatmaps();
     // public System.String get_version()
     // Offset: 0x2ADCB4C
     ::StringW get_version();
@@ -227,15 +227,15 @@ namespace GlobalNamespace {
     ::StringW get_environmentName();
     // public StandardLevelInfoSaveData_V100/DifficultyBeatmap[] get_difficultyBeatmaps()
     // Offset: 0x2ADCBBC
-    ::ArrayW<GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap*> get_difficultyBeatmaps();
+    ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap*> get_difficultyBeatmaps();
     // public System.Boolean get_hasAllData()
     // Offset: 0x2ADCCAC
     bool get_hasAllData();
     // public System.Void .ctor(System.String songName, System.String songSubName, System.String songAuthorName, System.String levelAuthorName, System.Single beatsPerMinute, System.Single songTimeOffset, System.Single shuffle, System.Single shufflePeriod, System.Single previewStartTime, System.Single previewDuration, System.String songFilename, System.String coverImageFilename, System.String environmentName, StandardLevelInfoSaveData_V100/DifficultyBeatmap[] difficultyBeatmaps)
     // Offset: 0x2ADCBC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static StandardLevelInfoSaveData_V100* New_ctor(::StringW songName, ::StringW songSubName, ::StringW songAuthorName, ::StringW levelAuthorName, float beatsPerMinute, float songTimeOffset, float shuffle, float shufflePeriod, float previewStartTime, float previewDuration, ::StringW songFilename, ::StringW coverImageFilename, ::StringW environmentName, ::ArrayW<GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap*> difficultyBeatmaps) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StandardLevelInfoSaveData_V100::.ctor");
+    static StandardLevelInfoSaveData_V100* New_ctor(::StringW songName, ::StringW songSubName, ::StringW songAuthorName, ::StringW levelAuthorName, float beatsPerMinute, float songTimeOffset, float shuffle, float shufflePeriod, float previewStartTime, float previewDuration, ::StringW songFilename, ::StringW coverImageFilename, ::StringW environmentName, ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap*> difficultyBeatmaps) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::StandardLevelInfoSaveData_V100::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StandardLevelInfoSaveData_V100*, creationType>(songName, songSubName, songAuthorName, levelAuthorName, beatsPerMinute, songTimeOffset, shuffle, shufflePeriod, previewStartTime, previewDuration, songFilename, coverImageFilename, environmentName, difficultyBeatmaps)));
     }
     // public System.Void SetSongFilename(System.String songFilename)
@@ -246,10 +246,10 @@ namespace GlobalNamespace {
     ::StringW SerializeToJSONString();
     // static public StandardLevelInfoSaveData DeserializeFromJSONString(System.String stringData)
     // Offset: 0x2ADCD20
-    static GlobalNamespace::StandardLevelInfoSaveData* DeserializeFromJSONString(::StringW stringData);
+    static ::GlobalNamespace::StandardLevelInfoSaveData* DeserializeFromJSONString(::StringW stringData);
   }; // StandardLevelInfoSaveData_V100
   #pragma pack(pop)
-  static check_size<sizeof(StandardLevelInfoSaveData_V100), 104 + sizeof(::ArrayW<GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap*>)> __GlobalNamespace_StandardLevelInfoSaveData_V100SizeCheck;
+  static check_size<sizeof(StandardLevelInfoSaveData_V100), 104 + sizeof(::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap*>)> __GlobalNamespace_StandardLevelInfoSaveData_V100SizeCheck;
   static_assert(sizeof(StandardLevelInfoSaveData_V100) == 0x70);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -368,7 +368,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelInfoSaveData_V100::get_difficultyBeatmaps
 // Il2CppName: get_difficultyBeatmaps
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap*> (GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&GlobalNamespace::StandardLevelInfoSaveData_V100::get_difficultyBeatmaps)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap*> (GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&GlobalNamespace::StandardLevelInfoSaveData_V100::get_difficultyBeatmaps)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelInfoSaveData_V100*), "get_difficultyBeatmaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -405,7 +405,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelInfoSaveData_V100::DeserializeFromJSONString
 // Il2CppName: DeserializeFromJSONString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::StandardLevelInfoSaveData* (*)(::StringW)>(&GlobalNamespace::StandardLevelInfoSaveData_V100::DeserializeFromJSONString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::StandardLevelInfoSaveData* (*)(::StringW)>(&GlobalNamespace::StandardLevelInfoSaveData_V100::DeserializeFromJSONString)> {
   static const MethodInfo* get() {
     static auto* stringData = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelInfoSaveData_V100*), "DeserializeFromJSONString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stringData});

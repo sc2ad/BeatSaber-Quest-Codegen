@@ -18,8 +18,8 @@ namespace Oculus::Platform::Models {
   class NetworkingPeer;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::NetworkingPeer);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::NetworkingPeer*, "Oculus.Platform.Models", "NetworkingPeer");
+NEED_NO_BOX(::Oculus::Platform::Models::NetworkingPeer);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::NetworkingPeer*, "Oculus.Platform.Models", "NetworkingPeer");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x1C
@@ -46,14 +46,14 @@ namespace Oculus::Platform::Models {
     // private Oculus.Platform.PeerConnectionState <State>k__BackingField
     // Size: 0x4
     // Offset: 0x18
-    Oculus::Platform::PeerConnectionState State;
+    ::Oculus::Platform::PeerConnectionState State;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::PeerConnectionState) == 0x4);
+    static_assert(sizeof(::Oculus::Platform::PeerConnectionState) == 0x4);
     public:
     // Get instance field reference: private System.UInt64 <ID>k__BackingField
     uint64_t& dyn_$ID$k__BackingField();
     // Get instance field reference: private Oculus.Platform.PeerConnectionState <State>k__BackingField
-    Oculus::Platform::PeerConnectionState& dyn_$State$k__BackingField();
+    ::Oculus::Platform::PeerConnectionState& dyn_$State$k__BackingField();
     // public System.UInt64 get_ID()
     // Offset: 0x196DE7C
     uint64_t get_ID();
@@ -62,20 +62,20 @@ namespace Oculus::Platform::Models {
     void set_ID(uint64_t value);
     // public Oculus.Platform.PeerConnectionState get_State()
     // Offset: 0x196DE8C
-    Oculus::Platform::PeerConnectionState get_State();
+    ::Oculus::Platform::PeerConnectionState get_State();
     // private System.Void set_State(Oculus.Platform.PeerConnectionState value)
     // Offset: 0x196DE94
-    void set_State(Oculus::Platform::PeerConnectionState value);
+    void set_State(::Oculus::Platform::PeerConnectionState value);
     // public System.Void .ctor(System.UInt64 id, Oculus.Platform.PeerConnectionState state)
     // Offset: 0x1969E04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static NetworkingPeer* New_ctor(uint64_t id, Oculus::Platform::PeerConnectionState state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::NetworkingPeer::.ctor");
+    static NetworkingPeer* New_ctor(uint64_t id, ::Oculus::Platform::PeerConnectionState state) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::NetworkingPeer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetworkingPeer*, creationType>(id, state)));
     }
   }; // Oculus.Platform.Models.NetworkingPeer
   #pragma pack(pop)
-  static check_size<sizeof(NetworkingPeer), 24 + sizeof(Oculus::Platform::PeerConnectionState)> __Oculus_Platform_Models_NetworkingPeerSizeCheck;
+  static check_size<sizeof(NetworkingPeer), 24 + sizeof(::Oculus::Platform::PeerConnectionState)> __Oculus_Platform_Models_NetworkingPeerSizeCheck;
   static_assert(sizeof(NetworkingPeer) == 0x1C);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -99,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 // Writing MetadataGetter for method: Oculus::Platform::Models::NetworkingPeer::get_State
 // Il2CppName: get_State
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::PeerConnectionState (Oculus::Platform::Models::NetworkingPeer::*)()>(&Oculus::Platform::Models::NetworkingPeer::get_State)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::PeerConnectionState (Oculus::Platform::Models::NetworkingPeer::*)()>(&Oculus::Platform::Models::NetworkingPeer::get_State)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Models::NetworkingPeer*), "get_State", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -107,7 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Writing MetadataGetter for method: Oculus::Platform::Models::NetworkingPeer::set_State
 // Il2CppName: set_State
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::Models::NetworkingPeer::*)(Oculus::Platform::PeerConnectionState)>(&Oculus::Platform::Models::NetworkingPeer::set_State)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::Models::NetworkingPeer::*)(::Oculus::Platform::PeerConnectionState)>(&Oculus::Platform::Models::NetworkingPeer::set_State)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "PeerConnectionState")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Models::NetworkingPeer*), "set_State", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

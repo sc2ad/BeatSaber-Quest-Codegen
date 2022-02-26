@@ -30,8 +30,8 @@ namespace System::Threading {
   class SynchronizationContext;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Threading::SynchronizationContext);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::SynchronizationContext*, "System.Threading", "SynchronizationContext");
+NEED_NO_BOX(::System::Threading::SynchronizationContext);
+DEFINE_IL2CPP_ARG_TYPE(::System::Threading::SynchronizationContext*, "System.Threading", "SynchronizationContext");
 // Type namespace: System.Threading
 namespace System::Threading {
   // Size: 0x14
@@ -52,48 +52,48 @@ namespace System::Threading {
     // private System.Threading.SynchronizationContextProperties _props
     // Size: 0x4
     // Offset: 0x10
-    System::Threading::SynchronizationContextProperties props;
+    ::System::Threading::SynchronizationContextProperties props;
     // Field size check
-    static_assert(sizeof(System::Threading::SynchronizationContextProperties) == 0x4);
+    static_assert(sizeof(::System::Threading::SynchronizationContextProperties) == 0x4);
     public:
-    // Creating conversion operator: operator System::Threading::SynchronizationContextProperties
-    constexpr operator System::Threading::SynchronizationContextProperties() const noexcept {
+    // Creating conversion operator: operator ::System::Threading::SynchronizationContextProperties
+    constexpr operator ::System::Threading::SynchronizationContextProperties() const noexcept {
       return props;
     }
     // Get static field: static private System.Type s_cachedPreparedType1
-    static System::Type* _get_s_cachedPreparedType1();
+    static ::System::Type* _get_s_cachedPreparedType1();
     // Set static field: static private System.Type s_cachedPreparedType1
-    static void _set_s_cachedPreparedType1(System::Type* value);
+    static void _set_s_cachedPreparedType1(::System::Type* value);
     // Get static field: static private System.Type s_cachedPreparedType2
-    static System::Type* _get_s_cachedPreparedType2();
+    static ::System::Type* _get_s_cachedPreparedType2();
     // Set static field: static private System.Type s_cachedPreparedType2
-    static void _set_s_cachedPreparedType2(System::Type* value);
+    static void _set_s_cachedPreparedType2(::System::Type* value);
     // Get static field: static private System.Type s_cachedPreparedType3
-    static System::Type* _get_s_cachedPreparedType3();
+    static ::System::Type* _get_s_cachedPreparedType3();
     // Set static field: static private System.Type s_cachedPreparedType3
-    static void _set_s_cachedPreparedType3(System::Type* value);
+    static void _set_s_cachedPreparedType3(::System::Type* value);
     // Get static field: static private System.Type s_cachedPreparedType4
-    static System::Type* _get_s_cachedPreparedType4();
+    static ::System::Type* _get_s_cachedPreparedType4();
     // Set static field: static private System.Type s_cachedPreparedType4
-    static void _set_s_cachedPreparedType4(System::Type* value);
+    static void _set_s_cachedPreparedType4(::System::Type* value);
     // Get static field: static private System.Type s_cachedPreparedType5
-    static System::Type* _get_s_cachedPreparedType5();
+    static ::System::Type* _get_s_cachedPreparedType5();
     // Set static field: static private System.Type s_cachedPreparedType5
-    static void _set_s_cachedPreparedType5(System::Type* value);
+    static void _set_s_cachedPreparedType5(::System::Type* value);
     // Get instance field reference: private System.Threading.SynchronizationContextProperties _props
-    System::Threading::SynchronizationContextProperties& dyn__props();
+    ::System::Threading::SynchronizationContextProperties& dyn__props();
     // static public System.Threading.SynchronizationContext get_Current()
     // Offset: 0x1C29D6C
-    static System::Threading::SynchronizationContext* get_Current();
+    static ::System::Threading::SynchronizationContext* get_Current();
     // static System.Threading.SynchronizationContext get_CurrentNoFlow()
     // Offset: 0x1C342B0
-    static System::Threading::SynchronizationContext* get_CurrentNoFlow();
+    static ::System::Threading::SynchronizationContext* get_CurrentNoFlow();
     // public System.Void Send(System.Threading.SendOrPostCallback d, System.Object state)
     // Offset: 0x1C34170
-    void Send(System::Threading::SendOrPostCallback* d, ::Il2CppObject* state);
+    void Send(::System::Threading::SendOrPostCallback* d, ::Il2CppObject* state);
     // public System.Void Post(System.Threading.SendOrPostCallback d, System.Object state)
     // Offset: 0x1C3418C
-    void Post(System::Threading::SendOrPostCallback* d, ::Il2CppObject* state);
+    void Post(::System::Threading::SendOrPostCallback* d, ::Il2CppObject* state);
     // public System.Void OperationStarted()
     // Offset: 0x1C34210
     void OperationStarted();
@@ -102,32 +102,32 @@ namespace System::Threading {
     void OperationCompleted();
     // static public System.Void SetSynchronizationContext(System.Threading.SynchronizationContext syncContext)
     // Offset: 0x1C34218
-    static void SetSynchronizationContext(System::Threading::SynchronizationContext* syncContext);
+    static void SetSynchronizationContext(::System::Threading::SynchronizationContext* syncContext);
     // static private System.Threading.SynchronizationContext GetThreadLocalContext()
     // Offset: 0x1C34254
-    static System::Threading::SynchronizationContext* GetThreadLocalContext();
+    static ::System::Threading::SynchronizationContext* GetThreadLocalContext();
     // public System.Threading.SynchronizationContext CreateCopy()
     // Offset: 0x1C342EC
-    System::Threading::SynchronizationContext* CreateCopy();
+    ::System::Threading::SynchronizationContext* CreateCopy();
     // public System.Void .ctor()
     // Offset: 0x1C2F9A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SynchronizationContext* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::SynchronizationContext::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::SynchronizationContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SynchronizationContext*, creationType>()));
     }
   }; // System.Threading.SynchronizationContext
   #pragma pack(pop)
-  static check_size<sizeof(SynchronizationContext), 16 + sizeof(System::Threading::SynchronizationContextProperties)> __System_Threading_SynchronizationContextSizeCheck;
+  static check_size<sizeof(SynchronizationContext), 16 + sizeof(::System::Threading::SynchronizationContextProperties)> __System_Threading_SynchronizationContextSizeCheck;
   static_assert(sizeof(SynchronizationContext) == 0x14);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::SynchronizationContext::get_Current
 // Il2CppName: get_Current
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::SynchronizationContext* (*)()>(&System::Threading::SynchronizationContext::get_Current)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::SynchronizationContext* (*)()>(&System::Threading::SynchronizationContext::get_Current)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::SynchronizationContext*), "get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -135,7 +135,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: System::Threading::SynchronizationContext::get_CurrentNoFlow
 // Il2CppName: get_CurrentNoFlow
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::SynchronizationContext* (*)()>(&System::Threading::SynchronizationContext::get_CurrentNoFlow)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::SynchronizationContext* (*)()>(&System::Threading::SynchronizationContext::get_CurrentNoFlow)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::SynchronizationContext*), "get_CurrentNoFlow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -143,7 +143,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: System::Threading::SynchronizationContext::Send
 // Il2CppName: Send
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::SynchronizationContext::*)(System::Threading::SendOrPostCallback*, ::Il2CppObject*)>(&System::Threading::SynchronizationContext::Send)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::SynchronizationContext::*)(::System::Threading::SendOrPostCallback*, ::Il2CppObject*)>(&System::Threading::SynchronizationContext::Send)> {
   static const MethodInfo* get() {
     static auto* d = &::il2cpp_utils::GetClassFromName("System.Threading", "SendOrPostCallback")->byval_arg;
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -153,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Threading::SynchronizationContext::Post
 // Il2CppName: Post
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::SynchronizationContext::*)(System::Threading::SendOrPostCallback*, ::Il2CppObject*)>(&System::Threading::SynchronizationContext::Post)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::SynchronizationContext::*)(::System::Threading::SendOrPostCallback*, ::Il2CppObject*)>(&System::Threading::SynchronizationContext::Post)> {
   static const MethodInfo* get() {
     static auto* d = &::il2cpp_utils::GetClassFromName("System.Threading", "SendOrPostCallback")->byval_arg;
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -179,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Threading::SynchronizationContext::SetSynchronizationContext
 // Il2CppName: SetSynchronizationContext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::SynchronizationContext*)>(&System::Threading::SynchronizationContext::SetSynchronizationContext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Threading::SynchronizationContext*)>(&System::Threading::SynchronizationContext::SetSynchronizationContext)> {
   static const MethodInfo* get() {
     static auto* syncContext = &::il2cpp_utils::GetClassFromName("System.Threading", "SynchronizationContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::SynchronizationContext*), "SetSynchronizationContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{syncContext});
@@ -188,7 +188,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Threading::SynchronizationContext::GetThreadLocalContext
 // Il2CppName: GetThreadLocalContext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::SynchronizationContext* (*)()>(&System::Threading::SynchronizationContext::GetThreadLocalContext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::SynchronizationContext* (*)()>(&System::Threading::SynchronizationContext::GetThreadLocalContext)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::SynchronizationContext*), "GetThreadLocalContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -196,7 +196,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: System::Threading::SynchronizationContext::CreateCopy
 // Il2CppName: CreateCopy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::SynchronizationContext* (System::Threading::SynchronizationContext::*)()>(&System::Threading::SynchronizationContext::CreateCopy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::SynchronizationContext* (System::Threading::SynchronizationContext::*)()>(&System::Threading::SynchronizationContext::CreateCopy)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::SynchronizationContext*), "CreateCopy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

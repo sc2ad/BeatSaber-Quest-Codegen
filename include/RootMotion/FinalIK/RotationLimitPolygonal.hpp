@@ -28,8 +28,8 @@ namespace RootMotion::FinalIK {
   class RotationLimitPolygonal;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::RotationLimitPolygonal);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RotationLimitPolygonal*, "RootMotion.FinalIK", "RotationLimitPolygonal");
+NEED_NO_BOX(::RootMotion::FinalIK::RotationLimitPolygonal);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::RotationLimitPolygonal*, "RootMotion.FinalIK", "RotationLimitPolygonal");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x58
@@ -38,11 +38,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   // [HelpURLAttribute] Offset: 12630BC
   // [AddComponentMenu] Offset: 12630BC
-  class RotationLimitPolygonal : public RootMotion::FinalIK::RotationLimit {
+  class RotationLimitPolygonal : public ::RootMotion::FinalIK::RotationLimit {
     public:
-    // Nested type: RootMotion::FinalIK::RotationLimitPolygonal::ReachCone
+    // Nested type: ::RootMotion::FinalIK::RotationLimitPolygonal::ReachCone
     class ReachCone;
-    // Nested type: RootMotion::FinalIK::RotationLimitPolygonal::LimitPoint
+    // Nested type: ::RootMotion::FinalIK::RotationLimitPolygonal::LimitPoint
     class LimitPoint;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -70,32 +70,32 @@ namespace RootMotion::FinalIK {
     // public RootMotion.FinalIK.RotationLimitPolygonal/RootMotion.FinalIK.LimitPoint[] points
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayW<RootMotion::FinalIK::RotationLimitPolygonal::LimitPoint*> points;
+    ::ArrayW<::RootMotion::FinalIK::RotationLimitPolygonal::LimitPoint*> points;
     // Field size check
-    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::RotationLimitPolygonal::LimitPoint*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::RootMotion::FinalIK::RotationLimitPolygonal::LimitPoint*>) == 0x8);
     // public UnityEngine.Vector3[] P
     // Size: 0x8
     // Offset: 0x48
-    ::ArrayW<UnityEngine::Vector3> P;
+    ::ArrayW<::UnityEngine::Vector3> P;
     // Field size check
-    static_assert(sizeof(::ArrayW<UnityEngine::Vector3>) == 0x8);
+    static_assert(sizeof(::ArrayW<::UnityEngine::Vector3>) == 0x8);
     // public RootMotion.FinalIK.RotationLimitPolygonal/RootMotion.FinalIK.ReachCone[] reachCones
     // Size: 0x8
     // Offset: 0x50
-    ::ArrayW<RootMotion::FinalIK::RotationLimitPolygonal::ReachCone*> reachCones;
+    ::ArrayW<::RootMotion::FinalIK::RotationLimitPolygonal::ReachCone*> reachCones;
     // Field size check
-    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::RotationLimitPolygonal::ReachCone*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::RootMotion::FinalIK::RotationLimitPolygonal::ReachCone*>) == 0x8);
     public:
     // Get instance field reference: public System.Single twistLimit
     float& dyn_twistLimit();
     // Get instance field reference: public System.Int32 smoothIterations
     int& dyn_smoothIterations();
     // Get instance field reference: public RootMotion.FinalIK.RotationLimitPolygonal/RootMotion.FinalIK.LimitPoint[] points
-    ::ArrayW<RootMotion::FinalIK::RotationLimitPolygonal::LimitPoint*>& dyn_points();
+    ::ArrayW<::RootMotion::FinalIK::RotationLimitPolygonal::LimitPoint*>& dyn_points();
     // Get instance field reference: public UnityEngine.Vector3[] P
-    ::ArrayW<UnityEngine::Vector3>& dyn_P();
+    ::ArrayW<::UnityEngine::Vector3>& dyn_P();
     // Get instance field reference: public RootMotion.FinalIK.RotationLimitPolygonal/RootMotion.FinalIK.ReachCone[] reachCones
-    ::ArrayW<RootMotion::FinalIK::RotationLimitPolygonal::ReachCone*>& dyn_reachCones();
+    ::ArrayW<::RootMotion::FinalIK::RotationLimitPolygonal::ReachCone*>& dyn_reachCones();
     // private System.Void OpenUserManual()
     // Offset: 0x1F11244
     void OpenUserManual();
@@ -110,7 +110,7 @@ namespace RootMotion::FinalIK {
     void ASThread();
     // public System.Void SetLimitPoints(RootMotion.FinalIK.RotationLimitPolygonal/RootMotion.FinalIK.LimitPoint[] points)
     // Offset: 0x1F11374
-    void SetLimitPoints(::ArrayW<RootMotion::FinalIK::RotationLimitPolygonal::LimitPoint*> points);
+    void SetLimitPoints(::ArrayW<::RootMotion::FinalIK::RotationLimitPolygonal::LimitPoint*> points);
     // private System.Void Start()
     // Offset: 0x1F11950
     void Start();
@@ -122,22 +122,22 @@ namespace RootMotion::FinalIK {
     void BuildReachCones();
     // private UnityEngine.Vector3[] SmoothPoints()
     // Offset: 0x1F12350
-    ::ArrayW<UnityEngine::Vector3> SmoothPoints();
+    ::ArrayW<::UnityEngine::Vector3> SmoothPoints();
     // private System.Single GetScalar(System.Int32 k)
     // Offset: 0x1F12C28
     float GetScalar(int k);
     // private UnityEngine.Vector3 PointToTangentPlane(UnityEngine.Vector3 p, System.Single r)
     // Offset: 0x1F12C6C
-    UnityEngine::Vector3 PointToTangentPlane(UnityEngine::Vector3 p, float r);
+    ::UnityEngine::Vector3 PointToTangentPlane(::UnityEngine::Vector3 p, float r);
     // private UnityEngine.Vector3 TangentPointToSphere(UnityEngine.Vector3 q, System.Single r)
     // Offset: 0x1F12DB4
-    UnityEngine::Vector3 TangentPointToSphere(UnityEngine::Vector3 q, float r);
+    ::UnityEngine::Vector3 TangentPointToSphere(::UnityEngine::Vector3 q, float r);
     // private UnityEngine.Quaternion LimitSwing(UnityEngine.Quaternion rotation)
     // Offset: 0x1F11BD0
-    UnityEngine::Quaternion LimitSwing(UnityEngine::Quaternion rotation);
+    ::UnityEngine::Quaternion LimitSwing(::UnityEngine::Quaternion rotation);
     // private System.Int32 GetReachCone(UnityEngine.Vector3 L)
     // Offset: 0x1F12F44
-    int GetReachCone(UnityEngine::Vector3 L);
+    int GetReachCone(::UnityEngine::Vector3 L);
     // public System.Void .ctor()
     // Offset: 0x1F130F4
     // Implemented from: RootMotion.FinalIK.RotationLimit
@@ -149,17 +149,17 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RotationLimitPolygonal* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::RotationLimitPolygonal::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::RotationLimitPolygonal::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RotationLimitPolygonal*, creationType>()));
     }
     // protected override UnityEngine.Quaternion LimitRotation(UnityEngine.Quaternion rotation)
     // Offset: 0x1F11858
     // Implemented from: RootMotion.FinalIK.RotationLimit
     // Base method: UnityEngine.Quaternion RotationLimit::LimitRotation(UnityEngine.Quaternion rotation)
-    UnityEngine::Quaternion LimitRotation(UnityEngine::Quaternion rotation);
+    ::UnityEngine::Quaternion LimitRotation(::UnityEngine::Quaternion rotation);
   }; // RootMotion.FinalIK.RotationLimitPolygonal
   #pragma pack(pop)
-  static check_size<sizeof(RotationLimitPolygonal), 80 + sizeof(::ArrayW<RootMotion::FinalIK::RotationLimitPolygonal::ReachCone*>)> __RootMotion_FinalIK_RotationLimitPolygonalSizeCheck;
+  static check_size<sizeof(RotationLimitPolygonal), 80 + sizeof(::ArrayW<::RootMotion::FinalIK::RotationLimitPolygonal::ReachCone*>)> __RootMotion_FinalIK_RotationLimitPolygonalSizeCheck;
   static_assert(sizeof(RotationLimitPolygonal) == 0x58);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -198,7 +198,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::RotationLimitPolygonal::SetLimitPoints
 // Il2CppName: SetLimitPoints
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::RotationLimitPolygonal::*)(::ArrayW<RootMotion::FinalIK::RotationLimitPolygonal::LimitPoint*>)>(&RootMotion::FinalIK::RotationLimitPolygonal::SetLimitPoints)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::RotationLimitPolygonal::*)(::ArrayW<::RootMotion::FinalIK::RotationLimitPolygonal::LimitPoint*>)>(&RootMotion::FinalIK::RotationLimitPolygonal::SetLimitPoints)> {
   static const MethodInfo* get() {
     static auto* points = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "RotationLimitPolygonal/LimitPoint"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RotationLimitPolygonal*), "SetLimitPoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{points});
@@ -231,7 +231,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::RotationLimitPolygonal::SmoothPoints
 // Il2CppName: SmoothPoints
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector3> (RootMotion::FinalIK::RotationLimitPolygonal::*)()>(&RootMotion::FinalIK::RotationLimitPolygonal::SmoothPoints)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Vector3> (RootMotion::FinalIK::RotationLimitPolygonal::*)()>(&RootMotion::FinalIK::RotationLimitPolygonal::SmoothPoints)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RotationLimitPolygonal*), "SmoothPoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -248,7 +248,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Root
 // Writing MetadataGetter for method: RootMotion::FinalIK::RotationLimitPolygonal::PointToTangentPlane
 // Il2CppName: PointToTangentPlane
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RootMotion::FinalIK::RotationLimitPolygonal::*)(UnityEngine::Vector3, float)>(&RootMotion::FinalIK::RotationLimitPolygonal::PointToTangentPlane)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (RootMotion::FinalIK::RotationLimitPolygonal::*)(::UnityEngine::Vector3, float)>(&RootMotion::FinalIK::RotationLimitPolygonal::PointToTangentPlane)> {
   static const MethodInfo* get() {
     static auto* p = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* r = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -258,7 +258,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: RootMotion::FinalIK::RotationLimitPolygonal::TangentPointToSphere
 // Il2CppName: TangentPointToSphere
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RootMotion::FinalIK::RotationLimitPolygonal::*)(UnityEngine::Vector3, float)>(&RootMotion::FinalIK::RotationLimitPolygonal::TangentPointToSphere)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (RootMotion::FinalIK::RotationLimitPolygonal::*)(::UnityEngine::Vector3, float)>(&RootMotion::FinalIK::RotationLimitPolygonal::TangentPointToSphere)> {
   static const MethodInfo* get() {
     static auto* q = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* r = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -268,7 +268,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: RootMotion::FinalIK::RotationLimitPolygonal::LimitSwing
 // Il2CppName: LimitSwing
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (RootMotion::FinalIK::RotationLimitPolygonal::*)(UnityEngine::Quaternion)>(&RootMotion::FinalIK::RotationLimitPolygonal::LimitSwing)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (RootMotion::FinalIK::RotationLimitPolygonal::*)(::UnityEngine::Quaternion)>(&RootMotion::FinalIK::RotationLimitPolygonal::LimitSwing)> {
   static const MethodInfo* get() {
     static auto* rotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RotationLimitPolygonal*), "LimitSwing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rotation});
@@ -277,7 +277,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: RootMotion::FinalIK::RotationLimitPolygonal::GetReachCone
 // Il2CppName: GetReachCone
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RootMotion::FinalIK::RotationLimitPolygonal::*)(UnityEngine::Vector3)>(&RootMotion::FinalIK::RotationLimitPolygonal::GetReachCone)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RootMotion::FinalIK::RotationLimitPolygonal::*)(::UnityEngine::Vector3)>(&RootMotion::FinalIK::RotationLimitPolygonal::GetReachCone)> {
   static const MethodInfo* get() {
     static auto* L = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RotationLimitPolygonal*), "GetReachCone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{L});
@@ -290,7 +290,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RootMo
 // Writing MetadataGetter for method: RootMotion::FinalIK::RotationLimitPolygonal::LimitRotation
 // Il2CppName: LimitRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (RootMotion::FinalIK::RotationLimitPolygonal::*)(UnityEngine::Quaternion)>(&RootMotion::FinalIK::RotationLimitPolygonal::LimitRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (RootMotion::FinalIK::RotationLimitPolygonal::*)(::UnityEngine::Quaternion)>(&RootMotion::FinalIK::RotationLimitPolygonal::LimitRotation)> {
   static const MethodInfo* get() {
     static auto* rotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RotationLimitPolygonal*), "LimitRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rotation});

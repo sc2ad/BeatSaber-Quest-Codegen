@@ -25,8 +25,8 @@ namespace GlobalNamespace {
   class ResetPitchOnGameplayFinished;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::ResetPitchOnGameplayFinished);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResetPitchOnGameplayFinished*, "", "ResetPitchOnGameplayFinished");
+NEED_NO_BOX(::GlobalNamespace::ResetPitchOnGameplayFinished);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ResetPitchOnGameplayFinished*, "", "ResetPitchOnGameplayFinished");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -47,25 +47,25 @@ namespace GlobalNamespace {
     // private readonly GameplayLevelSceneTransitionEvents _gameplayLevelSceneTransitionEvents
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::GameplayLevelSceneTransitionEvents* gameplayLevelSceneTransitionEvents;
+    ::GlobalNamespace::GameplayLevelSceneTransitionEvents* gameplayLevelSceneTransitionEvents;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::GameplayLevelSceneTransitionEvents*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::GameplayLevelSceneTransitionEvents*) == 0x8);
     // private readonly AudioManagerSO _audioManager
     // Size: 0x8
     // Offset: 0x18
-    GlobalNamespace::AudioManagerSO* audioManager;
+    ::GlobalNamespace::AudioManagerSO* audioManager;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::AudioManagerSO*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::AudioManagerSO*) == 0x8);
     public:
     // Get instance field reference: private readonly GameplayLevelSceneTransitionEvents _gameplayLevelSceneTransitionEvents
-    GlobalNamespace::GameplayLevelSceneTransitionEvents*& dyn__gameplayLevelSceneTransitionEvents();
+    ::GlobalNamespace::GameplayLevelSceneTransitionEvents*& dyn__gameplayLevelSceneTransitionEvents();
     // Get instance field reference: private readonly AudioManagerSO _audioManager
-    GlobalNamespace::AudioManagerSO*& dyn__audioManager();
+    ::GlobalNamespace::AudioManagerSO*& dyn__audioManager();
     // public System.Void .ctor(GameplayLevelSceneTransitionEvents gameplayLevelSceneTransitionEvents, AudioManagerSO audioManager)
     // Offset: 0x13EE59C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ResetPitchOnGameplayFinished* New_ctor(GlobalNamespace::GameplayLevelSceneTransitionEvents* gameplayLevelSceneTransitionEvents, GlobalNamespace::AudioManagerSO* audioManager) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ResetPitchOnGameplayFinished::.ctor");
+    static ResetPitchOnGameplayFinished* New_ctor(::GlobalNamespace::GameplayLevelSceneTransitionEvents* gameplayLevelSceneTransitionEvents, ::GlobalNamespace::AudioManagerSO* audioManager) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ResetPitchOnGameplayFinished::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResetPitchOnGameplayFinished*, creationType>(gameplayLevelSceneTransitionEvents, audioManager)));
     }
     // private System.Void HandleAnyGameplayLevelDidFinish()
@@ -78,7 +78,7 @@ namespace GlobalNamespace {
     void Finalize();
   }; // ResetPitchOnGameplayFinished
   #pragma pack(pop)
-  static check_size<sizeof(ResetPitchOnGameplayFinished), 24 + sizeof(GlobalNamespace::AudioManagerSO*)> __GlobalNamespace_ResetPitchOnGameplayFinishedSizeCheck;
+  static check_size<sizeof(ResetPitchOnGameplayFinished), 24 + sizeof(::GlobalNamespace::AudioManagerSO*)> __GlobalNamespace_ResetPitchOnGameplayFinishedSizeCheck;
   static_assert(sizeof(ResetPitchOnGameplayFinished) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

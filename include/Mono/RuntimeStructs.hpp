@@ -17,8 +17,8 @@ namespace Mono {
   class RuntimeStructs;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::RuntimeStructs);
-DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeStructs*, "Mono", "RuntimeStructs");
+NEED_NO_BOX(::Mono::RuntimeStructs);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::RuntimeStructs*, "Mono", "RuntimeStructs");
 // Type namespace: Mono
 namespace Mono {
   // Size: 0x10
@@ -27,17 +27,17 @@ namespace Mono {
   // [TokenAttribute] Offset: FFFFFFFF
   class RuntimeStructs : public ::Il2CppObject {
     public:
-    // Nested type: Mono::RuntimeStructs::RemoteClass
+    // Nested type: ::Mono::RuntimeStructs::RemoteClass
     struct RemoteClass;
-    // Nested type: Mono::RuntimeStructs::MonoClass
+    // Nested type: ::Mono::RuntimeStructs::MonoClass
     struct MonoClass;
-    // Nested type: Mono::RuntimeStructs::GenericParamInfo
+    // Nested type: ::Mono::RuntimeStructs::GenericParamInfo
     struct GenericParamInfo;
-    // Nested type: Mono::RuntimeStructs::GPtrArray
+    // Nested type: ::Mono::RuntimeStructs::GPtrArray
     struct GPtrArray;
-    // Nested type: Mono::RuntimeStructs::HandleStackMark
+    // Nested type: ::Mono::RuntimeStructs::HandleStackMark
     struct HandleStackMark;
-    // Nested type: Mono::RuntimeStructs::MonoError
+    // Nested type: ::Mono::RuntimeStructs::MonoError
     struct MonoError;
   }; // Mono.RuntimeStructs
   #pragma pack(pop)

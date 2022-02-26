@@ -25,8 +25,8 @@ namespace Zenject {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::DiContainer::ProviderInfo);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::DiContainer::ProviderInfo*, "Zenject", "DiContainer/ProviderInfo");
+NEED_NO_BOX(::Zenject::DiContainer::ProviderInfo);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::DiContainer::ProviderInfo*, "Zenject", "DiContainer/ProviderInfo");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x30
@@ -47,9 +47,9 @@ namespace Zenject {
     // public readonly Zenject.DiContainer Container
     // Size: 0x8
     // Offset: 0x10
-    Zenject::DiContainer* Container;
+    ::Zenject::DiContainer* Container;
     // Field size check
-    static_assert(sizeof(Zenject::DiContainer*) == 0x8);
+    static_assert(sizeof(::Zenject::DiContainer*) == 0x8);
     // public readonly System.Boolean NonLazy
     // Size: 0x1
     // Offset: 0x18
@@ -61,29 +61,29 @@ namespace Zenject {
     // public readonly Zenject.IProvider Provider
     // Size: 0x8
     // Offset: 0x20
-    Zenject::IProvider* Provider;
+    ::Zenject::IProvider* Provider;
     // Field size check
-    static_assert(sizeof(Zenject::IProvider*) == 0x8);
+    static_assert(sizeof(::Zenject::IProvider*) == 0x8);
     // public readonly Zenject.BindingCondition Condition
     // Size: 0x8
     // Offset: 0x28
-    Zenject::BindingCondition* Condition;
+    ::Zenject::BindingCondition* Condition;
     // Field size check
-    static_assert(sizeof(Zenject::BindingCondition*) == 0x8);
+    static_assert(sizeof(::Zenject::BindingCondition*) == 0x8);
     public:
     // Get instance field reference: public readonly Zenject.DiContainer Container
-    Zenject::DiContainer*& dyn_Container();
+    ::Zenject::DiContainer*& dyn_Container();
     // Get instance field reference: public readonly System.Boolean NonLazy
     bool& dyn_NonLazy();
     // Get instance field reference: public readonly Zenject.IProvider Provider
-    Zenject::IProvider*& dyn_Provider();
+    ::Zenject::IProvider*& dyn_Provider();
     // Get instance field reference: public readonly Zenject.BindingCondition Condition
-    Zenject::BindingCondition*& dyn_Condition();
+    ::Zenject::BindingCondition*& dyn_Condition();
     // public System.Void .ctor(Zenject.IProvider provider, Zenject.BindingCondition condition, System.Boolean nonLazy, Zenject.DiContainer container)
     // Offset: 0x1D27350
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DiContainer::ProviderInfo* New_ctor(Zenject::IProvider* provider, Zenject::BindingCondition* condition, bool nonLazy, Zenject::DiContainer* container) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::ProviderInfo::.ctor");
+    static DiContainer::ProviderInfo* New_ctor(::Zenject::IProvider* provider, ::Zenject::BindingCondition* condition, bool nonLazy, ::Zenject::DiContainer* container) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::ProviderInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DiContainer::ProviderInfo*, creationType>(provider, condition, nonLazy, container)));
     }
     // static private System.Object __zenCreate(System.Object[] P_0)
@@ -91,10 +91,10 @@ namespace Zenject {
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
     // Offset: 0x1D27538
-    static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.DiContainer/Zenject.ProviderInfo
   #pragma pack(pop)
-  static check_size<sizeof(DiContainer::ProviderInfo), 40 + sizeof(Zenject::BindingCondition*)> __Zenject_DiContainer_ProviderInfoSizeCheck;
+  static check_size<sizeof(DiContainer::ProviderInfo), 40 + sizeof(::Zenject::BindingCondition*)> __Zenject_DiContainer_ProviderInfoSizeCheck;
   static_assert(sizeof(DiContainer::ProviderInfo) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -114,7 +114,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: Zenject::DiContainer::ProviderInfo::__zenCreateInjectTypeInfo
 // Il2CppName: __zenCreateInjectTypeInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (*)()>(&Zenject::DiContainer::ProviderInfo::__zenCreateInjectTypeInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&Zenject::DiContainer::ProviderInfo::__zenCreateInjectTypeInfo)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer::ProviderInfo*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -26,8 +26,8 @@ namespace UnityEngine::Timeline {
   class TimelineUndo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Timeline::TimelineUndo);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineUndo*, "UnityEngine.Timeline", "TimelineUndo");
+NEED_NO_BOX(::UnityEngine::Timeline::TimelineUndo);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::TimelineUndo*, "UnityEngine.Timeline", "TimelineUndo");
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
   // Size: 0x10
@@ -38,16 +38,16 @@ namespace UnityEngine::Timeline {
     public:
     // static public System.Void PushDestroyUndo(UnityEngine.Timeline.TimelineAsset timeline, UnityEngine.Object thingToDirty, UnityEngine.Object objectToDestroy)
     // Offset: 0x298D924
-    static void PushDestroyUndo(UnityEngine::Timeline::TimelineAsset* timeline, UnityEngine::Object* thingToDirty, UnityEngine::Object* objectToDestroy);
+    static void PushDestroyUndo(::UnityEngine::Timeline::TimelineAsset* timeline, ::UnityEngine::Object* thingToDirty, ::UnityEngine::Object* objectToDestroy);
     // static public System.Void PushUndo(UnityEngine.Object[] thingsToDirty, System.String operation)
     // Offset: 0x298D9C4
-    static void PushUndo(::ArrayW<UnityEngine::Object*> thingsToDirty, ::StringW operation);
+    static void PushUndo(::ArrayW<::UnityEngine::Object*> thingsToDirty, ::StringW operation);
     // static public System.Void PushUndo(UnityEngine.Object thingToDirty, System.String operation)
     // Offset: 0x298D9C8
-    static void PushUndo(UnityEngine::Object* thingToDirty, ::StringW operation);
+    static void PushUndo(::UnityEngine::Object* thingToDirty, ::StringW operation);
     // static public System.Void RegisterCreatedObjectUndo(UnityEngine.Object thingCreated, System.String operation)
     // Offset: 0x298D9CC
-    static void RegisterCreatedObjectUndo(UnityEngine::Object* thingCreated, ::StringW operation);
+    static void RegisterCreatedObjectUndo(::UnityEngine::Object* thingCreated, ::StringW operation);
     // static private System.String UndoName(System.String name)
     // Offset: 0x298D9D0
     static ::StringW UndoName(::StringW name);
@@ -58,7 +58,7 @@ namespace UnityEngine::Timeline {
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineUndo::PushDestroyUndo
 // Il2CppName: PushDestroyUndo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Timeline::TimelineAsset*, UnityEngine::Object*, UnityEngine::Object*)>(&UnityEngine::Timeline::TimelineUndo::PushDestroyUndo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Timeline::TimelineAsset*, ::UnityEngine::Object*, ::UnityEngine::Object*)>(&UnityEngine::Timeline::TimelineUndo::PushDestroyUndo)> {
   static const MethodInfo* get() {
     static auto* timeline = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "TimelineAsset")->byval_arg;
     static auto* thingToDirty = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
@@ -69,7 +69,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineUndo::PushUndo
 // Il2CppName: PushUndo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<UnityEngine::Object*>, ::StringW)>(&UnityEngine::Timeline::TimelineUndo::PushUndo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<::UnityEngine::Object*>, ::StringW)>(&UnityEngine::Timeline::TimelineUndo::PushUndo)> {
   static const MethodInfo* get() {
     static auto* thingsToDirty = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Object"), 1)->byval_arg;
     static auto* operation = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -79,7 +79,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineUndo::PushUndo
 // Il2CppName: PushUndo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*, ::StringW)>(&UnityEngine::Timeline::TimelineUndo::PushUndo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Object*, ::StringW)>(&UnityEngine::Timeline::TimelineUndo::PushUndo)> {
   static const MethodInfo* get() {
     static auto* thingToDirty = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* operation = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -89,7 +89,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineUndo::RegisterCreatedObjectUndo
 // Il2CppName: RegisterCreatedObjectUndo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*, ::StringW)>(&UnityEngine::Timeline::TimelineUndo::RegisterCreatedObjectUndo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Object*, ::StringW)>(&UnityEngine::Timeline::TimelineUndo::RegisterCreatedObjectUndo)> {
   static const MethodInfo* get() {
     static auto* thingCreated = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* operation = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

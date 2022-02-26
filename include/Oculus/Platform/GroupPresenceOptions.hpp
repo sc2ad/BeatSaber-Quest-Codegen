@@ -19,8 +19,8 @@ namespace Oculus::Platform {
   class GroupPresenceOptions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::GroupPresenceOptions);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::GroupPresenceOptions*, "Oculus.Platform", "GroupPresenceOptions");
+NEED_NO_BOX(::Oculus::Platform::GroupPresenceOptions);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::GroupPresenceOptions*, "Oculus.Platform", "GroupPresenceOptions");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x18
@@ -41,16 +41,16 @@ namespace Oculus::Platform {
     // private System.IntPtr Handle
     // Size: 0x8
     // Offset: 0x10
-    System::IntPtr Handle;
+    ::System::IntPtr Handle;
     // Field size check
-    static_assert(sizeof(System::IntPtr) == 0x8);
+    static_assert(sizeof(::System::IntPtr) == 0x8);
     public:
-    // Creating conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const noexcept {
+    // Creating conversion operator: operator ::System::IntPtr
+    constexpr operator ::System::IntPtr() const noexcept {
       return Handle;
     }
     // Get instance field reference: private System.IntPtr Handle
-    System::IntPtr& dyn_Handle();
+    ::System::IntPtr& dyn_Handle();
     // public System.Void SetDestinationApiName(System.String value)
     // Offset: 0x195AF08
     void SetDestinationApiName(::StringW value);
@@ -65,14 +65,14 @@ namespace Oculus::Platform {
     void SetMatchSessionId(::StringW value);
     // static public System.IntPtr op_Explicit(Oculus.Platform.GroupPresenceOptions options)
     // Offset: 0x195A888
-    // ABORTED: conflicts with another method.  explicit operator System::IntPtr();
+    // ABORTED: conflicts with another method.  explicit operator ::System::IntPtr();
     // public System.Void .ctor()
     // Offset: 0x195AE90
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GroupPresenceOptions* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::GroupPresenceOptions::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::GroupPresenceOptions::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GroupPresenceOptions*, creationType>()));
     }
     // protected override System.Void Finalize()
@@ -82,7 +82,7 @@ namespace Oculus::Platform {
     void Finalize();
   }; // Oculus.Platform.GroupPresenceOptions
   #pragma pack(pop)
-  static check_size<sizeof(GroupPresenceOptions), 16 + sizeof(System::IntPtr)> __Oculus_Platform_GroupPresenceOptionsSizeCheck;
+  static check_size<sizeof(GroupPresenceOptions), 16 + sizeof(::System::IntPtr)> __Oculus_Platform_GroupPresenceOptionsSizeCheck;
   static_assert(sizeof(GroupPresenceOptions) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::GroupPresenceOptions*), "SetMatchSessionId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
-// Writing MetadataGetter for method: Oculus::Platform::GroupPresenceOptions::operator System::IntPtr
+// Writing MetadataGetter for method: Oculus::Platform::GroupPresenceOptions::operator ::System::IntPtr
 // Il2CppName: op_Explicit
 // Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::GroupPresenceOptions::New_ctor

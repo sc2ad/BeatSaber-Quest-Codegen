@@ -20,8 +20,8 @@ namespace NUnit::Framework::Internal {
   class AssemblyHelper;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Internal::AssemblyHelper);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::AssemblyHelper*, "NUnit.Framework.Internal", "AssemblyHelper");
+NEED_NO_BOX(::NUnit::Framework::Internal::AssemblyHelper);
+DEFINE_IL2CPP_ARG_TYPE(::NUnit::Framework::Internal::AssemblyHelper*, "NUnit.Framework.Internal", "AssemblyHelper");
 // Type namespace: NUnit.Framework.Internal
 namespace NUnit::Framework::Internal {
   // Size: 0x10
@@ -32,7 +32,7 @@ namespace NUnit::Framework::Internal {
     public:
     // static public System.String GetAssemblyPath(System.Reflection.Assembly assembly)
     // Offset: 0x1B4A724
-    static ::StringW GetAssemblyPath(System::Reflection::Assembly* assembly);
+    static ::StringW GetAssemblyPath(::System::Reflection::Assembly* assembly);
     // static private System.Boolean IsFileUri(System.String uri)
     // Offset: 0x1B5B30C
     static bool IsFileUri(::StringW uri);
@@ -46,7 +46,7 @@ namespace NUnit::Framework::Internal {
 // Writing MetadataGetter for method: NUnit::Framework::Internal::AssemblyHelper::GetAssemblyPath
 // Il2CppName: GetAssemblyPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Reflection::Assembly*)>(&NUnit::Framework::Internal::AssemblyHelper::GetAssemblyPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Reflection::Assembly*)>(&NUnit::Framework::Internal::AssemblyHelper::GetAssemblyPath)> {
   static const MethodInfo* get() {
     static auto* assembly = &::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::AssemblyHelper*), "GetAssemblyPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assembly});

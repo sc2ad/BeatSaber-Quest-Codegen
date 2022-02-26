@@ -40,8 +40,8 @@ namespace System {
   class LocalDataStoreMgr;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::LocalDataStoreMgr);
-DEFINE_IL2CPP_ARG_TYPE(System::LocalDataStoreMgr*, "System", "LocalDataStoreMgr");
+NEED_NO_BOX(::System::LocalDataStoreMgr);
+DEFINE_IL2CPP_ARG_TYPE(::System::LocalDataStoreMgr*, "System", "LocalDataStoreMgr");
 // Type namespace: System
 namespace System {
   // Size: 0x38
@@ -76,15 +76,15 @@ namespace System {
     // private System.Collections.Generic.List`1<System.LocalDataStore> m_ManagedLocalDataStores
     // Size: 0x8
     // Offset: 0x20
-    System::Collections::Generic::List_1<System::LocalDataStore*>* m_ManagedLocalDataStores;
+    ::System::Collections::Generic::List_1<::System::LocalDataStore*>* m_ManagedLocalDataStores;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<System::LocalDataStore*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::System::LocalDataStore*>*) == 0x8);
     // private System.Collections.Generic.Dictionary`2<System.String,System.LocalDataStoreSlot> m_KeyToSlotMap
     // Size: 0x8
     // Offset: 0x28
-    System::Collections::Generic::Dictionary_2<::StringW, System::LocalDataStoreSlot*>* m_KeyToSlotMap;
+    ::System::Collections::Generic::Dictionary_2<::StringW, ::System::LocalDataStoreSlot*>* m_KeyToSlotMap;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, System::LocalDataStoreSlot*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::Dictionary_2<::StringW, ::System::LocalDataStoreSlot*>*) == 0x8);
     // private System.Int64 m_CookieGenerator
     // Size: 0x8
     // Offset: 0x30
@@ -115,26 +115,26 @@ namespace System {
     // Get instance field reference: private System.Int32 m_FirstAvailableSlot
     int& dyn_m_FirstAvailableSlot();
     // Get instance field reference: private System.Collections.Generic.List`1<System.LocalDataStore> m_ManagedLocalDataStores
-    System::Collections::Generic::List_1<System::LocalDataStore*>*& dyn_m_ManagedLocalDataStores();
+    ::System::Collections::Generic::List_1<::System::LocalDataStore*>*& dyn_m_ManagedLocalDataStores();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.LocalDataStoreSlot> m_KeyToSlotMap
-    System::Collections::Generic::Dictionary_2<::StringW, System::LocalDataStoreSlot*>*& dyn_m_KeyToSlotMap();
+    ::System::Collections::Generic::Dictionary_2<::StringW, ::System::LocalDataStoreSlot*>*& dyn_m_KeyToSlotMap();
     // Get instance field reference: private System.Int64 m_CookieGenerator
     int64_t& dyn_m_CookieGenerator();
     // public System.LocalDataStoreHolder CreateLocalDataStore()
     // Offset: 0x1A9326C
-    System::LocalDataStoreHolder* CreateLocalDataStore();
+    ::System::LocalDataStoreHolder* CreateLocalDataStore();
     // public System.Void DeleteLocalDataStore(System.LocalDataStore store)
     // Offset: 0x1A92AF0
-    void DeleteLocalDataStore(System::LocalDataStore* store);
+    void DeleteLocalDataStore(::System::LocalDataStore* store);
     // public System.LocalDataStoreSlot AllocateDataSlot()
     // Offset: 0x1A9338C
-    System::LocalDataStoreSlot* AllocateDataSlot();
+    ::System::LocalDataStoreSlot* AllocateDataSlot();
     // public System.LocalDataStoreSlot AllocateNamedDataSlot(System.String name)
     // Offset: 0x1A935D0
-    System::LocalDataStoreSlot* AllocateNamedDataSlot(::StringW name);
+    ::System::LocalDataStoreSlot* AllocateNamedDataSlot(::StringW name);
     // public System.LocalDataStoreSlot GetNamedDataSlot(System.String name)
     // Offset: 0x1A936BC
-    System::LocalDataStoreSlot* GetNamedDataSlot(::StringW name);
+    ::System::LocalDataStoreSlot* GetNamedDataSlot(::StringW name);
     // public System.Void FreeNamedDataSlot(System.String name)
     // Offset: 0x1A937A8
     void FreeNamedDataSlot(::StringW name);
@@ -143,7 +143,7 @@ namespace System {
     void FreeDataSlot(int slot, int64_t cookie);
     // public System.Void ValidateSlot(System.LocalDataStoreSlot slot)
     // Offset: 0x1A92CC8
-    void ValidateSlot(System::LocalDataStoreSlot* slot);
+    void ValidateSlot(::System::LocalDataStoreSlot* slot);
     // System.Int32 GetSlotTableLength()
     // Offset: 0x1A93168
     int GetSlotTableLength();
@@ -153,7 +153,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalDataStoreMgr* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::LocalDataStoreMgr::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::LocalDataStoreMgr::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalDataStoreMgr*, creationType>()));
     }
   }; // System.LocalDataStoreMgr
@@ -165,7 +165,7 @@ namespace System {
 // Writing MetadataGetter for method: System::LocalDataStoreMgr::CreateLocalDataStore
 // Il2CppName: CreateLocalDataStore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::LocalDataStoreHolder* (System::LocalDataStoreMgr::*)()>(&System::LocalDataStoreMgr::CreateLocalDataStore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::LocalDataStoreHolder* (System::LocalDataStoreMgr::*)()>(&System::LocalDataStoreMgr::CreateLocalDataStore)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::LocalDataStoreMgr*), "CreateLocalDataStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -173,7 +173,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Loc
 // Writing MetadataGetter for method: System::LocalDataStoreMgr::DeleteLocalDataStore
 // Il2CppName: DeleteLocalDataStore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::LocalDataStoreMgr::*)(System::LocalDataStore*)>(&System::LocalDataStoreMgr::DeleteLocalDataStore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::LocalDataStoreMgr::*)(::System::LocalDataStore*)>(&System::LocalDataStoreMgr::DeleteLocalDataStore)> {
   static const MethodInfo* get() {
     static auto* store = &::il2cpp_utils::GetClassFromName("System", "LocalDataStore")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::LocalDataStoreMgr*), "DeleteLocalDataStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{store});
@@ -182,7 +182,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::LocalDataStoreMgr::AllocateDataSlot
 // Il2CppName: AllocateDataSlot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::LocalDataStoreSlot* (System::LocalDataStoreMgr::*)()>(&System::LocalDataStoreMgr::AllocateDataSlot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::LocalDataStoreSlot* (System::LocalDataStoreMgr::*)()>(&System::LocalDataStoreMgr::AllocateDataSlot)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::LocalDataStoreMgr*), "AllocateDataSlot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -190,7 +190,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Loc
 // Writing MetadataGetter for method: System::LocalDataStoreMgr::AllocateNamedDataSlot
 // Il2CppName: AllocateNamedDataSlot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::LocalDataStoreSlot* (System::LocalDataStoreMgr::*)(::StringW)>(&System::LocalDataStoreMgr::AllocateNamedDataSlot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::LocalDataStoreSlot* (System::LocalDataStoreMgr::*)(::StringW)>(&System::LocalDataStoreMgr::AllocateNamedDataSlot)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::LocalDataStoreMgr*), "AllocateNamedDataSlot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -199,7 +199,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Loc
 // Writing MetadataGetter for method: System::LocalDataStoreMgr::GetNamedDataSlot
 // Il2CppName: GetNamedDataSlot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::LocalDataStoreSlot* (System::LocalDataStoreMgr::*)(::StringW)>(&System::LocalDataStoreMgr::GetNamedDataSlot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::LocalDataStoreSlot* (System::LocalDataStoreMgr::*)(::StringW)>(&System::LocalDataStoreMgr::GetNamedDataSlot)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::LocalDataStoreMgr*), "GetNamedDataSlot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -227,7 +227,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::LocalDataStoreMgr::ValidateSlot
 // Il2CppName: ValidateSlot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::LocalDataStoreMgr::*)(System::LocalDataStoreSlot*)>(&System::LocalDataStoreMgr::ValidateSlot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::LocalDataStoreMgr::*)(::System::LocalDataStoreSlot*)>(&System::LocalDataStoreMgr::ValidateSlot)> {
   static const MethodInfo* get() {
     static auto* slot = &::il2cpp_utils::GetClassFromName("System", "LocalDataStoreSlot")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::LocalDataStoreMgr*), "ValidateSlot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{slot});

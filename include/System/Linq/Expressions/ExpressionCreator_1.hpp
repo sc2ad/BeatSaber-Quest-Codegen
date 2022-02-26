@@ -35,7 +35,7 @@ namespace System::Linq::Expressions {
   class ExpressionCreator_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Linq::Expressions::ExpressionCreator_1, "System.Linq.Expressions", "ExpressionCreator`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Linq::Expressions::ExpressionCreator_1, "System.Linq.Expressions", "ExpressionCreator`1");
 // Type namespace: System.Linq.Expressions
 namespace System::Linq::Expressions {
   // WARNING Size may be invalid!
@@ -46,10 +46,10 @@ namespace System::Linq::Expressions {
     public:
     // static public System.Linq.Expressions.LambdaExpression CreateExpressionFunc(System.Linq.Expressions.Expression body, System.String name, System.Boolean tailCall, System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.ParameterExpression> parameters)
     // Offset: 0xFFFFFFFF
-    static System::Linq::Expressions::LambdaExpression* CreateExpressionFunc(System::Linq::Expressions::Expression* body, ::StringW name, bool tailCall, System::Collections::ObjectModel::ReadOnlyCollection_1<System::Linq::Expressions::ParameterExpression*>* parameters) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Expressions::ExpressionCreator_1::CreateExpressionFunc");
+    static ::System::Linq::Expressions::LambdaExpression* CreateExpressionFunc(::System::Linq::Expressions::Expression* body, ::StringW name, bool tailCall, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* parameters) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Expressions::ExpressionCreator_1::CreateExpressionFunc");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ExpressionCreator_1<TDelegate>*>::get(), "CreateExpressionFunc", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(body), ::il2cpp_utils::ExtractType(name), ::il2cpp_utils::ExtractType(tailCall), ::il2cpp_utils::ExtractType(parameters)})));
-      return ::il2cpp_utils::RunMethodRethrow<System::Linq::Expressions::LambdaExpression*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, body, name, tailCall, parameters);
+      return ::il2cpp_utils::RunMethodRethrow<::System::Linq::Expressions::LambdaExpression*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, body, name, tailCall, parameters);
     }
   }; // System.Linq.Expressions.ExpressionCreator`1
   // Could not write size check! Type: System.Linq.Expressions.ExpressionCreator`1 is generic, or has no fields that are valid for size checks!

@@ -28,8 +28,8 @@ namespace UnityEngine {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::Inertia::Body);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Inertia::Body*, "RootMotion.FinalIK", "Inertia/Body");
+NEED_NO_BOX(::RootMotion::FinalIK::Inertia::Body);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::Inertia::Body*, "RootMotion.FinalIK", "Inertia/Body");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x61
@@ -38,7 +38,7 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class Inertia::Body : public ::Il2CppObject {
     public:
-    // Nested type: RootMotion::FinalIK::Inertia::Body::EffectorLink
+    // Nested type: ::RootMotion::FinalIK::Inertia::Body::EffectorLink
     class EffectorLink;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -53,16 +53,16 @@ namespace RootMotion::FinalIK {
     // public UnityEngine.Transform transform
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::Transform* transform;
+    ::UnityEngine::Transform* transform;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // [TooltipAttribute] Offset: 0x12692D0
     // public RootMotion.FinalIK.Inertia/RootMotion.FinalIK.Body/RootMotion.FinalIK.EffectorLink[] effectorLinks
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayW<RootMotion::FinalIK::Inertia::Body::EffectorLink*> effectorLinks;
+    ::ArrayW<::RootMotion::FinalIK::Inertia::Body::EffectorLink*> effectorLinks;
     // Field size check
-    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::Inertia::Body::EffectorLink*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::RootMotion::FinalIK::Inertia::Body::EffectorLink*>) == 0x8);
     // [TooltipAttribute] Offset: 0x1269308
     // public System.Single speed
     // Size: 0x4
@@ -95,27 +95,27 @@ namespace RootMotion::FinalIK {
     // private UnityEngine.Vector3 delta
     // Size: 0xC
     // Offset: 0x30
-    UnityEngine::Vector3 delta;
+    ::UnityEngine::Vector3 delta;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // private UnityEngine.Vector3 lazyPoint
     // Size: 0xC
     // Offset: 0x3C
-    UnityEngine::Vector3 lazyPoint;
+    ::UnityEngine::Vector3 lazyPoint;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // private UnityEngine.Vector3 direction
     // Size: 0xC
     // Offset: 0x48
-    UnityEngine::Vector3 direction;
+    ::UnityEngine::Vector3 direction;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // private UnityEngine.Vector3 lastPosition
     // Size: 0xC
     // Offset: 0x54
-    UnityEngine::Vector3 lastPosition;
+    ::UnityEngine::Vector3 lastPosition;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // private System.Boolean firstUpdate
     // Size: 0x1
     // Offset: 0x60
@@ -124,9 +124,9 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public UnityEngine.Transform transform
-    UnityEngine::Transform*& dyn_transform();
+    ::UnityEngine::Transform*& dyn_transform();
     // Get instance field reference: public RootMotion.FinalIK.Inertia/RootMotion.FinalIK.Body/RootMotion.FinalIK.EffectorLink[] effectorLinks
-    ::ArrayW<RootMotion::FinalIK::Inertia::Body::EffectorLink*>& dyn_effectorLinks();
+    ::ArrayW<::RootMotion::FinalIK::Inertia::Body::EffectorLink*>& dyn_effectorLinks();
     // Get instance field reference: public System.Single speed
     float& dyn_speed();
     // Get instance field reference: public System.Single acceleration
@@ -136,13 +136,13 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Single gravity
     float& dyn_gravity();
     // Get instance field reference: private UnityEngine.Vector3 delta
-    UnityEngine::Vector3& dyn_delta();
+    ::UnityEngine::Vector3& dyn_delta();
     // Get instance field reference: private UnityEngine.Vector3 lazyPoint
-    UnityEngine::Vector3& dyn_lazyPoint();
+    ::UnityEngine::Vector3& dyn_lazyPoint();
     // Get instance field reference: private UnityEngine.Vector3 direction
-    UnityEngine::Vector3& dyn_direction();
+    ::UnityEngine::Vector3& dyn_direction();
     // Get instance field reference: private UnityEngine.Vector3 lastPosition
-    UnityEngine::Vector3& dyn_lastPosition();
+    ::UnityEngine::Vector3& dyn_lastPosition();
     // Get instance field reference: private System.Boolean firstUpdate
     bool& dyn_firstUpdate();
     // public System.Void Reset()
@@ -150,14 +150,14 @@ namespace RootMotion::FinalIK {
     void Reset();
     // public System.Void Update(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight, System.Single deltaTime)
     // Offset: 0x2336014
-    void Update(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight, float deltaTime);
+    void Update(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight, float deltaTime);
     // public System.Void .ctor()
     // Offset: 0x2336394
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Inertia::Body* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::Inertia::Body::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::Inertia::Body::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Inertia::Body*, creationType>()));
     }
   }; // RootMotion.FinalIK.Inertia/RootMotion.FinalIK.Body
@@ -177,7 +177,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::Inertia::Body::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Inertia::Body::*)(RootMotion::FinalIK::IKSolverFullBodyBiped*, float, float)>(&RootMotion::FinalIK::Inertia::Body::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Inertia::Body::*)(::RootMotion::FinalIK::IKSolverFullBodyBiped*, float, float)>(&RootMotion::FinalIK::Inertia::Body::Update)> {
   static const MethodInfo* get() {
     static auto* solver = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverFullBodyBiped")->byval_arg;
     static auto* weight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

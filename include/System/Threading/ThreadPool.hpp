@@ -34,8 +34,8 @@ namespace System::Threading {
   class ThreadPool;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Threading::ThreadPool);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadPool*, "System.Threading", "ThreadPool");
+NEED_NO_BOX(::System::Threading::ThreadPool);
+DEFINE_IL2CPP_ARG_TYPE(::System::Threading::ThreadPool*, "System.Threading", "ThreadPool");
 // Type namespace: System.Threading
 namespace System::Threading {
   // Size: 0x10
@@ -46,31 +46,31 @@ namespace System::Threading {
     public:
     // static private System.Threading.RegisteredWaitHandle RegisterWaitForSingleObject(System.Threading.WaitHandle waitObject, System.Threading.WaitOrTimerCallback callBack, System.Object state, System.UInt32 millisecondsTimeOutInterval, System.Boolean executeOnlyOnce, ref System.Threading.StackCrawlMark stackMark, System.Boolean compressStack)
     // Offset: 0x1CDED58
-    static System::Threading::RegisteredWaitHandle* RegisterWaitForSingleObject(System::Threading::WaitHandle* waitObject, System::Threading::WaitOrTimerCallback* callBack, ::Il2CppObject* state, uint millisecondsTimeOutInterval, bool executeOnlyOnce, ByRef<System::Threading::StackCrawlMark> stackMark, bool compressStack);
+    static ::System::Threading::RegisteredWaitHandle* RegisterWaitForSingleObject(::System::Threading::WaitHandle* waitObject, ::System::Threading::WaitOrTimerCallback* callBack, ::Il2CppObject* state, uint millisecondsTimeOutInterval, bool executeOnlyOnce, ByRef<::System::Threading::StackCrawlMark> stackMark, bool compressStack);
     // static public System.Threading.RegisteredWaitHandle RegisterWaitForSingleObject(System.Threading.WaitHandle waitObject, System.Threading.WaitOrTimerCallback callBack, System.Object state, System.Int32 millisecondsTimeOutInterval, System.Boolean executeOnlyOnce)
     // Offset: 0x1CDF07C
-    static System::Threading::RegisteredWaitHandle* RegisterWaitForSingleObject(System::Threading::WaitHandle* waitObject, System::Threading::WaitOrTimerCallback* callBack, ::Il2CppObject* state, int millisecondsTimeOutInterval, bool executeOnlyOnce);
+    static ::System::Threading::RegisteredWaitHandle* RegisterWaitForSingleObject(::System::Threading::WaitHandle* waitObject, ::System::Threading::WaitOrTimerCallback* callBack, ::Il2CppObject* state, int millisecondsTimeOutInterval, bool executeOnlyOnce);
     // static public System.Threading.RegisteredWaitHandle RegisterWaitForSingleObject(System.Threading.WaitHandle waitObject, System.Threading.WaitOrTimerCallback callBack, System.Object state, System.TimeSpan timeout, System.Boolean executeOnlyOnce)
     // Offset: 0x1CDF158
-    static System::Threading::RegisteredWaitHandle* RegisterWaitForSingleObject(System::Threading::WaitHandle* waitObject, System::Threading::WaitOrTimerCallback* callBack, ::Il2CppObject* state, System::TimeSpan timeout, bool executeOnlyOnce);
+    static ::System::Threading::RegisteredWaitHandle* RegisterWaitForSingleObject(::System::Threading::WaitHandle* waitObject, ::System::Threading::WaitOrTimerCallback* callBack, ::Il2CppObject* state, ::System::TimeSpan timeout, bool executeOnlyOnce);
     // static public System.Boolean QueueUserWorkItem(System.Threading.WaitCallback callBack, System.Object state)
     // Offset: 0x1CDF01C
-    static bool QueueUserWorkItem(System::Threading::WaitCallback* callBack, ::Il2CppObject* state);
+    static bool QueueUserWorkItem(::System::Threading::WaitCallback* callBack, ::Il2CppObject* state);
     // static public System.Boolean QueueUserWorkItem(System.Threading.WaitCallback callBack)
     // Offset: 0x1CDF3D0
-    static bool QueueUserWorkItem(System::Threading::WaitCallback* callBack);
+    static bool QueueUserWorkItem(::System::Threading::WaitCallback* callBack);
     // static public System.Boolean UnsafeQueueUserWorkItem(System.Threading.WaitCallback callBack, System.Object state)
     // Offset: 0x1CDF04C
-    static bool UnsafeQueueUserWorkItem(System::Threading::WaitCallback* callBack, ::Il2CppObject* state);
+    static bool UnsafeQueueUserWorkItem(::System::Threading::WaitCallback* callBack, ::Il2CppObject* state);
     // static private System.Boolean QueueUserWorkItemHelper(System.Threading.WaitCallback callBack, System.Object state, ref System.Threading.StackCrawlMark stackMark, System.Boolean compressStack)
     // Offset: 0x1CDF2C0
-    static bool QueueUserWorkItemHelper(System::Threading::WaitCallback* callBack, ::Il2CppObject* state, ByRef<System::Threading::StackCrawlMark> stackMark, bool compressStack);
+    static bool QueueUserWorkItemHelper(::System::Threading::WaitCallback* callBack, ::Il2CppObject* state, ByRef<::System::Threading::StackCrawlMark> stackMark, bool compressStack);
     // static System.Void UnsafeQueueCustomWorkItem(System.Threading.IThreadPoolWorkItem workItem, System.Boolean forceGlobal)
     // Offset: 0x1CDD0D0
-    static void UnsafeQueueCustomWorkItem(System::Threading::IThreadPoolWorkItem* workItem, bool forceGlobal);
+    static void UnsafeQueueCustomWorkItem(::System::Threading::IThreadPoolWorkItem* workItem, bool forceGlobal);
     // static System.Boolean TryPopCustomWorkItem(System.Threading.IThreadPoolWorkItem workItem)
     // Offset: 0x1CDD20C
-    static bool TryPopCustomWorkItem(System::Threading::IThreadPoolWorkItem* workItem);
+    static bool TryPopCustomWorkItem(::System::Threading::IThreadPoolWorkItem* workItem);
     // static System.Boolean RequestWorkerThread()
     // Offset: 0x1CDF654
     static bool RequestWorkerThread();
@@ -102,7 +102,7 @@ namespace System::Threading {
 // Writing MetadataGetter for method: System::Threading::ThreadPool::RegisterWaitForSingleObject
 // Il2CppName: RegisterWaitForSingleObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::RegisteredWaitHandle* (*)(System::Threading::WaitHandle*, System::Threading::WaitOrTimerCallback*, ::Il2CppObject*, uint, bool, ByRef<System::Threading::StackCrawlMark>, bool)>(&System::Threading::ThreadPool::RegisterWaitForSingleObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::RegisteredWaitHandle* (*)(::System::Threading::WaitHandle*, ::System::Threading::WaitOrTimerCallback*, ::Il2CppObject*, uint, bool, ByRef<::System::Threading::StackCrawlMark>, bool)>(&System::Threading::ThreadPool::RegisterWaitForSingleObject)> {
   static const MethodInfo* get() {
     static auto* waitObject = &::il2cpp_utils::GetClassFromName("System.Threading", "WaitHandle")->byval_arg;
     static auto* callBack = &::il2cpp_utils::GetClassFromName("System.Threading", "WaitOrTimerCallback")->byval_arg;
@@ -117,7 +117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: System::Threading::ThreadPool::RegisterWaitForSingleObject
 // Il2CppName: RegisterWaitForSingleObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::RegisteredWaitHandle* (*)(System::Threading::WaitHandle*, System::Threading::WaitOrTimerCallback*, ::Il2CppObject*, int, bool)>(&System::Threading::ThreadPool::RegisterWaitForSingleObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::RegisteredWaitHandle* (*)(::System::Threading::WaitHandle*, ::System::Threading::WaitOrTimerCallback*, ::Il2CppObject*, int, bool)>(&System::Threading::ThreadPool::RegisterWaitForSingleObject)> {
   static const MethodInfo* get() {
     static auto* waitObject = &::il2cpp_utils::GetClassFromName("System.Threading", "WaitHandle")->byval_arg;
     static auto* callBack = &::il2cpp_utils::GetClassFromName("System.Threading", "WaitOrTimerCallback")->byval_arg;
@@ -130,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: System::Threading::ThreadPool::RegisterWaitForSingleObject
 // Il2CppName: RegisterWaitForSingleObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::RegisteredWaitHandle* (*)(System::Threading::WaitHandle*, System::Threading::WaitOrTimerCallback*, ::Il2CppObject*, System::TimeSpan, bool)>(&System::Threading::ThreadPool::RegisterWaitForSingleObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::RegisteredWaitHandle* (*)(::System::Threading::WaitHandle*, ::System::Threading::WaitOrTimerCallback*, ::Il2CppObject*, ::System::TimeSpan, bool)>(&System::Threading::ThreadPool::RegisterWaitForSingleObject)> {
   static const MethodInfo* get() {
     static auto* waitObject = &::il2cpp_utils::GetClassFromName("System.Threading", "WaitHandle")->byval_arg;
     static auto* callBack = &::il2cpp_utils::GetClassFromName("System.Threading", "WaitOrTimerCallback")->byval_arg;
@@ -143,7 +143,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: System::Threading::ThreadPool::QueueUserWorkItem
 // Il2CppName: QueueUserWorkItem
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Threading::WaitCallback*, ::Il2CppObject*)>(&System::Threading::ThreadPool::QueueUserWorkItem)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Threading::WaitCallback*, ::Il2CppObject*)>(&System::Threading::ThreadPool::QueueUserWorkItem)> {
   static const MethodInfo* get() {
     static auto* callBack = &::il2cpp_utils::GetClassFromName("System.Threading", "WaitCallback")->byval_arg;
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -153,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Threading::ThreadPool::QueueUserWorkItem
 // Il2CppName: QueueUserWorkItem
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Threading::WaitCallback*)>(&System::Threading::ThreadPool::QueueUserWorkItem)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Threading::WaitCallback*)>(&System::Threading::ThreadPool::QueueUserWorkItem)> {
   static const MethodInfo* get() {
     static auto* callBack = &::il2cpp_utils::GetClassFromName("System.Threading", "WaitCallback")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ThreadPool*), "QueueUserWorkItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{callBack});
@@ -162,7 +162,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Threading::ThreadPool::UnsafeQueueUserWorkItem
 // Il2CppName: UnsafeQueueUserWorkItem
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Threading::WaitCallback*, ::Il2CppObject*)>(&System::Threading::ThreadPool::UnsafeQueueUserWorkItem)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Threading::WaitCallback*, ::Il2CppObject*)>(&System::Threading::ThreadPool::UnsafeQueueUserWorkItem)> {
   static const MethodInfo* get() {
     static auto* callBack = &::il2cpp_utils::GetClassFromName("System.Threading", "WaitCallback")->byval_arg;
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -172,7 +172,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Threading::ThreadPool::QueueUserWorkItemHelper
 // Il2CppName: QueueUserWorkItemHelper
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Threading::WaitCallback*, ::Il2CppObject*, ByRef<System::Threading::StackCrawlMark>, bool)>(&System::Threading::ThreadPool::QueueUserWorkItemHelper)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Threading::WaitCallback*, ::Il2CppObject*, ByRef<::System::Threading::StackCrawlMark>, bool)>(&System::Threading::ThreadPool::QueueUserWorkItemHelper)> {
   static const MethodInfo* get() {
     static auto* callBack = &::il2cpp_utils::GetClassFromName("System.Threading", "WaitCallback")->byval_arg;
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -184,7 +184,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Threading::ThreadPool::UnsafeQueueCustomWorkItem
 // Il2CppName: UnsafeQueueCustomWorkItem
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::IThreadPoolWorkItem*, bool)>(&System::Threading::ThreadPool::UnsafeQueueCustomWorkItem)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Threading::IThreadPoolWorkItem*, bool)>(&System::Threading::ThreadPool::UnsafeQueueCustomWorkItem)> {
   static const MethodInfo* get() {
     static auto* workItem = &::il2cpp_utils::GetClassFromName("System.Threading", "IThreadPoolWorkItem")->byval_arg;
     static auto* forceGlobal = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -194,7 +194,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Threading::ThreadPool::TryPopCustomWorkItem
 // Il2CppName: TryPopCustomWorkItem
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Threading::IThreadPoolWorkItem*)>(&System::Threading::ThreadPool::TryPopCustomWorkItem)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Threading::IThreadPoolWorkItem*)>(&System::Threading::ThreadPool::TryPopCustomWorkItem)> {
   static const MethodInfo* get() {
     static auto* workItem = &::il2cpp_utils::GetClassFromName("System.Threading", "IThreadPoolWorkItem")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ThreadPool*), "TryPopCustomWorkItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{workItem});

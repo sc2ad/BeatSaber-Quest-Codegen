@@ -14,8 +14,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MultiplayerScoreProvider::$$c__DisplayClass18_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerScoreProvider::$$c__DisplayClass18_0*, "", "MultiplayerScoreProvider/<>c__DisplayClass18_0");
+NEED_NO_BOX(::GlobalNamespace::MultiplayerScoreProvider::$$c__DisplayClass18_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerScoreProvider::$$c__DisplayClass18_0*, "", "MultiplayerScoreProvider/<>c__DisplayClass18_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -49,14 +49,14 @@ namespace GlobalNamespace {
     ::StringW& dyn_userId();
     // System.Boolean <GetPositionOfPlayer>b__0(MultiplayerScoreProvider/RankedPlayer p)
     // Offset: 0x2AAA100
-    bool $GetPositionOfPlayer$b__0(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* p);
+    bool $GetPositionOfPlayer$b__0(::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* p);
     // public System.Void .ctor()
     // Offset: 0x2AA9FCC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerScoreProvider::$$c__DisplayClass18_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerScoreProvider::$$c__DisplayClass18_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerScoreProvider::$$c__DisplayClass18_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerScoreProvider::$$c__DisplayClass18_0*, creationType>()));
     }
   }; // MultiplayerScoreProvider/<>c__DisplayClass18_0
@@ -68,7 +68,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerScoreProvider::$$c__DisplayClass18_0::$GetPositionOfPlayer$b__0
 // Il2CppName: <GetPositionOfPlayer>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MultiplayerScoreProvider::$$c__DisplayClass18_0::*)(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*)>(&GlobalNamespace::MultiplayerScoreProvider::$$c__DisplayClass18_0::$GetPositionOfPlayer$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MultiplayerScoreProvider::$$c__DisplayClass18_0::*)(::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*)>(&GlobalNamespace::MultiplayerScoreProvider::$$c__DisplayClass18_0::$GetPositionOfPlayer$b__0)> {
   static const MethodInfo* get() {
     static auto* p = &::il2cpp_utils::GetClassFromName("", "MultiplayerScoreProvider/RankedPlayer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerScoreProvider::$$c__DisplayClass18_0*), "<GetPositionOfPlayer>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{p});

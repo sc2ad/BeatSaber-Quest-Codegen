@@ -37,8 +37,8 @@ namespace GlobalNamespace {
   class MultiplayerLocalPlayerDisconnectHelper;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*, "", "MultiplayerLocalPlayerDisconnectHelper");
+NEED_NO_BOX(::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*, "", "MultiplayerLocalPlayerDisconnectHelper");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x28
@@ -60,23 +60,23 @@ namespace GlobalNamespace {
     // private readonly IGameplayRpcManager _gameplayRpcManager
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::IGameplayRpcManager* gameplayRpcManager;
+    ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::IGameplayRpcManager*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::IGameplayRpcManager*) == 0x8);
     // [InjectAttribute] Offset: 0x12448AC
     // private readonly IMultiplayerLevelEndActionsListener _multiplayerLevelEndActions
     // Size: 0x8
     // Offset: 0x18
-    GlobalNamespace::IMultiplayerLevelEndActionsListener* multiplayerLevelEndActions;
+    ::GlobalNamespace::IMultiplayerLevelEndActionsListener* multiplayerLevelEndActions;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::IMultiplayerLevelEndActionsListener*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::IMultiplayerLevelEndActionsListener*) == 0x8);
     // [InjectAttribute] Offset: 0x12448BC
     // private readonly LobbyPlayerPermissionsModel _lobbyPlayerPermissionsModel
     // Size: 0x8
     // Offset: 0x20
-    GlobalNamespace::LobbyPlayerPermissionsModel* lobbyPlayerPermissionsModel;
+    ::GlobalNamespace::LobbyPlayerPermissionsModel* lobbyPlayerPermissionsModel;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::LobbyPlayerPermissionsModel*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::LobbyPlayerPermissionsModel*) == 0x8);
     public:
     // static field const value: static private System.String kDisconnectLabel
     static constexpr const char* kDisconnectLabel = "BUTTON_DISCONNECT";
@@ -91,14 +91,14 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kEndGameLabel
     static void _set_kEndGameLabel(::StringW value);
     // Get instance field reference: private readonly IGameplayRpcManager _gameplayRpcManager
-    GlobalNamespace::IGameplayRpcManager*& dyn__gameplayRpcManager();
+    ::GlobalNamespace::IGameplayRpcManager*& dyn__gameplayRpcManager();
     // Get instance field reference: private readonly IMultiplayerLevelEndActionsListener _multiplayerLevelEndActions
-    GlobalNamespace::IMultiplayerLevelEndActionsListener*& dyn__multiplayerLevelEndActions();
+    ::GlobalNamespace::IMultiplayerLevelEndActionsListener*& dyn__multiplayerLevelEndActions();
     // Get instance field reference: private readonly LobbyPlayerPermissionsModel _lobbyPlayerPermissionsModel
-    GlobalNamespace::LobbyPlayerPermissionsModel*& dyn__lobbyPlayerPermissionsModel();
+    ::GlobalNamespace::LobbyPlayerPermissionsModel*& dyn__lobbyPlayerPermissionsModel();
     // public System.Void Disconnect(MultiplayerLevelCompletionResults/MultiplayerPlayerLevelEndState playerLevelEndState, LevelCompletionResults levelCompletionResults)
     // Offset: 0x1449198
-    void Disconnect(GlobalNamespace::MultiplayerLevelCompletionResults::MultiplayerPlayerLevelEndState playerLevelEndState, GlobalNamespace::LevelCompletionResults* levelCompletionResults);
+    void Disconnect(::GlobalNamespace::MultiplayerLevelCompletionResults::MultiplayerPlayerLevelEndState playerLevelEndState, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // public System.String ResolveDisconnectButtonString()
     // Offset: 0x144A7F8
     ::StringW ResolveDisconnectButtonString();
@@ -108,19 +108,19 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLocalPlayerDisconnectHelper* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalPlayerDisconnectHelper*, creationType>()));
     }
   }; // MultiplayerLocalPlayerDisconnectHelper
   #pragma pack(pop)
-  static check_size<sizeof(MultiplayerLocalPlayerDisconnectHelper), 32 + sizeof(GlobalNamespace::LobbyPlayerPermissionsModel*)> __GlobalNamespace_MultiplayerLocalPlayerDisconnectHelperSizeCheck;
+  static check_size<sizeof(MultiplayerLocalPlayerDisconnectHelper), 32 + sizeof(::GlobalNamespace::LobbyPlayerPermissionsModel*)> __GlobalNamespace_MultiplayerLocalPlayerDisconnectHelperSizeCheck;
   static_assert(sizeof(MultiplayerLocalPlayerDisconnectHelper) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::Disconnect
 // Il2CppName: Disconnect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::*)(GlobalNamespace::MultiplayerLevelCompletionResults::MultiplayerPlayerLevelEndState, GlobalNamespace::LevelCompletionResults*)>(&GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::Disconnect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::*)(::GlobalNamespace::MultiplayerLevelCompletionResults::MultiplayerPlayerLevelEndState, ::GlobalNamespace::LevelCompletionResults*)>(&GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::Disconnect)> {
   static const MethodInfo* get() {
     static auto* playerLevelEndState = &::il2cpp_utils::GetClassFromName("", "MultiplayerLevelCompletionResults/MultiplayerPlayerLevelEndState")->byval_arg;
     static auto* levelCompletionResults = &::il2cpp_utils::GetClassFromName("", "LevelCompletionResults")->byval_arg;

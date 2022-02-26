@@ -25,8 +25,8 @@ namespace UnityEngine {
   class SetupCoroutine;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::SetupCoroutine);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SetupCoroutine*, "UnityEngine", "SetupCoroutine");
+NEED_NO_BOX(::UnityEngine::SetupCoroutine);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::SetupCoroutine*, "UnityEngine", "SetupCoroutine");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -38,7 +38,7 @@ namespace UnityEngine {
     public:
     // static public System.Void InvokeMoveNext(System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress)
     // Offset: 0x20D548C
-    static void InvokeMoveNext(System::Collections::IEnumerator* enumerator, System::IntPtr returnValueAddress);
+    static void InvokeMoveNext(::System::Collections::IEnumerator* enumerator, ::System::IntPtr returnValueAddress);
     // static public System.Object InvokeMember(System.Object behaviour, System.String name, System.Object variable)
     // Offset: 0x20D55BC
     static ::Il2CppObject* InvokeMember(::Il2CppObject* behaviour, ::StringW name, ::Il2CppObject* variable);
@@ -49,7 +49,7 @@ namespace UnityEngine {
 // Writing MetadataGetter for method: UnityEngine::SetupCoroutine::InvokeMoveNext
 // Il2CppName: InvokeMoveNext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::IEnumerator*, System::IntPtr)>(&UnityEngine::SetupCoroutine::InvokeMoveNext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::IEnumerator*, ::System::IntPtr)>(&UnityEngine::SetupCoroutine::InvokeMoveNext)> {
   static const MethodInfo* get() {
     static auto* enumerator = &::il2cpp_utils::GetClassFromName("System.Collections", "IEnumerator")->byval_arg;
     static auto* returnValueAddress = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;

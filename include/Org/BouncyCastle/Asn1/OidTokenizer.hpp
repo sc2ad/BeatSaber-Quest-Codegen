@@ -17,8 +17,8 @@ namespace Org::BouncyCastle::Asn1 {
   class OidTokenizer;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Asn1::OidTokenizer);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::OidTokenizer*, "Org.BouncyCastle.Asn1", "OidTokenizer");
+NEED_NO_BOX(::Org::BouncyCastle::Asn1::OidTokenizer);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::OidTokenizer*, "Org.BouncyCastle.Asn1", "OidTokenizer");
 // Type namespace: Org.BouncyCastle.Asn1
 namespace Org::BouncyCastle::Asn1 {
   // Size: 0x1C
@@ -60,7 +60,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Offset: 0x1BC8AAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OidTokenizer* New_ctor(::StringW oid) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::OidTokenizer::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::OidTokenizer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OidTokenizer*, creationType>(oid)));
     }
     // public System.String NextToken()

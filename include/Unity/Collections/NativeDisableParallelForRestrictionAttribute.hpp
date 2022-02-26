@@ -14,8 +14,8 @@ namespace Unity::Collections {
   class NativeDisableParallelForRestrictionAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Unity::Collections::NativeDisableParallelForRestrictionAttribute);
-DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::NativeDisableParallelForRestrictionAttribute*, "Unity.Collections", "NativeDisableParallelForRestrictionAttribute");
+NEED_NO_BOX(::Unity::Collections::NativeDisableParallelForRestrictionAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::Unity::Collections::NativeDisableParallelForRestrictionAttribute*, "Unity.Collections", "NativeDisableParallelForRestrictionAttribute");
 // Type namespace: Unity.Collections
 namespace Unity::Collections {
   // Size: 0x10
@@ -24,7 +24,7 @@ namespace Unity::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   // [RequiredByNativeCodeAttribute] Offset: 11A31A8
   // [AttributeUsageAttribute] Offset: 11A31A8
-  class NativeDisableParallelForRestrictionAttribute : public System::Attribute {
+  class NativeDisableParallelForRestrictionAttribute : public ::System::Attribute {
     public:
   }; // Unity.Collections.NativeDisableParallelForRestrictionAttribute
   #pragma pack(pop)

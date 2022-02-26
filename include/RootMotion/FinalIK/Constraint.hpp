@@ -23,8 +23,8 @@ namespace RootMotion::FinalIK {
   class Constraint;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::Constraint);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Constraint*, "RootMotion.FinalIK", "Constraint");
+NEED_NO_BOX(::RootMotion::FinalIK::Constraint);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::Constraint*, "RootMotion.FinalIK", "Constraint");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x1C
@@ -45,9 +45,9 @@ namespace RootMotion::FinalIK {
     // public UnityEngine.Transform transform
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::Transform* transform;
+    ::UnityEngine::Transform* transform;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x18
@@ -56,7 +56,7 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public UnityEngine.Transform transform
-    UnityEngine::Transform*& dyn_transform();
+    ::UnityEngine::Transform*& dyn_transform();
     // Get instance field reference: public System.Single weight
     float& dyn_weight();
     // public System.Boolean get_isValid()
@@ -71,7 +71,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Constraint* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::Constraint::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::Constraint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Constraint*, creationType>()));
     }
   }; // RootMotion.FinalIK.Constraint

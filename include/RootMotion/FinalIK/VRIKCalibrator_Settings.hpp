@@ -15,8 +15,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::VRIKCalibrator::Settings);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::VRIKCalibrator::Settings*, "RootMotion.FinalIK", "VRIKCalibrator/Settings");
+NEED_NO_BOX(::RootMotion::FinalIK::VRIKCalibrator::Settings);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::VRIKCalibrator::Settings*, "RootMotion.FinalIK", "VRIKCalibrator/Settings");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0xA0
@@ -45,73 +45,73 @@ namespace RootMotion::FinalIK {
     // public UnityEngine.Vector3 headTrackerForward
     // Size: 0xC
     // Offset: 0x14
-    UnityEngine::Vector3 headTrackerForward;
+    ::UnityEngine::Vector3 headTrackerForward;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // [TooltipAttribute] Offset: 0x126997C
     // public UnityEngine.Vector3 headTrackerUp
     // Size: 0xC
     // Offset: 0x20
-    UnityEngine::Vector3 headTrackerUp;
+    ::UnityEngine::Vector3 headTrackerUp;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // [TooltipAttribute] Offset: 0x12699B4
     // public UnityEngine.Vector3 bodyTrackerForward
     // Size: 0xC
     // Offset: 0x2C
-    UnityEngine::Vector3 bodyTrackerForward;
+    ::UnityEngine::Vector3 bodyTrackerForward;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // [TooltipAttribute] Offset: 0x12699EC
     // public UnityEngine.Vector3 bodyTrackerUp
     // Size: 0xC
     // Offset: 0x38
-    UnityEngine::Vector3 bodyTrackerUp;
+    ::UnityEngine::Vector3 bodyTrackerUp;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // [TooltipAttribute] Offset: 0x1269A24
     // public UnityEngine.Vector3 handTrackerForward
     // Size: 0xC
     // Offset: 0x44
-    UnityEngine::Vector3 handTrackerForward;
+    ::UnityEngine::Vector3 handTrackerForward;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // [TooltipAttribute] Offset: 0x1269A5C
     // public UnityEngine.Vector3 handTrackerUp
     // Size: 0xC
     // Offset: 0x50
-    UnityEngine::Vector3 handTrackerUp;
+    ::UnityEngine::Vector3 handTrackerUp;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // [TooltipAttribute] Offset: 0x1269A94
     // public UnityEngine.Vector3 footTrackerForward
     // Size: 0xC
     // Offset: 0x5C
-    UnityEngine::Vector3 footTrackerForward;
+    ::UnityEngine::Vector3 footTrackerForward;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // [TooltipAttribute] Offset: 0x1269ACC
     // public UnityEngine.Vector3 footTrackerUp
     // Size: 0xC
     // Offset: 0x68
-    UnityEngine::Vector3 footTrackerUp;
+    ::UnityEngine::Vector3 footTrackerUp;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // [SpaceAttribute] Offset: 0x1269B04
     // [TooltipAttribute] Offset: 0x1269B04
     // public UnityEngine.Vector3 headOffset
     // Size: 0xC
     // Offset: 0x74
-    UnityEngine::Vector3 headOffset;
+    ::UnityEngine::Vector3 headOffset;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // [TooltipAttribute] Offset: 0x1269B54
     // public UnityEngine.Vector3 handOffset
     // Size: 0xC
     // Offset: 0x80
-    UnityEngine::Vector3 handOffset;
+    ::UnityEngine::Vector3 handOffset;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // [TooltipAttribute] Offset: 0x1269B8C
     // public System.Single footForwardOffset
     // Size: 0x4
@@ -152,25 +152,25 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Single scaleMlp
     float& dyn_scaleMlp();
     // Get instance field reference: public UnityEngine.Vector3 headTrackerForward
-    UnityEngine::Vector3& dyn_headTrackerForward();
+    ::UnityEngine::Vector3& dyn_headTrackerForward();
     // Get instance field reference: public UnityEngine.Vector3 headTrackerUp
-    UnityEngine::Vector3& dyn_headTrackerUp();
+    ::UnityEngine::Vector3& dyn_headTrackerUp();
     // Get instance field reference: public UnityEngine.Vector3 bodyTrackerForward
-    UnityEngine::Vector3& dyn_bodyTrackerForward();
+    ::UnityEngine::Vector3& dyn_bodyTrackerForward();
     // Get instance field reference: public UnityEngine.Vector3 bodyTrackerUp
-    UnityEngine::Vector3& dyn_bodyTrackerUp();
+    ::UnityEngine::Vector3& dyn_bodyTrackerUp();
     // Get instance field reference: public UnityEngine.Vector3 handTrackerForward
-    UnityEngine::Vector3& dyn_handTrackerForward();
+    ::UnityEngine::Vector3& dyn_handTrackerForward();
     // Get instance field reference: public UnityEngine.Vector3 handTrackerUp
-    UnityEngine::Vector3& dyn_handTrackerUp();
+    ::UnityEngine::Vector3& dyn_handTrackerUp();
     // Get instance field reference: public UnityEngine.Vector3 footTrackerForward
-    UnityEngine::Vector3& dyn_footTrackerForward();
+    ::UnityEngine::Vector3& dyn_footTrackerForward();
     // Get instance field reference: public UnityEngine.Vector3 footTrackerUp
-    UnityEngine::Vector3& dyn_footTrackerUp();
+    ::UnityEngine::Vector3& dyn_footTrackerUp();
     // Get instance field reference: public UnityEngine.Vector3 headOffset
-    UnityEngine::Vector3& dyn_headOffset();
+    ::UnityEngine::Vector3& dyn_headOffset();
     // Get instance field reference: public UnityEngine.Vector3 handOffset
-    UnityEngine::Vector3& dyn_handOffset();
+    ::UnityEngine::Vector3& dyn_handOffset();
     // Get instance field reference: public System.Single footForwardOffset
     float& dyn_footForwardOffset();
     // Get instance field reference: public System.Single footInwardOffset
@@ -187,7 +187,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRIKCalibrator::Settings* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::VRIKCalibrator::Settings::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::VRIKCalibrator::Settings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRIKCalibrator::Settings*, creationType>()));
     }
   }; // RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.Settings

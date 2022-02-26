@@ -33,8 +33,8 @@ namespace HoudiniEngineUnity {
   class HEU_AssetPreset;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_AssetPreset);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_AssetPreset*, "HoudiniEngineUnity", "HEU_AssetPreset");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_AssetPreset);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_AssetPreset*, "HoudiniEngineUnity", "HEU_AssetPreset");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x50
@@ -81,29 +81,29 @@ namespace HoudiniEngineUnity {
     // public System.Collections.Generic.List`1<System.String> _curveNames
     // Size: 0x8
     // Offset: 0x30
-    System::Collections::Generic::List_1<::StringW>* curveNames;
+    ::System::Collections::Generic::List_1<::StringW>* curveNames;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<::StringW>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::StringW>*) == 0x8);
     // public System.Collections.Generic.List`1<System.Byte[]> _curvePresets
     // Size: 0x8
     // Offset: 0x38
-    System::Collections::Generic::List_1<::ArrayW<uint8_t>>* curvePresets;
+    ::System::Collections::Generic::List_1<::ArrayW<uint8_t>>* curvePresets;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<::ArrayW<uint8_t>>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::ArrayW<uint8_t>>*) == 0x8);
     // [OptionalFieldAttribute] Offset: 0x126CCE0
     // public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputPreset> inputPresets
     // Size: 0x8
     // Offset: 0x40
-    System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputPreset*>* inputPresets;
+    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputPreset*>* inputPresets;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputPreset*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputPreset*>*) == 0x8);
     // [OptionalFieldAttribute] Offset: 0x126CD18
     // public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_VolumeCachePreset> volumeCachePresets
     // Size: 0x8
     // Offset: 0x48
-    System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeCachePreset*>* volumeCachePresets;
+    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset*>* volumeCachePresets;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeCachePreset*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset*>*) == 0x8);
     public:
     // Get instance field reference: public System.Char[] _identifier
     ::ArrayW<::Il2CppChar>& dyn__identifier();
@@ -114,25 +114,25 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Byte[] _parameterPreset
     ::ArrayW<uint8_t>& dyn__parameterPreset();
     // Get instance field reference: public System.Collections.Generic.List`1<System.String> _curveNames
-    System::Collections::Generic::List_1<::StringW>*& dyn__curveNames();
+    ::System::Collections::Generic::List_1<::StringW>*& dyn__curveNames();
     // Get instance field reference: public System.Collections.Generic.List`1<System.Byte[]> _curvePresets
-    System::Collections::Generic::List_1<::ArrayW<uint8_t>>*& dyn__curvePresets();
+    ::System::Collections::Generic::List_1<::ArrayW<uint8_t>>*& dyn__curvePresets();
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputPreset> inputPresets
-    System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputPreset*>*& dyn_inputPresets();
+    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputPreset*>*& dyn_inputPresets();
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_VolumeCachePreset> volumeCachePresets
-    System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeCachePreset*>*& dyn_volumeCachePresets();
+    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset*>*& dyn_volumeCachePresets();
     // public System.Void .ctor()
     // Offset: 0x16356DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_AssetPreset* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_AssetPreset::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_AssetPreset::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_AssetPreset*, creationType>()));
     }
   }; // HoudiniEngineUnity.HEU_AssetPreset
   #pragma pack(pop)
-  static check_size<sizeof(HEU_AssetPreset), 72 + sizeof(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeCachePreset*>*)> __HoudiniEngineUnity_HEU_AssetPresetSizeCheck;
+  static check_size<sizeof(HEU_AssetPreset), 72 + sizeof(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset*>*)> __HoudiniEngineUnity_HEU_AssetPresetSizeCheck;
   static_assert(sizeof(HEU_AssetPreset) == 0x50);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

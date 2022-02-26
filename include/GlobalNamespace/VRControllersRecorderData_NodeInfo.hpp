@@ -15,8 +15,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::VRControllersRecorderData::NodeInfo);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorderData::NodeInfo*, "", "VRControllersRecorderData/NodeInfo");
+NEED_NO_BOX(::GlobalNamespace::VRControllersRecorderData::NodeInfo);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::VRControllersRecorderData::NodeInfo*, "", "VRControllersRecorderData/NodeInfo");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -37,9 +37,9 @@ namespace GlobalNamespace {
     // public readonly UnityEngine.XR.XRNode nodeType
     // Size: 0x4
     // Offset: 0x10
-    UnityEngine::XR::XRNode nodeType;
+    ::UnityEngine::XR::XRNode nodeType;
     // Field size check
-    static_assert(sizeof(UnityEngine::XR::XRNode) == 0x4);
+    static_assert(sizeof(::UnityEngine::XR::XRNode) == 0x4);
     // public readonly System.Int32 nodeIdx
     // Size: 0x4
     // Offset: 0x14
@@ -48,14 +48,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public readonly UnityEngine.XR.XRNode nodeType
-    UnityEngine::XR::XRNode& dyn_nodeType();
+    ::UnityEngine::XR::XRNode& dyn_nodeType();
     // Get instance field reference: public readonly System.Int32 nodeIdx
     int& dyn_nodeIdx();
     // public System.Void .ctor(UnityEngine.XR.XRNode nodeType, System.Int32 nodeIdx)
     // Offset: 0x2CB9238
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static VRControllersRecorderData::NodeInfo* New_ctor(UnityEngine::XR::XRNode nodeType, int nodeIdx) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::VRControllersRecorderData::NodeInfo::.ctor");
+    static VRControllersRecorderData::NodeInfo* New_ctor(::UnityEngine::XR::XRNode nodeType, int nodeIdx) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VRControllersRecorderData::NodeInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRControllersRecorderData::NodeInfo*, creationType>(nodeType, nodeIdx)));
     }
   }; // VRControllersRecorderData/NodeInfo

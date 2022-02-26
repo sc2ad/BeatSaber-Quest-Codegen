@@ -30,8 +30,8 @@ namespace HoudiniEngineUnity {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_HoudiniAsset::$$c);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_HoudiniAsset::$$c*, "HoudiniEngineUnity", "HEU_HoudiniAsset/<>c");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_HoudiniAsset::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_HoudiniAsset::$$c*, "HoudiniEngineUnity", "HEU_HoudiniAsset/<>c");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x10
@@ -42,47 +42,47 @@ namespace HoudiniEngineUnity {
   class HEU_HoudiniAsset::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly HoudiniEngineUnity.HEU_HoudiniAsset/HoudiniEngineUnity.<>c <>9
-    static HoudiniEngineUnity::HEU_HoudiniAsset::$$c* _get_$$9();
+    static ::HoudiniEngineUnity::HEU_HoudiniAsset::$$c* _get_$$9();
     // Set static field: static public readonly HoudiniEngineUnity.HEU_HoudiniAsset/HoudiniEngineUnity.<>c <>9
-    static void _set_$$9(HoudiniEngineUnity::HEU_HoudiniAsset::$$c* value);
+    static void _set_$$9(::HoudiniEngineUnity::HEU_HoudiniAsset::$$c* value);
     // Get static field: static public System.Func`2<HoudiniEngineUnity.HEU_Curve,System.Boolean> <>9__309_0
-    static System::Func_2<HoudiniEngineUnity::HEU_Curve*, bool>* _get_$$9__309_0();
+    static ::System::Func_2<::HoudiniEngineUnity::HEU_Curve*, bool>* _get_$$9__309_0();
     // Set static field: static public System.Func`2<HoudiniEngineUnity.HEU_Curve,System.Boolean> <>9__309_0
-    static void _set_$$9__309_0(System::Func_2<HoudiniEngineUnity::HEU_Curve*, bool>* value);
+    static void _set_$$9__309_0(::System::Func_2<::HoudiniEngineUnity::HEU_Curve*, bool>* value);
     // Get static field: static public System.Func`2<HoudiniEngineUnity.HEU_ObjectNode,System.Boolean> <>9__364_0
-    static System::Func_2<HoudiniEngineUnity::HEU_ObjectNode*, bool>* _get_$$9__364_0();
+    static ::System::Func_2<::HoudiniEngineUnity::HEU_ObjectNode*, bool>* _get_$$9__364_0();
     // Set static field: static public System.Func`2<HoudiniEngineUnity.HEU_ObjectNode,System.Boolean> <>9__364_0
-    static void _set_$$9__364_0(System::Func_2<HoudiniEngineUnity::HEU_ObjectNode*, bool>* value);
+    static void _set_$$9__364_0(::System::Func_2<::HoudiniEngineUnity::HEU_ObjectNode*, bool>* value);
     // Get static field: static public System.Func`2<HoudiniEngineUnity.HEU_Curve,System.Boolean> <>9__364_1
-    static System::Func_2<HoudiniEngineUnity::HEU_Curve*, bool>* _get_$$9__364_1();
+    static ::System::Func_2<::HoudiniEngineUnity::HEU_Curve*, bool>* _get_$$9__364_1();
     // Set static field: static public System.Func`2<HoudiniEngineUnity.HEU_Curve,System.Boolean> <>9__364_1
-    static void _set_$$9__364_1(System::Func_2<HoudiniEngineUnity::HEU_Curve*, bool>* value);
+    static void _set_$$9__364_1(::System::Func_2<::HoudiniEngineUnity::HEU_Curve*, bool>* value);
     // Get static field: static public System.Func`2<HoudiniEngineUnity.HEU_MaterialData,System.Boolean> <>9__364_2
-    static System::Func_2<HoudiniEngineUnity::HEU_MaterialData*, bool>* _get_$$9__364_2();
+    static ::System::Func_2<::HoudiniEngineUnity::HEU_MaterialData*, bool>* _get_$$9__364_2();
     // Set static field: static public System.Func`2<HoudiniEngineUnity.HEU_MaterialData,System.Boolean> <>9__364_2
-    static void _set_$$9__364_2(System::Func_2<HoudiniEngineUnity::HEU_MaterialData*, bool>* value);
+    static void _set_$$9__364_2(::System::Func_2<::HoudiniEngineUnity::HEU_MaterialData*, bool>* value);
     // static private System.Void .cctor()
     // Offset: 0x177951C
     static void _cctor();
     // System.Boolean <ClearInvalidCurves>b__309_0(HoudiniEngineUnity.HEU_Curve curve)
     // Offset: 0x1779588
-    bool $ClearInvalidCurves$b__309_0(HoudiniEngineUnity::HEU_Curve* curve);
+    bool $ClearInvalidCurves$b__309_0(::HoudiniEngineUnity::HEU_Curve* curve);
     // System.Boolean <ClearInvalidLists>b__364_0(HoudiniEngineUnity.HEU_ObjectNode node)
     // Offset: 0x17795F4
-    bool $ClearInvalidLists$b__364_0(HoudiniEngineUnity::HEU_ObjectNode* node);
+    bool $ClearInvalidLists$b__364_0(::HoudiniEngineUnity::HEU_ObjectNode* node);
     // System.Boolean <ClearInvalidLists>b__364_1(HoudiniEngineUnity.HEU_Curve curve)
     // Offset: 0x1779660
-    bool $ClearInvalidLists$b__364_1(HoudiniEngineUnity::HEU_Curve* curve);
+    bool $ClearInvalidLists$b__364_1(::HoudiniEngineUnity::HEU_Curve* curve);
     // System.Boolean <ClearInvalidLists>b__364_2(HoudiniEngineUnity.HEU_MaterialData data)
     // Offset: 0x17796CC
-    bool $ClearInvalidLists$b__364_2(HoudiniEngineUnity::HEU_MaterialData* data);
+    bool $ClearInvalidLists$b__364_2(::HoudiniEngineUnity::HEU_MaterialData* data);
     // public System.Void .ctor()
     // Offset: 0x1779580
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_HoudiniAsset::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_HoudiniAsset::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_HoudiniAsset::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_HoudiniAsset::$$c*, creationType>()));
     }
   }; // HoudiniEngineUnity.HEU_HoudiniAsset/HoudiniEngineUnity.<>c
@@ -100,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HoudiniAsset::$$c::$ClearInvalidCurves$b__309_0
 // Il2CppName: <ClearInvalidCurves>b__309_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_HoudiniAsset::$$c::*)(HoudiniEngineUnity::HEU_Curve*)>(&HoudiniEngineUnity::HEU_HoudiniAsset::$$c::$ClearInvalidCurves$b__309_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_HoudiniAsset::$$c::*)(::HoudiniEngineUnity::HEU_Curve*)>(&HoudiniEngineUnity::HEU_HoudiniAsset::$$c::$ClearInvalidCurves$b__309_0)> {
   static const MethodInfo* get() {
     static auto* curve = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_Curve")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_HoudiniAsset::$$c*), "<ClearInvalidCurves>b__309_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{curve});
@@ -109,7 +109,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HoudiniAsset::$$c::$ClearInvalidLists$b__364_0
 // Il2CppName: <ClearInvalidLists>b__364_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_HoudiniAsset::$$c::*)(HoudiniEngineUnity::HEU_ObjectNode*)>(&HoudiniEngineUnity::HEU_HoudiniAsset::$$c::$ClearInvalidLists$b__364_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_HoudiniAsset::$$c::*)(::HoudiniEngineUnity::HEU_ObjectNode*)>(&HoudiniEngineUnity::HEU_HoudiniAsset::$$c::$ClearInvalidLists$b__364_0)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_ObjectNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_HoudiniAsset::$$c*), "<ClearInvalidLists>b__364_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node});
@@ -118,7 +118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HoudiniAsset::$$c::$ClearInvalidLists$b__364_1
 // Il2CppName: <ClearInvalidLists>b__364_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_HoudiniAsset::$$c::*)(HoudiniEngineUnity::HEU_Curve*)>(&HoudiniEngineUnity::HEU_HoudiniAsset::$$c::$ClearInvalidLists$b__364_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_HoudiniAsset::$$c::*)(::HoudiniEngineUnity::HEU_Curve*)>(&HoudiniEngineUnity::HEU_HoudiniAsset::$$c::$ClearInvalidLists$b__364_1)> {
   static const MethodInfo* get() {
     static auto* curve = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_Curve")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_HoudiniAsset::$$c*), "<ClearInvalidLists>b__364_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{curve});
@@ -127,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HoudiniAsset::$$c::$ClearInvalidLists$b__364_2
 // Il2CppName: <ClearInvalidLists>b__364_2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_HoudiniAsset::$$c::*)(HoudiniEngineUnity::HEU_MaterialData*)>(&HoudiniEngineUnity::HEU_HoudiniAsset::$$c::$ClearInvalidLists$b__364_2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_HoudiniAsset::$$c::*)(::HoudiniEngineUnity::HEU_MaterialData*)>(&HoudiniEngineUnity::HEU_HoudiniAsset::$$c::$ClearInvalidLists$b__364_2)> {
   static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_MaterialData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_HoudiniAsset::$$c*), "<ClearInvalidLists>b__364_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});

@@ -18,8 +18,8 @@ namespace GlobalNamespace {
   class IAssetSongAudioClipProvider;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::IAssetSongAudioClipProvider);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IAssetSongAudioClipProvider*, "", "IAssetSongAudioClipProvider");
+NEED_NO_BOX(::GlobalNamespace::IAssetSongAudioClipProvider);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IAssetSongAudioClipProvider*, "", "IAssetSongAudioClipProvider");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -30,7 +30,7 @@ namespace GlobalNamespace {
     public:
     // public UnityEngine.AudioClip get_songAudioClip()
     // Offset: 0xFFFFFFFF
-    UnityEngine::AudioClip* get_songAudioClip();
+    ::UnityEngine::AudioClip* get_songAudioClip();
   }; // IAssetSongAudioClipProvider
   #pragma pack(pop)
 }
@@ -38,7 +38,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::IAssetSongAudioClipProvider::get_songAudioClip
 // Il2CppName: get_songAudioClip
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AudioClip* (GlobalNamespace::IAssetSongAudioClipProvider::*)()>(&GlobalNamespace::IAssetSongAudioClipProvider::get_songAudioClip)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AudioClip* (GlobalNamespace::IAssetSongAudioClipProvider::*)()>(&GlobalNamespace::IAssetSongAudioClipProvider::get_songAudioClip)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IAssetSongAudioClipProvider*), "get_songAudioClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

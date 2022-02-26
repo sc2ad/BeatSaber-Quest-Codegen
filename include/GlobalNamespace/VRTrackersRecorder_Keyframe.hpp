@@ -19,8 +19,8 @@ namespace GlobalNamespace {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::VRTrackersRecorder::Keyframe);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRTrackersRecorder::Keyframe*, "", "VRTrackersRecorder/Keyframe");
+NEED_NO_BOX(::GlobalNamespace::VRTrackersRecorder::Keyframe);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::VRTrackersRecorder::Keyframe*, "", "VRTrackersRecorder/Keyframe");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x1C
@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class VRTrackersRecorder::Keyframe : public ::Il2CppObject {
     public:
-    // Nested type: GlobalNamespace::VRTrackersRecorder::Keyframe::KeyframeTransform
+    // Nested type: ::GlobalNamespace::VRTrackersRecorder::Keyframe::KeyframeTransform
     class KeyframeTransform;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -43,9 +43,9 @@ namespace GlobalNamespace {
     // public VRTrackersRecorder/Keyframe/KeyframeTransform[] _transforms
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<GlobalNamespace::VRTrackersRecorder::Keyframe::KeyframeTransform*> transforms;
+    ::ArrayW<::GlobalNamespace::VRTrackersRecorder::Keyframe::KeyframeTransform*> transforms;
     // Field size check
-    static_assert(sizeof(::ArrayW<GlobalNamespace::VRTrackersRecorder::Keyframe::KeyframeTransform*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::GlobalNamespace::VRTrackersRecorder::Keyframe::KeyframeTransform*>) == 0x8);
     // public System.Single _time
     // Size: 0x4
     // Offset: 0x18
@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public VRTrackersRecorder/Keyframe/KeyframeTransform[] _transforms
-    ::ArrayW<GlobalNamespace::VRTrackersRecorder::Keyframe::KeyframeTransform*>& dyn__transforms();
+    ::ArrayW<::GlobalNamespace::VRTrackersRecorder::Keyframe::KeyframeTransform*>& dyn__transforms();
     // Get instance field reference: public System.Single _time
     float& dyn__time();
     // public System.Void .ctor()
@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRTrackersRecorder::Keyframe* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::VRTrackersRecorder::Keyframe::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VRTrackersRecorder::Keyframe::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRTrackersRecorder::Keyframe*, creationType>()));
     }
   }; // VRTrackersRecorder/Keyframe

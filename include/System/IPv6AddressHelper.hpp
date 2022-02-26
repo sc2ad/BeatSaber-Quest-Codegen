@@ -21,8 +21,8 @@ namespace System {
   class IPv6AddressHelper;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::IPv6AddressHelper);
-DEFINE_IL2CPP_ARG_TYPE(System::IPv6AddressHelper*, "System", "IPv6AddressHelper");
+NEED_NO_BOX(::System::IPv6AddressHelper);
+DEFINE_IL2CPP_ARG_TYPE(::System::IPv6AddressHelper*, "System", "IPv6AddressHelper");
 // Type namespace: System
 namespace System {
   // Size: 0x10
@@ -39,7 +39,7 @@ namespace System {
     static ::StringW CreateCanonicalName(uint16_t* numbers);
     // static private System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> FindCompressionRange(System.UInt16* numbers)
     // Offset: 0x1AA4324
-    static System::Collections::Generic::KeyValuePair_2<int, int> FindCompressionRange(uint16_t* numbers);
+    static ::System::Collections::Generic::KeyValuePair_2<int, int> FindCompressionRange(uint16_t* numbers);
     // static private System.Boolean ShouldHaveIpv4Embedded(System.UInt16* numbers)
     // Offset: 0x1AA43FC
     static bool ShouldHaveIpv4Embedded(uint16_t* numbers);
@@ -83,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::IPv6AddressHelper::FindCompressionRange
 // Il2CppName: FindCompressionRange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::KeyValuePair_2<int, int> (*)(uint16_t*)>(&System::IPv6AddressHelper::FindCompressionRange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::KeyValuePair_2<int, int> (*)(uint16_t*)>(&System::IPv6AddressHelper::FindCompressionRange)> {
   static const MethodInfo* get() {
     static auto* numbers = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "UInt16"))->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IPv6AddressHelper*), "FindCompressionRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{numbers});

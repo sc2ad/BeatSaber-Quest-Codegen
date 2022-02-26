@@ -14,8 +14,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::ImmutableCollectionTypeInfo);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::ImmutableCollectionTypeInfo*, "Newtonsoft.Json.Utilities", "ImmutableCollectionsUtils/ImmutableCollectionTypeInfo");
+NEED_NO_BOX(::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::ImmutableCollectionTypeInfo);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::ImmutableCollectionTypeInfo*, "Newtonsoft.Json.Utilities", "ImmutableCollectionsUtils/ImmutableCollectionTypeInfo");
 // Type namespace: Newtonsoft.Json.Utilities
 namespace Newtonsoft::Json::Utilities {
   // Size: 0x28
@@ -81,7 +81,7 @@ namespace Newtonsoft::Json::Utilities {
     // Offset: 0x19E5ED4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ImmutableCollectionsUtils::ImmutableCollectionTypeInfo* New_ctor(::StringW contractTypeName, ::StringW createdTypeName, ::StringW builderTypeName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::ImmutableCollectionTypeInfo::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::ImmutableCollectionTypeInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ImmutableCollectionsUtils::ImmutableCollectionTypeInfo*, creationType>(contractTypeName, createdTypeName, builderTypeName)));
     }
   }; // Newtonsoft.Json.Utilities.ImmutableCollectionsUtils/Newtonsoft.Json.Utilities.ImmutableCollectionTypeInfo

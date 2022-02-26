@@ -29,8 +29,8 @@ namespace HMUI {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HMUI::ScrollViewItemsVisibilityController::$$c);
-DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollViewItemsVisibilityController::$$c*, "HMUI", "ScrollViewItemsVisibilityController/<>c");
+NEED_NO_BOX(::HMUI::ScrollViewItemsVisibilityController::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::HMUI::ScrollViewItemsVisibilityController::$$c*, "HMUI", "ScrollViewItemsVisibilityController/<>c");
 // Type namespace: HMUI
 namespace HMUI {
   // Size: 0x10
@@ -41,33 +41,33 @@ namespace HMUI {
   class ScrollViewItemsVisibilityController::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly HMUI.ScrollViewItemsVisibilityController/HMUI.<>c <>9
-    static HMUI::ScrollViewItemsVisibilityController::$$c* _get_$$9();
+    static ::HMUI::ScrollViewItemsVisibilityController::$$c* _get_$$9();
     // Set static field: static public readonly HMUI.ScrollViewItemsVisibilityController/HMUI.<>c <>9
-    static void _set_$$9(HMUI::ScrollViewItemsVisibilityController::$$c* value);
+    static void _set_$$9(::HMUI::ScrollViewItemsVisibilityController::$$c* value);
     // Get static field: static public System.Func`2<System.Tuple`2<HMUI.ScrollViewItemForVisibilityController,System.Single>,System.Single> <>9__11_0
-    static System::Func_2<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>*, float>* _get_$$9__11_0();
+    static ::System::Func_2<::System::Tuple_2<::HMUI::ScrollViewItemForVisibilityController*, float>*, float>* _get_$$9__11_0();
     // Set static field: static public System.Func`2<System.Tuple`2<HMUI.ScrollViewItemForVisibilityController,System.Single>,System.Single> <>9__11_0
-    static void _set_$$9__11_0(System::Func_2<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>*, float>* value);
+    static void _set_$$9__11_0(::System::Func_2<::System::Tuple_2<::HMUI::ScrollViewItemForVisibilityController*, float>*, float>* value);
     // Get static field: static public System.Func`2<System.Tuple`2<HMUI.ScrollViewItemForVisibilityController,System.Single>,System.Single> <>9__11_1
-    static System::Func_2<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>*, float>* _get_$$9__11_1();
+    static ::System::Func_2<::System::Tuple_2<::HMUI::ScrollViewItemForVisibilityController*, float>*, float>* _get_$$9__11_1();
     // Set static field: static public System.Func`2<System.Tuple`2<HMUI.ScrollViewItemForVisibilityController,System.Single>,System.Single> <>9__11_1
-    static void _set_$$9__11_1(System::Func_2<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>*, float>* value);
+    static void _set_$$9__11_1(::System::Func_2<::System::Tuple_2<::HMUI::ScrollViewItemForVisibilityController*, float>*, float>* value);
     // static private System.Void .cctor()
     // Offset: 0x16ACD64
     static void _cctor();
     // System.Single <Start>b__11_0(System.Tuple`2<HMUI.ScrollViewItemForVisibilityController,System.Single> item)
     // Offset: 0x16ACDD0
-    float $Start$b__11_0(System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>* item);
+    float $Start$b__11_0(::System::Tuple_2<::HMUI::ScrollViewItemForVisibilityController*, float>* item);
     // System.Single <Start>b__11_1(System.Tuple`2<HMUI.ScrollViewItemForVisibilityController,System.Single> item)
     // Offset: 0x16ACE1C
-    float $Start$b__11_1(System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>* item);
+    float $Start$b__11_1(::System::Tuple_2<::HMUI::ScrollViewItemForVisibilityController*, float>* item);
     // public System.Void .ctor()
     // Offset: 0x16ACDC8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScrollViewItemsVisibilityController::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::ScrollViewItemsVisibilityController::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ScrollViewItemsVisibilityController::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScrollViewItemsVisibilityController::$$c*, creationType>()));
     }
   }; // HMUI.ScrollViewItemsVisibilityController/HMUI.<>c
@@ -85,7 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: HMUI::ScrollViewItemsVisibilityController::$$c::$Start$b__11_0
 // Il2CppName: <Start>b__11_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HMUI::ScrollViewItemsVisibilityController::$$c::*)(System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>*)>(&HMUI::ScrollViewItemsVisibilityController::$$c::$Start$b__11_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HMUI::ScrollViewItemsVisibilityController::$$c::*)(::System::Tuple_2<::HMUI::ScrollViewItemForVisibilityController*, float>*)>(&HMUI::ScrollViewItemsVisibilityController::$$c::$Start$b__11_0)> {
   static const MethodInfo* get() {
     static auto* item = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Tuple`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("HMUI", "ScrollViewItemForVisibilityController"), ::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollViewItemsVisibilityController::$$c*), "<Start>b__11_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{item});
@@ -94,7 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HMUI
 // Writing MetadataGetter for method: HMUI::ScrollViewItemsVisibilityController::$$c::$Start$b__11_1
 // Il2CppName: <Start>b__11_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HMUI::ScrollViewItemsVisibilityController::$$c::*)(System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>*)>(&HMUI::ScrollViewItemsVisibilityController::$$c::$Start$b__11_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HMUI::ScrollViewItemsVisibilityController::$$c::*)(::System::Tuple_2<::HMUI::ScrollViewItemForVisibilityController*, float>*)>(&HMUI::ScrollViewItemsVisibilityController::$$c::$Start$b__11_1)> {
   static const MethodInfo* get() {
     static auto* item = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Tuple`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("HMUI", "ScrollViewItemForVisibilityController"), ::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollViewItemsVisibilityController::$$c*), "<Start>b__11_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{item});

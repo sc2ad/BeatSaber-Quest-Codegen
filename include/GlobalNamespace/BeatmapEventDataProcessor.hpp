@@ -34,8 +34,8 @@ namespace GlobalNamespace {
   class BeatmapEventDataProcessor;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BeatmapEventDataProcessor);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapEventDataProcessor*, "", "BeatmapEventDataProcessor");
+NEED_NO_BOX(::GlobalNamespace::BeatmapEventDataProcessor);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapEventDataProcessor*, "", "BeatmapEventDataProcessor");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -56,41 +56,41 @@ namespace GlobalNamespace {
     // private readonly System.Collections.Generic.Dictionary`2<BeatmapEventType,BeatmapEventData> _lastBeatmapEventDataDictionary
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::Dictionary_2<GlobalNamespace::BeatmapEventType, GlobalNamespace::BeatmapEventData*>* lastBeatmapEventDataDictionary;
+    ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::BeatmapEventType, ::GlobalNamespace::BeatmapEventData*>* lastBeatmapEventDataDictionary;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<GlobalNamespace::BeatmapEventType, GlobalNamespace::BeatmapEventData*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::BeatmapEventType, ::GlobalNamespace::BeatmapEventData*>*) == 0x8);
     public:
-    // Creating conversion operator: operator System::Collections::Generic::Dictionary_2<GlobalNamespace::BeatmapEventType, GlobalNamespace::BeatmapEventData*>*
-    constexpr operator System::Collections::Generic::Dictionary_2<GlobalNamespace::BeatmapEventType, GlobalNamespace::BeatmapEventData*>*() const noexcept {
+    // Creating conversion operator: operator ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::BeatmapEventType, ::GlobalNamespace::BeatmapEventData*>*
+    constexpr operator ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::BeatmapEventType, ::GlobalNamespace::BeatmapEventData*>*() const noexcept {
       return lastBeatmapEventDataDictionary;
     }
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<BeatmapEventType,BeatmapEventData> _lastBeatmapEventDataDictionary
-    System::Collections::Generic::Dictionary_2<GlobalNamespace::BeatmapEventType, GlobalNamespace::BeatmapEventData*>*& dyn__lastBeatmapEventDataDictionary();
+    ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::BeatmapEventType, ::GlobalNamespace::BeatmapEventData*>*& dyn__lastBeatmapEventDataDictionary();
     // public System.Void ProcessAddedEventData(BeatmapEventData eventData)
     // Offset: 0x2A4A1F4
-    void ProcessAddedEventData(GlobalNamespace::BeatmapEventData* eventData);
+    void ProcessAddedEventData(::GlobalNamespace::BeatmapEventData* eventData);
     // public System.Void ProcessEventDataPreInsert(System.Int32 index, BeatmapEventData eventData, System.Collections.Generic.List`1<BeatmapEventData> existingBeatmapEventData)
     // Offset: 0x2A4A29C
-    void ProcessEventDataPreInsert(int index, GlobalNamespace::BeatmapEventData* eventData, System::Collections::Generic::List_1<GlobalNamespace::BeatmapEventData*>* existingBeatmapEventData);
+    void ProcessEventDataPreInsert(int index, ::GlobalNamespace::BeatmapEventData* eventData, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>* existingBeatmapEventData);
     // public System.Void .ctor()
     // Offset: 0x2A4A448
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapEventDataProcessor* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapEventDataProcessor::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapEventDataProcessor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapEventDataProcessor*, creationType>()));
     }
   }; // BeatmapEventDataProcessor
   #pragma pack(pop)
-  static check_size<sizeof(BeatmapEventDataProcessor), 16 + sizeof(System::Collections::Generic::Dictionary_2<GlobalNamespace::BeatmapEventType, GlobalNamespace::BeatmapEventData*>*)> __GlobalNamespace_BeatmapEventDataProcessorSizeCheck;
+  static check_size<sizeof(BeatmapEventDataProcessor), 16 + sizeof(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::BeatmapEventType, ::GlobalNamespace::BeatmapEventData*>*)> __GlobalNamespace_BeatmapEventDataProcessorSizeCheck;
   static_assert(sizeof(BeatmapEventDataProcessor) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapEventDataProcessor::ProcessAddedEventData
 // Il2CppName: ProcessAddedEventData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapEventDataProcessor::*)(GlobalNamespace::BeatmapEventData*)>(&GlobalNamespace::BeatmapEventDataProcessor::ProcessAddedEventData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapEventDataProcessor::*)(::GlobalNamespace::BeatmapEventData*)>(&GlobalNamespace::BeatmapEventDataProcessor::ProcessAddedEventData)> {
   static const MethodInfo* get() {
     static auto* eventData = &::il2cpp_utils::GetClassFromName("", "BeatmapEventData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventDataProcessor*), "ProcessAddedEventData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eventData});
@@ -99,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapEventDataProcessor::ProcessEventDataPreInsert
 // Il2CppName: ProcessEventDataPreInsert
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapEventDataProcessor::*)(int, GlobalNamespace::BeatmapEventData*, System::Collections::Generic::List_1<GlobalNamespace::BeatmapEventData*>*)>(&GlobalNamespace::BeatmapEventDataProcessor::ProcessEventDataPreInsert)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapEventDataProcessor::*)(int, ::GlobalNamespace::BeatmapEventData*, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>*)>(&GlobalNamespace::BeatmapEventDataProcessor::ProcessEventDataPreInsert)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* eventData = &::il2cpp_utils::GetClassFromName("", "BeatmapEventData")->byval_arg;

@@ -16,7 +16,7 @@ namespace GlobalNamespace {
   class IReferenceCountingCache_2;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::IReferenceCountingCache_2, "", "IReferenceCountingCache`2");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::IReferenceCountingCache_2, "", "IReferenceCountingCache`2");
 // Type namespace: 
 namespace GlobalNamespace {
   // WARNING Size may be invalid!
@@ -28,35 +28,35 @@ namespace GlobalNamespace {
     // public System.Int32 Insert(TKey key, TValue item)
     // Offset: 0xFFFFFFFF
     int Insert(TKey key, TValue item) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IReferenceCountingCache_2::Insert");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::IReferenceCountingCache_2::Insert");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Insert", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractType(item)})));
       return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method, key, item);
     }
     // public System.Int32 AddReference(TKey key)
     // Offset: 0xFFFFFFFF
     int AddReference(TKey key) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IReferenceCountingCache_2::AddReference");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::IReferenceCountingCache_2::AddReference");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "AddReference", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key)})));
       return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method, key);
     }
     // public System.Int32 RemoveReference(TKey key)
     // Offset: 0xFFFFFFFF
     int RemoveReference(TKey key) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IReferenceCountingCache_2::RemoveReference");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::IReferenceCountingCache_2::RemoveReference");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "RemoveReference", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key)})));
       return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method, key);
     }
     // public System.Int32 GetReferenceCount(TKey key)
     // Offset: 0xFFFFFFFF
     int GetReferenceCount(TKey key) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IReferenceCountingCache_2::GetReferenceCount");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::IReferenceCountingCache_2::GetReferenceCount");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetReferenceCount", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key)})));
       return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method, key);
     }
     // public System.Boolean TryGet(TKey key, out TValue result)
     // Offset: 0xFFFFFFFF
     bool TryGet(TKey key, ByRef<TValue> result) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IReferenceCountingCache_2::TryGet");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::IReferenceCountingCache_2::TryGet");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryGet", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractIndependentType<TValue&>()})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, key, byref(result));
     }

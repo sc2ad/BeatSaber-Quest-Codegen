@@ -31,8 +31,8 @@ namespace UnityEngine {
   class TerrainLayer;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::TerrainLayer);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TerrainLayer*, "UnityEngine", "TerrainLayer");
+NEED_NO_BOX(::UnityEngine::TerrainLayer);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TerrainLayer*, "UnityEngine", "TerrainLayer");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -43,44 +43,44 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: 1212B34
   // [UsedByNativeCodeAttribute] Offset: 1212B34
   // [NativeHeaderAttribute] Offset: 1212B34
-  class TerrainLayer : public UnityEngine::Object {
+  class TerrainLayer : public ::UnityEngine::Object {
     public:
     // public UnityEngine.Texture2D get_diffuseTexture()
     // Offset: 0x2A2C1EC
-    UnityEngine::Texture2D* get_diffuseTexture();
+    ::UnityEngine::Texture2D* get_diffuseTexture();
     // public System.Void set_diffuseTexture(UnityEngine.Texture2D value)
     // Offset: 0x2A2C22C
-    void set_diffuseTexture(UnityEngine::Texture2D* value);
+    void set_diffuseTexture(::UnityEngine::Texture2D* value);
     // public UnityEngine.Texture2D get_normalMapTexture()
     // Offset: 0x2A2C27C
-    UnityEngine::Texture2D* get_normalMapTexture();
+    ::UnityEngine::Texture2D* get_normalMapTexture();
     // public System.Void set_normalMapTexture(UnityEngine.Texture2D value)
     // Offset: 0x2A2C2BC
-    void set_normalMapTexture(UnityEngine::Texture2D* value);
+    void set_normalMapTexture(::UnityEngine::Texture2D* value);
     // public UnityEngine.Texture2D get_maskMapTexture()
     // Offset: 0x2A2C30C
-    UnityEngine::Texture2D* get_maskMapTexture();
+    ::UnityEngine::Texture2D* get_maskMapTexture();
     // public System.Void set_maskMapTexture(UnityEngine.Texture2D value)
     // Offset: 0x2A2C34C
-    void set_maskMapTexture(UnityEngine::Texture2D* value);
+    void set_maskMapTexture(::UnityEngine::Texture2D* value);
     // public UnityEngine.Vector2 get_tileSize()
     // Offset: 0x2A2C39C
-    UnityEngine::Vector2 get_tileSize();
+    ::UnityEngine::Vector2 get_tileSize();
     // public System.Void set_tileSize(UnityEngine.Vector2 value)
     // Offset: 0x2A2C444
-    void set_tileSize(UnityEngine::Vector2 value);
+    void set_tileSize(::UnityEngine::Vector2 value);
     // public UnityEngine.Vector2 get_tileOffset()
     // Offset: 0x2A2C4E8
-    UnityEngine::Vector2 get_tileOffset();
+    ::UnityEngine::Vector2 get_tileOffset();
     // public System.Void set_tileOffset(UnityEngine.Vector2 value)
     // Offset: 0x2A2C590
-    void set_tileOffset(UnityEngine::Vector2 value);
+    void set_tileOffset(::UnityEngine::Vector2 value);
     // public UnityEngine.Color get_specular()
     // Offset: 0x2A2C634
-    UnityEngine::Color get_specular();
+    ::UnityEngine::Color get_specular();
     // public System.Void set_specular(UnityEngine.Color value)
     // Offset: 0x2A2C6E0
-    void set_specular(UnityEngine::Color value);
+    void set_specular(::UnityEngine::Color value);
     // public System.Single get_metallic()
     // Offset: 0x2A2C788
     float get_metallic();
@@ -98,49 +98,49 @@ namespace UnityEngine {
     void set_normalScale(float value);
     // public System.Void set_diffuseRemapMin(UnityEngine.Vector4 value)
     // Offset: 0x2A2C8F8
-    void set_diffuseRemapMin(UnityEngine::Vector4 value);
+    void set_diffuseRemapMin(::UnityEngine::Vector4 value);
     // public System.Void set_diffuseRemapMax(UnityEngine.Vector4 value)
     // Offset: 0x2A2C9A0
-    void set_diffuseRemapMax(UnityEngine::Vector4 value);
+    void set_diffuseRemapMax(::UnityEngine::Vector4 value);
     // public System.Void set_maskMapRemapMin(UnityEngine.Vector4 value)
     // Offset: 0x2A2CA48
-    void set_maskMapRemapMin(UnityEngine::Vector4 value);
+    void set_maskMapRemapMin(::UnityEngine::Vector4 value);
     // public System.Void set_maskMapRemapMax(UnityEngine.Vector4 value)
     // Offset: 0x2A2CAF0
-    void set_maskMapRemapMax(UnityEngine::Vector4 value);
+    void set_maskMapRemapMax(::UnityEngine::Vector4 value);
     // static private System.Void Internal_Create(UnityEngine.TerrainLayer layer)
     // Offset: 0x2A2C1AC
-    static void Internal_Create(UnityEngine::TerrainLayer* layer);
+    static void Internal_Create(::UnityEngine::TerrainLayer* layer);
     // private System.Void get_tileSize_Injected(out UnityEngine.Vector2 ret)
     // Offset: 0x2A2C3F4
-    void get_tileSize_Injected(ByRef<UnityEngine::Vector2> ret);
+    void get_tileSize_Injected(ByRef<::UnityEngine::Vector2> ret);
     // private System.Void set_tileSize_Injected(ref UnityEngine.Vector2 value)
     // Offset: 0x2A2C498
-    void set_tileSize_Injected(ByRef<UnityEngine::Vector2> value);
+    void set_tileSize_Injected(ByRef<::UnityEngine::Vector2> value);
     // private System.Void get_tileOffset_Injected(out UnityEngine.Vector2 ret)
     // Offset: 0x2A2C540
-    void get_tileOffset_Injected(ByRef<UnityEngine::Vector2> ret);
+    void get_tileOffset_Injected(ByRef<::UnityEngine::Vector2> ret);
     // private System.Void set_tileOffset_Injected(ref UnityEngine.Vector2 value)
     // Offset: 0x2A2C5E4
-    void set_tileOffset_Injected(ByRef<UnityEngine::Vector2> value);
+    void set_tileOffset_Injected(ByRef<::UnityEngine::Vector2> value);
     // private System.Void get_specular_Injected(out UnityEngine.Color ret)
     // Offset: 0x2A2C690
-    void get_specular_Injected(ByRef<UnityEngine::Color> ret);
+    void get_specular_Injected(ByRef<::UnityEngine::Color> ret);
     // private System.Void set_specular_Injected(ref UnityEngine.Color value)
     // Offset: 0x2A2C738
-    void set_specular_Injected(ByRef<UnityEngine::Color> value);
+    void set_specular_Injected(ByRef<::UnityEngine::Color> value);
     // private System.Void set_diffuseRemapMin_Injected(ref UnityEngine.Vector4 value)
     // Offset: 0x2A2C950
-    void set_diffuseRemapMin_Injected(ByRef<UnityEngine::Vector4> value);
+    void set_diffuseRemapMin_Injected(ByRef<::UnityEngine::Vector4> value);
     // private System.Void set_diffuseRemapMax_Injected(ref UnityEngine.Vector4 value)
     // Offset: 0x2A2C9F8
-    void set_diffuseRemapMax_Injected(ByRef<UnityEngine::Vector4> value);
+    void set_diffuseRemapMax_Injected(ByRef<::UnityEngine::Vector4> value);
     // private System.Void set_maskMapRemapMin_Injected(ref UnityEngine.Vector4 value)
     // Offset: 0x2A2CAA0
-    void set_maskMapRemapMin_Injected(ByRef<UnityEngine::Vector4> value);
+    void set_maskMapRemapMin_Injected(ByRef<::UnityEngine::Vector4> value);
     // private System.Void set_maskMapRemapMax_Injected(ref UnityEngine.Vector4 value)
     // Offset: 0x2A2CB48
-    void set_maskMapRemapMax_Injected(ByRef<UnityEngine::Vector4> value);
+    void set_maskMapRemapMax_Injected(ByRef<::UnityEngine::Vector4> value);
     // public System.Void .ctor()
     // Offset: 0x2A2C11C
     // Implemented from: UnityEngine.Object
@@ -148,7 +148,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TerrainLayer* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TerrainLayer::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TerrainLayer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TerrainLayer*, creationType>()));
     }
   }; // UnityEngine.TerrainLayer
@@ -158,7 +158,7 @@ namespace UnityEngine {
 // Writing MetadataGetter for method: UnityEngine::TerrainLayer::get_diffuseTexture
 // Il2CppName: get_diffuseTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (UnityEngine::TerrainLayer::*)()>(&UnityEngine::TerrainLayer::get_diffuseTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Texture2D* (UnityEngine::TerrainLayer::*)()>(&UnityEngine::TerrainLayer::get_diffuseTexture)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TerrainLayer*), "get_diffuseTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -166,7 +166,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::TerrainLayer::set_diffuseTexture
 // Il2CppName: set_diffuseTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainLayer::*)(UnityEngine::Texture2D*)>(&UnityEngine::TerrainLayer::set_diffuseTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainLayer::*)(::UnityEngine::Texture2D*)>(&UnityEngine::TerrainLayer::set_diffuseTexture)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture2D")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TerrainLayer*), "set_diffuseTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -175,7 +175,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TerrainLayer::get_normalMapTexture
 // Il2CppName: get_normalMapTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (UnityEngine::TerrainLayer::*)()>(&UnityEngine::TerrainLayer::get_normalMapTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Texture2D* (UnityEngine::TerrainLayer::*)()>(&UnityEngine::TerrainLayer::get_normalMapTexture)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TerrainLayer*), "get_normalMapTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -183,7 +183,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::TerrainLayer::set_normalMapTexture
 // Il2CppName: set_normalMapTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainLayer::*)(UnityEngine::Texture2D*)>(&UnityEngine::TerrainLayer::set_normalMapTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainLayer::*)(::UnityEngine::Texture2D*)>(&UnityEngine::TerrainLayer::set_normalMapTexture)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture2D")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TerrainLayer*), "set_normalMapTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -192,7 +192,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TerrainLayer::get_maskMapTexture
 // Il2CppName: get_maskMapTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (UnityEngine::TerrainLayer::*)()>(&UnityEngine::TerrainLayer::get_maskMapTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Texture2D* (UnityEngine::TerrainLayer::*)()>(&UnityEngine::TerrainLayer::get_maskMapTexture)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TerrainLayer*), "get_maskMapTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -200,7 +200,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::TerrainLayer::set_maskMapTexture
 // Il2CppName: set_maskMapTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainLayer::*)(UnityEngine::Texture2D*)>(&UnityEngine::TerrainLayer::set_maskMapTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainLayer::*)(::UnityEngine::Texture2D*)>(&UnityEngine::TerrainLayer::set_maskMapTexture)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture2D")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TerrainLayer*), "set_maskMapTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -209,7 +209,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TerrainLayer::get_tileSize
 // Il2CppName: get_tileSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::TerrainLayer::*)()>(&UnityEngine::TerrainLayer::get_tileSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (UnityEngine::TerrainLayer::*)()>(&UnityEngine::TerrainLayer::get_tileSize)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TerrainLayer*), "get_tileSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -217,7 +217,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::TerrainLayer::set_tileSize
 // Il2CppName: set_tileSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainLayer::*)(UnityEngine::Vector2)>(&UnityEngine::TerrainLayer::set_tileSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainLayer::*)(::UnityEngine::Vector2)>(&UnityEngine::TerrainLayer::set_tileSize)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TerrainLayer*), "set_tileSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -226,7 +226,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TerrainLayer::get_tileOffset
 // Il2CppName: get_tileOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::TerrainLayer::*)()>(&UnityEngine::TerrainLayer::get_tileOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (UnityEngine::TerrainLayer::*)()>(&UnityEngine::TerrainLayer::get_tileOffset)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TerrainLayer*), "get_tileOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -234,7 +234,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::TerrainLayer::set_tileOffset
 // Il2CppName: set_tileOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainLayer::*)(UnityEngine::Vector2)>(&UnityEngine::TerrainLayer::set_tileOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainLayer::*)(::UnityEngine::Vector2)>(&UnityEngine::TerrainLayer::set_tileOffset)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TerrainLayer*), "set_tileOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -243,7 +243,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TerrainLayer::get_specular
 // Il2CppName: get_specular
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (UnityEngine::TerrainLayer::*)()>(&UnityEngine::TerrainLayer::get_specular)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (UnityEngine::TerrainLayer::*)()>(&UnityEngine::TerrainLayer::get_specular)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TerrainLayer*), "get_specular", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -251,7 +251,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::TerrainLayer::set_specular
 // Il2CppName: set_specular
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainLayer::*)(UnityEngine::Color)>(&UnityEngine::TerrainLayer::set_specular)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainLayer::*)(::UnityEngine::Color)>(&UnityEngine::TerrainLayer::set_specular)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TerrainLayer*), "set_specular", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -303,7 +303,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TerrainLayer::set_diffuseRemapMin
 // Il2CppName: set_diffuseRemapMin
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainLayer::*)(UnityEngine::Vector4)>(&UnityEngine::TerrainLayer::set_diffuseRemapMin)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainLayer::*)(::UnityEngine::Vector4)>(&UnityEngine::TerrainLayer::set_diffuseRemapMin)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TerrainLayer*), "set_diffuseRemapMin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -312,7 +312,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TerrainLayer::set_diffuseRemapMax
 // Il2CppName: set_diffuseRemapMax
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainLayer::*)(UnityEngine::Vector4)>(&UnityEngine::TerrainLayer::set_diffuseRemapMax)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainLayer::*)(::UnityEngine::Vector4)>(&UnityEngine::TerrainLayer::set_diffuseRemapMax)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TerrainLayer*), "set_diffuseRemapMax", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -321,7 +321,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TerrainLayer::set_maskMapRemapMin
 // Il2CppName: set_maskMapRemapMin
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainLayer::*)(UnityEngine::Vector4)>(&UnityEngine::TerrainLayer::set_maskMapRemapMin)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainLayer::*)(::UnityEngine::Vector4)>(&UnityEngine::TerrainLayer::set_maskMapRemapMin)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TerrainLayer*), "set_maskMapRemapMin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -330,7 +330,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TerrainLayer::set_maskMapRemapMax
 // Il2CppName: set_maskMapRemapMax
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainLayer::*)(UnityEngine::Vector4)>(&UnityEngine::TerrainLayer::set_maskMapRemapMax)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainLayer::*)(::UnityEngine::Vector4)>(&UnityEngine::TerrainLayer::set_maskMapRemapMax)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TerrainLayer*), "set_maskMapRemapMax", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -339,7 +339,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TerrainLayer::Internal_Create
 // Il2CppName: Internal_Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::TerrainLayer*)>(&UnityEngine::TerrainLayer::Internal_Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::TerrainLayer*)>(&UnityEngine::TerrainLayer::Internal_Create)> {
   static const MethodInfo* get() {
     static auto* layer = &::il2cpp_utils::GetClassFromName("UnityEngine", "TerrainLayer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TerrainLayer*), "Internal_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{layer});
@@ -348,7 +348,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::TerrainLayer::get_tileSize_Injected
 // Il2CppName: get_tileSize_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainLayer::*)(ByRef<UnityEngine::Vector2>)>(&UnityEngine::TerrainLayer::get_tileSize_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainLayer::*)(ByRef<::UnityEngine::Vector2>)>(&UnityEngine::TerrainLayer::get_tileSize_Injected)> {
   static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TerrainLayer*), "get_tileSize_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
@@ -357,7 +357,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TerrainLayer::set_tileSize_Injected
 // Il2CppName: set_tileSize_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainLayer::*)(ByRef<UnityEngine::Vector2>)>(&UnityEngine::TerrainLayer::set_tileSize_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainLayer::*)(ByRef<::UnityEngine::Vector2>)>(&UnityEngine::TerrainLayer::set_tileSize_Injected)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TerrainLayer*), "set_tileSize_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -366,7 +366,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TerrainLayer::get_tileOffset_Injected
 // Il2CppName: get_tileOffset_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainLayer::*)(ByRef<UnityEngine::Vector2>)>(&UnityEngine::TerrainLayer::get_tileOffset_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainLayer::*)(ByRef<::UnityEngine::Vector2>)>(&UnityEngine::TerrainLayer::get_tileOffset_Injected)> {
   static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TerrainLayer*), "get_tileOffset_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
@@ -375,7 +375,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TerrainLayer::set_tileOffset_Injected
 // Il2CppName: set_tileOffset_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainLayer::*)(ByRef<UnityEngine::Vector2>)>(&UnityEngine::TerrainLayer::set_tileOffset_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainLayer::*)(ByRef<::UnityEngine::Vector2>)>(&UnityEngine::TerrainLayer::set_tileOffset_Injected)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TerrainLayer*), "set_tileOffset_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -384,7 +384,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TerrainLayer::get_specular_Injected
 // Il2CppName: get_specular_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainLayer::*)(ByRef<UnityEngine::Color>)>(&UnityEngine::TerrainLayer::get_specular_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainLayer::*)(ByRef<::UnityEngine::Color>)>(&UnityEngine::TerrainLayer::get_specular_Injected)> {
   static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TerrainLayer*), "get_specular_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
@@ -393,7 +393,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TerrainLayer::set_specular_Injected
 // Il2CppName: set_specular_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainLayer::*)(ByRef<UnityEngine::Color>)>(&UnityEngine::TerrainLayer::set_specular_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainLayer::*)(ByRef<::UnityEngine::Color>)>(&UnityEngine::TerrainLayer::set_specular_Injected)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TerrainLayer*), "set_specular_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -402,7 +402,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TerrainLayer::set_diffuseRemapMin_Injected
 // Il2CppName: set_diffuseRemapMin_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainLayer::*)(ByRef<UnityEngine::Vector4>)>(&UnityEngine::TerrainLayer::set_diffuseRemapMin_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainLayer::*)(ByRef<::UnityEngine::Vector4>)>(&UnityEngine::TerrainLayer::set_diffuseRemapMin_Injected)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TerrainLayer*), "set_diffuseRemapMin_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -411,7 +411,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TerrainLayer::set_diffuseRemapMax_Injected
 // Il2CppName: set_diffuseRemapMax_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainLayer::*)(ByRef<UnityEngine::Vector4>)>(&UnityEngine::TerrainLayer::set_diffuseRemapMax_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainLayer::*)(ByRef<::UnityEngine::Vector4>)>(&UnityEngine::TerrainLayer::set_diffuseRemapMax_Injected)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TerrainLayer*), "set_diffuseRemapMax_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -420,7 +420,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TerrainLayer::set_maskMapRemapMin_Injected
 // Il2CppName: set_maskMapRemapMin_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainLayer::*)(ByRef<UnityEngine::Vector4>)>(&UnityEngine::TerrainLayer::set_maskMapRemapMin_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainLayer::*)(ByRef<::UnityEngine::Vector4>)>(&UnityEngine::TerrainLayer::set_maskMapRemapMin_Injected)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TerrainLayer*), "set_maskMapRemapMin_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -429,7 +429,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TerrainLayer::set_maskMapRemapMax_Injected
 // Il2CppName: set_maskMapRemapMax_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainLayer::*)(ByRef<UnityEngine::Vector4>)>(&UnityEngine::TerrainLayer::set_maskMapRemapMax_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainLayer::*)(ByRef<::UnityEngine::Vector4>)>(&UnityEngine::TerrainLayer::set_maskMapRemapMax_Injected)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TerrainLayer*), "set_maskMapRemapMax_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

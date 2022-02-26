@@ -24,8 +24,8 @@ namespace GlobalNamespace {
   class BeatmapObjectCallbackData;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BeatmapObjectCallbackData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectCallbackData*, "", "BeatmapObjectCallbackData");
+NEED_NO_BOX(::GlobalNamespace::BeatmapObjectCallbackData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapObjectCallbackData*, "", "BeatmapObjectCallbackData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x28
@@ -60,26 +60,26 @@ namespace GlobalNamespace {
     // public readonly BeatmapObjectCallback callback
     // Size: 0x8
     // Offset: 0x20
-    GlobalNamespace::BeatmapObjectCallback* callback;
+    ::GlobalNamespace::BeatmapObjectCallback* callback;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::BeatmapObjectCallback*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::BeatmapObjectCallback*) == 0x8);
     public:
     // Get instance field reference: public System.Single aheadTime
     float& dyn_aheadTime();
     // Get instance field reference: public System.Int32[] nextObjectIndexInLine
     ::ArrayW<int>& dyn_nextObjectIndexInLine();
     // Get instance field reference: public readonly BeatmapObjectCallback callback
-    GlobalNamespace::BeatmapObjectCallback*& dyn_callback();
+    ::GlobalNamespace::BeatmapObjectCallback*& dyn_callback();
     // public System.Void .ctor(BeatmapObjectCallback callback, System.Single aheadTime, System.Int32 numberOfLines)
     // Offset: 0x14C94C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BeatmapObjectCallbackData* New_ctor(GlobalNamespace::BeatmapObjectCallback* callback, float aheadTime, int numberOfLines) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapObjectCallbackData::.ctor");
+    static BeatmapObjectCallbackData* New_ctor(::GlobalNamespace::BeatmapObjectCallback* callback, float aheadTime, int numberOfLines) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectCallbackData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectCallbackData*, creationType>(callback, aheadTime, numberOfLines)));
     }
   }; // BeatmapObjectCallbackData
   #pragma pack(pop)
-  static check_size<sizeof(BeatmapObjectCallbackData), 32 + sizeof(GlobalNamespace::BeatmapObjectCallback*)> __GlobalNamespace_BeatmapObjectCallbackDataSizeCheck;
+  static check_size<sizeof(BeatmapObjectCallbackData), 32 + sizeof(::GlobalNamespace::BeatmapObjectCallback*)> __GlobalNamespace_BeatmapObjectCallbackDataSizeCheck;
   static_assert(sizeof(BeatmapObjectCallbackData) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

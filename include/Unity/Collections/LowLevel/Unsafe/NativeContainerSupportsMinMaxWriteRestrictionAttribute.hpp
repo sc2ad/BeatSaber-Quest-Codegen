@@ -18,8 +18,8 @@ namespace Unity::Collections::LowLevel::Unsafe {
   class NativeContainerSupportsMinMaxWriteRestrictionAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsMinMaxWriteRestrictionAttribute);
-DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsMinMaxWriteRestrictionAttribute*, "Unity.Collections.LowLevel.Unsafe", "NativeContainerSupportsMinMaxWriteRestrictionAttribute");
+NEED_NO_BOX(::Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsMinMaxWriteRestrictionAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsMinMaxWriteRestrictionAttribute*, "Unity.Collections.LowLevel.Unsafe", "NativeContainerSupportsMinMaxWriteRestrictionAttribute");
 // Type namespace: Unity.Collections.LowLevel.Unsafe
 namespace Unity::Collections::LowLevel::Unsafe {
   // Size: 0x10
@@ -28,7 +28,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AttributeUsageAttribute] Offset: 11A33A4
   // [RequiredByNativeCodeAttribute] Offset: 11A33A4
-  class NativeContainerSupportsMinMaxWriteRestrictionAttribute : public System::Attribute {
+  class NativeContainerSupportsMinMaxWriteRestrictionAttribute : public ::System::Attribute {
     public:
     // public System.Void .ctor()
     // Offset: 0x1EA92E4
@@ -37,7 +37,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NativeContainerSupportsMinMaxWriteRestrictionAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsMinMaxWriteRestrictionAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsMinMaxWriteRestrictionAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativeContainerSupportsMinMaxWriteRestrictionAttribute*, creationType>()));
     }
   }; // Unity.Collections.LowLevel.Unsafe.NativeContainerSupportsMinMaxWriteRestrictionAttribute

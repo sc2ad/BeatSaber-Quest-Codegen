@@ -26,8 +26,8 @@ namespace System::Security::Util {
   class TokenizerStream;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Security::Util::TokenizerStream);
-DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::TokenizerStream*, "System.Security.Util", "TokenizerStream");
+NEED_NO_BOX(::System::Security::Util::TokenizerStream);
+DEFINE_IL2CPP_ARG_TYPE(::System::Security::Util::TokenizerStream*, "System.Security.Util", "TokenizerStream");
 // Type namespace: System.Security.Util
 namespace System::Security::Util {
   // Size: 0x4C
@@ -56,21 +56,21 @@ namespace System::Security::Util {
     // private System.Security.Util.TokenizerShortBlock m_headTokens
     // Size: 0x8
     // Offset: 0x18
-    System::Security::Util::TokenizerShortBlock* m_headTokens;
+    ::System::Security::Util::TokenizerShortBlock* m_headTokens;
     // Field size check
-    static_assert(sizeof(System::Security::Util::TokenizerShortBlock*) == 0x8);
+    static_assert(sizeof(::System::Security::Util::TokenizerShortBlock*) == 0x8);
     // private System.Security.Util.TokenizerShortBlock m_lastTokens
     // Size: 0x8
     // Offset: 0x20
-    System::Security::Util::TokenizerShortBlock* m_lastTokens;
+    ::System::Security::Util::TokenizerShortBlock* m_lastTokens;
     // Field size check
-    static_assert(sizeof(System::Security::Util::TokenizerShortBlock*) == 0x8);
+    static_assert(sizeof(::System::Security::Util::TokenizerShortBlock*) == 0x8);
     // private System.Security.Util.TokenizerShortBlock m_currentTokens
     // Size: 0x8
     // Offset: 0x28
-    System::Security::Util::TokenizerShortBlock* m_currentTokens;
+    ::System::Security::Util::TokenizerShortBlock* m_currentTokens;
     // Field size check
-    static_assert(sizeof(System::Security::Util::TokenizerShortBlock*) == 0x8);
+    static_assert(sizeof(::System::Security::Util::TokenizerShortBlock*) == 0x8);
     // private System.Int32 m_indexTokens
     // Size: 0x4
     // Offset: 0x30
@@ -82,15 +82,15 @@ namespace System::Security::Util {
     // private System.Security.Util.TokenizerStringBlock m_headStrings
     // Size: 0x8
     // Offset: 0x38
-    System::Security::Util::TokenizerStringBlock* m_headStrings;
+    ::System::Security::Util::TokenizerStringBlock* m_headStrings;
     // Field size check
-    static_assert(sizeof(System::Security::Util::TokenizerStringBlock*) == 0x8);
+    static_assert(sizeof(::System::Security::Util::TokenizerStringBlock*) == 0x8);
     // private System.Security.Util.TokenizerStringBlock m_currentStrings
     // Size: 0x8
     // Offset: 0x40
-    System::Security::Util::TokenizerStringBlock* m_currentStrings;
+    ::System::Security::Util::TokenizerStringBlock* m_currentStrings;
     // Field size check
-    static_assert(sizeof(System::Security::Util::TokenizerStringBlock*) == 0x8);
+    static_assert(sizeof(::System::Security::Util::TokenizerStringBlock*) == 0x8);
     // private System.Int32 m_indexStrings
     // Size: 0x4
     // Offset: 0x48
@@ -101,17 +101,17 @@ namespace System::Security::Util {
     // Get instance field reference: private System.Int32 m_countTokens
     int& dyn_m_countTokens();
     // Get instance field reference: private System.Security.Util.TokenizerShortBlock m_headTokens
-    System::Security::Util::TokenizerShortBlock*& dyn_m_headTokens();
+    ::System::Security::Util::TokenizerShortBlock*& dyn_m_headTokens();
     // Get instance field reference: private System.Security.Util.TokenizerShortBlock m_lastTokens
-    System::Security::Util::TokenizerShortBlock*& dyn_m_lastTokens();
+    ::System::Security::Util::TokenizerShortBlock*& dyn_m_lastTokens();
     // Get instance field reference: private System.Security.Util.TokenizerShortBlock m_currentTokens
-    System::Security::Util::TokenizerShortBlock*& dyn_m_currentTokens();
+    ::System::Security::Util::TokenizerShortBlock*& dyn_m_currentTokens();
     // Get instance field reference: private System.Int32 m_indexTokens
     int& dyn_m_indexTokens();
     // Get instance field reference: private System.Security.Util.TokenizerStringBlock m_headStrings
-    System::Security::Util::TokenizerStringBlock*& dyn_m_headStrings();
+    ::System::Security::Util::TokenizerStringBlock*& dyn_m_headStrings();
     // Get instance field reference: private System.Security.Util.TokenizerStringBlock m_currentStrings
-    System::Security::Util::TokenizerStringBlock*& dyn_m_currentStrings();
+    ::System::Security::Util::TokenizerStringBlock*& dyn_m_currentStrings();
     // Get instance field reference: private System.Int32 m_indexStrings
     int& dyn_m_indexStrings();
     // System.Void AddToken(System.Int16 token)
@@ -150,7 +150,7 @@ namespace System::Security::Util {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TokenizerStream* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Util::TokenizerStream::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Util::TokenizerStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TokenizerStream*, creationType>()));
     }
   }; // System.Security.Util.TokenizerStream

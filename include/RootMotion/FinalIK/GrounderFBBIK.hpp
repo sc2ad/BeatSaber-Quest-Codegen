@@ -33,8 +33,8 @@ namespace RootMotion::FinalIK {
   class GrounderFBBIK;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::GrounderFBBIK);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GrounderFBBIK*, "RootMotion.FinalIK", "GrounderFBBIK");
+NEED_NO_BOX(::RootMotion::FinalIK::GrounderFBBIK);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::GrounderFBBIK*, "RootMotion.FinalIK", "GrounderFBBIK");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x6D
@@ -43,11 +43,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   // [HelpURLAttribute] Offset: 12628A0
   // [AddComponentMenu] Offset: 12628A0
-  class GrounderFBBIK : public RootMotion::FinalIK::Grounder {
+  class GrounderFBBIK : public ::RootMotion::FinalIK::Grounder {
     public:
     // Writing base type padding for base size: 0x39 to desired offset: 0x40
     char ___base_padding[0x7] = {};
-    // Nested type: RootMotion::FinalIK::GrounderFBBIK::SpineEffector
+    // Nested type: ::RootMotion::FinalIK::GrounderFBBIK::SpineEffector
     class SpineEffector;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -62,9 +62,9 @@ namespace RootMotion::FinalIK {
     // public RootMotion.FinalIK.FullBodyBipedIK ik
     // Size: 0x8
     // Offset: 0x40
-    RootMotion::FinalIK::FullBodyBipedIK* ik;
+    ::RootMotion::FinalIK::FullBodyBipedIK* ik;
     // Field size check
-    static_assert(sizeof(RootMotion::FinalIK::FullBodyBipedIK*) == 0x8);
+    static_assert(sizeof(::RootMotion::FinalIK::FullBodyBipedIK*) == 0x8);
     // [TooltipAttribute] Offset: 0x1263C80
     // public System.Single spineBend
     // Size: 0x4
@@ -82,21 +82,21 @@ namespace RootMotion::FinalIK {
     // public RootMotion.FinalIK.GrounderFBBIK/RootMotion.FinalIK.SpineEffector[] spine
     // Size: 0x8
     // Offset: 0x50
-    ::ArrayW<RootMotion::FinalIK::GrounderFBBIK::SpineEffector*> spine;
+    ::ArrayW<::RootMotion::FinalIK::GrounderFBBIK::SpineEffector*> spine;
     // Field size check
-    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::GrounderFBBIK::SpineEffector*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::RootMotion::FinalIK::GrounderFBBIK::SpineEffector*>) == 0x8);
     // private UnityEngine.Transform[] feet
     // Size: 0x8
     // Offset: 0x58
-    ::ArrayW<UnityEngine::Transform*> feet;
+    ::ArrayW<::UnityEngine::Transform*> feet;
     // Field size check
-    static_assert(sizeof(::ArrayW<UnityEngine::Transform*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::UnityEngine::Transform*>) == 0x8);
     // private UnityEngine.Vector3 spineOffset
     // Size: 0xC
     // Offset: 0x60
-    UnityEngine::Vector3 spineOffset;
+    ::UnityEngine::Vector3 spineOffset;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // private System.Boolean firstSolve
     // Size: 0x1
     // Offset: 0x6C
@@ -105,17 +105,17 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public RootMotion.FinalIK.FullBodyBipedIK ik
-    RootMotion::FinalIK::FullBodyBipedIK*& dyn_ik();
+    ::RootMotion::FinalIK::FullBodyBipedIK*& dyn_ik();
     // Get instance field reference: public System.Single spineBend
     float& dyn_spineBend();
     // Get instance field reference: public System.Single spineSpeed
     float& dyn_spineSpeed();
     // Get instance field reference: public RootMotion.FinalIK.GrounderFBBIK/RootMotion.FinalIK.SpineEffector[] spine
-    ::ArrayW<RootMotion::FinalIK::GrounderFBBIK::SpineEffector*>& dyn_spine();
+    ::ArrayW<::RootMotion::FinalIK::GrounderFBBIK::SpineEffector*>& dyn_spine();
     // Get instance field reference: private UnityEngine.Transform[] feet
-    ::ArrayW<UnityEngine::Transform*>& dyn_feet();
+    ::ArrayW<::UnityEngine::Transform*>& dyn_feet();
     // Get instance field reference: private UnityEngine.Vector3 spineOffset
-    UnityEngine::Vector3& dyn_spineOffset();
+    ::UnityEngine::Vector3& dyn_spineOffset();
     // Get instance field reference: private System.Boolean firstSolve
     bool& dyn_firstSolve();
     // private System.Void OpenTutorial()
@@ -141,7 +141,7 @@ namespace RootMotion::FinalIK {
     void OnSolverUpdate();
     // private System.Void SetLegIK(RootMotion.FinalIK.IKEffector effector, RootMotion.FinalIK.Grounding/RootMotion.FinalIK.Leg leg)
     // Offset: 0x21C1500
-    void SetLegIK(RootMotion::FinalIK::IKEffector* effector, RootMotion::FinalIK::Grounding::Leg* leg);
+    void SetLegIK(::RootMotion::FinalIK::IKEffector* effector, ::RootMotion::FinalIK::Grounding::Leg* leg);
     // private System.Void OnDrawGizmosSelected()
     // Offset: 0x21C16C0
     void OnDrawGizmosSelected();
@@ -159,7 +159,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GrounderFBBIK* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::GrounderFBBIK::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::GrounderFBBIK::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GrounderFBBIK*, creationType>()));
     }
     // protected override System.Void OpenUserManual()
@@ -242,7 +242,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::GrounderFBBIK::SetLegIK
 // Il2CppName: SetLegIK
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::GrounderFBBIK::*)(RootMotion::FinalIK::IKEffector*, RootMotion::FinalIK::Grounding::Leg*)>(&RootMotion::FinalIK::GrounderFBBIK::SetLegIK)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::GrounderFBBIK::*)(::RootMotion::FinalIK::IKEffector*, ::RootMotion::FinalIK::Grounding::Leg*)>(&RootMotion::FinalIK::GrounderFBBIK::SetLegIK)> {
   static const MethodInfo* get() {
     static auto* effector = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKEffector")->byval_arg;
     static auto* leg = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "Grounding/Leg")->byval_arg;

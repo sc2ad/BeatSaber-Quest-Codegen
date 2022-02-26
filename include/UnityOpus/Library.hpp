@@ -42,8 +42,8 @@ namespace UnityOpus {
   class Library;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityOpus::Library);
-DEFINE_IL2CPP_ARG_TYPE(UnityOpus::Library*, "UnityOpus", "Library");
+NEED_NO_BOX(::UnityOpus::Library);
+DEFINE_IL2CPP_ARG_TYPE(::UnityOpus::Library*, "UnityOpus", "Library");
 // Type namespace: UnityOpus
 namespace UnityOpus {
   // Size: 0x10
@@ -66,47 +66,47 @@ namespace UnityOpus {
     static void _set_dllName(::StringW value);
     // static public System.IntPtr OpusEncoderCreate(UnityOpus.SamplingFrequency samplingFrequency, UnityOpus.NumChannels channels, UnityOpus.OpusApplication application, out UnityOpus.ErrorCode error)
     // Offset: 0x2CB4C14
-    static System::IntPtr OpusEncoderCreate(UnityOpus::SamplingFrequency samplingFrequency, UnityOpus::NumChannels channels, UnityOpus::OpusApplication application, ByRef<UnityOpus::ErrorCode> error);
+    static ::System::IntPtr OpusEncoderCreate(::UnityOpus::SamplingFrequency samplingFrequency, ::UnityOpus::NumChannels channels, ::UnityOpus::OpusApplication application, ByRef<::UnityOpus::ErrorCode> error);
     // static public System.Int32 OpusEncode(System.IntPtr encoder, System.Int16[] pcm, System.Int32 frameSize, System.Byte[] data, System.Int32 maxDataBytes)
     // Offset: 0x2CB5004
-    static int OpusEncode(System::IntPtr encoder, ::ArrayW<int16_t> pcm, int frameSize, ::ArrayW<uint8_t> data, int maxDataBytes);
+    static int OpusEncode(::System::IntPtr encoder, ::ArrayW<int16_t> pcm, int frameSize, ::ArrayW<uint8_t> data, int maxDataBytes);
     // static public System.Int32 OpusEncodeFloat(System.IntPtr encoder, System.Single[] pcm, System.Int32 frameSize, System.Byte[] data, System.Int32 maxDataBytes)
     // Offset: 0x2CB4D64
-    static int OpusEncodeFloat(System::IntPtr encoder, ::ArrayW<float> pcm, int frameSize, ::ArrayW<uint8_t> data, int maxDataBytes);
+    static int OpusEncodeFloat(::System::IntPtr encoder, ::ArrayW<float> pcm, int frameSize, ::ArrayW<uint8_t> data, int maxDataBytes);
     // static public System.Void OpusEncoderDestroy(System.IntPtr encoder)
     // Offset: 0x2CB4E94
-    static void OpusEncoderDestroy(System::IntPtr encoder);
+    static void OpusEncoderDestroy(::System::IntPtr encoder);
     // static public System.Int32 OpusEncoderSetBitrate(System.IntPtr encoder, System.Int32 bitrate)
     // Offset: 0x2CB48DC
-    static int OpusEncoderSetBitrate(System::IntPtr encoder, int bitrate);
+    static int OpusEncoderSetBitrate(::System::IntPtr encoder, int bitrate);
     // static public System.Int32 OpusEncoderSetComplexity(System.IntPtr encoder, System.Int32 complexity)
     // Offset: 0x2CB49A0
-    static int OpusEncoderSetComplexity(System::IntPtr encoder, int complexity);
+    static int OpusEncoderSetComplexity(::System::IntPtr encoder, int complexity);
     // static public System.Int32 OpusEncoderSetSignal(System.IntPtr encoder, UnityOpus.OpusSignal signal)
     // Offset: 0x2CB4A64
-    static int OpusEncoderSetSignal(System::IntPtr encoder, UnityOpus::OpusSignal signal);
+    static int OpusEncoderSetSignal(::System::IntPtr encoder, ::UnityOpus::OpusSignal signal);
     // static public System.IntPtr OpusDecoderCreate(UnityOpus.SamplingFrequency samplingFrequency, UnityOpus.NumChannels channels, out UnityOpus.ErrorCode error)
     // Offset: 0x2CB43E4
-    static System::IntPtr OpusDecoderCreate(UnityOpus::SamplingFrequency samplingFrequency, UnityOpus::NumChannels channels, ByRef<UnityOpus::ErrorCode> error);
+    static ::System::IntPtr OpusDecoderCreate(::UnityOpus::SamplingFrequency samplingFrequency, ::UnityOpus::NumChannels channels, ByRef<::UnityOpus::ErrorCode> error);
     // static public System.Int32 OpusDecode(System.IntPtr decoder, System.Byte[] data, System.Int32 len, System.Int16[] pcm, System.Int32 frameSize, System.Int32 decodeFec)
     // Offset: 0x2CB50C4
-    static int OpusDecode(System::IntPtr decoder, ::ArrayW<uint8_t> data, int len, ::ArrayW<int16_t> pcm, int frameSize, int decodeFec);
+    static int OpusDecode(::System::IntPtr decoder, ::ArrayW<uint8_t> data, int len, ::ArrayW<int16_t> pcm, int frameSize, int decodeFec);
     // static public System.Int32 OpusDecodeFloat(System.IntPtr decoder, System.Byte[] data, System.Int32 len, System.Single[] pcm, System.Int32 frameSize, System.Int32 decodeFec)
     // Offset: 0x2CB4540
-    static int OpusDecodeFloat(System::IntPtr decoder, ::ArrayW<uint8_t> data, int len, ::ArrayW<float> pcm, int frameSize, int decodeFec);
+    static int OpusDecodeFloat(::System::IntPtr decoder, ::ArrayW<uint8_t> data, int len, ::ArrayW<float> pcm, int frameSize, int decodeFec);
     // static public System.Void OpusDecoderDestroy(System.IntPtr decoder)
     // Offset: 0x2CB4738
-    static void OpusDecoderDestroy(System::IntPtr decoder);
+    static void OpusDecoderDestroy(::System::IntPtr decoder);
     // static public System.Void OpusPcmSoftClip(System.Single[] pcm, System.Int32 frameSize, UnityOpus.NumChannels channels, System.Single[] softclipMem)
     // Offset: 0x2CB4610
-    static void OpusPcmSoftClip(::ArrayW<float> pcm, int frameSize, UnityOpus::NumChannels channels, ::ArrayW<float> softclipMem);
+    static void OpusPcmSoftClip(::ArrayW<float> pcm, int frameSize, ::UnityOpus::NumChannels channels, ::ArrayW<float> softclipMem);
     // public System.Void .ctor()
     // Offset: 0x2CB5194
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Library* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityOpus::Library::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityOpus::Library::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Library*, creationType>()));
     }
   }; // UnityOpus.Library
@@ -116,7 +116,7 @@ namespace UnityOpus {
 // Writing MetadataGetter for method: UnityOpus::Library::OpusEncoderCreate
 // Il2CppName: OpusEncoderCreate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(UnityOpus::SamplingFrequency, UnityOpus::NumChannels, UnityOpus::OpusApplication, ByRef<UnityOpus::ErrorCode>)>(&UnityOpus::Library::OpusEncoderCreate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::UnityOpus::SamplingFrequency, ::UnityOpus::NumChannels, ::UnityOpus::OpusApplication, ByRef<::UnityOpus::ErrorCode>)>(&UnityOpus::Library::OpusEncoderCreate)> {
   static const MethodInfo* get() {
     static auto* samplingFrequency = &::il2cpp_utils::GetClassFromName("UnityOpus", "SamplingFrequency")->byval_arg;
     static auto* channels = &::il2cpp_utils::GetClassFromName("UnityOpus", "NumChannels")->byval_arg;
@@ -128,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityOpus::Library::OpusEncode
 // Il2CppName: OpusEncode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, ::ArrayW<int16_t>, int, ::ArrayW<uint8_t>, int)>(&UnityOpus::Library::OpusEncode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::System::IntPtr, ::ArrayW<int16_t>, int, ::ArrayW<uint8_t>, int)>(&UnityOpus::Library::OpusEncode)> {
   static const MethodInfo* get() {
     static auto* encoder = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* pcm = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int16"), 1)->byval_arg;
@@ -141,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Writing MetadataGetter for method: UnityOpus::Library::OpusEncodeFloat
 // Il2CppName: OpusEncodeFloat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, ::ArrayW<float>, int, ::ArrayW<uint8_t>, int)>(&UnityOpus::Library::OpusEncodeFloat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::System::IntPtr, ::ArrayW<float>, int, ::ArrayW<uint8_t>, int)>(&UnityOpus::Library::OpusEncodeFloat)> {
   static const MethodInfo* get() {
     static auto* encoder = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* pcm = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
@@ -154,7 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Writing MetadataGetter for method: UnityOpus::Library::OpusEncoderDestroy
 // Il2CppName: OpusEncoderDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&UnityOpus::Library::OpusEncoderDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&UnityOpus::Library::OpusEncoderDestroy)> {
   static const MethodInfo* get() {
     static auto* encoder = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityOpus::Library*), "OpusEncoderDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{encoder});
@@ -163,7 +163,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityOpus::Library::OpusEncoderSetBitrate
 // Il2CppName: OpusEncoderSetBitrate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, int)>(&UnityOpus::Library::OpusEncoderSetBitrate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::System::IntPtr, int)>(&UnityOpus::Library::OpusEncoderSetBitrate)> {
   static const MethodInfo* get() {
     static auto* encoder = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* bitrate = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -173,7 +173,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Writing MetadataGetter for method: UnityOpus::Library::OpusEncoderSetComplexity
 // Il2CppName: OpusEncoderSetComplexity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, int)>(&UnityOpus::Library::OpusEncoderSetComplexity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::System::IntPtr, int)>(&UnityOpus::Library::OpusEncoderSetComplexity)> {
   static const MethodInfo* get() {
     static auto* encoder = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* complexity = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -183,7 +183,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Writing MetadataGetter for method: UnityOpus::Library::OpusEncoderSetSignal
 // Il2CppName: OpusEncoderSetSignal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, UnityOpus::OpusSignal)>(&UnityOpus::Library::OpusEncoderSetSignal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::System::IntPtr, ::UnityOpus::OpusSignal)>(&UnityOpus::Library::OpusEncoderSetSignal)> {
   static const MethodInfo* get() {
     static auto* encoder = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* signal = &::il2cpp_utils::GetClassFromName("UnityOpus", "OpusSignal")->byval_arg;
@@ -193,7 +193,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Writing MetadataGetter for method: UnityOpus::Library::OpusDecoderCreate
 // Il2CppName: OpusDecoderCreate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(UnityOpus::SamplingFrequency, UnityOpus::NumChannels, ByRef<UnityOpus::ErrorCode>)>(&UnityOpus::Library::OpusDecoderCreate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::UnityOpus::SamplingFrequency, ::UnityOpus::NumChannels, ByRef<::UnityOpus::ErrorCode>)>(&UnityOpus::Library::OpusDecoderCreate)> {
   static const MethodInfo* get() {
     static auto* samplingFrequency = &::il2cpp_utils::GetClassFromName("UnityOpus", "SamplingFrequency")->byval_arg;
     static auto* channels = &::il2cpp_utils::GetClassFromName("UnityOpus", "NumChannels")->byval_arg;
@@ -204,7 +204,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityOpus::Library::OpusDecode
 // Il2CppName: OpusDecode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, ::ArrayW<uint8_t>, int, ::ArrayW<int16_t>, int, int)>(&UnityOpus::Library::OpusDecode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::System::IntPtr, ::ArrayW<uint8_t>, int, ::ArrayW<int16_t>, int, int)>(&UnityOpus::Library::OpusDecode)> {
   static const MethodInfo* get() {
     static auto* decoder = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -218,7 +218,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Writing MetadataGetter for method: UnityOpus::Library::OpusDecodeFloat
 // Il2CppName: OpusDecodeFloat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, ::ArrayW<uint8_t>, int, ::ArrayW<float>, int, int)>(&UnityOpus::Library::OpusDecodeFloat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::System::IntPtr, ::ArrayW<uint8_t>, int, ::ArrayW<float>, int, int)>(&UnityOpus::Library::OpusDecodeFloat)> {
   static const MethodInfo* get() {
     static auto* decoder = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -232,7 +232,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Writing MetadataGetter for method: UnityOpus::Library::OpusDecoderDestroy
 // Il2CppName: OpusDecoderDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&UnityOpus::Library::OpusDecoderDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&UnityOpus::Library::OpusDecoderDestroy)> {
   static const MethodInfo* get() {
     static auto* decoder = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityOpus::Library*), "OpusDecoderDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{decoder});
@@ -241,7 +241,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityOpus::Library::OpusPcmSoftClip
 // Il2CppName: OpusPcmSoftClip
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<float>, int, UnityOpus::NumChannels, ::ArrayW<float>)>(&UnityOpus::Library::OpusPcmSoftClip)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<float>, int, ::UnityOpus::NumChannels, ::ArrayW<float>)>(&UnityOpus::Library::OpusPcmSoftClip)> {
   static const MethodInfo* get() {
     static auto* pcm = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* frameSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

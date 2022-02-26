@@ -47,8 +47,8 @@ namespace System::Data {
   class DataColumnCollection;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Data::DataColumnCollection);
-DEFINE_IL2CPP_ARG_TYPE(System::Data::DataColumnCollection*, "System.Data", "DataColumnCollection");
+NEED_NO_BOX(::System::Data::DataColumnCollection);
+DEFINE_IL2CPP_ARG_TYPE(::System::Data::DataColumnCollection*, "System.Data", "DataColumnCollection");
 // Type namespace: System.Data
 namespace System::Data {
   // Size: 0x68
@@ -57,7 +57,7 @@ namespace System::Data {
   // [TokenAttribute] Offset: FFFFFFFF
   // [DefaultEventAttribute] Offset: 11D0258
   // [DefaultMemberAttribute] Offset: 11D0258
-  class DataColumnCollection : public System::Data::InternalDataCollectionBase {
+  class DataColumnCollection : public ::System::Data::InternalDataCollectionBase {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -71,15 +71,15 @@ namespace System::Data {
     // private readonly System.Data.DataTable _table
     // Size: 0x8
     // Offset: 0x10
-    System::Data::DataTable* table;
+    ::System::Data::DataTable* table;
     // Field size check
-    static_assert(sizeof(System::Data::DataTable*) == 0x8);
+    static_assert(sizeof(::System::Data::DataTable*) == 0x8);
     // private readonly System.Collections.ArrayList _list
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::ArrayList* list;
+    ::System::Collections::ArrayList* list;
     // Field size check
-    static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
+    static_assert(sizeof(::System::Collections::ArrayList*) == 0x8);
     // private System.Int32 _defaultNameIndex
     // Size: 0x4
     // Offset: 0x20
@@ -91,15 +91,15 @@ namespace System::Data {
     // private System.Data.DataColumn[] _delayedAddRangeColumns
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayW<System::Data::DataColumn*> delayedAddRangeColumns;
+    ::ArrayW<::System::Data::DataColumn*> delayedAddRangeColumns;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::Data::DataColumn*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::System::Data::DataColumn*>) == 0x8);
     // private readonly System.Collections.Generic.Dictionary`2<System.String,System.Data.DataColumn> _columnFromName
     // Size: 0x8
     // Offset: 0x30
-    System::Collections::Generic::Dictionary_2<::StringW, System::Data::DataColumn*>* columnFromName;
+    ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Data::DataColumn*>* columnFromName;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, System::Data::DataColumn*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Data::DataColumn*>*) == 0x8);
     // private System.Boolean _fInClear
     // Size: 0x1
     // Offset: 0x38
@@ -111,9 +111,9 @@ namespace System::Data {
     // private System.Data.DataColumn[] _columnsImplementingIChangeTracking
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayW<System::Data::DataColumn*> columnsImplementingIChangeTracking;
+    ::ArrayW<::System::Data::DataColumn*> columnsImplementingIChangeTracking;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::Data::DataColumn*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::System::Data::DataColumn*>) == 0x8);
     // private System.Int32 _nColumnsImplementingIChangeTracking
     // Size: 0x4
     // Offset: 0x48
@@ -129,49 +129,49 @@ namespace System::Data {
     // private System.ComponentModel.CollectionChangeEventHandler CollectionChanged
     // Size: 0x8
     // Offset: 0x50
-    System::ComponentModel::CollectionChangeEventHandler* CollectionChanged;
+    ::System::ComponentModel::CollectionChangeEventHandler* CollectionChanged;
     // Field size check
-    static_assert(sizeof(System::ComponentModel::CollectionChangeEventHandler*) == 0x8);
+    static_assert(sizeof(::System::ComponentModel::CollectionChangeEventHandler*) == 0x8);
     // private System.ComponentModel.CollectionChangeEventHandler CollectionChanging
     // Size: 0x8
     // Offset: 0x58
-    System::ComponentModel::CollectionChangeEventHandler* CollectionChanging;
+    ::System::ComponentModel::CollectionChangeEventHandler* CollectionChanging;
     // Field size check
-    static_assert(sizeof(System::ComponentModel::CollectionChangeEventHandler*) == 0x8);
+    static_assert(sizeof(::System::ComponentModel::CollectionChangeEventHandler*) == 0x8);
     // private System.ComponentModel.CollectionChangeEventHandler ColumnPropertyChanged
     // Size: 0x8
     // Offset: 0x60
-    System::ComponentModel::CollectionChangeEventHandler* ColumnPropertyChanged;
+    ::System::ComponentModel::CollectionChangeEventHandler* ColumnPropertyChanged;
     // Field size check
-    static_assert(sizeof(System::ComponentModel::CollectionChangeEventHandler*) == 0x8);
+    static_assert(sizeof(::System::ComponentModel::CollectionChangeEventHandler*) == 0x8);
     public:
     // Get instance field reference: private readonly System.Data.DataTable _table
-    System::Data::DataTable*& dyn__table();
+    ::System::Data::DataTable*& dyn__table();
     // Get instance field reference: private readonly System.Collections.ArrayList _list
-    System::Collections::ArrayList*& dyn__list();
+    ::System::Collections::ArrayList*& dyn__list();
     // Get instance field reference: private System.Int32 _defaultNameIndex
     int& dyn__defaultNameIndex();
     // Get instance field reference: private System.Data.DataColumn[] _delayedAddRangeColumns
-    ::ArrayW<System::Data::DataColumn*>& dyn__delayedAddRangeColumns();
+    ::ArrayW<::System::Data::DataColumn*>& dyn__delayedAddRangeColumns();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,System.Data.DataColumn> _columnFromName
-    System::Collections::Generic::Dictionary_2<::StringW, System::Data::DataColumn*>*& dyn__columnFromName();
+    ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Data::DataColumn*>*& dyn__columnFromName();
     // Get instance field reference: private System.Boolean _fInClear
     bool& dyn__fInClear();
     // Get instance field reference: private System.Data.DataColumn[] _columnsImplementingIChangeTracking
-    ::ArrayW<System::Data::DataColumn*>& dyn__columnsImplementingIChangeTracking();
+    ::ArrayW<::System::Data::DataColumn*>& dyn__columnsImplementingIChangeTracking();
     // Get instance field reference: private System.Int32 _nColumnsImplementingIChangeTracking
     int& dyn__nColumnsImplementingIChangeTracking();
     // Get instance field reference: private System.Int32 _nColumnsImplementingIRevertibleChangeTracking
     int& dyn__nColumnsImplementingIRevertibleChangeTracking();
     // Get instance field reference: private System.ComponentModel.CollectionChangeEventHandler CollectionChanged
-    System::ComponentModel::CollectionChangeEventHandler*& dyn_CollectionChanged();
+    ::System::ComponentModel::CollectionChangeEventHandler*& dyn_CollectionChanged();
     // Get instance field reference: private System.ComponentModel.CollectionChangeEventHandler CollectionChanging
-    System::ComponentModel::CollectionChangeEventHandler*& dyn_CollectionChanging();
+    ::System::ComponentModel::CollectionChangeEventHandler*& dyn_CollectionChanging();
     // Get instance field reference: private System.ComponentModel.CollectionChangeEventHandler ColumnPropertyChanged
-    System::ComponentModel::CollectionChangeEventHandler*& dyn_ColumnPropertyChanged();
+    ::System::ComponentModel::CollectionChangeEventHandler*& dyn_ColumnPropertyChanged();
     // System.Data.DataColumn[] get_ColumnsImplementingIChangeTracking()
     // Offset: 0x1E520A8
-    ::ArrayW<System::Data::DataColumn*> get_ColumnsImplementingIChangeTracking();
+    ::ArrayW<::System::Data::DataColumn*> get_ColumnsImplementingIChangeTracking();
     // System.Int32 get_ColumnsImplementingIChangeTrackingCount()
     // Offset: 0x1E520B0
     int get_ColumnsImplementingIChangeTrackingCount();
@@ -180,65 +180,65 @@ namespace System::Data {
     int get_ColumnsImplementingIRevertibleChangeTrackingCount();
     // public System.Data.DataColumn get_Item(System.Int32 index)
     // Offset: 0x1E520C0
-    System::Data::DataColumn* get_Item(int index);
+    ::System::Data::DataColumn* get_Item(int index);
     // public System.Data.DataColumn get_Item(System.String name)
     // Offset: 0x1E521F4
-    System::Data::DataColumn* get_Item(::StringW name);
+    ::System::Data::DataColumn* get_Item(::StringW name);
     // System.Data.DataColumn get_Item(System.String name, System.String ns)
     // Offset: 0x1E524A0
-    System::Data::DataColumn* get_Item(::StringW name, ::StringW ns);
+    ::System::Data::DataColumn* get_Item(::StringW name, ::StringW ns);
     // public System.Void add_CollectionChanged(System.ComponentModel.CollectionChangeEventHandler value)
     // Offset: 0x1E52BEC
-    void add_CollectionChanged(System::ComponentModel::CollectionChangeEventHandler* value);
+    void add_CollectionChanged(::System::ComponentModel::CollectionChangeEventHandler* value);
     // public System.Void remove_CollectionChanged(System.ComponentModel.CollectionChangeEventHandler value)
     // Offset: 0x1E52C90
-    void remove_CollectionChanged(System::ComponentModel::CollectionChangeEventHandler* value);
+    void remove_CollectionChanged(::System::ComponentModel::CollectionChangeEventHandler* value);
     // System.Void add_ColumnPropertyChanged(System.ComponentModel.CollectionChangeEventHandler value)
     // Offset: 0x1E52D34
-    void add_ColumnPropertyChanged(System::ComponentModel::CollectionChangeEventHandler* value);
+    void add_ColumnPropertyChanged(::System::ComponentModel::CollectionChangeEventHandler* value);
     // System.Void remove_ColumnPropertyChanged(System.ComponentModel.CollectionChangeEventHandler value)
     // Offset: 0x1E52DD8
-    void remove_ColumnPropertyChanged(System::ComponentModel::CollectionChangeEventHandler* value);
+    void remove_ColumnPropertyChanged(::System::ComponentModel::CollectionChangeEventHandler* value);
     // System.Void .ctor(System.Data.DataTable table)
     // Offset: 0x1E51F44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DataColumnCollection* New_ctor(System::Data::DataTable* table) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Data::DataColumnCollection::.ctor");
+    static DataColumnCollection* New_ctor(::System::Data::DataTable* table) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Data::DataColumnCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DataColumnCollection*, creationType>(table)));
     }
     // public System.Void Add(System.Data.DataColumn column)
     // Offset: 0x1E52550
-    void Add(System::Data::DataColumn* column);
+    void Add(::System::Data::DataColumn* column);
     // System.Void AddAt(System.Int32 index, System.Data.DataColumn column)
     // Offset: 0x1E5255C
-    void AddAt(int index, System::Data::DataColumn* column);
+    void AddAt(int index, ::System::Data::DataColumn* column);
     // private System.Void ArrayAdd(System.Data.DataColumn column)
     // Offset: 0x1E52AD0
-    void ArrayAdd(System::Data::DataColumn* column);
+    void ArrayAdd(::System::Data::DataColumn* column);
     // private System.Void ArrayAdd(System.Int32 index, System.Data.DataColumn column)
     // Offset: 0x1E52A8C
-    void ArrayAdd(int index, System::Data::DataColumn* column);
+    void ArrayAdd(int index, ::System::Data::DataColumn* column);
     // private System.Void ArrayRemove(System.Data.DataColumn column)
     // Offset: 0x1E52EC4
-    void ArrayRemove(System::Data::DataColumn* column);
+    void ArrayRemove(::System::Data::DataColumn* column);
     // System.String AssignName()
     // Offset: 0x1E53114
     ::StringW AssignName();
     // private System.Void BaseAdd(System.Data.DataColumn column)
     // Offset: 0x1E527D4
-    void BaseAdd(System::Data::DataColumn* column);
+    void BaseAdd(::System::Data::DataColumn* column);
     // private System.Void BaseGroupSwitch(System.Data.DataColumn[] oldArray, System.Int32 oldLength, System.Data.DataColumn[] newArray, System.Int32 newLength)
     // Offset: 0x1E53270
-    void BaseGroupSwitch(::ArrayW<System::Data::DataColumn*> oldArray, int oldLength, ::ArrayW<System::Data::DataColumn*> newArray, int newLength);
+    void BaseGroupSwitch(::ArrayW<::System::Data::DataColumn*> oldArray, int oldLength, ::ArrayW<::System::Data::DataColumn*> newArray, int newLength);
     // private System.Void BaseRemove(System.Data.DataColumn column)
     // Offset: 0x1E53460
-    void BaseRemove(System::Data::DataColumn* column);
+    void BaseRemove(::System::Data::DataColumn* column);
     // System.Boolean CanRemove(System.Data.DataColumn column, System.Boolean fThrowException)
     // Offset: 0x1E53528
-    bool CanRemove(System::Data::DataColumn* column, bool fThrowException);
+    bool CanRemove(::System::Data::DataColumn* column, bool fThrowException);
     // private System.Void CheckIChangeTracking(System.Data.DataColumn column)
     // Offset: 0x1E52E7C
-    void CheckIChangeTracking(System::Data::DataColumn* column);
+    void CheckIChangeTracking(::System::Data::DataColumn* column);
     // public System.Void Clear()
     // Offset: 0x1E53C1C
     void Clear();
@@ -259,46 +259,46 @@ namespace System::Data {
     ::StringW MakeName(int index);
     // private System.Void OnCollectionChanged(System.ComponentModel.CollectionChangeEventArgs ccevent)
     // Offset: 0x1E52B3C
-    void OnCollectionChanged(System::ComponentModel::CollectionChangeEventArgs* ccevent);
+    void OnCollectionChanged(::System::ComponentModel::CollectionChangeEventArgs* ccevent);
     // private System.Void OnCollectionChanging(System.ComponentModel.CollectionChangeEventArgs ccevent)
     // Offset: 0x1E527B4
-    void OnCollectionChanging(System::ComponentModel::CollectionChangeEventArgs* ccevent);
+    void OnCollectionChanging(::System::ComponentModel::CollectionChangeEventArgs* ccevent);
     // System.Void OnColumnPropertyChanged(System.ComponentModel.CollectionChangeEventArgs ccevent)
     // Offset: 0x1E4D654
-    void OnColumnPropertyChanged(System::ComponentModel::CollectionChangeEventArgs* ccevent);
+    void OnColumnPropertyChanged(::System::ComponentModel::CollectionChangeEventArgs* ccevent);
     // System.Void RegisterColumnName(System.String name, System.Data.DataColumn column)
     // Offset: 0x1E4D354
-    void RegisterColumnName(::StringW name, System::Data::DataColumn* column);
+    void RegisterColumnName(::StringW name, ::System::Data::DataColumn* column);
     // System.Boolean CanRegisterName(System.String name)
     // Offset: 0x1E54188
     bool CanRegisterName(::StringW name);
     // public System.Void Remove(System.Data.DataColumn column)
     // Offset: 0x1E541FC
-    void Remove(System::Data::DataColumn* column);
+    void Remove(::System::Data::DataColumn* column);
     // System.Void UnregisterName(System.String name)
     // Offset: 0x1E4D50C
     void UnregisterName(::StringW name);
     // private System.Void AddColumnsImplementingIChangeTrackingList(System.Data.DataColumn dataColumn)
     // Offset: 0x1E53B44
-    void AddColumnsImplementingIChangeTrackingList(System::Data::DataColumn* dataColumn);
+    void AddColumnsImplementingIChangeTrackingList(::System::Data::DataColumn* dataColumn);
     // private System.Void RemoveColumnsImplementingIChangeTrackingList(System.Data.DataColumn dataColumn)
     // Offset: 0x1E53000
-    void RemoveColumnsImplementingIChangeTrackingList(System::Data::DataColumn* dataColumn);
+    void RemoveColumnsImplementingIChangeTrackingList(::System::Data::DataColumn* dataColumn);
     // protected override System.Collections.ArrayList get_List()
     // Offset: 0x1E520A0
     // Implemented from: System.Data.InternalDataCollectionBase
     // Base method: System.Collections.ArrayList InternalDataCollectionBase::get_List()
-    System::Collections::ArrayList* get_List();
+    ::System::Collections::ArrayList* get_List();
   }; // System.Data.DataColumnCollection
   #pragma pack(pop)
-  static check_size<sizeof(DataColumnCollection), 96 + sizeof(System::ComponentModel::CollectionChangeEventHandler*)> __System_Data_DataColumnCollectionSizeCheck;
+  static check_size<sizeof(DataColumnCollection), 96 + sizeof(::System::ComponentModel::CollectionChangeEventHandler*)> __System_Data_DataColumnCollectionSizeCheck;
   static_assert(sizeof(DataColumnCollection) == 0x68);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Data::DataColumnCollection::get_ColumnsImplementingIChangeTracking
 // Il2CppName: get_ColumnsImplementingIChangeTracking
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Data::DataColumn*> (System::Data::DataColumnCollection::*)()>(&System::Data::DataColumnCollection::get_ColumnsImplementingIChangeTracking)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Data::DataColumn*> (System::Data::DataColumnCollection::*)()>(&System::Data::DataColumnCollection::get_ColumnsImplementingIChangeTracking)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataColumnCollection*), "get_ColumnsImplementingIChangeTracking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -322,7 +322,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Data::DataColumnCollection::get_Item
 // Il2CppName: get_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::DataColumn* (System::Data::DataColumnCollection::*)(int)>(&System::Data::DataColumnCollection::get_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataColumn* (System::Data::DataColumnCollection::*)(int)>(&System::Data::DataColumnCollection::get_Item)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataColumnCollection*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
@@ -331,7 +331,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::DataColumnCollection::get_Item
 // Il2CppName: get_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::DataColumn* (System::Data::DataColumnCollection::*)(::StringW)>(&System::Data::DataColumnCollection::get_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataColumn* (System::Data::DataColumnCollection::*)(::StringW)>(&System::Data::DataColumnCollection::get_Item)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataColumnCollection*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -340,7 +340,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::DataColumnCollection::get_Item
 // Il2CppName: get_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::DataColumn* (System::Data::DataColumnCollection::*)(::StringW, ::StringW)>(&System::Data::DataColumnCollection::get_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataColumn* (System::Data::DataColumnCollection::*)(::StringW, ::StringW)>(&System::Data::DataColumnCollection::get_Item)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* ns = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -350,7 +350,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::DataColumnCollection::add_CollectionChanged
 // Il2CppName: add_CollectionChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumnCollection::*)(System::ComponentModel::CollectionChangeEventHandler*)>(&System::Data::DataColumnCollection::add_CollectionChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumnCollection::*)(::System::ComponentModel::CollectionChangeEventHandler*)>(&System::Data::DataColumnCollection::add_CollectionChanged)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.ComponentModel", "CollectionChangeEventHandler")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataColumnCollection*), "add_CollectionChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -359,7 +359,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataColumnCollection::remove_CollectionChanged
 // Il2CppName: remove_CollectionChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumnCollection::*)(System::ComponentModel::CollectionChangeEventHandler*)>(&System::Data::DataColumnCollection::remove_CollectionChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumnCollection::*)(::System::ComponentModel::CollectionChangeEventHandler*)>(&System::Data::DataColumnCollection::remove_CollectionChanged)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.ComponentModel", "CollectionChangeEventHandler")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataColumnCollection*), "remove_CollectionChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -368,7 +368,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataColumnCollection::add_ColumnPropertyChanged
 // Il2CppName: add_ColumnPropertyChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumnCollection::*)(System::ComponentModel::CollectionChangeEventHandler*)>(&System::Data::DataColumnCollection::add_ColumnPropertyChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumnCollection::*)(::System::ComponentModel::CollectionChangeEventHandler*)>(&System::Data::DataColumnCollection::add_ColumnPropertyChanged)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.ComponentModel", "CollectionChangeEventHandler")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataColumnCollection*), "add_ColumnPropertyChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -377,7 +377,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataColumnCollection::remove_ColumnPropertyChanged
 // Il2CppName: remove_ColumnPropertyChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumnCollection::*)(System::ComponentModel::CollectionChangeEventHandler*)>(&System::Data::DataColumnCollection::remove_ColumnPropertyChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumnCollection::*)(::System::ComponentModel::CollectionChangeEventHandler*)>(&System::Data::DataColumnCollection::remove_ColumnPropertyChanged)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.ComponentModel", "CollectionChangeEventHandler")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataColumnCollection*), "remove_ColumnPropertyChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -390,7 +390,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataColumnCollection::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumnCollection::*)(System::Data::DataColumn*)>(&System::Data::DataColumnCollection::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumnCollection::*)(::System::Data::DataColumn*)>(&System::Data::DataColumnCollection::Add)> {
   static const MethodInfo* get() {
     static auto* column = &::il2cpp_utils::GetClassFromName("System.Data", "DataColumn")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataColumnCollection*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{column});
@@ -399,7 +399,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataColumnCollection::AddAt
 // Il2CppName: AddAt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumnCollection::*)(int, System::Data::DataColumn*)>(&System::Data::DataColumnCollection::AddAt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumnCollection::*)(int, ::System::Data::DataColumn*)>(&System::Data::DataColumnCollection::AddAt)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* column = &::il2cpp_utils::GetClassFromName("System.Data", "DataColumn")->byval_arg;
@@ -409,7 +409,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataColumnCollection::ArrayAdd
 // Il2CppName: ArrayAdd
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumnCollection::*)(System::Data::DataColumn*)>(&System::Data::DataColumnCollection::ArrayAdd)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumnCollection::*)(::System::Data::DataColumn*)>(&System::Data::DataColumnCollection::ArrayAdd)> {
   static const MethodInfo* get() {
     static auto* column = &::il2cpp_utils::GetClassFromName("System.Data", "DataColumn")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataColumnCollection*), "ArrayAdd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{column});
@@ -418,7 +418,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataColumnCollection::ArrayAdd
 // Il2CppName: ArrayAdd
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumnCollection::*)(int, System::Data::DataColumn*)>(&System::Data::DataColumnCollection::ArrayAdd)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumnCollection::*)(int, ::System::Data::DataColumn*)>(&System::Data::DataColumnCollection::ArrayAdd)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* column = &::il2cpp_utils::GetClassFromName("System.Data", "DataColumn")->byval_arg;
@@ -428,7 +428,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataColumnCollection::ArrayRemove
 // Il2CppName: ArrayRemove
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumnCollection::*)(System::Data::DataColumn*)>(&System::Data::DataColumnCollection::ArrayRemove)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumnCollection::*)(::System::Data::DataColumn*)>(&System::Data::DataColumnCollection::ArrayRemove)> {
   static const MethodInfo* get() {
     static auto* column = &::il2cpp_utils::GetClassFromName("System.Data", "DataColumn")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataColumnCollection*), "ArrayRemove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{column});
@@ -445,7 +445,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Data::DataColumnCollection::BaseAdd
 // Il2CppName: BaseAdd
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumnCollection::*)(System::Data::DataColumn*)>(&System::Data::DataColumnCollection::BaseAdd)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumnCollection::*)(::System::Data::DataColumn*)>(&System::Data::DataColumnCollection::BaseAdd)> {
   static const MethodInfo* get() {
     static auto* column = &::il2cpp_utils::GetClassFromName("System.Data", "DataColumn")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataColumnCollection*), "BaseAdd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{column});
@@ -454,7 +454,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataColumnCollection::BaseGroupSwitch
 // Il2CppName: BaseGroupSwitch
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumnCollection::*)(::ArrayW<System::Data::DataColumn*>, int, ::ArrayW<System::Data::DataColumn*>, int)>(&System::Data::DataColumnCollection::BaseGroupSwitch)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumnCollection::*)(::ArrayW<::System::Data::DataColumn*>, int, ::ArrayW<::System::Data::DataColumn*>, int)>(&System::Data::DataColumnCollection::BaseGroupSwitch)> {
   static const MethodInfo* get() {
     static auto* oldArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Data", "DataColumn"), 1)->byval_arg;
     static auto* oldLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -466,7 +466,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataColumnCollection::BaseRemove
 // Il2CppName: BaseRemove
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumnCollection::*)(System::Data::DataColumn*)>(&System::Data::DataColumnCollection::BaseRemove)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumnCollection::*)(::System::Data::DataColumn*)>(&System::Data::DataColumnCollection::BaseRemove)> {
   static const MethodInfo* get() {
     static auto* column = &::il2cpp_utils::GetClassFromName("System.Data", "DataColumn")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataColumnCollection*), "BaseRemove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{column});
@@ -475,7 +475,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataColumnCollection::CanRemove
 // Il2CppName: CanRemove
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Data::DataColumnCollection::*)(System::Data::DataColumn*, bool)>(&System::Data::DataColumnCollection::CanRemove)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Data::DataColumnCollection::*)(::System::Data::DataColumn*, bool)>(&System::Data::DataColumnCollection::CanRemove)> {
   static const MethodInfo* get() {
     static auto* column = &::il2cpp_utils::GetClassFromName("System.Data", "DataColumn")->byval_arg;
     static auto* fThrowException = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -485,7 +485,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Data::DataColumnCollection::CheckIChangeTracking
 // Il2CppName: CheckIChangeTracking
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumnCollection::*)(System::Data::DataColumn*)>(&System::Data::DataColumnCollection::CheckIChangeTracking)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumnCollection::*)(::System::Data::DataColumn*)>(&System::Data::DataColumnCollection::CheckIChangeTracking)> {
   static const MethodInfo* get() {
     static auto* column = &::il2cpp_utils::GetClassFromName("System.Data", "DataColumn")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataColumnCollection*), "CheckIChangeTracking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{column});
@@ -548,7 +548,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Data::DataColumnCollection::OnCollectionChanged
 // Il2CppName: OnCollectionChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumnCollection::*)(System::ComponentModel::CollectionChangeEventArgs*)>(&System::Data::DataColumnCollection::OnCollectionChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumnCollection::*)(::System::ComponentModel::CollectionChangeEventArgs*)>(&System::Data::DataColumnCollection::OnCollectionChanged)> {
   static const MethodInfo* get() {
     static auto* ccevent = &::il2cpp_utils::GetClassFromName("System.ComponentModel", "CollectionChangeEventArgs")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataColumnCollection*), "OnCollectionChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ccevent});
@@ -557,7 +557,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataColumnCollection::OnCollectionChanging
 // Il2CppName: OnCollectionChanging
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumnCollection::*)(System::ComponentModel::CollectionChangeEventArgs*)>(&System::Data::DataColumnCollection::OnCollectionChanging)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumnCollection::*)(::System::ComponentModel::CollectionChangeEventArgs*)>(&System::Data::DataColumnCollection::OnCollectionChanging)> {
   static const MethodInfo* get() {
     static auto* ccevent = &::il2cpp_utils::GetClassFromName("System.ComponentModel", "CollectionChangeEventArgs")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataColumnCollection*), "OnCollectionChanging", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ccevent});
@@ -566,7 +566,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataColumnCollection::OnColumnPropertyChanged
 // Il2CppName: OnColumnPropertyChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumnCollection::*)(System::ComponentModel::CollectionChangeEventArgs*)>(&System::Data::DataColumnCollection::OnColumnPropertyChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumnCollection::*)(::System::ComponentModel::CollectionChangeEventArgs*)>(&System::Data::DataColumnCollection::OnColumnPropertyChanged)> {
   static const MethodInfo* get() {
     static auto* ccevent = &::il2cpp_utils::GetClassFromName("System.ComponentModel", "CollectionChangeEventArgs")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataColumnCollection*), "OnColumnPropertyChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ccevent});
@@ -575,7 +575,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataColumnCollection::RegisterColumnName
 // Il2CppName: RegisterColumnName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumnCollection::*)(::StringW, System::Data::DataColumn*)>(&System::Data::DataColumnCollection::RegisterColumnName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumnCollection::*)(::StringW, ::System::Data::DataColumn*)>(&System::Data::DataColumnCollection::RegisterColumnName)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* column = &::il2cpp_utils::GetClassFromName("System.Data", "DataColumn")->byval_arg;
@@ -594,7 +594,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Data::DataColumnCollection::Remove
 // Il2CppName: Remove
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumnCollection::*)(System::Data::DataColumn*)>(&System::Data::DataColumnCollection::Remove)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumnCollection::*)(::System::Data::DataColumn*)>(&System::Data::DataColumnCollection::Remove)> {
   static const MethodInfo* get() {
     static auto* column = &::il2cpp_utils::GetClassFromName("System.Data", "DataColumn")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataColumnCollection*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{column});
@@ -612,7 +612,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataColumnCollection::AddColumnsImplementingIChangeTrackingList
 // Il2CppName: AddColumnsImplementingIChangeTrackingList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumnCollection::*)(System::Data::DataColumn*)>(&System::Data::DataColumnCollection::AddColumnsImplementingIChangeTrackingList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumnCollection::*)(::System::Data::DataColumn*)>(&System::Data::DataColumnCollection::AddColumnsImplementingIChangeTrackingList)> {
   static const MethodInfo* get() {
     static auto* dataColumn = &::il2cpp_utils::GetClassFromName("System.Data", "DataColumn")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataColumnCollection*), "AddColumnsImplementingIChangeTrackingList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dataColumn});
@@ -621,7 +621,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataColumnCollection::RemoveColumnsImplementingIChangeTrackingList
 // Il2CppName: RemoveColumnsImplementingIChangeTrackingList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumnCollection::*)(System::Data::DataColumn*)>(&System::Data::DataColumnCollection::RemoveColumnsImplementingIChangeTrackingList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataColumnCollection::*)(::System::Data::DataColumn*)>(&System::Data::DataColumnCollection::RemoveColumnsImplementingIChangeTrackingList)> {
   static const MethodInfo* get() {
     static auto* dataColumn = &::il2cpp_utils::GetClassFromName("System.Data", "DataColumn")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataColumnCollection*), "RemoveColumnsImplementingIChangeTrackingList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dataColumn});
@@ -630,7 +630,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataColumnCollection::get_List
 // Il2CppName: get_List
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ArrayList* (System::Data::DataColumnCollection::*)()>(&System::Data::DataColumnCollection::get_List)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (System::Data::DataColumnCollection::*)()>(&System::Data::DataColumnCollection::get_List)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataColumnCollection*), "get_List", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

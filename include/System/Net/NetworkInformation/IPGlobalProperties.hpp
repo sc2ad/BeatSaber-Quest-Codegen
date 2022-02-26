@@ -17,8 +17,8 @@ namespace System::Net::NetworkInformation {
   class IPGlobalProperties;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::NetworkInformation::IPGlobalProperties);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::IPGlobalProperties*, "System.Net.NetworkInformation", "IPGlobalProperties");
+NEED_NO_BOX(::System::Net::NetworkInformation::IPGlobalProperties);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::IPGlobalProperties*, "System.Net.NetworkInformation", "IPGlobalProperties");
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {
   // Size: 0x10
@@ -39,17 +39,17 @@ namespace System::Net::NetworkInformation {
     ::StringW get_DomainName();
     // static public System.Net.NetworkInformation.IPGlobalProperties GetIPGlobalProperties()
     // Offset: 0x17A9E84
-    static System::Net::NetworkInformation::IPGlobalProperties* GetIPGlobalProperties();
+    static ::System::Net::NetworkInformation::IPGlobalProperties* GetIPGlobalProperties();
     // static System.Net.NetworkInformation.IPGlobalProperties InternalGetIPGlobalProperties()
     // Offset: 0x17AA040
-    static System::Net::NetworkInformation::IPGlobalProperties* InternalGetIPGlobalProperties();
+    static ::System::Net::NetworkInformation::IPGlobalProperties* InternalGetIPGlobalProperties();
     // protected System.Void .ctor()
     // Offset: 0x17A962C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IPGlobalProperties* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::IPGlobalProperties::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::NetworkInformation::IPGlobalProperties::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IPGlobalProperties*, creationType>()));
     }
   }; // System.Net.NetworkInformation.IPGlobalProperties
@@ -75,7 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Net::NetworkInformation::IPGlobalProperties::GetIPGlobalProperties
 // Il2CppName: GetIPGlobalProperties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::IPGlobalProperties* (*)()>(&System::Net::NetworkInformation::IPGlobalProperties::GetIPGlobalProperties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::NetworkInformation::IPGlobalProperties* (*)()>(&System::Net::NetworkInformation::IPGlobalProperties::GetIPGlobalProperties)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::IPGlobalProperties*), "GetIPGlobalProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -83,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Writing MetadataGetter for method: System::Net::NetworkInformation::IPGlobalProperties::InternalGetIPGlobalProperties
 // Il2CppName: InternalGetIPGlobalProperties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::IPGlobalProperties* (*)()>(&System::Net::NetworkInformation::IPGlobalProperties::InternalGetIPGlobalProperties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::NetworkInformation::IPGlobalProperties* (*)()>(&System::Net::NetworkInformation::IPGlobalProperties::InternalGetIPGlobalProperties)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::IPGlobalProperties*), "InternalGetIPGlobalProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

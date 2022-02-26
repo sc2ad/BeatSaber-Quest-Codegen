@@ -35,8 +35,8 @@ namespace NUnit::Framework::Internal::Builders {
   class NamespaceTreeBuilder;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Internal::Builders::NamespaceTreeBuilder);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Builders::NamespaceTreeBuilder*, "NUnit.Framework.Internal.Builders", "NamespaceTreeBuilder");
+NEED_NO_BOX(::NUnit::Framework::Internal::Builders::NamespaceTreeBuilder);
+DEFINE_IL2CPP_ARG_TYPE(::NUnit::Framework::Internal::Builders::NamespaceTreeBuilder*, "NUnit.Framework.Internal.Builders", "NamespaceTreeBuilder");
 // Type namespace: NUnit.Framework.Internal.Builders
 namespace NUnit::Framework::Internal::Builders {
   // Size: 0x20
@@ -57,55 +57,55 @@ namespace NUnit::Framework::Internal::Builders {
     // private System.Collections.Generic.Dictionary`2<System.String,NUnit.Framework.Internal.TestSuite> namespaceSuites
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::Dictionary_2<::StringW, NUnit::Framework::Internal::TestSuite*>* namespaceSuites;
+    ::System::Collections::Generic::Dictionary_2<::StringW, ::NUnit::Framework::Internal::TestSuite*>* namespaceSuites;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, NUnit::Framework::Internal::TestSuite*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::Dictionary_2<::StringW, ::NUnit::Framework::Internal::TestSuite*>*) == 0x8);
     // private NUnit.Framework.Internal.TestSuite rootSuite
     // Size: 0x8
     // Offset: 0x18
-    NUnit::Framework::Internal::TestSuite* rootSuite;
+    ::NUnit::Framework::Internal::TestSuite* rootSuite;
     // Field size check
-    static_assert(sizeof(NUnit::Framework::Internal::TestSuite*) == 0x8);
+    static_assert(sizeof(::NUnit::Framework::Internal::TestSuite*) == 0x8);
     public:
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,NUnit.Framework.Internal.TestSuite> namespaceSuites
-    System::Collections::Generic::Dictionary_2<::StringW, NUnit::Framework::Internal::TestSuite*>*& dyn_namespaceSuites();
+    ::System::Collections::Generic::Dictionary_2<::StringW, ::NUnit::Framework::Internal::TestSuite*>*& dyn_namespaceSuites();
     // Get instance field reference: private NUnit.Framework.Internal.TestSuite rootSuite
-    NUnit::Framework::Internal::TestSuite*& dyn_rootSuite();
+    ::NUnit::Framework::Internal::TestSuite*& dyn_rootSuite();
     // public NUnit.Framework.Internal.TestSuite get_RootSuite()
     // Offset: 0x1B4C0A4
-    NUnit::Framework::Internal::TestSuite* get_RootSuite();
+    ::NUnit::Framework::Internal::TestSuite* get_RootSuite();
     // public System.Void .ctor(NUnit.Framework.Internal.TestSuite rootSuite)
     // Offset: 0x1B4BD78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static NamespaceTreeBuilder* New_ctor(NUnit::Framework::Internal::TestSuite* rootSuite) {
-      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::.ctor");
+    static NamespaceTreeBuilder* New_ctor(::NUnit::Framework::Internal::TestSuite* rootSuite) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NamespaceTreeBuilder*, creationType>(rootSuite)));
     }
     // public System.Void Add(System.Collections.Generic.IList`1<NUnit.Framework.Internal.Test> fixtures)
     // Offset: 0x1B4BDFC
-    void Add(System::Collections::Generic::IList_1<NUnit::Framework::Internal::Test*>* fixtures);
+    void Add(::System::Collections::Generic::IList_1<::NUnit::Framework::Internal::Test*>* fixtures);
     // public System.Void Add(NUnit.Framework.Internal.TestSuite fixture)
     // Offset: 0x1B5F600
-    void Add(NUnit::Framework::Internal::TestSuite* fixture);
+    void Add(::NUnit::Framework::Internal::TestSuite* fixture);
     // static private System.String GetNamespaceForFixture(NUnit.Framework.Internal.TestSuite fixture)
     // Offset: 0x1B5F6D0
-    static ::StringW GetNamespaceForFixture(NUnit::Framework::Internal::TestSuite* fixture);
+    static ::StringW GetNamespaceForFixture(::NUnit::Framework::Internal::TestSuite* fixture);
     // private NUnit.Framework.Internal.TestSuite BuildFromNameSpace(System.String ns)
     // Offset: 0x1B5F7DC
-    NUnit::Framework::Internal::TestSuite* BuildFromNameSpace(::StringW ns);
+    ::NUnit::Framework::Internal::TestSuite* BuildFromNameSpace(::StringW ns);
     // private System.Void AddSetUpFixture(NUnit.Framework.Internal.TestSuite newSetupFixture, NUnit.Framework.Internal.TestSuite containingSuite, System.String ns)
     // Offset: 0x1B5F994
-    void AddSetUpFixture(NUnit::Framework::Internal::TestSuite* newSetupFixture, NUnit::Framework::Internal::TestSuite* containingSuite, ::StringW ns);
+    void AddSetUpFixture(::NUnit::Framework::Internal::TestSuite* newSetupFixture, ::NUnit::Framework::Internal::TestSuite* containingSuite, ::StringW ns);
   }; // NUnit.Framework.Internal.Builders.NamespaceTreeBuilder
   #pragma pack(pop)
-  static check_size<sizeof(NamespaceTreeBuilder), 24 + sizeof(NUnit::Framework::Internal::TestSuite*)> __NUnit_Framework_Internal_Builders_NamespaceTreeBuilderSizeCheck;
+  static check_size<sizeof(NamespaceTreeBuilder), 24 + sizeof(::NUnit::Framework::Internal::TestSuite*)> __NUnit_Framework_Internal_Builders_NamespaceTreeBuilderSizeCheck;
   static_assert(sizeof(NamespaceTreeBuilder) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::get_RootSuite
 // Il2CppName: get_RootSuite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestSuite* (NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::*)()>(&NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::get_RootSuite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Framework::Internal::TestSuite* (NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::*)()>(&NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::get_RootSuite)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::NamespaceTreeBuilder*), "get_RootSuite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -117,7 +117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::*)(System::Collections::Generic::IList_1<NUnit::Framework::Internal::Test*>*)>(&NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::*)(::System::Collections::Generic::IList_1<::NUnit::Framework::Internal::Test*>*)>(&NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::Add)> {
   static const MethodInfo* get() {
     static auto* fixtures = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "Test")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::NamespaceTreeBuilder*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fixtures});
@@ -126,7 +126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::*)(NUnit::Framework::Internal::TestSuite*)>(&NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::*)(::NUnit::Framework::Internal::TestSuite*)>(&NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::Add)> {
   static const MethodInfo* get() {
     static auto* fixture = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "TestSuite")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::NamespaceTreeBuilder*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fixture});
@@ -135,7 +135,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::GetNamespaceForFixture
 // Il2CppName: GetNamespaceForFixture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(NUnit::Framework::Internal::TestSuite*)>(&NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::GetNamespaceForFixture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::NUnit::Framework::Internal::TestSuite*)>(&NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::GetNamespaceForFixture)> {
   static const MethodInfo* get() {
     static auto* fixture = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "TestSuite")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::NamespaceTreeBuilder*), "GetNamespaceForFixture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fixture});
@@ -144,7 +144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::BuildFromNameSpace
 // Il2CppName: BuildFromNameSpace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestSuite* (NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::*)(::StringW)>(&NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::BuildFromNameSpace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Framework::Internal::TestSuite* (NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::*)(::StringW)>(&NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::BuildFromNameSpace)> {
   static const MethodInfo* get() {
     static auto* ns = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::NamespaceTreeBuilder*), "BuildFromNameSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ns});
@@ -153,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::AddSetUpFixture
 // Il2CppName: AddSetUpFixture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::*)(NUnit::Framework::Internal::TestSuite*, NUnit::Framework::Internal::TestSuite*, ::StringW)>(&NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::AddSetUpFixture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::*)(::NUnit::Framework::Internal::TestSuite*, ::NUnit::Framework::Internal::TestSuite*, ::StringW)>(&NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::AddSetUpFixture)> {
   static const MethodInfo* get() {
     static auto* newSetupFixture = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "TestSuite")->byval_arg;
     static auto* containingSuite = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "TestSuite")->byval_arg;

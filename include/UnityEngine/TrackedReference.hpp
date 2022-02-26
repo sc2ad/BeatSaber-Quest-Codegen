@@ -18,8 +18,8 @@ namespace UnityEngine {
   class TrackedReference;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::TrackedReference);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TrackedReference*, "UnityEngine", "TrackedReference");
+NEED_NO_BOX(::UnityEngine::TrackedReference);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TrackedReference*, "UnityEngine", "TrackedReference");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -42,23 +42,23 @@ namespace UnityEngine {
     // System.IntPtr m_Ptr
     // Size: 0x8
     // Offset: 0x10
-    System::IntPtr m_Ptr;
+    ::System::IntPtr m_Ptr;
     // Field size check
-    static_assert(sizeof(System::IntPtr) == 0x8);
+    static_assert(sizeof(::System::IntPtr) == 0x8);
     public:
-    // Creating conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const noexcept {
+    // Creating conversion operator: operator ::System::IntPtr
+    constexpr operator ::System::IntPtr() const noexcept {
       return m_Ptr;
     }
     // Get instance field reference: System.IntPtr m_Ptr
-    System::IntPtr& dyn_m_Ptr();
+    ::System::IntPtr& dyn_m_Ptr();
     // protected System.Void .ctor()
     // Offset: 0x26FCA38
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TrackedReference* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TrackedReference::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TrackedReference::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TrackedReference*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object o)
@@ -73,11 +73,11 @@ namespace UnityEngine {
     int GetHashCode();
   }; // UnityEngine.TrackedReference
   #pragma pack(pop)
-  static check_size<sizeof(TrackedReference), 16 + sizeof(System::IntPtr)> __UnityEngine_TrackedReferenceSizeCheck;
+  static check_size<sizeof(TrackedReference), 16 + sizeof(::System::IntPtr)> __UnityEngine_TrackedReferenceSizeCheck;
   static_assert(sizeof(TrackedReference) == 0x18);
   // static public System.Boolean op_Equality(UnityEngine.TrackedReference x, UnityEngine.TrackedReference y)
   // Offset: 0x26FCA40
-  bool operator ==(UnityEngine::TrackedReference* x, UnityEngine::TrackedReference& y);
+  bool operator ==(::UnityEngine::TrackedReference* x, ::UnityEngine::TrackedReference& y);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TrackedReference::New_ctor

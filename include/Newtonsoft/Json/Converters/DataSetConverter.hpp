@@ -34,8 +34,8 @@ namespace Newtonsoft::Json::Converters {
   class DataSetConverter;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Converters::DataSetConverter);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Converters::DataSetConverter*, "Newtonsoft.Json.Converters", "DataSetConverter");
+NEED_NO_BOX(::Newtonsoft::Json::Converters::DataSetConverter);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Converters::DataSetConverter*, "Newtonsoft.Json.Converters", "DataSetConverter");
 // Type namespace: Newtonsoft.Json.Converters
 namespace Newtonsoft::Json::Converters {
   // Size: 0x10
@@ -44,7 +44,7 @@ namespace Newtonsoft::Json::Converters {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NullableAttribute] Offset: 1203518
   // [NullableContextAttribute] Offset: 1203518
-  class DataSetConverter : public Newtonsoft::Json::JsonConverter {
+  class DataSetConverter : public ::Newtonsoft::Json::JsonConverter {
     public:
     // public System.Void .ctor()
     // Offset: 0x181D5C0
@@ -53,24 +53,24 @@ namespace Newtonsoft::Json::Converters {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DataSetConverter* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Converters::DataSetConverter::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Converters::DataSetConverter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DataSetConverter*, creationType>()));
     }
     // public override System.Void WriteJson(Newtonsoft.Json.JsonWriter writer, System.Object value, Newtonsoft.Json.JsonSerializer serializer)
     // Offset: 0x181CE44
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Void JsonConverter::WriteJson(Newtonsoft.Json.JsonWriter writer, System.Object value, Newtonsoft.Json.JsonSerializer serializer)
-    void WriteJson(Newtonsoft::Json::JsonWriter* writer, ::Il2CppObject* value, Newtonsoft::Json::JsonSerializer* serializer);
+    void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::Il2CppObject* value, ::Newtonsoft::Json::JsonSerializer* serializer);
     // public override System.Object ReadJson(Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue, Newtonsoft.Json.JsonSerializer serializer)
     // Offset: 0x181D208
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Object JsonConverter::ReadJson(Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue, Newtonsoft.Json.JsonSerializer serializer)
-    ::Il2CppObject* ReadJson(Newtonsoft::Json::JsonReader* reader, System::Type* objectType, ::Il2CppObject* existingValue, Newtonsoft::Json::JsonSerializer* serializer);
+    ::Il2CppObject* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::Il2CppObject* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
     // public override System.Boolean CanConvert(System.Type valueType)
     // Offset: 0x181D530
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Boolean JsonConverter::CanConvert(System.Type valueType)
-    bool CanConvert(System::Type* valueType);
+    bool CanConvert(::System::Type* valueType);
   }; // Newtonsoft.Json.Converters.DataSetConverter
   #pragma pack(pop)
 }
@@ -82,7 +82,7 @@ namespace Newtonsoft::Json::Converters {
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::DataSetConverter::WriteJson
 // Il2CppName: WriteJson
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Converters::DataSetConverter::*)(Newtonsoft::Json::JsonWriter*, ::Il2CppObject*, Newtonsoft::Json::JsonSerializer*)>(&Newtonsoft::Json::Converters::DataSetConverter::WriteJson)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Converters::DataSetConverter::*)(::Newtonsoft::Json::JsonWriter*, ::Il2CppObject*, ::Newtonsoft::Json::JsonSerializer*)>(&Newtonsoft::Json::Converters::DataSetConverter::WriteJson)> {
   static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonWriter")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -93,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::DataSetConverter::ReadJson
 // Il2CppName: ReadJson
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Newtonsoft::Json::Converters::DataSetConverter::*)(Newtonsoft::Json::JsonReader*, System::Type*, ::Il2CppObject*, Newtonsoft::Json::JsonSerializer*)>(&Newtonsoft::Json::Converters::DataSetConverter::ReadJson)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Newtonsoft::Json::Converters::DataSetConverter::*)(::Newtonsoft::Json::JsonReader*, ::System::Type*, ::Il2CppObject*, ::Newtonsoft::Json::JsonSerializer*)>(&Newtonsoft::Json::Converters::DataSetConverter::ReadJson)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonReader")->byval_arg;
     static auto* objectType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -105,7 +105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::DataSetConverter::CanConvert
 // Il2CppName: CanConvert
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Converters::DataSetConverter::*)(System::Type*)>(&Newtonsoft::Json::Converters::DataSetConverter::CanConvert)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Converters::DataSetConverter::*)(::System::Type*)>(&Newtonsoft::Json::Converters::DataSetConverter::CanConvert)> {
   static const MethodInfo* get() {
     static auto* valueType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Converters::DataSetConverter*), "CanConvert", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{valueType});

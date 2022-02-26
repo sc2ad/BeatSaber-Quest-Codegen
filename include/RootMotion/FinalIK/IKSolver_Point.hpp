@@ -24,8 +24,8 @@ namespace UnityEngine {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::IKSolver::Point);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolver::Point*, "RootMotion.FinalIK", "IKSolver/Point");
+NEED_NO_BOX(::RootMotion::FinalIK::IKSolver::Point);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::IKSolver::Point*, "RootMotion.FinalIK", "IKSolver/Point");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x54
@@ -46,9 +46,9 @@ namespace RootMotion::FinalIK {
     // public UnityEngine.Transform transform
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::Transform* transform;
+    ::UnityEngine::Transform* transform;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // [RangeAttribute] Offset: 0x1267134
     // public System.Single weight
     // Size: 0x4
@@ -59,40 +59,40 @@ namespace RootMotion::FinalIK {
     // public UnityEngine.Vector3 solverPosition
     // Size: 0xC
     // Offset: 0x1C
-    UnityEngine::Vector3 solverPosition;
+    ::UnityEngine::Vector3 solverPosition;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // public UnityEngine.Quaternion solverRotation
     // Size: 0x10
     // Offset: 0x28
-    UnityEngine::Quaternion solverRotation;
+    ::UnityEngine::Quaternion solverRotation;
     // Field size check
-    static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    static_assert(sizeof(::UnityEngine::Quaternion) == 0x10);
     // public UnityEngine.Vector3 defaultLocalPosition
     // Size: 0xC
     // Offset: 0x38
-    UnityEngine::Vector3 defaultLocalPosition;
+    ::UnityEngine::Vector3 defaultLocalPosition;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // public UnityEngine.Quaternion defaultLocalRotation
     // Size: 0x10
     // Offset: 0x44
-    UnityEngine::Quaternion defaultLocalRotation;
+    ::UnityEngine::Quaternion defaultLocalRotation;
     // Field size check
-    static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    static_assert(sizeof(::UnityEngine::Quaternion) == 0x10);
     public:
     // Get instance field reference: public UnityEngine.Transform transform
-    UnityEngine::Transform*& dyn_transform();
+    ::UnityEngine::Transform*& dyn_transform();
     // Get instance field reference: public System.Single weight
     float& dyn_weight();
     // Get instance field reference: public UnityEngine.Vector3 solverPosition
-    UnityEngine::Vector3& dyn_solverPosition();
+    ::UnityEngine::Vector3& dyn_solverPosition();
     // Get instance field reference: public UnityEngine.Quaternion solverRotation
-    UnityEngine::Quaternion& dyn_solverRotation();
+    ::UnityEngine::Quaternion& dyn_solverRotation();
     // Get instance field reference: public UnityEngine.Vector3 defaultLocalPosition
-    UnityEngine::Vector3& dyn_defaultLocalPosition();
+    ::UnityEngine::Vector3& dyn_defaultLocalPosition();
     // Get instance field reference: public UnityEngine.Quaternion defaultLocalRotation
-    UnityEngine::Quaternion& dyn_defaultLocalRotation();
+    ::UnityEngine::Quaternion& dyn_defaultLocalRotation();
     // public System.Void StoreDefaultLocalState()
     // Offset: 0x21D4628
     void StoreDefaultLocalState();
@@ -117,12 +117,12 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKSolver::Point* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::IKSolver::Point::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::IKSolver::Point::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKSolver::Point*, creationType>()));
     }
   }; // RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point
   #pragma pack(pop)
-  static check_size<sizeof(IKSolver::Point), 68 + sizeof(UnityEngine::Quaternion)> __RootMotion_FinalIK_IKSolver_PointSizeCheck;
+  static check_size<sizeof(IKSolver::Point), 68 + sizeof(::UnityEngine::Quaternion)> __RootMotion_FinalIK_IKSolver_PointSizeCheck;
   static_assert(sizeof(IKSolver::Point) == 0x54);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

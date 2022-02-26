@@ -18,8 +18,8 @@ namespace System::Diagnostics {
   class DebuggerHiddenAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Diagnostics::DebuggerHiddenAttribute);
-DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DebuggerHiddenAttribute*, "System.Diagnostics", "DebuggerHiddenAttribute");
+NEED_NO_BOX(::System::Diagnostics::DebuggerHiddenAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::DebuggerHiddenAttribute*, "System.Diagnostics", "DebuggerHiddenAttribute");
 // Type namespace: System.Diagnostics
 namespace System::Diagnostics {
   // Size: 0x10
@@ -28,7 +28,7 @@ namespace System::Diagnostics {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: 118D608
   // [AttributeUsageAttribute] Offset: 118D608
-  class DebuggerHiddenAttribute : public System::Attribute {
+  class DebuggerHiddenAttribute : public ::System::Attribute {
     public:
     // public System.Void .ctor()
     // Offset: 0x1880014
@@ -37,7 +37,7 @@ namespace System::Diagnostics {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DebuggerHiddenAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::DebuggerHiddenAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Diagnostics::DebuggerHiddenAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DebuggerHiddenAttribute*, creationType>()));
     }
   }; // System.Diagnostics.DebuggerHiddenAttribute

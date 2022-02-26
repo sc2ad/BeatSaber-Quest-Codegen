@@ -24,8 +24,8 @@ namespace GlobalNamespace {
   class SpawnRotationProcessor;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SpawnRotationProcessor);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SpawnRotationProcessor*, "", "SpawnRotationProcessor");
+NEED_NO_BOX(::GlobalNamespace::SpawnRotationProcessor);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SpawnRotationProcessor*, "", "SpawnRotationProcessor");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -67,7 +67,7 @@ namespace GlobalNamespace {
     float get_rotation();
     // public System.Boolean ProcessBeatmapEventData(BeatmapEventData beatmapEventData)
     // Offset: 0x13D64BC
-    bool ProcessBeatmapEventData(GlobalNamespace::BeatmapEventData* beatmapEventData);
+    bool ProcessBeatmapEventData(::GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Single RotationForEventValue(System.Int32 index)
     // Offset: 0x13D6610
     float RotationForEventValue(int index);
@@ -77,7 +77,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SpawnRotationProcessor* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SpawnRotationProcessor::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SpawnRotationProcessor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SpawnRotationProcessor*, creationType>()));
     }
   }; // SpawnRotationProcessor
@@ -97,7 +97,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Writing MetadataGetter for method: GlobalNamespace::SpawnRotationProcessor::ProcessBeatmapEventData
 // Il2CppName: ProcessBeatmapEventData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SpawnRotationProcessor::*)(GlobalNamespace::BeatmapEventData*)>(&GlobalNamespace::SpawnRotationProcessor::ProcessBeatmapEventData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SpawnRotationProcessor::*)(::GlobalNamespace::BeatmapEventData*)>(&GlobalNamespace::SpawnRotationProcessor::ProcessBeatmapEventData)> {
   static const MethodInfo* get() {
     static auto* beatmapEventData = &::il2cpp_utils::GetClassFromName("", "BeatmapEventData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SpawnRotationProcessor*), "ProcessBeatmapEventData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapEventData});

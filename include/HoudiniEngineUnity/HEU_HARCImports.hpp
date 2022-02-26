@@ -16,8 +16,8 @@ namespace HoudiniEngineUnity {
   class HEU_HARCImports;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_HARCImports);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_HARCImports*, "HoudiniEngineUnity", "HEU_HARCImports");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_HARCImports);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_HARCImports*, "HoudiniEngineUnity", "HEU_HARCImports");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x10
@@ -32,7 +32,7 @@ namespace HoudiniEngineUnity {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_HARCImports* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_HARCImports::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_HARCImports::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_HARCImports*, creationType>()));
     }
   }; // HoudiniEngineUnity.HEU_HARCImports

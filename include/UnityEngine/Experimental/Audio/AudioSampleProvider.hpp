@@ -17,8 +17,8 @@ namespace UnityEngine::Experimental::Audio {
   class AudioSampleProvider;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Experimental::Audio::AudioSampleProvider);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Audio::AudioSampleProvider*, "UnityEngine.Experimental.Audio", "AudioSampleProvider");
+NEED_NO_BOX(::UnityEngine::Experimental::Audio::AudioSampleProvider);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::Audio::AudioSampleProvider*, "UnityEngine.Experimental.Audio", "AudioSampleProvider");
 // Type namespace: UnityEngine.Experimental.Audio
 namespace UnityEngine::Experimental::Audio {
   // Size: 0x20
@@ -29,7 +29,7 @@ namespace UnityEngine::Experimental::Audio {
   // [NativeTypeAttribute] Offset: 11D7C30
   class AudioSampleProvider : public ::Il2CppObject {
     public:
-    // Nested type: UnityEngine::Experimental::Audio::AudioSampleProvider::SampleFramesHandler
+    // Nested type: ::UnityEngine::Experimental::Audio::AudioSampleProvider::SampleFramesHandler
     class SampleFramesHandler;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -44,21 +44,21 @@ namespace UnityEngine::Experimental::Audio {
     // private UnityEngine.Experimental.Audio.AudioSampleProvider/UnityEngine.Experimental.Audio.SampleFramesHandler sampleFramesAvailable
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::Experimental::Audio::AudioSampleProvider::SampleFramesHandler* sampleFramesAvailable;
+    ::UnityEngine::Experimental::Audio::AudioSampleProvider::SampleFramesHandler* sampleFramesAvailable;
     // Field size check
-    static_assert(sizeof(UnityEngine::Experimental::Audio::AudioSampleProvider::SampleFramesHandler*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Experimental::Audio::AudioSampleProvider::SampleFramesHandler*) == 0x8);
     // [DebuggerBrowsableAttribute] Offset: 0x11D7E3C
     // private UnityEngine.Experimental.Audio.AudioSampleProvider/UnityEngine.Experimental.Audio.SampleFramesHandler sampleFramesOverflow
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::Experimental::Audio::AudioSampleProvider::SampleFramesHandler* sampleFramesOverflow;
+    ::UnityEngine::Experimental::Audio::AudioSampleProvider::SampleFramesHandler* sampleFramesOverflow;
     // Field size check
-    static_assert(sizeof(UnityEngine::Experimental::Audio::AudioSampleProvider::SampleFramesHandler*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Experimental::Audio::AudioSampleProvider::SampleFramesHandler*) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.Experimental.Audio.AudioSampleProvider/UnityEngine.Experimental.Audio.SampleFramesHandler sampleFramesAvailable
-    UnityEngine::Experimental::Audio::AudioSampleProvider::SampleFramesHandler*& dyn_sampleFramesAvailable();
+    ::UnityEngine::Experimental::Audio::AudioSampleProvider::SampleFramesHandler*& dyn_sampleFramesAvailable();
     // Get instance field reference: private UnityEngine.Experimental.Audio.AudioSampleProvider/UnityEngine.Experimental.Audio.SampleFramesHandler sampleFramesOverflow
-    UnityEngine::Experimental::Audio::AudioSampleProvider::SampleFramesHandler*& dyn_sampleFramesOverflow();
+    ::UnityEngine::Experimental::Audio::AudioSampleProvider::SampleFramesHandler*& dyn_sampleFramesOverflow();
     // private System.Void InvokeSampleFramesAvailable(System.Int32 sampleFrameCount)
     // Offset: 0x2A405C4
     void InvokeSampleFramesAvailable(int sampleFrameCount);
@@ -67,7 +67,7 @@ namespace UnityEngine::Experimental::Audio {
     void InvokeSampleFramesOverflow(int droppedSampleFrameCount);
   }; // UnityEngine.Experimental.Audio.AudioSampleProvider
   #pragma pack(pop)
-  static check_size<sizeof(AudioSampleProvider), 24 + sizeof(UnityEngine::Experimental::Audio::AudioSampleProvider::SampleFramesHandler*)> __UnityEngine_Experimental_Audio_AudioSampleProviderSizeCheck;
+  static check_size<sizeof(AudioSampleProvider), 24 + sizeof(::UnityEngine::Experimental::Audio::AudioSampleProvider::SampleFramesHandler*)> __UnityEngine_Experimental_Audio_AudioSampleProviderSizeCheck;
   static_assert(sizeof(AudioSampleProvider) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

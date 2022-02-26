@@ -20,8 +20,8 @@ namespace UnityEngine {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs*, "", "BTSCharacterMaterialSwitcher/MaterialPairs");
+NEED_NO_BOX(::GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs*, "", "BTSCharacterMaterialSwitcher/MaterialPairs");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x28
@@ -50,34 +50,34 @@ namespace GlobalNamespace {
     // public UnityEngine.Material defaultMaterial
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::Material* defaultMaterial;
+    ::UnityEngine::Material* defaultMaterial;
     // Field size check
-    static_assert(sizeof(UnityEngine::Material*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Material*) == 0x8);
     // public UnityEngine.Material alternativeMaterial
     // Size: 0x8
     // Offset: 0x20
-    UnityEngine::Material* alternativeMaterial;
+    ::UnityEngine::Material* alternativeMaterial;
     // Field size check
-    static_assert(sizeof(UnityEngine::Material*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Material*) == 0x8);
     public:
     // Get instance field reference: public System.Int32 materialIndex
     int& dyn_materialIndex();
     // Get instance field reference: public UnityEngine.Material defaultMaterial
-    UnityEngine::Material*& dyn_defaultMaterial();
+    ::UnityEngine::Material*& dyn_defaultMaterial();
     // Get instance field reference: public UnityEngine.Material alternativeMaterial
-    UnityEngine::Material*& dyn_alternativeMaterial();
+    ::UnityEngine::Material*& dyn_alternativeMaterial();
     // public System.Void .ctor()
     // Offset: 0x2B37088
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BTSCharacterMaterialSwitcher::MaterialPairs* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BTSCharacterMaterialSwitcher::MaterialPairs*, creationType>()));
     }
   }; // BTSCharacterMaterialSwitcher/MaterialPairs
   #pragma pack(pop)
-  static check_size<sizeof(BTSCharacterMaterialSwitcher::MaterialPairs), 32 + sizeof(UnityEngine::Material*)> __GlobalNamespace_BTSCharacterMaterialSwitcher_MaterialPairsSizeCheck;
+  static check_size<sizeof(BTSCharacterMaterialSwitcher::MaterialPairs), 32 + sizeof(::UnityEngine::Material*)> __GlobalNamespace_BTSCharacterMaterialSwitcher_MaterialPairsSizeCheck;
   static_assert(sizeof(BTSCharacterMaterialSwitcher::MaterialPairs) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

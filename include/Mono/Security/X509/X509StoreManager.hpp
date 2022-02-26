@@ -20,8 +20,8 @@ namespace Mono::Security::X509 {
   class X509StoreManager;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Security::X509::X509StoreManager);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509StoreManager*, "Mono.Security.X509", "X509StoreManager");
+NEED_NO_BOX(::Mono::Security::X509::X509StoreManager);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::X509::X509StoreManager*, "Mono.Security.X509", "X509StoreManager");
 // Type namespace: Mono.Security.X509
 namespace Mono::Security::X509 {
   // Size: 0x10
@@ -39,13 +39,13 @@ namespace Mono::Security::X509 {
     // Set static field: static private System.String _localMachinePath
     static void _set__localMachinePath(::StringW value);
     // Get static field: static private Mono.Security.X509.X509Stores _userStore
-    static Mono::Security::X509::X509Stores* _get__userStore();
+    static ::Mono::Security::X509::X509Stores* _get__userStore();
     // Set static field: static private Mono.Security.X509.X509Stores _userStore
-    static void _set__userStore(Mono::Security::X509::X509Stores* value);
+    static void _set__userStore(::Mono::Security::X509::X509Stores* value);
     // Get static field: static private Mono.Security.X509.X509Stores _machineStore
-    static Mono::Security::X509::X509Stores* _get__machineStore();
+    static ::Mono::Security::X509::X509Stores* _get__machineStore();
     // Set static field: static private Mono.Security.X509.X509Stores _machineStore
-    static void _set__machineStore(Mono::Security::X509::X509Stores* value);
+    static void _set__machineStore(::Mono::Security::X509::X509Stores* value);
     // static System.String get_CurrentUserPath()
     // Offset: 0x2A20F40
     static ::StringW get_CurrentUserPath();
@@ -54,10 +54,10 @@ namespace Mono::Security::X509 {
     static ::StringW get_LocalMachinePath();
     // static public Mono.Security.X509.X509Stores get_CurrentUser()
     // Offset: 0x2A21100
-    static Mono::Security::X509::X509Stores* get_CurrentUser();
+    static ::Mono::Security::X509::X509Stores* get_CurrentUser();
     // static public Mono.Security.X509.X509Stores get_LocalMachine()
     // Offset: 0x2A211E0
-    static Mono::Security::X509::X509Stores* get_LocalMachine();
+    static ::Mono::Security::X509::X509Stores* get_LocalMachine();
   }; // Mono.Security.X509.X509StoreManager
   #pragma pack(pop)
 }
@@ -81,7 +81,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: Mono::Security::X509::X509StoreManager::get_CurrentUser
 // Il2CppName: get_CurrentUser
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::X509::X509Stores* (*)()>(&Mono::Security::X509::X509StoreManager::get_CurrentUser)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::X509::X509Stores* (*)()>(&Mono::Security::X509::X509StoreManager::get_CurrentUser)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509StoreManager*), "get_CurrentUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -89,7 +89,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 // Writing MetadataGetter for method: Mono::Security::X509::X509StoreManager::get_LocalMachine
 // Il2CppName: get_LocalMachine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::X509::X509Stores* (*)()>(&Mono::Security::X509::X509StoreManager::get_LocalMachine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::X509::X509Stores* (*)()>(&Mono::Security::X509::X509StoreManager::get_LocalMachine)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509StoreManager*), "get_LocalMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

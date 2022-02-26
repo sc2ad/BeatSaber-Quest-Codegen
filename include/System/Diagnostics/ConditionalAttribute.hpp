@@ -19,8 +19,8 @@ namespace System::Diagnostics {
   class ConditionalAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Diagnostics::ConditionalAttribute);
-DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::ConditionalAttribute*, "System.Diagnostics", "ConditionalAttribute");
+NEED_NO_BOX(::System::Diagnostics::ConditionalAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::ConditionalAttribute*, "System.Diagnostics", "ConditionalAttribute");
 // Type namespace: System.Diagnostics
 namespace System::Diagnostics {
   // Size: 0x18
@@ -29,7 +29,7 @@ namespace System::Diagnostics {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: 118D56C
   // [AttributeUsageAttribute] Offset: 118D56C
-  class ConditionalAttribute : public System::Attribute {
+  class ConditionalAttribute : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -57,7 +57,7 @@ namespace System::Diagnostics {
     // Offset: 0x187FDCC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConditionalAttribute* New_ctor(::StringW conditionString) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::ConditionalAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Diagnostics::ConditionalAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConditionalAttribute*, creationType>(conditionString)));
     }
   }; // System.Diagnostics.ConditionalAttribute

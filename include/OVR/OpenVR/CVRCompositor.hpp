@@ -53,8 +53,8 @@ namespace OVR::OpenVR {
   class CVRCompositor;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(OVR::OpenVR::CVRCompositor);
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRCompositor*, "OVR.OpenVR", "CVRCompositor");
+NEED_NO_BOX(::OVR::OpenVR::CVRCompositor);
+DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::CVRCompositor*, "OVR.OpenVR", "CVRCompositor");
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
   // Size: 0x168
@@ -75,41 +75,41 @@ namespace OVR::OpenVR {
     // private OVR.OpenVR.IVRCompositor FnTable
     // Size: 0x158
     // Offset: 0x10
-    OVR::OpenVR::IVRCompositor FnTable;
+    ::OVR::OpenVR::IVRCompositor FnTable;
     // Field size check
-    static_assert(sizeof(OVR::OpenVR::IVRCompositor) == 0x158);
+    static_assert(sizeof(::OVR::OpenVR::IVRCompositor) == 0x158);
     public:
-    // Creating conversion operator: operator OVR::OpenVR::IVRCompositor
-    constexpr operator OVR::OpenVR::IVRCompositor() const noexcept {
+    // Creating conversion operator: operator ::OVR::OpenVR::IVRCompositor
+    constexpr operator ::OVR::OpenVR::IVRCompositor() const noexcept {
       return FnTable;
     }
     // Get instance field reference: private OVR.OpenVR.IVRCompositor FnTable
-    OVR::OpenVR::IVRCompositor& dyn_FnTable();
+    ::OVR::OpenVR::IVRCompositor& dyn_FnTable();
     // System.Void .ctor(System.IntPtr pInterface)
     // Offset: 0x1A0BBAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CVRCompositor* New_ctor(System::IntPtr pInterface) {
-      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::CVRCompositor::.ctor");
+    static CVRCompositor* New_ctor(::System::IntPtr pInterface) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::OVR::OpenVR::CVRCompositor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRCompositor*, creationType>(pInterface)));
     }
     // public System.Void SetTrackingSpace(OVR.OpenVR.ETrackingUniverseOrigin eOrigin)
     // Offset: 0x1A0BCB4
-    void SetTrackingSpace(OVR::OpenVR::ETrackingUniverseOrigin eOrigin);
+    void SetTrackingSpace(::OVR::OpenVR::ETrackingUniverseOrigin eOrigin);
     // public OVR.OpenVR.ETrackingUniverseOrigin GetTrackingSpace()
     // Offset: 0x1A0BCD0
-    OVR::OpenVR::ETrackingUniverseOrigin GetTrackingSpace();
+    ::OVR::OpenVR::ETrackingUniverseOrigin GetTrackingSpace();
     // public OVR.OpenVR.EVRCompositorError WaitGetPoses(OVR.OpenVR.TrackedDevicePose_t[] pRenderPoseArray, OVR.OpenVR.TrackedDevicePose_t[] pGamePoseArray)
     // Offset: 0x1A0BCEC
-    OVR::OpenVR::EVRCompositorError WaitGetPoses(::ArrayW<OVR::OpenVR::TrackedDevicePose_t> pRenderPoseArray, ::ArrayW<OVR::OpenVR::TrackedDevicePose_t> pGamePoseArray);
+    ::OVR::OpenVR::EVRCompositorError WaitGetPoses(::ArrayW<::OVR::OpenVR::TrackedDevicePose_t> pRenderPoseArray, ::ArrayW<::OVR::OpenVR::TrackedDevicePose_t> pGamePoseArray);
     // public OVR.OpenVR.EVRCompositorError GetLastPoses(OVR.OpenVR.TrackedDevicePose_t[] pRenderPoseArray, OVR.OpenVR.TrackedDevicePose_t[] pGamePoseArray)
     // Offset: 0x1A0BD20
-    OVR::OpenVR::EVRCompositorError GetLastPoses(::ArrayW<OVR::OpenVR::TrackedDevicePose_t> pRenderPoseArray, ::ArrayW<OVR::OpenVR::TrackedDevicePose_t> pGamePoseArray);
+    ::OVR::OpenVR::EVRCompositorError GetLastPoses(::ArrayW<::OVR::OpenVR::TrackedDevicePose_t> pRenderPoseArray, ::ArrayW<::OVR::OpenVR::TrackedDevicePose_t> pGamePoseArray);
     // public OVR.OpenVR.EVRCompositorError GetLastPoseForTrackedDeviceIndex(System.UInt32 unDeviceIndex, ref OVR.OpenVR.TrackedDevicePose_t pOutputPose, ref OVR.OpenVR.TrackedDevicePose_t pOutputGamePose)
     // Offset: 0x1A0BD54
-    OVR::OpenVR::EVRCompositorError GetLastPoseForTrackedDeviceIndex(uint unDeviceIndex, ByRef<OVR::OpenVR::TrackedDevicePose_t> pOutputPose, ByRef<OVR::OpenVR::TrackedDevicePose_t> pOutputGamePose);
+    ::OVR::OpenVR::EVRCompositorError GetLastPoseForTrackedDeviceIndex(uint unDeviceIndex, ByRef<::OVR::OpenVR::TrackedDevicePose_t> pOutputPose, ByRef<::OVR::OpenVR::TrackedDevicePose_t> pOutputGamePose);
     // public OVR.OpenVR.EVRCompositorError Submit(OVR.OpenVR.EVREye eEye, ref OVR.OpenVR.Texture_t pTexture, ref OVR.OpenVR.VRTextureBounds_t pBounds, OVR.OpenVR.EVRSubmitFlags nSubmitFlags)
     // Offset: 0x1A0BD70
-    OVR::OpenVR::EVRCompositorError Submit(OVR::OpenVR::EVREye eEye, ByRef<OVR::OpenVR::Texture_t> pTexture, ByRef<OVR::OpenVR::VRTextureBounds_t> pBounds, OVR::OpenVR::EVRSubmitFlags nSubmitFlags);
+    ::OVR::OpenVR::EVRCompositorError Submit(::OVR::OpenVR::EVREye eEye, ByRef<::OVR::OpenVR::Texture_t> pTexture, ByRef<::OVR::OpenVR::VRTextureBounds_t> pBounds, ::OVR::OpenVR::EVRSubmitFlags nSubmitFlags);
     // public System.Void ClearLastSubmittedFrame()
     // Offset: 0x1A0BD8C
     void ClearLastSubmittedFrame();
@@ -118,22 +118,22 @@ namespace OVR::OpenVR {
     void PostPresentHandoff();
     // public System.Boolean GetFrameTiming(ref OVR.OpenVR.Compositor_FrameTiming pTiming, System.UInt32 unFramesAgo)
     // Offset: 0x1A0BDC4
-    bool GetFrameTiming(ByRef<OVR::OpenVR::Compositor_FrameTiming> pTiming, uint unFramesAgo);
+    bool GetFrameTiming(ByRef<::OVR::OpenVR::Compositor_FrameTiming> pTiming, uint unFramesAgo);
     // public System.UInt32 GetFrameTimings(ref OVR.OpenVR.Compositor_FrameTiming pTiming, System.UInt32 nFrames)
     // Offset: 0x1A0BDE0
-    uint GetFrameTimings(ByRef<OVR::OpenVR::Compositor_FrameTiming> pTiming, uint nFrames);
+    uint GetFrameTimings(ByRef<::OVR::OpenVR::Compositor_FrameTiming> pTiming, uint nFrames);
     // public System.Single GetFrameTimeRemaining()
     // Offset: 0x1A0BDFC
     float GetFrameTimeRemaining();
     // public System.Void GetCumulativeStats(ref OVR.OpenVR.Compositor_CumulativeStats pStats, System.UInt32 nStatsSizeInBytes)
     // Offset: 0x1A0BE18
-    void GetCumulativeStats(ByRef<OVR::OpenVR::Compositor_CumulativeStats> pStats, uint nStatsSizeInBytes);
+    void GetCumulativeStats(ByRef<::OVR::OpenVR::Compositor_CumulativeStats> pStats, uint nStatsSizeInBytes);
     // public System.Void FadeToColor(System.Single fSeconds, System.Single fRed, System.Single fGreen, System.Single fBlue, System.Single fAlpha, System.Boolean bBackground)
     // Offset: 0x1A0BE34
     void FadeToColor(float fSeconds, float fRed, float fGreen, float fBlue, float fAlpha, bool bBackground);
     // public OVR.OpenVR.HmdColor_t GetCurrentFadeColor(System.Boolean bBackground)
     // Offset: 0x1A0BE54
-    OVR::OpenVR::HmdColor_t GetCurrentFadeColor(bool bBackground);
+    ::OVR::OpenVR::HmdColor_t GetCurrentFadeColor(bool bBackground);
     // public System.Void FadeGrid(System.Single fSeconds, System.Boolean bFadeIn)
     // Offset: 0x1A0BE74
     void FadeGrid(float fSeconds, bool bFadeIn);
@@ -142,7 +142,7 @@ namespace OVR::OpenVR {
     float GetCurrentGridAlpha();
     // public OVR.OpenVR.EVRCompositorError SetSkyboxOverride(OVR.OpenVR.Texture_t[] pTextures)
     // Offset: 0x1A0BEB0
-    OVR::OpenVR::EVRCompositorError SetSkyboxOverride(::ArrayW<OVR::OpenVR::Texture_t> pTextures);
+    ::OVR::OpenVR::EVRCompositorError SetSkyboxOverride(::ArrayW<::OVR::OpenVR::Texture_t> pTextures);
     // public System.Void ClearSkyboxOverride()
     // Offset: 0x1A0BED8
     void ClearSkyboxOverride();
@@ -193,37 +193,37 @@ namespace OVR::OpenVR {
     void SuspendRendering(bool bSuspend);
     // public OVR.OpenVR.EVRCompositorError GetMirrorTextureD3D11(OVR.OpenVR.EVREye eEye, System.IntPtr pD3D11DeviceOrResource, ref System.IntPtr ppD3D11ShaderResourceView)
     // Offset: 0x1A0C0A0
-    OVR::OpenVR::EVRCompositorError GetMirrorTextureD3D11(OVR::OpenVR::EVREye eEye, System::IntPtr pD3D11DeviceOrResource, ByRef<System::IntPtr> ppD3D11ShaderResourceView);
+    ::OVR::OpenVR::EVRCompositorError GetMirrorTextureD3D11(::OVR::OpenVR::EVREye eEye, ::System::IntPtr pD3D11DeviceOrResource, ByRef<::System::IntPtr> ppD3D11ShaderResourceView);
     // public System.Void ReleaseMirrorTextureD3D11(System.IntPtr pD3D11ShaderResourceView)
     // Offset: 0x1A0C0BC
-    void ReleaseMirrorTextureD3D11(System::IntPtr pD3D11ShaderResourceView);
+    void ReleaseMirrorTextureD3D11(::System::IntPtr pD3D11ShaderResourceView);
     // public OVR.OpenVR.EVRCompositorError GetMirrorTextureGL(OVR.OpenVR.EVREye eEye, ref System.UInt32 pglTextureId, System.IntPtr pglSharedTextureHandle)
     // Offset: 0x1A0C0D8
-    OVR::OpenVR::EVRCompositorError GetMirrorTextureGL(OVR::OpenVR::EVREye eEye, ByRef<uint> pglTextureId, System::IntPtr pglSharedTextureHandle);
+    ::OVR::OpenVR::EVRCompositorError GetMirrorTextureGL(::OVR::OpenVR::EVREye eEye, ByRef<uint> pglTextureId, ::System::IntPtr pglSharedTextureHandle);
     // public System.Boolean ReleaseSharedGLTexture(System.UInt32 glTextureId, System.IntPtr glSharedTextureHandle)
     // Offset: 0x1A0C0F8
-    bool ReleaseSharedGLTexture(uint glTextureId, System::IntPtr glSharedTextureHandle);
+    bool ReleaseSharedGLTexture(uint glTextureId, ::System::IntPtr glSharedTextureHandle);
     // public System.Void LockGLSharedTextureForAccess(System.IntPtr glSharedTextureHandle)
     // Offset: 0x1A0C114
-    void LockGLSharedTextureForAccess(System::IntPtr glSharedTextureHandle);
+    void LockGLSharedTextureForAccess(::System::IntPtr glSharedTextureHandle);
     // public System.Void UnlockGLSharedTextureForAccess(System.IntPtr glSharedTextureHandle)
     // Offset: 0x1A0C130
-    void UnlockGLSharedTextureForAccess(System::IntPtr glSharedTextureHandle);
+    void UnlockGLSharedTextureForAccess(::System::IntPtr glSharedTextureHandle);
     // public System.UInt32 GetVulkanInstanceExtensionsRequired(System.Text.StringBuilder pchValue, System.UInt32 unBufferSize)
     // Offset: 0x1A0C14C
-    uint GetVulkanInstanceExtensionsRequired(System::Text::StringBuilder* pchValue, uint unBufferSize);
+    uint GetVulkanInstanceExtensionsRequired(::System::Text::StringBuilder* pchValue, uint unBufferSize);
     // public System.UInt32 GetVulkanDeviceExtensionsRequired(System.IntPtr pPhysicalDevice, System.Text.StringBuilder pchValue, System.UInt32 unBufferSize)
     // Offset: 0x1A0C168
-    uint GetVulkanDeviceExtensionsRequired(System::IntPtr pPhysicalDevice, System::Text::StringBuilder* pchValue, uint unBufferSize);
+    uint GetVulkanDeviceExtensionsRequired(::System::IntPtr pPhysicalDevice, ::System::Text::StringBuilder* pchValue, uint unBufferSize);
     // public System.Void SetExplicitTimingMode(OVR.OpenVR.EVRCompositorTimingMode eTimingMode)
     // Offset: 0x1A0C184
-    void SetExplicitTimingMode(OVR::OpenVR::EVRCompositorTimingMode eTimingMode);
+    void SetExplicitTimingMode(::OVR::OpenVR::EVRCompositorTimingMode eTimingMode);
     // public OVR.OpenVR.EVRCompositorError SubmitExplicitTimingData()
     // Offset: 0x1A0C1A0
-    OVR::OpenVR::EVRCompositorError SubmitExplicitTimingData();
+    ::OVR::OpenVR::EVRCompositorError SubmitExplicitTimingData();
   }; // OVR.OpenVR.CVRCompositor
   #pragma pack(pop)
-  static check_size<sizeof(CVRCompositor), 16 + sizeof(OVR::OpenVR::IVRCompositor)> __OVR_OpenVR_CVRCompositorSizeCheck;
+  static check_size<sizeof(CVRCompositor), 16 + sizeof(::OVR::OpenVR::IVRCompositor)> __OVR_OpenVR_CVRCompositorSizeCheck;
   static_assert(sizeof(CVRCompositor) == 0x168);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -234,7 +234,7 @@ namespace OVR::OpenVR {
 // Writing MetadataGetter for method: OVR::OpenVR::CVRCompositor::SetTrackingSpace
 // Il2CppName: SetTrackingSpace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRCompositor::*)(OVR::OpenVR::ETrackingUniverseOrigin)>(&OVR::OpenVR::CVRCompositor::SetTrackingSpace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRCompositor::*)(::OVR::OpenVR::ETrackingUniverseOrigin)>(&OVR::OpenVR::CVRCompositor::SetTrackingSpace)> {
   static const MethodInfo* get() {
     static auto* eOrigin = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "ETrackingUniverseOrigin")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRCompositor*), "SetTrackingSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eOrigin});
@@ -243,7 +243,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVRCompositor::GetTrackingSpace
 // Il2CppName: GetTrackingSpace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::ETrackingUniverseOrigin (OVR::OpenVR::CVRCompositor::*)()>(&OVR::OpenVR::CVRCompositor::GetTrackingSpace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::ETrackingUniverseOrigin (OVR::OpenVR::CVRCompositor::*)()>(&OVR::OpenVR::CVRCompositor::GetTrackingSpace)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRCompositor*), "GetTrackingSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -251,7 +251,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVRCompositor::WaitGetPoses
 // Il2CppName: WaitGetPoses
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRCompositorError (OVR::OpenVR::CVRCompositor::*)(::ArrayW<OVR::OpenVR::TrackedDevicePose_t>, ::ArrayW<OVR::OpenVR::TrackedDevicePose_t>)>(&OVR::OpenVR::CVRCompositor::WaitGetPoses)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRCompositorError (OVR::OpenVR::CVRCompositor::*)(::ArrayW<::OVR::OpenVR::TrackedDevicePose_t>, ::ArrayW<::OVR::OpenVR::TrackedDevicePose_t>)>(&OVR::OpenVR::CVRCompositor::WaitGetPoses)> {
   static const MethodInfo* get() {
     static auto* pRenderPoseArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "TrackedDevicePose_t"), 1)->byval_arg;
     static auto* pGamePoseArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "TrackedDevicePose_t"), 1)->byval_arg;
@@ -261,7 +261,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVRCompositor::GetLastPoses
 // Il2CppName: GetLastPoses
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRCompositorError (OVR::OpenVR::CVRCompositor::*)(::ArrayW<OVR::OpenVR::TrackedDevicePose_t>, ::ArrayW<OVR::OpenVR::TrackedDevicePose_t>)>(&OVR::OpenVR::CVRCompositor::GetLastPoses)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRCompositorError (OVR::OpenVR::CVRCompositor::*)(::ArrayW<::OVR::OpenVR::TrackedDevicePose_t>, ::ArrayW<::OVR::OpenVR::TrackedDevicePose_t>)>(&OVR::OpenVR::CVRCompositor::GetLastPoses)> {
   static const MethodInfo* get() {
     static auto* pRenderPoseArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "TrackedDevicePose_t"), 1)->byval_arg;
     static auto* pGamePoseArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "TrackedDevicePose_t"), 1)->byval_arg;
@@ -271,7 +271,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVRCompositor::GetLastPoseForTrackedDeviceIndex
 // Il2CppName: GetLastPoseForTrackedDeviceIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRCompositorError (OVR::OpenVR::CVRCompositor::*)(uint, ByRef<OVR::OpenVR::TrackedDevicePose_t>, ByRef<OVR::OpenVR::TrackedDevicePose_t>)>(&OVR::OpenVR::CVRCompositor::GetLastPoseForTrackedDeviceIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRCompositorError (OVR::OpenVR::CVRCompositor::*)(uint, ByRef<::OVR::OpenVR::TrackedDevicePose_t>, ByRef<::OVR::OpenVR::TrackedDevicePose_t>)>(&OVR::OpenVR::CVRCompositor::GetLastPoseForTrackedDeviceIndex)> {
   static const MethodInfo* get() {
     static auto* unDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* pOutputPose = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "TrackedDevicePose_t")->this_arg;
@@ -282,7 +282,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVRCompositor::Submit
 // Il2CppName: Submit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRCompositorError (OVR::OpenVR::CVRCompositor::*)(OVR::OpenVR::EVREye, ByRef<OVR::OpenVR::Texture_t>, ByRef<OVR::OpenVR::VRTextureBounds_t>, OVR::OpenVR::EVRSubmitFlags)>(&OVR::OpenVR::CVRCompositor::Submit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRCompositorError (OVR::OpenVR::CVRCompositor::*)(::OVR::OpenVR::EVREye, ByRef<::OVR::OpenVR::Texture_t>, ByRef<::OVR::OpenVR::VRTextureBounds_t>, ::OVR::OpenVR::EVRSubmitFlags)>(&OVR::OpenVR::CVRCompositor::Submit)> {
   static const MethodInfo* get() {
     static auto* eEye = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVREye")->byval_arg;
     static auto* pTexture = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "Texture_t")->this_arg;
@@ -310,7 +310,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVRCompositor::GetFrameTiming
 // Il2CppName: GetFrameTiming
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRCompositor::*)(ByRef<OVR::OpenVR::Compositor_FrameTiming>, uint)>(&OVR::OpenVR::CVRCompositor::GetFrameTiming)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRCompositor::*)(ByRef<::OVR::OpenVR::Compositor_FrameTiming>, uint)>(&OVR::OpenVR::CVRCompositor::GetFrameTiming)> {
   static const MethodInfo* get() {
     static auto* pTiming = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "Compositor_FrameTiming")->this_arg;
     static auto* unFramesAgo = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -320,7 +320,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVRCompositor::GetFrameTimings
 // Il2CppName: GetFrameTimings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRCompositor::*)(ByRef<OVR::OpenVR::Compositor_FrameTiming>, uint)>(&OVR::OpenVR::CVRCompositor::GetFrameTimings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRCompositor::*)(ByRef<::OVR::OpenVR::Compositor_FrameTiming>, uint)>(&OVR::OpenVR::CVRCompositor::GetFrameTimings)> {
   static const MethodInfo* get() {
     static auto* pTiming = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "Compositor_FrameTiming")->this_arg;
     static auto* nFrames = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -338,7 +338,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (OVR:
 // Writing MetadataGetter for method: OVR::OpenVR::CVRCompositor::GetCumulativeStats
 // Il2CppName: GetCumulativeStats
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRCompositor::*)(ByRef<OVR::OpenVR::Compositor_CumulativeStats>, uint)>(&OVR::OpenVR::CVRCompositor::GetCumulativeStats)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRCompositor::*)(ByRef<::OVR::OpenVR::Compositor_CumulativeStats>, uint)>(&OVR::OpenVR::CVRCompositor::GetCumulativeStats)> {
   static const MethodInfo* get() {
     static auto* pStats = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "Compositor_CumulativeStats")->this_arg;
     static auto* nStatsSizeInBytes = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -362,7 +362,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVRCompositor::GetCurrentFadeColor
 // Il2CppName: GetCurrentFadeColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::HmdColor_t (OVR::OpenVR::CVRCompositor::*)(bool)>(&OVR::OpenVR::CVRCompositor::GetCurrentFadeColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::HmdColor_t (OVR::OpenVR::CVRCompositor::*)(bool)>(&OVR::OpenVR::CVRCompositor::GetCurrentFadeColor)> {
   static const MethodInfo* get() {
     static auto* bBackground = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRCompositor*), "GetCurrentFadeColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bBackground});
@@ -389,7 +389,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (OVR:
 // Writing MetadataGetter for method: OVR::OpenVR::CVRCompositor::SetSkyboxOverride
 // Il2CppName: SetSkyboxOverride
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRCompositorError (OVR::OpenVR::CVRCompositor::*)(::ArrayW<OVR::OpenVR::Texture_t>)>(&OVR::OpenVR::CVRCompositor::SetSkyboxOverride)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRCompositorError (OVR::OpenVR::CVRCompositor::*)(::ArrayW<::OVR::OpenVR::Texture_t>)>(&OVR::OpenVR::CVRCompositor::SetSkyboxOverride)> {
   static const MethodInfo* get() {
     static auto* pTextures = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "Texture_t"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRCompositor*), "SetSkyboxOverride", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pTextures});
@@ -528,7 +528,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVRCompositor::GetMirrorTextureD3D11
 // Il2CppName: GetMirrorTextureD3D11
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRCompositorError (OVR::OpenVR::CVRCompositor::*)(OVR::OpenVR::EVREye, System::IntPtr, ByRef<System::IntPtr>)>(&OVR::OpenVR::CVRCompositor::GetMirrorTextureD3D11)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRCompositorError (OVR::OpenVR::CVRCompositor::*)(::OVR::OpenVR::EVREye, ::System::IntPtr, ByRef<::System::IntPtr>)>(&OVR::OpenVR::CVRCompositor::GetMirrorTextureD3D11)> {
   static const MethodInfo* get() {
     static auto* eEye = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVREye")->byval_arg;
     static auto* pD3D11DeviceOrResource = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -539,7 +539,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVRCompositor::ReleaseMirrorTextureD3D11
 // Il2CppName: ReleaseMirrorTextureD3D11
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRCompositor::*)(System::IntPtr)>(&OVR::OpenVR::CVRCompositor::ReleaseMirrorTextureD3D11)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRCompositor::*)(::System::IntPtr)>(&OVR::OpenVR::CVRCompositor::ReleaseMirrorTextureD3D11)> {
   static const MethodInfo* get() {
     static auto* pD3D11ShaderResourceView = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRCompositor*), "ReleaseMirrorTextureD3D11", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pD3D11ShaderResourceView});
@@ -548,7 +548,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVRCompositor::GetMirrorTextureGL
 // Il2CppName: GetMirrorTextureGL
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRCompositorError (OVR::OpenVR::CVRCompositor::*)(OVR::OpenVR::EVREye, ByRef<uint>, System::IntPtr)>(&OVR::OpenVR::CVRCompositor::GetMirrorTextureGL)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRCompositorError (OVR::OpenVR::CVRCompositor::*)(::OVR::OpenVR::EVREye, ByRef<uint>, ::System::IntPtr)>(&OVR::OpenVR::CVRCompositor::GetMirrorTextureGL)> {
   static const MethodInfo* get() {
     static auto* eEye = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVREye")->byval_arg;
     static auto* pglTextureId = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
@@ -559,7 +559,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVRCompositor::ReleaseSharedGLTexture
 // Il2CppName: ReleaseSharedGLTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRCompositor::*)(uint, System::IntPtr)>(&OVR::OpenVR::CVRCompositor::ReleaseSharedGLTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRCompositor::*)(uint, ::System::IntPtr)>(&OVR::OpenVR::CVRCompositor::ReleaseSharedGLTexture)> {
   static const MethodInfo* get() {
     static auto* glTextureId = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* glSharedTextureHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -569,7 +569,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVRCompositor::LockGLSharedTextureForAccess
 // Il2CppName: LockGLSharedTextureForAccess
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRCompositor::*)(System::IntPtr)>(&OVR::OpenVR::CVRCompositor::LockGLSharedTextureForAccess)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRCompositor::*)(::System::IntPtr)>(&OVR::OpenVR::CVRCompositor::LockGLSharedTextureForAccess)> {
   static const MethodInfo* get() {
     static auto* glSharedTextureHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRCompositor*), "LockGLSharedTextureForAccess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{glSharedTextureHandle});
@@ -578,7 +578,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVRCompositor::UnlockGLSharedTextureForAccess
 // Il2CppName: UnlockGLSharedTextureForAccess
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRCompositor::*)(System::IntPtr)>(&OVR::OpenVR::CVRCompositor::UnlockGLSharedTextureForAccess)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRCompositor::*)(::System::IntPtr)>(&OVR::OpenVR::CVRCompositor::UnlockGLSharedTextureForAccess)> {
   static const MethodInfo* get() {
     static auto* glSharedTextureHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRCompositor*), "UnlockGLSharedTextureForAccess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{glSharedTextureHandle});
@@ -587,7 +587,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVRCompositor::GetVulkanInstanceExtensionsRequired
 // Il2CppName: GetVulkanInstanceExtensionsRequired
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRCompositor::*)(System::Text::StringBuilder*, uint)>(&OVR::OpenVR::CVRCompositor::GetVulkanInstanceExtensionsRequired)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRCompositor::*)(::System::Text::StringBuilder*, uint)>(&OVR::OpenVR::CVRCompositor::GetVulkanInstanceExtensionsRequired)> {
   static const MethodInfo* get() {
     static auto* pchValue = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* unBufferSize = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -597,7 +597,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVRCompositor::GetVulkanDeviceExtensionsRequired
 // Il2CppName: GetVulkanDeviceExtensionsRequired
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRCompositor::*)(System::IntPtr, System::Text::StringBuilder*, uint)>(&OVR::OpenVR::CVRCompositor::GetVulkanDeviceExtensionsRequired)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRCompositor::*)(::System::IntPtr, ::System::Text::StringBuilder*, uint)>(&OVR::OpenVR::CVRCompositor::GetVulkanDeviceExtensionsRequired)> {
   static const MethodInfo* get() {
     static auto* pPhysicalDevice = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* pchValue = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
@@ -608,7 +608,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVRCompositor::SetExplicitTimingMode
 // Il2CppName: SetExplicitTimingMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRCompositor::*)(OVR::OpenVR::EVRCompositorTimingMode)>(&OVR::OpenVR::CVRCompositor::SetExplicitTimingMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRCompositor::*)(::OVR::OpenVR::EVRCompositorTimingMode)>(&OVR::OpenVR::CVRCompositor::SetExplicitTimingMode)> {
   static const MethodInfo* get() {
     static auto* eTimingMode = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRCompositorTimingMode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRCompositor*), "SetExplicitTimingMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eTimingMode});
@@ -617,7 +617,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVRCompositor::SubmitExplicitTimingData
 // Il2CppName: SubmitExplicitTimingData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRCompositorError (OVR::OpenVR::CVRCompositor::*)()>(&OVR::OpenVR::CVRCompositor::SubmitExplicitTimingData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRCompositorError (OVR::OpenVR::CVRCompositor::*)()>(&OVR::OpenVR::CVRCompositor::SubmitExplicitTimingData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRCompositor*), "SubmitExplicitTimingData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

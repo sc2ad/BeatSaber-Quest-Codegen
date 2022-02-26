@@ -13,7 +13,7 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(HoudiniEngineUnity::HEU_TestHelpers::RequireClass_1, "HoudiniEngineUnity", "HEU_TestHelpers/RequireClass`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::HoudiniEngineUnity::HEU_TestHelpers::RequireClass_1, "HoudiniEngineUnity", "HEU_TestHelpers/RequireClass`1");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // WARNING Size may be invalid!
@@ -28,7 +28,7 @@ namespace HoudiniEngineUnity {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_TestHelpers::RequireClass_1<T>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_TestHelpers::RequireClass_1::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_TestHelpers::RequireClass_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_TestHelpers::RequireClass_1<T>*, creationType>()));
     }
   }; // HoudiniEngineUnity.HEU_TestHelpers/HoudiniEngineUnity.RequireClass`1

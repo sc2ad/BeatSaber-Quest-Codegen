@@ -21,8 +21,8 @@ namespace UnityEngine {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HMUI::IconSegmentedControl::DataItem);
-DEFINE_IL2CPP_ARG_TYPE(HMUI::IconSegmentedControl::DataItem*, "HMUI", "IconSegmentedControl/DataItem");
+NEED_NO_BOX(::HMUI::IconSegmentedControl::DataItem);
+DEFINE_IL2CPP_ARG_TYPE(::HMUI::IconSegmentedControl::DataItem*, "HMUI", "IconSegmentedControl/DataItem");
 // Type namespace: HMUI
 namespace HMUI {
   // Size: 0x20
@@ -43,9 +43,9 @@ namespace HMUI {
     // private UnityEngine.Sprite <icon>k__BackingField
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::Sprite* icon;
+    ::UnityEngine::Sprite* icon;
     // Field size check
-    static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Sprite*) == 0x8);
     // private System.String <hintText>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -54,15 +54,15 @@ namespace HMUI {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.Sprite <icon>k__BackingField
-    UnityEngine::Sprite*& dyn_$icon$k__BackingField();
+    ::UnityEngine::Sprite*& dyn_$icon$k__BackingField();
     // Get instance field reference: private System.String <hintText>k__BackingField
     ::StringW& dyn_$hintText$k__BackingField();
     // public UnityEngine.Sprite get_icon()
     // Offset: 0x16769A0
-    UnityEngine::Sprite* get_icon();
+    ::UnityEngine::Sprite* get_icon();
     // private System.Void set_icon(UnityEngine.Sprite value)
     // Offset: 0x16769A8
-    void set_icon(UnityEngine::Sprite* value);
+    void set_icon(::UnityEngine::Sprite* value);
     // public System.String get_hintText()
     // Offset: 0x16769B0
     ::StringW get_hintText();
@@ -72,8 +72,8 @@ namespace HMUI {
     // public System.Void .ctor(UnityEngine.Sprite icon, System.String hintText)
     // Offset: 0x16769C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static IconSegmentedControl::DataItem* New_ctor(UnityEngine::Sprite* icon, ::StringW hintText) {
-      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::IconSegmentedControl::DataItem::.ctor");
+    static IconSegmentedControl::DataItem* New_ctor(::UnityEngine::Sprite* icon, ::StringW hintText) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::IconSegmentedControl::DataItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IconSegmentedControl::DataItem*, creationType>(icon, hintText)));
     }
   }; // HMUI.IconSegmentedControl/HMUI.DataItem
@@ -85,7 +85,7 @@ namespace HMUI {
 // Writing MetadataGetter for method: HMUI::IconSegmentedControl::DataItem::get_icon
 // Il2CppName: get_icon
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (HMUI::IconSegmentedControl::DataItem::*)()>(&HMUI::IconSegmentedControl::DataItem::get_icon)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Sprite* (HMUI::IconSegmentedControl::DataItem::*)()>(&HMUI::IconSegmentedControl::DataItem::get_icon)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::IconSegmentedControl::DataItem*), "get_icon", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -93,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HMUI::IconSegmentedControl::DataItem::set_icon
 // Il2CppName: set_icon
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::IconSegmentedControl::DataItem::*)(UnityEngine::Sprite*)>(&HMUI::IconSegmentedControl::DataItem::set_icon)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::IconSegmentedControl::DataItem::*)(::UnityEngine::Sprite*)>(&HMUI::IconSegmentedControl::DataItem::set_icon)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Sprite")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::IconSegmentedControl::DataItem*), "set_icon", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

@@ -18,8 +18,8 @@ namespace System::Runtime::InteropServices {
   class ComVisibleAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::InteropServices::ComVisibleAttribute);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::ComVisibleAttribute*, "System.Runtime.InteropServices", "ComVisibleAttribute");
+NEED_NO_BOX(::System::Runtime::InteropServices::ComVisibleAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::InteropServices::ComVisibleAttribute*, "System.Runtime.InteropServices", "ComVisibleAttribute");
 // Type namespace: System.Runtime.InteropServices
 namespace System::Runtime::InteropServices {
   // Size: 0x11
@@ -28,7 +28,7 @@ namespace System::Runtime::InteropServices {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: 118B7A0
   // [AttributeUsageAttribute] Offset: 118B7A0
-  class ComVisibleAttribute : public System::Attribute {
+  class ComVisibleAttribute : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -56,7 +56,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x1C6BB70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ComVisibleAttribute* New_ctor(bool visibility) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::ComVisibleAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::InteropServices::ComVisibleAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ComVisibleAttribute*, creationType>(visibility)));
     }
   }; // System.Runtime.InteropServices.ComVisibleAttribute

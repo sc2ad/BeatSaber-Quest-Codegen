@@ -30,8 +30,8 @@ namespace System {
   class ThrowHelper;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::ThrowHelper);
-DEFINE_IL2CPP_ARG_TYPE(System::ThrowHelper*, "System", "ThrowHelper");
+NEED_NO_BOX(::System::ThrowHelper);
+DEFINE_IL2CPP_ARG_TYPE(::System::ThrowHelper*, "System", "ThrowHelper");
 // Type namespace: System
 namespace System {
   // Size: 0x10
@@ -42,70 +42,70 @@ namespace System {
     public:
     // static System.Void ThrowArgumentNullException(System.ExceptionArgument argument)
     // Offset: 0x1CE479C
-    static void ThrowArgumentNullException(System::ExceptionArgument argument);
+    static void ThrowArgumentNullException(::System::ExceptionArgument argument);
     // static private System.Exception CreateArgumentNullException(System.ExceptionArgument argument)
     // Offset: 0x1CE47E8
-    static System::Exception* CreateArgumentNullException(System::ExceptionArgument argument);
+    static ::System::Exception* CreateArgumentNullException(::System::ExceptionArgument argument);
     // static System.Void ThrowArrayTypeMismatchException_ArrayTypeMustBeExactMatch(System.Type type)
     // Offset: 0x1CE4894
-    static void ThrowArrayTypeMismatchException_ArrayTypeMustBeExactMatch(System::Type* type);
+    static void ThrowArrayTypeMismatchException_ArrayTypeMustBeExactMatch(::System::Type* type);
     // static private System.Exception CreateArrayTypeMismatchException_ArrayTypeMustBeExactMatch(System.Type type)
     // Offset: 0x1CE48E0
-    static System::Exception* CreateArrayTypeMismatchException_ArrayTypeMustBeExactMatch(System::Type* type);
+    static ::System::Exception* CreateArrayTypeMismatchException_ArrayTypeMustBeExactMatch(::System::Type* type);
     // static System.Void ThrowArgumentException_InvalidTypeWithPointersNotSupported(System.Type type)
     // Offset: 0x1CE4964
-    static void ThrowArgumentException_InvalidTypeWithPointersNotSupported(System::Type* type);
+    static void ThrowArgumentException_InvalidTypeWithPointersNotSupported(::System::Type* type);
     // static private System.Exception CreateArgumentException_InvalidTypeWithPointersNotSupported(System.Type type)
     // Offset: 0x1CE49B0
-    static System::Exception* CreateArgumentException_InvalidTypeWithPointersNotSupported(System::Type* type);
+    static ::System::Exception* CreateArgumentException_InvalidTypeWithPointersNotSupported(::System::Type* type);
     // static System.Void ThrowIndexOutOfRangeException()
     // Offset: 0x1CE4A34
     static void ThrowIndexOutOfRangeException();
     // static private System.Exception CreateIndexOutOfRangeException()
     // Offset: 0x1CE4A78
-    static System::Exception* CreateIndexOutOfRangeException();
+    static ::System::Exception* CreateIndexOutOfRangeException();
     // static System.Void ThrowArgumentOutOfRangeException(System.ExceptionArgument argument)
     // Offset: 0x1CE4AD4
-    static void ThrowArgumentOutOfRangeException(System::ExceptionArgument argument);
+    static void ThrowArgumentOutOfRangeException(::System::ExceptionArgument argument);
     // static private System.Exception CreateArgumentOutOfRangeException(System.ExceptionArgument argument)
     // Offset: 0x1CE4B20
-    static System::Exception* CreateArgumentOutOfRangeException(System::ExceptionArgument argument);
+    static ::System::Exception* CreateArgumentOutOfRangeException(::System::ExceptionArgument argument);
     // static System.Void ThrowArgumentOutOfRangeException()
     // Offset: 0x1CE4BCC
     static void ThrowArgumentOutOfRangeException();
     // static System.Void ThrowWrongValueTypeArgumentException(System.Object value, System.Type targetType)
     // Offset: 0x1CE4CB4
-    static void ThrowWrongValueTypeArgumentException(::Il2CppObject* value, System::Type* targetType);
+    static void ThrowWrongValueTypeArgumentException(::Il2CppObject* value, ::System::Type* targetType);
     // static System.Void ThrowKeyNotFoundException()
     // Offset: 0x1CE4DAC
     static void ThrowKeyNotFoundException();
     // static System.Void ThrowArgumentException(System.ExceptionResource resource)
     // Offset: 0x1CE4E0C
-    static void ThrowArgumentException(System::ExceptionResource resource);
+    static void ThrowArgumentException(::System::ExceptionResource resource);
     // static System.Void ThrowArgumentOutOfRangeException(System.ExceptionArgument argument, System.ExceptionResource resource)
     // Offset: 0x1CE4BE0
-    static void ThrowArgumentOutOfRangeException(System::ExceptionArgument argument, System::ExceptionResource resource);
+    static void ThrowArgumentOutOfRangeException(::System::ExceptionArgument argument, ::System::ExceptionResource resource);
     // static System.Void ThrowInvalidOperationException(System.ExceptionResource resource)
     // Offset: 0x1CE4F64
-    static void ThrowInvalidOperationException(System::ExceptionResource resource);
+    static void ThrowInvalidOperationException(::System::ExceptionResource resource);
     // static System.Void ThrowNotSupportedException(System.ExceptionResource resource)
     // Offset: 0x1CE4FE4
-    static void ThrowNotSupportedException(System::ExceptionResource resource);
+    static void ThrowNotSupportedException(::System::ExceptionResource resource);
     // static System.Void IfNullAndNullsAreIllegalThenThrow(System.Object value, System.ExceptionArgument argName)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static void IfNullAndNullsAreIllegalThenThrow(::Il2CppObject* value, System::ExceptionArgument argName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::ThrowHelper::IfNullAndNullsAreIllegalThenThrow");
+    static void IfNullAndNullsAreIllegalThenThrow(::Il2CppObject* value, ::System::ExceptionArgument argName) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::ThrowHelper::IfNullAndNullsAreIllegalThenThrow");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "ThrowHelper", "IfNullAndNullsAreIllegalThenThrow", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value), ::il2cpp_utils::ExtractType(argName)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, value, argName);
     }
     // static System.String GetArgumentName(System.ExceptionArgument argument)
     // Offset: 0x1CE4EF8
-    static ::StringW GetArgumentName(System::ExceptionArgument argument);
+    static ::StringW GetArgumentName(::System::ExceptionArgument argument);
     // static System.String GetResourceName(System.ExceptionResource resource)
     // Offset: 0x1CE4E8C
-    static ::StringW GetResourceName(System::ExceptionResource resource);
+    static ::StringW GetResourceName(::System::ExceptionResource resource);
   }; // System.ThrowHelper
   #pragma pack(pop)
 }
@@ -113,7 +113,7 @@ namespace System {
 // Writing MetadataGetter for method: System::ThrowHelper::ThrowArgumentNullException
 // Il2CppName: ThrowArgumentNullException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::ExceptionArgument)>(&System::ThrowHelper::ThrowArgumentNullException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::ExceptionArgument)>(&System::ThrowHelper::ThrowArgumentNullException)> {
   static const MethodInfo* get() {
     static auto* argument = &::il2cpp_utils::GetClassFromName("System", "ExceptionArgument")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ThrowHelper*), "ThrowArgumentNullException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{argument});
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::ThrowHelper::CreateArgumentNullException
 // Il2CppName: CreateArgumentNullException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(System::ExceptionArgument)>(&System::ThrowHelper::CreateArgumentNullException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::ExceptionArgument)>(&System::ThrowHelper::CreateArgumentNullException)> {
   static const MethodInfo* get() {
     static auto* argument = &::il2cpp_utils::GetClassFromName("System", "ExceptionArgument")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ThrowHelper*), "CreateArgumentNullException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{argument});
@@ -131,7 +131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::ThrowHelper::ThrowArrayTypeMismatchException_ArrayTypeMustBeExactMatch
 // Il2CppName: ThrowArrayTypeMismatchException_ArrayTypeMustBeExactMatch
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Type*)>(&System::ThrowHelper::ThrowArrayTypeMismatchException_ArrayTypeMustBeExactMatch)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*)>(&System::ThrowHelper::ThrowArrayTypeMismatchException_ArrayTypeMustBeExactMatch)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ThrowHelper*), "ThrowArrayTypeMismatchException_ArrayTypeMustBeExactMatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -140,7 +140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::ThrowHelper::CreateArrayTypeMismatchException_ArrayTypeMustBeExactMatch
 // Il2CppName: CreateArrayTypeMismatchException_ArrayTypeMustBeExactMatch
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(System::Type*)>(&System::ThrowHelper::CreateArrayTypeMismatchException_ArrayTypeMustBeExactMatch)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Type*)>(&System::ThrowHelper::CreateArrayTypeMismatchException_ArrayTypeMustBeExactMatch)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ThrowHelper*), "CreateArrayTypeMismatchException_ArrayTypeMustBeExactMatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -149,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::ThrowHelper::ThrowArgumentException_InvalidTypeWithPointersNotSupported
 // Il2CppName: ThrowArgumentException_InvalidTypeWithPointersNotSupported
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Type*)>(&System::ThrowHelper::ThrowArgumentException_InvalidTypeWithPointersNotSupported)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*)>(&System::ThrowHelper::ThrowArgumentException_InvalidTypeWithPointersNotSupported)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ThrowHelper*), "ThrowArgumentException_InvalidTypeWithPointersNotSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -158,7 +158,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::ThrowHelper::CreateArgumentException_InvalidTypeWithPointersNotSupported
 // Il2CppName: CreateArgumentException_InvalidTypeWithPointersNotSupported
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(System::Type*)>(&System::ThrowHelper::CreateArgumentException_InvalidTypeWithPointersNotSupported)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Type*)>(&System::ThrowHelper::CreateArgumentException_InvalidTypeWithPointersNotSupported)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ThrowHelper*), "CreateArgumentException_InvalidTypeWithPointersNotSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -175,7 +175,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::ThrowHelper::CreateIndexOutOfRangeException
 // Il2CppName: CreateIndexOutOfRangeException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::ThrowHelper::CreateIndexOutOfRangeException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::ThrowHelper::CreateIndexOutOfRangeException)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::ThrowHelper*), "CreateIndexOutOfRangeException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -183,7 +183,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::ThrowHelper::ThrowArgumentOutOfRangeException
 // Il2CppName: ThrowArgumentOutOfRangeException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::ExceptionArgument)>(&System::ThrowHelper::ThrowArgumentOutOfRangeException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::ExceptionArgument)>(&System::ThrowHelper::ThrowArgumentOutOfRangeException)> {
   static const MethodInfo* get() {
     static auto* argument = &::il2cpp_utils::GetClassFromName("System", "ExceptionArgument")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ThrowHelper*), "ThrowArgumentOutOfRangeException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{argument});
@@ -192,7 +192,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::ThrowHelper::CreateArgumentOutOfRangeException
 // Il2CppName: CreateArgumentOutOfRangeException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(System::ExceptionArgument)>(&System::ThrowHelper::CreateArgumentOutOfRangeException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::ExceptionArgument)>(&System::ThrowHelper::CreateArgumentOutOfRangeException)> {
   static const MethodInfo* get() {
     static auto* argument = &::il2cpp_utils::GetClassFromName("System", "ExceptionArgument")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ThrowHelper*), "CreateArgumentOutOfRangeException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{argument});
@@ -209,7 +209,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::ThrowHelper::ThrowWrongValueTypeArgumentException
 // Il2CppName: ThrowWrongValueTypeArgumentException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, System::Type*)>(&System::ThrowHelper::ThrowWrongValueTypeArgumentException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::System::Type*)>(&System::ThrowHelper::ThrowWrongValueTypeArgumentException)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* targetType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -227,7 +227,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::ThrowHelper::ThrowArgumentException
 // Il2CppName: ThrowArgumentException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::ExceptionResource)>(&System::ThrowHelper::ThrowArgumentException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::ExceptionResource)>(&System::ThrowHelper::ThrowArgumentException)> {
   static const MethodInfo* get() {
     static auto* resource = &::il2cpp_utils::GetClassFromName("System", "ExceptionResource")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ThrowHelper*), "ThrowArgumentException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resource});
@@ -236,7 +236,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::ThrowHelper::ThrowArgumentOutOfRangeException
 // Il2CppName: ThrowArgumentOutOfRangeException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::ExceptionArgument, System::ExceptionResource)>(&System::ThrowHelper::ThrowArgumentOutOfRangeException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::ExceptionArgument, ::System::ExceptionResource)>(&System::ThrowHelper::ThrowArgumentOutOfRangeException)> {
   static const MethodInfo* get() {
     static auto* argument = &::il2cpp_utils::GetClassFromName("System", "ExceptionArgument")->byval_arg;
     static auto* resource = &::il2cpp_utils::GetClassFromName("System", "ExceptionResource")->byval_arg;
@@ -246,7 +246,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::ThrowHelper::ThrowInvalidOperationException
 // Il2CppName: ThrowInvalidOperationException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::ExceptionResource)>(&System::ThrowHelper::ThrowInvalidOperationException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::ExceptionResource)>(&System::ThrowHelper::ThrowInvalidOperationException)> {
   static const MethodInfo* get() {
     static auto* resource = &::il2cpp_utils::GetClassFromName("System", "ExceptionResource")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ThrowHelper*), "ThrowInvalidOperationException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resource});
@@ -255,7 +255,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::ThrowHelper::ThrowNotSupportedException
 // Il2CppName: ThrowNotSupportedException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::ExceptionResource)>(&System::ThrowHelper::ThrowNotSupportedException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::ExceptionResource)>(&System::ThrowHelper::ThrowNotSupportedException)> {
   static const MethodInfo* get() {
     static auto* resource = &::il2cpp_utils::GetClassFromName("System", "ExceptionResource")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ThrowHelper*), "ThrowNotSupportedException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resource});
@@ -267,7 +267,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::ThrowHelper::GetArgumentName
 // Il2CppName: GetArgumentName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::ExceptionArgument)>(&System::ThrowHelper::GetArgumentName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::ExceptionArgument)>(&System::ThrowHelper::GetArgumentName)> {
   static const MethodInfo* get() {
     static auto* argument = &::il2cpp_utils::GetClassFromName("System", "ExceptionArgument")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ThrowHelper*), "GetArgumentName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{argument});
@@ -276,7 +276,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::ThrowHelper::GetResourceName
 // Il2CppName: GetResourceName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::ExceptionResource)>(&System::ThrowHelper::GetResourceName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::ExceptionResource)>(&System::ThrowHelper::GetResourceName)> {
   static const MethodInfo* get() {
     static auto* resource = &::il2cpp_utils::GetClassFromName("System", "ExceptionResource")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ThrowHelper*), "GetResourceName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resource});

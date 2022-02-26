@@ -27,8 +27,8 @@ namespace UnityEngine {
   class Avatar;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Avatar);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Avatar*, "UnityEngine", "Avatar");
+NEED_NO_BOX(::UnityEngine::Avatar);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Avatar*, "UnityEngine", "Avatar");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -37,7 +37,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NativeHeaderAttribute] Offset: 11BF6E8
   // [UsedByNativeCodeAttribute] Offset: 11BF6E8
-  class Avatar : public UnityEngine::Object {
+  class Avatar : public ::UnityEngine::Object {
     public:
     // public System.Boolean get_isValid()
     // Offset: 0x29AD214
@@ -47,7 +47,7 @@ namespace UnityEngine {
     bool get_isHuman();
     // public UnityEngine.HumanDescription get_humanDescription()
     // Offset: 0x29AD294
-    UnityEngine::HumanDescription get_humanDescription();
+    ::UnityEngine::HumanDescription get_humanDescription();
     // System.Void SetMuscleMinMax(System.Int32 muscleId, System.Single min, System.Single max)
     // Offset: 0x29AD35C
     void SetMuscleMinMax(int muscleId, float min, float max);
@@ -59,55 +59,55 @@ namespace UnityEngine {
     float GetAxisLength(int humanId);
     // UnityEngine.Quaternion GetPreRotation(System.Int32 humanId)
     // Offset: 0x29AD4F0
-    UnityEngine::Quaternion GetPreRotation(int humanId);
+    ::UnityEngine::Quaternion GetPreRotation(int humanId);
     // UnityEngine.Quaternion GetPostRotation(System.Int32 humanId)
     // Offset: 0x29AD5B4
-    UnityEngine::Quaternion GetPostRotation(int humanId);
+    ::UnityEngine::Quaternion GetPostRotation(int humanId);
     // UnityEngine.Quaternion GetZYPostQ(System.Int32 humanId, UnityEngine.Quaternion parentQ, UnityEngine.Quaternion q)
     // Offset: 0x29AD678
-    UnityEngine::Quaternion GetZYPostQ(int humanId, UnityEngine::Quaternion parentQ, UnityEngine::Quaternion q);
+    ::UnityEngine::Quaternion GetZYPostQ(int humanId, ::UnityEngine::Quaternion parentQ, ::UnityEngine::Quaternion q);
     // UnityEngine.Quaternion GetZYRoll(System.Int32 humanId, UnityEngine.Vector3 uvw)
     // Offset: 0x29AD7B4
-    UnityEngine::Quaternion GetZYRoll(int humanId, UnityEngine::Vector3 uvw);
+    ::UnityEngine::Quaternion GetZYRoll(int humanId, ::UnityEngine::Vector3 uvw);
     // UnityEngine.Vector3 GetLimitSign(System.Int32 humanId)
     // Offset: 0x29AD8AC
-    UnityEngine::Vector3 GetLimitSign(int humanId);
+    ::UnityEngine::Vector3 GetLimitSign(int humanId);
     // System.Single Internal_GetAxisLength(System.Int32 humanId)
     // Offset: 0x29AD4A0
     float Internal_GetAxisLength(int humanId);
     // UnityEngine.Quaternion Internal_GetPreRotation(System.Int32 humanId)
     // Offset: 0x29AD548
-    UnityEngine::Quaternion Internal_GetPreRotation(int humanId);
+    ::UnityEngine::Quaternion Internal_GetPreRotation(int humanId);
     // UnityEngine.Quaternion Internal_GetPostRotation(System.Int32 humanId)
     // Offset: 0x29AD60C
-    UnityEngine::Quaternion Internal_GetPostRotation(int humanId);
+    ::UnityEngine::Quaternion Internal_GetPostRotation(int humanId);
     // UnityEngine.Quaternion Internal_GetZYPostQ(System.Int32 humanId, UnityEngine.Quaternion parentQ, UnityEngine.Quaternion q)
     // Offset: 0x29AD730
-    UnityEngine::Quaternion Internal_GetZYPostQ(int humanId, UnityEngine::Quaternion parentQ, UnityEngine::Quaternion q);
+    ::UnityEngine::Quaternion Internal_GetZYPostQ(int humanId, ::UnityEngine::Quaternion parentQ, ::UnityEngine::Quaternion q);
     // UnityEngine.Quaternion Internal_GetZYRoll(System.Int32 humanId, UnityEngine.Vector3 uvw)
     // Offset: 0x29AD834
-    UnityEngine::Quaternion Internal_GetZYRoll(int humanId, UnityEngine::Vector3 uvw);
+    ::UnityEngine::Quaternion Internal_GetZYRoll(int humanId, ::UnityEngine::Vector3 uvw);
     // UnityEngine.Vector3 Internal_GetLimitSign(System.Int32 humanId)
     // Offset: 0x29AD904
-    UnityEngine::Vector3 Internal_GetLimitSign(int humanId);
+    ::UnityEngine::Vector3 Internal_GetLimitSign(int humanId);
     // private System.Void get_humanDescription_Injected(out UnityEngine.HumanDescription ret)
     // Offset: 0x29AD30C
-    void get_humanDescription_Injected(ByRef<UnityEngine::HumanDescription> ret);
+    void get_humanDescription_Injected(ByRef<::UnityEngine::HumanDescription> ret);
     // private System.Void Internal_GetPreRotation_Injected(System.Int32 humanId, out UnityEngine.Quaternion ret)
     // Offset: 0x29AD974
-    void Internal_GetPreRotation_Injected(int humanId, ByRef<UnityEngine::Quaternion> ret);
+    void Internal_GetPreRotation_Injected(int humanId, ByRef<::UnityEngine::Quaternion> ret);
     // private System.Void Internal_GetPostRotation_Injected(System.Int32 humanId, out UnityEngine.Quaternion ret)
     // Offset: 0x29AD9CC
-    void Internal_GetPostRotation_Injected(int humanId, ByRef<UnityEngine::Quaternion> ret);
+    void Internal_GetPostRotation_Injected(int humanId, ByRef<::UnityEngine::Quaternion> ret);
     // private System.Void Internal_GetZYPostQ_Injected(System.Int32 humanId, ref UnityEngine.Quaternion parentQ, ref UnityEngine.Quaternion q, out UnityEngine.Quaternion ret)
     // Offset: 0x29ADA24
-    void Internal_GetZYPostQ_Injected(int humanId, ByRef<UnityEngine::Quaternion> parentQ, ByRef<UnityEngine::Quaternion> q, ByRef<UnityEngine::Quaternion> ret);
+    void Internal_GetZYPostQ_Injected(int humanId, ByRef<::UnityEngine::Quaternion> parentQ, ByRef<::UnityEngine::Quaternion> q, ByRef<::UnityEngine::Quaternion> ret);
     // private System.Void Internal_GetZYRoll_Injected(System.Int32 humanId, ref UnityEngine.Vector3 uvw, out UnityEngine.Quaternion ret)
     // Offset: 0x29ADA94
-    void Internal_GetZYRoll_Injected(int humanId, ByRef<UnityEngine::Vector3> uvw, ByRef<UnityEngine::Quaternion> ret);
+    void Internal_GetZYRoll_Injected(int humanId, ByRef<::UnityEngine::Vector3> uvw, ByRef<::UnityEngine::Quaternion> ret);
     // private System.Void Internal_GetLimitSign_Injected(System.Int32 humanId, out UnityEngine.Vector3 ret)
     // Offset: 0x29ADAFC
-    void Internal_GetLimitSign_Injected(int humanId, ByRef<UnityEngine::Vector3> ret);
+    void Internal_GetLimitSign_Injected(int humanId, ByRef<::UnityEngine::Vector3> ret);
     // private System.Void .ctor()
     // Offset: 0x29AD1AC
     // Implemented from: UnityEngine.Object
@@ -115,7 +115,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Avatar* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Avatar::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Avatar::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Avatar*, creationType>()));
     }
   }; // UnityEngine.Avatar
@@ -141,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::Avatar::get_humanDescription
 // Il2CppName: get_humanDescription
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::HumanDescription (UnityEngine::Avatar::*)()>(&UnityEngine::Avatar::get_humanDescription)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::HumanDescription (UnityEngine::Avatar::*)()>(&UnityEngine::Avatar::get_humanDescription)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Avatar*), "get_humanDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -179,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Writing MetadataGetter for method: UnityEngine::Avatar::GetPreRotation
 // Il2CppName: GetPreRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (UnityEngine::Avatar::*)(int)>(&UnityEngine::Avatar::GetPreRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (UnityEngine::Avatar::*)(int)>(&UnityEngine::Avatar::GetPreRotation)> {
   static const MethodInfo* get() {
     static auto* humanId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Avatar*), "GetPreRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{humanId});
@@ -188,7 +188,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Avatar::GetPostRotation
 // Il2CppName: GetPostRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (UnityEngine::Avatar::*)(int)>(&UnityEngine::Avatar::GetPostRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (UnityEngine::Avatar::*)(int)>(&UnityEngine::Avatar::GetPostRotation)> {
   static const MethodInfo* get() {
     static auto* humanId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Avatar*), "GetPostRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{humanId});
@@ -197,7 +197,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Avatar::GetZYPostQ
 // Il2CppName: GetZYPostQ
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (UnityEngine::Avatar::*)(int, UnityEngine::Quaternion, UnityEngine::Quaternion)>(&UnityEngine::Avatar::GetZYPostQ)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (UnityEngine::Avatar::*)(int, ::UnityEngine::Quaternion, ::UnityEngine::Quaternion)>(&UnityEngine::Avatar::GetZYPostQ)> {
   static const MethodInfo* get() {
     static auto* humanId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* parentQ = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
@@ -208,7 +208,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Avatar::GetZYRoll
 // Il2CppName: GetZYRoll
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (UnityEngine::Avatar::*)(int, UnityEngine::Vector3)>(&UnityEngine::Avatar::GetZYRoll)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (UnityEngine::Avatar::*)(int, ::UnityEngine::Vector3)>(&UnityEngine::Avatar::GetZYRoll)> {
   static const MethodInfo* get() {
     static auto* humanId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* uvw = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -218,7 +218,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Avatar::GetLimitSign
 // Il2CppName: GetLimitSign
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Avatar::*)(int)>(&UnityEngine::Avatar::GetLimitSign)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (UnityEngine::Avatar::*)(int)>(&UnityEngine::Avatar::GetLimitSign)> {
   static const MethodInfo* get() {
     static auto* humanId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Avatar*), "GetLimitSign", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{humanId});
@@ -236,7 +236,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Writing MetadataGetter for method: UnityEngine::Avatar::Internal_GetPreRotation
 // Il2CppName: Internal_GetPreRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (UnityEngine::Avatar::*)(int)>(&UnityEngine::Avatar::Internal_GetPreRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (UnityEngine::Avatar::*)(int)>(&UnityEngine::Avatar::Internal_GetPreRotation)> {
   static const MethodInfo* get() {
     static auto* humanId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Avatar*), "Internal_GetPreRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{humanId});
@@ -245,7 +245,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Avatar::Internal_GetPostRotation
 // Il2CppName: Internal_GetPostRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (UnityEngine::Avatar::*)(int)>(&UnityEngine::Avatar::Internal_GetPostRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (UnityEngine::Avatar::*)(int)>(&UnityEngine::Avatar::Internal_GetPostRotation)> {
   static const MethodInfo* get() {
     static auto* humanId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Avatar*), "Internal_GetPostRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{humanId});
@@ -254,7 +254,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Avatar::Internal_GetZYPostQ
 // Il2CppName: Internal_GetZYPostQ
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (UnityEngine::Avatar::*)(int, UnityEngine::Quaternion, UnityEngine::Quaternion)>(&UnityEngine::Avatar::Internal_GetZYPostQ)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (UnityEngine::Avatar::*)(int, ::UnityEngine::Quaternion, ::UnityEngine::Quaternion)>(&UnityEngine::Avatar::Internal_GetZYPostQ)> {
   static const MethodInfo* get() {
     static auto* humanId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* parentQ = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
@@ -265,7 +265,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Avatar::Internal_GetZYRoll
 // Il2CppName: Internal_GetZYRoll
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (UnityEngine::Avatar::*)(int, UnityEngine::Vector3)>(&UnityEngine::Avatar::Internal_GetZYRoll)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (UnityEngine::Avatar::*)(int, ::UnityEngine::Vector3)>(&UnityEngine::Avatar::Internal_GetZYRoll)> {
   static const MethodInfo* get() {
     static auto* humanId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* uvw = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -275,7 +275,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Avatar::Internal_GetLimitSign
 // Il2CppName: Internal_GetLimitSign
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Avatar::*)(int)>(&UnityEngine::Avatar::Internal_GetLimitSign)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (UnityEngine::Avatar::*)(int)>(&UnityEngine::Avatar::Internal_GetLimitSign)> {
   static const MethodInfo* get() {
     static auto* humanId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Avatar*), "Internal_GetLimitSign", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{humanId});
@@ -284,7 +284,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Avatar::get_humanDescription_Injected
 // Il2CppName: get_humanDescription_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Avatar::*)(ByRef<UnityEngine::HumanDescription>)>(&UnityEngine::Avatar::get_humanDescription_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Avatar::*)(ByRef<::UnityEngine::HumanDescription>)>(&UnityEngine::Avatar::get_humanDescription_Injected)> {
   static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "HumanDescription")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Avatar*), "get_humanDescription_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
@@ -293,7 +293,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Avatar::Internal_GetPreRotation_Injected
 // Il2CppName: Internal_GetPreRotation_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Avatar::*)(int, ByRef<UnityEngine::Quaternion>)>(&UnityEngine::Avatar::Internal_GetPreRotation_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Avatar::*)(int, ByRef<::UnityEngine::Quaternion>)>(&UnityEngine::Avatar::Internal_GetPreRotation_Injected)> {
   static const MethodInfo* get() {
     static auto* humanId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->this_arg;
@@ -303,7 +303,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Avatar::Internal_GetPostRotation_Injected
 // Il2CppName: Internal_GetPostRotation_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Avatar::*)(int, ByRef<UnityEngine::Quaternion>)>(&UnityEngine::Avatar::Internal_GetPostRotation_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Avatar::*)(int, ByRef<::UnityEngine::Quaternion>)>(&UnityEngine::Avatar::Internal_GetPostRotation_Injected)> {
   static const MethodInfo* get() {
     static auto* humanId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->this_arg;
@@ -313,7 +313,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Avatar::Internal_GetZYPostQ_Injected
 // Il2CppName: Internal_GetZYPostQ_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Avatar::*)(int, ByRef<UnityEngine::Quaternion>, ByRef<UnityEngine::Quaternion>, ByRef<UnityEngine::Quaternion>)>(&UnityEngine::Avatar::Internal_GetZYPostQ_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Avatar::*)(int, ByRef<::UnityEngine::Quaternion>, ByRef<::UnityEngine::Quaternion>, ByRef<::UnityEngine::Quaternion>)>(&UnityEngine::Avatar::Internal_GetZYPostQ_Injected)> {
   static const MethodInfo* get() {
     static auto* humanId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* parentQ = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->this_arg;
@@ -325,7 +325,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Avatar::Internal_GetZYRoll_Injected
 // Il2CppName: Internal_GetZYRoll_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Avatar::*)(int, ByRef<UnityEngine::Vector3>, ByRef<UnityEngine::Quaternion>)>(&UnityEngine::Avatar::Internal_GetZYRoll_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Avatar::*)(int, ByRef<::UnityEngine::Vector3>, ByRef<::UnityEngine::Quaternion>)>(&UnityEngine::Avatar::Internal_GetZYRoll_Injected)> {
   static const MethodInfo* get() {
     static auto* humanId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* uvw = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
@@ -336,7 +336,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Avatar::Internal_GetLimitSign_Injected
 // Il2CppName: Internal_GetLimitSign_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Avatar::*)(int, ByRef<UnityEngine::Vector3>)>(&UnityEngine::Avatar::Internal_GetLimitSign_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Avatar::*)(int, ByRef<::UnityEngine::Vector3>)>(&UnityEngine::Avatar::Internal_GetLimitSign_Injected)> {
   static const MethodInfo* get() {
     static auto* humanId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;

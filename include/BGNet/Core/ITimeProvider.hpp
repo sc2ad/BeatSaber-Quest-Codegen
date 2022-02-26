@@ -24,8 +24,8 @@ namespace BGNet::Core {
   class ITimeProvider;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(BGNet::Core::ITimeProvider);
-DEFINE_IL2CPP_ARG_TYPE(BGNet::Core::ITimeProvider*, "BGNet.Core", "ITimeProvider");
+NEED_NO_BOX(::BGNet::Core::ITimeProvider);
+DEFINE_IL2CPP_ARG_TYPE(::BGNet::Core::ITimeProvider*, "BGNet.Core", "ITimeProvider");
 // Type namespace: BGNet.Core
 namespace BGNet::Core {
   // Size: 0x10
@@ -39,7 +39,7 @@ namespace BGNet::Core {
     int64_t GetTimeMs();
     // public System.Threading.Tasks.Task DelayMs(System.Int32 millis, System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF
-    System::Threading::Tasks::Task* DelayMs(int millis, System::Threading::CancellationToken cancellationToken);
+    ::System::Threading::Tasks::Task* DelayMs(int millis, ::System::Threading::CancellationToken cancellationToken);
   }; // BGNet.Core.ITimeProvider
   #pragma pack(pop)
 }
@@ -55,7 +55,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (BG
 // Writing MetadataGetter for method: BGNet::Core::ITimeProvider::DelayMs
 // Il2CppName: DelayMs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (BGNet::Core::ITimeProvider::*)(int, System::Threading::CancellationToken)>(&BGNet::Core::ITimeProvider::DelayMs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (BGNet::Core::ITimeProvider::*)(int, ::System::Threading::CancellationToken)>(&BGNet::Core::ITimeProvider::DelayMs)> {
   static const MethodInfo* get() {
     static auto* millis = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;

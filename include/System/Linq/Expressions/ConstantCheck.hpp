@@ -28,8 +28,8 @@ namespace System::Linq::Expressions {
   class ConstantCheck;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Linq::Expressions::ConstantCheck);
-DEFINE_IL2CPP_ARG_TYPE(System::Linq::Expressions::ConstantCheck*, "System.Linq.Expressions", "ConstantCheck");
+NEED_NO_BOX(::System::Linq::Expressions::ConstantCheck);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::ConstantCheck*, "System.Linq.Expressions", "ConstantCheck");
 // Type namespace: System.Linq.Expressions
 namespace System::Linq::Expressions {
   // Size: 0x10
@@ -40,10 +40,10 @@ namespace System::Linq::Expressions {
     public:
     // static System.Linq.Expressions.AnalyzeTypeIsResult AnalyzeTypeIs(System.Linq.Expressions.TypeBinaryExpression typeIs)
     // Offset: 0x15FB274
-    static System::Linq::Expressions::AnalyzeTypeIsResult AnalyzeTypeIs(System::Linq::Expressions::TypeBinaryExpression* typeIs);
+    static ::System::Linq::Expressions::AnalyzeTypeIsResult AnalyzeTypeIs(::System::Linq::Expressions::TypeBinaryExpression* typeIs);
     // static private System.Linq.Expressions.AnalyzeTypeIsResult AnalyzeTypeIs(System.Linq.Expressions.Expression operand, System.Type testType)
     // Offset: 0x15FB290
-    static System::Linq::Expressions::AnalyzeTypeIsResult AnalyzeTypeIs(System::Linq::Expressions::Expression* operand, System::Type* testType);
+    static ::System::Linq::Expressions::AnalyzeTypeIsResult AnalyzeTypeIs(::System::Linq::Expressions::Expression* operand, ::System::Type* testType);
   }; // System.Linq.Expressions.ConstantCheck
   #pragma pack(pop)
 }
@@ -51,7 +51,7 @@ namespace System::Linq::Expressions {
 // Writing MetadataGetter for method: System::Linq::Expressions::ConstantCheck::AnalyzeTypeIs
 // Il2CppName: AnalyzeTypeIs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Linq::Expressions::AnalyzeTypeIsResult (*)(System::Linq::Expressions::TypeBinaryExpression*)>(&System::Linq::Expressions::ConstantCheck::AnalyzeTypeIs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::AnalyzeTypeIsResult (*)(::System::Linq::Expressions::TypeBinaryExpression*)>(&System::Linq::Expressions::ConstantCheck::AnalyzeTypeIs)> {
   static const MethodInfo* get() {
     static auto* typeIs = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "TypeBinaryExpression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::ConstantCheck*), "AnalyzeTypeIs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{typeIs});
@@ -60,7 +60,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Lin
 // Writing MetadataGetter for method: System::Linq::Expressions::ConstantCheck::AnalyzeTypeIs
 // Il2CppName: AnalyzeTypeIs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Linq::Expressions::AnalyzeTypeIsResult (*)(System::Linq::Expressions::Expression*, System::Type*)>(&System::Linq::Expressions::ConstantCheck::AnalyzeTypeIs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::AnalyzeTypeIsResult (*)(::System::Linq::Expressions::Expression*, ::System::Type*)>(&System::Linq::Expressions::ConstantCheck::AnalyzeTypeIs)> {
   static const MethodInfo* get() {
     static auto* operand = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     static auto* testType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;

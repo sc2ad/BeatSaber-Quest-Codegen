@@ -32,8 +32,8 @@ namespace Oculus::Platform::Models {
   class MatchmakingEnqueuedUser;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::MatchmakingEnqueuedUser);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::MatchmakingEnqueuedUser*, "Oculus.Platform.Models", "MatchmakingEnqueuedUser");
+NEED_NO_BOX(::Oculus::Platform::Models::MatchmakingEnqueuedUser);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::MatchmakingEnqueuedUser*, "Oculus.Platform.Models", "MatchmakingEnqueuedUser");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x28
@@ -54,39 +54,39 @@ namespace Oculus::Platform::Models {
     // public readonly System.Collections.Generic.Dictionary`2<System.String,System.String> CustomData
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* CustomData;
+    ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* CustomData;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*) == 0x8);
     // public readonly Oculus.Platform.Models.User UserOptional
     // Size: 0x8
     // Offset: 0x18
-    Oculus::Platform::Models::User* UserOptional;
+    ::Oculus::Platform::Models::User* UserOptional;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::Models::User*) == 0x8);
+    static_assert(sizeof(::Oculus::Platform::Models::User*) == 0x8);
     // [ObsoleteAttribute] Offset: 0x1232628
     // public readonly Oculus.Platform.Models.User User
     // Size: 0x8
     // Offset: 0x20
-    Oculus::Platform::Models::User* User;
+    ::Oculus::Platform::Models::User* User;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::Models::User*) == 0x8);
+    static_assert(sizeof(::Oculus::Platform::Models::User*) == 0x8);
     public:
     // Get instance field reference: public readonly System.Collections.Generic.Dictionary`2<System.String,System.String> CustomData
-    System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& dyn_CustomData();
+    ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& dyn_CustomData();
     // Get instance field reference: public readonly Oculus.Platform.Models.User UserOptional
-    Oculus::Platform::Models::User*& dyn_UserOptional();
+    ::Oculus::Platform::Models::User*& dyn_UserOptional();
     // Get instance field reference: public readonly Oculus.Platform.Models.User User
-    Oculus::Platform::Models::User*& dyn_User();
+    ::Oculus::Platform::Models::User*& dyn_User();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x196DA60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MatchmakingEnqueuedUser* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::MatchmakingEnqueuedUser::.ctor");
+    static MatchmakingEnqueuedUser* New_ctor(::System::IntPtr o) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::MatchmakingEnqueuedUser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MatchmakingEnqueuedUser*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.MatchmakingEnqueuedUser
   #pragma pack(pop)
-  static check_size<sizeof(MatchmakingEnqueuedUser), 32 + sizeof(Oculus::Platform::Models::User*)> __Oculus_Platform_Models_MatchmakingEnqueuedUserSizeCheck;
+  static check_size<sizeof(MatchmakingEnqueuedUser), 32 + sizeof(::Oculus::Platform::Models::User*)> __Oculus_Platform_Models_MatchmakingEnqueuedUserSizeCheck;
   static_assert(sizeof(MatchmakingEnqueuedUser) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

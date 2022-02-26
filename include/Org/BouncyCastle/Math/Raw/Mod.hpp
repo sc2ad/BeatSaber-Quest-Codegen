@@ -20,8 +20,8 @@ namespace Org::BouncyCastle::Math::Raw {
   class Mod;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Math::Raw::Mod);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Raw::Mod*, "Org.BouncyCastle.Math.Raw", "Mod");
+NEED_NO_BOX(::Org::BouncyCastle::Math::Raw::Mod);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::Raw::Mod*, "Org.BouncyCastle.Math.Raw", "Mod");
 // Type namespace: Org.BouncyCastle.Math.Raw
 namespace Org::BouncyCastle::Math::Raw {
   // Size: 0x10
@@ -31,9 +31,9 @@ namespace Org::BouncyCastle::Math::Raw {
   class Mod : public ::Il2CppObject {
     public:
     // Get static field: static private readonly Org.BouncyCastle.Security.SecureRandom RandomSource
-    static Org::BouncyCastle::Security::SecureRandom* _get_RandomSource();
+    static ::Org::BouncyCastle::Security::SecureRandom* _get_RandomSource();
     // Set static field: static private readonly Org.BouncyCastle.Security.SecureRandom RandomSource
-    static void _set_RandomSource(Org::BouncyCastle::Security::SecureRandom* value);
+    static void _set_RandomSource(::Org::BouncyCastle::Security::SecureRandom* value);
     // static private System.Void .cctor()
     // Offset: 0x228CAEC
     static void _cctor();

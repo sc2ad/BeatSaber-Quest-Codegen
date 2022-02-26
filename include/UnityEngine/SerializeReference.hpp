@@ -14,8 +14,8 @@ namespace UnityEngine {
   class SerializeReference;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::SerializeReference);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SerializeReference*, "UnityEngine", "SerializeReference");
+NEED_NO_BOX(::UnityEngine::SerializeReference);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::SerializeReference*, "UnityEngine", "SerializeReference");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -24,7 +24,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AttributeUsageAttribute] Offset: 11A6348
   // [RequiredByNativeCodeAttribute] Offset: 11A6348
-  class SerializeReference : public System::Attribute {
+  class SerializeReference : public ::System::Attribute {
     public:
   }; // UnityEngine.SerializeReference
   #pragma pack(pop)

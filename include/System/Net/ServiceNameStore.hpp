@@ -30,8 +30,8 @@ namespace System::Net {
   class ServiceNameStore;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::ServiceNameStore);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::ServiceNameStore*, "System.Net", "ServiceNameStore");
+NEED_NO_BOX(::System::Net::ServiceNameStore);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::ServiceNameStore*, "System.Net", "ServiceNameStore");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x20
@@ -52,32 +52,32 @@ namespace System::Net {
     // private System.Collections.Generic.List`1<System.String> serviceNames
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::List_1<::StringW>* serviceNames;
+    ::System::Collections::Generic::List_1<::StringW>* serviceNames;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<::StringW>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::StringW>*) == 0x8);
     // private System.Security.Authentication.ExtendedProtection.ServiceNameCollection serviceNameCollection
     // Size: 0x8
     // Offset: 0x18
-    System::Security::Authentication::ExtendedProtection::ServiceNameCollection* serviceNameCollection;
+    ::System::Security::Authentication::ExtendedProtection::ServiceNameCollection* serviceNameCollection;
     // Field size check
-    static_assert(sizeof(System::Security::Authentication::ExtendedProtection::ServiceNameCollection*) == 0x8);
+    static_assert(sizeof(::System::Security::Authentication::ExtendedProtection::ServiceNameCollection*) == 0x8);
     public:
     // Get instance field reference: private System.Collections.Generic.List`1<System.String> serviceNames
-    System::Collections::Generic::List_1<::StringW>*& dyn_serviceNames();
+    ::System::Collections::Generic::List_1<::StringW>*& dyn_serviceNames();
     // Get instance field reference: private System.Security.Authentication.ExtendedProtection.ServiceNameCollection serviceNameCollection
-    System::Security::Authentication::ExtendedProtection::ServiceNameCollection*& dyn_serviceNameCollection();
+    ::System::Security::Authentication::ExtendedProtection::ServiceNameCollection*& dyn_serviceNameCollection();
     // public System.Void .ctor()
     // Offset: 0x17B2BC8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ServiceNameStore* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::ServiceNameStore::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::ServiceNameStore::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ServiceNameStore*, creationType>()));
     }
   }; // System.Net.ServiceNameStore
   #pragma pack(pop)
-  static check_size<sizeof(ServiceNameStore), 24 + sizeof(System::Security::Authentication::ExtendedProtection::ServiceNameCollection*)> __System_Net_ServiceNameStoreSizeCheck;
+  static check_size<sizeof(ServiceNameStore), 24 + sizeof(::System::Security::Authentication::ExtendedProtection::ServiceNameCollection*)> __System_Net_ServiceNameStoreSizeCheck;
   static_assert(sizeof(ServiceNameStore) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

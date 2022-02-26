@@ -30,8 +30,8 @@ namespace UnityEngine::ProBuilder {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::ProBuilderMesh::$$c);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ProBuilderMesh::$$c*, "UnityEngine.ProBuilder", "ProBuilderMesh/<>c");
+NEED_NO_BOX(::UnityEngine::ProBuilder::ProBuilderMesh::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::ProBuilderMesh::$$c*, "UnityEngine.ProBuilder", "ProBuilderMesh/<>c");
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
   // Size: 0x10
@@ -42,54 +42,54 @@ namespace UnityEngine::ProBuilder {
   class ProBuilderMesh::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly UnityEngine.ProBuilder.ProBuilderMesh/UnityEngine.ProBuilder.<>c <>9
-    static UnityEngine::ProBuilder::ProBuilderMesh::$$c* _get_$$9();
+    static ::UnityEngine::ProBuilder::ProBuilderMesh::$$c* _get_$$9();
     // Set static field: static public readonly UnityEngine.ProBuilder.ProBuilderMesh/UnityEngine.ProBuilder.<>c <>9
-    static void _set_$$9(UnityEngine::ProBuilder::ProBuilderMesh::$$c* value);
+    static void _set_$$9(::UnityEngine::ProBuilder::ProBuilderMesh::$$c* value);
     // Get static field: static public System.Func`2<UnityEngine.Vector4,UnityEngine.Vector2> <>9__102_0
-    static System::Func_2<UnityEngine::Vector4, UnityEngine::Vector2>* _get_$$9__102_0();
+    static ::System::Func_2<::UnityEngine::Vector4, ::UnityEngine::Vector2>* _get_$$9__102_0();
     // Set static field: static public System.Func`2<UnityEngine.Vector4,UnityEngine.Vector2> <>9__102_0
-    static void _set_$$9__102_0(System::Func_2<UnityEngine::Vector4, UnityEngine::Vector2>* value);
+    static void _set_$$9__102_0(::System::Func_2<::UnityEngine::Vector4, ::UnityEngine::Vector2>* value);
     // Get static field: static public System.Func`2<UnityEngine.Vector4,UnityEngine.Vector2> <>9__102_1
-    static System::Func_2<UnityEngine::Vector4, UnityEngine::Vector2>* _get_$$9__102_1();
+    static ::System::Func_2<::UnityEngine::Vector4, ::UnityEngine::Vector2>* _get_$$9__102_1();
     // Set static field: static public System.Func`2<UnityEngine.Vector4,UnityEngine.Vector2> <>9__102_1
-    static void _set_$$9__102_1(System::Func_2<UnityEngine::Vector4, UnityEngine::Vector2>* value);
+    static void _set_$$9__102_1(::System::Func_2<::UnityEngine::Vector4, ::UnityEngine::Vector2>* value);
     // Get static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Int32> <>9__110_0
-    static System::Func_2<UnityEngine::ProBuilder::Face*, int>* _get_$$9__110_0();
+    static ::System::Func_2<::UnityEngine::ProBuilder::Face*, int>* _get_$$9__110_0();
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Int32> <>9__110_0
-    static void _set_$$9__110_0(System::Func_2<UnityEngine::ProBuilder::Face*, int>* value);
+    static void _set_$$9__110_0(::System::Func_2<::UnityEngine::ProBuilder::Face*, int>* value);
     // Get static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Int32> <>9__112_0
-    static System::Func_2<UnityEngine::ProBuilder::Face*, int>* _get_$$9__112_0();
+    static ::System::Func_2<::UnityEngine::ProBuilder::Face*, int>* _get_$$9__112_0();
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Int32> <>9__112_0
-    static void _set_$$9__112_0(System::Func_2<UnityEngine::ProBuilder::Face*, int>* value);
+    static void _set_$$9__112_0(::System::Func_2<::UnityEngine::ProBuilder::Face*, int>* value);
     // Get static field: static public System.Func`2<UnityEngine.ProBuilder.Face,UnityEngine.ProBuilder.Face> <>9__147_0
-    static System::Func_2<UnityEngine::ProBuilder::Face*, UnityEngine::ProBuilder::Face*>* _get_$$9__147_0();
+    static ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::ProBuilder::Face*>* _get_$$9__147_0();
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,UnityEngine.ProBuilder.Face> <>9__147_0
-    static void _set_$$9__147_0(System::Func_2<UnityEngine::ProBuilder::Face*, UnityEngine::ProBuilder::Face*>* value);
+    static void _set_$$9__147_0(::System::Func_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::ProBuilder::Face*>* value);
     // static private System.Void .cctor()
     // Offset: 0x19106B0
     static void _cctor();
     // UnityEngine.Vector2 <SetUVs>b__102_0(UnityEngine.Vector4 x)
     // Offset: 0x191071C
-    UnityEngine::Vector2 $SetUVs$b__102_0(UnityEngine::Vector4 x);
+    ::UnityEngine::Vector2 $SetUVs$b__102_0(::UnityEngine::Vector4 x);
     // UnityEngine.Vector2 <SetUVs>b__102_1(UnityEngine.Vector4 x)
     // Offset: 0x19107AC
-    UnityEngine::Vector2 $SetUVs$b__102_1(UnityEngine::Vector4 x);
+    ::UnityEngine::Vector2 $SetUVs$b__102_1(::UnityEngine::Vector4 x);
     // System.Int32 <get_indexCount>b__110_0(UnityEngine.ProBuilder.Face x)
     // Offset: 0x191083C
-    int $get_indexCount$b__110_0(UnityEngine::ProBuilder::Face* x);
+    int $get_indexCount$b__110_0(::UnityEngine::ProBuilder::Face* x);
     // System.Int32 <get_triangleCount>b__112_0(UnityEngine.ProBuilder.Face x)
     // Offset: 0x1910860
-    int $get_triangleCount$b__112_0(UnityEngine::ProBuilder::Face* x);
+    int $get_triangleCount$b__112_0(::UnityEngine::ProBuilder::Face* x);
     // UnityEngine.ProBuilder.Face <CopyFrom>b__147_0(UnityEngine.ProBuilder.Face x)
     // Offset: 0x1910884
-    UnityEngine::ProBuilder::Face* $CopyFrom$b__147_0(UnityEngine::ProBuilder::Face* x);
+    ::UnityEngine::ProBuilder::Face* $CopyFrom$b__147_0(::UnityEngine::ProBuilder::Face* x);
     // public System.Void .ctor()
     // Offset: 0x1910714
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProBuilderMesh::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::ProBuilderMesh::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::ProBuilderMesh::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProBuilderMesh::$$c*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.ProBuilderMesh/UnityEngine.ProBuilder.<>c
@@ -107,7 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::$$c::$SetUVs$b__102_0
 // Il2CppName: <SetUVs>b__102_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::ProBuilder::ProBuilderMesh::$$c::*)(UnityEngine::Vector4)>(&UnityEngine::ProBuilder::ProBuilderMesh::$$c::$SetUVs$b__102_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (UnityEngine::ProBuilder::ProBuilderMesh::$$c::*)(::UnityEngine::Vector4)>(&UnityEngine::ProBuilder::ProBuilderMesh::$$c::$SetUVs$b__102_0)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ProBuilderMesh::$$c*), "<SetUVs>b__102_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -116,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::$$c::$SetUVs$b__102_1
 // Il2CppName: <SetUVs>b__102_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::ProBuilder::ProBuilderMesh::$$c::*)(UnityEngine::Vector4)>(&UnityEngine::ProBuilder::ProBuilderMesh::$$c::$SetUVs$b__102_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (UnityEngine::ProBuilder::ProBuilderMesh::$$c::*)(::UnityEngine::Vector4)>(&UnityEngine::ProBuilder::ProBuilderMesh::$$c::$SetUVs$b__102_1)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ProBuilderMesh::$$c*), "<SetUVs>b__102_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -125,7 +125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::$$c::$get_indexCount$b__110_0
 // Il2CppName: <get_indexCount>b__110_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ProBuilder::ProBuilderMesh::$$c::*)(UnityEngine::ProBuilder::Face*)>(&UnityEngine::ProBuilder::ProBuilderMesh::$$c::$get_indexCount$b__110_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ProBuilder::ProBuilderMesh::$$c::*)(::UnityEngine::ProBuilder::Face*)>(&UnityEngine::ProBuilder::ProBuilderMesh::$$c::$get_indexCount$b__110_0)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ProBuilderMesh::$$c*), "<get_indexCount>b__110_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -134,7 +134,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::$$c::$get_triangleCount$b__112_0
 // Il2CppName: <get_triangleCount>b__112_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ProBuilder::ProBuilderMesh::$$c::*)(UnityEngine::ProBuilder::Face*)>(&UnityEngine::ProBuilder::ProBuilderMesh::$$c::$get_triangleCount$b__112_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ProBuilder::ProBuilderMesh::$$c::*)(::UnityEngine::ProBuilder::Face*)>(&UnityEngine::ProBuilder::ProBuilderMesh::$$c::$get_triangleCount$b__112_0)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ProBuilderMesh::$$c*), "<get_triangleCount>b__112_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -143,7 +143,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::$$c::$CopyFrom$b__147_0
 // Il2CppName: <CopyFrom>b__147_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Face* (UnityEngine::ProBuilder::ProBuilderMesh::$$c::*)(UnityEngine::ProBuilder::Face*)>(&UnityEngine::ProBuilder::ProBuilderMesh::$$c::$CopyFrom$b__147_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Face* (UnityEngine::ProBuilder::ProBuilderMesh::$$c::*)(::UnityEngine::ProBuilder::Face*)>(&UnityEngine::ProBuilder::ProBuilderMesh::$$c::$CopyFrom$b__147_0)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ProBuilderMesh::$$c*), "<CopyFrom>b__147_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});

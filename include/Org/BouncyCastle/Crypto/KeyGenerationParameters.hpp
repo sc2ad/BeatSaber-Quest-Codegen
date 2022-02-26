@@ -23,8 +23,8 @@ namespace Org::BouncyCastle::Crypto {
   class KeyGenerationParameters;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Crypto::KeyGenerationParameters);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::KeyGenerationParameters*, "Org.BouncyCastle.Crypto", "KeyGenerationParameters");
+NEED_NO_BOX(::Org::BouncyCastle::Crypto::KeyGenerationParameters);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::KeyGenerationParameters*, "Org.BouncyCastle.Crypto", "KeyGenerationParameters");
 // Type namespace: Org.BouncyCastle.Crypto
 namespace Org::BouncyCastle::Crypto {
   // Size: 0x1C
@@ -45,9 +45,9 @@ namespace Org::BouncyCastle::Crypto {
     // private Org.BouncyCastle.Security.SecureRandom random
     // Size: 0x8
     // Offset: 0x10
-    Org::BouncyCastle::Security::SecureRandom* random;
+    ::Org::BouncyCastle::Security::SecureRandom* random;
     // Field size check
-    static_assert(sizeof(Org::BouncyCastle::Security::SecureRandom*) == 0x8);
+    static_assert(sizeof(::Org::BouncyCastle::Security::SecureRandom*) == 0x8);
     // private System.Int32 strength
     // Size: 0x4
     // Offset: 0x18
@@ -56,20 +56,20 @@ namespace Org::BouncyCastle::Crypto {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private Org.BouncyCastle.Security.SecureRandom random
-    Org::BouncyCastle::Security::SecureRandom*& dyn_random();
+    ::Org::BouncyCastle::Security::SecureRandom*& dyn_random();
     // Get instance field reference: private System.Int32 strength
     int& dyn_strength();
     // public Org.BouncyCastle.Security.SecureRandom get_Random()
     // Offset: 0x1D4452C
-    Org::BouncyCastle::Security::SecureRandom* get_Random();
+    ::Org::BouncyCastle::Security::SecureRandom* get_Random();
     // public System.Int32 get_Strength()
     // Offset: 0x1D44534
     int get_Strength();
     // public System.Void .ctor(Org.BouncyCastle.Security.SecureRandom random, System.Int32 strength)
     // Offset: 0x1D44448
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static KeyGenerationParameters* New_ctor(Org::BouncyCastle::Security::SecureRandom* random, int strength) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::KeyGenerationParameters::.ctor");
+    static KeyGenerationParameters* New_ctor(::Org::BouncyCastle::Security::SecureRandom* random, int strength) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::KeyGenerationParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeyGenerationParameters*, creationType>(random, strength)));
     }
   }; // Org.BouncyCastle.Crypto.KeyGenerationParameters
@@ -81,7 +81,7 @@ namespace Org::BouncyCastle::Crypto {
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::KeyGenerationParameters::get_Random
 // Il2CppName: get_Random
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Security::SecureRandom* (Org::BouncyCastle::Crypto::KeyGenerationParameters::*)()>(&Org::BouncyCastle::Crypto::KeyGenerationParameters::get_Random)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Security::SecureRandom* (Org::BouncyCastle::Crypto::KeyGenerationParameters::*)()>(&Org::BouncyCastle::Crypto::KeyGenerationParameters::get_Random)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::KeyGenerationParameters*), "get_Random", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

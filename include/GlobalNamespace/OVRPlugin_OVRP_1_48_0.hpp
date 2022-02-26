@@ -17,8 +17,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRPlugin::OVRP_1_48_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_48_0*, "", "OVRPlugin/OVRP_1_48_0");
+NEED_NO_BOX(::GlobalNamespace::OVRPlugin::OVRP_1_48_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRPlugin::OVRP_1_48_0*, "", "OVRPlugin/OVRP_1_48_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -28,15 +28,15 @@ namespace GlobalNamespace {
   class OVRPlugin::OVRP_1_48_0 : public ::Il2CppObject {
     public:
     // Get static field: static public readonly System.Version version
-    static System::Version* _get_version();
+    static ::System::Version* _get_version();
     // Set static field: static public readonly System.Version version
-    static void _set_version(System::Version* value);
+    static void _set_version(::System::Version* value);
     // static private System.Void .cctor()
     // Offset: 0x1A74FF0
     static void _cctor();
     // static public OVRPlugin/Result ovrp_SetExternalCameraProperties(System.String cameraName, ref OVRPlugin/CameraIntrinsics cameraIntrinsics, ref OVRPlugin/CameraExtrinsics cameraExtrinsics)
     // Offset: 0x1A74F40
-    static GlobalNamespace::OVRPlugin::Result ovrp_SetExternalCameraProperties(::StringW cameraName, ByRef<GlobalNamespace::OVRPlugin::CameraIntrinsics> cameraIntrinsics, ByRef<GlobalNamespace::OVRPlugin::CameraExtrinsics> cameraExtrinsics);
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_SetExternalCameraProperties(::StringW cameraName, ByRef<::GlobalNamespace::OVRPlugin::CameraIntrinsics> cameraIntrinsics, ByRef<::GlobalNamespace::OVRPlugin::CameraExtrinsics> cameraExtrinsics);
   }; // OVRPlugin/OVRP_1_48_0
   #pragma pack(pop)
 }
@@ -52,7 +52,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_48_0::ovrp_SetExternalCameraProperties
 // Il2CppName: ovrp_SetExternalCameraProperties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(::StringW, ByRef<GlobalNamespace::OVRPlugin::CameraIntrinsics>, ByRef<GlobalNamespace::OVRPlugin::CameraExtrinsics>)>(&GlobalNamespace::OVRPlugin::OVRP_1_48_0::ovrp_SetExternalCameraProperties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)(::StringW, ByRef<::GlobalNamespace::OVRPlugin::CameraIntrinsics>, ByRef<::GlobalNamespace::OVRPlugin::CameraExtrinsics>)>(&GlobalNamespace::OVRPlugin::OVRP_1_48_0::ovrp_SetExternalCameraProperties)> {
   static const MethodInfo* get() {
     static auto* cameraName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* cameraIntrinsics = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/CameraIntrinsics")->this_arg;

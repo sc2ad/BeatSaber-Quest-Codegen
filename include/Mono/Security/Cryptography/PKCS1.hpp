@@ -21,8 +21,8 @@ namespace Mono::Security::Cryptography {
   class PKCS1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Security::Cryptography::PKCS1);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::PKCS1*, "Mono.Security.Cryptography", "PKCS1");
+NEED_NO_BOX(::Mono::Security::Cryptography::PKCS1);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Cryptography::PKCS1*, "Mono.Security.Cryptography", "PKCS1");
 // Type namespace: Mono.Security.Cryptography
 namespace Mono::Security::Cryptography {
   // Size: 0x10
@@ -55,10 +55,10 @@ namespace Mono::Security::Cryptography {
     static ::StringW HashNameFromOid(::StringW oid, bool throwOnError);
     // static System.Security.Cryptography.HashAlgorithm CreateFromOid(System.String oid)
     // Offset: 0x22CA810
-    static System::Security::Cryptography::HashAlgorithm* CreateFromOid(::StringW oid);
+    static ::System::Security::Cryptography::HashAlgorithm* CreateFromOid(::StringW oid);
     // static System.Security.Cryptography.HashAlgorithm CreateFromName(System.String name)
     // Offset: 0x22CA87C
-    static System::Security::Cryptography::HashAlgorithm* CreateFromName(::StringW name);
+    static ::System::Security::Cryptography::HashAlgorithm* CreateFromName(::StringW name);
   }; // Mono.Security.Cryptography.PKCS1
   #pragma pack(pop)
 }
@@ -84,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: Mono::Security::Cryptography::PKCS1::CreateFromOid
 // Il2CppName: CreateFromOid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::HashAlgorithm* (*)(::StringW)>(&Mono::Security::Cryptography::PKCS1::CreateFromOid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::HashAlgorithm* (*)(::StringW)>(&Mono::Security::Cryptography::PKCS1::CreateFromOid)> {
   static const MethodInfo* get() {
     static auto* oid = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::PKCS1*), "CreateFromOid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{oid});
@@ -93,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Writing MetadataGetter for method: Mono::Security::Cryptography::PKCS1::CreateFromName
 // Il2CppName: CreateFromName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::HashAlgorithm* (*)(::StringW)>(&Mono::Security::Cryptography::PKCS1::CreateFromName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::HashAlgorithm* (*)(::StringW)>(&Mono::Security::Cryptography::PKCS1::CreateFromName)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::PKCS1*), "CreateFromName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});

@@ -30,8 +30,8 @@ namespace UnityEngine::TestRunner::TestLaunchers {
   class RemoteTestData;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::TestRunner::TestLaunchers::RemoteTestData);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::TestLaunchers::RemoteTestData*, "UnityEngine.TestRunner.TestLaunchers", "RemoteTestData");
+NEED_NO_BOX(::UnityEngine::TestRunner::TestLaunchers::RemoteTestData);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TestRunner::TestLaunchers::RemoteTestData*, "UnityEngine.TestRunner.TestLaunchers", "RemoteTestData");
 // Type namespace: UnityEngine.TestRunner.TestLaunchers
 namespace UnityEngine::TestRunner::TestLaunchers {
   // Size: 0x88
@@ -40,7 +40,7 @@ namespace UnityEngine::TestRunner::TestLaunchers {
   // [TokenAttribute] Offset: FFFFFFFF
   class RemoteTestData : public ::Il2CppObject {
     public:
-    // Nested type: UnityEngine::TestRunner::TestLaunchers::RemoteTestData::$$c
+    // Nested type: ::UnityEngine::TestRunner::TestLaunchers::RemoteTestData::$$c
     class $$c;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -126,9 +126,9 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // public NUnit.Framework.Interfaces.RunState RunState
     // Size: 0x4
     // Offset: 0x54
-    NUnit::Framework::Interfaces::RunState RunState;
+    ::NUnit::Framework::Interfaces::RunState RunState;
     // Field size check
-    static_assert(sizeof(NUnit::Framework::Interfaces::RunState) == 0x4);
+    static_assert(sizeof(::NUnit::Framework::Interfaces::RunState) == 0x4);
     // public System.String Description
     // Size: 0x8
     // Offset: 0x58
@@ -189,7 +189,7 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // Get instance field reference: public System.Boolean IsTestAssembly
     bool& dyn_IsTestAssembly();
     // Get instance field reference: public NUnit.Framework.Interfaces.RunState RunState
-    NUnit::Framework::Interfaces::RunState& dyn_RunState();
+    ::NUnit::Framework::Interfaces::RunState& dyn_RunState();
     // Get instance field reference: public System.String Description
     ::StringW& dyn_Description();
     // Get instance field reference: public System.String SkipReason
@@ -205,8 +205,8 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // System.Void .ctor(NUnit.Framework.Interfaces.ITest test)
     // Offset: 0x18D2ED0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static RemoteTestData* New_ctor(NUnit::Framework::Interfaces::ITest* test) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestRunner::TestLaunchers::RemoteTestData::.ctor");
+    static RemoteTestData* New_ctor(::NUnit::Framework::Interfaces::ITest* test) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestRunner::TestLaunchers::RemoteTestData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RemoteTestData*, creationType>(test)));
     }
   }; // UnityEngine.TestRunner.TestLaunchers.RemoteTestData

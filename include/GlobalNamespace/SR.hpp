@@ -13,8 +13,8 @@ namespace GlobalNamespace {
   class SR;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SR);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SR*, "", "SR");
+NEED_NO_BOX(::GlobalNamespace::SR);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SR*, "", "SR");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10

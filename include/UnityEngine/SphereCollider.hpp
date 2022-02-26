@@ -20,8 +20,8 @@ namespace UnityEngine {
   class SphereCollider;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::SphereCollider);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SphereCollider*, "UnityEngine", "SphereCollider");
+NEED_NO_BOX(::UnityEngine::SphereCollider);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::SphereCollider*, "UnityEngine", "SphereCollider");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -30,11 +30,11 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NativeHeaderAttribute] Offset: 11B9658
   // [RequiredByNativeCodeAttribute] Offset: 11B9658
-  class SphereCollider : public UnityEngine::Collider {
+  class SphereCollider : public ::UnityEngine::Collider {
     public:
     // public System.Void set_center(UnityEngine.Vector3 value)
     // Offset: 0x2A46994
-    void set_center(UnityEngine::Vector3 value);
+    void set_center(::UnityEngine::Vector3 value);
     // public System.Single get_radius()
     // Offset: 0x2A46A3C
     float get_radius();
@@ -43,7 +43,7 @@ namespace UnityEngine {
     void set_radius(float value);
     // private System.Void set_center_Injected(ref UnityEngine.Vector3 value)
     // Offset: 0x2A469EC
-    void set_center_Injected(ByRef<UnityEngine::Vector3> value);
+    void set_center_Injected(ByRef<::UnityEngine::Vector3> value);
   }; // UnityEngine.SphereCollider
   #pragma pack(pop)
 }
@@ -51,7 +51,7 @@ namespace UnityEngine {
 // Writing MetadataGetter for method: UnityEngine::SphereCollider::set_center
 // Il2CppName: set_center
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::SphereCollider::*)(UnityEngine::Vector3)>(&UnityEngine::SphereCollider::set_center)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::SphereCollider::*)(::UnityEngine::Vector3)>(&UnityEngine::SphereCollider::set_center)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::SphereCollider*), "set_center", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -77,7 +77,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::SphereCollider::set_center_Injected
 // Il2CppName: set_center_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::SphereCollider::*)(ByRef<UnityEngine::Vector3>)>(&UnityEngine::SphereCollider::set_center_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::SphereCollider::*)(ByRef<::UnityEngine::Vector3>)>(&UnityEngine::SphereCollider::set_center_Injected)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::SphereCollider*), "set_center_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

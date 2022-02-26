@@ -54,8 +54,8 @@ namespace OnlineServices::API {
   class HTTPLeaderboardsOathHelper;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(OnlineServices::API::HTTPLeaderboardsOathHelper);
-DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPLeaderboardsOathHelper*, "OnlineServices.API", "HTTPLeaderboardsOathHelper");
+NEED_NO_BOX(::OnlineServices::API::HTTPLeaderboardsOathHelper);
+DEFINE_IL2CPP_ARG_TYPE(::OnlineServices::API::HTTPLeaderboardsOathHelper*, "OnlineServices.API", "HTTPLeaderboardsOathHelper");
 // Type namespace: OnlineServices.API
 namespace OnlineServices::API {
   // Size: 0x28
@@ -64,21 +64,21 @@ namespace OnlineServices::API {
   // [TokenAttribute] Offset: FFFFFFFF
   class HTTPLeaderboardsOathHelper : public ::Il2CppObject {
     public:
-    // Nested type: OnlineServices::API::HTTPLeaderboardsOathHelper::$SendWebRequestWithOathAsync$d__5
+    // Nested type: ::OnlineServices::API::HTTPLeaderboardsOathHelper::$SendWebRequestWithOathAsync$d__5
     struct $SendWebRequestWithOathAsync$d__5;
-    // Nested type: OnlineServices::API::HTTPLeaderboardsOathHelper::$LogOut$d__6
+    // Nested type: ::OnlineServices::API::HTTPLeaderboardsOathHelper::$LogOut$d__6
     struct $LogOut$d__6;
-    // Nested type: OnlineServices::API::HTTPLeaderboardsOathHelper::$LoginIfNeededAsync$d__7
+    // Nested type: ::OnlineServices::API::HTTPLeaderboardsOathHelper::$LoginIfNeededAsync$d__7
     struct $LoginIfNeededAsync$d__7;
-    // Nested type: OnlineServices::API::HTTPLeaderboardsOathHelper::$GetAccessTokenAsync$d__9
+    // Nested type: ::OnlineServices::API::HTTPLeaderboardsOathHelper::$GetAccessTokenAsync$d__9
     struct $GetAccessTokenAsync$d__9;
-    // Nested type: OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_0
+    // Nested type: ::OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_0
     class $$c__DisplayClass10_0;
-    // Nested type: OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1
+    // Nested type: ::OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1
     class $$c__DisplayClass10_1;
-    // Nested type: OnlineServices::API::HTTPLeaderboardsOathHelper::$SendWebRequestAsync$d__10
+    // Nested type: ::OnlineServices::API::HTTPLeaderboardsOathHelper::$SendWebRequestAsync$d__10
     struct $SendWebRequestAsync$d__10;
-    // Nested type: OnlineServices::API::HTTPLeaderboardsOathHelper::$SendAndWaitAsync$d__11
+    // Nested type: ::OnlineServices::API::HTTPLeaderboardsOathHelper::$SendAndWaitAsync$d__11
     struct $SendAndWaitAsync$d__11;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -93,21 +93,21 @@ namespace OnlineServices::API {
     // private readonly OnlineServices.API.IUserLoginDtoDataSource _userLoginDataSource
     // Size: 0x8
     // Offset: 0x10
-    OnlineServices::API::IUserLoginDtoDataSource* userLoginDataSource;
+    ::OnlineServices::API::IUserLoginDtoDataSource* userLoginDataSource;
     // Field size check
-    static_assert(sizeof(OnlineServices::API::IUserLoginDtoDataSource*) == 0x8);
+    static_assert(sizeof(::OnlineServices::API::IUserLoginDtoDataSource*) == 0x8);
     // private readonly System.UriBuilder _uriBuilder
     // Size: 0x8
     // Offset: 0x18
-    System::UriBuilder* uriBuilder;
+    ::System::UriBuilder* uriBuilder;
     // Field size check
-    static_assert(sizeof(System::UriBuilder*) == 0x8);
+    static_assert(sizeof(::System::UriBuilder*) == 0x8);
     // private BeatSaberAPI.DataTransferObjects.AccessToken _accessToken
     // Size: 0x8
     // Offset: 0x20
-    BeatSaberAPI::DataTransferObjects::AccessToken* accessToken;
+    ::BeatSaberAPI::DataTransferObjects::AccessToken* accessToken;
     // Field size check
-    static_assert(sizeof(BeatSaberAPI::DataTransferObjects::AccessToken*) == 0x8);
+    static_assert(sizeof(::BeatSaberAPI::DataTransferObjects::AccessToken*) == 0x8);
     public:
     // static field const value: static private System.String kLoginPath
     static constexpr const char* kLoginPath = "/v1/User/Register";
@@ -122,32 +122,32 @@ namespace OnlineServices::API {
     // Set static field: static private System.String kLogoutPath
     static void _set_kLogoutPath(::StringW value);
     // Get instance field reference: private readonly OnlineServices.API.IUserLoginDtoDataSource _userLoginDataSource
-    OnlineServices::API::IUserLoginDtoDataSource*& dyn__userLoginDataSource();
+    ::OnlineServices::API::IUserLoginDtoDataSource*& dyn__userLoginDataSource();
     // Get instance field reference: private readonly System.UriBuilder _uriBuilder
-    System::UriBuilder*& dyn__uriBuilder();
+    ::System::UriBuilder*& dyn__uriBuilder();
     // Get instance field reference: private BeatSaberAPI.DataTransferObjects.AccessToken _accessToken
-    BeatSaberAPI::DataTransferObjects::AccessToken*& dyn__accessToken();
+    ::BeatSaberAPI::DataTransferObjects::AccessToken*& dyn__accessToken();
     // public System.Threading.Tasks.Task`1<System.String> SendWebRequestWithOathAsync(System.String path, System.String method, System.Object objectToSendAsJson, System.Threading.CancellationToken cancellationToken)
     // Offset: 0x2BBCF7C
-    System::Threading::Tasks::Task_1<::StringW>* SendWebRequestWithOathAsync(::StringW path, ::StringW method, ::Il2CppObject* objectToSendAsJson, System::Threading::CancellationToken cancellationToken);
+    ::System::Threading::Tasks::Task_1<::StringW>* SendWebRequestWithOathAsync(::StringW path, ::StringW method, ::Il2CppObject* objectToSendAsJson, ::System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task LogOut()
     // Offset: 0x2BBD2A8
-    System::Threading::Tasks::Task* LogOut();
+    ::System::Threading::Tasks::Task* LogOut();
     // private System.Threading.Tasks.Task LoginIfNeededAsync(System.Threading.CancellationToken cancellationToken)
     // Offset: 0x2BBD678
-    System::Threading::Tasks::Task* LoginIfNeededAsync(System::Threading::CancellationToken cancellationToken);
+    ::System::Threading::Tasks::Task* LoginIfNeededAsync(::System::Threading::CancellationToken cancellationToken);
     // private System.Boolean IsUserLoggedIn()
     // Offset: 0x2BBD78C
     bool IsUserLoggedIn();
     // private System.Threading.Tasks.Task`1<BeatSaberAPI.DataTransferObjects.AccessToken> GetAccessTokenAsync(System.Threading.CancellationToken cancellationToken)
     // Offset: 0x2BBD79C
-    System::Threading::Tasks::Task_1<BeatSaberAPI::DataTransferObjects::AccessToken*>* GetAccessTokenAsync(System::Threading::CancellationToken cancellationToken);
+    ::System::Threading::Tasks::Task_1<::BeatSaberAPI::DataTransferObjects::AccessToken*>* GetAccessTokenAsync(::System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task`1<System.String> SendWebRequestAsync(System.String uri, System.String method, System.String bodyData, System.String bearerToken)
     // Offset: 0x2BBD8AC
-    System::Threading::Tasks::Task_1<::StringW>* SendWebRequestAsync(::StringW uri, ::StringW method, ::StringW bodyData, ::StringW bearerToken);
+    ::System::Threading::Tasks::Task_1<::StringW>* SendWebRequestAsync(::StringW uri, ::StringW method, ::StringW bodyData, ::StringW bearerToken);
     // private System.Threading.Tasks.Task SendAndWaitAsync(UnityEngine.Networking.UnityWebRequest webRequest, System.Threading.CancellationToken cancellationToken)
     // Offset: 0x2BBD9E0
-    System::Threading::Tasks::Task* SendAndWaitAsync(UnityEngine::Networking::UnityWebRequest* webRequest, System::Threading::CancellationToken cancellationToken);
+    ::System::Threading::Tasks::Task* SendAndWaitAsync(::UnityEngine::Networking::UnityWebRequest* webRequest, ::System::Threading::CancellationToken cancellationToken);
     // static public System.Void Log(System.String message)
     // Offset: 0x2BBDADC
     static void Log(::StringW message);
@@ -157,19 +157,19 @@ namespace OnlineServices::API {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HTTPLeaderboardsOathHelper* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("OnlineServices::API::HTTPLeaderboardsOathHelper::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::OnlineServices::API::HTTPLeaderboardsOathHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HTTPLeaderboardsOathHelper*, creationType>()));
     }
   }; // OnlineServices.API.HTTPLeaderboardsOathHelper
   #pragma pack(pop)
-  static check_size<sizeof(HTTPLeaderboardsOathHelper), 32 + sizeof(BeatSaberAPI::DataTransferObjects::AccessToken*)> __OnlineServices_API_HTTPLeaderboardsOathHelperSizeCheck;
+  static check_size<sizeof(HTTPLeaderboardsOathHelper), 32 + sizeof(::BeatSaberAPI::DataTransferObjects::AccessToken*)> __OnlineServices_API_HTTPLeaderboardsOathHelperSizeCheck;
   static_assert(sizeof(HTTPLeaderboardsOathHelper) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OnlineServices::API::HTTPLeaderboardsOathHelper::SendWebRequestWithOathAsync
 // Il2CppName: SendWebRequestWithOathAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::StringW>* (OnlineServices::API::HTTPLeaderboardsOathHelper::*)(::StringW, ::StringW, ::Il2CppObject*, System::Threading::CancellationToken)>(&OnlineServices::API::HTTPLeaderboardsOathHelper::SendWebRequestWithOathAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::StringW>* (OnlineServices::API::HTTPLeaderboardsOathHelper::*)(::StringW, ::StringW, ::Il2CppObject*, ::System::Threading::CancellationToken)>(&OnlineServices::API::HTTPLeaderboardsOathHelper::SendWebRequestWithOathAsync)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* method = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -181,7 +181,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: OnlineServices::API::HTTPLeaderboardsOathHelper::LogOut
 // Il2CppName: LogOut
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (OnlineServices::API::HTTPLeaderboardsOathHelper::*)()>(&OnlineServices::API::HTTPLeaderboardsOathHelper::LogOut)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (OnlineServices::API::HTTPLeaderboardsOathHelper::*)()>(&OnlineServices::API::HTTPLeaderboardsOathHelper::LogOut)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::HTTPLeaderboardsOathHelper*), "LogOut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -189,7 +189,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: OnlineServices::API::HTTPLeaderboardsOathHelper::LoginIfNeededAsync
 // Il2CppName: LoginIfNeededAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (OnlineServices::API::HTTPLeaderboardsOathHelper::*)(System::Threading::CancellationToken)>(&OnlineServices::API::HTTPLeaderboardsOathHelper::LoginIfNeededAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (OnlineServices::API::HTTPLeaderboardsOathHelper::*)(::System::Threading::CancellationToken)>(&OnlineServices::API::HTTPLeaderboardsOathHelper::LoginIfNeededAsync)> {
   static const MethodInfo* get() {
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::HTTPLeaderboardsOathHelper*), "LoginIfNeededAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cancellationToken});
@@ -206,7 +206,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Onlin
 // Writing MetadataGetter for method: OnlineServices::API::HTTPLeaderboardsOathHelper::GetAccessTokenAsync
 // Il2CppName: GetAccessTokenAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<BeatSaberAPI::DataTransferObjects::AccessToken*>* (OnlineServices::API::HTTPLeaderboardsOathHelper::*)(System::Threading::CancellationToken)>(&OnlineServices::API::HTTPLeaderboardsOathHelper::GetAccessTokenAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::BeatSaberAPI::DataTransferObjects::AccessToken*>* (OnlineServices::API::HTTPLeaderboardsOathHelper::*)(::System::Threading::CancellationToken)>(&OnlineServices::API::HTTPLeaderboardsOathHelper::GetAccessTokenAsync)> {
   static const MethodInfo* get() {
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::HTTPLeaderboardsOathHelper*), "GetAccessTokenAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cancellationToken});
@@ -215,7 +215,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: OnlineServices::API::HTTPLeaderboardsOathHelper::SendWebRequestAsync
 // Il2CppName: SendWebRequestAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::StringW>* (OnlineServices::API::HTTPLeaderboardsOathHelper::*)(::StringW, ::StringW, ::StringW, ::StringW)>(&OnlineServices::API::HTTPLeaderboardsOathHelper::SendWebRequestAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::StringW>* (OnlineServices::API::HTTPLeaderboardsOathHelper::*)(::StringW, ::StringW, ::StringW, ::StringW)>(&OnlineServices::API::HTTPLeaderboardsOathHelper::SendWebRequestAsync)> {
   static const MethodInfo* get() {
     static auto* uri = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* method = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -227,7 +227,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: OnlineServices::API::HTTPLeaderboardsOathHelper::SendAndWaitAsync
 // Il2CppName: SendAndWaitAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (OnlineServices::API::HTTPLeaderboardsOathHelper::*)(UnityEngine::Networking::UnityWebRequest*, System::Threading::CancellationToken)>(&OnlineServices::API::HTTPLeaderboardsOathHelper::SendAndWaitAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (OnlineServices::API::HTTPLeaderboardsOathHelper::*)(::UnityEngine::Networking::UnityWebRequest*, ::System::Threading::CancellationToken)>(&OnlineServices::API::HTTPLeaderboardsOathHelper::SendAndWaitAsync)> {
   static const MethodInfo* get() {
     static auto* webRequest = &::il2cpp_utils::GetClassFromName("UnityEngine.Networking", "UnityWebRequest")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;

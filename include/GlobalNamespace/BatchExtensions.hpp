@@ -30,8 +30,8 @@ namespace GlobalNamespace {
   class BatchExtensions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BatchExtensions);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BatchExtensions*, "", "BatchExtensions");
+NEED_NO_BOX(::GlobalNamespace::BatchExtensions);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BatchExtensions*, "", "BatchExtensions");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -41,17 +41,17 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class BatchExtensions : public ::Il2CppObject {
     public:
-    // Nested type: GlobalNamespace::BatchExtensions::$Batch$d__0_1<T>
+    // Nested type: ::GlobalNamespace::BatchExtensions::$Batch$d__0_1<T>
     template<typename T>
     class $Batch$d__0_1;
     // static public System.Collections.Generic.IEnumerable`1<System.Collections.Generic.List`1<T>> Batch(System.Collections.Generic.IEnumerable`1<T> enumerable, System.Int32 batchSize)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static System::Collections::Generic::IEnumerable_1<System::Collections::Generic::List_1<T>*>* Batch(System::Collections::Generic::IEnumerable_1<T>* enumerable, int batchSize) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BatchExtensions::Batch");
+    static ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::List_1<T>*>* Batch(::System::Collections::Generic::IEnumerable_1<T>* enumerable, int batchSize) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BatchExtensions::Batch");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "BatchExtensions", "Batch", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(enumerable), ::il2cpp_utils::ExtractType(batchSize)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodRethrow<System::Collections::Generic::IEnumerable_1<System::Collections::Generic::List_1<T>*>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, enumerable, batchSize);
+      return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::List_1<T>*>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, enumerable, batchSize);
     }
   }; // BatchExtensions
   #pragma pack(pop)

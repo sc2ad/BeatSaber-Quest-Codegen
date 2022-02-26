@@ -16,8 +16,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem*, "", "QuickPlaySongPacksDropdown/SongPackMaskItem");
+NEED_NO_BOX(::GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem*, "", "QuickPlaySongPacksDropdown/SongPackMaskItem");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x38
@@ -58,9 +58,9 @@ namespace GlobalNamespace {
     // public SongPackMask songPackMask
     // Size: 0x10
     // Offset: 0x28
-    GlobalNamespace::SongPackMask songPackMask;
+    ::GlobalNamespace::SongPackMask songPackMask;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::SongPackMask) == 0x10);
+    static_assert(sizeof(::GlobalNamespace::SongPackMask) == 0x10);
     public:
     // Get instance field reference: public System.String serializedName
     ::StringW& dyn_serializedName();
@@ -69,19 +69,19 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 order
     int& dyn_order();
     // Get instance field reference: public SongPackMask songPackMask
-    GlobalNamespace::SongPackMask& dyn_songPackMask();
+    ::GlobalNamespace::SongPackMask& dyn_songPackMask();
     // public System.Void .ctor()
     // Offset: 0x13ECBC4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static QuickPlaySongPacksDropdown::SongPackMaskItem* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<QuickPlaySongPacksDropdown::SongPackMaskItem*, creationType>()));
     }
   }; // QuickPlaySongPacksDropdown/SongPackMaskItem
   #pragma pack(pop)
-  static check_size<sizeof(QuickPlaySongPacksDropdown::SongPackMaskItem), 40 + sizeof(GlobalNamespace::SongPackMask)> __GlobalNamespace_QuickPlaySongPacksDropdown_SongPackMaskItemSizeCheck;
+  static check_size<sizeof(QuickPlaySongPacksDropdown::SongPackMaskItem), 40 + sizeof(::GlobalNamespace::SongPackMask)> __GlobalNamespace_QuickPlaySongPacksDropdown_SongPackMaskItemSizeCheck;
   static_assert(sizeof(QuickPlaySongPacksDropdown::SongPackMaskItem) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

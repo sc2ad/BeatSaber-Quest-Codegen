@@ -21,8 +21,8 @@ namespace System::IO {
   class FileData;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::IO::FileData);
-DEFINE_IL2CPP_ARG_TYPE(System::IO::FileData*, "System.IO", "FileData");
+NEED_NO_BOX(::System::IO::FileData);
+DEFINE_IL2CPP_ARG_TYPE(::System::IO::FileData*, "System.IO", "FileData");
 // Type namespace: System.IO
 namespace System::IO {
   // Size: 0x30
@@ -49,9 +49,9 @@ namespace System::IO {
     // public System.IO.FileAttributes Attributes
     // Size: 0x4
     // Offset: 0x18
-    System::IO::FileAttributes Attributes;
+    ::System::IO::FileAttributes Attributes;
     // Field size check
-    static_assert(sizeof(System::IO::FileAttributes) == 0x4);
+    static_assert(sizeof(::System::IO::FileAttributes) == 0x4);
     // public System.Boolean NotExists
     // Size: 0x1
     // Offset: 0x1C
@@ -63,38 +63,38 @@ namespace System::IO {
     // public System.DateTime CreationTime
     // Size: 0x8
     // Offset: 0x20
-    System::DateTime CreationTime;
+    ::System::DateTime CreationTime;
     // Field size check
-    static_assert(sizeof(System::DateTime) == 0x8);
+    static_assert(sizeof(::System::DateTime) == 0x8);
     // public System.DateTime LastWriteTime
     // Size: 0x8
     // Offset: 0x28
-    System::DateTime LastWriteTime;
+    ::System::DateTime LastWriteTime;
     // Field size check
-    static_assert(sizeof(System::DateTime) == 0x8);
+    static_assert(sizeof(::System::DateTime) == 0x8);
     public:
     // Get instance field reference: public System.String Directory
     ::StringW& dyn_Directory();
     // Get instance field reference: public System.IO.FileAttributes Attributes
-    System::IO::FileAttributes& dyn_Attributes();
+    ::System::IO::FileAttributes& dyn_Attributes();
     // Get instance field reference: public System.Boolean NotExists
     bool& dyn_NotExists();
     // Get instance field reference: public System.DateTime CreationTime
-    System::DateTime& dyn_CreationTime();
+    ::System::DateTime& dyn_CreationTime();
     // Get instance field reference: public System.DateTime LastWriteTime
-    System::DateTime& dyn_LastWriteTime();
+    ::System::DateTime& dyn_LastWriteTime();
     // public System.Void .ctor()
     // Offset: 0x1AA08A0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::IO::FileData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileData*, creationType>()));
     }
   }; // System.IO.FileData
   #pragma pack(pop)
-  static check_size<sizeof(FileData), 40 + sizeof(System::DateTime)> __System_IO_FileDataSizeCheck;
+  static check_size<sizeof(FileData), 40 + sizeof(::System::DateTime)> __System_IO_FileDataSizeCheck;
   static_assert(sizeof(FileData) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

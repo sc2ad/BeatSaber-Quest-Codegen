@@ -20,8 +20,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::MonoCustomAttrs::AttributeInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::MonoCustomAttrs::AttributeInfo*, "System", "MonoCustomAttrs/AttributeInfo");
+NEED_NO_BOX(::System::MonoCustomAttrs::AttributeInfo);
+DEFINE_IL2CPP_ARG_TYPE(::System::MonoCustomAttrs::AttributeInfo*, "System", "MonoCustomAttrs/AttributeInfo");
 // Type namespace: System
 namespace System {
   // Size: 0x1C
@@ -42,9 +42,9 @@ namespace System {
     // private System.AttributeUsageAttribute _usage
     // Size: 0x8
     // Offset: 0x10
-    System::AttributeUsageAttribute* usage;
+    ::System::AttributeUsageAttribute* usage;
     // Field size check
-    static_assert(sizeof(System::AttributeUsageAttribute*) == 0x8);
+    static_assert(sizeof(::System::AttributeUsageAttribute*) == 0x8);
     // private System.Int32 _inheritanceLevel
     // Size: 0x4
     // Offset: 0x18
@@ -53,20 +53,20 @@ namespace System {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private System.AttributeUsageAttribute _usage
-    System::AttributeUsageAttribute*& dyn__usage();
+    ::System::AttributeUsageAttribute*& dyn__usage();
     // Get instance field reference: private System.Int32 _inheritanceLevel
     int& dyn__inheritanceLevel();
     // public System.AttributeUsageAttribute get_Usage()
     // Offset: 0x1A973AC
-    System::AttributeUsageAttribute* get_Usage();
+    ::System::AttributeUsageAttribute* get_Usage();
     // public System.Int32 get_InheritanceLevel()
     // Offset: 0x1A973B4
     int get_InheritanceLevel();
     // public System.Void .ctor(System.AttributeUsageAttribute usage, System.Int32 inheritanceLevel)
     // Offset: 0x1A96730
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MonoCustomAttrs::AttributeInfo* New_ctor(System::AttributeUsageAttribute* usage, int inheritanceLevel) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::MonoCustomAttrs::AttributeInfo::.ctor");
+    static MonoCustomAttrs::AttributeInfo* New_ctor(::System::AttributeUsageAttribute* usage, int inheritanceLevel) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::MonoCustomAttrs::AttributeInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoCustomAttrs::AttributeInfo*, creationType>(usage, inheritanceLevel)));
     }
   }; // System.MonoCustomAttrs/System.AttributeInfo
@@ -78,7 +78,7 @@ namespace System {
 // Writing MetadataGetter for method: System::MonoCustomAttrs::AttributeInfo::get_Usage
 // Il2CppName: get_Usage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::AttributeUsageAttribute* (System::MonoCustomAttrs::AttributeInfo::*)()>(&System::MonoCustomAttrs::AttributeInfo::get_Usage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::AttributeUsageAttribute* (System::MonoCustomAttrs::AttributeInfo::*)()>(&System::MonoCustomAttrs::AttributeInfo::get_Usage)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::MonoCustomAttrs::AttributeInfo*), "get_Usage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

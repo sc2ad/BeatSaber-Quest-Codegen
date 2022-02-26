@@ -21,8 +21,8 @@ namespace System::Security::Cryptography {
   class Utils;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Security::Cryptography::Utils);
-DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::Utils*, "System.Security.Cryptography", "Utils");
+NEED_NO_BOX(::System::Security::Cryptography::Utils);
+DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::Utils*, "System.Security.Cryptography", "Utils");
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {
   // Size: 0x10
@@ -32,12 +32,12 @@ namespace System::Security::Cryptography {
   class Utils : public ::Il2CppObject {
     public:
     // Get static field: static private System.Security.Cryptography.RNGCryptoServiceProvider _rng
-    static System::Security::Cryptography::RNGCryptoServiceProvider* _get__rng();
+    static ::System::Security::Cryptography::RNGCryptoServiceProvider* _get__rng();
     // Set static field: static private System.Security.Cryptography.RNGCryptoServiceProvider _rng
-    static void _set__rng(System::Security::Cryptography::RNGCryptoServiceProvider* value);
+    static void _set__rng(::System::Security::Cryptography::RNGCryptoServiceProvider* value);
     // static System.Security.Cryptography.RNGCryptoServiceProvider get_StaticRandomNumberGenerator()
     // Offset: 0x205D60C
-    static System::Security::Cryptography::RNGCryptoServiceProvider* get_StaticRandomNumberGenerator();
+    static ::System::Security::Cryptography::RNGCryptoServiceProvider* get_StaticRandomNumberGenerator();
     // static System.Byte[] GenerateRandom(System.Int32 keySize)
     // Offset: 0x205AD28
     static ::ArrayW<uint8_t> GenerateRandom(int keySize);
@@ -87,7 +87,7 @@ namespace System::Security::Cryptography {
 // Writing MetadataGetter for method: System::Security::Cryptography::Utils::get_StaticRandomNumberGenerator
 // Il2CppName: get_StaticRandomNumberGenerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::RNGCryptoServiceProvider* (*)()>(&System::Security::Cryptography::Utils::get_StaticRandomNumberGenerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::RNGCryptoServiceProvider* (*)()>(&System::Security::Cryptography::Utils::get_StaticRandomNumberGenerator)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::Utils*), "get_StaticRandomNumberGenerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -27,8 +27,8 @@ namespace UnityEngine::AddressableAssets::Utility {
   class DiagnosticInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::AddressableAssets::Utility::DiagnosticInfo);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Utility::DiagnosticInfo*, "UnityEngine.AddressableAssets.Utility", "DiagnosticInfo");
+NEED_NO_BOX(::UnityEngine::AddressableAssets::Utility::DiagnosticInfo);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AddressableAssets::Utility::DiagnosticInfo*, "UnityEngine.AddressableAssets.Utility", "DiagnosticInfo");
 // Type namespace: UnityEngine.AddressableAssets.Utility
 namespace UnityEngine::AddressableAssets::Utility {
   // Size: 0x28
@@ -75,14 +75,14 @@ namespace UnityEngine::AddressableAssets::Utility {
     ::ArrayW<int>& dyn_Dependencies();
     // public UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent CreateEvent(System.String category, UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.DiagnosticEventType eventType, System.Int32 frame, System.Int32 val)
     // Offset: 0x2A2CE20
-    UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent CreateEvent(::StringW category, UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType eventType, int frame, int val);
+    ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent CreateEvent(::StringW category, ::UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType eventType, int frame, int val);
     // public System.Void .ctor()
     // Offset: 0x2A2CE68
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DiagnosticInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::Utility::DiagnosticInfo::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::Utility::DiagnosticInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DiagnosticInfo*, creationType>()));
     }
   }; // UnityEngine.AddressableAssets.Utility.DiagnosticInfo
@@ -94,7 +94,7 @@ namespace UnityEngine::AddressableAssets::Utility {
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Utility::DiagnosticInfo::CreateEvent
 // Il2CppName: CreateEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent (UnityEngine::AddressableAssets::Utility::DiagnosticInfo::*)(::StringW, UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType, int, int)>(&UnityEngine::AddressableAssets::Utility::DiagnosticInfo::CreateEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent (UnityEngine::AddressableAssets::Utility::DiagnosticInfo::*)(::StringW, ::UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType, int, int)>(&UnityEngine::AddressableAssets::Utility::DiagnosticInfo::CreateEvent)> {
   static const MethodInfo* get() {
     static auto* category = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* eventType = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement", "ResourceManager/DiagnosticEventType")->byval_arg;

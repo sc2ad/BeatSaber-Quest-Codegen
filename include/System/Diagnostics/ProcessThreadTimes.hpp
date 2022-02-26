@@ -23,8 +23,8 @@ namespace System::Diagnostics {
   class ProcessThreadTimes;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Diagnostics::ProcessThreadTimes);
-DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::ProcessThreadTimes*, "System.Diagnostics", "ProcessThreadTimes");
+NEED_NO_BOX(::System::Diagnostics::ProcessThreadTimes);
+DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::ProcessThreadTimes*, "System.Diagnostics", "ProcessThreadTimes");
 // Type namespace: System.Diagnostics
 namespace System::Diagnostics {
   // Size: 0x30
@@ -77,14 +77,14 @@ namespace System::Diagnostics {
     int64_t& dyn_user();
     // public System.TimeSpan get_TotalProcessorTime()
     // Offset: 0x1ED6EE8
-    System::TimeSpan get_TotalProcessorTime();
+    ::System::TimeSpan get_TotalProcessorTime();
     // public System.Void .ctor()
     // Offset: 0x1ED6AB4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProcessThreadTimes* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::ProcessThreadTimes::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Diagnostics::ProcessThreadTimes::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProcessThreadTimes*, creationType>()));
     }
   }; // System.Diagnostics.ProcessThreadTimes
@@ -96,7 +96,7 @@ namespace System::Diagnostics {
 // Writing MetadataGetter for method: System::Diagnostics::ProcessThreadTimes::get_TotalProcessorTime
 // Il2CppName: get_TotalProcessorTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (System::Diagnostics::ProcessThreadTimes::*)()>(&System::Diagnostics::ProcessThreadTimes::get_TotalProcessorTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeSpan (System::Diagnostics::ProcessThreadTimes::*)()>(&System::Diagnostics::ProcessThreadTimes::get_TotalProcessorTime)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::ProcessThreadTimes*), "get_TotalProcessorTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

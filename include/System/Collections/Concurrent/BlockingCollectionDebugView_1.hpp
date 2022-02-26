@@ -13,7 +13,7 @@ namespace System::Collections::Concurrent {
   class BlockingCollectionDebugView_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Collections::Concurrent::BlockingCollectionDebugView_1, "System.Collections.Concurrent", "BlockingCollectionDebugView`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Collections::Concurrent::BlockingCollectionDebugView_1, "System.Collections.Concurrent", "BlockingCollectionDebugView`1");
 // Type namespace: System.Collections.Concurrent
 namespace System::Collections::Concurrent {
   // WARNING Size may be invalid!

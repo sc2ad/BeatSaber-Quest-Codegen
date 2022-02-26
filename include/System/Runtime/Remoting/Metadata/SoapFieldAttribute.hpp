@@ -19,8 +19,8 @@ namespace System::Runtime::Remoting::Metadata {
   class SoapFieldAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Remoting::Metadata::SoapFieldAttribute);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Metadata::SoapFieldAttribute*, "System.Runtime.Remoting.Metadata", "SoapFieldAttribute");
+NEED_NO_BOX(::System::Runtime::Remoting::Metadata::SoapFieldAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Metadata::SoapFieldAttribute*, "System.Runtime.Remoting.Metadata", "SoapFieldAttribute");
 // Type namespace: System.Runtime.Remoting.Metadata
 namespace System::Runtime::Remoting::Metadata {
   // Size: 0x31
@@ -29,7 +29,7 @@ namespace System::Runtime::Remoting::Metadata {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: 118AD34
   // [AttributeUsageAttribute] Offset: 118AD34
-  class SoapFieldAttribute : public System::Runtime::Remoting::Metadata::SoapAttribute {
+  class SoapFieldAttribute : public ::System::Runtime::Remoting::Metadata::SoapAttribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -71,7 +71,7 @@ namespace System::Runtime::Remoting::Metadata {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SoapFieldAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Metadata::SoapFieldAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::Metadata::SoapFieldAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SoapFieldAttribute*, creationType>()));
     }
     // override System.Void SetReflectionObject(System.Object reflectionObject)

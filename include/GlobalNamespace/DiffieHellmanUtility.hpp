@@ -47,8 +47,8 @@ namespace GlobalNamespace {
   class DiffieHellmanUtility;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::DiffieHellmanUtility);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DiffieHellmanUtility*, "", "DiffieHellmanUtility");
+NEED_NO_BOX(::GlobalNamespace::DiffieHellmanUtility);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DiffieHellmanUtility*, "", "DiffieHellmanUtility");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -57,13 +57,13 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class DiffieHellmanUtility : public ::Il2CppObject {
     public:
-    // Nested type: GlobalNamespace::DiffieHellmanUtility::KeyType
+    // Nested type: ::GlobalNamespace::DiffieHellmanUtility::KeyType
     struct KeyType;
-    // Nested type: GlobalNamespace::DiffieHellmanUtility::DiffieHellmanKeyPair
+    // Nested type: ::GlobalNamespace::DiffieHellmanUtility::DiffieHellmanKeyPair
     class DiffieHellmanKeyPair;
-    // Nested type: GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair
+    // Nested type: ::GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair
     class ElipticalCurveKeyPair;
-    // Nested type: GlobalNamespace::DiffieHellmanUtility::OperationTimer
+    // Nested type: ::GlobalNamespace::DiffieHellmanUtility::OperationTimer
     class OperationTimer;
     // static field const value: static public System.Int32 kMaxDiffieHellmanPublicKeyLength
     static constexpr const int kMaxDiffieHellmanPublicKeyLength = 2048;
@@ -78,19 +78,19 @@ namespace GlobalNamespace {
     // Set static field: static public System.Int32 kMaxElipticalCurvePublicKeyLength
     static void _set_kMaxElipticalCurvePublicKeyLength(int value);
     // Get static field: static private Org.BouncyCastle.Security.SecureRandom _secureRandom
-    static Org::BouncyCastle::Security::SecureRandom* _get__secureRandom();
+    static ::Org::BouncyCastle::Security::SecureRandom* _get__secureRandom();
     // Set static field: static private Org.BouncyCastle.Security.SecureRandom _secureRandom
-    static void _set__secureRandom(Org::BouncyCastle::Security::SecureRandom* value);
+    static void _set__secureRandom(::Org::BouncyCastle::Security::SecureRandom* value);
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1221938
     // Get static field: static private Org.BouncyCastle.Crypto.Parameters.DHParameters _dhParameters
-    static Org::BouncyCastle::Crypto::Parameters::DHParameters* _get__dhParameters();
+    static ::Org::BouncyCastle::Crypto::Parameters::DHParameters* _get__dhParameters();
     // Set static field: static private Org.BouncyCastle.Crypto.Parameters.DHParameters _dhParameters
-    static void _set__dhParameters(Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
+    static void _set__dhParameters(::Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1221948
     // Get static field: static private Org.BouncyCastle.Crypto.Parameters.ECDomainParameters _ecParameters
-    static Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* _get__ecParameters();
+    static ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* _get__ecParameters();
     // Set static field: static private Org.BouncyCastle.Crypto.Parameters.ECDomainParameters _ecParameters
-    static void _set__ecParameters(Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* value);
+    static void _set__ecParameters(::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* value);
     // Get static field: static private System.Byte[] _ecPointFormats
     static ::ArrayW<uint8_t> _get__ecPointFormats();
     // Set static field: static private System.Byte[] _ecPointFormats
@@ -100,22 +100,22 @@ namespace GlobalNamespace {
     static void _cctor();
     // static public System.Threading.Tasks.Task`1<IDiffieHellmanKeyPair> GenerateKeysAsync(DiffieHellmanUtility/KeyType keyType)
     // Offset: 0x2C3EC34
-    static System::Threading::Tasks::Task_1<GlobalNamespace::IDiffieHellmanKeyPair*>* GenerateKeysAsync(GlobalNamespace::DiffieHellmanUtility::KeyType keyType);
+    static ::System::Threading::Tasks::Task_1<::GlobalNamespace::IDiffieHellmanKeyPair*>* GenerateKeysAsync(::GlobalNamespace::DiffieHellmanUtility::KeyType keyType);
     // static public IDiffieHellmanKeyPair GenerateKeys(DiffieHellmanUtility/KeyType keyType)
     // Offset: 0x2C3ECF0
-    static GlobalNamespace::IDiffieHellmanKeyPair* GenerateKeys(GlobalNamespace::DiffieHellmanUtility::KeyType keyType);
+    static ::GlobalNamespace::IDiffieHellmanKeyPair* GenerateKeys(::GlobalNamespace::DiffieHellmanUtility::KeyType keyType);
     // static private DiffieHellmanUtility/DiffieHellmanKeyPair GenerateDiffieHellmanKeys()
     // Offset: 0x2C3EEC8
-    static GlobalNamespace::DiffieHellmanUtility::DiffieHellmanKeyPair* GenerateDiffieHellmanKeys();
+    static ::GlobalNamespace::DiffieHellmanUtility::DiffieHellmanKeyPair* GenerateDiffieHellmanKeys();
     // static private DiffieHellmanUtility/ElipticalCurveKeyPair GenerateElipticalCurveKeys()
     // Offset: 0x2C3ED74
-    static GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair* GenerateElipticalCurveKeys();
+    static ::GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair* GenerateElipticalCurveKeys();
     // static private System.Byte[] GetPreMasterSecret(Org.BouncyCastle.Crypto.Agreement.DHBasicAgreement dhBasicAgreement, System.Byte[] clientPublicKey)
     // Offset: 0x2C3F158
-    static ::ArrayW<uint8_t> GetPreMasterSecret(Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement* dhBasicAgreement, ::ArrayW<uint8_t> clientPublicKey);
+    static ::ArrayW<uint8_t> GetPreMasterSecret(::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement* dhBasicAgreement, ::ArrayW<uint8_t> clientPublicKey);
     // static private System.Byte[] GetPreMasterSecret(Org.BouncyCastle.Crypto.Agreement.ECDHBasicAgreement ecdhBasicAgreement, System.Byte[] clientPublicKey)
     // Offset: 0x2C3F2AC
-    static ::ArrayW<uint8_t> GetPreMasterSecret(Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement* ecdhBasicAgreement, ::ArrayW<uint8_t> clientPublicKey);
+    static ::ArrayW<uint8_t> GetPreMasterSecret(::Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement* ecdhBasicAgreement, ::ArrayW<uint8_t> clientPublicKey);
   }; // DiffieHellmanUtility
   #pragma pack(pop)
 }
@@ -131,7 +131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::DiffieHellmanUtility::GenerateKeysAsync
 // Il2CppName: GenerateKeysAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::IDiffieHellmanKeyPair*>* (*)(GlobalNamespace::DiffieHellmanUtility::KeyType)>(&GlobalNamespace::DiffieHellmanUtility::GenerateKeysAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::IDiffieHellmanKeyPair*>* (*)(::GlobalNamespace::DiffieHellmanUtility::KeyType)>(&GlobalNamespace::DiffieHellmanUtility::GenerateKeysAsync)> {
   static const MethodInfo* get() {
     static auto* keyType = &::il2cpp_utils::GetClassFromName("", "DiffieHellmanUtility/KeyType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DiffieHellmanUtility*), "GenerateKeysAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{keyType});
@@ -140,7 +140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: GlobalNamespace::DiffieHellmanUtility::GenerateKeys
 // Il2CppName: GenerateKeys
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IDiffieHellmanKeyPair* (*)(GlobalNamespace::DiffieHellmanUtility::KeyType)>(&GlobalNamespace::DiffieHellmanUtility::GenerateKeys)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IDiffieHellmanKeyPair* (*)(::GlobalNamespace::DiffieHellmanUtility::KeyType)>(&GlobalNamespace::DiffieHellmanUtility::GenerateKeys)> {
   static const MethodInfo* get() {
     static auto* keyType = &::il2cpp_utils::GetClassFromName("", "DiffieHellmanUtility/KeyType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DiffieHellmanUtility*), "GenerateKeys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{keyType});
@@ -149,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::DiffieHellmanUtility::GenerateDiffieHellmanKeys
 // Il2CppName: GenerateDiffieHellmanKeys
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::DiffieHellmanUtility::DiffieHellmanKeyPair* (*)()>(&GlobalNamespace::DiffieHellmanUtility::GenerateDiffieHellmanKeys)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::DiffieHellmanUtility::DiffieHellmanKeyPair* (*)()>(&GlobalNamespace::DiffieHellmanUtility::GenerateDiffieHellmanKeys)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DiffieHellmanUtility*), "GenerateDiffieHellmanKeys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -157,7 +157,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::DiffieHellmanUtility::GenerateElipticalCurveKeys
 // Il2CppName: GenerateElipticalCurveKeys
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair* (*)()>(&GlobalNamespace::DiffieHellmanUtility::GenerateElipticalCurveKeys)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair* (*)()>(&GlobalNamespace::DiffieHellmanUtility::GenerateElipticalCurveKeys)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DiffieHellmanUtility*), "GenerateElipticalCurveKeys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -165,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::DiffieHellmanUtility::GetPreMasterSecret
 // Il2CppName: GetPreMasterSecret
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement*, ::ArrayW<uint8_t>)>(&GlobalNamespace::DiffieHellmanUtility::GetPreMasterSecret)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement*, ::ArrayW<uint8_t>)>(&GlobalNamespace::DiffieHellmanUtility::GetPreMasterSecret)> {
   static const MethodInfo* get() {
     static auto* dhBasicAgreement = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Crypto.Agreement", "DHBasicAgreement")->byval_arg;
     static auto* clientPublicKey = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -175,7 +175,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
 // Writing MetadataGetter for method: GlobalNamespace::DiffieHellmanUtility::GetPreMasterSecret
 // Il2CppName: GetPreMasterSecret
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement*, ::ArrayW<uint8_t>)>(&GlobalNamespace::DiffieHellmanUtility::GetPreMasterSecret)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement*, ::ArrayW<uint8_t>)>(&GlobalNamespace::DiffieHellmanUtility::GetPreMasterSecret)> {
   static const MethodInfo* get() {
     static auto* ecdhBasicAgreement = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Crypto.Agreement", "ECDHBasicAgreement")->byval_arg;
     static auto* clientPublicKey = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;

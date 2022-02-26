@@ -34,8 +34,8 @@ namespace GlobalNamespace {
   class OVRMixedReality;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRMixedReality);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMixedReality*, "", "OVRMixedReality");
+NEED_NO_BOX(::GlobalNamespace::OVRMixedReality);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRMixedReality*, "", "OVRMixedReality");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -49,17 +49,17 @@ namespace GlobalNamespace {
     // Set static field: static public System.Boolean useFakeExternalCamera
     static void _set_useFakeExternalCamera(bool value);
     // Get static field: static public UnityEngine.Vector3 fakeCameraFloorLevelPosition
-    static UnityEngine::Vector3 _get_fakeCameraFloorLevelPosition();
+    static ::UnityEngine::Vector3 _get_fakeCameraFloorLevelPosition();
     // Set static field: static public UnityEngine.Vector3 fakeCameraFloorLevelPosition
-    static void _set_fakeCameraFloorLevelPosition(UnityEngine::Vector3 value);
+    static void _set_fakeCameraFloorLevelPosition(::UnityEngine::Vector3 value);
     // Get static field: static public UnityEngine.Vector3 fakeCameraEyeLevelPosition
-    static UnityEngine::Vector3 _get_fakeCameraEyeLevelPosition();
+    static ::UnityEngine::Vector3 _get_fakeCameraEyeLevelPosition();
     // Set static field: static public UnityEngine.Vector3 fakeCameraEyeLevelPosition
-    static void _set_fakeCameraEyeLevelPosition(UnityEngine::Vector3 value);
+    static void _set_fakeCameraEyeLevelPosition(::UnityEngine::Vector3 value);
     // Get static field: static public UnityEngine.Quaternion fakeCameraRotation
-    static UnityEngine::Quaternion _get_fakeCameraRotation();
+    static ::UnityEngine::Quaternion _get_fakeCameraRotation();
     // Set static field: static public UnityEngine.Quaternion fakeCameraRotation
-    static void _set_fakeCameraRotation(UnityEngine::Quaternion value);
+    static void _set_fakeCameraRotation(::UnityEngine::Quaternion value);
     // Get static field: static public System.Single fakeCameraFov
     static float _get_fakeCameraFov();
     // Set static field: static public System.Single fakeCameraFov
@@ -69,15 +69,15 @@ namespace GlobalNamespace {
     // Set static field: static public System.Single fakeCameraAspect
     static void _set_fakeCameraAspect(float value);
     // Get static field: static public OVRComposition currentComposition
-    static GlobalNamespace::OVRComposition* _get_currentComposition();
+    static ::GlobalNamespace::OVRComposition* _get_currentComposition();
     // Set static field: static public OVRComposition currentComposition
-    static void _set_currentComposition(GlobalNamespace::OVRComposition* value);
+    static void _set_currentComposition(::GlobalNamespace::OVRComposition* value);
     // static private System.Void .cctor()
     // Offset: 0x1647E4C
     static void _cctor();
     // static public System.Void Update(UnityEngine.GameObject parentObject, UnityEngine.Camera mainCamera, OVRMixedRealityCaptureConfiguration configuration, OVRManager/TrackingOrigin trackingOrigin)
     // Offset: 0x164731C
-    static void Update(UnityEngine::GameObject* parentObject, UnityEngine::Camera* mainCamera, GlobalNamespace::OVRMixedRealityCaptureConfiguration* configuration, GlobalNamespace::OVRManager_TrackingOrigin trackingOrigin);
+    static void Update(::UnityEngine::GameObject* parentObject, ::UnityEngine::Camera* mainCamera, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* configuration, ::GlobalNamespace::OVRManager_TrackingOrigin trackingOrigin);
     // static public System.Void Cleanup()
     // Offset: 0x1647BA4
     static void Cleanup();
@@ -99,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedReality::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, UnityEngine::Camera*, GlobalNamespace::OVRMixedRealityCaptureConfiguration*, GlobalNamespace::OVRManager_TrackingOrigin)>(&GlobalNamespace::OVRMixedReality::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*, ::UnityEngine::Camera*, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration*, ::GlobalNamespace::OVRManager_TrackingOrigin)>(&GlobalNamespace::OVRMixedReality::Update)> {
   static const MethodInfo* get() {
     static auto* parentObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* mainCamera = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;

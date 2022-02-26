@@ -15,7 +15,7 @@ namespace UnityEngine {
   struct Mathf;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Mathf, "UnityEngine", "Mathf");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Mathf, "UnityEngine", "Mathf");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x0
@@ -27,13 +27,13 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: 11A53B0
   // [NativeHeaderAttribute] Offset: 11A53B0
   // [NativeHeaderAttribute] Offset: 11A53B0
-  struct Mathf/*, public System::ValueType*/ {
+  struct Mathf/*, public ::System::ValueType*/ {
     public:
     // Creating value type constructor for type: Mathf
     constexpr Mathf() noexcept {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get static field: static public readonly System.Single Epsilon
     static float _get_Epsilon();

@@ -25,8 +25,8 @@ namespace System::Runtime::InteropServices {
   class ComDefaultInterfaceAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::InteropServices::ComDefaultInterfaceAttribute);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::ComDefaultInterfaceAttribute*, "System.Runtime.InteropServices", "ComDefaultInterfaceAttribute");
+NEED_NO_BOX(::System::Runtime::InteropServices::ComDefaultInterfaceAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::InteropServices::ComDefaultInterfaceAttribute*, "System.Runtime.InteropServices", "ComDefaultInterfaceAttribute");
 // Type namespace: System.Runtime.InteropServices
 namespace System::Runtime::InteropServices {
   // Size: 0x18
@@ -35,7 +35,7 @@ namespace System::Runtime::InteropServices {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: 118B6F8
   // [AttributeUsageAttribute] Offset: 118B6F8
-  class ComDefaultInterfaceAttribute : public System::Attribute {
+  class ComDefaultInterfaceAttribute : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -49,26 +49,26 @@ namespace System::Runtime::InteropServices {
     // System.Type _val
     // Size: 0x8
     // Offset: 0x10
-    System::Type* val;
+    ::System::Type* val;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     public:
-    // Creating conversion operator: operator System::Type*
-    constexpr operator System::Type*() const noexcept {
+    // Creating conversion operator: operator ::System::Type*
+    constexpr operator ::System::Type*() const noexcept {
       return val;
     }
     // Get instance field reference: System.Type _val
-    System::Type*& dyn__val();
+    ::System::Type*& dyn__val();
     // public System.Void .ctor(System.Type defaultInterface)
     // Offset: 0x1C6BB3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ComDefaultInterfaceAttribute* New_ctor(System::Type* defaultInterface) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::ComDefaultInterfaceAttribute::.ctor");
+    static ComDefaultInterfaceAttribute* New_ctor(::System::Type* defaultInterface) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::InteropServices::ComDefaultInterfaceAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ComDefaultInterfaceAttribute*, creationType>(defaultInterface)));
     }
   }; // System.Runtime.InteropServices.ComDefaultInterfaceAttribute
   #pragma pack(pop)
-  static check_size<sizeof(ComDefaultInterfaceAttribute), 16 + sizeof(System::Type*)> __System_Runtime_InteropServices_ComDefaultInterfaceAttributeSizeCheck;
+  static check_size<sizeof(ComDefaultInterfaceAttribute), 16 + sizeof(::System::Type*)> __System_Runtime_InteropServices_ComDefaultInterfaceAttributeSizeCheck;
   static_assert(sizeof(ComDefaultInterfaceAttribute) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

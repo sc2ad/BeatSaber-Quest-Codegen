@@ -33,8 +33,8 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
   class ContentCatalogDataEntry;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry*, "UnityEngine.AddressableAssets.ResourceLocators", "ContentCatalogDataEntry");
+NEED_NO_BOX(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry*, "UnityEngine.AddressableAssets.ResourceLocators", "ContentCatalogDataEntry");
 // Type namespace: UnityEngine.AddressableAssets.ResourceLocators
 namespace UnityEngine::AddressableAssets::ResourceLocators {
   // Size: 0x40
@@ -67,15 +67,15 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
     // private System.Collections.Generic.List`1<System.Object> <Keys>k__BackingField
     // Size: 0x8
     // Offset: 0x20
-    System::Collections::Generic::List_1<::Il2CppObject*>* Keys;
+    ::System::Collections::Generic::List_1<::Il2CppObject*>* Keys;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<::Il2CppObject*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::Il2CppObject*>*) == 0x8);
     // private System.Collections.Generic.List`1<System.Object> <Dependencies>k__BackingField
     // Size: 0x8
     // Offset: 0x28
-    System::Collections::Generic::List_1<::Il2CppObject*>* Dependencies;
+    ::System::Collections::Generic::List_1<::Il2CppObject*>* Dependencies;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<::Il2CppObject*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::Il2CppObject*>*) == 0x8);
     // private System.Object <Data>k__BackingField
     // Size: 0x8
     // Offset: 0x30
@@ -85,22 +85,22 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
     // private System.Type <ResourceType>k__BackingField
     // Size: 0x8
     // Offset: 0x38
-    System::Type* ResourceType;
+    ::System::Type* ResourceType;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     public:
     // Get instance field reference: private System.String <InternalId>k__BackingField
     ::StringW& dyn_$InternalId$k__BackingField();
     // Get instance field reference: private System.String <Provider>k__BackingField
     ::StringW& dyn_$Provider$k__BackingField();
     // Get instance field reference: private System.Collections.Generic.List`1<System.Object> <Keys>k__BackingField
-    System::Collections::Generic::List_1<::Il2CppObject*>*& dyn_$Keys$k__BackingField();
+    ::System::Collections::Generic::List_1<::Il2CppObject*>*& dyn_$Keys$k__BackingField();
     // Get instance field reference: private System.Collections.Generic.List`1<System.Object> <Dependencies>k__BackingField
-    System::Collections::Generic::List_1<::Il2CppObject*>*& dyn_$Dependencies$k__BackingField();
+    ::System::Collections::Generic::List_1<::Il2CppObject*>*& dyn_$Dependencies$k__BackingField();
     // Get instance field reference: private System.Object <Data>k__BackingField
     ::Il2CppObject*& dyn_$Data$k__BackingField();
     // Get instance field reference: private System.Type <ResourceType>k__BackingField
-    System::Type*& dyn_$ResourceType$k__BackingField();
+    ::System::Type*& dyn_$ResourceType$k__BackingField();
     // public System.String get_InternalId()
     // Offset: 0x17E90E8
     ::StringW get_InternalId();
@@ -115,16 +115,16 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
     void set_Provider(::StringW value);
     // public System.Collections.Generic.List`1<System.Object> get_Keys()
     // Offset: 0x17E9108
-    System::Collections::Generic::List_1<::Il2CppObject*>* get_Keys();
+    ::System::Collections::Generic::List_1<::Il2CppObject*>* get_Keys();
     // private System.Void set_Keys(System.Collections.Generic.List`1<System.Object> value)
     // Offset: 0x17E9110
-    void set_Keys(System::Collections::Generic::List_1<::Il2CppObject*>* value);
+    void set_Keys(::System::Collections::Generic::List_1<::Il2CppObject*>* value);
     // public System.Collections.Generic.List`1<System.Object> get_Dependencies()
     // Offset: 0x17E9118
-    System::Collections::Generic::List_1<::Il2CppObject*>* get_Dependencies();
+    ::System::Collections::Generic::List_1<::Il2CppObject*>* get_Dependencies();
     // private System.Void set_Dependencies(System.Collections.Generic.List`1<System.Object> value)
     // Offset: 0x17E9120
-    void set_Dependencies(System::Collections::Generic::List_1<::Il2CppObject*>* value);
+    void set_Dependencies(::System::Collections::Generic::List_1<::Il2CppObject*>* value);
     // public System.Object get_Data()
     // Offset: 0x17E9128
     ::Il2CppObject* get_Data();
@@ -133,20 +133,20 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
     void set_Data(::Il2CppObject* value);
     // public System.Type get_ResourceType()
     // Offset: 0x17E9138
-    System::Type* get_ResourceType();
+    ::System::Type* get_ResourceType();
     // private System.Void set_ResourceType(System.Type value)
     // Offset: 0x17E9140
-    void set_ResourceType(System::Type* value);
+    void set_ResourceType(::System::Type* value);
     // public System.Void .ctor(System.Type type, System.String internalId, System.String provider, System.Collections.Generic.IEnumerable`1<System.Object> keys, System.Collections.Generic.IEnumerable`1<System.Object> dependencies, System.Object extraData)
     // Offset: 0x17E9148
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ContentCatalogDataEntry* New_ctor(System::Type* type, ::StringW internalId, ::StringW provider, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* keys, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* dependencies, ::Il2CppObject* extraData) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::.ctor");
+    static ContentCatalogDataEntry* New_ctor(::System::Type* type, ::StringW internalId, ::StringW provider, ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* keys, ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* dependencies, ::Il2CppObject* extraData) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContentCatalogDataEntry*, creationType>(type, internalId, provider, keys, dependencies, extraData)));
     }
   }; // UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogDataEntry
   #pragma pack(pop)
-  static check_size<sizeof(ContentCatalogDataEntry), 56 + sizeof(System::Type*)> __UnityEngine_AddressableAssets_ResourceLocators_ContentCatalogDataEntrySizeCheck;
+  static check_size<sizeof(ContentCatalogDataEntry), 56 + sizeof(::System::Type*)> __UnityEngine_AddressableAssets_ResourceLocators_ContentCatalogDataEntrySizeCheck;
   static_assert(sizeof(ContentCatalogDataEntry) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -187,7 +187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::get_Keys
 // Il2CppName: get_Keys
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::Il2CppObject*>* (UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::*)()>(&UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::get_Keys)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::Il2CppObject*>* (UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::*)()>(&UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::get_Keys)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry*), "get_Keys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -195,7 +195,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::set_Keys
 // Il2CppName: set_Keys
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::*)(System::Collections::Generic::List_1<::Il2CppObject*>*)>(&UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::set_Keys)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::*)(::System::Collections::Generic::List_1<::Il2CppObject*>*)>(&UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::set_Keys)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Object")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry*), "set_Keys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -204,7 +204,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::get_Dependencies
 // Il2CppName: get_Dependencies
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::Il2CppObject*>* (UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::*)()>(&UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::get_Dependencies)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::Il2CppObject*>* (UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::*)()>(&UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::get_Dependencies)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry*), "get_Dependencies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -212,7 +212,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::set_Dependencies
 // Il2CppName: set_Dependencies
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::*)(System::Collections::Generic::List_1<::Il2CppObject*>*)>(&UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::set_Dependencies)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::*)(::System::Collections::Generic::List_1<::Il2CppObject*>*)>(&UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::set_Dependencies)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Object")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry*), "set_Dependencies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -238,7 +238,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::get_ResourceType
 // Il2CppName: get_ResourceType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::*)()>(&UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::get_ResourceType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::*)()>(&UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::get_ResourceType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry*), "get_ResourceType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -246,7 +246,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::set_ResourceType
 // Il2CppName: set_ResourceType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::*)(System::Type*)>(&UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::set_ResourceType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::*)(::System::Type*)>(&UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::set_ResourceType)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry*), "set_ResourceType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

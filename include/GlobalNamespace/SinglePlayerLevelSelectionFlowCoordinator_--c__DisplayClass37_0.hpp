@@ -20,8 +20,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::$$c__DisplayClass37_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::$$c__DisplayClass37_0*, "", "SinglePlayerLevelSelectionFlowCoordinator/<>c__DisplayClass37_0");
+NEED_NO_BOX(::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::$$c__DisplayClass37_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::$$c__DisplayClass37_0*, "", "SinglePlayerLevelSelectionFlowCoordinator/<>c__DisplayClass37_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x30
@@ -43,15 +43,15 @@ namespace GlobalNamespace {
     // public SinglePlayerLevelSelectionFlowCoordinator <>4__this
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator* $$4__this;
+    ::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator* $$4__this;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*) == 0x8);
     // public System.Action beforeSceneSwitchCallback
     // Size: 0x8
     // Offset: 0x18
-    System::Action* beforeSceneSwitchCallback;
+    ::System::Action* beforeSceneSwitchCallback;
     // Field size check
-    static_assert(sizeof(System::Action*) == 0x8);
+    static_assert(sizeof(::System::Action*) == 0x8);
     // public System.Boolean practice
     // Size: 0x1
     // Offset: 0x20
@@ -63,18 +63,18 @@ namespace GlobalNamespace {
     // public System.Action <>9__1
     // Size: 0x8
     // Offset: 0x28
-    System::Action* $$9__1;
+    ::System::Action* $$9__1;
     // Field size check
-    static_assert(sizeof(System::Action*) == 0x8);
+    static_assert(sizeof(::System::Action*) == 0x8);
     public:
     // Get instance field reference: public SinglePlayerLevelSelectionFlowCoordinator <>4__this
-    GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*& dyn_$$4__this();
+    ::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*& dyn_$$4__this();
     // Get instance field reference: public System.Action beforeSceneSwitchCallback
-    System::Action*& dyn_beforeSceneSwitchCallback();
+    ::System::Action*& dyn_beforeSceneSwitchCallback();
     // Get instance field reference: public System.Boolean practice
     bool& dyn_practice();
     // Get instance field reference: public System.Action <>9__1
-    System::Action*& dyn_$$9__1();
+    ::System::Action*& dyn_$$9__1();
     // System.Void <StartLevelOrShow360Prompt>b__0(System.Int32 buttonNumber)
     // Offset: 0x13CF098
     void $StartLevelOrShow360Prompt$b__0(int buttonNumber);
@@ -87,12 +87,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SinglePlayerLevelSelectionFlowCoordinator::$$c__DisplayClass37_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::$$c__DisplayClass37_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::$$c__DisplayClass37_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SinglePlayerLevelSelectionFlowCoordinator::$$c__DisplayClass37_0*, creationType>()));
     }
   }; // SinglePlayerLevelSelectionFlowCoordinator/<>c__DisplayClass37_0
   #pragma pack(pop)
-  static check_size<sizeof(SinglePlayerLevelSelectionFlowCoordinator::$$c__DisplayClass37_0), 40 + sizeof(System::Action*)> __GlobalNamespace_SinglePlayerLevelSelectionFlowCoordinator_$$c__DisplayClass37_0SizeCheck;
+  static check_size<sizeof(SinglePlayerLevelSelectionFlowCoordinator::$$c__DisplayClass37_0), 40 + sizeof(::System::Action*)> __GlobalNamespace_SinglePlayerLevelSelectionFlowCoordinator_$$c__DisplayClass37_0SizeCheck;
   static_assert(sizeof(SinglePlayerLevelSelectionFlowCoordinator::$$c__DisplayClass37_0) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -57,8 +57,8 @@ namespace System::Dynamic::Utils {
   class ExpressionUtils;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Dynamic::Utils::ExpressionUtils);
-DEFINE_IL2CPP_ARG_TYPE(System::Dynamic::Utils::ExpressionUtils*, "System.Dynamic.Utils", "ExpressionUtils");
+NEED_NO_BOX(::System::Dynamic::Utils::ExpressionUtils);
+DEFINE_IL2CPP_ARG_TYPE(::System::Dynamic::Utils::ExpressionUtils*, "System.Dynamic.Utils", "ExpressionUtils");
 // Type namespace: System.Dynamic.Utils
 namespace System::Dynamic::Utils {
   // Size: 0x10
@@ -70,47 +70,47 @@ namespace System::Dynamic::Utils {
     // static public System.Collections.ObjectModel.ReadOnlyCollection`1<T> ReturnReadOnly(ref System.Collections.Generic.IReadOnlyList`1<T> collection)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static System::Collections::ObjectModel::ReadOnlyCollection_1<T>* ReturnReadOnly(ByRef<System::Collections::Generic::IReadOnlyList_1<T>*> collection) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Dynamic::Utils::ExpressionUtils::ReturnReadOnly");
+    static ::System::Collections::ObjectModel::ReadOnlyCollection_1<T>* ReturnReadOnly(ByRef<::System::Collections::Generic::IReadOnlyList_1<T>*> collection) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Dynamic::Utils::ExpressionUtils::ReturnReadOnly");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Dynamic.Utils", "ExpressionUtils", "ReturnReadOnly", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(collection)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodRethrow<System::Collections::ObjectModel::ReadOnlyCollection_1<T>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, byref(collection));
+      return ::il2cpp_utils::RunMethodRethrow<::System::Collections::ObjectModel::ReadOnlyCollection_1<T>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, byref(collection));
     }
     // static public T ReturnObject(System.Object collectionOrT)
     // Offset: 0xFFFFFFFF
     template<class T>
     static T ReturnObject(::Il2CppObject* collectionOrT) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Dynamic::Utils::ExpressionUtils::ReturnObject");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Dynamic::Utils::ExpressionUtils::ReturnObject");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Dynamic.Utils", "ExpressionUtils", "ReturnObject", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(collectionOrT)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, collectionOrT);
     }
     // static public System.Void ValidateArgumentTypes(System.Reflection.MethodBase method, System.Linq.Expressions.ExpressionType nodeKind, ref System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.Expression> arguments, System.String methodParamName)
     // Offset: 0x15F0E28
-    static void ValidateArgumentTypes(System::Reflection::MethodBase* method, System::Linq::Expressions::ExpressionType nodeKind, ByRef<System::Collections::ObjectModel::ReadOnlyCollection_1<System::Linq::Expressions::Expression*>*> arguments, ::StringW methodParamName);
+    static void ValidateArgumentTypes(::System::Reflection::MethodBase* method, ::System::Linq::Expressions::ExpressionType nodeKind, ByRef<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>*> arguments, ::StringW methodParamName);
     // static public System.Void ValidateArgumentCount(System.Reflection.MethodBase method, System.Linq.Expressions.ExpressionType nodeKind, System.Int32 count, System.Reflection.ParameterInfo[] pis)
     // Offset: 0x15F1144
-    static void ValidateArgumentCount(System::Reflection::MethodBase* method, System::Linq::Expressions::ExpressionType nodeKind, int count, ::ArrayW<System::Reflection::ParameterInfo*> pis);
+    static void ValidateArgumentCount(::System::Reflection::MethodBase* method, ::System::Linq::Expressions::ExpressionType nodeKind, int count, ::ArrayW<::System::Reflection::ParameterInfo*> pis);
     // static public System.Linq.Expressions.Expression ValidateOneArgument(System.Reflection.MethodBase method, System.Linq.Expressions.ExpressionType nodeKind, System.Linq.Expressions.Expression arguments, System.Reflection.ParameterInfo pi, System.String methodParamName, System.String argumentParamName, System.Int32 index)
     // Offset: 0x15F1218
-    static System::Linq::Expressions::Expression* ValidateOneArgument(System::Reflection::MethodBase* method, System::Linq::Expressions::ExpressionType nodeKind, System::Linq::Expressions::Expression* arguments, System::Reflection::ParameterInfo* pi, ::StringW methodParamName, ::StringW argumentParamName, int index);
+    static ::System::Linq::Expressions::Expression* ValidateOneArgument(::System::Reflection::MethodBase* method, ::System::Linq::Expressions::ExpressionType nodeKind, ::System::Linq::Expressions::Expression* arguments, ::System::Reflection::ParameterInfo* pi, ::StringW methodParamName, ::StringW argumentParamName, int index);
     // static public System.Void RequiresCanRead(System.Linq.Expressions.Expression expression, System.String paramName)
     // Offset: 0x15F1978
-    static void RequiresCanRead(System::Linq::Expressions::Expression* expression, ::StringW paramName);
+    static void RequiresCanRead(::System::Linq::Expressions::Expression* expression, ::StringW paramName);
     // static public System.Void RequiresCanRead(System.Linq.Expressions.Expression expression, System.String paramName, System.Int32 idx)
     // Offset: 0x15F1570
-    static void RequiresCanRead(System::Linq::Expressions::Expression* expression, ::StringW paramName, int idx);
+    static void RequiresCanRead(::System::Linq::Expressions::Expression* expression, ::StringW paramName, int idx);
     // static public System.Boolean TryQuote(System.Type parameterType, ref System.Linq.Expressions.Expression argument)
     // Offset: 0x15F17D0
-    static bool TryQuote(System::Type* parameterType, ByRef<System::Linq::Expressions::Expression*> argument);
+    static bool TryQuote(::System::Type* parameterType, ByRef<::System::Linq::Expressions::Expression*> argument);
     // static System.Reflection.ParameterInfo[] GetParametersForValidation(System.Reflection.MethodBase method, System.Linq.Expressions.ExpressionType nodeKind)
     // Offset: 0x15F10B8
-    static ::ArrayW<System::Reflection::ParameterInfo*> GetParametersForValidation(System::Reflection::MethodBase* method, System::Linq::Expressions::ExpressionType nodeKind);
+    static ::ArrayW<::System::Reflection::ParameterInfo*> GetParametersForValidation(::System::Reflection::MethodBase* method, ::System::Linq::Expressions::ExpressionType nodeKind);
     // static System.Boolean SameElements(ref System.Collections.Generic.IEnumerable`1<T> replacement, System.Collections.Generic.IReadOnlyList`1<T> current)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static bool SameElements(ByRef<System::Collections::Generic::IEnumerable_1<T>*> replacement, System::Collections::Generic::IReadOnlyList_1<T>* current) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Dynamic::Utils::ExpressionUtils::SameElements");
+    static bool SameElements(ByRef<::System::Collections::Generic::IEnumerable_1<T>*> replacement, ::System::Collections::Generic::IReadOnlyList_1<T>* current) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Dynamic::Utils::ExpressionUtils::SameElements");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Dynamic.Utils", "ExpressionUtils", "SameElements", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(replacement), ::il2cpp_utils::ExtractType(current)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, byref(replacement), current);
@@ -118,8 +118,8 @@ namespace System::Dynamic::Utils {
     // static private System.Boolean SameElementsInCollection(System.Collections.Generic.ICollection`1<T> replacement, System.Collections.Generic.IReadOnlyList`1<T> current)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static bool SameElementsInCollection(System::Collections::Generic::ICollection_1<T>* replacement, System::Collections::Generic::IReadOnlyList_1<T>* current) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Dynamic::Utils::ExpressionUtils::SameElementsInCollection");
+    static bool SameElementsInCollection(::System::Collections::Generic::ICollection_1<T>* replacement, ::System::Collections::Generic::IReadOnlyList_1<T>* current) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Dynamic::Utils::ExpressionUtils::SameElementsInCollection");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Dynamic.Utils", "ExpressionUtils", "SameElementsInCollection", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(replacement), ::il2cpp_utils::ExtractType(current)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, replacement, current);
@@ -137,7 +137,7 @@ namespace System::Dynamic::Utils {
 // Writing MetadataGetter for method: System::Dynamic::Utils::ExpressionUtils::ValidateArgumentTypes
 // Il2CppName: ValidateArgumentTypes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Reflection::MethodBase*, System::Linq::Expressions::ExpressionType, ByRef<System::Collections::ObjectModel::ReadOnlyCollection_1<System::Linq::Expressions::Expression*>*>, ::StringW)>(&System::Dynamic::Utils::ExpressionUtils::ValidateArgumentTypes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Reflection::MethodBase*, ::System::Linq::Expressions::ExpressionType, ByRef<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>*>, ::StringW)>(&System::Dynamic::Utils::ExpressionUtils::ValidateArgumentTypes)> {
   static const MethodInfo* get() {
     static auto* method = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodBase")->byval_arg;
     static auto* nodeKind = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "ExpressionType")->byval_arg;
@@ -149,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Dynamic::Utils::ExpressionUtils::ValidateArgumentCount
 // Il2CppName: ValidateArgumentCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Reflection::MethodBase*, System::Linq::Expressions::ExpressionType, int, ::ArrayW<System::Reflection::ParameterInfo*>)>(&System::Dynamic::Utils::ExpressionUtils::ValidateArgumentCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Reflection::MethodBase*, ::System::Linq::Expressions::ExpressionType, int, ::ArrayW<::System::Reflection::ParameterInfo*>)>(&System::Dynamic::Utils::ExpressionUtils::ValidateArgumentCount)> {
   static const MethodInfo* get() {
     static auto* method = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodBase")->byval_arg;
     static auto* nodeKind = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "ExpressionType")->byval_arg;
@@ -161,7 +161,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Dynamic::Utils::ExpressionUtils::ValidateOneArgument
 // Il2CppName: ValidateOneArgument
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Linq::Expressions::Expression* (*)(System::Reflection::MethodBase*, System::Linq::Expressions::ExpressionType, System::Linq::Expressions::Expression*, System::Reflection::ParameterInfo*, ::StringW, ::StringW, int)>(&System::Dynamic::Utils::ExpressionUtils::ValidateOneArgument)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (*)(::System::Reflection::MethodBase*, ::System::Linq::Expressions::ExpressionType, ::System::Linq::Expressions::Expression*, ::System::Reflection::ParameterInfo*, ::StringW, ::StringW, int)>(&System::Dynamic::Utils::ExpressionUtils::ValidateOneArgument)> {
   static const MethodInfo* get() {
     static auto* method = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodBase")->byval_arg;
     static auto* nodeKind = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "ExpressionType")->byval_arg;
@@ -176,7 +176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Lin
 // Writing MetadataGetter for method: System::Dynamic::Utils::ExpressionUtils::RequiresCanRead
 // Il2CppName: RequiresCanRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Linq::Expressions::Expression*, ::StringW)>(&System::Dynamic::Utils::ExpressionUtils::RequiresCanRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Linq::Expressions::Expression*, ::StringW)>(&System::Dynamic::Utils::ExpressionUtils::RequiresCanRead)> {
   static const MethodInfo* get() {
     static auto* expression = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     static auto* paramName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -186,7 +186,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Dynamic::Utils::ExpressionUtils::RequiresCanRead
 // Il2CppName: RequiresCanRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Linq::Expressions::Expression*, ::StringW, int)>(&System::Dynamic::Utils::ExpressionUtils::RequiresCanRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Linq::Expressions::Expression*, ::StringW, int)>(&System::Dynamic::Utils::ExpressionUtils::RequiresCanRead)> {
   static const MethodInfo* get() {
     static auto* expression = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     static auto* paramName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -197,7 +197,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Dynamic::Utils::ExpressionUtils::TryQuote
 // Il2CppName: TryQuote
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, ByRef<System::Linq::Expressions::Expression*>)>(&System::Dynamic::Utils::ExpressionUtils::TryQuote)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ByRef<::System::Linq::Expressions::Expression*>)>(&System::Dynamic::Utils::ExpressionUtils::TryQuote)> {
   static const MethodInfo* get() {
     static auto* parameterType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* argument = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->this_arg;
@@ -207,7 +207,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Dynamic::Utils::ExpressionUtils::GetParametersForValidation
 // Il2CppName: GetParametersForValidation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Reflection::ParameterInfo*> (*)(System::Reflection::MethodBase*, System::Linq::Expressions::ExpressionType)>(&System::Dynamic::Utils::ExpressionUtils::GetParametersForValidation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::ParameterInfo*> (*)(::System::Reflection::MethodBase*, ::System::Linq::Expressions::ExpressionType)>(&System::Dynamic::Utils::ExpressionUtils::GetParametersForValidation)> {
   static const MethodInfo* get() {
     static auto* method = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodBase")->byval_arg;
     static auto* nodeKind = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "ExpressionType")->byval_arg;

@@ -32,8 +32,8 @@ namespace System::Text::RegularExpressions {
   class RegexRunner;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Text::RegularExpressions::RegexRunner);
-DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexRunner*, "System.Text.RegularExpressions", "RegexRunner");
+NEED_NO_BOX(::System::Text::RegularExpressions::RegexRunner);
+DEFINE_IL2CPP_ARG_TYPE(::System::Text::RegularExpressions::RegexRunner*, "System.Text.RegularExpressions", "RegexRunner");
 // Type namespace: System.Text.RegularExpressions
 namespace System::Text::RegularExpressions {
   // Size: 0x80
@@ -135,15 +135,15 @@ namespace System::Text::RegularExpressions {
     // protected internal System.Text.RegularExpressions.Match runmatch
     // Size: 0x8
     // Offset: 0x60
-    System::Text::RegularExpressions::Match* runmatch;
+    ::System::Text::RegularExpressions::Match* runmatch;
     // Field size check
-    static_assert(sizeof(System::Text::RegularExpressions::Match*) == 0x8);
+    static_assert(sizeof(::System::Text::RegularExpressions::Match*) == 0x8);
     // protected internal System.Text.RegularExpressions.Regex runregex
     // Size: 0x8
     // Offset: 0x68
-    System::Text::RegularExpressions::Regex* runregex;
+    ::System::Text::RegularExpressions::Regex* runregex;
     // Field size check
-    static_assert(sizeof(System::Text::RegularExpressions::Regex*) == 0x8);
+    static_assert(sizeof(::System::Text::RegularExpressions::Regex*) == 0x8);
     // private System.Int32 timeout
     // Size: 0x4
     // Offset: 0x70
@@ -196,9 +196,9 @@ namespace System::Text::RegularExpressions {
     // Get instance field reference: protected internal System.Int32 runtrackcount
     int& dyn_runtrackcount();
     // Get instance field reference: protected internal System.Text.RegularExpressions.Match runmatch
-    System::Text::RegularExpressions::Match*& dyn_runmatch();
+    ::System::Text::RegularExpressions::Match*& dyn_runmatch();
     // Get instance field reference: protected internal System.Text.RegularExpressions.Regex runregex
-    System::Text::RegularExpressions::Regex*& dyn_runregex();
+    ::System::Text::RegularExpressions::Regex*& dyn_runregex();
     // Get instance field reference: private System.Int32 timeout
     int& dyn_timeout();
     // Get instance field reference: private System.Boolean ignoreTimeout
@@ -209,7 +209,7 @@ namespace System::Text::RegularExpressions {
     int& dyn_timeoutChecksToSkip();
     // protected internal System.Text.RegularExpressions.Match Scan(System.Text.RegularExpressions.Regex regex, System.String text, System.Int32 textbeg, System.Int32 textend, System.Int32 textstart, System.Int32 prevlen, System.Boolean quick, System.TimeSpan timeout)
     // Offset: 0x2425DB0
-    System::Text::RegularExpressions::Match* Scan(System::Text::RegularExpressions::Regex* regex, ::StringW text, int textbeg, int textend, int textstart, int prevlen, bool quick, System::TimeSpan timeout);
+    ::System::Text::RegularExpressions::Match* Scan(::System::Text::RegularExpressions::Regex* regex, ::StringW text, int textbeg, int textend, int textstart, int prevlen, bool quick, ::System::TimeSpan timeout);
     // private System.Void StartTimeoutWatch()
     // Offset: 0x2426108
     void StartTimeoutWatch();
@@ -233,7 +233,7 @@ namespace System::Text::RegularExpressions {
     void InitMatch();
     // private System.Text.RegularExpressions.Match TidyMatch(System.Boolean quick)
     // Offset: 0x2426340
-    System::Text::RegularExpressions::Match* TidyMatch(bool quick);
+    ::System::Text::RegularExpressions::Match* TidyMatch(bool quick);
     // protected System.Void EnsureStorage()
     // Offset: 0x2426480
     void EnsureStorage();
@@ -285,7 +285,7 @@ namespace System::Text::RegularExpressions {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexRunner* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::RegexRunner::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::RegexRunner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexRunner*, creationType>()));
     }
   }; // System.Text.RegularExpressions.RegexRunner
@@ -297,7 +297,7 @@ namespace System::Text::RegularExpressions {
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexRunner::Scan
 // Il2CppName: Scan
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::Match* (System::Text::RegularExpressions::RegexRunner::*)(System::Text::RegularExpressions::Regex*, ::StringW, int, int, int, int, bool, System::TimeSpan)>(&System::Text::RegularExpressions::RegexRunner::Scan)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::Match* (System::Text::RegularExpressions::RegexRunner::*)(::System::Text::RegularExpressions::Regex*, ::StringW, int, int, int, int, bool, ::System::TimeSpan)>(&System::Text::RegularExpressions::RegexRunner::Scan)> {
   static const MethodInfo* get() {
     static auto* regex = &::il2cpp_utils::GetClassFromName("System.Text.RegularExpressions", "Regex")->byval_arg;
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -369,7 +369,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexRunner::TidyMatch
 // Il2CppName: TidyMatch
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::Match* (System::Text::RegularExpressions::RegexRunner::*)(bool)>(&System::Text::RegularExpressions::RegexRunner::TidyMatch)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::Match* (System::Text::RegularExpressions::RegexRunner::*)(bool)>(&System::Text::RegularExpressions::RegexRunner::TidyMatch)> {
   static const MethodInfo* get() {
     static auto* quick = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexRunner*), "TidyMatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{quick});

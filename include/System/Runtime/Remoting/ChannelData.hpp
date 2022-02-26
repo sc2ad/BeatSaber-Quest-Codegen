@@ -26,8 +26,8 @@ namespace System::Runtime::Remoting {
   class ChannelData;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Remoting::ChannelData);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ChannelData*, "System.Runtime.Remoting", "ChannelData");
+NEED_NO_BOX(::System::Runtime::Remoting::ChannelData);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::ChannelData*, "System.Runtime.Remoting", "ChannelData");
 // Type namespace: System.Runtime.Remoting
 namespace System::Runtime::Remoting {
   // Size: 0x48
@@ -72,21 +72,21 @@ namespace System::Runtime::Remoting {
     // private System.Collections.ArrayList _serverProviders
     // Size: 0x8
     // Offset: 0x30
-    System::Collections::ArrayList* serverProviders;
+    ::System::Collections::ArrayList* serverProviders;
     // Field size check
-    static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
+    static_assert(sizeof(::System::Collections::ArrayList*) == 0x8);
     // private System.Collections.ArrayList _clientProviders
     // Size: 0x8
     // Offset: 0x38
-    System::Collections::ArrayList* clientProviders;
+    ::System::Collections::ArrayList* clientProviders;
     // Field size check
-    static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
+    static_assert(sizeof(::System::Collections::ArrayList*) == 0x8);
     // private System.Collections.Hashtable _customProperties
     // Size: 0x8
     // Offset: 0x40
-    System::Collections::Hashtable* customProperties;
+    ::System::Collections::Hashtable* customProperties;
     // Field size check
-    static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
+    static_assert(sizeof(::System::Collections::Hashtable*) == 0x8);
     public:
     // Get instance field reference: System.String Ref
     ::StringW& dyn_Ref();
@@ -97,42 +97,42 @@ namespace System::Runtime::Remoting {
     // Get instance field reference: System.String DelayLoadAsClientChannel
     ::StringW& dyn_DelayLoadAsClientChannel();
     // Get instance field reference: private System.Collections.ArrayList _serverProviders
-    System::Collections::ArrayList*& dyn__serverProviders();
+    ::System::Collections::ArrayList*& dyn__serverProviders();
     // Get instance field reference: private System.Collections.ArrayList _clientProviders
-    System::Collections::ArrayList*& dyn__clientProviders();
+    ::System::Collections::ArrayList*& dyn__clientProviders();
     // Get instance field reference: private System.Collections.Hashtable _customProperties
-    System::Collections::Hashtable*& dyn__customProperties();
+    ::System::Collections::Hashtable*& dyn__customProperties();
     // System.Collections.ArrayList get_ServerProviders()
     // Offset: 0x1C6FA1C
-    System::Collections::ArrayList* get_ServerProviders();
+    ::System::Collections::ArrayList* get_ServerProviders();
     // public System.Collections.ArrayList get_ClientProviders()
     // Offset: 0x1C6FA88
-    System::Collections::ArrayList* get_ClientProviders();
+    ::System::Collections::ArrayList* get_ClientProviders();
     // public System.Collections.Hashtable get_CustomProperties()
     // Offset: 0x1C6FAF4
-    System::Collections::Hashtable* get_CustomProperties();
+    ::System::Collections::Hashtable* get_CustomProperties();
     // public System.Void CopyFrom(System.Runtime.Remoting.ChannelData other)
     // Offset: 0x1C6FB60
-    void CopyFrom(System::Runtime::Remoting::ChannelData* other);
+    void CopyFrom(::System::Runtime::Remoting::ChannelData* other);
     // public System.Void .ctor()
     // Offset: 0x1C703B4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ChannelData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::ChannelData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::ChannelData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ChannelData*, creationType>()));
     }
   }; // System.Runtime.Remoting.ChannelData
   #pragma pack(pop)
-  static check_size<sizeof(ChannelData), 64 + sizeof(System::Collections::Hashtable*)> __System_Runtime_Remoting_ChannelDataSizeCheck;
+  static check_size<sizeof(ChannelData), 64 + sizeof(::System::Collections::Hashtable*)> __System_Runtime_Remoting_ChannelDataSizeCheck;
   static_assert(sizeof(ChannelData) == 0x48);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::ChannelData::get_ServerProviders
 // Il2CppName: get_ServerProviders
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ArrayList* (System::Runtime::Remoting::ChannelData::*)()>(&System::Runtime::Remoting::ChannelData::get_ServerProviders)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (System::Runtime::Remoting::ChannelData::*)()>(&System::Runtime::Remoting::ChannelData::get_ServerProviders)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ChannelData*), "get_ServerProviders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -140,7 +140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::Runtime::Remoting::ChannelData::get_ClientProviders
 // Il2CppName: get_ClientProviders
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ArrayList* (System::Runtime::Remoting::ChannelData::*)()>(&System::Runtime::Remoting::ChannelData::get_ClientProviders)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (System::Runtime::Remoting::ChannelData::*)()>(&System::Runtime::Remoting::ChannelData::get_ClientProviders)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ChannelData*), "get_ClientProviders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -148,7 +148,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::Runtime::Remoting::ChannelData::get_CustomProperties
 // Il2CppName: get_CustomProperties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Hashtable* (System::Runtime::Remoting::ChannelData::*)()>(&System::Runtime::Remoting::ChannelData::get_CustomProperties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Hashtable* (System::Runtime::Remoting::ChannelData::*)()>(&System::Runtime::Remoting::ChannelData::get_CustomProperties)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ChannelData*), "get_CustomProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -156,7 +156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::Runtime::Remoting::ChannelData::CopyFrom
 // Il2CppName: CopyFrom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::ChannelData::*)(System::Runtime::Remoting::ChannelData*)>(&System::Runtime::Remoting::ChannelData::CopyFrom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::ChannelData::*)(::System::Runtime::Remoting::ChannelData*)>(&System::Runtime::Remoting::ChannelData::CopyFrom)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting", "ChannelData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ChannelData*), "CopyFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});

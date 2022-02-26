@@ -19,8 +19,8 @@ namespace System::Reflection {
   class AssemblyTrademarkAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Reflection::AssemblyTrademarkAttribute);
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyTrademarkAttribute*, "System.Reflection", "AssemblyTrademarkAttribute");
+NEED_NO_BOX(::System::Reflection::AssemblyTrademarkAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::AssemblyTrademarkAttribute*, "System.Reflection", "AssemblyTrademarkAttribute");
 // Type namespace: System.Reflection
 namespace System::Reflection {
   // Size: 0x18
@@ -29,7 +29,7 @@ namespace System::Reflection {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: 1187DF4
   // [AttributeUsageAttribute] Offset: 1187DF4
-  class AssemblyTrademarkAttribute : public System::Attribute {
+  class AssemblyTrademarkAttribute : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -57,7 +57,7 @@ namespace System::Reflection {
     // Offset: 0x2161C58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssemblyTrademarkAttribute* New_ctor(::StringW trademark) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::AssemblyTrademarkAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Reflection::AssemblyTrademarkAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssemblyTrademarkAttribute*, creationType>(trademark)));
     }
   }; // System.Reflection.AssemblyTrademarkAttribute

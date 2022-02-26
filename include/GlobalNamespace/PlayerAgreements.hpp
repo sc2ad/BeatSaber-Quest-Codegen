@@ -18,8 +18,8 @@ namespace GlobalNamespace {
   class PlayerAgreements;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PlayerAgreements);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerAgreements*, "", "PlayerAgreements");
+NEED_NO_BOX(::GlobalNamespace::PlayerAgreements);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlayerAgreements*, "", "PlayerAgreements");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x1C
@@ -96,7 +96,7 @@ namespace GlobalNamespace {
     // Offset: 0x2AC27F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerAgreements* New_ctor(int eulaVersion, int privacyPolicyVersion, int healthAndSafetyVersion) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerAgreements::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerAgreements::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerAgreements*, creationType>(eulaVersion, privacyPolicyVersion, healthAndSafetyVersion)));
     }
     // public System.Void AgreeToEula()
@@ -123,7 +123,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerAgreements* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerAgreements::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerAgreements::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerAgreements*, creationType>()));
     }
   }; // PlayerAgreements

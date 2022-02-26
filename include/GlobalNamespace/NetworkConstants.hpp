@@ -22,8 +22,8 @@ namespace GlobalNamespace {
   class NetworkConstants;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::NetworkConstants);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkConstants*, "", "NetworkConstants");
+NEED_NO_BOX(::GlobalNamespace::NetworkConstants);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NetworkConstants*, "", "NetworkConstants");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10

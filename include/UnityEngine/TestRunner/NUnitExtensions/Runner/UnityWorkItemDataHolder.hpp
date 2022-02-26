@@ -21,8 +21,8 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   class UnityWorkItemDataHolder;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItemDataHolder);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItemDataHolder*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "UnityWorkItemDataHolder");
+NEED_NO_BOX(::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItemDataHolder);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItemDataHolder*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "UnityWorkItemDataHolder");
 // Type namespace: UnityEngine.TestRunner.NUnitExtensions.Runner
 namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   // Size: 0x10
@@ -32,13 +32,13 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   class UnityWorkItemDataHolder : public ::Il2CppObject {
     public:
     // Get static field: static public System.Collections.Generic.List`1<System.String> alreadyStartedTests
-    static System::Collections::Generic::List_1<::StringW>* _get_alreadyStartedTests();
+    static ::System::Collections::Generic::List_1<::StringW>* _get_alreadyStartedTests();
     // Set static field: static public System.Collections.Generic.List`1<System.String> alreadyStartedTests
-    static void _set_alreadyStartedTests(System::Collections::Generic::List_1<::StringW>* value);
+    static void _set_alreadyStartedTests(::System::Collections::Generic::List_1<::StringW>* value);
     // Get static field: static public System.Collections.Generic.List`1<System.String> alreadyExecutedTests
-    static System::Collections::Generic::List_1<::StringW>* _get_alreadyExecutedTests();
+    static ::System::Collections::Generic::List_1<::StringW>* _get_alreadyExecutedTests();
     // Set static field: static public System.Collections.Generic.List`1<System.String> alreadyExecutedTests
-    static void _set_alreadyExecutedTests(System::Collections::Generic::List_1<::StringW>* value);
+    static void _set_alreadyExecutedTests(::System::Collections::Generic::List_1<::StringW>* value);
     // static private System.Void .cctor()
     // Offset: 0x18D09E0
     static void _cctor();

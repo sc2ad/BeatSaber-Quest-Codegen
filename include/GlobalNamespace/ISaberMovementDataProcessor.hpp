@@ -18,8 +18,8 @@ namespace GlobalNamespace {
   class ISaberMovementDataProcessor;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::ISaberMovementDataProcessor);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ISaberMovementDataProcessor*, "", "ISaberMovementDataProcessor");
+NEED_NO_BOX(::GlobalNamespace::ISaberMovementDataProcessor);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ISaberMovementDataProcessor*, "", "ISaberMovementDataProcessor");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -30,7 +30,7 @@ namespace GlobalNamespace {
     public:
     // public System.Void ProcessNewData(BladeMovementDataElement newData, BladeMovementDataElement prevData, System.Boolean prevDataAreValid)
     // Offset: 0xFFFFFFFF
-    void ProcessNewData(GlobalNamespace::BladeMovementDataElement newData, GlobalNamespace::BladeMovementDataElement prevData, bool prevDataAreValid);
+    void ProcessNewData(::GlobalNamespace::BladeMovementDataElement newData, ::GlobalNamespace::BladeMovementDataElement prevData, bool prevDataAreValid);
   }; // ISaberMovementDataProcessor
   #pragma pack(pop)
 }
@@ -38,7 +38,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::ISaberMovementDataProcessor::ProcessNewData
 // Il2CppName: ProcessNewData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ISaberMovementDataProcessor::*)(GlobalNamespace::BladeMovementDataElement, GlobalNamespace::BladeMovementDataElement, bool)>(&GlobalNamespace::ISaberMovementDataProcessor::ProcessNewData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ISaberMovementDataProcessor::*)(::GlobalNamespace::BladeMovementDataElement, ::GlobalNamespace::BladeMovementDataElement, bool)>(&GlobalNamespace::ISaberMovementDataProcessor::ProcessNewData)> {
   static const MethodInfo* get() {
     static auto* newData = &::il2cpp_utils::GetClassFromName("", "BladeMovementDataElement")->byval_arg;
     static auto* prevData = &::il2cpp_utils::GetClassFromName("", "BladeMovementDataElement")->byval_arg;

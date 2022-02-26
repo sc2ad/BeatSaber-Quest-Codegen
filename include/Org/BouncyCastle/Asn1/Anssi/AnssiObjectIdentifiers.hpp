@@ -19,8 +19,8 @@ namespace Org::BouncyCastle::Asn1::Anssi {
   class AnssiObjectIdentifiers;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Asn1::Anssi::AnssiObjectIdentifiers);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Anssi::AnssiObjectIdentifiers*, "Org.BouncyCastle.Asn1.Anssi", "AnssiObjectIdentifiers");
+NEED_NO_BOX(::Org::BouncyCastle::Asn1::Anssi::AnssiObjectIdentifiers);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Anssi::AnssiObjectIdentifiers*, "Org.BouncyCastle.Asn1.Anssi", "AnssiObjectIdentifiers");
 // Type namespace: Org.BouncyCastle.Asn1.Anssi
 namespace Org::BouncyCastle::Asn1::Anssi {
   // Size: 0x10
@@ -30,9 +30,9 @@ namespace Org::BouncyCastle::Asn1::Anssi {
   class AnssiObjectIdentifiers : public ::Il2CppObject {
     public:
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier FRP256v1
-    static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_FRP256v1();
+    static ::Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_FRP256v1();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier FRP256v1
-    static void _set_FRP256v1(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+    static void _set_FRP256v1(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // static private System.Void .cctor()
     // Offset: 0x1B1A048
     static void _cctor();

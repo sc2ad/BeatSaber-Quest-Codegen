@@ -42,8 +42,8 @@ namespace Org::BouncyCastle::Security {
   class PublicKeyFactory;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Security::PublicKeyFactory);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::PublicKeyFactory*, "Org.BouncyCastle.Security", "PublicKeyFactory");
+NEED_NO_BOX(::Org::BouncyCastle::Security::PublicKeyFactory);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Security::PublicKeyFactory*, "Org.BouncyCastle.Security", "PublicKeyFactory");
 // Type namespace: Org.BouncyCastle.Security
 namespace Org::BouncyCastle::Security {
   // Size: 0x10
@@ -54,19 +54,19 @@ namespace Org::BouncyCastle::Security {
     public:
     // static public Org.BouncyCastle.Crypto.AsymmetricKeyParameter CreateKey(System.Byte[] keyInfoData)
     // Offset: 0x1736EB8
-    static Org::BouncyCastle::Crypto::AsymmetricKeyParameter* CreateKey(::ArrayW<uint8_t> keyInfoData);
+    static ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* CreateKey(::ArrayW<uint8_t> keyInfoData);
     // static public Org.BouncyCastle.Crypto.AsymmetricKeyParameter CreateKey(Org.BouncyCastle.Asn1.X509.SubjectPublicKeyInfo keyInfo)
     // Offset: 0x1736ED8
-    static Org::BouncyCastle::Crypto::AsymmetricKeyParameter* CreateKey(Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* keyInfo);
+    static ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* CreateKey(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* keyInfo);
     // static private System.Byte[] GetRawKey(Org.BouncyCastle.Asn1.X509.SubjectPublicKeyInfo keyInfo, System.Int32 expectedSize)
     // Offset: 0x1738580
-    static ::ArrayW<uint8_t> GetRawKey(Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* keyInfo, int expectedSize);
+    static ::ArrayW<uint8_t> GetRawKey(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* keyInfo, int expectedSize);
     // static private System.Boolean IsPkcsDHParam(Org.BouncyCastle.Asn1.Asn1Sequence seq)
     // Offset: 0x1738310
-    static bool IsPkcsDHParam(Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+    static bool IsPkcsDHParam(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
     // static private Org.BouncyCastle.Crypto.Parameters.DHPublicKeyParameters ReadPkcsDHParam(Org.BouncyCastle.Asn1.DerObjectIdentifier algOid, Org.BouncyCastle.Math.BigInteger y, Org.BouncyCastle.Asn1.Asn1Sequence seq)
     // Offset: 0x1738460
-    static Org::BouncyCastle::Crypto::Parameters::DHPublicKeyParameters* ReadPkcsDHParam(Org::BouncyCastle::Asn1::DerObjectIdentifier* algOid, Org::BouncyCastle::Math::BigInteger* y, Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+    static ::Org::BouncyCastle::Crypto::Parameters::DHPublicKeyParameters* ReadPkcsDHParam(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algOid, ::Org::BouncyCastle::Math::BigInteger* y, ::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
   }; // Org.BouncyCastle.Security.PublicKeyFactory
   #pragma pack(pop)
 }
@@ -74,7 +74,7 @@ namespace Org::BouncyCastle::Security {
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::PublicKeyFactory::CreateKey
 // Il2CppName: CreateKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::AsymmetricKeyParameter* (*)(::ArrayW<uint8_t>)>(&Org::BouncyCastle::Security::PublicKeyFactory::CreateKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* (*)(::ArrayW<uint8_t>)>(&Org::BouncyCastle::Security::PublicKeyFactory::CreateKey)> {
   static const MethodInfo* get() {
     static auto* keyInfoData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::PublicKeyFactory*), "CreateKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{keyInfoData});
@@ -83,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::PublicKeyFactory::CreateKey
 // Il2CppName: CreateKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::AsymmetricKeyParameter* (*)(Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*)>(&Org::BouncyCastle::Security::PublicKeyFactory::CreateKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* (*)(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*)>(&Org::BouncyCastle::Security::PublicKeyFactory::CreateKey)> {
   static const MethodInfo* get() {
     static auto* keyInfo = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1.X509", "SubjectPublicKeyInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::PublicKeyFactory*), "CreateKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{keyInfo});
@@ -92,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::PublicKeyFactory::GetRawKey
 // Il2CppName: GetRawKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*, int)>(&Org::BouncyCastle::Security::PublicKeyFactory::GetRawKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*, int)>(&Org::BouncyCastle::Security::PublicKeyFactory::GetRawKey)> {
   static const MethodInfo* get() {
     static auto* keyInfo = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1.X509", "SubjectPublicKeyInfo")->byval_arg;
     static auto* expectedSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -102,7 +102,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::PublicKeyFactory::IsPkcsDHParam
 // Il2CppName: IsPkcsDHParam
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&Org::BouncyCastle::Security::PublicKeyFactory::IsPkcsDHParam)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(&Org::BouncyCastle::Security::PublicKeyFactory::IsPkcsDHParam)> {
   static const MethodInfo* get() {
     static auto* seq = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1", "Asn1Sequence")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::PublicKeyFactory*), "IsPkcsDHParam", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{seq});
@@ -111,7 +111,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Or
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::PublicKeyFactory::ReadPkcsDHParam
 // Il2CppName: ReadPkcsDHParam
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::Parameters::DHPublicKeyParameters* (*)(Org::BouncyCastle::Asn1::DerObjectIdentifier*, Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Asn1::Asn1Sequence*)>(&Org::BouncyCastle::Security::PublicKeyFactory::ReadPkcsDHParam)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Parameters::DHPublicKeyParameters* (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Asn1::Asn1Sequence*)>(&Org::BouncyCastle::Security::PublicKeyFactory::ReadPkcsDHParam)> {
   static const MethodInfo* get() {
     static auto* algOid = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1", "DerObjectIdentifier")->byval_arg;
     static auto* y = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math", "BigInteger")->byval_arg;

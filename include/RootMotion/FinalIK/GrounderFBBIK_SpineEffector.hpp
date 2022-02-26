@@ -15,8 +15,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::GrounderFBBIK::SpineEffector);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GrounderFBBIK::SpineEffector*, "RootMotion.FinalIK", "GrounderFBBIK/SpineEffector");
+NEED_NO_BOX(::RootMotion::FinalIK::GrounderFBBIK::SpineEffector);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::GrounderFBBIK::SpineEffector*, "RootMotion.FinalIK", "GrounderFBBIK/SpineEffector");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x1C
@@ -38,9 +38,9 @@ namespace RootMotion::FinalIK {
     // public RootMotion.FinalIK.FullBodyBipedEffector effectorType
     // Size: 0x4
     // Offset: 0x10
-    RootMotion::FinalIK::FullBodyBipedEffector effectorType;
+    ::RootMotion::FinalIK::FullBodyBipedEffector effectorType;
     // Field size check
-    static_assert(sizeof(RootMotion::FinalIK::FullBodyBipedEffector) == 0x4);
+    static_assert(sizeof(::RootMotion::FinalIK::FullBodyBipedEffector) == 0x4);
     // [TooltipAttribute] Offset: 0x1266CA8
     // public System.Single horizontalWeight
     // Size: 0x4
@@ -57,7 +57,7 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public RootMotion.FinalIK.FullBodyBipedEffector effectorType
-    RootMotion::FinalIK::FullBodyBipedEffector& dyn_effectorType();
+    ::RootMotion::FinalIK::FullBodyBipedEffector& dyn_effectorType();
     // Get instance field reference: public System.Single horizontalWeight
     float& dyn_horizontalWeight();
     // Get instance field reference: public System.Single verticalWeight
@@ -65,8 +65,8 @@ namespace RootMotion::FinalIK {
     // public System.Void .ctor(RootMotion.FinalIK.FullBodyBipedEffector effectorType, System.Single horizontalWeight, System.Single verticalWeight)
     // Offset: 0x21C1988
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static GrounderFBBIK::SpineEffector* New_ctor(RootMotion::FinalIK::FullBodyBipedEffector effectorType, float horizontalWeight, float verticalWeight) {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::GrounderFBBIK::SpineEffector::.ctor");
+    static GrounderFBBIK::SpineEffector* New_ctor(::RootMotion::FinalIK::FullBodyBipedEffector effectorType, float horizontalWeight, float verticalWeight) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::GrounderFBBIK::SpineEffector::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GrounderFBBIK::SpineEffector*, creationType>(effectorType, horizontalWeight, verticalWeight)));
     }
     // public System.Void .ctor()
@@ -75,7 +75,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GrounderFBBIK::SpineEffector* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::GrounderFBBIK::SpineEffector::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::GrounderFBBIK::SpineEffector::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GrounderFBBIK::SpineEffector*, creationType>()));
     }
   }; // RootMotion.FinalIK.GrounderFBBIK/RootMotion.FinalIK.SpineEffector

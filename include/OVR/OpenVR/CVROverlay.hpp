@@ -71,8 +71,8 @@ namespace OVR::OpenVR {
   class CVROverlay;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(OVR::OpenVR::CVROverlay);
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVROverlay*, "OVR.OpenVR", "CVROverlay");
+NEED_NO_BOX(::OVR::OpenVR::CVROverlay);
+DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::CVROverlay*, "OVR.OpenVR", "CVROverlay");
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
   // Size: 0x2A0
@@ -81,9 +81,9 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   class CVROverlay : public ::Il2CppObject {
     public:
-    // Nested type: OVR::OpenVR::CVROverlay::_PollNextOverlayEventPacked
+    // Nested type: ::OVR::OpenVR::CVROverlay::_PollNextOverlayEventPacked
     class _PollNextOverlayEventPacked;
-    // Nested type: OVR::OpenVR::CVROverlay::PollNextOverlayEventUnion
+    // Nested type: ::OVR::OpenVR::CVROverlay::PollNextOverlayEventUnion
     struct PollNextOverlayEventUnion;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -97,176 +97,176 @@ namespace OVR::OpenVR {
     // private OVR.OpenVR.IVROverlay FnTable
     // Size: 0x290
     // Offset: 0x10
-    OVR::OpenVR::IVROverlay FnTable;
+    ::OVR::OpenVR::IVROverlay FnTable;
     // Field size check
-    static_assert(sizeof(OVR::OpenVR::IVROverlay) == 0x290);
+    static_assert(sizeof(::OVR::OpenVR::IVROverlay) == 0x290);
     public:
-    // Creating conversion operator: operator OVR::OpenVR::IVROverlay
-    constexpr operator OVR::OpenVR::IVROverlay() const noexcept {
+    // Creating conversion operator: operator ::OVR::OpenVR::IVROverlay
+    constexpr operator ::OVR::OpenVR::IVROverlay() const noexcept {
       return FnTable;
     }
     // Get instance field reference: private OVR.OpenVR.IVROverlay FnTable
-    OVR::OpenVR::IVROverlay& dyn_FnTable();
+    ::OVR::OpenVR::IVROverlay& dyn_FnTable();
     // System.Void .ctor(System.IntPtr pInterface)
     // Offset: 0x1A0CAD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CVROverlay* New_ctor(System::IntPtr pInterface) {
-      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::CVROverlay::.ctor");
+    static CVROverlay* New_ctor(::System::IntPtr pInterface) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::OVR::OpenVR::CVROverlay::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVROverlay*, creationType>(pInterface)));
     }
     // public OVR.OpenVR.EVROverlayError FindOverlay(System.String pchOverlayKey, ref System.UInt64 pOverlayHandle)
     // Offset: 0x1A0CBD8
-    OVR::OpenVR::EVROverlayError FindOverlay(::StringW pchOverlayKey, ByRef<uint64_t> pOverlayHandle);
+    ::OVR::OpenVR::EVROverlayError FindOverlay(::StringW pchOverlayKey, ByRef<uint64_t> pOverlayHandle);
     // public OVR.OpenVR.EVROverlayError CreateOverlay(System.String pchOverlayKey, System.String pchOverlayName, ref System.UInt64 pOverlayHandle)
     // Offset: 0x1A0CBF8
-    OVR::OpenVR::EVROverlayError CreateOverlay(::StringW pchOverlayKey, ::StringW pchOverlayName, ByRef<uint64_t> pOverlayHandle);
+    ::OVR::OpenVR::EVROverlayError CreateOverlay(::StringW pchOverlayKey, ::StringW pchOverlayName, ByRef<uint64_t> pOverlayHandle);
     // public OVR.OpenVR.EVROverlayError DestroyOverlay(System.UInt64 ulOverlayHandle)
     // Offset: 0x1A0CC18
-    OVR::OpenVR::EVROverlayError DestroyOverlay(uint64_t ulOverlayHandle);
+    ::OVR::OpenVR::EVROverlayError DestroyOverlay(uint64_t ulOverlayHandle);
     // public OVR.OpenVR.EVROverlayError SetHighQualityOverlay(System.UInt64 ulOverlayHandle)
     // Offset: 0x1A0CC34
-    OVR::OpenVR::EVROverlayError SetHighQualityOverlay(uint64_t ulOverlayHandle);
+    ::OVR::OpenVR::EVROverlayError SetHighQualityOverlay(uint64_t ulOverlayHandle);
     // public System.UInt64 GetHighQualityOverlay()
     // Offset: 0x1A0CC50
     uint64_t GetHighQualityOverlay();
     // public System.UInt32 GetOverlayKey(System.UInt64 ulOverlayHandle, System.Text.StringBuilder pchValue, System.UInt32 unBufferSize, ref OVR.OpenVR.EVROverlayError pError)
     // Offset: 0x1A0CC6C
-    uint GetOverlayKey(uint64_t ulOverlayHandle, System::Text::StringBuilder* pchValue, uint unBufferSize, ByRef<OVR::OpenVR::EVROverlayError> pError);
+    uint GetOverlayKey(uint64_t ulOverlayHandle, ::System::Text::StringBuilder* pchValue, uint unBufferSize, ByRef<::OVR::OpenVR::EVROverlayError> pError);
     // public System.UInt32 GetOverlayName(System.UInt64 ulOverlayHandle, System.Text.StringBuilder pchValue, System.UInt32 unBufferSize, ref OVR.OpenVR.EVROverlayError pError)
     // Offset: 0x1A0CC88
-    uint GetOverlayName(uint64_t ulOverlayHandle, System::Text::StringBuilder* pchValue, uint unBufferSize, ByRef<OVR::OpenVR::EVROverlayError> pError);
+    uint GetOverlayName(uint64_t ulOverlayHandle, ::System::Text::StringBuilder* pchValue, uint unBufferSize, ByRef<::OVR::OpenVR::EVROverlayError> pError);
     // public OVR.OpenVR.EVROverlayError SetOverlayName(System.UInt64 ulOverlayHandle, System.String pchName)
     // Offset: 0x1A0CCA4
-    OVR::OpenVR::EVROverlayError SetOverlayName(uint64_t ulOverlayHandle, ::StringW pchName);
+    ::OVR::OpenVR::EVROverlayError SetOverlayName(uint64_t ulOverlayHandle, ::StringW pchName);
     // public OVR.OpenVR.EVROverlayError GetOverlayImageData(System.UInt64 ulOverlayHandle, System.IntPtr pvBuffer, System.UInt32 unBufferSize, ref System.UInt32 punWidth, ref System.UInt32 punHeight)
     // Offset: 0x1A0CCC0
-    OVR::OpenVR::EVROverlayError GetOverlayImageData(uint64_t ulOverlayHandle, System::IntPtr pvBuffer, uint unBufferSize, ByRef<uint> punWidth, ByRef<uint> punHeight);
+    ::OVR::OpenVR::EVROverlayError GetOverlayImageData(uint64_t ulOverlayHandle, ::System::IntPtr pvBuffer, uint unBufferSize, ByRef<uint> punWidth, ByRef<uint> punHeight);
     // public System.String GetOverlayErrorNameFromEnum(OVR.OpenVR.EVROverlayError error)
     // Offset: 0x1A0CCE4
-    ::StringW GetOverlayErrorNameFromEnum(OVR::OpenVR::EVROverlayError error);
+    ::StringW GetOverlayErrorNameFromEnum(::OVR::OpenVR::EVROverlayError error);
     // public OVR.OpenVR.EVROverlayError SetOverlayRenderingPid(System.UInt64 ulOverlayHandle, System.UInt32 unPID)
     // Offset: 0x1A0CD78
-    OVR::OpenVR::EVROverlayError SetOverlayRenderingPid(uint64_t ulOverlayHandle, uint unPID);
+    ::OVR::OpenVR::EVROverlayError SetOverlayRenderingPid(uint64_t ulOverlayHandle, uint unPID);
     // public System.UInt32 GetOverlayRenderingPid(System.UInt64 ulOverlayHandle)
     // Offset: 0x1A0CD94
     uint GetOverlayRenderingPid(uint64_t ulOverlayHandle);
     // public OVR.OpenVR.EVROverlayError SetOverlayFlag(System.UInt64 ulOverlayHandle, OVR.OpenVR.VROverlayFlags eOverlayFlag, System.Boolean bEnabled)
     // Offset: 0x1A0CDB0
-    OVR::OpenVR::EVROverlayError SetOverlayFlag(uint64_t ulOverlayHandle, OVR::OpenVR::VROverlayFlags eOverlayFlag, bool bEnabled);
+    ::OVR::OpenVR::EVROverlayError SetOverlayFlag(uint64_t ulOverlayHandle, ::OVR::OpenVR::VROverlayFlags eOverlayFlag, bool bEnabled);
     // public OVR.OpenVR.EVROverlayError GetOverlayFlag(System.UInt64 ulOverlayHandle, OVR.OpenVR.VROverlayFlags eOverlayFlag, ref System.Boolean pbEnabled)
     // Offset: 0x1A0CDD0
-    OVR::OpenVR::EVROverlayError GetOverlayFlag(uint64_t ulOverlayHandle, OVR::OpenVR::VROverlayFlags eOverlayFlag, ByRef<bool> pbEnabled);
+    ::OVR::OpenVR::EVROverlayError GetOverlayFlag(uint64_t ulOverlayHandle, ::OVR::OpenVR::VROverlayFlags eOverlayFlag, ByRef<bool> pbEnabled);
     // public OVR.OpenVR.EVROverlayError SetOverlayColor(System.UInt64 ulOverlayHandle, System.Single fRed, System.Single fGreen, System.Single fBlue)
     // Offset: 0x1A0CDF0
-    OVR::OpenVR::EVROverlayError SetOverlayColor(uint64_t ulOverlayHandle, float fRed, float fGreen, float fBlue);
+    ::OVR::OpenVR::EVROverlayError SetOverlayColor(uint64_t ulOverlayHandle, float fRed, float fGreen, float fBlue);
     // public OVR.OpenVR.EVROverlayError GetOverlayColor(System.UInt64 ulOverlayHandle, ref System.Single pfRed, ref System.Single pfGreen, ref System.Single pfBlue)
     // Offset: 0x1A0CE0C
-    OVR::OpenVR::EVROverlayError GetOverlayColor(uint64_t ulOverlayHandle, ByRef<float> pfRed, ByRef<float> pfGreen, ByRef<float> pfBlue);
+    ::OVR::OpenVR::EVROverlayError GetOverlayColor(uint64_t ulOverlayHandle, ByRef<float> pfRed, ByRef<float> pfGreen, ByRef<float> pfBlue);
     // public OVR.OpenVR.EVROverlayError SetOverlayAlpha(System.UInt64 ulOverlayHandle, System.Single fAlpha)
     // Offset: 0x1A0CE34
-    OVR::OpenVR::EVROverlayError SetOverlayAlpha(uint64_t ulOverlayHandle, float fAlpha);
+    ::OVR::OpenVR::EVROverlayError SetOverlayAlpha(uint64_t ulOverlayHandle, float fAlpha);
     // public OVR.OpenVR.EVROverlayError GetOverlayAlpha(System.UInt64 ulOverlayHandle, ref System.Single pfAlpha)
     // Offset: 0x1A0CE50
-    OVR::OpenVR::EVROverlayError GetOverlayAlpha(uint64_t ulOverlayHandle, ByRef<float> pfAlpha);
+    ::OVR::OpenVR::EVROverlayError GetOverlayAlpha(uint64_t ulOverlayHandle, ByRef<float> pfAlpha);
     // public OVR.OpenVR.EVROverlayError SetOverlayTexelAspect(System.UInt64 ulOverlayHandle, System.Single fTexelAspect)
     // Offset: 0x1A0CE70
-    OVR::OpenVR::EVROverlayError SetOverlayTexelAspect(uint64_t ulOverlayHandle, float fTexelAspect);
+    ::OVR::OpenVR::EVROverlayError SetOverlayTexelAspect(uint64_t ulOverlayHandle, float fTexelAspect);
     // public OVR.OpenVR.EVROverlayError GetOverlayTexelAspect(System.UInt64 ulOverlayHandle, ref System.Single pfTexelAspect)
     // Offset: 0x1A0CE8C
-    OVR::OpenVR::EVROverlayError GetOverlayTexelAspect(uint64_t ulOverlayHandle, ByRef<float> pfTexelAspect);
+    ::OVR::OpenVR::EVROverlayError GetOverlayTexelAspect(uint64_t ulOverlayHandle, ByRef<float> pfTexelAspect);
     // public OVR.OpenVR.EVROverlayError SetOverlaySortOrder(System.UInt64 ulOverlayHandle, System.UInt32 unSortOrder)
     // Offset: 0x1A0CEAC
-    OVR::OpenVR::EVROverlayError SetOverlaySortOrder(uint64_t ulOverlayHandle, uint unSortOrder);
+    ::OVR::OpenVR::EVROverlayError SetOverlaySortOrder(uint64_t ulOverlayHandle, uint unSortOrder);
     // public OVR.OpenVR.EVROverlayError GetOverlaySortOrder(System.UInt64 ulOverlayHandle, ref System.UInt32 punSortOrder)
     // Offset: 0x1A0CEC8
-    OVR::OpenVR::EVROverlayError GetOverlaySortOrder(uint64_t ulOverlayHandle, ByRef<uint> punSortOrder);
+    ::OVR::OpenVR::EVROverlayError GetOverlaySortOrder(uint64_t ulOverlayHandle, ByRef<uint> punSortOrder);
     // public OVR.OpenVR.EVROverlayError SetOverlayWidthInMeters(System.UInt64 ulOverlayHandle, System.Single fWidthInMeters)
     // Offset: 0x1A0CEE8
-    OVR::OpenVR::EVROverlayError SetOverlayWidthInMeters(uint64_t ulOverlayHandle, float fWidthInMeters);
+    ::OVR::OpenVR::EVROverlayError SetOverlayWidthInMeters(uint64_t ulOverlayHandle, float fWidthInMeters);
     // public OVR.OpenVR.EVROverlayError GetOverlayWidthInMeters(System.UInt64 ulOverlayHandle, ref System.Single pfWidthInMeters)
     // Offset: 0x1A0CF04
-    OVR::OpenVR::EVROverlayError GetOverlayWidthInMeters(uint64_t ulOverlayHandle, ByRef<float> pfWidthInMeters);
+    ::OVR::OpenVR::EVROverlayError GetOverlayWidthInMeters(uint64_t ulOverlayHandle, ByRef<float> pfWidthInMeters);
     // public OVR.OpenVR.EVROverlayError SetOverlayAutoCurveDistanceRangeInMeters(System.UInt64 ulOverlayHandle, System.Single fMinDistanceInMeters, System.Single fMaxDistanceInMeters)
     // Offset: 0x1A0CF24
-    OVR::OpenVR::EVROverlayError SetOverlayAutoCurveDistanceRangeInMeters(uint64_t ulOverlayHandle, float fMinDistanceInMeters, float fMaxDistanceInMeters);
+    ::OVR::OpenVR::EVROverlayError SetOverlayAutoCurveDistanceRangeInMeters(uint64_t ulOverlayHandle, float fMinDistanceInMeters, float fMaxDistanceInMeters);
     // public OVR.OpenVR.EVROverlayError GetOverlayAutoCurveDistanceRangeInMeters(System.UInt64 ulOverlayHandle, ref System.Single pfMinDistanceInMeters, ref System.Single pfMaxDistanceInMeters)
     // Offset: 0x1A0CF40
-    OVR::OpenVR::EVROverlayError GetOverlayAutoCurveDistanceRangeInMeters(uint64_t ulOverlayHandle, ByRef<float> pfMinDistanceInMeters, ByRef<float> pfMaxDistanceInMeters);
+    ::OVR::OpenVR::EVROverlayError GetOverlayAutoCurveDistanceRangeInMeters(uint64_t ulOverlayHandle, ByRef<float> pfMinDistanceInMeters, ByRef<float> pfMaxDistanceInMeters);
     // public OVR.OpenVR.EVROverlayError SetOverlayTextureColorSpace(System.UInt64 ulOverlayHandle, OVR.OpenVR.EColorSpace eTextureColorSpace)
     // Offset: 0x1A0CF64
-    OVR::OpenVR::EVROverlayError SetOverlayTextureColorSpace(uint64_t ulOverlayHandle, OVR::OpenVR::EColorSpace eTextureColorSpace);
+    ::OVR::OpenVR::EVROverlayError SetOverlayTextureColorSpace(uint64_t ulOverlayHandle, ::OVR::OpenVR::EColorSpace eTextureColorSpace);
     // public OVR.OpenVR.EVROverlayError GetOverlayTextureColorSpace(System.UInt64 ulOverlayHandle, ref OVR.OpenVR.EColorSpace peTextureColorSpace)
     // Offset: 0x1A0CF80
-    OVR::OpenVR::EVROverlayError GetOverlayTextureColorSpace(uint64_t ulOverlayHandle, ByRef<OVR::OpenVR::EColorSpace> peTextureColorSpace);
+    ::OVR::OpenVR::EVROverlayError GetOverlayTextureColorSpace(uint64_t ulOverlayHandle, ByRef<::OVR::OpenVR::EColorSpace> peTextureColorSpace);
     // public OVR.OpenVR.EVROverlayError SetOverlayTextureBounds(System.UInt64 ulOverlayHandle, ref OVR.OpenVR.VRTextureBounds_t pOverlayTextureBounds)
     // Offset: 0x1A0CF9C
-    OVR::OpenVR::EVROverlayError SetOverlayTextureBounds(uint64_t ulOverlayHandle, ByRef<OVR::OpenVR::VRTextureBounds_t> pOverlayTextureBounds);
+    ::OVR::OpenVR::EVROverlayError SetOverlayTextureBounds(uint64_t ulOverlayHandle, ByRef<::OVR::OpenVR::VRTextureBounds_t> pOverlayTextureBounds);
     // public OVR.OpenVR.EVROverlayError GetOverlayTextureBounds(System.UInt64 ulOverlayHandle, ref OVR.OpenVR.VRTextureBounds_t pOverlayTextureBounds)
     // Offset: 0x1A0CFB8
-    OVR::OpenVR::EVROverlayError GetOverlayTextureBounds(uint64_t ulOverlayHandle, ByRef<OVR::OpenVR::VRTextureBounds_t> pOverlayTextureBounds);
+    ::OVR::OpenVR::EVROverlayError GetOverlayTextureBounds(uint64_t ulOverlayHandle, ByRef<::OVR::OpenVR::VRTextureBounds_t> pOverlayTextureBounds);
     // public System.UInt32 GetOverlayRenderModel(System.UInt64 ulOverlayHandle, System.Text.StringBuilder pchValue, System.UInt32 unBufferSize, ref OVR.OpenVR.HmdColor_t pColor, ref OVR.OpenVR.EVROverlayError pError)
     // Offset: 0x1A0CFD4
-    uint GetOverlayRenderModel(uint64_t ulOverlayHandle, System::Text::StringBuilder* pchValue, uint unBufferSize, ByRef<OVR::OpenVR::HmdColor_t> pColor, ByRef<OVR::OpenVR::EVROverlayError> pError);
+    uint GetOverlayRenderModel(uint64_t ulOverlayHandle, ::System::Text::StringBuilder* pchValue, uint unBufferSize, ByRef<::OVR::OpenVR::HmdColor_t> pColor, ByRef<::OVR::OpenVR::EVROverlayError> pError);
     // public OVR.OpenVR.EVROverlayError SetOverlayRenderModel(System.UInt64 ulOverlayHandle, System.String pchRenderModel, ref OVR.OpenVR.HmdColor_t pColor)
     // Offset: 0x1A0CFF0
-    OVR::OpenVR::EVROverlayError SetOverlayRenderModel(uint64_t ulOverlayHandle, ::StringW pchRenderModel, ByRef<OVR::OpenVR::HmdColor_t> pColor);
+    ::OVR::OpenVR::EVROverlayError SetOverlayRenderModel(uint64_t ulOverlayHandle, ::StringW pchRenderModel, ByRef<::OVR::OpenVR::HmdColor_t> pColor);
     // public OVR.OpenVR.EVROverlayError GetOverlayTransformType(System.UInt64 ulOverlayHandle, ref OVR.OpenVR.VROverlayTransformType peTransformType)
     // Offset: 0x1A0D00C
-    OVR::OpenVR::EVROverlayError GetOverlayTransformType(uint64_t ulOverlayHandle, ByRef<OVR::OpenVR::VROverlayTransformType> peTransformType);
+    ::OVR::OpenVR::EVROverlayError GetOverlayTransformType(uint64_t ulOverlayHandle, ByRef<::OVR::OpenVR::VROverlayTransformType> peTransformType);
     // public OVR.OpenVR.EVROverlayError SetOverlayTransformAbsolute(System.UInt64 ulOverlayHandle, OVR.OpenVR.ETrackingUniverseOrigin eTrackingOrigin, ref OVR.OpenVR.HmdMatrix34_t pmatTrackingOriginToOverlayTransform)
     // Offset: 0x1A0D028
-    OVR::OpenVR::EVROverlayError SetOverlayTransformAbsolute(uint64_t ulOverlayHandle, OVR::OpenVR::ETrackingUniverseOrigin eTrackingOrigin, ByRef<OVR::OpenVR::HmdMatrix34_t> pmatTrackingOriginToOverlayTransform);
+    ::OVR::OpenVR::EVROverlayError SetOverlayTransformAbsolute(uint64_t ulOverlayHandle, ::OVR::OpenVR::ETrackingUniverseOrigin eTrackingOrigin, ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatTrackingOriginToOverlayTransform);
     // public OVR.OpenVR.EVROverlayError GetOverlayTransformAbsolute(System.UInt64 ulOverlayHandle, ref OVR.OpenVR.ETrackingUniverseOrigin peTrackingOrigin, ref OVR.OpenVR.HmdMatrix34_t pmatTrackingOriginToOverlayTransform)
     // Offset: 0x1A0D044
-    OVR::OpenVR::EVROverlayError GetOverlayTransformAbsolute(uint64_t ulOverlayHandle, ByRef<OVR::OpenVR::ETrackingUniverseOrigin> peTrackingOrigin, ByRef<OVR::OpenVR::HmdMatrix34_t> pmatTrackingOriginToOverlayTransform);
+    ::OVR::OpenVR::EVROverlayError GetOverlayTransformAbsolute(uint64_t ulOverlayHandle, ByRef<::OVR::OpenVR::ETrackingUniverseOrigin> peTrackingOrigin, ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatTrackingOriginToOverlayTransform);
     // public OVR.OpenVR.EVROverlayError SetOverlayTransformTrackedDeviceRelative(System.UInt64 ulOverlayHandle, System.UInt32 unTrackedDevice, ref OVR.OpenVR.HmdMatrix34_t pmatTrackedDeviceToOverlayTransform)
     // Offset: 0x1A0D060
-    OVR::OpenVR::EVROverlayError SetOverlayTransformTrackedDeviceRelative(uint64_t ulOverlayHandle, uint unTrackedDevice, ByRef<OVR::OpenVR::HmdMatrix34_t> pmatTrackedDeviceToOverlayTransform);
+    ::OVR::OpenVR::EVROverlayError SetOverlayTransformTrackedDeviceRelative(uint64_t ulOverlayHandle, uint unTrackedDevice, ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatTrackedDeviceToOverlayTransform);
     // public OVR.OpenVR.EVROverlayError GetOverlayTransformTrackedDeviceRelative(System.UInt64 ulOverlayHandle, ref System.UInt32 punTrackedDevice, ref OVR.OpenVR.HmdMatrix34_t pmatTrackedDeviceToOverlayTransform)
     // Offset: 0x1A0D07C
-    OVR::OpenVR::EVROverlayError GetOverlayTransformTrackedDeviceRelative(uint64_t ulOverlayHandle, ByRef<uint> punTrackedDevice, ByRef<OVR::OpenVR::HmdMatrix34_t> pmatTrackedDeviceToOverlayTransform);
+    ::OVR::OpenVR::EVROverlayError GetOverlayTransformTrackedDeviceRelative(uint64_t ulOverlayHandle, ByRef<uint> punTrackedDevice, ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatTrackedDeviceToOverlayTransform);
     // public OVR.OpenVR.EVROverlayError SetOverlayTransformTrackedDeviceComponent(System.UInt64 ulOverlayHandle, System.UInt32 unDeviceIndex, System.String pchComponentName)
     // Offset: 0x1A0D09C
-    OVR::OpenVR::EVROverlayError SetOverlayTransformTrackedDeviceComponent(uint64_t ulOverlayHandle, uint unDeviceIndex, ::StringW pchComponentName);
+    ::OVR::OpenVR::EVROverlayError SetOverlayTransformTrackedDeviceComponent(uint64_t ulOverlayHandle, uint unDeviceIndex, ::StringW pchComponentName);
     // public OVR.OpenVR.EVROverlayError GetOverlayTransformTrackedDeviceComponent(System.UInt64 ulOverlayHandle, ref System.UInt32 punDeviceIndex, System.Text.StringBuilder pchComponentName, System.UInt32 unComponentNameSize)
     // Offset: 0x1A0D0B8
-    OVR::OpenVR::EVROverlayError GetOverlayTransformTrackedDeviceComponent(uint64_t ulOverlayHandle, ByRef<uint> punDeviceIndex, System::Text::StringBuilder* pchComponentName, uint unComponentNameSize);
+    ::OVR::OpenVR::EVROverlayError GetOverlayTransformTrackedDeviceComponent(uint64_t ulOverlayHandle, ByRef<uint> punDeviceIndex, ::System::Text::StringBuilder* pchComponentName, uint unComponentNameSize);
     // public OVR.OpenVR.EVROverlayError GetOverlayTransformOverlayRelative(System.UInt64 ulOverlayHandle, ref System.UInt64 ulOverlayHandleParent, ref OVR.OpenVR.HmdMatrix34_t pmatParentOverlayToOverlayTransform)
     // Offset: 0x1A0D0D8
-    OVR::OpenVR::EVROverlayError GetOverlayTransformOverlayRelative(uint64_t ulOverlayHandle, ByRef<uint64_t> ulOverlayHandleParent, ByRef<OVR::OpenVR::HmdMatrix34_t> pmatParentOverlayToOverlayTransform);
+    ::OVR::OpenVR::EVROverlayError GetOverlayTransformOverlayRelative(uint64_t ulOverlayHandle, ByRef<uint64_t> ulOverlayHandleParent, ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatParentOverlayToOverlayTransform);
     // public OVR.OpenVR.EVROverlayError SetOverlayTransformOverlayRelative(System.UInt64 ulOverlayHandle, System.UInt64 ulOverlayHandleParent, ref OVR.OpenVR.HmdMatrix34_t pmatParentOverlayToOverlayTransform)
     // Offset: 0x1A0D0F8
-    OVR::OpenVR::EVROverlayError SetOverlayTransformOverlayRelative(uint64_t ulOverlayHandle, uint64_t ulOverlayHandleParent, ByRef<OVR::OpenVR::HmdMatrix34_t> pmatParentOverlayToOverlayTransform);
+    ::OVR::OpenVR::EVROverlayError SetOverlayTransformOverlayRelative(uint64_t ulOverlayHandle, uint64_t ulOverlayHandleParent, ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatParentOverlayToOverlayTransform);
     // public OVR.OpenVR.EVROverlayError ShowOverlay(System.UInt64 ulOverlayHandle)
     // Offset: 0x1A0D114
-    OVR::OpenVR::EVROverlayError ShowOverlay(uint64_t ulOverlayHandle);
+    ::OVR::OpenVR::EVROverlayError ShowOverlay(uint64_t ulOverlayHandle);
     // public OVR.OpenVR.EVROverlayError HideOverlay(System.UInt64 ulOverlayHandle)
     // Offset: 0x1A0D130
-    OVR::OpenVR::EVROverlayError HideOverlay(uint64_t ulOverlayHandle);
+    ::OVR::OpenVR::EVROverlayError HideOverlay(uint64_t ulOverlayHandle);
     // public System.Boolean IsOverlayVisible(System.UInt64 ulOverlayHandle)
     // Offset: 0x1A0D14C
     bool IsOverlayVisible(uint64_t ulOverlayHandle);
     // public OVR.OpenVR.EVROverlayError GetTransformForOverlayCoordinates(System.UInt64 ulOverlayHandle, OVR.OpenVR.ETrackingUniverseOrigin eTrackingOrigin, OVR.OpenVR.HmdVector2_t coordinatesInOverlay, ref OVR.OpenVR.HmdMatrix34_t pmatTransform)
     // Offset: 0x1A0D168
-    OVR::OpenVR::EVROverlayError GetTransformForOverlayCoordinates(uint64_t ulOverlayHandle, OVR::OpenVR::ETrackingUniverseOrigin eTrackingOrigin, OVR::OpenVR::HmdVector2_t coordinatesInOverlay, ByRef<OVR::OpenVR::HmdMatrix34_t> pmatTransform);
+    ::OVR::OpenVR::EVROverlayError GetTransformForOverlayCoordinates(uint64_t ulOverlayHandle, ::OVR::OpenVR::ETrackingUniverseOrigin eTrackingOrigin, ::OVR::OpenVR::HmdVector2_t coordinatesInOverlay, ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatTransform);
     // public System.Boolean PollNextOverlayEvent(System.UInt64 ulOverlayHandle, ref OVR.OpenVR.VREvent_t pEvent, System.UInt32 uncbVREvent)
     // Offset: 0x1A0D184
-    bool PollNextOverlayEvent(uint64_t ulOverlayHandle, ByRef<OVR::OpenVR::VREvent_t> pEvent, uint uncbVREvent);
+    bool PollNextOverlayEvent(uint64_t ulOverlayHandle, ByRef<::OVR::OpenVR::VREvent_t> pEvent, uint uncbVREvent);
     // public OVR.OpenVR.EVROverlayError GetOverlayInputMethod(System.UInt64 ulOverlayHandle, ref OVR.OpenVR.VROverlayInputMethod peInputMethod)
     // Offset: 0x1A0D5A0
-    OVR::OpenVR::EVROverlayError GetOverlayInputMethod(uint64_t ulOverlayHandle, ByRef<OVR::OpenVR::VROverlayInputMethod> peInputMethod);
+    ::OVR::OpenVR::EVROverlayError GetOverlayInputMethod(uint64_t ulOverlayHandle, ByRef<::OVR::OpenVR::VROverlayInputMethod> peInputMethod);
     // public OVR.OpenVR.EVROverlayError SetOverlayInputMethod(System.UInt64 ulOverlayHandle, OVR.OpenVR.VROverlayInputMethod eInputMethod)
     // Offset: 0x1A0D5BC
-    OVR::OpenVR::EVROverlayError SetOverlayInputMethod(uint64_t ulOverlayHandle, OVR::OpenVR::VROverlayInputMethod eInputMethod);
+    ::OVR::OpenVR::EVROverlayError SetOverlayInputMethod(uint64_t ulOverlayHandle, ::OVR::OpenVR::VROverlayInputMethod eInputMethod);
     // public OVR.OpenVR.EVROverlayError GetOverlayMouseScale(System.UInt64 ulOverlayHandle, ref OVR.OpenVR.HmdVector2_t pvecMouseScale)
     // Offset: 0x1A0D5D8
-    OVR::OpenVR::EVROverlayError GetOverlayMouseScale(uint64_t ulOverlayHandle, ByRef<OVR::OpenVR::HmdVector2_t> pvecMouseScale);
+    ::OVR::OpenVR::EVROverlayError GetOverlayMouseScale(uint64_t ulOverlayHandle, ByRef<::OVR::OpenVR::HmdVector2_t> pvecMouseScale);
     // public OVR.OpenVR.EVROverlayError SetOverlayMouseScale(System.UInt64 ulOverlayHandle, ref OVR.OpenVR.HmdVector2_t pvecMouseScale)
     // Offset: 0x1A0D5F4
-    OVR::OpenVR::EVROverlayError SetOverlayMouseScale(uint64_t ulOverlayHandle, ByRef<OVR::OpenVR::HmdVector2_t> pvecMouseScale);
+    ::OVR::OpenVR::EVROverlayError SetOverlayMouseScale(uint64_t ulOverlayHandle, ByRef<::OVR::OpenVR::HmdVector2_t> pvecMouseScale);
     // public System.Boolean ComputeOverlayIntersection(System.UInt64 ulOverlayHandle, ref OVR.OpenVR.VROverlayIntersectionParams_t pParams, ref OVR.OpenVR.VROverlayIntersectionResults_t pResults)
     // Offset: 0x1A0D610
-    bool ComputeOverlayIntersection(uint64_t ulOverlayHandle, ByRef<OVR::OpenVR::VROverlayIntersectionParams_t> pParams, ByRef<OVR::OpenVR::VROverlayIntersectionResults_t> pResults);
+    bool ComputeOverlayIntersection(uint64_t ulOverlayHandle, ByRef<::OVR::OpenVR::VROverlayIntersectionParams_t> pParams, ByRef<::OVR::OpenVR::VROverlayIntersectionResults_t> pResults);
     // public System.Boolean IsHoverTargetOverlay(System.UInt64 ulOverlayHandle)
     // Offset: 0x1A0D62C
     bool IsHoverTargetOverlay(uint64_t ulOverlayHandle);
@@ -275,43 +275,43 @@ namespace OVR::OpenVR {
     uint64_t GetGamepadFocusOverlay();
     // public OVR.OpenVR.EVROverlayError SetGamepadFocusOverlay(System.UInt64 ulNewFocusOverlay)
     // Offset: 0x1A0D664
-    OVR::OpenVR::EVROverlayError SetGamepadFocusOverlay(uint64_t ulNewFocusOverlay);
+    ::OVR::OpenVR::EVROverlayError SetGamepadFocusOverlay(uint64_t ulNewFocusOverlay);
     // public OVR.OpenVR.EVROverlayError SetOverlayNeighbor(OVR.OpenVR.EOverlayDirection eDirection, System.UInt64 ulFrom, System.UInt64 ulTo)
     // Offset: 0x1A0D680
-    OVR::OpenVR::EVROverlayError SetOverlayNeighbor(OVR::OpenVR::EOverlayDirection eDirection, uint64_t ulFrom, uint64_t ulTo);
+    ::OVR::OpenVR::EVROverlayError SetOverlayNeighbor(::OVR::OpenVR::EOverlayDirection eDirection, uint64_t ulFrom, uint64_t ulTo);
     // public OVR.OpenVR.EVROverlayError MoveGamepadFocusToNeighbor(OVR.OpenVR.EOverlayDirection eDirection, System.UInt64 ulFrom)
     // Offset: 0x1A0D69C
-    OVR::OpenVR::EVROverlayError MoveGamepadFocusToNeighbor(OVR::OpenVR::EOverlayDirection eDirection, uint64_t ulFrom);
+    ::OVR::OpenVR::EVROverlayError MoveGamepadFocusToNeighbor(::OVR::OpenVR::EOverlayDirection eDirection, uint64_t ulFrom);
     // public OVR.OpenVR.EVROverlayError SetOverlayDualAnalogTransform(System.UInt64 ulOverlay, OVR.OpenVR.EDualAnalogWhich eWhich, System.IntPtr vCenter, System.Single fRadius)
     // Offset: 0x1A0D6B8
-    OVR::OpenVR::EVROverlayError SetOverlayDualAnalogTransform(uint64_t ulOverlay, OVR::OpenVR::EDualAnalogWhich eWhich, System::IntPtr vCenter, float fRadius);
+    ::OVR::OpenVR::EVROverlayError SetOverlayDualAnalogTransform(uint64_t ulOverlay, ::OVR::OpenVR::EDualAnalogWhich eWhich, ::System::IntPtr vCenter, float fRadius);
     // public OVR.OpenVR.EVROverlayError GetOverlayDualAnalogTransform(System.UInt64 ulOverlay, OVR.OpenVR.EDualAnalogWhich eWhich, ref OVR.OpenVR.HmdVector2_t pvCenter, ref System.Single pfRadius)
     // Offset: 0x1A0D6D4
-    OVR::OpenVR::EVROverlayError GetOverlayDualAnalogTransform(uint64_t ulOverlay, OVR::OpenVR::EDualAnalogWhich eWhich, ByRef<OVR::OpenVR::HmdVector2_t> pvCenter, ByRef<float> pfRadius);
+    ::OVR::OpenVR::EVROverlayError GetOverlayDualAnalogTransform(uint64_t ulOverlay, ::OVR::OpenVR::EDualAnalogWhich eWhich, ByRef<::OVR::OpenVR::HmdVector2_t> pvCenter, ByRef<float> pfRadius);
     // public OVR.OpenVR.EVROverlayError SetOverlayTexture(System.UInt64 ulOverlayHandle, ref OVR.OpenVR.Texture_t pTexture)
     // Offset: 0x1A0D6F4
-    OVR::OpenVR::EVROverlayError SetOverlayTexture(uint64_t ulOverlayHandle, ByRef<OVR::OpenVR::Texture_t> pTexture);
+    ::OVR::OpenVR::EVROverlayError SetOverlayTexture(uint64_t ulOverlayHandle, ByRef<::OVR::OpenVR::Texture_t> pTexture);
     // public OVR.OpenVR.EVROverlayError ClearOverlayTexture(System.UInt64 ulOverlayHandle)
     // Offset: 0x1A0D710
-    OVR::OpenVR::EVROverlayError ClearOverlayTexture(uint64_t ulOverlayHandle);
+    ::OVR::OpenVR::EVROverlayError ClearOverlayTexture(uint64_t ulOverlayHandle);
     // public OVR.OpenVR.EVROverlayError SetOverlayRaw(System.UInt64 ulOverlayHandle, System.IntPtr pvBuffer, System.UInt32 unWidth, System.UInt32 unHeight, System.UInt32 unDepth)
     // Offset: 0x1A0D72C
-    OVR::OpenVR::EVROverlayError SetOverlayRaw(uint64_t ulOverlayHandle, System::IntPtr pvBuffer, uint unWidth, uint unHeight, uint unDepth);
+    ::OVR::OpenVR::EVROverlayError SetOverlayRaw(uint64_t ulOverlayHandle, ::System::IntPtr pvBuffer, uint unWidth, uint unHeight, uint unDepth);
     // public OVR.OpenVR.EVROverlayError SetOverlayFromFile(System.UInt64 ulOverlayHandle, System.String pchFilePath)
     // Offset: 0x1A0D748
-    OVR::OpenVR::EVROverlayError SetOverlayFromFile(uint64_t ulOverlayHandle, ::StringW pchFilePath);
+    ::OVR::OpenVR::EVROverlayError SetOverlayFromFile(uint64_t ulOverlayHandle, ::StringW pchFilePath);
     // public OVR.OpenVR.EVROverlayError GetOverlayTexture(System.UInt64 ulOverlayHandle, ref System.IntPtr pNativeTextureHandle, System.IntPtr pNativeTextureRef, ref System.UInt32 pWidth, ref System.UInt32 pHeight, ref System.UInt32 pNativeFormat, ref OVR.OpenVR.ETextureType pAPIType, ref OVR.OpenVR.EColorSpace pColorSpace, ref OVR.OpenVR.VRTextureBounds_t pTextureBounds)
     // Offset: 0x1A0D764
-    OVR::OpenVR::EVROverlayError GetOverlayTexture(uint64_t ulOverlayHandle, ByRef<System::IntPtr> pNativeTextureHandle, System::IntPtr pNativeTextureRef, ByRef<uint> pWidth, ByRef<uint> pHeight, ByRef<uint> pNativeFormat, ByRef<OVR::OpenVR::ETextureType> pAPIType, ByRef<OVR::OpenVR::EColorSpace> pColorSpace, ByRef<OVR::OpenVR::VRTextureBounds_t> pTextureBounds);
+    ::OVR::OpenVR::EVROverlayError GetOverlayTexture(uint64_t ulOverlayHandle, ByRef<::System::IntPtr> pNativeTextureHandle, ::System::IntPtr pNativeTextureRef, ByRef<uint> pWidth, ByRef<uint> pHeight, ByRef<uint> pNativeFormat, ByRef<::OVR::OpenVR::ETextureType> pAPIType, ByRef<::OVR::OpenVR::EColorSpace> pColorSpace, ByRef<::OVR::OpenVR::VRTextureBounds_t> pTextureBounds);
     // public OVR.OpenVR.EVROverlayError ReleaseNativeOverlayHandle(System.UInt64 ulOverlayHandle, System.IntPtr pNativeTextureHandle)
     // Offset: 0x1A0D798
-    OVR::OpenVR::EVROverlayError ReleaseNativeOverlayHandle(uint64_t ulOverlayHandle, System::IntPtr pNativeTextureHandle);
+    ::OVR::OpenVR::EVROverlayError ReleaseNativeOverlayHandle(uint64_t ulOverlayHandle, ::System::IntPtr pNativeTextureHandle);
     // public OVR.OpenVR.EVROverlayError GetOverlayTextureSize(System.UInt64 ulOverlayHandle, ref System.UInt32 pWidth, ref System.UInt32 pHeight)
     // Offset: 0x1A0D7B4
-    OVR::OpenVR::EVROverlayError GetOverlayTextureSize(uint64_t ulOverlayHandle, ByRef<uint> pWidth, ByRef<uint> pHeight);
+    ::OVR::OpenVR::EVROverlayError GetOverlayTextureSize(uint64_t ulOverlayHandle, ByRef<uint> pWidth, ByRef<uint> pHeight);
     // public OVR.OpenVR.EVROverlayError CreateDashboardOverlay(System.String pchOverlayKey, System.String pchOverlayFriendlyName, ref System.UInt64 pMainHandle, ref System.UInt64 pThumbnailHandle)
     // Offset: 0x1A0D7D8
-    OVR::OpenVR::EVROverlayError CreateDashboardOverlay(::StringW pchOverlayKey, ::StringW pchOverlayFriendlyName, ByRef<uint64_t> pMainHandle, ByRef<uint64_t> pThumbnailHandle);
+    ::OVR::OpenVR::EVROverlayError CreateDashboardOverlay(::StringW pchOverlayKey, ::StringW pchOverlayFriendlyName, ByRef<uint64_t> pMainHandle, ByRef<uint64_t> pThumbnailHandle);
     // public System.Boolean IsDashboardVisible()
     // Offset: 0x1A0D7FC
     bool IsDashboardVisible();
@@ -320,10 +320,10 @@ namespace OVR::OpenVR {
     bool IsActiveDashboardOverlay(uint64_t ulOverlayHandle);
     // public OVR.OpenVR.EVROverlayError SetDashboardOverlaySceneProcess(System.UInt64 ulOverlayHandle, System.UInt32 unProcessId)
     // Offset: 0x1A0D834
-    OVR::OpenVR::EVROverlayError SetDashboardOverlaySceneProcess(uint64_t ulOverlayHandle, uint unProcessId);
+    ::OVR::OpenVR::EVROverlayError SetDashboardOverlaySceneProcess(uint64_t ulOverlayHandle, uint unProcessId);
     // public OVR.OpenVR.EVROverlayError GetDashboardOverlaySceneProcess(System.UInt64 ulOverlayHandle, ref System.UInt32 punProcessId)
     // Offset: 0x1A0D850
-    OVR::OpenVR::EVROverlayError GetDashboardOverlaySceneProcess(uint64_t ulOverlayHandle, ByRef<uint> punProcessId);
+    ::OVR::OpenVR::EVROverlayError GetDashboardOverlaySceneProcess(uint64_t ulOverlayHandle, ByRef<uint> punProcessId);
     // public System.Void ShowDashboard(System.String pchOverlayToShow)
     // Offset: 0x1A0D870
     void ShowDashboard(::StringW pchOverlayToShow);
@@ -332,37 +332,37 @@ namespace OVR::OpenVR {
     uint GetPrimaryDashboardDevice();
     // public OVR.OpenVR.EVROverlayError ShowKeyboard(System.Int32 eInputMode, System.Int32 eLineInputMode, System.String pchDescription, System.UInt32 unCharMax, System.String pchExistingText, System.Boolean bUseMinimalMode, System.UInt64 uUserValue)
     // Offset: 0x1A0D8A8
-    OVR::OpenVR::EVROverlayError ShowKeyboard(int eInputMode, int eLineInputMode, ::StringW pchDescription, uint unCharMax, ::StringW pchExistingText, bool bUseMinimalMode, uint64_t uUserValue);
+    ::OVR::OpenVR::EVROverlayError ShowKeyboard(int eInputMode, int eLineInputMode, ::StringW pchDescription, uint unCharMax, ::StringW pchExistingText, bool bUseMinimalMode, uint64_t uUserValue);
     // public OVR.OpenVR.EVROverlayError ShowKeyboardForOverlay(System.UInt64 ulOverlayHandle, System.Int32 eInputMode, System.Int32 eLineInputMode, System.String pchDescription, System.UInt32 unCharMax, System.String pchExistingText, System.Boolean bUseMinimalMode, System.UInt64 uUserValue)
     // Offset: 0x1A0D8CC
-    OVR::OpenVR::EVROverlayError ShowKeyboardForOverlay(uint64_t ulOverlayHandle, int eInputMode, int eLineInputMode, ::StringW pchDescription, uint unCharMax, ::StringW pchExistingText, bool bUseMinimalMode, uint64_t uUserValue);
+    ::OVR::OpenVR::EVROverlayError ShowKeyboardForOverlay(uint64_t ulOverlayHandle, int eInputMode, int eLineInputMode, ::StringW pchDescription, uint unCharMax, ::StringW pchExistingText, bool bUseMinimalMode, uint64_t uUserValue);
     // public System.UInt32 GetKeyboardText(System.Text.StringBuilder pchText, System.UInt32 cchText)
     // Offset: 0x1A0D8F4
-    uint GetKeyboardText(System::Text::StringBuilder* pchText, uint cchText);
+    uint GetKeyboardText(::System::Text::StringBuilder* pchText, uint cchText);
     // public System.Void HideKeyboard()
     // Offset: 0x1A0D910
     void HideKeyboard();
     // public System.Void SetKeyboardTransformAbsolute(OVR.OpenVR.ETrackingUniverseOrigin eTrackingOrigin, ref OVR.OpenVR.HmdMatrix34_t pmatTrackingOriginToKeyboardTransform)
     // Offset: 0x1A0D92C
-    void SetKeyboardTransformAbsolute(OVR::OpenVR::ETrackingUniverseOrigin eTrackingOrigin, ByRef<OVR::OpenVR::HmdMatrix34_t> pmatTrackingOriginToKeyboardTransform);
+    void SetKeyboardTransformAbsolute(::OVR::OpenVR::ETrackingUniverseOrigin eTrackingOrigin, ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatTrackingOriginToKeyboardTransform);
     // public System.Void SetKeyboardPositionForOverlay(System.UInt64 ulOverlayHandle, OVR.OpenVR.HmdRect2_t avoidRect)
     // Offset: 0x1A0D948
-    void SetKeyboardPositionForOverlay(uint64_t ulOverlayHandle, OVR::OpenVR::HmdRect2_t avoidRect);
+    void SetKeyboardPositionForOverlay(uint64_t ulOverlayHandle, ::OVR::OpenVR::HmdRect2_t avoidRect);
     // public OVR.OpenVR.EVROverlayError SetOverlayIntersectionMask(System.UInt64 ulOverlayHandle, ref OVR.OpenVR.VROverlayIntersectionMaskPrimitive_t pMaskPrimitives, System.UInt32 unNumMaskPrimitives, System.UInt32 unPrimitiveSize)
     // Offset: 0x1A0D964
-    OVR::OpenVR::EVROverlayError SetOverlayIntersectionMask(uint64_t ulOverlayHandle, ByRef<OVR::OpenVR::VROverlayIntersectionMaskPrimitive_t> pMaskPrimitives, uint unNumMaskPrimitives, uint unPrimitiveSize);
+    ::OVR::OpenVR::EVROverlayError SetOverlayIntersectionMask(uint64_t ulOverlayHandle, ByRef<::OVR::OpenVR::VROverlayIntersectionMaskPrimitive_t> pMaskPrimitives, uint unNumMaskPrimitives, uint unPrimitiveSize);
     // public OVR.OpenVR.EVROverlayError GetOverlayFlags(System.UInt64 ulOverlayHandle, ref System.UInt32 pFlags)
     // Offset: 0x1A0D980
-    OVR::OpenVR::EVROverlayError GetOverlayFlags(uint64_t ulOverlayHandle, ByRef<uint> pFlags);
+    ::OVR::OpenVR::EVROverlayError GetOverlayFlags(uint64_t ulOverlayHandle, ByRef<uint> pFlags);
     // public OVR.OpenVR.VRMessageOverlayResponse ShowMessageOverlay(System.String pchText, System.String pchCaption, System.String pchButton0Text, System.String pchButton1Text, System.String pchButton2Text, System.String pchButton3Text)
     // Offset: 0x1A0D9A0
-    OVR::OpenVR::VRMessageOverlayResponse ShowMessageOverlay(::StringW pchText, ::StringW pchCaption, ::StringW pchButton0Text, ::StringW pchButton1Text, ::StringW pchButton2Text, ::StringW pchButton3Text);
+    ::OVR::OpenVR::VRMessageOverlayResponse ShowMessageOverlay(::StringW pchText, ::StringW pchCaption, ::StringW pchButton0Text, ::StringW pchButton1Text, ::StringW pchButton2Text, ::StringW pchButton3Text);
     // public System.Void CloseMessageOverlay()
     // Offset: 0x1A0D9BC
     void CloseMessageOverlay();
   }; // OVR.OpenVR.CVROverlay
   #pragma pack(pop)
-  static check_size<sizeof(CVROverlay), 16 + sizeof(OVR::OpenVR::IVROverlay)> __OVR_OpenVR_CVROverlaySizeCheck;
+  static check_size<sizeof(CVROverlay), 16 + sizeof(::OVR::OpenVR::IVROverlay)> __OVR_OpenVR_CVROverlaySizeCheck;
   static_assert(sizeof(CVROverlay) == 0x2A0);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -373,7 +373,7 @@ namespace OVR::OpenVR {
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::FindOverlay
 // Il2CppName: FindOverlay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(::StringW, ByRef<uint64_t>)>(&OVR::OpenVR::CVROverlay::FindOverlay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(::StringW, ByRef<uint64_t>)>(&OVR::OpenVR::CVROverlay::FindOverlay)> {
   static const MethodInfo* get() {
     static auto* pchOverlayKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->this_arg;
@@ -383,7 +383,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::CreateOverlay
 // Il2CppName: CreateOverlay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(::StringW, ::StringW, ByRef<uint64_t>)>(&OVR::OpenVR::CVROverlay::CreateOverlay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(::StringW, ::StringW, ByRef<uint64_t>)>(&OVR::OpenVR::CVROverlay::CreateOverlay)> {
   static const MethodInfo* get() {
     static auto* pchOverlayKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchOverlayName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -394,7 +394,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::DestroyOverlay
 // Il2CppName: DestroyOverlay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t)>(&OVR::OpenVR::CVROverlay::DestroyOverlay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t)>(&OVR::OpenVR::CVROverlay::DestroyOverlay)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "DestroyOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ulOverlayHandle});
@@ -403,7 +403,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetHighQualityOverlay
 // Il2CppName: SetHighQualityOverlay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t)>(&OVR::OpenVR::CVROverlay::SetHighQualityOverlay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t)>(&OVR::OpenVR::CVROverlay::SetHighQualityOverlay)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "SetHighQualityOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ulOverlayHandle});
@@ -420,7 +420,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (O
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayKey
 // Il2CppName: GetOverlayKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVROverlay::*)(uint64_t, System::Text::StringBuilder*, uint, ByRef<OVR::OpenVR::EVROverlayError>)>(&OVR::OpenVR::CVROverlay::GetOverlayKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVROverlay::*)(uint64_t, ::System::Text::StringBuilder*, uint, ByRef<::OVR::OpenVR::EVROverlayError>)>(&OVR::OpenVR::CVROverlay::GetOverlayKey)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pchValue = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
@@ -432,7 +432,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayName
 // Il2CppName: GetOverlayName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVROverlay::*)(uint64_t, System::Text::StringBuilder*, uint, ByRef<OVR::OpenVR::EVROverlayError>)>(&OVR::OpenVR::CVROverlay::GetOverlayName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVROverlay::*)(uint64_t, ::System::Text::StringBuilder*, uint, ByRef<::OVR::OpenVR::EVROverlayError>)>(&OVR::OpenVR::CVROverlay::GetOverlayName)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pchValue = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
@@ -444,7 +444,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetOverlayName
 // Il2CppName: SetOverlayName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ::StringW)>(&OVR::OpenVR::CVROverlay::SetOverlayName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ::StringW)>(&OVR::OpenVR::CVROverlay::SetOverlayName)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pchName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -454,7 +454,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayImageData
 // Il2CppName: GetOverlayImageData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, System::IntPtr, uint, ByRef<uint>, ByRef<uint>)>(&OVR::OpenVR::CVROverlay::GetOverlayImageData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ::System::IntPtr, uint, ByRef<uint>, ByRef<uint>)>(&OVR::OpenVR::CVROverlay::GetOverlayImageData)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pvBuffer = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -467,7 +467,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayErrorNameFromEnum
 // Il2CppName: GetOverlayErrorNameFromEnum
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (OVR::OpenVR::CVROverlay::*)(OVR::OpenVR::EVROverlayError)>(&OVR::OpenVR::CVROverlay::GetOverlayErrorNameFromEnum)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (OVR::OpenVR::CVROverlay::*)(::OVR::OpenVR::EVROverlayError)>(&OVR::OpenVR::CVROverlay::GetOverlayErrorNameFromEnum)> {
   static const MethodInfo* get() {
     static auto* error = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVROverlayError")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "GetOverlayErrorNameFromEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{error});
@@ -476,7 +476,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetOverlayRenderingPid
 // Il2CppName: SetOverlayRenderingPid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, uint)>(&OVR::OpenVR::CVROverlay::SetOverlayRenderingPid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, uint)>(&OVR::OpenVR::CVROverlay::SetOverlayRenderingPid)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* unPID = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -495,7 +495,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetOverlayFlag
 // Il2CppName: SetOverlayFlag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, OVR::OpenVR::VROverlayFlags, bool)>(&OVR::OpenVR::CVROverlay::SetOverlayFlag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ::OVR::OpenVR::VROverlayFlags, bool)>(&OVR::OpenVR::CVROverlay::SetOverlayFlag)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* eOverlayFlag = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "VROverlayFlags")->byval_arg;
@@ -506,7 +506,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayFlag
 // Il2CppName: GetOverlayFlag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, OVR::OpenVR::VROverlayFlags, ByRef<bool>)>(&OVR::OpenVR::CVROverlay::GetOverlayFlag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ::OVR::OpenVR::VROverlayFlags, ByRef<bool>)>(&OVR::OpenVR::CVROverlay::GetOverlayFlag)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* eOverlayFlag = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "VROverlayFlags")->byval_arg;
@@ -517,7 +517,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetOverlayColor
 // Il2CppName: SetOverlayColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, float, float, float)>(&OVR::OpenVR::CVROverlay::SetOverlayColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, float, float, float)>(&OVR::OpenVR::CVROverlay::SetOverlayColor)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* fRed = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -529,7 +529,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayColor
 // Il2CppName: GetOverlayColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<float>, ByRef<float>, ByRef<float>)>(&OVR::OpenVR::CVROverlay::GetOverlayColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<float>, ByRef<float>, ByRef<float>)>(&OVR::OpenVR::CVROverlay::GetOverlayColor)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pfRed = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
@@ -541,7 +541,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetOverlayAlpha
 // Il2CppName: SetOverlayAlpha
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, float)>(&OVR::OpenVR::CVROverlay::SetOverlayAlpha)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, float)>(&OVR::OpenVR::CVROverlay::SetOverlayAlpha)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* fAlpha = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -551,7 +551,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayAlpha
 // Il2CppName: GetOverlayAlpha
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<float>)>(&OVR::OpenVR::CVROverlay::GetOverlayAlpha)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<float>)>(&OVR::OpenVR::CVROverlay::GetOverlayAlpha)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pfAlpha = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
@@ -561,7 +561,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetOverlayTexelAspect
 // Il2CppName: SetOverlayTexelAspect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, float)>(&OVR::OpenVR::CVROverlay::SetOverlayTexelAspect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, float)>(&OVR::OpenVR::CVROverlay::SetOverlayTexelAspect)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* fTexelAspect = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -571,7 +571,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayTexelAspect
 // Il2CppName: GetOverlayTexelAspect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<float>)>(&OVR::OpenVR::CVROverlay::GetOverlayTexelAspect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<float>)>(&OVR::OpenVR::CVROverlay::GetOverlayTexelAspect)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pfTexelAspect = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
@@ -581,7 +581,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetOverlaySortOrder
 // Il2CppName: SetOverlaySortOrder
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, uint)>(&OVR::OpenVR::CVROverlay::SetOverlaySortOrder)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, uint)>(&OVR::OpenVR::CVROverlay::SetOverlaySortOrder)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* unSortOrder = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -591,7 +591,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlaySortOrder
 // Il2CppName: GetOverlaySortOrder
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<uint>)>(&OVR::OpenVR::CVROverlay::GetOverlaySortOrder)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<uint>)>(&OVR::OpenVR::CVROverlay::GetOverlaySortOrder)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* punSortOrder = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
@@ -601,7 +601,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetOverlayWidthInMeters
 // Il2CppName: SetOverlayWidthInMeters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, float)>(&OVR::OpenVR::CVROverlay::SetOverlayWidthInMeters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, float)>(&OVR::OpenVR::CVROverlay::SetOverlayWidthInMeters)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* fWidthInMeters = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -611,7 +611,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayWidthInMeters
 // Il2CppName: GetOverlayWidthInMeters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<float>)>(&OVR::OpenVR::CVROverlay::GetOverlayWidthInMeters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<float>)>(&OVR::OpenVR::CVROverlay::GetOverlayWidthInMeters)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pfWidthInMeters = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
@@ -621,7 +621,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetOverlayAutoCurveDistanceRangeInMeters
 // Il2CppName: SetOverlayAutoCurveDistanceRangeInMeters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, float, float)>(&OVR::OpenVR::CVROverlay::SetOverlayAutoCurveDistanceRangeInMeters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, float, float)>(&OVR::OpenVR::CVROverlay::SetOverlayAutoCurveDistanceRangeInMeters)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* fMinDistanceInMeters = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -632,7 +632,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayAutoCurveDistanceRangeInMeters
 // Il2CppName: GetOverlayAutoCurveDistanceRangeInMeters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<float>, ByRef<float>)>(&OVR::OpenVR::CVROverlay::GetOverlayAutoCurveDistanceRangeInMeters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<float>, ByRef<float>)>(&OVR::OpenVR::CVROverlay::GetOverlayAutoCurveDistanceRangeInMeters)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pfMinDistanceInMeters = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
@@ -643,7 +643,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetOverlayTextureColorSpace
 // Il2CppName: SetOverlayTextureColorSpace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, OVR::OpenVR::EColorSpace)>(&OVR::OpenVR::CVROverlay::SetOverlayTextureColorSpace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ::OVR::OpenVR::EColorSpace)>(&OVR::OpenVR::CVROverlay::SetOverlayTextureColorSpace)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* eTextureColorSpace = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EColorSpace")->byval_arg;
@@ -653,7 +653,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayTextureColorSpace
 // Il2CppName: GetOverlayTextureColorSpace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<OVR::OpenVR::EColorSpace>)>(&OVR::OpenVR::CVROverlay::GetOverlayTextureColorSpace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<::OVR::OpenVR::EColorSpace>)>(&OVR::OpenVR::CVROverlay::GetOverlayTextureColorSpace)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* peTextureColorSpace = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EColorSpace")->this_arg;
@@ -663,7 +663,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetOverlayTextureBounds
 // Il2CppName: SetOverlayTextureBounds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<OVR::OpenVR::VRTextureBounds_t>)>(&OVR::OpenVR::CVROverlay::SetOverlayTextureBounds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<::OVR::OpenVR::VRTextureBounds_t>)>(&OVR::OpenVR::CVROverlay::SetOverlayTextureBounds)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pOverlayTextureBounds = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "VRTextureBounds_t")->this_arg;
@@ -673,7 +673,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayTextureBounds
 // Il2CppName: GetOverlayTextureBounds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<OVR::OpenVR::VRTextureBounds_t>)>(&OVR::OpenVR::CVROverlay::GetOverlayTextureBounds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<::OVR::OpenVR::VRTextureBounds_t>)>(&OVR::OpenVR::CVROverlay::GetOverlayTextureBounds)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pOverlayTextureBounds = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "VRTextureBounds_t")->this_arg;
@@ -683,7 +683,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayRenderModel
 // Il2CppName: GetOverlayRenderModel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVROverlay::*)(uint64_t, System::Text::StringBuilder*, uint, ByRef<OVR::OpenVR::HmdColor_t>, ByRef<OVR::OpenVR::EVROverlayError>)>(&OVR::OpenVR::CVROverlay::GetOverlayRenderModel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVROverlay::*)(uint64_t, ::System::Text::StringBuilder*, uint, ByRef<::OVR::OpenVR::HmdColor_t>, ByRef<::OVR::OpenVR::EVROverlayError>)>(&OVR::OpenVR::CVROverlay::GetOverlayRenderModel)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pchValue = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
@@ -696,7 +696,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetOverlayRenderModel
 // Il2CppName: SetOverlayRenderModel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ::StringW, ByRef<OVR::OpenVR::HmdColor_t>)>(&OVR::OpenVR::CVROverlay::SetOverlayRenderModel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ::StringW, ByRef<::OVR::OpenVR::HmdColor_t>)>(&OVR::OpenVR::CVROverlay::SetOverlayRenderModel)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pchRenderModel = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -707,7 +707,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayTransformType
 // Il2CppName: GetOverlayTransformType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<OVR::OpenVR::VROverlayTransformType>)>(&OVR::OpenVR::CVROverlay::GetOverlayTransformType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<::OVR::OpenVR::VROverlayTransformType>)>(&OVR::OpenVR::CVROverlay::GetOverlayTransformType)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* peTransformType = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "VROverlayTransformType")->this_arg;
@@ -717,7 +717,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetOverlayTransformAbsolute
 // Il2CppName: SetOverlayTransformAbsolute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, OVR::OpenVR::ETrackingUniverseOrigin, ByRef<OVR::OpenVR::HmdMatrix34_t>)>(&OVR::OpenVR::CVROverlay::SetOverlayTransformAbsolute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ::OVR::OpenVR::ETrackingUniverseOrigin, ByRef<::OVR::OpenVR::HmdMatrix34_t>)>(&OVR::OpenVR::CVROverlay::SetOverlayTransformAbsolute)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* eTrackingOrigin = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "ETrackingUniverseOrigin")->byval_arg;
@@ -728,7 +728,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayTransformAbsolute
 // Il2CppName: GetOverlayTransformAbsolute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<OVR::OpenVR::ETrackingUniverseOrigin>, ByRef<OVR::OpenVR::HmdMatrix34_t>)>(&OVR::OpenVR::CVROverlay::GetOverlayTransformAbsolute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<::OVR::OpenVR::ETrackingUniverseOrigin>, ByRef<::OVR::OpenVR::HmdMatrix34_t>)>(&OVR::OpenVR::CVROverlay::GetOverlayTransformAbsolute)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* peTrackingOrigin = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "ETrackingUniverseOrigin")->this_arg;
@@ -739,7 +739,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetOverlayTransformTrackedDeviceRelative
 // Il2CppName: SetOverlayTransformTrackedDeviceRelative
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, uint, ByRef<OVR::OpenVR::HmdMatrix34_t>)>(&OVR::OpenVR::CVROverlay::SetOverlayTransformTrackedDeviceRelative)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, uint, ByRef<::OVR::OpenVR::HmdMatrix34_t>)>(&OVR::OpenVR::CVROverlay::SetOverlayTransformTrackedDeviceRelative)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* unTrackedDevice = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -750,7 +750,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayTransformTrackedDeviceRelative
 // Il2CppName: GetOverlayTransformTrackedDeviceRelative
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<uint>, ByRef<OVR::OpenVR::HmdMatrix34_t>)>(&OVR::OpenVR::CVROverlay::GetOverlayTransformTrackedDeviceRelative)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<uint>, ByRef<::OVR::OpenVR::HmdMatrix34_t>)>(&OVR::OpenVR::CVROverlay::GetOverlayTransformTrackedDeviceRelative)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* punTrackedDevice = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
@@ -761,7 +761,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetOverlayTransformTrackedDeviceComponent
 // Il2CppName: SetOverlayTransformTrackedDeviceComponent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, uint, ::StringW)>(&OVR::OpenVR::CVROverlay::SetOverlayTransformTrackedDeviceComponent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, uint, ::StringW)>(&OVR::OpenVR::CVROverlay::SetOverlayTransformTrackedDeviceComponent)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* unDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -772,7 +772,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayTransformTrackedDeviceComponent
 // Il2CppName: GetOverlayTransformTrackedDeviceComponent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<uint>, System::Text::StringBuilder*, uint)>(&OVR::OpenVR::CVROverlay::GetOverlayTransformTrackedDeviceComponent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<uint>, ::System::Text::StringBuilder*, uint)>(&OVR::OpenVR::CVROverlay::GetOverlayTransformTrackedDeviceComponent)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* punDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
@@ -784,7 +784,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayTransformOverlayRelative
 // Il2CppName: GetOverlayTransformOverlayRelative
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<uint64_t>, ByRef<OVR::OpenVR::HmdMatrix34_t>)>(&OVR::OpenVR::CVROverlay::GetOverlayTransformOverlayRelative)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<uint64_t>, ByRef<::OVR::OpenVR::HmdMatrix34_t>)>(&OVR::OpenVR::CVROverlay::GetOverlayTransformOverlayRelative)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* ulOverlayHandleParent = &::il2cpp_utils::GetClassFromName("System", "UInt64")->this_arg;
@@ -795,7 +795,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetOverlayTransformOverlayRelative
 // Il2CppName: SetOverlayTransformOverlayRelative
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, uint64_t, ByRef<OVR::OpenVR::HmdMatrix34_t>)>(&OVR::OpenVR::CVROverlay::SetOverlayTransformOverlayRelative)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, uint64_t, ByRef<::OVR::OpenVR::HmdMatrix34_t>)>(&OVR::OpenVR::CVROverlay::SetOverlayTransformOverlayRelative)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* ulOverlayHandleParent = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
@@ -806,7 +806,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::ShowOverlay
 // Il2CppName: ShowOverlay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t)>(&OVR::OpenVR::CVROverlay::ShowOverlay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t)>(&OVR::OpenVR::CVROverlay::ShowOverlay)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "ShowOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ulOverlayHandle});
@@ -815,7 +815,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::HideOverlay
 // Il2CppName: HideOverlay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t)>(&OVR::OpenVR::CVROverlay::HideOverlay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t)>(&OVR::OpenVR::CVROverlay::HideOverlay)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "HideOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ulOverlayHandle});
@@ -833,7 +833,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetTransformForOverlayCoordinates
 // Il2CppName: GetTransformForOverlayCoordinates
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, OVR::OpenVR::ETrackingUniverseOrigin, OVR::OpenVR::HmdVector2_t, ByRef<OVR::OpenVR::HmdMatrix34_t>)>(&OVR::OpenVR::CVROverlay::GetTransformForOverlayCoordinates)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ::OVR::OpenVR::ETrackingUniverseOrigin, ::OVR::OpenVR::HmdVector2_t, ByRef<::OVR::OpenVR::HmdMatrix34_t>)>(&OVR::OpenVR::CVROverlay::GetTransformForOverlayCoordinates)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* eTrackingOrigin = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "ETrackingUniverseOrigin")->byval_arg;
@@ -845,7 +845,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::PollNextOverlayEvent
 // Il2CppName: PollNextOverlayEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<OVR::OpenVR::VREvent_t>, uint)>(&OVR::OpenVR::CVROverlay::PollNextOverlayEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<::OVR::OpenVR::VREvent_t>, uint)>(&OVR::OpenVR::CVROverlay::PollNextOverlayEvent)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pEvent = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "VREvent_t")->this_arg;
@@ -856,7 +856,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayInputMethod
 // Il2CppName: GetOverlayInputMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<OVR::OpenVR::VROverlayInputMethod>)>(&OVR::OpenVR::CVROverlay::GetOverlayInputMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<::OVR::OpenVR::VROverlayInputMethod>)>(&OVR::OpenVR::CVROverlay::GetOverlayInputMethod)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* peInputMethod = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "VROverlayInputMethod")->this_arg;
@@ -866,7 +866,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetOverlayInputMethod
 // Il2CppName: SetOverlayInputMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, OVR::OpenVR::VROverlayInputMethod)>(&OVR::OpenVR::CVROverlay::SetOverlayInputMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ::OVR::OpenVR::VROverlayInputMethod)>(&OVR::OpenVR::CVROverlay::SetOverlayInputMethod)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* eInputMethod = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "VROverlayInputMethod")->byval_arg;
@@ -876,7 +876,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayMouseScale
 // Il2CppName: GetOverlayMouseScale
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<OVR::OpenVR::HmdVector2_t>)>(&OVR::OpenVR::CVROverlay::GetOverlayMouseScale)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<::OVR::OpenVR::HmdVector2_t>)>(&OVR::OpenVR::CVROverlay::GetOverlayMouseScale)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pvecMouseScale = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "HmdVector2_t")->this_arg;
@@ -886,7 +886,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetOverlayMouseScale
 // Il2CppName: SetOverlayMouseScale
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<OVR::OpenVR::HmdVector2_t>)>(&OVR::OpenVR::CVROverlay::SetOverlayMouseScale)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<::OVR::OpenVR::HmdVector2_t>)>(&OVR::OpenVR::CVROverlay::SetOverlayMouseScale)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pvecMouseScale = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "HmdVector2_t")->this_arg;
@@ -896,7 +896,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::ComputeOverlayIntersection
 // Il2CppName: ComputeOverlayIntersection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<OVR::OpenVR::VROverlayIntersectionParams_t>, ByRef<OVR::OpenVR::VROverlayIntersectionResults_t>)>(&OVR::OpenVR::CVROverlay::ComputeOverlayIntersection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<::OVR::OpenVR::VROverlayIntersectionParams_t>, ByRef<::OVR::OpenVR::VROverlayIntersectionResults_t>)>(&OVR::OpenVR::CVROverlay::ComputeOverlayIntersection)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pParams = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "VROverlayIntersectionParams_t")->this_arg;
@@ -924,7 +924,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (O
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetGamepadFocusOverlay
 // Il2CppName: SetGamepadFocusOverlay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t)>(&OVR::OpenVR::CVROverlay::SetGamepadFocusOverlay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t)>(&OVR::OpenVR::CVROverlay::SetGamepadFocusOverlay)> {
   static const MethodInfo* get() {
     static auto* ulNewFocusOverlay = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "SetGamepadFocusOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ulNewFocusOverlay});
@@ -933,7 +933,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetOverlayNeighbor
 // Il2CppName: SetOverlayNeighbor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(OVR::OpenVR::EOverlayDirection, uint64_t, uint64_t)>(&OVR::OpenVR::CVROverlay::SetOverlayNeighbor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(::OVR::OpenVR::EOverlayDirection, uint64_t, uint64_t)>(&OVR::OpenVR::CVROverlay::SetOverlayNeighbor)> {
   static const MethodInfo* get() {
     static auto* eDirection = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EOverlayDirection")->byval_arg;
     static auto* ulFrom = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
@@ -944,7 +944,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::MoveGamepadFocusToNeighbor
 // Il2CppName: MoveGamepadFocusToNeighbor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(OVR::OpenVR::EOverlayDirection, uint64_t)>(&OVR::OpenVR::CVROverlay::MoveGamepadFocusToNeighbor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(::OVR::OpenVR::EOverlayDirection, uint64_t)>(&OVR::OpenVR::CVROverlay::MoveGamepadFocusToNeighbor)> {
   static const MethodInfo* get() {
     static auto* eDirection = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EOverlayDirection")->byval_arg;
     static auto* ulFrom = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
@@ -954,7 +954,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetOverlayDualAnalogTransform
 // Il2CppName: SetOverlayDualAnalogTransform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, OVR::OpenVR::EDualAnalogWhich, System::IntPtr, float)>(&OVR::OpenVR::CVROverlay::SetOverlayDualAnalogTransform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ::OVR::OpenVR::EDualAnalogWhich, ::System::IntPtr, float)>(&OVR::OpenVR::CVROverlay::SetOverlayDualAnalogTransform)> {
   static const MethodInfo* get() {
     static auto* ulOverlay = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* eWhich = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EDualAnalogWhich")->byval_arg;
@@ -966,7 +966,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayDualAnalogTransform
 // Il2CppName: GetOverlayDualAnalogTransform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, OVR::OpenVR::EDualAnalogWhich, ByRef<OVR::OpenVR::HmdVector2_t>, ByRef<float>)>(&OVR::OpenVR::CVROverlay::GetOverlayDualAnalogTransform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ::OVR::OpenVR::EDualAnalogWhich, ByRef<::OVR::OpenVR::HmdVector2_t>, ByRef<float>)>(&OVR::OpenVR::CVROverlay::GetOverlayDualAnalogTransform)> {
   static const MethodInfo* get() {
     static auto* ulOverlay = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* eWhich = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EDualAnalogWhich")->byval_arg;
@@ -978,7 +978,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetOverlayTexture
 // Il2CppName: SetOverlayTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<OVR::OpenVR::Texture_t>)>(&OVR::OpenVR::CVROverlay::SetOverlayTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<::OVR::OpenVR::Texture_t>)>(&OVR::OpenVR::CVROverlay::SetOverlayTexture)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pTexture = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "Texture_t")->this_arg;
@@ -988,7 +988,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::ClearOverlayTexture
 // Il2CppName: ClearOverlayTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t)>(&OVR::OpenVR::CVROverlay::ClearOverlayTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t)>(&OVR::OpenVR::CVROverlay::ClearOverlayTexture)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVROverlay*), "ClearOverlayTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ulOverlayHandle});
@@ -997,7 +997,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetOverlayRaw
 // Il2CppName: SetOverlayRaw
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, System::IntPtr, uint, uint, uint)>(&OVR::OpenVR::CVROverlay::SetOverlayRaw)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ::System::IntPtr, uint, uint, uint)>(&OVR::OpenVR::CVROverlay::SetOverlayRaw)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pvBuffer = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1010,7 +1010,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetOverlayFromFile
 // Il2CppName: SetOverlayFromFile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ::StringW)>(&OVR::OpenVR::CVROverlay::SetOverlayFromFile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ::StringW)>(&OVR::OpenVR::CVROverlay::SetOverlayFromFile)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pchFilePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1020,7 +1020,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayTexture
 // Il2CppName: GetOverlayTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<System::IntPtr>, System::IntPtr, ByRef<uint>, ByRef<uint>, ByRef<uint>, ByRef<OVR::OpenVR::ETextureType>, ByRef<OVR::OpenVR::EColorSpace>, ByRef<OVR::OpenVR::VRTextureBounds_t>)>(&OVR::OpenVR::CVROverlay::GetOverlayTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<::System::IntPtr>, ::System::IntPtr, ByRef<uint>, ByRef<uint>, ByRef<uint>, ByRef<::OVR::OpenVR::ETextureType>, ByRef<::OVR::OpenVR::EColorSpace>, ByRef<::OVR::OpenVR::VRTextureBounds_t>)>(&OVR::OpenVR::CVROverlay::GetOverlayTexture)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pNativeTextureHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->this_arg;
@@ -1037,7 +1037,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::ReleaseNativeOverlayHandle
 // Il2CppName: ReleaseNativeOverlayHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, System::IntPtr)>(&OVR::OpenVR::CVROverlay::ReleaseNativeOverlayHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ::System::IntPtr)>(&OVR::OpenVR::CVROverlay::ReleaseNativeOverlayHandle)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pNativeTextureHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1047,7 +1047,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayTextureSize
 // Il2CppName: GetOverlayTextureSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<uint>, ByRef<uint>)>(&OVR::OpenVR::CVROverlay::GetOverlayTextureSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<uint>, ByRef<uint>)>(&OVR::OpenVR::CVROverlay::GetOverlayTextureSize)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pWidth = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
@@ -1058,7 +1058,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::CreateDashboardOverlay
 // Il2CppName: CreateDashboardOverlay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(::StringW, ::StringW, ByRef<uint64_t>, ByRef<uint64_t>)>(&OVR::OpenVR::CVROverlay::CreateDashboardOverlay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(::StringW, ::StringW, ByRef<uint64_t>, ByRef<uint64_t>)>(&OVR::OpenVR::CVROverlay::CreateDashboardOverlay)> {
   static const MethodInfo* get() {
     static auto* pchOverlayKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchOverlayFriendlyName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1087,7 +1087,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetDashboardOverlaySceneProcess
 // Il2CppName: SetDashboardOverlaySceneProcess
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, uint)>(&OVR::OpenVR::CVROverlay::SetDashboardOverlaySceneProcess)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, uint)>(&OVR::OpenVR::CVROverlay::SetDashboardOverlaySceneProcess)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* unProcessId = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -1097,7 +1097,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetDashboardOverlaySceneProcess
 // Il2CppName: GetDashboardOverlaySceneProcess
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<uint>)>(&OVR::OpenVR::CVROverlay::GetDashboardOverlaySceneProcess)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<uint>)>(&OVR::OpenVR::CVROverlay::GetDashboardOverlaySceneProcess)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* punProcessId = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
@@ -1124,7 +1124,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::ShowKeyboard
 // Il2CppName: ShowKeyboard
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(int, int, ::StringW, uint, ::StringW, bool, uint64_t)>(&OVR::OpenVR::CVROverlay::ShowKeyboard)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(int, int, ::StringW, uint, ::StringW, bool, uint64_t)>(&OVR::OpenVR::CVROverlay::ShowKeyboard)> {
   static const MethodInfo* get() {
     static auto* eInputMode = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* eLineInputMode = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1139,7 +1139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::ShowKeyboardForOverlay
 // Il2CppName: ShowKeyboardForOverlay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, int, int, ::StringW, uint, ::StringW, bool, uint64_t)>(&OVR::OpenVR::CVROverlay::ShowKeyboardForOverlay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, int, int, ::StringW, uint, ::StringW, bool, uint64_t)>(&OVR::OpenVR::CVROverlay::ShowKeyboardForOverlay)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* eInputMode = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1155,7 +1155,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetKeyboardText
 // Il2CppName: GetKeyboardText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVROverlay::*)(System::Text::StringBuilder*, uint)>(&OVR::OpenVR::CVROverlay::GetKeyboardText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVROverlay::*)(::System::Text::StringBuilder*, uint)>(&OVR::OpenVR::CVROverlay::GetKeyboardText)> {
   static const MethodInfo* get() {
     static auto* pchText = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* cchText = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -1173,7 +1173,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetKeyboardTransformAbsolute
 // Il2CppName: SetKeyboardTransformAbsolute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVROverlay::*)(OVR::OpenVR::ETrackingUniverseOrigin, ByRef<OVR::OpenVR::HmdMatrix34_t>)>(&OVR::OpenVR::CVROverlay::SetKeyboardTransformAbsolute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVROverlay::*)(::OVR::OpenVR::ETrackingUniverseOrigin, ByRef<::OVR::OpenVR::HmdMatrix34_t>)>(&OVR::OpenVR::CVROverlay::SetKeyboardTransformAbsolute)> {
   static const MethodInfo* get() {
     static auto* eTrackingOrigin = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "ETrackingUniverseOrigin")->byval_arg;
     static auto* pmatTrackingOriginToKeyboardTransform = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "HmdMatrix34_t")->this_arg;
@@ -1183,7 +1183,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetKeyboardPositionForOverlay
 // Il2CppName: SetKeyboardPositionForOverlay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVROverlay::*)(uint64_t, OVR::OpenVR::HmdRect2_t)>(&OVR::OpenVR::CVROverlay::SetKeyboardPositionForOverlay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVROverlay::*)(uint64_t, ::OVR::OpenVR::HmdRect2_t)>(&OVR::OpenVR::CVROverlay::SetKeyboardPositionForOverlay)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* avoidRect = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "HmdRect2_t")->byval_arg;
@@ -1193,7 +1193,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::SetOverlayIntersectionMask
 // Il2CppName: SetOverlayIntersectionMask
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<OVR::OpenVR::VROverlayIntersectionMaskPrimitive_t>, uint, uint)>(&OVR::OpenVR::CVROverlay::SetOverlayIntersectionMask)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<::OVR::OpenVR::VROverlayIntersectionMaskPrimitive_t>, uint, uint)>(&OVR::OpenVR::CVROverlay::SetOverlayIntersectionMask)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pMaskPrimitives = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "VROverlayIntersectionMaskPrimitive_t")->this_arg;
@@ -1205,7 +1205,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::GetOverlayFlags
 // Il2CppName: GetOverlayFlags
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<uint>)>(&OVR::OpenVR::CVROverlay::GetOverlayFlags)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVROverlayError (OVR::OpenVR::CVROverlay::*)(uint64_t, ByRef<uint>)>(&OVR::OpenVR::CVROverlay::GetOverlayFlags)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pFlags = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
@@ -1215,7 +1215,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVROverlay::ShowMessageOverlay
 // Il2CppName: ShowMessageOverlay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::VRMessageOverlayResponse (OVR::OpenVR::CVROverlay::*)(::StringW, ::StringW, ::StringW, ::StringW, ::StringW, ::StringW)>(&OVR::OpenVR::CVROverlay::ShowMessageOverlay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::VRMessageOverlayResponse (OVR::OpenVR::CVROverlay::*)(::StringW, ::StringW, ::StringW, ::StringW, ::StringW, ::StringW)>(&OVR::OpenVR::CVROverlay::ShowMessageOverlay)> {
   static const MethodInfo* get() {
     static auto* pchText = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchCaption = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

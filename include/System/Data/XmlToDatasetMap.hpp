@@ -41,8 +41,8 @@ namespace System::Data {
   class XmlToDatasetMap;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Data::XmlToDatasetMap);
-DEFINE_IL2CPP_ARG_TYPE(System::Data::XmlToDatasetMap*, "System.Data", "XmlToDatasetMap");
+NEED_NO_BOX(::System::Data::XmlToDatasetMap);
+DEFINE_IL2CPP_ARG_TYPE(::System::Data::XmlToDatasetMap*, "System.Data", "XmlToDatasetMap");
 // Type namespace: System.Data
 namespace System::Data {
   // Size: 0x20
@@ -51,11 +51,11 @@ namespace System::Data {
   // [TokenAttribute] Offset: FFFFFFFF
   class XmlToDatasetMap : public ::Il2CppObject {
     public:
-    // Nested type: System::Data::XmlToDatasetMap::XmlNodeIdentety
+    // Nested type: ::System::Data::XmlToDatasetMap::XmlNodeIdentety
     class XmlNodeIdentety;
-    // Nested type: System::Data::XmlToDatasetMap::XmlNodeIdHashtable
+    // Nested type: ::System::Data::XmlToDatasetMap::XmlNodeIdHashtable
     class XmlNodeIdHashtable;
-    // Nested type: System::Data::XmlToDatasetMap::TableSchemaInfo
+    // Nested type: ::System::Data::XmlToDatasetMap::TableSchemaInfo
     class TableSchemaInfo;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -69,96 +69,96 @@ namespace System::Data {
     // private System.Data.XmlToDatasetMap/System.Data.XmlNodeIdHashtable _tableSchemaMap
     // Size: 0x8
     // Offset: 0x10
-    System::Data::XmlToDatasetMap::XmlNodeIdHashtable* tableSchemaMap;
+    ::System::Data::XmlToDatasetMap::XmlNodeIdHashtable* tableSchemaMap;
     // Field size check
-    static_assert(sizeof(System::Data::XmlToDatasetMap::XmlNodeIdHashtable*) == 0x8);
+    static_assert(sizeof(::System::Data::XmlToDatasetMap::XmlNodeIdHashtable*) == 0x8);
     // private System.Data.XmlToDatasetMap/System.Data.TableSchemaInfo _lastTableSchemaInfo
     // Size: 0x8
     // Offset: 0x18
-    System::Data::XmlToDatasetMap::TableSchemaInfo* lastTableSchemaInfo;
+    ::System::Data::XmlToDatasetMap::TableSchemaInfo* lastTableSchemaInfo;
     // Field size check
-    static_assert(sizeof(System::Data::XmlToDatasetMap::TableSchemaInfo*) == 0x8);
+    static_assert(sizeof(::System::Data::XmlToDatasetMap::TableSchemaInfo*) == 0x8);
     public:
     // Get instance field reference: private System.Data.XmlToDatasetMap/System.Data.XmlNodeIdHashtable _tableSchemaMap
-    System::Data::XmlToDatasetMap::XmlNodeIdHashtable*& dyn__tableSchemaMap();
+    ::System::Data::XmlToDatasetMap::XmlNodeIdHashtable*& dyn__tableSchemaMap();
     // Get instance field reference: private System.Data.XmlToDatasetMap/System.Data.TableSchemaInfo _lastTableSchemaInfo
-    System::Data::XmlToDatasetMap::TableSchemaInfo*& dyn__lastTableSchemaInfo();
+    ::System::Data::XmlToDatasetMap::TableSchemaInfo*& dyn__lastTableSchemaInfo();
     // public System.Void .ctor(System.Data.DataSet dataSet, System.Xml.XmlNameTable nameTable)
     // Offset: 0x240DB74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlToDatasetMap* New_ctor(System::Data::DataSet* dataSet, System::Xml::XmlNameTable* nameTable) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Data::XmlToDatasetMap::.ctor");
+    static XmlToDatasetMap* New_ctor(::System::Data::DataSet* dataSet, ::System::Xml::XmlNameTable* nameTable) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Data::XmlToDatasetMap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlToDatasetMap*, creationType>(dataSet, nameTable)));
     }
     // public System.Void .ctor(System.Xml.XmlNameTable nameTable, System.Data.DataSet dataSet)
     // Offset: 0x240F0BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlToDatasetMap* New_ctor(System::Xml::XmlNameTable* nameTable, System::Data::DataSet* dataSet) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Data::XmlToDatasetMap::.ctor");
+    static XmlToDatasetMap* New_ctor(::System::Xml::XmlNameTable* nameTable, ::System::Data::DataSet* dataSet) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Data::XmlToDatasetMap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlToDatasetMap*, creationType>(nameTable, dataSet)));
     }
     // public System.Void .ctor(System.Data.DataTable dataTable, System.Xml.XmlNameTable nameTable)
     // Offset: 0x240DB34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlToDatasetMap* New_ctor(System::Data::DataTable* dataTable, System::Xml::XmlNameTable* nameTable) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Data::XmlToDatasetMap::.ctor");
+    static XmlToDatasetMap* New_ctor(::System::Data::DataTable* dataTable, ::System::Xml::XmlNameTable* nameTable) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Data::XmlToDatasetMap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlToDatasetMap*, creationType>(dataTable, nameTable)));
     }
     // public System.Void .ctor(System.Xml.XmlNameTable nameTable, System.Data.DataTable dataTable)
     // Offset: 0x240F0FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlToDatasetMap* New_ctor(System::Xml::XmlNameTable* nameTable, System::Data::DataTable* dataTable) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Data::XmlToDatasetMap::.ctor");
+    static XmlToDatasetMap* New_ctor(::System::Xml::XmlNameTable* nameTable, ::System::Data::DataTable* dataTable) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Data::XmlToDatasetMap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlToDatasetMap*, creationType>(nameTable, dataTable)));
     }
     // static System.Boolean IsMappedColumn(System.Data.DataColumn c)
     // Offset: 0x240EB88
-    static bool IsMappedColumn(System::Data::DataColumn* c);
+    static bool IsMappedColumn(::System::Data::DataColumn* c);
     // private System.Data.XmlToDatasetMap/System.Data.TableSchemaInfo AddTableSchema(System.Data.DataTable table, System.Xml.XmlNameTable nameTable)
     // Offset: 0x2417218
-    System::Data::XmlToDatasetMap::TableSchemaInfo* AddTableSchema(System::Data::DataTable* table, System::Xml::XmlNameTable* nameTable);
+    ::System::Data::XmlToDatasetMap::TableSchemaInfo* AddTableSchema(::System::Data::DataTable* table, ::System::Xml::XmlNameTable* nameTable);
     // private System.Data.XmlToDatasetMap/System.Data.TableSchemaInfo AddTableSchema(System.Xml.XmlNameTable nameTable, System.Data.DataTable table)
     // Offset: 0x241740C
-    System::Data::XmlToDatasetMap::TableSchemaInfo* AddTableSchema(System::Xml::XmlNameTable* nameTable, System::Data::DataTable* table);
+    ::System::Data::XmlToDatasetMap::TableSchemaInfo* AddTableSchema(::System::Xml::XmlNameTable* nameTable, ::System::Data::DataTable* table);
     // private System.Boolean AddColumnSchema(System.Data.DataColumn col, System.Xml.XmlNameTable nameTable, System.Data.XmlToDatasetMap/System.Data.XmlNodeIdHashtable columns)
     // Offset: 0x2417578
-    bool AddColumnSchema(System::Data::DataColumn* col, System::Xml::XmlNameTable* nameTable, System::Data::XmlToDatasetMap::XmlNodeIdHashtable* columns);
+    bool AddColumnSchema(::System::Data::DataColumn* col, ::System::Xml::XmlNameTable* nameTable, ::System::Data::XmlToDatasetMap::XmlNodeIdHashtable* columns);
     // private System.Boolean AddColumnSchema(System.Xml.XmlNameTable nameTable, System.Data.DataColumn col, System.Data.XmlToDatasetMap/System.Data.XmlNodeIdHashtable columns)
     // Offset: 0x24177FC
-    bool AddColumnSchema(System::Xml::XmlNameTable* nameTable, System::Data::DataColumn* col, System::Data::XmlToDatasetMap::XmlNodeIdHashtable* columns);
+    bool AddColumnSchema(::System::Xml::XmlNameTable* nameTable, ::System::Data::DataColumn* col, ::System::Data::XmlToDatasetMap::XmlNodeIdHashtable* columns);
     // private System.Void BuildIdentityMap(System.Data.DataSet dataSet, System.Xml.XmlNameTable nameTable)
     // Offset: 0x24155A0
-    void BuildIdentityMap(System::Data::DataSet* dataSet, System::Xml::XmlNameTable* nameTable);
+    void BuildIdentityMap(::System::Data::DataSet* dataSet, ::System::Xml::XmlNameTable* nameTable);
     // private System.Void BuildIdentityMap(System.Xml.XmlNameTable nameTable, System.Data.DataSet dataSet)
     // Offset: 0x2415B34
-    void BuildIdentityMap(System::Xml::XmlNameTable* nameTable, System::Data::DataSet* dataSet);
+    void BuildIdentityMap(::System::Xml::XmlNameTable* nameTable, ::System::Data::DataSet* dataSet);
     // private System.Void BuildIdentityMap(System.Data.DataTable dataTable, System.Xml.XmlNameTable nameTable)
     // Offset: 0x2416550
-    void BuildIdentityMap(System::Data::DataTable* dataTable, System::Xml::XmlNameTable* nameTable);
+    void BuildIdentityMap(::System::Data::DataTable* dataTable, ::System::Xml::XmlNameTable* nameTable);
     // private System.Void BuildIdentityMap(System.Xml.XmlNameTable nameTable, System.Data.DataTable dataTable)
     // Offset: 0x241681C
-    void BuildIdentityMap(System::Xml::XmlNameTable* nameTable, System::Data::DataTable* dataTable);
+    void BuildIdentityMap(::System::Xml::XmlNameTable* nameTable, ::System::Data::DataTable* dataTable);
     // private System.Collections.ArrayList GetSelfAndDescendants(System.Data.DataTable dt)
     // Offset: 0x2417A30
-    System::Collections::ArrayList* GetSelfAndDescendants(System::Data::DataTable* dt);
+    ::System::Collections::ArrayList* GetSelfAndDescendants(::System::Data::DataTable* dt);
     // public System.Object GetColumnSchema(System.Xml.XmlNode node, System.Boolean fIgnoreNamespace)
     // Offset: 0x240D5DC
-    ::Il2CppObject* GetColumnSchema(System::Xml::XmlNode* node, bool fIgnoreNamespace);
+    ::Il2CppObject* GetColumnSchema(::System::Xml::XmlNode* node, bool fIgnoreNamespace);
     // public System.Object GetColumnSchema(System.Data.DataTable table, System.Xml.XmlReader dataReader, System.Boolean fIgnoreNamespace)
     // Offset: 0x24108E8
-    ::Il2CppObject* GetColumnSchema(System::Data::DataTable* table, System::Xml::XmlReader* dataReader, bool fIgnoreNamespace);
+    ::Il2CppObject* GetColumnSchema(::System::Data::DataTable* table, ::System::Xml::XmlReader* dataReader, bool fIgnoreNamespace);
     // public System.Object GetSchemaForNode(System.Xml.XmlNode node, System.Boolean fIgnoreNamespace)
     // Offset: 0x240DBB4
-    ::Il2CppObject* GetSchemaForNode(System::Xml::XmlNode* node, bool fIgnoreNamespace);
+    ::Il2CppObject* GetSchemaForNode(::System::Xml::XmlNode* node, bool fIgnoreNamespace);
     // public System.Data.DataTable GetTableForNode(System.Xml.XmlReader node, System.Boolean fIgnoreNamespace)
     // Offset: 0x240F9BC
-    System::Data::DataTable* GetTableForNode(System::Xml::XmlReader* node, bool fIgnoreNamespace);
+    ::System::Data::DataTable* GetTableForNode(::System::Xml::XmlReader* node, bool fIgnoreNamespace);
     // private System.Void HandleSpecialColumn(System.Data.DataColumn col, System.Xml.XmlNameTable nameTable, System.Data.XmlToDatasetMap/System.Data.XmlNodeIdHashtable columns)
     // Offset: 0x24176A8
-    void HandleSpecialColumn(System::Data::DataColumn* col, System::Xml::XmlNameTable* nameTable, System::Data::XmlToDatasetMap::XmlNodeIdHashtable* columns);
+    void HandleSpecialColumn(::System::Data::DataColumn* col, ::System::Xml::XmlNameTable* nameTable, ::System::Data::XmlToDatasetMap::XmlNodeIdHashtable* columns);
   }; // System.Data.XmlToDatasetMap
   #pragma pack(pop)
-  static check_size<sizeof(XmlToDatasetMap), 24 + sizeof(System::Data::XmlToDatasetMap::TableSchemaInfo*)> __System_Data_XmlToDatasetMapSizeCheck;
+  static check_size<sizeof(XmlToDatasetMap), 24 + sizeof(::System::Data::XmlToDatasetMap::TableSchemaInfo*)> __System_Data_XmlToDatasetMapSizeCheck;
   static_assert(sizeof(XmlToDatasetMap) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -181,7 +181,7 @@ namespace System::Data {
 // Writing MetadataGetter for method: System::Data::XmlToDatasetMap::IsMappedColumn
 // Il2CppName: IsMappedColumn
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Data::DataColumn*)>(&System::Data::XmlToDatasetMap::IsMappedColumn)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Data::DataColumn*)>(&System::Data::XmlToDatasetMap::IsMappedColumn)> {
   static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("System.Data", "DataColumn")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::XmlToDatasetMap*), "IsMappedColumn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
@@ -190,7 +190,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Data::XmlToDatasetMap::AddTableSchema
 // Il2CppName: AddTableSchema
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::XmlToDatasetMap::TableSchemaInfo* (System::Data::XmlToDatasetMap::*)(System::Data::DataTable*, System::Xml::XmlNameTable*)>(&System::Data::XmlToDatasetMap::AddTableSchema)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::XmlToDatasetMap::TableSchemaInfo* (System::Data::XmlToDatasetMap::*)(::System::Data::DataTable*, ::System::Xml::XmlNameTable*)>(&System::Data::XmlToDatasetMap::AddTableSchema)> {
   static const MethodInfo* get() {
     static auto* table = &::il2cpp_utils::GetClassFromName("System.Data", "DataTable")->byval_arg;
     static auto* nameTable = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNameTable")->byval_arg;
@@ -200,7 +200,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::XmlToDatasetMap::AddTableSchema
 // Il2CppName: AddTableSchema
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::XmlToDatasetMap::TableSchemaInfo* (System::Data::XmlToDatasetMap::*)(System::Xml::XmlNameTable*, System::Data::DataTable*)>(&System::Data::XmlToDatasetMap::AddTableSchema)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::XmlToDatasetMap::TableSchemaInfo* (System::Data::XmlToDatasetMap::*)(::System::Xml::XmlNameTable*, ::System::Data::DataTable*)>(&System::Data::XmlToDatasetMap::AddTableSchema)> {
   static const MethodInfo* get() {
     static auto* nameTable = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNameTable")->byval_arg;
     static auto* table = &::il2cpp_utils::GetClassFromName("System.Data", "DataTable")->byval_arg;
@@ -210,7 +210,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::XmlToDatasetMap::AddColumnSchema
 // Il2CppName: AddColumnSchema
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Data::XmlToDatasetMap::*)(System::Data::DataColumn*, System::Xml::XmlNameTable*, System::Data::XmlToDatasetMap::XmlNodeIdHashtable*)>(&System::Data::XmlToDatasetMap::AddColumnSchema)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Data::XmlToDatasetMap::*)(::System::Data::DataColumn*, ::System::Xml::XmlNameTable*, ::System::Data::XmlToDatasetMap::XmlNodeIdHashtable*)>(&System::Data::XmlToDatasetMap::AddColumnSchema)> {
   static const MethodInfo* get() {
     static auto* col = &::il2cpp_utils::GetClassFromName("System.Data", "DataColumn")->byval_arg;
     static auto* nameTable = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNameTable")->byval_arg;
@@ -221,7 +221,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Data::XmlToDatasetMap::AddColumnSchema
 // Il2CppName: AddColumnSchema
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Data::XmlToDatasetMap::*)(System::Xml::XmlNameTable*, System::Data::DataColumn*, System::Data::XmlToDatasetMap::XmlNodeIdHashtable*)>(&System::Data::XmlToDatasetMap::AddColumnSchema)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Data::XmlToDatasetMap::*)(::System::Xml::XmlNameTable*, ::System::Data::DataColumn*, ::System::Data::XmlToDatasetMap::XmlNodeIdHashtable*)>(&System::Data::XmlToDatasetMap::AddColumnSchema)> {
   static const MethodInfo* get() {
     static auto* nameTable = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNameTable")->byval_arg;
     static auto* col = &::il2cpp_utils::GetClassFromName("System.Data", "DataColumn")->byval_arg;
@@ -232,7 +232,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Data::XmlToDatasetMap::BuildIdentityMap
 // Il2CppName: BuildIdentityMap
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XmlToDatasetMap::*)(System::Data::DataSet*, System::Xml::XmlNameTable*)>(&System::Data::XmlToDatasetMap::BuildIdentityMap)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XmlToDatasetMap::*)(::System::Data::DataSet*, ::System::Xml::XmlNameTable*)>(&System::Data::XmlToDatasetMap::BuildIdentityMap)> {
   static const MethodInfo* get() {
     static auto* dataSet = &::il2cpp_utils::GetClassFromName("System.Data", "DataSet")->byval_arg;
     static auto* nameTable = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNameTable")->byval_arg;
@@ -242,7 +242,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::XmlToDatasetMap::BuildIdentityMap
 // Il2CppName: BuildIdentityMap
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XmlToDatasetMap::*)(System::Xml::XmlNameTable*, System::Data::DataSet*)>(&System::Data::XmlToDatasetMap::BuildIdentityMap)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XmlToDatasetMap::*)(::System::Xml::XmlNameTable*, ::System::Data::DataSet*)>(&System::Data::XmlToDatasetMap::BuildIdentityMap)> {
   static const MethodInfo* get() {
     static auto* nameTable = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNameTable")->byval_arg;
     static auto* dataSet = &::il2cpp_utils::GetClassFromName("System.Data", "DataSet")->byval_arg;
@@ -252,7 +252,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::XmlToDatasetMap::BuildIdentityMap
 // Il2CppName: BuildIdentityMap
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XmlToDatasetMap::*)(System::Data::DataTable*, System::Xml::XmlNameTable*)>(&System::Data::XmlToDatasetMap::BuildIdentityMap)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XmlToDatasetMap::*)(::System::Data::DataTable*, ::System::Xml::XmlNameTable*)>(&System::Data::XmlToDatasetMap::BuildIdentityMap)> {
   static const MethodInfo* get() {
     static auto* dataTable = &::il2cpp_utils::GetClassFromName("System.Data", "DataTable")->byval_arg;
     static auto* nameTable = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNameTable")->byval_arg;
@@ -262,7 +262,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::XmlToDatasetMap::BuildIdentityMap
 // Il2CppName: BuildIdentityMap
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XmlToDatasetMap::*)(System::Xml::XmlNameTable*, System::Data::DataTable*)>(&System::Data::XmlToDatasetMap::BuildIdentityMap)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XmlToDatasetMap::*)(::System::Xml::XmlNameTable*, ::System::Data::DataTable*)>(&System::Data::XmlToDatasetMap::BuildIdentityMap)> {
   static const MethodInfo* get() {
     static auto* nameTable = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNameTable")->byval_arg;
     static auto* dataTable = &::il2cpp_utils::GetClassFromName("System.Data", "DataTable")->byval_arg;
@@ -272,7 +272,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::XmlToDatasetMap::GetSelfAndDescendants
 // Il2CppName: GetSelfAndDescendants
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ArrayList* (System::Data::XmlToDatasetMap::*)(System::Data::DataTable*)>(&System::Data::XmlToDatasetMap::GetSelfAndDescendants)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (System::Data::XmlToDatasetMap::*)(::System::Data::DataTable*)>(&System::Data::XmlToDatasetMap::GetSelfAndDescendants)> {
   static const MethodInfo* get() {
     static auto* dt = &::il2cpp_utils::GetClassFromName("System.Data", "DataTable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::XmlToDatasetMap*), "GetSelfAndDescendants", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dt});
@@ -281,7 +281,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::Data::XmlToDatasetMap::GetColumnSchema
 // Il2CppName: GetColumnSchema
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Data::XmlToDatasetMap::*)(System::Xml::XmlNode*, bool)>(&System::Data::XmlToDatasetMap::GetColumnSchema)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Data::XmlToDatasetMap::*)(::System::Xml::XmlNode*, bool)>(&System::Data::XmlToDatasetMap::GetColumnSchema)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNode")->byval_arg;
     static auto* fIgnoreNamespace = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -291,7 +291,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Data::XmlToDatasetMap::GetColumnSchema
 // Il2CppName: GetColumnSchema
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Data::XmlToDatasetMap::*)(System::Data::DataTable*, System::Xml::XmlReader*, bool)>(&System::Data::XmlToDatasetMap::GetColumnSchema)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Data::XmlToDatasetMap::*)(::System::Data::DataTable*, ::System::Xml::XmlReader*, bool)>(&System::Data::XmlToDatasetMap::GetColumnSchema)> {
   static const MethodInfo* get() {
     static auto* table = &::il2cpp_utils::GetClassFromName("System.Data", "DataTable")->byval_arg;
     static auto* dataReader = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlReader")->byval_arg;
@@ -302,7 +302,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Data::XmlToDatasetMap::GetSchemaForNode
 // Il2CppName: GetSchemaForNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Data::XmlToDatasetMap::*)(System::Xml::XmlNode*, bool)>(&System::Data::XmlToDatasetMap::GetSchemaForNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Data::XmlToDatasetMap::*)(::System::Xml::XmlNode*, bool)>(&System::Data::XmlToDatasetMap::GetSchemaForNode)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNode")->byval_arg;
     static auto* fIgnoreNamespace = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -312,7 +312,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Data::XmlToDatasetMap::GetTableForNode
 // Il2CppName: GetTableForNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::DataTable* (System::Data::XmlToDatasetMap::*)(System::Xml::XmlReader*, bool)>(&System::Data::XmlToDatasetMap::GetTableForNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataTable* (System::Data::XmlToDatasetMap::*)(::System::Xml::XmlReader*, bool)>(&System::Data::XmlToDatasetMap::GetTableForNode)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlReader")->byval_arg;
     static auto* fIgnoreNamespace = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -322,7 +322,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::XmlToDatasetMap::HandleSpecialColumn
 // Il2CppName: HandleSpecialColumn
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XmlToDatasetMap::*)(System::Data::DataColumn*, System::Xml::XmlNameTable*, System::Data::XmlToDatasetMap::XmlNodeIdHashtable*)>(&System::Data::XmlToDatasetMap::HandleSpecialColumn)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XmlToDatasetMap::*)(::System::Data::DataColumn*, ::System::Xml::XmlNameTable*, ::System::Data::XmlToDatasetMap::XmlNodeIdHashtable*)>(&System::Data::XmlToDatasetMap::HandleSpecialColumn)> {
   static const MethodInfo* get() {
     static auto* col = &::il2cpp_utils::GetClassFromName("System.Data", "DataColumn")->byval_arg;
     static auto* nameTable = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNameTable")->byval_arg;

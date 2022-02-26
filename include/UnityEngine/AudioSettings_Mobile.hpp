@@ -17,8 +17,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::AudioSettings::Mobile);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioSettings::Mobile*, "UnityEngine", "AudioSettings/Mobile");
+NEED_NO_BOX(::UnityEngine::AudioSettings::Mobile);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AudioSettings::Mobile*, "UnityEngine", "AudioSettings/Mobile");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -38,9 +38,9 @@ namespace UnityEngine {
     static void _set__stopAudioOutputOnMute(bool value);
     // [DebuggerBrowsableAttribute] Offset: 0x11D7D4C
     // Get static field: static private System.Action`1<System.Boolean> OnMuteStateChanged
-    static System::Action_1<bool>* _get_OnMuteStateChanged();
+    static ::System::Action_1<bool>* _get_OnMuteStateChanged();
     // Set static field: static private System.Action`1<System.Boolean> OnMuteStateChanged
-    static void _set_OnMuteStateChanged(System::Action_1<bool>* value);
+    static void _set_OnMuteStateChanged(::System::Action_1<bool>* value);
     // static public System.Boolean get_muteState()
     // Offset: 0x2A3F5C4
     static bool get_muteState();

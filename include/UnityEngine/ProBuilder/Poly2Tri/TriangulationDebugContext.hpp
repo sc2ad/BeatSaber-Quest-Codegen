@@ -19,8 +19,8 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   class TriangulationDebugContext;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext*, "UnityEngine.ProBuilder.Poly2Tri", "TriangulationDebugContext");
+NEED_NO_BOX(::UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext*, "UnityEngine.ProBuilder.Poly2Tri", "TriangulationDebugContext");
 // Type namespace: UnityEngine.ProBuilder.Poly2Tri
 namespace UnityEngine::ProBuilder::Poly2Tri {
   // Size: 0x18
@@ -41,22 +41,22 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // protected UnityEngine.ProBuilder.Poly2Tri.TriangulationContext _tcx
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* tcx;
+    ::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* tcx;
     // Field size check
-    static_assert(sizeof(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*) == 0x8);
+    static_assert(sizeof(::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*) == 0x8);
     public:
-    // Creating conversion operator: operator UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*
-    constexpr operator UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*() const noexcept {
+    // Creating conversion operator: operator ::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*
+    constexpr operator ::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*() const noexcept {
       return tcx;
     }
     // Get instance field reference: protected UnityEngine.ProBuilder.Poly2Tri.TriangulationContext _tcx
-    UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*& dyn__tcx();
+    ::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*& dyn__tcx();
     // public System.Void Clear()
     // Offset: 0xFFFFFFFF
     void Clear();
   }; // UnityEngine.ProBuilder.Poly2Tri.TriangulationDebugContext
   #pragma pack(pop)
-  static check_size<sizeof(TriangulationDebugContext), 16 + sizeof(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*)> __UnityEngine_ProBuilder_Poly2Tri_TriangulationDebugContextSizeCheck;
+  static check_size<sizeof(TriangulationDebugContext), 16 + sizeof(::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*)> __UnityEngine_ProBuilder_Poly2Tri_TriangulationDebugContextSizeCheck;
   static_assert(sizeof(TriangulationDebugContext) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

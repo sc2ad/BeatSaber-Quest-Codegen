@@ -13,8 +13,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PlayerHeightDetector::InitData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerHeightDetector::InitData*, "", "PlayerHeightDetector/InitData");
+NEED_NO_BOX(::GlobalNamespace::PlayerHeightDetector::InitData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlayerHeightDetector::InitData*, "", "PlayerHeightDetector/InitData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x14
@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     // Offset: 0x13E2A84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerHeightDetector::InitData* New_ctor(float headPosToPlayerHeightOffset) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerHeightDetector::InitData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerHeightDetector::InitData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerHeightDetector::InitData*, creationType>(headPosToPlayerHeightOffset)));
     }
   }; // PlayerHeightDetector/InitData

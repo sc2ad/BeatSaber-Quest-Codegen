@@ -18,8 +18,8 @@ namespace System::Net {
   class IWebConnectionState;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::IWebConnectionState);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::IWebConnectionState*, "System.Net", "IWebConnectionState");
+NEED_NO_BOX(::System::Net::IWebConnectionState);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::IWebConnectionState*, "System.Net", "IWebConnectionState");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x10
@@ -30,7 +30,7 @@ namespace System::Net {
     public:
     // public System.Net.WebConnectionGroup get_Group()
     // Offset: 0xFFFFFFFF
-    System::Net::WebConnectionGroup* get_Group();
+    ::System::Net::WebConnectionGroup* get_Group();
     // public System.Boolean TrySetBusy()
     // Offset: 0xFFFFFFFF
     bool TrySetBusy();
@@ -44,7 +44,7 @@ namespace System::Net {
 // Writing MetadataGetter for method: System::Net::IWebConnectionState::get_Group
 // Il2CppName: get_Group
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebConnectionGroup* (System::Net::IWebConnectionState::*)()>(&System::Net::IWebConnectionState::get_Group)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::WebConnectionGroup* (System::Net::IWebConnectionState::*)()>(&System::Net::IWebConnectionState::get_Group)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::IWebConnectionState*), "get_Group", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

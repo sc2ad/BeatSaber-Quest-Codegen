@@ -17,8 +17,8 @@ namespace System::Net::Http::Headers {
   class Parser;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::Http::Headers::Parser);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Parser*, "System.Net.Http.Headers", "Parser");
+NEED_NO_BOX(::System::Net::Http::Headers::Parser);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::Parser*, "System.Net.Http.Headers", "Parser");
 // Type namespace: System.Net.Http.Headers
 namespace System::Net::Http::Headers {
   // Size: 0x10
@@ -27,23 +27,23 @@ namespace System::Net::Http::Headers {
   // [TokenAttribute] Offset: FFFFFFFF
   class Parser : public ::Il2CppObject {
     public:
-    // Nested type: System::Net::Http::Headers::Parser::Token
+    // Nested type: ::System::Net::Http::Headers::Parser::Token
     class Token;
-    // Nested type: System::Net::Http::Headers::Parser::DateTime
+    // Nested type: ::System::Net::Http::Headers::Parser::DateTime
     class DateTime;
-    // Nested type: System::Net::Http::Headers::Parser::EmailAddress
+    // Nested type: ::System::Net::Http::Headers::Parser::EmailAddress
     class EmailAddress;
-    // Nested type: System::Net::Http::Headers::Parser::Host
+    // Nested type: ::System::Net::Http::Headers::Parser::Host
     class Host;
-    // Nested type: System::Net::Http::Headers::Parser::Int
+    // Nested type: ::System::Net::Http::Headers::Parser::Int
     class Int;
-    // Nested type: System::Net::Http::Headers::Parser::Long
+    // Nested type: ::System::Net::Http::Headers::Parser::Long
     class Long;
-    // Nested type: System::Net::Http::Headers::Parser::MD5
+    // Nested type: ::System::Net::Http::Headers::Parser::MD5
     class MD5;
-    // Nested type: System::Net::Http::Headers::Parser::TimeSpanSeconds
+    // Nested type: ::System::Net::Http::Headers::Parser::TimeSpanSeconds
     class TimeSpanSeconds;
-    // Nested type: System::Net::Http::Headers::Parser::Uri
+    // Nested type: ::System::Net::Http::Headers::Parser::Uri
     class Uri;
   }; // System.Net.Http.Headers.Parser
   #pragma pack(pop)

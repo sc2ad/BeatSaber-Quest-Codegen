@@ -26,8 +26,8 @@ namespace HMUI {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HMUI::FlowCoordinator::$$c__DisplayClass41_0);
-DEFINE_IL2CPP_ARG_TYPE(HMUI::FlowCoordinator::$$c__DisplayClass41_0*, "HMUI", "FlowCoordinator/<>c__DisplayClass41_0");
+NEED_NO_BOX(::HMUI::FlowCoordinator::$$c__DisplayClass41_0);
+DEFINE_IL2CPP_ARG_TYPE(::HMUI::FlowCoordinator::$$c__DisplayClass41_0*, "HMUI", "FlowCoordinator/<>c__DisplayClass41_0");
 // Type namespace: HMUI
 namespace HMUI {
   // Size: 0x30
@@ -49,38 +49,38 @@ namespace HMUI {
     // public HMUI.ViewController/HMUI.AnimationType animationType
     // Size: 0x4
     // Offset: 0x10
-    HMUI::ViewController::AnimationType animationType;
+    ::HMUI::ViewController::AnimationType animationType;
     // Field size check
-    static_assert(sizeof(HMUI::ViewController::AnimationType) == 0x4);
+    static_assert(sizeof(::HMUI::ViewController::AnimationType) == 0x4);
     // Padding between fields: animationType and: $$4__this
     char __padding0[0x4] = {};
     // public HMUI.FlowCoordinator <>4__this
     // Size: 0x8
     // Offset: 0x18
-    HMUI::FlowCoordinator* $$4__this;
+    ::HMUI::FlowCoordinator* $$4__this;
     // Field size check
-    static_assert(sizeof(HMUI::FlowCoordinator*) == 0x8);
+    static_assert(sizeof(::HMUI::FlowCoordinator*) == 0x8);
     // public System.Action finishedCallback
     // Size: 0x8
     // Offset: 0x20
-    System::Action* finishedCallback;
+    ::System::Action* finishedCallback;
     // Field size check
-    static_assert(sizeof(System::Action*) == 0x8);
+    static_assert(sizeof(::System::Action*) == 0x8);
     // public HMUI.ViewController originalTopViewController
     // Size: 0x8
     // Offset: 0x28
-    HMUI::ViewController* originalTopViewController;
+    ::HMUI::ViewController* originalTopViewController;
     // Field size check
-    static_assert(sizeof(HMUI::ViewController*) == 0x8);
+    static_assert(sizeof(::HMUI::ViewController*) == 0x8);
     public:
     // Get instance field reference: public HMUI.ViewController/HMUI.AnimationType animationType
-    HMUI::ViewController::AnimationType& dyn_animationType();
+    ::HMUI::ViewController::AnimationType& dyn_animationType();
     // Get instance field reference: public HMUI.FlowCoordinator <>4__this
-    HMUI::FlowCoordinator*& dyn_$$4__this();
+    ::HMUI::FlowCoordinator*& dyn_$$4__this();
     // Get instance field reference: public System.Action finishedCallback
-    System::Action*& dyn_finishedCallback();
+    ::System::Action*& dyn_finishedCallback();
     // Get instance field reference: public HMUI.ViewController originalTopViewController
-    HMUI::ViewController*& dyn_originalTopViewController();
+    ::HMUI::ViewController*& dyn_originalTopViewController();
     // System.Void <ReplaceTopViewController>b__0()
     // Offset: 0x1670174
     void $ReplaceTopViewController$b__0();
@@ -90,12 +90,12 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FlowCoordinator::$$c__DisplayClass41_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::FlowCoordinator::$$c__DisplayClass41_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::FlowCoordinator::$$c__DisplayClass41_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FlowCoordinator::$$c__DisplayClass41_0*, creationType>()));
     }
   }; // HMUI.FlowCoordinator/HMUI.<>c__DisplayClass41_0
   #pragma pack(pop)
-  static check_size<sizeof(FlowCoordinator::$$c__DisplayClass41_0), 40 + sizeof(HMUI::ViewController*)> __HMUI_FlowCoordinator_$$c__DisplayClass41_0SizeCheck;
+  static check_size<sizeof(FlowCoordinator::$$c__DisplayClass41_0), 40 + sizeof(::HMUI::ViewController*)> __HMUI_FlowCoordinator_$$c__DisplayClass41_0SizeCheck;
   static_assert(sizeof(FlowCoordinator::$$c__DisplayClass41_0) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -25,8 +25,8 @@ namespace Newtonsoft::Json::Utilities {
   class TypeInformation;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Utilities::TypeInformation);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::TypeInformation*, "Newtonsoft.Json.Utilities", "TypeInformation");
+NEED_NO_BOX(::Newtonsoft::Json::Utilities::TypeInformation);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::TypeInformation*, "Newtonsoft.Json.Utilities", "TypeInformation");
 // Type namespace: Newtonsoft.Json.Utilities
 namespace Newtonsoft::Json::Utilities {
   // Size: 0x1C
@@ -49,43 +49,43 @@ namespace Newtonsoft::Json::Utilities {
     // private readonly System.Type <Type>k__BackingField
     // Size: 0x8
     // Offset: 0x10
-    System::Type* Type;
+    ::System::Type* Type;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     // private readonly Newtonsoft.Json.Utilities.PrimitiveTypeCode <TypeCode>k__BackingField
     // Size: 0x4
     // Offset: 0x18
-    Newtonsoft::Json::Utilities::PrimitiveTypeCode TypeCode;
+    ::Newtonsoft::Json::Utilities::PrimitiveTypeCode TypeCode;
     // Field size check
-    static_assert(sizeof(Newtonsoft::Json::Utilities::PrimitiveTypeCode) == 0x4);
+    static_assert(sizeof(::Newtonsoft::Json::Utilities::PrimitiveTypeCode) == 0x4);
     public:
     // Get instance field reference: private readonly System.Type <Type>k__BackingField
-    System::Type*& dyn_$Type$k__BackingField();
+    ::System::Type*& dyn_$Type$k__BackingField();
     // Get instance field reference: private readonly Newtonsoft.Json.Utilities.PrimitiveTypeCode <TypeCode>k__BackingField
-    Newtonsoft::Json::Utilities::PrimitiveTypeCode& dyn_$TypeCode$k__BackingField();
+    ::Newtonsoft::Json::Utilities::PrimitiveTypeCode& dyn_$TypeCode$k__BackingField();
     // public System.Type get_Type()
     // Offset: 0x29F9928
-    System::Type* get_Type();
+    ::System::Type* get_Type();
     // public Newtonsoft.Json.Utilities.PrimitiveTypeCode get_TypeCode()
     // Offset: 0x29F9930
-    Newtonsoft::Json::Utilities::PrimitiveTypeCode get_TypeCode();
+    ::Newtonsoft::Json::Utilities::PrimitiveTypeCode get_TypeCode();
     // public System.Void .ctor(System.Type type, Newtonsoft.Json.Utilities.PrimitiveTypeCode typeCode)
     // Offset: 0x29F9938
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TypeInformation* New_ctor(System::Type* type, Newtonsoft::Json::Utilities::PrimitiveTypeCode typeCode) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Utilities::TypeInformation::.ctor");
+    static TypeInformation* New_ctor(::System::Type* type, ::Newtonsoft::Json::Utilities::PrimitiveTypeCode typeCode) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Utilities::TypeInformation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeInformation*, creationType>(type, typeCode)));
     }
   }; // Newtonsoft.Json.Utilities.TypeInformation
   #pragma pack(pop)
-  static check_size<sizeof(TypeInformation), 24 + sizeof(Newtonsoft::Json::Utilities::PrimitiveTypeCode)> __Newtonsoft_Json_Utilities_TypeInformationSizeCheck;
+  static check_size<sizeof(TypeInformation), 24 + sizeof(::Newtonsoft::Json::Utilities::PrimitiveTypeCode)> __Newtonsoft_Json_Utilities_TypeInformationSizeCheck;
   static_assert(sizeof(TypeInformation) == 0x1C);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::TypeInformation::get_Type
 // Il2CppName: get_Type
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (Newtonsoft::Json::Utilities::TypeInformation::*)()>(&Newtonsoft::Json::Utilities::TypeInformation::get_Type)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (Newtonsoft::Json::Utilities::TypeInformation::*)()>(&Newtonsoft::Json::Utilities::TypeInformation::get_Type)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::TypeInformation*), "get_Type", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -93,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::TypeInformation::get_TypeCode
 // Il2CppName: get_TypeCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Utilities::PrimitiveTypeCode (Newtonsoft::Json::Utilities::TypeInformation::*)()>(&Newtonsoft::Json::Utilities::TypeInformation::get_TypeCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Utilities::PrimitiveTypeCode (Newtonsoft::Json::Utilities::TypeInformation::*)()>(&Newtonsoft::Json::Utilities::TypeInformation::get_TypeCode)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::TypeInformation*), "get_TypeCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

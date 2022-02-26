@@ -25,8 +25,8 @@ namespace GlobalNamespace {
   class OVRNetwork;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRNetwork);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRNetwork*, "", "OVRNetwork");
+NEED_NO_BOX(::GlobalNamespace::OVRNetwork);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRNetwork*, "", "OVRNetwork");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -35,11 +35,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRNetwork : public ::Il2CppObject {
     public:
-    // Nested type: GlobalNamespace::OVRNetwork::FrameHeader
+    // Nested type: ::GlobalNamespace::OVRNetwork::FrameHeader
     struct FrameHeader;
-    // Nested type: GlobalNamespace::OVRNetwork::OVRNetworkTcpServer
+    // Nested type: ::GlobalNamespace::OVRNetwork::OVRNetworkTcpServer
     class OVRNetworkTcpServer;
-    // Nested type: GlobalNamespace::OVRNetwork::OVRNetworkTcpClient
+    // Nested type: ::GlobalNamespace::OVRNetwork::OVRNetworkTcpClient
     class OVRNetworkTcpClient;
     // static field const value: static public System.Int32 MaxBufferLength
     static constexpr const int MaxBufferLength = 65536;
@@ -65,7 +65,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRNetwork* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRNetwork::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRNetwork::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRNetwork*, creationType>()));
     }
   }; // OVRNetwork

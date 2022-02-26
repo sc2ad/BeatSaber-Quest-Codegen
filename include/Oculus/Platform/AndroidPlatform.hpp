@@ -30,8 +30,8 @@ namespace Oculus::Platform {
   class AndroidPlatform;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::AndroidPlatform);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::AndroidPlatform*, "Oculus.Platform", "AndroidPlatform");
+NEED_NO_BOX(::Oculus::Platform::AndroidPlatform);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::AndroidPlatform*, "Oculus.Platform", "AndroidPlatform");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x10
@@ -45,14 +45,14 @@ namespace Oculus::Platform {
     bool Initialize(::StringW appId);
     // public Oculus.Platform.Request`1<Oculus.Platform.Models.PlatformInitialize> AsyncInitialize(System.String appId)
     // Offset: 0x1FD0D4C
-    Oculus::Platform::Request_1<Oculus::Platform::Models::PlatformInitialize*>* AsyncInitialize(::StringW appId);
+    ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* AsyncInitialize(::StringW appId);
     // public System.Void .ctor()
     // Offset: 0x1FD0ECC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AndroidPlatform* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::AndroidPlatform::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::AndroidPlatform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AndroidPlatform*, creationType>()));
     }
   }; // Oculus.Platform.AndroidPlatform
@@ -71,7 +71,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Oculu
 // Writing MetadataGetter for method: Oculus::Platform::AndroidPlatform::AsyncInitialize
 // Il2CppName: AsyncInitialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::PlatformInitialize*>* (Oculus::Platform::AndroidPlatform::*)(::StringW)>(&Oculus::Platform::AndroidPlatform::AsyncInitialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* (Oculus::Platform::AndroidPlatform::*)(::StringW)>(&Oculus::Platform::AndroidPlatform::AsyncInitialize)> {
   static const MethodInfo* get() {
     static auto* appId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::AndroidPlatform*), "AsyncInitialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{appId});

@@ -27,8 +27,8 @@ namespace GlobalNamespace {
   class SteamVR_Controller;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SteamVR_Controller);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Controller*, "", "SteamVR_Controller");
+NEED_NO_BOX(::GlobalNamespace::SteamVR_Controller);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SteamVR_Controller*, "", "SteamVR_Controller");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -37,32 +37,32 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SteamVR_Controller : public ::Il2CppObject {
     public:
-    // Nested type: GlobalNamespace::SteamVR_Controller::ButtonMask
+    // Nested type: ::GlobalNamespace::SteamVR_Controller::ButtonMask
     class ButtonMask;
-    // Nested type: GlobalNamespace::SteamVR_Controller::Device
+    // Nested type: ::GlobalNamespace::SteamVR_Controller::Device
     class Device;
-    // Nested type: GlobalNamespace::SteamVR_Controller::DeviceRelation
+    // Nested type: ::GlobalNamespace::SteamVR_Controller::DeviceRelation
     struct DeviceRelation;
     // Get static field: static private SteamVR_Controller/Device[] devices
-    static ::ArrayW<GlobalNamespace::SteamVR_Controller::Device*> _get_devices();
+    static ::ArrayW<::GlobalNamespace::SteamVR_Controller::Device*> _get_devices();
     // Set static field: static private SteamVR_Controller/Device[] devices
-    static void _set_devices(::ArrayW<GlobalNamespace::SteamVR_Controller::Device*> value);
+    static void _set_devices(::ArrayW<::GlobalNamespace::SteamVR_Controller::Device*> value);
     // static public SteamVR_Controller/Device Input(System.Int32 deviceIndex)
     // Offset: 0x17BD1F8
-    static GlobalNamespace::SteamVR_Controller::Device* Input(int deviceIndex);
+    static ::GlobalNamespace::SteamVR_Controller::Device* Input(int deviceIndex);
     // static public System.Void Update()
     // Offset: 0x17BD37C
     static void Update();
     // static public System.Int32 GetDeviceIndex(SteamVR_Controller/DeviceRelation relation, Valve.VR.ETrackedDeviceClass deviceClass, System.Int32 relativeTo)
     // Offset: 0x17BD540
-    static int GetDeviceIndex(GlobalNamespace::SteamVR_Controller::DeviceRelation relation, Valve::VR::ETrackedDeviceClass deviceClass, int relativeTo);
+    static int GetDeviceIndex(::GlobalNamespace::SteamVR_Controller::DeviceRelation relation, ::Valve::VR::ETrackedDeviceClass deviceClass, int relativeTo);
     // public System.Void .ctor()
     // Offset: 0x17BD91C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_Controller* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_Controller::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_Controller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_Controller*, creationType>()));
     }
   }; // SteamVR_Controller
@@ -72,7 +72,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Input
 // Il2CppName: Input
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Controller::Device* (*)(int)>(&GlobalNamespace::SteamVR_Controller::Input)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SteamVR_Controller::Device* (*)(int)>(&GlobalNamespace::SteamVR_Controller::Input)> {
   static const MethodInfo* get() {
     static auto* deviceIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller*), "Input", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{deviceIndex});
@@ -89,7 +89,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::GetDeviceIndex
 // Il2CppName: GetDeviceIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(GlobalNamespace::SteamVR_Controller::DeviceRelation, Valve::VR::ETrackedDeviceClass, int)>(&GlobalNamespace::SteamVR_Controller::GetDeviceIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::GlobalNamespace::SteamVR_Controller::DeviceRelation, ::Valve::VR::ETrackedDeviceClass, int)>(&GlobalNamespace::SteamVR_Controller::GetDeviceIndex)> {
   static const MethodInfo* get() {
     static auto* relation = &::il2cpp_utils::GetClassFromName("", "SteamVR_Controller/DeviceRelation")->byval_arg;
     static auto* deviceClass = &::il2cpp_utils::GetClassFromName("Valve.VR", "ETrackedDeviceClass")->byval_arg;

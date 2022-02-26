@@ -62,8 +62,8 @@ namespace System::Data::Common {
   class SqlConvert;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Data::Common::SqlConvert);
-DEFINE_IL2CPP_ARG_TYPE(System::Data::Common::SqlConvert*, "System.Data.Common", "SqlConvert");
+NEED_NO_BOX(::System::Data::Common::SqlConvert);
+DEFINE_IL2CPP_ARG_TYPE(::System::Data::Common::SqlConvert*, "System.Data.Common", "SqlConvert");
 // Type namespace: System.Data.Common
 namespace System::Data::Common {
   // Size: 0x10
@@ -74,61 +74,61 @@ namespace System::Data::Common {
     public:
     // static public System.Data.SqlTypes.SqlByte ConvertToSqlByte(System.Object value)
     // Offset: 0x21D8B88
-    static System::Data::SqlTypes::SqlByte ConvertToSqlByte(::Il2CppObject* value);
+    static ::System::Data::SqlTypes::SqlByte ConvertToSqlByte(::Il2CppObject* value);
     // static public System.Data.SqlTypes.SqlInt16 ConvertToSqlInt16(System.Object value)
     // Offset: 0x21DAF28
-    static System::Data::SqlTypes::SqlInt16 ConvertToSqlInt16(::Il2CppObject* value);
+    static ::System::Data::SqlTypes::SqlInt16 ConvertToSqlInt16(::Il2CppObject* value);
     // static public System.Data.SqlTypes.SqlInt32 ConvertToSqlInt32(System.Object value)
     // Offset: 0x21DB1CC
-    static System::Data::SqlTypes::SqlInt32 ConvertToSqlInt32(::Il2CppObject* value);
+    static ::System::Data::SqlTypes::SqlInt32 ConvertToSqlInt32(::Il2CppObject* value);
     // static public System.Data.SqlTypes.SqlInt64 ConvertToSqlInt64(System.Object value)
     // Offset: 0x21DB588
-    static System::Data::SqlTypes::SqlInt64 ConvertToSqlInt64(::Il2CppObject* value);
+    static ::System::Data::SqlTypes::SqlInt64 ConvertToSqlInt64(::Il2CppObject* value);
     // static public System.Data.SqlTypes.SqlDouble ConvertToSqlDouble(System.Object value)
     // Offset: 0x21DBA60
-    static System::Data::SqlTypes::SqlDouble ConvertToSqlDouble(::Il2CppObject* value);
+    static ::System::Data::SqlTypes::SqlDouble ConvertToSqlDouble(::Il2CppObject* value);
     // static public System.Data.SqlTypes.SqlDecimal ConvertToSqlDecimal(System.Object value)
     // Offset: 0x21DC170
-    static System::Data::SqlTypes::SqlDecimal ConvertToSqlDecimal(::Il2CppObject* value);
+    static ::System::Data::SqlTypes::SqlDecimal ConvertToSqlDecimal(::Il2CppObject* value);
     // static public System.Data.SqlTypes.SqlSingle ConvertToSqlSingle(System.Object value)
     // Offset: 0x21DC80C
-    static System::Data::SqlTypes::SqlSingle ConvertToSqlSingle(::Il2CppObject* value);
+    static ::System::Data::SqlTypes::SqlSingle ConvertToSqlSingle(::Il2CppObject* value);
     // static public System.Data.SqlTypes.SqlMoney ConvertToSqlMoney(System.Object value)
     // Offset: 0x21DCEA4
-    static System::Data::SqlTypes::SqlMoney ConvertToSqlMoney(::Il2CppObject* value);
+    static ::System::Data::SqlTypes::SqlMoney ConvertToSqlMoney(::Il2CppObject* value);
     // static public System.Data.SqlTypes.SqlDateTime ConvertToSqlDateTime(System.Object value)
     // Offset: 0x21DD494
-    static System::Data::SqlTypes::SqlDateTime ConvertToSqlDateTime(::Il2CppObject* value);
+    static ::System::Data::SqlTypes::SqlDateTime ConvertToSqlDateTime(::Il2CppObject* value);
     // static public System.Data.SqlTypes.SqlBoolean ConvertToSqlBoolean(System.Object value)
     // Offset: 0x21D7004
-    static System::Data::SqlTypes::SqlBoolean ConvertToSqlBoolean(::Il2CppObject* value);
+    static ::System::Data::SqlTypes::SqlBoolean ConvertToSqlBoolean(::Il2CppObject* value);
     // static public System.Data.SqlTypes.SqlGuid ConvertToSqlGuid(System.Object value)
     // Offset: 0x21DD684
-    static System::Data::SqlTypes::SqlGuid ConvertToSqlGuid(::Il2CppObject* value);
+    static ::System::Data::SqlTypes::SqlGuid ConvertToSqlGuid(::Il2CppObject* value);
     // static public System.Data.SqlTypes.SqlBinary ConvertToSqlBinary(System.Object value)
     // Offset: 0x21D5E2C
-    static System::Data::SqlTypes::SqlBinary ConvertToSqlBinary(::Il2CppObject* value);
+    static ::System::Data::SqlTypes::SqlBinary ConvertToSqlBinary(::Il2CppObject* value);
     // static public System.Data.SqlTypes.SqlString ConvertToSqlString(System.Object value)
     // Offset: 0x21DD868
-    static System::Data::SqlTypes::SqlString ConvertToSqlString(::Il2CppObject* value);
+    static ::System::Data::SqlTypes::SqlString ConvertToSqlString(::Il2CppObject* value);
     // static public System.Data.SqlTypes.SqlChars ConvertToSqlChars(System.Object value)
     // Offset: 0x21DDA54
-    static System::Data::SqlTypes::SqlChars* ConvertToSqlChars(::Il2CppObject* value);
+    static ::System::Data::SqlTypes::SqlChars* ConvertToSqlChars(::Il2CppObject* value);
     // static public System.Data.SqlTypes.SqlBytes ConvertToSqlBytes(System.Object value)
     // Offset: 0x21DDBA0
-    static System::Data::SqlTypes::SqlBytes* ConvertToSqlBytes(::Il2CppObject* value);
+    static ::System::Data::SqlTypes::SqlBytes* ConvertToSqlBytes(::Il2CppObject* value);
     // static public System.DateTimeOffset ConvertStringToDateTimeOffset(System.String value, System.IFormatProvider formatProvider)
     // Offset: 0x21DDCEC
-    static System::DateTimeOffset ConvertStringToDateTimeOffset(::StringW value, System::IFormatProvider* formatProvider);
+    static ::System::DateTimeOffset ConvertStringToDateTimeOffset(::StringW value, ::System::IFormatProvider* formatProvider);
     // static public System.Object ChangeTypeForDefaultValue(System.Object value, System.Type type, System.IFormatProvider formatProvider)
     // Offset: 0x21DDD64
-    static ::Il2CppObject* ChangeTypeForDefaultValue(::Il2CppObject* value, System::Type* type, System::IFormatProvider* formatProvider);
+    static ::Il2CppObject* ChangeTypeForDefaultValue(::Il2CppObject* value, ::System::Type* type, ::System::IFormatProvider* formatProvider);
     // static public System.Object ChangeType2(System.Object value, System.Data.Common.StorageType stype, System.Type type, System.IFormatProvider formatProvider)
     // Offset: 0x21DDF34
-    static ::Il2CppObject* ChangeType2(::Il2CppObject* value, System::Data::Common::StorageType stype, System::Type* type, System::IFormatProvider* formatProvider);
+    static ::Il2CppObject* ChangeType2(::Il2CppObject* value, ::System::Data::Common::StorageType stype, ::System::Type* type, ::System::IFormatProvider* formatProvider);
     // static public System.Object ChangeTypeForXML(System.Object value, System.Type type)
     // Offset: 0x21DF360
-    static ::Il2CppObject* ChangeTypeForXML(::Il2CppObject* value, System::Type* type);
+    static ::Il2CppObject* ChangeTypeForXML(::Il2CppObject* value, ::System::Type* type);
   }; // System.Data.Common.SqlConvert
   #pragma pack(pop)
 }
@@ -136,7 +136,7 @@ namespace System::Data::Common {
 // Writing MetadataGetter for method: System::Data::Common::SqlConvert::ConvertToSqlByte
 // Il2CppName: ConvertToSqlByte
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::SqlTypes::SqlByte (*)(::Il2CppObject*)>(&System::Data::Common::SqlConvert::ConvertToSqlByte)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlByte (*)(::Il2CppObject*)>(&System::Data::Common::SqlConvert::ConvertToSqlByte)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::Common::SqlConvert*), "ConvertToSqlByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -145,7 +145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::Common::SqlConvert::ConvertToSqlInt16
 // Il2CppName: ConvertToSqlInt16
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::SqlTypes::SqlInt16 (*)(::Il2CppObject*)>(&System::Data::Common::SqlConvert::ConvertToSqlInt16)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlInt16 (*)(::Il2CppObject*)>(&System::Data::Common::SqlConvert::ConvertToSqlInt16)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::Common::SqlConvert*), "ConvertToSqlInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -154,7 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::Common::SqlConvert::ConvertToSqlInt32
 // Il2CppName: ConvertToSqlInt32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::SqlTypes::SqlInt32 (*)(::Il2CppObject*)>(&System::Data::Common::SqlConvert::ConvertToSqlInt32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlInt32 (*)(::Il2CppObject*)>(&System::Data::Common::SqlConvert::ConvertToSqlInt32)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::Common::SqlConvert*), "ConvertToSqlInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -163,7 +163,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::Common::SqlConvert::ConvertToSqlInt64
 // Il2CppName: ConvertToSqlInt64
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::SqlTypes::SqlInt64 (*)(::Il2CppObject*)>(&System::Data::Common::SqlConvert::ConvertToSqlInt64)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlInt64 (*)(::Il2CppObject*)>(&System::Data::Common::SqlConvert::ConvertToSqlInt64)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::Common::SqlConvert*), "ConvertToSqlInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -172,7 +172,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::Common::SqlConvert::ConvertToSqlDouble
 // Il2CppName: ConvertToSqlDouble
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::SqlTypes::SqlDouble (*)(::Il2CppObject*)>(&System::Data::Common::SqlConvert::ConvertToSqlDouble)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlDouble (*)(::Il2CppObject*)>(&System::Data::Common::SqlConvert::ConvertToSqlDouble)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::Common::SqlConvert*), "ConvertToSqlDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -181,7 +181,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::Common::SqlConvert::ConvertToSqlDecimal
 // Il2CppName: ConvertToSqlDecimal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::SqlTypes::SqlDecimal (*)(::Il2CppObject*)>(&System::Data::Common::SqlConvert::ConvertToSqlDecimal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlDecimal (*)(::Il2CppObject*)>(&System::Data::Common::SqlConvert::ConvertToSqlDecimal)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::Common::SqlConvert*), "ConvertToSqlDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -190,7 +190,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::Common::SqlConvert::ConvertToSqlSingle
 // Il2CppName: ConvertToSqlSingle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::SqlTypes::SqlSingle (*)(::Il2CppObject*)>(&System::Data::Common::SqlConvert::ConvertToSqlSingle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlSingle (*)(::Il2CppObject*)>(&System::Data::Common::SqlConvert::ConvertToSqlSingle)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::Common::SqlConvert*), "ConvertToSqlSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -199,7 +199,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::Common::SqlConvert::ConvertToSqlMoney
 // Il2CppName: ConvertToSqlMoney
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::SqlTypes::SqlMoney (*)(::Il2CppObject*)>(&System::Data::Common::SqlConvert::ConvertToSqlMoney)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlMoney (*)(::Il2CppObject*)>(&System::Data::Common::SqlConvert::ConvertToSqlMoney)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::Common::SqlConvert*), "ConvertToSqlMoney", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -208,7 +208,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::Common::SqlConvert::ConvertToSqlDateTime
 // Il2CppName: ConvertToSqlDateTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::SqlTypes::SqlDateTime (*)(::Il2CppObject*)>(&System::Data::Common::SqlConvert::ConvertToSqlDateTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlDateTime (*)(::Il2CppObject*)>(&System::Data::Common::SqlConvert::ConvertToSqlDateTime)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::Common::SqlConvert*), "ConvertToSqlDateTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -217,7 +217,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::Common::SqlConvert::ConvertToSqlBoolean
 // Il2CppName: ConvertToSqlBoolean
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::SqlTypes::SqlBoolean (*)(::Il2CppObject*)>(&System::Data::Common::SqlConvert::ConvertToSqlBoolean)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlBoolean (*)(::Il2CppObject*)>(&System::Data::Common::SqlConvert::ConvertToSqlBoolean)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::Common::SqlConvert*), "ConvertToSqlBoolean", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -226,7 +226,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::Common::SqlConvert::ConvertToSqlGuid
 // Il2CppName: ConvertToSqlGuid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::SqlTypes::SqlGuid (*)(::Il2CppObject*)>(&System::Data::Common::SqlConvert::ConvertToSqlGuid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlGuid (*)(::Il2CppObject*)>(&System::Data::Common::SqlConvert::ConvertToSqlGuid)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::Common::SqlConvert*), "ConvertToSqlGuid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -235,7 +235,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::Common::SqlConvert::ConvertToSqlBinary
 // Il2CppName: ConvertToSqlBinary
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::SqlTypes::SqlBinary (*)(::Il2CppObject*)>(&System::Data::Common::SqlConvert::ConvertToSqlBinary)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlBinary (*)(::Il2CppObject*)>(&System::Data::Common::SqlConvert::ConvertToSqlBinary)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::Common::SqlConvert*), "ConvertToSqlBinary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -244,7 +244,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::Common::SqlConvert::ConvertToSqlString
 // Il2CppName: ConvertToSqlString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::SqlTypes::SqlString (*)(::Il2CppObject*)>(&System::Data::Common::SqlConvert::ConvertToSqlString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlString (*)(::Il2CppObject*)>(&System::Data::Common::SqlConvert::ConvertToSqlString)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::Common::SqlConvert*), "ConvertToSqlString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -253,7 +253,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::Common::SqlConvert::ConvertToSqlChars
 // Il2CppName: ConvertToSqlChars
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::SqlTypes::SqlChars* (*)(::Il2CppObject*)>(&System::Data::Common::SqlConvert::ConvertToSqlChars)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlChars* (*)(::Il2CppObject*)>(&System::Data::Common::SqlConvert::ConvertToSqlChars)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::Common::SqlConvert*), "ConvertToSqlChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -262,7 +262,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::Common::SqlConvert::ConvertToSqlBytes
 // Il2CppName: ConvertToSqlBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::SqlTypes::SqlBytes* (*)(::Il2CppObject*)>(&System::Data::Common::SqlConvert::ConvertToSqlBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlBytes* (*)(::Il2CppObject*)>(&System::Data::Common::SqlConvert::ConvertToSqlBytes)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::Common::SqlConvert*), "ConvertToSqlBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -271,7 +271,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::Common::SqlConvert::ConvertStringToDateTimeOffset
 // Il2CppName: ConvertStringToDateTimeOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTimeOffset (*)(::StringW, System::IFormatProvider*)>(&System::Data::Common::SqlConvert::ConvertStringToDateTimeOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTimeOffset (*)(::StringW, ::System::IFormatProvider*)>(&System::Data::Common::SqlConvert::ConvertStringToDateTimeOffset)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* formatProvider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -281,7 +281,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::Common::SqlConvert::ChangeTypeForDefaultValue
 // Il2CppName: ChangeTypeForDefaultValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppObject*, System::Type*, System::IFormatProvider*)>(&System::Data::Common::SqlConvert::ChangeTypeForDefaultValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppObject*, ::System::Type*, ::System::IFormatProvider*)>(&System::Data::Common::SqlConvert::ChangeTypeForDefaultValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -292,7 +292,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Data::Common::SqlConvert::ChangeType2
 // Il2CppName: ChangeType2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppObject*, System::Data::Common::StorageType, System::Type*, System::IFormatProvider*)>(&System::Data::Common::SqlConvert::ChangeType2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppObject*, ::System::Data::Common::StorageType, ::System::Type*, ::System::IFormatProvider*)>(&System::Data::Common::SqlConvert::ChangeType2)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* stype = &::il2cpp_utils::GetClassFromName("System.Data.Common", "StorageType")->byval_arg;
@@ -304,7 +304,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Data::Common::SqlConvert::ChangeTypeForXML
 // Il2CppName: ChangeTypeForXML
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppObject*, System::Type*)>(&System::Data::Common::SqlConvert::ChangeTypeForXML)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppObject*, ::System::Type*)>(&System::Data::Common::SqlConvert::ChangeTypeForXML)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;

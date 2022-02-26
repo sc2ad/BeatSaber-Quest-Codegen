@@ -42,8 +42,8 @@ namespace System::Collections {
   class SortedList;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Collections::SortedList);
-DEFINE_IL2CPP_ARG_TYPE(System::Collections::SortedList*, "System.Collections", "SortedList");
+NEED_NO_BOX(::System::Collections::SortedList);
+DEFINE_IL2CPP_ARG_TYPE(::System::Collections::SortedList*, "System.Collections", "SortedList");
 // Type namespace: System.Collections
 namespace System::Collections {
   // Size: 0x48
@@ -54,17 +54,17 @@ namespace System::Collections {
   // [ComVisibleAttribute] Offset: 118C9AC
   // [DefaultMemberAttribute] Offset: 118C9AC
   // [DebuggerTypeProxyAttribute] Offset: 118C9AC
-  class SortedList : public ::Il2CppObject/*, public System::ICloneable, public System::Collections::IDictionary*/ {
+  class SortedList : public ::Il2CppObject/*, public ::System::ICloneable, public ::System::Collections::IDictionary*/ {
     public:
-    // Nested type: System::Collections::SortedList::SyncSortedList
+    // Nested type: ::System::Collections::SortedList::SyncSortedList
     class SyncSortedList;
-    // Nested type: System::Collections::SortedList::SortedListEnumerator
+    // Nested type: ::System::Collections::SortedList::SortedListEnumerator
     class SortedListEnumerator;
-    // Nested type: System::Collections::SortedList::KeyList
+    // Nested type: ::System::Collections::SortedList::KeyList
     class KeyList;
-    // Nested type: System::Collections::SortedList::ValueList
+    // Nested type: ::System::Collections::SortedList::ValueList
     class ValueList;
-    // Nested type: System::Collections::SortedList::SortedListDebugView
+    // Nested type: ::System::Collections::SortedList::SortedListDebugView
     class SortedListDebugView;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -102,21 +102,21 @@ namespace System::Collections {
     // private System.Collections.IComparer comparer
     // Size: 0x8
     // Offset: 0x28
-    System::Collections::IComparer* comparer;
+    ::System::Collections::IComparer* comparer;
     // Field size check
-    static_assert(sizeof(System::Collections::IComparer*) == 0x8);
+    static_assert(sizeof(::System::Collections::IComparer*) == 0x8);
     // private System.Collections.SortedList/System.Collections.KeyList keyList
     // Size: 0x8
     // Offset: 0x30
-    System::Collections::SortedList::KeyList* keyList;
+    ::System::Collections::SortedList::KeyList* keyList;
     // Field size check
-    static_assert(sizeof(System::Collections::SortedList::KeyList*) == 0x8);
+    static_assert(sizeof(::System::Collections::SortedList::KeyList*) == 0x8);
     // private System.Collections.SortedList/System.Collections.ValueList valueList
     // Size: 0x8
     // Offset: 0x38
-    System::Collections::SortedList::ValueList* valueList;
+    ::System::Collections::SortedList::ValueList* valueList;
     // Field size check
-    static_assert(sizeof(System::Collections::SortedList::ValueList*) == 0x8);
+    static_assert(sizeof(::System::Collections::SortedList::ValueList*) == 0x8);
     // private System.Object _syncRoot
     // Size: 0x8
     // Offset: 0x40
@@ -124,13 +124,13 @@ namespace System::Collections {
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     public:
-    // Creating interface conversion operator: operator System::ICloneable
-    operator System::ICloneable() noexcept {
-      return *reinterpret_cast<System::ICloneable*>(this);
+    // Creating interface conversion operator: operator ::System::ICloneable
+    operator ::System::ICloneable() noexcept {
+      return *reinterpret_cast<::System::ICloneable*>(this);
     }
-    // Creating interface conversion operator: operator System::Collections::IDictionary
-    operator System::Collections::IDictionary() noexcept {
-      return *reinterpret_cast<System::Collections::IDictionary*>(this);
+    // Creating interface conversion operator: operator ::System::Collections::IDictionary
+    operator ::System::Collections::IDictionary() noexcept {
+      return *reinterpret_cast<::System::Collections::IDictionary*>(this);
     }
     // static field const value: static private System.Int32 _defaultCapacity
     static constexpr const int _defaultCapacity = 16;
@@ -151,11 +151,11 @@ namespace System::Collections {
     // Get instance field reference: private System.Int32 version
     int& dyn_version();
     // Get instance field reference: private System.Collections.IComparer comparer
-    System::Collections::IComparer*& dyn_comparer();
+    ::System::Collections::IComparer*& dyn_comparer();
     // Get instance field reference: private System.Collections.SortedList/System.Collections.KeyList keyList
-    System::Collections::SortedList::KeyList*& dyn_keyList();
+    ::System::Collections::SortedList::KeyList*& dyn_keyList();
     // Get instance field reference: private System.Collections.SortedList/System.Collections.ValueList valueList
-    System::Collections::SortedList::ValueList*& dyn_valueList();
+    ::System::Collections::SortedList::ValueList*& dyn_valueList();
     // Get instance field reference: private System.Object _syncRoot
     ::Il2CppObject*& dyn__syncRoot();
     // public System.Int32 get_Capacity()
@@ -169,10 +169,10 @@ namespace System::Collections {
     int get_Count();
     // public System.Collections.ICollection get_Keys()
     // Offset: 0x1AD5DC0
-    System::Collections::ICollection* get_Keys();
+    ::System::Collections::ICollection* get_Keys();
     // public System.Collections.ICollection get_Values()
     // Offset: 0x1AD5DD0
-    System::Collections::ICollection* get_Values();
+    ::System::Collections::ICollection* get_Values();
     // public System.Boolean get_IsReadOnly()
     // Offset: 0x1AD5DE0
     bool get_IsReadOnly();
@@ -189,21 +189,21 @@ namespace System::Collections {
     // Offset: 0x1AD5774
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SortedList* New_ctor(int initialCapacity) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::SortedList::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::SortedList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SortedList*, creationType>(initialCapacity)));
     }
     // public System.Void .ctor(System.Collections.IComparer comparer)
     // Offset: 0x1AD58A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SortedList* New_ctor(System::Collections::IComparer* comparer) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::SortedList::.ctor");
+    static SortedList* New_ctor(::System::Collections::IComparer* comparer) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::SortedList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SortedList*, creationType>(comparer)));
     }
     // public System.Void .ctor(System.Collections.IComparer comparer, System.Int32 capacity)
     // Offset: 0x1AD58DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SortedList* New_ctor(System::Collections::IComparer* comparer, int capacity) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::SortedList::.ctor");
+    static SortedList* New_ctor(::System::Collections::IComparer* comparer, int capacity) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::SortedList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SortedList*, creationType>(comparer, capacity)));
     }
     // static private System.Void .cctor()
@@ -232,7 +232,7 @@ namespace System::Collections {
     bool ContainsValue(::Il2CppObject* value);
     // public System.Void CopyTo(System.Array array, System.Int32 arrayIndex)
     // Offset: 0x1AD5FEC
-    void CopyTo(System::Array* array, int arrayIndex);
+    void CopyTo(::System::Array* array, int arrayIndex);
     // private System.Void EnsureCapacity(System.Int32 min)
     // Offset: 0x1AD6248
     void EnsureCapacity(int min);
@@ -241,19 +241,19 @@ namespace System::Collections {
     ::Il2CppObject* GetByIndex(int index);
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
     // Offset: 0x1AD6388
-    System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
+    ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // public System.Collections.IDictionaryEnumerator GetEnumerator()
     // Offset: 0x1AD646C
-    System::Collections::IDictionaryEnumerator* GetEnumerator();
+    ::System::Collections::IDictionaryEnumerator* GetEnumerator();
     // public System.Object GetKey(System.Int32 index)
     // Offset: 0x1AD64E4
     ::Il2CppObject* GetKey(int index);
     // public System.Collections.IList GetKeyList()
     // Offset: 0x1AD65D8
-    System::Collections::IList* GetKeyList();
+    ::System::Collections::IList* GetKeyList();
     // public System.Collections.IList GetValueList()
     // Offset: 0x1AD6674
-    System::Collections::IList* GetValueList();
+    ::System::Collections::IList* GetValueList();
     // public System.Int32 IndexOfKey(System.Object key)
     // Offset: 0x1AD68C4
     int IndexOfKey(::Il2CppObject* key);
@@ -271,14 +271,14 @@ namespace System::Collections {
     void Remove(::Il2CppObject* key);
     // static public System.Collections.SortedList Synchronized(System.Collections.SortedList list)
     // Offset: 0x1AD6BC0
-    static System::Collections::SortedList* Synchronized(System::Collections::SortedList* list);
+    static ::System::Collections::SortedList* Synchronized(::System::Collections::SortedList* list);
     // public System.Void .ctor()
     // Offset: 0x1AD5674
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SortedList* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::SortedList::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::SortedList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SortedList*, creationType>()));
     }
   }; // System.Collections.SortedList
@@ -315,7 +315,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Collections::SortedList::get_Keys
 // Il2CppName: get_Keys
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ICollection* (System::Collections::SortedList::*)()>(&System::Collections::SortedList::get_Keys)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (System::Collections::SortedList::*)()>(&System::Collections::SortedList::get_Keys)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Collections::SortedList*), "get_Keys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -323,7 +323,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::Collections::SortedList::get_Values
 // Il2CppName: get_Values
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ICollection* (System::Collections::SortedList::*)()>(&System::Collections::SortedList::get_Values)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (System::Collections::SortedList::*)()>(&System::Collections::SortedList::get_Values)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Collections::SortedList*), "get_Values", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -447,7 +447,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Collections::SortedList::CopyTo
 // Il2CppName: CopyTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::SortedList::*)(System::Array*, int)>(&System::Collections::SortedList::CopyTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::SortedList::*)(::System::Array*, int)>(&System::Collections::SortedList::CopyTo)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "Array")->byval_arg;
     static auto* arrayIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -475,7 +475,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Collections::SortedList::System_Collections_IEnumerable_GetEnumerator
 // Il2CppName: System.Collections.IEnumerable.GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (System::Collections::SortedList::*)()>(&System::Collections::SortedList::System_Collections_IEnumerable_GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (System::Collections::SortedList::*)()>(&System::Collections::SortedList::System_Collections_IEnumerable_GetEnumerator)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Collections::SortedList*), "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -483,7 +483,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::Collections::SortedList::GetEnumerator
 // Il2CppName: GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IDictionaryEnumerator* (System::Collections::SortedList::*)()>(&System::Collections::SortedList::GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IDictionaryEnumerator* (System::Collections::SortedList::*)()>(&System::Collections::SortedList::GetEnumerator)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Collections::SortedList*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -500,7 +500,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Collections::SortedList::GetKeyList
 // Il2CppName: GetKeyList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IList* (System::Collections::SortedList::*)()>(&System::Collections::SortedList::GetKeyList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IList* (System::Collections::SortedList::*)()>(&System::Collections::SortedList::GetKeyList)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Collections::SortedList*), "GetKeyList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -508,7 +508,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::Collections::SortedList::GetValueList
 // Il2CppName: GetValueList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IList* (System::Collections::SortedList::*)()>(&System::Collections::SortedList::GetValueList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IList* (System::Collections::SortedList::*)()>(&System::Collections::SortedList::GetValueList)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Collections::SortedList*), "GetValueList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -563,7 +563,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Collections::SortedList::Synchronized
 // Il2CppName: Synchronized
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::SortedList* (*)(System::Collections::SortedList*)>(&System::Collections::SortedList::Synchronized)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::SortedList* (*)(::System::Collections::SortedList*)>(&System::Collections::SortedList::Synchronized)> {
   static const MethodInfo* get() {
     static auto* list = &::il2cpp_utils::GetClassFromName("System.Collections", "SortedList")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Collections::SortedList*), "Synchronized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{list});

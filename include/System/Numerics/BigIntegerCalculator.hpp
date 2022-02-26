@@ -13,8 +13,8 @@ namespace System::Numerics {
   class BigIntegerCalculator;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Numerics::BigIntegerCalculator);
-DEFINE_IL2CPP_ARG_TYPE(System::Numerics::BigIntegerCalculator*, "System.Numerics", "BigIntegerCalculator");
+NEED_NO_BOX(::System::Numerics::BigIntegerCalculator);
+DEFINE_IL2CPP_ARG_TYPE(::System::Numerics::BigIntegerCalculator*, "System.Numerics", "BigIntegerCalculator");
 // Type namespace: System.Numerics
 namespace System::Numerics {
   // Size: 0x10

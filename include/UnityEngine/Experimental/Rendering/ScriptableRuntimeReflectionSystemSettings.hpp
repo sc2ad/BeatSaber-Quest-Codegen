@@ -21,8 +21,8 @@ namespace UnityEngine::Experimental::Rendering {
   class ScriptableRuntimeReflectionSystemSettings;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemSettings);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemSettings*, "UnityEngine.Experimental.Rendering", "ScriptableRuntimeReflectionSystemSettings");
+NEED_NO_BOX(::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemSettings);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemSettings*, "UnityEngine.Experimental.Rendering", "ScriptableRuntimeReflectionSystemSettings");
 // Type namespace: UnityEngine.Experimental.Rendering
 namespace UnityEngine::Experimental::Rendering {
   // Size: 0x10
@@ -34,15 +34,15 @@ namespace UnityEngine::Experimental::Rendering {
   class ScriptableRuntimeReflectionSystemSettings : public ::Il2CppObject {
     public:
     // Get static field: static private UnityEngine.Experimental.Rendering.ScriptableRuntimeReflectionSystemWrapper s_Instance
-    static UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper* _get_s_Instance();
+    static ::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper* _get_s_Instance();
     // Set static field: static private UnityEngine.Experimental.Rendering.ScriptableRuntimeReflectionSystemWrapper s_Instance
-    static void _set_s_Instance(UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper* value);
+    static void _set_s_Instance(::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper* value);
     // static private System.Void set_Internal_ScriptableRuntimeReflectionSystemSettings_system(UnityEngine.Experimental.Rendering.IScriptableRuntimeReflectionSystem value)
     // Offset: 0x1EBC248
-    static void set_Internal_ScriptableRuntimeReflectionSystemSettings_system(UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* value);
+    static void set_Internal_ScriptableRuntimeReflectionSystemSettings_system(::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* value);
     // static private UnityEngine.Experimental.Rendering.ScriptableRuntimeReflectionSystemWrapper get_Internal_ScriptableRuntimeReflectionSystemSettings_instance()
     // Offset: 0x1EBC3BC
-    static UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper* get_Internal_ScriptableRuntimeReflectionSystemSettings_instance();
+    static ::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper* get_Internal_ScriptableRuntimeReflectionSystemSettings_instance();
     // static private System.Void .cctor()
     // Offset: 0x1EBC458
     static void _cctor();
@@ -56,7 +56,7 @@ namespace UnityEngine::Experimental::Rendering {
 // Writing MetadataGetter for method: UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemSettings::set_Internal_ScriptableRuntimeReflectionSystemSettings_system
 // Il2CppName: set_Internal_ScriptableRuntimeReflectionSystemSettings_system
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*)>(&UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemSettings::set_Internal_ScriptableRuntimeReflectionSystemSettings_system)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*)>(&UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemSettings::set_Internal_ScriptableRuntimeReflectionSystemSettings_system)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.Experimental.Rendering", "IScriptableRuntimeReflectionSystem")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemSettings*), "set_Internal_ScriptableRuntimeReflectionSystemSettings_system", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -65,7 +65,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemSettings::get_Internal_ScriptableRuntimeReflectionSystemSettings_instance
 // Il2CppName: get_Internal_ScriptableRuntimeReflectionSystemSettings_instance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper* (*)()>(&UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemSettings::get_Internal_ScriptableRuntimeReflectionSystemSettings_instance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper* (*)()>(&UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemSettings::get_Internal_ScriptableRuntimeReflectionSystemSettings_instance)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemSettings*), "get_Internal_ScriptableRuntimeReflectionSystemSettings_instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

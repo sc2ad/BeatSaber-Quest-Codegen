@@ -25,8 +25,8 @@ namespace System::Xml::Schema {
   class KeySequence;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Schema::KeySequence);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::KeySequence*, "System.Xml.Schema", "KeySequence");
+NEED_NO_BOX(::System::Xml::Schema::KeySequence);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::KeySequence*, "System.Xml.Schema", "KeySequence");
 // Type namespace: System.Xml.Schema
 namespace System::Xml::Schema {
   // Size: 0x28
@@ -48,9 +48,9 @@ namespace System::Xml::Schema {
     // private System.Xml.Schema.TypedObject[] ks
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<System::Xml::Schema::TypedObject*> ks;
+    ::ArrayW<::System::Xml::Schema::TypedObject*> ks;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::Xml::Schema::TypedObject*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::System::Xml::Schema::TypedObject*>) == 0x8);
     // private System.Int32 dim
     // Size: 0x4
     // Offset: 0x18
@@ -77,7 +77,7 @@ namespace System::Xml::Schema {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private System.Xml.Schema.TypedObject[] ks
-    ::ArrayW<System::Xml::Schema::TypedObject*>& dyn_ks();
+    ::ArrayW<::System::Xml::Schema::TypedObject*>& dyn_ks();
     // Get instance field reference: private System.Int32 dim
     int& dyn_dim();
     // Get instance field reference: private System.Int32 hashcode
@@ -102,7 +102,7 @@ namespace System::Xml::Schema {
     // Offset: 0x149A1D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KeySequence* New_ctor(int dim, int line, int col) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Schema::KeySequence::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::KeySequence::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeySequence*, creationType>(dim, line, col)));
     }
     // System.Boolean IsQualified()

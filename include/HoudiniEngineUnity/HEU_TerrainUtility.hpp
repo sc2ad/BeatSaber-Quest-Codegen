@@ -52,8 +52,8 @@ namespace HoudiniEngineUnity {
   class HEU_TerrainUtility;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_TerrainUtility);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_TerrainUtility*, "HoudiniEngineUnity", "HEU_TerrainUtility");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_TerrainUtility);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_TerrainUtility*, "HoudiniEngineUnity", "HEU_TerrainUtility");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x10
@@ -64,10 +64,10 @@ namespace HoudiniEngineUnity {
     public:
     // static public System.Boolean GenerateTerrainFromVolume(HoudiniEngineUnity.HEU_SessionBase session, ref HoudiniEngineUnity.HAPI_VolumeInfo volumeInfo, System.Int32 geoID, System.Int32 partID, UnityEngine.GameObject gameObject, ref UnityEngine.TerrainData terrainData, out UnityEngine.Vector3 volumePositionOffset, ref UnityEngine.Terrain terrain, System.String bakedMaterialPath)
     // Offset: 0x1A64C34
-    static bool GenerateTerrainFromVolume(HoudiniEngineUnity::HEU_SessionBase* session, ByRef<HoudiniEngineUnity::HAPI_VolumeInfo> volumeInfo, int geoID, int partID, UnityEngine::GameObject* gameObject, ByRef<UnityEngine::TerrainData*> terrainData, ByRef<UnityEngine::Vector3> volumePositionOffset, ByRef<UnityEngine::Terrain*> terrain, ::StringW bakedMaterialPath);
+    static bool GenerateTerrainFromVolume(::HoudiniEngineUnity::HEU_SessionBase* session, ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo> volumeInfo, int geoID, int partID, ::UnityEngine::GameObject* gameObject, ByRef<::UnityEngine::TerrainData*> terrainData, ByRef<::UnityEngine::Vector3> volumePositionOffset, ByRef<::UnityEngine::Terrain*> terrain, ::StringW bakedMaterialPath);
     // static public System.Void SetTerrainMaterial(UnityEngine.Terrain terrain, System.String specifiedMaterialName, System.String bakedMaterialPath)
     // Offset: 0x1A65634
-    static void SetTerrainMaterial(UnityEngine::Terrain* terrain, ::StringW specifiedMaterialName, ::StringW bakedMaterialPath);
+    static void SetTerrainMaterial(::UnityEngine::Terrain* terrain, ::StringW specifiedMaterialName, ::StringW bakedMaterialPath);
     // static public System.String GetDefaultTerrainShaderName()
     // Offset: 0x1A65D70
     static ::StringW GetDefaultTerrainShaderName();
@@ -76,61 +76,61 @@ namespace HoudiniEngineUnity {
     static ::StringW GetDefaultTerrainMaterialPath();
     // static public System.Single[] GetNormalizedHeightmapFromPartWithMinMax(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.Int32 heightMapWidth, System.Int32 heightMapHeight, ref System.Single minHeight, ref System.Single maxHeight, ref System.Single heightRange, System.Boolean bUseHeightRangeOverride)
     // Offset: 0x1A65810
-    static ::ArrayW<float> GetNormalizedHeightmapFromPartWithMinMax(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, int heightMapWidth, int heightMapHeight, ByRef<float> minHeight, ByRef<float> maxHeight, ByRef<float> heightRange, bool bUseHeightRangeOverride);
+    static ::ArrayW<float> GetNormalizedHeightmapFromPartWithMinMax(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, int heightMapWidth, int heightMapHeight, ByRef<float> minHeight, ByRef<float> maxHeight, ByRef<float> heightRange, bool bUseHeightRangeOverride);
     // static public System.Int32[,] GetDetailMapFromPart(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, out System.Int32 detailResolution)
     // Offset: 0x1A66098
-    static ::ArrayW<int> GetDetailMapFromPart(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ByRef<int> detailResolution);
+    static ::ArrayW<int> GetDetailMapFromPart(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ByRef<int> detailResolution);
     // static public System.Boolean GetHeightmapFromPart(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 xLength, System.Int32 yLength, System.Int32 geoID, System.Int32 partID, ref System.Single[] heightValues, ref System.Single minHeight, ref System.Single maxHeight)
     // Offset: 0x1A65E88
-    static bool GetHeightmapFromPart(HoudiniEngineUnity::HEU_SessionBase* session, int xLength, int yLength, int geoID, int partID, ByRef<::ArrayW<float>> heightValues, ByRef<float> minHeight, ByRef<float> maxHeight);
+    static bool GetHeightmapFromPart(::HoudiniEngineUnity::HEU_SessionBase* session, int xLength, int yLength, int geoID, int partID, ByRef<::ArrayW<float>> heightValues, ByRef<float> minHeight, ByRef<float> maxHeight);
     // static public System.Single[,] ConvertHeightMapHoudiniToUnity(System.Int32 heightMapWidth, System.Int32 heightMapHeight, System.Single[] heightValues)
     // Offset: 0x1A65C60
     static ::ArrayW<float> ConvertHeightMapHoudiniToUnity(int heightMapWidth, int heightMapHeight, ::ArrayW<float> heightValues);
     // static public System.Single[,,] ConvertHeightFieldToAlphaMap(System.Int32 heightMapWidth, System.Int32 heightMapHeight, System.Collections.Generic.List`1<System.Single[]> heightFields)
     // Offset: 0x1A6635C
-    static ::ArrayW<float> ConvertHeightFieldToAlphaMap(int heightMapWidth, int heightMapHeight, System::Collections::Generic::List_1<::ArrayW<float>>* heightFields);
+    static ::ArrayW<float> ConvertHeightFieldToAlphaMap(int heightMapWidth, int heightMapHeight, ::System::Collections::Generic::List_1<::ArrayW<float>>* heightFields);
     // static public System.Single[,,] AppendConvertedHeightFieldToAlphaMap(System.Int32 heightMapWidth, System.Int32 heightMapHeight, System.Single[,,] existingAlphaMaps, System.Collections.Generic.List`1<System.Single[]> heightFields, System.Single[] strengths, System.Collections.Generic.List`1<System.Int32> alphaMapIndices)
     // Offset: 0x1A66510
-    static ::ArrayW<float> AppendConvertedHeightFieldToAlphaMap(int heightMapWidth, int heightMapHeight, ::ArrayW<float> existingAlphaMaps, System::Collections::Generic::List_1<::ArrayW<float>>* heightFields, ::ArrayW<float> strengths, System::Collections::Generic::List_1<int>* alphaMapIndices);
+    static ::ArrayW<float> AppendConvertedHeightFieldToAlphaMap(int heightMapWidth, int heightMapHeight, ::ArrayW<float> existingAlphaMaps, ::System::Collections::Generic::List_1<::ArrayW<float>>* heightFields, ::ArrayW<float> strengths, ::System::Collections::Generic::List_1<int>* alphaMapIndices);
     // static public UnityEngine.Vector3 GetVolumePositionOffset(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, UnityEngine.Vector3 volumePosition, System.Single terrainSizeX, System.Single heightMapSize, System.Int32 mapWidth, System.Int32 mapHeight, System.Single minHeight)
     // Offset: 0x1A667D8
-    static UnityEngine::Vector3 GetVolumePositionOffset(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, UnityEngine::Vector3 volumePosition, float terrainSizeX, float heightMapSize, int mapWidth, int mapHeight, float minHeight);
+    static ::UnityEngine::Vector3 GetVolumePositionOffset(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::UnityEngine::Vector3 volumePosition, float terrainSizeX, float heightMapSize, int mapWidth, int mapHeight, float minHeight);
     // static public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_TreePrototypeInfo> GetTreePrototypeInfosFromPart(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID)
     // Offset: 0x1A668C0
-    static System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_TreePrototypeInfo*>* GetTreePrototypeInfosFromPart(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID);
+    static ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TreePrototypeInfo*>* GetTreePrototypeInfosFromPart(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID);
     // static public System.Void PopulateScatterTrees(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.Int32 pointCount, ref HoudiniEngineUnity.HEU_VolumeScatterTrees scatterTrees, System.Boolean throwWarningIfNoTileAttribute)
     // Offset: 0x1A66B40
-    static void PopulateScatterTrees(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, int pointCount, ByRef<HoudiniEngineUnity::HEU_VolumeScatterTrees*> scatterTrees, bool throwWarningIfNoTileAttribute);
+    static void PopulateScatterTrees(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, int pointCount, ByRef<::HoudiniEngineUnity::HEU_VolumeScatterTrees*> scatterTrees, bool throwWarningIfNoTileAttribute);
     // static public System.Void ApplyScatterTrees(UnityEngine.TerrainData terrainData, HoudiniEngineUnity.HEU_VolumeScatterTrees scatterTrees, System.Int32 tileIndex)
     // Offset: 0x1A67714
-    static void ApplyScatterTrees(UnityEngine::TerrainData* terrainData, HoudiniEngineUnity::HEU_VolumeScatterTrees* scatterTrees, int tileIndex);
+    static void ApplyScatterTrees(::UnityEngine::TerrainData* terrainData, ::HoudiniEngineUnity::HEU_VolumeScatterTrees* scatterTrees, int tileIndex);
     // static public System.Void PopulateDetailPrototype(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, ref HoudiniEngineUnity.HEU_DetailPrototype detailPrototype)
     // Offset: 0x1A67BB8
-    static void PopulateDetailPrototype(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ByRef<HoudiniEngineUnity::HEU_DetailPrototype*> detailPrototype);
+    static void PopulateDetailPrototype(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ByRef<::HoudiniEngineUnity::HEU_DetailPrototype*> detailPrototype);
     // static public System.Void PopulateDetailProperties(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, ref HoudiniEngineUnity.HEU_DetailProperties detailProperties)
     // Offset: 0x1A67F30
-    static void PopulateDetailProperties(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ByRef<HoudiniEngineUnity::HEU_DetailProperties*> detailProperties);
+    static void PopulateDetailProperties(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ByRef<::HoudiniEngineUnity::HEU_DetailProperties*> detailProperties);
     // static public System.Void ApplyDetailLayers(UnityEngine.Terrain terrain, UnityEngine.TerrainData terrainData, HoudiniEngineUnity.HEU_DetailProperties detailProperties, System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_DetailPrototype> heuDetailPrototypes, System.Collections.Generic.List`1<System.Int32[,]> convertedDetailMaps)
     // Offset: 0x1A681F4
-    static void ApplyDetailLayers(UnityEngine::Terrain* terrain, UnityEngine::TerrainData* terrainData, HoudiniEngineUnity::HEU_DetailProperties* detailProperties, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_DetailPrototype*>* heuDetailPrototypes, System::Collections::Generic::List_1<::ArrayW<int>>* convertedDetailMaps);
+    static void ApplyDetailLayers(::UnityEngine::Terrain* terrain, ::UnityEngine::TerrainData* terrainData, ::HoudiniEngineUnity::HEU_DetailProperties* detailProperties, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_DetailPrototype*>* heuDetailPrototypes, ::System::Collections::Generic::List_1<::ArrayW<int>>* convertedDetailMaps);
     // static private System.Int32 GetTerrainLayerIndexByName(System.String layerName, UnityEngine.TerrainLayer[] terrainLayers)
     // Offset: 0x1A68614
-    static int GetTerrainLayerIndexByName(::StringW layerName, ::ArrayW<UnityEngine::TerrainLayer*> terrainLayers);
+    static int GetTerrainLayerIndexByName(::StringW layerName, ::ArrayW<::UnityEngine::TerrainLayer*> terrainLayers);
     // static public System.Int32 GetTerrainLayerIndex(UnityEngine.TerrainLayer layer, UnityEngine.TerrainLayer[] terrainLayers)
     // Offset: 0x1A68798
-    static int GetTerrainLayerIndex(UnityEngine::TerrainLayer* layer, ::ArrayW<UnityEngine::TerrainLayer*> terrainLayers);
+    static int GetTerrainLayerIndex(::UnityEngine::TerrainLayer* layer, ::ArrayW<::UnityEngine::TerrainLayer*> terrainLayers);
     // static public System.Boolean VolumeLayerHasAttributes(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID)
     // Offset: 0x1A68870
-    static bool VolumeLayerHasAttributes(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID);
+    static bool VolumeLayerHasAttributes(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID);
     // static public HoudiniEngineUnity.HFLayerType GetHeightfieldLayerType(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String volumeName)
     // Offset: 0x1A68B6C
-    static HoudiniEngineUnity::HFLayerType GetHeightfieldLayerType(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW volumeName);
+    static ::HoudiniEngineUnity::HFLayerType GetHeightfieldLayerType(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::StringW volumeName);
     // static public System.Single GetHeightRangeFromHeightfield(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID)
     // Offset: 0x1A66014
-    static float GetHeightRangeFromHeightfield(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID);
+    static float GetHeightRangeFromHeightfield(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID);
     // static public System.String GetTerrainDataExportPathFromHeightfieldAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID)
     // Offset: 0x1A68CB4
-    static ::StringW GetTerrainDataExportPathFromHeightfieldAttribute(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID);
+    static ::StringW GetTerrainDataExportPathFromHeightfieldAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID);
     // static public System.Single[] ResampleData(System.Single[] data, System.Int32 oldWidth, System.Int32 oldHeight, System.Int32 newWidth, System.Int32 newHeight)
     // Offset: 0x1A68D94
     static ::ArrayW<float> ResampleData(::ArrayW<float> data, int oldWidth, int oldHeight, int newWidth, int newHeight);
@@ -141,7 +141,7 @@ namespace HoudiniEngineUnity {
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_TerrainUtility::GenerateTerrainFromVolume
 // Il2CppName: GenerateTerrainFromVolume
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, ByRef<HoudiniEngineUnity::HAPI_VolumeInfo>, int, int, UnityEngine::GameObject*, ByRef<UnityEngine::TerrainData*>, ByRef<UnityEngine::Vector3>, ByRef<UnityEngine::Terrain*>, ::StringW)>(&HoudiniEngineUnity::HEU_TerrainUtility::GenerateTerrainFromVolume)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::HoudiniEngineUnity::HEU_SessionBase*, ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo>, int, int, ::UnityEngine::GameObject*, ByRef<::UnityEngine::TerrainData*>, ByRef<::UnityEngine::Vector3>, ByRef<::UnityEngine::Terrain*>, ::StringW)>(&HoudiniEngineUnity::HEU_TerrainUtility::GenerateTerrainFromVolume)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* volumeInfo = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_VolumeInfo")->this_arg;
@@ -158,7 +158,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_TerrainUtility::SetTerrainMaterial
 // Il2CppName: SetTerrainMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Terrain*, ::StringW, ::StringW)>(&HoudiniEngineUnity::HEU_TerrainUtility::SetTerrainMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Terrain*, ::StringW, ::StringW)>(&HoudiniEngineUnity::HEU_TerrainUtility::SetTerrainMaterial)> {
   static const MethodInfo* get() {
     static auto* terrain = &::il2cpp_utils::GetClassFromName("UnityEngine", "Terrain")->byval_arg;
     static auto* specifiedMaterialName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -185,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_TerrainUtility::GetNormalizedHeightmapFromPartWithMinMax
 // Il2CppName: GetNormalizedHeightmapFromPartWithMinMax
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<float> (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, int, int, ByRef<float>, ByRef<float>, ByRef<float>, bool)>(&HoudiniEngineUnity::HEU_TerrainUtility::GetNormalizedHeightmapFromPartWithMinMax)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<float> (*)(::HoudiniEngineUnity::HEU_SessionBase*, int, int, int, int, ByRef<float>, ByRef<float>, ByRef<float>, bool)>(&HoudiniEngineUnity::HEU_TerrainUtility::GetNormalizedHeightmapFromPartWithMinMax)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -202,7 +202,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<fl
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_TerrainUtility::GetDetailMapFromPart
 // Il2CppName: GetDetailMapFromPart
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ByRef<int>)>(&HoudiniEngineUnity::HEU_TerrainUtility::GetDetailMapFromPart)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (*)(::HoudiniEngineUnity::HEU_SessionBase*, int, int, ByRef<int>)>(&HoudiniEngineUnity::HEU_TerrainUtility::GetDetailMapFromPart)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -214,7 +214,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<in
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_TerrainUtility::GetHeightmapFromPart
 // Il2CppName: GetHeightmapFromPart
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, int, int, ByRef<::ArrayW<float>>, ByRef<float>, ByRef<float>)>(&HoudiniEngineUnity::HEU_TerrainUtility::GetHeightmapFromPart)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::HoudiniEngineUnity::HEU_SessionBase*, int, int, int, int, ByRef<::ArrayW<float>>, ByRef<float>, ByRef<float>)>(&HoudiniEngineUnity::HEU_TerrainUtility::GetHeightmapFromPart)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* xLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -241,7 +241,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<fl
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_TerrainUtility::ConvertHeightFieldToAlphaMap
 // Il2CppName: ConvertHeightFieldToAlphaMap
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<float> (*)(int, int, System::Collections::Generic::List_1<::ArrayW<float>>*)>(&HoudiniEngineUnity::HEU_TerrainUtility::ConvertHeightFieldToAlphaMap)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<float> (*)(int, int, ::System::Collections::Generic::List_1<::ArrayW<float>>*)>(&HoudiniEngineUnity::HEU_TerrainUtility::ConvertHeightFieldToAlphaMap)> {
   static const MethodInfo* get() {
     static auto* heightMapWidth = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* heightMapHeight = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -252,7 +252,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<fl
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_TerrainUtility::AppendConvertedHeightFieldToAlphaMap
 // Il2CppName: AppendConvertedHeightFieldToAlphaMap
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<float> (*)(int, int, ::ArrayW<float>, System::Collections::Generic::List_1<::ArrayW<float>>*, ::ArrayW<float>, System::Collections::Generic::List_1<int>*)>(&HoudiniEngineUnity::HEU_TerrainUtility::AppendConvertedHeightFieldToAlphaMap)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<float> (*)(int, int, ::ArrayW<float>, ::System::Collections::Generic::List_1<::ArrayW<float>>*, ::ArrayW<float>, ::System::Collections::Generic::List_1<int>*)>(&HoudiniEngineUnity::HEU_TerrainUtility::AppendConvertedHeightFieldToAlphaMap)> {
   static const MethodInfo* get() {
     static auto* heightMapWidth = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* heightMapHeight = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -266,7 +266,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<fl
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_TerrainUtility::GetVolumePositionOffset
 // Il2CppName: GetVolumePositionOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, UnityEngine::Vector3, float, float, int, int, float)>(&HoudiniEngineUnity::HEU_TerrainUtility::GetVolumePositionOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::HoudiniEngineUnity::HEU_SessionBase*, int, int, ::UnityEngine::Vector3, float, float, int, int, float)>(&HoudiniEngineUnity::HEU_TerrainUtility::GetVolumePositionOffset)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -283,7 +283,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_TerrainUtility::GetTreePrototypeInfosFromPart
 // Il2CppName: GetTreePrototypeInfosFromPart
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_TreePrototypeInfo*>* (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int)>(&HoudiniEngineUnity::HEU_TerrainUtility::GetTreePrototypeInfosFromPart)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TreePrototypeInfo*>* (*)(::HoudiniEngineUnity::HEU_SessionBase*, int, int)>(&HoudiniEngineUnity::HEU_TerrainUtility::GetTreePrototypeInfosFromPart)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -294,7 +294,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_TerrainUtility::PopulateScatterTrees
 // Il2CppName: PopulateScatterTrees
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, int, ByRef<HoudiniEngineUnity::HEU_VolumeScatterTrees*>, bool)>(&HoudiniEngineUnity::HEU_TerrainUtility::PopulateScatterTrees)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_SessionBase*, int, int, int, ByRef<::HoudiniEngineUnity::HEU_VolumeScatterTrees*>, bool)>(&HoudiniEngineUnity::HEU_TerrainUtility::PopulateScatterTrees)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -308,7 +308,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_TerrainUtility::ApplyScatterTrees
 // Il2CppName: ApplyScatterTrees
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::TerrainData*, HoudiniEngineUnity::HEU_VolumeScatterTrees*, int)>(&HoudiniEngineUnity::HEU_TerrainUtility::ApplyScatterTrees)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::TerrainData*, ::HoudiniEngineUnity::HEU_VolumeScatterTrees*, int)>(&HoudiniEngineUnity::HEU_TerrainUtility::ApplyScatterTrees)> {
   static const MethodInfo* get() {
     static auto* terrainData = &::il2cpp_utils::GetClassFromName("UnityEngine", "TerrainData")->byval_arg;
     static auto* scatterTrees = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_VolumeScatterTrees")->byval_arg;
@@ -319,7 +319,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_TerrainUtility::PopulateDetailPrototype
 // Il2CppName: PopulateDetailPrototype
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ByRef<HoudiniEngineUnity::HEU_DetailPrototype*>)>(&HoudiniEngineUnity::HEU_TerrainUtility::PopulateDetailPrototype)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_SessionBase*, int, int, ByRef<::HoudiniEngineUnity::HEU_DetailPrototype*>)>(&HoudiniEngineUnity::HEU_TerrainUtility::PopulateDetailPrototype)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -331,7 +331,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_TerrainUtility::PopulateDetailProperties
 // Il2CppName: PopulateDetailProperties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ByRef<HoudiniEngineUnity::HEU_DetailProperties*>)>(&HoudiniEngineUnity::HEU_TerrainUtility::PopulateDetailProperties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_SessionBase*, int, int, ByRef<::HoudiniEngineUnity::HEU_DetailProperties*>)>(&HoudiniEngineUnity::HEU_TerrainUtility::PopulateDetailProperties)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -343,7 +343,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_TerrainUtility::ApplyDetailLayers
 // Il2CppName: ApplyDetailLayers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Terrain*, UnityEngine::TerrainData*, HoudiniEngineUnity::HEU_DetailProperties*, System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_DetailPrototype*>*, System::Collections::Generic::List_1<::ArrayW<int>>*)>(&HoudiniEngineUnity::HEU_TerrainUtility::ApplyDetailLayers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Terrain*, ::UnityEngine::TerrainData*, ::HoudiniEngineUnity::HEU_DetailProperties*, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_DetailPrototype*>*, ::System::Collections::Generic::List_1<::ArrayW<int>>*)>(&HoudiniEngineUnity::HEU_TerrainUtility::ApplyDetailLayers)> {
   static const MethodInfo* get() {
     static auto* terrain = &::il2cpp_utils::GetClassFromName("UnityEngine", "Terrain")->byval_arg;
     static auto* terrainData = &::il2cpp_utils::GetClassFromName("UnityEngine", "TerrainData")->byval_arg;
@@ -356,7 +356,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_TerrainUtility::GetTerrainLayerIndexByName
 // Il2CppName: GetTerrainLayerIndexByName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::StringW, ::ArrayW<UnityEngine::TerrainLayer*>)>(&HoudiniEngineUnity::HEU_TerrainUtility::GetTerrainLayerIndexByName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::StringW, ::ArrayW<::UnityEngine::TerrainLayer*>)>(&HoudiniEngineUnity::HEU_TerrainUtility::GetTerrainLayerIndexByName)> {
   static const MethodInfo* get() {
     static auto* layerName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* terrainLayers = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "TerrainLayer"), 1)->byval_arg;
@@ -366,7 +366,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::S
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_TerrainUtility::GetTerrainLayerIndex
 // Il2CppName: GetTerrainLayerIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::TerrainLayer*, ::ArrayW<UnityEngine::TerrainLayer*>)>(&HoudiniEngineUnity::HEU_TerrainUtility::GetTerrainLayerIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::UnityEngine::TerrainLayer*, ::ArrayW<::UnityEngine::TerrainLayer*>)>(&HoudiniEngineUnity::HEU_TerrainUtility::GetTerrainLayerIndex)> {
   static const MethodInfo* get() {
     static auto* layer = &::il2cpp_utils::GetClassFromName("UnityEngine", "TerrainLayer")->byval_arg;
     static auto* terrainLayers = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "TerrainLayer"), 1)->byval_arg;
@@ -376,7 +376,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_TerrainUtility::VolumeLayerHasAttributes
 // Il2CppName: VolumeLayerHasAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int)>(&HoudiniEngineUnity::HEU_TerrainUtility::VolumeLayerHasAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::HoudiniEngineUnity::HEU_SessionBase*, int, int)>(&HoudiniEngineUnity::HEU_TerrainUtility::VolumeLayerHasAttributes)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -387,7 +387,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_TerrainUtility::GetHeightfieldLayerType
 // Il2CppName: GetHeightfieldLayerType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HFLayerType (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::StringW)>(&HoudiniEngineUnity::HEU_TerrainUtility::GetHeightfieldLayerType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HFLayerType (*)(::HoudiniEngineUnity::HEU_SessionBase*, int, int, ::StringW)>(&HoudiniEngineUnity::HEU_TerrainUtility::GetHeightfieldLayerType)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -399,7 +399,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_TerrainUtility::GetHeightRangeFromHeightfield
 // Il2CppName: GetHeightRangeFromHeightfield
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int)>(&HoudiniEngineUnity::HEU_TerrainUtility::GetHeightRangeFromHeightfield)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::HoudiniEngineUnity::HEU_SessionBase*, int, int)>(&HoudiniEngineUnity::HEU_TerrainUtility::GetHeightRangeFromHeightfield)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -410,7 +410,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(H
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_TerrainUtility::GetTerrainDataExportPathFromHeightfieldAttribute
 // Il2CppName: GetTerrainDataExportPathFromHeightfieldAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int)>(&HoudiniEngineUnity::HEU_TerrainUtility::GetTerrainDataExportPathFromHeightfieldAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::HoudiniEngineUnity::HEU_SessionBase*, int, int)>(&HoudiniEngineUnity::HEU_TerrainUtility::GetTerrainDataExportPathFromHeightfieldAttribute)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

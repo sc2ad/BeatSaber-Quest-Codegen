@@ -20,8 +20,8 @@ namespace UnityEngine::EventSystems {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass72_1);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass72_1*, "", "GameServerLobbyFlowCoordinator/<>c__DisplayClass72_1");
+NEED_NO_BOX(::GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass72_1);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass72_1*, "", "GameServerLobbyFlowCoordinator/<>c__DisplayClass72_1");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -43,20 +43,20 @@ namespace GlobalNamespace {
     // public UnityEngine.EventSystems.EventSystem eventSystem
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::EventSystems::EventSystem* eventSystem;
+    ::UnityEngine::EventSystems::EventSystem* eventSystem;
     // Field size check
-    static_assert(sizeof(UnityEngine::EventSystems::EventSystem*) == 0x8);
+    static_assert(sizeof(::UnityEngine::EventSystems::EventSystem*) == 0x8);
     // public GameServerLobbyFlowCoordinator/<>c__DisplayClass72_0 CS$<>8__locals1
     // Size: 0x8
     // Offset: 0x18
-    GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass72_0* CS$$$8__locals1;
+    ::GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass72_0* CS$$$8__locals1;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass72_0*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass72_0*) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.EventSystems.EventSystem eventSystem
-    UnityEngine::EventSystems::EventSystem*& dyn_eventSystem();
+    ::UnityEngine::EventSystems::EventSystem*& dyn_eventSystem();
     // Get instance field reference: public GameServerLobbyFlowCoordinator/<>c__DisplayClass72_0 CS$<>8__locals1
-    GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass72_0*& dyn_CS$$$8__locals1();
+    ::GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass72_0*& dyn_CS$$$8__locals1();
     // System.Void <Finish>b__0()
     // Offset: 0x2AD4020
     void $Finish$b__0();
@@ -66,12 +66,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameServerLobbyFlowCoordinator::$$c__DisplayClass72_1* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass72_1::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass72_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameServerLobbyFlowCoordinator::$$c__DisplayClass72_1*, creationType>()));
     }
   }; // GameServerLobbyFlowCoordinator/<>c__DisplayClass72_1
   #pragma pack(pop)
-  static check_size<sizeof(GameServerLobbyFlowCoordinator::$$c__DisplayClass72_1), 24 + sizeof(GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass72_0*)> __GlobalNamespace_GameServerLobbyFlowCoordinator_$$c__DisplayClass72_1SizeCheck;
+  static check_size<sizeof(GameServerLobbyFlowCoordinator::$$c__DisplayClass72_1), 24 + sizeof(::GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass72_0*)> __GlobalNamespace_GameServerLobbyFlowCoordinator_$$c__DisplayClass72_1SizeCheck;
   static_assert(sizeof(GameServerLobbyFlowCoordinator::$$c__DisplayClass72_1) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -33,8 +33,8 @@ namespace System::Collections {
   class Stack;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Collections::Stack);
-DEFINE_IL2CPP_ARG_TYPE(System::Collections::Stack*, "System.Collections", "Stack");
+NEED_NO_BOX(::System::Collections::Stack);
+DEFINE_IL2CPP_ARG_TYPE(::System::Collections::Stack*, "System.Collections", "Stack");
 // Type namespace: System.Collections
 namespace System::Collections {
   // Size: 0x28
@@ -44,11 +44,11 @@ namespace System::Collections {
   // [DebuggerDisplayAttribute] Offset: 118CB14
   // [ComVisibleAttribute] Offset: 118CB14
   // [DebuggerTypeProxyAttribute] Offset: 118CB14
-  class Stack : public ::Il2CppObject/*, public System::ICloneable, public System::Collections::ICollection*/ {
+  class Stack : public ::Il2CppObject/*, public ::System::ICloneable, public ::System::Collections::ICollection*/ {
     public:
-    // Nested type: System::Collections::Stack::StackEnumerator
+    // Nested type: ::System::Collections::Stack::StackEnumerator
     class StackEnumerator;
-    // Nested type: System::Collections::Stack::StackDebugView
+    // Nested type: ::System::Collections::Stack::StackDebugView
     class StackDebugView;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -84,13 +84,13 @@ namespace System::Collections {
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     public:
-    // Creating interface conversion operator: operator System::ICloneable
-    operator System::ICloneable() noexcept {
-      return *reinterpret_cast<System::ICloneable*>(this);
+    // Creating interface conversion operator: operator ::System::ICloneable
+    operator ::System::ICloneable() noexcept {
+      return *reinterpret_cast<::System::ICloneable*>(this);
     }
-    // Creating interface conversion operator: operator System::Collections::ICollection
-    operator System::Collections::ICollection() noexcept {
-      return *reinterpret_cast<System::Collections::ICollection*>(this);
+    // Creating interface conversion operator: operator ::System::Collections::ICollection
+    operator ::System::Collections::ICollection() noexcept {
+      return *reinterpret_cast<::System::Collections::ICollection*>(this);
     }
     // Get instance field reference: private System.Object[] _array
     ::ArrayW<::Il2CppObject*>& dyn__array();
@@ -110,7 +110,7 @@ namespace System::Collections {
     // Offset: 0x1AD8D70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Stack* New_ctor(int initialCapacity) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Stack::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Stack::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Stack*, creationType>(initialCapacity)));
     }
     // public System.Void Clear()
@@ -121,10 +121,10 @@ namespace System::Collections {
     ::Il2CppObject* Clone();
     // public System.Void CopyTo(System.Array array, System.Int32 index)
     // Offset: 0x1AD8FA4
-    void CopyTo(System::Array* array, int index);
+    void CopyTo(::System::Array* array, int index);
     // public System.Collections.IEnumerator GetEnumerator()
     // Offset: 0x1AD925C
-    System::Collections::IEnumerator* GetEnumerator();
+    ::System::Collections::IEnumerator* GetEnumerator();
     // public System.Object Peek()
     // Offset: 0x1AD9300
     ::Il2CppObject* Peek();
@@ -140,7 +140,7 @@ namespace System::Collections {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Stack* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Stack::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Stack::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Stack*, creationType>()));
     }
   }; // System.Collections.Stack
@@ -188,7 +188,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Collections::Stack::CopyTo
 // Il2CppName: CopyTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::Stack::*)(System::Array*, int)>(&System::Collections::Stack::CopyTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::Stack::*)(::System::Array*, int)>(&System::Collections::Stack::CopyTo)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "Array")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -198,7 +198,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Collections::Stack::GetEnumerator
 // Il2CppName: GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (System::Collections::Stack::*)()>(&System::Collections::Stack::GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (System::Collections::Stack::*)()>(&System::Collections::Stack::GetEnumerator)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Collections::Stack*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

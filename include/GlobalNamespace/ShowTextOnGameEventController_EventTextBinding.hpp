@@ -23,8 +23,8 @@ namespace GlobalNamespace {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::ShowTextOnGameEventController::EventTextBinding);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShowTextOnGameEventController::EventTextBinding*, "", "ShowTextOnGameEventController/EventTextBinding");
+NEED_NO_BOX(::GlobalNamespace::ShowTextOnGameEventController::EventTextBinding);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ShowTextOnGameEventController::EventTextBinding*, "", "ShowTextOnGameEventController/EventTextBinding");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x28
@@ -45,9 +45,9 @@ namespace GlobalNamespace {
     // private Signal _signal
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::Signal* signal;
+    ::GlobalNamespace::Signal* signal;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::Signal*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::Signal*) == 0x8);
     // [TextAreaAttribute] Offset: 0x12522B8
     // private System.String _text
     // Size: 0x8
@@ -58,19 +58,19 @@ namespace GlobalNamespace {
     // private TextFadeTransitions _textFadeTransitions
     // Size: 0x8
     // Offset: 0x20
-    GlobalNamespace::TextFadeTransitions* textFadeTransitions;
+    ::GlobalNamespace::TextFadeTransitions* textFadeTransitions;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::TextFadeTransitions*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::TextFadeTransitions*) == 0x8);
     public:
     // Get instance field reference: private Signal _signal
-    GlobalNamespace::Signal*& dyn__signal();
+    ::GlobalNamespace::Signal*& dyn__signal();
     // Get instance field reference: private System.String _text
     ::StringW& dyn__text();
     // Get instance field reference: private TextFadeTransitions _textFadeTransitions
-    GlobalNamespace::TextFadeTransitions*& dyn__textFadeTransitions();
+    ::GlobalNamespace::TextFadeTransitions*& dyn__textFadeTransitions();
     // public System.Void Init(TextFadeTransitions textFadeTransitions)
     // Offset: 0x13CA600
-    void Init(GlobalNamespace::TextFadeTransitions* textFadeTransitions);
+    void Init(::GlobalNamespace::TextFadeTransitions* textFadeTransitions);
     // public System.Void Deinit()
     // Offset: 0x13CA6FC
     void Deinit();
@@ -83,19 +83,19 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ShowTextOnGameEventController::EventTextBinding* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ShowTextOnGameEventController::EventTextBinding::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ShowTextOnGameEventController::EventTextBinding::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ShowTextOnGameEventController::EventTextBinding*, creationType>()));
     }
   }; // ShowTextOnGameEventController/EventTextBinding
   #pragma pack(pop)
-  static check_size<sizeof(ShowTextOnGameEventController::EventTextBinding), 32 + sizeof(GlobalNamespace::TextFadeTransitions*)> __GlobalNamespace_ShowTextOnGameEventController_EventTextBindingSizeCheck;
+  static check_size<sizeof(ShowTextOnGameEventController::EventTextBinding), 32 + sizeof(::GlobalNamespace::TextFadeTransitions*)> __GlobalNamespace_ShowTextOnGameEventController_EventTextBindingSizeCheck;
   static_assert(sizeof(ShowTextOnGameEventController::EventTextBinding) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ShowTextOnGameEventController::EventTextBinding::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ShowTextOnGameEventController::EventTextBinding::*)(GlobalNamespace::TextFadeTransitions*)>(&GlobalNamespace::ShowTextOnGameEventController::EventTextBinding::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ShowTextOnGameEventController::EventTextBinding::*)(::GlobalNamespace::TextFadeTransitions*)>(&GlobalNamespace::ShowTextOnGameEventController::EventTextBinding::Init)> {
   static const MethodInfo* get() {
     static auto* textFadeTransitions = &::il2cpp_utils::GetClassFromName("", "TextFadeTransitions")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ShowTextOnGameEventController::EventTextBinding*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{textFadeTransitions});

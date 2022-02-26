@@ -26,8 +26,8 @@ namespace System::Net {
   class CookieParser;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::CookieParser);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::CookieParser*, "System.Net", "CookieParser");
+NEED_NO_BOX(::System::Net::CookieParser);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::CookieParser*, "System.Net", "CookieParser");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x18
@@ -48,32 +48,32 @@ namespace System::Net {
     // private System.Net.CookieTokenizer m_tokenizer
     // Size: 0x8
     // Offset: 0x10
-    System::Net::CookieTokenizer* m_tokenizer;
+    ::System::Net::CookieTokenizer* m_tokenizer;
     // Field size check
-    static_assert(sizeof(System::Net::CookieTokenizer*) == 0x8);
+    static_assert(sizeof(::System::Net::CookieTokenizer*) == 0x8);
     public:
-    // Creating conversion operator: operator System::Net::CookieTokenizer*
-    constexpr operator System::Net::CookieTokenizer*() const noexcept {
+    // Creating conversion operator: operator ::System::Net::CookieTokenizer*
+    constexpr operator ::System::Net::CookieTokenizer*() const noexcept {
       return m_tokenizer;
     }
     // Get instance field reference: private System.Net.CookieTokenizer m_tokenizer
-    System::Net::CookieTokenizer*& dyn_m_tokenizer();
+    ::System::Net::CookieTokenizer*& dyn_m_tokenizer();
     // System.Void .ctor(System.String cookieString)
     // Offset: 0x1AAE610
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CookieParser* New_ctor(::StringW cookieString) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::CookieParser::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::CookieParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CookieParser*, creationType>(cookieString)));
     }
     // System.Net.Cookie Get()
     // Offset: 0x1AAE688
-    System::Net::Cookie* Get();
+    ::System::Net::Cookie* Get();
     // static System.String CheckQuoted(System.String value)
     // Offset: 0x1AAA03C
     static ::StringW CheckQuoted(::StringW value);
   }; // System.Net.CookieParser
   #pragma pack(pop)
-  static check_size<sizeof(CookieParser), 16 + sizeof(System::Net::CookieTokenizer*)> __System_Net_CookieParserSizeCheck;
+  static check_size<sizeof(CookieParser), 16 + sizeof(::System::Net::CookieTokenizer*)> __System_Net_CookieParserSizeCheck;
   static_assert(sizeof(CookieParser) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -84,7 +84,7 @@ namespace System::Net {
 // Writing MetadataGetter for method: System::Net::CookieParser::Get
 // Il2CppName: Get
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Cookie* (System::Net::CookieParser::*)()>(&System::Net::CookieParser::Get)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Cookie* (System::Net::CookieParser::*)()>(&System::Net::CookieParser::Get)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::CookieParser*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

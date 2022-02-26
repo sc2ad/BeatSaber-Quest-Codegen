@@ -37,8 +37,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::SubContainerBinder::$$c__DisplayClass17_0);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerBinder::$$c__DisplayClass17_0*, "Zenject", "SubContainerBinder/<>c__DisplayClass17_0");
+NEED_NO_BOX(::Zenject::SubContainerBinder::$$c__DisplayClass17_0);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::SubContainerBinder::$$c__DisplayClass17_0*, "Zenject", "SubContainerBinder/<>c__DisplayClass17_0");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x30
@@ -60,64 +60,64 @@ namespace Zenject {
     // public UnityEngine.Object prefab
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::Object* prefab;
+    ::UnityEngine::Object* prefab;
     // Field size check
-    static_assert(sizeof(UnityEngine::Object*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Object*) == 0x8);
     // public Zenject.GameObjectCreationParameters gameObjectInfo
     // Size: 0x8
     // Offset: 0x18
-    Zenject::GameObjectCreationParameters* gameObjectInfo;
+    ::Zenject::GameObjectCreationParameters* gameObjectInfo;
     // Field size check
-    static_assert(sizeof(Zenject::GameObjectCreationParameters*) == 0x8);
+    static_assert(sizeof(::Zenject::GameObjectCreationParameters*) == 0x8);
     // public System.Type installerType
     // Size: 0x8
     // Offset: 0x20
-    System::Type* installerType;
+    ::System::Type* installerType;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     // public Zenject.SubContainerBinder <>4__this
     // Size: 0x8
     // Offset: 0x28
-    Zenject::SubContainerBinder* $$4__this;
+    ::Zenject::SubContainerBinder* $$4__this;
     // Field size check
-    static_assert(sizeof(Zenject::SubContainerBinder*) == 0x8);
+    static_assert(sizeof(::Zenject::SubContainerBinder*) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.Object prefab
-    UnityEngine::Object*& dyn_prefab();
+    ::UnityEngine::Object*& dyn_prefab();
     // Get instance field reference: public Zenject.GameObjectCreationParameters gameObjectInfo
-    Zenject::GameObjectCreationParameters*& dyn_gameObjectInfo();
+    ::Zenject::GameObjectCreationParameters*& dyn_gameObjectInfo();
     // Get instance field reference: public System.Type installerType
-    System::Type*& dyn_installerType();
+    ::System::Type*& dyn_installerType();
     // Get instance field reference: public Zenject.SubContainerBinder <>4__this
-    Zenject::SubContainerBinder*& dyn_$$4__this();
+    ::Zenject::SubContainerBinder*& dyn_$$4__this();
     // Zenject.ISubContainerCreator <ByNewPrefabInstaller>b__0(Zenject.DiContainer container)
     // Offset: 0x2467B38
-    Zenject::ISubContainerCreator* $ByNewPrefabInstaller$b__0(Zenject::DiContainer* container);
+    ::Zenject::ISubContainerCreator* $ByNewPrefabInstaller$b__0(::Zenject::DiContainer* container);
     // static private System.Object __zenCreate(System.Object[] P_0)
     // Offset: 0x2467CCC
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
     // Offset: 0x2467D28
-    static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
     // Offset: 0x24667D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubContainerBinder::$$c__DisplayClass17_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::SubContainerBinder::$$c__DisplayClass17_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SubContainerBinder::$$c__DisplayClass17_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SubContainerBinder::$$c__DisplayClass17_0*, creationType>()));
     }
   }; // Zenject.SubContainerBinder/Zenject.<>c__DisplayClass17_0
   #pragma pack(pop)
-  static check_size<sizeof(SubContainerBinder::$$c__DisplayClass17_0), 40 + sizeof(Zenject::SubContainerBinder*)> __Zenject_SubContainerBinder_$$c__DisplayClass17_0SizeCheck;
+  static check_size<sizeof(SubContainerBinder::$$c__DisplayClass17_0), 40 + sizeof(::Zenject::SubContainerBinder*)> __Zenject_SubContainerBinder_$$c__DisplayClass17_0SizeCheck;
   static_assert(sizeof(SubContainerBinder::$$c__DisplayClass17_0) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::SubContainerBinder::$$c__DisplayClass17_0::$ByNewPrefabInstaller$b__0
 // Il2CppName: <ByNewPrefabInstaller>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ISubContainerCreator* (Zenject::SubContainerBinder::$$c__DisplayClass17_0::*)(Zenject::DiContainer*)>(&Zenject::SubContainerBinder::$$c__DisplayClass17_0::$ByNewPrefabInstaller$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::ISubContainerCreator* (Zenject::SubContainerBinder::$$c__DisplayClass17_0::*)(::Zenject::DiContainer*)>(&Zenject::SubContainerBinder::$$c__DisplayClass17_0::$ByNewPrefabInstaller$b__0)> {
   static const MethodInfo* get() {
     static auto* container = &::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerBinder::$$c__DisplayClass17_0*), "<ByNewPrefabInstaller>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{container});
@@ -135,7 +135,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: Zenject::SubContainerBinder::$$c__DisplayClass17_0::__zenCreateInjectTypeInfo
 // Il2CppName: __zenCreateInjectTypeInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (*)()>(&Zenject::SubContainerBinder::$$c__DisplayClass17_0::__zenCreateInjectTypeInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&Zenject::SubContainerBinder::$$c__DisplayClass17_0::__zenCreateInjectTypeInfo)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerBinder::$$c__DisplayClass17_0*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

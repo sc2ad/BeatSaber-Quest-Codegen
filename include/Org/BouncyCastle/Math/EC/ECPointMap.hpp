@@ -18,8 +18,8 @@ namespace Org::BouncyCastle::Math::EC {
   class ECPointMap;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Math::EC::ECPointMap);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::ECPointMap*, "Org.BouncyCastle.Math.EC", "ECPointMap");
+NEED_NO_BOX(::Org::BouncyCastle::Math::EC::ECPointMap);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::ECPointMap*, "Org.BouncyCastle.Math.EC", "ECPointMap");
 // Type namespace: Org.BouncyCastle.Math.EC
 namespace Org::BouncyCastle::Math::EC {
   // Size: 0x10
@@ -30,7 +30,7 @@ namespace Org::BouncyCastle::Math::EC {
     public:
     // public Org.BouncyCastle.Math.EC.ECPoint Map(Org.BouncyCastle.Math.EC.ECPoint p)
     // Offset: 0xFFFFFFFF
-    Org::BouncyCastle::Math::EC::ECPoint* Map(Org::BouncyCastle::Math::EC::ECPoint* p);
+    ::Org::BouncyCastle::Math::EC::ECPoint* Map(::Org::BouncyCastle::Math::EC::ECPoint* p);
   }; // Org.BouncyCastle.Math.EC.ECPointMap
   #pragma pack(pop)
 }
@@ -38,7 +38,7 @@ namespace Org::BouncyCastle::Math::EC {
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::ECPointMap::Map
 // Il2CppName: Map
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (Org::BouncyCastle::Math::EC::ECPointMap::*)(Org::BouncyCastle::Math::EC::ECPoint*)>(&Org::BouncyCastle::Math::EC::ECPointMap::Map)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (Org::BouncyCastle::Math::EC::ECPointMap::*)(::Org::BouncyCastle::Math::EC::ECPoint*)>(&Org::BouncyCastle::Math::EC::ECPointMap::Map)> {
   static const MethodInfo* get() {
     static auto* p = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECPoint")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::ECPointMap*), "Map", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{p});

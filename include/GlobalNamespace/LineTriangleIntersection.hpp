@@ -25,8 +25,8 @@ namespace GlobalNamespace {
   class LineTriangleIntersection;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::LineTriangleIntersection);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LineTriangleIntersection*, "", "LineTriangleIntersection");
+NEED_NO_BOX(::GlobalNamespace::LineTriangleIntersection);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LineTriangleIntersection*, "", "LineTriangleIntersection");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -37,14 +37,14 @@ namespace GlobalNamespace {
     public:
     // static public System.Boolean Intersects(UnityEngine.Ray ray, UnityEngine.Vector3 p0, UnityEngine.Vector3 p1, UnityEngine.Vector3 p2)
     // Offset: 0x2C2443C
-    static bool Intersects(UnityEngine::Ray ray, UnityEngine::Vector3 p0, UnityEngine::Vector3 p1, UnityEngine::Vector3 p2);
+    static bool Intersects(::UnityEngine::Ray ray, ::UnityEngine::Vector3 p0, ::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2);
     // public System.Void .ctor()
     // Offset: 0x2C24444
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LineTriangleIntersection* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LineTriangleIntersection::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LineTriangleIntersection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LineTriangleIntersection*, creationType>()));
     }
   }; // LineTriangleIntersection
@@ -54,7 +54,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::LineTriangleIntersection::Intersects
 // Il2CppName: Intersects
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Ray, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3)>(&GlobalNamespace::LineTriangleIntersection::Intersects)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Ray, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&GlobalNamespace::LineTriangleIntersection::Intersects)> {
   static const MethodInfo* get() {
     static auto* ray = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->byval_arg;
     static auto* p0 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;

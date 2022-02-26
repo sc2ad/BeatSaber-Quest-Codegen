@@ -25,8 +25,8 @@ namespace System::Net {
   class ICertificatePolicy;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::ICertificatePolicy);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::ICertificatePolicy*, "System.Net", "ICertificatePolicy");
+NEED_NO_BOX(::System::Net::ICertificatePolicy);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::ICertificatePolicy*, "System.Net", "ICertificatePolicy");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x10
@@ -37,7 +37,7 @@ namespace System::Net {
     public:
     // public System.Boolean CheckValidationResult(System.Net.ServicePoint srvPoint, System.Security.Cryptography.X509Certificates.X509Certificate certificate, System.Net.WebRequest request, System.Int32 certificateProblem)
     // Offset: 0xFFFFFFFF
-    bool CheckValidationResult(System::Net::ServicePoint* srvPoint, System::Security::Cryptography::X509Certificates::X509Certificate* certificate, System::Net::WebRequest* request, int certificateProblem);
+    bool CheckValidationResult(::System::Net::ServicePoint* srvPoint, ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate, ::System::Net::WebRequest* request, int certificateProblem);
   }; // System.Net.ICertificatePolicy
   #pragma pack(pop)
 }
@@ -45,7 +45,7 @@ namespace System::Net {
 // Writing MetadataGetter for method: System::Net::ICertificatePolicy::CheckValidationResult
 // Il2CppName: CheckValidationResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::ICertificatePolicy::*)(System::Net::ServicePoint*, System::Security::Cryptography::X509Certificates::X509Certificate*, System::Net::WebRequest*, int)>(&System::Net::ICertificatePolicy::CheckValidationResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::ICertificatePolicy::*)(::System::Net::ServicePoint*, ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::System::Net::WebRequest*, int)>(&System::Net::ICertificatePolicy::CheckValidationResult)> {
   static const MethodInfo* get() {
     static auto* srvPoint = &::il2cpp_utils::GetClassFromName("System.Net", "ServicePoint")->byval_arg;
     static auto* certificate = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509Certificate")->byval_arg;

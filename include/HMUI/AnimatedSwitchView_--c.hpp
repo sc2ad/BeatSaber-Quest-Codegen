@@ -20,8 +20,8 @@ namespace UnityEngine {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HMUI::AnimatedSwitchView::$$c);
-DEFINE_IL2CPP_ARG_TYPE(HMUI::AnimatedSwitchView::$$c*, "HMUI", "AnimatedSwitchView/<>c");
+NEED_NO_BOX(::HMUI::AnimatedSwitchView::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::HMUI::AnimatedSwitchView::$$c*, "HMUI", "AnimatedSwitchView/<>c");
 // Type namespace: HMUI
 namespace HMUI {
   // Size: 0x10
@@ -32,61 +32,61 @@ namespace HMUI {
   class AnimatedSwitchView::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly HMUI.AnimatedSwitchView/HMUI.<>c <>9
-    static HMUI::AnimatedSwitchView::$$c* _get_$$9();
+    static ::HMUI::AnimatedSwitchView::$$c* _get_$$9();
     // Set static field: static public readonly HMUI.AnimatedSwitchView/HMUI.<>c <>9
-    static void _set_$$9(HMUI::AnimatedSwitchView::$$c* value);
+    static void _set_$$9(::HMUI::AnimatedSwitchView::$$c* value);
     // Get static field: static public HMUI.AnimatedSwitchView/HMUI.GetColorDelegate <>9__31_0
-    static HMUI::AnimatedSwitchView::GetColorDelegate* _get_$$9__31_0();
+    static ::HMUI::AnimatedSwitchView::GetColorDelegate* _get_$$9__31_0();
     // Set static field: static public HMUI.AnimatedSwitchView/HMUI.GetColorDelegate <>9__31_0
-    static void _set_$$9__31_0(HMUI::AnimatedSwitchView::GetColorDelegate* value);
+    static void _set_$$9__31_0(::HMUI::AnimatedSwitchView::GetColorDelegate* value);
     // Get static field: static public HMUI.AnimatedSwitchView/HMUI.GetColorDelegate <>9__31_1
-    static HMUI::AnimatedSwitchView::GetColorDelegate* _get_$$9__31_1();
+    static ::HMUI::AnimatedSwitchView::GetColorDelegate* _get_$$9__31_1();
     // Set static field: static public HMUI.AnimatedSwitchView/HMUI.GetColorDelegate <>9__31_1
-    static void _set_$$9__31_1(HMUI::AnimatedSwitchView::GetColorDelegate* value);
+    static void _set_$$9__31_1(::HMUI::AnimatedSwitchView::GetColorDelegate* value);
     // Get static field: static public HMUI.AnimatedSwitchView/HMUI.GetColorDelegate <>9__31_2
-    static HMUI::AnimatedSwitchView::GetColorDelegate* _get_$$9__31_2();
+    static ::HMUI::AnimatedSwitchView::GetColorDelegate* _get_$$9__31_2();
     // Set static field: static public HMUI.AnimatedSwitchView/HMUI.GetColorDelegate <>9__31_2
-    static void _set_$$9__31_2(HMUI::AnimatedSwitchView::GetColorDelegate* value);
+    static void _set_$$9__31_2(::HMUI::AnimatedSwitchView::GetColorDelegate* value);
     // Get static field: static public HMUI.AnimatedSwitchView/HMUI.GetColorDelegate <>9__31_3
-    static HMUI::AnimatedSwitchView::GetColorDelegate* _get_$$9__31_3();
+    static ::HMUI::AnimatedSwitchView::GetColorDelegate* _get_$$9__31_3();
     // Set static field: static public HMUI.AnimatedSwitchView/HMUI.GetColorDelegate <>9__31_3
-    static void _set_$$9__31_3(HMUI::AnimatedSwitchView::GetColorDelegate* value);
+    static void _set_$$9__31_3(::HMUI::AnimatedSwitchView::GetColorDelegate* value);
     // Get static field: static public HMUI.AnimatedSwitchView/HMUI.GetColorDelegate <>9__31_4
-    static HMUI::AnimatedSwitchView::GetColorDelegate* _get_$$9__31_4();
+    static ::HMUI::AnimatedSwitchView::GetColorDelegate* _get_$$9__31_4();
     // Set static field: static public HMUI.AnimatedSwitchView/HMUI.GetColorDelegate <>9__31_4
-    static void _set_$$9__31_4(HMUI::AnimatedSwitchView::GetColorDelegate* value);
+    static void _set_$$9__31_4(::HMUI::AnimatedSwitchView::GetColorDelegate* value);
     // Get static field: static public HMUI.AnimatedSwitchView/HMUI.GetColorDelegate <>9__31_5
-    static HMUI::AnimatedSwitchView::GetColorDelegate* _get_$$9__31_5();
+    static ::HMUI::AnimatedSwitchView::GetColorDelegate* _get_$$9__31_5();
     // Set static field: static public HMUI.AnimatedSwitchView/HMUI.GetColorDelegate <>9__31_5
-    static void _set_$$9__31_5(HMUI::AnimatedSwitchView::GetColorDelegate* value);
+    static void _set_$$9__31_5(::HMUI::AnimatedSwitchView::GetColorDelegate* value);
     // static private System.Void .cctor()
     // Offset: 0x1667EDC
     static void _cctor();
     // UnityEngine.Color <LerpColors>b__31_0(HMUI.AnimatedSwitchView/HMUI.ColorBlock colorBlock)
     // Offset: 0x1667F48
-    UnityEngine::Color $LerpColors$b__31_0(HMUI::AnimatedSwitchView::ColorBlock* colorBlock);
+    ::UnityEngine::Color $LerpColors$b__31_0(::HMUI::AnimatedSwitchView::ColorBlock* colorBlock);
     // UnityEngine.Color <LerpColors>b__31_1(HMUI.AnimatedSwitchView/HMUI.ColorBlock colorBlock)
     // Offset: 0x1667F64
-    UnityEngine::Color $LerpColors$b__31_1(HMUI::AnimatedSwitchView::ColorBlock* colorBlock);
+    ::UnityEngine::Color $LerpColors$b__31_1(::HMUI::AnimatedSwitchView::ColorBlock* colorBlock);
     // UnityEngine.Color <LerpColors>b__31_2(HMUI.AnimatedSwitchView/HMUI.ColorBlock colorBlock)
     // Offset: 0x1667F80
-    UnityEngine::Color $LerpColors$b__31_2(HMUI::AnimatedSwitchView::ColorBlock* colorBlock);
+    ::UnityEngine::Color $LerpColors$b__31_2(::HMUI::AnimatedSwitchView::ColorBlock* colorBlock);
     // UnityEngine.Color <LerpColors>b__31_3(HMUI.AnimatedSwitchView/HMUI.ColorBlock colorBlock)
     // Offset: 0x1667F9C
-    UnityEngine::Color $LerpColors$b__31_3(HMUI::AnimatedSwitchView::ColorBlock* colorBlock);
+    ::UnityEngine::Color $LerpColors$b__31_3(::HMUI::AnimatedSwitchView::ColorBlock* colorBlock);
     // UnityEngine.Color <LerpColors>b__31_4(HMUI.AnimatedSwitchView/HMUI.ColorBlock colorBlock)
     // Offset: 0x1667FB8
-    UnityEngine::Color $LerpColors$b__31_4(HMUI::AnimatedSwitchView::ColorBlock* colorBlock);
+    ::UnityEngine::Color $LerpColors$b__31_4(::HMUI::AnimatedSwitchView::ColorBlock* colorBlock);
     // UnityEngine.Color <LerpColors>b__31_5(HMUI.AnimatedSwitchView/HMUI.ColorBlock colorBlock)
     // Offset: 0x1667FD4
-    UnityEngine::Color $LerpColors$b__31_5(HMUI::AnimatedSwitchView::ColorBlock* colorBlock);
+    ::UnityEngine::Color $LerpColors$b__31_5(::HMUI::AnimatedSwitchView::ColorBlock* colorBlock);
     // public System.Void .ctor()
     // Offset: 0x1667F40
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnimatedSwitchView::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::AnimatedSwitchView::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::AnimatedSwitchView::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnimatedSwitchView::$$c*, creationType>()));
     }
   }; // HMUI.AnimatedSwitchView/HMUI.<>c
@@ -104,7 +104,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: HMUI::AnimatedSwitchView::$$c::$LerpColors$b__31_0
 // Il2CppName: <LerpColors>b__31_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (HMUI::AnimatedSwitchView::$$c::*)(HMUI::AnimatedSwitchView::ColorBlock*)>(&HMUI::AnimatedSwitchView::$$c::$LerpColors$b__31_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (HMUI::AnimatedSwitchView::$$c::*)(::HMUI::AnimatedSwitchView::ColorBlock*)>(&HMUI::AnimatedSwitchView::$$c::$LerpColors$b__31_0)> {
   static const MethodInfo* get() {
     static auto* colorBlock = &::il2cpp_utils::GetClassFromName("HMUI", "AnimatedSwitchView/ColorBlock")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::AnimatedSwitchView::$$c*), "<LerpColors>b__31_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colorBlock});
@@ -113,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HMUI::AnimatedSwitchView::$$c::$LerpColors$b__31_1
 // Il2CppName: <LerpColors>b__31_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (HMUI::AnimatedSwitchView::$$c::*)(HMUI::AnimatedSwitchView::ColorBlock*)>(&HMUI::AnimatedSwitchView::$$c::$LerpColors$b__31_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (HMUI::AnimatedSwitchView::$$c::*)(::HMUI::AnimatedSwitchView::ColorBlock*)>(&HMUI::AnimatedSwitchView::$$c::$LerpColors$b__31_1)> {
   static const MethodInfo* get() {
     static auto* colorBlock = &::il2cpp_utils::GetClassFromName("HMUI", "AnimatedSwitchView/ColorBlock")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::AnimatedSwitchView::$$c*), "<LerpColors>b__31_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colorBlock});
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HMUI::AnimatedSwitchView::$$c::$LerpColors$b__31_2
 // Il2CppName: <LerpColors>b__31_2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (HMUI::AnimatedSwitchView::$$c::*)(HMUI::AnimatedSwitchView::ColorBlock*)>(&HMUI::AnimatedSwitchView::$$c::$LerpColors$b__31_2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (HMUI::AnimatedSwitchView::$$c::*)(::HMUI::AnimatedSwitchView::ColorBlock*)>(&HMUI::AnimatedSwitchView::$$c::$LerpColors$b__31_2)> {
   static const MethodInfo* get() {
     static auto* colorBlock = &::il2cpp_utils::GetClassFromName("HMUI", "AnimatedSwitchView/ColorBlock")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::AnimatedSwitchView::$$c*), "<LerpColors>b__31_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colorBlock});
@@ -131,7 +131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HMUI::AnimatedSwitchView::$$c::$LerpColors$b__31_3
 // Il2CppName: <LerpColors>b__31_3
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (HMUI::AnimatedSwitchView::$$c::*)(HMUI::AnimatedSwitchView::ColorBlock*)>(&HMUI::AnimatedSwitchView::$$c::$LerpColors$b__31_3)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (HMUI::AnimatedSwitchView::$$c::*)(::HMUI::AnimatedSwitchView::ColorBlock*)>(&HMUI::AnimatedSwitchView::$$c::$LerpColors$b__31_3)> {
   static const MethodInfo* get() {
     static auto* colorBlock = &::il2cpp_utils::GetClassFromName("HMUI", "AnimatedSwitchView/ColorBlock")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::AnimatedSwitchView::$$c*), "<LerpColors>b__31_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colorBlock});
@@ -140,7 +140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HMUI::AnimatedSwitchView::$$c::$LerpColors$b__31_4
 // Il2CppName: <LerpColors>b__31_4
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (HMUI::AnimatedSwitchView::$$c::*)(HMUI::AnimatedSwitchView::ColorBlock*)>(&HMUI::AnimatedSwitchView::$$c::$LerpColors$b__31_4)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (HMUI::AnimatedSwitchView::$$c::*)(::HMUI::AnimatedSwitchView::ColorBlock*)>(&HMUI::AnimatedSwitchView::$$c::$LerpColors$b__31_4)> {
   static const MethodInfo* get() {
     static auto* colorBlock = &::il2cpp_utils::GetClassFromName("HMUI", "AnimatedSwitchView/ColorBlock")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::AnimatedSwitchView::$$c*), "<LerpColors>b__31_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colorBlock});
@@ -149,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HMUI::AnimatedSwitchView::$$c::$LerpColors$b__31_5
 // Il2CppName: <LerpColors>b__31_5
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (HMUI::AnimatedSwitchView::$$c::*)(HMUI::AnimatedSwitchView::ColorBlock*)>(&HMUI::AnimatedSwitchView::$$c::$LerpColors$b__31_5)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (HMUI::AnimatedSwitchView::$$c::*)(::HMUI::AnimatedSwitchView::ColorBlock*)>(&HMUI::AnimatedSwitchView::$$c::$LerpColors$b__31_5)> {
   static const MethodInfo* get() {
     static auto* colorBlock = &::il2cpp_utils::GetClassFromName("HMUI", "AnimatedSwitchView/ColorBlock")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::AnimatedSwitchView::$$c*), "<LerpColors>b__31_5", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colorBlock});

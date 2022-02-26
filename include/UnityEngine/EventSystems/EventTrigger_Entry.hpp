@@ -15,8 +15,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::EventSystems::EventTrigger::Entry);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::EventTrigger::Entry*, "UnityEngine.EventSystems", "EventTrigger/Entry");
+NEED_NO_BOX(::UnityEngine::EventSystems::EventTrigger::Entry);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::EventSystems::EventTrigger::Entry*, "UnityEngine.EventSystems", "EventTrigger/Entry");
 // Type namespace: UnityEngine.EventSystems
 namespace UnityEngine::EventSystems {
   // Size: 0x20
@@ -37,34 +37,34 @@ namespace UnityEngine::EventSystems {
     // public UnityEngine.EventSystems.EventTriggerType eventID
     // Size: 0x4
     // Offset: 0x10
-    UnityEngine::EventSystems::EventTriggerType eventID;
+    ::UnityEngine::EventSystems::EventTriggerType eventID;
     // Field size check
-    static_assert(sizeof(UnityEngine::EventSystems::EventTriggerType) == 0x4);
+    static_assert(sizeof(::UnityEngine::EventSystems::EventTriggerType) == 0x4);
     // Padding between fields: eventID and: callback
     char __padding0[0x4] = {};
     // public UnityEngine.EventSystems.EventTrigger/UnityEngine.EventSystems.TriggerEvent callback
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::EventSystems::EventTrigger::TriggerEvent* callback;
+    ::UnityEngine::EventSystems::EventTrigger::TriggerEvent* callback;
     // Field size check
-    static_assert(sizeof(UnityEngine::EventSystems::EventTrigger::TriggerEvent*) == 0x8);
+    static_assert(sizeof(::UnityEngine::EventSystems::EventTrigger::TriggerEvent*) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.EventSystems.EventTriggerType eventID
-    UnityEngine::EventSystems::EventTriggerType& dyn_eventID();
+    ::UnityEngine::EventSystems::EventTriggerType& dyn_eventID();
     // Get instance field reference: public UnityEngine.EventSystems.EventTrigger/UnityEngine.EventSystems.TriggerEvent callback
-    UnityEngine::EventSystems::EventTrigger::TriggerEvent*& dyn_callback();
+    ::UnityEngine::EventSystems::EventTrigger::TriggerEvent*& dyn_callback();
     // public System.Void .ctor()
     // Offset: 0x1868F40
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventTrigger::Entry* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::EventSystems::EventTrigger::Entry::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::EventSystems::EventTrigger::Entry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventTrigger::Entry*, creationType>()));
     }
   }; // UnityEngine.EventSystems.EventTrigger/UnityEngine.EventSystems.Entry
   #pragma pack(pop)
-  static check_size<sizeof(EventTrigger::Entry), 24 + sizeof(UnityEngine::EventSystems::EventTrigger::TriggerEvent*)> __UnityEngine_EventSystems_EventTrigger_EntrySizeCheck;
+  static check_size<sizeof(EventTrigger::Entry), 24 + sizeof(::UnityEngine::EventSystems::EventTrigger::TriggerEvent*)> __UnityEngine_EventSystems_EventTrigger_EntrySizeCheck;
   static_assert(sizeof(EventTrigger::Entry) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

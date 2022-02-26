@@ -27,8 +27,8 @@ namespace Oculus::Platform::Models {
   class MatchmakingEnqueueResultAndRoom;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::MatchmakingEnqueueResultAndRoom);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::MatchmakingEnqueueResultAndRoom*, "Oculus.Platform.Models", "MatchmakingEnqueueResultAndRoom");
+NEED_NO_BOX(::Oculus::Platform::Models::MatchmakingEnqueueResultAndRoom);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::MatchmakingEnqueueResultAndRoom*, "Oculus.Platform.Models", "MatchmakingEnqueueResultAndRoom");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x20
@@ -49,30 +49,30 @@ namespace Oculus::Platform::Models {
     // public readonly Oculus.Platform.Models.MatchmakingEnqueueResult MatchmakingEnqueueResult
     // Size: 0x8
     // Offset: 0x10
-    Oculus::Platform::Models::MatchmakingEnqueueResult* MatchmakingEnqueueResult;
+    ::Oculus::Platform::Models::MatchmakingEnqueueResult* MatchmakingEnqueueResult;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::Models::MatchmakingEnqueueResult*) == 0x8);
+    static_assert(sizeof(::Oculus::Platform::Models::MatchmakingEnqueueResult*) == 0x8);
     // public readonly Oculus.Platform.Models.Room Room
     // Size: 0x8
     // Offset: 0x18
-    Oculus::Platform::Models::Room* Room;
+    ::Oculus::Platform::Models::Room* Room;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::Models::Room*) == 0x8);
+    static_assert(sizeof(::Oculus::Platform::Models::Room*) == 0x8);
     public:
     // Get instance field reference: public readonly Oculus.Platform.Models.MatchmakingEnqueueResult MatchmakingEnqueueResult
-    Oculus::Platform::Models::MatchmakingEnqueueResult*& dyn_MatchmakingEnqueueResult();
+    ::Oculus::Platform::Models::MatchmakingEnqueueResult*& dyn_MatchmakingEnqueueResult();
     // Get instance field reference: public readonly Oculus.Platform.Models.Room Room
-    Oculus::Platform::Models::Room*& dyn_Room();
+    ::Oculus::Platform::Models::Room*& dyn_Room();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x1968960
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MatchmakingEnqueueResultAndRoom* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::MatchmakingEnqueueResultAndRoom::.ctor");
+    static MatchmakingEnqueueResultAndRoom* New_ctor(::System::IntPtr o) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::MatchmakingEnqueueResultAndRoom::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MatchmakingEnqueueResultAndRoom*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.MatchmakingEnqueueResultAndRoom
   #pragma pack(pop)
-  static check_size<sizeof(MatchmakingEnqueueResultAndRoom), 24 + sizeof(Oculus::Platform::Models::Room*)> __Oculus_Platform_Models_MatchmakingEnqueueResultAndRoomSizeCheck;
+  static check_size<sizeof(MatchmakingEnqueueResultAndRoom), 24 + sizeof(::Oculus::Platform::Models::Room*)> __Oculus_Platform_Models_MatchmakingEnqueueResultAndRoomSizeCheck;
   static_assert(sizeof(MatchmakingEnqueueResultAndRoom) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -57,8 +57,8 @@ namespace UnityEngine {
   class TextGenerator;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::TextGenerator);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextGenerator*, "UnityEngine", "TextGenerator");
+NEED_NO_BOX(::UnityEngine::TextGenerator);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextGenerator*, "UnityEngine", "TextGenerator");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0xA3
@@ -68,7 +68,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NativeHeaderAttribute] Offset: 11BD718
   // [UsedByNativeCodeAttribute] Offset: 11BD718
-  class TextGenerator : public ::Il2CppObject/*, public System::IDisposable*/ {
+  class TextGenerator : public ::Il2CppObject/*, public ::System::IDisposable*/ {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -82,9 +82,9 @@ namespace UnityEngine {
     // System.IntPtr m_Ptr
     // Size: 0x8
     // Offset: 0x10
-    System::IntPtr m_Ptr;
+    ::System::IntPtr m_Ptr;
     // Field size check
-    static_assert(sizeof(System::IntPtr) == 0x8);
+    static_assert(sizeof(::System::IntPtr) == 0x8);
     // private System.String m_LastString
     // Size: 0x8
     // Offset: 0x18
@@ -94,9 +94,9 @@ namespace UnityEngine {
     // private UnityEngine.TextGenerationSettings m_LastSettings
     // Size: 0x59
     // Offset: 0x20
-    UnityEngine::TextGenerationSettings m_LastSettings;
+    ::UnityEngine::TextGenerationSettings m_LastSettings;
     // Field size check
-    static_assert(sizeof(UnityEngine::TextGenerationSettings) == 0x59);
+    static_assert(sizeof(::UnityEngine::TextGenerationSettings) == 0x59);
     // Padding between fields: m_LastSettings and: m_HasGenerated
     char __padding2[0x7] = {};
     // private System.Boolean m_HasGenerated
@@ -110,27 +110,27 @@ namespace UnityEngine {
     // private UnityEngine.TextGenerationError m_LastValid
     // Size: 0x4
     // Offset: 0x84
-    UnityEngine::TextGenerationError m_LastValid;
+    ::UnityEngine::TextGenerationError m_LastValid;
     // Field size check
-    static_assert(sizeof(UnityEngine::TextGenerationError) == 0x4);
+    static_assert(sizeof(::UnityEngine::TextGenerationError) == 0x4);
     // private readonly System.Collections.Generic.List`1<UnityEngine.UIVertex> m_Verts
     // Size: 0x8
     // Offset: 0x88
-    System::Collections::Generic::List_1<UnityEngine::UIVertex>* m_Verts;
+    ::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* m_Verts;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::UIVertex>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>*) == 0x8);
     // private readonly System.Collections.Generic.List`1<UnityEngine.UICharInfo> m_Characters
     // Size: 0x8
     // Offset: 0x90
-    System::Collections::Generic::List_1<UnityEngine::UICharInfo>* m_Characters;
+    ::System::Collections::Generic::List_1<::UnityEngine::UICharInfo>* m_Characters;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::UICharInfo>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::UnityEngine::UICharInfo>*) == 0x8);
     // private readonly System.Collections.Generic.List`1<UnityEngine.UILineInfo> m_Lines
     // Size: 0x8
     // Offset: 0x98
-    System::Collections::Generic::List_1<UnityEngine::UILineInfo>* m_Lines;
+    ::System::Collections::Generic::List_1<::UnityEngine::UILineInfo>* m_Lines;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::UILineInfo>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::UnityEngine::UILineInfo>*) == 0x8);
     // private System.Boolean m_CachedVerts
     // Size: 0x1
     // Offset: 0xA0
@@ -150,26 +150,26 @@ namespace UnityEngine {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     public:
-    // Creating interface conversion operator: operator System::IDisposable
-    operator System::IDisposable() noexcept {
-      return *reinterpret_cast<System::IDisposable*>(this);
+    // Creating interface conversion operator: operator ::System::IDisposable
+    operator ::System::IDisposable() noexcept {
+      return *reinterpret_cast<::System::IDisposable*>(this);
     }
     // Get instance field reference: System.IntPtr m_Ptr
-    System::IntPtr& dyn_m_Ptr();
+    ::System::IntPtr& dyn_m_Ptr();
     // Get instance field reference: private System.String m_LastString
     ::StringW& dyn_m_LastString();
     // Get instance field reference: private UnityEngine.TextGenerationSettings m_LastSettings
-    UnityEngine::TextGenerationSettings& dyn_m_LastSettings();
+    ::UnityEngine::TextGenerationSettings& dyn_m_LastSettings();
     // Get instance field reference: private System.Boolean m_HasGenerated
     bool& dyn_m_HasGenerated();
     // Get instance field reference: private UnityEngine.TextGenerationError m_LastValid
-    UnityEngine::TextGenerationError& dyn_m_LastValid();
+    ::UnityEngine::TextGenerationError& dyn_m_LastValid();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<UnityEngine.UIVertex> m_Verts
-    System::Collections::Generic::List_1<UnityEngine::UIVertex>*& dyn_m_Verts();
+    ::System::Collections::Generic::List_1<::UnityEngine::UIVertex>*& dyn_m_Verts();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<UnityEngine.UICharInfo> m_Characters
-    System::Collections::Generic::List_1<UnityEngine::UICharInfo>*& dyn_m_Characters();
+    ::System::Collections::Generic::List_1<::UnityEngine::UICharInfo>*& dyn_m_Characters();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<UnityEngine.UILineInfo> m_Lines
-    System::Collections::Generic::List_1<UnityEngine::UILineInfo>*& dyn_m_Lines();
+    ::System::Collections::Generic::List_1<::UnityEngine::UILineInfo>*& dyn_m_Lines();
     // Get instance field reference: private System.Boolean m_CachedVerts
     bool& dyn_m_CachedVerts();
     // Get instance field reference: private System.Boolean m_CachedCharacters
@@ -181,16 +181,16 @@ namespace UnityEngine {
     int get_characterCountVisible();
     // public System.Collections.Generic.IList`1<UnityEngine.UIVertex> get_verts()
     // Offset: 0x2A524F4
-    System::Collections::Generic::IList_1<UnityEngine::UIVertex>* get_verts();
+    ::System::Collections::Generic::IList_1<::UnityEngine::UIVertex>* get_verts();
     // public System.Collections.Generic.IList`1<UnityEngine.UICharInfo> get_characters()
     // Offset: 0x2A5255C
-    System::Collections::Generic::IList_1<UnityEngine::UICharInfo>* get_characters();
+    ::System::Collections::Generic::IList_1<::UnityEngine::UICharInfo>* get_characters();
     // public System.Collections.Generic.IList`1<UnityEngine.UILineInfo> get_lines()
     // Offset: 0x2A525C4
-    System::Collections::Generic::IList_1<UnityEngine::UILineInfo>* get_lines();
+    ::System::Collections::Generic::IList_1<::UnityEngine::UILineInfo>* get_lines();
     // public UnityEngine.Rect get_rectExtents()
     // Offset: 0x2A51EF8
-    UnityEngine::Rect get_rectExtents();
+    ::UnityEngine::Rect get_rectExtents();
     // public System.Int32 get_characterCount()
     // Offset: 0x2A5193C
     int get_characterCount();
@@ -201,7 +201,7 @@ namespace UnityEngine {
     // Offset: 0x2A515FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TextGenerator* New_ctor(int initialCapacity) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TextGenerator::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TextGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TextGenerator*, creationType>(initialCapacity)));
     }
     // private System.Void System.IDisposable.Dispose()
@@ -209,49 +209,49 @@ namespace UnityEngine {
     void System_IDisposable_Dispose();
     // private UnityEngine.TextGenerationSettings ValidatedSettings(UnityEngine.TextGenerationSettings settings)
     // Offset: 0x2A5197C
-    UnityEngine::TextGenerationSettings ValidatedSettings(UnityEngine::TextGenerationSettings settings);
+    ::UnityEngine::TextGenerationSettings ValidatedSettings(::UnityEngine::TextGenerationSettings settings);
     // public System.Void Invalidate()
     // Offset: 0x2A51C44
     void Invalidate();
     // public System.Void GetCharacters(System.Collections.Generic.List`1<UnityEngine.UICharInfo> characters)
     // Offset: 0x2A51C4C
-    void GetCharacters(System::Collections::Generic::List_1<UnityEngine::UICharInfo>* characters);
+    void GetCharacters(::System::Collections::Generic::List_1<::UnityEngine::UICharInfo>* characters);
     // public System.Void GetLines(System.Collections.Generic.List`1<UnityEngine.UILineInfo> lines)
     // Offset: 0x2A51CEC
-    void GetLines(System::Collections::Generic::List_1<UnityEngine::UILineInfo>* lines);
+    void GetLines(::System::Collections::Generic::List_1<::UnityEngine::UILineInfo>* lines);
     // public System.Void GetVertices(System.Collections.Generic.List`1<UnityEngine.UIVertex> vertices)
     // Offset: 0x2A51D8C
-    void GetVertices(System::Collections::Generic::List_1<UnityEngine::UIVertex>* vertices);
+    void GetVertices(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* vertices);
     // public System.Single GetPreferredWidth(System.String str, UnityEngine.TextGenerationSettings settings)
     // Offset: 0x2A51E2C
-    float GetPreferredWidth(::StringW str, UnityEngine::TextGenerationSettings settings);
+    float GetPreferredWidth(::StringW str, ::UnityEngine::TextGenerationSettings settings);
     // public System.Single GetPreferredHeight(System.String str, UnityEngine.TextGenerationSettings settings)
     // Offset: 0x2A51F54
-    float GetPreferredHeight(::StringW str, UnityEngine::TextGenerationSettings settings);
+    float GetPreferredHeight(::StringW str, ::UnityEngine::TextGenerationSettings settings);
     // public System.Boolean PopulateWithErrors(System.String str, UnityEngine.TextGenerationSettings settings, UnityEngine.GameObject context)
     // Offset: 0x2A51FC8
-    bool PopulateWithErrors(::StringW str, UnityEngine::TextGenerationSettings settings, UnityEngine::GameObject* context);
+    bool PopulateWithErrors(::StringW str, ::UnityEngine::TextGenerationSettings settings, ::UnityEngine::GameObject* context);
     // public System.Boolean Populate(System.String str, UnityEngine.TextGenerationSettings settings)
     // Offset: 0x2A51EA4
-    bool Populate(::StringW str, UnityEngine::TextGenerationSettings settings);
+    bool Populate(::StringW str, ::UnityEngine::TextGenerationSettings settings);
     // private UnityEngine.TextGenerationError PopulateWithError(System.String str, UnityEngine.TextGenerationSettings settings)
     // Offset: 0x2A52184
-    UnityEngine::TextGenerationError PopulateWithError(::StringW str, UnityEngine::TextGenerationSettings settings);
+    ::UnityEngine::TextGenerationError PopulateWithError(::StringW str, ::UnityEngine::TextGenerationSettings settings);
     // private UnityEngine.TextGenerationError PopulateAlways(System.String str, UnityEngine.TextGenerationSettings settings)
     // Offset: 0x2A52220
-    UnityEngine::TextGenerationError PopulateAlways(::StringW str, UnityEngine::TextGenerationSettings settings);
+    ::UnityEngine::TextGenerationError PopulateAlways(::StringW str, ::UnityEngine::TextGenerationSettings settings);
     // static private System.IntPtr Internal_Create()
     // Offset: 0x2A51704
-    static System::IntPtr Internal_Create();
+    static ::System::IntPtr Internal_Create();
     // static private System.Void Internal_Destroy(System.IntPtr ptr)
     // Offset: 0x2A518B4
-    static void Internal_Destroy(System::IntPtr ptr);
+    static void Internal_Destroy(::System::IntPtr ptr);
     // System.Boolean Populate_Internal(System.String str, UnityEngine.Font font, UnityEngine.Color color, System.Int32 fontSize, System.Single scaleFactor, System.Single lineSpacing, UnityEngine.FontStyle style, System.Boolean richText, System.Boolean resizeTextForBestFit, System.Int32 resizeTextMinSize, System.Int32 resizeTextMaxSize, System.Int32 verticalOverFlow, System.Int32 horizontalOverflow, System.Boolean updateBounds, UnityEngine.TextAnchor anchor, System.Single extentsX, System.Single extentsY, System.Single pivotX, System.Single pivotY, System.Boolean generateOutOfBounds, System.Boolean alignByGeometry, out System.UInt32 error)
     // Offset: 0x2A526BC
-    bool Populate_Internal(::StringW str, UnityEngine::Font* font, UnityEngine::Color color, int fontSize, float scaleFactor, float lineSpacing, UnityEngine::FontStyle style, bool richText, bool resizeTextForBestFit, int resizeTextMinSize, int resizeTextMaxSize, int verticalOverFlow, int horizontalOverflow, bool updateBounds, UnityEngine::TextAnchor anchor, float extentsX, float extentsY, float pivotX, float pivotY, bool generateOutOfBounds, bool alignByGeometry, ByRef<uint> error);
+    bool Populate_Internal(::StringW str, ::UnityEngine::Font* font, ::UnityEngine::Color color, int fontSize, float scaleFactor, float lineSpacing, ::UnityEngine::FontStyle style, bool richText, bool resizeTextForBestFit, int resizeTextMinSize, int resizeTextMaxSize, int verticalOverFlow, int horizontalOverflow, bool updateBounds, ::UnityEngine::TextAnchor anchor, float extentsX, float extentsY, float pivotX, float pivotY, bool generateOutOfBounds, bool alignByGeometry, ByRef<uint> error);
     // System.Boolean Populate_Internal(System.String str, UnityEngine.Font font, UnityEngine.Color color, System.Int32 fontSize, System.Single scaleFactor, System.Single lineSpacing, UnityEngine.FontStyle style, System.Boolean richText, System.Boolean resizeTextForBestFit, System.Int32 resizeTextMinSize, System.Int32 resizeTextMaxSize, UnityEngine.VerticalWrapMode verticalOverFlow, UnityEngine.HorizontalWrapMode horizontalOverflow, System.Boolean updateBounds, UnityEngine.TextAnchor anchor, UnityEngine.Vector2 extents, UnityEngine.Vector2 pivot, System.Boolean generateOutOfBounds, System.Boolean alignByGeometry, out UnityEngine.TextGenerationError error)
     // Offset: 0x2A5233C
-    bool Populate_Internal(::StringW str, UnityEngine::Font* font, UnityEngine::Color color, int fontSize, float scaleFactor, float lineSpacing, UnityEngine::FontStyle style, bool richText, bool resizeTextForBestFit, int resizeTextMinSize, int resizeTextMaxSize, UnityEngine::VerticalWrapMode verticalOverFlow, UnityEngine::HorizontalWrapMode horizontalOverflow, bool updateBounds, UnityEngine::TextAnchor anchor, UnityEngine::Vector2 extents, UnityEngine::Vector2 pivot, bool generateOutOfBounds, bool alignByGeometry, ByRef<UnityEngine::TextGenerationError> error);
+    bool Populate_Internal(::StringW str, ::UnityEngine::Font* font, ::UnityEngine::Color color, int fontSize, float scaleFactor, float lineSpacing, ::UnityEngine::FontStyle style, bool richText, bool resizeTextForBestFit, int resizeTextMinSize, int resizeTextMaxSize, ::UnityEngine::VerticalWrapMode verticalOverFlow, ::UnityEngine::HorizontalWrapMode horizontalOverflow, bool updateBounds, ::UnityEngine::TextAnchor anchor, ::UnityEngine::Vector2 extents, ::UnityEngine::Vector2 pivot, bool generateOutOfBounds, bool alignByGeometry, ByRef<::UnityEngine::TextGenerationError> error);
     // private System.Void GetVerticesInternal(System.Object vertices)
     // Offset: 0x2A51DDC
     void GetVerticesInternal(::Il2CppObject* vertices);
@@ -263,17 +263,17 @@ namespace UnityEngine {
     void GetLinesInternal(::Il2CppObject* lines);
     // private System.Void get_rectExtents_Injected(out UnityEngine.Rect ret)
     // Offset: 0x2A5262C
-    void get_rectExtents_Injected(ByRef<UnityEngine::Rect> ret);
+    void get_rectExtents_Injected(ByRef<::UnityEngine::Rect> ret);
     // private System.Boolean Populate_Internal_Injected(System.String str, UnityEngine.Font font, ref UnityEngine.Color color, System.Int32 fontSize, System.Single scaleFactor, System.Single lineSpacing, UnityEngine.FontStyle style, System.Boolean richText, System.Boolean resizeTextForBestFit, System.Int32 resizeTextMinSize, System.Int32 resizeTextMaxSize, System.Int32 verticalOverFlow, System.Int32 horizontalOverflow, System.Boolean updateBounds, UnityEngine.TextAnchor anchor, System.Single extentsX, System.Single extentsY, System.Single pivotX, System.Single pivotY, System.Boolean generateOutOfBounds, System.Boolean alignByGeometry, out System.UInt32 error)
     // Offset: 0x2A5280C
-    bool Populate_Internal_Injected(::StringW str, UnityEngine::Font* font, ByRef<UnityEngine::Color> color, int fontSize, float scaleFactor, float lineSpacing, UnityEngine::FontStyle style, bool richText, bool resizeTextForBestFit, int resizeTextMinSize, int resizeTextMaxSize, int verticalOverFlow, int horizontalOverflow, bool updateBounds, UnityEngine::TextAnchor anchor, float extentsX, float extentsY, float pivotX, float pivotY, bool generateOutOfBounds, bool alignByGeometry, ByRef<uint> error);
+    bool Populate_Internal_Injected(::StringW str, ::UnityEngine::Font* font, ByRef<::UnityEngine::Color> color, int fontSize, float scaleFactor, float lineSpacing, ::UnityEngine::FontStyle style, bool richText, bool resizeTextForBestFit, int resizeTextMinSize, int resizeTextMaxSize, int verticalOverFlow, int horizontalOverflow, bool updateBounds, ::UnityEngine::TextAnchor anchor, float extentsX, float extentsY, float pivotX, float pivotY, bool generateOutOfBounds, bool alignByGeometry, ByRef<uint> error);
     // public System.Void .ctor()
     // Offset: 0x2A515F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TextGenerator* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TextGenerator::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TextGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TextGenerator*, creationType>()));
     }
     // protected override System.Void Finalize()
@@ -298,7 +298,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::TextGenerator::get_verts
 // Il2CppName: get_verts
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<UnityEngine::UIVertex>* (UnityEngine::TextGenerator::*)()>(&UnityEngine::TextGenerator::get_verts)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IList_1<::UnityEngine::UIVertex>* (UnityEngine::TextGenerator::*)()>(&UnityEngine::TextGenerator::get_verts)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextGenerator*), "get_verts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -306,7 +306,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::TextGenerator::get_characters
 // Il2CppName: get_characters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<UnityEngine::UICharInfo>* (UnityEngine::TextGenerator::*)()>(&UnityEngine::TextGenerator::get_characters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IList_1<::UnityEngine::UICharInfo>* (UnityEngine::TextGenerator::*)()>(&UnityEngine::TextGenerator::get_characters)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextGenerator*), "get_characters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -314,7 +314,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::TextGenerator::get_lines
 // Il2CppName: get_lines
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<UnityEngine::UILineInfo>* (UnityEngine::TextGenerator::*)()>(&UnityEngine::TextGenerator::get_lines)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IList_1<::UnityEngine::UILineInfo>* (UnityEngine::TextGenerator::*)()>(&UnityEngine::TextGenerator::get_lines)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextGenerator*), "get_lines", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -322,7 +322,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::TextGenerator::get_rectExtents
 // Il2CppName: get_rectExtents
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (UnityEngine::TextGenerator::*)()>(&UnityEngine::TextGenerator::get_rectExtents)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rect (UnityEngine::TextGenerator::*)()>(&UnityEngine::TextGenerator::get_rectExtents)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextGenerator*), "get_rectExtents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -358,7 +358,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TextGenerator::ValidatedSettings
 // Il2CppName: ValidatedSettings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextGenerationSettings (UnityEngine::TextGenerator::*)(UnityEngine::TextGenerationSettings)>(&UnityEngine::TextGenerator::ValidatedSettings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextGenerationSettings (UnityEngine::TextGenerator::*)(::UnityEngine::TextGenerationSettings)>(&UnityEngine::TextGenerator::ValidatedSettings)> {
   static const MethodInfo* get() {
     static auto* settings = &::il2cpp_utils::GetClassFromName("UnityEngine", "TextGenerationSettings")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextGenerator*), "ValidatedSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{settings});
@@ -375,7 +375,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TextGenerator::GetCharacters
 // Il2CppName: GetCharacters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextGenerator::*)(System::Collections::Generic::List_1<UnityEngine::UICharInfo>*)>(&UnityEngine::TextGenerator::GetCharacters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextGenerator::*)(::System::Collections::Generic::List_1<::UnityEngine::UICharInfo>*)>(&UnityEngine::TextGenerator::GetCharacters)> {
   static const MethodInfo* get() {
     static auto* characters = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "UICharInfo")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextGenerator*), "GetCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{characters});
@@ -384,7 +384,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TextGenerator::GetLines
 // Il2CppName: GetLines
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextGenerator::*)(System::Collections::Generic::List_1<UnityEngine::UILineInfo>*)>(&UnityEngine::TextGenerator::GetLines)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextGenerator::*)(::System::Collections::Generic::List_1<::UnityEngine::UILineInfo>*)>(&UnityEngine::TextGenerator::GetLines)> {
   static const MethodInfo* get() {
     static auto* lines = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "UILineInfo")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextGenerator*), "GetLines", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lines});
@@ -393,7 +393,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TextGenerator::GetVertices
 // Il2CppName: GetVertices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextGenerator::*)(System::Collections::Generic::List_1<UnityEngine::UIVertex>*)>(&UnityEngine::TextGenerator::GetVertices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextGenerator::*)(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>*)>(&UnityEngine::TextGenerator::GetVertices)> {
   static const MethodInfo* get() {
     static auto* vertices = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "UIVertex")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextGenerator*), "GetVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{vertices});
@@ -402,7 +402,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TextGenerator::GetPreferredWidth
 // Il2CppName: GetPreferredWidth
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::TextGenerator::*)(::StringW, UnityEngine::TextGenerationSettings)>(&UnityEngine::TextGenerator::GetPreferredWidth)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::TextGenerator::*)(::StringW, ::UnityEngine::TextGenerationSettings)>(&UnityEngine::TextGenerator::GetPreferredWidth)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* settings = &::il2cpp_utils::GetClassFromName("UnityEngine", "TextGenerationSettings")->byval_arg;
@@ -412,7 +412,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Writing MetadataGetter for method: UnityEngine::TextGenerator::GetPreferredHeight
 // Il2CppName: GetPreferredHeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::TextGenerator::*)(::StringW, UnityEngine::TextGenerationSettings)>(&UnityEngine::TextGenerator::GetPreferredHeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::TextGenerator::*)(::StringW, ::UnityEngine::TextGenerationSettings)>(&UnityEngine::TextGenerator::GetPreferredHeight)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* settings = &::il2cpp_utils::GetClassFromName("UnityEngine", "TextGenerationSettings")->byval_arg;
@@ -422,7 +422,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Writing MetadataGetter for method: UnityEngine::TextGenerator::PopulateWithErrors
 // Il2CppName: PopulateWithErrors
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TextGenerator::*)(::StringW, UnityEngine::TextGenerationSettings, UnityEngine::GameObject*)>(&UnityEngine::TextGenerator::PopulateWithErrors)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TextGenerator::*)(::StringW, ::UnityEngine::TextGenerationSettings, ::UnityEngine::GameObject*)>(&UnityEngine::TextGenerator::PopulateWithErrors)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* settings = &::il2cpp_utils::GetClassFromName("UnityEngine", "TextGenerationSettings")->byval_arg;
@@ -433,7 +433,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::TextGenerator::Populate
 // Il2CppName: Populate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TextGenerator::*)(::StringW, UnityEngine::TextGenerationSettings)>(&UnityEngine::TextGenerator::Populate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TextGenerator::*)(::StringW, ::UnityEngine::TextGenerationSettings)>(&UnityEngine::TextGenerator::Populate)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* settings = &::il2cpp_utils::GetClassFromName("UnityEngine", "TextGenerationSettings")->byval_arg;
@@ -443,7 +443,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::TextGenerator::PopulateWithError
 // Il2CppName: PopulateWithError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextGenerationError (UnityEngine::TextGenerator::*)(::StringW, UnityEngine::TextGenerationSettings)>(&UnityEngine::TextGenerator::PopulateWithError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextGenerationError (UnityEngine::TextGenerator::*)(::StringW, ::UnityEngine::TextGenerationSettings)>(&UnityEngine::TextGenerator::PopulateWithError)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* settings = &::il2cpp_utils::GetClassFromName("UnityEngine", "TextGenerationSettings")->byval_arg;
@@ -453,7 +453,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::TextGenerator::PopulateAlways
 // Il2CppName: PopulateAlways
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextGenerationError (UnityEngine::TextGenerator::*)(::StringW, UnityEngine::TextGenerationSettings)>(&UnityEngine::TextGenerator::PopulateAlways)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextGenerationError (UnityEngine::TextGenerator::*)(::StringW, ::UnityEngine::TextGenerationSettings)>(&UnityEngine::TextGenerator::PopulateAlways)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* settings = &::il2cpp_utils::GetClassFromName("UnityEngine", "TextGenerationSettings")->byval_arg;
@@ -463,7 +463,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::TextGenerator::Internal_Create
 // Il2CppName: Internal_Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&UnityEngine::TextGenerator::Internal_Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&UnityEngine::TextGenerator::Internal_Create)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextGenerator*), "Internal_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -471,7 +471,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::TextGenerator::Internal_Destroy
 // Il2CppName: Internal_Destroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&UnityEngine::TextGenerator::Internal_Destroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&UnityEngine::TextGenerator::Internal_Destroy)> {
   static const MethodInfo* get() {
     static auto* ptr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextGenerator*), "Internal_Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ptr});
@@ -480,7 +480,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::TextGenerator::Populate_Internal
 // Il2CppName: Populate_Internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TextGenerator::*)(::StringW, UnityEngine::Font*, UnityEngine::Color, int, float, float, UnityEngine::FontStyle, bool, bool, int, int, int, int, bool, UnityEngine::TextAnchor, float, float, float, float, bool, bool, ByRef<uint>)>(&UnityEngine::TextGenerator::Populate_Internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TextGenerator::*)(::StringW, ::UnityEngine::Font*, ::UnityEngine::Color, int, float, float, ::UnityEngine::FontStyle, bool, bool, int, int, int, int, bool, ::UnityEngine::TextAnchor, float, float, float, float, bool, bool, ByRef<uint>)>(&UnityEngine::TextGenerator::Populate_Internal)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* font = &::il2cpp_utils::GetClassFromName("UnityEngine", "Font")->byval_arg;
@@ -510,7 +510,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::TextGenerator::Populate_Internal
 // Il2CppName: Populate_Internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TextGenerator::*)(::StringW, UnityEngine::Font*, UnityEngine::Color, int, float, float, UnityEngine::FontStyle, bool, bool, int, int, UnityEngine::VerticalWrapMode, UnityEngine::HorizontalWrapMode, bool, UnityEngine::TextAnchor, UnityEngine::Vector2, UnityEngine::Vector2, bool, bool, ByRef<UnityEngine::TextGenerationError>)>(&UnityEngine::TextGenerator::Populate_Internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TextGenerator::*)(::StringW, ::UnityEngine::Font*, ::UnityEngine::Color, int, float, float, ::UnityEngine::FontStyle, bool, bool, int, int, ::UnityEngine::VerticalWrapMode, ::UnityEngine::HorizontalWrapMode, bool, ::UnityEngine::TextAnchor, ::UnityEngine::Vector2, ::UnityEngine::Vector2, bool, bool, ByRef<::UnityEngine::TextGenerationError>)>(&UnityEngine::TextGenerator::Populate_Internal)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* font = &::il2cpp_utils::GetClassFromName("UnityEngine", "Font")->byval_arg;
@@ -565,7 +565,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TextGenerator::get_rectExtents_Injected
 // Il2CppName: get_rectExtents_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextGenerator::*)(ByRef<UnityEngine::Rect>)>(&UnityEngine::TextGenerator::get_rectExtents_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextGenerator::*)(ByRef<::UnityEngine::Rect>)>(&UnityEngine::TextGenerator::get_rectExtents_Injected)> {
   static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextGenerator*), "get_rectExtents_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
@@ -574,7 +574,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TextGenerator::Populate_Internal_Injected
 // Il2CppName: Populate_Internal_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TextGenerator::*)(::StringW, UnityEngine::Font*, ByRef<UnityEngine::Color>, int, float, float, UnityEngine::FontStyle, bool, bool, int, int, int, int, bool, UnityEngine::TextAnchor, float, float, float, float, bool, bool, ByRef<uint>)>(&UnityEngine::TextGenerator::Populate_Internal_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TextGenerator::*)(::StringW, ::UnityEngine::Font*, ByRef<::UnityEngine::Color>, int, float, float, ::UnityEngine::FontStyle, bool, bool, int, int, int, int, bool, ::UnityEngine::TextAnchor, float, float, float, float, bool, bool, ByRef<uint>)>(&UnityEngine::TextGenerator::Populate_Internal_Injected)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* font = &::il2cpp_utils::GetClassFromName("UnityEngine", "Font")->byval_arg;

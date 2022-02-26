@@ -40,8 +40,8 @@ namespace UnityEngine {
   class Object;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Object);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Object*, "UnityEngine", "Object");
+NEED_NO_BOX(::UnityEngine::Object);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Object*, "UnityEngine", "Object");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -67,12 +67,12 @@ namespace UnityEngine {
     // private System.IntPtr m_CachedPtr
     // Size: 0x8
     // Offset: 0x10
-    System::IntPtr m_CachedPtr;
+    ::System::IntPtr m_CachedPtr;
     // Field size check
-    static_assert(sizeof(System::IntPtr) == 0x8);
+    static_assert(sizeof(::System::IntPtr) == 0x8);
     public:
-    // Creating conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const noexcept {
+    // Creating conversion operator: operator ::System::IntPtr
+    constexpr operator ::System::IntPtr() const noexcept {
       return m_CachedPtr;
     }
     // Get static field: static System.Int32 OffsetOfInstanceIDInCPlusPlusObject
@@ -92,7 +92,7 @@ namespace UnityEngine {
     // Set static field: static private System.String cloneDestroyedMessage
     static void _set_cloneDestroyedMessage(::StringW value);
     // Get instance field reference: private System.IntPtr m_CachedPtr
-    System::IntPtr& dyn_m_CachedPtr();
+    ::System::IntPtr& dyn_m_CachedPtr();
     // public System.String get_name()
     // Offset: 0x203703C
     ::StringW get_name();
@@ -101,10 +101,10 @@ namespace UnityEngine {
     void set_name(::StringW value);
     // public UnityEngine.HideFlags get_hideFlags()
     // Offset: 0x203D508
-    UnityEngine::HideFlags get_hideFlags();
+    ::UnityEngine::HideFlags get_hideFlags();
     // public System.Void set_hideFlags(UnityEngine.HideFlags value)
     // Offset: 0x203A97C
-    void set_hideFlags(UnityEngine::HideFlags value);
+    void set_hideFlags(::UnityEngine::HideFlags value);
     // static private System.Void .cctor()
     // Offset: 0x203D830
     static void _cctor();
@@ -113,31 +113,31 @@ namespace UnityEngine {
     int GetInstanceID();
     // static private System.Boolean CompareBaseObjects(UnityEngine.Object lhs, UnityEngine.Object rhs)
     // Offset: 0x203C808
-    static bool CompareBaseObjects(UnityEngine::Object* lhs, UnityEngine::Object* rhs);
+    static bool CompareBaseObjects(::UnityEngine::Object* lhs, ::UnityEngine::Object* rhs);
     // static private System.Boolean IsNativeObjectAlive(UnityEngine.Object o)
     // Offset: 0x203C944
-    static bool IsNativeObjectAlive(UnityEngine::Object* o);
+    static bool IsNativeObjectAlive(::UnityEngine::Object* o);
     // private System.IntPtr GetCachedPtr()
     // Offset: 0x203C998
-    System::IntPtr GetCachedPtr();
+    ::System::IntPtr GetCachedPtr();
     // static public UnityEngine.Object Instantiate(UnityEngine.Object original, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
     // Offset: 0x203CAC4
-    static UnityEngine::Object* Instantiate(UnityEngine::Object* original, UnityEngine::Vector3 position, UnityEngine::Quaternion rotation);
+    static ::UnityEngine::Object* Instantiate(::UnityEngine::Object* original, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
     // static public UnityEngine.Object Instantiate(UnityEngine.Object original, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Transform parent)
     // Offset: 0x203CD90
-    static UnityEngine::Object* Instantiate(UnityEngine::Object* original, UnityEngine::Vector3 position, UnityEngine::Quaternion rotation, UnityEngine::Transform* parent);
+    static ::UnityEngine::Object* Instantiate(::UnityEngine::Object* original, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Transform* parent);
     // static public UnityEngine.Object Instantiate(UnityEngine.Object original)
     // Offset: 0x203CFFC
-    static UnityEngine::Object* Instantiate(UnityEngine::Object* original);
+    static ::UnityEngine::Object* Instantiate(::UnityEngine::Object* original);
     // static public UnityEngine.Object Instantiate(UnityEngine.Object original, UnityEngine.Transform parent, System.Boolean instantiateInWorldSpace)
     // Offset: 0x203D128
-    static UnityEngine::Object* Instantiate(UnityEngine::Object* original, UnityEngine::Transform* parent, bool instantiateInWorldSpace);
+    static ::UnityEngine::Object* Instantiate(::UnityEngine::Object* original, ::UnityEngine::Transform* parent, bool instantiateInWorldSpace);
     // static public T Instantiate(T original)
     // Offset: 0xFFFFFFFF
     template<class T>
     static T Instantiate(T original) {
-      static_assert(std::is_convertible_v<T, UnityEngine::Object*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Object::Instantiate");
+      static_assert(std::is_convertible_v<T, ::UnityEngine::Object*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Object::Instantiate");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine", "Object", "Instantiate", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(original)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, original);
@@ -145,9 +145,9 @@ namespace UnityEngine {
     // static public T Instantiate(T original, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static T Instantiate(T original, UnityEngine::Vector3 position, UnityEngine::Quaternion rotation) {
-      static_assert(std::is_convertible_v<T, UnityEngine::Object*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Object::Instantiate");
+    static T Instantiate(T original, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation) {
+      static_assert(std::is_convertible_v<T, ::UnityEngine::Object*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Object::Instantiate");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine", "Object", "Instantiate", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(original), ::il2cpp_utils::ExtractType(position), ::il2cpp_utils::ExtractType(rotation)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, original, position, rotation);
@@ -155,9 +155,9 @@ namespace UnityEngine {
     // static public T Instantiate(T original, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Transform parent)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static T Instantiate(T original, UnityEngine::Vector3 position, UnityEngine::Quaternion rotation, UnityEngine::Transform* parent) {
-      static_assert(std::is_convertible_v<T, UnityEngine::Object*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Object::Instantiate");
+    static T Instantiate(T original, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Transform* parent) {
+      static_assert(std::is_convertible_v<T, ::UnityEngine::Object*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Object::Instantiate");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine", "Object", "Instantiate", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(original), ::il2cpp_utils::ExtractType(position), ::il2cpp_utils::ExtractType(rotation), ::il2cpp_utils::ExtractType(parent)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, original, position, rotation, parent);
@@ -165,9 +165,9 @@ namespace UnityEngine {
     // static public T Instantiate(T original, UnityEngine.Transform parent)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static T Instantiate(T original, UnityEngine::Transform* parent) {
-      static_assert(std::is_convertible_v<T, UnityEngine::Object*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Object::Instantiate");
+    static T Instantiate(T original, ::UnityEngine::Transform* parent) {
+      static_assert(std::is_convertible_v<T, ::UnityEngine::Object*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Object::Instantiate");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine", "Object", "Instantiate", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(original), ::il2cpp_utils::ExtractType(parent)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, original, parent);
@@ -175,37 +175,37 @@ namespace UnityEngine {
     // static public T Instantiate(T original, UnityEngine.Transform parent, System.Boolean worldPositionStays)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static T Instantiate(T original, UnityEngine::Transform* parent, bool worldPositionStays) {
-      static_assert(std::is_convertible_v<T, UnityEngine::Object*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Object::Instantiate");
+    static T Instantiate(T original, ::UnityEngine::Transform* parent, bool worldPositionStays) {
+      static_assert(std::is_convertible_v<T, ::UnityEngine::Object*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Object::Instantiate");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine", "Object", "Instantiate", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(original), ::il2cpp_utils::ExtractType(parent), ::il2cpp_utils::ExtractType(worldPositionStays)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, original, parent, worldPositionStays);
     }
     // static public System.Void Destroy(UnityEngine.Object obj, System.Single t)
     // Offset: 0x203D2D8
-    static void Destroy(UnityEngine::Object* obj, float t);
+    static void Destroy(::UnityEngine::Object* obj, float t);
     // static public System.Void Destroy(UnityEngine.Object obj)
     // Offset: 0x203D328
-    static void Destroy(UnityEngine::Object* obj);
+    static void Destroy(::UnityEngine::Object* obj);
     // static public System.Void DestroyImmediate(UnityEngine.Object obj, System.Boolean allowDestroyingAssets)
     // Offset: 0x203D3B0
-    static void DestroyImmediate(UnityEngine::Object* obj, bool allowDestroyingAssets);
+    static void DestroyImmediate(::UnityEngine::Object* obj, bool allowDestroyingAssets);
     // static public System.Void DestroyImmediate(UnityEngine.Object obj)
     // Offset: 0x203D400
-    static void DestroyImmediate(UnityEngine::Object* obj);
+    static void DestroyImmediate(::UnityEngine::Object* obj);
     // static public UnityEngine.Object[] FindObjectsOfType(System.Type type)
     // Offset: 0x203D488
-    static ::ArrayW<UnityEngine::Object*> FindObjectsOfType(System::Type* type);
+    static ::ArrayW<::UnityEngine::Object*> FindObjectsOfType(::System::Type* type);
     // static public System.Void DontDestroyOnLoad(UnityEngine.Object target)
     // Offset: 0x203D4C8
-    static void DontDestroyOnLoad(UnityEngine::Object* target);
+    static void DontDestroyOnLoad(::UnityEngine::Object* target);
     // static public T[] FindObjectsOfType()
     // Offset: 0xFFFFFFFF
     template<class T>
     static ::ArrayW<T> FindObjectsOfType() {
-      static_assert(std::is_convertible_v<T, UnityEngine::Object*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Object::FindObjectsOfType");
+      static_assert(std::is_convertible_v<T, ::UnityEngine::Object*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Object::FindObjectsOfType");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine", "Object", "FindObjectsOfType", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<T>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
@@ -214,8 +214,8 @@ namespace UnityEngine {
     // Offset: 0xFFFFFFFF
     template<class T>
     static T FindObjectOfType() {
-      static_assert(std::is_convertible_v<T, UnityEngine::Object*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Object::FindObjectOfType");
+      static_assert(std::is_convertible_v<T, ::UnityEngine::Object*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Object::FindObjectOfType");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine", "Object", "FindObjectOfType", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
@@ -225,47 +225,47 @@ namespace UnityEngine {
     static void CheckNullArgument(::Il2CppObject* arg, ::StringW message);
     // static public UnityEngine.Object FindObjectOfType(System.Type type)
     // Offset: 0x203D548
-    static UnityEngine::Object* FindObjectOfType(System::Type* type);
+    static ::UnityEngine::Object* FindObjectOfType(::System::Type* type);
     // static private System.Int32 GetOffsetOfInstanceIDInCPlusPlusObject()
     // Offset: 0x203C6B8
     static int GetOffsetOfInstanceIDInCPlusPlusObject();
     // static private UnityEngine.Object Internal_CloneSingle(UnityEngine.Object data)
     // Offset: 0x203D0E8
-    static UnityEngine::Object* Internal_CloneSingle(UnityEngine::Object* data);
+    static ::UnityEngine::Object* Internal_CloneSingle(::UnityEngine::Object* data);
     // static private UnityEngine.Object Internal_CloneSingleWithParent(UnityEngine.Object data, UnityEngine.Transform parent, System.Boolean worldPositionStays)
     // Offset: 0x203D280
-    static UnityEngine::Object* Internal_CloneSingleWithParent(UnityEngine::Object* data, UnityEngine::Transform* parent, bool worldPositionStays);
+    static ::UnityEngine::Object* Internal_CloneSingleWithParent(::UnityEngine::Object* data, ::UnityEngine::Transform* parent, bool worldPositionStays);
     // static private UnityEngine.Object Internal_InstantiateSingle(UnityEngine.Object data, UnityEngine.Vector3 pos, UnityEngine.Quaternion rot)
     // Offset: 0x203CCE8
-    static UnityEngine::Object* Internal_InstantiateSingle(UnityEngine::Object* data, UnityEngine::Vector3 pos, UnityEngine::Quaternion rot);
+    static ::UnityEngine::Object* Internal_InstantiateSingle(::UnityEngine::Object* data, ::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot);
     // static private UnityEngine.Object Internal_InstantiateSingleWithParent(UnityEngine.Object data, UnityEngine.Transform parent, UnityEngine.Vector3 pos, UnityEngine.Quaternion rot)
     // Offset: 0x203CF44
-    static UnityEngine::Object* Internal_InstantiateSingleWithParent(UnityEngine::Object* data, UnityEngine::Transform* parent, UnityEngine::Vector3 pos, UnityEngine::Quaternion rot);
+    static ::UnityEngine::Object* Internal_InstantiateSingleWithParent(::UnityEngine::Object* data, ::UnityEngine::Transform* parent, ::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot);
     // static private System.String ToString(UnityEngine.Object obj)
     // Offset: 0x203D670
-    static ::StringW ToString(UnityEngine::Object* obj);
+    static ::StringW ToString(::UnityEngine::Object* obj);
     // static private System.String GetName(UnityEngine.Object obj)
     // Offset: 0x203C9A0
-    static ::StringW GetName(UnityEngine::Object* obj);
+    static ::StringW GetName(::UnityEngine::Object* obj);
     // static private System.Void SetName(UnityEngine.Object obj, System.String name)
     // Offset: 0x203CA74
-    static void SetName(UnityEngine::Object* obj, ::StringW name);
+    static void SetName(::UnityEngine::Object* obj, ::StringW name);
     // static UnityEngine.Object FindObjectFromInstanceID(System.Int32 instanceID)
     // Offset: 0x203D7F0
-    static UnityEngine::Object* FindObjectFromInstanceID(int instanceID);
+    static ::UnityEngine::Object* FindObjectFromInstanceID(int instanceID);
     // static private UnityEngine.Object Internal_InstantiateSingle_Injected(UnityEngine.Object data, ref UnityEngine.Vector3 pos, ref UnityEngine.Quaternion rot)
     // Offset: 0x203D730
-    static UnityEngine::Object* Internal_InstantiateSingle_Injected(UnityEngine::Object* data, ByRef<UnityEngine::Vector3> pos, ByRef<UnityEngine::Quaternion> rot);
+    static ::UnityEngine::Object* Internal_InstantiateSingle_Injected(::UnityEngine::Object* data, ByRef<::UnityEngine::Vector3> pos, ByRef<::UnityEngine::Quaternion> rot);
     // static private UnityEngine.Object Internal_InstantiateSingleWithParent_Injected(UnityEngine.Object data, UnityEngine.Transform parent, ref UnityEngine.Vector3 pos, ref UnityEngine.Quaternion rot)
     // Offset: 0x203D788
-    static UnityEngine::Object* Internal_InstantiateSingleWithParent_Injected(UnityEngine::Object* data, UnityEngine::Transform* parent, ByRef<UnityEngine::Vector3> pos, ByRef<UnityEngine::Quaternion> rot);
+    static ::UnityEngine::Object* Internal_InstantiateSingleWithParent_Injected(::UnityEngine::Object* data, ::UnityEngine::Transform* parent, ByRef<::UnityEngine::Vector3> pos, ByRef<::UnityEngine::Quaternion> rot);
     // public System.Void .ctor()
     // Offset: 0x202AF30
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Object* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Object::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Object::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Object*, creationType>()));
     }
     // public override System.Int32 GetHashCode()
@@ -285,14 +285,14 @@ namespace UnityEngine {
     ::StringW ToString();
   }; // UnityEngine.Object
   #pragma pack(pop)
-  static check_size<sizeof(Object), 16 + sizeof(System::IntPtr)> __UnityEngine_ObjectSizeCheck;
+  static check_size<sizeof(Object), 16 + sizeof(::System::IntPtr)> __UnityEngine_ObjectSizeCheck;
   static_assert(sizeof(Object) == 0x18);
   // static public System.Boolean op_Equality(UnityEngine.Object x, UnityEngine.Object y)
   // Offset: 0x203A730
-  bool operator ==(UnityEngine::Object* x, UnityEngine::Object& y);
+  bool operator ==(::UnityEngine::Object* x, ::UnityEngine::Object& y);
   // static public System.Boolean op_Inequality(UnityEngine.Object x, UnityEngine.Object y)
   // Offset: 0x203D6B0
-  bool operator !=(UnityEngine::Object* x, UnityEngine::Object& y);
+  bool operator !=(::UnityEngine::Object* x, ::UnityEngine::Object& y);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Object::get_name
@@ -315,7 +315,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Object::get_hideFlags
 // Il2CppName: get_hideFlags
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::HideFlags (UnityEngine::Object::*)()>(&UnityEngine::Object::get_hideFlags)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::HideFlags (UnityEngine::Object::*)()>(&UnityEngine::Object::get_hideFlags)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "get_hideFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -323,7 +323,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Object::set_hideFlags
 // Il2CppName: set_hideFlags
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Object::*)(UnityEngine::HideFlags)>(&UnityEngine::Object::set_hideFlags)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Object::*)(::UnityEngine::HideFlags)>(&UnityEngine::Object::set_hideFlags)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "HideFlags")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "set_hideFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -348,7 +348,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::Object::CompareBaseObjects
 // Il2CppName: CompareBaseObjects
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Object*, UnityEngine::Object*)>(&UnityEngine::Object::CompareBaseObjects)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Object*, ::UnityEngine::Object*)>(&UnityEngine::Object::CompareBaseObjects)> {
   static const MethodInfo* get() {
     static auto* lhs = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* rhs = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
@@ -358,7 +358,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Object::IsNativeObjectAlive
 // Il2CppName: IsNativeObjectAlive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Object*)>(&UnityEngine::Object::IsNativeObjectAlive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Object*)>(&UnityEngine::Object::IsNativeObjectAlive)> {
   static const MethodInfo* get() {
     static auto* o = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "IsNativeObjectAlive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{o});
@@ -367,7 +367,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Object::GetCachedPtr
 // Il2CppName: GetCachedPtr
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (UnityEngine::Object::*)()>(&UnityEngine::Object::GetCachedPtr)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (UnityEngine::Object::*)()>(&UnityEngine::Object::GetCachedPtr)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "GetCachedPtr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -375,7 +375,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::Object::Instantiate
 // Il2CppName: Instantiate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (*)(UnityEngine::Object*, UnityEngine::Vector3, UnityEngine::Quaternion)>(&UnityEngine::Object::Instantiate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Object* (*)(::UnityEngine::Object*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(&UnityEngine::Object::Instantiate)> {
   static const MethodInfo* get() {
     static auto* original = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -386,7 +386,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Object::Instantiate
 // Il2CppName: Instantiate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (*)(UnityEngine::Object*, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Transform*)>(&UnityEngine::Object::Instantiate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Object* (*)(::UnityEngine::Object*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Transform*)>(&UnityEngine::Object::Instantiate)> {
   static const MethodInfo* get() {
     static auto* original = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -398,7 +398,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Object::Instantiate
 // Il2CppName: Instantiate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (*)(UnityEngine::Object*)>(&UnityEngine::Object::Instantiate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Object* (*)(::UnityEngine::Object*)>(&UnityEngine::Object::Instantiate)> {
   static const MethodInfo* get() {
     static auto* original = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "Instantiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{original});
@@ -407,7 +407,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Object::Instantiate
 // Il2CppName: Instantiate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (*)(UnityEngine::Object*, UnityEngine::Transform*, bool)>(&UnityEngine::Object::Instantiate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Object* (*)(::UnityEngine::Object*, ::UnityEngine::Transform*, bool)>(&UnityEngine::Object::Instantiate)> {
   static const MethodInfo* get() {
     static auto* original = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* parent = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
@@ -433,7 +433,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Object::Destroy
 // Il2CppName: Destroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*, float)>(&UnityEngine::Object::Destroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Object*, float)>(&UnityEngine::Object::Destroy)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -443,7 +443,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Object::Destroy
 // Il2CppName: Destroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*)>(&UnityEngine::Object::Destroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Object*)>(&UnityEngine::Object::Destroy)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -452,7 +452,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Object::DestroyImmediate
 // Il2CppName: DestroyImmediate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*, bool)>(&UnityEngine::Object::DestroyImmediate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Object*, bool)>(&UnityEngine::Object::DestroyImmediate)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* allowDestroyingAssets = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -462,7 +462,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Object::DestroyImmediate
 // Il2CppName: DestroyImmediate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*)>(&UnityEngine::Object::DestroyImmediate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Object*)>(&UnityEngine::Object::DestroyImmediate)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "DestroyImmediate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -471,7 +471,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Object::FindObjectsOfType
 // Il2CppName: FindObjectsOfType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Object*> (*)(System::Type*)>(&UnityEngine::Object::FindObjectsOfType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Object*> (*)(::System::Type*)>(&UnityEngine::Object::FindObjectsOfType)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "FindObjectsOfType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -480,7 +480,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: UnityEngine::Object::DontDestroyOnLoad
 // Il2CppName: DontDestroyOnLoad
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*)>(&UnityEngine::Object::DontDestroyOnLoad)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Object*)>(&UnityEngine::Object::DontDestroyOnLoad)> {
   static const MethodInfo* get() {
     static auto* target = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "DontDestroyOnLoad", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{target});
@@ -505,7 +505,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::Object::FindObjectOfType
 // Il2CppName: FindObjectOfType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (*)(System::Type*)>(&UnityEngine::Object::FindObjectOfType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Object* (*)(::System::Type*)>(&UnityEngine::Object::FindObjectOfType)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "FindObjectOfType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -522,7 +522,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(
 // Writing MetadataGetter for method: UnityEngine::Object::Internal_CloneSingle
 // Il2CppName: Internal_CloneSingle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (*)(UnityEngine::Object*)>(&UnityEngine::Object::Internal_CloneSingle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Object* (*)(::UnityEngine::Object*)>(&UnityEngine::Object::Internal_CloneSingle)> {
   static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "Internal_CloneSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});
@@ -531,7 +531,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Object::Internal_CloneSingleWithParent
 // Il2CppName: Internal_CloneSingleWithParent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (*)(UnityEngine::Object*, UnityEngine::Transform*, bool)>(&UnityEngine::Object::Internal_CloneSingleWithParent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Object* (*)(::UnityEngine::Object*, ::UnityEngine::Transform*, bool)>(&UnityEngine::Object::Internal_CloneSingleWithParent)> {
   static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* parent = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
@@ -542,7 +542,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Object::Internal_InstantiateSingle
 // Il2CppName: Internal_InstantiateSingle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (*)(UnityEngine::Object*, UnityEngine::Vector3, UnityEngine::Quaternion)>(&UnityEngine::Object::Internal_InstantiateSingle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Object* (*)(::UnityEngine::Object*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(&UnityEngine::Object::Internal_InstantiateSingle)> {
   static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* pos = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -553,7 +553,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Object::Internal_InstantiateSingleWithParent
 // Il2CppName: Internal_InstantiateSingleWithParent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (*)(UnityEngine::Object*, UnityEngine::Transform*, UnityEngine::Vector3, UnityEngine::Quaternion)>(&UnityEngine::Object::Internal_InstantiateSingleWithParent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Object* (*)(::UnityEngine::Object*, ::UnityEngine::Transform*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(&UnityEngine::Object::Internal_InstantiateSingleWithParent)> {
   static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* parent = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
@@ -565,7 +565,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Object::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(UnityEngine::Object*)>(&UnityEngine::Object::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::UnityEngine::Object*)>(&UnityEngine::Object::ToString)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -574,7 +574,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: UnityEngine::Object::GetName
 // Il2CppName: GetName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(UnityEngine::Object*)>(&UnityEngine::Object::GetName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::UnityEngine::Object*)>(&UnityEngine::Object::GetName)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "GetName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -583,7 +583,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: UnityEngine::Object::SetName
 // Il2CppName: SetName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*, ::StringW)>(&UnityEngine::Object::SetName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Object*, ::StringW)>(&UnityEngine::Object::SetName)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -593,7 +593,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Object::FindObjectFromInstanceID
 // Il2CppName: FindObjectFromInstanceID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (*)(int)>(&UnityEngine::Object::FindObjectFromInstanceID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Object* (*)(int)>(&UnityEngine::Object::FindObjectFromInstanceID)> {
   static const MethodInfo* get() {
     static auto* instanceID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "FindObjectFromInstanceID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{instanceID});
@@ -602,7 +602,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Object::Internal_InstantiateSingle_Injected
 // Il2CppName: Internal_InstantiateSingle_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (*)(UnityEngine::Object*, ByRef<UnityEngine::Vector3>, ByRef<UnityEngine::Quaternion>)>(&UnityEngine::Object::Internal_InstantiateSingle_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Object* (*)(::UnityEngine::Object*, ByRef<::UnityEngine::Vector3>, ByRef<::UnityEngine::Quaternion>)>(&UnityEngine::Object::Internal_InstantiateSingle_Injected)> {
   static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* pos = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
@@ -613,7 +613,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Object::Internal_InstantiateSingleWithParent_Injected
 // Il2CppName: Internal_InstantiateSingleWithParent_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (*)(UnityEngine::Object*, UnityEngine::Transform*, ByRef<UnityEngine::Vector3>, ByRef<UnityEngine::Quaternion>)>(&UnityEngine::Object::Internal_InstantiateSingleWithParent_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Object* (*)(::UnityEngine::Object*, ::UnityEngine::Transform*, ByRef<::UnityEngine::Vector3>, ByRef<::UnityEngine::Quaternion>)>(&UnityEngine::Object::Internal_InstantiateSingleWithParent_Injected)> {
   static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* parent = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;

@@ -28,8 +28,8 @@ namespace GlobalNamespace {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::GameServerPlayerTableCell::$$c__DisplayClass29_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServerPlayerTableCell::$$c__DisplayClass29_0*, "", "GameServerPlayerTableCell/<>c__DisplayClass29_0");
+NEED_NO_BOX(::GlobalNamespace::GameServerPlayerTableCell::$$c__DisplayClass29_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameServerPlayerTableCell::$$c__DisplayClass29_0*, "", "GameServerPlayerTableCell/<>c__DisplayClass29_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -51,38 +51,38 @@ namespace GlobalNamespace {
     // public System.Collections.Generic.List`1<GameplayModifierParamsSO> modifiersList
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* modifiersList;
+    ::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>* modifiersList;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>*) == 0x8);
     public:
-    // Creating conversion operator: operator System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>*
-    constexpr operator System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>*() const noexcept {
+    // Creating conversion operator: operator ::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>*
+    constexpr operator ::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>*() const noexcept {
       return modifiersList;
     }
     // Get instance field reference: public System.Collections.Generic.List`1<GameplayModifierParamsSO> modifiersList
-    System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>*& dyn_modifiersList();
+    ::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>*& dyn_modifiersList();
     // System.Void <SetData>b__0(System.Int32 id, GameplayModifierInfoListItem listItem)
     // Offset: 0x2AD5448
-    void $SetData$b__0(int id, GlobalNamespace::GameplayModifierInfoListItem* listItem);
+    void $SetData$b__0(int id, ::GlobalNamespace::GameplayModifierInfoListItem* listItem);
     // public System.Void .ctor()
     // Offset: 0x2AD50C4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameServerPlayerTableCell::$$c__DisplayClass29_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GameServerPlayerTableCell::$$c__DisplayClass29_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameServerPlayerTableCell::$$c__DisplayClass29_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameServerPlayerTableCell::$$c__DisplayClass29_0*, creationType>()));
     }
   }; // GameServerPlayerTableCell/<>c__DisplayClass29_0
   #pragma pack(pop)
-  static check_size<sizeof(GameServerPlayerTableCell::$$c__DisplayClass29_0), 16 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>*)> __GlobalNamespace_GameServerPlayerTableCell_$$c__DisplayClass29_0SizeCheck;
+  static check_size<sizeof(GameServerPlayerTableCell::$$c__DisplayClass29_0), 16 + sizeof(::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>*)> __GlobalNamespace_GameServerPlayerTableCell_$$c__DisplayClass29_0SizeCheck;
   static_assert(sizeof(GameServerPlayerTableCell::$$c__DisplayClass29_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameServerPlayerTableCell::$$c__DisplayClass29_0::$SetData$b__0
 // Il2CppName: <SetData>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameServerPlayerTableCell::$$c__DisplayClass29_0::*)(int, GlobalNamespace::GameplayModifierInfoListItem*)>(&GlobalNamespace::GameServerPlayerTableCell::$$c__DisplayClass29_0::$SetData$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameServerPlayerTableCell::$$c__DisplayClass29_0::*)(int, ::GlobalNamespace::GameplayModifierInfoListItem*)>(&GlobalNamespace::GameServerPlayerTableCell::$$c__DisplayClass29_0::$SetData$b__0)> {
   static const MethodInfo* get() {
     static auto* id = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* listItem = &::il2cpp_utils::GetClassFromName("", "GameplayModifierInfoListItem")->byval_arg;

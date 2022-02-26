@@ -25,8 +25,8 @@ namespace System::Threading::Tasks {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::CompilerServices::AsyncMethodBuilderCore::ContinuationWrapper);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncMethodBuilderCore::ContinuationWrapper*, "System.Runtime.CompilerServices", "AsyncMethodBuilderCore/ContinuationWrapper");
+NEED_NO_BOX(::System::Runtime::CompilerServices::AsyncMethodBuilderCore::ContinuationWrapper);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::CompilerServices::AsyncMethodBuilderCore::ContinuationWrapper*, "System.Runtime.CompilerServices", "AsyncMethodBuilderCore/ContinuationWrapper");
 // Type namespace: System.Runtime.CompilerServices
 namespace System::Runtime::CompilerServices {
   // Size: 0x28
@@ -47,33 +47,33 @@ namespace System::Runtime::CompilerServices {
     // readonly System.Action m_continuation
     // Size: 0x8
     // Offset: 0x10
-    System::Action* m_continuation;
+    ::System::Action* m_continuation;
     // Field size check
-    static_assert(sizeof(System::Action*) == 0x8);
+    static_assert(sizeof(::System::Action*) == 0x8);
     // private readonly System.Action m_invokeAction
     // Size: 0x8
     // Offset: 0x18
-    System::Action* m_invokeAction;
+    ::System::Action* m_invokeAction;
     // Field size check
-    static_assert(sizeof(System::Action*) == 0x8);
+    static_assert(sizeof(::System::Action*) == 0x8);
     // readonly System.Threading.Tasks.Task m_innerTask
     // Size: 0x8
     // Offset: 0x20
-    System::Threading::Tasks::Task* m_innerTask;
+    ::System::Threading::Tasks::Task* m_innerTask;
     // Field size check
-    static_assert(sizeof(System::Threading::Tasks::Task*) == 0x8);
+    static_assert(sizeof(::System::Threading::Tasks::Task*) == 0x8);
     public:
     // Get instance field reference: readonly System.Action m_continuation
-    System::Action*& dyn_m_continuation();
+    ::System::Action*& dyn_m_continuation();
     // Get instance field reference: private readonly System.Action m_invokeAction
-    System::Action*& dyn_m_invokeAction();
+    ::System::Action*& dyn_m_invokeAction();
     // Get instance field reference: readonly System.Threading.Tasks.Task m_innerTask
-    System::Threading::Tasks::Task*& dyn_m_innerTask();
+    ::System::Threading::Tasks::Task*& dyn_m_innerTask();
     // System.Void .ctor(System.Action continuation, System.Action invokeAction, System.Threading.Tasks.Task innerTask)
     // Offset: 0x1C6994C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AsyncMethodBuilderCore::ContinuationWrapper* New_ctor(System::Action* continuation, System::Action* invokeAction, System::Threading::Tasks::Task* innerTask) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::AsyncMethodBuilderCore::ContinuationWrapper::.ctor");
+    static AsyncMethodBuilderCore::ContinuationWrapper* New_ctor(::System::Action* continuation, ::System::Action* invokeAction, ::System::Threading::Tasks::Task* innerTask) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::AsyncMethodBuilderCore::ContinuationWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsyncMethodBuilderCore::ContinuationWrapper*, creationType>(continuation, invokeAction, innerTask)));
     }
     // System.Void Invoke()
@@ -81,7 +81,7 @@ namespace System::Runtime::CompilerServices {
     void Invoke();
   }; // System.Runtime.CompilerServices.AsyncMethodBuilderCore/System.Runtime.CompilerServices.ContinuationWrapper
   #pragma pack(pop)
-  static check_size<sizeof(AsyncMethodBuilderCore::ContinuationWrapper), 32 + sizeof(System::Threading::Tasks::Task*)> __System_Runtime_CompilerServices_AsyncMethodBuilderCore_ContinuationWrapperSizeCheck;
+  static check_size<sizeof(AsyncMethodBuilderCore::ContinuationWrapper), 32 + sizeof(::System::Threading::Tasks::Task*)> __System_Runtime_CompilerServices_AsyncMethodBuilderCore_ContinuationWrapperSizeCheck;
   static_assert(sizeof(AsyncMethodBuilderCore::ContinuationWrapper) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

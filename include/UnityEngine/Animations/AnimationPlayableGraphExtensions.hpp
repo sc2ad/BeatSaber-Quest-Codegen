@@ -22,8 +22,8 @@ namespace UnityEngine::Animations {
   class AnimationPlayableGraphExtensions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Animations::AnimationPlayableGraphExtensions);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationPlayableGraphExtensions*, "UnityEngine.Animations", "AnimationPlayableGraphExtensions");
+NEED_NO_BOX(::UnityEngine::Animations::AnimationPlayableGraphExtensions);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Animations::AnimationPlayableGraphExtensions*, "UnityEngine.Animations", "AnimationPlayableGraphExtensions");
 // Type namespace: UnityEngine.Animations
 namespace UnityEngine::Animations {
   // Size: 0x10
@@ -40,7 +40,7 @@ namespace UnityEngine::Animations {
     public:
     // static System.Boolean InternalCreateAnimationOutput(ref UnityEngine.Playables.PlayableGraph graph, System.String name, out UnityEngine.Playables.PlayableOutputHandle handle)
     // Offset: 0x29A6040
-    static bool InternalCreateAnimationOutput(ByRef<UnityEngine::Playables::PlayableGraph> graph, ::StringW name, ByRef<UnityEngine::Playables::PlayableOutputHandle> handle);
+    static bool InternalCreateAnimationOutput(ByRef<::UnityEngine::Playables::PlayableGraph> graph, ::StringW name, ByRef<::UnityEngine::Playables::PlayableOutputHandle> handle);
   }; // UnityEngine.Animations.AnimationPlayableGraphExtensions
   #pragma pack(pop)
 }
@@ -48,7 +48,7 @@ namespace UnityEngine::Animations {
 // Writing MetadataGetter for method: UnityEngine::Animations::AnimationPlayableGraphExtensions::InternalCreateAnimationOutput
 // Il2CppName: InternalCreateAnimationOutput
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<UnityEngine::Playables::PlayableGraph>, ::StringW, ByRef<UnityEngine::Playables::PlayableOutputHandle>)>(&UnityEngine::Animations::AnimationPlayableGraphExtensions::InternalCreateAnimationOutput)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<::UnityEngine::Playables::PlayableGraph>, ::StringW, ByRef<::UnityEngine::Playables::PlayableOutputHandle>)>(&UnityEngine::Animations::AnimationPlayableGraphExtensions::InternalCreateAnimationOutput)> {
   static const MethodInfo* get() {
     static auto* graph = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableGraph")->this_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

@@ -52,8 +52,8 @@ namespace GlobalNamespace {
   class ILobbyGameStateController;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::ILobbyGameStateController);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ILobbyGameStateController*, "", "ILobbyGameStateController");
+NEED_NO_BOX(::GlobalNamespace::ILobbyGameStateController);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ILobbyGameStateController*, "", "ILobbyGameStateController");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -64,16 +64,16 @@ namespace GlobalNamespace {
     public:
     // public MultiplayerLobbyState get_state()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::MultiplayerLobbyState get_state();
+    ::GlobalNamespace::MultiplayerLobbyState get_state();
     // public System.Void set_state(MultiplayerLobbyState value)
     // Offset: 0xFFFFFFFF
-    void set_state(GlobalNamespace::MultiplayerLobbyState value);
+    void set_state(::GlobalNamespace::MultiplayerLobbyState value);
     // public CannotStartGameReason get_cannotStartGameReason()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::CannotStartGameReason get_cannotStartGameReason();
+    ::GlobalNamespace::CannotStartGameReason get_cannotStartGameReason();
     // public BeatmapIdentifierNetSerializable get_startedBeatmapId()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::BeatmapIdentifierNetSerializable* get_startedBeatmapId();
+    ::GlobalNamespace::BeatmapIdentifierNetSerializable* get_startedBeatmapId();
     // public System.Boolean get_countdownStarted()
     // Offset: 0xFFFFFFFF
     bool get_countdownStarted();
@@ -94,85 +94,85 @@ namespace GlobalNamespace {
     bool get_isDisconnected();
     // public DisconnectedReason get_disconnectedReason()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::DisconnectedReason get_disconnectedReason();
+    ::GlobalNamespace::DisconnectedReason get_disconnectedReason();
     // public System.Void add_gameStartedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void add_gameStartedEvent(System::Action* value);
+    void add_gameStartedEvent(::System::Action* value);
     // public System.Void remove_gameStartedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void remove_gameStartedEvent(System::Action* value);
+    void remove_gameStartedEvent(::System::Action* value);
     // public System.Void add_gameStartCancelledEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void add_gameStartCancelledEvent(System::Action* value);
+    void add_gameStartCancelledEvent(::System::Action* value);
     // public System.Void remove_gameStartCancelledEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void remove_gameStartCancelledEvent(System::Action* value);
+    void remove_gameStartCancelledEvent(::System::Action* value);
     // public System.Void add_countdownStartedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void add_countdownStartedEvent(System::Action* value);
+    void add_countdownStartedEvent(::System::Action* value);
     // public System.Void remove_countdownStartedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void remove_countdownStartedEvent(System::Action* value);
+    void remove_countdownStartedEvent(::System::Action* value);
     // public System.Void add_countdownCancelledEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void add_countdownCancelledEvent(System::Action* value);
+    void add_countdownCancelledEvent(::System::Action* value);
     // public System.Void remove_countdownCancelledEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void remove_countdownCancelledEvent(System::Action* value);
+    void remove_countdownCancelledEvent(::System::Action* value);
     // public System.Void add_songStillDownloadingEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void add_songStillDownloadingEvent(System::Action* value);
+    void add_songStillDownloadingEvent(::System::Action* value);
     // public System.Void remove_songStillDownloadingEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void remove_songStillDownloadingEvent(System::Action* value);
+    void remove_songStillDownloadingEvent(::System::Action* value);
     // public System.Void add_startTimeChangedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void add_startTimeChangedEvent(System::Action* value);
+    void add_startTimeChangedEvent(::System::Action* value);
     // public System.Void remove_startTimeChangedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void remove_startTimeChangedEvent(System::Action* value);
+    void remove_startTimeChangedEvent(::System::Action* value);
     // public System.Void add_levelFinishedEvent(System.Action`2<MultiplayerLevelScenesTransitionSetupDataSO,MultiplayerResultsData> value)
     // Offset: 0xFFFFFFFF
-    void add_levelFinishedEvent(System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::MultiplayerResultsData*>* value);
+    void add_levelFinishedEvent(::System::Action_2<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MultiplayerResultsData*>* value);
     // public System.Void remove_levelFinishedEvent(System.Action`2<MultiplayerLevelScenesTransitionSetupDataSO,MultiplayerResultsData> value)
     // Offset: 0xFFFFFFFF
-    void remove_levelFinishedEvent(System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::MultiplayerResultsData*>* value);
+    void remove_levelFinishedEvent(::System::Action_2<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MultiplayerResultsData*>* value);
     // public System.Void add_levelDidGetDisconnectedEvent(System.Action`1<DisconnectedReason> value)
     // Offset: 0xFFFFFFFF
-    void add_levelDidGetDisconnectedEvent(System::Action_1<GlobalNamespace::DisconnectedReason>* value);
+    void add_levelDidGetDisconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value);
     // public System.Void remove_levelDidGetDisconnectedEvent(System.Action`1<DisconnectedReason> value)
     // Offset: 0xFFFFFFFF
-    void remove_levelDidGetDisconnectedEvent(System::Action_1<GlobalNamespace::DisconnectedReason>* value);
+    void remove_levelDidGetDisconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value);
     // public System.Void add_lobbyDisconnectedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void add_lobbyDisconnectedEvent(System::Action* value);
+    void add_lobbyDisconnectedEvent(::System::Action* value);
     // public System.Void remove_lobbyDisconnectedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void remove_lobbyDisconnectedEvent(System::Action* value);
+    void remove_lobbyDisconnectedEvent(::System::Action* value);
     // public System.Void add_beforeSceneSwitchCallbackEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void add_beforeSceneSwitchCallbackEvent(System::Action* value);
+    void add_beforeSceneSwitchCallbackEvent(::System::Action* value);
     // public System.Void remove_beforeSceneSwitchCallbackEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void remove_beforeSceneSwitchCallbackEvent(System::Action* value);
+    void remove_beforeSceneSwitchCallbackEvent(::System::Action* value);
     // public System.Void add_lobbyStateChangedEvent(System.Action`1<MultiplayerLobbyState> value)
     // Offset: 0xFFFFFFFF
-    void add_lobbyStateChangedEvent(System::Action_1<GlobalNamespace::MultiplayerLobbyState>* value);
+    void add_lobbyStateChangedEvent(::System::Action_1<::GlobalNamespace::MultiplayerLobbyState>* value);
     // public System.Void remove_lobbyStateChangedEvent(System.Action`1<MultiplayerLobbyState> value)
     // Offset: 0xFFFFFFFF
-    void remove_lobbyStateChangedEvent(System::Action_1<GlobalNamespace::MultiplayerLobbyState>* value);
+    void remove_lobbyStateChangedEvent(::System::Action_1<::GlobalNamespace::MultiplayerLobbyState>* value);
     // public System.Void add_startButtonEnabledEvent(System.Action`1<CannotStartGameReason> value)
     // Offset: 0xFFFFFFFF
-    void add_startButtonEnabledEvent(System::Action_1<GlobalNamespace::CannotStartGameReason>* value);
+    void add_startButtonEnabledEvent(::System::Action_1<::GlobalNamespace::CannotStartGameReason>* value);
     // public System.Void remove_startButtonEnabledEvent(System.Action`1<CannotStartGameReason> value)
     // Offset: 0xFFFFFFFF
-    void remove_startButtonEnabledEvent(System::Action_1<GlobalNamespace::CannotStartGameReason>* value);
+    void remove_startButtonEnabledEvent(::System::Action_1<::GlobalNamespace::CannotStartGameReason>* value);
     // public System.Void add_playerMissingEntitlementsChangedEvent(System.Action`1<PlayersMissingEntitlementsNetSerializable> value)
     // Offset: 0xFFFFFFFF
-    void add_playerMissingEntitlementsChangedEvent(System::Action_1<GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>* value);
+    void add_playerMissingEntitlementsChangedEvent(::System::Action_1<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>* value);
     // public System.Void remove_playerMissingEntitlementsChangedEvent(System.Action`1<PlayersMissingEntitlementsNetSerializable> value)
     // Offset: 0xFFFFFFFF
-    void remove_playerMissingEntitlementsChangedEvent(System::Action_1<GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>* value);
+    void remove_playerMissingEntitlementsChangedEvent(::System::Action_1<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>* value);
     // public System.Void Activate()
     // Offset: 0xFFFFFFFF
     void Activate();
@@ -190,7 +190,7 @@ namespace GlobalNamespace {
     void ClearDisconnectedState();
     // public System.Threading.Tasks.Task GetGameStateAndConfigurationAsync(System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF
-    System::Threading::Tasks::Task* GetGameStateAndConfigurationAsync(System::Threading::CancellationToken cancellationToken);
+    ::System::Threading::Tasks::Task* GetGameStateAndConfigurationAsync(::System::Threading::CancellationToken cancellationToken);
     // public System.Void PredictCountdownEndTime()
     // Offset: 0xFFFFFFFF
     void PredictCountdownEndTime();
@@ -204,7 +204,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyGameStateController::get_state
 // Il2CppName: get_state
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerLobbyState (GlobalNamespace::ILobbyGameStateController::*)()>(&GlobalNamespace::ILobbyGameStateController::get_state)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MultiplayerLobbyState (GlobalNamespace::ILobbyGameStateController::*)()>(&GlobalNamespace::ILobbyGameStateController::get_state)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyGameStateController*), "get_state", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -212,7 +212,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyGameStateController::set_state
 // Il2CppName: set_state
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(GlobalNamespace::MultiplayerLobbyState)>(&GlobalNamespace::ILobbyGameStateController::set_state)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(::GlobalNamespace::MultiplayerLobbyState)>(&GlobalNamespace::ILobbyGameStateController::set_state)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "MultiplayerLobbyState")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyGameStateController*), "set_state", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -221,7 +221,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyGameStateController::get_cannotStartGameReason
 // Il2CppName: get_cannotStartGameReason
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::CannotStartGameReason (GlobalNamespace::ILobbyGameStateController::*)()>(&GlobalNamespace::ILobbyGameStateController::get_cannotStartGameReason)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::CannotStartGameReason (GlobalNamespace::ILobbyGameStateController::*)()>(&GlobalNamespace::ILobbyGameStateController::get_cannotStartGameReason)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyGameStateController*), "get_cannotStartGameReason", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -229,7 +229,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyGameStateController::get_startedBeatmapId
 // Il2CppName: get_startedBeatmapId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapIdentifierNetSerializable* (GlobalNamespace::ILobbyGameStateController::*)()>(&GlobalNamespace::ILobbyGameStateController::get_startedBeatmapId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapIdentifierNetSerializable* (GlobalNamespace::ILobbyGameStateController::*)()>(&GlobalNamespace::ILobbyGameStateController::get_startedBeatmapId)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyGameStateController*), "get_startedBeatmapId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -285,7 +285,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyGameStateController::get_disconnectedReason
 // Il2CppName: get_disconnectedReason
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::DisconnectedReason (GlobalNamespace::ILobbyGameStateController::*)()>(&GlobalNamespace::ILobbyGameStateController::get_disconnectedReason)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::DisconnectedReason (GlobalNamespace::ILobbyGameStateController::*)()>(&GlobalNamespace::ILobbyGameStateController::get_disconnectedReason)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyGameStateController*), "get_disconnectedReason", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -293,7 +293,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyGameStateController::add_gameStartedEvent
 // Il2CppName: add_gameStartedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(System::Action*)>(&GlobalNamespace::ILobbyGameStateController::add_gameStartedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(::System::Action*)>(&GlobalNamespace::ILobbyGameStateController::add_gameStartedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyGameStateController*), "add_gameStartedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -302,7 +302,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyGameStateController::remove_gameStartedEvent
 // Il2CppName: remove_gameStartedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(System::Action*)>(&GlobalNamespace::ILobbyGameStateController::remove_gameStartedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(::System::Action*)>(&GlobalNamespace::ILobbyGameStateController::remove_gameStartedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyGameStateController*), "remove_gameStartedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -311,7 +311,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyGameStateController::add_gameStartCancelledEvent
 // Il2CppName: add_gameStartCancelledEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(System::Action*)>(&GlobalNamespace::ILobbyGameStateController::add_gameStartCancelledEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(::System::Action*)>(&GlobalNamespace::ILobbyGameStateController::add_gameStartCancelledEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyGameStateController*), "add_gameStartCancelledEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -320,7 +320,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyGameStateController::remove_gameStartCancelledEvent
 // Il2CppName: remove_gameStartCancelledEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(System::Action*)>(&GlobalNamespace::ILobbyGameStateController::remove_gameStartCancelledEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(::System::Action*)>(&GlobalNamespace::ILobbyGameStateController::remove_gameStartCancelledEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyGameStateController*), "remove_gameStartCancelledEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -329,7 +329,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyGameStateController::add_countdownStartedEvent
 // Il2CppName: add_countdownStartedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(System::Action*)>(&GlobalNamespace::ILobbyGameStateController::add_countdownStartedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(::System::Action*)>(&GlobalNamespace::ILobbyGameStateController::add_countdownStartedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyGameStateController*), "add_countdownStartedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -338,7 +338,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyGameStateController::remove_countdownStartedEvent
 // Il2CppName: remove_countdownStartedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(System::Action*)>(&GlobalNamespace::ILobbyGameStateController::remove_countdownStartedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(::System::Action*)>(&GlobalNamespace::ILobbyGameStateController::remove_countdownStartedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyGameStateController*), "remove_countdownStartedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -347,7 +347,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyGameStateController::add_countdownCancelledEvent
 // Il2CppName: add_countdownCancelledEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(System::Action*)>(&GlobalNamespace::ILobbyGameStateController::add_countdownCancelledEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(::System::Action*)>(&GlobalNamespace::ILobbyGameStateController::add_countdownCancelledEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyGameStateController*), "add_countdownCancelledEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -356,7 +356,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyGameStateController::remove_countdownCancelledEvent
 // Il2CppName: remove_countdownCancelledEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(System::Action*)>(&GlobalNamespace::ILobbyGameStateController::remove_countdownCancelledEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(::System::Action*)>(&GlobalNamespace::ILobbyGameStateController::remove_countdownCancelledEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyGameStateController*), "remove_countdownCancelledEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -365,7 +365,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyGameStateController::add_songStillDownloadingEvent
 // Il2CppName: add_songStillDownloadingEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(System::Action*)>(&GlobalNamespace::ILobbyGameStateController::add_songStillDownloadingEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(::System::Action*)>(&GlobalNamespace::ILobbyGameStateController::add_songStillDownloadingEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyGameStateController*), "add_songStillDownloadingEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -374,7 +374,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyGameStateController::remove_songStillDownloadingEvent
 // Il2CppName: remove_songStillDownloadingEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(System::Action*)>(&GlobalNamespace::ILobbyGameStateController::remove_songStillDownloadingEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(::System::Action*)>(&GlobalNamespace::ILobbyGameStateController::remove_songStillDownloadingEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyGameStateController*), "remove_songStillDownloadingEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -383,7 +383,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyGameStateController::add_startTimeChangedEvent
 // Il2CppName: add_startTimeChangedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(System::Action*)>(&GlobalNamespace::ILobbyGameStateController::add_startTimeChangedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(::System::Action*)>(&GlobalNamespace::ILobbyGameStateController::add_startTimeChangedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyGameStateController*), "add_startTimeChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -392,7 +392,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyGameStateController::remove_startTimeChangedEvent
 // Il2CppName: remove_startTimeChangedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(System::Action*)>(&GlobalNamespace::ILobbyGameStateController::remove_startTimeChangedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(::System::Action*)>(&GlobalNamespace::ILobbyGameStateController::remove_startTimeChangedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyGameStateController*), "remove_startTimeChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -401,7 +401,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyGameStateController::add_levelFinishedEvent
 // Il2CppName: add_levelFinishedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::MultiplayerResultsData*>*)>(&GlobalNamespace::ILobbyGameStateController::add_levelFinishedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(::System::Action_2<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MultiplayerResultsData*>*)>(&GlobalNamespace::ILobbyGameStateController::add_levelFinishedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MultiplayerLevelScenesTransitionSetupDataSO"), ::il2cpp_utils::GetClassFromName("", "MultiplayerResultsData")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyGameStateController*), "add_levelFinishedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -410,7 +410,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyGameStateController::remove_levelFinishedEvent
 // Il2CppName: remove_levelFinishedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::MultiplayerResultsData*>*)>(&GlobalNamespace::ILobbyGameStateController::remove_levelFinishedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(::System::Action_2<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MultiplayerResultsData*>*)>(&GlobalNamespace::ILobbyGameStateController::remove_levelFinishedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MultiplayerLevelScenesTransitionSetupDataSO"), ::il2cpp_utils::GetClassFromName("", "MultiplayerResultsData")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyGameStateController*), "remove_levelFinishedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -419,7 +419,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyGameStateController::add_levelDidGetDisconnectedEvent
 // Il2CppName: add_levelDidGetDisconnectedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(System::Action_1<GlobalNamespace::DisconnectedReason>*)>(&GlobalNamespace::ILobbyGameStateController::add_levelDidGetDisconnectedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(::System::Action_1<::GlobalNamespace::DisconnectedReason>*)>(&GlobalNamespace::ILobbyGameStateController::add_levelDidGetDisconnectedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "DisconnectedReason")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyGameStateController*), "add_levelDidGetDisconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -428,7 +428,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyGameStateController::remove_levelDidGetDisconnectedEvent
 // Il2CppName: remove_levelDidGetDisconnectedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(System::Action_1<GlobalNamespace::DisconnectedReason>*)>(&GlobalNamespace::ILobbyGameStateController::remove_levelDidGetDisconnectedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(::System::Action_1<::GlobalNamespace::DisconnectedReason>*)>(&GlobalNamespace::ILobbyGameStateController::remove_levelDidGetDisconnectedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "DisconnectedReason")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyGameStateController*), "remove_levelDidGetDisconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -437,7 +437,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyGameStateController::add_lobbyDisconnectedEvent
 // Il2CppName: add_lobbyDisconnectedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(System::Action*)>(&GlobalNamespace::ILobbyGameStateController::add_lobbyDisconnectedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(::System::Action*)>(&GlobalNamespace::ILobbyGameStateController::add_lobbyDisconnectedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyGameStateController*), "add_lobbyDisconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -446,7 +446,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyGameStateController::remove_lobbyDisconnectedEvent
 // Il2CppName: remove_lobbyDisconnectedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(System::Action*)>(&GlobalNamespace::ILobbyGameStateController::remove_lobbyDisconnectedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(::System::Action*)>(&GlobalNamespace::ILobbyGameStateController::remove_lobbyDisconnectedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyGameStateController*), "remove_lobbyDisconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -455,7 +455,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyGameStateController::add_beforeSceneSwitchCallbackEvent
 // Il2CppName: add_beforeSceneSwitchCallbackEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(System::Action*)>(&GlobalNamespace::ILobbyGameStateController::add_beforeSceneSwitchCallbackEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(::System::Action*)>(&GlobalNamespace::ILobbyGameStateController::add_beforeSceneSwitchCallbackEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyGameStateController*), "add_beforeSceneSwitchCallbackEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -464,7 +464,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyGameStateController::remove_beforeSceneSwitchCallbackEvent
 // Il2CppName: remove_beforeSceneSwitchCallbackEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(System::Action*)>(&GlobalNamespace::ILobbyGameStateController::remove_beforeSceneSwitchCallbackEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(::System::Action*)>(&GlobalNamespace::ILobbyGameStateController::remove_beforeSceneSwitchCallbackEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyGameStateController*), "remove_beforeSceneSwitchCallbackEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -473,7 +473,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyGameStateController::add_lobbyStateChangedEvent
 // Il2CppName: add_lobbyStateChangedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(System::Action_1<GlobalNamespace::MultiplayerLobbyState>*)>(&GlobalNamespace::ILobbyGameStateController::add_lobbyStateChangedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(::System::Action_1<::GlobalNamespace::MultiplayerLobbyState>*)>(&GlobalNamespace::ILobbyGameStateController::add_lobbyStateChangedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MultiplayerLobbyState")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyGameStateController*), "add_lobbyStateChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -482,7 +482,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyGameStateController::remove_lobbyStateChangedEvent
 // Il2CppName: remove_lobbyStateChangedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(System::Action_1<GlobalNamespace::MultiplayerLobbyState>*)>(&GlobalNamespace::ILobbyGameStateController::remove_lobbyStateChangedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(::System::Action_1<::GlobalNamespace::MultiplayerLobbyState>*)>(&GlobalNamespace::ILobbyGameStateController::remove_lobbyStateChangedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MultiplayerLobbyState")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyGameStateController*), "remove_lobbyStateChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -491,7 +491,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyGameStateController::add_startButtonEnabledEvent
 // Il2CppName: add_startButtonEnabledEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(System::Action_1<GlobalNamespace::CannotStartGameReason>*)>(&GlobalNamespace::ILobbyGameStateController::add_startButtonEnabledEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(::System::Action_1<::GlobalNamespace::CannotStartGameReason>*)>(&GlobalNamespace::ILobbyGameStateController::add_startButtonEnabledEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "CannotStartGameReason")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyGameStateController*), "add_startButtonEnabledEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -500,7 +500,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyGameStateController::remove_startButtonEnabledEvent
 // Il2CppName: remove_startButtonEnabledEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(System::Action_1<GlobalNamespace::CannotStartGameReason>*)>(&GlobalNamespace::ILobbyGameStateController::remove_startButtonEnabledEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(::System::Action_1<::GlobalNamespace::CannotStartGameReason>*)>(&GlobalNamespace::ILobbyGameStateController::remove_startButtonEnabledEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "CannotStartGameReason")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyGameStateController*), "remove_startButtonEnabledEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -509,7 +509,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyGameStateController::add_playerMissingEntitlementsChangedEvent
 // Il2CppName: add_playerMissingEntitlementsChangedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(System::Action_1<GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>*)>(&GlobalNamespace::ILobbyGameStateController::add_playerMissingEntitlementsChangedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(::System::Action_1<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>*)>(&GlobalNamespace::ILobbyGameStateController::add_playerMissingEntitlementsChangedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "PlayersMissingEntitlementsNetSerializable")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyGameStateController*), "add_playerMissingEntitlementsChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -518,7 +518,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyGameStateController::remove_playerMissingEntitlementsChangedEvent
 // Il2CppName: remove_playerMissingEntitlementsChangedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(System::Action_1<GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>*)>(&GlobalNamespace::ILobbyGameStateController::remove_playerMissingEntitlementsChangedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILobbyGameStateController::*)(::System::Action_1<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>*)>(&GlobalNamespace::ILobbyGameStateController::remove_playerMissingEntitlementsChangedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "PlayersMissingEntitlementsNetSerializable")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyGameStateController*), "remove_playerMissingEntitlementsChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -567,7 +567,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyGameStateController::GetGameStateAndConfigurationAsync
 // Il2CppName: GetGameStateAndConfigurationAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (GlobalNamespace::ILobbyGameStateController::*)(System::Threading::CancellationToken)>(&GlobalNamespace::ILobbyGameStateController::GetGameStateAndConfigurationAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (GlobalNamespace::ILobbyGameStateController::*)(::System::Threading::CancellationToken)>(&GlobalNamespace::ILobbyGameStateController::GetGameStateAndConfigurationAsync)> {
   static const MethodInfo* get() {
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyGameStateController*), "GetGameStateAndConfigurationAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cancellationToken});

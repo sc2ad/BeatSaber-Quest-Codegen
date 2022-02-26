@@ -35,8 +35,8 @@ namespace System::Runtime::Remoting {
   class SoapServices;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Remoting::SoapServices);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::SoapServices*, "System.Runtime.Remoting", "SoapServices");
+NEED_NO_BOX(::System::Runtime::Remoting::SoapServices);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::SoapServices*, "System.Runtime.Remoting", "SoapServices");
 // Type namespace: System.Runtime.Remoting
 namespace System::Runtime::Remoting {
   // Size: 0x10
@@ -46,28 +46,28 @@ namespace System::Runtime::Remoting {
   // [ComVisibleAttribute] Offset: 118A9C4
   class SoapServices : public ::Il2CppObject {
     public:
-    // Nested type: System::Runtime::Remoting::SoapServices::TypeInfo
+    // Nested type: ::System::Runtime::Remoting::SoapServices::TypeInfo
     class TypeInfo;
     // Get static field: static private System.Collections.Hashtable _xmlTypes
-    static System::Collections::Hashtable* _get__xmlTypes();
+    static ::System::Collections::Hashtable* _get__xmlTypes();
     // Set static field: static private System.Collections.Hashtable _xmlTypes
-    static void _set__xmlTypes(System::Collections::Hashtable* value);
+    static void _set__xmlTypes(::System::Collections::Hashtable* value);
     // Get static field: static private System.Collections.Hashtable _xmlElements
-    static System::Collections::Hashtable* _get__xmlElements();
+    static ::System::Collections::Hashtable* _get__xmlElements();
     // Set static field: static private System.Collections.Hashtable _xmlElements
-    static void _set__xmlElements(System::Collections::Hashtable* value);
+    static void _set__xmlElements(::System::Collections::Hashtable* value);
     // Get static field: static private System.Collections.Hashtable _soapActions
-    static System::Collections::Hashtable* _get__soapActions();
+    static ::System::Collections::Hashtable* _get__soapActions();
     // Set static field: static private System.Collections.Hashtable _soapActions
-    static void _set__soapActions(System::Collections::Hashtable* value);
+    static void _set__soapActions(::System::Collections::Hashtable* value);
     // Get static field: static private System.Collections.Hashtable _soapActionsMethods
-    static System::Collections::Hashtable* _get__soapActionsMethods();
+    static ::System::Collections::Hashtable* _get__soapActionsMethods();
     // Set static field: static private System.Collections.Hashtable _soapActionsMethods
-    static void _set__soapActionsMethods(System::Collections::Hashtable* value);
+    static void _set__soapActionsMethods(::System::Collections::Hashtable* value);
     // Get static field: static private System.Collections.Hashtable _typeInfos
-    static System::Collections::Hashtable* _get__typeInfos();
+    static ::System::Collections::Hashtable* _get__typeInfos();
     // Set static field: static private System.Collections.Hashtable _typeInfos
-    static void _set__typeInfos(System::Collections::Hashtable* value);
+    static void _set__typeInfos(::System::Collections::Hashtable* value);
     // static public System.String get_XmlNsForClrTypeWithAssembly()
     // Offset: 0x180AA64
     static ::StringW get_XmlNsForClrTypeWithAssembly();
@@ -88,31 +88,31 @@ namespace System::Runtime::Remoting {
     static ::StringW GetNameKey(::StringW name, ::StringW namspace);
     // static private System.String GetAssemblyName(System.Reflection.MethodBase mb)
     // Offset: 0x180AE20
-    static ::StringW GetAssemblyName(System::Reflection::MethodBase* mb);
+    static ::StringW GetAssemblyName(::System::Reflection::MethodBase* mb);
     // static public System.Boolean GetXmlElementForInteropType(System.Type type, out System.String xmlElement, out System.String xmlNamespace)
     // Offset: 0x180AF54
-    static bool GetXmlElementForInteropType(System::Type* type, ByRef<::StringW> xmlElement, ByRef<::StringW> xmlNamespace);
+    static bool GetXmlElementForInteropType(::System::Type* type, ByRef<::StringW> xmlElement, ByRef<::StringW> xmlNamespace);
     // static public System.String GetXmlNamespaceForMethodCall(System.Reflection.MethodBase mb)
     // Offset: 0x180B028
-    static ::StringW GetXmlNamespaceForMethodCall(System::Reflection::MethodBase* mb);
+    static ::StringW GetXmlNamespaceForMethodCall(::System::Reflection::MethodBase* mb);
     // static public System.String GetXmlNamespaceForMethodResponse(System.Reflection.MethodBase mb)
     // Offset: 0x180B0CC
-    static ::StringW GetXmlNamespaceForMethodResponse(System::Reflection::MethodBase* mb);
+    static ::StringW GetXmlNamespaceForMethodResponse(::System::Reflection::MethodBase* mb);
     // static public System.Boolean GetXmlTypeForInteropType(System.Type type, out System.String xmlType, out System.String xmlTypeNamespace)
     // Offset: 0x180B170
-    static bool GetXmlTypeForInteropType(System::Type* type, ByRef<::StringW> xmlType, ByRef<::StringW> xmlTypeNamespace);
+    static bool GetXmlTypeForInteropType(::System::Type* type, ByRef<::StringW> xmlType, ByRef<::StringW> xmlTypeNamespace);
     // static public System.Void PreLoad(System.Reflection.Assembly assembly)
     // Offset: 0x180B23C
-    static void PreLoad(System::Reflection::Assembly* assembly);
+    static void PreLoad(::System::Reflection::Assembly* assembly);
     // static public System.Void PreLoad(System.Type type)
     // Offset: 0x180B318
-    static void PreLoad(System::Type* type);
+    static void PreLoad(::System::Type* type);
     // static public System.Void RegisterInteropXmlElement(System.String xmlElement, System.String xmlNamespace, System.Type type)
     // Offset: 0x180B988
-    static void RegisterInteropXmlElement(::StringW xmlElement, ::StringW xmlNamespace, System::Type* type);
+    static void RegisterInteropXmlElement(::StringW xmlElement, ::StringW xmlNamespace, ::System::Type* type);
     // static public System.Void RegisterInteropXmlType(System.String xmlType, System.String xmlTypeNamespace, System.Type type)
     // Offset: 0x180B824
-    static void RegisterInteropXmlType(::StringW xmlType, ::StringW xmlTypeNamespace, System::Type* type);
+    static void RegisterInteropXmlType(::StringW xmlType, ::StringW xmlTypeNamespace, ::System::Type* type);
     // static private System.String EncodeNs(System.String ns)
     // Offset: 0x180ACF4
     static ::StringW EncodeNs(::StringW ns);
@@ -175,7 +175,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Runtime::Remoting::SoapServices::GetAssemblyName
 // Il2CppName: GetAssemblyName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Reflection::MethodBase*)>(&System::Runtime::Remoting::SoapServices::GetAssemblyName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Reflection::MethodBase*)>(&System::Runtime::Remoting::SoapServices::GetAssemblyName)> {
   static const MethodInfo* get() {
     static auto* mb = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodBase")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::SoapServices*), "GetAssemblyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mb});
@@ -184,7 +184,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Runtime::Remoting::SoapServices::GetXmlElementForInteropType
 // Il2CppName: GetXmlElementForInteropType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, ByRef<::StringW>, ByRef<::StringW>)>(&System::Runtime::Remoting::SoapServices::GetXmlElementForInteropType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ByRef<::StringW>, ByRef<::StringW>)>(&System::Runtime::Remoting::SoapServices::GetXmlElementForInteropType)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* xmlElement = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
@@ -195,7 +195,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Runtime::Remoting::SoapServices::GetXmlNamespaceForMethodCall
 // Il2CppName: GetXmlNamespaceForMethodCall
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Reflection::MethodBase*)>(&System::Runtime::Remoting::SoapServices::GetXmlNamespaceForMethodCall)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Reflection::MethodBase*)>(&System::Runtime::Remoting::SoapServices::GetXmlNamespaceForMethodCall)> {
   static const MethodInfo* get() {
     static auto* mb = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodBase")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::SoapServices*), "GetXmlNamespaceForMethodCall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mb});
@@ -204,7 +204,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Runtime::Remoting::SoapServices::GetXmlNamespaceForMethodResponse
 // Il2CppName: GetXmlNamespaceForMethodResponse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Reflection::MethodBase*)>(&System::Runtime::Remoting::SoapServices::GetXmlNamespaceForMethodResponse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Reflection::MethodBase*)>(&System::Runtime::Remoting::SoapServices::GetXmlNamespaceForMethodResponse)> {
   static const MethodInfo* get() {
     static auto* mb = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodBase")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::SoapServices*), "GetXmlNamespaceForMethodResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mb});
@@ -213,7 +213,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Runtime::Remoting::SoapServices::GetXmlTypeForInteropType
 // Il2CppName: GetXmlTypeForInteropType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, ByRef<::StringW>, ByRef<::StringW>)>(&System::Runtime::Remoting::SoapServices::GetXmlTypeForInteropType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ByRef<::StringW>, ByRef<::StringW>)>(&System::Runtime::Remoting::SoapServices::GetXmlTypeForInteropType)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* xmlType = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
@@ -224,7 +224,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Runtime::Remoting::SoapServices::PreLoad
 // Il2CppName: PreLoad
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Reflection::Assembly*)>(&System::Runtime::Remoting::SoapServices::PreLoad)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Reflection::Assembly*)>(&System::Runtime::Remoting::SoapServices::PreLoad)> {
   static const MethodInfo* get() {
     static auto* assembly = &::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::SoapServices*), "PreLoad", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assembly});
@@ -233,7 +233,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Runtime::Remoting::SoapServices::PreLoad
 // Il2CppName: PreLoad
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Type*)>(&System::Runtime::Remoting::SoapServices::PreLoad)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*)>(&System::Runtime::Remoting::SoapServices::PreLoad)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::SoapServices*), "PreLoad", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -242,7 +242,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Runtime::Remoting::SoapServices::RegisterInteropXmlElement
 // Il2CppName: RegisterInteropXmlElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW, System::Type*)>(&System::Runtime::Remoting::SoapServices::RegisterInteropXmlElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW, ::System::Type*)>(&System::Runtime::Remoting::SoapServices::RegisterInteropXmlElement)> {
   static const MethodInfo* get() {
     static auto* xmlElement = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* xmlNamespace = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -253,7 +253,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::Runtime::Remoting::SoapServices::RegisterInteropXmlType
 // Il2CppName: RegisterInteropXmlType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW, System::Type*)>(&System::Runtime::Remoting::SoapServices::RegisterInteropXmlType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW, ::System::Type*)>(&System::Runtime::Remoting::SoapServices::RegisterInteropXmlType)> {
   static const MethodInfo* get() {
     static auto* xmlType = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* xmlTypeNamespace = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

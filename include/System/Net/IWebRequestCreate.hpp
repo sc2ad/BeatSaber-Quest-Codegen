@@ -23,8 +23,8 @@ namespace System::Net {
   class IWebRequestCreate;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::IWebRequestCreate);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::IWebRequestCreate*, "System.Net", "IWebRequestCreate");
+NEED_NO_BOX(::System::Net::IWebRequestCreate);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::IWebRequestCreate*, "System.Net", "IWebRequestCreate");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x10
@@ -35,7 +35,7 @@ namespace System::Net {
     public:
     // public System.Net.WebRequest Create(System.Uri uri)
     // Offset: 0xFFFFFFFF
-    System::Net::WebRequest* Create(System::Uri* uri);
+    ::System::Net::WebRequest* Create(::System::Uri* uri);
   }; // System.Net.IWebRequestCreate
   #pragma pack(pop)
 }
@@ -43,7 +43,7 @@ namespace System::Net {
 // Writing MetadataGetter for method: System::Net::IWebRequestCreate::Create
 // Il2CppName: Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebRequest* (System::Net::IWebRequestCreate::*)(System::Uri*)>(&System::Net::IWebRequestCreate::Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::WebRequest* (System::Net::IWebRequestCreate::*)(::System::Uri*)>(&System::Net::IWebRequestCreate::Create)> {
   static const MethodInfo* get() {
     static auto* uri = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::IWebRequestCreate*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{uri});

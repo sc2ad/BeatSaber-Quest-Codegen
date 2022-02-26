@@ -30,8 +30,8 @@ namespace System::Runtime::Serialization {
   class SerializationObjectManager;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Serialization::SerializationObjectManager);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationObjectManager*, "System.Runtime.Serialization", "SerializationObjectManager");
+NEED_NO_BOX(::System::Runtime::Serialization::SerializationObjectManager);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::SerializationObjectManager*, "System.Runtime.Serialization", "SerializationObjectManager");
 // Type namespace: System.Runtime.Serialization
 namespace System::Runtime::Serialization {
   // Size: 0x2C
@@ -52,33 +52,33 @@ namespace System::Runtime::Serialization {
     // private System.Collections.Hashtable m_objectSeenTable
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Hashtable* m_objectSeenTable;
+    ::System::Collections::Hashtable* m_objectSeenTable;
     // Field size check
-    static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
+    static_assert(sizeof(::System::Collections::Hashtable*) == 0x8);
     // private System.Runtime.Serialization.SerializationEventHandler m_onSerializedHandler
     // Size: 0x8
     // Offset: 0x18
-    System::Runtime::Serialization::SerializationEventHandler* m_onSerializedHandler;
+    ::System::Runtime::Serialization::SerializationEventHandler* m_onSerializedHandler;
     // Field size check
-    static_assert(sizeof(System::Runtime::Serialization::SerializationEventHandler*) == 0x8);
+    static_assert(sizeof(::System::Runtime::Serialization::SerializationEventHandler*) == 0x8);
     // private System.Runtime.Serialization.StreamingContext m_context
     // Size: 0xC
     // Offset: 0x20
-    System::Runtime::Serialization::StreamingContext m_context;
+    ::System::Runtime::Serialization::StreamingContext m_context;
     // Field size check
-    static_assert(sizeof(System::Runtime::Serialization::StreamingContext) == 0xC);
+    static_assert(sizeof(::System::Runtime::Serialization::StreamingContext) == 0xC);
     public:
     // Get instance field reference: private System.Collections.Hashtable m_objectSeenTable
-    System::Collections::Hashtable*& dyn_m_objectSeenTable();
+    ::System::Collections::Hashtable*& dyn_m_objectSeenTable();
     // Get instance field reference: private System.Runtime.Serialization.SerializationEventHandler m_onSerializedHandler
-    System::Runtime::Serialization::SerializationEventHandler*& dyn_m_onSerializedHandler();
+    ::System::Runtime::Serialization::SerializationEventHandler*& dyn_m_onSerializedHandler();
     // Get instance field reference: private System.Runtime.Serialization.StreamingContext m_context
-    System::Runtime::Serialization::StreamingContext& dyn_m_context();
+    ::System::Runtime::Serialization::StreamingContext& dyn_m_context();
     // public System.Void .ctor(System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x15911F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SerializationObjectManager* New_ctor(System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::SerializationObjectManager::.ctor");
+    static SerializationObjectManager* New_ctor(::System::Runtime::Serialization::StreamingContext context) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::SerializationObjectManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SerializationObjectManager*, creationType>(context)));
     }
     // public System.Void RegisterObject(System.Object obj)
@@ -92,7 +92,7 @@ namespace System::Runtime::Serialization {
     void AddOnSerialized(::Il2CppObject* obj);
   }; // System.Runtime.Serialization.SerializationObjectManager
   #pragma pack(pop)
-  static check_size<sizeof(SerializationObjectManager), 32 + sizeof(System::Runtime::Serialization::StreamingContext)> __System_Runtime_Serialization_SerializationObjectManagerSizeCheck;
+  static check_size<sizeof(SerializationObjectManager), 32 + sizeof(::System::Runtime::Serialization::StreamingContext)> __System_Runtime_Serialization_SerializationObjectManagerSizeCheck;
   static_assert(sizeof(SerializationObjectManager) == 0x2C);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

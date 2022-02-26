@@ -22,8 +22,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BitMaskSparse::$$c);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BitMaskSparse::$$c*, "", "BitMaskSparse/<>c");
+NEED_NO_BOX(::GlobalNamespace::BitMaskSparse::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BitMaskSparse::$$c*, "", "BitMaskSparse/<>c");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -34,13 +34,13 @@ namespace GlobalNamespace {
   class BitMaskSparse::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly BitMaskSparse/<>c <>9
-    static GlobalNamespace::BitMaskSparse::$$c* _get_$$9();
+    static ::GlobalNamespace::BitMaskSparse::$$c* _get_$$9();
     // Set static field: static public readonly BitMaskSparse/<>c <>9
-    static void _set_$$9(GlobalNamespace::BitMaskSparse::$$c* value);
+    static void _set_$$9(::GlobalNamespace::BitMaskSparse::$$c* value);
     // Get static field: static public System.Func`2<System.UInt32,System.String> <>9__8_0
-    static System::Func_2<uint, ::StringW>* _get_$$9__8_0();
+    static ::System::Func_2<uint, ::StringW>* _get_$$9__8_0();
     // Set static field: static public System.Func`2<System.UInt32,System.String> <>9__8_0
-    static void _set_$$9__8_0(System::Func_2<uint, ::StringW>* value);
+    static void _set_$$9__8_0(::System::Func_2<uint, ::StringW>* value);
     // static private System.Void .cctor()
     // Offset: 0x2971E54
     static void _cctor();
@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BitMaskSparse::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BitMaskSparse::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BitMaskSparse::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BitMaskSparse::$$c*, creationType>()));
     }
   }; // BitMaskSparse/<>c

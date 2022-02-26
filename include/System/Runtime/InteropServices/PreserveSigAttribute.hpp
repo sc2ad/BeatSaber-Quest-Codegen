@@ -18,8 +18,8 @@ namespace System::Runtime::InteropServices {
   class PreserveSigAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::InteropServices::PreserveSigAttribute);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::PreserveSigAttribute*, "System.Runtime.InteropServices", "PreserveSigAttribute");
+NEED_NO_BOX(::System::Runtime::InteropServices::PreserveSigAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::InteropServices::PreserveSigAttribute*, "System.Runtime.InteropServices", "PreserveSigAttribute");
 // Type namespace: System.Runtime.InteropServices
 namespace System::Runtime::InteropServices {
   // Size: 0x10
@@ -28,7 +28,7 @@ namespace System::Runtime::InteropServices {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: 118B8AC
   // [AttributeUsageAttribute] Offset: 118B8AC
-  class PreserveSigAttribute : public System::Attribute {
+  class PreserveSigAttribute : public ::System::Attribute {
     public:
     // public System.Void .ctor()
     // Offset: 0x1C5CAC8
@@ -37,7 +37,7 @@ namespace System::Runtime::InteropServices {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PreserveSigAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::PreserveSigAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::InteropServices::PreserveSigAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PreserveSigAttribute*, creationType>()));
     }
   }; // System.Runtime.InteropServices.PreserveSigAttribute

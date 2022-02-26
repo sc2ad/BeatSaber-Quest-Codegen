@@ -18,8 +18,8 @@ namespace System::Reflection {
   class IReflectableType;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Reflection::IReflectableType);
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::IReflectableType*, "System.Reflection", "IReflectableType");
+NEED_NO_BOX(::System::Reflection::IReflectableType);
+DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::IReflectableType*, "System.Reflection", "IReflectableType");
 // Type namespace: System.Reflection
 namespace System::Reflection {
   // Size: 0x10
@@ -30,7 +30,7 @@ namespace System::Reflection {
     public:
     // public System.Reflection.TypeInfo GetTypeInfo()
     // Offset: 0xFFFFFFFF
-    System::Reflection::TypeInfo* GetTypeInfo();
+    ::System::Reflection::TypeInfo* GetTypeInfo();
   }; // System.Reflection.IReflectableType
   #pragma pack(pop)
 }
@@ -38,7 +38,7 @@ namespace System::Reflection {
 // Writing MetadataGetter for method: System::Reflection::IReflectableType::GetTypeInfo
 // Il2CppName: GetTypeInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::TypeInfo* (System::Reflection::IReflectableType::*)()>(&System::Reflection::IReflectableType::GetTypeInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::TypeInfo* (System::Reflection::IReflectableType::*)()>(&System::Reflection::IReflectableType::GetTypeInfo)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::IReflectableType*), "GetTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

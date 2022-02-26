@@ -34,8 +34,8 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::AddressableAssets::Initialization::InitializationOperation::$$c__DisplayClass16_0);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Initialization::InitializationOperation::$$c__DisplayClass16_0*, "UnityEngine.AddressableAssets.Initialization", "InitializationOperation/<>c__DisplayClass16_0");
+NEED_NO_BOX(::UnityEngine::AddressableAssets::Initialization::InitializationOperation::$$c__DisplayClass16_0);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AddressableAssets::Initialization::InitializationOperation::$$c__DisplayClass16_0*, "UnityEngine.AddressableAssets.Initialization", "InitializationOperation/<>c__DisplayClass16_0");
 // Type namespace: UnityEngine.AddressableAssets.Initialization
 namespace UnityEngine::AddressableAssets::Initialization {
   // Size: 0x20
@@ -57,9 +57,9 @@ namespace UnityEngine::AddressableAssets::Initialization {
     // public UnityEngine.AddressableAssets.AddressablesImpl addressables
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::AddressableAssets::AddressablesImpl* addressables;
+    ::UnityEngine::AddressableAssets::AddressablesImpl* addressables;
     // Field size check
-    static_assert(sizeof(UnityEngine::AddressableAssets::AddressablesImpl*) == 0x8);
+    static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl*) == 0x8);
     // public System.String providerSuffix
     // Size: 0x8
     // Offset: 0x18
@@ -68,19 +68,19 @@ namespace UnityEngine::AddressableAssets::Initialization {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.AddressableAssets.AddressablesImpl addressables
-    UnityEngine::AddressableAssets::AddressablesImpl*& dyn_addressables();
+    ::UnityEngine::AddressableAssets::AddressablesImpl*& dyn_addressables();
     // Get instance field reference: public System.String providerSuffix
     ::StringW& dyn_providerSuffix();
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> <LoadContentCatalog>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData> res)
     // Offset: 0x17E79A0
-    UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> $LoadContentCatalog$b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*> res);
+    ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> $LoadContentCatalog$b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*> res);
     // public System.Void .ctor()
     // Offset: 0x17E759C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InitializationOperation::$$c__DisplayClass16_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::Initialization::InitializationOperation::$$c__DisplayClass16_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::Initialization::InitializationOperation::$$c__DisplayClass16_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InitializationOperation::$$c__DisplayClass16_0*, creationType>()));
     }
   }; // UnityEngine.AddressableAssets.Initialization.InitializationOperation/UnityEngine.AddressableAssets.Initialization.<>c__DisplayClass16_0
@@ -92,7 +92,7 @@ namespace UnityEngine::AddressableAssets::Initialization {
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::InitializationOperation::$$c__DisplayClass16_0::$LoadContentCatalog$b__0
 // Il2CppName: <LoadContentCatalog>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> (UnityEngine::AddressableAssets::Initialization::InitializationOperation::$$c__DisplayClass16_0::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>)>(&UnityEngine::AddressableAssets::Initialization::InitializationOperation::$$c__DisplayClass16_0::$LoadContentCatalog$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> (UnityEngine::AddressableAssets::Initialization::InitializationOperation::$$c__DisplayClass16_0::*)(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>)>(&UnityEngine::AddressableAssets::Initialization::InitializationOperation::$$c__DisplayClass16_0::$LoadContentCatalog$b__0)> {
   static const MethodInfo* get() {
     static auto* res = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.AsyncOperations", "AsyncOperationHandle`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.AddressableAssets.ResourceLocators", "ContentCatalogData")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Initialization::InitializationOperation::$$c__DisplayClass16_0*), "<LoadContentCatalog>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{res});

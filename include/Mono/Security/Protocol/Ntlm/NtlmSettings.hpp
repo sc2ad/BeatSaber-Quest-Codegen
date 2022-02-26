@@ -14,8 +14,8 @@ namespace Mono::Security::Protocol::Ntlm {
   class NtlmSettings;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Security::Protocol::Ntlm::NtlmSettings);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Protocol::Ntlm::NtlmSettings*, "Mono.Security.Protocol.Ntlm", "NtlmSettings");
+NEED_NO_BOX(::Mono::Security::Protocol::Ntlm::NtlmSettings);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Protocol::Ntlm::NtlmSettings*, "Mono.Security.Protocol.Ntlm", "NtlmSettings");
 // Type namespace: Mono.Security.Protocol.Ntlm
 namespace Mono::Security::Protocol::Ntlm {
   // Size: 0x10
@@ -25,12 +25,12 @@ namespace Mono::Security::Protocol::Ntlm {
   class NtlmSettings : public ::Il2CppObject {
     public:
     // Get static field: static private Mono.Security.Protocol.Ntlm.NtlmAuthLevel defaultAuthLevel
-    static Mono::Security::Protocol::Ntlm::NtlmAuthLevel _get_defaultAuthLevel();
+    static ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel _get_defaultAuthLevel();
     // Set static field: static private Mono.Security.Protocol.Ntlm.NtlmAuthLevel defaultAuthLevel
-    static void _set_defaultAuthLevel(Mono::Security::Protocol::Ntlm::NtlmAuthLevel value);
+    static void _set_defaultAuthLevel(::Mono::Security::Protocol::Ntlm::NtlmAuthLevel value);
     // static public Mono.Security.Protocol.Ntlm.NtlmAuthLevel get_DefaultAuthLevel()
     // Offset: 0x22D11EC
-    static Mono::Security::Protocol::Ntlm::NtlmAuthLevel get_DefaultAuthLevel();
+    static ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel get_DefaultAuthLevel();
     // static private System.Void .cctor()
     // Offset: 0x22D1254
     static void _cctor();
@@ -41,7 +41,7 @@ namespace Mono::Security::Protocol::Ntlm {
 // Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::NtlmSettings::get_DefaultAuthLevel
 // Il2CppName: get_DefaultAuthLevel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Protocol::Ntlm::NtlmAuthLevel (*)()>(&Mono::Security::Protocol::Ntlm::NtlmSettings::get_DefaultAuthLevel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::Protocol::Ntlm::NtlmAuthLevel (*)()>(&Mono::Security::Protocol::Ntlm::NtlmSettings::get_DefaultAuthLevel)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Protocol::Ntlm::NtlmSettings*), "get_DefaultAuthLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

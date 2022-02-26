@@ -41,8 +41,8 @@ namespace UnityEngine::Playables {
   class PlayableDirector;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Playables::PlayableDirector);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableDirector*, "UnityEngine.Playables", "PlayableDirector");
+NEED_NO_BOX(::UnityEngine::Playables::PlayableDirector);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Playables::PlayableDirector*, "UnityEngine.Playables", "PlayableDirector");
 // Type namespace: UnityEngine.Playables
 namespace UnityEngine::Playables {
   // Size: 0x30
@@ -52,7 +52,7 @@ namespace UnityEngine::Playables {
   // [NativeHeaderAttribute] Offset: 11D9758
   // [NativeHeaderAttribute] Offset: 11D9758
   // [RequiredByNativeCodeAttribute] Offset: 11D9758
-  class PlayableDirector : public UnityEngine::Behaviour/*, public UnityEngine::IExposedPropertyTable*/ {
+  class PlayableDirector : public ::UnityEngine::Behaviour/*, public ::UnityEngine::IExposedPropertyTable*/ {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -67,45 +67,45 @@ namespace UnityEngine::Playables {
     // private System.Action`1<UnityEngine.Playables.PlayableDirector> played
     // Size: 0x8
     // Offset: 0x18
-    System::Action_1<UnityEngine::Playables::PlayableDirector*>* played;
+    ::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* played;
     // Field size check
-    static_assert(sizeof(System::Action_1<UnityEngine::Playables::PlayableDirector*>*) == 0x8);
+    static_assert(sizeof(::System::Action_1<::UnityEngine::Playables::PlayableDirector*>*) == 0x8);
     // [DebuggerBrowsableAttribute] Offset: 0x11D9804
     // private System.Action`1<UnityEngine.Playables.PlayableDirector> paused
     // Size: 0x8
     // Offset: 0x20
-    System::Action_1<UnityEngine::Playables::PlayableDirector*>* paused;
+    ::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* paused;
     // Field size check
-    static_assert(sizeof(System::Action_1<UnityEngine::Playables::PlayableDirector*>*) == 0x8);
+    static_assert(sizeof(::System::Action_1<::UnityEngine::Playables::PlayableDirector*>*) == 0x8);
     // [DebuggerBrowsableAttribute] Offset: 0x11D9840
     // private System.Action`1<UnityEngine.Playables.PlayableDirector> stopped
     // Size: 0x8
     // Offset: 0x28
-    System::Action_1<UnityEngine::Playables::PlayableDirector*>* stopped;
+    ::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* stopped;
     // Field size check
-    static_assert(sizeof(System::Action_1<UnityEngine::Playables::PlayableDirector*>*) == 0x8);
+    static_assert(sizeof(::System::Action_1<::UnityEngine::Playables::PlayableDirector*>*) == 0x8);
     public:
-    // Creating interface conversion operator: operator UnityEngine::IExposedPropertyTable
-    operator UnityEngine::IExposedPropertyTable() noexcept {
-      return *reinterpret_cast<UnityEngine::IExposedPropertyTable*>(this);
+    // Creating interface conversion operator: operator ::UnityEngine::IExposedPropertyTable
+    operator ::UnityEngine::IExposedPropertyTable() noexcept {
+      return *reinterpret_cast<::UnityEngine::IExposedPropertyTable*>(this);
     }
-    // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const noexcept = delete;
+    // Deleting conversion operator: operator ::System::IntPtr
+    constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Action`1<UnityEngine.Playables.PlayableDirector> played
-    System::Action_1<UnityEngine::Playables::PlayableDirector*>*& dyn_played();
+    ::System::Action_1<::UnityEngine::Playables::PlayableDirector*>*& dyn_played();
     // Get instance field reference: private System.Action`1<UnityEngine.Playables.PlayableDirector> paused
-    System::Action_1<UnityEngine::Playables::PlayableDirector*>*& dyn_paused();
+    ::System::Action_1<::UnityEngine::Playables::PlayableDirector*>*& dyn_paused();
     // Get instance field reference: private System.Action`1<UnityEngine.Playables.PlayableDirector> stopped
-    System::Action_1<UnityEngine::Playables::PlayableDirector*>*& dyn_stopped();
+    ::System::Action_1<::UnityEngine::Playables::PlayableDirector*>*& dyn_stopped();
     // public UnityEngine.Playables.DirectorWrapMode get_extrapolationMode()
     // Offset: 0x2A626BC
-    UnityEngine::Playables::DirectorWrapMode get_extrapolationMode();
+    ::UnityEngine::Playables::DirectorWrapMode get_extrapolationMode();
     // public UnityEngine.Playables.PlayableAsset get_playableAsset()
     // Offset: 0x2A6273C
-    UnityEngine::Playables::PlayableAsset* get_playableAsset();
+    ::UnityEngine::Playables::PlayableAsset* get_playableAsset();
     // public UnityEngine.Playables.PlayableGraph get_playableGraph()
     // Offset: 0x2A62824
-    UnityEngine::Playables::PlayableGraph get_playableGraph();
+    ::UnityEngine::Playables::PlayableGraph get_playableGraph();
     // public System.Double get_time()
     // Offset: 0x2A62980
     double get_time();
@@ -117,7 +117,7 @@ namespace UnityEngine::Playables {
     double get_duration();
     // public System.Void SetGenericBinding(UnityEngine.Object key, UnityEngine.Object value)
     // Offset: 0x2A62880
-    void SetGenericBinding(UnityEngine::Object* key, UnityEngine::Object* value);
+    void SetGenericBinding(::UnityEngine::Object* key, ::UnityEngine::Object* value);
     // public System.Void Evaluate()
     // Offset: 0x2A62A00
     void Evaluate();
@@ -132,25 +132,25 @@ namespace UnityEngine::Playables {
     void Pause();
     // public System.Void SetReferenceValue(UnityEngine.PropertyName id, UnityEngine.Object value)
     // Offset: 0x2A62B00
-    void SetReferenceValue(UnityEngine::PropertyName id, UnityEngine::Object* value);
+    void SetReferenceValue(::UnityEngine::PropertyName id, ::UnityEngine::Object* value);
     // public UnityEngine.Object GetReferenceValue(UnityEngine.PropertyName id, out System.Boolean idValid)
     // Offset: 0x2A62BB4
-    UnityEngine::Object* GetReferenceValue(UnityEngine::PropertyName id, ByRef<bool> idValid);
+    ::UnityEngine::Object* GetReferenceValue(::UnityEngine::PropertyName id, ByRef<bool> idValid);
     // public UnityEngine.Object GetGenericBinding(UnityEngine.Object key)
     // Offset: 0x2A62C68
-    UnityEngine::Object* GetGenericBinding(UnityEngine::Object* key);
+    ::UnityEngine::Object* GetGenericBinding(::UnityEngine::Object* key);
     // private UnityEngine.Playables.DirectorWrapMode GetWrapMode()
     // Offset: 0x2A626FC
-    UnityEngine::Playables::DirectorWrapMode GetWrapMode();
+    ::UnityEngine::Playables::DirectorWrapMode GetWrapMode();
     // private UnityEngine.Playables.PlayableGraph GetGraphHandle()
     // Offset: 0x2A62828
-    UnityEngine::Playables::PlayableGraph GetGraphHandle();
+    ::UnityEngine::Playables::PlayableGraph GetGraphHandle();
     // private System.Void Internal_SetGenericBinding(UnityEngine.Object key, UnityEngine.Object value)
     // Offset: 0x2A628D8
-    void Internal_SetGenericBinding(UnityEngine::Object* key, UnityEngine::Object* value);
+    void Internal_SetGenericBinding(::UnityEngine::Object* key, ::UnityEngine::Object* value);
     // private UnityEngine.ScriptableObject Internal_GetPlayableAsset()
     // Offset: 0x2A627E4
-    UnityEngine::ScriptableObject* Internal_GetPlayableAsset();
+    ::UnityEngine::ScriptableObject* Internal_GetPlayableAsset();
     // private System.Void SendOnPlayableDirectorPlay()
     // Offset: 0x2A62D08
     void SendOnPlayableDirectorPlay();
@@ -162,23 +162,23 @@ namespace UnityEngine::Playables {
     void SendOnPlayableDirectorStop();
     // private System.Void SetReferenceValue_Injected(ref UnityEngine.PropertyName id, UnityEngine.Object value)
     // Offset: 0x2A62B5C
-    void SetReferenceValue_Injected(ByRef<UnityEngine::PropertyName> id, UnityEngine::Object* value);
+    void SetReferenceValue_Injected(ByRef<::UnityEngine::PropertyName> id, ::UnityEngine::Object* value);
     // private UnityEngine.Object GetReferenceValue_Injected(ref UnityEngine.PropertyName id, out System.Boolean idValid)
     // Offset: 0x2A62C10
-    UnityEngine::Object* GetReferenceValue_Injected(ByRef<UnityEngine::PropertyName> id, ByRef<bool> idValid);
+    ::UnityEngine::Object* GetReferenceValue_Injected(ByRef<::UnityEngine::PropertyName> id, ByRef<bool> idValid);
     // private System.Void GetGraphHandle_Injected(out UnityEngine.Playables.PlayableGraph ret)
     // Offset: 0x2A62CB8
-    void GetGraphHandle_Injected(ByRef<UnityEngine::Playables::PlayableGraph> ret);
+    void GetGraphHandle_Injected(ByRef<::UnityEngine::Playables::PlayableGraph> ret);
   }; // UnityEngine.Playables.PlayableDirector
   #pragma pack(pop)
-  static check_size<sizeof(PlayableDirector), 40 + sizeof(System::Action_1<UnityEngine::Playables::PlayableDirector*>*)> __UnityEngine_Playables_PlayableDirectorSizeCheck;
+  static check_size<sizeof(PlayableDirector), 40 + sizeof(::System::Action_1<::UnityEngine::Playables::PlayableDirector*>*)> __UnityEngine_Playables_PlayableDirectorSizeCheck;
   static_assert(sizeof(PlayableDirector) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableDirector::get_extrapolationMode
 // Il2CppName: get_extrapolationMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::DirectorWrapMode (UnityEngine::Playables::PlayableDirector::*)()>(&UnityEngine::Playables::PlayableDirector::get_extrapolationMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::DirectorWrapMode (UnityEngine::Playables::PlayableDirector::*)()>(&UnityEngine::Playables::PlayableDirector::get_extrapolationMode)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableDirector*), "get_extrapolationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -186,7 +186,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableDirector::get_playableAsset
 // Il2CppName: get_playableAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableAsset* (UnityEngine::Playables::PlayableDirector::*)()>(&UnityEngine::Playables::PlayableDirector::get_playableAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::PlayableAsset* (UnityEngine::Playables::PlayableDirector::*)()>(&UnityEngine::Playables::PlayableDirector::get_playableAsset)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableDirector*), "get_playableAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -194,7 +194,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableDirector::get_playableGraph
 // Il2CppName: get_playableGraph
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableGraph (UnityEngine::Playables::PlayableDirector::*)()>(&UnityEngine::Playables::PlayableDirector::get_playableGraph)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::PlayableGraph (UnityEngine::Playables::PlayableDirector::*)()>(&UnityEngine::Playables::PlayableDirector::get_playableGraph)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableDirector*), "get_playableGraph", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -227,7 +227,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (Uni
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableDirector::SetGenericBinding
 // Il2CppName: SetGenericBinding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableDirector::*)(UnityEngine::Object*, UnityEngine::Object*)>(&UnityEngine::Playables::PlayableDirector::SetGenericBinding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableDirector::*)(::UnityEngine::Object*, ::UnityEngine::Object*)>(&UnityEngine::Playables::PlayableDirector::SetGenericBinding)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
@@ -269,7 +269,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableDirector::SetReferenceValue
 // Il2CppName: SetReferenceValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableDirector::*)(UnityEngine::PropertyName, UnityEngine::Object*)>(&UnityEngine::Playables::PlayableDirector::SetReferenceValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableDirector::*)(::UnityEngine::PropertyName, ::UnityEngine::Object*)>(&UnityEngine::Playables::PlayableDirector::SetReferenceValue)> {
   static const MethodInfo* get() {
     static auto* id = &::il2cpp_utils::GetClassFromName("UnityEngine", "PropertyName")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
@@ -279,7 +279,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableDirector::GetReferenceValue
 // Il2CppName: GetReferenceValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (UnityEngine::Playables::PlayableDirector::*)(UnityEngine::PropertyName, ByRef<bool>)>(&UnityEngine::Playables::PlayableDirector::GetReferenceValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Object* (UnityEngine::Playables::PlayableDirector::*)(::UnityEngine::PropertyName, ByRef<bool>)>(&UnityEngine::Playables::PlayableDirector::GetReferenceValue)> {
   static const MethodInfo* get() {
     static auto* id = &::il2cpp_utils::GetClassFromName("UnityEngine", "PropertyName")->byval_arg;
     static auto* idValid = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
@@ -289,7 +289,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableDirector::GetGenericBinding
 // Il2CppName: GetGenericBinding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (UnityEngine::Playables::PlayableDirector::*)(UnityEngine::Object*)>(&UnityEngine::Playables::PlayableDirector::GetGenericBinding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Object* (UnityEngine::Playables::PlayableDirector::*)(::UnityEngine::Object*)>(&UnityEngine::Playables::PlayableDirector::GetGenericBinding)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableDirector*), "GetGenericBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});
@@ -298,7 +298,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableDirector::GetWrapMode
 // Il2CppName: GetWrapMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::DirectorWrapMode (UnityEngine::Playables::PlayableDirector::*)()>(&UnityEngine::Playables::PlayableDirector::GetWrapMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::DirectorWrapMode (UnityEngine::Playables::PlayableDirector::*)()>(&UnityEngine::Playables::PlayableDirector::GetWrapMode)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableDirector*), "GetWrapMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -306,7 +306,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableDirector::GetGraphHandle
 // Il2CppName: GetGraphHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableGraph (UnityEngine::Playables::PlayableDirector::*)()>(&UnityEngine::Playables::PlayableDirector::GetGraphHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::PlayableGraph (UnityEngine::Playables::PlayableDirector::*)()>(&UnityEngine::Playables::PlayableDirector::GetGraphHandle)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableDirector*), "GetGraphHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -314,7 +314,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableDirector::Internal_SetGenericBinding
 // Il2CppName: Internal_SetGenericBinding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableDirector::*)(UnityEngine::Object*, UnityEngine::Object*)>(&UnityEngine::Playables::PlayableDirector::Internal_SetGenericBinding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableDirector::*)(::UnityEngine::Object*, ::UnityEngine::Object*)>(&UnityEngine::Playables::PlayableDirector::Internal_SetGenericBinding)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
@@ -324,7 +324,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableDirector::Internal_GetPlayableAsset
 // Il2CppName: Internal_GetPlayableAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ScriptableObject* (UnityEngine::Playables::PlayableDirector::*)()>(&UnityEngine::Playables::PlayableDirector::Internal_GetPlayableAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ScriptableObject* (UnityEngine::Playables::PlayableDirector::*)()>(&UnityEngine::Playables::PlayableDirector::Internal_GetPlayableAsset)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableDirector*), "Internal_GetPlayableAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -356,7 +356,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableDirector::SetReferenceValue_Injected
 // Il2CppName: SetReferenceValue_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableDirector::*)(ByRef<UnityEngine::PropertyName>, UnityEngine::Object*)>(&UnityEngine::Playables::PlayableDirector::SetReferenceValue_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableDirector::*)(ByRef<::UnityEngine::PropertyName>, ::UnityEngine::Object*)>(&UnityEngine::Playables::PlayableDirector::SetReferenceValue_Injected)> {
   static const MethodInfo* get() {
     static auto* id = &::il2cpp_utils::GetClassFromName("UnityEngine", "PropertyName")->this_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
@@ -366,7 +366,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableDirector::GetReferenceValue_Injected
 // Il2CppName: GetReferenceValue_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (UnityEngine::Playables::PlayableDirector::*)(ByRef<UnityEngine::PropertyName>, ByRef<bool>)>(&UnityEngine::Playables::PlayableDirector::GetReferenceValue_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Object* (UnityEngine::Playables::PlayableDirector::*)(ByRef<::UnityEngine::PropertyName>, ByRef<bool>)>(&UnityEngine::Playables::PlayableDirector::GetReferenceValue_Injected)> {
   static const MethodInfo* get() {
     static auto* id = &::il2cpp_utils::GetClassFromName("UnityEngine", "PropertyName")->this_arg;
     static auto* idValid = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
@@ -376,7 +376,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableDirector::GetGraphHandle_Injected
 // Il2CppName: GetGraphHandle_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableDirector::*)(ByRef<UnityEngine::Playables::PlayableGraph>)>(&UnityEngine::Playables::PlayableDirector::GetGraphHandle_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableDirector::*)(ByRef<::UnityEngine::Playables::PlayableGraph>)>(&UnityEngine::Playables::PlayableDirector::GetGraphHandle_Injected)> {
   static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableGraph")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableDirector*), "GetGraphHandle_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});

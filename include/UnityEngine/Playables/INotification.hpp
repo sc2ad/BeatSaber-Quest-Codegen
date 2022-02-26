@@ -18,8 +18,8 @@ namespace UnityEngine::Playables {
   class INotification;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Playables::INotification);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::INotification*, "UnityEngine.Playables", "INotification");
+NEED_NO_BOX(::UnityEngine::Playables::INotification);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Playables::INotification*, "UnityEngine.Playables", "INotification");
 // Type namespace: UnityEngine.Playables
 namespace UnityEngine::Playables {
   // Size: 0x10
@@ -30,7 +30,7 @@ namespace UnityEngine::Playables {
     public:
     // public UnityEngine.PropertyName get_id()
     // Offset: 0xFFFFFFFF
-    UnityEngine::PropertyName get_id();
+    ::UnityEngine::PropertyName get_id();
   }; // UnityEngine.Playables.INotification
   #pragma pack(pop)
 }
@@ -38,7 +38,7 @@ namespace UnityEngine::Playables {
 // Writing MetadataGetter for method: UnityEngine::Playables::INotification::get_id
 // Il2CppName: get_id
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::PropertyName (UnityEngine::Playables::INotification::*)()>(&UnityEngine::Playables::INotification::get_id)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::PropertyName (UnityEngine::Playables::INotification::*)()>(&UnityEngine::Playables::INotification::get_id)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::INotification*), "get_id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -19,8 +19,8 @@ namespace System::Xml::XmlConfiguration {
   class XmlReaderSection;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::XmlConfiguration::XmlReaderSection);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlConfiguration::XmlReaderSection*, "System.Xml.XmlConfiguration", "XmlReaderSection");
+NEED_NO_BOX(::System::Xml::XmlConfiguration::XmlReaderSection);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlConfiguration::XmlReaderSection*, "System.Xml.XmlConfiguration", "XmlReaderSection");
 // Type namespace: System.Xml.XmlConfiguration
 namespace System::Xml::XmlConfiguration {
   // Size: 0x10
@@ -38,7 +38,7 @@ namespace System::Xml::XmlConfiguration {
     static bool get_CollapseWhiteSpaceIntoEmptyString();
     // static System.Xml.XmlResolver CreateDefaultResolver()
     // Offset: 0x162411C
-    static System::Xml::XmlResolver* CreateDefaultResolver();
+    static ::System::Xml::XmlResolver* CreateDefaultResolver();
   }; // System.Xml.XmlConfiguration.XmlReaderSection
   #pragma pack(pop)
 }
@@ -62,7 +62,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Writing MetadataGetter for method: System::Xml::XmlConfiguration::XmlReaderSection::CreateDefaultResolver
 // Il2CppName: CreateDefaultResolver
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlResolver* (*)()>(&System::Xml::XmlConfiguration::XmlReaderSection::CreateDefaultResolver)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlResolver* (*)()>(&System::Xml::XmlConfiguration::XmlReaderSection::CreateDefaultResolver)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConfiguration::XmlReaderSection*), "CreateDefaultResolver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

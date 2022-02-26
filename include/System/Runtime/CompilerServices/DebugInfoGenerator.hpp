@@ -12,8 +12,8 @@ namespace System::Runtime::CompilerServices {
   class DebugInfoGenerator;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::CompilerServices::DebugInfoGenerator);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::DebugInfoGenerator*, "System.Runtime.CompilerServices", "DebugInfoGenerator");
+NEED_NO_BOX(::System::Runtime::CompilerServices::DebugInfoGenerator);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::CompilerServices::DebugInfoGenerator*, "System.Runtime.CompilerServices", "DebugInfoGenerator");
 // Type namespace: System.Runtime.CompilerServices
 namespace System::Runtime::CompilerServices {
   // Size: 0x10

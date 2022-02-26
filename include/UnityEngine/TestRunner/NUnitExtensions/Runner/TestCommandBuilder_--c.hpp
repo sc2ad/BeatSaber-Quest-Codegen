@@ -35,8 +35,8 @@ namespace System::Collections::Generic {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "TestCommandBuilder/<>c");
+NEED_NO_BOX(::UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "TestCommandBuilder/<>c");
 // Type namespace: UnityEngine.TestRunner.NUnitExtensions.Runner
 namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   // Size: 0x10
@@ -47,40 +47,40 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   class TestCommandBuilder::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly UnityEngine.TestRunner.NUnitExtensions.Runner.TestCommandBuilder/UnityEngine.TestRunner.NUnitExtensions.Runner.<>c <>9
-    static UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c* _get_$$9();
+    static ::UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c* _get_$$9();
     // Set static field: static public readonly UnityEngine.TestRunner.NUnitExtensions.Runner.TestCommandBuilder/UnityEngine.TestRunner.NUnitExtensions.Runner.<>c <>9
-    static void _set_$$9(UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c* value);
+    static void _set_$$9(::UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c* value);
     // Get static field: static public System.Func`2<NUnit.Framework.Interfaces.ITestBuilder,System.String> <>9__1_0
-    static System::Func_2<NUnit::Framework::Interfaces::ITestBuilder*, ::StringW>* _get_$$9__1_0();
+    static ::System::Func_2<::NUnit::Framework::Interfaces::ITestBuilder*, ::StringW>* _get_$$9__1_0();
     // Set static field: static public System.Func`2<NUnit.Framework.Interfaces.ITestBuilder,System.String> <>9__1_0
-    static void _set_$$9__1_0(System::Func_2<NUnit::Framework::Interfaces::ITestBuilder*, ::StringW>* value);
+    static void _set_$$9__1_0(::System::Func_2<::NUnit::Framework::Interfaces::ITestBuilder*, ::StringW>* value);
     // Get static field: static public System.Func`2<NUnit.Framework.Interfaces.ISimpleTestBuilder,System.String> <>9__1_1
-    static System::Func_2<NUnit::Framework::Interfaces::ISimpleTestBuilder*, ::StringW>* _get_$$9__1_1();
+    static ::System::Func_2<::NUnit::Framework::Interfaces::ISimpleTestBuilder*, ::StringW>* _get_$$9__1_1();
     // Set static field: static public System.Func`2<NUnit.Framework.Interfaces.ISimpleTestBuilder,System.String> <>9__1_1
-    static void _set_$$9__1_1(System::Func_2<NUnit::Framework::Interfaces::ISimpleTestBuilder*, ::StringW>* value);
+    static void _set_$$9__1_1(::System::Func_2<::NUnit::Framework::Interfaces::ISimpleTestBuilder*, ::StringW>* value);
     // Get static field: static public System.Func`2<System.Collections.Generic.IEnumerable`1<System.String>,System.Collections.Generic.IEnumerable`1<System.String>> <>9__1_2
-    static System::Func_2<System::Collections::Generic::IEnumerable_1<::StringW>*, System::Collections::Generic::IEnumerable_1<::StringW>*>* _get_$$9__1_2();
+    static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::StringW>*, ::System::Collections::Generic::IEnumerable_1<::StringW>*>* _get_$$9__1_2();
     // Set static field: static public System.Func`2<System.Collections.Generic.IEnumerable`1<System.String>,System.Collections.Generic.IEnumerable`1<System.String>> <>9__1_2
-    static void _set_$$9__1_2(System::Func_2<System::Collections::Generic::IEnumerable_1<::StringW>*, System::Collections::Generic::IEnumerable_1<::StringW>*>* value);
+    static void _set_$$9__1_2(::System::Func_2<::System::Collections::Generic::IEnumerable_1<::StringW>*, ::System::Collections::Generic::IEnumerable_1<::StringW>*>* value);
     // static private System.Void .cctor()
     // Offset: 0x18CE34C
     static void _cctor();
     // System.String <GetTestBuilderName>b__1_0(NUnit.Framework.Interfaces.ITestBuilder attribute)
     // Offset: 0x18CE3B8
-    ::StringW $GetTestBuilderName$b__1_0(NUnit::Framework::Interfaces::ITestBuilder* attribute);
+    ::StringW $GetTestBuilderName$b__1_0(::NUnit::Framework::Interfaces::ITestBuilder* attribute);
     // System.String <GetTestBuilderName>b__1_1(NUnit.Framework.Interfaces.ISimpleTestBuilder attribute)
     // Offset: 0x18CE3E8
-    ::StringW $GetTestBuilderName$b__1_1(NUnit::Framework::Interfaces::ISimpleTestBuilder* attribute);
+    ::StringW $GetTestBuilderName$b__1_1(::NUnit::Framework::Interfaces::ISimpleTestBuilder* attribute);
     // System.Collections.Generic.IEnumerable`1<System.String> <GetTestBuilderName>b__1_2(System.Collections.Generic.IEnumerable`1<System.String> v)
     // Offset: 0x18CE418
-    System::Collections::Generic::IEnumerable_1<::StringW>* $GetTestBuilderName$b__1_2(System::Collections::Generic::IEnumerable_1<::StringW>* v);
+    ::System::Collections::Generic::IEnumerable_1<::StringW>* $GetTestBuilderName$b__1_2(::System::Collections::Generic::IEnumerable_1<::StringW>* v);
     // public System.Void .ctor()
     // Offset: 0x18CE3B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestCommandBuilder::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestCommandBuilder::$$c*, creationType>()));
     }
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.TestCommandBuilder/UnityEngine.TestRunner.NUnitExtensions.Runner.<>c
@@ -98,7 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c::$GetTestBuilderName$b__1_0
 // Il2CppName: <GetTestBuilderName>b__1_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c::*)(NUnit::Framework::Interfaces::ITestBuilder*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c::$GetTestBuilderName$b__1_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c::*)(::NUnit::Framework::Interfaces::ITestBuilder*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c::$GetTestBuilderName$b__1_0)> {
   static const MethodInfo* get() {
     static auto* attribute = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ITestBuilder")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c*), "<GetTestBuilderName>b__1_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attribute});
@@ -107,7 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c::$GetTestBuilderName$b__1_1
 // Il2CppName: <GetTestBuilderName>b__1_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c::*)(NUnit::Framework::Interfaces::ISimpleTestBuilder*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c::$GetTestBuilderName$b__1_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c::*)(::NUnit::Framework::Interfaces::ISimpleTestBuilder*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c::$GetTestBuilderName$b__1_1)> {
   static const MethodInfo* get() {
     static auto* attribute = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ISimpleTestBuilder")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c*), "<GetTestBuilderName>b__1_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attribute});
@@ -116,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c::$GetTestBuilderName$b__1_2
 // Il2CppName: <GetTestBuilderName>b__1_2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::StringW>* (UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c::*)(System::Collections::Generic::IEnumerable_1<::StringW>*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c::$GetTestBuilderName$b__1_2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>* (UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c::*)(::System::Collections::Generic::IEnumerable_1<::StringW>*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c::$GetTestBuilderName$b__1_2)> {
   static const MethodInfo* get() {
     static auto* v = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c*), "<GetTestBuilderName>b__1_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{v});

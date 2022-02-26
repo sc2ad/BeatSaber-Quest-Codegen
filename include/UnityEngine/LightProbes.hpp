@@ -14,8 +14,8 @@ namespace UnityEngine {
   class LightProbes;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::LightProbes);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LightProbes*, "UnityEngine", "LightProbes");
+NEED_NO_BOX(::UnityEngine::LightProbes);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::LightProbes*, "UnityEngine", "LightProbes");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -25,7 +25,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NativeHeaderAttribute] Offset: 11A43D0
   // [NativeAsStructAttribute] Offset: FFFFFFFF
-  class LightProbes : public UnityEngine::Object {
+  class LightProbes : public ::UnityEngine::Object {
     public:
   }; // UnityEngine.LightProbes
   #pragma pack(pop)

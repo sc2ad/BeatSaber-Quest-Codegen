@@ -14,8 +14,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(BGNet::Core::Messages::BaseClientUnconnectedMessageHandler::$$c__DisplayClass35_0);
-DEFINE_IL2CPP_ARG_TYPE(BGNet::Core::Messages::BaseClientUnconnectedMessageHandler::$$c__DisplayClass35_0*, "BGNet.Core.Messages", "BaseClientUnconnectedMessageHandler/<>c__DisplayClass35_0");
+NEED_NO_BOX(::BGNet::Core::Messages::BaseClientUnconnectedMessageHandler::$$c__DisplayClass35_0);
+DEFINE_IL2CPP_ARG_TYPE(::BGNet::Core::Messages::BaseClientUnconnectedMessageHandler::$$c__DisplayClass35_0*, "BGNet.Core.Messages", "BaseClientUnconnectedMessageHandler/<>c__DisplayClass35_0");
 // Type namespace: BGNet.Core.Messages
 namespace BGNet::Core::Messages {
   // Size: 0x40
@@ -61,9 +61,9 @@ namespace BGNet::Core::Messages {
     // public BGNet.Core.Messages.BaseClientUnconnectedMessageHandler <>4__this
     // Size: 0x8
     // Offset: 0x30
-    BGNet::Core::Messages::BaseClientUnconnectedMessageHandler* $$4__this;
+    ::BGNet::Core::Messages::BaseClientUnconnectedMessageHandler* $$4__this;
     // Field size check
-    static_assert(sizeof(BGNet::Core::Messages::BaseClientUnconnectedMessageHandler*) == 0x8);
+    static_assert(sizeof(::BGNet::Core::Messages::BaseClientUnconnectedMessageHandler*) == 0x8);
     // public System.Byte[] signature
     // Size: 0x8
     // Offset: 0x38
@@ -80,7 +80,7 @@ namespace BGNet::Core::Messages {
     // Get instance field reference: public System.Byte[][] certData
     ::ArrayW<::ArrayW<uint8_t>>& dyn_certData();
     // Get instance field reference: public BGNet.Core.Messages.BaseClientUnconnectedMessageHandler <>4__this
-    BGNet::Core::Messages::BaseClientUnconnectedMessageHandler*& dyn_$$4__this();
+    ::BGNet::Core::Messages::BaseClientUnconnectedMessageHandler*& dyn_$$4__this();
     // Get instance field reference: public System.Byte[] signature
     ::ArrayW<uint8_t>& dyn_signature();
     // System.Boolean <VerifySignature>b__0()
@@ -92,7 +92,7 @@ namespace BGNet::Core::Messages {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseClientUnconnectedMessageHandler::$$c__DisplayClass35_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("BGNet::Core::Messages::BaseClientUnconnectedMessageHandler::$$c__DisplayClass35_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::BaseClientUnconnectedMessageHandler::$$c__DisplayClass35_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseClientUnconnectedMessageHandler::$$c__DisplayClass35_0*, creationType>()));
     }
   }; // BGNet.Core.Messages.BaseClientUnconnectedMessageHandler/BGNet.Core.Messages.<>c__DisplayClass35_0

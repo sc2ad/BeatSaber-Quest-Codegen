@@ -50,8 +50,8 @@ namespace MasterServer {
   class IMasterServer;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(MasterServer::IMasterServer);
-DEFINE_IL2CPP_ARG_TYPE(MasterServer::IMasterServer*, "MasterServer", "IMasterServer");
+NEED_NO_BOX(::MasterServer::IMasterServer);
+DEFINE_IL2CPP_ARG_TYPE(::MasterServer::IMasterServer*, "MasterServer", "IMasterServer");
 // Type namespace: MasterServer
 namespace MasterServer {
   // Size: 0x10
@@ -62,34 +62,34 @@ namespace MasterServer {
     public:
     // public System.Boolean ShouldHandleMessageFromEndPoint(System.Net.IPEndPoint remoteEndPoint)
     // Offset: 0xFFFFFFFF
-    bool ShouldHandleMessageFromEndPoint(System::Net::IPEndPoint* remoteEndPoint);
+    bool ShouldHandleMessageFromEndPoint(::System::Net::IPEndPoint* remoteEndPoint);
     // public System.Void ReportExceptionForEndPoint(System.Net.IPEndPoint remoteEndPoint, System.Exception exception)
     // Offset: 0xFFFFFFFF
-    void ReportExceptionForEndPoint(System::Net::IPEndPoint* remoteEndPoint, System::Exception* exception);
+    void ReportExceptionForEndPoint(::System::Net::IPEndPoint* remoteEndPoint, ::System::Exception* exception);
     // public System.Threading.Tasks.Task`1<System.Boolean> TryAuthenticateUser(System.UInt32 protocolVersion, System.Net.IPEndPoint endPoint, AuthenticationToken authenticationToken)
     // Offset: 0xFFFFFFFF
-    System::Threading::Tasks::Task_1<bool>* TryAuthenticateUser(uint protocolVersion, System::Net::IPEndPoint* endPoint, GlobalNamespace::AuthenticationToken authenticationToken);
+    ::System::Threading::Tasks::Task_1<bool>* TryAuthenticateUser(uint protocolVersion, ::System::Net::IPEndPoint* endPoint, ::GlobalNamespace::AuthenticationToken authenticationToken);
     // public System.Threading.Tasks.Task`1<MasterServer.ConnectToServerResponse> ConnectToServer(System.UInt32 protocolVersion, System.Net.IPEndPoint endPoint, System.String userId, System.String userName, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, System.Byte[] random, System.Byte[] publicKey, System.String secret, System.String code)
     // Offset: 0xFFFFFFFF
-    System::Threading::Tasks::Task_1<MasterServer::ConnectToServerResponse*>* ConnectToServer(uint protocolVersion, System::Net::IPEndPoint* endPoint, ::StringW userId, ::StringW userName, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, ::ArrayW<uint8_t> random, ::ArrayW<uint8_t> publicKey, ::StringW secret, ::StringW code);
+    ::System::Threading::Tasks::Task_1<::MasterServer::ConnectToServerResponse*>* ConnectToServer(uint protocolVersion, ::System::Net::IPEndPoint* endPoint, ::StringW userId, ::StringW userName, ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::GlobalNamespace::GameplayServerConfiguration configuration, ::ArrayW<uint8_t> random, ::ArrayW<uint8_t> publicKey, ::StringW secret, ::StringW code);
     // public System.Threading.Tasks.Task`1<MasterServer.GetPublicServersResponse> GetPublicServers(System.UInt32 protocolVersion, System.Net.IPEndPoint endPoint, System.String userId, System.String userName, System.Int32 skip, System.Int32 count, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration)
     // Offset: 0xFFFFFFFF
-    System::Threading::Tasks::Task_1<MasterServer::GetPublicServersResponse*>* GetPublicServers(uint protocolVersion, System::Net::IPEndPoint* endPoint, ::StringW userId, ::StringW userName, int skip, int count, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration);
+    ::System::Threading::Tasks::Task_1<::MasterServer::GetPublicServersResponse*>* GetPublicServers(uint protocolVersion, ::System::Net::IPEndPoint* endPoint, ::StringW userId, ::StringW userName, int skip, int count, ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::GlobalNamespace::GameplayServerConfiguration configuration);
     // public System.Boolean TryAuthenticateDedicatedServer(System.UInt32 protocolVersion, System.Net.IPEndPoint endPoint, System.String id, System.Byte[] nonce, System.Byte[] hash, System.Int64 timestamp)
     // Offset: 0xFFFFFFFF
-    bool TryAuthenticateDedicatedServer(uint protocolVersion, System::Net::IPEndPoint* endPoint, ::StringW id, ::ArrayW<uint8_t> nonce, ::ArrayW<uint8_t> hash, int64_t timestamp);
+    bool TryAuthenticateDedicatedServer(uint protocolVersion, ::System::Net::IPEndPoint* endPoint, ::StringW id, ::ArrayW<uint8_t> nonce, ::ArrayW<uint8_t> hash, int64_t timestamp);
     // public System.Void HeartbeatDedicatedServer(System.UInt32 protocolVersion, System.String dedicatedServerId, System.Int64 dedicatedServerCreationTime, System.Net.IPEndPoint endPoint, System.Int32 cpuUtilization, System.Int32 occupiedServerSlotCount, System.Int32 unoccupiedServerSlotCount)
     // Offset: 0xFFFFFFFF
-    void HeartbeatDedicatedServer(uint protocolVersion, ::StringW dedicatedServerId, int64_t dedicatedServerCreationTime, System::Net::IPEndPoint* endPoint, int cpuUtilization, int occupiedServerSlotCount, int unoccupiedServerSlotCount);
+    void HeartbeatDedicatedServer(uint protocolVersion, ::StringW dedicatedServerId, int64_t dedicatedServerCreationTime, ::System::Net::IPEndPoint* endPoint, int cpuUtilization, int occupiedServerSlotCount, int unoccupiedServerSlotCount);
     // public System.Void UpdateDedicatedServerInstanceStatus(System.UInt32 protocolVersion, System.String dedicatedServerId, System.Int64 dedicatedServerCreationTime, System.Net.IPEndPoint endPoint, System.String id, GameStateType gameState, System.Int32 currentPlayerCount)
     // Offset: 0xFFFFFFFF
-    void UpdateDedicatedServerInstanceStatus(uint protocolVersion, ::StringW dedicatedServerId, int64_t dedicatedServerCreationTime, System::Net::IPEndPoint* endPoint, ::StringW id, GlobalNamespace::GameStateType gameState, int currentPlayerCount);
+    void UpdateDedicatedServerInstanceStatus(uint protocolVersion, ::StringW dedicatedServerId, int64_t dedicatedServerCreationTime, ::System::Net::IPEndPoint* endPoint, ::StringW id, ::GlobalNamespace::GameStateType gameState, int currentPlayerCount);
     // public System.Void SetDedicatedServerInstanceNoLongerOccupied(System.UInt32 protocolVersion, System.String dedicatedServerId, System.Int64 dedicatedServerCreationTime, System.Net.IPEndPoint endPoint, System.String id)
     // Offset: 0xFFFFFFFF
-    void SetDedicatedServerInstanceNoLongerOccupied(uint protocolVersion, ::StringW dedicatedServerId, int64_t dedicatedServerCreationTime, System::Net::IPEndPoint* endPoint, ::StringW id);
+    void SetDedicatedServerInstanceNoLongerOccupied(uint protocolVersion, ::StringW dedicatedServerId, int64_t dedicatedServerCreationTime, ::System::Net::IPEndPoint* endPoint, ::StringW id);
     // public System.Void RemoveDedicatedServer(System.UInt32 protocolVersion, System.String dedicatedServerId, System.Int64 dedicatedServerCreationTime, System.Net.IPEndPoint endPoint)
     // Offset: 0xFFFFFFFF
-    void RemoveDedicatedServer(uint protocolVersion, ::StringW dedicatedServerId, int64_t dedicatedServerCreationTime, System::Net::IPEndPoint* endPoint);
+    void RemoveDedicatedServer(uint protocolVersion, ::StringW dedicatedServerId, int64_t dedicatedServerCreationTime, ::System::Net::IPEndPoint* endPoint);
   }; // MasterServer.IMasterServer
   #pragma pack(pop)
 }
@@ -97,7 +97,7 @@ namespace MasterServer {
 // Writing MetadataGetter for method: MasterServer::IMasterServer::ShouldHandleMessageFromEndPoint
 // Il2CppName: ShouldHandleMessageFromEndPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MasterServer::IMasterServer::*)(System::Net::IPEndPoint*)>(&MasterServer::IMasterServer::ShouldHandleMessageFromEndPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MasterServer::IMasterServer::*)(::System::Net::IPEndPoint*)>(&MasterServer::IMasterServer::ShouldHandleMessageFromEndPoint)> {
   static const MethodInfo* get() {
     static auto* remoteEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::IMasterServer*), "ShouldHandleMessageFromEndPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{remoteEndPoint});
@@ -106,7 +106,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Maste
 // Writing MetadataGetter for method: MasterServer::IMasterServer::ReportExceptionForEndPoint
 // Il2CppName: ReportExceptionForEndPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IMasterServer::*)(System::Net::IPEndPoint*, System::Exception*)>(&MasterServer::IMasterServer::ReportExceptionForEndPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IMasterServer::*)(::System::Net::IPEndPoint*, ::System::Exception*)>(&MasterServer::IMasterServer::ReportExceptionForEndPoint)> {
   static const MethodInfo* get() {
     static auto* remoteEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     static auto* exception = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
@@ -116,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Writing MetadataGetter for method: MasterServer::IMasterServer::TryAuthenticateUser
 // Il2CppName: TryAuthenticateUser
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<bool>* (MasterServer::IMasterServer::*)(uint, System::Net::IPEndPoint*, GlobalNamespace::AuthenticationToken)>(&MasterServer::IMasterServer::TryAuthenticateUser)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<bool>* (MasterServer::IMasterServer::*)(uint, ::System::Net::IPEndPoint*, ::GlobalNamespace::AuthenticationToken)>(&MasterServer::IMasterServer::TryAuthenticateUser)> {
   static const MethodInfo* get() {
     static auto* protocolVersion = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* endPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
@@ -127,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: MasterServer::IMasterServer::ConnectToServer
 // Il2CppName: ConnectToServer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<MasterServer::ConnectToServerResponse*>* (MasterServer::IMasterServer::*)(uint, System::Net::IPEndPoint*, ::StringW, ::StringW, GlobalNamespace::BeatmapLevelSelectionMask, GlobalNamespace::GameplayServerConfiguration, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, ::StringW, ::StringW)>(&MasterServer::IMasterServer::ConnectToServer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::MasterServer::ConnectToServerResponse*>* (MasterServer::IMasterServer::*)(uint, ::System::Net::IPEndPoint*, ::StringW, ::StringW, ::GlobalNamespace::BeatmapLevelSelectionMask, ::GlobalNamespace::GameplayServerConfiguration, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, ::StringW, ::StringW)>(&MasterServer::IMasterServer::ConnectToServer)> {
   static const MethodInfo* get() {
     static auto* protocolVersion = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* endPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
@@ -145,7 +145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: MasterServer::IMasterServer::GetPublicServers
 // Il2CppName: GetPublicServers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<MasterServer::GetPublicServersResponse*>* (MasterServer::IMasterServer::*)(uint, System::Net::IPEndPoint*, ::StringW, ::StringW, int, int, GlobalNamespace::BeatmapLevelSelectionMask, GlobalNamespace::GameplayServerConfiguration)>(&MasterServer::IMasterServer::GetPublicServers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::MasterServer::GetPublicServersResponse*>* (MasterServer::IMasterServer::*)(uint, ::System::Net::IPEndPoint*, ::StringW, ::StringW, int, int, ::GlobalNamespace::BeatmapLevelSelectionMask, ::GlobalNamespace::GameplayServerConfiguration)>(&MasterServer::IMasterServer::GetPublicServers)> {
   static const MethodInfo* get() {
     static auto* protocolVersion = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* endPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
@@ -161,7 +161,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: MasterServer::IMasterServer::TryAuthenticateDedicatedServer
 // Il2CppName: TryAuthenticateDedicatedServer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MasterServer::IMasterServer::*)(uint, System::Net::IPEndPoint*, ::StringW, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, int64_t)>(&MasterServer::IMasterServer::TryAuthenticateDedicatedServer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MasterServer::IMasterServer::*)(uint, ::System::Net::IPEndPoint*, ::StringW, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, int64_t)>(&MasterServer::IMasterServer::TryAuthenticateDedicatedServer)> {
   static const MethodInfo* get() {
     static auto* protocolVersion = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* endPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
@@ -175,7 +175,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Maste
 // Writing MetadataGetter for method: MasterServer::IMasterServer::HeartbeatDedicatedServer
 // Il2CppName: HeartbeatDedicatedServer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IMasterServer::*)(uint, ::StringW, int64_t, System::Net::IPEndPoint*, int, int, int)>(&MasterServer::IMasterServer::HeartbeatDedicatedServer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IMasterServer::*)(uint, ::StringW, int64_t, ::System::Net::IPEndPoint*, int, int, int)>(&MasterServer::IMasterServer::HeartbeatDedicatedServer)> {
   static const MethodInfo* get() {
     static auto* protocolVersion = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* dedicatedServerId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -190,7 +190,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Writing MetadataGetter for method: MasterServer::IMasterServer::UpdateDedicatedServerInstanceStatus
 // Il2CppName: UpdateDedicatedServerInstanceStatus
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IMasterServer::*)(uint, ::StringW, int64_t, System::Net::IPEndPoint*, ::StringW, GlobalNamespace::GameStateType, int)>(&MasterServer::IMasterServer::UpdateDedicatedServerInstanceStatus)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IMasterServer::*)(uint, ::StringW, int64_t, ::System::Net::IPEndPoint*, ::StringW, ::GlobalNamespace::GameStateType, int)>(&MasterServer::IMasterServer::UpdateDedicatedServerInstanceStatus)> {
   static const MethodInfo* get() {
     static auto* protocolVersion = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* dedicatedServerId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -205,7 +205,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Writing MetadataGetter for method: MasterServer::IMasterServer::SetDedicatedServerInstanceNoLongerOccupied
 // Il2CppName: SetDedicatedServerInstanceNoLongerOccupied
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IMasterServer::*)(uint, ::StringW, int64_t, System::Net::IPEndPoint*, ::StringW)>(&MasterServer::IMasterServer::SetDedicatedServerInstanceNoLongerOccupied)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IMasterServer::*)(uint, ::StringW, int64_t, ::System::Net::IPEndPoint*, ::StringW)>(&MasterServer::IMasterServer::SetDedicatedServerInstanceNoLongerOccupied)> {
   static const MethodInfo* get() {
     static auto* protocolVersion = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* dedicatedServerId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -218,7 +218,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Writing MetadataGetter for method: MasterServer::IMasterServer::RemoveDedicatedServer
 // Il2CppName: RemoveDedicatedServer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IMasterServer::*)(uint, ::StringW, int64_t, System::Net::IPEndPoint*)>(&MasterServer::IMasterServer::RemoveDedicatedServer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IMasterServer::*)(uint, ::StringW, int64_t, ::System::Net::IPEndPoint*)>(&MasterServer::IMasterServer::RemoveDedicatedServer)> {
   static const MethodInfo* get() {
     static auto* protocolVersion = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* dedicatedServerId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

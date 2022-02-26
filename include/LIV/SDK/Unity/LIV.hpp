@@ -55,8 +55,8 @@ namespace LIV::SDK::Unity {
   class LIV;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(LIV::SDK::Unity::LIV);
-DEFINE_IL2CPP_ARG_TYPE(LIV::SDK::Unity::LIV*, "LIV.SDK.Unity", "LIV");
+NEED_NO_BOX(::LIV::SDK::Unity::LIV);
+DEFINE_IL2CPP_ARG_TYPE(::LIV::SDK::Unity::LIV*, "LIV.SDK.Unity", "LIV");
 // Type namespace: LIV.SDK.Unity
 namespace LIV::SDK::Unity {
   // Size: 0xD0
@@ -65,9 +65,9 @@ namespace LIV::SDK::Unity {
   // [TokenAttribute] Offset: FFFFFFFF
   // [HelpURLAttribute] Offset: 126E70C
   // [AddComponentMenu] Offset: 126E70C
-  class LIV : public UnityEngine::MonoBehaviour {
+  class LIV : public ::UnityEngine::MonoBehaviour {
     public:
-    // Nested type: LIV::SDK::Unity::LIV::$WaitForUnityEndOfFrame$d__68
+    // Nested type: ::LIV::SDK::Unity::LIV::$WaitForUnityEndOfFrame$d__68
     class $WaitForUnityEndOfFrame$d__68;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -81,83 +81,83 @@ namespace LIV::SDK::Unity {
     // public System.Action onActivate
     // Size: 0x8
     // Offset: 0x18
-    System::Action* onActivate;
+    ::System::Action* onActivate;
     // Field size check
-    static_assert(sizeof(System::Action*) == 0x8);
+    static_assert(sizeof(::System::Action*) == 0x8);
     // public System.Action`1<LIV.SDK.Unity.SDKRender> onPreRender
     // Size: 0x8
     // Offset: 0x20
-    System::Action_1<LIV::SDK::Unity::SDKRender*>* onPreRender;
+    ::System::Action_1<::LIV::SDK::Unity::SDKRender*>* onPreRender;
     // Field size check
-    static_assert(sizeof(System::Action_1<LIV::SDK::Unity::SDKRender*>*) == 0x8);
+    static_assert(sizeof(::System::Action_1<::LIV::SDK::Unity::SDKRender*>*) == 0x8);
     // public System.Action`1<LIV.SDK.Unity.SDKRender> onPreRenderBackground
     // Size: 0x8
     // Offset: 0x28
-    System::Action_1<LIV::SDK::Unity::SDKRender*>* onPreRenderBackground;
+    ::System::Action_1<::LIV::SDK::Unity::SDKRender*>* onPreRenderBackground;
     // Field size check
-    static_assert(sizeof(System::Action_1<LIV::SDK::Unity::SDKRender*>*) == 0x8);
+    static_assert(sizeof(::System::Action_1<::LIV::SDK::Unity::SDKRender*>*) == 0x8);
     // public System.Action`1<LIV.SDK.Unity.SDKRender> onPostRenderBackground
     // Size: 0x8
     // Offset: 0x30
-    System::Action_1<LIV::SDK::Unity::SDKRender*>* onPostRenderBackground;
+    ::System::Action_1<::LIV::SDK::Unity::SDKRender*>* onPostRenderBackground;
     // Field size check
-    static_assert(sizeof(System::Action_1<LIV::SDK::Unity::SDKRender*>*) == 0x8);
+    static_assert(sizeof(::System::Action_1<::LIV::SDK::Unity::SDKRender*>*) == 0x8);
     // public System.Action`1<LIV.SDK.Unity.SDKRender> onPreRenderForeground
     // Size: 0x8
     // Offset: 0x38
-    System::Action_1<LIV::SDK::Unity::SDKRender*>* onPreRenderForeground;
+    ::System::Action_1<::LIV::SDK::Unity::SDKRender*>* onPreRenderForeground;
     // Field size check
-    static_assert(sizeof(System::Action_1<LIV::SDK::Unity::SDKRender*>*) == 0x8);
+    static_assert(sizeof(::System::Action_1<::LIV::SDK::Unity::SDKRender*>*) == 0x8);
     // public System.Action`1<LIV.SDK.Unity.SDKRender> onPostRenderForeground
     // Size: 0x8
     // Offset: 0x40
-    System::Action_1<LIV::SDK::Unity::SDKRender*>* onPostRenderForeground;
+    ::System::Action_1<::LIV::SDK::Unity::SDKRender*>* onPostRenderForeground;
     // Field size check
-    static_assert(sizeof(System::Action_1<LIV::SDK::Unity::SDKRender*>*) == 0x8);
+    static_assert(sizeof(::System::Action_1<::LIV::SDK::Unity::SDKRender*>*) == 0x8);
     // public System.Action`1<LIV.SDK.Unity.SDKRender> onPostRender
     // Size: 0x8
     // Offset: 0x48
-    System::Action_1<LIV::SDK::Unity::SDKRender*>* onPostRender;
+    ::System::Action_1<::LIV::SDK::Unity::SDKRender*>* onPostRender;
     // Field size check
-    static_assert(sizeof(System::Action_1<LIV::SDK::Unity::SDKRender*>*) == 0x8);
+    static_assert(sizeof(::System::Action_1<::LIV::SDK::Unity::SDKRender*>*) == 0x8);
     // public System.Action onDeactivate
     // Size: 0x8
     // Offset: 0x50
-    System::Action* onDeactivate;
+    ::System::Action* onDeactivate;
     // Field size check
-    static_assert(sizeof(System::Action*) == 0x8);
+    static_assert(sizeof(::System::Action*) == 0x8);
     // [TooltipAttribute] Offset: 0x126E78C
     // [FormerlySerializedAsAttribute] Offset: 0x126E78C
     // private UnityEngine.Transform _stage
     // Size: 0x8
     // Offset: 0x58
-    UnityEngine::Transform* stage;
+    ::UnityEngine::Transform* stage;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // [TooltipAttribute] Offset: 0x126E7FC
     // [FormerlySerializedAsAttribute] Offset: 0x126E7FC
     // private UnityEngine.Transform _stageTransform
     // Size: 0x8
     // Offset: 0x60
-    UnityEngine::Transform* stageTransform;
+    ::UnityEngine::Transform* stageTransform;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // [TooltipAttribute] Offset: 0x126E86C
     // [FormerlySerializedAsAttribute] Offset: 0x126E86C
     // private UnityEngine.Camera _HMDCamera
     // Size: 0x8
     // Offset: 0x68
-    UnityEngine::Camera* HMDCamera;
+    ::UnityEngine::Camera* HMDCamera;
     // Field size check
-    static_assert(sizeof(UnityEngine::Camera*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Camera*) == 0x8);
     // [TooltipAttribute] Offset: 0x126E8DC
     // [FormerlySerializedAsAttribute] Offset: 0x126E8DC
     // private UnityEngine.Camera _MRCameraPrefab
     // Size: 0x8
     // Offset: 0x70
-    UnityEngine::Camera* MRCameraPrefab;
+    ::UnityEngine::Camera* MRCameraPrefab;
     // Field size check
-    static_assert(sizeof(UnityEngine::Camera*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Camera*) == 0x8);
     // [TooltipAttribute] Offset: 0x126E94C
     // [FormerlySerializedAsAttribute] Offset: 0x126E94C
     // private System.Boolean _disableStandardAssets
@@ -173,9 +173,9 @@ namespace LIV::SDK::Unity {
     // private UnityEngine.LayerMask _spectatorLayerMask
     // Size: 0x4
     // Offset: 0x7C
-    UnityEngine::LayerMask spectatorLayerMask;
+    ::UnityEngine::LayerMask spectatorLayerMask;
     // Field size check
-    static_assert(sizeof(UnityEngine::LayerMask) == 0x4);
+    static_assert(sizeof(::UnityEngine::LayerMask) == 0x4);
     // [TooltipAttribute] Offset: 0x126EA2C
     // [FormerlySerializedAsAttribute] Offset: 0x126EA2C
     // private System.String[] _excludeBehaviours
@@ -203,9 +203,9 @@ namespace LIV::SDK::Unity {
     // private LIV.SDK.Unity.SDKRender _render
     // Size: 0x8
     // Offset: 0x90
-    LIV::SDK::Unity::SDKRender* render;
+    ::LIV::SDK::Unity::SDKRender* render;
     // Field size check
-    static_assert(sizeof(LIV::SDK::Unity::SDKRender*) == 0x8);
+    static_assert(sizeof(::LIV::SDK::Unity::SDKRender*) == 0x8);
     // private System.Boolean _wasReady
     // Size: 0x1
     // Offset: 0x98
@@ -217,27 +217,27 @@ namespace LIV::SDK::Unity {
     // private LIV.SDK.Unity.INVALIDATION_FLAGS _invalidate
     // Size: 0x4
     // Offset: 0x9C
-    LIV::SDK::Unity::INVALIDATION_FLAGS invalidate;
+    ::LIV::SDK::Unity::INVALIDATION_FLAGS invalidate;
     // Field size check
-    static_assert(sizeof(LIV::SDK::Unity::INVALIDATION_FLAGS) == 0x4);
+    static_assert(sizeof(::LIV::SDK::Unity::INVALIDATION_FLAGS) == 0x4);
     // private UnityEngine.Transform _stageCandidate
     // Size: 0x8
     // Offset: 0xA0
-    UnityEngine::Transform* stageCandidate;
+    ::UnityEngine::Transform* stageCandidate;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // private UnityEngine.Camera _HMDCameraCandidate
     // Size: 0x8
     // Offset: 0xA8
-    UnityEngine::Camera* HMDCameraCandidate;
+    ::UnityEngine::Camera* HMDCameraCandidate;
     // Field size check
-    static_assert(sizeof(UnityEngine::Camera*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Camera*) == 0x8);
     // private UnityEngine.Camera _MRCameraPrefabCandidate
     // Size: 0x8
     // Offset: 0xB0
-    UnityEngine::Camera* MRCameraPrefabCandidate;
+    ::UnityEngine::Camera* MRCameraPrefabCandidate;
     // Field size check
-    static_assert(sizeof(UnityEngine::Camera*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Camera*) == 0x8);
     // private System.String[] _excludeBehavioursCandidate
     // Size: 0x8
     // Offset: 0xB8
@@ -255,40 +255,40 @@ namespace LIV::SDK::Unity {
     // private UnityEngine.Coroutine _waitForEndOfFrameCoroutine
     // Size: 0x8
     // Offset: 0xC8
-    UnityEngine::Coroutine* waitForEndOfFrameCoroutine;
+    ::UnityEngine::Coroutine* waitForEndOfFrameCoroutine;
     // Field size check
-    static_assert(sizeof(UnityEngine::Coroutine*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Coroutine*) == 0x8);
     public:
-    // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const noexcept = delete;
+    // Deleting conversion operator: operator ::System::IntPtr
+    constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Action onActivate
-    System::Action*& dyn_onActivate();
+    ::System::Action*& dyn_onActivate();
     // Get instance field reference: public System.Action`1<LIV.SDK.Unity.SDKRender> onPreRender
-    System::Action_1<LIV::SDK::Unity::SDKRender*>*& dyn_onPreRender();
+    ::System::Action_1<::LIV::SDK::Unity::SDKRender*>*& dyn_onPreRender();
     // Get instance field reference: public System.Action`1<LIV.SDK.Unity.SDKRender> onPreRenderBackground
-    System::Action_1<LIV::SDK::Unity::SDKRender*>*& dyn_onPreRenderBackground();
+    ::System::Action_1<::LIV::SDK::Unity::SDKRender*>*& dyn_onPreRenderBackground();
     // Get instance field reference: public System.Action`1<LIV.SDK.Unity.SDKRender> onPostRenderBackground
-    System::Action_1<LIV::SDK::Unity::SDKRender*>*& dyn_onPostRenderBackground();
+    ::System::Action_1<::LIV::SDK::Unity::SDKRender*>*& dyn_onPostRenderBackground();
     // Get instance field reference: public System.Action`1<LIV.SDK.Unity.SDKRender> onPreRenderForeground
-    System::Action_1<LIV::SDK::Unity::SDKRender*>*& dyn_onPreRenderForeground();
+    ::System::Action_1<::LIV::SDK::Unity::SDKRender*>*& dyn_onPreRenderForeground();
     // Get instance field reference: public System.Action`1<LIV.SDK.Unity.SDKRender> onPostRenderForeground
-    System::Action_1<LIV::SDK::Unity::SDKRender*>*& dyn_onPostRenderForeground();
+    ::System::Action_1<::LIV::SDK::Unity::SDKRender*>*& dyn_onPostRenderForeground();
     // Get instance field reference: public System.Action`1<LIV.SDK.Unity.SDKRender> onPostRender
-    System::Action_1<LIV::SDK::Unity::SDKRender*>*& dyn_onPostRender();
+    ::System::Action_1<::LIV::SDK::Unity::SDKRender*>*& dyn_onPostRender();
     // Get instance field reference: public System.Action onDeactivate
-    System::Action*& dyn_onDeactivate();
+    ::System::Action*& dyn_onDeactivate();
     // Get instance field reference: private UnityEngine.Transform _stage
-    UnityEngine::Transform*& dyn__stage();
+    ::UnityEngine::Transform*& dyn__stage();
     // Get instance field reference: private UnityEngine.Transform _stageTransform
-    UnityEngine::Transform*& dyn__stageTransform();
+    ::UnityEngine::Transform*& dyn__stageTransform();
     // Get instance field reference: private UnityEngine.Camera _HMDCamera
-    UnityEngine::Camera*& dyn__HMDCamera();
+    ::UnityEngine::Camera*& dyn__HMDCamera();
     // Get instance field reference: private UnityEngine.Camera _MRCameraPrefab
-    UnityEngine::Camera*& dyn__MRCameraPrefab();
+    ::UnityEngine::Camera*& dyn__MRCameraPrefab();
     // Get instance field reference: private System.Boolean _disableStandardAssets
     bool& dyn__disableStandardAssets();
     // Get instance field reference: private UnityEngine.LayerMask _spectatorLayerMask
-    UnityEngine::LayerMask& dyn__spectatorLayerMask();
+    ::UnityEngine::LayerMask& dyn__spectatorLayerMask();
     // Get instance field reference: private System.String[] _excludeBehaviours
     ::ArrayW<::StringW>& dyn__excludeBehaviours();
     // Get instance field reference: private System.Boolean _fixPostEffectsAlpha
@@ -296,59 +296,59 @@ namespace LIV::SDK::Unity {
     // Get instance field reference: private System.Boolean _isActive
     bool& dyn__isActive();
     // Get instance field reference: private LIV.SDK.Unity.SDKRender _render
-    LIV::SDK::Unity::SDKRender*& dyn__render();
+    ::LIV::SDK::Unity::SDKRender*& dyn__render();
     // Get instance field reference: private System.Boolean _wasReady
     bool& dyn__wasReady();
     // Get instance field reference: private LIV.SDK.Unity.INVALIDATION_FLAGS _invalidate
-    LIV::SDK::Unity::INVALIDATION_FLAGS& dyn__invalidate();
+    ::LIV::SDK::Unity::INVALIDATION_FLAGS& dyn__invalidate();
     // Get instance field reference: private UnityEngine.Transform _stageCandidate
-    UnityEngine::Transform*& dyn__stageCandidate();
+    ::UnityEngine::Transform*& dyn__stageCandidate();
     // Get instance field reference: private UnityEngine.Camera _HMDCameraCandidate
-    UnityEngine::Camera*& dyn__HMDCameraCandidate();
+    ::UnityEngine::Camera*& dyn__HMDCameraCandidate();
     // Get instance field reference: private UnityEngine.Camera _MRCameraPrefabCandidate
-    UnityEngine::Camera*& dyn__MRCameraPrefabCandidate();
+    ::UnityEngine::Camera*& dyn__MRCameraPrefabCandidate();
     // Get instance field reference: private System.String[] _excludeBehavioursCandidate
     ::ArrayW<::StringW>& dyn__excludeBehavioursCandidate();
     // Get instance field reference: private System.Boolean _enabled
     bool& dyn__enabled();
     // Get instance field reference: private UnityEngine.Coroutine _waitForEndOfFrameCoroutine
-    UnityEngine::Coroutine*& dyn__waitForEndOfFrameCoroutine();
+    ::UnityEngine::Coroutine*& dyn__waitForEndOfFrameCoroutine();
     // public UnityEngine.Transform get_stage()
     // Offset: 0x29AE3C8
-    UnityEngine::Transform* get_stage();
+    ::UnityEngine::Transform* get_stage();
     // public System.Void set_stage(UnityEngine.Transform value)
     // Offset: 0x29AE468
-    void set_stage(UnityEngine::Transform* value);
+    void set_stage(::UnityEngine::Transform* value);
     // public UnityEngine.Transform get_trackedSpaceOrigin()
     // Offset: 0x29AE51C
-    UnityEngine::Transform* get_trackedSpaceOrigin();
+    ::UnityEngine::Transform* get_trackedSpaceOrigin();
     // public System.Void set_trackedSpaceOrigin(UnityEngine.Transform value)
     // Offset: 0x29AE520
-    void set_trackedSpaceOrigin(UnityEngine::Transform* value);
+    void set_trackedSpaceOrigin(::UnityEngine::Transform* value);
     // public UnityEngine.Matrix4x4 get_stageLocalToWorldMatrix()
     // Offset: 0x29AE524
-    UnityEngine::Matrix4x4 get_stageLocalToWorldMatrix();
+    ::UnityEngine::Matrix4x4 get_stageLocalToWorldMatrix();
     // public UnityEngine.Matrix4x4 get_stageWorldToLocalMatrix()
     // Offset: 0x29AE604
-    UnityEngine::Matrix4x4 get_stageWorldToLocalMatrix();
+    ::UnityEngine::Matrix4x4 get_stageWorldToLocalMatrix();
     // public UnityEngine.Transform get_stageTransform()
     // Offset: 0x29AE6E4
-    UnityEngine::Transform* get_stageTransform();
+    ::UnityEngine::Transform* get_stageTransform();
     // public System.Void set_stageTransform(UnityEngine.Transform value)
     // Offset: 0x29AE6EC
-    void set_stageTransform(UnityEngine::Transform* value);
+    void set_stageTransform(::UnityEngine::Transform* value);
     // public UnityEngine.Camera get_HMDCamera()
     // Offset: 0x29AE6F4
-    UnityEngine::Camera* get_HMDCamera();
+    ::UnityEngine::Camera* get_HMDCamera();
     // public System.Void set_HMDCamera(UnityEngine.Camera value)
     // Offset: 0x29AE6FC
-    void set_HMDCamera(UnityEngine::Camera* value);
+    void set_HMDCamera(::UnityEngine::Camera* value);
     // public UnityEngine.Camera get_MRCameraPrefab()
     // Offset: 0x29AE7F0
-    UnityEngine::Camera* get_MRCameraPrefab();
+    ::UnityEngine::Camera* get_MRCameraPrefab();
     // public System.Void set_MRCameraPrefab(UnityEngine.Camera value)
     // Offset: 0x29AE7F8
-    void set_MRCameraPrefab(UnityEngine::Camera* value);
+    void set_MRCameraPrefab(::UnityEngine::Camera* value);
     // public System.Boolean get_disableStandardAssets()
     // Offset: 0x29AE88C
     bool get_disableStandardAssets();
@@ -357,10 +357,10 @@ namespace LIV::SDK::Unity {
     void set_disableStandardAssets(bool value);
     // public UnityEngine.LayerMask get_spectatorLayerMask()
     // Offset: 0x29AE8A0
-    UnityEngine::LayerMask get_spectatorLayerMask();
+    ::UnityEngine::LayerMask get_spectatorLayerMask();
     // public System.Void set_spectatorLayerMask(UnityEngine.LayerMask value)
     // Offset: 0x29AE8A8
-    void set_spectatorLayerMask(UnityEngine::LayerMask value);
+    void set_spectatorLayerMask(::UnityEngine::LayerMask value);
     // public System.String[] get_excludeBehaviours()
     // Offset: 0x29AE8B0
     ::ArrayW<::StringW> get_excludeBehaviours();
@@ -384,7 +384,7 @@ namespace LIV::SDK::Unity {
     bool get__isReady();
     // public LIV.SDK.Unity.SDKRender get_render()
     // Offset: 0x29AEB34
-    LIV::SDK::Unity::SDKRender* get_render();
+    ::LIV::SDK::Unity::SDKRender* get_render();
     // private System.Void OnEnable()
     // Offset: 0x29AEB3C
     void OnEnable();
@@ -396,7 +396,7 @@ namespace LIV::SDK::Unity {
     void OnDisable();
     // private System.Collections.IEnumerator WaitForUnityEndOfFrame()
     // Offset: 0x29AEC44
-    System::Collections::IEnumerator* WaitForUnityEndOfFrame();
+    ::System::Collections::IEnumerator* WaitForUnityEndOfFrame();
     // private System.Void UpdateSDKReady()
     // Offset: 0x29AEB48
     void UpdateSDKReady();
@@ -437,19 +437,19 @@ namespace LIV::SDK::Unity {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LIV* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("LIV::SDK::Unity::LIV::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::LIV::SDK::Unity::LIV::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LIV*, creationType>()));
     }
   }; // LIV.SDK.Unity.LIV
   #pragma pack(pop)
-  static check_size<sizeof(LIV), 200 + sizeof(UnityEngine::Coroutine*)> __LIV_SDK_Unity_LIVSizeCheck;
+  static check_size<sizeof(LIV), 200 + sizeof(::UnityEngine::Coroutine*)> __LIV_SDK_Unity_LIVSizeCheck;
   static_assert(sizeof(LIV) == 0xD0);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LIV::SDK::Unity::LIV::get_stage
 // Il2CppName: get_stage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (LIV::SDK::Unity::LIV::*)()>(&LIV::SDK::Unity::LIV::get_stage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Transform* (LIV::SDK::Unity::LIV::*)()>(&LIV::SDK::Unity::LIV::get_stage)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(LIV::SDK::Unity::LIV*), "get_stage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -457,7 +457,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: LIV::SDK::Unity::LIV::set_stage
 // Il2CppName: set_stage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LIV::SDK::Unity::LIV::*)(UnityEngine::Transform*)>(&LIV::SDK::Unity::LIV::set_stage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LIV::SDK::Unity::LIV::*)(::UnityEngine::Transform*)>(&LIV::SDK::Unity::LIV::set_stage)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LIV::SDK::Unity::LIV*), "set_stage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -466,7 +466,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LIV::
 // Writing MetadataGetter for method: LIV::SDK::Unity::LIV::get_trackedSpaceOrigin
 // Il2CppName: get_trackedSpaceOrigin
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (LIV::SDK::Unity::LIV::*)()>(&LIV::SDK::Unity::LIV::get_trackedSpaceOrigin)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Transform* (LIV::SDK::Unity::LIV::*)()>(&LIV::SDK::Unity::LIV::get_trackedSpaceOrigin)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(LIV::SDK::Unity::LIV*), "get_trackedSpaceOrigin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -474,7 +474,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: LIV::SDK::Unity::LIV::set_trackedSpaceOrigin
 // Il2CppName: set_trackedSpaceOrigin
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LIV::SDK::Unity::LIV::*)(UnityEngine::Transform*)>(&LIV::SDK::Unity::LIV::set_trackedSpaceOrigin)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LIV::SDK::Unity::LIV::*)(::UnityEngine::Transform*)>(&LIV::SDK::Unity::LIV::set_trackedSpaceOrigin)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LIV::SDK::Unity::LIV*), "set_trackedSpaceOrigin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -483,7 +483,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LIV::
 // Writing MetadataGetter for method: LIV::SDK::Unity::LIV::get_stageLocalToWorldMatrix
 // Il2CppName: get_stageLocalToWorldMatrix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (LIV::SDK::Unity::LIV::*)()>(&LIV::SDK::Unity::LIV::get_stageLocalToWorldMatrix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Matrix4x4 (LIV::SDK::Unity::LIV::*)()>(&LIV::SDK::Unity::LIV::get_stageLocalToWorldMatrix)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(LIV::SDK::Unity::LIV*), "get_stageLocalToWorldMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -491,7 +491,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: LIV::SDK::Unity::LIV::get_stageWorldToLocalMatrix
 // Il2CppName: get_stageWorldToLocalMatrix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (LIV::SDK::Unity::LIV::*)()>(&LIV::SDK::Unity::LIV::get_stageWorldToLocalMatrix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Matrix4x4 (LIV::SDK::Unity::LIV::*)()>(&LIV::SDK::Unity::LIV::get_stageWorldToLocalMatrix)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(LIV::SDK::Unity::LIV*), "get_stageWorldToLocalMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -499,7 +499,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: LIV::SDK::Unity::LIV::get_stageTransform
 // Il2CppName: get_stageTransform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (LIV::SDK::Unity::LIV::*)()>(&LIV::SDK::Unity::LIV::get_stageTransform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Transform* (LIV::SDK::Unity::LIV::*)()>(&LIV::SDK::Unity::LIV::get_stageTransform)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(LIV::SDK::Unity::LIV*), "get_stageTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -507,7 +507,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: LIV::SDK::Unity::LIV::set_stageTransform
 // Il2CppName: set_stageTransform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LIV::SDK::Unity::LIV::*)(UnityEngine::Transform*)>(&LIV::SDK::Unity::LIV::set_stageTransform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LIV::SDK::Unity::LIV::*)(::UnityEngine::Transform*)>(&LIV::SDK::Unity::LIV::set_stageTransform)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LIV::SDK::Unity::LIV*), "set_stageTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -516,7 +516,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LIV::
 // Writing MetadataGetter for method: LIV::SDK::Unity::LIV::get_HMDCamera
 // Il2CppName: get_HMDCamera
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Camera* (LIV::SDK::Unity::LIV::*)()>(&LIV::SDK::Unity::LIV::get_HMDCamera)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Camera* (LIV::SDK::Unity::LIV::*)()>(&LIV::SDK::Unity::LIV::get_HMDCamera)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(LIV::SDK::Unity::LIV*), "get_HMDCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -524,7 +524,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: LIV::SDK::Unity::LIV::set_HMDCamera
 // Il2CppName: set_HMDCamera
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LIV::SDK::Unity::LIV::*)(UnityEngine::Camera*)>(&LIV::SDK::Unity::LIV::set_HMDCamera)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LIV::SDK::Unity::LIV::*)(::UnityEngine::Camera*)>(&LIV::SDK::Unity::LIV::set_HMDCamera)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LIV::SDK::Unity::LIV*), "set_HMDCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -533,7 +533,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LIV::
 // Writing MetadataGetter for method: LIV::SDK::Unity::LIV::get_MRCameraPrefab
 // Il2CppName: get_MRCameraPrefab
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Camera* (LIV::SDK::Unity::LIV::*)()>(&LIV::SDK::Unity::LIV::get_MRCameraPrefab)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Camera* (LIV::SDK::Unity::LIV::*)()>(&LIV::SDK::Unity::LIV::get_MRCameraPrefab)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(LIV::SDK::Unity::LIV*), "get_MRCameraPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -541,7 +541,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: LIV::SDK::Unity::LIV::set_MRCameraPrefab
 // Il2CppName: set_MRCameraPrefab
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LIV::SDK::Unity::LIV::*)(UnityEngine::Camera*)>(&LIV::SDK::Unity::LIV::set_MRCameraPrefab)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LIV::SDK::Unity::LIV::*)(::UnityEngine::Camera*)>(&LIV::SDK::Unity::LIV::set_MRCameraPrefab)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LIV::SDK::Unity::LIV*), "set_MRCameraPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -567,7 +567,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LIV::
 // Writing MetadataGetter for method: LIV::SDK::Unity::LIV::get_spectatorLayerMask
 // Il2CppName: get_spectatorLayerMask
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LayerMask (LIV::SDK::Unity::LIV::*)()>(&LIV::SDK::Unity::LIV::get_spectatorLayerMask)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::LayerMask (LIV::SDK::Unity::LIV::*)()>(&LIV::SDK::Unity::LIV::get_spectatorLayerMask)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(LIV::SDK::Unity::LIV*), "get_spectatorLayerMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -575,7 +575,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: LIV::SDK::Unity::LIV::set_spectatorLayerMask
 // Il2CppName: set_spectatorLayerMask
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LIV::SDK::Unity::LIV::*)(UnityEngine::LayerMask)>(&LIV::SDK::Unity::LIV::set_spectatorLayerMask)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LIV::SDK::Unity::LIV::*)(::UnityEngine::LayerMask)>(&LIV::SDK::Unity::LIV::set_spectatorLayerMask)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "LayerMask")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LIV::SDK::Unity::LIV*), "set_spectatorLayerMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -642,7 +642,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LIV::
 // Writing MetadataGetter for method: LIV::SDK::Unity::LIV::get_render
 // Il2CppName: get_render
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LIV::SDK::Unity::SDKRender* (LIV::SDK::Unity::LIV::*)()>(&LIV::SDK::Unity::LIV::get_render)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LIV::SDK::Unity::SDKRender* (LIV::SDK::Unity::LIV::*)()>(&LIV::SDK::Unity::LIV::get_render)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(LIV::SDK::Unity::LIV*), "get_render", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -674,7 +674,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LIV::
 // Writing MetadataGetter for method: LIV::SDK::Unity::LIV::WaitForUnityEndOfFrame
 // Il2CppName: WaitForUnityEndOfFrame
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (LIV::SDK::Unity::LIV::*)()>(&LIV::SDK::Unity::LIV::WaitForUnityEndOfFrame)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (LIV::SDK::Unity::LIV::*)()>(&LIV::SDK::Unity::LIV::WaitForUnityEndOfFrame)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(LIV::SDK::Unity::LIV*), "WaitForUnityEndOfFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

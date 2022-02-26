@@ -18,8 +18,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRPlugin::OVRP_0_1_1);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_0_1_1*, "", "OVRPlugin/OVRP_0_1_1");
+NEED_NO_BOX(::GlobalNamespace::OVRPlugin::OVRP_0_1_1);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRPlugin::OVRP_0_1_1*, "", "OVRPlugin/OVRP_0_1_1");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -29,15 +29,15 @@ namespace GlobalNamespace {
   class OVRPlugin::OVRP_0_1_1 : public ::Il2CppObject {
     public:
     // Get static field: static public readonly System.Version version
-    static System::Version* _get_version();
+    static ::System::Version* _get_version();
     // Set static field: static public readonly System.Version version
-    static void _set_version(System::Version* value);
+    static void _set_version(::System::Version* value);
     // static private System.Void .cctor()
     // Offset: 0x1A6F304
     static void _cctor();
     // static public OVRPlugin/Bool ovrp_SetOverlayQuad2(OVRPlugin/Bool onTop, OVRPlugin/Bool headLocked, System.IntPtr texture, System.IntPtr device, OVRPlugin/Posef pose, OVRPlugin/Vector3f scale)
     // Offset: 0x1A6F21C
-    static GlobalNamespace::OVRPlugin::Bool ovrp_SetOverlayQuad2(GlobalNamespace::OVRPlugin::Bool onTop, GlobalNamespace::OVRPlugin::Bool headLocked, System::IntPtr texture, System::IntPtr device, GlobalNamespace::OVRPlugin::Posef pose, GlobalNamespace::OVRPlugin::Vector3f scale);
+    static ::GlobalNamespace::OVRPlugin::Bool ovrp_SetOverlayQuad2(::GlobalNamespace::OVRPlugin::Bool onTop, ::GlobalNamespace::OVRPlugin::Bool headLocked, ::System::IntPtr texture, ::System::IntPtr device, ::GlobalNamespace::OVRPlugin::Posef pose, ::GlobalNamespace::OVRPlugin::Vector3f scale);
   }; // OVRPlugin/OVRP_0_1_1
   #pragma pack(pop)
 }
@@ -53,7 +53,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_0_1_1::ovrp_SetOverlayQuad2
 // Il2CppName: ovrp_SetOverlayQuad2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(GlobalNamespace::OVRPlugin::Bool, GlobalNamespace::OVRPlugin::Bool, System::IntPtr, System::IntPtr, GlobalNamespace::OVRPlugin::Posef, GlobalNamespace::OVRPlugin::Vector3f)>(&GlobalNamespace::OVRPlugin::OVRP_0_1_1::ovrp_SetOverlayQuad2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Bool (*)(::GlobalNamespace::OVRPlugin::Bool, ::GlobalNamespace::OVRPlugin::Bool, ::System::IntPtr, ::System::IntPtr, ::GlobalNamespace::OVRPlugin::Posef, ::GlobalNamespace::OVRPlugin::Vector3f)>(&GlobalNamespace::OVRPlugin::OVRP_0_1_1::ovrp_SetOverlayQuad2)> {
   static const MethodInfo* get() {
     static auto* onTop = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Bool")->byval_arg;
     static auto* headLocked = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Bool")->byval_arg;

@@ -35,8 +35,8 @@ namespace GlobalNamespace {
   class AsyncHelper;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::AsyncHelper);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AsyncHelper*, "", "AsyncHelper");
+NEED_NO_BOX(::GlobalNamespace::AsyncHelper);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AsyncHelper*, "", "AsyncHelper");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -45,23 +45,23 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AsyncHelper : public ::Il2CppObject {
     public:
-    // Nested type: GlobalNamespace::AsyncHelper::$$c__DisplayClass0_0_1<T>
+    // Nested type: ::GlobalNamespace::AsyncHelper::$$c__DisplayClass0_0_1<T>
     template<typename T>
     class $$c__DisplayClass0_0_1;
-    // Nested type: GlobalNamespace::AsyncHelper::$$c__DisplayClass1_0
+    // Nested type: ::GlobalNamespace::AsyncHelper::$$c__DisplayClass1_0
     class $$c__DisplayClass1_0;
     // static public T RunSync(System.Func`1<System.Threading.Tasks.Task`1<T>> asyncTask)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static T RunSync(System::Func_1<System::Threading::Tasks::Task_1<T>*>* asyncTask) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AsyncHelper::RunSync");
+    static T RunSync(::System::Func_1<::System::Threading::Tasks::Task_1<T>*>* asyncTask) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AsyncHelper::RunSync");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "AsyncHelper", "RunSync", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(asyncTask)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, asyncTask);
     }
     // static public System.Void RunSync(System.Func`1<System.Threading.Tasks.Task> asyncTask)
     // Offset: 0x2C15828
-    static void RunSync(System::Func_1<System::Threading::Tasks::Task*>* asyncTask);
+    static void RunSync(::System::Func_1<::System::Threading::Tasks::Task*>* asyncTask);
   }; // AsyncHelper
   #pragma pack(pop)
 }
@@ -72,7 +72,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::AsyncHelper::RunSync
 // Il2CppName: RunSync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Func_1<System::Threading::Tasks::Task*>*)>(&GlobalNamespace::AsyncHelper::RunSync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Func_1<::System::Threading::Tasks::Task*>*)>(&GlobalNamespace::AsyncHelper::RunSync)> {
   static const MethodInfo* get() {
     static auto* asyncTask = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AsyncHelper*), "RunSync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asyncTask});

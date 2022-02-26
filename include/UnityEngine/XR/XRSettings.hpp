@@ -13,8 +13,8 @@ namespace UnityEngine::XR {
   class XRSettings;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::XR::XRSettings);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRSettings*, "UnityEngine.XR", "XRSettings");
+NEED_NO_BOX(::UnityEngine::XR::XRSettings);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::XRSettings*, "UnityEngine.XR", "XRSettings");
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {
   // Size: 0x10

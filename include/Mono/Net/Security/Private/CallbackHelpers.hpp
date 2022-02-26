@@ -31,8 +31,8 @@ namespace Mono::Net::Security::Private {
   class CallbackHelpers;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Net::Security::Private::CallbackHelpers);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::Private::CallbackHelpers*, "Mono.Net.Security.Private", "CallbackHelpers");
+NEED_NO_BOX(::Mono::Net::Security::Private::CallbackHelpers);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Net::Security::Private::CallbackHelpers*, "Mono.Net.Security.Private", "CallbackHelpers");
 // Type namespace: Mono.Net.Security.Private
 namespace Mono::Net::Security::Private {
   // Size: 0x10
@@ -41,21 +41,21 @@ namespace Mono::Net::Security::Private {
   // [TokenAttribute] Offset: FFFFFFFF
   class CallbackHelpers : public ::Il2CppObject {
     public:
-    // Nested type: Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass0_0
+    // Nested type: ::Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass0_0
     class $$c__DisplayClass0_0;
-    // Nested type: Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass5_0
+    // Nested type: ::Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass5_0
     class $$c__DisplayClass5_0;
-    // Nested type: Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass8_0
+    // Nested type: ::Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass8_0
     class $$c__DisplayClass8_0;
     // static Mono.Security.Interface.MonoRemoteCertificateValidationCallback PublicToMono(System.Net.Security.RemoteCertificateValidationCallback callback)
     // Offset: 0x1A36680
-    static Mono::Security::Interface::MonoRemoteCertificateValidationCallback* PublicToMono(System::Net::Security::RemoteCertificateValidationCallback* callback);
+    static ::Mono::Security::Interface::MonoRemoteCertificateValidationCallback* PublicToMono(::System::Net::Security::RemoteCertificateValidationCallback* callback);
     // static System.Net.Security.RemoteCertificateValidationCallback MonoToPublic(Mono.Security.Interface.MonoRemoteCertificateValidationCallback callback)
     // Offset: 0x1A30F04
-    static System::Net::Security::RemoteCertificateValidationCallback* MonoToPublic(Mono::Security::Interface::MonoRemoteCertificateValidationCallback* callback);
+    static ::System::Net::Security::RemoteCertificateValidationCallback* MonoToPublic(::Mono::Security::Interface::MonoRemoteCertificateValidationCallback* callback);
     // static System.Net.Security.LocalCertSelectionCallback MonoToInternal(Mono.Security.Interface.MonoLocalCertificateSelectionCallback callback)
     // Offset: 0x1A30FA0
-    static System::Net::Security::LocalCertSelectionCallback* MonoToInternal(Mono::Security::Interface::MonoLocalCertificateSelectionCallback* callback);
+    static ::System::Net::Security::LocalCertSelectionCallback* MonoToInternal(::Mono::Security::Interface::MonoLocalCertificateSelectionCallback* callback);
   }; // Mono.Net.Security.Private.CallbackHelpers
   #pragma pack(pop)
 }
@@ -63,7 +63,7 @@ namespace Mono::Net::Security::Private {
 // Writing MetadataGetter for method: Mono::Net::Security::Private::CallbackHelpers::PublicToMono
 // Il2CppName: PublicToMono
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::MonoRemoteCertificateValidationCallback* (*)(System::Net::Security::RemoteCertificateValidationCallback*)>(&Mono::Net::Security::Private::CallbackHelpers::PublicToMono)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::Interface::MonoRemoteCertificateValidationCallback* (*)(::System::Net::Security::RemoteCertificateValidationCallback*)>(&Mono::Net::Security::Private::CallbackHelpers::PublicToMono)> {
   static const MethodInfo* get() {
     static auto* callback = &::il2cpp_utils::GetClassFromName("System.Net.Security", "RemoteCertificateValidationCallback")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::Private::CallbackHelpers*), "PublicToMono", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{callback});
@@ -72,7 +72,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 // Writing MetadataGetter for method: Mono::Net::Security::Private::CallbackHelpers::MonoToPublic
 // Il2CppName: MonoToPublic
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Security::RemoteCertificateValidationCallback* (*)(Mono::Security::Interface::MonoRemoteCertificateValidationCallback*)>(&Mono::Net::Security::Private::CallbackHelpers::MonoToPublic)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Security::RemoteCertificateValidationCallback* (*)(::Mono::Security::Interface::MonoRemoteCertificateValidationCallback*)>(&Mono::Net::Security::Private::CallbackHelpers::MonoToPublic)> {
   static const MethodInfo* get() {
     static auto* callback = &::il2cpp_utils::GetClassFromName("Mono.Security.Interface", "MonoRemoteCertificateValidationCallback")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::Private::CallbackHelpers*), "MonoToPublic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{callback});
@@ -81,7 +81,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Writing MetadataGetter for method: Mono::Net::Security::Private::CallbackHelpers::MonoToInternal
 // Il2CppName: MonoToInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Security::LocalCertSelectionCallback* (*)(Mono::Security::Interface::MonoLocalCertificateSelectionCallback*)>(&Mono::Net::Security::Private::CallbackHelpers::MonoToInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Security::LocalCertSelectionCallback* (*)(::Mono::Security::Interface::MonoLocalCertificateSelectionCallback*)>(&Mono::Net::Security::Private::CallbackHelpers::MonoToInternal)> {
   static const MethodInfo* get() {
     static auto* callback = &::il2cpp_utils::GetClassFromName("Mono.Security.Interface", "MonoLocalCertificateSelectionCallback")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::Private::CallbackHelpers*), "MonoToInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{callback});

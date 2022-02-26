@@ -26,7 +26,7 @@ namespace System::Collections::Generic {
   class IReadOnlyDictionary_2;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Collections::Generic::IReadOnlyDictionary_2, "System.Collections.Generic", "IReadOnlyDictionary`2");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Collections::Generic::IReadOnlyDictionary_2, "System.Collections.Generic", "IReadOnlyDictionary`2");
 // Type namespace: System.Collections.Generic
 namespace System::Collections::Generic {
   // WARNING Size may be invalid!
@@ -34,44 +34,44 @@ namespace System::Collections::Generic {
   // [TokenAttribute] Offset: FFFFFFFF
   // [DefaultMemberAttribute] Offset: 118D414
   template<typename TKey, typename TValue>
-  class IReadOnlyDictionary_2/*, public System::Collections::Generic::IReadOnlyCollection_1<System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*/ {
+  class IReadOnlyDictionary_2/*, public ::System::Collections::Generic::IReadOnlyCollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*/ {
     public:
-    // Creating interface conversion operator: operator System::Collections::Generic::IReadOnlyCollection_1<System::Collections::Generic::KeyValuePair_2<TKey, TValue>>
-    operator System::Collections::Generic::IReadOnlyCollection_1<System::Collections::Generic::KeyValuePair_2<TKey, TValue>>() noexcept {
-      return *reinterpret_cast<System::Collections::Generic::IReadOnlyCollection_1<System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(this);
+    // Creating interface conversion operator: operator ::System::Collections::Generic::IReadOnlyCollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>
+    operator ::System::Collections::Generic::IReadOnlyCollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>() noexcept {
+      return *reinterpret_cast<::System::Collections::Generic::IReadOnlyCollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(this);
     }
     // public TValue get_Item(TKey key)
     // Offset: 0xFFFFFFFF
     TValue get_Item(TKey key) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::IReadOnlyDictionary_2::get_Item");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Generic::IReadOnlyDictionary_2::get_Item");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Item", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key)})));
       return ::il2cpp_utils::RunMethodRethrow<TValue, false>(this, ___internal__method, key);
     }
     // public System.Collections.Generic.IEnumerable`1<TKey> get_Keys()
     // Offset: 0xFFFFFFFF
-    System::Collections::Generic::IEnumerable_1<TKey>* get_Keys() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::IReadOnlyDictionary_2::get_Keys");
+    ::System::Collections::Generic::IEnumerable_1<TKey>* get_Keys() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Generic::IReadOnlyDictionary_2::get_Keys");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Keys", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodRethrow<System::Collections::Generic::IEnumerable_1<TKey>*, false>(this, ___internal__method);
+      return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TKey>*, false>(this, ___internal__method);
     }
     // public System.Collections.Generic.IEnumerable`1<TValue> get_Values()
     // Offset: 0xFFFFFFFF
-    System::Collections::Generic::IEnumerable_1<TValue>* get_Values() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::IReadOnlyDictionary_2::get_Values");
+    ::System::Collections::Generic::IEnumerable_1<TValue>* get_Values() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Generic::IReadOnlyDictionary_2::get_Values");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Values", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodRethrow<System::Collections::Generic::IEnumerable_1<TValue>*, false>(this, ___internal__method);
+      return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TValue>*, false>(this, ___internal__method);
     }
     // public System.Boolean ContainsKey(TKey key)
     // Offset: 0xFFFFFFFF
     bool ContainsKey(TKey key) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::IReadOnlyDictionary_2::ContainsKey");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Generic::IReadOnlyDictionary_2::ContainsKey");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ContainsKey", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key)})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, key);
     }
     // public System.Boolean TryGetValue(TKey key, out TValue value)
     // Offset: 0xFFFFFFFF
     bool TryGetValue(TKey key, ByRef<TValue> value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::IReadOnlyDictionary_2::TryGetValue");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Generic::IReadOnlyDictionary_2::TryGetValue");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "TryGetValue", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractIndependentType<TValue&>()})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, key, byref(value));
     }

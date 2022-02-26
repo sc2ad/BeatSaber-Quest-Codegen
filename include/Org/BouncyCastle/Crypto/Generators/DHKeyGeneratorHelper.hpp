@@ -33,8 +33,8 @@ namespace Org::BouncyCastle::Crypto::Generators {
   class DHKeyGeneratorHelper;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper*, "Org.BouncyCastle.Crypto.Generators", "DHKeyGeneratorHelper");
+NEED_NO_BOX(::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper*, "Org.BouncyCastle.Crypto.Generators", "DHKeyGeneratorHelper");
 // Type namespace: Org.BouncyCastle.Crypto.Generators
 namespace Org::BouncyCastle::Crypto::Generators {
   // Size: 0x10
@@ -44,25 +44,25 @@ namespace Org::BouncyCastle::Crypto::Generators {
   class DHKeyGeneratorHelper : public ::Il2CppObject {
     public:
     // Get static field: static readonly Org.BouncyCastle.Crypto.Generators.DHKeyGeneratorHelper Instance
-    static Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper* _get_Instance();
+    static ::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper* _get_Instance();
     // Set static field: static readonly Org.BouncyCastle.Crypto.Generators.DHKeyGeneratorHelper Instance
-    static void _set_Instance(Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper* value);
+    static void _set_Instance(::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper* value);
     // static private System.Void .cctor()
     // Offset: 0x1D41648
     static void _cctor();
     // Org.BouncyCastle.Math.BigInteger CalculatePrivate(Org.BouncyCastle.Crypto.Parameters.DHParameters dhParams, Org.BouncyCastle.Security.SecureRandom random)
     // Offset: 0x1D41408
-    Org::BouncyCastle::Math::BigInteger* CalculatePrivate(Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParams, Org::BouncyCastle::Security::SecureRandom* random);
+    ::Org::BouncyCastle::Math::BigInteger* CalculatePrivate(::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParams, ::Org::BouncyCastle::Security::SecureRandom* random);
     // Org.BouncyCastle.Math.BigInteger CalculatePublic(Org.BouncyCastle.Crypto.Parameters.DHParameters dhParams, Org.BouncyCastle.Math.BigInteger x)
     // Offset: 0x1D41608
-    Org::BouncyCastle::Math::BigInteger* CalculatePublic(Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParams, Org::BouncyCastle::Math::BigInteger* x);
+    ::Org::BouncyCastle::Math::BigInteger* CalculatePublic(::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParams, ::Org::BouncyCastle::Math::BigInteger* x);
     // private System.Void .ctor()
     // Offset: 0x1D41640
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DHKeyGeneratorHelper* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DHKeyGeneratorHelper*, creationType>()));
     }
   }; // Org.BouncyCastle.Crypto.Generators.DHKeyGeneratorHelper
@@ -80,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::CalculatePrivate
 // Il2CppName: CalculatePrivate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::*)(Org::BouncyCastle::Crypto::Parameters::DHParameters*, Org::BouncyCastle::Security::SecureRandom*)>(&Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::CalculatePrivate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::*)(::Org::BouncyCastle::Crypto::Parameters::DHParameters*, ::Org::BouncyCastle::Security::SecureRandom*)>(&Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::CalculatePrivate)> {
   static const MethodInfo* get() {
     static auto* dhParams = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Crypto.Parameters", "DHParameters")->byval_arg;
     static auto* random = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Security", "SecureRandom")->byval_arg;
@@ -90,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::CalculatePublic
 // Il2CppName: CalculatePublic
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::*)(Org::BouncyCastle::Crypto::Parameters::DHParameters*, Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::CalculatePublic)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::*)(::Org::BouncyCastle::Crypto::Parameters::DHParameters*, ::Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::CalculatePublic)> {
   static const MethodInfo* get() {
     static auto* dhParams = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Crypto.Parameters", "DHParameters")->byval_arg;
     static auto* x = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math", "BigInteger")->byval_arg;

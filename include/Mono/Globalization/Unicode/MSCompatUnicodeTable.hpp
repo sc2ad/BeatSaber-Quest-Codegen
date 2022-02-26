@@ -37,8 +37,8 @@ namespace Mono::Globalization::Unicode {
   class MSCompatUnicodeTable;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Globalization::Unicode::MSCompatUnicodeTable);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::MSCompatUnicodeTable*, "Mono.Globalization.Unicode", "MSCompatUnicodeTable");
+NEED_NO_BOX(::Mono::Globalization::Unicode::MSCompatUnicodeTable);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Globalization::Unicode::MSCompatUnicodeTable*, "Mono.Globalization.Unicode", "MSCompatUnicodeTable");
 // Type namespace: Mono.Globalization.Unicode
 namespace Mono::Globalization::Unicode {
   // Size: 0x10
@@ -47,7 +47,7 @@ namespace Mono::Globalization::Unicode {
   // [TokenAttribute] Offset: FFFFFFFF
   class MSCompatUnicodeTable : public ::Il2CppObject {
     public:
-    // Nested type: Mono::Globalization::Unicode::MSCompatUnicodeTable::$$c
+    // Nested type: ::Mono::Globalization::Unicode::MSCompatUnicodeTable::$$c
     class $$c;
     // Get static field: static public System.Int32 MaxExpansionLength
     static int _get_MaxExpansionLength();
@@ -114,9 +114,9 @@ namespace Mono::Globalization::Unicode {
     // Set static field: static private readonly System.Char[] tailoringArr
     static void _set_tailoringArr(::ArrayW<::Il2CppChar> value);
     // Get static field: static private readonly Mono.Globalization.Unicode.TailoringInfo[] tailoringInfos
-    static ::ArrayW<Mono::Globalization::Unicode::TailoringInfo*> _get_tailoringInfos();
+    static ::ArrayW<::Mono::Globalization::Unicode::TailoringInfo*> _get_tailoringInfos();
     // Set static field: static private readonly Mono.Globalization.Unicode.TailoringInfo[] tailoringInfos
-    static void _set_tailoringInfos(::ArrayW<Mono::Globalization::Unicode::TailoringInfo*> value);
+    static void _set_tailoringInfos(::ArrayW<::Mono::Globalization::Unicode::TailoringInfo*> value);
     // Get static field: static private System.Object forLock
     static ::Il2CppObject* _get_forLock();
     // Set static field: static private System.Object forLock
@@ -133,13 +133,13 @@ namespace Mono::Globalization::Unicode {
     static void _cctor();
     // static public Mono.Globalization.Unicode.TailoringInfo GetTailoringInfo(System.Int32 lcid)
     // Offset: 0x1E66E58
-    static Mono::Globalization::Unicode::TailoringInfo* GetTailoringInfo(int lcid);
+    static ::Mono::Globalization::Unicode::TailoringInfo* GetTailoringInfo(int lcid);
     // static public System.Void BuildTailoringTables(System.Globalization.CultureInfo culture, Mono.Globalization.Unicode.TailoringInfo t, ref Mono.Globalization.Unicode.Contraction[] contractions, ref Mono.Globalization.Unicode.Level2Map[] diacriticals)
     // Offset: 0x1E66F84
-    static void BuildTailoringTables(System::Globalization::CultureInfo* culture, Mono::Globalization::Unicode::TailoringInfo* t, ByRef<::ArrayW<Mono::Globalization::Unicode::Contraction*>> contractions, ByRef<::ArrayW<Mono::Globalization::Unicode::Level2Map*>> diacriticals);
+    static void BuildTailoringTables(::System::Globalization::CultureInfo* culture, ::Mono::Globalization::Unicode::TailoringInfo* t, ByRef<::ArrayW<::Mono::Globalization::Unicode::Contraction*>> contractions, ByRef<::ArrayW<::Mono::Globalization::Unicode::Level2Map*>> diacriticals);
     // static private System.Void SetCJKReferences(System.String name, ref Mono.Globalization.Unicode.CodePointIndexer cjkIndexer, ref System.Byte* catTable, ref System.Byte* lv1Table, ref Mono.Globalization.Unicode.CodePointIndexer lv2Indexer, ref System.Byte* lv2Table)
     // Offset: 0x1E67554
-    static void SetCJKReferences(::StringW name, ByRef<Mono::Globalization::Unicode::CodePointIndexer*> cjkIndexer, ByRef<uint8_t*> catTable, ByRef<uint8_t*> lv1Table, ByRef<Mono::Globalization::Unicode::CodePointIndexer*> lv2Indexer, ByRef<uint8_t*> lv2Table);
+    static void SetCJKReferences(::StringW name, ByRef<::Mono::Globalization::Unicode::CodePointIndexer*> cjkIndexer, ByRef<uint8_t*> catTable, ByRef<uint8_t*> lv1Table, ByRef<::Mono::Globalization::Unicode::CodePointIndexer*> lv2Indexer, ByRef<uint8_t*> lv2Table);
     // static public System.Byte Category(System.Int32 cp)
     // Offset: 0x1E677E4
     static uint8_t Category(int cp);
@@ -178,16 +178,16 @@ namespace Mono::Globalization::Unicode {
     static bool IsJapaneseSmallLetter(::Il2CppChar c);
     // static private System.IntPtr GetResource(System.String name)
     // Offset: 0x1E68020
-    static System::IntPtr GetResource(::StringW name);
+    static ::System::IntPtr GetResource(::StringW name);
     // static private System.UInt32 UInt32FromBytePtr(System.Byte* raw, System.UInt32 idx)
     // Offset: 0x1E6809C
     static uint UInt32FromBytePtr(uint8_t* raw, uint idx);
     // static public System.Void FillCJK(System.String culture, ref Mono.Globalization.Unicode.CodePointIndexer cjkIndexer, ref System.Byte* catTable, ref System.Byte* lv1Table, ref Mono.Globalization.Unicode.CodePointIndexer lv2Indexer, ref System.Byte* lv2Table)
     // Offset: 0x1E68548
-    static void FillCJK(::StringW culture, ByRef<Mono::Globalization::Unicode::CodePointIndexer*> cjkIndexer, ByRef<uint8_t*> catTable, ByRef<uint8_t*> lv1Table, ByRef<Mono::Globalization::Unicode::CodePointIndexer*> lv2Indexer, ByRef<uint8_t*> lv2Table);
+    static void FillCJK(::StringW culture, ByRef<::Mono::Globalization::Unicode::CodePointIndexer*> cjkIndexer, ByRef<uint8_t*> catTable, ByRef<uint8_t*> lv1Table, ByRef<::Mono::Globalization::Unicode::CodePointIndexer*> lv2Indexer, ByRef<uint8_t*> lv2Table);
     // static private System.Void FillCJKCore(System.String culture, ref Mono.Globalization.Unicode.CodePointIndexer cjkIndexer, ref System.Byte* catTable, ref System.Byte* lv1Table, ref Mono.Globalization.Unicode.CodePointIndexer cjkLv2Indexer, ref System.Byte* lv2Table)
     // Offset: 0x1E68694
-    static void FillCJKCore(::StringW culture, ByRef<Mono::Globalization::Unicode::CodePointIndexer*> cjkIndexer, ByRef<uint8_t*> catTable, ByRef<uint8_t*> lv1Table, ByRef<Mono::Globalization::Unicode::CodePointIndexer*> cjkLv2Indexer, ByRef<uint8_t*> lv2Table);
+    static void FillCJKCore(::StringW culture, ByRef<::Mono::Globalization::Unicode::CodePointIndexer*> cjkIndexer, ByRef<uint8_t*> catTable, ByRef<uint8_t*> lv1Table, ByRef<::Mono::Globalization::Unicode::CodePointIndexer*> cjkLv2Indexer, ByRef<uint8_t*> lv2Table);
   }; // Mono.Globalization.Unicode.MSCompatUnicodeTable
   #pragma pack(pop)
 }
@@ -211,7 +211,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::MSCompatUnicodeTable::GetTailoringInfo
 // Il2CppName: GetTailoringInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globalization::Unicode::TailoringInfo* (*)(int)>(&Mono::Globalization::Unicode::MSCompatUnicodeTable::GetTailoringInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Globalization::Unicode::TailoringInfo* (*)(int)>(&Mono::Globalization::Unicode::MSCompatUnicodeTable::GetTailoringInfo)> {
   static const MethodInfo* get() {
     static auto* lcid = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::MSCompatUnicodeTable*), "GetTailoringInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lcid});
@@ -220,7 +220,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globa
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::MSCompatUnicodeTable::BuildTailoringTables
 // Il2CppName: BuildTailoringTables
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Globalization::CultureInfo*, Mono::Globalization::Unicode::TailoringInfo*, ByRef<::ArrayW<Mono::Globalization::Unicode::Contraction*>>, ByRef<::ArrayW<Mono::Globalization::Unicode::Level2Map*>>)>(&Mono::Globalization::Unicode::MSCompatUnicodeTable::BuildTailoringTables)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Globalization::CultureInfo*, ::Mono::Globalization::Unicode::TailoringInfo*, ByRef<::ArrayW<::Mono::Globalization::Unicode::Contraction*>>, ByRef<::ArrayW<::Mono::Globalization::Unicode::Level2Map*>>)>(&Mono::Globalization::Unicode::MSCompatUnicodeTable::BuildTailoringTables)> {
   static const MethodInfo* get() {
     static auto* culture = &::il2cpp_utils::GetClassFromName("System.Globalization", "CultureInfo")->byval_arg;
     static auto* t = &::il2cpp_utils::GetClassFromName("Mono.Globalization.Unicode", "TailoringInfo")->byval_arg;
@@ -232,7 +232,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::MSCompatUnicodeTable::SetCJKReferences
 // Il2CppName: SetCJKReferences
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ByRef<Mono::Globalization::Unicode::CodePointIndexer*>, ByRef<uint8_t*>, ByRef<uint8_t*>, ByRef<Mono::Globalization::Unicode::CodePointIndexer*>, ByRef<uint8_t*>)>(&Mono::Globalization::Unicode::MSCompatUnicodeTable::SetCJKReferences)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ByRef<::Mono::Globalization::Unicode::CodePointIndexer*>, ByRef<uint8_t*>, ByRef<uint8_t*>, ByRef<::Mono::Globalization::Unicode::CodePointIndexer*>, ByRef<uint8_t*>)>(&Mono::Globalization::Unicode::MSCompatUnicodeTable::SetCJKReferences)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* cjkIndexer = &::il2cpp_utils::GetClassFromName("Mono.Globalization.Unicode", "CodePointIndexer")->this_arg;
@@ -355,7 +355,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::MSCompatUnicodeTable::GetResource
 // Il2CppName: GetResource
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::StringW)>(&Mono::Globalization::Unicode::MSCompatUnicodeTable::GetResource)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::StringW)>(&Mono::Globalization::Unicode::MSCompatUnicodeTable::GetResource)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::MSCompatUnicodeTable*), "GetResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -374,7 +374,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(ui
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::MSCompatUnicodeTable::FillCJK
 // Il2CppName: FillCJK
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ByRef<Mono::Globalization::Unicode::CodePointIndexer*>, ByRef<uint8_t*>, ByRef<uint8_t*>, ByRef<Mono::Globalization::Unicode::CodePointIndexer*>, ByRef<uint8_t*>)>(&Mono::Globalization::Unicode::MSCompatUnicodeTable::FillCJK)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ByRef<::Mono::Globalization::Unicode::CodePointIndexer*>, ByRef<uint8_t*>, ByRef<uint8_t*>, ByRef<::Mono::Globalization::Unicode::CodePointIndexer*>, ByRef<uint8_t*>)>(&Mono::Globalization::Unicode::MSCompatUnicodeTable::FillCJK)> {
   static const MethodInfo* get() {
     static auto* culture = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* cjkIndexer = &::il2cpp_utils::GetClassFromName("Mono.Globalization.Unicode", "CodePointIndexer")->this_arg;
@@ -388,7 +388,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::MSCompatUnicodeTable::FillCJKCore
 // Il2CppName: FillCJKCore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ByRef<Mono::Globalization::Unicode::CodePointIndexer*>, ByRef<uint8_t*>, ByRef<uint8_t*>, ByRef<Mono::Globalization::Unicode::CodePointIndexer*>, ByRef<uint8_t*>)>(&Mono::Globalization::Unicode::MSCompatUnicodeTable::FillCJKCore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ByRef<::Mono::Globalization::Unicode::CodePointIndexer*>, ByRef<uint8_t*>, ByRef<uint8_t*>, ByRef<::Mono::Globalization::Unicode::CodePointIndexer*>, ByRef<uint8_t*>)>(&Mono::Globalization::Unicode::MSCompatUnicodeTable::FillCJKCore)> {
   static const MethodInfo* get() {
     static auto* culture = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* cjkIndexer = &::il2cpp_utils::GetClassFromName("Mono.Globalization.Unicode", "CodePointIndexer")->this_arg;

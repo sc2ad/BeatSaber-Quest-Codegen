@@ -39,8 +39,8 @@ namespace GlobalNamespace {
   class MultiplayerBadgesProvider;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MultiplayerBadgesProvider);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerBadgesProvider*, "", "MultiplayerBadgesProvider");
+NEED_NO_BOX(::GlobalNamespace::MultiplayerBadgesProvider);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerBadgesProvider*, "", "MultiplayerBadgesProvider");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x28
@@ -49,7 +49,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerBadgesProvider : public ::Il2CppObject {
     public:
-    // Nested type: GlobalNamespace::MultiplayerBadgesProvider::$$c
+    // Nested type: ::GlobalNamespace::MultiplayerBadgesProvider::$$c
     class $$c;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -64,23 +64,23 @@ namespace GlobalNamespace {
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::PlayerDataModel* playerDataModel;
+    ::GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::PlayerDataModel*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::PlayerDataModel*) == 0x8);
     // [InjectAttribute] Offset: 0x1243DB4
     // private readonly IDifficultyBeatmap _difficultyBeatmap
     // Size: 0x8
     // Offset: 0x18
-    GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap;
+    ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::IDifficultyBeatmap*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::IDifficultyBeatmap*) == 0x8);
     // [InjectAttribute] Offset: 0x1243DC4
     // private readonly MultiplayerBadgesModelSO _multiplayerBadgesModel
     // Size: 0x8
     // Offset: 0x20
-    GlobalNamespace::MultiplayerBadgesModelSO* multiplayerBadgesModel;
+    ::GlobalNamespace::MultiplayerBadgesModelSO* multiplayerBadgesModel;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::MultiplayerBadgesModelSO*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::MultiplayerBadgesModelSO*) == 0x8);
     public:
     // static field const value: static private System.Int32 kTargetPositiveBadgesCount
     static constexpr const int kTargetPositiveBadgesCount = 2;
@@ -107,33 +107,33 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kMaxRandomMultiplierAmount
     static void _set_kMaxRandomMultiplierAmount(float value);
     // Get instance field reference: private readonly PlayerDataModel _playerDataModel
-    GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
+    ::GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
     // Get instance field reference: private readonly IDifficultyBeatmap _difficultyBeatmap
-    GlobalNamespace::IDifficultyBeatmap*& dyn__difficultyBeatmap();
+    ::GlobalNamespace::IDifficultyBeatmap*& dyn__difficultyBeatmap();
     // Get instance field reference: private readonly MultiplayerBadgesModelSO _multiplayerBadgesModel
-    GlobalNamespace::MultiplayerBadgesModelSO*& dyn__multiplayerBadgesModel();
+    ::GlobalNamespace::MultiplayerBadgesModelSO*& dyn__multiplayerBadgesModel();
     // public System.Void SelectBadgesAndPutThemIntoResults(System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> playerResults)
     // Offset: 0x142AB5C
-    void SelectBadgesAndPutThemIntoResults(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* playerResults);
+    void SelectBadgesAndPutThemIntoResults(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* playerResults);
     // public System.Void .ctor()
     // Offset: 0x142BCF0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerBadgesProvider* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerBadgesProvider::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerBadgesProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerBadgesProvider*, creationType>()));
     }
   }; // MultiplayerBadgesProvider
   #pragma pack(pop)
-  static check_size<sizeof(MultiplayerBadgesProvider), 32 + sizeof(GlobalNamespace::MultiplayerBadgesModelSO*)> __GlobalNamespace_MultiplayerBadgesProviderSizeCheck;
+  static check_size<sizeof(MultiplayerBadgesProvider), 32 + sizeof(::GlobalNamespace::MultiplayerBadgesModelSO*)> __GlobalNamespace_MultiplayerBadgesProviderSizeCheck;
   static_assert(sizeof(MultiplayerBadgesProvider) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgesProvider::SelectBadgesAndPutThemIntoResults
 // Il2CppName: SelectBadgesAndPutThemIntoResults
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerBadgesProvider::*)(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>*)>(&GlobalNamespace::MultiplayerBadgesProvider::SelectBadgesAndPutThemIntoResults)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerBadgesProvider::*)(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>*)>(&GlobalNamespace::MultiplayerBadgesProvider::SelectBadgesAndPutThemIntoResults)> {
   static const MethodInfo* get() {
     static auto* playerResults = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IReadOnlyList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MultiplayerPlayerResultsData")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerBadgesProvider*), "SelectBadgesAndPutThemIntoResults", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{playerResults});

@@ -69,8 +69,8 @@ namespace System::Data::Common {
   class DataStorage;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Data::Common::DataStorage);
-DEFINE_IL2CPP_ARG_TYPE(System::Data::Common::DataStorage*, "System.Data.Common", "DataStorage");
+NEED_NO_BOX(::System::Data::Common::DataStorage);
+DEFINE_IL2CPP_ARG_TYPE(::System::Data::Common::DataStorage*, "System.Data.Common", "DataStorage");
 // Type namespace: System.Data.Common
 namespace System::Data::Common {
   // Size: 0x4C
@@ -91,35 +91,35 @@ namespace System::Data::Common {
     // readonly System.Data.DataColumn _column
     // Size: 0x8
     // Offset: 0x10
-    System::Data::DataColumn* column;
+    ::System::Data::DataColumn* column;
     // Field size check
-    static_assert(sizeof(System::Data::DataColumn*) == 0x8);
+    static_assert(sizeof(::System::Data::DataColumn*) == 0x8);
     // readonly System.Data.DataTable _table
     // Size: 0x8
     // Offset: 0x18
-    System::Data::DataTable* table;
+    ::System::Data::DataTable* table;
     // Field size check
-    static_assert(sizeof(System::Data::DataTable*) == 0x8);
+    static_assert(sizeof(::System::Data::DataTable*) == 0x8);
     // readonly System.Type _dataType
     // Size: 0x8
     // Offset: 0x20
-    System::Type* dataType;
+    ::System::Type* dataType;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     // readonly System.Data.Common.StorageType _storageTypeCode
     // Size: 0x4
     // Offset: 0x28
-    System::Data::Common::StorageType storageTypeCode;
+    ::System::Data::Common::StorageType storageTypeCode;
     // Field size check
-    static_assert(sizeof(System::Data::Common::StorageType) == 0x4);
+    static_assert(sizeof(::System::Data::Common::StorageType) == 0x4);
     // Padding between fields: storageTypeCode and: dbNullBits
     char __padding3[0x4] = {};
     // private System.Collections.BitArray _dbNullBits
     // Size: 0x8
     // Offset: 0x30
-    System::Collections::BitArray* dbNullBits;
+    ::System::Collections::BitArray* dbNullBits;
     // Field size check
-    static_assert(sizeof(System::Collections::BitArray*) == 0x8);
+    static_assert(sizeof(::System::Collections::BitArray*) == 0x8);
     // private readonly System.Object _defaultValue
     // Size: 0x8
     // Offset: 0x38
@@ -158,27 +158,27 @@ namespace System::Data::Common {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get static field: static private readonly System.Type[] s_storageClassType
-    static ::ArrayW<System::Type*> _get_s_storageClassType();
+    static ::ArrayW<::System::Type*> _get_s_storageClassType();
     // Set static field: static private readonly System.Type[] s_storageClassType
-    static void _set_s_storageClassType(::ArrayW<System::Type*> value);
+    static void _set_s_storageClassType(::ArrayW<::System::Type*> value);
     // Get static field: static private readonly System.Func`2<System.Type,System.Tuple`4<System.Boolean,System.Boolean,System.Boolean,System.Boolean>> s_inspectTypeForInterfaces
-    static System::Func_2<System::Type*, System::Tuple_4<bool, bool, bool, bool>*>* _get_s_inspectTypeForInterfaces();
+    static ::System::Func_2<::System::Type*, ::System::Tuple_4<bool, bool, bool, bool>*>* _get_s_inspectTypeForInterfaces();
     // Set static field: static private readonly System.Func`2<System.Type,System.Tuple`4<System.Boolean,System.Boolean,System.Boolean,System.Boolean>> s_inspectTypeForInterfaces
-    static void _set_s_inspectTypeForInterfaces(System::Func_2<System::Type*, System::Tuple_4<bool, bool, bool, bool>*>* value);
+    static void _set_s_inspectTypeForInterfaces(::System::Func_2<::System::Type*, ::System::Tuple_4<bool, bool, bool, bool>*>* value);
     // Get static field: static private readonly System.Collections.Concurrent.ConcurrentDictionary`2<System.Type,System.Tuple`4<System.Boolean,System.Boolean,System.Boolean,System.Boolean>> s_typeImplementsInterface
-    static System::Collections::Concurrent::ConcurrentDictionary_2<System::Type*, System::Tuple_4<bool, bool, bool, bool>*>* _get_s_typeImplementsInterface();
+    static ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::System::Tuple_4<bool, bool, bool, bool>*>* _get_s_typeImplementsInterface();
     // Set static field: static private readonly System.Collections.Concurrent.ConcurrentDictionary`2<System.Type,System.Tuple`4<System.Boolean,System.Boolean,System.Boolean,System.Boolean>> s_typeImplementsInterface
-    static void _set_s_typeImplementsInterface(System::Collections::Concurrent::ConcurrentDictionary_2<System::Type*, System::Tuple_4<bool, bool, bool, bool>*>* value);
+    static void _set_s_typeImplementsInterface(::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::System::Tuple_4<bool, bool, bool, bool>*>* value);
     // Get instance field reference: readonly System.Data.DataColumn _column
-    System::Data::DataColumn*& dyn__column();
+    ::System::Data::DataColumn*& dyn__column();
     // Get instance field reference: readonly System.Data.DataTable _table
-    System::Data::DataTable*& dyn__table();
+    ::System::Data::DataTable*& dyn__table();
     // Get instance field reference: readonly System.Type _dataType
-    System::Type*& dyn__dataType();
+    ::System::Type*& dyn__dataType();
     // Get instance field reference: readonly System.Data.Common.StorageType _storageTypeCode
-    System::Data::Common::StorageType& dyn__storageTypeCode();
+    ::System::Data::Common::StorageType& dyn__storageTypeCode();
     // Get instance field reference: private System.Collections.BitArray _dbNullBits
-    System::Collections::BitArray*& dyn__dbNullBits();
+    ::System::Collections::BitArray*& dyn__dbNullBits();
     // Get instance field reference: private readonly System.Object _defaultValue
     ::Il2CppObject*& dyn__defaultValue();
     // Get instance field reference: readonly System.Object _nullValue
@@ -193,29 +193,29 @@ namespace System::Data::Common {
     bool& dyn__isValueType();
     // System.Data.DataSetDateTime get_DateTimeMode()
     // Offset: 0x1D15734
-    System::Data::DataSetDateTime get_DateTimeMode();
+    ::System::Data::DataSetDateTime get_DateTimeMode();
     // System.IFormatProvider get_FormatProvider()
     // Offset: 0x1D11DF8
-    System::IFormatProvider* get_FormatProvider();
+    ::System::IFormatProvider* get_FormatProvider();
     // protected System.Void .ctor(System.Data.DataColumn column, System.Type type, System.Object defaultValue, System.Data.Common.StorageType storageType)
     // Offset: 0x1D112A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DataStorage* New_ctor(System::Data::DataColumn* column, System::Type* type, ::Il2CppObject* defaultValue, System::Data::Common::StorageType storageType) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Data::Common::DataStorage::.ctor");
+    static DataStorage* New_ctor(::System::Data::DataColumn* column, ::System::Type* type, ::Il2CppObject* defaultValue, ::System::Data::Common::StorageType storageType) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Data::Common::DataStorage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DataStorage*, creationType>(column, type, defaultValue, storageType)));
     }
     // protected System.Void .ctor(System.Data.DataColumn column, System.Type type, System.Object defaultValue, System.Object nullValue, System.Data.Common.StorageType storageType)
     // Offset: 0x1D156C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DataStorage* New_ctor(System::Data::DataColumn* column, System::Type* type, ::Il2CppObject* defaultValue, ::Il2CppObject* nullValue, System::Data::Common::StorageType storageType) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Data::Common::DataStorage::.ctor");
+    static DataStorage* New_ctor(::System::Data::DataColumn* column, ::System::Type* type, ::Il2CppObject* defaultValue, ::Il2CppObject* nullValue, ::System::Data::Common::StorageType storageType) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Data::Common::DataStorage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DataStorage*, creationType>(column, type, defaultValue, nullValue, storageType)));
     }
     // protected System.Void .ctor(System.Data.DataColumn column, System.Type type, System.Object defaultValue, System.Object nullValue, System.Boolean isICloneable, System.Data.Common.StorageType storageType)
     // Offset: 0x1D15594
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DataStorage* New_ctor(System::Data::DataColumn* column, System::Type* type, ::Il2CppObject* defaultValue, ::Il2CppObject* nullValue, bool isICloneable, System::Data::Common::StorageType storageType) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Data::Common::DataStorage::.ctor");
+    static DataStorage* New_ctor(::System::Data::DataColumn* column, ::System::Type* type, ::Il2CppObject* defaultValue, ::Il2CppObject* nullValue, bool isICloneable, ::System::Data::Common::StorageType storageType) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Data::Common::DataStorage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DataStorage*, creationType>(column, type, defaultValue, nullValue, isICloneable, storageType)));
     }
     // static private System.Void .cctor()
@@ -223,7 +223,7 @@ namespace System::Data::Common {
     static void _cctor();
     // public System.Object Aggregate(System.Int32[] recordNos, System.Data.AggregateType kind)
     // Offset: 0x1D12ADC
-    ::Il2CppObject* Aggregate(::ArrayW<int> recordNos, System::Data::AggregateType kind);
+    ::Il2CppObject* Aggregate(::ArrayW<int> recordNos, ::System::Data::AggregateType kind);
     // public System.Object AggregateCount(System.Int32[] recordNos)
     // Offset: 0x1D15750
     ::Il2CppObject* AggregateCount(::ArrayW<int> recordNos);
@@ -274,46 +274,46 @@ namespace System::Data::Common {
     ::Il2CppObject* ConvertXmlToObject(::StringW s);
     // public System.Object ConvertXmlToObject(System.Xml.XmlReader xmlReader, System.Xml.Serialization.XmlRootAttribute xmlAttrib)
     // Offset: 0x1D15858
-    ::Il2CppObject* ConvertXmlToObject(System::Xml::XmlReader* xmlReader, System::Xml::Serialization::XmlRootAttribute* xmlAttrib);
+    ::Il2CppObject* ConvertXmlToObject(::System::Xml::XmlReader* xmlReader, ::System::Xml::Serialization::XmlRootAttribute* xmlAttrib);
     // public System.String ConvertObjectToXml(System.Object value)
     // Offset: 0xFFFFFFFF
     ::StringW ConvertObjectToXml(::Il2CppObject* value);
     // public System.Void ConvertObjectToXml(System.Object value, System.Xml.XmlWriter xmlWriter, System.Xml.Serialization.XmlRootAttribute xmlAttrib)
     // Offset: 0x1D158A4
-    void ConvertObjectToXml(::Il2CppObject* value, System::Xml::XmlWriter* xmlWriter, System::Xml::Serialization::XmlRootAttribute* xmlAttrib);
+    void ConvertObjectToXml(::Il2CppObject* value, ::System::Xml::XmlWriter* xmlWriter, ::System::Xml::Serialization::XmlRootAttribute* xmlAttrib);
     // static public System.Data.Common.DataStorage CreateStorage(System.Data.DataColumn column, System.Type dataType, System.Data.Common.StorageType typeCode)
     // Offset: 0x1D158EC
-    static System::Data::Common::DataStorage* CreateStorage(System::Data::DataColumn* column, System::Type* dataType, System::Data::Common::StorageType typeCode);
+    static ::System::Data::Common::DataStorage* CreateStorage(::System::Data::DataColumn* column, ::System::Type* dataType, ::System::Data::Common::StorageType typeCode);
     // static System.Data.Common.StorageType GetStorageType(System.Type dataType)
     // Offset: 0x1D0EC20
-    static System::Data::Common::StorageType GetStorageType(System::Type* dataType);
+    static ::System::Data::Common::StorageType GetStorageType(::System::Type* dataType);
     // static System.Type GetTypeStorage(System.Data.Common.StorageType storageType)
     // Offset: 0x1D0F530
-    static System::Type* GetTypeStorage(System::Data::Common::StorageType storageType);
+    static ::System::Type* GetTypeStorage(::System::Data::Common::StorageType storageType);
     // static System.Boolean IsTypeCustomType(System.Type type)
     // Offset: 0x1D168E8
-    static bool IsTypeCustomType(System::Type* type);
+    static bool IsTypeCustomType(::System::Type* type);
     // static System.Boolean IsTypeCustomType(System.Data.Common.StorageType typeCode)
     // Offset: 0x1D156D0
-    static bool IsTypeCustomType(System::Data::Common::StorageType typeCode);
+    static bool IsTypeCustomType(::System::Data::Common::StorageType typeCode);
     // static System.Boolean IsSqlType(System.Data.Common.StorageType storageType)
     // Offset: 0x1D0EC14
-    static bool IsSqlType(System::Data::Common::StorageType storageType);
+    static bool IsSqlType(::System::Data::Common::StorageType storageType);
     // static public System.Boolean IsSqlType(System.Type dataType)
     // Offset: 0x1D1696C
-    static bool IsSqlType(System::Type* dataType);
+    static bool IsSqlType(::System::Type* dataType);
     // static private System.Boolean DetermineIfValueType(System.Data.Common.StorageType typeCode, System.Type dataType)
     // Offset: 0x1D156F0
-    static bool DetermineIfValueType(System::Data::Common::StorageType typeCode, System::Type* dataType);
+    static bool DetermineIfValueType(::System::Data::Common::StorageType typeCode, ::System::Type* dataType);
     // static System.Void ImplementsInterfaces(System.Data.Common.StorageType typeCode, System.Type dataType, out System.Boolean sqlType, out System.Boolean nullable, out System.Boolean xmlSerializable, out System.Boolean changeTracking, out System.Boolean revertibleChangeTracking)
     // Offset: 0x1D16A88
-    static void ImplementsInterfaces(System::Data::Common::StorageType typeCode, System::Type* dataType, ByRef<bool> sqlType, ByRef<bool> nullable, ByRef<bool> xmlSerializable, ByRef<bool> changeTracking, ByRef<bool> revertibleChangeTracking);
+    static void ImplementsInterfaces(::System::Data::Common::StorageType typeCode, ::System::Type* dataType, ByRef<bool> sqlType, ByRef<bool> nullable, ByRef<bool> xmlSerializable, ByRef<bool> changeTracking, ByRef<bool> revertibleChangeTracking);
     // static private System.Tuple`4<System.Boolean,System.Boolean,System.Boolean,System.Boolean> InspectTypeForInterfaces(System.Type dataType)
     // Offset: 0x1D16BB8
-    static System::Tuple_4<bool, bool, bool, bool>* InspectTypeForInterfaces(System::Type* dataType);
+    static ::System::Tuple_4<bool, bool, bool, bool>* InspectTypeForInterfaces(::System::Type* dataType);
     // static System.Boolean ImplementsINullableValue(System.Data.Common.StorageType typeCode, System.Type dataType)
     // Offset: 0x1D16D38
-    static bool ImplementsINullableValue(System::Data::Common::StorageType typeCode, System::Type* dataType);
+    static bool ImplementsINullableValue(::System::Data::Common::StorageType typeCode, ::System::Type* dataType);
     // static public System.Boolean IsObjectNull(System.Object value)
     // Offset: 0x1D16E1C
     static bool IsObjectNull(::Il2CppObject* value);
@@ -325,28 +325,28 @@ namespace System::Data::Common {
     ::Il2CppObject* GetEmptyStorageInternal(int recordCount);
     // System.Void CopyValueInternal(System.Int32 record, System.Object store, System.Collections.BitArray nullbits, System.Int32 storeIndex)
     // Offset: 0x1D16ED8
-    void CopyValueInternal(int record, ::Il2CppObject* store, System::Collections::BitArray* nullbits, int storeIndex);
+    void CopyValueInternal(int record, ::Il2CppObject* store, ::System::Collections::BitArray* nullbits, int storeIndex);
     // System.Void SetStorageInternal(System.Object store, System.Collections.BitArray nullbits)
     // Offset: 0x1D16EE8
-    void SetStorageInternal(::Il2CppObject* store, System::Collections::BitArray* nullbits);
+    void SetStorageInternal(::Il2CppObject* store, ::System::Collections::BitArray* nullbits);
     // protected System.Object GetEmptyStorage(System.Int32 recordCount)
     // Offset: 0xFFFFFFFF
     ::Il2CppObject* GetEmptyStorage(int recordCount);
     // protected System.Void CopyValue(System.Int32 record, System.Object store, System.Collections.BitArray nullbits, System.Int32 storeIndex)
     // Offset: 0xFFFFFFFF
-    void CopyValue(int record, ::Il2CppObject* store, System::Collections::BitArray* nullbits, int storeIndex);
+    void CopyValue(int record, ::Il2CppObject* store, ::System::Collections::BitArray* nullbits, int storeIndex);
     // protected System.Void SetStorage(System.Object store, System.Collections.BitArray nullbits)
     // Offset: 0xFFFFFFFF
-    void SetStorage(::Il2CppObject* store, System::Collections::BitArray* nullbits);
+    void SetStorage(::Il2CppObject* store, ::System::Collections::BitArray* nullbits);
     // protected System.Void SetNullStorage(System.Collections.BitArray nullbits)
     // Offset: 0x1D16EF8
-    void SetNullStorage(System::Collections::BitArray* nullbits);
+    void SetNullStorage(::System::Collections::BitArray* nullbits);
     // static System.Type GetType(System.String value)
     // Offset: 0x1D16F00
-    static System::Type* GetType(::StringW value);
+    static ::System::Type* GetType(::StringW value);
     // static System.String GetQualifiedName(System.Type type)
     // Offset: 0x1D17154
-    static ::StringW GetQualifiedName(System::Type* type);
+    static ::StringW GetQualifiedName(::System::Type* type);
   }; // System.Data.Common.DataStorage
   #pragma pack(pop)
   static check_size<sizeof(DataStorage), 75 + sizeof(bool)> __System_Data_Common_DataStorageSizeCheck;
@@ -356,7 +356,7 @@ namespace System::Data::Common {
 // Writing MetadataGetter for method: System::Data::Common::DataStorage::get_DateTimeMode
 // Il2CppName: get_DateTimeMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::DataSetDateTime (System::Data::Common::DataStorage::*)()>(&System::Data::Common::DataStorage::get_DateTimeMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataSetDateTime (System::Data::Common::DataStorage::*)()>(&System::Data::Common::DataStorage::get_DateTimeMode)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::Common::DataStorage*), "get_DateTimeMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -364,7 +364,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::Common::DataStorage::get_FormatProvider
 // Il2CppName: get_FormatProvider
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IFormatProvider* (System::Data::Common::DataStorage::*)()>(&System::Data::Common::DataStorage::get_FormatProvider)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IFormatProvider* (System::Data::Common::DataStorage::*)()>(&System::Data::Common::DataStorage::get_FormatProvider)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::Common::DataStorage*), "get_FormatProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -392,7 +392,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Data::Common::DataStorage::Aggregate
 // Il2CppName: Aggregate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Data::Common::DataStorage::*)(::ArrayW<int>, System::Data::AggregateType)>(&System::Data::Common::DataStorage::Aggregate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Data::Common::DataStorage::*)(::ArrayW<int>, ::System::Data::AggregateType)>(&System::Data::Common::DataStorage::Aggregate)> {
   static const MethodInfo* get() {
     static auto* recordNos = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* kind = &::il2cpp_utils::GetClassFromName("System.Data", "AggregateType")->byval_arg;
@@ -553,7 +553,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Data::Common::DataStorage::ConvertXmlToObject
 // Il2CppName: ConvertXmlToObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Data::Common::DataStorage::*)(System::Xml::XmlReader*, System::Xml::Serialization::XmlRootAttribute*)>(&System::Data::Common::DataStorage::ConvertXmlToObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Data::Common::DataStorage::*)(::System::Xml::XmlReader*, ::System::Xml::Serialization::XmlRootAttribute*)>(&System::Data::Common::DataStorage::ConvertXmlToObject)> {
   static const MethodInfo* get() {
     static auto* xmlReader = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlReader")->byval_arg;
     static auto* xmlAttrib = &::il2cpp_utils::GetClassFromName("System.Xml.Serialization", "XmlRootAttribute")->byval_arg;
@@ -572,7 +572,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Data::Common::DataStorage::ConvertObjectToXml
 // Il2CppName: ConvertObjectToXml
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::Common::DataStorage::*)(::Il2CppObject*, System::Xml::XmlWriter*, System::Xml::Serialization::XmlRootAttribute*)>(&System::Data::Common::DataStorage::ConvertObjectToXml)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::Common::DataStorage::*)(::Il2CppObject*, ::System::Xml::XmlWriter*, ::System::Xml::Serialization::XmlRootAttribute*)>(&System::Data::Common::DataStorage::ConvertObjectToXml)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* xmlWriter = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlWriter")->byval_arg;
@@ -583,7 +583,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::Common::DataStorage::CreateStorage
 // Il2CppName: CreateStorage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::Common::DataStorage* (*)(System::Data::DataColumn*, System::Type*, System::Data::Common::StorageType)>(&System::Data::Common::DataStorage::CreateStorage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::Common::DataStorage* (*)(::System::Data::DataColumn*, ::System::Type*, ::System::Data::Common::StorageType)>(&System::Data::Common::DataStorage::CreateStorage)> {
   static const MethodInfo* get() {
     static auto* column = &::il2cpp_utils::GetClassFromName("System.Data", "DataColumn")->byval_arg;
     static auto* dataType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -594,7 +594,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::Common::DataStorage::GetStorageType
 // Il2CppName: GetStorageType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::Common::StorageType (*)(System::Type*)>(&System::Data::Common::DataStorage::GetStorageType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::Common::StorageType (*)(::System::Type*)>(&System::Data::Common::DataStorage::GetStorageType)> {
   static const MethodInfo* get() {
     static auto* dataType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::Common::DataStorage*), "GetStorageType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dataType});
@@ -603,7 +603,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::Common::DataStorage::GetTypeStorage
 // Il2CppName: GetTypeStorage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(System::Data::Common::StorageType)>(&System::Data::Common::DataStorage::GetTypeStorage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Data::Common::StorageType)>(&System::Data::Common::DataStorage::GetTypeStorage)> {
   static const MethodInfo* get() {
     static auto* storageType = &::il2cpp_utils::GetClassFromName("System.Data.Common", "StorageType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::Common::DataStorage*), "GetTypeStorage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{storageType});
@@ -612,7 +612,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: System::Data::Common::DataStorage::IsTypeCustomType
 // Il2CppName: IsTypeCustomType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&System::Data::Common::DataStorage::IsTypeCustomType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&System::Data::Common::DataStorage::IsTypeCustomType)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::Common::DataStorage*), "IsTypeCustomType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -621,7 +621,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Data::Common::DataStorage::IsTypeCustomType
 // Il2CppName: IsTypeCustomType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Data::Common::StorageType)>(&System::Data::Common::DataStorage::IsTypeCustomType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Data::Common::StorageType)>(&System::Data::Common::DataStorage::IsTypeCustomType)> {
   static const MethodInfo* get() {
     static auto* typeCode = &::il2cpp_utils::GetClassFromName("System.Data.Common", "StorageType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::Common::DataStorage*), "IsTypeCustomType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{typeCode});
@@ -630,7 +630,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Data::Common::DataStorage::IsSqlType
 // Il2CppName: IsSqlType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Data::Common::StorageType)>(&System::Data::Common::DataStorage::IsSqlType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Data::Common::StorageType)>(&System::Data::Common::DataStorage::IsSqlType)> {
   static const MethodInfo* get() {
     static auto* storageType = &::il2cpp_utils::GetClassFromName("System.Data.Common", "StorageType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::Common::DataStorage*), "IsSqlType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{storageType});
@@ -639,7 +639,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Data::Common::DataStorage::IsSqlType
 // Il2CppName: IsSqlType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&System::Data::Common::DataStorage::IsSqlType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&System::Data::Common::DataStorage::IsSqlType)> {
   static const MethodInfo* get() {
     static auto* dataType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::Common::DataStorage*), "IsSqlType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dataType});
@@ -648,7 +648,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Data::Common::DataStorage::DetermineIfValueType
 // Il2CppName: DetermineIfValueType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Data::Common::StorageType, System::Type*)>(&System::Data::Common::DataStorage::DetermineIfValueType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Data::Common::StorageType, ::System::Type*)>(&System::Data::Common::DataStorage::DetermineIfValueType)> {
   static const MethodInfo* get() {
     static auto* typeCode = &::il2cpp_utils::GetClassFromName("System.Data.Common", "StorageType")->byval_arg;
     static auto* dataType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -658,7 +658,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Data::Common::DataStorage::ImplementsInterfaces
 // Il2CppName: ImplementsInterfaces
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Data::Common::StorageType, System::Type*, ByRef<bool>, ByRef<bool>, ByRef<bool>, ByRef<bool>, ByRef<bool>)>(&System::Data::Common::DataStorage::ImplementsInterfaces)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Data::Common::StorageType, ::System::Type*, ByRef<bool>, ByRef<bool>, ByRef<bool>, ByRef<bool>, ByRef<bool>)>(&System::Data::Common::DataStorage::ImplementsInterfaces)> {
   static const MethodInfo* get() {
     static auto* typeCode = &::il2cpp_utils::GetClassFromName("System.Data.Common", "StorageType")->byval_arg;
     static auto* dataType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -673,7 +673,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Data::Common::DataStorage::InspectTypeForInterfaces
 // Il2CppName: InspectTypeForInterfaces
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tuple_4<bool, bool, bool, bool>* (*)(System::Type*)>(&System::Data::Common::DataStorage::InspectTypeForInterfaces)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Tuple_4<bool, bool, bool, bool>* (*)(::System::Type*)>(&System::Data::Common::DataStorage::InspectTypeForInterfaces)> {
   static const MethodInfo* get() {
     static auto* dataType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::Common::DataStorage*), "InspectTypeForInterfaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dataType});
@@ -682,7 +682,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tup
 // Writing MetadataGetter for method: System::Data::Common::DataStorage::ImplementsINullableValue
 // Il2CppName: ImplementsINullableValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Data::Common::StorageType, System::Type*)>(&System::Data::Common::DataStorage::ImplementsINullableValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Data::Common::StorageType, ::System::Type*)>(&System::Data::Common::DataStorage::ImplementsINullableValue)> {
   static const MethodInfo* get() {
     static auto* typeCode = &::il2cpp_utils::GetClassFromName("System.Data.Common", "StorageType")->byval_arg;
     static auto* dataType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -719,7 +719,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Data::Common::DataStorage::CopyValueInternal
 // Il2CppName: CopyValueInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::Common::DataStorage::*)(int, ::Il2CppObject*, System::Collections::BitArray*, int)>(&System::Data::Common::DataStorage::CopyValueInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::Common::DataStorage::*)(int, ::Il2CppObject*, ::System::Collections::BitArray*, int)>(&System::Data::Common::DataStorage::CopyValueInternal)> {
   static const MethodInfo* get() {
     static auto* record = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* store = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -731,7 +731,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::Common::DataStorage::SetStorageInternal
 // Il2CppName: SetStorageInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::Common::DataStorage::*)(::Il2CppObject*, System::Collections::BitArray*)>(&System::Data::Common::DataStorage::SetStorageInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::Common::DataStorage::*)(::Il2CppObject*, ::System::Collections::BitArray*)>(&System::Data::Common::DataStorage::SetStorageInternal)> {
   static const MethodInfo* get() {
     static auto* store = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* nullbits = &::il2cpp_utils::GetClassFromName("System.Collections", "BitArray")->byval_arg;
@@ -750,7 +750,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Data::Common::DataStorage::CopyValue
 // Il2CppName: CopyValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::Common::DataStorage::*)(int, ::Il2CppObject*, System::Collections::BitArray*, int)>(&System::Data::Common::DataStorage::CopyValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::Common::DataStorage::*)(int, ::Il2CppObject*, ::System::Collections::BitArray*, int)>(&System::Data::Common::DataStorage::CopyValue)> {
   static const MethodInfo* get() {
     static auto* record = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* store = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -762,7 +762,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::Common::DataStorage::SetStorage
 // Il2CppName: SetStorage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::Common::DataStorage::*)(::Il2CppObject*, System::Collections::BitArray*)>(&System::Data::Common::DataStorage::SetStorage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::Common::DataStorage::*)(::Il2CppObject*, ::System::Collections::BitArray*)>(&System::Data::Common::DataStorage::SetStorage)> {
   static const MethodInfo* get() {
     static auto* store = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* nullbits = &::il2cpp_utils::GetClassFromName("System.Collections", "BitArray")->byval_arg;
@@ -772,7 +772,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::Common::DataStorage::SetNullStorage
 // Il2CppName: SetNullStorage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::Common::DataStorage::*)(System::Collections::BitArray*)>(&System::Data::Common::DataStorage::SetNullStorage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::Common::DataStorage::*)(::System::Collections::BitArray*)>(&System::Data::Common::DataStorage::SetNullStorage)> {
   static const MethodInfo* get() {
     static auto* nullbits = &::il2cpp_utils::GetClassFromName("System.Collections", "BitArray")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::Common::DataStorage*), "SetNullStorage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nullbits});
@@ -781,7 +781,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::Common::DataStorage::GetType
 // Il2CppName: GetType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(::StringW)>(&System::Data::Common::DataStorage::GetType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::StringW)>(&System::Data::Common::DataStorage::GetType)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::Common::DataStorage*), "GetType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -790,7 +790,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: System::Data::Common::DataStorage::GetQualifiedName
 // Il2CppName: GetQualifiedName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Type*)>(&System::Data::Common::DataStorage::GetQualifiedName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Type*)>(&System::Data::Common::DataStorage::GetQualifiedName)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::Common::DataStorage*), "GetQualifiedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});

@@ -18,8 +18,8 @@ namespace GlobalNamespace {
   class INoteCutSoundEffectDidFinishEvent;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::INoteCutSoundEffectDidFinishEvent);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::INoteCutSoundEffectDidFinishEvent*, "", "INoteCutSoundEffectDidFinishEvent");
+NEED_NO_BOX(::GlobalNamespace::INoteCutSoundEffectDidFinishEvent);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::INoteCutSoundEffectDidFinishEvent*, "", "INoteCutSoundEffectDidFinishEvent");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -30,7 +30,7 @@ namespace GlobalNamespace {
     public:
     // public System.Void HandleNoteCutSoundEffectDidFinish(NoteCutSoundEffect noteCutSoundEffect)
     // Offset: 0xFFFFFFFF
-    void HandleNoteCutSoundEffectDidFinish(GlobalNamespace::NoteCutSoundEffect* noteCutSoundEffect);
+    void HandleNoteCutSoundEffectDidFinish(::GlobalNamespace::NoteCutSoundEffect* noteCutSoundEffect);
   }; // INoteCutSoundEffectDidFinishEvent
   #pragma pack(pop)
 }
@@ -38,7 +38,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::INoteCutSoundEffectDidFinishEvent::HandleNoteCutSoundEffectDidFinish
 // Il2CppName: HandleNoteCutSoundEffectDidFinish
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::INoteCutSoundEffectDidFinishEvent::*)(GlobalNamespace::NoteCutSoundEffect*)>(&GlobalNamespace::INoteCutSoundEffectDidFinishEvent::HandleNoteCutSoundEffectDidFinish)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::INoteCutSoundEffectDidFinishEvent::*)(::GlobalNamespace::NoteCutSoundEffect*)>(&GlobalNamespace::INoteCutSoundEffectDidFinishEvent::HandleNoteCutSoundEffectDidFinish)> {
   static const MethodInfo* get() {
     static auto* noteCutSoundEffect = &::il2cpp_utils::GetClassFromName("", "NoteCutSoundEffect")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INoteCutSoundEffectDidFinishEvent*), "HandleNoteCutSoundEffectDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteCutSoundEffect});

@@ -14,7 +14,7 @@ namespace System {
   struct StringSplitOptions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::StringSplitOptions, "System", "StringSplitOptions");
+DEFINE_IL2CPP_ARG_TYPE(::System::StringSplitOptions, "System", "StringSplitOptions");
 // Type namespace: System
 namespace System {
   // Size: 0x4
@@ -23,7 +23,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   // [FlagsAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: 11873E8
-  struct StringSplitOptions/*, public System::Enum*/ {
+  struct StringSplitOptions/*, public ::System::Enum*/ {
     public:
     public:
     // public System.Int32 value__
@@ -35,9 +35,9 @@ namespace System {
     public:
     // Creating value type constructor for type: StringSplitOptions
     constexpr StringSplitOptions(int value_ = {}) noexcept : value{value_} {}
-    // Creating interface conversion operator: operator System::Enum
-    operator System::Enum() noexcept {
-      return *reinterpret_cast<System::Enum*>(this);
+    // Creating interface conversion operator: operator ::System::Enum
+    operator ::System::Enum() noexcept {
+      return *reinterpret_cast<::System::Enum*>(this);
     }
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
@@ -46,15 +46,15 @@ namespace System {
     // static field const value: static public System.StringSplitOptions None
     static constexpr const int None = 0;
     // Get static field: static public System.StringSplitOptions None
-    static System::StringSplitOptions _get_None();
+    static ::System::StringSplitOptions _get_None();
     // Set static field: static public System.StringSplitOptions None
-    static void _set_None(System::StringSplitOptions value);
+    static void _set_None(::System::StringSplitOptions value);
     // static field const value: static public System.StringSplitOptions RemoveEmptyEntries
     static constexpr const int RemoveEmptyEntries = 1;
     // Get static field: static public System.StringSplitOptions RemoveEmptyEntries
-    static System::StringSplitOptions _get_RemoveEmptyEntries();
+    static ::System::StringSplitOptions _get_RemoveEmptyEntries();
     // Set static field: static public System.StringSplitOptions RemoveEmptyEntries
-    static void _set_RemoveEmptyEntries(System::StringSplitOptions value);
+    static void _set_RemoveEmptyEntries(::System::StringSplitOptions value);
     // Get instance field reference: public System.Int32 value__
     int& dyn_value__();
   }; // System.StringSplitOptions

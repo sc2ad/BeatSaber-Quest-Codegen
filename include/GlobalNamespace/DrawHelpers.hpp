@@ -25,8 +25,8 @@ namespace GlobalNamespace {
   class DrawHelpers;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::DrawHelpers);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DrawHelpers*, "", "DrawHelpers");
+NEED_NO_BOX(::GlobalNamespace::DrawHelpers);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DrawHelpers*, "", "DrawHelpers");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -37,14 +37,14 @@ namespace GlobalNamespace {
     public:
     // static public System.Void DrawTexture(UnityEngine.Texture texture, System.Single x, System.Single y, System.Single w, System.Single h, UnityEngine.Material mat, System.Single sx, System.Single sy, System.Single sw, System.Single sh)
     // Offset: 0x2C1A0E0
-    static void DrawTexture(UnityEngine::Texture* texture, float x, float y, float w, float h, UnityEngine::Material* mat, float sx, float sy, float sw, float sh);
+    static void DrawTexture(::UnityEngine::Texture* texture, float x, float y, float w, float h, ::UnityEngine::Material* mat, float sx, float sy, float sw, float sh);
     // public System.Void .ctor()
     // Offset: 0x2C1A28C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DrawHelpers* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DrawHelpers::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DrawHelpers::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DrawHelpers*, creationType>()));
     }
   }; // DrawHelpers
@@ -54,7 +54,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::DrawHelpers::DrawTexture
 // Il2CppName: DrawTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Texture*, float, float, float, float, UnityEngine::Material*, float, float, float, float)>(&GlobalNamespace::DrawHelpers::DrawTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Texture*, float, float, float, float, ::UnityEngine::Material*, float, float, float, float)>(&GlobalNamespace::DrawHelpers::DrawTexture)> {
   static const MethodInfo* get() {
     static auto* texture = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

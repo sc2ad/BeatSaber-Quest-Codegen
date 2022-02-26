@@ -14,8 +14,8 @@ namespace Unity::Collections {
   class DeallocateOnJobCompletionAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Unity::Collections::DeallocateOnJobCompletionAttribute);
-DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::DeallocateOnJobCompletionAttribute*, "Unity.Collections", "DeallocateOnJobCompletionAttribute");
+NEED_NO_BOX(::Unity::Collections::DeallocateOnJobCompletionAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::Unity::Collections::DeallocateOnJobCompletionAttribute*, "Unity.Collections", "DeallocateOnJobCompletionAttribute");
 // Type namespace: Unity.Collections
 namespace Unity::Collections {
   // Size: 0x10
@@ -24,7 +24,7 @@ namespace Unity::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   // [RequiredByNativeCodeAttribute] Offset: 11A30F4
   // [AttributeUsageAttribute] Offset: 11A30F4
-  class DeallocateOnJobCompletionAttribute : public System::Attribute {
+  class DeallocateOnJobCompletionAttribute : public ::System::Attribute {
     public:
   }; // Unity.Collections.DeallocateOnJobCompletionAttribute
   #pragma pack(pop)

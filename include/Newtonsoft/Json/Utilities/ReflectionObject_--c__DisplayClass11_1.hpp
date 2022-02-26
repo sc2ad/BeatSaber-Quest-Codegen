@@ -21,8 +21,8 @@ namespace Newtonsoft::Json::Utilities {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Utilities::ReflectionObject::$$c__DisplayClass11_1);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::ReflectionObject::$$c__DisplayClass11_1*, "Newtonsoft.Json.Utilities", "ReflectionObject/<>c__DisplayClass11_1");
+NEED_NO_BOX(::Newtonsoft::Json::Utilities::ReflectionObject::$$c__DisplayClass11_1);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::ReflectionObject::$$c__DisplayClass11_1*, "Newtonsoft.Json.Utilities", "ReflectionObject/<>c__DisplayClass11_1");
 // Type namespace: Newtonsoft.Json.Utilities
 namespace Newtonsoft::Json::Utilities {
   // Size: 0x18
@@ -45,16 +45,16 @@ namespace Newtonsoft::Json::Utilities {
     // public Newtonsoft.Json.Utilities.MethodCall`2<System.Object,System.Object> call
     // Size: 0x8
     // Offset: 0x10
-    Newtonsoft::Json::Utilities::MethodCall_2<::Il2CppObject*, ::Il2CppObject*>* call;
+    ::Newtonsoft::Json::Utilities::MethodCall_2<::Il2CppObject*, ::Il2CppObject*>* call;
     // Field size check
-    static_assert(sizeof(Newtonsoft::Json::Utilities::MethodCall_2<::Il2CppObject*, ::Il2CppObject*>*) == 0x8);
+    static_assert(sizeof(::Newtonsoft::Json::Utilities::MethodCall_2<::Il2CppObject*, ::Il2CppObject*>*) == 0x8);
     public:
-    // Creating conversion operator: operator Newtonsoft::Json::Utilities::MethodCall_2<::Il2CppObject*, ::Il2CppObject*>*
-    constexpr operator Newtonsoft::Json::Utilities::MethodCall_2<::Il2CppObject*, ::Il2CppObject*>*() const noexcept {
+    // Creating conversion operator: operator ::Newtonsoft::Json::Utilities::MethodCall_2<::Il2CppObject*, ::Il2CppObject*>*
+    constexpr operator ::Newtonsoft::Json::Utilities::MethodCall_2<::Il2CppObject*, ::Il2CppObject*>*() const noexcept {
       return call;
     }
     // Get instance field reference: public Newtonsoft.Json.Utilities.MethodCall`2<System.Object,System.Object> call
-    Newtonsoft::Json::Utilities::MethodCall_2<::Il2CppObject*, ::Il2CppObject*>*& dyn_call();
+    ::Newtonsoft::Json::Utilities::MethodCall_2<::Il2CppObject*, ::Il2CppObject*>*& dyn_call();
     // System.Object <Create>b__1(System.Object target)
     // Offset: 0x29F3EE4
     ::Il2CppObject* $Create$b__1(::Il2CppObject* target);
@@ -64,12 +64,12 @@ namespace Newtonsoft::Json::Utilities {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReflectionObject::$$c__DisplayClass11_1* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Utilities::ReflectionObject::$$c__DisplayClass11_1::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Utilities::ReflectionObject::$$c__DisplayClass11_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReflectionObject::$$c__DisplayClass11_1*, creationType>()));
     }
   }; // Newtonsoft.Json.Utilities.ReflectionObject/Newtonsoft.Json.Utilities.<>c__DisplayClass11_1
   #pragma pack(pop)
-  static check_size<sizeof(ReflectionObject::$$c__DisplayClass11_1), 16 + sizeof(Newtonsoft::Json::Utilities::MethodCall_2<::Il2CppObject*, ::Il2CppObject*>*)> __Newtonsoft_Json_Utilities_ReflectionObject_$$c__DisplayClass11_1SizeCheck;
+  static check_size<sizeof(ReflectionObject::$$c__DisplayClass11_1), 16 + sizeof(::Newtonsoft::Json::Utilities::MethodCall_2<::Il2CppObject*, ::Il2CppObject*>*)> __Newtonsoft_Json_Utilities_ReflectionObject_$$c__DisplayClass11_1SizeCheck;
   static_assert(sizeof(ReflectionObject::$$c__DisplayClass11_1) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

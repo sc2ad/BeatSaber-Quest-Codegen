@@ -35,8 +35,8 @@ namespace System {
   class Convert;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Convert);
-DEFINE_IL2CPP_ARG_TYPE(System::Convert*, "System", "Convert");
+NEED_NO_BOX(::System::Convert);
+DEFINE_IL2CPP_ARG_TYPE(::System::Convert*, "System", "Convert");
 // Type namespace: System
 namespace System {
   // Size: 0x10
@@ -46,13 +46,13 @@ namespace System {
   class Convert : public ::Il2CppObject {
     public:
     // Get static field: static readonly System.RuntimeType[] ConvertTypes
-    static ::ArrayW<System::RuntimeType*> _get_ConvertTypes();
+    static ::ArrayW<::System::RuntimeType*> _get_ConvertTypes();
     // Set static field: static readonly System.RuntimeType[] ConvertTypes
-    static void _set_ConvertTypes(::ArrayW<System::RuntimeType*> value);
+    static void _set_ConvertTypes(::ArrayW<::System::RuntimeType*> value);
     // Get static field: static private readonly System.RuntimeType EnumType
-    static System::RuntimeType* _get_EnumType();
+    static ::System::RuntimeType* _get_EnumType();
     // Set static field: static private readonly System.RuntimeType EnumType
-    static void _set_EnumType(System::RuntimeType* value);
+    static void _set_EnumType(::System::RuntimeType* value);
     // Get static field: static readonly System.Char[] base64Table
     static ::ArrayW<::Il2CppChar> _get_base64Table();
     // Set static field: static readonly System.Char[] base64Table
@@ -66,22 +66,22 @@ namespace System {
     static void _cctor();
     // static public System.TypeCode GetTypeCode(System.Object value)
     // Offset: 0x1ADBA0C
-    static System::TypeCode GetTypeCode(::Il2CppObject* value);
+    static ::System::TypeCode GetTypeCode(::Il2CppObject* value);
     // static public System.Object ChangeType(System.Object value, System.TypeCode typeCode, System.IFormatProvider provider)
     // Offset: 0x1ADBAE0
-    static ::Il2CppObject* ChangeType(::Il2CppObject* value, System::TypeCode typeCode, System::IFormatProvider* provider);
+    static ::Il2CppObject* ChangeType(::Il2CppObject* value, ::System::TypeCode typeCode, ::System::IFormatProvider* provider);
     // static System.Object DefaultToType(System.IConvertible value, System.Type targetType, System.IFormatProvider provider)
     // Offset: 0x1ADC364
-    static ::Il2CppObject* DefaultToType(System::IConvertible* value, System::Type* targetType, System::IFormatProvider* provider);
+    static ::Il2CppObject* DefaultToType(::System::IConvertible* value, ::System::Type* targetType, ::System::IFormatProvider* provider);
     // static public System.Object ChangeType(System.Object value, System.Type conversionType)
     // Offset: 0x1ADD54C
-    static ::Il2CppObject* ChangeType(::Il2CppObject* value, System::Type* conversionType);
+    static ::Il2CppObject* ChangeType(::Il2CppObject* value, ::System::Type* conversionType);
     // static public System.Object ChangeType(System.Object value, System.Type conversionType, System.IFormatProvider provider)
     // Offset: 0x1ADD5E4
-    static ::Il2CppObject* ChangeType(::Il2CppObject* value, System::Type* conversionType, System::IFormatProvider* provider);
+    static ::Il2CppObject* ChangeType(::Il2CppObject* value, ::System::Type* conversionType, ::System::IFormatProvider* provider);
     // static public System.Boolean ToBoolean(System.Object value, System.IFormatProvider provider)
     // Offset: 0x1ADE5CC
-    static bool ToBoolean(::Il2CppObject* value, System::IFormatProvider* provider);
+    static bool ToBoolean(::Il2CppObject* value, ::System::IFormatProvider* provider);
     // static public System.Boolean ToBoolean(System.SByte value)
     // Offset: 0x1ADE6E0
     static bool ToBoolean(int8_t value);
@@ -111,7 +111,7 @@ namespace System {
     static bool ToBoolean(::StringW value);
     // static public System.Boolean ToBoolean(System.String value, System.IFormatProvider provider)
     // Offset: 0x1ADE7BC
-    static bool ToBoolean(::StringW value, System::IFormatProvider* provider);
+    static bool ToBoolean(::StringW value, ::System::IFormatProvider* provider);
     // static public System.Boolean ToBoolean(System.Single value)
     // Offset: 0x1ADE838
     static bool ToBoolean(float value);
@@ -120,10 +120,10 @@ namespace System {
     static bool ToBoolean(double value);
     // static public System.Boolean ToBoolean(System.Decimal value)
     // Offset: 0x1ADE850
-    static bool ToBoolean(System::Decimal value);
+    static bool ToBoolean(::System::Decimal value);
     // static public System.Char ToChar(System.Object value, System.IFormatProvider provider)
     // Offset: 0x1ADE8D4
-    static ::Il2CppChar ToChar(::Il2CppObject* value, System::IFormatProvider* provider);
+    static ::Il2CppChar ToChar(::Il2CppObject* value, ::System::IFormatProvider* provider);
     // static public System.Char ToChar(System.SByte value)
     // Offset: 0x1ADE9E8
     static ::Il2CppChar ToChar(int8_t value);
@@ -150,10 +150,10 @@ namespace System {
     static ::Il2CppChar ToChar(uint64_t value);
     // static public System.Char ToChar(System.String value, System.IFormatProvider provider)
     // Offset: 0x1ADED98
-    static ::Il2CppChar ToChar(::StringW value, System::IFormatProvider* provider);
+    static ::Il2CppChar ToChar(::StringW value, ::System::IFormatProvider* provider);
     // static public System.SByte ToSByte(System.Object value, System.IFormatProvider provider)
     // Offset: 0x1ADEE80
-    static int8_t ToSByte(::Il2CppObject* value, System::IFormatProvider* provider);
+    static int8_t ToSByte(::Il2CppObject* value, ::System::IFormatProvider* provider);
     // static public System.SByte ToSByte(System.Boolean value)
     // Offset: 0x1ADEF94
     static int8_t ToSByte(bool value);
@@ -189,13 +189,13 @@ namespace System {
     static int8_t ToSByte(double value);
     // static public System.SByte ToSByte(System.Decimal value)
     // Offset: 0x1ADF6AC
-    static int8_t ToSByte(System::Decimal value);
+    static int8_t ToSByte(::System::Decimal value);
     // static public System.SByte ToSByte(System.String value, System.IFormatProvider provider)
     // Offset: 0x1ADF730
-    static int8_t ToSByte(::StringW value, System::IFormatProvider* provider);
+    static int8_t ToSByte(::StringW value, ::System::IFormatProvider* provider);
     // static public System.Byte ToByte(System.Object value, System.IFormatProvider provider)
     // Offset: 0x1ADF740
-    static uint8_t ToByte(::Il2CppObject* value, System::IFormatProvider* provider);
+    static uint8_t ToByte(::Il2CppObject* value, ::System::IFormatProvider* provider);
     // static public System.Byte ToByte(System.Boolean value)
     // Offset: 0x1ADF854
     static uint8_t ToByte(bool value);
@@ -231,16 +231,16 @@ namespace System {
     static uint8_t ToByte(double value);
     // static public System.Byte ToByte(System.Decimal value)
     // Offset: 0x1ADFE24
-    static uint8_t ToByte(System::Decimal value);
+    static uint8_t ToByte(::System::Decimal value);
     // static public System.Byte ToByte(System.String value)
     // Offset: 0x1ADFEA8
     static uint8_t ToByte(::StringW value);
     // static public System.Byte ToByte(System.String value, System.IFormatProvider provider)
     // Offset: 0x1ADFF30
-    static uint8_t ToByte(::StringW value, System::IFormatProvider* provider);
+    static uint8_t ToByte(::StringW value, ::System::IFormatProvider* provider);
     // static public System.Int16 ToInt16(System.Object value, System.IFormatProvider provider)
     // Offset: 0x1ADFF48
-    static int16_t ToInt16(::Il2CppObject* value, System::IFormatProvider* provider);
+    static int16_t ToInt16(::Il2CppObject* value, ::System::IFormatProvider* provider);
     // static public System.Int16 ToInt16(System.Boolean value)
     // Offset: 0x1AE005C
     static int16_t ToInt16(bool value);
@@ -276,13 +276,13 @@ namespace System {
     static int16_t ToInt16(double value);
     // static public System.Int16 ToInt16(System.Decimal value)
     // Offset: 0x1AE0500
-    static int16_t ToInt16(System::Decimal value);
+    static int16_t ToInt16(::System::Decimal value);
     // static public System.Int16 ToInt16(System.String value, System.IFormatProvider provider)
     // Offset: 0x1AE0584
-    static int16_t ToInt16(::StringW value, System::IFormatProvider* provider);
+    static int16_t ToInt16(::StringW value, ::System::IFormatProvider* provider);
     // static public System.UInt16 ToUInt16(System.Object value, System.IFormatProvider provider)
     // Offset: 0x1AE059C
-    static uint16_t ToUInt16(::Il2CppObject* value, System::IFormatProvider* provider);
+    static uint16_t ToUInt16(::Il2CppObject* value, ::System::IFormatProvider* provider);
     // static public System.UInt16 ToUInt16(System.Boolean value)
     // Offset: 0x1AE06B0
     static uint16_t ToUInt16(bool value);
@@ -318,16 +318,16 @@ namespace System {
     static uint16_t ToUInt16(double value);
     // static public System.UInt16 ToUInt16(System.Decimal value)
     // Offset: 0x1AE0B44
-    static uint16_t ToUInt16(System::Decimal value);
+    static uint16_t ToUInt16(::System::Decimal value);
     // static public System.UInt16 ToUInt16(System.String value, System.IFormatProvider provider)
     // Offset: 0x1AE0BC8
-    static uint16_t ToUInt16(::StringW value, System::IFormatProvider* provider);
+    static uint16_t ToUInt16(::StringW value, ::System::IFormatProvider* provider);
     // static public System.Int32 ToInt32(System.Object value)
     // Offset: 0x1AE0BE0
     static int ToInt32(::Il2CppObject* value);
     // static public System.Int32 ToInt32(System.Object value, System.IFormatProvider provider)
     // Offset: 0x1AE0CF0
-    static int ToInt32(::Il2CppObject* value, System::IFormatProvider* provider);
+    static int ToInt32(::Il2CppObject* value, ::System::IFormatProvider* provider);
     // static public System.Int32 ToInt32(System.Boolean value)
     // Offset: 0x1AE0E04
     static int ToInt32(bool value);
@@ -360,19 +360,19 @@ namespace System {
     static int ToInt32(double value);
     // static public System.Int32 ToInt32(System.Decimal value)
     // Offset: 0x1AE106C
-    static int ToInt32(System::Decimal value);
+    static int ToInt32(::System::Decimal value);
     // static public System.Int32 ToInt32(System.String value)
     // Offset: 0x1AE10E4
     static int ToInt32(::StringW value);
     // static public System.Int32 ToInt32(System.String value, System.IFormatProvider provider)
     // Offset: 0x1AE116C
-    static int ToInt32(::StringW value, System::IFormatProvider* provider);
+    static int ToInt32(::StringW value, ::System::IFormatProvider* provider);
     // static public System.UInt32 ToUInt32(System.Object value)
     // Offset: 0x1AE1184
     static uint ToUInt32(::Il2CppObject* value);
     // static public System.UInt32 ToUInt32(System.Object value, System.IFormatProvider provider)
     // Offset: 0x1AE1294
-    static uint ToUInt32(::Il2CppObject* value, System::IFormatProvider* provider);
+    static uint ToUInt32(::Il2CppObject* value, ::System::IFormatProvider* provider);
     // static public System.UInt32 ToUInt32(System.Boolean value)
     // Offset: 0x1AE13A8
     static uint ToUInt32(bool value);
@@ -408,16 +408,16 @@ namespace System {
     static uint ToUInt32(double value);
     // static public System.UInt32 ToUInt32(System.Decimal value)
     // Offset: 0x1AE181C
-    static uint ToUInt32(System::Decimal value);
+    static uint ToUInt32(::System::Decimal value);
     // static public System.UInt32 ToUInt32(System.String value, System.IFormatProvider provider)
     // Offset: 0x1AE18A0
-    static uint ToUInt32(::StringW value, System::IFormatProvider* provider);
+    static uint ToUInt32(::StringW value, ::System::IFormatProvider* provider);
     // static public System.Int64 ToInt64(System.Object value)
     // Offset: 0x1AE18B8
     static int64_t ToInt64(::Il2CppObject* value);
     // static public System.Int64 ToInt64(System.Object value, System.IFormatProvider provider)
     // Offset: 0x1AE19C8
-    static int64_t ToInt64(::Il2CppObject* value, System::IFormatProvider* provider);
+    static int64_t ToInt64(::Il2CppObject* value, ::System::IFormatProvider* provider);
     // static public System.Int64 ToInt64(System.Boolean value)
     // Offset: 0x1AE1ADC
     static int64_t ToInt64(bool value);
@@ -453,19 +453,19 @@ namespace System {
     static int64_t ToInt64(double value);
     // static public System.Int64 ToInt64(System.Decimal value)
     // Offset: 0x1AE1D2C
-    static int64_t ToInt64(System::Decimal value);
+    static int64_t ToInt64(::System::Decimal value);
     // static public System.Int64 ToInt64(System.String value)
     // Offset: 0x1AE1DB0
     static int64_t ToInt64(::StringW value);
     // static public System.Int64 ToInt64(System.String value, System.IFormatProvider provider)
     // Offset: 0x1AE1E38
-    static int64_t ToInt64(::StringW value, System::IFormatProvider* provider);
+    static int64_t ToInt64(::StringW value, ::System::IFormatProvider* provider);
     // static public System.UInt64 ToUInt64(System.Object value)
     // Offset: 0x1AE1E50
     static uint64_t ToUInt64(::Il2CppObject* value);
     // static public System.UInt64 ToUInt64(System.Object value, System.IFormatProvider provider)
     // Offset: 0x1AE1F60
-    static uint64_t ToUInt64(::Il2CppObject* value, System::IFormatProvider* provider);
+    static uint64_t ToUInt64(::Il2CppObject* value, ::System::IFormatProvider* provider);
     // static public System.UInt64 ToUInt64(System.Boolean value)
     // Offset: 0x1AE2074
     static uint64_t ToUInt64(bool value);
@@ -501,16 +501,16 @@ namespace System {
     static uint64_t ToUInt64(double value);
     // static public System.UInt64 ToUInt64(System.Decimal value)
     // Offset: 0x1AE2468
-    static uint64_t ToUInt64(System::Decimal value);
+    static uint64_t ToUInt64(::System::Decimal value);
     // static public System.UInt64 ToUInt64(System.String value, System.IFormatProvider provider)
     // Offset: 0x1AE24EC
-    static uint64_t ToUInt64(::StringW value, System::IFormatProvider* provider);
+    static uint64_t ToUInt64(::StringW value, ::System::IFormatProvider* provider);
     // static public System.Single ToSingle(System.Object value)
     // Offset: 0x1AE2504
     static float ToSingle(::Il2CppObject* value);
     // static public System.Single ToSingle(System.Object value, System.IFormatProvider provider)
     // Offset: 0x1AE2614
-    static float ToSingle(::Il2CppObject* value, System::IFormatProvider* provider);
+    static float ToSingle(::Il2CppObject* value, ::System::IFormatProvider* provider);
     // static public System.Single ToSingle(System.SByte value)
     // Offset: 0x1AE2728
     static float ToSingle(int8_t value);
@@ -540,10 +540,10 @@ namespace System {
     static float ToSingle(double value);
     // static public System.Single ToSingle(System.Decimal value)
     // Offset: 0x1AE2788
-    static float ToSingle(System::Decimal value);
+    static float ToSingle(::System::Decimal value);
     // static public System.Single ToSingle(System.String value, System.IFormatProvider provider)
     // Offset: 0x1AE2800
-    static float ToSingle(::StringW value, System::IFormatProvider* provider);
+    static float ToSingle(::StringW value, ::System::IFormatProvider* provider);
     // static public System.Single ToSingle(System.Boolean value)
     // Offset: 0x1AE281C
     static float ToSingle(bool value);
@@ -552,7 +552,7 @@ namespace System {
     static double ToDouble(::Il2CppObject* value);
     // static public System.Double ToDouble(System.Object value, System.IFormatProvider provider)
     // Offset: 0x1AE2940
-    static double ToDouble(::Il2CppObject* value, System::IFormatProvider* provider);
+    static double ToDouble(::Il2CppObject* value, ::System::IFormatProvider* provider);
     // static public System.Double ToDouble(System.SByte value)
     // Offset: 0x1AE2A54
     static double ToDouble(int8_t value);
@@ -582,76 +582,76 @@ namespace System {
     static double ToDouble(float value);
     // static public System.Double ToDouble(System.Decimal value)
     // Offset: 0x1AE2AAC
-    static double ToDouble(System::Decimal value);
+    static double ToDouble(::System::Decimal value);
     // static public System.Double ToDouble(System.String value, System.IFormatProvider provider)
     // Offset: 0x1AE2B24
-    static double ToDouble(::StringW value, System::IFormatProvider* provider);
+    static double ToDouble(::StringW value, ::System::IFormatProvider* provider);
     // static public System.Double ToDouble(System.Boolean value)
     // Offset: 0x1AE2BB8
     static double ToDouble(bool value);
     // static public System.Decimal ToDecimal(System.Object value)
     // Offset: 0x1AE2BCC
-    static System::Decimal ToDecimal(::Il2CppObject* value);
+    static ::System::Decimal ToDecimal(::Il2CppObject* value);
     // static public System.Decimal ToDecimal(System.Object value, System.IFormatProvider provider)
     // Offset: 0x1AE2CFC
-    static System::Decimal ToDecimal(::Il2CppObject* value, System::IFormatProvider* provider);
+    static ::System::Decimal ToDecimal(::Il2CppObject* value, ::System::IFormatProvider* provider);
     // static public System.Decimal ToDecimal(System.SByte value)
     // Offset: 0x1AE2E30
-    static System::Decimal ToDecimal(int8_t value);
+    static ::System::Decimal ToDecimal(int8_t value);
     // static public System.Decimal ToDecimal(System.Byte value)
     // Offset: 0x1AE2E98
-    static System::Decimal ToDecimal(uint8_t value);
+    static ::System::Decimal ToDecimal(uint8_t value);
     // static public System.Decimal ToDecimal(System.Int16 value)
     // Offset: 0x1AE2F00
-    static System::Decimal ToDecimal(int16_t value);
+    static ::System::Decimal ToDecimal(int16_t value);
     // static public System.Decimal ToDecimal(System.UInt16 value)
     // Offset: 0x1AE2F68
-    static System::Decimal ToDecimal(uint16_t value);
+    static ::System::Decimal ToDecimal(uint16_t value);
     // static public System.Decimal ToDecimal(System.Int32 value)
     // Offset: 0x1AE2FD0
-    static System::Decimal ToDecimal(int value);
+    static ::System::Decimal ToDecimal(int value);
     // static public System.Decimal ToDecimal(System.UInt32 value)
     // Offset: 0x1AE3038
-    static System::Decimal ToDecimal(uint value);
+    static ::System::Decimal ToDecimal(uint value);
     // static public System.Decimal ToDecimal(System.Int64 value)
     // Offset: 0x1AE30A0
-    static System::Decimal ToDecimal(int64_t value);
+    static ::System::Decimal ToDecimal(int64_t value);
     // static public System.Decimal ToDecimal(System.UInt64 value)
     // Offset: 0x1AE3108
-    static System::Decimal ToDecimal(uint64_t value);
+    static ::System::Decimal ToDecimal(uint64_t value);
     // static public System.Decimal ToDecimal(System.Single value)
     // Offset: 0x1AE3170
-    static System::Decimal ToDecimal(float value);
+    static ::System::Decimal ToDecimal(float value);
     // static public System.Decimal ToDecimal(System.Double value)
     // Offset: 0x1AE31E0
-    static System::Decimal ToDecimal(double value);
+    static ::System::Decimal ToDecimal(double value);
     // static public System.Decimal ToDecimal(System.String value, System.IFormatProvider provider)
     // Offset: 0x1AE3250
-    static System::Decimal ToDecimal(::StringW value, System::IFormatProvider* provider);
+    static ::System::Decimal ToDecimal(::StringW value, ::System::IFormatProvider* provider);
     // static public System.Decimal ToDecimal(System.Boolean value)
     // Offset: 0x1AE32F4
-    static System::Decimal ToDecimal(bool value);
+    static ::System::Decimal ToDecimal(bool value);
     // static public System.DateTime ToDateTime(System.Object value, System.IFormatProvider provider)
     // Offset: 0x1AE3360
-    static System::DateTime ToDateTime(::Il2CppObject* value, System::IFormatProvider* provider);
+    static ::System::DateTime ToDateTime(::Il2CppObject* value, ::System::IFormatProvider* provider);
     // static public System.DateTime ToDateTime(System.String value, System.IFormatProvider provider)
     // Offset: 0x1AE349C
-    static System::DateTime ToDateTime(::StringW value, System::IFormatProvider* provider);
+    static ::System::DateTime ToDateTime(::StringW value, ::System::IFormatProvider* provider);
     // static public System.String ToString(System.Object value, System.IFormatProvider provider)
     // Offset: 0x1AE36C0
-    static ::StringW ToString(::Il2CppObject* value, System::IFormatProvider* provider);
+    static ::StringW ToString(::Il2CppObject* value, ::System::IFormatProvider* provider);
     // static public System.String ToString(System.Boolean value)
     // Offset: 0x1AE3860
     static ::StringW ToString(bool value);
     // static public System.String ToString(System.Char value, System.IFormatProvider provider)
     // Offset: 0x1AE388C
-    static ::StringW ToString(::Il2CppChar value, System::IFormatProvider* provider);
+    static ::StringW ToString(::Il2CppChar value, ::System::IFormatProvider* provider);
     // static public System.String ToString(System.Int32 value)
     // Offset: 0x1AE38B4
     static ::StringW ToString(int value);
     // static public System.String ToString(System.Int32 value, System.IFormatProvider provider)
     // Offset: 0x1AE392C
-    static ::StringW ToString(int value, System::IFormatProvider* provider);
+    static ::StringW ToString(int value, ::System::IFormatProvider* provider);
     // static public System.String ToString(System.Int64 value)
     // Offset: 0x1AE3954
     static ::StringW ToString(int64_t value);
@@ -696,13 +696,13 @@ namespace System {
     static ::StringW ToBase64String(::ArrayW<uint8_t> inArray, int offset, int length);
     // static public System.String ToBase64String(System.Byte[] inArray, System.Int32 offset, System.Int32 length, System.Base64FormattingOptions options)
     // Offset: 0x1AE448C
-    static ::StringW ToBase64String(::ArrayW<uint8_t> inArray, int offset, int length, System::Base64FormattingOptions options);
+    static ::StringW ToBase64String(::ArrayW<uint8_t> inArray, int offset, int length, ::System::Base64FormattingOptions options);
     // static public System.Int32 ToBase64CharArray(System.Byte[] inArray, System.Int32 offsetIn, System.Int32 length, System.Char[] outArray, System.Int32 offsetOut)
     // Offset: 0x1AE4B04
     static int ToBase64CharArray(::ArrayW<uint8_t> inArray, int offsetIn, int length, ::ArrayW<::Il2CppChar> outArray, int offsetOut);
     // static public System.Int32 ToBase64CharArray(System.Byte[] inArray, System.Int32 offsetIn, System.Int32 length, System.Char[] outArray, System.Int32 offsetOut, System.Base64FormattingOptions options)
     // Offset: 0x1AE4B9C
-    static int ToBase64CharArray(::ArrayW<uint8_t> inArray, int offsetIn, int length, ::ArrayW<::Il2CppChar> outArray, int offsetOut, System::Base64FormattingOptions options);
+    static int ToBase64CharArray(::ArrayW<uint8_t> inArray, int offsetIn, int length, ::ArrayW<::Il2CppChar> outArray, int offsetOut, ::System::Base64FormattingOptions options);
     // static private System.Int32 ConvertToBase64Array(System.Char* outChars, System.Byte* inData, System.Int32 offset, System.Int32 length, System.Boolean insertLineBreaks)
     // Offset: 0x1AE48B4
     static int ConvertToBase64Array(::Il2CppChar* outChars, uint8_t* inData, int offset, int length, bool insertLineBreaks);
@@ -739,7 +739,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Convert::GetTypeCode
 // Il2CppName: GetTypeCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TypeCode (*)(::Il2CppObject*)>(&System::Convert::GetTypeCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TypeCode (*)(::Il2CppObject*)>(&System::Convert::GetTypeCode)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Convert*), "GetTypeCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -748,7 +748,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: System::Convert::ChangeType
 // Il2CppName: ChangeType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppObject*, System::TypeCode, System::IFormatProvider*)>(&System::Convert::ChangeType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppObject*, ::System::TypeCode, ::System::IFormatProvider*)>(&System::Convert::ChangeType)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* typeCode = &::il2cpp_utils::GetClassFromName("System", "TypeCode")->byval_arg;
@@ -759,7 +759,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Convert::DefaultToType
 // Il2CppName: DefaultToType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::IConvertible*, System::Type*, System::IFormatProvider*)>(&System::Convert::DefaultToType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::System::IConvertible*, ::System::Type*, ::System::IFormatProvider*)>(&System::Convert::DefaultToType)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "IConvertible")->byval_arg;
     static auto* targetType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -770,7 +770,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Convert::ChangeType
 // Il2CppName: ChangeType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppObject*, System::Type*)>(&System::Convert::ChangeType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppObject*, ::System::Type*)>(&System::Convert::ChangeType)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* conversionType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -780,7 +780,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Convert::ChangeType
 // Il2CppName: ChangeType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppObject*, System::Type*, System::IFormatProvider*)>(&System::Convert::ChangeType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppObject*, ::System::Type*, ::System::IFormatProvider*)>(&System::Convert::ChangeType)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* conversionType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -791,7 +791,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Convert::ToBoolean
 // Il2CppName: ToBoolean
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppObject*, System::IFormatProvider*)>(&System::Convert::ToBoolean)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppObject*, ::System::IFormatProvider*)>(&System::Convert::ToBoolean)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -882,7 +882,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Convert::ToBoolean
 // Il2CppName: ToBoolean
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, System::IFormatProvider*)>(&System::Convert::ToBoolean)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::System::IFormatProvider*)>(&System::Convert::ToBoolean)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -910,7 +910,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(do
 // Writing MetadataGetter for method: System::Convert::ToBoolean
 // Il2CppName: ToBoolean
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Decimal)>(&System::Convert::ToBoolean)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Decimal)>(&System::Convert::ToBoolean)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Decimal")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Convert*), "ToBoolean", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -919,7 +919,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Convert::ToChar
 // Il2CppName: ToChar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(::Il2CppObject*, System::IFormatProvider*)>(&System::Convert::ToChar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(::Il2CppObject*, ::System::IFormatProvider*)>(&System::Convert::ToChar)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -1001,7 +1001,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppCha
 // Writing MetadataGetter for method: System::Convert::ToChar
 // Il2CppName: ToChar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(::StringW, System::IFormatProvider*)>(&System::Convert::ToChar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(::StringW, ::System::IFormatProvider*)>(&System::Convert::ToChar)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -1011,7 +1011,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppCha
 // Writing MetadataGetter for method: System::Convert::ToSByte
 // Il2CppName: ToSByte
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(::Il2CppObject*, System::IFormatProvider*)>(&System::Convert::ToSByte)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(::Il2CppObject*, ::System::IFormatProvider*)>(&System::Convert::ToSByte)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -1120,7 +1120,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(
 // Writing MetadataGetter for method: System::Convert::ToSByte
 // Il2CppName: ToSByte
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(System::Decimal)>(&System::Convert::ToSByte)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(::System::Decimal)>(&System::Convert::ToSByte)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Decimal")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Convert*), "ToSByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1129,7 +1129,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(
 // Writing MetadataGetter for method: System::Convert::ToSByte
 // Il2CppName: ToSByte
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(::StringW, System::IFormatProvider*)>(&System::Convert::ToSByte)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(::StringW, ::System::IFormatProvider*)>(&System::Convert::ToSByte)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -1139,7 +1139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(
 // Writing MetadataGetter for method: System::Convert::ToByte
 // Il2CppName: ToByte
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(::Il2CppObject*, System::IFormatProvider*)>(&System::Convert::ToByte)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(::Il2CppObject*, ::System::IFormatProvider*)>(&System::Convert::ToByte)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -1248,7 +1248,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)
 // Writing MetadataGetter for method: System::Convert::ToByte
 // Il2CppName: ToByte
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(System::Decimal)>(&System::Convert::ToByte)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(::System::Decimal)>(&System::Convert::ToByte)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Decimal")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Convert*), "ToByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1266,7 +1266,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)
 // Writing MetadataGetter for method: System::Convert::ToByte
 // Il2CppName: ToByte
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(::StringW, System::IFormatProvider*)>(&System::Convert::ToByte)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(::StringW, ::System::IFormatProvider*)>(&System::Convert::ToByte)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -1276,7 +1276,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)
 // Writing MetadataGetter for method: System::Convert::ToInt16
 // Il2CppName: ToInt16
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(::Il2CppObject*, System::IFormatProvider*)>(&System::Convert::ToInt16)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(::Il2CppObject*, ::System::IFormatProvider*)>(&System::Convert::ToInt16)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -1385,7 +1385,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)
 // Writing MetadataGetter for method: System::Convert::ToInt16
 // Il2CppName: ToInt16
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(System::Decimal)>(&System::Convert::ToInt16)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(::System::Decimal)>(&System::Convert::ToInt16)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Decimal")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Convert*), "ToInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1394,7 +1394,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)
 // Writing MetadataGetter for method: System::Convert::ToInt16
 // Il2CppName: ToInt16
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(::StringW, System::IFormatProvider*)>(&System::Convert::ToInt16)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(::StringW, ::System::IFormatProvider*)>(&System::Convert::ToInt16)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -1404,7 +1404,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)
 // Writing MetadataGetter for method: System::Convert::ToUInt16
 // Il2CppName: ToUInt16
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(::Il2CppObject*, System::IFormatProvider*)>(&System::Convert::ToUInt16)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(::Il2CppObject*, ::System::IFormatProvider*)>(&System::Convert::ToUInt16)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -1513,7 +1513,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*
 // Writing MetadataGetter for method: System::Convert::ToUInt16
 // Il2CppName: ToUInt16
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(System::Decimal)>(&System::Convert::ToUInt16)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(::System::Decimal)>(&System::Convert::ToUInt16)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Decimal")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Convert*), "ToUInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1522,7 +1522,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*
 // Writing MetadataGetter for method: System::Convert::ToUInt16
 // Il2CppName: ToUInt16
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(::StringW, System::IFormatProvider*)>(&System::Convert::ToUInt16)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(::StringW, ::System::IFormatProvider*)>(&System::Convert::ToUInt16)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -1541,7 +1541,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 // Writing MetadataGetter for method: System::Convert::ToInt32
 // Il2CppName: ToInt32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppObject*, System::IFormatProvider*)>(&System::Convert::ToInt32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppObject*, ::System::IFormatProvider*)>(&System::Convert::ToInt32)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -1641,7 +1641,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(dou
 // Writing MetadataGetter for method: System::Convert::ToInt32
 // Il2CppName: ToInt32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Decimal)>(&System::Convert::ToInt32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::System::Decimal)>(&System::Convert::ToInt32)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Decimal")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Convert*), "ToInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1659,7 +1659,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::S
 // Writing MetadataGetter for method: System::Convert::ToInt32
 // Il2CppName: ToInt32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::StringW, System::IFormatProvider*)>(&System::Convert::ToInt32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::StringW, ::System::IFormatProvider*)>(&System::Convert::ToInt32)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -1678,7 +1678,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::
 // Writing MetadataGetter for method: System::Convert::ToUInt32
 // Il2CppName: ToUInt32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Il2CppObject*, System::IFormatProvider*)>(&System::Convert::ToUInt32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Il2CppObject*, ::System::IFormatProvider*)>(&System::Convert::ToUInt32)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -1787,7 +1787,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(do
 // Writing MetadataGetter for method: System::Convert::ToUInt32
 // Il2CppName: ToUInt32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(System::Decimal)>(&System::Convert::ToUInt32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::System::Decimal)>(&System::Convert::ToUInt32)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Decimal")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Convert*), "ToUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1796,7 +1796,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(Sy
 // Writing MetadataGetter for method: System::Convert::ToUInt32
 // Il2CppName: ToUInt32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::StringW, System::IFormatProvider*)>(&System::Convert::ToUInt32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::StringW, ::System::IFormatProvider*)>(&System::Convert::ToUInt32)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -1815,7 +1815,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)
 // Writing MetadataGetter for method: System::Convert::ToInt64
 // Il2CppName: ToInt64
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::Il2CppObject*, System::IFormatProvider*)>(&System::Convert::ToInt64)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::Il2CppObject*, ::System::IFormatProvider*)>(&System::Convert::ToInt64)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -1924,7 +1924,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)
 // Writing MetadataGetter for method: System::Convert::ToInt64
 // Il2CppName: ToInt64
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(System::Decimal)>(&System::Convert::ToInt64)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::System::Decimal)>(&System::Convert::ToInt64)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Decimal")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Convert*), "ToInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1942,7 +1942,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)
 // Writing MetadataGetter for method: System::Convert::ToInt64
 // Il2CppName: ToInt64
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::StringW, System::IFormatProvider*)>(&System::Convert::ToInt64)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::StringW, ::System::IFormatProvider*)>(&System::Convert::ToInt64)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -1961,7 +1961,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: System::Convert::ToUInt64
 // Il2CppName: ToUInt64
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppObject*, System::IFormatProvider*)>(&System::Convert::ToUInt64)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppObject*, ::System::IFormatProvider*)>(&System::Convert::ToUInt64)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -2070,7 +2070,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: System::Convert::ToUInt64
 // Il2CppName: ToUInt64
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(System::Decimal)>(&System::Convert::ToUInt64)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::Decimal)>(&System::Convert::ToUInt64)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Decimal")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Convert*), "ToUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -2079,7 +2079,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: System::Convert::ToUInt64
 // Il2CppName: ToUInt64
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, System::IFormatProvider*)>(&System::Convert::ToUInt64)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, ::System::IFormatProvider*)>(&System::Convert::ToUInt64)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -2098,7 +2098,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(:
 // Writing MetadataGetter for method: System::Convert::ToSingle
 // Il2CppName: ToSingle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::Il2CppObject*, System::IFormatProvider*)>(&System::Convert::ToSingle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::Il2CppObject*, ::System::IFormatProvider*)>(&System::Convert::ToSingle)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -2189,7 +2189,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(d
 // Writing MetadataGetter for method: System::Convert::ToSingle
 // Il2CppName: ToSingle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(System::Decimal)>(&System::Convert::ToSingle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::System::Decimal)>(&System::Convert::ToSingle)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Decimal")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Convert*), "ToSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -2198,7 +2198,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(S
 // Writing MetadataGetter for method: System::Convert::ToSingle
 // Il2CppName: ToSingle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::StringW, System::IFormatProvider*)>(&System::Convert::ToSingle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::StringW, ::System::IFormatProvider*)>(&System::Convert::ToSingle)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -2226,7 +2226,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(
 // Writing MetadataGetter for method: System::Convert::ToDouble
 // Il2CppName: ToDouble
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(::Il2CppObject*, System::IFormatProvider*)>(&System::Convert::ToDouble)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(::Il2CppObject*, ::System::IFormatProvider*)>(&System::Convert::ToDouble)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -2317,7 +2317,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(
 // Writing MetadataGetter for method: System::Convert::ToDouble
 // Il2CppName: ToDouble
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(System::Decimal)>(&System::Convert::ToDouble)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(::System::Decimal)>(&System::Convert::ToDouble)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Decimal")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Convert*), "ToDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -2326,7 +2326,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(
 // Writing MetadataGetter for method: System::Convert::ToDouble
 // Il2CppName: ToDouble
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(::StringW, System::IFormatProvider*)>(&System::Convert::ToDouble)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(::StringW, ::System::IFormatProvider*)>(&System::Convert::ToDouble)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -2345,7 +2345,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(
 // Writing MetadataGetter for method: System::Convert::ToDecimal
 // Il2CppName: ToDecimal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(::Il2CppObject*)>(&System::Convert::ToDecimal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(::Il2CppObject*)>(&System::Convert::ToDecimal)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Convert*), "ToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -2354,7 +2354,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dec
 // Writing MetadataGetter for method: System::Convert::ToDecimal
 // Il2CppName: ToDecimal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(::Il2CppObject*, System::IFormatProvider*)>(&System::Convert::ToDecimal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(::Il2CppObject*, ::System::IFormatProvider*)>(&System::Convert::ToDecimal)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -2364,7 +2364,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dec
 // Writing MetadataGetter for method: System::Convert::ToDecimal
 // Il2CppName: ToDecimal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(int8_t)>(&System::Convert::ToDecimal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(int8_t)>(&System::Convert::ToDecimal)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "SByte")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Convert*), "ToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -2373,7 +2373,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dec
 // Writing MetadataGetter for method: System::Convert::ToDecimal
 // Il2CppName: ToDecimal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(uint8_t)>(&System::Convert::ToDecimal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(uint8_t)>(&System::Convert::ToDecimal)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Convert*), "ToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -2382,7 +2382,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dec
 // Writing MetadataGetter for method: System::Convert::ToDecimal
 // Il2CppName: ToDecimal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(int16_t)>(&System::Convert::ToDecimal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(int16_t)>(&System::Convert::ToDecimal)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int16")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Convert*), "ToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -2391,7 +2391,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dec
 // Writing MetadataGetter for method: System::Convert::ToDecimal
 // Il2CppName: ToDecimal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(uint16_t)>(&System::Convert::ToDecimal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(uint16_t)>(&System::Convert::ToDecimal)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "UInt16")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Convert*), "ToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -2400,7 +2400,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dec
 // Writing MetadataGetter for method: System::Convert::ToDecimal
 // Il2CppName: ToDecimal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(int)>(&System::Convert::ToDecimal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(int)>(&System::Convert::ToDecimal)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Convert*), "ToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -2409,7 +2409,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dec
 // Writing MetadataGetter for method: System::Convert::ToDecimal
 // Il2CppName: ToDecimal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(uint)>(&System::Convert::ToDecimal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(uint)>(&System::Convert::ToDecimal)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Convert*), "ToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -2418,7 +2418,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dec
 // Writing MetadataGetter for method: System::Convert::ToDecimal
 // Il2CppName: ToDecimal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(int64_t)>(&System::Convert::ToDecimal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(int64_t)>(&System::Convert::ToDecimal)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Convert*), "ToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -2427,7 +2427,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dec
 // Writing MetadataGetter for method: System::Convert::ToDecimal
 // Il2CppName: ToDecimal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(uint64_t)>(&System::Convert::ToDecimal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(uint64_t)>(&System::Convert::ToDecimal)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Convert*), "ToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -2436,7 +2436,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dec
 // Writing MetadataGetter for method: System::Convert::ToDecimal
 // Il2CppName: ToDecimal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(float)>(&System::Convert::ToDecimal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(float)>(&System::Convert::ToDecimal)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Convert*), "ToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -2445,7 +2445,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dec
 // Writing MetadataGetter for method: System::Convert::ToDecimal
 // Il2CppName: ToDecimal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(double)>(&System::Convert::ToDecimal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(double)>(&System::Convert::ToDecimal)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Convert*), "ToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -2454,7 +2454,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dec
 // Writing MetadataGetter for method: System::Convert::ToDecimal
 // Il2CppName: ToDecimal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(::StringW, System::IFormatProvider*)>(&System::Convert::ToDecimal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(::StringW, ::System::IFormatProvider*)>(&System::Convert::ToDecimal)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -2464,7 +2464,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dec
 // Writing MetadataGetter for method: System::Convert::ToDecimal
 // Il2CppName: ToDecimal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(bool)>(&System::Convert::ToDecimal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(bool)>(&System::Convert::ToDecimal)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Convert*), "ToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -2473,7 +2473,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dec
 // Writing MetadataGetter for method: System::Convert::ToDateTime
 // Il2CppName: ToDateTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(::Il2CppObject*, System::IFormatProvider*)>(&System::Convert::ToDateTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (*)(::Il2CppObject*, ::System::IFormatProvider*)>(&System::Convert::ToDateTime)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -2483,7 +2483,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Convert::ToDateTime
 // Il2CppName: ToDateTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(::StringW, System::IFormatProvider*)>(&System::Convert::ToDateTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (*)(::StringW, ::System::IFormatProvider*)>(&System::Convert::ToDateTime)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -2493,7 +2493,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Convert::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::Il2CppObject*, System::IFormatProvider*)>(&System::Convert::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::Il2CppObject*, ::System::IFormatProvider*)>(&System::Convert::ToString)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -2512,7 +2512,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Convert::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::Il2CppChar, System::IFormatProvider*)>(&System::Convert::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::Il2CppChar, ::System::IFormatProvider*)>(&System::Convert::ToString)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -2531,7 +2531,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Convert::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int, System::IFormatProvider*)>(&System::Convert::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int, ::System::IFormatProvider*)>(&System::Convert::ToString)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -2679,7 +2679,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Convert::ToBase64String
 // Il2CppName: ToBase64String
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ArrayW<uint8_t>, int, int, System::Base64FormattingOptions)>(&System::Convert::ToBase64String)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ArrayW<uint8_t>, int, int, ::System::Base64FormattingOptions)>(&System::Convert::ToBase64String)> {
   static const MethodInfo* get() {
     static auto* inArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2704,7 +2704,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::A
 // Writing MetadataGetter for method: System::Convert::ToBase64CharArray
 // Il2CppName: ToBase64CharArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayW<uint8_t>, int, int, ::ArrayW<::Il2CppChar>, int, System::Base64FormattingOptions)>(&System::Convert::ToBase64CharArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayW<uint8_t>, int, int, ::ArrayW<::Il2CppChar>, int, ::System::Base64FormattingOptions)>(&System::Convert::ToBase64CharArray)> {
   static const MethodInfo* get() {
     static auto* inArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offsetIn = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

@@ -21,8 +21,8 @@ namespace System {
   class IServiceProvider;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::IServiceProvider);
-DEFINE_IL2CPP_ARG_TYPE(System::IServiceProvider*, "System", "IServiceProvider");
+NEED_NO_BOX(::System::IServiceProvider);
+DEFINE_IL2CPP_ARG_TYPE(::System::IServiceProvider*, "System", "IServiceProvider");
 // Type namespace: System
 namespace System {
   // Size: 0x10
@@ -33,7 +33,7 @@ namespace System {
     public:
     // public System.Object GetService(System.Type serviceType)
     // Offset: 0xFFFFFFFF
-    ::Il2CppObject* GetService(System::Type* serviceType);
+    ::Il2CppObject* GetService(::System::Type* serviceType);
   }; // System.IServiceProvider
   #pragma pack(pop)
 }
@@ -41,7 +41,7 @@ namespace System {
 // Writing MetadataGetter for method: System::IServiceProvider::GetService
 // Il2CppName: GetService
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::IServiceProvider::*)(System::Type*)>(&System::IServiceProvider::GetService)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::IServiceProvider::*)(::System::Type*)>(&System::IServiceProvider::GetService)> {
   static const MethodInfo* get() {
     static auto* serviceType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IServiceProvider*), "GetService", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{serviceType});

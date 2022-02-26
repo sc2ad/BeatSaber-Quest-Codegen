@@ -28,8 +28,8 @@ namespace HoudiniEngineUnity {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::Test_TreeInstance_Extensions::$$c);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_TreeInstance_Extensions::$$c*, "HoudiniEngineUnity", "Test_TreeInstance_Extensions/<>c");
+NEED_NO_BOX(::HoudiniEngineUnity::Test_TreeInstance_Extensions::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::Test_TreeInstance_Extensions::$$c*, "HoudiniEngineUnity", "Test_TreeInstance_Extensions/<>c");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x10
@@ -40,33 +40,33 @@ namespace HoudiniEngineUnity {
   class Test_TreeInstance_Extensions::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly HoudiniEngineUnity.Test_TreeInstance_Extensions/HoudiniEngineUnity.<>c <>9
-    static HoudiniEngineUnity::Test_TreeInstance_Extensions::$$c* _get_$$9();
+    static ::HoudiniEngineUnity::Test_TreeInstance_Extensions::$$c* _get_$$9();
     // Set static field: static public readonly HoudiniEngineUnity.Test_TreeInstance_Extensions/HoudiniEngineUnity.<>c <>9
-    static void _set_$$9(HoudiniEngineUnity::Test_TreeInstance_Extensions::$$c* value);
+    static void _set_$$9(::HoudiniEngineUnity::Test_TreeInstance_Extensions::$$c* value);
     // Get static field: static public System.Converter`2<UnityEngine.TreeInstance,HoudiniEngineUnity.Test_TreeInstance> <>9__1_0
-    static System::Converter_2<UnityEngine::TreeInstance, HoudiniEngineUnity::Test_TreeInstance*>* _get_$$9__1_0();
+    static ::System::Converter_2<::UnityEngine::TreeInstance, ::HoudiniEngineUnity::Test_TreeInstance*>* _get_$$9__1_0();
     // Set static field: static public System.Converter`2<UnityEngine.TreeInstance,HoudiniEngineUnity.Test_TreeInstance> <>9__1_0
-    static void _set_$$9__1_0(System::Converter_2<UnityEngine::TreeInstance, HoudiniEngineUnity::Test_TreeInstance*>* value);
+    static void _set_$$9__1_0(::System::Converter_2<::UnityEngine::TreeInstance, ::HoudiniEngineUnity::Test_TreeInstance*>* value);
     // Get static field: static public System.Converter`2<UnityEngine.TreeInstance,HoudiniEngineUnity.Test_TreeInstance> <>9__2_0
-    static System::Converter_2<UnityEngine::TreeInstance, HoudiniEngineUnity::Test_TreeInstance*>* _get_$$9__2_0();
+    static ::System::Converter_2<::UnityEngine::TreeInstance, ::HoudiniEngineUnity::Test_TreeInstance*>* _get_$$9__2_0();
     // Set static field: static public System.Converter`2<UnityEngine.TreeInstance,HoudiniEngineUnity.Test_TreeInstance> <>9__2_0
-    static void _set_$$9__2_0(System::Converter_2<UnityEngine::TreeInstance, HoudiniEngineUnity::Test_TreeInstance*>* value);
+    static void _set_$$9__2_0(::System::Converter_2<::UnityEngine::TreeInstance, ::HoudiniEngineUnity::Test_TreeInstance*>* value);
     // static private System.Void .cctor()
     // Offset: 0x2A113C4
     static void _cctor();
     // HoudiniEngineUnity.Test_TreeInstance <ToTestObject>b__1_0(UnityEngine.TreeInstance lod)
     // Offset: 0x2A11430
-    HoudiniEngineUnity::Test_TreeInstance* $ToTestObject$b__1_0(UnityEngine::TreeInstance lod);
+    ::HoudiniEngineUnity::Test_TreeInstance* $ToTestObject$b__1_0(::UnityEngine::TreeInstance lod);
     // HoudiniEngineUnity.Test_TreeInstance <ToTestObject>b__2_0(UnityEngine.TreeInstance lod)
     // Offset: 0x2A114B8
-    HoudiniEngineUnity::Test_TreeInstance* $ToTestObject$b__2_0(UnityEngine::TreeInstance lod);
+    ::HoudiniEngineUnity::Test_TreeInstance* $ToTestObject$b__2_0(::UnityEngine::TreeInstance lod);
     // public System.Void .ctor()
     // Offset: 0x2A11428
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_TreeInstance_Extensions::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::Test_TreeInstance_Extensions::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_TreeInstance_Extensions::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_TreeInstance_Extensions::$$c*, creationType>()));
     }
   }; // HoudiniEngineUnity.Test_TreeInstance_Extensions/HoudiniEngineUnity.<>c
@@ -84,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: HoudiniEngineUnity::Test_TreeInstance_Extensions::$$c::$ToTestObject$b__1_0
 // Il2CppName: <ToTestObject>b__1_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::Test_TreeInstance* (HoudiniEngineUnity::Test_TreeInstance_Extensions::$$c::*)(UnityEngine::TreeInstance)>(&HoudiniEngineUnity::Test_TreeInstance_Extensions::$$c::$ToTestObject$b__1_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::Test_TreeInstance* (HoudiniEngineUnity::Test_TreeInstance_Extensions::$$c::*)(::UnityEngine::TreeInstance)>(&HoudiniEngineUnity::Test_TreeInstance_Extensions::$$c::$ToTestObject$b__1_0)> {
   static const MethodInfo* get() {
     static auto* lod = &::il2cpp_utils::GetClassFromName("UnityEngine", "TreeInstance")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::Test_TreeInstance_Extensions::$$c*), "<ToTestObject>b__1_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lod});
@@ -93,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::Test_TreeInstance_Extensions::$$c::$ToTestObject$b__2_0
 // Il2CppName: <ToTestObject>b__2_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::Test_TreeInstance* (HoudiniEngineUnity::Test_TreeInstance_Extensions::$$c::*)(UnityEngine::TreeInstance)>(&HoudiniEngineUnity::Test_TreeInstance_Extensions::$$c::$ToTestObject$b__2_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::Test_TreeInstance* (HoudiniEngineUnity::Test_TreeInstance_Extensions::$$c::*)(::UnityEngine::TreeInstance)>(&HoudiniEngineUnity::Test_TreeInstance_Extensions::$$c::$ToTestObject$b__2_0)> {
   static const MethodInfo* get() {
     static auto* lod = &::il2cpp_utils::GetClassFromName("UnityEngine", "TreeInstance")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::Test_TreeInstance_Extensions::$$c*), "<ToTestObject>b__2_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lod});

@@ -20,8 +20,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HMUI::ModalView::$$c__DisplayClass17_0);
-DEFINE_IL2CPP_ARG_TYPE(HMUI::ModalView::$$c__DisplayClass17_0*, "HMUI", "ModalView/<>c__DisplayClass17_0");
+NEED_NO_BOX(::HMUI::ModalView::$$c__DisplayClass17_0);
+DEFINE_IL2CPP_ARG_TYPE(::HMUI::ModalView::$$c__DisplayClass17_0*, "HMUI", "ModalView/<>c__DisplayClass17_0");
 // Type namespace: HMUI
 namespace HMUI {
   // Size: 0x20
@@ -43,20 +43,20 @@ namespace HMUI {
     // public HMUI.ModalView <>4__this
     // Size: 0x8
     // Offset: 0x10
-    HMUI::ModalView* $$4__this;
+    ::HMUI::ModalView* $$4__this;
     // Field size check
-    static_assert(sizeof(HMUI::ModalView*) == 0x8);
+    static_assert(sizeof(::HMUI::ModalView*) == 0x8);
     // public System.Action finishedCallback
     // Size: 0x8
     // Offset: 0x18
-    System::Action* finishedCallback;
+    ::System::Action* finishedCallback;
     // Field size check
-    static_assert(sizeof(System::Action*) == 0x8);
+    static_assert(sizeof(::System::Action*) == 0x8);
     public:
     // Get instance field reference: public HMUI.ModalView <>4__this
-    HMUI::ModalView*& dyn_$$4__this();
+    ::HMUI::ModalView*& dyn_$$4__this();
     // Get instance field reference: public System.Action finishedCallback
-    System::Action*& dyn_finishedCallback();
+    ::System::Action*& dyn_finishedCallback();
     // System.Void <Hide>b__0()
     // Offset: 0x16A6C3C
     void $Hide$b__0();
@@ -66,12 +66,12 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ModalView::$$c__DisplayClass17_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::ModalView::$$c__DisplayClass17_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ModalView::$$c__DisplayClass17_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ModalView::$$c__DisplayClass17_0*, creationType>()));
     }
   }; // HMUI.ModalView/HMUI.<>c__DisplayClass17_0
   #pragma pack(pop)
-  static check_size<sizeof(ModalView::$$c__DisplayClass17_0), 24 + sizeof(System::Action*)> __HMUI_ModalView_$$c__DisplayClass17_0SizeCheck;
+  static check_size<sizeof(ModalView::$$c__DisplayClass17_0), 24 + sizeof(::System::Action*)> __HMUI_ModalView_$$c__DisplayClass17_0SizeCheck;
   static_assert(sizeof(ModalView::$$c__DisplayClass17_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

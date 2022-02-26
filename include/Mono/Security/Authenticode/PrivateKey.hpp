@@ -25,8 +25,8 @@ namespace Mono::Security::Authenticode {
   class PrivateKey;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Security::Authenticode::PrivateKey);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Authenticode::PrivateKey*, "Mono.Security.Authenticode", "PrivateKey");
+NEED_NO_BOX(::Mono::Security::Authenticode::PrivateKey);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Authenticode::PrivateKey*, "Mono.Security.Authenticode", "PrivateKey");
 // Type namespace: Mono.Security.Authenticode
 namespace Mono::Security::Authenticode {
   // Size: 0x28
@@ -55,9 +55,9 @@ namespace Mono::Security::Authenticode {
     // private System.Security.Cryptography.RSA rsa
     // Size: 0x8
     // Offset: 0x18
-    System::Security::Cryptography::RSA* rsa;
+    ::System::Security::Cryptography::RSA* rsa;
     // Field size check
-    static_assert(sizeof(System::Security::Cryptography::RSA*) == 0x8);
+    static_assert(sizeof(::System::Security::Cryptography::RSA*) == 0x8);
     // private System.Boolean weak
     // Size: 0x1
     // Offset: 0x20
@@ -76,19 +76,19 @@ namespace Mono::Security::Authenticode {
     // Get instance field reference: private System.Boolean encrypted
     bool& dyn_encrypted();
     // Get instance field reference: private System.Security.Cryptography.RSA rsa
-    System::Security::Cryptography::RSA*& dyn_rsa();
+    ::System::Security::Cryptography::RSA*& dyn_rsa();
     // Get instance field reference: private System.Boolean weak
     bool& dyn_weak();
     // Get instance field reference: private System.Int32 keyType
     int& dyn_keyType();
     // public System.Security.Cryptography.RSA get_RSA()
     // Offset: 0x22C70F8
-    System::Security::Cryptography::RSA* get_RSA();
+    ::System::Security::Cryptography::RSA* get_RSA();
     // public System.Void .ctor(System.Byte[] data, System.String password)
     // Offset: 0x22C6B88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrivateKey* New_ctor(::ArrayW<uint8_t> data, ::StringW password) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Authenticode::PrivateKey::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::Authenticode::PrivateKey::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrivateKey*, creationType>(data, password)));
     }
     // private System.Byte[] DeriveKey(System.Byte[] salt, System.String password)
@@ -99,10 +99,10 @@ namespace Mono::Security::Authenticode {
     bool Decode(::ArrayW<uint8_t> pvk, ::StringW password);
     // static public Mono.Security.Authenticode.PrivateKey CreateFromFile(System.String filename)
     // Offset: 0x22C72E8
-    static Mono::Security::Authenticode::PrivateKey* CreateFromFile(::StringW filename);
+    static ::Mono::Security::Authenticode::PrivateKey* CreateFromFile(::StringW filename);
     // static public Mono.Security.Authenticode.PrivateKey CreateFromFile(System.String filename, System.String password)
     // Offset: 0x22C72F0
-    static Mono::Security::Authenticode::PrivateKey* CreateFromFile(::StringW filename, ::StringW password);
+    static ::Mono::Security::Authenticode::PrivateKey* CreateFromFile(::StringW filename, ::StringW password);
   }; // Mono.Security.Authenticode.PrivateKey
   #pragma pack(pop)
   static check_size<sizeof(PrivateKey), 36 + sizeof(int)> __Mono_Security_Authenticode_PrivateKeySizeCheck;
@@ -112,7 +112,7 @@ namespace Mono::Security::Authenticode {
 // Writing MetadataGetter for method: Mono::Security::Authenticode::PrivateKey::get_RSA
 // Il2CppName: get_RSA
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::RSA* (Mono::Security::Authenticode::PrivateKey::*)()>(&Mono::Security::Authenticode::PrivateKey::get_RSA)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::RSA* (Mono::Security::Authenticode::PrivateKey::*)()>(&Mono::Security::Authenticode::PrivateKey::get_RSA)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Authenticode::PrivateKey*), "get_RSA", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -144,7 +144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 // Writing MetadataGetter for method: Mono::Security::Authenticode::PrivateKey::CreateFromFile
 // Il2CppName: CreateFromFile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Authenticode::PrivateKey* (*)(::StringW)>(&Mono::Security::Authenticode::PrivateKey::CreateFromFile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::Authenticode::PrivateKey* (*)(::StringW)>(&Mono::Security::Authenticode::PrivateKey::CreateFromFile)> {
   static const MethodInfo* get() {
     static auto* filename = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Authenticode::PrivateKey*), "CreateFromFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{filename});
@@ -153,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 // Writing MetadataGetter for method: Mono::Security::Authenticode::PrivateKey::CreateFromFile
 // Il2CppName: CreateFromFile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Authenticode::PrivateKey* (*)(::StringW, ::StringW)>(&Mono::Security::Authenticode::PrivateKey::CreateFromFile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::Authenticode::PrivateKey* (*)(::StringW, ::StringW)>(&Mono::Security::Authenticode::PrivateKey::CreateFromFile)> {
   static const MethodInfo* get() {
     static auto* filename = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* password = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

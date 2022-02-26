@@ -71,8 +71,8 @@ namespace Valve::VR {
   class CVROverlay;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Valve::VR::CVROverlay);
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVROverlay*, "Valve.VR", "CVROverlay");
+NEED_NO_BOX(::Valve::VR::CVROverlay);
+DEFINE_IL2CPP_ARG_TYPE(::Valve::VR::CVROverlay*, "Valve.VR", "CVROverlay");
 // Type namespace: Valve.VR
 namespace Valve::VR {
   // Size: 0x2A0
@@ -81,9 +81,9 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   class CVROverlay : public ::Il2CppObject {
     public:
-    // Nested type: Valve::VR::CVROverlay::_PollNextOverlayEventPacked
+    // Nested type: ::Valve::VR::CVROverlay::_PollNextOverlayEventPacked
     class _PollNextOverlayEventPacked;
-    // Nested type: Valve::VR::CVROverlay::PollNextOverlayEventUnion
+    // Nested type: ::Valve::VR::CVROverlay::PollNextOverlayEventUnion
     struct PollNextOverlayEventUnion;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -97,176 +97,176 @@ namespace Valve::VR {
     // private Valve.VR.IVROverlay FnTable
     // Size: 0x290
     // Offset: 0x10
-    Valve::VR::IVROverlay FnTable;
+    ::Valve::VR::IVROverlay FnTable;
     // Field size check
-    static_assert(sizeof(Valve::VR::IVROverlay) == 0x290);
+    static_assert(sizeof(::Valve::VR::IVROverlay) == 0x290);
     public:
-    // Creating conversion operator: operator Valve::VR::IVROverlay
-    constexpr operator Valve::VR::IVROverlay() const noexcept {
+    // Creating conversion operator: operator ::Valve::VR::IVROverlay
+    constexpr operator ::Valve::VR::IVROverlay() const noexcept {
       return FnTable;
     }
     // Get instance field reference: private Valve.VR.IVROverlay FnTable
-    Valve::VR::IVROverlay& dyn_FnTable();
+    ::Valve::VR::IVROverlay& dyn_FnTable();
     // System.Void .ctor(System.IntPtr pInterface)
     // Offset: 0x1AFA948
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CVROverlay* New_ctor(System::IntPtr pInterface) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::CVROverlay::.ctor");
+    static CVROverlay* New_ctor(::System::IntPtr pInterface) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Valve::VR::CVROverlay::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVROverlay*, creationType>(pInterface)));
     }
     // public Valve.VR.EVROverlayError FindOverlay(System.String pchOverlayKey, ref System.UInt64 pOverlayHandle)
     // Offset: 0x1AFAA50
-    Valve::VR::EVROverlayError FindOverlay(::StringW pchOverlayKey, ByRef<uint64_t> pOverlayHandle);
+    ::Valve::VR::EVROverlayError FindOverlay(::StringW pchOverlayKey, ByRef<uint64_t> pOverlayHandle);
     // public Valve.VR.EVROverlayError CreateOverlay(System.String pchOverlayKey, System.String pchOverlayName, ref System.UInt64 pOverlayHandle)
     // Offset: 0x1AFAA70
-    Valve::VR::EVROverlayError CreateOverlay(::StringW pchOverlayKey, ::StringW pchOverlayName, ByRef<uint64_t> pOverlayHandle);
+    ::Valve::VR::EVROverlayError CreateOverlay(::StringW pchOverlayKey, ::StringW pchOverlayName, ByRef<uint64_t> pOverlayHandle);
     // public Valve.VR.EVROverlayError DestroyOverlay(System.UInt64 ulOverlayHandle)
     // Offset: 0x1AFAA90
-    Valve::VR::EVROverlayError DestroyOverlay(uint64_t ulOverlayHandle);
+    ::Valve::VR::EVROverlayError DestroyOverlay(uint64_t ulOverlayHandle);
     // public Valve.VR.EVROverlayError SetHighQualityOverlay(System.UInt64 ulOverlayHandle)
     // Offset: 0x1AFAAAC
-    Valve::VR::EVROverlayError SetHighQualityOverlay(uint64_t ulOverlayHandle);
+    ::Valve::VR::EVROverlayError SetHighQualityOverlay(uint64_t ulOverlayHandle);
     // public System.UInt64 GetHighQualityOverlay()
     // Offset: 0x1AFAAC8
     uint64_t GetHighQualityOverlay();
     // public System.UInt32 GetOverlayKey(System.UInt64 ulOverlayHandle, System.Text.StringBuilder pchValue, System.UInt32 unBufferSize, ref Valve.VR.EVROverlayError pError)
     // Offset: 0x1AFAAE4
-    uint GetOverlayKey(uint64_t ulOverlayHandle, System::Text::StringBuilder* pchValue, uint unBufferSize, ByRef<Valve::VR::EVROverlayError> pError);
+    uint GetOverlayKey(uint64_t ulOverlayHandle, ::System::Text::StringBuilder* pchValue, uint unBufferSize, ByRef<::Valve::VR::EVROverlayError> pError);
     // public System.UInt32 GetOverlayName(System.UInt64 ulOverlayHandle, System.Text.StringBuilder pchValue, System.UInt32 unBufferSize, ref Valve.VR.EVROverlayError pError)
     // Offset: 0x1AFAB00
-    uint GetOverlayName(uint64_t ulOverlayHandle, System::Text::StringBuilder* pchValue, uint unBufferSize, ByRef<Valve::VR::EVROverlayError> pError);
+    uint GetOverlayName(uint64_t ulOverlayHandle, ::System::Text::StringBuilder* pchValue, uint unBufferSize, ByRef<::Valve::VR::EVROverlayError> pError);
     // public Valve.VR.EVROverlayError SetOverlayName(System.UInt64 ulOverlayHandle, System.String pchName)
     // Offset: 0x1AFAB1C
-    Valve::VR::EVROverlayError SetOverlayName(uint64_t ulOverlayHandle, ::StringW pchName);
+    ::Valve::VR::EVROverlayError SetOverlayName(uint64_t ulOverlayHandle, ::StringW pchName);
     // public Valve.VR.EVROverlayError GetOverlayImageData(System.UInt64 ulOverlayHandle, System.IntPtr pvBuffer, System.UInt32 unBufferSize, ref System.UInt32 punWidth, ref System.UInt32 punHeight)
     // Offset: 0x1AFAB38
-    Valve::VR::EVROverlayError GetOverlayImageData(uint64_t ulOverlayHandle, System::IntPtr pvBuffer, uint unBufferSize, ByRef<uint> punWidth, ByRef<uint> punHeight);
+    ::Valve::VR::EVROverlayError GetOverlayImageData(uint64_t ulOverlayHandle, ::System::IntPtr pvBuffer, uint unBufferSize, ByRef<uint> punWidth, ByRef<uint> punHeight);
     // public System.String GetOverlayErrorNameFromEnum(Valve.VR.EVROverlayError error)
     // Offset: 0x1AFAB5C
-    ::StringW GetOverlayErrorNameFromEnum(Valve::VR::EVROverlayError error);
+    ::StringW GetOverlayErrorNameFromEnum(::Valve::VR::EVROverlayError error);
     // public Valve.VR.EVROverlayError SetOverlayRenderingPid(System.UInt64 ulOverlayHandle, System.UInt32 unPID)
     // Offset: 0x1AFABF0
-    Valve::VR::EVROverlayError SetOverlayRenderingPid(uint64_t ulOverlayHandle, uint unPID);
+    ::Valve::VR::EVROverlayError SetOverlayRenderingPid(uint64_t ulOverlayHandle, uint unPID);
     // public System.UInt32 GetOverlayRenderingPid(System.UInt64 ulOverlayHandle)
     // Offset: 0x1AFAC0C
     uint GetOverlayRenderingPid(uint64_t ulOverlayHandle);
     // public Valve.VR.EVROverlayError SetOverlayFlag(System.UInt64 ulOverlayHandle, Valve.VR.VROverlayFlags eOverlayFlag, System.Boolean bEnabled)
     // Offset: 0x1AFAC28
-    Valve::VR::EVROverlayError SetOverlayFlag(uint64_t ulOverlayHandle, Valve::VR::VROverlayFlags eOverlayFlag, bool bEnabled);
+    ::Valve::VR::EVROverlayError SetOverlayFlag(uint64_t ulOverlayHandle, ::Valve::VR::VROverlayFlags eOverlayFlag, bool bEnabled);
     // public Valve.VR.EVROverlayError GetOverlayFlag(System.UInt64 ulOverlayHandle, Valve.VR.VROverlayFlags eOverlayFlag, ref System.Boolean pbEnabled)
     // Offset: 0x1AFAC48
-    Valve::VR::EVROverlayError GetOverlayFlag(uint64_t ulOverlayHandle, Valve::VR::VROverlayFlags eOverlayFlag, ByRef<bool> pbEnabled);
+    ::Valve::VR::EVROverlayError GetOverlayFlag(uint64_t ulOverlayHandle, ::Valve::VR::VROverlayFlags eOverlayFlag, ByRef<bool> pbEnabled);
     // public Valve.VR.EVROverlayError SetOverlayColor(System.UInt64 ulOverlayHandle, System.Single fRed, System.Single fGreen, System.Single fBlue)
     // Offset: 0x1AFAC68
-    Valve::VR::EVROverlayError SetOverlayColor(uint64_t ulOverlayHandle, float fRed, float fGreen, float fBlue);
+    ::Valve::VR::EVROverlayError SetOverlayColor(uint64_t ulOverlayHandle, float fRed, float fGreen, float fBlue);
     // public Valve.VR.EVROverlayError GetOverlayColor(System.UInt64 ulOverlayHandle, ref System.Single pfRed, ref System.Single pfGreen, ref System.Single pfBlue)
     // Offset: 0x1AFAC84
-    Valve::VR::EVROverlayError GetOverlayColor(uint64_t ulOverlayHandle, ByRef<float> pfRed, ByRef<float> pfGreen, ByRef<float> pfBlue);
+    ::Valve::VR::EVROverlayError GetOverlayColor(uint64_t ulOverlayHandle, ByRef<float> pfRed, ByRef<float> pfGreen, ByRef<float> pfBlue);
     // public Valve.VR.EVROverlayError SetOverlayAlpha(System.UInt64 ulOverlayHandle, System.Single fAlpha)
     // Offset: 0x1AFACAC
-    Valve::VR::EVROverlayError SetOverlayAlpha(uint64_t ulOverlayHandle, float fAlpha);
+    ::Valve::VR::EVROverlayError SetOverlayAlpha(uint64_t ulOverlayHandle, float fAlpha);
     // public Valve.VR.EVROverlayError GetOverlayAlpha(System.UInt64 ulOverlayHandle, ref System.Single pfAlpha)
     // Offset: 0x1AFACC8
-    Valve::VR::EVROverlayError GetOverlayAlpha(uint64_t ulOverlayHandle, ByRef<float> pfAlpha);
+    ::Valve::VR::EVROverlayError GetOverlayAlpha(uint64_t ulOverlayHandle, ByRef<float> pfAlpha);
     // public Valve.VR.EVROverlayError SetOverlayTexelAspect(System.UInt64 ulOverlayHandle, System.Single fTexelAspect)
     // Offset: 0x1AFACE8
-    Valve::VR::EVROverlayError SetOverlayTexelAspect(uint64_t ulOverlayHandle, float fTexelAspect);
+    ::Valve::VR::EVROverlayError SetOverlayTexelAspect(uint64_t ulOverlayHandle, float fTexelAspect);
     // public Valve.VR.EVROverlayError GetOverlayTexelAspect(System.UInt64 ulOverlayHandle, ref System.Single pfTexelAspect)
     // Offset: 0x1AFAD04
-    Valve::VR::EVROverlayError GetOverlayTexelAspect(uint64_t ulOverlayHandle, ByRef<float> pfTexelAspect);
+    ::Valve::VR::EVROverlayError GetOverlayTexelAspect(uint64_t ulOverlayHandle, ByRef<float> pfTexelAspect);
     // public Valve.VR.EVROverlayError SetOverlaySortOrder(System.UInt64 ulOverlayHandle, System.UInt32 unSortOrder)
     // Offset: 0x1AFAD24
-    Valve::VR::EVROverlayError SetOverlaySortOrder(uint64_t ulOverlayHandle, uint unSortOrder);
+    ::Valve::VR::EVROverlayError SetOverlaySortOrder(uint64_t ulOverlayHandle, uint unSortOrder);
     // public Valve.VR.EVROverlayError GetOverlaySortOrder(System.UInt64 ulOverlayHandle, ref System.UInt32 punSortOrder)
     // Offset: 0x1AFAD40
-    Valve::VR::EVROverlayError GetOverlaySortOrder(uint64_t ulOverlayHandle, ByRef<uint> punSortOrder);
+    ::Valve::VR::EVROverlayError GetOverlaySortOrder(uint64_t ulOverlayHandle, ByRef<uint> punSortOrder);
     // public Valve.VR.EVROverlayError SetOverlayWidthInMeters(System.UInt64 ulOverlayHandle, System.Single fWidthInMeters)
     // Offset: 0x1AFAD60
-    Valve::VR::EVROverlayError SetOverlayWidthInMeters(uint64_t ulOverlayHandle, float fWidthInMeters);
+    ::Valve::VR::EVROverlayError SetOverlayWidthInMeters(uint64_t ulOverlayHandle, float fWidthInMeters);
     // public Valve.VR.EVROverlayError GetOverlayWidthInMeters(System.UInt64 ulOverlayHandle, ref System.Single pfWidthInMeters)
     // Offset: 0x1AFAD7C
-    Valve::VR::EVROverlayError GetOverlayWidthInMeters(uint64_t ulOverlayHandle, ByRef<float> pfWidthInMeters);
+    ::Valve::VR::EVROverlayError GetOverlayWidthInMeters(uint64_t ulOverlayHandle, ByRef<float> pfWidthInMeters);
     // public Valve.VR.EVROverlayError SetOverlayAutoCurveDistanceRangeInMeters(System.UInt64 ulOverlayHandle, System.Single fMinDistanceInMeters, System.Single fMaxDistanceInMeters)
     // Offset: 0x1AFAD9C
-    Valve::VR::EVROverlayError SetOverlayAutoCurveDistanceRangeInMeters(uint64_t ulOverlayHandle, float fMinDistanceInMeters, float fMaxDistanceInMeters);
+    ::Valve::VR::EVROverlayError SetOverlayAutoCurveDistanceRangeInMeters(uint64_t ulOverlayHandle, float fMinDistanceInMeters, float fMaxDistanceInMeters);
     // public Valve.VR.EVROverlayError GetOverlayAutoCurveDistanceRangeInMeters(System.UInt64 ulOverlayHandle, ref System.Single pfMinDistanceInMeters, ref System.Single pfMaxDistanceInMeters)
     // Offset: 0x1AFADB8
-    Valve::VR::EVROverlayError GetOverlayAutoCurveDistanceRangeInMeters(uint64_t ulOverlayHandle, ByRef<float> pfMinDistanceInMeters, ByRef<float> pfMaxDistanceInMeters);
+    ::Valve::VR::EVROverlayError GetOverlayAutoCurveDistanceRangeInMeters(uint64_t ulOverlayHandle, ByRef<float> pfMinDistanceInMeters, ByRef<float> pfMaxDistanceInMeters);
     // public Valve.VR.EVROverlayError SetOverlayTextureColorSpace(System.UInt64 ulOverlayHandle, Valve.VR.EColorSpace eTextureColorSpace)
     // Offset: 0x1AFADDC
-    Valve::VR::EVROverlayError SetOverlayTextureColorSpace(uint64_t ulOverlayHandle, Valve::VR::EColorSpace eTextureColorSpace);
+    ::Valve::VR::EVROverlayError SetOverlayTextureColorSpace(uint64_t ulOverlayHandle, ::Valve::VR::EColorSpace eTextureColorSpace);
     // public Valve.VR.EVROverlayError GetOverlayTextureColorSpace(System.UInt64 ulOverlayHandle, ref Valve.VR.EColorSpace peTextureColorSpace)
     // Offset: 0x1AFADF8
-    Valve::VR::EVROverlayError GetOverlayTextureColorSpace(uint64_t ulOverlayHandle, ByRef<Valve::VR::EColorSpace> peTextureColorSpace);
+    ::Valve::VR::EVROverlayError GetOverlayTextureColorSpace(uint64_t ulOverlayHandle, ByRef<::Valve::VR::EColorSpace> peTextureColorSpace);
     // public Valve.VR.EVROverlayError SetOverlayTextureBounds(System.UInt64 ulOverlayHandle, ref Valve.VR.VRTextureBounds_t pOverlayTextureBounds)
     // Offset: 0x1AFAE14
-    Valve::VR::EVROverlayError SetOverlayTextureBounds(uint64_t ulOverlayHandle, ByRef<Valve::VR::VRTextureBounds_t> pOverlayTextureBounds);
+    ::Valve::VR::EVROverlayError SetOverlayTextureBounds(uint64_t ulOverlayHandle, ByRef<::Valve::VR::VRTextureBounds_t> pOverlayTextureBounds);
     // public Valve.VR.EVROverlayError GetOverlayTextureBounds(System.UInt64 ulOverlayHandle, ref Valve.VR.VRTextureBounds_t pOverlayTextureBounds)
     // Offset: 0x1AFAE30
-    Valve::VR::EVROverlayError GetOverlayTextureBounds(uint64_t ulOverlayHandle, ByRef<Valve::VR::VRTextureBounds_t> pOverlayTextureBounds);
+    ::Valve::VR::EVROverlayError GetOverlayTextureBounds(uint64_t ulOverlayHandle, ByRef<::Valve::VR::VRTextureBounds_t> pOverlayTextureBounds);
     // public System.UInt32 GetOverlayRenderModel(System.UInt64 ulOverlayHandle, System.Text.StringBuilder pchValue, System.UInt32 unBufferSize, ref Valve.VR.HmdColor_t pColor, ref Valve.VR.EVROverlayError pError)
     // Offset: 0x1AFAE4C
-    uint GetOverlayRenderModel(uint64_t ulOverlayHandle, System::Text::StringBuilder* pchValue, uint unBufferSize, ByRef<Valve::VR::HmdColor_t> pColor, ByRef<Valve::VR::EVROverlayError> pError);
+    uint GetOverlayRenderModel(uint64_t ulOverlayHandle, ::System::Text::StringBuilder* pchValue, uint unBufferSize, ByRef<::Valve::VR::HmdColor_t> pColor, ByRef<::Valve::VR::EVROverlayError> pError);
     // public Valve.VR.EVROverlayError SetOverlayRenderModel(System.UInt64 ulOverlayHandle, System.String pchRenderModel, ref Valve.VR.HmdColor_t pColor)
     // Offset: 0x1AFAE68
-    Valve::VR::EVROverlayError SetOverlayRenderModel(uint64_t ulOverlayHandle, ::StringW pchRenderModel, ByRef<Valve::VR::HmdColor_t> pColor);
+    ::Valve::VR::EVROverlayError SetOverlayRenderModel(uint64_t ulOverlayHandle, ::StringW pchRenderModel, ByRef<::Valve::VR::HmdColor_t> pColor);
     // public Valve.VR.EVROverlayError GetOverlayTransformType(System.UInt64 ulOverlayHandle, ref Valve.VR.VROverlayTransformType peTransformType)
     // Offset: 0x1AFAE84
-    Valve::VR::EVROverlayError GetOverlayTransformType(uint64_t ulOverlayHandle, ByRef<Valve::VR::VROverlayTransformType> peTransformType);
+    ::Valve::VR::EVROverlayError GetOverlayTransformType(uint64_t ulOverlayHandle, ByRef<::Valve::VR::VROverlayTransformType> peTransformType);
     // public Valve.VR.EVROverlayError SetOverlayTransformAbsolute(System.UInt64 ulOverlayHandle, Valve.VR.ETrackingUniverseOrigin eTrackingOrigin, ref Valve.VR.HmdMatrix34_t pmatTrackingOriginToOverlayTransform)
     // Offset: 0x1AFAEA0
-    Valve::VR::EVROverlayError SetOverlayTransformAbsolute(uint64_t ulOverlayHandle, Valve::VR::ETrackingUniverseOrigin eTrackingOrigin, ByRef<Valve::VR::HmdMatrix34_t> pmatTrackingOriginToOverlayTransform);
+    ::Valve::VR::EVROverlayError SetOverlayTransformAbsolute(uint64_t ulOverlayHandle, ::Valve::VR::ETrackingUniverseOrigin eTrackingOrigin, ByRef<::Valve::VR::HmdMatrix34_t> pmatTrackingOriginToOverlayTransform);
     // public Valve.VR.EVROverlayError GetOverlayTransformAbsolute(System.UInt64 ulOverlayHandle, ref Valve.VR.ETrackingUniverseOrigin peTrackingOrigin, ref Valve.VR.HmdMatrix34_t pmatTrackingOriginToOverlayTransform)
     // Offset: 0x1AFAEBC
-    Valve::VR::EVROverlayError GetOverlayTransformAbsolute(uint64_t ulOverlayHandle, ByRef<Valve::VR::ETrackingUniverseOrigin> peTrackingOrigin, ByRef<Valve::VR::HmdMatrix34_t> pmatTrackingOriginToOverlayTransform);
+    ::Valve::VR::EVROverlayError GetOverlayTransformAbsolute(uint64_t ulOverlayHandle, ByRef<::Valve::VR::ETrackingUniverseOrigin> peTrackingOrigin, ByRef<::Valve::VR::HmdMatrix34_t> pmatTrackingOriginToOverlayTransform);
     // public Valve.VR.EVROverlayError SetOverlayTransformTrackedDeviceRelative(System.UInt64 ulOverlayHandle, System.UInt32 unTrackedDevice, ref Valve.VR.HmdMatrix34_t pmatTrackedDeviceToOverlayTransform)
     // Offset: 0x1AFAED8
-    Valve::VR::EVROverlayError SetOverlayTransformTrackedDeviceRelative(uint64_t ulOverlayHandle, uint unTrackedDevice, ByRef<Valve::VR::HmdMatrix34_t> pmatTrackedDeviceToOverlayTransform);
+    ::Valve::VR::EVROverlayError SetOverlayTransformTrackedDeviceRelative(uint64_t ulOverlayHandle, uint unTrackedDevice, ByRef<::Valve::VR::HmdMatrix34_t> pmatTrackedDeviceToOverlayTransform);
     // public Valve.VR.EVROverlayError GetOverlayTransformTrackedDeviceRelative(System.UInt64 ulOverlayHandle, ref System.UInt32 punTrackedDevice, ref Valve.VR.HmdMatrix34_t pmatTrackedDeviceToOverlayTransform)
     // Offset: 0x1AFAEF4
-    Valve::VR::EVROverlayError GetOverlayTransformTrackedDeviceRelative(uint64_t ulOverlayHandle, ByRef<uint> punTrackedDevice, ByRef<Valve::VR::HmdMatrix34_t> pmatTrackedDeviceToOverlayTransform);
+    ::Valve::VR::EVROverlayError GetOverlayTransformTrackedDeviceRelative(uint64_t ulOverlayHandle, ByRef<uint> punTrackedDevice, ByRef<::Valve::VR::HmdMatrix34_t> pmatTrackedDeviceToOverlayTransform);
     // public Valve.VR.EVROverlayError SetOverlayTransformTrackedDeviceComponent(System.UInt64 ulOverlayHandle, System.UInt32 unDeviceIndex, System.String pchComponentName)
     // Offset: 0x1AFAF14
-    Valve::VR::EVROverlayError SetOverlayTransformTrackedDeviceComponent(uint64_t ulOverlayHandle, uint unDeviceIndex, ::StringW pchComponentName);
+    ::Valve::VR::EVROverlayError SetOverlayTransformTrackedDeviceComponent(uint64_t ulOverlayHandle, uint unDeviceIndex, ::StringW pchComponentName);
     // public Valve.VR.EVROverlayError GetOverlayTransformTrackedDeviceComponent(System.UInt64 ulOverlayHandle, ref System.UInt32 punDeviceIndex, System.Text.StringBuilder pchComponentName, System.UInt32 unComponentNameSize)
     // Offset: 0x1AFAF30
-    Valve::VR::EVROverlayError GetOverlayTransformTrackedDeviceComponent(uint64_t ulOverlayHandle, ByRef<uint> punDeviceIndex, System::Text::StringBuilder* pchComponentName, uint unComponentNameSize);
+    ::Valve::VR::EVROverlayError GetOverlayTransformTrackedDeviceComponent(uint64_t ulOverlayHandle, ByRef<uint> punDeviceIndex, ::System::Text::StringBuilder* pchComponentName, uint unComponentNameSize);
     // public Valve.VR.EVROverlayError GetOverlayTransformOverlayRelative(System.UInt64 ulOverlayHandle, ref System.UInt64 ulOverlayHandleParent, ref Valve.VR.HmdMatrix34_t pmatParentOverlayToOverlayTransform)
     // Offset: 0x1AFAF50
-    Valve::VR::EVROverlayError GetOverlayTransformOverlayRelative(uint64_t ulOverlayHandle, ByRef<uint64_t> ulOverlayHandleParent, ByRef<Valve::VR::HmdMatrix34_t> pmatParentOverlayToOverlayTransform);
+    ::Valve::VR::EVROverlayError GetOverlayTransformOverlayRelative(uint64_t ulOverlayHandle, ByRef<uint64_t> ulOverlayHandleParent, ByRef<::Valve::VR::HmdMatrix34_t> pmatParentOverlayToOverlayTransform);
     // public Valve.VR.EVROverlayError SetOverlayTransformOverlayRelative(System.UInt64 ulOverlayHandle, System.UInt64 ulOverlayHandleParent, ref Valve.VR.HmdMatrix34_t pmatParentOverlayToOverlayTransform)
     // Offset: 0x1AFAF70
-    Valve::VR::EVROverlayError SetOverlayTransformOverlayRelative(uint64_t ulOverlayHandle, uint64_t ulOverlayHandleParent, ByRef<Valve::VR::HmdMatrix34_t> pmatParentOverlayToOverlayTransform);
+    ::Valve::VR::EVROverlayError SetOverlayTransformOverlayRelative(uint64_t ulOverlayHandle, uint64_t ulOverlayHandleParent, ByRef<::Valve::VR::HmdMatrix34_t> pmatParentOverlayToOverlayTransform);
     // public Valve.VR.EVROverlayError ShowOverlay(System.UInt64 ulOverlayHandle)
     // Offset: 0x1AFAF8C
-    Valve::VR::EVROverlayError ShowOverlay(uint64_t ulOverlayHandle);
+    ::Valve::VR::EVROverlayError ShowOverlay(uint64_t ulOverlayHandle);
     // public Valve.VR.EVROverlayError HideOverlay(System.UInt64 ulOverlayHandle)
     // Offset: 0x1AFAFA8
-    Valve::VR::EVROverlayError HideOverlay(uint64_t ulOverlayHandle);
+    ::Valve::VR::EVROverlayError HideOverlay(uint64_t ulOverlayHandle);
     // public System.Boolean IsOverlayVisible(System.UInt64 ulOverlayHandle)
     // Offset: 0x1AFAFC4
     bool IsOverlayVisible(uint64_t ulOverlayHandle);
     // public Valve.VR.EVROverlayError GetTransformForOverlayCoordinates(System.UInt64 ulOverlayHandle, Valve.VR.ETrackingUniverseOrigin eTrackingOrigin, Valve.VR.HmdVector2_t coordinatesInOverlay, ref Valve.VR.HmdMatrix34_t pmatTransform)
     // Offset: 0x1AFAFE0
-    Valve::VR::EVROverlayError GetTransformForOverlayCoordinates(uint64_t ulOverlayHandle, Valve::VR::ETrackingUniverseOrigin eTrackingOrigin, Valve::VR::HmdVector2_t coordinatesInOverlay, ByRef<Valve::VR::HmdMatrix34_t> pmatTransform);
+    ::Valve::VR::EVROverlayError GetTransformForOverlayCoordinates(uint64_t ulOverlayHandle, ::Valve::VR::ETrackingUniverseOrigin eTrackingOrigin, ::Valve::VR::HmdVector2_t coordinatesInOverlay, ByRef<::Valve::VR::HmdMatrix34_t> pmatTransform);
     // public System.Boolean PollNextOverlayEvent(System.UInt64 ulOverlayHandle, ref Valve.VR.VREvent_t pEvent, System.UInt32 uncbVREvent)
     // Offset: 0x1AFAFFC
-    bool PollNextOverlayEvent(uint64_t ulOverlayHandle, ByRef<Valve::VR::VREvent_t> pEvent, uint uncbVREvent);
+    bool PollNextOverlayEvent(uint64_t ulOverlayHandle, ByRef<::Valve::VR::VREvent_t> pEvent, uint uncbVREvent);
     // public Valve.VR.EVROverlayError GetOverlayInputMethod(System.UInt64 ulOverlayHandle, ref Valve.VR.VROverlayInputMethod peInputMethod)
     // Offset: 0x1AFB418
-    Valve::VR::EVROverlayError GetOverlayInputMethod(uint64_t ulOverlayHandle, ByRef<Valve::VR::VROverlayInputMethod> peInputMethod);
+    ::Valve::VR::EVROverlayError GetOverlayInputMethod(uint64_t ulOverlayHandle, ByRef<::Valve::VR::VROverlayInputMethod> peInputMethod);
     // public Valve.VR.EVROverlayError SetOverlayInputMethod(System.UInt64 ulOverlayHandle, Valve.VR.VROverlayInputMethod eInputMethod)
     // Offset: 0x1AFB434
-    Valve::VR::EVROverlayError SetOverlayInputMethod(uint64_t ulOverlayHandle, Valve::VR::VROverlayInputMethod eInputMethod);
+    ::Valve::VR::EVROverlayError SetOverlayInputMethod(uint64_t ulOverlayHandle, ::Valve::VR::VROverlayInputMethod eInputMethod);
     // public Valve.VR.EVROverlayError GetOverlayMouseScale(System.UInt64 ulOverlayHandle, ref Valve.VR.HmdVector2_t pvecMouseScale)
     // Offset: 0x1AFB450
-    Valve::VR::EVROverlayError GetOverlayMouseScale(uint64_t ulOverlayHandle, ByRef<Valve::VR::HmdVector2_t> pvecMouseScale);
+    ::Valve::VR::EVROverlayError GetOverlayMouseScale(uint64_t ulOverlayHandle, ByRef<::Valve::VR::HmdVector2_t> pvecMouseScale);
     // public Valve.VR.EVROverlayError SetOverlayMouseScale(System.UInt64 ulOverlayHandle, ref Valve.VR.HmdVector2_t pvecMouseScale)
     // Offset: 0x1AFB46C
-    Valve::VR::EVROverlayError SetOverlayMouseScale(uint64_t ulOverlayHandle, ByRef<Valve::VR::HmdVector2_t> pvecMouseScale);
+    ::Valve::VR::EVROverlayError SetOverlayMouseScale(uint64_t ulOverlayHandle, ByRef<::Valve::VR::HmdVector2_t> pvecMouseScale);
     // public System.Boolean ComputeOverlayIntersection(System.UInt64 ulOverlayHandle, ref Valve.VR.VROverlayIntersectionParams_t pParams, ref Valve.VR.VROverlayIntersectionResults_t pResults)
     // Offset: 0x1AFB488
-    bool ComputeOverlayIntersection(uint64_t ulOverlayHandle, ByRef<Valve::VR::VROverlayIntersectionParams_t> pParams, ByRef<Valve::VR::VROverlayIntersectionResults_t> pResults);
+    bool ComputeOverlayIntersection(uint64_t ulOverlayHandle, ByRef<::Valve::VR::VROverlayIntersectionParams_t> pParams, ByRef<::Valve::VR::VROverlayIntersectionResults_t> pResults);
     // public System.Boolean IsHoverTargetOverlay(System.UInt64 ulOverlayHandle)
     // Offset: 0x1AFB4A4
     bool IsHoverTargetOverlay(uint64_t ulOverlayHandle);
@@ -275,43 +275,43 @@ namespace Valve::VR {
     uint64_t GetGamepadFocusOverlay();
     // public Valve.VR.EVROverlayError SetGamepadFocusOverlay(System.UInt64 ulNewFocusOverlay)
     // Offset: 0x1AFB4DC
-    Valve::VR::EVROverlayError SetGamepadFocusOverlay(uint64_t ulNewFocusOverlay);
+    ::Valve::VR::EVROverlayError SetGamepadFocusOverlay(uint64_t ulNewFocusOverlay);
     // public Valve.VR.EVROverlayError SetOverlayNeighbor(Valve.VR.EOverlayDirection eDirection, System.UInt64 ulFrom, System.UInt64 ulTo)
     // Offset: 0x1AFB4F8
-    Valve::VR::EVROverlayError SetOverlayNeighbor(Valve::VR::EOverlayDirection eDirection, uint64_t ulFrom, uint64_t ulTo);
+    ::Valve::VR::EVROverlayError SetOverlayNeighbor(::Valve::VR::EOverlayDirection eDirection, uint64_t ulFrom, uint64_t ulTo);
     // public Valve.VR.EVROverlayError MoveGamepadFocusToNeighbor(Valve.VR.EOverlayDirection eDirection, System.UInt64 ulFrom)
     // Offset: 0x1AFB514
-    Valve::VR::EVROverlayError MoveGamepadFocusToNeighbor(Valve::VR::EOverlayDirection eDirection, uint64_t ulFrom);
+    ::Valve::VR::EVROverlayError MoveGamepadFocusToNeighbor(::Valve::VR::EOverlayDirection eDirection, uint64_t ulFrom);
     // public Valve.VR.EVROverlayError SetOverlayDualAnalogTransform(System.UInt64 ulOverlay, Valve.VR.EDualAnalogWhich eWhich, System.IntPtr vCenter, System.Single fRadius)
     // Offset: 0x1AFB530
-    Valve::VR::EVROverlayError SetOverlayDualAnalogTransform(uint64_t ulOverlay, Valve::VR::EDualAnalogWhich eWhich, System::IntPtr vCenter, float fRadius);
+    ::Valve::VR::EVROverlayError SetOverlayDualAnalogTransform(uint64_t ulOverlay, ::Valve::VR::EDualAnalogWhich eWhich, ::System::IntPtr vCenter, float fRadius);
     // public Valve.VR.EVROverlayError GetOverlayDualAnalogTransform(System.UInt64 ulOverlay, Valve.VR.EDualAnalogWhich eWhich, ref Valve.VR.HmdVector2_t pvCenter, ref System.Single pfRadius)
     // Offset: 0x1AFB54C
-    Valve::VR::EVROverlayError GetOverlayDualAnalogTransform(uint64_t ulOverlay, Valve::VR::EDualAnalogWhich eWhich, ByRef<Valve::VR::HmdVector2_t> pvCenter, ByRef<float> pfRadius);
+    ::Valve::VR::EVROverlayError GetOverlayDualAnalogTransform(uint64_t ulOverlay, ::Valve::VR::EDualAnalogWhich eWhich, ByRef<::Valve::VR::HmdVector2_t> pvCenter, ByRef<float> pfRadius);
     // public Valve.VR.EVROverlayError SetOverlayTexture(System.UInt64 ulOverlayHandle, ref Valve.VR.Texture_t pTexture)
     // Offset: 0x1AFB56C
-    Valve::VR::EVROverlayError SetOverlayTexture(uint64_t ulOverlayHandle, ByRef<Valve::VR::Texture_t> pTexture);
+    ::Valve::VR::EVROverlayError SetOverlayTexture(uint64_t ulOverlayHandle, ByRef<::Valve::VR::Texture_t> pTexture);
     // public Valve.VR.EVROverlayError ClearOverlayTexture(System.UInt64 ulOverlayHandle)
     // Offset: 0x1AFB588
-    Valve::VR::EVROverlayError ClearOverlayTexture(uint64_t ulOverlayHandle);
+    ::Valve::VR::EVROverlayError ClearOverlayTexture(uint64_t ulOverlayHandle);
     // public Valve.VR.EVROverlayError SetOverlayRaw(System.UInt64 ulOverlayHandle, System.IntPtr pvBuffer, System.UInt32 unWidth, System.UInt32 unHeight, System.UInt32 unDepth)
     // Offset: 0x1AFB5A4
-    Valve::VR::EVROverlayError SetOverlayRaw(uint64_t ulOverlayHandle, System::IntPtr pvBuffer, uint unWidth, uint unHeight, uint unDepth);
+    ::Valve::VR::EVROverlayError SetOverlayRaw(uint64_t ulOverlayHandle, ::System::IntPtr pvBuffer, uint unWidth, uint unHeight, uint unDepth);
     // public Valve.VR.EVROverlayError SetOverlayFromFile(System.UInt64 ulOverlayHandle, System.String pchFilePath)
     // Offset: 0x1AFB5C0
-    Valve::VR::EVROverlayError SetOverlayFromFile(uint64_t ulOverlayHandle, ::StringW pchFilePath);
+    ::Valve::VR::EVROverlayError SetOverlayFromFile(uint64_t ulOverlayHandle, ::StringW pchFilePath);
     // public Valve.VR.EVROverlayError GetOverlayTexture(System.UInt64 ulOverlayHandle, ref System.IntPtr pNativeTextureHandle, System.IntPtr pNativeTextureRef, ref System.UInt32 pWidth, ref System.UInt32 pHeight, ref System.UInt32 pNativeFormat, ref Valve.VR.ETextureType pAPIType, ref Valve.VR.EColorSpace pColorSpace, ref Valve.VR.VRTextureBounds_t pTextureBounds)
     // Offset: 0x1AFB5DC
-    Valve::VR::EVROverlayError GetOverlayTexture(uint64_t ulOverlayHandle, ByRef<System::IntPtr> pNativeTextureHandle, System::IntPtr pNativeTextureRef, ByRef<uint> pWidth, ByRef<uint> pHeight, ByRef<uint> pNativeFormat, ByRef<Valve::VR::ETextureType> pAPIType, ByRef<Valve::VR::EColorSpace> pColorSpace, ByRef<Valve::VR::VRTextureBounds_t> pTextureBounds);
+    ::Valve::VR::EVROverlayError GetOverlayTexture(uint64_t ulOverlayHandle, ByRef<::System::IntPtr> pNativeTextureHandle, ::System::IntPtr pNativeTextureRef, ByRef<uint> pWidth, ByRef<uint> pHeight, ByRef<uint> pNativeFormat, ByRef<::Valve::VR::ETextureType> pAPIType, ByRef<::Valve::VR::EColorSpace> pColorSpace, ByRef<::Valve::VR::VRTextureBounds_t> pTextureBounds);
     // public Valve.VR.EVROverlayError ReleaseNativeOverlayHandle(System.UInt64 ulOverlayHandle, System.IntPtr pNativeTextureHandle)
     // Offset: 0x1AFB610
-    Valve::VR::EVROverlayError ReleaseNativeOverlayHandle(uint64_t ulOverlayHandle, System::IntPtr pNativeTextureHandle);
+    ::Valve::VR::EVROverlayError ReleaseNativeOverlayHandle(uint64_t ulOverlayHandle, ::System::IntPtr pNativeTextureHandle);
     // public Valve.VR.EVROverlayError GetOverlayTextureSize(System.UInt64 ulOverlayHandle, ref System.UInt32 pWidth, ref System.UInt32 pHeight)
     // Offset: 0x1AFB62C
-    Valve::VR::EVROverlayError GetOverlayTextureSize(uint64_t ulOverlayHandle, ByRef<uint> pWidth, ByRef<uint> pHeight);
+    ::Valve::VR::EVROverlayError GetOverlayTextureSize(uint64_t ulOverlayHandle, ByRef<uint> pWidth, ByRef<uint> pHeight);
     // public Valve.VR.EVROverlayError CreateDashboardOverlay(System.String pchOverlayKey, System.String pchOverlayFriendlyName, ref System.UInt64 pMainHandle, ref System.UInt64 pThumbnailHandle)
     // Offset: 0x1AFB650
-    Valve::VR::EVROverlayError CreateDashboardOverlay(::StringW pchOverlayKey, ::StringW pchOverlayFriendlyName, ByRef<uint64_t> pMainHandle, ByRef<uint64_t> pThumbnailHandle);
+    ::Valve::VR::EVROverlayError CreateDashboardOverlay(::StringW pchOverlayKey, ::StringW pchOverlayFriendlyName, ByRef<uint64_t> pMainHandle, ByRef<uint64_t> pThumbnailHandle);
     // public System.Boolean IsDashboardVisible()
     // Offset: 0x1AFB674
     bool IsDashboardVisible();
@@ -320,10 +320,10 @@ namespace Valve::VR {
     bool IsActiveDashboardOverlay(uint64_t ulOverlayHandle);
     // public Valve.VR.EVROverlayError SetDashboardOverlaySceneProcess(System.UInt64 ulOverlayHandle, System.UInt32 unProcessId)
     // Offset: 0x1AFB6AC
-    Valve::VR::EVROverlayError SetDashboardOverlaySceneProcess(uint64_t ulOverlayHandle, uint unProcessId);
+    ::Valve::VR::EVROverlayError SetDashboardOverlaySceneProcess(uint64_t ulOverlayHandle, uint unProcessId);
     // public Valve.VR.EVROverlayError GetDashboardOverlaySceneProcess(System.UInt64 ulOverlayHandle, ref System.UInt32 punProcessId)
     // Offset: 0x1AFB6C8
-    Valve::VR::EVROverlayError GetDashboardOverlaySceneProcess(uint64_t ulOverlayHandle, ByRef<uint> punProcessId);
+    ::Valve::VR::EVROverlayError GetDashboardOverlaySceneProcess(uint64_t ulOverlayHandle, ByRef<uint> punProcessId);
     // public System.Void ShowDashboard(System.String pchOverlayToShow)
     // Offset: 0x1AFB6E8
     void ShowDashboard(::StringW pchOverlayToShow);
@@ -332,37 +332,37 @@ namespace Valve::VR {
     uint GetPrimaryDashboardDevice();
     // public Valve.VR.EVROverlayError ShowKeyboard(System.Int32 eInputMode, System.Int32 eLineInputMode, System.String pchDescription, System.UInt32 unCharMax, System.String pchExistingText, System.Boolean bUseMinimalMode, System.UInt64 uUserValue)
     // Offset: 0x1AFB720
-    Valve::VR::EVROverlayError ShowKeyboard(int eInputMode, int eLineInputMode, ::StringW pchDescription, uint unCharMax, ::StringW pchExistingText, bool bUseMinimalMode, uint64_t uUserValue);
+    ::Valve::VR::EVROverlayError ShowKeyboard(int eInputMode, int eLineInputMode, ::StringW pchDescription, uint unCharMax, ::StringW pchExistingText, bool bUseMinimalMode, uint64_t uUserValue);
     // public Valve.VR.EVROverlayError ShowKeyboardForOverlay(System.UInt64 ulOverlayHandle, System.Int32 eInputMode, System.Int32 eLineInputMode, System.String pchDescription, System.UInt32 unCharMax, System.String pchExistingText, System.Boolean bUseMinimalMode, System.UInt64 uUserValue)
     // Offset: 0x1AFB744
-    Valve::VR::EVROverlayError ShowKeyboardForOverlay(uint64_t ulOverlayHandle, int eInputMode, int eLineInputMode, ::StringW pchDescription, uint unCharMax, ::StringW pchExistingText, bool bUseMinimalMode, uint64_t uUserValue);
+    ::Valve::VR::EVROverlayError ShowKeyboardForOverlay(uint64_t ulOverlayHandle, int eInputMode, int eLineInputMode, ::StringW pchDescription, uint unCharMax, ::StringW pchExistingText, bool bUseMinimalMode, uint64_t uUserValue);
     // public System.UInt32 GetKeyboardText(System.Text.StringBuilder pchText, System.UInt32 cchText)
     // Offset: 0x1AFB76C
-    uint GetKeyboardText(System::Text::StringBuilder* pchText, uint cchText);
+    uint GetKeyboardText(::System::Text::StringBuilder* pchText, uint cchText);
     // public System.Void HideKeyboard()
     // Offset: 0x1AFB788
     void HideKeyboard();
     // public System.Void SetKeyboardTransformAbsolute(Valve.VR.ETrackingUniverseOrigin eTrackingOrigin, ref Valve.VR.HmdMatrix34_t pmatTrackingOriginToKeyboardTransform)
     // Offset: 0x1AFB7A4
-    void SetKeyboardTransformAbsolute(Valve::VR::ETrackingUniverseOrigin eTrackingOrigin, ByRef<Valve::VR::HmdMatrix34_t> pmatTrackingOriginToKeyboardTransform);
+    void SetKeyboardTransformAbsolute(::Valve::VR::ETrackingUniverseOrigin eTrackingOrigin, ByRef<::Valve::VR::HmdMatrix34_t> pmatTrackingOriginToKeyboardTransform);
     // public System.Void SetKeyboardPositionForOverlay(System.UInt64 ulOverlayHandle, Valve.VR.HmdRect2_t avoidRect)
     // Offset: 0x1AFB7C0
-    void SetKeyboardPositionForOverlay(uint64_t ulOverlayHandle, Valve::VR::HmdRect2_t avoidRect);
+    void SetKeyboardPositionForOverlay(uint64_t ulOverlayHandle, ::Valve::VR::HmdRect2_t avoidRect);
     // public Valve.VR.EVROverlayError SetOverlayIntersectionMask(System.UInt64 ulOverlayHandle, ref Valve.VR.VROverlayIntersectionMaskPrimitive_t pMaskPrimitives, System.UInt32 unNumMaskPrimitives, System.UInt32 unPrimitiveSize)
     // Offset: 0x1AFB7DC
-    Valve::VR::EVROverlayError SetOverlayIntersectionMask(uint64_t ulOverlayHandle, ByRef<Valve::VR::VROverlayIntersectionMaskPrimitive_t> pMaskPrimitives, uint unNumMaskPrimitives, uint unPrimitiveSize);
+    ::Valve::VR::EVROverlayError SetOverlayIntersectionMask(uint64_t ulOverlayHandle, ByRef<::Valve::VR::VROverlayIntersectionMaskPrimitive_t> pMaskPrimitives, uint unNumMaskPrimitives, uint unPrimitiveSize);
     // public Valve.VR.EVROverlayError GetOverlayFlags(System.UInt64 ulOverlayHandle, ref System.UInt32 pFlags)
     // Offset: 0x1AFB7F8
-    Valve::VR::EVROverlayError GetOverlayFlags(uint64_t ulOverlayHandle, ByRef<uint> pFlags);
+    ::Valve::VR::EVROverlayError GetOverlayFlags(uint64_t ulOverlayHandle, ByRef<uint> pFlags);
     // public Valve.VR.VRMessageOverlayResponse ShowMessageOverlay(System.String pchText, System.String pchCaption, System.String pchButton0Text, System.String pchButton1Text, System.String pchButton2Text, System.String pchButton3Text)
     // Offset: 0x1AFB818
-    Valve::VR::VRMessageOverlayResponse ShowMessageOverlay(::StringW pchText, ::StringW pchCaption, ::StringW pchButton0Text, ::StringW pchButton1Text, ::StringW pchButton2Text, ::StringW pchButton3Text);
+    ::Valve::VR::VRMessageOverlayResponse ShowMessageOverlay(::StringW pchText, ::StringW pchCaption, ::StringW pchButton0Text, ::StringW pchButton1Text, ::StringW pchButton2Text, ::StringW pchButton3Text);
     // public System.Void CloseMessageOverlay()
     // Offset: 0x1AFB834
     void CloseMessageOverlay();
   }; // Valve.VR.CVROverlay
   #pragma pack(pop)
-  static check_size<sizeof(CVROverlay), 16 + sizeof(Valve::VR::IVROverlay)> __Valve_VR_CVROverlaySizeCheck;
+  static check_size<sizeof(CVROverlay), 16 + sizeof(::Valve::VR::IVROverlay)> __Valve_VR_CVROverlaySizeCheck;
   static_assert(sizeof(CVROverlay) == 0x2A0);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -373,7 +373,7 @@ namespace Valve::VR {
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::FindOverlay
 // Il2CppName: FindOverlay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(::StringW, ByRef<uint64_t>)>(&Valve::VR::CVROverlay::FindOverlay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(::StringW, ByRef<uint64_t>)>(&Valve::VR::CVROverlay::FindOverlay)> {
   static const MethodInfo* get() {
     static auto* pchOverlayKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->this_arg;
@@ -383,7 +383,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::CreateOverlay
 // Il2CppName: CreateOverlay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(::StringW, ::StringW, ByRef<uint64_t>)>(&Valve::VR::CVROverlay::CreateOverlay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(::StringW, ::StringW, ByRef<uint64_t>)>(&Valve::VR::CVROverlay::CreateOverlay)> {
   static const MethodInfo* get() {
     static auto* pchOverlayKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchOverlayName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -394,7 +394,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::DestroyOverlay
 // Il2CppName: DestroyOverlay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t)>(&Valve::VR::CVROverlay::DestroyOverlay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t)>(&Valve::VR::CVROverlay::DestroyOverlay)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVROverlay*), "DestroyOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ulOverlayHandle});
@@ -403,7 +403,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::SetHighQualityOverlay
 // Il2CppName: SetHighQualityOverlay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t)>(&Valve::VR::CVROverlay::SetHighQualityOverlay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t)>(&Valve::VR::CVROverlay::SetHighQualityOverlay)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVROverlay*), "SetHighQualityOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ulOverlayHandle});
@@ -420,7 +420,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (V
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::GetOverlayKey
 // Il2CppName: GetOverlayKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::CVROverlay::*)(uint64_t, System::Text::StringBuilder*, uint, ByRef<Valve::VR::EVROverlayError>)>(&Valve::VR::CVROverlay::GetOverlayKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::CVROverlay::*)(uint64_t, ::System::Text::StringBuilder*, uint, ByRef<::Valve::VR::EVROverlayError>)>(&Valve::VR::CVROverlay::GetOverlayKey)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pchValue = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
@@ -432,7 +432,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::GetOverlayName
 // Il2CppName: GetOverlayName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::CVROverlay::*)(uint64_t, System::Text::StringBuilder*, uint, ByRef<Valve::VR::EVROverlayError>)>(&Valve::VR::CVROverlay::GetOverlayName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::CVROverlay::*)(uint64_t, ::System::Text::StringBuilder*, uint, ByRef<::Valve::VR::EVROverlayError>)>(&Valve::VR::CVROverlay::GetOverlayName)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pchValue = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
@@ -444,7 +444,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::SetOverlayName
 // Il2CppName: SetOverlayName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ::StringW)>(&Valve::VR::CVROverlay::SetOverlayName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ::StringW)>(&Valve::VR::CVROverlay::SetOverlayName)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pchName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -454,7 +454,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::GetOverlayImageData
 // Il2CppName: GetOverlayImageData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, System::IntPtr, uint, ByRef<uint>, ByRef<uint>)>(&Valve::VR::CVROverlay::GetOverlayImageData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ::System::IntPtr, uint, ByRef<uint>, ByRef<uint>)>(&Valve::VR::CVROverlay::GetOverlayImageData)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pvBuffer = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -467,7 +467,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::GetOverlayErrorNameFromEnum
 // Il2CppName: GetOverlayErrorNameFromEnum
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Valve::VR::CVROverlay::*)(Valve::VR::EVROverlayError)>(&Valve::VR::CVROverlay::GetOverlayErrorNameFromEnum)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Valve::VR::CVROverlay::*)(::Valve::VR::EVROverlayError)>(&Valve::VR::CVROverlay::GetOverlayErrorNameFromEnum)> {
   static const MethodInfo* get() {
     static auto* error = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVROverlayError")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVROverlay*), "GetOverlayErrorNameFromEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{error});
@@ -476,7 +476,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::SetOverlayRenderingPid
 // Il2CppName: SetOverlayRenderingPid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, uint)>(&Valve::VR::CVROverlay::SetOverlayRenderingPid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, uint)>(&Valve::VR::CVROverlay::SetOverlayRenderingPid)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* unPID = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -495,7 +495,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::SetOverlayFlag
 // Il2CppName: SetOverlayFlag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, Valve::VR::VROverlayFlags, bool)>(&Valve::VR::CVROverlay::SetOverlayFlag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ::Valve::VR::VROverlayFlags, bool)>(&Valve::VR::CVROverlay::SetOverlayFlag)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* eOverlayFlag = &::il2cpp_utils::GetClassFromName("Valve.VR", "VROverlayFlags")->byval_arg;
@@ -506,7 +506,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::GetOverlayFlag
 // Il2CppName: GetOverlayFlag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, Valve::VR::VROverlayFlags, ByRef<bool>)>(&Valve::VR::CVROverlay::GetOverlayFlag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ::Valve::VR::VROverlayFlags, ByRef<bool>)>(&Valve::VR::CVROverlay::GetOverlayFlag)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* eOverlayFlag = &::il2cpp_utils::GetClassFromName("Valve.VR", "VROverlayFlags")->byval_arg;
@@ -517,7 +517,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::SetOverlayColor
 // Il2CppName: SetOverlayColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, float, float, float)>(&Valve::VR::CVROverlay::SetOverlayColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, float, float, float)>(&Valve::VR::CVROverlay::SetOverlayColor)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* fRed = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -529,7 +529,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::GetOverlayColor
 // Il2CppName: GetOverlayColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ByRef<float>, ByRef<float>, ByRef<float>)>(&Valve::VR::CVROverlay::GetOverlayColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ByRef<float>, ByRef<float>, ByRef<float>)>(&Valve::VR::CVROverlay::GetOverlayColor)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pfRed = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
@@ -541,7 +541,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::SetOverlayAlpha
 // Il2CppName: SetOverlayAlpha
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, float)>(&Valve::VR::CVROverlay::SetOverlayAlpha)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, float)>(&Valve::VR::CVROverlay::SetOverlayAlpha)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* fAlpha = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -551,7 +551,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::GetOverlayAlpha
 // Il2CppName: GetOverlayAlpha
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ByRef<float>)>(&Valve::VR::CVROverlay::GetOverlayAlpha)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ByRef<float>)>(&Valve::VR::CVROverlay::GetOverlayAlpha)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pfAlpha = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
@@ -561,7 +561,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::SetOverlayTexelAspect
 // Il2CppName: SetOverlayTexelAspect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, float)>(&Valve::VR::CVROverlay::SetOverlayTexelAspect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, float)>(&Valve::VR::CVROverlay::SetOverlayTexelAspect)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* fTexelAspect = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -571,7 +571,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::GetOverlayTexelAspect
 // Il2CppName: GetOverlayTexelAspect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ByRef<float>)>(&Valve::VR::CVROverlay::GetOverlayTexelAspect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ByRef<float>)>(&Valve::VR::CVROverlay::GetOverlayTexelAspect)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pfTexelAspect = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
@@ -581,7 +581,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::SetOverlaySortOrder
 // Il2CppName: SetOverlaySortOrder
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, uint)>(&Valve::VR::CVROverlay::SetOverlaySortOrder)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, uint)>(&Valve::VR::CVROverlay::SetOverlaySortOrder)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* unSortOrder = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -591,7 +591,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::GetOverlaySortOrder
 // Il2CppName: GetOverlaySortOrder
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ByRef<uint>)>(&Valve::VR::CVROverlay::GetOverlaySortOrder)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ByRef<uint>)>(&Valve::VR::CVROverlay::GetOverlaySortOrder)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* punSortOrder = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
@@ -601,7 +601,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::SetOverlayWidthInMeters
 // Il2CppName: SetOverlayWidthInMeters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, float)>(&Valve::VR::CVROverlay::SetOverlayWidthInMeters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, float)>(&Valve::VR::CVROverlay::SetOverlayWidthInMeters)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* fWidthInMeters = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -611,7 +611,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::GetOverlayWidthInMeters
 // Il2CppName: GetOverlayWidthInMeters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ByRef<float>)>(&Valve::VR::CVROverlay::GetOverlayWidthInMeters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ByRef<float>)>(&Valve::VR::CVROverlay::GetOverlayWidthInMeters)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pfWidthInMeters = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
@@ -621,7 +621,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::SetOverlayAutoCurveDistanceRangeInMeters
 // Il2CppName: SetOverlayAutoCurveDistanceRangeInMeters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, float, float)>(&Valve::VR::CVROverlay::SetOverlayAutoCurveDistanceRangeInMeters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, float, float)>(&Valve::VR::CVROverlay::SetOverlayAutoCurveDistanceRangeInMeters)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* fMinDistanceInMeters = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -632,7 +632,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::GetOverlayAutoCurveDistanceRangeInMeters
 // Il2CppName: GetOverlayAutoCurveDistanceRangeInMeters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ByRef<float>, ByRef<float>)>(&Valve::VR::CVROverlay::GetOverlayAutoCurveDistanceRangeInMeters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ByRef<float>, ByRef<float>)>(&Valve::VR::CVROverlay::GetOverlayAutoCurveDistanceRangeInMeters)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pfMinDistanceInMeters = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
@@ -643,7 +643,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::SetOverlayTextureColorSpace
 // Il2CppName: SetOverlayTextureColorSpace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, Valve::VR::EColorSpace)>(&Valve::VR::CVROverlay::SetOverlayTextureColorSpace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ::Valve::VR::EColorSpace)>(&Valve::VR::CVROverlay::SetOverlayTextureColorSpace)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* eTextureColorSpace = &::il2cpp_utils::GetClassFromName("Valve.VR", "EColorSpace")->byval_arg;
@@ -653,7 +653,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::GetOverlayTextureColorSpace
 // Il2CppName: GetOverlayTextureColorSpace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ByRef<Valve::VR::EColorSpace>)>(&Valve::VR::CVROverlay::GetOverlayTextureColorSpace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ByRef<::Valve::VR::EColorSpace>)>(&Valve::VR::CVROverlay::GetOverlayTextureColorSpace)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* peTextureColorSpace = &::il2cpp_utils::GetClassFromName("Valve.VR", "EColorSpace")->this_arg;
@@ -663,7 +663,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::SetOverlayTextureBounds
 // Il2CppName: SetOverlayTextureBounds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ByRef<Valve::VR::VRTextureBounds_t>)>(&Valve::VR::CVROverlay::SetOverlayTextureBounds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ByRef<::Valve::VR::VRTextureBounds_t>)>(&Valve::VR::CVROverlay::SetOverlayTextureBounds)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pOverlayTextureBounds = &::il2cpp_utils::GetClassFromName("Valve.VR", "VRTextureBounds_t")->this_arg;
@@ -673,7 +673,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::GetOverlayTextureBounds
 // Il2CppName: GetOverlayTextureBounds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ByRef<Valve::VR::VRTextureBounds_t>)>(&Valve::VR::CVROverlay::GetOverlayTextureBounds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ByRef<::Valve::VR::VRTextureBounds_t>)>(&Valve::VR::CVROverlay::GetOverlayTextureBounds)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pOverlayTextureBounds = &::il2cpp_utils::GetClassFromName("Valve.VR", "VRTextureBounds_t")->this_arg;
@@ -683,7 +683,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::GetOverlayRenderModel
 // Il2CppName: GetOverlayRenderModel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::CVROverlay::*)(uint64_t, System::Text::StringBuilder*, uint, ByRef<Valve::VR::HmdColor_t>, ByRef<Valve::VR::EVROverlayError>)>(&Valve::VR::CVROverlay::GetOverlayRenderModel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::CVROverlay::*)(uint64_t, ::System::Text::StringBuilder*, uint, ByRef<::Valve::VR::HmdColor_t>, ByRef<::Valve::VR::EVROverlayError>)>(&Valve::VR::CVROverlay::GetOverlayRenderModel)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pchValue = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
@@ -696,7 +696,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::SetOverlayRenderModel
 // Il2CppName: SetOverlayRenderModel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ::StringW, ByRef<Valve::VR::HmdColor_t>)>(&Valve::VR::CVROverlay::SetOverlayRenderModel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ::StringW, ByRef<::Valve::VR::HmdColor_t>)>(&Valve::VR::CVROverlay::SetOverlayRenderModel)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pchRenderModel = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -707,7 +707,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::GetOverlayTransformType
 // Il2CppName: GetOverlayTransformType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ByRef<Valve::VR::VROverlayTransformType>)>(&Valve::VR::CVROverlay::GetOverlayTransformType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ByRef<::Valve::VR::VROverlayTransformType>)>(&Valve::VR::CVROverlay::GetOverlayTransformType)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* peTransformType = &::il2cpp_utils::GetClassFromName("Valve.VR", "VROverlayTransformType")->this_arg;
@@ -717,7 +717,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::SetOverlayTransformAbsolute
 // Il2CppName: SetOverlayTransformAbsolute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, Valve::VR::ETrackingUniverseOrigin, ByRef<Valve::VR::HmdMatrix34_t>)>(&Valve::VR::CVROverlay::SetOverlayTransformAbsolute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ::Valve::VR::ETrackingUniverseOrigin, ByRef<::Valve::VR::HmdMatrix34_t>)>(&Valve::VR::CVROverlay::SetOverlayTransformAbsolute)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* eTrackingOrigin = &::il2cpp_utils::GetClassFromName("Valve.VR", "ETrackingUniverseOrigin")->byval_arg;
@@ -728,7 +728,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::GetOverlayTransformAbsolute
 // Il2CppName: GetOverlayTransformAbsolute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ByRef<Valve::VR::ETrackingUniverseOrigin>, ByRef<Valve::VR::HmdMatrix34_t>)>(&Valve::VR::CVROverlay::GetOverlayTransformAbsolute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ByRef<::Valve::VR::ETrackingUniverseOrigin>, ByRef<::Valve::VR::HmdMatrix34_t>)>(&Valve::VR::CVROverlay::GetOverlayTransformAbsolute)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* peTrackingOrigin = &::il2cpp_utils::GetClassFromName("Valve.VR", "ETrackingUniverseOrigin")->this_arg;
@@ -739,7 +739,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::SetOverlayTransformTrackedDeviceRelative
 // Il2CppName: SetOverlayTransformTrackedDeviceRelative
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, uint, ByRef<Valve::VR::HmdMatrix34_t>)>(&Valve::VR::CVROverlay::SetOverlayTransformTrackedDeviceRelative)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, uint, ByRef<::Valve::VR::HmdMatrix34_t>)>(&Valve::VR::CVROverlay::SetOverlayTransformTrackedDeviceRelative)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* unTrackedDevice = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -750,7 +750,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::GetOverlayTransformTrackedDeviceRelative
 // Il2CppName: GetOverlayTransformTrackedDeviceRelative
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ByRef<uint>, ByRef<Valve::VR::HmdMatrix34_t>)>(&Valve::VR::CVROverlay::GetOverlayTransformTrackedDeviceRelative)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ByRef<uint>, ByRef<::Valve::VR::HmdMatrix34_t>)>(&Valve::VR::CVROverlay::GetOverlayTransformTrackedDeviceRelative)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* punTrackedDevice = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
@@ -761,7 +761,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::SetOverlayTransformTrackedDeviceComponent
 // Il2CppName: SetOverlayTransformTrackedDeviceComponent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, uint, ::StringW)>(&Valve::VR::CVROverlay::SetOverlayTransformTrackedDeviceComponent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, uint, ::StringW)>(&Valve::VR::CVROverlay::SetOverlayTransformTrackedDeviceComponent)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* unDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -772,7 +772,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::GetOverlayTransformTrackedDeviceComponent
 // Il2CppName: GetOverlayTransformTrackedDeviceComponent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ByRef<uint>, System::Text::StringBuilder*, uint)>(&Valve::VR::CVROverlay::GetOverlayTransformTrackedDeviceComponent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ByRef<uint>, ::System::Text::StringBuilder*, uint)>(&Valve::VR::CVROverlay::GetOverlayTransformTrackedDeviceComponent)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* punDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
@@ -784,7 +784,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::GetOverlayTransformOverlayRelative
 // Il2CppName: GetOverlayTransformOverlayRelative
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ByRef<uint64_t>, ByRef<Valve::VR::HmdMatrix34_t>)>(&Valve::VR::CVROverlay::GetOverlayTransformOverlayRelative)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ByRef<uint64_t>, ByRef<::Valve::VR::HmdMatrix34_t>)>(&Valve::VR::CVROverlay::GetOverlayTransformOverlayRelative)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* ulOverlayHandleParent = &::il2cpp_utils::GetClassFromName("System", "UInt64")->this_arg;
@@ -795,7 +795,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::SetOverlayTransformOverlayRelative
 // Il2CppName: SetOverlayTransformOverlayRelative
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, uint64_t, ByRef<Valve::VR::HmdMatrix34_t>)>(&Valve::VR::CVROverlay::SetOverlayTransformOverlayRelative)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, uint64_t, ByRef<::Valve::VR::HmdMatrix34_t>)>(&Valve::VR::CVROverlay::SetOverlayTransformOverlayRelative)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* ulOverlayHandleParent = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
@@ -806,7 +806,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::ShowOverlay
 // Il2CppName: ShowOverlay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t)>(&Valve::VR::CVROverlay::ShowOverlay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t)>(&Valve::VR::CVROverlay::ShowOverlay)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVROverlay*), "ShowOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ulOverlayHandle});
@@ -815,7 +815,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::HideOverlay
 // Il2CppName: HideOverlay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t)>(&Valve::VR::CVROverlay::HideOverlay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t)>(&Valve::VR::CVROverlay::HideOverlay)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVROverlay*), "HideOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ulOverlayHandle});
@@ -833,7 +833,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::GetTransformForOverlayCoordinates
 // Il2CppName: GetTransformForOverlayCoordinates
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, Valve::VR::ETrackingUniverseOrigin, Valve::VR::HmdVector2_t, ByRef<Valve::VR::HmdMatrix34_t>)>(&Valve::VR::CVROverlay::GetTransformForOverlayCoordinates)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ::Valve::VR::ETrackingUniverseOrigin, ::Valve::VR::HmdVector2_t, ByRef<::Valve::VR::HmdMatrix34_t>)>(&Valve::VR::CVROverlay::GetTransformForOverlayCoordinates)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* eTrackingOrigin = &::il2cpp_utils::GetClassFromName("Valve.VR", "ETrackingUniverseOrigin")->byval_arg;
@@ -845,7 +845,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::PollNextOverlayEvent
 // Il2CppName: PollNextOverlayEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVROverlay::*)(uint64_t, ByRef<Valve::VR::VREvent_t>, uint)>(&Valve::VR::CVROverlay::PollNextOverlayEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVROverlay::*)(uint64_t, ByRef<::Valve::VR::VREvent_t>, uint)>(&Valve::VR::CVROverlay::PollNextOverlayEvent)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pEvent = &::il2cpp_utils::GetClassFromName("Valve.VR", "VREvent_t")->this_arg;
@@ -856,7 +856,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::GetOverlayInputMethod
 // Il2CppName: GetOverlayInputMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ByRef<Valve::VR::VROverlayInputMethod>)>(&Valve::VR::CVROverlay::GetOverlayInputMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ByRef<::Valve::VR::VROverlayInputMethod>)>(&Valve::VR::CVROverlay::GetOverlayInputMethod)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* peInputMethod = &::il2cpp_utils::GetClassFromName("Valve.VR", "VROverlayInputMethod")->this_arg;
@@ -866,7 +866,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::SetOverlayInputMethod
 // Il2CppName: SetOverlayInputMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, Valve::VR::VROverlayInputMethod)>(&Valve::VR::CVROverlay::SetOverlayInputMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ::Valve::VR::VROverlayInputMethod)>(&Valve::VR::CVROverlay::SetOverlayInputMethod)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* eInputMethod = &::il2cpp_utils::GetClassFromName("Valve.VR", "VROverlayInputMethod")->byval_arg;
@@ -876,7 +876,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::GetOverlayMouseScale
 // Il2CppName: GetOverlayMouseScale
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ByRef<Valve::VR::HmdVector2_t>)>(&Valve::VR::CVROverlay::GetOverlayMouseScale)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ByRef<::Valve::VR::HmdVector2_t>)>(&Valve::VR::CVROverlay::GetOverlayMouseScale)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pvecMouseScale = &::il2cpp_utils::GetClassFromName("Valve.VR", "HmdVector2_t")->this_arg;
@@ -886,7 +886,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::SetOverlayMouseScale
 // Il2CppName: SetOverlayMouseScale
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ByRef<Valve::VR::HmdVector2_t>)>(&Valve::VR::CVROverlay::SetOverlayMouseScale)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ByRef<::Valve::VR::HmdVector2_t>)>(&Valve::VR::CVROverlay::SetOverlayMouseScale)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pvecMouseScale = &::il2cpp_utils::GetClassFromName("Valve.VR", "HmdVector2_t")->this_arg;
@@ -896,7 +896,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::ComputeOverlayIntersection
 // Il2CppName: ComputeOverlayIntersection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVROverlay::*)(uint64_t, ByRef<Valve::VR::VROverlayIntersectionParams_t>, ByRef<Valve::VR::VROverlayIntersectionResults_t>)>(&Valve::VR::CVROverlay::ComputeOverlayIntersection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVROverlay::*)(uint64_t, ByRef<::Valve::VR::VROverlayIntersectionParams_t>, ByRef<::Valve::VR::VROverlayIntersectionResults_t>)>(&Valve::VR::CVROverlay::ComputeOverlayIntersection)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pParams = &::il2cpp_utils::GetClassFromName("Valve.VR", "VROverlayIntersectionParams_t")->this_arg;
@@ -924,7 +924,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (V
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::SetGamepadFocusOverlay
 // Il2CppName: SetGamepadFocusOverlay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t)>(&Valve::VR::CVROverlay::SetGamepadFocusOverlay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t)>(&Valve::VR::CVROverlay::SetGamepadFocusOverlay)> {
   static const MethodInfo* get() {
     static auto* ulNewFocusOverlay = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVROverlay*), "SetGamepadFocusOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ulNewFocusOverlay});
@@ -933,7 +933,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::SetOverlayNeighbor
 // Il2CppName: SetOverlayNeighbor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(Valve::VR::EOverlayDirection, uint64_t, uint64_t)>(&Valve::VR::CVROverlay::SetOverlayNeighbor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(::Valve::VR::EOverlayDirection, uint64_t, uint64_t)>(&Valve::VR::CVROverlay::SetOverlayNeighbor)> {
   static const MethodInfo* get() {
     static auto* eDirection = &::il2cpp_utils::GetClassFromName("Valve.VR", "EOverlayDirection")->byval_arg;
     static auto* ulFrom = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
@@ -944,7 +944,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::MoveGamepadFocusToNeighbor
 // Il2CppName: MoveGamepadFocusToNeighbor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(Valve::VR::EOverlayDirection, uint64_t)>(&Valve::VR::CVROverlay::MoveGamepadFocusToNeighbor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(::Valve::VR::EOverlayDirection, uint64_t)>(&Valve::VR::CVROverlay::MoveGamepadFocusToNeighbor)> {
   static const MethodInfo* get() {
     static auto* eDirection = &::il2cpp_utils::GetClassFromName("Valve.VR", "EOverlayDirection")->byval_arg;
     static auto* ulFrom = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
@@ -954,7 +954,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::SetOverlayDualAnalogTransform
 // Il2CppName: SetOverlayDualAnalogTransform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, Valve::VR::EDualAnalogWhich, System::IntPtr, float)>(&Valve::VR::CVROverlay::SetOverlayDualAnalogTransform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ::Valve::VR::EDualAnalogWhich, ::System::IntPtr, float)>(&Valve::VR::CVROverlay::SetOverlayDualAnalogTransform)> {
   static const MethodInfo* get() {
     static auto* ulOverlay = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* eWhich = &::il2cpp_utils::GetClassFromName("Valve.VR", "EDualAnalogWhich")->byval_arg;
@@ -966,7 +966,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::GetOverlayDualAnalogTransform
 // Il2CppName: GetOverlayDualAnalogTransform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, Valve::VR::EDualAnalogWhich, ByRef<Valve::VR::HmdVector2_t>, ByRef<float>)>(&Valve::VR::CVROverlay::GetOverlayDualAnalogTransform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ::Valve::VR::EDualAnalogWhich, ByRef<::Valve::VR::HmdVector2_t>, ByRef<float>)>(&Valve::VR::CVROverlay::GetOverlayDualAnalogTransform)> {
   static const MethodInfo* get() {
     static auto* ulOverlay = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* eWhich = &::il2cpp_utils::GetClassFromName("Valve.VR", "EDualAnalogWhich")->byval_arg;
@@ -978,7 +978,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::SetOverlayTexture
 // Il2CppName: SetOverlayTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ByRef<Valve::VR::Texture_t>)>(&Valve::VR::CVROverlay::SetOverlayTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ByRef<::Valve::VR::Texture_t>)>(&Valve::VR::CVROverlay::SetOverlayTexture)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pTexture = &::il2cpp_utils::GetClassFromName("Valve.VR", "Texture_t")->this_arg;
@@ -988,7 +988,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::ClearOverlayTexture
 // Il2CppName: ClearOverlayTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t)>(&Valve::VR::CVROverlay::ClearOverlayTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t)>(&Valve::VR::CVROverlay::ClearOverlayTexture)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVROverlay*), "ClearOverlayTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ulOverlayHandle});
@@ -997,7 +997,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::SetOverlayRaw
 // Il2CppName: SetOverlayRaw
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, System::IntPtr, uint, uint, uint)>(&Valve::VR::CVROverlay::SetOverlayRaw)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ::System::IntPtr, uint, uint, uint)>(&Valve::VR::CVROverlay::SetOverlayRaw)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pvBuffer = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1010,7 +1010,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::SetOverlayFromFile
 // Il2CppName: SetOverlayFromFile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ::StringW)>(&Valve::VR::CVROverlay::SetOverlayFromFile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ::StringW)>(&Valve::VR::CVROverlay::SetOverlayFromFile)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pchFilePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1020,7 +1020,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::GetOverlayTexture
 // Il2CppName: GetOverlayTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ByRef<System::IntPtr>, System::IntPtr, ByRef<uint>, ByRef<uint>, ByRef<uint>, ByRef<Valve::VR::ETextureType>, ByRef<Valve::VR::EColorSpace>, ByRef<Valve::VR::VRTextureBounds_t>)>(&Valve::VR::CVROverlay::GetOverlayTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ByRef<::System::IntPtr>, ::System::IntPtr, ByRef<uint>, ByRef<uint>, ByRef<uint>, ByRef<::Valve::VR::ETextureType>, ByRef<::Valve::VR::EColorSpace>, ByRef<::Valve::VR::VRTextureBounds_t>)>(&Valve::VR::CVROverlay::GetOverlayTexture)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pNativeTextureHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->this_arg;
@@ -1037,7 +1037,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::ReleaseNativeOverlayHandle
 // Il2CppName: ReleaseNativeOverlayHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, System::IntPtr)>(&Valve::VR::CVROverlay::ReleaseNativeOverlayHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ::System::IntPtr)>(&Valve::VR::CVROverlay::ReleaseNativeOverlayHandle)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pNativeTextureHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1047,7 +1047,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::GetOverlayTextureSize
 // Il2CppName: GetOverlayTextureSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ByRef<uint>, ByRef<uint>)>(&Valve::VR::CVROverlay::GetOverlayTextureSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ByRef<uint>, ByRef<uint>)>(&Valve::VR::CVROverlay::GetOverlayTextureSize)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pWidth = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
@@ -1058,7 +1058,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::CreateDashboardOverlay
 // Il2CppName: CreateDashboardOverlay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(::StringW, ::StringW, ByRef<uint64_t>, ByRef<uint64_t>)>(&Valve::VR::CVROverlay::CreateDashboardOverlay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(::StringW, ::StringW, ByRef<uint64_t>, ByRef<uint64_t>)>(&Valve::VR::CVROverlay::CreateDashboardOverlay)> {
   static const MethodInfo* get() {
     static auto* pchOverlayKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchOverlayFriendlyName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1087,7 +1087,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::SetDashboardOverlaySceneProcess
 // Il2CppName: SetDashboardOverlaySceneProcess
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, uint)>(&Valve::VR::CVROverlay::SetDashboardOverlaySceneProcess)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, uint)>(&Valve::VR::CVROverlay::SetDashboardOverlaySceneProcess)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* unProcessId = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -1097,7 +1097,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::GetDashboardOverlaySceneProcess
 // Il2CppName: GetDashboardOverlaySceneProcess
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ByRef<uint>)>(&Valve::VR::CVROverlay::GetDashboardOverlaySceneProcess)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ByRef<uint>)>(&Valve::VR::CVROverlay::GetDashboardOverlaySceneProcess)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* punProcessId = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
@@ -1124,7 +1124,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::ShowKeyboard
 // Il2CppName: ShowKeyboard
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(int, int, ::StringW, uint, ::StringW, bool, uint64_t)>(&Valve::VR::CVROverlay::ShowKeyboard)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(int, int, ::StringW, uint, ::StringW, bool, uint64_t)>(&Valve::VR::CVROverlay::ShowKeyboard)> {
   static const MethodInfo* get() {
     static auto* eInputMode = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* eLineInputMode = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1139,7 +1139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::ShowKeyboardForOverlay
 // Il2CppName: ShowKeyboardForOverlay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, int, int, ::StringW, uint, ::StringW, bool, uint64_t)>(&Valve::VR::CVROverlay::ShowKeyboardForOverlay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, int, int, ::StringW, uint, ::StringW, bool, uint64_t)>(&Valve::VR::CVROverlay::ShowKeyboardForOverlay)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* eInputMode = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1155,7 +1155,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::GetKeyboardText
 // Il2CppName: GetKeyboardText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::CVROverlay::*)(System::Text::StringBuilder*, uint)>(&Valve::VR::CVROverlay::GetKeyboardText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::CVROverlay::*)(::System::Text::StringBuilder*, uint)>(&Valve::VR::CVROverlay::GetKeyboardText)> {
   static const MethodInfo* get() {
     static auto* pchText = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* cchText = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -1173,7 +1173,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::SetKeyboardTransformAbsolute
 // Il2CppName: SetKeyboardTransformAbsolute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVROverlay::*)(Valve::VR::ETrackingUniverseOrigin, ByRef<Valve::VR::HmdMatrix34_t>)>(&Valve::VR::CVROverlay::SetKeyboardTransformAbsolute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVROverlay::*)(::Valve::VR::ETrackingUniverseOrigin, ByRef<::Valve::VR::HmdMatrix34_t>)>(&Valve::VR::CVROverlay::SetKeyboardTransformAbsolute)> {
   static const MethodInfo* get() {
     static auto* eTrackingOrigin = &::il2cpp_utils::GetClassFromName("Valve.VR", "ETrackingUniverseOrigin")->byval_arg;
     static auto* pmatTrackingOriginToKeyboardTransform = &::il2cpp_utils::GetClassFromName("Valve.VR", "HmdMatrix34_t")->this_arg;
@@ -1183,7 +1183,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::SetKeyboardPositionForOverlay
 // Il2CppName: SetKeyboardPositionForOverlay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVROverlay::*)(uint64_t, Valve::VR::HmdRect2_t)>(&Valve::VR::CVROverlay::SetKeyboardPositionForOverlay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVROverlay::*)(uint64_t, ::Valve::VR::HmdRect2_t)>(&Valve::VR::CVROverlay::SetKeyboardPositionForOverlay)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* avoidRect = &::il2cpp_utils::GetClassFromName("Valve.VR", "HmdRect2_t")->byval_arg;
@@ -1193,7 +1193,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::SetOverlayIntersectionMask
 // Il2CppName: SetOverlayIntersectionMask
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ByRef<Valve::VR::VROverlayIntersectionMaskPrimitive_t>, uint, uint)>(&Valve::VR::CVROverlay::SetOverlayIntersectionMask)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ByRef<::Valve::VR::VROverlayIntersectionMaskPrimitive_t>, uint, uint)>(&Valve::VR::CVROverlay::SetOverlayIntersectionMask)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pMaskPrimitives = &::il2cpp_utils::GetClassFromName("Valve.VR", "VROverlayIntersectionMaskPrimitive_t")->this_arg;
@@ -1205,7 +1205,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::GetOverlayFlags
 // Il2CppName: GetOverlayFlags
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ByRef<uint>)>(&Valve::VR::CVROverlay::GetOverlayFlags)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVROverlayError (Valve::VR::CVROverlay::*)(uint64_t, ByRef<uint>)>(&Valve::VR::CVROverlay::GetOverlayFlags)> {
   static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pFlags = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
@@ -1215,7 +1215,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::ShowMessageOverlay
 // Il2CppName: ShowMessageOverlay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::VRMessageOverlayResponse (Valve::VR::CVROverlay::*)(::StringW, ::StringW, ::StringW, ::StringW, ::StringW, ::StringW)>(&Valve::VR::CVROverlay::ShowMessageOverlay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::VRMessageOverlayResponse (Valve::VR::CVROverlay::*)(::StringW, ::StringW, ::StringW, ::StringW, ::StringW, ::StringW)>(&Valve::VR::CVROverlay::ShowMessageOverlay)> {
   static const MethodInfo* get() {
     static auto* pchText = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchCaption = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

@@ -22,8 +22,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::FileCompressionHelper::$$c__DisplayClass1_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FileCompressionHelper::$$c__DisplayClass1_0*, "", "FileCompressionHelper/<>c__DisplayClass1_0");
+NEED_NO_BOX(::GlobalNamespace::FileCompressionHelper::$$c__DisplayClass1_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FileCompressionHelper::$$c__DisplayClass1_0*, "", "FileCompressionHelper/<>c__DisplayClass1_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x30
@@ -65,9 +65,9 @@ namespace GlobalNamespace {
     // public System.Action`1<System.Boolean> finishCallback
     // Size: 0x8
     // Offset: 0x28
-    System::Action_1<bool>* finishCallback;
+    ::System::Action_1<bool>* finishCallback;
     // Field size check
-    static_assert(sizeof(System::Action_1<bool>*) == 0x8);
+    static_assert(sizeof(::System::Action_1<bool>*) == 0x8);
     public:
     // Get instance field reference: public System.Boolean success
     bool& dyn_success();
@@ -76,7 +76,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String destinationDirectoryName
     ::StringW& dyn_destinationDirectoryName();
     // Get instance field reference: public System.Action`1<System.Boolean> finishCallback
-    System::Action_1<bool>*& dyn_finishCallback();
+    ::System::Action_1<bool>*& dyn_finishCallback();
     // System.Void <ExtractZipToDirectoryAsync>b__0()
     // Offset: 0x2C1D1EC
     void $ExtractZipToDirectoryAsync$b__0();
@@ -89,12 +89,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileCompressionHelper::$$c__DisplayClass1_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::FileCompressionHelper::$$c__DisplayClass1_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FileCompressionHelper::$$c__DisplayClass1_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileCompressionHelper::$$c__DisplayClass1_0*, creationType>()));
     }
   }; // FileCompressionHelper/<>c__DisplayClass1_0
   #pragma pack(pop)
-  static check_size<sizeof(FileCompressionHelper::$$c__DisplayClass1_0), 40 + sizeof(System::Action_1<bool>*)> __GlobalNamespace_FileCompressionHelper_$$c__DisplayClass1_0SizeCheck;
+  static check_size<sizeof(FileCompressionHelper::$$c__DisplayClass1_0), 40 + sizeof(::System::Action_1<bool>*)> __GlobalNamespace_FileCompressionHelper_$$c__DisplayClass1_0SizeCheck;
   static_assert(sizeof(FileCompressionHelper::$$c__DisplayClass1_0) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

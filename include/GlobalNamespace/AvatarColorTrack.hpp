@@ -18,8 +18,8 @@ namespace GlobalNamespace {
   class AvatarColorTrack;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::AvatarColorTrack);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarColorTrack*, "", "AvatarColorTrack");
+NEED_NO_BOX(::GlobalNamespace::AvatarColorTrack);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AvatarColorTrack*, "", "AvatarColorTrack");
 // Type namespace: 
 namespace GlobalNamespace {
   // WARNING Size may be invalid!
@@ -28,7 +28,7 @@ namespace GlobalNamespace {
   // [TrackClipTypeAttribute] Offset: 123833C
   // [TrackBindingTypeAttribute] Offset: 123833C
   // [TrackColorAttribute] Offset: 123833C
-  class AvatarColorTrack : public UnityEngine::Timeline::TrackAsset {
+  class AvatarColorTrack : public ::UnityEngine::Timeline::TrackAsset {
     public:
     // public System.Void .ctor()
     // Offset: 0x149266C
@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AvatarColorTrack* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AvatarColorTrack::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AvatarColorTrack::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AvatarColorTrack*, creationType>()));
     }
   }; // AvatarColorTrack

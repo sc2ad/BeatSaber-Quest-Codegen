@@ -19,8 +19,8 @@ namespace UnityEngine {
   class NativeClassAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::NativeClassAttribute);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::NativeClassAttribute*, "UnityEngine", "NativeClassAttribute");
+NEED_NO_BOX(::UnityEngine::NativeClassAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::NativeClassAttribute*, "UnityEngine", "NativeClassAttribute");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x20
@@ -29,7 +29,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [VisibleToOtherModulesAttribute] Offset: 11A1048
   // [AttributeUsageAttribute] Offset: 11A1048
-  class NativeClassAttribute : public System::Attribute {
+  class NativeClassAttribute : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -69,14 +69,14 @@ namespace UnityEngine {
     // Offset: 0x2A575F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NativeClassAttribute* New_ctor(::StringW qualifiedCppName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::NativeClassAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::NativeClassAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativeClassAttribute*, creationType>(qualifiedCppName)));
     }
     // public System.Void .ctor(System.String qualifiedCppName, System.String declaration)
     // Offset: 0x2A57668
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NativeClassAttribute* New_ctor(::StringW qualifiedCppName, ::StringW declaration) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::NativeClassAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::NativeClassAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativeClassAttribute*, creationType>(qualifiedCppName, declaration)));
     }
   }; // UnityEngine.NativeClassAttribute

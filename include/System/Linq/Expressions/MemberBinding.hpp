@@ -21,8 +21,8 @@ namespace System::Linq::Expressions {
   class MemberBinding;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Linq::Expressions::MemberBinding);
-DEFINE_IL2CPP_ARG_TYPE(System::Linq::Expressions::MemberBinding*, "System.Linq.Expressions", "MemberBinding");
+NEED_NO_BOX(::System::Linq::Expressions::MemberBinding);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::MemberBinding*, "System.Linq.Expressions", "MemberBinding");
 // Type namespace: System.Linq.Expressions
 namespace System::Linq::Expressions {
   // Size: 0x20
@@ -43,38 +43,38 @@ namespace System::Linq::Expressions {
     // private readonly System.Linq.Expressions.MemberBindingType <BindingType>k__BackingField
     // Size: 0x4
     // Offset: 0x10
-    System::Linq::Expressions::MemberBindingType BindingType;
+    ::System::Linq::Expressions::MemberBindingType BindingType;
     // Field size check
-    static_assert(sizeof(System::Linq::Expressions::MemberBindingType) == 0x4);
+    static_assert(sizeof(::System::Linq::Expressions::MemberBindingType) == 0x4);
     // Padding between fields: BindingType and: Member
     char __padding0[0x4] = {};
     // private readonly System.Reflection.MemberInfo <Member>k__BackingField
     // Size: 0x8
     // Offset: 0x18
-    System::Reflection::MemberInfo* Member;
+    ::System::Reflection::MemberInfo* Member;
     // Field size check
-    static_assert(sizeof(System::Reflection::MemberInfo*) == 0x8);
+    static_assert(sizeof(::System::Reflection::MemberInfo*) == 0x8);
     public:
     // Get instance field reference: private readonly System.Linq.Expressions.MemberBindingType <BindingType>k__BackingField
-    System::Linq::Expressions::MemberBindingType& dyn_$BindingType$k__BackingField();
+    ::System::Linq::Expressions::MemberBindingType& dyn_$BindingType$k__BackingField();
     // Get instance field reference: private readonly System.Reflection.MemberInfo <Member>k__BackingField
-    System::Reflection::MemberInfo*& dyn_$Member$k__BackingField();
+    ::System::Reflection::MemberInfo*& dyn_$Member$k__BackingField();
     // public System.Linq.Expressions.MemberBindingType get_BindingType()
     // Offset: 0x1F07F60
-    System::Linq::Expressions::MemberBindingType get_BindingType();
+    ::System::Linq::Expressions::MemberBindingType get_BindingType();
     // public System.Reflection.MemberInfo get_Member()
     // Offset: 0x1F07F68
-    System::Reflection::MemberInfo* get_Member();
+    ::System::Reflection::MemberInfo* get_Member();
   }; // System.Linq.Expressions.MemberBinding
   #pragma pack(pop)
-  static check_size<sizeof(MemberBinding), 24 + sizeof(System::Reflection::MemberInfo*)> __System_Linq_Expressions_MemberBindingSizeCheck;
+  static check_size<sizeof(MemberBinding), 24 + sizeof(::System::Reflection::MemberInfo*)> __System_Linq_Expressions_MemberBindingSizeCheck;
   static_assert(sizeof(MemberBinding) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Linq::Expressions::MemberBinding::get_BindingType
 // Il2CppName: get_BindingType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Linq::Expressions::MemberBindingType (System::Linq::Expressions::MemberBinding::*)()>(&System::Linq::Expressions::MemberBinding::get_BindingType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::MemberBindingType (System::Linq::Expressions::MemberBinding::*)()>(&System::Linq::Expressions::MemberBinding::get_BindingType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::MemberBinding*), "get_BindingType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -82,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Lin
 // Writing MetadataGetter for method: System::Linq::Expressions::MemberBinding::get_Member
 // Il2CppName: get_Member
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MemberInfo* (System::Linq::Expressions::MemberBinding::*)()>(&System::Linq::Expressions::MemberBinding::get_Member)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MemberInfo* (System::Linq::Expressions::MemberBinding::*)()>(&System::Linq::Expressions::MemberBinding::get_Member)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::MemberBinding*), "get_Member", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

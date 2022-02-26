@@ -31,8 +31,8 @@ namespace HoudiniEngineUnity {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::Test_Gradient_Extensions::$$c);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_Gradient_Extensions::$$c*, "HoudiniEngineUnity", "Test_Gradient_Extensions/<>c");
+NEED_NO_BOX(::HoudiniEngineUnity::Test_Gradient_Extensions::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::Test_Gradient_Extensions::$$c*, "HoudiniEngineUnity", "Test_Gradient_Extensions/<>c");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x10
@@ -43,33 +43,33 @@ namespace HoudiniEngineUnity {
   class Test_Gradient_Extensions::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly HoudiniEngineUnity.Test_Gradient_Extensions/HoudiniEngineUnity.<>c <>9
-    static HoudiniEngineUnity::Test_Gradient_Extensions::$$c* _get_$$9();
+    static ::HoudiniEngineUnity::Test_Gradient_Extensions::$$c* _get_$$9();
     // Set static field: static public readonly HoudiniEngineUnity.Test_Gradient_Extensions/HoudiniEngineUnity.<>c <>9
-    static void _set_$$9(HoudiniEngineUnity::Test_Gradient_Extensions::$$c* value);
+    static void _set_$$9(::HoudiniEngineUnity::Test_Gradient_Extensions::$$c* value);
     // Get static field: static public System.Converter`2<UnityEngine.Gradient,HoudiniEngineUnity.Test_Gradient> <>9__1_0
-    static System::Converter_2<UnityEngine::Gradient*, HoudiniEngineUnity::Test_Gradient*>* _get_$$9__1_0();
+    static ::System::Converter_2<::UnityEngine::Gradient*, ::HoudiniEngineUnity::Test_Gradient*>* _get_$$9__1_0();
     // Set static field: static public System.Converter`2<UnityEngine.Gradient,HoudiniEngineUnity.Test_Gradient> <>9__1_0
-    static void _set_$$9__1_0(System::Converter_2<UnityEngine::Gradient*, HoudiniEngineUnity::Test_Gradient*>* value);
+    static void _set_$$9__1_0(::System::Converter_2<::UnityEngine::Gradient*, ::HoudiniEngineUnity::Test_Gradient*>* value);
     // Get static field: static public System.Converter`2<UnityEngine.Gradient,HoudiniEngineUnity.Test_Gradient> <>9__2_0
-    static System::Converter_2<UnityEngine::Gradient*, HoudiniEngineUnity::Test_Gradient*>* _get_$$9__2_0();
+    static ::System::Converter_2<::UnityEngine::Gradient*, ::HoudiniEngineUnity::Test_Gradient*>* _get_$$9__2_0();
     // Set static field: static public System.Converter`2<UnityEngine.Gradient,HoudiniEngineUnity.Test_Gradient> <>9__2_0
-    static void _set_$$9__2_0(System::Converter_2<UnityEngine::Gradient*, HoudiniEngineUnity::Test_Gradient*>* value);
+    static void _set_$$9__2_0(::System::Converter_2<::UnityEngine::Gradient*, ::HoudiniEngineUnity::Test_Gradient*>* value);
     // static private System.Void .cctor()
     // Offset: 0x19B61B0
     static void _cctor();
     // HoudiniEngineUnity.Test_Gradient <ToTestObject>b__1_0(UnityEngine.Gradient lod)
     // Offset: 0x19B621C
-    HoudiniEngineUnity::Test_Gradient* $ToTestObject$b__1_0(UnityEngine::Gradient* lod);
+    ::HoudiniEngineUnity::Test_Gradient* $ToTestObject$b__1_0(::UnityEngine::Gradient* lod);
     // HoudiniEngineUnity.Test_Gradient <ToTestObject>b__2_0(UnityEngine.Gradient lod)
     // Offset: 0x19B6280
-    HoudiniEngineUnity::Test_Gradient* $ToTestObject$b__2_0(UnityEngine::Gradient* lod);
+    ::HoudiniEngineUnity::Test_Gradient* $ToTestObject$b__2_0(::UnityEngine::Gradient* lod);
     // public System.Void .ctor()
     // Offset: 0x19B6214
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_Gradient_Extensions::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::Test_Gradient_Extensions::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_Gradient_Extensions::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_Gradient_Extensions::$$c*, creationType>()));
     }
   }; // HoudiniEngineUnity.Test_Gradient_Extensions/HoudiniEngineUnity.<>c
@@ -87,7 +87,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: HoudiniEngineUnity::Test_Gradient_Extensions::$$c::$ToTestObject$b__1_0
 // Il2CppName: <ToTestObject>b__1_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::Test_Gradient* (HoudiniEngineUnity::Test_Gradient_Extensions::$$c::*)(UnityEngine::Gradient*)>(&HoudiniEngineUnity::Test_Gradient_Extensions::$$c::$ToTestObject$b__1_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::Test_Gradient* (HoudiniEngineUnity::Test_Gradient_Extensions::$$c::*)(::UnityEngine::Gradient*)>(&HoudiniEngineUnity::Test_Gradient_Extensions::$$c::$ToTestObject$b__1_0)> {
   static const MethodInfo* get() {
     static auto* lod = &::il2cpp_utils::GetClassFromName("UnityEngine", "Gradient")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::Test_Gradient_Extensions::$$c*), "<ToTestObject>b__1_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lod});
@@ -96,7 +96,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::Test_Gradient_Extensions::$$c::$ToTestObject$b__2_0
 // Il2CppName: <ToTestObject>b__2_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::Test_Gradient* (HoudiniEngineUnity::Test_Gradient_Extensions::$$c::*)(UnityEngine::Gradient*)>(&HoudiniEngineUnity::Test_Gradient_Extensions::$$c::$ToTestObject$b__2_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::Test_Gradient* (HoudiniEngineUnity::Test_Gradient_Extensions::$$c::*)(::UnityEngine::Gradient*)>(&HoudiniEngineUnity::Test_Gradient_Extensions::$$c::$ToTestObject$b__2_0)> {
   static const MethodInfo* get() {
     static auto* lod = &::il2cpp_utils::GetClassFromName("UnityEngine", "Gradient")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::Test_Gradient_Extensions::$$c*), "<ToTestObject>b__2_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lod});

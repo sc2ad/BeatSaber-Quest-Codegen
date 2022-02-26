@@ -24,8 +24,8 @@ namespace Mono::Math::Prime {
   class PrimalityTests;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Math::Prime::PrimalityTests);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Math::Prime::PrimalityTests*, "Mono.Math.Prime", "PrimalityTests");
+NEED_NO_BOX(::Mono::Math::Prime::PrimalityTests);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Math::Prime::PrimalityTests*, "Mono.Math.Prime", "PrimalityTests");
 // Type namespace: Mono.Math.Prime
 namespace Mono::Math::Prime {
   // Size: 0x10
@@ -36,10 +36,10 @@ namespace Mono::Math::Prime {
     public:
     // static private System.Int32 GetSPPRounds(Mono.Math.BigInteger bi, Mono.Math.Prime.ConfidenceFactor confidence)
     // Offset: 0x22C48A8
-    static int GetSPPRounds(Mono::Math::BigInteger* bi, Mono::Math::Prime::ConfidenceFactor confidence);
+    static int GetSPPRounds(::Mono::Math::BigInteger* bi, ::Mono::Math::Prime::ConfidenceFactor confidence);
     // static public System.Boolean RabinMillerTest(Mono.Math.BigInteger n, Mono.Math.Prime.ConfidenceFactor confidence)
     // Offset: 0x22C4A5C
-    static bool RabinMillerTest(Mono::Math::BigInteger* n, Mono::Math::Prime::ConfidenceFactor confidence);
+    static bool RabinMillerTest(::Mono::Math::BigInteger* n, ::Mono::Math::Prime::ConfidenceFactor confidence);
   }; // Mono.Math.Prime.PrimalityTests
   #pragma pack(pop)
 }
@@ -47,7 +47,7 @@ namespace Mono::Math::Prime {
 // Writing MetadataGetter for method: Mono::Math::Prime::PrimalityTests::GetSPPRounds
 // Il2CppName: GetSPPRounds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Mono::Math::BigInteger*, Mono::Math::Prime::ConfidenceFactor)>(&Mono::Math::Prime::PrimalityTests::GetSPPRounds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Mono::Math::BigInteger*, ::Mono::Math::Prime::ConfidenceFactor)>(&Mono::Math::Prime::PrimalityTests::GetSPPRounds)> {
   static const MethodInfo* get() {
     static auto* bi = &::il2cpp_utils::GetClassFromName("Mono.Math", "BigInteger")->byval_arg;
     static auto* confidence = &::il2cpp_utils::GetClassFromName("Mono.Math.Prime", "ConfidenceFactor")->byval_arg;
@@ -57,7 +57,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Mon
 // Writing MetadataGetter for method: Mono::Math::Prime::PrimalityTests::RabinMillerTest
 // Il2CppName: RabinMillerTest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Mono::Math::BigInteger*, Mono::Math::Prime::ConfidenceFactor)>(&Mono::Math::Prime::PrimalityTests::RabinMillerTest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Mono::Math::BigInteger*, ::Mono::Math::Prime::ConfidenceFactor)>(&Mono::Math::Prime::PrimalityTests::RabinMillerTest)> {
   static const MethodInfo* get() {
     static auto* n = &::il2cpp_utils::GetClassFromName("Mono.Math", "BigInteger")->byval_arg;
     static auto* confidence = &::il2cpp_utils::GetClassFromName("Mono.Math.Prime", "ConfidenceFactor")->byval_arg;

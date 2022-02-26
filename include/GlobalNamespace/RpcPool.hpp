@@ -36,8 +36,8 @@ namespace GlobalNamespace {
   class RpcPool;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::RpcPool);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RpcPool*, "", "RpcPool");
+NEED_NO_BOX(::GlobalNamespace::RpcPool);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::RpcPool*, "", "RpcPool");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -47,15 +47,15 @@ namespace GlobalNamespace {
   class RpcPool : public ::Il2CppObject {
     public:
     // Get static field: static private System.Collections.Generic.Dictionary`2<System.Type,IPacketPool> _pools
-    static System::Collections::Generic::Dictionary_2<System::Type*, GlobalNamespace::IPacketPool*>* _get__pools();
+    static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::GlobalNamespace::IPacketPool*>* _get__pools();
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.Type,IPacketPool> _pools
-    static void _set__pools(System::Collections::Generic::Dictionary_2<System::Type*, GlobalNamespace::IPacketPool*>* value);
+    static void _set__pools(::System::Collections::Generic::Dictionary_2<::System::Type*, ::GlobalNamespace::IPacketPool*>* value);
     // static public T Obtain()
     // Offset: 0xFFFFFFFF
     template<class T>
     static T Obtain() {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, GlobalNamespace::IRemoteProcedureCall>);
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::RpcPool::Obtain");
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::GlobalNamespace::IRemoteProcedureCall>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RpcPool::Obtain");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "RpcPool", "Obtain", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
@@ -64,15 +64,15 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     template<class T>
     static void Fill() {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, GlobalNamespace::IRemoteProcedureCall>);
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::RpcPool::Fill");
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::GlobalNamespace::IRemoteProcedureCall>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RpcPool::Fill");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "RpcPool", "Fill", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
     }
     // static public System.Void Release(IRemoteProcedureCall t)
     // Offset: 0x2E01E1C
-    static void Release(GlobalNamespace::IRemoteProcedureCall* t);
+    static void Release(::GlobalNamespace::IRemoteProcedureCall* t);
   }; // RpcPool
   #pragma pack(pop)
 }
@@ -86,7 +86,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::RpcPool::Release
 // Il2CppName: Release
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::IRemoteProcedureCall*)>(&GlobalNamespace::RpcPool::Release)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::IRemoteProcedureCall*)>(&GlobalNamespace::RpcPool::Release)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("", "IRemoteProcedureCall")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RpcPool*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});

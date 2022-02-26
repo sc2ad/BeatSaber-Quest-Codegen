@@ -22,8 +22,8 @@ namespace System::Threading {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::CompilerServices::AsyncMethodBuilderCore::$$c);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncMethodBuilderCore::$$c*, "System.Runtime.CompilerServices", "AsyncMethodBuilderCore/<>c");
+NEED_NO_BOX(::System::Runtime::CompilerServices::AsyncMethodBuilderCore::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::CompilerServices::AsyncMethodBuilderCore::$$c*, "System.Runtime.CompilerServices", "AsyncMethodBuilderCore/<>c");
 // Type namespace: System.Runtime.CompilerServices
 namespace System::Runtime::CompilerServices {
   // Size: 0x10
@@ -34,17 +34,17 @@ namespace System::Runtime::CompilerServices {
   class AsyncMethodBuilderCore::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly System.Runtime.CompilerServices.AsyncMethodBuilderCore/System.Runtime.CompilerServices.<>c <>9
-    static System::Runtime::CompilerServices::AsyncMethodBuilderCore::$$c* _get_$$9();
+    static ::System::Runtime::CompilerServices::AsyncMethodBuilderCore::$$c* _get_$$9();
     // Set static field: static public readonly System.Runtime.CompilerServices.AsyncMethodBuilderCore/System.Runtime.CompilerServices.<>c <>9
-    static void _set_$$9(System::Runtime::CompilerServices::AsyncMethodBuilderCore::$$c* value);
+    static void _set_$$9(::System::Runtime::CompilerServices::AsyncMethodBuilderCore::$$c* value);
     // Get static field: static public System.Threading.SendOrPostCallback <>9__6_0
-    static System::Threading::SendOrPostCallback* _get_$$9__6_0();
+    static ::System::Threading::SendOrPostCallback* _get_$$9__6_0();
     // Set static field: static public System.Threading.SendOrPostCallback <>9__6_0
-    static void _set_$$9__6_0(System::Threading::SendOrPostCallback* value);
+    static void _set_$$9__6_0(::System::Threading::SendOrPostCallback* value);
     // Get static field: static public System.Threading.WaitCallback <>9__6_1
-    static System::Threading::WaitCallback* _get_$$9__6_1();
+    static ::System::Threading::WaitCallback* _get_$$9__6_1();
     // Set static field: static public System.Threading.WaitCallback <>9__6_1
-    static void _set_$$9__6_1(System::Threading::WaitCallback* value);
+    static void _set_$$9__6_1(::System::Threading::WaitCallback* value);
     // static private System.Void .cctor()
     // Offset: 0x1C69A38
     static void _cctor();
@@ -60,7 +60,7 @@ namespace System::Runtime::CompilerServices {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsyncMethodBuilderCore::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::AsyncMethodBuilderCore::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::AsyncMethodBuilderCore::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsyncMethodBuilderCore::$$c*, creationType>()));
     }
   }; // System.Runtime.CompilerServices.AsyncMethodBuilderCore/System.Runtime.CompilerServices.<>c

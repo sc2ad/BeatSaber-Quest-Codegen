@@ -34,8 +34,8 @@ namespace HoudiniEngineUnity {
   class HEU_InputPreset;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_InputPreset);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_InputPreset*, "HoudiniEngineUnity", "HEU_InputPreset");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_InputPreset);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_InputPreset*, "HoudiniEngineUnity", "HEU_InputPreset");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x48
@@ -56,17 +56,17 @@ namespace HoudiniEngineUnity {
     // public HoudiniEngineUnity.HEU_InputNode/HoudiniEngineUnity.InputObjectType _inputObjectType
     // Size: 0x4
     // Offset: 0x10
-    HoudiniEngineUnity::HEU_InputNode::InputObjectType inputObjectType;
+    ::HoudiniEngineUnity::HEU_InputNode::InputObjectType inputObjectType;
     // Field size check
-    static_assert(sizeof(HoudiniEngineUnity::HEU_InputNode::InputObjectType) == 0x4);
+    static_assert(sizeof(::HoudiniEngineUnity::HEU_InputNode::InputObjectType) == 0x4);
     // Padding between fields: inputObjectType and: inputObjectPresets
     char __padding0[0x4] = {};
     // public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputObjectPreset> _inputObjectPresets
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputObjectPreset*>* inputObjectPresets;
+    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputObjectPreset*>* inputObjectPresets;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputObjectPreset*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputObjectPreset*>*) == 0x8);
     // public System.String _inputAssetName
     // Size: 0x8
     // Offset: 0x20
@@ -105,14 +105,14 @@ namespace HoudiniEngineUnity {
     // public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputAssetPreset> _inputAssetPresets
     // Size: 0x8
     // Offset: 0x40
-    System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputAssetPreset*>* inputAssetPresets;
+    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputAssetPreset*>* inputAssetPresets;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputAssetPreset*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputAssetPreset*>*) == 0x8);
     public:
     // Get instance field reference: public HoudiniEngineUnity.HEU_InputNode/HoudiniEngineUnity.InputObjectType _inputObjectType
-    HoudiniEngineUnity::HEU_InputNode::InputObjectType& dyn__inputObjectType();
+    ::HoudiniEngineUnity::HEU_InputNode::InputObjectType& dyn__inputObjectType();
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputObjectPreset> _inputObjectPresets
-    System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputObjectPreset*>*& dyn__inputObjectPresets();
+    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputObjectPreset*>*& dyn__inputObjectPresets();
     // Get instance field reference: public System.String _inputAssetName
     ::StringW& dyn__inputAssetName();
     // Get instance field reference: public System.Int32 _inputIndex
@@ -124,19 +124,19 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Boolean _packGeometryBeforeMerging
     bool& dyn__packGeometryBeforeMerging();
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputAssetPreset> _inputAssetPresets
-    System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputAssetPreset*>*& dyn__inputAssetPresets();
+    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputAssetPreset*>*& dyn__inputAssetPresets();
     // public System.Void .ctor()
     // Offset: 0x1787164
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_InputPreset* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_InputPreset::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_InputPreset::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_InputPreset*, creationType>()));
     }
   }; // HoudiniEngineUnity.HEU_InputPreset
   #pragma pack(pop)
-  static check_size<sizeof(HEU_InputPreset), 64 + sizeof(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputAssetPreset*>*)> __HoudiniEngineUnity_HEU_InputPresetSizeCheck;
+  static check_size<sizeof(HEU_InputPreset), 64 + sizeof(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputAssetPreset*>*)> __HoudiniEngineUnity_HEU_InputPresetSizeCheck;
   static_assert(sizeof(HEU_InputPreset) == 0x48);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -24,8 +24,8 @@ namespace System::Runtime::Remoting::Messaging {
   class CallContext;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Remoting::Messaging::CallContext);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CallContext*, "System.Runtime.Remoting.Messaging", "CallContext");
+NEED_NO_BOX(::System::Runtime::Remoting::Messaging::CallContext);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Messaging::CallContext*, "System.Runtime.Remoting.Messaging", "CallContext");
 // Type namespace: System.Runtime.Remoting.Messaging
 namespace System::Runtime::Remoting::Messaging {
   // Size: 0x10
@@ -37,10 +37,10 @@ namespace System::Runtime::Remoting::Messaging {
     public:
     // static System.Object SetCurrentCallContext(System.Runtime.Remoting.Messaging.LogicalCallContext ctx)
     // Offset: 0x1B8807C
-    static ::Il2CppObject* SetCurrentCallContext(System::Runtime::Remoting::Messaging::LogicalCallContext* ctx);
+    static ::Il2CppObject* SetCurrentCallContext(::System::Runtime::Remoting::Messaging::LogicalCallContext* ctx);
     // static System.Runtime.Remoting.Messaging.LogicalCallContext SetLogicalCallContext(System.Runtime.Remoting.Messaging.LogicalCallContext callCtx)
     // Offset: 0x1B88084
-    static System::Runtime::Remoting::Messaging::LogicalCallContext* SetLogicalCallContext(System::Runtime::Remoting::Messaging::LogicalCallContext* callCtx);
+    static ::System::Runtime::Remoting::Messaging::LogicalCallContext* SetLogicalCallContext(::System::Runtime::Remoting::Messaging::LogicalCallContext* callCtx);
     // static public System.Object LogicalGetData(System.String name)
     // Offset: 0x1B880CC
     static ::Il2CppObject* LogicalGetData(::StringW name);
@@ -62,7 +62,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CallContext* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::CallContext::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::Messaging::CallContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CallContext*, creationType>()));
     }
   }; // System.Runtime.Remoting.Messaging.CallContext
@@ -72,7 +72,7 @@ namespace System::Runtime::Remoting::Messaging {
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CallContext::SetCurrentCallContext
 // Il2CppName: SetCurrentCallContext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Runtime::Remoting::Messaging::LogicalCallContext*)>(&System::Runtime::Remoting::Messaging::CallContext::SetCurrentCallContext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::System::Runtime::Remoting::Messaging::LogicalCallContext*)>(&System::Runtime::Remoting::Messaging::CallContext::SetCurrentCallContext)> {
   static const MethodInfo* get() {
     static auto* ctx = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Messaging", "LogicalCallContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CallContext*), "SetCurrentCallContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ctx});
@@ -81,7 +81,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CallContext::SetLogicalCallContext
 // Il2CppName: SetLogicalCallContext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::LogicalCallContext* (*)(System::Runtime::Remoting::Messaging::LogicalCallContext*)>(&System::Runtime::Remoting::Messaging::CallContext::SetLogicalCallContext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::LogicalCallContext* (*)(::System::Runtime::Remoting::Messaging::LogicalCallContext*)>(&System::Runtime::Remoting::Messaging::CallContext::SetLogicalCallContext)> {
   static const MethodInfo* get() {
     static auto* callCtx = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Messaging", "LogicalCallContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CallContext*), "SetLogicalCallContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{callCtx});

@@ -24,8 +24,8 @@ namespace UnityEngine::ProBuilder {
   class ChangelogEntry;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::ChangelogEntry);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ChangelogEntry*, "UnityEngine.ProBuilder", "ChangelogEntry");
+NEED_NO_BOX(::UnityEngine::ProBuilder::ChangelogEntry);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::ChangelogEntry*, "UnityEngine.ProBuilder", "ChangelogEntry");
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
   // Size: 0x20
@@ -46,9 +46,9 @@ namespace UnityEngine::ProBuilder {
     // private UnityEngine.ProBuilder.SemVer m_VersionInfo
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::ProBuilder::SemVer* m_VersionInfo;
+    ::UnityEngine::ProBuilder::SemVer* m_VersionInfo;
     // Field size check
-    static_assert(sizeof(UnityEngine::ProBuilder::SemVer*) == 0x8);
+    static_assert(sizeof(::UnityEngine::ProBuilder::SemVer*) == 0x8);
     // private System.String m_ReleaseNotes
     // Size: 0x8
     // Offset: 0x18
@@ -57,20 +57,20 @@ namespace UnityEngine::ProBuilder {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.ProBuilder.SemVer m_VersionInfo
-    UnityEngine::ProBuilder::SemVer*& dyn_m_VersionInfo();
+    ::UnityEngine::ProBuilder::SemVer*& dyn_m_VersionInfo();
     // Get instance field reference: private System.String m_ReleaseNotes
     ::StringW& dyn_m_ReleaseNotes();
     // public UnityEngine.ProBuilder.SemVer get_versionInfo()
     // Offset: 0x2504A7C
-    UnityEngine::ProBuilder::SemVer* get_versionInfo();
+    ::UnityEngine::ProBuilder::SemVer* get_versionInfo();
     // public System.String get_releaseNotes()
     // Offset: 0x2504A84
     ::StringW get_releaseNotes();
     // public System.Void .ctor(UnityEngine.ProBuilder.SemVer version, System.String releaseNotes)
     // Offset: 0x2504A44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ChangelogEntry* New_ctor(UnityEngine::ProBuilder::SemVer* version, ::StringW releaseNotes) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::ChangelogEntry::.ctor");
+    static ChangelogEntry* New_ctor(::UnityEngine::ProBuilder::SemVer* version, ::StringW releaseNotes) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::ChangelogEntry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ChangelogEntry*, creationType>(version, releaseNotes)));
     }
     // public override System.String ToString()
@@ -87,7 +87,7 @@ namespace UnityEngine::ProBuilder {
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ChangelogEntry::get_versionInfo
 // Il2CppName: get_versionInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::SemVer* (UnityEngine::ProBuilder::ChangelogEntry::*)()>(&UnityEngine::ProBuilder::ChangelogEntry::get_versionInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::SemVer* (UnityEngine::ProBuilder::ChangelogEntry::*)()>(&UnityEngine::ProBuilder::ChangelogEntry::get_versionInfo)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ChangelogEntry*), "get_versionInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

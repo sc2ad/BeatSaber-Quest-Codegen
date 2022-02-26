@@ -13,8 +13,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::StandardLevelGameplayManager::InitData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelGameplayManager::InitData*, "", "StandardLevelGameplayManager/InitData");
+NEED_NO_BOX(::GlobalNamespace::StandardLevelGameplayManager::InitData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StandardLevelGameplayManager::InitData*, "", "StandardLevelGameplayManager/InitData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x11
@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     // Offset: 0x13D6EC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardLevelGameplayManager::InitData* New_ctor(bool failOn0Energy) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StandardLevelGameplayManager::InitData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::StandardLevelGameplayManager::InitData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StandardLevelGameplayManager::InitData*, creationType>(failOn0Energy)));
     }
   }; // StandardLevelGameplayManager/InitData

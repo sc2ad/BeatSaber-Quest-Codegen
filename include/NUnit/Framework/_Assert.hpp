@@ -26,8 +26,8 @@ namespace NUnit::Framework {
   class _Assert;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::_Assert);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::_Assert*, "NUnit.Framework", "Assert");
+NEED_NO_BOX(::NUnit::Framework::_Assert);
+DEFINE_IL2CPP_ARG_TYPE(::NUnit::Framework::_Assert*, "NUnit.Framework", "Assert");
 // Type namespace: NUnit.Framework
 namespace NUnit::Framework {
   // Size: 0x10
@@ -45,8 +45,8 @@ namespace NUnit::Framework {
     // static public System.Void That(TActual actual, NUnit.Framework.Constraints.IResolveConstraint expression, System.String message, params System.Object[] args)
     // Offset: 0xFFFFFFFF
     template<class TActual>
-    static void That(TActual actual, NUnit::Framework::Constraints::IResolveConstraint* expression, ::StringW message, ::ArrayW<::Il2CppObject*> args) {
-      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::_Assert::That");
+    static void That(TActual actual, ::NUnit::Framework::Constraints::IResolveConstraint* expression, ::StringW message, ::ArrayW<::Il2CppObject*> args) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::_Assert::That");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("NUnit.Framework", "Assert", "That", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TActual>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(actual), ::il2cpp_utils::ExtractType(expression), ::il2cpp_utils::ExtractType(message), ::il2cpp_utils::ExtractType(args)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TActual>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, actual, expression, message, args);

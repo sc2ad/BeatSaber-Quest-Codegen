@@ -24,8 +24,8 @@ namespace RootMotion::FinalIK {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::HitReaction::HitPointEffector::EffectorLink);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HitReaction::HitPointEffector::EffectorLink*, "RootMotion.FinalIK", "HitReaction/HitPointEffector/EffectorLink");
+NEED_NO_BOX(::RootMotion::FinalIK::HitReaction::HitPointEffector::EffectorLink);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::HitReaction::HitPointEffector::EffectorLink*, "RootMotion.FinalIK", "HitReaction/HitPointEffector/EffectorLink");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x30
@@ -47,9 +47,9 @@ namespace RootMotion::FinalIK {
     // public RootMotion.FinalIK.FullBodyBipedEffector effector
     // Size: 0x4
     // Offset: 0x10
-    RootMotion::FinalIK::FullBodyBipedEffector effector;
+    ::RootMotion::FinalIK::FullBodyBipedEffector effector;
     // Field size check
-    static_assert(sizeof(RootMotion::FinalIK::FullBodyBipedEffector) == 0x4);
+    static_assert(sizeof(::RootMotion::FinalIK::FullBodyBipedEffector) == 0x4);
     // [TooltipAttribute] Offset: 0x1269DA0
     // public System.Single weight
     // Size: 0x4
@@ -60,27 +60,27 @@ namespace RootMotion::FinalIK {
     // private UnityEngine.Vector3 lastValue
     // Size: 0xC
     // Offset: 0x18
-    UnityEngine::Vector3 lastValue;
+    ::UnityEngine::Vector3 lastValue;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // private UnityEngine.Vector3 current
     // Size: 0xC
     // Offset: 0x24
-    UnityEngine::Vector3 current;
+    ::UnityEngine::Vector3 current;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     public:
     // Get instance field reference: public RootMotion.FinalIK.FullBodyBipedEffector effector
-    RootMotion::FinalIK::FullBodyBipedEffector& dyn_effector();
+    ::RootMotion::FinalIK::FullBodyBipedEffector& dyn_effector();
     // Get instance field reference: public System.Single weight
     float& dyn_weight();
     // Get instance field reference: private UnityEngine.Vector3 lastValue
-    UnityEngine::Vector3& dyn_lastValue();
+    ::UnityEngine::Vector3& dyn_lastValue();
     // Get instance field reference: private UnityEngine.Vector3 current
-    UnityEngine::Vector3& dyn_current();
+    ::UnityEngine::Vector3& dyn_current();
     // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, UnityEngine.Vector3 offset, System.Single crossFader)
     // Offset: 0x21CA594
-    void Apply(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, UnityEngine::Vector3 offset, float crossFader);
+    void Apply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, ::UnityEngine::Vector3 offset, float crossFader);
     // public System.Void CrossFadeStart()
     // Offset: 0x21CA388
     void CrossFadeStart();
@@ -90,19 +90,19 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HitReaction::HitPointEffector::EffectorLink* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::HitReaction::HitPointEffector::EffectorLink::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::HitReaction::HitPointEffector::EffectorLink::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HitReaction::HitPointEffector::EffectorLink*, creationType>()));
     }
   }; // RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointEffector/RootMotion.FinalIK.EffectorLink
   #pragma pack(pop)
-  static check_size<sizeof(HitReaction::HitPointEffector::EffectorLink), 36 + sizeof(UnityEngine::Vector3)> __RootMotion_FinalIK_HitReaction_HitPointEffector_EffectorLinkSizeCheck;
+  static check_size<sizeof(HitReaction::HitPointEffector::EffectorLink), 36 + sizeof(::UnityEngine::Vector3)> __RootMotion_FinalIK_HitReaction_HitPointEffector_EffectorLinkSizeCheck;
   static_assert(sizeof(HitReaction::HitPointEffector::EffectorLink) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::HitReaction::HitPointEffector::EffectorLink::Apply
 // Il2CppName: Apply
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::HitReaction::HitPointEffector::EffectorLink::*)(RootMotion::FinalIK::IKSolverFullBodyBiped*, UnityEngine::Vector3, float)>(&RootMotion::FinalIK::HitReaction::HitPointEffector::EffectorLink::Apply)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::HitReaction::HitPointEffector::EffectorLink::*)(::RootMotion::FinalIK::IKSolverFullBodyBiped*, ::UnityEngine::Vector3, float)>(&RootMotion::FinalIK::HitReaction::HitPointEffector::EffectorLink::Apply)> {
   static const MethodInfo* get() {
     static auto* solver = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverFullBodyBiped")->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;

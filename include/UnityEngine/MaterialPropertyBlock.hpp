@@ -35,8 +35,8 @@ namespace UnityEngine {
   class MaterialPropertyBlock;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::MaterialPropertyBlock);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::MaterialPropertyBlock*, "UnityEngine", "MaterialPropertyBlock");
+NEED_NO_BOX(::UnityEngine::MaterialPropertyBlock);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::MaterialPropertyBlock*, "UnityEngine", "MaterialPropertyBlock");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -61,40 +61,40 @@ namespace UnityEngine {
     // System.IntPtr m_Ptr
     // Size: 0x8
     // Offset: 0x10
-    System::IntPtr m_Ptr;
+    ::System::IntPtr m_Ptr;
     // Field size check
-    static_assert(sizeof(System::IntPtr) == 0x8);
+    static_assert(sizeof(::System::IntPtr) == 0x8);
     public:
-    // Creating conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const noexcept {
+    // Creating conversion operator: operator ::System::IntPtr
+    constexpr operator ::System::IntPtr() const noexcept {
       return m_Ptr;
     }
     // Get instance field reference: System.IntPtr m_Ptr
-    System::IntPtr& dyn_m_Ptr();
+    ::System::IntPtr& dyn_m_Ptr();
     // private UnityEngine.Color GetColorImpl(System.Int32 name)
     // Offset: 0x202F04C
-    UnityEngine::Color GetColorImpl(int name);
+    ::UnityEngine::Color GetColorImpl(int name);
     // private System.Void SetFloatImpl(System.Int32 name, System.Single value)
     // Offset: 0x202F110
     void SetFloatImpl(int name, float value);
     // private System.Void SetVectorImpl(System.Int32 name, UnityEngine.Vector4 value)
     // Offset: 0x202F170
-    void SetVectorImpl(int name, UnityEngine::Vector4 value);
+    void SetVectorImpl(int name, ::UnityEngine::Vector4 value);
     // private System.Void SetColorImpl(System.Int32 name, UnityEngine.Color value)
     // Offset: 0x202F230
-    void SetColorImpl(int name, UnityEngine::Color value);
+    void SetColorImpl(int name, ::UnityEngine::Color value);
     // private System.Void SetFloatArrayImpl(System.Int32 name, System.Single[] values, System.Int32 count)
     // Offset: 0x202F2F0
     void SetFloatArrayImpl(int name, ::ArrayW<float> values, int count);
     // private System.Void SetVectorArrayImpl(System.Int32 name, UnityEngine.Vector4[] values, System.Int32 count)
     // Offset: 0x202F358
-    void SetVectorArrayImpl(int name, ::ArrayW<UnityEngine::Vector4> values, int count);
+    void SetVectorArrayImpl(int name, ::ArrayW<::UnityEngine::Vector4> values, int count);
     // static private System.IntPtr CreateImpl()
     // Offset: 0x202F3C0
-    static System::IntPtr CreateImpl();
+    static ::System::IntPtr CreateImpl();
     // static private System.Void DestroyImpl(System.IntPtr mpb)
     // Offset: 0x202F3F4
-    static void DestroyImpl(System::IntPtr mpb);
+    static void DestroyImpl(::System::IntPtr mpb);
     // private System.Void Clear(System.Boolean keepMemory)
     // Offset: 0x202F434
     void Clear(bool keepMemory);
@@ -106,7 +106,7 @@ namespace UnityEngine {
     void SetFloatArray(int name, ::ArrayW<float> values, int count);
     // private System.Void SetVectorArray(System.Int32 name, UnityEngine.Vector4[] values, System.Int32 count)
     // Offset: 0x202F5EC
-    void SetVectorArray(int name, ::ArrayW<UnityEngine::Vector4> values, int count);
+    void SetVectorArray(int name, ::ArrayW<::UnityEngine::Vector4> values, int count);
     // private System.Void Dispose()
     // Offset: 0x202F7C4
     void Dispose();
@@ -118,38 +118,38 @@ namespace UnityEngine {
     void SetInt(int nameID, int value);
     // public System.Void SetVector(System.Int32 nameID, UnityEngine.Vector4 value)
     // Offset: 0x202F938
-    void SetVector(int nameID, UnityEngine::Vector4 value);
+    void SetVector(int nameID, ::UnityEngine::Vector4 value);
     // public System.Void SetColor(System.String name, UnityEngine.Color value)
     // Offset: 0x202F93C
-    void SetColor(::StringW name, UnityEngine::Color value);
+    void SetColor(::StringW name, ::UnityEngine::Color value);
     // public System.Void SetColor(System.Int32 nameID, UnityEngine.Color value)
     // Offset: 0x202F99C
-    void SetColor(int nameID, UnityEngine::Color value);
+    void SetColor(int nameID, ::UnityEngine::Color value);
     // public System.Void SetFloatArray(System.Int32 nameID, System.Collections.Generic.List`1<System.Single> values)
     // Offset: 0x202F9A0
-    void SetFloatArray(int nameID, System::Collections::Generic::List_1<float>* values);
+    void SetFloatArray(int nameID, ::System::Collections::Generic::List_1<float>* values);
     // public System.Void SetVectorArray(System.Int32 nameID, UnityEngine.Vector4[] values)
     // Offset: 0x202FA1C
-    void SetVectorArray(int nameID, ::ArrayW<UnityEngine::Vector4> values);
+    void SetVectorArray(int nameID, ::ArrayW<::UnityEngine::Vector4> values);
     // public UnityEngine.Color GetColor(System.Int32 nameID)
     // Offset: 0x202FA34
-    UnityEngine::Color GetColor(int nameID);
+    ::UnityEngine::Color GetColor(int nameID);
     // private System.Void GetColorImpl_Injected(System.Int32 name, out UnityEngine.Color ret)
     // Offset: 0x202F0B8
-    void GetColorImpl_Injected(int name, ByRef<UnityEngine::Color> ret);
+    void GetColorImpl_Injected(int name, ByRef<::UnityEngine::Color> ret);
     // private System.Void SetVectorImpl_Injected(System.Int32 name, ref UnityEngine.Vector4 value)
     // Offset: 0x202F1D8
-    void SetVectorImpl_Injected(int name, ByRef<UnityEngine::Vector4> value);
+    void SetVectorImpl_Injected(int name, ByRef<::UnityEngine::Vector4> value);
     // private System.Void SetColorImpl_Injected(System.Int32 name, ref UnityEngine.Color value)
     // Offset: 0x202F298
-    void SetColorImpl_Injected(int name, ByRef<UnityEngine::Color> value);
+    void SetColorImpl_Injected(int name, ByRef<::UnityEngine::Color> value);
     // public System.Void .ctor()
     // Offset: 0x202F710
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MaterialPropertyBlock* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::MaterialPropertyBlock::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::MaterialPropertyBlock::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MaterialPropertyBlock*, creationType>()));
     }
     // protected override System.Void Finalize()
@@ -159,14 +159,14 @@ namespace UnityEngine {
     void Finalize();
   }; // UnityEngine.MaterialPropertyBlock
   #pragma pack(pop)
-  static check_size<sizeof(MaterialPropertyBlock), 16 + sizeof(System::IntPtr)> __UnityEngine_MaterialPropertyBlockSizeCheck;
+  static check_size<sizeof(MaterialPropertyBlock), 16 + sizeof(::System::IntPtr)> __UnityEngine_MaterialPropertyBlockSizeCheck;
   static_assert(sizeof(MaterialPropertyBlock) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::MaterialPropertyBlock::GetColorImpl
 // Il2CppName: GetColorImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (UnityEngine::MaterialPropertyBlock::*)(int)>(&UnityEngine::MaterialPropertyBlock::GetColorImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (UnityEngine::MaterialPropertyBlock::*)(int)>(&UnityEngine::MaterialPropertyBlock::GetColorImpl)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::MaterialPropertyBlock*), "GetColorImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -185,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::MaterialPropertyBlock::SetVectorImpl
 // Il2CppName: SetVectorImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::MaterialPropertyBlock::*)(int, UnityEngine::Vector4)>(&UnityEngine::MaterialPropertyBlock::SetVectorImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::MaterialPropertyBlock::*)(int, ::UnityEngine::Vector4)>(&UnityEngine::MaterialPropertyBlock::SetVectorImpl)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->byval_arg;
@@ -195,7 +195,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::MaterialPropertyBlock::SetColorImpl
 // Il2CppName: SetColorImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::MaterialPropertyBlock::*)(int, UnityEngine::Color)>(&UnityEngine::MaterialPropertyBlock::SetColorImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::MaterialPropertyBlock::*)(int, ::UnityEngine::Color)>(&UnityEngine::MaterialPropertyBlock::SetColorImpl)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
@@ -216,7 +216,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::MaterialPropertyBlock::SetVectorArrayImpl
 // Il2CppName: SetVectorArrayImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::MaterialPropertyBlock::*)(int, ::ArrayW<UnityEngine::Vector4>, int)>(&UnityEngine::MaterialPropertyBlock::SetVectorArrayImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::MaterialPropertyBlock::*)(int, ::ArrayW<::UnityEngine::Vector4>, int)>(&UnityEngine::MaterialPropertyBlock::SetVectorArrayImpl)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4"), 1)->byval_arg;
@@ -227,7 +227,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::MaterialPropertyBlock::CreateImpl
 // Il2CppName: CreateImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&UnityEngine::MaterialPropertyBlock::CreateImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&UnityEngine::MaterialPropertyBlock::CreateImpl)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::MaterialPropertyBlock*), "CreateImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -235,7 +235,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::MaterialPropertyBlock::DestroyImpl
 // Il2CppName: DestroyImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&UnityEngine::MaterialPropertyBlock::DestroyImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&UnityEngine::MaterialPropertyBlock::DestroyImpl)> {
   static const MethodInfo* get() {
     static auto* mpb = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::MaterialPropertyBlock*), "DestroyImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mpb});
@@ -272,7 +272,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::MaterialPropertyBlock::SetVectorArray
 // Il2CppName: SetVectorArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::MaterialPropertyBlock::*)(int, ::ArrayW<UnityEngine::Vector4>, int)>(&UnityEngine::MaterialPropertyBlock::SetVectorArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::MaterialPropertyBlock::*)(int, ::ArrayW<::UnityEngine::Vector4>, int)>(&UnityEngine::MaterialPropertyBlock::SetVectorArray)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4"), 1)->byval_arg;
@@ -311,7 +311,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::MaterialPropertyBlock::SetVector
 // Il2CppName: SetVector
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::MaterialPropertyBlock::*)(int, UnityEngine::Vector4)>(&UnityEngine::MaterialPropertyBlock::SetVector)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::MaterialPropertyBlock::*)(int, ::UnityEngine::Vector4)>(&UnityEngine::MaterialPropertyBlock::SetVector)> {
   static const MethodInfo* get() {
     static auto* nameID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->byval_arg;
@@ -321,7 +321,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::MaterialPropertyBlock::SetColor
 // Il2CppName: SetColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::MaterialPropertyBlock::*)(::StringW, UnityEngine::Color)>(&UnityEngine::MaterialPropertyBlock::SetColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::MaterialPropertyBlock::*)(::StringW, ::UnityEngine::Color)>(&UnityEngine::MaterialPropertyBlock::SetColor)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
@@ -331,7 +331,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::MaterialPropertyBlock::SetColor
 // Il2CppName: SetColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::MaterialPropertyBlock::*)(int, UnityEngine::Color)>(&UnityEngine::MaterialPropertyBlock::SetColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::MaterialPropertyBlock::*)(int, ::UnityEngine::Color)>(&UnityEngine::MaterialPropertyBlock::SetColor)> {
   static const MethodInfo* get() {
     static auto* nameID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
@@ -341,7 +341,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::MaterialPropertyBlock::SetFloatArray
 // Il2CppName: SetFloatArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::MaterialPropertyBlock::*)(int, System::Collections::Generic::List_1<float>*)>(&UnityEngine::MaterialPropertyBlock::SetFloatArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::MaterialPropertyBlock::*)(int, ::System::Collections::Generic::List_1<float>*)>(&UnityEngine::MaterialPropertyBlock::SetFloatArray)> {
   static const MethodInfo* get() {
     static auto* nameID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* values = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
@@ -351,7 +351,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::MaterialPropertyBlock::SetVectorArray
 // Il2CppName: SetVectorArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::MaterialPropertyBlock::*)(int, ::ArrayW<UnityEngine::Vector4>)>(&UnityEngine::MaterialPropertyBlock::SetVectorArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::MaterialPropertyBlock::*)(int, ::ArrayW<::UnityEngine::Vector4>)>(&UnityEngine::MaterialPropertyBlock::SetVectorArray)> {
   static const MethodInfo* get() {
     static auto* nameID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4"), 1)->byval_arg;
@@ -361,7 +361,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::MaterialPropertyBlock::GetColor
 // Il2CppName: GetColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (UnityEngine::MaterialPropertyBlock::*)(int)>(&UnityEngine::MaterialPropertyBlock::GetColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (UnityEngine::MaterialPropertyBlock::*)(int)>(&UnityEngine::MaterialPropertyBlock::GetColor)> {
   static const MethodInfo* get() {
     static auto* nameID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::MaterialPropertyBlock*), "GetColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nameID});
@@ -370,7 +370,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::MaterialPropertyBlock::GetColorImpl_Injected
 // Il2CppName: GetColorImpl_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::MaterialPropertyBlock::*)(int, ByRef<UnityEngine::Color>)>(&UnityEngine::MaterialPropertyBlock::GetColorImpl_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::MaterialPropertyBlock::*)(int, ByRef<::UnityEngine::Color>)>(&UnityEngine::MaterialPropertyBlock::GetColorImpl_Injected)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->this_arg;
@@ -380,7 +380,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::MaterialPropertyBlock::SetVectorImpl_Injected
 // Il2CppName: SetVectorImpl_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::MaterialPropertyBlock::*)(int, ByRef<UnityEngine::Vector4>)>(&UnityEngine::MaterialPropertyBlock::SetVectorImpl_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::MaterialPropertyBlock::*)(int, ByRef<::UnityEngine::Vector4>)>(&UnityEngine::MaterialPropertyBlock::SetVectorImpl_Injected)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->this_arg;
@@ -390,7 +390,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::MaterialPropertyBlock::SetColorImpl_Injected
 // Il2CppName: SetColorImpl_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::MaterialPropertyBlock::*)(int, ByRef<UnityEngine::Color>)>(&UnityEngine::MaterialPropertyBlock::SetColorImpl_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::MaterialPropertyBlock::*)(int, ByRef<::UnityEngine::Color>)>(&UnityEngine::MaterialPropertyBlock::SetColorImpl_Injected)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->this_arg;

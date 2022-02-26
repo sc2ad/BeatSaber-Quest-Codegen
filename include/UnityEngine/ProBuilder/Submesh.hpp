@@ -40,8 +40,8 @@ namespace UnityEngine::ProBuilder {
   class Submesh;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::Submesh);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Submesh*, "UnityEngine.ProBuilder", "Submesh");
+NEED_NO_BOX(::UnityEngine::ProBuilder::Submesh);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Submesh*, "UnityEngine.ProBuilder", "Submesh");
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
   // Size: 0x20
@@ -68,9 +68,9 @@ namespace UnityEngine::ProBuilder {
     // UnityEngine.MeshTopology m_Topology
     // Size: 0x4
     // Offset: 0x18
-    UnityEngine::MeshTopology m_Topology;
+    ::UnityEngine::MeshTopology m_Topology;
     // Field size check
-    static_assert(sizeof(UnityEngine::MeshTopology) == 0x4);
+    static_assert(sizeof(::UnityEngine::MeshTopology) == 0x4);
     // System.Int32 m_SubmeshIndex
     // Size: 0x4
     // Offset: 0x1C
@@ -81,21 +81,21 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: System.Int32[] m_Indexes
     ::ArrayW<int>& dyn_m_Indexes();
     // Get instance field reference: UnityEngine.MeshTopology m_Topology
-    UnityEngine::MeshTopology& dyn_m_Topology();
+    ::UnityEngine::MeshTopology& dyn_m_Topology();
     // Get instance field reference: System.Int32 m_SubmeshIndex
     int& dyn_m_SubmeshIndex();
     // public System.Collections.Generic.IEnumerable`1<System.Int32> get_indexes()
     // Offset: 0x28C69C0
-    System::Collections::Generic::IEnumerable_1<int>* get_indexes();
+    ::System::Collections::Generic::IEnumerable_1<int>* get_indexes();
     // public System.Void set_indexes(System.Collections.Generic.IEnumerable`1<System.Int32> value)
     // Offset: 0x28C6A30
-    void set_indexes(System::Collections::Generic::IEnumerable_1<int>* value);
+    void set_indexes(::System::Collections::Generic::IEnumerable_1<int>* value);
     // public UnityEngine.MeshTopology get_topology()
     // Offset: 0x28C6A94
-    UnityEngine::MeshTopology get_topology();
+    ::UnityEngine::MeshTopology get_topology();
     // public System.Void set_topology(UnityEngine.MeshTopology value)
     // Offset: 0x28C6A9C
-    void set_topology(UnityEngine::MeshTopology value);
+    void set_topology(::UnityEngine::MeshTopology value);
     // public System.Int32 get_submeshIndex()
     // Offset: 0x28C6AA4
     int get_submeshIndex();
@@ -105,26 +105,26 @@ namespace UnityEngine::ProBuilder {
     // public System.Void .ctor(System.Int32 submeshIndex, UnityEngine.MeshTopology topology, System.Collections.Generic.IEnumerable`1<System.Int32> indexes)
     // Offset: 0x28C6AB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Submesh* New_ctor(int submeshIndex, UnityEngine::MeshTopology topology, System::Collections::Generic::IEnumerable_1<int>* indexes) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Submesh::.ctor");
+    static Submesh* New_ctor(int submeshIndex, ::UnityEngine::MeshTopology topology, ::System::Collections::Generic::IEnumerable_1<int>* indexes) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::Submesh::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Submesh*, creationType>(submeshIndex, topology, indexes)));
     }
     // public System.Void .ctor(UnityEngine.Mesh mesh, System.Int32 subMeshIndex)
     // Offset: 0x28C6B78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Submesh* New_ctor(UnityEngine::Mesh* mesh, int subMeshIndex) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Submesh::.ctor");
+    static Submesh* New_ctor(::UnityEngine::Mesh* mesh, int subMeshIndex) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::Submesh::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Submesh*, creationType>(mesh, subMeshIndex)));
     }
     // static System.Int32 GetSubmeshCount(UnityEngine.ProBuilder.ProBuilderMesh mesh)
     // Offset: 0x28C6D78
-    static int GetSubmeshCount(UnityEngine::ProBuilder::ProBuilderMesh* mesh);
+    static int GetSubmeshCount(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
     // static public UnityEngine.ProBuilder.Submesh[] GetSubmeshes(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces, System.Int32 submeshCount, UnityEngine.MeshTopology preferredTopology)
     // Offset: 0x28C6DFC
-    static ::ArrayW<UnityEngine::ProBuilder::Submesh*> GetSubmeshes(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces, int submeshCount, UnityEngine::MeshTopology preferredTopology);
+    static ::ArrayW<::UnityEngine::ProBuilder::Submesh*> GetSubmeshes(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces, int submeshCount, ::UnityEngine::MeshTopology preferredTopology);
     // static System.Void MapFaceMaterialsToSubmeshIndex(UnityEngine.ProBuilder.ProBuilderMesh mesh)
     // Offset: 0x28C7704
-    static void MapFaceMaterialsToSubmeshIndex(UnityEngine::ProBuilder::ProBuilderMesh* mesh);
+    static void MapFaceMaterialsToSubmeshIndex(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
     // public override System.String ToString()
     // Offset: 0x28C6C74
     // Implemented from: System.Object
@@ -139,7 +139,7 @@ namespace UnityEngine::ProBuilder {
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Submesh::get_indexes
 // Il2CppName: get_indexes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<int>* (UnityEngine::ProBuilder::Submesh::*)()>(&UnityEngine::ProBuilder::Submesh::get_indexes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<int>* (UnityEngine::ProBuilder::Submesh::*)()>(&UnityEngine::ProBuilder::Submesh::get_indexes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Submesh*), "get_indexes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -147,7 +147,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Submesh::set_indexes
 // Il2CppName: set_indexes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Submesh::*)(System::Collections::Generic::IEnumerable_1<int>*)>(&UnityEngine::ProBuilder::Submesh::set_indexes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Submesh::*)(::System::Collections::Generic::IEnumerable_1<int>*)>(&UnityEngine::ProBuilder::Submesh::set_indexes)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Submesh*), "set_indexes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -156,7 +156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Submesh::get_topology
 // Il2CppName: get_topology
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::MeshTopology (UnityEngine::ProBuilder::Submesh::*)()>(&UnityEngine::ProBuilder::Submesh::get_topology)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::MeshTopology (UnityEngine::ProBuilder::Submesh::*)()>(&UnityEngine::ProBuilder::Submesh::get_topology)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Submesh*), "get_topology", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -164,7 +164,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Submesh::set_topology
 // Il2CppName: set_topology
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Submesh::*)(UnityEngine::MeshTopology)>(&UnityEngine::ProBuilder::Submesh::set_topology)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Submesh::*)(::UnityEngine::MeshTopology)>(&UnityEngine::ProBuilder::Submesh::set_topology)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "MeshTopology")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Submesh*), "set_topology", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -198,7 +198,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Submesh::GetSubmeshCount
 // Il2CppName: GetSubmeshCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::ProBuilder::ProBuilderMesh*)>(&UnityEngine::ProBuilder::Submesh::GetSubmeshCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::UnityEngine::ProBuilder::ProBuilderMesh*)>(&UnityEngine::ProBuilder::Submesh::GetSubmeshCount)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Submesh*), "GetSubmeshCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mesh});
@@ -207,7 +207,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Submesh::GetSubmeshes
 // Il2CppName: GetSubmeshes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::ProBuilder::Submesh*> (*)(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>*, int, UnityEngine::MeshTopology)>(&UnityEngine::ProBuilder::Submesh::GetSubmeshes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::ProBuilder::Submesh*> (*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*, int, ::UnityEngine::MeshTopology)>(&UnityEngine::ProBuilder::Submesh::GetSubmeshes)> {
   static const MethodInfo* get() {
     static auto* faces = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face")})->byval_arg;
     static auto* submeshCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -218,7 +218,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Submesh::MapFaceMaterialsToSubmeshIndex
 // Il2CppName: MapFaceMaterialsToSubmeshIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*)>(&UnityEngine::ProBuilder::Submesh::MapFaceMaterialsToSubmeshIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*)>(&UnityEngine::ProBuilder::Submesh::MapFaceMaterialsToSubmeshIndex)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Submesh*), "MapFaceMaterialsToSubmeshIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mesh});

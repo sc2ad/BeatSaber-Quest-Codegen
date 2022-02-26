@@ -24,8 +24,8 @@ namespace UnityEngine {
   class GUIContent;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::GUIContent);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUIContent*, "UnityEngine", "GUIContent");
+NEED_NO_BOX(::UnityEngine::GUIContent);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::GUIContent*, "UnityEngine", "GUIContent");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x28
@@ -55,9 +55,9 @@ namespace UnityEngine {
     // private UnityEngine.Texture m_Image
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::Texture* m_Image;
+    ::UnityEngine::Texture* m_Image;
     // Field size check
-    static_assert(sizeof(UnityEngine::Texture*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Texture*) == 0x8);
     // private System.String m_Tooltip
     // Size: 0x8
     // Offset: 0x20
@@ -66,25 +66,25 @@ namespace UnityEngine {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get static field: static private readonly UnityEngine.GUIContent s_Text
-    static UnityEngine::GUIContent* _get_s_Text();
+    static ::UnityEngine::GUIContent* _get_s_Text();
     // Set static field: static private readonly UnityEngine.GUIContent s_Text
-    static void _set_s_Text(UnityEngine::GUIContent* value);
+    static void _set_s_Text(::UnityEngine::GUIContent* value);
     // Get static field: static private readonly UnityEngine.GUIContent s_Image
-    static UnityEngine::GUIContent* _get_s_Image();
+    static ::UnityEngine::GUIContent* _get_s_Image();
     // Set static field: static private readonly UnityEngine.GUIContent s_Image
-    static void _set_s_Image(UnityEngine::GUIContent* value);
+    static void _set_s_Image(::UnityEngine::GUIContent* value);
     // Get static field: static private readonly UnityEngine.GUIContent s_TextImage
-    static UnityEngine::GUIContent* _get_s_TextImage();
+    static ::UnityEngine::GUIContent* _get_s_TextImage();
     // Set static field: static private readonly UnityEngine.GUIContent s_TextImage
-    static void _set_s_TextImage(UnityEngine::GUIContent* value);
+    static void _set_s_TextImage(::UnityEngine::GUIContent* value);
     // Get static field: static public UnityEngine.GUIContent none
-    static UnityEngine::GUIContent* _get_none();
+    static ::UnityEngine::GUIContent* _get_none();
     // Set static field: static public UnityEngine.GUIContent none
-    static void _set_none(UnityEngine::GUIContent* value);
+    static void _set_none(::UnityEngine::GUIContent* value);
     // Get instance field reference: private System.String m_Text
     ::StringW& dyn_m_Text();
     // Get instance field reference: private UnityEngine.Texture m_Image
-    UnityEngine::Texture*& dyn_m_Image();
+    ::UnityEngine::Texture*& dyn_m_Image();
     // Get instance field reference: private System.String m_Tooltip
     ::StringW& dyn_m_Tooltip();
     // public System.String get_text()
@@ -95,7 +95,7 @@ namespace UnityEngine {
     void set_text(::StringW value);
     // public System.Void set_image(UnityEngine.Texture value)
     // Offset: 0x1F5C264
-    void set_image(UnityEngine::Texture* value);
+    void set_image(::UnityEngine::Texture* value);
     // public System.String get_tooltip()
     // Offset: 0x1F583B0
     ::StringW get_tooltip();
@@ -106,21 +106,21 @@ namespace UnityEngine {
     // Offset: 0x1F5C2E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GUIContent* New_ctor(::StringW text) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::GUIContent::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::GUIContent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GUIContent*, creationType>(text)));
     }
     // public System.Void .ctor(System.String text, UnityEngine.Texture image, System.String tooltip)
     // Offset: 0x1F5C34C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static GUIContent* New_ctor(::StringW text, UnityEngine::Texture* image, ::StringW tooltip) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::GUIContent::.ctor");
+    static GUIContent* New_ctor(::StringW text, ::UnityEngine::Texture* image, ::StringW tooltip) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::GUIContent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GUIContent*, creationType>(text, image, tooltip)));
     }
     // public System.Void .ctor(UnityEngine.GUIContent src)
     // Offset: 0x1F5C3E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static GUIContent* New_ctor(UnityEngine::GUIContent* src) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::GUIContent::.ctor");
+    static GUIContent* New_ctor(::UnityEngine::GUIContent* src) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::GUIContent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GUIContent*, creationType>(src)));
     }
     // static private System.Void .cctor()
@@ -128,10 +128,10 @@ namespace UnityEngine {
     static void _cctor();
     // static UnityEngine.GUIContent Temp(System.String t)
     // Offset: 0x1F5C47C
-    static UnityEngine::GUIContent* Temp(::StringW t);
+    static ::UnityEngine::GUIContent* Temp(::StringW t);
     // static UnityEngine.GUIContent Temp(UnityEngine.Texture i)
     // Offset: 0x1F5C520
-    static UnityEngine::GUIContent* Temp(UnityEngine::Texture* i);
+    static ::UnityEngine::GUIContent* Temp(::UnityEngine::Texture* i);
     // static System.Void ClearStaticCache()
     // Offset: 0x1F5C5C4
     static void ClearStaticCache();
@@ -141,7 +141,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GUIContent* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::GUIContent::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::GUIContent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GUIContent*, creationType>()));
     }
   }; // UnityEngine.GUIContent
@@ -170,7 +170,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GUIContent::set_image
 // Il2CppName: set_image
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIContent::*)(UnityEngine::Texture*)>(&UnityEngine::GUIContent::set_image)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIContent::*)(::UnityEngine::Texture*)>(&UnityEngine::GUIContent::set_image)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIContent*), "set_image", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -216,7 +216,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::GUIContent::Temp
 // Il2CppName: Temp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIContent* (*)(::StringW)>(&UnityEngine::GUIContent::Temp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GUIContent* (*)(::StringW)>(&UnityEngine::GUIContent::Temp)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIContent*), "Temp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
@@ -225,7 +225,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::GUIContent::Temp
 // Il2CppName: Temp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIContent* (*)(UnityEngine::Texture*)>(&UnityEngine::GUIContent::Temp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GUIContent* (*)(::UnityEngine::Texture*)>(&UnityEngine::GUIContent::Temp)> {
   static const MethodInfo* get() {
     static auto* i = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIContent*), "Temp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{i});

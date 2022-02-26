@@ -11,8 +11,8 @@ namespace Zenject {
   class IInstaller;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::IInstaller);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::IInstaller*, "Zenject", "IInstaller");
+NEED_NO_BOX(::Zenject::IInstaller);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::IInstaller*, "Zenject", "IInstaller");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x10

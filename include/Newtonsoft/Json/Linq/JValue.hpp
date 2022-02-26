@@ -61,8 +61,8 @@ namespace Newtonsoft::Json::Linq {
   class JValue;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Linq::JValue);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Linq::JValue*, "Newtonsoft.Json.Linq", "JValue");
+NEED_NO_BOX(::Newtonsoft::Json::Linq::JValue);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Linq::JValue*, "Newtonsoft.Json.Linq", "JValue");
 // Type namespace: Newtonsoft.Json.Linq
 namespace Newtonsoft::Json::Linq {
   // Size: 0x40
@@ -71,9 +71,9 @@ namespace Newtonsoft::Json::Linq {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NullableAttribute] Offset: 12033F4
   // [NullableContextAttribute] Offset: 12033F4
-  class JValue : public Newtonsoft::Json::Linq::JToken/*, public System::IEquatable_1<Newtonsoft::Json::Linq::JValue*>, public System::IComparable_1<Newtonsoft::Json::Linq::JValue*>, public System::IConvertible, public System::IFormattable, public System::IComparable*/ {
+  class JValue : public ::Newtonsoft::Json::Linq::JToken/*, public ::System::IEquatable_1<::Newtonsoft::Json::Linq::JValue*>, public ::System::IComparable_1<::Newtonsoft::Json::Linq::JValue*>, public ::System::IConvertible, public ::System::IFormattable, public ::System::IComparable*/ {
     public:
-    // Nested type: Newtonsoft::Json::Linq::JValue::JValueDynamicProxy
+    // Nested type: ::Newtonsoft::Json::Linq::JValue::JValueDynamicProxy
     class JValueDynamicProxy;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -87,9 +87,9 @@ namespace Newtonsoft::Json::Linq {
     // private Newtonsoft.Json.Linq.JTokenType _valueType
     // Size: 0x4
     // Offset: 0x30
-    Newtonsoft::Json::Linq::JTokenType valueType;
+    ::Newtonsoft::Json::Linq::JTokenType valueType;
     // Field size check
-    static_assert(sizeof(Newtonsoft::Json::Linq::JTokenType) == 0x4);
+    static_assert(sizeof(::Newtonsoft::Json::Linq::JTokenType) == 0x4);
     // Padding between fields: valueType and: value
     char __padding0[0x4] = {};
     // [NullableAttribute] Offset: 0x12070A8
@@ -100,28 +100,28 @@ namespace Newtonsoft::Json::Linq {
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     public:
-    // Creating interface conversion operator: operator System::IEquatable_1<Newtonsoft::Json::Linq::JValue*>
-    operator System::IEquatable_1<Newtonsoft::Json::Linq::JValue*>() noexcept {
-      return *reinterpret_cast<System::IEquatable_1<Newtonsoft::Json::Linq::JValue*>*>(this);
+    // Creating interface conversion operator: operator ::System::IEquatable_1<::Newtonsoft::Json::Linq::JValue*>
+    operator ::System::IEquatable_1<::Newtonsoft::Json::Linq::JValue*>() noexcept {
+      return *reinterpret_cast<::System::IEquatable_1<::Newtonsoft::Json::Linq::JValue*>*>(this);
     }
-    // Creating interface conversion operator: operator System::IComparable_1<Newtonsoft::Json::Linq::JValue*>
-    operator System::IComparable_1<Newtonsoft::Json::Linq::JValue*>() noexcept {
-      return *reinterpret_cast<System::IComparable_1<Newtonsoft::Json::Linq::JValue*>*>(this);
+    // Creating interface conversion operator: operator ::System::IComparable_1<::Newtonsoft::Json::Linq::JValue*>
+    operator ::System::IComparable_1<::Newtonsoft::Json::Linq::JValue*>() noexcept {
+      return *reinterpret_cast<::System::IComparable_1<::Newtonsoft::Json::Linq::JValue*>*>(this);
     }
-    // Creating interface conversion operator: operator System::IConvertible
-    operator System::IConvertible() noexcept {
-      return *reinterpret_cast<System::IConvertible*>(this);
+    // Creating interface conversion operator: operator ::System::IConvertible
+    operator ::System::IConvertible() noexcept {
+      return *reinterpret_cast<::System::IConvertible*>(this);
     }
-    // Creating interface conversion operator: operator System::IFormattable
-    operator System::IFormattable() noexcept {
-      return *reinterpret_cast<System::IFormattable*>(this);
+    // Creating interface conversion operator: operator ::System::IFormattable
+    operator ::System::IFormattable() noexcept {
+      return *reinterpret_cast<::System::IFormattable*>(this);
     }
-    // Creating interface conversion operator: operator System::IComparable
-    operator System::IComparable() noexcept {
-      return *reinterpret_cast<System::IComparable*>(this);
+    // Creating interface conversion operator: operator ::System::IComparable
+    operator ::System::IComparable() noexcept {
+      return *reinterpret_cast<::System::IComparable*>(this);
     }
     // Get instance field reference: private Newtonsoft.Json.Linq.JTokenType _valueType
-    Newtonsoft::Json::Linq::JTokenType& dyn__valueType();
+    ::Newtonsoft::Json::Linq::JTokenType& dyn__valueType();
     // Get instance field reference: private System.Object _value
     ::Il2CppObject*& dyn__value();
     // public System.Object get_Value()
@@ -130,114 +130,114 @@ namespace Newtonsoft::Json::Linq {
     // System.Void .ctor(System.Object value, Newtonsoft.Json.Linq.JTokenType type)
     // Offset: 0x151FD28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static JValue* New_ctor(::Il2CppObject* value, Newtonsoft::Json::Linq::JTokenType type) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Linq::JValue::.ctor");
+    static JValue* New_ctor(::Il2CppObject* value, ::Newtonsoft::Json::Linq::JTokenType type) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Linq::JValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JValue*, creationType>(value, type)));
     }
     // public System.Void .ctor(Newtonsoft.Json.Linq.JValue other)
     // Offset: 0x151FDAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static JValue* New_ctor(Newtonsoft::Json::Linq::JValue* other) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Linq::JValue::.ctor");
+    static JValue* New_ctor(::Newtonsoft::Json::Linq::JValue* other) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Linq::JValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JValue*, creationType>(other)));
     }
     // public System.Void .ctor(System.Object value)
     // Offset: 0x151EDA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JValue* New_ctor(::Il2CppObject* value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Linq::JValue::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Linq::JValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JValue*, creationType>(value)));
     }
     // static private System.Int32 CompareBigInteger(System.Numerics.BigInteger i1, System.Object i2)
     // Offset: 0x1520204
-    static int CompareBigInteger(System::Numerics::BigInteger i1, ::Il2CppObject* i2);
+    static int CompareBigInteger(::System::Numerics::BigInteger i1, ::Il2CppObject* i2);
     // static System.Int32 Compare(Newtonsoft.Json.Linq.JTokenType valueType, System.Object objA, System.Object objB)
     // Offset: 0x152044C
-    static int Compare(Newtonsoft::Json::Linq::JTokenType valueType, ::Il2CppObject* objA, ::Il2CppObject* objB);
+    static int Compare(::Newtonsoft::Json::Linq::JTokenType valueType, ::Il2CppObject* objA, ::Il2CppObject* objB);
     // static private System.Int32 CompareFloat(System.Object objA, System.Object objB)
     // Offset: 0x1520DC4
     static int CompareFloat(::Il2CppObject* objA, ::Il2CppObject* objB);
     // static public Newtonsoft.Json.Linq.JValue CreateComment(System.String value)
     // Offset: 0x151F080
-    static Newtonsoft::Json::Linq::JValue* CreateComment(::StringW value);
+    static ::Newtonsoft::Json::Linq::JValue* CreateComment(::StringW value);
     // static public Newtonsoft.Json.Linq.JValue CreateNull()
     // Offset: 0x151EE6C
-    static Newtonsoft::Json::Linq::JValue* CreateNull();
+    static ::Newtonsoft::Json::Linq::JValue* CreateNull();
     // static public Newtonsoft.Json.Linq.JValue CreateUndefined()
     // Offset: 0x1520F2C
-    static Newtonsoft::Json::Linq::JValue* CreateUndefined();
+    static ::Newtonsoft::Json::Linq::JValue* CreateUndefined();
     // static private Newtonsoft.Json.Linq.JTokenType GetValueType(System.Nullable`1<Newtonsoft.Json.Linq.JTokenType> current, System.Object value)
     // Offset: 0x151FE40
-    static Newtonsoft::Json::Linq::JTokenType GetValueType(System::Nullable_1<Newtonsoft::Json::Linq::JTokenType> current, ::Il2CppObject* value);
+    static ::Newtonsoft::Json::Linq::JTokenType GetValueType(::System::Nullable_1<::Newtonsoft::Json::Linq::JTokenType> current, ::Il2CppObject* value);
     // static private Newtonsoft.Json.Linq.JTokenType GetStringValueType(System.Nullable`1<Newtonsoft.Json.Linq.JTokenType> current)
     // Offset: 0x1520F8C
-    static Newtonsoft::Json::Linq::JTokenType GetStringValueType(System::Nullable_1<Newtonsoft::Json::Linq::JTokenType> current);
+    static ::Newtonsoft::Json::Linq::JTokenType GetStringValueType(::System::Nullable_1<::Newtonsoft::Json::Linq::JTokenType> current);
     // static private System.Boolean ValuesEquals(Newtonsoft.Json.Linq.JValue v1, Newtonsoft.Json.Linq.JValue v2)
     // Offset: 0x1521794
-    static bool ValuesEquals(Newtonsoft::Json::Linq::JValue* v1, Newtonsoft::Json::Linq::JValue* v2);
+    static bool ValuesEquals(::Newtonsoft::Json::Linq::JValue* v1, ::Newtonsoft::Json::Linq::JValue* v2);
     // public System.Boolean Equals(Newtonsoft.Json.Linq.JValue other)
     // Offset: 0x15217F4
-    bool Equals(Newtonsoft::Json::Linq::JValue* other);
+    bool Equals(::Newtonsoft::Json::Linq::JValue* other);
     // public System.String ToString(System.IFormatProvider formatProvider)
     // Offset: 0x152192C
-    ::StringW ToString(System::IFormatProvider* formatProvider);
+    ::StringW ToString(::System::IFormatProvider* formatProvider);
     // public System.String ToString(System.String format, System.IFormatProvider formatProvider)
     // Offset: 0x1521938
-    ::StringW ToString(::StringW format, System::IFormatProvider* formatProvider);
+    ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
     // private System.Int32 System.IComparable.CompareTo(System.Object obj)
     // Offset: 0x1521B4C
     int System_IComparable_CompareTo(::Il2CppObject* obj);
     // public System.Int32 CompareTo(Newtonsoft.Json.Linq.JValue obj)
     // Offset: 0x1521C0C
-    int CompareTo(Newtonsoft::Json::Linq::JValue* obj);
+    int CompareTo(::Newtonsoft::Json::Linq::JValue* obj);
     // private System.TypeCode System.IConvertible.GetTypeCode()
     // Offset: 0x1521C3C
-    System::TypeCode System_IConvertible_GetTypeCode();
+    ::System::TypeCode System_IConvertible_GetTypeCode();
     // private System.Boolean System.IConvertible.ToBoolean(System.IFormatProvider provider)
     // Offset: 0x1521D08
-    bool System_IConvertible_ToBoolean(System::IFormatProvider* provider);
+    bool System_IConvertible_ToBoolean(::System::IFormatProvider* provider);
     // private System.Char System.IConvertible.ToChar(System.IFormatProvider provider)
     // Offset: 0x1521D70
-    ::Il2CppChar System_IConvertible_ToChar(System::IFormatProvider* provider);
+    ::Il2CppChar System_IConvertible_ToChar(::System::IFormatProvider* provider);
     // private System.SByte System.IConvertible.ToSByte(System.IFormatProvider provider)
     // Offset: 0x1521DD8
-    int8_t System_IConvertible_ToSByte(System::IFormatProvider* provider);
+    int8_t System_IConvertible_ToSByte(::System::IFormatProvider* provider);
     // private System.Byte System.IConvertible.ToByte(System.IFormatProvider provider)
     // Offset: 0x1521E40
-    uint8_t System_IConvertible_ToByte(System::IFormatProvider* provider);
+    uint8_t System_IConvertible_ToByte(::System::IFormatProvider* provider);
     // private System.Int16 System.IConvertible.ToInt16(System.IFormatProvider provider)
     // Offset: 0x1521EA8
-    int16_t System_IConvertible_ToInt16(System::IFormatProvider* provider);
+    int16_t System_IConvertible_ToInt16(::System::IFormatProvider* provider);
     // private System.UInt16 System.IConvertible.ToUInt16(System.IFormatProvider provider)
     // Offset: 0x1521F10
-    uint16_t System_IConvertible_ToUInt16(System::IFormatProvider* provider);
+    uint16_t System_IConvertible_ToUInt16(::System::IFormatProvider* provider);
     // private System.Int32 System.IConvertible.ToInt32(System.IFormatProvider provider)
     // Offset: 0x1521F78
-    int System_IConvertible_ToInt32(System::IFormatProvider* provider);
+    int System_IConvertible_ToInt32(::System::IFormatProvider* provider);
     // private System.UInt32 System.IConvertible.ToUInt32(System.IFormatProvider provider)
     // Offset: 0x1521FE0
-    uint System_IConvertible_ToUInt32(System::IFormatProvider* provider);
+    uint System_IConvertible_ToUInt32(::System::IFormatProvider* provider);
     // private System.Int64 System.IConvertible.ToInt64(System.IFormatProvider provider)
     // Offset: 0x1522048
-    int64_t System_IConvertible_ToInt64(System::IFormatProvider* provider);
+    int64_t System_IConvertible_ToInt64(::System::IFormatProvider* provider);
     // private System.UInt64 System.IConvertible.ToUInt64(System.IFormatProvider provider)
     // Offset: 0x15220B0
-    uint64_t System_IConvertible_ToUInt64(System::IFormatProvider* provider);
+    uint64_t System_IConvertible_ToUInt64(::System::IFormatProvider* provider);
     // private System.Single System.IConvertible.ToSingle(System.IFormatProvider provider)
     // Offset: 0x1522118
-    float System_IConvertible_ToSingle(System::IFormatProvider* provider);
+    float System_IConvertible_ToSingle(::System::IFormatProvider* provider);
     // private System.Double System.IConvertible.ToDouble(System.IFormatProvider provider)
     // Offset: 0x1522180
-    double System_IConvertible_ToDouble(System::IFormatProvider* provider);
+    double System_IConvertible_ToDouble(::System::IFormatProvider* provider);
     // private System.Decimal System.IConvertible.ToDecimal(System.IFormatProvider provider)
     // Offset: 0x15221E8
-    System::Decimal System_IConvertible_ToDecimal(System::IFormatProvider* provider);
+    ::System::Decimal System_IConvertible_ToDecimal(::System::IFormatProvider* provider);
     // private System.DateTime System.IConvertible.ToDateTime(System.IFormatProvider provider)
     // Offset: 0x1522250
-    System::DateTime System_IConvertible_ToDateTime(System::IFormatProvider* provider);
+    ::System::DateTime System_IConvertible_ToDateTime(::System::IFormatProvider* provider);
     // private System.Object System.IConvertible.ToType(System.Type conversionType, System.IFormatProvider provider)
     // Offset: 0x15222B8
-    ::Il2CppObject* System_IConvertible_ToType(System::Type* conversionType, System::IFormatProvider* provider);
+    ::Il2CppObject* System_IConvertible_ToType(::System::Type* conversionType, ::System::IFormatProvider* provider);
     // public override System.Boolean get_HasValues()
     // Offset: 0x15201FC
     // Implemented from: Newtonsoft.Json.Linq.JToken
@@ -247,17 +247,17 @@ namespace Newtonsoft::Json::Linq {
     // Offset: 0x1521000
     // Implemented from: Newtonsoft.Json.Linq.JToken
     // Base method: Newtonsoft.Json.Linq.JTokenType JToken::get_Type()
-    Newtonsoft::Json::Linq::JTokenType get_Type();
+    ::Newtonsoft::Json::Linq::JTokenType get_Type();
     // override Newtonsoft.Json.Linq.JToken CloneToken()
     // Offset: 0x1520ECC
     // Implemented from: Newtonsoft.Json.Linq.JToken
     // Base method: Newtonsoft.Json.Linq.JToken JToken::CloneToken()
-    Newtonsoft::Json::Linq::JToken* CloneToken();
+    ::Newtonsoft::Json::Linq::JToken* CloneToken();
     // public override System.Void WriteTo(Newtonsoft.Json.JsonWriter writer, params Newtonsoft.Json.JsonConverter[] converters)
     // Offset: 0x1521010
     // Implemented from: Newtonsoft.Json.Linq.JToken
     // Base method: System.Void JToken::WriteTo(Newtonsoft.Json.JsonWriter writer, params Newtonsoft.Json.JsonConverter[] converters)
-    void WriteTo(Newtonsoft::Json::JsonWriter* writer, ::ArrayW<Newtonsoft::Json::JsonConverter*> converters);
+    void WriteTo(::Newtonsoft::Json::JsonWriter* writer, ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters);
     // public override System.Boolean Equals(System.Object obj)
     // Offset: 0x1521804
     // Implemented from: System.Object
@@ -277,7 +277,7 @@ namespace Newtonsoft::Json::Linq {
     // Offset: 0x1521A64
     // Implemented from: Newtonsoft.Json.Linq.JToken
     // Base method: System.Dynamic.DynamicMetaObject JToken::GetMetaObject(System.Linq.Expressions.Expression parameter)
-    System::Dynamic::DynamicMetaObject* GetMetaObject(System::Linq::Expressions::Expression* parameter);
+    ::System::Dynamic::DynamicMetaObject* GetMetaObject(::System::Linq::Expressions::Expression* parameter);
   }; // Newtonsoft.Json.Linq.JValue
   #pragma pack(pop)
   static check_size<sizeof(JValue), 56 + sizeof(::Il2CppObject*)> __Newtonsoft_Json_Linq_JValueSizeCheck;
@@ -307,7 +307,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JValue::CompareBigInteger
 // Il2CppName: CompareBigInteger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Numerics::BigInteger, ::Il2CppObject*)>(&Newtonsoft::Json::Linq::JValue::CompareBigInteger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::System::Numerics::BigInteger, ::Il2CppObject*)>(&Newtonsoft::Json::Linq::JValue::CompareBigInteger)> {
   static const MethodInfo* get() {
     static auto* i1 = &::il2cpp_utils::GetClassFromName("System.Numerics", "BigInteger")->byval_arg;
     static auto* i2 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -317,7 +317,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JValue::Compare
 // Il2CppName: Compare
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Newtonsoft::Json::Linq::JTokenType, ::Il2CppObject*, ::Il2CppObject*)>(&Newtonsoft::Json::Linq::JValue::Compare)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Newtonsoft::Json::Linq::JTokenType, ::Il2CppObject*, ::Il2CppObject*)>(&Newtonsoft::Json::Linq::JValue::Compare)> {
   static const MethodInfo* get() {
     static auto* valueType = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Linq", "JTokenType")->byval_arg;
     static auto* objA = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -338,7 +338,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JValue::CreateComment
 // Il2CppName: CreateComment
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Linq::JValue* (*)(::StringW)>(&Newtonsoft::Json::Linq::JValue::CreateComment)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Linq::JValue* (*)(::StringW)>(&Newtonsoft::Json::Linq::JValue::CreateComment)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JValue*), "CreateComment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -347,7 +347,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft:
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JValue::CreateNull
 // Il2CppName: CreateNull
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Linq::JValue* (*)()>(&Newtonsoft::Json::Linq::JValue::CreateNull)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Linq::JValue* (*)()>(&Newtonsoft::Json::Linq::JValue::CreateNull)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JValue*), "CreateNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -355,7 +355,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft:
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JValue::CreateUndefined
 // Il2CppName: CreateUndefined
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Linq::JValue* (*)()>(&Newtonsoft::Json::Linq::JValue::CreateUndefined)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Linq::JValue* (*)()>(&Newtonsoft::Json::Linq::JValue::CreateUndefined)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JValue*), "CreateUndefined", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -363,7 +363,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft:
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JValue::GetValueType
 // Il2CppName: GetValueType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Linq::JTokenType (*)(System::Nullable_1<Newtonsoft::Json::Linq::JTokenType>, ::Il2CppObject*)>(&Newtonsoft::Json::Linq::JValue::GetValueType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Linq::JTokenType (*)(::System::Nullable_1<::Newtonsoft::Json::Linq::JTokenType>, ::Il2CppObject*)>(&Newtonsoft::Json::Linq::JValue::GetValueType)> {
   static const MethodInfo* get() {
     static auto* current = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Linq", "JTokenType")})->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -373,7 +373,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft:
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JValue::GetStringValueType
 // Il2CppName: GetStringValueType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Linq::JTokenType (*)(System::Nullable_1<Newtonsoft::Json::Linq::JTokenType>)>(&Newtonsoft::Json::Linq::JValue::GetStringValueType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Linq::JTokenType (*)(::System::Nullable_1<::Newtonsoft::Json::Linq::JTokenType>)>(&Newtonsoft::Json::Linq::JValue::GetStringValueType)> {
   static const MethodInfo* get() {
     static auto* current = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Linq", "JTokenType")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JValue*), "GetStringValueType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{current});
@@ -382,7 +382,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft:
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JValue::ValuesEquals
 // Il2CppName: ValuesEquals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Newtonsoft::Json::Linq::JValue*, Newtonsoft::Json::Linq::JValue*)>(&Newtonsoft::Json::Linq::JValue::ValuesEquals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Newtonsoft::Json::Linq::JValue*, ::Newtonsoft::Json::Linq::JValue*)>(&Newtonsoft::Json::Linq::JValue::ValuesEquals)> {
   static const MethodInfo* get() {
     static auto* v1 = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Linq", "JValue")->byval_arg;
     static auto* v2 = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Linq", "JValue")->byval_arg;
@@ -392,7 +392,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ne
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JValue::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Linq::JValue::*)(Newtonsoft::Json::Linq::JValue*)>(&Newtonsoft::Json::Linq::JValue::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Linq::JValue::*)(::Newtonsoft::Json::Linq::JValue*)>(&Newtonsoft::Json::Linq::JValue::Equals)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Linq", "JValue")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JValue*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
@@ -401,7 +401,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JValue::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Newtonsoft::Json::Linq::JValue::*)(System::IFormatProvider*)>(&Newtonsoft::Json::Linq::JValue::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Newtonsoft::Json::Linq::JValue::*)(::System::IFormatProvider*)>(&Newtonsoft::Json::Linq::JValue::ToString)> {
   static const MethodInfo* get() {
     static auto* formatProvider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JValue*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{formatProvider});
@@ -410,7 +410,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JValue::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Newtonsoft::Json::Linq::JValue::*)(::StringW, System::IFormatProvider*)>(&Newtonsoft::Json::Linq::JValue::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Newtonsoft::Json::Linq::JValue::*)(::StringW, ::System::IFormatProvider*)>(&Newtonsoft::Json::Linq::JValue::ToString)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* formatProvider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -429,7 +429,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Newton
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JValue::CompareTo
 // Il2CppName: CompareTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Newtonsoft::Json::Linq::JValue::*)(Newtonsoft::Json::Linq::JValue*)>(&Newtonsoft::Json::Linq::JValue::CompareTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Newtonsoft::Json::Linq::JValue::*)(::Newtonsoft::Json::Linq::JValue*)>(&Newtonsoft::Json::Linq::JValue::CompareTo)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Linq", "JValue")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JValue*), "CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -438,7 +438,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Newton
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JValue::System_IConvertible_GetTypeCode
 // Il2CppName: System.IConvertible.GetTypeCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TypeCode (Newtonsoft::Json::Linq::JValue::*)()>(&Newtonsoft::Json::Linq::JValue::System_IConvertible_GetTypeCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TypeCode (Newtonsoft::Json::Linq::JValue::*)()>(&Newtonsoft::Json::Linq::JValue::System_IConvertible_GetTypeCode)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JValue*), "System.IConvertible.GetTypeCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -446,7 +446,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JValue::System_IConvertible_ToBoolean
 // Il2CppName: System.IConvertible.ToBoolean
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Linq::JValue::*)(System::IFormatProvider*)>(&Newtonsoft::Json::Linq::JValue::System_IConvertible_ToBoolean)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Linq::JValue::*)(::System::IFormatProvider*)>(&Newtonsoft::Json::Linq::JValue::System_IConvertible_ToBoolean)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JValue*), "System.IConvertible.ToBoolean", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -455,7 +455,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JValue::System_IConvertible_ToChar
 // Il2CppName: System.IConvertible.ToChar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (Newtonsoft::Json::Linq::JValue::*)(System::IFormatProvider*)>(&Newtonsoft::Json::Linq::JValue::System_IConvertible_ToChar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (Newtonsoft::Json::Linq::JValue::*)(::System::IFormatProvider*)>(&Newtonsoft::Json::Linq::JValue::System_IConvertible_ToChar)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JValue*), "System.IConvertible.ToChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -464,7 +464,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppCha
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JValue::System_IConvertible_ToSByte
 // Il2CppName: System.IConvertible.ToSByte
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (Newtonsoft::Json::Linq::JValue::*)(System::IFormatProvider*)>(&Newtonsoft::Json::Linq::JValue::System_IConvertible_ToSByte)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (Newtonsoft::Json::Linq::JValue::*)(::System::IFormatProvider*)>(&Newtonsoft::Json::Linq::JValue::System_IConvertible_ToSByte)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JValue*), "System.IConvertible.ToSByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -473,7 +473,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (New
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JValue::System_IConvertible_ToByte
 // Il2CppName: System.IConvertible.ToByte
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (Newtonsoft::Json::Linq::JValue::*)(System::IFormatProvider*)>(&Newtonsoft::Json::Linq::JValue::System_IConvertible_ToByte)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (Newtonsoft::Json::Linq::JValue::*)(::System::IFormatProvider*)>(&Newtonsoft::Json::Linq::JValue::System_IConvertible_ToByte)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JValue*), "System.IConvertible.ToByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -482,7 +482,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (Ne
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JValue::System_IConvertible_ToInt16
 // Il2CppName: System.IConvertible.ToInt16
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (Newtonsoft::Json::Linq::JValue::*)(System::IFormatProvider*)>(&Newtonsoft::Json::Linq::JValue::System_IConvertible_ToInt16)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (Newtonsoft::Json::Linq::JValue::*)(::System::IFormatProvider*)>(&Newtonsoft::Json::Linq::JValue::System_IConvertible_ToInt16)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JValue*), "System.IConvertible.ToInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -491,7 +491,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (Ne
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JValue::System_IConvertible_ToUInt16
 // Il2CppName: System.IConvertible.ToUInt16
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (Newtonsoft::Json::Linq::JValue::*)(System::IFormatProvider*)>(&Newtonsoft::Json::Linq::JValue::System_IConvertible_ToUInt16)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (Newtonsoft::Json::Linq::JValue::*)(::System::IFormatProvider*)>(&Newtonsoft::Json::Linq::JValue::System_IConvertible_ToUInt16)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JValue*), "System.IConvertible.ToUInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -500,7 +500,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (N
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JValue::System_IConvertible_ToInt32
 // Il2CppName: System.IConvertible.ToInt32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Newtonsoft::Json::Linq::JValue::*)(System::IFormatProvider*)>(&Newtonsoft::Json::Linq::JValue::System_IConvertible_ToInt32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Newtonsoft::Json::Linq::JValue::*)(::System::IFormatProvider*)>(&Newtonsoft::Json::Linq::JValue::System_IConvertible_ToInt32)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JValue*), "System.IConvertible.ToInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -509,7 +509,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Newton
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JValue::System_IConvertible_ToUInt32
 // Il2CppName: System.IConvertible.ToUInt32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Newtonsoft::Json::Linq::JValue::*)(System::IFormatProvider*)>(&Newtonsoft::Json::Linq::JValue::System_IConvertible_ToUInt32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Newtonsoft::Json::Linq::JValue::*)(::System::IFormatProvider*)>(&Newtonsoft::Json::Linq::JValue::System_IConvertible_ToUInt32)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JValue*), "System.IConvertible.ToUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -518,7 +518,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JValue::System_IConvertible_ToInt64
 // Il2CppName: System.IConvertible.ToInt64
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Newtonsoft::Json::Linq::JValue::*)(System::IFormatProvider*)>(&Newtonsoft::Json::Linq::JValue::System_IConvertible_ToInt64)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Newtonsoft::Json::Linq::JValue::*)(::System::IFormatProvider*)>(&Newtonsoft::Json::Linq::JValue::System_IConvertible_ToInt64)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JValue*), "System.IConvertible.ToInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -527,7 +527,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Ne
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JValue::System_IConvertible_ToUInt64
 // Il2CppName: System.IConvertible.ToUInt64
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (Newtonsoft::Json::Linq::JValue::*)(System::IFormatProvider*)>(&Newtonsoft::Json::Linq::JValue::System_IConvertible_ToUInt64)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (Newtonsoft::Json::Linq::JValue::*)(::System::IFormatProvider*)>(&Newtonsoft::Json::Linq::JValue::System_IConvertible_ToUInt64)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JValue*), "System.IConvertible.ToUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -536,7 +536,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (N
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JValue::System_IConvertible_ToSingle
 // Il2CppName: System.IConvertible.ToSingle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Newtonsoft::Json::Linq::JValue::*)(System::IFormatProvider*)>(&Newtonsoft::Json::Linq::JValue::System_IConvertible_ToSingle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Newtonsoft::Json::Linq::JValue::*)(::System::IFormatProvider*)>(&Newtonsoft::Json::Linq::JValue::System_IConvertible_ToSingle)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JValue*), "System.IConvertible.ToSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -545,7 +545,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Newt
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JValue::System_IConvertible_ToDouble
 // Il2CppName: System.IConvertible.ToDouble
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (Newtonsoft::Json::Linq::JValue::*)(System::IFormatProvider*)>(&Newtonsoft::Json::Linq::JValue::System_IConvertible_ToDouble)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (Newtonsoft::Json::Linq::JValue::*)(::System::IFormatProvider*)>(&Newtonsoft::Json::Linq::JValue::System_IConvertible_ToDouble)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JValue*), "System.IConvertible.ToDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -554,7 +554,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (New
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JValue::System_IConvertible_ToDecimal
 // Il2CppName: System.IConvertible.ToDecimal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (Newtonsoft::Json::Linq::JValue::*)(System::IFormatProvider*)>(&Newtonsoft::Json::Linq::JValue::System_IConvertible_ToDecimal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (Newtonsoft::Json::Linq::JValue::*)(::System::IFormatProvider*)>(&Newtonsoft::Json::Linq::JValue::System_IConvertible_ToDecimal)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JValue*), "System.IConvertible.ToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -563,7 +563,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dec
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JValue::System_IConvertible_ToDateTime
 // Il2CppName: System.IConvertible.ToDateTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (Newtonsoft::Json::Linq::JValue::*)(System::IFormatProvider*)>(&Newtonsoft::Json::Linq::JValue::System_IConvertible_ToDateTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (Newtonsoft::Json::Linq::JValue::*)(::System::IFormatProvider*)>(&Newtonsoft::Json::Linq::JValue::System_IConvertible_ToDateTime)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JValue*), "System.IConvertible.ToDateTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -572,7 +572,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JValue::System_IConvertible_ToType
 // Il2CppName: System.IConvertible.ToType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Newtonsoft::Json::Linq::JValue::*)(System::Type*, System::IFormatProvider*)>(&Newtonsoft::Json::Linq::JValue::System_IConvertible_ToType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Newtonsoft::Json::Linq::JValue::*)(::System::Type*, ::System::IFormatProvider*)>(&Newtonsoft::Json::Linq::JValue::System_IConvertible_ToType)> {
   static const MethodInfo* get() {
     static auto* conversionType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -590,7 +590,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JValue::get_Type
 // Il2CppName: get_Type
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Linq::JTokenType (Newtonsoft::Json::Linq::JValue::*)()>(&Newtonsoft::Json::Linq::JValue::get_Type)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Linq::JTokenType (Newtonsoft::Json::Linq::JValue::*)()>(&Newtonsoft::Json::Linq::JValue::get_Type)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JValue*), "get_Type", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -598,7 +598,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft:
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JValue::CloneToken
 // Il2CppName: CloneToken
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Linq::JToken* (Newtonsoft::Json::Linq::JValue::*)()>(&Newtonsoft::Json::Linq::JValue::CloneToken)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Linq::JToken* (Newtonsoft::Json::Linq::JValue::*)()>(&Newtonsoft::Json::Linq::JValue::CloneToken)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JValue*), "CloneToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -606,7 +606,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft:
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JValue::WriteTo
 // Il2CppName: WriteTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Linq::JValue::*)(Newtonsoft::Json::JsonWriter*, ::ArrayW<Newtonsoft::Json::JsonConverter*>)>(&Newtonsoft::Json::Linq::JValue::WriteTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Linq::JValue::*)(::Newtonsoft::Json::JsonWriter*, ::ArrayW<::Newtonsoft::Json::JsonConverter*>)>(&Newtonsoft::Json::Linq::JValue::WriteTo)> {
   static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonWriter")->byval_arg;
     static auto* converters = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonConverter"), 1)->byval_arg;
@@ -641,7 +641,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JValue::GetMetaObject
 // Il2CppName: GetMetaObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dynamic::DynamicMetaObject* (Newtonsoft::Json::Linq::JValue::*)(System::Linq::Expressions::Expression*)>(&Newtonsoft::Json::Linq::JValue::GetMetaObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::DynamicMetaObject* (Newtonsoft::Json::Linq::JValue::*)(::System::Linq::Expressions::Expression*)>(&Newtonsoft::Json::Linq::JValue::GetMetaObject)> {
   static const MethodInfo* get() {
     static auto* parameter = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JValue*), "GetMetaObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{parameter});

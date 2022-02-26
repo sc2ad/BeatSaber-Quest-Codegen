@@ -30,8 +30,8 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   class TriangulationPoint;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, "UnityEngine.ProBuilder.Poly2Tri", "TriangulationPoint");
+NEED_NO_BOX(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, "UnityEngine.ProBuilder.Poly2Tri", "TriangulationPoint");
 // Type namespace: UnityEngine.ProBuilder.Poly2Tri
 namespace UnityEngine::ProBuilder::Poly2Tri {
   // Size: 0x2C
@@ -52,9 +52,9 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // private System.Collections.Generic.List`1<UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint> <Edges>k__BackingField
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>* Edges;
+    ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>* Edges;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>*) == 0x8);
     // public System.Double X
     // Size: 0x8
     // Offset: 0x18
@@ -75,7 +75,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint> <Edges>k__BackingField
-    System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>*& dyn_$Edges$k__BackingField();
+    ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>*& dyn_$Edges$k__BackingField();
     // Get instance field reference: public System.Double X
     double& dyn_X();
     // Get instance field reference: public System.Double Y
@@ -84,10 +84,10 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     int& dyn_Index();
     // public System.Collections.Generic.List`1<UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint> get_Edges()
     // Offset: 0x2A0B7A0
-    System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>* get_Edges();
+    ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>* get_Edges();
     // private System.Void set_Edges(System.Collections.Generic.List`1<UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint> value)
     // Offset: 0x2A0B7A8
-    void set_Edges(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>* value);
+    void set_Edges(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>* value);
     // public System.Boolean get_HasEdges()
     // Offset: 0x2A05C98
     bool get_HasEdges();
@@ -95,12 +95,12 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Offset: 0x2A09F28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TriangulationPoint* New_ctor(double x, double y, int index) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TriangulationPoint*, creationType>(x, y, index)));
     }
     // public System.Void AddEdge(UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint e)
     // Offset: 0x2A097B0
-    void AddEdge(UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* e);
+    void AddEdge(::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* e);
     // public override System.String ToString()
     // Offset: 0x2A0B7B0
     // Implemented from: System.Object
@@ -115,7 +115,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::get_Edges
 // Il2CppName: get_Edges
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>* (UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::*)()>(&UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::get_Edges)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>* (UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::*)()>(&UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::get_Edges)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*), "get_Edges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -123,7 +123,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::set_Edges
 // Il2CppName: set_Edges
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::*)(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>*)>(&UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::set_Edges)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::*)(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>*)>(&UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::set_Edges)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder.Poly2Tri", "DTSweepConstraint")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*), "set_Edges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -144,7 +144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::AddEdge
 // Il2CppName: AddEdge
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::*)(UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*)>(&UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::AddEdge)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::*)(::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*)>(&UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::AddEdge)> {
   static const MethodInfo* get() {
     static auto* e = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder.Poly2Tri", "DTSweepConstraint")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*), "AddEdge", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{e});

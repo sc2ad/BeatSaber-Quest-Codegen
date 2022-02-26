@@ -34,8 +34,8 @@ namespace Oculus::Platform::Models {
   class Challenge;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::Challenge);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::Challenge*, "Oculus.Platform.Models", "Challenge");
+NEED_NO_BOX(::Oculus::Platform::Models::Challenge);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::Challenge*, "Oculus.Platform.Models", "Challenge");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x6C
@@ -56,9 +56,9 @@ namespace Oculus::Platform::Models {
     // public readonly Oculus.Platform.ChallengeCreationType CreationType
     // Size: 0x4
     // Offset: 0x10
-    Oculus::Platform::ChallengeCreationType CreationType;
+    ::Oculus::Platform::ChallengeCreationType CreationType;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::ChallengeCreationType) == 0x4);
+    static_assert(sizeof(::Oculus::Platform::ChallengeCreationType) == 0x4);
     // Padding between fields: CreationType and: Description
     char __padding0[0x4] = {};
     // public readonly System.String Description
@@ -70,9 +70,9 @@ namespace Oculus::Platform::Models {
     // public readonly System.DateTime EndDate
     // Size: 0x8
     // Offset: 0x20
-    System::DateTime EndDate;
+    ::System::DateTime EndDate;
     // Field size check
-    static_assert(sizeof(System::DateTime) == 0x8);
+    static_assert(sizeof(::System::DateTime) == 0x8);
     // public readonly System.UInt64 ID
     // Size: 0x8
     // Offset: 0x28
@@ -82,41 +82,41 @@ namespace Oculus::Platform::Models {
     // public readonly Oculus.Platform.Models.UserList InvitedUsersOptional
     // Size: 0x8
     // Offset: 0x30
-    Oculus::Platform::Models::UserList* InvitedUsersOptional;
+    ::Oculus::Platform::Models::UserList* InvitedUsersOptional;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::Models::UserList*) == 0x8);
+    static_assert(sizeof(::Oculus::Platform::Models::UserList*) == 0x8);
     // [ObsoleteAttribute] Offset: 0x12324D8
     // public readonly Oculus.Platform.Models.UserList InvitedUsers
     // Size: 0x8
     // Offset: 0x38
-    Oculus::Platform::Models::UserList* InvitedUsers;
+    ::Oculus::Platform::Models::UserList* InvitedUsers;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::Models::UserList*) == 0x8);
+    static_assert(sizeof(::Oculus::Platform::Models::UserList*) == 0x8);
     // public readonly Oculus.Platform.Models.Leaderboard Leaderboard
     // Size: 0x8
     // Offset: 0x40
-    Oculus::Platform::Models::Leaderboard* Leaderboard;
+    ::Oculus::Platform::Models::Leaderboard* Leaderboard;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::Models::Leaderboard*) == 0x8);
+    static_assert(sizeof(::Oculus::Platform::Models::Leaderboard*) == 0x8);
     // public readonly Oculus.Platform.Models.UserList ParticipantsOptional
     // Size: 0x8
     // Offset: 0x48
-    Oculus::Platform::Models::UserList* ParticipantsOptional;
+    ::Oculus::Platform::Models::UserList* ParticipantsOptional;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::Models::UserList*) == 0x8);
+    static_assert(sizeof(::Oculus::Platform::Models::UserList*) == 0x8);
     // [ObsoleteAttribute] Offset: 0x1232510
     // public readonly Oculus.Platform.Models.UserList Participants
     // Size: 0x8
     // Offset: 0x50
-    Oculus::Platform::Models::UserList* Participants;
+    ::Oculus::Platform::Models::UserList* Participants;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::Models::UserList*) == 0x8);
+    static_assert(sizeof(::Oculus::Platform::Models::UserList*) == 0x8);
     // public readonly System.DateTime StartDate
     // Size: 0x8
     // Offset: 0x58
-    System::DateTime StartDate;
+    ::System::DateTime StartDate;
     // Field size check
-    static_assert(sizeof(System::DateTime) == 0x8);
+    static_assert(sizeof(::System::DateTime) == 0x8);
     // public readonly System.String Title
     // Size: 0x8
     // Offset: 0x60
@@ -126,44 +126,44 @@ namespace Oculus::Platform::Models {
     // public readonly Oculus.Platform.ChallengeVisibility Visibility
     // Size: 0x4
     // Offset: 0x68
-    Oculus::Platform::ChallengeVisibility Visibility;
+    ::Oculus::Platform::ChallengeVisibility Visibility;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::ChallengeVisibility) == 0x4);
+    static_assert(sizeof(::Oculus::Platform::ChallengeVisibility) == 0x4);
     public:
     // Get instance field reference: public readonly Oculus.Platform.ChallengeCreationType CreationType
-    Oculus::Platform::ChallengeCreationType& dyn_CreationType();
+    ::Oculus::Platform::ChallengeCreationType& dyn_CreationType();
     // Get instance field reference: public readonly System.String Description
     ::StringW& dyn_Description();
     // Get instance field reference: public readonly System.DateTime EndDate
-    System::DateTime& dyn_EndDate();
+    ::System::DateTime& dyn_EndDate();
     // Get instance field reference: public readonly System.UInt64 ID
     uint64_t& dyn_ID();
     // Get instance field reference: public readonly Oculus.Platform.Models.UserList InvitedUsersOptional
-    Oculus::Platform::Models::UserList*& dyn_InvitedUsersOptional();
+    ::Oculus::Platform::Models::UserList*& dyn_InvitedUsersOptional();
     // Get instance field reference: public readonly Oculus.Platform.Models.UserList InvitedUsers
-    Oculus::Platform::Models::UserList*& dyn_InvitedUsers();
+    ::Oculus::Platform::Models::UserList*& dyn_InvitedUsers();
     // Get instance field reference: public readonly Oculus.Platform.Models.Leaderboard Leaderboard
-    Oculus::Platform::Models::Leaderboard*& dyn_Leaderboard();
+    ::Oculus::Platform::Models::Leaderboard*& dyn_Leaderboard();
     // Get instance field reference: public readonly Oculus.Platform.Models.UserList ParticipantsOptional
-    Oculus::Platform::Models::UserList*& dyn_ParticipantsOptional();
+    ::Oculus::Platform::Models::UserList*& dyn_ParticipantsOptional();
     // Get instance field reference: public readonly Oculus.Platform.Models.UserList Participants
-    Oculus::Platform::Models::UserList*& dyn_Participants();
+    ::Oculus::Platform::Models::UserList*& dyn_Participants();
     // Get instance field reference: public readonly System.DateTime StartDate
-    System::DateTime& dyn_StartDate();
+    ::System::DateTime& dyn_StartDate();
     // Get instance field reference: public readonly System.String Title
     ::StringW& dyn_Title();
     // Get instance field reference: public readonly Oculus.Platform.ChallengeVisibility Visibility
-    Oculus::Platform::ChallengeVisibility& dyn_Visibility();
+    ::Oculus::Platform::ChallengeVisibility& dyn_Visibility();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x1964944
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Challenge* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::Challenge::.ctor");
+    static Challenge* New_ctor(::System::IntPtr o) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::Challenge::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Challenge*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.Challenge
   #pragma pack(pop)
-  static check_size<sizeof(Challenge), 104 + sizeof(Oculus::Platform::ChallengeVisibility)> __Oculus_Platform_Models_ChallengeSizeCheck;
+  static check_size<sizeof(Challenge), 104 + sizeof(::Oculus::Platform::ChallengeVisibility)> __Oculus_Platform_Models_ChallengeSizeCheck;
   static_assert(sizeof(Challenge) == 0x6C);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

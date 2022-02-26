@@ -20,8 +20,8 @@ namespace System::Xml::Serialization {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Serialization::XmlSerializationReaderInterpreter::FixupCallbackInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Serialization::XmlSerializationReaderInterpreter::FixupCallbackInfo*, "System.Xml.Serialization", "XmlSerializationReaderInterpreter/FixupCallbackInfo");
+NEED_NO_BOX(::System::Xml::Serialization::XmlSerializationReaderInterpreter::FixupCallbackInfo);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::XmlSerializationReaderInterpreter::FixupCallbackInfo*, "System.Xml.Serialization", "XmlSerializationReaderInterpreter/FixupCallbackInfo");
 // Type namespace: System.Xml.Serialization
 namespace System::Xml::Serialization {
   // Size: 0x21
@@ -42,15 +42,15 @@ namespace System::Xml::Serialization {
     // private System.Xml.Serialization.XmlSerializationReaderInterpreter _sri
     // Size: 0x8
     // Offset: 0x10
-    System::Xml::Serialization::XmlSerializationReaderInterpreter* sri;
+    ::System::Xml::Serialization::XmlSerializationReaderInterpreter* sri;
     // Field size check
-    static_assert(sizeof(System::Xml::Serialization::XmlSerializationReaderInterpreter*) == 0x8);
+    static_assert(sizeof(::System::Xml::Serialization::XmlSerializationReaderInterpreter*) == 0x8);
     // private System.Xml.Serialization.ClassMap _map
     // Size: 0x8
     // Offset: 0x18
-    System::Xml::Serialization::ClassMap* map;
+    ::System::Xml::Serialization::ClassMap* map;
     // Field size check
-    static_assert(sizeof(System::Xml::Serialization::ClassMap*) == 0x8);
+    static_assert(sizeof(::System::Xml::Serialization::ClassMap*) == 0x8);
     // private System.Boolean _isValueList
     // Size: 0x1
     // Offset: 0x20
@@ -59,16 +59,16 @@ namespace System::Xml::Serialization {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.Xml.Serialization.XmlSerializationReaderInterpreter _sri
-    System::Xml::Serialization::XmlSerializationReaderInterpreter*& dyn__sri();
+    ::System::Xml::Serialization::XmlSerializationReaderInterpreter*& dyn__sri();
     // Get instance field reference: private System.Xml.Serialization.ClassMap _map
-    System::Xml::Serialization::ClassMap*& dyn__map();
+    ::System::Xml::Serialization::ClassMap*& dyn__map();
     // Get instance field reference: private System.Boolean _isValueList
     bool& dyn__isValueList();
     // public System.Void .ctor(System.Xml.Serialization.XmlSerializationReaderInterpreter sri, System.Xml.Serialization.ClassMap map, System.Boolean isValueList)
     // Offset: 0x1E14A20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlSerializationReaderInterpreter::FixupCallbackInfo* New_ctor(System::Xml::Serialization::XmlSerializationReaderInterpreter* sri, System::Xml::Serialization::ClassMap* map, bool isValueList) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Serialization::XmlSerializationReaderInterpreter::FixupCallbackInfo::.ctor");
+    static XmlSerializationReaderInterpreter::FixupCallbackInfo* New_ctor(::System::Xml::Serialization::XmlSerializationReaderInterpreter* sri, ::System::Xml::Serialization::ClassMap* map, bool isValueList) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Serialization::XmlSerializationReaderInterpreter::FixupCallbackInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlSerializationReaderInterpreter::FixupCallbackInfo*, creationType>(sri, map, isValueList)));
     }
     // public System.Void FixupMembers(System.Object fixup)

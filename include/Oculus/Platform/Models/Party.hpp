@@ -29,8 +29,8 @@ namespace Oculus::Platform::Models {
   class Party;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::Party);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::Party*, "Oculus.Platform.Models", "Party");
+NEED_NO_BOX(::Oculus::Platform::Models::Party);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::Party*, "Oculus.Platform.Models", "Party");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x58
@@ -57,84 +57,84 @@ namespace Oculus::Platform::Models {
     // public readonly Oculus.Platform.Models.UserList InvitedUsersOptional
     // Size: 0x8
     // Offset: 0x18
-    Oculus::Platform::Models::UserList* InvitedUsersOptional;
+    ::Oculus::Platform::Models::UserList* InvitedUsersOptional;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::Models::UserList*) == 0x8);
+    static_assert(sizeof(::Oculus::Platform::Models::UserList*) == 0x8);
     // [ObsoleteAttribute] Offset: 0x1232680
     // public readonly Oculus.Platform.Models.UserList InvitedUsers
     // Size: 0x8
     // Offset: 0x20
-    Oculus::Platform::Models::UserList* InvitedUsers;
+    ::Oculus::Platform::Models::UserList* InvitedUsers;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::Models::UserList*) == 0x8);
+    static_assert(sizeof(::Oculus::Platform::Models::UserList*) == 0x8);
     // public readonly Oculus.Platform.Models.User LeaderOptional
     // Size: 0x8
     // Offset: 0x28
-    Oculus::Platform::Models::User* LeaderOptional;
+    ::Oculus::Platform::Models::User* LeaderOptional;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::Models::User*) == 0x8);
+    static_assert(sizeof(::Oculus::Platform::Models::User*) == 0x8);
     // [ObsoleteAttribute] Offset: 0x12326B8
     // public readonly Oculus.Platform.Models.User Leader
     // Size: 0x8
     // Offset: 0x30
-    Oculus::Platform::Models::User* Leader;
+    ::Oculus::Platform::Models::User* Leader;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::Models::User*) == 0x8);
+    static_assert(sizeof(::Oculus::Platform::Models::User*) == 0x8);
     // public readonly Oculus.Platform.Models.Room RoomOptional
     // Size: 0x8
     // Offset: 0x38
-    Oculus::Platform::Models::Room* RoomOptional;
+    ::Oculus::Platform::Models::Room* RoomOptional;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::Models::Room*) == 0x8);
+    static_assert(sizeof(::Oculus::Platform::Models::Room*) == 0x8);
     // [ObsoleteAttribute] Offset: 0x12326F0
     // public readonly Oculus.Platform.Models.Room Room
     // Size: 0x8
     // Offset: 0x40
-    Oculus::Platform::Models::Room* Room;
+    ::Oculus::Platform::Models::Room* Room;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::Models::Room*) == 0x8);
+    static_assert(sizeof(::Oculus::Platform::Models::Room*) == 0x8);
     // public readonly Oculus.Platform.Models.UserList UsersOptional
     // Size: 0x8
     // Offset: 0x48
-    Oculus::Platform::Models::UserList* UsersOptional;
+    ::Oculus::Platform::Models::UserList* UsersOptional;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::Models::UserList*) == 0x8);
+    static_assert(sizeof(::Oculus::Platform::Models::UserList*) == 0x8);
     // [ObsoleteAttribute] Offset: 0x1232728
     // public readonly Oculus.Platform.Models.UserList Users
     // Size: 0x8
     // Offset: 0x50
-    Oculus::Platform::Models::UserList* Users;
+    ::Oculus::Platform::Models::UserList* Users;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::Models::UserList*) == 0x8);
+    static_assert(sizeof(::Oculus::Platform::Models::UserList*) == 0x8);
     public:
     // Get instance field reference: public readonly System.UInt64 ID
     uint64_t& dyn_ID();
     // Get instance field reference: public readonly Oculus.Platform.Models.UserList InvitedUsersOptional
-    Oculus::Platform::Models::UserList*& dyn_InvitedUsersOptional();
+    ::Oculus::Platform::Models::UserList*& dyn_InvitedUsersOptional();
     // Get instance field reference: public readonly Oculus.Platform.Models.UserList InvitedUsers
-    Oculus::Platform::Models::UserList*& dyn_InvitedUsers();
+    ::Oculus::Platform::Models::UserList*& dyn_InvitedUsers();
     // Get instance field reference: public readonly Oculus.Platform.Models.User LeaderOptional
-    Oculus::Platform::Models::User*& dyn_LeaderOptional();
+    ::Oculus::Platform::Models::User*& dyn_LeaderOptional();
     // Get instance field reference: public readonly Oculus.Platform.Models.User Leader
-    Oculus::Platform::Models::User*& dyn_Leader();
+    ::Oculus::Platform::Models::User*& dyn_Leader();
     // Get instance field reference: public readonly Oculus.Platform.Models.Room RoomOptional
-    Oculus::Platform::Models::Room*& dyn_RoomOptional();
+    ::Oculus::Platform::Models::Room*& dyn_RoomOptional();
     // Get instance field reference: public readonly Oculus.Platform.Models.Room Room
-    Oculus::Platform::Models::Room*& dyn_Room();
+    ::Oculus::Platform::Models::Room*& dyn_Room();
     // Get instance field reference: public readonly Oculus.Platform.Models.UserList UsersOptional
-    Oculus::Platform::Models::UserList*& dyn_UsersOptional();
+    ::Oculus::Platform::Models::UserList*& dyn_UsersOptional();
     // Get instance field reference: public readonly Oculus.Platform.Models.UserList Users
-    Oculus::Platform::Models::UserList*& dyn_Users();
+    ::Oculus::Platform::Models::UserList*& dyn_Users();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x196A0E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Party* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::Party::.ctor");
+    static Party* New_ctor(::System::IntPtr o) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::Party::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Party*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.Party
   #pragma pack(pop)
-  static check_size<sizeof(Party), 80 + sizeof(Oculus::Platform::Models::UserList*)> __Oculus_Platform_Models_PartySizeCheck;
+  static check_size<sizeof(Party), 80 + sizeof(::Oculus::Platform::Models::UserList*)> __Oculus_Platform_Models_PartySizeCheck;
   static_assert(sizeof(Party) == 0x58);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

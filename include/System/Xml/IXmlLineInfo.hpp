@@ -11,8 +11,8 @@ namespace System::Xml {
   class IXmlLineInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::IXmlLineInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::IXmlLineInfo*, "System.Xml", "IXmlLineInfo");
+NEED_NO_BOX(::System::Xml::IXmlLineInfo);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::IXmlLineInfo*, "System.Xml", "IXmlLineInfo");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x10

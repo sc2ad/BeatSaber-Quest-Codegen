@@ -35,8 +35,8 @@ namespace UnityEngine::AddressableAssets {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation*, "", "BtsResultsEnvironmentController/BTSResultCharacterPlaceWithAnimation");
+NEED_NO_BOX(::GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation*, "", "BtsResultsEnvironmentController/BTSResultCharacterPlaceWithAnimation");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x40
@@ -63,46 +63,46 @@ namespace GlobalNamespace {
     // private UnityEngine.Transform _placeTransform
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::Transform* placeTransform;
+    ::UnityEngine::Transform* placeTransform;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // private BTSCharacterResultAnimationController _animationController
     // Size: 0x8
     // Offset: 0x20
-    GlobalNamespace::BTSCharacterResultAnimationController* animationController;
+    ::GlobalNamespace::BTSCharacterResultAnimationController* animationController;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::BTSCharacterResultAnimationController*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::BTSCharacterResultAnimationController*) == 0x8);
     // private UnityEngine.AnimationClip _animationClip
     // Size: 0x8
     // Offset: 0x28
-    UnityEngine::AnimationClip* animationClip;
+    ::UnityEngine::AnimationClip* animationClip;
     // Field size check
-    static_assert(sizeof(UnityEngine::AnimationClip*) == 0x8);
+    static_assert(sizeof(::UnityEngine::AnimationClip*) == 0x8);
     // private BTSCharacter _btsCharacter
     // Size: 0x8
     // Offset: 0x30
-    GlobalNamespace::BTSCharacter* btsCharacter;
+    ::GlobalNamespace::BTSCharacter* btsCharacter;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::BTSCharacter*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::BTSCharacter*) == 0x8);
     // private UnityEngine.AddressableAssets.AssetReference _btsCharacterAssetReference
     // Size: 0x8
     // Offset: 0x38
-    UnityEngine::AddressableAssets::AssetReference* btsCharacterAssetReference;
+    ::UnityEngine::AddressableAssets::AssetReference* btsCharacterAssetReference;
     // Field size check
-    static_assert(sizeof(UnityEngine::AddressableAssets::AssetReference*) == 0x8);
+    static_assert(sizeof(::UnityEngine::AddressableAssets::AssetReference*) == 0x8);
     public:
     // Get instance field reference: private System.String _name
     ::StringW& dyn__name();
     // Get instance field reference: private UnityEngine.Transform _placeTransform
-    UnityEngine::Transform*& dyn__placeTransform();
+    ::UnityEngine::Transform*& dyn__placeTransform();
     // Get instance field reference: private BTSCharacterResultAnimationController _animationController
-    GlobalNamespace::BTSCharacterResultAnimationController*& dyn__animationController();
+    ::GlobalNamespace::BTSCharacterResultAnimationController*& dyn__animationController();
     // Get instance field reference: private UnityEngine.AnimationClip _animationClip
-    UnityEngine::AnimationClip*& dyn__animationClip();
+    ::UnityEngine::AnimationClip*& dyn__animationClip();
     // Get instance field reference: private BTSCharacter _btsCharacter
-    GlobalNamespace::BTSCharacter*& dyn__btsCharacter();
+    ::GlobalNamespace::BTSCharacter*& dyn__btsCharacter();
     // Get instance field reference: private UnityEngine.AddressableAssets.AssetReference _btsCharacterAssetReference
-    UnityEngine::AddressableAssets::AssetReference*& dyn__btsCharacterAssetReference();
+    ::UnityEngine::AddressableAssets::AssetReference*& dyn__btsCharacterAssetReference();
     // public System.String get_name()
     // Offset: 0x13B98FC
     ::StringW get_name();
@@ -111,19 +111,19 @@ namespace GlobalNamespace {
     void Clean();
     // public System.Void SetCharacter(UnityEngine.AddressableAssets.AssetReference assetReference, BTSCharacter btsCharacter, System.Boolean alternativeMaterial)
     // Offset: 0x13B91C8
-    void SetCharacter(UnityEngine::AddressableAssets::AssetReference* assetReference, GlobalNamespace::BTSCharacter* btsCharacter, bool alternativeMaterial);
+    void SetCharacter(::UnityEngine::AddressableAssets::AssetReference* assetReference, ::GlobalNamespace::BTSCharacter* btsCharacter, bool alternativeMaterial);
     // public System.Void .ctor()
     // Offset: 0x13B9904
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation*, creationType>()));
     }
   }; // BtsResultsEnvironmentController/BTSResultCharacterPlaceWithAnimation
   #pragma pack(pop)
-  static check_size<sizeof(BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation), 56 + sizeof(UnityEngine::AddressableAssets::AssetReference*)> __GlobalNamespace_BtsResultsEnvironmentController_BTSResultCharacterPlaceWithAnimationSizeCheck;
+  static check_size<sizeof(BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation), 56 + sizeof(::UnityEngine::AddressableAssets::AssetReference*)> __GlobalNamespace_BtsResultsEnvironmentController_BTSResultCharacterPlaceWithAnimationSizeCheck;
   static_assert(sizeof(BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -146,7 +146,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation::SetCharacter
 // Il2CppName: SetCharacter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation::*)(UnityEngine::AddressableAssets::AssetReference*, GlobalNamespace::BTSCharacter*, bool)>(&GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation::SetCharacter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation::*)(::UnityEngine::AddressableAssets::AssetReference*, ::GlobalNamespace::BTSCharacter*, bool)>(&GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation::SetCharacter)> {
   static const MethodInfo* get() {
     static auto* assetReference = &::il2cpp_utils::GetClassFromName("UnityEngine.AddressableAssets", "AssetReference")->byval_arg;
     static auto* btsCharacter = &::il2cpp_utils::GetClassFromName("", "BTSCharacter")->byval_arg;

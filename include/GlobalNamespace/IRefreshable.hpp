@@ -11,8 +11,8 @@ namespace GlobalNamespace {
   class IRefreshable;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::IRefreshable);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IRefreshable*, "", "IRefreshable");
+NEED_NO_BOX(::GlobalNamespace::IRefreshable);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IRefreshable*, "", "IRefreshable");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10

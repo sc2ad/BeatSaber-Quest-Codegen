@@ -63,8 +63,8 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   class UnityWorkItem;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "UnityWorkItem");
+NEED_NO_BOX(::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "UnityWorkItem");
 // Type namespace: UnityEngine.TestRunner.NUnitExtensions.Runner
 namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   // Size: 0x58
@@ -85,9 +85,9 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // protected readonly UnityEngine.TestRunner.NUnitExtensions.Runner.WorkItemFactory m_Factory
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory* m_Factory;
+    ::UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory* m_Factory;
     // Field size check
-    static_assert(sizeof(UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory*) == 0x8);
+    static_assert(sizeof(::UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory*) == 0x8);
     // protected System.Boolean m_ExecuteTestStartEvent
     // Size: 0x1
     // Offset: 0x18
@@ -105,9 +105,9 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // private System.EventHandler Completed
     // Size: 0x8
     // Offset: 0x20
-    System::EventHandler* Completed;
+    ::System::EventHandler* Completed;
     // Field size check
-    static_assert(sizeof(System::EventHandler*) == 0x8);
+    static_assert(sizeof(::System::EventHandler*) == 0x8);
     // private System.Boolean <ResultedInDomainReload>k__BackingField
     // Size: 0x1
     // Offset: 0x28
@@ -119,35 +119,35 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // private UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext <Context>k__BackingField
     // Size: 0x8
     // Offset: 0x30
-    UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* Context;
+    ::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* Context;
     // Field size check
-    static_assert(sizeof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*) == 0x8);
+    static_assert(sizeof(::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*) == 0x8);
     // private NUnit.Framework.Internal.Test <Test>k__BackingField
     // Size: 0x8
     // Offset: 0x38
-    NUnit::Framework::Internal::Test* Test;
+    ::NUnit::Framework::Internal::Test* Test;
     // Field size check
-    static_assert(sizeof(NUnit::Framework::Internal::Test*) == 0x8);
+    static_assert(sizeof(::NUnit::Framework::Internal::Test*) == 0x8);
     // private NUnit.Framework.Internal.TestResult <Result>k__BackingField
     // Size: 0x8
     // Offset: 0x40
-    NUnit::Framework::Internal::TestResult* Result;
+    ::NUnit::Framework::Internal::TestResult* Result;
     // Field size check
-    static_assert(sizeof(NUnit::Framework::Internal::TestResult*) == 0x8);
+    static_assert(sizeof(::NUnit::Framework::Internal::TestResult*) == 0x8);
     // private NUnit.Framework.Internal.Execution.WorkItemState <State>k__BackingField
     // Size: 0x4
     // Offset: 0x48
-    NUnit::Framework::Internal::Execution::WorkItemState State;
+    ::NUnit::Framework::Internal::Execution::WorkItemState State;
     // Field size check
-    static_assert(sizeof(NUnit::Framework::Internal::Execution::WorkItemState) == 0x4);
+    static_assert(sizeof(::NUnit::Framework::Internal::Execution::WorkItemState) == 0x4);
     // Padding between fields: State and: Actions
     char __padding8[0x4] = {};
     // private System.Collections.Generic.List`1<NUnit.Framework.ITestAction> <Actions>k__BackingField
     // Size: 0x8
     // Offset: 0x50
-    System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>* Actions;
+    ::System::Collections::Generic::List_1<::NUnit::Framework::ITestAction*>* Actions;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::NUnit::Framework::ITestAction*>*) == 0x8);
     public:
     // static field const value: static protected System.Int32 k_DefaultTimeout
     static constexpr const int k_DefaultTimeout = 180000;
@@ -156,25 +156,25 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Set static field: static protected System.Int32 k_DefaultTimeout
     static void _set_k_DefaultTimeout(int value);
     // Get instance field reference: protected readonly UnityEngine.TestRunner.NUnitExtensions.Runner.WorkItemFactory m_Factory
-    UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory*& dyn_m_Factory();
+    ::UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory*& dyn_m_Factory();
     // Get instance field reference: protected System.Boolean m_ExecuteTestStartEvent
     bool& dyn_m_ExecuteTestStartEvent();
     // Get instance field reference: protected System.Boolean m_DontRunRestoringResult
     bool& dyn_m_DontRunRestoringResult();
     // Get instance field reference: private System.EventHandler Completed
-    System::EventHandler*& dyn_Completed();
+    ::System::EventHandler*& dyn_Completed();
     // Get instance field reference: private System.Boolean <ResultedInDomainReload>k__BackingField
     bool& dyn_$ResultedInDomainReload$k__BackingField();
     // Get instance field reference: private UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext <Context>k__BackingField
-    UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*& dyn_$Context$k__BackingField();
+    ::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*& dyn_$Context$k__BackingField();
     // Get instance field reference: private NUnit.Framework.Internal.Test <Test>k__BackingField
-    NUnit::Framework::Internal::Test*& dyn_$Test$k__BackingField();
+    ::NUnit::Framework::Internal::Test*& dyn_$Test$k__BackingField();
     // Get instance field reference: private NUnit.Framework.Internal.TestResult <Result>k__BackingField
-    NUnit::Framework::Internal::TestResult*& dyn_$Result$k__BackingField();
+    ::NUnit::Framework::Internal::TestResult*& dyn_$Result$k__BackingField();
     // Get instance field reference: private NUnit.Framework.Internal.Execution.WorkItemState <State>k__BackingField
-    NUnit::Framework::Internal::Execution::WorkItemState& dyn_$State$k__BackingField();
+    ::NUnit::Framework::Internal::Execution::WorkItemState& dyn_$State$k__BackingField();
     // Get instance field reference: private System.Collections.Generic.List`1<NUnit.Framework.ITestAction> <Actions>k__BackingField
-    System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>*& dyn_$Actions$k__BackingField();
+    ::System::Collections::Generic::List_1<::NUnit::Framework::ITestAction*>*& dyn_$Actions$k__BackingField();
     // public System.Boolean get_ResultedInDomainReload()
     // Offset: 0x18D0390
     bool get_ResultedInDomainReload();
@@ -183,56 +183,56 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     void set_ResultedInDomainReload(bool value);
     // public UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext get_Context()
     // Offset: 0x18D03A4
-    UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* get_Context();
+    ::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* get_Context();
     // private System.Void set_Context(UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext value)
     // Offset: 0x18D03AC
-    void set_Context(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* value);
+    void set_Context(::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* value);
     // public NUnit.Framework.Internal.Test get_Test()
     // Offset: 0x18D03B4
-    NUnit::Framework::Internal::Test* get_Test();
+    ::NUnit::Framework::Internal::Test* get_Test();
     // private System.Void set_Test(NUnit.Framework.Internal.Test value)
     // Offset: 0x18D03BC
-    void set_Test(NUnit::Framework::Internal::Test* value);
+    void set_Test(::NUnit::Framework::Internal::Test* value);
     // public NUnit.Framework.Internal.TestResult get_Result()
     // Offset: 0x18D03C4
-    NUnit::Framework::Internal::TestResult* get_Result();
+    ::NUnit::Framework::Internal::TestResult* get_Result();
     // protected System.Void set_Result(NUnit.Framework.Internal.TestResult value)
     // Offset: 0x18D03CC
-    void set_Result(NUnit::Framework::Internal::TestResult* value);
+    void set_Result(::NUnit::Framework::Internal::TestResult* value);
     // public NUnit.Framework.Internal.Execution.WorkItemState get_State()
     // Offset: 0x18D03D4
-    NUnit::Framework::Internal::Execution::WorkItemState get_State();
+    ::NUnit::Framework::Internal::Execution::WorkItemState get_State();
     // private System.Void set_State(NUnit.Framework.Internal.Execution.WorkItemState value)
     // Offset: 0x18D03DC
-    void set_State(NUnit::Framework::Internal::Execution::WorkItemState value);
+    void set_State(::NUnit::Framework::Internal::Execution::WorkItemState value);
     // public System.Collections.Generic.List`1<NUnit.Framework.ITestAction> get_Actions()
     // Offset: 0x18D03E4
-    System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>* get_Actions();
+    ::System::Collections::Generic::List_1<::NUnit::Framework::ITestAction*>* get_Actions();
     // private System.Void set_Actions(System.Collections.Generic.List`1<NUnit.Framework.ITestAction> value)
     // Offset: 0x18D03EC
-    void set_Actions(System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>* value);
+    void set_Actions(::System::Collections::Generic::List_1<::NUnit::Framework::ITestAction*>* value);
     // protected System.Void .ctor(NUnit.Framework.Internal.Test test, UnityEngine.TestRunner.NUnitExtensions.Runner.WorkItemFactory factory)
     // Offset: 0x18C76E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static UnityWorkItem* New_ctor(NUnit::Framework::Internal::Test* test, UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory* factory) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::.ctor");
+    static UnityWorkItem* New_ctor(::NUnit::Framework::Internal::Test* test, ::UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory* factory) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityWorkItem*, creationType>(test, factory)));
     }
     // static protected System.Boolean ShouldRestore(NUnit.Framework.Interfaces.ITest loadedTest)
     // Offset: 0x18D04F4
-    static bool ShouldRestore(NUnit::Framework::Interfaces::ITest* loadedTest);
+    static bool ShouldRestore(::NUnit::Framework::Interfaces::ITest* loadedTest);
     // protected System.Boolean ShouldExecuteStartEvent()
     // Offset: 0x18D03F4
     bool ShouldExecuteStartEvent();
     // protected System.Collections.IEnumerable PerformWork()
     // Offset: 0xFFFFFFFF
-    System::Collections::IEnumerable* PerformWork();
+    ::System::Collections::IEnumerable* PerformWork();
     // public System.Void InitializeContext(UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
     // Offset: 0x18CAB68
-    void InitializeContext(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* context);
+    void InitializeContext(::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* context);
     // public System.Collections.IEnumerable Execute()
     // Offset: 0x18D071C
-    System::Collections::IEnumerable* Execute();
+    ::System::Collections::IEnumerable* Execute();
     // protected System.Void WorkItemComplete()
     // Offset: 0x18C986C
     void WorkItemComplete();
@@ -244,7 +244,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     bool $ShouldExecuteStartEvent$b__33_0(::StringW x);
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItem
   #pragma pack(pop)
-  static check_size<sizeof(UnityWorkItem), 80 + sizeof(System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>*)> __UnityEngine_TestRunner_NUnitExtensions_Runner_UnityWorkItemSizeCheck;
+  static check_size<sizeof(UnityWorkItem), 80 + sizeof(::System::Collections::Generic::List_1<::NUnit::Framework::ITestAction*>*)> __UnityEngine_TestRunner_NUnitExtensions_Runner_UnityWorkItemSizeCheck;
   static_assert(sizeof(UnityWorkItem) == 0x58);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -268,7 +268,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::get_Context
 // Il2CppName: get_Context
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::get_Context)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::get_Context)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*), "get_Context", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -276,7 +276,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::set_Context
 // Il2CppName: set_Context
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::*)(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::set_Context)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::*)(::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::set_Context)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.TestRunner.NUnitExtensions.Runner", "UnityTestExecutionContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*), "set_Context", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -285,7 +285,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::get_Test
 // Il2CppName: get_Test
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Test* (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::get_Test)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Framework::Internal::Test* (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::get_Test)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*), "get_Test", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -293,7 +293,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::set_Test
 // Il2CppName: set_Test
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::*)(NUnit::Framework::Internal::Test*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::set_Test)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::*)(::NUnit::Framework::Internal::Test*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::set_Test)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "Test")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*), "set_Test", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -302,7 +302,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::get_Result
 // Il2CppName: get_Result
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestResult* (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::get_Result)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Framework::Internal::TestResult* (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::get_Result)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*), "get_Result", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -310,7 +310,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::set_Result
 // Il2CppName: set_Result
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::*)(NUnit::Framework::Internal::TestResult*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::set_Result)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::*)(::NUnit::Framework::Internal::TestResult*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::set_Result)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "TestResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*), "set_Result", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -319,7 +319,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::get_State
 // Il2CppName: get_State
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Execution::WorkItemState (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::get_State)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Framework::Internal::Execution::WorkItemState (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::get_State)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*), "get_State", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -327,7 +327,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::set_State
 // Il2CppName: set_State
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::*)(NUnit::Framework::Internal::Execution::WorkItemState)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::set_State)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::*)(::NUnit::Framework::Internal::Execution::WorkItemState)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::set_State)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal.Execution", "WorkItemState")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*), "set_State", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -336,7 +336,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::get_Actions
 // Il2CppName: get_Actions
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>* (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::get_Actions)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::NUnit::Framework::ITestAction*>* (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::get_Actions)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*), "get_Actions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -344,7 +344,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::set_Actions
 // Il2CppName: set_Actions
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::*)(System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::set_Actions)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::*)(::System::Collections::Generic::List_1<::NUnit::Framework::ITestAction*>*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::set_Actions)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("NUnit.Framework", "ITestAction")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*), "set_Actions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -357,7 +357,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::ShouldRestore
 // Il2CppName: ShouldRestore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(NUnit::Framework::Interfaces::ITest*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::ShouldRestore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::NUnit::Framework::Interfaces::ITest*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::ShouldRestore)> {
   static const MethodInfo* get() {
     static auto* loadedTest = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ITest")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*), "ShouldRestore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{loadedTest});
@@ -374,7 +374,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::PerformWork
 // Il2CppName: PerformWork
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerable* (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::PerformWork)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerable* (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::PerformWork)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*), "PerformWork", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -382,7 +382,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::InitializeContext
 // Il2CppName: InitializeContext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::*)(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::InitializeContext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::*)(::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::InitializeContext)> {
   static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("UnityEngine.TestRunner.NUnitExtensions.Runner", "UnityTestExecutionContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*), "InitializeContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
@@ -391,7 +391,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::Execute
 // Il2CppName: Execute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerable* (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::Execute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerable* (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::Execute)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

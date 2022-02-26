@@ -19,8 +19,8 @@ namespace Oculus::Platform::Models {
   class Destination;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::Destination);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::Destination*, "Oculus.Platform.Models", "Destination");
+NEED_NO_BOX(::Oculus::Platform::Models::Destination);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::Destination*, "Oculus.Platform.Models", "Destination");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x28
@@ -66,8 +66,8 @@ namespace Oculus::Platform::Models {
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x196D26C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Destination* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::Destination::.ctor");
+    static Destination* New_ctor(::System::IntPtr o) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::Destination::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Destination*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.Destination

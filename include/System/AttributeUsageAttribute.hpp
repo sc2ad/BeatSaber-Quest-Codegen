@@ -20,8 +20,8 @@ namespace System {
   class AttributeUsageAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::AttributeUsageAttribute);
-DEFINE_IL2CPP_ARG_TYPE(System::AttributeUsageAttribute*, "System", "AttributeUsageAttribute");
+NEED_NO_BOX(::System::AttributeUsageAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::AttributeUsageAttribute*, "System", "AttributeUsageAttribute");
 // Type namespace: System
 namespace System {
   // Size: 0x16
@@ -30,7 +30,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: 1186A58
   // [AttributeUsageAttribute] Offset: 1186A58
-  class AttributeUsageAttribute : public System::Attribute {
+  class AttributeUsageAttribute : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -44,9 +44,9 @@ namespace System {
     // System.AttributeTargets m_attributeTarget
     // Size: 0x4
     // Offset: 0x10
-    System::AttributeTargets m_attributeTarget;
+    ::System::AttributeTargets m_attributeTarget;
     // Field size check
-    static_assert(sizeof(System::AttributeTargets) == 0x4);
+    static_assert(sizeof(::System::AttributeTargets) == 0x4);
     // System.Boolean m_allowMultiple
     // Size: 0x1
     // Offset: 0x14
@@ -61,11 +61,11 @@ namespace System {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get static field: static System.AttributeUsageAttribute Default
-    static System::AttributeUsageAttribute* _get_Default();
+    static ::System::AttributeUsageAttribute* _get_Default();
     // Set static field: static System.AttributeUsageAttribute Default
-    static void _set_Default(System::AttributeUsageAttribute* value);
+    static void _set_Default(::System::AttributeUsageAttribute* value);
     // Get instance field reference: System.AttributeTargets m_attributeTarget
-    System::AttributeTargets& dyn_m_attributeTarget();
+    ::System::AttributeTargets& dyn_m_attributeTarget();
     // Get instance field reference: System.Boolean m_allowMultiple
     bool& dyn_m_allowMultiple();
     // Get instance field reference: System.Boolean m_inherited
@@ -85,8 +85,8 @@ namespace System {
     // public System.Void .ctor(System.AttributeTargets validOn)
     // Offset: 0x1DA9F50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AttributeUsageAttribute* New_ctor(System::AttributeTargets validOn) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::AttributeUsageAttribute::.ctor");
+    static AttributeUsageAttribute* New_ctor(::System::AttributeTargets validOn) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::AttributeUsageAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AttributeUsageAttribute*, creationType>(validOn)));
     }
     // static private System.Void .cctor()

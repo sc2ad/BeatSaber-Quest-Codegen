@@ -17,7 +17,7 @@
 #include "UnityEngine/Rendering/RenderTargetIdentifier.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRDisplaySubsystem::XRRenderPass, "UnityEngine.XR", "XRDisplaySubsystem/XRRenderPass");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::XRDisplaySubsystem::XRRenderPass, "UnityEngine.XR", "XRDisplaySubsystem/XRRenderPass");
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {
   // Size: 0x74
@@ -28,15 +28,15 @@ namespace UnityEngine::XR {
   // [NativeHeaderAttribute] Offset: 11CE424
   // [NativeHeaderAttribute] Offset: 11CE424
   // [NativeHeaderAttribute] Offset: 11CE424
-  struct XRDisplaySubsystem::XRRenderPass/*, public System::ValueType*/ {
+  struct XRDisplaySubsystem::XRRenderPass/*, public ::System::ValueType*/ {
     public:
     public:
     // private System.IntPtr displaySubsystemInstance
     // Size: 0x8
     // Offset: 0x0
-    System::IntPtr displaySubsystemInstance;
+    ::System::IntPtr displaySubsystemInstance;
     // Field size check
-    static_assert(sizeof(System::IntPtr) == 0x8);
+    static_assert(sizeof(::System::IntPtr) == 0x8);
     // public System.Int32 renderPassIndex
     // Size: 0x4
     // Offset: 0x8
@@ -48,17 +48,17 @@ namespace UnityEngine::XR {
     // public UnityEngine.Rendering.RenderTargetIdentifier renderTarget
     // Size: 0x24
     // Offset: 0x10
-    UnityEngine::Rendering::RenderTargetIdentifier renderTarget;
+    ::UnityEngine::Rendering::RenderTargetIdentifier renderTarget;
     // Field size check
-    static_assert(sizeof(UnityEngine::Rendering::RenderTargetIdentifier) == 0x24);
+    static_assert(sizeof(::UnityEngine::Rendering::RenderTargetIdentifier) == 0x24);
     // Padding between fields: renderTarget and: renderTargetDesc
     char __padding2[0x4] = {};
     // public UnityEngine.RenderTextureDescriptor renderTargetDesc
     // Size: 0x34
     // Offset: 0x38
-    UnityEngine::RenderTextureDescriptor renderTargetDesc;
+    ::UnityEngine::RenderTextureDescriptor renderTargetDesc;
     // Field size check
-    static_assert(sizeof(UnityEngine::RenderTextureDescriptor) == 0x34);
+    static_assert(sizeof(::UnityEngine::RenderTextureDescriptor) == 0x34);
     // public System.Boolean shouldFillOutDepth
     // Size: 0x1
     // Offset: 0x6C
@@ -75,19 +75,19 @@ namespace UnityEngine::XR {
     static_assert(sizeof(int) == 0x4);
     public:
     // Creating value type constructor for type: XRRenderPass
-    constexpr XRRenderPass(System::IntPtr displaySubsystemInstance_ = {}, int renderPassIndex_ = {}, UnityEngine::Rendering::RenderTargetIdentifier renderTarget_ = {}, UnityEngine::RenderTextureDescriptor renderTargetDesc_ = {}, bool shouldFillOutDepth_ = {}, int cullingPassIndex_ = {}) noexcept : displaySubsystemInstance{displaySubsystemInstance_}, renderPassIndex{renderPassIndex_}, renderTarget{renderTarget_}, renderTargetDesc{renderTargetDesc_}, shouldFillOutDepth{shouldFillOutDepth_}, cullingPassIndex{cullingPassIndex_} {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    constexpr XRRenderPass(::System::IntPtr displaySubsystemInstance_ = {}, int renderPassIndex_ = {}, ::UnityEngine::Rendering::RenderTargetIdentifier renderTarget_ = {}, ::UnityEngine::RenderTextureDescriptor renderTargetDesc_ = {}, bool shouldFillOutDepth_ = {}, int cullingPassIndex_ = {}) noexcept : displaySubsystemInstance{displaySubsystemInstance_}, renderPassIndex{renderPassIndex_}, renderTarget{renderTarget_}, renderTargetDesc{renderTargetDesc_}, shouldFillOutDepth{shouldFillOutDepth_}, cullingPassIndex{cullingPassIndex_} {}
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: private System.IntPtr displaySubsystemInstance
-    System::IntPtr& dyn_displaySubsystemInstance();
+    ::System::IntPtr& dyn_displaySubsystemInstance();
     // Get instance field reference: public System.Int32 renderPassIndex
     int& dyn_renderPassIndex();
     // Get instance field reference: public UnityEngine.Rendering.RenderTargetIdentifier renderTarget
-    UnityEngine::Rendering::RenderTargetIdentifier& dyn_renderTarget();
+    ::UnityEngine::Rendering::RenderTargetIdentifier& dyn_renderTarget();
     // Get instance field reference: public UnityEngine.RenderTextureDescriptor renderTargetDesc
-    UnityEngine::RenderTextureDescriptor& dyn_renderTargetDesc();
+    ::UnityEngine::RenderTextureDescriptor& dyn_renderTargetDesc();
     // Get instance field reference: public System.Boolean shouldFillOutDepth
     bool& dyn_shouldFillOutDepth();
     // Get instance field reference: public System.Int32 cullingPassIndex

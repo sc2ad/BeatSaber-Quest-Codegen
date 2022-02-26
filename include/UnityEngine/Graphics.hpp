@@ -59,8 +59,8 @@ namespace UnityEngine {
   class Graphics;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Graphics);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Graphics*, "UnityEngine", "Graphics");
+NEED_NO_BOX(::UnityEngine::Graphics);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Graphics*, "UnityEngine", "Graphics");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -81,10 +81,10 @@ namespace UnityEngine {
     static void _set_kMaxDrawMeshInstanceCount(int value);
     // static public UnityEngine.Rendering.GraphicsTier get_activeTier()
     // Offset: 0x1EBE95C
-    static UnityEngine::Rendering::GraphicsTier get_activeTier();
+    static ::UnityEngine::Rendering::GraphicsTier get_activeTier();
     // static public System.Void set_activeTier(UnityEngine.Rendering.GraphicsTier value)
     // Offset: 0x1EBE990
-    static void set_activeTier(UnityEngine::Rendering::GraphicsTier value);
+    static void set_activeTier(::UnityEngine::Rendering::GraphicsTier value);
     // static private System.Void .cctor()
     // Offset: 0x1EC072C
     static void _cctor();
@@ -96,106 +96,106 @@ namespace UnityEngine {
     static void Internal_SetNullRT();
     // static private System.Void Internal_SetRTSimple(UnityEngine.RenderBuffer color, UnityEngine.RenderBuffer depth, System.Int32 mip, UnityEngine.CubemapFace face, System.Int32 depthSlice)
     // Offset: 0x1EBEA04
-    static void Internal_SetRTSimple(UnityEngine::RenderBuffer color, UnityEngine::RenderBuffer depth, int mip, UnityEngine::CubemapFace face, int depthSlice);
+    static void Internal_SetRTSimple(::UnityEngine::RenderBuffer color, ::UnityEngine::RenderBuffer depth, int mip, ::UnityEngine::CubemapFace face, int depthSlice);
     // static private System.Void CopyTexture_Slice(UnityEngine.Texture src, System.Int32 srcElement, System.Int32 srcMip, UnityEngine.Texture dst, System.Int32 dstElement, System.Int32 dstMip)
     // Offset: 0x1EBEB2C
-    static void CopyTexture_Slice(UnityEngine::Texture* src, int srcElement, int srcMip, UnityEngine::Texture* dst, int dstElement, int dstMip);
+    static void CopyTexture_Slice(::UnityEngine::Texture* src, int srcElement, int srcMip, ::UnityEngine::Texture* dst, int dstElement, int dstMip);
     // static private System.Void Internal_DrawMeshNow2(UnityEngine.Mesh mesh, System.Int32 subsetIndex, UnityEngine.Matrix4x4 matrix)
     // Offset: 0x1EBEBAC
-    static void Internal_DrawMeshNow2(UnityEngine::Mesh* mesh, int subsetIndex, UnityEngine::Matrix4x4 matrix);
+    static void Internal_DrawMeshNow2(::UnityEngine::Mesh* mesh, int subsetIndex, ::UnityEngine::Matrix4x4 matrix);
     // static System.Void Internal_DrawTexture(ref UnityEngine.Internal_DrawTextureArguments args)
     // Offset: 0x1EBECA0
-    static void Internal_DrawTexture(ByRef<UnityEngine::Internal_DrawTextureArguments> args);
+    static void Internal_DrawTexture(ByRef<::UnityEngine::Internal_DrawTextureArguments> args);
     // static private System.Void Internal_DrawMesh(UnityEngine.Mesh mesh, System.Int32 submeshIndex, UnityEngine.Matrix4x4 matrix, UnityEngine.Material material, System.Int32 layer, UnityEngine.Camera camera, UnityEngine.MaterialPropertyBlock properties, UnityEngine.Rendering.ShadowCastingMode castShadows, System.Boolean receiveShadows, UnityEngine.Transform probeAnchor, UnityEngine.Rendering.LightProbeUsage lightProbeUsage, UnityEngine.LightProbeProxyVolume lightProbeProxyVolume)
     // Offset: 0x1EBECE0
-    static void Internal_DrawMesh(UnityEngine::Mesh* mesh, int submeshIndex, UnityEngine::Matrix4x4 matrix, UnityEngine::Material* material, int layer, UnityEngine::Camera* camera, UnityEngine::MaterialPropertyBlock* properties, UnityEngine::Rendering::ShadowCastingMode castShadows, bool receiveShadows, UnityEngine::Transform* probeAnchor, UnityEngine::Rendering::LightProbeUsage lightProbeUsage, UnityEngine::LightProbeProxyVolume* lightProbeProxyVolume);
+    static void Internal_DrawMesh(::UnityEngine::Mesh* mesh, int submeshIndex, ::UnityEngine::Matrix4x4 matrix, ::UnityEngine::Material* material, int layer, ::UnityEngine::Camera* camera, ::UnityEngine::MaterialPropertyBlock* properties, ::UnityEngine::Rendering::ShadowCastingMode castShadows, bool receiveShadows, ::UnityEngine::Transform* probeAnchor, ::UnityEngine::Rendering::LightProbeUsage lightProbeUsage, ::UnityEngine::LightProbeProxyVolume* lightProbeProxyVolume);
     // static private System.Void Internal_DrawMeshInstanced(UnityEngine.Mesh mesh, System.Int32 submeshIndex, UnityEngine.Material material, UnityEngine.Matrix4x4[] matrices, System.Int32 count, UnityEngine.MaterialPropertyBlock properties, UnityEngine.Rendering.ShadowCastingMode castShadows, System.Boolean receiveShadows, System.Int32 layer, UnityEngine.Camera camera, UnityEngine.Rendering.LightProbeUsage lightProbeUsage, UnityEngine.LightProbeProxyVolume lightProbeProxyVolume)
     // Offset: 0x1EBEEA8
-    static void Internal_DrawMeshInstanced(UnityEngine::Mesh* mesh, int submeshIndex, UnityEngine::Material* material, ::ArrayW<UnityEngine::Matrix4x4> matrices, int count, UnityEngine::MaterialPropertyBlock* properties, UnityEngine::Rendering::ShadowCastingMode castShadows, bool receiveShadows, int layer, UnityEngine::Camera* camera, UnityEngine::Rendering::LightProbeUsage lightProbeUsage, UnityEngine::LightProbeProxyVolume* lightProbeProxyVolume);
+    static void Internal_DrawMeshInstanced(::UnityEngine::Mesh* mesh, int submeshIndex, ::UnityEngine::Material* material, ::ArrayW<::UnityEngine::Matrix4x4> matrices, int count, ::UnityEngine::MaterialPropertyBlock* properties, ::UnityEngine::Rendering::ShadowCastingMode castShadows, bool receiveShadows, int layer, ::UnityEngine::Camera* camera, ::UnityEngine::Rendering::LightProbeUsage lightProbeUsage, ::UnityEngine::LightProbeProxyVolume* lightProbeProxyVolume);
     // static private System.Void Internal_BlitMaterial5(UnityEngine.Texture source, UnityEngine.RenderTexture dest, UnityEngine.Material mat, System.Int32 pass, System.Boolean setRT)
     // Offset: 0x1EBEF6C
-    static void Internal_BlitMaterial5(UnityEngine::Texture* source, UnityEngine::RenderTexture* dest, UnityEngine::Material* mat, int pass, bool setRT);
+    static void Internal_BlitMaterial5(::UnityEngine::Texture* source, ::UnityEngine::RenderTexture* dest, ::UnityEngine::Material* mat, int pass, bool setRT);
     // static private System.Void Blit2(UnityEngine.Texture source, UnityEngine.RenderTexture dest)
     // Offset: 0x1EBEFDC
-    static void Blit2(UnityEngine::Texture* source, UnityEngine::RenderTexture* dest);
+    static void Blit2(::UnityEngine::Texture* source, ::UnityEngine::RenderTexture* dest);
     // static private System.Void Blit4(UnityEngine.Texture source, UnityEngine.RenderTexture dest, UnityEngine.Vector2 scale, UnityEngine.Vector2 offset)
     // Offset: 0x1EBF02C
-    static void Blit4(UnityEngine::Texture* source, UnityEngine::RenderTexture* dest, UnityEngine::Vector2 scale, UnityEngine::Vector2 offset);
+    static void Blit4(::UnityEngine::Texture* source, ::UnityEngine::RenderTexture* dest, ::UnityEngine::Vector2 scale, ::UnityEngine::Vector2 offset);
     // static public System.Void ExecuteCommandBuffer(UnityEngine.Rendering.CommandBuffer buffer)
     // Offset: 0x1EBF144
-    static void ExecuteCommandBuffer(UnityEngine::Rendering::CommandBuffer* buffer);
+    static void ExecuteCommandBuffer(::UnityEngine::Rendering::CommandBuffer* buffer);
     // static System.Void SetRenderTargetImpl(UnityEngine.RenderBuffer colorBuffer, UnityEngine.RenderBuffer depthBuffer, System.Int32 mipLevel, UnityEngine.CubemapFace face, System.Int32 depthSlice)
     // Offset: 0x1EBF184
-    static void SetRenderTargetImpl(UnityEngine::RenderBuffer colorBuffer, UnityEngine::RenderBuffer depthBuffer, int mipLevel, UnityEngine::CubemapFace face, int depthSlice);
+    static void SetRenderTargetImpl(::UnityEngine::RenderBuffer colorBuffer, ::UnityEngine::RenderBuffer depthBuffer, int mipLevel, ::UnityEngine::CubemapFace face, int depthSlice);
     // static System.Void SetRenderTargetImpl(UnityEngine.RenderTexture rt, System.Int32 mipLevel, UnityEngine.CubemapFace face, System.Int32 depthSlice)
     // Offset: 0x1EBF230
-    static void SetRenderTargetImpl(UnityEngine::RenderTexture* rt, int mipLevel, UnityEngine::CubemapFace face, int depthSlice);
+    static void SetRenderTargetImpl(::UnityEngine::RenderTexture* rt, int mipLevel, ::UnityEngine::CubemapFace face, int depthSlice);
     // static public System.Void SetRenderTarget(UnityEngine.RenderTexture rt, System.Int32 mipLevel, UnityEngine.CubemapFace face, System.Int32 depthSlice)
     // Offset: 0x1EBF384
-    static void SetRenderTarget(UnityEngine::RenderTexture* rt, int mipLevel, UnityEngine::CubemapFace face, int depthSlice);
+    static void SetRenderTarget(::UnityEngine::RenderTexture* rt, int mipLevel, ::UnityEngine::CubemapFace face, int depthSlice);
     // static public System.Void CopyTexture(UnityEngine.Texture src, System.Int32 srcElement, System.Int32 srcMip, UnityEngine.Texture dst, System.Int32 dstElement, System.Int32 dstMip)
     // Offset: 0x1EBF410
-    static void CopyTexture(UnityEngine::Texture* src, int srcElement, int srcMip, UnityEngine::Texture* dst, int dstElement, int dstMip);
+    static void CopyTexture(::UnityEngine::Texture* src, int srcElement, int srcMip, ::UnityEngine::Texture* dst, int dstElement, int dstMip);
     // static private System.Void DrawTextureImpl(UnityEngine.Rect screenRect, UnityEngine.Texture texture, UnityEngine.Rect sourceRect, System.Int32 leftBorder, System.Int32 rightBorder, System.Int32 topBorder, System.Int32 bottomBorder, UnityEngine.Color color, UnityEngine.Material mat, System.Int32 pass)
     // Offset: 0x1EBF4D4
-    static void DrawTextureImpl(UnityEngine::Rect screenRect, UnityEngine::Texture* texture, UnityEngine::Rect sourceRect, int leftBorder, int rightBorder, int topBorder, int bottomBorder, UnityEngine::Color color, UnityEngine::Material* mat, int pass);
+    static void DrawTextureImpl(::UnityEngine::Rect screenRect, ::UnityEngine::Texture* texture, ::UnityEngine::Rect sourceRect, int leftBorder, int rightBorder, int topBorder, int bottomBorder, ::UnityEngine::Color color, ::UnityEngine::Material* mat, int pass);
     // static public System.Void DrawTexture(UnityEngine.Rect screenRect, UnityEngine.Texture texture, UnityEngine.Rect sourceRect, System.Int32 leftBorder, System.Int32 rightBorder, System.Int32 topBorder, System.Int32 bottomBorder, UnityEngine.Material mat, System.Int32 pass)
     // Offset: 0x1EBF64C
-    static void DrawTexture(UnityEngine::Rect screenRect, UnityEngine::Texture* texture, UnityEngine::Rect sourceRect, int leftBorder, int rightBorder, int topBorder, int bottomBorder, UnityEngine::Material* mat, int pass);
+    static void DrawTexture(::UnityEngine::Rect screenRect, ::UnityEngine::Texture* texture, ::UnityEngine::Rect sourceRect, int leftBorder, int rightBorder, int topBorder, int bottomBorder, ::UnityEngine::Material* mat, int pass);
     // static public System.Void DrawTexture(UnityEngine.Rect screenRect, UnityEngine.Texture texture, System.Int32 leftBorder, System.Int32 rightBorder, System.Int32 topBorder, System.Int32 bottomBorder, UnityEngine.Material mat, System.Int32 pass)
     // Offset: 0x1EBF774
-    static void DrawTexture(UnityEngine::Rect screenRect, UnityEngine::Texture* texture, int leftBorder, int rightBorder, int topBorder, int bottomBorder, UnityEngine::Material* mat, int pass);
+    static void DrawTexture(::UnityEngine::Rect screenRect, ::UnityEngine::Texture* texture, int leftBorder, int rightBorder, int topBorder, int bottomBorder, ::UnityEngine::Material* mat, int pass);
     // static public System.Void DrawTexture(UnityEngine.Rect screenRect, UnityEngine.Texture texture, UnityEngine.Material mat, System.Int32 pass)
     // Offset: 0x1EBF884
-    static void DrawTexture(UnityEngine::Rect screenRect, UnityEngine::Texture* texture, UnityEngine::Material* mat, int pass);
+    static void DrawTexture(::UnityEngine::Rect screenRect, ::UnityEngine::Texture* texture, ::UnityEngine::Material* mat, int pass);
     // static public System.Void DrawMeshNow(UnityEngine.Mesh mesh, UnityEngine.Matrix4x4 matrix, System.Int32 materialIndex)
     // Offset: 0x1EBF940
-    static void DrawMeshNow(UnityEngine::Mesh* mesh, UnityEngine::Matrix4x4 matrix, int materialIndex);
+    static void DrawMeshNow(::UnityEngine::Mesh* mesh, ::UnityEngine::Matrix4x4 matrix, int materialIndex);
     // static public System.Void DrawMesh(UnityEngine.Mesh mesh, UnityEngine.Matrix4x4 matrix, UnityEngine.Material material, System.Int32 layer, UnityEngine.Camera camera, System.Int32 submeshIndex, UnityEngine.MaterialPropertyBlock properties, System.Boolean castShadows, System.Boolean receiveShadows, System.Boolean useLightProbes)
     // Offset: 0x1EBFA58
-    static void DrawMesh(UnityEngine::Mesh* mesh, UnityEngine::Matrix4x4 matrix, UnityEngine::Material* material, int layer, UnityEngine::Camera* camera, int submeshIndex, UnityEngine::MaterialPropertyBlock* properties, bool castShadows, bool receiveShadows, bool useLightProbes);
+    static void DrawMesh(::UnityEngine::Mesh* mesh, ::UnityEngine::Matrix4x4 matrix, ::UnityEngine::Material* material, int layer, ::UnityEngine::Camera* camera, int submeshIndex, ::UnityEngine::MaterialPropertyBlock* properties, bool castShadows, bool receiveShadows, bool useLightProbes);
     // static public System.Void DrawMesh(UnityEngine.Mesh mesh, UnityEngine.Matrix4x4 matrix, UnityEngine.Material material, System.Int32 layer, UnityEngine.Camera camera, System.Int32 submeshIndex, UnityEngine.MaterialPropertyBlock properties, UnityEngine.Rendering.ShadowCastingMode castShadows, System.Boolean receiveShadows, UnityEngine.Transform probeAnchor, UnityEngine.Rendering.LightProbeUsage lightProbeUsage, UnityEngine.LightProbeProxyVolume lightProbeProxyVolume)
     // Offset: 0x1EBFC00
-    static void DrawMesh(UnityEngine::Mesh* mesh, UnityEngine::Matrix4x4 matrix, UnityEngine::Material* material, int layer, UnityEngine::Camera* camera, int submeshIndex, UnityEngine::MaterialPropertyBlock* properties, UnityEngine::Rendering::ShadowCastingMode castShadows, bool receiveShadows, UnityEngine::Transform* probeAnchor, UnityEngine::Rendering::LightProbeUsage lightProbeUsage, UnityEngine::LightProbeProxyVolume* lightProbeProxyVolume);
+    static void DrawMesh(::UnityEngine::Mesh* mesh, ::UnityEngine::Matrix4x4 matrix, ::UnityEngine::Material* material, int layer, ::UnityEngine::Camera* camera, int submeshIndex, ::UnityEngine::MaterialPropertyBlock* properties, ::UnityEngine::Rendering::ShadowCastingMode castShadows, bool receiveShadows, ::UnityEngine::Transform* probeAnchor, ::UnityEngine::Rendering::LightProbeUsage lightProbeUsage, ::UnityEngine::LightProbeProxyVolume* lightProbeProxyVolume);
     // static public System.Void DrawMeshInstanced(UnityEngine.Mesh mesh, System.Int32 submeshIndex, UnityEngine.Material material, UnityEngine.Matrix4x4[] matrices, System.Int32 count, UnityEngine.MaterialPropertyBlock properties, UnityEngine.Rendering.ShadowCastingMode castShadows, System.Boolean receiveShadows, System.Int32 layer, UnityEngine.Camera camera, UnityEngine.Rendering.LightProbeUsage lightProbeUsage, UnityEngine.LightProbeProxyVolume lightProbeProxyVolume)
     // Offset: 0x1EBFD90
-    static void DrawMeshInstanced(UnityEngine::Mesh* mesh, int submeshIndex, UnityEngine::Material* material, ::ArrayW<UnityEngine::Matrix4x4> matrices, int count, UnityEngine::MaterialPropertyBlock* properties, UnityEngine::Rendering::ShadowCastingMode castShadows, bool receiveShadows, int layer, UnityEngine::Camera* camera, UnityEngine::Rendering::LightProbeUsage lightProbeUsage, UnityEngine::LightProbeProxyVolume* lightProbeProxyVolume);
+    static void DrawMeshInstanced(::UnityEngine::Mesh* mesh, int submeshIndex, ::UnityEngine::Material* material, ::ArrayW<::UnityEngine::Matrix4x4> matrices, int count, ::UnityEngine::MaterialPropertyBlock* properties, ::UnityEngine::Rendering::ShadowCastingMode castShadows, bool receiveShadows, int layer, ::UnityEngine::Camera* camera, ::UnityEngine::Rendering::LightProbeUsage lightProbeUsage, ::UnityEngine::LightProbeProxyVolume* lightProbeProxyVolume);
     // static public System.Void Blit(UnityEngine.Texture source, UnityEngine.RenderTexture dest)
     // Offset: 0x1EC024C
-    static void Blit(UnityEngine::Texture* source, UnityEngine::RenderTexture* dest);
+    static void Blit(::UnityEngine::Texture* source, ::UnityEngine::RenderTexture* dest);
     // static public System.Void Blit(UnityEngine.Texture source, UnityEngine.RenderTexture dest, UnityEngine.Vector2 scale, UnityEngine.Vector2 offset)
     // Offset: 0x1EC02E0
-    static void Blit(UnityEngine::Texture* source, UnityEngine::RenderTexture* dest, UnityEngine::Vector2 scale, UnityEngine::Vector2 offset);
+    static void Blit(::UnityEngine::Texture* source, ::UnityEngine::RenderTexture* dest, ::UnityEngine::Vector2 scale, ::UnityEngine::Vector2 offset);
     // static public System.Void Blit(UnityEngine.Texture source, UnityEngine.RenderTexture dest, UnityEngine.Material mat, System.Int32 pass)
     // Offset: 0x1EC0384
-    static void Blit(UnityEngine::Texture* source, UnityEngine::RenderTexture* dest, UnityEngine::Material* mat, int pass);
+    static void Blit(::UnityEngine::Texture* source, ::UnityEngine::RenderTexture* dest, ::UnityEngine::Material* mat, int pass);
     // static public System.Void Blit(UnityEngine.Texture source, UnityEngine.RenderTexture dest, UnityEngine.Material mat)
     // Offset: 0x1EC0434
-    static void Blit(UnityEngine::Texture* source, UnityEngine::RenderTexture* dest, UnityEngine::Material* mat);
+    static void Blit(::UnityEngine::Texture* source, ::UnityEngine::RenderTexture* dest, ::UnityEngine::Material* mat);
     // static public System.Void DrawMeshInstanced(UnityEngine.Mesh mesh, System.Int32 submeshIndex, UnityEngine.Material material, UnityEngine.Matrix4x4[] matrices, System.Int32 count, UnityEngine.MaterialPropertyBlock properties, UnityEngine.Rendering.ShadowCastingMode castShadows, System.Boolean receiveShadows, System.Int32 layer)
     // Offset: 0x1EC04B4
-    static void DrawMeshInstanced(UnityEngine::Mesh* mesh, int submeshIndex, UnityEngine::Material* material, ::ArrayW<UnityEngine::Matrix4x4> matrices, int count, UnityEngine::MaterialPropertyBlock* properties, UnityEngine::Rendering::ShadowCastingMode castShadows, bool receiveShadows, int layer);
+    static void DrawMeshInstanced(::UnityEngine::Mesh* mesh, int submeshIndex, ::UnityEngine::Material* material, ::ArrayW<::UnityEngine::Matrix4x4> matrices, int count, ::UnityEngine::MaterialPropertyBlock* properties, ::UnityEngine::Rendering::ShadowCastingMode castShadows, bool receiveShadows, int layer);
     // static public System.Void DrawTexture(UnityEngine.Rect screenRect, UnityEngine.Texture texture, UnityEngine.Material mat)
     // Offset: 0x1EC0594
-    static void DrawTexture(UnityEngine::Rect screenRect, UnityEngine::Texture* texture, UnityEngine::Material* mat);
+    static void DrawTexture(::UnityEngine::Rect screenRect, ::UnityEngine::Texture* texture, ::UnityEngine::Material* mat);
     // static public System.Void SetRenderTarget(UnityEngine.RenderTexture rt)
     // Offset: 0x1EC063C
-    static void SetRenderTarget(UnityEngine::RenderTexture* rt);
+    static void SetRenderTarget(::UnityEngine::RenderTexture* rt);
     // static public System.Void SetRenderTarget(UnityEngine.RenderTexture rt, System.Int32 mipLevel, UnityEngine.CubemapFace face)
     // Offset: 0x1EC06AC
-    static void SetRenderTarget(UnityEngine::RenderTexture* rt, int mipLevel, UnityEngine::CubemapFace face);
+    static void SetRenderTarget(::UnityEngine::RenderTexture* rt, int mipLevel, ::UnityEngine::CubemapFace face);
     // static private System.Void Internal_SetRTSimple_Injected(ref UnityEngine.RenderBuffer color, ref UnityEngine.RenderBuffer depth, System.Int32 mip, UnityEngine.CubemapFace face, System.Int32 depthSlice)
     // Offset: 0x1EBEABC
-    static void Internal_SetRTSimple_Injected(ByRef<UnityEngine::RenderBuffer> color, ByRef<UnityEngine::RenderBuffer> depth, int mip, UnityEngine::CubemapFace face, int depthSlice);
+    static void Internal_SetRTSimple_Injected(ByRef<::UnityEngine::RenderBuffer> color, ByRef<::UnityEngine::RenderBuffer> depth, int mip, ::UnityEngine::CubemapFace face, int depthSlice);
     // static private System.Void Internal_DrawMeshNow2_Injected(UnityEngine.Mesh mesh, System.Int32 subsetIndex, ref UnityEngine.Matrix4x4 matrix)
     // Offset: 0x1EBEC48
-    static void Internal_DrawMeshNow2_Injected(UnityEngine::Mesh* mesh, int subsetIndex, ByRef<UnityEngine::Matrix4x4> matrix);
+    static void Internal_DrawMeshNow2_Injected(::UnityEngine::Mesh* mesh, int subsetIndex, ByRef<::UnityEngine::Matrix4x4> matrix);
     // static private System.Void Internal_DrawMesh_Injected(UnityEngine.Mesh mesh, System.Int32 submeshIndex, ref UnityEngine.Matrix4x4 matrix, UnityEngine.Material material, System.Int32 layer, UnityEngine.Camera camera, UnityEngine.MaterialPropertyBlock properties, UnityEngine.Rendering.ShadowCastingMode castShadows, System.Boolean receiveShadows, UnityEngine.Transform probeAnchor, UnityEngine.Rendering.LightProbeUsage lightProbeUsage, UnityEngine.LightProbeProxyVolume lightProbeProxyVolume)
     // Offset: 0x1EBEDE0
-    static void Internal_DrawMesh_Injected(UnityEngine::Mesh* mesh, int submeshIndex, ByRef<UnityEngine::Matrix4x4> matrix, UnityEngine::Material* material, int layer, UnityEngine::Camera* camera, UnityEngine::MaterialPropertyBlock* properties, UnityEngine::Rendering::ShadowCastingMode castShadows, bool receiveShadows, UnityEngine::Transform* probeAnchor, UnityEngine::Rendering::LightProbeUsage lightProbeUsage, UnityEngine::LightProbeProxyVolume* lightProbeProxyVolume);
+    static void Internal_DrawMesh_Injected(::UnityEngine::Mesh* mesh, int submeshIndex, ByRef<::UnityEngine::Matrix4x4> matrix, ::UnityEngine::Material* material, int layer, ::UnityEngine::Camera* camera, ::UnityEngine::MaterialPropertyBlock* properties, ::UnityEngine::Rendering::ShadowCastingMode castShadows, bool receiveShadows, ::UnityEngine::Transform* probeAnchor, ::UnityEngine::Rendering::LightProbeUsage lightProbeUsage, ::UnityEngine::LightProbeProxyVolume* lightProbeProxyVolume);
     // static private System.Void Blit4_Injected(UnityEngine.Texture source, UnityEngine.RenderTexture dest, ref UnityEngine.Vector2 scale, ref UnityEngine.Vector2 offset)
     // Offset: 0x1EBF0DC
-    static void Blit4_Injected(UnityEngine::Texture* source, UnityEngine::RenderTexture* dest, ByRef<UnityEngine::Vector2> scale, ByRef<UnityEngine::Vector2> offset);
+    static void Blit4_Injected(::UnityEngine::Texture* source, ::UnityEngine::RenderTexture* dest, ByRef<::UnityEngine::Vector2> scale, ByRef<::UnityEngine::Vector2> offset);
   }; // UnityEngine.Graphics
   #pragma pack(pop)
 }
@@ -203,7 +203,7 @@ namespace UnityEngine {
 // Writing MetadataGetter for method: UnityEngine::Graphics::get_activeTier
 // Il2CppName: get_activeTier
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::GraphicsTier (*)()>(&UnityEngine::Graphics::get_activeTier)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::GraphicsTier (*)()>(&UnityEngine::Graphics::get_activeTier)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "get_activeTier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -211,7 +211,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Graphics::set_activeTier
 // Il2CppName: set_activeTier
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rendering::GraphicsTier)>(&UnityEngine::Graphics::set_activeTier)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Rendering::GraphicsTier)>(&UnityEngine::Graphics::set_activeTier)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "GraphicsTier")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "set_activeTier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -244,7 +244,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::Graphics::Internal_SetRTSimple
 // Il2CppName: Internal_SetRTSimple
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::RenderBuffer, UnityEngine::RenderBuffer, int, UnityEngine::CubemapFace, int)>(&UnityEngine::Graphics::Internal_SetRTSimple)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::RenderBuffer, ::UnityEngine::RenderBuffer, int, ::UnityEngine::CubemapFace, int)>(&UnityEngine::Graphics::Internal_SetRTSimple)> {
   static const MethodInfo* get() {
     static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderBuffer")->byval_arg;
     static auto* depth = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderBuffer")->byval_arg;
@@ -257,7 +257,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Graphics::CopyTexture_Slice
 // Il2CppName: CopyTexture_Slice
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Texture*, int, int, UnityEngine::Texture*, int, int)>(&UnityEngine::Graphics::CopyTexture_Slice)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Texture*, int, int, ::UnityEngine::Texture*, int, int)>(&UnityEngine::Graphics::CopyTexture_Slice)> {
   static const MethodInfo* get() {
     static auto* src = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
     static auto* srcElement = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -271,7 +271,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Graphics::Internal_DrawMeshNow2
 // Il2CppName: Internal_DrawMeshNow2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Mesh*, int, UnityEngine::Matrix4x4)>(&UnityEngine::Graphics::Internal_DrawMeshNow2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Mesh*, int, ::UnityEngine::Matrix4x4)>(&UnityEngine::Graphics::Internal_DrawMeshNow2)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     static auto* subsetIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -282,7 +282,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Graphics::Internal_DrawTexture
 // Il2CppName: Internal_DrawTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<UnityEngine::Internal_DrawTextureArguments>)>(&UnityEngine::Graphics::Internal_DrawTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::Internal_DrawTextureArguments>)>(&UnityEngine::Graphics::Internal_DrawTexture)> {
   static const MethodInfo* get() {
     static auto* args = &::il2cpp_utils::GetClassFromName("UnityEngine", "Internal_DrawTextureArguments")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "Internal_DrawTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{args});
@@ -291,7 +291,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(By
 // Writing MetadataGetter for method: UnityEngine::Graphics::Internal_DrawMesh
 // Il2CppName: Internal_DrawMesh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Mesh*, int, UnityEngine::Matrix4x4, UnityEngine::Material*, int, UnityEngine::Camera*, UnityEngine::MaterialPropertyBlock*, UnityEngine::Rendering::ShadowCastingMode, bool, UnityEngine::Transform*, UnityEngine::Rendering::LightProbeUsage, UnityEngine::LightProbeProxyVolume*)>(&UnityEngine::Graphics::Internal_DrawMesh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Mesh*, int, ::UnityEngine::Matrix4x4, ::UnityEngine::Material*, int, ::UnityEngine::Camera*, ::UnityEngine::MaterialPropertyBlock*, ::UnityEngine::Rendering::ShadowCastingMode, bool, ::UnityEngine::Transform*, ::UnityEngine::Rendering::LightProbeUsage, ::UnityEngine::LightProbeProxyVolume*)>(&UnityEngine::Graphics::Internal_DrawMesh)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     static auto* submeshIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -311,7 +311,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Graphics::Internal_DrawMeshInstanced
 // Il2CppName: Internal_DrawMeshInstanced
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Mesh*, int, UnityEngine::Material*, ::ArrayW<UnityEngine::Matrix4x4>, int, UnityEngine::MaterialPropertyBlock*, UnityEngine::Rendering::ShadowCastingMode, bool, int, UnityEngine::Camera*, UnityEngine::Rendering::LightProbeUsage, UnityEngine::LightProbeProxyVolume*)>(&UnityEngine::Graphics::Internal_DrawMeshInstanced)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Mesh*, int, ::UnityEngine::Material*, ::ArrayW<::UnityEngine::Matrix4x4>, int, ::UnityEngine::MaterialPropertyBlock*, ::UnityEngine::Rendering::ShadowCastingMode, bool, int, ::UnityEngine::Camera*, ::UnityEngine::Rendering::LightProbeUsage, ::UnityEngine::LightProbeProxyVolume*)>(&UnityEngine::Graphics::Internal_DrawMeshInstanced)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     static auto* submeshIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -331,7 +331,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Graphics::Internal_BlitMaterial5
 // Il2CppName: Internal_BlitMaterial5
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Texture*, UnityEngine::RenderTexture*, UnityEngine::Material*, int, bool)>(&UnityEngine::Graphics::Internal_BlitMaterial5)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Texture*, ::UnityEngine::RenderTexture*, ::UnityEngine::Material*, int, bool)>(&UnityEngine::Graphics::Internal_BlitMaterial5)> {
   static const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
     static auto* dest = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
@@ -344,7 +344,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Graphics::Blit2
 // Il2CppName: Blit2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Texture*, UnityEngine::RenderTexture*)>(&UnityEngine::Graphics::Blit2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Texture*, ::UnityEngine::RenderTexture*)>(&UnityEngine::Graphics::Blit2)> {
   static const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
     static auto* dest = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
@@ -354,7 +354,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Graphics::Blit4
 // Il2CppName: Blit4
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Texture*, UnityEngine::RenderTexture*, UnityEngine::Vector2, UnityEngine::Vector2)>(&UnityEngine::Graphics::Blit4)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Texture*, ::UnityEngine::RenderTexture*, ::UnityEngine::Vector2, ::UnityEngine::Vector2)>(&UnityEngine::Graphics::Blit4)> {
   static const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
     static auto* dest = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
@@ -366,7 +366,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Graphics::ExecuteCommandBuffer
 // Il2CppName: ExecuteCommandBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rendering::CommandBuffer*)>(&UnityEngine::Graphics::ExecuteCommandBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*)>(&UnityEngine::Graphics::ExecuteCommandBuffer)> {
   static const MethodInfo* get() {
     static auto* buffer = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "CommandBuffer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "ExecuteCommandBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer});
@@ -375,7 +375,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Graphics::SetRenderTargetImpl
 // Il2CppName: SetRenderTargetImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::RenderBuffer, UnityEngine::RenderBuffer, int, UnityEngine::CubemapFace, int)>(&UnityEngine::Graphics::SetRenderTargetImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::RenderBuffer, ::UnityEngine::RenderBuffer, int, ::UnityEngine::CubemapFace, int)>(&UnityEngine::Graphics::SetRenderTargetImpl)> {
   static const MethodInfo* get() {
     static auto* colorBuffer = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderBuffer")->byval_arg;
     static auto* depthBuffer = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderBuffer")->byval_arg;
@@ -388,7 +388,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Graphics::SetRenderTargetImpl
 // Il2CppName: SetRenderTargetImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::RenderTexture*, int, UnityEngine::CubemapFace, int)>(&UnityEngine::Graphics::SetRenderTargetImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::RenderTexture*, int, ::UnityEngine::CubemapFace, int)>(&UnityEngine::Graphics::SetRenderTargetImpl)> {
   static const MethodInfo* get() {
     static auto* rt = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
     static auto* mipLevel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -400,7 +400,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Graphics::SetRenderTarget
 // Il2CppName: SetRenderTarget
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::RenderTexture*, int, UnityEngine::CubemapFace, int)>(&UnityEngine::Graphics::SetRenderTarget)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::RenderTexture*, int, ::UnityEngine::CubemapFace, int)>(&UnityEngine::Graphics::SetRenderTarget)> {
   static const MethodInfo* get() {
     static auto* rt = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
     static auto* mipLevel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -412,7 +412,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Graphics::CopyTexture
 // Il2CppName: CopyTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Texture*, int, int, UnityEngine::Texture*, int, int)>(&UnityEngine::Graphics::CopyTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Texture*, int, int, ::UnityEngine::Texture*, int, int)>(&UnityEngine::Graphics::CopyTexture)> {
   static const MethodInfo* get() {
     static auto* src = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
     static auto* srcElement = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -426,7 +426,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Graphics::DrawTextureImpl
 // Il2CppName: DrawTextureImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rect, UnityEngine::Texture*, UnityEngine::Rect, int, int, int, int, UnityEngine::Color, UnityEngine::Material*, int)>(&UnityEngine::Graphics::DrawTextureImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Rect, ::UnityEngine::Texture*, ::UnityEngine::Rect, int, int, int, int, ::UnityEngine::Color, ::UnityEngine::Material*, int)>(&UnityEngine::Graphics::DrawTextureImpl)> {
   static const MethodInfo* get() {
     static auto* screenRect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
     static auto* texture = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
@@ -444,7 +444,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Graphics::DrawTexture
 // Il2CppName: DrawTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rect, UnityEngine::Texture*, UnityEngine::Rect, int, int, int, int, UnityEngine::Material*, int)>(&UnityEngine::Graphics::DrawTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Rect, ::UnityEngine::Texture*, ::UnityEngine::Rect, int, int, int, int, ::UnityEngine::Material*, int)>(&UnityEngine::Graphics::DrawTexture)> {
   static const MethodInfo* get() {
     static auto* screenRect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
     static auto* texture = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
@@ -461,7 +461,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Graphics::DrawTexture
 // Il2CppName: DrawTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rect, UnityEngine::Texture*, int, int, int, int, UnityEngine::Material*, int)>(&UnityEngine::Graphics::DrawTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Rect, ::UnityEngine::Texture*, int, int, int, int, ::UnityEngine::Material*, int)>(&UnityEngine::Graphics::DrawTexture)> {
   static const MethodInfo* get() {
     static auto* screenRect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
     static auto* texture = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
@@ -477,7 +477,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Graphics::DrawTexture
 // Il2CppName: DrawTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rect, UnityEngine::Texture*, UnityEngine::Material*, int)>(&UnityEngine::Graphics::DrawTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Rect, ::UnityEngine::Texture*, ::UnityEngine::Material*, int)>(&UnityEngine::Graphics::DrawTexture)> {
   static const MethodInfo* get() {
     static auto* screenRect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
     static auto* texture = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
@@ -489,7 +489,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Graphics::DrawMeshNow
 // Il2CppName: DrawMeshNow
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Mesh*, UnityEngine::Matrix4x4, int)>(&UnityEngine::Graphics::DrawMeshNow)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Mesh*, ::UnityEngine::Matrix4x4, int)>(&UnityEngine::Graphics::DrawMeshNow)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     static auto* matrix = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->byval_arg;
@@ -500,7 +500,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Graphics::DrawMesh
 // Il2CppName: DrawMesh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Mesh*, UnityEngine::Matrix4x4, UnityEngine::Material*, int, UnityEngine::Camera*, int, UnityEngine::MaterialPropertyBlock*, bool, bool, bool)>(&UnityEngine::Graphics::DrawMesh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Mesh*, ::UnityEngine::Matrix4x4, ::UnityEngine::Material*, int, ::UnityEngine::Camera*, int, ::UnityEngine::MaterialPropertyBlock*, bool, bool, bool)>(&UnityEngine::Graphics::DrawMesh)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     static auto* matrix = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->byval_arg;
@@ -518,7 +518,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Graphics::DrawMesh
 // Il2CppName: DrawMesh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Mesh*, UnityEngine::Matrix4x4, UnityEngine::Material*, int, UnityEngine::Camera*, int, UnityEngine::MaterialPropertyBlock*, UnityEngine::Rendering::ShadowCastingMode, bool, UnityEngine::Transform*, UnityEngine::Rendering::LightProbeUsage, UnityEngine::LightProbeProxyVolume*)>(&UnityEngine::Graphics::DrawMesh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Mesh*, ::UnityEngine::Matrix4x4, ::UnityEngine::Material*, int, ::UnityEngine::Camera*, int, ::UnityEngine::MaterialPropertyBlock*, ::UnityEngine::Rendering::ShadowCastingMode, bool, ::UnityEngine::Transform*, ::UnityEngine::Rendering::LightProbeUsage, ::UnityEngine::LightProbeProxyVolume*)>(&UnityEngine::Graphics::DrawMesh)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     static auto* matrix = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->byval_arg;
@@ -538,7 +538,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Graphics::DrawMeshInstanced
 // Il2CppName: DrawMeshInstanced
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Mesh*, int, UnityEngine::Material*, ::ArrayW<UnityEngine::Matrix4x4>, int, UnityEngine::MaterialPropertyBlock*, UnityEngine::Rendering::ShadowCastingMode, bool, int, UnityEngine::Camera*, UnityEngine::Rendering::LightProbeUsage, UnityEngine::LightProbeProxyVolume*)>(&UnityEngine::Graphics::DrawMeshInstanced)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Mesh*, int, ::UnityEngine::Material*, ::ArrayW<::UnityEngine::Matrix4x4>, int, ::UnityEngine::MaterialPropertyBlock*, ::UnityEngine::Rendering::ShadowCastingMode, bool, int, ::UnityEngine::Camera*, ::UnityEngine::Rendering::LightProbeUsage, ::UnityEngine::LightProbeProxyVolume*)>(&UnityEngine::Graphics::DrawMeshInstanced)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     static auto* submeshIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -558,7 +558,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Graphics::Blit
 // Il2CppName: Blit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Texture*, UnityEngine::RenderTexture*)>(&UnityEngine::Graphics::Blit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Texture*, ::UnityEngine::RenderTexture*)>(&UnityEngine::Graphics::Blit)> {
   static const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
     static auto* dest = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
@@ -568,7 +568,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Graphics::Blit
 // Il2CppName: Blit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Texture*, UnityEngine::RenderTexture*, UnityEngine::Vector2, UnityEngine::Vector2)>(&UnityEngine::Graphics::Blit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Texture*, ::UnityEngine::RenderTexture*, ::UnityEngine::Vector2, ::UnityEngine::Vector2)>(&UnityEngine::Graphics::Blit)> {
   static const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
     static auto* dest = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
@@ -580,7 +580,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Graphics::Blit
 // Il2CppName: Blit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Texture*, UnityEngine::RenderTexture*, UnityEngine::Material*, int)>(&UnityEngine::Graphics::Blit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Texture*, ::UnityEngine::RenderTexture*, ::UnityEngine::Material*, int)>(&UnityEngine::Graphics::Blit)> {
   static const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
     static auto* dest = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
@@ -592,7 +592,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Graphics::Blit
 // Il2CppName: Blit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Texture*, UnityEngine::RenderTexture*, UnityEngine::Material*)>(&UnityEngine::Graphics::Blit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Texture*, ::UnityEngine::RenderTexture*, ::UnityEngine::Material*)>(&UnityEngine::Graphics::Blit)> {
   static const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
     static auto* dest = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
@@ -603,7 +603,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Graphics::DrawMeshInstanced
 // Il2CppName: DrawMeshInstanced
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Mesh*, int, UnityEngine::Material*, ::ArrayW<UnityEngine::Matrix4x4>, int, UnityEngine::MaterialPropertyBlock*, UnityEngine::Rendering::ShadowCastingMode, bool, int)>(&UnityEngine::Graphics::DrawMeshInstanced)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Mesh*, int, ::UnityEngine::Material*, ::ArrayW<::UnityEngine::Matrix4x4>, int, ::UnityEngine::MaterialPropertyBlock*, ::UnityEngine::Rendering::ShadowCastingMode, bool, int)>(&UnityEngine::Graphics::DrawMeshInstanced)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     static auto* submeshIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -620,7 +620,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Graphics::DrawTexture
 // Il2CppName: DrawTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rect, UnityEngine::Texture*, UnityEngine::Material*)>(&UnityEngine::Graphics::DrawTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Rect, ::UnityEngine::Texture*, ::UnityEngine::Material*)>(&UnityEngine::Graphics::DrawTexture)> {
   static const MethodInfo* get() {
     static auto* screenRect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
     static auto* texture = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
@@ -631,7 +631,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Graphics::SetRenderTarget
 // Il2CppName: SetRenderTarget
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::RenderTexture*)>(&UnityEngine::Graphics::SetRenderTarget)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::RenderTexture*)>(&UnityEngine::Graphics::SetRenderTarget)> {
   static const MethodInfo* get() {
     static auto* rt = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "SetRenderTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rt});
@@ -640,7 +640,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Graphics::SetRenderTarget
 // Il2CppName: SetRenderTarget
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::RenderTexture*, int, UnityEngine::CubemapFace)>(&UnityEngine::Graphics::SetRenderTarget)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::RenderTexture*, int, ::UnityEngine::CubemapFace)>(&UnityEngine::Graphics::SetRenderTarget)> {
   static const MethodInfo* get() {
     static auto* rt = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
     static auto* mipLevel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -651,7 +651,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Graphics::Internal_SetRTSimple_Injected
 // Il2CppName: Internal_SetRTSimple_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<UnityEngine::RenderBuffer>, ByRef<UnityEngine::RenderBuffer>, int, UnityEngine::CubemapFace, int)>(&UnityEngine::Graphics::Internal_SetRTSimple_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::RenderBuffer>, ByRef<::UnityEngine::RenderBuffer>, int, ::UnityEngine::CubemapFace, int)>(&UnityEngine::Graphics::Internal_SetRTSimple_Injected)> {
   static const MethodInfo* get() {
     static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderBuffer")->this_arg;
     static auto* depth = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderBuffer")->this_arg;
@@ -664,7 +664,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(By
 // Writing MetadataGetter for method: UnityEngine::Graphics::Internal_DrawMeshNow2_Injected
 // Il2CppName: Internal_DrawMeshNow2_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Mesh*, int, ByRef<UnityEngine::Matrix4x4>)>(&UnityEngine::Graphics::Internal_DrawMeshNow2_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Mesh*, int, ByRef<::UnityEngine::Matrix4x4>)>(&UnityEngine::Graphics::Internal_DrawMeshNow2_Injected)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     static auto* subsetIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -675,7 +675,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Graphics::Internal_DrawMesh_Injected
 // Il2CppName: Internal_DrawMesh_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Mesh*, int, ByRef<UnityEngine::Matrix4x4>, UnityEngine::Material*, int, UnityEngine::Camera*, UnityEngine::MaterialPropertyBlock*, UnityEngine::Rendering::ShadowCastingMode, bool, UnityEngine::Transform*, UnityEngine::Rendering::LightProbeUsage, UnityEngine::LightProbeProxyVolume*)>(&UnityEngine::Graphics::Internal_DrawMesh_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Mesh*, int, ByRef<::UnityEngine::Matrix4x4>, ::UnityEngine::Material*, int, ::UnityEngine::Camera*, ::UnityEngine::MaterialPropertyBlock*, ::UnityEngine::Rendering::ShadowCastingMode, bool, ::UnityEngine::Transform*, ::UnityEngine::Rendering::LightProbeUsage, ::UnityEngine::LightProbeProxyVolume*)>(&UnityEngine::Graphics::Internal_DrawMesh_Injected)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     static auto* submeshIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -695,7 +695,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Graphics::Blit4_Injected
 // Il2CppName: Blit4_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Texture*, UnityEngine::RenderTexture*, ByRef<UnityEngine::Vector2>, ByRef<UnityEngine::Vector2>)>(&UnityEngine::Graphics::Blit4_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Texture*, ::UnityEngine::RenderTexture*, ByRef<::UnityEngine::Vector2>, ByRef<::UnityEngine::Vector2>)>(&UnityEngine::Graphics::Blit4_Injected)> {
   static const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
     static auto* dest = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;

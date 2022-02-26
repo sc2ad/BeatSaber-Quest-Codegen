@@ -23,8 +23,8 @@ namespace System::Net {
   class IAuthenticationModule;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::IAuthenticationModule);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::IAuthenticationModule*, "System.Net", "IAuthenticationModule");
+NEED_NO_BOX(::System::Net::IAuthenticationModule);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::IAuthenticationModule*, "System.Net", "IAuthenticationModule");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x10
@@ -38,10 +38,10 @@ namespace System::Net {
     ::StringW get_AuthenticationType();
     // public System.Net.Authorization Authenticate(System.String challenge, System.Net.WebRequest request, System.Net.ICredentials credentials)
     // Offset: 0xFFFFFFFF
-    System::Net::Authorization* Authenticate(::StringW challenge, System::Net::WebRequest* request, System::Net::ICredentials* credentials);
+    ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* request, ::System::Net::ICredentials* credentials);
     // public System.Net.Authorization PreAuthenticate(System.Net.WebRequest request, System.Net.ICredentials credentials)
     // Offset: 0xFFFFFFFF
-    System::Net::Authorization* PreAuthenticate(System::Net::WebRequest* request, System::Net::ICredentials* credentials);
+    ::System::Net::Authorization* PreAuthenticate(::System::Net::WebRequest* request, ::System::Net::ICredentials* credentials);
   }; // System.Net.IAuthenticationModule
   #pragma pack(pop)
 }
@@ -57,7 +57,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Net::IAuthenticationModule::Authenticate
 // Il2CppName: Authenticate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Authorization* (System::Net::IAuthenticationModule::*)(::StringW, System::Net::WebRequest*, System::Net::ICredentials*)>(&System::Net::IAuthenticationModule::Authenticate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Authorization* (System::Net::IAuthenticationModule::*)(::StringW, ::System::Net::WebRequest*, ::System::Net::ICredentials*)>(&System::Net::IAuthenticationModule::Authenticate)> {
   static const MethodInfo* get() {
     static auto* challenge = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* request = &::il2cpp_utils::GetClassFromName("System.Net", "WebRequest")->byval_arg;
@@ -68,7 +68,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Writing MetadataGetter for method: System::Net::IAuthenticationModule::PreAuthenticate
 // Il2CppName: PreAuthenticate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Authorization* (System::Net::IAuthenticationModule::*)(System::Net::WebRequest*, System::Net::ICredentials*)>(&System::Net::IAuthenticationModule::PreAuthenticate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Authorization* (System::Net::IAuthenticationModule::*)(::System::Net::WebRequest*, ::System::Net::ICredentials*)>(&System::Net::IAuthenticationModule::PreAuthenticate)> {
   static const MethodInfo* get() {
     static auto* request = &::il2cpp_utils::GetClassFromName("System.Net", "WebRequest")->byval_arg;
     static auto* credentials = &::il2cpp_utils::GetClassFromName("System.Net", "ICredentials")->byval_arg;

@@ -12,8 +12,8 @@ namespace System {
   class CompatibilitySwitches;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::CompatibilitySwitches);
-DEFINE_IL2CPP_ARG_TYPE(System::CompatibilitySwitches*, "System", "CompatibilitySwitches");
+NEED_NO_BOX(::System::CompatibilitySwitches);
+DEFINE_IL2CPP_ARG_TYPE(::System::CompatibilitySwitches*, "System", "CompatibilitySwitches");
 // Type namespace: System
 namespace System {
   // Size: 0x10

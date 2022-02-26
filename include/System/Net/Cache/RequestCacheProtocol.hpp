@@ -16,8 +16,8 @@ namespace System::Net::Cache {
   class RequestCacheProtocol;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::Cache::RequestCacheProtocol);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::Cache::RequestCacheProtocol*, "System.Net.Cache", "RequestCacheProtocol");
+NEED_NO_BOX(::System::Net::Cache::RequestCacheProtocol);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::Cache::RequestCacheProtocol*, "System.Net.Cache", "RequestCacheProtocol");
 // Type namespace: System.Net.Cache
 namespace System::Net::Cache {
   // Size: 0x10
@@ -30,7 +30,7 @@ namespace System::Net::Cache {
     // Offset: 0x1AA7258
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RequestCacheProtocol* New_ctor(::Il2CppObject* arg1, ::Il2CppObject* arg2) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Cache::RequestCacheProtocol::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Cache::RequestCacheProtocol::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RequestCacheProtocol*, creationType>(arg1, arg2)));
     }
   }; // System.Net.Cache.RequestCacheProtocol

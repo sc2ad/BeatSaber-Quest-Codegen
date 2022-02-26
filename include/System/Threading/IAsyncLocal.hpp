@@ -14,8 +14,8 @@ namespace System::Threading {
   class IAsyncLocal;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Threading::IAsyncLocal);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::IAsyncLocal*, "System.Threading", "IAsyncLocal");
+NEED_NO_BOX(::System::Threading::IAsyncLocal);
+DEFINE_IL2CPP_ARG_TYPE(::System::Threading::IAsyncLocal*, "System.Threading", "IAsyncLocal");
 // Type namespace: System.Threading
 namespace System::Threading {
   // Size: 0x10

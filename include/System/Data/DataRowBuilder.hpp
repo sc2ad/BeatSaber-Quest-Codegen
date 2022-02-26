@@ -23,8 +23,8 @@ namespace System::Data {
   class DataRowBuilder;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Data::DataRowBuilder);
-DEFINE_IL2CPP_ARG_TYPE(System::Data::DataRowBuilder*, "System.Data", "DataRowBuilder");
+NEED_NO_BOX(::System::Data::DataRowBuilder);
+DEFINE_IL2CPP_ARG_TYPE(::System::Data::DataRowBuilder*, "System.Data", "DataRowBuilder");
 // Type namespace: System.Data
 namespace System::Data {
   // Size: 0x1C
@@ -45,9 +45,9 @@ namespace System::Data {
     // readonly System.Data.DataTable _table
     // Size: 0x8
     // Offset: 0x10
-    System::Data::DataTable* table;
+    ::System::Data::DataTable* table;
     // Field size check
-    static_assert(sizeof(System::Data::DataTable*) == 0x8);
+    static_assert(sizeof(::System::Data::DataTable*) == 0x8);
     // System.Int32 _record
     // Size: 0x4
     // Offset: 0x18
@@ -56,14 +56,14 @@ namespace System::Data {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: readonly System.Data.DataTable _table
-    System::Data::DataTable*& dyn__table();
+    ::System::Data::DataTable*& dyn__table();
     // Get instance field reference: System.Int32 _record
     int& dyn__record();
     // System.Void .ctor(System.Data.DataTable table, System.Int32 record)
     // Offset: 0x1E5E7C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DataRowBuilder* New_ctor(System::Data::DataTable* table, int record) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Data::DataRowBuilder::.ctor");
+    static DataRowBuilder* New_ctor(::System::Data::DataTable* table, int record) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Data::DataRowBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DataRowBuilder*, creationType>(table, record)));
     }
   }; // System.Data.DataRowBuilder

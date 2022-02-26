@@ -39,8 +39,8 @@ namespace Org::BouncyCastle::Crypto::Engines {
   class IesEngine;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Crypto::Engines::IesEngine);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::IesEngine*, "Org.BouncyCastle.Crypto.Engines", "IesEngine");
+NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::IesEngine);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Engines::IesEngine*, "Org.BouncyCastle.Crypto.Engines", "IesEngine");
 // Type namespace: Org.BouncyCastle.Crypto.Engines
 namespace Org::BouncyCastle::Crypto::Engines {
   // Size: 0x58
@@ -61,27 +61,27 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // private readonly Org.BouncyCastle.Crypto.IBasicAgreement agree
     // Size: 0x8
     // Offset: 0x10
-    Org::BouncyCastle::Crypto::IBasicAgreement* agree;
+    ::Org::BouncyCastle::Crypto::IBasicAgreement* agree;
     // Field size check
-    static_assert(sizeof(Org::BouncyCastle::Crypto::IBasicAgreement*) == 0x8);
+    static_assert(sizeof(::Org::BouncyCastle::Crypto::IBasicAgreement*) == 0x8);
     // private readonly Org.BouncyCastle.Crypto.IDerivationFunction kdf
     // Size: 0x8
     // Offset: 0x18
-    Org::BouncyCastle::Crypto::IDerivationFunction* kdf;
+    ::Org::BouncyCastle::Crypto::IDerivationFunction* kdf;
     // Field size check
-    static_assert(sizeof(Org::BouncyCastle::Crypto::IDerivationFunction*) == 0x8);
+    static_assert(sizeof(::Org::BouncyCastle::Crypto::IDerivationFunction*) == 0x8);
     // private readonly Org.BouncyCastle.Crypto.IMac mac
     // Size: 0x8
     // Offset: 0x20
-    Org::BouncyCastle::Crypto::IMac* mac;
+    ::Org::BouncyCastle::Crypto::IMac* mac;
     // Field size check
-    static_assert(sizeof(Org::BouncyCastle::Crypto::IMac*) == 0x8);
+    static_assert(sizeof(::Org::BouncyCastle::Crypto::IMac*) == 0x8);
     // private readonly Org.BouncyCastle.Crypto.BufferedBlockCipher cipher
     // Size: 0x8
     // Offset: 0x28
-    Org::BouncyCastle::Crypto::BufferedBlockCipher* cipher;
+    ::Org::BouncyCastle::Crypto::BufferedBlockCipher* cipher;
     // Field size check
-    static_assert(sizeof(Org::BouncyCastle::Crypto::BufferedBlockCipher*) == 0x8);
+    static_assert(sizeof(::Org::BouncyCastle::Crypto::BufferedBlockCipher*) == 0x8);
     // private readonly System.Byte[] macBuf
     // Size: 0x8
     // Offset: 0x30
@@ -99,45 +99,45 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // private Org.BouncyCastle.Crypto.ICipherParameters privParam
     // Size: 0x8
     // Offset: 0x40
-    Org::BouncyCastle::Crypto::ICipherParameters* privParam;
+    ::Org::BouncyCastle::Crypto::ICipherParameters* privParam;
     // Field size check
-    static_assert(sizeof(Org::BouncyCastle::Crypto::ICipherParameters*) == 0x8);
+    static_assert(sizeof(::Org::BouncyCastle::Crypto::ICipherParameters*) == 0x8);
     // private Org.BouncyCastle.Crypto.ICipherParameters pubParam
     // Size: 0x8
     // Offset: 0x48
-    Org::BouncyCastle::Crypto::ICipherParameters* pubParam;
+    ::Org::BouncyCastle::Crypto::ICipherParameters* pubParam;
     // Field size check
-    static_assert(sizeof(Org::BouncyCastle::Crypto::ICipherParameters*) == 0x8);
+    static_assert(sizeof(::Org::BouncyCastle::Crypto::ICipherParameters*) == 0x8);
     // private Org.BouncyCastle.Crypto.Parameters.IesParameters param
     // Size: 0x8
     // Offset: 0x50
-    Org::BouncyCastle::Crypto::Parameters::IesParameters* param;
+    ::Org::BouncyCastle::Crypto::Parameters::IesParameters* param;
     // Field size check
-    static_assert(sizeof(Org::BouncyCastle::Crypto::Parameters::IesParameters*) == 0x8);
+    static_assert(sizeof(::Org::BouncyCastle::Crypto::Parameters::IesParameters*) == 0x8);
     public:
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IBasicAgreement agree
-    Org::BouncyCastle::Crypto::IBasicAgreement*& dyn_agree();
+    ::Org::BouncyCastle::Crypto::IBasicAgreement*& dyn_agree();
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IDerivationFunction kdf
-    Org::BouncyCastle::Crypto::IDerivationFunction*& dyn_kdf();
+    ::Org::BouncyCastle::Crypto::IDerivationFunction*& dyn_kdf();
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IMac mac
-    Org::BouncyCastle::Crypto::IMac*& dyn_mac();
+    ::Org::BouncyCastle::Crypto::IMac*& dyn_mac();
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.BufferedBlockCipher cipher
-    Org::BouncyCastle::Crypto::BufferedBlockCipher*& dyn_cipher();
+    ::Org::BouncyCastle::Crypto::BufferedBlockCipher*& dyn_cipher();
     // Get instance field reference: private readonly System.Byte[] macBuf
     ::ArrayW<uint8_t>& dyn_macBuf();
     // Get instance field reference: private System.Boolean forEncryption
     bool& dyn_forEncryption();
     // Get instance field reference: private Org.BouncyCastle.Crypto.ICipherParameters privParam
-    Org::BouncyCastle::Crypto::ICipherParameters*& dyn_privParam();
+    ::Org::BouncyCastle::Crypto::ICipherParameters*& dyn_privParam();
     // Get instance field reference: private Org.BouncyCastle.Crypto.ICipherParameters pubParam
-    Org::BouncyCastle::Crypto::ICipherParameters*& dyn_pubParam();
+    ::Org::BouncyCastle::Crypto::ICipherParameters*& dyn_pubParam();
     // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.IesParameters param
-    Org::BouncyCastle::Crypto::Parameters::IesParameters*& dyn_param();
+    ::Org::BouncyCastle::Crypto::Parameters::IesParameters*& dyn_param();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBasicAgreement agree, Org.BouncyCastle.Crypto.IDerivationFunction kdf, Org.BouncyCastle.Crypto.IMac mac)
     // Offset: 0x232104C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static IesEngine* New_ctor(Org::BouncyCastle::Crypto::IBasicAgreement* agree, Org::BouncyCastle::Crypto::IDerivationFunction* kdf, Org::BouncyCastle::Crypto::IMac* mac) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Engines::IesEngine::.ctor");
+    static IesEngine* New_ctor(::Org::BouncyCastle::Crypto::IBasicAgreement* agree, ::Org::BouncyCastle::Crypto::IDerivationFunction* kdf, ::Org::BouncyCastle::Crypto::IMac* mac) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::IesEngine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IesEngine*, creationType>(agree, kdf, mac)));
     }
     // private System.Byte[] DecryptBlock(System.Byte[] in_enc, System.Int32 inOff, System.Int32 inLen, System.Byte[] z)
@@ -148,13 +148,13 @@ namespace Org::BouncyCastle::Crypto::Engines {
     ::ArrayW<uint8_t> EncryptBlock(::ArrayW<uint8_t> input, int inOff, int inLen, ::ArrayW<uint8_t> z);
     // private System.Byte[] GenerateKdfBytes(Org.BouncyCastle.Crypto.Parameters.KdfParameters kParam, System.Int32 length)
     // Offset: 0x23217F4
-    ::ArrayW<uint8_t> GenerateKdfBytes(Org::BouncyCastle::Crypto::Parameters::KdfParameters* kParam, int length);
+    ::ArrayW<uint8_t> GenerateKdfBytes(::Org::BouncyCastle::Crypto::Parameters::KdfParameters* kParam, int length);
     // public System.Byte[] ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Int32 inLen)
     // Offset: 0x2321F64
     ::ArrayW<uint8_t> ProcessBlock(::ArrayW<uint8_t> input, int inOff, int inLen);
   }; // Org.BouncyCastle.Crypto.Engines.IesEngine
   #pragma pack(pop)
-  static check_size<sizeof(IesEngine), 80 + sizeof(Org::BouncyCastle::Crypto::Parameters::IesParameters*)> __Org_BouncyCastle_Crypto_Engines_IesEngineSizeCheck;
+  static check_size<sizeof(IesEngine), 80 + sizeof(::Org::BouncyCastle::Crypto::Parameters::IesParameters*)> __Org_BouncyCastle_Crypto_Engines_IesEngineSizeCheck;
   static_assert(sizeof(IesEngine) == 0x58);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -189,7 +189,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::IesEngine::GenerateKdfBytes
 // Il2CppName: GenerateKdfBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Crypto::Engines::IesEngine::*)(Org::BouncyCastle::Crypto::Parameters::KdfParameters*, int)>(&Org::BouncyCastle::Crypto::Engines::IesEngine::GenerateKdfBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Crypto::Engines::IesEngine::*)(::Org::BouncyCastle::Crypto::Parameters::KdfParameters*, int)>(&Org::BouncyCastle::Crypto::Engines::IesEngine::GenerateKdfBytes)> {
   static const MethodInfo* get() {
     static auto* kParam = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Crypto.Parameters", "KdfParameters")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

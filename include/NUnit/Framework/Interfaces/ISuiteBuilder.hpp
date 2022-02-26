@@ -23,8 +23,8 @@ namespace NUnit::Framework::Interfaces {
   class ISuiteBuilder;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Interfaces::ISuiteBuilder);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ISuiteBuilder*, "NUnit.Framework.Interfaces", "ISuiteBuilder");
+NEED_NO_BOX(::NUnit::Framework::Interfaces::ISuiteBuilder);
+DEFINE_IL2CPP_ARG_TYPE(::NUnit::Framework::Interfaces::ISuiteBuilder*, "NUnit.Framework.Interfaces", "ISuiteBuilder");
 // Type namespace: NUnit.Framework.Interfaces
 namespace NUnit::Framework::Interfaces {
   // Size: 0x10
@@ -35,10 +35,10 @@ namespace NUnit::Framework::Interfaces {
     public:
     // public System.Boolean CanBuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
     // Offset: 0xFFFFFFFF
-    bool CanBuildFrom(NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
+    bool CanBuildFrom(::NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
     // public NUnit.Framework.Internal.TestSuite BuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
     // Offset: 0xFFFFFFFF
-    NUnit::Framework::Internal::TestSuite* BuildFrom(NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
+    ::NUnit::Framework::Internal::TestSuite* BuildFrom(::NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
   }; // NUnit.Framework.Interfaces.ISuiteBuilder
   #pragma pack(pop)
 }
@@ -46,7 +46,7 @@ namespace NUnit::Framework::Interfaces {
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ISuiteBuilder::CanBuildFrom
 // Il2CppName: CanBuildFrom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Interfaces::ISuiteBuilder::*)(NUnit::Framework::Interfaces::ITypeInfo*)>(&NUnit::Framework::Interfaces::ISuiteBuilder::CanBuildFrom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Interfaces::ISuiteBuilder::*)(::NUnit::Framework::Interfaces::ITypeInfo*)>(&NUnit::Framework::Interfaces::ISuiteBuilder::CanBuildFrom)> {
   static const MethodInfo* get() {
     static auto* typeInfo = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ITypeInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ISuiteBuilder*), "CanBuildFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{typeInfo});
@@ -55,7 +55,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ISuiteBuilder::BuildFrom
 // Il2CppName: BuildFrom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestSuite* (NUnit::Framework::Interfaces::ISuiteBuilder::*)(NUnit::Framework::Interfaces::ITypeInfo*)>(&NUnit::Framework::Interfaces::ISuiteBuilder::BuildFrom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Framework::Internal::TestSuite* (NUnit::Framework::Interfaces::ISuiteBuilder::*)(::NUnit::Framework::Interfaces::ITypeInfo*)>(&NUnit::Framework::Interfaces::ISuiteBuilder::BuildFrom)> {
   static const MethodInfo* get() {
     static auto* typeInfo = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ITypeInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ISuiteBuilder*), "BuildFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{typeInfo});

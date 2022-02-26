@@ -28,8 +28,8 @@ namespace Oculus::Platform {
   class RoomOptions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::RoomOptions);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::RoomOptions*, "Oculus.Platform", "RoomOptions");
+NEED_NO_BOX(::Oculus::Platform::RoomOptions);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::RoomOptions*, "Oculus.Platform", "RoomOptions");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x18
@@ -50,16 +50,16 @@ namespace Oculus::Platform {
     // private System.IntPtr Handle
     // Size: 0x8
     // Offset: 0x10
-    System::IntPtr Handle;
+    ::System::IntPtr Handle;
     // Field size check
-    static_assert(sizeof(System::IntPtr) == 0x8);
+    static_assert(sizeof(::System::IntPtr) == 0x8);
     public:
-    // Creating conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const noexcept {
+    // Creating conversion operator: operator ::System::IntPtr
+    constexpr operator ::System::IntPtr() const noexcept {
       return Handle;
     }
     // Get instance field reference: private System.IntPtr Handle
-    System::IntPtr& dyn_Handle();
+    ::System::IntPtr& dyn_Handle();
     // public System.Void SetDataStore(System.String key, System.String value)
     // Offset: 0x29FE890
     void SetDataStore(::StringW key, ::StringW value);
@@ -74,10 +74,10 @@ namespace Oculus::Platform {
     void SetMaxUserResults(uint value);
     // public System.Void SetOrdering(Oculus.Platform.UserOrdering value)
     // Offset: 0x29FEA78
-    void SetOrdering(Oculus::Platform::UserOrdering value);
+    void SetOrdering(::Oculus::Platform::UserOrdering value);
     // public System.Void SetRecentlyMetTimeWindow(Oculus.Platform.TimeWindow value)
     // Offset: 0x29FEAF4
-    void SetRecentlyMetTimeWindow(Oculus::Platform::TimeWindow value);
+    void SetRecentlyMetTimeWindow(::Oculus::Platform::TimeWindow value);
     // public System.Void SetRoomId(System.UInt64 value)
     // Offset: 0x29FEB70
     void SetRoomId(uint64_t value);
@@ -86,14 +86,14 @@ namespace Oculus::Platform {
     void SetTurnOffUpdates(bool value);
     // static public System.IntPtr op_Explicit(Oculus.Platform.RoomOptions options)
     // Offset: 0x29FEC68
-    // ABORTED: conflicts with another method.  explicit operator System::IntPtr();
+    // ABORTED: conflicts with another method.  explicit operator ::System::IntPtr();
     // public System.Void .ctor()
     // Offset: 0x29FE818
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RoomOptions* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::RoomOptions::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::RoomOptions::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RoomOptions*, creationType>()));
     }
     // protected override System.Void Finalize()
@@ -103,7 +103,7 @@ namespace Oculus::Platform {
     void Finalize();
   }; // Oculus.Platform.RoomOptions
   #pragma pack(pop)
-  static check_size<sizeof(RoomOptions), 16 + sizeof(System::IntPtr)> __Oculus_Platform_RoomOptionsSizeCheck;
+  static check_size<sizeof(RoomOptions), 16 + sizeof(::System::IntPtr)> __Oculus_Platform_RoomOptionsSizeCheck;
   static_assert(sizeof(RoomOptions) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -146,7 +146,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 // Writing MetadataGetter for method: Oculus::Platform::RoomOptions::SetOrdering
 // Il2CppName: SetOrdering
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::RoomOptions::*)(Oculus::Platform::UserOrdering)>(&Oculus::Platform::RoomOptions::SetOrdering)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::RoomOptions::*)(::Oculus::Platform::UserOrdering)>(&Oculus::Platform::RoomOptions::SetOrdering)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "UserOrdering")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::RoomOptions*), "SetOrdering", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -155,7 +155,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 // Writing MetadataGetter for method: Oculus::Platform::RoomOptions::SetRecentlyMetTimeWindow
 // Il2CppName: SetRecentlyMetTimeWindow
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::RoomOptions::*)(Oculus::Platform::TimeWindow)>(&Oculus::Platform::RoomOptions::SetRecentlyMetTimeWindow)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::RoomOptions::*)(::Oculus::Platform::TimeWindow)>(&Oculus::Platform::RoomOptions::SetRecentlyMetTimeWindow)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "TimeWindow")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::RoomOptions*), "SetRecentlyMetTimeWindow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -179,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::RoomOptions*), "SetTurnOffUpdates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
-// Writing MetadataGetter for method: Oculus::Platform::RoomOptions::operator System::IntPtr
+// Writing MetadataGetter for method: Oculus::Platform::RoomOptions::operator ::System::IntPtr
 // Il2CppName: op_Explicit
 // Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::RoomOptions::New_ctor

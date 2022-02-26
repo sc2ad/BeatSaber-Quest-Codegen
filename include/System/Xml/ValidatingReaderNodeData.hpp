@@ -30,8 +30,8 @@ namespace System::Xml {
   class ValidatingReaderNodeData;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::ValidatingReaderNodeData);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::ValidatingReaderNodeData*, "System.Xml", "ValidatingReaderNodeData");
+NEED_NO_BOX(::System::Xml::ValidatingReaderNodeData);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::ValidatingReaderNodeData*, "System.Xml", "ValidatingReaderNodeData");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x5C
@@ -96,15 +96,15 @@ namespace System::Xml {
     // private System.Xml.AttributePSVIInfo attributePSVIInfo
     // Size: 0x8
     // Offset: 0x48
-    System::Xml::AttributePSVIInfo* attributePSVIInfo;
+    ::System::Xml::AttributePSVIInfo* attributePSVIInfo;
     // Field size check
-    static_assert(sizeof(System::Xml::AttributePSVIInfo*) == 0x8);
+    static_assert(sizeof(::System::Xml::AttributePSVIInfo*) == 0x8);
     // private System.Xml.XmlNodeType nodeType
     // Size: 0x4
     // Offset: 0x50
-    System::Xml::XmlNodeType nodeType;
+    ::System::Xml::XmlNodeType nodeType;
     // Field size check
-    static_assert(sizeof(System::Xml::XmlNodeType) == 0x4);
+    static_assert(sizeof(::System::Xml::XmlNodeType) == 0x4);
     // private System.Int32 lineNo
     // Size: 0x4
     // Offset: 0x54
@@ -133,9 +133,9 @@ namespace System::Xml {
     // Get instance field reference: private System.Int32 depth
     int& dyn_depth();
     // Get instance field reference: private System.Xml.AttributePSVIInfo attributePSVIInfo
-    System::Xml::AttributePSVIInfo*& dyn_attributePSVIInfo();
+    ::System::Xml::AttributePSVIInfo*& dyn_attributePSVIInfo();
     // Get instance field reference: private System.Xml.XmlNodeType nodeType
-    System::Xml::XmlNodeType& dyn_nodeType();
+    ::System::Xml::XmlNodeType& dyn_nodeType();
     // Get instance field reference: private System.Int32 lineNo
     int& dyn_lineNo();
     // Get instance field reference: private System.Int32 linePos
@@ -175,16 +175,16 @@ namespace System::Xml {
     ::StringW get_OriginalStringValue();
     // public System.Xml.XmlNodeType get_NodeType()
     // Offset: 0x161A050
-    System::Xml::XmlNodeType get_NodeType();
+    ::System::Xml::XmlNodeType get_NodeType();
     // public System.Void set_NodeType(System.Xml.XmlNodeType value)
     // Offset: 0x161A058
-    void set_NodeType(System::Xml::XmlNodeType value);
+    void set_NodeType(::System::Xml::XmlNodeType value);
     // public System.Xml.AttributePSVIInfo get_AttInfo()
     // Offset: 0x161A060
-    System::Xml::AttributePSVIInfo* get_AttInfo();
+    ::System::Xml::AttributePSVIInfo* get_AttInfo();
     // public System.Void set_AttInfo(System.Xml.AttributePSVIInfo value)
     // Offset: 0x161A068
-    void set_AttInfo(System::Xml::AttributePSVIInfo* value);
+    void set_AttInfo(::System::Xml::AttributePSVIInfo* value);
     // public System.Int32 get_LineNumber()
     // Offset: 0x161A070
     int get_LineNumber();
@@ -194,22 +194,22 @@ namespace System::Xml {
     // public System.Void .ctor(System.Xml.XmlNodeType nodeType)
     // Offset: 0x1619F24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ValidatingReaderNodeData* New_ctor(System::Xml::XmlNodeType nodeType) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::ValidatingReaderNodeData::.ctor");
+    static ValidatingReaderNodeData* New_ctor(::System::Xml::XmlNodeType nodeType) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::ValidatingReaderNodeData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ValidatingReaderNodeData*, creationType>(nodeType)));
     }
     // public System.String GetAtomizedNameWPrefix(System.Xml.XmlNameTable nameTable)
     // Offset: 0x1619F84
-    ::StringW GetAtomizedNameWPrefix(System::Xml::XmlNameTable* nameTable);
+    ::StringW GetAtomizedNameWPrefix(::System::Xml::XmlNameTable* nameTable);
     // System.Void Clear(System.Xml.XmlNodeType nodeType)
     // Offset: 0x1619E80
-    void Clear(System::Xml::XmlNodeType nodeType);
+    void Clear(::System::Xml::XmlNodeType nodeType);
     // System.Void SetLineInfo(System.Int32 lineNo, System.Int32 linePos)
     // Offset: 0x161A080
     void SetLineInfo(int lineNo, int linePos);
     // System.Void SetLineInfo(System.Xml.IXmlLineInfo lineInfo)
     // Offset: 0x161A088
-    void SetLineInfo(System::Xml::IXmlLineInfo* lineInfo);
+    void SetLineInfo(::System::Xml::IXmlLineInfo* lineInfo);
     // System.Void SetItemData(System.String localName, System.String prefix, System.String ns, System.Int32 depth)
     // Offset: 0x161A1B0
     void SetItemData(::StringW localName, ::StringW prefix, ::StringW ns, int depth);
@@ -225,7 +225,7 @@ namespace System::Xml {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ValidatingReaderNodeData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::ValidatingReaderNodeData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::ValidatingReaderNodeData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ValidatingReaderNodeData*, creationType>()));
     }
   }; // System.Xml.ValidatingReaderNodeData
@@ -330,7 +330,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Xml::ValidatingReaderNodeData::get_NodeType
 // Il2CppName: get_NodeType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlNodeType (System::Xml::ValidatingReaderNodeData::*)()>(&System::Xml::ValidatingReaderNodeData::get_NodeType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNodeType (System::Xml::ValidatingReaderNodeData::*)()>(&System::Xml::ValidatingReaderNodeData::get_NodeType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::ValidatingReaderNodeData*), "get_NodeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -338,7 +338,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::ValidatingReaderNodeData::set_NodeType
 // Il2CppName: set_NodeType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::ValidatingReaderNodeData::*)(System::Xml::XmlNodeType)>(&System::Xml::ValidatingReaderNodeData::set_NodeType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::ValidatingReaderNodeData::*)(::System::Xml::XmlNodeType)>(&System::Xml::ValidatingReaderNodeData::set_NodeType)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNodeType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::ValidatingReaderNodeData*), "set_NodeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -347,7 +347,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::ValidatingReaderNodeData::get_AttInfo
 // Il2CppName: get_AttInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::AttributePSVIInfo* (System::Xml::ValidatingReaderNodeData::*)()>(&System::Xml::ValidatingReaderNodeData::get_AttInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::AttributePSVIInfo* (System::Xml::ValidatingReaderNodeData::*)()>(&System::Xml::ValidatingReaderNodeData::get_AttInfo)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::ValidatingReaderNodeData*), "get_AttInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -355,7 +355,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::ValidatingReaderNodeData::set_AttInfo
 // Il2CppName: set_AttInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::ValidatingReaderNodeData::*)(System::Xml::AttributePSVIInfo*)>(&System::Xml::ValidatingReaderNodeData::set_AttInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::ValidatingReaderNodeData::*)(::System::Xml::AttributePSVIInfo*)>(&System::Xml::ValidatingReaderNodeData::set_AttInfo)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Xml", "AttributePSVIInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::ValidatingReaderNodeData*), "set_AttInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -384,7 +384,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Xml::ValidatingReaderNodeData::GetAtomizedNameWPrefix
 // Il2CppName: GetAtomizedNameWPrefix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Xml::ValidatingReaderNodeData::*)(System::Xml::XmlNameTable*)>(&System::Xml::ValidatingReaderNodeData::GetAtomizedNameWPrefix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Xml::ValidatingReaderNodeData::*)(::System::Xml::XmlNameTable*)>(&System::Xml::ValidatingReaderNodeData::GetAtomizedNameWPrefix)> {
   static const MethodInfo* get() {
     static auto* nameTable = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNameTable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::ValidatingReaderNodeData*), "GetAtomizedNameWPrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nameTable});
@@ -393,7 +393,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Xml::ValidatingReaderNodeData::Clear
 // Il2CppName: Clear
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::ValidatingReaderNodeData::*)(System::Xml::XmlNodeType)>(&System::Xml::ValidatingReaderNodeData::Clear)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::ValidatingReaderNodeData::*)(::System::Xml::XmlNodeType)>(&System::Xml::ValidatingReaderNodeData::Clear)> {
   static const MethodInfo* get() {
     static auto* nodeType = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNodeType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::ValidatingReaderNodeData*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeType});
@@ -412,7 +412,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::ValidatingReaderNodeData::SetLineInfo
 // Il2CppName: SetLineInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::ValidatingReaderNodeData::*)(System::Xml::IXmlLineInfo*)>(&System::Xml::ValidatingReaderNodeData::SetLineInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::ValidatingReaderNodeData::*)(::System::Xml::IXmlLineInfo*)>(&System::Xml::ValidatingReaderNodeData::SetLineInfo)> {
   static const MethodInfo* get() {
     static auto* lineInfo = &::il2cpp_utils::GetClassFromName("System.Xml", "IXmlLineInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::ValidatingReaderNodeData*), "SetLineInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lineInfo});

@@ -74,8 +74,8 @@ namespace UnityEngine::UI {
   class Dropdown;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::UI::Dropdown);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Dropdown*, "UnityEngine.UI", "Dropdown");
+NEED_NO_BOX(::UnityEngine::UI::Dropdown);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::Dropdown*, "UnityEngine.UI", "Dropdown");
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {
   // Size: 0x161
@@ -84,19 +84,19 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AddComponentMenu] Offset: 11E05A4
   // [RequireComponent] Offset: 11E05A4
-  class Dropdown : public UnityEngine::UI::Selectable/*, public UnityEngine::EventSystems::IPointerClickHandler, public UnityEngine::EventSystems::ISubmitHandler, public UnityEngine::EventSystems::ICancelHandler*/ {
+  class Dropdown : public ::UnityEngine::UI::Selectable/*, public ::UnityEngine::EventSystems::IPointerClickHandler, public ::UnityEngine::EventSystems::ISubmitHandler, public ::UnityEngine::EventSystems::ICancelHandler*/ {
     public:
-    // Nested type: UnityEngine::UI::Dropdown::DropdownItem
+    // Nested type: ::UnityEngine::UI::Dropdown::DropdownItem
     class DropdownItem;
-    // Nested type: UnityEngine::UI::Dropdown::OptionData
+    // Nested type: ::UnityEngine::UI::Dropdown::OptionData
     class OptionData;
-    // Nested type: UnityEngine::UI::Dropdown::OptionDataList
+    // Nested type: ::UnityEngine::UI::Dropdown::OptionDataList
     class OptionDataList;
-    // Nested type: UnityEngine::UI::Dropdown::DropdownEvent
+    // Nested type: ::UnityEngine::UI::Dropdown::DropdownEvent
     class DropdownEvent;
-    // Nested type: UnityEngine::UI::Dropdown::$$c__DisplayClass62_0
+    // Nested type: ::UnityEngine::UI::Dropdown::$$c__DisplayClass62_0
     class $$c__DisplayClass62_0;
-    // Nested type: UnityEngine::UI::Dropdown::$DelayedDestroyDropdownList$d__74
+    // Nested type: ::UnityEngine::UI::Dropdown::$DelayedDestroyDropdownList$d__74
     class $DelayedDestroyDropdownList$d__74;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -110,34 +110,34 @@ namespace UnityEngine::UI {
     // private UnityEngine.RectTransform m_Template
     // Size: 0x8
     // Offset: 0xF8
-    UnityEngine::RectTransform* m_Template;
+    ::UnityEngine::RectTransform* m_Template;
     // Field size check
-    static_assert(sizeof(UnityEngine::RectTransform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::RectTransform*) == 0x8);
     // private UnityEngine.UI.Text m_CaptionText
     // Size: 0x8
     // Offset: 0x100
-    UnityEngine::UI::Text* m_CaptionText;
+    ::UnityEngine::UI::Text* m_CaptionText;
     // Field size check
-    static_assert(sizeof(UnityEngine::UI::Text*) == 0x8);
+    static_assert(sizeof(::UnityEngine::UI::Text*) == 0x8);
     // private UnityEngine.UI.Image m_CaptionImage
     // Size: 0x8
     // Offset: 0x108
-    UnityEngine::UI::Image* m_CaptionImage;
+    ::UnityEngine::UI::Image* m_CaptionImage;
     // Field size check
-    static_assert(sizeof(UnityEngine::UI::Image*) == 0x8);
+    static_assert(sizeof(::UnityEngine::UI::Image*) == 0x8);
     // [SpaceAttribute] Offset: 0x11E1A94
     // private UnityEngine.UI.Text m_ItemText
     // Size: 0x8
     // Offset: 0x110
-    UnityEngine::UI::Text* m_ItemText;
+    ::UnityEngine::UI::Text* m_ItemText;
     // Field size check
-    static_assert(sizeof(UnityEngine::UI::Text*) == 0x8);
+    static_assert(sizeof(::UnityEngine::UI::Text*) == 0x8);
     // private UnityEngine.UI.Image m_ItemImage
     // Size: 0x8
     // Offset: 0x118
-    UnityEngine::UI::Image* m_ItemImage;
+    ::UnityEngine::UI::Image* m_ItemImage;
     // Field size check
-    static_assert(sizeof(UnityEngine::UI::Image*) == 0x8);
+    static_assert(sizeof(::UnityEngine::UI::Image*) == 0x8);
     // [SpaceAttribute] Offset: 0x11E1ADC
     // private System.Int32 m_Value
     // Size: 0x4
@@ -151,16 +151,16 @@ namespace UnityEngine::UI {
     // private UnityEngine.UI.Dropdown/UnityEngine.UI.OptionDataList m_Options
     // Size: 0x8
     // Offset: 0x128
-    UnityEngine::UI::Dropdown::OptionDataList* m_Options;
+    ::UnityEngine::UI::Dropdown::OptionDataList* m_Options;
     // Field size check
-    static_assert(sizeof(UnityEngine::UI::Dropdown::OptionDataList*) == 0x8);
+    static_assert(sizeof(::UnityEngine::UI::Dropdown::OptionDataList*) == 0x8);
     // [SpaceAttribute] Offset: 0x11E1B4C
     // private UnityEngine.UI.Dropdown/UnityEngine.UI.DropdownEvent m_OnValueChanged
     // Size: 0x8
     // Offset: 0x130
-    UnityEngine::UI::Dropdown::DropdownEvent* m_OnValueChanged;
+    ::UnityEngine::UI::Dropdown::DropdownEvent* m_OnValueChanged;
     // Field size check
-    static_assert(sizeof(UnityEngine::UI::Dropdown::DropdownEvent*) == 0x8);
+    static_assert(sizeof(::UnityEngine::UI::Dropdown::DropdownEvent*) == 0x8);
     // private System.Single m_AlphaFadeSpeed
     // Size: 0x4
     // Offset: 0x138
@@ -172,27 +172,27 @@ namespace UnityEngine::UI {
     // private UnityEngine.GameObject m_Dropdown
     // Size: 0x8
     // Offset: 0x140
-    UnityEngine::GameObject* m_Dropdown;
+    ::UnityEngine::GameObject* m_Dropdown;
     // Field size check
-    static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
+    static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
     // private UnityEngine.GameObject m_Blocker
     // Size: 0x8
     // Offset: 0x148
-    UnityEngine::GameObject* m_Blocker;
+    ::UnityEngine::GameObject* m_Blocker;
     // Field size check
-    static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
+    static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
     // private System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/UnityEngine.UI.DropdownItem> m_Items
     // Size: 0x8
     // Offset: 0x150
-    System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::DropdownItem*>* m_Items;
+    ::System::Collections::Generic::List_1<::UnityEngine::UI::Dropdown::DropdownItem*>* m_Items;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::DropdownItem*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::UnityEngine::UI::Dropdown::DropdownItem*>*) == 0x8);
     // private UnityEngine.UI.CoroutineTween.TweenRunner`1<UnityEngine.UI.CoroutineTween.FloatTween> m_AlphaTweenRunner
     // Size: 0x8
     // Offset: 0x158
-    UnityEngine::UI::CoroutineTween::TweenRunner_1<UnityEngine::UI::CoroutineTween::FloatTween>* m_AlphaTweenRunner;
+    ::UnityEngine::UI::CoroutineTween::TweenRunner_1<::UnityEngine::UI::CoroutineTween::FloatTween>* m_AlphaTweenRunner;
     // Field size check
-    static_assert(sizeof(UnityEngine::UI::CoroutineTween::TweenRunner_1<UnityEngine::UI::CoroutineTween::FloatTween>*) == 0x8);
+    static_assert(sizeof(::UnityEngine::UI::CoroutineTween::TweenRunner_1<::UnityEngine::UI::CoroutineTween::FloatTween>*) == 0x8);
     // private System.Boolean validTemplate
     // Size: 0x1
     // Offset: 0x160
@@ -200,92 +200,92 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     public:
-    // Creating interface conversion operator: operator UnityEngine::EventSystems::IPointerClickHandler
-    operator UnityEngine::EventSystems::IPointerClickHandler() noexcept {
-      return *reinterpret_cast<UnityEngine::EventSystems::IPointerClickHandler*>(this);
+    // Creating interface conversion operator: operator ::UnityEngine::EventSystems::IPointerClickHandler
+    operator ::UnityEngine::EventSystems::IPointerClickHandler() noexcept {
+      return *reinterpret_cast<::UnityEngine::EventSystems::IPointerClickHandler*>(this);
     }
-    // Creating interface conversion operator: operator UnityEngine::EventSystems::ISubmitHandler
-    operator UnityEngine::EventSystems::ISubmitHandler() noexcept {
-      return *reinterpret_cast<UnityEngine::EventSystems::ISubmitHandler*>(this);
+    // Creating interface conversion operator: operator ::UnityEngine::EventSystems::ISubmitHandler
+    operator ::UnityEngine::EventSystems::ISubmitHandler() noexcept {
+      return *reinterpret_cast<::UnityEngine::EventSystems::ISubmitHandler*>(this);
     }
-    // Creating interface conversion operator: operator UnityEngine::EventSystems::ICancelHandler
-    operator UnityEngine::EventSystems::ICancelHandler() noexcept {
-      return *reinterpret_cast<UnityEngine::EventSystems::ICancelHandler*>(this);
+    // Creating interface conversion operator: operator ::UnityEngine::EventSystems::ICancelHandler
+    operator ::UnityEngine::EventSystems::ICancelHandler() noexcept {
+      return *reinterpret_cast<::UnityEngine::EventSystems::ICancelHandler*>(this);
     }
     // Get static field: static private UnityEngine.UI.Dropdown/UnityEngine.UI.OptionData s_NoOptionData
-    static UnityEngine::UI::Dropdown::OptionData* _get_s_NoOptionData();
+    static ::UnityEngine::UI::Dropdown::OptionData* _get_s_NoOptionData();
     // Set static field: static private UnityEngine.UI.Dropdown/UnityEngine.UI.OptionData s_NoOptionData
-    static void _set_s_NoOptionData(UnityEngine::UI::Dropdown::OptionData* value);
+    static void _set_s_NoOptionData(::UnityEngine::UI::Dropdown::OptionData* value);
     // Get instance field reference: private UnityEngine.RectTransform m_Template
-    UnityEngine::RectTransform*& dyn_m_Template();
+    ::UnityEngine::RectTransform*& dyn_m_Template();
     // Get instance field reference: private UnityEngine.UI.Text m_CaptionText
-    UnityEngine::UI::Text*& dyn_m_CaptionText();
+    ::UnityEngine::UI::Text*& dyn_m_CaptionText();
     // Get instance field reference: private UnityEngine.UI.Image m_CaptionImage
-    UnityEngine::UI::Image*& dyn_m_CaptionImage();
+    ::UnityEngine::UI::Image*& dyn_m_CaptionImage();
     // Get instance field reference: private UnityEngine.UI.Text m_ItemText
-    UnityEngine::UI::Text*& dyn_m_ItemText();
+    ::UnityEngine::UI::Text*& dyn_m_ItemText();
     // Get instance field reference: private UnityEngine.UI.Image m_ItemImage
-    UnityEngine::UI::Image*& dyn_m_ItemImage();
+    ::UnityEngine::UI::Image*& dyn_m_ItemImage();
     // Get instance field reference: private System.Int32 m_Value
     int& dyn_m_Value();
     // Get instance field reference: private UnityEngine.UI.Dropdown/UnityEngine.UI.OptionDataList m_Options
-    UnityEngine::UI::Dropdown::OptionDataList*& dyn_m_Options();
+    ::UnityEngine::UI::Dropdown::OptionDataList*& dyn_m_Options();
     // Get instance field reference: private UnityEngine.UI.Dropdown/UnityEngine.UI.DropdownEvent m_OnValueChanged
-    UnityEngine::UI::Dropdown::DropdownEvent*& dyn_m_OnValueChanged();
+    ::UnityEngine::UI::Dropdown::DropdownEvent*& dyn_m_OnValueChanged();
     // Get instance field reference: private System.Single m_AlphaFadeSpeed
     float& dyn_m_AlphaFadeSpeed();
     // Get instance field reference: private UnityEngine.GameObject m_Dropdown
-    UnityEngine::GameObject*& dyn_m_Dropdown();
+    ::UnityEngine::GameObject*& dyn_m_Dropdown();
     // Get instance field reference: private UnityEngine.GameObject m_Blocker
-    UnityEngine::GameObject*& dyn_m_Blocker();
+    ::UnityEngine::GameObject*& dyn_m_Blocker();
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/UnityEngine.UI.DropdownItem> m_Items
-    System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::DropdownItem*>*& dyn_m_Items();
+    ::System::Collections::Generic::List_1<::UnityEngine::UI::Dropdown::DropdownItem*>*& dyn_m_Items();
     // Get instance field reference: private UnityEngine.UI.CoroutineTween.TweenRunner`1<UnityEngine.UI.CoroutineTween.FloatTween> m_AlphaTweenRunner
-    UnityEngine::UI::CoroutineTween::TweenRunner_1<UnityEngine::UI::CoroutineTween::FloatTween>*& dyn_m_AlphaTweenRunner();
+    ::UnityEngine::UI::CoroutineTween::TweenRunner_1<::UnityEngine::UI::CoroutineTween::FloatTween>*& dyn_m_AlphaTweenRunner();
     // Get instance field reference: private System.Boolean validTemplate
     bool& dyn_validTemplate();
     // public UnityEngine.RectTransform get_template()
     // Offset: 0x187984C
-    UnityEngine::RectTransform* get_template();
+    ::UnityEngine::RectTransform* get_template();
     // public System.Void set_template(UnityEngine.RectTransform value)
     // Offset: 0x1878C94
-    void set_template(UnityEngine::RectTransform* value);
+    void set_template(::UnityEngine::RectTransform* value);
     // public UnityEngine.UI.Text get_captionText()
     // Offset: 0x1879854
-    UnityEngine::UI::Text* get_captionText();
+    ::UnityEngine::UI::Text* get_captionText();
     // public System.Void set_captionText(UnityEngine.UI.Text value)
     // Offset: 0x1878C9C
-    void set_captionText(UnityEngine::UI::Text* value);
+    void set_captionText(::UnityEngine::UI::Text* value);
     // public UnityEngine.UI.Image get_captionImage()
     // Offset: 0x187985C
-    UnityEngine::UI::Image* get_captionImage();
+    ::UnityEngine::UI::Image* get_captionImage();
     // public System.Void set_captionImage(UnityEngine.UI.Image value)
     // Offset: 0x1879864
-    void set_captionImage(UnityEngine::UI::Image* value);
+    void set_captionImage(::UnityEngine::UI::Image* value);
     // public UnityEngine.UI.Text get_itemText()
     // Offset: 0x187986C
-    UnityEngine::UI::Text* get_itemText();
+    ::UnityEngine::UI::Text* get_itemText();
     // public System.Void set_itemText(UnityEngine.UI.Text value)
     // Offset: 0x1878CA4
-    void set_itemText(UnityEngine::UI::Text* value);
+    void set_itemText(::UnityEngine::UI::Text* value);
     // public UnityEngine.UI.Image get_itemImage()
     // Offset: 0x1879874
-    UnityEngine::UI::Image* get_itemImage();
+    ::UnityEngine::UI::Image* get_itemImage();
     // public System.Void set_itemImage(UnityEngine.UI.Image value)
     // Offset: 0x187987C
-    void set_itemImage(UnityEngine::UI::Image* value);
+    void set_itemImage(::UnityEngine::UI::Image* value);
     // public System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/UnityEngine.UI.OptionData> get_options()
     // Offset: 0x1878CAC
-    System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::OptionData*>* get_options();
+    ::System::Collections::Generic::List_1<::UnityEngine::UI::Dropdown::OptionData*>* get_options();
     // public System.Void set_options(System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/UnityEngine.UI.OptionData> value)
     // Offset: 0x1879884
-    void set_options(System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::OptionData*>* value);
+    void set_options(::System::Collections::Generic::List_1<::UnityEngine::UI::Dropdown::OptionData*>* value);
     // public UnityEngine.UI.Dropdown/UnityEngine.UI.DropdownEvent get_onValueChanged()
     // Offset: 0x18798A0
-    UnityEngine::UI::Dropdown::DropdownEvent* get_onValueChanged();
+    ::UnityEngine::UI::Dropdown::DropdownEvent* get_onValueChanged();
     // public System.Void set_onValueChanged(UnityEngine.UI.Dropdown/UnityEngine.UI.DropdownEvent value)
     // Offset: 0x18798A8
-    void set_onValueChanged(UnityEngine::UI::Dropdown::DropdownEvent* value);
+    void set_onValueChanged(::UnityEngine::UI::Dropdown::DropdownEvent* value);
     // public System.Single get_alphaFadeSpeed()
     // Offset: 0x18798B0
     float get_alphaFadeSpeed();
@@ -309,13 +309,13 @@ namespace UnityEngine::UI {
     void RefreshShownValue();
     // public System.Void AddOptions(System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/UnityEngine.UI.OptionData> options)
     // Offset: 0x1879EA0
-    void AddOptions(System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::OptionData*>* options);
+    void AddOptions(::System::Collections::Generic::List_1<::UnityEngine::UI::Dropdown::OptionData*>* options);
     // public System.Void AddOptions(System.Collections.Generic.List`1<System.String> options)
     // Offset: 0x1879F18
-    void AddOptions(System::Collections::Generic::List_1<::StringW>* options);
+    void AddOptions(::System::Collections::Generic::List_1<::StringW>* options);
     // public System.Void AddOptions(System.Collections.Generic.List`1<UnityEngine.Sprite> options)
     // Offset: 0x187A004
-    void AddOptions(System::Collections::Generic::List_1<UnityEngine::Sprite*>* options);
+    void AddOptions(::System::Collections::Generic::List_1<::UnityEngine::Sprite*>* options);
     // public System.Void ClearOptions()
     // Offset: 0x187A0F0
     void ClearOptions();
@@ -325,46 +325,46 @@ namespace UnityEngine::UI {
     // static private T GetOrAddComponent(UnityEngine.GameObject go)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static T GetOrAddComponent(UnityEngine::GameObject* go) {
-      static_assert(std::is_convertible_v<T, UnityEngine::Component*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::Dropdown::GetOrAddComponent");
+    static T GetOrAddComponent(::UnityEngine::GameObject* go) {
+      static_assert(std::is_convertible_v<T, ::UnityEngine::Component*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::Dropdown::GetOrAddComponent");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.UI", "Dropdown", "GetOrAddComponent", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(go)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, go);
     }
     // public System.Void OnPointerClick(UnityEngine.EventSystems.PointerEventData eventData)
     // Offset: 0x187A7C4
-    void OnPointerClick(UnityEngine::EventSystems::PointerEventData* eventData);
+    void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnSubmit(UnityEngine.EventSystems.BaseEventData eventData)
     // Offset: 0x187B480
-    void OnSubmit(UnityEngine::EventSystems::BaseEventData* eventData);
+    void OnSubmit(::UnityEngine::EventSystems::BaseEventData* eventData);
     // public System.Void OnCancel(UnityEngine.EventSystems.BaseEventData eventData)
     // Offset: 0x187B484
-    void OnCancel(UnityEngine::EventSystems::BaseEventData* eventData);
+    void OnCancel(::UnityEngine::EventSystems::BaseEventData* eventData);
     // public System.Void Show()
     // Offset: 0x187A7C8
     void Show();
     // protected UnityEngine.GameObject CreateBlocker(UnityEngine.Canvas rootCanvas)
     // Offset: 0x187B95C
-    UnityEngine::GameObject* CreateBlocker(UnityEngine::Canvas* rootCanvas);
+    ::UnityEngine::GameObject* CreateBlocker(::UnityEngine::Canvas* rootCanvas);
     // protected System.Void DestroyBlocker(UnityEngine.GameObject blocker)
     // Offset: 0x187BDB4
-    void DestroyBlocker(UnityEngine::GameObject* blocker);
+    void DestroyBlocker(::UnityEngine::GameObject* blocker);
     // protected UnityEngine.GameObject CreateDropdownList(UnityEngine.GameObject template)
     // Offset: 0x187BE1C
-    UnityEngine::GameObject* CreateDropdownList(UnityEngine::GameObject* _template);
+    ::UnityEngine::GameObject* CreateDropdownList(::UnityEngine::GameObject* _template);
     // protected System.Void DestroyDropdownList(UnityEngine.GameObject dropdownList)
     // Offset: 0x187BE8C
-    void DestroyDropdownList(UnityEngine::GameObject* dropdownList);
+    void DestroyDropdownList(::UnityEngine::GameObject* dropdownList);
     // protected UnityEngine.UI.Dropdown/UnityEngine.UI.DropdownItem CreateItem(UnityEngine.UI.Dropdown/UnityEngine.UI.DropdownItem itemTemplate)
     // Offset: 0x187BEF4
-    UnityEngine::UI::Dropdown::DropdownItem* CreateItem(UnityEngine::UI::Dropdown::DropdownItem* itemTemplate);
+    ::UnityEngine::UI::Dropdown::DropdownItem* CreateItem(::UnityEngine::UI::Dropdown::DropdownItem* itemTemplate);
     // protected System.Void DestroyItem(UnityEngine.UI.Dropdown/UnityEngine.UI.DropdownItem item)
     // Offset: 0x187BF64
-    void DestroyItem(UnityEngine::UI::Dropdown::DropdownItem* item);
+    void DestroyItem(::UnityEngine::UI::Dropdown::DropdownItem* item);
     // private UnityEngine.UI.Dropdown/UnityEngine.UI.DropdownItem AddItem(UnityEngine.UI.Dropdown/UnityEngine.UI.OptionData data, System.Boolean selected, UnityEngine.UI.Dropdown/UnityEngine.UI.DropdownItem itemTemplate, System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/UnityEngine.UI.DropdownItem> items)
     // Offset: 0x187B5A4
-    UnityEngine::UI::Dropdown::DropdownItem* AddItem(UnityEngine::UI::Dropdown::OptionData* data, bool selected, UnityEngine::UI::Dropdown::DropdownItem* itemTemplate, System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::DropdownItem*>* items);
+    ::UnityEngine::UI::Dropdown::DropdownItem* AddItem(::UnityEngine::UI::Dropdown::OptionData* data, bool selected, ::UnityEngine::UI::Dropdown::DropdownItem* itemTemplate, ::System::Collections::Generic::List_1<::UnityEngine::UI::Dropdown::DropdownItem*>* items);
     // private System.Void AlphaFadeList(System.Single duration, System.Single alpha)
     // Offset: 0x187BF68
     void AlphaFadeList(float duration, float alpha);
@@ -379,13 +379,13 @@ namespace UnityEngine::UI {
     void Hide();
     // private System.Collections.IEnumerator DelayedDestroyDropdownList(System.Single delay)
     // Offset: 0x187C0A8
-    System::Collections::IEnumerator* DelayedDestroyDropdownList(float delay);
+    ::System::Collections::IEnumerator* DelayedDestroyDropdownList(float delay);
     // private System.Void ImmediateDestroyDropdownList()
     // Offset: 0x1879D3C
     void ImmediateDestroyDropdownList();
     // private System.Void OnSelectItem(UnityEngine.UI.Toggle toggle)
     // Offset: 0x187C128
-    void OnSelectItem(UnityEngine::UI::Toggle* toggle);
+    void OnSelectItem(::UnityEngine::UI::Toggle* toggle);
     // protected System.Void .ctor()
     // Offset: 0x18799F8
     // Implemented from: UnityEngine.UI.Selectable
@@ -398,7 +398,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Dropdown* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::Dropdown::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::Dropdown::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Dropdown*, creationType>()));
     }
     // static private System.Void .cctor()
@@ -431,7 +431,7 @@ namespace UnityEngine::UI {
 // Writing MetadataGetter for method: UnityEngine::UI::Dropdown::get_template
 // Il2CppName: get_template
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (UnityEngine::UI::Dropdown::*)()>(&UnityEngine::UI::Dropdown::get_template)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RectTransform* (UnityEngine::UI::Dropdown::*)()>(&UnityEngine::UI::Dropdown::get_template)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Dropdown*), "get_template", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -439,7 +439,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::UI::Dropdown::set_template
 // Il2CppName: set_template
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Dropdown::*)(UnityEngine::RectTransform*)>(&UnityEngine::UI::Dropdown::set_template)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Dropdown::*)(::UnityEngine::RectTransform*)>(&UnityEngine::UI::Dropdown::set_template)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "RectTransform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Dropdown*), "set_template", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -448,7 +448,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::Dropdown::get_captionText
 // Il2CppName: get_captionText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Text* (UnityEngine::UI::Dropdown::*)()>(&UnityEngine::UI::Dropdown::get_captionText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::Text* (UnityEngine::UI::Dropdown::*)()>(&UnityEngine::UI::Dropdown::get_captionText)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Dropdown*), "get_captionText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -456,7 +456,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::UI::Dropdown::set_captionText
 // Il2CppName: set_captionText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Dropdown::*)(UnityEngine::UI::Text*)>(&UnityEngine::UI::Dropdown::set_captionText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Dropdown::*)(::UnityEngine::UI::Text*)>(&UnityEngine::UI::Dropdown::set_captionText)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Text")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Dropdown*), "set_captionText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -465,7 +465,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::Dropdown::get_captionImage
 // Il2CppName: get_captionImage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Image* (UnityEngine::UI::Dropdown::*)()>(&UnityEngine::UI::Dropdown::get_captionImage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::Image* (UnityEngine::UI::Dropdown::*)()>(&UnityEngine::UI::Dropdown::get_captionImage)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Dropdown*), "get_captionImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -473,7 +473,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::UI::Dropdown::set_captionImage
 // Il2CppName: set_captionImage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Dropdown::*)(UnityEngine::UI::Image*)>(&UnityEngine::UI::Dropdown::set_captionImage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Dropdown::*)(::UnityEngine::UI::Image*)>(&UnityEngine::UI::Dropdown::set_captionImage)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Image")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Dropdown*), "set_captionImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -482,7 +482,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::Dropdown::get_itemText
 // Il2CppName: get_itemText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Text* (UnityEngine::UI::Dropdown::*)()>(&UnityEngine::UI::Dropdown::get_itemText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::Text* (UnityEngine::UI::Dropdown::*)()>(&UnityEngine::UI::Dropdown::get_itemText)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Dropdown*), "get_itemText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -490,7 +490,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::UI::Dropdown::set_itemText
 // Il2CppName: set_itemText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Dropdown::*)(UnityEngine::UI::Text*)>(&UnityEngine::UI::Dropdown::set_itemText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Dropdown::*)(::UnityEngine::UI::Text*)>(&UnityEngine::UI::Dropdown::set_itemText)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Text")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Dropdown*), "set_itemText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -499,7 +499,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::Dropdown::get_itemImage
 // Il2CppName: get_itemImage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Image* (UnityEngine::UI::Dropdown::*)()>(&UnityEngine::UI::Dropdown::get_itemImage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::Image* (UnityEngine::UI::Dropdown::*)()>(&UnityEngine::UI::Dropdown::get_itemImage)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Dropdown*), "get_itemImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -507,7 +507,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::UI::Dropdown::set_itemImage
 // Il2CppName: set_itemImage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Dropdown::*)(UnityEngine::UI::Image*)>(&UnityEngine::UI::Dropdown::set_itemImage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Dropdown::*)(::UnityEngine::UI::Image*)>(&UnityEngine::UI::Dropdown::set_itemImage)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Image")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Dropdown*), "set_itemImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -516,7 +516,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::Dropdown::get_options
 // Il2CppName: get_options
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::OptionData*>* (UnityEngine::UI::Dropdown::*)()>(&UnityEngine::UI::Dropdown::get_options)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::UI::Dropdown::OptionData*>* (UnityEngine::UI::Dropdown::*)()>(&UnityEngine::UI::Dropdown::get_options)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Dropdown*), "get_options", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -524,7 +524,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::UI::Dropdown::set_options
 // Il2CppName: set_options
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Dropdown::*)(System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::OptionData*>*)>(&UnityEngine::UI::Dropdown::set_options)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Dropdown::*)(::System::Collections::Generic::List_1<::UnityEngine::UI::Dropdown::OptionData*>*)>(&UnityEngine::UI::Dropdown::set_options)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Dropdown/OptionData")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Dropdown*), "set_options", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -533,7 +533,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::Dropdown::get_onValueChanged
 // Il2CppName: get_onValueChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Dropdown::DropdownEvent* (UnityEngine::UI::Dropdown::*)()>(&UnityEngine::UI::Dropdown::get_onValueChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::Dropdown::DropdownEvent* (UnityEngine::UI::Dropdown::*)()>(&UnityEngine::UI::Dropdown::get_onValueChanged)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Dropdown*), "get_onValueChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -541,7 +541,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::UI::Dropdown::set_onValueChanged
 // Il2CppName: set_onValueChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Dropdown::*)(UnityEngine::UI::Dropdown::DropdownEvent*)>(&UnityEngine::UI::Dropdown::set_onValueChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Dropdown::*)(::UnityEngine::UI::Dropdown::DropdownEvent*)>(&UnityEngine::UI::Dropdown::set_onValueChanged)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Dropdown/DropdownEvent")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Dropdown*), "set_onValueChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -611,7 +611,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::Dropdown::AddOptions
 // Il2CppName: AddOptions
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Dropdown::*)(System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::OptionData*>*)>(&UnityEngine::UI::Dropdown::AddOptions)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Dropdown::*)(::System::Collections::Generic::List_1<::UnityEngine::UI::Dropdown::OptionData*>*)>(&UnityEngine::UI::Dropdown::AddOptions)> {
   static const MethodInfo* get() {
     static auto* options = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Dropdown/OptionData")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Dropdown*), "AddOptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{options});
@@ -620,7 +620,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::Dropdown::AddOptions
 // Il2CppName: AddOptions
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Dropdown::*)(System::Collections::Generic::List_1<::StringW>*)>(&UnityEngine::UI::Dropdown::AddOptions)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Dropdown::*)(::System::Collections::Generic::List_1<::StringW>*)>(&UnityEngine::UI::Dropdown::AddOptions)> {
   static const MethodInfo* get() {
     static auto* options = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Dropdown*), "AddOptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{options});
@@ -629,7 +629,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::Dropdown::AddOptions
 // Il2CppName: AddOptions
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Dropdown::*)(System::Collections::Generic::List_1<UnityEngine::Sprite*>*)>(&UnityEngine::UI::Dropdown::AddOptions)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Dropdown::*)(::System::Collections::Generic::List_1<::UnityEngine::Sprite*>*)>(&UnityEngine::UI::Dropdown::AddOptions)> {
   static const MethodInfo* get() {
     static auto* options = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Sprite")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Dropdown*), "AddOptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{options});
@@ -657,7 +657,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::Dropdown::OnPointerClick
 // Il2CppName: OnPointerClick
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Dropdown::*)(UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::UI::Dropdown::OnPointerClick)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Dropdown::*)(::UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::UI::Dropdown::OnPointerClick)> {
   static const MethodInfo* get() {
     static auto* eventData = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "PointerEventData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Dropdown*), "OnPointerClick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eventData});
@@ -666,7 +666,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::Dropdown::OnSubmit
 // Il2CppName: OnSubmit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Dropdown::*)(UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::UI::Dropdown::OnSubmit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Dropdown::*)(::UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::UI::Dropdown::OnSubmit)> {
   static const MethodInfo* get() {
     static auto* eventData = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "BaseEventData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Dropdown*), "OnSubmit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eventData});
@@ -675,7 +675,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::Dropdown::OnCancel
 // Il2CppName: OnCancel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Dropdown::*)(UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::UI::Dropdown::OnCancel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Dropdown::*)(::UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::UI::Dropdown::OnCancel)> {
   static const MethodInfo* get() {
     static auto* eventData = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "BaseEventData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Dropdown*), "OnCancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eventData});
@@ -692,7 +692,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::Dropdown::CreateBlocker
 // Il2CppName: CreateBlocker
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (UnityEngine::UI::Dropdown::*)(UnityEngine::Canvas*)>(&UnityEngine::UI::Dropdown::CreateBlocker)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GameObject* (UnityEngine::UI::Dropdown::*)(::UnityEngine::Canvas*)>(&UnityEngine::UI::Dropdown::CreateBlocker)> {
   static const MethodInfo* get() {
     static auto* rootCanvas = &::il2cpp_utils::GetClassFromName("UnityEngine", "Canvas")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Dropdown*), "CreateBlocker", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rootCanvas});
@@ -701,7 +701,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::UI::Dropdown::DestroyBlocker
 // Il2CppName: DestroyBlocker
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Dropdown::*)(UnityEngine::GameObject*)>(&UnityEngine::UI::Dropdown::DestroyBlocker)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Dropdown::*)(::UnityEngine::GameObject*)>(&UnityEngine::UI::Dropdown::DestroyBlocker)> {
   static const MethodInfo* get() {
     static auto* blocker = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Dropdown*), "DestroyBlocker", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{blocker});
@@ -710,7 +710,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::Dropdown::CreateDropdownList
 // Il2CppName: CreateDropdownList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (UnityEngine::UI::Dropdown::*)(UnityEngine::GameObject*)>(&UnityEngine::UI::Dropdown::CreateDropdownList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GameObject* (UnityEngine::UI::Dropdown::*)(::UnityEngine::GameObject*)>(&UnityEngine::UI::Dropdown::CreateDropdownList)> {
   static const MethodInfo* get() {
     static auto* _template = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Dropdown*), "CreateDropdownList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{_template});
@@ -719,7 +719,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::UI::Dropdown::DestroyDropdownList
 // Il2CppName: DestroyDropdownList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Dropdown::*)(UnityEngine::GameObject*)>(&UnityEngine::UI::Dropdown::DestroyDropdownList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Dropdown::*)(::UnityEngine::GameObject*)>(&UnityEngine::UI::Dropdown::DestroyDropdownList)> {
   static const MethodInfo* get() {
     static auto* dropdownList = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Dropdown*), "DestroyDropdownList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dropdownList});
@@ -728,7 +728,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::Dropdown::CreateItem
 // Il2CppName: CreateItem
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Dropdown::DropdownItem* (UnityEngine::UI::Dropdown::*)(UnityEngine::UI::Dropdown::DropdownItem*)>(&UnityEngine::UI::Dropdown::CreateItem)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::Dropdown::DropdownItem* (UnityEngine::UI::Dropdown::*)(::UnityEngine::UI::Dropdown::DropdownItem*)>(&UnityEngine::UI::Dropdown::CreateItem)> {
   static const MethodInfo* get() {
     static auto* itemTemplate = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Dropdown/DropdownItem")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Dropdown*), "CreateItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{itemTemplate});
@@ -737,7 +737,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::UI::Dropdown::DestroyItem
 // Il2CppName: DestroyItem
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Dropdown::*)(UnityEngine::UI::Dropdown::DropdownItem*)>(&UnityEngine::UI::Dropdown::DestroyItem)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Dropdown::*)(::UnityEngine::UI::Dropdown::DropdownItem*)>(&UnityEngine::UI::Dropdown::DestroyItem)> {
   static const MethodInfo* get() {
     static auto* item = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Dropdown/DropdownItem")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Dropdown*), "DestroyItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{item});
@@ -746,7 +746,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::Dropdown::AddItem
 // Il2CppName: AddItem
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Dropdown::DropdownItem* (UnityEngine::UI::Dropdown::*)(UnityEngine::UI::Dropdown::OptionData*, bool, UnityEngine::UI::Dropdown::DropdownItem*, System::Collections::Generic::List_1<UnityEngine::UI::Dropdown::DropdownItem*>*)>(&UnityEngine::UI::Dropdown::AddItem)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::Dropdown::DropdownItem* (UnityEngine::UI::Dropdown::*)(::UnityEngine::UI::Dropdown::OptionData*, bool, ::UnityEngine::UI::Dropdown::DropdownItem*, ::System::Collections::Generic::List_1<::UnityEngine::UI::Dropdown::DropdownItem*>*)>(&UnityEngine::UI::Dropdown::AddItem)> {
   static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Dropdown/OptionData")->byval_arg;
     static auto* selected = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -796,7 +796,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::Dropdown::DelayedDestroyDropdownList
 // Il2CppName: DelayedDestroyDropdownList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (UnityEngine::UI::Dropdown::*)(float)>(&UnityEngine::UI::Dropdown::DelayedDestroyDropdownList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (UnityEngine::UI::Dropdown::*)(float)>(&UnityEngine::UI::Dropdown::DelayedDestroyDropdownList)> {
   static const MethodInfo* get() {
     static auto* delay = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Dropdown*), "DelayedDestroyDropdownList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{delay});
@@ -813,7 +813,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::Dropdown::OnSelectItem
 // Il2CppName: OnSelectItem
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Dropdown::*)(UnityEngine::UI::Toggle*)>(&UnityEngine::UI::Dropdown::OnSelectItem)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Dropdown::*)(::UnityEngine::UI::Toggle*)>(&UnityEngine::UI::Dropdown::OnSelectItem)> {
   static const MethodInfo* get() {
     static auto* toggle = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Toggle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Dropdown*), "OnSelectItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{toggle});

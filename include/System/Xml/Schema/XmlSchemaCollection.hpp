@@ -60,8 +60,8 @@ namespace System::Xml::Schema {
   class XmlSchemaCollection;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Schema::XmlSchemaCollection);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::XmlSchemaCollection*, "System.Xml.Schema", "XmlSchemaCollection");
+NEED_NO_BOX(::System::Xml::Schema::XmlSchemaCollection);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XmlSchemaCollection*, "System.Xml.Schema", "XmlSchemaCollection");
 // Type namespace: System.Xml.Schema
 namespace System::Xml::Schema {
   // Size: 0x48
@@ -70,7 +70,7 @@ namespace System::Xml::Schema {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ObsoleteAttribute] Offset: 1194704
   // [DefaultMemberAttribute] Offset: 1194704
-  class XmlSchemaCollection : public ::Il2CppObject/*, public System::Collections::ICollection*/ {
+  class XmlSchemaCollection : public ::Il2CppObject/*, public ::System::Collections::ICollection*/ {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -84,27 +84,27 @@ namespace System::Xml::Schema {
     // private System.Collections.Hashtable collection
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Hashtable* collection;
+    ::System::Collections::Hashtable* collection;
     // Field size check
-    static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
+    static_assert(sizeof(::System::Collections::Hashtable*) == 0x8);
     // private System.Xml.XmlNameTable nameTable
     // Size: 0x8
     // Offset: 0x18
-    System::Xml::XmlNameTable* nameTable;
+    ::System::Xml::XmlNameTable* nameTable;
     // Field size check
-    static_assert(sizeof(System::Xml::XmlNameTable*) == 0x8);
+    static_assert(sizeof(::System::Xml::XmlNameTable*) == 0x8);
     // private System.Xml.Schema.SchemaNames schemaNames
     // Size: 0x8
     // Offset: 0x20
-    System::Xml::Schema::SchemaNames* schemaNames;
+    ::System::Xml::Schema::SchemaNames* schemaNames;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::SchemaNames*) == 0x8);
+    static_assert(sizeof(::System::Xml::Schema::SchemaNames*) == 0x8);
     // private System.Threading.ReaderWriterLock wLock
     // Size: 0x8
     // Offset: 0x28
-    System::Threading::ReaderWriterLock* wLock;
+    ::System::Threading::ReaderWriterLock* wLock;
     // Field size check
-    static_assert(sizeof(System::Threading::ReaderWriterLock*) == 0x8);
+    static_assert(sizeof(::System::Threading::ReaderWriterLock*) == 0x8);
     // private System.Int32 timeout
     // Size: 0x4
     // Offset: 0x30
@@ -122,48 +122,48 @@ namespace System::Xml::Schema {
     // private System.Xml.Schema.ValidationEventHandler validationEventHandler
     // Size: 0x8
     // Offset: 0x38
-    System::Xml::Schema::ValidationEventHandler* validationEventHandler;
+    ::System::Xml::Schema::ValidationEventHandler* validationEventHandler;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::ValidationEventHandler*) == 0x8);
+    static_assert(sizeof(::System::Xml::Schema::ValidationEventHandler*) == 0x8);
     // private System.Xml.XmlResolver xmlResolver
     // Size: 0x8
     // Offset: 0x40
-    System::Xml::XmlResolver* xmlResolver;
+    ::System::Xml::XmlResolver* xmlResolver;
     // Field size check
-    static_assert(sizeof(System::Xml::XmlResolver*) == 0x8);
+    static_assert(sizeof(::System::Xml::XmlResolver*) == 0x8);
     public:
-    // Creating interface conversion operator: operator System::Collections::ICollection
-    operator System::Collections::ICollection() noexcept {
-      return *reinterpret_cast<System::Collections::ICollection*>(this);
+    // Creating interface conversion operator: operator ::System::Collections::ICollection
+    operator ::System::Collections::ICollection() noexcept {
+      return *reinterpret_cast<::System::Collections::ICollection*>(this);
     }
     // Get instance field reference: private System.Collections.Hashtable collection
-    System::Collections::Hashtable*& dyn_collection();
+    ::System::Collections::Hashtable*& dyn_collection();
     // Get instance field reference: private System.Xml.XmlNameTable nameTable
-    System::Xml::XmlNameTable*& dyn_nameTable();
+    ::System::Xml::XmlNameTable*& dyn_nameTable();
     // Get instance field reference: private System.Xml.Schema.SchemaNames schemaNames
-    System::Xml::Schema::SchemaNames*& dyn_schemaNames();
+    ::System::Xml::Schema::SchemaNames*& dyn_schemaNames();
     // Get instance field reference: private System.Threading.ReaderWriterLock wLock
-    System::Threading::ReaderWriterLock*& dyn_wLock();
+    ::System::Threading::ReaderWriterLock*& dyn_wLock();
     // Get instance field reference: private System.Int32 timeout
     int& dyn_timeout();
     // Get instance field reference: private System.Boolean isThreadSafe
     bool& dyn_isThreadSafe();
     // Get instance field reference: private System.Xml.Schema.ValidationEventHandler validationEventHandler
-    System::Xml::Schema::ValidationEventHandler*& dyn_validationEventHandler();
+    ::System::Xml::Schema::ValidationEventHandler*& dyn_validationEventHandler();
     // Get instance field reference: private System.Xml.XmlResolver xmlResolver
-    System::Xml::XmlResolver*& dyn_xmlResolver();
+    ::System::Xml::XmlResolver*& dyn_xmlResolver();
     // public System.Int32 get_Count()
     // Offset: 0x18AD61C
     int get_Count();
     // public System.Xml.XmlNameTable get_NameTable()
     // Offset: 0x18AD640
-    System::Xml::XmlNameTable* get_NameTable();
+    ::System::Xml::XmlNameTable* get_NameTable();
     // System.Void set_XmlResolver(System.Xml.XmlResolver value)
     // Offset: 0x18AD648
-    void set_XmlResolver(System::Xml::XmlResolver* value);
+    void set_XmlResolver(::System::Xml::XmlResolver* value);
     // public System.Xml.Schema.XmlSchema get_Item(System.String ns)
     // Offset: 0x18AD650
-    System::Xml::Schema::XmlSchema* get_Item(::StringW ns);
+    ::System::Xml::Schema::XmlSchema* get_Item(::StringW ns);
     // private System.Object System.Collections.ICollection.get_SyncRoot()
     // Offset: 0x18ADAC4
     ::Il2CppObject* System_Collections_ICollection_get_SyncRoot();
@@ -172,44 +172,44 @@ namespace System::Xml::Schema {
     int System_Collections_ICollection_get_Count();
     // System.Xml.Schema.ValidationEventHandler get_EventHandler()
     // Offset: 0x18ADEAC
-    System::Xml::Schema::ValidationEventHandler* get_EventHandler();
+    ::System::Xml::Schema::ValidationEventHandler* get_EventHandler();
     // System.Void set_EventHandler(System.Xml.Schema.ValidationEventHandler value)
     // Offset: 0x18ADEB4
-    void set_EventHandler(System::Xml::Schema::ValidationEventHandler* value);
+    void set_EventHandler(::System::Xml::Schema::ValidationEventHandler* value);
     // public System.Void .ctor(System.Xml.XmlNameTable nametable)
     // Offset: 0x18AD514
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlSchemaCollection* New_ctor(System::Xml::XmlNameTable* nametable) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Schema::XmlSchemaCollection::.ctor");
+    static XmlSchemaCollection* New_ctor(::System::Xml::XmlNameTable* nametable) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlSchemaCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlSchemaCollection*, creationType>(nametable)));
     }
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
     // Offset: 0x18AD6F8
-    System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
+    ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // public System.Xml.Schema.XmlSchemaCollectionEnumerator GetEnumerator()
     // Offset: 0x18AD7A4
-    System::Xml::Schema::XmlSchemaCollectionEnumerator* GetEnumerator();
+    ::System::Xml::Schema::XmlSchemaCollectionEnumerator* GetEnumerator();
     // private System.Void System.Collections.ICollection.CopyTo(System.Array array, System.Int32 index)
     // Offset: 0x18AD808
-    void System_Collections_ICollection_CopyTo(System::Array* array, int index);
+    void System_Collections_ICollection_CopyTo(::System::Array* array, int index);
     // System.Xml.Schema.SchemaInfo GetSchemaInfo(System.String ns)
     // Offset: 0x18ADAEC
-    System::Xml::Schema::SchemaInfo* GetSchemaInfo(::StringW ns);
+    ::System::Xml::Schema::SchemaInfo* GetSchemaInfo(::StringW ns);
     // System.Xml.Schema.SchemaNames GetSchemaNames(System.Xml.XmlNameTable nt)
     // Offset: 0x18ADB94
-    System::Xml::Schema::SchemaNames* GetSchemaNames(System::Xml::XmlNameTable* nt);
+    ::System::Xml::Schema::SchemaNames* GetSchemaNames(::System::Xml::XmlNameTable* nt);
     // System.Xml.Schema.XmlSchema Add(System.String ns, System.Xml.Schema.SchemaInfo schemaInfo, System.Xml.Schema.XmlSchema schema, System.Boolean compile)
     // Offset: 0x18ADC40
-    System::Xml::Schema::XmlSchema* Add(::StringW ns, System::Xml::Schema::SchemaInfo* schemaInfo, System::Xml::Schema::XmlSchema* schema, bool compile);
+    ::System::Xml::Schema::XmlSchema* Add(::StringW ns, ::System::Xml::Schema::SchemaInfo* schemaInfo, ::System::Xml::Schema::XmlSchema* schema, bool compile);
     // private System.Xml.Schema.XmlSchema Add(System.String ns, System.Xml.Schema.SchemaInfo schemaInfo, System.Xml.Schema.XmlSchema schema, System.Boolean compile, System.Xml.XmlResolver resolver)
     // Offset: 0x18ADC4C
-    System::Xml::Schema::XmlSchema* Add(::StringW ns, System::Xml::Schema::SchemaInfo* schemaInfo, System::Xml::Schema::XmlSchema* schema, bool compile, System::Xml::XmlResolver* resolver);
+    ::System::Xml::Schema::XmlSchema* Add(::StringW ns, ::System::Xml::Schema::SchemaInfo* schemaInfo, ::System::Xml::Schema::XmlSchema* schema, bool compile, ::System::Xml::XmlResolver* resolver);
     // private System.Void Add(System.String ns, System.Xml.Schema.XmlSchemaCollectionNode node)
     // Offset: 0x18ADDA4
-    void Add(::StringW ns, System::Xml::Schema::XmlSchemaCollectionNode* node);
+    void Add(::StringW ns, ::System::Xml::Schema::XmlSchemaCollectionNode* node);
   }; // System.Xml.Schema.XmlSchemaCollection
   #pragma pack(pop)
-  static check_size<sizeof(XmlSchemaCollection), 64 + sizeof(System::Xml::XmlResolver*)> __System_Xml_Schema_XmlSchemaCollectionSizeCheck;
+  static check_size<sizeof(XmlSchemaCollection), 64 + sizeof(::System::Xml::XmlResolver*)> __System_Xml_Schema_XmlSchemaCollectionSizeCheck;
   static_assert(sizeof(XmlSchemaCollection) == 0x48);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -224,7 +224,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaCollection::get_NameTable
 // Il2CppName: get_NameTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlNameTable* (System::Xml::Schema::XmlSchemaCollection::*)()>(&System::Xml::Schema::XmlSchemaCollection::get_NameTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNameTable* (System::Xml::Schema::XmlSchemaCollection::*)()>(&System::Xml::Schema::XmlSchemaCollection::get_NameTable)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaCollection*), "get_NameTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -232,7 +232,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaCollection::set_XmlResolver
 // Il2CppName: set_XmlResolver
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaCollection::*)(System::Xml::XmlResolver*)>(&System::Xml::Schema::XmlSchemaCollection::set_XmlResolver)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaCollection::*)(::System::Xml::XmlResolver*)>(&System::Xml::Schema::XmlSchemaCollection::set_XmlResolver)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlResolver")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaCollection*), "set_XmlResolver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -241,7 +241,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaCollection::get_Item
 // Il2CppName: get_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Schema::XmlSchema* (System::Xml::Schema::XmlSchemaCollection::*)(::StringW)>(&System::Xml::Schema::XmlSchemaCollection::get_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchema* (System::Xml::Schema::XmlSchemaCollection::*)(::StringW)>(&System::Xml::Schema::XmlSchemaCollection::get_Item)> {
   static const MethodInfo* get() {
     static auto* ns = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaCollection*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ns});
@@ -266,7 +266,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaCollection::get_EventHandler
 // Il2CppName: get_EventHandler
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Schema::ValidationEventHandler* (System::Xml::Schema::XmlSchemaCollection::*)()>(&System::Xml::Schema::XmlSchemaCollection::get_EventHandler)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::ValidationEventHandler* (System::Xml::Schema::XmlSchemaCollection::*)()>(&System::Xml::Schema::XmlSchemaCollection::get_EventHandler)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaCollection*), "get_EventHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -274,7 +274,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaCollection::set_EventHandler
 // Il2CppName: set_EventHandler
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaCollection::*)(System::Xml::Schema::ValidationEventHandler*)>(&System::Xml::Schema::XmlSchemaCollection::set_EventHandler)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaCollection::*)(::System::Xml::Schema::ValidationEventHandler*)>(&System::Xml::Schema::XmlSchemaCollection::set_EventHandler)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "ValidationEventHandler")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaCollection*), "set_EventHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -287,7 +287,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaCollection::System_Collections_IEnumerable_GetEnumerator
 // Il2CppName: System.Collections.IEnumerable.GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (System::Xml::Schema::XmlSchemaCollection::*)()>(&System::Xml::Schema::XmlSchemaCollection::System_Collections_IEnumerable_GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (System::Xml::Schema::XmlSchemaCollection::*)()>(&System::Xml::Schema::XmlSchemaCollection::System_Collections_IEnumerable_GetEnumerator)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaCollection*), "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -295,7 +295,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaCollection::GetEnumerator
 // Il2CppName: GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Schema::XmlSchemaCollectionEnumerator* (System::Xml::Schema::XmlSchemaCollection::*)()>(&System::Xml::Schema::XmlSchemaCollection::GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaCollectionEnumerator* (System::Xml::Schema::XmlSchemaCollection::*)()>(&System::Xml::Schema::XmlSchemaCollection::GetEnumerator)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaCollection*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -303,7 +303,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaCollection::System_Collections_ICollection_CopyTo
 // Il2CppName: System.Collections.ICollection.CopyTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaCollection::*)(System::Array*, int)>(&System::Xml::Schema::XmlSchemaCollection::System_Collections_ICollection_CopyTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaCollection::*)(::System::Array*, int)>(&System::Xml::Schema::XmlSchemaCollection::System_Collections_ICollection_CopyTo)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "Array")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -313,7 +313,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaCollection::GetSchemaInfo
 // Il2CppName: GetSchemaInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Schema::SchemaInfo* (System::Xml::Schema::XmlSchemaCollection::*)(::StringW)>(&System::Xml::Schema::XmlSchemaCollection::GetSchemaInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::SchemaInfo* (System::Xml::Schema::XmlSchemaCollection::*)(::StringW)>(&System::Xml::Schema::XmlSchemaCollection::GetSchemaInfo)> {
   static const MethodInfo* get() {
     static auto* ns = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaCollection*), "GetSchemaInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ns});
@@ -322,7 +322,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaCollection::GetSchemaNames
 // Il2CppName: GetSchemaNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Schema::SchemaNames* (System::Xml::Schema::XmlSchemaCollection::*)(System::Xml::XmlNameTable*)>(&System::Xml::Schema::XmlSchemaCollection::GetSchemaNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::SchemaNames* (System::Xml::Schema::XmlSchemaCollection::*)(::System::Xml::XmlNameTable*)>(&System::Xml::Schema::XmlSchemaCollection::GetSchemaNames)> {
   static const MethodInfo* get() {
     static auto* nt = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNameTable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaCollection*), "GetSchemaNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nt});
@@ -331,7 +331,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaCollection::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Schema::XmlSchema* (System::Xml::Schema::XmlSchemaCollection::*)(::StringW, System::Xml::Schema::SchemaInfo*, System::Xml::Schema::XmlSchema*, bool)>(&System::Xml::Schema::XmlSchemaCollection::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchema* (System::Xml::Schema::XmlSchemaCollection::*)(::StringW, ::System::Xml::Schema::SchemaInfo*, ::System::Xml::Schema::XmlSchema*, bool)>(&System::Xml::Schema::XmlSchemaCollection::Add)> {
   static const MethodInfo* get() {
     static auto* ns = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* schemaInfo = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "SchemaInfo")->byval_arg;
@@ -343,7 +343,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaCollection::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Schema::XmlSchema* (System::Xml::Schema::XmlSchemaCollection::*)(::StringW, System::Xml::Schema::SchemaInfo*, System::Xml::Schema::XmlSchema*, bool, System::Xml::XmlResolver*)>(&System::Xml::Schema::XmlSchemaCollection::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchema* (System::Xml::Schema::XmlSchemaCollection::*)(::StringW, ::System::Xml::Schema::SchemaInfo*, ::System::Xml::Schema::XmlSchema*, bool, ::System::Xml::XmlResolver*)>(&System::Xml::Schema::XmlSchemaCollection::Add)> {
   static const MethodInfo* get() {
     static auto* ns = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* schemaInfo = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "SchemaInfo")->byval_arg;
@@ -356,7 +356,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaCollection::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaCollection::*)(::StringW, System::Xml::Schema::XmlSchemaCollectionNode*)>(&System::Xml::Schema::XmlSchemaCollection::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaCollection::*)(::StringW, ::System::Xml::Schema::XmlSchemaCollectionNode*)>(&System::Xml::Schema::XmlSchemaCollection::Add)> {
   static const MethodInfo* get() {
     static auto* ns = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* node = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaCollectionNode")->byval_arg;

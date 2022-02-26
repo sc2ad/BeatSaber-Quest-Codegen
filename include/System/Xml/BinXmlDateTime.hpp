@@ -30,8 +30,8 @@ namespace System::Xml {
   class BinXmlDateTime;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::BinXmlDateTime);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::BinXmlDateTime*, "System.Xml", "BinXmlDateTime");
+NEED_NO_BOX(::System::Xml::BinXmlDateTime);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::BinXmlDateTime*, "System.Xml", "BinXmlDateTime");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x10
@@ -69,28 +69,28 @@ namespace System::Xml {
     static void _cctor();
     // static private System.Void Write2Dig(System.Text.StringBuilder sb, System.Int32 val)
     // Offset: 0x1B9A720
-    static void Write2Dig(System::Text::StringBuilder* sb, int val);
+    static void Write2Dig(::System::Text::StringBuilder* sb, int val);
     // static private System.Void Write4DigNeg(System.Text.StringBuilder sb, System.Int32 val)
     // Offset: 0x1B9A788
-    static void Write4DigNeg(System::Text::StringBuilder* sb, int val);
+    static void Write4DigNeg(::System::Text::StringBuilder* sb, int val);
     // static private System.Void Write3Dec(System.Text.StringBuilder sb, System.Int32 val)
     // Offset: 0x1B9A844
-    static void Write3Dec(System::Text::StringBuilder* sb, int val);
+    static void Write3Dec(::System::Text::StringBuilder* sb, int val);
     // static private System.Void WriteDate(System.Text.StringBuilder sb, System.Int32 yr, System.Int32 mnth, System.Int32 day)
     // Offset: 0x1B9A8F4
-    static void WriteDate(System::Text::StringBuilder* sb, int yr, int mnth, int day);
+    static void WriteDate(::System::Text::StringBuilder* sb, int yr, int mnth, int day);
     // static private System.Void WriteTime(System.Text.StringBuilder sb, System.Int32 hr, System.Int32 min, System.Int32 sec, System.Int32 ms)
     // Offset: 0x1B9A9B8
-    static void WriteTime(System::Text::StringBuilder* sb, int hr, int min, int sec, int ms);
+    static void WriteTime(::System::Text::StringBuilder* sb, int hr, int min, int sec, int ms);
     // static private System.Void WriteTimeFullPrecision(System.Text.StringBuilder sb, System.Int32 hr, System.Int32 min, System.Int32 sec, System.Int32 fraction)
     // Offset: 0x1B9AABC
-    static void WriteTimeFullPrecision(System::Text::StringBuilder* sb, int hr, int min, int sec, int fraction);
+    static void WriteTimeFullPrecision(::System::Text::StringBuilder* sb, int hr, int min, int sec, int fraction);
     // static private System.Void WriteTimeZone(System.Text.StringBuilder sb, System.TimeSpan zone)
     // Offset: 0x1B9ACBC
-    static void WriteTimeZone(System::Text::StringBuilder* sb, System::TimeSpan zone);
+    static void WriteTimeZone(::System::Text::StringBuilder* sb, ::System::TimeSpan zone);
     // static private System.Void WriteTimeZone(System.Text.StringBuilder sb, System.Boolean negTimeZone, System.Int32 hr, System.Int32 min)
     // Offset: 0x1B9AD8C
-    static void WriteTimeZone(System::Text::StringBuilder* sb, bool negTimeZone, int hr, int min);
+    static void WriteTimeZone(::System::Text::StringBuilder* sb, bool negTimeZone, int hr, int min);
     // static private System.Void BreakDownXsdDateTime(System.Int64 val, out System.Int32 yr, out System.Int32 mnth, out System.Int32 day, out System.Int32 hr, out System.Int32 min, out System.Int32 sec, out System.Int32 ms)
     // Offset: 0x1B9AE7C
     static void BreakDownXsdDateTime(int64_t val, ByRef<int> yr, ByRef<int> mnth, ByRef<int> day, ByRef<int> hr, ByRef<int> min, ByRef<int> sec, ByRef<int> ms);
@@ -114,31 +114,31 @@ namespace System::Xml {
     static ::StringW SqlDateTimeToString(int dateticks, uint timeticks);
     // static public System.DateTime SqlDateTimeToDateTime(System.Int32 dateticks, System.UInt32 timeticks)
     // Offset: 0x1B9B790
-    static System::DateTime SqlDateTimeToDateTime(int dateticks, uint timeticks);
+    static ::System::DateTime SqlDateTimeToDateTime(int dateticks, uint timeticks);
     // static public System.String SqlSmallDateTimeToString(System.Int16 dateticks, System.UInt16 timeticks)
     // Offset: 0x1B9B874
     static ::StringW SqlSmallDateTimeToString(int16_t dateticks, uint16_t timeticks);
     // static public System.DateTime SqlSmallDateTimeToDateTime(System.Int16 dateticks, System.UInt16 timeticks)
     // Offset: 0x1B9B93C
-    static System::DateTime SqlSmallDateTimeToDateTime(int16_t dateticks, uint16_t timeticks);
+    static ::System::DateTime SqlSmallDateTimeToDateTime(int16_t dateticks, uint16_t timeticks);
     // static public System.DateTime XsdKatmaiDateToDateTime(System.Byte[] data, System.Int32 offset)
     // Offset: 0x1B9B9C0
-    static System::DateTime XsdKatmaiDateToDateTime(::ArrayW<uint8_t> data, int offset);
+    static ::System::DateTime XsdKatmaiDateToDateTime(::ArrayW<uint8_t> data, int offset);
     // static public System.DateTime XsdKatmaiDateTimeToDateTime(System.Byte[] data, System.Int32 offset)
     // Offset: 0x1B9BAD0
-    static System::DateTime XsdKatmaiDateTimeToDateTime(::ArrayW<uint8_t> data, int offset);
+    static ::System::DateTime XsdKatmaiDateTimeToDateTime(::ArrayW<uint8_t> data, int offset);
     // static public System.DateTime XsdKatmaiTimeToDateTime(System.Byte[] data, System.Int32 offset)
     // Offset: 0x1B9BDA4
-    static System::DateTime XsdKatmaiTimeToDateTime(::ArrayW<uint8_t> data, int offset);
+    static ::System::DateTime XsdKatmaiTimeToDateTime(::ArrayW<uint8_t> data, int offset);
     // static public System.DateTimeOffset XsdKatmaiDateOffsetToDateTimeOffset(System.Byte[] data, System.Int32 offset)
     // Offset: 0x1B9BE18
-    static System::DateTimeOffset XsdKatmaiDateOffsetToDateTimeOffset(::ArrayW<uint8_t> data, int offset);
+    static ::System::DateTimeOffset XsdKatmaiDateOffsetToDateTimeOffset(::ArrayW<uint8_t> data, int offset);
     // static public System.DateTimeOffset XsdKatmaiDateTimeOffsetToDateTimeOffset(System.Byte[] data, System.Int32 offset)
     // Offset: 0x1B9BE8C
-    static System::DateTimeOffset XsdKatmaiDateTimeOffsetToDateTimeOffset(::ArrayW<uint8_t> data, int offset);
+    static ::System::DateTimeOffset XsdKatmaiDateTimeOffsetToDateTimeOffset(::ArrayW<uint8_t> data, int offset);
     // static public System.DateTimeOffset XsdKatmaiTimeOffsetToDateTimeOffset(System.Byte[] data, System.Int32 offset)
     // Offset: 0x1B9BFAC
-    static System::DateTimeOffset XsdKatmaiTimeOffsetToDateTimeOffset(::ArrayW<uint8_t> data, int offset);
+    static ::System::DateTimeOffset XsdKatmaiTimeOffsetToDateTimeOffset(::ArrayW<uint8_t> data, int offset);
     // static public System.String XsdKatmaiDateToString(System.Byte[] data, System.Int32 offset)
     // Offset: 0x1B9C020
     static ::StringW XsdKatmaiDateToString(::ArrayW<uint8_t> data, int offset);
@@ -168,10 +168,10 @@ namespace System::Xml {
     static int64_t GetKatmaiTimeZoneTicks(::ArrayW<uint8_t> data, int pos);
     // static private System.Int32 GetFractions(System.DateTime dt)
     // Offset: 0x1B9C284
-    static int GetFractions(System::DateTime dt);
+    static int GetFractions(::System::DateTime dt);
     // static private System.Int32 GetFractions(System.DateTimeOffset dt)
     // Offset: 0x1B9C718
-    static int GetFractions(System::DateTimeOffset dt);
+    static int GetFractions(::System::DateTimeOffset dt);
   }; // System.Xml.BinXmlDateTime
   #pragma pack(pop)
 }
@@ -187,7 +187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Xml::BinXmlDateTime::Write2Dig
 // Il2CppName: Write2Dig
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Text::StringBuilder*, int)>(&System::Xml::BinXmlDateTime::Write2Dig)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, int)>(&System::Xml::BinXmlDateTime::Write2Dig)> {
   static const MethodInfo* get() {
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* val = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -197,7 +197,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Xml::BinXmlDateTime::Write4DigNeg
 // Il2CppName: Write4DigNeg
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Text::StringBuilder*, int)>(&System::Xml::BinXmlDateTime::Write4DigNeg)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, int)>(&System::Xml::BinXmlDateTime::Write4DigNeg)> {
   static const MethodInfo* get() {
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* val = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -207,7 +207,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Xml::BinXmlDateTime::Write3Dec
 // Il2CppName: Write3Dec
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Text::StringBuilder*, int)>(&System::Xml::BinXmlDateTime::Write3Dec)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, int)>(&System::Xml::BinXmlDateTime::Write3Dec)> {
   static const MethodInfo* get() {
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* val = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -217,7 +217,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Xml::BinXmlDateTime::WriteDate
 // Il2CppName: WriteDate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Text::StringBuilder*, int, int, int)>(&System::Xml::BinXmlDateTime::WriteDate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, int, int, int)>(&System::Xml::BinXmlDateTime::WriteDate)> {
   static const MethodInfo* get() {
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* yr = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -229,7 +229,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Xml::BinXmlDateTime::WriteTime
 // Il2CppName: WriteTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Text::StringBuilder*, int, int, int, int)>(&System::Xml::BinXmlDateTime::WriteTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, int, int, int, int)>(&System::Xml::BinXmlDateTime::WriteTime)> {
   static const MethodInfo* get() {
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* hr = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -242,7 +242,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Xml::BinXmlDateTime::WriteTimeFullPrecision
 // Il2CppName: WriteTimeFullPrecision
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Text::StringBuilder*, int, int, int, int)>(&System::Xml::BinXmlDateTime::WriteTimeFullPrecision)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, int, int, int, int)>(&System::Xml::BinXmlDateTime::WriteTimeFullPrecision)> {
   static const MethodInfo* get() {
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* hr = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -255,7 +255,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Xml::BinXmlDateTime::WriteTimeZone
 // Il2CppName: WriteTimeZone
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Text::StringBuilder*, System::TimeSpan)>(&System::Xml::BinXmlDateTime::WriteTimeZone)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, ::System::TimeSpan)>(&System::Xml::BinXmlDateTime::WriteTimeZone)> {
   static const MethodInfo* get() {
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* zone = &::il2cpp_utils::GetClassFromName("System", "TimeSpan")->byval_arg;
@@ -265,7 +265,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Xml::BinXmlDateTime::WriteTimeZone
 // Il2CppName: WriteTimeZone
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Text::StringBuilder*, bool, int, int)>(&System::Xml::BinXmlDateTime::WriteTimeZone)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, bool, int, int)>(&System::Xml::BinXmlDateTime::WriteTimeZone)> {
   static const MethodInfo* get() {
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* negTimeZone = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -358,7 +358,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Xml::BinXmlDateTime::SqlDateTimeToDateTime
 // Il2CppName: SqlDateTimeToDateTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(int, uint)>(&System::Xml::BinXmlDateTime::SqlDateTimeToDateTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (*)(int, uint)>(&System::Xml::BinXmlDateTime::SqlDateTimeToDateTime)> {
   static const MethodInfo* get() {
     static auto* dateticks = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* timeticks = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -378,7 +378,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Xml::BinXmlDateTime::SqlSmallDateTimeToDateTime
 // Il2CppName: SqlSmallDateTimeToDateTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(int16_t, uint16_t)>(&System::Xml::BinXmlDateTime::SqlSmallDateTimeToDateTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (*)(int16_t, uint16_t)>(&System::Xml::BinXmlDateTime::SqlSmallDateTimeToDateTime)> {
   static const MethodInfo* get() {
     static auto* dateticks = &::il2cpp_utils::GetClassFromName("System", "Int16")->byval_arg;
     static auto* timeticks = &::il2cpp_utils::GetClassFromName("System", "UInt16")->byval_arg;
@@ -388,7 +388,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Xml::BinXmlDateTime::XsdKatmaiDateToDateTime
 // Il2CppName: XsdKatmaiDateToDateTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(::ArrayW<uint8_t>, int)>(&System::Xml::BinXmlDateTime::XsdKatmaiDateToDateTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (*)(::ArrayW<uint8_t>, int)>(&System::Xml::BinXmlDateTime::XsdKatmaiDateToDateTime)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -398,7 +398,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Xml::BinXmlDateTime::XsdKatmaiDateTimeToDateTime
 // Il2CppName: XsdKatmaiDateTimeToDateTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(::ArrayW<uint8_t>, int)>(&System::Xml::BinXmlDateTime::XsdKatmaiDateTimeToDateTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (*)(::ArrayW<uint8_t>, int)>(&System::Xml::BinXmlDateTime::XsdKatmaiDateTimeToDateTime)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -408,7 +408,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Xml::BinXmlDateTime::XsdKatmaiTimeToDateTime
 // Il2CppName: XsdKatmaiTimeToDateTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(::ArrayW<uint8_t>, int)>(&System::Xml::BinXmlDateTime::XsdKatmaiTimeToDateTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (*)(::ArrayW<uint8_t>, int)>(&System::Xml::BinXmlDateTime::XsdKatmaiTimeToDateTime)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -418,7 +418,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Xml::BinXmlDateTime::XsdKatmaiDateOffsetToDateTimeOffset
 // Il2CppName: XsdKatmaiDateOffsetToDateTimeOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTimeOffset (*)(::ArrayW<uint8_t>, int)>(&System::Xml::BinXmlDateTime::XsdKatmaiDateOffsetToDateTimeOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTimeOffset (*)(::ArrayW<uint8_t>, int)>(&System::Xml::BinXmlDateTime::XsdKatmaiDateOffsetToDateTimeOffset)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -428,7 +428,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Xml::BinXmlDateTime::XsdKatmaiDateTimeOffsetToDateTimeOffset
 // Il2CppName: XsdKatmaiDateTimeOffsetToDateTimeOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTimeOffset (*)(::ArrayW<uint8_t>, int)>(&System::Xml::BinXmlDateTime::XsdKatmaiDateTimeOffsetToDateTimeOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTimeOffset (*)(::ArrayW<uint8_t>, int)>(&System::Xml::BinXmlDateTime::XsdKatmaiDateTimeOffsetToDateTimeOffset)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -438,7 +438,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Xml::BinXmlDateTime::XsdKatmaiTimeOffsetToDateTimeOffset
 // Il2CppName: XsdKatmaiTimeOffsetToDateTimeOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTimeOffset (*)(::ArrayW<uint8_t>, int)>(&System::Xml::BinXmlDateTime::XsdKatmaiTimeOffsetToDateTimeOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTimeOffset (*)(::ArrayW<uint8_t>, int)>(&System::Xml::BinXmlDateTime::XsdKatmaiTimeOffsetToDateTimeOffset)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -538,7 +538,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)
 // Writing MetadataGetter for method: System::Xml::BinXmlDateTime::GetFractions
 // Il2CppName: GetFractions
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::DateTime)>(&System::Xml::BinXmlDateTime::GetFractions)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::System::DateTime)>(&System::Xml::BinXmlDateTime::GetFractions)> {
   static const MethodInfo* get() {
     static auto* dt = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::BinXmlDateTime*), "GetFractions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dt});
@@ -547,7 +547,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Writing MetadataGetter for method: System::Xml::BinXmlDateTime::GetFractions
 // Il2CppName: GetFractions
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::DateTimeOffset)>(&System::Xml::BinXmlDateTime::GetFractions)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::System::DateTimeOffset)>(&System::Xml::BinXmlDateTime::GetFractions)> {
   static const MethodInfo* get() {
     static auto* dt = &::il2cpp_utils::GetClassFromName("System", "DateTimeOffset")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::BinXmlDateTime*), "GetFractions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dt});

@@ -14,8 +14,8 @@ namespace UnityEngine {
   class SharedBetweenAnimatorsAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::SharedBetweenAnimatorsAttribute);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SharedBetweenAnimatorsAttribute*, "UnityEngine", "SharedBetweenAnimatorsAttribute");
+NEED_NO_BOX(::UnityEngine::SharedBetweenAnimatorsAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::SharedBetweenAnimatorsAttribute*, "UnityEngine", "SharedBetweenAnimatorsAttribute");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -24,7 +24,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AttributeUsageAttribute] Offset: 11BF324
   // [RequiredByNativeCodeAttribute] Offset: 11BF324
-  class SharedBetweenAnimatorsAttribute : public System::Attribute {
+  class SharedBetweenAnimatorsAttribute : public ::System::Attribute {
     public:
   }; // UnityEngine.SharedBetweenAnimatorsAttribute
   #pragma pack(pop)

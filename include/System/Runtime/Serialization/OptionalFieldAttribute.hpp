@@ -18,8 +18,8 @@ namespace System::Runtime::Serialization {
   class OptionalFieldAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Serialization::OptionalFieldAttribute);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::OptionalFieldAttribute*, "System.Runtime.Serialization", "OptionalFieldAttribute");
+NEED_NO_BOX(::System::Runtime::Serialization::OptionalFieldAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::OptionalFieldAttribute*, "System.Runtime.Serialization", "OptionalFieldAttribute");
 // Type namespace: System.Runtime.Serialization
 namespace System::Runtime::Serialization {
   // Size: 0x14
@@ -28,7 +28,7 @@ namespace System::Runtime::Serialization {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: 118A5E8
   // [AttributeUsageAttribute] Offset: 118A5E8
-  class OptionalFieldAttribute : public System::Attribute {
+  class OptionalFieldAttribute : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -62,7 +62,7 @@ namespace System::Runtime::Serialization {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OptionalFieldAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::OptionalFieldAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::OptionalFieldAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OptionalFieldAttribute*, creationType>()));
     }
   }; // System.Runtime.Serialization.OptionalFieldAttribute

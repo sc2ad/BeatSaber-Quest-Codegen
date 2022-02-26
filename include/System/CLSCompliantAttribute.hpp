@@ -18,8 +18,8 @@ namespace System {
   class CLSCompliantAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::CLSCompliantAttribute);
-DEFINE_IL2CPP_ARG_TYPE(System::CLSCompliantAttribute*, "System", "CLSCompliantAttribute");
+NEED_NO_BOX(::System::CLSCompliantAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::CLSCompliantAttribute*, "System", "CLSCompliantAttribute");
 // Type namespace: System
 namespace System {
   // Size: 0x11
@@ -28,7 +28,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AttributeUsageAttribute] Offset: 1186B34
   // [ComVisibleAttribute] Offset: 1186B34
-  class CLSCompliantAttribute : public System::Attribute {
+  class CLSCompliantAttribute : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -56,7 +56,7 @@ namespace System {
     // Offset: 0x1DAE014
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CLSCompliantAttribute* New_ctor(bool isCompliant) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::CLSCompliantAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::CLSCompliantAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CLSCompliantAttribute*, creationType>(isCompliant)));
     }
   }; // System.CLSCompliantAttribute

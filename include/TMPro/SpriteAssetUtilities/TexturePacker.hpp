@@ -21,8 +21,8 @@ namespace TMPro::SpriteAssetUtilities {
   class TexturePacker;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(TMPro::SpriteAssetUtilities::TexturePacker);
-DEFINE_IL2CPP_ARG_TYPE(TMPro::SpriteAssetUtilities::TexturePacker*, "TMPro.SpriteAssetUtilities", "TexturePacker");
+NEED_NO_BOX(::TMPro::SpriteAssetUtilities::TexturePacker);
+DEFINE_IL2CPP_ARG_TYPE(::TMPro::SpriteAssetUtilities::TexturePacker*, "TMPro.SpriteAssetUtilities", "TexturePacker");
 // Type namespace: TMPro.SpriteAssetUtilities
 namespace TMPro::SpriteAssetUtilities {
   // Size: 0x10
@@ -31,13 +31,13 @@ namespace TMPro::SpriteAssetUtilities {
   // [TokenAttribute] Offset: FFFFFFFF
   class TexturePacker : public ::Il2CppObject {
     public:
-    // Nested type: TMPro::SpriteAssetUtilities::TexturePacker::SpriteFrame
+    // Nested type: ::TMPro::SpriteAssetUtilities::TexturePacker::SpriteFrame
     struct SpriteFrame;
-    // Nested type: TMPro::SpriteAssetUtilities::TexturePacker::SpriteSize
+    // Nested type: ::TMPro::SpriteAssetUtilities::TexturePacker::SpriteSize
     struct SpriteSize;
-    // Nested type: TMPro::SpriteAssetUtilities::TexturePacker::SpriteData
+    // Nested type: ::TMPro::SpriteAssetUtilities::TexturePacker::SpriteData
     struct SpriteData;
-    // Nested type: TMPro::SpriteAssetUtilities::TexturePacker::SpriteDataObject
+    // Nested type: ::TMPro::SpriteAssetUtilities::TexturePacker::SpriteDataObject
     class SpriteDataObject;
     // public System.Void .ctor()
     // Offset: 0x1407F90
@@ -45,7 +45,7 @@ namespace TMPro::SpriteAssetUtilities {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TexturePacker* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::SpriteAssetUtilities::TexturePacker::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::SpriteAssetUtilities::TexturePacker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TexturePacker*, creationType>()));
     }
   }; // TMPro.SpriteAssetUtilities.TexturePacker

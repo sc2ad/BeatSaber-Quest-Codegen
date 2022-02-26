@@ -20,8 +20,8 @@ namespace System::Runtime::CompilerServices {
   class RuntimeOps;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::CompilerServices::RuntimeOps);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::RuntimeOps*, "System.Runtime.CompilerServices", "RuntimeOps");
+NEED_NO_BOX(::System::Runtime::CompilerServices::RuntimeOps);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::CompilerServices::RuntimeOps*, "System.Runtime.CompilerServices", "RuntimeOps");
 // Type namespace: System.Runtime.CompilerServices
 namespace System::Runtime::CompilerServices {
   // Size: 0x10
@@ -34,19 +34,19 @@ namespace System::Runtime::CompilerServices {
     public:
     // static public System.Boolean ExpandoTryGetValue(System.Dynamic.ExpandoObject expando, System.Object indexClass, System.Int32 index, System.String name, System.Boolean ignoreCase, out System.Object value)
     // Offset: 0x297EFF4
-    static bool ExpandoTryGetValue(System::Dynamic::ExpandoObject* expando, ::Il2CppObject* indexClass, int index, ::StringW name, bool ignoreCase, ByRef<::Il2CppObject*> value);
+    static bool ExpandoTryGetValue(::System::Dynamic::ExpandoObject* expando, ::Il2CppObject* indexClass, int index, ::StringW name, bool ignoreCase, ByRef<::Il2CppObject*> value);
     // static public System.Object ExpandoTrySetValue(System.Dynamic.ExpandoObject expando, System.Object indexClass, System.Int32 index, System.Object value, System.String name, System.Boolean ignoreCase)
     // Offset: 0x297F010
-    static ::Il2CppObject* ExpandoTrySetValue(System::Dynamic::ExpandoObject* expando, ::Il2CppObject* indexClass, int index, ::Il2CppObject* value, ::StringW name, bool ignoreCase);
+    static ::Il2CppObject* ExpandoTrySetValue(::System::Dynamic::ExpandoObject* expando, ::Il2CppObject* indexClass, int index, ::Il2CppObject* value, ::StringW name, bool ignoreCase);
     // static public System.Boolean ExpandoTryDeleteValue(System.Dynamic.ExpandoObject expando, System.Object indexClass, System.Int32 index, System.String name, System.Boolean ignoreCase)
     // Offset: 0x297F048
-    static bool ExpandoTryDeleteValue(System::Dynamic::ExpandoObject* expando, ::Il2CppObject* indexClass, int index, ::StringW name, bool ignoreCase);
+    static bool ExpandoTryDeleteValue(::System::Dynamic::ExpandoObject* expando, ::Il2CppObject* indexClass, int index, ::StringW name, bool ignoreCase);
     // static public System.Boolean ExpandoCheckVersion(System.Dynamic.ExpandoObject expando, System.Object version)
     // Offset: 0x297F0F4
-    static bool ExpandoCheckVersion(System::Dynamic::ExpandoObject* expando, ::Il2CppObject* version);
+    static bool ExpandoCheckVersion(::System::Dynamic::ExpandoObject* expando, ::Il2CppObject* version);
     // static public System.Void ExpandoPromoteClass(System.Dynamic.ExpandoObject expando, System.Object oldClass, System.Object newClass)
     // Offset: 0x297F128
-    static void ExpandoPromoteClass(System::Dynamic::ExpandoObject* expando, ::Il2CppObject* oldClass, ::Il2CppObject* newClass);
+    static void ExpandoPromoteClass(::System::Dynamic::ExpandoObject* expando, ::Il2CppObject* oldClass, ::Il2CppObject* newClass);
   }; // System.Runtime.CompilerServices.RuntimeOps
   #pragma pack(pop)
 }
@@ -54,7 +54,7 @@ namespace System::Runtime::CompilerServices {
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::RuntimeOps::ExpandoTryGetValue
 // Il2CppName: ExpandoTryGetValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Dynamic::ExpandoObject*, ::Il2CppObject*, int, ::StringW, bool, ByRef<::Il2CppObject*>)>(&System::Runtime::CompilerServices::RuntimeOps::ExpandoTryGetValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Dynamic::ExpandoObject*, ::Il2CppObject*, int, ::StringW, bool, ByRef<::Il2CppObject*>)>(&System::Runtime::CompilerServices::RuntimeOps::ExpandoTryGetValue)> {
   static const MethodInfo* get() {
     static auto* expando = &::il2cpp_utils::GetClassFromName("System.Dynamic", "ExpandoObject")->byval_arg;
     static auto* indexClass = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -68,7 +68,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::RuntimeOps::ExpandoTrySetValue
 // Il2CppName: ExpandoTrySetValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Dynamic::ExpandoObject*, ::Il2CppObject*, int, ::Il2CppObject*, ::StringW, bool)>(&System::Runtime::CompilerServices::RuntimeOps::ExpandoTrySetValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::System::Dynamic::ExpandoObject*, ::Il2CppObject*, int, ::Il2CppObject*, ::StringW, bool)>(&System::Runtime::CompilerServices::RuntimeOps::ExpandoTrySetValue)> {
   static const MethodInfo* get() {
     static auto* expando = &::il2cpp_utils::GetClassFromName("System.Dynamic", "ExpandoObject")->byval_arg;
     static auto* indexClass = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -82,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::RuntimeOps::ExpandoTryDeleteValue
 // Il2CppName: ExpandoTryDeleteValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Dynamic::ExpandoObject*, ::Il2CppObject*, int, ::StringW, bool)>(&System::Runtime::CompilerServices::RuntimeOps::ExpandoTryDeleteValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Dynamic::ExpandoObject*, ::Il2CppObject*, int, ::StringW, bool)>(&System::Runtime::CompilerServices::RuntimeOps::ExpandoTryDeleteValue)> {
   static const MethodInfo* get() {
     static auto* expando = &::il2cpp_utils::GetClassFromName("System.Dynamic", "ExpandoObject")->byval_arg;
     static auto* indexClass = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -95,7 +95,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::RuntimeOps::ExpandoCheckVersion
 // Il2CppName: ExpandoCheckVersion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Dynamic::ExpandoObject*, ::Il2CppObject*)>(&System::Runtime::CompilerServices::RuntimeOps::ExpandoCheckVersion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Dynamic::ExpandoObject*, ::Il2CppObject*)>(&System::Runtime::CompilerServices::RuntimeOps::ExpandoCheckVersion)> {
   static const MethodInfo* get() {
     static auto* expando = &::il2cpp_utils::GetClassFromName("System.Dynamic", "ExpandoObject")->byval_arg;
     static auto* version = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -105,7 +105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::RuntimeOps::ExpandoPromoteClass
 // Il2CppName: ExpandoPromoteClass
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Dynamic::ExpandoObject*, ::Il2CppObject*, ::Il2CppObject*)>(&System::Runtime::CompilerServices::RuntimeOps::ExpandoPromoteClass)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Dynamic::ExpandoObject*, ::Il2CppObject*, ::Il2CppObject*)>(&System::Runtime::CompilerServices::RuntimeOps::ExpandoPromoteClass)> {
   static const MethodInfo* get() {
     static auto* expando = &::il2cpp_utils::GetClassFromName("System.Dynamic", "ExpandoObject")->byval_arg;
     static auto* oldClass = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;

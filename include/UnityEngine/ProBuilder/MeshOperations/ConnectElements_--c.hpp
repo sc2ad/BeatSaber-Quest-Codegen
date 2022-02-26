@@ -50,8 +50,8 @@ namespace UnityEngine::ProBuilder::MeshOperations {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c*, "UnityEngine.ProBuilder.MeshOperations", "ConnectElements/<>c");
+NEED_NO_BOX(::UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c*, "UnityEngine.ProBuilder.MeshOperations", "ConnectElements/<>c");
 // Type namespace: UnityEngine.ProBuilder.MeshOperations
 namespace UnityEngine::ProBuilder::MeshOperations {
   // Size: 0x10
@@ -62,117 +62,117 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   class ConnectElements::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly UnityEngine.ProBuilder.MeshOperations.ConnectElements/UnityEngine.ProBuilder.MeshOperations.<>c <>9
-    static UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c* _get_$$9();
+    static ::UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c* _get_$$9();
     // Set static field: static public readonly UnityEngine.ProBuilder.MeshOperations.ConnectElements/UnityEngine.ProBuilder.MeshOperations.<>c <>9
-    static void _set_$$9(UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c* value);
+    static void _set_$$9(::UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c* value);
     // Get static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge>> <>9__0_0
-    static System::Func_2<UnityEngine::ProBuilder::Face*, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>*>* _get_$$9__0_0();
+    static ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*>* _get_$$9__0_0();
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge>> <>9__0_0
-    static void _set_$$9__0_0(System::Func_2<UnityEngine::ProBuilder::Face*, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>*>* value);
+    static void _set_$$9__0_0(::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*>* value);
     // Get static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Int32> <>9__2_1
-    static System::Func_2<UnityEngine::ProBuilder::Face*, int>* _get_$$9__2_1();
+    static ::System::Func_2<::UnityEngine::ProBuilder::Face*, int>* _get_$$9__2_1();
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Int32> <>9__2_1
-    static void _set_$$9__2_1(System::Func_2<UnityEngine::ProBuilder::Face*, int>* value);
+    static void _set_$$9__2_1(::System::Func_2<::UnityEngine::ProBuilder::Face*, int>* value);
     // Get static field: static public System.Func`2<UnityEngine.ProBuilder.MeshOperations.ConnectFaceRebuildData,UnityEngine.ProBuilder.FaceRebuildData> <>9__2_2
-    static System::Func_2<UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*, UnityEngine::ProBuilder::FaceRebuildData*>* _get_$$9__2_2();
+    static ::System::Func_2<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*, ::UnityEngine::ProBuilder::FaceRebuildData*>* _get_$$9__2_2();
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.MeshOperations.ConnectFaceRebuildData,UnityEngine.ProBuilder.FaceRebuildData> <>9__2_2
-    static void _set_$$9__2_2(System::Func_2<UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*, UnityEngine::ProBuilder::FaceRebuildData*>* value);
+    static void _set_$$9__2_2(::System::Func_2<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*, ::UnityEngine::ProBuilder::FaceRebuildData*>* value);
     // Get static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Int32> <>9__3_0
-    static System::Func_2<UnityEngine::ProBuilder::Face*, int>* _get_$$9__3_0();
+    static ::System::Func_2<::UnityEngine::ProBuilder::Face*, int>* _get_$$9__3_0();
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Int32> <>9__3_0
-    static void _set_$$9__3_0(System::Func_2<UnityEngine::ProBuilder::Face*, int>* value);
+    static void _set_$$9__3_0(::System::Func_2<::UnityEngine::ProBuilder::Face*, int>* value);
     // Get static field: static public System.Func`2<UnityEngine.ProBuilder.MeshOperations.ConnectFaceRebuildData,UnityEngine.ProBuilder.FaceRebuildData> <>9__3_1
-    static System::Func_2<UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*, UnityEngine::ProBuilder::FaceRebuildData*>* _get_$$9__3_1();
+    static ::System::Func_2<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*, ::UnityEngine::ProBuilder::FaceRebuildData*>* _get_$$9__3_1();
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.MeshOperations.ConnectFaceRebuildData,UnityEngine.ProBuilder.FaceRebuildData> <>9__3_1
-    static void _set_$$9__3_1(System::Func_2<UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*, UnityEngine::ProBuilder::FaceRebuildData*>* value);
+    static void _set_$$9__3_1(::System::Func_2<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*, ::UnityEngine::ProBuilder::FaceRebuildData*>* value);
     // Get static field: static public System.Func`2<UnityEngine.ProBuilder.MeshOperations.ConnectFaceRebuildData,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge>> <>9__3_2
-    static System::Func_2<UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>*>* _get_$$9__3_2();
+    static ::System::Func_2<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*>* _get_$$9__3_2();
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.MeshOperations.ConnectFaceRebuildData,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge>> <>9__3_2
-    static void _set_$$9__3_2(System::Func_2<UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>*>* value);
+    static void _set_$$9__3_2(::System::Func_2<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*>* value);
     // Get static field: static public System.Func`2<UnityEngine.ProBuilder.EdgeLookup,UnityEngine.ProBuilder.Edge> <>9__3_4
-    static System::Func_2<UnityEngine::ProBuilder::EdgeLookup, UnityEngine::ProBuilder::Edge>* _get_$$9__3_4();
+    static ::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>* _get_$$9__3_4();
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.EdgeLookup,UnityEngine.ProBuilder.Edge> <>9__3_4
-    static void _set_$$9__3_4(System::Func_2<UnityEngine::ProBuilder::EdgeLookup, UnityEngine::ProBuilder::Edge>* value);
+    static void _set_$$9__3_4(::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>* value);
     // Get static field: static public System.Func`2<System.Int32,System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex>> <>9__5_0
-    static System::Func_2<int, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Vertex*>*>* _get_$$9__5_0();
+    static ::System::Func_2<int, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>* _get_$$9__5_0();
     // Set static field: static public System.Func`2<System.Int32,System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex>> <>9__5_0
-    static void _set_$$9__5_0(System::Func_2<int, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Vertex*>*>* value);
+    static void _set_$$9__5_0(::System::Func_2<int, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>* value);
     // Get static field: static public System.Func`2<System.Int32,System.Collections.Generic.List`1<System.Int32>> <>9__5_1
-    static System::Func_2<int, System::Collections::Generic::List_1<int>*>* _get_$$9__5_1();
+    static ::System::Func_2<int, ::System::Collections::Generic::List_1<int>*>* _get_$$9__5_1();
     // Set static field: static public System.Func`2<System.Int32,System.Collections.Generic.List`1<System.Int32>> <>9__5_1
-    static void _set_$$9__5_1(System::Func_2<int, System::Collections::Generic::List_1<int>*>* value);
+    static void _set_$$9__5_1(::System::Func_2<int, ::System::Collections::Generic::List_1<int>*>* value);
     // Get static field: static public System.Func`2<UnityEngine.ProBuilder.WingedEdge,UnityEngine.ProBuilder.Edge> <>9__5_2
-    static System::Func_2<UnityEngine::ProBuilder::WingedEdge*, UnityEngine::ProBuilder::Edge>* _get_$$9__5_2();
+    static ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>* _get_$$9__5_2();
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.WingedEdge,UnityEngine.ProBuilder.Edge> <>9__5_2
-    static void _set_$$9__5_2(System::Func_2<UnityEngine::ProBuilder::WingedEdge*, UnityEngine::ProBuilder::Edge>* value);
+    static void _set_$$9__5_2(::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>* value);
     // Get static field: static public System.Func`2<UnityEngine.ProBuilder.WingedEdge,UnityEngine.ProBuilder.Edge> <>9__6_0
-    static System::Func_2<UnityEngine::ProBuilder::WingedEdge*, UnityEngine::ProBuilder::Edge>* _get_$$9__6_0();
+    static ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>* _get_$$9__6_0();
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.WingedEdge,UnityEngine.ProBuilder.Edge> <>9__6_0
-    static void _set_$$9__6_0(System::Func_2<UnityEngine::ProBuilder::WingedEdge*, UnityEngine::ProBuilder::Edge>* value);
+    static void _set_$$9__6_0(::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>* value);
     // Get static field: static public System.Func`2<System.Int32,System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex>> <>9__8_0
-    static System::Func_2<int, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Vertex*>*>* _get_$$9__8_0();
+    static ::System::Func_2<int, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>* _get_$$9__8_0();
     // Set static field: static public System.Func`2<System.Int32,System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex>> <>9__8_0
-    static void _set_$$9__8_0(System::Func_2<int, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Vertex*>*>* value);
+    static void _set_$$9__8_0(::System::Func_2<int, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>* value);
     // Get static field: static public System.Func`2<System.Int32,System.Collections.Generic.List`1<System.Int32>> <>9__8_1
-    static System::Func_2<int, System::Collections::Generic::List_1<int>*>* _get_$$9__8_1();
+    static ::System::Func_2<int, ::System::Collections::Generic::List_1<int>*>* _get_$$9__8_1();
     // Set static field: static public System.Func`2<System.Int32,System.Collections.Generic.List`1<System.Int32>> <>9__8_1
-    static void _set_$$9__8_1(System::Func_2<int, System::Collections::Generic::List_1<int>*>* value);
+    static void _set_$$9__8_1(::System::Func_2<int, ::System::Collections::Generic::List_1<int>*>* value);
     // Get static field: static public System.Func`2<System.Int32,System.Collections.Generic.List`1<System.Int32>> <>9__8_2
-    static System::Func_2<int, System::Collections::Generic::List_1<int>*>* _get_$$9__8_2();
+    static ::System::Func_2<int, ::System::Collections::Generic::List_1<int>*>* _get_$$9__8_2();
     // Set static field: static public System.Func`2<System.Int32,System.Collections.Generic.List`1<System.Int32>> <>9__8_2
-    static void _set_$$9__8_2(System::Func_2<int, System::Collections::Generic::List_1<int>*>* value);
+    static void _set_$$9__8_2(::System::Func_2<int, ::System::Collections::Generic::List_1<int>*>* value);
     // static private System.Void .cctor()
     // Offset: 0x19C1700
     static void _cctor();
     // System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> <Connect>b__0_0(UnityEngine.ProBuilder.Face x)
     // Offset: 0x19C176C
-    System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>* $Connect$b__0_0(UnityEngine::ProBuilder::Face* x);
+    ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* $Connect$b__0_0(::UnityEngine::ProBuilder::Face* x);
     // System.Int32 <Connect>b__2_1(UnityEngine.ProBuilder.Face x)
     // Offset: 0x19C1788
-    int $Connect$b__2_1(UnityEngine::ProBuilder::Face* x);
+    int $Connect$b__2_1(::UnityEngine::ProBuilder::Face* x);
     // UnityEngine.ProBuilder.FaceRebuildData <Connect>b__2_2(UnityEngine.ProBuilder.MeshOperations.ConnectFaceRebuildData x)
     // Offset: 0x19C17A0
-    UnityEngine::ProBuilder::FaceRebuildData* $Connect$b__2_2(UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData* x);
+    ::UnityEngine::ProBuilder::FaceRebuildData* $Connect$b__2_2(::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData* x);
     // System.Int32 <Connect>b__3_0(UnityEngine.ProBuilder.Face x)
     // Offset: 0x19C17B8
-    int $Connect$b__3_0(UnityEngine::ProBuilder::Face* x);
+    int $Connect$b__3_0(::UnityEngine::ProBuilder::Face* x);
     // UnityEngine.ProBuilder.FaceRebuildData <Connect>b__3_1(UnityEngine.ProBuilder.MeshOperations.ConnectFaceRebuildData x)
     // Offset: 0x19C17D0
-    UnityEngine::ProBuilder::FaceRebuildData* $Connect$b__3_1(UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData* x);
+    ::UnityEngine::ProBuilder::FaceRebuildData* $Connect$b__3_1(::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData* x);
     // System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> <Connect>b__3_2(UnityEngine.ProBuilder.MeshOperations.ConnectFaceRebuildData x)
     // Offset: 0x19C17E8
-    System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>* $Connect$b__3_2(UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData* x);
+    ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* $Connect$b__3_2(::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData* x);
     // UnityEngine.ProBuilder.Edge <Connect>b__3_4(UnityEngine.ProBuilder.EdgeLookup x)
     // Offset: 0x19C1814
-    UnityEngine::ProBuilder::Edge $Connect$b__3_4(UnityEngine::ProBuilder::EdgeLookup x);
+    ::UnityEngine::ProBuilder::Edge $Connect$b__3_4(::UnityEngine::ProBuilder::EdgeLookup x);
     // System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex> <ConnectEdgesInFace>b__5_0(System.Int32 x)
     // Offset: 0x19C181C
-    System::Collections::Generic::List_1<UnityEngine::ProBuilder::Vertex*>* $ConnectEdgesInFace$b__5_0(int x);
+    ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* $ConnectEdgesInFace$b__5_0(int x);
     // System.Collections.Generic.List`1<System.Int32> <ConnectEdgesInFace>b__5_1(System.Int32 x)
     // Offset: 0x19C1880
-    System::Collections::Generic::List_1<int>* $ConnectEdgesInFace$b__5_1(int x);
+    ::System::Collections::Generic::List_1<int>* $ConnectEdgesInFace$b__5_1(int x);
     // UnityEngine.ProBuilder.Edge <ConnectEdgesInFace>b__5_2(UnityEngine.ProBuilder.WingedEdge x)
     // Offset: 0x19C18E4
-    UnityEngine::ProBuilder::Edge $ConnectEdgesInFace$b__5_2(UnityEngine::ProBuilder::WingedEdge* x);
+    ::UnityEngine::ProBuilder::Edge $ConnectEdgesInFace$b__5_2(::UnityEngine::ProBuilder::WingedEdge* x);
     // UnityEngine.ProBuilder.Edge <InsertVertices>b__6_0(UnityEngine.ProBuilder.WingedEdge x)
     // Offset: 0x19C18FC
-    UnityEngine::ProBuilder::Edge $InsertVertices$b__6_0(UnityEngine::ProBuilder::WingedEdge* x);
+    ::UnityEngine::ProBuilder::Edge $InsertVertices$b__6_0(::UnityEngine::ProBuilder::WingedEdge* x);
     // System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex> <ConnectIndexesPerFace>b__8_0(System.Int32 x)
     // Offset: 0x19C1914
-    System::Collections::Generic::List_1<UnityEngine::ProBuilder::Vertex*>* $ConnectIndexesPerFace$b__8_0(int x);
+    ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* $ConnectIndexesPerFace$b__8_0(int x);
     // System.Collections.Generic.List`1<System.Int32> <ConnectIndexesPerFace>b__8_1(System.Int32 x)
     // Offset: 0x19C1978
-    System::Collections::Generic::List_1<int>* $ConnectIndexesPerFace$b__8_1(int x);
+    ::System::Collections::Generic::List_1<int>* $ConnectIndexesPerFace$b__8_1(int x);
     // System.Collections.Generic.List`1<System.Int32> <ConnectIndexesPerFace>b__8_2(System.Int32 x)
     // Offset: 0x19C19DC
-    System::Collections::Generic::List_1<int>* $ConnectIndexesPerFace$b__8_2(int x);
+    ::System::Collections::Generic::List_1<int>* $ConnectIndexesPerFace$b__8_2(int x);
     // public System.Void .ctor()
     // Offset: 0x19C1764
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConnectElements::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConnectElements::$$c*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.MeshOperations.ConnectElements/UnityEngine.ProBuilder.MeshOperations.<>c
@@ -190,7 +190,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::$Connect$b__0_0
 // Il2CppName: <Connect>b__0_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>* (UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::*)(UnityEngine::ProBuilder::Face*)>(&UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::$Connect$b__0_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* (UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::*)(::UnityEngine::ProBuilder::Face*)>(&UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::$Connect$b__0_0)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c*), "<Connect>b__0_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -199,7 +199,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::$Connect$b__2_1
 // Il2CppName: <Connect>b__2_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::*)(UnityEngine::ProBuilder::Face*)>(&UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::$Connect$b__2_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::*)(::UnityEngine::ProBuilder::Face*)>(&UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::$Connect$b__2_1)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c*), "<Connect>b__2_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -208,7 +208,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::$Connect$b__2_2
 // Il2CppName: <Connect>b__2_2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::FaceRebuildData* (UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::*)(UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*)>(&UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::$Connect$b__2_2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::FaceRebuildData* (UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::*)(::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*)>(&UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::$Connect$b__2_2)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder.MeshOperations", "ConnectFaceRebuildData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c*), "<Connect>b__2_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -217,7 +217,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::$Connect$b__3_0
 // Il2CppName: <Connect>b__3_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::*)(UnityEngine::ProBuilder::Face*)>(&UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::$Connect$b__3_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::*)(::UnityEngine::ProBuilder::Face*)>(&UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::$Connect$b__3_0)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c*), "<Connect>b__3_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -226,7 +226,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::$Connect$b__3_1
 // Il2CppName: <Connect>b__3_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::FaceRebuildData* (UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::*)(UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*)>(&UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::$Connect$b__3_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::FaceRebuildData* (UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::*)(::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*)>(&UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::$Connect$b__3_1)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder.MeshOperations", "ConnectFaceRebuildData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c*), "<Connect>b__3_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -235,7 +235,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::$Connect$b__3_2
 // Il2CppName: <Connect>b__3_2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>* (UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::*)(UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*)>(&UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::$Connect$b__3_2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* (UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::*)(::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*)>(&UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::$Connect$b__3_2)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder.MeshOperations", "ConnectFaceRebuildData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c*), "<Connect>b__3_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -244,7 +244,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::$Connect$b__3_4
 // Il2CppName: <Connect>b__3_4
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::*)(UnityEngine::ProBuilder::EdgeLookup)>(&UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::$Connect$b__3_4)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Edge (UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::*)(::UnityEngine::ProBuilder::EdgeLookup)>(&UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::$Connect$b__3_4)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "EdgeLookup")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c*), "<Connect>b__3_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -253,7 +253,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::$ConnectEdgesInFace$b__5_0
 // Il2CppName: <ConnectEdgesInFace>b__5_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::ProBuilder::Vertex*>* (UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::*)(int)>(&UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::$ConnectEdgesInFace$b__5_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* (UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::*)(int)>(&UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::$ConnectEdgesInFace$b__5_0)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c*), "<ConnectEdgesInFace>b__5_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -262,7 +262,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::$ConnectEdgesInFace$b__5_1
 // Il2CppName: <ConnectEdgesInFace>b__5_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<int>* (UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::*)(int)>(&UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::$ConnectEdgesInFace$b__5_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<int>* (UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::*)(int)>(&UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::$ConnectEdgesInFace$b__5_1)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c*), "<ConnectEdgesInFace>b__5_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -271,7 +271,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::$ConnectEdgesInFace$b__5_2
 // Il2CppName: <ConnectEdgesInFace>b__5_2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::*)(UnityEngine::ProBuilder::WingedEdge*)>(&UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::$ConnectEdgesInFace$b__5_2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Edge (UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::*)(::UnityEngine::ProBuilder::WingedEdge*)>(&UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::$ConnectEdgesInFace$b__5_2)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "WingedEdge")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c*), "<ConnectEdgesInFace>b__5_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -280,7 +280,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::$InsertVertices$b__6_0
 // Il2CppName: <InsertVertices>b__6_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::*)(UnityEngine::ProBuilder::WingedEdge*)>(&UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::$InsertVertices$b__6_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Edge (UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::*)(::UnityEngine::ProBuilder::WingedEdge*)>(&UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::$InsertVertices$b__6_0)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "WingedEdge")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c*), "<InsertVertices>b__6_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -289,7 +289,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::$ConnectIndexesPerFace$b__8_0
 // Il2CppName: <ConnectIndexesPerFace>b__8_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::ProBuilder::Vertex*>* (UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::*)(int)>(&UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::$ConnectIndexesPerFace$b__8_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* (UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::*)(int)>(&UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::$ConnectIndexesPerFace$b__8_0)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c*), "<ConnectIndexesPerFace>b__8_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -298,7 +298,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::$ConnectIndexesPerFace$b__8_1
 // Il2CppName: <ConnectIndexesPerFace>b__8_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<int>* (UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::*)(int)>(&UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::$ConnectIndexesPerFace$b__8_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<int>* (UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::*)(int)>(&UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::$ConnectIndexesPerFace$b__8_1)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c*), "<ConnectIndexesPerFace>b__8_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -307,7 +307,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::$ConnectIndexesPerFace$b__8_2
 // Il2CppName: <ConnectIndexesPerFace>b__8_2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<int>* (UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::*)(int)>(&UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::$ConnectIndexesPerFace$b__8_2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<int>* (UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::*)(int)>(&UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c::$ConnectIndexesPerFace$b__8_2)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c*), "<ConnectIndexesPerFace>b__8_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});

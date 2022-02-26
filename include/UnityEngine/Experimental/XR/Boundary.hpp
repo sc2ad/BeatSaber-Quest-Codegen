@@ -25,8 +25,8 @@ namespace UnityEngine::Experimental::XR {
   class Boundary;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Experimental::XR::Boundary);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::XR::Boundary*, "UnityEngine.Experimental.XR", "Boundary");
+NEED_NO_BOX(::UnityEngine::Experimental::XR::Boundary);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::XR::Boundary*, "UnityEngine.Experimental.XR", "Boundary");
 // Type namespace: UnityEngine.Experimental.XR
 namespace UnityEngine::Experimental::XR {
   // Size: 0x10
@@ -36,7 +36,7 @@ namespace UnityEngine::Experimental::XR {
   // [NativeConditionalAttribute] Offset: 11E4508
   class Boundary : public ::Il2CppObject {
     public:
-    // Nested type: UnityEngine::Experimental::XR::Boundary::Type
+    // Nested type: ::UnityEngine::Experimental::XR::Boundary::Type
     struct Type;
     // static public System.Boolean get_visible()
     // Offset: 0x2A5ED88
@@ -49,16 +49,16 @@ namespace UnityEngine::Experimental::XR {
     static bool get_configured();
     // static public System.Boolean TryGetDimensions(out UnityEngine.Vector3 dimensionsOut, UnityEngine.Experimental.XR.Boundary/UnityEngine.Experimental.XR.Type boundaryType)
     // Offset: 0x2A5ECE8
-    static bool TryGetDimensions(ByRef<UnityEngine::Vector3> dimensionsOut, UnityEngine::Experimental::XR::Boundary::Type boundaryType);
+    static bool TryGetDimensions(ByRef<::UnityEngine::Vector3> dimensionsOut, ::UnityEngine::Experimental::XR::Boundary::Type boundaryType);
     // static private System.Boolean TryGetDimensionsInternal(out UnityEngine.Vector3 dimensionsOut, UnityEngine.Experimental.XR.Boundary/UnityEngine.Experimental.XR.Type boundaryType)
     // Offset: 0x2A5ED38
-    static bool TryGetDimensionsInternal(ByRef<UnityEngine::Vector3> dimensionsOut, UnityEngine::Experimental::XR::Boundary::Type boundaryType);
+    static bool TryGetDimensionsInternal(ByRef<::UnityEngine::Vector3> dimensionsOut, ::UnityEngine::Experimental::XR::Boundary::Type boundaryType);
     // static public System.Boolean TryGetGeometry(System.Collections.Generic.List`1<UnityEngine.Vector3> geometry, UnityEngine.Experimental.XR.Boundary/UnityEngine.Experimental.XR.Type boundaryType)
     // Offset: 0x2A5EE30
-    static bool TryGetGeometry(System::Collections::Generic::List_1<UnityEngine::Vector3>* geometry, UnityEngine::Experimental::XR::Boundary::Type boundaryType);
+    static bool TryGetGeometry(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* geometry, ::UnityEngine::Experimental::XR::Boundary::Type boundaryType);
     // static private System.Boolean TryGetGeometryScriptingInternal(System.Collections.Generic.List`1<UnityEngine.Vector3> geometry, UnityEngine.Experimental.XR.Boundary/UnityEngine.Experimental.XR.Type boundaryType)
     // Offset: 0x2A5EEF8
-    static bool TryGetGeometryScriptingInternal(System::Collections::Generic::List_1<UnityEngine::Vector3>* geometry, UnityEngine::Experimental::XR::Boundary::Type boundaryType);
+    static bool TryGetGeometryScriptingInternal(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* geometry, ::UnityEngine::Experimental::XR::Boundary::Type boundaryType);
   }; // UnityEngine.Experimental.XR.Boundary
   #pragma pack(pop)
 }
@@ -91,7 +91,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Writing MetadataGetter for method: UnityEngine::Experimental::XR::Boundary::TryGetDimensions
 // Il2CppName: TryGetDimensions
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<UnityEngine::Vector3>, UnityEngine::Experimental::XR::Boundary::Type)>(&UnityEngine::Experimental::XR::Boundary::TryGetDimensions)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<::UnityEngine::Vector3>, ::UnityEngine::Experimental::XR::Boundary::Type)>(&UnityEngine::Experimental::XR::Boundary::TryGetDimensions)> {
   static const MethodInfo* get() {
     static auto* dimensionsOut = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     static auto* boundaryType = &::il2cpp_utils::GetClassFromName("UnityEngine.Experimental.XR", "Boundary/Type")->byval_arg;
@@ -101,7 +101,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(By
 // Writing MetadataGetter for method: UnityEngine::Experimental::XR::Boundary::TryGetDimensionsInternal
 // Il2CppName: TryGetDimensionsInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<UnityEngine::Vector3>, UnityEngine::Experimental::XR::Boundary::Type)>(&UnityEngine::Experimental::XR::Boundary::TryGetDimensionsInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<::UnityEngine::Vector3>, ::UnityEngine::Experimental::XR::Boundary::Type)>(&UnityEngine::Experimental::XR::Boundary::TryGetDimensionsInternal)> {
   static const MethodInfo* get() {
     static auto* dimensionsOut = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     static auto* boundaryType = &::il2cpp_utils::GetClassFromName("UnityEngine.Experimental.XR", "Boundary/Type")->byval_arg;
@@ -111,7 +111,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(By
 // Writing MetadataGetter for method: UnityEngine::Experimental::XR::Boundary::TryGetGeometry
 // Il2CppName: TryGetGeometry
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Collections::Generic::List_1<UnityEngine::Vector3>*, UnityEngine::Experimental::XR::Boundary::Type)>(&UnityEngine::Experimental::XR::Boundary::TryGetGeometry)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::UnityEngine::Experimental::XR::Boundary::Type)>(&UnityEngine::Experimental::XR::Boundary::TryGetGeometry)> {
   static const MethodInfo* get() {
     static auto* geometry = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")})->byval_arg;
     static auto* boundaryType = &::il2cpp_utils::GetClassFromName("UnityEngine.Experimental.XR", "Boundary/Type")->byval_arg;
@@ -121,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::Experimental::XR::Boundary::TryGetGeometryScriptingInternal
 // Il2CppName: TryGetGeometryScriptingInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Collections::Generic::List_1<UnityEngine::Vector3>*, UnityEngine::Experimental::XR::Boundary::Type)>(&UnityEngine::Experimental::XR::Boundary::TryGetGeometryScriptingInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::UnityEngine::Experimental::XR::Boundary::Type)>(&UnityEngine::Experimental::XR::Boundary::TryGetGeometryScriptingInternal)> {
   static const MethodInfo* get() {
     static auto* geometry = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")})->byval_arg;
     static auto* boundaryType = &::il2cpp_utils::GetClassFromName("UnityEngine.Experimental.XR", "Boundary/Type")->byval_arg;

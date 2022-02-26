@@ -25,8 +25,8 @@ namespace Mono::Security {
   class ASN1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Security::ASN1);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Security::ASN1*, "Mono.Security", "ASN1");
+NEED_NO_BOX(::Mono::Security::ASN1);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::ASN1*, "Mono.Security", "ASN1");
 // Type namespace: Mono.Security
 namespace Mono::Security {
   // Size: 0x28
@@ -62,16 +62,16 @@ namespace Mono::Security {
     // private System.Collections.ArrayList elist
     // Size: 0x8
     // Offset: 0x20
-    System::Collections::ArrayList* elist;
+    ::System::Collections::ArrayList* elist;
     // Field size check
-    static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
+    static_assert(sizeof(::System::Collections::ArrayList*) == 0x8);
     public:
     // Get instance field reference: private System.Byte m_nTag
     uint8_t& dyn_m_nTag();
     // Get instance field reference: private System.Byte[] m_aValue
     ::ArrayW<uint8_t>& dyn_m_aValue();
     // Get instance field reference: private System.Collections.ArrayList elist
-    System::Collections::ArrayList*& dyn_elist();
+    ::System::Collections::ArrayList*& dyn_elist();
     // public System.Int32 get_Count()
     // Offset: 0x22C504C
     int get_Count();
@@ -89,26 +89,26 @@ namespace Mono::Security {
     void set_Value(::ArrayW<uint8_t> value);
     // public Mono.Security.ASN1 get_Item(System.Int32 index)
     // Offset: 0x22C5A20
-    Mono::Security::ASN1* get_Item(int index);
+    ::Mono::Security::ASN1* get_Item(int index);
     // public System.Void .ctor(System.Byte tag)
     // Offset: 0x22C4D34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ASN1* New_ctor(uint8_t tag) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::ASN1::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::ASN1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ASN1*, creationType>(tag)));
     }
     // public System.Void .ctor(System.Byte tag, System.Byte[] data)
     // Offset: 0x22C4D64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ASN1* New_ctor(uint8_t tag, ::ArrayW<uint8_t> data) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::ASN1::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::ASN1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ASN1*, creationType>(tag, data)));
     }
     // public System.Void .ctor(System.Byte[] data)
     // Offset: 0x22C4DA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ASN1* New_ctor(::ArrayW<uint8_t> data) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::ASN1::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::ASN1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ASN1*, creationType>(data)));
     }
     // private System.Boolean CompareArray(System.Byte[] array1, System.Byte[] array2)
@@ -119,7 +119,7 @@ namespace Mono::Security {
     bool CompareValue(::ArrayW<uint8_t> value);
     // public Mono.Security.ASN1 Add(Mono.Security.ASN1 asn1)
     // Offset: 0x22C5238
-    Mono::Security::ASN1* Add(Mono::Security::ASN1* asn1);
+    ::Mono::Security::ASN1* Add(::Mono::Security::ASN1* asn1);
     // public System.Byte[] GetBytes()
     // Offset: 0x22C52D4
     ::ArrayW<uint8_t> GetBytes();
@@ -131,7 +131,7 @@ namespace Mono::Security {
     void DecodeTLV(::ArrayW<uint8_t> asn1, ByRef<int> pos, ByRef<uint8_t> tag, ByRef<int> length, ByRef<::ArrayW<uint8_t>> content);
     // public Mono.Security.ASN1 Element(System.Int32 index, System.Byte anTag)
     // Offset: 0x22C5B60
-    Mono::Security::ASN1* Element(int index, uint8_t anTag);
+    ::Mono::Security::ASN1* Element(int index, uint8_t anTag);
     // public override System.String ToString()
     // Offset: 0x22C5CBC
     // Implemented from: System.Object
@@ -139,7 +139,7 @@ namespace Mono::Security {
     ::StringW ToString();
   }; // Mono.Security.ASN1
   #pragma pack(pop)
-  static check_size<sizeof(ASN1), 32 + sizeof(System::Collections::ArrayList*)> __Mono_Security_ASN1SizeCheck;
+  static check_size<sizeof(ASN1), 32 + sizeof(::System::Collections::ArrayList*)> __Mono_Security_ASN1SizeCheck;
   static_assert(sizeof(ASN1) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -187,7 +187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Security::ASN1::get_Item
 // Il2CppName: get_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::ASN1* (Mono::Security::ASN1::*)(int)>(&Mono::Security::ASN1::get_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::ASN1* (Mono::Security::ASN1::*)(int)>(&Mono::Security::ASN1::get_Item)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::ASN1*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
@@ -227,7 +227,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 // Writing MetadataGetter for method: Mono::Security::ASN1::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::ASN1* (Mono::Security::ASN1::*)(Mono::Security::ASN1*)>(&Mono::Security::ASN1::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::ASN1* (Mono::Security::ASN1::*)(::Mono::Security::ASN1*)>(&Mono::Security::ASN1::Add)> {
   static const MethodInfo* get() {
     static auto* asn1 = &::il2cpp_utils::GetClassFromName("Mono.Security", "ASN1")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::ASN1*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asn1});
@@ -268,7 +268,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Security::ASN1::Element
 // Il2CppName: Element
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::ASN1* (Mono::Security::ASN1::*)(int, uint8_t)>(&Mono::Security::ASN1::Element)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::ASN1* (Mono::Security::ASN1::*)(int, uint8_t)>(&Mono::Security::ASN1::Element)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* anTag = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;

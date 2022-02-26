@@ -33,8 +33,8 @@ namespace GlobalNamespace {
   class OVRManager_$$c;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRManager_$$c);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRManager_$$c*, "", "OVRManager/<>c");
+NEED_NO_BOX(::GlobalNamespace::OVRManager_$$c);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRManager_$$c*, "", "OVRManager/<>c");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -45,17 +45,17 @@ namespace GlobalNamespace {
   class OVRManager_$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly OVRManager/<>c <>9
-    static GlobalNamespace::OVRManager_$$c* _get_$$9();
+    static ::GlobalNamespace::OVRManager_$$c* _get_$$9();
     // Set static field: static public readonly OVRManager/<>c <>9
-    static void _set_$$9(GlobalNamespace::OVRManager_$$c* value);
+    static void _set_$$9(::GlobalNamespace::OVRManager_$$c* value);
     // Get static field: static public System.Func`2<System.Single,System.String> <>9__337_0
-    static System::Func_2<float, ::StringW>* _get_$$9__337_0();
+    static ::System::Func_2<float, ::StringW>* _get_$$9__337_0();
     // Set static field: static public System.Func`2<System.Single,System.String> <>9__337_0
-    static void _set_$$9__337_0(System::Func_2<float, ::StringW>* value);
+    static void _set_$$9__337_0(::System::Func_2<float, ::StringW>* value);
     // Get static field: static public System.Comparison`1<UnityEngine.Camera> <>9__346_0
-    static System::Comparison_1<UnityEngine::Camera*>* _get_$$9__346_0();
+    static ::System::Comparison_1<::UnityEngine::Camera*>* _get_$$9__346_0();
     // Set static field: static public System.Comparison`1<UnityEngine.Camera> <>9__346_0
-    static void _set_$$9__346_0(System::Comparison_1<UnityEngine::Camera*>* value);
+    static void _set_$$9__346_0(::System::Comparison_1<::UnityEngine::Camera*>* value);
     // static private System.Void .cctor()
     // Offset: 0x1645A50
     static void _cctor();
@@ -64,14 +64,14 @@ namespace GlobalNamespace {
     ::StringW $InitOVRManager$b__337_0(float f);
     // System.Int32 <FindMainCamera>b__346_0(UnityEngine.Camera c0, UnityEngine.Camera c1)
     // Offset: 0x1645AE4
-    int $FindMainCamera$b__346_0(UnityEngine::Camera* c0, UnityEngine::Camera* c1);
+    int $FindMainCamera$b__346_0(::UnityEngine::Camera* c0, ::UnityEngine::Camera* c1);
     // public System.Void .ctor()
     // Offset: 0x1645AB4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRManager_$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRManager_$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRManager_$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRManager_$$c*, creationType>()));
     }
   }; // OVRManager/<>c
@@ -98,7 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: GlobalNamespace::OVRManager_$$c::$FindMainCamera$b__346_0
 // Il2CppName: <FindMainCamera>b__346_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::OVRManager_$$c::*)(UnityEngine::Camera*, UnityEngine::Camera*)>(&GlobalNamespace::OVRManager_$$c::$FindMainCamera$b__346_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::OVRManager_$$c::*)(::UnityEngine::Camera*, ::UnityEngine::Camera*)>(&GlobalNamespace::OVRManager_$$c::$FindMainCamera$b__346_0)> {
   static const MethodInfo* get() {
     static auto* c0 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
     static auto* c1 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;

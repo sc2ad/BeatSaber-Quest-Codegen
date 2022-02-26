@@ -9,8 +9,8 @@
 #include "System/Threading/SpinLock.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Threading::SpinLock::SystemThreading_SpinLockDebugView);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::SpinLock::SystemThreading_SpinLockDebugView*, "System.Threading", "SpinLock/SystemThreading_SpinLockDebugView");
+NEED_NO_BOX(::System::Threading::SpinLock::SystemThreading_SpinLockDebugView);
+DEFINE_IL2CPP_ARG_TYPE(::System::Threading::SpinLock::SystemThreading_SpinLockDebugView*, "System.Threading", "SpinLock/SystemThreading_SpinLockDebugView");
 // Type namespace: System.Threading
 namespace System::Threading {
   // Size: 0x10

@@ -15,8 +15,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo*, "Mono.Security.Cryptography", "PKCS8/EncryptedPrivateKeyInfo");
+NEED_NO_BOX(::Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo*, "Mono.Security.Cryptography", "PKCS8/EncryptedPrivateKeyInfo");
 // Type namespace: Mono.Security.Cryptography
 namespace Mono::Security::Cryptography {
   // Size: 0x30
@@ -85,7 +85,7 @@ namespace Mono::Security::Cryptography {
     // Offset: 0x22CAD10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PKCS8::EncryptedPrivateKeyInfo* New_ctor(::ArrayW<uint8_t> data) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PKCS8::EncryptedPrivateKeyInfo*, creationType>(data)));
     }
     // private System.Void Decode(System.Byte[] data)
@@ -97,7 +97,7 @@ namespace Mono::Security::Cryptography {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PKCS8::EncryptedPrivateKeyInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PKCS8::EncryptedPrivateKeyInfo*, creationType>()));
     }
   }; // Mono.Security.Cryptography.PKCS8/Mono.Security.Cryptography.EncryptedPrivateKeyInfo

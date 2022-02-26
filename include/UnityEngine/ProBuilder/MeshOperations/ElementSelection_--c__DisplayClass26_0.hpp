@@ -32,8 +32,8 @@ namespace UnityEngine::ProBuilder {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass26_0);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass26_0*, "UnityEngine.ProBuilder.MeshOperations", "ElementSelection/<>c__DisplayClass26_0");
+NEED_NO_BOX(::UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass26_0);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass26_0*, "UnityEngine.ProBuilder.MeshOperations", "ElementSelection/<>c__DisplayClass26_0");
 // Type namespace: UnityEngine.ProBuilder.MeshOperations
 namespace UnityEngine::ProBuilder::MeshOperations {
   // Size: 0x28
@@ -55,53 +55,53 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // public System.Collections.Generic.HashSet`1<System.Int32> common
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::HashSet_1<int>* common;
+    ::System::Collections::Generic::HashSet_1<int>* common;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::HashSet_1<int>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::HashSet_1<int>*) == 0x8);
     // public System.Func`2<UnityEngine.ProBuilder.WingedEdge,System.Boolean> <>9__1
     // Size: 0x8
     // Offset: 0x18
-    System::Func_2<UnityEngine::ProBuilder::WingedEdge*, bool>* $$9__1;
+    ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, bool>* $$9__1;
     // Field size check
-    static_assert(sizeof(System::Func_2<UnityEngine::ProBuilder::WingedEdge*, bool>*) == 0x8);
+    static_assert(sizeof(::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, bool>*) == 0x8);
     // public System.Func`2<UnityEngine.ProBuilder.WingedEdge,System.Boolean> <>9__2
     // Size: 0x8
     // Offset: 0x20
-    System::Func_2<UnityEngine::ProBuilder::WingedEdge*, bool>* $$9__2;
+    ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, bool>* $$9__2;
     // Field size check
-    static_assert(sizeof(System::Func_2<UnityEngine::ProBuilder::WingedEdge*, bool>*) == 0x8);
+    static_assert(sizeof(::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, bool>*) == 0x8);
     public:
     // Get instance field reference: public System.Collections.Generic.HashSet`1<System.Int32> common
-    System::Collections::Generic::HashSet_1<int>*& dyn_common();
+    ::System::Collections::Generic::HashSet_1<int>*& dyn_common();
     // Get instance field reference: public System.Func`2<UnityEngine.ProBuilder.WingedEdge,System.Boolean> <>9__1
-    System::Func_2<UnityEngine::ProBuilder::WingedEdge*, bool>*& dyn_$$9__1();
+    ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, bool>*& dyn_$$9__1();
     // Get instance field reference: public System.Func`2<UnityEngine.ProBuilder.WingedEdge,System.Boolean> <>9__2
-    System::Func_2<UnityEngine::ProBuilder::WingedEdge*, bool>*& dyn_$$9__2();
+    ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, bool>*& dyn_$$9__2();
     // System.Boolean <FindHoles>b__1(UnityEngine.ProBuilder.WingedEdge w)
     // Offset: 0x19C76A4
-    bool $FindHoles$b__1(UnityEngine::ProBuilder::WingedEdge* w);
+    bool $FindHoles$b__1(::UnityEngine::ProBuilder::WingedEdge* w);
     // System.Boolean <FindHoles>b__2(UnityEngine.ProBuilder.WingedEdge w)
     // Offset: 0x19C7710
-    bool $FindHoles$b__2(UnityEngine::ProBuilder::WingedEdge* w);
+    bool $FindHoles$b__2(::UnityEngine::ProBuilder::WingedEdge* w);
     // public System.Void .ctor()
     // Offset: 0x19C7294
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ElementSelection::$$c__DisplayClass26_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass26_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass26_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ElementSelection::$$c__DisplayClass26_0*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.MeshOperations.ElementSelection/UnityEngine.ProBuilder.MeshOperations.<>c__DisplayClass26_0
   #pragma pack(pop)
-  static check_size<sizeof(ElementSelection::$$c__DisplayClass26_0), 32 + sizeof(System::Func_2<UnityEngine::ProBuilder::WingedEdge*, bool>*)> __UnityEngine_ProBuilder_MeshOperations_ElementSelection_$$c__DisplayClass26_0SizeCheck;
+  static check_size<sizeof(ElementSelection::$$c__DisplayClass26_0), 32 + sizeof(::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, bool>*)> __UnityEngine_ProBuilder_MeshOperations_ElementSelection_$$c__DisplayClass26_0SizeCheck;
   static_assert(sizeof(ElementSelection::$$c__DisplayClass26_0) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass26_0::$FindHoles$b__1
 // Il2CppName: <FindHoles>b__1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass26_0::*)(UnityEngine::ProBuilder::WingedEdge*)>(&UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass26_0::$FindHoles$b__1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass26_0::*)(::UnityEngine::ProBuilder::WingedEdge*)>(&UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass26_0::$FindHoles$b__1)> {
   static const MethodInfo* get() {
     static auto* w = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "WingedEdge")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass26_0*), "<FindHoles>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{w});
@@ -110,7 +110,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass26_0::$FindHoles$b__2
 // Il2CppName: <FindHoles>b__2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass26_0::*)(UnityEngine::ProBuilder::WingedEdge*)>(&UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass26_0::$FindHoles$b__2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass26_0::*)(::UnityEngine::ProBuilder::WingedEdge*)>(&UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass26_0::$FindHoles$b__2)> {
   static const MethodInfo* get() {
     static auto* w = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "WingedEdge")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass26_0*), "<FindHoles>b__2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{w});

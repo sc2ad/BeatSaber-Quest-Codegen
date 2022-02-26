@@ -17,8 +17,8 @@ namespace Microsoft::Win32 {
   class ExpandString;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Microsoft::Win32::ExpandString);
-DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::ExpandString*, "Microsoft.Win32", "ExpandString");
+NEED_NO_BOX(::Microsoft::Win32::ExpandString);
+DEFINE_IL2CPP_ARG_TYPE(::Microsoft::Win32::ExpandString*, "Microsoft.Win32", "ExpandString");
 // Type namespace: Microsoft.Win32
 namespace Microsoft::Win32 {
   // Size: 0x18
@@ -53,7 +53,7 @@ namespace Microsoft::Win32 {
     // Offset: 0x1E5F914
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExpandString* New_ctor(::StringW s) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Microsoft::Win32::ExpandString::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Microsoft::Win32::ExpandString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExpandString*, creationType>(s)));
     }
     // public System.String Expand()

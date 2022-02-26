@@ -30,8 +30,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Utilities::DynamicUtils::BinderWrapper);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::DynamicUtils::BinderWrapper*, "Newtonsoft.Json.Utilities", "DynamicUtils/BinderWrapper");
+NEED_NO_BOX(::Newtonsoft::Json::Utilities::DynamicUtils::BinderWrapper);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::DynamicUtils::BinderWrapper*, "Newtonsoft.Json.Utilities", "DynamicUtils/BinderWrapper");
 // Type namespace: Newtonsoft.Json.Utilities
 namespace Newtonsoft::Json::Utilities {
   // Size: 0x10
@@ -53,14 +53,14 @@ namespace Newtonsoft::Json::Utilities {
     static void _set__setCSharpArgumentInfoArray(::Il2CppObject* value);
     // [NullableAttribute] Offset: 0x12047D0
     // Get static field: static private Newtonsoft.Json.Utilities.MethodCall`2<System.Object,System.Object> _getMemberCall
-    static Newtonsoft::Json::Utilities::MethodCall_2<::Il2CppObject*, ::Il2CppObject*>* _get__getMemberCall();
+    static ::Newtonsoft::Json::Utilities::MethodCall_2<::Il2CppObject*, ::Il2CppObject*>* _get__getMemberCall();
     // Set static field: static private Newtonsoft.Json.Utilities.MethodCall`2<System.Object,System.Object> _getMemberCall
-    static void _set__getMemberCall(Newtonsoft::Json::Utilities::MethodCall_2<::Il2CppObject*, ::Il2CppObject*>* value);
+    static void _set__getMemberCall(::Newtonsoft::Json::Utilities::MethodCall_2<::Il2CppObject*, ::Il2CppObject*>* value);
     // [NullableAttribute] Offset: 0x12047E4
     // Get static field: static private Newtonsoft.Json.Utilities.MethodCall`2<System.Object,System.Object> _setMemberCall
-    static Newtonsoft::Json::Utilities::MethodCall_2<::Il2CppObject*, ::Il2CppObject*>* _get__setMemberCall();
+    static ::Newtonsoft::Json::Utilities::MethodCall_2<::Il2CppObject*, ::Il2CppObject*>* _get__setMemberCall();
     // Set static field: static private Newtonsoft.Json.Utilities.MethodCall`2<System.Object,System.Object> _setMemberCall
-    static void _set__setMemberCall(Newtonsoft::Json::Utilities::MethodCall_2<::Il2CppObject*, ::Il2CppObject*>* value);
+    static void _set__setMemberCall(::Newtonsoft::Json::Utilities::MethodCall_2<::Il2CppObject*, ::Il2CppObject*>* value);
     // Get static field: static private System.Boolean _init
     static bool _get__init();
     // Set static field: static private System.Boolean _init
@@ -76,10 +76,10 @@ namespace Newtonsoft::Json::Utilities {
     static void CreateMemberCalls();
     // static public System.Runtime.CompilerServices.CallSiteBinder GetMember(System.String name, System.Type context)
     // Offset: 0x19E2CAC
-    static System::Runtime::CompilerServices::CallSiteBinder* GetMember(::StringW name, System::Type* context);
+    static ::System::Runtime::CompilerServices::CallSiteBinder* GetMember(::StringW name, ::System::Type* context);
     // static public System.Runtime.CompilerServices.CallSiteBinder SetMember(System.String name, System.Type context)
     // Offset: 0x19E2E78
-    static System::Runtime::CompilerServices::CallSiteBinder* SetMember(::StringW name, System::Type* context);
+    static ::System::Runtime::CompilerServices::CallSiteBinder* SetMember(::StringW name, ::System::Type* context);
   }; // Newtonsoft.Json.Utilities.DynamicUtils/Newtonsoft.Json.Utilities.BinderWrapper
   #pragma pack(pop)
 }
@@ -112,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::DynamicUtils::BinderWrapper::GetMember
 // Il2CppName: GetMember
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::CompilerServices::CallSiteBinder* (*)(::StringW, System::Type*)>(&Newtonsoft::Json::Utilities::DynamicUtils::BinderWrapper::GetMember)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::CompilerServices::CallSiteBinder* (*)(::StringW, ::System::Type*)>(&Newtonsoft::Json::Utilities::DynamicUtils::BinderWrapper::GetMember)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::DynamicUtils::BinderWrapper::SetMember
 // Il2CppName: SetMember
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::CompilerServices::CallSiteBinder* (*)(::StringW, System::Type*)>(&Newtonsoft::Json::Utilities::DynamicUtils::BinderWrapper::SetMember)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::CompilerServices::CallSiteBinder* (*)(::StringW, ::System::Type*)>(&Newtonsoft::Json::Utilities::DynamicUtils::BinderWrapper::SetMember)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;

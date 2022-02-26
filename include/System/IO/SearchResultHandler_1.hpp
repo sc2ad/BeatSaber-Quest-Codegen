@@ -24,7 +24,7 @@ namespace System::IO {
   class SearchResultHandler_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::IO::SearchResultHandler_1, "System.IO", "SearchResultHandler`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::IO::SearchResultHandler_1, "System.IO", "SearchResultHandler`1");
 // Type namespace: System.IO
 namespace System::IO {
   // WARNING Size may be invalid!
@@ -35,15 +35,15 @@ namespace System::IO {
     public:
     // System.Boolean IsResultIncluded(System.IO.SearchResult result)
     // Offset: 0xFFFFFFFF
-    bool IsResultIncluded(System::IO::SearchResult* result) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::SearchResultHandler_1::IsResultIncluded");
+    bool IsResultIncluded(::System::IO::SearchResult* result) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::IO::SearchResultHandler_1::IsResultIncluded");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "IsResultIncluded", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, result);
     }
     // TSource CreateObject(System.IO.SearchResult result)
     // Offset: 0xFFFFFFFF
-    TSource CreateObject(System::IO::SearchResult* result) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::SearchResultHandler_1::CreateObject");
+    TSource CreateObject(::System::IO::SearchResult* result) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::IO::SearchResultHandler_1::CreateObject");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateObject", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(result)})));
       return ::il2cpp_utils::RunMethodRethrow<TSource, false>(this, ___internal__method, result);
     }
@@ -53,7 +53,7 @@ namespace System::IO {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SearchResultHandler_1<TSource>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::SearchResultHandler_1::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::IO::SearchResultHandler_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SearchResultHandler_1<TSource>*, creationType>()));
     }
   }; // System.IO.SearchResultHandler`1

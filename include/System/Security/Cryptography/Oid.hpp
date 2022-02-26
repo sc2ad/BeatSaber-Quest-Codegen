@@ -19,8 +19,8 @@ namespace System::Security::Cryptography {
   class Oid;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Security::Cryptography::Oid);
-DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::Oid*, "System.Security.Cryptography", "Oid");
+NEED_NO_BOX(::System::Security::Cryptography::Oid);
+DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::Oid*, "System.Security.Cryptography", "Oid");
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {
   // Size: 0x24
@@ -53,16 +53,16 @@ namespace System::Security::Cryptography {
     // private System.Security.Cryptography.OidGroup m_group
     // Size: 0x4
     // Offset: 0x20
-    System::Security::Cryptography::OidGroup m_group;
+    ::System::Security::Cryptography::OidGroup m_group;
     // Field size check
-    static_assert(sizeof(System::Security::Cryptography::OidGroup) == 0x4);
+    static_assert(sizeof(::System::Security::Cryptography::OidGroup) == 0x4);
     public:
     // Get instance field reference: private System.String m_value
     ::StringW& dyn_m_value();
     // Get instance field reference: private System.String m_friendlyName
     ::StringW& dyn_m_friendlyName();
     // Get instance field reference: private System.Security.Cryptography.OidGroup m_group
-    System::Security::Cryptography::OidGroup& dyn_m_group();
+    ::System::Security::Cryptography::OidGroup& dyn_m_group();
     // public System.String get_Value()
     // Offset: 0x1BE8800
     ::StringW get_Value();
@@ -76,28 +76,28 @@ namespace System::Security::Cryptography {
     // Offset: 0x1BE63A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Oid* New_ctor(::StringW oid) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::Oid::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::Oid::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Oid*, creationType>(oid)));
     }
     // System.Void .ctor(System.String oid, System.Security.Cryptography.OidGroup group, System.Boolean lookupFriendlyName)
     // Offset: 0x1BE8768
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Oid* New_ctor(::StringW oid, System::Security::Cryptography::OidGroup group, bool lookupFriendlyName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::Oid::.ctor");
+    static Oid* New_ctor(::StringW oid, ::System::Security::Cryptography::OidGroup group, bool lookupFriendlyName) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::Oid::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Oid*, creationType>(oid, group, lookupFriendlyName)));
     }
     // public System.Void .ctor(System.String value, System.String friendlyName)
     // Offset: 0x1BE87C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Oid* New_ctor(::StringW value, ::StringW friendlyName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::Oid::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::Oid::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Oid*, creationType>(value, friendlyName)));
     }
     // public System.Void .ctor(System.Security.Cryptography.Oid oid)
     // Offset: 0x1BE6584
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Oid* New_ctor(System::Security::Cryptography::Oid* oid) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::Oid::.ctor");
+    static Oid* New_ctor(::System::Security::Cryptography::Oid* oid) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::Oid::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Oid*, creationType>(oid)));
     }
     // public System.Void .ctor()
@@ -106,12 +106,12 @@ namespace System::Security::Cryptography {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Oid* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::Oid::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::Oid::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Oid*, creationType>()));
     }
   }; // System.Security.Cryptography.Oid
   #pragma pack(pop)
-  static check_size<sizeof(Oid), 32 + sizeof(System::Security::Cryptography::OidGroup)> __System_Security_Cryptography_OidSizeCheck;
+  static check_size<sizeof(Oid), 32 + sizeof(::System::Security::Cryptography::OidGroup)> __System_Security_Cryptography_OidSizeCheck;
   static_assert(sizeof(Oid) == 0x24);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

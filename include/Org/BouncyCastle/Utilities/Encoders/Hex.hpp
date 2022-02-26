@@ -21,8 +21,8 @@ namespace Org::BouncyCastle::Utilities::Encoders {
   class Hex;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Utilities::Encoders::Hex);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Encoders::Hex*, "Org.BouncyCastle.Utilities.Encoders", "Hex");
+NEED_NO_BOX(::Org::BouncyCastle::Utilities::Encoders::Hex);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Encoders::Hex*, "Org.BouncyCastle.Utilities.Encoders", "Hex");
 // Type namespace: Org.BouncyCastle.Utilities.Encoders
 namespace Org::BouncyCastle::Utilities::Encoders {
   // Size: 0x10
@@ -32,9 +32,9 @@ namespace Org::BouncyCastle::Utilities::Encoders {
   class Hex : public ::Il2CppObject {
     public:
     // Get static field: static private readonly Org.BouncyCastle.Utilities.Encoders.HexEncoder encoder
-    static Org::BouncyCastle::Utilities::Encoders::HexEncoder* _get_encoder();
+    static ::Org::BouncyCastle::Utilities::Encoders::HexEncoder* _get_encoder();
     // Set static field: static private readonly Org.BouncyCastle.Utilities.Encoders.HexEncoder encoder
-    static void _set_encoder(Org::BouncyCastle::Utilities::Encoders::HexEncoder* value);
+    static void _set_encoder(::Org::BouncyCastle::Utilities::Encoders::HexEncoder* value);
     // static private System.Void .cctor()
     // Offset: 0x25A5E14
     static void _cctor();

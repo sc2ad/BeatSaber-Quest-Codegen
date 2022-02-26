@@ -72,8 +72,8 @@ namespace UnityEngine {
   class Mesh;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Mesh);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Mesh*, "UnityEngine", "Mesh");
+NEED_NO_BOX(::UnityEngine::Mesh);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Mesh*, "UnityEngine", "Mesh");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -82,14 +82,14 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NativeHeaderAttribute] Offset: 11A4C38
   // [RequiredByNativeCodeAttribute] Offset: 11A4C38
-  class Mesh : public UnityEngine::Object {
+  class Mesh : public ::UnityEngine::Object {
     public:
     // public UnityEngine.Rendering.IndexFormat get_indexFormat()
     // Offset: 0x2032A98
-    UnityEngine::Rendering::IndexFormat get_indexFormat();
+    ::UnityEngine::Rendering::IndexFormat get_indexFormat();
     // public System.Void set_indexFormat(UnityEngine.Rendering.IndexFormat value)
     // Offset: 0x2032AD8
-    void set_indexFormat(UnityEngine::Rendering::IndexFormat value);
+    void set_indexFormat(::UnityEngine::Rendering::IndexFormat value);
     // public System.Int32 get_vertexBufferCount()
     // Offset: 0x2033810
     int get_vertexBufferCount();
@@ -98,10 +98,10 @@ namespace UnityEngine {
     int get_blendShapeCount();
     // public UnityEngine.Matrix4x4[] get_bindposes()
     // Offset: 0x20340AC
-    ::ArrayW<UnityEngine::Matrix4x4> get_bindposes();
+    ::ArrayW<::UnityEngine::Matrix4x4> get_bindposes();
     // public System.Void set_bindposes(UnityEngine.Matrix4x4[] value)
     // Offset: 0x20340EC
-    void set_bindposes(::ArrayW<UnityEngine::Matrix4x4> value);
+    void set_bindposes(::ArrayW<::UnityEngine::Matrix4x4> value);
     // public System.Boolean get_isReadable()
     // Offset: 0x20341DC
     bool get_isReadable();
@@ -119,88 +119,88 @@ namespace UnityEngine {
     void set_subMeshCount(int value);
     // public UnityEngine.Bounds get_bounds()
     // Offset: 0x2034494
-    UnityEngine::Bounds get_bounds();
+    ::UnityEngine::Bounds get_bounds();
     // public System.Void set_bounds(UnityEngine.Bounds value)
     // Offset: 0x2034550
-    void set_bounds(UnityEngine::Bounds value);
+    void set_bounds(::UnityEngine::Bounds value);
     // public UnityEngine.Vector3[] get_vertices()
     // Offset: 0x2035000
-    ::ArrayW<UnityEngine::Vector3> get_vertices();
+    ::ArrayW<::UnityEngine::Vector3> get_vertices();
     // public System.Void set_vertices(UnityEngine.Vector3[] value)
     // Offset: 0x2035054
-    void set_vertices(::ArrayW<UnityEngine::Vector3> value);
+    void set_vertices(::ArrayW<::UnityEngine::Vector3> value);
     // public UnityEngine.Vector3[] get_normals()
     // Offset: 0x20350B8
-    ::ArrayW<UnityEngine::Vector3> get_normals();
+    ::ArrayW<::UnityEngine::Vector3> get_normals();
     // public System.Void set_normals(UnityEngine.Vector3[] value)
     // Offset: 0x203510C
-    void set_normals(::ArrayW<UnityEngine::Vector3> value);
+    void set_normals(::ArrayW<::UnityEngine::Vector3> value);
     // public UnityEngine.Vector4[] get_tangents()
     // Offset: 0x2035170
-    ::ArrayW<UnityEngine::Vector4> get_tangents();
+    ::ArrayW<::UnityEngine::Vector4> get_tangents();
     // public System.Void set_tangents(UnityEngine.Vector4[] value)
     // Offset: 0x20351C4
-    void set_tangents(::ArrayW<UnityEngine::Vector4> value);
+    void set_tangents(::ArrayW<::UnityEngine::Vector4> value);
     // public UnityEngine.Vector2[] get_uv()
     // Offset: 0x2035228
-    ::ArrayW<UnityEngine::Vector2> get_uv();
+    ::ArrayW<::UnityEngine::Vector2> get_uv();
     // public System.Void set_uv(UnityEngine.Vector2[] value)
     // Offset: 0x203527C
-    void set_uv(::ArrayW<UnityEngine::Vector2> value);
+    void set_uv(::ArrayW<::UnityEngine::Vector2> value);
     // public UnityEngine.Vector2[] get_uv2()
     // Offset: 0x20352E0
-    ::ArrayW<UnityEngine::Vector2> get_uv2();
+    ::ArrayW<::UnityEngine::Vector2> get_uv2();
     // public System.Void set_uv2(UnityEngine.Vector2[] value)
     // Offset: 0x2035334
-    void set_uv2(::ArrayW<UnityEngine::Vector2> value);
+    void set_uv2(::ArrayW<::UnityEngine::Vector2> value);
     // public UnityEngine.Vector2[] get_uv3()
     // Offset: 0x2035398
-    ::ArrayW<UnityEngine::Vector2> get_uv3();
+    ::ArrayW<::UnityEngine::Vector2> get_uv3();
     // public System.Void set_uv3(UnityEngine.Vector2[] value)
     // Offset: 0x20353EC
-    void set_uv3(::ArrayW<UnityEngine::Vector2> value);
+    void set_uv3(::ArrayW<::UnityEngine::Vector2> value);
     // public UnityEngine.Vector2[] get_uv4()
     // Offset: 0x2035450
-    ::ArrayW<UnityEngine::Vector2> get_uv4();
+    ::ArrayW<::UnityEngine::Vector2> get_uv4();
     // public System.Void set_uv4(UnityEngine.Vector2[] value)
     // Offset: 0x20354A4
-    void set_uv4(::ArrayW<UnityEngine::Vector2> value);
+    void set_uv4(::ArrayW<::UnityEngine::Vector2> value);
     // public UnityEngine.Vector2[] get_uv5()
     // Offset: 0x2035508
-    ::ArrayW<UnityEngine::Vector2> get_uv5();
+    ::ArrayW<::UnityEngine::Vector2> get_uv5();
     // public System.Void set_uv5(UnityEngine.Vector2[] value)
     // Offset: 0x203555C
-    void set_uv5(::ArrayW<UnityEngine::Vector2> value);
+    void set_uv5(::ArrayW<::UnityEngine::Vector2> value);
     // public UnityEngine.Vector2[] get_uv6()
     // Offset: 0x20355C0
-    ::ArrayW<UnityEngine::Vector2> get_uv6();
+    ::ArrayW<::UnityEngine::Vector2> get_uv6();
     // public System.Void set_uv6(UnityEngine.Vector2[] value)
     // Offset: 0x2035614
-    void set_uv6(::ArrayW<UnityEngine::Vector2> value);
+    void set_uv6(::ArrayW<::UnityEngine::Vector2> value);
     // public UnityEngine.Vector2[] get_uv7()
     // Offset: 0x2035678
-    ::ArrayW<UnityEngine::Vector2> get_uv7();
+    ::ArrayW<::UnityEngine::Vector2> get_uv7();
     // public System.Void set_uv7(UnityEngine.Vector2[] value)
     // Offset: 0x20356CC
-    void set_uv7(::ArrayW<UnityEngine::Vector2> value);
+    void set_uv7(::ArrayW<::UnityEngine::Vector2> value);
     // public UnityEngine.Vector2[] get_uv8()
     // Offset: 0x2035730
-    ::ArrayW<UnityEngine::Vector2> get_uv8();
+    ::ArrayW<::UnityEngine::Vector2> get_uv8();
     // public System.Void set_uv8(UnityEngine.Vector2[] value)
     // Offset: 0x2035784
-    void set_uv8(::ArrayW<UnityEngine::Vector2> value);
+    void set_uv8(::ArrayW<::UnityEngine::Vector2> value);
     // public UnityEngine.Color[] get_colors()
     // Offset: 0x20357E8
-    ::ArrayW<UnityEngine::Color> get_colors();
+    ::ArrayW<::UnityEngine::Color> get_colors();
     // public System.Void set_colors(UnityEngine.Color[] value)
     // Offset: 0x203583C
-    void set_colors(::ArrayW<UnityEngine::Color> value);
+    void set_colors(::ArrayW<::UnityEngine::Color> value);
     // public UnityEngine.Color32[] get_colors32()
     // Offset: 0x20358A0
-    ::ArrayW<UnityEngine::Color32> get_colors32();
+    ::ArrayW<::UnityEngine::Color32> get_colors32();
     // public System.Void set_colors32(UnityEngine.Color32[] value)
     // Offset: 0x20358FC
-    void set_colors32(::ArrayW<UnityEngine::Color32> value);
+    void set_colors32(::ArrayW<::UnityEngine::Color32> value);
     // public System.Int32 get_vertexAttributeCount()
     // Offset: 0x2036E34
     int get_vertexAttributeCount();
@@ -212,49 +212,49 @@ namespace UnityEngine {
     void set_triangles(::ArrayW<int> value);
     // public UnityEngine.BoneWeight[] get_boneWeights()
     // Offset: 0x2038EB0
-    ::ArrayW<UnityEngine::BoneWeight> get_boneWeights();
+    ::ArrayW<::UnityEngine::BoneWeight> get_boneWeights();
     // public System.Void set_boneWeights(UnityEngine.BoneWeight[] value)
     // Offset: 0x2038EF0
-    void set_boneWeights(::ArrayW<UnityEngine::BoneWeight> value);
+    void set_boneWeights(::ArrayW<::UnityEngine::BoneWeight> value);
     // static private System.Void Internal_Create(UnityEngine.Mesh mono)
     // Offset: 0x2032988
-    static void Internal_Create(UnityEngine::Mesh* mono);
+    static void Internal_Create(::UnityEngine::Mesh* mono);
     // static UnityEngine.Mesh FromInstanceID(System.Int32 id)
     // Offset: 0x2032A58
-    static UnityEngine::Mesh* FromInstanceID(int id);
+    static ::UnityEngine::Mesh* FromInstanceID(int id);
     // public System.Void SetIndexBufferParams(System.Int32 indexCount, UnityEngine.Rendering.IndexFormat format)
     // Offset: 0x2032B28
-    void SetIndexBufferParams(int indexCount, UnityEngine::Rendering::IndexFormat format);
+    void SetIndexBufferParams(int indexCount, ::UnityEngine::Rendering::IndexFormat format);
     // private System.Void InternalSetIndexBufferData(System.IntPtr data, System.Int32 dataStart, System.Int32 meshBufferStart, System.Int32 count, System.Int32 elemSize, UnityEngine.Rendering.MeshUpdateFlags flags)
     // Offset: 0x2032B80
-    void InternalSetIndexBufferData(System::IntPtr data, int dataStart, int meshBufferStart, int count, int elemSize, UnityEngine::Rendering::MeshUpdateFlags flags);
+    void InternalSetIndexBufferData(::System::IntPtr data, int dataStart, int meshBufferStart, int count, int elemSize, ::UnityEngine::Rendering::MeshUpdateFlags flags);
     // private System.Void InternalSetIndexBufferDataFromArray(System.Array data, System.Int32 dataStart, System.Int32 meshBufferStart, System.Int32 count, System.Int32 elemSize, UnityEngine.Rendering.MeshUpdateFlags flags)
     // Offset: 0x2032C08
-    void InternalSetIndexBufferDataFromArray(System::Array* data, int dataStart, int meshBufferStart, int count, int elemSize, UnityEngine::Rendering::MeshUpdateFlags flags);
+    void InternalSetIndexBufferDataFromArray(::System::Array* data, int dataStart, int meshBufferStart, int count, int elemSize, ::UnityEngine::Rendering::MeshUpdateFlags flags);
     // public System.Void SetVertexBufferParams(System.Int32 vertexCount, params UnityEngine.Rendering.VertexAttributeDescriptor[] attributes)
     // Offset: 0x2032C90
-    void SetVertexBufferParams(int vertexCount, ::ArrayW<UnityEngine::Rendering::VertexAttributeDescriptor> attributes);
+    void SetVertexBufferParams(int vertexCount, ::ArrayW<::UnityEngine::Rendering::VertexAttributeDescriptor> attributes);
     // private System.Void InternalSetVertexBufferData(System.Int32 stream, System.IntPtr data, System.Int32 dataStart, System.Int32 meshBufferStart, System.Int32 count, System.Int32 elemSize, UnityEngine.Rendering.MeshUpdateFlags flags)
     // Offset: 0x2032CE8
-    void InternalSetVertexBufferData(int stream, System::IntPtr data, int dataStart, int meshBufferStart, int count, int elemSize, UnityEngine::Rendering::MeshUpdateFlags flags);
+    void InternalSetVertexBufferData(int stream, ::System::IntPtr data, int dataStart, int meshBufferStart, int count, int elemSize, ::UnityEngine::Rendering::MeshUpdateFlags flags);
     // private System.Void InternalSetVertexBufferDataFromArray(System.Int32 stream, System.Array data, System.Int32 dataStart, System.Int32 meshBufferStart, System.Int32 count, System.Int32 elemSize, UnityEngine.Rendering.MeshUpdateFlags flags)
     // Offset: 0x2032D80
-    void InternalSetVertexBufferDataFromArray(int stream, System::Array* data, int dataStart, int meshBufferStart, int count, int elemSize, UnityEngine::Rendering::MeshUpdateFlags flags);
+    void InternalSetVertexBufferDataFromArray(int stream, ::System::Array* data, int dataStart, int meshBufferStart, int count, int elemSize, ::UnityEngine::Rendering::MeshUpdateFlags flags);
     // private System.Array GetVertexAttributesAlloc()
     // Offset: 0x2032E18
-    System::Array* GetVertexAttributesAlloc();
+    ::System::Array* GetVertexAttributesAlloc();
     // private System.Int32 GetVertexAttributesArray(UnityEngine.Rendering.VertexAttributeDescriptor[] attributes)
     // Offset: 0x2032E58
-    int GetVertexAttributesArray(::ArrayW<UnityEngine::Rendering::VertexAttributeDescriptor> attributes);
+    int GetVertexAttributesArray(::ArrayW<::UnityEngine::Rendering::VertexAttributeDescriptor> attributes);
     // private System.Int32 GetVertexAttributesList(System.Collections.Generic.List`1<UnityEngine.Rendering.VertexAttributeDescriptor> attributes)
     // Offset: 0x2032EA8
-    int GetVertexAttributesList(System::Collections::Generic::List_1<UnityEngine::Rendering::VertexAttributeDescriptor>* attributes);
+    int GetVertexAttributesList(::System::Collections::Generic::List_1<::UnityEngine::Rendering::VertexAttributeDescriptor>* attributes);
     // private System.Int32 GetVertexAttributeCountImpl()
     // Offset: 0x2032EF8
     int GetVertexAttributeCountImpl();
     // public UnityEngine.Rendering.VertexAttributeDescriptor GetVertexAttribute(System.Int32 index)
     // Offset: 0x2032F38
-    UnityEngine::Rendering::VertexAttributeDescriptor GetVertexAttribute(int index);
+    ::UnityEngine::Rendering::VertexAttributeDescriptor GetVertexAttribute(int index);
     // private System.UInt32 GetIndexStartImpl(System.Int32 submesh)
     // Offset: 0x2032FF8
     uint GetIndexStartImpl(int submesh);
@@ -275,10 +275,10 @@ namespace UnityEngine {
     ::ArrayW<int> GetIndicesImpl(int submesh, bool applyBaseVertex);
     // private System.Void SetIndicesImpl(System.Int32 submesh, UnityEngine.MeshTopology topology, UnityEngine.Rendering.IndexFormat indicesFormat, System.Array indices, System.Int32 arrayStart, System.Int32 arraySize, System.Boolean calculateBounds, System.Int32 baseVertex)
     // Offset: 0x20331E8
-    void SetIndicesImpl(int submesh, UnityEngine::MeshTopology topology, UnityEngine::Rendering::IndexFormat indicesFormat, System::Array* indices, int arrayStart, int arraySize, bool calculateBounds, int baseVertex);
+    void SetIndicesImpl(int submesh, ::UnityEngine::MeshTopology topology, ::UnityEngine::Rendering::IndexFormat indicesFormat, ::System::Array* indices, int arrayStart, int arraySize, bool calculateBounds, int baseVertex);
     // private System.Void SetIndicesNativeArrayImpl(System.Int32 submesh, UnityEngine.MeshTopology topology, UnityEngine.Rendering.IndexFormat indicesFormat, System.IntPtr indices, System.Int32 arrayStart, System.Int32 arraySize, System.Boolean calculateBounds, System.Int32 baseVertex)
     // Offset: 0x2033288
-    void SetIndicesNativeArrayImpl(int submesh, UnityEngine::MeshTopology topology, UnityEngine::Rendering::IndexFormat indicesFormat, System::IntPtr indices, int arrayStart, int arraySize, bool calculateBounds, int baseVertex);
+    void SetIndicesNativeArrayImpl(int submesh, ::UnityEngine::MeshTopology topology, ::UnityEngine::Rendering::IndexFormat indicesFormat, ::System::IntPtr indices, int arrayStart, int arraySize, bool calculateBounds, int baseVertex);
     // private System.Void GetTrianglesNonAllocImpl(out System.Int32[] values, System.Int32 submesh, System.Boolean applyBaseVertex)
     // Offset: 0x2033328
     void GetTrianglesNonAllocImpl(ByRef<::ArrayW<int>> values, int submesh, bool applyBaseVertex);
@@ -293,34 +293,34 @@ namespace UnityEngine {
     void GetIndicesNonAllocImpl16(ByRef<::ArrayW<uint16_t>> values, int submesh, bool applyBaseVertex);
     // private System.Void PrintErrorCantAccessChannel(UnityEngine.Rendering.VertexAttribute ch)
     // Offset: 0x20334C8
-    void PrintErrorCantAccessChannel(UnityEngine::Rendering::VertexAttribute ch);
+    void PrintErrorCantAccessChannel(::UnityEngine::Rendering::VertexAttribute ch);
     // public System.Boolean HasVertexAttribute(UnityEngine.Rendering.VertexAttribute attr)
     // Offset: 0x2033518
-    bool HasVertexAttribute(UnityEngine::Rendering::VertexAttribute attr);
+    bool HasVertexAttribute(::UnityEngine::Rendering::VertexAttribute attr);
     // public System.Int32 GetVertexAttributeDimension(UnityEngine.Rendering.VertexAttribute attr)
     // Offset: 0x2033568
-    int GetVertexAttributeDimension(UnityEngine::Rendering::VertexAttribute attr);
+    int GetVertexAttributeDimension(::UnityEngine::Rendering::VertexAttribute attr);
     // public UnityEngine.Rendering.VertexAttributeFormat GetVertexAttributeFormat(UnityEngine.Rendering.VertexAttribute attr)
     // Offset: 0x20335B8
-    UnityEngine::Rendering::VertexAttributeFormat GetVertexAttributeFormat(UnityEngine::Rendering::VertexAttribute attr);
+    ::UnityEngine::Rendering::VertexAttributeFormat GetVertexAttributeFormat(::UnityEngine::Rendering::VertexAttribute attr);
     // private System.Void SetArrayForChannelImpl(UnityEngine.Rendering.VertexAttribute channel, UnityEngine.Rendering.VertexAttributeFormat format, System.Int32 dim, System.Array values, System.Int32 arraySize, System.Int32 valuesStart, System.Int32 valuesCount)
     // Offset: 0x2033608
-    void SetArrayForChannelImpl(UnityEngine::Rendering::VertexAttribute channel, UnityEngine::Rendering::VertexAttributeFormat format, int dim, System::Array* values, int arraySize, int valuesStart, int valuesCount);
+    void SetArrayForChannelImpl(::UnityEngine::Rendering::VertexAttribute channel, ::UnityEngine::Rendering::VertexAttributeFormat format, int dim, ::System::Array* values, int arraySize, int valuesStart, int valuesCount);
     // private System.Void SetNativeArrayForChannelImpl(UnityEngine.Rendering.VertexAttribute channel, UnityEngine.Rendering.VertexAttributeFormat format, System.Int32 dim, System.IntPtr values, System.Int32 arraySize, System.Int32 valuesStart, System.Int32 valuesCount)
     // Offset: 0x20336A0
-    void SetNativeArrayForChannelImpl(UnityEngine::Rendering::VertexAttribute channel, UnityEngine::Rendering::VertexAttributeFormat format, int dim, System::IntPtr values, int arraySize, int valuesStart, int valuesCount);
+    void SetNativeArrayForChannelImpl(::UnityEngine::Rendering::VertexAttribute channel, ::UnityEngine::Rendering::VertexAttributeFormat format, int dim, ::System::IntPtr values, int arraySize, int valuesStart, int valuesCount);
     // private System.Array GetAllocArrayFromChannelImpl(UnityEngine.Rendering.VertexAttribute channel, UnityEngine.Rendering.VertexAttributeFormat format, System.Int32 dim)
     // Offset: 0x2033738
-    System::Array* GetAllocArrayFromChannelImpl(UnityEngine::Rendering::VertexAttribute channel, UnityEngine::Rendering::VertexAttributeFormat format, int dim);
+    ::System::Array* GetAllocArrayFromChannelImpl(::UnityEngine::Rendering::VertexAttribute channel, ::UnityEngine::Rendering::VertexAttributeFormat format, int dim);
     // private System.Void GetArrayFromChannelImpl(UnityEngine.Rendering.VertexAttribute channel, UnityEngine.Rendering.VertexAttributeFormat format, System.Int32 dim, System.Array values)
     // Offset: 0x20337A0
-    void GetArrayFromChannelImpl(UnityEngine::Rendering::VertexAttribute channel, UnityEngine::Rendering::VertexAttributeFormat format, int dim, System::Array* values);
+    void GetArrayFromChannelImpl(::UnityEngine::Rendering::VertexAttribute channel, ::UnityEngine::Rendering::VertexAttributeFormat format, int dim, ::System::Array* values);
     // public System.IntPtr GetNativeVertexBufferPtr(System.Int32 index)
     // Offset: 0x2033850
-    System::IntPtr GetNativeVertexBufferPtr(int index);
+    ::System::IntPtr GetNativeVertexBufferPtr(int index);
     // public System.IntPtr GetNativeIndexBufferPtr()
     // Offset: 0x20338A0
-    System::IntPtr GetNativeIndexBufferPtr();
+    ::System::IntPtr GetNativeIndexBufferPtr();
     // public System.Void ClearBlendShapes()
     // Offset: 0x2033920
     void ClearBlendShapes();
@@ -338,55 +338,55 @@ namespace UnityEngine {
     float GetBlendShapeFrameWeight(int shapeIndex, int frameIndex);
     // public System.Void GetBlendShapeFrameVertices(System.Int32 shapeIndex, System.Int32 frameIndex, UnityEngine.Vector3[] deltaVertices, UnityEngine.Vector3[] deltaNormals, UnityEngine.Vector3[] deltaTangents)
     // Offset: 0x2033AA8
-    void GetBlendShapeFrameVertices(int shapeIndex, int frameIndex, ::ArrayW<UnityEngine::Vector3> deltaVertices, ::ArrayW<UnityEngine::Vector3> deltaNormals, ::ArrayW<UnityEngine::Vector3> deltaTangents);
+    void GetBlendShapeFrameVertices(int shapeIndex, int frameIndex, ::ArrayW<::UnityEngine::Vector3> deltaVertices, ::ArrayW<::UnityEngine::Vector3> deltaNormals, ::ArrayW<::UnityEngine::Vector3> deltaTangents);
     // public System.Void AddBlendShapeFrame(System.String shapeName, System.Single frameWeight, UnityEngine.Vector3[] deltaVertices, UnityEngine.Vector3[] deltaNormals, UnityEngine.Vector3[] deltaTangents)
     // Offset: 0x2033B28
-    void AddBlendShapeFrame(::StringW shapeName, float frameWeight, ::ArrayW<UnityEngine::Vector3> deltaVertices, ::ArrayW<UnityEngine::Vector3> deltaNormals, ::ArrayW<UnityEngine::Vector3> deltaTangents);
+    void AddBlendShapeFrame(::StringW shapeName, float frameWeight, ::ArrayW<::UnityEngine::Vector3> deltaVertices, ::ArrayW<::UnityEngine::Vector3> deltaNormals, ::ArrayW<::UnityEngine::Vector3> deltaTangents);
     // private System.Boolean HasBoneWeights()
     // Offset: 0x2033BA8
     bool HasBoneWeights();
     // private UnityEngine.BoneWeight[] GetBoneWeightsImpl()
     // Offset: 0x2033BE8
-    ::ArrayW<UnityEngine::BoneWeight> GetBoneWeightsImpl();
+    ::ArrayW<::UnityEngine::BoneWeight> GetBoneWeightsImpl();
     // private System.Void SetBoneWeightsImpl(UnityEngine.BoneWeight[] weights)
     // Offset: 0x2033C28
-    void SetBoneWeightsImpl(::ArrayW<UnityEngine::BoneWeight> weights);
+    void SetBoneWeightsImpl(::ArrayW<::UnityEngine::BoneWeight> weights);
     // public System.Void SetBoneWeights(Unity.Collections.NativeArray`1<System.Byte> bonesPerVertex, Unity.Collections.NativeArray`1<UnityEngine.BoneWeight1> weights)
     // Offset: 0x2033C78
-    void SetBoneWeights(Unity::Collections::NativeArray_1<uint8_t> bonesPerVertex, Unity::Collections::NativeArray_1<UnityEngine::BoneWeight1> weights);
+    void SetBoneWeights(::Unity::Collections::NativeArray_1<uint8_t> bonesPerVertex, ::Unity::Collections::NativeArray_1<::UnityEngine::BoneWeight1> weights);
     // private System.Void InternalSetBoneWeights(System.IntPtr bonesPerVertex, System.Int32 bonesPerVertexSize, System.IntPtr weights, System.Int32 weightsSize)
     // Offset: 0x2033D54
-    void InternalSetBoneWeights(System::IntPtr bonesPerVertex, int bonesPerVertexSize, System::IntPtr weights, int weightsSize);
+    void InternalSetBoneWeights(::System::IntPtr bonesPerVertex, int bonesPerVertexSize, ::System::IntPtr weights, int weightsSize);
     // public Unity.Collections.NativeArray`1<UnityEngine.BoneWeight1> GetAllBoneWeights()
     // Offset: 0x2033DC4
-    Unity::Collections::NativeArray_1<UnityEngine::BoneWeight1> GetAllBoneWeights();
+    ::Unity::Collections::NativeArray_1<::UnityEngine::BoneWeight1> GetAllBoneWeights();
     // public Unity.Collections.NativeArray`1<System.Byte> GetBonesPerVertex()
     // Offset: 0x2033F00
-    Unity::Collections::NativeArray_1<uint8_t> GetBonesPerVertex();
+    ::Unity::Collections::NativeArray_1<uint8_t> GetBonesPerVertex();
     // private System.Int32 GetAllBoneWeightsArraySize()
     // Offset: 0x2033EC0
     int GetAllBoneWeightsArraySize();
     // private System.IntPtr GetAllBoneWeightsArray()
     // Offset: 0x2033E80
-    System::IntPtr GetAllBoneWeightsArray();
+    ::System::IntPtr GetAllBoneWeightsArray();
     // private System.IntPtr GetBonesPerVertexArray()
     // Offset: 0x203402C
-    System::IntPtr GetBonesPerVertexArray();
+    ::System::IntPtr GetBonesPerVertexArray();
     // private System.Int32 GetBindposeCount()
     // Offset: 0x203406C
     int GetBindposeCount();
     // private System.Void GetBoneWeightsNonAllocImpl(out UnityEngine.BoneWeight[] values)
     // Offset: 0x203413C
-    void GetBoneWeightsNonAllocImpl(ByRef<::ArrayW<UnityEngine::BoneWeight>> values);
+    void GetBoneWeightsNonAllocImpl(ByRef<::ArrayW<::UnityEngine::BoneWeight>> values);
     // private System.Void GetBindposesNonAllocImpl(out UnityEngine.Matrix4x4[] values)
     // Offset: 0x203418C
-    void GetBindposesNonAllocImpl(ByRef<::ArrayW<UnityEngine::Matrix4x4>> values);
+    void GetBindposesNonAllocImpl(ByRef<::ArrayW<::UnityEngine::Matrix4x4>> values);
     // public System.Void SetSubMesh(System.Int32 index, UnityEngine.Rendering.SubMeshDescriptor desc, UnityEngine.Rendering.MeshUpdateFlags flags)
     // Offset: 0x20342EC
-    void SetSubMesh(int index, UnityEngine::Rendering::SubMeshDescriptor desc, UnityEngine::Rendering::MeshUpdateFlags flags);
+    void SetSubMesh(int index, ::UnityEngine::Rendering::SubMeshDescriptor desc, ::UnityEngine::Rendering::MeshUpdateFlags flags);
     // public UnityEngine.Rendering.SubMeshDescriptor GetSubMesh(System.Int32 index)
     // Offset: 0x20343BC
-    UnityEngine::Rendering::SubMeshDescriptor GetSubMesh(int index);
+    ::UnityEngine::Rendering::SubMeshDescriptor GetSubMesh(int index);
     // private System.Void ClearImpl(System.Boolean keepVertexLayout)
     // Offset: 0x20345F0
     void ClearImpl(bool keepVertexLayout);
@@ -410,13 +410,13 @@ namespace UnityEngine {
     void UploadMeshDataImpl(bool markNoLongerReadable);
     // private UnityEngine.MeshTopology GetTopologyImpl(System.Int32 submesh)
     // Offset: 0x20347D0
-    UnityEngine::MeshTopology GetTopologyImpl(int submesh);
+    ::UnityEngine::MeshTopology GetTopologyImpl(int submesh);
     // public System.Single GetUVDistributionMetric(System.Int32 uvSetIndex)
     // Offset: 0x2034820
     float GetUVDistributionMetric(int uvSetIndex);
     // private System.Void CombineMeshesImpl(UnityEngine.CombineInstance[] combine, System.Boolean mergeSubMeshes, System.Boolean useMatrices, System.Boolean hasLightmapData)
     // Offset: 0x2034870
-    void CombineMeshesImpl(::ArrayW<UnityEngine::CombineInstance> combine, bool mergeSubMeshes, bool useMatrices, bool hasLightmapData);
+    void CombineMeshesImpl(::ArrayW<::UnityEngine::CombineInstance> combine, bool mergeSubMeshes, bool useMatrices, bool hasLightmapData);
     // private System.Void OptimizeImpl()
     // Offset: 0x20348E0
     void OptimizeImpl();
@@ -428,15 +428,15 @@ namespace UnityEngine {
     void OptimizeReorderVertexBufferImpl();
     // UnityEngine.Rendering.VertexAttribute GetUVChannel(System.Int32 uvIndex)
     // Offset: 0x20349A0
-    UnityEngine::Rendering::VertexAttribute GetUVChannel(int uvIndex);
+    ::UnityEngine::Rendering::VertexAttribute GetUVChannel(int uvIndex);
     // static System.Int32 DefaultDimensionForChannel(UnityEngine.Rendering.VertexAttribute channel)
     // Offset: 0x2034A34
-    static int DefaultDimensionForChannel(UnityEngine::Rendering::VertexAttribute channel);
+    static int DefaultDimensionForChannel(::UnityEngine::Rendering::VertexAttribute channel);
     // private T[] GetAllocArrayFromChannel(UnityEngine.Rendering.VertexAttribute channel, UnityEngine.Rendering.VertexAttributeFormat format, System.Int32 dim)
     // Offset: 0xFFFFFFFF
     template<class T>
-    ::ArrayW<T> GetAllocArrayFromChannel(UnityEngine::Rendering::VertexAttribute channel, UnityEngine::Rendering::VertexAttributeFormat format, int dim) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::GetAllocArrayFromChannel");
+    ::ArrayW<T> GetAllocArrayFromChannel(::UnityEngine::Rendering::VertexAttribute channel, ::UnityEngine::Rendering::VertexAttributeFormat format, int dim) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Mesh::GetAllocArrayFromChannel");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetAllocArrayFromChannel", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(channel), ::il2cpp_utils::ExtractType(format), ::il2cpp_utils::ExtractType(dim)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<T>, false>(this, ___generic__method, channel, format, dim);
@@ -444,23 +444,23 @@ namespace UnityEngine {
     // private T[] GetAllocArrayFromChannel(UnityEngine.Rendering.VertexAttribute channel)
     // Offset: 0xFFFFFFFF
     template<class T>
-    ::ArrayW<T> GetAllocArrayFromChannel(UnityEngine::Rendering::VertexAttribute channel) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::GetAllocArrayFromChannel");
+    ::ArrayW<T> GetAllocArrayFromChannel(::UnityEngine::Rendering::VertexAttribute channel) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Mesh::GetAllocArrayFromChannel");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetAllocArrayFromChannel", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(channel)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<T>, false>(this, ___generic__method, channel);
     }
     // private System.Void SetSizedArrayForChannel(UnityEngine.Rendering.VertexAttribute channel, UnityEngine.Rendering.VertexAttributeFormat format, System.Int32 dim, System.Array values, System.Int32 valuesArrayLength, System.Int32 valuesStart, System.Int32 valuesCount)
     // Offset: 0x2034AF0
-    void SetSizedArrayForChannel(UnityEngine::Rendering::VertexAttribute channel, UnityEngine::Rendering::VertexAttributeFormat format, int dim, System::Array* values, int valuesArrayLength, int valuesStart, int valuesCount);
+    void SetSizedArrayForChannel(::UnityEngine::Rendering::VertexAttribute channel, ::UnityEngine::Rendering::VertexAttributeFormat format, int dim, ::System::Array* values, int valuesArrayLength, int valuesStart, int valuesCount);
     // private System.Void SetSizedNativeArrayForChannel(UnityEngine.Rendering.VertexAttribute channel, UnityEngine.Rendering.VertexAttributeFormat format, System.Int32 dim, System.IntPtr values, System.Int32 valuesArrayLength, System.Int32 valuesStart, System.Int32 valuesCount)
     // Offset: 0x2034D7C
-    void SetSizedNativeArrayForChannel(UnityEngine::Rendering::VertexAttribute channel, UnityEngine::Rendering::VertexAttributeFormat format, int dim, System::IntPtr values, int valuesArrayLength, int valuesStart, int valuesCount);
+    void SetSizedNativeArrayForChannel(::UnityEngine::Rendering::VertexAttribute channel, ::UnityEngine::Rendering::VertexAttributeFormat format, int dim, ::System::IntPtr values, int valuesArrayLength, int valuesStart, int valuesCount);
     // private System.Void SetArrayForChannel(UnityEngine.Rendering.VertexAttribute channel, UnityEngine.Rendering.VertexAttributeFormat format, System.Int32 dim, T[] values)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void SetArrayForChannel(UnityEngine::Rendering::VertexAttribute channel, UnityEngine::Rendering::VertexAttributeFormat format, int dim, ::ArrayW<T> values) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::SetArrayForChannel");
+    void SetArrayForChannel(::UnityEngine::Rendering::VertexAttribute channel, ::UnityEngine::Rendering::VertexAttributeFormat format, int dim, ::ArrayW<T> values) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Mesh::SetArrayForChannel");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetArrayForChannel", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(channel), ::il2cpp_utils::ExtractType(format), ::il2cpp_utils::ExtractType(dim), ::il2cpp_utils::ExtractType(values)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, channel, format, dim, values);
@@ -468,8 +468,8 @@ namespace UnityEngine {
     // private System.Void SetArrayForChannel(UnityEngine.Rendering.VertexAttribute channel, T[] values)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void SetArrayForChannel(UnityEngine::Rendering::VertexAttribute channel, ::ArrayW<T> values) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::SetArrayForChannel");
+    void SetArrayForChannel(::UnityEngine::Rendering::VertexAttribute channel, ::ArrayW<T> values) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Mesh::SetArrayForChannel");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetArrayForChannel", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(channel), ::il2cpp_utils::ExtractType(values)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, channel, values);
@@ -477,8 +477,8 @@ namespace UnityEngine {
     // private System.Void SetListForChannel(UnityEngine.Rendering.VertexAttribute channel, UnityEngine.Rendering.VertexAttributeFormat format, System.Int32 dim, System.Collections.Generic.List`1<T> values, System.Int32 start, System.Int32 length)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void SetListForChannel(UnityEngine::Rendering::VertexAttribute channel, UnityEngine::Rendering::VertexAttributeFormat format, int dim, System::Collections::Generic::List_1<T>* values, int start, int length) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::SetListForChannel");
+    void SetListForChannel(::UnityEngine::Rendering::VertexAttribute channel, ::UnityEngine::Rendering::VertexAttributeFormat format, int dim, ::System::Collections::Generic::List_1<T>* values, int start, int length) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Mesh::SetListForChannel");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetListForChannel", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(channel), ::il2cpp_utils::ExtractType(format), ::il2cpp_utils::ExtractType(dim), ::il2cpp_utils::ExtractType(values), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(length)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, channel, format, dim, values, start, length);
@@ -486,8 +486,8 @@ namespace UnityEngine {
     // private System.Void SetListForChannel(UnityEngine.Rendering.VertexAttribute channel, System.Collections.Generic.List`1<T> values, System.Int32 start, System.Int32 length)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void SetListForChannel(UnityEngine::Rendering::VertexAttribute channel, System::Collections::Generic::List_1<T>* values, int start, int length) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::SetListForChannel");
+    void SetListForChannel(::UnityEngine::Rendering::VertexAttribute channel, ::System::Collections::Generic::List_1<T>* values, int start, int length) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Mesh::SetListForChannel");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetListForChannel", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(channel), ::il2cpp_utils::ExtractType(values), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(length)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, channel, values, start, length);
@@ -495,8 +495,8 @@ namespace UnityEngine {
     // private System.Void GetListForChannel(System.Collections.Generic.List`1<T> buffer, System.Int32 capacity, UnityEngine.Rendering.VertexAttribute channel, System.Int32 dim)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void GetListForChannel(System::Collections::Generic::List_1<T>* buffer, int capacity, UnityEngine::Rendering::VertexAttribute channel, int dim) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::GetListForChannel");
+    void GetListForChannel(::System::Collections::Generic::List_1<T>* buffer, int capacity, ::UnityEngine::Rendering::VertexAttribute channel, int dim) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Mesh::GetListForChannel");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetListForChannel", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(buffer), ::il2cpp_utils::ExtractType(capacity), ::il2cpp_utils::ExtractType(channel), ::il2cpp_utils::ExtractType(dim)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, buffer, capacity, channel, dim);
@@ -504,33 +504,33 @@ namespace UnityEngine {
     // private System.Void GetListForChannel(System.Collections.Generic.List`1<T> buffer, System.Int32 capacity, UnityEngine.Rendering.VertexAttribute channel, System.Int32 dim, UnityEngine.Rendering.VertexAttributeFormat channelType)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void GetListForChannel(System::Collections::Generic::List_1<T>* buffer, int capacity, UnityEngine::Rendering::VertexAttribute channel, int dim, UnityEngine::Rendering::VertexAttributeFormat channelType) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::GetListForChannel");
+    void GetListForChannel(::System::Collections::Generic::List_1<T>* buffer, int capacity, ::UnityEngine::Rendering::VertexAttribute channel, int dim, ::UnityEngine::Rendering::VertexAttributeFormat channelType) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Mesh::GetListForChannel");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetListForChannel", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(buffer), ::il2cpp_utils::ExtractType(capacity), ::il2cpp_utils::ExtractType(channel), ::il2cpp_utils::ExtractType(dim), ::il2cpp_utils::ExtractType(channelType)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, buffer, capacity, channel, dim, channelType);
     }
     // public System.Void GetVertices(System.Collections.Generic.List`1<UnityEngine.Vector3> vertices)
     // Offset: 0x2035968
-    void GetVertices(System::Collections::Generic::List_1<UnityEngine::Vector3>* vertices);
+    void GetVertices(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* vertices);
     // public System.Void SetVertices(System.Collections.Generic.List`1<UnityEngine.Vector3> inVertices)
     // Offset: 0x2035A70
-    void SetVertices(System::Collections::Generic::List_1<UnityEngine::Vector3>* inVertices);
+    void SetVertices(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* inVertices);
     // public System.Void SetVertices(System.Collections.Generic.List`1<UnityEngine.Vector3> inVertices, System.Int32 start, System.Int32 length)
     // Offset: 0x2035AE0
-    void SetVertices(System::Collections::Generic::List_1<UnityEngine::Vector3>* inVertices, int start, int length);
+    void SetVertices(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* inVertices, int start, int length);
     // public System.Void SetVertices(UnityEngine.Vector3[] inVertices)
     // Offset: 0x2035B5C
-    void SetVertices(::ArrayW<UnityEngine::Vector3> inVertices);
+    void SetVertices(::ArrayW<::UnityEngine::Vector3> inVertices);
     // public System.Void SetVertices(UnityEngine.Vector3[] inVertices, System.Int32 start, System.Int32 length)
     // Offset: 0x2035BB4
-    void SetVertices(::ArrayW<UnityEngine::Vector3> inVertices, int start, int length);
+    void SetVertices(::ArrayW<::UnityEngine::Vector3> inVertices, int start, int length);
     // public System.Void SetVertices(Unity.Collections.NativeArray`1<T> inVertices)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void SetVertices(Unity::Collections::NativeArray_1<T> inVertices) {
-      static_assert(is_value_type_v<T>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::SetVertices");
+    void SetVertices(::Unity::Collections::NativeArray_1<T> inVertices) {
+      static_assert(std::is_convertible_v<T, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Mesh::SetVertices");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetVertices", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(inVertices)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, inVertices);
@@ -538,34 +538,34 @@ namespace UnityEngine {
     // public System.Void SetVertices(Unity.Collections.NativeArray`1<T> inVertices, System.Int32 start, System.Int32 length)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void SetVertices(Unity::Collections::NativeArray_1<T> inVertices, int start, int length) {
-      static_assert(is_value_type_v<T>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::SetVertices");
+    void SetVertices(::Unity::Collections::NativeArray_1<T> inVertices, int start, int length) {
+      static_assert(std::is_convertible_v<T, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Mesh::SetVertices");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetVertices", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(inVertices), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(length)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, inVertices, start, length);
     }
     // public System.Void GetNormals(System.Collections.Generic.List`1<UnityEngine.Vector3> normals)
     // Offset: 0x2035C54
-    void GetNormals(System::Collections::Generic::List_1<UnityEngine::Vector3>* normals);
+    void GetNormals(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* normals);
     // public System.Void SetNormals(System.Collections.Generic.List`1<UnityEngine.Vector3> inNormals)
     // Offset: 0x2035D5C
-    void SetNormals(System::Collections::Generic::List_1<UnityEngine::Vector3>* inNormals);
+    void SetNormals(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* inNormals);
     // public System.Void SetNormals(System.Collections.Generic.List`1<UnityEngine.Vector3> inNormals, System.Int32 start, System.Int32 length)
     // Offset: 0x2035DCC
-    void SetNormals(System::Collections::Generic::List_1<UnityEngine::Vector3>* inNormals, int start, int length);
+    void SetNormals(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* inNormals, int start, int length);
     // public System.Void SetNormals(UnityEngine.Vector3[] inNormals)
     // Offset: 0x2035E48
-    void SetNormals(::ArrayW<UnityEngine::Vector3> inNormals);
+    void SetNormals(::ArrayW<::UnityEngine::Vector3> inNormals);
     // public System.Void SetNormals(UnityEngine.Vector3[] inNormals, System.Int32 start, System.Int32 length)
     // Offset: 0x2035E90
-    void SetNormals(::ArrayW<UnityEngine::Vector3> inNormals, int start, int length);
+    void SetNormals(::ArrayW<::UnityEngine::Vector3> inNormals, int start, int length);
     // public System.Void SetNormals(Unity.Collections.NativeArray`1<T> inNormals)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void SetNormals(Unity::Collections::NativeArray_1<T> inNormals) {
-      static_assert(is_value_type_v<T>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::SetNormals");
+    void SetNormals(::Unity::Collections::NativeArray_1<T> inNormals) {
+      static_assert(std::is_convertible_v<T, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Mesh::SetNormals");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetNormals", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(inNormals)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, inNormals);
@@ -573,34 +573,34 @@ namespace UnityEngine {
     // public System.Void SetNormals(Unity.Collections.NativeArray`1<T> inNormals, System.Int32 start, System.Int32 length)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void SetNormals(Unity::Collections::NativeArray_1<T> inNormals, int start, int length) {
-      static_assert(is_value_type_v<T>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::SetNormals");
+    void SetNormals(::Unity::Collections::NativeArray_1<T> inNormals, int start, int length) {
+      static_assert(std::is_convertible_v<T, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Mesh::SetNormals");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetNormals", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(inNormals), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(length)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, inNormals, start, length);
     }
     // public System.Void GetTangents(System.Collections.Generic.List`1<UnityEngine.Vector4> tangents)
     // Offset: 0x2035F30
-    void GetTangents(System::Collections::Generic::List_1<UnityEngine::Vector4>* tangents);
+    void GetTangents(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* tangents);
     // public System.Void SetTangents(System.Collections.Generic.List`1<UnityEngine.Vector4> inTangents)
     // Offset: 0x2036038
-    void SetTangents(System::Collections::Generic::List_1<UnityEngine::Vector4>* inTangents);
+    void SetTangents(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* inTangents);
     // public System.Void SetTangents(System.Collections.Generic.List`1<UnityEngine.Vector4> inTangents, System.Int32 start, System.Int32 length)
     // Offset: 0x20360A8
-    void SetTangents(System::Collections::Generic::List_1<UnityEngine::Vector4>* inTangents, int start, int length);
+    void SetTangents(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* inTangents, int start, int length);
     // public System.Void SetTangents(UnityEngine.Vector4[] inTangents)
     // Offset: 0x2036124
-    void SetTangents(::ArrayW<UnityEngine::Vector4> inTangents);
+    void SetTangents(::ArrayW<::UnityEngine::Vector4> inTangents);
     // public System.Void SetTangents(UnityEngine.Vector4[] inTangents, System.Int32 start, System.Int32 length)
     // Offset: 0x203616C
-    void SetTangents(::ArrayW<UnityEngine::Vector4> inTangents, int start, int length);
+    void SetTangents(::ArrayW<::UnityEngine::Vector4> inTangents, int start, int length);
     // public System.Void SetTangents(Unity.Collections.NativeArray`1<T> inTangents)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void SetTangents(Unity::Collections::NativeArray_1<T> inTangents) {
-      static_assert(is_value_type_v<T>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::SetTangents");
+    void SetTangents(::Unity::Collections::NativeArray_1<T> inTangents) {
+      static_assert(std::is_convertible_v<T, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Mesh::SetTangents");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetTangents", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(inTangents)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, inTangents);
@@ -608,49 +608,49 @@ namespace UnityEngine {
     // public System.Void SetTangents(Unity.Collections.NativeArray`1<T> inTangents, System.Int32 start, System.Int32 length)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void SetTangents(Unity::Collections::NativeArray_1<T> inTangents, int start, int length) {
-      static_assert(is_value_type_v<T>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::SetTangents");
+    void SetTangents(::Unity::Collections::NativeArray_1<T> inTangents, int start, int length) {
+      static_assert(std::is_convertible_v<T, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Mesh::SetTangents");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetTangents", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(inTangents), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(length)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, inTangents, start, length);
     }
     // public System.Void GetColors(System.Collections.Generic.List`1<UnityEngine.Color> colors)
     // Offset: 0x203620C
-    void GetColors(System::Collections::Generic::List_1<UnityEngine::Color>* colors);
+    void GetColors(::System::Collections::Generic::List_1<::UnityEngine::Color>* colors);
     // public System.Void SetColors(System.Collections.Generic.List`1<UnityEngine.Color> inColors)
     // Offset: 0x2036314
-    void SetColors(System::Collections::Generic::List_1<UnityEngine::Color>* inColors);
+    void SetColors(::System::Collections::Generic::List_1<::UnityEngine::Color>* inColors);
     // public System.Void SetColors(System.Collections.Generic.List`1<UnityEngine.Color> inColors, System.Int32 start, System.Int32 length)
     // Offset: 0x2036384
-    void SetColors(System::Collections::Generic::List_1<UnityEngine::Color>* inColors, int start, int length);
+    void SetColors(::System::Collections::Generic::List_1<::UnityEngine::Color>* inColors, int start, int length);
     // public System.Void SetColors(UnityEngine.Color[] inColors)
     // Offset: 0x2036400
-    void SetColors(::ArrayW<UnityEngine::Color> inColors);
+    void SetColors(::ArrayW<::UnityEngine::Color> inColors);
     // public System.Void SetColors(UnityEngine.Color[] inColors, System.Int32 start, System.Int32 length)
     // Offset: 0x2036448
-    void SetColors(::ArrayW<UnityEngine::Color> inColors, int start, int length);
+    void SetColors(::ArrayW<::UnityEngine::Color> inColors, int start, int length);
     // public System.Void GetColors(System.Collections.Generic.List`1<UnityEngine.Color32> colors)
     // Offset: 0x20364E8
-    void GetColors(System::Collections::Generic::List_1<UnityEngine::Color32>* colors);
+    void GetColors(::System::Collections::Generic::List_1<::UnityEngine::Color32>* colors);
     // public System.Void SetColors(System.Collections.Generic.List`1<UnityEngine.Color32> inColors)
     // Offset: 0x20365CC
-    void SetColors(System::Collections::Generic::List_1<UnityEngine::Color32>* inColors);
+    void SetColors(::System::Collections::Generic::List_1<::UnityEngine::Color32>* inColors);
     // public System.Void SetColors(System.Collections.Generic.List`1<UnityEngine.Color32> inColors, System.Int32 start, System.Int32 length)
     // Offset: 0x203663C
-    void SetColors(System::Collections::Generic::List_1<UnityEngine::Color32>* inColors, int start, int length);
+    void SetColors(::System::Collections::Generic::List_1<::UnityEngine::Color32>* inColors, int start, int length);
     // public System.Void SetColors(UnityEngine.Color32[] inColors)
     // Offset: 0x20366C0
-    void SetColors(::ArrayW<UnityEngine::Color32> inColors);
+    void SetColors(::ArrayW<::UnityEngine::Color32> inColors);
     // public System.Void SetColors(UnityEngine.Color32[] inColors, System.Int32 start, System.Int32 length)
     // Offset: 0x2036708
-    void SetColors(::ArrayW<UnityEngine::Color32> inColors, int start, int length);
+    void SetColors(::ArrayW<::UnityEngine::Color32> inColors, int start, int length);
     // public System.Void SetColors(Unity.Collections.NativeArray`1<T> inColors)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void SetColors(Unity::Collections::NativeArray_1<T> inColors) {
-      static_assert(is_value_type_v<T>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::SetColors");
+    void SetColors(::Unity::Collections::NativeArray_1<T> inColors) {
+      static_assert(std::is_convertible_v<T, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Mesh::SetColors");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetColors", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(inColors)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, inColors);
@@ -658,9 +658,9 @@ namespace UnityEngine {
     // public System.Void SetColors(Unity.Collections.NativeArray`1<T> inColors, System.Int32 start, System.Int32 length)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void SetColors(Unity::Collections::NativeArray_1<T> inColors, int start, int length) {
-      static_assert(is_value_type_v<T>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::SetColors");
+    void SetColors(::Unity::Collections::NativeArray_1<T> inColors, int start, int length) {
+      static_assert(std::is_convertible_v<T, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Mesh::SetColors");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetColors", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(inColors), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(length)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, inColors, start, length);
@@ -668,57 +668,57 @@ namespace UnityEngine {
     // private System.Void SetUvsImpl(System.Int32 uvIndex, System.Int32 dim, System.Collections.Generic.List`1<T> uvs, System.Int32 start, System.Int32 length)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void SetUvsImpl(int uvIndex, int dim, System::Collections::Generic::List_1<T>* uvs, int start, int length) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::SetUvsImpl");
+    void SetUvsImpl(int uvIndex, int dim, ::System::Collections::Generic::List_1<T>* uvs, int start, int length) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Mesh::SetUvsImpl");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetUvsImpl", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(uvIndex), ::il2cpp_utils::ExtractType(dim), ::il2cpp_utils::ExtractType(uvs), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(length)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, uvIndex, dim, uvs, start, length);
     }
     // public System.Void SetUVs(System.Int32 channel, System.Collections.Generic.List`1<UnityEngine.Vector2> uvs)
     // Offset: 0x203677C
-    void SetUVs(int channel, System::Collections::Generic::List_1<UnityEngine::Vector2>* uvs);
+    void SetUVs(int channel, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* uvs);
     // public System.Void SetUVs(System.Int32 channel, System.Collections.Generic.List`1<UnityEngine.Vector3> uvs)
     // Offset: 0x2036878
-    void SetUVs(int channel, System::Collections::Generic::List_1<UnityEngine::Vector3>* uvs);
+    void SetUVs(int channel, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* uvs);
     // public System.Void SetUVs(System.Int32 channel, System.Collections.Generic.List`1<UnityEngine.Vector4> uvs)
     // Offset: 0x2036974
-    void SetUVs(int channel, System::Collections::Generic::List_1<UnityEngine::Vector4>* uvs);
+    void SetUVs(int channel, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* uvs);
     // public System.Void SetUVs(System.Int32 channel, System.Collections.Generic.List`1<UnityEngine.Vector2> uvs, System.Int32 start, System.Int32 length)
     // Offset: 0x20367F4
-    void SetUVs(int channel, System::Collections::Generic::List_1<UnityEngine::Vector2>* uvs, int start, int length);
+    void SetUVs(int channel, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* uvs, int start, int length);
     // public System.Void SetUVs(System.Int32 channel, System.Collections.Generic.List`1<UnityEngine.Vector3> uvs, System.Int32 start, System.Int32 length)
     // Offset: 0x20368F0
-    void SetUVs(int channel, System::Collections::Generic::List_1<UnityEngine::Vector3>* uvs, int start, int length);
+    void SetUVs(int channel, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* uvs, int start, int length);
     // public System.Void SetUVs(System.Int32 channel, System.Collections.Generic.List`1<UnityEngine.Vector4> uvs, System.Int32 start, System.Int32 length)
     // Offset: 0x20369EC
-    void SetUVs(int channel, System::Collections::Generic::List_1<UnityEngine::Vector4>* uvs, int start, int length);
+    void SetUVs(int channel, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* uvs, int start, int length);
     // private System.Void SetUvsImpl(System.Int32 uvIndex, System.Int32 dim, System.Array uvs, System.Int32 arrayStart, System.Int32 arraySize)
     // Offset: 0x2036A70
-    void SetUvsImpl(int uvIndex, int dim, System::Array* uvs, int arrayStart, int arraySize);
+    void SetUvsImpl(int uvIndex, int dim, ::System::Array* uvs, int arrayStart, int arraySize);
     // public System.Void SetUVs(System.Int32 channel, UnityEngine.Vector2[] uvs)
     // Offset: 0x2036BA0
-    void SetUVs(int channel, ::ArrayW<UnityEngine::Vector2> uvs);
+    void SetUVs(int channel, ::ArrayW<::UnityEngine::Vector2> uvs);
     // public System.Void SetUVs(System.Int32 channel, UnityEngine.Vector3[] uvs)
     // Offset: 0x2036C10
-    void SetUVs(int channel, ::ArrayW<UnityEngine::Vector3> uvs);
+    void SetUVs(int channel, ::ArrayW<::UnityEngine::Vector3> uvs);
     // public System.Void SetUVs(System.Int32 channel, UnityEngine.Vector4[] uvs)
     // Offset: 0x2036C80
-    void SetUVs(int channel, ::ArrayW<UnityEngine::Vector4> uvs);
+    void SetUVs(int channel, ::ArrayW<::UnityEngine::Vector4> uvs);
     // public System.Void SetUVs(System.Int32 channel, UnityEngine.Vector2[] uvs, System.Int32 start, System.Int32 length)
     // Offset: 0x2036BFC
-    void SetUVs(int channel, ::ArrayW<UnityEngine::Vector2> uvs, int start, int length);
+    void SetUVs(int channel, ::ArrayW<::UnityEngine::Vector2> uvs, int start, int length);
     // public System.Void SetUVs(System.Int32 channel, UnityEngine.Vector3[] uvs, System.Int32 start, System.Int32 length)
     // Offset: 0x2036C6C
-    void SetUVs(int channel, ::ArrayW<UnityEngine::Vector3> uvs, int start, int length);
+    void SetUVs(int channel, ::ArrayW<::UnityEngine::Vector3> uvs, int start, int length);
     // public System.Void SetUVs(System.Int32 channel, UnityEngine.Vector4[] uvs, System.Int32 start, System.Int32 length)
     // Offset: 0x2036CDC
-    void SetUVs(int channel, ::ArrayW<UnityEngine::Vector4> uvs, int start, int length);
+    void SetUVs(int channel, ::ArrayW<::UnityEngine::Vector4> uvs, int start, int length);
     // public System.Void SetUVs(System.Int32 channel, Unity.Collections.NativeArray`1<T> uvs)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void SetUVs(int channel, Unity::Collections::NativeArray_1<T> uvs) {
-      static_assert(is_value_type_v<T>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::SetUVs");
+    void SetUVs(int channel, ::Unity::Collections::NativeArray_1<T> uvs) {
+      static_assert(std::is_convertible_v<T, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Mesh::SetUVs");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetUVs", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(channel), ::il2cpp_utils::ExtractType(uvs)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, channel, uvs);
@@ -726,9 +726,9 @@ namespace UnityEngine {
     // public System.Void SetUVs(System.Int32 channel, Unity.Collections.NativeArray`1<T> uvs, System.Int32 start, System.Int32 length)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void SetUVs(int channel, Unity::Collections::NativeArray_1<T> uvs, int start, int length) {
-      static_assert(is_value_type_v<T>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::SetUVs");
+    void SetUVs(int channel, ::Unity::Collections::NativeArray_1<T> uvs, int start, int length) {
+      static_assert(std::is_convertible_v<T, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Mesh::SetUVs");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetUVs", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(channel), ::il2cpp_utils::ExtractType(uvs), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(length)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, channel, uvs, start, length);
@@ -736,36 +736,36 @@ namespace UnityEngine {
     // private System.Void GetUVsImpl(System.Int32 uvIndex, System.Collections.Generic.List`1<T> uvs, System.Int32 dim)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void GetUVsImpl(int uvIndex, System::Collections::Generic::List_1<T>* uvs, int dim) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::GetUVsImpl");
+    void GetUVsImpl(int uvIndex, ::System::Collections::Generic::List_1<T>* uvs, int dim) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Mesh::GetUVsImpl");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetUVsImpl", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(uvIndex), ::il2cpp_utils::ExtractType(uvs), ::il2cpp_utils::ExtractType(dim)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, uvIndex, uvs, dim);
     }
     // public System.Void GetUVs(System.Int32 channel, System.Collections.Generic.List`1<UnityEngine.Vector2> uvs)
     // Offset: 0x2036CF0
-    void GetUVs(int channel, System::Collections::Generic::List_1<UnityEngine::Vector2>* uvs);
+    void GetUVs(int channel, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* uvs);
     // public System.Void GetUVs(System.Int32 channel, System.Collections.Generic.List`1<UnityEngine.Vector3> uvs)
     // Offset: 0x2036D5C
-    void GetUVs(int channel, System::Collections::Generic::List_1<UnityEngine::Vector3>* uvs);
+    void GetUVs(int channel, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* uvs);
     // public System.Void GetUVs(System.Int32 channel, System.Collections.Generic.List`1<UnityEngine.Vector4> uvs)
     // Offset: 0x2036DC8
-    void GetUVs(int channel, System::Collections::Generic::List_1<UnityEngine::Vector4>* uvs);
+    void GetUVs(int channel, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* uvs);
     // public UnityEngine.Rendering.VertexAttributeDescriptor[] GetVertexAttributes()
     // Offset: 0x2036E74
-    ::ArrayW<UnityEngine::Rendering::VertexAttributeDescriptor> GetVertexAttributes();
+    ::ArrayW<::UnityEngine::Rendering::VertexAttributeDescriptor> GetVertexAttributes();
     // public System.Int32 GetVertexAttributes(UnityEngine.Rendering.VertexAttributeDescriptor[] attributes)
     // Offset: 0x2036F08
-    int GetVertexAttributes(::ArrayW<UnityEngine::Rendering::VertexAttributeDescriptor> attributes);
+    int GetVertexAttributes(::ArrayW<::UnityEngine::Rendering::VertexAttributeDescriptor> attributes);
     // public System.Int32 GetVertexAttributes(System.Collections.Generic.List`1<UnityEngine.Rendering.VertexAttributeDescriptor> attributes)
     // Offset: 0x2036F58
-    int GetVertexAttributes(System::Collections::Generic::List_1<UnityEngine::Rendering::VertexAttributeDescriptor>* attributes);
+    int GetVertexAttributes(::System::Collections::Generic::List_1<::UnityEngine::Rendering::VertexAttributeDescriptor>* attributes);
     // public System.Void SetVertexBufferData(Unity.Collections.NativeArray`1<T> data, System.Int32 dataStart, System.Int32 meshBufferStart, System.Int32 count, System.Int32 stream, UnityEngine.Rendering.MeshUpdateFlags flags)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void SetVertexBufferData(Unity::Collections::NativeArray_1<T> data, int dataStart, int meshBufferStart, int count, int stream, UnityEngine::Rendering::MeshUpdateFlags flags) {
-      static_assert(is_value_type_v<T>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::SetVertexBufferData");
+    void SetVertexBufferData(::Unity::Collections::NativeArray_1<T> data, int dataStart, int meshBufferStart, int count, int stream, ::UnityEngine::Rendering::MeshUpdateFlags flags) {
+      static_assert(std::is_convertible_v<T, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Mesh::SetVertexBufferData");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetVertexBufferData", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(data), ::il2cpp_utils::ExtractType(dataStart), ::il2cpp_utils::ExtractType(meshBufferStart), ::il2cpp_utils::ExtractType(count), ::il2cpp_utils::ExtractType(stream), ::il2cpp_utils::ExtractType(flags)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, data, dataStart, meshBufferStart, count, stream, flags);
@@ -773,9 +773,9 @@ namespace UnityEngine {
     // public System.Void SetVertexBufferData(T[] data, System.Int32 dataStart, System.Int32 meshBufferStart, System.Int32 count, System.Int32 stream, UnityEngine.Rendering.MeshUpdateFlags flags)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void SetVertexBufferData(::ArrayW<T> data, int dataStart, int meshBufferStart, int count, int stream, UnityEngine::Rendering::MeshUpdateFlags flags) {
-      static_assert(is_value_type_v<T>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::SetVertexBufferData");
+    void SetVertexBufferData(::ArrayW<T> data, int dataStart, int meshBufferStart, int count, int stream, ::UnityEngine::Rendering::MeshUpdateFlags flags) {
+      static_assert(std::is_convertible_v<T, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Mesh::SetVertexBufferData");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetVertexBufferData", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(data), ::il2cpp_utils::ExtractType(dataStart), ::il2cpp_utils::ExtractType(meshBufferStart), ::il2cpp_utils::ExtractType(count), ::il2cpp_utils::ExtractType(stream), ::il2cpp_utils::ExtractType(flags)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, data, dataStart, meshBufferStart, count, stream, flags);
@@ -783,9 +783,9 @@ namespace UnityEngine {
     // public System.Void SetVertexBufferData(System.Collections.Generic.List`1<T> data, System.Int32 dataStart, System.Int32 meshBufferStart, System.Int32 count, System.Int32 stream, UnityEngine.Rendering.MeshUpdateFlags flags)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void SetVertexBufferData(System::Collections::Generic::List_1<T>* data, int dataStart, int meshBufferStart, int count, int stream, UnityEngine::Rendering::MeshUpdateFlags flags) {
-      static_assert(is_value_type_v<T>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::SetVertexBufferData");
+    void SetVertexBufferData(::System::Collections::Generic::List_1<T>* data, int dataStart, int meshBufferStart, int count, int stream, ::UnityEngine::Rendering::MeshUpdateFlags flags) {
+      static_assert(std::is_convertible_v<T, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Mesh::SetVertexBufferData");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetVertexBufferData", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(data), ::il2cpp_utils::ExtractType(dataStart), ::il2cpp_utils::ExtractType(meshBufferStart), ::il2cpp_utils::ExtractType(count), ::il2cpp_utils::ExtractType(stream), ::il2cpp_utils::ExtractType(flags)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, data, dataStart, meshBufferStart, count, stream, flags);
@@ -810,13 +810,13 @@ namespace UnityEngine {
     ::ArrayW<int> GetTriangles(int submesh, bool applyBaseVertex);
     // public System.Void GetTriangles(System.Collections.Generic.List`1<System.Int32> triangles, System.Int32 submesh)
     // Offset: 0x20374E8
-    void GetTriangles(System::Collections::Generic::List_1<int>* triangles, int submesh);
+    void GetTriangles(::System::Collections::Generic::List_1<int>* triangles, int submesh);
     // public System.Void GetTriangles(System.Collections.Generic.List`1<System.Int32> triangles, System.Int32 submesh, System.Boolean applyBaseVertex)
     // Offset: 0x20374F0
-    void GetTriangles(System::Collections::Generic::List_1<int>* triangles, int submesh, bool applyBaseVertex);
+    void GetTriangles(::System::Collections::Generic::List_1<int>* triangles, int submesh, bool applyBaseVertex);
     // public System.Void GetTriangles(System.Collections.Generic.List`1<System.UInt16> triangles, System.Int32 submesh, System.Boolean applyBaseVertex)
     // Offset: 0x2037684
-    void GetTriangles(System::Collections::Generic::List_1<uint16_t>* triangles, int submesh, bool applyBaseVertex);
+    void GetTriangles(::System::Collections::Generic::List_1<uint16_t>* triangles, int submesh, bool applyBaseVertex);
     // public System.Int32[] GetIndices(System.Int32 submesh)
     // Offset: 0x2037818
     ::ArrayW<int> GetIndices(int submesh);
@@ -825,19 +825,19 @@ namespace UnityEngine {
     ::ArrayW<int> GetIndices(int submesh, bool applyBaseVertex);
     // public System.Void GetIndices(System.Collections.Generic.List`1<System.Int32> indices, System.Int32 submesh)
     // Offset: 0x20378D0
-    void GetIndices(System::Collections::Generic::List_1<int>* indices, int submesh);
+    void GetIndices(::System::Collections::Generic::List_1<int>* indices, int submesh);
     // public System.Void GetIndices(System.Collections.Generic.List`1<System.Int32> indices, System.Int32 submesh, System.Boolean applyBaseVertex)
     // Offset: 0x20378D8
-    void GetIndices(System::Collections::Generic::List_1<int>* indices, int submesh, bool applyBaseVertex);
+    void GetIndices(::System::Collections::Generic::List_1<int>* indices, int submesh, bool applyBaseVertex);
     // public System.Void GetIndices(System.Collections.Generic.List`1<System.UInt16> indices, System.Int32 submesh, System.Boolean applyBaseVertex)
     // Offset: 0x2037B30
-    void GetIndices(System::Collections::Generic::List_1<uint16_t>* indices, int submesh, bool applyBaseVertex);
+    void GetIndices(::System::Collections::Generic::List_1<uint16_t>* indices, int submesh, bool applyBaseVertex);
     // public System.Void SetIndexBufferData(Unity.Collections.NativeArray`1<T> data, System.Int32 dataStart, System.Int32 meshBufferStart, System.Int32 count, UnityEngine.Rendering.MeshUpdateFlags flags)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void SetIndexBufferData(Unity::Collections::NativeArray_1<T> data, int dataStart, int meshBufferStart, int count, UnityEngine::Rendering::MeshUpdateFlags flags) {
-      static_assert(is_value_type_v<T>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::SetIndexBufferData");
+    void SetIndexBufferData(::Unity::Collections::NativeArray_1<T> data, int dataStart, int meshBufferStart, int count, ::UnityEngine::Rendering::MeshUpdateFlags flags) {
+      static_assert(std::is_convertible_v<T, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Mesh::SetIndexBufferData");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetIndexBufferData", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(data), ::il2cpp_utils::ExtractType(dataStart), ::il2cpp_utils::ExtractType(meshBufferStart), ::il2cpp_utils::ExtractType(count), ::il2cpp_utils::ExtractType(flags)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, data, dataStart, meshBufferStart, count, flags);
@@ -845,9 +845,9 @@ namespace UnityEngine {
     // public System.Void SetIndexBufferData(T[] data, System.Int32 dataStart, System.Int32 meshBufferStart, System.Int32 count, UnityEngine.Rendering.MeshUpdateFlags flags)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void SetIndexBufferData(::ArrayW<T> data, int dataStart, int meshBufferStart, int count, UnityEngine::Rendering::MeshUpdateFlags flags) {
-      static_assert(is_value_type_v<T>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::SetIndexBufferData");
+    void SetIndexBufferData(::ArrayW<T> data, int dataStart, int meshBufferStart, int count, ::UnityEngine::Rendering::MeshUpdateFlags flags) {
+      static_assert(std::is_convertible_v<T, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Mesh::SetIndexBufferData");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetIndexBufferData", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(data), ::il2cpp_utils::ExtractType(dataStart), ::il2cpp_utils::ExtractType(meshBufferStart), ::il2cpp_utils::ExtractType(count), ::il2cpp_utils::ExtractType(flags)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, data, dataStart, meshBufferStart, count, flags);
@@ -855,9 +855,9 @@ namespace UnityEngine {
     // public System.Void SetIndexBufferData(System.Collections.Generic.List`1<T> data, System.Int32 dataStart, System.Int32 meshBufferStart, System.Int32 count, UnityEngine.Rendering.MeshUpdateFlags flags)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void SetIndexBufferData(System::Collections::Generic::List_1<T>* data, int dataStart, int meshBufferStart, int count, UnityEngine::Rendering::MeshUpdateFlags flags) {
-      static_assert(is_value_type_v<T>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::SetIndexBufferData");
+    void SetIndexBufferData(::System::Collections::Generic::List_1<T>* data, int dataStart, int meshBufferStart, int count, ::UnityEngine::Rendering::MeshUpdateFlags flags) {
+      static_assert(std::is_convertible_v<T, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Mesh::SetIndexBufferData");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetIndexBufferData", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(data), ::il2cpp_utils::ExtractType(dataStart), ::il2cpp_utils::ExtractType(meshBufferStart), ::il2cpp_utils::ExtractType(count), ::il2cpp_utils::ExtractType(flags)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, data, dataStart, meshBufferStart, count, flags);
@@ -876,7 +876,7 @@ namespace UnityEngine {
     void CheckIndicesArrayRange(int valuesLength, int start, int length);
     // private System.Void SetTrianglesImpl(System.Int32 submesh, UnityEngine.Rendering.IndexFormat indicesFormat, System.Array triangles, System.Int32 trianglesArrayLength, System.Int32 start, System.Int32 length, System.Boolean calculateBounds, System.Int32 baseVertex)
     // Offset: 0x2037384
-    void SetTrianglesImpl(int submesh, UnityEngine::Rendering::IndexFormat indicesFormat, System::Array* triangles, int trianglesArrayLength, int start, int length, bool calculateBounds, int baseVertex);
+    void SetTrianglesImpl(int submesh, ::UnityEngine::Rendering::IndexFormat indicesFormat, ::System::Array* triangles, int trianglesArrayLength, int start, int length, bool calculateBounds, int baseVertex);
     // public System.Void SetTriangles(System.Int32[] triangles, System.Int32 submesh)
     // Offset: 0x203801C
     void SetTriangles(::ArrayW<int> triangles, int submesh);
@@ -897,46 +897,46 @@ namespace UnityEngine {
     void SetTriangles(::ArrayW<uint16_t> triangles, int trianglesStart, int trianglesLength, int submesh, bool calculateBounds, int baseVertex);
     // public System.Void SetTriangles(System.Collections.Generic.List`1<System.Int32> triangles, System.Int32 submesh)
     // Offset: 0x203825C
-    void SetTriangles(System::Collections::Generic::List_1<int>* triangles, int submesh);
+    void SetTriangles(::System::Collections::Generic::List_1<int>* triangles, int submesh);
     // public System.Void SetTriangles(System.Collections.Generic.List`1<System.Int32> triangles, System.Int32 submesh, System.Boolean calculateBounds)
     // Offset: 0x20382F8
-    void SetTriangles(System::Collections::Generic::List_1<int>* triangles, int submesh, bool calculateBounds);
+    void SetTriangles(::System::Collections::Generic::List_1<int>* triangles, int submesh, bool calculateBounds);
     // public System.Void SetTriangles(System.Collections.Generic.List`1<System.Int32> triangles, System.Int32 submesh, System.Boolean calculateBounds, System.Int32 baseVertex)
     // Offset: 0x2038268
-    void SetTriangles(System::Collections::Generic::List_1<int>* triangles, int submesh, bool calculateBounds, int baseVertex);
+    void SetTriangles(::System::Collections::Generic::List_1<int>* triangles, int submesh, bool calculateBounds, int baseVertex);
     // public System.Void SetTriangles(System.Collections.Generic.List`1<System.Int32> triangles, System.Int32 trianglesStart, System.Int32 trianglesLength, System.Int32 submesh, System.Boolean calculateBounds, System.Int32 baseVertex)
     // Offset: 0x2038304
-    void SetTriangles(System::Collections::Generic::List_1<int>* triangles, int trianglesStart, int trianglesLength, int submesh, bool calculateBounds, int baseVertex);
+    void SetTriangles(::System::Collections::Generic::List_1<int>* triangles, int trianglesStart, int trianglesLength, int submesh, bool calculateBounds, int baseVertex);
     // public System.Void SetTriangles(System.Collections.Generic.List`1<System.UInt16> triangles, System.Int32 submesh, System.Boolean calculateBounds, System.Int32 baseVertex)
     // Offset: 0x20383F8
-    void SetTriangles(System::Collections::Generic::List_1<uint16_t>* triangles, int submesh, bool calculateBounds, int baseVertex);
+    void SetTriangles(::System::Collections::Generic::List_1<uint16_t>* triangles, int submesh, bool calculateBounds, int baseVertex);
     // public System.Void SetTriangles(System.Collections.Generic.List`1<System.UInt16> triangles, System.Int32 trianglesStart, System.Int32 trianglesLength, System.Int32 submesh, System.Boolean calculateBounds, System.Int32 baseVertex)
     // Offset: 0x2038488
-    void SetTriangles(System::Collections::Generic::List_1<uint16_t>* triangles, int trianglesStart, int trianglesLength, int submesh, bool calculateBounds, int baseVertex);
+    void SetTriangles(::System::Collections::Generic::List_1<uint16_t>* triangles, int trianglesStart, int trianglesLength, int submesh, bool calculateBounds, int baseVertex);
     // public System.Void SetIndices(System.Int32[] indices, UnityEngine.MeshTopology topology, System.Int32 submesh)
     // Offset: 0x203857C
-    void SetIndices(::ArrayW<int> indices, UnityEngine::MeshTopology topology, int submesh);
+    void SetIndices(::ArrayW<int> indices, ::UnityEngine::MeshTopology topology, int submesh);
     // public System.Void SetIndices(System.Int32[] indices, UnityEngine.MeshTopology topology, System.Int32 submesh, System.Boolean calculateBounds)
     // Offset: 0x203860C
-    void SetIndices(::ArrayW<int> indices, UnityEngine::MeshTopology topology, int submesh, bool calculateBounds);
+    void SetIndices(::ArrayW<int> indices, ::UnityEngine::MeshTopology topology, int submesh, bool calculateBounds);
     // public System.Void SetIndices(System.Int32[] indices, UnityEngine.MeshTopology topology, System.Int32 submesh, System.Boolean calculateBounds, System.Int32 baseVertex)
     // Offset: 0x2038588
-    void SetIndices(::ArrayW<int> indices, UnityEngine::MeshTopology topology, int submesh, bool calculateBounds, int baseVertex);
+    void SetIndices(::ArrayW<int> indices, ::UnityEngine::MeshTopology topology, int submesh, bool calculateBounds, int baseVertex);
     // public System.Void SetIndices(System.Int32[] indices, System.Int32 indicesStart, System.Int32 indicesLength, UnityEngine.MeshTopology topology, System.Int32 submesh, System.Boolean calculateBounds, System.Int32 baseVertex)
     // Offset: 0x2038618
-    void SetIndices(::ArrayW<int> indices, int indicesStart, int indicesLength, UnityEngine::MeshTopology topology, int submesh, bool calculateBounds, int baseVertex);
+    void SetIndices(::ArrayW<int> indices, int indicesStart, int indicesLength, ::UnityEngine::MeshTopology topology, int submesh, bool calculateBounds, int baseVertex);
     // public System.Void SetIndices(System.UInt16[] indices, UnityEngine.MeshTopology topology, System.Int32 submesh, System.Boolean calculateBounds, System.Int32 baseVertex)
     // Offset: 0x2038708
-    void SetIndices(::ArrayW<uint16_t> indices, UnityEngine::MeshTopology topology, int submesh, bool calculateBounds, int baseVertex);
+    void SetIndices(::ArrayW<uint16_t> indices, ::UnityEngine::MeshTopology topology, int submesh, bool calculateBounds, int baseVertex);
     // public System.Void SetIndices(System.UInt16[] indices, System.Int32 indicesStart, System.Int32 indicesLength, UnityEngine.MeshTopology topology, System.Int32 submesh, System.Boolean calculateBounds, System.Int32 baseVertex)
     // Offset: 0x203878C
-    void SetIndices(::ArrayW<uint16_t> indices, int indicesStart, int indicesLength, UnityEngine::MeshTopology topology, int submesh, bool calculateBounds, int baseVertex);
+    void SetIndices(::ArrayW<uint16_t> indices, int indicesStart, int indicesLength, ::UnityEngine::MeshTopology topology, int submesh, bool calculateBounds, int baseVertex);
     // public System.Void SetIndices(Unity.Collections.NativeArray`1<T> indices, UnityEngine.MeshTopology topology, System.Int32 submesh, System.Boolean calculateBounds, System.Int32 baseVertex)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void SetIndices(Unity::Collections::NativeArray_1<T> indices, UnityEngine::MeshTopology topology, int submesh, bool calculateBounds, int baseVertex) {
-      static_assert(is_value_type_v<T>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::SetIndices");
+    void SetIndices(::Unity::Collections::NativeArray_1<T> indices, ::UnityEngine::MeshTopology topology, int submesh, bool calculateBounds, int baseVertex) {
+      static_assert(std::is_convertible_v<T, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Mesh::SetIndices");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetIndices", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(indices), ::il2cpp_utils::ExtractType(topology), ::il2cpp_utils::ExtractType(submesh), ::il2cpp_utils::ExtractType(calculateBounds), ::il2cpp_utils::ExtractType(baseVertex)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, indices, topology, submesh, calculateBounds, baseVertex);
@@ -944,31 +944,31 @@ namespace UnityEngine {
     // public System.Void SetIndices(Unity.Collections.NativeArray`1<T> indices, System.Int32 indicesStart, System.Int32 indicesLength, UnityEngine.MeshTopology topology, System.Int32 submesh, System.Boolean calculateBounds, System.Int32 baseVertex)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void SetIndices(Unity::Collections::NativeArray_1<T> indices, int indicesStart, int indicesLength, UnityEngine::MeshTopology topology, int submesh, bool calculateBounds, int baseVertex) {
-      static_assert(is_value_type_v<T>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::SetIndices");
+    void SetIndices(::Unity::Collections::NativeArray_1<T> indices, int indicesStart, int indicesLength, ::UnityEngine::MeshTopology topology, int submesh, bool calculateBounds, int baseVertex) {
+      static_assert(std::is_convertible_v<T, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Mesh::SetIndices");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetIndices", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(indices), ::il2cpp_utils::ExtractType(indicesStart), ::il2cpp_utils::ExtractType(indicesLength), ::il2cpp_utils::ExtractType(topology), ::il2cpp_utils::ExtractType(submesh), ::il2cpp_utils::ExtractType(calculateBounds), ::il2cpp_utils::ExtractType(baseVertex)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, indices, indicesStart, indicesLength, topology, submesh, calculateBounds, baseVertex);
     }
     // public System.Void SetIndices(System.Collections.Generic.List`1<System.Int32> indices, UnityEngine.MeshTopology topology, System.Int32 submesh, System.Boolean calculateBounds, System.Int32 baseVertex)
     // Offset: 0x203887C
-    void SetIndices(System::Collections::Generic::List_1<int>* indices, UnityEngine::MeshTopology topology, int submesh, bool calculateBounds, int baseVertex);
+    void SetIndices(::System::Collections::Generic::List_1<int>* indices, ::UnityEngine::MeshTopology topology, int submesh, bool calculateBounds, int baseVertex);
     // public System.Void SetIndices(System.Collections.Generic.List`1<System.Int32> indices, System.Int32 indicesStart, System.Int32 indicesLength, UnityEngine.MeshTopology topology, System.Int32 submesh, System.Boolean calculateBounds, System.Int32 baseVertex)
     // Offset: 0x2038928
-    void SetIndices(System::Collections::Generic::List_1<int>* indices, int indicesStart, int indicesLength, UnityEngine::MeshTopology topology, int submesh, bool calculateBounds, int baseVertex);
+    void SetIndices(::System::Collections::Generic::List_1<int>* indices, int indicesStart, int indicesLength, ::UnityEngine::MeshTopology topology, int submesh, bool calculateBounds, int baseVertex);
     // public System.Void SetIndices(System.Collections.Generic.List`1<System.UInt16> indices, UnityEngine.MeshTopology topology, System.Int32 submesh, System.Boolean calculateBounds, System.Int32 baseVertex)
     // Offset: 0x2038A68
-    void SetIndices(System::Collections::Generic::List_1<uint16_t>* indices, UnityEngine::MeshTopology topology, int submesh, bool calculateBounds, int baseVertex);
+    void SetIndices(::System::Collections::Generic::List_1<uint16_t>* indices, ::UnityEngine::MeshTopology topology, int submesh, bool calculateBounds, int baseVertex);
     // public System.Void SetIndices(System.Collections.Generic.List`1<System.UInt16> indices, System.Int32 indicesStart, System.Int32 indicesLength, UnityEngine.MeshTopology topology, System.Int32 submesh, System.Boolean calculateBounds, System.Int32 baseVertex)
     // Offset: 0x2038B14
-    void SetIndices(System::Collections::Generic::List_1<uint16_t>* indices, int indicesStart, int indicesLength, UnityEngine::MeshTopology topology, int submesh, bool calculateBounds, int baseVertex);
+    void SetIndices(::System::Collections::Generic::List_1<uint16_t>* indices, int indicesStart, int indicesLength, ::UnityEngine::MeshTopology topology, int submesh, bool calculateBounds, int baseVertex);
     // public System.Void GetBindposes(System.Collections.Generic.List`1<UnityEngine.Matrix4x4> bindposes)
     // Offset: 0x2038C54
-    void GetBindposes(System::Collections::Generic::List_1<UnityEngine::Matrix4x4>* bindposes);
+    void GetBindposes(::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* bindposes);
     // public System.Void GetBoneWeights(System.Collections.Generic.List`1<UnityEngine.BoneWeight> boneWeights)
     // Offset: 0x2038D6C
-    void GetBoneWeights(System::Collections::Generic::List_1<UnityEngine::BoneWeight>* boneWeights);
+    void GetBoneWeights(::System::Collections::Generic::List_1<::UnityEngine::BoneWeight>* boneWeights);
     // public System.Void Clear(System.Boolean keepVertexLayout)
     // Offset: 0x2038F40
     void Clear(bool keepVertexLayout);
@@ -1001,34 +1001,34 @@ namespace UnityEngine {
     void OptimizeReorderVertexBuffer();
     // public UnityEngine.MeshTopology GetTopology(System.Int32 submesh)
     // Offset: 0x2039678
-    UnityEngine::MeshTopology GetTopology(int submesh);
+    ::UnityEngine::MeshTopology GetTopology(int submesh);
     // public System.Void CombineMeshes(UnityEngine.CombineInstance[] combine, System.Boolean mergeSubMeshes, System.Boolean useMatrices, System.Boolean hasLightmapData)
     // Offset: 0x203979C
-    void CombineMeshes(::ArrayW<UnityEngine::CombineInstance> combine, bool mergeSubMeshes, bool useMatrices, bool hasLightmapData);
+    void CombineMeshes(::ArrayW<::UnityEngine::CombineInstance> combine, bool mergeSubMeshes, bool useMatrices, bool hasLightmapData);
     // public System.Void CombineMeshes(UnityEngine.CombineInstance[] combine, System.Boolean mergeSubMeshes, System.Boolean useMatrices)
     // Offset: 0x203980C
-    void CombineMeshes(::ArrayW<UnityEngine::CombineInstance> combine, bool mergeSubMeshes, bool useMatrices);
+    void CombineMeshes(::ArrayW<::UnityEngine::CombineInstance> combine, bool mergeSubMeshes, bool useMatrices);
     // public System.Void CombineMeshes(UnityEngine.CombineInstance[] combine, System.Boolean mergeSubMeshes)
     // Offset: 0x2039878
-    void CombineMeshes(::ArrayW<UnityEngine::CombineInstance> combine, bool mergeSubMeshes);
+    void CombineMeshes(::ArrayW<::UnityEngine::CombineInstance> combine, bool mergeSubMeshes);
     // public System.Void CombineMeshes(UnityEngine.CombineInstance[] combine)
     // Offset: 0x20398D8
-    void CombineMeshes(::ArrayW<UnityEngine::CombineInstance> combine);
+    void CombineMeshes(::ArrayW<::UnityEngine::CombineInstance> combine);
     // private System.Void GetVertexAttribute_Injected(System.Int32 index, out UnityEngine.Rendering.VertexAttributeDescriptor ret)
     // Offset: 0x2032FA0
-    void GetVertexAttribute_Injected(int index, ByRef<UnityEngine::Rendering::VertexAttributeDescriptor> ret);
+    void GetVertexAttribute_Injected(int index, ByRef<::UnityEngine::Rendering::VertexAttributeDescriptor> ret);
     // private System.Void SetSubMesh_Injected(System.Int32 index, ref UnityEngine.Rendering.SubMeshDescriptor desc, UnityEngine.Rendering.MeshUpdateFlags flags)
     // Offset: 0x2034354
-    void SetSubMesh_Injected(int index, ByRef<UnityEngine::Rendering::SubMeshDescriptor> desc, UnityEngine::Rendering::MeshUpdateFlags flags);
+    void SetSubMesh_Injected(int index, ByRef<::UnityEngine::Rendering::SubMeshDescriptor> desc, ::UnityEngine::Rendering::MeshUpdateFlags flags);
     // private System.Void GetSubMesh_Injected(System.Int32 index, out UnityEngine.Rendering.SubMeshDescriptor ret)
     // Offset: 0x203443C
-    void GetSubMesh_Injected(int index, ByRef<UnityEngine::Rendering::SubMeshDescriptor> ret);
+    void GetSubMesh_Injected(int index, ByRef<::UnityEngine::Rendering::SubMeshDescriptor> ret);
     // private System.Void get_bounds_Injected(out UnityEngine.Bounds ret)
     // Offset: 0x2034500
-    void get_bounds_Injected(ByRef<UnityEngine::Bounds> ret);
+    void get_bounds_Injected(ByRef<::UnityEngine::Bounds> ret);
     // private System.Void set_bounds_Injected(ref UnityEngine.Bounds value)
     // Offset: 0x20345A0
-    void set_bounds_Injected(ByRef<UnityEngine::Bounds> value);
+    void set_bounds_Injected(ByRef<::UnityEngine::Bounds> value);
     // public System.Void .ctor()
     // Offset: 0x20329C8
     // Implemented from: UnityEngine.Object
@@ -1036,7 +1036,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Mesh* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Mesh::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Mesh::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Mesh*, creationType>()));
     }
   }; // UnityEngine.Mesh
@@ -1046,7 +1046,7 @@ namespace UnityEngine {
 // Writing MetadataGetter for method: UnityEngine::Mesh::get_indexFormat
 // Il2CppName: get_indexFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::IndexFormat (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_indexFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::IndexFormat (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_indexFormat)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "get_indexFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1054,7 +1054,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Mesh::set_indexFormat
 // Il2CppName: set_indexFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(UnityEngine::Rendering::IndexFormat)>(&UnityEngine::Mesh::set_indexFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::UnityEngine::Rendering::IndexFormat)>(&UnityEngine::Mesh::set_indexFormat)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "IndexFormat")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "set_indexFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1079,7 +1079,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::Mesh::get_bindposes
 // Il2CppName: get_bindposes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Matrix4x4> (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_bindposes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Matrix4x4> (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_bindposes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "get_bindposes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1087,7 +1087,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: UnityEngine::Mesh::set_bindposes
 // Il2CppName: set_bindposes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<UnityEngine::Matrix4x4>)>(&UnityEngine::Mesh::set_bindposes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<::UnityEngine::Matrix4x4>)>(&UnityEngine::Mesh::set_bindposes)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "set_bindposes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1137,7 +1137,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::get_bounds
 // Il2CppName: get_bounds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Bounds (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_bounds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Bounds (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_bounds)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "get_bounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1145,7 +1145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Mesh::set_bounds
 // Il2CppName: set_bounds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(UnityEngine::Bounds)>(&UnityEngine::Mesh::set_bounds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::UnityEngine::Bounds)>(&UnityEngine::Mesh::set_bounds)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Bounds")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "set_bounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1154,7 +1154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::get_vertices
 // Il2CppName: get_vertices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector3> (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_vertices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Vector3> (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_vertices)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "get_vertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1162,7 +1162,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: UnityEngine::Mesh::set_vertices
 // Il2CppName: set_vertices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<UnityEngine::Vector3>)>(&UnityEngine::Mesh::set_vertices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<::UnityEngine::Vector3>)>(&UnityEngine::Mesh::set_vertices)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "set_vertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1171,7 +1171,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::get_normals
 // Il2CppName: get_normals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector3> (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_normals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Vector3> (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_normals)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "get_normals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1179,7 +1179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: UnityEngine::Mesh::set_normals
 // Il2CppName: set_normals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<UnityEngine::Vector3>)>(&UnityEngine::Mesh::set_normals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<::UnityEngine::Vector3>)>(&UnityEngine::Mesh::set_normals)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "set_normals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1188,7 +1188,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::get_tangents
 // Il2CppName: get_tangents
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector4> (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_tangents)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Vector4> (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_tangents)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "get_tangents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1196,7 +1196,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: UnityEngine::Mesh::set_tangents
 // Il2CppName: set_tangents
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<UnityEngine::Vector4>)>(&UnityEngine::Mesh::set_tangents)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<::UnityEngine::Vector4>)>(&UnityEngine::Mesh::set_tangents)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "set_tangents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1205,7 +1205,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::get_uv
 // Il2CppName: get_uv
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector2> (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_uv)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Vector2> (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_uv)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "get_uv", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1213,7 +1213,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: UnityEngine::Mesh::set_uv
 // Il2CppName: set_uv
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<UnityEngine::Vector2>)>(&UnityEngine::Mesh::set_uv)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<::UnityEngine::Vector2>)>(&UnityEngine::Mesh::set_uv)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "set_uv", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1222,7 +1222,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::get_uv2
 // Il2CppName: get_uv2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector2> (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_uv2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Vector2> (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_uv2)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "get_uv2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1230,7 +1230,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: UnityEngine::Mesh::set_uv2
 // Il2CppName: set_uv2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<UnityEngine::Vector2>)>(&UnityEngine::Mesh::set_uv2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<::UnityEngine::Vector2>)>(&UnityEngine::Mesh::set_uv2)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "set_uv2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1239,7 +1239,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::get_uv3
 // Il2CppName: get_uv3
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector2> (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_uv3)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Vector2> (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_uv3)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "get_uv3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1247,7 +1247,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: UnityEngine::Mesh::set_uv3
 // Il2CppName: set_uv3
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<UnityEngine::Vector2>)>(&UnityEngine::Mesh::set_uv3)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<::UnityEngine::Vector2>)>(&UnityEngine::Mesh::set_uv3)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "set_uv3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1256,7 +1256,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::get_uv4
 // Il2CppName: get_uv4
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector2> (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_uv4)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Vector2> (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_uv4)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "get_uv4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1264,7 +1264,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: UnityEngine::Mesh::set_uv4
 // Il2CppName: set_uv4
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<UnityEngine::Vector2>)>(&UnityEngine::Mesh::set_uv4)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<::UnityEngine::Vector2>)>(&UnityEngine::Mesh::set_uv4)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "set_uv4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1273,7 +1273,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::get_uv5
 // Il2CppName: get_uv5
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector2> (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_uv5)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Vector2> (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_uv5)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "get_uv5", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1281,7 +1281,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: UnityEngine::Mesh::set_uv5
 // Il2CppName: set_uv5
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<UnityEngine::Vector2>)>(&UnityEngine::Mesh::set_uv5)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<::UnityEngine::Vector2>)>(&UnityEngine::Mesh::set_uv5)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "set_uv5", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1290,7 +1290,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::get_uv6
 // Il2CppName: get_uv6
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector2> (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_uv6)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Vector2> (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_uv6)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "get_uv6", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1298,7 +1298,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: UnityEngine::Mesh::set_uv6
 // Il2CppName: set_uv6
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<UnityEngine::Vector2>)>(&UnityEngine::Mesh::set_uv6)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<::UnityEngine::Vector2>)>(&UnityEngine::Mesh::set_uv6)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "set_uv6", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1307,7 +1307,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::get_uv7
 // Il2CppName: get_uv7
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector2> (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_uv7)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Vector2> (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_uv7)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "get_uv7", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1315,7 +1315,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: UnityEngine::Mesh::set_uv7
 // Il2CppName: set_uv7
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<UnityEngine::Vector2>)>(&UnityEngine::Mesh::set_uv7)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<::UnityEngine::Vector2>)>(&UnityEngine::Mesh::set_uv7)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "set_uv7", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1324,7 +1324,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::get_uv8
 // Il2CppName: get_uv8
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector2> (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_uv8)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Vector2> (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_uv8)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "get_uv8", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1332,7 +1332,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: UnityEngine::Mesh::set_uv8
 // Il2CppName: set_uv8
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<UnityEngine::Vector2>)>(&UnityEngine::Mesh::set_uv8)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<::UnityEngine::Vector2>)>(&UnityEngine::Mesh::set_uv8)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "set_uv8", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1341,7 +1341,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::get_colors
 // Il2CppName: get_colors
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Color> (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_colors)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Color> (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_colors)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "get_colors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1349,7 +1349,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: UnityEngine::Mesh::set_colors
 // Il2CppName: set_colors
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<UnityEngine::Color>)>(&UnityEngine::Mesh::set_colors)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<::UnityEngine::Color>)>(&UnityEngine::Mesh::set_colors)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Color"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "set_colors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1358,7 +1358,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::get_colors32
 // Il2CppName: get_colors32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Color32> (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_colors32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Color32> (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_colors32)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "get_colors32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1366,7 +1366,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: UnityEngine::Mesh::set_colors32
 // Il2CppName: set_colors32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<UnityEngine::Color32>)>(&UnityEngine::Mesh::set_colors32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<::UnityEngine::Color32>)>(&UnityEngine::Mesh::set_colors32)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Color32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "set_colors32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1400,7 +1400,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::get_boneWeights
 // Il2CppName: get_boneWeights
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::BoneWeight> (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_boneWeights)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::BoneWeight> (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_boneWeights)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "get_boneWeights", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1408,7 +1408,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: UnityEngine::Mesh::set_boneWeights
 // Il2CppName: set_boneWeights
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<UnityEngine::BoneWeight>)>(&UnityEngine::Mesh::set_boneWeights)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<::UnityEngine::BoneWeight>)>(&UnityEngine::Mesh::set_boneWeights)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "BoneWeight"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "set_boneWeights", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1417,7 +1417,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::Internal_Create
 // Il2CppName: Internal_Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Mesh*)>(&UnityEngine::Mesh::Internal_Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Mesh*)>(&UnityEngine::Mesh::Internal_Create)> {
   static const MethodInfo* get() {
     static auto* mono = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "Internal_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mono});
@@ -1426,7 +1426,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Mesh::FromInstanceID
 // Il2CppName: FromInstanceID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Mesh* (*)(int)>(&UnityEngine::Mesh::FromInstanceID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Mesh* (*)(int)>(&UnityEngine::Mesh::FromInstanceID)> {
   static const MethodInfo* get() {
     static auto* id = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "FromInstanceID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{id});
@@ -1435,7 +1435,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetIndexBufferParams
 // Il2CppName: SetIndexBufferParams
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, UnityEngine::Rendering::IndexFormat)>(&UnityEngine::Mesh::SetIndexBufferParams)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, ::UnityEngine::Rendering::IndexFormat)>(&UnityEngine::Mesh::SetIndexBufferParams)> {
   static const MethodInfo* get() {
     static auto* indexCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "IndexFormat")->byval_arg;
@@ -1445,7 +1445,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::InternalSetIndexBufferData
 // Il2CppName: InternalSetIndexBufferData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::IntPtr, int, int, int, int, UnityEngine::Rendering::MeshUpdateFlags)>(&UnityEngine::Mesh::InternalSetIndexBufferData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::System::IntPtr, int, int, int, int, ::UnityEngine::Rendering::MeshUpdateFlags)>(&UnityEngine::Mesh::InternalSetIndexBufferData)> {
   static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* dataStart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1459,7 +1459,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::InternalSetIndexBufferDataFromArray
 // Il2CppName: InternalSetIndexBufferDataFromArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Array*, int, int, int, int, UnityEngine::Rendering::MeshUpdateFlags)>(&UnityEngine::Mesh::InternalSetIndexBufferDataFromArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::System::Array*, int, int, int, int, ::UnityEngine::Rendering::MeshUpdateFlags)>(&UnityEngine::Mesh::InternalSetIndexBufferDataFromArray)> {
   static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("System", "Array")->byval_arg;
     static auto* dataStart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1473,7 +1473,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetVertexBufferParams
 // Il2CppName: SetVertexBufferParams
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, ::ArrayW<UnityEngine::Rendering::VertexAttributeDescriptor>)>(&UnityEngine::Mesh::SetVertexBufferParams)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, ::ArrayW<::UnityEngine::Rendering::VertexAttributeDescriptor>)>(&UnityEngine::Mesh::SetVertexBufferParams)> {
   static const MethodInfo* get() {
     static auto* vertexCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* attributes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "VertexAttributeDescriptor"), 1)->byval_arg;
@@ -1483,7 +1483,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::InternalSetVertexBufferData
 // Il2CppName: InternalSetVertexBufferData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, System::IntPtr, int, int, int, int, UnityEngine::Rendering::MeshUpdateFlags)>(&UnityEngine::Mesh::InternalSetVertexBufferData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, ::System::IntPtr, int, int, int, int, ::UnityEngine::Rendering::MeshUpdateFlags)>(&UnityEngine::Mesh::InternalSetVertexBufferData)> {
   static const MethodInfo* get() {
     static auto* stream = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* data = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1498,7 +1498,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::InternalSetVertexBufferDataFromArray
 // Il2CppName: InternalSetVertexBufferDataFromArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, System::Array*, int, int, int, int, UnityEngine::Rendering::MeshUpdateFlags)>(&UnityEngine::Mesh::InternalSetVertexBufferDataFromArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, ::System::Array*, int, int, int, int, ::UnityEngine::Rendering::MeshUpdateFlags)>(&UnityEngine::Mesh::InternalSetVertexBufferDataFromArray)> {
   static const MethodInfo* get() {
     static auto* stream = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* data = &::il2cpp_utils::GetClassFromName("System", "Array")->byval_arg;
@@ -1513,7 +1513,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::GetVertexAttributesAlloc
 // Il2CppName: GetVertexAttributesAlloc
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Array* (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::GetVertexAttributesAlloc)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Array* (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::GetVertexAttributesAlloc)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetVertexAttributesAlloc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1521,7 +1521,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Arr
 // Writing MetadataGetter for method: UnityEngine::Mesh::GetVertexAttributesArray
 // Il2CppName: GetVertexAttributesArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Mesh::*)(::ArrayW<UnityEngine::Rendering::VertexAttributeDescriptor>)>(&UnityEngine::Mesh::GetVertexAttributesArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Mesh::*)(::ArrayW<::UnityEngine::Rendering::VertexAttributeDescriptor>)>(&UnityEngine::Mesh::GetVertexAttributesArray)> {
   static const MethodInfo* get() {
     static auto* attributes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "VertexAttributeDescriptor"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetVertexAttributesArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attributes});
@@ -1530,7 +1530,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::Mesh::GetVertexAttributesList
 // Il2CppName: GetVertexAttributesList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<UnityEngine::Rendering::VertexAttributeDescriptor>*)>(&UnityEngine::Mesh::GetVertexAttributesList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Mesh::*)(::System::Collections::Generic::List_1<::UnityEngine::Rendering::VertexAttributeDescriptor>*)>(&UnityEngine::Mesh::GetVertexAttributesList)> {
   static const MethodInfo* get() {
     static auto* attributes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "VertexAttributeDescriptor")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetVertexAttributesList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attributes});
@@ -1547,7 +1547,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::Mesh::GetVertexAttribute
 // Il2CppName: GetVertexAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::VertexAttributeDescriptor (UnityEngine::Mesh::*)(int)>(&UnityEngine::Mesh::GetVertexAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::VertexAttributeDescriptor (UnityEngine::Mesh::*)(int)>(&UnityEngine::Mesh::GetVertexAttribute)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetVertexAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
@@ -1612,7 +1612,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<in
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetIndicesImpl
 // Il2CppName: SetIndicesImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, UnityEngine::MeshTopology, UnityEngine::Rendering::IndexFormat, System::Array*, int, int, bool, int)>(&UnityEngine::Mesh::SetIndicesImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, ::UnityEngine::MeshTopology, ::UnityEngine::Rendering::IndexFormat, ::System::Array*, int, int, bool, int)>(&UnityEngine::Mesh::SetIndicesImpl)> {
   static const MethodInfo* get() {
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* topology = &::il2cpp_utils::GetClassFromName("UnityEngine", "MeshTopology")->byval_arg;
@@ -1628,7 +1628,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetIndicesNativeArrayImpl
 // Il2CppName: SetIndicesNativeArrayImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, UnityEngine::MeshTopology, UnityEngine::Rendering::IndexFormat, System::IntPtr, int, int, bool, int)>(&UnityEngine::Mesh::SetIndicesNativeArrayImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, ::UnityEngine::MeshTopology, ::UnityEngine::Rendering::IndexFormat, ::System::IntPtr, int, int, bool, int)>(&UnityEngine::Mesh::SetIndicesNativeArrayImpl)> {
   static const MethodInfo* get() {
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* topology = &::il2cpp_utils::GetClassFromName("UnityEngine", "MeshTopology")->byval_arg;
@@ -1688,7 +1688,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::PrintErrorCantAccessChannel
 // Il2CppName: PrintErrorCantAccessChannel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(UnityEngine::Rendering::VertexAttribute)>(&UnityEngine::Mesh::PrintErrorCantAccessChannel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::UnityEngine::Rendering::VertexAttribute)>(&UnityEngine::Mesh::PrintErrorCantAccessChannel)> {
   static const MethodInfo* get() {
     static auto* ch = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "VertexAttribute")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "PrintErrorCantAccessChannel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ch});
@@ -1697,7 +1697,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::HasVertexAttribute
 // Il2CppName: HasVertexAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Mesh::*)(UnityEngine::Rendering::VertexAttribute)>(&UnityEngine::Mesh::HasVertexAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Mesh::*)(::UnityEngine::Rendering::VertexAttribute)>(&UnityEngine::Mesh::HasVertexAttribute)> {
   static const MethodInfo* get() {
     static auto* attr = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "VertexAttribute")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "HasVertexAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attr});
@@ -1706,7 +1706,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::GetVertexAttributeDimension
 // Il2CppName: GetVertexAttributeDimension
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Mesh::*)(UnityEngine::Rendering::VertexAttribute)>(&UnityEngine::Mesh::GetVertexAttributeDimension)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Mesh::*)(::UnityEngine::Rendering::VertexAttribute)>(&UnityEngine::Mesh::GetVertexAttributeDimension)> {
   static const MethodInfo* get() {
     static auto* attr = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "VertexAttribute")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetVertexAttributeDimension", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attr});
@@ -1715,7 +1715,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::Mesh::GetVertexAttributeFormat
 // Il2CppName: GetVertexAttributeFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::VertexAttributeFormat (UnityEngine::Mesh::*)(UnityEngine::Rendering::VertexAttribute)>(&UnityEngine::Mesh::GetVertexAttributeFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::VertexAttributeFormat (UnityEngine::Mesh::*)(::UnityEngine::Rendering::VertexAttribute)>(&UnityEngine::Mesh::GetVertexAttributeFormat)> {
   static const MethodInfo* get() {
     static auto* attr = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "VertexAttribute")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetVertexAttributeFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attr});
@@ -1724,7 +1724,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetArrayForChannelImpl
 // Il2CppName: SetArrayForChannelImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(UnityEngine::Rendering::VertexAttribute, UnityEngine::Rendering::VertexAttributeFormat, int, System::Array*, int, int, int)>(&UnityEngine::Mesh::SetArrayForChannelImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::UnityEngine::Rendering::VertexAttribute, ::UnityEngine::Rendering::VertexAttributeFormat, int, ::System::Array*, int, int, int)>(&UnityEngine::Mesh::SetArrayForChannelImpl)> {
   static const MethodInfo* get() {
     static auto* channel = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "VertexAttribute")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "VertexAttributeFormat")->byval_arg;
@@ -1739,7 +1739,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetNativeArrayForChannelImpl
 // Il2CppName: SetNativeArrayForChannelImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(UnityEngine::Rendering::VertexAttribute, UnityEngine::Rendering::VertexAttributeFormat, int, System::IntPtr, int, int, int)>(&UnityEngine::Mesh::SetNativeArrayForChannelImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::UnityEngine::Rendering::VertexAttribute, ::UnityEngine::Rendering::VertexAttributeFormat, int, ::System::IntPtr, int, int, int)>(&UnityEngine::Mesh::SetNativeArrayForChannelImpl)> {
   static const MethodInfo* get() {
     static auto* channel = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "VertexAttribute")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "VertexAttributeFormat")->byval_arg;
@@ -1754,7 +1754,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::GetAllocArrayFromChannelImpl
 // Il2CppName: GetAllocArrayFromChannelImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Array* (UnityEngine::Mesh::*)(UnityEngine::Rendering::VertexAttribute, UnityEngine::Rendering::VertexAttributeFormat, int)>(&UnityEngine::Mesh::GetAllocArrayFromChannelImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Array* (UnityEngine::Mesh::*)(::UnityEngine::Rendering::VertexAttribute, ::UnityEngine::Rendering::VertexAttributeFormat, int)>(&UnityEngine::Mesh::GetAllocArrayFromChannelImpl)> {
   static const MethodInfo* get() {
     static auto* channel = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "VertexAttribute")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "VertexAttributeFormat")->byval_arg;
@@ -1765,7 +1765,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Arr
 // Writing MetadataGetter for method: UnityEngine::Mesh::GetArrayFromChannelImpl
 // Il2CppName: GetArrayFromChannelImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(UnityEngine::Rendering::VertexAttribute, UnityEngine::Rendering::VertexAttributeFormat, int, System::Array*)>(&UnityEngine::Mesh::GetArrayFromChannelImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::UnityEngine::Rendering::VertexAttribute, ::UnityEngine::Rendering::VertexAttributeFormat, int, ::System::Array*)>(&UnityEngine::Mesh::GetArrayFromChannelImpl)> {
   static const MethodInfo* get() {
     static auto* channel = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "VertexAttribute")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "VertexAttributeFormat")->byval_arg;
@@ -1777,7 +1777,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::GetNativeVertexBufferPtr
 // Il2CppName: GetNativeVertexBufferPtr
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (UnityEngine::Mesh::*)(int)>(&UnityEngine::Mesh::GetNativeVertexBufferPtr)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (UnityEngine::Mesh::*)(int)>(&UnityEngine::Mesh::GetNativeVertexBufferPtr)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetNativeVertexBufferPtr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
@@ -1786,7 +1786,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::Mesh::GetNativeIndexBufferPtr
 // Il2CppName: GetNativeIndexBufferPtr
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::GetNativeIndexBufferPtr)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::GetNativeIndexBufferPtr)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetNativeIndexBufferPtr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1839,7 +1839,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Writing MetadataGetter for method: UnityEngine::Mesh::GetBlendShapeFrameVertices
 // Il2CppName: GetBlendShapeFrameVertices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, int, ::ArrayW<UnityEngine::Vector3>, ::ArrayW<UnityEngine::Vector3>, ::ArrayW<UnityEngine::Vector3>)>(&UnityEngine::Mesh::GetBlendShapeFrameVertices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, int, ::ArrayW<::UnityEngine::Vector3>, ::ArrayW<::UnityEngine::Vector3>, ::ArrayW<::UnityEngine::Vector3>)>(&UnityEngine::Mesh::GetBlendShapeFrameVertices)> {
   static const MethodInfo* get() {
     static auto* shapeIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* frameIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1852,7 +1852,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::AddBlendShapeFrame
 // Il2CppName: AddBlendShapeFrame
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::StringW, float, ::ArrayW<UnityEngine::Vector3>, ::ArrayW<UnityEngine::Vector3>, ::ArrayW<UnityEngine::Vector3>)>(&UnityEngine::Mesh::AddBlendShapeFrame)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::StringW, float, ::ArrayW<::UnityEngine::Vector3>, ::ArrayW<::UnityEngine::Vector3>, ::ArrayW<::UnityEngine::Vector3>)>(&UnityEngine::Mesh::AddBlendShapeFrame)> {
   static const MethodInfo* get() {
     static auto* shapeName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* frameWeight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -1873,7 +1873,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::GetBoneWeightsImpl
 // Il2CppName: GetBoneWeightsImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::BoneWeight> (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::GetBoneWeightsImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::BoneWeight> (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::GetBoneWeightsImpl)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetBoneWeightsImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1881,7 +1881,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetBoneWeightsImpl
 // Il2CppName: SetBoneWeightsImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<UnityEngine::BoneWeight>)>(&UnityEngine::Mesh::SetBoneWeightsImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<::UnityEngine::BoneWeight>)>(&UnityEngine::Mesh::SetBoneWeightsImpl)> {
   static const MethodInfo* get() {
     static auto* weights = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "BoneWeight"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "SetBoneWeightsImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{weights});
@@ -1890,7 +1890,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetBoneWeights
 // Il2CppName: SetBoneWeights
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(Unity::Collections::NativeArray_1<uint8_t>, Unity::Collections::NativeArray_1<UnityEngine::BoneWeight1>)>(&UnityEngine::Mesh::SetBoneWeights)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Unity::Collections::NativeArray_1<uint8_t>, ::Unity::Collections::NativeArray_1<::UnityEngine::BoneWeight1>)>(&UnityEngine::Mesh::SetBoneWeights)> {
   static const MethodInfo* get() {
     static auto* bonesPerVertex = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("Unity.Collections", "NativeArray`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Byte")})->byval_arg;
     static auto* weights = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("Unity.Collections", "NativeArray`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "BoneWeight1")})->byval_arg;
@@ -1900,7 +1900,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::InternalSetBoneWeights
 // Il2CppName: InternalSetBoneWeights
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::IntPtr, int, System::IntPtr, int)>(&UnityEngine::Mesh::InternalSetBoneWeights)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::System::IntPtr, int, ::System::IntPtr, int)>(&UnityEngine::Mesh::InternalSetBoneWeights)> {
   static const MethodInfo* get() {
     static auto* bonesPerVertex = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* bonesPerVertexSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1912,7 +1912,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::GetAllBoneWeights
 // Il2CppName: GetAllBoneWeights
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Unity::Collections::NativeArray_1<UnityEngine::BoneWeight1> (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::GetAllBoneWeights)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::NativeArray_1<::UnityEngine::BoneWeight1> (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::GetAllBoneWeights)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetAllBoneWeights", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1920,7 +1920,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Unity::Coll
 // Writing MetadataGetter for method: UnityEngine::Mesh::GetBonesPerVertex
 // Il2CppName: GetBonesPerVertex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Unity::Collections::NativeArray_1<uint8_t> (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::GetBonesPerVertex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::NativeArray_1<uint8_t> (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::GetBonesPerVertex)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetBonesPerVertex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1936,7 +1936,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::Mesh::GetAllBoneWeightsArray
 // Il2CppName: GetAllBoneWeightsArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::GetAllBoneWeightsArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::GetAllBoneWeightsArray)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetAllBoneWeightsArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1944,7 +1944,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::Mesh::GetBonesPerVertexArray
 // Il2CppName: GetBonesPerVertexArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::GetBonesPerVertexArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::GetBonesPerVertexArray)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetBonesPerVertexArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1960,7 +1960,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::Mesh::GetBoneWeightsNonAllocImpl
 // Il2CppName: GetBoneWeightsNonAllocImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(ByRef<::ArrayW<UnityEngine::BoneWeight>>)>(&UnityEngine::Mesh::GetBoneWeightsNonAllocImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(ByRef<::ArrayW<::UnityEngine::BoneWeight>>)>(&UnityEngine::Mesh::GetBoneWeightsNonAllocImpl)> {
   static const MethodInfo* get() {
     static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "BoneWeight"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetBoneWeightsNonAllocImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{values});
@@ -1969,7 +1969,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::GetBindposesNonAllocImpl
 // Il2CppName: GetBindposesNonAllocImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(ByRef<::ArrayW<UnityEngine::Matrix4x4>>)>(&UnityEngine::Mesh::GetBindposesNonAllocImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(ByRef<::ArrayW<::UnityEngine::Matrix4x4>>)>(&UnityEngine::Mesh::GetBindposesNonAllocImpl)> {
   static const MethodInfo* get() {
     static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetBindposesNonAllocImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{values});
@@ -1978,7 +1978,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetSubMesh
 // Il2CppName: SetSubMesh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, UnityEngine::Rendering::SubMeshDescriptor, UnityEngine::Rendering::MeshUpdateFlags)>(&UnityEngine::Mesh::SetSubMesh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, ::UnityEngine::Rendering::SubMeshDescriptor, ::UnityEngine::Rendering::MeshUpdateFlags)>(&UnityEngine::Mesh::SetSubMesh)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* desc = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "SubMeshDescriptor")->byval_arg;
@@ -1989,7 +1989,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::GetSubMesh
 // Il2CppName: GetSubMesh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::SubMeshDescriptor (UnityEngine::Mesh::*)(int)>(&UnityEngine::Mesh::GetSubMesh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::SubMeshDescriptor (UnityEngine::Mesh::*)(int)>(&UnityEngine::Mesh::GetSubMesh)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetSubMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
@@ -2056,7 +2056,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::GetTopologyImpl
 // Il2CppName: GetTopologyImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::MeshTopology (UnityEngine::Mesh::*)(int)>(&UnityEngine::Mesh::GetTopologyImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::MeshTopology (UnityEngine::Mesh::*)(int)>(&UnityEngine::Mesh::GetTopologyImpl)> {
   static const MethodInfo* get() {
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetTopologyImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{submesh});
@@ -2074,7 +2074,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Writing MetadataGetter for method: UnityEngine::Mesh::CombineMeshesImpl
 // Il2CppName: CombineMeshesImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<UnityEngine::CombineInstance>, bool, bool, bool)>(&UnityEngine::Mesh::CombineMeshesImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<::UnityEngine::CombineInstance>, bool, bool, bool)>(&UnityEngine::Mesh::CombineMeshesImpl)> {
   static const MethodInfo* get() {
     static auto* combine = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "CombineInstance"), 1)->byval_arg;
     static auto* mergeSubMeshes = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -2110,7 +2110,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::GetUVChannel
 // Il2CppName: GetUVChannel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::VertexAttribute (UnityEngine::Mesh::*)(int)>(&UnityEngine::Mesh::GetUVChannel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::VertexAttribute (UnityEngine::Mesh::*)(int)>(&UnityEngine::Mesh::GetUVChannel)> {
   static const MethodInfo* get() {
     static auto* uvIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetUVChannel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{uvIndex});
@@ -2119,7 +2119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Mesh::DefaultDimensionForChannel
 // Il2CppName: DefaultDimensionForChannel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Rendering::VertexAttribute)>(&UnityEngine::Mesh::DefaultDimensionForChannel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::UnityEngine::Rendering::VertexAttribute)>(&UnityEngine::Mesh::DefaultDimensionForChannel)> {
   static const MethodInfo* get() {
     static auto* channel = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "VertexAttribute")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "DefaultDimensionForChannel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{channel});
@@ -2134,7 +2134,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetSizedArrayForChannel
 // Il2CppName: SetSizedArrayForChannel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(UnityEngine::Rendering::VertexAttribute, UnityEngine::Rendering::VertexAttributeFormat, int, System::Array*, int, int, int)>(&UnityEngine::Mesh::SetSizedArrayForChannel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::UnityEngine::Rendering::VertexAttribute, ::UnityEngine::Rendering::VertexAttributeFormat, int, ::System::Array*, int, int, int)>(&UnityEngine::Mesh::SetSizedArrayForChannel)> {
   static const MethodInfo* get() {
     static auto* channel = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "VertexAttribute")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "VertexAttributeFormat")->byval_arg;
@@ -2149,7 +2149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetSizedNativeArrayForChannel
 // Il2CppName: SetSizedNativeArrayForChannel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(UnityEngine::Rendering::VertexAttribute, UnityEngine::Rendering::VertexAttributeFormat, int, System::IntPtr, int, int, int)>(&UnityEngine::Mesh::SetSizedNativeArrayForChannel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::UnityEngine::Rendering::VertexAttribute, ::UnityEngine::Rendering::VertexAttributeFormat, int, ::System::IntPtr, int, int, int)>(&UnityEngine::Mesh::SetSizedNativeArrayForChannel)> {
   static const MethodInfo* get() {
     static auto* channel = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "VertexAttribute")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "VertexAttributeFormat")->byval_arg;
@@ -2182,7 +2182,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::GetVertices
 // Il2CppName: GetVertices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<UnityEngine::Vector3>*)>(&UnityEngine::Mesh::GetVertices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*)>(&UnityEngine::Mesh::GetVertices)> {
   static const MethodInfo* get() {
     static auto* vertices = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{vertices});
@@ -2191,7 +2191,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetVertices
 // Il2CppName: SetVertices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<UnityEngine::Vector3>*)>(&UnityEngine::Mesh::SetVertices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*)>(&UnityEngine::Mesh::SetVertices)> {
   static const MethodInfo* get() {
     static auto* inVertices = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "SetVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inVertices});
@@ -2200,7 +2200,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetVertices
 // Il2CppName: SetVertices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<UnityEngine::Vector3>*, int, int)>(&UnityEngine::Mesh::SetVertices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, int, int)>(&UnityEngine::Mesh::SetVertices)> {
   static const MethodInfo* get() {
     static auto* inVertices = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")})->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2211,7 +2211,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetVertices
 // Il2CppName: SetVertices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<UnityEngine::Vector3>)>(&UnityEngine::Mesh::SetVertices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<::UnityEngine::Vector3>)>(&UnityEngine::Mesh::SetVertices)> {
   static const MethodInfo* get() {
     static auto* inVertices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "SetVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inVertices});
@@ -2220,7 +2220,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetVertices
 // Il2CppName: SetVertices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<UnityEngine::Vector3>, int, int)>(&UnityEngine::Mesh::SetVertices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<::UnityEngine::Vector3>, int, int)>(&UnityEngine::Mesh::SetVertices)> {
   static const MethodInfo* get() {
     static auto* inVertices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2237,7 +2237,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::GetNormals
 // Il2CppName: GetNormals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<UnityEngine::Vector3>*)>(&UnityEngine::Mesh::GetNormals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*)>(&UnityEngine::Mesh::GetNormals)> {
   static const MethodInfo* get() {
     static auto* normals = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetNormals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{normals});
@@ -2246,7 +2246,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetNormals
 // Il2CppName: SetNormals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<UnityEngine::Vector3>*)>(&UnityEngine::Mesh::SetNormals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*)>(&UnityEngine::Mesh::SetNormals)> {
   static const MethodInfo* get() {
     static auto* inNormals = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "SetNormals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inNormals});
@@ -2255,7 +2255,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetNormals
 // Il2CppName: SetNormals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<UnityEngine::Vector3>*, int, int)>(&UnityEngine::Mesh::SetNormals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, int, int)>(&UnityEngine::Mesh::SetNormals)> {
   static const MethodInfo* get() {
     static auto* inNormals = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")})->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2266,7 +2266,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetNormals
 // Il2CppName: SetNormals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<UnityEngine::Vector3>)>(&UnityEngine::Mesh::SetNormals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<::UnityEngine::Vector3>)>(&UnityEngine::Mesh::SetNormals)> {
   static const MethodInfo* get() {
     static auto* inNormals = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "SetNormals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inNormals});
@@ -2275,7 +2275,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetNormals
 // Il2CppName: SetNormals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<UnityEngine::Vector3>, int, int)>(&UnityEngine::Mesh::SetNormals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<::UnityEngine::Vector3>, int, int)>(&UnityEngine::Mesh::SetNormals)> {
   static const MethodInfo* get() {
     static auto* inNormals = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2292,7 +2292,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::GetTangents
 // Il2CppName: GetTangents
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<UnityEngine::Vector4>*)>(&UnityEngine::Mesh::GetTangents)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::System::Collections::Generic::List_1<::UnityEngine::Vector4>*)>(&UnityEngine::Mesh::GetTangents)> {
   static const MethodInfo* get() {
     static auto* tangents = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetTangents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tangents});
@@ -2301,7 +2301,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetTangents
 // Il2CppName: SetTangents
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<UnityEngine::Vector4>*)>(&UnityEngine::Mesh::SetTangents)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::System::Collections::Generic::List_1<::UnityEngine::Vector4>*)>(&UnityEngine::Mesh::SetTangents)> {
   static const MethodInfo* get() {
     static auto* inTangents = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "SetTangents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inTangents});
@@ -2310,7 +2310,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetTangents
 // Il2CppName: SetTangents
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<UnityEngine::Vector4>*, int, int)>(&UnityEngine::Mesh::SetTangents)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::System::Collections::Generic::List_1<::UnityEngine::Vector4>*, int, int)>(&UnityEngine::Mesh::SetTangents)> {
   static const MethodInfo* get() {
     static auto* inTangents = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")})->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2321,7 +2321,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetTangents
 // Il2CppName: SetTangents
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<UnityEngine::Vector4>)>(&UnityEngine::Mesh::SetTangents)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<::UnityEngine::Vector4>)>(&UnityEngine::Mesh::SetTangents)> {
   static const MethodInfo* get() {
     static auto* inTangents = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "SetTangents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inTangents});
@@ -2330,7 +2330,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetTangents
 // Il2CppName: SetTangents
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<UnityEngine::Vector4>, int, int)>(&UnityEngine::Mesh::SetTangents)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<::UnityEngine::Vector4>, int, int)>(&UnityEngine::Mesh::SetTangents)> {
   static const MethodInfo* get() {
     static auto* inTangents = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2347,7 +2347,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::GetColors
 // Il2CppName: GetColors
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<UnityEngine::Color>*)>(&UnityEngine::Mesh::GetColors)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::System::Collections::Generic::List_1<::UnityEngine::Color>*)>(&UnityEngine::Mesh::GetColors)> {
   static const MethodInfo* get() {
     static auto* colors = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Color")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colors});
@@ -2356,7 +2356,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetColors
 // Il2CppName: SetColors
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<UnityEngine::Color>*)>(&UnityEngine::Mesh::SetColors)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::System::Collections::Generic::List_1<::UnityEngine::Color>*)>(&UnityEngine::Mesh::SetColors)> {
   static const MethodInfo* get() {
     static auto* inColors = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Color")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "SetColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inColors});
@@ -2365,7 +2365,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetColors
 // Il2CppName: SetColors
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<UnityEngine::Color>*, int, int)>(&UnityEngine::Mesh::SetColors)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::System::Collections::Generic::List_1<::UnityEngine::Color>*, int, int)>(&UnityEngine::Mesh::SetColors)> {
   static const MethodInfo* get() {
     static auto* inColors = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Color")})->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2376,7 +2376,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetColors
 // Il2CppName: SetColors
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<UnityEngine::Color>)>(&UnityEngine::Mesh::SetColors)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<::UnityEngine::Color>)>(&UnityEngine::Mesh::SetColors)> {
   static const MethodInfo* get() {
     static auto* inColors = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Color"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "SetColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inColors});
@@ -2385,7 +2385,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetColors
 // Il2CppName: SetColors
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<UnityEngine::Color>, int, int)>(&UnityEngine::Mesh::SetColors)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<::UnityEngine::Color>, int, int)>(&UnityEngine::Mesh::SetColors)> {
   static const MethodInfo* get() {
     static auto* inColors = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Color"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2396,7 +2396,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::GetColors
 // Il2CppName: GetColors
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<UnityEngine::Color32>*)>(&UnityEngine::Mesh::GetColors)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::System::Collections::Generic::List_1<::UnityEngine::Color32>*)>(&UnityEngine::Mesh::GetColors)> {
   static const MethodInfo* get() {
     static auto* colors = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Color32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colors});
@@ -2405,7 +2405,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetColors
 // Il2CppName: SetColors
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<UnityEngine::Color32>*)>(&UnityEngine::Mesh::SetColors)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::System::Collections::Generic::List_1<::UnityEngine::Color32>*)>(&UnityEngine::Mesh::SetColors)> {
   static const MethodInfo* get() {
     static auto* inColors = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Color32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "SetColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inColors});
@@ -2414,7 +2414,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetColors
 // Il2CppName: SetColors
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<UnityEngine::Color32>*, int, int)>(&UnityEngine::Mesh::SetColors)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::System::Collections::Generic::List_1<::UnityEngine::Color32>*, int, int)>(&UnityEngine::Mesh::SetColors)> {
   static const MethodInfo* get() {
     static auto* inColors = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Color32")})->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2425,7 +2425,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetColors
 // Il2CppName: SetColors
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<UnityEngine::Color32>)>(&UnityEngine::Mesh::SetColors)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<::UnityEngine::Color32>)>(&UnityEngine::Mesh::SetColors)> {
   static const MethodInfo* get() {
     static auto* inColors = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Color32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "SetColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inColors});
@@ -2434,7 +2434,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetColors
 // Il2CppName: SetColors
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<UnityEngine::Color32>, int, int)>(&UnityEngine::Mesh::SetColors)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<::UnityEngine::Color32>, int, int)>(&UnityEngine::Mesh::SetColors)> {
   static const MethodInfo* get() {
     static auto* inColors = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Color32"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2454,7 +2454,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetUVs
 // Il2CppName: SetUVs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, System::Collections::Generic::List_1<UnityEngine::Vector2>*)>(&UnityEngine::Mesh::SetUVs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*)>(&UnityEngine::Mesh::SetUVs)> {
   static const MethodInfo* get() {
     static auto* channel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* uvs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")})->byval_arg;
@@ -2464,7 +2464,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetUVs
 // Il2CppName: SetUVs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, System::Collections::Generic::List_1<UnityEngine::Vector3>*)>(&UnityEngine::Mesh::SetUVs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*)>(&UnityEngine::Mesh::SetUVs)> {
   static const MethodInfo* get() {
     static auto* channel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* uvs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")})->byval_arg;
@@ -2474,7 +2474,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetUVs
 // Il2CppName: SetUVs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, System::Collections::Generic::List_1<UnityEngine::Vector4>*)>(&UnityEngine::Mesh::SetUVs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*)>(&UnityEngine::Mesh::SetUVs)> {
   static const MethodInfo* get() {
     static auto* channel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* uvs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")})->byval_arg;
@@ -2484,7 +2484,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetUVs
 // Il2CppName: SetUVs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, System::Collections::Generic::List_1<UnityEngine::Vector2>*, int, int)>(&UnityEngine::Mesh::SetUVs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, int, int)>(&UnityEngine::Mesh::SetUVs)> {
   static const MethodInfo* get() {
     static auto* channel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* uvs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")})->byval_arg;
@@ -2496,7 +2496,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetUVs
 // Il2CppName: SetUVs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, System::Collections::Generic::List_1<UnityEngine::Vector3>*, int, int)>(&UnityEngine::Mesh::SetUVs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, int, int)>(&UnityEngine::Mesh::SetUVs)> {
   static const MethodInfo* get() {
     static auto* channel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* uvs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")})->byval_arg;
@@ -2508,7 +2508,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetUVs
 // Il2CppName: SetUVs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, System::Collections::Generic::List_1<UnityEngine::Vector4>*, int, int)>(&UnityEngine::Mesh::SetUVs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*, int, int)>(&UnityEngine::Mesh::SetUVs)> {
   static const MethodInfo* get() {
     static auto* channel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* uvs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")})->byval_arg;
@@ -2520,7 +2520,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetUvsImpl
 // Il2CppName: SetUvsImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, int, System::Array*, int, int)>(&UnityEngine::Mesh::SetUvsImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, int, ::System::Array*, int, int)>(&UnityEngine::Mesh::SetUvsImpl)> {
   static const MethodInfo* get() {
     static auto* uvIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* dim = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2533,7 +2533,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetUVs
 // Il2CppName: SetUVs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, ::ArrayW<UnityEngine::Vector2>)>(&UnityEngine::Mesh::SetUVs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, ::ArrayW<::UnityEngine::Vector2>)>(&UnityEngine::Mesh::SetUVs)> {
   static const MethodInfo* get() {
     static auto* channel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* uvs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
@@ -2543,7 +2543,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetUVs
 // Il2CppName: SetUVs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, ::ArrayW<UnityEngine::Vector3>)>(&UnityEngine::Mesh::SetUVs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, ::ArrayW<::UnityEngine::Vector3>)>(&UnityEngine::Mesh::SetUVs)> {
   static const MethodInfo* get() {
     static auto* channel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* uvs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
@@ -2553,7 +2553,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetUVs
 // Il2CppName: SetUVs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, ::ArrayW<UnityEngine::Vector4>)>(&UnityEngine::Mesh::SetUVs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, ::ArrayW<::UnityEngine::Vector4>)>(&UnityEngine::Mesh::SetUVs)> {
   static const MethodInfo* get() {
     static auto* channel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* uvs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4"), 1)->byval_arg;
@@ -2563,7 +2563,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetUVs
 // Il2CppName: SetUVs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, ::ArrayW<UnityEngine::Vector2>, int, int)>(&UnityEngine::Mesh::SetUVs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, ::ArrayW<::UnityEngine::Vector2>, int, int)>(&UnityEngine::Mesh::SetUVs)> {
   static const MethodInfo* get() {
     static auto* channel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* uvs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
@@ -2575,7 +2575,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetUVs
 // Il2CppName: SetUVs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, ::ArrayW<UnityEngine::Vector3>, int, int)>(&UnityEngine::Mesh::SetUVs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, ::ArrayW<::UnityEngine::Vector3>, int, int)>(&UnityEngine::Mesh::SetUVs)> {
   static const MethodInfo* get() {
     static auto* channel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* uvs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
@@ -2587,7 +2587,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetUVs
 // Il2CppName: SetUVs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, ::ArrayW<UnityEngine::Vector4>, int, int)>(&UnityEngine::Mesh::SetUVs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, ::ArrayW<::UnityEngine::Vector4>, int, int)>(&UnityEngine::Mesh::SetUVs)> {
   static const MethodInfo* get() {
     static auto* channel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* uvs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4"), 1)->byval_arg;
@@ -2608,7 +2608,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::GetUVs
 // Il2CppName: GetUVs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, System::Collections::Generic::List_1<UnityEngine::Vector2>*)>(&UnityEngine::Mesh::GetUVs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*)>(&UnityEngine::Mesh::GetUVs)> {
   static const MethodInfo* get() {
     static auto* channel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* uvs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")})->byval_arg;
@@ -2618,7 +2618,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::GetUVs
 // Il2CppName: GetUVs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, System::Collections::Generic::List_1<UnityEngine::Vector3>*)>(&UnityEngine::Mesh::GetUVs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*)>(&UnityEngine::Mesh::GetUVs)> {
   static const MethodInfo* get() {
     static auto* channel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* uvs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")})->byval_arg;
@@ -2628,7 +2628,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::GetUVs
 // Il2CppName: GetUVs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, System::Collections::Generic::List_1<UnityEngine::Vector4>*)>(&UnityEngine::Mesh::GetUVs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*)>(&UnityEngine::Mesh::GetUVs)> {
   static const MethodInfo* get() {
     static auto* channel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* uvs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")})->byval_arg;
@@ -2638,7 +2638,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::GetVertexAttributes
 // Il2CppName: GetVertexAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Rendering::VertexAttributeDescriptor> (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::GetVertexAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Rendering::VertexAttributeDescriptor> (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::GetVertexAttributes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetVertexAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2646,7 +2646,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: UnityEngine::Mesh::GetVertexAttributes
 // Il2CppName: GetVertexAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Mesh::*)(::ArrayW<UnityEngine::Rendering::VertexAttributeDescriptor>)>(&UnityEngine::Mesh::GetVertexAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Mesh::*)(::ArrayW<::UnityEngine::Rendering::VertexAttributeDescriptor>)>(&UnityEngine::Mesh::GetVertexAttributes)> {
   static const MethodInfo* get() {
     static auto* attributes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "VertexAttributeDescriptor"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetVertexAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attributes});
@@ -2655,7 +2655,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::Mesh::GetVertexAttributes
 // Il2CppName: GetVertexAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<UnityEngine::Rendering::VertexAttributeDescriptor>*)>(&UnityEngine::Mesh::GetVertexAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Mesh::*)(::System::Collections::Generic::List_1<::UnityEngine::Rendering::VertexAttributeDescriptor>*)>(&UnityEngine::Mesh::GetVertexAttributes)> {
   static const MethodInfo* get() {
     static auto* attributes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "VertexAttributeDescriptor")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetVertexAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attributes});
@@ -2728,7 +2728,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<in
 // Writing MetadataGetter for method: UnityEngine::Mesh::GetTriangles
 // Il2CppName: GetTriangles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<int>*, int)>(&UnityEngine::Mesh::GetTriangles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::System::Collections::Generic::List_1<int>*, int)>(&UnityEngine::Mesh::GetTriangles)> {
   static const MethodInfo* get() {
     static auto* triangles = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2738,7 +2738,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::GetTriangles
 // Il2CppName: GetTriangles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<int>*, int, bool)>(&UnityEngine::Mesh::GetTriangles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::System::Collections::Generic::List_1<int>*, int, bool)>(&UnityEngine::Mesh::GetTriangles)> {
   static const MethodInfo* get() {
     static auto* triangles = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2749,7 +2749,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::GetTriangles
 // Il2CppName: GetTriangles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<uint16_t>*, int, bool)>(&UnityEngine::Mesh::GetTriangles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::System::Collections::Generic::List_1<uint16_t>*, int, bool)>(&UnityEngine::Mesh::GetTriangles)> {
   static const MethodInfo* get() {
     static auto* triangles = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "UInt16")})->byval_arg;
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2779,7 +2779,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<in
 // Writing MetadataGetter for method: UnityEngine::Mesh::GetIndices
 // Il2CppName: GetIndices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<int>*, int)>(&UnityEngine::Mesh::GetIndices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::System::Collections::Generic::List_1<int>*, int)>(&UnityEngine::Mesh::GetIndices)> {
   static const MethodInfo* get() {
     static auto* indices = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2789,7 +2789,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::GetIndices
 // Il2CppName: GetIndices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<int>*, int, bool)>(&UnityEngine::Mesh::GetIndices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::System::Collections::Generic::List_1<int>*, int, bool)>(&UnityEngine::Mesh::GetIndices)> {
   static const MethodInfo* get() {
     static auto* indices = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2800,7 +2800,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::GetIndices
 // Il2CppName: GetIndices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<uint16_t>*, int, bool)>(&UnityEngine::Mesh::GetIndices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::System::Collections::Generic::List_1<uint16_t>*, int, bool)>(&UnityEngine::Mesh::GetIndices)> {
   static const MethodInfo* get() {
     static auto* indices = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "UInt16")})->byval_arg;
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2858,7 +2858,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetTrianglesImpl
 // Il2CppName: SetTrianglesImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, UnityEngine::Rendering::IndexFormat, System::Array*, int, int, int, bool, int)>(&UnityEngine::Mesh::SetTrianglesImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, ::UnityEngine::Rendering::IndexFormat, ::System::Array*, int, int, int, bool, int)>(&UnityEngine::Mesh::SetTrianglesImpl)> {
   static const MethodInfo* get() {
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* indicesFormat = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "IndexFormat")->byval_arg;
@@ -2947,7 +2947,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetTriangles
 // Il2CppName: SetTriangles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<int>*, int)>(&UnityEngine::Mesh::SetTriangles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::System::Collections::Generic::List_1<int>*, int)>(&UnityEngine::Mesh::SetTriangles)> {
   static const MethodInfo* get() {
     static auto* triangles = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2957,7 +2957,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetTriangles
 // Il2CppName: SetTriangles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<int>*, int, bool)>(&UnityEngine::Mesh::SetTriangles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::System::Collections::Generic::List_1<int>*, int, bool)>(&UnityEngine::Mesh::SetTriangles)> {
   static const MethodInfo* get() {
     static auto* triangles = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2968,7 +2968,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetTriangles
 // Il2CppName: SetTriangles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<int>*, int, bool, int)>(&UnityEngine::Mesh::SetTriangles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::System::Collections::Generic::List_1<int>*, int, bool, int)>(&UnityEngine::Mesh::SetTriangles)> {
   static const MethodInfo* get() {
     static auto* triangles = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2980,7 +2980,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetTriangles
 // Il2CppName: SetTriangles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<int>*, int, int, int, bool, int)>(&UnityEngine::Mesh::SetTriangles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::System::Collections::Generic::List_1<int>*, int, int, int, bool, int)>(&UnityEngine::Mesh::SetTriangles)> {
   static const MethodInfo* get() {
     static auto* triangles = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     static auto* trianglesStart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2994,7 +2994,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetTriangles
 // Il2CppName: SetTriangles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<uint16_t>*, int, bool, int)>(&UnityEngine::Mesh::SetTriangles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::System::Collections::Generic::List_1<uint16_t>*, int, bool, int)>(&UnityEngine::Mesh::SetTriangles)> {
   static const MethodInfo* get() {
     static auto* triangles = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "UInt16")})->byval_arg;
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -3006,7 +3006,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetTriangles
 // Il2CppName: SetTriangles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<uint16_t>*, int, int, int, bool, int)>(&UnityEngine::Mesh::SetTriangles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::System::Collections::Generic::List_1<uint16_t>*, int, int, int, bool, int)>(&UnityEngine::Mesh::SetTriangles)> {
   static const MethodInfo* get() {
     static auto* triangles = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "UInt16")})->byval_arg;
     static auto* trianglesStart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -3020,7 +3020,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetIndices
 // Il2CppName: SetIndices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<int>, UnityEngine::MeshTopology, int)>(&UnityEngine::Mesh::SetIndices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<int>, ::UnityEngine::MeshTopology, int)>(&UnityEngine::Mesh::SetIndices)> {
   static const MethodInfo* get() {
     static auto* indices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* topology = &::il2cpp_utils::GetClassFromName("UnityEngine", "MeshTopology")->byval_arg;
@@ -3031,7 +3031,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetIndices
 // Il2CppName: SetIndices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<int>, UnityEngine::MeshTopology, int, bool)>(&UnityEngine::Mesh::SetIndices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<int>, ::UnityEngine::MeshTopology, int, bool)>(&UnityEngine::Mesh::SetIndices)> {
   static const MethodInfo* get() {
     static auto* indices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* topology = &::il2cpp_utils::GetClassFromName("UnityEngine", "MeshTopology")->byval_arg;
@@ -3043,7 +3043,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetIndices
 // Il2CppName: SetIndices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<int>, UnityEngine::MeshTopology, int, bool, int)>(&UnityEngine::Mesh::SetIndices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<int>, ::UnityEngine::MeshTopology, int, bool, int)>(&UnityEngine::Mesh::SetIndices)> {
   static const MethodInfo* get() {
     static auto* indices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* topology = &::il2cpp_utils::GetClassFromName("UnityEngine", "MeshTopology")->byval_arg;
@@ -3056,7 +3056,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetIndices
 // Il2CppName: SetIndices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<int>, int, int, UnityEngine::MeshTopology, int, bool, int)>(&UnityEngine::Mesh::SetIndices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<int>, int, int, ::UnityEngine::MeshTopology, int, bool, int)>(&UnityEngine::Mesh::SetIndices)> {
   static const MethodInfo* get() {
     static auto* indices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* indicesStart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -3071,7 +3071,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetIndices
 // Il2CppName: SetIndices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<uint16_t>, UnityEngine::MeshTopology, int, bool, int)>(&UnityEngine::Mesh::SetIndices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<uint16_t>, ::UnityEngine::MeshTopology, int, bool, int)>(&UnityEngine::Mesh::SetIndices)> {
   static const MethodInfo* get() {
     static auto* indices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt16"), 1)->byval_arg;
     static auto* topology = &::il2cpp_utils::GetClassFromName("UnityEngine", "MeshTopology")->byval_arg;
@@ -3084,7 +3084,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetIndices
 // Il2CppName: SetIndices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<uint16_t>, int, int, UnityEngine::MeshTopology, int, bool, int)>(&UnityEngine::Mesh::SetIndices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<uint16_t>, int, int, ::UnityEngine::MeshTopology, int, bool, int)>(&UnityEngine::Mesh::SetIndices)> {
   static const MethodInfo* get() {
     static auto* indices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt16"), 1)->byval_arg;
     static auto* indicesStart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -3105,7 +3105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetIndices
 // Il2CppName: SetIndices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<int>*, UnityEngine::MeshTopology, int, bool, int)>(&UnityEngine::Mesh::SetIndices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::System::Collections::Generic::List_1<int>*, ::UnityEngine::MeshTopology, int, bool, int)>(&UnityEngine::Mesh::SetIndices)> {
   static const MethodInfo* get() {
     static auto* indices = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     static auto* topology = &::il2cpp_utils::GetClassFromName("UnityEngine", "MeshTopology")->byval_arg;
@@ -3118,7 +3118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetIndices
 // Il2CppName: SetIndices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<int>*, int, int, UnityEngine::MeshTopology, int, bool, int)>(&UnityEngine::Mesh::SetIndices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::System::Collections::Generic::List_1<int>*, int, int, ::UnityEngine::MeshTopology, int, bool, int)>(&UnityEngine::Mesh::SetIndices)> {
   static const MethodInfo* get() {
     static auto* indices = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     static auto* indicesStart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -3133,7 +3133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetIndices
 // Il2CppName: SetIndices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<uint16_t>*, UnityEngine::MeshTopology, int, bool, int)>(&UnityEngine::Mesh::SetIndices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::System::Collections::Generic::List_1<uint16_t>*, ::UnityEngine::MeshTopology, int, bool, int)>(&UnityEngine::Mesh::SetIndices)> {
   static const MethodInfo* get() {
     static auto* indices = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "UInt16")})->byval_arg;
     static auto* topology = &::il2cpp_utils::GetClassFromName("UnityEngine", "MeshTopology")->byval_arg;
@@ -3146,7 +3146,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetIndices
 // Il2CppName: SetIndices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<uint16_t>*, int, int, UnityEngine::MeshTopology, int, bool, int)>(&UnityEngine::Mesh::SetIndices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::System::Collections::Generic::List_1<uint16_t>*, int, int, ::UnityEngine::MeshTopology, int, bool, int)>(&UnityEngine::Mesh::SetIndices)> {
   static const MethodInfo* get() {
     static auto* indices = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "UInt16")})->byval_arg;
     static auto* indicesStart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -3161,7 +3161,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::GetBindposes
 // Il2CppName: GetBindposes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<UnityEngine::Matrix4x4>*)>(&UnityEngine::Mesh::GetBindposes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>*)>(&UnityEngine::Mesh::GetBindposes)> {
   static const MethodInfo* get() {
     static auto* bindposes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetBindposes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bindposes});
@@ -3170,7 +3170,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::GetBoneWeights
 // Il2CppName: GetBoneWeights
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<UnityEngine::BoneWeight>*)>(&UnityEngine::Mesh::GetBoneWeights)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::System::Collections::Generic::List_1<::UnityEngine::BoneWeight>*)>(&UnityEngine::Mesh::GetBoneWeights)> {
   static const MethodInfo* get() {
     static auto* boneWeights = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "BoneWeight")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetBoneWeights", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{boneWeights});
@@ -3261,7 +3261,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::GetTopology
 // Il2CppName: GetTopology
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::MeshTopology (UnityEngine::Mesh::*)(int)>(&UnityEngine::Mesh::GetTopology)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::MeshTopology (UnityEngine::Mesh::*)(int)>(&UnityEngine::Mesh::GetTopology)> {
   static const MethodInfo* get() {
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetTopology", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{submesh});
@@ -3270,7 +3270,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Mesh::CombineMeshes
 // Il2CppName: CombineMeshes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<UnityEngine::CombineInstance>, bool, bool, bool)>(&UnityEngine::Mesh::CombineMeshes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<::UnityEngine::CombineInstance>, bool, bool, bool)>(&UnityEngine::Mesh::CombineMeshes)> {
   static const MethodInfo* get() {
     static auto* combine = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "CombineInstance"), 1)->byval_arg;
     static auto* mergeSubMeshes = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -3282,7 +3282,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::CombineMeshes
 // Il2CppName: CombineMeshes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<UnityEngine::CombineInstance>, bool, bool)>(&UnityEngine::Mesh::CombineMeshes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<::UnityEngine::CombineInstance>, bool, bool)>(&UnityEngine::Mesh::CombineMeshes)> {
   static const MethodInfo* get() {
     static auto* combine = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "CombineInstance"), 1)->byval_arg;
     static auto* mergeSubMeshes = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -3293,7 +3293,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::CombineMeshes
 // Il2CppName: CombineMeshes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<UnityEngine::CombineInstance>, bool)>(&UnityEngine::Mesh::CombineMeshes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<::UnityEngine::CombineInstance>, bool)>(&UnityEngine::Mesh::CombineMeshes)> {
   static const MethodInfo* get() {
     static auto* combine = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "CombineInstance"), 1)->byval_arg;
     static auto* mergeSubMeshes = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -3303,7 +3303,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::CombineMeshes
 // Il2CppName: CombineMeshes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<UnityEngine::CombineInstance>)>(&UnityEngine::Mesh::CombineMeshes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::ArrayW<::UnityEngine::CombineInstance>)>(&UnityEngine::Mesh::CombineMeshes)> {
   static const MethodInfo* get() {
     static auto* combine = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "CombineInstance"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "CombineMeshes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{combine});
@@ -3312,7 +3312,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::GetVertexAttribute_Injected
 // Il2CppName: GetVertexAttribute_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, ByRef<UnityEngine::Rendering::VertexAttributeDescriptor>)>(&UnityEngine::Mesh::GetVertexAttribute_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, ByRef<::UnityEngine::Rendering::VertexAttributeDescriptor>)>(&UnityEngine::Mesh::GetVertexAttribute_Injected)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "VertexAttributeDescriptor")->this_arg;
@@ -3322,7 +3322,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::SetSubMesh_Injected
 // Il2CppName: SetSubMesh_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, ByRef<UnityEngine::Rendering::SubMeshDescriptor>, UnityEngine::Rendering::MeshUpdateFlags)>(&UnityEngine::Mesh::SetSubMesh_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, ByRef<::UnityEngine::Rendering::SubMeshDescriptor>, ::UnityEngine::Rendering::MeshUpdateFlags)>(&UnityEngine::Mesh::SetSubMesh_Injected)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* desc = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "SubMeshDescriptor")->this_arg;
@@ -3333,7 +3333,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::GetSubMesh_Injected
 // Il2CppName: GetSubMesh_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, ByRef<UnityEngine::Rendering::SubMeshDescriptor>)>(&UnityEngine::Mesh::GetSubMesh_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, ByRef<::UnityEngine::Rendering::SubMeshDescriptor>)>(&UnityEngine::Mesh::GetSubMesh_Injected)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "SubMeshDescriptor")->this_arg;
@@ -3343,7 +3343,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::get_bounds_Injected
 // Il2CppName: get_bounds_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(ByRef<UnityEngine::Bounds>)>(&UnityEngine::Mesh::get_bounds_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(ByRef<::UnityEngine::Bounds>)>(&UnityEngine::Mesh::get_bounds_Injected)> {
   static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Bounds")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "get_bounds_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
@@ -3352,7 +3352,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Mesh::set_bounds_Injected
 // Il2CppName: set_bounds_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(ByRef<UnityEngine::Bounds>)>(&UnityEngine::Mesh::set_bounds_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(ByRef<::UnityEngine::Bounds>)>(&UnityEngine::Mesh::set_bounds_Injected)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Bounds")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "set_bounds_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

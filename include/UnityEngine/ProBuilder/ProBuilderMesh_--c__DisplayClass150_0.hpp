@@ -20,8 +20,8 @@ namespace UnityEngine::ProBuilder {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::ProBuilderMesh::$$c__DisplayClass150_0);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ProBuilderMesh::$$c__DisplayClass150_0*, "UnityEngine.ProBuilder", "ProBuilderMesh/<>c__DisplayClass150_0");
+NEED_NO_BOX(::UnityEngine::ProBuilder::ProBuilderMesh::$$c__DisplayClass150_0);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::ProBuilderMesh::$$c__DisplayClass150_0*, "UnityEngine.ProBuilder", "ProBuilderMesh/<>c__DisplayClass150_0");
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
   // Size: 0x14
@@ -55,14 +55,14 @@ namespace UnityEngine::ProBuilder {
     int& dyn_i();
     // System.Boolean <GetUnusedTextureGroup>b__0(UnityEngine.ProBuilder.Face element)
     // Offset: 0x19108E8
-    bool $GetUnusedTextureGroup$b__0(UnityEngine::ProBuilder::Face* element);
+    bool $GetUnusedTextureGroup$b__0(::UnityEngine::ProBuilder::Face* element);
     // public System.Void .ctor()
     // Offset: 0x190D3B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProBuilderMesh::$$c__DisplayClass150_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::ProBuilderMesh::$$c__DisplayClass150_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::ProBuilderMesh::$$c__DisplayClass150_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProBuilderMesh::$$c__DisplayClass150_0*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.ProBuilderMesh/UnityEngine.ProBuilder.<>c__DisplayClass150_0
@@ -74,7 +74,7 @@ namespace UnityEngine::ProBuilder {
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::$$c__DisplayClass150_0::$GetUnusedTextureGroup$b__0
 // Il2CppName: <GetUnusedTextureGroup>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::ProBuilderMesh::$$c__DisplayClass150_0::*)(UnityEngine::ProBuilder::Face*)>(&UnityEngine::ProBuilder::ProBuilderMesh::$$c__DisplayClass150_0::$GetUnusedTextureGroup$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::ProBuilderMesh::$$c__DisplayClass150_0::*)(::UnityEngine::ProBuilder::Face*)>(&UnityEngine::ProBuilder::ProBuilderMesh::$$c__DisplayClass150_0::$GetUnusedTextureGroup$b__0)> {
   static const MethodInfo* get() {
     static auto* element = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ProBuilderMesh::$$c__DisplayClass150_0*), "<GetUnusedTextureGroup>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{element});

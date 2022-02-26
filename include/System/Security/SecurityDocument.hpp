@@ -25,8 +25,8 @@ namespace System::Security {
   class SecurityDocument;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Security::SecurityDocument);
-DEFINE_IL2CPP_ARG_TYPE(System::Security::SecurityDocument*, "System.Security", "SecurityDocument");
+NEED_NO_BOX(::System::Security::SecurityDocument);
+DEFINE_IL2CPP_ARG_TYPE(::System::Security::SecurityDocument*, "System.Security", "SecurityDocument");
 // Type namespace: System.Security
 namespace System::Security {
   // Size: 0x18
@@ -61,7 +61,7 @@ namespace System::Security {
     // Offset: 0x206A7F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SecurityDocument* New_ctor(int numData) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::SecurityDocument::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::SecurityDocument::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SecurityDocument*, creationType>(numData)));
     }
     // public System.Void GuaranteeSize(System.Int32 size)
@@ -84,13 +84,13 @@ namespace System::Security {
     void AddToken(uint8_t b, ByRef<int> position);
     // public System.Security.SecurityElement GetRootElement()
     // Offset: 0x206AF10
-    System::Security::SecurityElement* GetRootElement();
+    ::System::Security::SecurityElement* GetRootElement();
     // public System.Security.SecurityElement GetElement(System.Int32 position, System.Boolean bCreate)
     // Offset: 0x206AF38
-    System::Security::SecurityElement* GetElement(int position, bool bCreate);
+    ::System::Security::SecurityElement* GetElement(int position, bool bCreate);
     // System.Security.SecurityElement InternalGetElement(ref System.Int32 position, System.Boolean bCreate)
     // Offset: 0x206AF60
-    System::Security::SecurityElement* InternalGetElement(ByRef<int> position, bool bCreate);
+    ::System::Security::SecurityElement* InternalGetElement(ByRef<int> position, bool bCreate);
   }; // System.Security.SecurityDocument
   #pragma pack(pop)
   static check_size<sizeof(SecurityDocument), 16 + sizeof(::ArrayW<uint8_t>)> __System_Security_SecurityDocumentSizeCheck;
@@ -162,7 +162,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::SecurityDocument::GetRootElement
 // Il2CppName: GetRootElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::SecurityElement* (System::Security::SecurityDocument::*)()>(&System::Security::SecurityDocument::GetRootElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::SecurityElement* (System::Security::SecurityDocument::*)()>(&System::Security::SecurityDocument::GetRootElement)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::SecurityDocument*), "GetRootElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -170,7 +170,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Writing MetadataGetter for method: System::Security::SecurityDocument::GetElement
 // Il2CppName: GetElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::SecurityElement* (System::Security::SecurityDocument::*)(int, bool)>(&System::Security::SecurityDocument::GetElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::SecurityElement* (System::Security::SecurityDocument::*)(int, bool)>(&System::Security::SecurityDocument::GetElement)> {
   static const MethodInfo* get() {
     static auto* position = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* bCreate = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -180,7 +180,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Writing MetadataGetter for method: System::Security::SecurityDocument::InternalGetElement
 // Il2CppName: InternalGetElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::SecurityElement* (System::Security::SecurityDocument::*)(ByRef<int>, bool)>(&System::Security::SecurityDocument::InternalGetElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::SecurityElement* (System::Security::SecurityDocument::*)(ByRef<int>, bool)>(&System::Security::SecurityDocument::InternalGetElement)> {
   static const MethodInfo* get() {
     static auto* position = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* bCreate = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

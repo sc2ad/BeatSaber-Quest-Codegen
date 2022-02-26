@@ -22,8 +22,8 @@ namespace UnityEngine {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::LocalizedTextAsset::TextInfo);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalizedTextAsset::TextInfo*, "", "LocalizedTextAsset/TextInfo");
+NEED_NO_BOX(::GlobalNamespace::LocalizedTextAsset::TextInfo);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LocalizedTextAsset::TextInfo*, "", "LocalizedTextAsset/TextInfo");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -44,34 +44,34 @@ namespace GlobalNamespace {
     // public Polyglot.Language language
     // Size: 0x4
     // Offset: 0x10
-    Polyglot::Language language;
+    ::Polyglot::Language language;
     // Field size check
-    static_assert(sizeof(Polyglot::Language) == 0x4);
+    static_assert(sizeof(::Polyglot::Language) == 0x4);
     // Padding between fields: language and: localizedText
     char __padding0[0x4] = {};
     // public UnityEngine.TextAsset localizedText
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::TextAsset* localizedText;
+    ::UnityEngine::TextAsset* localizedText;
     // Field size check
-    static_assert(sizeof(UnityEngine::TextAsset*) == 0x8);
+    static_assert(sizeof(::UnityEngine::TextAsset*) == 0x8);
     public:
     // Get instance field reference: public Polyglot.Language language
-    Polyglot::Language& dyn_language();
+    ::Polyglot::Language& dyn_language();
     // Get instance field reference: public UnityEngine.TextAsset localizedText
-    UnityEngine::TextAsset*& dyn_localizedText();
+    ::UnityEngine::TextAsset*& dyn_localizedText();
     // public System.Void .ctor()
     // Offset: 0x2BA60EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalizedTextAsset::TextInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LocalizedTextAsset::TextInfo::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LocalizedTextAsset::TextInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalizedTextAsset::TextInfo*, creationType>()));
     }
   }; // LocalizedTextAsset/TextInfo
   #pragma pack(pop)
-  static check_size<sizeof(LocalizedTextAsset::TextInfo), 24 + sizeof(UnityEngine::TextAsset*)> __GlobalNamespace_LocalizedTextAsset_TextInfoSizeCheck;
+  static check_size<sizeof(LocalizedTextAsset::TextInfo), 24 + sizeof(::UnityEngine::TextAsset*)> __GlobalNamespace_LocalizedTextAsset_TextInfoSizeCheck;
   static_assert(sizeof(LocalizedTextAsset::TextInfo) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -25,8 +25,8 @@ namespace UnityEngine {
   class RemoteSettings;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::RemoteSettings);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RemoteSettings*, "UnityEngine", "RemoteSettings");
+NEED_NO_BOX(::UnityEngine::RemoteSettings);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::RemoteSettings*, "UnityEngine", "RemoteSettings");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -37,23 +37,23 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: 121C078
   class RemoteSettings : public ::Il2CppObject {
     public:
-    // Nested type: UnityEngine::RemoteSettings::UpdatedEventHandler
+    // Nested type: ::UnityEngine::RemoteSettings::UpdatedEventHandler
     class UpdatedEventHandler;
     // [DebuggerBrowsableAttribute] Offset: 0x121C258
     // Get static field: static private UnityEngine.RemoteSettings/UnityEngine.UpdatedEventHandler Updated
-    static UnityEngine::RemoteSettings::UpdatedEventHandler* _get_Updated();
+    static ::UnityEngine::RemoteSettings::UpdatedEventHandler* _get_Updated();
     // Set static field: static private UnityEngine.RemoteSettings/UnityEngine.UpdatedEventHandler Updated
-    static void _set_Updated(UnityEngine::RemoteSettings::UpdatedEventHandler* value);
+    static void _set_Updated(::UnityEngine::RemoteSettings::UpdatedEventHandler* value);
     // [DebuggerBrowsableAttribute] Offset: 0x121C294
     // Get static field: static private System.Action BeforeFetchFromServer
-    static System::Action* _get_BeforeFetchFromServer();
+    static ::System::Action* _get_BeforeFetchFromServer();
     // Set static field: static private System.Action BeforeFetchFromServer
-    static void _set_BeforeFetchFromServer(System::Action* value);
+    static void _set_BeforeFetchFromServer(::System::Action* value);
     // [DebuggerBrowsableAttribute] Offset: 0x121C2D0
     // Get static field: static private System.Action`3<System.Boolean,System.Boolean,System.Int32> Completed
-    static System::Action_3<bool, bool, int>* _get_Completed();
+    static ::System::Action_3<bool, bool, int>* _get_Completed();
     // Set static field: static private System.Action`3<System.Boolean,System.Boolean,System.Int32> Completed
-    static void _set_Completed(System::Action_3<bool, bool, int>* value);
+    static void _set_Completed(::System::Action_3<bool, bool, int>* value);
     // static System.Void RemoteSettingsUpdated(System.Boolean wasLastUpdatedFromServer)
     // Offset: 0x2A6030C
     static void RemoteSettingsUpdated(bool wasLastUpdatedFromServer);

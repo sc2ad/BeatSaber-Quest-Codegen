@@ -24,8 +24,8 @@ namespace UnityEngine::AddressableAssets::Utility {
   class SerializationUtilities;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::AddressableAssets::Utility::SerializationUtilities);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Utility::SerializationUtilities*, "UnityEngine.AddressableAssets.Utility", "SerializationUtilities");
+NEED_NO_BOX(::UnityEngine::AddressableAssets::Utility::SerializationUtilities);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AddressableAssets::Utility::SerializationUtilities*, "UnityEngine.AddressableAssets.Utility", "SerializationUtilities");
 // Type namespace: UnityEngine.AddressableAssets.Utility
 namespace UnityEngine::AddressableAssets::Utility {
   // Size: 0x10
@@ -34,7 +34,7 @@ namespace UnityEngine::AddressableAssets::Utility {
   // [TokenAttribute] Offset: FFFFFFFF
   class SerializationUtilities : public ::Il2CppObject {
     public:
-    // Nested type: UnityEngine::AddressableAssets::Utility::SerializationUtilities::ObjectType
+    // Nested type: ::UnityEngine::AddressableAssets::Utility::SerializationUtilities::ObjectType
     struct ObjectType;
     // static System.Int32 ReadInt32FromByteArray(System.Byte[] data, System.Int32 offset)
     // Offset: 0x2A2D58C
@@ -47,7 +47,7 @@ namespace UnityEngine::AddressableAssets::Utility {
     static ::Il2CppObject* ReadObjectFromByteArray(::ArrayW<uint8_t> keyData, int dataIndex);
     // static System.Int32 WriteObjectToByteList(System.Object obj, System.Collections.Generic.List`1<System.Byte> buffer)
     // Offset: 0x2A2DC98
-    static int WriteObjectToByteList(::Il2CppObject* obj, System::Collections::Generic::List_1<uint8_t>* buffer);
+    static int WriteObjectToByteList(::Il2CppObject* obj, ::System::Collections::Generic::List_1<uint8_t>* buffer);
   }; // UnityEngine.AddressableAssets.Utility.SerializationUtilities
   #pragma pack(pop)
 }
@@ -86,7 +86,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Utility::SerializationUtilities::WriteObjectToByteList
 // Il2CppName: WriteObjectToByteList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppObject*, System::Collections::Generic::List_1<uint8_t>*)>(&UnityEngine::AddressableAssets::Utility::SerializationUtilities::WriteObjectToByteList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppObject*, ::System::Collections::Generic::List_1<uint8_t>*)>(&UnityEngine::AddressableAssets::Utility::SerializationUtilities::WriteObjectToByteList)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* buffer = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Byte")})->byval_arg;

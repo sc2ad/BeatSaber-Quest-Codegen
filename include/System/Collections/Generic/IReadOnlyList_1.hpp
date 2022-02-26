@@ -18,7 +18,7 @@ namespace System::Collections::Generic {
   class IReadOnlyList_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Collections::Generic::IReadOnlyList_1, "System.Collections.Generic", "IReadOnlyList`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Collections::Generic::IReadOnlyList_1, "System.Collections.Generic", "IReadOnlyList`1");
 // Type namespace: System.Collections.Generic
 namespace System::Collections::Generic {
   // WARNING Size may be invalid!
@@ -27,16 +27,16 @@ namespace System::Collections::Generic {
   // [TypeDependencyAttribute] Offset: 118D44C
   // [DefaultMemberAttribute] Offset: 118D44C
   template<typename T>
-  class IReadOnlyList_1/*, public System::Collections::Generic::IReadOnlyCollection_1<T>*/ {
+  class IReadOnlyList_1/*, public ::System::Collections::Generic::IReadOnlyCollection_1<T>*/ {
     public:
-    // Creating interface conversion operator: operator System::Collections::Generic::IReadOnlyCollection_1<T>
-    operator System::Collections::Generic::IReadOnlyCollection_1<T>() noexcept {
-      return *reinterpret_cast<System::Collections::Generic::IReadOnlyCollection_1<T>*>(this);
+    // Creating interface conversion operator: operator ::System::Collections::Generic::IReadOnlyCollection_1<T>
+    operator ::System::Collections::Generic::IReadOnlyCollection_1<T>() noexcept {
+      return *reinterpret_cast<::System::Collections::Generic::IReadOnlyCollection_1<T>*>(this);
     }
     // public T get_Item(System.Int32 index)
     // Offset: 0xFFFFFFFF
     T get_Item(int index) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::IReadOnlyList_1::get_Item");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Generic::IReadOnlyList_1::get_Item");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_Item", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(index)})));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___internal__method, index);
     }

@@ -25,8 +25,8 @@ namespace System::Linq::Expressions {
   class SwitchCase;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Linq::Expressions::SwitchCase);
-DEFINE_IL2CPP_ARG_TYPE(System::Linq::Expressions::SwitchCase*, "System.Linq.Expressions", "SwitchCase");
+NEED_NO_BOX(::System::Linq::Expressions::SwitchCase);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::SwitchCase*, "System.Linq.Expressions", "SwitchCase");
 // Type namespace: System.Linq.Expressions
 namespace System::Linq::Expressions {
   // Size: 0x20
@@ -48,36 +48,36 @@ namespace System::Linq::Expressions {
     // private readonly System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.Expression> <TestValues>k__BackingField
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::ObjectModel::ReadOnlyCollection_1<System::Linq::Expressions::Expression*>* TestValues;
+    ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* TestValues;
     // Field size check
-    static_assert(sizeof(System::Collections::ObjectModel::ReadOnlyCollection_1<System::Linq::Expressions::Expression*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>*) == 0x8);
     // private readonly System.Linq.Expressions.Expression <Body>k__BackingField
     // Size: 0x8
     // Offset: 0x18
-    System::Linq::Expressions::Expression* Body;
+    ::System::Linq::Expressions::Expression* Body;
     // Field size check
-    static_assert(sizeof(System::Linq::Expressions::Expression*) == 0x8);
+    static_assert(sizeof(::System::Linq::Expressions::Expression*) == 0x8);
     public:
     // Get instance field reference: private readonly System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.Expression> <TestValues>k__BackingField
-    System::Collections::ObjectModel::ReadOnlyCollection_1<System::Linq::Expressions::Expression*>*& dyn_$TestValues$k__BackingField();
+    ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>*& dyn_$TestValues$k__BackingField();
     // Get instance field reference: private readonly System.Linq.Expressions.Expression <Body>k__BackingField
-    System::Linq::Expressions::Expression*& dyn_$Body$k__BackingField();
+    ::System::Linq::Expressions::Expression*& dyn_$Body$k__BackingField();
     // public System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.Expression> get_TestValues()
     // Offset: 0x297CFD0
-    System::Collections::ObjectModel::ReadOnlyCollection_1<System::Linq::Expressions::Expression*>* get_TestValues();
+    ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* get_TestValues();
     // public System.Linq.Expressions.Expression get_Body()
     // Offset: 0x297CFD8
-    System::Linq::Expressions::Expression* get_Body();
+    ::System::Linq::Expressions::Expression* get_Body();
   }; // System.Linq.Expressions.SwitchCase
   #pragma pack(pop)
-  static check_size<sizeof(SwitchCase), 24 + sizeof(System::Linq::Expressions::Expression*)> __System_Linq_Expressions_SwitchCaseSizeCheck;
+  static check_size<sizeof(SwitchCase), 24 + sizeof(::System::Linq::Expressions::Expression*)> __System_Linq_Expressions_SwitchCaseSizeCheck;
   static_assert(sizeof(SwitchCase) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Linq::Expressions::SwitchCase::get_TestValues
 // Il2CppName: get_TestValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ObjectModel::ReadOnlyCollection_1<System::Linq::Expressions::Expression*>* (System::Linq::Expressions::SwitchCase::*)()>(&System::Linq::Expressions::SwitchCase::get_TestValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* (System::Linq::Expressions::SwitchCase::*)()>(&System::Linq::Expressions::SwitchCase::get_TestValues)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::SwitchCase*), "get_TestValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -85,7 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::Linq::Expressions::SwitchCase::get_Body
 // Il2CppName: get_Body
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Linq::Expressions::Expression* (System::Linq::Expressions::SwitchCase::*)()>(&System::Linq::Expressions::SwitchCase::get_Body)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (System::Linq::Expressions::SwitchCase::*)()>(&System::Linq::Expressions::SwitchCase::get_Body)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::SwitchCase*), "get_Body", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

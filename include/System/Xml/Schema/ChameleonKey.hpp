@@ -29,8 +29,8 @@ namespace System::Xml::Schema {
   class ChameleonKey;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Schema::ChameleonKey);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::ChameleonKey*, "System.Xml.Schema", "ChameleonKey");
+NEED_NO_BOX(::System::Xml::Schema::ChameleonKey);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::ChameleonKey*, "System.Xml.Schema", "ChameleonKey");
 // Type namespace: System.Xml.Schema
 namespace System::Xml::Schema {
   // Size: 0x2C
@@ -57,15 +57,15 @@ namespace System::Xml::Schema {
     // System.Uri chameleonLocation
     // Size: 0x8
     // Offset: 0x18
-    System::Uri* chameleonLocation;
+    ::System::Uri* chameleonLocation;
     // Field size check
-    static_assert(sizeof(System::Uri*) == 0x8);
+    static_assert(sizeof(::System::Uri*) == 0x8);
     // System.Xml.Schema.XmlSchema originalSchema
     // Size: 0x8
     // Offset: 0x20
-    System::Xml::Schema::XmlSchema* originalSchema;
+    ::System::Xml::Schema::XmlSchema* originalSchema;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::XmlSchema*) == 0x8);
+    static_assert(sizeof(::System::Xml::Schema::XmlSchema*) == 0x8);
     // private System.Int32 hashCode
     // Size: 0x4
     // Offset: 0x28
@@ -76,16 +76,16 @@ namespace System::Xml::Schema {
     // Get instance field reference: System.String targetNS
     ::StringW& dyn_targetNS();
     // Get instance field reference: System.Uri chameleonLocation
-    System::Uri*& dyn_chameleonLocation();
+    ::System::Uri*& dyn_chameleonLocation();
     // Get instance field reference: System.Xml.Schema.XmlSchema originalSchema
-    System::Xml::Schema::XmlSchema*& dyn_originalSchema();
+    ::System::Xml::Schema::XmlSchema*& dyn_originalSchema();
     // Get instance field reference: private System.Int32 hashCode
     int& dyn_hashCode();
     // public System.Void .ctor(System.String ns, System.Xml.Schema.XmlSchema originalSchema)
     // Offset: 0x16F6264
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ChameleonKey* New_ctor(::StringW ns, System::Xml::Schema::XmlSchema* originalSchema) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Schema::ChameleonKey::.ctor");
+    static ChameleonKey* New_ctor(::StringW ns, ::System::Xml::Schema::XmlSchema* originalSchema) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::ChameleonKey::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ChameleonKey*, creationType>(ns, originalSchema)));
     }
     // public override System.Int32 GetHashCode()

@@ -39,8 +39,8 @@ namespace GlobalNamespace {
   class MultiplayerResultsData;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MultiplayerResultsData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerResultsData*, "", "MultiplayerResultsData");
+NEED_NO_BOX(::GlobalNamespace::MultiplayerResultsData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerResultsData*, "", "MultiplayerResultsData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x30
@@ -67,52 +67,52 @@ namespace GlobalNamespace {
     // private readonly MultiplayerPlayerResultsData _localPlayerResultData
     // Size: 0x8
     // Offset: 0x18
-    GlobalNamespace::MultiplayerPlayerResultsData* localPlayerResultData;
+    ::GlobalNamespace::MultiplayerPlayerResultsData* localPlayerResultData;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::MultiplayerPlayerResultsData*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::MultiplayerPlayerResultsData*) == 0x8);
     // private readonly System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> _otherPlayersData
     // Size: 0x8
     // Offset: 0x20
-    System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* otherPlayersData;
+    ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* otherPlayersData;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>*) == 0x8);
     // private readonly System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> _allPlayersSortedData
     // Size: 0x8
     // Offset: 0x28
-    System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* allPlayersSortedData;
+    ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* allPlayersSortedData;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>*) == 0x8);
     public:
     // Get instance field reference: private readonly System.String _gameId
     ::StringW& dyn__gameId();
     // Get instance field reference: private readonly MultiplayerPlayerResultsData _localPlayerResultData
-    GlobalNamespace::MultiplayerPlayerResultsData*& dyn__localPlayerResultData();
+    ::GlobalNamespace::MultiplayerPlayerResultsData*& dyn__localPlayerResultData();
     // Get instance field reference: private readonly System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> _otherPlayersData
-    System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>*& dyn__otherPlayersData();
+    ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>*& dyn__otherPlayersData();
     // Get instance field reference: private readonly System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> _allPlayersSortedData
-    System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>*& dyn__allPlayersSortedData();
+    ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>*& dyn__allPlayersSortedData();
     // public System.String get_gameId()
     // Offset: 0x2AA6C54
     ::StringW get_gameId();
     // public MultiplayerPlayerResultsData get_localPlayerResultData()
     // Offset: 0x2AA6C5C
-    GlobalNamespace::MultiplayerPlayerResultsData* get_localPlayerResultData();
+    ::GlobalNamespace::MultiplayerPlayerResultsData* get_localPlayerResultData();
     // public System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> get_otherPlayersData()
     // Offset: 0x2AA6C64
-    System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* get_otherPlayersData();
+    ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* get_otherPlayersData();
     // public System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> get_allPlayersSortedData()
     // Offset: 0x2AA6C6C
-    System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* get_allPlayersSortedData();
+    ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* get_allPlayersSortedData();
     // public System.Void .ctor(System.String gameId, MultiplayerLevelCompletionResults localPlayerResultData, System.Collections.Generic.Dictionary`2<System.String,MultiplayerLevelCompletionResults> otherPlayersResultData, MultiplayerBadgesProvider badgesProvider, IMultiplayerSessionManager multiplayerSessionManager)
     // Offset: 0x2AA6C74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MultiplayerResultsData* New_ctor(::StringW gameId, GlobalNamespace::MultiplayerLevelCompletionResults* localPlayerResultData, System::Collections::Generic::Dictionary_2<::StringW, GlobalNamespace::MultiplayerLevelCompletionResults*>* otherPlayersResultData, GlobalNamespace::MultiplayerBadgesProvider* badgesProvider, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerResultsData::.ctor");
+    static MultiplayerResultsData* New_ctor(::StringW gameId, ::GlobalNamespace::MultiplayerLevelCompletionResults* localPlayerResultData, ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>* otherPlayersResultData, ::GlobalNamespace::MultiplayerBadgesProvider* badgesProvider, ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerResultsData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerResultsData*, creationType>(gameId, localPlayerResultData, otherPlayersResultData, badgesProvider, multiplayerSessionManager)));
     }
   }; // MultiplayerResultsData
   #pragma pack(pop)
-  static check_size<sizeof(MultiplayerResultsData), 40 + sizeof(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>*)> __GlobalNamespace_MultiplayerResultsDataSizeCheck;
+  static check_size<sizeof(MultiplayerResultsData), 40 + sizeof(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>*)> __GlobalNamespace_MultiplayerResultsDataSizeCheck;
   static_assert(sizeof(MultiplayerResultsData) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -127,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsData::get_localPlayerResultData
 // Il2CppName: get_localPlayerResultData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerPlayerResultsData* (GlobalNamespace::MultiplayerResultsData::*)()>(&GlobalNamespace::MultiplayerResultsData::get_localPlayerResultData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MultiplayerPlayerResultsData* (GlobalNamespace::MultiplayerResultsData::*)()>(&GlobalNamespace::MultiplayerResultsData::get_localPlayerResultData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerResultsData*), "get_localPlayerResultData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -135,7 +135,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsData::get_otherPlayersData
 // Il2CppName: get_otherPlayersData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* (GlobalNamespace::MultiplayerResultsData::*)()>(&GlobalNamespace::MultiplayerResultsData::get_otherPlayersData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* (GlobalNamespace::MultiplayerResultsData::*)()>(&GlobalNamespace::MultiplayerResultsData::get_otherPlayersData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerResultsData*), "get_otherPlayersData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -143,7 +143,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsData::get_allPlayersSortedData
 // Il2CppName: get_allPlayersSortedData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* (GlobalNamespace::MultiplayerResultsData::*)()>(&GlobalNamespace::MultiplayerResultsData::get_allPlayersSortedData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* (GlobalNamespace::MultiplayerResultsData::*)()>(&GlobalNamespace::MultiplayerResultsData::get_allPlayersSortedData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerResultsData*), "get_allPlayersSortedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

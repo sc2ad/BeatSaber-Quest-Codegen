@@ -16,7 +16,7 @@ namespace GlobalNamespace {
   class IValue_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::IValue_1, "", "IValue`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::IValue_1, "", "IValue`1");
 // Type namespace: 
 namespace GlobalNamespace {
   // WARNING Size may be invalid!
@@ -28,14 +28,14 @@ namespace GlobalNamespace {
     // public T get_value()
     // Offset: 0xFFFFFFFF
     T get_value() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IValue_1::get_value");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::IValue_1::get_value");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "get_value", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___internal__method);
     }
     // public System.Void set_value(T value)
     // Offset: 0xFFFFFFFF
     void set_value(T value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IValue_1::set_value");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::IValue_1::set_value");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "set_value", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, value);
     }

@@ -20,8 +20,8 @@ namespace System::Net::NetworkInformation {
   class Win32NetworkInterface;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::NetworkInformation::Win32NetworkInterface);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32NetworkInterface*, "System.Net.NetworkInformation", "Win32NetworkInterface");
+NEED_NO_BOX(::System::Net::NetworkInformation::Win32NetworkInterface);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::Win32NetworkInterface*, "System.Net.NetworkInformation", "Win32NetworkInterface");
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {
   // Size: 0x10
@@ -31,19 +31,19 @@ namespace System::Net::NetworkInformation {
   class Win32NetworkInterface : public ::Il2CppObject {
     public:
     // Get static field: static private System.Net.NetworkInformation.Win32_FIXED_INFO fixedInfo
-    static System::Net::NetworkInformation::Win32_FIXED_INFO _get_fixedInfo();
+    static ::System::Net::NetworkInformation::Win32_FIXED_INFO _get_fixedInfo();
     // Set static field: static private System.Net.NetworkInformation.Win32_FIXED_INFO fixedInfo
-    static void _set_fixedInfo(System::Net::NetworkInformation::Win32_FIXED_INFO value);
+    static void _set_fixedInfo(::System::Net::NetworkInformation::Win32_FIXED_INFO value);
     // Get static field: static private System.Boolean initialized
     static bool _get_initialized();
     // Set static field: static private System.Boolean initialized
     static void _set_initialized(bool value);
     // static public System.Net.NetworkInformation.Win32_FIXED_INFO get_FixedInfo()
     // Offset: 0x17ADA74
-    static System::Net::NetworkInformation::Win32_FIXED_INFO get_FixedInfo();
+    static ::System::Net::NetworkInformation::Win32_FIXED_INFO get_FixedInfo();
     // static private System.Int32 GetNetworkParams(System.IntPtr ptr, ref System.Int32 size)
     // Offset: 0x17AE280
-    static int GetNetworkParams(System::IntPtr ptr, ByRef<int> size);
+    static int GetNetworkParams(::System::IntPtr ptr, ByRef<int> size);
   }; // System.Net.NetworkInformation.Win32NetworkInterface
   #pragma pack(pop)
 }
@@ -51,7 +51,7 @@ namespace System::Net::NetworkInformation {
 // Writing MetadataGetter for method: System::Net::NetworkInformation::Win32NetworkInterface::get_FixedInfo
 // Il2CppName: get_FixedInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::Win32_FIXED_INFO (*)()>(&System::Net::NetworkInformation::Win32NetworkInterface::get_FixedInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::NetworkInformation::Win32_FIXED_INFO (*)()>(&System::Net::NetworkInformation::Win32NetworkInterface::get_FixedInfo)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::Win32NetworkInterface*), "get_FixedInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -59,7 +59,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Writing MetadataGetter for method: System::Net::NetworkInformation::Win32NetworkInterface::GetNetworkParams
 // Il2CppName: GetNetworkParams
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, ByRef<int>)>(&System::Net::NetworkInformation::Win32NetworkInterface::GetNetworkParams)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::System::IntPtr, ByRef<int>)>(&System::Net::NetworkInformation::Win32NetworkInterface::GetNetworkParams)> {
   static const MethodInfo* get() {
     static auto* ptr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;

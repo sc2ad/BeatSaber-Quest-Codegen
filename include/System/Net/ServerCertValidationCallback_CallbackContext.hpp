@@ -24,8 +24,8 @@ namespace System::Security::Cryptography::X509Certificates {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::ServerCertValidationCallback::CallbackContext);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::ServerCertValidationCallback::CallbackContext*, "System.Net", "ServerCertValidationCallback/CallbackContext");
+NEED_NO_BOX(::System::Net::ServerCertValidationCallback::CallbackContext);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::ServerCertValidationCallback::CallbackContext*, "System.Net", "ServerCertValidationCallback/CallbackContext");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x2D
@@ -52,21 +52,21 @@ namespace System::Net {
     // readonly System.Security.Cryptography.X509Certificates.X509Certificate certificate
     // Size: 0x8
     // Offset: 0x18
-    System::Security::Cryptography::X509Certificates::X509Certificate* certificate;
+    ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate;
     // Field size check
-    static_assert(sizeof(System::Security::Cryptography::X509Certificates::X509Certificate*) == 0x8);
+    static_assert(sizeof(::System::Security::Cryptography::X509Certificates::X509Certificate*) == 0x8);
     // readonly System.Security.Cryptography.X509Certificates.X509Chain chain
     // Size: 0x8
     // Offset: 0x20
-    System::Security::Cryptography::X509Certificates::X509Chain* chain;
+    ::System::Security::Cryptography::X509Certificates::X509Chain* chain;
     // Field size check
-    static_assert(sizeof(System::Security::Cryptography::X509Certificates::X509Chain*) == 0x8);
+    static_assert(sizeof(::System::Security::Cryptography::X509Certificates::X509Chain*) == 0x8);
     // readonly System.Net.Security.SslPolicyErrors sslPolicyErrors
     // Size: 0x4
     // Offset: 0x28
-    System::Net::Security::SslPolicyErrors sslPolicyErrors;
+    ::System::Net::Security::SslPolicyErrors sslPolicyErrors;
     // Field size check
-    static_assert(sizeof(System::Net::Security::SslPolicyErrors) == 0x4);
+    static_assert(sizeof(::System::Net::Security::SslPolicyErrors) == 0x4);
     // System.Boolean result
     // Size: 0x1
     // Offset: 0x2C
@@ -77,18 +77,18 @@ namespace System::Net {
     // Get instance field reference: readonly System.Object request
     ::Il2CppObject*& dyn_request();
     // Get instance field reference: readonly System.Security.Cryptography.X509Certificates.X509Certificate certificate
-    System::Security::Cryptography::X509Certificates::X509Certificate*& dyn_certificate();
+    ::System::Security::Cryptography::X509Certificates::X509Certificate*& dyn_certificate();
     // Get instance field reference: readonly System.Security.Cryptography.X509Certificates.X509Chain chain
-    System::Security::Cryptography::X509Certificates::X509Chain*& dyn_chain();
+    ::System::Security::Cryptography::X509Certificates::X509Chain*& dyn_chain();
     // Get instance field reference: readonly System.Net.Security.SslPolicyErrors sslPolicyErrors
-    System::Net::Security::SslPolicyErrors& dyn_sslPolicyErrors();
+    ::System::Net::Security::SslPolicyErrors& dyn_sslPolicyErrors();
     // Get instance field reference: System.Boolean result
     bool& dyn_result();
     // System.Void .ctor(System.Object request, System.Security.Cryptography.X509Certificates.X509Certificate certificate, System.Security.Cryptography.X509Certificates.X509Chain chain, System.Net.Security.SslPolicyErrors sslPolicyErrors)
     // Offset: 0x17B2B78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ServerCertValidationCallback::CallbackContext* New_ctor(::Il2CppObject* request, System::Security::Cryptography::X509Certificates::X509Certificate* certificate, System::Security::Cryptography::X509Certificates::X509Chain* chain, System::Net::Security::SslPolicyErrors sslPolicyErrors) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::ServerCertValidationCallback::CallbackContext::.ctor");
+    static ServerCertValidationCallback::CallbackContext* New_ctor(::Il2CppObject* request, ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate, ::System::Security::Cryptography::X509Certificates::X509Chain* chain, ::System::Net::Security::SslPolicyErrors sslPolicyErrors) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::ServerCertValidationCallback::CallbackContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ServerCertValidationCallback::CallbackContext*, creationType>(request, certificate, chain, sslPolicyErrors)));
     }
   }; // System.Net.ServerCertValidationCallback/System.Net.CallbackContext

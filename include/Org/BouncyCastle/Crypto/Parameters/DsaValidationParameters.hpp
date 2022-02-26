@@ -12,8 +12,8 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   class DsaValidationParameters;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters*, "Org.BouncyCastle.Crypto.Parameters", "DsaValidationParameters");
+NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters*, "Org.BouncyCastle.Crypto.Parameters", "DsaValidationParameters");
 // Type namespace: Org.BouncyCastle.Crypto.Parameters
 namespace Org::BouncyCastle::Crypto::Parameters {
   // Size: 0x10

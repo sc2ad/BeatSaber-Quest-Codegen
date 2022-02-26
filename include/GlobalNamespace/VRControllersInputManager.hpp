@@ -34,8 +34,8 @@ namespace GlobalNamespace {
   class VRControllersInputManager;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::VRControllersInputManager);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersInputManager*, "", "VRControllersInputManager");
+NEED_NO_BOX(::GlobalNamespace::VRControllersInputManager);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::VRControllersInputManager*, "", "VRControllersInputManager");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -57,12 +57,12 @@ namespace GlobalNamespace {
     // private IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::IVRPlatformHelper* vrPlatformHelper;
+    ::GlobalNamespace::IVRPlatformHelper* vrPlatformHelper;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::IVRPlatformHelper*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::IVRPlatformHelper*) == 0x8);
     public:
-    // Creating conversion operator: operator GlobalNamespace::IVRPlatformHelper*
-    constexpr operator GlobalNamespace::IVRPlatformHelper*() const noexcept {
+    // Creating conversion operator: operator ::GlobalNamespace::IVRPlatformHelper*
+    constexpr operator ::GlobalNamespace::IVRPlatformHelper*() const noexcept {
       return vrPlatformHelper;
     }
     // static field const value: static private System.String kTriggerLeftHand
@@ -132,16 +132,16 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kMenuButtonOculusTouch
     static void _set_kMenuButtonOculusTouch(::StringW value);
     // Get instance field reference: private IVRPlatformHelper _vrPlatformHelper
-    GlobalNamespace::IVRPlatformHelper*& dyn__vrPlatformHelper();
+    ::GlobalNamespace::IVRPlatformHelper*& dyn__vrPlatformHelper();
     // public System.Single TriggerValue(UnityEngine.XR.XRNode node)
     // Offset: 0x29A0AD8
-    float TriggerValue(UnityEngine::XR::XRNode node);
+    float TriggerValue(::UnityEngine::XR::XRNode node);
     // public System.Single VerticalAxisValue(UnityEngine.XR.XRNode node)
     // Offset: 0x29A0C78
-    float VerticalAxisValue(UnityEngine::XR::XRNode node);
+    float VerticalAxisValue(::UnityEngine::XR::XRNode node);
     // public System.Single HorizontalAxisValue(UnityEngine.XR.XRNode node)
     // Offset: 0x29A0D10
-    float HorizontalAxisValue(UnityEngine::XR::XRNode node);
+    float HorizontalAxisValue(::UnityEngine::XR::XRNode node);
     // public System.Boolean MenuButtonDown()
     // Offset: 0x29A11DC
     bool MenuButtonDown();
@@ -154,19 +154,19 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRControllersInputManager* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::VRControllersInputManager::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VRControllersInputManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRControllersInputManager*, creationType>()));
     }
   }; // VRControllersInputManager
   #pragma pack(pop)
-  static check_size<sizeof(VRControllersInputManager), 16 + sizeof(GlobalNamespace::IVRPlatformHelper*)> __GlobalNamespace_VRControllersInputManagerSizeCheck;
+  static check_size<sizeof(VRControllersInputManager), 16 + sizeof(::GlobalNamespace::IVRPlatformHelper*)> __GlobalNamespace_VRControllersInputManagerSizeCheck;
   static_assert(sizeof(VRControllersInputManager) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::VRControllersInputManager::TriggerValue
 // Il2CppName: TriggerValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::VRControllersInputManager::*)(UnityEngine::XR::XRNode)>(&GlobalNamespace::VRControllersInputManager::TriggerValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::VRControllersInputManager::*)(::UnityEngine::XR::XRNode)>(&GlobalNamespace::VRControllersInputManager::TriggerValue)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("UnityEngine.XR", "XRNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersInputManager*), "TriggerValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node});
@@ -175,7 +175,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Writing MetadataGetter for method: GlobalNamespace::VRControllersInputManager::VerticalAxisValue
 // Il2CppName: VerticalAxisValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::VRControllersInputManager::*)(UnityEngine::XR::XRNode)>(&GlobalNamespace::VRControllersInputManager::VerticalAxisValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::VRControllersInputManager::*)(::UnityEngine::XR::XRNode)>(&GlobalNamespace::VRControllersInputManager::VerticalAxisValue)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("UnityEngine.XR", "XRNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersInputManager*), "VerticalAxisValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node});
@@ -184,7 +184,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Writing MetadataGetter for method: GlobalNamespace::VRControllersInputManager::HorizontalAxisValue
 // Il2CppName: HorizontalAxisValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::VRControllersInputManager::*)(UnityEngine::XR::XRNode)>(&GlobalNamespace::VRControllersInputManager::HorizontalAxisValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::VRControllersInputManager::*)(::UnityEngine::XR::XRNode)>(&GlobalNamespace::VRControllersInputManager::HorizontalAxisValue)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("UnityEngine.XR", "XRNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersInputManager*), "HorizontalAxisValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node});

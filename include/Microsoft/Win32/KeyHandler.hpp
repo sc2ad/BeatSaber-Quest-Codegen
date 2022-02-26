@@ -37,8 +37,8 @@ namespace Microsoft::Win32 {
   class KeyHandler;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Microsoft::Win32::KeyHandler);
-DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::KeyHandler*, "Microsoft.Win32", "KeyHandler");
+NEED_NO_BOX(::Microsoft::Win32::KeyHandler);
+DEFINE_IL2CPP_ARG_TYPE(::Microsoft::Win32::KeyHandler*, "Microsoft.Win32", "KeyHandler");
 // Type namespace: Microsoft.Win32
 namespace Microsoft::Win32 {
   // Size: 0x39
@@ -79,9 +79,9 @@ namespace Microsoft::Win32 {
     // private System.Collections.Hashtable values
     // Size: 0x8
     // Offset: 0x28
-    System::Collections::Hashtable* values;
+    ::System::Collections::Hashtable* values;
     // Field size check
-    static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
+    static_assert(sizeof(::System::Collections::Hashtable*) == 0x8);
     // private System.String file
     // Size: 0x8
     // Offset: 0x30
@@ -96,13 +96,13 @@ namespace Microsoft::Win32 {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get static field: static private System.Collections.Hashtable key_to_handler
-    static System::Collections::Hashtable* _get_key_to_handler();
+    static ::System::Collections::Hashtable* _get_key_to_handler();
     // Set static field: static private System.Collections.Hashtable key_to_handler
-    static void _set_key_to_handler(System::Collections::Hashtable* value);
+    static void _set_key_to_handler(::System::Collections::Hashtable* value);
     // Get static field: static private System.Collections.Hashtable dir_to_handler
-    static System::Collections::Hashtable* _get_dir_to_handler();
+    static ::System::Collections::Hashtable* _get_dir_to_handler();
     // Set static field: static private System.Collections.Hashtable dir_to_handler
-    static void _set_dir_to_handler(System::Collections::Hashtable* value);
+    static void _set_dir_to_handler(::System::Collections::Hashtable* value);
     // Get static field: static private System.String user_store
     static ::StringW _get_user_store();
     // Set static field: static private System.String user_store
@@ -118,7 +118,7 @@ namespace Microsoft::Win32 {
     // Get instance field reference: public System.Boolean IsVolatile
     bool& dyn_IsVolatile();
     // Get instance field reference: private System.Collections.Hashtable values
-    System::Collections::Hashtable*& dyn_values();
+    ::System::Collections::Hashtable*& dyn_values();
     // Get instance field reference: private System.String file
     ::StringW& dyn_file();
     // Get instance field reference: private System.Boolean dirty
@@ -138,15 +138,15 @@ namespace Microsoft::Win32 {
     // private System.Void .ctor(Microsoft.Win32.RegistryKey rkey, System.String basedir)
     // Offset: 0x1E5FE04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static KeyHandler* New_ctor(Microsoft::Win32::RegistryKey* rkey, ::StringW basedir) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Microsoft::Win32::KeyHandler::.ctor");
+    static KeyHandler* New_ctor(::Microsoft::Win32::RegistryKey* rkey, ::StringW basedir) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Microsoft::Win32::KeyHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeyHandler*, creationType>(rkey, basedir)));
     }
     // private System.Void .ctor(Microsoft.Win32.RegistryKey rkey, System.String basedir, System.Boolean is_volatile)
     // Offset: 0x1E5FE0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static KeyHandler* New_ctor(Microsoft::Win32::RegistryKey* rkey, ::StringW basedir, bool is_volatile) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Microsoft::Win32::KeyHandler::.ctor");
+    static KeyHandler* New_ctor(::Microsoft::Win32::RegistryKey* rkey, ::StringW basedir, bool is_volatile) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Microsoft::Win32::KeyHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeyHandler*, creationType>(rkey, basedir, is_volatile)));
     }
     // public System.Void Load()
@@ -154,16 +154,16 @@ namespace Microsoft::Win32 {
     void Load();
     // private System.Void LoadKey(System.Security.SecurityElement se)
     // Offset: 0x1E606D4
-    void LoadKey(System::Security::SecurityElement* se);
+    void LoadKey(::System::Security::SecurityElement* se);
     // public Microsoft.Win32.RegistryKey Ensure(Microsoft.Win32.RegistryKey rkey, System.String extra, System.Boolean writable, System.Boolean is_volatile)
     // Offset: 0x1E60D4C
-    Microsoft::Win32::RegistryKey* Ensure(Microsoft::Win32::RegistryKey* rkey, ::StringW extra, bool writable, bool is_volatile);
+    ::Microsoft::Win32::RegistryKey* Ensure(::Microsoft::Win32::RegistryKey* rkey, ::StringW extra, bool writable, bool is_volatile);
     // public Microsoft.Win32.RegistryKey Probe(Microsoft.Win32.RegistryKey rkey, System.String extra, System.Boolean writable)
     // Offset: 0x1E610EC
-    Microsoft::Win32::RegistryKey* Probe(Microsoft::Win32::RegistryKey* rkey, ::StringW extra, bool writable);
+    ::Microsoft::Win32::RegistryKey* Probe(::Microsoft::Win32::RegistryKey* rkey, ::StringW extra, bool writable);
     // static private System.String CombineName(Microsoft.Win32.RegistryKey rkey, System.String extra)
     // Offset: 0x1E61004
-    static ::StringW CombineName(Microsoft::Win32::RegistryKey* rkey, ::StringW extra);
+    static ::StringW CombineName(::Microsoft::Win32::RegistryKey* rkey, ::StringW extra);
     // static private System.Int64 GetSystemBootTime()
     // Offset: 0x1E61684
     static int64_t GetSystemBootTime();
@@ -184,16 +184,16 @@ namespace Microsoft::Win32 {
     static ::StringW GetVolatileDir(::StringW dir);
     // static public Microsoft.Win32.KeyHandler Lookup(Microsoft.Win32.RegistryKey rkey, System.Boolean createNonExisting)
     // Offset: 0x1E621C4
-    static Microsoft::Win32::KeyHandler* Lookup(Microsoft::Win32::RegistryKey* rkey, bool createNonExisting);
+    static ::Microsoft::Win32::KeyHandler* Lookup(::Microsoft::Win32::RegistryKey* rkey, bool createNonExisting);
     // static private System.String GetRootFromDir(System.String dir)
     // Offset: 0x1E62084
     static ::StringW GetRootFromDir(::StringW dir);
     // static public System.Void Drop(Microsoft.Win32.RegistryKey rkey)
     // Offset: 0x1E626C4
-    static void Drop(Microsoft::Win32::RegistryKey* rkey);
+    static void Drop(::Microsoft::Win32::RegistryKey* rkey);
     // public System.Object GetValue(System.String name, Microsoft.Win32.RegistryValueOptions options)
     // Offset: 0x1E62B50
-    ::Il2CppObject* GetValue(::StringW name, Microsoft::Win32::RegistryValueOptions options);
+    ::Il2CppObject* GetValue(::StringW name, ::Microsoft::Win32::RegistryValueOptions options);
     // public System.String[] GetSubKeyNames()
     // Offset: 0x1E62D58
     ::ArrayW<::StringW> GetSubKeyNames();
@@ -268,7 +268,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Micro
 // Writing MetadataGetter for method: Microsoft::Win32::KeyHandler::LoadKey
 // Il2CppName: LoadKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Microsoft::Win32::KeyHandler::*)(System::Security::SecurityElement*)>(&Microsoft::Win32::KeyHandler::LoadKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Microsoft::Win32::KeyHandler::*)(::System::Security::SecurityElement*)>(&Microsoft::Win32::KeyHandler::LoadKey)> {
   static const MethodInfo* get() {
     static auto* se = &::il2cpp_utils::GetClassFromName("System.Security", "SecurityElement")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::KeyHandler*), "LoadKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{se});
@@ -277,7 +277,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Micro
 // Writing MetadataGetter for method: Microsoft::Win32::KeyHandler::Ensure
 // Il2CppName: Ensure
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Microsoft::Win32::RegistryKey* (Microsoft::Win32::KeyHandler::*)(Microsoft::Win32::RegistryKey*, ::StringW, bool, bool)>(&Microsoft::Win32::KeyHandler::Ensure)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Microsoft::Win32::RegistryKey* (Microsoft::Win32::KeyHandler::*)(::Microsoft::Win32::RegistryKey*, ::StringW, bool, bool)>(&Microsoft::Win32::KeyHandler::Ensure)> {
   static const MethodInfo* get() {
     static auto* rkey = &::il2cpp_utils::GetClassFromName("Microsoft.Win32", "RegistryKey")->byval_arg;
     static auto* extra = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -289,7 +289,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Microsoft::
 // Writing MetadataGetter for method: Microsoft::Win32::KeyHandler::Probe
 // Il2CppName: Probe
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Microsoft::Win32::RegistryKey* (Microsoft::Win32::KeyHandler::*)(Microsoft::Win32::RegistryKey*, ::StringW, bool)>(&Microsoft::Win32::KeyHandler::Probe)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Microsoft::Win32::RegistryKey* (Microsoft::Win32::KeyHandler::*)(::Microsoft::Win32::RegistryKey*, ::StringW, bool)>(&Microsoft::Win32::KeyHandler::Probe)> {
   static const MethodInfo* get() {
     static auto* rkey = &::il2cpp_utils::GetClassFromName("Microsoft.Win32", "RegistryKey")->byval_arg;
     static auto* extra = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -300,7 +300,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Microsoft::
 // Writing MetadataGetter for method: Microsoft::Win32::KeyHandler::CombineName
 // Il2CppName: CombineName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(Microsoft::Win32::RegistryKey*, ::StringW)>(&Microsoft::Win32::KeyHandler::CombineName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::Microsoft::Win32::RegistryKey*, ::StringW)>(&Microsoft::Win32::KeyHandler::CombineName)> {
   static const MethodInfo* get() {
     static auto* rkey = &::il2cpp_utils::GetClassFromName("Microsoft.Win32", "RegistryKey")->byval_arg;
     static auto* extra = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -363,7 +363,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: Microsoft::Win32::KeyHandler::Lookup
 // Il2CppName: Lookup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Microsoft::Win32::KeyHandler* (*)(Microsoft::Win32::RegistryKey*, bool)>(&Microsoft::Win32::KeyHandler::Lookup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Microsoft::Win32::KeyHandler* (*)(::Microsoft::Win32::RegistryKey*, bool)>(&Microsoft::Win32::KeyHandler::Lookup)> {
   static const MethodInfo* get() {
     static auto* rkey = &::il2cpp_utils::GetClassFromName("Microsoft.Win32", "RegistryKey")->byval_arg;
     static auto* createNonExisting = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -382,7 +382,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: Microsoft::Win32::KeyHandler::Drop
 // Il2CppName: Drop
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Microsoft::Win32::RegistryKey*)>(&Microsoft::Win32::KeyHandler::Drop)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Microsoft::Win32::RegistryKey*)>(&Microsoft::Win32::KeyHandler::Drop)> {
   static const MethodInfo* get() {
     static auto* rkey = &::il2cpp_utils::GetClassFromName("Microsoft.Win32", "RegistryKey")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::KeyHandler*), "Drop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rkey});
@@ -391,7 +391,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Mi
 // Writing MetadataGetter for method: Microsoft::Win32::KeyHandler::GetValue
 // Il2CppName: GetValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Microsoft::Win32::KeyHandler::*)(::StringW, Microsoft::Win32::RegistryValueOptions)>(&Microsoft::Win32::KeyHandler::GetValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Microsoft::Win32::KeyHandler::*)(::StringW, ::Microsoft::Win32::RegistryValueOptions)>(&Microsoft::Win32::KeyHandler::GetValue)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* options = &::il2cpp_utils::GetClassFromName("Microsoft.Win32", "RegistryValueOptions")->byval_arg;

@@ -11,8 +11,8 @@ namespace Zenject {
   class IGuiRenderable;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::IGuiRenderable);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::IGuiRenderable*, "Zenject", "IGuiRenderable");
+NEED_NO_BOX(::Zenject::IGuiRenderable);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::IGuiRenderable*, "Zenject", "IGuiRenderable");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x10

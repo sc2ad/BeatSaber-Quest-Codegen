@@ -18,8 +18,8 @@ namespace Newtonsoft::Json {
   class JsonNameTable;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::JsonNameTable);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::JsonNameTable*, "Newtonsoft.Json", "JsonNameTable");
+NEED_NO_BOX(::Newtonsoft::Json::JsonNameTable);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::JsonNameTable*, "Newtonsoft.Json", "JsonNameTable");
 // Type namespace: Newtonsoft.Json
 namespace Newtonsoft::Json {
   // Size: 0x10
@@ -37,7 +37,7 @@ namespace Newtonsoft::Json {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JsonNameTable* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::JsonNameTable::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::JsonNameTable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JsonNameTable*, creationType>()));
     }
   }; // Newtonsoft.Json.JsonNameTable

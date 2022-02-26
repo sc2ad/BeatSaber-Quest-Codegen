@@ -19,8 +19,8 @@ namespace System::Runtime::CompilerServices {
   class NullableAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::CompilerServices::NullableAttribute);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::NullableAttribute*, "System.Runtime.CompilerServices", "NullableAttribute");
+NEED_NO_BOX(::System::Runtime::CompilerServices::NullableAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::CompilerServices::NullableAttribute*, "System.Runtime.CompilerServices", "NullableAttribute");
 // Type namespace: System.Runtime.CompilerServices
 namespace System::Runtime::CompilerServices {
   // Size: 0x18
@@ -30,7 +30,7 @@ namespace System::Runtime::CompilerServices {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   // [EmbeddedAttribute] Offset: FFFFFFFF
   // [AttributeUsageAttribute] Offset: 12011C0
-  class NullableAttribute : public System::Attribute {
+  class NullableAttribute : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -58,14 +58,14 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x29F99C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NullableAttribute* New_ctor(uint8_t param_0000f431) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::NullableAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::NullableAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NullableAttribute*, creationType>(param_0000f431)));
     }
     // public System.Void .ctor(System.Byte[] param_0000f432)
     // Offset: 0x29F9A54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NullableAttribute* New_ctor(::ArrayW<uint8_t> param_0000f432) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::NullableAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::NullableAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NullableAttribute*, creationType>(param_0000f432)));
     }
   }; // System.Runtime.CompilerServices.NullableAttribute

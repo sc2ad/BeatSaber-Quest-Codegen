@@ -21,8 +21,8 @@ namespace GlobalNamespace {
   class ColorSchemeConverter;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::ColorSchemeConverter);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemeConverter*, "", "ColorSchemeConverter");
+NEED_NO_BOX(::GlobalNamespace::ColorSchemeConverter);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ColorSchemeConverter*, "", "ColorSchemeConverter");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     public:
     // static public ColorScheme FromNetSerializable(ColorSchemeNetSerializable serialized)
     // Offset: 0x13C00AC
-    static GlobalNamespace::ColorScheme* FromNetSerializable(GlobalNamespace::ColorSchemeNetSerializable serialized);
+    static ::GlobalNamespace::ColorScheme* FromNetSerializable(::GlobalNamespace::ColorSchemeNetSerializable serialized);
   }; // ColorSchemeConverter
   #pragma pack(pop)
 }
@@ -41,7 +41,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::ColorSchemeConverter::FromNetSerializable
 // Il2CppName: FromNetSerializable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ColorScheme* (*)(GlobalNamespace::ColorSchemeNetSerializable)>(&GlobalNamespace::ColorSchemeConverter::FromNetSerializable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ColorScheme* (*)(::GlobalNamespace::ColorSchemeNetSerializable)>(&GlobalNamespace::ColorSchemeConverter::FromNetSerializable)> {
   static const MethodInfo* get() {
     static auto* serialized = &::il2cpp_utils::GetClassFromName("", "ColorSchemeNetSerializable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemeConverter*), "FromNetSerializable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{serialized});

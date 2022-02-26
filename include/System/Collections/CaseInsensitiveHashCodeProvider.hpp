@@ -27,8 +27,8 @@ namespace System::Collections {
   class CaseInsensitiveHashCodeProvider;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Collections::CaseInsensitiveHashCodeProvider);
-DEFINE_IL2CPP_ARG_TYPE(System::Collections::CaseInsensitiveHashCodeProvider*, "System.Collections", "CaseInsensitiveHashCodeProvider");
+NEED_NO_BOX(::System::Collections::CaseInsensitiveHashCodeProvider);
+DEFINE_IL2CPP_ARG_TYPE(::System::Collections::CaseInsensitiveHashCodeProvider*, "System.Collections", "CaseInsensitiveHashCodeProvider");
 // Type namespace: System.Collections
 namespace System::Collections {
   // Size: 0x18
@@ -37,7 +37,7 @@ namespace System::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ObsoleteAttribute] Offset: 118C52C
   // [ComVisibleAttribute] Offset: 118C52C
-  class CaseInsensitiveHashCodeProvider : public ::Il2CppObject/*, public System::Collections::IHashCodeProvider*/ {
+  class CaseInsensitiveHashCodeProvider : public ::Il2CppObject/*, public ::System::Collections::IHashCodeProvider*/ {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -51,28 +51,28 @@ namespace System::Collections {
     // private System.Globalization.TextInfo m_text
     // Size: 0x8
     // Offset: 0x10
-    System::Globalization::TextInfo* m_text;
+    ::System::Globalization::TextInfo* m_text;
     // Field size check
-    static_assert(sizeof(System::Globalization::TextInfo*) == 0x8);
+    static_assert(sizeof(::System::Globalization::TextInfo*) == 0x8);
     public:
-    // Creating interface conversion operator: operator System::Collections::IHashCodeProvider
-    operator System::Collections::IHashCodeProvider() noexcept {
-      return *reinterpret_cast<System::Collections::IHashCodeProvider*>(this);
+    // Creating interface conversion operator: operator ::System::Collections::IHashCodeProvider
+    operator ::System::Collections::IHashCodeProvider() noexcept {
+      return *reinterpret_cast<::System::Collections::IHashCodeProvider*>(this);
     }
-    // Creating conversion operator: operator System::Globalization::TextInfo*
-    constexpr operator System::Globalization::TextInfo*() const noexcept {
+    // Creating conversion operator: operator ::System::Globalization::TextInfo*
+    constexpr operator ::System::Globalization::TextInfo*() const noexcept {
       return m_text;
     }
     // Get instance field reference: private System.Globalization.TextInfo m_text
-    System::Globalization::TextInfo*& dyn_m_text();
+    ::System::Globalization::TextInfo*& dyn_m_text();
     // static public System.Collections.CaseInsensitiveHashCodeProvider get_Default()
     // Offset: 0x1DB6CF0
-    static System::Collections::CaseInsensitiveHashCodeProvider* get_Default();
+    static ::System::Collections::CaseInsensitiveHashCodeProvider* get_Default();
     // public System.Void .ctor(System.Globalization.CultureInfo culture)
     // Offset: 0x1DB6C48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CaseInsensitiveHashCodeProvider* New_ctor(System::Globalization::CultureInfo* culture) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::CaseInsensitiveHashCodeProvider::.ctor");
+    static CaseInsensitiveHashCodeProvider* New_ctor(::System::Globalization::CultureInfo* culture) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::CaseInsensitiveHashCodeProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CaseInsensitiveHashCodeProvider*, creationType>(culture)));
     }
     // public System.Int32 GetHashCode(System.Object obj)
@@ -84,19 +84,19 @@ namespace System::Collections {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CaseInsensitiveHashCodeProvider* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::CaseInsensitiveHashCodeProvider::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::CaseInsensitiveHashCodeProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CaseInsensitiveHashCodeProvider*, creationType>()));
     }
   }; // System.Collections.CaseInsensitiveHashCodeProvider
   #pragma pack(pop)
-  static check_size<sizeof(CaseInsensitiveHashCodeProvider), 16 + sizeof(System::Globalization::TextInfo*)> __System_Collections_CaseInsensitiveHashCodeProviderSizeCheck;
+  static check_size<sizeof(CaseInsensitiveHashCodeProvider), 16 + sizeof(::System::Globalization::TextInfo*)> __System_Collections_CaseInsensitiveHashCodeProviderSizeCheck;
   static_assert(sizeof(CaseInsensitiveHashCodeProvider) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::CaseInsensitiveHashCodeProvider::get_Default
 // Il2CppName: get_Default
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::CaseInsensitiveHashCodeProvider* (*)()>(&System::Collections::CaseInsensitiveHashCodeProvider::get_Default)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::CaseInsensitiveHashCodeProvider* (*)()>(&System::Collections::CaseInsensitiveHashCodeProvider::get_Default)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Collections::CaseInsensitiveHashCodeProvider*), "get_Default", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

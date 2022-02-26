@@ -23,8 +23,8 @@ namespace Mono::Security::Protocol::Ntlm {
   class ChallengeResponse2;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Security::Protocol::Ntlm::ChallengeResponse2);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Protocol::Ntlm::ChallengeResponse2*, "Mono.Security.Protocol.Ntlm", "ChallengeResponse2");
+NEED_NO_BOX(::Mono::Security::Protocol::Ntlm::ChallengeResponse2);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Protocol::Ntlm::ChallengeResponse2*, "Mono.Security.Protocol.Ntlm", "ChallengeResponse2");
 // Type namespace: Mono.Security.Protocol.Ntlm
 namespace Mono::Security::Protocol::Ntlm {
   // Size: 0x10
@@ -58,10 +58,10 @@ namespace Mono::Security::Protocol::Ntlm {
     static void Compute_NTLMv2_Session(::StringW password, ::ArrayW<uint8_t> challenge, ByRef<::ArrayW<uint8_t>> lm, ByRef<::ArrayW<uint8_t>> ntlm);
     // static private System.Byte[] Compute_NTLMv2(Mono.Security.Protocol.Ntlm.Type2Message type2, System.String username, System.String password, System.String domain)
     // Offset: 0x22D0338
-    static ::ArrayW<uint8_t> Compute_NTLMv2(Mono::Security::Protocol::Ntlm::Type2Message* type2, ::StringW username, ::StringW password, ::StringW domain);
+    static ::ArrayW<uint8_t> Compute_NTLMv2(::Mono::Security::Protocol::Ntlm::Type2Message* type2, ::StringW username, ::StringW password, ::StringW domain);
     // static public System.Void Compute(Mono.Security.Protocol.Ntlm.Type2Message type2, Mono.Security.Protocol.Ntlm.NtlmAuthLevel level, System.String username, System.String password, System.String domain, out System.Byte[] lm, out System.Byte[] ntlm)
     // Offset: 0x22D0870
-    static void Compute(Mono::Security::Protocol::Ntlm::Type2Message* type2, Mono::Security::Protocol::Ntlm::NtlmAuthLevel level, ::StringW username, ::StringW password, ::StringW domain, ByRef<::ArrayW<uint8_t>> lm, ByRef<::ArrayW<uint8_t>> ntlm);
+    static void Compute(::Mono::Security::Protocol::Ntlm::Type2Message* type2, ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel level, ::StringW username, ::StringW password, ::StringW domain, ByRef<::ArrayW<uint8_t>> lm, ByRef<::ArrayW<uint8_t>> ntlm);
     // static private System.Byte[] GetResponse(System.Byte[] challenge, System.Byte[] pwd)
     // Offset: 0x22CFCE4
     static ::ArrayW<uint8_t> GetResponse(::ArrayW<uint8_t> challenge, ::ArrayW<uint8_t> pwd);
@@ -127,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute_NTLMv2
 // Il2CppName: Compute_NTLMv2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(Mono::Security::Protocol::Ntlm::Type2Message*, ::StringW, ::StringW, ::StringW)>(&Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute_NTLMv2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::Mono::Security::Protocol::Ntlm::Type2Message*, ::StringW, ::StringW, ::StringW)>(&Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute_NTLMv2)> {
   static const MethodInfo* get() {
     static auto* type2 = &::il2cpp_utils::GetClassFromName("Mono.Security.Protocol.Ntlm", "Type2Message")->byval_arg;
     static auto* username = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -139,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
 // Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute
 // Il2CppName: Compute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Mono::Security::Protocol::Ntlm::Type2Message*, Mono::Security::Protocol::Ntlm::NtlmAuthLevel, ::StringW, ::StringW, ::StringW, ByRef<::ArrayW<uint8_t>>, ByRef<::ArrayW<uint8_t>>)>(&Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Mono::Security::Protocol::Ntlm::Type2Message*, ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel, ::StringW, ::StringW, ::StringW, ByRef<::ArrayW<uint8_t>>, ByRef<::ArrayW<uint8_t>>)>(&Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute)> {
   static const MethodInfo* get() {
     static auto* type2 = &::il2cpp_utils::GetClassFromName("Mono.Security.Protocol.Ntlm", "Type2Message")->byval_arg;
     static auto* level = &::il2cpp_utils::GetClassFromName("Mono.Security.Protocol.Ntlm", "NtlmAuthLevel")->byval_arg;

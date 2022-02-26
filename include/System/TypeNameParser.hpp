@@ -38,8 +38,8 @@ namespace System {
   class TypeNameParser;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::TypeNameParser);
-DEFINE_IL2CPP_ARG_TYPE(System::TypeNameParser*, "System", "TypeNameParser");
+NEED_NO_BOX(::System::TypeNameParser);
+DEFINE_IL2CPP_ARG_TYPE(::System::TypeNameParser*, "System", "TypeNameParser");
 // Type namespace: System
 namespace System {
   // Size: 0x10
@@ -50,7 +50,7 @@ namespace System {
     public:
     // static System.Type GetType(System.String typeName, System.Func`2<System.Reflection.AssemblyName,System.Reflection.Assembly> assemblyResolver, System.Func`4<System.Reflection.Assembly,System.String,System.Boolean,System.Type> typeResolver, System.Boolean throwOnError, System.Boolean ignoreCase, ref System.Threading.StackCrawlMark stackMark)
     // Offset: 0x27C97BC
-    static System::Type* GetType(::StringW typeName, System::Func_2<System::Reflection::AssemblyName*, System::Reflection::Assembly*>* assemblyResolver, System::Func_4<System::Reflection::Assembly*, ::StringW, bool, System::Type*>* typeResolver, bool throwOnError, bool ignoreCase, ByRef<System::Threading::StackCrawlMark> stackMark);
+    static ::System::Type* GetType(::StringW typeName, ::System::Func_2<::System::Reflection::AssemblyName*, ::System::Reflection::Assembly*>* assemblyResolver, ::System::Func_4<::System::Reflection::Assembly*, ::StringW, bool, ::System::Type*>* typeResolver, bool throwOnError, bool ignoreCase, ByRef<::System::Threading::StackCrawlMark> stackMark);
   }; // System.TypeNameParser
   #pragma pack(pop)
 }
@@ -58,7 +58,7 @@ namespace System {
 // Writing MetadataGetter for method: System::TypeNameParser::GetType
 // Il2CppName: GetType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(::StringW, System::Func_2<System::Reflection::AssemblyName*, System::Reflection::Assembly*>*, System::Func_4<System::Reflection::Assembly*, ::StringW, bool, System::Type*>*, bool, bool, ByRef<System::Threading::StackCrawlMark>)>(&System::TypeNameParser::GetType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::StringW, ::System::Func_2<::System::Reflection::AssemblyName*, ::System::Reflection::Assembly*>*, ::System::Func_4<::System::Reflection::Assembly*, ::StringW, bool, ::System::Type*>*, bool, bool, ByRef<::System::Threading::StackCrawlMark>)>(&System::TypeNameParser::GetType)> {
   static const MethodInfo* get() {
     static auto* typeName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* assemblyResolver = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System.Reflection", "AssemblyName"), ::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")})->byval_arg;

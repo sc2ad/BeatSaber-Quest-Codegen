@@ -36,8 +36,8 @@ namespace GlobalNamespace {
   class BakedLightTexturePacking;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BakedLightTexturePacking);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BakedLightTexturePacking*, "", "BakedLightTexturePacking");
+NEED_NO_BOX(::GlobalNamespace::BakedLightTexturePacking);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BakedLightTexturePacking*, "", "BakedLightTexturePacking");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -59,15 +59,15 @@ namespace GlobalNamespace {
     static void _set__texPropertyIds(::ArrayW<int> value);
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x124F8C4
     // Get static field: static private UnityEngine.Material _material
-    static UnityEngine::Material* _get__material();
+    static ::UnityEngine::Material* _get__material();
     // Set static field: static private UnityEngine.Material _material
-    static void _set__material(UnityEngine::Material* value);
+    static void _set__material(::UnityEngine::Material* value);
     // static private System.Void .cctor()
     // Offset: 0x2B3AEEC
     static void _cctor();
     // static public UnityEngine.RenderTexture PackTextures(System.Collections.Generic.IReadOnlyList`1<UnityEngine.RenderTexture> textures, UnityEngine.RenderTextureDescriptor descriptor)
     // Offset: 0x2B3AB88
-    static UnityEngine::RenderTexture* PackTextures(System::Collections::Generic::IReadOnlyList_1<UnityEngine::RenderTexture*>* textures, UnityEngine::RenderTextureDescriptor descriptor);
+    static ::UnityEngine::RenderTexture* PackTextures(::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::RenderTexture*>* textures, ::UnityEngine::RenderTextureDescriptor descriptor);
   }; // BakedLightTexturePacking
   #pragma pack(pop)
 }
@@ -83,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::BakedLightTexturePacking::PackTextures
 // Il2CppName: PackTextures
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderTexture* (*)(System::Collections::Generic::IReadOnlyList_1<UnityEngine::RenderTexture*>*, UnityEngine::RenderTextureDescriptor)>(&GlobalNamespace::BakedLightTexturePacking::PackTextures)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RenderTexture* (*)(::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::RenderTexture*>*, ::UnityEngine::RenderTextureDescriptor)>(&GlobalNamespace::BakedLightTexturePacking::PackTextures)> {
   static const MethodInfo* get() {
     static auto* textures = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IReadOnlyList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")})->byval_arg;
     static auto* descriptor = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTextureDescriptor")->byval_arg;

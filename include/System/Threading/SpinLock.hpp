@@ -18,7 +18,7 @@ namespace System::Threading {
   struct SpinLock;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::SpinLock, "System.Threading", "SpinLock");
+DEFINE_IL2CPP_ARG_TYPE(::System::Threading::SpinLock, "System.Threading", "SpinLock");
 // Type namespace: System.Threading
 namespace System::Threading {
   // Size: 0x4
@@ -29,9 +29,9 @@ namespace System::Threading {
   // [DebuggerDisplayAttribute] Offset: 1189530
   // [DebuggerTypeProxyAttribute] Offset: 1189530
   // [ComVisibleAttribute] Offset: 1189530
-  struct SpinLock/*, public System::ValueType*/ {
+  struct SpinLock/*, public ::System::ValueType*/ {
     public:
-    // Nested type: System::Threading::SpinLock::SystemThreading_SpinLockDebugView
+    // Nested type: ::System::Threading::SpinLock::SystemThreading_SpinLockDebugView
     class SystemThreading_SpinLockDebugView;
     public:
     // private System.Int32 m_owner
@@ -43,9 +43,9 @@ namespace System::Threading {
     public:
     // Creating value type constructor for type: SpinLock
     constexpr SpinLock(int m_owner_ = {}) noexcept : m_owner{m_owner_} {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {

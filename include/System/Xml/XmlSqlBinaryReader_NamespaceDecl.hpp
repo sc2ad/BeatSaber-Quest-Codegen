@@ -14,8 +14,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::XmlSqlBinaryReader::NamespaceDecl);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlSqlBinaryReader::NamespaceDecl*, "System.Xml", "XmlSqlBinaryReader/NamespaceDecl");
+NEED_NO_BOX(::System::Xml::XmlSqlBinaryReader::NamespaceDecl);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlSqlBinaryReader::NamespaceDecl*, "System.Xml", "XmlSqlBinaryReader/NamespaceDecl");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x35
@@ -48,15 +48,15 @@ namespace System::Xml {
     // public System.Xml.XmlSqlBinaryReader/System.Xml.NamespaceDecl scopeLink
     // Size: 0x8
     // Offset: 0x20
-    System::Xml::XmlSqlBinaryReader::NamespaceDecl* scopeLink;
+    ::System::Xml::XmlSqlBinaryReader::NamespaceDecl* scopeLink;
     // Field size check
-    static_assert(sizeof(System::Xml::XmlSqlBinaryReader::NamespaceDecl*) == 0x8);
+    static_assert(sizeof(::System::Xml::XmlSqlBinaryReader::NamespaceDecl*) == 0x8);
     // public System.Xml.XmlSqlBinaryReader/System.Xml.NamespaceDecl prevLink
     // Size: 0x8
     // Offset: 0x28
-    System::Xml::XmlSqlBinaryReader::NamespaceDecl* prevLink;
+    ::System::Xml::XmlSqlBinaryReader::NamespaceDecl* prevLink;
     // Field size check
-    static_assert(sizeof(System::Xml::XmlSqlBinaryReader::NamespaceDecl*) == 0x8);
+    static_assert(sizeof(::System::Xml::XmlSqlBinaryReader::NamespaceDecl*) == 0x8);
     // public System.Int32 scope
     // Size: 0x4
     // Offset: 0x30
@@ -75,9 +75,9 @@ namespace System::Xml {
     // Get instance field reference: public System.String uri
     ::StringW& dyn_uri();
     // Get instance field reference: public System.Xml.XmlSqlBinaryReader/System.Xml.NamespaceDecl scopeLink
-    System::Xml::XmlSqlBinaryReader::NamespaceDecl*& dyn_scopeLink();
+    ::System::Xml::XmlSqlBinaryReader::NamespaceDecl*& dyn_scopeLink();
     // Get instance field reference: public System.Xml.XmlSqlBinaryReader/System.Xml.NamespaceDecl prevLink
-    System::Xml::XmlSqlBinaryReader::NamespaceDecl*& dyn_prevLink();
+    ::System::Xml::XmlSqlBinaryReader::NamespaceDecl*& dyn_prevLink();
     // Get instance field reference: public System.Int32 scope
     int& dyn_scope();
     // Get instance field reference: public System.Boolean implied
@@ -85,8 +85,8 @@ namespace System::Xml {
     // public System.Void .ctor(System.String prefix, System.String nsuri, System.Xml.XmlSqlBinaryReader/System.Xml.NamespaceDecl nextInScope, System.Xml.XmlSqlBinaryReader/System.Xml.NamespaceDecl prevDecl, System.Int32 scope, System.Boolean implied)
     // Offset: 0x14DF514
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlSqlBinaryReader::NamespaceDecl* New_ctor(::StringW prefix, ::StringW nsuri, System::Xml::XmlSqlBinaryReader::NamespaceDecl* nextInScope, System::Xml::XmlSqlBinaryReader::NamespaceDecl* prevDecl, int scope, bool implied) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlSqlBinaryReader::NamespaceDecl::.ctor");
+    static XmlSqlBinaryReader::NamespaceDecl* New_ctor(::StringW prefix, ::StringW nsuri, ::System::Xml::XmlSqlBinaryReader::NamespaceDecl* nextInScope, ::System::Xml::XmlSqlBinaryReader::NamespaceDecl* prevDecl, int scope, bool implied) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlSqlBinaryReader::NamespaceDecl::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlSqlBinaryReader::NamespaceDecl*, creationType>(prefix, nsuri, nextInScope, prevDecl, scope, implied)));
     }
   }; // System.Xml.XmlSqlBinaryReader/System.Xml.NamespaceDecl

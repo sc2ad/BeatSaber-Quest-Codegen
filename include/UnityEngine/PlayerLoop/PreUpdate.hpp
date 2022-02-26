@@ -18,7 +18,7 @@ namespace UnityEngine::PlayerLoop {
   struct PreUpdate;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PlayerLoop::PreUpdate, "UnityEngine.PlayerLoop", "PreUpdate");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::PreUpdate, "UnityEngine.PlayerLoop", "PreUpdate");
 // Type namespace: UnityEngine.PlayerLoop
 namespace UnityEngine::PlayerLoop {
   // Size: 0x0
@@ -28,31 +28,31 @@ namespace UnityEngine::PlayerLoop {
   // [TokenAttribute] Offset: FFFFFFFF
   // [MovedFromAttribute] Offset: 11A7238
   // [RequiredByNativeCodeAttribute] Offset: 11A7238
-  struct PreUpdate/*, public System::ValueType*/ {
+  struct PreUpdate/*, public ::System::ValueType*/ {
     public:
-    // Nested type: UnityEngine::PlayerLoop::PreUpdate::PhysicsUpdate
+    // Nested type: ::UnityEngine::PlayerLoop::PreUpdate::PhysicsUpdate
     struct PhysicsUpdate;
-    // Nested type: UnityEngine::PlayerLoop::PreUpdate::Physics2DUpdate
+    // Nested type: ::UnityEngine::PlayerLoop::PreUpdate::Physics2DUpdate
     struct Physics2DUpdate;
-    // Nested type: UnityEngine::PlayerLoop::PreUpdate::CheckTexFieldInput
+    // Nested type: ::UnityEngine::PlayerLoop::PreUpdate::CheckTexFieldInput
     struct CheckTexFieldInput;
-    // Nested type: UnityEngine::PlayerLoop::PreUpdate::IMGUISendQueuedEvents
+    // Nested type: ::UnityEngine::PlayerLoop::PreUpdate::IMGUISendQueuedEvents
     struct IMGUISendQueuedEvents;
-    // Nested type: UnityEngine::PlayerLoop::PreUpdate::SendMouseEvents
+    // Nested type: ::UnityEngine::PlayerLoop::PreUpdate::SendMouseEvents
     struct SendMouseEvents;
-    // Nested type: UnityEngine::PlayerLoop::PreUpdate::AIUpdate
+    // Nested type: ::UnityEngine::PlayerLoop::PreUpdate::AIUpdate
     struct AIUpdate;
-    // Nested type: UnityEngine::PlayerLoop::PreUpdate::WindUpdate
+    // Nested type: ::UnityEngine::PlayerLoop::PreUpdate::WindUpdate
     struct WindUpdate;
-    // Nested type: UnityEngine::PlayerLoop::PreUpdate::UpdateVideo
+    // Nested type: ::UnityEngine::PlayerLoop::PreUpdate::UpdateVideo
     struct UpdateVideo;
-    // Nested type: UnityEngine::PlayerLoop::PreUpdate::NewInputUpdate
+    // Nested type: ::UnityEngine::PlayerLoop::PreUpdate::NewInputUpdate
     struct NewInputUpdate;
     // Creating value type constructor for type: PreUpdate
     constexpr PreUpdate() noexcept {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
   }; // UnityEngine.PlayerLoop.PreUpdate
   #pragma pack(pop)

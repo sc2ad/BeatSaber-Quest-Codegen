@@ -26,8 +26,8 @@ namespace RootMotion {
   class Hierarchy;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::Hierarchy);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::Hierarchy*, "RootMotion", "Hierarchy");
+NEED_NO_BOX(::RootMotion::Hierarchy);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::Hierarchy*, "RootMotion", "Hierarchy");
 // Type namespace: RootMotion
 namespace RootMotion {
   // Size: 0x10
@@ -38,41 +38,41 @@ namespace RootMotion {
     public:
     // static public System.Boolean HierarchyIsValid(UnityEngine.Transform[] bones)
     // Offset: 0x1F19F3C
-    static bool HierarchyIsValid(::ArrayW<UnityEngine::Transform*> bones);
+    static bool HierarchyIsValid(::ArrayW<::UnityEngine::Transform*> bones);
     // static public UnityEngine.Object ContainsDuplicate(UnityEngine.Object[] objects)
     // Offset: 0x1F1A13C
-    static UnityEngine::Object* ContainsDuplicate(::ArrayW<UnityEngine::Object*> objects);
+    static ::UnityEngine::Object* ContainsDuplicate(::ArrayW<::UnityEngine::Object*> objects);
     // static public System.Boolean IsAncestor(UnityEngine.Transform transform, UnityEngine.Transform ancestor)
     // Offset: 0x1F19FD4
-    static bool IsAncestor(UnityEngine::Transform* transform, UnityEngine::Transform* ancestor);
+    static bool IsAncestor(::UnityEngine::Transform* transform, ::UnityEngine::Transform* ancestor);
     // static public System.Boolean ContainsChild(UnityEngine.Transform transform, UnityEngine.Transform child)
     // Offset: 0x1F1A260
-    static bool ContainsChild(UnityEngine::Transform* transform, UnityEngine::Transform* child);
+    static bool ContainsChild(::UnityEngine::Transform* transform, ::UnityEngine::Transform* child);
     // static public System.Void AddAncestors(UnityEngine.Transform transform, UnityEngine.Transform blocker, ref UnityEngine.Transform[] array)
     // Offset: 0x1F1A384
-    static void AddAncestors(UnityEngine::Transform* transform, UnityEngine::Transform* blocker, ByRef<::ArrayW<UnityEngine::Transform*>> array);
+    static void AddAncestors(::UnityEngine::Transform* transform, ::UnityEngine::Transform* blocker, ByRef<::ArrayW<::UnityEngine::Transform*>> array);
     // static public UnityEngine.Transform GetAncestor(UnityEngine.Transform transform, System.Int32 minChildCount)
     // Offset: 0x1F1A62C
-    static UnityEngine::Transform* GetAncestor(UnityEngine::Transform* transform, int minChildCount);
+    static ::UnityEngine::Transform* GetAncestor(::UnityEngine::Transform* transform, int minChildCount);
     // static public UnityEngine.Transform GetFirstCommonAncestor(UnityEngine.Transform t1, UnityEngine.Transform t2)
     // Offset: 0x1F1A748
-    static UnityEngine::Transform* GetFirstCommonAncestor(UnityEngine::Transform* t1, UnityEngine::Transform* t2);
+    static ::UnityEngine::Transform* GetFirstCommonAncestor(::UnityEngine::Transform* t1, ::UnityEngine::Transform* t2);
     // static public UnityEngine.Transform GetFirstCommonAncestor(UnityEngine.Transform[] transforms)
     // Offset: 0x1F1A8D0
-    static UnityEngine::Transform* GetFirstCommonAncestor(::ArrayW<UnityEngine::Transform*> transforms);
+    static ::UnityEngine::Transform* GetFirstCommonAncestor(::ArrayW<::UnityEngine::Transform*> transforms);
     // static public UnityEngine.Transform GetFirstCommonAncestorRecursive(UnityEngine.Transform transform, UnityEngine.Transform[] transforms)
     // Offset: 0x1F1AC64
-    static UnityEngine::Transform* GetFirstCommonAncestorRecursive(UnityEngine::Transform* transform, ::ArrayW<UnityEngine::Transform*> transforms);
+    static ::UnityEngine::Transform* GetFirstCommonAncestorRecursive(::UnityEngine::Transform* transform, ::ArrayW<::UnityEngine::Transform*> transforms);
     // static public System.Boolean IsCommonAncestor(UnityEngine.Transform transform, UnityEngine.Transform[] transforms)
     // Offset: 0x1F1AA50
-    static bool IsCommonAncestor(UnityEngine::Transform* transform, ::ArrayW<UnityEngine::Transform*> transforms);
+    static bool IsCommonAncestor(::UnityEngine::Transform* transform, ::ArrayW<::UnityEngine::Transform*> transforms);
     // public System.Void .ctor()
     // Offset: 0x1F1AE04
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Hierarchy* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::Hierarchy::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::Hierarchy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Hierarchy*, creationType>()));
     }
   }; // RootMotion.Hierarchy
@@ -82,7 +82,7 @@ namespace RootMotion {
 // Writing MetadataGetter for method: RootMotion::Hierarchy::HierarchyIsValid
 // Il2CppName: HierarchyIsValid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<UnityEngine::Transform*>)>(&RootMotion::Hierarchy::HierarchyIsValid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<::UnityEngine::Transform*>)>(&RootMotion::Hierarchy::HierarchyIsValid)> {
   static const MethodInfo* get() {
     static auto* bones = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::Hierarchy*), "HierarchyIsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bones});
@@ -91,7 +91,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: RootMotion::Hierarchy::ContainsDuplicate
 // Il2CppName: ContainsDuplicate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (*)(::ArrayW<UnityEngine::Object*>)>(&RootMotion::Hierarchy::ContainsDuplicate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Object* (*)(::ArrayW<::UnityEngine::Object*>)>(&RootMotion::Hierarchy::ContainsDuplicate)> {
   static const MethodInfo* get() {
     static auto* objects = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::Hierarchy*), "ContainsDuplicate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{objects});
@@ -100,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: RootMotion::Hierarchy::IsAncestor
 // Il2CppName: IsAncestor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Transform*, UnityEngine::Transform*)>(&RootMotion::Hierarchy::IsAncestor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Transform*, ::UnityEngine::Transform*)>(&RootMotion::Hierarchy::IsAncestor)> {
   static const MethodInfo* get() {
     static auto* transform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* ancestor = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
@@ -110,7 +110,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: RootMotion::Hierarchy::ContainsChild
 // Il2CppName: ContainsChild
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Transform*, UnityEngine::Transform*)>(&RootMotion::Hierarchy::ContainsChild)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Transform*, ::UnityEngine::Transform*)>(&RootMotion::Hierarchy::ContainsChild)> {
   static const MethodInfo* get() {
     static auto* transform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* child = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
@@ -120,7 +120,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: RootMotion::Hierarchy::AddAncestors
 // Il2CppName: AddAncestors
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Transform*, UnityEngine::Transform*, ByRef<::ArrayW<UnityEngine::Transform*>>)>(&RootMotion::Hierarchy::AddAncestors)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Transform*, ::UnityEngine::Transform*, ByRef<::ArrayW<::UnityEngine::Transform*>>)>(&RootMotion::Hierarchy::AddAncestors)> {
   static const MethodInfo* get() {
     static auto* transform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* blocker = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
@@ -131,7 +131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: RootMotion::Hierarchy::GetAncestor
 // Il2CppName: GetAncestor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(UnityEngine::Transform*, int)>(&RootMotion::Hierarchy::GetAncestor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Transform* (*)(::UnityEngine::Transform*, int)>(&RootMotion::Hierarchy::GetAncestor)> {
   static const MethodInfo* get() {
     static auto* transform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* minChildCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -141,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: RootMotion::Hierarchy::GetFirstCommonAncestor
 // Il2CppName: GetFirstCommonAncestor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(UnityEngine::Transform*, UnityEngine::Transform*)>(&RootMotion::Hierarchy::GetFirstCommonAncestor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Transform* (*)(::UnityEngine::Transform*, ::UnityEngine::Transform*)>(&RootMotion::Hierarchy::GetFirstCommonAncestor)> {
   static const MethodInfo* get() {
     static auto* t1 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* t2 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
@@ -151,7 +151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: RootMotion::Hierarchy::GetFirstCommonAncestor
 // Il2CppName: GetFirstCommonAncestor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(::ArrayW<UnityEngine::Transform*>)>(&RootMotion::Hierarchy::GetFirstCommonAncestor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Transform* (*)(::ArrayW<::UnityEngine::Transform*>)>(&RootMotion::Hierarchy::GetFirstCommonAncestor)> {
   static const MethodInfo* get() {
     static auto* transforms = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::Hierarchy*), "GetFirstCommonAncestor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{transforms});
@@ -160,7 +160,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: RootMotion::Hierarchy::GetFirstCommonAncestorRecursive
 // Il2CppName: GetFirstCommonAncestorRecursive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(UnityEngine::Transform*, ::ArrayW<UnityEngine::Transform*>)>(&RootMotion::Hierarchy::GetFirstCommonAncestorRecursive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Transform* (*)(::UnityEngine::Transform*, ::ArrayW<::UnityEngine::Transform*>)>(&RootMotion::Hierarchy::GetFirstCommonAncestorRecursive)> {
   static const MethodInfo* get() {
     static auto* transform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* transforms = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform"), 1)->byval_arg;
@@ -170,7 +170,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: RootMotion::Hierarchy::IsCommonAncestor
 // Il2CppName: IsCommonAncestor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Transform*, ::ArrayW<UnityEngine::Transform*>)>(&RootMotion::Hierarchy::IsCommonAncestor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Transform*, ::ArrayW<::UnityEngine::Transform*>)>(&RootMotion::Hierarchy::IsCommonAncestor)> {
   static const MethodInfo* get() {
     static auto* transform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* transforms = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform"), 1)->byval_arg;

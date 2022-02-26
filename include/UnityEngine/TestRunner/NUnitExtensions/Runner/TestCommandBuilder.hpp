@@ -33,8 +33,8 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   class TestCommandBuilder;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "TestCommandBuilder");
+NEED_NO_BOX(::UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "TestCommandBuilder");
 // Type namespace: UnityEngine.TestRunner.NUnitExtensions.Runner
 namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   // Size: 0x10
@@ -43,17 +43,17 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestCommandBuilder : public ::Il2CppObject {
     public:
-    // Nested type: UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c
+    // Nested type: ::UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c
     class $$c;
     // static public NUnit.Framework.Internal.Commands.TestCommand BuildTestCommand(NUnit.Framework.Internal.TestMethod test, NUnit.Framework.Interfaces.ITestFilter filter)
     // Offset: 0x18CB34C
-    static NUnit::Framework::Internal::Commands::TestCommand* BuildTestCommand(NUnit::Framework::Internal::TestMethod* test, NUnit::Framework::Interfaces::ITestFilter* filter);
+    static ::NUnit::Framework::Internal::Commands::TestCommand* BuildTestCommand(::NUnit::Framework::Internal::TestMethod* test, ::NUnit::Framework::Interfaces::ITestFilter* filter);
     // static private System.String GetTestBuilderName(NUnit.Framework.Internal.TestMethod testMethod)
     // Offset: 0x18CD410
-    static ::StringW GetTestBuilderName(NUnit::Framework::Internal::TestMethod* testMethod);
+    static ::StringW GetTestBuilderName(::NUnit::Framework::Internal::TestMethod* testMethod);
     // static private NUnit.Framework.Internal.Commands.TestCommand TryReplaceWithEnumerableCommand(NUnit.Framework.Internal.Commands.TestCommand command)
     // Offset: 0x18CD2B8
-    static NUnit::Framework::Internal::Commands::TestCommand* TryReplaceWithEnumerableCommand(NUnit::Framework::Internal::Commands::TestCommand* command);
+    static ::NUnit::Framework::Internal::Commands::TestCommand* TryReplaceWithEnumerableCommand(::NUnit::Framework::Internal::Commands::TestCommand* command);
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.TestCommandBuilder
   #pragma pack(pop)
 }
@@ -61,7 +61,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::BuildTestCommand
 // Il2CppName: BuildTestCommand
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Commands::TestCommand* (*)(NUnit::Framework::Internal::TestMethod*, NUnit::Framework::Interfaces::ITestFilter*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::BuildTestCommand)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Framework::Internal::Commands::TestCommand* (*)(::NUnit::Framework::Internal::TestMethod*, ::NUnit::Framework::Interfaces::ITestFilter*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::BuildTestCommand)> {
   static const MethodInfo* get() {
     static auto* test = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "TestMethod")->byval_arg;
     static auto* filter = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ITestFilter")->byval_arg;
@@ -71,7 +71,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::GetTestBuilderName
 // Il2CppName: GetTestBuilderName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(NUnit::Framework::Internal::TestMethod*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::GetTestBuilderName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::NUnit::Framework::Internal::TestMethod*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::GetTestBuilderName)> {
   static const MethodInfo* get() {
     static auto* testMethod = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "TestMethod")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder*), "GetTestBuilderName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{testMethod});
@@ -80,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::TryReplaceWithEnumerableCommand
 // Il2CppName: TryReplaceWithEnumerableCommand
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Commands::TestCommand* (*)(NUnit::Framework::Internal::Commands::TestCommand*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::TryReplaceWithEnumerableCommand)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Framework::Internal::Commands::TestCommand* (*)(::NUnit::Framework::Internal::Commands::TestCommand*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::TryReplaceWithEnumerableCommand)> {
   static const MethodInfo* get() {
     static auto* command = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal.Commands", "TestCommand")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder*), "TryReplaceWithEnumerableCommand", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{command});

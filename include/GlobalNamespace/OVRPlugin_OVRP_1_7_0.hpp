@@ -16,8 +16,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRPlugin::OVRP_1_7_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_7_0*, "", "OVRPlugin/OVRP_1_7_0");
+NEED_NO_BOX(::GlobalNamespace::OVRPlugin::OVRP_1_7_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRPlugin::OVRP_1_7_0*, "", "OVRPlugin/OVRP_1_7_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -27,18 +27,18 @@ namespace GlobalNamespace {
   class OVRPlugin::OVRP_1_7_0 : public ::Il2CppObject {
     public:
     // Get static field: static public readonly System.Version version
-    static System::Version* _get_version();
+    static ::System::Version* _get_version();
     // Set static field: static public readonly System.Version version
-    static void _set_version(System::Version* value);
+    static void _set_version(::System::Version* value);
     // static private System.Void .cctor()
     // Offset: 0x1A769FC
     static void _cctor();
     // static public OVRPlugin/Bool ovrp_GetAppChromaticCorrection()
     // Offset: 0x1A76908
-    static GlobalNamespace::OVRPlugin::Bool ovrp_GetAppChromaticCorrection();
+    static ::GlobalNamespace::OVRPlugin::Bool ovrp_GetAppChromaticCorrection();
     // static public OVRPlugin/Bool ovrp_SetAppChromaticCorrection(OVRPlugin/Bool value)
     // Offset: 0x1A7697C
-    static GlobalNamespace::OVRPlugin::Bool ovrp_SetAppChromaticCorrection(GlobalNamespace::OVRPlugin::Bool value);
+    static ::GlobalNamespace::OVRPlugin::Bool ovrp_SetAppChromaticCorrection(::GlobalNamespace::OVRPlugin::Bool value);
   }; // OVRPlugin/OVRP_1_7_0
   #pragma pack(pop)
 }
@@ -54,7 +54,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_7_0::ovrp_GetAppChromaticCorrection
 // Il2CppName: ovrp_GetAppChromaticCorrection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_7_0::ovrp_GetAppChromaticCorrection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Bool (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_7_0::ovrp_GetAppChromaticCorrection)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_7_0*), "ovrp_GetAppChromaticCorrection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -62,7 +62,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_7_0::ovrp_SetAppChromaticCorrection
 // Il2CppName: ovrp_SetAppChromaticCorrection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(GlobalNamespace::OVRPlugin::Bool)>(&GlobalNamespace::OVRPlugin::OVRP_1_7_0::ovrp_SetAppChromaticCorrection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Bool (*)(::GlobalNamespace::OVRPlugin::Bool)>(&GlobalNamespace::OVRPlugin::OVRP_1_7_0::ovrp_SetAppChromaticCorrection)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Bool")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_7_0*), "ovrp_SetAppChromaticCorrection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

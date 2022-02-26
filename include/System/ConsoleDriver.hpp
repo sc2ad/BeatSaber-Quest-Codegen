@@ -25,8 +25,8 @@ namespace System {
   class ConsoleDriver;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::ConsoleDriver);
-DEFINE_IL2CPP_ARG_TYPE(System::ConsoleDriver*, "System", "ConsoleDriver");
+NEED_NO_BOX(::System::ConsoleDriver);
+DEFINE_IL2CPP_ARG_TYPE(::System::ConsoleDriver*, "System", "ConsoleDriver");
 // Type namespace: System
 namespace System {
   // Size: 0x10
@@ -36,9 +36,9 @@ namespace System {
   class ConsoleDriver : public ::Il2CppObject {
     public:
     // Get static field: static System.IConsoleDriver driver
-    static System::IConsoleDriver* _get_driver();
+    static ::System::IConsoleDriver* _get_driver();
     // Set static field: static System.IConsoleDriver driver
-    static void _set_driver(System::IConsoleDriver* value);
+    static void _set_driver(::System::IConsoleDriver* value);
     // Get static field: static private System.Boolean is_console
     static bool _get_is_console();
     // Set static field: static private System.Boolean is_console
@@ -55,19 +55,19 @@ namespace System {
     static void _cctor();
     // static private System.IConsoleDriver CreateNullConsoleDriver()
     // Offset: 0x1ADB6D4
-    static System::IConsoleDriver* CreateNullConsoleDriver();
+    static ::System::IConsoleDriver* CreateNullConsoleDriver();
     // static private System.IConsoleDriver CreateWindowsConsoleDriver()
     // Offset: 0x1ADB730
-    static System::IConsoleDriver* CreateWindowsConsoleDriver();
+    static ::System::IConsoleDriver* CreateWindowsConsoleDriver();
     // static private System.IConsoleDriver CreateTermInfoDriver(System.String term)
     // Offset: 0x1ADB78C
-    static System::IConsoleDriver* CreateTermInfoDriver(::StringW term);
+    static ::System::IConsoleDriver* CreateTermInfoDriver(::StringW term);
     // static public System.ConsoleKeyInfo ReadKey(System.Boolean intercept)
     // Offset: 0x1ADA6DC
-    static System::ConsoleKeyInfo ReadKey(bool intercept);
+    static ::System::ConsoleKeyInfo ReadKey(bool intercept);
     // static private System.Boolean Isatty(System.IntPtr handle)
     // Offset: 0x1ADB7F0
-    static bool Isatty(System::IntPtr handle);
+    static bool Isatty(::System::IntPtr handle);
     // static System.Int32 InternalKeyAvailable(System.Int32 ms_timeout)
     // Offset: 0x1ADB7F4
     static int InternalKeyAvailable(int ms_timeout);
@@ -100,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::ConsoleDriver::CreateNullConsoleDriver
 // Il2CppName: CreateNullConsoleDriver
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IConsoleDriver* (*)()>(&System::ConsoleDriver::CreateNullConsoleDriver)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IConsoleDriver* (*)()>(&System::ConsoleDriver::CreateNullConsoleDriver)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::ConsoleDriver*), "CreateNullConsoleDriver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -108,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ICo
 // Writing MetadataGetter for method: System::ConsoleDriver::CreateWindowsConsoleDriver
 // Il2CppName: CreateWindowsConsoleDriver
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IConsoleDriver* (*)()>(&System::ConsoleDriver::CreateWindowsConsoleDriver)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IConsoleDriver* (*)()>(&System::ConsoleDriver::CreateWindowsConsoleDriver)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::ConsoleDriver*), "CreateWindowsConsoleDriver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -116,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ICo
 // Writing MetadataGetter for method: System::ConsoleDriver::CreateTermInfoDriver
 // Il2CppName: CreateTermInfoDriver
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IConsoleDriver* (*)(::StringW)>(&System::ConsoleDriver::CreateTermInfoDriver)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IConsoleDriver* (*)(::StringW)>(&System::ConsoleDriver::CreateTermInfoDriver)> {
   static const MethodInfo* get() {
     static auto* term = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ConsoleDriver*), "CreateTermInfoDriver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{term});
@@ -125,7 +125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ICo
 // Writing MetadataGetter for method: System::ConsoleDriver::ReadKey
 // Il2CppName: ReadKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ConsoleKeyInfo (*)(bool)>(&System::ConsoleDriver::ReadKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ConsoleKeyInfo (*)(bool)>(&System::ConsoleDriver::ReadKey)> {
   static const MethodInfo* get() {
     static auto* intercept = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ConsoleDriver*), "ReadKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{intercept});
@@ -134,7 +134,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Con
 // Writing MetadataGetter for method: System::ConsoleDriver::Isatty
 // Il2CppName: Isatty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&System::ConsoleDriver::Isatty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&System::ConsoleDriver::Isatty)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ConsoleDriver*), "Isatty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{handle});

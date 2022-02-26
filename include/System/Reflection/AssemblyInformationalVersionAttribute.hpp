@@ -19,8 +19,8 @@ namespace System::Reflection {
   class AssemblyInformationalVersionAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Reflection::AssemblyInformationalVersionAttribute);
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyInformationalVersionAttribute*, "System.Reflection", "AssemblyInformationalVersionAttribute");
+NEED_NO_BOX(::System::Reflection::AssemblyInformationalVersionAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::AssemblyInformationalVersionAttribute*, "System.Reflection", "AssemblyInformationalVersionAttribute");
 // Type namespace: System.Reflection
 namespace System::Reflection {
   // Size: 0x18
@@ -29,7 +29,7 @@ namespace System::Reflection {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AttributeUsageAttribute] Offset: 1187FF8
   // [ComVisibleAttribute] Offset: 1187FF8
-  class AssemblyInformationalVersionAttribute : public System::Attribute {
+  class AssemblyInformationalVersionAttribute : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -57,7 +57,7 @@ namespace System::Reflection {
     // Offset: 0x2160ADC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssemblyInformationalVersionAttribute* New_ctor(::StringW informationalVersion) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::AssemblyInformationalVersionAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Reflection::AssemblyInformationalVersionAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssemblyInformationalVersionAttribute*, creationType>(informationalVersion)));
     }
   }; // System.Reflection.AssemblyInformationalVersionAttribute

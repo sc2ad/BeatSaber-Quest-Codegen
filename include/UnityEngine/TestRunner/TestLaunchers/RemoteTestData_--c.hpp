@@ -27,8 +27,8 @@ namespace NUnit::Framework::Interfaces {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::TestRunner::TestLaunchers::RemoteTestData::$$c);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::TestLaunchers::RemoteTestData::$$c*, "UnityEngine.TestRunner.TestLaunchers", "RemoteTestData/<>c");
+NEED_NO_BOX(::UnityEngine::TestRunner::TestLaunchers::RemoteTestData::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TestRunner::TestLaunchers::RemoteTestData::$$c*, "UnityEngine.TestRunner.TestLaunchers", "RemoteTestData/<>c");
 // Type namespace: UnityEngine.TestRunner.TestLaunchers
 namespace UnityEngine::TestRunner::TestLaunchers {
   // Size: 0x10
@@ -39,26 +39,26 @@ namespace UnityEngine::TestRunner::TestLaunchers {
   class RemoteTestData::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly UnityEngine.TestRunner.TestLaunchers.RemoteTestData/UnityEngine.TestRunner.TestLaunchers.<>c <>9
-    static UnityEngine::TestRunner::TestLaunchers::RemoteTestData::$$c* _get_$$9();
+    static ::UnityEngine::TestRunner::TestLaunchers::RemoteTestData::$$c* _get_$$9();
     // Set static field: static public readonly UnityEngine.TestRunner.TestLaunchers.RemoteTestData/UnityEngine.TestRunner.TestLaunchers.<>c <>9
-    static void _set_$$9(UnityEngine::TestRunner::TestLaunchers::RemoteTestData::$$c* value);
+    static void _set_$$9(::UnityEngine::TestRunner::TestLaunchers::RemoteTestData::$$c* value);
     // Get static field: static public System.Func`2<NUnit.Framework.Interfaces.ITest,System.String> <>9__18_0
-    static System::Func_2<NUnit::Framework::Interfaces::ITest*, ::StringW>* _get_$$9__18_0();
+    static ::System::Func_2<::NUnit::Framework::Interfaces::ITest*, ::StringW>* _get_$$9__18_0();
     // Set static field: static public System.Func`2<NUnit.Framework.Interfaces.ITest,System.String> <>9__18_0
-    static void _set_$$9__18_0(System::Func_2<NUnit::Framework::Interfaces::ITest*, ::StringW>* value);
+    static void _set_$$9__18_0(::System::Func_2<::NUnit::Framework::Interfaces::ITest*, ::StringW>* value);
     // static private System.Void .cctor()
     // Offset: 0x18D38C0
     static void _cctor();
     // System.String <.ctor>b__18_0(NUnit.Framework.Interfaces.ITest t)
     // Offset: 0x18D392C
-    ::StringW $_ctor$b__18_0(NUnit::Framework::Interfaces::ITest* t);
+    ::StringW $_ctor$b__18_0(::NUnit::Framework::Interfaces::ITest* t);
     // public System.Void .ctor()
     // Offset: 0x18D3924
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RemoteTestData::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestRunner::TestLaunchers::RemoteTestData::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestRunner::TestLaunchers::RemoteTestData::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RemoteTestData::$$c*, creationType>()));
     }
   }; // UnityEngine.TestRunner.TestLaunchers.RemoteTestData/UnityEngine.TestRunner.TestLaunchers.<>c
@@ -76,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::TestRunner::TestLaunchers::RemoteTestData::$$c::$_ctor$b__18_0
 // Il2CppName: <.ctor>b__18_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::TestRunner::TestLaunchers::RemoteTestData::$$c::*)(NUnit::Framework::Interfaces::ITest*)>(&UnityEngine::TestRunner::TestLaunchers::RemoteTestData::$$c::$_ctor$b__18_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::TestRunner::TestLaunchers::RemoteTestData::$$c::*)(::NUnit::Framework::Interfaces::ITest*)>(&UnityEngine::TestRunner::TestLaunchers::RemoteTestData::$$c::$_ctor$b__18_0)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ITest")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::TestLaunchers::RemoteTestData::$$c*), "<.ctor>b__18_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});

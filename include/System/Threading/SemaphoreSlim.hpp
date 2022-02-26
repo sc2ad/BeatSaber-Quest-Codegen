@@ -44,8 +44,8 @@ namespace System::Threading {
   class SemaphoreSlim;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Threading::SemaphoreSlim);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::SemaphoreSlim*, "System.Threading", "SemaphoreSlim");
+NEED_NO_BOX(::System::Threading::SemaphoreSlim);
+DEFINE_IL2CPP_ARG_TYPE(::System::Threading::SemaphoreSlim*, "System.Threading", "SemaphoreSlim");
 // Type namespace: System.Threading
 namespace System::Threading {
   // Size: 0x40
@@ -54,11 +54,11 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   // [DebuggerDisplayAttribute] Offset: 11894D0
   // [ComVisibleAttribute] Offset: 11894D0
-  class SemaphoreSlim : public ::Il2CppObject/*, public System::IDisposable*/ {
+  class SemaphoreSlim : public ::Il2CppObject/*, public ::System::IDisposable*/ {
     public:
-    // Nested type: System::Threading::SemaphoreSlim::TaskNode
+    // Nested type: ::System::Threading::SemaphoreSlim::TaskNode
     class TaskNode;
-    // Nested type: System::Threading::SemaphoreSlim::$WaitUntilCountOrTimeoutAsync$d__31
+    // Nested type: ::System::Threading::SemaphoreSlim::$WaitUntilCountOrTimeoutAsync$d__31
     struct $WaitUntilCountOrTimeoutAsync$d__31;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -98,30 +98,30 @@ namespace System::Threading {
     // private System.Threading.ManualResetEvent m_waitHandle
     // Size: 0x8
     // Offset: 0x28
-    System::Threading::ManualResetEvent* m_waitHandle;
+    ::System::Threading::ManualResetEvent* m_waitHandle;
     // Field size check
-    static_assert(sizeof(System::Threading::ManualResetEvent*) == 0x8);
+    static_assert(sizeof(::System::Threading::ManualResetEvent*) == 0x8);
     // private System.Threading.SemaphoreSlim/System.Threading.TaskNode m_asyncHead
     // Size: 0x8
     // Offset: 0x30
-    System::Threading::SemaphoreSlim::TaskNode* m_asyncHead;
+    ::System::Threading::SemaphoreSlim::TaskNode* m_asyncHead;
     // Field size check
-    static_assert(sizeof(System::Threading::SemaphoreSlim::TaskNode*) == 0x8);
+    static_assert(sizeof(::System::Threading::SemaphoreSlim::TaskNode*) == 0x8);
     // private System.Threading.SemaphoreSlim/System.Threading.TaskNode m_asyncTail
     // Size: 0x8
     // Offset: 0x38
-    System::Threading::SemaphoreSlim::TaskNode* m_asyncTail;
+    ::System::Threading::SemaphoreSlim::TaskNode* m_asyncTail;
     // Field size check
-    static_assert(sizeof(System::Threading::SemaphoreSlim::TaskNode*) == 0x8);
+    static_assert(sizeof(::System::Threading::SemaphoreSlim::TaskNode*) == 0x8);
     public:
-    // Creating interface conversion operator: operator System::IDisposable
-    operator System::IDisposable() noexcept {
-      return *reinterpret_cast<System::IDisposable*>(this);
+    // Creating interface conversion operator: operator ::System::IDisposable
+    operator ::System::IDisposable() noexcept {
+      return *reinterpret_cast<::System::IDisposable*>(this);
     }
     // Get static field: static private readonly System.Threading.Tasks.Task`1<System.Boolean> s_trueTask
-    static System::Threading::Tasks::Task_1<bool>* _get_s_trueTask();
+    static ::System::Threading::Tasks::Task_1<bool>* _get_s_trueTask();
     // Set static field: static private readonly System.Threading.Tasks.Task`1<System.Boolean> s_trueTask
-    static void _set_s_trueTask(System::Threading::Tasks::Task_1<bool>* value);
+    static void _set_s_trueTask(::System::Threading::Tasks::Task_1<bool>* value);
     // static field const value: static private System.Int32 NO_MAXIMUM
     static constexpr const int NO_MAXIMUM = 2147483647;
     // Get static field: static private System.Int32 NO_MAXIMUM
@@ -129,9 +129,9 @@ namespace System::Threading {
     // Set static field: static private System.Int32 NO_MAXIMUM
     static void _set_NO_MAXIMUM(int value);
     // Get static field: static private System.Action`1<System.Object> s_cancellationTokenCanceledEventHandler
-    static System::Action_1<::Il2CppObject*>* _get_s_cancellationTokenCanceledEventHandler();
+    static ::System::Action_1<::Il2CppObject*>* _get_s_cancellationTokenCanceledEventHandler();
     // Set static field: static private System.Action`1<System.Object> s_cancellationTokenCanceledEventHandler
-    static void _set_s_cancellationTokenCanceledEventHandler(System::Action_1<::Il2CppObject*>* value);
+    static void _set_s_cancellationTokenCanceledEventHandler(::System::Action_1<::Il2CppObject*>* value);
     // Get instance field reference: private System.Int32 m_currentCount
     int& dyn_m_currentCount();
     // Get instance field reference: private readonly System.Int32 m_maxCount
@@ -141,11 +141,11 @@ namespace System::Threading {
     // Get instance field reference: private System.Object m_lockObj
     ::Il2CppObject*& dyn_m_lockObj();
     // Get instance field reference: private System.Threading.ManualResetEvent m_waitHandle
-    System::Threading::ManualResetEvent*& dyn_m_waitHandle();
+    ::System::Threading::ManualResetEvent*& dyn_m_waitHandle();
     // Get instance field reference: private System.Threading.SemaphoreSlim/System.Threading.TaskNode m_asyncHead
-    System::Threading::SemaphoreSlim::TaskNode*& dyn_m_asyncHead();
+    ::System::Threading::SemaphoreSlim::TaskNode*& dyn_m_asyncHead();
     // Get instance field reference: private System.Threading.SemaphoreSlim/System.Threading.TaskNode m_asyncTail
-    System::Threading::SemaphoreSlim::TaskNode*& dyn_m_asyncTail();
+    ::System::Threading::SemaphoreSlim::TaskNode*& dyn_m_asyncTail();
     // public System.Int32 get_CurrentCount()
     // Offset: 0x1C31834
     int get_CurrentCount();
@@ -153,14 +153,14 @@ namespace System::Threading {
     // Offset: 0x1C31858
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SemaphoreSlim* New_ctor(int initialCount) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::SemaphoreSlim::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::SemaphoreSlim::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SemaphoreSlim*, creationType>(initialCount)));
     }
     // public System.Void .ctor(System.Int32 initialCount, System.Int32 maxCount)
     // Offset: 0x1C31860
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SemaphoreSlim* New_ctor(int initialCount, int maxCount) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::SemaphoreSlim::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::SemaphoreSlim::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SemaphoreSlim*, creationType>(initialCount, maxCount)));
     }
     // static private System.Void .cctor()
@@ -174,28 +174,28 @@ namespace System::Threading {
     bool Wait(int millisecondsTimeout);
     // public System.Boolean Wait(System.Int32 millisecondsTimeout, System.Threading.CancellationToken cancellationToken)
     // Offset: 0x1C31A28
-    bool Wait(int millisecondsTimeout, System::Threading::CancellationToken cancellationToken);
+    bool Wait(int millisecondsTimeout, ::System::Threading::CancellationToken cancellationToken);
     // private System.Boolean WaitUntilCountOrTimeout(System.Int32 millisecondsTimeout, System.UInt32 startTime, System.Threading.CancellationToken cancellationToken)
     // Offset: 0x1C32268
-    bool WaitUntilCountOrTimeout(int millisecondsTimeout, uint startTime, System::Threading::CancellationToken cancellationToken);
+    bool WaitUntilCountOrTimeout(int millisecondsTimeout, uint startTime, ::System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task WaitAsync()
     // Offset: 0x1C322FC
-    System::Threading::Tasks::Task* WaitAsync();
+    ::System::Threading::Tasks::Task* WaitAsync();
     // public System.Threading.Tasks.Task WaitAsync(System.Threading.CancellationToken cancellationToken)
     // Offset: 0x1C32308
-    System::Threading::Tasks::Task* WaitAsync(System::Threading::CancellationToken cancellationToken);
+    ::System::Threading::Tasks::Task* WaitAsync(::System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<System.Boolean> WaitAsync(System.Int32 millisecondsTimeout, System.Threading.CancellationToken cancellationToken)
     // Offset: 0x1C31FC4
-    System::Threading::Tasks::Task_1<bool>* WaitAsync(int millisecondsTimeout, System::Threading::CancellationToken cancellationToken);
+    ::System::Threading::Tasks::Task_1<bool>* WaitAsync(int millisecondsTimeout, ::System::Threading::CancellationToken cancellationToken);
     // private System.Threading.SemaphoreSlim/System.Threading.TaskNode CreateAndAddAsyncWaiter()
     // Offset: 0x1C32314
-    System::Threading::SemaphoreSlim::TaskNode* CreateAndAddAsyncWaiter();
+    ::System::Threading::SemaphoreSlim::TaskNode* CreateAndAddAsyncWaiter();
     // private System.Boolean RemoveAsyncWaiter(System.Threading.SemaphoreSlim/System.Threading.TaskNode task)
     // Offset: 0x1C32548
-    bool RemoveAsyncWaiter(System::Threading::SemaphoreSlim::TaskNode* task);
+    bool RemoveAsyncWaiter(::System::Threading::SemaphoreSlim::TaskNode* task);
     // private System.Threading.Tasks.Task`1<System.Boolean> WaitUntilCountOrTimeoutAsync(System.Threading.SemaphoreSlim/System.Threading.TaskNode asyncWaiter, System.Int32 millisecondsTimeout, System.Threading.CancellationToken cancellationToken)
     // Offset: 0x1C323A4
-    System::Threading::Tasks::Task_1<bool>* WaitUntilCountOrTimeoutAsync(System::Threading::SemaphoreSlim::TaskNode* asyncWaiter, int millisecondsTimeout, System::Threading::CancellationToken cancellationToken);
+    ::System::Threading::Tasks::Task_1<bool>* WaitUntilCountOrTimeoutAsync(::System::Threading::SemaphoreSlim::TaskNode* asyncWaiter, int millisecondsTimeout, ::System::Threading::CancellationToken cancellationToken);
     // public System.Int32 Release()
     // Offset: 0x1C325D4
     int Release();
@@ -204,7 +204,7 @@ namespace System::Threading {
     int Release(int releaseCount);
     // static private System.Void QueueWaiterTask(System.Threading.SemaphoreSlim/System.Threading.TaskNode waiterTask)
     // Offset: 0x1C3288C
-    static void QueueWaiterTask(System::Threading::SemaphoreSlim::TaskNode* waiterTask);
+    static void QueueWaiterTask(::System::Threading::SemaphoreSlim::TaskNode* waiterTask);
     // public System.Void Dispose()
     // Offset: 0x1C32898
     void Dispose();
@@ -222,7 +222,7 @@ namespace System::Threading {
     static ::StringW GetResourceString(::StringW str);
   }; // System.Threading.SemaphoreSlim
   #pragma pack(pop)
-  static check_size<sizeof(SemaphoreSlim), 56 + sizeof(System::Threading::SemaphoreSlim::TaskNode*)> __System_Threading_SemaphoreSlimSizeCheck;
+  static check_size<sizeof(SemaphoreSlim), 56 + sizeof(::System::Threading::SemaphoreSlim::TaskNode*)> __System_Threading_SemaphoreSlimSizeCheck;
   static_assert(sizeof(SemaphoreSlim) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -270,7 +270,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Threading::SemaphoreSlim::Wait
 // Il2CppName: Wait
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::SemaphoreSlim::*)(int, System::Threading::CancellationToken)>(&System::Threading::SemaphoreSlim::Wait)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::SemaphoreSlim::*)(int, ::System::Threading::CancellationToken)>(&System::Threading::SemaphoreSlim::Wait)> {
   static const MethodInfo* get() {
     static auto* millisecondsTimeout = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
@@ -280,7 +280,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Threading::SemaphoreSlim::WaitUntilCountOrTimeout
 // Il2CppName: WaitUntilCountOrTimeout
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::SemaphoreSlim::*)(int, uint, System::Threading::CancellationToken)>(&System::Threading::SemaphoreSlim::WaitUntilCountOrTimeout)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::SemaphoreSlim::*)(int, uint, ::System::Threading::CancellationToken)>(&System::Threading::SemaphoreSlim::WaitUntilCountOrTimeout)> {
   static const MethodInfo* get() {
     static auto* millisecondsTimeout = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* startTime = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -291,7 +291,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Threading::SemaphoreSlim::WaitAsync
 // Il2CppName: WaitAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (System::Threading::SemaphoreSlim::*)()>(&System::Threading::SemaphoreSlim::WaitAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (System::Threading::SemaphoreSlim::*)()>(&System::Threading::SemaphoreSlim::WaitAsync)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::SemaphoreSlim*), "WaitAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -299,7 +299,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: System::Threading::SemaphoreSlim::WaitAsync
 // Il2CppName: WaitAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (System::Threading::SemaphoreSlim::*)(System::Threading::CancellationToken)>(&System::Threading::SemaphoreSlim::WaitAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (System::Threading::SemaphoreSlim::*)(::System::Threading::CancellationToken)>(&System::Threading::SemaphoreSlim::WaitAsync)> {
   static const MethodInfo* get() {
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::SemaphoreSlim*), "WaitAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cancellationToken});
@@ -308,7 +308,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: System::Threading::SemaphoreSlim::WaitAsync
 // Il2CppName: WaitAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<bool>* (System::Threading::SemaphoreSlim::*)(int, System::Threading::CancellationToken)>(&System::Threading::SemaphoreSlim::WaitAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<bool>* (System::Threading::SemaphoreSlim::*)(int, ::System::Threading::CancellationToken)>(&System::Threading::SemaphoreSlim::WaitAsync)> {
   static const MethodInfo* get() {
     static auto* millisecondsTimeout = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
@@ -318,7 +318,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: System::Threading::SemaphoreSlim::CreateAndAddAsyncWaiter
 // Il2CppName: CreateAndAddAsyncWaiter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::SemaphoreSlim::TaskNode* (System::Threading::SemaphoreSlim::*)()>(&System::Threading::SemaphoreSlim::CreateAndAddAsyncWaiter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::SemaphoreSlim::TaskNode* (System::Threading::SemaphoreSlim::*)()>(&System::Threading::SemaphoreSlim::CreateAndAddAsyncWaiter)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::SemaphoreSlim*), "CreateAndAddAsyncWaiter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -326,7 +326,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: System::Threading::SemaphoreSlim::RemoveAsyncWaiter
 // Il2CppName: RemoveAsyncWaiter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::SemaphoreSlim::*)(System::Threading::SemaphoreSlim::TaskNode*)>(&System::Threading::SemaphoreSlim::RemoveAsyncWaiter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::SemaphoreSlim::*)(::System::Threading::SemaphoreSlim::TaskNode*)>(&System::Threading::SemaphoreSlim::RemoveAsyncWaiter)> {
   static const MethodInfo* get() {
     static auto* task = &::il2cpp_utils::GetClassFromName("System.Threading", "SemaphoreSlim/TaskNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::SemaphoreSlim*), "RemoveAsyncWaiter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{task});
@@ -335,7 +335,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Threading::SemaphoreSlim::WaitUntilCountOrTimeoutAsync
 // Il2CppName: WaitUntilCountOrTimeoutAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<bool>* (System::Threading::SemaphoreSlim::*)(System::Threading::SemaphoreSlim::TaskNode*, int, System::Threading::CancellationToken)>(&System::Threading::SemaphoreSlim::WaitUntilCountOrTimeoutAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<bool>* (System::Threading::SemaphoreSlim::*)(::System::Threading::SemaphoreSlim::TaskNode*, int, ::System::Threading::CancellationToken)>(&System::Threading::SemaphoreSlim::WaitUntilCountOrTimeoutAsync)> {
   static const MethodInfo* get() {
     static auto* asyncWaiter = &::il2cpp_utils::GetClassFromName("System.Threading", "SemaphoreSlim/TaskNode")->byval_arg;
     static auto* millisecondsTimeout = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -363,7 +363,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Threading::SemaphoreSlim::QueueWaiterTask
 // Il2CppName: QueueWaiterTask
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::SemaphoreSlim::TaskNode*)>(&System::Threading::SemaphoreSlim::QueueWaiterTask)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Threading::SemaphoreSlim::TaskNode*)>(&System::Threading::SemaphoreSlim::QueueWaiterTask)> {
   static const MethodInfo* get() {
     static auto* waiterTask = &::il2cpp_utils::GetClassFromName("System.Threading", "SemaphoreSlim/TaskNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::SemaphoreSlim*), "QueueWaiterTask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{waiterTask});

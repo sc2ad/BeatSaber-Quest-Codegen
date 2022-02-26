@@ -14,8 +14,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PlayerSaveData::PlayerMissionStatsData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveData::PlayerMissionStatsData*, "", "PlayerSaveData/PlayerMissionStatsData");
+NEED_NO_BOX(::GlobalNamespace::PlayerSaveData::PlayerMissionStatsData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlayerSaveData::PlayerMissionStatsData*, "", "PlayerSaveData/PlayerMissionStatsData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x19
@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSaveData::PlayerMissionStatsData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerSaveData::PlayerMissionStatsData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSaveData::PlayerMissionStatsData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerSaveData::PlayerMissionStatsData*, creationType>()));
     }
   }; // PlayerSaveData/PlayerMissionStatsData

@@ -46,8 +46,8 @@ namespace GlobalNamespace {
   class MessageHandlerAnalyticsManagerExtensions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MessageHandlerAnalyticsManagerExtensions);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MessageHandlerAnalyticsManagerExtensions*, "", "MessageHandlerAnalyticsManagerExtensions");
+NEED_NO_BOX(::GlobalNamespace::MessageHandlerAnalyticsManagerExtensions);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MessageHandlerAnalyticsManagerExtensions*, "", "MessageHandlerAnalyticsManagerExtensions");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -124,46 +124,46 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kMessageCategoryMessage
     static void _set_kMessageCategoryMessage(::StringW value);
     // Get static field: static private readonly System.Collections.Generic.Dictionary`2<System.Type,System.String> _typeNameLookup
-    static System::Collections::Generic::Dictionary_2<System::Type*, ::StringW>* _get__typeNameLookup();
+    static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::StringW>* _get__typeNameLookup();
     // Set static field: static private readonly System.Collections.Generic.Dictionary`2<System.Type,System.String> _typeNameLookup
-    static void _set__typeNameLookup(System::Collections::Generic::Dictionary_2<System::Type*, ::StringW>* value);
+    static void _set__typeNameLookup(::System::Collections::Generic::Dictionary_2<::System::Type*, ::StringW>* value);
     // Get static field: static private readonly System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.Dictionary`2<System.Byte,System.String>> _responseCodeLookup
-    static System::Collections::Generic::Dictionary_2<System::Type*, System::Collections::Generic::Dictionary_2<uint8_t, ::StringW>*>* _get__responseCodeLookup();
+    static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::Dictionary_2<uint8_t, ::StringW>*>* _get__responseCodeLookup();
     // Set static field: static private readonly System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.Dictionary`2<System.Byte,System.String>> _responseCodeLookup
-    static void _set__responseCodeLookup(System::Collections::Generic::Dictionary_2<System::Type*, System::Collections::Generic::Dictionary_2<uint8_t, ::StringW>*>* value);
+    static void _set__responseCodeLookup(::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::Dictionary_2<uint8_t, ::StringW>*>* value);
     // static private System.Void .cctor()
     // Offset: 0x2CA671C
     static void _cctor();
     // static private System.String GetMessageName(BGNet.Core.Messages.IUnconnectedMessage message)
     // Offset: 0x2CA5318
-    static ::StringW GetMessageName(BGNet::Core::Messages::IUnconnectedMessage* message);
+    static ::StringW GetMessageName(::BGNet::Core::Messages::IUnconnectedMessage* message);
     // static private System.String GetResponseCodeName(BGNet.Core.Messages.IUnconnectedResponse response)
     // Offset: 0x2CA5460
-    static ::StringW GetResponseCodeName(BGNet::Core::Messages::IUnconnectedResponse* response);
+    static ::StringW GetResponseCodeName(::BGNet::Core::Messages::IUnconnectedResponse* response);
     // static public System.Void ReceivedReliableRequestEvent(BGNet.Core.IAnalyticsManager analyticsManager, BGNet.Core.Messages.IUnconnectedReliableRequest request)
     // Offset: 0x2CA5720
-    static void ReceivedReliableRequestEvent(BGNet::Core::IAnalyticsManager* analyticsManager, BGNet::Core::Messages::IUnconnectedReliableRequest* request);
+    static void ReceivedReliableRequestEvent(::BGNet::Core::IAnalyticsManager* analyticsManager, ::BGNet::Core::Messages::IUnconnectedReliableRequest* request);
     // static public System.Void SentReliableRequestEvent(BGNet.Core.IAnalyticsManager analyticsManager, BGNet.Core.Messages.IUnconnectedReliableRequest request)
     // Offset: 0x2CA59BC
-    static void SentReliableRequestEvent(BGNet::Core::IAnalyticsManager* analyticsManager, BGNet::Core::Messages::IUnconnectedReliableRequest* request);
+    static void SentReliableRequestEvent(::BGNet::Core::IAnalyticsManager* analyticsManager, ::BGNet::Core::Messages::IUnconnectedReliableRequest* request);
     // static public System.Void ReceivedReliableResponseEvent(BGNet.Core.IAnalyticsManager analyticsManager, BGNet.Core.Messages.IUnconnectedReliableResponse response)
     // Offset: 0x2CA5B8C
-    static void ReceivedReliableResponseEvent(BGNet::Core::IAnalyticsManager* analyticsManager, BGNet::Core::Messages::IUnconnectedReliableResponse* response);
+    static void ReceivedReliableResponseEvent(::BGNet::Core::IAnalyticsManager* analyticsManager, ::BGNet::Core::Messages::IUnconnectedReliableResponse* response);
     // static public System.Void SentReliableResponseEvent(BGNet.Core.IAnalyticsManager analyticsManager, BGNet.Core.Messages.IUnconnectedReliableResponse response)
     // Offset: 0x2CA5D88
-    static void SentReliableResponseEvent(BGNet::Core::IAnalyticsManager* analyticsManager, BGNet::Core::Messages::IUnconnectedReliableResponse* response);
+    static void SentReliableResponseEvent(::BGNet::Core::IAnalyticsManager* analyticsManager, ::BGNet::Core::Messages::IUnconnectedReliableResponse* response);
     // static public System.Void ReceivedUnreliableMessageEvent(BGNet.Core.IAnalyticsManager analyticsManager, BGNet.Core.Messages.IUnconnectedUnreliableMessage message)
     // Offset: 0x2CA5F84
-    static void ReceivedUnreliableMessageEvent(BGNet::Core::IAnalyticsManager* analyticsManager, BGNet::Core::Messages::IUnconnectedUnreliableMessage* message);
+    static void ReceivedUnreliableMessageEvent(::BGNet::Core::IAnalyticsManager* analyticsManager, ::BGNet::Core::Messages::IUnconnectedUnreliableMessage* message);
     // static public System.Void SentUnreliableMessageEvent(BGNet.Core.IAnalyticsManager analyticsManager, BGNet.Core.Messages.IUnconnectedUnreliableMessage message)
     // Offset: 0x2CA6154
-    static void SentUnreliableMessageEvent(BGNet::Core::IAnalyticsManager* analyticsManager, BGNet::Core::Messages::IUnconnectedUnreliableMessage* message);
+    static void SentUnreliableMessageEvent(::BGNet::Core::IAnalyticsManager* analyticsManager, ::BGNet::Core::Messages::IUnconnectedUnreliableMessage* message);
     // static public System.Void ReceivedUnreliableResponseEvent(BGNet.Core.IAnalyticsManager analyticsManager, BGNet.Core.Messages.IUnconnectedResponse response)
     // Offset: 0x2CA6324
-    static void ReceivedUnreliableResponseEvent(BGNet::Core::IAnalyticsManager* analyticsManager, BGNet::Core::Messages::IUnconnectedResponse* response);
+    static void ReceivedUnreliableResponseEvent(::BGNet::Core::IAnalyticsManager* analyticsManager, ::BGNet::Core::Messages::IUnconnectedResponse* response);
     // static public System.Void SentUnreliableResponseEvent(BGNet.Core.IAnalyticsManager analyticsManager, BGNet.Core.Messages.IUnconnectedResponse response)
     // Offset: 0x2CA6520
-    static void SentUnreliableResponseEvent(BGNet::Core::IAnalyticsManager* analyticsManager, BGNet::Core::Messages::IUnconnectedResponse* response);
+    static void SentUnreliableResponseEvent(::BGNet::Core::IAnalyticsManager* analyticsManager, ::BGNet::Core::Messages::IUnconnectedResponse* response);
   }; // MessageHandlerAnalyticsManagerExtensions
   #pragma pack(pop)
 }
@@ -179,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::GetMessageName
 // Il2CppName: GetMessageName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(BGNet::Core::Messages::IUnconnectedMessage*)>(&GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::GetMessageName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::BGNet::Core::Messages::IUnconnectedMessage*)>(&GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::GetMessageName)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("BGNet.Core.Messages", "IUnconnectedMessage")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MessageHandlerAnalyticsManagerExtensions*), "GetMessageName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
@@ -188,7 +188,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::GetResponseCodeName
 // Il2CppName: GetResponseCodeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(BGNet::Core::Messages::IUnconnectedResponse*)>(&GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::GetResponseCodeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::BGNet::Core::Messages::IUnconnectedResponse*)>(&GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::GetResponseCodeName)> {
   static const MethodInfo* get() {
     static auto* response = &::il2cpp_utils::GetClassFromName("BGNet.Core.Messages", "IUnconnectedResponse")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MessageHandlerAnalyticsManagerExtensions*), "GetResponseCodeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{response});
@@ -197,7 +197,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::ReceivedReliableRequestEvent
 // Il2CppName: ReceivedReliableRequestEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(BGNet::Core::IAnalyticsManager*, BGNet::Core::Messages::IUnconnectedReliableRequest*)>(&GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::ReceivedReliableRequestEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::BGNet::Core::IAnalyticsManager*, ::BGNet::Core::Messages::IUnconnectedReliableRequest*)>(&GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::ReceivedReliableRequestEvent)> {
   static const MethodInfo* get() {
     static auto* analyticsManager = &::il2cpp_utils::GetClassFromName("BGNet.Core", "IAnalyticsManager")->byval_arg;
     static auto* request = &::il2cpp_utils::GetClassFromName("BGNet.Core.Messages", "IUnconnectedReliableRequest")->byval_arg;
@@ -207,7 +207,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(BG
 // Writing MetadataGetter for method: GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::SentReliableRequestEvent
 // Il2CppName: SentReliableRequestEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(BGNet::Core::IAnalyticsManager*, BGNet::Core::Messages::IUnconnectedReliableRequest*)>(&GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::SentReliableRequestEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::BGNet::Core::IAnalyticsManager*, ::BGNet::Core::Messages::IUnconnectedReliableRequest*)>(&GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::SentReliableRequestEvent)> {
   static const MethodInfo* get() {
     static auto* analyticsManager = &::il2cpp_utils::GetClassFromName("BGNet.Core", "IAnalyticsManager")->byval_arg;
     static auto* request = &::il2cpp_utils::GetClassFromName("BGNet.Core.Messages", "IUnconnectedReliableRequest")->byval_arg;
@@ -217,7 +217,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(BG
 // Writing MetadataGetter for method: GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::ReceivedReliableResponseEvent
 // Il2CppName: ReceivedReliableResponseEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(BGNet::Core::IAnalyticsManager*, BGNet::Core::Messages::IUnconnectedReliableResponse*)>(&GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::ReceivedReliableResponseEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::BGNet::Core::IAnalyticsManager*, ::BGNet::Core::Messages::IUnconnectedReliableResponse*)>(&GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::ReceivedReliableResponseEvent)> {
   static const MethodInfo* get() {
     static auto* analyticsManager = &::il2cpp_utils::GetClassFromName("BGNet.Core", "IAnalyticsManager")->byval_arg;
     static auto* response = &::il2cpp_utils::GetClassFromName("BGNet.Core.Messages", "IUnconnectedReliableResponse")->byval_arg;
@@ -227,7 +227,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(BG
 // Writing MetadataGetter for method: GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::SentReliableResponseEvent
 // Il2CppName: SentReliableResponseEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(BGNet::Core::IAnalyticsManager*, BGNet::Core::Messages::IUnconnectedReliableResponse*)>(&GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::SentReliableResponseEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::BGNet::Core::IAnalyticsManager*, ::BGNet::Core::Messages::IUnconnectedReliableResponse*)>(&GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::SentReliableResponseEvent)> {
   static const MethodInfo* get() {
     static auto* analyticsManager = &::il2cpp_utils::GetClassFromName("BGNet.Core", "IAnalyticsManager")->byval_arg;
     static auto* response = &::il2cpp_utils::GetClassFromName("BGNet.Core.Messages", "IUnconnectedReliableResponse")->byval_arg;
@@ -237,7 +237,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(BG
 // Writing MetadataGetter for method: GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::ReceivedUnreliableMessageEvent
 // Il2CppName: ReceivedUnreliableMessageEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(BGNet::Core::IAnalyticsManager*, BGNet::Core::Messages::IUnconnectedUnreliableMessage*)>(&GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::ReceivedUnreliableMessageEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::BGNet::Core::IAnalyticsManager*, ::BGNet::Core::Messages::IUnconnectedUnreliableMessage*)>(&GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::ReceivedUnreliableMessageEvent)> {
   static const MethodInfo* get() {
     static auto* analyticsManager = &::il2cpp_utils::GetClassFromName("BGNet.Core", "IAnalyticsManager")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("BGNet.Core.Messages", "IUnconnectedUnreliableMessage")->byval_arg;
@@ -247,7 +247,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(BG
 // Writing MetadataGetter for method: GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::SentUnreliableMessageEvent
 // Il2CppName: SentUnreliableMessageEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(BGNet::Core::IAnalyticsManager*, BGNet::Core::Messages::IUnconnectedUnreliableMessage*)>(&GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::SentUnreliableMessageEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::BGNet::Core::IAnalyticsManager*, ::BGNet::Core::Messages::IUnconnectedUnreliableMessage*)>(&GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::SentUnreliableMessageEvent)> {
   static const MethodInfo* get() {
     static auto* analyticsManager = &::il2cpp_utils::GetClassFromName("BGNet.Core", "IAnalyticsManager")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("BGNet.Core.Messages", "IUnconnectedUnreliableMessage")->byval_arg;
@@ -257,7 +257,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(BG
 // Writing MetadataGetter for method: GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::ReceivedUnreliableResponseEvent
 // Il2CppName: ReceivedUnreliableResponseEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(BGNet::Core::IAnalyticsManager*, BGNet::Core::Messages::IUnconnectedResponse*)>(&GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::ReceivedUnreliableResponseEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::BGNet::Core::IAnalyticsManager*, ::BGNet::Core::Messages::IUnconnectedResponse*)>(&GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::ReceivedUnreliableResponseEvent)> {
   static const MethodInfo* get() {
     static auto* analyticsManager = &::il2cpp_utils::GetClassFromName("BGNet.Core", "IAnalyticsManager")->byval_arg;
     static auto* response = &::il2cpp_utils::GetClassFromName("BGNet.Core.Messages", "IUnconnectedResponse")->byval_arg;
@@ -267,7 +267,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(BG
 // Writing MetadataGetter for method: GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::SentUnreliableResponseEvent
 // Il2CppName: SentUnreliableResponseEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(BGNet::Core::IAnalyticsManager*, BGNet::Core::Messages::IUnconnectedResponse*)>(&GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::SentUnreliableResponseEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::BGNet::Core::IAnalyticsManager*, ::BGNet::Core::Messages::IUnconnectedResponse*)>(&GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::SentUnreliableResponseEvent)> {
   static const MethodInfo* get() {
     static auto* analyticsManager = &::il2cpp_utils::GetClassFromName("BGNet.Core", "IAnalyticsManager")->byval_arg;
     static auto* response = &::il2cpp_utils::GetClassFromName("BGNet.Core.Messages", "IUnconnectedResponse")->byval_arg;

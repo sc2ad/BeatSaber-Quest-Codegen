@@ -57,8 +57,8 @@ namespace System::Runtime::CompilerServices {
   class CallSiteBinder;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::CompilerServices::CallSiteBinder);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::CallSiteBinder*, "System.Runtime.CompilerServices", "CallSiteBinder");
+NEED_NO_BOX(::System::Runtime::CompilerServices::CallSiteBinder);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::CompilerServices::CallSiteBinder*, "System.Runtime.CompilerServices", "CallSiteBinder");
 // Type namespace: System.Runtime.CompilerServices
 namespace System::Runtime::CompilerServices {
   // Size: 0x18
@@ -67,7 +67,7 @@ namespace System::Runtime::CompilerServices {
   // [TokenAttribute] Offset: FFFFFFFF
   class CallSiteBinder : public ::Il2CppObject {
     public:
-    // Nested type: System::Runtime::CompilerServices::CallSiteBinder::LambdaSignature_1<T>
+    // Nested type: ::System::Runtime::CompilerServices::CallSiteBinder::LambdaSignature_1<T>
     template<typename T>
     class LambdaSignature_1;
     #ifdef USE_CODEGEN_FIELDS
@@ -82,34 +82,34 @@ namespace System::Runtime::CompilerServices {
     // System.Collections.Generic.Dictionary`2<System.Type,System.Object> Cache
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::Dictionary_2<System::Type*, ::Il2CppObject*>* Cache;
+    ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Il2CppObject*>* Cache;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<System::Type*, ::Il2CppObject*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::Dictionary_2<::System::Type*, ::Il2CppObject*>*) == 0x8);
     public:
-    // Creating conversion operator: operator System::Collections::Generic::Dictionary_2<System::Type*, ::Il2CppObject*>*
-    constexpr operator System::Collections::Generic::Dictionary_2<System::Type*, ::Il2CppObject*>*() const noexcept {
+    // Creating conversion operator: operator ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Il2CppObject*>*
+    constexpr operator ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Il2CppObject*>*() const noexcept {
       return Cache;
     }
     // Get static field: static private readonly System.Linq.Expressions.LabelTarget <UpdateLabel>k__BackingField
-    static System::Linq::Expressions::LabelTarget* _get_$UpdateLabel$k__BackingField();
+    static ::System::Linq::Expressions::LabelTarget* _get_$UpdateLabel$k__BackingField();
     // Set static field: static private readonly System.Linq.Expressions.LabelTarget <UpdateLabel>k__BackingField
-    static void _set_$UpdateLabel$k__BackingField(System::Linq::Expressions::LabelTarget* value);
+    static void _set_$UpdateLabel$k__BackingField(::System::Linq::Expressions::LabelTarget* value);
     // Get instance field reference: System.Collections.Generic.Dictionary`2<System.Type,System.Object> Cache
-    System::Collections::Generic::Dictionary_2<System::Type*, ::Il2CppObject*>*& dyn_Cache();
+    ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Il2CppObject*>*& dyn_Cache();
     // static public System.Linq.Expressions.LabelTarget get_UpdateLabel()
     // Offset: 0x297EEB4
-    static System::Linq::Expressions::LabelTarget* get_UpdateLabel();
+    static ::System::Linq::Expressions::LabelTarget* get_UpdateLabel();
     // static private System.Void .cctor()
     // Offset: 0x297EF1C
     static void _cctor();
     // public System.Linq.Expressions.Expression Bind(System.Object[] args, System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.ParameterExpression> parameters, System.Linq.Expressions.LabelTarget returnLabel)
     // Offset: 0xFFFFFFFF
-    System::Linq::Expressions::Expression* Bind(::ArrayW<::Il2CppObject*> args, System::Collections::ObjectModel::ReadOnlyCollection_1<System::Linq::Expressions::ParameterExpression*>* parameters, System::Linq::Expressions::LabelTarget* returnLabel);
+    ::System::Linq::Expressions::Expression* Bind(::ArrayW<::Il2CppObject*> args, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* parameters, ::System::Linq::Expressions::LabelTarget* returnLabel);
     // public T BindDelegate(System.Runtime.CompilerServices.CallSite`1<T> site, System.Object[] args)
     // Offset: 0xFFFFFFFF
     template<class T>
-    T BindDelegate(System::Runtime::CompilerServices::CallSite_1<T>* site, ::ArrayW<::Il2CppObject*> args) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::CallSiteBinder::BindDelegate");
+    T BindDelegate(::System::Runtime::CompilerServices::CallSite_1<T>* site, ::ArrayW<::Il2CppObject*> args) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::CallSiteBinder::BindDelegate");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindDelegate", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(site), ::il2cpp_utils::ExtractType(args)})));
       auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___generic__method, site, args);
@@ -117,8 +117,8 @@ namespace System::Runtime::CompilerServices {
     // T BindCore(System.Runtime.CompilerServices.CallSite`1<T> site, System.Object[] args)
     // Offset: 0xFFFFFFFF
     template<class T>
-    T BindCore(System::Runtime::CompilerServices::CallSite_1<T>* site, ::ArrayW<::Il2CppObject*> args) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::CallSiteBinder::BindCore");
+    T BindCore(::System::Runtime::CompilerServices::CallSite_1<T>* site, ::ArrayW<::Il2CppObject*> args) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::CallSiteBinder::BindCore");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BindCore", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(site), ::il2cpp_utils::ExtractType(args)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___generic__method, site, args);
@@ -127,7 +127,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0xFFFFFFFF
     template<class T>
     void CacheTarget(T target) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::CallSiteBinder::CacheTarget");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::CallSiteBinder::CacheTarget");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CacheTarget", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(target)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, target);
@@ -135,20 +135,20 @@ namespace System::Runtime::CompilerServices {
     // static private System.Linq.Expressions.Expression`1<T> Stitch(System.Linq.Expressions.Expression binding, System.Runtime.CompilerServices.CallSiteBinder/System.Runtime.CompilerServices.LambdaSignature`1<T> signature)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static System::Linq::Expressions::Expression_1<T>* Stitch(System::Linq::Expressions::Expression* binding, System::Runtime::CompilerServices::CallSiteBinder::LambdaSignature_1<T>* signature) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::CallSiteBinder::Stitch");
+    static ::System::Linq::Expressions::Expression_1<T>* Stitch(::System::Linq::Expressions::Expression* binding, ::System::Runtime::CompilerServices::CallSiteBinder::LambdaSignature_1<T>* signature) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::CallSiteBinder::Stitch");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Runtime.CompilerServices", "CallSiteBinder", "Stitch", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(binding), ::il2cpp_utils::ExtractType(signature)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodRethrow<System::Linq::Expressions::Expression_1<T>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, binding, signature);
+      return ::il2cpp_utils::RunMethodRethrow<::System::Linq::Expressions::Expression_1<T>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, binding, signature);
     }
     // System.Runtime.CompilerServices.RuleCache`1<T> GetRuleCache()
     // Offset: 0xFFFFFFFF
     template<class T>
-    System::Runtime::CompilerServices::RuleCache_1<T>* GetRuleCache() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::CallSiteBinder::GetRuleCache");
+    ::System::Runtime::CompilerServices::RuleCache_1<T>* GetRuleCache() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::CallSiteBinder::GetRuleCache");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetRuleCache", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodRethrow<System::Runtime::CompilerServices::RuleCache_1<T>*, false>(this, ___generic__method);
+      return ::il2cpp_utils::RunMethodRethrow<::System::Runtime::CompilerServices::RuleCache_1<T>*, false>(this, ___generic__method);
     }
     // protected System.Void .ctor()
     // Offset: 0x297EEAC
@@ -156,19 +156,19 @@ namespace System::Runtime::CompilerServices {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CallSiteBinder* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::CallSiteBinder::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::CallSiteBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CallSiteBinder*, creationType>()));
     }
   }; // System.Runtime.CompilerServices.CallSiteBinder
   #pragma pack(pop)
-  static check_size<sizeof(CallSiteBinder), 16 + sizeof(System::Collections::Generic::Dictionary_2<System::Type*, ::Il2CppObject*>*)> __System_Runtime_CompilerServices_CallSiteBinderSizeCheck;
+  static check_size<sizeof(CallSiteBinder), 16 + sizeof(::System::Collections::Generic::Dictionary_2<::System::Type*, ::Il2CppObject*>*)> __System_Runtime_CompilerServices_CallSiteBinderSizeCheck;
   static_assert(sizeof(CallSiteBinder) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::CallSiteBinder::get_UpdateLabel
 // Il2CppName: get_UpdateLabel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Linq::Expressions::LabelTarget* (*)()>(&System::Runtime::CompilerServices::CallSiteBinder::get_UpdateLabel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::LabelTarget* (*)()>(&System::Runtime::CompilerServices::CallSiteBinder::get_UpdateLabel)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::CallSiteBinder*), "get_UpdateLabel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -184,7 +184,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::CallSiteBinder::Bind
 // Il2CppName: Bind
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Linq::Expressions::Expression* (System::Runtime::CompilerServices::CallSiteBinder::*)(::ArrayW<::Il2CppObject*>, System::Collections::ObjectModel::ReadOnlyCollection_1<System::Linq::Expressions::ParameterExpression*>*, System::Linq::Expressions::LabelTarget*)>(&System::Runtime::CompilerServices::CallSiteBinder::Bind)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (System::Runtime::CompilerServices::CallSiteBinder::*)(::ArrayW<::Il2CppObject*>, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>*, ::System::Linq::Expressions::LabelTarget*)>(&System::Runtime::CompilerServices::CallSiteBinder::Bind)> {
   static const MethodInfo* get() {
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     static auto* parameters = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.ObjectModel", "ReadOnlyCollection`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "ParameterExpression")})->byval_arg;

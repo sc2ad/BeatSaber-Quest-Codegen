@@ -13,8 +13,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Remoting::RemotingServices::CACD);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::RemotingServices::CACD*, "System.Runtime.Remoting", "RemotingServices/CACD");
+NEED_NO_BOX(::System::Runtime::Remoting::RemotingServices::CACD);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::RemotingServices::CACD*, "System.Runtime.Remoting", "RemotingServices/CACD");
 // Type namespace: System.Runtime.Remoting
 namespace System::Runtime::Remoting {
   // Size: 0x20
@@ -55,7 +55,7 @@ namespace System::Runtime::Remoting {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RemotingServices::CACD* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::RemotingServices::CACD::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::RemotingServices::CACD::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RemotingServices::CACD*, creationType>()));
     }
   }; // System.Runtime.Remoting.RemotingServices/System.Runtime.Remoting.CACD

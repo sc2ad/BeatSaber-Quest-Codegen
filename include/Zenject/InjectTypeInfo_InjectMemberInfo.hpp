@@ -22,8 +22,8 @@ namespace Zenject {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::InjectTypeInfo::InjectMemberInfo);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectTypeInfo::InjectMemberInfo*, "Zenject", "InjectTypeInfo/InjectMemberInfo");
+NEED_NO_BOX(::Zenject::InjectTypeInfo::InjectMemberInfo);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::InjectTypeInfo::InjectMemberInfo*, "Zenject", "InjectTypeInfo/InjectMemberInfo");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x20
@@ -45,30 +45,30 @@ namespace Zenject {
     // public readonly Zenject.ZenMemberSetterMethod Setter
     // Size: 0x8
     // Offset: 0x10
-    Zenject::ZenMemberSetterMethod* Setter;
+    ::Zenject::ZenMemberSetterMethod* Setter;
     // Field size check
-    static_assert(sizeof(Zenject::ZenMemberSetterMethod*) == 0x8);
+    static_assert(sizeof(::Zenject::ZenMemberSetterMethod*) == 0x8);
     // public readonly Zenject.InjectableInfo Info
     // Size: 0x8
     // Offset: 0x18
-    Zenject::InjectableInfo* Info;
+    ::Zenject::InjectableInfo* Info;
     // Field size check
-    static_assert(sizeof(Zenject::InjectableInfo*) == 0x8);
+    static_assert(sizeof(::Zenject::InjectableInfo*) == 0x8);
     public:
     // Get instance field reference: public readonly Zenject.ZenMemberSetterMethod Setter
-    Zenject::ZenMemberSetterMethod*& dyn_Setter();
+    ::Zenject::ZenMemberSetterMethod*& dyn_Setter();
     // Get instance field reference: public readonly Zenject.InjectableInfo Info
-    Zenject::InjectableInfo*& dyn_Info();
+    ::Zenject::InjectableInfo*& dyn_Info();
     // public System.Void .ctor(Zenject.ZenMemberSetterMethod setter, Zenject.InjectableInfo info)
     // Offset: 0x2A479A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static InjectTypeInfo::InjectMemberInfo* New_ctor(Zenject::ZenMemberSetterMethod* setter, Zenject::InjectableInfo* info) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::InjectTypeInfo::InjectMemberInfo::.ctor");
+    static InjectTypeInfo::InjectMemberInfo* New_ctor(::Zenject::ZenMemberSetterMethod* setter, ::Zenject::InjectableInfo* info) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InjectTypeInfo::InjectMemberInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InjectTypeInfo::InjectMemberInfo*, creationType>(setter, info)));
     }
   }; // Zenject.InjectTypeInfo/Zenject.InjectMemberInfo
   #pragma pack(pop)
-  static check_size<sizeof(InjectTypeInfo::InjectMemberInfo), 24 + sizeof(Zenject::InjectableInfo*)> __Zenject_InjectTypeInfo_InjectMemberInfoSizeCheck;
+  static check_size<sizeof(InjectTypeInfo::InjectMemberInfo), 24 + sizeof(::Zenject::InjectableInfo*)> __Zenject_InjectTypeInfo_InjectMemberInfoSizeCheck;
   static_assert(sizeof(InjectTypeInfo::InjectMemberInfo) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

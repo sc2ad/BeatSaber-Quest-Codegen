@@ -29,8 +29,8 @@ namespace GlobalNamespace {
   class BeatmapDataTransformHelper;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BeatmapDataTransformHelper);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataTransformHelper*, "", "BeatmapDataTransformHelper");
+NEED_NO_BOX(::GlobalNamespace::BeatmapDataTransformHelper);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapDataTransformHelper*, "", "BeatmapDataTransformHelper");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -41,10 +41,10 @@ namespace GlobalNamespace {
     public:
     // static public IReadonlyBeatmapData CreateTransformedBeatmapData(IReadonlyBeatmapData beatmapData, IPreviewBeatmapLevel beatmapLevel, GameplayModifiers gameplayModifiers, PracticeSettings practiceSettings, System.Boolean leftHanded, EnvironmentEffectsFilterPreset environmentEffectsFilterPreset, EnvironmentIntensityReductionOptions environmentIntensityReductionOptions, System.Boolean screenDisplacementEffectsEnabled)
     // Offset: 0x2B4B784
-    static GlobalNamespace::IReadonlyBeatmapData* CreateTransformedBeatmapData(GlobalNamespace::IReadonlyBeatmapData* beatmapData, GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel, GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::PracticeSettings* practiceSettings, bool leftHanded, GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterPreset, GlobalNamespace::EnvironmentIntensityReductionOptions* environmentIntensityReductionOptions, bool screenDisplacementEffectsEnabled);
+    static ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedBeatmapData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData, ::GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PracticeSettings* practiceSettings, bool leftHanded, ::GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterPreset, ::GlobalNamespace::EnvironmentIntensityReductionOptions* environmentIntensityReductionOptions, bool screenDisplacementEffectsEnabled);
     // static public System.Boolean IsObstaclesMergingNeeded(IPreviewBeatmapLevel beatmapLevel, System.Boolean screenDisplacementEffectsEnabled)
     // Offset: 0x2B4B9BC
-    static bool IsObstaclesMergingNeeded(GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel, bool screenDisplacementEffectsEnabled);
+    static bool IsObstaclesMergingNeeded(::GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel, bool screenDisplacementEffectsEnabled);
   }; // BeatmapDataTransformHelper
   #pragma pack(pop)
 }
@@ -52,7 +52,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataTransformHelper::CreateTransformedBeatmapData
 // Il2CppName: CreateTransformedBeatmapData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IReadonlyBeatmapData* (*)(GlobalNamespace::IReadonlyBeatmapData*, GlobalNamespace::IPreviewBeatmapLevel*, GlobalNamespace::GameplayModifiers*, GlobalNamespace::PracticeSettings*, bool, GlobalNamespace::EnvironmentEffectsFilterPreset, GlobalNamespace::EnvironmentIntensityReductionOptions*, bool)>(&GlobalNamespace::BeatmapDataTransformHelper::CreateTransformedBeatmapData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IReadonlyBeatmapData* (*)(::GlobalNamespace::IReadonlyBeatmapData*, ::GlobalNamespace::IPreviewBeatmapLevel*, ::GlobalNamespace::GameplayModifiers*, ::GlobalNamespace::PracticeSettings*, bool, ::GlobalNamespace::EnvironmentEffectsFilterPreset, ::GlobalNamespace::EnvironmentIntensityReductionOptions*, bool)>(&GlobalNamespace::BeatmapDataTransformHelper::CreateTransformedBeatmapData)> {
   static const MethodInfo* get() {
     static auto* beatmapData = &::il2cpp_utils::GetClassFromName("", "IReadonlyBeatmapData")->byval_arg;
     static auto* beatmapLevel = &::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel")->byval_arg;
@@ -68,7 +68,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataTransformHelper::IsObstaclesMergingNeeded
 // Il2CppName: IsObstaclesMergingNeeded
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::IPreviewBeatmapLevel*, bool)>(&GlobalNamespace::BeatmapDataTransformHelper::IsObstaclesMergingNeeded)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::IPreviewBeatmapLevel*, bool)>(&GlobalNamespace::BeatmapDataTransformHelper::IsObstaclesMergingNeeded)> {
   static const MethodInfo* get() {
     static auto* beatmapLevel = &::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel")->byval_arg;
     static auto* screenDisplacementEffectsEnabled = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

@@ -26,8 +26,8 @@ namespace System::Runtime::Serialization {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::DelegateSerializationHolder::DelegateEntry);
-DEFINE_IL2CPP_ARG_TYPE(System::DelegateSerializationHolder::DelegateEntry*, "System", "DelegateSerializationHolder/DelegateEntry");
+NEED_NO_BOX(::System::DelegateSerializationHolder::DelegateEntry);
+DEFINE_IL2CPP_ARG_TYPE(::System::DelegateSerializationHolder::DelegateEntry*, "System", "DelegateSerializationHolder/DelegateEntry");
 // Type namespace: System
 namespace System {
   // Size: 0x48
@@ -84,9 +84,9 @@ namespace System {
     // public System.DelegateSerializationHolder/System.DelegateEntry delegateEntry
     // Size: 0x8
     // Offset: 0x40
-    System::DelegateSerializationHolder::DelegateEntry* delegateEntry;
+    ::System::DelegateSerializationHolder::DelegateEntry* delegateEntry;
     // Field size check
-    static_assert(sizeof(System::DelegateSerializationHolder::DelegateEntry*) == 0x8);
+    static_assert(sizeof(::System::DelegateSerializationHolder::DelegateEntry*) == 0x8);
     public:
     // Get instance field reference: private System.String type
     ::StringW& dyn_type();
@@ -101,20 +101,20 @@ namespace System {
     // Get instance field reference: private System.String methodName
     ::StringW& dyn_methodName();
     // Get instance field reference: public System.DelegateSerializationHolder/System.DelegateEntry delegateEntry
-    System::DelegateSerializationHolder::DelegateEntry*& dyn_delegateEntry();
+    ::System::DelegateSerializationHolder::DelegateEntry*& dyn_delegateEntry();
     // public System.Void .ctor(System.Delegate del, System.String targetLabel)
     // Offset: 0x187FC2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DelegateSerializationHolder::DelegateEntry* New_ctor(System::Delegate* del, ::StringW targetLabel) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::DelegateSerializationHolder::DelegateEntry::.ctor");
+    static DelegateSerializationHolder::DelegateEntry* New_ctor(::System::Delegate* del, ::StringW targetLabel) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::DelegateSerializationHolder::DelegateEntry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DelegateSerializationHolder::DelegateEntry*, creationType>(del, targetLabel)));
     }
     // public System.Delegate DeserializeDelegate(System.Runtime.Serialization.SerializationInfo info, System.Int32 index)
     // Offset: 0x187F9B8
-    System::Delegate* DeserializeDelegate(System::Runtime::Serialization::SerializationInfo* info, int index);
+    ::System::Delegate* DeserializeDelegate(::System::Runtime::Serialization::SerializationInfo* info, int index);
   }; // System.DelegateSerializationHolder/System.DelegateEntry
   #pragma pack(pop)
-  static check_size<sizeof(DelegateSerializationHolder::DelegateEntry), 64 + sizeof(System::DelegateSerializationHolder::DelegateEntry*)> __System_DelegateSerializationHolder_DelegateEntrySizeCheck;
+  static check_size<sizeof(DelegateSerializationHolder::DelegateEntry), 64 + sizeof(::System::DelegateSerializationHolder::DelegateEntry*)> __System_DelegateSerializationHolder_DelegateEntrySizeCheck;
   static_assert(sizeof(DelegateSerializationHolder::DelegateEntry) == 0x48);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -125,7 +125,7 @@ namespace System {
 // Writing MetadataGetter for method: System::DelegateSerializationHolder::DelegateEntry::DeserializeDelegate
 // Il2CppName: DeserializeDelegate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Delegate* (System::DelegateSerializationHolder::DelegateEntry::*)(System::Runtime::Serialization::SerializationInfo*, int)>(&System::DelegateSerializationHolder::DelegateEntry::DeserializeDelegate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Delegate* (System::DelegateSerializationHolder::DelegateEntry::*)(::System::Runtime::Serialization::SerializationInfo*, int)>(&System::DelegateSerializationHolder::DelegateEntry::DeserializeDelegate)> {
   static const MethodInfo* get() {
     static auto* info = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

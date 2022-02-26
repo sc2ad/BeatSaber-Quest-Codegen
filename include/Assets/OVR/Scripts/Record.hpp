@@ -17,8 +17,8 @@ namespace Assets::OVR::Scripts {
   class Record;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Assets::OVR::Scripts::Record);
-DEFINE_IL2CPP_ARG_TYPE(Assets::OVR::Scripts::Record*, "Assets.OVR.Scripts", "Record");
+NEED_NO_BOX(::Assets::OVR::Scripts::Record);
+DEFINE_IL2CPP_ARG_TYPE(::Assets::OVR::Scripts::Record*, "Assets.OVR.Scripts", "Record");
 // Type namespace: Assets.OVR.Scripts
 namespace Assets::OVR::Scripts {
   // Size: 0x20
@@ -57,7 +57,7 @@ namespace Assets::OVR::Scripts {
     // Offset: 0x19FFE54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Record* New_ctor(::StringW cat, ::StringW msg) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Assets::OVR::Scripts::Record::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Assets::OVR::Scripts::Record::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Record*, creationType>(cat, msg)));
     }
   }; // Assets.OVR.Scripts.Record

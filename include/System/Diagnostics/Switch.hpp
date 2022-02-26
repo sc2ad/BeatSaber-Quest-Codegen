@@ -30,8 +30,8 @@ namespace System::Diagnostics {
   class Switch;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Diagnostics::Switch);
-DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Switch*, "System.Diagnostics", "Switch");
+NEED_NO_BOX(::System::Diagnostics::Switch);
+DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::Switch*, "System.Diagnostics", "Switch");
 // Type namespace: System.Diagnostics
 namespace System::Diagnostics {
   // Size: 0x30
@@ -75,9 +75,9 @@ namespace System::Diagnostics {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get static field: static private System.Collections.Generic.List`1<System.WeakReference> switches
-    static System::Collections::Generic::List_1<System::WeakReference*>* _get_switches();
+    static ::System::Collections::Generic::List_1<::System::WeakReference*>* _get_switches();
     // Set static field: static private System.Collections.Generic.List`1<System.WeakReference> switches
-    static void _set_switches(System::Collections::Generic::List_1<System::WeakReference*>* value);
+    static void _set_switches(::System::Collections::Generic::List_1<::System::WeakReference*>* value);
     // Get static field: static private System.Int32 s_LastCollectionCount
     static int _get_s_LastCollectionCount();
     // Set static field: static private System.Int32 s_LastCollectionCount
@@ -94,14 +94,14 @@ namespace System::Diagnostics {
     // Offset: 0x1ED4F20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Switch* New_ctor(::StringW displayName, ::StringW description) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Switch::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Diagnostics::Switch::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Switch*, creationType>(displayName, description)));
     }
     // protected System.Void .ctor(System.String displayName, System.String description, System.String defaultSwitchValue)
     // Offset: 0x1EDA2A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Switch* New_ctor(::StringW displayName, ::StringW description, ::StringW defaultSwitchValue) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Switch::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Diagnostics::Switch::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Switch*, creationType>(displayName, description, defaultSwitchValue)));
     }
     // static private System.Void .cctor()

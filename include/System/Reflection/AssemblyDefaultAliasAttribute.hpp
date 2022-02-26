@@ -19,8 +19,8 @@ namespace System::Reflection {
   class AssemblyDefaultAliasAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Reflection::AssemblyDefaultAliasAttribute);
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyDefaultAliasAttribute*, "System.Reflection", "AssemblyDefaultAliasAttribute");
+NEED_NO_BOX(::System::Reflection::AssemblyDefaultAliasAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::AssemblyDefaultAliasAttribute*, "System.Reflection", "AssemblyDefaultAliasAttribute");
 // Type namespace: System.Reflection
 namespace System::Reflection {
   // Size: 0x18
@@ -29,7 +29,7 @@ namespace System::Reflection {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AttributeUsageAttribute] Offset: 1187FB0
   // [ComVisibleAttribute] Offset: 1187FB0
-  class AssemblyDefaultAliasAttribute : public System::Attribute {
+  class AssemblyDefaultAliasAttribute : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -57,7 +57,7 @@ namespace System::Reflection {
     // Offset: 0x21609B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssemblyDefaultAliasAttribute* New_ctor(::StringW defaultAlias) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::AssemblyDefaultAliasAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Reflection::AssemblyDefaultAliasAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssemblyDefaultAliasAttribute*, creationType>(defaultAlias)));
     }
   }; // System.Reflection.AssemblyDefaultAliasAttribute

@@ -13,8 +13,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::HapticFeedbackController::RumbleData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HapticFeedbackController::RumbleData*, "", "HapticFeedbackController/RumbleData");
+NEED_NO_BOX(::GlobalNamespace::HapticFeedbackController::RumbleData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::HapticFeedbackController::RumbleData*, "", "HapticFeedbackController/RumbleData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -81,7 +81,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HapticFeedbackController::RumbleData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::HapticFeedbackController::RumbleData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HapticFeedbackController::RumbleData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HapticFeedbackController::RumbleData*, creationType>()));
     }
   }; // HapticFeedbackController/RumbleData

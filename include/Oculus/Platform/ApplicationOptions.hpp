@@ -19,8 +19,8 @@ namespace Oculus::Platform {
   class ApplicationOptions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::ApplicationOptions);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::ApplicationOptions*, "Oculus.Platform", "ApplicationOptions");
+NEED_NO_BOX(::Oculus::Platform::ApplicationOptions);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::ApplicationOptions*, "Oculus.Platform", "ApplicationOptions");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x18
@@ -41,29 +41,29 @@ namespace Oculus::Platform {
     // private System.IntPtr Handle
     // Size: 0x8
     // Offset: 0x10
-    System::IntPtr Handle;
+    ::System::IntPtr Handle;
     // Field size check
-    static_assert(sizeof(System::IntPtr) == 0x8);
+    static_assert(sizeof(::System::IntPtr) == 0x8);
     public:
-    // Creating conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const noexcept {
+    // Creating conversion operator: operator ::System::IntPtr
+    constexpr operator ::System::IntPtr() const noexcept {
       return Handle;
     }
     // Get instance field reference: private System.IntPtr Handle
-    System::IntPtr& dyn_Handle();
+    ::System::IntPtr& dyn_Handle();
     // public System.Void SetDeeplinkMessage(System.String value)
     // Offset: 0x1FD15F8
     void SetDeeplinkMessage(::StringW value);
     // static public System.IntPtr op_Explicit(Oculus.Platform.ApplicationOptions options)
     // Offset: 0x1FD119C
-    // ABORTED: conflicts with another method.  explicit operator System::IntPtr();
+    // ABORTED: conflicts with another method.  explicit operator ::System::IntPtr();
     // public System.Void .ctor()
     // Offset: 0x1FD1510
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ApplicationOptions* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::ApplicationOptions::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::ApplicationOptions::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ApplicationOptions*, creationType>()));
     }
     // protected override System.Void Finalize()
@@ -73,7 +73,7 @@ namespace Oculus::Platform {
     void Finalize();
   }; // Oculus.Platform.ApplicationOptions
   #pragma pack(pop)
-  static check_size<sizeof(ApplicationOptions), 16 + sizeof(System::IntPtr)> __Oculus_Platform_ApplicationOptionsSizeCheck;
+  static check_size<sizeof(ApplicationOptions), 16 + sizeof(::System::IntPtr)> __Oculus_Platform_ApplicationOptionsSizeCheck;
   static_assert(sizeof(ApplicationOptions) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -86,7 +86,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::ApplicationOptions*), "SetDeeplinkMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
-// Writing MetadataGetter for method: Oculus::Platform::ApplicationOptions::operator System::IntPtr
+// Writing MetadataGetter for method: Oculus::Platform::ApplicationOptions::operator ::System::IntPtr
 // Il2CppName: op_Explicit
 // Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::ApplicationOptions::New_ctor

@@ -18,8 +18,8 @@ namespace NUnit::Framework::Interfaces {
   class ICommandWrapper;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Interfaces::ICommandWrapper);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ICommandWrapper*, "NUnit.Framework.Interfaces", "ICommandWrapper");
+NEED_NO_BOX(::NUnit::Framework::Interfaces::ICommandWrapper);
+DEFINE_IL2CPP_ARG_TYPE(::NUnit::Framework::Interfaces::ICommandWrapper*, "NUnit.Framework.Interfaces", "ICommandWrapper");
 // Type namespace: NUnit.Framework.Interfaces
 namespace NUnit::Framework::Interfaces {
   // Size: 0x10
@@ -30,7 +30,7 @@ namespace NUnit::Framework::Interfaces {
     public:
     // public NUnit.Framework.Internal.Commands.TestCommand Wrap(NUnit.Framework.Internal.Commands.TestCommand command)
     // Offset: 0xFFFFFFFF
-    NUnit::Framework::Internal::Commands::TestCommand* Wrap(NUnit::Framework::Internal::Commands::TestCommand* command);
+    ::NUnit::Framework::Internal::Commands::TestCommand* Wrap(::NUnit::Framework::Internal::Commands::TestCommand* command);
   }; // NUnit.Framework.Interfaces.ICommandWrapper
   #pragma pack(pop)
 }
@@ -38,7 +38,7 @@ namespace NUnit::Framework::Interfaces {
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ICommandWrapper::Wrap
 // Il2CppName: Wrap
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Commands::TestCommand* (NUnit::Framework::Interfaces::ICommandWrapper::*)(NUnit::Framework::Internal::Commands::TestCommand*)>(&NUnit::Framework::Interfaces::ICommandWrapper::Wrap)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Framework::Internal::Commands::TestCommand* (NUnit::Framework::Interfaces::ICommandWrapper::*)(::NUnit::Framework::Internal::Commands::TestCommand*)>(&NUnit::Framework::Interfaces::ICommandWrapper::Wrap)> {
   static const MethodInfo* get() {
     static auto* command = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal.Commands", "TestCommand")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ICommandWrapper*), "Wrap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{command});

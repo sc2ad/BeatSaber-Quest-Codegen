@@ -23,8 +23,8 @@ namespace UnityEngine {
   class Random;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Random);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Random*, "UnityEngine", "Random");
+NEED_NO_BOX(::UnityEngine::Random);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Random*, "UnityEngine", "Random");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -39,13 +39,13 @@ namespace UnityEngine {
     static float get_value();
     // static public UnityEngine.Vector3 get_insideUnitSphere()
     // Offset: 0x20C7EC8
-    static UnityEngine::Vector3 get_insideUnitSphere();
+    static ::UnityEngine::Vector3 get_insideUnitSphere();
     // static public UnityEngine.Vector3 get_onUnitSphere()
     // Offset: 0x20C7F60
-    static UnityEngine::Vector3 get_onUnitSphere();
+    static ::UnityEngine::Vector3 get_onUnitSphere();
     // static public UnityEngine.Quaternion get_rotation()
     // Offset: 0x20C7FF8
-    static UnityEngine::Quaternion get_rotation();
+    static ::UnityEngine::Quaternion get_rotation();
     // static public System.Void InitState(System.Int32 seed)
     // Offset: 0x20C7D68
     static void InitState(int seed);
@@ -60,19 +60,19 @@ namespace UnityEngine {
     static int RandomRangeInt(int min, int max);
     // static public UnityEngine.Color ColorHSV()
     // Offset: 0x20C808C
-    static UnityEngine::Color ColorHSV();
+    static ::UnityEngine::Color ColorHSV();
     // static public UnityEngine.Color ColorHSV(System.Single hueMin, System.Single hueMax, System.Single saturationMin, System.Single saturationMax, System.Single valueMin, System.Single valueMax, System.Single alphaMin, System.Single alphaMax)
     // Offset: 0x20C80B0
-    static UnityEngine::Color ColorHSV(float hueMin, float hueMax, float saturationMin, float saturationMax, float valueMin, float valueMax, float alphaMin, float alphaMax);
+    static ::UnityEngine::Color ColorHSV(float hueMin, float hueMax, float saturationMin, float saturationMax, float valueMin, float valueMax, float alphaMin, float alphaMax);
     // static private System.Void get_insideUnitSphere_Injected(out UnityEngine.Vector3 ret)
     // Offset: 0x20C7F20
-    static void get_insideUnitSphere_Injected(ByRef<UnityEngine::Vector3> ret);
+    static void get_insideUnitSphere_Injected(ByRef<::UnityEngine::Vector3> ret);
     // static private System.Void get_onUnitSphere_Injected(out UnityEngine.Vector3 ret)
     // Offset: 0x20C7FB8
-    static void get_onUnitSphere_Injected(ByRef<UnityEngine::Vector3> ret);
+    static void get_onUnitSphere_Injected(ByRef<::UnityEngine::Vector3> ret);
     // static private System.Void get_rotation_Injected(out UnityEngine.Quaternion ret)
     // Offset: 0x20C804C
-    static void get_rotation_Injected(ByRef<UnityEngine::Quaternion> ret);
+    static void get_rotation_Injected(ByRef<::UnityEngine::Quaternion> ret);
   }; // UnityEngine.Random
   #pragma pack(pop)
 }
@@ -88,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()
 // Writing MetadataGetter for method: UnityEngine::Random::get_insideUnitSphere
 // Il2CppName: get_insideUnitSphere
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)()>(&UnityEngine::Random::get_insideUnitSphere)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)()>(&UnityEngine::Random::get_insideUnitSphere)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Random*), "get_insideUnitSphere", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -96,7 +96,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Random::get_onUnitSphere
 // Il2CppName: get_onUnitSphere
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)()>(&UnityEngine::Random::get_onUnitSphere)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)()>(&UnityEngine::Random::get_onUnitSphere)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Random*), "get_onUnitSphere", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -104,7 +104,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Random::get_rotation
 // Il2CppName: get_rotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)()>(&UnityEngine::Random::get_rotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)()>(&UnityEngine::Random::get_rotation)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Random*), "get_rotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -151,7 +151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 // Writing MetadataGetter for method: UnityEngine::Random::ColorHSV
 // Il2CppName: ColorHSV
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)()>(&UnityEngine::Random::ColorHSV)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)()>(&UnityEngine::Random::ColorHSV)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Random*), "ColorHSV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -159,7 +159,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Random::ColorHSV
 // Il2CppName: ColorHSV
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(float, float, float, float, float, float, float, float)>(&UnityEngine::Random::ColorHSV)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)(float, float, float, float, float, float, float, float)>(&UnityEngine::Random::ColorHSV)> {
   static const MethodInfo* get() {
     static auto* hueMin = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* hueMax = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -175,7 +175,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Random::get_insideUnitSphere_Injected
 // Il2CppName: get_insideUnitSphere_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<UnityEngine::Vector3>)>(&UnityEngine::Random::get_insideUnitSphere_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::Vector3>)>(&UnityEngine::Random::get_insideUnitSphere_Injected)> {
   static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Random*), "get_insideUnitSphere_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
@@ -184,7 +184,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(By
 // Writing MetadataGetter for method: UnityEngine::Random::get_onUnitSphere_Injected
 // Il2CppName: get_onUnitSphere_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<UnityEngine::Vector3>)>(&UnityEngine::Random::get_onUnitSphere_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::Vector3>)>(&UnityEngine::Random::get_onUnitSphere_Injected)> {
   static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Random*), "get_onUnitSphere_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
@@ -193,7 +193,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(By
 // Writing MetadataGetter for method: UnityEngine::Random::get_rotation_Injected
 // Il2CppName: get_rotation_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<UnityEngine::Quaternion>)>(&UnityEngine::Random::get_rotation_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::Quaternion>)>(&UnityEngine::Random::get_rotation_Injected)> {
   static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Random*), "get_rotation_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});

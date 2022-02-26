@@ -14,8 +14,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PosesRecordingSaveData::TransformsSaveKeyframe);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PosesRecordingSaveData::TransformsSaveKeyframe*, "", "PosesRecordingSaveData/TransformsSaveKeyframe");
+NEED_NO_BOX(::GlobalNamespace::PosesRecordingSaveData::TransformsSaveKeyframe);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PosesRecordingSaveData::TransformsSaveKeyframe*, "", "PosesRecordingSaveData/TransformsSaveKeyframe");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x1C
@@ -36,9 +36,9 @@ namespace GlobalNamespace {
     // public readonly PosesRecordingSaveData/PoseSaveData[] poses
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<GlobalNamespace::PosesRecordingSaveData::PoseSaveData*> poses;
+    ::ArrayW<::GlobalNamespace::PosesRecordingSaveData::PoseSaveData*> poses;
     // Field size check
-    static_assert(sizeof(::ArrayW<GlobalNamespace::PosesRecordingSaveData::PoseSaveData*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::GlobalNamespace::PosesRecordingSaveData::PoseSaveData*>) == 0x8);
     // public readonly System.Single time
     // Size: 0x4
     // Offset: 0x18
@@ -47,14 +47,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public readonly PosesRecordingSaveData/PoseSaveData[] poses
-    ::ArrayW<GlobalNamespace::PosesRecordingSaveData::PoseSaveData*>& dyn_poses();
+    ::ArrayW<::GlobalNamespace::PosesRecordingSaveData::PoseSaveData*>& dyn_poses();
     // Get instance field reference: public readonly System.Single time
     float& dyn_time();
     // public System.Void .ctor(PosesRecordingSaveData/PoseSaveData[] poses, System.Single time)
     // Offset: 0x13E72D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PosesRecordingSaveData::TransformsSaveKeyframe* New_ctor(::ArrayW<GlobalNamespace::PosesRecordingSaveData::PoseSaveData*> poses, float time) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PosesRecordingSaveData::TransformsSaveKeyframe::.ctor");
+    static PosesRecordingSaveData::TransformsSaveKeyframe* New_ctor(::ArrayW<::GlobalNamespace::PosesRecordingSaveData::PoseSaveData*> poses, float time) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PosesRecordingSaveData::TransformsSaveKeyframe::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PosesRecordingSaveData::TransformsSaveKeyframe*, creationType>(poses, time)));
     }
   }; // PosesRecordingSaveData/TransformsSaveKeyframe

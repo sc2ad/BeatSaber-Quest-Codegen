@@ -18,8 +18,8 @@ namespace UnityEngine::Bindings {
   class UnmarshalledAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Bindings::UnmarshalledAttribute);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::UnmarshalledAttribute*, "UnityEngine.Bindings", "UnmarshalledAttribute");
+NEED_NO_BOX(::UnityEngine::Bindings::UnmarshalledAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Bindings::UnmarshalledAttribute*, "UnityEngine.Bindings", "UnmarshalledAttribute");
 // Type namespace: UnityEngine.Bindings
 namespace UnityEngine::Bindings {
   // Size: 0x10
@@ -28,7 +28,7 @@ namespace UnityEngine::Bindings {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AttributeUsageAttribute] Offset: 11A1330
   // [VisibleToOtherModulesAttribute] Offset: FFFFFFFF
-  class UnmarshalledAttribute : public System::Attribute {
+  class UnmarshalledAttribute : public ::System::Attribute {
     public:
     // public System.Void .ctor()
     // Offset: 0x2A575C8
@@ -37,7 +37,7 @@ namespace UnityEngine::Bindings {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnmarshalledAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::UnmarshalledAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Bindings::UnmarshalledAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnmarshalledAttribute*, creationType>()));
     }
   }; // UnityEngine.Bindings.UnmarshalledAttribute

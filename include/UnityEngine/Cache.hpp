@@ -20,7 +20,7 @@ namespace UnityEngine {
   struct Cache;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Cache, "UnityEngine", "Cache");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Cache, "UnityEngine", "Cache");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x4
@@ -30,7 +30,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [StaticAccessorAttribute] Offset: 11A3A38
   // [NativeHeaderAttribute] Offset: 11A3A38
-  struct Cache/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Cache>*/ {
+  struct Cache/*, public ::System::ValueType, public ::System::IEquatable_1<::UnityEngine::Cache>*/ {
     public:
     public:
     // private System.Int32 m_Handle
@@ -42,13 +42,13 @@ namespace UnityEngine {
     public:
     // Creating value type constructor for type: Cache
     constexpr Cache(int m_Handle_ = {}) noexcept : m_Handle{m_Handle_} {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
-    // Creating interface conversion operator: operator System::IEquatable_1<UnityEngine::Cache>
-    operator System::IEquatable_1<UnityEngine::Cache>() noexcept {
-      return *reinterpret_cast<System::IEquatable_1<UnityEngine::Cache>*>(this);
+    // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::Cache>
+    operator ::System::IEquatable_1<::UnityEngine::Cache>() noexcept {
+      return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::Cache>*>(this);
     }
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
@@ -73,7 +73,7 @@ namespace UnityEngine {
     void set_expirationDelay(int value);
     // public System.Boolean Equals(UnityEngine.Cache other)
     // Offset: 0x1EAF904
-    bool Equals(UnityEngine::Cache other);
+    bool Equals(::UnityEngine::Cache other);
     // static System.Boolean Cache_IsValid(System.Int32 handle)
     // Offset: 0x1EAF954
     static bool Cache_IsValid(int handle);
@@ -147,7 +147,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Cache::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Cache::*)(UnityEngine::Cache)>(&UnityEngine::Cache::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Cache::*)(::UnityEngine::Cache)>(&UnityEngine::Cache::Equals)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("UnityEngine", "Cache")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Cache), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});

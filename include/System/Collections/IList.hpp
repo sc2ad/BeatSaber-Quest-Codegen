@@ -16,8 +16,8 @@ namespace System::Collections {
   class IList;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Collections::IList);
-DEFINE_IL2CPP_ARG_TYPE(System::Collections::IList*, "System.Collections", "IList");
+NEED_NO_BOX(::System::Collections::IList);
+DEFINE_IL2CPP_ARG_TYPE(::System::Collections::IList*, "System.Collections", "IList");
 // Type namespace: System.Collections
 namespace System::Collections {
   // Size: 0x10
@@ -26,11 +26,11 @@ namespace System::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: 118C874
   // [DefaultMemberAttribute] Offset: 118C874
-  class IList/*, public System::Collections::ICollection*/ {
+  class IList/*, public ::System::Collections::ICollection*/ {
     public:
-    // Creating interface conversion operator: operator System::Collections::ICollection
-    operator System::Collections::ICollection() noexcept {
-      return *reinterpret_cast<System::Collections::ICollection*>(this);
+    // Creating interface conversion operator: operator ::System::Collections::ICollection
+    operator ::System::Collections::ICollection() noexcept {
+      return *reinterpret_cast<::System::Collections::ICollection*>(this);
     }
     // public System.Object get_Item(System.Int32 index)
     // Offset: 0xFFFFFFFF

@@ -20,8 +20,8 @@ namespace UnityEngine {
   class UISystemProfilerApi;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::UISystemProfilerApi);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UISystemProfilerApi*, "UnityEngine", "UISystemProfilerApi");
+NEED_NO_BOX(::UnityEngine::UISystemProfilerApi);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UISystemProfilerApi*, "UnityEngine", "UISystemProfilerApi");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -32,17 +32,17 @@ namespace UnityEngine {
   // [StaticAccessorAttribute] Offset: 11CC814
   class UISystemProfilerApi : public ::Il2CppObject {
     public:
-    // Nested type: UnityEngine::UISystemProfilerApi::SampleType
+    // Nested type: ::UnityEngine::UISystemProfilerApi::SampleType
     struct SampleType;
     // static public System.Void BeginSample(UnityEngine.UISystemProfilerApi/UnityEngine.SampleType type)
     // Offset: 0x2A4EBE8
-    static void BeginSample(UnityEngine::UISystemProfilerApi::SampleType type);
+    static void BeginSample(::UnityEngine::UISystemProfilerApi::SampleType type);
     // static public System.Void EndSample(UnityEngine.UISystemProfilerApi/UnityEngine.SampleType type)
     // Offset: 0x2A4EC28
-    static void EndSample(UnityEngine::UISystemProfilerApi::SampleType type);
+    static void EndSample(::UnityEngine::UISystemProfilerApi::SampleType type);
     // static public System.Void AddMarker(System.String name, UnityEngine.Object obj)
     // Offset: 0x2A4EC68
-    static void AddMarker(::StringW name, UnityEngine::Object* obj);
+    static void AddMarker(::StringW name, ::UnityEngine::Object* obj);
   }; // UnityEngine.UISystemProfilerApi
   #pragma pack(pop)
 }
@@ -50,7 +50,7 @@ namespace UnityEngine {
 // Writing MetadataGetter for method: UnityEngine::UISystemProfilerApi::BeginSample
 // Il2CppName: BeginSample
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UISystemProfilerApi::SampleType)>(&UnityEngine::UISystemProfilerApi::BeginSample)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UISystemProfilerApi::SampleType)>(&UnityEngine::UISystemProfilerApi::BeginSample)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("UnityEngine", "UISystemProfilerApi/SampleType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UISystemProfilerApi*), "BeginSample", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -59,7 +59,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::UISystemProfilerApi::EndSample
 // Il2CppName: EndSample
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UISystemProfilerApi::SampleType)>(&UnityEngine::UISystemProfilerApi::EndSample)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UISystemProfilerApi::SampleType)>(&UnityEngine::UISystemProfilerApi::EndSample)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("UnityEngine", "UISystemProfilerApi/SampleType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UISystemProfilerApi*), "EndSample", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -68,7 +68,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::UISystemProfilerApi::AddMarker
 // Il2CppName: AddMarker
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, UnityEngine::Object*)>(&UnityEngine::UISystemProfilerApi::AddMarker)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::UnityEngine::Object*)>(&UnityEngine::UISystemProfilerApi::AddMarker)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* obj = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;

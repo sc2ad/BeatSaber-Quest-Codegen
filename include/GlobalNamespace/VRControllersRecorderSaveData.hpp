@@ -22,8 +22,8 @@ namespace GlobalNamespace {
   class VRControllersRecorderSaveData;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::VRControllersRecorderSaveData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorderSaveData*, "", "VRControllersRecorderSaveData");
+NEED_NO_BOX(::GlobalNamespace::VRControllersRecorderSaveData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::VRControllersRecorderSaveData*, "", "VRControllersRecorderSaveData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -32,11 +32,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class VRControllersRecorderSaveData : public ::Il2CppObject {
     public:
-    // Nested type: GlobalNamespace::VRControllersRecorderSaveData::PositionAndRotation
+    // Nested type: ::GlobalNamespace::VRControllersRecorderSaveData::PositionAndRotation
     class PositionAndRotation;
-    // Nested type: GlobalNamespace::VRControllersRecorderSaveData::Keyframe
+    // Nested type: ::GlobalNamespace::VRControllersRecorderSaveData::Keyframe
     class Keyframe;
-    // Nested type: GlobalNamespace::VRControllersRecorderSaveData::NodeInfo
+    // Nested type: ::GlobalNamespace::VRControllersRecorderSaveData::NodeInfo
     class NodeInfo;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -50,32 +50,32 @@ namespace GlobalNamespace {
     // public VRControllersRecorderSaveData/NodeInfo[] nodesInfo
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<GlobalNamespace::VRControllersRecorderSaveData::NodeInfo*> nodesInfo;
+    ::ArrayW<::GlobalNamespace::VRControllersRecorderSaveData::NodeInfo*> nodesInfo;
     // Field size check
-    static_assert(sizeof(::ArrayW<GlobalNamespace::VRControllersRecorderSaveData::NodeInfo*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::GlobalNamespace::VRControllersRecorderSaveData::NodeInfo*>) == 0x8);
     // public VRControllersRecorderSaveData/Keyframe[] keyframes
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayW<GlobalNamespace::VRControllersRecorderSaveData::Keyframe*> keyframes;
+    ::ArrayW<::GlobalNamespace::VRControllersRecorderSaveData::Keyframe*> keyframes;
     // Field size check
-    static_assert(sizeof(::ArrayW<GlobalNamespace::VRControllersRecorderSaveData::Keyframe*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::GlobalNamespace::VRControllersRecorderSaveData::Keyframe*>) == 0x8);
     public:
     // Get instance field reference: public VRControllersRecorderSaveData/NodeInfo[] nodesInfo
-    ::ArrayW<GlobalNamespace::VRControllersRecorderSaveData::NodeInfo*>& dyn_nodesInfo();
+    ::ArrayW<::GlobalNamespace::VRControllersRecorderSaveData::NodeInfo*>& dyn_nodesInfo();
     // Get instance field reference: public VRControllersRecorderSaveData/Keyframe[] keyframes
-    ::ArrayW<GlobalNamespace::VRControllersRecorderSaveData::Keyframe*>& dyn_keyframes();
+    ::ArrayW<::GlobalNamespace::VRControllersRecorderSaveData::Keyframe*>& dyn_keyframes();
     // public System.Void .ctor()
     // Offset: 0x2CB9B58
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRControllersRecorderSaveData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::VRControllersRecorderSaveData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VRControllersRecorderSaveData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRControllersRecorderSaveData*, creationType>()));
     }
   }; // VRControllersRecorderSaveData
   #pragma pack(pop)
-  static check_size<sizeof(VRControllersRecorderSaveData), 24 + sizeof(::ArrayW<GlobalNamespace::VRControllersRecorderSaveData::Keyframe*>)> __GlobalNamespace_VRControllersRecorderSaveDataSizeCheck;
+  static check_size<sizeof(VRControllersRecorderSaveData), 24 + sizeof(::ArrayW<::GlobalNamespace::VRControllersRecorderSaveData::Keyframe*>)> __GlobalNamespace_VRControllersRecorderSaveDataSizeCheck;
   static_assert(sizeof(VRControllersRecorderSaveData) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

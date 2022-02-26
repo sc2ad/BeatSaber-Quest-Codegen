@@ -29,8 +29,8 @@ namespace UnityEngine {
   class ILogHandler;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ILogHandler);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ILogHandler*, "UnityEngine", "ILogHandler");
+NEED_NO_BOX(::UnityEngine::ILogHandler);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ILogHandler*, "UnityEngine", "ILogHandler");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -41,10 +41,10 @@ namespace UnityEngine {
     public:
     // public System.Void LogFormat(UnityEngine.LogType logType, UnityEngine.Object context, System.String format, params System.Object[] args)
     // Offset: 0xFFFFFFFF
-    void LogFormat(UnityEngine::LogType logType, UnityEngine::Object* context, ::StringW format, ::ArrayW<::Il2CppObject*> args);
+    void LogFormat(::UnityEngine::LogType logType, ::UnityEngine::Object* context, ::StringW format, ::ArrayW<::Il2CppObject*> args);
     // public System.Void LogException(System.Exception exception, UnityEngine.Object context)
     // Offset: 0xFFFFFFFF
-    void LogException(System::Exception* exception, UnityEngine::Object* context);
+    void LogException(::System::Exception* exception, ::UnityEngine::Object* context);
   }; // UnityEngine.ILogHandler
   #pragma pack(pop)
 }
@@ -52,7 +52,7 @@ namespace UnityEngine {
 // Writing MetadataGetter for method: UnityEngine::ILogHandler::LogFormat
 // Il2CppName: LogFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ILogHandler::*)(UnityEngine::LogType, UnityEngine::Object*, ::StringW, ::ArrayW<::Il2CppObject*>)>(&UnityEngine::ILogHandler::LogFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ILogHandler::*)(::UnityEngine::LogType, ::UnityEngine::Object*, ::StringW, ::ArrayW<::Il2CppObject*>)>(&UnityEngine::ILogHandler::LogFormat)> {
   static const MethodInfo* get() {
     static auto* logType = &::il2cpp_utils::GetClassFromName("UnityEngine", "LogType")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
@@ -64,7 +64,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::ILogHandler::LogException
 // Il2CppName: LogException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ILogHandler::*)(System::Exception*, UnityEngine::Object*)>(&UnityEngine::ILogHandler::LogException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ILogHandler::*)(::System::Exception*, ::UnityEngine::Object*)>(&UnityEngine::ILogHandler::LogException)> {
   static const MethodInfo* get() {
     static auto* exception = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;

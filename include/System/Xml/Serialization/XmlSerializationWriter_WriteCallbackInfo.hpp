@@ -26,8 +26,8 @@ namespace System::Xml::Serialization {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Serialization::XmlSerializationWriter::WriteCallbackInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Serialization::XmlSerializationWriter::WriteCallbackInfo*, "System.Xml.Serialization", "XmlSerializationWriter/WriteCallbackInfo");
+NEED_NO_BOX(::System::Xml::Serialization::XmlSerializationWriter::WriteCallbackInfo);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::XmlSerializationWriter::WriteCallbackInfo*, "System.Xml.Serialization", "XmlSerializationWriter/WriteCallbackInfo");
 // Type namespace: System.Xml.Serialization
 namespace System::Xml::Serialization {
   // Size: 0x30
@@ -48,9 +48,9 @@ namespace System::Xml::Serialization {
     // public System.Type Type
     // Size: 0x8
     // Offset: 0x10
-    System::Type* Type;
+    ::System::Type* Type;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     // public System.String TypeName
     // Size: 0x8
     // Offset: 0x18
@@ -66,30 +66,30 @@ namespace System::Xml::Serialization {
     // public System.Xml.Serialization.XmlSerializationWriteCallback Callback
     // Size: 0x8
     // Offset: 0x28
-    System::Xml::Serialization::XmlSerializationWriteCallback* Callback;
+    ::System::Xml::Serialization::XmlSerializationWriteCallback* Callback;
     // Field size check
-    static_assert(sizeof(System::Xml::Serialization::XmlSerializationWriteCallback*) == 0x8);
+    static_assert(sizeof(::System::Xml::Serialization::XmlSerializationWriteCallback*) == 0x8);
     public:
     // Get instance field reference: public System.Type Type
-    System::Type*& dyn_Type();
+    ::System::Type*& dyn_Type();
     // Get instance field reference: public System.String TypeName
     ::StringW& dyn_TypeName();
     // Get instance field reference: public System.String TypeNs
     ::StringW& dyn_TypeNs();
     // Get instance field reference: public System.Xml.Serialization.XmlSerializationWriteCallback Callback
-    System::Xml::Serialization::XmlSerializationWriteCallback*& dyn_Callback();
+    ::System::Xml::Serialization::XmlSerializationWriteCallback*& dyn_Callback();
     // public System.Void .ctor()
     // Offset: 0x1E163A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlSerializationWriter::WriteCallbackInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Serialization::XmlSerializationWriter::WriteCallbackInfo::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Serialization::XmlSerializationWriter::WriteCallbackInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlSerializationWriter::WriteCallbackInfo*, creationType>()));
     }
   }; // System.Xml.Serialization.XmlSerializationWriter/System.Xml.Serialization.WriteCallbackInfo
   #pragma pack(pop)
-  static check_size<sizeof(XmlSerializationWriter::WriteCallbackInfo), 40 + sizeof(System::Xml::Serialization::XmlSerializationWriteCallback*)> __System_Xml_Serialization_XmlSerializationWriter_WriteCallbackInfoSizeCheck;
+  static check_size<sizeof(XmlSerializationWriter::WriteCallbackInfo), 40 + sizeof(::System::Xml::Serialization::XmlSerializationWriteCallback*)> __System_Xml_Serialization_XmlSerializationWriter_WriteCallbackInfoSizeCheck;
   static_assert(sizeof(XmlSerializationWriter::WriteCallbackInfo) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

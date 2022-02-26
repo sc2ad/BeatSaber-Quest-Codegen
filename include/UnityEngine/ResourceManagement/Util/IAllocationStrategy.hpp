@@ -21,8 +21,8 @@ namespace UnityEngine::ResourceManagement::Util {
   class IAllocationStrategy;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ResourceManagement::Util::IAllocationStrategy);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::IAllocationStrategy*, "UnityEngine.ResourceManagement.Util", "IAllocationStrategy");
+NEED_NO_BOX(::UnityEngine::ResourceManagement::Util::IAllocationStrategy);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::Util::IAllocationStrategy*, "UnityEngine.ResourceManagement.Util", "IAllocationStrategy");
 // Type namespace: UnityEngine.ResourceManagement.Util
 namespace UnityEngine::ResourceManagement::Util {
   // Size: 0x10
@@ -33,7 +33,7 @@ namespace UnityEngine::ResourceManagement::Util {
     public:
     // public System.Object New(System.Type type, System.Int32 typeHash)
     // Offset: 0xFFFFFFFF
-    ::Il2CppObject* New(System::Type* type, int typeHash);
+    ::Il2CppObject* New(::System::Type* type, int typeHash);
     // public System.Void Release(System.Int32 typeHash, System.Object obj)
     // Offset: 0xFFFFFFFF
     void Release(int typeHash, ::Il2CppObject* obj);
@@ -44,7 +44,7 @@ namespace UnityEngine::ResourceManagement::Util {
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::IAllocationStrategy::New
 // Il2CppName: New
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (UnityEngine::ResourceManagement::Util::IAllocationStrategy::*)(System::Type*, int)>(&UnityEngine::ResourceManagement::Util::IAllocationStrategy::New)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (UnityEngine::ResourceManagement::Util::IAllocationStrategy::*)(::System::Type*, int)>(&UnityEngine::ResourceManagement::Util::IAllocationStrategy::New)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* typeHash = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

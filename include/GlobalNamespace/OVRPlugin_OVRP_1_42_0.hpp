@@ -16,8 +16,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRPlugin::OVRP_1_42_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_42_0*, "", "OVRPlugin/OVRP_1_42_0");
+NEED_NO_BOX(::GlobalNamespace::OVRPlugin::OVRP_1_42_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRPlugin::OVRP_1_42_0*, "", "OVRPlugin/OVRP_1_42_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -27,15 +27,15 @@ namespace GlobalNamespace {
   class OVRPlugin::OVRP_1_42_0 : public ::Il2CppObject {
     public:
     // Get static field: static public readonly System.Version version
-    static System::Version* _get_version();
+    static ::System::Version* _get_version();
     // Set static field: static public readonly System.Version version
-    static void _set_version(System::Version* value);
+    static void _set_version(::System::Version* value);
     // static private System.Void .cctor()
     // Offset: 0x1A7448C
     static void _cctor();
     // static public OVRPlugin/Result ovrp_GetAdaptiveGpuPerformanceScale2(ref System.Single adaptiveGpuPerformanceScale)
     // Offset: 0x1A7440C
-    static GlobalNamespace::OVRPlugin::Result ovrp_GetAdaptiveGpuPerformanceScale2(ByRef<float> adaptiveGpuPerformanceScale);
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_GetAdaptiveGpuPerformanceScale2(ByRef<float> adaptiveGpuPerformanceScale);
   }; // OVRPlugin/OVRP_1_42_0
   #pragma pack(pop)
 }
@@ -51,7 +51,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_42_0::ovrp_GetAdaptiveGpuPerformanceScale2
 // Il2CppName: ovrp_GetAdaptiveGpuPerformanceScale2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(ByRef<float>)>(&GlobalNamespace::OVRPlugin::OVRP_1_42_0::ovrp_GetAdaptiveGpuPerformanceScale2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)(ByRef<float>)>(&GlobalNamespace::OVRPlugin::OVRP_1_42_0::ovrp_GetAdaptiveGpuPerformanceScale2)> {
   static const MethodInfo* get() {
     static auto* adaptiveGpuPerformanceScale = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_42_0*), "ovrp_GetAdaptiveGpuPerformanceScale2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{adaptiveGpuPerformanceScale});

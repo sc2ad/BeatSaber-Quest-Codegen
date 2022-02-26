@@ -27,8 +27,8 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   class PrimitiveArray;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::PrimitiveArray);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::PrimitiveArray*, "System.Runtime.Serialization.Formatters.Binary", "PrimitiveArray");
+NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray*, "System.Runtime.Serialization.Formatters.Binary", "PrimitiveArray");
 // Type namespace: System.Runtime.Serialization.Formatters.Binary
 namespace System::Runtime::Serialization::Formatters::Binary {
   // Size: 0x70
@@ -49,9 +49,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // private System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code
     // Size: 0x4
     // Offset: 0x10
-    System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code;
+    ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code;
     // Field size check
-    static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE) == 0x4);
+    static_assert(sizeof(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE) == 0x4);
     // Padding between fields: code and: booleanA
     char __padding0[0x4] = {};
     // private System.Boolean[] booleanA
@@ -122,7 +122,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static_assert(sizeof(::ArrayW<uint64_t>) == 0x8);
     public:
     // Get instance field reference: private System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code
-    System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE& dyn_code();
+    ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE& dyn_code();
     // Get instance field reference: private System.Boolean[] booleanA
     ::ArrayW<bool>& dyn_booleanA();
     // Get instance field reference: private System.Char[] charA
@@ -148,13 +148,13 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.Void .ctor(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code, System.Array array)
     // Offset: 0x157DC0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PrimitiveArray* New_ctor(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, System::Array* array) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::.ctor");
+    static PrimitiveArray* New_ctor(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, ::System::Array* array) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrimitiveArray*, creationType>(code, array)));
     }
     // System.Void Init(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code, System.Array array)
     // Offset: 0x157DC4C
-    void Init(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, System::Array* array);
+    void Init(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, ::System::Array* array);
     // System.Void SetValue(System.String value, System.Int32 index)
     // Offset: 0x157DED4
     void SetValue(::StringW value, int index);
@@ -171,7 +171,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::*)(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE, System::Array*)>(&System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::*)(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE, ::System::Array*)>(&System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::Init)> {
   static const MethodInfo* get() {
     static auto* code = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "InternalPrimitiveTypeE")->byval_arg;
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "Array")->byval_arg;

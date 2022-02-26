@@ -21,8 +21,8 @@ namespace Newtonsoft::Json::Utilities {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Serialization::DefaultContractResolver::$$c__DisplayClass80_0);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Serialization::DefaultContractResolver::$$c__DisplayClass80_0*, "Newtonsoft.Json.Serialization", "DefaultContractResolver/<>c__DisplayClass80_0");
+NEED_NO_BOX(::Newtonsoft::Json::Serialization::DefaultContractResolver::$$c__DisplayClass80_0);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Serialization::DefaultContractResolver::$$c__DisplayClass80_0*, "Newtonsoft.Json.Serialization", "DefaultContractResolver/<>c__DisplayClass80_0");
 // Type namespace: Newtonsoft.Json.Serialization
 namespace Newtonsoft::Json::Serialization {
   // Size: 0x18
@@ -45,16 +45,16 @@ namespace Newtonsoft::Json::Serialization {
     // public Newtonsoft.Json.Utilities.MethodCall`2<System.Object,System.Object> shouldSerializeCall
     // Size: 0x8
     // Offset: 0x10
-    Newtonsoft::Json::Utilities::MethodCall_2<::Il2CppObject*, ::Il2CppObject*>* shouldSerializeCall;
+    ::Newtonsoft::Json::Utilities::MethodCall_2<::Il2CppObject*, ::Il2CppObject*>* shouldSerializeCall;
     // Field size check
-    static_assert(sizeof(Newtonsoft::Json::Utilities::MethodCall_2<::Il2CppObject*, ::Il2CppObject*>*) == 0x8);
+    static_assert(sizeof(::Newtonsoft::Json::Utilities::MethodCall_2<::Il2CppObject*, ::Il2CppObject*>*) == 0x8);
     public:
-    // Creating conversion operator: operator Newtonsoft::Json::Utilities::MethodCall_2<::Il2CppObject*, ::Il2CppObject*>*
-    constexpr operator Newtonsoft::Json::Utilities::MethodCall_2<::Il2CppObject*, ::Il2CppObject*>*() const noexcept {
+    // Creating conversion operator: operator ::Newtonsoft::Json::Utilities::MethodCall_2<::Il2CppObject*, ::Il2CppObject*>*
+    constexpr operator ::Newtonsoft::Json::Utilities::MethodCall_2<::Il2CppObject*, ::Il2CppObject*>*() const noexcept {
       return shouldSerializeCall;
     }
     // Get instance field reference: public Newtonsoft.Json.Utilities.MethodCall`2<System.Object,System.Object> shouldSerializeCall
-    Newtonsoft::Json::Utilities::MethodCall_2<::Il2CppObject*, ::Il2CppObject*>*& dyn_shouldSerializeCall();
+    ::Newtonsoft::Json::Utilities::MethodCall_2<::Il2CppObject*, ::Il2CppObject*>*& dyn_shouldSerializeCall();
     // System.Boolean <CreateShouldSerializeTest>b__0(System.Object o)
     // Offset: 0x152C194
     bool $CreateShouldSerializeTest$b__0(::Il2CppObject* o);
@@ -64,12 +64,12 @@ namespace Newtonsoft::Json::Serialization {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultContractResolver::$$c__DisplayClass80_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Serialization::DefaultContractResolver::$$c__DisplayClass80_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::DefaultContractResolver::$$c__DisplayClass80_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultContractResolver::$$c__DisplayClass80_0*, creationType>()));
     }
   }; // Newtonsoft.Json.Serialization.DefaultContractResolver/Newtonsoft.Json.Serialization.<>c__DisplayClass80_0
   #pragma pack(pop)
-  static check_size<sizeof(DefaultContractResolver::$$c__DisplayClass80_0), 16 + sizeof(Newtonsoft::Json::Utilities::MethodCall_2<::Il2CppObject*, ::Il2CppObject*>*)> __Newtonsoft_Json_Serialization_DefaultContractResolver_$$c__DisplayClass80_0SizeCheck;
+  static check_size<sizeof(DefaultContractResolver::$$c__DisplayClass80_0), 16 + sizeof(::Newtonsoft::Json::Utilities::MethodCall_2<::Il2CppObject*, ::Il2CppObject*>*)> __Newtonsoft_Json_Serialization_DefaultContractResolver_$$c__DisplayClass80_0SizeCheck;
   static_assert(sizeof(DefaultContractResolver::$$c__DisplayClass80_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

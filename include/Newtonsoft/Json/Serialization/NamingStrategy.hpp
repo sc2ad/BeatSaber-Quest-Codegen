@@ -17,8 +17,8 @@ namespace Newtonsoft::Json::Serialization {
   class NamingStrategy;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Serialization::NamingStrategy);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Serialization::NamingStrategy*, "Newtonsoft.Json.Serialization", "NamingStrategy");
+NEED_NO_BOX(::Newtonsoft::Json::Serialization::NamingStrategy);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Serialization::NamingStrategy*, "Newtonsoft.Json.Serialization", "NamingStrategy");
 // Type namespace: Newtonsoft.Json.Serialization
 namespace Newtonsoft::Json::Serialization {
   // Size: 0x13
@@ -86,14 +86,14 @@ namespace Newtonsoft::Json::Serialization {
     ::StringW ResolvePropertyName(::StringW name);
     // protected System.Boolean Equals(Newtonsoft.Json.Serialization.NamingStrategy other)
     // Offset: 0x19D68E4
-    bool Equals(Newtonsoft::Json::Serialization::NamingStrategy* other);
+    bool Equals(::Newtonsoft::Json::Serialization::NamingStrategy* other);
     // protected System.Void .ctor()
     // Offset: 0x19D69F0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NamingStrategy* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Serialization::NamingStrategy::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::NamingStrategy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NamingStrategy*, creationType>()));
     }
     // public override System.Int32 GetHashCode()
@@ -176,7 +176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::NamingStrategy::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Serialization::NamingStrategy::*)(Newtonsoft::Json::Serialization::NamingStrategy*)>(&Newtonsoft::Json::Serialization::NamingStrategy::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Serialization::NamingStrategy::*)(::Newtonsoft::Json::Serialization::NamingStrategy*)>(&Newtonsoft::Json::Serialization::NamingStrategy::Equals)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Serialization", "NamingStrategy")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::NamingStrategy*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});

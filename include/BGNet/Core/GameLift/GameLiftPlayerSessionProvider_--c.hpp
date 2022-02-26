@@ -29,8 +29,8 @@ namespace GlobalNamespace {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$$c);
-DEFINE_IL2CPP_ARG_TYPE(BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$$c*, "BGNet.Core.GameLift", "GameLiftPlayerSessionProvider/<>c");
+NEED_NO_BOX(::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$$c*, "BGNet.Core.GameLift", "GameLiftPlayerSessionProvider/<>c");
 // Type namespace: BGNet.Core.GameLift
 namespace BGNet::Core::GameLift {
   // Size: 0x10
@@ -41,40 +41,40 @@ namespace BGNet::Core::GameLift {
   class GameLiftPlayerSessionProvider::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly BGNet.Core.GameLift.GameLiftPlayerSessionProvider/BGNet.Core.GameLift.<>c <>9
-    static BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$$c* _get_$$9();
+    static ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$$c* _get_$$9();
     // Set static field: static public readonly BGNet.Core.GameLift.GameLiftPlayerSessionProvider/BGNet.Core.GameLift.<>c <>9
-    static void _set_$$9(BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$$c* value);
+    static void _set_$$9(::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$$c* value);
     // Get static field: static public System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,RollingAverage>,System.Boolean> <>9__17_0
-    static System::Func_2<System::Collections::Generic::KeyValuePair_2<::StringW, GlobalNamespace::RollingAverage*>, bool>* _get_$$9__17_0();
+    static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>, bool>* _get_$$9__17_0();
     // Set static field: static public System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,RollingAverage>,System.Boolean> <>9__17_0
-    static void _set_$$9__17_0(System::Func_2<System::Collections::Generic::KeyValuePair_2<::StringW, GlobalNamespace::RollingAverage*>, bool>* value);
+    static void _set_$$9__17_0(::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>, bool>* value);
     // Get static field: static public System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,RollingAverage>,System.String> <>9__17_1
-    static System::Func_2<System::Collections::Generic::KeyValuePair_2<::StringW, GlobalNamespace::RollingAverage*>, ::StringW>* _get_$$9__17_1();
+    static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>, ::StringW>* _get_$$9__17_1();
     // Set static field: static public System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,RollingAverage>,System.String> <>9__17_1
-    static void _set_$$9__17_1(System::Func_2<System::Collections::Generic::KeyValuePair_2<::StringW, GlobalNamespace::RollingAverage*>, ::StringW>* value);
+    static void _set_$$9__17_1(::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>, ::StringW>* value);
     // Get static field: static public System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,RollingAverage>,System.Int64> <>9__17_2
-    static System::Func_2<System::Collections::Generic::KeyValuePair_2<::StringW, GlobalNamespace::RollingAverage*>, int64_t>* _get_$$9__17_2();
+    static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>, int64_t>* _get_$$9__17_2();
     // Set static field: static public System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,RollingAverage>,System.Int64> <>9__17_2
-    static void _set_$$9__17_2(System::Func_2<System::Collections::Generic::KeyValuePair_2<::StringW, GlobalNamespace::RollingAverage*>, int64_t>* value);
+    static void _set_$$9__17_2(::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>, int64_t>* value);
     // static private System.Void .cctor()
     // Offset: 0x2B7D338
     static void _cctor();
     // System.Boolean <GetAverageLatencies>b__17_0(System.Collections.Generic.KeyValuePair`2<System.String,RollingAverage> kvp)
     // Offset: 0x2B7D3A4
-    bool $GetAverageLatencies$b__17_0(System::Collections::Generic::KeyValuePair_2<::StringW, GlobalNamespace::RollingAverage*> kvp);
+    bool $GetAverageLatencies$b__17_0(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*> kvp);
     // System.String <GetAverageLatencies>b__17_1(System.Collections.Generic.KeyValuePair`2<System.String,RollingAverage> kvp)
     // Offset: 0x2B7D3F4
-    ::StringW $GetAverageLatencies$b__17_1(System::Collections::Generic::KeyValuePair_2<::StringW, GlobalNamespace::RollingAverage*> kvp);
+    ::StringW $GetAverageLatencies$b__17_1(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*> kvp);
     // System.Int64 <GetAverageLatencies>b__17_2(System.Collections.Generic.KeyValuePair`2<System.String,RollingAverage> kvp)
     // Offset: 0x2B7D438
-    int64_t $GetAverageLatencies$b__17_2(System::Collections::Generic::KeyValuePair_2<::StringW, GlobalNamespace::RollingAverage*> kvp);
+    int64_t $GetAverageLatencies$b__17_2(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*> kvp);
     // public System.Void .ctor()
     // Offset: 0x2B7D39C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameLiftPlayerSessionProvider::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameLiftPlayerSessionProvider::$$c*, creationType>()));
     }
   }; // BGNet.Core.GameLift.GameLiftPlayerSessionProvider/BGNet.Core.GameLift.<>c
@@ -92,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$$c::$GetAverageLatencies$b__17_0
 // Il2CppName: <GetAverageLatencies>b__17_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$$c::*)(System::Collections::Generic::KeyValuePair_2<::StringW, GlobalNamespace::RollingAverage*>)>(&BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$$c::$GetAverageLatencies$b__17_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$$c::*)(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>)>(&BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$$c::$GetAverageLatencies$b__17_0)> {
   static const MethodInfo* get() {
     static auto* kvp = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "KeyValuePair`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("", "RollingAverage")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$$c*), "<GetAverageLatencies>b__17_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{kvp});
@@ -101,7 +101,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BGNet
 // Writing MetadataGetter for method: BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$$c::$GetAverageLatencies$b__17_1
 // Il2CppName: <GetAverageLatencies>b__17_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$$c::*)(System::Collections::Generic::KeyValuePair_2<::StringW, GlobalNamespace::RollingAverage*>)>(&BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$$c::$GetAverageLatencies$b__17_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$$c::*)(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>)>(&BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$$c::$GetAverageLatencies$b__17_1)> {
   static const MethodInfo* get() {
     static auto* kvp = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "KeyValuePair`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("", "RollingAverage")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$$c*), "<GetAverageLatencies>b__17_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{kvp});
@@ -110,7 +110,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$$c::$GetAverageLatencies$b__17_2
 // Il2CppName: <GetAverageLatencies>b__17_2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$$c::*)(System::Collections::Generic::KeyValuePair_2<::StringW, GlobalNamespace::RollingAverage*>)>(&BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$$c::$GetAverageLatencies$b__17_2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$$c::*)(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>)>(&BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$$c::$GetAverageLatencies$b__17_2)> {
   static const MethodInfo* get() {
     static auto* kvp = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "KeyValuePair`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("", "RollingAverage")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$$c*), "<GetAverageLatencies>b__17_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{kvp});

@@ -21,8 +21,8 @@ namespace UnityEngine {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRPlugin::OVRP_1_31_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_31_0*, "", "OVRPlugin/OVRP_1_31_0");
+NEED_NO_BOX(::GlobalNamespace::OVRPlugin::OVRP_1_31_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRPlugin::OVRP_1_31_0*, "", "OVRPlugin/OVRP_1_31_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -32,18 +32,18 @@ namespace GlobalNamespace {
   class OVRPlugin::OVRP_1_31_0 : public ::Il2CppObject {
     public:
     // Get static field: static public readonly System.Version version
-    static System::Version* _get_version();
+    static ::System::Version* _get_version();
     // Set static field: static public readonly System.Version version
-    static void _set_version(System::Version* value);
+    static void _set_version(::System::Version* value);
     // static private System.Void .cctor()
     // Offset: 0x1A7398C
     static void _cctor();
     // static public OVRPlugin/Result ovrp_GetTimeInSeconds(out System.Double value)
     // Offset: 0x1A7382C
-    static GlobalNamespace::OVRPlugin::Result ovrp_GetTimeInSeconds(ByRef<double> value);
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_GetTimeInSeconds(ByRef<double> value);
     // static public OVRPlugin/Result ovrp_SetColorScaleAndOffset(UnityEngine.Vector4 colorScale, UnityEngine.Vector4 colorOffset, OVRPlugin/Bool applyToAllLayers)
     // Offset: 0x1A738AC
-    static GlobalNamespace::OVRPlugin::Result ovrp_SetColorScaleAndOffset(UnityEngine::Vector4 colorScale, UnityEngine::Vector4 colorOffset, GlobalNamespace::OVRPlugin::Bool applyToAllLayers);
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_SetColorScaleAndOffset(::UnityEngine::Vector4 colorScale, ::UnityEngine::Vector4 colorOffset, ::GlobalNamespace::OVRPlugin::Bool applyToAllLayers);
   }; // OVRPlugin/OVRP_1_31_0
   #pragma pack(pop)
 }
@@ -59,7 +59,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_31_0::ovrp_GetTimeInSeconds
 // Il2CppName: ovrp_GetTimeInSeconds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(ByRef<double>)>(&GlobalNamespace::OVRPlugin::OVRP_1_31_0::ovrp_GetTimeInSeconds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)(ByRef<double>)>(&GlobalNamespace::OVRPlugin::OVRP_1_31_0::ovrp_GetTimeInSeconds)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Double")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_31_0*), "ovrp_GetTimeInSeconds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -68,7 +68,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_31_0::ovrp_SetColorScaleAndOffset
 // Il2CppName: ovrp_SetColorScaleAndOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(UnityEngine::Vector4, UnityEngine::Vector4, GlobalNamespace::OVRPlugin::Bool)>(&GlobalNamespace::OVRPlugin::OVRP_1_31_0::ovrp_SetColorScaleAndOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)(::UnityEngine::Vector4, ::UnityEngine::Vector4, ::GlobalNamespace::OVRPlugin::Bool)>(&GlobalNamespace::OVRPlugin::OVRP_1_31_0::ovrp_SetColorScaleAndOffset)> {
   static const MethodInfo* get() {
     static auto* colorScale = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->byval_arg;
     static auto* colorOffset = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->byval_arg;

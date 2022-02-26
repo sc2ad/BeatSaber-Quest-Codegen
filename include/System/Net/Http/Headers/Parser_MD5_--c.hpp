@@ -14,8 +14,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::Http::Headers::Parser::MD5::$$c);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Parser::MD5::$$c*, "System.Net.Http.Headers", "Parser/MD5/<>c");
+NEED_NO_BOX(::System::Net::Http::Headers::Parser::MD5::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::Parser::MD5::$$c*, "System.Net.Http.Headers", "Parser/MD5/<>c");
 // Type namespace: System.Net.Http.Headers
 namespace System::Net::Http::Headers {
   // Size: 0x10
@@ -26,9 +26,9 @@ namespace System::Net::Http::Headers {
   class Parser::MD5::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly System.Net.Http.Headers.Parser/System.Net.Http.Headers.MD5/System.Net.Http.Headers.<>c <>9
-    static System::Net::Http::Headers::Parser::MD5::$$c* _get_$$9();
+    static ::System::Net::Http::Headers::Parser::MD5::$$c* _get_$$9();
     // Set static field: static public readonly System.Net.Http.Headers.Parser/System.Net.Http.Headers.MD5/System.Net.Http.Headers.<>c <>9
-    static void _set_$$9(System::Net::Http::Headers::Parser::MD5::$$c* value);
+    static void _set_$$9(::System::Net::Http::Headers::Parser::MD5::$$c* value);
     // static private System.Void .cctor()
     // Offset: 0x18FD744
     static void _cctor();
@@ -41,7 +41,7 @@ namespace System::Net::Http::Headers {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Parser::MD5::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::Parser::MD5::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::Parser::MD5::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Parser::MD5::$$c*, creationType>()));
     }
   }; // System.Net.Http.Headers.Parser/System.Net.Http.Headers.MD5/System.Net.Http.Headers.<>c

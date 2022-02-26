@@ -27,8 +27,8 @@ namespace Org::BouncyCastle::Security {
   class GeneratorUtilities;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Security::GeneratorUtilities);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::GeneratorUtilities*, "Org.BouncyCastle.Security", "GeneratorUtilities");
+NEED_NO_BOX(::Org::BouncyCastle::Security::GeneratorUtilities);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Security::GeneratorUtilities*, "Org.BouncyCastle.Security", "GeneratorUtilities");
 // Type namespace: Org.BouncyCastle.Security
 namespace Org::BouncyCastle::Security {
   // Size: 0x10
@@ -38,17 +38,17 @@ namespace Org::BouncyCastle::Security {
   class GeneratorUtilities : public ::Il2CppObject {
     public:
     // Get static field: static private readonly System.Collections.IDictionary kgAlgorithms
-    static System::Collections::IDictionary* _get_kgAlgorithms();
+    static ::System::Collections::IDictionary* _get_kgAlgorithms();
     // Set static field: static private readonly System.Collections.IDictionary kgAlgorithms
-    static void _set_kgAlgorithms(System::Collections::IDictionary* value);
+    static void _set_kgAlgorithms(::System::Collections::IDictionary* value);
     // Get static field: static private readonly System.Collections.IDictionary kpgAlgorithms
-    static System::Collections::IDictionary* _get_kpgAlgorithms();
+    static ::System::Collections::IDictionary* _get_kpgAlgorithms();
     // Set static field: static private readonly System.Collections.IDictionary kpgAlgorithms
-    static void _set_kpgAlgorithms(System::Collections::IDictionary* value);
+    static void _set_kpgAlgorithms(::System::Collections::IDictionary* value);
     // Get static field: static private readonly System.Collections.IDictionary defaultKeySizes
-    static System::Collections::IDictionary* _get_defaultKeySizes();
+    static ::System::Collections::IDictionary* _get_defaultKeySizes();
     // Set static field: static private readonly System.Collections.IDictionary defaultKeySizes
-    static void _set_defaultKeySizes(System::Collections::IDictionary* value);
+    static void _set_defaultKeySizes(::System::Collections::IDictionary* value);
     // static private System.Void .cctor()
     // Offset: 0x1726838
     static void _cctor();
@@ -69,7 +69,7 @@ namespace Org::BouncyCastle::Security {
     static ::StringW GetCanonicalKeyGeneratorAlgorithm(::StringW algorithm);
     // static System.Int32 GetDefaultKeySize(Org.BouncyCastle.Asn1.DerObjectIdentifier oid)
     // Offset: 0x1729FD8
-    static int GetDefaultKeySize(Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
+    static int GetDefaultKeySize(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
     // static System.Int32 GetDefaultKeySize(System.String algorithm)
     // Offset: 0x172A048
     static int GetDefaultKeySize(::StringW algorithm);
@@ -140,7 +140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::GeneratorUtilities::GetDefaultKeySize
 // Il2CppName: GetDefaultKeySize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&Org::BouncyCastle::Security::GeneratorUtilities::GetDefaultKeySize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&Org::BouncyCastle::Security::GeneratorUtilities::GetDefaultKeySize)> {
   static const MethodInfo* get() {
     static auto* oid = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1", "DerObjectIdentifier")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::GeneratorUtilities*), "GetDefaultKeySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{oid});

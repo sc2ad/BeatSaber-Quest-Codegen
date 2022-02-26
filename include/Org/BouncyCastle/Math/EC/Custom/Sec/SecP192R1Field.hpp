@@ -25,8 +25,8 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
   class SecP192R1Field;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Math::EC::Custom::Sec::SecP192R1Field);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Custom::Sec::SecP192R1Field*, "Org.BouncyCastle.Math.EC.Custom.Sec", "SecP192R1Field");
+NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Custom::Sec::SecP192R1Field);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::Custom::Sec::SecP192R1Field*, "Org.BouncyCastle.Math.EC.Custom.Sec", "SecP192R1Field");
 // Type namespace: Org.BouncyCastle.Math.EC.Custom.Sec
 namespace Org::BouncyCastle::Math::EC::Custom::Sec {
   // Size: 0x10
@@ -58,7 +58,7 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
     static void AddOne(::ArrayW<uint> x, ::ArrayW<uint> z);
     // static public System.UInt32[] FromBigInteger(Org.BouncyCastle.Math.BigInteger x)
     // Offset: 0x22E1760
-    static ::ArrayW<uint> FromBigInteger(Org::BouncyCastle::Math::BigInteger* x);
+    static ::ArrayW<uint> FromBigInteger(::Org::BouncyCastle::Math::BigInteger* x);
     // static public System.Void Inv(System.UInt32[] x, System.UInt32[] z)
     // Offset: 0x22E184C
     static void Inv(::ArrayW<uint> x, ::ArrayW<uint> z);
@@ -76,10 +76,10 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
     static void Negate(::ArrayW<uint> x, ::ArrayW<uint> z);
     // static public System.Void Random(Org.BouncyCastle.Security.SecureRandom r, System.UInt32[] z)
     // Offset: 0x22E21B4
-    static void Random(Org::BouncyCastle::Security::SecureRandom* r, ::ArrayW<uint> z);
+    static void Random(::Org::BouncyCastle::Security::SecureRandom* r, ::ArrayW<uint> z);
     // static public System.Void RandomMult(Org.BouncyCastle.Security.SecureRandom r, System.UInt32[] z)
     // Offset: 0x22E0FE8
-    static void RandomMult(Org::BouncyCastle::Security::SecureRandom* r, ::ArrayW<uint> z);
+    static void RandomMult(::Org::BouncyCastle::Security::SecureRandom* r, ::ArrayW<uint> z);
     // static public System.Void Reduce(System.UInt32[] xx, System.UInt32[] z)
     // Offset: 0x22E1D54
     static void Reduce(::ArrayW<uint> xx, ::ArrayW<uint> z);
@@ -140,7 +140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Sec::SecP192R1Field::FromBigInteger
 // Il2CppName: FromBigInteger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint> (*)(Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Math::EC::Custom::Sec::SecP192R1Field::FromBigInteger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint> (*)(::Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Math::EC::Custom::Sec::SecP192R1Field::FromBigInteger)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math", "BigInteger")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Custom::Sec::SecP192R1Field*), "FromBigInteger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -200,7 +200,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Sec::SecP192R1Field::Random
 // Il2CppName: Random
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Org::BouncyCastle::Security::SecureRandom*, ::ArrayW<uint>)>(&Org::BouncyCastle::Math::EC::Custom::Sec::SecP192R1Field::Random)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Org::BouncyCastle::Security::SecureRandom*, ::ArrayW<uint>)>(&Org::BouncyCastle::Math::EC::Custom::Sec::SecP192R1Field::Random)> {
   static const MethodInfo* get() {
     static auto* r = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Security", "SecureRandom")->byval_arg;
     static auto* z = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
@@ -210,7 +210,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Or
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Sec::SecP192R1Field::RandomMult
 // Il2CppName: RandomMult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Org::BouncyCastle::Security::SecureRandom*, ::ArrayW<uint>)>(&Org::BouncyCastle::Math::EC::Custom::Sec::SecP192R1Field::RandomMult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Org::BouncyCastle::Security::SecureRandom*, ::ArrayW<uint>)>(&Org::BouncyCastle::Math::EC::Custom::Sec::SecP192R1Field::RandomMult)> {
   static const MethodInfo* get() {
     static auto* r = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Security", "SecureRandom")->byval_arg;
     static auto* z = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;

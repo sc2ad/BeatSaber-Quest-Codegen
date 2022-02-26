@@ -31,8 +31,8 @@ namespace Zenject {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::ScriptableObjectInstanceProvider::$$c__DisplayClass13_0);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::ScriptableObjectInstanceProvider::$$c__DisplayClass13_0*, "Zenject", "ScriptableObjectInstanceProvider/<>c__DisplayClass13_0");
+NEED_NO_BOX(::Zenject::ScriptableObjectInstanceProvider::$$c__DisplayClass13_0);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::ScriptableObjectInstanceProvider::$$c__DisplayClass13_0*, "Zenject", "ScriptableObjectInstanceProvider/<>c__DisplayClass13_0");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x30
@@ -54,36 +54,36 @@ namespace Zenject {
     // public System.Collections.Generic.List`1<System.Object> buffer
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::List_1<::Il2CppObject*>* buffer;
+    ::System::Collections::Generic::List_1<::Il2CppObject*>* buffer;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<::Il2CppObject*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::Il2CppObject*>*) == 0x8);
     // public Zenject.ScriptableObjectInstanceProvider <>4__this
     // Size: 0x8
     // Offset: 0x18
-    Zenject::ScriptableObjectInstanceProvider* $$4__this;
+    ::Zenject::ScriptableObjectInstanceProvider* $$4__this;
     // Field size check
-    static_assert(sizeof(Zenject::ScriptableObjectInstanceProvider*) == 0x8);
+    static_assert(sizeof(::Zenject::ScriptableObjectInstanceProvider*) == 0x8);
     // public System.Collections.Generic.List`1<Zenject.TypeValuePair> args
     // Size: 0x8
     // Offset: 0x20
-    System::Collections::Generic::List_1<Zenject::TypeValuePair>* args;
+    ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<Zenject::TypeValuePair>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*) == 0x8);
     // public Zenject.InjectContext context
     // Size: 0x8
     // Offset: 0x28
-    Zenject::InjectContext* context;
+    ::Zenject::InjectContext* context;
     // Field size check
-    static_assert(sizeof(Zenject::InjectContext*) == 0x8);
+    static_assert(sizeof(::Zenject::InjectContext*) == 0x8);
     public:
     // Get instance field reference: public System.Collections.Generic.List`1<System.Object> buffer
-    System::Collections::Generic::List_1<::Il2CppObject*>*& dyn_buffer();
+    ::System::Collections::Generic::List_1<::Il2CppObject*>*& dyn_buffer();
     // Get instance field reference: public Zenject.ScriptableObjectInstanceProvider <>4__this
-    Zenject::ScriptableObjectInstanceProvider*& dyn_$$4__this();
+    ::Zenject::ScriptableObjectInstanceProvider*& dyn_$$4__this();
     // Get instance field reference: public System.Collections.Generic.List`1<Zenject.TypeValuePair> args
-    System::Collections::Generic::List_1<Zenject::TypeValuePair>*& dyn_args();
+    ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& dyn_args();
     // Get instance field reference: public Zenject.InjectContext context
-    Zenject::InjectContext*& dyn_context();
+    ::Zenject::InjectContext*& dyn_context();
     // System.Void <GetAllInstancesWithInjectSplit>b__0()
     // Offset: 0x2465018
     void $GetAllInstancesWithInjectSplit$b__0();
@@ -92,19 +92,19 @@ namespace Zenject {
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
     // Offset: 0x24651E4
-    static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
     // Offset: 0x2465010
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScriptableObjectInstanceProvider::$$c__DisplayClass13_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ScriptableObjectInstanceProvider::$$c__DisplayClass13_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ScriptableObjectInstanceProvider::$$c__DisplayClass13_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScriptableObjectInstanceProvider::$$c__DisplayClass13_0*, creationType>()));
     }
   }; // Zenject.ScriptableObjectInstanceProvider/Zenject.<>c__DisplayClass13_0
   #pragma pack(pop)
-  static check_size<sizeof(ScriptableObjectInstanceProvider::$$c__DisplayClass13_0), 40 + sizeof(Zenject::InjectContext*)> __Zenject_ScriptableObjectInstanceProvider_$$c__DisplayClass13_0SizeCheck;
+  static check_size<sizeof(ScriptableObjectInstanceProvider::$$c__DisplayClass13_0), 40 + sizeof(::Zenject::InjectContext*)> __Zenject_ScriptableObjectInstanceProvider_$$c__DisplayClass13_0SizeCheck;
   static_assert(sizeof(ScriptableObjectInstanceProvider::$$c__DisplayClass13_0) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -128,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: Zenject::ScriptableObjectInstanceProvider::$$c__DisplayClass13_0::__zenCreateInjectTypeInfo
 // Il2CppName: __zenCreateInjectTypeInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (*)()>(&Zenject::ScriptableObjectInstanceProvider::$$c__DisplayClass13_0::__zenCreateInjectTypeInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&Zenject::ScriptableObjectInstanceProvider::$$c__DisplayClass13_0::__zenCreateInjectTypeInfo)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::ScriptableObjectInstanceProvider::$$c__DisplayClass13_0*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

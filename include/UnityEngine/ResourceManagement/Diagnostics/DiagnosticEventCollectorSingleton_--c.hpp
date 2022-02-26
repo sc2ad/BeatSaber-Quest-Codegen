@@ -26,8 +26,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::$$c);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::$$c*, "UnityEngine.ResourceManagement.Diagnostics", "DiagnosticEventCollectorSingleton/<>c");
+NEED_NO_BOX(::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::$$c*, "UnityEngine.ResourceManagement.Diagnostics", "DiagnosticEventCollectorSingleton/<>c");
 // Type namespace: UnityEngine.ResourceManagement.Diagnostics
 namespace UnityEngine::ResourceManagement::Diagnostics {
   // Size: 0x10
@@ -38,33 +38,33 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
   class DiagnosticEventCollectorSingleton::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly UnityEngine.ResourceManagement.Diagnostics.DiagnosticEventCollectorSingleton/UnityEngine.ResourceManagement.Diagnostics.<>c <>9
-    static UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::$$c* _get_$$9();
+    static ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::$$c* _get_$$9();
     // Set static field: static public readonly UnityEngine.ResourceManagement.Diagnostics.DiagnosticEventCollectorSingleton/UnityEngine.ResourceManagement.Diagnostics.<>c <>9
-    static void _set_$$9(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::$$c* value);
+    static void _set_$$9(::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::$$c* value);
     // Get static field: static public System.Func`2<UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent,System.Int32> <>9__8_0
-    static System::Func_2<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent, int>* _get_$$9__8_0();
+    static ::System::Func_2<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent, int>* _get_$$9__8_0();
     // Set static field: static public System.Func`2<UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent,System.Int32> <>9__8_0
-    static void _set_$$9__8_0(System::Func_2<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent, int>* value);
+    static void _set_$$9__8_0(::System::Func_2<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent, int>* value);
     // Get static field: static public System.Action`1<UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent> <>9__11_0
-    static System::Action_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* _get_$$9__11_0();
+    static ::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* _get_$$9__11_0();
     // Set static field: static public System.Action`1<UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent> <>9__11_0
-    static void _set_$$9__11_0(System::Action_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* value);
+    static void _set_$$9__11_0(::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* value);
     // static private System.Void .cctor()
     // Offset: 0x1E20EA0
     static void _cctor();
     // System.Int32 <RegisterEventHandler>b__8_0(UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent evt)
     // Offset: 0x1E20F0C
-    int $RegisterEventHandler$b__8_0(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent evt);
+    int $RegisterEventHandler$b__8_0(::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent evt);
     // System.Void <Awake>b__11_0(UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent diagnosticEvent)
     // Offset: 0x1E20F14
-    void $Awake$b__11_0(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent diagnosticEvent);
+    void $Awake$b__11_0(::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent diagnosticEvent);
     // public System.Void .ctor()
     // Offset: 0x1E20F04
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DiagnosticEventCollectorSingleton::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DiagnosticEventCollectorSingleton::$$c*, creationType>()));
     }
   }; // UnityEngine.ResourceManagement.Diagnostics.DiagnosticEventCollectorSingleton/UnityEngine.ResourceManagement.Diagnostics.<>c
@@ -82,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::$$c::$RegisterEventHandler$b__8_0
 // Il2CppName: <RegisterEventHandler>b__8_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::$$c::*)(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent)>(&UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::$$c::$RegisterEventHandler$b__8_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::$$c::*)(::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent)>(&UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::$$c::$RegisterEventHandler$b__8_0)> {
   static const MethodInfo* get() {
     static auto* evt = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.Diagnostics", "DiagnosticEvent")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::$$c*), "<RegisterEventHandler>b__8_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{evt});
@@ -91,7 +91,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::$$c::$Awake$b__11_0
 // Il2CppName: <Awake>b__11_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::$$c::*)(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent)>(&UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::$$c::$Awake$b__11_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::$$c::*)(::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent)>(&UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::$$c::$Awake$b__11_0)> {
   static const MethodInfo* get() {
     static auto* diagnosticEvent = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.Diagnostics", "DiagnosticEvent")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::$$c*), "<Awake>b__11_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{diagnosticEvent});

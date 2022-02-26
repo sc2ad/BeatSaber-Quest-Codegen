@@ -26,8 +26,8 @@ namespace UnityEngine::Timeline {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Timeline::Extrapolation::$$c);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::Extrapolation::$$c*, "UnityEngine.Timeline", "Extrapolation/<>c");
+NEED_NO_BOX(::UnityEngine::Timeline::Extrapolation::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::Extrapolation::$$c*, "UnityEngine.Timeline", "Extrapolation/<>c");
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
   // Size: 0x10
@@ -38,26 +38,26 @@ namespace UnityEngine::Timeline {
   class Extrapolation::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly UnityEngine.Timeline.Extrapolation/UnityEngine.Timeline.<>c <>9
-    static UnityEngine::Timeline::Extrapolation::$$c* _get_$$9();
+    static ::UnityEngine::Timeline::Extrapolation::$$c* _get_$$9();
     // Set static field: static public readonly UnityEngine.Timeline.Extrapolation/UnityEngine.Timeline.<>c <>9
-    static void _set_$$9(UnityEngine::Timeline::Extrapolation::$$c* value);
+    static void _set_$$9(::UnityEngine::Timeline::Extrapolation::$$c* value);
     // Get static field: static public System.Comparison`1<UnityEngine.Timeline.TimelineClip> <>9__2_0
-    static System::Comparison_1<UnityEngine::Timeline::TimelineClip*>* _get_$$9__2_0();
+    static ::System::Comparison_1<::UnityEngine::Timeline::TimelineClip*>* _get_$$9__2_0();
     // Set static field: static public System.Comparison`1<UnityEngine.Timeline.TimelineClip> <>9__2_0
-    static void _set_$$9__2_0(System::Comparison_1<UnityEngine::Timeline::TimelineClip*>* value);
+    static void _set_$$9__2_0(::System::Comparison_1<::UnityEngine::Timeline::TimelineClip*>* value);
     // static private System.Void .cctor()
     // Offset: 0x1C9C60C
     static void _cctor();
     // System.Int32 <SortClipsByStartTime>b__2_0(UnityEngine.Timeline.TimelineClip clip1, UnityEngine.Timeline.TimelineClip clip2)
     // Offset: 0x1C9C678
-    int $SortClipsByStartTime$b__2_0(UnityEngine::Timeline::TimelineClip* clip1, UnityEngine::Timeline::TimelineClip* clip2);
+    int $SortClipsByStartTime$b__2_0(::UnityEngine::Timeline::TimelineClip* clip1, ::UnityEngine::Timeline::TimelineClip* clip2);
     // public System.Void .ctor()
     // Offset: 0x1C9C670
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Extrapolation::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::Extrapolation::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Timeline::Extrapolation::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Extrapolation::$$c*, creationType>()));
     }
   }; // UnityEngine.Timeline.Extrapolation/UnityEngine.Timeline.<>c
@@ -75,7 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::Timeline::Extrapolation::$$c::$SortClipsByStartTime$b__2_0
 // Il2CppName: <SortClipsByStartTime>b__2_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Timeline::Extrapolation::$$c::*)(UnityEngine::Timeline::TimelineClip*, UnityEngine::Timeline::TimelineClip*)>(&UnityEngine::Timeline::Extrapolation::$$c::$SortClipsByStartTime$b__2_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Timeline::Extrapolation::$$c::*)(::UnityEngine::Timeline::TimelineClip*, ::UnityEngine::Timeline::TimelineClip*)>(&UnityEngine::Timeline::Extrapolation::$$c::$SortClipsByStartTime$b__2_0)> {
   static const MethodInfo* get() {
     static auto* clip1 = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "TimelineClip")->byval_arg;
     static auto* clip2 = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "TimelineClip")->byval_arg;

@@ -18,8 +18,8 @@ namespace GlobalNamespace {
   class IMultiplayerLevelEndActionsListener;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::IMultiplayerLevelEndActionsListener);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IMultiplayerLevelEndActionsListener*, "", "IMultiplayerLevelEndActionsListener");
+NEED_NO_BOX(::GlobalNamespace::IMultiplayerLevelEndActionsListener);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IMultiplayerLevelEndActionsListener*, "", "IMultiplayerLevelEndActionsListener");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -30,10 +30,10 @@ namespace GlobalNamespace {
     public:
     // public System.Void ReportPlayerDidFinish(MultiplayerLevelCompletionResults results)
     // Offset: 0xFFFFFFFF
-    void ReportPlayerDidFinish(GlobalNamespace::MultiplayerLevelCompletionResults* results);
+    void ReportPlayerDidFinish(::GlobalNamespace::MultiplayerLevelCompletionResults* results);
     // public System.Void ReportPlayerNetworkDidFailed(MultiplayerLevelCompletionResults results)
     // Offset: 0xFFFFFFFF
-    void ReportPlayerNetworkDidFailed(GlobalNamespace::MultiplayerLevelCompletionResults* results);
+    void ReportPlayerNetworkDidFailed(::GlobalNamespace::MultiplayerLevelCompletionResults* results);
   }; // IMultiplayerLevelEndActionsListener
   #pragma pack(pop)
 }
@@ -41,7 +41,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::IMultiplayerLevelEndActionsListener::ReportPlayerDidFinish
 // Il2CppName: ReportPlayerDidFinish
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMultiplayerLevelEndActionsListener::*)(GlobalNamespace::MultiplayerLevelCompletionResults*)>(&GlobalNamespace::IMultiplayerLevelEndActionsListener::ReportPlayerDidFinish)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMultiplayerLevelEndActionsListener::*)(::GlobalNamespace::MultiplayerLevelCompletionResults*)>(&GlobalNamespace::IMultiplayerLevelEndActionsListener::ReportPlayerDidFinish)> {
   static const MethodInfo* get() {
     static auto* results = &::il2cpp_utils::GetClassFromName("", "MultiplayerLevelCompletionResults")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMultiplayerLevelEndActionsListener*), "ReportPlayerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{results});
@@ -50,7 +50,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMultiplayerLevelEndActionsListener::ReportPlayerNetworkDidFailed
 // Il2CppName: ReportPlayerNetworkDidFailed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMultiplayerLevelEndActionsListener::*)(GlobalNamespace::MultiplayerLevelCompletionResults*)>(&GlobalNamespace::IMultiplayerLevelEndActionsListener::ReportPlayerNetworkDidFailed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMultiplayerLevelEndActionsListener::*)(::GlobalNamespace::MultiplayerLevelCompletionResults*)>(&GlobalNamespace::IMultiplayerLevelEndActionsListener::ReportPlayerNetworkDidFailed)> {
   static const MethodInfo* get() {
     static auto* results = &::il2cpp_utils::GetClassFromName("", "MultiplayerLevelCompletionResults")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMultiplayerLevelEndActionsListener*), "ReportPlayerNetworkDidFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{results});

@@ -29,8 +29,8 @@ namespace System::Net::Mail {
   class MailAddress;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::Mail::MailAddress);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::Mail::MailAddress*, "System.Net.Mail", "MailAddress");
+NEED_NO_BOX(::System::Net::Mail::MailAddress);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::Mail::MailAddress*, "System.Net.Mail", "MailAddress");
 // Type namespace: System.Net.Mail
 namespace System::Net::Mail {
   // Size: 0x38
@@ -99,21 +99,21 @@ namespace System::Net::Mail {
     // Offset: 0x17A7408
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MailAddress* New_ctor(::StringW address) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Mail::MailAddress::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Mail::MailAddress::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MailAddress*, creationType>(address)));
     }
     // public System.Void .ctor(System.String address, System.String displayName)
     // Offset: 0x17A743C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MailAddress* New_ctor(::StringW address, ::StringW displayName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Mail::MailAddress::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Mail::MailAddress::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MailAddress*, creationType>(address, displayName)));
     }
     // public System.Void .ctor(System.String address, System.String displayName, System.Text.Encoding displayNameEncoding)
     // Offset: 0x17A747C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MailAddress* New_ctor(::StringW address, ::StringW displayName, System::Text::Encoding* displayNameEncoding) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Mail::MailAddress::.ctor");
+    static MailAddress* New_ctor(::StringW address, ::StringW displayName, ::System::Text::Encoding* displayNameEncoding) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Mail::MailAddress::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MailAddress*, creationType>(address, displayName, displayNameEncoding)));
     }
     // private System.Void ParseAddress(System.String address)
@@ -121,7 +121,7 @@ namespace System::Net::Mail {
     void ParseAddress(::StringW address);
     // static private System.FormatException CreateFormatException()
     // Offset: 0x17A77AC
-    static System::FormatException* CreateFormatException();
+    static ::System::FormatException* CreateFormatException();
     // public override System.Boolean Equals(System.Object value)
     // Offset: 0x17A7878
     // Implemented from: System.Object
@@ -183,7 +183,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::Mail::MailAddress::CreateFormatException
 // Il2CppName: CreateFormatException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::FormatException* (*)()>(&System::Net::Mail::MailAddress::CreateFormatException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::FormatException* (*)()>(&System::Net::Mail::MailAddress::CreateFormatException)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Mail::MailAddress*), "CreateFormatException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -25,8 +25,8 @@ namespace Oculus::Platform::Models {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::PlatformInternal::Users);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::PlatformInternal::Users*, "Oculus.Platform", "PlatformInternal/Users");
+NEED_NO_BOX(::Oculus::Platform::PlatformInternal::Users);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::PlatformInternal::Users*, "Oculus.Platform", "PlatformInternal/Users");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x10
@@ -37,7 +37,7 @@ namespace Oculus::Platform {
     public:
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.LinkedAccountList> GetLinkedAccounts(Oculus.Platform.ServiceProvider[] providers)
     // Offset: 0x29FD590
-    static Oculus::Platform::Request_1<Oculus::Platform::Models::LinkedAccountList*>* GetLinkedAccounts(::ArrayW<Oculus::Platform::ServiceProvider> providers);
+    static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LinkedAccountList*>* GetLinkedAccounts(::ArrayW<::Oculus::Platform::ServiceProvider> providers);
   }; // Oculus.Platform.PlatformInternal/Oculus.Platform.Users
   #pragma pack(pop)
 }
@@ -45,7 +45,7 @@ namespace Oculus::Platform {
 // Writing MetadataGetter for method: Oculus::Platform::PlatformInternal::Users::GetLinkedAccounts
 // Il2CppName: GetLinkedAccounts
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::LinkedAccountList*>* (*)(::ArrayW<Oculus::Platform::ServiceProvider>)>(&Oculus::Platform::PlatformInternal::Users::GetLinkedAccounts)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::LinkedAccountList*>* (*)(::ArrayW<::Oculus::Platform::ServiceProvider>)>(&Oculus::Platform::PlatformInternal::Users::GetLinkedAccounts)> {
   static const MethodInfo* get() {
     static auto* providers = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Oculus.Platform", "ServiceProvider"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::PlatformInternal::Users*), "GetLinkedAccounts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{providers});

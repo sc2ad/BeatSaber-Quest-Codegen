@@ -20,8 +20,8 @@ namespace UnityEngine::Timeline {
   class TrackMediaType;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Timeline::TrackMediaType);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackMediaType*, "UnityEngine.Timeline", "TrackMediaType");
+NEED_NO_BOX(::UnityEngine::Timeline::TrackMediaType);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::TrackMediaType*, "UnityEngine.Timeline", "TrackMediaType");
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
   // Size: 0x14
@@ -30,7 +30,7 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AttributeUsageAttribute] Offset: 11F1300
   // [ObsoleteAttribute] Offset: 11F1300
-  class TrackMediaType : public System::Attribute {
+  class TrackMediaType : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -44,26 +44,26 @@ namespace UnityEngine::Timeline {
     // public readonly UnityEngine.Timeline.TimelineAsset/UnityEngine.Timeline.MediaType m_MediaType
     // Size: 0x4
     // Offset: 0x10
-    UnityEngine::Timeline::TimelineAsset::MediaType m_MediaType;
+    ::UnityEngine::Timeline::TimelineAsset::MediaType m_MediaType;
     // Field size check
-    static_assert(sizeof(UnityEngine::Timeline::TimelineAsset::MediaType) == 0x4);
+    static_assert(sizeof(::UnityEngine::Timeline::TimelineAsset::MediaType) == 0x4);
     public:
-    // Creating conversion operator: operator UnityEngine::Timeline::TimelineAsset::MediaType
-    constexpr operator UnityEngine::Timeline::TimelineAsset::MediaType() const noexcept {
+    // Creating conversion operator: operator ::UnityEngine::Timeline::TimelineAsset::MediaType
+    constexpr operator ::UnityEngine::Timeline::TimelineAsset::MediaType() const noexcept {
       return m_MediaType;
     }
     // Get instance field reference: public readonly UnityEngine.Timeline.TimelineAsset/UnityEngine.Timeline.MediaType m_MediaType
-    UnityEngine::Timeline::TimelineAsset::MediaType& dyn_m_MediaType();
+    ::UnityEngine::Timeline::TimelineAsset::MediaType& dyn_m_MediaType();
     // public System.Void .ctor(UnityEngine.Timeline.TimelineAsset/UnityEngine.Timeline.MediaType mt)
     // Offset: 0x2994054
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TrackMediaType* New_ctor(UnityEngine::Timeline::TimelineAsset::MediaType mt) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::TrackMediaType::.ctor");
+    static TrackMediaType* New_ctor(::UnityEngine::Timeline::TimelineAsset::MediaType mt) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Timeline::TrackMediaType::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TrackMediaType*, creationType>(mt)));
     }
   }; // UnityEngine.Timeline.TrackMediaType
   #pragma pack(pop)
-  static check_size<sizeof(TrackMediaType), 16 + sizeof(UnityEngine::Timeline::TimelineAsset::MediaType)> __UnityEngine_Timeline_TrackMediaTypeSizeCheck;
+  static check_size<sizeof(TrackMediaType), 16 + sizeof(::UnityEngine::Timeline::TimelineAsset::MediaType)> __UnityEngine_Timeline_TrackMediaTypeSizeCheck;
   static_assert(sizeof(TrackMediaType) == 0x14);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

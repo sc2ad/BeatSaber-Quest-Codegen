@@ -53,8 +53,8 @@ namespace System::Data {
   class XmlDataLoader;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Data::XmlDataLoader);
-DEFINE_IL2CPP_ARG_TYPE(System::Data::XmlDataLoader*, "System.Data", "XmlDataLoader");
+NEED_NO_BOX(::System::Data::XmlDataLoader);
+DEFINE_IL2CPP_ARG_TYPE(::System::Data::XmlDataLoader*, "System.Data", "XmlDataLoader");
 // Type namespace: System.Data
 namespace System::Data {
   // Size: 0xC8
@@ -75,33 +75,33 @@ namespace System::Data {
     // private System.Data.DataSet _dataSet
     // Size: 0x8
     // Offset: 0x10
-    System::Data::DataSet* dataSet;
+    ::System::Data::DataSet* dataSet;
     // Field size check
-    static_assert(sizeof(System::Data::DataSet*) == 0x8);
+    static_assert(sizeof(::System::Data::DataSet*) == 0x8);
     // private System.Data.XmlToDatasetMap _nodeToSchemaMap
     // Size: 0x8
     // Offset: 0x18
-    System::Data::XmlToDatasetMap* nodeToSchemaMap;
+    ::System::Data::XmlToDatasetMap* nodeToSchemaMap;
     // Field size check
-    static_assert(sizeof(System::Data::XmlToDatasetMap*) == 0x8);
+    static_assert(sizeof(::System::Data::XmlToDatasetMap*) == 0x8);
     // private System.Collections.Hashtable _nodeToRowMap
     // Size: 0x8
     // Offset: 0x20
-    System::Collections::Hashtable* nodeToRowMap;
+    ::System::Collections::Hashtable* nodeToRowMap;
     // Field size check
-    static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
+    static_assert(sizeof(::System::Collections::Hashtable*) == 0x8);
     // private System.Collections.Stack _childRowsStack
     // Size: 0x8
     // Offset: 0x28
-    System::Collections::Stack* childRowsStack;
+    ::System::Collections::Stack* childRowsStack;
     // Field size check
-    static_assert(sizeof(System::Collections::Stack*) == 0x8);
+    static_assert(sizeof(::System::Collections::Stack*) == 0x8);
     // private System.Collections.Hashtable _htableExcludedNS
     // Size: 0x8
     // Offset: 0x30
-    System::Collections::Hashtable* htableExcludedNS;
+    ::System::Collections::Hashtable* htableExcludedNS;
     // Field size check
-    static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
+    static_assert(sizeof(::System::Collections::Hashtable*) == 0x8);
     // private System.Boolean _fIsXdr
     // Size: 0x1
     // Offset: 0x38
@@ -119,9 +119,9 @@ namespace System::Data {
     // private System.Xml.XmlElement _topMostNode
     // Size: 0x8
     // Offset: 0x40
-    System::Xml::XmlElement* topMostNode;
+    ::System::Xml::XmlElement* topMostNode;
     // Field size check
-    static_assert(sizeof(System::Xml::XmlElement*) == 0x8);
+    static_assert(sizeof(::System::Xml::XmlElement*) == 0x8);
     // private System.Boolean _ignoreSchema
     // Size: 0x1
     // Offset: 0x48
@@ -133,9 +133,9 @@ namespace System::Data {
     // private System.Data.DataTable _dataTable
     // Size: 0x8
     // Offset: 0x50
-    System::Data::DataTable* dataTable;
+    ::System::Data::DataTable* dataTable;
     // Field size check
-    static_assert(sizeof(System::Data::DataTable*) == 0x8);
+    static_assert(sizeof(::System::Data::DataTable*) == 0x8);
     // private System.Boolean _isTableLevel
     // Size: 0x1
     // Offset: 0x58
@@ -153,9 +153,9 @@ namespace System::Data {
     // private System.Xml.XmlReader _dataReader
     // Size: 0x8
     // Offset: 0x60
-    System::Xml::XmlReader* dataReader;
+    ::System::Xml::XmlReader* dataReader;
     // Field size check
-    static_assert(sizeof(System::Xml::XmlReader*) == 0x8);
+    static_assert(sizeof(::System::Xml::XmlReader*) == 0x8);
     // private System.Object _XSD_XMLNS_NS
     // Size: 0x8
     // Offset: 0x68
@@ -230,31 +230,31 @@ namespace System::Data {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     public:
     // Get instance field reference: private System.Data.DataSet _dataSet
-    System::Data::DataSet*& dyn__dataSet();
+    ::System::Data::DataSet*& dyn__dataSet();
     // Get instance field reference: private System.Data.XmlToDatasetMap _nodeToSchemaMap
-    System::Data::XmlToDatasetMap*& dyn__nodeToSchemaMap();
+    ::System::Data::XmlToDatasetMap*& dyn__nodeToSchemaMap();
     // Get instance field reference: private System.Collections.Hashtable _nodeToRowMap
-    System::Collections::Hashtable*& dyn__nodeToRowMap();
+    ::System::Collections::Hashtable*& dyn__nodeToRowMap();
     // Get instance field reference: private System.Collections.Stack _childRowsStack
-    System::Collections::Stack*& dyn__childRowsStack();
+    ::System::Collections::Stack*& dyn__childRowsStack();
     // Get instance field reference: private System.Collections.Hashtable _htableExcludedNS
-    System::Collections::Hashtable*& dyn__htableExcludedNS();
+    ::System::Collections::Hashtable*& dyn__htableExcludedNS();
     // Get instance field reference: private System.Boolean _fIsXdr
     bool& dyn__fIsXdr();
     // Get instance field reference: System.Boolean _isDiffgram
     bool& dyn__isDiffgram();
     // Get instance field reference: private System.Xml.XmlElement _topMostNode
-    System::Xml::XmlElement*& dyn__topMostNode();
+    ::System::Xml::XmlElement*& dyn__topMostNode();
     // Get instance field reference: private System.Boolean _ignoreSchema
     bool& dyn__ignoreSchema();
     // Get instance field reference: private System.Data.DataTable _dataTable
-    System::Data::DataTable*& dyn__dataTable();
+    ::System::Data::DataTable*& dyn__dataTable();
     // Get instance field reference: private System.Boolean _isTableLevel
     bool& dyn__isTableLevel();
     // Get instance field reference: private System.Boolean _fromInference
     bool& dyn__fromInference();
     // Get instance field reference: private System.Xml.XmlReader _dataReader
-    System::Xml::XmlReader*& dyn__dataReader();
+    ::System::Xml::XmlReader*& dyn__dataReader();
     // Get instance field reference: private System.Object _XSD_XMLNS_NS
     ::Il2CppObject*& dyn__XSD_XMLNS_NS();
     // Get instance field reference: private System.Object _XDR_SCHEMA
@@ -288,94 +288,94 @@ namespace System::Data {
     // System.Void .ctor(System.Data.DataSet dataset, System.Boolean IsXdr, System.Boolean ignoreSchema)
     // Offset: 0x240C870
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlDataLoader* New_ctor(System::Data::DataSet* dataset, bool IsXdr, bool ignoreSchema) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Data::XmlDataLoader::.ctor");
+    static XmlDataLoader* New_ctor(::System::Data::DataSet* dataset, bool IsXdr, bool ignoreSchema) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Data::XmlDataLoader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlDataLoader*, creationType>(dataset, IsXdr, ignoreSchema)));
     }
     // System.Void .ctor(System.Data.DataSet dataset, System.Boolean IsXdr, System.Xml.XmlElement topNode, System.Boolean ignoreSchema)
     // Offset: 0x240C90C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlDataLoader* New_ctor(System::Data::DataSet* dataset, bool IsXdr, System::Xml::XmlElement* topNode, bool ignoreSchema) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Data::XmlDataLoader::.ctor");
+    static XmlDataLoader* New_ctor(::System::Data::DataSet* dataset, bool IsXdr, ::System::Xml::XmlElement* topNode, bool ignoreSchema) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Data::XmlDataLoader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlDataLoader*, creationType>(dataset, IsXdr, topNode, ignoreSchema)));
     }
     // System.Void .ctor(System.Data.DataTable datatable, System.Boolean IsXdr, System.Boolean ignoreSchema)
     // Offset: 0x240C9D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlDataLoader* New_ctor(System::Data::DataTable* datatable, bool IsXdr, bool ignoreSchema) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Data::XmlDataLoader::.ctor");
+    static XmlDataLoader* New_ctor(::System::Data::DataTable* datatable, bool IsXdr, bool ignoreSchema) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Data::XmlDataLoader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlDataLoader*, creationType>(datatable, IsXdr, ignoreSchema)));
     }
     // System.Void .ctor(System.Data.DataTable datatable, System.Boolean IsXdr, System.Xml.XmlElement topNode, System.Boolean ignoreSchema)
     // Offset: 0x240CA7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlDataLoader* New_ctor(System::Data::DataTable* datatable, bool IsXdr, System::Xml::XmlElement* topNode, bool ignoreSchema) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Data::XmlDataLoader::.ctor");
+    static XmlDataLoader* New_ctor(::System::Data::DataTable* datatable, bool IsXdr, ::System::Xml::XmlElement* topNode, bool ignoreSchema) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Data::XmlDataLoader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlDataLoader*, creationType>(datatable, IsXdr, topNode, ignoreSchema)));
     }
     // private System.Void AttachRows(System.Data.DataRow parentRow, System.Xml.XmlNode parentElement)
     // Offset: 0x240CB64
-    void AttachRows(System::Data::DataRow* parentRow, System::Xml::XmlNode* parentElement);
+    void AttachRows(::System::Data::DataRow* parentRow, ::System::Xml::XmlNode* parentElement);
     // private System.Int32 CountNonNSAttributes(System.Xml.XmlNode node)
     // Offset: 0x240CD78
-    int CountNonNSAttributes(System::Xml::XmlNode* node);
+    int CountNonNSAttributes(::System::Xml::XmlNode* node);
     // private System.String GetValueForTextOnlyColums(System.Xml.XmlNode n)
     // Offset: 0x240CF10
-    ::StringW GetValueForTextOnlyColums(System::Xml::XmlNode* n);
+    ::StringW GetValueForTextOnlyColums(::System::Xml::XmlNode* n);
     // private System.String GetInitialTextFromNodes(ref System.Xml.XmlNode n)
     // Offset: 0x240D15C
-    ::StringW GetInitialTextFromNodes(ByRef<System::Xml::XmlNode*> n);
+    ::StringW GetInitialTextFromNodes(ByRef<::System::Xml::XmlNode*> n);
     // private System.Data.DataColumn GetTextOnlyColumn(System.Data.DataRow row)
     // Offset: 0x240D334
-    System::Data::DataColumn* GetTextOnlyColumn(System::Data::DataRow* row);
+    ::System::Data::DataColumn* GetTextOnlyColumn(::System::Data::DataRow* row);
     // System.Data.DataRow GetRowFromElement(System.Xml.XmlElement e)
     // Offset: 0x240CCD0
-    System::Data::DataRow* GetRowFromElement(System::Xml::XmlElement* e);
+    ::System::Data::DataRow* GetRowFromElement(::System::Xml::XmlElement* e);
     // System.Boolean FColumnElement(System.Xml.XmlElement e)
     // Offset: 0x240D3FC
-    bool FColumnElement(System::Xml::XmlElement* e);
+    bool FColumnElement(::System::Xml::XmlElement* e);
     // private System.Boolean FExcludedNamespace(System.String ns)
     // Offset: 0x240CE70
     bool FExcludedNamespace(::StringW ns);
     // private System.Boolean FIgnoreNamespace(System.Xml.XmlNode node)
     // Offset: 0x240D4F4
-    bool FIgnoreNamespace(System::Xml::XmlNode* node);
+    bool FIgnoreNamespace(::System::Xml::XmlNode* node);
     // private System.Boolean FIgnoreNamespace(System.Xml.XmlReader node)
     // Offset: 0x240D7AC
-    bool FIgnoreNamespace(System::Xml::XmlReader* node);
+    bool FIgnoreNamespace(::System::Xml::XmlReader* node);
     // System.Boolean IsTextLikeNode(System.Xml.XmlNodeType n)
     // Offset: 0x240D0DC
-    bool IsTextLikeNode(System::Xml::XmlNodeType n);
+    bool IsTextLikeNode(::System::Xml::XmlNodeType n);
     // System.Boolean IsTextOnly(System.Data.DataColumn c)
     // Offset: 0x240D3CC
-    bool IsTextOnly(System::Data::DataColumn* c);
+    bool IsTextOnly(::System::Data::DataColumn* c);
     // System.Void LoadData(System.Xml.XmlDocument xdoc)
     // Offset: 0x240D844
-    void LoadData(System::Xml::XmlDocument* xdoc);
+    void LoadData(::System::Xml::XmlDocument* xdoc);
     // private System.Void LoadRowData(System.Data.DataRow row, System.Xml.XmlElement rowElement)
     // Offset: 0x240DCA4
-    void LoadRowData(System::Data::DataRow* row, System::Xml::XmlElement* rowElement);
+    void LoadRowData(::System::Data::DataRow* row, ::System::Xml::XmlElement* rowElement);
     // private System.Void LoadRows(System.Data.DataRow parentRow, System.Xml.XmlNode parentElement)
     // Offset: 0x240E840
-    void LoadRows(System::Data::DataRow* parentRow, System::Xml::XmlNode* parentElement);
+    void LoadRows(::System::Data::DataRow* parentRow, ::System::Xml::XmlNode* parentElement);
     // private System.Void SetRowValueFromXmlText(System.Data.DataRow row, System.Data.DataColumn col, System.String xmlText)
     // Offset: 0x240EB3C
-    void SetRowValueFromXmlText(System::Data::DataRow* row, System::Data::DataColumn* col, ::StringW xmlText);
+    void SetRowValueFromXmlText(::System::Data::DataRow* row, ::System::Data::DataColumn* col, ::StringW xmlText);
     // private System.Void InitNameTable()
     // Offset: 0x240EBB4
     void InitNameTable();
     // System.Void LoadData(System.Xml.XmlReader reader)
     // Offset: 0x240ED94
-    void LoadData(System::Xml::XmlReader* reader);
+    void LoadData(::System::Xml::XmlReader* reader);
     // private System.Void LoadTopMostTable(System.Data.DataTable table)
     // Offset: 0x240F13C
-    void LoadTopMostTable(System::Data::DataTable* table);
+    void LoadTopMostTable(::System::Data::DataTable* table);
     // private System.Void LoadTable(System.Data.DataTable table, System.Boolean isNested)
     // Offset: 0x240FC98
-    void LoadTable(System::Data::DataTable* table, bool isNested);
+    void LoadTable(::System::Data::DataTable* table, bool isNested);
     // private System.Void LoadColumn(System.Data.DataColumn column, System.Object[] foundColumns)
     // Offset: 0x2410A0C
-    void LoadColumn(System::Data::DataColumn* column, ::ArrayW<::Il2CppObject*> foundColumns);
+    void LoadColumn(::System::Data::DataColumn* column, ::ArrayW<::Il2CppObject*> foundColumns);
     // private System.Boolean ProcessXsdSchema()
     // Offset: 0x240FA7C
     bool ProcessXsdSchema();
@@ -421,7 +421,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::XmlDataLoader::AttachRows
 // Il2CppName: AttachRows
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XmlDataLoader::*)(System::Data::DataRow*, System::Xml::XmlNode*)>(&System::Data::XmlDataLoader::AttachRows)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XmlDataLoader::*)(::System::Data::DataRow*, ::System::Xml::XmlNode*)>(&System::Data::XmlDataLoader::AttachRows)> {
   static const MethodInfo* get() {
     static auto* parentRow = &::il2cpp_utils::GetClassFromName("System.Data", "DataRow")->byval_arg;
     static auto* parentElement = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNode")->byval_arg;
@@ -431,7 +431,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::XmlDataLoader::CountNonNSAttributes
 // Il2CppName: CountNonNSAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Data::XmlDataLoader::*)(System::Xml::XmlNode*)>(&System::Data::XmlDataLoader::CountNonNSAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Data::XmlDataLoader::*)(::System::Xml::XmlNode*)>(&System::Data::XmlDataLoader::CountNonNSAttributes)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::XmlDataLoader*), "CountNonNSAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node});
@@ -440,7 +440,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Data::XmlDataLoader::GetValueForTextOnlyColums
 // Il2CppName: GetValueForTextOnlyColums
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Data::XmlDataLoader::*)(System::Xml::XmlNode*)>(&System::Data::XmlDataLoader::GetValueForTextOnlyColums)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Data::XmlDataLoader::*)(::System::Xml::XmlNode*)>(&System::Data::XmlDataLoader::GetValueForTextOnlyColums)> {
   static const MethodInfo* get() {
     static auto* n = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::XmlDataLoader*), "GetValueForTextOnlyColums", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{n});
@@ -449,7 +449,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Data::XmlDataLoader::GetInitialTextFromNodes
 // Il2CppName: GetInitialTextFromNodes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Data::XmlDataLoader::*)(ByRef<System::Xml::XmlNode*>)>(&System::Data::XmlDataLoader::GetInitialTextFromNodes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Data::XmlDataLoader::*)(ByRef<::System::Xml::XmlNode*>)>(&System::Data::XmlDataLoader::GetInitialTextFromNodes)> {
   static const MethodInfo* get() {
     static auto* n = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNode")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::XmlDataLoader*), "GetInitialTextFromNodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{n});
@@ -458,7 +458,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Data::XmlDataLoader::GetTextOnlyColumn
 // Il2CppName: GetTextOnlyColumn
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::DataColumn* (System::Data::XmlDataLoader::*)(System::Data::DataRow*)>(&System::Data::XmlDataLoader::GetTextOnlyColumn)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataColumn* (System::Data::XmlDataLoader::*)(::System::Data::DataRow*)>(&System::Data::XmlDataLoader::GetTextOnlyColumn)> {
   static const MethodInfo* get() {
     static auto* row = &::il2cpp_utils::GetClassFromName("System.Data", "DataRow")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::XmlDataLoader*), "GetTextOnlyColumn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{row});
@@ -467,7 +467,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::XmlDataLoader::GetRowFromElement
 // Il2CppName: GetRowFromElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::DataRow* (System::Data::XmlDataLoader::*)(System::Xml::XmlElement*)>(&System::Data::XmlDataLoader::GetRowFromElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataRow* (System::Data::XmlDataLoader::*)(::System::Xml::XmlElement*)>(&System::Data::XmlDataLoader::GetRowFromElement)> {
   static const MethodInfo* get() {
     static auto* e = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlElement")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::XmlDataLoader*), "GetRowFromElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{e});
@@ -476,7 +476,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::XmlDataLoader::FColumnElement
 // Il2CppName: FColumnElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Data::XmlDataLoader::*)(System::Xml::XmlElement*)>(&System::Data::XmlDataLoader::FColumnElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Data::XmlDataLoader::*)(::System::Xml::XmlElement*)>(&System::Data::XmlDataLoader::FColumnElement)> {
   static const MethodInfo* get() {
     static auto* e = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlElement")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::XmlDataLoader*), "FColumnElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{e});
@@ -494,7 +494,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Data::XmlDataLoader::FIgnoreNamespace
 // Il2CppName: FIgnoreNamespace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Data::XmlDataLoader::*)(System::Xml::XmlNode*)>(&System::Data::XmlDataLoader::FIgnoreNamespace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Data::XmlDataLoader::*)(::System::Xml::XmlNode*)>(&System::Data::XmlDataLoader::FIgnoreNamespace)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::XmlDataLoader*), "FIgnoreNamespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node});
@@ -503,7 +503,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Data::XmlDataLoader::FIgnoreNamespace
 // Il2CppName: FIgnoreNamespace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Data::XmlDataLoader::*)(System::Xml::XmlReader*)>(&System::Data::XmlDataLoader::FIgnoreNamespace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Data::XmlDataLoader::*)(::System::Xml::XmlReader*)>(&System::Data::XmlDataLoader::FIgnoreNamespace)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlReader")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::XmlDataLoader*), "FIgnoreNamespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node});
@@ -512,7 +512,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Data::XmlDataLoader::IsTextLikeNode
 // Il2CppName: IsTextLikeNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Data::XmlDataLoader::*)(System::Xml::XmlNodeType)>(&System::Data::XmlDataLoader::IsTextLikeNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Data::XmlDataLoader::*)(::System::Xml::XmlNodeType)>(&System::Data::XmlDataLoader::IsTextLikeNode)> {
   static const MethodInfo* get() {
     static auto* n = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNodeType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::XmlDataLoader*), "IsTextLikeNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{n});
@@ -521,7 +521,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Data::XmlDataLoader::IsTextOnly
 // Il2CppName: IsTextOnly
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Data::XmlDataLoader::*)(System::Data::DataColumn*)>(&System::Data::XmlDataLoader::IsTextOnly)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Data::XmlDataLoader::*)(::System::Data::DataColumn*)>(&System::Data::XmlDataLoader::IsTextOnly)> {
   static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("System.Data", "DataColumn")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::XmlDataLoader*), "IsTextOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
@@ -530,7 +530,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Data::XmlDataLoader::LoadData
 // Il2CppName: LoadData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XmlDataLoader::*)(System::Xml::XmlDocument*)>(&System::Data::XmlDataLoader::LoadData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XmlDataLoader::*)(::System::Xml::XmlDocument*)>(&System::Data::XmlDataLoader::LoadData)> {
   static const MethodInfo* get() {
     static auto* xdoc = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlDocument")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::XmlDataLoader*), "LoadData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{xdoc});
@@ -539,7 +539,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::XmlDataLoader::LoadRowData
 // Il2CppName: LoadRowData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XmlDataLoader::*)(System::Data::DataRow*, System::Xml::XmlElement*)>(&System::Data::XmlDataLoader::LoadRowData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XmlDataLoader::*)(::System::Data::DataRow*, ::System::Xml::XmlElement*)>(&System::Data::XmlDataLoader::LoadRowData)> {
   static const MethodInfo* get() {
     static auto* row = &::il2cpp_utils::GetClassFromName("System.Data", "DataRow")->byval_arg;
     static auto* rowElement = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlElement")->byval_arg;
@@ -549,7 +549,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::XmlDataLoader::LoadRows
 // Il2CppName: LoadRows
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XmlDataLoader::*)(System::Data::DataRow*, System::Xml::XmlNode*)>(&System::Data::XmlDataLoader::LoadRows)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XmlDataLoader::*)(::System::Data::DataRow*, ::System::Xml::XmlNode*)>(&System::Data::XmlDataLoader::LoadRows)> {
   static const MethodInfo* get() {
     static auto* parentRow = &::il2cpp_utils::GetClassFromName("System.Data", "DataRow")->byval_arg;
     static auto* parentElement = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNode")->byval_arg;
@@ -559,7 +559,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::XmlDataLoader::SetRowValueFromXmlText
 // Il2CppName: SetRowValueFromXmlText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XmlDataLoader::*)(System::Data::DataRow*, System::Data::DataColumn*, ::StringW)>(&System::Data::XmlDataLoader::SetRowValueFromXmlText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XmlDataLoader::*)(::System::Data::DataRow*, ::System::Data::DataColumn*, ::StringW)>(&System::Data::XmlDataLoader::SetRowValueFromXmlText)> {
   static const MethodInfo* get() {
     static auto* row = &::il2cpp_utils::GetClassFromName("System.Data", "DataRow")->byval_arg;
     static auto* col = &::il2cpp_utils::GetClassFromName("System.Data", "DataColumn")->byval_arg;
@@ -578,7 +578,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::XmlDataLoader::LoadData
 // Il2CppName: LoadData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XmlDataLoader::*)(System::Xml::XmlReader*)>(&System::Data::XmlDataLoader::LoadData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XmlDataLoader::*)(::System::Xml::XmlReader*)>(&System::Data::XmlDataLoader::LoadData)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlReader")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::XmlDataLoader*), "LoadData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader});
@@ -587,7 +587,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::XmlDataLoader::LoadTopMostTable
 // Il2CppName: LoadTopMostTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XmlDataLoader::*)(System::Data::DataTable*)>(&System::Data::XmlDataLoader::LoadTopMostTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XmlDataLoader::*)(::System::Data::DataTable*)>(&System::Data::XmlDataLoader::LoadTopMostTable)> {
   static const MethodInfo* get() {
     static auto* table = &::il2cpp_utils::GetClassFromName("System.Data", "DataTable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::XmlDataLoader*), "LoadTopMostTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{table});
@@ -596,7 +596,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::XmlDataLoader::LoadTable
 // Il2CppName: LoadTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XmlDataLoader::*)(System::Data::DataTable*, bool)>(&System::Data::XmlDataLoader::LoadTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XmlDataLoader::*)(::System::Data::DataTable*, bool)>(&System::Data::XmlDataLoader::LoadTable)> {
   static const MethodInfo* get() {
     static auto* table = &::il2cpp_utils::GetClassFromName("System.Data", "DataTable")->byval_arg;
     static auto* isNested = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -606,7 +606,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::XmlDataLoader::LoadColumn
 // Il2CppName: LoadColumn
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XmlDataLoader::*)(System::Data::DataColumn*, ::ArrayW<::Il2CppObject*>)>(&System::Data::XmlDataLoader::LoadColumn)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XmlDataLoader::*)(::System::Data::DataColumn*, ::ArrayW<::Il2CppObject*>)>(&System::Data::XmlDataLoader::LoadColumn)> {
   static const MethodInfo* get() {
     static auto* column = &::il2cpp_utils::GetClassFromName("System.Data", "DataColumn")->byval_arg;
     static auto* foundColumns = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;

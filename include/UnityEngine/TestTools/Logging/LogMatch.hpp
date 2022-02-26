@@ -37,8 +37,8 @@ namespace UnityEngine::TestTools::Logging {
   class LogMatch;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::TestTools::Logging::LogMatch);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Logging::LogMatch*, "UnityEngine.TestTools.Logging", "LogMatch");
+NEED_NO_BOX(::UnityEngine::TestTools::Logging::LogMatch);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TestTools::Logging::LogMatch*, "UnityEngine.TestTools.Logging", "LogMatch");
 // Type namespace: UnityEngine.TestTools.Logging
 namespace UnityEngine::TestTools::Logging {
   // Size: 0x30
@@ -96,20 +96,20 @@ namespace UnityEngine::TestTools::Logging {
     ::StringW get_Message();
     // public System.Text.RegularExpressions.Regex get_MessageRegex()
     // Offset: 0x18D8CCC
-    System::Text::RegularExpressions::Regex* get_MessageRegex();
+    ::System::Text::RegularExpressions::Regex* get_MessageRegex();
     // public System.Nullable`1<UnityEngine.LogType> get_LogType()
     // Offset: 0x18D8D44
-    System::Nullable_1<UnityEngine::LogType> get_LogType();
+    ::System::Nullable_1<::UnityEngine::LogType> get_LogType();
     // public System.Boolean Matches(UnityEngine.TestTools.Logging.LogEvent log)
     // Offset: 0x18D8E60
-    bool Matches(UnityEngine::TestTools::Logging::LogEvent* log);
+    bool Matches(::UnityEngine::TestTools::Logging::LogEvent* log);
     // public System.Void .ctor()
     // Offset: 0x18D9000
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LogMatch* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::Logging::LogMatch::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::Logging::LogMatch::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LogMatch*, creationType>()));
     }
     // public override System.String ToString()
@@ -134,7 +134,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogMatch::get_MessageRegex
 // Il2CppName: get_MessageRegex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::Regex* (UnityEngine::TestTools::Logging::LogMatch::*)()>(&UnityEngine::TestTools::Logging::LogMatch::get_MessageRegex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::Regex* (UnityEngine::TestTools::Logging::LogMatch::*)()>(&UnityEngine::TestTools::Logging::LogMatch::get_MessageRegex)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogMatch*), "get_MessageRegex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -142,7 +142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogMatch::get_LogType
 // Il2CppName: get_LogType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<UnityEngine::LogType> (UnityEngine::TestTools::Logging::LogMatch::*)()>(&UnityEngine::TestTools::Logging::LogMatch::get_LogType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::UnityEngine::LogType> (UnityEngine::TestTools::Logging::LogMatch::*)()>(&UnityEngine::TestTools::Logging::LogMatch::get_LogType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogMatch*), "get_LogType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -150,7 +150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nul
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogMatch::Matches
 // Il2CppName: Matches
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TestTools::Logging::LogMatch::*)(UnityEngine::TestTools::Logging::LogEvent*)>(&UnityEngine::TestTools::Logging::LogMatch::Matches)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TestTools::Logging::LogMatch::*)(::UnityEngine::TestTools::Logging::LogEvent*)>(&UnityEngine::TestTools::Logging::LogMatch::Matches)> {
   static const MethodInfo* get() {
     static auto* log = &::il2cpp_utils::GetClassFromName("UnityEngine.TestTools.Logging", "LogEvent")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogMatch*), "Matches", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{log});

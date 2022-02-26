@@ -38,8 +38,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog*, "UnityEngine.AddressableAssets.ResourceProviders", "ContentCatalogProvider/InternalOp/BundledCatalog");
+NEED_NO_BOX(::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog*, "UnityEngine.AddressableAssets.ResourceProviders", "ContentCatalogProvider/InternalOp/BundledCatalog");
 // Type namespace: UnityEngine.AddressableAssets.ResourceProviders
 namespace UnityEngine::AddressableAssets::ResourceProviders {
   // Size: 0x48
@@ -74,48 +74,48 @@ namespace UnityEngine::AddressableAssets::ResourceProviders {
     // private UnityEngine.AssetBundleCreateRequest m_LoadBundleRequest
     // Size: 0x8
     // Offset: 0x20
-    UnityEngine::AssetBundleCreateRequest* m_LoadBundleRequest;
+    ::UnityEngine::AssetBundleCreateRequest* m_LoadBundleRequest;
     // Field size check
-    static_assert(sizeof(UnityEngine::AssetBundleCreateRequest*) == 0x8);
+    static_assert(sizeof(::UnityEngine::AssetBundleCreateRequest*) == 0x8);
     // UnityEngine.AssetBundle m_CatalogAssetBundle
     // Size: 0x8
     // Offset: 0x28
-    UnityEngine::AssetBundle* m_CatalogAssetBundle;
+    ::UnityEngine::AssetBundle* m_CatalogAssetBundle;
     // Field size check
-    static_assert(sizeof(UnityEngine::AssetBundle*) == 0x8);
+    static_assert(sizeof(::UnityEngine::AssetBundle*) == 0x8);
     // private UnityEngine.AssetBundleRequest m_LoadTextAssetRequest
     // Size: 0x8
     // Offset: 0x30
-    UnityEngine::AssetBundleRequest* m_LoadTextAssetRequest;
+    ::UnityEngine::AssetBundleRequest* m_LoadTextAssetRequest;
     // Field size check
-    static_assert(sizeof(UnityEngine::AssetBundleRequest*) == 0x8);
+    static_assert(sizeof(::UnityEngine::AssetBundleRequest*) == 0x8);
     // private UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData m_CatalogData
     // Size: 0x8
     // Offset: 0x38
-    UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData* m_CatalogData;
+    ::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData* m_CatalogData;
     // Field size check
-    static_assert(sizeof(UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*) == 0x8);
+    static_assert(sizeof(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*) == 0x8);
     // private System.Action`1<UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData> OnLoaded
     // Size: 0x8
     // Offset: 0x40
-    System::Action_1<UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>* OnLoaded;
+    ::System::Action_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>* OnLoaded;
     // Field size check
-    static_assert(sizeof(System::Action_1<UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>*) == 0x8);
+    static_assert(sizeof(::System::Action_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>*) == 0x8);
     public:
     // Get instance field reference: private readonly System.String m_BundlePath
     ::StringW& dyn_m_BundlePath();
     // Get instance field reference: private System.Boolean m_OpInProgress
     bool& dyn_m_OpInProgress();
     // Get instance field reference: private UnityEngine.AssetBundleCreateRequest m_LoadBundleRequest
-    UnityEngine::AssetBundleCreateRequest*& dyn_m_LoadBundleRequest();
+    ::UnityEngine::AssetBundleCreateRequest*& dyn_m_LoadBundleRequest();
     // Get instance field reference: UnityEngine.AssetBundle m_CatalogAssetBundle
-    UnityEngine::AssetBundle*& dyn_m_CatalogAssetBundle();
+    ::UnityEngine::AssetBundle*& dyn_m_CatalogAssetBundle();
     // Get instance field reference: private UnityEngine.AssetBundleRequest m_LoadTextAssetRequest
-    UnityEngine::AssetBundleRequest*& dyn_m_LoadTextAssetRequest();
+    ::UnityEngine::AssetBundleRequest*& dyn_m_LoadTextAssetRequest();
     // Get instance field reference: private UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData m_CatalogData
-    UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*& dyn_m_CatalogData();
+    ::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*& dyn_m_CatalogData();
     // Get instance field reference: private System.Action`1<UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData> OnLoaded
-    System::Action_1<UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>*& dyn_OnLoaded();
+    ::System::Action_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>*& dyn_OnLoaded();
     // public System.Boolean get_OpInProgress()
     // Offset: 0x17EAFB0
     bool get_OpInProgress();
@@ -124,15 +124,15 @@ namespace UnityEngine::AddressableAssets::ResourceProviders {
     bool get_OpIsSuccess();
     // public System.Void add_OnLoaded(System.Action`1<UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData> value)
     // Offset: 0x17EAADC
-    void add_OnLoaded(System::Action_1<UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>* value);
+    void add_OnLoaded(::System::Action_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>* value);
     // public System.Void remove_OnLoaded(System.Action`1<UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData> value)
     // Offset: 0x17EAF0C
-    void remove_OnLoaded(System::Action_1<UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>* value);
+    void remove_OnLoaded(::System::Action_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>* value);
     // public System.Void .ctor(System.String bundlePath)
     // Offset: 0x17EA9D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContentCatalogProvider::InternalOp::BundledCatalog* New_ctor(::StringW bundlePath) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContentCatalogProvider::InternalOp::BundledCatalog*, creationType>(bundlePath)));
     }
     // private System.Void Unload()
@@ -143,13 +143,13 @@ namespace UnityEngine::AddressableAssets::ResourceProviders {
     void LoadCatalogFromBundleAsync();
     // private System.Void LoadTextAssetRequestComplete(UnityEngine.AsyncOperation op)
     // Offset: 0x17EB088
-    void LoadTextAssetRequestComplete(UnityEngine::AsyncOperation* op);
+    void LoadTextAssetRequestComplete(::UnityEngine::AsyncOperation* op);
     // public System.Boolean WaitForCompletion()
     // Offset: 0x17EA8D4
     bool WaitForCompletion();
     // private System.Void <LoadCatalogFromBundleAsync>b__16_0(UnityEngine.AsyncOperation loadOp)
     // Offset: 0x17EB20C
-    void $LoadCatalogFromBundleAsync$b__16_0(UnityEngine::AsyncOperation* loadOp);
+    void $LoadCatalogFromBundleAsync$b__16_0(::UnityEngine::AsyncOperation* loadOp);
     // protected override System.Void Finalize()
     // Offset: 0x17EAFD8
     // Implemented from: System.Object
@@ -157,7 +157,7 @@ namespace UnityEngine::AddressableAssets::ResourceProviders {
     void Finalize();
   }; // UnityEngine.AddressableAssets.ResourceProviders.ContentCatalogProvider/UnityEngine.AddressableAssets.ResourceProviders.InternalOp/UnityEngine.AddressableAssets.ResourceProviders.BundledCatalog
   #pragma pack(pop)
-  static check_size<sizeof(ContentCatalogProvider::InternalOp::BundledCatalog), 64 + sizeof(System::Action_1<UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>*)> __UnityEngine_AddressableAssets_ResourceProviders_ContentCatalogProvider_InternalOp_BundledCatalogSizeCheck;
+  static check_size<sizeof(ContentCatalogProvider::InternalOp::BundledCatalog), 64 + sizeof(::System::Action_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>*)> __UnityEngine_AddressableAssets_ResourceProviders_ContentCatalogProvider_InternalOp_BundledCatalogSizeCheck;
   static_assert(sizeof(ContentCatalogProvider::InternalOp::BundledCatalog) == 0x48);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -180,7 +180,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog::add_OnLoaded
 // Il2CppName: add_OnLoaded
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog::*)(System::Action_1<UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>*)>(&UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog::add_OnLoaded)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog::*)(::System::Action_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>*)>(&UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog::add_OnLoaded)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.AddressableAssets.ResourceLocators", "ContentCatalogData")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog*), "add_OnLoaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -189,7 +189,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog::remove_OnLoaded
 // Il2CppName: remove_OnLoaded
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog::*)(System::Action_1<UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>*)>(&UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog::remove_OnLoaded)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog::*)(::System::Action_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>*)>(&UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog::remove_OnLoaded)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.AddressableAssets.ResourceLocators", "ContentCatalogData")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog*), "remove_OnLoaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -218,7 +218,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog::LoadTextAssetRequestComplete
 // Il2CppName: LoadTextAssetRequestComplete
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog::*)(UnityEngine::AsyncOperation*)>(&UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog::LoadTextAssetRequestComplete)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog::*)(::UnityEngine::AsyncOperation*)>(&UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog::LoadTextAssetRequestComplete)> {
   static const MethodInfo* get() {
     static auto* op = &::il2cpp_utils::GetClassFromName("UnityEngine", "AsyncOperation")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog*), "LoadTextAssetRequestComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{op});
@@ -235,7 +235,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog::$LoadCatalogFromBundleAsync$b__16_0
 // Il2CppName: <LoadCatalogFromBundleAsync>b__16_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog::*)(UnityEngine::AsyncOperation*)>(&UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog::$LoadCatalogFromBundleAsync$b__16_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog::*)(::UnityEngine::AsyncOperation*)>(&UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog::$LoadCatalogFromBundleAsync$b__16_0)> {
   static const MethodInfo* get() {
     static auto* loadOp = &::il2cpp_utils::GetClassFromName("UnityEngine", "AsyncOperation")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog*), "<LoadCatalogFromBundleAsync>b__16_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{loadOp});

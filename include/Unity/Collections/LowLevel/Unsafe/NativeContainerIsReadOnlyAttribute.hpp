@@ -14,8 +14,8 @@ namespace Unity::Collections::LowLevel::Unsafe {
   class NativeContainerIsReadOnlyAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Unity::Collections::LowLevel::Unsafe::NativeContainerIsReadOnlyAttribute);
-DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::LowLevel::Unsafe::NativeContainerIsReadOnlyAttribute*, "Unity.Collections.LowLevel.Unsafe", "NativeContainerIsReadOnlyAttribute");
+NEED_NO_BOX(::Unity::Collections::LowLevel::Unsafe::NativeContainerIsReadOnlyAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::Unity::Collections::LowLevel::Unsafe::NativeContainerIsReadOnlyAttribute*, "Unity.Collections.LowLevel.Unsafe", "NativeContainerIsReadOnlyAttribute");
 // Type namespace: Unity.Collections.LowLevel.Unsafe
 namespace Unity::Collections::LowLevel::Unsafe {
   // Size: 0x10
@@ -24,7 +24,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
   // [TokenAttribute] Offset: FFFFFFFF
   // [RequiredByNativeCodeAttribute] Offset: 11A332C
   // [AttributeUsageAttribute] Offset: 11A332C
-  class NativeContainerIsReadOnlyAttribute : public System::Attribute {
+  class NativeContainerIsReadOnlyAttribute : public ::System::Attribute {
     public:
   }; // Unity.Collections.LowLevel.Unsafe.NativeContainerIsReadOnlyAttribute
   #pragma pack(pop)

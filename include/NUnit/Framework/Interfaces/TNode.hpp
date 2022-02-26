@@ -36,8 +36,8 @@ namespace NUnit::Framework::Interfaces {
   class TNode;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Interfaces::TNode);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::TNode*, "NUnit.Framework.Interfaces", "TNode");
+NEED_NO_BOX(::NUnit::Framework::Interfaces::TNode);
+DEFINE_IL2CPP_ARG_TYPE(::NUnit::Framework::Interfaces::TNode*, "NUnit.Framework.Interfaces", "TNode");
 // Type namespace: NUnit.Framework.Interfaces
 namespace NUnit::Framework::Interfaces {
   // Size: 0x38
@@ -46,7 +46,7 @@ namespace NUnit::Framework::Interfaces {
   // [TokenAttribute] Offset: FFFFFFFF
   class TNode : public ::Il2CppObject {
     public:
-    // Nested type: NUnit::Framework::Interfaces::TNode::$$c
+    // Nested type: ::NUnit::Framework::Interfaces::TNode::$$c
     class $$c;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -84,21 +84,21 @@ namespace NUnit::Framework::Interfaces {
     // private NUnit.Framework.Interfaces.AttributeDictionary <Attributes>k__BackingField
     // Size: 0x8
     // Offset: 0x28
-    NUnit::Framework::Interfaces::AttributeDictionary* Attributes;
+    ::NUnit::Framework::Interfaces::AttributeDictionary* Attributes;
     // Field size check
-    static_assert(sizeof(NUnit::Framework::Interfaces::AttributeDictionary*) == 0x8);
+    static_assert(sizeof(::NUnit::Framework::Interfaces::AttributeDictionary*) == 0x8);
     // [DebuggerBrowsableAttribute] Offset: 0x1236D2C
     // private NUnit.Framework.Interfaces.NodeList <ChildNodes>k__BackingField
     // Size: 0x8
     // Offset: 0x30
-    NUnit::Framework::Interfaces::NodeList* ChildNodes;
+    ::NUnit::Framework::Interfaces::NodeList* ChildNodes;
     // Field size check
-    static_assert(sizeof(NUnit::Framework::Interfaces::NodeList*) == 0x8);
+    static_assert(sizeof(::NUnit::Framework::Interfaces::NodeList*) == 0x8);
     public:
     // Get static field: static private readonly System.Text.RegularExpressions.Regex InvalidXmlCharactersRegex
-    static System::Text::RegularExpressions::Regex* _get_InvalidXmlCharactersRegex();
+    static ::System::Text::RegularExpressions::Regex* _get_InvalidXmlCharactersRegex();
     // Set static field: static private readonly System.Text.RegularExpressions.Regex InvalidXmlCharactersRegex
-    static void _set_InvalidXmlCharactersRegex(System::Text::RegularExpressions::Regex* value);
+    static void _set_InvalidXmlCharactersRegex(::System::Text::RegularExpressions::Regex* value);
     // Get instance field reference: private System.String <Name>k__BackingField
     ::StringW& dyn_$Name$k__BackingField();
     // Get instance field reference: private System.String <Value>k__BackingField
@@ -106,9 +106,9 @@ namespace NUnit::Framework::Interfaces {
     // Get instance field reference: private System.Boolean <ValueIsCDATA>k__BackingField
     bool& dyn_$ValueIsCDATA$k__BackingField();
     // Get instance field reference: private NUnit.Framework.Interfaces.AttributeDictionary <Attributes>k__BackingField
-    NUnit::Framework::Interfaces::AttributeDictionary*& dyn_$Attributes$k__BackingField();
+    ::NUnit::Framework::Interfaces::AttributeDictionary*& dyn_$Attributes$k__BackingField();
     // Get instance field reference: private NUnit.Framework.Interfaces.NodeList <ChildNodes>k__BackingField
-    NUnit::Framework::Interfaces::NodeList*& dyn_$ChildNodes$k__BackingField();
+    ::NUnit::Framework::Interfaces::NodeList*& dyn_$ChildNodes$k__BackingField();
     // public System.String get_Name()
     // Offset: 0x1B59F10
     ::StringW get_Name();
@@ -129,16 +129,16 @@ namespace NUnit::Framework::Interfaces {
     void set_ValueIsCDATA(bool value);
     // public NUnit.Framework.Interfaces.AttributeDictionary get_Attributes()
     // Offset: 0x1B59F44
-    NUnit::Framework::Interfaces::AttributeDictionary* get_Attributes();
+    ::NUnit::Framework::Interfaces::AttributeDictionary* get_Attributes();
     // private System.Void set_Attributes(NUnit.Framework.Interfaces.AttributeDictionary value)
     // Offset: 0x1B59F4C
-    void set_Attributes(NUnit::Framework::Interfaces::AttributeDictionary* value);
+    void set_Attributes(::NUnit::Framework::Interfaces::AttributeDictionary* value);
     // public NUnit.Framework.Interfaces.NodeList get_ChildNodes()
     // Offset: 0x1B59F54
-    NUnit::Framework::Interfaces::NodeList* get_ChildNodes();
+    ::NUnit::Framework::Interfaces::NodeList* get_ChildNodes();
     // private System.Void set_ChildNodes(NUnit.Framework.Interfaces.NodeList value)
     // Offset: 0x1B59F5C
-    void set_ChildNodes(NUnit::Framework::Interfaces::NodeList* value);
+    void set_ChildNodes(::NUnit::Framework::Interfaces::NodeList* value);
     // public System.String get_OuterXml()
     // Offset: 0x1B59F64
     ::StringW get_OuterXml();
@@ -146,21 +146,21 @@ namespace NUnit::Framework::Interfaces {
     // Offset: 0x1B59E14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TNode* New_ctor(::StringW name) {
-      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Interfaces::TNode::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Interfaces::TNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TNode*, creationType>(name)));
     }
     // public System.Void .ctor(System.String name, System.String value)
     // Offset: 0x1B59EA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TNode* New_ctor(::StringW name, ::StringW value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Interfaces::TNode::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Interfaces::TNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TNode*, creationType>(name, value)));
     }
     // public System.Void .ctor(System.String name, System.String value, System.Boolean valueIsCDATA)
     // Offset: 0x1B59ED4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TNode* New_ctor(::StringW name, ::StringW value, bool valueIsCDATA) {
-      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Interfaces::TNode::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Interfaces::TNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TNode*, creationType>(name, value, valueIsCDATA)));
     }
     // static private System.Void .cctor()
@@ -168,19 +168,19 @@ namespace NUnit::Framework::Interfaces {
     static void _cctor();
     // public NUnit.Framework.Interfaces.TNode AddElement(System.String name)
     // Offset: 0x1B5A30C
-    NUnit::Framework::Interfaces::TNode* AddElement(::StringW name);
+    ::NUnit::Framework::Interfaces::TNode* AddElement(::StringW name);
     // public NUnit.Framework.Interfaces.TNode AddElement(System.String name, System.String value)
     // Offset: 0x1B5A398
-    NUnit::Framework::Interfaces::TNode* AddElement(::StringW name, ::StringW value);
+    ::NUnit::Framework::Interfaces::TNode* AddElement(::StringW name, ::StringW value);
     // public NUnit.Framework.Interfaces.TNode AddElementWithCDATA(System.String name, System.String value)
     // Offset: 0x1B5A594
-    NUnit::Framework::Interfaces::TNode* AddElementWithCDATA(::StringW name, ::StringW value);
+    ::NUnit::Framework::Interfaces::TNode* AddElementWithCDATA(::StringW name, ::StringW value);
     // public System.Void AddAttribute(System.String name, System.String value)
     // Offset: 0x1B5A658
     void AddAttribute(::StringW name, ::StringW value);
     // public System.Void WriteTo(System.Xml.XmlWriter writer)
     // Offset: 0x1B5A0CC
-    void WriteTo(System::Xml::XmlWriter* writer);
+    void WriteTo(::System::Xml::XmlWriter* writer);
     // static private System.String EscapeInvalidXmlCharacters(System.String str)
     // Offset: 0x1B5A458
     static ::StringW EscapeInvalidXmlCharacters(::StringW str);
@@ -189,10 +189,10 @@ namespace NUnit::Framework::Interfaces {
     static ::StringW CharToUnicodeSequence(::Il2CppChar symbol);
     // private System.Void WriteCDataTo(System.Xml.XmlWriter writer)
     // Offset: 0x1B5A6F4
-    void WriteCDataTo(System::Xml::XmlWriter* writer);
+    void WriteCDataTo(::System::Xml::XmlWriter* writer);
   }; // NUnit.Framework.Interfaces.TNode
   #pragma pack(pop)
-  static check_size<sizeof(TNode), 48 + sizeof(NUnit::Framework::Interfaces::NodeList*)> __NUnit_Framework_Interfaces_TNodeSizeCheck;
+  static check_size<sizeof(TNode), 48 + sizeof(::NUnit::Framework::Interfaces::NodeList*)> __NUnit_Framework_Interfaces_TNodeSizeCheck;
   static_assert(sizeof(TNode) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -250,7 +250,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::TNode::get_Attributes
 // Il2CppName: get_Attributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::AttributeDictionary* (NUnit::Framework::Interfaces::TNode::*)()>(&NUnit::Framework::Interfaces::TNode::get_Attributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Framework::Interfaces::AttributeDictionary* (NUnit::Framework::Interfaces::TNode::*)()>(&NUnit::Framework::Interfaces::TNode::get_Attributes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::TNode*), "get_Attributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -258,7 +258,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::TNode::set_Attributes
 // Il2CppName: set_Attributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Interfaces::TNode::*)(NUnit::Framework::Interfaces::AttributeDictionary*)>(&NUnit::Framework::Interfaces::TNode::set_Attributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Interfaces::TNode::*)(::NUnit::Framework::Interfaces::AttributeDictionary*)>(&NUnit::Framework::Interfaces::TNode::set_Attributes)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "AttributeDictionary")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::TNode*), "set_Attributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -267,7 +267,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::TNode::get_ChildNodes
 // Il2CppName: get_ChildNodes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::NodeList* (NUnit::Framework::Interfaces::TNode::*)()>(&NUnit::Framework::Interfaces::TNode::get_ChildNodes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Framework::Interfaces::NodeList* (NUnit::Framework::Interfaces::TNode::*)()>(&NUnit::Framework::Interfaces::TNode::get_ChildNodes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::TNode*), "get_ChildNodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -275,7 +275,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::TNode::set_ChildNodes
 // Il2CppName: set_ChildNodes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Interfaces::TNode::*)(NUnit::Framework::Interfaces::NodeList*)>(&NUnit::Framework::Interfaces::TNode::set_ChildNodes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Interfaces::TNode::*)(::NUnit::Framework::Interfaces::NodeList*)>(&NUnit::Framework::Interfaces::TNode::set_ChildNodes)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "NodeList")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::TNode*), "set_ChildNodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -312,7 +312,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::TNode::AddElement
 // Il2CppName: AddElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::TNode* (NUnit::Framework::Interfaces::TNode::*)(::StringW)>(&NUnit::Framework::Interfaces::TNode::AddElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Framework::Interfaces::TNode* (NUnit::Framework::Interfaces::TNode::*)(::StringW)>(&NUnit::Framework::Interfaces::TNode::AddElement)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::TNode*), "AddElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -321,7 +321,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::TNode::AddElement
 // Il2CppName: AddElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::TNode* (NUnit::Framework::Interfaces::TNode::*)(::StringW, ::StringW)>(&NUnit::Framework::Interfaces::TNode::AddElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Framework::Interfaces::TNode* (NUnit::Framework::Interfaces::TNode::*)(::StringW, ::StringW)>(&NUnit::Framework::Interfaces::TNode::AddElement)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -331,7 +331,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::TNode::AddElementWithCDATA
 // Il2CppName: AddElementWithCDATA
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::TNode* (NUnit::Framework::Interfaces::TNode::*)(::StringW, ::StringW)>(&NUnit::Framework::Interfaces::TNode::AddElementWithCDATA)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Framework::Interfaces::TNode* (NUnit::Framework::Interfaces::TNode::*)(::StringW, ::StringW)>(&NUnit::Framework::Interfaces::TNode::AddElementWithCDATA)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -351,7 +351,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::TNode::WriteTo
 // Il2CppName: WriteTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Interfaces::TNode::*)(System::Xml::XmlWriter*)>(&NUnit::Framework::Interfaces::TNode::WriteTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Interfaces::TNode::*)(::System::Xml::XmlWriter*)>(&NUnit::Framework::Interfaces::TNode::WriteTo)> {
   static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlWriter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::TNode*), "WriteTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{writer});
@@ -378,7 +378,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::TNode::WriteCDataTo
 // Il2CppName: WriteCDataTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Interfaces::TNode::*)(System::Xml::XmlWriter*)>(&NUnit::Framework::Interfaces::TNode::WriteCDataTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Interfaces::TNode::*)(::System::Xml::XmlWriter*)>(&NUnit::Framework::Interfaces::TNode::WriteCDataTo)> {
   static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlWriter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::TNode*), "WriteCDataTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{writer});

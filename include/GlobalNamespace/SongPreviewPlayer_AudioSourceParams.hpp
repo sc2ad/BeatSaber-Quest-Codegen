@@ -15,8 +15,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SongPreviewPlayer::AudioSourceParams);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPreviewPlayer::AudioSourceParams*, "", "SongPreviewPlayer/AudioSourceParams");
+NEED_NO_BOX(::GlobalNamespace::SongPreviewPlayer::AudioSourceParams);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SongPreviewPlayer::AudioSourceParams*, "", "SongPreviewPlayer/AudioSourceParams");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x28
@@ -37,9 +37,9 @@ namespace GlobalNamespace {
     // private UnityEngine.Vector3 _position
     // Size: 0xC
     // Offset: 0x10
-    UnityEngine::Vector3 position;
+    ::UnityEngine::Vector3 position;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // [RangeAttribute] Offset: 0x125191C
     // private System.Single _reverbZoneMix
     // Size: 0x4
@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: private UnityEngine.Vector3 _position
-    UnityEngine::Vector3& dyn__position();
+    ::UnityEngine::Vector3& dyn__position();
     // Get instance field reference: private System.Single _reverbZoneMix
     float& dyn__reverbZoneMix();
     // Get instance field reference: private System.Single _spatialBlend
@@ -72,7 +72,7 @@ namespace GlobalNamespace {
     float& dyn__spread();
     // public UnityEngine.Vector3 get_position()
     // Offset: 0x13D3AC8
-    UnityEngine::Vector3 get_position();
+    ::UnityEngine::Vector3 get_position();
     // public System.Single get_reverbZoneMix()
     // Offset: 0x13D3AD4
     float get_reverbZoneMix();
@@ -88,7 +88,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongPreviewPlayer::AudioSourceParams* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SongPreviewPlayer::AudioSourceParams::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SongPreviewPlayer::AudioSourceParams::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SongPreviewPlayer::AudioSourceParams*, creationType>()));
     }
   }; // SongPreviewPlayer/AudioSourceParams
@@ -100,7 +100,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::SongPreviewPlayer::AudioSourceParams::get_position
 // Il2CppName: get_position
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::SongPreviewPlayer::AudioSourceParams::*)()>(&GlobalNamespace::SongPreviewPlayer::AudioSourceParams::get_position)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (GlobalNamespace::SongPreviewPlayer::AudioSourceParams::*)()>(&GlobalNamespace::SongPreviewPlayer::AudioSourceParams::get_position)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPreviewPlayer::AudioSourceParams*), "get_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

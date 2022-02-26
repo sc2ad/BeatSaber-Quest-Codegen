@@ -19,8 +19,8 @@ namespace System::Reflection {
   class AssemblyConfigurationAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Reflection::AssemblyConfigurationAttribute);
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyConfigurationAttribute*, "System.Reflection", "AssemblyConfigurationAttribute");
+NEED_NO_BOX(::System::Reflection::AssemblyConfigurationAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::AssemblyConfigurationAttribute*, "System.Reflection", "AssemblyConfigurationAttribute");
 // Type namespace: System.Reflection
 namespace System::Reflection {
   // Size: 0x18
@@ -29,7 +29,7 @@ namespace System::Reflection {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AttributeUsageAttribute] Offset: 1187F68
   // [ComVisibleAttribute] Offset: 1187F68
-  class AssemblyConfigurationAttribute : public System::Attribute {
+  class AssemblyConfigurationAttribute : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -57,7 +57,7 @@ namespace System::Reflection {
     // Offset: 0x2160960
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssemblyConfigurationAttribute* New_ctor(::StringW configuration) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::AssemblyConfigurationAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Reflection::AssemblyConfigurationAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssemblyConfigurationAttribute*, creationType>(configuration)));
     }
   }; // System.Reflection.AssemblyConfigurationAttribute

@@ -20,8 +20,8 @@ namespace System::Net {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::WebConnectionStream::$$c__DisplayClass75_0);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnectionStream::$$c__DisplayClass75_0*, "System.Net", "WebConnectionStream/<>c__DisplayClass75_0");
+NEED_NO_BOX(::System::Net::WebConnectionStream::$$c__DisplayClass75_0);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::WebConnectionStream::$$c__DisplayClass75_0*, "System.Net", "WebConnectionStream/<>c__DisplayClass75_0");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x19
@@ -43,9 +43,9 @@ namespace System::Net {
     // public System.Net.WebConnectionStream <>4__this
     // Size: 0x8
     // Offset: 0x10
-    System::Net::WebConnectionStream* $$4__this;
+    ::System::Net::WebConnectionStream* $$4__this;
     // Field size check
-    static_assert(sizeof(System::Net::WebConnectionStream*) == 0x8);
+    static_assert(sizeof(::System::Net::WebConnectionStream*) == 0x8);
     // public System.Boolean setInternalLength
     // Size: 0x1
     // Offset: 0x18
@@ -54,19 +54,19 @@ namespace System::Net {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public System.Net.WebConnectionStream <>4__this
-    System::Net::WebConnectionStream*& dyn_$$4__this();
+    ::System::Net::WebConnectionStream*& dyn_$$4__this();
     // Get instance field reference: public System.Boolean setInternalLength
     bool& dyn_setInternalLength();
     // System.Boolean <SetHeadersAsync>b__0(System.Net.SimpleAsyncResult r)
     // Offset: 0x1BDE4A8
-    bool $SetHeadersAsync$b__0(System::Net::SimpleAsyncResult* r);
+    bool $SetHeadersAsync$b__0(::System::Net::SimpleAsyncResult* r);
     // public System.Void .ctor()
     // Offset: 0x1BDE4A0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebConnectionStream::$$c__DisplayClass75_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebConnectionStream::$$c__DisplayClass75_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::WebConnectionStream::$$c__DisplayClass75_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebConnectionStream::$$c__DisplayClass75_0*, creationType>()));
     }
   }; // System.Net.WebConnectionStream/System.Net.<>c__DisplayClass75_0
@@ -78,7 +78,7 @@ namespace System::Net {
 // Writing MetadataGetter for method: System::Net::WebConnectionStream::$$c__DisplayClass75_0::$SetHeadersAsync$b__0
 // Il2CppName: <SetHeadersAsync>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::WebConnectionStream::$$c__DisplayClass75_0::*)(System::Net::SimpleAsyncResult*)>(&System::Net::WebConnectionStream::$$c__DisplayClass75_0::$SetHeadersAsync$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::WebConnectionStream::$$c__DisplayClass75_0::*)(::System::Net::SimpleAsyncResult*)>(&System::Net::WebConnectionStream::$$c__DisplayClass75_0::$SetHeadersAsync$b__0)> {
   static const MethodInfo* get() {
     static auto* r = &::il2cpp_utils::GetClassFromName("System.Net", "SimpleAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionStream::$$c__DisplayClass75_0*), "<SetHeadersAsync>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{r});

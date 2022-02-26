@@ -16,8 +16,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Uri::UriInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::Uri::UriInfo*, "System", "Uri/UriInfo");
+NEED_NO_BOX(::System::Uri::UriInfo);
+DEFINE_IL2CPP_ARG_TYPE(::System::Uri::UriInfo*, "System", "Uri/UriInfo");
 // Type namespace: System
 namespace System {
   // Size: 0x48
@@ -56,9 +56,9 @@ namespace System {
     // public System.Uri/System.Offset Offset
     // Size: 0x10
     // Offset: 0x28
-    System::Uri::Offset Offset;
+    ::System::Uri::Offset Offset;
     // Field size check
-    static_assert(sizeof(System::Uri::Offset) == 0x10);
+    static_assert(sizeof(::System::Uri::Offset) == 0x10);
     // public System.String DnsSafeHost
     // Size: 0x8
     // Offset: 0x38
@@ -68,9 +68,9 @@ namespace System {
     // public System.Uri/System.MoreInfo MoreInfo
     // Size: 0x8
     // Offset: 0x40
-    System::Uri::MoreInfo* MoreInfo;
+    ::System::Uri::MoreInfo* MoreInfo;
     // Field size check
-    static_assert(sizeof(System::Uri::MoreInfo*) == 0x8);
+    static_assert(sizeof(::System::Uri::MoreInfo*) == 0x8);
     public:
     // Get instance field reference: public System.String Host
     ::StringW& dyn_Host();
@@ -79,23 +79,23 @@ namespace System {
     // Get instance field reference: public System.String String
     ::StringW& dyn_String();
     // Get instance field reference: public System.Uri/System.Offset Offset
-    System::Uri::Offset& dyn_Offset();
+    ::System::Uri::Offset& dyn_Offset();
     // Get instance field reference: public System.String DnsSafeHost
     ::StringW& dyn_DnsSafeHost();
     // Get instance field reference: public System.Uri/System.MoreInfo MoreInfo
-    System::Uri::MoreInfo*& dyn_MoreInfo();
+    ::System::Uri::MoreInfo*& dyn_MoreInfo();
     // public System.Void .ctor()
     // Offset: 0x2430B2C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Uri::UriInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Uri::UriInfo::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Uri::UriInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Uri::UriInfo*, creationType>()));
     }
   }; // System.Uri/System.UriInfo
   #pragma pack(pop)
-  static check_size<sizeof(Uri::UriInfo), 64 + sizeof(System::Uri::MoreInfo*)> __System_Uri_UriInfoSizeCheck;
+  static check_size<sizeof(Uri::UriInfo), 64 + sizeof(::System::Uri::MoreInfo*)> __System_Uri_UriInfoSizeCheck;
   static_assert(sizeof(Uri::UriInfo) == 0x48);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

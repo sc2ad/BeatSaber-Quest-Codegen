@@ -18,8 +18,8 @@ namespace UnityEngine::Timeline {
   class ITimelineClipAsset;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Timeline::ITimelineClipAsset);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ITimelineClipAsset*, "UnityEngine.Timeline", "ITimelineClipAsset");
+NEED_NO_BOX(::UnityEngine::Timeline::ITimelineClipAsset);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::ITimelineClipAsset*, "UnityEngine.Timeline", "ITimelineClipAsset");
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
   // Size: 0x10
@@ -30,7 +30,7 @@ namespace UnityEngine::Timeline {
     public:
     // public UnityEngine.Timeline.ClipCaps get_clipCaps()
     // Offset: 0xFFFFFFFF
-    UnityEngine::Timeline::ClipCaps get_clipCaps();
+    ::UnityEngine::Timeline::ClipCaps get_clipCaps();
   }; // UnityEngine.Timeline.ITimelineClipAsset
   #pragma pack(pop)
 }
@@ -38,7 +38,7 @@ namespace UnityEngine::Timeline {
 // Writing MetadataGetter for method: UnityEngine::Timeline::ITimelineClipAsset::get_clipCaps
 // Il2CppName: get_clipCaps
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::ClipCaps (UnityEngine::Timeline::ITimelineClipAsset::*)()>(&UnityEngine::Timeline::ITimelineClipAsset::get_clipCaps)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Timeline::ClipCaps (UnityEngine::Timeline::ITimelineClipAsset::*)()>(&UnityEngine::Timeline::ITimelineClipAsset::get_clipCaps)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ITimelineClipAsset*), "get_clipCaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

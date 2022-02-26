@@ -21,8 +21,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Timeline::TimeUtility::$$c);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeUtility::$$c*, "UnityEngine.Timeline", "TimeUtility/<>c");
+NEED_NO_BOX(::UnityEngine::Timeline::TimeUtility::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::TimeUtility::$$c*, "UnityEngine.Timeline", "TimeUtility/<>c");
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
   // Size: 0x10
@@ -33,17 +33,17 @@ namespace UnityEngine::Timeline {
   class TimeUtility::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly UnityEngine.Timeline.TimeUtility/UnityEngine.Timeline.<>c <>9
-    static UnityEngine::Timeline::TimeUtility::$$c* _get_$$9();
+    static ::UnityEngine::Timeline::TimeUtility::$$c* _get_$$9();
     // Set static field: static public readonly UnityEngine.Timeline.TimeUtility/UnityEngine.Timeline.<>c <>9
-    static void _set_$$9(UnityEngine::Timeline::TimeUtility::$$c* value);
+    static void _set_$$9(::UnityEngine::Timeline::TimeUtility::$$c* value);
     // Get static field: static public System.Func`2<System.Char,System.Boolean> <>9__14_0
-    static System::Func_2<::Il2CppChar, bool>* _get_$$9__14_0();
+    static ::System::Func_2<::Il2CppChar, bool>* _get_$$9__14_0();
     // Set static field: static public System.Func`2<System.Char,System.Boolean> <>9__14_0
-    static void _set_$$9__14_0(System::Func_2<::Il2CppChar, bool>* value);
+    static void _set_$$9__14_0(::System::Func_2<::Il2CppChar, bool>* value);
     // Get static field: static public System.Func`2<System.Char,System.Boolean> <>9__14_1
-    static System::Func_2<::Il2CppChar, bool>* _get_$$9__14_1();
+    static ::System::Func_2<::Il2CppChar, bool>* _get_$$9__14_1();
     // Set static field: static public System.Func`2<System.Char,System.Boolean> <>9__14_1
-    static void _set_$$9__14_1(System::Func_2<::Il2CppChar, bool>* value);
+    static void _set_$$9__14_1(::System::Func_2<::Il2CppChar, bool>* value);
     // static private System.Void .cctor()
     // Offset: 0x1CA3290
     static void _cctor();
@@ -59,7 +59,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimeUtility::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::TimeUtility::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Timeline::TimeUtility::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimeUtility::$$c*, creationType>()));
     }
   }; // UnityEngine.Timeline.TimeUtility/UnityEngine.Timeline.<>c

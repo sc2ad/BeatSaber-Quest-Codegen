@@ -18,8 +18,8 @@ namespace Org::BouncyCastle::Math::EC {
   class ECLookupTable;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Math::EC::ECLookupTable);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::ECLookupTable*, "Org.BouncyCastle.Math.EC", "ECLookupTable");
+NEED_NO_BOX(::Org::BouncyCastle::Math::EC::ECLookupTable);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::ECLookupTable*, "Org.BouncyCastle.Math.EC", "ECLookupTable");
 // Type namespace: Org.BouncyCastle.Math.EC
 namespace Org::BouncyCastle::Math::EC {
   // Size: 0x10
@@ -33,10 +33,10 @@ namespace Org::BouncyCastle::Math::EC {
     int get_Size();
     // public Org.BouncyCastle.Math.EC.ECPoint Lookup(System.Int32 index)
     // Offset: 0xFFFFFFFF
-    Org::BouncyCastle::Math::EC::ECPoint* Lookup(int index);
+    ::Org::BouncyCastle::Math::EC::ECPoint* Lookup(int index);
     // public Org.BouncyCastle.Math.EC.ECPoint LookupVar(System.Int32 index)
     // Offset: 0xFFFFFFFF
-    Org::BouncyCastle::Math::EC::ECPoint* LookupVar(int index);
+    ::Org::BouncyCastle::Math::EC::ECPoint* LookupVar(int index);
   }; // Org.BouncyCastle.Math.EC.ECLookupTable
   #pragma pack(pop)
 }
@@ -52,7 +52,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::ECLookupTable::Lookup
 // Il2CppName: Lookup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (Org::BouncyCastle::Math::EC::ECLookupTable::*)(int)>(&Org::BouncyCastle::Math::EC::ECLookupTable::Lookup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (Org::BouncyCastle::Math::EC::ECLookupTable::*)(int)>(&Org::BouncyCastle::Math::EC::ECLookupTable::Lookup)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::ECLookupTable*), "Lookup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
@@ -61,7 +61,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::ECLookupTable::LookupVar
 // Il2CppName: LookupVar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (Org::BouncyCastle::Math::EC::ECLookupTable::*)(int)>(&Org::BouncyCastle::Math::EC::ECLookupTable::LookupVar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (Org::BouncyCastle::Math::EC::ECLookupTable::*)(int)>(&Org::BouncyCastle::Math::EC::ECLookupTable::LookupVar)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::ECLookupTable*), "LookupVar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});

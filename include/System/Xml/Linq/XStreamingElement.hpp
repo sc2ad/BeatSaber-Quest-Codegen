@@ -19,8 +19,8 @@ namespace System::Xml::Linq {
   class XStreamingElement;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Linq::XStreamingElement);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Linq::XStreamingElement*, "System.Xml.Linq", "XStreamingElement");
+NEED_NO_BOX(::System::Xml::Linq::XStreamingElement);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Linq::XStreamingElement*, "System.Xml.Linq", "XStreamingElement");
 // Type namespace: System.Xml.Linq
 namespace System::Xml::Linq {
   // Size: 0x20
@@ -41,9 +41,9 @@ namespace System::Xml::Linq {
     // System.Xml.Linq.XName name
     // Size: 0x8
     // Offset: 0x10
-    System::Xml::Linq::XName* name;
+    ::System::Xml::Linq::XName* name;
     // Field size check
-    static_assert(sizeof(System::Xml::Linq::XName*) == 0x8);
+    static_assert(sizeof(::System::Xml::Linq::XName*) == 0x8);
     // System.Object content
     // Size: 0x8
     // Offset: 0x18
@@ -52,7 +52,7 @@ namespace System::Xml::Linq {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     public:
     // Get instance field reference: System.Xml.Linq.XName name
-    System::Xml::Linq::XName*& dyn_name();
+    ::System::Xml::Linq::XName*& dyn_name();
     // Get instance field reference: System.Object content
     ::Il2CppObject*& dyn_content();
   }; // System.Xml.Linq.XStreamingElement

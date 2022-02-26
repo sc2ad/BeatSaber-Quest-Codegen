@@ -19,8 +19,8 @@ namespace System::Security::Cryptography {
   class CspParameters;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Security::Cryptography::CspParameters);
-DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::CspParameters*, "System.Security.Cryptography", "CspParameters");
+NEED_NO_BOX(::System::Security::Cryptography::CspParameters);
+DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::CspParameters*, "System.Security.Cryptography", "CspParameters");
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {
   // Size: 0x30
@@ -84,29 +84,29 @@ namespace System::Security::Cryptography {
     int& dyn_m_flags();
     // public System.Security.Cryptography.CspProviderFlags get_Flags()
     // Offset: 0x1AC21C8
-    System::Security::Cryptography::CspProviderFlags get_Flags();
+    ::System::Security::Cryptography::CspProviderFlags get_Flags();
     // public System.Void set_Flags(System.Security.Cryptography.CspProviderFlags value)
     // Offset: 0x1AC21D0
-    void set_Flags(System::Security::Cryptography::CspProviderFlags value);
+    void set_Flags(::System::Security::Cryptography::CspProviderFlags value);
     // public System.Void .ctor(System.Int32 dwTypeIn)
     // Offset: 0x1AC2360
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CspParameters* New_ctor(int dwTypeIn) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::CspParameters::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::CspParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CspParameters*, creationType>(dwTypeIn)));
     }
     // public System.Void .ctor(System.Int32 dwTypeIn, System.String strProviderNameIn, System.String strContainerNameIn)
     // Offset: 0x1AC22F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CspParameters* New_ctor(int dwTypeIn, ::StringW strProviderNameIn, ::StringW strContainerNameIn) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::CspParameters::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::CspParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CspParameters*, creationType>(dwTypeIn, strProviderNameIn, strContainerNameIn)));
     }
     // System.Void .ctor(System.Int32 providerType, System.String providerName, System.String keyContainerName, System.Security.Cryptography.CspProviderFlags flags)
     // Offset: 0x1AC236C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CspParameters* New_ctor(int providerType, ::StringW providerName, ::StringW keyContainerName, System::Security::Cryptography::CspProviderFlags flags) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::CspParameters::.ctor");
+    static CspParameters* New_ctor(int providerType, ::StringW providerName, ::StringW keyContainerName, ::System::Security::Cryptography::CspProviderFlags flags) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::CspParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CspParameters*, creationType>(providerType, providerName, keyContainerName, flags)));
     }
     // public System.Void .ctor()
@@ -115,7 +115,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CspParameters* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::CspParameters::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::CspParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CspParameters*, creationType>()));
     }
   }; // System.Security.Cryptography.CspParameters
@@ -127,7 +127,7 @@ namespace System::Security::Cryptography {
 // Writing MetadataGetter for method: System::Security::Cryptography::CspParameters::get_Flags
 // Il2CppName: get_Flags
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::CspProviderFlags (System::Security::Cryptography::CspParameters::*)()>(&System::Security::Cryptography::CspParameters::get_Flags)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::CspProviderFlags (System::Security::Cryptography::CspParameters::*)()>(&System::Security::Cryptography::CspParameters::get_Flags)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::CspParameters*), "get_Flags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -135,7 +135,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Writing MetadataGetter for method: System::Security::Cryptography::CspParameters::set_Flags
 // Il2CppName: set_Flags
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::CspParameters::*)(System::Security::Cryptography::CspProviderFlags)>(&System::Security::Cryptography::CspParameters::set_Flags)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::CspParameters::*)(::System::Security::Cryptography::CspProviderFlags)>(&System::Security::Cryptography::CspParameters::set_Flags)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography", "CspProviderFlags")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::CspParameters*), "set_Flags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

@@ -24,8 +24,8 @@ namespace System::Xml {
   class AttributePSVIInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::AttributePSVIInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::AttributePSVIInfo*, "System.Xml", "AttributePSVIInfo");
+NEED_NO_BOX(::System::Xml::AttributePSVIInfo);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::AttributePSVIInfo*, "System.Xml", "AttributePSVIInfo");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x30
@@ -64,9 +64,9 @@ namespace System::Xml {
     // System.Xml.Schema.XmlSchemaInfo attributeSchemaInfo
     // Size: 0x8
     // Offset: 0x28
-    System::Xml::Schema::XmlSchemaInfo* attributeSchemaInfo;
+    ::System::Xml::Schema::XmlSchemaInfo* attributeSchemaInfo;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::XmlSchemaInfo*) == 0x8);
+    static_assert(sizeof(::System::Xml::Schema::XmlSchemaInfo*) == 0x8);
     public:
     // Get instance field reference: System.String localName
     ::StringW& dyn_localName();
@@ -75,7 +75,7 @@ namespace System::Xml {
     // Get instance field reference: System.Object typedAttributeValue
     ::Il2CppObject*& dyn_typedAttributeValue();
     // Get instance field reference: System.Xml.Schema.XmlSchemaInfo attributeSchemaInfo
-    System::Xml::Schema::XmlSchemaInfo*& dyn_attributeSchemaInfo();
+    ::System::Xml::Schema::XmlSchemaInfo*& dyn_attributeSchemaInfo();
     // System.Void Reset()
     // Offset: 0x1B998E4
     void Reset();
@@ -85,12 +85,12 @@ namespace System::Xml {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AttributePSVIInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::AttributePSVIInfo::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::AttributePSVIInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AttributePSVIInfo*, creationType>()));
     }
   }; // System.Xml.AttributePSVIInfo
   #pragma pack(pop)
-  static check_size<sizeof(AttributePSVIInfo), 40 + sizeof(System::Xml::Schema::XmlSchemaInfo*)> __System_Xml_AttributePSVIInfoSizeCheck;
+  static check_size<sizeof(AttributePSVIInfo), 40 + sizeof(::System::Xml::Schema::XmlSchemaInfo*)> __System_Xml_AttributePSVIInfoSizeCheck;
   static_assert(sizeof(AttributePSVIInfo) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

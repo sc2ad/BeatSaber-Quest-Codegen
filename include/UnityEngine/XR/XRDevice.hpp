@@ -28,8 +28,8 @@ namespace UnityEngine::XR {
   class XRDevice;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::XR::XRDevice);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRDevice*, "UnityEngine.XR", "XRDevice");
+NEED_NO_BOX(::UnityEngine::XR::XRDevice);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::XRDevice*, "UnityEngine.XR", "XRDevice");
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {
   // Size: 0x10
@@ -41,9 +41,9 @@ namespace UnityEngine::XR {
     public:
     // [DebuggerBrowsableAttribute] Offset: 0x11E4738
     // Get static field: static private System.Action`1<System.String> deviceLoaded
-    static System::Action_1<::StringW>* _get_deviceLoaded();
+    static ::System::Action_1<::StringW>* _get_deviceLoaded();
     // Set static field: static private System.Action`1<System.String> deviceLoaded
-    static void _set_deviceLoaded(System::Action_1<::StringW>* value);
+    static void _set_deviceLoaded(::System::Action_1<::StringW>* value);
     // static public System.Boolean get_isPresent()
     // Offset: 0x2A5F4D4
     static bool get_isPresent();
@@ -55,10 +55,10 @@ namespace UnityEngine::XR {
     static void _cctor();
     // static public System.IntPtr GetNativePtr()
     // Offset: 0x2A5F53C
-    static System::IntPtr GetNativePtr();
+    static ::System::IntPtr GetNativePtr();
     // static public System.Boolean SetTrackingSpaceType(UnityEngine.XR.TrackingSpaceType trackingSpaceType)
     // Offset: 0x2A5F570
-    static bool SetTrackingSpaceType(UnityEngine::XR::TrackingSpaceType trackingSpaceType);
+    static bool SetTrackingSpaceType(::UnityEngine::XR::TrackingSpaceType trackingSpaceType);
     // static private System.Void InvokeDeviceLoaded(System.String loadedDeviceName)
     // Offset: 0x2A5F5B0
     static void InvokeDeviceLoaded(::StringW loadedDeviceName);
@@ -93,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::XR::XRDevice::GetNativePtr
 // Il2CppName: GetNativePtr
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&UnityEngine::XR::XRDevice::GetNativePtr)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&UnityEngine::XR::XRDevice::GetNativePtr)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRDevice*), "GetNativePtr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -101,7 +101,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::XR::XRDevice::SetTrackingSpaceType
 // Il2CppName: SetTrackingSpaceType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::XR::TrackingSpaceType)>(&UnityEngine::XR::XRDevice::SetTrackingSpaceType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::XR::TrackingSpaceType)>(&UnityEngine::XR::XRDevice::SetTrackingSpaceType)> {
   static const MethodInfo* get() {
     static auto* trackingSpaceType = &::il2cpp_utils::GetClassFromName("UnityEngine.XR", "TrackingSpaceType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRDevice*), "SetTrackingSpaceType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{trackingSpaceType});

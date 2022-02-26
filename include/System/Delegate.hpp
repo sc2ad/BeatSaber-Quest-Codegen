@@ -48,8 +48,8 @@ namespace System {
   class Delegate;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Delegate);
-DEFINE_IL2CPP_ARG_TYPE(System::Delegate*, "System", "Delegate");
+NEED_NO_BOX(::System::Delegate);
+DEFINE_IL2CPP_ARG_TYPE(::System::Delegate*, "System", "Delegate");
 // Type namespace: System
 namespace System {
   // Size: 0x61
@@ -59,7 +59,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ClassInterfaceAttribute] Offset: 11878E4
   // [ComVisibleAttribute] Offset: 11878E4
-  class Delegate : public ::Il2CppObject/*, public System::ICloneable, public System::Runtime::Serialization::ISerializable*/ {
+  class Delegate : public ::Il2CppObject/*, public ::System::ICloneable, public ::System::Runtime::Serialization::ISerializable*/ {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -73,15 +73,15 @@ namespace System {
     // private System.IntPtr method_ptr
     // Size: 0x8
     // Offset: 0x10
-    System::IntPtr method_ptr;
+    ::System::IntPtr method_ptr;
     // Field size check
-    static_assert(sizeof(System::IntPtr) == 0x8);
+    static_assert(sizeof(::System::IntPtr) == 0x8);
     // private System.IntPtr invoke_impl
     // Size: 0x8
     // Offset: 0x18
-    System::IntPtr invoke_impl;
+    ::System::IntPtr invoke_impl;
     // Field size check
-    static_assert(sizeof(System::IntPtr) == 0x8);
+    static_assert(sizeof(::System::IntPtr) == 0x8);
     // private System.Object m_target
     // Size: 0x8
     // Offset: 0x20
@@ -91,45 +91,45 @@ namespace System {
     // private System.IntPtr method
     // Size: 0x8
     // Offset: 0x28
-    System::IntPtr method;
+    ::System::IntPtr method;
     // Field size check
-    static_assert(sizeof(System::IntPtr) == 0x8);
+    static_assert(sizeof(::System::IntPtr) == 0x8);
     // private System.IntPtr delegate_trampoline
     // Size: 0x8
     // Offset: 0x30
-    System::IntPtr delegate_trampoline;
+    ::System::IntPtr delegate_trampoline;
     // Field size check
-    static_assert(sizeof(System::IntPtr) == 0x8);
+    static_assert(sizeof(::System::IntPtr) == 0x8);
     // private System.IntPtr extra_arg
     // Size: 0x8
     // Offset: 0x38
-    System::IntPtr extra_arg;
+    ::System::IntPtr extra_arg;
     // Field size check
-    static_assert(sizeof(System::IntPtr) == 0x8);
+    static_assert(sizeof(::System::IntPtr) == 0x8);
     // private System.IntPtr method_code
     // Size: 0x8
     // Offset: 0x40
-    System::IntPtr method_code;
+    ::System::IntPtr method_code;
     // Field size check
-    static_assert(sizeof(System::IntPtr) == 0x8);
+    static_assert(sizeof(::System::IntPtr) == 0x8);
     // private System.Reflection.MethodInfo method_info
     // Size: 0x8
     // Offset: 0x48
-    System::Reflection::MethodInfo* method_info;
+    ::System::Reflection::MethodInfo* method_info;
     // Field size check
-    static_assert(sizeof(System::Reflection::MethodInfo*) == 0x8);
+    static_assert(sizeof(::System::Reflection::MethodInfo*) == 0x8);
     // private System.Reflection.MethodInfo original_method_info
     // Size: 0x8
     // Offset: 0x50
-    System::Reflection::MethodInfo* original_method_info;
+    ::System::Reflection::MethodInfo* original_method_info;
     // Field size check
-    static_assert(sizeof(System::Reflection::MethodInfo*) == 0x8);
+    static_assert(sizeof(::System::Reflection::MethodInfo*) == 0x8);
     // private System.DelegateData data
     // Size: 0x8
     // Offset: 0x58
-    System::DelegateData* data;
+    ::System::DelegateData* data;
     // Field size check
-    static_assert(sizeof(System::DelegateData*) == 0x8);
+    static_assert(sizeof(::System::DelegateData*) == 0x8);
     // private System.Boolean method_is_virtual
     // Size: 0x1
     // Offset: 0x60
@@ -137,90 +137,90 @@ namespace System {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     public:
-    // Creating interface conversion operator: operator System::ICloneable
-    operator System::ICloneable() noexcept {
-      return *reinterpret_cast<System::ICloneable*>(this);
+    // Creating interface conversion operator: operator ::System::ICloneable
+    operator ::System::ICloneable() noexcept {
+      return *reinterpret_cast<::System::ICloneable*>(this);
     }
-    // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
-    operator System::Runtime::Serialization::ISerializable() noexcept {
-      return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);
+    // Creating interface conversion operator: operator ::System::Runtime::Serialization::ISerializable
+    operator ::System::Runtime::Serialization::ISerializable() noexcept {
+      return *reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
     }
     // Get instance field reference: private System.IntPtr method_ptr
-    System::IntPtr& dyn_method_ptr();
+    ::System::IntPtr& dyn_method_ptr();
     // Get instance field reference: private System.IntPtr invoke_impl
-    System::IntPtr& dyn_invoke_impl();
+    ::System::IntPtr& dyn_invoke_impl();
     // Get instance field reference: private System.Object m_target
     ::Il2CppObject*& dyn_m_target();
     // Get instance field reference: private System.IntPtr method
-    System::IntPtr& dyn_method();
+    ::System::IntPtr& dyn_method();
     // Get instance field reference: private System.IntPtr delegate_trampoline
-    System::IntPtr& dyn_delegate_trampoline();
+    ::System::IntPtr& dyn_delegate_trampoline();
     // Get instance field reference: private System.IntPtr extra_arg
-    System::IntPtr& dyn_extra_arg();
+    ::System::IntPtr& dyn_extra_arg();
     // Get instance field reference: private System.IntPtr method_code
-    System::IntPtr& dyn_method_code();
+    ::System::IntPtr& dyn_method_code();
     // Get instance field reference: private System.Reflection.MethodInfo method_info
-    System::Reflection::MethodInfo*& dyn_method_info();
+    ::System::Reflection::MethodInfo*& dyn_method_info();
     // Get instance field reference: private System.Reflection.MethodInfo original_method_info
-    System::Reflection::MethodInfo*& dyn_original_method_info();
+    ::System::Reflection::MethodInfo*& dyn_original_method_info();
     // Get instance field reference: private System.DelegateData data
-    System::DelegateData*& dyn_data();
+    ::System::DelegateData*& dyn_data();
     // Get instance field reference: private System.Boolean method_is_virtual
     bool& dyn_method_is_virtual();
     // public System.Reflection.MethodInfo get_Method()
     // Offset: 0x187D3F8
-    System::Reflection::MethodInfo* get_Method();
+    ::System::Reflection::MethodInfo* get_Method();
     // public System.Object get_Target()
     // Offset: 0x187D408
     ::Il2CppObject* get_Target();
     // private System.Reflection.MethodInfo GetVirtualMethod_internal()
     // Offset: 0x187D404
-    System::Reflection::MethodInfo* GetVirtualMethod_internal();
+    ::System::Reflection::MethodInfo* GetVirtualMethod_internal();
     // static System.Delegate CreateDelegate_internal(System.Type type, System.Object target, System.Reflection.MethodInfo info, System.Boolean throwOnBindFailure)
     // Offset: 0x187D410
-    static System::Delegate* CreateDelegate_internal(System::Type* type, ::Il2CppObject* target, System::Reflection::MethodInfo* info, bool throwOnBindFailure);
+    static ::System::Delegate* CreateDelegate_internal(::System::Type* type, ::Il2CppObject* target, ::System::Reflection::MethodInfo* info, bool throwOnBindFailure);
     // static private System.Boolean arg_type_match(System.Type delArgType, System.Type argType)
     // Offset: 0x187D418
-    static bool arg_type_match(System::Type* delArgType, System::Type* argType);
+    static bool arg_type_match(::System::Type* delArgType, ::System::Type* argType);
     // static private System.Boolean arg_type_match_this(System.Type delArgType, System.Type argType, System.Boolean boxedThis)
     // Offset: 0x187D694
-    static bool arg_type_match_this(System::Type* delArgType, System::Type* argType, bool boxedThis);
+    static bool arg_type_match_this(::System::Type* delArgType, ::System::Type* argType, bool boxedThis);
     // static private System.Boolean return_type_match(System.Type delReturnType, System.Type returnType)
     // Offset: 0x187D810
-    static bool return_type_match(System::Type* delReturnType, System::Type* returnType);
+    static bool return_type_match(::System::Type* delReturnType, ::System::Type* returnType);
     // static public System.Delegate CreateDelegate(System.Type type, System.Object firstArgument, System.Reflection.MethodInfo method, System.Boolean throwOnBindFailure)
     // Offset: 0x187DA58
-    static System::Delegate* CreateDelegate(System::Type* type, ::Il2CppObject* firstArgument, System::Reflection::MethodInfo* method, bool throwOnBindFailure);
+    static ::System::Delegate* CreateDelegate(::System::Type* type, ::Il2CppObject* firstArgument, ::System::Reflection::MethodInfo* method, bool throwOnBindFailure);
     // static private System.Delegate CreateDelegate(System.Type type, System.Object firstArgument, System.Reflection.MethodInfo method, System.Boolean throwOnBindFailure, System.Boolean allowClosed)
     // Offset: 0x187DA64
-    static System::Delegate* CreateDelegate(System::Type* type, ::Il2CppObject* firstArgument, System::Reflection::MethodInfo* method, bool throwOnBindFailure, bool allowClosed);
+    static ::System::Delegate* CreateDelegate(::System::Type* type, ::Il2CppObject* firstArgument, ::System::Reflection::MethodInfo* method, bool throwOnBindFailure, bool allowClosed);
     // static public System.Delegate CreateDelegate(System.Type type, System.Object firstArgument, System.Reflection.MethodInfo method)
     // Offset: 0x187E250
-    static System::Delegate* CreateDelegate(System::Type* type, ::Il2CppObject* firstArgument, System::Reflection::MethodInfo* method);
+    static ::System::Delegate* CreateDelegate(::System::Type* type, ::Il2CppObject* firstArgument, ::System::Reflection::MethodInfo* method);
     // static public System.Delegate CreateDelegate(System.Type type, System.Reflection.MethodInfo method, System.Boolean throwOnBindFailure)
     // Offset: 0x187E25C
-    static System::Delegate* CreateDelegate(System::Type* type, System::Reflection::MethodInfo* method, bool throwOnBindFailure);
+    static ::System::Delegate* CreateDelegate(::System::Type* type, ::System::Reflection::MethodInfo* method, bool throwOnBindFailure);
     // static public System.Delegate CreateDelegate(System.Type type, System.Reflection.MethodInfo method)
     // Offset: 0x187E274
-    static System::Delegate* CreateDelegate(System::Type* type, System::Reflection::MethodInfo* method);
+    static ::System::Delegate* CreateDelegate(::System::Type* type, ::System::Reflection::MethodInfo* method);
     // static public System.Delegate CreateDelegate(System.Type type, System.Object target, System.String method)
     // Offset: 0x187E288
-    static System::Delegate* CreateDelegate(System::Type* type, ::Il2CppObject* target, ::StringW method);
+    static ::System::Delegate* CreateDelegate(::System::Type* type, ::Il2CppObject* target, ::StringW method);
     // static private System.Reflection.MethodInfo GetCandidateMethod(System.Type type, System.Type target, System.String method, System.Reflection.BindingFlags bflags, System.Boolean ignoreCase, System.Boolean throwOnBindFailure)
     // Offset: 0x187E2A0
-    static System::Reflection::MethodInfo* GetCandidateMethod(System::Type* type, System::Type* target, ::StringW method, System::Reflection::BindingFlags bflags, bool ignoreCase, bool throwOnBindFailure);
+    static ::System::Reflection::MethodInfo* GetCandidateMethod(::System::Type* type, ::System::Type* target, ::StringW method, ::System::Reflection::BindingFlags bflags, bool ignoreCase, bool throwOnBindFailure);
     // static public System.Delegate CreateDelegate(System.Type type, System.Type target, System.String method, System.Boolean ignoreCase, System.Boolean throwOnBindFailure)
     // Offset: 0x187E698
-    static System::Delegate* CreateDelegate(System::Type* type, System::Type* target, ::StringW method, bool ignoreCase, bool throwOnBindFailure);
+    static ::System::Delegate* CreateDelegate(::System::Type* type, ::System::Type* target, ::StringW method, bool ignoreCase, bool throwOnBindFailure);
     // static public System.Delegate CreateDelegate(System.Type type, System.Type target, System.String method)
     // Offset: 0x187E7B8
-    static System::Delegate* CreateDelegate(System::Type* type, System::Type* target, ::StringW method);
+    static ::System::Delegate* CreateDelegate(::System::Type* type, ::System::Type* target, ::StringW method);
     // static public System.Delegate CreateDelegate(System.Type type, System.Object target, System.String method, System.Boolean ignoreCase, System.Boolean throwOnBindFailure)
     // Offset: 0x187E7C4
-    static System::Delegate* CreateDelegate(System::Type* type, ::Il2CppObject* target, ::StringW method, bool ignoreCase, bool throwOnBindFailure);
+    static ::System::Delegate* CreateDelegate(::System::Type* type, ::Il2CppObject* target, ::StringW method, bool ignoreCase, bool throwOnBindFailure);
     // static public System.Delegate CreateDelegate(System.Type type, System.Object target, System.String method, System.Boolean ignoreCase)
     // Offset: 0x187E294
-    static System::Delegate* CreateDelegate(System::Type* type, ::Il2CppObject* target, ::StringW method, bool ignoreCase);
+    static ::System::Delegate* CreateDelegate(::System::Type* type, ::Il2CppObject* target, ::StringW method, bool ignoreCase);
     // public System.Object DynamicInvoke(params System.Object[] args)
     // Offset: 0x187E8C0
     ::Il2CppObject* DynamicInvoke(::ArrayW<::Il2CppObject*> args);
@@ -235,34 +235,34 @@ namespace System {
     ::Il2CppObject* Clone();
     // protected System.Reflection.MethodInfo GetMethodImpl()
     // Offset: 0x187EEF0
-    System::Reflection::MethodInfo* GetMethodImpl();
+    ::System::Reflection::MethodInfo* GetMethodImpl();
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x187EFBC
-    void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
+    void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
     // public System.Delegate[] GetInvocationList()
     // Offset: 0x187F1E8
-    ::ArrayW<System::Delegate*> GetInvocationList();
+    ::ArrayW<::System::Delegate*> GetInvocationList();
     // static public System.Delegate Combine(System.Delegate a, System.Delegate b)
     // Offset: 0x187F288
-    static System::Delegate* Combine(System::Delegate* a, System::Delegate* b);
+    static ::System::Delegate* Combine(::System::Delegate* a, ::System::Delegate* b);
     // static public System.Delegate Combine(params System.Delegate[] delegates)
     // Offset: 0x187F47C
-    static System::Delegate* Combine(::ArrayW<System::Delegate*> delegates);
+    static ::System::Delegate* Combine(::ArrayW<::System::Delegate*> delegates);
     // protected System.Delegate CombineImpl(System.Delegate d)
     // Offset: 0x187F4F4
-    System::Delegate* CombineImpl(System::Delegate* d);
+    ::System::Delegate* CombineImpl(::System::Delegate* d);
     // static public System.Delegate Remove(System.Delegate source, System.Delegate value)
     // Offset: 0x187F56C
-    static System::Delegate* Remove(System::Delegate* source, System::Delegate* value);
+    static ::System::Delegate* Remove(::System::Delegate* source, ::System::Delegate* value);
     // protected System.Delegate RemoveImpl(System.Delegate d)
     // Offset: 0x187F758
-    System::Delegate* RemoveImpl(System::Delegate* d);
+    ::System::Delegate* RemoveImpl(::System::Delegate* d);
     // static System.Delegate CreateDelegateNoSecurityCheck(System.RuntimeType type, System.Object firstArgument, System.Reflection.MethodInfo method)
     // Offset: 0x187F7B0
-    static System::Delegate* CreateDelegateNoSecurityCheck(System::RuntimeType* type, ::Il2CppObject* firstArgument, System::Reflection::MethodInfo* method);
+    static ::System::Delegate* CreateDelegateNoSecurityCheck(::System::RuntimeType* type, ::Il2CppObject* firstArgument, ::System::Reflection::MethodInfo* method);
     // static System.MulticastDelegate AllocDelegateLike_internal(System.Delegate d)
     // Offset: 0x187F7B8
-    static System::MulticastDelegate* AllocDelegateLike_internal(System::Delegate* d);
+    static ::System::MulticastDelegate* AllocDelegateLike_internal(::System::Delegate* d);
     // public override System.Boolean Equals(System.Object obj)
     // Offset: 0x187ECA8
     // Implemented from: System.Object
@@ -279,13 +279,13 @@ namespace System {
   static_assert(sizeof(Delegate) == 0x61);
   // static public System.Boolean op_Equality(System.Delegate d1, System.Delegate d2)
   // Offset: 0x187F788
-  bool operator ==(System::Delegate* d1, System::Delegate& d2);
+  bool operator ==(::System::Delegate* d1, ::System::Delegate& d2);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Delegate::get_Method
 // Il2CppName: get_Method
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (System::Delegate::*)()>(&System::Delegate::get_Method)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (System::Delegate::*)()>(&System::Delegate::get_Method)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Delegate*), "get_Method", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -301,7 +301,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Delegate::GetVirtualMethod_internal
 // Il2CppName: GetVirtualMethod_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (System::Delegate::*)()>(&System::Delegate::GetVirtualMethod_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (System::Delegate::*)()>(&System::Delegate::GetVirtualMethod_internal)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Delegate*), "GetVirtualMethod_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -309,7 +309,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Delegate::CreateDelegate_internal
 // Il2CppName: CreateDelegate_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Delegate* (*)(System::Type*, ::Il2CppObject*, System::Reflection::MethodInfo*, bool)>(&System::Delegate::CreateDelegate_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Delegate* (*)(::System::Type*, ::Il2CppObject*, ::System::Reflection::MethodInfo*, bool)>(&System::Delegate::CreateDelegate_internal)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -321,7 +321,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Del
 // Writing MetadataGetter for method: System::Delegate::arg_type_match
 // Il2CppName: arg_type_match
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, System::Type*)>(&System::Delegate::arg_type_match)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&System::Delegate::arg_type_match)> {
   static const MethodInfo* get() {
     static auto* delArgType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* argType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -331,7 +331,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Delegate::arg_type_match_this
 // Il2CppName: arg_type_match_this
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, System::Type*, bool)>(&System::Delegate::arg_type_match_this)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*, bool)>(&System::Delegate::arg_type_match_this)> {
   static const MethodInfo* get() {
     static auto* delArgType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* argType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -342,7 +342,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Delegate::return_type_match
 // Il2CppName: return_type_match
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, System::Type*)>(&System::Delegate::return_type_match)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&System::Delegate::return_type_match)> {
   static const MethodInfo* get() {
     static auto* delReturnType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* returnType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -352,7 +352,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Delegate::CreateDelegate
 // Il2CppName: CreateDelegate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Delegate* (*)(System::Type*, ::Il2CppObject*, System::Reflection::MethodInfo*, bool)>(&System::Delegate::CreateDelegate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Delegate* (*)(::System::Type*, ::Il2CppObject*, ::System::Reflection::MethodInfo*, bool)>(&System::Delegate::CreateDelegate)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* firstArgument = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -364,7 +364,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Del
 // Writing MetadataGetter for method: System::Delegate::CreateDelegate
 // Il2CppName: CreateDelegate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Delegate* (*)(System::Type*, ::Il2CppObject*, System::Reflection::MethodInfo*, bool, bool)>(&System::Delegate::CreateDelegate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Delegate* (*)(::System::Type*, ::Il2CppObject*, ::System::Reflection::MethodInfo*, bool, bool)>(&System::Delegate::CreateDelegate)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* firstArgument = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -377,7 +377,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Del
 // Writing MetadataGetter for method: System::Delegate::CreateDelegate
 // Il2CppName: CreateDelegate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Delegate* (*)(System::Type*, ::Il2CppObject*, System::Reflection::MethodInfo*)>(&System::Delegate::CreateDelegate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Delegate* (*)(::System::Type*, ::Il2CppObject*, ::System::Reflection::MethodInfo*)>(&System::Delegate::CreateDelegate)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* firstArgument = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -388,7 +388,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Del
 // Writing MetadataGetter for method: System::Delegate::CreateDelegate
 // Il2CppName: CreateDelegate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Delegate* (*)(System::Type*, System::Reflection::MethodInfo*, bool)>(&System::Delegate::CreateDelegate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Delegate* (*)(::System::Type*, ::System::Reflection::MethodInfo*, bool)>(&System::Delegate::CreateDelegate)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* method = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodInfo")->byval_arg;
@@ -399,7 +399,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Del
 // Writing MetadataGetter for method: System::Delegate::CreateDelegate
 // Il2CppName: CreateDelegate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Delegate* (*)(System::Type*, System::Reflection::MethodInfo*)>(&System::Delegate::CreateDelegate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Delegate* (*)(::System::Type*, ::System::Reflection::MethodInfo*)>(&System::Delegate::CreateDelegate)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* method = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodInfo")->byval_arg;
@@ -409,7 +409,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Del
 // Writing MetadataGetter for method: System::Delegate::CreateDelegate
 // Il2CppName: CreateDelegate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Delegate* (*)(System::Type*, ::Il2CppObject*, ::StringW)>(&System::Delegate::CreateDelegate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Delegate* (*)(::System::Type*, ::Il2CppObject*, ::StringW)>(&System::Delegate::CreateDelegate)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -420,7 +420,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Del
 // Writing MetadataGetter for method: System::Delegate::GetCandidateMethod
 // Il2CppName: GetCandidateMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (*)(System::Type*, System::Type*, ::StringW, System::Reflection::BindingFlags, bool, bool)>(&System::Delegate::GetCandidateMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (*)(::System::Type*, ::System::Type*, ::StringW, ::System::Reflection::BindingFlags, bool, bool)>(&System::Delegate::GetCandidateMethod)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -434,7 +434,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Delegate::CreateDelegate
 // Il2CppName: CreateDelegate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Delegate* (*)(System::Type*, System::Type*, ::StringW, bool, bool)>(&System::Delegate::CreateDelegate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Delegate* (*)(::System::Type*, ::System::Type*, ::StringW, bool, bool)>(&System::Delegate::CreateDelegate)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -447,7 +447,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Del
 // Writing MetadataGetter for method: System::Delegate::CreateDelegate
 // Il2CppName: CreateDelegate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Delegate* (*)(System::Type*, System::Type*, ::StringW)>(&System::Delegate::CreateDelegate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Delegate* (*)(::System::Type*, ::System::Type*, ::StringW)>(&System::Delegate::CreateDelegate)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -458,7 +458,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Del
 // Writing MetadataGetter for method: System::Delegate::CreateDelegate
 // Il2CppName: CreateDelegate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Delegate* (*)(System::Type*, ::Il2CppObject*, ::StringW, bool, bool)>(&System::Delegate::CreateDelegate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Delegate* (*)(::System::Type*, ::Il2CppObject*, ::StringW, bool, bool)>(&System::Delegate::CreateDelegate)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -471,7 +471,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Del
 // Writing MetadataGetter for method: System::Delegate::CreateDelegate
 // Il2CppName: CreateDelegate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Delegate* (*)(System::Type*, ::Il2CppObject*, ::StringW, bool)>(&System::Delegate::CreateDelegate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Delegate* (*)(::System::Type*, ::Il2CppObject*, ::StringW, bool)>(&System::Delegate::CreateDelegate)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -517,7 +517,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Delegate::GetMethodImpl
 // Il2CppName: GetMethodImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (System::Delegate::*)()>(&System::Delegate::GetMethodImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (System::Delegate::*)()>(&System::Delegate::GetMethodImpl)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Delegate*), "GetMethodImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -525,7 +525,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Delegate::GetObjectData
 // Il2CppName: GetObjectData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Delegate::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::Delegate::GetObjectData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Delegate::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&System::Delegate::GetObjectData)> {
   static const MethodInfo* get() {
     static auto* info = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
@@ -535,7 +535,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Delegate::GetInvocationList
 // Il2CppName: GetInvocationList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Delegate*> (System::Delegate::*)()>(&System::Delegate::GetInvocationList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Delegate*> (System::Delegate::*)()>(&System::Delegate::GetInvocationList)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Delegate*), "GetInvocationList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -543,7 +543,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Sy
 // Writing MetadataGetter for method: System::Delegate::Combine
 // Il2CppName: Combine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Delegate* (*)(System::Delegate*, System::Delegate*)>(&System::Delegate::Combine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Delegate* (*)(::System::Delegate*, ::System::Delegate*)>(&System::Delegate::Combine)> {
   static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("System", "Delegate")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("System", "Delegate")->byval_arg;
@@ -553,7 +553,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Del
 // Writing MetadataGetter for method: System::Delegate::Combine
 // Il2CppName: Combine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Delegate* (*)(::ArrayW<System::Delegate*>)>(&System::Delegate::Combine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Delegate* (*)(::ArrayW<::System::Delegate*>)>(&System::Delegate::Combine)> {
   static const MethodInfo* get() {
     static auto* delegates = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Delegate"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Delegate*), "Combine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{delegates});
@@ -562,7 +562,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Del
 // Writing MetadataGetter for method: System::Delegate::CombineImpl
 // Il2CppName: CombineImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Delegate* (System::Delegate::*)(System::Delegate*)>(&System::Delegate::CombineImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Delegate* (System::Delegate::*)(::System::Delegate*)>(&System::Delegate::CombineImpl)> {
   static const MethodInfo* get() {
     static auto* d = &::il2cpp_utils::GetClassFromName("System", "Delegate")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Delegate*), "CombineImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{d});
@@ -571,7 +571,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Del
 // Writing MetadataGetter for method: System::Delegate::Remove
 // Il2CppName: Remove
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Delegate* (*)(System::Delegate*, System::Delegate*)>(&System::Delegate::Remove)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Delegate* (*)(::System::Delegate*, ::System::Delegate*)>(&System::Delegate::Remove)> {
   static const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("System", "Delegate")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Delegate")->byval_arg;
@@ -581,7 +581,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Del
 // Writing MetadataGetter for method: System::Delegate::RemoveImpl
 // Il2CppName: RemoveImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Delegate* (System::Delegate::*)(System::Delegate*)>(&System::Delegate::RemoveImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Delegate* (System::Delegate::*)(::System::Delegate*)>(&System::Delegate::RemoveImpl)> {
   static const MethodInfo* get() {
     static auto* d = &::il2cpp_utils::GetClassFromName("System", "Delegate")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Delegate*), "RemoveImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{d});
@@ -590,7 +590,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Del
 // Writing MetadataGetter for method: System::Delegate::CreateDelegateNoSecurityCheck
 // Il2CppName: CreateDelegateNoSecurityCheck
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Delegate* (*)(System::RuntimeType*, ::Il2CppObject*, System::Reflection::MethodInfo*)>(&System::Delegate::CreateDelegateNoSecurityCheck)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Delegate* (*)(::System::RuntimeType*, ::Il2CppObject*, ::System::Reflection::MethodInfo*)>(&System::Delegate::CreateDelegateNoSecurityCheck)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "RuntimeType")->byval_arg;
     static auto* firstArgument = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -601,7 +601,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Del
 // Writing MetadataGetter for method: System::Delegate::AllocDelegateLike_internal
 // Il2CppName: AllocDelegateLike_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::MulticastDelegate* (*)(System::Delegate*)>(&System::Delegate::AllocDelegateLike_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::MulticastDelegate* (*)(::System::Delegate*)>(&System::Delegate::AllocDelegateLike_internal)> {
   static const MethodInfo* get() {
     static auto* d = &::il2cpp_utils::GetClassFromName("System", "Delegate")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Delegate*), "AllocDelegateLike_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{d});

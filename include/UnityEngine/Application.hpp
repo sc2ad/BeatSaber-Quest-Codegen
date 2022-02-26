@@ -44,8 +44,8 @@ namespace UnityEngine {
   class Application;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Application);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Application*, "UnityEngine", "Application");
+NEED_NO_BOX(::UnityEngine::Application);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Application*, "UnityEngine", "Application");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -72,43 +72,43 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: 11A3750
   class Application : public ::Il2CppObject {
     public:
-    // Nested type: UnityEngine::Application::LowMemoryCallback
+    // Nested type: ::UnityEngine::Application::LowMemoryCallback
     class LowMemoryCallback;
-    // Nested type: UnityEngine::Application::LogCallback
+    // Nested type: ::UnityEngine::Application::LogCallback
     class LogCallback;
     // [DebuggerBrowsableAttribute] Offset: 0x11A895C
     // Get static field: static private UnityEngine.Application/UnityEngine.LowMemoryCallback lowMemory
-    static UnityEngine::Application::LowMemoryCallback* _get_lowMemory();
+    static ::UnityEngine::Application::LowMemoryCallback* _get_lowMemory();
     // Set static field: static private UnityEngine.Application/UnityEngine.LowMemoryCallback lowMemory
-    static void _set_lowMemory(UnityEngine::Application::LowMemoryCallback* value);
+    static void _set_lowMemory(::UnityEngine::Application::LowMemoryCallback* value);
     // Get static field: static private UnityEngine.Application/UnityEngine.LogCallback s_LogCallbackHandler
-    static UnityEngine::Application::LogCallback* _get_s_LogCallbackHandler();
+    static ::UnityEngine::Application::LogCallback* _get_s_LogCallbackHandler();
     // Set static field: static private UnityEngine.Application/UnityEngine.LogCallback s_LogCallbackHandler
-    static void _set_s_LogCallbackHandler(UnityEngine::Application::LogCallback* value);
+    static void _set_s_LogCallbackHandler(::UnityEngine::Application::LogCallback* value);
     // Get static field: static private UnityEngine.Application/UnityEngine.LogCallback s_LogCallbackHandlerThreaded
-    static UnityEngine::Application::LogCallback* _get_s_LogCallbackHandlerThreaded();
+    static ::UnityEngine::Application::LogCallback* _get_s_LogCallbackHandlerThreaded();
     // Set static field: static private UnityEngine.Application/UnityEngine.LogCallback s_LogCallbackHandlerThreaded
-    static void _set_s_LogCallbackHandlerThreaded(UnityEngine::Application::LogCallback* value);
+    static void _set_s_LogCallbackHandlerThreaded(::UnityEngine::Application::LogCallback* value);
     // [DebuggerBrowsableAttribute] Offset: 0x11A8998
     // Get static field: static private System.Action`1<System.Boolean> focusChanged
-    static System::Action_1<bool>* _get_focusChanged();
+    static ::System::Action_1<bool>* _get_focusChanged();
     // Set static field: static private System.Action`1<System.Boolean> focusChanged
-    static void _set_focusChanged(System::Action_1<bool>* value);
+    static void _set_focusChanged(::System::Action_1<bool>* value);
     // [DebuggerBrowsableAttribute] Offset: 0x11A89D4
     // Get static field: static private System.Action`1<System.String> deepLinkActivated
-    static System::Action_1<::StringW>* _get_deepLinkActivated();
+    static ::System::Action_1<::StringW>* _get_deepLinkActivated();
     // Set static field: static private System.Action`1<System.String> deepLinkActivated
-    static void _set_deepLinkActivated(System::Action_1<::StringW>* value);
+    static void _set_deepLinkActivated(::System::Action_1<::StringW>* value);
     // [DebuggerBrowsableAttribute] Offset: 0x11A8A10
     // Get static field: static private System.Func`1<System.Boolean> wantsToQuit
-    static System::Func_1<bool>* _get_wantsToQuit();
+    static ::System::Func_1<bool>* _get_wantsToQuit();
     // Set static field: static private System.Func`1<System.Boolean> wantsToQuit
-    static void _set_wantsToQuit(System::Func_1<bool>* value);
+    static void _set_wantsToQuit(::System::Func_1<bool>* value);
     // [DebuggerBrowsableAttribute] Offset: 0x11A8A4C
     // Get static field: static private System.Action quitting
-    static System::Action* _get_quitting();
+    static ::System::Action* _get_quitting();
     // Set static field: static private System.Action quitting
-    static void _set_quitting(System::Action* value);
+    static void _set_quitting(::System::Action* value);
     // static public System.Boolean get_isPlaying()
     // Offset: 0x1EAA3FC
     static bool get_isPlaying();
@@ -147,40 +147,40 @@ namespace UnityEngine {
     static void set_targetFrameRate(int value);
     // static public System.Void set_backgroundLoadingPriority(UnityEngine.ThreadPriority value)
     // Offset: 0x1EAA704
-    static void set_backgroundLoadingPriority(UnityEngine::ThreadPriority value);
+    static void set_backgroundLoadingPriority(::UnityEngine::ThreadPriority value);
     // static public UnityEngine.RuntimePlatform get_platform()
     // Offset: 0x1EAA744
-    static UnityEngine::RuntimePlatform get_platform();
+    static ::UnityEngine::RuntimePlatform get_platform();
     // static public System.Boolean get_isMobilePlatform()
     // Offset: 0x1EAA778
     static bool get_isMobilePlatform();
     // static public UnityEngine.SystemLanguage get_systemLanguage()
     // Offset: 0x1EAA7F0
-    static UnityEngine::SystemLanguage get_systemLanguage();
+    static ::UnityEngine::SystemLanguage get_systemLanguage();
     // static public UnityEngine.NetworkReachability get_internetReachability()
     // Offset: 0x1EAA824
-    static UnityEngine::NetworkReachability get_internetReachability();
+    static ::UnityEngine::NetworkReachability get_internetReachability();
     // static public System.Boolean get_isEditor()
     // Offset: 0x1EABF40
     static bool get_isEditor();
     // static public System.Void add_logMessageReceived(UnityEngine.Application/UnityEngine.LogCallback value)
     // Offset: 0x1EAAAC4
-    static void add_logMessageReceived(UnityEngine::Application::LogCallback* value);
+    static void add_logMessageReceived(::UnityEngine::Application::LogCallback* value);
     // static public System.Void remove_logMessageReceived(UnityEngine.Application/UnityEngine.LogCallback value)
     // Offset: 0x1EAAB74
-    static void remove_logMessageReceived(UnityEngine::Application::LogCallback* value);
+    static void remove_logMessageReceived(::UnityEngine::Application::LogCallback* value);
     // static public System.Void add_logMessageReceivedThreaded(UnityEngine.Application/UnityEngine.LogCallback value)
     // Offset: 0x1EAAC00
-    static void add_logMessageReceivedThreaded(UnityEngine::Application::LogCallback* value);
+    static void add_logMessageReceivedThreaded(::UnityEngine::Application::LogCallback* value);
     // static public System.Void remove_logMessageReceivedThreaded(UnityEngine.Application/UnityEngine.LogCallback value)
     // Offset: 0x1EAACB0
-    static void remove_logMessageReceivedThreaded(UnityEngine::Application::LogCallback* value);
+    static void remove_logMessageReceivedThreaded(::UnityEngine::Application::LogCallback* value);
     // static public System.Void add_onBeforeRender(UnityEngine.Events.UnityAction value)
     // Offset: 0x1EAB20C
-    static void add_onBeforeRender(UnityEngine::Events::UnityAction* value);
+    static void add_onBeforeRender(::UnityEngine::Events::UnityAction* value);
     // static public System.Void remove_onBeforeRender(UnityEngine.Events.UnityAction value)
     // Offset: 0x1EAB5AC
-    static void remove_onBeforeRender(UnityEngine::Events::UnityAction* value);
+    static void remove_onBeforeRender(::UnityEngine::Events::UnityAction* value);
     // static public System.Void Quit(System.Int32 exitCode)
     // Offset: 0x1EAA2C4
     static void Quit(int exitCode);
@@ -204,7 +204,7 @@ namespace UnityEngine {
     static void CallLowMemory();
     // static private System.Void CallLogCallback(System.String logString, System.String stackTrace, UnityEngine.LogType type, System.Boolean invokedOnMainThread)
     // Offset: 0x1EAAD3C
-    static void CallLogCallback(::StringW logString, ::StringW stackTrace, UnityEngine::LogType type, bool invokedOnMainThread);
+    static void CallLogCallback(::StringW logString, ::StringW stackTrace, ::UnityEngine::LogType type, bool invokedOnMainThread);
     // static private System.Boolean Internal_ApplicationWantsToQuit()
     // Offset: 0x1EAB910
     static bool Internal_ApplicationWantsToQuit();
@@ -325,7 +325,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 // Writing MetadataGetter for method: UnityEngine::Application::set_backgroundLoadingPriority
 // Il2CppName: set_backgroundLoadingPriority
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ThreadPriority)>(&UnityEngine::Application::set_backgroundLoadingPriority)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::ThreadPriority)>(&UnityEngine::Application::set_backgroundLoadingPriority)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "ThreadPriority")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "set_backgroundLoadingPriority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -334,7 +334,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Application::get_platform
 // Il2CppName: get_platform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RuntimePlatform (*)()>(&UnityEngine::Application::get_platform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RuntimePlatform (*)()>(&UnityEngine::Application::get_platform)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "get_platform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -350,7 +350,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Writing MetadataGetter for method: UnityEngine::Application::get_systemLanguage
 // Il2CppName: get_systemLanguage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::SystemLanguage (*)()>(&UnityEngine::Application::get_systemLanguage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::SystemLanguage (*)()>(&UnityEngine::Application::get_systemLanguage)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "get_systemLanguage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -358,7 +358,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Application::get_internetReachability
 // Il2CppName: get_internetReachability
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::NetworkReachability (*)()>(&UnityEngine::Application::get_internetReachability)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::NetworkReachability (*)()>(&UnityEngine::Application::get_internetReachability)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "get_internetReachability", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -374,7 +374,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Writing MetadataGetter for method: UnityEngine::Application::add_logMessageReceived
 // Il2CppName: add_logMessageReceived
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Application::LogCallback*)>(&UnityEngine::Application::add_logMessageReceived)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Application::LogCallback*)>(&UnityEngine::Application::add_logMessageReceived)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Application/LogCallback")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "add_logMessageReceived", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -383,7 +383,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Application::remove_logMessageReceived
 // Il2CppName: remove_logMessageReceived
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Application::LogCallback*)>(&UnityEngine::Application::remove_logMessageReceived)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Application::LogCallback*)>(&UnityEngine::Application::remove_logMessageReceived)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Application/LogCallback")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "remove_logMessageReceived", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -392,7 +392,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Application::add_logMessageReceivedThreaded
 // Il2CppName: add_logMessageReceivedThreaded
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Application::LogCallback*)>(&UnityEngine::Application::add_logMessageReceivedThreaded)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Application::LogCallback*)>(&UnityEngine::Application::add_logMessageReceivedThreaded)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Application/LogCallback")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "add_logMessageReceivedThreaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -401,7 +401,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Application::remove_logMessageReceivedThreaded
 // Il2CppName: remove_logMessageReceivedThreaded
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Application::LogCallback*)>(&UnityEngine::Application::remove_logMessageReceivedThreaded)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Application::LogCallback*)>(&UnityEngine::Application::remove_logMessageReceivedThreaded)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Application/LogCallback")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "remove_logMessageReceivedThreaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -410,7 +410,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Application::add_onBeforeRender
 // Il2CppName: add_onBeforeRender
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Events::UnityAction*)>(&UnityEngine::Application::add_onBeforeRender)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Events::UnityAction*)>(&UnityEngine::Application::add_onBeforeRender)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityAction")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "add_onBeforeRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -419,7 +419,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Application::remove_onBeforeRender
 // Il2CppName: remove_onBeforeRender
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Events::UnityAction*)>(&UnityEngine::Application::remove_onBeforeRender)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Events::UnityAction*)>(&UnityEngine::Application::remove_onBeforeRender)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityAction")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "remove_onBeforeRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -489,7 +489,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::Application::CallLogCallback
 // Il2CppName: CallLogCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW, UnityEngine::LogType, bool)>(&UnityEngine::Application::CallLogCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW, ::UnityEngine::LogType, bool)>(&UnityEngine::Application::CallLogCallback)> {
   static const MethodInfo* get() {
     static auto* logString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* stackTrace = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

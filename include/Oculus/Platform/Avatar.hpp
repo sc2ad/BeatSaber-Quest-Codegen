@@ -12,8 +12,8 @@ namespace Oculus::Platform {
   class Avatar;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Avatar);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Avatar*, "Oculus.Platform", "Avatar");
+NEED_NO_BOX(::Oculus::Platform::Avatar);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Avatar*, "Oculus.Platform", "Avatar");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x10

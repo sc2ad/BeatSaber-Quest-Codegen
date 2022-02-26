@@ -20,8 +20,8 @@ namespace NUnit::Framework::Internal {
   class StackFilter;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Internal::StackFilter);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::StackFilter*, "NUnit.Framework.Internal", "StackFilter");
+NEED_NO_BOX(::NUnit::Framework::Internal::StackFilter);
+DEFINE_IL2CPP_ARG_TYPE(::NUnit::Framework::Internal::StackFilter*, "NUnit.Framework.Internal", "StackFilter");
 // Type namespace: NUnit.Framework.Internal
 namespace NUnit::Framework::Internal {
   // Size: 0x10
@@ -31,9 +31,9 @@ namespace NUnit::Framework::Internal {
   class StackFilter : public ::Il2CppObject {
     public:
     // Get static field: static private readonly System.Text.RegularExpressions.Regex assertOrAssumeRegex
-    static System::Text::RegularExpressions::Regex* _get_assertOrAssumeRegex();
+    static ::System::Text::RegularExpressions::Regex* _get_assertOrAssumeRegex();
     // Set static field: static private readonly System.Text.RegularExpressions.Regex assertOrAssumeRegex
-    static void _set_assertOrAssumeRegex(System::Text::RegularExpressions::Regex* value);
+    static void _set_assertOrAssumeRegex(::System::Text::RegularExpressions::Regex* value);
     // static private System.Void .cctor()
     // Offset: 0x28B6800
     static void _cctor();

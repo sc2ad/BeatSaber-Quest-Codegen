@@ -12,8 +12,8 @@ namespace System::Reflection::Emit {
   class SignatureHelper;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Reflection::Emit::SignatureHelper);
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Emit::SignatureHelper*, "System.Reflection.Emit", "SignatureHelper");
+NEED_NO_BOX(::System::Reflection::Emit::SignatureHelper);
+DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::Emit::SignatureHelper*, "System.Reflection.Emit", "SignatureHelper");
 // Type namespace: System.Reflection.Emit
 namespace System::Reflection::Emit {
   // Size: 0x10

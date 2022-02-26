@@ -34,8 +34,8 @@ namespace UnityEngine {
   class Event;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Event);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Event*, "UnityEngine", "Event");
+NEED_NO_BOX(::UnityEngine::Event);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Event*, "UnityEngine", "Event");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -59,42 +59,42 @@ namespace UnityEngine {
     // System.IntPtr m_Ptr
     // Size: 0x8
     // Offset: 0x10
-    System::IntPtr m_Ptr;
+    ::System::IntPtr m_Ptr;
     // Field size check
-    static_assert(sizeof(System::IntPtr) == 0x8);
+    static_assert(sizeof(::System::IntPtr) == 0x8);
     public:
-    // Creating conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const noexcept {
+    // Creating conversion operator: operator ::System::IntPtr
+    constexpr operator ::System::IntPtr() const noexcept {
       return m_Ptr;
     }
     // Get static field: static private UnityEngine.Event s_Current
-    static UnityEngine::Event* _get_s_Current();
+    static ::UnityEngine::Event* _get_s_Current();
     // Set static field: static private UnityEngine.Event s_Current
-    static void _set_s_Current(UnityEngine::Event* value);
+    static void _set_s_Current(::UnityEngine::Event* value);
     // Get static field: static private UnityEngine.Event s_MasterEvent
-    static UnityEngine::Event* _get_s_MasterEvent();
+    static ::UnityEngine::Event* _get_s_MasterEvent();
     // Set static field: static private UnityEngine.Event s_MasterEvent
-    static void _set_s_MasterEvent(UnityEngine::Event* value);
+    static void _set_s_MasterEvent(::UnityEngine::Event* value);
     // Get instance field reference: System.IntPtr m_Ptr
-    System::IntPtr& dyn_m_Ptr();
+    ::System::IntPtr& dyn_m_Ptr();
     // public UnityEngine.EventType get_rawType()
     // Offset: 0x1F4FE10
-    UnityEngine::EventType get_rawType();
+    ::UnityEngine::EventType get_rawType();
     // public UnityEngine.Vector2 get_mousePosition()
     // Offset: 0x1F4FE50
-    UnityEngine::Vector2 get_mousePosition();
+    ::UnityEngine::Vector2 get_mousePosition();
     // public UnityEngine.Vector2 get_delta()
     // Offset: 0x1F4FEF8
-    UnityEngine::Vector2 get_delta();
+    ::UnityEngine::Vector2 get_delta();
     // public UnityEngine.PointerType get_pointerType()
     // Offset: 0x1F4FFA0
-    UnityEngine::PointerType get_pointerType();
+    ::UnityEngine::PointerType get_pointerType();
     // public UnityEngine.EventModifiers get_modifiers()
     // Offset: 0x1F4FFE0
-    UnityEngine::EventModifiers get_modifiers();
+    ::UnityEngine::EventModifiers get_modifiers();
     // public System.Void set_modifiers(UnityEngine.EventModifiers value)
     // Offset: 0x1F50020
-    void set_modifiers(UnityEngine::EventModifiers value);
+    void set_modifiers(::UnityEngine::EventModifiers value);
     // public System.Int32 get_clickCount()
     // Offset: 0x1F50070
     int get_clickCount();
@@ -106,19 +106,19 @@ namespace UnityEngine {
     void set_character(::Il2CppChar value);
     // public UnityEngine.KeyCode get_keyCode()
     // Offset: 0x1F50140
-    UnityEngine::KeyCode get_keyCode();
+    ::UnityEngine::KeyCode get_keyCode();
     // public System.Void set_keyCode(UnityEngine.KeyCode value)
     // Offset: 0x1F50180
-    void set_keyCode(UnityEngine::KeyCode value);
+    void set_keyCode(::UnityEngine::KeyCode value);
     // public System.Void set_displayIndex(System.Int32 value)
     // Offset: 0x1F501D0
     void set_displayIndex(int value);
     // public UnityEngine.EventType get_type()
     // Offset: 0x1F50220
-    UnityEngine::EventType get_type();
+    ::UnityEngine::EventType get_type();
     // public System.Void set_type(UnityEngine.EventType value)
     // Offset: 0x1F50260
-    void set_type(UnityEngine::EventType value);
+    void set_type(::UnityEngine::EventType value);
     // public System.String get_commandName()
     // Offset: 0x1F502B0
     ::StringW get_commandName();
@@ -136,7 +136,7 @@ namespace UnityEngine {
     bool get_command();
     // static public UnityEngine.Event get_current()
     // Offset: 0x1F50828
-    static UnityEngine::Event* get_current();
+    static ::UnityEngine::Event* get_current();
     // public System.Boolean get_isKey()
     // Offset: 0x1F50878
     bool get_isKey();
@@ -150,7 +150,7 @@ namespace UnityEngine {
     // Offset: 0x1F50580
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Event* New_ctor(int displayIndex) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Event::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Event::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Event*, creationType>(displayIndex)));
     }
     // private System.Void Internal_Use()
@@ -158,41 +158,41 @@ namespace UnityEngine {
     void Internal_Use();
     // static private System.IntPtr Internal_Create(System.Int32 displayIndex)
     // Offset: 0x1F50330
-    static System::IntPtr Internal_Create(int displayIndex);
+    static ::System::IntPtr Internal_Create(int displayIndex);
     // static private System.Void Internal_Destroy(System.IntPtr ptr)
     // Offset: 0x1F50370
-    static void Internal_Destroy(System::IntPtr ptr);
+    static void Internal_Destroy(::System::IntPtr ptr);
     // public UnityEngine.EventType GetTypeForControl(System.Int32 controlID)
     // Offset: 0x1F503B0
-    UnityEngine::EventType GetTypeForControl(int controlID);
+    ::UnityEngine::EventType GetTypeForControl(int controlID);
     // static public System.Boolean PopEvent(UnityEngine.Event outEvent)
     // Offset: 0x1F50400
-    static bool PopEvent(UnityEngine::Event* outEvent);
+    static bool PopEvent(::UnityEngine::Event* outEvent);
     // static private System.Void Internal_SetNativeEvent(System.IntPtr ptr)
     // Offset: 0x1F50440
-    static void Internal_SetNativeEvent(System::IntPtr ptr);
+    static void Internal_SetNativeEvent(::System::IntPtr ptr);
     // static System.Void Internal_MakeMasterEventCurrent(System.Int32 displayIndex)
     // Offset: 0x1F50480
     static void Internal_MakeMasterEventCurrent(int displayIndex);
     // static public UnityEngine.Event KeyboardEvent(System.String key)
     // Offset: 0x1F509B0
-    static UnityEngine::Event* KeyboardEvent(::StringW key);
+    static ::UnityEngine::Event* KeyboardEvent(::StringW key);
     // public System.Void Use()
     // Offset: 0x1F52E54
     void Use();
     // private System.Void get_mousePosition_Injected(out UnityEngine.Vector2 ret)
     // Offset: 0x1F4FEA8
-    void get_mousePosition_Injected(ByRef<UnityEngine::Vector2> ret);
+    void get_mousePosition_Injected(ByRef<::UnityEngine::Vector2> ret);
     // private System.Void get_delta_Injected(out UnityEngine.Vector2 ret)
     // Offset: 0x1F4FF50
-    void get_delta_Injected(ByRef<UnityEngine::Vector2> ret);
+    void get_delta_Injected(ByRef<::UnityEngine::Vector2> ret);
     // public System.Void .ctor()
     // Offset: 0x1F505DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Event* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Event::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Event::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Event*, creationType>()));
     }
     // protected override System.Void Finalize()
@@ -217,14 +217,14 @@ namespace UnityEngine {
     ::StringW ToString();
   }; // UnityEngine.Event
   #pragma pack(pop)
-  static check_size<sizeof(Event), 16 + sizeof(System::IntPtr)> __UnityEngine_EventSizeCheck;
+  static check_size<sizeof(Event), 16 + sizeof(::System::IntPtr)> __UnityEngine_EventSizeCheck;
   static_assert(sizeof(Event) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Event::get_rawType
 // Il2CppName: get_rawType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventType (UnityEngine::Event::*)()>(&UnityEngine::Event::get_rawType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::EventType (UnityEngine::Event::*)()>(&UnityEngine::Event::get_rawType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Event*), "get_rawType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -232,7 +232,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Event::get_mousePosition
 // Il2CppName: get_mousePosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::Event::*)()>(&UnityEngine::Event::get_mousePosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (UnityEngine::Event::*)()>(&UnityEngine::Event::get_mousePosition)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Event*), "get_mousePosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -240,7 +240,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Event::get_delta
 // Il2CppName: get_delta
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::Event::*)()>(&UnityEngine::Event::get_delta)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (UnityEngine::Event::*)()>(&UnityEngine::Event::get_delta)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Event*), "get_delta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -248,7 +248,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Event::get_pointerType
 // Il2CppName: get_pointerType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::PointerType (UnityEngine::Event::*)()>(&UnityEngine::Event::get_pointerType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::PointerType (UnityEngine::Event::*)()>(&UnityEngine::Event::get_pointerType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Event*), "get_pointerType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -256,7 +256,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Event::get_modifiers
 // Il2CppName: get_modifiers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventModifiers (UnityEngine::Event::*)()>(&UnityEngine::Event::get_modifiers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::EventModifiers (UnityEngine::Event::*)()>(&UnityEngine::Event::get_modifiers)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Event*), "get_modifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -264,7 +264,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Event::set_modifiers
 // Il2CppName: set_modifiers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Event::*)(UnityEngine::EventModifiers)>(&UnityEngine::Event::set_modifiers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Event::*)(::UnityEngine::EventModifiers)>(&UnityEngine::Event::set_modifiers)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "EventModifiers")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Event*), "set_modifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -298,7 +298,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Event::get_keyCode
 // Il2CppName: get_keyCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::KeyCode (UnityEngine::Event::*)()>(&UnityEngine::Event::get_keyCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::KeyCode (UnityEngine::Event::*)()>(&UnityEngine::Event::get_keyCode)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Event*), "get_keyCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -306,7 +306,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Event::set_keyCode
 // Il2CppName: set_keyCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Event::*)(UnityEngine::KeyCode)>(&UnityEngine::Event::set_keyCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Event::*)(::UnityEngine::KeyCode)>(&UnityEngine::Event::set_keyCode)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "KeyCode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Event*), "set_keyCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -324,7 +324,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Event::get_type
 // Il2CppName: get_type
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventType (UnityEngine::Event::*)()>(&UnityEngine::Event::get_type)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::EventType (UnityEngine::Event::*)()>(&UnityEngine::Event::get_type)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Event*), "get_type", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -332,7 +332,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Event::set_type
 // Il2CppName: set_type
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Event::*)(UnityEngine::EventType)>(&UnityEngine::Event::set_type)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Event::*)(::UnityEngine::EventType)>(&UnityEngine::Event::set_type)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "EventType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Event*), "set_type", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -381,7 +381,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::Event::get_current
 // Il2CppName: get_current
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Event* (*)()>(&UnityEngine::Event::get_current)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Event* (*)()>(&UnityEngine::Event::get_current)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Event*), "get_current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -425,7 +425,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Event::Internal_Create
 // Il2CppName: Internal_Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(int)>(&UnityEngine::Event::Internal_Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(int)>(&UnityEngine::Event::Internal_Create)> {
   static const MethodInfo* get() {
     static auto* displayIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Event*), "Internal_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{displayIndex});
@@ -434,7 +434,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::Event::Internal_Destroy
 // Il2CppName: Internal_Destroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&UnityEngine::Event::Internal_Destroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&UnityEngine::Event::Internal_Destroy)> {
   static const MethodInfo* get() {
     static auto* ptr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Event*), "Internal_Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ptr});
@@ -443,7 +443,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::Event::GetTypeForControl
 // Il2CppName: GetTypeForControl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventType (UnityEngine::Event::*)(int)>(&UnityEngine::Event::GetTypeForControl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::EventType (UnityEngine::Event::*)(int)>(&UnityEngine::Event::GetTypeForControl)> {
   static const MethodInfo* get() {
     static auto* controlID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Event*), "GetTypeForControl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{controlID});
@@ -452,7 +452,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Event::PopEvent
 // Il2CppName: PopEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Event*)>(&UnityEngine::Event::PopEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Event*)>(&UnityEngine::Event::PopEvent)> {
   static const MethodInfo* get() {
     static auto* outEvent = &::il2cpp_utils::GetClassFromName("UnityEngine", "Event")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Event*), "PopEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{outEvent});
@@ -461,7 +461,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Event::Internal_SetNativeEvent
 // Il2CppName: Internal_SetNativeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&UnityEngine::Event::Internal_SetNativeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&UnityEngine::Event::Internal_SetNativeEvent)> {
   static const MethodInfo* get() {
     static auto* ptr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Event*), "Internal_SetNativeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ptr});
@@ -479,7 +479,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 // Writing MetadataGetter for method: UnityEngine::Event::KeyboardEvent
 // Il2CppName: KeyboardEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Event* (*)(::StringW)>(&UnityEngine::Event::KeyboardEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Event* (*)(::StringW)>(&UnityEngine::Event::KeyboardEvent)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Event*), "KeyboardEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});
@@ -496,7 +496,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Event::get_mousePosition_Injected
 // Il2CppName: get_mousePosition_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Event::*)(ByRef<UnityEngine::Vector2>)>(&UnityEngine::Event::get_mousePosition_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Event::*)(ByRef<::UnityEngine::Vector2>)>(&UnityEngine::Event::get_mousePosition_Injected)> {
   static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Event*), "get_mousePosition_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
@@ -505,7 +505,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Event::get_delta_Injected
 // Il2CppName: get_delta_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Event::*)(ByRef<UnityEngine::Vector2>)>(&UnityEngine::Event::get_delta_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Event::*)(ByRef<::UnityEngine::Vector2>)>(&UnityEngine::Event::get_delta_Injected)> {
   static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Event*), "get_delta_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});

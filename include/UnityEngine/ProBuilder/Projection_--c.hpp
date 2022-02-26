@@ -28,8 +28,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::Projection::$$c);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Projection::$$c*, "UnityEngine.ProBuilder", "Projection/<>c");
+NEED_NO_BOX(::UnityEngine::ProBuilder::Projection::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Projection::$$c*, "UnityEngine.ProBuilder", "Projection/<>c");
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
   // Size: 0x10
@@ -40,33 +40,33 @@ namespace UnityEngine::ProBuilder {
   class Projection::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly UnityEngine.ProBuilder.Projection/UnityEngine.ProBuilder.<>c <>9
-    static UnityEngine::ProBuilder::Projection::$$c* _get_$$9();
+    static ::UnityEngine::ProBuilder::Projection::$$c* _get_$$9();
     // Set static field: static public readonly UnityEngine.ProBuilder.Projection/UnityEngine.ProBuilder.<>c <>9
-    static void _set_$$9(UnityEngine::ProBuilder::Projection::$$c* value);
+    static void _set_$$9(::UnityEngine::ProBuilder::Projection::$$c* value);
     // Get static field: static public System.Comparison`1<UnityEngine.ProBuilder.SimpleTuple`2<System.Single,UnityEngine.Vector2>> <>9__6_0
-    static System::Comparison_1<UnityEngine::ProBuilder::SimpleTuple_2<float, UnityEngine::Vector2>>* _get_$$9__6_0();
+    static ::System::Comparison_1<::UnityEngine::ProBuilder::SimpleTuple_2<float, ::UnityEngine::Vector2>>* _get_$$9__6_0();
     // Set static field: static public System.Comparison`1<UnityEngine.ProBuilder.SimpleTuple`2<System.Single,UnityEngine.Vector2>> <>9__6_0
-    static void _set_$$9__6_0(System::Comparison_1<UnityEngine::ProBuilder::SimpleTuple_2<float, UnityEngine::Vector2>>* value);
+    static void _set_$$9__6_0(::System::Comparison_1<::UnityEngine::ProBuilder::SimpleTuple_2<float, ::UnityEngine::Vector2>>* value);
     // Get static field: static public System.Func`2<UnityEngine.ProBuilder.SimpleTuple`2<System.Single,UnityEngine.Vector2>,UnityEngine.Vector2> <>9__6_1
-    static System::Func_2<UnityEngine::ProBuilder::SimpleTuple_2<float, UnityEngine::Vector2>, UnityEngine::Vector2>* _get_$$9__6_1();
+    static ::System::Func_2<::UnityEngine::ProBuilder::SimpleTuple_2<float, ::UnityEngine::Vector2>, ::UnityEngine::Vector2>* _get_$$9__6_1();
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.SimpleTuple`2<System.Single,UnityEngine.Vector2>,UnityEngine.Vector2> <>9__6_1
-    static void _set_$$9__6_1(System::Func_2<UnityEngine::ProBuilder::SimpleTuple_2<float, UnityEngine::Vector2>, UnityEngine::Vector2>* value);
+    static void _set_$$9__6_1(::System::Func_2<::UnityEngine::ProBuilder::SimpleTuple_2<float, ::UnityEngine::Vector2>, ::UnityEngine::Vector2>* value);
     // static private System.Void .cctor()
     // Offset: 0x1914294
     static void _cctor();
     // System.Int32 <Sort>b__6_0(UnityEngine.ProBuilder.SimpleTuple`2<System.Single,UnityEngine.Vector2> a, UnityEngine.ProBuilder.SimpleTuple`2<System.Single,UnityEngine.Vector2> b)
     // Offset: 0x1914300
-    int $Sort$b__6_0(UnityEngine::ProBuilder::SimpleTuple_2<float, UnityEngine::Vector2> a, UnityEngine::ProBuilder::SimpleTuple_2<float, UnityEngine::Vector2> b);
+    int $Sort$b__6_0(::UnityEngine::ProBuilder::SimpleTuple_2<float, ::UnityEngine::Vector2> a, ::UnityEngine::ProBuilder::SimpleTuple_2<float, ::UnityEngine::Vector2> b);
     // UnityEngine.Vector2 <Sort>b__6_1(UnityEngine.ProBuilder.SimpleTuple`2<System.Single,UnityEngine.Vector2> x)
     // Offset: 0x1914358
-    UnityEngine::Vector2 $Sort$b__6_1(UnityEngine::ProBuilder::SimpleTuple_2<float, UnityEngine::Vector2> x);
+    ::UnityEngine::Vector2 $Sort$b__6_1(::UnityEngine::ProBuilder::SimpleTuple_2<float, ::UnityEngine::Vector2> x);
     // public System.Void .ctor()
     // Offset: 0x19142F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Projection::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Projection::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::Projection::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Projection::$$c*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.Projection/UnityEngine.ProBuilder.<>c
@@ -84,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Projection::$$c::$Sort$b__6_0
 // Il2CppName: <Sort>b__6_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ProBuilder::Projection::$$c::*)(UnityEngine::ProBuilder::SimpleTuple_2<float, UnityEngine::Vector2>, UnityEngine::ProBuilder::SimpleTuple_2<float, UnityEngine::Vector2>)>(&UnityEngine::ProBuilder::Projection::$$c::$Sort$b__6_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ProBuilder::Projection::$$c::*)(::UnityEngine::ProBuilder::SimpleTuple_2<float, ::UnityEngine::Vector2>, ::UnityEngine::ProBuilder::SimpleTuple_2<float, ::UnityEngine::Vector2>)>(&UnityEngine::ProBuilder::Projection::$$c::$Sort$b__6_0)> {
   static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "SimpleTuple`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single"), ::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")})->byval_arg;
     static auto* b = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "SimpleTuple`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single"), ::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")})->byval_arg;
@@ -94,7 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Projection::$$c::$Sort$b__6_1
 // Il2CppName: <Sort>b__6_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::ProBuilder::Projection::$$c::*)(UnityEngine::ProBuilder::SimpleTuple_2<float, UnityEngine::Vector2>)>(&UnityEngine::ProBuilder::Projection::$$c::$Sort$b__6_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (UnityEngine::ProBuilder::Projection::$$c::*)(::UnityEngine::ProBuilder::SimpleTuple_2<float, ::UnityEngine::Vector2>)>(&UnityEngine::ProBuilder::Projection::$$c::$Sort$b__6_1)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "SimpleTuple`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single"), ::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Projection::$$c*), "<Sort>b__6_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});

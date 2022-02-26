@@ -25,8 +25,8 @@ namespace System::Collections::Generic {
   class DictionaryHashHelpers;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Collections::Generic::DictionaryHashHelpers);
-DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::DictionaryHashHelpers*, "System.Collections.Generic", "DictionaryHashHelpers");
+NEED_NO_BOX(::System::Collections::Generic::DictionaryHashHelpers);
+DEFINE_IL2CPP_ARG_TYPE(::System::Collections::Generic::DictionaryHashHelpers*, "System.Collections.Generic", "DictionaryHashHelpers");
 // Type namespace: System.Collections.Generic
 namespace System::Collections::Generic {
   // Size: 0x10
@@ -36,12 +36,12 @@ namespace System::Collections::Generic {
   class DictionaryHashHelpers : public ::Il2CppObject {
     public:
     // Get static field: static private readonly System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Object,System.Runtime.Serialization.SerializationInfo> <SerializationInfoTable>k__BackingField
-    static System::Runtime::CompilerServices::ConditionalWeakTable_2<::Il2CppObject*, System::Runtime::Serialization::SerializationInfo*>* _get_$SerializationInfoTable$k__BackingField();
+    static ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::Il2CppObject*, ::System::Runtime::Serialization::SerializationInfo*>* _get_$SerializationInfoTable$k__BackingField();
     // Set static field: static private readonly System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Object,System.Runtime.Serialization.SerializationInfo> <SerializationInfoTable>k__BackingField
-    static void _set_$SerializationInfoTable$k__BackingField(System::Runtime::CompilerServices::ConditionalWeakTable_2<::Il2CppObject*, System::Runtime::Serialization::SerializationInfo*>* value);
+    static void _set_$SerializationInfoTable$k__BackingField(::System::Runtime::CompilerServices::ConditionalWeakTable_2<::Il2CppObject*, ::System::Runtime::Serialization::SerializationInfo*>* value);
     // static System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Object,System.Runtime.Serialization.SerializationInfo> get_SerializationInfoTable()
     // Offset: 0x1ACE2EC
-    static System::Runtime::CompilerServices::ConditionalWeakTable_2<::Il2CppObject*, System::Runtime::Serialization::SerializationInfo*>* get_SerializationInfoTable();
+    static ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::Il2CppObject*, ::System::Runtime::Serialization::SerializationInfo*>* get_SerializationInfoTable();
     // static private System.Void .cctor()
     // Offset: 0x1ACE354
     static void _cctor();
@@ -52,7 +52,7 @@ namespace System::Collections::Generic {
 // Writing MetadataGetter for method: System::Collections::Generic::DictionaryHashHelpers::get_SerializationInfoTable
 // Il2CppName: get_SerializationInfoTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::CompilerServices::ConditionalWeakTable_2<::Il2CppObject*, System::Runtime::Serialization::SerializationInfo*>* (*)()>(&System::Collections::Generic::DictionaryHashHelpers::get_SerializationInfoTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::CompilerServices::ConditionalWeakTable_2<::Il2CppObject*, ::System::Runtime::Serialization::SerializationInfo*>* (*)()>(&System::Collections::Generic::DictionaryHashHelpers::get_SerializationInfoTable)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Collections::Generic::DictionaryHashHelpers*), "get_SerializationInfoTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

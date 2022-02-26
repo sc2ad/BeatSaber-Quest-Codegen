@@ -32,7 +32,7 @@ namespace System::Threading::Tasks {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(GlobalNamespace::TaskExtensions::$WaitForTask$d__1_1, "", "TaskExtensions/<WaitForTask>d__1`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::GlobalNamespace::TaskExtensions::$WaitForTask$d__1_1, "", "TaskExtensions/<WaitForTask>d__1`1");
 // Type namespace: 
 namespace GlobalNamespace {
   // WARNING Size may be invalid!
@@ -40,7 +40,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   template<typename T>
-  struct TaskExtensions::$WaitForTask$d__1_1/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
+  struct TaskExtensions::$WaitForTask$d__1_1/*, public ::System::ValueType, public ::System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
     public:
     // public System.Int32 <>1__state
@@ -52,101 +52,101 @@ namespace GlobalNamespace {
     // public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
     // Size: 0x20
     // Offset: 0x0
-    System::Runtime::CompilerServices::AsyncVoidMethodBuilder $$t__builder;
+    ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder $$t__builder;
     // Field size check
-    static_assert(sizeof(System::Runtime::CompilerServices::AsyncVoidMethodBuilder) == 0x20);
+    static_assert(sizeof(::System::Runtime::CompilerServices::AsyncVoidMethodBuilder) == 0x20);
     // public System.Threading.Tasks.TaskCompletionSource`1<T> tcs
     // Size: 0x8
     // Offset: 0x0
-    System::Threading::Tasks::TaskCompletionSource_1<T>* tcs;
+    ::System::Threading::Tasks::TaskCompletionSource_1<T>* tcs;
     // Field size check
-    static_assert(sizeof(System::Threading::Tasks::TaskCompletionSource_1<T>*) == 0x8);
+    static_assert(sizeof(::System::Threading::Tasks::TaskCompletionSource_1<T>*) == 0x8);
     // public System.Threading.Tasks.Task`1<T> task
     // Size: 0x8
     // Offset: 0x0
-    System::Threading::Tasks::Task_1<T>* task;
+    ::System::Threading::Tasks::Task_1<T>* task;
     // Field size check
-    static_assert(sizeof(System::Threading::Tasks::Task_1<T>*) == 0x8);
+    static_assert(sizeof(::System::Threading::Tasks::Task_1<T>*) == 0x8);
     // private System.Threading.Tasks.TaskCompletionSource`1<T> <>7__wrap1
     // Size: 0x8
     // Offset: 0x0
-    System::Threading::Tasks::TaskCompletionSource_1<T>* $$7__wrap1;
+    ::System::Threading::Tasks::TaskCompletionSource_1<T>* $$7__wrap1;
     // Field size check
-    static_assert(sizeof(System::Threading::Tasks::TaskCompletionSource_1<T>*) == 0x8);
+    static_assert(sizeof(::System::Threading::Tasks::TaskCompletionSource_1<T>*) == 0x8);
     // private System.Runtime.CompilerServices.TaskAwaiter`1<T> <>u__1
     // Size: 0xFFFFFFFF
     // Offset: 0x0
-    System::Runtime::CompilerServices::TaskAwaiter_1<T> $$u__1;
+    ::System::Runtime::CompilerServices::TaskAwaiter_1<T> $$u__1;
     public:
     // Creating value type constructor for type: $WaitForTask$d__1_1
-    constexpr $WaitForTask$d__1_1(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncVoidMethodBuilder $$t__builder_ = {}, System::Threading::Tasks::TaskCompletionSource_1<T>* tcs_ = {}, System::Threading::Tasks::Task_1<T>* task_ = {}, System::Threading::Tasks::TaskCompletionSource_1<T>* $$7__wrap1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<T> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, tcs{tcs_}, task{task_}, $$7__wrap1{$$7__wrap1_}, $$u__1{$$u__1_} {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    constexpr $WaitForTask$d__1_1(int $$1__state_ = {}, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder $$t__builder_ = {}, ::System::Threading::Tasks::TaskCompletionSource_1<T>* tcs_ = {}, ::System::Threading::Tasks::Task_1<T>* task_ = {}, ::System::Threading::Tasks::TaskCompletionSource_1<T>* $$7__wrap1_ = {}, ::System::Runtime::CompilerServices::TaskAwaiter_1<T> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, tcs{tcs_}, task{task_}, $$7__wrap1{$$7__wrap1_}, $$u__1{$$u__1_} {}
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
-    // Creating interface conversion operator: operator System::Runtime::CompilerServices::IAsyncStateMachine
-    operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
-      return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
+    // Creating interface conversion operator: operator ::System::Runtime::CompilerServices::IAsyncStateMachine
+    operator ::System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
+      return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Autogenerated instance field getter
     // Get instance field: public System.Int32 <>1__state
     int& dyn_$$1__state() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TaskExtensions::$WaitForTask$d__1_1::dyn_$$1__state");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TaskExtensions::$WaitForTask$d__1_1::dyn_$$1__state");
       auto ___internal__instance = *this;
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "<>1__state"))->offset;
       return *reinterpret_cast<int*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // Autogenerated instance field getter
     // Get instance field: public System.Runtime.CompilerServices.AsyncVoidMethodBuilder <>t__builder
-    System::Runtime::CompilerServices::AsyncVoidMethodBuilder& dyn_$$t__builder() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TaskExtensions::$WaitForTask$d__1_1::dyn_$$t__builder");
+    ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder& dyn_$$t__builder() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TaskExtensions::$WaitForTask$d__1_1::dyn_$$t__builder");
       auto ___internal__instance = *this;
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "<>t__builder"))->offset;
-      return *reinterpret_cast<System::Runtime::CompilerServices::AsyncVoidMethodBuilder*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+      return *reinterpret_cast<::System::Runtime::CompilerServices::AsyncVoidMethodBuilder*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // Autogenerated instance field getter
     // Get instance field: public System.Threading.Tasks.TaskCompletionSource`1<T> tcs
-    System::Threading::Tasks::TaskCompletionSource_1<T>*& dyn_tcs() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TaskExtensions::$WaitForTask$d__1_1::dyn_tcs");
+    ::System::Threading::Tasks::TaskCompletionSource_1<T>*& dyn_tcs() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TaskExtensions::$WaitForTask$d__1_1::dyn_tcs");
       auto ___internal__instance = *this;
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "tcs"))->offset;
-      return *reinterpret_cast<System::Threading::Tasks::TaskCompletionSource_1<T>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+      return *reinterpret_cast<::System::Threading::Tasks::TaskCompletionSource_1<T>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // Autogenerated instance field getter
     // Get instance field: public System.Threading.Tasks.Task`1<T> task
-    System::Threading::Tasks::Task_1<T>*& dyn_task() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TaskExtensions::$WaitForTask$d__1_1::dyn_task");
+    ::System::Threading::Tasks::Task_1<T>*& dyn_task() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TaskExtensions::$WaitForTask$d__1_1::dyn_task");
       auto ___internal__instance = *this;
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "task"))->offset;
-      return *reinterpret_cast<System::Threading::Tasks::Task_1<T>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+      return *reinterpret_cast<::System::Threading::Tasks::Task_1<T>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // Autogenerated instance field getter
     // Get instance field: private System.Threading.Tasks.TaskCompletionSource`1<T> <>7__wrap1
-    System::Threading::Tasks::TaskCompletionSource_1<T>*& dyn_$$7__wrap1() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TaskExtensions::$WaitForTask$d__1_1::dyn_$$7__wrap1");
+    ::System::Threading::Tasks::TaskCompletionSource_1<T>*& dyn_$$7__wrap1() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TaskExtensions::$WaitForTask$d__1_1::dyn_$$7__wrap1");
       auto ___internal__instance = *this;
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "<>7__wrap1"))->offset;
-      return *reinterpret_cast<System::Threading::Tasks::TaskCompletionSource_1<T>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+      return *reinterpret_cast<::System::Threading::Tasks::TaskCompletionSource_1<T>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // Autogenerated instance field getter
     // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<T> <>u__1
-    System::Runtime::CompilerServices::TaskAwaiter_1<T>& dyn_$$u__1() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TaskExtensions::$WaitForTask$d__1_1::dyn_$$u__1");
+    ::System::Runtime::CompilerServices::TaskAwaiter_1<T>& dyn_$$u__1() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TaskExtensions::$WaitForTask$d__1_1::dyn_$$u__1");
       auto ___internal__instance = *this;
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "<>u__1"))->offset;
-      return *reinterpret_cast<System::Runtime::CompilerServices::TaskAwaiter_1<T>*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+      return *reinterpret_cast<::System::Runtime::CompilerServices::TaskAwaiter_1<T>*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // private System.Void MoveNext()
     // Offset: 0xFFFFFFFF
     void MoveNext() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TaskExtensions::$WaitForTask$d__1_1::MoveNext");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TaskExtensions::$WaitForTask$d__1_1::MoveNext");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "MoveNext", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     // Offset: 0xFFFFFFFF
-    void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TaskExtensions::$WaitForTask$d__1_1::SetStateMachine");
+    void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TaskExtensions::$WaitForTask$d__1_1::SetStateMachine");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "SetStateMachine", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(stateMachine)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, stateMachine);
     }

@@ -14,8 +14,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase::$$c__DisplayClass10_0);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase::$$c__DisplayClass10_0*, "UnityEngine.ResourceManagement.ResourceProviders", "ResourceProviderBase/<>c__DisplayClass10_0");
+NEED_NO_BOX(::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase::$$c__DisplayClass10_0);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase::$$c__DisplayClass10_0*, "UnityEngine.ResourceManagement.ResourceProviders", "ResourceProviderBase/<>c__DisplayClass10_0");
 // Type namespace: UnityEngine.ResourceManagement.ResourceProviders
 namespace UnityEngine::ResourceManagement::ResourceProviders {
   // Size: 0x28
@@ -37,9 +37,9 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // public UnityEngine.ResourceManagement.ResourceProviders.ResourceProviderBase <>4__this
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase* $$4__this;
+    ::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase* $$4__this;
     // Field size check
-    static_assert(sizeof(UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase*) == 0x8);
+    static_assert(sizeof(::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase*) == 0x8);
     // public System.String id
     // Size: 0x8
     // Offset: 0x18
@@ -54,7 +54,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.ResourceManagement.ResourceProviders.ResourceProviderBase <>4__this
-    UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase*& dyn_$$4__this();
+    ::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase*& dyn_$$4__this();
     // Get instance field reference: public System.String id
     ::StringW& dyn_id();
     // Get instance field reference: public System.String data
@@ -68,7 +68,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResourceProviderBase::$$c__DisplayClass10_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase::$$c__DisplayClass10_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase::$$c__DisplayClass10_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResourceProviderBase::$$c__DisplayClass10_0*, creationType>()));
     }
   }; // UnityEngine.ResourceManagement.ResourceProviders.ResourceProviderBase/UnityEngine.ResourceManagement.ResourceProviders.<>c__DisplayClass10_0

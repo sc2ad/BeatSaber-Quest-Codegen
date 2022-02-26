@@ -21,8 +21,8 @@ namespace System::Runtime::Serialization {
   class IObjectReference;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Serialization::IObjectReference);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::IObjectReference*, "System.Runtime.Serialization", "IObjectReference");
+NEED_NO_BOX(::System::Runtime::Serialization::IObjectReference);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::IObjectReference*, "System.Runtime.Serialization", "IObjectReference");
 // Type namespace: System.Runtime.Serialization
 namespace System::Runtime::Serialization {
   // Size: 0x10
@@ -34,7 +34,7 @@ namespace System::Runtime::Serialization {
     public:
     // public System.Object GetRealObject(System.Runtime.Serialization.StreamingContext context)
     // Offset: 0xFFFFFFFF
-    ::Il2CppObject* GetRealObject(System::Runtime::Serialization::StreamingContext context);
+    ::Il2CppObject* GetRealObject(::System::Runtime::Serialization::StreamingContext context);
   }; // System.Runtime.Serialization.IObjectReference
   #pragma pack(pop)
 }
@@ -42,7 +42,7 @@ namespace System::Runtime::Serialization {
 // Writing MetadataGetter for method: System::Runtime::Serialization::IObjectReference::GetRealObject
 // Il2CppName: GetRealObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Serialization::IObjectReference::*)(System::Runtime::Serialization::StreamingContext)>(&System::Runtime::Serialization::IObjectReference::GetRealObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Serialization::IObjectReference::*)(::System::Runtime::Serialization::StreamingContext)>(&System::Runtime::Serialization::IObjectReference::GetRealObject)> {
   static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::IObjectReference*), "GetRealObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});

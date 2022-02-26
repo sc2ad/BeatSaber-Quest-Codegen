@@ -19,8 +19,8 @@ namespace System::Reflection {
   class AssemblyKeyFileAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Reflection::AssemblyKeyFileAttribute);
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyKeyFileAttribute*, "System.Reflection", "AssemblyKeyFileAttribute");
+NEED_NO_BOX(::System::Reflection::AssemblyKeyFileAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::AssemblyKeyFileAttribute*, "System.Reflection", "AssemblyKeyFileAttribute");
 // Type namespace: System.Reflection
 namespace System::Reflection {
   // Size: 0x18
@@ -29,7 +29,7 @@ namespace System::Reflection {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AttributeUsageAttribute] Offset: 1188088
   // [ComVisibleAttribute] Offset: 1188088
-  class AssemblyKeyFileAttribute : public System::Attribute {
+  class AssemblyKeyFileAttribute : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -57,7 +57,7 @@ namespace System::Reflection {
     // Offset: 0x2160B08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssemblyKeyFileAttribute* New_ctor(::StringW keyFile) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::AssemblyKeyFileAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Reflection::AssemblyKeyFileAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssemblyKeyFileAttribute*, creationType>(keyFile)));
     }
   }; // System.Reflection.AssemblyKeyFileAttribute

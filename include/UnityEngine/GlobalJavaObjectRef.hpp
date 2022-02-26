@@ -18,8 +18,8 @@ namespace UnityEngine {
   class GlobalJavaObjectRef;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::GlobalJavaObjectRef);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GlobalJavaObjectRef*, "UnityEngine", "GlobalJavaObjectRef");
+NEED_NO_BOX(::UnityEngine::GlobalJavaObjectRef);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::GlobalJavaObjectRef*, "UnityEngine", "GlobalJavaObjectRef");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x20
@@ -48,19 +48,19 @@ namespace UnityEngine {
     // protected System.IntPtr m_jobject
     // Size: 0x8
     // Offset: 0x18
-    System::IntPtr m_jobject;
+    ::System::IntPtr m_jobject;
     // Field size check
-    static_assert(sizeof(System::IntPtr) == 0x8);
+    static_assert(sizeof(::System::IntPtr) == 0x8);
     public:
     // Get instance field reference: private System.Boolean m_disposed
     bool& dyn_m_disposed();
     // Get instance field reference: protected System.IntPtr m_jobject
-    System::IntPtr& dyn_m_jobject();
+    ::System::IntPtr& dyn_m_jobject();
     // public System.Void .ctor(System.IntPtr jobject)
     // Offset: 0x29D8EDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static GlobalJavaObjectRef* New_ctor(System::IntPtr jobject) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::GlobalJavaObjectRef::.ctor");
+    static GlobalJavaObjectRef* New_ctor(::System::IntPtr jobject) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::GlobalJavaObjectRef::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GlobalJavaObjectRef*, creationType>(jobject)));
     }
     // public System.Void Dispose()
@@ -73,7 +73,7 @@ namespace UnityEngine {
     void Finalize();
   }; // UnityEngine.GlobalJavaObjectRef
   #pragma pack(pop)
-  static check_size<sizeof(GlobalJavaObjectRef), 24 + sizeof(System::IntPtr)> __UnityEngine_GlobalJavaObjectRefSizeCheck;
+  static check_size<sizeof(GlobalJavaObjectRef), 24 + sizeof(::System::IntPtr)> __UnityEngine_GlobalJavaObjectRefSizeCheck;
   static_assert(sizeof(GlobalJavaObjectRef) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

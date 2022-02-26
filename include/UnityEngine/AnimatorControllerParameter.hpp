@@ -19,8 +19,8 @@ namespace UnityEngine {
   class AnimatorControllerParameter;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::AnimatorControllerParameter);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimatorControllerParameter*, "UnityEngine", "AnimatorControllerParameter");
+NEED_NO_BOX(::UnityEngine::AnimatorControllerParameter);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AnimatorControllerParameter*, "UnityEngine", "AnimatorControllerParameter");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x25
@@ -53,9 +53,9 @@ namespace UnityEngine {
     // UnityEngine.AnimatorControllerParameterType m_Type
     // Size: 0x4
     // Offset: 0x18
-    UnityEngine::AnimatorControllerParameterType m_Type;
+    ::UnityEngine::AnimatorControllerParameterType m_Type;
     // Field size check
-    static_assert(sizeof(UnityEngine::AnimatorControllerParameterType) == 0x4);
+    static_assert(sizeof(::UnityEngine::AnimatorControllerParameterType) == 0x4);
     // System.Single m_DefaultFloat
     // Size: 0x4
     // Offset: 0x1C
@@ -78,7 +78,7 @@ namespace UnityEngine {
     // Get instance field reference: System.String m_Name
     ::StringW& dyn_m_Name();
     // Get instance field reference: UnityEngine.AnimatorControllerParameterType m_Type
-    UnityEngine::AnimatorControllerParameterType& dyn_m_Type();
+    ::UnityEngine::AnimatorControllerParameterType& dyn_m_Type();
     // Get instance field reference: System.Single m_DefaultFloat
     float& dyn_m_DefaultFloat();
     // Get instance field reference: System.Int32 m_DefaultInt
@@ -94,7 +94,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnimatorControllerParameter* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AnimatorControllerParameter::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AnimatorControllerParameter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnimatorControllerParameter*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object o)

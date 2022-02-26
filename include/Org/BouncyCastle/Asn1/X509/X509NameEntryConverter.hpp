@@ -22,8 +22,8 @@ namespace Org::BouncyCastle::Asn1::X509 {
   class X509NameEntryConverter;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Asn1::X509::X509NameEntryConverter);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::X509NameEntryConverter*, "Org.BouncyCastle.Asn1.X509", "X509NameEntryConverter");
+NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter*, "Org.BouncyCastle.Asn1.X509", "X509NameEntryConverter");
 // Type namespace: Org.BouncyCastle.Asn1.X509
 namespace Org::BouncyCastle::Asn1::X509 {
   // Size: 0x10
@@ -34,7 +34,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     public:
     // public Org.BouncyCastle.Asn1.Asn1Object GetConvertedValue(Org.BouncyCastle.Asn1.DerObjectIdentifier oid, System.String value)
     // Offset: 0xFFFFFFFF
-    Org::BouncyCastle::Asn1::Asn1Object* GetConvertedValue(Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::StringW value);
+    ::Org::BouncyCastle::Asn1::Asn1Object* GetConvertedValue(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::StringW value);
   }; // Org.BouncyCastle.Asn1.X509.X509NameEntryConverter
   #pragma pack(pop)
 }
@@ -42,7 +42,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::X509NameEntryConverter::GetConvertedValue
 // Il2CppName: GetConvertedValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (Org::BouncyCastle::Asn1::X509::X509NameEntryConverter::*)(Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::StringW)>(&Org::BouncyCastle::Asn1::X509::X509NameEntryConverter::GetConvertedValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (Org::BouncyCastle::Asn1::X509::X509NameEntryConverter::*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::StringW)>(&Org::BouncyCastle::Asn1::X509::X509NameEntryConverter::GetConvertedValue)> {
   static const MethodInfo* get() {
     static auto* oid = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1", "DerObjectIdentifier")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

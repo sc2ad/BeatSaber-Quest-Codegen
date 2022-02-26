@@ -28,8 +28,8 @@ namespace System::Net {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest*, "", "LiteNetLibConnectionManager/NetPeerConnectionRequest");
+NEED_NO_BOX(::GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest*, "", "LiteNetLibConnectionManager/NetPeerConnectionRequest");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x30
@@ -70,9 +70,9 @@ namespace GlobalNamespace {
     // private readonly LiteNetLib.ConnectionRequest _request
     // Size: 0x8
     // Offset: 0x28
-    LiteNetLib::ConnectionRequest* request;
+    ::LiteNetLib::ConnectionRequest* request;
     // Field size check
-    static_assert(sizeof(LiteNetLib::ConnectionRequest*) == 0x8);
+    static_assert(sizeof(::LiteNetLib::ConnectionRequest*) == 0x8);
     public:
     // Get instance field reference: private readonly System.String _userId
     ::StringW& dyn__userId();
@@ -81,7 +81,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Boolean _isConnectionOwner
     bool& dyn__isConnectionOwner();
     // Get instance field reference: private readonly LiteNetLib.ConnectionRequest _request
-    LiteNetLib::ConnectionRequest*& dyn__request();
+    ::LiteNetLib::ConnectionRequest*& dyn__request();
     // public System.String get_userId()
     // Offset: 0x2C4C024
     ::StringW get_userId();
@@ -93,20 +93,20 @@ namespace GlobalNamespace {
     bool get_isConnectionOwner();
     // public System.Net.IPEndPoint get_endPoint()
     // Offset: 0x2C4C03C
-    System::Net::IPEndPoint* get_endPoint();
+    ::System::Net::IPEndPoint* get_endPoint();
     // public System.Void .ctor(LiteNetLib.ConnectionRequest request, System.String userId, System.String userName, System.Boolean isConnectionOwner)
     // Offset: 0x2C4C058
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static LiteNetLibConnectionManager::NetPeerConnectionRequest* New_ctor(LiteNetLib::ConnectionRequest* request, ::StringW userId, ::StringW userName, bool isConnectionOwner) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest::.ctor");
+    static LiteNetLibConnectionManager::NetPeerConnectionRequest* New_ctor(::LiteNetLib::ConnectionRequest* request, ::StringW userId, ::StringW userName, bool isConnectionOwner) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LiteNetLibConnectionManager::NetPeerConnectionRequest*, creationType>(request, userId, userName, isConnectionOwner)));
     }
     // public LiteNetLib.NetPeer Accept()
     // Offset: 0x2C4B2A4
-    LiteNetLib::NetPeer* Accept();
+    ::LiteNetLib::NetPeer* Accept();
   }; // LiteNetLibConnectionManager/NetPeerConnectionRequest
   #pragma pack(pop)
-  static check_size<sizeof(LiteNetLibConnectionManager::NetPeerConnectionRequest), 40 + sizeof(LiteNetLib::ConnectionRequest*)> __GlobalNamespace_LiteNetLibConnectionManager_NetPeerConnectionRequestSizeCheck;
+  static check_size<sizeof(LiteNetLibConnectionManager::NetPeerConnectionRequest), 40 + sizeof(::LiteNetLib::ConnectionRequest*)> __GlobalNamespace_LiteNetLibConnectionManager_NetPeerConnectionRequestSizeCheck;
   static_assert(sizeof(LiteNetLibConnectionManager::NetPeerConnectionRequest) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -137,7 +137,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest::get_endPoint
 // Il2CppName: get_endPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPEndPoint* (GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest::get_endPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::IPEndPoint* (GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest::get_endPoint)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest*), "get_endPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -149,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest::Accept
 // Il2CppName: Accept
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetPeer* (GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest::Accept)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LiteNetLib::NetPeer* (GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest::Accept)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest*), "Accept", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

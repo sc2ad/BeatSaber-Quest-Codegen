@@ -23,8 +23,8 @@ namespace GlobalNamespace {
   class IAuthenticationTokenProvider;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::IAuthenticationTokenProvider);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IAuthenticationTokenProvider*, "", "IAuthenticationTokenProvider");
+NEED_NO_BOX(::GlobalNamespace::IAuthenticationTokenProvider);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IAuthenticationTokenProvider*, "", "IAuthenticationTokenProvider");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     ::StringW get_userName();
     // public System.Threading.Tasks.Task`1<AuthenticationToken> GetAuthenticationToken()
     // Offset: 0xFFFFFFFF
-    System::Threading::Tasks::Task_1<GlobalNamespace::AuthenticationToken>* GetAuthenticationToken();
+    ::System::Threading::Tasks::Task_1<::GlobalNamespace::AuthenticationToken>* GetAuthenticationToken();
   }; // IAuthenticationTokenProvider
   #pragma pack(pop)
 }
@@ -65,7 +65,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: GlobalNamespace::IAuthenticationTokenProvider::GetAuthenticationToken
 // Il2CppName: GetAuthenticationToken
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::AuthenticationToken>* (GlobalNamespace::IAuthenticationTokenProvider::*)()>(&GlobalNamespace::IAuthenticationTokenProvider::GetAuthenticationToken)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::AuthenticationToken>* (GlobalNamespace::IAuthenticationTokenProvider::*)()>(&GlobalNamespace::IAuthenticationTokenProvider::GetAuthenticationToken)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IAuthenticationTokenProvider*), "GetAuthenticationToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -36,8 +36,8 @@ namespace RootMotion {
   class BipedReferences;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::BipedReferences);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedReferences*, "RootMotion", "BipedReferences");
+NEED_NO_BOX(::RootMotion::BipedReferences);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::BipedReferences*, "RootMotion", "BipedReferences");
 // Type namespace: RootMotion
 namespace RootMotion {
   // Size: 0x98
@@ -46,7 +46,7 @@ namespace RootMotion {
   // [TokenAttribute] Offset: FFFFFFFF
   class BipedReferences : public ::Il2CppObject {
     public:
-    // Nested type: RootMotion::BipedReferences::AutoDetectParams
+    // Nested type: ::RootMotion::BipedReferences::AutoDetectParams
     struct AutoDetectParams;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -60,140 +60,140 @@ namespace RootMotion {
     // public UnityEngine.Transform root
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::Transform* root;
+    ::UnityEngine::Transform* root;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // public UnityEngine.Transform pelvis
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::Transform* pelvis;
+    ::UnityEngine::Transform* pelvis;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // public UnityEngine.Transform leftThigh
     // Size: 0x8
     // Offset: 0x20
-    UnityEngine::Transform* leftThigh;
+    ::UnityEngine::Transform* leftThigh;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // public UnityEngine.Transform leftCalf
     // Size: 0x8
     // Offset: 0x28
-    UnityEngine::Transform* leftCalf;
+    ::UnityEngine::Transform* leftCalf;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // public UnityEngine.Transform leftFoot
     // Size: 0x8
     // Offset: 0x30
-    UnityEngine::Transform* leftFoot;
+    ::UnityEngine::Transform* leftFoot;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // public UnityEngine.Transform rightThigh
     // Size: 0x8
     // Offset: 0x38
-    UnityEngine::Transform* rightThigh;
+    ::UnityEngine::Transform* rightThigh;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // public UnityEngine.Transform rightCalf
     // Size: 0x8
     // Offset: 0x40
-    UnityEngine::Transform* rightCalf;
+    ::UnityEngine::Transform* rightCalf;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // public UnityEngine.Transform rightFoot
     // Size: 0x8
     // Offset: 0x48
-    UnityEngine::Transform* rightFoot;
+    ::UnityEngine::Transform* rightFoot;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // public UnityEngine.Transform leftUpperArm
     // Size: 0x8
     // Offset: 0x50
-    UnityEngine::Transform* leftUpperArm;
+    ::UnityEngine::Transform* leftUpperArm;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // public UnityEngine.Transform leftForearm
     // Size: 0x8
     // Offset: 0x58
-    UnityEngine::Transform* leftForearm;
+    ::UnityEngine::Transform* leftForearm;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // public UnityEngine.Transform leftHand
     // Size: 0x8
     // Offset: 0x60
-    UnityEngine::Transform* leftHand;
+    ::UnityEngine::Transform* leftHand;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // public UnityEngine.Transform rightUpperArm
     // Size: 0x8
     // Offset: 0x68
-    UnityEngine::Transform* rightUpperArm;
+    ::UnityEngine::Transform* rightUpperArm;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // public UnityEngine.Transform rightForearm
     // Size: 0x8
     // Offset: 0x70
-    UnityEngine::Transform* rightForearm;
+    ::UnityEngine::Transform* rightForearm;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // public UnityEngine.Transform rightHand
     // Size: 0x8
     // Offset: 0x78
-    UnityEngine::Transform* rightHand;
+    ::UnityEngine::Transform* rightHand;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // public UnityEngine.Transform head
     // Size: 0x8
     // Offset: 0x80
-    UnityEngine::Transform* head;
+    ::UnityEngine::Transform* head;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // public UnityEngine.Transform[] spine
     // Size: 0x8
     // Offset: 0x88
-    ::ArrayW<UnityEngine::Transform*> spine;
+    ::ArrayW<::UnityEngine::Transform*> spine;
     // Field size check
-    static_assert(sizeof(::ArrayW<UnityEngine::Transform*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::UnityEngine::Transform*>) == 0x8);
     // public UnityEngine.Transform[] eyes
     // Size: 0x8
     // Offset: 0x90
-    ::ArrayW<UnityEngine::Transform*> eyes;
+    ::ArrayW<::UnityEngine::Transform*> eyes;
     // Field size check
-    static_assert(sizeof(::ArrayW<UnityEngine::Transform*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::UnityEngine::Transform*>) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.Transform root
-    UnityEngine::Transform*& dyn_root();
+    ::UnityEngine::Transform*& dyn_root();
     // Get instance field reference: public UnityEngine.Transform pelvis
-    UnityEngine::Transform*& dyn_pelvis();
+    ::UnityEngine::Transform*& dyn_pelvis();
     // Get instance field reference: public UnityEngine.Transform leftThigh
-    UnityEngine::Transform*& dyn_leftThigh();
+    ::UnityEngine::Transform*& dyn_leftThigh();
     // Get instance field reference: public UnityEngine.Transform leftCalf
-    UnityEngine::Transform*& dyn_leftCalf();
+    ::UnityEngine::Transform*& dyn_leftCalf();
     // Get instance field reference: public UnityEngine.Transform leftFoot
-    UnityEngine::Transform*& dyn_leftFoot();
+    ::UnityEngine::Transform*& dyn_leftFoot();
     // Get instance field reference: public UnityEngine.Transform rightThigh
-    UnityEngine::Transform*& dyn_rightThigh();
+    ::UnityEngine::Transform*& dyn_rightThigh();
     // Get instance field reference: public UnityEngine.Transform rightCalf
-    UnityEngine::Transform*& dyn_rightCalf();
+    ::UnityEngine::Transform*& dyn_rightCalf();
     // Get instance field reference: public UnityEngine.Transform rightFoot
-    UnityEngine::Transform*& dyn_rightFoot();
+    ::UnityEngine::Transform*& dyn_rightFoot();
     // Get instance field reference: public UnityEngine.Transform leftUpperArm
-    UnityEngine::Transform*& dyn_leftUpperArm();
+    ::UnityEngine::Transform*& dyn_leftUpperArm();
     // Get instance field reference: public UnityEngine.Transform leftForearm
-    UnityEngine::Transform*& dyn_leftForearm();
+    ::UnityEngine::Transform*& dyn_leftForearm();
     // Get instance field reference: public UnityEngine.Transform leftHand
-    UnityEngine::Transform*& dyn_leftHand();
+    ::UnityEngine::Transform*& dyn_leftHand();
     // Get instance field reference: public UnityEngine.Transform rightUpperArm
-    UnityEngine::Transform*& dyn_rightUpperArm();
+    ::UnityEngine::Transform*& dyn_rightUpperArm();
     // Get instance field reference: public UnityEngine.Transform rightForearm
-    UnityEngine::Transform*& dyn_rightForearm();
+    ::UnityEngine::Transform*& dyn_rightForearm();
     // Get instance field reference: public UnityEngine.Transform rightHand
-    UnityEngine::Transform*& dyn_rightHand();
+    ::UnityEngine::Transform*& dyn_rightHand();
     // Get instance field reference: public UnityEngine.Transform head
-    UnityEngine::Transform*& dyn_head();
+    ::UnityEngine::Transform*& dyn_head();
     // Get instance field reference: public UnityEngine.Transform[] spine
-    ::ArrayW<UnityEngine::Transform*>& dyn_spine();
+    ::ArrayW<::UnityEngine::Transform*>& dyn_spine();
     // Get instance field reference: public UnityEngine.Transform[] eyes
-    ::ArrayW<UnityEngine::Transform*>& dyn_eyes();
+    ::ArrayW<::UnityEngine::Transform*>& dyn_eyes();
     // public System.Boolean get_isFilled()
     // Offset: 0x2223A6C
     bool get_isFilled();
@@ -205,76 +205,76 @@ namespace RootMotion {
     bool IsEmpty(bool includeRoot);
     // public System.Boolean Contains(UnityEngine.Transform t, System.Boolean ignoreRoot)
     // Offset: 0x2224294
-    bool Contains(UnityEngine::Transform* t, bool ignoreRoot);
+    bool Contains(::UnityEngine::Transform* t, bool ignoreRoot);
     // static public System.Boolean AutoDetectReferences(ref RootMotion.BipedReferences references, UnityEngine.Transform root, RootMotion.BipedReferences/RootMotion.AutoDetectParams autoDetectParams)
     // Offset: 0x22246CC
-    static bool AutoDetectReferences(ByRef<RootMotion::BipedReferences*> references, UnityEngine::Transform* root, RootMotion::BipedReferences::AutoDetectParams autoDetectParams);
+    static bool AutoDetectReferences(ByRef<::RootMotion::BipedReferences*> references, ::UnityEngine::Transform* root, ::RootMotion::BipedReferences::AutoDetectParams autoDetectParams);
     // static public System.Void DetectReferencesByNaming(ref RootMotion.BipedReferences references, UnityEngine.Transform root, RootMotion.BipedReferences/RootMotion.AutoDetectParams autoDetectParams)
     // Offset: 0x2224CDC
-    static void DetectReferencesByNaming(ByRef<RootMotion::BipedReferences*> references, UnityEngine::Transform* root, RootMotion::BipedReferences::AutoDetectParams autoDetectParams);
+    static void DetectReferencesByNaming(ByRef<::RootMotion::BipedReferences*> references, ::UnityEngine::Transform* root, ::RootMotion::BipedReferences::AutoDetectParams autoDetectParams);
     // static public System.Void AssignHumanoidReferences(ref RootMotion.BipedReferences references, UnityEngine.Animator animator, RootMotion.BipedReferences/RootMotion.AutoDetectParams autoDetectParams)
     // Offset: 0x2224918
-    static void AssignHumanoidReferences(ByRef<RootMotion::BipedReferences*> references, UnityEngine::Animator* animator, RootMotion::BipedReferences::AutoDetectParams autoDetectParams);
+    static void AssignHumanoidReferences(ByRef<::RootMotion::BipedReferences*> references, ::UnityEngine::Animator* animator, ::RootMotion::BipedReferences::AutoDetectParams autoDetectParams);
     // static public System.Boolean SetupError(RootMotion.BipedReferences references, ref System.String errorMessage)
     // Offset: 0x222548C
-    static bool SetupError(RootMotion::BipedReferences* references, ByRef<::StringW> errorMessage);
+    static bool SetupError(::RootMotion::BipedReferences* references, ByRef<::StringW> errorMessage);
     // static public System.Boolean SetupWarning(RootMotion.BipedReferences references, ref System.String warningMessage)
     // Offset: 0x2225580
-    static bool SetupWarning(RootMotion::BipedReferences* references, ByRef<::StringW> warningMessage);
+    static bool SetupWarning(::RootMotion::BipedReferences* references, ByRef<::StringW> warningMessage);
     // static private System.Boolean IsNeckBone(UnityEngine.Transform bone, UnityEngine.Transform leftUpperArm)
     // Offset: 0x2225AD8
-    static bool IsNeckBone(UnityEngine::Transform* bone, UnityEngine::Transform* leftUpperArm);
+    static bool IsNeckBone(::UnityEngine::Transform* bone, ::UnityEngine::Transform* leftUpperArm);
     // static private System.Boolean AddBoneToEyes(UnityEngine.Transform bone, ref RootMotion.BipedReferences references, RootMotion.BipedReferences/RootMotion.AutoDetectParams autoDetectParams)
     // Offset: 0x22258DC
-    static bool AddBoneToEyes(UnityEngine::Transform* bone, ByRef<RootMotion::BipedReferences*> references, RootMotion::BipedReferences::AutoDetectParams autoDetectParams);
+    static bool AddBoneToEyes(::UnityEngine::Transform* bone, ByRef<::RootMotion::BipedReferences*> references, ::RootMotion::BipedReferences::AutoDetectParams autoDetectParams);
     // static private System.Boolean AddBoneToSpine(UnityEngine.Transform bone, ref RootMotion.BipedReferences references, RootMotion.BipedReferences/RootMotion.AutoDetectParams autoDetectParams)
     // Offset: 0x2225754
-    static bool AddBoneToSpine(UnityEngine::Transform* bone, ByRef<RootMotion::BipedReferences*> references, RootMotion::BipedReferences::AutoDetectParams autoDetectParams);
+    static bool AddBoneToSpine(::UnityEngine::Transform* bone, ByRef<::RootMotion::BipedReferences*> references, ::RootMotion::BipedReferences::AutoDetectParams autoDetectParams);
     // static private System.Void DetectLimb(RootMotion.BipedNaming/RootMotion.BoneType boneType, RootMotion.BipedNaming/RootMotion.BoneSide boneSide, ref UnityEngine.Transform firstBone, ref UnityEngine.Transform secondBone, ref UnityEngine.Transform lastBone, UnityEngine.Transform[] transforms)
     // Offset: 0x2225620
-    static void DetectLimb(RootMotion::BipedNaming::BoneType boneType, RootMotion::BipedNaming::BoneSide boneSide, ByRef<UnityEngine::Transform*> firstBone, ByRef<UnityEngine::Transform*> secondBone, ByRef<UnityEngine::Transform*> lastBone, ::ArrayW<UnityEngine::Transform*> transforms);
+    static void DetectLimb(::RootMotion::BipedNaming::BoneType boneType, ::RootMotion::BipedNaming::BoneSide boneSide, ByRef<::UnityEngine::Transform*> firstBone, ByRef<::UnityEngine::Transform*> secondBone, ByRef<::UnityEngine::Transform*> lastBone, ::ArrayW<::UnityEngine::Transform*> transforms);
     // static private System.Void AddBoneToHierarchy(ref UnityEngine.Transform[] bones, UnityEngine.Transform transform)
     // Offset: 0x22259E0
-    static void AddBoneToHierarchy(ByRef<::ArrayW<UnityEngine::Transform*>> bones, UnityEngine::Transform* transform);
+    static void AddBoneToHierarchy(ByRef<::ArrayW<::UnityEngine::Transform*>> bones, ::UnityEngine::Transform* transform);
     // static private System.Boolean LimbError(UnityEngine.Transform bone1, UnityEngine.Transform bone2, UnityEngine.Transform bone3, ref System.String errorMessage)
     // Offset: 0x2225BD4
-    static bool LimbError(UnityEngine::Transform* bone1, UnityEngine::Transform* bone2, UnityEngine::Transform* bone3, ByRef<::StringW> errorMessage);
+    static bool LimbError(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, ::UnityEngine::Transform* bone3, ByRef<::StringW> errorMessage);
     // static private System.Boolean LimbWarning(UnityEngine.Transform bone1, UnityEngine.Transform bone2, UnityEngine.Transform bone3, ref System.String warningMessage)
     // Offset: 0x2226674
-    static bool LimbWarning(UnityEngine::Transform* bone1, UnityEngine::Transform* bone2, UnityEngine::Transform* bone3, ByRef<::StringW> warningMessage);
+    static bool LimbWarning(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, ::UnityEngine::Transform* bone3, ByRef<::StringW> warningMessage);
     // static private System.Boolean SpineError(RootMotion.BipedReferences references, ref System.String errorMessage)
     // Offset: 0x2226158
-    static bool SpineError(RootMotion::BipedReferences* references, ByRef<::StringW> errorMessage);
+    static bool SpineError(::RootMotion::BipedReferences* references, ByRef<::StringW> errorMessage);
     // static private System.Boolean SpineWarning(RootMotion.BipedReferences references, ref System.String warningMessage)
     // Offset: 0x2226968
-    static bool SpineWarning(RootMotion::BipedReferences* references, ByRef<::StringW> warningMessage);
+    static bool SpineWarning(::RootMotion::BipedReferences* references, ByRef<::StringW> warningMessage);
     // static private System.Boolean EyesError(RootMotion.BipedReferences references, ref System.String errorMessage)
     // Offset: 0x2226498
-    static bool EyesError(RootMotion::BipedReferences* references, ByRef<::StringW> errorMessage);
+    static bool EyesError(::RootMotion::BipedReferences* references, ByRef<::StringW> errorMessage);
     // static private System.Boolean EyesWarning(RootMotion.BipedReferences references, ref System.String warningMessage)
     // Offset: 0x2226970
-    static bool EyesWarning(RootMotion::BipedReferences* references, ByRef<::StringW> warningMessage);
+    static bool EyesWarning(::RootMotion::BipedReferences* references, ByRef<::StringW> warningMessage);
     // static private System.Boolean RootHeightWarning(RootMotion.BipedReferences references, ref System.String warningMessage)
     // Offset: 0x2226978
-    static bool RootHeightWarning(RootMotion::BipedReferences* references, ByRef<::StringW> warningMessage);
+    static bool RootHeightWarning(::RootMotion::BipedReferences* references, ByRef<::StringW> warningMessage);
     // static private System.Boolean FacingAxisWarning(RootMotion.BipedReferences references, ref System.String warningMessage)
     // Offset: 0x2226B38
-    static bool FacingAxisWarning(RootMotion::BipedReferences* references, ByRef<::StringW> warningMessage);
+    static bool FacingAxisWarning(::RootMotion::BipedReferences* references, ByRef<::StringW> warningMessage);
     // static private System.Single GetVerticalOffset(UnityEngine.Vector3 p1, UnityEngine.Vector3 p2, UnityEngine.Quaternion rotation)
     // Offset: 0x2226D50
-    static float GetVerticalOffset(UnityEngine::Vector3 p1, UnityEngine::Vector3 p2, UnityEngine::Quaternion rotation);
+    static float GetVerticalOffset(::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2, ::UnityEngine::Quaternion rotation);
     // public System.Void .ctor()
     // Offset: 0x22248A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BipedReferences* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::BipedReferences::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::BipedReferences::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BipedReferences*, creationType>()));
     }
   }; // RootMotion.BipedReferences
   #pragma pack(pop)
-  static check_size<sizeof(BipedReferences), 144 + sizeof(::ArrayW<UnityEngine::Transform*>)> __RootMotion_BipedReferencesSizeCheck;
+  static check_size<sizeof(BipedReferences), 144 + sizeof(::ArrayW<::UnityEngine::Transform*>)> __RootMotion_BipedReferencesSizeCheck;
   static_assert(sizeof(BipedReferences) == 0x98);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -306,7 +306,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
 // Writing MetadataGetter for method: RootMotion::BipedReferences::Contains
 // Il2CppName: Contains
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::BipedReferences::*)(UnityEngine::Transform*, bool)>(&RootMotion::BipedReferences::Contains)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::BipedReferences::*)(::UnityEngine::Transform*, bool)>(&RootMotion::BipedReferences::Contains)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* ignoreRoot = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -316,7 +316,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
 // Writing MetadataGetter for method: RootMotion::BipedReferences::AutoDetectReferences
 // Il2CppName: AutoDetectReferences
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<RootMotion::BipedReferences*>, UnityEngine::Transform*, RootMotion::BipedReferences::AutoDetectParams)>(&RootMotion::BipedReferences::AutoDetectReferences)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<::RootMotion::BipedReferences*>, ::UnityEngine::Transform*, ::RootMotion::BipedReferences::AutoDetectParams)>(&RootMotion::BipedReferences::AutoDetectReferences)> {
   static const MethodInfo* get() {
     static auto* references = &::il2cpp_utils::GetClassFromName("RootMotion", "BipedReferences")->this_arg;
     static auto* root = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
@@ -327,7 +327,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(By
 // Writing MetadataGetter for method: RootMotion::BipedReferences::DetectReferencesByNaming
 // Il2CppName: DetectReferencesByNaming
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<RootMotion::BipedReferences*>, UnityEngine::Transform*, RootMotion::BipedReferences::AutoDetectParams)>(&RootMotion::BipedReferences::DetectReferencesByNaming)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::RootMotion::BipedReferences*>, ::UnityEngine::Transform*, ::RootMotion::BipedReferences::AutoDetectParams)>(&RootMotion::BipedReferences::DetectReferencesByNaming)> {
   static const MethodInfo* get() {
     static auto* references = &::il2cpp_utils::GetClassFromName("RootMotion", "BipedReferences")->this_arg;
     static auto* root = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
@@ -338,7 +338,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(By
 // Writing MetadataGetter for method: RootMotion::BipedReferences::AssignHumanoidReferences
 // Il2CppName: AssignHumanoidReferences
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<RootMotion::BipedReferences*>, UnityEngine::Animator*, RootMotion::BipedReferences::AutoDetectParams)>(&RootMotion::BipedReferences::AssignHumanoidReferences)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::RootMotion::BipedReferences*>, ::UnityEngine::Animator*, ::RootMotion::BipedReferences::AutoDetectParams)>(&RootMotion::BipedReferences::AssignHumanoidReferences)> {
   static const MethodInfo* get() {
     static auto* references = &::il2cpp_utils::GetClassFromName("RootMotion", "BipedReferences")->this_arg;
     static auto* animator = &::il2cpp_utils::GetClassFromName("UnityEngine", "Animator")->byval_arg;
@@ -349,7 +349,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(By
 // Writing MetadataGetter for method: RootMotion::BipedReferences::SetupError
 // Il2CppName: SetupError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(RootMotion::BipedReferences*, ByRef<::StringW>)>(&RootMotion::BipedReferences::SetupError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::RootMotion::BipedReferences*, ByRef<::StringW>)>(&RootMotion::BipedReferences::SetupError)> {
   static const MethodInfo* get() {
     static auto* references = &::il2cpp_utils::GetClassFromName("RootMotion", "BipedReferences")->byval_arg;
     static auto* errorMessage = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
@@ -359,7 +359,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ro
 // Writing MetadataGetter for method: RootMotion::BipedReferences::SetupWarning
 // Il2CppName: SetupWarning
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(RootMotion::BipedReferences*, ByRef<::StringW>)>(&RootMotion::BipedReferences::SetupWarning)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::RootMotion::BipedReferences*, ByRef<::StringW>)>(&RootMotion::BipedReferences::SetupWarning)> {
   static const MethodInfo* get() {
     static auto* references = &::il2cpp_utils::GetClassFromName("RootMotion", "BipedReferences")->byval_arg;
     static auto* warningMessage = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
@@ -369,7 +369,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ro
 // Writing MetadataGetter for method: RootMotion::BipedReferences::IsNeckBone
 // Il2CppName: IsNeckBone
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Transform*, UnityEngine::Transform*)>(&RootMotion::BipedReferences::IsNeckBone)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Transform*, ::UnityEngine::Transform*)>(&RootMotion::BipedReferences::IsNeckBone)> {
   static const MethodInfo* get() {
     static auto* bone = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* leftUpperArm = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
@@ -379,7 +379,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: RootMotion::BipedReferences::AddBoneToEyes
 // Il2CppName: AddBoneToEyes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Transform*, ByRef<RootMotion::BipedReferences*>, RootMotion::BipedReferences::AutoDetectParams)>(&RootMotion::BipedReferences::AddBoneToEyes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Transform*, ByRef<::RootMotion::BipedReferences*>, ::RootMotion::BipedReferences::AutoDetectParams)>(&RootMotion::BipedReferences::AddBoneToEyes)> {
   static const MethodInfo* get() {
     static auto* bone = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* references = &::il2cpp_utils::GetClassFromName("RootMotion", "BipedReferences")->this_arg;
@@ -390,7 +390,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: RootMotion::BipedReferences::AddBoneToSpine
 // Il2CppName: AddBoneToSpine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Transform*, ByRef<RootMotion::BipedReferences*>, RootMotion::BipedReferences::AutoDetectParams)>(&RootMotion::BipedReferences::AddBoneToSpine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Transform*, ByRef<::RootMotion::BipedReferences*>, ::RootMotion::BipedReferences::AutoDetectParams)>(&RootMotion::BipedReferences::AddBoneToSpine)> {
   static const MethodInfo* get() {
     static auto* bone = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* references = &::il2cpp_utils::GetClassFromName("RootMotion", "BipedReferences")->this_arg;
@@ -401,7 +401,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: RootMotion::BipedReferences::DetectLimb
 // Il2CppName: DetectLimb
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(RootMotion::BipedNaming::BoneType, RootMotion::BipedNaming::BoneSide, ByRef<UnityEngine::Transform*>, ByRef<UnityEngine::Transform*>, ByRef<UnityEngine::Transform*>, ::ArrayW<UnityEngine::Transform*>)>(&RootMotion::BipedReferences::DetectLimb)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::RootMotion::BipedNaming::BoneType, ::RootMotion::BipedNaming::BoneSide, ByRef<::UnityEngine::Transform*>, ByRef<::UnityEngine::Transform*>, ByRef<::UnityEngine::Transform*>, ::ArrayW<::UnityEngine::Transform*>)>(&RootMotion::BipedReferences::DetectLimb)> {
   static const MethodInfo* get() {
     static auto* boneType = &::il2cpp_utils::GetClassFromName("RootMotion", "BipedNaming/BoneType")->byval_arg;
     static auto* boneSide = &::il2cpp_utils::GetClassFromName("RootMotion", "BipedNaming/BoneSide")->byval_arg;
@@ -415,7 +415,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ro
 // Writing MetadataGetter for method: RootMotion::BipedReferences::AddBoneToHierarchy
 // Il2CppName: AddBoneToHierarchy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::ArrayW<UnityEngine::Transform*>>, UnityEngine::Transform*)>(&RootMotion::BipedReferences::AddBoneToHierarchy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::ArrayW<::UnityEngine::Transform*>>, ::UnityEngine::Transform*)>(&RootMotion::BipedReferences::AddBoneToHierarchy)> {
   static const MethodInfo* get() {
     static auto* bones = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform"), 1)->this_arg;
     static auto* transform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
@@ -425,7 +425,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(By
 // Writing MetadataGetter for method: RootMotion::BipedReferences::LimbError
 // Il2CppName: LimbError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*, ByRef<::StringW>)>(&RootMotion::BipedReferences::LimbError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ByRef<::StringW>)>(&RootMotion::BipedReferences::LimbError)> {
   static const MethodInfo* get() {
     static auto* bone1 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* bone2 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
@@ -437,7 +437,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: RootMotion::BipedReferences::LimbWarning
 // Il2CppName: LimbWarning
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*, ByRef<::StringW>)>(&RootMotion::BipedReferences::LimbWarning)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ByRef<::StringW>)>(&RootMotion::BipedReferences::LimbWarning)> {
   static const MethodInfo* get() {
     static auto* bone1 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* bone2 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
@@ -449,7 +449,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: RootMotion::BipedReferences::SpineError
 // Il2CppName: SpineError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(RootMotion::BipedReferences*, ByRef<::StringW>)>(&RootMotion::BipedReferences::SpineError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::RootMotion::BipedReferences*, ByRef<::StringW>)>(&RootMotion::BipedReferences::SpineError)> {
   static const MethodInfo* get() {
     static auto* references = &::il2cpp_utils::GetClassFromName("RootMotion", "BipedReferences")->byval_arg;
     static auto* errorMessage = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
@@ -459,7 +459,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ro
 // Writing MetadataGetter for method: RootMotion::BipedReferences::SpineWarning
 // Il2CppName: SpineWarning
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(RootMotion::BipedReferences*, ByRef<::StringW>)>(&RootMotion::BipedReferences::SpineWarning)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::RootMotion::BipedReferences*, ByRef<::StringW>)>(&RootMotion::BipedReferences::SpineWarning)> {
   static const MethodInfo* get() {
     static auto* references = &::il2cpp_utils::GetClassFromName("RootMotion", "BipedReferences")->byval_arg;
     static auto* warningMessage = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
@@ -469,7 +469,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ro
 // Writing MetadataGetter for method: RootMotion::BipedReferences::EyesError
 // Il2CppName: EyesError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(RootMotion::BipedReferences*, ByRef<::StringW>)>(&RootMotion::BipedReferences::EyesError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::RootMotion::BipedReferences*, ByRef<::StringW>)>(&RootMotion::BipedReferences::EyesError)> {
   static const MethodInfo* get() {
     static auto* references = &::il2cpp_utils::GetClassFromName("RootMotion", "BipedReferences")->byval_arg;
     static auto* errorMessage = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
@@ -479,7 +479,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ro
 // Writing MetadataGetter for method: RootMotion::BipedReferences::EyesWarning
 // Il2CppName: EyesWarning
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(RootMotion::BipedReferences*, ByRef<::StringW>)>(&RootMotion::BipedReferences::EyesWarning)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::RootMotion::BipedReferences*, ByRef<::StringW>)>(&RootMotion::BipedReferences::EyesWarning)> {
   static const MethodInfo* get() {
     static auto* references = &::il2cpp_utils::GetClassFromName("RootMotion", "BipedReferences")->byval_arg;
     static auto* warningMessage = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
@@ -489,7 +489,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ro
 // Writing MetadataGetter for method: RootMotion::BipedReferences::RootHeightWarning
 // Il2CppName: RootHeightWarning
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(RootMotion::BipedReferences*, ByRef<::StringW>)>(&RootMotion::BipedReferences::RootHeightWarning)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::RootMotion::BipedReferences*, ByRef<::StringW>)>(&RootMotion::BipedReferences::RootHeightWarning)> {
   static const MethodInfo* get() {
     static auto* references = &::il2cpp_utils::GetClassFromName("RootMotion", "BipedReferences")->byval_arg;
     static auto* warningMessage = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
@@ -499,7 +499,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ro
 // Writing MetadataGetter for method: RootMotion::BipedReferences::FacingAxisWarning
 // Il2CppName: FacingAxisWarning
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(RootMotion::BipedReferences*, ByRef<::StringW>)>(&RootMotion::BipedReferences::FacingAxisWarning)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::RootMotion::BipedReferences*, ByRef<::StringW>)>(&RootMotion::BipedReferences::FacingAxisWarning)> {
   static const MethodInfo* get() {
     static auto* references = &::il2cpp_utils::GetClassFromName("RootMotion", "BipedReferences")->byval_arg;
     static auto* warningMessage = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
@@ -509,7 +509,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ro
 // Writing MetadataGetter for method: RootMotion::BipedReferences::GetVerticalOffset
 // Il2CppName: GetVerticalOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Quaternion)>(&RootMotion::BipedReferences::GetVerticalOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(&RootMotion::BipedReferences::GetVerticalOffset)> {
   static const MethodInfo* get() {
     static auto* p1 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* p2 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;

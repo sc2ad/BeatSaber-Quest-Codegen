@@ -26,8 +26,8 @@ namespace GlobalNamespace {
   class TrailElementCollection;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::TrailElementCollection);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrailElementCollection*, "", "TrailElementCollection");
+NEED_NO_BOX(::GlobalNamespace::TrailElementCollection);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TrailElementCollection*, "", "TrailElementCollection");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x28
@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TrailElementCollection : public ::Il2CppObject {
     public:
-    // Nested type: GlobalNamespace::TrailElementCollection::InterpolationState
+    // Nested type: ::GlobalNamespace::TrailElementCollection::InterpolationState
     struct InterpolationState;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -58,9 +58,9 @@ namespace GlobalNamespace {
     // private readonly TrailElement[] _snapshots
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayW<GlobalNamespace::TrailElement*> snapshots;
+    ::ArrayW<::GlobalNamespace::TrailElement*> snapshots;
     // Field size check
-    static_assert(sizeof(::ArrayW<GlobalNamespace::TrailElement*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::GlobalNamespace::TrailElement*>) == 0x8);
     // private System.Int32 _headIndex
     // Size: 0x4
     // Offset: 0x20
@@ -77,7 +77,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Int32 _capacity
     int& dyn__capacity();
     // Get instance field reference: private readonly TrailElement[] _snapshots
-    ::ArrayW<GlobalNamespace::TrailElement*>& dyn__snapshots();
+    ::ArrayW<::GlobalNamespace::TrailElement*>& dyn__snapshots();
     // Get instance field reference: private System.Int32 _headIndex
     int& dyn__headIndex();
     // Get instance field reference: private System.Single _totalDistance
@@ -85,16 +85,16 @@ namespace GlobalNamespace {
     // public System.Void .ctor(System.Int32 capacity, UnityEngine.Vector3 defaultStartPosition, UnityEngine.Vector3 defaultEndPosition, System.Single time)
     // Offset: 0x2AE8B34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TrailElementCollection* New_ctor(int capacity, UnityEngine::Vector3 defaultStartPosition, UnityEngine::Vector3 defaultEndPosition, float time) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TrailElementCollection::.ctor");
+    static TrailElementCollection* New_ctor(int capacity, ::UnityEngine::Vector3 defaultStartPosition, ::UnityEngine::Vector3 defaultEndPosition, float time) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TrailElementCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TrailElementCollection*, creationType>(capacity, defaultStartPosition, defaultEndPosition, time)));
     }
     // public System.Void InitSnapshots(UnityEngine.Vector3 defaultStartPosition, UnityEngine.Vector3 defaultEndPosition, System.Single time)
     // Offset: 0x2AE8CD0
-    void InitSnapshots(UnityEngine::Vector3 defaultStartPosition, UnityEngine::Vector3 defaultEndPosition, float time);
+    void InitSnapshots(::UnityEngine::Vector3 defaultStartPosition, ::UnityEngine::Vector3 defaultEndPosition, float time);
     // public System.Void SetHeadData(UnityEngine.Vector3 start, UnityEngine.Vector3 end, System.Single time)
     // Offset: 0x2AE8D98
-    void SetHeadData(UnityEngine::Vector3 start, UnityEngine::Vector3 end, float time);
+    void SetHeadData(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, float time);
     // public System.Void MoveTailToHead()
     // Offset: 0x2AE8E34
     void MoveTailToHead();
@@ -103,13 +103,13 @@ namespace GlobalNamespace {
     void UpdateDistances();
     // public System.Void Interpolate(System.Single t, ref TrailElementCollection/InterpolationState lerpState, out UnityEngine.Vector3 position, out UnityEngine.Vector3 normal, out System.Single time)
     // Offset: 0x2AE8F38
-    void Interpolate(float t, ByRef<GlobalNamespace::TrailElementCollection::InterpolationState> lerpState, ByRef<UnityEngine::Vector3> position, ByRef<UnityEngine::Vector3> normal, ByRef<float> time);
+    void Interpolate(float t, ByRef<::GlobalNamespace::TrailElementCollection::InterpolationState> lerpState, ByRef<::UnityEngine::Vector3> position, ByRef<::UnityEngine::Vector3> normal, ByRef<float> time);
     // private System.Void UpdateLerpState(System.Single t, ref TrailElementCollection/InterpolationState interpolationState)
     // Offset: 0x2AE9190
-    void UpdateLerpState(float t, ByRef<GlobalNamespace::TrailElementCollection::InterpolationState> interpolationState);
+    void UpdateLerpState(float t, ByRef<::GlobalNamespace::TrailElementCollection::InterpolationState> interpolationState);
     // private TrailElement GetElement(System.Int32 index)
     // Offset: 0x2AE92CC
-    GlobalNamespace::TrailElement* GetElement(int index);
+    ::GlobalNamespace::TrailElement* GetElement(int index);
   }; // TrailElementCollection
   #pragma pack(pop)
   static check_size<sizeof(TrailElementCollection), 36 + sizeof(float)> __GlobalNamespace_TrailElementCollectionSizeCheck;
@@ -123,7 +123,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::TrailElementCollection::InitSnapshots
 // Il2CppName: InitSnapshots
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TrailElementCollection::*)(UnityEngine::Vector3, UnityEngine::Vector3, float)>(&GlobalNamespace::TrailElementCollection::InitSnapshots)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TrailElementCollection::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, float)>(&GlobalNamespace::TrailElementCollection::InitSnapshots)> {
   static const MethodInfo* get() {
     static auto* defaultStartPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* defaultEndPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -134,7 +134,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::TrailElementCollection::SetHeadData
 // Il2CppName: SetHeadData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TrailElementCollection::*)(UnityEngine::Vector3, UnityEngine::Vector3, float)>(&GlobalNamespace::TrailElementCollection::SetHeadData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TrailElementCollection::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, float)>(&GlobalNamespace::TrailElementCollection::SetHeadData)> {
   static const MethodInfo* get() {
     static auto* start = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* end = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -161,7 +161,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::TrailElementCollection::Interpolate
 // Il2CppName: Interpolate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TrailElementCollection::*)(float, ByRef<GlobalNamespace::TrailElementCollection::InterpolationState>, ByRef<UnityEngine::Vector3>, ByRef<UnityEngine::Vector3>, ByRef<float>)>(&GlobalNamespace::TrailElementCollection::Interpolate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TrailElementCollection::*)(float, ByRef<::GlobalNamespace::TrailElementCollection::InterpolationState>, ByRef<::UnityEngine::Vector3>, ByRef<::UnityEngine::Vector3>, ByRef<float>)>(&GlobalNamespace::TrailElementCollection::Interpolate)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* lerpState = &::il2cpp_utils::GetClassFromName("", "TrailElementCollection/InterpolationState")->this_arg;
@@ -174,7 +174,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::TrailElementCollection::UpdateLerpState
 // Il2CppName: UpdateLerpState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TrailElementCollection::*)(float, ByRef<GlobalNamespace::TrailElementCollection::InterpolationState>)>(&GlobalNamespace::TrailElementCollection::UpdateLerpState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TrailElementCollection::*)(float, ByRef<::GlobalNamespace::TrailElementCollection::InterpolationState>)>(&GlobalNamespace::TrailElementCollection::UpdateLerpState)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* interpolationState = &::il2cpp_utils::GetClassFromName("", "TrailElementCollection/InterpolationState")->this_arg;
@@ -184,7 +184,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::TrailElementCollection::GetElement
 // Il2CppName: GetElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::TrailElement* (GlobalNamespace::TrailElementCollection::*)(int)>(&GlobalNamespace::TrailElementCollection::GetElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::TrailElement* (GlobalNamespace::TrailElementCollection::*)(int)>(&GlobalNamespace::TrailElementCollection::GetElement)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrailElementCollection*), "GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});

@@ -12,8 +12,8 @@ namespace GlobalNamespace {
   class IFilePathSongAudioClipProvider;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::IFilePathSongAudioClipProvider);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IFilePathSongAudioClipProvider*, "", "IFilePathSongAudioClipProvider");
+NEED_NO_BOX(::GlobalNamespace::IFilePathSongAudioClipProvider);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IFilePathSongAudioClipProvider*, "", "IFilePathSongAudioClipProvider");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10

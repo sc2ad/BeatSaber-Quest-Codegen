@@ -14,8 +14,8 @@ namespace UnityEngine {
   class LightmapSettings;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::LightmapSettings);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LightmapSettings*, "UnityEngine", "LightmapSettings");
+NEED_NO_BOX(::UnityEngine::LightmapSettings);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::LightmapSettings*, "UnityEngine", "LightmapSettings");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -24,7 +24,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [StaticAccessorAttribute] Offset: 11A4370
   // [NativeHeaderAttribute] Offset: 11A4370
-  class LightmapSettings : public UnityEngine::Object {
+  class LightmapSettings : public ::UnityEngine::Object {
     public:
   }; // UnityEngine.LightmapSettings
   #pragma pack(pop)

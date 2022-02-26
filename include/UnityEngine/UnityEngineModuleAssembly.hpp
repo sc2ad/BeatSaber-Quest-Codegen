@@ -18,8 +18,8 @@ namespace UnityEngine {
   class UnityEngineModuleAssembly;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::UnityEngineModuleAssembly);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnityEngineModuleAssembly*, "UnityEngine", "UnityEngineModuleAssembly");
+NEED_NO_BOX(::UnityEngine::UnityEngineModuleAssembly);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UnityEngineModuleAssembly*, "UnityEngine", "UnityEngineModuleAssembly");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -28,7 +28,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AttributeUsageAttribute] Offset: 11A100C
   // [VisibleToOtherModulesAttribute] Offset: 11A100C
-  class UnityEngineModuleAssembly : public System::Attribute {
+  class UnityEngineModuleAssembly : public ::System::Attribute {
     public:
     // public System.Void .ctor()
     // Offset: 0x2A57740
@@ -37,7 +37,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnityEngineModuleAssembly* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UnityEngineModuleAssembly::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UnityEngineModuleAssembly::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityEngineModuleAssembly*, creationType>()));
     }
   }; // UnityEngine.UnityEngineModuleAssembly

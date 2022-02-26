@@ -44,8 +44,8 @@ namespace System::Runtime::Serialization {
   class ObjectHolder;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Serialization::ObjectHolder);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::ObjectHolder*, "System.Runtime.Serialization", "ObjectHolder");
+NEED_NO_BOX(::System::Runtime::Serialization::ObjectHolder);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::ObjectHolder*, "System.Runtime.Serialization", "ObjectHolder");
 // Type namespace: System.Runtime.Serialization
 namespace System::Runtime::Serialization {
   // Size: 0x69
@@ -90,33 +90,33 @@ namespace System::Runtime::Serialization {
     // System.Runtime.Serialization.SerializationInfo m_serInfo
     // Size: 0x8
     // Offset: 0x28
-    System::Runtime::Serialization::SerializationInfo* m_serInfo;
+    ::System::Runtime::Serialization::SerializationInfo* m_serInfo;
     // Field size check
-    static_assert(sizeof(System::Runtime::Serialization::SerializationInfo*) == 0x8);
+    static_assert(sizeof(::System::Runtime::Serialization::SerializationInfo*) == 0x8);
     // System.Runtime.Serialization.ISerializationSurrogate m_surrogate
     // Size: 0x8
     // Offset: 0x30
-    System::Runtime::Serialization::ISerializationSurrogate* m_surrogate;
+    ::System::Runtime::Serialization::ISerializationSurrogate* m_surrogate;
     // Field size check
-    static_assert(sizeof(System::Runtime::Serialization::ISerializationSurrogate*) == 0x8);
+    static_assert(sizeof(::System::Runtime::Serialization::ISerializationSurrogate*) == 0x8);
     // System.Runtime.Serialization.FixupHolderList m_missingElements
     // Size: 0x8
     // Offset: 0x38
-    System::Runtime::Serialization::FixupHolderList* m_missingElements;
+    ::System::Runtime::Serialization::FixupHolderList* m_missingElements;
     // Field size check
-    static_assert(sizeof(System::Runtime::Serialization::FixupHolderList*) == 0x8);
+    static_assert(sizeof(::System::Runtime::Serialization::FixupHolderList*) == 0x8);
     // System.Runtime.Serialization.LongList m_dependentObjects
     // Size: 0x8
     // Offset: 0x40
-    System::Runtime::Serialization::LongList* m_dependentObjects;
+    ::System::Runtime::Serialization::LongList* m_dependentObjects;
     // Field size check
-    static_assert(sizeof(System::Runtime::Serialization::LongList*) == 0x8);
+    static_assert(sizeof(::System::Runtime::Serialization::LongList*) == 0x8);
     // System.Runtime.Serialization.ObjectHolder m_next
     // Size: 0x8
     // Offset: 0x48
-    System::Runtime::Serialization::ObjectHolder* m_next;
+    ::System::Runtime::Serialization::ObjectHolder* m_next;
     // Field size check
-    static_assert(sizeof(System::Runtime::Serialization::ObjectHolder*) == 0x8);
+    static_assert(sizeof(::System::Runtime::Serialization::ObjectHolder*) == 0x8);
     // System.Int32 m_flags
     // Size: 0x4
     // Offset: 0x50
@@ -134,15 +134,15 @@ namespace System::Runtime::Serialization {
     // private System.Runtime.Serialization.ValueTypeFixupInfo m_valueFixup
     // Size: 0x8
     // Offset: 0x58
-    System::Runtime::Serialization::ValueTypeFixupInfo* m_valueFixup;
+    ::System::Runtime::Serialization::ValueTypeFixupInfo* m_valueFixup;
     // Field size check
-    static_assert(sizeof(System::Runtime::Serialization::ValueTypeFixupInfo*) == 0x8);
+    static_assert(sizeof(::System::Runtime::Serialization::ValueTypeFixupInfo*) == 0x8);
     // private System.Runtime.Serialization.TypeLoadExceptionHolder m_typeLoad
     // Size: 0x8
     // Offset: 0x60
-    System::Runtime::Serialization::TypeLoadExceptionHolder* m_typeLoad;
+    ::System::Runtime::Serialization::TypeLoadExceptionHolder* m_typeLoad;
     // Field size check
-    static_assert(sizeof(System::Runtime::Serialization::TypeLoadExceptionHolder*) == 0x8);
+    static_assert(sizeof(::System::Runtime::Serialization::TypeLoadExceptionHolder*) == 0x8);
     // private System.Boolean m_reachable
     // Size: 0x1
     // Offset: 0x68
@@ -159,23 +159,23 @@ namespace System::Runtime::Serialization {
     // Get instance field reference: private System.Int32 m_missingDecendents
     int& dyn_m_missingDecendents();
     // Get instance field reference: System.Runtime.Serialization.SerializationInfo m_serInfo
-    System::Runtime::Serialization::SerializationInfo*& dyn_m_serInfo();
+    ::System::Runtime::Serialization::SerializationInfo*& dyn_m_serInfo();
     // Get instance field reference: System.Runtime.Serialization.ISerializationSurrogate m_surrogate
-    System::Runtime::Serialization::ISerializationSurrogate*& dyn_m_surrogate();
+    ::System::Runtime::Serialization::ISerializationSurrogate*& dyn_m_surrogate();
     // Get instance field reference: System.Runtime.Serialization.FixupHolderList m_missingElements
-    System::Runtime::Serialization::FixupHolderList*& dyn_m_missingElements();
+    ::System::Runtime::Serialization::FixupHolderList*& dyn_m_missingElements();
     // Get instance field reference: System.Runtime.Serialization.LongList m_dependentObjects
-    System::Runtime::Serialization::LongList*& dyn_m_dependentObjects();
+    ::System::Runtime::Serialization::LongList*& dyn_m_dependentObjects();
     // Get instance field reference: System.Runtime.Serialization.ObjectHolder m_next
-    System::Runtime::Serialization::ObjectHolder*& dyn_m_next();
+    ::System::Runtime::Serialization::ObjectHolder*& dyn_m_next();
     // Get instance field reference: System.Int32 m_flags
     int& dyn_m_flags();
     // Get instance field reference: private System.Boolean m_markForFixupWhenAvailable
     bool& dyn_m_markForFixupWhenAvailable();
     // Get instance field reference: private System.Runtime.Serialization.ValueTypeFixupInfo m_valueFixup
-    System::Runtime::Serialization::ValueTypeFixupInfo*& dyn_m_valueFixup();
+    ::System::Runtime::Serialization::ValueTypeFixupInfo*& dyn_m_valueFixup();
     // Get instance field reference: private System.Runtime.Serialization.TypeLoadExceptionHolder m_typeLoad
-    System::Runtime::Serialization::TypeLoadExceptionHolder*& dyn_m_typeLoad();
+    ::System::Runtime::Serialization::TypeLoadExceptionHolder*& dyn_m_typeLoad();
     // Get instance field reference: private System.Boolean m_reachable
     bool& dyn_m_reachable();
     // System.Boolean get_IsIncompleteObjectReference()
@@ -225,28 +225,28 @@ namespace System::Runtime::Serialization {
     bool get_TypeLoadExceptionReachable();
     // System.Runtime.Serialization.TypeLoadExceptionHolder get_TypeLoadException()
     // Offset: 0x15894E4
-    System::Runtime::Serialization::TypeLoadExceptionHolder* get_TypeLoadException();
+    ::System::Runtime::Serialization::TypeLoadExceptionHolder* get_TypeLoadException();
     // System.Void set_TypeLoadException(System.Runtime.Serialization.TypeLoadExceptionHolder value)
     // Offset: 0x15894EC
-    void set_TypeLoadException(System::Runtime::Serialization::TypeLoadExceptionHolder* value);
+    void set_TypeLoadException(::System::Runtime::Serialization::TypeLoadExceptionHolder* value);
     // System.Object get_ObjectValue()
     // Offset: 0x15894F4
     ::Il2CppObject* get_ObjectValue();
     // System.Runtime.Serialization.SerializationInfo get_SerializationInfo()
     // Offset: 0x1589B04
-    System::Runtime::Serialization::SerializationInfo* get_SerializationInfo();
+    ::System::Runtime::Serialization::SerializationInfo* get_SerializationInfo();
     // System.Void set_SerializationInfo(System.Runtime.Serialization.SerializationInfo value)
     // Offset: 0x1589B0C
-    void set_SerializationInfo(System::Runtime::Serialization::SerializationInfo* value);
+    void set_SerializationInfo(::System::Runtime::Serialization::SerializationInfo* value);
     // System.Runtime.Serialization.ISerializationSurrogate get_Surrogate()
     // Offset: 0x1589B14
-    System::Runtime::Serialization::ISerializationSurrogate* get_Surrogate();
+    ::System::Runtime::Serialization::ISerializationSurrogate* get_Surrogate();
     // System.Runtime.Serialization.LongList get_DependentObjects()
     // Offset: 0x1589B1C
-    System::Runtime::Serialization::LongList* get_DependentObjects();
+    ::System::Runtime::Serialization::LongList* get_DependentObjects();
     // System.Void set_DependentObjects(System.Runtime.Serialization.LongList value)
     // Offset: 0x1589B24
-    void set_DependentObjects(System::Runtime::Serialization::LongList* value);
+    void set_DependentObjects(::System::Runtime::Serialization::LongList* value);
     // System.Boolean get_RequiresSerInfoFixup()
     // Offset: 0x1589B2C
     bool get_RequiresSerInfoFixup();
@@ -255,7 +255,7 @@ namespace System::Runtime::Serialization {
     void set_RequiresSerInfoFixup(bool value);
     // System.Runtime.Serialization.ValueTypeFixupInfo get_ValueFixup()
     // Offset: 0x1589B64
-    System::Runtime::Serialization::ValueTypeFixupInfo* get_ValueFixup();
+    ::System::Runtime::Serialization::ValueTypeFixupInfo* get_ValueFixup();
     // System.Boolean get_CompletelyFixed()
     // Offset: 0x1589B6C
     bool get_CompletelyFixed();
@@ -266,21 +266,21 @@ namespace System::Runtime::Serialization {
     // Offset: 0x1588924
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjectHolder* New_ctor(int64_t objID) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::ObjectHolder::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::ObjectHolder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectHolder*, creationType>(objID)));
     }
     // System.Void .ctor(System.Object obj, System.Int64 objID, System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.ISerializationSurrogate surrogate, System.Int64 idOfContainingObj, System.Reflection.FieldInfo field, System.Int32[] arrayIndex)
     // Offset: 0x1588A48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ObjectHolder* New_ctor(::Il2CppObject* obj, int64_t objID, System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::ISerializationSurrogate* surrogate, int64_t idOfContainingObj, System::Reflection::FieldInfo* field, ::ArrayW<int> arrayIndex) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::ObjectHolder::.ctor");
+    static ObjectHolder* New_ctor(::Il2CppObject* obj, int64_t objID, ::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::ISerializationSurrogate* surrogate, int64_t idOfContainingObj, ::System::Reflection::FieldInfo* field, ::ArrayW<int> arrayIndex) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::ObjectHolder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectHolder*, creationType>(obj, objID, info, surrogate, idOfContainingObj, field, arrayIndex)));
     }
     // System.Void .ctor(System.String obj, System.Int64 objID, System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.ISerializationSurrogate surrogate, System.Int64 idOfContainingObj, System.Reflection.FieldInfo field, System.Int32[] arrayIndex)
     // Offset: 0x158895C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ObjectHolder* New_ctor(::StringW obj, int64_t objID, System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::ISerializationSurrogate* surrogate, int64_t idOfContainingObj, System::Reflection::FieldInfo* field, ::ArrayW<int> arrayIndex) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::ObjectHolder::.ctor");
+    static ObjectHolder* New_ctor(::StringW obj, int64_t objID, ::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::ISerializationSurrogate* surrogate, int64_t idOfContainingObj, ::System::Reflection::FieldInfo* field, ::ArrayW<int> arrayIndex) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::ObjectHolder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectHolder*, creationType>(obj, objID, info, surrogate, idOfContainingObj, field, arrayIndex)));
     }
     // private System.Void IncrementDescendentFixups(System.Int32 amount)
@@ -288,22 +288,22 @@ namespace System::Runtime::Serialization {
     void IncrementDescendentFixups(int amount);
     // System.Void DecrementFixupsRemaining(System.Runtime.Serialization.ObjectManager manager)
     // Offset: 0x1588E18
-    void DecrementFixupsRemaining(System::Runtime::Serialization::ObjectManager* manager);
+    void DecrementFixupsRemaining(::System::Runtime::Serialization::ObjectManager* manager);
     // System.Void RemoveDependency(System.Int64 id)
     // Offset: 0x1588EAC
     void RemoveDependency(int64_t id);
     // System.Void AddFixup(System.Runtime.Serialization.FixupHolder fixup, System.Runtime.Serialization.ObjectManager manager)
     // Offset: 0x1588EC4
-    void AddFixup(System::Runtime::Serialization::FixupHolder* fixup, System::Runtime::Serialization::ObjectManager* manager);
+    void AddFixup(::System::Runtime::Serialization::FixupHolder* fixup, ::System::Runtime::Serialization::ObjectManager* manager);
     // private System.Void UpdateDescendentDependencyChain(System.Int32 amount, System.Runtime.Serialization.ObjectManager manager)
     // Offset: 0x1588E48
-    void UpdateDescendentDependencyChain(int amount, System::Runtime::Serialization::ObjectManager* manager);
+    void UpdateDescendentDependencyChain(int amount, ::System::Runtime::Serialization::ObjectManager* manager);
     // System.Void AddDependency(System.Int64 dependentObject)
     // Offset: 0x158904C
     void AddDependency(int64_t dependentObject);
     // System.Void UpdateData(System.Object obj, System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.ISerializationSurrogate surrogate, System.Int64 idOfContainer, System.Reflection.FieldInfo field, System.Int32[] arrayIndex, System.Runtime.Serialization.ObjectManager manager)
     // Offset: 0x15890D0
-    void UpdateData(::Il2CppObject* obj, System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::ISerializationSurrogate* surrogate, int64_t idOfContainer, System::Reflection::FieldInfo* field, ::ArrayW<int> arrayIndex, System::Runtime::Serialization::ObjectManager* manager);
+    void UpdateData(::Il2CppObject* obj, ::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::ISerializationSurrogate* surrogate, int64_t idOfContainer, ::System::Reflection::FieldInfo* field, ::ArrayW<int> arrayIndex, ::System::Runtime::Serialization::ObjectManager* manager);
     // System.Void MarkForCompletionWhenAvailable()
     // Offset: 0x1589338
     void MarkForCompletionWhenAvailable();
@@ -312,7 +312,7 @@ namespace System::Runtime::Serialization {
     void SetFlags();
     // System.Void SetObjectValue(System.Object obj, System.Runtime.Serialization.ObjectManager manager)
     // Offset: 0x1589268
-    void SetObjectValue(::Il2CppObject* obj, System::Runtime::Serialization::ObjectManager* manager);
+    void SetObjectValue(::Il2CppObject* obj, ::System::Runtime::Serialization::ObjectManager* manager);
   }; // System.Runtime.Serialization.ObjectHolder
   #pragma pack(pop)
   static check_size<sizeof(ObjectHolder), 104 + sizeof(bool)> __System_Runtime_Serialization_ObjectHolderSizeCheck;
@@ -445,7 +445,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectHolder::get_TypeLoadException
 // Il2CppName: get_TypeLoadException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::TypeLoadExceptionHolder* (System::Runtime::Serialization::ObjectHolder::*)()>(&System::Runtime::Serialization::ObjectHolder::get_TypeLoadException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::TypeLoadExceptionHolder* (System::Runtime::Serialization::ObjectHolder::*)()>(&System::Runtime::Serialization::ObjectHolder::get_TypeLoadException)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectHolder*), "get_TypeLoadException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -453,7 +453,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectHolder::set_TypeLoadException
 // Il2CppName: set_TypeLoadException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::ObjectHolder::*)(System::Runtime::Serialization::TypeLoadExceptionHolder*)>(&System::Runtime::Serialization::ObjectHolder::set_TypeLoadException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::ObjectHolder::*)(::System::Runtime::Serialization::TypeLoadExceptionHolder*)>(&System::Runtime::Serialization::ObjectHolder::set_TypeLoadException)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "TypeLoadExceptionHolder")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectHolder*), "set_TypeLoadException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -470,7 +470,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectHolder::get_SerializationInfo
 // Il2CppName: get_SerializationInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::SerializationInfo* (System::Runtime::Serialization::ObjectHolder::*)()>(&System::Runtime::Serialization::ObjectHolder::get_SerializationInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::SerializationInfo* (System::Runtime::Serialization::ObjectHolder::*)()>(&System::Runtime::Serialization::ObjectHolder::get_SerializationInfo)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectHolder*), "get_SerializationInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -478,7 +478,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectHolder::set_SerializationInfo
 // Il2CppName: set_SerializationInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::ObjectHolder::*)(System::Runtime::Serialization::SerializationInfo*)>(&System::Runtime::Serialization::ObjectHolder::set_SerializationInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::ObjectHolder::*)(::System::Runtime::Serialization::SerializationInfo*)>(&System::Runtime::Serialization::ObjectHolder::set_SerializationInfo)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectHolder*), "set_SerializationInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -487,7 +487,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectHolder::get_Surrogate
 // Il2CppName: get_Surrogate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::ISerializationSurrogate* (System::Runtime::Serialization::ObjectHolder::*)()>(&System::Runtime::Serialization::ObjectHolder::get_Surrogate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::ISerializationSurrogate* (System::Runtime::Serialization::ObjectHolder::*)()>(&System::Runtime::Serialization::ObjectHolder::get_Surrogate)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectHolder*), "get_Surrogate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -495,7 +495,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectHolder::get_DependentObjects
 // Il2CppName: get_DependentObjects
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::LongList* (System::Runtime::Serialization::ObjectHolder::*)()>(&System::Runtime::Serialization::ObjectHolder::get_DependentObjects)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::LongList* (System::Runtime::Serialization::ObjectHolder::*)()>(&System::Runtime::Serialization::ObjectHolder::get_DependentObjects)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectHolder*), "get_DependentObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -503,7 +503,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectHolder::set_DependentObjects
 // Il2CppName: set_DependentObjects
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::ObjectHolder::*)(System::Runtime::Serialization::LongList*)>(&System::Runtime::Serialization::ObjectHolder::set_DependentObjects)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::ObjectHolder::*)(::System::Runtime::Serialization::LongList*)>(&System::Runtime::Serialization::ObjectHolder::set_DependentObjects)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "LongList")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectHolder*), "set_DependentObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -529,7 +529,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectHolder::get_ValueFixup
 // Il2CppName: get_ValueFixup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::ValueTypeFixupInfo* (System::Runtime::Serialization::ObjectHolder::*)()>(&System::Runtime::Serialization::ObjectHolder::get_ValueFixup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::ValueTypeFixupInfo* (System::Runtime::Serialization::ObjectHolder::*)()>(&System::Runtime::Serialization::ObjectHolder::get_ValueFixup)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectHolder*), "get_ValueFixup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -574,7 +574,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectHolder::DecrementFixupsRemaining
 // Il2CppName: DecrementFixupsRemaining
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::ObjectHolder::*)(System::Runtime::Serialization::ObjectManager*)>(&System::Runtime::Serialization::ObjectHolder::DecrementFixupsRemaining)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::ObjectHolder::*)(::System::Runtime::Serialization::ObjectManager*)>(&System::Runtime::Serialization::ObjectHolder::DecrementFixupsRemaining)> {
   static const MethodInfo* get() {
     static auto* manager = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "ObjectManager")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectHolder*), "DecrementFixupsRemaining", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{manager});
@@ -592,7 +592,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectHolder::AddFixup
 // Il2CppName: AddFixup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::ObjectHolder::*)(System::Runtime::Serialization::FixupHolder*, System::Runtime::Serialization::ObjectManager*)>(&System::Runtime::Serialization::ObjectHolder::AddFixup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::ObjectHolder::*)(::System::Runtime::Serialization::FixupHolder*, ::System::Runtime::Serialization::ObjectManager*)>(&System::Runtime::Serialization::ObjectHolder::AddFixup)> {
   static const MethodInfo* get() {
     static auto* fixup = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "FixupHolder")->byval_arg;
     static auto* manager = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "ObjectManager")->byval_arg;
@@ -602,7 +602,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectHolder::UpdateDescendentDependencyChain
 // Il2CppName: UpdateDescendentDependencyChain
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::ObjectHolder::*)(int, System::Runtime::Serialization::ObjectManager*)>(&System::Runtime::Serialization::ObjectHolder::UpdateDescendentDependencyChain)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::ObjectHolder::*)(int, ::System::Runtime::Serialization::ObjectManager*)>(&System::Runtime::Serialization::ObjectHolder::UpdateDescendentDependencyChain)> {
   static const MethodInfo* get() {
     static auto* amount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* manager = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "ObjectManager")->byval_arg;
@@ -621,7 +621,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectHolder::UpdateData
 // Il2CppName: UpdateData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::ObjectHolder::*)(::Il2CppObject*, System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::ISerializationSurrogate*, int64_t, System::Reflection::FieldInfo*, ::ArrayW<int>, System::Runtime::Serialization::ObjectManager*)>(&System::Runtime::Serialization::ObjectHolder::UpdateData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::ObjectHolder::*)(::Il2CppObject*, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::ISerializationSurrogate*, int64_t, ::System::Reflection::FieldInfo*, ::ArrayW<int>, ::System::Runtime::Serialization::ObjectManager*)>(&System::Runtime::Serialization::ObjectHolder::UpdateData)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* info = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->byval_arg;
@@ -652,7 +652,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectHolder::SetObjectValue
 // Il2CppName: SetObjectValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::ObjectHolder::*)(::Il2CppObject*, System::Runtime::Serialization::ObjectManager*)>(&System::Runtime::Serialization::ObjectHolder::SetObjectValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::ObjectHolder::*)(::Il2CppObject*, ::System::Runtime::Serialization::ObjectManager*)>(&System::Runtime::Serialization::ObjectHolder::SetObjectValue)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* manager = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "ObjectManager")->byval_arg;

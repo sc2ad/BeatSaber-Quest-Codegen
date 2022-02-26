@@ -17,8 +17,8 @@ namespace BeatSaberAPI::DataTransferObjects {
   class ResultProof;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(BeatSaberAPI::DataTransferObjects::ResultProof);
-DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::ResultProof*, "BeatSaberAPI.DataTransferObjects", "ResultProof");
+NEED_NO_BOX(::BeatSaberAPI::DataTransferObjects::ResultProof);
+DEFINE_IL2CPP_ARG_TYPE(::BeatSaberAPI::DataTransferObjects::ResultProof*, "BeatSaberAPI.DataTransferObjects", "ResultProof");
 // Type namespace: BeatSaberAPI.DataTransferObjects
 namespace BeatSaberAPI::DataTransferObjects {
   // Size: 0x18
@@ -61,7 +61,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResultProof* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("BeatSaberAPI::DataTransferObjects::ResultProof::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::BeatSaberAPI::DataTransferObjects::ResultProof::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResultProof*, creationType>()));
     }
   }; // BeatSaberAPI.DataTransferObjects.ResultProof

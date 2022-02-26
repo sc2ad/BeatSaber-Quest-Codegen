@@ -23,8 +23,8 @@ namespace Org::BouncyCastle::Crypto {
   class AsymmetricCipherKeyPair;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair*, "Org.BouncyCastle.Crypto", "AsymmetricCipherKeyPair");
+NEED_NO_BOX(::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair*, "Org.BouncyCastle.Crypto", "AsymmetricCipherKeyPair");
 // Type namespace: Org.BouncyCastle.Crypto
 namespace Org::BouncyCastle::Crypto {
   // Size: 0x20
@@ -45,43 +45,43 @@ namespace Org::BouncyCastle::Crypto {
     // private readonly Org.BouncyCastle.Crypto.AsymmetricKeyParameter publicParameter
     // Size: 0x8
     // Offset: 0x10
-    Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicParameter;
+    ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicParameter;
     // Field size check
-    static_assert(sizeof(Org::BouncyCastle::Crypto::AsymmetricKeyParameter*) == 0x8);
+    static_assert(sizeof(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*) == 0x8);
     // private readonly Org.BouncyCastle.Crypto.AsymmetricKeyParameter privateParameter
     // Size: 0x8
     // Offset: 0x18
-    Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateParameter;
+    ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateParameter;
     // Field size check
-    static_assert(sizeof(Org::BouncyCastle::Crypto::AsymmetricKeyParameter*) == 0x8);
+    static_assert(sizeof(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*) == 0x8);
     public:
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.AsymmetricKeyParameter publicParameter
-    Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& dyn_publicParameter();
+    ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& dyn_publicParameter();
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.AsymmetricKeyParameter privateParameter
-    Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& dyn_privateParameter();
+    ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& dyn_privateParameter();
     // public Org.BouncyCastle.Crypto.AsymmetricKeyParameter get_Public()
     // Offset: 0x1E448F8
-    Org::BouncyCastle::Crypto::AsymmetricKeyParameter* get_Public();
+    ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* get_Public();
     // public Org.BouncyCastle.Crypto.AsymmetricKeyParameter get_Private()
     // Offset: 0x1E44900
-    Org::BouncyCastle::Crypto::AsymmetricKeyParameter* get_Private();
+    ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* get_Private();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.AsymmetricKeyParameter publicParameter, Org.BouncyCastle.Crypto.AsymmetricKeyParameter privateParameter)
     // Offset: 0x1E44810
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AsymmetricCipherKeyPair* New_ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicParameter, Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateParameter) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair::.ctor");
+    static AsymmetricCipherKeyPair* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicParameter, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateParameter) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsymmetricCipherKeyPair*, creationType>(publicParameter, privateParameter)));
     }
   }; // Org.BouncyCastle.Crypto.AsymmetricCipherKeyPair
   #pragma pack(pop)
-  static check_size<sizeof(AsymmetricCipherKeyPair), 24 + sizeof(Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)> __Org_BouncyCastle_Crypto_AsymmetricCipherKeyPairSizeCheck;
+  static check_size<sizeof(AsymmetricCipherKeyPair), 24 + sizeof(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)> __Org_BouncyCastle_Crypto_AsymmetricCipherKeyPairSizeCheck;
   static_assert(sizeof(AsymmetricCipherKeyPair) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair::get_Public
 // Il2CppName: get_Public
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::AsymmetricKeyParameter* (Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair::*)()>(&Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair::get_Public)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* (Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair::*)()>(&Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair::get_Public)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair*), "get_Public", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -89,7 +89,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair::get_Private
 // Il2CppName: get_Private
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::AsymmetricKeyParameter* (Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair::*)()>(&Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair::get_Private)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* (Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair::*)()>(&Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair::get_Private)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair*), "get_Private", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

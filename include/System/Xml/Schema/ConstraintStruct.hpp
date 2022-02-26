@@ -32,8 +32,8 @@ namespace System::Xml::Schema {
   class ConstraintStruct;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Schema::ConstraintStruct);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::ConstraintStruct*, "System.Xml.Schema", "ConstraintStruct");
+NEED_NO_BOX(::System::Xml::Schema::ConstraintStruct);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::ConstraintStruct*, "System.Xml.Schema", "ConstraintStruct");
 // Type namespace: System.Xml.Schema
 namespace System::Xml::Schema {
   // Size: 0x3C
@@ -54,33 +54,33 @@ namespace System::Xml::Schema {
     // System.Xml.Schema.CompiledIdentityConstraint constraint
     // Size: 0x8
     // Offset: 0x10
-    System::Xml::Schema::CompiledIdentityConstraint* constraint;
+    ::System::Xml::Schema::CompiledIdentityConstraint* constraint;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::CompiledIdentityConstraint*) == 0x8);
+    static_assert(sizeof(::System::Xml::Schema::CompiledIdentityConstraint*) == 0x8);
     // System.Xml.Schema.SelectorActiveAxis axisSelector
     // Size: 0x8
     // Offset: 0x18
-    System::Xml::Schema::SelectorActiveAxis* axisSelector;
+    ::System::Xml::Schema::SelectorActiveAxis* axisSelector;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::SelectorActiveAxis*) == 0x8);
+    static_assert(sizeof(::System::Xml::Schema::SelectorActiveAxis*) == 0x8);
     // System.Collections.ArrayList axisFields
     // Size: 0x8
     // Offset: 0x20
-    System::Collections::ArrayList* axisFields;
+    ::System::Collections::ArrayList* axisFields;
     // Field size check
-    static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
+    static_assert(sizeof(::System::Collections::ArrayList*) == 0x8);
     // System.Collections.Hashtable qualifiedTable
     // Size: 0x8
     // Offset: 0x28
-    System::Collections::Hashtable* qualifiedTable;
+    ::System::Collections::Hashtable* qualifiedTable;
     // Field size check
-    static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
+    static_assert(sizeof(::System::Collections::Hashtable*) == 0x8);
     // System.Collections.Hashtable keyrefTable
     // Size: 0x8
     // Offset: 0x30
-    System::Collections::Hashtable* keyrefTable;
+    ::System::Collections::Hashtable* keyrefTable;
     // Field size check
-    static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
+    static_assert(sizeof(::System::Collections::Hashtable*) == 0x8);
     // private System.Int32 tableDim
     // Size: 0x4
     // Offset: 0x38
@@ -89,15 +89,15 @@ namespace System::Xml::Schema {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: System.Xml.Schema.CompiledIdentityConstraint constraint
-    System::Xml::Schema::CompiledIdentityConstraint*& dyn_constraint();
+    ::System::Xml::Schema::CompiledIdentityConstraint*& dyn_constraint();
     // Get instance field reference: System.Xml.Schema.SelectorActiveAxis axisSelector
-    System::Xml::Schema::SelectorActiveAxis*& dyn_axisSelector();
+    ::System::Xml::Schema::SelectorActiveAxis*& dyn_axisSelector();
     // Get instance field reference: System.Collections.ArrayList axisFields
-    System::Collections::ArrayList*& dyn_axisFields();
+    ::System::Collections::ArrayList*& dyn_axisFields();
     // Get instance field reference: System.Collections.Hashtable qualifiedTable
-    System::Collections::Hashtable*& dyn_qualifiedTable();
+    ::System::Collections::Hashtable*& dyn_qualifiedTable();
     // Get instance field reference: System.Collections.Hashtable keyrefTable
-    System::Collections::Hashtable*& dyn_keyrefTable();
+    ::System::Collections::Hashtable*& dyn_keyrefTable();
     // Get instance field reference: private System.Int32 tableDim
     int& dyn_tableDim();
     // System.Int32 get_TableDim()
@@ -106,8 +106,8 @@ namespace System::Xml::Schema {
     // System.Void .ctor(System.Xml.Schema.CompiledIdentityConstraint constraint)
     // Offset: 0x1D59964
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ConstraintStruct* New_ctor(System::Xml::Schema::CompiledIdentityConstraint* constraint) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Schema::ConstraintStruct::.ctor");
+    static ConstraintStruct* New_ctor(::System::Xml::Schema::CompiledIdentityConstraint* constraint) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::ConstraintStruct::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConstraintStruct*, creationType>(constraint)));
     }
   }; // System.Xml.Schema.ConstraintStruct

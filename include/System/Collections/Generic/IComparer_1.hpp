@@ -16,7 +16,7 @@ namespace System::Collections::Generic {
   class IComparer_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Collections::Generic::IComparer_1, "System.Collections.Generic", "IComparer`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Collections::Generic::IComparer_1, "System.Collections.Generic", "IComparer`1");
 // Type namespace: System.Collections.Generic
 namespace System::Collections::Generic {
   // WARNING Size may be invalid!
@@ -28,7 +28,7 @@ namespace System::Collections::Generic {
     // public System.Int32 Compare(T x, T y)
     // Offset: 0xFFFFFFFF
     int Compare(T x, T y) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::IComparer_1::Compare");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Generic::IComparer_1::Compare");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Compare", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x), ::il2cpp_utils::ExtractType(y)})));
       return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method, x, y);
     }

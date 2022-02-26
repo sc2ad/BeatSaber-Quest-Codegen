@@ -19,8 +19,8 @@ namespace UnityEngine {
   class ContextMenu;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ContextMenu);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ContextMenu*, "UnityEngine", "ContextMenu");
+NEED_NO_BOX(::UnityEngine::ContextMenu);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ContextMenu*, "UnityEngine", "ContextMenu");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x20
@@ -29,7 +29,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AttributeUsageAttribute] Offset: 11A5B04
   // [RequiredByNativeCodeAttribute] Offset: 11A5B04
-  class ContextMenu : public System::Attribute {
+  class ContextMenu : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -71,21 +71,21 @@ namespace UnityEngine {
     // Offset: 0x1EB4C78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContextMenu* New_ctor(::StringW itemName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ContextMenu::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ContextMenu::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContextMenu*, creationType>(itemName)));
     }
     // public System.Void .ctor(System.String itemName, System.Boolean isValidateFunction)
     // Offset: 0x1EB4CB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContextMenu* New_ctor(::StringW itemName, bool isValidateFunction) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ContextMenu::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ContextMenu::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContextMenu*, creationType>(itemName, isValidateFunction)));
     }
     // public System.Void .ctor(System.String itemName, System.Boolean isValidateFunction, System.Int32 priority)
     // Offset: 0x1EB4D00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContextMenu* New_ctor(::StringW itemName, bool isValidateFunction, int priority) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ContextMenu::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ContextMenu::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContextMenu*, creationType>(itemName, isValidateFunction, priority)));
     }
   }; // UnityEngine.ContextMenu

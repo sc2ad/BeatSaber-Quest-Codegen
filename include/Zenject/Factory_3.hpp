@@ -27,7 +27,7 @@ namespace Zenject {
   class Factory_3;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::Factory_3, "Zenject", "Factory`3");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Zenject::Factory_3, "Zenject", "Factory`3");
 // Type namespace: Zenject
 namespace Zenject {
   // WARNING Size may be invalid!
@@ -35,7 +35,7 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ObsoleteAttribute] Offset: 11F75F8
   template<typename TParam1, typename TParam2, typename TValue>
-  class Factory_3 : public Zenject::PlaceholderFactory_3<TParam1, TParam2, TValue> {
+  class Factory_3 : public ::Zenject::PlaceholderFactory_3<TParam1, TParam2, TValue> {
     public:
     // public System.Void .ctor()
     // Offset: 0xFFFFFFFF
@@ -45,7 +45,7 @@ namespace Zenject {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Factory_3<TParam1, TParam2, TValue>* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::Factory_3::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Factory_3::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Factory_3<TParam1, TParam2, TValue>*, creationType>()));
     }
     // static private System.Object __zenCreate(System.Object[] P_0)
@@ -53,7 +53,7 @@ namespace Zenject {
     // Implemented from: Zenject.PlaceholderFactory`3
     // Base method: System.Object PlaceholderFactory_3::__zenCreate(System.Object[] P_0)
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::Factory_3::__zenCreate");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Factory_3::__zenCreate");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Factory_3<TParam1, TParam2, TValue>*>::get(), "__zenCreate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(P_0)})));
       return ::il2cpp_utils::RunMethodRethrow<::Il2CppObject*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method, P_0);
     }
@@ -62,10 +62,10 @@ namespace Zenject {
     // Implemented from: Zenject.PlaceholderFactory`3
     // Base method: Zenject.InjectTypeInfo PlaceholderFactory_3::__zenCreateInjectTypeInfo()
     // Base method: Zenject.InjectTypeInfo PlaceholderFactoryBase_1::__zenCreateInjectTypeInfo()
-    static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::Factory_3::__zenCreateInjectTypeInfo");
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Factory_3::__zenCreateInjectTypeInfo");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Factory_3<TParam1, TParam2, TValue>*>::get(), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodRethrow<Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
+      return ::il2cpp_utils::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(static_cast<Il2CppObject*>(nullptr), ___internal__method);
     }
   }; // Zenject.Factory`3
   // Could not write size check! Type: Zenject.Factory`3 is generic, or has no fields that are valid for size checks!

@@ -23,8 +23,8 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   class DTSweepBasin;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin*, "UnityEngine.ProBuilder.Poly2Tri", "DTSweepBasin");
+NEED_NO_BOX(::UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin*, "UnityEngine.ProBuilder.Poly2Tri", "DTSweepBasin");
 // Type namespace: UnityEngine.ProBuilder.Poly2Tri
 namespace UnityEngine::ProBuilder::Poly2Tri {
   // Size: 0x31
@@ -45,21 +45,21 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode leftNode
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* leftNode;
+    ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* leftNode;
     // Field size check
-    static_assert(sizeof(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*) == 0x8);
+    static_assert(sizeof(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*) == 0x8);
     // public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode bottomNode
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* bottomNode;
+    ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* bottomNode;
     // Field size check
-    static_assert(sizeof(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*) == 0x8);
+    static_assert(sizeof(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*) == 0x8);
     // public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode rightNode
     // Size: 0x8
     // Offset: 0x20
-    UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* rightNode;
+    ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* rightNode;
     // Field size check
-    static_assert(sizeof(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*) == 0x8);
+    static_assert(sizeof(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*) == 0x8);
     // public System.Double width
     // Size: 0x8
     // Offset: 0x28
@@ -74,11 +74,11 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode leftNode
-    UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& dyn_leftNode();
+    ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& dyn_leftNode();
     // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode bottomNode
-    UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& dyn_bottomNode();
+    ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& dyn_bottomNode();
     // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode rightNode
-    UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& dyn_rightNode();
+    ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& dyn_rightNode();
     // Get instance field reference: public System.Double width
     double& dyn_width();
     // Get instance field reference: public System.Boolean leftHighest
@@ -89,7 +89,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DTSweepBasin* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DTSweepBasin*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.Poly2Tri.DTSweepBasin

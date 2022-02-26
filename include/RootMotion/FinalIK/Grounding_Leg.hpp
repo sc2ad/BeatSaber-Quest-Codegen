@@ -26,8 +26,8 @@ namespace UnityEngine {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::Grounding::Leg);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Grounding::Leg*, "RootMotion.FinalIK", "Grounding/Leg");
+NEED_NO_BOX(::RootMotion::FinalIK::Grounding::Leg);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::Grounding::Leg*, "RootMotion.FinalIK", "Grounding/Leg");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x114
@@ -56,15 +56,15 @@ namespace RootMotion::FinalIK {
     // private UnityEngine.Vector3 <IKPosition>k__BackingField
     // Size: 0xC
     // Offset: 0x14
-    UnityEngine::Vector3 IKPosition;
+    ::UnityEngine::Vector3 IKPosition;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // public UnityEngine.Quaternion rotationOffset
     // Size: 0x10
     // Offset: 0x20
-    UnityEngine::Quaternion rotationOffset;
+    ::UnityEngine::Quaternion rotationOffset;
     // Field size check
-    static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    static_assert(sizeof(::UnityEngine::Quaternion) == 0x10);
     // private System.Boolean <initiated>k__BackingField
     // Size: 0x1
     // Offset: 0x30
@@ -82,17 +82,17 @@ namespace RootMotion::FinalIK {
     // private UnityEngine.Vector3 <velocity>k__BackingField
     // Size: 0xC
     // Offset: 0x38
-    UnityEngine::Vector3 velocity;
+    ::UnityEngine::Vector3 velocity;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // Padding between fields: velocity and: transform
     char __padding5[0x4] = {};
     // private UnityEngine.Transform <transform>k__BackingField
     // Size: 0x8
     // Offset: 0x48
-    UnityEngine::Transform* transform;
+    ::UnityEngine::Transform* transform;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // private System.Single <IKOffset>k__BackingField
     // Size: 0x4
     // Offset: 0x50
@@ -110,21 +110,21 @@ namespace RootMotion::FinalIK {
     // private UnityEngine.RaycastHit <heelHit>k__BackingField
     // Size: 0x2C
     // Offset: 0x58
-    UnityEngine::RaycastHit heelHit;
+    ::UnityEngine::RaycastHit heelHit;
     // Field size check
-    static_assert(sizeof(UnityEngine::RaycastHit) == 0x2C);
+    static_assert(sizeof(::UnityEngine::RaycastHit) == 0x2C);
     // private UnityEngine.RaycastHit <capsuleHit>k__BackingField
     // Size: 0x2C
     // Offset: 0x84
-    UnityEngine::RaycastHit capsuleHit;
+    ::UnityEngine::RaycastHit capsuleHit;
     // Field size check
-    static_assert(sizeof(UnityEngine::RaycastHit) == 0x2C);
+    static_assert(sizeof(::UnityEngine::RaycastHit) == 0x2C);
     // private RootMotion.FinalIK.Grounding grounding
     // Size: 0x8
     // Offset: 0xB0
-    RootMotion::FinalIK::Grounding* grounding;
+    ::RootMotion::FinalIK::Grounding* grounding;
     // Field size check
-    static_assert(sizeof(RootMotion::FinalIK::Grounding*) == 0x8);
+    static_assert(sizeof(::RootMotion::FinalIK::Grounding*) == 0x8);
     // private System.Single lastTime
     // Size: 0x4
     // Offset: 0xB8
@@ -140,27 +140,27 @@ namespace RootMotion::FinalIK {
     // private UnityEngine.Vector3 lastPosition
     // Size: 0xC
     // Offset: 0xC0
-    UnityEngine::Vector3 lastPosition;
+    ::UnityEngine::Vector3 lastPosition;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // private UnityEngine.Quaternion toHitNormal
     // Size: 0x10
     // Offset: 0xCC
-    UnityEngine::Quaternion toHitNormal;
+    ::UnityEngine::Quaternion toHitNormal;
     // Field size check
-    static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    static_assert(sizeof(::UnityEngine::Quaternion) == 0x10);
     // private UnityEngine.Quaternion r
     // Size: 0x10
     // Offset: 0xDC
-    UnityEngine::Quaternion r;
+    ::UnityEngine::Quaternion r;
     // Field size check
-    static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    static_assert(sizeof(::UnityEngine::Quaternion) == 0x10);
     // private UnityEngine.Vector3 up
     // Size: 0xC
     // Offset: 0xEC
-    UnityEngine::Vector3 up;
+    ::UnityEngine::Vector3 up;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // private System.Boolean doOverrideFootPosition
     // Size: 0x1
     // Offset: 0xF8
@@ -172,58 +172,58 @@ namespace RootMotion::FinalIK {
     // private UnityEngine.Vector3 overrideFootPosition
     // Size: 0xC
     // Offset: 0xFC
-    UnityEngine::Vector3 overrideFootPosition;
+    ::UnityEngine::Vector3 overrideFootPosition;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // private UnityEngine.Vector3 transformPosition
     // Size: 0xC
     // Offset: 0x108
-    UnityEngine::Vector3 transformPosition;
+    ::UnityEngine::Vector3 transformPosition;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     public:
     // Get instance field reference: private System.Boolean <isGrounded>k__BackingField
     bool& dyn_$isGrounded$k__BackingField();
     // Get instance field reference: private UnityEngine.Vector3 <IKPosition>k__BackingField
-    UnityEngine::Vector3& dyn_$IKPosition$k__BackingField();
+    ::UnityEngine::Vector3& dyn_$IKPosition$k__BackingField();
     // Get instance field reference: public UnityEngine.Quaternion rotationOffset
-    UnityEngine::Quaternion& dyn_rotationOffset();
+    ::UnityEngine::Quaternion& dyn_rotationOffset();
     // Get instance field reference: private System.Boolean <initiated>k__BackingField
     bool& dyn_$initiated$k__BackingField();
     // Get instance field reference: private System.Single <heightFromGround>k__BackingField
     float& dyn_$heightFromGround$k__BackingField();
     // Get instance field reference: private UnityEngine.Vector3 <velocity>k__BackingField
-    UnityEngine::Vector3& dyn_$velocity$k__BackingField();
+    ::UnityEngine::Vector3& dyn_$velocity$k__BackingField();
     // Get instance field reference: private UnityEngine.Transform <transform>k__BackingField
-    UnityEngine::Transform*& dyn_$transform$k__BackingField();
+    ::UnityEngine::Transform*& dyn_$transform$k__BackingField();
     // Get instance field reference: private System.Single <IKOffset>k__BackingField
     float& dyn_$IKOffset$k__BackingField();
     // Get instance field reference: public System.Boolean invertFootCenter
     bool& dyn_invertFootCenter();
     // Get instance field reference: private UnityEngine.RaycastHit <heelHit>k__BackingField
-    UnityEngine::RaycastHit& dyn_$heelHit$k__BackingField();
+    ::UnityEngine::RaycastHit& dyn_$heelHit$k__BackingField();
     // Get instance field reference: private UnityEngine.RaycastHit <capsuleHit>k__BackingField
-    UnityEngine::RaycastHit& dyn_$capsuleHit$k__BackingField();
+    ::UnityEngine::RaycastHit& dyn_$capsuleHit$k__BackingField();
     // Get instance field reference: private RootMotion.FinalIK.Grounding grounding
-    RootMotion::FinalIK::Grounding*& dyn_grounding();
+    ::RootMotion::FinalIK::Grounding*& dyn_grounding();
     // Get instance field reference: private System.Single lastTime
     float& dyn_lastTime();
     // Get instance field reference: private System.Single deltaTime
     float& dyn_deltaTime();
     // Get instance field reference: private UnityEngine.Vector3 lastPosition
-    UnityEngine::Vector3& dyn_lastPosition();
+    ::UnityEngine::Vector3& dyn_lastPosition();
     // Get instance field reference: private UnityEngine.Quaternion toHitNormal
-    UnityEngine::Quaternion& dyn_toHitNormal();
+    ::UnityEngine::Quaternion& dyn_toHitNormal();
     // Get instance field reference: private UnityEngine.Quaternion r
-    UnityEngine::Quaternion& dyn_r();
+    ::UnityEngine::Quaternion& dyn_r();
     // Get instance field reference: private UnityEngine.Vector3 up
-    UnityEngine::Vector3& dyn_up();
+    ::UnityEngine::Vector3& dyn_up();
     // Get instance field reference: private System.Boolean doOverrideFootPosition
     bool& dyn_doOverrideFootPosition();
     // Get instance field reference: private UnityEngine.Vector3 overrideFootPosition
-    UnityEngine::Vector3& dyn_overrideFootPosition();
+    ::UnityEngine::Vector3& dyn_overrideFootPosition();
     // Get instance field reference: private UnityEngine.Vector3 transformPosition
-    UnityEngine::Vector3& dyn_transformPosition();
+    ::UnityEngine::Vector3& dyn_transformPosition();
     // public System.Boolean get_isGrounded()
     // Offset: 0x21C7A28
     bool get_isGrounded();
@@ -232,10 +232,10 @@ namespace RootMotion::FinalIK {
     void set_isGrounded(bool value);
     // public UnityEngine.Vector3 get_IKPosition()
     // Offset: 0x21C7A3C
-    UnityEngine::Vector3 get_IKPosition();
+    ::UnityEngine::Vector3 get_IKPosition();
     // private System.Void set_IKPosition(UnityEngine.Vector3 value)
     // Offset: 0x21C7A48
-    void set_IKPosition(UnityEngine::Vector3 value);
+    void set_IKPosition(::UnityEngine::Vector3 value);
     // public System.Boolean get_initiated()
     // Offset: 0x21C7A54
     bool get_initiated();
@@ -250,16 +250,16 @@ namespace RootMotion::FinalIK {
     void set_heightFromGround(float value);
     // public UnityEngine.Vector3 get_velocity()
     // Offset: 0x21C7A78
-    UnityEngine::Vector3 get_velocity();
+    ::UnityEngine::Vector3 get_velocity();
     // private System.Void set_velocity(UnityEngine.Vector3 value)
     // Offset: 0x21C7A84
-    void set_velocity(UnityEngine::Vector3 value);
+    void set_velocity(::UnityEngine::Vector3 value);
     // public UnityEngine.Transform get_transform()
     // Offset: 0x21C7A90
-    UnityEngine::Transform* get_transform();
+    ::UnityEngine::Transform* get_transform();
     // private System.Void set_transform(UnityEngine.Transform value)
     // Offset: 0x21C7A98
-    void set_transform(UnityEngine::Transform* value);
+    void set_transform(::UnityEngine::Transform* value);
     // public System.Single get_IKOffset()
     // Offset: 0x21C7AA0
     float get_IKOffset();
@@ -268,19 +268,19 @@ namespace RootMotion::FinalIK {
     void set_IKOffset(float value);
     // public UnityEngine.RaycastHit get_heelHit()
     // Offset: 0x21C7AB0
-    UnityEngine::RaycastHit get_heelHit();
+    ::UnityEngine::RaycastHit get_heelHit();
     // private System.Void set_heelHit(UnityEngine.RaycastHit value)
     // Offset: 0x21C7AC8
-    void set_heelHit(UnityEngine::RaycastHit value);
+    void set_heelHit(::UnityEngine::RaycastHit value);
     // public UnityEngine.RaycastHit get_capsuleHit()
     // Offset: 0x21C7AE8
-    UnityEngine::RaycastHit get_capsuleHit();
+    ::UnityEngine::RaycastHit get_capsuleHit();
     // private System.Void set_capsuleHit(UnityEngine.RaycastHit value)
     // Offset: 0x21C7B00
-    void set_capsuleHit(UnityEngine::RaycastHit value);
+    void set_capsuleHit(::UnityEngine::RaycastHit value);
     // public UnityEngine.RaycastHit get_GetHitPoint()
     // Offset: 0x21C7B20
-    UnityEngine::RaycastHit get_GetHitPoint();
+    ::UnityEngine::RaycastHit get_GetHitPoint();
     // public System.Single get_stepHeightFromGround()
     // Offset: 0x21C88DC
     float get_stepHeightFromGround();
@@ -289,10 +289,10 @@ namespace RootMotion::FinalIK {
     float get_rootYOffset();
     // public System.Void SetFootPosition(UnityEngine.Vector3 position)
     // Offset: 0x21C7B68
-    void SetFootPosition(UnityEngine::Vector3 position);
+    void SetFootPosition(::UnityEngine::Vector3 position);
     // public System.Void Initiate(RootMotion.FinalIK.Grounding grounding, UnityEngine.Transform transform)
     // Offset: 0x21C684C
-    void Initiate(RootMotion::FinalIK::Grounding* grounding, UnityEngine::Transform* transform);
+    void Initiate(::RootMotion::FinalIK::Grounding* grounding, ::UnityEngine::Transform* transform);
     // public System.Void OnEnable()
     // Offset: 0x21C7B7C
     void OnEnable();
@@ -304,40 +304,40 @@ namespace RootMotion::FinalIK {
     void Process();
     // private UnityEngine.RaycastHit GetCapsuleHit(UnityEngine.Vector3 offsetFromHeel)
     // Offset: 0x21C8354
-    UnityEngine::RaycastHit GetCapsuleHit(UnityEngine::Vector3 offsetFromHeel);
+    ::UnityEngine::RaycastHit GetCapsuleHit(::UnityEngine::Vector3 offsetFromHeel);
     // private UnityEngine.RaycastHit GetRaycastHit(UnityEngine.Vector3 offsetFromHeel)
     // Offset: 0x21C7BC8
-    UnityEngine::RaycastHit GetRaycastHit(UnityEngine::Vector3 offsetFromHeel);
+    ::UnityEngine::RaycastHit GetRaycastHit(::UnityEngine::Vector3 offsetFromHeel);
     // private UnityEngine.Vector3 RotateNormal(UnityEngine.Vector3 normal)
     // Offset: 0x21C8A5C
-    UnityEngine::Vector3 RotateNormal(UnityEngine::Vector3 normal);
+    ::UnityEngine::Vector3 RotateNormal(::UnityEngine::Vector3 normal);
     // private System.Void SetFootToPoint(UnityEngine.Vector3 normal, UnityEngine.Vector3 point)
     // Offset: 0x21C8000
-    void SetFootToPoint(UnityEngine::Vector3 normal, UnityEngine::Vector3 point);
+    void SetFootToPoint(::UnityEngine::Vector3 normal, ::UnityEngine::Vector3 point);
     // private System.Void SetFootToPlane(UnityEngine.Vector3 planeNormal, UnityEngine.Vector3 planePoint, UnityEngine.Vector3 heelHitPoint)
     // Offset: 0x21C8108
-    void SetFootToPlane(UnityEngine::Vector3 planeNormal, UnityEngine::Vector3 planePoint, UnityEngine::Vector3 heelHitPoint);
+    void SetFootToPlane(::UnityEngine::Vector3 planeNormal, ::UnityEngine::Vector3 planePoint, ::UnityEngine::Vector3 heelHitPoint);
     // private System.Single GetHeightFromGround(UnityEngine.Vector3 hitPoint)
     // Offset: 0x21C8B58
-    float GetHeightFromGround(UnityEngine::Vector3 hitPoint);
+    float GetHeightFromGround(::UnityEngine::Vector3 hitPoint);
     // private System.Void RotateFoot()
     // Offset: 0x21C8968
     void RotateFoot();
     // private UnityEngine.Quaternion GetRotationOffsetTarget()
     // Offset: 0x21C8CDC
-    UnityEngine::Quaternion GetRotationOffsetTarget();
+    ::UnityEngine::Quaternion GetRotationOffsetTarget();
     // public System.Void .ctor()
     // Offset: 0x21C679C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Grounding::Leg* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::Grounding::Leg::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::Grounding::Leg::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Grounding::Leg*, creationType>()));
     }
   }; // RootMotion.FinalIK.Grounding/RootMotion.FinalIK.Leg
   #pragma pack(pop)
-  static check_size<sizeof(Grounding::Leg), 264 + sizeof(UnityEngine::Vector3)> __RootMotion_FinalIK_Grounding_LegSizeCheck;
+  static check_size<sizeof(Grounding::Leg), 264 + sizeof(::UnityEngine::Vector3)> __RootMotion_FinalIK_Grounding_LegSizeCheck;
   static_assert(sizeof(Grounding::Leg) == 0x114);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -361,7 +361,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::Grounding::Leg::get_IKPosition
 // Il2CppName: get_IKPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RootMotion::FinalIK::Grounding::Leg::*)()>(&RootMotion::FinalIK::Grounding::Leg::get_IKPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (RootMotion::FinalIK::Grounding::Leg::*)()>(&RootMotion::FinalIK::Grounding::Leg::get_IKPosition)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Grounding::Leg*), "get_IKPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -369,7 +369,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: RootMotion::FinalIK::Grounding::Leg::set_IKPosition
 // Il2CppName: set_IKPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Grounding::Leg::*)(UnityEngine::Vector3)>(&RootMotion::FinalIK::Grounding::Leg::set_IKPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Grounding::Leg::*)(::UnityEngine::Vector3)>(&RootMotion::FinalIK::Grounding::Leg::set_IKPosition)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Grounding::Leg*), "set_IKPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -412,7 +412,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::Grounding::Leg::get_velocity
 // Il2CppName: get_velocity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RootMotion::FinalIK::Grounding::Leg::*)()>(&RootMotion::FinalIK::Grounding::Leg::get_velocity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (RootMotion::FinalIK::Grounding::Leg::*)()>(&RootMotion::FinalIK::Grounding::Leg::get_velocity)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Grounding::Leg*), "get_velocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -420,7 +420,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: RootMotion::FinalIK::Grounding::Leg::set_velocity
 // Il2CppName: set_velocity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Grounding::Leg::*)(UnityEngine::Vector3)>(&RootMotion::FinalIK::Grounding::Leg::set_velocity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Grounding::Leg::*)(::UnityEngine::Vector3)>(&RootMotion::FinalIK::Grounding::Leg::set_velocity)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Grounding::Leg*), "set_velocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -429,7 +429,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::Grounding::Leg::get_transform
 // Il2CppName: get_transform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (RootMotion::FinalIK::Grounding::Leg::*)()>(&RootMotion::FinalIK::Grounding::Leg::get_transform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Transform* (RootMotion::FinalIK::Grounding::Leg::*)()>(&RootMotion::FinalIK::Grounding::Leg::get_transform)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Grounding::Leg*), "get_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -437,7 +437,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: RootMotion::FinalIK::Grounding::Leg::set_transform
 // Il2CppName: set_transform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Grounding::Leg::*)(UnityEngine::Transform*)>(&RootMotion::FinalIK::Grounding::Leg::set_transform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Grounding::Leg::*)(::UnityEngine::Transform*)>(&RootMotion::FinalIK::Grounding::Leg::set_transform)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Grounding::Leg*), "set_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -463,7 +463,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::Grounding::Leg::get_heelHit
 // Il2CppName: get_heelHit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RaycastHit (RootMotion::FinalIK::Grounding::Leg::*)()>(&RootMotion::FinalIK::Grounding::Leg::get_heelHit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RaycastHit (RootMotion::FinalIK::Grounding::Leg::*)()>(&RootMotion::FinalIK::Grounding::Leg::get_heelHit)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Grounding::Leg*), "get_heelHit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -471,7 +471,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: RootMotion::FinalIK::Grounding::Leg::set_heelHit
 // Il2CppName: set_heelHit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Grounding::Leg::*)(UnityEngine::RaycastHit)>(&RootMotion::FinalIK::Grounding::Leg::set_heelHit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Grounding::Leg::*)(::UnityEngine::RaycastHit)>(&RootMotion::FinalIK::Grounding::Leg::set_heelHit)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Grounding::Leg*), "set_heelHit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -480,7 +480,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::Grounding::Leg::get_capsuleHit
 // Il2CppName: get_capsuleHit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RaycastHit (RootMotion::FinalIK::Grounding::Leg::*)()>(&RootMotion::FinalIK::Grounding::Leg::get_capsuleHit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RaycastHit (RootMotion::FinalIK::Grounding::Leg::*)()>(&RootMotion::FinalIK::Grounding::Leg::get_capsuleHit)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Grounding::Leg*), "get_capsuleHit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -488,7 +488,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: RootMotion::FinalIK::Grounding::Leg::set_capsuleHit
 // Il2CppName: set_capsuleHit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Grounding::Leg::*)(UnityEngine::RaycastHit)>(&RootMotion::FinalIK::Grounding::Leg::set_capsuleHit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Grounding::Leg::*)(::UnityEngine::RaycastHit)>(&RootMotion::FinalIK::Grounding::Leg::set_capsuleHit)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Grounding::Leg*), "set_capsuleHit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -497,7 +497,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::Grounding::Leg::get_GetHitPoint
 // Il2CppName: get_GetHitPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RaycastHit (RootMotion::FinalIK::Grounding::Leg::*)()>(&RootMotion::FinalIK::Grounding::Leg::get_GetHitPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RaycastHit (RootMotion::FinalIK::Grounding::Leg::*)()>(&RootMotion::FinalIK::Grounding::Leg::get_GetHitPoint)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Grounding::Leg*), "get_GetHitPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -521,7 +521,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Root
 // Writing MetadataGetter for method: RootMotion::FinalIK::Grounding::Leg::SetFootPosition
 // Il2CppName: SetFootPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Grounding::Leg::*)(UnityEngine::Vector3)>(&RootMotion::FinalIK::Grounding::Leg::SetFootPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Grounding::Leg::*)(::UnityEngine::Vector3)>(&RootMotion::FinalIK::Grounding::Leg::SetFootPosition)> {
   static const MethodInfo* get() {
     static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Grounding::Leg*), "SetFootPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position});
@@ -530,7 +530,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::Grounding::Leg::Initiate
 // Il2CppName: Initiate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Grounding::Leg::*)(RootMotion::FinalIK::Grounding*, UnityEngine::Transform*)>(&RootMotion::FinalIK::Grounding::Leg::Initiate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Grounding::Leg::*)(::RootMotion::FinalIK::Grounding*, ::UnityEngine::Transform*)>(&RootMotion::FinalIK::Grounding::Leg::Initiate)> {
   static const MethodInfo* get() {
     static auto* grounding = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "Grounding")->byval_arg;
     static auto* transform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
@@ -564,7 +564,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::Grounding::Leg::GetCapsuleHit
 // Il2CppName: GetCapsuleHit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RaycastHit (RootMotion::FinalIK::Grounding::Leg::*)(UnityEngine::Vector3)>(&RootMotion::FinalIK::Grounding::Leg::GetCapsuleHit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RaycastHit (RootMotion::FinalIK::Grounding::Leg::*)(::UnityEngine::Vector3)>(&RootMotion::FinalIK::Grounding::Leg::GetCapsuleHit)> {
   static const MethodInfo* get() {
     static auto* offsetFromHeel = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Grounding::Leg*), "GetCapsuleHit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{offsetFromHeel});
@@ -573,7 +573,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: RootMotion::FinalIK::Grounding::Leg::GetRaycastHit
 // Il2CppName: GetRaycastHit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RaycastHit (RootMotion::FinalIK::Grounding::Leg::*)(UnityEngine::Vector3)>(&RootMotion::FinalIK::Grounding::Leg::GetRaycastHit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RaycastHit (RootMotion::FinalIK::Grounding::Leg::*)(::UnityEngine::Vector3)>(&RootMotion::FinalIK::Grounding::Leg::GetRaycastHit)> {
   static const MethodInfo* get() {
     static auto* offsetFromHeel = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Grounding::Leg*), "GetRaycastHit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{offsetFromHeel});
@@ -582,7 +582,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: RootMotion::FinalIK::Grounding::Leg::RotateNormal
 // Il2CppName: RotateNormal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RootMotion::FinalIK::Grounding::Leg::*)(UnityEngine::Vector3)>(&RootMotion::FinalIK::Grounding::Leg::RotateNormal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (RootMotion::FinalIK::Grounding::Leg::*)(::UnityEngine::Vector3)>(&RootMotion::FinalIK::Grounding::Leg::RotateNormal)> {
   static const MethodInfo* get() {
     static auto* normal = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Grounding::Leg*), "RotateNormal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{normal});
@@ -591,7 +591,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: RootMotion::FinalIK::Grounding::Leg::SetFootToPoint
 // Il2CppName: SetFootToPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Grounding::Leg::*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&RootMotion::FinalIK::Grounding::Leg::SetFootToPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Grounding::Leg::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&RootMotion::FinalIK::Grounding::Leg::SetFootToPoint)> {
   static const MethodInfo* get() {
     static auto* normal = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* point = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -601,7 +601,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::Grounding::Leg::SetFootToPlane
 // Il2CppName: SetFootToPlane
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Grounding::Leg::*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3)>(&RootMotion::FinalIK::Grounding::Leg::SetFootToPlane)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Grounding::Leg::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&RootMotion::FinalIK::Grounding::Leg::SetFootToPlane)> {
   static const MethodInfo* get() {
     static auto* planeNormal = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* planePoint = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -612,7 +612,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::Grounding::Leg::GetHeightFromGround
 // Il2CppName: GetHeightFromGround
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (RootMotion::FinalIK::Grounding::Leg::*)(UnityEngine::Vector3)>(&RootMotion::FinalIK::Grounding::Leg::GetHeightFromGround)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (RootMotion::FinalIK::Grounding::Leg::*)(::UnityEngine::Vector3)>(&RootMotion::FinalIK::Grounding::Leg::GetHeightFromGround)> {
   static const MethodInfo* get() {
     static auto* hitPoint = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Grounding::Leg*), "GetHeightFromGround", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hitPoint});
@@ -629,7 +629,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::Grounding::Leg::GetRotationOffsetTarget
 // Il2CppName: GetRotationOffsetTarget
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (RootMotion::FinalIK::Grounding::Leg::*)()>(&RootMotion::FinalIK::Grounding::Leg::GetRotationOffsetTarget)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (RootMotion::FinalIK::Grounding::Leg::*)()>(&RootMotion::FinalIK::Grounding::Leg::GetRotationOffsetTarget)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Grounding::Leg*), "GetRotationOffsetTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

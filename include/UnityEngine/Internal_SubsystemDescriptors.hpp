@@ -34,8 +34,8 @@ namespace UnityEngine {
   class Internal_SubsystemDescriptors;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Internal_SubsystemDescriptors);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Internal_SubsystemDescriptors*, "UnityEngine", "Internal_SubsystemDescriptors");
+NEED_NO_BOX(::UnityEngine::Internal_SubsystemDescriptors);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Internal_SubsystemDescriptors*, "UnityEngine", "Internal_SubsystemDescriptors");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -45,22 +45,22 @@ namespace UnityEngine {
   class Internal_SubsystemDescriptors : public ::Il2CppObject {
     public:
     // Get static field: static System.Collections.Generic.List`1<UnityEngine.ISubsystemDescriptorImpl> s_IntegratedSubsystemDescriptors
-    static System::Collections::Generic::List_1<UnityEngine::ISubsystemDescriptorImpl*>* _get_s_IntegratedSubsystemDescriptors();
+    static ::System::Collections::Generic::List_1<::UnityEngine::ISubsystemDescriptorImpl*>* _get_s_IntegratedSubsystemDescriptors();
     // Set static field: static System.Collections.Generic.List`1<UnityEngine.ISubsystemDescriptorImpl> s_IntegratedSubsystemDescriptors
-    static void _set_s_IntegratedSubsystemDescriptors(System::Collections::Generic::List_1<UnityEngine::ISubsystemDescriptorImpl*>* value);
+    static void _set_s_IntegratedSubsystemDescriptors(::System::Collections::Generic::List_1<::UnityEngine::ISubsystemDescriptorImpl*>* value);
     // Get static field: static System.Collections.Generic.List`1<UnityEngine.ISubsystemDescriptor> s_StandaloneSubsystemDescriptors
-    static System::Collections::Generic::List_1<UnityEngine::ISubsystemDescriptor*>* _get_s_StandaloneSubsystemDescriptors();
+    static ::System::Collections::Generic::List_1<::UnityEngine::ISubsystemDescriptor*>* _get_s_StandaloneSubsystemDescriptors();
     // Set static field: static System.Collections.Generic.List`1<UnityEngine.ISubsystemDescriptor> s_StandaloneSubsystemDescriptors
-    static void _set_s_StandaloneSubsystemDescriptors(System::Collections::Generic::List_1<UnityEngine::ISubsystemDescriptor*>* value);
+    static void _set_s_StandaloneSubsystemDescriptors(::System::Collections::Generic::List_1<::UnityEngine::ISubsystemDescriptor*>* value);
     // static private System.Void .cctor()
     // Offset: 0x2A5CAD4
     static void _cctor();
     // static System.Boolean Internal_AddDescriptor(UnityEngine.SubsystemDescriptor descriptor)
     // Offset: 0x2A5C614
-    static bool Internal_AddDescriptor(UnityEngine::SubsystemDescriptor* descriptor);
+    static bool Internal_AddDescriptor(::UnityEngine::SubsystemDescriptor* descriptor);
     // static System.Void Internal_InitializeManagedDescriptor(System.IntPtr ptr, UnityEngine.ISubsystemDescriptorImpl desc)
     // Offset: 0x2A5C814
-    static void Internal_InitializeManagedDescriptor(System::IntPtr ptr, UnityEngine::ISubsystemDescriptorImpl* desc);
+    static void Internal_InitializeManagedDescriptor(::System::IntPtr ptr, ::UnityEngine::ISubsystemDescriptorImpl* desc);
     // static System.Void Internal_ClearManagedDescriptors()
     // Offset: 0x2A5C914
     static void Internal_ClearManagedDescriptors();
@@ -79,7 +79,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::Internal_SubsystemDescriptors::Internal_AddDescriptor
 // Il2CppName: Internal_AddDescriptor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::SubsystemDescriptor*)>(&UnityEngine::Internal_SubsystemDescriptors::Internal_AddDescriptor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::SubsystemDescriptor*)>(&UnityEngine::Internal_SubsystemDescriptors::Internal_AddDescriptor)> {
   static const MethodInfo* get() {
     static auto* descriptor = &::il2cpp_utils::GetClassFromName("UnityEngine", "SubsystemDescriptor")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Internal_SubsystemDescriptors*), "Internal_AddDescriptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{descriptor});
@@ -88,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Internal_SubsystemDescriptors::Internal_InitializeManagedDescriptor
 // Il2CppName: Internal_InitializeManagedDescriptor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, UnityEngine::ISubsystemDescriptorImpl*)>(&UnityEngine::Internal_SubsystemDescriptors::Internal_InitializeManagedDescriptor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::UnityEngine::ISubsystemDescriptorImpl*)>(&UnityEngine::Internal_SubsystemDescriptors::Internal_InitializeManagedDescriptor)> {
   static const MethodInfo* get() {
     static auto* ptr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* desc = &::il2cpp_utils::GetClassFromName("UnityEngine", "ISubsystemDescriptorImpl")->byval_arg;

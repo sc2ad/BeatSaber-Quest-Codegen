@@ -15,8 +15,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SteamVR_Controller::ButtonMask);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Controller::ButtonMask*, "", "SteamVR_Controller/ButtonMask");
+NEED_NO_BOX(::GlobalNamespace::SteamVR_Controller::ButtonMask);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SteamVR_Controller::ButtonMask*, "", "SteamVR_Controller/ButtonMask");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -91,7 +91,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_Controller::ButtonMask* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_Controller::ButtonMask::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_Controller::ButtonMask::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_Controller::ButtonMask*, creationType>()));
     }
   }; // SteamVR_Controller/ButtonMask

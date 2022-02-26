@@ -45,8 +45,8 @@ namespace System::Linq::Expressions::Interpreter {
   class InterpretedFrame;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Linq::Expressions::Interpreter::InterpretedFrame);
-DEFINE_IL2CPP_ARG_TYPE(System::Linq::Expressions::Interpreter::InterpretedFrame*, "System.Linq.Expressions.Interpreter", "InterpretedFrame");
+NEED_NO_BOX(::System::Linq::Expressions::Interpreter::InterpretedFrame);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::InterpretedFrame*, "System.Linq.Expressions.Interpreter", "InterpretedFrame");
 // Type namespace: System.Linq.Expressions.Interpreter
 namespace System::Linq::Expressions::Interpreter {
   // Size: 0x50
@@ -55,7 +55,7 @@ namespace System::Linq::Expressions::Interpreter {
   // [TokenAttribute] Offset: FFFFFFFF
   class InterpretedFrame : public ::Il2CppObject {
     public:
-    // Nested type: System::Linq::Expressions::Interpreter::InterpretedFrame::$GetStackTraceDebugInfo$d__29
+    // Nested type: ::System::Linq::Expressions::Interpreter::InterpretedFrame::$GetStackTraceDebugInfo$d__29
     class $GetStackTraceDebugInfo$d__29;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -69,15 +69,15 @@ namespace System::Linq::Expressions::Interpreter {
     // readonly System.Linq.Expressions.Interpreter.Interpreter Interpreter
     // Size: 0x8
     // Offset: 0x10
-    System::Linq::Expressions::Interpreter::Interpreter* Interpreter;
+    ::System::Linq::Expressions::Interpreter::Interpreter* Interpreter;
     // Field size check
-    static_assert(sizeof(System::Linq::Expressions::Interpreter::Interpreter*) == 0x8);
+    static_assert(sizeof(::System::Linq::Expressions::Interpreter::Interpreter*) == 0x8);
     // System.Linq.Expressions.Interpreter.InterpretedFrame _parent
     // Size: 0x8
     // Offset: 0x18
-    System::Linq::Expressions::Interpreter::InterpretedFrame* parent;
+    ::System::Linq::Expressions::Interpreter::InterpretedFrame* parent;
     // Field size check
-    static_assert(sizeof(System::Linq::Expressions::Interpreter::InterpretedFrame*) == 0x8);
+    static_assert(sizeof(::System::Linq::Expressions::Interpreter::InterpretedFrame*) == 0x8);
     // private readonly System.Int32[] _continuations
     // Size: 0x8
     // Offset: 0x20
@@ -111,9 +111,9 @@ namespace System::Linq::Expressions::Interpreter {
     // public readonly System.Runtime.CompilerServices.IStrongBox[] Closure
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayW<System::Runtime::CompilerServices::IStrongBox*> Closure;
+    ::ArrayW<::System::Runtime::CompilerServices::IStrongBox*> Closure;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::Runtime::CompilerServices::IStrongBox*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::System::Runtime::CompilerServices::IStrongBox*>) == 0x8);
     // public System.Int32 StackIndex
     // Size: 0x4
     // Offset: 0x48
@@ -128,13 +128,13 @@ namespace System::Linq::Expressions::Interpreter {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get static field: static private System.Linq.Expressions.Interpreter.InterpretedFrame s_currentFrame
-    static System::Linq::Expressions::Interpreter::InterpretedFrame* _get_s_currentFrame();
+    static ::System::Linq::Expressions::Interpreter::InterpretedFrame* _get_s_currentFrame();
     // Set static field: static private System.Linq.Expressions.Interpreter.InterpretedFrame s_currentFrame
-    static void _set_s_currentFrame(System::Linq::Expressions::Interpreter::InterpretedFrame* value);
+    static void _set_s_currentFrame(::System::Linq::Expressions::Interpreter::InterpretedFrame* value);
     // Get instance field reference: readonly System.Linq.Expressions.Interpreter.Interpreter Interpreter
-    System::Linq::Expressions::Interpreter::Interpreter*& dyn_Interpreter();
+    ::System::Linq::Expressions::Interpreter::Interpreter*& dyn_Interpreter();
     // Get instance field reference: System.Linq.Expressions.Interpreter.InterpretedFrame _parent
-    System::Linq::Expressions::Interpreter::InterpretedFrame*& dyn__parent();
+    ::System::Linq::Expressions::Interpreter::InterpretedFrame*& dyn__parent();
     // Get instance field reference: private readonly System.Int32[] _continuations
     ::ArrayW<int>& dyn__continuations();
     // Get instance field reference: private System.Int32 _continuationIndex
@@ -146,7 +146,7 @@ namespace System::Linq::Expressions::Interpreter {
     // Get instance field reference: public readonly System.Object[] Data
     ::ArrayW<::Il2CppObject*>& dyn_Data();
     // Get instance field reference: public readonly System.Runtime.CompilerServices.IStrongBox[] Closure
-    ::ArrayW<System::Runtime::CompilerServices::IStrongBox*>& dyn_Closure();
+    ::ArrayW<::System::Runtime::CompilerServices::IStrongBox*>& dyn_Closure();
     // Get instance field reference: public System.Int32 StackIndex
     int& dyn_StackIndex();
     // Get instance field reference: public System.Int32 InstructionIndex
@@ -156,17 +156,17 @@ namespace System::Linq::Expressions::Interpreter {
     ::StringW get_Name();
     // public System.Linq.Expressions.Interpreter.InterpretedFrame get_Parent()
     // Offset: 0x1BFE83C
-    System::Linq::Expressions::Interpreter::InterpretedFrame* get_Parent();
+    ::System::Linq::Expressions::Interpreter::InterpretedFrame* get_Parent();
     // System.Void .ctor(System.Linq.Expressions.Interpreter.Interpreter interpreter, System.Runtime.CompilerServices.IStrongBox[] closure)
     // Offset: 0x1BFE030
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static InterpretedFrame* New_ctor(System::Linq::Expressions::Interpreter::Interpreter* interpreter, ::ArrayW<System::Runtime::CompilerServices::IStrongBox*> closure) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Expressions::Interpreter::InterpretedFrame::.ctor");
+    static InterpretedFrame* New_ctor(::System::Linq::Expressions::Interpreter::Interpreter* interpreter, ::ArrayW<::System::Runtime::CompilerServices::IStrongBox*> closure) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Expressions::Interpreter::InterpretedFrame::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InterpretedFrame*, creationType>(interpreter, closure)));
     }
     // public System.Linq.Expressions.Interpreter.DebugInfo GetDebugInfo(System.Int32 instructionIndex)
     // Offset: 0x1BFE118
-    System::Linq::Expressions::Interpreter::DebugInfo* GetDebugInfo(int instructionIndex);
+    ::System::Linq::Expressions::Interpreter::DebugInfo* GetDebugInfo(int instructionIndex);
     // public System.Void Push(System.Object value)
     // Offset: 0x1BFE1BC
     void Push(::Il2CppObject* value);
@@ -202,16 +202,16 @@ namespace System::Linq::Expressions::Interpreter {
     void Dup();
     // public System.Collections.Generic.IEnumerable`1<System.Linq.Expressions.Interpreter.InterpretedFrameInfo> GetStackTraceDebugInfo()
     // Offset: 0x1BFE844
-    System::Collections::Generic::IEnumerable_1<System::Linq::Expressions::Interpreter::InterpretedFrameInfo>* GetStackTraceDebugInfo();
+    ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Interpreter::InterpretedFrameInfo>* GetStackTraceDebugInfo();
     // System.Void SaveTraceToException(System.Exception exception)
     // Offset: 0x1BFE8FC
-    void SaveTraceToException(System::Exception* exception);
+    void SaveTraceToException(::System::Exception* exception);
     // System.Linq.Expressions.Interpreter.InterpretedFrame Enter()
     // Offset: 0x1BFEB44
-    System::Linq::Expressions::Interpreter::InterpretedFrame* Enter();
+    ::System::Linq::Expressions::Interpreter::InterpretedFrame* Enter();
     // System.Void Leave(System.Linq.Expressions.Interpreter.InterpretedFrame prevFrame)
     // Offset: 0x1BFEBB4
-    void Leave(System::Linq::Expressions::Interpreter::InterpretedFrame* prevFrame);
+    void Leave(::System::Linq::Expressions::Interpreter::InterpretedFrame* prevFrame);
     // System.Boolean IsJumpHappened()
     // Offset: 0x1BFEC08
     bool IsJumpHappened();
@@ -253,7 +253,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::InterpretedFrame::get_Parent
 // Il2CppName: get_Parent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Linq::Expressions::Interpreter::InterpretedFrame* (System::Linq::Expressions::Interpreter::InterpretedFrame::*)()>(&System::Linq::Expressions::Interpreter::InterpretedFrame::get_Parent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Interpreter::InterpretedFrame* (System::Linq::Expressions::Interpreter::InterpretedFrame::*)()>(&System::Linq::Expressions::Interpreter::InterpretedFrame::get_Parent)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::InterpretedFrame*), "get_Parent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -265,7 +265,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Lin
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::InterpretedFrame::GetDebugInfo
 // Il2CppName: GetDebugInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Linq::Expressions::Interpreter::DebugInfo* (System::Linq::Expressions::Interpreter::InterpretedFrame::*)(int)>(&System::Linq::Expressions::Interpreter::InterpretedFrame::GetDebugInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Interpreter::DebugInfo* (System::Linq::Expressions::Interpreter::InterpretedFrame::*)(int)>(&System::Linq::Expressions::Interpreter::InterpretedFrame::GetDebugInfo)> {
   static const MethodInfo* get() {
     static auto* instructionIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::InterpretedFrame*), "GetDebugInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{instructionIndex});
@@ -370,7 +370,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::InterpretedFrame::GetStackTraceDebugInfo
 // Il2CppName: GetStackTraceDebugInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<System::Linq::Expressions::Interpreter::InterpretedFrameInfo>* (System::Linq::Expressions::Interpreter::InterpretedFrame::*)()>(&System::Linq::Expressions::Interpreter::InterpretedFrame::GetStackTraceDebugInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Interpreter::InterpretedFrameInfo>* (System::Linq::Expressions::Interpreter::InterpretedFrame::*)()>(&System::Linq::Expressions::Interpreter::InterpretedFrame::GetStackTraceDebugInfo)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::InterpretedFrame*), "GetStackTraceDebugInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -378,7 +378,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::InterpretedFrame::SaveTraceToException
 // Il2CppName: SaveTraceToException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::InterpretedFrame::*)(System::Exception*)>(&System::Linq::Expressions::Interpreter::InterpretedFrame::SaveTraceToException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::InterpretedFrame::*)(::System::Exception*)>(&System::Linq::Expressions::Interpreter::InterpretedFrame::SaveTraceToException)> {
   static const MethodInfo* get() {
     static auto* exception = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::InterpretedFrame*), "SaveTraceToException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{exception});
@@ -387,7 +387,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::InterpretedFrame::Enter
 // Il2CppName: Enter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Linq::Expressions::Interpreter::InterpretedFrame* (System::Linq::Expressions::Interpreter::InterpretedFrame::*)()>(&System::Linq::Expressions::Interpreter::InterpretedFrame::Enter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Interpreter::InterpretedFrame* (System::Linq::Expressions::Interpreter::InterpretedFrame::*)()>(&System::Linq::Expressions::Interpreter::InterpretedFrame::Enter)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::InterpretedFrame*), "Enter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -395,7 +395,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Lin
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::InterpretedFrame::Leave
 // Il2CppName: Leave
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::InterpretedFrame::*)(System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&System::Linq::Expressions::Interpreter::InterpretedFrame::Leave)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::InterpretedFrame::*)(::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&System::Linq::Expressions::Interpreter::InterpretedFrame::Leave)> {
   static const MethodInfo* get() {
     static auto* prevFrame = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions.Interpreter", "InterpretedFrame")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::InterpretedFrame*), "Leave", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{prevFrame});

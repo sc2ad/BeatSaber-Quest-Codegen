@@ -18,8 +18,8 @@ namespace System {
   class IConsoleDriver;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::IConsoleDriver);
-DEFINE_IL2CPP_ARG_TYPE(System::IConsoleDriver*, "System", "IConsoleDriver");
+NEED_NO_BOX(::System::IConsoleDriver);
+DEFINE_IL2CPP_ARG_TYPE(::System::IConsoleDriver*, "System", "IConsoleDriver");
 // Type namespace: System
 namespace System {
   // Size: 0x10
@@ -30,7 +30,7 @@ namespace System {
     public:
     // public System.ConsoleKeyInfo ReadKey(System.Boolean intercept)
     // Offset: 0xFFFFFFFF
-    System::ConsoleKeyInfo ReadKey(bool intercept);
+    ::System::ConsoleKeyInfo ReadKey(bool intercept);
   }; // System.IConsoleDriver
   #pragma pack(pop)
 }
@@ -38,7 +38,7 @@ namespace System {
 // Writing MetadataGetter for method: System::IConsoleDriver::ReadKey
 // Il2CppName: ReadKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ConsoleKeyInfo (System::IConsoleDriver::*)(bool)>(&System::IConsoleDriver::ReadKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ConsoleKeyInfo (System::IConsoleDriver::*)(bool)>(&System::IConsoleDriver::ReadKey)> {
   static const MethodInfo* get() {
     static auto* intercept = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IConsoleDriver*), "ReadKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{intercept});

@@ -20,8 +20,8 @@ namespace UnityEngine::_Scripting::APIUpdating {
   class APIUpdaterRuntimeHelpers;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers*, "UnityEngine._Scripting.APIUpdating", "APIUpdaterRuntimeHelpers");
+NEED_NO_BOX(::UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers*, "UnityEngine._Scripting.APIUpdating", "APIUpdaterRuntimeHelpers");
 // Type namespace: UnityEngine._Scripting.APIUpdating
 namespace UnityEngine::_Scripting::APIUpdating {
   // Size: 0x10
@@ -32,10 +32,10 @@ namespace UnityEngine::_Scripting::APIUpdating {
     public:
     // static System.Boolean GetMovedFromAttributeDataForType(System.Type sourceType, out System.String assembly, out System.String nsp, out System.String klass)
     // Offset: 0x270560C
-    static bool GetMovedFromAttributeDataForType(System::Type* sourceType, ByRef<::StringW> assembly, ByRef<::StringW> nsp, ByRef<::StringW> klass);
+    static bool GetMovedFromAttributeDataForType(::System::Type* sourceType, ByRef<::StringW> assembly, ByRef<::StringW> nsp, ByRef<::StringW> klass);
     // static System.Boolean GetObsoleteTypeRedirection(System.Type sourceType, out System.String assemblyName, out System.String nsp, out System.String className)
     // Offset: 0x2705740
-    static bool GetObsoleteTypeRedirection(System::Type* sourceType, ByRef<::StringW> assemblyName, ByRef<::StringW> nsp, ByRef<::StringW> className);
+    static bool GetObsoleteTypeRedirection(::System::Type* sourceType, ByRef<::StringW> assemblyName, ByRef<::StringW> nsp, ByRef<::StringW> className);
   }; // UnityEngine._Scripting.APIUpdating.APIUpdaterRuntimeHelpers
   #pragma pack(pop)
 }
@@ -43,7 +43,7 @@ namespace UnityEngine::_Scripting::APIUpdating {
 // Writing MetadataGetter for method: UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers::GetMovedFromAttributeDataForType
 // Il2CppName: GetMovedFromAttributeDataForType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, ByRef<::StringW>, ByRef<::StringW>, ByRef<::StringW>)>(&UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers::GetMovedFromAttributeDataForType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ByRef<::StringW>, ByRef<::StringW>, ByRef<::StringW>)>(&UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers::GetMovedFromAttributeDataForType)> {
   static const MethodInfo* get() {
     static auto* sourceType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* assembly = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
@@ -55,7 +55,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers::GetObsoleteTypeRedirection
 // Il2CppName: GetObsoleteTypeRedirection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, ByRef<::StringW>, ByRef<::StringW>, ByRef<::StringW>)>(&UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers::GetObsoleteTypeRedirection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ByRef<::StringW>, ByRef<::StringW>, ByRef<::StringW>)>(&UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers::GetObsoleteTypeRedirection)> {
   static const MethodInfo* get() {
     static auto* sourceType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* assemblyName = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;

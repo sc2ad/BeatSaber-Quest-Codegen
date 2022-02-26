@@ -30,8 +30,8 @@ namespace System::Xml::Schema {
   class SyntaxTreeNode;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Schema::SyntaxTreeNode);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::SyntaxTreeNode*, "System.Xml.Schema", "SyntaxTreeNode");
+NEED_NO_BOX(::System::Xml::Schema::SyntaxTreeNode);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::SyntaxTreeNode*, "System.Xml.Schema", "SyntaxTreeNode");
 // Type namespace: System.Xml.Schema
 namespace System::Xml::Schema {
   // Size: 0x10
@@ -48,17 +48,17 @@ namespace System::Xml::Schema {
     bool get_IsRangeNode();
     // public System.Void ExpandTree(System.Xml.Schema.InteriorNode parent, System.Xml.Schema.SymbolsDictionary symbols, System.Xml.Schema.Positions positions)
     // Offset: 0xFFFFFFFF
-    void ExpandTree(System::Xml::Schema::InteriorNode* parent, System::Xml::Schema::SymbolsDictionary* symbols, System::Xml::Schema::Positions* positions);
+    void ExpandTree(::System::Xml::Schema::InteriorNode* parent, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions);
     // public System.Void ConstructPos(System.Xml.Schema.BitSet firstpos, System.Xml.Schema.BitSet lastpos, System.Xml.Schema.BitSet[] followpos)
     // Offset: 0xFFFFFFFF
-    void ConstructPos(System::Xml::Schema::BitSet* firstpos, System::Xml::Schema::BitSet* lastpos, ::ArrayW<System::Xml::Schema::BitSet*> followpos);
+    void ConstructPos(::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos, ::ArrayW<::System::Xml::Schema::BitSet*> followpos);
     // protected System.Void .ctor()
     // Offset: 0x169C708
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SyntaxTreeNode* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Schema::SyntaxTreeNode::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::SyntaxTreeNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SyntaxTreeNode*, creationType>()));
     }
   }; // System.Xml.Schema.SyntaxTreeNode
@@ -84,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::SyntaxTreeNode::ExpandTree
 // Il2CppName: ExpandTree
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::SyntaxTreeNode::*)(System::Xml::Schema::InteriorNode*, System::Xml::Schema::SymbolsDictionary*, System::Xml::Schema::Positions*)>(&System::Xml::Schema::SyntaxTreeNode::ExpandTree)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::SyntaxTreeNode::*)(::System::Xml::Schema::InteriorNode*, ::System::Xml::Schema::SymbolsDictionary*, ::System::Xml::Schema::Positions*)>(&System::Xml::Schema::SyntaxTreeNode::ExpandTree)> {
   static const MethodInfo* get() {
     static auto* parent = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "InteriorNode")->byval_arg;
     static auto* symbols = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "SymbolsDictionary")->byval_arg;
@@ -95,7 +95,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::SyntaxTreeNode::ConstructPos
 // Il2CppName: ConstructPos
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::SyntaxTreeNode::*)(System::Xml::Schema::BitSet*, System::Xml::Schema::BitSet*, ::ArrayW<System::Xml::Schema::BitSet*>)>(&System::Xml::Schema::SyntaxTreeNode::ConstructPos)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::SyntaxTreeNode::*)(::System::Xml::Schema::BitSet*, ::System::Xml::Schema::BitSet*, ::ArrayW<::System::Xml::Schema::BitSet*>)>(&System::Xml::Schema::SyntaxTreeNode::ConstructPos)> {
   static const MethodInfo* get() {
     static auto* firstpos = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "BitSet")->byval_arg;
     static auto* lastpos = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "BitSet")->byval_arg;

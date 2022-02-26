@@ -46,8 +46,8 @@ namespace HoudiniEngineUnity {
   class HEU_PDGSession;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_PDGSession);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_PDGSession*, "HoudiniEngineUnity", "HEU_PDGSession");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_PDGSession);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_PDGSession*, "HoudiniEngineUnity", "HEU_PDGSession");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x60
@@ -56,7 +56,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_PDGSession : public ::Il2CppObject {
     public:
-    // Nested type: HoudiniEngineUnity::HEU_PDGSession::EventMessageColor
+    // Nested type: ::HoudiniEngineUnity::HEU_PDGSession::EventMessageColor
     struct EventMessageColor;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -70,9 +70,9 @@ namespace HoudiniEngineUnity {
     // private System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_PDGAssetLink> _pdgAssets
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_PDGAssetLink*>* pdgAssets;
+    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_PDGAssetLink*>* pdgAssets;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_PDGAssetLink*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_PDGAssetLink*>*) == 0x8);
     // public System.Int32 _pdgMaxProcessEvents
     // Size: 0x4
     // Offset: 0x18
@@ -84,9 +84,9 @@ namespace HoudiniEngineUnity {
     // public HoudiniEngineUnity.HAPI_PDG_EventInfo[] _pdgQueryEvents
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayW<HoudiniEngineUnity::HAPI_PDG_EventInfo> pdgQueryEvents;
+    ::ArrayW<::HoudiniEngineUnity::HAPI_PDG_EventInfo> pdgQueryEvents;
     // Field size check
-    static_assert(sizeof(::ArrayW<HoudiniEngineUnity::HAPI_PDG_EventInfo>) == 0x8);
+    static_assert(sizeof(::ArrayW<::HoudiniEngineUnity::HAPI_PDG_EventInfo>) == 0x8);
     // public System.Int32 _pdgContextSize
     // Size: 0x4
     // Offset: 0x28
@@ -118,17 +118,17 @@ namespace HoudiniEngineUnity {
     // public HoudiniEngineUnity.HAPI_PDG_State _pdgState
     // Size: 0x4
     // Offset: 0x48
-    HoudiniEngineUnity::HAPI_PDG_State pdgState;
+    ::HoudiniEngineUnity::HAPI_PDG_State pdgState;
     // Field size check
-    static_assert(sizeof(HoudiniEngineUnity::HAPI_PDG_State) == 0x4);
+    static_assert(sizeof(::HoudiniEngineUnity::HAPI_PDG_State) == 0x4);
     // Padding between fields: pdgState and: pdgEventMessages
     char __padding7[0x4] = {};
     // private System.Text.StringBuilder _pdgEventMessages
     // Size: 0x8
     // Offset: 0x50
-    System::Text::StringBuilder* pdgEventMessages;
+    ::System::Text::StringBuilder* pdgEventMessages;
     // Field size check
-    static_assert(sizeof(System::Text::StringBuilder*) == 0x8);
+    static_assert(sizeof(::System::Text::StringBuilder*) == 0x8);
     // private System.String[] _eventMessageColorCode
     // Size: 0x8
     // Offset: 0x58
@@ -137,15 +137,15 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(::ArrayW<::StringW>) == 0x8);
     public:
     // Get static field: static private HoudiniEngineUnity.HEU_PDGSession _pdgSession
-    static HoudiniEngineUnity::HEU_PDGSession* _get__pdgSession();
+    static ::HoudiniEngineUnity::HEU_PDGSession* _get__pdgSession();
     // Set static field: static private HoudiniEngineUnity.HEU_PDGSession _pdgSession
-    static void _set__pdgSession(HoudiniEngineUnity::HEU_PDGSession* value);
+    static void _set__pdgSession(::HoudiniEngineUnity::HEU_PDGSession* value);
     // Get instance field reference: private System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_PDGAssetLink> _pdgAssets
-    System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_PDGAssetLink*>*& dyn__pdgAssets();
+    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_PDGAssetLink*>*& dyn__pdgAssets();
     // Get instance field reference: public System.Int32 _pdgMaxProcessEvents
     int& dyn__pdgMaxProcessEvents();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_PDG_EventInfo[] _pdgQueryEvents
-    ::ArrayW<HoudiniEngineUnity::HAPI_PDG_EventInfo>& dyn__pdgQueryEvents();
+    ::ArrayW<::HoudiniEngineUnity::HAPI_PDG_EventInfo>& dyn__pdgQueryEvents();
     // Get instance field reference: public System.Int32 _pdgContextSize
     int& dyn__pdgContextSize();
     // Get instance field reference: public System.Int32[] _pdgContextIDs
@@ -155,20 +155,20 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.String _errorMsg
     ::StringW& dyn__errorMsg();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_PDG_State _pdgState
-    HoudiniEngineUnity::HAPI_PDG_State& dyn__pdgState();
+    ::HoudiniEngineUnity::HAPI_PDG_State& dyn__pdgState();
     // Get instance field reference: private System.Text.StringBuilder _pdgEventMessages
-    System::Text::StringBuilder*& dyn__pdgEventMessages();
+    ::System::Text::StringBuilder*& dyn__pdgEventMessages();
     // Get instance field reference: private System.String[] _eventMessageColorCode
     ::ArrayW<::StringW>& dyn__eventMessageColorCode();
     // static public HoudiniEngineUnity.HEU_PDGSession GetPDGSession()
     // Offset: 0x1A4197C
-    static HoudiniEngineUnity::HEU_PDGSession* GetPDGSession();
+    static ::HoudiniEngineUnity::HEU_PDGSession* GetPDGSession();
     // public System.Void AddAsset(HoudiniEngineUnity.HEU_PDGAssetLink asset)
     // Offset: 0x1A44BEC
-    void AddAsset(HoudiniEngineUnity::HEU_PDGAssetLink* asset);
+    void AddAsset(::HoudiniEngineUnity::HEU_PDGAssetLink* asset);
     // public System.Void RemoveAsset(HoudiniEngineUnity.HEU_PDGAssetLink asset)
     // Offset: 0x1A419F8
-    void RemoveAsset(HoudiniEngineUnity::HEU_PDGAssetLink* asset);
+    void RemoveAsset(::HoudiniEngineUnity::HEU_PDGAssetLink* asset);
     // private System.Void Update()
     // Offset: 0x1A44BF0
     void Update();
@@ -183,37 +183,37 @@ namespace HoudiniEngineUnity {
     void ReinitializePDGContext();
     // private System.Void ProcessPDGEvent(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 contextID, ref HoudiniEngineUnity.HAPI_PDG_EventInfo eventInfo)
     // Offset: 0x1A44CE4
-    void ProcessPDGEvent(HoudiniEngineUnity::HEU_SessionBase* session, int contextID, ByRef<HoudiniEngineUnity::HAPI_PDG_EventInfo> eventInfo);
+    void ProcessPDGEvent(::HoudiniEngineUnity::HEU_SessionBase* session, int contextID, ByRef<::HoudiniEngineUnity::HAPI_PDG_EventInfo> eventInfo);
     // private System.Boolean GetTOPAssetLinkAndNode(System.Int32 nodeID, out HoudiniEngineUnity.HEU_PDGAssetLink assetLink, out HoudiniEngineUnity.HEU_TOPNodeData topNode)
     // Offset: 0x1A44CE8
-    bool GetTOPAssetLinkAndNode(int nodeID, ByRef<HoudiniEngineUnity::HEU_PDGAssetLink*> assetLink, ByRef<HoudiniEngineUnity::HEU_TOPNodeData*> topNode);
+    bool GetTOPAssetLinkAndNode(int nodeID, ByRef<::HoudiniEngineUnity::HEU_PDGAssetLink*> assetLink, ByRef<::HoudiniEngineUnity::HEU_TOPNodeData*> topNode);
     // private System.Void SetTOPNodePDGState(HoudiniEngineUnity.HEU_PDGAssetLink assetLink, HoudiniEngineUnity.HEU_TOPNodeData topNode, HoudiniEngineUnity.HEU_TOPNodeData/HoudiniEngineUnity.PDGState pdgState)
     // Offset: 0x1A44DF8
-    void SetTOPNodePDGState(HoudiniEngineUnity::HEU_PDGAssetLink* assetLink, HoudiniEngineUnity::HEU_TOPNodeData* topNode, HoudiniEngineUnity::HEU_TOPNodeData::PDGState pdgState);
+    void SetTOPNodePDGState(::HoudiniEngineUnity::HEU_PDGAssetLink* assetLink, ::HoudiniEngineUnity::HEU_TOPNodeData* topNode, ::HoudiniEngineUnity::HEU_TOPNodeData::PDGState pdgState);
     // private System.Void NotifyTOPNodePDGStateClear(HoudiniEngineUnity.HEU_PDGAssetLink assetLink, HoudiniEngineUnity.HEU_TOPNodeData topNode)
     // Offset: 0x1A44E28
-    void NotifyTOPNodePDGStateClear(HoudiniEngineUnity::HEU_PDGAssetLink* assetLink, HoudiniEngineUnity::HEU_TOPNodeData* topNode);
+    void NotifyTOPNodePDGStateClear(::HoudiniEngineUnity::HEU_PDGAssetLink* assetLink, ::HoudiniEngineUnity::HEU_TOPNodeData* topNode);
     // private System.Void NotifyTOPNodeTotalWorkItem(HoudiniEngineUnity.HEU_PDGAssetLink assetLink, HoudiniEngineUnity.HEU_TOPNodeData topNode, System.Int32 inc)
     // Offset: 0x1A44E78
-    void NotifyTOPNodeTotalWorkItem(HoudiniEngineUnity::HEU_PDGAssetLink* assetLink, HoudiniEngineUnity::HEU_TOPNodeData* topNode, int inc);
+    void NotifyTOPNodeTotalWorkItem(::HoudiniEngineUnity::HEU_PDGAssetLink* assetLink, ::HoudiniEngineUnity::HEU_TOPNodeData* topNode, int inc);
     // private System.Void NotifyTOPNodeCookedWorkItem(HoudiniEngineUnity.HEU_PDGAssetLink assetLink, HoudiniEngineUnity.HEU_TOPNodeData topNode)
     // Offset: 0x1A44F2C
-    void NotifyTOPNodeCookedWorkItem(HoudiniEngineUnity::HEU_PDGAssetLink* assetLink, HoudiniEngineUnity::HEU_TOPNodeData* topNode);
+    void NotifyTOPNodeCookedWorkItem(::HoudiniEngineUnity::HEU_PDGAssetLink* assetLink, ::HoudiniEngineUnity::HEU_TOPNodeData* topNode);
     // private System.Void NotifyTOPNodeErrorWorkItem(HoudiniEngineUnity.HEU_PDGAssetLink assetLink, HoudiniEngineUnity.HEU_TOPNodeData topNode)
     // Offset: 0x1A44F6C
-    void NotifyTOPNodeErrorWorkItem(HoudiniEngineUnity::HEU_PDGAssetLink* assetLink, HoudiniEngineUnity::HEU_TOPNodeData* topNode);
+    void NotifyTOPNodeErrorWorkItem(::HoudiniEngineUnity::HEU_PDGAssetLink* assetLink, ::HoudiniEngineUnity::HEU_TOPNodeData* topNode);
     // private System.Void NotifyTOPNodeWaitingWorkItem(HoudiniEngineUnity.HEU_PDGAssetLink assetLink, HoudiniEngineUnity.HEU_TOPNodeData topNode, System.Int32 inc)
     // Offset: 0x1A44FAC
-    void NotifyTOPNodeWaitingWorkItem(HoudiniEngineUnity::HEU_PDGAssetLink* assetLink, HoudiniEngineUnity::HEU_TOPNodeData* topNode, int inc);
+    void NotifyTOPNodeWaitingWorkItem(::HoudiniEngineUnity::HEU_PDGAssetLink* assetLink, ::HoudiniEngineUnity::HEU_TOPNodeData* topNode, int inc);
     // private System.Void NotifyTOPNodeScheduledWorkItem(HoudiniEngineUnity.HEU_PDGAssetLink assetLink, HoudiniEngineUnity.HEU_TOPNodeData topNode, System.Int32 inc)
     // Offset: 0x1A45060
-    void NotifyTOPNodeScheduledWorkItem(HoudiniEngineUnity::HEU_PDGAssetLink* assetLink, HoudiniEngineUnity::HEU_TOPNodeData* topNode, int inc);
+    void NotifyTOPNodeScheduledWorkItem(::HoudiniEngineUnity::HEU_PDGAssetLink* assetLink, ::HoudiniEngineUnity::HEU_TOPNodeData* topNode, int inc);
     // private System.Void NotifyTOPNodeCookingWorkItem(HoudiniEngineUnity.HEU_PDGAssetLink assetLink, HoudiniEngineUnity.HEU_TOPNodeData topNode, System.Int32 inc)
     // Offset: 0x1A45114
-    void NotifyTOPNodeCookingWorkItem(HoudiniEngineUnity::HEU_PDGAssetLink* assetLink, HoudiniEngineUnity::HEU_TOPNodeData* topNode, int inc);
+    void NotifyTOPNodeCookingWorkItem(::HoudiniEngineUnity::HEU_PDGAssetLink* assetLink, ::HoudiniEngineUnity::HEU_TOPNodeData* topNode, int inc);
     // static private System.Void ResetPDGEventInfo(ref HoudiniEngineUnity.HAPI_PDG_EventInfo eventInfo)
     // Offset: 0x1A451C8
-    static void ResetPDGEventInfo(ByRef<HoudiniEngineUnity::HAPI_PDG_EventInfo> eventInfo);
+    static void ResetPDGEventInfo(ByRef<::HoudiniEngineUnity::HAPI_PDG_EventInfo> eventInfo);
     // private System.Void SetErrorState(System.String msg, System.Boolean bLogIt)
     // Offset: 0x1A451DC
     void SetErrorState(::StringW msg, bool bLogIt);
@@ -222,19 +222,19 @@ namespace HoudiniEngineUnity {
     void ClearErrorState();
     // public HoudiniEngineUnity.HEU_SessionBase GetHAPIPDGSession(System.Boolean bCreate)
     // Offset: 0x1A45274
-    HoudiniEngineUnity::HEU_SessionBase* GetHAPIPDGSession(bool bCreate);
+    ::HoudiniEngineUnity::HEU_SessionBase* GetHAPIPDGSession(bool bCreate);
     // public System.Void CookTOPNetworkOutputNode(HoudiniEngineUnity.HEU_TOPNetworkData topNetwork)
     // Offset: 0x1A43A24
-    void CookTOPNetworkOutputNode(HoudiniEngineUnity::HEU_TOPNetworkData* topNetwork);
+    void CookTOPNetworkOutputNode(::HoudiniEngineUnity::HEU_TOPNetworkData* topNetwork);
     // public System.Void PauseCook(HoudiniEngineUnity.HEU_TOPNetworkData topNetwork)
     // Offset: 0x1A43A9C
-    void PauseCook(HoudiniEngineUnity::HEU_TOPNetworkData* topNetwork);
+    void PauseCook(::HoudiniEngineUnity::HEU_TOPNetworkData* topNetwork);
     // public System.Void CancelCook(HoudiniEngineUnity.HEU_TOPNetworkData topNetwork)
     // Offset: 0x1A43B14
-    void CancelCook(HoudiniEngineUnity::HEU_TOPNetworkData* topNetwork);
+    void CancelCook(::HoudiniEngineUnity::HEU_TOPNetworkData* topNetwork);
     // public System.Void ClearWorkItemResult(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 contextID, HoudiniEngineUnity.HAPI_PDG_EventInfo eventInfo, HoudiniEngineUnity.HEU_TOPNodeData topNode)
     // Offset: 0x1A45300
-    void ClearWorkItemResult(HoudiniEngineUnity::HEU_SessionBase* session, int contextID, HoudiniEngineUnity::HAPI_PDG_EventInfo eventInfo, HoudiniEngineUnity::HEU_TOPNodeData* topNode);
+    void ClearWorkItemResult(::HoudiniEngineUnity::HEU_SessionBase* session, int contextID, ::HoudiniEngineUnity::HAPI_PDG_EventInfo eventInfo, ::HoudiniEngineUnity::HEU_TOPNodeData* topNode);
     // public System.Boolean DirtyTOPNode(System.Int32 nodeID)
     // Offset: 0x1A4390C
     bool DirtyTOPNode(int nodeID);
@@ -259,7 +259,7 @@ namespace HoudiniEngineUnity {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_PDGSession* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_PDGSession::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_PDGSession::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_PDGSession*, creationType>()));
     }
   }; // HoudiniEngineUnity.HEU_PDGSession
@@ -271,7 +271,7 @@ namespace HoudiniEngineUnity {
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PDGSession::GetPDGSession
 // Il2CppName: GetPDGSession
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_PDGSession* (*)()>(&HoudiniEngineUnity::HEU_PDGSession::GetPDGSession)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_PDGSession* (*)()>(&HoudiniEngineUnity::HEU_PDGSession::GetPDGSession)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PDGSession*), "GetPDGSession", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -279,7 +279,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PDGSession::AddAsset
 // Il2CppName: AddAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PDGSession::*)(HoudiniEngineUnity::HEU_PDGAssetLink*)>(&HoudiniEngineUnity::HEU_PDGSession::AddAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PDGSession::*)(::HoudiniEngineUnity::HEU_PDGAssetLink*)>(&HoudiniEngineUnity::HEU_PDGSession::AddAsset)> {
   static const MethodInfo* get() {
     static auto* asset = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_PDGAssetLink")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PDGSession*), "AddAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asset});
@@ -288,7 +288,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PDGSession::RemoveAsset
 // Il2CppName: RemoveAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PDGSession::*)(HoudiniEngineUnity::HEU_PDGAssetLink*)>(&HoudiniEngineUnity::HEU_PDGSession::RemoveAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PDGSession::*)(::HoudiniEngineUnity::HEU_PDGAssetLink*)>(&HoudiniEngineUnity::HEU_PDGSession::RemoveAsset)> {
   static const MethodInfo* get() {
     static auto* asset = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_PDGAssetLink")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PDGSession*), "RemoveAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asset});
@@ -329,7 +329,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PDGSession::ProcessPDGEvent
 // Il2CppName: ProcessPDGEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PDGSession::*)(HoudiniEngineUnity::HEU_SessionBase*, int, ByRef<HoudiniEngineUnity::HAPI_PDG_EventInfo>)>(&HoudiniEngineUnity::HEU_PDGSession::ProcessPDGEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PDGSession::*)(::HoudiniEngineUnity::HEU_SessionBase*, int, ByRef<::HoudiniEngineUnity::HAPI_PDG_EventInfo>)>(&HoudiniEngineUnity::HEU_PDGSession::ProcessPDGEvent)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* contextID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -340,7 +340,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PDGSession::GetTOPAssetLinkAndNode
 // Il2CppName: GetTOPAssetLinkAndNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_PDGSession::*)(int, ByRef<HoudiniEngineUnity::HEU_PDGAssetLink*>, ByRef<HoudiniEngineUnity::HEU_TOPNodeData*>)>(&HoudiniEngineUnity::HEU_PDGSession::GetTOPAssetLinkAndNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_PDGSession::*)(int, ByRef<::HoudiniEngineUnity::HEU_PDGAssetLink*>, ByRef<::HoudiniEngineUnity::HEU_TOPNodeData*>)>(&HoudiniEngineUnity::HEU_PDGSession::GetTOPAssetLinkAndNode)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* assetLink = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_PDGAssetLink")->this_arg;
@@ -351,7 +351,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PDGSession::SetTOPNodePDGState
 // Il2CppName: SetTOPNodePDGState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PDGSession::*)(HoudiniEngineUnity::HEU_PDGAssetLink*, HoudiniEngineUnity::HEU_TOPNodeData*, HoudiniEngineUnity::HEU_TOPNodeData::PDGState)>(&HoudiniEngineUnity::HEU_PDGSession::SetTOPNodePDGState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PDGSession::*)(::HoudiniEngineUnity::HEU_PDGAssetLink*, ::HoudiniEngineUnity::HEU_TOPNodeData*, ::HoudiniEngineUnity::HEU_TOPNodeData::PDGState)>(&HoudiniEngineUnity::HEU_PDGSession::SetTOPNodePDGState)> {
   static const MethodInfo* get() {
     static auto* assetLink = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_PDGAssetLink")->byval_arg;
     static auto* topNode = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_TOPNodeData")->byval_arg;
@@ -362,7 +362,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PDGSession::NotifyTOPNodePDGStateClear
 // Il2CppName: NotifyTOPNodePDGStateClear
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PDGSession::*)(HoudiniEngineUnity::HEU_PDGAssetLink*, HoudiniEngineUnity::HEU_TOPNodeData*)>(&HoudiniEngineUnity::HEU_PDGSession::NotifyTOPNodePDGStateClear)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PDGSession::*)(::HoudiniEngineUnity::HEU_PDGAssetLink*, ::HoudiniEngineUnity::HEU_TOPNodeData*)>(&HoudiniEngineUnity::HEU_PDGSession::NotifyTOPNodePDGStateClear)> {
   static const MethodInfo* get() {
     static auto* assetLink = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_PDGAssetLink")->byval_arg;
     static auto* topNode = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_TOPNodeData")->byval_arg;
@@ -372,7 +372,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PDGSession::NotifyTOPNodeTotalWorkItem
 // Il2CppName: NotifyTOPNodeTotalWorkItem
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PDGSession::*)(HoudiniEngineUnity::HEU_PDGAssetLink*, HoudiniEngineUnity::HEU_TOPNodeData*, int)>(&HoudiniEngineUnity::HEU_PDGSession::NotifyTOPNodeTotalWorkItem)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PDGSession::*)(::HoudiniEngineUnity::HEU_PDGAssetLink*, ::HoudiniEngineUnity::HEU_TOPNodeData*, int)>(&HoudiniEngineUnity::HEU_PDGSession::NotifyTOPNodeTotalWorkItem)> {
   static const MethodInfo* get() {
     static auto* assetLink = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_PDGAssetLink")->byval_arg;
     static auto* topNode = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_TOPNodeData")->byval_arg;
@@ -383,7 +383,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PDGSession::NotifyTOPNodeCookedWorkItem
 // Il2CppName: NotifyTOPNodeCookedWorkItem
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PDGSession::*)(HoudiniEngineUnity::HEU_PDGAssetLink*, HoudiniEngineUnity::HEU_TOPNodeData*)>(&HoudiniEngineUnity::HEU_PDGSession::NotifyTOPNodeCookedWorkItem)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PDGSession::*)(::HoudiniEngineUnity::HEU_PDGAssetLink*, ::HoudiniEngineUnity::HEU_TOPNodeData*)>(&HoudiniEngineUnity::HEU_PDGSession::NotifyTOPNodeCookedWorkItem)> {
   static const MethodInfo* get() {
     static auto* assetLink = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_PDGAssetLink")->byval_arg;
     static auto* topNode = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_TOPNodeData")->byval_arg;
@@ -393,7 +393,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PDGSession::NotifyTOPNodeErrorWorkItem
 // Il2CppName: NotifyTOPNodeErrorWorkItem
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PDGSession::*)(HoudiniEngineUnity::HEU_PDGAssetLink*, HoudiniEngineUnity::HEU_TOPNodeData*)>(&HoudiniEngineUnity::HEU_PDGSession::NotifyTOPNodeErrorWorkItem)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PDGSession::*)(::HoudiniEngineUnity::HEU_PDGAssetLink*, ::HoudiniEngineUnity::HEU_TOPNodeData*)>(&HoudiniEngineUnity::HEU_PDGSession::NotifyTOPNodeErrorWorkItem)> {
   static const MethodInfo* get() {
     static auto* assetLink = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_PDGAssetLink")->byval_arg;
     static auto* topNode = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_TOPNodeData")->byval_arg;
@@ -403,7 +403,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PDGSession::NotifyTOPNodeWaitingWorkItem
 // Il2CppName: NotifyTOPNodeWaitingWorkItem
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PDGSession::*)(HoudiniEngineUnity::HEU_PDGAssetLink*, HoudiniEngineUnity::HEU_TOPNodeData*, int)>(&HoudiniEngineUnity::HEU_PDGSession::NotifyTOPNodeWaitingWorkItem)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PDGSession::*)(::HoudiniEngineUnity::HEU_PDGAssetLink*, ::HoudiniEngineUnity::HEU_TOPNodeData*, int)>(&HoudiniEngineUnity::HEU_PDGSession::NotifyTOPNodeWaitingWorkItem)> {
   static const MethodInfo* get() {
     static auto* assetLink = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_PDGAssetLink")->byval_arg;
     static auto* topNode = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_TOPNodeData")->byval_arg;
@@ -414,7 +414,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PDGSession::NotifyTOPNodeScheduledWorkItem
 // Il2CppName: NotifyTOPNodeScheduledWorkItem
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PDGSession::*)(HoudiniEngineUnity::HEU_PDGAssetLink*, HoudiniEngineUnity::HEU_TOPNodeData*, int)>(&HoudiniEngineUnity::HEU_PDGSession::NotifyTOPNodeScheduledWorkItem)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PDGSession::*)(::HoudiniEngineUnity::HEU_PDGAssetLink*, ::HoudiniEngineUnity::HEU_TOPNodeData*, int)>(&HoudiniEngineUnity::HEU_PDGSession::NotifyTOPNodeScheduledWorkItem)> {
   static const MethodInfo* get() {
     static auto* assetLink = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_PDGAssetLink")->byval_arg;
     static auto* topNode = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_TOPNodeData")->byval_arg;
@@ -425,7 +425,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PDGSession::NotifyTOPNodeCookingWorkItem
 // Il2CppName: NotifyTOPNodeCookingWorkItem
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PDGSession::*)(HoudiniEngineUnity::HEU_PDGAssetLink*, HoudiniEngineUnity::HEU_TOPNodeData*, int)>(&HoudiniEngineUnity::HEU_PDGSession::NotifyTOPNodeCookingWorkItem)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PDGSession::*)(::HoudiniEngineUnity::HEU_PDGAssetLink*, ::HoudiniEngineUnity::HEU_TOPNodeData*, int)>(&HoudiniEngineUnity::HEU_PDGSession::NotifyTOPNodeCookingWorkItem)> {
   static const MethodInfo* get() {
     static auto* assetLink = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_PDGAssetLink")->byval_arg;
     static auto* topNode = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_TOPNodeData")->byval_arg;
@@ -436,7 +436,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PDGSession::ResetPDGEventInfo
 // Il2CppName: ResetPDGEventInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<HoudiniEngineUnity::HAPI_PDG_EventInfo>)>(&HoudiniEngineUnity::HEU_PDGSession::ResetPDGEventInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::HoudiniEngineUnity::HAPI_PDG_EventInfo>)>(&HoudiniEngineUnity::HEU_PDGSession::ResetPDGEventInfo)> {
   static const MethodInfo* get() {
     static auto* eventInfo = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_PDG_EventInfo")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PDGSession*), "ResetPDGEventInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eventInfo});
@@ -463,7 +463,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PDGSession::GetHAPIPDGSession
 // Il2CppName: GetHAPIPDGSession
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_SessionBase* (HoudiniEngineUnity::HEU_PDGSession::*)(bool)>(&HoudiniEngineUnity::HEU_PDGSession::GetHAPIPDGSession)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_SessionBase* (HoudiniEngineUnity::HEU_PDGSession::*)(bool)>(&HoudiniEngineUnity::HEU_PDGSession::GetHAPIPDGSession)> {
   static const MethodInfo* get() {
     static auto* bCreate = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PDGSession*), "GetHAPIPDGSession", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bCreate});
@@ -472,7 +472,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PDGSession::CookTOPNetworkOutputNode
 // Il2CppName: CookTOPNetworkOutputNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PDGSession::*)(HoudiniEngineUnity::HEU_TOPNetworkData*)>(&HoudiniEngineUnity::HEU_PDGSession::CookTOPNetworkOutputNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PDGSession::*)(::HoudiniEngineUnity::HEU_TOPNetworkData*)>(&HoudiniEngineUnity::HEU_PDGSession::CookTOPNetworkOutputNode)> {
   static const MethodInfo* get() {
     static auto* topNetwork = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_TOPNetworkData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PDGSession*), "CookTOPNetworkOutputNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{topNetwork});
@@ -481,7 +481,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PDGSession::PauseCook
 // Il2CppName: PauseCook
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PDGSession::*)(HoudiniEngineUnity::HEU_TOPNetworkData*)>(&HoudiniEngineUnity::HEU_PDGSession::PauseCook)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PDGSession::*)(::HoudiniEngineUnity::HEU_TOPNetworkData*)>(&HoudiniEngineUnity::HEU_PDGSession::PauseCook)> {
   static const MethodInfo* get() {
     static auto* topNetwork = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_TOPNetworkData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PDGSession*), "PauseCook", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{topNetwork});
@@ -490,7 +490,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PDGSession::CancelCook
 // Il2CppName: CancelCook
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PDGSession::*)(HoudiniEngineUnity::HEU_TOPNetworkData*)>(&HoudiniEngineUnity::HEU_PDGSession::CancelCook)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PDGSession::*)(::HoudiniEngineUnity::HEU_TOPNetworkData*)>(&HoudiniEngineUnity::HEU_PDGSession::CancelCook)> {
   static const MethodInfo* get() {
     static auto* topNetwork = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_TOPNetworkData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_PDGSession*), "CancelCook", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{topNetwork});
@@ -499,7 +499,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PDGSession::ClearWorkItemResult
 // Il2CppName: ClearWorkItemResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PDGSession::*)(HoudiniEngineUnity::HEU_SessionBase*, int, HoudiniEngineUnity::HAPI_PDG_EventInfo, HoudiniEngineUnity::HEU_TOPNodeData*)>(&HoudiniEngineUnity::HEU_PDGSession::ClearWorkItemResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PDGSession::*)(::HoudiniEngineUnity::HEU_SessionBase*, int, ::HoudiniEngineUnity::HAPI_PDG_EventInfo, ::HoudiniEngineUnity::HEU_TOPNodeData*)>(&HoudiniEngineUnity::HEU_PDGSession::ClearWorkItemResult)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* contextID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

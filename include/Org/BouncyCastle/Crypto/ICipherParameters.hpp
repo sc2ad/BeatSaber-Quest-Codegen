@@ -11,8 +11,8 @@ namespace Org::BouncyCastle::Crypto {
   class ICipherParameters;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Crypto::ICipherParameters);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::ICipherParameters*, "Org.BouncyCastle.Crypto", "ICipherParameters");
+NEED_NO_BOX(::Org::BouncyCastle::Crypto::ICipherParameters);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::ICipherParameters*, "Org.BouncyCastle.Crypto", "ICipherParameters");
 // Type namespace: Org.BouncyCastle.Crypto
 namespace Org::BouncyCastle::Crypto {
   // Size: 0x10

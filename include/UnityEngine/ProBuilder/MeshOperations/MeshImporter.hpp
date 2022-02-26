@@ -52,8 +52,8 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   class MeshImporter;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::MeshOperations::MeshImporter);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::MeshImporter*, "UnityEngine.ProBuilder.MeshOperations", "MeshImporter");
+NEED_NO_BOX(::UnityEngine::ProBuilder::MeshOperations::MeshImporter);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::MeshOperations::MeshImporter*, "UnityEngine.ProBuilder.MeshOperations", "MeshImporter");
 // Type namespace: UnityEngine.ProBuilder.MeshOperations
 namespace UnityEngine::ProBuilder::MeshOperations {
   // Size: 0x30
@@ -62,7 +62,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   // [TokenAttribute] Offset: FFFFFFFF
   class MeshImporter : public ::Il2CppObject {
     public:
-    // Nested type: UnityEngine::ProBuilder::MeshOperations::MeshImporter::$$c
+    // Nested type: ::UnityEngine::ProBuilder::MeshOperations::MeshImporter::$$c
     class $$c;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -76,59 +76,59 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // private UnityEngine.Mesh m_SourceMesh
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::Mesh* m_SourceMesh;
+    ::UnityEngine::Mesh* m_SourceMesh;
     // Field size check
-    static_assert(sizeof(UnityEngine::Mesh*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Mesh*) == 0x8);
     // private UnityEngine.Material[] m_SourceMaterials
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayW<UnityEngine::Material*> m_SourceMaterials;
+    ::ArrayW<::UnityEngine::Material*> m_SourceMaterials;
     // Field size check
-    static_assert(sizeof(::ArrayW<UnityEngine::Material*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::UnityEngine::Material*>) == 0x8);
     // private UnityEngine.ProBuilder.ProBuilderMesh m_Destination
     // Size: 0x8
     // Offset: 0x20
-    UnityEngine::ProBuilder::ProBuilderMesh* m_Destination;
+    ::UnityEngine::ProBuilder::ProBuilderMesh* m_Destination;
     // Field size check
-    static_assert(sizeof(UnityEngine::ProBuilder::ProBuilderMesh*) == 0x8);
+    static_assert(sizeof(::UnityEngine::ProBuilder::ProBuilderMesh*) == 0x8);
     // private UnityEngine.ProBuilder.Vertex[] m_Vertices
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayW<UnityEngine::ProBuilder::Vertex*> m_Vertices;
+    ::ArrayW<::UnityEngine::ProBuilder::Vertex*> m_Vertices;
     // Field size check
-    static_assert(sizeof(::ArrayW<UnityEngine::ProBuilder::Vertex*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::UnityEngine::ProBuilder::Vertex*>) == 0x8);
     public:
     // Get static field: static private readonly UnityEngine.ProBuilder.MeshOperations.MeshImportSettings k_DefaultImportSettings
-    static UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* _get_k_DefaultImportSettings();
+    static ::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* _get_k_DefaultImportSettings();
     // Set static field: static private readonly UnityEngine.ProBuilder.MeshOperations.MeshImportSettings k_DefaultImportSettings
-    static void _set_k_DefaultImportSettings(UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* value);
+    static void _set_k_DefaultImportSettings(::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* value);
     // Get instance field reference: private UnityEngine.Mesh m_SourceMesh
-    UnityEngine::Mesh*& dyn_m_SourceMesh();
+    ::UnityEngine::Mesh*& dyn_m_SourceMesh();
     // Get instance field reference: private UnityEngine.Material[] m_SourceMaterials
-    ::ArrayW<UnityEngine::Material*>& dyn_m_SourceMaterials();
+    ::ArrayW<::UnityEngine::Material*>& dyn_m_SourceMaterials();
     // Get instance field reference: private UnityEngine.ProBuilder.ProBuilderMesh m_Destination
-    UnityEngine::ProBuilder::ProBuilderMesh*& dyn_m_Destination();
+    ::UnityEngine::ProBuilder::ProBuilderMesh*& dyn_m_Destination();
     // Get instance field reference: private UnityEngine.ProBuilder.Vertex[] m_Vertices
-    ::ArrayW<UnityEngine::ProBuilder::Vertex*>& dyn_m_Vertices();
+    ::ArrayW<::UnityEngine::ProBuilder::Vertex*>& dyn_m_Vertices();
     // public System.Void .ctor(UnityEngine.GameObject gameObject)
     // Offset: 0x1B33B1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MeshImporter* New_ctor(UnityEngine::GameObject* gameObject) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::MeshOperations::MeshImporter::.ctor");
+    static MeshImporter* New_ctor(::UnityEngine::GameObject* gameObject) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::MeshImporter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MeshImporter*, creationType>(gameObject)));
     }
     // public System.Void .ctor(UnityEngine.Mesh sourceMesh, UnityEngine.Material[] sourceMaterials, UnityEngine.ProBuilder.ProBuilderMesh destination)
     // Offset: 0x1B33C5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MeshImporter* New_ctor(UnityEngine::Mesh* sourceMesh, ::ArrayW<UnityEngine::Material*> sourceMaterials, UnityEngine::ProBuilder::ProBuilderMesh* destination) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::MeshOperations::MeshImporter::.ctor");
+    static MeshImporter* New_ctor(::UnityEngine::Mesh* sourceMesh, ::ArrayW<::UnityEngine::Material*> sourceMaterials, ::UnityEngine::ProBuilder::ProBuilderMesh* destination) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::MeshImporter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MeshImporter*, creationType>(sourceMesh, sourceMaterials, destination)));
     }
     // public System.Void .ctor(UnityEngine.ProBuilder.ProBuilderMesh destination)
     // Offset: 0x1B33D84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MeshImporter* New_ctor(UnityEngine::ProBuilder::ProBuilderMesh* destination) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::MeshOperations::MeshImporter::.ctor");
+    static MeshImporter* New_ctor(::UnityEngine::ProBuilder::ProBuilderMesh* destination) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::MeshImporter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MeshImporter*, creationType>(destination)));
     }
     // static private System.Void .cctor()
@@ -136,19 +136,19 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     static void _cctor();
     // public System.Boolean Import(UnityEngine.GameObject go, UnityEngine.ProBuilder.MeshOperations.MeshImportSettings importSettings)
     // Offset: 0x1B33DB0
-    bool Import(UnityEngine::GameObject* go, UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* importSettings);
+    bool Import(::UnityEngine::GameObject* go, ::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* importSettings);
     // public System.Void Import(UnityEngine.ProBuilder.MeshOperations.MeshImportSettings importSettings)
     // Offset: 0x1B33F38
-    void Import(UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* importSettings);
+    void Import(::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* importSettings);
     // static private UnityEngine.ProBuilder.Face GetBestQuadConnection(UnityEngine.ProBuilder.WingedEdge wing, System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.EdgeLookup,System.Single> connections)
     // Offset: 0x1B358CC
-    static UnityEngine::ProBuilder::Face* GetBestQuadConnection(UnityEngine::ProBuilder::WingedEdge* wing, System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::EdgeLookup, float>* connections);
+    static ::UnityEngine::ProBuilder::Face* GetBestQuadConnection(::UnityEngine::ProBuilder::WingedEdge* wing, ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::EdgeLookup, float>* connections);
     // private System.Single GetQuadScore(UnityEngine.ProBuilder.WingedEdge left, UnityEngine.ProBuilder.WingedEdge right, System.Single normalThreshold)
     // Offset: 0x1B3533C
-    float GetQuadScore(UnityEngine::ProBuilder::WingedEdge* left, UnityEngine::ProBuilder::WingedEdge* right, float normalThreshold);
+    float GetQuadScore(::UnityEngine::ProBuilder::WingedEdge* left, ::UnityEngine::ProBuilder::WingedEdge* right, float normalThreshold);
   }; // UnityEngine.ProBuilder.MeshOperations.MeshImporter
   #pragma pack(pop)
-  static check_size<sizeof(MeshImporter), 40 + sizeof(::ArrayW<UnityEngine::ProBuilder::Vertex*>)> __UnityEngine_ProBuilder_MeshOperations_MeshImporterSizeCheck;
+  static check_size<sizeof(MeshImporter), 40 + sizeof(::ArrayW<::UnityEngine::ProBuilder::Vertex*>)> __UnityEngine_ProBuilder_MeshOperations_MeshImporterSizeCheck;
   static_assert(sizeof(MeshImporter) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -175,7 +175,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::MeshImporter::Import
 // Il2CppName: Import
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::MeshOperations::MeshImporter::*)(UnityEngine::GameObject*, UnityEngine::ProBuilder::MeshOperations::MeshImportSettings*)>(&UnityEngine::ProBuilder::MeshOperations::MeshImporter::Import)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::MeshOperations::MeshImporter::*)(::UnityEngine::GameObject*, ::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings*)>(&UnityEngine::ProBuilder::MeshOperations::MeshImporter::Import)> {
   static const MethodInfo* get() {
     static auto* go = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* importSettings = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder.MeshOperations", "MeshImportSettings")->byval_arg;
@@ -185,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::MeshImporter::Import
 // Il2CppName: Import
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::MeshOperations::MeshImporter::*)(UnityEngine::ProBuilder::MeshOperations::MeshImportSettings*)>(&UnityEngine::ProBuilder::MeshOperations::MeshImporter::Import)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::MeshOperations::MeshImporter::*)(::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings*)>(&UnityEngine::ProBuilder::MeshOperations::MeshImporter::Import)> {
   static const MethodInfo* get() {
     static auto* importSettings = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder.MeshOperations", "MeshImportSettings")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::MeshImporter*), "Import", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{importSettings});
@@ -194,7 +194,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::MeshImporter::GetBestQuadConnection
 // Il2CppName: GetBestQuadConnection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Face* (*)(UnityEngine::ProBuilder::WingedEdge*, System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::EdgeLookup, float>*)>(&UnityEngine::ProBuilder::MeshOperations::MeshImporter::GetBestQuadConnection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Face* (*)(::UnityEngine::ProBuilder::WingedEdge*, ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::EdgeLookup, float>*)>(&UnityEngine::ProBuilder::MeshOperations::MeshImporter::GetBestQuadConnection)> {
   static const MethodInfo* get() {
     static auto* wing = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "WingedEdge")->byval_arg;
     static auto* connections = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "Dictionary`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "EdgeLookup"), ::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
@@ -204,7 +204,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::MeshImporter::GetQuadScore
 // Il2CppName: GetQuadScore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::ProBuilder::MeshOperations::MeshImporter::*)(UnityEngine::ProBuilder::WingedEdge*, UnityEngine::ProBuilder::WingedEdge*, float)>(&UnityEngine::ProBuilder::MeshOperations::MeshImporter::GetQuadScore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::ProBuilder::MeshOperations::MeshImporter::*)(::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::WingedEdge*, float)>(&UnityEngine::ProBuilder::MeshOperations::MeshImporter::GetQuadScore)> {
   static const MethodInfo* get() {
     static auto* left = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "WingedEdge")->byval_arg;
     static auto* right = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "WingedEdge")->byval_arg;

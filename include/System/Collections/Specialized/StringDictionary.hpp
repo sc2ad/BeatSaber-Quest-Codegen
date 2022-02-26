@@ -28,8 +28,8 @@ namespace System::Collections::Specialized {
   class StringDictionary;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Collections::Specialized::StringDictionary);
-DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::StringDictionary*, "System.Collections.Specialized", "StringDictionary");
+NEED_NO_BOX(::System::Collections::Specialized::StringDictionary);
+DEFINE_IL2CPP_ARG_TYPE(::System::Collections::Specialized::StringDictionary*, "System.Collections.Specialized", "StringDictionary");
 // Type namespace: System.Collections.Specialized
 namespace System::Collections::Specialized {
   // Size: 0x18
@@ -38,7 +38,7 @@ namespace System::Collections::Specialized {
   // [TokenAttribute] Offset: FFFFFFFF
   // [DesignerSerializerAttribute] Offset: 119A994
   // [DefaultMemberAttribute] Offset: 119A994
-  class StringDictionary : public ::Il2CppObject/*, public System::Collections::IEnumerable*/ {
+  class StringDictionary : public ::Il2CppObject/*, public ::System::Collections::IEnumerable*/ {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -52,38 +52,38 @@ namespace System::Collections::Specialized {
     // System.Collections.Hashtable contents
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Hashtable* contents;
+    ::System::Collections::Hashtable* contents;
     // Field size check
-    static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
+    static_assert(sizeof(::System::Collections::Hashtable*) == 0x8);
     public:
-    // Creating interface conversion operator: operator System::Collections::IEnumerable
-    operator System::Collections::IEnumerable() noexcept {
-      return *reinterpret_cast<System::Collections::IEnumerable*>(this);
+    // Creating interface conversion operator: operator ::System::Collections::IEnumerable
+    operator ::System::Collections::IEnumerable() noexcept {
+      return *reinterpret_cast<::System::Collections::IEnumerable*>(this);
     }
-    // Creating conversion operator: operator System::Collections::Hashtable*
-    constexpr operator System::Collections::Hashtable*() const noexcept {
+    // Creating conversion operator: operator ::System::Collections::Hashtable*
+    constexpr operator ::System::Collections::Hashtable*() const noexcept {
       return contents;
     }
     // Get instance field reference: System.Collections.Hashtable contents
-    System::Collections::Hashtable*& dyn_contents();
+    ::System::Collections::Hashtable*& dyn_contents();
     // public System.Void Add(System.String key, System.String value)
     // Offset: 0x1DEFD60
     void Add(::StringW key, ::StringW value);
     // public System.Collections.IEnumerator GetEnumerator()
     // Offset: 0x1DEFE4C
-    System::Collections::IEnumerator* GetEnumerator();
+    ::System::Collections::IEnumerator* GetEnumerator();
     // public System.Void .ctor()
     // Offset: 0x1DE80F0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StringDictionary* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Specialized::StringDictionary::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Specialized::StringDictionary::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StringDictionary*, creationType>()));
     }
   }; // System.Collections.Specialized.StringDictionary
   #pragma pack(pop)
-  static check_size<sizeof(StringDictionary), 16 + sizeof(System::Collections::Hashtable*)> __System_Collections_Specialized_StringDictionarySizeCheck;
+  static check_size<sizeof(StringDictionary), 16 + sizeof(::System::Collections::Hashtable*)> __System_Collections_Specialized_StringDictionarySizeCheck;
   static_assert(sizeof(StringDictionary) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -100,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Collections::Specialized::StringDictionary::GetEnumerator
 // Il2CppName: GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (System::Collections::Specialized::StringDictionary::*)()>(&System::Collections::Specialized::StringDictionary::GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (System::Collections::Specialized::StringDictionary::*)()>(&System::Collections::Specialized::StringDictionary::GetEnumerator)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Collections::Specialized::StringDictionary*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

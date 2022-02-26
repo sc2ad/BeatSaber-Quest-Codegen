@@ -27,8 +27,8 @@ namespace System::IO {
   class Path;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::IO::Path);
-DEFINE_IL2CPP_ARG_TYPE(System::IO::Path*, "System.IO", "Path");
+NEED_NO_BOX(::System::IO::Path);
+DEFINE_IL2CPP_ARG_TYPE(::System::IO::Path*, "System.IO", "Path");
 // Type namespace: System.IO
 namespace System::IO {
   // Size: 0x10
@@ -117,7 +117,7 @@ namespace System::IO {
     static ::StringW GetFullPathInternal(::StringW path);
     // static private System.Int32 GetFullPathName(System.String path, System.Int32 numBufferChars, System.Text.StringBuilder buffer, ref System.IntPtr lpFilePartOrNull)
     // Offset: 0x1F84440
-    static int GetFullPathName(::StringW path, int numBufferChars, System::Text::StringBuilder* buffer, ByRef<System::IntPtr> lpFilePartOrNull);
+    static int GetFullPathName(::StringW path, int numBufferChars, ::System::Text::StringBuilder* buffer, ByRef<::System::IntPtr> lpFilePartOrNull);
     // static System.String GetFullPathName(System.String path)
     // Offset: 0x1F84520
     static ::StringW GetFullPathName(::StringW path);
@@ -292,7 +292,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::IO::Path::GetFullPathName
 // Il2CppName: GetFullPathName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::StringW, int, System::Text::StringBuilder*, ByRef<System::IntPtr>)>(&System::IO::Path::GetFullPathName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::StringW, int, ::System::Text::StringBuilder*, ByRef<::System::IntPtr>)>(&System::IO::Path::GetFullPathName)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* numBufferChars = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

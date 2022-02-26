@@ -21,8 +21,8 @@ namespace GlobalNamespace {
   class RenderTextureExtensions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::RenderTextureExtensions);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RenderTextureExtensions*, "", "RenderTextureExtensions");
+NEED_NO_BOX(::GlobalNamespace::RenderTextureExtensions);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::RenderTextureExtensions*, "", "RenderTextureExtensions");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     public:
     // static public UnityEngine.Texture2D GetTexture2D(UnityEngine.RenderTexture rt)
     // Offset: 0x299B52C
-    static UnityEngine::Texture2D* GetTexture2D(UnityEngine::RenderTexture* rt);
+    static ::UnityEngine::Texture2D* GetTexture2D(::UnityEngine::RenderTexture* rt);
   }; // RenderTextureExtensions
   #pragma pack(pop)
 }
@@ -42,7 +42,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::RenderTextureExtensions::GetTexture2D
 // Il2CppName: GetTexture2D
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (*)(UnityEngine::RenderTexture*)>(&GlobalNamespace::RenderTextureExtensions::GetTexture2D)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Texture2D* (*)(::UnityEngine::RenderTexture*)>(&GlobalNamespace::RenderTextureExtensions::GetTexture2D)> {
   static const MethodInfo* get() {
     static auto* rt = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RenderTextureExtensions*), "GetTexture2D", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rt});

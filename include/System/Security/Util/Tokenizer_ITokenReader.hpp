@@ -9,8 +9,8 @@
 #include "System/Security/Util/Tokenizer.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Security::Util::Tokenizer::ITokenReader);
-DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::Tokenizer::ITokenReader*, "System.Security.Util", "Tokenizer/ITokenReader");
+NEED_NO_BOX(::System::Security::Util::Tokenizer::ITokenReader);
+DEFINE_IL2CPP_ARG_TYPE(::System::Security::Util::Tokenizer::ITokenReader*, "System.Security.Util", "Tokenizer/ITokenReader");
 // Type namespace: System.Security.Util
 namespace System::Security::Util {
   // Size: 0x10

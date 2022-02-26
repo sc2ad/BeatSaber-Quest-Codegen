@@ -21,8 +21,8 @@ namespace System {
   class IOSelector;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::IOSelector);
-DEFINE_IL2CPP_ARG_TYPE(System::IOSelector*, "System", "IOSelector");
+NEED_NO_BOX(::System::IOSelector);
+DEFINE_IL2CPP_ARG_TYPE(::System::IOSelector*, "System", "IOSelector");
 // Type namespace: System
 namespace System {
   // Size: 0x10
@@ -33,7 +33,7 @@ namespace System {
     public:
     // static public System.Void Add(System.IntPtr handle, System.IOSelectorJob job)
     // Offset: 0x1AA2E30
-    static void Add(System::IntPtr handle, System::IOSelectorJob* job);
+    static void Add(::System::IntPtr handle, ::System::IOSelectorJob* job);
   }; // System.IOSelector
   #pragma pack(pop)
 }
@@ -41,7 +41,7 @@ namespace System {
 // Writing MetadataGetter for method: System::IOSelector::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IOSelectorJob*)>(&System::IOSelector::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IOSelectorJob*)>(&System::IOSelector::Add)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* job = &::il2cpp_utils::GetClassFromName("System", "IOSelectorJob")->byval_arg;

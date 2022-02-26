@@ -27,8 +27,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BeatmapDifficultyDropdown::$$c);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDifficultyDropdown::$$c*, "", "BeatmapDifficultyDropdown/<>c");
+NEED_NO_BOX(::GlobalNamespace::BeatmapDifficultyDropdown::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapDifficultyDropdown::$$c*, "", "BeatmapDifficultyDropdown/<>c");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -39,26 +39,26 @@ namespace GlobalNamespace {
   class BeatmapDifficultyDropdown::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly BeatmapDifficultyDropdown/<>c <>9
-    static GlobalNamespace::BeatmapDifficultyDropdown::$$c* _get_$$9();
+    static ::GlobalNamespace::BeatmapDifficultyDropdown::$$c* _get_$$9();
     // Set static field: static public readonly BeatmapDifficultyDropdown/<>c <>9
-    static void _set_$$9(GlobalNamespace::BeatmapDifficultyDropdown::$$c* value);
+    static void _set_$$9(::GlobalNamespace::BeatmapDifficultyDropdown::$$c* value);
     // Get static field: static public System.Func`2<System.Tuple`2<BeatmapDifficultyMask,System.String>,System.String> <>9__11_0
-    static System::Func_2<System::Tuple_2<GlobalNamespace::BeatmapDifficultyMask, ::StringW>*, ::StringW>* _get_$$9__11_0();
+    static ::System::Func_2<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>*, ::StringW>* _get_$$9__11_0();
     // Set static field: static public System.Func`2<System.Tuple`2<BeatmapDifficultyMask,System.String>,System.String> <>9__11_0
-    static void _set_$$9__11_0(System::Func_2<System::Tuple_2<GlobalNamespace::BeatmapDifficultyMask, ::StringW>*, ::StringW>* value);
+    static void _set_$$9__11_0(::System::Func_2<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>*, ::StringW>* value);
     // static private System.Void .cctor()
     // Offset: 0x2B4C1A0
     static void _cctor();
     // System.String <Start>b__11_0(System.Tuple`2<BeatmapDifficultyMask,System.String> x)
     // Offset: 0x2B4C20C
-    ::StringW $Start$b__11_0(System::Tuple_2<GlobalNamespace::BeatmapDifficultyMask, ::StringW>* x);
+    ::StringW $Start$b__11_0(::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>* x);
     // public System.Void .ctor()
     // Offset: 0x2B4C204
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapDifficultyDropdown::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapDifficultyDropdown::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapDifficultyDropdown::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapDifficultyDropdown::$$c*, creationType>()));
     }
   }; // BeatmapDifficultyDropdown/<>c
@@ -76,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDifficultyDropdown::$$c::$Start$b__11_0
 // Il2CppName: <Start>b__11_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::BeatmapDifficultyDropdown::$$c::*)(System::Tuple_2<GlobalNamespace::BeatmapDifficultyMask, ::StringW>*)>(&GlobalNamespace::BeatmapDifficultyDropdown::$$c::$Start$b__11_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::BeatmapDifficultyDropdown::$$c::*)(::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>*)>(&GlobalNamespace::BeatmapDifficultyDropdown::$$c::$Start$b__11_0)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Tuple`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "BeatmapDifficultyMask"), ::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDifficultyDropdown::$$c*), "<Start>b__11_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});

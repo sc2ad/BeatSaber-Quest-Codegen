@@ -24,8 +24,8 @@ namespace Newtonsoft::Json::Serialization {
   class ErrorContext;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Serialization::ErrorContext);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Serialization::ErrorContext*, "Newtonsoft.Json.Serialization", "ErrorContext");
+NEED_NO_BOX(::Newtonsoft::Json::Serialization::ErrorContext);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Serialization::ErrorContext*, "Newtonsoft.Json.Serialization", "ErrorContext");
 // Type namespace: Newtonsoft.Json.Serialization
 namespace Newtonsoft::Json::Serialization {
   // Size: 0x39
@@ -56,9 +56,9 @@ namespace Newtonsoft::Json::Serialization {
     // private readonly System.Exception <Error>k__BackingField
     // Size: 0x8
     // Offset: 0x18
-    System::Exception* Error;
+    ::System::Exception* Error;
     // Field size check
-    static_assert(sizeof(System::Exception*) == 0x8);
+    static_assert(sizeof(::System::Exception*) == 0x8);
     // [NullableAttribute] Offset: 0x1205970
     // private readonly System.Object <OriginalObject>k__BackingField
     // Size: 0x8
@@ -89,7 +89,7 @@ namespace Newtonsoft::Json::Serialization {
     // Get instance field reference: private System.Boolean <Traced>k__BackingField
     bool& dyn_$Traced$k__BackingField();
     // Get instance field reference: private readonly System.Exception <Error>k__BackingField
-    System::Exception*& dyn_$Error$k__BackingField();
+    ::System::Exception*& dyn_$Error$k__BackingField();
     // Get instance field reference: private readonly System.Object <OriginalObject>k__BackingField
     ::Il2CppObject*& dyn_$OriginalObject$k__BackingField();
     // Get instance field reference: private readonly System.Object <Member>k__BackingField
@@ -106,15 +106,15 @@ namespace Newtonsoft::Json::Serialization {
     void set_Traced(bool value);
     // public System.Exception get_Error()
     // Offset: 0x152D108
-    System::Exception* get_Error();
+    ::System::Exception* get_Error();
     // public System.Boolean get_Handled()
     // Offset: 0x152D110
     bool get_Handled();
     // System.Void .ctor(System.Object originalObject, System.Object member, System.String path, System.Exception error)
     // Offset: 0x152D0A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ErrorContext* New_ctor(::Il2CppObject* originalObject, ::Il2CppObject* member, ::StringW path, System::Exception* error) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Serialization::ErrorContext::.ctor");
+    static ErrorContext* New_ctor(::Il2CppObject* originalObject, ::Il2CppObject* member, ::StringW path, ::System::Exception* error) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::ErrorContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ErrorContext*, creationType>(originalObject, member, path, error)));
     }
   }; // Newtonsoft.Json.Serialization.ErrorContext
@@ -143,7 +143,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::ErrorContext::get_Error
 // Il2CppName: get_Error
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (Newtonsoft::Json::Serialization::ErrorContext::*)()>(&Newtonsoft::Json::Serialization::ErrorContext::get_Error)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (Newtonsoft::Json::Serialization::ErrorContext::*)()>(&Newtonsoft::Json::Serialization::ErrorContext::get_Error)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::ErrorContext*), "get_Error", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

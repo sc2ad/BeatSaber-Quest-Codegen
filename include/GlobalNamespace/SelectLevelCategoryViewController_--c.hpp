@@ -23,8 +23,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SelectLevelCategoryViewController::$$c);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectLevelCategoryViewController::$$c*, "", "SelectLevelCategoryViewController/<>c");
+NEED_NO_BOX(::GlobalNamespace::SelectLevelCategoryViewController::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SelectLevelCategoryViewController::$$c*, "", "SelectLevelCategoryViewController/<>c");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -35,33 +35,33 @@ namespace GlobalNamespace {
   class SelectLevelCategoryViewController::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly SelectLevelCategoryViewController/<>c <>9
-    static GlobalNamespace::SelectLevelCategoryViewController::$$c* _get_$$9();
+    static ::GlobalNamespace::SelectLevelCategoryViewController::$$c* _get_$$9();
     // Set static field: static public readonly SelectLevelCategoryViewController/<>c <>9
-    static void _set_$$9(GlobalNamespace::SelectLevelCategoryViewController::$$c* value);
+    static void _set_$$9(::GlobalNamespace::SelectLevelCategoryViewController::$$c* value);
     // Get static field: static public System.Func`2<SelectLevelCategoryViewController/LevelCategoryInfo,HMUI.IconSegmentedControl/HMUI.DataItem> <>9__12_1
-    static System::Func_2<GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*, HMUI::IconSegmentedControl::DataItem*>* _get_$$9__12_1();
+    static ::System::Func_2<::GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*, ::HMUI::IconSegmentedControl::DataItem*>* _get_$$9__12_1();
     // Set static field: static public System.Func`2<SelectLevelCategoryViewController/LevelCategoryInfo,HMUI.IconSegmentedControl/HMUI.DataItem> <>9__12_1
-    static void _set_$$9__12_1(System::Func_2<GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*, HMUI::IconSegmentedControl::DataItem*>* value);
+    static void _set_$$9__12_1(::System::Func_2<::GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*, ::HMUI::IconSegmentedControl::DataItem*>* value);
     // Get static field: static public System.Func`2<SelectLevelCategoryViewController/LevelCategoryInfo,SelectLevelCategoryViewController/LevelCategory> <>9__12_2
-    static System::Func_2<GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*, GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>* _get_$$9__12_2();
+    static ::System::Func_2<::GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*, ::GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>* _get_$$9__12_2();
     // Set static field: static public System.Func`2<SelectLevelCategoryViewController/LevelCategoryInfo,SelectLevelCategoryViewController/LevelCategory> <>9__12_2
-    static void _set_$$9__12_2(System::Func_2<GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*, GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>* value);
+    static void _set_$$9__12_2(::System::Func_2<::GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*, ::GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>* value);
     // static private System.Void .cctor()
     // Offset: 0x2B5F84C
     static void _cctor();
     // HMUI.IconSegmentedControl/HMUI.DataItem <Setup>b__12_1(SelectLevelCategoryViewController/LevelCategoryInfo x)
     // Offset: 0x2B5F8B8
-    HMUI::IconSegmentedControl::DataItem* $Setup$b__12_1(GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo* x);
+    ::HMUI::IconSegmentedControl::DataItem* $Setup$b__12_1(::GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo* x);
     // SelectLevelCategoryViewController/LevelCategory <Setup>b__12_2(SelectLevelCategoryViewController/LevelCategoryInfo x)
     // Offset: 0x2B5F944
-    GlobalNamespace::SelectLevelCategoryViewController::LevelCategory $Setup$b__12_2(GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo* x);
+    ::GlobalNamespace::SelectLevelCategoryViewController::LevelCategory $Setup$b__12_2(::GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo* x);
     // public System.Void .ctor()
     // Offset: 0x2B5F8B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SelectLevelCategoryViewController::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SelectLevelCategoryViewController::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SelectLevelCategoryViewController::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SelectLevelCategoryViewController::$$c*, creationType>()));
     }
   }; // SelectLevelCategoryViewController/<>c
@@ -79,7 +79,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::SelectLevelCategoryViewController::$$c::$Setup$b__12_1
 // Il2CppName: <Setup>b__12_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::IconSegmentedControl::DataItem* (GlobalNamespace::SelectLevelCategoryViewController::$$c::*)(GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*)>(&GlobalNamespace::SelectLevelCategoryViewController::$$c::$Setup$b__12_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HMUI::IconSegmentedControl::DataItem* (GlobalNamespace::SelectLevelCategoryViewController::$$c::*)(::GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*)>(&GlobalNamespace::SelectLevelCategoryViewController::$$c::$Setup$b__12_1)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("", "SelectLevelCategoryViewController/LevelCategoryInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SelectLevelCategoryViewController::$$c*), "<Setup>b__12_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -88,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::IconS
 // Writing MetadataGetter for method: GlobalNamespace::SelectLevelCategoryViewController::$$c::$Setup$b__12_2
 // Il2CppName: <Setup>b__12_2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory (GlobalNamespace::SelectLevelCategoryViewController::$$c::*)(GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*)>(&GlobalNamespace::SelectLevelCategoryViewController::$$c::$Setup$b__12_2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SelectLevelCategoryViewController::LevelCategory (GlobalNamespace::SelectLevelCategoryViewController::$$c::*)(::GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*)>(&GlobalNamespace::SelectLevelCategoryViewController::$$c::$Setup$b__12_2)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("", "SelectLevelCategoryViewController/LevelCategoryInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SelectLevelCategoryViewController::$$c*), "<Setup>b__12_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});

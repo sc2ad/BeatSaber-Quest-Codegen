@@ -59,8 +59,8 @@ namespace System::Xml::Serialization {
   class XmlAttributes;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Serialization::XmlAttributes);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Serialization::XmlAttributes*, "System.Xml.Serialization", "XmlAttributes");
+NEED_NO_BOX(::System::Xml::Serialization::XmlAttributes);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::XmlAttributes*, "System.Xml.Serialization", "XmlAttributes");
 // Type namespace: System.Xml.Serialization
 namespace System::Xml::Serialization {
   // Size: 0x78
@@ -81,39 +81,39 @@ namespace System::Xml::Serialization {
     // private System.Xml.Serialization.XmlAnyAttributeAttribute xmlAnyAttribute
     // Size: 0x8
     // Offset: 0x10
-    System::Xml::Serialization::XmlAnyAttributeAttribute* xmlAnyAttribute;
+    ::System::Xml::Serialization::XmlAnyAttributeAttribute* xmlAnyAttribute;
     // Field size check
-    static_assert(sizeof(System::Xml::Serialization::XmlAnyAttributeAttribute*) == 0x8);
+    static_assert(sizeof(::System::Xml::Serialization::XmlAnyAttributeAttribute*) == 0x8);
     // private System.Xml.Serialization.XmlAnyElementAttributes xmlAnyElements
     // Size: 0x8
     // Offset: 0x18
-    System::Xml::Serialization::XmlAnyElementAttributes* xmlAnyElements;
+    ::System::Xml::Serialization::XmlAnyElementAttributes* xmlAnyElements;
     // Field size check
-    static_assert(sizeof(System::Xml::Serialization::XmlAnyElementAttributes*) == 0x8);
+    static_assert(sizeof(::System::Xml::Serialization::XmlAnyElementAttributes*) == 0x8);
     // private System.Xml.Serialization.XmlArrayAttribute xmlArray
     // Size: 0x8
     // Offset: 0x20
-    System::Xml::Serialization::XmlArrayAttribute* xmlArray;
+    ::System::Xml::Serialization::XmlArrayAttribute* xmlArray;
     // Field size check
-    static_assert(sizeof(System::Xml::Serialization::XmlArrayAttribute*) == 0x8);
+    static_assert(sizeof(::System::Xml::Serialization::XmlArrayAttribute*) == 0x8);
     // private System.Xml.Serialization.XmlArrayItemAttributes xmlArrayItems
     // Size: 0x8
     // Offset: 0x28
-    System::Xml::Serialization::XmlArrayItemAttributes* xmlArrayItems;
+    ::System::Xml::Serialization::XmlArrayItemAttributes* xmlArrayItems;
     // Field size check
-    static_assert(sizeof(System::Xml::Serialization::XmlArrayItemAttributes*) == 0x8);
+    static_assert(sizeof(::System::Xml::Serialization::XmlArrayItemAttributes*) == 0x8);
     // private System.Xml.Serialization.XmlAttributeAttribute xmlAttribute
     // Size: 0x8
     // Offset: 0x30
-    System::Xml::Serialization::XmlAttributeAttribute* xmlAttribute;
+    ::System::Xml::Serialization::XmlAttributeAttribute* xmlAttribute;
     // Field size check
-    static_assert(sizeof(System::Xml::Serialization::XmlAttributeAttribute*) == 0x8);
+    static_assert(sizeof(::System::Xml::Serialization::XmlAttributeAttribute*) == 0x8);
     // private System.Xml.Serialization.XmlChoiceIdentifierAttribute xmlChoiceIdentifier
     // Size: 0x8
     // Offset: 0x38
-    System::Xml::Serialization::XmlChoiceIdentifierAttribute* xmlChoiceIdentifier;
+    ::System::Xml::Serialization::XmlChoiceIdentifierAttribute* xmlChoiceIdentifier;
     // Field size check
-    static_assert(sizeof(System::Xml::Serialization::XmlChoiceIdentifierAttribute*) == 0x8);
+    static_assert(sizeof(::System::Xml::Serialization::XmlChoiceIdentifierAttribute*) == 0x8);
     // private System.Object xmlDefaultValue
     // Size: 0x8
     // Offset: 0x40
@@ -123,15 +123,15 @@ namespace System::Xml::Serialization {
     // private System.Xml.Serialization.XmlElementAttributes xmlElements
     // Size: 0x8
     // Offset: 0x48
-    System::Xml::Serialization::XmlElementAttributes* xmlElements;
+    ::System::Xml::Serialization::XmlElementAttributes* xmlElements;
     // Field size check
-    static_assert(sizeof(System::Xml::Serialization::XmlElementAttributes*) == 0x8);
+    static_assert(sizeof(::System::Xml::Serialization::XmlElementAttributes*) == 0x8);
     // private System.Xml.Serialization.XmlEnumAttribute xmlEnum
     // Size: 0x8
     // Offset: 0x50
-    System::Xml::Serialization::XmlEnumAttribute* xmlEnum;
+    ::System::Xml::Serialization::XmlEnumAttribute* xmlEnum;
     // Field size check
-    static_assert(sizeof(System::Xml::Serialization::XmlEnumAttribute*) == 0x8);
+    static_assert(sizeof(::System::Xml::Serialization::XmlEnumAttribute*) == 0x8);
     // private System.Boolean xmlIgnore
     // Size: 0x1
     // Offset: 0x58
@@ -149,74 +149,74 @@ namespace System::Xml::Serialization {
     // private System.Xml.Serialization.XmlRootAttribute xmlRoot
     // Size: 0x8
     // Offset: 0x60
-    System::Xml::Serialization::XmlRootAttribute* xmlRoot;
+    ::System::Xml::Serialization::XmlRootAttribute* xmlRoot;
     // Field size check
-    static_assert(sizeof(System::Xml::Serialization::XmlRootAttribute*) == 0x8);
+    static_assert(sizeof(::System::Xml::Serialization::XmlRootAttribute*) == 0x8);
     // private System.Xml.Serialization.XmlTextAttribute xmlText
     // Size: 0x8
     // Offset: 0x68
-    System::Xml::Serialization::XmlTextAttribute* xmlText;
+    ::System::Xml::Serialization::XmlTextAttribute* xmlText;
     // Field size check
-    static_assert(sizeof(System::Xml::Serialization::XmlTextAttribute*) == 0x8);
+    static_assert(sizeof(::System::Xml::Serialization::XmlTextAttribute*) == 0x8);
     // private System.Xml.Serialization.XmlTypeAttribute xmlType
     // Size: 0x8
     // Offset: 0x70
-    System::Xml::Serialization::XmlTypeAttribute* xmlType;
+    ::System::Xml::Serialization::XmlTypeAttribute* xmlType;
     // Field size check
-    static_assert(sizeof(System::Xml::Serialization::XmlTypeAttribute*) == 0x8);
+    static_assert(sizeof(::System::Xml::Serialization::XmlTypeAttribute*) == 0x8);
     public:
     // Get instance field reference: private System.Xml.Serialization.XmlAnyAttributeAttribute xmlAnyAttribute
-    System::Xml::Serialization::XmlAnyAttributeAttribute*& dyn_xmlAnyAttribute();
+    ::System::Xml::Serialization::XmlAnyAttributeAttribute*& dyn_xmlAnyAttribute();
     // Get instance field reference: private System.Xml.Serialization.XmlAnyElementAttributes xmlAnyElements
-    System::Xml::Serialization::XmlAnyElementAttributes*& dyn_xmlAnyElements();
+    ::System::Xml::Serialization::XmlAnyElementAttributes*& dyn_xmlAnyElements();
     // Get instance field reference: private System.Xml.Serialization.XmlArrayAttribute xmlArray
-    System::Xml::Serialization::XmlArrayAttribute*& dyn_xmlArray();
+    ::System::Xml::Serialization::XmlArrayAttribute*& dyn_xmlArray();
     // Get instance field reference: private System.Xml.Serialization.XmlArrayItemAttributes xmlArrayItems
-    System::Xml::Serialization::XmlArrayItemAttributes*& dyn_xmlArrayItems();
+    ::System::Xml::Serialization::XmlArrayItemAttributes*& dyn_xmlArrayItems();
     // Get instance field reference: private System.Xml.Serialization.XmlAttributeAttribute xmlAttribute
-    System::Xml::Serialization::XmlAttributeAttribute*& dyn_xmlAttribute();
+    ::System::Xml::Serialization::XmlAttributeAttribute*& dyn_xmlAttribute();
     // Get instance field reference: private System.Xml.Serialization.XmlChoiceIdentifierAttribute xmlChoiceIdentifier
-    System::Xml::Serialization::XmlChoiceIdentifierAttribute*& dyn_xmlChoiceIdentifier();
+    ::System::Xml::Serialization::XmlChoiceIdentifierAttribute*& dyn_xmlChoiceIdentifier();
     // Get instance field reference: private System.Object xmlDefaultValue
     ::Il2CppObject*& dyn_xmlDefaultValue();
     // Get instance field reference: private System.Xml.Serialization.XmlElementAttributes xmlElements
-    System::Xml::Serialization::XmlElementAttributes*& dyn_xmlElements();
+    ::System::Xml::Serialization::XmlElementAttributes*& dyn_xmlElements();
     // Get instance field reference: private System.Xml.Serialization.XmlEnumAttribute xmlEnum
-    System::Xml::Serialization::XmlEnumAttribute*& dyn_xmlEnum();
+    ::System::Xml::Serialization::XmlEnumAttribute*& dyn_xmlEnum();
     // Get instance field reference: private System.Boolean xmlIgnore
     bool& dyn_xmlIgnore();
     // Get instance field reference: private System.Boolean xmlns
     bool& dyn_xmlns();
     // Get instance field reference: private System.Xml.Serialization.XmlRootAttribute xmlRoot
-    System::Xml::Serialization::XmlRootAttribute*& dyn_xmlRoot();
+    ::System::Xml::Serialization::XmlRootAttribute*& dyn_xmlRoot();
     // Get instance field reference: private System.Xml.Serialization.XmlTextAttribute xmlText
-    System::Xml::Serialization::XmlTextAttribute*& dyn_xmlText();
+    ::System::Xml::Serialization::XmlTextAttribute*& dyn_xmlText();
     // Get instance field reference: private System.Xml.Serialization.XmlTypeAttribute xmlType
-    System::Xml::Serialization::XmlTypeAttribute*& dyn_xmlType();
+    ::System::Xml::Serialization::XmlTypeAttribute*& dyn_xmlType();
     // public System.Xml.Serialization.XmlAnyAttributeAttribute get_XmlAnyAttribute()
     // Offset: 0x1952AE0
-    System::Xml::Serialization::XmlAnyAttributeAttribute* get_XmlAnyAttribute();
+    ::System::Xml::Serialization::XmlAnyAttributeAttribute* get_XmlAnyAttribute();
     // public System.Xml.Serialization.XmlAnyElementAttributes get_XmlAnyElements()
     // Offset: 0x1952AE8
-    System::Xml::Serialization::XmlAnyElementAttributes* get_XmlAnyElements();
+    ::System::Xml::Serialization::XmlAnyElementAttributes* get_XmlAnyElements();
     // public System.Xml.Serialization.XmlArrayAttribute get_XmlArray()
     // Offset: 0x1952AF0
-    System::Xml::Serialization::XmlArrayAttribute* get_XmlArray();
+    ::System::Xml::Serialization::XmlArrayAttribute* get_XmlArray();
     // public System.Xml.Serialization.XmlArrayItemAttributes get_XmlArrayItems()
     // Offset: 0x1952AF8
-    System::Xml::Serialization::XmlArrayItemAttributes* get_XmlArrayItems();
+    ::System::Xml::Serialization::XmlArrayItemAttributes* get_XmlArrayItems();
     // public System.Xml.Serialization.XmlAttributeAttribute get_XmlAttribute()
     // Offset: 0x1952B00
-    System::Xml::Serialization::XmlAttributeAttribute* get_XmlAttribute();
+    ::System::Xml::Serialization::XmlAttributeAttribute* get_XmlAttribute();
     // public System.Xml.Serialization.XmlChoiceIdentifierAttribute get_XmlChoiceIdentifier()
     // Offset: 0x1952B08
-    System::Xml::Serialization::XmlChoiceIdentifierAttribute* get_XmlChoiceIdentifier();
+    ::System::Xml::Serialization::XmlChoiceIdentifierAttribute* get_XmlChoiceIdentifier();
     // public System.Object get_XmlDefaultValue()
     // Offset: 0x1952B10
     ::Il2CppObject* get_XmlDefaultValue();
     // public System.Xml.Serialization.XmlElementAttributes get_XmlElements()
     // Offset: 0x1952B18
-    System::Xml::Serialization::XmlElementAttributes* get_XmlElements();
+    ::System::Xml::Serialization::XmlElementAttributes* get_XmlElements();
     // public System.Boolean get_XmlIgnore()
     // Offset: 0x1952B20
     bool get_XmlIgnore();
@@ -225,48 +225,48 @@ namespace System::Xml::Serialization {
     bool get_Xmlns();
     // public System.Xml.Serialization.XmlRootAttribute get_XmlRoot()
     // Offset: 0x1952B30
-    System::Xml::Serialization::XmlRootAttribute* get_XmlRoot();
+    ::System::Xml::Serialization::XmlRootAttribute* get_XmlRoot();
     // public System.Xml.Serialization.XmlTextAttribute get_XmlText()
     // Offset: 0x1952B38
-    System::Xml::Serialization::XmlTextAttribute* get_XmlText();
+    ::System::Xml::Serialization::XmlTextAttribute* get_XmlText();
     // public System.Xml.Serialization.XmlTypeAttribute get_XmlType()
     // Offset: 0x1952B40
-    System::Xml::Serialization::XmlTypeAttribute* get_XmlType();
+    ::System::Xml::Serialization::XmlTypeAttribute* get_XmlType();
     // System.Nullable`1<System.Int32> get_Order()
     // Offset: 0x19538EC
-    System::Nullable_1<int> get_Order();
+    ::System::Nullable_1<int> get_Order();
     // System.Int32 get_SortableOrder()
     // Offset: 0x1953C48
     int get_SortableOrder();
     // public System.Void .ctor(System.Reflection.ICustomAttributeProvider provider)
     // Offset: 0x19524CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlAttributes* New_ctor(System::Reflection::ICustomAttributeProvider* provider) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Serialization::XmlAttributes::.ctor");
+    static XmlAttributes* New_ctor(::System::Reflection::ICustomAttributeProvider* provider) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Serialization::XmlAttributes::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlAttributes*, creationType>(provider)));
     }
     // System.Void AddKeyHash(System.Text.StringBuilder sb)
     // Offset: 0x19521AC
-    void AddKeyHash(System::Text::StringBuilder* sb);
+    void AddKeyHash(::System::Text::StringBuilder* sb);
     // public System.Void .ctor()
     // Offset: 0x19523EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlAttributes* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Serialization::XmlAttributes::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Serialization::XmlAttributes::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlAttributes*, creationType>()));
     }
   }; // System.Xml.Serialization.XmlAttributes
   #pragma pack(pop)
-  static check_size<sizeof(XmlAttributes), 112 + sizeof(System::Xml::Serialization::XmlTypeAttribute*)> __System_Xml_Serialization_XmlAttributesSizeCheck;
+  static check_size<sizeof(XmlAttributes), 112 + sizeof(::System::Xml::Serialization::XmlTypeAttribute*)> __System_Xml_Serialization_XmlAttributesSizeCheck;
   static_assert(sizeof(XmlAttributes) == 0x78);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlAttributes::get_XmlAnyAttribute
 // Il2CppName: get_XmlAnyAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Serialization::XmlAnyAttributeAttribute* (System::Xml::Serialization::XmlAttributes::*)()>(&System::Xml::Serialization::XmlAttributes::get_XmlAnyAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlAnyAttributeAttribute* (System::Xml::Serialization::XmlAttributes::*)()>(&System::Xml::Serialization::XmlAttributes::get_XmlAnyAttribute)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::XmlAttributes*), "get_XmlAnyAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -274,7 +274,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlAttributes::get_XmlAnyElements
 // Il2CppName: get_XmlAnyElements
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Serialization::XmlAnyElementAttributes* (System::Xml::Serialization::XmlAttributes::*)()>(&System::Xml::Serialization::XmlAttributes::get_XmlAnyElements)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlAnyElementAttributes* (System::Xml::Serialization::XmlAttributes::*)()>(&System::Xml::Serialization::XmlAttributes::get_XmlAnyElements)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::XmlAttributes*), "get_XmlAnyElements", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -282,7 +282,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlAttributes::get_XmlArray
 // Il2CppName: get_XmlArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Serialization::XmlArrayAttribute* (System::Xml::Serialization::XmlAttributes::*)()>(&System::Xml::Serialization::XmlAttributes::get_XmlArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlArrayAttribute* (System::Xml::Serialization::XmlAttributes::*)()>(&System::Xml::Serialization::XmlAttributes::get_XmlArray)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::XmlAttributes*), "get_XmlArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -290,7 +290,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlAttributes::get_XmlArrayItems
 // Il2CppName: get_XmlArrayItems
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Serialization::XmlArrayItemAttributes* (System::Xml::Serialization::XmlAttributes::*)()>(&System::Xml::Serialization::XmlAttributes::get_XmlArrayItems)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlArrayItemAttributes* (System::Xml::Serialization::XmlAttributes::*)()>(&System::Xml::Serialization::XmlAttributes::get_XmlArrayItems)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::XmlAttributes*), "get_XmlArrayItems", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -298,7 +298,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlAttributes::get_XmlAttribute
 // Il2CppName: get_XmlAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Serialization::XmlAttributeAttribute* (System::Xml::Serialization::XmlAttributes::*)()>(&System::Xml::Serialization::XmlAttributes::get_XmlAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlAttributeAttribute* (System::Xml::Serialization::XmlAttributes::*)()>(&System::Xml::Serialization::XmlAttributes::get_XmlAttribute)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::XmlAttributes*), "get_XmlAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -306,7 +306,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlAttributes::get_XmlChoiceIdentifier
 // Il2CppName: get_XmlChoiceIdentifier
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Serialization::XmlChoiceIdentifierAttribute* (System::Xml::Serialization::XmlAttributes::*)()>(&System::Xml::Serialization::XmlAttributes::get_XmlChoiceIdentifier)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlChoiceIdentifierAttribute* (System::Xml::Serialization::XmlAttributes::*)()>(&System::Xml::Serialization::XmlAttributes::get_XmlChoiceIdentifier)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::XmlAttributes*), "get_XmlChoiceIdentifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -322,7 +322,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlAttributes::get_XmlElements
 // Il2CppName: get_XmlElements
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Serialization::XmlElementAttributes* (System::Xml::Serialization::XmlAttributes::*)()>(&System::Xml::Serialization::XmlAttributes::get_XmlElements)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlElementAttributes* (System::Xml::Serialization::XmlAttributes::*)()>(&System::Xml::Serialization::XmlAttributes::get_XmlElements)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::XmlAttributes*), "get_XmlElements", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -346,7 +346,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlAttributes::get_XmlRoot
 // Il2CppName: get_XmlRoot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Serialization::XmlRootAttribute* (System::Xml::Serialization::XmlAttributes::*)()>(&System::Xml::Serialization::XmlAttributes::get_XmlRoot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlRootAttribute* (System::Xml::Serialization::XmlAttributes::*)()>(&System::Xml::Serialization::XmlAttributes::get_XmlRoot)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::XmlAttributes*), "get_XmlRoot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -354,7 +354,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlAttributes::get_XmlText
 // Il2CppName: get_XmlText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Serialization::XmlTextAttribute* (System::Xml::Serialization::XmlAttributes::*)()>(&System::Xml::Serialization::XmlAttributes::get_XmlText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlTextAttribute* (System::Xml::Serialization::XmlAttributes::*)()>(&System::Xml::Serialization::XmlAttributes::get_XmlText)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::XmlAttributes*), "get_XmlText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -362,7 +362,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlAttributes::get_XmlType
 // Il2CppName: get_XmlType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Serialization::XmlTypeAttribute* (System::Xml::Serialization::XmlAttributes::*)()>(&System::Xml::Serialization::XmlAttributes::get_XmlType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlTypeAttribute* (System::Xml::Serialization::XmlAttributes::*)()>(&System::Xml::Serialization::XmlAttributes::get_XmlType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::XmlAttributes*), "get_XmlType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -370,7 +370,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlAttributes::get_Order
 // Il2CppName: get_Order
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<int> (System::Xml::Serialization::XmlAttributes::*)()>(&System::Xml::Serialization::XmlAttributes::get_Order)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<int> (System::Xml::Serialization::XmlAttributes::*)()>(&System::Xml::Serialization::XmlAttributes::get_Order)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::XmlAttributes*), "get_Order", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -390,7 +390,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlAttributes::AddKeyHash
 // Il2CppName: AddKeyHash
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Serialization::XmlAttributes::*)(System::Text::StringBuilder*)>(&System::Xml::Serialization::XmlAttributes::AddKeyHash)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Serialization::XmlAttributes::*)(::System::Text::StringBuilder*)>(&System::Xml::Serialization::XmlAttributes::AddKeyHash)> {
   static const MethodInfo* get() {
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::XmlAttributes*), "AddKeyHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sb});

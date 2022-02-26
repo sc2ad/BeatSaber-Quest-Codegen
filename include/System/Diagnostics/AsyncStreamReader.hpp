@@ -32,8 +32,8 @@ namespace System::Diagnostics {
   class AsyncStreamReader;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Diagnostics::AsyncStreamReader);
-DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::AsyncStreamReader*, "System.Diagnostics", "AsyncStreamReader");
+NEED_NO_BOX(::System::Diagnostics::AsyncStreamReader);
+DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::AsyncStreamReader*, "System.Diagnostics", "AsyncStreamReader");
 // Type namespace: System.Diagnostics
 namespace System::Diagnostics {
   // Size: 0x50
@@ -54,21 +54,21 @@ namespace System::Diagnostics {
     // private System.IO.Stream stream
     // Size: 0x8
     // Offset: 0x10
-    System::IO::Stream* stream;
+    ::System::IO::Stream* stream;
     // Field size check
-    static_assert(sizeof(System::IO::Stream*) == 0x8);
+    static_assert(sizeof(::System::IO::Stream*) == 0x8);
     // private System.Text.Encoding encoding
     // Size: 0x8
     // Offset: 0x18
-    System::Text::Encoding* encoding;
+    ::System::Text::Encoding* encoding;
     // Field size check
-    static_assert(sizeof(System::Text::Encoding*) == 0x8);
+    static_assert(sizeof(::System::Text::Encoding*) == 0x8);
     // private System.Text.Decoder decoder
     // Size: 0x8
     // Offset: 0x20
-    System::Text::Decoder* decoder;
+    ::System::Text::Decoder* decoder;
     // Field size check
-    static_assert(sizeof(System::Text::Decoder*) == 0x8);
+    static_assert(sizeof(::System::Text::Decoder*) == 0x8);
     // private System.Byte[] byteBuffer
     // Size: 0x8
     // Offset: 0x28
@@ -92,9 +92,9 @@ namespace System::Diagnostics {
     // private System.Threading.ManualResetEvent eofEvent
     // Size: 0x8
     // Offset: 0x40
-    System::Threading::ManualResetEvent* eofEvent;
+    ::System::Threading::ManualResetEvent* eofEvent;
     // Field size check
-    static_assert(sizeof(System::Threading::ManualResetEvent*) == 0x8);
+    static_assert(sizeof(::System::Threading::ManualResetEvent*) == 0x8);
     // private System.Object syncObject
     // Size: 0x8
     // Offset: 0x48
@@ -103,11 +103,11 @@ namespace System::Diagnostics {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     public:
     // Get instance field reference: private System.IO.Stream stream
-    System::IO::Stream*& dyn_stream();
+    ::System::IO::Stream*& dyn_stream();
     // Get instance field reference: private System.Text.Encoding encoding
-    System::Text::Encoding*& dyn_encoding();
+    ::System::Text::Encoding*& dyn_encoding();
     // Get instance field reference: private System.Text.Decoder decoder
-    System::Text::Decoder*& dyn_decoder();
+    ::System::Text::Decoder*& dyn_decoder();
     // Get instance field reference: private System.Byte[] byteBuffer
     ::ArrayW<uint8_t>& dyn_byteBuffer();
     // Get instance field reference: private System.Char[] charBuffer
@@ -115,7 +115,7 @@ namespace System::Diagnostics {
     // Get instance field reference: private System.Boolean cancelOperation
     bool& dyn_cancelOperation();
     // Get instance field reference: private System.Threading.ManualResetEvent eofEvent
-    System::Threading::ManualResetEvent*& dyn_eofEvent();
+    ::System::Threading::ManualResetEvent*& dyn_eofEvent();
     // Get instance field reference: private System.Object syncObject
     ::Il2CppObject*& dyn_syncObject();
     // public System.Void Close()

@@ -23,8 +23,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::FakeMirrorObjectsInstaller::$$c);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FakeMirrorObjectsInstaller::$$c*, "", "FakeMirrorObjectsInstaller/<>c");
+NEED_NO_BOX(::GlobalNamespace::FakeMirrorObjectsInstaller::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FakeMirrorObjectsInstaller::$$c*, "", "FakeMirrorObjectsInstaller/<>c");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -35,26 +35,26 @@ namespace GlobalNamespace {
   class FakeMirrorObjectsInstaller::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly FakeMirrorObjectsInstaller/<>c <>9
-    static GlobalNamespace::FakeMirrorObjectsInstaller::$$c* _get_$$9();
+    static ::GlobalNamespace::FakeMirrorObjectsInstaller::$$c* _get_$$9();
     // Set static field: static public readonly FakeMirrorObjectsInstaller/<>c <>9
-    static void _set_$$9(GlobalNamespace::FakeMirrorObjectsInstaller::$$c* value);
+    static void _set_$$9(::GlobalNamespace::FakeMirrorObjectsInstaller::$$c* value);
     // Get static field: static public System.Func`2<Zenject.BindingId,System.Boolean> <>9__7_0
-    static System::Func_2<Zenject::BindingId, bool>* _get_$$9__7_0();
+    static ::System::Func_2<::Zenject::BindingId, bool>* _get_$$9__7_0();
     // Set static field: static public System.Func`2<Zenject.BindingId,System.Boolean> <>9__7_0
-    static void _set_$$9__7_0(System::Func_2<Zenject::BindingId, bool>* value);
+    static void _set_$$9__7_0(::System::Func_2<::Zenject::BindingId, bool>* value);
     // static private System.Void .cctor()
     // Offset: 0x13FE58C
     static void _cctor();
     // System.Boolean <InstallBindings>b__7_0(Zenject.BindingId t)
     // Offset: 0x13FE5F8
-    bool $InstallBindings$b__7_0(Zenject::BindingId t);
+    bool $InstallBindings$b__7_0(::Zenject::BindingId t);
     // public System.Void .ctor()
     // Offset: 0x13FE5F0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FakeMirrorObjectsInstaller::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::FakeMirrorObjectsInstaller::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FakeMirrorObjectsInstaller::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FakeMirrorObjectsInstaller::$$c*, creationType>()));
     }
   }; // FakeMirrorObjectsInstaller/<>c
@@ -72,7 +72,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::FakeMirrorObjectsInstaller::$$c::$InstallBindings$b__7_0
 // Il2CppName: <InstallBindings>b__7_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::FakeMirrorObjectsInstaller::$$c::*)(Zenject::BindingId)>(&GlobalNamespace::FakeMirrorObjectsInstaller::$$c::$InstallBindings$b__7_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::FakeMirrorObjectsInstaller::$$c::*)(::Zenject::BindingId)>(&GlobalNamespace::FakeMirrorObjectsInstaller::$$c::$InstallBindings$b__7_0)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("Zenject", "BindingId")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FakeMirrorObjectsInstaller::$$c*), "<InstallBindings>b__7_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});

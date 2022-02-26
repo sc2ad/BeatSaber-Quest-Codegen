@@ -28,8 +28,8 @@ namespace HoudiniEngineUnity {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_Curve::$$c__DisplayClass48_0);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_Curve::$$c__DisplayClass48_0*, "HoudiniEngineUnity", "HEU_Curve/<>c__DisplayClass48_0");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_Curve::$$c__DisplayClass48_0);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_Curve::$$c__DisplayClass48_0*, "HoudiniEngineUnity", "HEU_Curve/<>c__DisplayClass48_0");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x18
@@ -51,38 +51,38 @@ namespace HoudiniEngineUnity {
     // public System.Collections.Generic.List`1<UnityEngine.Vector3> points
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::List_1<UnityEngine::Vector3>* points;
+    ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* points;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::Vector3>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*) == 0x8);
     public:
-    // Creating conversion operator: operator System::Collections::Generic::List_1<UnityEngine::Vector3>*
-    constexpr operator System::Collections::Generic::List_1<UnityEngine::Vector3>*() const noexcept {
+    // Creating conversion operator: operator ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*
+    constexpr operator ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*() const noexcept {
       return points;
     }
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.Vector3> points
-    System::Collections::Generic::List_1<UnityEngine::Vector3>*& dyn_points();
+    ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& dyn_points();
     // System.Void <GetAllPoints>b__0(HoudiniEngineUnity.CurveNodeData transform)
     // Offset: 0x16B8698
-    void $GetAllPoints$b__0(HoudiniEngineUnity::CurveNodeData* transform);
+    void $GetAllPoints$b__0(::HoudiniEngineUnity::CurveNodeData* transform);
     // public System.Void .ctor()
     // Offset: 0x16B8690
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_Curve::$$c__DisplayClass48_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_Curve::$$c__DisplayClass48_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_Curve::$$c__DisplayClass48_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_Curve::$$c__DisplayClass48_0*, creationType>()));
     }
   }; // HoudiniEngineUnity.HEU_Curve/HoudiniEngineUnity.<>c__DisplayClass48_0
   #pragma pack(pop)
-  static check_size<sizeof(HEU_Curve::$$c__DisplayClass48_0), 16 + sizeof(System::Collections::Generic::List_1<UnityEngine::Vector3>*)> __HoudiniEngineUnity_HEU_Curve_$$c__DisplayClass48_0SizeCheck;
+  static check_size<sizeof(HEU_Curve::$$c__DisplayClass48_0), 16 + sizeof(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*)> __HoudiniEngineUnity_HEU_Curve_$$c__DisplayClass48_0SizeCheck;
   static_assert(sizeof(HEU_Curve::$$c__DisplayClass48_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Curve::$$c__DisplayClass48_0::$GetAllPoints$b__0
 // Il2CppName: <GetAllPoints>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_Curve::$$c__DisplayClass48_0::*)(HoudiniEngineUnity::CurveNodeData*)>(&HoudiniEngineUnity::HEU_Curve::$$c__DisplayClass48_0::$GetAllPoints$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_Curve::$$c__DisplayClass48_0::*)(::HoudiniEngineUnity::CurveNodeData*)>(&HoudiniEngineUnity::HEU_Curve::$$c__DisplayClass48_0::$GetAllPoints$b__0)> {
   static const MethodInfo* get() {
     static auto* transform = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "CurveNodeData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Curve::$$c__DisplayClass48_0*), "<GetAllPoints>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{transform});

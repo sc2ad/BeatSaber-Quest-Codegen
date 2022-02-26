@@ -39,8 +39,8 @@ namespace System::ComponentModel {
   class EventDescriptorCollection;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::ComponentModel::EventDescriptorCollection);
-DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::EventDescriptorCollection*, "System.ComponentModel", "EventDescriptorCollection");
+NEED_NO_BOX(::System::ComponentModel::EventDescriptorCollection);
+DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::EventDescriptorCollection*, "System.ComponentModel", "EventDescriptorCollection");
 // Type namespace: System.ComponentModel
 namespace System::ComponentModel {
   // Size: 0x31
@@ -49,7 +49,7 @@ namespace System::ComponentModel {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: 1199C0C
   // [DefaultMemberAttribute] Offset: 1199C0C
-  class EventDescriptorCollection : public ::Il2CppObject/*, public System::Collections::IList*/ {
+  class EventDescriptorCollection : public ::Il2CppObject/*, public ::System::Collections::IList*/ {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -63,9 +63,9 @@ namespace System::ComponentModel {
     // private System.ComponentModel.EventDescriptor[] events
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<System::ComponentModel::EventDescriptor*> events;
+    ::ArrayW<::System::ComponentModel::EventDescriptor*> events;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::ComponentModel::EventDescriptor*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::System::ComponentModel::EventDescriptor*>) == 0x8);
     // private System.String[] namedSort
     // Size: 0x8
     // Offset: 0x18
@@ -75,9 +75,9 @@ namespace System::ComponentModel {
     // private System.Collections.IComparer comparer
     // Size: 0x8
     // Offset: 0x20
-    System::Collections::IComparer* comparer;
+    ::System::Collections::IComparer* comparer;
     // Field size check
-    static_assert(sizeof(System::Collections::IComparer*) == 0x8);
+    static_assert(sizeof(::System::Collections::IComparer*) == 0x8);
     // private System.Boolean eventsOwned
     // Size: 0x1
     // Offset: 0x28
@@ -105,20 +105,20 @@ namespace System::ComponentModel {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     public:
-    // Creating interface conversion operator: operator System::Collections::IList
-    operator System::Collections::IList() noexcept {
-      return *reinterpret_cast<System::Collections::IList*>(this);
+    // Creating interface conversion operator: operator ::System::Collections::IList
+    operator ::System::Collections::IList() noexcept {
+      return *reinterpret_cast<::System::Collections::IList*>(this);
     }
     // Get static field: static public readonly System.ComponentModel.EventDescriptorCollection Empty
-    static System::ComponentModel::EventDescriptorCollection* _get_Empty();
+    static ::System::ComponentModel::EventDescriptorCollection* _get_Empty();
     // Set static field: static public readonly System.ComponentModel.EventDescriptorCollection Empty
-    static void _set_Empty(System::ComponentModel::EventDescriptorCollection* value);
+    static void _set_Empty(::System::ComponentModel::EventDescriptorCollection* value);
     // Get instance field reference: private System.ComponentModel.EventDescriptor[] events
-    ::ArrayW<System::ComponentModel::EventDescriptor*>& dyn_events();
+    ::ArrayW<::System::ComponentModel::EventDescriptor*>& dyn_events();
     // Get instance field reference: private System.String[] namedSort
     ::ArrayW<::StringW>& dyn_namedSort();
     // Get instance field reference: private System.Collections.IComparer comparer
-    System::Collections::IComparer*& dyn_comparer();
+    ::System::Collections::IComparer*& dyn_comparer();
     // Get instance field reference: private System.Boolean eventsOwned
     bool& dyn_eventsOwned();
     // Get instance field reference: private System.Boolean needSort
@@ -132,7 +132,7 @@ namespace System::ComponentModel {
     int get_Count();
     // public System.ComponentModel.EventDescriptor get_Item(System.Int32 index)
     // Offset: 0x1DF743C
-    System::ComponentModel::EventDescriptor* get_Item(int index);
+    ::System::ComponentModel::EventDescriptor* get_Item(int index);
     // private System.Int32 System.Collections.ICollection.get_Count()
     // Offset: 0x1DF7FE8
     int System_Collections_ICollection_get_Count();
@@ -154,15 +154,15 @@ namespace System::ComponentModel {
     // public System.Void .ctor(System.ComponentModel.EventDescriptor[] events)
     // Offset: 0x1DF7370
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static EventDescriptorCollection* New_ctor(::ArrayW<System::ComponentModel::EventDescriptor*> events) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::EventDescriptorCollection::.ctor");
+    static EventDescriptorCollection* New_ctor(::ArrayW<::System::ComponentModel::EventDescriptor*> events) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::EventDescriptorCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventDescriptorCollection*, creationType>(events)));
     }
     // public System.Void .ctor(System.ComponentModel.EventDescriptor[] events, System.Boolean readOnly)
     // Offset: 0x1DF7408
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static EventDescriptorCollection* New_ctor(::ArrayW<System::ComponentModel::EventDescriptor*> events, bool readOnly) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::EventDescriptorCollection::.ctor");
+    static EventDescriptorCollection* New_ctor(::ArrayW<::System::ComponentModel::EventDescriptor*> events, bool readOnly) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::EventDescriptorCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventDescriptorCollection*, creationType>(events, readOnly)));
     }
     // static private System.Void .cctor()
@@ -170,16 +170,16 @@ namespace System::ComponentModel {
     static void _cctor();
     // public System.Int32 Add(System.ComponentModel.EventDescriptor value)
     // Offset: 0x1DF75AC
-    int Add(System::ComponentModel::EventDescriptor* value);
+    int Add(::System::ComponentModel::EventDescriptor* value);
     // public System.Void Clear()
     // Offset: 0x1DF77B0
     void Clear();
     // public System.Boolean Contains(System.ComponentModel.EventDescriptor value)
     // Offset: 0x1DF782C
-    bool Contains(System::ComponentModel::EventDescriptor* value);
+    bool Contains(::System::ComponentModel::EventDescriptor* value);
     // private System.Void System.Collections.ICollection.CopyTo(System.Array array, System.Int32 index)
     // Offset: 0x1DF78B0
-    void System_Collections_ICollection_CopyTo(System::Array* array, int index);
+    void System_Collections_ICollection_CopyTo(::System::Array* array, int index);
     // private System.Void EnsureEventsOwned()
     // Offset: 0x1DF74F8
     void EnsureEventsOwned();
@@ -188,28 +188,28 @@ namespace System::ComponentModel {
     void EnsureSize(int sizeNeeded);
     // public System.Int32 IndexOf(System.ComponentModel.EventDescriptor value)
     // Offset: 0x1DF7848
-    int IndexOf(System::ComponentModel::EventDescriptor* value);
+    int IndexOf(::System::ComponentModel::EventDescriptor* value);
     // public System.Void Insert(System.Int32 index, System.ComponentModel.EventDescriptor value)
     // Offset: 0x1DF7BF0
-    void Insert(int index, System::ComponentModel::EventDescriptor* value);
+    void Insert(int index, ::System::ComponentModel::EventDescriptor* value);
     // public System.Void Remove(System.ComponentModel.EventDescriptor value)
     // Offset: 0x1DF7D08
-    void Remove(System::ComponentModel::EventDescriptor* value);
+    void Remove(::System::ComponentModel::EventDescriptor* value);
     // public System.Void RemoveAt(System.Int32 index)
     // Offset: 0x1DF7DB8
     void RemoveAt(int index);
     // public System.Collections.IEnumerator GetEnumerator()
     // Offset: 0x1DF7EAC
-    System::Collections::IEnumerator* GetEnumerator();
+    ::System::Collections::IEnumerator* GetEnumerator();
     // protected System.Void InternalSort(System.String[] names)
     // Offset: 0x1DF78F8
     void InternalSort(::ArrayW<::StringW> names);
     // protected System.Void InternalSort(System.Collections.IComparer sorter)
     // Offset: 0x1DF7F54
-    void InternalSort(System::Collections::IComparer* sorter);
+    void InternalSort(::System::Collections::IComparer* sorter);
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
     // Offset: 0x1DF7FF8
-    System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
+    ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // private System.Int32 System.Collections.IList.Add(System.Object value)
     // Offset: 0x1DF8180
     int System_Collections_IList_Add(::Il2CppObject* value);
@@ -248,7 +248,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::ComponentModel::EventDescriptorCollection::get_Item
 // Il2CppName: get_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ComponentModel::EventDescriptor* (System::ComponentModel::EventDescriptorCollection::*)(int)>(&System::ComponentModel::EventDescriptorCollection::get_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::EventDescriptor* (System::ComponentModel::EventDescriptorCollection::*)(int)>(&System::ComponentModel::EventDescriptorCollection::get_Item)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::EventDescriptorCollection*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
@@ -324,7 +324,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::ComponentModel::EventDescriptorCollection::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::ComponentModel::EventDescriptorCollection::*)(System::ComponentModel::EventDescriptor*)>(&System::ComponentModel::EventDescriptorCollection::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::ComponentModel::EventDescriptorCollection::*)(::System::ComponentModel::EventDescriptor*)>(&System::ComponentModel::EventDescriptorCollection::Add)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.ComponentModel", "EventDescriptor")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::EventDescriptorCollection*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -341,7 +341,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::ComponentModel::EventDescriptorCollection::Contains
 // Il2CppName: Contains
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::ComponentModel::EventDescriptorCollection::*)(System::ComponentModel::EventDescriptor*)>(&System::ComponentModel::EventDescriptorCollection::Contains)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::ComponentModel::EventDescriptorCollection::*)(::System::ComponentModel::EventDescriptor*)>(&System::ComponentModel::EventDescriptorCollection::Contains)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.ComponentModel", "EventDescriptor")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::EventDescriptorCollection*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -350,7 +350,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::ComponentModel::EventDescriptorCollection::System_Collections_ICollection_CopyTo
 // Il2CppName: System.Collections.ICollection.CopyTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::ComponentModel::EventDescriptorCollection::*)(System::Array*, int)>(&System::ComponentModel::EventDescriptorCollection::System_Collections_ICollection_CopyTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::ComponentModel::EventDescriptorCollection::*)(::System::Array*, int)>(&System::ComponentModel::EventDescriptorCollection::System_Collections_ICollection_CopyTo)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "Array")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -377,7 +377,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::ComponentModel::EventDescriptorCollection::IndexOf
 // Il2CppName: IndexOf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::ComponentModel::EventDescriptorCollection::*)(System::ComponentModel::EventDescriptor*)>(&System::ComponentModel::EventDescriptorCollection::IndexOf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::ComponentModel::EventDescriptorCollection::*)(::System::ComponentModel::EventDescriptor*)>(&System::ComponentModel::EventDescriptorCollection::IndexOf)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.ComponentModel", "EventDescriptor")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::EventDescriptorCollection*), "IndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -386,7 +386,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::ComponentModel::EventDescriptorCollection::Insert
 // Il2CppName: Insert
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::ComponentModel::EventDescriptorCollection::*)(int, System::ComponentModel::EventDescriptor*)>(&System::ComponentModel::EventDescriptorCollection::Insert)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::ComponentModel::EventDescriptorCollection::*)(int, ::System::ComponentModel::EventDescriptor*)>(&System::ComponentModel::EventDescriptorCollection::Insert)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System.ComponentModel", "EventDescriptor")->byval_arg;
@@ -396,7 +396,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::ComponentModel::EventDescriptorCollection::Remove
 // Il2CppName: Remove
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::ComponentModel::EventDescriptorCollection::*)(System::ComponentModel::EventDescriptor*)>(&System::ComponentModel::EventDescriptorCollection::Remove)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::ComponentModel::EventDescriptorCollection::*)(::System::ComponentModel::EventDescriptor*)>(&System::ComponentModel::EventDescriptorCollection::Remove)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.ComponentModel", "EventDescriptor")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::EventDescriptorCollection*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -414,7 +414,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::ComponentModel::EventDescriptorCollection::GetEnumerator
 // Il2CppName: GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (System::ComponentModel::EventDescriptorCollection::*)()>(&System::ComponentModel::EventDescriptorCollection::GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (System::ComponentModel::EventDescriptorCollection::*)()>(&System::ComponentModel::EventDescriptorCollection::GetEnumerator)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::EventDescriptorCollection*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -431,7 +431,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::ComponentModel::EventDescriptorCollection::InternalSort
 // Il2CppName: InternalSort
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::ComponentModel::EventDescriptorCollection::*)(System::Collections::IComparer*)>(&System::ComponentModel::EventDescriptorCollection::InternalSort)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::ComponentModel::EventDescriptorCollection::*)(::System::Collections::IComparer*)>(&System::ComponentModel::EventDescriptorCollection::InternalSort)> {
   static const MethodInfo* get() {
     static auto* sorter = &::il2cpp_utils::GetClassFromName("System.Collections", "IComparer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::EventDescriptorCollection*), "InternalSort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sorter});
@@ -440,7 +440,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::ComponentModel::EventDescriptorCollection::System_Collections_IEnumerable_GetEnumerator
 // Il2CppName: System.Collections.IEnumerable.GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (System::ComponentModel::EventDescriptorCollection::*)()>(&System::ComponentModel::EventDescriptorCollection::System_Collections_IEnumerable_GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (System::ComponentModel::EventDescriptorCollection::*)()>(&System::ComponentModel::EventDescriptorCollection::System_Collections_IEnumerable_GetEnumerator)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::EventDescriptorCollection*), "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

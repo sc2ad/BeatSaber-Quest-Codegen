@@ -14,8 +14,8 @@ namespace GlobalNamespace {
   class IPacketPool;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::IPacketPool);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IPacketPool*, "", "IPacketPool");
+NEED_NO_BOX(::GlobalNamespace::IPacketPool);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IPacketPool*, "", "IPacketPool");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10

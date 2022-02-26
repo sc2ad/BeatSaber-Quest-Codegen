@@ -24,8 +24,8 @@ namespace UnityEngine {
   class JsonUtility;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::JsonUtility);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::JsonUtility*, "UnityEngine", "JsonUtility");
+NEED_NO_BOX(::UnityEngine::JsonUtility);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::JsonUtility*, "UnityEngine", "JsonUtility");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -40,7 +40,7 @@ namespace UnityEngine {
     static ::StringW ToJsonInternal(::Il2CppObject* obj, bool prettyPrint);
     // static private System.Object FromJsonInternal(System.String json, System.Object objectToOverwrite, System.Type type)
     // Offset: 0x2A63218
-    static ::Il2CppObject* FromJsonInternal(::StringW json, ::Il2CppObject* objectToOverwrite, System::Type* type);
+    static ::Il2CppObject* FromJsonInternal(::StringW json, ::Il2CppObject* objectToOverwrite, ::System::Type* type);
     // static public System.String ToJson(System.Object obj)
     // Offset: 0x2A63270
     static ::StringW ToJson(::Il2CppObject* obj);
@@ -51,14 +51,14 @@ namespace UnityEngine {
     // Offset: 0xFFFFFFFF
     template<class T>
     static T FromJson(::StringW json) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::JsonUtility::FromJson");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::JsonUtility::FromJson");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine", "JsonUtility", "FromJson", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(json)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, json);
     }
     // static public System.Object FromJson(System.String json, System.Type type)
     // Offset: 0x2A633CC
-    static ::Il2CppObject* FromJson(::StringW json, System::Type* type);
+    static ::Il2CppObject* FromJson(::StringW json, ::System::Type* type);
   }; // UnityEngine.JsonUtility
   #pragma pack(pop)
 }
@@ -76,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: UnityEngine::JsonUtility::FromJsonInternal
 // Il2CppName: FromJsonInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::StringW, ::Il2CppObject*, System::Type*)>(&UnityEngine::JsonUtility::FromJsonInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::StringW, ::Il2CppObject*, ::System::Type*)>(&UnityEngine::JsonUtility::FromJsonInternal)> {
   static const MethodInfo* get() {
     static auto* json = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* objectToOverwrite = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -109,7 +109,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: UnityEngine::JsonUtility::FromJson
 // Il2CppName: FromJson
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::StringW, System::Type*)>(&UnityEngine::JsonUtility::FromJson)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::StringW, ::System::Type*)>(&UnityEngine::JsonUtility::FromJson)> {
   static const MethodInfo* get() {
     static auto* json = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;

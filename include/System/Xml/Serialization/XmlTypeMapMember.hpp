@@ -36,8 +36,8 @@ namespace System::Xml::Serialization {
   class XmlTypeMapMember;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Serialization::XmlTypeMapMember);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Serialization::XmlTypeMapMember*, "System.Xml.Serialization", "XmlTypeMapMember");
+NEED_NO_BOX(::System::Xml::Serialization::XmlTypeMapMember);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::XmlTypeMapMember*, "System.Xml.Serialization", "XmlTypeMapMember");
 // Type namespace: System.Xml.Serialization
 namespace System::Xml::Serialization {
   // Size: 0x54
@@ -84,27 +84,27 @@ namespace System::Xml::Serialization {
     // private System.Xml.Serialization.TypeData _typeData
     // Size: 0x8
     // Offset: 0x28
-    System::Xml::Serialization::TypeData* typeData;
+    ::System::Xml::Serialization::TypeData* typeData;
     // Field size check
-    static_assert(sizeof(System::Xml::Serialization::TypeData*) == 0x8);
+    static_assert(sizeof(::System::Xml::Serialization::TypeData*) == 0x8);
     // private System.Reflection.MemberInfo _member
     // Size: 0x8
     // Offset: 0x30
-    System::Reflection::MemberInfo* member;
+    ::System::Reflection::MemberInfo* member;
     // Field size check
-    static_assert(sizeof(System::Reflection::MemberInfo*) == 0x8);
+    static_assert(sizeof(::System::Reflection::MemberInfo*) == 0x8);
     // private System.Reflection.MemberInfo _specifiedMember
     // Size: 0x8
     // Offset: 0x38
-    System::Reflection::MemberInfo* specifiedMember;
+    ::System::Reflection::MemberInfo* specifiedMember;
     // Field size check
-    static_assert(sizeof(System::Reflection::MemberInfo*) == 0x8);
+    static_assert(sizeof(::System::Reflection::MemberInfo*) == 0x8);
     // private System.Reflection.MethodInfo _shouldSerialize
     // Size: 0x8
     // Offset: 0x40
-    System::Reflection::MethodInfo* shouldSerialize;
+    ::System::Reflection::MethodInfo* shouldSerialize;
     // Field size check
-    static_assert(sizeof(System::Reflection::MethodInfo*) == 0x8);
+    static_assert(sizeof(::System::Reflection::MethodInfo*) == 0x8);
     // private System.Object _defaultValue
     // Size: 0x8
     // Offset: 0x48
@@ -127,13 +127,13 @@ namespace System::Xml::Serialization {
     // Get instance field reference: private System.Int32 _specifiedGlobalIndex
     int& dyn__specifiedGlobalIndex();
     // Get instance field reference: private System.Xml.Serialization.TypeData _typeData
-    System::Xml::Serialization::TypeData*& dyn__typeData();
+    ::System::Xml::Serialization::TypeData*& dyn__typeData();
     // Get instance field reference: private System.Reflection.MemberInfo _member
-    System::Reflection::MemberInfo*& dyn__member();
+    ::System::Reflection::MemberInfo*& dyn__member();
     // Get instance field reference: private System.Reflection.MemberInfo _specifiedMember
-    System::Reflection::MemberInfo*& dyn__specifiedMember();
+    ::System::Reflection::MemberInfo*& dyn__specifiedMember();
     // Get instance field reference: private System.Reflection.MethodInfo _shouldSerialize
-    System::Reflection::MethodInfo*& dyn__shouldSerialize();
+    ::System::Reflection::MethodInfo*& dyn__shouldSerialize();
     // Get instance field reference: private System.Object _defaultValue
     ::Il2CppObject*& dyn__defaultValue();
     // Get instance field reference: private System.Int32 _flags
@@ -152,10 +152,10 @@ namespace System::Xml::Serialization {
     void set_DefaultValue(::Il2CppObject* value);
     // public System.Xml.Serialization.TypeData get_TypeData()
     // Offset: 0x1615628
-    System::Xml::Serialization::TypeData* get_TypeData();
+    ::System::Xml::Serialization::TypeData* get_TypeData();
     // public System.Void set_TypeData(System.Xml.Serialization.TypeData value)
     // Offset: 0x1615630
-    void set_TypeData(System::Xml::Serialization::TypeData* value);
+    void set_TypeData(::System::Xml::Serialization::TypeData* value);
     // public System.Int32 get_Index()
     // Offset: 0x1615638
     int get_Index();
@@ -182,7 +182,7 @@ namespace System::Xml::Serialization {
     void set_IsReturnValue(bool value);
     // public System.Boolean IsReadOnly(System.Type type)
     // Offset: 0x1614DE0
-    bool IsReadOnly(System::Type* type);
+    bool IsReadOnly(::System::Type* type);
     // static public System.Object GetValue(System.Object ob, System.String name)
     // Offset: 0x16150DC
     static ::Il2CppObject* GetValue(::Il2CppObject* ob, ::StringW name);
@@ -197,10 +197,10 @@ namespace System::Xml::Serialization {
     static void SetValue(::Il2CppObject* ob, ::StringW name, ::Il2CppObject* value);
     // private System.Void InitMember(System.Type type)
     // Offset: 0x1614EA4
-    void InitMember(System::Type* type);
+    void InitMember(::System::Type* type);
     // public System.Void CheckOptionalValueType(System.Type type)
     // Offset: 0x16156C8
-    void CheckOptionalValueType(System::Type* type);
+    void CheckOptionalValueType(::System::Type* type);
     // public System.Boolean GetValueSpecified(System.Object ob)
     // Offset: 0x161574C
     bool GetValueSpecified(::Il2CppObject* ob);
@@ -213,7 +213,7 @@ namespace System::Xml::Serialization {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlTypeMapMember* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Serialization::XmlTypeMapMember::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Serialization::XmlTypeMapMember::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlTypeMapMember*, creationType>()));
     }
   }; // System.Xml.Serialization.XmlTypeMapMember
@@ -259,7 +259,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlTypeMapMember::get_TypeData
 // Il2CppName: get_TypeData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Serialization::TypeData* (System::Xml::Serialization::XmlTypeMapMember::*)()>(&System::Xml::Serialization::XmlTypeMapMember::get_TypeData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::TypeData* (System::Xml::Serialization::XmlTypeMapMember::*)()>(&System::Xml::Serialization::XmlTypeMapMember::get_TypeData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::XmlTypeMapMember*), "get_TypeData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -267,7 +267,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlTypeMapMember::set_TypeData
 // Il2CppName: set_TypeData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Serialization::XmlTypeMapMember::*)(System::Xml::Serialization::TypeData*)>(&System::Xml::Serialization::XmlTypeMapMember::set_TypeData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Serialization::XmlTypeMapMember::*)(::System::Xml::Serialization::TypeData*)>(&System::Xml::Serialization::XmlTypeMapMember::set_TypeData)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Xml.Serialization", "TypeData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::XmlTypeMapMember*), "set_TypeData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -344,7 +344,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlTypeMapMember::IsReadOnly
 // Il2CppName: IsReadOnly
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::Serialization::XmlTypeMapMember::*)(System::Type*)>(&System::Xml::Serialization::XmlTypeMapMember::IsReadOnly)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::Serialization::XmlTypeMapMember::*)(::System::Type*)>(&System::Xml::Serialization::XmlTypeMapMember::IsReadOnly)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::XmlTypeMapMember*), "IsReadOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -393,7 +393,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlTypeMapMember::InitMember
 // Il2CppName: InitMember
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Serialization::XmlTypeMapMember::*)(System::Type*)>(&System::Xml::Serialization::XmlTypeMapMember::InitMember)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Serialization::XmlTypeMapMember::*)(::System::Type*)>(&System::Xml::Serialization::XmlTypeMapMember::InitMember)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::XmlTypeMapMember*), "InitMember", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -402,7 +402,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlTypeMapMember::CheckOptionalValueType
 // Il2CppName: CheckOptionalValueType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Serialization::XmlTypeMapMember::*)(System::Type*)>(&System::Xml::Serialization::XmlTypeMapMember::CheckOptionalValueType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Serialization::XmlTypeMapMember::*)(::System::Type*)>(&System::Xml::Serialization::XmlTypeMapMember::CheckOptionalValueType)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::XmlTypeMapMember*), "CheckOptionalValueType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});

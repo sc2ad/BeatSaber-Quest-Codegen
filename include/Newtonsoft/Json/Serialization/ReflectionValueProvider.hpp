@@ -25,8 +25,8 @@ namespace Newtonsoft::Json::Serialization {
   class ReflectionValueProvider;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Serialization::ReflectionValueProvider);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Serialization::ReflectionValueProvider*, "Newtonsoft.Json.Serialization", "ReflectionValueProvider");
+NEED_NO_BOX(::Newtonsoft::Json::Serialization::ReflectionValueProvider);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Serialization::ReflectionValueProvider*, "Newtonsoft.Json.Serialization", "ReflectionValueProvider");
 // Type namespace: Newtonsoft.Json.Serialization
 namespace Newtonsoft::Json::Serialization {
   // Size: 0x18
@@ -35,7 +35,7 @@ namespace Newtonsoft::Json::Serialization {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NullableContextAttribute] Offset: 1202E0C
   // [NullableAttribute] Offset: 1202E0C
-  class ReflectionValueProvider : public ::Il2CppObject/*, public Newtonsoft::Json::Serialization::IValueProvider*/ {
+  class ReflectionValueProvider : public ::Il2CppObject/*, public ::Newtonsoft::Json::Serialization::IValueProvider*/ {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -49,25 +49,25 @@ namespace Newtonsoft::Json::Serialization {
     // private readonly System.Reflection.MemberInfo _memberInfo
     // Size: 0x8
     // Offset: 0x10
-    System::Reflection::MemberInfo* memberInfo;
+    ::System::Reflection::MemberInfo* memberInfo;
     // Field size check
-    static_assert(sizeof(System::Reflection::MemberInfo*) == 0x8);
+    static_assert(sizeof(::System::Reflection::MemberInfo*) == 0x8);
     public:
-    // Creating interface conversion operator: operator Newtonsoft::Json::Serialization::IValueProvider
-    operator Newtonsoft::Json::Serialization::IValueProvider() noexcept {
-      return *reinterpret_cast<Newtonsoft::Json::Serialization::IValueProvider*>(this);
+    // Creating interface conversion operator: operator ::Newtonsoft::Json::Serialization::IValueProvider
+    operator ::Newtonsoft::Json::Serialization::IValueProvider() noexcept {
+      return *reinterpret_cast<::Newtonsoft::Json::Serialization::IValueProvider*>(this);
     }
-    // Creating conversion operator: operator System::Reflection::MemberInfo*
-    constexpr operator System::Reflection::MemberInfo*() const noexcept {
+    // Creating conversion operator: operator ::System::Reflection::MemberInfo*
+    constexpr operator ::System::Reflection::MemberInfo*() const noexcept {
       return memberInfo;
     }
     // Get instance field reference: private readonly System.Reflection.MemberInfo _memberInfo
-    System::Reflection::MemberInfo*& dyn__memberInfo();
+    ::System::Reflection::MemberInfo*& dyn__memberInfo();
     // public System.Void .ctor(System.Reflection.MemberInfo memberInfo)
     // Offset: 0x19D6A6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ReflectionValueProvider* New_ctor(System::Reflection::MemberInfo* memberInfo) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Serialization::ReflectionValueProvider::.ctor");
+    static ReflectionValueProvider* New_ctor(::System::Reflection::MemberInfo* memberInfo) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::ReflectionValueProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReflectionValueProvider*, creationType>(memberInfo)));
     }
     // public System.Void SetValue(System.Object target, System.Object value)
@@ -78,7 +78,7 @@ namespace Newtonsoft::Json::Serialization {
     ::Il2CppObject* GetValue(::Il2CppObject* target);
   }; // Newtonsoft.Json.Serialization.ReflectionValueProvider
   #pragma pack(pop)
-  static check_size<sizeof(ReflectionValueProvider), 16 + sizeof(System::Reflection::MemberInfo*)> __Newtonsoft_Json_Serialization_ReflectionValueProviderSizeCheck;
+  static check_size<sizeof(ReflectionValueProvider), 16 + sizeof(::System::Reflection::MemberInfo*)> __Newtonsoft_Json_Serialization_ReflectionValueProviderSizeCheck;
   static_assert(sizeof(ReflectionValueProvider) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

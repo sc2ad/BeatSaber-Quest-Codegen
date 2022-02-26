@@ -25,8 +25,8 @@ namespace System::Text::RegularExpressions {
   class RegexBoyerMoore;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Text::RegularExpressions::RegexBoyerMoore);
-DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexBoyerMoore*, "System.Text.RegularExpressions", "RegexBoyerMoore");
+NEED_NO_BOX(::System::Text::RegularExpressions::RegexBoyerMoore);
+DEFINE_IL2CPP_ARG_TYPE(::System::Text::RegularExpressions::RegexBoyerMoore*, "System.Text.RegularExpressions", "RegexBoyerMoore");
 // Type namespace: System.Text.RegularExpressions
 namespace System::Text::RegularExpressions {
   // Size: 0x48
@@ -97,9 +97,9 @@ namespace System::Text::RegularExpressions {
     // System.Globalization.CultureInfo _culture
     // Size: 0x8
     // Offset: 0x40
-    System::Globalization::CultureInfo* culture;
+    ::System::Globalization::CultureInfo* culture;
     // Field size check
-    static_assert(sizeof(System::Globalization::CultureInfo*) == 0x8);
+    static_assert(sizeof(::System::Globalization::CultureInfo*) == 0x8);
     public:
     // Get instance field reference: System.Int32[] _positive
     ::ArrayW<int>& dyn__positive();
@@ -118,12 +118,12 @@ namespace System::Text::RegularExpressions {
     // Get instance field reference: System.Boolean _caseInsensitive
     bool& dyn__caseInsensitive();
     // Get instance field reference: System.Globalization.CultureInfo _culture
-    System::Globalization::CultureInfo*& dyn__culture();
+    ::System::Globalization::CultureInfo*& dyn__culture();
     // System.Void .ctor(System.String pattern, System.Boolean caseInsensitive, System.Boolean rightToLeft, System.Globalization.CultureInfo culture)
     // Offset: 0x1E96FEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static RegexBoyerMoore* New_ctor(::StringW pattern, bool caseInsensitive, bool rightToLeft, System::Globalization::CultureInfo* culture) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::RegexBoyerMoore::.ctor");
+    static RegexBoyerMoore* New_ctor(::StringW pattern, bool caseInsensitive, bool rightToLeft, ::System::Globalization::CultureInfo* culture) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::RegexBoyerMoore::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexBoyerMoore*, creationType>(pattern, caseInsensitive, rightToLeft, culture)));
     }
     // private System.Boolean MatchPattern(System.String text, System.Int32 index)
@@ -142,7 +142,7 @@ namespace System::Text::RegularExpressions {
     ::StringW ToString();
   }; // System.Text.RegularExpressions.RegexBoyerMoore
   #pragma pack(pop)
-  static check_size<sizeof(RegexBoyerMoore), 64 + sizeof(System::Globalization::CultureInfo*)> __System_Text_RegularExpressions_RegexBoyerMooreSizeCheck;
+  static check_size<sizeof(RegexBoyerMoore), 64 + sizeof(::System::Globalization::CultureInfo*)> __System_Text_RegularExpressions_RegexBoyerMooreSizeCheck;
   static_assert(sizeof(RegexBoyerMoore) == 0x48);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

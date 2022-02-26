@@ -16,8 +16,8 @@ namespace UnityEngine {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer::Styles);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer::Styles*, "UnityEngine.TestTools.TestRunner.Callbacks", "TestResultRenderer/Styles");
+NEED_NO_BOX(::UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer::Styles);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer::Styles*, "UnityEngine.TestTools.TestRunner.Callbacks", "TestResultRenderer/Styles");
 // Type namespace: UnityEngine.TestTools.TestRunner.Callbacks
 namespace UnityEngine::TestTools::TestRunner::Callbacks {
   // Size: 0x10
@@ -27,17 +27,17 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
   class TestResultRenderer::Styles : public ::Il2CppObject {
     public:
     // Get static field: static public readonly UnityEngine.GUIStyle SucceedLabelStyle
-    static UnityEngine::GUIStyle* _get_SucceedLabelStyle();
+    static ::UnityEngine::GUIStyle* _get_SucceedLabelStyle();
     // Set static field: static public readonly UnityEngine.GUIStyle SucceedLabelStyle
-    static void _set_SucceedLabelStyle(UnityEngine::GUIStyle* value);
+    static void _set_SucceedLabelStyle(::UnityEngine::GUIStyle* value);
     // Get static field: static public readonly UnityEngine.GUIStyle FailedLabelStyle
-    static UnityEngine::GUIStyle* _get_FailedLabelStyle();
+    static ::UnityEngine::GUIStyle* _get_FailedLabelStyle();
     // Set static field: static public readonly UnityEngine.GUIStyle FailedLabelStyle
-    static void _set_FailedLabelStyle(UnityEngine::GUIStyle* value);
+    static void _set_FailedLabelStyle(::UnityEngine::GUIStyle* value);
     // Get static field: static public readonly UnityEngine.GUIStyle FailedMessagesStyle
-    static UnityEngine::GUIStyle* _get_FailedMessagesStyle();
+    static ::UnityEngine::GUIStyle* _get_FailedMessagesStyle();
     // Set static field: static public readonly UnityEngine.GUIStyle FailedMessagesStyle
-    static void _set_FailedMessagesStyle(UnityEngine::GUIStyle* value);
+    static void _set_FailedMessagesStyle(::UnityEngine::GUIStyle* value);
     // static private System.Void .cctor()
     // Offset: 0x18DD470
     static void _cctor();

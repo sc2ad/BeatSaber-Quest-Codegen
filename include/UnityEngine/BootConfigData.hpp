@@ -18,8 +18,8 @@ namespace UnityEngine {
   class BootConfigData;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::BootConfigData);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::BootConfigData*, "UnityEngine", "BootConfigData");
+NEED_NO_BOX(::UnityEngine::BootConfigData);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::BootConfigData*, "UnityEngine", "BootConfigData");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -41,29 +41,29 @@ namespace UnityEngine {
     // private System.IntPtr m_Ptr
     // Size: 0x8
     // Offset: 0x10
-    System::IntPtr m_Ptr;
+    ::System::IntPtr m_Ptr;
     // Field size check
-    static_assert(sizeof(System::IntPtr) == 0x8);
+    static_assert(sizeof(::System::IntPtr) == 0x8);
     public:
-    // Creating conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const noexcept {
+    // Creating conversion operator: operator ::System::IntPtr
+    constexpr operator ::System::IntPtr() const noexcept {
       return m_Ptr;
     }
     // Get instance field reference: private System.IntPtr m_Ptr
-    System::IntPtr& dyn_m_Ptr();
+    ::System::IntPtr& dyn_m_Ptr();
     // private System.Void .ctor(System.IntPtr nativeHandle)
     // Offset: 0x1EADE14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BootConfigData* New_ctor(System::IntPtr nativeHandle) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::BootConfigData::.ctor");
+    static BootConfigData* New_ctor(::System::IntPtr nativeHandle) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::BootConfigData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BootConfigData*, creationType>(nativeHandle)));
     }
     // static private UnityEngine.BootConfigData WrapBootConfigData(System.IntPtr nativeHandle)
     // Offset: 0x1EADDB4
-    static UnityEngine::BootConfigData* WrapBootConfigData(System::IntPtr nativeHandle);
+    static ::UnityEngine::BootConfigData* WrapBootConfigData(::System::IntPtr nativeHandle);
   }; // UnityEngine.BootConfigData
   #pragma pack(pop)
-  static check_size<sizeof(BootConfigData), 16 + sizeof(System::IntPtr)> __UnityEngine_BootConfigDataSizeCheck;
+  static check_size<sizeof(BootConfigData), 16 + sizeof(::System::IntPtr)> __UnityEngine_BootConfigDataSizeCheck;
   static_assert(sizeof(BootConfigData) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -74,7 +74,7 @@ namespace UnityEngine {
 // Writing MetadataGetter for method: UnityEngine::BootConfigData::WrapBootConfigData
 // Il2CppName: WrapBootConfigData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::BootConfigData* (*)(System::IntPtr)>(&UnityEngine::BootConfigData::WrapBootConfigData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::BootConfigData* (*)(::System::IntPtr)>(&UnityEngine::BootConfigData::WrapBootConfigData)> {
   static const MethodInfo* get() {
     static auto* nativeHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::BootConfigData*), "WrapBootConfigData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nativeHandle});

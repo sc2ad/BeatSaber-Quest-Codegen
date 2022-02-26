@@ -16,8 +16,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::AchievementsModelSO::$$c__DisplayClass4_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AchievementsModelSO::$$c__DisplayClass4_0*, "", "AchievementsModelSO/<>c__DisplayClass4_0");
+NEED_NO_BOX(::GlobalNamespace::AchievementsModelSO::$$c__DisplayClass4_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AchievementsModelSO::$$c__DisplayClass4_0*, "", "AchievementsModelSO/<>c__DisplayClass4_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -39,9 +39,9 @@ namespace GlobalNamespace {
     // public AchievementsModelSO <>4__this
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::AchievementsModelSO* $$4__this;
+    ::GlobalNamespace::AchievementsModelSO* $$4__this;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::AchievementsModelSO*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::AchievementsModelSO*) == 0x8);
     // public System.String achievementId
     // Size: 0x8
     // Offset: 0x18
@@ -50,19 +50,19 @@ namespace GlobalNamespace {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public AchievementsModelSO <>4__this
-    GlobalNamespace::AchievementsModelSO*& dyn_$$4__this();
+    ::GlobalNamespace::AchievementsModelSO*& dyn_$$4__this();
     // Get instance field reference: public System.String achievementId
     ::StringW& dyn_achievementId();
     // System.Void <UnlockAchievement>b__0(PlatformAchievementsModelSO/UnlockAchievementResult result)
     // Offset: 0x1486C68
-    void $UnlockAchievement$b__0(GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementResult result);
+    void $UnlockAchievement$b__0(::GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementResult result);
     // public System.Void .ctor()
     // Offset: 0x1486B34
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AchievementsModelSO::$$c__DisplayClass4_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AchievementsModelSO::$$c__DisplayClass4_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AchievementsModelSO::$$c__DisplayClass4_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AchievementsModelSO::$$c__DisplayClass4_0*, creationType>()));
     }
   }; // AchievementsModelSO/<>c__DisplayClass4_0
@@ -74,7 +74,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::AchievementsModelSO::$$c__DisplayClass4_0::$UnlockAchievement$b__0
 // Il2CppName: <UnlockAchievement>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AchievementsModelSO::$$c__DisplayClass4_0::*)(GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementResult)>(&GlobalNamespace::AchievementsModelSO::$$c__DisplayClass4_0::$UnlockAchievement$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AchievementsModelSO::$$c__DisplayClass4_0::*)(::GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementResult)>(&GlobalNamespace::AchievementsModelSO::$$c__DisplayClass4_0::$UnlockAchievement$b__0)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("", "PlatformAchievementsModelSO/UnlockAchievementResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AchievementsModelSO::$$c__DisplayClass4_0*), "<UnlockAchievement>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});

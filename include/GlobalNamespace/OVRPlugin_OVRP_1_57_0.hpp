@@ -18,8 +18,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRPlugin::OVRP_1_57_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_57_0*, "", "OVRPlugin/OVRP_1_57_0");
+NEED_NO_BOX(::GlobalNamespace::OVRPlugin::OVRP_1_57_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRPlugin::OVRP_1_57_0*, "", "OVRPlugin/OVRP_1_57_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -29,27 +29,27 @@ namespace GlobalNamespace {
   class OVRPlugin::OVRP_1_57_0 : public ::Il2CppObject {
     public:
     // Get static field: static public readonly System.Version version
-    static System::Version* _get_version();
+    static ::System::Version* _get_version();
     // Set static field: static public readonly System.Version version
-    static void _set_version(System::Version* value);
+    static void _set_version(::System::Version* value);
     // static private System.Void .cctor()
     // Offset: 0x1A760DC
     static void _cctor();
     // static public OVRPlugin/Result ovrp_Media_GetPlatformCameraMode(out OVRPlugin/Media/PlatformCameraMode platformCameraMode)
     // Offset: 0x1A6CB2C
-    static GlobalNamespace::OVRPlugin::Result ovrp_Media_GetPlatformCameraMode(ByRef<GlobalNamespace::OVRPlugin::Media::PlatformCameraMode> platformCameraMode);
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_Media_GetPlatformCameraMode(ByRef<::GlobalNamespace::OVRPlugin::Media::PlatformCameraMode> platformCameraMode);
     // static public OVRPlugin/Result ovrp_Media_SetPlatformCameraMode(OVRPlugin/Media/PlatformCameraMode platformCameraMode)
     // Offset: 0x1A6CCB4
-    static GlobalNamespace::OVRPlugin::Result ovrp_Media_SetPlatformCameraMode(GlobalNamespace::OVRPlugin::Media::PlatformCameraMode platformCameraMode);
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_Media_SetPlatformCameraMode(::GlobalNamespace::OVRPlugin::Media::PlatformCameraMode platformCameraMode);
     // static public OVRPlugin/Result ovrp_SetEyeFovPremultipliedAlphaMode(OVRPlugin/Bool enabled)
     // Offset: 0x1A75F4C
-    static GlobalNamespace::OVRPlugin::Result ovrp_SetEyeFovPremultipliedAlphaMode(GlobalNamespace::OVRPlugin::Bool enabled);
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_SetEyeFovPremultipliedAlphaMode(::GlobalNamespace::OVRPlugin::Bool enabled);
     // static public OVRPlugin/Result ovrp_GetEyeFovPremultipliedAlphaMode(ref OVRPlugin/Bool enabled)
     // Offset: 0x1A75FCC
-    static GlobalNamespace::OVRPlugin::Result ovrp_GetEyeFovPremultipliedAlphaMode(ByRef<GlobalNamespace::OVRPlugin::Bool> enabled);
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_GetEyeFovPremultipliedAlphaMode(ByRef<::GlobalNamespace::OVRPlugin::Bool> enabled);
     // static public OVRPlugin/Result ovrp_SetKeyboardOverlayUV(OVRPlugin/Vector2f uv)
     // Offset: 0x1A7604C
-    static GlobalNamespace::OVRPlugin::Result ovrp_SetKeyboardOverlayUV(GlobalNamespace::OVRPlugin::Vector2f uv);
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_SetKeyboardOverlayUV(::GlobalNamespace::OVRPlugin::Vector2f uv);
   }; // OVRPlugin/OVRP_1_57_0
   #pragma pack(pop)
 }
@@ -65,7 +65,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_57_0::ovrp_Media_GetPlatformCameraMode
 // Il2CppName: ovrp_Media_GetPlatformCameraMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(ByRef<GlobalNamespace::OVRPlugin::Media::PlatformCameraMode>)>(&GlobalNamespace::OVRPlugin::OVRP_1_57_0::ovrp_Media_GetPlatformCameraMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)(ByRef<::GlobalNamespace::OVRPlugin::Media::PlatformCameraMode>)>(&GlobalNamespace::OVRPlugin::OVRP_1_57_0::ovrp_Media_GetPlatformCameraMode)> {
   static const MethodInfo* get() {
     static auto* platformCameraMode = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Media/PlatformCameraMode")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_57_0*), "ovrp_Media_GetPlatformCameraMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{platformCameraMode});
@@ -74,7 +74,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_57_0::ovrp_Media_SetPlatformCameraMode
 // Il2CppName: ovrp_Media_SetPlatformCameraMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::Media::PlatformCameraMode)>(&GlobalNamespace::OVRPlugin::OVRP_1_57_0::ovrp_Media_SetPlatformCameraMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)(::GlobalNamespace::OVRPlugin::Media::PlatformCameraMode)>(&GlobalNamespace::OVRPlugin::OVRP_1_57_0::ovrp_Media_SetPlatformCameraMode)> {
   static const MethodInfo* get() {
     static auto* platformCameraMode = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Media/PlatformCameraMode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_57_0*), "ovrp_Media_SetPlatformCameraMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{platformCameraMode});
@@ -83,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_57_0::ovrp_SetEyeFovPremultipliedAlphaMode
 // Il2CppName: ovrp_SetEyeFovPremultipliedAlphaMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::Bool)>(&GlobalNamespace::OVRPlugin::OVRP_1_57_0::ovrp_SetEyeFovPremultipliedAlphaMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)(::GlobalNamespace::OVRPlugin::Bool)>(&GlobalNamespace::OVRPlugin::OVRP_1_57_0::ovrp_SetEyeFovPremultipliedAlphaMode)> {
   static const MethodInfo* get() {
     static auto* enabled = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Bool")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_57_0*), "ovrp_SetEyeFovPremultipliedAlphaMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enabled});
@@ -92,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_57_0::ovrp_GetEyeFovPremultipliedAlphaMode
 // Il2CppName: ovrp_GetEyeFovPremultipliedAlphaMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(ByRef<GlobalNamespace::OVRPlugin::Bool>)>(&GlobalNamespace::OVRPlugin::OVRP_1_57_0::ovrp_GetEyeFovPremultipliedAlphaMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)(ByRef<::GlobalNamespace::OVRPlugin::Bool>)>(&GlobalNamespace::OVRPlugin::OVRP_1_57_0::ovrp_GetEyeFovPremultipliedAlphaMode)> {
   static const MethodInfo* get() {
     static auto* enabled = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Bool")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_57_0*), "ovrp_GetEyeFovPremultipliedAlphaMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enabled});
@@ -101,7 +101,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_57_0::ovrp_SetKeyboardOverlayUV
 // Il2CppName: ovrp_SetKeyboardOverlayUV
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::Vector2f)>(&GlobalNamespace::OVRPlugin::OVRP_1_57_0::ovrp_SetKeyboardOverlayUV)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)(::GlobalNamespace::OVRPlugin::Vector2f)>(&GlobalNamespace::OVRPlugin::OVRP_1_57_0::ovrp_SetKeyboardOverlayUV)> {
   static const MethodInfo* get() {
     static auto* uv = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Vector2f")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_57_0*), "ovrp_SetKeyboardOverlayUV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{uv});

@@ -15,8 +15,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData*, "", "MulticolorAvatarPartPropertyBlockSetter/ColorData");
+NEED_NO_BOX(::GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData*, "", "MulticolorAvatarPartPropertyBlockSetter/ColorData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x28
@@ -37,9 +37,9 @@ namespace GlobalNamespace {
     // private UnityEngine.Color _defaultColor
     // Size: 0x10
     // Offset: 0x10
-    UnityEngine::Color defaultColor;
+    ::UnityEngine::Color defaultColor;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     // private System.Single _darkerColorMultiplier
     // Size: 0x4
     // Offset: 0x20
@@ -54,14 +54,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: private UnityEngine.Color _defaultColor
-    UnityEngine::Color& dyn__defaultColor();
+    ::UnityEngine::Color& dyn__defaultColor();
     // Get instance field reference: private System.Single _darkerColorMultiplier
     float& dyn__darkerColorMultiplier();
     // Get instance field reference: private System.Single _whiteBoost
     float& dyn__whiteBoost();
     // public UnityEngine.Color get_defaultColor()
     // Offset: 0x142821C
-    UnityEngine::Color get_defaultColor();
+    ::UnityEngine::Color get_defaultColor();
     // public System.Single get_darkerColorMultiplier()
     // Offset: 0x1428228
     float get_darkerColorMultiplier();
@@ -74,7 +74,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MulticolorAvatarPartPropertyBlockSetter::ColorData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MulticolorAvatarPartPropertyBlockSetter::ColorData*, creationType>()));
     }
   }; // MulticolorAvatarPartPropertyBlockSetter/ColorData
@@ -86,7 +86,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData::get_defaultColor
 // Il2CppName: get_defaultColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData::*)()>(&GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData::get_defaultColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData::*)()>(&GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData::get_defaultColor)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData*), "get_defaultColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

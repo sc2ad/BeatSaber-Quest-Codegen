@@ -26,8 +26,8 @@ namespace System::Reflection {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::$$c);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::$$c*, "UnityEngine.TestTools.TestRunner.GUI", "SynchronousFilter/<>c");
+NEED_NO_BOX(::UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::$$c*, "UnityEngine.TestTools.TestRunner.GUI", "SynchronousFilter/<>c");
 // Type namespace: UnityEngine.TestTools.TestRunner.GUI
 namespace UnityEngine::TestTools::TestRunner::GUI {
   // Size: 0x10
@@ -38,33 +38,33 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
   class SynchronousFilter::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly UnityEngine.TestTools.TestRunner.GUI.SynchronousFilter/UnityEngine.TestTools.TestRunner.GUI.<>c <>9
-    static UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::$$c* _get_$$9();
+    static ::UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::$$c* _get_$$9();
     // Set static field: static public readonly UnityEngine.TestTools.TestRunner.GUI.SynchronousFilter/UnityEngine.TestTools.TestRunner.GUI.<>c <>9
-    static void _set_$$9(UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::$$c* value);
+    static void _set_$$9(::UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::$$c* value);
     // Get static field: static public System.Func`2<System.Reflection.MethodInfo,System.Boolean> <>9__2_0
-    static System::Func_2<System::Reflection::MethodInfo*, bool>* _get_$$9__2_0();
+    static ::System::Func_2<::System::Reflection::MethodInfo*, bool>* _get_$$9__2_0();
     // Set static field: static public System.Func`2<System.Reflection.MethodInfo,System.Boolean> <>9__2_0
-    static void _set_$$9__2_0(System::Func_2<System::Reflection::MethodInfo*, bool>* value);
+    static void _set_$$9__2_0(::System::Func_2<::System::Reflection::MethodInfo*, bool>* value);
     // Get static field: static public System.Func`2<System.Reflection.MethodInfo,System.Boolean> <>9__2_1
-    static System::Func_2<System::Reflection::MethodInfo*, bool>* _get_$$9__2_1();
+    static ::System::Func_2<::System::Reflection::MethodInfo*, bool>* _get_$$9__2_1();
     // Set static field: static public System.Func`2<System.Reflection.MethodInfo,System.Boolean> <>9__2_1
-    static void _set_$$9__2_1(System::Func_2<System::Reflection::MethodInfo*, bool>* value);
+    static void _set_$$9__2_1(::System::Func_2<::System::Reflection::MethodInfo*, bool>* value);
     // static private System.Void .cctor()
     // Offset: 0x18DED08
     static void _cctor();
     // System.Boolean <Pass>b__2_0(System.Reflection.MethodInfo mi)
     // Offset: 0x18DED74
-    bool $Pass$b__2_0(System::Reflection::MethodInfo* mi);
+    bool $Pass$b__2_0(::System::Reflection::MethodInfo* mi);
     // System.Boolean <Pass>b__2_1(System.Reflection.MethodInfo mi)
     // Offset: 0x18DEE1C
-    bool $Pass$b__2_1(System::Reflection::MethodInfo* mi);
+    bool $Pass$b__2_1(::System::Reflection::MethodInfo* mi);
     // public System.Void .ctor()
     // Offset: 0x18DED6C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SynchronousFilter::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SynchronousFilter::$$c*, creationType>()));
     }
   }; // UnityEngine.TestTools.TestRunner.GUI.SynchronousFilter/UnityEngine.TestTools.TestRunner.GUI.<>c
@@ -82,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::$$c::$Pass$b__2_0
 // Il2CppName: <Pass>b__2_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::$$c::*)(System::Reflection::MethodInfo*)>(&UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::$$c::$Pass$b__2_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::$$c::*)(::System::Reflection::MethodInfo*)>(&UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::$$c::$Pass$b__2_0)> {
   static const MethodInfo* get() {
     static auto* mi = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::$$c*), "<Pass>b__2_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mi});
@@ -91,7 +91,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::$$c::$Pass$b__2_1
 // Il2CppName: <Pass>b__2_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::$$c::*)(System::Reflection::MethodInfo*)>(&UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::$$c::$Pass$b__2_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::$$c::*)(::System::Reflection::MethodInfo*)>(&UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::$$c::$Pass$b__2_1)> {
   static const MethodInfo* get() {
     static auto* mi = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::$$c*), "<Pass>b__2_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mi});

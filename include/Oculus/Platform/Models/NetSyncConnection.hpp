@@ -23,8 +23,8 @@ namespace Oculus::Platform::Models {
   class NetSyncConnection;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::NetSyncConnection);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::NetSyncConnection*, "Oculus.Platform.Models", "NetSyncConnection");
+NEED_NO_BOX(::Oculus::Platform::Models::NetSyncConnection);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::NetSyncConnection*, "Oculus.Platform.Models", "NetSyncConnection");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x38
@@ -51,9 +51,9 @@ namespace Oculus::Platform::Models {
     // public readonly Oculus.Platform.NetSyncDisconnectReason DisconnectReason
     // Size: 0x4
     // Offset: 0x18
-    Oculus::Platform::NetSyncDisconnectReason DisconnectReason;
+    ::Oculus::Platform::NetSyncDisconnectReason DisconnectReason;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::NetSyncDisconnectReason) == 0x4);
+    static_assert(sizeof(::Oculus::Platform::NetSyncDisconnectReason) == 0x4);
     // Padding between fields: DisconnectReason and: SessionId
     char __padding1[0x4] = {};
     // public readonly System.UInt64 SessionId
@@ -65,9 +65,9 @@ namespace Oculus::Platform::Models {
     // public readonly Oculus.Platform.NetSyncConnectionStatus Status
     // Size: 0x4
     // Offset: 0x28
-    Oculus::Platform::NetSyncConnectionStatus Status;
+    ::Oculus::Platform::NetSyncConnectionStatus Status;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::NetSyncConnectionStatus) == 0x4);
+    static_assert(sizeof(::Oculus::Platform::NetSyncConnectionStatus) == 0x4);
     // Padding between fields: Status and: ZoneId
     char __padding3[0x4] = {};
     // public readonly System.String ZoneId
@@ -80,18 +80,18 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.Int64 ConnectionId
     int64_t& dyn_ConnectionId();
     // Get instance field reference: public readonly Oculus.Platform.NetSyncDisconnectReason DisconnectReason
-    Oculus::Platform::NetSyncDisconnectReason& dyn_DisconnectReason();
+    ::Oculus::Platform::NetSyncDisconnectReason& dyn_DisconnectReason();
     // Get instance field reference: public readonly System.UInt64 SessionId
     uint64_t& dyn_SessionId();
     // Get instance field reference: public readonly Oculus.Platform.NetSyncConnectionStatus Status
-    Oculus::Platform::NetSyncConnectionStatus& dyn_Status();
+    ::Oculus::Platform::NetSyncConnectionStatus& dyn_Status();
     // Get instance field reference: public readonly System.String ZoneId
     ::StringW& dyn_ZoneId();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x1969290
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static NetSyncConnection* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::NetSyncConnection::.ctor");
+    static NetSyncConnection* New_ctor(::System::IntPtr o) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::NetSyncConnection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetSyncConnection*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.NetSyncConnection

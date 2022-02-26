@@ -29,8 +29,8 @@ namespace Zenject {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::Context::$$c);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::Context::$$c*, "Zenject", "Context/<>c");
+NEED_NO_BOX(::Zenject::Context::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::Context::$$c*, "Zenject", "Context/<>c");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x10
@@ -41,32 +41,32 @@ namespace Zenject {
   class Context::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly Zenject.Context/Zenject.<>c <>9
-    static Zenject::Context::$$c* _get_$$9();
+    static ::Zenject::Context::$$c* _get_$$9();
     // Set static field: static public readonly Zenject.Context/Zenject.<>c <>9
-    static void _set_$$9(Zenject::Context::$$c* value);
+    static void _set_$$9(::Zenject::Context::$$c* value);
     // Get static field: static public System.Func`2<System.Type,System.Boolean> <>9__16_0
-    static System::Func_2<System::Type*, bool>* _get_$$9__16_0();
+    static ::System::Func_2<::System::Type*, bool>* _get_$$9__16_0();
     // Set static field: static public System.Func`2<System.Type,System.Boolean> <>9__16_0
-    static void _set_$$9__16_0(System::Func_2<System::Type*, bool>* value);
+    static void _set_$$9__16_0(::System::Func_2<::System::Type*, bool>* value);
     // static private System.Void .cctor()
     // Offset: 0x16DE938
     static void _cctor();
     // System.Boolean <set_NormalInstallerTypes>b__16_0(System.Type x)
     // Offset: 0x16DE9A4
-    bool $set_NormalInstallerTypes$b__16_0(System::Type* x);
+    bool $set_NormalInstallerTypes$b__16_0(::System::Type* x);
     // static private System.Object __zenCreate(System.Object[] P_0)
     // Offset: 0x16DEA58
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
     // Offset: 0x16DEAB4
-    static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
     // Offset: 0x16DE99C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Context::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::Context::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Context::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Context::$$c*, creationType>()));
     }
   }; // Zenject.Context/Zenject.<>c
@@ -84,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Zenject::Context::$$c::$set_NormalInstallerTypes$b__16_0
 // Il2CppName: <set_NormalInstallerTypes>b__16_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::Context::$$c::*)(System::Type*)>(&Zenject::Context::$$c::$set_NormalInstallerTypes$b__16_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::Context::$$c::*)(::System::Type*)>(&Zenject::Context::$$c::$set_NormalInstallerTypes$b__16_0)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::Context::$$c*), "<set_NormalInstallerTypes>b__16_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -102,7 +102,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: Zenject::Context::$$c::__zenCreateInjectTypeInfo
 // Il2CppName: __zenCreateInjectTypeInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (*)()>(&Zenject::Context::$$c::__zenCreateInjectTypeInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&Zenject::Context::$$c::__zenCreateInjectTypeInfo)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::Context::$$c*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

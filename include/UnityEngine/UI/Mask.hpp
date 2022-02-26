@@ -40,8 +40,8 @@ namespace UnityEngine::UI {
   class Mask;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::UI::Mask);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Mask*, "UnityEngine.UI", "Mask");
+NEED_NO_BOX(::UnityEngine::UI::Mask);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::Mask*, "UnityEngine.UI", "Mask");
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {
   // Size: 0x40
@@ -52,7 +52,7 @@ namespace UnityEngine::UI {
   // [ExecuteAlways] Offset: FFFFFFFF
   // [RequireComponent] Offset: 11E0C40
   // [DisallowMultipleComponent] Offset: FFFFFFFF
-  class Mask : public UnityEngine::EventSystems::UIBehaviour/*, public UnityEngine::ICanvasRaycastFilter, public UnityEngine::UI::IMaterialModifier*/ {
+  class Mask : public ::UnityEngine::EventSystems::UIBehaviour/*, public ::UnityEngine::ICanvasRaycastFilter, public ::UnityEngine::UI::IMaterialModifier*/ {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -66,9 +66,9 @@ namespace UnityEngine::UI {
     // private UnityEngine.RectTransform m_RectTransform
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::RectTransform* m_RectTransform;
+    ::UnityEngine::RectTransform* m_RectTransform;
     // Field size check
-    static_assert(sizeof(UnityEngine::RectTransform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::RectTransform*) == 0x8);
     // private System.Boolean m_ShowMaskGraphic
     // Size: 0x1
     // Offset: 0x20
@@ -80,45 +80,45 @@ namespace UnityEngine::UI {
     // private UnityEngine.UI.Graphic m_Graphic
     // Size: 0x8
     // Offset: 0x28
-    UnityEngine::UI::Graphic* m_Graphic;
+    ::UnityEngine::UI::Graphic* m_Graphic;
     // Field size check
-    static_assert(sizeof(UnityEngine::UI::Graphic*) == 0x8);
+    static_assert(sizeof(::UnityEngine::UI::Graphic*) == 0x8);
     // private UnityEngine.Material m_MaskMaterial
     // Size: 0x8
     // Offset: 0x30
-    UnityEngine::Material* m_MaskMaterial;
+    ::UnityEngine::Material* m_MaskMaterial;
     // Field size check
-    static_assert(sizeof(UnityEngine::Material*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Material*) == 0x8);
     // private UnityEngine.Material m_UnmaskMaterial
     // Size: 0x8
     // Offset: 0x38
-    UnityEngine::Material* m_UnmaskMaterial;
+    ::UnityEngine::Material* m_UnmaskMaterial;
     // Field size check
-    static_assert(sizeof(UnityEngine::Material*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Material*) == 0x8);
     public:
-    // Creating interface conversion operator: operator UnityEngine::ICanvasRaycastFilter
-    operator UnityEngine::ICanvasRaycastFilter() noexcept {
-      return *reinterpret_cast<UnityEngine::ICanvasRaycastFilter*>(this);
+    // Creating interface conversion operator: operator ::UnityEngine::ICanvasRaycastFilter
+    operator ::UnityEngine::ICanvasRaycastFilter() noexcept {
+      return *reinterpret_cast<::UnityEngine::ICanvasRaycastFilter*>(this);
     }
-    // Creating interface conversion operator: operator UnityEngine::UI::IMaterialModifier
-    operator UnityEngine::UI::IMaterialModifier() noexcept {
-      return *reinterpret_cast<UnityEngine::UI::IMaterialModifier*>(this);
+    // Creating interface conversion operator: operator ::UnityEngine::UI::IMaterialModifier
+    operator ::UnityEngine::UI::IMaterialModifier() noexcept {
+      return *reinterpret_cast<::UnityEngine::UI::IMaterialModifier*>(this);
     }
-    // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const noexcept = delete;
+    // Deleting conversion operator: operator ::System::IntPtr
+    constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.RectTransform m_RectTransform
-    UnityEngine::RectTransform*& dyn_m_RectTransform();
+    ::UnityEngine::RectTransform*& dyn_m_RectTransform();
     // Get instance field reference: private System.Boolean m_ShowMaskGraphic
     bool& dyn_m_ShowMaskGraphic();
     // Get instance field reference: private UnityEngine.UI.Graphic m_Graphic
-    UnityEngine::UI::Graphic*& dyn_m_Graphic();
+    ::UnityEngine::UI::Graphic*& dyn_m_Graphic();
     // Get instance field reference: private UnityEngine.Material m_MaskMaterial
-    UnityEngine::Material*& dyn_m_MaskMaterial();
+    ::UnityEngine::Material*& dyn_m_MaskMaterial();
     // Get instance field reference: private UnityEngine.Material m_UnmaskMaterial
-    UnityEngine::Material*& dyn_m_UnmaskMaterial();
+    ::UnityEngine::Material*& dyn_m_UnmaskMaterial();
     // public UnityEngine.RectTransform get_rectTransform()
     // Offset: 0x1DD426C
-    UnityEngine::RectTransform* get_rectTransform();
+    ::UnityEngine::RectTransform* get_rectTransform();
     // public System.Boolean get_showMaskGraphic()
     // Offset: 0x1DD42CC
     bool get_showMaskGraphic();
@@ -127,7 +127,7 @@ namespace UnityEngine::UI {
     void set_showMaskGraphic(bool value);
     // public UnityEngine.UI.Graphic get_graphic()
     // Offset: 0x1DD43AC
-    UnityEngine::UI::Graphic* get_graphic();
+    ::UnityEngine::UI::Graphic* get_graphic();
     // public System.Boolean MaskEnabled()
     // Offset: 0x1DD441C
     bool MaskEnabled();
@@ -136,10 +136,10 @@ namespace UnityEngine::UI {
     void OnSiblingGraphicEnabledDisabled();
     // public System.Boolean IsRaycastLocationValid(UnityEngine.Vector2 sp, UnityEngine.Camera eventCamera)
     // Offset: 0x1DD4A54
-    bool IsRaycastLocationValid(UnityEngine::Vector2 sp, UnityEngine::Camera* eventCamera);
+    bool IsRaycastLocationValid(::UnityEngine::Vector2 sp, ::UnityEngine::Camera* eventCamera);
     // public UnityEngine.Material GetModifiedMaterial(UnityEngine.Material baseMaterial)
     // Offset: 0x1DD4B1C
-    UnityEngine::Material* GetModifiedMaterial(UnityEngine::Material* baseMaterial);
+    ::UnityEngine::Material* GetModifiedMaterial(::UnityEngine::Material* baseMaterial);
     // protected System.Void .ctor()
     // Offset: 0x1DD440C
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
@@ -151,7 +151,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Mask* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::Mask::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::Mask::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Mask*, creationType>()));
     }
     // protected override System.Void OnEnable()
@@ -166,14 +166,14 @@ namespace UnityEngine::UI {
     void OnDisable();
   }; // UnityEngine.UI.Mask
   #pragma pack(pop)
-  static check_size<sizeof(Mask), 56 + sizeof(UnityEngine::Material*)> __UnityEngine_UI_MaskSizeCheck;
+  static check_size<sizeof(Mask), 56 + sizeof(::UnityEngine::Material*)> __UnityEngine_UI_MaskSizeCheck;
   static_assert(sizeof(Mask) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Mask::get_rectTransform
 // Il2CppName: get_rectTransform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (UnityEngine::UI::Mask::*)()>(&UnityEngine::UI::Mask::get_rectTransform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RectTransform* (UnityEngine::UI::Mask::*)()>(&UnityEngine::UI::Mask::get_rectTransform)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Mask*), "get_rectTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -198,7 +198,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::Mask::get_graphic
 // Il2CppName: get_graphic
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Graphic* (UnityEngine::UI::Mask::*)()>(&UnityEngine::UI::Mask::get_graphic)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::Graphic* (UnityEngine::UI::Mask::*)()>(&UnityEngine::UI::Mask::get_graphic)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Mask*), "get_graphic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -222,7 +222,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::Mask::IsRaycastLocationValid
 // Il2CppName: IsRaycastLocationValid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::Mask::*)(UnityEngine::Vector2, UnityEngine::Camera*)>(&UnityEngine::UI::Mask::IsRaycastLocationValid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::Mask::*)(::UnityEngine::Vector2, ::UnityEngine::Camera*)>(&UnityEngine::UI::Mask::IsRaycastLocationValid)> {
   static const MethodInfo* get() {
     static auto* sp = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     static auto* eventCamera = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
@@ -232,7 +232,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::Mask::GetModifiedMaterial
 // Il2CppName: GetModifiedMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (UnityEngine::UI::Mask::*)(UnityEngine::Material*)>(&UnityEngine::UI::Mask::GetModifiedMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Material* (UnityEngine::UI::Mask::*)(::UnityEngine::Material*)>(&UnityEngine::UI::Mask::GetModifiedMaterial)> {
   static const MethodInfo* get() {
     static auto* baseMaterial = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Mask*), "GetModifiedMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{baseMaterial});

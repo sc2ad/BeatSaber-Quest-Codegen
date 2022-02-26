@@ -47,8 +47,8 @@ namespace UnityEngine::ProBuilder {
   class ArrayUtility;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::ArrayUtility);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ArrayUtility*, "UnityEngine.ProBuilder", "ArrayUtility");
+NEED_NO_BOX(::UnityEngine::ProBuilder::ArrayUtility);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::ArrayUtility*, "UnityEngine.ProBuilder", "ArrayUtility");
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
   // Size: 0x10
@@ -58,19 +58,19 @@ namespace UnityEngine::ProBuilder {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class ArrayUtility : public ::Il2CppObject {
     public:
-    // Nested type: UnityEngine::ProBuilder::ArrayUtility::SearchRange
+    // Nested type: ::UnityEngine::ProBuilder::ArrayUtility::SearchRange
     struct SearchRange;
-    // Nested type: UnityEngine::ProBuilder::ArrayUtility::$$c__DisplayClass21_0_2<TSource, TKey>
+    // Nested type: ::UnityEngine::ProBuilder::ArrayUtility::$$c__DisplayClass21_0_2<TSource, TKey>
     template<typename TSource, typename TKey>
     class $$c__DisplayClass21_0_2;
-    // Nested type: UnityEngine::ProBuilder::ArrayUtility::$$c__23_1<T>
+    // Nested type: ::UnityEngine::ProBuilder::ArrayUtility::$$c__23_1<T>
     template<typename T>
     class $$c__23_1;
     // static public T[] ValuesWithIndexes(T[] arr, System.Int32[] indexes)
     // Offset: 0xFFFFFFFF
     template<class T>
     static ::ArrayW<T> ValuesWithIndexes(::ArrayW<T> arr, ::ArrayW<int> indexes) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::ArrayUtility::ValuesWithIndexes");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::ArrayUtility::ValuesWithIndexes");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ProBuilder", "ArrayUtility", "ValuesWithIndexes", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arr), ::il2cpp_utils::ExtractType(indexes)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<T>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, arr, indexes);
@@ -78,26 +78,26 @@ namespace UnityEngine::ProBuilder {
     // static public System.Collections.Generic.List`1<T> ValuesWithIndexes(System.Collections.Generic.List`1<T> arr, System.Collections.Generic.IList`1<System.Int32> indexes)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static System::Collections::Generic::List_1<T>* ValuesWithIndexes(System::Collections::Generic::List_1<T>* arr, System::Collections::Generic::IList_1<int>* indexes) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::ArrayUtility::ValuesWithIndexes");
+    static ::System::Collections::Generic::List_1<T>* ValuesWithIndexes(::System::Collections::Generic::List_1<T>* arr, ::System::Collections::Generic::IList_1<int>* indexes) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::ArrayUtility::ValuesWithIndexes");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ProBuilder", "ArrayUtility", "ValuesWithIndexes", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arr), ::il2cpp_utils::ExtractType(indexes)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodRethrow<System::Collections::Generic::List_1<T>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, arr, indexes);
+      return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::List_1<T>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, arr, indexes);
     }
     // static public System.Collections.Generic.IEnumerable`1<System.Int32> AllIndexesOf(System.Collections.Generic.IList`1<T> list, System.Func`2<T,System.Boolean> lambda)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static System::Collections::Generic::IEnumerable_1<int>* AllIndexesOf(System::Collections::Generic::IList_1<T>* list, System::Func_2<T, bool>* lambda) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::ArrayUtility::AllIndexesOf");
+    static ::System::Collections::Generic::IEnumerable_1<int>* AllIndexesOf(::System::Collections::Generic::IList_1<T>* list, ::System::Func_2<T, bool>* lambda) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::ArrayUtility::AllIndexesOf");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ProBuilder", "ArrayUtility", "AllIndexesOf", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(list), ::il2cpp_utils::ExtractType(lambda)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodRethrow<System::Collections::Generic::IEnumerable_1<int>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, list, lambda);
+      return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<int>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, list, lambda);
     }
     // static public T[] Add(T[] arr, T val)
     // Offset: 0xFFFFFFFF
     template<class T>
     static ::ArrayW<T> Add(::ArrayW<T> arr, T val) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::ArrayUtility::Add");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::ArrayUtility::Add");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ProBuilder", "ArrayUtility", "Add", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arr), ::il2cpp_utils::ExtractType(val)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<T>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, arr, val);
@@ -106,7 +106,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0xFFFFFFFF
     template<class T>
     static ::ArrayW<T> AddRange(::ArrayW<T> arr, ::ArrayW<T> val) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::ArrayUtility::AddRange");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::ArrayUtility::AddRange");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ProBuilder", "ArrayUtility", "AddRange", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arr), ::il2cpp_utils::ExtractType(val)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<T>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, arr, val);
@@ -115,7 +115,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0xFFFFFFFF
     template<class T>
     static ::ArrayW<T> Remove(::ArrayW<T> arr, T val) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::ArrayUtility::Remove");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::ArrayUtility::Remove");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ProBuilder", "ArrayUtility", "Remove", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arr), ::il2cpp_utils::ExtractType(val)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<T>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, arr, val);
@@ -123,8 +123,8 @@ namespace UnityEngine::ProBuilder {
     // static public T[] Remove(T[] arr, System.Collections.Generic.IEnumerable`1<T> val)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static ::ArrayW<T> Remove(::ArrayW<T> arr, System::Collections::Generic::IEnumerable_1<T>* val) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::ArrayUtility::Remove");
+    static ::ArrayW<T> Remove(::ArrayW<T> arr, ::System::Collections::Generic::IEnumerable_1<T>* val) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::ArrayUtility::Remove");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ProBuilder", "ArrayUtility", "Remove", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arr), ::il2cpp_utils::ExtractType(val)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<T>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, arr, val);
@@ -133,7 +133,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0xFFFFFFFF
     template<class T>
     static ::ArrayW<T> RemoveAt(::ArrayW<T> arr, int index) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::ArrayUtility::RemoveAt");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::ArrayUtility::RemoveAt");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ProBuilder", "ArrayUtility", "RemoveAt", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arr), ::il2cpp_utils::ExtractType(index)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<T>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, arr, index);
@@ -141,8 +141,8 @@ namespace UnityEngine::ProBuilder {
     // static public T[] RemoveAt(System.Collections.Generic.IList`1<T> list, System.Collections.Generic.IEnumerable`1<System.Int32> indexes)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static ::ArrayW<T> RemoveAt(System::Collections::Generic::IList_1<T>* list, System::Collections::Generic::IEnumerable_1<int>* indexes) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::ArrayUtility::RemoveAt");
+    static ::ArrayW<T> RemoveAt(::System::Collections::Generic::IList_1<T>* list, ::System::Collections::Generic::IEnumerable_1<int>* indexes) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::ArrayUtility::RemoveAt");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ProBuilder", "ArrayUtility", "RemoveAt", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(list), ::il2cpp_utils::ExtractType(indexes)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<T>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, list, indexes);
@@ -150,8 +150,8 @@ namespace UnityEngine::ProBuilder {
     // static public T[] SortedRemoveAt(System.Collections.Generic.IList`1<T> list, System.Collections.Generic.IList`1<System.Int32> sorted)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static ::ArrayW<T> SortedRemoveAt(System::Collections::Generic::IList_1<T>* list, System::Collections::Generic::IList_1<int>* sorted) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::ArrayUtility::SortedRemoveAt");
+    static ::ArrayW<T> SortedRemoveAt(::System::Collections::Generic::IList_1<T>* list, ::System::Collections::Generic::IList_1<int>* sorted) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::ArrayUtility::SortedRemoveAt");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ProBuilder", "ArrayUtility", "SortedRemoveAt", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(list), ::il2cpp_utils::ExtractType(sorted)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<T>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, list, sorted);
@@ -159,9 +159,9 @@ namespace UnityEngine::ProBuilder {
     // static public System.Int32 NearestIndexPriorToValue(System.Collections.Generic.IList`1<T> sorted_list, T value)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static int NearestIndexPriorToValue(System::Collections::Generic::IList_1<T>* sorted_list, T value) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, System::IComparable_1<T>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::ArrayUtility::NearestIndexPriorToValue");
+    static int NearestIndexPriorToValue(::System::Collections::Generic::IList_1<T>* sorted_list, T value) {
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::System::IComparable_1<T>>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::ArrayUtility::NearestIndexPriorToValue");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ProBuilder", "ArrayUtility", "NearestIndexPriorToValue", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(sorted_list), ::il2cpp_utils::ExtractType(value)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<int, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, sorted_list, value);
@@ -169,17 +169,17 @@ namespace UnityEngine::ProBuilder {
     // static public System.Collections.Generic.List`1<T> Fill(System.Func`2<System.Int32,T> ctor, System.Int32 length)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static System::Collections::Generic::List_1<T>* Fill(System::Func_2<int, T>* ctor, int length) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::ArrayUtility::Fill");
+    static ::System::Collections::Generic::List_1<T>* Fill(::System::Func_2<int, T>* ctor, int length) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::ArrayUtility::Fill");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ProBuilder", "ArrayUtility", "Fill", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(ctor), ::il2cpp_utils::ExtractType(length)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodRethrow<System::Collections::Generic::List_1<T>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, ctor, length);
+      return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::List_1<T>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, ctor, length);
     }
     // static public T[] Fill(T val, System.Int32 length)
     // Offset: 0xFFFFFFFF
     template<class T>
     static ::ArrayW<T> Fill(T val, int length) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::ArrayUtility::Fill");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::ArrayUtility::Fill");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ProBuilder", "ArrayUtility", "Fill", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(val), ::il2cpp_utils::ExtractType(length)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<T>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, val, length);
@@ -188,7 +188,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0xFFFFFFFF
     template<class T>
     static bool ContainsMatch(::ArrayW<T> a, ::ArrayW<T> b) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::ArrayUtility::ContainsMatch");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::ArrayUtility::ContainsMatch");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ProBuilder", "ArrayUtility", "ContainsMatch", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(a), ::il2cpp_utils::ExtractType(b)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, a, b);
@@ -197,7 +197,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0xFFFFFFFF
     template<class T>
     static bool ContainsMatch(::ArrayW<T> a, ::ArrayW<T> b, ByRef<int> index_a, ByRef<int> index_b) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::ArrayUtility::ContainsMatch");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::ArrayUtility::ContainsMatch");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ProBuilder", "ArrayUtility", "ContainsMatch", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(a), ::il2cpp_utils::ExtractType(b), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, a, b, byref(index_a), byref(index_b));
@@ -206,7 +206,7 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0xFFFFFFFF
     template<class T>
     static ::ArrayW<T> Concat(::ArrayW<T> x, ::ArrayW<T> y) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::ArrayUtility::Concat");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::ArrayUtility::Concat");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ProBuilder", "ArrayUtility", "Concat", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(x), ::il2cpp_utils::ExtractType(y)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<T>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, x, y);
@@ -214,8 +214,8 @@ namespace UnityEngine::ProBuilder {
     // static public System.Int32 IndexOf(System.Collections.Generic.List`1<System.Collections.Generic.List`1<T>> InList, T InValue)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static int IndexOf(System::Collections::Generic::List_1<System::Collections::Generic::List_1<T>*>* InList, T InValue) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::ArrayUtility::IndexOf");
+    static int IndexOf(::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<T>*>* InList, T InValue) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::ArrayUtility::IndexOf");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ProBuilder", "ArrayUtility", "IndexOf", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(InList), ::il2cpp_utils::ExtractType(InValue)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<int, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, InList, InValue);
@@ -223,8 +223,8 @@ namespace UnityEngine::ProBuilder {
     // static public T[] Fill(System.Int32 count, System.Func`2<System.Int32,T> ctor)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static ::ArrayW<T> Fill(int count, System::Func_2<int, T>* ctor) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::ArrayUtility::Fill");
+    static ::ArrayW<T> Fill(int count, ::System::Func_2<int, T>* ctor) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::ArrayUtility::Fill");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ProBuilder", "ArrayUtility", "Fill", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(count), ::il2cpp_utils::ExtractType(ctor)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<T>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, count, ctor);
@@ -232,8 +232,8 @@ namespace UnityEngine::ProBuilder {
     // static public System.Void AddOrAppend(System.Collections.Generic.Dictionary`2<T,System.Collections.Generic.List`1<K>> dictionary, T key, K value)
     // Offset: 0xFFFFFFFF
     template<class T, class K>
-    static void AddOrAppend(System::Collections::Generic::Dictionary_2<T, System::Collections::Generic::List_1<K>*>* dictionary, T key, K value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::ArrayUtility::AddOrAppend");
+    static void AddOrAppend(::System::Collections::Generic::Dictionary_2<T, ::System::Collections::Generic::List_1<K>*>* dictionary, T key, K value) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::ArrayUtility::AddOrAppend");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ProBuilder", "ArrayUtility", "AddOrAppend", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<K>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(dictionary), ::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractType(value)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<K>::get()})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, dictionary, key, value);
@@ -241,8 +241,8 @@ namespace UnityEngine::ProBuilder {
     // static public System.Void AddOrAppendRange(System.Collections.Generic.Dictionary`2<T,System.Collections.Generic.List`1<K>> dictionary, T key, System.Collections.Generic.List`1<K> value)
     // Offset: 0xFFFFFFFF
     template<class T, class K>
-    static void AddOrAppendRange(System::Collections::Generic::Dictionary_2<T, System::Collections::Generic::List_1<K>*>* dictionary, T key, System::Collections::Generic::List_1<K>* value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::ArrayUtility::AddOrAppendRange");
+    static void AddOrAppendRange(::System::Collections::Generic::Dictionary_2<T, ::System::Collections::Generic::List_1<K>*>* dictionary, T key, ::System::Collections::Generic::List_1<K>* value) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::ArrayUtility::AddOrAppendRange");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ProBuilder", "ArrayUtility", "AddOrAppendRange", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<K>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(dictionary), ::il2cpp_utils::ExtractType(key), ::il2cpp_utils::ExtractType(value)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<K>::get()})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, dictionary, key, value);
@@ -250,17 +250,17 @@ namespace UnityEngine::ProBuilder {
     // static public System.Collections.Generic.IEnumerable`1<TSource> DistinctBy(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,TKey> keySelector)
     // Offset: 0xFFFFFFFF
     template<class TSource, class TKey>
-    static System::Collections::Generic::IEnumerable_1<TSource>* DistinctBy(System::Collections::Generic::IEnumerable_1<TSource>* source, System::Func_2<TSource, TKey>* keySelector) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::ArrayUtility::DistinctBy");
+    static ::System::Collections::Generic::IEnumerable_1<TSource>* DistinctBy(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, TKey>* keySelector) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::ArrayUtility::DistinctBy");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ProBuilder", "ArrayUtility", "DistinctBy", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(source), ::il2cpp_utils::ExtractType(keySelector)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get()})));
-      return ::il2cpp_utils::RunMethodRethrow<System::Collections::Generic::IEnumerable_1<TSource>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, keySelector);
+      return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TSource>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, keySelector);
     }
     // static public System.String ToString(System.Collections.Generic.Dictionary`2<TKey,TValue> dict)
     // Offset: 0xFFFFFFFF
     template<class TKey, class TValue>
-    static ::StringW ToString(System::Collections::Generic::Dictionary_2<TKey, TValue>* dict) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::ArrayUtility::ToString");
+    static ::StringW ToString(::System::Collections::Generic::Dictionary_2<TKey, TValue>* dict) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::ArrayUtility::ToString");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ProBuilder", "ArrayUtility", "ToString", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(dict)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get()})));
       return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, dict);
@@ -268,8 +268,8 @@ namespace UnityEngine::ProBuilder {
     // static public System.String ToString(System.Collections.Generic.IEnumerable`1<T> arr, System.String separator)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static ::StringW ToString(System::Collections::Generic::IEnumerable_1<T>* arr, ::StringW separator) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::ArrayUtility::ToString");
+    static ::StringW ToString(::System::Collections::Generic::IEnumerable_1<T>* arr, ::StringW separator) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::ArrayUtility::ToString");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.ProBuilder", "ArrayUtility", "ToString", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arr), ::il2cpp_utils::ExtractType(separator)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, arr, separator);

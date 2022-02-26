@@ -37,8 +37,8 @@ namespace UnityEngine::ProBuilder {
   class VertexPositioning;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::VertexPositioning);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::VertexPositioning*, "UnityEngine.ProBuilder", "VertexPositioning");
+NEED_NO_BOX(::UnityEngine::ProBuilder::VertexPositioning);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::VertexPositioning*, "UnityEngine.ProBuilder", "VertexPositioning");
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
   // Size: 0x10
@@ -49,39 +49,39 @@ namespace UnityEngine::ProBuilder {
   class VertexPositioning : public ::Il2CppObject {
     public:
     // Get static field: static private System.Collections.Generic.List`1<System.Int32> s_CoincidentVertices
-    static System::Collections::Generic::List_1<int>* _get_s_CoincidentVertices();
+    static ::System::Collections::Generic::List_1<int>* _get_s_CoincidentVertices();
     // Set static field: static private System.Collections.Generic.List`1<System.Int32> s_CoincidentVertices
-    static void _set_s_CoincidentVertices(System::Collections::Generic::List_1<int>* value);
+    static void _set_s_CoincidentVertices(::System::Collections::Generic::List_1<int>* value);
     // static private System.Void .cctor()
     // Offset: 0x28CFC10
     static void _cctor();
     // static public UnityEngine.Vector3[] VerticesInWorldSpace(UnityEngine.ProBuilder.ProBuilderMesh mesh)
     // Offset: 0x28CE8AC
-    static ::ArrayW<UnityEngine::Vector3> VerticesInWorldSpace(UnityEngine::ProBuilder::ProBuilderMesh* mesh);
+    static ::ArrayW<::UnityEngine::Vector3> VerticesInWorldSpace(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
     // static public System.Void TranslateVerticesInWorldSpace(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Int32[] indexes, UnityEngine.Vector3 offset)
     // Offset: 0x28CEA2C
-    static void TranslateVerticesInWorldSpace(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<int> indexes, UnityEngine::Vector3 offset);
+    static void TranslateVerticesInWorldSpace(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<int> indexes, ::UnityEngine::Vector3 offset);
     // static System.Void TranslateVerticesInWorldSpace(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Int32[] indexes, UnityEngine.Vector3 offset, System.Single snapValue, System.Boolean snapAxisOnly)
     // Offset: 0x28CEB40
-    static void TranslateVerticesInWorldSpace(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<int> indexes, UnityEngine::Vector3 offset, float snapValue, bool snapAxisOnly);
+    static void TranslateVerticesInWorldSpace(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<int> indexes, ::UnityEngine::Vector3 offset, float snapValue, bool snapAxisOnly);
     // static public System.Void TranslateVertices(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<System.Int32> indexes, UnityEngine.Vector3 offset)
     // Offset: 0x28CF128
-    static void TranslateVertices(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<int>* indexes, UnityEngine::Vector3 offset);
+    static void TranslateVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<int>* indexes, ::UnityEngine::Vector3 offset);
     // static public System.Void TranslateVertices(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> edges, UnityEngine.Vector3 offset)
     // Offset: 0x28CF41C
-    static void TranslateVertices(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>* edges, UnityEngine::Vector3 offset);
+    static void TranslateVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges, ::UnityEngine::Vector3 offset);
     // static public System.Void TranslateVertices(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces, UnityEngine.Vector3 offset)
     // Offset: 0x28CF548
-    static void TranslateVertices(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces, UnityEngine::Vector3 offset);
+    static void TranslateVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces, ::UnityEngine::Vector3 offset);
     // static private System.Void TranslateVerticesInternal(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<System.Int32> indices, UnityEngine.Vector3 offset)
     // Offset: 0x28CF254
-    static void TranslateVerticesInternal(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<int>* indices, UnityEngine::Vector3 offset);
+    static void TranslateVerticesInternal(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<int>* indices, ::UnityEngine::Vector3 offset);
     // static public System.Void SetSharedVertexPosition(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Int32 sharedVertexHandle, UnityEngine.Vector3 position)
     // Offset: 0x28CF674
-    static void SetSharedVertexPosition(UnityEngine::ProBuilder::ProBuilderMesh* mesh, int sharedVertexHandle, UnityEngine::Vector3 position);
+    static void SetSharedVertexPosition(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, int sharedVertexHandle, ::UnityEngine::Vector3 position);
     // static System.Void SetSharedVertexValues(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Int32 sharedVertexHandle, UnityEngine.ProBuilder.Vertex vertex)
     // Offset: 0x28CF970
-    static void SetSharedVertexValues(UnityEngine::ProBuilder::ProBuilderMesh* mesh, int sharedVertexHandle, UnityEngine::ProBuilder::Vertex* vertex);
+    static void SetSharedVertexValues(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, int sharedVertexHandle, ::UnityEngine::ProBuilder::Vertex* vertex);
   }; // UnityEngine.ProBuilder.VertexPositioning
   #pragma pack(pop)
 }
@@ -97,7 +97,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::VertexPositioning::VerticesInWorldSpace
 // Il2CppName: VerticesInWorldSpace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector3> (*)(UnityEngine::ProBuilder::ProBuilderMesh*)>(&UnityEngine::ProBuilder::VertexPositioning::VerticesInWorldSpace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Vector3> (*)(::UnityEngine::ProBuilder::ProBuilderMesh*)>(&UnityEngine::ProBuilder::VertexPositioning::VerticesInWorldSpace)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::VertexPositioning*), "VerticesInWorldSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mesh});
@@ -106,7 +106,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::VertexPositioning::TranslateVerticesInWorldSpace
 // Il2CppName: TranslateVerticesInWorldSpace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ::ArrayW<int>, UnityEngine::Vector3)>(&UnityEngine::ProBuilder::VertexPositioning::TranslateVerticesInWorldSpace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::ArrayW<int>, ::UnityEngine::Vector3)>(&UnityEngine::ProBuilder::VertexPositioning::TranslateVerticesInWorldSpace)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* indexes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
@@ -117,7 +117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::VertexPositioning::TranslateVerticesInWorldSpace
 // Il2CppName: TranslateVerticesInWorldSpace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ::ArrayW<int>, UnityEngine::Vector3, float, bool)>(&UnityEngine::ProBuilder::VertexPositioning::TranslateVerticesInWorldSpace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::ArrayW<int>, ::UnityEngine::Vector3, float, bool)>(&UnityEngine::ProBuilder::VertexPositioning::TranslateVerticesInWorldSpace)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* indexes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
@@ -130,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::VertexPositioning::TranslateVertices
 // Il2CppName: TranslateVertices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IEnumerable_1<int>*, UnityEngine::Vector3)>(&UnityEngine::ProBuilder::VertexPositioning::TranslateVertices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<int>*, ::UnityEngine::Vector3)>(&UnityEngine::ProBuilder::VertexPositioning::TranslateVertices)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* indexes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
@@ -141,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::VertexPositioning::TranslateVertices
 // Il2CppName: TranslateVertices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>*, UnityEngine::Vector3)>(&UnityEngine::ProBuilder::VertexPositioning::TranslateVertices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*, ::UnityEngine::Vector3)>(&UnityEngine::ProBuilder::VertexPositioning::TranslateVertices)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* edges = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Edge")})->byval_arg;
@@ -152,7 +152,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::VertexPositioning::TranslateVertices
 // Il2CppName: TranslateVertices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>*, UnityEngine::Vector3)>(&UnityEngine::ProBuilder::VertexPositioning::TranslateVertices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*, ::UnityEngine::Vector3)>(&UnityEngine::ProBuilder::VertexPositioning::TranslateVertices)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* faces = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face")})->byval_arg;
@@ -163,7 +163,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::VertexPositioning::TranslateVerticesInternal
 // Il2CppName: TranslateVerticesInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IEnumerable_1<int>*, UnityEngine::Vector3)>(&UnityEngine::ProBuilder::VertexPositioning::TranslateVerticesInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<int>*, ::UnityEngine::Vector3)>(&UnityEngine::ProBuilder::VertexPositioning::TranslateVerticesInternal)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* indices = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
@@ -174,7 +174,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::VertexPositioning::SetSharedVertexPosition
 // Il2CppName: SetSharedVertexPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, int, UnityEngine::Vector3)>(&UnityEngine::ProBuilder::VertexPositioning::SetSharedVertexPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, int, ::UnityEngine::Vector3)>(&UnityEngine::ProBuilder::VertexPositioning::SetSharedVertexPosition)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* sharedVertexHandle = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -185,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::VertexPositioning::SetSharedVertexValues
 // Il2CppName: SetSharedVertexValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, int, UnityEngine::ProBuilder::Vertex*)>(&UnityEngine::ProBuilder::VertexPositioning::SetSharedVertexValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, int, ::UnityEngine::ProBuilder::Vertex*)>(&UnityEngine::ProBuilder::VertexPositioning::SetSharedVertexValues)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* sharedVertexHandle = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

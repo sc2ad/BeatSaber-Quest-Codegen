@@ -24,8 +24,8 @@ namespace UnityEngine {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::RagdollUtility::Child);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RagdollUtility::Child*, "RootMotion.FinalIK", "RagdollUtility/Child");
+NEED_NO_BOX(::RootMotion::FinalIK::RagdollUtility::Child);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::RagdollUtility::Child*, "RootMotion.FinalIK", "RagdollUtility/Child");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x34
@@ -46,33 +46,33 @@ namespace RootMotion::FinalIK {
     // public UnityEngine.Transform t
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::Transform* t;
+    ::UnityEngine::Transform* t;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // public UnityEngine.Vector3 localPosition
     // Size: 0xC
     // Offset: 0x18
-    UnityEngine::Vector3 localPosition;
+    ::UnityEngine::Vector3 localPosition;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // public UnityEngine.Quaternion localRotation
     // Size: 0x10
     // Offset: 0x24
-    UnityEngine::Quaternion localRotation;
+    ::UnityEngine::Quaternion localRotation;
     // Field size check
-    static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    static_assert(sizeof(::UnityEngine::Quaternion) == 0x10);
     public:
     // Get instance field reference: public UnityEngine.Transform t
-    UnityEngine::Transform*& dyn_t();
+    ::UnityEngine::Transform*& dyn_t();
     // Get instance field reference: public UnityEngine.Vector3 localPosition
-    UnityEngine::Vector3& dyn_localPosition();
+    ::UnityEngine::Vector3& dyn_localPosition();
     // Get instance field reference: public UnityEngine.Quaternion localRotation
-    UnityEngine::Quaternion& dyn_localRotation();
+    ::UnityEngine::Quaternion& dyn_localRotation();
     // public System.Void .ctor(UnityEngine.Transform transform)
     // Offset: 0x1F0D6CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static RagdollUtility::Child* New_ctor(UnityEngine::Transform* transform) {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::RagdollUtility::Child::.ctor");
+    static RagdollUtility::Child* New_ctor(::UnityEngine::Transform* transform) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::RagdollUtility::Child::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RagdollUtility::Child*, creationType>(transform)));
     }
     // public System.Void FixTransform(System.Single weight)
@@ -83,7 +83,7 @@ namespace RootMotion::FinalIK {
     void StoreLocalState();
   }; // RootMotion.FinalIK.RagdollUtility/RootMotion.FinalIK.Child
   #pragma pack(pop)
-  static check_size<sizeof(RagdollUtility::Child), 36 + sizeof(UnityEngine::Quaternion)> __RootMotion_FinalIK_RagdollUtility_ChildSizeCheck;
+  static check_size<sizeof(RagdollUtility::Child), 36 + sizeof(::UnityEngine::Quaternion)> __RootMotion_FinalIK_RagdollUtility_ChildSizeCheck;
   static_assert(sizeof(RagdollUtility::Child) == 0x34);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

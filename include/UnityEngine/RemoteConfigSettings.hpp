@@ -22,8 +22,8 @@ namespace UnityEngine {
   class RemoteConfigSettings;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::RemoteConfigSettings);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RemoteConfigSettings*, "UnityEngine", "RemoteConfigSettings");
+NEED_NO_BOX(::UnityEngine::RemoteConfigSettings);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::RemoteConfigSettings*, "UnityEngine", "RemoteConfigSettings");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x20
@@ -48,34 +48,34 @@ namespace UnityEngine {
     // System.IntPtr m_Ptr
     // Size: 0x8
     // Offset: 0x10
-    System::IntPtr m_Ptr;
+    ::System::IntPtr m_Ptr;
     // Field size check
-    static_assert(sizeof(System::IntPtr) == 0x8);
+    static_assert(sizeof(::System::IntPtr) == 0x8);
     // [DebuggerBrowsableAttribute] Offset: 0x121C30C
     // private System.Action`1<System.Boolean> Updated
     // Size: 0x8
     // Offset: 0x18
-    System::Action_1<bool>* Updated;
+    ::System::Action_1<bool>* Updated;
     // Field size check
-    static_assert(sizeof(System::Action_1<bool>*) == 0x8);
+    static_assert(sizeof(::System::Action_1<bool>*) == 0x8);
     public:
     // Get instance field reference: System.IntPtr m_Ptr
-    System::IntPtr& dyn_m_Ptr();
+    ::System::IntPtr& dyn_m_Ptr();
     // Get instance field reference: private System.Action`1<System.Boolean> Updated
-    System::Action_1<bool>*& dyn_Updated();
+    ::System::Action_1<bool>*& dyn_Updated();
     // static System.Void RemoteConfigSettingsUpdated(UnityEngine.RemoteConfigSettings rcs, System.Boolean wasLastUpdatedFromServer)
     // Offset: 0x2A60290
-    static void RemoteConfigSettingsUpdated(UnityEngine::RemoteConfigSettings* rcs, bool wasLastUpdatedFromServer);
+    static void RemoteConfigSettingsUpdated(::UnityEngine::RemoteConfigSettings* rcs, bool wasLastUpdatedFromServer);
   }; // UnityEngine.RemoteConfigSettings
   #pragma pack(pop)
-  static check_size<sizeof(RemoteConfigSettings), 24 + sizeof(System::Action_1<bool>*)> __UnityEngine_RemoteConfigSettingsSizeCheck;
+  static check_size<sizeof(RemoteConfigSettings), 24 + sizeof(::System::Action_1<bool>*)> __UnityEngine_RemoteConfigSettingsSizeCheck;
   static_assert(sizeof(RemoteConfigSettings) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::RemoteConfigSettings::RemoteConfigSettingsUpdated
 // Il2CppName: RemoteConfigSettingsUpdated
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::RemoteConfigSettings*, bool)>(&UnityEngine::RemoteConfigSettings::RemoteConfigSettingsUpdated)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::RemoteConfigSettings*, bool)>(&UnityEngine::RemoteConfigSettings::RemoteConfigSettingsUpdated)> {
   static const MethodInfo* get() {
     static auto* rcs = &::il2cpp_utils::GetClassFromName("UnityEngine", "RemoteConfigSettings")->byval_arg;
     static auto* wasLastUpdatedFromServer = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

@@ -13,8 +13,8 @@ namespace System::Numerics {
   class NumericsHelpers;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Numerics::NumericsHelpers);
-DEFINE_IL2CPP_ARG_TYPE(System::Numerics::NumericsHelpers*, "System.Numerics", "NumericsHelpers");
+NEED_NO_BOX(::System::Numerics::NumericsHelpers);
+DEFINE_IL2CPP_ARG_TYPE(::System::Numerics::NumericsHelpers*, "System.Numerics", "NumericsHelpers");
 // Type namespace: System.Numerics
 namespace System::Numerics {
   // Size: 0x10

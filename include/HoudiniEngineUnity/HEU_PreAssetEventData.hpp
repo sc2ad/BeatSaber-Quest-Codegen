@@ -25,8 +25,8 @@ namespace HoudiniEngineUnity {
   class HEU_PreAssetEventData;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_PreAssetEventData);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_PreAssetEventData*, "HoudiniEngineUnity", "HEU_PreAssetEventData");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_PreAssetEventData);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_PreAssetEventData*, "HoudiniEngineUnity", "HEU_PreAssetEventData");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x1C
@@ -47,30 +47,30 @@ namespace HoudiniEngineUnity {
     // public HoudiniEngineUnity.HEU_HoudiniAsset Asset
     // Size: 0x8
     // Offset: 0x10
-    HoudiniEngineUnity::HEU_HoudiniAsset* Asset;
+    ::HoudiniEngineUnity::HEU_HoudiniAsset* Asset;
     // Field size check
-    static_assert(sizeof(HoudiniEngineUnity::HEU_HoudiniAsset*) == 0x8);
+    static_assert(sizeof(::HoudiniEngineUnity::HEU_HoudiniAsset*) == 0x8);
     // public HoudiniEngineUnity.HEU_AssetEventType AssetType
     // Size: 0x4
     // Offset: 0x18
-    HoudiniEngineUnity::HEU_AssetEventType AssetType;
+    ::HoudiniEngineUnity::HEU_AssetEventType AssetType;
     // Field size check
-    static_assert(sizeof(HoudiniEngineUnity::HEU_AssetEventType) == 0x4);
+    static_assert(sizeof(::HoudiniEngineUnity::HEU_AssetEventType) == 0x4);
     public:
     // Get instance field reference: public HoudiniEngineUnity.HEU_HoudiniAsset Asset
-    HoudiniEngineUnity::HEU_HoudiniAsset*& dyn_Asset();
+    ::HoudiniEngineUnity::HEU_HoudiniAsset*& dyn_Asset();
     // Get instance field reference: public HoudiniEngineUnity.HEU_AssetEventType AssetType
-    HoudiniEngineUnity::HEU_AssetEventType& dyn_AssetType();
+    ::HoudiniEngineUnity::HEU_AssetEventType& dyn_AssetType();
     // public System.Void .ctor(HoudiniEngineUnity.HEU_HoudiniAsset asset, HoudiniEngineUnity.HEU_AssetEventType assetType)
     // Offset: 0x1A5C310
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static HEU_PreAssetEventData* New_ctor(HoudiniEngineUnity::HEU_HoudiniAsset* asset, HoudiniEngineUnity::HEU_AssetEventType assetType) {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_PreAssetEventData::.ctor");
+    static HEU_PreAssetEventData* New_ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::HoudiniEngineUnity::HEU_AssetEventType assetType) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_PreAssetEventData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_PreAssetEventData*, creationType>(asset, assetType)));
     }
   }; // HoudiniEngineUnity.HEU_PreAssetEventData
   #pragma pack(pop)
-  static check_size<sizeof(HEU_PreAssetEventData), 24 + sizeof(HoudiniEngineUnity::HEU_AssetEventType)> __HoudiniEngineUnity_HEU_PreAssetEventDataSizeCheck;
+  static check_size<sizeof(HEU_PreAssetEventData), 24 + sizeof(::HoudiniEngineUnity::HEU_AssetEventType)> __HoudiniEngineUnity_HEU_PreAssetEventDataSizeCheck;
   static_assert(sizeof(HEU_PreAssetEventData) == 0x1C);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -16,8 +16,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::AimPoser::Pose);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::AimPoser::Pose*, "RootMotion.FinalIK", "AimPoser/Pose");
+NEED_NO_BOX(::RootMotion::FinalIK::AimPoser::Pose);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::AimPoser::Pose*, "RootMotion.FinalIK", "AimPoser/Pose");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x38
@@ -52,9 +52,9 @@ namespace RootMotion::FinalIK {
     // public UnityEngine.Vector3 direction
     // Size: 0xC
     // Offset: 0x20
-    UnityEngine::Vector3 direction;
+    ::UnityEngine::Vector3 direction;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // public System.Single yaw
     // Size: 0x4
     // Offset: 0x2C
@@ -79,7 +79,7 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.String name
     ::StringW& dyn_name();
     // Get instance field reference: public UnityEngine.Vector3 direction
-    UnityEngine::Vector3& dyn_direction();
+    ::UnityEngine::Vector3& dyn_direction();
     // Get instance field reference: public System.Single yaw
     float& dyn_yaw();
     // Get instance field reference: public System.Single pitch
@@ -88,7 +88,7 @@ namespace RootMotion::FinalIK {
     float& dyn_angleBuffer();
     // public System.Boolean IsInDirection(UnityEngine.Vector3 d)
     // Offset: 0x2228E78
-    bool IsInDirection(UnityEngine::Vector3 d);
+    bool IsInDirection(::UnityEngine::Vector3 d);
     // public System.Void SetAngleBuffer(System.Single value)
     // Offset: 0x22291E4
     void SetAngleBuffer(float value);
@@ -98,7 +98,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AimPoser::Pose* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::AimPoser::Pose::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::AimPoser::Pose::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AimPoser::Pose*, creationType>()));
     }
   }; // RootMotion.FinalIK.AimPoser/RootMotion.FinalIK.Pose
@@ -110,7 +110,7 @@ namespace RootMotion::FinalIK {
 // Writing MetadataGetter for method: RootMotion::FinalIK::AimPoser::Pose::IsInDirection
 // Il2CppName: IsInDirection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::AimPoser::Pose::*)(UnityEngine::Vector3)>(&RootMotion::FinalIK::AimPoser::Pose::IsInDirection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::AimPoser::Pose::*)(::UnityEngine::Vector3)>(&RootMotion::FinalIK::AimPoser::Pose::IsInDirection)> {
   static const MethodInfo* get() {
     static auto* d = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::AimPoser::Pose*), "IsInDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{d});

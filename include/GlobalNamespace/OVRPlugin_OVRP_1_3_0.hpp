@@ -16,8 +16,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRPlugin::OVRP_1_3_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_3_0*, "", "OVRPlugin/OVRP_1_3_0");
+NEED_NO_BOX(::GlobalNamespace::OVRPlugin::OVRP_1_3_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRPlugin::OVRP_1_3_0*, "", "OVRPlugin/OVRP_1_3_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -27,21 +27,21 @@ namespace GlobalNamespace {
   class OVRPlugin::OVRP_1_3_0 : public ::Il2CppObject {
     public:
     // Get static field: static public readonly System.Version version
-    static System::Version* _get_version();
+    static ::System::Version* _get_version();
     // Set static field: static public readonly System.Version version
-    static void _set_version(System::Version* value);
+    static void _set_version(::System::Version* value);
     // static private System.Void .cctor()
     // Offset: 0x1A742A4
     static void _cctor();
     // static public OVRPlugin/Bool ovrp_GetEyeOcclusionMeshEnabled()
     // Offset: 0x1A7413C
-    static GlobalNamespace::OVRPlugin::Bool ovrp_GetEyeOcclusionMeshEnabled();
+    static ::GlobalNamespace::OVRPlugin::Bool ovrp_GetEyeOcclusionMeshEnabled();
     // static public OVRPlugin/Bool ovrp_SetEyeOcclusionMeshEnabled(OVRPlugin/Bool value)
     // Offset: 0x1A741B0
-    static GlobalNamespace::OVRPlugin::Bool ovrp_SetEyeOcclusionMeshEnabled(GlobalNamespace::OVRPlugin::Bool value);
+    static ::GlobalNamespace::OVRPlugin::Bool ovrp_SetEyeOcclusionMeshEnabled(::GlobalNamespace::OVRPlugin::Bool value);
     // static public OVRPlugin/Bool ovrp_GetSystemHeadphonesPresent()
     // Offset: 0x1A74230
-    static GlobalNamespace::OVRPlugin::Bool ovrp_GetSystemHeadphonesPresent();
+    static ::GlobalNamespace::OVRPlugin::Bool ovrp_GetSystemHeadphonesPresent();
   }; // OVRPlugin/OVRP_1_3_0
   #pragma pack(pop)
 }
@@ -57,7 +57,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_3_0::ovrp_GetEyeOcclusionMeshEnabled
 // Il2CppName: ovrp_GetEyeOcclusionMeshEnabled
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_3_0::ovrp_GetEyeOcclusionMeshEnabled)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Bool (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_3_0::ovrp_GetEyeOcclusionMeshEnabled)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_3_0*), "ovrp_GetEyeOcclusionMeshEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -65,7 +65,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_3_0::ovrp_SetEyeOcclusionMeshEnabled
 // Il2CppName: ovrp_SetEyeOcclusionMeshEnabled
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(GlobalNamespace::OVRPlugin::Bool)>(&GlobalNamespace::OVRPlugin::OVRP_1_3_0::ovrp_SetEyeOcclusionMeshEnabled)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Bool (*)(::GlobalNamespace::OVRPlugin::Bool)>(&GlobalNamespace::OVRPlugin::OVRP_1_3_0::ovrp_SetEyeOcclusionMeshEnabled)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Bool")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_3_0*), "ovrp_SetEyeOcclusionMeshEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -74,7 +74,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_3_0::ovrp_GetSystemHeadphonesPresent
 // Il2CppName: ovrp_GetSystemHeadphonesPresent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_3_0::ovrp_GetSystemHeadphonesPresent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Bool (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_3_0::ovrp_GetSystemHeadphonesPresent)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_3_0*), "ovrp_GetSystemHeadphonesPresent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

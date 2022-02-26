@@ -39,8 +39,8 @@ namespace Valve::VR {
   class CVRRenderModels;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Valve::VR::CVRRenderModels);
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRRenderModels*, "Valve.VR", "CVRRenderModels");
+NEED_NO_BOX(::Valve::VR::CVRRenderModels);
+DEFINE_IL2CPP_ARG_TYPE(::Valve::VR::CVRRenderModels*, "Valve.VR", "CVRRenderModels");
 // Type namespace: Valve.VR
 namespace Valve::VR {
   // Size: 0xA0
@@ -49,9 +49,9 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   class CVRRenderModels : public ::Il2CppObject {
     public:
-    // Nested type: Valve::VR::CVRRenderModels::_GetComponentStatePacked
+    // Nested type: ::Valve::VR::CVRRenderModels::_GetComponentStatePacked
     class _GetComponentStatePacked;
-    // Nested type: Valve::VR::CVRRenderModels::GetComponentStateUnion
+    // Nested type: ::Valve::VR::CVRRenderModels::GetComponentStateUnion
     struct GetComponentStateUnion;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -65,47 +65,47 @@ namespace Valve::VR {
     // private Valve.VR.IVRRenderModels FnTable
     // Size: 0x90
     // Offset: 0x10
-    Valve::VR::IVRRenderModels FnTable;
+    ::Valve::VR::IVRRenderModels FnTable;
     // Field size check
-    static_assert(sizeof(Valve::VR::IVRRenderModels) == 0x90);
+    static_assert(sizeof(::Valve::VR::IVRRenderModels) == 0x90);
     public:
-    // Creating conversion operator: operator Valve::VR::IVRRenderModels
-    constexpr operator Valve::VR::IVRRenderModels() const noexcept {
+    // Creating conversion operator: operator ::Valve::VR::IVRRenderModels
+    constexpr operator ::Valve::VR::IVRRenderModels() const noexcept {
       return FnTable;
     }
     // Get instance field reference: private Valve.VR.IVRRenderModels FnTable
-    Valve::VR::IVRRenderModels& dyn_FnTable();
+    ::Valve::VR::IVRRenderModels& dyn_FnTable();
     // System.Void .ctor(System.IntPtr pInterface)
     // Offset: 0x1AFB96C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CVRRenderModels* New_ctor(System::IntPtr pInterface) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::CVRRenderModels::.ctor");
+    static CVRRenderModels* New_ctor(::System::IntPtr pInterface) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Valve::VR::CVRRenderModels::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRRenderModels*, creationType>(pInterface)));
     }
     // public Valve.VR.EVRRenderModelError LoadRenderModel_Async(System.String pchRenderModelName, ref System.IntPtr ppRenderModel)
     // Offset: 0x1AFBA74
-    Valve::VR::EVRRenderModelError LoadRenderModel_Async(::StringW pchRenderModelName, ByRef<System::IntPtr> ppRenderModel);
+    ::Valve::VR::EVRRenderModelError LoadRenderModel_Async(::StringW pchRenderModelName, ByRef<::System::IntPtr> ppRenderModel);
     // public System.Void FreeRenderModel(System.IntPtr pRenderModel)
     // Offset: 0x1AFBA90
-    void FreeRenderModel(System::IntPtr pRenderModel);
+    void FreeRenderModel(::System::IntPtr pRenderModel);
     // public Valve.VR.EVRRenderModelError LoadTexture_Async(System.Int32 textureId, ref System.IntPtr ppTexture)
     // Offset: 0x1AFBAAC
-    Valve::VR::EVRRenderModelError LoadTexture_Async(int textureId, ByRef<System::IntPtr> ppTexture);
+    ::Valve::VR::EVRRenderModelError LoadTexture_Async(int textureId, ByRef<::System::IntPtr> ppTexture);
     // public System.Void FreeTexture(System.IntPtr pTexture)
     // Offset: 0x1AFBAC8
-    void FreeTexture(System::IntPtr pTexture);
+    void FreeTexture(::System::IntPtr pTexture);
     // public Valve.VR.EVRRenderModelError LoadTextureD3D11_Async(System.Int32 textureId, System.IntPtr pD3D11Device, ref System.IntPtr ppD3D11Texture2D)
     // Offset: 0x1AFBAE4
-    Valve::VR::EVRRenderModelError LoadTextureD3D11_Async(int textureId, System::IntPtr pD3D11Device, ByRef<System::IntPtr> ppD3D11Texture2D);
+    ::Valve::VR::EVRRenderModelError LoadTextureD3D11_Async(int textureId, ::System::IntPtr pD3D11Device, ByRef<::System::IntPtr> ppD3D11Texture2D);
     // public Valve.VR.EVRRenderModelError LoadIntoTextureD3D11_Async(System.Int32 textureId, System.IntPtr pDstTexture)
     // Offset: 0x1AFBB00
-    Valve::VR::EVRRenderModelError LoadIntoTextureD3D11_Async(int textureId, System::IntPtr pDstTexture);
+    ::Valve::VR::EVRRenderModelError LoadIntoTextureD3D11_Async(int textureId, ::System::IntPtr pDstTexture);
     // public System.Void FreeTextureD3D11(System.IntPtr pD3D11Texture2D)
     // Offset: 0x1AFBB1C
-    void FreeTextureD3D11(System::IntPtr pD3D11Texture2D);
+    void FreeTextureD3D11(::System::IntPtr pD3D11Texture2D);
     // public System.UInt32 GetRenderModelName(System.UInt32 unRenderModelIndex, System.Text.StringBuilder pchRenderModelName, System.UInt32 unRenderModelNameLen)
     // Offset: 0x1AFBB38
-    uint GetRenderModelName(uint unRenderModelIndex, System::Text::StringBuilder* pchRenderModelName, uint unRenderModelNameLen);
+    uint GetRenderModelName(uint unRenderModelIndex, ::System::Text::StringBuilder* pchRenderModelName, uint unRenderModelNameLen);
     // public System.UInt32 GetRenderModelCount()
     // Offset: 0x1AFBB54
     uint GetRenderModelCount();
@@ -114,31 +114,31 @@ namespace Valve::VR {
     uint GetComponentCount(::StringW pchRenderModelName);
     // public System.UInt32 GetComponentName(System.String pchRenderModelName, System.UInt32 unComponentIndex, System.Text.StringBuilder pchComponentName, System.UInt32 unComponentNameLen)
     // Offset: 0x1AFBB8C
-    uint GetComponentName(::StringW pchRenderModelName, uint unComponentIndex, System::Text::StringBuilder* pchComponentName, uint unComponentNameLen);
+    uint GetComponentName(::StringW pchRenderModelName, uint unComponentIndex, ::System::Text::StringBuilder* pchComponentName, uint unComponentNameLen);
     // public System.UInt64 GetComponentButtonMask(System.String pchRenderModelName, System.String pchComponentName)
     // Offset: 0x1AFBBA8
     uint64_t GetComponentButtonMask(::StringW pchRenderModelName, ::StringW pchComponentName);
     // public System.UInt32 GetComponentRenderModelName(System.String pchRenderModelName, System.String pchComponentName, System.Text.StringBuilder pchComponentRenderModelName, System.UInt32 unComponentRenderModelNameLen)
     // Offset: 0x1AFBBC4
-    uint GetComponentRenderModelName(::StringW pchRenderModelName, ::StringW pchComponentName, System::Text::StringBuilder* pchComponentRenderModelName, uint unComponentRenderModelNameLen);
+    uint GetComponentRenderModelName(::StringW pchRenderModelName, ::StringW pchComponentName, ::System::Text::StringBuilder* pchComponentRenderModelName, uint unComponentRenderModelNameLen);
     // public System.Boolean GetComponentState(System.String pchRenderModelName, System.String pchComponentName, ref Valve.VR.VRControllerState_t pControllerState, ref Valve.VR.RenderModel_ControllerMode_State_t pState, ref Valve.VR.RenderModel_ComponentState_t pComponentState)
     // Offset: 0x1AFBBE0
-    bool GetComponentState(::StringW pchRenderModelName, ::StringW pchComponentName, ByRef<Valve::VR::VRControllerState_t> pControllerState, ByRef<Valve::VR::RenderModel_ControllerMode_State_t> pState, ByRef<Valve::VR::RenderModel_ComponentState_t> pComponentState);
+    bool GetComponentState(::StringW pchRenderModelName, ::StringW pchComponentName, ByRef<::Valve::VR::VRControllerState_t> pControllerState, ByRef<::Valve::VR::RenderModel_ControllerMode_State_t> pState, ByRef<::Valve::VR::RenderModel_ComponentState_t> pComponentState);
     // public System.Boolean RenderModelHasComponent(System.String pchRenderModelName, System.String pchComponentName)
     // Offset: 0x1AFC16C
     bool RenderModelHasComponent(::StringW pchRenderModelName, ::StringW pchComponentName);
     // public System.UInt32 GetRenderModelThumbnailURL(System.String pchRenderModelName, System.Text.StringBuilder pchThumbnailURL, System.UInt32 unThumbnailURLLen, ref Valve.VR.EVRRenderModelError peError)
     // Offset: 0x1AFC188
-    uint GetRenderModelThumbnailURL(::StringW pchRenderModelName, System::Text::StringBuilder* pchThumbnailURL, uint unThumbnailURLLen, ByRef<Valve::VR::EVRRenderModelError> peError);
+    uint GetRenderModelThumbnailURL(::StringW pchRenderModelName, ::System::Text::StringBuilder* pchThumbnailURL, uint unThumbnailURLLen, ByRef<::Valve::VR::EVRRenderModelError> peError);
     // public System.UInt32 GetRenderModelOriginalPath(System.String pchRenderModelName, System.Text.StringBuilder pchOriginalPath, System.UInt32 unOriginalPathLen, ref Valve.VR.EVRRenderModelError peError)
     // Offset: 0x1AFC1A4
-    uint GetRenderModelOriginalPath(::StringW pchRenderModelName, System::Text::StringBuilder* pchOriginalPath, uint unOriginalPathLen, ByRef<Valve::VR::EVRRenderModelError> peError);
+    uint GetRenderModelOriginalPath(::StringW pchRenderModelName, ::System::Text::StringBuilder* pchOriginalPath, uint unOriginalPathLen, ByRef<::Valve::VR::EVRRenderModelError> peError);
     // public System.String GetRenderModelErrorNameFromEnum(Valve.VR.EVRRenderModelError error)
     // Offset: 0x1AFC1C0
-    ::StringW GetRenderModelErrorNameFromEnum(Valve::VR::EVRRenderModelError error);
+    ::StringW GetRenderModelErrorNameFromEnum(::Valve::VR::EVRRenderModelError error);
   }; // Valve.VR.CVRRenderModels
   #pragma pack(pop)
-  static check_size<sizeof(CVRRenderModels), 16 + sizeof(Valve::VR::IVRRenderModels)> __Valve_VR_CVRRenderModelsSizeCheck;
+  static check_size<sizeof(CVRRenderModels), 16 + sizeof(::Valve::VR::IVRRenderModels)> __Valve_VR_CVRRenderModelsSizeCheck;
   static_assert(sizeof(CVRRenderModels) == 0xA0);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -149,7 +149,7 @@ namespace Valve::VR {
 // Writing MetadataGetter for method: Valve::VR::CVRRenderModels::LoadRenderModel_Async
 // Il2CppName: LoadRenderModel_Async
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRRenderModelError (Valve::VR::CVRRenderModels::*)(::StringW, ByRef<System::IntPtr>)>(&Valve::VR::CVRRenderModels::LoadRenderModel_Async)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVRRenderModelError (Valve::VR::CVRRenderModels::*)(::StringW, ByRef<::System::IntPtr>)>(&Valve::VR::CVRRenderModels::LoadRenderModel_Async)> {
   static const MethodInfo* get() {
     static auto* pchRenderModelName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* ppRenderModel = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->this_arg;
@@ -159,7 +159,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVRRenderModels::FreeRenderModel
 // Il2CppName: FreeRenderModel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRRenderModels::*)(System::IntPtr)>(&Valve::VR::CVRRenderModels::FreeRenderModel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRRenderModels::*)(::System::IntPtr)>(&Valve::VR::CVRRenderModels::FreeRenderModel)> {
   static const MethodInfo* get() {
     static auto* pRenderModel = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRRenderModels*), "FreeRenderModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pRenderModel});
@@ -168,7 +168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve
 // Writing MetadataGetter for method: Valve::VR::CVRRenderModels::LoadTexture_Async
 // Il2CppName: LoadTexture_Async
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRRenderModelError (Valve::VR::CVRRenderModels::*)(int, ByRef<System::IntPtr>)>(&Valve::VR::CVRRenderModels::LoadTexture_Async)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVRRenderModelError (Valve::VR::CVRRenderModels::*)(int, ByRef<::System::IntPtr>)>(&Valve::VR::CVRRenderModels::LoadTexture_Async)> {
   static const MethodInfo* get() {
     static auto* textureId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* ppTexture = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->this_arg;
@@ -178,7 +178,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVRRenderModels::FreeTexture
 // Il2CppName: FreeTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRRenderModels::*)(System::IntPtr)>(&Valve::VR::CVRRenderModels::FreeTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRRenderModels::*)(::System::IntPtr)>(&Valve::VR::CVRRenderModels::FreeTexture)> {
   static const MethodInfo* get() {
     static auto* pTexture = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRRenderModels*), "FreeTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pTexture});
@@ -187,7 +187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve
 // Writing MetadataGetter for method: Valve::VR::CVRRenderModels::LoadTextureD3D11_Async
 // Il2CppName: LoadTextureD3D11_Async
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRRenderModelError (Valve::VR::CVRRenderModels::*)(int, System::IntPtr, ByRef<System::IntPtr>)>(&Valve::VR::CVRRenderModels::LoadTextureD3D11_Async)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVRRenderModelError (Valve::VR::CVRRenderModels::*)(int, ::System::IntPtr, ByRef<::System::IntPtr>)>(&Valve::VR::CVRRenderModels::LoadTextureD3D11_Async)> {
   static const MethodInfo* get() {
     static auto* textureId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* pD3D11Device = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -198,7 +198,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVRRenderModels::LoadIntoTextureD3D11_Async
 // Il2CppName: LoadIntoTextureD3D11_Async
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRRenderModelError (Valve::VR::CVRRenderModels::*)(int, System::IntPtr)>(&Valve::VR::CVRRenderModels::LoadIntoTextureD3D11_Async)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::EVRRenderModelError (Valve::VR::CVRRenderModels::*)(int, ::System::IntPtr)>(&Valve::VR::CVRRenderModels::LoadIntoTextureD3D11_Async)> {
   static const MethodInfo* get() {
     static auto* textureId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* pDstTexture = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -208,7 +208,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVRRenderModels::FreeTextureD3D11
 // Il2CppName: FreeTextureD3D11
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRRenderModels::*)(System::IntPtr)>(&Valve::VR::CVRRenderModels::FreeTextureD3D11)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRRenderModels::*)(::System::IntPtr)>(&Valve::VR::CVRRenderModels::FreeTextureD3D11)> {
   static const MethodInfo* get() {
     static auto* pD3D11Texture2D = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRRenderModels*), "FreeTextureD3D11", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pD3D11Texture2D});
@@ -217,7 +217,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve
 // Writing MetadataGetter for method: Valve::VR::CVRRenderModels::GetRenderModelName
 // Il2CppName: GetRenderModelName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::CVRRenderModels::*)(uint, System::Text::StringBuilder*, uint)>(&Valve::VR::CVRRenderModels::GetRenderModelName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::CVRRenderModels::*)(uint, ::System::Text::StringBuilder*, uint)>(&Valve::VR::CVRRenderModels::GetRenderModelName)> {
   static const MethodInfo* get() {
     static auto* unRenderModelIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* pchRenderModelName = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
@@ -245,7 +245,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve
 // Writing MetadataGetter for method: Valve::VR::CVRRenderModels::GetComponentName
 // Il2CppName: GetComponentName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::CVRRenderModels::*)(::StringW, uint, System::Text::StringBuilder*, uint)>(&Valve::VR::CVRRenderModels::GetComponentName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::CVRRenderModels::*)(::StringW, uint, ::System::Text::StringBuilder*, uint)>(&Valve::VR::CVRRenderModels::GetComponentName)> {
   static const MethodInfo* get() {
     static auto* pchRenderModelName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* unComponentIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -267,7 +267,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (V
 // Writing MetadataGetter for method: Valve::VR::CVRRenderModels::GetComponentRenderModelName
 // Il2CppName: GetComponentRenderModelName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::CVRRenderModels::*)(::StringW, ::StringW, System::Text::StringBuilder*, uint)>(&Valve::VR::CVRRenderModels::GetComponentRenderModelName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::CVRRenderModels::*)(::StringW, ::StringW, ::System::Text::StringBuilder*, uint)>(&Valve::VR::CVRRenderModels::GetComponentRenderModelName)> {
   static const MethodInfo* get() {
     static auto* pchRenderModelName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchComponentName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -279,7 +279,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve
 // Writing MetadataGetter for method: Valve::VR::CVRRenderModels::GetComponentState
 // Il2CppName: GetComponentState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRRenderModels::*)(::StringW, ::StringW, ByRef<Valve::VR::VRControllerState_t>, ByRef<Valve::VR::RenderModel_ControllerMode_State_t>, ByRef<Valve::VR::RenderModel_ComponentState_t>)>(&Valve::VR::CVRRenderModels::GetComponentState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRRenderModels::*)(::StringW, ::StringW, ByRef<::Valve::VR::VRControllerState_t>, ByRef<::Valve::VR::RenderModel_ControllerMode_State_t>, ByRef<::Valve::VR::RenderModel_ComponentState_t>)>(&Valve::VR::CVRRenderModels::GetComponentState)> {
   static const MethodInfo* get() {
     static auto* pchRenderModelName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchComponentName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -302,7 +302,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve
 // Writing MetadataGetter for method: Valve::VR::CVRRenderModels::GetRenderModelThumbnailURL
 // Il2CppName: GetRenderModelThumbnailURL
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::CVRRenderModels::*)(::StringW, System::Text::StringBuilder*, uint, ByRef<Valve::VR::EVRRenderModelError>)>(&Valve::VR::CVRRenderModels::GetRenderModelThumbnailURL)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::CVRRenderModels::*)(::StringW, ::System::Text::StringBuilder*, uint, ByRef<::Valve::VR::EVRRenderModelError>)>(&Valve::VR::CVRRenderModels::GetRenderModelThumbnailURL)> {
   static const MethodInfo* get() {
     static auto* pchRenderModelName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchThumbnailURL = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
@@ -314,7 +314,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve
 // Writing MetadataGetter for method: Valve::VR::CVRRenderModels::GetRenderModelOriginalPath
 // Il2CppName: GetRenderModelOriginalPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::CVRRenderModels::*)(::StringW, System::Text::StringBuilder*, uint, ByRef<Valve::VR::EVRRenderModelError>)>(&Valve::VR::CVRRenderModels::GetRenderModelOriginalPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::CVRRenderModels::*)(::StringW, ::System::Text::StringBuilder*, uint, ByRef<::Valve::VR::EVRRenderModelError>)>(&Valve::VR::CVRRenderModels::GetRenderModelOriginalPath)> {
   static const MethodInfo* get() {
     static auto* pchRenderModelName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchOriginalPath = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
@@ -326,7 +326,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve
 // Writing MetadataGetter for method: Valve::VR::CVRRenderModels::GetRenderModelErrorNameFromEnum
 // Il2CppName: GetRenderModelErrorNameFromEnum
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Valve::VR::CVRRenderModels::*)(Valve::VR::EVRRenderModelError)>(&Valve::VR::CVRRenderModels::GetRenderModelErrorNameFromEnum)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Valve::VR::CVRRenderModels::*)(::Valve::VR::EVRRenderModelError)>(&Valve::VR::CVRRenderModels::GetRenderModelErrorNameFromEnum)> {
   static const MethodInfo* get() {
     static auto* error = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRRenderModelError")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRRenderModels*), "GetRenderModelErrorNameFromEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{error});

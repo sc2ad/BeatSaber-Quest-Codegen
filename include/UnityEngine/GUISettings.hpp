@@ -18,8 +18,8 @@ namespace UnityEngine {
   class GUISettings;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::GUISettings);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUISettings*, "UnityEngine", "GUISettings");
+NEED_NO_BOX(::UnityEngine::GUISettings);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::GUISettings*, "UnityEngine", "GUISettings");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x38
@@ -55,9 +55,9 @@ namespace UnityEngine {
     // private UnityEngine.Color m_CursorColor
     // Size: 0x10
     // Offset: 0x14
-    UnityEngine::Color m_CursorColor;
+    ::UnityEngine::Color m_CursorColor;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     // private System.Single m_CursorFlashSpeed
     // Size: 0x4
     // Offset: 0x24
@@ -67,20 +67,20 @@ namespace UnityEngine {
     // private UnityEngine.Color m_SelectionColor
     // Size: 0x10
     // Offset: 0x28
-    UnityEngine::Color m_SelectionColor;
+    ::UnityEngine::Color m_SelectionColor;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     public:
     // Get instance field reference: private System.Boolean m_DoubleClickSelectsWord
     bool& dyn_m_DoubleClickSelectsWord();
     // Get instance field reference: private System.Boolean m_TripleClickSelectsLine
     bool& dyn_m_TripleClickSelectsLine();
     // Get instance field reference: private UnityEngine.Color m_CursorColor
-    UnityEngine::Color& dyn_m_CursorColor();
+    ::UnityEngine::Color& dyn_m_CursorColor();
     // Get instance field reference: private System.Single m_CursorFlashSpeed
     float& dyn_m_CursorFlashSpeed();
     // Get instance field reference: private UnityEngine.Color m_SelectionColor
-    UnityEngine::Color& dyn_m_SelectionColor();
+    ::UnityEngine::Color& dyn_m_SelectionColor();
     // public System.Boolean get_doubleClickSelectsWord()
     // Offset: 0x1F571F8
     bool get_doubleClickSelectsWord();
@@ -89,13 +89,13 @@ namespace UnityEngine {
     bool get_tripleClickSelectsLine();
     // public UnityEngine.Color get_cursorColor()
     // Offset: 0x1F64238
-    UnityEngine::Color get_cursorColor();
+    ::UnityEngine::Color get_cursorColor();
     // public System.Single get_cursorFlashSpeed()
     // Offset: 0x1F64244
     float get_cursorFlashSpeed();
     // public UnityEngine.Color get_selectionColor()
     // Offset: 0x1F64288
-    UnityEngine::Color get_selectionColor();
+    ::UnityEngine::Color get_selectionColor();
     // static private System.Single Internal_GetCursorFlashSpeed()
     // Offset: 0x1F64204
     static float Internal_GetCursorFlashSpeed();
@@ -105,12 +105,12 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GUISettings* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::GUISettings::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::GUISettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GUISettings*, creationType>()));
     }
   }; // UnityEngine.GUISettings
   #pragma pack(pop)
-  static check_size<sizeof(GUISettings), 40 + sizeof(UnityEngine::Color)> __UnityEngine_GUISettingsSizeCheck;
+  static check_size<sizeof(GUISettings), 40 + sizeof(::UnityEngine::Color)> __UnityEngine_GUISettingsSizeCheck;
   static_assert(sizeof(GUISettings) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -133,7 +133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::GUISettings::get_cursorColor
 // Il2CppName: get_cursorColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (UnityEngine::GUISettings::*)()>(&UnityEngine::GUISettings::get_cursorColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (UnityEngine::GUISettings::*)()>(&UnityEngine::GUISettings::get_cursorColor)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISettings*), "get_cursorColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -149,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Writing MetadataGetter for method: UnityEngine::GUISettings::get_selectionColor
 // Il2CppName: get_selectionColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (UnityEngine::GUISettings::*)()>(&UnityEngine::GUISettings::get_selectionColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (UnityEngine::GUISettings::*)()>(&UnityEngine::GUISettings::get_selectionColor)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISettings*), "get_selectionColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

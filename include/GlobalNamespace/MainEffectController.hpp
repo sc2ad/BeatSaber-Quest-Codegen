@@ -43,8 +43,8 @@ namespace GlobalNamespace {
   class MainEffectController;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MainEffectController);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainEffectController*, "", "MainEffectController");
+NEED_NO_BOX(::GlobalNamespace::MainEffectController);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MainEffectController*, "", "MainEffectController");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x38
@@ -54,7 +54,7 @@ namespace GlobalNamespace {
   // [RequireComponent] Offset: 1232A84
   // [ImageEffectAllowedInSceneView] Offset: FFFFFFFF
   // [ExecuteInEditMode] Offset: FFFFFFFF
-  class MainEffectController : public UnityEngine::MonoBehaviour {
+  class MainEffectController : public ::UnityEngine::MonoBehaviour {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -68,30 +68,30 @@ namespace GlobalNamespace {
     // private MainEffectContainerSO _mainEffectContainer
     // Size: 0x8
     // Offset: 0x18
-    GlobalNamespace::MainEffectContainerSO* mainEffectContainer;
+    ::GlobalNamespace::MainEffectContainerSO* mainEffectContainer;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::MainEffectContainerSO*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::MainEffectContainerSO*) == 0x8);
     // private FloatSO _fadeValue
     // Size: 0x8
     // Offset: 0x20
-    GlobalNamespace::FloatSO* fadeValue;
+    ::GlobalNamespace::FloatSO* fadeValue;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::FloatSO*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::FloatSO*) == 0x8);
     // private System.Action`1<UnityEngine.RenderTexture> afterImageEffectEvent
     // Size: 0x8
     // Offset: 0x28
-    System::Action_1<UnityEngine::RenderTexture*>* afterImageEffectEvent;
+    ::System::Action_1<::UnityEngine::RenderTexture*>* afterImageEffectEvent;
     // Field size check
-    static_assert(sizeof(System::Action_1<UnityEngine::RenderTexture*>*) == 0x8);
+    static_assert(sizeof(::System::Action_1<::UnityEngine::RenderTexture*>*) == 0x8);
     // private ImageEffectController _imageEffectController
     // Size: 0x8
     // Offset: 0x30
-    GlobalNamespace::ImageEffectController* imageEffectController;
+    ::GlobalNamespace::ImageEffectController* imageEffectController;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::ImageEffectController*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::ImageEffectController*) == 0x8);
     public:
-    // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const noexcept = delete;
+    // Deleting conversion operator: operator ::System::IntPtr
+    constexpr operator ::System::IntPtr() const noexcept = delete;
     // static field const value: static private System.String kMainEffectEnabledKeyword
     static constexpr const char* kMainEffectEnabledKeyword = "MAIN_EFFECT_ENABLED";
     // Get static field: static private System.String kMainEffectEnabledKeyword
@@ -99,19 +99,19 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kMainEffectEnabledKeyword
     static void _set_kMainEffectEnabledKeyword(::StringW value);
     // Get instance field reference: private MainEffectContainerSO _mainEffectContainer
-    GlobalNamespace::MainEffectContainerSO*& dyn__mainEffectContainer();
+    ::GlobalNamespace::MainEffectContainerSO*& dyn__mainEffectContainer();
     // Get instance field reference: private FloatSO _fadeValue
-    GlobalNamespace::FloatSO*& dyn__fadeValue();
+    ::GlobalNamespace::FloatSO*& dyn__fadeValue();
     // Get instance field reference: private System.Action`1<UnityEngine.RenderTexture> afterImageEffectEvent
-    System::Action_1<UnityEngine::RenderTexture*>*& dyn_afterImageEffectEvent();
+    ::System::Action_1<::UnityEngine::RenderTexture*>*& dyn_afterImageEffectEvent();
     // Get instance field reference: private ImageEffectController _imageEffectController
-    GlobalNamespace::ImageEffectController*& dyn__imageEffectController();
+    ::GlobalNamespace::ImageEffectController*& dyn__imageEffectController();
     // public System.Void add_afterImageEffectEvent(System.Action`1<UnityEngine.RenderTexture> value)
     // Offset: 0x2E0CB58
-    void add_afterImageEffectEvent(System::Action_1<UnityEngine::RenderTexture*>* value);
+    void add_afterImageEffectEvent(::System::Action_1<::UnityEngine::RenderTexture*>* value);
     // public System.Void remove_afterImageEffectEvent(System.Action`1<UnityEngine.RenderTexture> value)
     // Offset: 0x2E0CBFC
-    void remove_afterImageEffectEvent(System::Action_1<UnityEngine::RenderTexture*>* value);
+    void remove_afterImageEffectEvent(::System::Action_1<::UnityEngine::RenderTexture*>* value);
     // protected System.Void OnEnable()
     // Offset: 0x2E0CCA0
     void OnEnable();
@@ -126,7 +126,7 @@ namespace GlobalNamespace {
     void LazySetupImageEffectController();
     // private System.Void ImageEffectControllerCallback(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
     // Offset: 0x2E0CF24
-    void ImageEffectControllerCallback(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest);
+    void ImageEffectControllerCallback(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
     // protected System.Void OnPreRender()
     // Offset: 0x2E0CFDC
     void OnPreRender();
@@ -143,19 +143,19 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MainEffectController* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MainEffectController::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MainEffectController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MainEffectController*, creationType>()));
     }
   }; // MainEffectController
   #pragma pack(pop)
-  static check_size<sizeof(MainEffectController), 48 + sizeof(GlobalNamespace::ImageEffectController*)> __GlobalNamespace_MainEffectControllerSizeCheck;
+  static check_size<sizeof(MainEffectController), 48 + sizeof(::GlobalNamespace::ImageEffectController*)> __GlobalNamespace_MainEffectControllerSizeCheck;
   static_assert(sizeof(MainEffectController) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MainEffectController::add_afterImageEffectEvent
 // Il2CppName: add_afterImageEffectEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainEffectController::*)(System::Action_1<UnityEngine::RenderTexture*>*)>(&GlobalNamespace::MainEffectController::add_afterImageEffectEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainEffectController::*)(::System::Action_1<::UnityEngine::RenderTexture*>*)>(&GlobalNamespace::MainEffectController::add_afterImageEffectEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainEffectController*), "add_afterImageEffectEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -164,7 +164,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MainEffectController::remove_afterImageEffectEvent
 // Il2CppName: remove_afterImageEffectEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainEffectController::*)(System::Action_1<UnityEngine::RenderTexture*>*)>(&GlobalNamespace::MainEffectController::remove_afterImageEffectEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainEffectController::*)(::System::Action_1<::UnityEngine::RenderTexture*>*)>(&GlobalNamespace::MainEffectController::remove_afterImageEffectEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainEffectController*), "remove_afterImageEffectEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -205,7 +205,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MainEffectController::ImageEffectControllerCallback
 // Il2CppName: ImageEffectControllerCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainEffectController::*)(UnityEngine::RenderTexture*, UnityEngine::RenderTexture*)>(&GlobalNamespace::MainEffectController::ImageEffectControllerCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainEffectController::*)(::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*)>(&GlobalNamespace::MainEffectController::ImageEffectControllerCallback)> {
   static const MethodInfo* get() {
     static auto* src = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
     static auto* dest = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;

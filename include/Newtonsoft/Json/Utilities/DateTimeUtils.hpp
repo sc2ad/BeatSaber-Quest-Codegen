@@ -59,8 +59,8 @@ namespace Newtonsoft::Json::Utilities {
   class DateTimeUtils;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Utilities::DateTimeUtils);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::DateTimeUtils*, "Newtonsoft.Json.Utilities", "DateTimeUtils");
+NEED_NO_BOX(::Newtonsoft::Json::Utilities::DateTimeUtils);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::DateTimeUtils*, "Newtonsoft.Json.Utilities", "DateTimeUtils");
 // Type namespace: Newtonsoft.Json.Utilities
 namespace Newtonsoft::Json::Utilities {
   // Size: 0x10
@@ -89,91 +89,91 @@ namespace Newtonsoft::Json::Utilities {
     static void _cctor();
     // static public System.TimeSpan GetUtcOffset(System.DateTime d)
     // Offset: 0x19DFD34
-    static System::TimeSpan GetUtcOffset(System::DateTime d);
+    static ::System::TimeSpan GetUtcOffset(::System::DateTime d);
     // static public System.Xml.XmlDateTimeSerializationMode ToSerializationMode(System.DateTimeKind kind)
     // Offset: 0x19DFD68
-    static System::Xml::XmlDateTimeSerializationMode ToSerializationMode(System::DateTimeKind kind);
+    static ::System::Xml::XmlDateTimeSerializationMode ToSerializationMode(::System::DateTimeKind kind);
     // static System.DateTime EnsureDateTime(System.DateTime value, Newtonsoft.Json.DateTimeZoneHandling timeZone)
     // Offset: 0x19D48B8
-    static System::DateTime EnsureDateTime(System::DateTime value, Newtonsoft::Json::DateTimeZoneHandling timeZone);
+    static ::System::DateTime EnsureDateTime(::System::DateTime value, ::Newtonsoft::Json::DateTimeZoneHandling timeZone);
     // static private System.DateTime SwitchToLocalTime(System.DateTime value)
     // Offset: 0x19DFE10
-    static System::DateTime SwitchToLocalTime(System::DateTime value);
+    static ::System::DateTime SwitchToLocalTime(::System::DateTime value);
     // static private System.DateTime SwitchToUtcTime(System.DateTime value)
     // Offset: 0x19DFE90
-    static System::DateTime SwitchToUtcTime(System::DateTime value);
+    static ::System::DateTime SwitchToUtcTime(::System::DateTime value);
     // static private System.Int64 ToUniversalTicks(System.DateTime dateTime, System.TimeSpan offset)
     // Offset: 0x19DFF10
-    static int64_t ToUniversalTicks(System::DateTime dateTime, System::TimeSpan offset);
+    static int64_t ToUniversalTicks(::System::DateTime dateTime, ::System::TimeSpan offset);
     // static System.Int64 ConvertDateTimeToJavaScriptTicks(System.DateTime dateTime, System.TimeSpan offset)
     // Offset: 0x19E0030
-    static int64_t ConvertDateTimeToJavaScriptTicks(System::DateTime dateTime, System::TimeSpan offset);
+    static int64_t ConvertDateTimeToJavaScriptTicks(::System::DateTime dateTime, ::System::TimeSpan offset);
     // static private System.Int64 UniversialTicksToJavaScriptTicks(System.Int64 universialTicks)
     // Offset: 0x19E00A8
     static int64_t UniversialTicksToJavaScriptTicks(int64_t universialTicks);
     // static System.DateTime ConvertJavaScriptTicksToDateTime(System.Int64 javaScriptTicks)
     // Offset: 0x19E0134
-    static System::DateTime ConvertJavaScriptTicksToDateTime(int64_t javaScriptTicks);
+    static ::System::DateTime ConvertJavaScriptTicksToDateTime(int64_t javaScriptTicks);
     // static System.Boolean TryParseDateTimeIso(Newtonsoft.Json.Utilities.StringReference text, Newtonsoft.Json.DateTimeZoneHandling dateTimeZoneHandling, out System.DateTime dt)
     // Offset: 0x19E01CC
-    static bool TryParseDateTimeIso(Newtonsoft::Json::Utilities::StringReference text, Newtonsoft::Json::DateTimeZoneHandling dateTimeZoneHandling, ByRef<System::DateTime> dt);
+    static bool TryParseDateTimeIso(::Newtonsoft::Json::Utilities::StringReference text, ::Newtonsoft::Json::DateTimeZoneHandling dateTimeZoneHandling, ByRef<::System::DateTime> dt);
     // static System.Boolean TryParseDateTimeOffsetIso(Newtonsoft.Json.Utilities.StringReference text, out System.DateTimeOffset dt)
     // Offset: 0x19E0624
-    static bool TryParseDateTimeOffsetIso(Newtonsoft::Json::Utilities::StringReference text, ByRef<System::DateTimeOffset> dt);
+    static bool TryParseDateTimeOffsetIso(::Newtonsoft::Json::Utilities::StringReference text, ByRef<::System::DateTimeOffset> dt);
     // static private System.DateTime CreateDateTime(Newtonsoft.Json.Utilities.DateTimeParser dateTimeParser)
     // Offset: 0x19E0598
-    static System::DateTime CreateDateTime(Newtonsoft::Json::Utilities::DateTimeParser dateTimeParser);
+    static ::System::DateTime CreateDateTime(::Newtonsoft::Json::Utilities::DateTimeParser dateTimeParser);
     // static System.Boolean TryParseDateTime(Newtonsoft.Json.Utilities.StringReference s, Newtonsoft.Json.DateTimeZoneHandling dateTimeZoneHandling, System.String dateFormatString, System.Globalization.CultureInfo culture, out System.DateTime dt)
     // Offset: 0x19E07D8
-    static bool TryParseDateTime(Newtonsoft::Json::Utilities::StringReference s, Newtonsoft::Json::DateTimeZoneHandling dateTimeZoneHandling, ::StringW dateFormatString, System::Globalization::CultureInfo* culture, ByRef<System::DateTime> dt);
+    static bool TryParseDateTime(::Newtonsoft::Json::Utilities::StringReference s, ::Newtonsoft::Json::DateTimeZoneHandling dateTimeZoneHandling, ::StringW dateFormatString, ::System::Globalization::CultureInfo* culture, ByRef<::System::DateTime> dt);
     // static System.Boolean TryParseDateTime(System.String s, Newtonsoft.Json.DateTimeZoneHandling dateTimeZoneHandling, System.String dateFormatString, System.Globalization.CultureInfo culture, out System.DateTime dt)
     // Offset: 0x19E0C80
-    static bool TryParseDateTime(::StringW s, Newtonsoft::Json::DateTimeZoneHandling dateTimeZoneHandling, ::StringW dateFormatString, System::Globalization::CultureInfo* culture, ByRef<System::DateTime> dt);
+    static bool TryParseDateTime(::StringW s, ::Newtonsoft::Json::DateTimeZoneHandling dateTimeZoneHandling, ::StringW dateFormatString, ::System::Globalization::CultureInfo* culture, ByRef<::System::DateTime> dt);
     // static System.Boolean TryParseDateTimeOffset(Newtonsoft.Json.Utilities.StringReference s, System.String dateFormatString, System.Globalization.CultureInfo culture, out System.DateTimeOffset dt)
     // Offset: 0x19E0F40
-    static bool TryParseDateTimeOffset(Newtonsoft::Json::Utilities::StringReference s, ::StringW dateFormatString, System::Globalization::CultureInfo* culture, ByRef<System::DateTimeOffset> dt);
+    static bool TryParseDateTimeOffset(::Newtonsoft::Json::Utilities::StringReference s, ::StringW dateFormatString, ::System::Globalization::CultureInfo* culture, ByRef<::System::DateTimeOffset> dt);
     // static System.Boolean TryParseDateTimeOffset(System.String s, System.String dateFormatString, System.Globalization.CultureInfo culture, out System.DateTimeOffset dt)
     // Offset: 0x19E1378
-    static bool TryParseDateTimeOffset(::StringW s, ::StringW dateFormatString, System::Globalization::CultureInfo* culture, ByRef<System::DateTimeOffset> dt);
+    static bool TryParseDateTimeOffset(::StringW s, ::StringW dateFormatString, ::System::Globalization::CultureInfo* culture, ByRef<::System::DateTimeOffset> dt);
     // static private System.Boolean TryParseMicrosoftDate(Newtonsoft.Json.Utilities.StringReference text, out System.Int64 ticks, out System.TimeSpan offset, out System.DateTimeKind kind)
     // Offset: 0x19E164C
-    static bool TryParseMicrosoftDate(Newtonsoft::Json::Utilities::StringReference text, ByRef<int64_t> ticks, ByRef<System::TimeSpan> offset, ByRef<System::DateTimeKind> kind);
+    static bool TryParseMicrosoftDate(::Newtonsoft::Json::Utilities::StringReference text, ByRef<int64_t> ticks, ByRef<::System::TimeSpan> offset, ByRef<::System::DateTimeKind> kind);
     // static private System.Boolean TryParseDateTimeMicrosoft(Newtonsoft.Json.Utilities.StringReference text, Newtonsoft.Json.DateTimeZoneHandling dateTimeZoneHandling, out System.DateTime dt)
     // Offset: 0x19E0A14
-    static bool TryParseDateTimeMicrosoft(Newtonsoft::Json::Utilities::StringReference text, Newtonsoft::Json::DateTimeZoneHandling dateTimeZoneHandling, ByRef<System::DateTime> dt);
+    static bool TryParseDateTimeMicrosoft(::Newtonsoft::Json::Utilities::StringReference text, ::Newtonsoft::Json::DateTimeZoneHandling dateTimeZoneHandling, ByRef<::System::DateTime> dt);
     // static private System.Boolean TryParseDateTimeExact(System.String text, Newtonsoft.Json.DateTimeZoneHandling dateTimeZoneHandling, System.String dateFormatString, System.Globalization.CultureInfo culture, out System.DateTime dt)
     // Offset: 0x19E0B8C
-    static bool TryParseDateTimeExact(::StringW text, Newtonsoft::Json::DateTimeZoneHandling dateTimeZoneHandling, ::StringW dateFormatString, System::Globalization::CultureInfo* culture, ByRef<System::DateTime> dt);
+    static bool TryParseDateTimeExact(::StringW text, ::Newtonsoft::Json::DateTimeZoneHandling dateTimeZoneHandling, ::StringW dateFormatString, ::System::Globalization::CultureInfo* culture, ByRef<::System::DateTime> dt);
     // static private System.Boolean TryParseDateTimeOffsetMicrosoft(Newtonsoft.Json.Utilities.StringReference text, out System.DateTimeOffset dt)
     // Offset: 0x19E1164
-    static bool TryParseDateTimeOffsetMicrosoft(Newtonsoft::Json::Utilities::StringReference text, ByRef<System::DateTimeOffset> dt);
+    static bool TryParseDateTimeOffsetMicrosoft(::Newtonsoft::Json::Utilities::StringReference text, ByRef<::System::DateTimeOffset> dt);
     // static private System.Boolean TryParseDateTimeOffsetExact(System.String text, System.String dateFormatString, System.Globalization.CultureInfo culture, out System.DateTimeOffset dt)
     // Offset: 0x19E12B8
-    static bool TryParseDateTimeOffsetExact(::StringW text, ::StringW dateFormatString, System::Globalization::CultureInfo* culture, ByRef<System::DateTimeOffset> dt);
+    static bool TryParseDateTimeOffsetExact(::StringW text, ::StringW dateFormatString, ::System::Globalization::CultureInfo* culture, ByRef<::System::DateTimeOffset> dt);
     // static private System.Boolean TryReadOffset(Newtonsoft.Json.Utilities.StringReference offsetText, System.Int32 startIndex, out System.TimeSpan offset)
     // Offset: 0x19E17D0
-    static bool TryReadOffset(Newtonsoft::Json::Utilities::StringReference offsetText, int startIndex, ByRef<System::TimeSpan> offset);
+    static bool TryReadOffset(::Newtonsoft::Json::Utilities::StringReference offsetText, int startIndex, ByRef<::System::TimeSpan> offset);
     // static System.Void WriteDateTimeString(System.IO.TextWriter writer, System.DateTime value, Newtonsoft.Json.DateFormatHandling format, System.String formatString, System.Globalization.CultureInfo culture)
     // Offset: 0x19D49EC
-    static void WriteDateTimeString(System::IO::TextWriter* writer, System::DateTime value, Newtonsoft::Json::DateFormatHandling format, ::StringW formatString, System::Globalization::CultureInfo* culture);
+    static void WriteDateTimeString(::System::IO::TextWriter* writer, ::System::DateTime value, ::Newtonsoft::Json::DateFormatHandling format, ::StringW formatString, ::System::Globalization::CultureInfo* culture);
     // static System.Int32 WriteDateTimeString(System.Char[] chars, System.Int32 start, System.DateTime value, System.Nullable`1<System.TimeSpan> offset, System.DateTimeKind kind, Newtonsoft.Json.DateFormatHandling format)
     // Offset: 0x19E195C
-    static int WriteDateTimeString(::ArrayW<::Il2CppChar> chars, int start, System::DateTime value, System::Nullable_1<System::TimeSpan> offset, System::DateTimeKind kind, Newtonsoft::Json::DateFormatHandling format);
+    static int WriteDateTimeString(::ArrayW<::Il2CppChar> chars, int start, ::System::DateTime value, ::System::Nullable_1<::System::TimeSpan> offset, ::System::DateTimeKind kind, ::Newtonsoft::Json::DateFormatHandling format);
     // static System.Int32 WriteDefaultIsoDate(System.Char[] chars, System.Int32 start, System.DateTime dt)
     // Offset: 0x19E1E24
-    static int WriteDefaultIsoDate(::ArrayW<::Il2CppChar> chars, int start, System::DateTime dt);
+    static int WriteDefaultIsoDate(::ArrayW<::Il2CppChar> chars, int start, ::System::DateTime dt);
     // static private System.Void CopyIntToCharArray(System.Char[] chars, System.Int32 start, System.Int32 value, System.Int32 digits)
     // Offset: 0x19E232C
     static void CopyIntToCharArray(::ArrayW<::Il2CppChar> chars, int start, int value, int digits);
     // static System.Int32 WriteDateTimeOffset(System.Char[] chars, System.Int32 start, System.TimeSpan offset, Newtonsoft.Json.DateFormatHandling format)
     // Offset: 0x19E1C88
-    static int WriteDateTimeOffset(::ArrayW<::Il2CppChar> chars, int start, System::TimeSpan offset, Newtonsoft::Json::DateFormatHandling format);
+    static int WriteDateTimeOffset(::ArrayW<::Il2CppChar> chars, int start, ::System::TimeSpan offset, ::Newtonsoft::Json::DateFormatHandling format);
     // static System.Void WriteDateTimeOffsetString(System.IO.TextWriter writer, System.DateTimeOffset value, Newtonsoft.Json.DateFormatHandling format, System.String formatString, System.Globalization.CultureInfo culture)
     // Offset: 0x19D4B30
-    static void WriteDateTimeOffsetString(System::IO::TextWriter* writer, System::DateTimeOffset value, Newtonsoft::Json::DateFormatHandling format, ::StringW formatString, System::Globalization::CultureInfo* culture);
+    static void WriteDateTimeOffsetString(::System::IO::TextWriter* writer, ::System::DateTimeOffset value, ::Newtonsoft::Json::DateFormatHandling format, ::StringW formatString, ::System::Globalization::CultureInfo* culture);
     // static private System.Void GetDateValues(System.DateTime td, out System.Int32 year, out System.Int32 month, out System.Int32 day)
     // Offset: 0x19E20E0
-    static void GetDateValues(System::DateTime td, ByRef<int> year, ByRef<int> month, ByRef<int> day);
+    static void GetDateValues(::System::DateTime td, ByRef<int> year, ByRef<int> month, ByRef<int> day);
   }; // Newtonsoft.Json.Utilities.DateTimeUtils
   #pragma pack(pop)
 }
@@ -189,7 +189,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::DateTimeUtils::GetUtcOffset
 // Il2CppName: GetUtcOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (*)(System::DateTime)>(&Newtonsoft::Json::Utilities::DateTimeUtils::GetUtcOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeSpan (*)(::System::DateTime)>(&Newtonsoft::Json::Utilities::DateTimeUtils::GetUtcOffset)> {
   static const MethodInfo* get() {
     static auto* d = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::DateTimeUtils*), "GetUtcOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{d});
@@ -198,7 +198,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tim
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::DateTimeUtils::ToSerializationMode
 // Il2CppName: ToSerializationMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlDateTimeSerializationMode (*)(System::DateTimeKind)>(&Newtonsoft::Json::Utilities::DateTimeUtils::ToSerializationMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlDateTimeSerializationMode (*)(::System::DateTimeKind)>(&Newtonsoft::Json::Utilities::DateTimeUtils::ToSerializationMode)> {
   static const MethodInfo* get() {
     static auto* kind = &::il2cpp_utils::GetClassFromName("System", "DateTimeKind")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::DateTimeUtils*), "ToSerializationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{kind});
@@ -207,7 +207,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::DateTimeUtils::EnsureDateTime
 // Il2CppName: EnsureDateTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(System::DateTime, Newtonsoft::Json::DateTimeZoneHandling)>(&Newtonsoft::Json::Utilities::DateTimeUtils::EnsureDateTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (*)(::System::DateTime, ::Newtonsoft::Json::DateTimeZoneHandling)>(&Newtonsoft::Json::Utilities::DateTimeUtils::EnsureDateTime)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
     static auto* timeZone = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "DateTimeZoneHandling")->byval_arg;
@@ -217,7 +217,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::DateTimeUtils::SwitchToLocalTime
 // Il2CppName: SwitchToLocalTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(System::DateTime)>(&Newtonsoft::Json::Utilities::DateTimeUtils::SwitchToLocalTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (*)(::System::DateTime)>(&Newtonsoft::Json::Utilities::DateTimeUtils::SwitchToLocalTime)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::DateTimeUtils*), "SwitchToLocalTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -226,7 +226,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::DateTimeUtils::SwitchToUtcTime
 // Il2CppName: SwitchToUtcTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(System::DateTime)>(&Newtonsoft::Json::Utilities::DateTimeUtils::SwitchToUtcTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (*)(::System::DateTime)>(&Newtonsoft::Json::Utilities::DateTimeUtils::SwitchToUtcTime)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::DateTimeUtils*), "SwitchToUtcTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -235,7 +235,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::DateTimeUtils::ToUniversalTicks
 // Il2CppName: ToUniversalTicks
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(System::DateTime, System::TimeSpan)>(&Newtonsoft::Json::Utilities::DateTimeUtils::ToUniversalTicks)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::System::DateTime, ::System::TimeSpan)>(&Newtonsoft::Json::Utilities::DateTimeUtils::ToUniversalTicks)> {
   static const MethodInfo* get() {
     static auto* dateTime = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "TimeSpan")->byval_arg;
@@ -245,7 +245,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::DateTimeUtils::ConvertDateTimeToJavaScriptTicks
 // Il2CppName: ConvertDateTimeToJavaScriptTicks
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(System::DateTime, System::TimeSpan)>(&Newtonsoft::Json::Utilities::DateTimeUtils::ConvertDateTimeToJavaScriptTicks)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::System::DateTime, ::System::TimeSpan)>(&Newtonsoft::Json::Utilities::DateTimeUtils::ConvertDateTimeToJavaScriptTicks)> {
   static const MethodInfo* get() {
     static auto* dateTime = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "TimeSpan")->byval_arg;
@@ -264,7 +264,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::DateTimeUtils::ConvertJavaScriptTicksToDateTime
 // Il2CppName: ConvertJavaScriptTicksToDateTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(int64_t)>(&Newtonsoft::Json::Utilities::DateTimeUtils::ConvertJavaScriptTicksToDateTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (*)(int64_t)>(&Newtonsoft::Json::Utilities::DateTimeUtils::ConvertJavaScriptTicksToDateTime)> {
   static const MethodInfo* get() {
     static auto* javaScriptTicks = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::DateTimeUtils*), "ConvertJavaScriptTicksToDateTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{javaScriptTicks});
@@ -273,7 +273,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::DateTimeUtils::TryParseDateTimeIso
 // Il2CppName: TryParseDateTimeIso
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Newtonsoft::Json::Utilities::StringReference, Newtonsoft::Json::DateTimeZoneHandling, ByRef<System::DateTime>)>(&Newtonsoft::Json::Utilities::DateTimeUtils::TryParseDateTimeIso)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Newtonsoft::Json::Utilities::StringReference, ::Newtonsoft::Json::DateTimeZoneHandling, ByRef<::System::DateTime>)>(&Newtonsoft::Json::Utilities::DateTimeUtils::TryParseDateTimeIso)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Utilities", "StringReference")->byval_arg;
     static auto* dateTimeZoneHandling = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "DateTimeZoneHandling")->byval_arg;
@@ -284,7 +284,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ne
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::DateTimeUtils::TryParseDateTimeOffsetIso
 // Il2CppName: TryParseDateTimeOffsetIso
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Newtonsoft::Json::Utilities::StringReference, ByRef<System::DateTimeOffset>)>(&Newtonsoft::Json::Utilities::DateTimeUtils::TryParseDateTimeOffsetIso)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Newtonsoft::Json::Utilities::StringReference, ByRef<::System::DateTimeOffset>)>(&Newtonsoft::Json::Utilities::DateTimeUtils::TryParseDateTimeOffsetIso)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Utilities", "StringReference")->byval_arg;
     static auto* dt = &::il2cpp_utils::GetClassFromName("System", "DateTimeOffset")->this_arg;
@@ -294,7 +294,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ne
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::DateTimeUtils::CreateDateTime
 // Il2CppName: CreateDateTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(Newtonsoft::Json::Utilities::DateTimeParser)>(&Newtonsoft::Json::Utilities::DateTimeUtils::CreateDateTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (*)(::Newtonsoft::Json::Utilities::DateTimeParser)>(&Newtonsoft::Json::Utilities::DateTimeUtils::CreateDateTime)> {
   static const MethodInfo* get() {
     static auto* dateTimeParser = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Utilities", "DateTimeParser")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::DateTimeUtils*), "CreateDateTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dateTimeParser});
@@ -303,7 +303,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::DateTimeUtils::TryParseDateTime
 // Il2CppName: TryParseDateTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Newtonsoft::Json::Utilities::StringReference, Newtonsoft::Json::DateTimeZoneHandling, ::StringW, System::Globalization::CultureInfo*, ByRef<System::DateTime>)>(&Newtonsoft::Json::Utilities::DateTimeUtils::TryParseDateTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Newtonsoft::Json::Utilities::StringReference, ::Newtonsoft::Json::DateTimeZoneHandling, ::StringW, ::System::Globalization::CultureInfo*, ByRef<::System::DateTime>)>(&Newtonsoft::Json::Utilities::DateTimeUtils::TryParseDateTime)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Utilities", "StringReference")->byval_arg;
     static auto* dateTimeZoneHandling = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "DateTimeZoneHandling")->byval_arg;
@@ -316,7 +316,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ne
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::DateTimeUtils::TryParseDateTime
 // Il2CppName: TryParseDateTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, Newtonsoft::Json::DateTimeZoneHandling, ::StringW, System::Globalization::CultureInfo*, ByRef<System::DateTime>)>(&Newtonsoft::Json::Utilities::DateTimeUtils::TryParseDateTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::Newtonsoft::Json::DateTimeZoneHandling, ::StringW, ::System::Globalization::CultureInfo*, ByRef<::System::DateTime>)>(&Newtonsoft::Json::Utilities::DateTimeUtils::TryParseDateTime)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* dateTimeZoneHandling = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "DateTimeZoneHandling")->byval_arg;
@@ -329,7 +329,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::DateTimeUtils::TryParseDateTimeOffset
 // Il2CppName: TryParseDateTimeOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Newtonsoft::Json::Utilities::StringReference, ::StringW, System::Globalization::CultureInfo*, ByRef<System::DateTimeOffset>)>(&Newtonsoft::Json::Utilities::DateTimeUtils::TryParseDateTimeOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Newtonsoft::Json::Utilities::StringReference, ::StringW, ::System::Globalization::CultureInfo*, ByRef<::System::DateTimeOffset>)>(&Newtonsoft::Json::Utilities::DateTimeUtils::TryParseDateTimeOffset)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Utilities", "StringReference")->byval_arg;
     static auto* dateFormatString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -341,7 +341,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ne
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::DateTimeUtils::TryParseDateTimeOffset
 // Il2CppName: TryParseDateTimeOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW, System::Globalization::CultureInfo*, ByRef<System::DateTimeOffset>)>(&Newtonsoft::Json::Utilities::DateTimeUtils::TryParseDateTimeOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW, ::System::Globalization::CultureInfo*, ByRef<::System::DateTimeOffset>)>(&Newtonsoft::Json::Utilities::DateTimeUtils::TryParseDateTimeOffset)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* dateFormatString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -353,7 +353,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::DateTimeUtils::TryParseMicrosoftDate
 // Il2CppName: TryParseMicrosoftDate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Newtonsoft::Json::Utilities::StringReference, ByRef<int64_t>, ByRef<System::TimeSpan>, ByRef<System::DateTimeKind>)>(&Newtonsoft::Json::Utilities::DateTimeUtils::TryParseMicrosoftDate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Newtonsoft::Json::Utilities::StringReference, ByRef<int64_t>, ByRef<::System::TimeSpan>, ByRef<::System::DateTimeKind>)>(&Newtonsoft::Json::Utilities::DateTimeUtils::TryParseMicrosoftDate)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Utilities", "StringReference")->byval_arg;
     static auto* ticks = &::il2cpp_utils::GetClassFromName("System", "Int64")->this_arg;
@@ -365,7 +365,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ne
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::DateTimeUtils::TryParseDateTimeMicrosoft
 // Il2CppName: TryParseDateTimeMicrosoft
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Newtonsoft::Json::Utilities::StringReference, Newtonsoft::Json::DateTimeZoneHandling, ByRef<System::DateTime>)>(&Newtonsoft::Json::Utilities::DateTimeUtils::TryParseDateTimeMicrosoft)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Newtonsoft::Json::Utilities::StringReference, ::Newtonsoft::Json::DateTimeZoneHandling, ByRef<::System::DateTime>)>(&Newtonsoft::Json::Utilities::DateTimeUtils::TryParseDateTimeMicrosoft)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Utilities", "StringReference")->byval_arg;
     static auto* dateTimeZoneHandling = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "DateTimeZoneHandling")->byval_arg;
@@ -376,7 +376,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ne
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::DateTimeUtils::TryParseDateTimeExact
 // Il2CppName: TryParseDateTimeExact
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, Newtonsoft::Json::DateTimeZoneHandling, ::StringW, System::Globalization::CultureInfo*, ByRef<System::DateTime>)>(&Newtonsoft::Json::Utilities::DateTimeUtils::TryParseDateTimeExact)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::Newtonsoft::Json::DateTimeZoneHandling, ::StringW, ::System::Globalization::CultureInfo*, ByRef<::System::DateTime>)>(&Newtonsoft::Json::Utilities::DateTimeUtils::TryParseDateTimeExact)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* dateTimeZoneHandling = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "DateTimeZoneHandling")->byval_arg;
@@ -389,7 +389,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::DateTimeUtils::TryParseDateTimeOffsetMicrosoft
 // Il2CppName: TryParseDateTimeOffsetMicrosoft
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Newtonsoft::Json::Utilities::StringReference, ByRef<System::DateTimeOffset>)>(&Newtonsoft::Json::Utilities::DateTimeUtils::TryParseDateTimeOffsetMicrosoft)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Newtonsoft::Json::Utilities::StringReference, ByRef<::System::DateTimeOffset>)>(&Newtonsoft::Json::Utilities::DateTimeUtils::TryParseDateTimeOffsetMicrosoft)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Utilities", "StringReference")->byval_arg;
     static auto* dt = &::il2cpp_utils::GetClassFromName("System", "DateTimeOffset")->this_arg;
@@ -399,7 +399,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ne
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::DateTimeUtils::TryParseDateTimeOffsetExact
 // Il2CppName: TryParseDateTimeOffsetExact
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW, System::Globalization::CultureInfo*, ByRef<System::DateTimeOffset>)>(&Newtonsoft::Json::Utilities::DateTimeUtils::TryParseDateTimeOffsetExact)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW, ::System::Globalization::CultureInfo*, ByRef<::System::DateTimeOffset>)>(&Newtonsoft::Json::Utilities::DateTimeUtils::TryParseDateTimeOffsetExact)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* dateFormatString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -411,7 +411,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::DateTimeUtils::TryReadOffset
 // Il2CppName: TryReadOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Newtonsoft::Json::Utilities::StringReference, int, ByRef<System::TimeSpan>)>(&Newtonsoft::Json::Utilities::DateTimeUtils::TryReadOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Newtonsoft::Json::Utilities::StringReference, int, ByRef<::System::TimeSpan>)>(&Newtonsoft::Json::Utilities::DateTimeUtils::TryReadOffset)> {
   static const MethodInfo* get() {
     static auto* offsetText = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Utilities", "StringReference")->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -422,7 +422,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ne
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::DateTimeUtils::WriteDateTimeString
 // Il2CppName: WriteDateTimeString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IO::TextWriter*, System::DateTime, Newtonsoft::Json::DateFormatHandling, ::StringW, System::Globalization::CultureInfo*)>(&Newtonsoft::Json::Utilities::DateTimeUtils::WriteDateTimeString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IO::TextWriter*, ::System::DateTime, ::Newtonsoft::Json::DateFormatHandling, ::StringW, ::System::Globalization::CultureInfo*)>(&Newtonsoft::Json::Utilities::DateTimeUtils::WriteDateTimeString)> {
   static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("System.IO", "TextWriter")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
@@ -435,7 +435,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::DateTimeUtils::WriteDateTimeString
 // Il2CppName: WriteDateTimeString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayW<::Il2CppChar>, int, System::DateTime, System::Nullable_1<System::TimeSpan>, System::DateTimeKind, Newtonsoft::Json::DateFormatHandling)>(&Newtonsoft::Json::Utilities::DateTimeUtils::WriteDateTimeString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayW<::Il2CppChar>, int, ::System::DateTime, ::System::Nullable_1<::System::TimeSpan>, ::System::DateTimeKind, ::Newtonsoft::Json::DateFormatHandling)>(&Newtonsoft::Json::Utilities::DateTimeUtils::WriteDateTimeString)> {
   static const MethodInfo* get() {
     static auto* chars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -449,7 +449,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::A
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::DateTimeUtils::WriteDefaultIsoDate
 // Il2CppName: WriteDefaultIsoDate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayW<::Il2CppChar>, int, System::DateTime)>(&Newtonsoft::Json::Utilities::DateTimeUtils::WriteDefaultIsoDate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayW<::Il2CppChar>, int, ::System::DateTime)>(&Newtonsoft::Json::Utilities::DateTimeUtils::WriteDefaultIsoDate)> {
   static const MethodInfo* get() {
     static auto* chars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -472,7 +472,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::DateTimeUtils::WriteDateTimeOffset
 // Il2CppName: WriteDateTimeOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayW<::Il2CppChar>, int, System::TimeSpan, Newtonsoft::Json::DateFormatHandling)>(&Newtonsoft::Json::Utilities::DateTimeUtils::WriteDateTimeOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayW<::Il2CppChar>, int, ::System::TimeSpan, ::Newtonsoft::Json::DateFormatHandling)>(&Newtonsoft::Json::Utilities::DateTimeUtils::WriteDateTimeOffset)> {
   static const MethodInfo* get() {
     static auto* chars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -484,7 +484,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::A
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::DateTimeUtils::WriteDateTimeOffsetString
 // Il2CppName: WriteDateTimeOffsetString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IO::TextWriter*, System::DateTimeOffset, Newtonsoft::Json::DateFormatHandling, ::StringW, System::Globalization::CultureInfo*)>(&Newtonsoft::Json::Utilities::DateTimeUtils::WriteDateTimeOffsetString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IO::TextWriter*, ::System::DateTimeOffset, ::Newtonsoft::Json::DateFormatHandling, ::StringW, ::System::Globalization::CultureInfo*)>(&Newtonsoft::Json::Utilities::DateTimeUtils::WriteDateTimeOffsetString)> {
   static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("System.IO", "TextWriter")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "DateTimeOffset")->byval_arg;
@@ -497,7 +497,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::DateTimeUtils::GetDateValues
 // Il2CppName: GetDateValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::DateTime, ByRef<int>, ByRef<int>, ByRef<int>)>(&Newtonsoft::Json::Utilities::DateTimeUtils::GetDateValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::DateTime, ByRef<int>, ByRef<int>, ByRef<int>)>(&Newtonsoft::Json::Utilities::DateTimeUtils::GetDateValues)> {
   static const MethodInfo* get() {
     static auto* td = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
     static auto* year = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;

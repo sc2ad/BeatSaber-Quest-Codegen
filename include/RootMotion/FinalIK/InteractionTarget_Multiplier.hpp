@@ -15,8 +15,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::InteractionTarget::Multiplier);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionTarget::Multiplier*, "RootMotion.FinalIK", "InteractionTarget/Multiplier");
+NEED_NO_BOX(::RootMotion::FinalIK::InteractionTarget::Multiplier);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::InteractionTarget::Multiplier*, "RootMotion.FinalIK", "InteractionTarget/Multiplier");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x18
@@ -38,9 +38,9 @@ namespace RootMotion::FinalIK {
     // public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.WeightCurve/RootMotion.FinalIK.Type curve
     // Size: 0x4
     // Offset: 0x10
-    RootMotion::FinalIK::InteractionObject::WeightCurve::Type curve;
+    ::RootMotion::FinalIK::InteractionObject::WeightCurve::Type curve;
     // Field size check
-    static_assert(sizeof(RootMotion::FinalIK::InteractionObject::WeightCurve::Type) == 0x4);
+    static_assert(sizeof(::RootMotion::FinalIK::InteractionObject::WeightCurve::Type) == 0x4);
     // [TooltipAttribute] Offset: 0x12688CC
     // public System.Single multiplier
     // Size: 0x4
@@ -50,7 +50,7 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.WeightCurve/RootMotion.FinalIK.Type curve
-    RootMotion::FinalIK::InteractionObject::WeightCurve::Type& dyn_curve();
+    ::RootMotion::FinalIK::InteractionObject::WeightCurve::Type& dyn_curve();
     // Get instance field reference: public System.Single multiplier
     float& dyn_multiplier();
     // public System.Void .ctor()
@@ -59,7 +59,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InteractionTarget::Multiplier* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::InteractionTarget::Multiplier::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::InteractionTarget::Multiplier::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InteractionTarget::Multiplier*, creationType>()));
     }
   }; // RootMotion.FinalIK.InteractionTarget/RootMotion.FinalIK.Multiplier

@@ -21,8 +21,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::CustomTweenBehaviour::$$c);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomTweenBehaviour::$$c*, "", "CustomTweenBehaviour/<>c");
+NEED_NO_BOX(::GlobalNamespace::CustomTweenBehaviour::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CustomTweenBehaviour::$$c*, "", "CustomTweenBehaviour/<>c");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -33,13 +33,13 @@ namespace GlobalNamespace {
   class CustomTweenBehaviour::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly CustomTweenBehaviour/<>c <>9
-    static GlobalNamespace::CustomTweenBehaviour::$$c* _get_$$9();
+    static ::GlobalNamespace::CustomTweenBehaviour::$$c* _get_$$9();
     // Set static field: static public readonly CustomTweenBehaviour/<>c <>9
-    static void _set_$$9(GlobalNamespace::CustomTweenBehaviour::$$c* value);
+    static void _set_$$9(::GlobalNamespace::CustomTweenBehaviour::$$c* value);
     // Get static field: static public System.Func`2<System.Int32,System.Single> <>9__21_0
-    static System::Func_2<int, float>* _get_$$9__21_0();
+    static ::System::Func_2<int, float>* _get_$$9__21_0();
     // Set static field: static public System.Func`2<System.Int32,System.Single> <>9__21_0
-    static void _set_$$9__21_0(System::Func_2<int, float>* value);
+    static void _set_$$9__21_0(::System::Func_2<int, float>* value);
     // static private System.Void .cctor()
     // Offset: 0x13C822C
     static void _cctor();
@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomTweenBehaviour::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CustomTweenBehaviour::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CustomTweenBehaviour::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CustomTweenBehaviour::$$c*, creationType>()));
     }
   }; // CustomTweenBehaviour/<>c

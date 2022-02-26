@@ -26,8 +26,8 @@ namespace System::Collections::Generic {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Converters::DiscriminatedUnionConverter::Union);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Converters::DiscriminatedUnionConverter::Union*, "Newtonsoft.Json.Converters", "DiscriminatedUnionConverter/Union");
+NEED_NO_BOX(::Newtonsoft::Json::Converters::DiscriminatedUnionConverter::Union);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Converters::DiscriminatedUnionConverter::Union*, "Newtonsoft.Json.Converters", "DiscriminatedUnionConverter/Union");
 // Type namespace: Newtonsoft.Json.Converters
 namespace Newtonsoft::Json::Converters {
   // Size: 0x20
@@ -49,30 +49,30 @@ namespace Newtonsoft::Json::Converters {
     // public readonly Newtonsoft.Json.Utilities.FSharpFunction TagReader
     // Size: 0x8
     // Offset: 0x10
-    Newtonsoft::Json::Utilities::FSharpFunction* TagReader;
+    ::Newtonsoft::Json::Utilities::FSharpFunction* TagReader;
     // Field size check
-    static_assert(sizeof(Newtonsoft::Json::Utilities::FSharpFunction*) == 0x8);
+    static_assert(sizeof(::Newtonsoft::Json::Utilities::FSharpFunction*) == 0x8);
     // public readonly System.Collections.Generic.List`1<Newtonsoft.Json.Converters.DiscriminatedUnionConverter/Newtonsoft.Json.Converters.UnionCase> Cases
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::Generic::List_1<Newtonsoft::Json::Converters::DiscriminatedUnionConverter::UnionCase*>* Cases;
+    ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::DiscriminatedUnionConverter::UnionCase*>* Cases;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<Newtonsoft::Json::Converters::DiscriminatedUnionConverter::UnionCase*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::DiscriminatedUnionConverter::UnionCase*>*) == 0x8);
     public:
     // Get instance field reference: public readonly Newtonsoft.Json.Utilities.FSharpFunction TagReader
-    Newtonsoft::Json::Utilities::FSharpFunction*& dyn_TagReader();
+    ::Newtonsoft::Json::Utilities::FSharpFunction*& dyn_TagReader();
     // Get instance field reference: public readonly System.Collections.Generic.List`1<Newtonsoft.Json.Converters.DiscriminatedUnionConverter/Newtonsoft.Json.Converters.UnionCase> Cases
-    System::Collections::Generic::List_1<Newtonsoft::Json::Converters::DiscriminatedUnionConverter::UnionCase*>*& dyn_Cases();
+    ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::DiscriminatedUnionConverter::UnionCase*>*& dyn_Cases();
     // public System.Void .ctor(Newtonsoft.Json.Utilities.FSharpFunction tagReader, System.Collections.Generic.List`1<Newtonsoft.Json.Converters.DiscriminatedUnionConverter/Newtonsoft.Json.Converters.UnionCase> cases)
     // Offset: 0x181F03C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DiscriminatedUnionConverter::Union* New_ctor(Newtonsoft::Json::Utilities::FSharpFunction* tagReader, System::Collections::Generic::List_1<Newtonsoft::Json::Converters::DiscriminatedUnionConverter::UnionCase*>* cases) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Converters::DiscriminatedUnionConverter::Union::.ctor");
+    static DiscriminatedUnionConverter::Union* New_ctor(::Newtonsoft::Json::Utilities::FSharpFunction* tagReader, ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::DiscriminatedUnionConverter::UnionCase*>* cases) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Converters::DiscriminatedUnionConverter::Union::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DiscriminatedUnionConverter::Union*, creationType>(tagReader, cases)));
     }
   }; // Newtonsoft.Json.Converters.DiscriminatedUnionConverter/Newtonsoft.Json.Converters.Union
   #pragma pack(pop)
-  static check_size<sizeof(DiscriminatedUnionConverter::Union), 24 + sizeof(System::Collections::Generic::List_1<Newtonsoft::Json::Converters::DiscriminatedUnionConverter::UnionCase*>*)> __Newtonsoft_Json_Converters_DiscriminatedUnionConverter_UnionSizeCheck;
+  static check_size<sizeof(DiscriminatedUnionConverter::Union), 24 + sizeof(::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::DiscriminatedUnionConverter::UnionCase*>*)> __Newtonsoft_Json_Converters_DiscriminatedUnionConverter_UnionSizeCheck;
   static_assert(sizeof(DiscriminatedUnionConverter::Union) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

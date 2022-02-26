@@ -50,7 +50,7 @@ namespace System::Data::SqlTypes {
   struct SqlBinary;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Data::SqlTypes::SqlBinary, "System.Data.SqlTypes", "SqlBinary");
+DEFINE_IL2CPP_ARG_TYPE(::System::Data::SqlTypes::SqlBinary, "System.Data.SqlTypes", "SqlBinary");
 // Type namespace: System.Data.SqlTypes
 namespace System::Data::SqlTypes {
   // Size: 0x8
@@ -60,7 +60,7 @@ namespace System::Data::SqlTypes {
   // [TokenAttribute] Offset: FFFFFFFF
   // [XmlSchemaProviderAttribute] Offset: 11D0908
   // [DefaultMemberAttribute] Offset: 11D0908
-  struct SqlBinary/*, public System::ValueType, public System::Xml::Serialization::IXmlSerializable, public System::IComparable, public System::Data::SqlTypes::INullable*/ {
+  struct SqlBinary/*, public ::System::ValueType, public ::System::Xml::Serialization::IXmlSerializable, public ::System::IComparable, public ::System::Data::SqlTypes::INullable*/ {
     public:
     public:
     // private System.Byte[] _value
@@ -72,30 +72,30 @@ namespace System::Data::SqlTypes {
     public:
     // Creating value type constructor for type: SqlBinary
     constexpr SqlBinary(::ArrayW<uint8_t> value_ = ::ArrayW<uint8_t>(static_cast<void*>(nullptr))) noexcept : value{value_} {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
-    // Creating interface conversion operator: operator System::Xml::Serialization::IXmlSerializable
-    operator System::Xml::Serialization::IXmlSerializable() noexcept {
-      return *reinterpret_cast<System::Xml::Serialization::IXmlSerializable*>(this);
+    // Creating interface conversion operator: operator ::System::Xml::Serialization::IXmlSerializable
+    operator ::System::Xml::Serialization::IXmlSerializable() noexcept {
+      return *reinterpret_cast<::System::Xml::Serialization::IXmlSerializable*>(this);
     }
-    // Creating interface conversion operator: operator System::IComparable
-    operator System::IComparable() noexcept {
-      return *reinterpret_cast<System::IComparable*>(this);
+    // Creating interface conversion operator: operator ::System::IComparable
+    operator ::System::IComparable() noexcept {
+      return *reinterpret_cast<::System::IComparable*>(this);
     }
-    // Creating interface conversion operator: operator System::Data::SqlTypes::INullable
-    operator System::Data::SqlTypes::INullable() noexcept {
-      return *reinterpret_cast<System::Data::SqlTypes::INullable*>(this);
+    // Creating interface conversion operator: operator ::System::Data::SqlTypes::INullable
+    operator ::System::Data::SqlTypes::INullable() noexcept {
+      return *reinterpret_cast<::System::Data::SqlTypes::INullable*>(this);
     }
     // Creating conversion operator: operator ::ArrayW<uint8_t>
     constexpr operator ::ArrayW<uint8_t>() const noexcept {
       return value;
     }
     // Get static field: static public readonly System.Data.SqlTypes.SqlBinary Null
-    static System::Data::SqlTypes::SqlBinary _get_Null();
+    static ::System::Data::SqlTypes::SqlBinary _get_Null();
     // Set static field: static public readonly System.Data.SqlTypes.SqlBinary Null
-    static void _set_Null(System::Data::SqlTypes::SqlBinary value);
+    static void _set_Null(::System::Data::SqlTypes::SqlBinary value);
     // Get instance field reference: private System.Byte[] _value
     ::ArrayW<uint8_t>& dyn__value();
     // public System.Boolean get_IsNull()
@@ -115,28 +115,28 @@ namespace System::Data::SqlTypes {
     static void _cctor();
     // static private System.Data.SqlTypes.EComparison PerformCompareByte(System.Byte[] x, System.Byte[] y)
     // Offset: 0x1997038
-    static System::Data::SqlTypes::EComparison PerformCompareByte(::ArrayW<uint8_t> x, ::ArrayW<uint8_t> y);
+    static ::System::Data::SqlTypes::EComparison PerformCompareByte(::ArrayW<uint8_t> x, ::ArrayW<uint8_t> y);
     // public System.Int32 CompareTo(System.Object value)
     // Offset: 0x1997410
     int CompareTo(::Il2CppObject* value);
     // public System.Int32 CompareTo(System.Data.SqlTypes.SqlBinary value)
     // Offset: 0x199751C
-    int CompareTo(System::Data::SqlTypes::SqlBinary value);
+    int CompareTo(::System::Data::SqlTypes::SqlBinary value);
     // static System.Int32 HashByteArray(System.Byte[] rgbValue, System.Int32 length)
     // Offset: 0x19977B8
     static int HashByteArray(::ArrayW<uint8_t> rgbValue, int length);
     // private System.Xml.Schema.XmlSchema System.Xml.Serialization.IXmlSerializable.GetSchema()
     // Offset: 0x19978E4
-    System::Xml::Schema::XmlSchema* System_Xml_Serialization_IXmlSerializable_GetSchema();
+    ::System::Xml::Schema::XmlSchema* System_Xml_Serialization_IXmlSerializable_GetSchema();
     // private System.Void System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader reader)
     // Offset: 0x19978EC
-    void System_Xml_Serialization_IXmlSerializable_ReadXml(System::Xml::XmlReader* reader);
+    void System_Xml_Serialization_IXmlSerializable_ReadXml(::System::Xml::XmlReader* reader);
     // private System.Void System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter writer)
     // Offset: 0x1997AB4
-    void System_Xml_Serialization_IXmlSerializable_WriteXml(System::Xml::XmlWriter* writer);
+    void System_Xml_Serialization_IXmlSerializable_WriteXml(::System::Xml::XmlWriter* writer);
     // static public System.Xml.XmlQualifiedName GetXsdType(System.Xml.Schema.XmlSchemaSet schemaSet)
     // Offset: 0x1997B9C
-    static System::Xml::XmlQualifiedName* GetXsdType(System::Xml::Schema::XmlSchemaSet* schemaSet);
+    static ::System::Xml::XmlQualifiedName* GetXsdType(::System::Xml::Schema::XmlSchemaSet* schemaSet);
     // public override System.String ToString()
     // Offset: 0x1996F48
     // Implemented from: System.ValueType
@@ -158,13 +158,13 @@ namespace System::Data::SqlTypes {
   static_assert(sizeof(SqlBinary) == 0x8);
   // static public System.Data.SqlTypes.SqlBoolean op_Equality(System.Data.SqlTypes.SqlBinary x, System.Data.SqlTypes.SqlBinary y)
   // Offset: 0x1997144
-  System::Data::SqlTypes::SqlBoolean operator ==(const System::Data::SqlTypes::SqlBinary& x, const System::Data::SqlTypes::SqlBinary& y);
+  ::System::Data::SqlTypes::SqlBoolean operator ==(const ::System::Data::SqlTypes::SqlBinary& x, const ::System::Data::SqlTypes::SqlBinary& y);
   // static public System.Data.SqlTypes.SqlBoolean op_LessThan(System.Data.SqlTypes.SqlBinary x, System.Data.SqlTypes.SqlBinary y)
   // Offset: 0x1997240
-  System::Data::SqlTypes::SqlBoolean operator <(const System::Data::SqlTypes::SqlBinary& x, const System::Data::SqlTypes::SqlBinary& y);
+  ::System::Data::SqlTypes::SqlBoolean operator <(const ::System::Data::SqlTypes::SqlBinary& x, const ::System::Data::SqlTypes::SqlBinary& y);
   // static public System.Data.SqlTypes.SqlBoolean op_GreaterThan(System.Data.SqlTypes.SqlBinary x, System.Data.SqlTypes.SqlBinary y)
   // Offset: 0x1997328
-  System::Data::SqlTypes::SqlBoolean operator >(const System::Data::SqlTypes::SqlBinary& x, const System::Data::SqlTypes::SqlBinary& y);
+  ::System::Data::SqlTypes::SqlBoolean operator >(const ::System::Data::SqlTypes::SqlBinary& x, const ::System::Data::SqlTypes::SqlBinary& y);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Data::SqlTypes::SqlBinary::get_IsNull
@@ -202,7 +202,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Data::SqlTypes::SqlBinary::PerformCompareByte
 // Il2CppName: PerformCompareByte
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::SqlTypes::EComparison (*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&System::Data::SqlTypes::SqlBinary::PerformCompareByte)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::EComparison (*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&System::Data::SqlTypes::SqlBinary::PerformCompareByte)> {
   static const MethodInfo* get() {
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* y = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -221,7 +221,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Data::SqlTypes::SqlBinary::CompareTo
 // Il2CppName: CompareTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Data::SqlTypes::SqlBinary::*)(System::Data::SqlTypes::SqlBinary)>(&System::Data::SqlTypes::SqlBinary::CompareTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Data::SqlTypes::SqlBinary::*)(::System::Data::SqlTypes::SqlBinary)>(&System::Data::SqlTypes::SqlBinary::CompareTo)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Data.SqlTypes", "SqlBinary")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::SqlTypes::SqlBinary), "CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -240,7 +240,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::A
 // Writing MetadataGetter for method: System::Data::SqlTypes::SqlBinary::System_Xml_Serialization_IXmlSerializable_GetSchema
 // Il2CppName: System.Xml.Serialization.IXmlSerializable.GetSchema
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Schema::XmlSchema* (System::Data::SqlTypes::SqlBinary::*)()>(&System::Data::SqlTypes::SqlBinary::System_Xml_Serialization_IXmlSerializable_GetSchema)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchema* (System::Data::SqlTypes::SqlBinary::*)()>(&System::Data::SqlTypes::SqlBinary::System_Xml_Serialization_IXmlSerializable_GetSchema)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::SqlTypes::SqlBinary), "System.Xml.Serialization.IXmlSerializable.GetSchema", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -248,7 +248,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Data::SqlTypes::SqlBinary::System_Xml_Serialization_IXmlSerializable_ReadXml
 // Il2CppName: System.Xml.Serialization.IXmlSerializable.ReadXml
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::SqlTypes::SqlBinary::*)(System::Xml::XmlReader*)>(&System::Data::SqlTypes::SqlBinary::System_Xml_Serialization_IXmlSerializable_ReadXml)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::SqlTypes::SqlBinary::*)(::System::Xml::XmlReader*)>(&System::Data::SqlTypes::SqlBinary::System_Xml_Serialization_IXmlSerializable_ReadXml)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlReader")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::SqlTypes::SqlBinary), "System.Xml.Serialization.IXmlSerializable.ReadXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader});
@@ -257,7 +257,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::SqlTypes::SqlBinary::System_Xml_Serialization_IXmlSerializable_WriteXml
 // Il2CppName: System.Xml.Serialization.IXmlSerializable.WriteXml
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::SqlTypes::SqlBinary::*)(System::Xml::XmlWriter*)>(&System::Data::SqlTypes::SqlBinary::System_Xml_Serialization_IXmlSerializable_WriteXml)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::SqlTypes::SqlBinary::*)(::System::Xml::XmlWriter*)>(&System::Data::SqlTypes::SqlBinary::System_Xml_Serialization_IXmlSerializable_WriteXml)> {
   static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlWriter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::SqlTypes::SqlBinary), "System.Xml.Serialization.IXmlSerializable.WriteXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{writer});
@@ -266,7 +266,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::SqlTypes::SqlBinary::GetXsdType
 // Il2CppName: GetXsdType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlQualifiedName* (*)(System::Xml::Schema::XmlSchemaSet*)>(&System::Data::SqlTypes::SqlBinary::GetXsdType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlQualifiedName* (*)(::System::Xml::Schema::XmlSchemaSet*)>(&System::Data::SqlTypes::SqlBinary::GetXsdType)> {
   static const MethodInfo* get() {
     static auto* schemaSet = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaSet")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::SqlTypes::SqlBinary), "GetXsdType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{schemaSet});

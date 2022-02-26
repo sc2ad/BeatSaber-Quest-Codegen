@@ -11,8 +11,8 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   class PreCompInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*, "Org.BouncyCastle.Math.EC.Multiplier", "PreCompInfo");
+NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*, "Org.BouncyCastle.Math.EC.Multiplier", "PreCompInfo");
 // Type namespace: Org.BouncyCastle.Math.EC.Multiplier
 namespace Org::BouncyCastle::Math::EC::Multiplier {
   // Size: 0x10

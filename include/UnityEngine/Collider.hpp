@@ -24,8 +24,8 @@ namespace UnityEngine {
   class Collider;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Collider);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Collider*, "UnityEngine", "Collider");
+NEED_NO_BOX(::UnityEngine::Collider);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Collider*, "UnityEngine", "Collider");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -35,7 +35,7 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: 11B9480
   // [RequireComponent] Offset: 11B9480
   // [RequiredByNativeCodeAttribute] Offset: 11B9480
-  class Collider : public UnityEngine::Component {
+  class Collider : public ::UnityEngine::Component {
     public:
     // public System.Boolean get_enabled()
     // Offset: 0x2A427BC
@@ -45,7 +45,7 @@ namespace UnityEngine {
     void set_enabled(bool value);
     // public UnityEngine.Rigidbody get_attachedRigidbody()
     // Offset: 0x2A4284C
-    UnityEngine::Rigidbody* get_attachedRigidbody();
+    ::UnityEngine::Rigidbody* get_attachedRigidbody();
     // public System.Boolean get_isTrigger()
     // Offset: 0x2A4288C
     bool get_isTrigger();
@@ -54,19 +54,19 @@ namespace UnityEngine {
     void set_isTrigger(bool value);
     // public UnityEngine.Bounds get_bounds()
     // Offset: 0x2A4291C
-    UnityEngine::Bounds get_bounds();
+    ::UnityEngine::Bounds get_bounds();
     // private System.Void Internal_ClosestPointOnBounds(UnityEngine.Vector3 point, ref UnityEngine.Vector3 outPos, ref System.Single distance)
     // Offset: 0x2A429D8
-    void Internal_ClosestPointOnBounds(UnityEngine::Vector3 point, ByRef<UnityEngine::Vector3> outPos, ByRef<float> distance);
+    void Internal_ClosestPointOnBounds(::UnityEngine::Vector3 point, ByRef<::UnityEngine::Vector3> outPos, ByRef<float> distance);
     // public UnityEngine.Vector3 ClosestPointOnBounds(UnityEngine.Vector3 position)
     // Offset: 0x2A42AB0
-    UnityEngine::Vector3 ClosestPointOnBounds(UnityEngine::Vector3 position);
+    ::UnityEngine::Vector3 ClosestPointOnBounds(::UnityEngine::Vector3 position);
     // private System.Void get_bounds_Injected(out UnityEngine.Bounds ret)
     // Offset: 0x2A42988
-    void get_bounds_Injected(ByRef<UnityEngine::Bounds> ret);
+    void get_bounds_Injected(ByRef<::UnityEngine::Bounds> ret);
     // private System.Void Internal_ClosestPointOnBounds_Injected(ref UnityEngine.Vector3 point, ref UnityEngine.Vector3 outPos, ref System.Single distance)
     // Offset: 0x2A42A48
-    void Internal_ClosestPointOnBounds_Injected(ByRef<UnityEngine::Vector3> point, ByRef<UnityEngine::Vector3> outPos, ByRef<float> distance);
+    void Internal_ClosestPointOnBounds_Injected(ByRef<::UnityEngine::Vector3> point, ByRef<::UnityEngine::Vector3> outPos, ByRef<float> distance);
   }; // UnityEngine.Collider
   #pragma pack(pop)
 }
@@ -91,7 +91,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Collider::get_attachedRigidbody
 // Il2CppName: get_attachedRigidbody
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rigidbody* (UnityEngine::Collider::*)()>(&UnityEngine::Collider::get_attachedRigidbody)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rigidbody* (UnityEngine::Collider::*)()>(&UnityEngine::Collider::get_attachedRigidbody)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Collider*), "get_attachedRigidbody", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -116,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Collider::get_bounds
 // Il2CppName: get_bounds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Bounds (UnityEngine::Collider::*)()>(&UnityEngine::Collider::get_bounds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Bounds (UnityEngine::Collider::*)()>(&UnityEngine::Collider::get_bounds)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Collider*), "get_bounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -124,7 +124,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Collider::Internal_ClosestPointOnBounds
 // Il2CppName: Internal_ClosestPointOnBounds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Collider::*)(UnityEngine::Vector3, ByRef<UnityEngine::Vector3>, ByRef<float>)>(&UnityEngine::Collider::Internal_ClosestPointOnBounds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Collider::*)(::UnityEngine::Vector3, ByRef<::UnityEngine::Vector3>, ByRef<float>)>(&UnityEngine::Collider::Internal_ClosestPointOnBounds)> {
   static const MethodInfo* get() {
     static auto* point = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* outPos = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
@@ -135,7 +135,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Collider::ClosestPointOnBounds
 // Il2CppName: ClosestPointOnBounds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Collider::*)(UnityEngine::Vector3)>(&UnityEngine::Collider::ClosestPointOnBounds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (UnityEngine::Collider::*)(::UnityEngine::Vector3)>(&UnityEngine::Collider::ClosestPointOnBounds)> {
   static const MethodInfo* get() {
     static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Collider*), "ClosestPointOnBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position});
@@ -144,7 +144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Collider::get_bounds_Injected
 // Il2CppName: get_bounds_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Collider::*)(ByRef<UnityEngine::Bounds>)>(&UnityEngine::Collider::get_bounds_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Collider::*)(ByRef<::UnityEngine::Bounds>)>(&UnityEngine::Collider::get_bounds_Injected)> {
   static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Bounds")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Collider*), "get_bounds_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
@@ -153,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Collider::Internal_ClosestPointOnBounds_Injected
 // Il2CppName: Internal_ClosestPointOnBounds_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Collider::*)(ByRef<UnityEngine::Vector3>, ByRef<UnityEngine::Vector3>, ByRef<float>)>(&UnityEngine::Collider::Internal_ClosestPointOnBounds_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Collider::*)(ByRef<::UnityEngine::Vector3>, ByRef<::UnityEngine::Vector3>, ByRef<float>)>(&UnityEngine::Collider::Internal_ClosestPointOnBounds_Injected)> {
   static const MethodInfo* get() {
     static auto* point = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     static auto* outPos = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;

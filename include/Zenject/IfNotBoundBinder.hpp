@@ -23,8 +23,8 @@ namespace Zenject {
   class IfNotBoundBinder;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::IfNotBoundBinder);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::IfNotBoundBinder*, "Zenject", "IfNotBoundBinder");
+NEED_NO_BOX(::Zenject::IfNotBoundBinder);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::IfNotBoundBinder*, "Zenject", "IfNotBoundBinder");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x18
@@ -46,27 +46,27 @@ namespace Zenject {
     // private Zenject.BindInfo <BindInfo>k__BackingField
     // Size: 0x8
     // Offset: 0x10
-    Zenject::BindInfo* BindInfo;
+    ::Zenject::BindInfo* BindInfo;
     // Field size check
-    static_assert(sizeof(Zenject::BindInfo*) == 0x8);
+    static_assert(sizeof(::Zenject::BindInfo*) == 0x8);
     public:
-    // Creating conversion operator: operator Zenject::BindInfo*
-    constexpr operator Zenject::BindInfo*() const noexcept {
+    // Creating conversion operator: operator ::Zenject::BindInfo*
+    constexpr operator ::Zenject::BindInfo*() const noexcept {
       return BindInfo;
     }
     // Get instance field reference: private Zenject.BindInfo <BindInfo>k__BackingField
-    Zenject::BindInfo*& dyn_$BindInfo$k__BackingField();
+    ::Zenject::BindInfo*& dyn_$BindInfo$k__BackingField();
     // public Zenject.BindInfo get_BindInfo()
     // Offset: 0x1D3B028
-    Zenject::BindInfo* get_BindInfo();
+    ::Zenject::BindInfo* get_BindInfo();
     // private System.Void set_BindInfo(Zenject.BindInfo value)
     // Offset: 0x1D3B030
-    void set_BindInfo(Zenject::BindInfo* value);
+    void set_BindInfo(::Zenject::BindInfo* value);
     // public System.Void .ctor(Zenject.BindInfo bindInfo)
     // Offset: 0x1D3AFFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static IfNotBoundBinder* New_ctor(Zenject::BindInfo* bindInfo) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IfNotBoundBinder::.ctor");
+    static IfNotBoundBinder* New_ctor(::Zenject::BindInfo* bindInfo) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::IfNotBoundBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IfNotBoundBinder*, creationType>(bindInfo)));
     }
     // public System.Void IfNotBound()
@@ -74,14 +74,14 @@ namespace Zenject {
     void IfNotBound();
   }; // Zenject.IfNotBoundBinder
   #pragma pack(pop)
-  static check_size<sizeof(IfNotBoundBinder), 16 + sizeof(Zenject::BindInfo*)> __Zenject_IfNotBoundBinderSizeCheck;
+  static check_size<sizeof(IfNotBoundBinder), 16 + sizeof(::Zenject::BindInfo*)> __Zenject_IfNotBoundBinderSizeCheck;
   static_assert(sizeof(IfNotBoundBinder) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::IfNotBoundBinder::get_BindInfo
 // Il2CppName: get_BindInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::BindInfo* (Zenject::IfNotBoundBinder::*)()>(&Zenject::IfNotBoundBinder::get_BindInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::BindInfo* (Zenject::IfNotBoundBinder::*)()>(&Zenject::IfNotBoundBinder::get_BindInfo)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::IfNotBoundBinder*), "get_BindInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -89,7 +89,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Bi
 // Writing MetadataGetter for method: Zenject::IfNotBoundBinder::set_BindInfo
 // Il2CppName: set_BindInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::IfNotBoundBinder::*)(Zenject::BindInfo*)>(&Zenject::IfNotBoundBinder::set_BindInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::IfNotBoundBinder::*)(::Zenject::BindInfo*)>(&Zenject::IfNotBoundBinder::set_BindInfo)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("Zenject", "BindInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::IfNotBoundBinder*), "set_BindInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

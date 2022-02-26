@@ -13,8 +13,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::AutomaticSFXVolume::InitData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AutomaticSFXVolume::InitData*, "", "AutomaticSFXVolume/InitData");
+NEED_NO_BOX(::GlobalNamespace::AutomaticSFXVolume::InitData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AutomaticSFXVolume::InitData*, "", "AutomaticSFXVolume/InitData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x19
@@ -61,7 +61,7 @@ namespace GlobalNamespace {
     // Offset: 0x14920E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AutomaticSFXVolume::InitData* New_ctor(float volumeOffset, bool adaptiveSfx, float maxVolume) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AutomaticSFXVolume::InitData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AutomaticSFXVolume::InitData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AutomaticSFXVolume::InitData*, creationType>(volumeOffset, adaptiveSfx, maxVolume)));
     }
   }; // AutomaticSFXVolume/InitData

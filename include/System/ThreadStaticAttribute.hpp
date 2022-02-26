@@ -18,8 +18,8 @@ namespace System {
   class ThreadStaticAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::ThreadStaticAttribute);
-DEFINE_IL2CPP_ARG_TYPE(System::ThreadStaticAttribute*, "System", "ThreadStaticAttribute");
+NEED_NO_BOX(::System::ThreadStaticAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::ThreadStaticAttribute*, "System", "ThreadStaticAttribute");
 // Type namespace: System
 namespace System {
   // Size: 0x10
@@ -28,7 +28,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: 118748C
   // [AttributeUsageAttribute] Offset: 118748C
-  class ThreadStaticAttribute : public System::Attribute {
+  class ThreadStaticAttribute : public ::System::Attribute {
     public:
     // public System.Void .ctor()
     // Offset: 0x1C29338
@@ -37,7 +37,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ThreadStaticAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::ThreadStaticAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::ThreadStaticAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ThreadStaticAttribute*, creationType>()));
     }
   }; // System.ThreadStaticAttribute

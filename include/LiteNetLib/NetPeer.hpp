@@ -77,8 +77,8 @@ namespace LiteNetLib {
   class NetPeer;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(LiteNetLib::NetPeer);
-DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetPeer*, "LiteNetLib", "NetPeer");
+NEED_NO_BOX(::LiteNetLib::NetPeer);
+DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::NetPeer*, "LiteNetLib", "NetPeer");
 // Type namespace: LiteNetLib
 namespace LiteNetLib {
   // Size: 0x148
@@ -87,7 +87,7 @@ namespace LiteNetLib {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetPeer : public ::Il2CppObject {
     public:
-    // Nested type: LiteNetLib::NetPeer::IncomingFragments
+    // Nested type: ::LiteNetLib::NetPeer::IncomingFragments
     class IncomingFragments;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -139,9 +139,9 @@ namespace LiteNetLib {
     // private readonly System.Diagnostics.Stopwatch _pingTimer
     // Size: 0x8
     // Offset: 0x30
-    System::Diagnostics::Stopwatch* pingTimer;
+    ::System::Diagnostics::Stopwatch* pingTimer;
     // Field size check
-    static_assert(sizeof(System::Diagnostics::Stopwatch*) == 0x8);
+    static_assert(sizeof(::System::Diagnostics::Stopwatch*) == 0x8);
     // private System.Int32 _timeSinceLastPacket
     // Size: 0x4
     // Offset: 0x38
@@ -159,9 +159,9 @@ namespace LiteNetLib {
     // private readonly LiteNetLib.NetPacketPool _packetPool
     // Size: 0x8
     // Offset: 0x48
-    LiteNetLib::NetPacketPool* packetPool;
+    ::LiteNetLib::NetPacketPool* packetPool;
     // Field size check
-    static_assert(sizeof(LiteNetLib::NetPacketPool*) == 0x8);
+    static_assert(sizeof(::LiteNetLib::NetPacketPool*) == 0x8);
     // private readonly System.Object _flushLock
     // Size: 0x8
     // Offset: 0x50
@@ -183,33 +183,33 @@ namespace LiteNetLib {
     // LiteNetLib.NetPeer NextPeer
     // Size: 0x8
     // Offset: 0x68
-    LiteNetLib::NetPeer* NextPeer;
+    ::LiteNetLib::NetPeer* NextPeer;
     // Field size check
-    static_assert(sizeof(LiteNetLib::NetPeer*) == 0x8);
+    static_assert(sizeof(::LiteNetLib::NetPeer*) == 0x8);
     // LiteNetLib.NetPeer PrevPeer
     // Size: 0x8
     // Offset: 0x70
-    LiteNetLib::NetPeer* PrevPeer;
+    ::LiteNetLib::NetPeer* PrevPeer;
     // Field size check
-    static_assert(sizeof(LiteNetLib::NetPeer*) == 0x8);
+    static_assert(sizeof(::LiteNetLib::NetPeer*) == 0x8);
     // private readonly System.Collections.Generic.Queue`1<LiteNetLib.NetPacket> _unreliableChannel
     // Size: 0x8
     // Offset: 0x78
-    System::Collections::Generic::Queue_1<LiteNetLib::NetPacket*>* unreliableChannel;
+    ::System::Collections::Generic::Queue_1<::LiteNetLib::NetPacket*>* unreliableChannel;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Queue_1<LiteNetLib::NetPacket*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::Queue_1<::LiteNetLib::NetPacket*>*) == 0x8);
     // private readonly LiteNetLib.BaseChannel[] _channels
     // Size: 0x8
     // Offset: 0x80
-    ::ArrayW<LiteNetLib::BaseChannel*> channels;
+    ::ArrayW<::LiteNetLib::BaseChannel*> channels;
     // Field size check
-    static_assert(sizeof(::ArrayW<LiteNetLib::BaseChannel*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::LiteNetLib::BaseChannel*>) == 0x8);
     // private LiteNetLib.BaseChannel _headChannel
     // Size: 0x8
     // Offset: 0x88
-    LiteNetLib::BaseChannel* headChannel;
+    ::LiteNetLib::BaseChannel* headChannel;
     // Field size check
-    static_assert(sizeof(LiteNetLib::BaseChannel*) == 0x8);
+    static_assert(sizeof(::LiteNetLib::BaseChannel*) == 0x8);
     // private System.Int32 _mtu
     // Size: 0x4
     // Offset: 0x90
@@ -261,21 +261,21 @@ namespace LiteNetLib {
     // private readonly System.Collections.Generic.Dictionary`2<System.UInt16,LiteNetLib.NetPeer/LiteNetLib.IncomingFragments> _holdedFragments
     // Size: 0x8
     // Offset: 0xB8
-    System::Collections::Generic::Dictionary_2<uint16_t, LiteNetLib::NetPeer::IncomingFragments*>* holdedFragments;
+    ::System::Collections::Generic::Dictionary_2<uint16_t, ::LiteNetLib::NetPeer::IncomingFragments*>* holdedFragments;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<uint16_t, LiteNetLib::NetPeer::IncomingFragments*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::Dictionary_2<uint16_t, ::LiteNetLib::NetPeer::IncomingFragments*>*) == 0x8);
     // private readonly System.Collections.Generic.Dictionary`2<System.UInt16,System.UInt16> _deliveredFramgnets
     // Size: 0x8
     // Offset: 0xC0
-    System::Collections::Generic::Dictionary_2<uint16_t, uint16_t>* deliveredFramgnets;
+    ::System::Collections::Generic::Dictionary_2<uint16_t, uint16_t>* deliveredFramgnets;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<uint16_t, uint16_t>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::Dictionary_2<uint16_t, uint16_t>*) == 0x8);
     // private readonly LiteNetLib.NetPacket _mergeData
     // Size: 0x8
     // Offset: 0xC8
-    LiteNetLib::NetPacket* mergeData;
+    ::LiteNetLib::NetPacket* mergeData;
     // Field size check
-    static_assert(sizeof(LiteNetLib::NetPacket*) == 0x8);
+    static_assert(sizeof(::LiteNetLib::NetPacket*) == 0x8);
     // private System.Int32 _mergePos
     // Size: 0x4
     // Offset: 0xD0
@@ -315,17 +315,17 @@ namespace LiteNetLib {
     // private LiteNetLib.ConnectionState _connectionState
     // Size: 0x1
     // Offset: 0xE9
-    LiteNetLib::ConnectionState connectionState;
+    ::LiteNetLib::ConnectionState connectionState;
     // Field size check
-    static_assert(sizeof(LiteNetLib::ConnectionState) == 0x1);
+    static_assert(sizeof(::LiteNetLib::ConnectionState) == 0x1);
     // Padding between fields: connectionState and: shutdownPacket
     char __padding34[0x6] = {};
     // private LiteNetLib.NetPacket _shutdownPacket
     // Size: 0x8
     // Offset: 0xF0
-    LiteNetLib::NetPacket* shutdownPacket;
+    ::LiteNetLib::NetPacket* shutdownPacket;
     // Field size check
-    static_assert(sizeof(LiteNetLib::NetPacket*) == 0x8);
+    static_assert(sizeof(::LiteNetLib::NetPacket*) == 0x8);
     // private System.Int32 _shutdownTimer
     // Size: 0x4
     // Offset: 0xF8
@@ -337,39 +337,39 @@ namespace LiteNetLib {
     // private readonly LiteNetLib.NetPacket _pingPacket
     // Size: 0x8
     // Offset: 0x100
-    LiteNetLib::NetPacket* pingPacket;
+    ::LiteNetLib::NetPacket* pingPacket;
     // Field size check
-    static_assert(sizeof(LiteNetLib::NetPacket*) == 0x8);
+    static_assert(sizeof(::LiteNetLib::NetPacket*) == 0x8);
     // private readonly LiteNetLib.NetPacket _pongPacket
     // Size: 0x8
     // Offset: 0x108
-    LiteNetLib::NetPacket* pongPacket;
+    ::LiteNetLib::NetPacket* pongPacket;
     // Field size check
-    static_assert(sizeof(LiteNetLib::NetPacket*) == 0x8);
+    static_assert(sizeof(::LiteNetLib::NetPacket*) == 0x8);
     // private readonly LiteNetLib.NetPacket _connectRequestPacket
     // Size: 0x8
     // Offset: 0x110
-    LiteNetLib::NetPacket* connectRequestPacket;
+    ::LiteNetLib::NetPacket* connectRequestPacket;
     // Field size check
-    static_assert(sizeof(LiteNetLib::NetPacket*) == 0x8);
+    static_assert(sizeof(::LiteNetLib::NetPacket*) == 0x8);
     // private readonly LiteNetLib.NetPacket _connectAcceptPacket
     // Size: 0x8
     // Offset: 0x118
-    LiteNetLib::NetPacket* connectAcceptPacket;
+    ::LiteNetLib::NetPacket* connectAcceptPacket;
     // Field size check
-    static_assert(sizeof(LiteNetLib::NetPacket*) == 0x8);
+    static_assert(sizeof(::LiteNetLib::NetPacket*) == 0x8);
     // public readonly System.Net.IPEndPoint EndPoint
     // Size: 0x8
     // Offset: 0x120
-    System::Net::IPEndPoint* EndPoint;
+    ::System::Net::IPEndPoint* EndPoint;
     // Field size check
-    static_assert(sizeof(System::Net::IPEndPoint*) == 0x8);
+    static_assert(sizeof(::System::Net::IPEndPoint*) == 0x8);
     // public readonly LiteNetLib.NetManager NetManager
     // Size: 0x8
     // Offset: 0x128
-    LiteNetLib::NetManager* NetManager;
+    ::LiteNetLib::NetManager* NetManager;
     // Field size check
-    static_assert(sizeof(LiteNetLib::NetManager*) == 0x8);
+    static_assert(sizeof(::LiteNetLib::NetManager*) == 0x8);
     // public readonly System.Int32 Id
     // Size: 0x4
     // Offset: 0x130
@@ -387,9 +387,9 @@ namespace LiteNetLib {
     // public readonly LiteNetLib.NetStatistics Statistics
     // Size: 0x8
     // Offset: 0x140
-    LiteNetLib::NetStatistics* Statistics;
+    ::LiteNetLib::NetStatistics* Statistics;
     // Field size check
-    static_assert(sizeof(LiteNetLib::NetStatistics*) == 0x8);
+    static_assert(sizeof(::LiteNetLib::NetStatistics*) == 0x8);
     public:
     // static field const value: static private System.Int32 MtuCheckDelay
     static constexpr const int MtuCheckDelay = 1000;
@@ -422,13 +422,13 @@ namespace LiteNetLib {
     // Get instance field reference: private System.Int32 _rttResetTimer
     int& dyn__rttResetTimer();
     // Get instance field reference: private readonly System.Diagnostics.Stopwatch _pingTimer
-    System::Diagnostics::Stopwatch*& dyn__pingTimer();
+    ::System::Diagnostics::Stopwatch*& dyn__pingTimer();
     // Get instance field reference: private System.Int32 _timeSinceLastPacket
     int& dyn__timeSinceLastPacket();
     // Get instance field reference: private System.Int64 _remoteDelta
     int64_t& dyn__remoteDelta();
     // Get instance field reference: private readonly LiteNetLib.NetPacketPool _packetPool
-    LiteNetLib::NetPacketPool*& dyn__packetPool();
+    ::LiteNetLib::NetPacketPool*& dyn__packetPool();
     // Get instance field reference: private readonly System.Object _flushLock
     ::Il2CppObject*& dyn__flushLock();
     // Get instance field reference: private readonly System.Object _sendLock
@@ -436,15 +436,15 @@ namespace LiteNetLib {
     // Get instance field reference: private readonly System.Object _shutdownLock
     ::Il2CppObject*& dyn__shutdownLock();
     // Get instance field reference: LiteNetLib.NetPeer NextPeer
-    LiteNetLib::NetPeer*& dyn_NextPeer();
+    ::LiteNetLib::NetPeer*& dyn_NextPeer();
     // Get instance field reference: LiteNetLib.NetPeer PrevPeer
-    LiteNetLib::NetPeer*& dyn_PrevPeer();
+    ::LiteNetLib::NetPeer*& dyn_PrevPeer();
     // Get instance field reference: private readonly System.Collections.Generic.Queue`1<LiteNetLib.NetPacket> _unreliableChannel
-    System::Collections::Generic::Queue_1<LiteNetLib::NetPacket*>*& dyn__unreliableChannel();
+    ::System::Collections::Generic::Queue_1<::LiteNetLib::NetPacket*>*& dyn__unreliableChannel();
     // Get instance field reference: private readonly LiteNetLib.BaseChannel[] _channels
-    ::ArrayW<LiteNetLib::BaseChannel*>& dyn__channels();
+    ::ArrayW<::LiteNetLib::BaseChannel*>& dyn__channels();
     // Get instance field reference: private LiteNetLib.BaseChannel _headChannel
-    LiteNetLib::BaseChannel*& dyn__headChannel();
+    ::LiteNetLib::BaseChannel*& dyn__headChannel();
     // Get instance field reference: private System.Int32 _mtu
     int& dyn__mtu();
     // Get instance field reference: private System.Int32 _mtuIdx
@@ -460,11 +460,11 @@ namespace LiteNetLib {
     // Get instance field reference: private System.UInt16 _fragmentId
     uint16_t& dyn__fragmentId();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.UInt16,LiteNetLib.NetPeer/LiteNetLib.IncomingFragments> _holdedFragments
-    System::Collections::Generic::Dictionary_2<uint16_t, LiteNetLib::NetPeer::IncomingFragments*>*& dyn__holdedFragments();
+    ::System::Collections::Generic::Dictionary_2<uint16_t, ::LiteNetLib::NetPeer::IncomingFragments*>*& dyn__holdedFragments();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.UInt16,System.UInt16> _deliveredFramgnets
-    System::Collections::Generic::Dictionary_2<uint16_t, uint16_t>*& dyn__deliveredFramgnets();
+    ::System::Collections::Generic::Dictionary_2<uint16_t, uint16_t>*& dyn__deliveredFramgnets();
     // Get instance field reference: private readonly LiteNetLib.NetPacket _mergeData
-    LiteNetLib::NetPacket*& dyn__mergeData();
+    ::LiteNetLib::NetPacket*& dyn__mergeData();
     // Get instance field reference: private System.Int32 _mergePos
     int& dyn__mergePos();
     // Get instance field reference: private System.Int32 _mergeCount
@@ -478,29 +478,29 @@ namespace LiteNetLib {
     // Get instance field reference: private System.Byte _connectNum
     uint8_t& dyn__connectNum();
     // Get instance field reference: private LiteNetLib.ConnectionState _connectionState
-    LiteNetLib::ConnectionState& dyn__connectionState();
+    ::LiteNetLib::ConnectionState& dyn__connectionState();
     // Get instance field reference: private LiteNetLib.NetPacket _shutdownPacket
-    LiteNetLib::NetPacket*& dyn__shutdownPacket();
+    ::LiteNetLib::NetPacket*& dyn__shutdownPacket();
     // Get instance field reference: private System.Int32 _shutdownTimer
     int& dyn__shutdownTimer();
     // Get instance field reference: private readonly LiteNetLib.NetPacket _pingPacket
-    LiteNetLib::NetPacket*& dyn__pingPacket();
+    ::LiteNetLib::NetPacket*& dyn__pingPacket();
     // Get instance field reference: private readonly LiteNetLib.NetPacket _pongPacket
-    LiteNetLib::NetPacket*& dyn__pongPacket();
+    ::LiteNetLib::NetPacket*& dyn__pongPacket();
     // Get instance field reference: private readonly LiteNetLib.NetPacket _connectRequestPacket
-    LiteNetLib::NetPacket*& dyn__connectRequestPacket();
+    ::LiteNetLib::NetPacket*& dyn__connectRequestPacket();
     // Get instance field reference: private readonly LiteNetLib.NetPacket _connectAcceptPacket
-    LiteNetLib::NetPacket*& dyn__connectAcceptPacket();
+    ::LiteNetLib::NetPacket*& dyn__connectAcceptPacket();
     // Get instance field reference: public readonly System.Net.IPEndPoint EndPoint
-    System::Net::IPEndPoint*& dyn_EndPoint();
+    ::System::Net::IPEndPoint*& dyn_EndPoint();
     // Get instance field reference: public readonly LiteNetLib.NetManager NetManager
-    LiteNetLib::NetManager*& dyn_NetManager();
+    ::LiteNetLib::NetManager*& dyn_NetManager();
     // Get instance field reference: public readonly System.Int32 Id
     int& dyn_Id();
     // Get instance field reference: public System.Object Tag
     ::Il2CppObject*& dyn_Tag();
     // Get instance field reference: public readonly LiteNetLib.NetStatistics Statistics
-    LiteNetLib::NetStatistics*& dyn_Statistics();
+    ::LiteNetLib::NetStatistics*& dyn_Statistics();
     // System.Byte get_ConnectionNum()
     // Offset: 0x20E7254
     uint8_t get_ConnectionNum();
@@ -509,7 +509,7 @@ namespace LiteNetLib {
     void set_ConnectionNum(uint8_t value);
     // public LiteNetLib.ConnectionState get_ConnectionState()
     // Offset: 0x20E72AC
-    LiteNetLib::ConnectionState get_ConnectionState();
+    ::LiteNetLib::ConnectionState get_ConnectionState();
     // System.Int64 get_ConnectTime()
     // Offset: 0x20E72B4
     int64_t get_ConnectTime();
@@ -524,7 +524,7 @@ namespace LiteNetLib {
     int64_t get_RemoteTimeDelta();
     // public System.DateTime get_RemoteUtcTime()
     // Offset: 0x20E72E0
-    System::DateTime get_RemoteUtcTime();
+    ::System::DateTime get_RemoteUtcTime();
     // public System.Int32 get_TimeSinceLastPacket()
     // Offset: 0x20E7380
     int get_TimeSinceLastPacket();
@@ -534,22 +534,22 @@ namespace LiteNetLib {
     // System.Void .ctor(LiteNetLib.NetManager netManager, System.Net.IPEndPoint remoteEndPoint, System.Int32 id)
     // Offset: 0x20E3828
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static NetPeer* New_ctor(LiteNetLib::NetManager* netManager, System::Net::IPEndPoint* remoteEndPoint, int id) {
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::NetPeer::.ctor");
+    static NetPeer* New_ctor(::LiteNetLib::NetManager* netManager, ::System::Net::IPEndPoint* remoteEndPoint, int id) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::NetPeer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetPeer*, creationType>(netManager, remoteEndPoint, id)));
     }
     // System.Void .ctor(LiteNetLib.NetManager netManager, System.Net.IPEndPoint remoteEndPoint, System.Int32 id, System.Byte connectNum, LiteNetLib.Utils.NetDataWriter connectData)
     // Offset: 0x20E6434
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static NetPeer* New_ctor(LiteNetLib::NetManager* netManager, System::Net::IPEndPoint* remoteEndPoint, int id, uint8_t connectNum, LiteNetLib::Utils::NetDataWriter* connectData) {
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::NetPeer::.ctor");
+    static NetPeer* New_ctor(::LiteNetLib::NetManager* netManager, ::System::Net::IPEndPoint* remoteEndPoint, int id, uint8_t connectNum, ::LiteNetLib::Utils::NetDataWriter* connectData) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::NetPeer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetPeer*, creationType>(netManager, remoteEndPoint, id, connectNum, connectData)));
     }
     // System.Void .ctor(LiteNetLib.NetManager netManager, System.Net.IPEndPoint remoteEndPoint, System.Int32 id, System.Int64 connectId, System.Byte connectNum)
     // Offset: 0x20E3AC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static NetPeer* New_ctor(LiteNetLib::NetManager* netManager, System::Net::IPEndPoint* remoteEndPoint, int id, int64_t connectId, uint8_t connectNum) {
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::NetPeer::.ctor");
+    static NetPeer* New_ctor(::LiteNetLib::NetManager* netManager, ::System::Net::IPEndPoint* remoteEndPoint, int id, int64_t connectId, uint8_t connectNum) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::NetPeer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetPeer*, creationType>(netManager, remoteEndPoint, id, connectId, connectNum)));
     }
     // private System.Void SetMtu(System.Int32 mtuIdx)
@@ -560,52 +560,52 @@ namespace LiteNetLib {
     int GetPacketsCountInReliableQueue(uint8_t channelNumber, bool ordered);
     // private LiteNetLib.BaseChannel CreateChannel(System.Byte idx)
     // Offset: 0x20E7514
-    LiteNetLib::BaseChannel* CreateChannel(uint8_t idx);
+    ::LiteNetLib::BaseChannel* CreateChannel(uint8_t idx);
     // System.Void Reject(System.Int64 connectionId, System.Byte connectionNumber, System.Byte[] data, System.Int32 start, System.Int32 length)
     // Offset: 0x20E3AA8
     void Reject(int64_t connectionId, uint8_t connectionNumber, ::ArrayW<uint8_t> data, int start, int length);
     // System.Boolean ProcessConnectAccept(LiteNetLib.NetConnectAcceptPacket packet)
     // Offset: 0x20E4264
-    bool ProcessConnectAccept(LiteNetLib::NetConnectAcceptPacket* packet);
+    bool ProcessConnectAccept(::LiteNetLib::NetConnectAcceptPacket* packet);
     // public System.Int32 GetMaxSinglePacketSize(LiteNetLib.DeliveryMethod options)
     // Offset: 0x20E78C4
-    int GetMaxSinglePacketSize(LiteNetLib::DeliveryMethod options);
+    int GetMaxSinglePacketSize(::LiteNetLib::DeliveryMethod options);
     // public System.Void SendWithDeliveryEvent(System.Byte[] data, System.Byte channelNumber, LiteNetLib.DeliveryMethod deliveryMethod, System.Object userData)
     // Offset: 0x20E7948
-    void SendWithDeliveryEvent(::ArrayW<uint8_t> data, uint8_t channelNumber, LiteNetLib::DeliveryMethod deliveryMethod, ::Il2CppObject* userData);
+    void SendWithDeliveryEvent(::ArrayW<uint8_t> data, uint8_t channelNumber, ::LiteNetLib::DeliveryMethod deliveryMethod, ::Il2CppObject* userData);
     // public System.Void SendWithDeliveryEvent(System.Byte[] data, System.Int32 start, System.Int32 length, System.Byte channelNumber, LiteNetLib.DeliveryMethod deliveryMethod, System.Object userData)
     // Offset: 0x20E7F08
-    void SendWithDeliveryEvent(::ArrayW<uint8_t> data, int start, int length, uint8_t channelNumber, LiteNetLib::DeliveryMethod deliveryMethod, ::Il2CppObject* userData);
+    void SendWithDeliveryEvent(::ArrayW<uint8_t> data, int start, int length, uint8_t channelNumber, ::LiteNetLib::DeliveryMethod deliveryMethod, ::Il2CppObject* userData);
     // public System.Void SendWithDeliveryEvent(LiteNetLib.Utils.NetDataWriter dataWriter, System.Byte channelNumber, LiteNetLib.DeliveryMethod deliveryMethod, System.Object userData)
     // Offset: 0x20E7FE0
-    void SendWithDeliveryEvent(LiteNetLib::Utils::NetDataWriter* dataWriter, uint8_t channelNumber, LiteNetLib::DeliveryMethod deliveryMethod, ::Il2CppObject* userData);
+    void SendWithDeliveryEvent(::LiteNetLib::Utils::NetDataWriter* dataWriter, uint8_t channelNumber, ::LiteNetLib::DeliveryMethod deliveryMethod, ::Il2CppObject* userData);
     // public System.Void Send(System.Byte[] data, LiteNetLib.DeliveryMethod deliveryMethod)
     // Offset: 0x20E80B0
-    void Send(::ArrayW<uint8_t> data, LiteNetLib::DeliveryMethod deliveryMethod);
+    void Send(::ArrayW<uint8_t> data, ::LiteNetLib::DeliveryMethod deliveryMethod);
     // public System.Void Send(LiteNetLib.Utils.NetDataWriter dataWriter, LiteNetLib.DeliveryMethod deliveryMethod)
     // Offset: 0x20E80D8
-    void Send(LiteNetLib::Utils::NetDataWriter* dataWriter, LiteNetLib::DeliveryMethod deliveryMethod);
+    void Send(::LiteNetLib::Utils::NetDataWriter* dataWriter, ::LiteNetLib::DeliveryMethod deliveryMethod);
     // public System.Void Send(System.Byte[] data, System.Int32 start, System.Int32 length, LiteNetLib.DeliveryMethod options)
     // Offset: 0x20E8108
-    void Send(::ArrayW<uint8_t> data, int start, int length, LiteNetLib::DeliveryMethod options);
+    void Send(::ArrayW<uint8_t> data, int start, int length, ::LiteNetLib::DeliveryMethod options);
     // public System.Void Send(System.Byte[] data, System.Byte channelNumber, LiteNetLib.DeliveryMethod deliveryMethod)
     // Offset: 0x20E8118
-    void Send(::ArrayW<uint8_t> data, uint8_t channelNumber, LiteNetLib::DeliveryMethod deliveryMethod);
+    void Send(::ArrayW<uint8_t> data, uint8_t channelNumber, ::LiteNetLib::DeliveryMethod deliveryMethod);
     // public System.Void Send(LiteNetLib.Utils.NetDataWriter dataWriter, System.Byte channelNumber, LiteNetLib.DeliveryMethod deliveryMethod)
     // Offset: 0x20E8140
-    void Send(LiteNetLib::Utils::NetDataWriter* dataWriter, uint8_t channelNumber, LiteNetLib::DeliveryMethod deliveryMethod);
+    void Send(::LiteNetLib::Utils::NetDataWriter* dataWriter, uint8_t channelNumber, ::LiteNetLib::DeliveryMethod deliveryMethod);
     // public System.Void Send(System.Byte[] data, System.Int32 start, System.Int32 length, System.Byte channelNumber, LiteNetLib.DeliveryMethod deliveryMethod)
     // Offset: 0x20E4C54
-    void Send(::ArrayW<uint8_t> data, int start, int length, uint8_t channelNumber, LiteNetLib::DeliveryMethod deliveryMethod);
+    void Send(::ArrayW<uint8_t> data, int start, int length, uint8_t channelNumber, ::LiteNetLib::DeliveryMethod deliveryMethod);
     // private System.Void SendInternal(System.Byte[] data, System.Int32 start, System.Int32 length, System.Byte channelNumber, LiteNetLib.DeliveryMethod deliveryMethod, System.Object userData)
     // Offset: 0x20E7A18
-    void SendInternal(::ArrayW<uint8_t> data, int start, int length, uint8_t channelNumber, LiteNetLib::DeliveryMethod deliveryMethod, ::Il2CppObject* userData);
+    void SendInternal(::ArrayW<uint8_t> data, int start, int length, uint8_t channelNumber, ::LiteNetLib::DeliveryMethod deliveryMethod, ::Il2CppObject* userData);
     // public System.Void Disconnect(System.Byte[] data)
     // Offset: 0x20E8178
     void Disconnect(::ArrayW<uint8_t> data);
     // public System.Void Disconnect(LiteNetLib.Utils.NetDataWriter writer)
     // Offset: 0x20E819C
-    void Disconnect(LiteNetLib::Utils::NetDataWriter* writer);
+    void Disconnect(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Disconnect(System.Byte[] data, System.Int32 start, System.Int32 count)
     // Offset: 0x20E81C0
     void Disconnect(::ArrayW<uint8_t> data, int start, int count);
@@ -614,34 +614,34 @@ namespace LiteNetLib {
     void Disconnect();
     // LiteNetLib.DisconnectResult ProcessDisconnect(LiteNetLib.NetPacket packet)
     // Offset: 0x20E4180
-    LiteNetLib::DisconnectResult ProcessDisconnect(LiteNetLib::NetPacket* packet);
+    ::LiteNetLib::DisconnectResult ProcessDisconnect(::LiteNetLib::NetPacket* packet);
     // LiteNetLib.ShutdownResult Shutdown(System.Byte[] data, System.Int32 start, System.Int32 length, System.Boolean force)
     // Offset: 0x20E1F80
-    LiteNetLib::ShutdownResult Shutdown(::ArrayW<uint8_t> data, int start, int length, bool force);
+    ::LiteNetLib::ShutdownResult Shutdown(::ArrayW<uint8_t> data, int start, int length, bool force);
     // private System.Void UpdateRoundTripTime(System.Int32 roundTripTime)
     // Offset: 0x20E8254
     void UpdateRoundTripTime(int roundTripTime);
     // System.Void AddReliablePacket(LiteNetLib.DeliveryMethod method, LiteNetLib.NetPacket p)
     // Offset: 0x20E8290
-    void AddReliablePacket(LiteNetLib::DeliveryMethod method, LiteNetLib::NetPacket* p);
+    void AddReliablePacket(::LiteNetLib::DeliveryMethod method, ::LiteNetLib::NetPacket* p);
     // private System.Void ProcessMtuPacket(LiteNetLib.NetPacket packet)
     // Offset: 0x20E8690
-    void ProcessMtuPacket(LiteNetLib::NetPacket* packet);
+    void ProcessMtuPacket(::LiteNetLib::NetPacket* packet);
     // private System.Void UpdateMtuLogic(System.Int32 deltaTime)
     // Offset: 0x20E8A4C
     void UpdateMtuLogic(int deltaTime);
     // LiteNetLib.ConnectRequestResult ProcessConnectRequest(LiteNetLib.NetConnectRequestPacket connRequest)
     // Offset: 0x20E3DEC
-    LiteNetLib::ConnectRequestResult ProcessConnectRequest(LiteNetLib::NetConnectRequestPacket* connRequest);
+    ::LiteNetLib::ConnectRequestResult ProcessConnectRequest(::LiteNetLib::NetConnectRequestPacket* connRequest);
     // System.Void ProcessPacket(LiteNetLib.NetPacket packet)
     // Offset: 0x20E42D4
-    void ProcessPacket(LiteNetLib::NetPacket* packet);
+    void ProcessPacket(::LiteNetLib::NetPacket* packet);
     // private System.Void SendMerged()
     // Offset: 0x20E8CA8
     void SendMerged();
     // System.Void SendUserData(LiteNetLib.NetPacket packet)
     // Offset: 0x20E8D4C
-    void SendUserData(LiteNetLib::NetPacket* packet);
+    void SendUserData(::LiteNetLib::NetPacket* packet);
     // public System.Void Flush()
     // Offset: 0x20E5CB8
     void Flush();
@@ -650,10 +650,10 @@ namespace LiteNetLib {
     void Update(int deltaTime);
     // System.Void RecycleAndDeliver(LiteNetLib.NetPacket packet)
     // Offset: 0x20E8E6C
-    void RecycleAndDeliver(LiteNetLib::NetPacket* packet);
+    void RecycleAndDeliver(::LiteNetLib::NetPacket* packet);
   }; // LiteNetLib.NetPeer
   #pragma pack(pop)
-  static check_size<sizeof(NetPeer), 320 + sizeof(LiteNetLib::NetStatistics*)> __LiteNetLib_NetPeerSizeCheck;
+  static check_size<sizeof(NetPeer), 320 + sizeof(::LiteNetLib::NetStatistics*)> __LiteNetLib_NetPeerSizeCheck;
   static_assert(sizeof(NetPeer) == 0x148);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -677,7 +677,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::NetPeer::get_ConnectionState
 // Il2CppName: get_ConnectionState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::ConnectionState (LiteNetLib::NetPeer::*)()>(&LiteNetLib::NetPeer::get_ConnectionState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LiteNetLib::ConnectionState (LiteNetLib::NetPeer::*)()>(&LiteNetLib::NetPeer::get_ConnectionState)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPeer*), "get_ConnectionState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -717,7 +717,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Li
 // Writing MetadataGetter for method: LiteNetLib::NetPeer::get_RemoteUtcTime
 // Il2CppName: get_RemoteUtcTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (LiteNetLib::NetPeer::*)()>(&LiteNetLib::NetPeer::get_RemoteUtcTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (LiteNetLib::NetPeer::*)()>(&LiteNetLib::NetPeer::get_RemoteUtcTime)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPeer*), "get_RemoteUtcTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -772,7 +772,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LiteNe
 // Writing MetadataGetter for method: LiteNetLib::NetPeer::CreateChannel
 // Il2CppName: CreateChannel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::BaseChannel* (LiteNetLib::NetPeer::*)(uint8_t)>(&LiteNetLib::NetPeer::CreateChannel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LiteNetLib::BaseChannel* (LiteNetLib::NetPeer::*)(uint8_t)>(&LiteNetLib::NetPeer::CreateChannel)> {
   static const MethodInfo* get() {
     static auto* idx = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPeer*), "CreateChannel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{idx});
@@ -794,7 +794,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::NetPeer::ProcessConnectAccept
 // Il2CppName: ProcessConnectAccept
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::NetPeer::*)(LiteNetLib::NetConnectAcceptPacket*)>(&LiteNetLib::NetPeer::ProcessConnectAccept)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::NetPeer::*)(::LiteNetLib::NetConnectAcceptPacket*)>(&LiteNetLib::NetPeer::ProcessConnectAccept)> {
   static const MethodInfo* get() {
     static auto* packet = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetConnectAcceptPacket")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPeer*), "ProcessConnectAccept", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet});
@@ -803,7 +803,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteN
 // Writing MetadataGetter for method: LiteNetLib::NetPeer::GetMaxSinglePacketSize
 // Il2CppName: GetMaxSinglePacketSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LiteNetLib::NetPeer::*)(LiteNetLib::DeliveryMethod)>(&LiteNetLib::NetPeer::GetMaxSinglePacketSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LiteNetLib::NetPeer::*)(::LiteNetLib::DeliveryMethod)>(&LiteNetLib::NetPeer::GetMaxSinglePacketSize)> {
   static const MethodInfo* get() {
     static auto* options = &::il2cpp_utils::GetClassFromName("LiteNetLib", "DeliveryMethod")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPeer*), "GetMaxSinglePacketSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{options});
@@ -812,7 +812,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LiteNe
 // Writing MetadataGetter for method: LiteNetLib::NetPeer::SendWithDeliveryEvent
 // Il2CppName: SendWithDeliveryEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPeer::*)(::ArrayW<uint8_t>, uint8_t, LiteNetLib::DeliveryMethod, ::Il2CppObject*)>(&LiteNetLib::NetPeer::SendWithDeliveryEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPeer::*)(::ArrayW<uint8_t>, uint8_t, ::LiteNetLib::DeliveryMethod, ::Il2CppObject*)>(&LiteNetLib::NetPeer::SendWithDeliveryEvent)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* channelNumber = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
@@ -824,7 +824,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::NetPeer::SendWithDeliveryEvent
 // Il2CppName: SendWithDeliveryEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPeer::*)(::ArrayW<uint8_t>, int, int, uint8_t, LiteNetLib::DeliveryMethod, ::Il2CppObject*)>(&LiteNetLib::NetPeer::SendWithDeliveryEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPeer::*)(::ArrayW<uint8_t>, int, int, uint8_t, ::LiteNetLib::DeliveryMethod, ::Il2CppObject*)>(&LiteNetLib::NetPeer::SendWithDeliveryEvent)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -838,7 +838,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::NetPeer::SendWithDeliveryEvent
 // Il2CppName: SendWithDeliveryEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPeer::*)(LiteNetLib::Utils::NetDataWriter*, uint8_t, LiteNetLib::DeliveryMethod, ::Il2CppObject*)>(&LiteNetLib::NetPeer::SendWithDeliveryEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPeer::*)(::LiteNetLib::Utils::NetDataWriter*, uint8_t, ::LiteNetLib::DeliveryMethod, ::Il2CppObject*)>(&LiteNetLib::NetPeer::SendWithDeliveryEvent)> {
   static const MethodInfo* get() {
     static auto* dataWriter = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataWriter")->byval_arg;
     static auto* channelNumber = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
@@ -850,7 +850,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::NetPeer::Send
 // Il2CppName: Send
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPeer::*)(::ArrayW<uint8_t>, LiteNetLib::DeliveryMethod)>(&LiteNetLib::NetPeer::Send)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPeer::*)(::ArrayW<uint8_t>, ::LiteNetLib::DeliveryMethod)>(&LiteNetLib::NetPeer::Send)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* deliveryMethod = &::il2cpp_utils::GetClassFromName("LiteNetLib", "DeliveryMethod")->byval_arg;
@@ -860,7 +860,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::NetPeer::Send
 // Il2CppName: Send
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPeer::*)(LiteNetLib::Utils::NetDataWriter*, LiteNetLib::DeliveryMethod)>(&LiteNetLib::NetPeer::Send)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPeer::*)(::LiteNetLib::Utils::NetDataWriter*, ::LiteNetLib::DeliveryMethod)>(&LiteNetLib::NetPeer::Send)> {
   static const MethodInfo* get() {
     static auto* dataWriter = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataWriter")->byval_arg;
     static auto* deliveryMethod = &::il2cpp_utils::GetClassFromName("LiteNetLib", "DeliveryMethod")->byval_arg;
@@ -870,7 +870,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::NetPeer::Send
 // Il2CppName: Send
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPeer::*)(::ArrayW<uint8_t>, int, int, LiteNetLib::DeliveryMethod)>(&LiteNetLib::NetPeer::Send)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPeer::*)(::ArrayW<uint8_t>, int, int, ::LiteNetLib::DeliveryMethod)>(&LiteNetLib::NetPeer::Send)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -882,7 +882,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::NetPeer::Send
 // Il2CppName: Send
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPeer::*)(::ArrayW<uint8_t>, uint8_t, LiteNetLib::DeliveryMethod)>(&LiteNetLib::NetPeer::Send)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPeer::*)(::ArrayW<uint8_t>, uint8_t, ::LiteNetLib::DeliveryMethod)>(&LiteNetLib::NetPeer::Send)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* channelNumber = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
@@ -893,7 +893,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::NetPeer::Send
 // Il2CppName: Send
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPeer::*)(LiteNetLib::Utils::NetDataWriter*, uint8_t, LiteNetLib::DeliveryMethod)>(&LiteNetLib::NetPeer::Send)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPeer::*)(::LiteNetLib::Utils::NetDataWriter*, uint8_t, ::LiteNetLib::DeliveryMethod)>(&LiteNetLib::NetPeer::Send)> {
   static const MethodInfo* get() {
     static auto* dataWriter = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataWriter")->byval_arg;
     static auto* channelNumber = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
@@ -904,7 +904,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::NetPeer::Send
 // Il2CppName: Send
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPeer::*)(::ArrayW<uint8_t>, int, int, uint8_t, LiteNetLib::DeliveryMethod)>(&LiteNetLib::NetPeer::Send)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPeer::*)(::ArrayW<uint8_t>, int, int, uint8_t, ::LiteNetLib::DeliveryMethod)>(&LiteNetLib::NetPeer::Send)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -917,7 +917,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::NetPeer::SendInternal
 // Il2CppName: SendInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPeer::*)(::ArrayW<uint8_t>, int, int, uint8_t, LiteNetLib::DeliveryMethod, ::Il2CppObject*)>(&LiteNetLib::NetPeer::SendInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPeer::*)(::ArrayW<uint8_t>, int, int, uint8_t, ::LiteNetLib::DeliveryMethod, ::Il2CppObject*)>(&LiteNetLib::NetPeer::SendInternal)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -940,7 +940,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::NetPeer::Disconnect
 // Il2CppName: Disconnect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPeer::*)(LiteNetLib::Utils::NetDataWriter*)>(&LiteNetLib::NetPeer::Disconnect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPeer::*)(::LiteNetLib::Utils::NetDataWriter*)>(&LiteNetLib::NetPeer::Disconnect)> {
   static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataWriter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPeer*), "Disconnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{writer});
@@ -968,7 +968,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::NetPeer::ProcessDisconnect
 // Il2CppName: ProcessDisconnect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::DisconnectResult (LiteNetLib::NetPeer::*)(LiteNetLib::NetPacket*)>(&LiteNetLib::NetPeer::ProcessDisconnect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LiteNetLib::DisconnectResult (LiteNetLib::NetPeer::*)(::LiteNetLib::NetPacket*)>(&LiteNetLib::NetPeer::ProcessDisconnect)> {
   static const MethodInfo* get() {
     static auto* packet = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetPacket")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPeer*), "ProcessDisconnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet});
@@ -977,7 +977,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib:
 // Writing MetadataGetter for method: LiteNetLib::NetPeer::Shutdown
 // Il2CppName: Shutdown
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::ShutdownResult (LiteNetLib::NetPeer::*)(::ArrayW<uint8_t>, int, int, bool)>(&LiteNetLib::NetPeer::Shutdown)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LiteNetLib::ShutdownResult (LiteNetLib::NetPeer::*)(::ArrayW<uint8_t>, int, int, bool)>(&LiteNetLib::NetPeer::Shutdown)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -998,7 +998,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::NetPeer::AddReliablePacket
 // Il2CppName: AddReliablePacket
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPeer::*)(LiteNetLib::DeliveryMethod, LiteNetLib::NetPacket*)>(&LiteNetLib::NetPeer::AddReliablePacket)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPeer::*)(::LiteNetLib::DeliveryMethod, ::LiteNetLib::NetPacket*)>(&LiteNetLib::NetPeer::AddReliablePacket)> {
   static const MethodInfo* get() {
     static auto* method = &::il2cpp_utils::GetClassFromName("LiteNetLib", "DeliveryMethod")->byval_arg;
     static auto* p = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetPacket")->byval_arg;
@@ -1008,7 +1008,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::NetPeer::ProcessMtuPacket
 // Il2CppName: ProcessMtuPacket
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPeer::*)(LiteNetLib::NetPacket*)>(&LiteNetLib::NetPeer::ProcessMtuPacket)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPeer::*)(::LiteNetLib::NetPacket*)>(&LiteNetLib::NetPeer::ProcessMtuPacket)> {
   static const MethodInfo* get() {
     static auto* packet = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetPacket")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPeer*), "ProcessMtuPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet});
@@ -1026,7 +1026,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::NetPeer::ProcessConnectRequest
 // Il2CppName: ProcessConnectRequest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::ConnectRequestResult (LiteNetLib::NetPeer::*)(LiteNetLib::NetConnectRequestPacket*)>(&LiteNetLib::NetPeer::ProcessConnectRequest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LiteNetLib::ConnectRequestResult (LiteNetLib::NetPeer::*)(::LiteNetLib::NetConnectRequestPacket*)>(&LiteNetLib::NetPeer::ProcessConnectRequest)> {
   static const MethodInfo* get() {
     static auto* connRequest = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetConnectRequestPacket")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPeer*), "ProcessConnectRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{connRequest});
@@ -1035,7 +1035,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib:
 // Writing MetadataGetter for method: LiteNetLib::NetPeer::ProcessPacket
 // Il2CppName: ProcessPacket
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPeer::*)(LiteNetLib::NetPacket*)>(&LiteNetLib::NetPeer::ProcessPacket)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPeer::*)(::LiteNetLib::NetPacket*)>(&LiteNetLib::NetPeer::ProcessPacket)> {
   static const MethodInfo* get() {
     static auto* packet = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetPacket")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPeer*), "ProcessPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet});
@@ -1052,7 +1052,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::NetPeer::SendUserData
 // Il2CppName: SendUserData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPeer::*)(LiteNetLib::NetPacket*)>(&LiteNetLib::NetPeer::SendUserData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPeer::*)(::LiteNetLib::NetPacket*)>(&LiteNetLib::NetPeer::SendUserData)> {
   static const MethodInfo* get() {
     static auto* packet = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetPacket")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPeer*), "SendUserData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet});
@@ -1078,7 +1078,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::NetPeer::RecycleAndDeliver
 // Il2CppName: RecycleAndDeliver
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPeer::*)(LiteNetLib::NetPacket*)>(&LiteNetLib::NetPeer::RecycleAndDeliver)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPeer::*)(::LiteNetLib::NetPacket*)>(&LiteNetLib::NetPeer::RecycleAndDeliver)> {
   static const MethodInfo* get() {
     static auto* packet = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetPacket")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPeer*), "RecycleAndDeliver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet});

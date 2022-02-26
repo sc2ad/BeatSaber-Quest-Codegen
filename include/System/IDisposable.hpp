@@ -11,8 +11,8 @@ namespace System {
   class IDisposable;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::IDisposable);
-DEFINE_IL2CPP_ARG_TYPE(System::IDisposable*, "System", "IDisposable");
+NEED_NO_BOX(::System::IDisposable);
+DEFINE_IL2CPP_ARG_TYPE(::System::IDisposable*, "System", "IDisposable");
 // Type namespace: System
 namespace System {
   // Size: 0x10

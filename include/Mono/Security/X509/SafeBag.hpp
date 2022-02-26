@@ -24,8 +24,8 @@ namespace Mono::Security::X509 {
   class SafeBag;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Security::X509::SafeBag);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::SafeBag*, "Mono.Security.X509", "SafeBag");
+NEED_NO_BOX(::Mono::Security::X509::SafeBag);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::X509::SafeBag*, "Mono.Security.X509", "SafeBag");
 // Type namespace: Mono.Security.X509
 namespace Mono::Security::X509 {
   // Size: 0x20
@@ -52,30 +52,30 @@ namespace Mono::Security::X509 {
     // private Mono.Security.ASN1 _asn1
     // Size: 0x8
     // Offset: 0x18
-    Mono::Security::ASN1* asn1;
+    ::Mono::Security::ASN1* asn1;
     // Field size check
-    static_assert(sizeof(Mono::Security::ASN1*) == 0x8);
+    static_assert(sizeof(::Mono::Security::ASN1*) == 0x8);
     public:
     // Get instance field reference: private System.String _bagOID
     ::StringW& dyn__bagOID();
     // Get instance field reference: private Mono.Security.ASN1 _asn1
-    Mono::Security::ASN1*& dyn__asn1();
+    ::Mono::Security::ASN1*& dyn__asn1();
     // public System.String get_BagOID()
     // Offset: 0x2A1B7B8
     ::StringW get_BagOID();
     // public Mono.Security.ASN1 get_ASN1()
     // Offset: 0x2A1B7C0
-    Mono::Security::ASN1* get_ASN1();
+    ::Mono::Security::ASN1* get_ASN1();
     // public System.Void .ctor(System.String bagOID, Mono.Security.ASN1 asn1)
     // Offset: 0x2A1B780
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SafeBag* New_ctor(::StringW bagOID, Mono::Security::ASN1* asn1) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::X509::SafeBag::.ctor");
+    static SafeBag* New_ctor(::StringW bagOID, ::Mono::Security::ASN1* asn1) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::X509::SafeBag::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SafeBag*, creationType>(bagOID, asn1)));
     }
   }; // Mono.Security.X509.SafeBag
   #pragma pack(pop)
-  static check_size<sizeof(SafeBag), 24 + sizeof(Mono::Security::ASN1*)> __Mono_Security_X509_SafeBagSizeCheck;
+  static check_size<sizeof(SafeBag), 24 + sizeof(::Mono::Security::ASN1*)> __Mono_Security_X509_SafeBagSizeCheck;
   static_assert(sizeof(SafeBag) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -90,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: Mono::Security::X509::SafeBag::get_ASN1
 // Il2CppName: get_ASN1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::ASN1* (Mono::Security::X509::SafeBag::*)()>(&Mono::Security::X509::SafeBag::get_ASN1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::ASN1* (Mono::Security::X509::SafeBag::*)()>(&Mono::Security::X509::SafeBag::get_ASN1)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::SafeBag*), "get_ASN1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

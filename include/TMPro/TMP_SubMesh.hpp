@@ -42,8 +42,8 @@ namespace TMPro {
   class TMP_SubMesh;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(TMPro::TMP_SubMesh);
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SubMesh*, "TMPro", "TMP_SubMesh");
+NEED_NO_BOX(::TMPro::TMP_SubMesh);
+DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_SubMesh*, "TMPro", "TMP_SubMesh");
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0x71
@@ -53,7 +53,7 @@ namespace TMPro {
   // [RequireComponent] Offset: 11EF1E0
   // [RequireComponent] Offset: 11EF1E0
   // [ExecuteAlways] Offset: FFFFFFFF
-  class TMP_SubMesh : public UnityEngine::MonoBehaviour {
+  class TMP_SubMesh : public ::UnityEngine::MonoBehaviour {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -67,39 +67,39 @@ namespace TMPro {
     // private TMPro.TMP_FontAsset m_fontAsset
     // Size: 0x8
     // Offset: 0x18
-    TMPro::TMP_FontAsset* m_fontAsset;
+    ::TMPro::TMP_FontAsset* m_fontAsset;
     // Field size check
-    static_assert(sizeof(TMPro::TMP_FontAsset*) == 0x8);
+    static_assert(sizeof(::TMPro::TMP_FontAsset*) == 0x8);
     // private TMPro.TMP_SpriteAsset m_spriteAsset
     // Size: 0x8
     // Offset: 0x20
-    TMPro::TMP_SpriteAsset* m_spriteAsset;
+    ::TMPro::TMP_SpriteAsset* m_spriteAsset;
     // Field size check
-    static_assert(sizeof(TMPro::TMP_SpriteAsset*) == 0x8);
+    static_assert(sizeof(::TMPro::TMP_SpriteAsset*) == 0x8);
     // private UnityEngine.Material m_material
     // Size: 0x8
     // Offset: 0x28
-    UnityEngine::Material* m_material;
+    ::UnityEngine::Material* m_material;
     // Field size check
-    static_assert(sizeof(UnityEngine::Material*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Material*) == 0x8);
     // private UnityEngine.Material m_sharedMaterial
     // Size: 0x8
     // Offset: 0x30
-    UnityEngine::Material* m_sharedMaterial;
+    ::UnityEngine::Material* m_sharedMaterial;
     // Field size check
-    static_assert(sizeof(UnityEngine::Material*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Material*) == 0x8);
     // private UnityEngine.Material m_fallbackMaterial
     // Size: 0x8
     // Offset: 0x38
-    UnityEngine::Material* m_fallbackMaterial;
+    ::UnityEngine::Material* m_fallbackMaterial;
     // Field size check
-    static_assert(sizeof(UnityEngine::Material*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Material*) == 0x8);
     // private UnityEngine.Material m_fallbackSourceMaterial
     // Size: 0x8
     // Offset: 0x40
-    UnityEngine::Material* m_fallbackSourceMaterial;
+    ::UnityEngine::Material* m_fallbackSourceMaterial;
     // Field size check
-    static_assert(sizeof(UnityEngine::Material*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Material*) == 0x8);
     // private System.Boolean m_isDefaultMaterial
     // Size: 0x1
     // Offset: 0x48
@@ -117,27 +117,27 @@ namespace TMPro {
     // private UnityEngine.Renderer m_renderer
     // Size: 0x8
     // Offset: 0x50
-    UnityEngine::Renderer* m_renderer;
+    ::UnityEngine::Renderer* m_renderer;
     // Field size check
-    static_assert(sizeof(UnityEngine::Renderer*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Renderer*) == 0x8);
     // private UnityEngine.MeshFilter m_meshFilter
     // Size: 0x8
     // Offset: 0x58
-    UnityEngine::MeshFilter* m_meshFilter;
+    ::UnityEngine::MeshFilter* m_meshFilter;
     // Field size check
-    static_assert(sizeof(UnityEngine::MeshFilter*) == 0x8);
+    static_assert(sizeof(::UnityEngine::MeshFilter*) == 0x8);
     // private UnityEngine.Mesh m_mesh
     // Size: 0x8
     // Offset: 0x60
-    UnityEngine::Mesh* m_mesh;
+    ::UnityEngine::Mesh* m_mesh;
     // Field size check
-    static_assert(sizeof(UnityEngine::Mesh*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Mesh*) == 0x8);
     // private TMPro.TextMeshPro m_TextComponent
     // Size: 0x8
     // Offset: 0x68
-    TMPro::TextMeshPro* m_TextComponent;
+    ::TMPro::TextMeshPro* m_TextComponent;
     // Field size check
-    static_assert(sizeof(TMPro::TextMeshPro*) == 0x8);
+    static_assert(sizeof(::TMPro::TextMeshPro*) == 0x8);
     // private System.Boolean m_isRegisteredForEvents
     // Size: 0x1
     // Offset: 0x70
@@ -145,70 +145,70 @@ namespace TMPro {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     public:
-    // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const noexcept = delete;
+    // Deleting conversion operator: operator ::System::IntPtr
+    constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TMP_FontAsset m_fontAsset
-    TMPro::TMP_FontAsset*& dyn_m_fontAsset();
+    ::TMPro::TMP_FontAsset*& dyn_m_fontAsset();
     // Get instance field reference: private TMPro.TMP_SpriteAsset m_spriteAsset
-    TMPro::TMP_SpriteAsset*& dyn_m_spriteAsset();
+    ::TMPro::TMP_SpriteAsset*& dyn_m_spriteAsset();
     // Get instance field reference: private UnityEngine.Material m_material
-    UnityEngine::Material*& dyn_m_material();
+    ::UnityEngine::Material*& dyn_m_material();
     // Get instance field reference: private UnityEngine.Material m_sharedMaterial
-    UnityEngine::Material*& dyn_m_sharedMaterial();
+    ::UnityEngine::Material*& dyn_m_sharedMaterial();
     // Get instance field reference: private UnityEngine.Material m_fallbackMaterial
-    UnityEngine::Material*& dyn_m_fallbackMaterial();
+    ::UnityEngine::Material*& dyn_m_fallbackMaterial();
     // Get instance field reference: private UnityEngine.Material m_fallbackSourceMaterial
-    UnityEngine::Material*& dyn_m_fallbackSourceMaterial();
+    ::UnityEngine::Material*& dyn_m_fallbackSourceMaterial();
     // Get instance field reference: private System.Boolean m_isDefaultMaterial
     bool& dyn_m_isDefaultMaterial();
     // Get instance field reference: private System.Single m_padding
     float& dyn_m_padding();
     // Get instance field reference: private UnityEngine.Renderer m_renderer
-    UnityEngine::Renderer*& dyn_m_renderer();
+    ::UnityEngine::Renderer*& dyn_m_renderer();
     // Get instance field reference: private UnityEngine.MeshFilter m_meshFilter
-    UnityEngine::MeshFilter*& dyn_m_meshFilter();
+    ::UnityEngine::MeshFilter*& dyn_m_meshFilter();
     // Get instance field reference: private UnityEngine.Mesh m_mesh
-    UnityEngine::Mesh*& dyn_m_mesh();
+    ::UnityEngine::Mesh*& dyn_m_mesh();
     // Get instance field reference: private TMPro.TextMeshPro m_TextComponent
-    TMPro::TextMeshPro*& dyn_m_TextComponent();
+    ::TMPro::TextMeshPro*& dyn_m_TextComponent();
     // Get instance field reference: private System.Boolean m_isRegisteredForEvents
     bool& dyn_m_isRegisteredForEvents();
     // public TMPro.TMP_FontAsset get_fontAsset()
     // Offset: 0x1457FB4
-    TMPro::TMP_FontAsset* get_fontAsset();
+    ::TMPro::TMP_FontAsset* get_fontAsset();
     // public System.Void set_fontAsset(TMPro.TMP_FontAsset value)
     // Offset: 0x1457FBC
-    void set_fontAsset(TMPro::TMP_FontAsset* value);
+    void set_fontAsset(::TMPro::TMP_FontAsset* value);
     // public TMPro.TMP_SpriteAsset get_spriteAsset()
     // Offset: 0x1457FC4
-    TMPro::TMP_SpriteAsset* get_spriteAsset();
+    ::TMPro::TMP_SpriteAsset* get_spriteAsset();
     // public System.Void set_spriteAsset(TMPro.TMP_SpriteAsset value)
     // Offset: 0x1457FCC
-    void set_spriteAsset(TMPro::TMP_SpriteAsset* value);
+    void set_spriteAsset(::TMPro::TMP_SpriteAsset* value);
     // public UnityEngine.Material get_material()
     // Offset: 0x1457FD4
-    UnityEngine::Material* get_material();
+    ::UnityEngine::Material* get_material();
     // public System.Void set_material(UnityEngine.Material value)
     // Offset: 0x1458110
-    void set_material(UnityEngine::Material* value);
+    void set_material(::UnityEngine::Material* value);
     // public UnityEngine.Material get_sharedMaterial()
     // Offset: 0x1458308
-    UnityEngine::Material* get_sharedMaterial();
+    ::UnityEngine::Material* get_sharedMaterial();
     // public System.Void set_sharedMaterial(UnityEngine.Material value)
     // Offset: 0x1458310
-    void set_sharedMaterial(UnityEngine::Material* value);
+    void set_sharedMaterial(::UnityEngine::Material* value);
     // public UnityEngine.Material get_fallbackMaterial()
     // Offset: 0x1458368
-    UnityEngine::Material* get_fallbackMaterial();
+    ::UnityEngine::Material* get_fallbackMaterial();
     // public System.Void set_fallbackMaterial(UnityEngine.Material value)
     // Offset: 0x1458370
-    void set_fallbackMaterial(UnityEngine::Material* value);
+    void set_fallbackMaterial(::UnityEngine::Material* value);
     // public UnityEngine.Material get_fallbackSourceMaterial()
     // Offset: 0x14584D4
-    UnityEngine::Material* get_fallbackSourceMaterial();
+    ::UnityEngine::Material* get_fallbackSourceMaterial();
     // public System.Void set_fallbackSourceMaterial(UnityEngine.Material value)
     // Offset: 0x14584DC
-    void set_fallbackSourceMaterial(UnityEngine::Material* value);
+    void set_fallbackSourceMaterial(::UnityEngine::Material* value);
     // public System.Boolean get_isDefaultMaterial()
     // Offset: 0x14584E4
     bool get_isDefaultMaterial();
@@ -223,16 +223,16 @@ namespace TMPro {
     void set_padding(float value);
     // public UnityEngine.Renderer get_renderer()
     // Offset: 0x1458508
-    UnityEngine::Renderer* get_renderer();
+    ::UnityEngine::Renderer* get_renderer();
     // public UnityEngine.MeshFilter get_meshFilter()
     // Offset: 0x14585A0
-    UnityEngine::MeshFilter* get_meshFilter();
+    ::UnityEngine::MeshFilter* get_meshFilter();
     // public UnityEngine.Mesh get_mesh()
     // Offset: 0x1458638
-    UnityEngine::Mesh* get_mesh();
+    ::UnityEngine::Mesh* get_mesh();
     // public System.Void set_mesh(UnityEngine.Mesh value)
     // Offset: 0x1458704
-    void set_mesh(UnityEngine::Mesh* value);
+    void set_mesh(::UnityEngine::Mesh* value);
     // private System.Void OnEnable()
     // Offset: 0x145870C
     void OnEnable();
@@ -244,22 +244,22 @@ namespace TMPro {
     void OnDestroy();
     // static public TMPro.TMP_SubMesh AddSubTextObject(TMPro.TextMeshPro textComponent, TMPro.MaterialReference materialReference)
     // Offset: 0x1458A08
-    static TMPro::TMP_SubMesh* AddSubTextObject(TMPro::TextMeshPro* textComponent, TMPro::MaterialReference materialReference);
+    static ::TMPro::TMP_SubMesh* AddSubTextObject(::TMPro::TextMeshPro* textComponent, ::TMPro::MaterialReference materialReference);
     // public System.Void DestroySelf()
     // Offset: 0x1458D68
     void DestroySelf();
     // private UnityEngine.Material GetMaterial(UnityEngine.Material mat)
     // Offset: 0x1457FDC
-    UnityEngine::Material* GetMaterial(UnityEngine::Material* mat);
+    ::UnityEngine::Material* GetMaterial(::UnityEngine::Material* mat);
     // private UnityEngine.Material CreateMaterialInstance(UnityEngine.Material source)
     // Offset: 0x1458DE8
-    UnityEngine::Material* CreateMaterialInstance(UnityEngine::Material* source);
+    ::UnityEngine::Material* CreateMaterialInstance(::UnityEngine::Material* source);
     // private UnityEngine.Material GetSharedMaterial()
     // Offset: 0x1458EA4
-    UnityEngine::Material* GetSharedMaterial();
+    ::UnityEngine::Material* GetSharedMaterial();
     // private System.Void SetSharedMaterial(UnityEngine.Material mat)
     // Offset: 0x145833C
-    void SetSharedMaterial(UnityEngine::Material* mat);
+    void SetSharedMaterial(::UnityEngine::Material* mat);
     // public System.Single GetPaddingForMaterial()
     // Offset: 0x1458194
     float GetPaddingForMaterial();
@@ -285,7 +285,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_SubMesh* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_SubMesh::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_SubMesh::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_SubMesh*, creationType>()));
     }
   }; // TMPro.TMP_SubMesh
@@ -297,7 +297,7 @@ namespace TMPro {
 // Writing MetadataGetter for method: TMPro::TMP_SubMesh::get_fontAsset
 // Il2CppName: get_fontAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_FontAsset* (TMPro::TMP_SubMesh::*)()>(&TMPro::TMP_SubMesh::get_fontAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_FontAsset* (TMPro::TMP_SubMesh::*)()>(&TMPro::TMP_SubMesh::get_fontAsset)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMesh*), "get_fontAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -305,7 +305,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_
 // Writing MetadataGetter for method: TMPro::TMP_SubMesh::set_fontAsset
 // Il2CppName: set_fontAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMesh::*)(TMPro::TMP_FontAsset*)>(&TMPro::TMP_SubMesh::set_fontAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMesh::*)(::TMPro::TMP_FontAsset*)>(&TMPro::TMP_SubMesh::set_fontAsset)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_FontAsset")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMesh*), "set_fontAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -314,7 +314,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_SubMesh::get_spriteAsset
 // Il2CppName: get_spriteAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_SpriteAsset* (TMPro::TMP_SubMesh::*)()>(&TMPro::TMP_SubMesh::get_spriteAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_SpriteAsset* (TMPro::TMP_SubMesh::*)()>(&TMPro::TMP_SubMesh::get_spriteAsset)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMesh*), "get_spriteAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -322,7 +322,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_
 // Writing MetadataGetter for method: TMPro::TMP_SubMesh::set_spriteAsset
 // Il2CppName: set_spriteAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMesh::*)(TMPro::TMP_SpriteAsset*)>(&TMPro::TMP_SubMesh::set_spriteAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMesh::*)(::TMPro::TMP_SpriteAsset*)>(&TMPro::TMP_SubMesh::set_spriteAsset)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_SpriteAsset")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMesh*), "set_spriteAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -331,7 +331,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_SubMesh::get_material
 // Il2CppName: get_material
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMPro::TMP_SubMesh::*)()>(&TMPro::TMP_SubMesh::get_material)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Material* (TMPro::TMP_SubMesh::*)()>(&TMPro::TMP_SubMesh::get_material)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMesh*), "get_material", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -339,7 +339,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: TMPro::TMP_SubMesh::set_material
 // Il2CppName: set_material
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMesh::*)(UnityEngine::Material*)>(&TMPro::TMP_SubMesh::set_material)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMesh::*)(::UnityEngine::Material*)>(&TMPro::TMP_SubMesh::set_material)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMesh*), "set_material", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -348,7 +348,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_SubMesh::get_sharedMaterial
 // Il2CppName: get_sharedMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMPro::TMP_SubMesh::*)()>(&TMPro::TMP_SubMesh::get_sharedMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Material* (TMPro::TMP_SubMesh::*)()>(&TMPro::TMP_SubMesh::get_sharedMaterial)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMesh*), "get_sharedMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -356,7 +356,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: TMPro::TMP_SubMesh::set_sharedMaterial
 // Il2CppName: set_sharedMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMesh::*)(UnityEngine::Material*)>(&TMPro::TMP_SubMesh::set_sharedMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMesh::*)(::UnityEngine::Material*)>(&TMPro::TMP_SubMesh::set_sharedMaterial)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMesh*), "set_sharedMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -365,7 +365,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_SubMesh::get_fallbackMaterial
 // Il2CppName: get_fallbackMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMPro::TMP_SubMesh::*)()>(&TMPro::TMP_SubMesh::get_fallbackMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Material* (TMPro::TMP_SubMesh::*)()>(&TMPro::TMP_SubMesh::get_fallbackMaterial)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMesh*), "get_fallbackMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -373,7 +373,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: TMPro::TMP_SubMesh::set_fallbackMaterial
 // Il2CppName: set_fallbackMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMesh::*)(UnityEngine::Material*)>(&TMPro::TMP_SubMesh::set_fallbackMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMesh::*)(::UnityEngine::Material*)>(&TMPro::TMP_SubMesh::set_fallbackMaterial)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMesh*), "set_fallbackMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -382,7 +382,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_SubMesh::get_fallbackSourceMaterial
 // Il2CppName: get_fallbackSourceMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMPro::TMP_SubMesh::*)()>(&TMPro::TMP_SubMesh::get_fallbackSourceMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Material* (TMPro::TMP_SubMesh::*)()>(&TMPro::TMP_SubMesh::get_fallbackSourceMaterial)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMesh*), "get_fallbackSourceMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -390,7 +390,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: TMPro::TMP_SubMesh::set_fallbackSourceMaterial
 // Il2CppName: set_fallbackSourceMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMesh::*)(UnityEngine::Material*)>(&TMPro::TMP_SubMesh::set_fallbackSourceMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMesh::*)(::UnityEngine::Material*)>(&TMPro::TMP_SubMesh::set_fallbackSourceMaterial)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMesh*), "set_fallbackSourceMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -433,7 +433,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_SubMesh::get_renderer
 // Il2CppName: get_renderer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Renderer* (TMPro::TMP_SubMesh::*)()>(&TMPro::TMP_SubMesh::get_renderer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Renderer* (TMPro::TMP_SubMesh::*)()>(&TMPro::TMP_SubMesh::get_renderer)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMesh*), "get_renderer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -441,7 +441,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: TMPro::TMP_SubMesh::get_meshFilter
 // Il2CppName: get_meshFilter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::MeshFilter* (TMPro::TMP_SubMesh::*)()>(&TMPro::TMP_SubMesh::get_meshFilter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::MeshFilter* (TMPro::TMP_SubMesh::*)()>(&TMPro::TMP_SubMesh::get_meshFilter)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMesh*), "get_meshFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -449,7 +449,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: TMPro::TMP_SubMesh::get_mesh
 // Il2CppName: get_mesh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Mesh* (TMPro::TMP_SubMesh::*)()>(&TMPro::TMP_SubMesh::get_mesh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Mesh* (TMPro::TMP_SubMesh::*)()>(&TMPro::TMP_SubMesh::get_mesh)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMesh*), "get_mesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -457,7 +457,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: TMPro::TMP_SubMesh::set_mesh
 // Il2CppName: set_mesh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMesh::*)(UnityEngine::Mesh*)>(&TMPro::TMP_SubMesh::set_mesh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMesh::*)(::UnityEngine::Mesh*)>(&TMPro::TMP_SubMesh::set_mesh)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMesh*), "set_mesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -490,7 +490,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_SubMesh::AddSubTextObject
 // Il2CppName: AddSubTextObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_SubMesh* (*)(TMPro::TextMeshPro*, TMPro::MaterialReference)>(&TMPro::TMP_SubMesh::AddSubTextObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_SubMesh* (*)(::TMPro::TextMeshPro*, ::TMPro::MaterialReference)>(&TMPro::TMP_SubMesh::AddSubTextObject)> {
   static const MethodInfo* get() {
     static auto* textComponent = &::il2cpp_utils::GetClassFromName("TMPro", "TextMeshPro")->byval_arg;
     static auto* materialReference = &::il2cpp_utils::GetClassFromName("TMPro", "MaterialReference")->byval_arg;
@@ -508,7 +508,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_SubMesh::GetMaterial
 // Il2CppName: GetMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMPro::TMP_SubMesh::*)(UnityEngine::Material*)>(&TMPro::TMP_SubMesh::GetMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Material* (TMPro::TMP_SubMesh::*)(::UnityEngine::Material*)>(&TMPro::TMP_SubMesh::GetMaterial)> {
   static const MethodInfo* get() {
     static auto* mat = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMesh*), "GetMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mat});
@@ -517,7 +517,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: TMPro::TMP_SubMesh::CreateMaterialInstance
 // Il2CppName: CreateMaterialInstance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMPro::TMP_SubMesh::*)(UnityEngine::Material*)>(&TMPro::TMP_SubMesh::CreateMaterialInstance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Material* (TMPro::TMP_SubMesh::*)(::UnityEngine::Material*)>(&TMPro::TMP_SubMesh::CreateMaterialInstance)> {
   static const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMesh*), "CreateMaterialInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{source});
@@ -526,7 +526,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: TMPro::TMP_SubMesh::GetSharedMaterial
 // Il2CppName: GetSharedMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMPro::TMP_SubMesh::*)()>(&TMPro::TMP_SubMesh::GetSharedMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Material* (TMPro::TMP_SubMesh::*)()>(&TMPro::TMP_SubMesh::GetSharedMaterial)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMesh*), "GetSharedMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -534,7 +534,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: TMPro::TMP_SubMesh::SetSharedMaterial
 // Il2CppName: SetSharedMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMesh::*)(UnityEngine::Material*)>(&TMPro::TMP_SubMesh::SetSharedMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMesh::*)(::UnityEngine::Material*)>(&TMPro::TMP_SubMesh::SetSharedMaterial)> {
   static const MethodInfo* get() {
     static auto* mat = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMesh*), "SetSharedMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mat});

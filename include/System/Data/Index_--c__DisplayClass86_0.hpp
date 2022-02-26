@@ -24,8 +24,8 @@ namespace System::Data {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Data::Index::$$c__DisplayClass86_0);
-DEFINE_IL2CPP_ARG_TYPE(System::Data::Index::$$c__DisplayClass86_0*, "System.Data", "Index/<>c__DisplayClass86_0");
+NEED_NO_BOX(::System::Data::Index::$$c__DisplayClass86_0);
+DEFINE_IL2CPP_ARG_TYPE(::System::Data::Index::$$c__DisplayClass86_0*, "System.Data", "Index/<>c__DisplayClass86_0");
 // Type namespace: System.Data
 namespace System::Data {
   // Size: 0x14
@@ -47,38 +47,38 @@ namespace System::Data {
     // public System.ComponentModel.ListChangedType changedType
     // Size: 0x4
     // Offset: 0x10
-    System::ComponentModel::ListChangedType changedType;
+    ::System::ComponentModel::ListChangedType changedType;
     // Field size check
-    static_assert(sizeof(System::ComponentModel::ListChangedType) == 0x4);
+    static_assert(sizeof(::System::ComponentModel::ListChangedType) == 0x4);
     public:
-    // Creating conversion operator: operator System::ComponentModel::ListChangedType
-    constexpr operator System::ComponentModel::ListChangedType() const noexcept {
+    // Creating conversion operator: operator ::System::ComponentModel::ListChangedType
+    constexpr operator ::System::ComponentModel::ListChangedType() const noexcept {
       return changedType;
     }
     // Get instance field reference: public System.ComponentModel.ListChangedType changedType
-    System::ComponentModel::ListChangedType& dyn_changedType();
+    ::System::ComponentModel::ListChangedType& dyn_changedType();
     // System.Void <MaintainDataView>b__0(System.Data.DataViewListener listener, System.ComponentModel.ListChangedType type, System.Data.DataRow row, System.Boolean track)
     // Offset: 0x198C7F8
-    void $MaintainDataView$b__0(System::Data::DataViewListener* listener, System::ComponentModel::ListChangedType type, System::Data::DataRow* row, bool track);
+    void $MaintainDataView$b__0(::System::Data::DataViewListener* listener, ::System::ComponentModel::ListChangedType type, ::System::Data::DataRow* row, bool track);
     // public System.Void .ctor()
     // Offset: 0x198C034
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Index::$$c__DisplayClass86_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Data::Index::$$c__DisplayClass86_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Data::Index::$$c__DisplayClass86_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Index::$$c__DisplayClass86_0*, creationType>()));
     }
   }; // System.Data.Index/System.Data.<>c__DisplayClass86_0
   #pragma pack(pop)
-  static check_size<sizeof(Index::$$c__DisplayClass86_0), 16 + sizeof(System::ComponentModel::ListChangedType)> __System_Data_Index_$$c__DisplayClass86_0SizeCheck;
+  static check_size<sizeof(Index::$$c__DisplayClass86_0), 16 + sizeof(::System::ComponentModel::ListChangedType)> __System_Data_Index_$$c__DisplayClass86_0SizeCheck;
   static_assert(sizeof(Index::$$c__DisplayClass86_0) == 0x14);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Data::Index::$$c__DisplayClass86_0::$MaintainDataView$b__0
 // Il2CppName: <MaintainDataView>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::Index::$$c__DisplayClass86_0::*)(System::Data::DataViewListener*, System::ComponentModel::ListChangedType, System::Data::DataRow*, bool)>(&System::Data::Index::$$c__DisplayClass86_0::$MaintainDataView$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::Index::$$c__DisplayClass86_0::*)(::System::Data::DataViewListener*, ::System::ComponentModel::ListChangedType, ::System::Data::DataRow*, bool)>(&System::Data::Index::$$c__DisplayClass86_0::$MaintainDataView$b__0)> {
   static const MethodInfo* get() {
     static auto* listener = &::il2cpp_utils::GetClassFromName("System.Data", "DataViewListener")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("System.ComponentModel", "ListChangedType")->byval_arg;

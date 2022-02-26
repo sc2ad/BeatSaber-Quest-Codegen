@@ -14,8 +14,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::EncryptionUtility::$$c__DisplayClass18_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EncryptionUtility::$$c__DisplayClass18_0*, "", "EncryptionUtility/<>c__DisplayClass18_0");
+NEED_NO_BOX(::GlobalNamespace::EncryptionUtility::$$c__DisplayClass18_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EncryptionUtility::$$c__DisplayClass18_0*, "", "EncryptionUtility/<>c__DisplayClass18_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x29
@@ -69,14 +69,14 @@ namespace GlobalNamespace {
     bool& dyn_isClient();
     // EncryptionUtility/IEncryptionState <CreateEncryptionStateAsync>b__0()
     // Offset: 0x2C41E88
-    GlobalNamespace::EncryptionUtility::IEncryptionState* $CreateEncryptionStateAsync$b__0();
+    ::GlobalNamespace::EncryptionUtility::IEncryptionState* $CreateEncryptionStateAsync$b__0();
     // public System.Void .ctor()
     // Offset: 0x2C40318
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EncryptionUtility::$$c__DisplayClass18_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EncryptionUtility::$$c__DisplayClass18_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EncryptionUtility::$$c__DisplayClass18_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EncryptionUtility::$$c__DisplayClass18_0*, creationType>()));
     }
   }; // EncryptionUtility/<>c__DisplayClass18_0
@@ -88,7 +88,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::EncryptionUtility::$$c__DisplayClass18_0::$CreateEncryptionStateAsync$b__0
 // Il2CppName: <CreateEncryptionStateAsync>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EncryptionUtility::IEncryptionState* (GlobalNamespace::EncryptionUtility::$$c__DisplayClass18_0::*)()>(&GlobalNamespace::EncryptionUtility::$$c__DisplayClass18_0::$CreateEncryptionStateAsync$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::EncryptionUtility::IEncryptionState* (GlobalNamespace::EncryptionUtility::$$c__DisplayClass18_0::*)()>(&GlobalNamespace::EncryptionUtility::$$c__DisplayClass18_0::$CreateEncryptionStateAsync$b__0)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EncryptionUtility::$$c__DisplayClass18_0*), "<CreateEncryptionStateAsync>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

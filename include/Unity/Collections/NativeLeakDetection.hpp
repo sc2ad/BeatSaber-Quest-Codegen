@@ -12,8 +12,8 @@ namespace Unity::Collections {
   class NativeLeakDetection;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Unity::Collections::NativeLeakDetection);
-DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::NativeLeakDetection*, "Unity.Collections", "NativeLeakDetection");
+NEED_NO_BOX(::Unity::Collections::NativeLeakDetection);
+DEFINE_IL2CPP_ARG_TYPE(::Unity::Collections::NativeLeakDetection*, "Unity.Collections", "NativeLeakDetection");
 // Type namespace: Unity.Collections
 namespace Unity::Collections {
   // Size: 0x10

@@ -38,8 +38,8 @@ namespace System::Xml {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::XmlTextReaderImpl::LaterInitParam);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlTextReaderImpl::LaterInitParam*, "System.Xml", "XmlTextReaderImpl/LaterInitParam");
+NEED_NO_BOX(::System::Xml::XmlTextReaderImpl::LaterInitParam);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlTextReaderImpl::LaterInitParam*, "System.Xml", "XmlTextReaderImpl/LaterInitParam");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x5C
@@ -68,9 +68,9 @@ namespace System::Xml {
     // public System.IO.Stream inputStream
     // Size: 0x8
     // Offset: 0x18
-    System::IO::Stream* inputStream;
+    ::System::IO::Stream* inputStream;
     // Field size check
-    static_assert(sizeof(System::IO::Stream*) == 0x8);
+    static_assert(sizeof(::System::IO::Stream*) == 0x8);
     // public System.Byte[] inputBytes
     // Size: 0x8
     // Offset: 0x20
@@ -88,9 +88,9 @@ namespace System::Xml {
     // public System.Uri inputbaseUri
     // Size: 0x8
     // Offset: 0x30
-    System::Uri* inputbaseUri;
+    ::System::Uri* inputbaseUri;
     // Field size check
-    static_assert(sizeof(System::Uri*) == 0x8);
+    static_assert(sizeof(::System::Uri*) == 0x8);
     // public System.String inputUriStr
     // Size: 0x8
     // Offset: 0x38
@@ -100,60 +100,60 @@ namespace System::Xml {
     // public System.Xml.XmlResolver inputUriResolver
     // Size: 0x8
     // Offset: 0x40
-    System::Xml::XmlResolver* inputUriResolver;
+    ::System::Xml::XmlResolver* inputUriResolver;
     // Field size check
-    static_assert(sizeof(System::Xml::XmlResolver*) == 0x8);
+    static_assert(sizeof(::System::Xml::XmlResolver*) == 0x8);
     // public System.Xml.XmlParserContext inputContext
     // Size: 0x8
     // Offset: 0x48
-    System::Xml::XmlParserContext* inputContext;
+    ::System::Xml::XmlParserContext* inputContext;
     // Field size check
-    static_assert(sizeof(System::Xml::XmlParserContext*) == 0x8);
+    static_assert(sizeof(::System::Xml::XmlParserContext*) == 0x8);
     // public System.IO.TextReader inputTextReader
     // Size: 0x8
     // Offset: 0x50
-    System::IO::TextReader* inputTextReader;
+    ::System::IO::TextReader* inputTextReader;
     // Field size check
-    static_assert(sizeof(System::IO::TextReader*) == 0x8);
+    static_assert(sizeof(::System::IO::TextReader*) == 0x8);
     // public System.Xml.XmlTextReaderImpl/System.Xml.InitInputType initType
     // Size: 0x4
     // Offset: 0x58
-    System::Xml::XmlTextReaderImpl::InitInputType initType;
+    ::System::Xml::XmlTextReaderImpl::InitInputType initType;
     // Field size check
-    static_assert(sizeof(System::Xml::XmlTextReaderImpl::InitInputType) == 0x4);
+    static_assert(sizeof(::System::Xml::XmlTextReaderImpl::InitInputType) == 0x4);
     public:
     // Get instance field reference: public System.Boolean useAsync
     bool& dyn_useAsync();
     // Get instance field reference: public System.IO.Stream inputStream
-    System::IO::Stream*& dyn_inputStream();
+    ::System::IO::Stream*& dyn_inputStream();
     // Get instance field reference: public System.Byte[] inputBytes
     ::ArrayW<uint8_t>& dyn_inputBytes();
     // Get instance field reference: public System.Int32 inputByteCount
     int& dyn_inputByteCount();
     // Get instance field reference: public System.Uri inputbaseUri
-    System::Uri*& dyn_inputbaseUri();
+    ::System::Uri*& dyn_inputbaseUri();
     // Get instance field reference: public System.String inputUriStr
     ::StringW& dyn_inputUriStr();
     // Get instance field reference: public System.Xml.XmlResolver inputUriResolver
-    System::Xml::XmlResolver*& dyn_inputUriResolver();
+    ::System::Xml::XmlResolver*& dyn_inputUriResolver();
     // Get instance field reference: public System.Xml.XmlParserContext inputContext
-    System::Xml::XmlParserContext*& dyn_inputContext();
+    ::System::Xml::XmlParserContext*& dyn_inputContext();
     // Get instance field reference: public System.IO.TextReader inputTextReader
-    System::IO::TextReader*& dyn_inputTextReader();
+    ::System::IO::TextReader*& dyn_inputTextReader();
     // Get instance field reference: public System.Xml.XmlTextReaderImpl/System.Xml.InitInputType initType
-    System::Xml::XmlTextReaderImpl::InitInputType& dyn_initType();
+    ::System::Xml::XmlTextReaderImpl::InitInputType& dyn_initType();
     // public System.Void .ctor()
     // Offset: 0x1BADD5C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlTextReaderImpl::LaterInitParam* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlTextReaderImpl::LaterInitParam::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlTextReaderImpl::LaterInitParam::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlTextReaderImpl::LaterInitParam*, creationType>()));
     }
   }; // System.Xml.XmlTextReaderImpl/System.Xml.LaterInitParam
   #pragma pack(pop)
-  static check_size<sizeof(XmlTextReaderImpl::LaterInitParam), 88 + sizeof(System::Xml::XmlTextReaderImpl::InitInputType)> __System_Xml_XmlTextReaderImpl_LaterInitParamSizeCheck;
+  static check_size<sizeof(XmlTextReaderImpl::LaterInitParam), 88 + sizeof(::System::Xml::XmlTextReaderImpl::InitInputType)> __System_Xml_XmlTextReaderImpl_LaterInitParamSizeCheck;
   static_assert(sizeof(XmlTextReaderImpl::LaterInitParam) == 0x5C);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

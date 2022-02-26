@@ -36,8 +36,8 @@ namespace HoudiniEngineUnity {
   class HEU_SessionData;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_SessionData);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_SessionData*, "HoudiniEngineUnity", "HEU_SessionData");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_SessionData);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_SessionData*, "HoudiniEngineUnity", "HEU_SessionData");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x58
@@ -58,9 +58,9 @@ namespace HoudiniEngineUnity {
     // public HoudiniEngineUnity.HAPI_Session _HAPISession
     // Size: 0x10
     // Offset: 0x10
-    HoudiniEngineUnity::HAPI_Session HAPISession;
+    ::HoudiniEngineUnity::HAPI_Session HAPISession;
     // Field size check
-    static_assert(sizeof(HoudiniEngineUnity::HAPI_Session) == 0x10);
+    static_assert(sizeof(::HoudiniEngineUnity::HAPI_Session) == 0x10);
     // private System.Int32 _serverProcessID
     // Size: 0x4
     // Offset: 0x20
@@ -106,28 +106,28 @@ namespace HoudiniEngineUnity {
     // private HoudiniEngineUnity.HEU_SessionSyncData _sessionSync
     // Size: 0x8
     // Offset: 0x48
-    HoudiniEngineUnity::HEU_SessionSyncData* sessionSync;
+    ::HoudiniEngineUnity::HEU_SessionSyncData* sessionSync;
     // Field size check
-    static_assert(sizeof(HoudiniEngineUnity::HEU_SessionSyncData*) == 0x8);
+    static_assert(sizeof(::HoudiniEngineUnity::HEU_SessionSyncData*) == 0x8);
     // private HoudiniEngineUnity.SessionConnectionState _connectionState
     // Size: 0x4
     // Offset: 0x50
-    HoudiniEngineUnity::SessionConnectionState connectionState;
+    ::HoudiniEngineUnity::SessionConnectionState connectionState;
     // Field size check
-    static_assert(sizeof(HoudiniEngineUnity::SessionConnectionState) == 0x4);
+    static_assert(sizeof(::HoudiniEngineUnity::SessionConnectionState) == 0x4);
     // private HoudiniEngineUnity.SessionMode _sessionMode
     // Size: 0x4
     // Offset: 0x54
-    HoudiniEngineUnity::SessionMode sessionMode;
+    ::HoudiniEngineUnity::SessionMode sessionMode;
     // Field size check
-    static_assert(sizeof(HoudiniEngineUnity::SessionMode) == 0x4);
+    static_assert(sizeof(::HoudiniEngineUnity::SessionMode) == 0x4);
     public:
     // Get static field: static public System.Int64 INVALID_SESSION_ID
     static int64_t _get_INVALID_SESSION_ID();
     // Set static field: static public System.Int64 INVALID_SESSION_ID
     static void _set_INVALID_SESSION_ID(int64_t value);
     // Get instance field reference: public HoudiniEngineUnity.HAPI_Session _HAPISession
-    HoudiniEngineUnity::HAPI_Session& dyn__HAPISession();
+    ::HoudiniEngineUnity::HAPI_Session& dyn__HAPISession();
     // Get instance field reference: private System.Int32 _serverProcessID
     int& dyn__serverProcessID();
     // Get instance field reference: private System.Boolean _initialized
@@ -141,11 +141,11 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private System.Boolean _isDefaultSession
     bool& dyn__isDefaultSession();
     // Get instance field reference: private HoudiniEngineUnity.HEU_SessionSyncData _sessionSync
-    HoudiniEngineUnity::HEU_SessionSyncData*& dyn__sessionSync();
+    ::HoudiniEngineUnity::HEU_SessionSyncData*& dyn__sessionSync();
     // Get instance field reference: private HoudiniEngineUnity.SessionConnectionState _connectionState
-    HoudiniEngineUnity::SessionConnectionState& dyn__connectionState();
+    ::HoudiniEngineUnity::SessionConnectionState& dyn__connectionState();
     // Get instance field reference: private HoudiniEngineUnity.SessionMode _sessionMode
-    HoudiniEngineUnity::SessionMode& dyn__sessionMode();
+    ::HoudiniEngineUnity::SessionMode& dyn__sessionMode();
     // public System.Int64 get_SessionID()
     // Offset: 0x1A5D5E8
     int64_t get_SessionID();
@@ -160,10 +160,10 @@ namespace HoudiniEngineUnity {
     void set_ProcessID(int value);
     // public HoudiniEngineUnity.HAPI_SessionType get_SessionType()
     // Offset: 0x1A5D660
-    HoudiniEngineUnity::HAPI_SessionType get_SessionType();
+    ::HoudiniEngineUnity::HAPI_SessionType get_SessionType();
     // public System.Void set_SessionType(HoudiniEngineUnity.HAPI_SessionType value)
     // Offset: 0x1A5D668
-    void set_SessionType(HoudiniEngineUnity::HAPI_SessionType value);
+    void set_SessionType(::HoudiniEngineUnity::HAPI_SessionType value);
     // public System.Boolean get_IsInitialized()
     // Offset: 0x1A5D670
     bool get_IsInitialized();
@@ -187,10 +187,10 @@ namespace HoudiniEngineUnity {
     void set_Port(int value);
     // public System.Type get_SessionClassType()
     // Offset: 0x1A5D6EC
-    System::Type* get_SessionClassType();
+    ::System::Type* get_SessionClassType();
     // public System.Void set_SessionClassType(System.Type value)
     // Offset: 0x1A5D798
-    void set_SessionClassType(System::Type* value);
+    void set_SessionClassType(::System::Type* value);
     // public System.Boolean get_IsDefaultSession()
     // Offset: 0x1A5D7D4
     bool get_IsDefaultSession();
@@ -202,40 +202,40 @@ namespace HoudiniEngineUnity {
     bool get_IsSessionSync();
     // public HoudiniEngineUnity.SessionConnectionState get_ThisConnectionMode()
     // Offset: 0x1A5D7E8
-    HoudiniEngineUnity::SessionConnectionState get_ThisConnectionMode();
+    ::HoudiniEngineUnity::SessionConnectionState get_ThisConnectionMode();
     // public System.Void set_ThisConnectionMode(HoudiniEngineUnity.SessionConnectionState value)
     // Offset: 0x1A5D7F0
-    void set_ThisConnectionMode(HoudiniEngineUnity::SessionConnectionState value);
+    void set_ThisConnectionMode(::HoudiniEngineUnity::SessionConnectionState value);
     // public HoudiniEngineUnity.SessionMode get_ThisSessionMode()
     // Offset: 0x1A5D7F8
-    HoudiniEngineUnity::SessionMode get_ThisSessionMode();
+    ::HoudiniEngineUnity::SessionMode get_ThisSessionMode();
     // public System.Void set_ThisSessionMode(HoudiniEngineUnity.SessionMode value)
     // Offset: 0x1A5D800
-    void set_ThisSessionMode(HoudiniEngineUnity::SessionMode value);
+    void set_ThisSessionMode(::HoudiniEngineUnity::SessionMode value);
     // static private System.Void .cctor()
     // Offset: 0x1A5D818
     static void _cctor();
     // public HoudiniEngineUnity.HEU_SessionSyncData GetOrCreateSessionSync()
     // Offset: 0x1A5D4BC
-    HoudiniEngineUnity::HEU_SessionSyncData* GetOrCreateSessionSync();
+    ::HoudiniEngineUnity::HEU_SessionSyncData* GetOrCreateSessionSync();
     // public HoudiniEngineUnity.HEU_SessionSyncData GetSessionSync()
     // Offset: 0x1A5D5D8
-    HoudiniEngineUnity::HEU_SessionSyncData* GetSessionSync();
+    ::HoudiniEngineUnity::HEU_SessionSyncData* GetSessionSync();
     // public System.Void SetSessionSync(HoudiniEngineUnity.HEU_SessionSyncData syncData)
     // Offset: 0x1A5D5E0
-    void SetSessionSync(HoudiniEngineUnity::HEU_SessionSyncData* syncData);
+    void SetSessionSync(::HoudiniEngineUnity::HEU_SessionSyncData* syncData);
     // public System.Void .ctor()
     // Offset: 0x1A5D808
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_SessionData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_SessionData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_SessionData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_SessionData*, creationType>()));
     }
   }; // HoudiniEngineUnity.HEU_SessionData
   #pragma pack(pop)
-  static check_size<sizeof(HEU_SessionData), 84 + sizeof(HoudiniEngineUnity::SessionMode)> __HoudiniEngineUnity_HEU_SessionDataSizeCheck;
+  static check_size<sizeof(HEU_SessionData), 84 + sizeof(::HoudiniEngineUnity::SessionMode)> __HoudiniEngineUnity_HEU_SessionDataSizeCheck;
   static_assert(sizeof(HEU_SessionData) == 0x58);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -276,7 +276,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionData::get_SessionType
 // Il2CppName: get_SessionType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HAPI_SessionType (HoudiniEngineUnity::HEU_SessionData::*)()>(&HoudiniEngineUnity::HEU_SessionData::get_SessionType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HAPI_SessionType (HoudiniEngineUnity::HEU_SessionData::*)()>(&HoudiniEngineUnity::HEU_SessionData::get_SessionType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionData*), "get_SessionType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -284,7 +284,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionData::set_SessionType
 // Il2CppName: set_SessionType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_SessionData::*)(HoudiniEngineUnity::HAPI_SessionType)>(&HoudiniEngineUnity::HEU_SessionData::set_SessionType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_SessionData::*)(::HoudiniEngineUnity::HAPI_SessionType)>(&HoudiniEngineUnity::HEU_SessionData::set_SessionType)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_SessionType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionData*), "set_SessionType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -352,7 +352,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionData::get_SessionClassType
 // Il2CppName: get_SessionClassType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (HoudiniEngineUnity::HEU_SessionData::*)()>(&HoudiniEngineUnity::HEU_SessionData::get_SessionClassType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (HoudiniEngineUnity::HEU_SessionData::*)()>(&HoudiniEngineUnity::HEU_SessionData::get_SessionClassType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionData*), "get_SessionClassType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -360,7 +360,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionData::set_SessionClassType
 // Il2CppName: set_SessionClassType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_SessionData::*)(System::Type*)>(&HoudiniEngineUnity::HEU_SessionData::set_SessionClassType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_SessionData::*)(::System::Type*)>(&HoudiniEngineUnity::HEU_SessionData::set_SessionClassType)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionData*), "set_SessionClassType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -394,7 +394,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionData::get_ThisConnectionMode
 // Il2CppName: get_ThisConnectionMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::SessionConnectionState (HoudiniEngineUnity::HEU_SessionData::*)()>(&HoudiniEngineUnity::HEU_SessionData::get_ThisConnectionMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::SessionConnectionState (HoudiniEngineUnity::HEU_SessionData::*)()>(&HoudiniEngineUnity::HEU_SessionData::get_ThisConnectionMode)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionData*), "get_ThisConnectionMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -402,7 +402,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionData::set_ThisConnectionMode
 // Il2CppName: set_ThisConnectionMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_SessionData::*)(HoudiniEngineUnity::SessionConnectionState)>(&HoudiniEngineUnity::HEU_SessionData::set_ThisConnectionMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_SessionData::*)(::HoudiniEngineUnity::SessionConnectionState)>(&HoudiniEngineUnity::HEU_SessionData::set_ThisConnectionMode)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "SessionConnectionState")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionData*), "set_ThisConnectionMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -411,7 +411,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionData::get_ThisSessionMode
 // Il2CppName: get_ThisSessionMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::SessionMode (HoudiniEngineUnity::HEU_SessionData::*)()>(&HoudiniEngineUnity::HEU_SessionData::get_ThisSessionMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::SessionMode (HoudiniEngineUnity::HEU_SessionData::*)()>(&HoudiniEngineUnity::HEU_SessionData::get_ThisSessionMode)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionData*), "get_ThisSessionMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -419,7 +419,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionData::set_ThisSessionMode
 // Il2CppName: set_ThisSessionMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_SessionData::*)(HoudiniEngineUnity::SessionMode)>(&HoudiniEngineUnity::HEU_SessionData::set_ThisSessionMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_SessionData::*)(::HoudiniEngineUnity::SessionMode)>(&HoudiniEngineUnity::HEU_SessionData::set_ThisSessionMode)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "SessionMode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionData*), "set_ThisSessionMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -436,7 +436,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionData::GetOrCreateSessionSync
 // Il2CppName: GetOrCreateSessionSync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_SessionSyncData* (HoudiniEngineUnity::HEU_SessionData::*)()>(&HoudiniEngineUnity::HEU_SessionData::GetOrCreateSessionSync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_SessionSyncData* (HoudiniEngineUnity::HEU_SessionData::*)()>(&HoudiniEngineUnity::HEU_SessionData::GetOrCreateSessionSync)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionData*), "GetOrCreateSessionSync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -444,7 +444,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionData::GetSessionSync
 // Il2CppName: GetSessionSync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_SessionSyncData* (HoudiniEngineUnity::HEU_SessionData::*)()>(&HoudiniEngineUnity::HEU_SessionData::GetSessionSync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_SessionSyncData* (HoudiniEngineUnity::HEU_SessionData::*)()>(&HoudiniEngineUnity::HEU_SessionData::GetSessionSync)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionData*), "GetSessionSync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -452,7 +452,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionData::SetSessionSync
 // Il2CppName: SetSessionSync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_SessionData::*)(HoudiniEngineUnity::HEU_SessionSyncData*)>(&HoudiniEngineUnity::HEU_SessionData::SetSessionSync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_SessionData::*)(::HoudiniEngineUnity::HEU_SessionSyncData*)>(&HoudiniEngineUnity::HEU_SessionData::SetSessionSync)> {
   static const MethodInfo* get() {
     static auto* syncData = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionSyncData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionData*), "SetSessionSync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{syncData});

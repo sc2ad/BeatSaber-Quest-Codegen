@@ -18,8 +18,8 @@ namespace Newtonsoft::Json::Utilities {
   class EnumInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Utilities::EnumInfo);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::EnumInfo*, "Newtonsoft.Json.Utilities", "EnumInfo");
+NEED_NO_BOX(::Newtonsoft::Json::Utilities::EnumInfo);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::EnumInfo*, "Newtonsoft.Json.Utilities", "EnumInfo");
 // Type namespace: Newtonsoft.Json.Utilities
 namespace Newtonsoft::Json::Utilities {
   // Size: 0x30
@@ -78,7 +78,7 @@ namespace Newtonsoft::Json::Utilities {
     // Offset: 0x19E3044
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnumInfo* New_ctor(bool isFlags, ::ArrayW<uint64_t> values, ::ArrayW<::StringW> names, ::ArrayW<::StringW> resolvedNames) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Utilities::EnumInfo::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Utilities::EnumInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnumInfo*, creationType>(isFlags, values, names, resolvedNames)));
     }
   }; // Newtonsoft.Json.Utilities.EnumInfo

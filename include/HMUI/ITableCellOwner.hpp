@@ -18,8 +18,8 @@ namespace HMUI {
   class ITableCellOwner;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HMUI::ITableCellOwner);
-DEFINE_IL2CPP_ARG_TYPE(HMUI::ITableCellOwner*, "HMUI", "ITableCellOwner");
+NEED_NO_BOX(::HMUI::ITableCellOwner);
+DEFINE_IL2CPP_ARG_TYPE(::HMUI::ITableCellOwner*, "HMUI", "ITableCellOwner");
 // Type namespace: HMUI
 namespace HMUI {
   // Size: 0x10
@@ -30,7 +30,7 @@ namespace HMUI {
     public:
     // public HMUI.TableViewSelectionType get_selectionType()
     // Offset: 0xFFFFFFFF
-    HMUI::TableViewSelectionType get_selectionType();
+    ::HMUI::TableViewSelectionType get_selectionType();
     // public System.Boolean get_canSelectSelectedCell()
     // Offset: 0xFFFFFFFF
     bool get_canSelectSelectedCell();
@@ -44,7 +44,7 @@ namespace HMUI {
 // Writing MetadataGetter for method: HMUI::ITableCellOwner::get_selectionType
 // Il2CppName: get_selectionType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableViewSelectionType (HMUI::ITableCellOwner::*)()>(&HMUI::ITableCellOwner::get_selectionType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HMUI::TableViewSelectionType (HMUI::ITableCellOwner::*)()>(&HMUI::ITableCellOwner::get_selectionType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::ITableCellOwner*), "get_selectionType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

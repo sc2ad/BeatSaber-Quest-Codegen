@@ -49,8 +49,8 @@ namespace System::IO {
   class MonoIO;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::IO::MonoIO);
-DEFINE_IL2CPP_ARG_TYPE(System::IO::MonoIO*, "System.IO", "MonoIO");
+NEED_NO_BOX(::System::IO::MonoIO);
+DEFINE_IL2CPP_ARG_TYPE(::System::IO::MonoIO*, "System.IO", "MonoIO");
 // Type namespace: System.IO
 namespace System::IO {
   // Size: 0x10
@@ -60,22 +60,22 @@ namespace System::IO {
   class MonoIO : public ::Il2CppObject {
     public:
     // Get static field: static public readonly System.IntPtr InvalidHandle
-    static System::IntPtr _get_InvalidHandle();
+    static ::System::IntPtr _get_InvalidHandle();
     // Set static field: static public readonly System.IntPtr InvalidHandle
-    static void _set_InvalidHandle(System::IntPtr value);
+    static void _set_InvalidHandle(::System::IntPtr value);
     // Get static field: static private System.Boolean dump_handles
     static bool _get_dump_handles();
     // Set static field: static private System.Boolean dump_handles
     static void _set_dump_handles(bool value);
     // static public System.IntPtr get_ConsoleOutput()
     // Offset: 0x1F83180
-    static System::IntPtr get_ConsoleOutput();
+    static ::System::IntPtr get_ConsoleOutput();
     // static public System.IntPtr get_ConsoleInput()
     // Offset: 0x1F83184
-    static System::IntPtr get_ConsoleInput();
+    static ::System::IntPtr get_ConsoleInput();
     // static public System.IntPtr get_ConsoleError()
     // Offset: 0x1F83188
-    static System::IntPtr get_ConsoleError();
+    static ::System::IntPtr get_ConsoleError();
     // static public System.Char get_VolumeSeparatorChar()
     // Offset: 0x1F83194
     static ::Il2CppChar get_VolumeSeparatorChar();
@@ -93,121 +93,121 @@ namespace System::IO {
     static void _cctor();
     // static public System.Exception GetException(System.IO.MonoIOError error)
     // Offset: 0x1F778AC
-    static System::Exception* GetException(System::IO::MonoIOError error);
+    static ::System::Exception* GetException(::System::IO::MonoIOError error);
     // static public System.Exception GetException(System.String path, System.IO.MonoIOError error)
     // Offset: 0x1F76608
-    static System::Exception* GetException(::StringW path, System::IO::MonoIOError error);
+    static ::System::Exception* GetException(::StringW path, ::System::IO::MonoIOError error);
     // static private System.Boolean CreateDirectory(System.Char* path, out System.IO.MonoIOError error)
     // Offset: 0x1F830A0
-    static bool CreateDirectory(::Il2CppChar* path, ByRef<System::IO::MonoIOError> error);
+    static bool CreateDirectory(::Il2CppChar* path, ByRef<::System::IO::MonoIOError> error);
     // static public System.Boolean CreateDirectory(System.String path, out System.IO.MonoIOError error)
     // Offset: 0x1F76584
-    static bool CreateDirectory(::StringW path, ByRef<System::IO::MonoIOError> error);
+    static bool CreateDirectory(::StringW path, ByRef<::System::IO::MonoIOError> error);
     // static private System.Boolean RemoveDirectory(System.Char* path, out System.IO.MonoIOError error)
     // Offset: 0x1F830A4
-    static bool RemoveDirectory(::Il2CppChar* path, ByRef<System::IO::MonoIOError> error);
+    static bool RemoveDirectory(::Il2CppChar* path, ByRef<::System::IO::MonoIOError> error);
     // static public System.Boolean RemoveDirectory(System.String path, out System.IO.MonoIOError error)
     // Offset: 0x1F77094
-    static bool RemoveDirectory(::StringW path, ByRef<System::IO::MonoIOError> error);
+    static bool RemoveDirectory(::StringW path, ByRef<::System::IO::MonoIOError> error);
     // static public System.String GetCurrentDirectory(out System.IO.MonoIOError error)
     // Offset: 0x1F778A8
-    static ::StringW GetCurrentDirectory(ByRef<System::IO::MonoIOError> error);
+    static ::StringW GetCurrentDirectory(ByRef<::System::IO::MonoIOError> error);
     // static private System.Boolean DeleteFile(System.Char* path, out System.IO.MonoIOError error)
     // Offset: 0x1F830A8
-    static bool DeleteFile(::Il2CppChar* path, ByRef<System::IO::MonoIOError> error);
+    static bool DeleteFile(::Il2CppChar* path, ByRef<::System::IO::MonoIOError> error);
     // static public System.Boolean DeleteFile(System.String path, out System.IO.MonoIOError error)
     // Offset: 0x1F77010
-    static bool DeleteFile(::StringW path, ByRef<System::IO::MonoIOError> error);
+    static bool DeleteFile(::StringW path, ByRef<::System::IO::MonoIOError> error);
     // static private System.Boolean ReplaceFile(System.Char* sourceFileName, System.Char* destinationFileName, System.Char* destinationBackupFileName, System.Boolean ignoreMetadataErrors, out System.IO.MonoIOError error)
     // Offset: 0x1F830AC
-    static bool ReplaceFile(::Il2CppChar* sourceFileName, ::Il2CppChar* destinationFileName, ::Il2CppChar* destinationBackupFileName, bool ignoreMetadataErrors, ByRef<System::IO::MonoIOError> error);
+    static bool ReplaceFile(::Il2CppChar* sourceFileName, ::Il2CppChar* destinationFileName, ::Il2CppChar* destinationBackupFileName, bool ignoreMetadataErrors, ByRef<::System::IO::MonoIOError> error);
     // static public System.Boolean ReplaceFile(System.String sourceFileName, System.String destinationFileName, System.String destinationBackupFileName, System.Boolean ignoreMetadataErrors, out System.IO.MonoIOError error)
     // Offset: 0x1F79CFC
-    static bool ReplaceFile(::StringW sourceFileName, ::StringW destinationFileName, ::StringW destinationBackupFileName, bool ignoreMetadataErrors, ByRef<System::IO::MonoIOError> error);
+    static bool ReplaceFile(::StringW sourceFileName, ::StringW destinationFileName, ::StringW destinationBackupFileName, bool ignoreMetadataErrors, ByRef<::System::IO::MonoIOError> error);
     // static private System.IO.FileAttributes GetFileAttributes(System.Char* path, out System.IO.MonoIOError error)
     // Offset: 0x1F830B4
-    static System::IO::FileAttributes GetFileAttributes(::Il2CppChar* path, ByRef<System::IO::MonoIOError> error);
+    static ::System::IO::FileAttributes GetFileAttributes(::Il2CppChar* path, ByRef<::System::IO::MonoIOError> error);
     // static public System.IO.FileAttributes GetFileAttributes(System.String path, out System.IO.MonoIOError error)
     // Offset: 0x1F78FF4
-    static System::IO::FileAttributes GetFileAttributes(::StringW path, ByRef<System::IO::MonoIOError> error);
+    static ::System::IO::FileAttributes GetFileAttributes(::StringW path, ByRef<::System::IO::MonoIOError> error);
     // static private System.IO.MonoFileType GetFileType(System.IntPtr handle, out System.IO.MonoIOError error)
     // Offset: 0x1F830B8
-    static System::IO::MonoFileType GetFileType(System::IntPtr handle, ByRef<System::IO::MonoIOError> error);
+    static ::System::IO::MonoFileType GetFileType(::System::IntPtr handle, ByRef<::System::IO::MonoIOError> error);
     // static public System.IO.MonoFileType GetFileType(System.Runtime.InteropServices.SafeHandle safeHandle, out System.IO.MonoIOError error)
     // Offset: 0x1F7D58C
-    static System::IO::MonoFileType GetFileType(System::Runtime::InteropServices::SafeHandle* safeHandle, ByRef<System::IO::MonoIOError> error);
+    static ::System::IO::MonoFileType GetFileType(::System::Runtime::InteropServices::SafeHandle* safeHandle, ByRef<::System::IO::MonoIOError> error);
     // static private System.IntPtr FindFirstFile(System.Char* pathWithPattern, out System.String fileName, out System.Int32 fileAttr, out System.Int32 error)
     // Offset: 0x1F830BC
-    static System::IntPtr FindFirstFile(::Il2CppChar* pathWithPattern, ByRef<::StringW> fileName, ByRef<int> fileAttr, ByRef<int> error);
+    static ::System::IntPtr FindFirstFile(::Il2CppChar* pathWithPattern, ByRef<::StringW> fileName, ByRef<int> fileAttr, ByRef<int> error);
     // static public System.IntPtr FindFirstFile(System.String pathWithPattern, out System.String fileName, out System.Int32 fileAttr, out System.Int32 error)
     // Offset: 0x1F830C0
-    static System::IntPtr FindFirstFile(::StringW pathWithPattern, ByRef<::StringW> fileName, ByRef<int> fileAttr, ByRef<int> error);
+    static ::System::IntPtr FindFirstFile(::StringW pathWithPattern, ByRef<::StringW> fileName, ByRef<int> fileAttr, ByRef<int> error);
     // static public System.Boolean FindNextFile(System.IntPtr hnd, out System.String fileName, out System.Int32 fileAttr, out System.Int32 error)
     // Offset: 0x1F8315C
-    static bool FindNextFile(System::IntPtr hnd, ByRef<::StringW> fileName, ByRef<int> fileAttr, ByRef<int> error);
+    static bool FindNextFile(::System::IntPtr hnd, ByRef<::StringW> fileName, ByRef<int> fileAttr, ByRef<int> error);
     // static public System.Boolean FindCloseFile(System.IntPtr hnd)
     // Offset: 0x1F83160
-    static bool FindCloseFile(System::IntPtr hnd);
+    static bool FindCloseFile(::System::IntPtr hnd);
     // static public System.Boolean ExistsFile(System.String path, out System.IO.MonoIOError error)
     // Offset: 0x1F78E7C
-    static bool ExistsFile(::StringW path, ByRef<System::IO::MonoIOError> error);
+    static bool ExistsFile(::StringW path, ByRef<::System::IO::MonoIOError> error);
     // static public System.Boolean ExistsDirectory(System.String path, out System.IO.MonoIOError error)
     // Offset: 0x1F7774C
-    static bool ExistsDirectory(::StringW path, ByRef<System::IO::MonoIOError> error);
+    static bool ExistsDirectory(::StringW path, ByRef<::System::IO::MonoIOError> error);
     // static public System.Boolean ExistsSymlink(System.String path, out System.IO.MonoIOError error)
     // Offset: 0x1F76F84
-    static bool ExistsSymlink(::StringW path, ByRef<System::IO::MonoIOError> error);
+    static bool ExistsSymlink(::StringW path, ByRef<::System::IO::MonoIOError> error);
     // static private System.Boolean GetFileStat(System.Char* path, out System.IO.MonoIOStat stat, out System.IO.MonoIOError error)
     // Offset: 0x1F83164
-    static bool GetFileStat(::Il2CppChar* path, ByRef<System::IO::MonoIOStat> stat, ByRef<System::IO::MonoIOError> error);
+    static bool GetFileStat(::Il2CppChar* path, ByRef<::System::IO::MonoIOStat> stat, ByRef<::System::IO::MonoIOError> error);
     // static public System.Boolean GetFileStat(System.String path, out System.IO.MonoIOStat stat, out System.IO.MonoIOError error)
     // Offset: 0x1F791B0
-    static bool GetFileStat(::StringW path, ByRef<System::IO::MonoIOStat> stat, ByRef<System::IO::MonoIOError> error);
+    static bool GetFileStat(::StringW path, ByRef<::System::IO::MonoIOStat> stat, ByRef<::System::IO::MonoIOError> error);
     // static private System.IntPtr Open(System.Char* filename, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.IO.FileOptions options, out System.IO.MonoIOError error)
     // Offset: 0x1F83168
-    static System::IntPtr Open(::Il2CppChar* filename, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, System::IO::FileOptions options, ByRef<System::IO::MonoIOError> error);
+    static ::System::IntPtr Open(::Il2CppChar* filename, ::System::IO::FileMode mode, ::System::IO::FileAccess access, ::System::IO::FileShare share, ::System::IO::FileOptions options, ByRef<::System::IO::MonoIOError> error);
     // static public System.IntPtr Open(System.String filename, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.IO.FileOptions options, out System.IO.MonoIOError error)
     // Offset: 0x1F7D43C
-    static System::IntPtr Open(::StringW filename, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, System::IO::FileOptions options, ByRef<System::IO::MonoIOError> error);
+    static ::System::IntPtr Open(::StringW filename, ::System::IO::FileMode mode, ::System::IO::FileAccess access, ::System::IO::FileShare share, ::System::IO::FileOptions options, ByRef<::System::IO::MonoIOError> error);
     // static public System.Boolean Close(System.IntPtr handle, out System.IO.MonoIOError error)
     // Offset: 0x1F801EC
-    static bool Close(System::IntPtr handle, ByRef<System::IO::MonoIOError> error);
+    static bool Close(::System::IntPtr handle, ByRef<::System::IO::MonoIOError> error);
     // static private System.Int32 Read(System.IntPtr handle, System.Byte[] dest, System.Int32 dest_offset, System.Int32 count, out System.IO.MonoIOError error)
     // Offset: 0x1F8316C
-    static int Read(System::IntPtr handle, ::ArrayW<uint8_t> dest, int dest_offset, int count, ByRef<System::IO::MonoIOError> error);
+    static int Read(::System::IntPtr handle, ::ArrayW<uint8_t> dest, int dest_offset, int count, ByRef<::System::IO::MonoIOError> error);
     // static public System.Int32 Read(System.Runtime.InteropServices.SafeHandle safeHandle, System.Byte[] dest, System.Int32 dest_offset, System.Int32 count, out System.IO.MonoIOError error)
     // Offset: 0x1F80200
-    static int Read(System::Runtime::InteropServices::SafeHandle* safeHandle, ::ArrayW<uint8_t> dest, int dest_offset, int count, ByRef<System::IO::MonoIOError> error);
+    static int Read(::System::Runtime::InteropServices::SafeHandle* safeHandle, ::ArrayW<uint8_t> dest, int dest_offset, int count, ByRef<::System::IO::MonoIOError> error);
     // static private System.Int32 Write(System.IntPtr handle, in System.Byte[] src, System.Int32 src_offset, System.Int32 count, out System.IO.MonoIOError error)
     // Offset: 0x1F83170
-    static int Write(System::IntPtr handle, ByRef<::ArrayW<uint8_t>> src, int src_offset, int count, ByRef<System::IO::MonoIOError> error);
+    static int Write(::System::IntPtr handle, ByRef<::ArrayW<uint8_t>> src, int src_offset, int count, ByRef<::System::IO::MonoIOError> error);
     // static public System.Int32 Write(System.Runtime.InteropServices.SafeHandle safeHandle, System.Byte[] src, System.Int32 src_offset, System.Int32 count, out System.IO.MonoIOError error)
     // Offset: 0x1F7F184
-    static int Write(System::Runtime::InteropServices::SafeHandle* safeHandle, ::ArrayW<uint8_t> src, int src_offset, int count, ByRef<System::IO::MonoIOError> error);
+    static int Write(::System::Runtime::InteropServices::SafeHandle* safeHandle, ::ArrayW<uint8_t> src, int src_offset, int count, ByRef<::System::IO::MonoIOError> error);
     // static private System.Int64 Seek(System.IntPtr handle, System.Int64 offset, System.IO.SeekOrigin origin, out System.IO.MonoIOError error)
     // Offset: 0x1F83174
-    static int64_t Seek(System::IntPtr handle, int64_t offset, System::IO::SeekOrigin origin, ByRef<System::IO::MonoIOError> error);
+    static int64_t Seek(::System::IntPtr handle, int64_t offset, ::System::IO::SeekOrigin origin, ByRef<::System::IO::MonoIOError> error);
     // static public System.Int64 Seek(System.Runtime.InteropServices.SafeHandle safeHandle, System.Int64 offset, System.IO.SeekOrigin origin, out System.IO.MonoIOError error)
     // Offset: 0x1F7D908
-    static int64_t Seek(System::Runtime::InteropServices::SafeHandle* safeHandle, int64_t offset, System::IO::SeekOrigin origin, ByRef<System::IO::MonoIOError> error);
+    static int64_t Seek(::System::Runtime::InteropServices::SafeHandle* safeHandle, int64_t offset, ::System::IO::SeekOrigin origin, ByRef<::System::IO::MonoIOError> error);
     // static private System.Int64 GetLength(System.IntPtr handle, out System.IO.MonoIOError error)
     // Offset: 0x1F83178
-    static int64_t GetLength(System::IntPtr handle, ByRef<System::IO::MonoIOError> error);
+    static int64_t GetLength(::System::IntPtr handle, ByRef<::System::IO::MonoIOError> error);
     // static public System.Int64 GetLength(System.Runtime.InteropServices.SafeHandle safeHandle, out System.IO.MonoIOError error)
     // Offset: 0x1F7DBD4
-    static int64_t GetLength(System::Runtime::InteropServices::SafeHandle* safeHandle, ByRef<System::IO::MonoIOError> error);
+    static int64_t GetLength(::System::Runtime::InteropServices::SafeHandle* safeHandle, ByRef<::System::IO::MonoIOError> error);
     // static private System.Boolean SetLength(System.IntPtr handle, System.Int64 length, out System.IO.MonoIOError error)
     // Offset: 0x1F8317C
-    static bool SetLength(System::IntPtr handle, int64_t length, ByRef<System::IO::MonoIOError> error);
+    static bool SetLength(::System::IntPtr handle, int64_t length, ByRef<::System::IO::MonoIOError> error);
     // static public System.Boolean SetLength(System.Runtime.InteropServices.SafeHandle safeHandle, System.Int64 length, out System.IO.MonoIOError error)
     // Offset: 0x1F7FCC0
-    static bool SetLength(System::Runtime::InteropServices::SafeHandle* safeHandle, int64_t length, ByRef<System::IO::MonoIOError> error);
+    static bool SetLength(::System::Runtime::InteropServices::SafeHandle* safeHandle, int64_t length, ByRef<::System::IO::MonoIOError> error);
     // static public System.Boolean CreatePipe(out System.IntPtr read_handle, out System.IntPtr write_handle, out System.IO.MonoIOError error)
     // Offset: 0x1F8318C
-    static bool CreatePipe(ByRef<System::IntPtr> read_handle, ByRef<System::IntPtr> write_handle, ByRef<System::IO::MonoIOError> error);
+    static bool CreatePipe(ByRef<::System::IntPtr> read_handle, ByRef<::System::IntPtr> write_handle, ByRef<::System::IO::MonoIOError> error);
     // static public System.Boolean DuplicateHandle(System.IntPtr source_process_handle, System.IntPtr source_handle, System.IntPtr target_process_handle, out System.IntPtr target_handle, System.Int32 access, System.Int32 inherit, System.Int32 options, out System.IO.MonoIOError error)
     // Offset: 0x1F83190
-    static bool DuplicateHandle(System::IntPtr source_process_handle, System::IntPtr source_handle, System::IntPtr target_process_handle, ByRef<System::IntPtr> target_handle, int access, int inherit, int options, ByRef<System::IO::MonoIOError> error);
+    static bool DuplicateHandle(::System::IntPtr source_process_handle, ::System::IntPtr source_handle, ::System::IntPtr target_process_handle, ByRef<::System::IntPtr> target_handle, int access, int inherit, int options, ByRef<::System::IO::MonoIOError> error);
     // static private System.Void DumpHandles()
     // Offset: 0x1F8309C
     static void DumpHandles();
@@ -221,7 +221,7 @@ namespace System::IO {
 // Writing MetadataGetter for method: System::IO::MonoIO::get_ConsoleOutput
 // Il2CppName: get_ConsoleOutput
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&System::IO::MonoIO::get_ConsoleOutput)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&System::IO::MonoIO::get_ConsoleOutput)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::IO::MonoIO*), "get_ConsoleOutput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -229,7 +229,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: System::IO::MonoIO::get_ConsoleInput
 // Il2CppName: get_ConsoleInput
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&System::IO::MonoIO::get_ConsoleInput)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&System::IO::MonoIO::get_ConsoleInput)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::IO::MonoIO*), "get_ConsoleInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -237,7 +237,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: System::IO::MonoIO::get_ConsoleError
 // Il2CppName: get_ConsoleError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&System::IO::MonoIO::get_ConsoleError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&System::IO::MonoIO::get_ConsoleError)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::IO::MonoIO*), "get_ConsoleError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -285,7 +285,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::IO::MonoIO::GetException
 // Il2CppName: GetException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(System::IO::MonoIOError)>(&System::IO::MonoIO::GetException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::IO::MonoIOError)>(&System::IO::MonoIO::GetException)> {
   static const MethodInfo* get() {
     static auto* error = &::il2cpp_utils::GetClassFromName("System.IO", "MonoIOError")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::MonoIO*), "GetException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{error});
@@ -294,7 +294,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::IO::MonoIO::GetException
 // Il2CppName: GetException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, System::IO::MonoIOError)>(&System::IO::MonoIO::GetException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, ::System::IO::MonoIOError)>(&System::IO::MonoIO::GetException)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* error = &::il2cpp_utils::GetClassFromName("System.IO", "MonoIOError")->byval_arg;
@@ -304,7 +304,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::IO::MonoIO::CreateDirectory
 // Il2CppName: CreateDirectory
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar*, ByRef<System::IO::MonoIOError>)>(&System::IO::MonoIO::CreateDirectory)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar*, ByRef<::System::IO::MonoIOError>)>(&System::IO::MonoIO::CreateDirectory)> {
   static const MethodInfo* get() {
     static auto* path = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
     static auto* error = &::il2cpp_utils::GetClassFromName("System.IO", "MonoIOError")->this_arg;
@@ -314,7 +314,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::IO::MonoIO::CreateDirectory
 // Il2CppName: CreateDirectory
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<System::IO::MonoIOError>)>(&System::IO::MonoIO::CreateDirectory)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<::System::IO::MonoIOError>)>(&System::IO::MonoIO::CreateDirectory)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* error = &::il2cpp_utils::GetClassFromName("System.IO", "MonoIOError")->this_arg;
@@ -324,7 +324,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::IO::MonoIO::RemoveDirectory
 // Il2CppName: RemoveDirectory
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar*, ByRef<System::IO::MonoIOError>)>(&System::IO::MonoIO::RemoveDirectory)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar*, ByRef<::System::IO::MonoIOError>)>(&System::IO::MonoIO::RemoveDirectory)> {
   static const MethodInfo* get() {
     static auto* path = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
     static auto* error = &::il2cpp_utils::GetClassFromName("System.IO", "MonoIOError")->this_arg;
@@ -334,7 +334,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::IO::MonoIO::RemoveDirectory
 // Il2CppName: RemoveDirectory
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<System::IO::MonoIOError>)>(&System::IO::MonoIO::RemoveDirectory)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<::System::IO::MonoIOError>)>(&System::IO::MonoIO::RemoveDirectory)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* error = &::il2cpp_utils::GetClassFromName("System.IO", "MonoIOError")->this_arg;
@@ -344,7 +344,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::IO::MonoIO::GetCurrentDirectory
 // Il2CppName: GetCurrentDirectory
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(ByRef<System::IO::MonoIOError>)>(&System::IO::MonoIO::GetCurrentDirectory)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(ByRef<::System::IO::MonoIOError>)>(&System::IO::MonoIO::GetCurrentDirectory)> {
   static const MethodInfo* get() {
     static auto* error = &::il2cpp_utils::GetClassFromName("System.IO", "MonoIOError")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::MonoIO*), "GetCurrentDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{error});
@@ -353,7 +353,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::IO::MonoIO::DeleteFile
 // Il2CppName: DeleteFile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar*, ByRef<System::IO::MonoIOError>)>(&System::IO::MonoIO::DeleteFile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar*, ByRef<::System::IO::MonoIOError>)>(&System::IO::MonoIO::DeleteFile)> {
   static const MethodInfo* get() {
     static auto* path = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
     static auto* error = &::il2cpp_utils::GetClassFromName("System.IO", "MonoIOError")->this_arg;
@@ -363,7 +363,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::IO::MonoIO::DeleteFile
 // Il2CppName: DeleteFile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<System::IO::MonoIOError>)>(&System::IO::MonoIO::DeleteFile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<::System::IO::MonoIOError>)>(&System::IO::MonoIO::DeleteFile)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* error = &::il2cpp_utils::GetClassFromName("System.IO", "MonoIOError")->this_arg;
@@ -373,7 +373,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::IO::MonoIO::ReplaceFile
 // Il2CppName: ReplaceFile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar*, ::Il2CppChar*, ::Il2CppChar*, bool, ByRef<System::IO::MonoIOError>)>(&System::IO::MonoIO::ReplaceFile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar*, ::Il2CppChar*, ::Il2CppChar*, bool, ByRef<::System::IO::MonoIOError>)>(&System::IO::MonoIO::ReplaceFile)> {
   static const MethodInfo* get() {
     static auto* sourceFileName = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
     static auto* destinationFileName = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
@@ -386,7 +386,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::IO::MonoIO::ReplaceFile
 // Il2CppName: ReplaceFile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW, ::StringW, bool, ByRef<System::IO::MonoIOError>)>(&System::IO::MonoIO::ReplaceFile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW, ::StringW, bool, ByRef<::System::IO::MonoIOError>)>(&System::IO::MonoIO::ReplaceFile)> {
   static const MethodInfo* get() {
     static auto* sourceFileName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* destinationFileName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -399,7 +399,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::IO::MonoIO::GetFileAttributes
 // Il2CppName: GetFileAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::FileAttributes (*)(::Il2CppChar*, ByRef<System::IO::MonoIOError>)>(&System::IO::MonoIO::GetFileAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::FileAttributes (*)(::Il2CppChar*, ByRef<::System::IO::MonoIOError>)>(&System::IO::MonoIO::GetFileAttributes)> {
   static const MethodInfo* get() {
     static auto* path = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
     static auto* error = &::il2cpp_utils::GetClassFromName("System.IO", "MonoIOError")->this_arg;
@@ -409,7 +409,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO:
 // Writing MetadataGetter for method: System::IO::MonoIO::GetFileAttributes
 // Il2CppName: GetFileAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::FileAttributes (*)(::StringW, ByRef<System::IO::MonoIOError>)>(&System::IO::MonoIO::GetFileAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::FileAttributes (*)(::StringW, ByRef<::System::IO::MonoIOError>)>(&System::IO::MonoIO::GetFileAttributes)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* error = &::il2cpp_utils::GetClassFromName("System.IO", "MonoIOError")->this_arg;
@@ -419,7 +419,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO:
 // Writing MetadataGetter for method: System::IO::MonoIO::GetFileType
 // Il2CppName: GetFileType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::MonoFileType (*)(System::IntPtr, ByRef<System::IO::MonoIOError>)>(&System::IO::MonoIO::GetFileType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::MonoFileType (*)(::System::IntPtr, ByRef<::System::IO::MonoIOError>)>(&System::IO::MonoIO::GetFileType)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* error = &::il2cpp_utils::GetClassFromName("System.IO", "MonoIOError")->this_arg;
@@ -429,7 +429,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO:
 // Writing MetadataGetter for method: System::IO::MonoIO::GetFileType
 // Il2CppName: GetFileType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::MonoFileType (*)(System::Runtime::InteropServices::SafeHandle*, ByRef<System::IO::MonoIOError>)>(&System::IO::MonoIO::GetFileType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::MonoFileType (*)(::System::Runtime::InteropServices::SafeHandle*, ByRef<::System::IO::MonoIOError>)>(&System::IO::MonoIO::GetFileType)> {
   static const MethodInfo* get() {
     static auto* safeHandle = &::il2cpp_utils::GetClassFromName("System.Runtime.InteropServices", "SafeHandle")->byval_arg;
     static auto* error = &::il2cpp_utils::GetClassFromName("System.IO", "MonoIOError")->this_arg;
@@ -439,7 +439,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO:
 // Writing MetadataGetter for method: System::IO::MonoIO::FindFirstFile
 // Il2CppName: FindFirstFile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::Il2CppChar*, ByRef<::StringW>, ByRef<int>, ByRef<int>)>(&System::IO::MonoIO::FindFirstFile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::Il2CppChar*, ByRef<::StringW>, ByRef<int>, ByRef<int>)>(&System::IO::MonoIO::FindFirstFile)> {
   static const MethodInfo* get() {
     static auto* pathWithPattern = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
     static auto* fileName = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
@@ -451,7 +451,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: System::IO::MonoIO::FindFirstFile
 // Il2CppName: FindFirstFile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::StringW, ByRef<::StringW>, ByRef<int>, ByRef<int>)>(&System::IO::MonoIO::FindFirstFile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::StringW, ByRef<::StringW>, ByRef<int>, ByRef<int>)>(&System::IO::MonoIO::FindFirstFile)> {
   static const MethodInfo* get() {
     static auto* pathWithPattern = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* fileName = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
@@ -463,7 +463,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: System::IO::MonoIO::FindNextFile
 // Il2CppName: FindNextFile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, ByRef<::StringW>, ByRef<int>, ByRef<int>)>(&System::IO::MonoIO::FindNextFile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr, ByRef<::StringW>, ByRef<int>, ByRef<int>)>(&System::IO::MonoIO::FindNextFile)> {
   static const MethodInfo* get() {
     static auto* hnd = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fileName = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
@@ -475,7 +475,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::IO::MonoIO::FindCloseFile
 // Il2CppName: FindCloseFile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&System::IO::MonoIO::FindCloseFile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&System::IO::MonoIO::FindCloseFile)> {
   static const MethodInfo* get() {
     static auto* hnd = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::MonoIO*), "FindCloseFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hnd});
@@ -484,7 +484,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::IO::MonoIO::ExistsFile
 // Il2CppName: ExistsFile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<System::IO::MonoIOError>)>(&System::IO::MonoIO::ExistsFile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<::System::IO::MonoIOError>)>(&System::IO::MonoIO::ExistsFile)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* error = &::il2cpp_utils::GetClassFromName("System.IO", "MonoIOError")->this_arg;
@@ -494,7 +494,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::IO::MonoIO::ExistsDirectory
 // Il2CppName: ExistsDirectory
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<System::IO::MonoIOError>)>(&System::IO::MonoIO::ExistsDirectory)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<::System::IO::MonoIOError>)>(&System::IO::MonoIO::ExistsDirectory)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* error = &::il2cpp_utils::GetClassFromName("System.IO", "MonoIOError")->this_arg;
@@ -504,7 +504,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::IO::MonoIO::ExistsSymlink
 // Il2CppName: ExistsSymlink
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<System::IO::MonoIOError>)>(&System::IO::MonoIO::ExistsSymlink)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<::System::IO::MonoIOError>)>(&System::IO::MonoIO::ExistsSymlink)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* error = &::il2cpp_utils::GetClassFromName("System.IO", "MonoIOError")->this_arg;
@@ -514,7 +514,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::IO::MonoIO::GetFileStat
 // Il2CppName: GetFileStat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar*, ByRef<System::IO::MonoIOStat>, ByRef<System::IO::MonoIOError>)>(&System::IO::MonoIO::GetFileStat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar*, ByRef<::System::IO::MonoIOStat>, ByRef<::System::IO::MonoIOError>)>(&System::IO::MonoIO::GetFileStat)> {
   static const MethodInfo* get() {
     static auto* path = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
     static auto* stat = &::il2cpp_utils::GetClassFromName("System.IO", "MonoIOStat")->this_arg;
@@ -525,7 +525,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::IO::MonoIO::GetFileStat
 // Il2CppName: GetFileStat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<System::IO::MonoIOStat>, ByRef<System::IO::MonoIOError>)>(&System::IO::MonoIO::GetFileStat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<::System::IO::MonoIOStat>, ByRef<::System::IO::MonoIOError>)>(&System::IO::MonoIO::GetFileStat)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* stat = &::il2cpp_utils::GetClassFromName("System.IO", "MonoIOStat")->this_arg;
@@ -536,7 +536,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::IO::MonoIO::Open
 // Il2CppName: Open
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::Il2CppChar*, System::IO::FileMode, System::IO::FileAccess, System::IO::FileShare, System::IO::FileOptions, ByRef<System::IO::MonoIOError>)>(&System::IO::MonoIO::Open)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::Il2CppChar*, ::System::IO::FileMode, ::System::IO::FileAccess, ::System::IO::FileShare, ::System::IO::FileOptions, ByRef<::System::IO::MonoIOError>)>(&System::IO::MonoIO::Open)> {
   static const MethodInfo* get() {
     static auto* filename = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
     static auto* mode = &::il2cpp_utils::GetClassFromName("System.IO", "FileMode")->byval_arg;
@@ -550,7 +550,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: System::IO::MonoIO::Open
 // Il2CppName: Open
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::StringW, System::IO::FileMode, System::IO::FileAccess, System::IO::FileShare, System::IO::FileOptions, ByRef<System::IO::MonoIOError>)>(&System::IO::MonoIO::Open)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::StringW, ::System::IO::FileMode, ::System::IO::FileAccess, ::System::IO::FileShare, ::System::IO::FileOptions, ByRef<::System::IO::MonoIOError>)>(&System::IO::MonoIO::Open)> {
   static const MethodInfo* get() {
     static auto* filename = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* mode = &::il2cpp_utils::GetClassFromName("System.IO", "FileMode")->byval_arg;
@@ -564,7 +564,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: System::IO::MonoIO::Close
 // Il2CppName: Close
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, ByRef<System::IO::MonoIOError>)>(&System::IO::MonoIO::Close)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr, ByRef<::System::IO::MonoIOError>)>(&System::IO::MonoIO::Close)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* error = &::il2cpp_utils::GetClassFromName("System.IO", "MonoIOError")->this_arg;
@@ -574,7 +574,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::IO::MonoIO::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, ::ArrayW<uint8_t>, int, int, ByRef<System::IO::MonoIOError>)>(&System::IO::MonoIO::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::System::IntPtr, ::ArrayW<uint8_t>, int, int, ByRef<::System::IO::MonoIOError>)>(&System::IO::MonoIO::Read)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* dest = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -587,7 +587,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Writing MetadataGetter for method: System::IO::MonoIO::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Runtime::InteropServices::SafeHandle*, ::ArrayW<uint8_t>, int, int, ByRef<System::IO::MonoIOError>)>(&System::IO::MonoIO::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::System::Runtime::InteropServices::SafeHandle*, ::ArrayW<uint8_t>, int, int, ByRef<::System::IO::MonoIOError>)>(&System::IO::MonoIO::Read)> {
   static const MethodInfo* get() {
     static auto* safeHandle = &::il2cpp_utils::GetClassFromName("System.Runtime.InteropServices", "SafeHandle")->byval_arg;
     static auto* dest = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -600,7 +600,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Writing MetadataGetter for method: System::IO::MonoIO::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, ByRef<::ArrayW<uint8_t>>, int, int, ByRef<System::IO::MonoIOError>)>(&System::IO::MonoIO::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::System::IntPtr, ByRef<::ArrayW<uint8_t>>, int, int, ByRef<::System::IO::MonoIOError>)>(&System::IO::MonoIO::Write)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* src = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->this_arg;
@@ -613,7 +613,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Writing MetadataGetter for method: System::IO::MonoIO::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Runtime::InteropServices::SafeHandle*, ::ArrayW<uint8_t>, int, int, ByRef<System::IO::MonoIOError>)>(&System::IO::MonoIO::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::System::Runtime::InteropServices::SafeHandle*, ::ArrayW<uint8_t>, int, int, ByRef<::System::IO::MonoIOError>)>(&System::IO::MonoIO::Write)> {
   static const MethodInfo* get() {
     static auto* safeHandle = &::il2cpp_utils::GetClassFromName("System.Runtime.InteropServices", "SafeHandle")->byval_arg;
     static auto* src = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -626,7 +626,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Writing MetadataGetter for method: System::IO::MonoIO::Seek
 // Il2CppName: Seek
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(System::IntPtr, int64_t, System::IO::SeekOrigin, ByRef<System::IO::MonoIOError>)>(&System::IO::MonoIO::Seek)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::System::IntPtr, int64_t, ::System::IO::SeekOrigin, ByRef<::System::IO::MonoIOError>)>(&System::IO::MonoIO::Seek)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
@@ -638,7 +638,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)
 // Writing MetadataGetter for method: System::IO::MonoIO::Seek
 // Il2CppName: Seek
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(System::Runtime::InteropServices::SafeHandle*, int64_t, System::IO::SeekOrigin, ByRef<System::IO::MonoIOError>)>(&System::IO::MonoIO::Seek)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::System::Runtime::InteropServices::SafeHandle*, int64_t, ::System::IO::SeekOrigin, ByRef<::System::IO::MonoIOError>)>(&System::IO::MonoIO::Seek)> {
   static const MethodInfo* get() {
     static auto* safeHandle = &::il2cpp_utils::GetClassFromName("System.Runtime.InteropServices", "SafeHandle")->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
@@ -650,7 +650,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)
 // Writing MetadataGetter for method: System::IO::MonoIO::GetLength
 // Il2CppName: GetLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(System::IntPtr, ByRef<System::IO::MonoIOError>)>(&System::IO::MonoIO::GetLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::System::IntPtr, ByRef<::System::IO::MonoIOError>)>(&System::IO::MonoIO::GetLength)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* error = &::il2cpp_utils::GetClassFromName("System.IO", "MonoIOError")->this_arg;
@@ -660,7 +660,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)
 // Writing MetadataGetter for method: System::IO::MonoIO::GetLength
 // Il2CppName: GetLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(System::Runtime::InteropServices::SafeHandle*, ByRef<System::IO::MonoIOError>)>(&System::IO::MonoIO::GetLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::System::Runtime::InteropServices::SafeHandle*, ByRef<::System::IO::MonoIOError>)>(&System::IO::MonoIO::GetLength)> {
   static const MethodInfo* get() {
     static auto* safeHandle = &::il2cpp_utils::GetClassFromName("System.Runtime.InteropServices", "SafeHandle")->byval_arg;
     static auto* error = &::il2cpp_utils::GetClassFromName("System.IO", "MonoIOError")->this_arg;
@@ -670,7 +670,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)
 // Writing MetadataGetter for method: System::IO::MonoIO::SetLength
 // Il2CppName: SetLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, int64_t, ByRef<System::IO::MonoIOError>)>(&System::IO::MonoIO::SetLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr, int64_t, ByRef<::System::IO::MonoIOError>)>(&System::IO::MonoIO::SetLength)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
@@ -681,7 +681,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::IO::MonoIO::SetLength
 // Il2CppName: SetLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Runtime::InteropServices::SafeHandle*, int64_t, ByRef<System::IO::MonoIOError>)>(&System::IO::MonoIO::SetLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Runtime::InteropServices::SafeHandle*, int64_t, ByRef<::System::IO::MonoIOError>)>(&System::IO::MonoIO::SetLength)> {
   static const MethodInfo* get() {
     static auto* safeHandle = &::il2cpp_utils::GetClassFromName("System.Runtime.InteropServices", "SafeHandle")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
@@ -692,7 +692,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::IO::MonoIO::CreatePipe
 // Il2CppName: CreatePipe
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<System::IntPtr>, ByRef<System::IntPtr>, ByRef<System::IO::MonoIOError>)>(&System::IO::MonoIO::CreatePipe)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<::System::IntPtr>, ByRef<::System::IntPtr>, ByRef<::System::IO::MonoIOError>)>(&System::IO::MonoIO::CreatePipe)> {
   static const MethodInfo* get() {
     static auto* read_handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->this_arg;
     static auto* write_handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->this_arg;
@@ -703,7 +703,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(By
 // Writing MetadataGetter for method: System::IO::MonoIO::DuplicateHandle
 // Il2CppName: DuplicateHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, System::IntPtr, System::IntPtr, ByRef<System::IntPtr>, int, int, int, ByRef<System::IO::MonoIOError>)>(&System::IO::MonoIO::DuplicateHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr, ::System::IntPtr, ::System::IntPtr, ByRef<::System::IntPtr>, int, int, int, ByRef<::System::IO::MonoIOError>)>(&System::IO::MonoIO::DuplicateHandle)> {
   static const MethodInfo* get() {
     static auto* source_process_handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* source_handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;

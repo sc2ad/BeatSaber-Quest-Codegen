@@ -20,8 +20,8 @@ namespace GlobalNamespace {
   class StringBuilderExtension;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::StringBuilderExtension);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StringBuilderExtension*, "", "StringBuilderExtension");
+NEED_NO_BOX(::GlobalNamespace::StringBuilderExtension);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StringBuilderExtension*, "", "StringBuilderExtension");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -41,13 +41,13 @@ namespace GlobalNamespace {
     static void _cctor();
     // static public System.Void Swap(System.Text.StringBuilder sb, System.Int32 startIndex, System.Int32 endIndex)
     // Offset: 0x299DDBC
-    static void Swap(System::Text::StringBuilder* sb, int startIndex, int endIndex);
+    static void Swap(::System::Text::StringBuilder* sb, int startIndex, int endIndex);
     // static public System.Void AppendNumber(System.Text.StringBuilder sb, System.Int32 number)
     // Offset: 0x299DE74
-    static void AppendNumber(System::Text::StringBuilder* sb, int number);
+    static void AppendNumber(::System::Text::StringBuilder* sb, int number);
     // static public System.Void AppendNumber(System.Text.StringBuilder sb, System.UInt32 unumber)
     // Offset: 0x299DFBC
-    static void AppendNumber(System::Text::StringBuilder* sb, uint unumber);
+    static void AppendNumber(::System::Text::StringBuilder* sb, uint unumber);
   }; // StringBuilderExtension
   #pragma pack(pop)
 }
@@ -63,7 +63,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::StringBuilderExtension::Swap
 // Il2CppName: Swap
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Text::StringBuilder*, int, int)>(&GlobalNamespace::StringBuilderExtension::Swap)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, int, int)>(&GlobalNamespace::StringBuilderExtension::Swap)> {
   static const MethodInfo* get() {
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -74,7 +74,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: GlobalNamespace::StringBuilderExtension::AppendNumber
 // Il2CppName: AppendNumber
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Text::StringBuilder*, int)>(&GlobalNamespace::StringBuilderExtension::AppendNumber)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, int)>(&GlobalNamespace::StringBuilderExtension::AppendNumber)> {
   static const MethodInfo* get() {
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* number = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -84,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: GlobalNamespace::StringBuilderExtension::AppendNumber
 // Il2CppName: AppendNumber
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Text::StringBuilder*, uint)>(&GlobalNamespace::StringBuilderExtension::AppendNumber)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, uint)>(&GlobalNamespace::StringBuilderExtension::AppendNumber)> {
   static const MethodInfo* get() {
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* unumber = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;

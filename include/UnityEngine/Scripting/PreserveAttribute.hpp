@@ -18,8 +18,8 @@ namespace UnityEngine::Scripting {
   class PreserveAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Scripting::PreserveAttribute);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Scripting::PreserveAttribute*, "UnityEngine.Scripting", "PreserveAttribute");
+NEED_NO_BOX(::UnityEngine::Scripting::PreserveAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Scripting::PreserveAttribute*, "UnityEngine.Scripting", "PreserveAttribute");
 // Type namespace: UnityEngine.Scripting
 namespace UnityEngine::Scripting {
   // Size: 0x10
@@ -28,7 +28,7 @@ namespace UnityEngine::Scripting {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AttributeUsageAttribute] Offset: 11A6C28
   // [RequiredByNativeCodeAttribute] Offset: 11A6C28
-  class PreserveAttribute : public System::Attribute {
+  class PreserveAttribute : public ::System::Attribute {
     public:
     // public System.Void .ctor()
     // Offset: 0x20D3368
@@ -37,7 +37,7 @@ namespace UnityEngine::Scripting {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PreserveAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Scripting::PreserveAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Scripting::PreserveAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PreserveAttribute*, creationType>()));
     }
   }; // UnityEngine.Scripting.PreserveAttribute

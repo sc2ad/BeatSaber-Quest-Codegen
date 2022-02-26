@@ -34,8 +34,8 @@ namespace Oculus::Platform::Models {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OculusBeatmapDataAssetFileModel::$$c__DisplayClass15_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusBeatmapDataAssetFileModel::$$c__DisplayClass15_0*, "", "OculusBeatmapDataAssetFileModel/<>c__DisplayClass15_0");
+NEED_NO_BOX(::GlobalNamespace::OculusBeatmapDataAssetFileModel::$$c__DisplayClass15_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OculusBeatmapDataAssetFileModel::$$c__DisplayClass15_0*, "", "OculusBeatmapDataAssetFileModel/<>c__DisplayClass15_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x28
@@ -57,50 +57,50 @@ namespace GlobalNamespace {
     // public System.Threading.CancellationToken cancellationToken
     // Size: 0x8
     // Offset: 0x10
-    System::Threading::CancellationToken cancellationToken;
+    ::System::Threading::CancellationToken cancellationToken;
     // Field size check
-    static_assert(sizeof(System::Threading::CancellationToken) == 0x8);
+    static_assert(sizeof(::System::Threading::CancellationToken) == 0x8);
     // public System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> taskSource
     // Size: 0x8
     // Offset: 0x18
-    System::Threading::Tasks::TaskCompletionSource_1<bool>* taskSource;
+    ::System::Threading::Tasks::TaskCompletionSource_1<bool>* taskSource;
     // Field size check
-    static_assert(sizeof(System::Threading::Tasks::TaskCompletionSource_1<bool>*) == 0x8);
+    static_assert(sizeof(::System::Threading::Tasks::TaskCompletionSource_1<bool>*) == 0x8);
     // public OculusBeatmapDataAssetFileModel <>4__this
     // Size: 0x8
     // Offset: 0x20
-    GlobalNamespace::OculusBeatmapDataAssetFileModel* $$4__this;
+    ::GlobalNamespace::OculusBeatmapDataAssetFileModel* $$4__this;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::OculusBeatmapDataAssetFileModel*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::OculusBeatmapDataAssetFileModel*) == 0x8);
     public:
     // Get instance field reference: public System.Threading.CancellationToken cancellationToken
-    System::Threading::CancellationToken& dyn_cancellationToken();
+    ::System::Threading::CancellationToken& dyn_cancellationToken();
     // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> taskSource
-    System::Threading::Tasks::TaskCompletionSource_1<bool>*& dyn_taskSource();
+    ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& dyn_taskSource();
     // Get instance field reference: public OculusBeatmapDataAssetFileModel <>4__this
-    GlobalNamespace::OculusBeatmapDataAssetFileModel*& dyn_$$4__this();
+    ::GlobalNamespace::OculusBeatmapDataAssetFileModel*& dyn_$$4__this();
     // System.Void <ReloadAssetDetailsForAllLevelsAsync>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.AssetDetailsList> getListMsg)
     // Offset: 0x2B36B10
-    void $ReloadAssetDetailsForAllLevelsAsync$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::AssetDetailsList*>* getListMsg);
+    void $ReloadAssetDetailsForAllLevelsAsync$b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetDetailsList*>* getListMsg);
     // public System.Void .ctor()
     // Offset: 0x2B36B08
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusBeatmapDataAssetFileModel::$$c__DisplayClass15_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OculusBeatmapDataAssetFileModel::$$c__DisplayClass15_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusBeatmapDataAssetFileModel::$$c__DisplayClass15_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusBeatmapDataAssetFileModel::$$c__DisplayClass15_0*, creationType>()));
     }
   }; // OculusBeatmapDataAssetFileModel/<>c__DisplayClass15_0
   #pragma pack(pop)
-  static check_size<sizeof(OculusBeatmapDataAssetFileModel::$$c__DisplayClass15_0), 32 + sizeof(GlobalNamespace::OculusBeatmapDataAssetFileModel*)> __GlobalNamespace_OculusBeatmapDataAssetFileModel_$$c__DisplayClass15_0SizeCheck;
+  static check_size<sizeof(OculusBeatmapDataAssetFileModel::$$c__DisplayClass15_0), 32 + sizeof(::GlobalNamespace::OculusBeatmapDataAssetFileModel*)> __GlobalNamespace_OculusBeatmapDataAssetFileModel_$$c__DisplayClass15_0SizeCheck;
   static_assert(sizeof(OculusBeatmapDataAssetFileModel::$$c__DisplayClass15_0) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusBeatmapDataAssetFileModel::$$c__DisplayClass15_0::$ReloadAssetDetailsForAllLevelsAsync$b__0
 // Il2CppName: <ReloadAssetDetailsForAllLevelsAsync>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusBeatmapDataAssetFileModel::$$c__DisplayClass15_0::*)(Oculus::Platform::Message_1<Oculus::Platform::Models::AssetDetailsList*>*)>(&GlobalNamespace::OculusBeatmapDataAssetFileModel::$$c__DisplayClass15_0::$ReloadAssetDetailsForAllLevelsAsync$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusBeatmapDataAssetFileModel::$$c__DisplayClass15_0::*)(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetDetailsList*>*)>(&GlobalNamespace::OculusBeatmapDataAssetFileModel::$$c__DisplayClass15_0::$ReloadAssetDetailsForAllLevelsAsync$b__0)> {
   static const MethodInfo* get() {
     static auto* getListMsg = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("Oculus.Platform", "Message`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Oculus.Platform.Models", "AssetDetailsList")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusBeatmapDataAssetFileModel::$$c__DisplayClass15_0*), "<ReloadAssetDetailsForAllLevelsAsync>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{getListMsg});

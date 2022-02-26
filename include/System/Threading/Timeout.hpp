@@ -14,8 +14,8 @@ namespace System::Threading {
   class Timeout;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Threading::Timeout);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::Timeout*, "System.Threading", "Timeout");
+NEED_NO_BOX(::System::Threading::Timeout);
+DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Timeout*, "System.Threading", "Timeout");
 // Type namespace: System.Threading
 namespace System::Threading {
   // Size: 0x10
@@ -27,9 +27,9 @@ namespace System::Threading {
     public:
     // [ComVisibleAttribute] Offset: 0x118E9F0
     // Get static field: static public readonly System.TimeSpan InfiniteTimeSpan
-    static System::TimeSpan _get_InfiniteTimeSpan();
+    static ::System::TimeSpan _get_InfiniteTimeSpan();
     // Set static field: static public readonly System.TimeSpan InfiniteTimeSpan
-    static void _set_InfiniteTimeSpan(System::TimeSpan value);
+    static void _set_InfiniteTimeSpan(::System::TimeSpan value);
     // static private System.Void .cctor()
     // Offset: 0x1CE140C
     static void _cctor();

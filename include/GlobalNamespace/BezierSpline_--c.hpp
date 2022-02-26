@@ -26,8 +26,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BezierSpline::$$c);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BezierSpline::$$c*, "", "BezierSpline/<>c");
+NEED_NO_BOX(::GlobalNamespace::BezierSpline::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BezierSpline::$$c*, "", "BezierSpline/<>c");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -38,47 +38,47 @@ namespace GlobalNamespace {
   class BezierSpline::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly BezierSpline/<>c <>9
-    static GlobalNamespace::BezierSpline::$$c* _get_$$9();
+    static ::GlobalNamespace::BezierSpline::$$c* _get_$$9();
     // Set static field: static public readonly BezierSpline/<>c <>9
-    static void _set_$$9(GlobalNamespace::BezierSpline::$$c* value);
+    static void _set_$$9(::GlobalNamespace::BezierSpline::$$c* value);
     // Get static field: static public System.Comparison`1<UnityEngine.Vector3> <>9__6_0
-    static System::Comparison_1<UnityEngine::Vector3>* _get_$$9__6_0();
+    static ::System::Comparison_1<::UnityEngine::Vector3>* _get_$$9__6_0();
     // Set static field: static public System.Comparison`1<UnityEngine.Vector3> <>9__6_0
-    static void _set_$$9__6_0(System::Comparison_1<UnityEngine::Vector3>* value);
+    static void _set_$$9__6_0(::System::Comparison_1<::UnityEngine::Vector3>* value);
     // Get static field: static public System.Func`2<UnityEngine.Vector3,System.Single> <>9__8_0
-    static System::Func_2<UnityEngine::Vector3, float>* _get_$$9__8_0();
+    static ::System::Func_2<::UnityEngine::Vector3, float>* _get_$$9__8_0();
     // Set static field: static public System.Func`2<UnityEngine.Vector3,System.Single> <>9__8_0
-    static void _set_$$9__8_0(System::Func_2<UnityEngine::Vector3, float>* value);
+    static void _set_$$9__8_0(::System::Func_2<::UnityEngine::Vector3, float>* value);
     // Get static field: static public System.Func`2<UnityEngine.Vector3,System.Single> <>9__8_1
-    static System::Func_2<UnityEngine::Vector3, float>* _get_$$9__8_1();
+    static ::System::Func_2<::UnityEngine::Vector3, float>* _get_$$9__8_1();
     // Set static field: static public System.Func`2<UnityEngine.Vector3,System.Single> <>9__8_1
-    static void _set_$$9__8_1(System::Func_2<UnityEngine::Vector3, float>* value);
+    static void _set_$$9__8_1(::System::Func_2<::UnityEngine::Vector3, float>* value);
     // Get static field: static public System.Func`2<UnityEngine.Vector3,System.Single> <>9__8_2
-    static System::Func_2<UnityEngine::Vector3, float>* _get_$$9__8_2();
+    static ::System::Func_2<::UnityEngine::Vector3, float>* _get_$$9__8_2();
     // Set static field: static public System.Func`2<UnityEngine.Vector3,System.Single> <>9__8_2
-    static void _set_$$9__8_2(System::Func_2<UnityEngine::Vector3, float>* value);
+    static void _set_$$9__8_2(::System::Func_2<::UnityEngine::Vector3, float>* value);
     // static private System.Void .cctor()
     // Offset: 0x14D1AF8
     static void _cctor();
     // System.Int32 <SortSourceData>b__6_0(UnityEngine.Vector3 point1, UnityEngine.Vector3 point2)
     // Offset: 0x14D1B64
-    int $SortSourceData$b__6_0(UnityEngine::Vector3 point1, UnityEngine::Vector3 point2);
+    int $SortSourceData$b__6_0(::UnityEngine::Vector3 point1, ::UnityEngine::Vector3 point2);
     // System.Single <ComputeControlPoints>b__8_0(UnityEngine.Vector3 p)
     // Offset: 0x14D1B98
-    float $ComputeControlPoints$b__8_0(UnityEngine::Vector3 p);
+    float $ComputeControlPoints$b__8_0(::UnityEngine::Vector3 p);
     // System.Single <ComputeControlPoints>b__8_1(UnityEngine.Vector3 p)
     // Offset: 0x14D1B9C
-    float $ComputeControlPoints$b__8_1(UnityEngine::Vector3 p);
+    float $ComputeControlPoints$b__8_1(::UnityEngine::Vector3 p);
     // System.Single <ComputeControlPoints>b__8_2(UnityEngine.Vector3 p)
     // Offset: 0x14D1BA4
-    float $ComputeControlPoints$b__8_2(UnityEngine::Vector3 p);
+    float $ComputeControlPoints$b__8_2(::UnityEngine::Vector3 p);
     // public System.Void .ctor()
     // Offset: 0x14D1B5C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BezierSpline::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BezierSpline::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BezierSpline::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BezierSpline::$$c*, creationType>()));
     }
   }; // BezierSpline/<>c
@@ -96,7 +96,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::BezierSpline::$$c::$SortSourceData$b__6_0
 // Il2CppName: <SortSourceData>b__6_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::BezierSpline::$$c::*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&GlobalNamespace::BezierSpline::$$c::$SortSourceData$b__6_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::BezierSpline::$$c::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&GlobalNamespace::BezierSpline::$$c::$SortSourceData$b__6_0)> {
   static const MethodInfo* get() {
     static auto* point1 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* point2 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -106,7 +106,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Writing MetadataGetter for method: GlobalNamespace::BezierSpline::$$c::$ComputeControlPoints$b__8_0
 // Il2CppName: <ComputeControlPoints>b__8_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BezierSpline::$$c::*)(UnityEngine::Vector3)>(&GlobalNamespace::BezierSpline::$$c::$ComputeControlPoints$b__8_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BezierSpline::$$c::*)(::UnityEngine::Vector3)>(&GlobalNamespace::BezierSpline::$$c::$ComputeControlPoints$b__8_0)> {
   static const MethodInfo* get() {
     static auto* p = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BezierSpline::$$c*), "<ComputeControlPoints>b__8_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{p});
@@ -115,7 +115,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Writing MetadataGetter for method: GlobalNamespace::BezierSpline::$$c::$ComputeControlPoints$b__8_1
 // Il2CppName: <ComputeControlPoints>b__8_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BezierSpline::$$c::*)(UnityEngine::Vector3)>(&GlobalNamespace::BezierSpline::$$c::$ComputeControlPoints$b__8_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BezierSpline::$$c::*)(::UnityEngine::Vector3)>(&GlobalNamespace::BezierSpline::$$c::$ComputeControlPoints$b__8_1)> {
   static const MethodInfo* get() {
     static auto* p = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BezierSpline::$$c*), "<ComputeControlPoints>b__8_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{p});
@@ -124,7 +124,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Writing MetadataGetter for method: GlobalNamespace::BezierSpline::$$c::$ComputeControlPoints$b__8_2
 // Il2CppName: <ComputeControlPoints>b__8_2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BezierSpline::$$c::*)(UnityEngine::Vector3)>(&GlobalNamespace::BezierSpline::$$c::$ComputeControlPoints$b__8_2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BezierSpline::$$c::*)(::UnityEngine::Vector3)>(&GlobalNamespace::BezierSpline::$$c::$ComputeControlPoints$b__8_2)> {
   static const MethodInfo* get() {
     static auto* p = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BezierSpline::$$c*), "<ComputeControlPoints>b__8_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{p});

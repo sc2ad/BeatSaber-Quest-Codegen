@@ -32,8 +32,8 @@ namespace UnityEngine::TestRunner::TestLaunchers {
   class RemoteTestResultData;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*, "UnityEngine.TestRunner.TestLaunchers", "RemoteTestResultData");
+NEED_NO_BOX(::UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*, "UnityEngine.TestRunner.TestLaunchers", "RemoteTestResultData");
 // Type namespace: UnityEngine.TestRunner.TestLaunchers
 namespace UnityEngine::TestRunner::TestLaunchers {
   // Size: 0x90
@@ -42,7 +42,7 @@ namespace UnityEngine::TestRunner::TestLaunchers {
   // [TokenAttribute] Offset: FFFFFFFF
   class RemoteTestResultData : public ::Il2CppObject {
     public:
-    // Nested type: UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData::$$c
+    // Nested type: ::UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData::$$c
     class $$c;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -80,9 +80,9 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // public NUnit.Framework.Interfaces.TestStatus testStatus
     // Size: 0x4
     // Offset: 0x30
-    NUnit::Framework::Interfaces::TestStatus testStatus;
+    ::NUnit::Framework::Interfaces::TestStatus testStatus;
     // Field size check
-    static_assert(sizeof(NUnit::Framework::Interfaces::TestStatus) == 0x4);
+    static_assert(sizeof(::NUnit::Framework::Interfaces::TestStatus) == 0x4);
     // Padding between fields: testStatus and: duration
     char __padding4[0x4] = {};
     // public System.Double duration
@@ -94,15 +94,15 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // public System.DateTime startTime
     // Size: 0x8
     // Offset: 0x40
-    System::DateTime startTime;
+    ::System::DateTime startTime;
     // Field size check
-    static_assert(sizeof(System::DateTime) == 0x8);
+    static_assert(sizeof(::System::DateTime) == 0x8);
     // public System.DateTime endTime
     // Size: 0x8
     // Offset: 0x48
-    System::DateTime endTime;
+    ::System::DateTime endTime;
     // Field size check
-    static_assert(sizeof(System::DateTime) == 0x8);
+    static_assert(sizeof(::System::DateTime) == 0x8);
     // public System.String message
     // Size: 0x8
     // Offset: 0x50
@@ -181,13 +181,13 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // Get instance field reference: public System.String resultState
     ::StringW& dyn_resultState();
     // Get instance field reference: public NUnit.Framework.Interfaces.TestStatus testStatus
-    NUnit::Framework::Interfaces::TestStatus& dyn_testStatus();
+    ::NUnit::Framework::Interfaces::TestStatus& dyn_testStatus();
     // Get instance field reference: public System.Double duration
     double& dyn_duration();
     // Get instance field reference: public System.DateTime startTime
-    System::DateTime& dyn_startTime();
+    ::System::DateTime& dyn_startTime();
     // Get instance field reference: public System.DateTime endTime
-    System::DateTime& dyn_endTime();
+    ::System::DateTime& dyn_endTime();
     // Get instance field reference: public System.String message
     ::StringW& dyn_message();
     // Get instance field reference: public System.String stackTrace
@@ -213,8 +213,8 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // System.Void .ctor(NUnit.Framework.Interfaces.ITestResult result)
     // Offset: 0x18D39D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static RemoteTestResultData* New_ctor(NUnit::Framework::Interfaces::ITestResult* result) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData::.ctor");
+    static RemoteTestResultData* New_ctor(::NUnit::Framework::Interfaces::ITestResult* result) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RemoteTestResultData*, creationType>(result)));
     }
   }; // UnityEngine.TestRunner.TestLaunchers.RemoteTestResultData

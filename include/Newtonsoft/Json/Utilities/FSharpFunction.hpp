@@ -26,8 +26,8 @@ namespace Newtonsoft::Json::Utilities {
   class FSharpFunction;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Utilities::FSharpFunction);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::FSharpFunction*, "Newtonsoft.Json.Utilities", "FSharpFunction");
+NEED_NO_BOX(::Newtonsoft::Json::Utilities::FSharpFunction);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::FSharpFunction*, "Newtonsoft.Json.Utilities", "FSharpFunction");
 // Type namespace: Newtonsoft.Json.Utilities
 namespace Newtonsoft::Json::Utilities {
   // Size: 0x20
@@ -57,19 +57,19 @@ namespace Newtonsoft::Json::Utilities {
     // private readonly Newtonsoft.Json.Utilities.MethodCall`2<System.Object,System.Object> _invoker
     // Size: 0x8
     // Offset: 0x18
-    Newtonsoft::Json::Utilities::MethodCall_2<::Il2CppObject*, ::Il2CppObject*>* invoker;
+    ::Newtonsoft::Json::Utilities::MethodCall_2<::Il2CppObject*, ::Il2CppObject*>* invoker;
     // Field size check
-    static_assert(sizeof(Newtonsoft::Json::Utilities::MethodCall_2<::Il2CppObject*, ::Il2CppObject*>*) == 0x8);
+    static_assert(sizeof(::Newtonsoft::Json::Utilities::MethodCall_2<::Il2CppObject*, ::Il2CppObject*>*) == 0x8);
     public:
     // Get instance field reference: private readonly System.Object _instance
     ::Il2CppObject*& dyn__instance();
     // Get instance field reference: private readonly Newtonsoft.Json.Utilities.MethodCall`2<System.Object,System.Object> _invoker
-    Newtonsoft::Json::Utilities::MethodCall_2<::Il2CppObject*, ::Il2CppObject*>*& dyn__invoker();
+    ::Newtonsoft::Json::Utilities::MethodCall_2<::Il2CppObject*, ::Il2CppObject*>*& dyn__invoker();
     // public System.Void .ctor(System.Object instance, Newtonsoft.Json.Utilities.MethodCall`2<System.Object,System.Object> invoker)
     // Offset: 0x19E4564
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static FSharpFunction* New_ctor(::Il2CppObject* instance, Newtonsoft::Json::Utilities::MethodCall_2<::Il2CppObject*, ::Il2CppObject*>* invoker) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Utilities::FSharpFunction::.ctor");
+    static FSharpFunction* New_ctor(::Il2CppObject* instance, ::Newtonsoft::Json::Utilities::MethodCall_2<::Il2CppObject*, ::Il2CppObject*>* invoker) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Utilities::FSharpFunction::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FSharpFunction*, creationType>(instance, invoker)));
     }
     // public System.Object Invoke(params System.Object[] args)
@@ -77,7 +77,7 @@ namespace Newtonsoft::Json::Utilities {
     ::Il2CppObject* Invoke(::ArrayW<::Il2CppObject*> args);
   }; // Newtonsoft.Json.Utilities.FSharpFunction
   #pragma pack(pop)
-  static check_size<sizeof(FSharpFunction), 24 + sizeof(Newtonsoft::Json::Utilities::MethodCall_2<::Il2CppObject*, ::Il2CppObject*>*)> __Newtonsoft_Json_Utilities_FSharpFunctionSizeCheck;
+  static check_size<sizeof(FSharpFunction), 24 + sizeof(::Newtonsoft::Json::Utilities::MethodCall_2<::Il2CppObject*, ::Il2CppObject*>*)> __Newtonsoft_Json_Utilities_FSharpFunctionSizeCheck;
   static_assert(sizeof(FSharpFunction) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

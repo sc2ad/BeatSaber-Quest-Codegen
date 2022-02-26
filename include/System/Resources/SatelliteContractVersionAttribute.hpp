@@ -19,8 +19,8 @@ namespace System::Resources {
   class SatelliteContractVersionAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Resources::SatelliteContractVersionAttribute);
-DEFINE_IL2CPP_ARG_TYPE(System::Resources::SatelliteContractVersionAttribute*, "System.Resources", "SatelliteContractVersionAttribute");
+NEED_NO_BOX(::System::Resources::SatelliteContractVersionAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::Resources::SatelliteContractVersionAttribute*, "System.Resources", "SatelliteContractVersionAttribute");
 // Type namespace: System.Resources
 namespace System::Resources {
   // Size: 0x18
@@ -29,7 +29,7 @@ namespace System::Resources {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AttributeUsageAttribute] Offset: 1187D2C
   // [ComVisibleAttribute] Offset: 1187D2C
-  class SatelliteContractVersionAttribute : public System::Attribute {
+  class SatelliteContractVersionAttribute : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -57,7 +57,7 @@ namespace System::Resources {
     // Offset: 0x1C68F4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SatelliteContractVersionAttribute* New_ctor(::StringW version) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Resources::SatelliteContractVersionAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Resources::SatelliteContractVersionAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SatelliteContractVersionAttribute*, creationType>(version)));
     }
   }; // System.Resources.SatelliteContractVersionAttribute

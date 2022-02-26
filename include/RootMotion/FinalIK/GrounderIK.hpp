@@ -33,8 +33,8 @@ namespace RootMotion::FinalIK {
   class GrounderIK;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::GrounderIK);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GrounderIK*, "RootMotion.FinalIK", "GrounderIK");
+NEED_NO_BOX(::RootMotion::FinalIK::GrounderIK);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::GrounderIK*, "RootMotion.FinalIK", "GrounderIK");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0xA8
@@ -43,7 +43,7 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   // [HelpURLAttribute] Offset: 1262900
   // [AddComponentMenu] Offset: 1262900
-  class GrounderIK : public RootMotion::FinalIK::Grounder {
+  class GrounderIK : public ::RootMotion::FinalIK::Grounder {
     public:
     // Writing base type padding for base size: 0x39 to desired offset: 0x40
     char ___base_padding[0x7] = {};
@@ -59,23 +59,23 @@ namespace RootMotion::FinalIK {
     // public RootMotion.FinalIK.IK[] legs
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayW<RootMotion::FinalIK::IK*> legs;
+    ::ArrayW<::RootMotion::FinalIK::IK*> legs;
     // Field size check
-    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::IK*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::RootMotion::FinalIK::IK*>) == 0x8);
     // [TooltipAttribute] Offset: 0x1263CF0
     // public UnityEngine.Transform pelvis
     // Size: 0x8
     // Offset: 0x48
-    UnityEngine::Transform* pelvis;
+    ::UnityEngine::Transform* pelvis;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // [TooltipAttribute] Offset: 0x1263D28
     // public UnityEngine.Transform characterRoot
     // Size: 0x8
     // Offset: 0x50
-    UnityEngine::Transform* characterRoot;
+    ::UnityEngine::Transform* characterRoot;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // [TooltipAttribute] Offset: 0x1263D60
     // [RangeAttribute] Offset: 0x1263D60
     // public System.Single rootRotationWeight
@@ -103,27 +103,27 @@ namespace RootMotion::FinalIK {
     // private UnityEngine.Transform[] feet
     // Size: 0x8
     // Offset: 0x68
-    ::ArrayW<UnityEngine::Transform*> feet;
+    ::ArrayW<::UnityEngine::Transform*> feet;
     // Field size check
-    static_assert(sizeof(::ArrayW<UnityEngine::Transform*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::UnityEngine::Transform*>) == 0x8);
     // private UnityEngine.Quaternion[] footRotations
     // Size: 0x8
     // Offset: 0x70
-    ::ArrayW<UnityEngine::Quaternion> footRotations;
+    ::ArrayW<::UnityEngine::Quaternion> footRotations;
     // Field size check
-    static_assert(sizeof(::ArrayW<UnityEngine::Quaternion>) == 0x8);
+    static_assert(sizeof(::ArrayW<::UnityEngine::Quaternion>) == 0x8);
     // private UnityEngine.Vector3 animatedPelvisLocalPosition
     // Size: 0xC
     // Offset: 0x78
-    UnityEngine::Vector3 animatedPelvisLocalPosition;
+    ::UnityEngine::Vector3 animatedPelvisLocalPosition;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // private UnityEngine.Vector3 solvedPelvisLocalPosition
     // Size: 0xC
     // Offset: 0x84
-    UnityEngine::Vector3 solvedPelvisLocalPosition;
+    ::UnityEngine::Vector3 solvedPelvisLocalPosition;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // private System.Int32 solvedFeet
     // Size: 0x4
     // Offset: 0x90
@@ -149,16 +149,16 @@ namespace RootMotion::FinalIK {
     // private UnityEngine.Rigidbody characterRootRigidbody
     // Size: 0x8
     // Offset: 0xA0
-    UnityEngine::Rigidbody* characterRootRigidbody;
+    ::UnityEngine::Rigidbody* characterRootRigidbody;
     // Field size check
-    static_assert(sizeof(UnityEngine::Rigidbody*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Rigidbody*) == 0x8);
     public:
     // Get instance field reference: public RootMotion.FinalIK.IK[] legs
-    ::ArrayW<RootMotion::FinalIK::IK*>& dyn_legs();
+    ::ArrayW<::RootMotion::FinalIK::IK*>& dyn_legs();
     // Get instance field reference: public UnityEngine.Transform pelvis
-    UnityEngine::Transform*& dyn_pelvis();
+    ::UnityEngine::Transform*& dyn_pelvis();
     // Get instance field reference: public UnityEngine.Transform characterRoot
-    UnityEngine::Transform*& dyn_characterRoot();
+    ::UnityEngine::Transform*& dyn_characterRoot();
     // Get instance field reference: public System.Single rootRotationWeight
     float& dyn_rootRotationWeight();
     // Get instance field reference: public System.Single rootRotationSpeed
@@ -166,13 +166,13 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Single maxRootRotationAngle
     float& dyn_maxRootRotationAngle();
     // Get instance field reference: private UnityEngine.Transform[] feet
-    ::ArrayW<UnityEngine::Transform*>& dyn_feet();
+    ::ArrayW<::UnityEngine::Transform*>& dyn_feet();
     // Get instance field reference: private UnityEngine.Quaternion[] footRotations
-    ::ArrayW<UnityEngine::Quaternion>& dyn_footRotations();
+    ::ArrayW<::UnityEngine::Quaternion>& dyn_footRotations();
     // Get instance field reference: private UnityEngine.Vector3 animatedPelvisLocalPosition
-    UnityEngine::Vector3& dyn_animatedPelvisLocalPosition();
+    ::UnityEngine::Vector3& dyn_animatedPelvisLocalPosition();
     // Get instance field reference: private UnityEngine.Vector3 solvedPelvisLocalPosition
-    UnityEngine::Vector3& dyn_solvedPelvisLocalPosition();
+    ::UnityEngine::Vector3& dyn_solvedPelvisLocalPosition();
     // Get instance field reference: private System.Int32 solvedFeet
     int& dyn_solvedFeet();
     // Get instance field reference: private System.Boolean solved
@@ -180,7 +180,7 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private System.Single lastWeight
     float& dyn_lastWeight();
     // Get instance field reference: private UnityEngine.Rigidbody characterRootRigidbody
-    UnityEngine::Rigidbody*& dyn_characterRootRigidbody();
+    ::UnityEngine::Rigidbody*& dyn_characterRootRigidbody();
     // private System.Boolean IsReadyToInitiate()
     // Offset: 0x21C1A80
     bool IsReadyToInitiate();
@@ -216,7 +216,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GrounderIK* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::GrounderIK::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::GrounderIK::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GrounderIK*, creationType>()));
     }
     // protected override System.Void OpenUserManual()
@@ -236,7 +236,7 @@ namespace RootMotion::FinalIK {
     void ResetPosition();
   }; // RootMotion.FinalIK.GrounderIK
   #pragma pack(pop)
-  static check_size<sizeof(GrounderIK), 160 + sizeof(UnityEngine::Rigidbody*)> __RootMotion_FinalIK_GrounderIKSizeCheck;
+  static check_size<sizeof(GrounderIK), 160 + sizeof(::UnityEngine::Rigidbody*)> __RootMotion_FinalIK_GrounderIKSizeCheck;
   static_assert(sizeof(GrounderIK) == 0xA8);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

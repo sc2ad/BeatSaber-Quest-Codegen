@@ -50,8 +50,8 @@ namespace Oculus::Platform {
   class Matchmaking;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Matchmaking);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Matchmaking*, "Oculus.Platform", "Matchmaking");
+NEED_NO_BOX(::Oculus::Platform::Matchmaking);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Matchmaking*, "Oculus.Platform", "Matchmaking");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x10
@@ -60,62 +60,62 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class Matchmaking : public ::Il2CppObject {
     public:
-    // Nested type: Oculus::Platform::Matchmaking::CustomQuery
+    // Nested type: ::Oculus::Platform::Matchmaking::CustomQuery
     class CustomQuery;
     // static public Oculus.Platform.Request ReportResultsInsecure(System.UInt64 roomID, System.Collections.Generic.Dictionary`2<System.String,System.Int32> data)
     // Offset: 0x195CEB0
-    static Oculus::Platform::Request* ReportResultsInsecure(uint64_t roomID, System::Collections::Generic::Dictionary_2<::StringW, int>* data);
+    static ::Oculus::Platform::Request* ReportResultsInsecure(uint64_t roomID, ::System::Collections::Generic::Dictionary_2<::StringW, int>* data);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.MatchmakingStats> GetStats(System.String pool, System.UInt32 maxLevel, Oculus.Platform.MatchmakingStatApproach approach)
     // Offset: 0x195D10C
-    static Oculus::Platform::Request_1<Oculus::Platform::Models::MatchmakingStats*>* GetStats(::StringW pool, uint maxLevel, Oculus::Platform::MatchmakingStatApproach approach);
+    static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::MatchmakingStats*>* GetStats(::StringW pool, uint maxLevel, ::Oculus::Platform::MatchmakingStatApproach approach);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.MatchmakingBrowseResult> Browse(System.String pool, Oculus.Platform.Matchmaking/Oculus.Platform.CustomQuery customQueryData)
     // Offset: 0x195D240
-    static Oculus::Platform::Request_1<Oculus::Platform::Models::MatchmakingBrowseResult*>* Browse(::StringW pool, Oculus::Platform::Matchmaking::CustomQuery* customQueryData);
+    static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::MatchmakingBrowseResult*>* Browse(::StringW pool, ::Oculus::Platform::Matchmaking::CustomQuery* customQueryData);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.MatchmakingBrowseResult> Browse2(System.String pool, Oculus.Platform.MatchmakingOptions matchmakingOptions)
     // Offset: 0x195D6AC
-    static Oculus::Platform::Request_1<Oculus::Platform::Models::MatchmakingBrowseResult*>* Browse2(::StringW pool, Oculus::Platform::MatchmakingOptions* matchmakingOptions);
+    static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::MatchmakingBrowseResult*>* Browse2(::StringW pool, ::Oculus::Platform::MatchmakingOptions* matchmakingOptions);
     // static public Oculus.Platform.Request Cancel(System.String pool, System.String requestHash)
     // Offset: 0x195D84C
-    static Oculus::Platform::Request* Cancel(::StringW pool, ::StringW requestHash);
+    static ::Oculus::Platform::Request* Cancel(::StringW pool, ::StringW requestHash);
     // static public Oculus.Platform.Request Cancel()
     // Offset: 0x195D968
-    static Oculus::Platform::Request* Cancel();
+    static ::Oculus::Platform::Request* Cancel();
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.MatchmakingEnqueueResultAndRoom> CreateAndEnqueueRoom(System.String pool, System.UInt32 maxUsers, System.Boolean subscribeToUpdates, Oculus.Platform.Matchmaking/Oculus.Platform.CustomQuery customQueryData)
     // Offset: 0x195DA6C
-    static Oculus::Platform::Request_1<Oculus::Platform::Models::MatchmakingEnqueueResultAndRoom*>* CreateAndEnqueueRoom(::StringW pool, uint maxUsers, bool subscribeToUpdates, Oculus::Platform::Matchmaking::CustomQuery* customQueryData);
+    static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::MatchmakingEnqueueResultAndRoom*>* CreateAndEnqueueRoom(::StringW pool, uint maxUsers, bool subscribeToUpdates, ::Oculus::Platform::Matchmaking::CustomQuery* customQueryData);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.MatchmakingEnqueueResultAndRoom> CreateAndEnqueueRoom2(System.String pool, Oculus.Platform.MatchmakingOptions matchmakingOptions)
     // Offset: 0x195DBB8
-    static Oculus::Platform::Request_1<Oculus::Platform::Models::MatchmakingEnqueueResultAndRoom*>* CreateAndEnqueueRoom2(::StringW pool, Oculus::Platform::MatchmakingOptions* matchmakingOptions);
+    static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::MatchmakingEnqueueResultAndRoom*>* CreateAndEnqueueRoom2(::StringW pool, ::Oculus::Platform::MatchmakingOptions* matchmakingOptions);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Room> CreateRoom(System.String pool, System.UInt32 maxUsers, System.Boolean subscribeToUpdates)
     // Offset: 0x195DD08
-    static Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* CreateRoom(::StringW pool, uint maxUsers, bool subscribeToUpdates);
+    static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::Room*>* CreateRoom(::StringW pool, uint maxUsers, bool subscribeToUpdates);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Room> CreateRoom2(System.String pool, Oculus.Platform.MatchmakingOptions matchmakingOptions)
     // Offset: 0x195DE3C
-    static Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* CreateRoom2(::StringW pool, Oculus::Platform::MatchmakingOptions* matchmakingOptions);
+    static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::Room*>* CreateRoom2(::StringW pool, ::Oculus::Platform::MatchmakingOptions* matchmakingOptions);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.MatchmakingEnqueueResult> Enqueue(System.String pool, Oculus.Platform.Matchmaking/Oculus.Platform.CustomQuery customQueryData)
     // Offset: 0x195DF8C
-    static Oculus::Platform::Request_1<Oculus::Platform::Models::MatchmakingEnqueueResult*>* Enqueue(::StringW pool, Oculus::Platform::Matchmaking::CustomQuery* customQueryData);
+    static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::MatchmakingEnqueueResult*>* Enqueue(::StringW pool, ::Oculus::Platform::Matchmaking::CustomQuery* customQueryData);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.MatchmakingEnqueueResult> Enqueue2(System.String pool, Oculus.Platform.MatchmakingOptions matchmakingOptions)
     // Offset: 0x195E0C0
-    static Oculus::Platform::Request_1<Oculus::Platform::Models::MatchmakingEnqueueResult*>* Enqueue2(::StringW pool, Oculus::Platform::MatchmakingOptions* matchmakingOptions);
+    static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::MatchmakingEnqueueResult*>* Enqueue2(::StringW pool, ::Oculus::Platform::MatchmakingOptions* matchmakingOptions);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.MatchmakingEnqueueResult> EnqueueRoom(System.UInt64 roomID, Oculus.Platform.Matchmaking/Oculus.Platform.CustomQuery customQueryData)
     // Offset: 0x195E210
-    static Oculus::Platform::Request_1<Oculus::Platform::Models::MatchmakingEnqueueResult*>* EnqueueRoom(uint64_t roomID, Oculus::Platform::Matchmaking::CustomQuery* customQueryData);
+    static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::MatchmakingEnqueueResult*>* EnqueueRoom(uint64_t roomID, ::Oculus::Platform::Matchmaking::CustomQuery* customQueryData);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.MatchmakingEnqueueResult> EnqueueRoom2(System.UInt64 roomID, Oculus.Platform.MatchmakingOptions matchmakingOptions)
     // Offset: 0x195E344
-    static Oculus::Platform::Request_1<Oculus::Platform::Models::MatchmakingEnqueueResult*>* EnqueueRoom2(uint64_t roomID, Oculus::Platform::MatchmakingOptions* matchmakingOptions);
+    static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::MatchmakingEnqueueResult*>* EnqueueRoom2(uint64_t roomID, ::Oculus::Platform::MatchmakingOptions* matchmakingOptions);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.MatchmakingAdminSnapshot> GetAdminSnapshot()
     // Offset: 0x195E494
-    static Oculus::Platform::Request_1<Oculus::Platform::Models::MatchmakingAdminSnapshot*>* GetAdminSnapshot();
+    static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::MatchmakingAdminSnapshot*>* GetAdminSnapshot();
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Room> JoinRoom(System.UInt64 roomID, System.Boolean subscribeToUpdates)
     // Offset: 0x195E5A0
-    static Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* JoinRoom(uint64_t roomID, bool subscribeToUpdates);
+    static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::Room*>* JoinRoom(uint64_t roomID, bool subscribeToUpdates);
     // static public Oculus.Platform.Request StartMatch(System.UInt64 roomID)
     // Offset: 0x195E6C4
-    static Oculus::Platform::Request* StartMatch(uint64_t roomID);
+    static ::Oculus::Platform::Request* StartMatch(uint64_t roomID);
     // static public System.Void SetMatchFoundNotificationCallback(Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.Room> callback)
     // Offset: 0x195E7D8
-    static void SetMatchFoundNotificationCallback(typename Oculus::Platform::Message_1<Oculus::Platform::Models::Room*>::Callback* callback);
+    static void SetMatchFoundNotificationCallback(typename ::Oculus::Platform::Message_1<::Oculus::Platform::Models::Room*>::Callback* callback);
   }; // Oculus.Platform.Matchmaking
   #pragma pack(pop)
 }
@@ -123,7 +123,7 @@ namespace Oculus::Platform {
 // Writing MetadataGetter for method: Oculus::Platform::Matchmaking::ReportResultsInsecure
 // Il2CppName: ReportResultsInsecure
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request* (*)(uint64_t, System::Collections::Generic::Dictionary_2<::StringW, int>*)>(&Oculus::Platform::Matchmaking::ReportResultsInsecure)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request* (*)(uint64_t, ::System::Collections::Generic::Dictionary_2<::StringW, int>*)>(&Oculus::Platform::Matchmaking::ReportResultsInsecure)> {
   static const MethodInfo* get() {
     static auto* roomID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* data = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "Dictionary`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
@@ -133,7 +133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Writing MetadataGetter for method: Oculus::Platform::Matchmaking::GetStats
 // Il2CppName: GetStats
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::MatchmakingStats*>* (*)(::StringW, uint, Oculus::Platform::MatchmakingStatApproach)>(&Oculus::Platform::Matchmaking::GetStats)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::MatchmakingStats*>* (*)(::StringW, uint, ::Oculus::Platform::MatchmakingStatApproach)>(&Oculus::Platform::Matchmaking::GetStats)> {
   static const MethodInfo* get() {
     static auto* pool = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* maxLevel = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -144,7 +144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Writing MetadataGetter for method: Oculus::Platform::Matchmaking::Browse
 // Il2CppName: Browse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::MatchmakingBrowseResult*>* (*)(::StringW, Oculus::Platform::Matchmaking::CustomQuery*)>(&Oculus::Platform::Matchmaking::Browse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::MatchmakingBrowseResult*>* (*)(::StringW, ::Oculus::Platform::Matchmaking::CustomQuery*)>(&Oculus::Platform::Matchmaking::Browse)> {
   static const MethodInfo* get() {
     static auto* pool = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* customQueryData = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "Matchmaking/CustomQuery")->byval_arg;
@@ -154,7 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Writing MetadataGetter for method: Oculus::Platform::Matchmaking::Browse2
 // Il2CppName: Browse2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::MatchmakingBrowseResult*>* (*)(::StringW, Oculus::Platform::MatchmakingOptions*)>(&Oculus::Platform::Matchmaking::Browse2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::MatchmakingBrowseResult*>* (*)(::StringW, ::Oculus::Platform::MatchmakingOptions*)>(&Oculus::Platform::Matchmaking::Browse2)> {
   static const MethodInfo* get() {
     static auto* pool = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* matchmakingOptions = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "MatchmakingOptions")->byval_arg;
@@ -164,7 +164,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Writing MetadataGetter for method: Oculus::Platform::Matchmaking::Cancel
 // Il2CppName: Cancel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request* (*)(::StringW, ::StringW)>(&Oculus::Platform::Matchmaking::Cancel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request* (*)(::StringW, ::StringW)>(&Oculus::Platform::Matchmaking::Cancel)> {
   static const MethodInfo* get() {
     static auto* pool = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* requestHash = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -174,7 +174,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Writing MetadataGetter for method: Oculus::Platform::Matchmaking::Cancel
 // Il2CppName: Cancel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request* (*)()>(&Oculus::Platform::Matchmaking::Cancel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request* (*)()>(&Oculus::Platform::Matchmaking::Cancel)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Matchmaking*), "Cancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -182,7 +182,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Writing MetadataGetter for method: Oculus::Platform::Matchmaking::CreateAndEnqueueRoom
 // Il2CppName: CreateAndEnqueueRoom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::MatchmakingEnqueueResultAndRoom*>* (*)(::StringW, uint, bool, Oculus::Platform::Matchmaking::CustomQuery*)>(&Oculus::Platform::Matchmaking::CreateAndEnqueueRoom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::MatchmakingEnqueueResultAndRoom*>* (*)(::StringW, uint, bool, ::Oculus::Platform::Matchmaking::CustomQuery*)>(&Oculus::Platform::Matchmaking::CreateAndEnqueueRoom)> {
   static const MethodInfo* get() {
     static auto* pool = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* maxUsers = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -194,7 +194,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Writing MetadataGetter for method: Oculus::Platform::Matchmaking::CreateAndEnqueueRoom2
 // Il2CppName: CreateAndEnqueueRoom2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::MatchmakingEnqueueResultAndRoom*>* (*)(::StringW, Oculus::Platform::MatchmakingOptions*)>(&Oculus::Platform::Matchmaking::CreateAndEnqueueRoom2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::MatchmakingEnqueueResultAndRoom*>* (*)(::StringW, ::Oculus::Platform::MatchmakingOptions*)>(&Oculus::Platform::Matchmaking::CreateAndEnqueueRoom2)> {
   static const MethodInfo* get() {
     static auto* pool = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* matchmakingOptions = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "MatchmakingOptions")->byval_arg;
@@ -204,7 +204,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Writing MetadataGetter for method: Oculus::Platform::Matchmaking::CreateRoom
 // Il2CppName: CreateRoom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* (*)(::StringW, uint, bool)>(&Oculus::Platform::Matchmaking::CreateRoom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::Room*>* (*)(::StringW, uint, bool)>(&Oculus::Platform::Matchmaking::CreateRoom)> {
   static const MethodInfo* get() {
     static auto* pool = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* maxUsers = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -215,7 +215,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Writing MetadataGetter for method: Oculus::Platform::Matchmaking::CreateRoom2
 // Il2CppName: CreateRoom2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* (*)(::StringW, Oculus::Platform::MatchmakingOptions*)>(&Oculus::Platform::Matchmaking::CreateRoom2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::Room*>* (*)(::StringW, ::Oculus::Platform::MatchmakingOptions*)>(&Oculus::Platform::Matchmaking::CreateRoom2)> {
   static const MethodInfo* get() {
     static auto* pool = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* matchmakingOptions = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "MatchmakingOptions")->byval_arg;
@@ -225,7 +225,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Writing MetadataGetter for method: Oculus::Platform::Matchmaking::Enqueue
 // Il2CppName: Enqueue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::MatchmakingEnqueueResult*>* (*)(::StringW, Oculus::Platform::Matchmaking::CustomQuery*)>(&Oculus::Platform::Matchmaking::Enqueue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::MatchmakingEnqueueResult*>* (*)(::StringW, ::Oculus::Platform::Matchmaking::CustomQuery*)>(&Oculus::Platform::Matchmaking::Enqueue)> {
   static const MethodInfo* get() {
     static auto* pool = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* customQueryData = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "Matchmaking/CustomQuery")->byval_arg;
@@ -235,7 +235,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Writing MetadataGetter for method: Oculus::Platform::Matchmaking::Enqueue2
 // Il2CppName: Enqueue2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::MatchmakingEnqueueResult*>* (*)(::StringW, Oculus::Platform::MatchmakingOptions*)>(&Oculus::Platform::Matchmaking::Enqueue2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::MatchmakingEnqueueResult*>* (*)(::StringW, ::Oculus::Platform::MatchmakingOptions*)>(&Oculus::Platform::Matchmaking::Enqueue2)> {
   static const MethodInfo* get() {
     static auto* pool = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* matchmakingOptions = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "MatchmakingOptions")->byval_arg;
@@ -245,7 +245,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Writing MetadataGetter for method: Oculus::Platform::Matchmaking::EnqueueRoom
 // Il2CppName: EnqueueRoom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::MatchmakingEnqueueResult*>* (*)(uint64_t, Oculus::Platform::Matchmaking::CustomQuery*)>(&Oculus::Platform::Matchmaking::EnqueueRoom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::MatchmakingEnqueueResult*>* (*)(uint64_t, ::Oculus::Platform::Matchmaking::CustomQuery*)>(&Oculus::Platform::Matchmaking::EnqueueRoom)> {
   static const MethodInfo* get() {
     static auto* roomID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* customQueryData = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "Matchmaking/CustomQuery")->byval_arg;
@@ -255,7 +255,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Writing MetadataGetter for method: Oculus::Platform::Matchmaking::EnqueueRoom2
 // Il2CppName: EnqueueRoom2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::MatchmakingEnqueueResult*>* (*)(uint64_t, Oculus::Platform::MatchmakingOptions*)>(&Oculus::Platform::Matchmaking::EnqueueRoom2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::MatchmakingEnqueueResult*>* (*)(uint64_t, ::Oculus::Platform::MatchmakingOptions*)>(&Oculus::Platform::Matchmaking::EnqueueRoom2)> {
   static const MethodInfo* get() {
     static auto* roomID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* matchmakingOptions = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "MatchmakingOptions")->byval_arg;
@@ -265,7 +265,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Writing MetadataGetter for method: Oculus::Platform::Matchmaking::GetAdminSnapshot
 // Il2CppName: GetAdminSnapshot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::MatchmakingAdminSnapshot*>* (*)()>(&Oculus::Platform::Matchmaking::GetAdminSnapshot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::MatchmakingAdminSnapshot*>* (*)()>(&Oculus::Platform::Matchmaking::GetAdminSnapshot)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Matchmaking*), "GetAdminSnapshot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -273,7 +273,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Writing MetadataGetter for method: Oculus::Platform::Matchmaking::JoinRoom
 // Il2CppName: JoinRoom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* (*)(uint64_t, bool)>(&Oculus::Platform::Matchmaking::JoinRoom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::Room*>* (*)(uint64_t, bool)>(&Oculus::Platform::Matchmaking::JoinRoom)> {
   static const MethodInfo* get() {
     static auto* roomID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* subscribeToUpdates = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -283,7 +283,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Writing MetadataGetter for method: Oculus::Platform::Matchmaking::StartMatch
 // Il2CppName: StartMatch
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request* (*)(uint64_t)>(&Oculus::Platform::Matchmaking::StartMatch)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request* (*)(uint64_t)>(&Oculus::Platform::Matchmaking::StartMatch)> {
   static const MethodInfo* get() {
     static auto* roomID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Matchmaking*), "StartMatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{roomID});

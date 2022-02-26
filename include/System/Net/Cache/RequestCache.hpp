@@ -13,8 +13,8 @@ namespace System::Net::Cache {
   class RequestCache;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::Cache::RequestCache);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::Cache::RequestCache*, "System.Net.Cache", "RequestCache");
+NEED_NO_BOX(::System::Net::Cache::RequestCache);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::Cache::RequestCache*, "System.Net.Cache", "RequestCache");
 // Type namespace: System.Net.Cache
 namespace System::Net::Cache {
   // Size: 0x10

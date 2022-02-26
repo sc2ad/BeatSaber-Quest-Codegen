@@ -20,8 +20,8 @@ namespace HMUI {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::LevelCollectionNavigationController::$$c__DisplayClass54_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelCollectionNavigationController::$$c__DisplayClass54_0*, "", "LevelCollectionNavigationController/<>c__DisplayClass54_0");
+NEED_NO_BOX(::GlobalNamespace::LevelCollectionNavigationController::$$c__DisplayClass54_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LevelCollectionNavigationController::$$c__DisplayClass54_0*, "", "LevelCollectionNavigationController/<>c__DisplayClass54_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -43,20 +43,20 @@ namespace GlobalNamespace {
     // public LevelCollectionNavigationController <>4__this
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::LevelCollectionNavigationController* $$4__this;
+    ::GlobalNamespace::LevelCollectionNavigationController* $$4__this;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::LevelCollectionNavigationController*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::LevelCollectionNavigationController*) == 0x8);
     // public HMUI.ViewController viewController
     // Size: 0x8
     // Offset: 0x18
-    HMUI::ViewController* viewController;
+    ::HMUI::ViewController* viewController;
     // Field size check
-    static_assert(sizeof(HMUI::ViewController*) == 0x8);
+    static_assert(sizeof(::HMUI::ViewController*) == 0x8);
     public:
     // Get instance field reference: public LevelCollectionNavigationController <>4__this
-    GlobalNamespace::LevelCollectionNavigationController*& dyn_$$4__this();
+    ::GlobalNamespace::LevelCollectionNavigationController*& dyn_$$4__this();
     // Get instance field reference: public HMUI.ViewController viewController
-    HMUI::ViewController*& dyn_viewController();
+    ::HMUI::ViewController*& dyn_viewController();
     // System.Void <PresentDetailViewController>b__0()
     // Offset: 0x146E8B4
     void $PresentDetailViewController$b__0();
@@ -66,12 +66,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelCollectionNavigationController::$$c__DisplayClass54_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LevelCollectionNavigationController::$$c__DisplayClass54_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LevelCollectionNavigationController::$$c__DisplayClass54_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelCollectionNavigationController::$$c__DisplayClass54_0*, creationType>()));
     }
   }; // LevelCollectionNavigationController/<>c__DisplayClass54_0
   #pragma pack(pop)
-  static check_size<sizeof(LevelCollectionNavigationController::$$c__DisplayClass54_0), 24 + sizeof(HMUI::ViewController*)> __GlobalNamespace_LevelCollectionNavigationController_$$c__DisplayClass54_0SizeCheck;
+  static check_size<sizeof(LevelCollectionNavigationController::$$c__DisplayClass54_0), 24 + sizeof(::HMUI::ViewController*)> __GlobalNamespace_LevelCollectionNavigationController_$$c__DisplayClass54_0SizeCheck;
   static_assert(sizeof(LevelCollectionNavigationController::$$c__DisplayClass54_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

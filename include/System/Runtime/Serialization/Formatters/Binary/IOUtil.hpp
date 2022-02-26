@@ -27,8 +27,8 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   class IOUtil;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::IOUtil);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::IOUtil*, "System.Runtime.Serialization.Formatters.Binary", "IOUtil");
+NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::IOUtil);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::IOUtil*, "System.Runtime.Serialization.Formatters.Binary", "IOUtil");
 // Type namespace: System.Runtime.Serialization.Formatters.Binary
 namespace System::Runtime::Serialization::Formatters::Binary {
   // Size: 0x10
@@ -39,13 +39,13 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     public:
     // static System.Boolean FlagTest(System.Runtime.Serialization.Formatters.Binary.MessageEnum flag, System.Runtime.Serialization.Formatters.Binary.MessageEnum target)
     // Offset: 0x1812100
-    static bool FlagTest(System::Runtime::Serialization::Formatters::Binary::MessageEnum flag, System::Runtime::Serialization::Formatters::Binary::MessageEnum target);
+    static bool FlagTest(::System::Runtime::Serialization::Formatters::Binary::MessageEnum flag, ::System::Runtime::Serialization::Formatters::Binary::MessageEnum target);
     // static System.Void WriteStringWithCode(System.String value, System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
     // Offset: 0x18120A0
-    static void WriteStringWithCode(::StringW value, System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
+    static void WriteStringWithCode(::StringW value, ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // static System.Void WriteWithCode(System.Type type, System.Object value, System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
     // Offset: 0x181210C
-    static void WriteWithCode(System::Type* type, ::Il2CppObject* value, System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
+    static void WriteWithCode(::System::Type* type, ::Il2CppObject* value, ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
   }; // System.Runtime.Serialization.Formatters.Binary.IOUtil
   #pragma pack(pop)
 }
@@ -53,7 +53,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::IOUtil::FlagTest
 // Il2CppName: FlagTest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Runtime::Serialization::Formatters::Binary::MessageEnum, System::Runtime::Serialization::Formatters::Binary::MessageEnum)>(&System::Runtime::Serialization::Formatters::Binary::IOUtil::FlagTest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Runtime::Serialization::Formatters::Binary::MessageEnum, ::System::Runtime::Serialization::Formatters::Binary::MessageEnum)>(&System::Runtime::Serialization::Formatters::Binary::IOUtil::FlagTest)> {
   static const MethodInfo* get() {
     static auto* flag = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "MessageEnum")->byval_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "MessageEnum")->byval_arg;
@@ -63,7 +63,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::IOUtil::WriteStringWithCode
 // Il2CppName: WriteStringWithCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*)>(&System::Runtime::Serialization::Formatters::Binary::IOUtil::WriteStringWithCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*)>(&System::Runtime::Serialization::Formatters::Binary::IOUtil::WriteStringWithCode)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* sout = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "__BinaryWriter")->byval_arg;
@@ -73,7 +73,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::IOUtil::WriteWithCode
 // Il2CppName: WriteWithCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Type*, ::Il2CppObject*, System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*)>(&System::Runtime::Serialization::Formatters::Binary::IOUtil::WriteWithCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*, ::Il2CppObject*, ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*)>(&System::Runtime::Serialization::Formatters::Binary::IOUtil::WriteWithCode)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;

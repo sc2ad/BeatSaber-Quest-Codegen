@@ -27,8 +27,8 @@ namespace System::Data {
   class Function;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Data::Function);
-DEFINE_IL2CPP_ARG_TYPE(System::Data::Function*, "System.Data", "Function");
+NEED_NO_BOX(::System::Data::Function);
+DEFINE_IL2CPP_ARG_TYPE(::System::Data::Function*, "System.Data", "Function");
 // Type namespace: System.Data
 namespace System::Data {
   // Size: 0x38
@@ -55,17 +55,17 @@ namespace System::Data {
     // readonly System.Data.FunctionId _id
     // Size: 0x4
     // Offset: 0x18
-    System::Data::FunctionId id;
+    ::System::Data::FunctionId id;
     // Field size check
-    static_assert(sizeof(System::Data::FunctionId) == 0x4);
+    static_assert(sizeof(::System::Data::FunctionId) == 0x4);
     // Padding between fields: id and: result
     char __padding1[0x4] = {};
     // readonly System.Type _result
     // Size: 0x8
     // Offset: 0x20
-    System::Type* result;
+    ::System::Type* result;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     // readonly System.Boolean _isValidateArguments
     // Size: 0x1
     // Offset: 0x28
@@ -89,9 +89,9 @@ namespace System::Data {
     // readonly System.Type[] _parameters
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayW<System::Type*> parameters;
+    ::ArrayW<::System::Type*> parameters;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::Type*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::System::Type*>) == 0x8);
     public:
     // Get static field: static System.String[] s_functionName
     static ::ArrayW<::StringW> _get_s_functionName();
@@ -100,9 +100,9 @@ namespace System::Data {
     // Get instance field reference: readonly System.String _name
     ::StringW& dyn__name();
     // Get instance field reference: readonly System.Data.FunctionId _id
-    System::Data::FunctionId& dyn__id();
+    ::System::Data::FunctionId& dyn__id();
     // Get instance field reference: readonly System.Type _result
-    System::Type*& dyn__result();
+    ::System::Type*& dyn__result();
     // Get instance field reference: readonly System.Boolean _isValidateArguments
     bool& dyn__isValidateArguments();
     // Get instance field reference: readonly System.Boolean _isVariantArgumentList
@@ -110,12 +110,12 @@ namespace System::Data {
     // Get instance field reference: readonly System.Int32 _argumentCount
     int& dyn__argumentCount();
     // Get instance field reference: readonly System.Type[] _parameters
-    ::ArrayW<System::Type*>& dyn__parameters();
+    ::ArrayW<::System::Type*>& dyn__parameters();
     // System.Void .ctor(System.String name, System.Data.FunctionId id, System.Type result, System.Boolean IsValidateArguments, System.Boolean IsVariantArgumentList, System.Int32 argumentCount, System.Type a1, System.Type a2, System.Type a3)
     // Offset: 0x1CD3AB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Function* New_ctor(::StringW name, System::Data::FunctionId id, System::Type* result, bool IsValidateArguments, bool IsVariantArgumentList, int argumentCount, System::Type* a1, System::Type* a2, System::Type* a3) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Data::Function::.ctor");
+    static Function* New_ctor(::StringW name, ::System::Data::FunctionId id, ::System::Type* result, bool IsValidateArguments, bool IsVariantArgumentList, int argumentCount, ::System::Type* a1, ::System::Type* a2, ::System::Type* a3) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Data::Function::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Function*, creationType>(name, id, result, IsValidateArguments, IsVariantArgumentList, argumentCount, a1, a2, a3)));
     }
     // static private System.Void .cctor()
@@ -123,7 +123,7 @@ namespace System::Data {
     static void _cctor();
   }; // System.Data.Function
   #pragma pack(pop)
-  static check_size<sizeof(Function), 48 + sizeof(::ArrayW<System::Type*>)> __System_Data_FunctionSizeCheck;
+  static check_size<sizeof(Function), 48 + sizeof(::ArrayW<::System::Type*>)> __System_Data_FunctionSizeCheck;
   static_assert(sizeof(Function) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

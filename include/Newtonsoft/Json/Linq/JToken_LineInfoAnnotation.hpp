@@ -13,8 +13,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Linq::JToken::LineInfoAnnotation);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Linq::JToken::LineInfoAnnotation*, "Newtonsoft.Json.Linq", "JToken/LineInfoAnnotation");
+NEED_NO_BOX(::Newtonsoft::Json::Linq::JToken::LineInfoAnnotation);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Linq::JToken::LineInfoAnnotation*, "Newtonsoft.Json.Linq", "JToken/LineInfoAnnotation");
 // Type namespace: Newtonsoft.Json.Linq
 namespace Newtonsoft::Json::Linq {
   // Size: 0x18
@@ -54,7 +54,7 @@ namespace Newtonsoft::Json::Linq {
     // Offset: 0x151DB80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JToken::LineInfoAnnotation* New_ctor(int lineNumber, int linePosition) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Linq::JToken::LineInfoAnnotation::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Linq::JToken::LineInfoAnnotation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JToken::LineInfoAnnotation*, creationType>(lineNumber, linePosition)));
     }
   }; // Newtonsoft.Json.Linq.JToken/Newtonsoft.Json.Linq.LineInfoAnnotation

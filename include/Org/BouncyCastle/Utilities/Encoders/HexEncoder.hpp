@@ -25,8 +25,8 @@ namespace Org::BouncyCastle::Utilities::Encoders {
   class HexEncoder;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Utilities::Encoders::HexEncoder);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Encoders::HexEncoder*, "Org.BouncyCastle.Utilities.Encoders", "HexEncoder");
+NEED_NO_BOX(::Org::BouncyCastle::Utilities::Encoders::HexEncoder);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Encoders::HexEncoder*, "Org.BouncyCastle.Utilities.Encoders", "HexEncoder");
 // Type namespace: Org.BouncyCastle.Utilities.Encoders
 namespace Org::BouncyCastle::Utilities::Encoders {
   // Size: 0x20
@@ -69,13 +69,13 @@ namespace Org::BouncyCastle::Utilities::Encoders {
     int Encode(::ArrayW<uint8_t> inBuf, int inOff, int inLen, ::ArrayW<uint8_t> outBuf, int outOff);
     // public System.Int32 Encode(System.Byte[] buf, System.Int32 off, System.Int32 len, System.IO.Stream outStream)
     // Offset: 0x25A5660
-    int Encode(::ArrayW<uint8_t> buf, int off, int len, System::IO::Stream* outStream);
+    int Encode(::ArrayW<uint8_t> buf, int off, int len, ::System::IO::Stream* outStream);
     // static private System.Boolean Ignore(System.Char c)
     // Offset: 0x25A6174
     static bool Ignore(::Il2CppChar c);
     // public System.Int32 DecodeString(System.String data, System.IO.Stream outStream)
     // Offset: 0x25A5848
-    int DecodeString(::StringW data, System::IO::Stream* outStream);
+    int DecodeString(::StringW data, ::System::IO::Stream* outStream);
     // System.Byte[] DecodeStrict(System.String str, System.Int32 off, System.Int32 len)
     // Offset: 0x25A5BE8
     ::ArrayW<uint8_t> DecodeStrict(::StringW str, int off, int len);
@@ -85,7 +85,7 @@ namespace Org::BouncyCastle::Utilities::Encoders {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HexEncoder* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Utilities::Encoders::HexEncoder::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Utilities::Encoders::HexEncoder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HexEncoder*, creationType>()));
     }
   }; // Org.BouncyCastle.Utilities.Encoders.HexEncoder
@@ -118,7 +118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Encoders::HexEncoder::Encode
 // Il2CppName: Encode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Utilities::Encoders::HexEncoder::*)(::ArrayW<uint8_t>, int, int, System::IO::Stream*)>(&Org::BouncyCastle::Utilities::Encoders::HexEncoder::Encode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Utilities::Encoders::HexEncoder::*)(::ArrayW<uint8_t>, int, int, ::System::IO::Stream*)>(&Org::BouncyCastle::Utilities::Encoders::HexEncoder::Encode)> {
   static const MethodInfo* get() {
     static auto* buf = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* off = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -139,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Encoders::HexEncoder::DecodeString
 // Il2CppName: DecodeString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Utilities::Encoders::HexEncoder::*)(::StringW, System::IO::Stream*)>(&Org::BouncyCastle::Utilities::Encoders::HexEncoder::DecodeString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Utilities::Encoders::HexEncoder::*)(::StringW, ::System::IO::Stream*)>(&Org::BouncyCastle::Utilities::Encoders::HexEncoder::DecodeString)> {
   static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* outStream = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;

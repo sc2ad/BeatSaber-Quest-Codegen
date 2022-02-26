@@ -14,8 +14,8 @@ namespace Org::BouncyCastle::Crypto {
   class IDigest;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Crypto::IDigest);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::IDigest*, "Org.BouncyCastle.Crypto", "IDigest");
+NEED_NO_BOX(::Org::BouncyCastle::Crypto::IDigest);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::IDigest*, "Org.BouncyCastle.Crypto", "IDigest");
 // Type namespace: Org.BouncyCastle.Crypto
 namespace Org::BouncyCastle::Crypto {
   // Size: 0x10

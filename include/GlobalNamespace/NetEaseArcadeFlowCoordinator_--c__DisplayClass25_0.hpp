@@ -20,8 +20,8 @@ namespace GlobalNamespace {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::NetEaseArcadeFlowCoordinator::$$c__DisplayClass25_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseArcadeFlowCoordinator::$$c__DisplayClass25_0*, "", "NetEaseArcadeFlowCoordinator/<>c__DisplayClass25_0");
+NEED_NO_BOX(::GlobalNamespace::NetEaseArcadeFlowCoordinator::$$c__DisplayClass25_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NetEaseArcadeFlowCoordinator::$$c__DisplayClass25_0*, "", "NetEaseArcadeFlowCoordinator/<>c__DisplayClass25_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -43,20 +43,20 @@ namespace GlobalNamespace {
     // public NetEaseArcadeFlowCoordinator <>4__this
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::NetEaseArcadeFlowCoordinator* $$4__this;
+    ::GlobalNamespace::NetEaseArcadeFlowCoordinator* $$4__this;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::NetEaseArcadeFlowCoordinator*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::NetEaseArcadeFlowCoordinator*) == 0x8);
     // public ResultsViewController resultsViewController
     // Size: 0x8
     // Offset: 0x18
-    GlobalNamespace::ResultsViewController* resultsViewController;
+    ::GlobalNamespace::ResultsViewController* resultsViewController;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::ResultsViewController*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::ResultsViewController*) == 0x8);
     public:
     // Get instance field reference: public NetEaseArcadeFlowCoordinator <>4__this
-    GlobalNamespace::NetEaseArcadeFlowCoordinator*& dyn_$$4__this();
+    ::GlobalNamespace::NetEaseArcadeFlowCoordinator*& dyn_$$4__this();
     // Get instance field reference: public ResultsViewController resultsViewController
-    GlobalNamespace::ResultsViewController*& dyn_resultsViewController();
+    ::GlobalNamespace::ResultsViewController*& dyn_resultsViewController();
     // System.Void <HandleResultsViewControllerRestartButtonPressed>b__0()
     // Offset: 0x2B21534
     void $HandleResultsViewControllerRestartButtonPressed$b__0();
@@ -66,12 +66,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetEaseArcadeFlowCoordinator::$$c__DisplayClass25_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NetEaseArcadeFlowCoordinator::$$c__DisplayClass25_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetEaseArcadeFlowCoordinator::$$c__DisplayClass25_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetEaseArcadeFlowCoordinator::$$c__DisplayClass25_0*, creationType>()));
     }
   }; // NetEaseArcadeFlowCoordinator/<>c__DisplayClass25_0
   #pragma pack(pop)
-  static check_size<sizeof(NetEaseArcadeFlowCoordinator::$$c__DisplayClass25_0), 24 + sizeof(GlobalNamespace::ResultsViewController*)> __GlobalNamespace_NetEaseArcadeFlowCoordinator_$$c__DisplayClass25_0SizeCheck;
+  static check_size<sizeof(NetEaseArcadeFlowCoordinator::$$c__DisplayClass25_0), 24 + sizeof(::GlobalNamespace::ResultsViewController*)> __GlobalNamespace_NetEaseArcadeFlowCoordinator_$$c__DisplayClass25_0SizeCheck;
   static_assert(sizeof(NetEaseArcadeFlowCoordinator::$$c__DisplayClass25_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

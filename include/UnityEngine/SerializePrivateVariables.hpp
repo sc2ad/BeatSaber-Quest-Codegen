@@ -14,8 +14,8 @@ namespace UnityEngine {
   class SerializePrivateVariables;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::SerializePrivateVariables);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SerializePrivateVariables*, "UnityEngine", "SerializePrivateVariables");
+NEED_NO_BOX(::UnityEngine::SerializePrivateVariables);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::SerializePrivateVariables*, "UnityEngine", "SerializePrivateVariables");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -24,7 +24,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [RequiredByNativeCodeAttribute] Offset: 11A62EC
   // [ObsoleteAttribute] Offset: 11A62EC
-  class SerializePrivateVariables : public System::Attribute {
+  class SerializePrivateVariables : public ::System::Attribute {
     public:
   }; // UnityEngine.SerializePrivateVariables
   #pragma pack(pop)

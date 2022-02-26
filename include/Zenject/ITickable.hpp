@@ -11,8 +11,8 @@ namespace Zenject {
   class ITickable;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::ITickable);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::ITickable*, "Zenject", "ITickable");
+NEED_NO_BOX(::Zenject::ITickable);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::ITickable*, "Zenject", "ITickable");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x10

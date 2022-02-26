@@ -17,8 +17,8 @@ namespace NUnit::Framework::Interfaces {
   class TestOutput;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Interfaces::TestOutput);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::TestOutput*, "NUnit.Framework.Interfaces", "TestOutput");
+NEED_NO_BOX(::NUnit::Framework::Interfaces::TestOutput);
+DEFINE_IL2CPP_ARG_TYPE(::NUnit::Framework::Interfaces::TestOutput*, "NUnit.Framework.Interfaces", "TestOutput");
 // Type namespace: NUnit.Framework.Interfaces
 namespace NUnit::Framework::Interfaces {
   // Size: 0x28
@@ -83,7 +83,7 @@ namespace NUnit::Framework::Interfaces {
     // Offset: 0x1B5AA14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestOutput* New_ctor(::StringW text, ::StringW stream, ::StringW testName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Interfaces::TestOutput::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Interfaces::TestOutput::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestOutput*, creationType>(text, stream, testName)));
     }
     // public override System.String ToString()

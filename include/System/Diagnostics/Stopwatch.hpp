@@ -23,8 +23,8 @@ namespace System::Diagnostics {
   class Stopwatch;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Diagnostics::Stopwatch);
-DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Stopwatch*, "System.Diagnostics", "Stopwatch");
+NEED_NO_BOX(::System::Diagnostics::Stopwatch);
+DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::Stopwatch*, "System.Diagnostics", "Stopwatch");
 // Type namespace: System.Diagnostics
 namespace System::Diagnostics {
   // Size: 0x21
@@ -77,7 +77,7 @@ namespace System::Diagnostics {
     bool& dyn_is_running();
     // public System.TimeSpan get_Elapsed()
     // Offset: 0x1ED9DF8
-    System::TimeSpan get_Elapsed();
+    ::System::TimeSpan get_Elapsed();
     // public System.Int64 get_ElapsedMilliseconds()
     // Offset: 0x1ED9F94
     int64_t get_ElapsedMilliseconds();
@@ -111,7 +111,7 @@ namespace System::Diagnostics {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Stopwatch* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::Stopwatch::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Diagnostics::Stopwatch::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Stopwatch*, creationType>()));
     }
   }; // System.Diagnostics.Stopwatch
@@ -123,7 +123,7 @@ namespace System::Diagnostics {
 // Writing MetadataGetter for method: System::Diagnostics::Stopwatch::get_Elapsed
 // Il2CppName: get_Elapsed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (System::Diagnostics::Stopwatch::*)()>(&System::Diagnostics::Stopwatch::get_Elapsed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeSpan (System::Diagnostics::Stopwatch::*)()>(&System::Diagnostics::Stopwatch::get_Elapsed)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::Stopwatch*), "get_Elapsed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

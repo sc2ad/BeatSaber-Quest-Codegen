@@ -40,8 +40,8 @@ namespace UnityEngine::UI {
   class DefaultControls;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::UI::DefaultControls);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::DefaultControls*, "UnityEngine.UI", "DefaultControls");
+NEED_NO_BOX(::UnityEngine::UI::DefaultControls);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::DefaultControls*, "UnityEngine.UI", "DefaultControls");
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {
   // Size: 0x10
@@ -50,16 +50,16 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class DefaultControls : public ::Il2CppObject {
     public:
-    // Nested type: UnityEngine::UI::DefaultControls::IFactoryControls
+    // Nested type: ::UnityEngine::UI::DefaultControls::IFactoryControls
     class IFactoryControls;
-    // Nested type: UnityEngine::UI::DefaultControls::DefaultRuntimeFactory
+    // Nested type: ::UnityEngine::UI::DefaultControls::DefaultRuntimeFactory
     class DefaultRuntimeFactory;
-    // Nested type: UnityEngine::UI::DefaultControls::Resources
+    // Nested type: ::UnityEngine::UI::DefaultControls::Resources
     struct Resources;
     // Get static field: static private UnityEngine.UI.DefaultControls/UnityEngine.UI.IFactoryControls m_CurrentFactory
-    static UnityEngine::UI::DefaultControls::IFactoryControls* _get_m_CurrentFactory();
+    static ::UnityEngine::UI::DefaultControls::IFactoryControls* _get_m_CurrentFactory();
     // Set static field: static private UnityEngine.UI.DefaultControls/UnityEngine.UI.IFactoryControls m_CurrentFactory
-    static void _set_m_CurrentFactory(UnityEngine::UI::DefaultControls::IFactoryControls* value);
+    static void _set_m_CurrentFactory(::UnityEngine::UI::DefaultControls::IFactoryControls* value);
     // static field const value: static private System.Single kWidth
     static constexpr const float kWidth = 160;
     // Get static field: static private System.Single kWidth
@@ -79,86 +79,86 @@ namespace UnityEngine::UI {
     // Set static field: static private System.Single kThinHeight
     static void _set_kThinHeight(float value);
     // Get static field: static private UnityEngine.Vector2 s_ThickElementSize
-    static UnityEngine::Vector2 _get_s_ThickElementSize();
+    static ::UnityEngine::Vector2 _get_s_ThickElementSize();
     // Set static field: static private UnityEngine.Vector2 s_ThickElementSize
-    static void _set_s_ThickElementSize(UnityEngine::Vector2 value);
+    static void _set_s_ThickElementSize(::UnityEngine::Vector2 value);
     // Get static field: static private UnityEngine.Vector2 s_ThinElementSize
-    static UnityEngine::Vector2 _get_s_ThinElementSize();
+    static ::UnityEngine::Vector2 _get_s_ThinElementSize();
     // Set static field: static private UnityEngine.Vector2 s_ThinElementSize
-    static void _set_s_ThinElementSize(UnityEngine::Vector2 value);
+    static void _set_s_ThinElementSize(::UnityEngine::Vector2 value);
     // Get static field: static private UnityEngine.Vector2 s_ImageElementSize
-    static UnityEngine::Vector2 _get_s_ImageElementSize();
+    static ::UnityEngine::Vector2 _get_s_ImageElementSize();
     // Set static field: static private UnityEngine.Vector2 s_ImageElementSize
-    static void _set_s_ImageElementSize(UnityEngine::Vector2 value);
+    static void _set_s_ImageElementSize(::UnityEngine::Vector2 value);
     // Get static field: static private UnityEngine.Color s_DefaultSelectableColor
-    static UnityEngine::Color _get_s_DefaultSelectableColor();
+    static ::UnityEngine::Color _get_s_DefaultSelectableColor();
     // Set static field: static private UnityEngine.Color s_DefaultSelectableColor
-    static void _set_s_DefaultSelectableColor(UnityEngine::Color value);
+    static void _set_s_DefaultSelectableColor(::UnityEngine::Color value);
     // Get static field: static private UnityEngine.Color s_PanelColor
-    static UnityEngine::Color _get_s_PanelColor();
+    static ::UnityEngine::Color _get_s_PanelColor();
     // Set static field: static private UnityEngine.Color s_PanelColor
-    static void _set_s_PanelColor(UnityEngine::Color value);
+    static void _set_s_PanelColor(::UnityEngine::Color value);
     // Get static field: static private UnityEngine.Color s_TextColor
-    static UnityEngine::Color _get_s_TextColor();
+    static ::UnityEngine::Color _get_s_TextColor();
     // Set static field: static private UnityEngine.Color s_TextColor
-    static void _set_s_TextColor(UnityEngine::Color value);
+    static void _set_s_TextColor(::UnityEngine::Color value);
     // static public UnityEngine.UI.DefaultControls/UnityEngine.UI.IFactoryControls get_factory()
     // Offset: 0x1875510
-    static UnityEngine::UI::DefaultControls::IFactoryControls* get_factory();
+    static ::UnityEngine::UI::DefaultControls::IFactoryControls* get_factory();
     // static private System.Void .cctor()
     // Offset: 0x18795C0
     static void _cctor();
     // static private UnityEngine.GameObject CreateUIElementRoot(System.String name, UnityEngine.Vector2 size, params System.Type[] components)
     // Offset: 0x1875578
-    static UnityEngine::GameObject* CreateUIElementRoot(::StringW name, UnityEngine::Vector2 size, ::ArrayW<System::Type*> components);
+    static ::UnityEngine::GameObject* CreateUIElementRoot(::StringW name, ::UnityEngine::Vector2 size, ::ArrayW<::System::Type*> components);
     // static private UnityEngine.GameObject CreateUIObject(System.String name, UnityEngine.GameObject parent, params System.Type[] components)
     // Offset: 0x18756E4
-    static UnityEngine::GameObject* CreateUIObject(::StringW name, UnityEngine::GameObject* parent, ::ArrayW<System::Type*> components);
+    static ::UnityEngine::GameObject* CreateUIObject(::StringW name, ::UnityEngine::GameObject* parent, ::ArrayW<::System::Type*> components);
     // static private System.Void SetDefaultTextValues(UnityEngine.UI.Text lbl)
     // Offset: 0x1875938
-    static void SetDefaultTextValues(UnityEngine::UI::Text* lbl);
+    static void SetDefaultTextValues(::UnityEngine::UI::Text* lbl);
     // static private System.Void SetDefaultColorTransitionValues(UnityEngine.UI.Selectable slider)
     // Offset: 0x18759CC
-    static void SetDefaultColorTransitionValues(UnityEngine::UI::Selectable* slider);
+    static void SetDefaultColorTransitionValues(::UnityEngine::UI::Selectable* slider);
     // static private System.Void SetParentAndAlign(UnityEngine.GameObject child, UnityEngine.GameObject parent)
     // Offset: 0x187582C
-    static void SetParentAndAlign(UnityEngine::GameObject* child, UnityEngine::GameObject* parent);
+    static void SetParentAndAlign(::UnityEngine::GameObject* child, ::UnityEngine::GameObject* parent);
     // static private System.Void SetLayerRecursively(UnityEngine.GameObject go, System.Int32 layer)
     // Offset: 0x1875A4C
-    static void SetLayerRecursively(UnityEngine::GameObject* go, int layer);
+    static void SetLayerRecursively(::UnityEngine::GameObject* go, int layer);
     // static public UnityEngine.GameObject CreatePanel(UnityEngine.UI.DefaultControls/UnityEngine.UI.Resources resources)
     // Offset: 0x1875B48
-    static UnityEngine::GameObject* CreatePanel(UnityEngine::UI::DefaultControls::Resources resources);
+    static ::UnityEngine::GameObject* CreatePanel(::UnityEngine::UI::DefaultControls::Resources resources);
     // static public UnityEngine.GameObject CreateButton(UnityEngine.UI.DefaultControls/UnityEngine.UI.Resources resources)
     // Offset: 0x1875D70
-    static UnityEngine::GameObject* CreateButton(UnityEngine::UI::DefaultControls::Resources resources);
+    static ::UnityEngine::GameObject* CreateButton(::UnityEngine::UI::DefaultControls::Resources resources);
     // static public UnityEngine.GameObject CreateText(UnityEngine.UI.DefaultControls/UnityEngine.UI.Resources resources)
     // Offset: 0x18760A8
-    static UnityEngine::GameObject* CreateText(UnityEngine::UI::DefaultControls::Resources resources);
+    static ::UnityEngine::GameObject* CreateText(::UnityEngine::UI::DefaultControls::Resources resources);
     // static public UnityEngine.GameObject CreateImage(UnityEngine.UI.DefaultControls/UnityEngine.UI.Resources resources)
     // Offset: 0x1876218
-    static UnityEngine::GameObject* CreateImage(UnityEngine::UI::DefaultControls::Resources resources);
+    static ::UnityEngine::GameObject* CreateImage(::UnityEngine::UI::DefaultControls::Resources resources);
     // static public UnityEngine.GameObject CreateRawImage(UnityEngine.UI.DefaultControls/UnityEngine.UI.Resources resources)
     // Offset: 0x187633C
-    static UnityEngine::GameObject* CreateRawImage(UnityEngine::UI::DefaultControls::Resources resources);
+    static ::UnityEngine::GameObject* CreateRawImage(::UnityEngine::UI::DefaultControls::Resources resources);
     // static public UnityEngine.GameObject CreateSlider(UnityEngine.UI.DefaultControls/UnityEngine.UI.Resources resources)
     // Offset: 0x1876460
-    static UnityEngine::GameObject* CreateSlider(UnityEngine::UI::DefaultControls::Resources resources);
+    static ::UnityEngine::GameObject* CreateSlider(::UnityEngine::UI::DefaultControls::Resources resources);
     // static public UnityEngine.GameObject CreateScrollbar(UnityEngine.UI.DefaultControls/UnityEngine.UI.Resources resources)
     // Offset: 0x1876BBC
-    static UnityEngine::GameObject* CreateScrollbar(UnityEngine::UI::DefaultControls::Resources resources);
+    static ::UnityEngine::GameObject* CreateScrollbar(::UnityEngine::UI::DefaultControls::Resources resources);
     // static public UnityEngine.GameObject CreateToggle(UnityEngine.UI.DefaultControls/UnityEngine.UI.Resources resources)
     // Offset: 0x1876FF4
-    static UnityEngine::GameObject* CreateToggle(UnityEngine::UI::DefaultControls::Resources resources);
+    static ::UnityEngine::GameObject* CreateToggle(::UnityEngine::UI::DefaultControls::Resources resources);
     // static public UnityEngine.GameObject CreateInputField(UnityEngine.UI.DefaultControls/UnityEngine.UI.Resources resources)
     // Offset: 0x18775E0
-    static UnityEngine::GameObject* CreateInputField(UnityEngine::UI::DefaultControls::Resources resources);
+    static ::UnityEngine::GameObject* CreateInputField(::UnityEngine::UI::DefaultControls::Resources resources);
     // static public UnityEngine.GameObject CreateDropdown(UnityEngine.UI.DefaultControls/UnityEngine.UI.Resources resources)
     // Offset: 0x1877B28
-    static UnityEngine::GameObject* CreateDropdown(UnityEngine::UI::DefaultControls::Resources resources);
+    static ::UnityEngine::GameObject* CreateDropdown(::UnityEngine::UI::DefaultControls::Resources resources);
     // static public UnityEngine.GameObject CreateScrollView(UnityEngine.UI.DefaultControls/UnityEngine.UI.Resources resources)
     // Offset: 0x1878ED0
-    static UnityEngine::GameObject* CreateScrollView(UnityEngine::UI::DefaultControls::Resources resources);
+    static ::UnityEngine::GameObject* CreateScrollView(::UnityEngine::UI::DefaultControls::Resources resources);
   }; // UnityEngine.UI.DefaultControls
   #pragma pack(pop)
 }
@@ -166,7 +166,7 @@ namespace UnityEngine::UI {
 // Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::get_factory
 // Il2CppName: get_factory
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::DefaultControls::IFactoryControls* (*)()>(&UnityEngine::UI::DefaultControls::get_factory)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::DefaultControls::IFactoryControls* (*)()>(&UnityEngine::UI::DefaultControls::get_factory)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "get_factory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -182,7 +182,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::CreateUIElementRoot
 // Il2CppName: CreateUIElementRoot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(::StringW, UnityEngine::Vector2, ::ArrayW<System::Type*>)>(&UnityEngine::UI::DefaultControls::CreateUIElementRoot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GameObject* (*)(::StringW, ::UnityEngine::Vector2, ::ArrayW<::System::Type*>)>(&UnityEngine::UI::DefaultControls::CreateUIElementRoot)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
@@ -193,7 +193,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::CreateUIObject
 // Il2CppName: CreateUIObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(::StringW, UnityEngine::GameObject*, ::ArrayW<System::Type*>)>(&UnityEngine::UI::DefaultControls::CreateUIObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GameObject* (*)(::StringW, ::UnityEngine::GameObject*, ::ArrayW<::System::Type*>)>(&UnityEngine::UI::DefaultControls::CreateUIObject)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* parent = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
@@ -204,7 +204,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::SetDefaultTextValues
 // Il2CppName: SetDefaultTextValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::Text*)>(&UnityEngine::UI::DefaultControls::SetDefaultTextValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UI::Text*)>(&UnityEngine::UI::DefaultControls::SetDefaultTextValues)> {
   static const MethodInfo* get() {
     static auto* lbl = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Text")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "SetDefaultTextValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lbl});
@@ -213,7 +213,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::SetDefaultColorTransitionValues
 // Il2CppName: SetDefaultColorTransitionValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::Selectable*)>(&UnityEngine::UI::DefaultControls::SetDefaultColorTransitionValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UI::Selectable*)>(&UnityEngine::UI::DefaultControls::SetDefaultColorTransitionValues)> {
   static const MethodInfo* get() {
     static auto* slider = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Selectable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "SetDefaultColorTransitionValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{slider});
@@ -222,7 +222,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::SetParentAndAlign
 // Il2CppName: SetParentAndAlign
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, UnityEngine::GameObject*)>(&UnityEngine::UI::DefaultControls::SetParentAndAlign)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*, ::UnityEngine::GameObject*)>(&UnityEngine::UI::DefaultControls::SetParentAndAlign)> {
   static const MethodInfo* get() {
     static auto* child = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* parent = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
@@ -232,7 +232,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::SetLayerRecursively
 // Il2CppName: SetLayerRecursively
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, int)>(&UnityEngine::UI::DefaultControls::SetLayerRecursively)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*, int)>(&UnityEngine::UI::DefaultControls::SetLayerRecursively)> {
   static const MethodInfo* get() {
     static auto* go = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* layer = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -242,7 +242,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::CreatePanel
 // Il2CppName: CreatePanel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::UI::DefaultControls::Resources)>(&UnityEngine::UI::DefaultControls::CreatePanel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GameObject* (*)(::UnityEngine::UI::DefaultControls::Resources)>(&UnityEngine::UI::DefaultControls::CreatePanel)> {
   static const MethodInfo* get() {
     static auto* resources = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "DefaultControls/Resources")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "CreatePanel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resources});
@@ -251,7 +251,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::CreateButton
 // Il2CppName: CreateButton
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::UI::DefaultControls::Resources)>(&UnityEngine::UI::DefaultControls::CreateButton)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GameObject* (*)(::UnityEngine::UI::DefaultControls::Resources)>(&UnityEngine::UI::DefaultControls::CreateButton)> {
   static const MethodInfo* get() {
     static auto* resources = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "DefaultControls/Resources")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "CreateButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resources});
@@ -260,7 +260,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::CreateText
 // Il2CppName: CreateText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::UI::DefaultControls::Resources)>(&UnityEngine::UI::DefaultControls::CreateText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GameObject* (*)(::UnityEngine::UI::DefaultControls::Resources)>(&UnityEngine::UI::DefaultControls::CreateText)> {
   static const MethodInfo* get() {
     static auto* resources = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "DefaultControls/Resources")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "CreateText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resources});
@@ -269,7 +269,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::CreateImage
 // Il2CppName: CreateImage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::UI::DefaultControls::Resources)>(&UnityEngine::UI::DefaultControls::CreateImage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GameObject* (*)(::UnityEngine::UI::DefaultControls::Resources)>(&UnityEngine::UI::DefaultControls::CreateImage)> {
   static const MethodInfo* get() {
     static auto* resources = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "DefaultControls/Resources")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "CreateImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resources});
@@ -278,7 +278,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::CreateRawImage
 // Il2CppName: CreateRawImage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::UI::DefaultControls::Resources)>(&UnityEngine::UI::DefaultControls::CreateRawImage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GameObject* (*)(::UnityEngine::UI::DefaultControls::Resources)>(&UnityEngine::UI::DefaultControls::CreateRawImage)> {
   static const MethodInfo* get() {
     static auto* resources = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "DefaultControls/Resources")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "CreateRawImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resources});
@@ -287,7 +287,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::CreateSlider
 // Il2CppName: CreateSlider
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::UI::DefaultControls::Resources)>(&UnityEngine::UI::DefaultControls::CreateSlider)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GameObject* (*)(::UnityEngine::UI::DefaultControls::Resources)>(&UnityEngine::UI::DefaultControls::CreateSlider)> {
   static const MethodInfo* get() {
     static auto* resources = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "DefaultControls/Resources")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "CreateSlider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resources});
@@ -296,7 +296,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::CreateScrollbar
 // Il2CppName: CreateScrollbar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::UI::DefaultControls::Resources)>(&UnityEngine::UI::DefaultControls::CreateScrollbar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GameObject* (*)(::UnityEngine::UI::DefaultControls::Resources)>(&UnityEngine::UI::DefaultControls::CreateScrollbar)> {
   static const MethodInfo* get() {
     static auto* resources = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "DefaultControls/Resources")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "CreateScrollbar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resources});
@@ -305,7 +305,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::CreateToggle
 // Il2CppName: CreateToggle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::UI::DefaultControls::Resources)>(&UnityEngine::UI::DefaultControls::CreateToggle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GameObject* (*)(::UnityEngine::UI::DefaultControls::Resources)>(&UnityEngine::UI::DefaultControls::CreateToggle)> {
   static const MethodInfo* get() {
     static auto* resources = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "DefaultControls/Resources")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "CreateToggle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resources});
@@ -314,7 +314,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::CreateInputField
 // Il2CppName: CreateInputField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::UI::DefaultControls::Resources)>(&UnityEngine::UI::DefaultControls::CreateInputField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GameObject* (*)(::UnityEngine::UI::DefaultControls::Resources)>(&UnityEngine::UI::DefaultControls::CreateInputField)> {
   static const MethodInfo* get() {
     static auto* resources = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "DefaultControls/Resources")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "CreateInputField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resources});
@@ -323,7 +323,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::CreateDropdown
 // Il2CppName: CreateDropdown
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::UI::DefaultControls::Resources)>(&UnityEngine::UI::DefaultControls::CreateDropdown)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GameObject* (*)(::UnityEngine::UI::DefaultControls::Resources)>(&UnityEngine::UI::DefaultControls::CreateDropdown)> {
   static const MethodInfo* get() {
     static auto* resources = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "DefaultControls/Resources")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "CreateDropdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resources});
@@ -332,7 +332,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::CreateScrollView
 // Il2CppName: CreateScrollView
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::UI::DefaultControls::Resources)>(&UnityEngine::UI::DefaultControls::CreateScrollView)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GameObject* (*)(::UnityEngine::UI::DefaultControls::Resources)>(&UnityEngine::UI::DefaultControls::CreateScrollView)> {
   static const MethodInfo* get() {
     static auto* resources = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "DefaultControls/Resources")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "CreateScrollView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resources});

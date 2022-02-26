@@ -42,8 +42,8 @@ namespace UnityEngine {
   class GUISkin;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::GUISkin);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUISkin*, "UnityEngine", "GUISkin");
+NEED_NO_BOX(::UnityEngine::GUISkin);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::GUISkin*, "UnityEngine", "GUISkin");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0xE8
@@ -53,9 +53,9 @@ namespace UnityEngine {
   // [AssetFileNameExtensionAttribute] Offset: 11C4280
   // [RequiredByNativeCodeAttribute] Offset: 11C4280
   // [ExecuteInEditMode] Offset: FFFFFFFF
-  class GUISkin : public UnityEngine::ScriptableObject {
+  class GUISkin : public ::UnityEngine::ScriptableObject {
     public:
-    // Nested type: UnityEngine::GUISkin::SkinChangedDelegate
+    // Nested type: ::UnityEngine::GUISkin::SkinChangedDelegate
     class SkinChangedDelegate;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -69,376 +69,376 @@ namespace UnityEngine {
     // private UnityEngine.Font m_Font
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::Font* m_Font;
+    ::UnityEngine::Font* m_Font;
     // Field size check
-    static_assert(sizeof(UnityEngine::Font*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Font*) == 0x8);
     // private UnityEngine.GUIStyle m_box
     // Size: 0x8
     // Offset: 0x20
-    UnityEngine::GUIStyle* m_box;
+    ::UnityEngine::GUIStyle* m_box;
     // Field size check
-    static_assert(sizeof(UnityEngine::GUIStyle*) == 0x8);
+    static_assert(sizeof(::UnityEngine::GUIStyle*) == 0x8);
     // private UnityEngine.GUIStyle m_button
     // Size: 0x8
     // Offset: 0x28
-    UnityEngine::GUIStyle* m_button;
+    ::UnityEngine::GUIStyle* m_button;
     // Field size check
-    static_assert(sizeof(UnityEngine::GUIStyle*) == 0x8);
+    static_assert(sizeof(::UnityEngine::GUIStyle*) == 0x8);
     // private UnityEngine.GUIStyle m_toggle
     // Size: 0x8
     // Offset: 0x30
-    UnityEngine::GUIStyle* m_toggle;
+    ::UnityEngine::GUIStyle* m_toggle;
     // Field size check
-    static_assert(sizeof(UnityEngine::GUIStyle*) == 0x8);
+    static_assert(sizeof(::UnityEngine::GUIStyle*) == 0x8);
     // private UnityEngine.GUIStyle m_label
     // Size: 0x8
     // Offset: 0x38
-    UnityEngine::GUIStyle* m_label;
+    ::UnityEngine::GUIStyle* m_label;
     // Field size check
-    static_assert(sizeof(UnityEngine::GUIStyle*) == 0x8);
+    static_assert(sizeof(::UnityEngine::GUIStyle*) == 0x8);
     // private UnityEngine.GUIStyle m_textField
     // Size: 0x8
     // Offset: 0x40
-    UnityEngine::GUIStyle* m_textField;
+    ::UnityEngine::GUIStyle* m_textField;
     // Field size check
-    static_assert(sizeof(UnityEngine::GUIStyle*) == 0x8);
+    static_assert(sizeof(::UnityEngine::GUIStyle*) == 0x8);
     // private UnityEngine.GUIStyle m_textArea
     // Size: 0x8
     // Offset: 0x48
-    UnityEngine::GUIStyle* m_textArea;
+    ::UnityEngine::GUIStyle* m_textArea;
     // Field size check
-    static_assert(sizeof(UnityEngine::GUIStyle*) == 0x8);
+    static_assert(sizeof(::UnityEngine::GUIStyle*) == 0x8);
     // private UnityEngine.GUIStyle m_window
     // Size: 0x8
     // Offset: 0x50
-    UnityEngine::GUIStyle* m_window;
+    ::UnityEngine::GUIStyle* m_window;
     // Field size check
-    static_assert(sizeof(UnityEngine::GUIStyle*) == 0x8);
+    static_assert(sizeof(::UnityEngine::GUIStyle*) == 0x8);
     // private UnityEngine.GUIStyle m_horizontalSlider
     // Size: 0x8
     // Offset: 0x58
-    UnityEngine::GUIStyle* m_horizontalSlider;
+    ::UnityEngine::GUIStyle* m_horizontalSlider;
     // Field size check
-    static_assert(sizeof(UnityEngine::GUIStyle*) == 0x8);
+    static_assert(sizeof(::UnityEngine::GUIStyle*) == 0x8);
     // private UnityEngine.GUIStyle m_horizontalSliderThumb
     // Size: 0x8
     // Offset: 0x60
-    UnityEngine::GUIStyle* m_horizontalSliderThumb;
+    ::UnityEngine::GUIStyle* m_horizontalSliderThumb;
     // Field size check
-    static_assert(sizeof(UnityEngine::GUIStyle*) == 0x8);
+    static_assert(sizeof(::UnityEngine::GUIStyle*) == 0x8);
     // private UnityEngine.GUIStyle m_horizontalSliderThumbExtent
     // Size: 0x8
     // Offset: 0x68
-    UnityEngine::GUIStyle* m_horizontalSliderThumbExtent;
+    ::UnityEngine::GUIStyle* m_horizontalSliderThumbExtent;
     // Field size check
-    static_assert(sizeof(UnityEngine::GUIStyle*) == 0x8);
+    static_assert(sizeof(::UnityEngine::GUIStyle*) == 0x8);
     // private UnityEngine.GUIStyle m_verticalSlider
     // Size: 0x8
     // Offset: 0x70
-    UnityEngine::GUIStyle* m_verticalSlider;
+    ::UnityEngine::GUIStyle* m_verticalSlider;
     // Field size check
-    static_assert(sizeof(UnityEngine::GUIStyle*) == 0x8);
+    static_assert(sizeof(::UnityEngine::GUIStyle*) == 0x8);
     // private UnityEngine.GUIStyle m_verticalSliderThumb
     // Size: 0x8
     // Offset: 0x78
-    UnityEngine::GUIStyle* m_verticalSliderThumb;
+    ::UnityEngine::GUIStyle* m_verticalSliderThumb;
     // Field size check
-    static_assert(sizeof(UnityEngine::GUIStyle*) == 0x8);
+    static_assert(sizeof(::UnityEngine::GUIStyle*) == 0x8);
     // private UnityEngine.GUIStyle m_verticalSliderThumbExtent
     // Size: 0x8
     // Offset: 0x80
-    UnityEngine::GUIStyle* m_verticalSliderThumbExtent;
+    ::UnityEngine::GUIStyle* m_verticalSliderThumbExtent;
     // Field size check
-    static_assert(sizeof(UnityEngine::GUIStyle*) == 0x8);
+    static_assert(sizeof(::UnityEngine::GUIStyle*) == 0x8);
     // private UnityEngine.GUIStyle m_horizontalScrollbar
     // Size: 0x8
     // Offset: 0x88
-    UnityEngine::GUIStyle* m_horizontalScrollbar;
+    ::UnityEngine::GUIStyle* m_horizontalScrollbar;
     // Field size check
-    static_assert(sizeof(UnityEngine::GUIStyle*) == 0x8);
+    static_assert(sizeof(::UnityEngine::GUIStyle*) == 0x8);
     // private UnityEngine.GUIStyle m_horizontalScrollbarThumb
     // Size: 0x8
     // Offset: 0x90
-    UnityEngine::GUIStyle* m_horizontalScrollbarThumb;
+    ::UnityEngine::GUIStyle* m_horizontalScrollbarThumb;
     // Field size check
-    static_assert(sizeof(UnityEngine::GUIStyle*) == 0x8);
+    static_assert(sizeof(::UnityEngine::GUIStyle*) == 0x8);
     // private UnityEngine.GUIStyle m_horizontalScrollbarLeftButton
     // Size: 0x8
     // Offset: 0x98
-    UnityEngine::GUIStyle* m_horizontalScrollbarLeftButton;
+    ::UnityEngine::GUIStyle* m_horizontalScrollbarLeftButton;
     // Field size check
-    static_assert(sizeof(UnityEngine::GUIStyle*) == 0x8);
+    static_assert(sizeof(::UnityEngine::GUIStyle*) == 0x8);
     // private UnityEngine.GUIStyle m_horizontalScrollbarRightButton
     // Size: 0x8
     // Offset: 0xA0
-    UnityEngine::GUIStyle* m_horizontalScrollbarRightButton;
+    ::UnityEngine::GUIStyle* m_horizontalScrollbarRightButton;
     // Field size check
-    static_assert(sizeof(UnityEngine::GUIStyle*) == 0x8);
+    static_assert(sizeof(::UnityEngine::GUIStyle*) == 0x8);
     // private UnityEngine.GUIStyle m_verticalScrollbar
     // Size: 0x8
     // Offset: 0xA8
-    UnityEngine::GUIStyle* m_verticalScrollbar;
+    ::UnityEngine::GUIStyle* m_verticalScrollbar;
     // Field size check
-    static_assert(sizeof(UnityEngine::GUIStyle*) == 0x8);
+    static_assert(sizeof(::UnityEngine::GUIStyle*) == 0x8);
     // private UnityEngine.GUIStyle m_verticalScrollbarThumb
     // Size: 0x8
     // Offset: 0xB0
-    UnityEngine::GUIStyle* m_verticalScrollbarThumb;
+    ::UnityEngine::GUIStyle* m_verticalScrollbarThumb;
     // Field size check
-    static_assert(sizeof(UnityEngine::GUIStyle*) == 0x8);
+    static_assert(sizeof(::UnityEngine::GUIStyle*) == 0x8);
     // private UnityEngine.GUIStyle m_verticalScrollbarUpButton
     // Size: 0x8
     // Offset: 0xB8
-    UnityEngine::GUIStyle* m_verticalScrollbarUpButton;
+    ::UnityEngine::GUIStyle* m_verticalScrollbarUpButton;
     // Field size check
-    static_assert(sizeof(UnityEngine::GUIStyle*) == 0x8);
+    static_assert(sizeof(::UnityEngine::GUIStyle*) == 0x8);
     // private UnityEngine.GUIStyle m_verticalScrollbarDownButton
     // Size: 0x8
     // Offset: 0xC0
-    UnityEngine::GUIStyle* m_verticalScrollbarDownButton;
+    ::UnityEngine::GUIStyle* m_verticalScrollbarDownButton;
     // Field size check
-    static_assert(sizeof(UnityEngine::GUIStyle*) == 0x8);
+    static_assert(sizeof(::UnityEngine::GUIStyle*) == 0x8);
     // private UnityEngine.GUIStyle m_ScrollView
     // Size: 0x8
     // Offset: 0xC8
-    UnityEngine::GUIStyle* m_ScrollView;
+    ::UnityEngine::GUIStyle* m_ScrollView;
     // Field size check
-    static_assert(sizeof(UnityEngine::GUIStyle*) == 0x8);
+    static_assert(sizeof(::UnityEngine::GUIStyle*) == 0x8);
     // UnityEngine.GUIStyle[] m_CustomStyles
     // Size: 0x8
     // Offset: 0xD0
-    ::ArrayW<UnityEngine::GUIStyle*> m_CustomStyles;
+    ::ArrayW<::UnityEngine::GUIStyle*> m_CustomStyles;
     // Field size check
-    static_assert(sizeof(::ArrayW<UnityEngine::GUIStyle*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::UnityEngine::GUIStyle*>) == 0x8);
     // private UnityEngine.GUISettings m_Settings
     // Size: 0x8
     // Offset: 0xD8
-    UnityEngine::GUISettings* m_Settings;
+    ::UnityEngine::GUISettings* m_Settings;
     // Field size check
-    static_assert(sizeof(UnityEngine::GUISettings*) == 0x8);
+    static_assert(sizeof(::UnityEngine::GUISettings*) == 0x8);
     // private System.Collections.Generic.Dictionary`2<System.String,UnityEngine.GUIStyle> m_Styles
     // Size: 0x8
     // Offset: 0xE0
-    System::Collections::Generic::Dictionary_2<::StringW, UnityEngine::GUIStyle*>* m_Styles;
+    ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::GUIStyle*>* m_Styles;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, UnityEngine::GUIStyle*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::GUIStyle*>*) == 0x8);
     public:
-    // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const noexcept = delete;
+    // Deleting conversion operator: operator ::System::IntPtr
+    constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get static field: static UnityEngine.GUIStyle ms_Error
-    static UnityEngine::GUIStyle* _get_ms_Error();
+    static ::UnityEngine::GUIStyle* _get_ms_Error();
     // Set static field: static UnityEngine.GUIStyle ms_Error
-    static void _set_ms_Error(UnityEngine::GUIStyle* value);
+    static void _set_ms_Error(::UnityEngine::GUIStyle* value);
     // Get static field: static UnityEngine.GUISkin/UnityEngine.SkinChangedDelegate m_SkinChanged
-    static UnityEngine::GUISkin::SkinChangedDelegate* _get_m_SkinChanged();
+    static ::UnityEngine::GUISkin::SkinChangedDelegate* _get_m_SkinChanged();
     // Set static field: static UnityEngine.GUISkin/UnityEngine.SkinChangedDelegate m_SkinChanged
-    static void _set_m_SkinChanged(UnityEngine::GUISkin::SkinChangedDelegate* value);
+    static void _set_m_SkinChanged(::UnityEngine::GUISkin::SkinChangedDelegate* value);
     // Get static field: static UnityEngine.GUISkin current
-    static UnityEngine::GUISkin* _get_current();
+    static ::UnityEngine::GUISkin* _get_current();
     // Set static field: static UnityEngine.GUISkin current
-    static void _set_current(UnityEngine::GUISkin* value);
+    static void _set_current(::UnityEngine::GUISkin* value);
     // Get instance field reference: private UnityEngine.Font m_Font
-    UnityEngine::Font*& dyn_m_Font();
+    ::UnityEngine::Font*& dyn_m_Font();
     // Get instance field reference: private UnityEngine.GUIStyle m_box
-    UnityEngine::GUIStyle*& dyn_m_box();
+    ::UnityEngine::GUIStyle*& dyn_m_box();
     // Get instance field reference: private UnityEngine.GUIStyle m_button
-    UnityEngine::GUIStyle*& dyn_m_button();
+    ::UnityEngine::GUIStyle*& dyn_m_button();
     // Get instance field reference: private UnityEngine.GUIStyle m_toggle
-    UnityEngine::GUIStyle*& dyn_m_toggle();
+    ::UnityEngine::GUIStyle*& dyn_m_toggle();
     // Get instance field reference: private UnityEngine.GUIStyle m_label
-    UnityEngine::GUIStyle*& dyn_m_label();
+    ::UnityEngine::GUIStyle*& dyn_m_label();
     // Get instance field reference: private UnityEngine.GUIStyle m_textField
-    UnityEngine::GUIStyle*& dyn_m_textField();
+    ::UnityEngine::GUIStyle*& dyn_m_textField();
     // Get instance field reference: private UnityEngine.GUIStyle m_textArea
-    UnityEngine::GUIStyle*& dyn_m_textArea();
+    ::UnityEngine::GUIStyle*& dyn_m_textArea();
     // Get instance field reference: private UnityEngine.GUIStyle m_window
-    UnityEngine::GUIStyle*& dyn_m_window();
+    ::UnityEngine::GUIStyle*& dyn_m_window();
     // Get instance field reference: private UnityEngine.GUIStyle m_horizontalSlider
-    UnityEngine::GUIStyle*& dyn_m_horizontalSlider();
+    ::UnityEngine::GUIStyle*& dyn_m_horizontalSlider();
     // Get instance field reference: private UnityEngine.GUIStyle m_horizontalSliderThumb
-    UnityEngine::GUIStyle*& dyn_m_horizontalSliderThumb();
+    ::UnityEngine::GUIStyle*& dyn_m_horizontalSliderThumb();
     // Get instance field reference: private UnityEngine.GUIStyle m_horizontalSliderThumbExtent
-    UnityEngine::GUIStyle*& dyn_m_horizontalSliderThumbExtent();
+    ::UnityEngine::GUIStyle*& dyn_m_horizontalSliderThumbExtent();
     // Get instance field reference: private UnityEngine.GUIStyle m_verticalSlider
-    UnityEngine::GUIStyle*& dyn_m_verticalSlider();
+    ::UnityEngine::GUIStyle*& dyn_m_verticalSlider();
     // Get instance field reference: private UnityEngine.GUIStyle m_verticalSliderThumb
-    UnityEngine::GUIStyle*& dyn_m_verticalSliderThumb();
+    ::UnityEngine::GUIStyle*& dyn_m_verticalSliderThumb();
     // Get instance field reference: private UnityEngine.GUIStyle m_verticalSliderThumbExtent
-    UnityEngine::GUIStyle*& dyn_m_verticalSliderThumbExtent();
+    ::UnityEngine::GUIStyle*& dyn_m_verticalSliderThumbExtent();
     // Get instance field reference: private UnityEngine.GUIStyle m_horizontalScrollbar
-    UnityEngine::GUIStyle*& dyn_m_horizontalScrollbar();
+    ::UnityEngine::GUIStyle*& dyn_m_horizontalScrollbar();
     // Get instance field reference: private UnityEngine.GUIStyle m_horizontalScrollbarThumb
-    UnityEngine::GUIStyle*& dyn_m_horizontalScrollbarThumb();
+    ::UnityEngine::GUIStyle*& dyn_m_horizontalScrollbarThumb();
     // Get instance field reference: private UnityEngine.GUIStyle m_horizontalScrollbarLeftButton
-    UnityEngine::GUIStyle*& dyn_m_horizontalScrollbarLeftButton();
+    ::UnityEngine::GUIStyle*& dyn_m_horizontalScrollbarLeftButton();
     // Get instance field reference: private UnityEngine.GUIStyle m_horizontalScrollbarRightButton
-    UnityEngine::GUIStyle*& dyn_m_horizontalScrollbarRightButton();
+    ::UnityEngine::GUIStyle*& dyn_m_horizontalScrollbarRightButton();
     // Get instance field reference: private UnityEngine.GUIStyle m_verticalScrollbar
-    UnityEngine::GUIStyle*& dyn_m_verticalScrollbar();
+    ::UnityEngine::GUIStyle*& dyn_m_verticalScrollbar();
     // Get instance field reference: private UnityEngine.GUIStyle m_verticalScrollbarThumb
-    UnityEngine::GUIStyle*& dyn_m_verticalScrollbarThumb();
+    ::UnityEngine::GUIStyle*& dyn_m_verticalScrollbarThumb();
     // Get instance field reference: private UnityEngine.GUIStyle m_verticalScrollbarUpButton
-    UnityEngine::GUIStyle*& dyn_m_verticalScrollbarUpButton();
+    ::UnityEngine::GUIStyle*& dyn_m_verticalScrollbarUpButton();
     // Get instance field reference: private UnityEngine.GUIStyle m_verticalScrollbarDownButton
-    UnityEngine::GUIStyle*& dyn_m_verticalScrollbarDownButton();
+    ::UnityEngine::GUIStyle*& dyn_m_verticalScrollbarDownButton();
     // Get instance field reference: private UnityEngine.GUIStyle m_ScrollView
-    UnityEngine::GUIStyle*& dyn_m_ScrollView();
+    ::UnityEngine::GUIStyle*& dyn_m_ScrollView();
     // Get instance field reference: UnityEngine.GUIStyle[] m_CustomStyles
-    ::ArrayW<UnityEngine::GUIStyle*>& dyn_m_CustomStyles();
+    ::ArrayW<::UnityEngine::GUIStyle*>& dyn_m_CustomStyles();
     // Get instance field reference: private UnityEngine.GUISettings m_Settings
-    UnityEngine::GUISettings*& dyn_m_Settings();
+    ::UnityEngine::GUISettings*& dyn_m_Settings();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,UnityEngine.GUIStyle> m_Styles
-    System::Collections::Generic::Dictionary_2<::StringW, UnityEngine::GUIStyle*>*& dyn_m_Styles();
+    ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::GUIStyle*>*& dyn_m_Styles();
     // public UnityEngine.Font get_font()
     // Offset: 0x1F57740
-    UnityEngine::Font* get_font();
+    ::UnityEngine::Font* get_font();
     // public System.Void set_font(UnityEngine.Font value)
     // Offset: 0x1F64464
-    void set_font(UnityEngine::Font* value);
+    void set_font(::UnityEngine::Font* value);
     // public UnityEngine.GUIStyle get_box()
     // Offset: 0x1F5CAA0
-    UnityEngine::GUIStyle* get_box();
+    ::UnityEngine::GUIStyle* get_box();
     // public System.Void set_box(UnityEngine.GUIStyle value)
     // Offset: 0x1F6458C
-    void set_box(UnityEngine::GUIStyle* value);
+    void set_box(::UnityEngine::GUIStyle* value);
     // public UnityEngine.GUIStyle get_label()
     // Offset: 0x1F5C810
-    UnityEngine::GUIStyle* get_label();
+    ::UnityEngine::GUIStyle* get_label();
     // public System.Void set_label(UnityEngine.GUIStyle value)
     // Offset: 0x1F64594
-    void set_label(UnityEngine::GUIStyle* value);
+    void set_label(::UnityEngine::GUIStyle* value);
     // public UnityEngine.GUIStyle get_textField()
     // Offset: 0x1F5CDA0
-    UnityEngine::GUIStyle* get_textField();
+    ::UnityEngine::GUIStyle* get_textField();
     // public System.Void set_textField(UnityEngine.GUIStyle value)
     // Offset: 0x1F6459C
-    void set_textField(UnityEngine::GUIStyle* value);
+    void set_textField(::UnityEngine::GUIStyle* value);
     // public UnityEngine.GUIStyle get_textArea()
     // Offset: 0x1F645A4
-    UnityEngine::GUIStyle* get_textArea();
+    ::UnityEngine::GUIStyle* get_textArea();
     // public System.Void set_textArea(UnityEngine.GUIStyle value)
     // Offset: 0x1F645AC
-    void set_textArea(UnityEngine::GUIStyle* value);
+    void set_textArea(::UnityEngine::GUIStyle* value);
     // public UnityEngine.GUIStyle get_button()
     // Offset: 0x1F5CC34
-    UnityEngine::GUIStyle* get_button();
+    ::UnityEngine::GUIStyle* get_button();
     // public System.Void set_button(UnityEngine.GUIStyle value)
     // Offset: 0x1F645B4
-    void set_button(UnityEngine::GUIStyle* value);
+    void set_button(::UnityEngine::GUIStyle* value);
     // public UnityEngine.GUIStyle get_toggle()
     // Offset: 0x1F5D0D8
-    UnityEngine::GUIStyle* get_toggle();
+    ::UnityEngine::GUIStyle* get_toggle();
     // public System.Void set_toggle(UnityEngine.GUIStyle value)
     // Offset: 0x1F645BC
-    void set_toggle(UnityEngine::GUIStyle* value);
+    void set_toggle(::UnityEngine::GUIStyle* value);
     // public UnityEngine.GUIStyle get_window()
     // Offset: 0x1F645C4
-    UnityEngine::GUIStyle* get_window();
+    ::UnityEngine::GUIStyle* get_window();
     // public System.Void set_window(UnityEngine.GUIStyle value)
     // Offset: 0x1F645CC
-    void set_window(UnityEngine::GUIStyle* value);
+    void set_window(::UnityEngine::GUIStyle* value);
     // public UnityEngine.GUIStyle get_horizontalSlider()
     // Offset: 0x1F5D274
-    UnityEngine::GUIStyle* get_horizontalSlider();
+    ::UnityEngine::GUIStyle* get_horizontalSlider();
     // public System.Void set_horizontalSlider(UnityEngine.GUIStyle value)
     // Offset: 0x1F645D4
-    void set_horizontalSlider(UnityEngine::GUIStyle* value);
+    void set_horizontalSlider(::UnityEngine::GUIStyle* value);
     // public UnityEngine.GUIStyle get_horizontalSliderThumb()
     // Offset: 0x1F5D27C
-    UnityEngine::GUIStyle* get_horizontalSliderThumb();
+    ::UnityEngine::GUIStyle* get_horizontalSliderThumb();
     // public System.Void set_horizontalSliderThumb(UnityEngine.GUIStyle value)
     // Offset: 0x1F645DC
-    void set_horizontalSliderThumb(UnityEngine::GUIStyle* value);
+    void set_horizontalSliderThumb(::UnityEngine::GUIStyle* value);
     // UnityEngine.GUIStyle get_horizontalSliderThumbExtent()
     // Offset: 0x1F645E4
-    UnityEngine::GUIStyle* get_horizontalSliderThumbExtent();
+    ::UnityEngine::GUIStyle* get_horizontalSliderThumbExtent();
     // System.Void set_horizontalSliderThumbExtent(UnityEngine.GUIStyle value)
     // Offset: 0x1F645EC
-    void set_horizontalSliderThumbExtent(UnityEngine::GUIStyle* value);
+    void set_horizontalSliderThumbExtent(::UnityEngine::GUIStyle* value);
     // public UnityEngine.GUIStyle get_verticalSlider()
     // Offset: 0x1F645F4
-    UnityEngine::GUIStyle* get_verticalSlider();
+    ::UnityEngine::GUIStyle* get_verticalSlider();
     // public System.Void set_verticalSlider(UnityEngine.GUIStyle value)
     // Offset: 0x1F645FC
-    void set_verticalSlider(UnityEngine::GUIStyle* value);
+    void set_verticalSlider(::UnityEngine::GUIStyle* value);
     // public UnityEngine.GUIStyle get_verticalSliderThumb()
     // Offset: 0x1F64604
-    UnityEngine::GUIStyle* get_verticalSliderThumb();
+    ::UnityEngine::GUIStyle* get_verticalSliderThumb();
     // public System.Void set_verticalSliderThumb(UnityEngine.GUIStyle value)
     // Offset: 0x1F6460C
-    void set_verticalSliderThumb(UnityEngine::GUIStyle* value);
+    void set_verticalSliderThumb(::UnityEngine::GUIStyle* value);
     // UnityEngine.GUIStyle get_verticalSliderThumbExtent()
     // Offset: 0x1F64614
-    UnityEngine::GUIStyle* get_verticalSliderThumbExtent();
+    ::UnityEngine::GUIStyle* get_verticalSliderThumbExtent();
     // System.Void set_verticalSliderThumbExtent(UnityEngine.GUIStyle value)
     // Offset: 0x1F6461C
-    void set_verticalSliderThumbExtent(UnityEngine::GUIStyle* value);
+    void set_verticalSliderThumbExtent(::UnityEngine::GUIStyle* value);
     // public UnityEngine.GUIStyle get_horizontalScrollbar()
     // Offset: 0x1F5ECEC
-    UnityEngine::GUIStyle* get_horizontalScrollbar();
+    ::UnityEngine::GUIStyle* get_horizontalScrollbar();
     // public System.Void set_horizontalScrollbar(UnityEngine.GUIStyle value)
     // Offset: 0x1F64624
-    void set_horizontalScrollbar(UnityEngine::GUIStyle* value);
+    void set_horizontalScrollbar(::UnityEngine::GUIStyle* value);
     // public UnityEngine.GUIStyle get_horizontalScrollbarThumb()
     // Offset: 0x1F6462C
-    UnityEngine::GUIStyle* get_horizontalScrollbarThumb();
+    ::UnityEngine::GUIStyle* get_horizontalScrollbarThumb();
     // public System.Void set_horizontalScrollbarThumb(UnityEngine.GUIStyle value)
     // Offset: 0x1F64634
-    void set_horizontalScrollbarThumb(UnityEngine::GUIStyle* value);
+    void set_horizontalScrollbarThumb(::UnityEngine::GUIStyle* value);
     // public UnityEngine.GUIStyle get_horizontalScrollbarLeftButton()
     // Offset: 0x1F6463C
-    UnityEngine::GUIStyle* get_horizontalScrollbarLeftButton();
+    ::UnityEngine::GUIStyle* get_horizontalScrollbarLeftButton();
     // public System.Void set_horizontalScrollbarLeftButton(UnityEngine.GUIStyle value)
     // Offset: 0x1F64644
-    void set_horizontalScrollbarLeftButton(UnityEngine::GUIStyle* value);
+    void set_horizontalScrollbarLeftButton(::UnityEngine::GUIStyle* value);
     // public UnityEngine.GUIStyle get_horizontalScrollbarRightButton()
     // Offset: 0x1F6464C
-    UnityEngine::GUIStyle* get_horizontalScrollbarRightButton();
+    ::UnityEngine::GUIStyle* get_horizontalScrollbarRightButton();
     // public System.Void set_horizontalScrollbarRightButton(UnityEngine.GUIStyle value)
     // Offset: 0x1F64654
-    void set_horizontalScrollbarRightButton(UnityEngine::GUIStyle* value);
+    void set_horizontalScrollbarRightButton(::UnityEngine::GUIStyle* value);
     // public UnityEngine.GUIStyle get_verticalScrollbar()
     // Offset: 0x1F5ECF4
-    UnityEngine::GUIStyle* get_verticalScrollbar();
+    ::UnityEngine::GUIStyle* get_verticalScrollbar();
     // public System.Void set_verticalScrollbar(UnityEngine.GUIStyle value)
     // Offset: 0x1F6465C
-    void set_verticalScrollbar(UnityEngine::GUIStyle* value);
+    void set_verticalScrollbar(::UnityEngine::GUIStyle* value);
     // public UnityEngine.GUIStyle get_verticalScrollbarThumb()
     // Offset: 0x1F64664
-    UnityEngine::GUIStyle* get_verticalScrollbarThumb();
+    ::UnityEngine::GUIStyle* get_verticalScrollbarThumb();
     // public System.Void set_verticalScrollbarThumb(UnityEngine.GUIStyle value)
     // Offset: 0x1F6466C
-    void set_verticalScrollbarThumb(UnityEngine::GUIStyle* value);
+    void set_verticalScrollbarThumb(::UnityEngine::GUIStyle* value);
     // public UnityEngine.GUIStyle get_verticalScrollbarUpButton()
     // Offset: 0x1F64674
-    UnityEngine::GUIStyle* get_verticalScrollbarUpButton();
+    ::UnityEngine::GUIStyle* get_verticalScrollbarUpButton();
     // public System.Void set_verticalScrollbarUpButton(UnityEngine.GUIStyle value)
     // Offset: 0x1F6467C
-    void set_verticalScrollbarUpButton(UnityEngine::GUIStyle* value);
+    void set_verticalScrollbarUpButton(::UnityEngine::GUIStyle* value);
     // public UnityEngine.GUIStyle get_verticalScrollbarDownButton()
     // Offset: 0x1F64684
-    UnityEngine::GUIStyle* get_verticalScrollbarDownButton();
+    ::UnityEngine::GUIStyle* get_verticalScrollbarDownButton();
     // public System.Void set_verticalScrollbarDownButton(UnityEngine.GUIStyle value)
     // Offset: 0x1F6468C
-    void set_verticalScrollbarDownButton(UnityEngine::GUIStyle* value);
+    void set_verticalScrollbarDownButton(::UnityEngine::GUIStyle* value);
     // public UnityEngine.GUIStyle get_scrollView()
     // Offset: 0x1F5ECFC
-    UnityEngine::GUIStyle* get_scrollView();
+    ::UnityEngine::GUIStyle* get_scrollView();
     // public System.Void set_scrollView(UnityEngine.GUIStyle value)
     // Offset: 0x1F64694
-    void set_scrollView(UnityEngine::GUIStyle* value);
+    void set_scrollView(::UnityEngine::GUIStyle* value);
     // public UnityEngine.GUIStyle[] get_customStyles()
     // Offset: 0x1F6469C
-    ::ArrayW<UnityEngine::GUIStyle*> get_customStyles();
+    ::ArrayW<::UnityEngine::GUIStyle*> get_customStyles();
     // public System.Void set_customStyles(UnityEngine.GUIStyle[] value)
     // Offset: 0x1F646A4
-    void set_customStyles(::ArrayW<UnityEngine::GUIStyle*> value);
+    void set_customStyles(::ArrayW<::UnityEngine::GUIStyle*> value);
     // public UnityEngine.GUISettings get_settings()
     // Offset: 0x1F571F0
-    UnityEngine::GUISettings* get_settings();
+    ::UnityEngine::GUISettings* get_settings();
     // static UnityEngine.GUIStyle get_error()
     // Offset: 0x1F646AC
-    static UnityEngine::GUIStyle* get_error();
+    static ::UnityEngine::GUIStyle* get_error();
     // System.Void OnEnable()
     // Offset: 0x1F64388
     void OnEnable();
@@ -453,16 +453,16 @@ namespace UnityEngine {
     void BuildStyleCache();
     // public UnityEngine.GUIStyle GetStyle(System.String styleName)
     // Offset: 0x1F589F0
-    UnityEngine::GUIStyle* GetStyle(::StringW styleName);
+    ::UnityEngine::GUIStyle* GetStyle(::StringW styleName);
     // public UnityEngine.GUIStyle FindStyle(System.String styleName)
     // Offset: 0x1F655E0
-    UnityEngine::GUIStyle* FindStyle(::StringW styleName);
+    ::UnityEngine::GUIStyle* FindStyle(::StringW styleName);
     // System.Void MakeCurrent()
     // Offset: 0x1F53B3C
     void MakeCurrent();
     // public System.Collections.IEnumerator GetEnumerator()
     // Offset: 0x1F6587C
-    System::Collections::IEnumerator* GetEnumerator();
+    ::System::Collections::IEnumerator* GetEnumerator();
     // public System.Void .ctor()
     // Offset: 0x1F64308
     // Implemented from: UnityEngine.ScriptableObject
@@ -471,19 +471,19 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GUISkin* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::GUISkin::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::GUISkin::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GUISkin*, creationType>()));
     }
   }; // UnityEngine.GUISkin
   #pragma pack(pop)
-  static check_size<sizeof(GUISkin), 224 + sizeof(System::Collections::Generic::Dictionary_2<::StringW, UnityEngine::GUIStyle*>*)> __UnityEngine_GUISkinSizeCheck;
+  static check_size<sizeof(GUISkin), 224 + sizeof(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::GUIStyle*>*)> __UnityEngine_GUISkinSizeCheck;
   static_assert(sizeof(GUISkin) == 0xE8);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_font
 // Il2CppName: get_font
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Font* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_font)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Font* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_font)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_font", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -491,7 +491,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_font
 // Il2CppName: set_font
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::Font*)>(&UnityEngine::GUISkin::set_font)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(::UnityEngine::Font*)>(&UnityEngine::GUISkin::set_font)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Font")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_font", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -500,7 +500,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_box
 // Il2CppName: get_box
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_box)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_box)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_box", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -508,7 +508,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_box
 // Il2CppName: set_box
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_box)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(::UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_box)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_box", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -517,7 +517,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_label
 // Il2CppName: get_label
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_label)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_label)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_label", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -525,7 +525,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_label
 // Il2CppName: set_label
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_label)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(::UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_label)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_label", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -534,7 +534,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_textField
 // Il2CppName: get_textField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_textField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_textField)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_textField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -542,7 +542,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_textField
 // Il2CppName: set_textField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_textField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(::UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_textField)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_textField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -551,7 +551,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_textArea
 // Il2CppName: get_textArea
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_textArea)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_textArea)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_textArea", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -559,7 +559,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_textArea
 // Il2CppName: set_textArea
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_textArea)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(::UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_textArea)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_textArea", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -568,7 +568,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_button
 // Il2CppName: get_button
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_button)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_button)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_button", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -576,7 +576,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_button
 // Il2CppName: set_button
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_button)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(::UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_button)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_button", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -585,7 +585,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_toggle
 // Il2CppName: get_toggle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_toggle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_toggle)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_toggle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -593,7 +593,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_toggle
 // Il2CppName: set_toggle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_toggle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(::UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_toggle)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_toggle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -602,7 +602,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_window
 // Il2CppName: get_window
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_window)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_window)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_window", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -610,7 +610,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_window
 // Il2CppName: set_window
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_window)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(::UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_window)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_window", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -619,7 +619,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_horizontalSlider
 // Il2CppName: get_horizontalSlider
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_horizontalSlider)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_horizontalSlider)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_horizontalSlider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -627,7 +627,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_horizontalSlider
 // Il2CppName: set_horizontalSlider
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_horizontalSlider)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(::UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_horizontalSlider)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_horizontalSlider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -636,7 +636,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_horizontalSliderThumb
 // Il2CppName: get_horizontalSliderThumb
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_horizontalSliderThumb)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_horizontalSliderThumb)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_horizontalSliderThumb", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -644,7 +644,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_horizontalSliderThumb
 // Il2CppName: set_horizontalSliderThumb
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_horizontalSliderThumb)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(::UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_horizontalSliderThumb)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_horizontalSliderThumb", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -653,7 +653,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_horizontalSliderThumbExtent
 // Il2CppName: get_horizontalSliderThumbExtent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_horizontalSliderThumbExtent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_horizontalSliderThumbExtent)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_horizontalSliderThumbExtent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -661,7 +661,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_horizontalSliderThumbExtent
 // Il2CppName: set_horizontalSliderThumbExtent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_horizontalSliderThumbExtent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(::UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_horizontalSliderThumbExtent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_horizontalSliderThumbExtent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -670,7 +670,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_verticalSlider
 // Il2CppName: get_verticalSlider
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_verticalSlider)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_verticalSlider)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_verticalSlider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -678,7 +678,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_verticalSlider
 // Il2CppName: set_verticalSlider
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_verticalSlider)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(::UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_verticalSlider)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_verticalSlider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -687,7 +687,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_verticalSliderThumb
 // Il2CppName: get_verticalSliderThumb
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_verticalSliderThumb)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_verticalSliderThumb)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_verticalSliderThumb", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -695,7 +695,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_verticalSliderThumb
 // Il2CppName: set_verticalSliderThumb
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_verticalSliderThumb)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(::UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_verticalSliderThumb)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_verticalSliderThumb", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -704,7 +704,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_verticalSliderThumbExtent
 // Il2CppName: get_verticalSliderThumbExtent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_verticalSliderThumbExtent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_verticalSliderThumbExtent)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_verticalSliderThumbExtent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -712,7 +712,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_verticalSliderThumbExtent
 // Il2CppName: set_verticalSliderThumbExtent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_verticalSliderThumbExtent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(::UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_verticalSliderThumbExtent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_verticalSliderThumbExtent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -721,7 +721,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_horizontalScrollbar
 // Il2CppName: get_horizontalScrollbar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_horizontalScrollbar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_horizontalScrollbar)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_horizontalScrollbar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -729,7 +729,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_horizontalScrollbar
 // Il2CppName: set_horizontalScrollbar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_horizontalScrollbar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(::UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_horizontalScrollbar)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_horizontalScrollbar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -738,7 +738,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_horizontalScrollbarThumb
 // Il2CppName: get_horizontalScrollbarThumb
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_horizontalScrollbarThumb)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_horizontalScrollbarThumb)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_horizontalScrollbarThumb", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -746,7 +746,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_horizontalScrollbarThumb
 // Il2CppName: set_horizontalScrollbarThumb
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_horizontalScrollbarThumb)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(::UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_horizontalScrollbarThumb)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_horizontalScrollbarThumb", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -755,7 +755,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_horizontalScrollbarLeftButton
 // Il2CppName: get_horizontalScrollbarLeftButton
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_horizontalScrollbarLeftButton)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_horizontalScrollbarLeftButton)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_horizontalScrollbarLeftButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -763,7 +763,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_horizontalScrollbarLeftButton
 // Il2CppName: set_horizontalScrollbarLeftButton
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_horizontalScrollbarLeftButton)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(::UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_horizontalScrollbarLeftButton)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_horizontalScrollbarLeftButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -772,7 +772,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_horizontalScrollbarRightButton
 // Il2CppName: get_horizontalScrollbarRightButton
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_horizontalScrollbarRightButton)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_horizontalScrollbarRightButton)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_horizontalScrollbarRightButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -780,7 +780,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_horizontalScrollbarRightButton
 // Il2CppName: set_horizontalScrollbarRightButton
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_horizontalScrollbarRightButton)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(::UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_horizontalScrollbarRightButton)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_horizontalScrollbarRightButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -789,7 +789,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_verticalScrollbar
 // Il2CppName: get_verticalScrollbar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_verticalScrollbar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_verticalScrollbar)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_verticalScrollbar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -797,7 +797,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_verticalScrollbar
 // Il2CppName: set_verticalScrollbar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_verticalScrollbar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(::UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_verticalScrollbar)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_verticalScrollbar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -806,7 +806,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_verticalScrollbarThumb
 // Il2CppName: get_verticalScrollbarThumb
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_verticalScrollbarThumb)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_verticalScrollbarThumb)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_verticalScrollbarThumb", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -814,7 +814,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_verticalScrollbarThumb
 // Il2CppName: set_verticalScrollbarThumb
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_verticalScrollbarThumb)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(::UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_verticalScrollbarThumb)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_verticalScrollbarThumb", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -823,7 +823,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_verticalScrollbarUpButton
 // Il2CppName: get_verticalScrollbarUpButton
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_verticalScrollbarUpButton)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_verticalScrollbarUpButton)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_verticalScrollbarUpButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -831,7 +831,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_verticalScrollbarUpButton
 // Il2CppName: set_verticalScrollbarUpButton
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_verticalScrollbarUpButton)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(::UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_verticalScrollbarUpButton)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_verticalScrollbarUpButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -840,7 +840,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_verticalScrollbarDownButton
 // Il2CppName: get_verticalScrollbarDownButton
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_verticalScrollbarDownButton)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_verticalScrollbarDownButton)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_verticalScrollbarDownButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -848,7 +848,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_verticalScrollbarDownButton
 // Il2CppName: set_verticalScrollbarDownButton
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_verticalScrollbarDownButton)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(::UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_verticalScrollbarDownButton)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_verticalScrollbarDownButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -857,7 +857,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_scrollView
 // Il2CppName: get_scrollView
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_scrollView)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_scrollView)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_scrollView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -865,7 +865,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_scrollView
 // Il2CppName: set_scrollView
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_scrollView)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(::UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_scrollView)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_scrollView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -874,7 +874,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_customStyles
 // Il2CppName: get_customStyles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::GUIStyle*> (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_customStyles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::GUIStyle*> (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_customStyles)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_customStyles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -882,7 +882,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_customStyles
 // Il2CppName: set_customStyles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(::ArrayW<UnityEngine::GUIStyle*>)>(&UnityEngine::GUISkin::set_customStyles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(::ArrayW<::UnityEngine::GUIStyle*>)>(&UnityEngine::GUISkin::set_customStyles)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_customStyles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -891,7 +891,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_settings
 // Il2CppName: get_settings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUISettings* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_settings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GUISettings* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_settings)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_settings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -899,7 +899,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_error
 // Il2CppName: get_error
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (*)()>(&UnityEngine::GUISkin::get_error)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GUIStyle* (*)()>(&UnityEngine::GUISkin::get_error)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_error", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -939,7 +939,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GUISkin::GetStyle
 // Il2CppName: GetStyle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)(::StringW)>(&UnityEngine::GUISkin::GetStyle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)(::StringW)>(&UnityEngine::GUISkin::GetStyle)> {
   static const MethodInfo* get() {
     static auto* styleName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "GetStyle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{styleName});
@@ -948,7 +948,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::GUISkin::FindStyle
 // Il2CppName: FindStyle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)(::StringW)>(&UnityEngine::GUISkin::FindStyle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)(::StringW)>(&UnityEngine::GUISkin::FindStyle)> {
   static const MethodInfo* get() {
     static auto* styleName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "FindStyle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{styleName});
@@ -965,7 +965,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GUISkin::GetEnumerator
 // Il2CppName: GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::GetEnumerator)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

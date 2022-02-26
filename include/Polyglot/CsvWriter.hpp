@@ -30,8 +30,8 @@ namespace Polyglot {
   class CsvWriter;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Polyglot::CsvWriter);
-DEFINE_IL2CPP_ARG_TYPE(Polyglot::CsvWriter*, "Polyglot", "CsvWriter");
+NEED_NO_BOX(::Polyglot::CsvWriter);
+DEFINE_IL2CPP_ARG_TYPE(::Polyglot::CsvWriter*, "Polyglot", "CsvWriter");
 // Type namespace: Polyglot
 namespace Polyglot {
   // Size: 0x10
@@ -42,10 +42,10 @@ namespace Polyglot {
     public:
     // static public System.Void AppendRow(System.String filePath, System.Collections.Generic.List`1<System.String> row)
     // Offset: 0x29959D4
-    static void AppendRow(::StringW filePath, System::Collections::Generic::List_1<::StringW>* row);
+    static void AppendRow(::StringW filePath, ::System::Collections::Generic::List_1<::StringW>* row);
     // static private System.Void AppendElement(System.Text.StringBuilder buffer, System.String element)
     // Offset: 0x2995D84
-    static void AppendElement(System::Text::StringBuilder* buffer, ::StringW element);
+    static void AppendElement(::System::Text::StringBuilder* buffer, ::StringW element);
     // static private System.Boolean HasEscapeChars(System.String element)
     // Offset: 0x2995CE0
     static bool HasEscapeChars(::StringW element);
@@ -55,7 +55,7 @@ namespace Polyglot {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CsvWriter* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Polyglot::CsvWriter::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Polyglot::CsvWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CsvWriter*, creationType>()));
     }
   }; // Polyglot.CsvWriter
@@ -65,7 +65,7 @@ namespace Polyglot {
 // Writing MetadataGetter for method: Polyglot::CsvWriter::AppendRow
 // Il2CppName: AppendRow
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, System::Collections::Generic::List_1<::StringW>*)>(&Polyglot::CsvWriter::AppendRow)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::System::Collections::Generic::List_1<::StringW>*)>(&Polyglot::CsvWriter::AppendRow)> {
   static const MethodInfo* get() {
     static auto* filePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* row = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
@@ -75,7 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Polyglot::CsvWriter::AppendElement
 // Il2CppName: AppendElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Text::StringBuilder*, ::StringW)>(&Polyglot::CsvWriter::AppendElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, ::StringW)>(&Polyglot::CsvWriter::AppendElement)> {
   static const MethodInfo* get() {
     static auto* buffer = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* element = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

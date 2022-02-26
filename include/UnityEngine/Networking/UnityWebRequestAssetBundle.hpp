@@ -25,8 +25,8 @@ namespace UnityEngine::Networking {
   class UnityWebRequestAssetBundle;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Networking::UnityWebRequestAssetBundle);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UnityWebRequestAssetBundle*, "UnityEngine.Networking", "UnityWebRequestAssetBundle");
+NEED_NO_BOX(::UnityEngine::Networking::UnityWebRequestAssetBundle);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Networking::UnityWebRequestAssetBundle*, "UnityEngine.Networking", "UnityWebRequestAssetBundle");
 // Type namespace: UnityEngine.Networking
 namespace UnityEngine::Networking {
   // Size: 0x10
@@ -37,13 +37,13 @@ namespace UnityEngine::Networking {
     public:
     // static public UnityEngine.Networking.UnityWebRequest GetAssetBundle(System.String uri)
     // Offset: 0x2A617B0
-    static UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::StringW uri);
+    static ::UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::StringW uri);
     // static public UnityEngine.Networking.UnityWebRequest GetAssetBundle(System.String uri, System.UInt32 crc)
     // Offset: 0x2A617B8
-    static UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::StringW uri, uint crc);
+    static ::UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::StringW uri, uint crc);
     // static public UnityEngine.Networking.UnityWebRequest GetAssetBundle(System.String uri, UnityEngine.CachedAssetBundle cachedAssetBundle, System.UInt32 crc)
     // Offset: 0x2A6185C
-    static UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::StringW uri, UnityEngine::CachedAssetBundle cachedAssetBundle, uint crc);
+    static ::UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::StringW uri, ::UnityEngine::CachedAssetBundle cachedAssetBundle, uint crc);
   }; // UnityEngine.Networking.UnityWebRequestAssetBundle
   #pragma pack(pop)
 }
@@ -51,7 +51,7 @@ namespace UnityEngine::Networking {
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequestAssetBundle::GetAssetBundle
 // Il2CppName: GetAssetBundle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest* (*)(::StringW)>(&UnityEngine::Networking::UnityWebRequestAssetBundle::GetAssetBundle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Networking::UnityWebRequest* (*)(::StringW)>(&UnityEngine::Networking::UnityWebRequestAssetBundle::GetAssetBundle)> {
   static const MethodInfo* get() {
     static auto* uri = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequestAssetBundle*), "GetAssetBundle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{uri});
@@ -60,7 +60,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequestAssetBundle::GetAssetBundle
 // Il2CppName: GetAssetBundle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest* (*)(::StringW, uint)>(&UnityEngine::Networking::UnityWebRequestAssetBundle::GetAssetBundle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Networking::UnityWebRequest* (*)(::StringW, uint)>(&UnityEngine::Networking::UnityWebRequestAssetBundle::GetAssetBundle)> {
   static const MethodInfo* get() {
     static auto* uri = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* crc = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -70,7 +70,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequestAssetBundle::GetAssetBundle
 // Il2CppName: GetAssetBundle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest* (*)(::StringW, UnityEngine::CachedAssetBundle, uint)>(&UnityEngine::Networking::UnityWebRequestAssetBundle::GetAssetBundle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Networking::UnityWebRequest* (*)(::StringW, ::UnityEngine::CachedAssetBundle, uint)>(&UnityEngine::Networking::UnityWebRequestAssetBundle::GetAssetBundle)> {
   static const MethodInfo* get() {
     static auto* uri = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* cachedAssetBundle = &::il2cpp_utils::GetClassFromName("UnityEngine", "CachedAssetBundle")->byval_arg;

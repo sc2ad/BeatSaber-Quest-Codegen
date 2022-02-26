@@ -14,8 +14,8 @@ namespace UnityEngine {
   class AudioReverbZone;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::AudioReverbZone);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioReverbZone*, "UnityEngine", "AudioReverbZone");
+NEED_NO_BOX(::UnityEngine::AudioReverbZone);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AudioReverbZone*, "UnityEngine", "AudioReverbZone");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -24,7 +24,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [RequireComponent] Offset: 11D7798
   // [NativeHeaderAttribute] Offset: 11D7798
-  class AudioReverbZone : public UnityEngine::Behaviour {
+  class AudioReverbZone : public ::UnityEngine::Behaviour {
     public:
   }; // UnityEngine.AudioReverbZone
   #pragma pack(pop)

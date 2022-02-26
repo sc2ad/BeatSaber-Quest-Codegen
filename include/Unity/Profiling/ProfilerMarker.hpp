@@ -22,7 +22,7 @@ namespace Unity::Profiling {
   struct ProfilerMarker;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Unity::Profiling::ProfilerMarker, "Unity.Profiling", "ProfilerMarker");
+DEFINE_IL2CPP_ARG_TYPE(::Unity::Profiling::ProfilerMarker, "Unity.Profiling", "ProfilerMarker");
 // Type namespace: Unity.Profiling
 namespace Unity::Profiling {
   // Size: 0x8
@@ -32,49 +32,49 @@ namespace Unity::Profiling {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NativeHeaderAttribute] Offset: 11A2FE4
   // [UsedByNativeCodeAttribute] Offset: 11A2FE4
-  struct ProfilerMarker/*, public System::ValueType*/ {
+  struct ProfilerMarker/*, public ::System::ValueType*/ {
     public:
-    // Nested type: Unity::Profiling::ProfilerMarker::AutoScope
+    // Nested type: ::Unity::Profiling::ProfilerMarker::AutoScope
     struct AutoScope;
     public:
     // [NativeDisableUnsafePtrRestrictionAttribute] Offset: 0x11A84B4
     // readonly System.IntPtr m_Ptr
     // Size: 0x8
     // Offset: 0x0
-    System::IntPtr m_Ptr;
+    ::System::IntPtr m_Ptr;
     // Field size check
-    static_assert(sizeof(System::IntPtr) == 0x8);
+    static_assert(sizeof(::System::IntPtr) == 0x8);
     public:
     // Creating value type constructor for type: ProfilerMarker
-    constexpr ProfilerMarker(System::IntPtr m_Ptr_ = {}) noexcept : m_Ptr{m_Ptr_} {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    constexpr ProfilerMarker(::System::IntPtr m_Ptr_ = {}) noexcept : m_Ptr{m_Ptr_} {}
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
-    // Creating conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const noexcept {
+    // Creating conversion operator: operator ::System::IntPtr
+    constexpr operator ::System::IntPtr() const noexcept {
       return m_Ptr;
     }
     // Get instance field reference: readonly System.IntPtr m_Ptr
-    System::IntPtr& dyn_m_Ptr();
+    ::System::IntPtr& dyn_m_Ptr();
     // public System.Void .ctor(System.String name)
     // Offset: 0x1EA96B8
     ProfilerMarker(::StringW name);
     // public Unity.Profiling.ProfilerMarker/Unity.Profiling.AutoScope Auto()
     // Offset: 0x1EA9760
-    Unity::Profiling::ProfilerMarker::AutoScope Auto();
+    ::Unity::Profiling::ProfilerMarker::AutoScope Auto();
     // static System.IntPtr Internal_Create(System.String name, System.UInt16 flags)
     // Offset: 0x1EA9710
-    static System::IntPtr Internal_Create(::StringW name, uint16_t flags);
+    static ::System::IntPtr Internal_Create(::StringW name, uint16_t flags);
     // static System.Void Internal_Begin(System.IntPtr markerPtr)
     // Offset: 0x1EA97A8
-    static void Internal_Begin(System::IntPtr markerPtr);
+    static void Internal_Begin(::System::IntPtr markerPtr);
     // static System.Void Internal_End(System.IntPtr markerPtr)
     // Offset: 0x1EA97E8
-    static void Internal_End(System::IntPtr markerPtr);
+    static void Internal_End(::System::IntPtr markerPtr);
   }; // Unity.Profiling.ProfilerMarker
   #pragma pack(pop)
-  static check_size<sizeof(ProfilerMarker), 0 + sizeof(System::IntPtr)> __Unity_Profiling_ProfilerMarkerSizeCheck;
+  static check_size<sizeof(ProfilerMarker), 0 + sizeof(::System::IntPtr)> __Unity_Profiling_ProfilerMarkerSizeCheck;
   static_assert(sizeof(ProfilerMarker) == 0x8);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -85,7 +85,7 @@ namespace Unity::Profiling {
 // Writing MetadataGetter for method: Unity::Profiling::ProfilerMarker::Auto
 // Il2CppName: Auto
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Unity::Profiling::ProfilerMarker::AutoScope (Unity::Profiling::ProfilerMarker::*)()>(&Unity::Profiling::ProfilerMarker::Auto)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Profiling::ProfilerMarker::AutoScope (Unity::Profiling::ProfilerMarker::*)()>(&Unity::Profiling::ProfilerMarker::Auto)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Unity::Profiling::ProfilerMarker), "Auto", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -93,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Unity::Prof
 // Writing MetadataGetter for method: Unity::Profiling::ProfilerMarker::Internal_Create
 // Il2CppName: Internal_Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::StringW, uint16_t)>(&Unity::Profiling::ProfilerMarker::Internal_Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::StringW, uint16_t)>(&Unity::Profiling::ProfilerMarker::Internal_Create)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* flags = &::il2cpp_utils::GetClassFromName("System", "UInt16")->byval_arg;
@@ -103,7 +103,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: Unity::Profiling::ProfilerMarker::Internal_Begin
 // Il2CppName: Internal_Begin
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&Unity::Profiling::ProfilerMarker::Internal_Begin)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&Unity::Profiling::ProfilerMarker::Internal_Begin)> {
   static const MethodInfo* get() {
     static auto* markerPtr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Unity::Profiling::ProfilerMarker), "Internal_Begin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{markerPtr});
@@ -112,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Unity::Profiling::ProfilerMarker::Internal_End
 // Il2CppName: Internal_End
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&Unity::Profiling::ProfilerMarker::Internal_End)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&Unity::Profiling::ProfilerMarker::Internal_End)> {
   static const MethodInfo* get() {
     static auto* markerPtr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Unity::Profiling::ProfilerMarker), "Internal_End", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{markerPtr});

@@ -9,8 +9,8 @@
 #include "GlobalNamespace/OVRHaptics.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRHaptics::Config);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHaptics::Config*, "", "OVRHaptics/Config");
+NEED_NO_BOX(::GlobalNamespace::OVRHaptics::Config);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRHaptics::Config*, "", "OVRHaptics/Config");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10

@@ -25,8 +25,8 @@ namespace System::Runtime::Serialization {
   class MemberHolder;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Serialization::MemberHolder);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::MemberHolder*, "System.Runtime.Serialization", "MemberHolder");
+NEED_NO_BOX(::System::Runtime::Serialization::MemberHolder);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::MemberHolder*, "System.Runtime.Serialization", "MemberHolder");
 // Type namespace: System.Runtime.Serialization
 namespace System::Runtime::Serialization {
   // Size: 0x24
@@ -47,25 +47,25 @@ namespace System::Runtime::Serialization {
     // System.Type memberType
     // Size: 0x8
     // Offset: 0x10
-    System::Type* memberType;
+    ::System::Type* memberType;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     // System.Runtime.Serialization.StreamingContext context
     // Size: 0xC
     // Offset: 0x18
-    System::Runtime::Serialization::StreamingContext context;
+    ::System::Runtime::Serialization::StreamingContext context;
     // Field size check
-    static_assert(sizeof(System::Runtime::Serialization::StreamingContext) == 0xC);
+    static_assert(sizeof(::System::Runtime::Serialization::StreamingContext) == 0xC);
     public:
     // Get instance field reference: System.Type memberType
-    System::Type*& dyn_memberType();
+    ::System::Type*& dyn_memberType();
     // Get instance field reference: System.Runtime.Serialization.StreamingContext context
-    System::Runtime::Serialization::StreamingContext& dyn_context();
+    ::System::Runtime::Serialization::StreamingContext& dyn_context();
     // System.Void .ctor(System.Type type, System.Runtime.Serialization.StreamingContext ctx)
     // Offset: 0x1588814
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MemberHolder* New_ctor(System::Type* type, System::Runtime::Serialization::StreamingContext ctx) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::MemberHolder::.ctor");
+    static MemberHolder* New_ctor(::System::Type* type, ::System::Runtime::Serialization::StreamingContext ctx) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::MemberHolder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MemberHolder*, creationType>(type, ctx)));
     }
     // public override System.Int32 GetHashCode()
@@ -80,7 +80,7 @@ namespace System::Runtime::Serialization {
     bool Equals(::Il2CppObject* obj);
   }; // System.Runtime.Serialization.MemberHolder
   #pragma pack(pop)
-  static check_size<sizeof(MemberHolder), 24 + sizeof(System::Runtime::Serialization::StreamingContext)> __System_Runtime_Serialization_MemberHolderSizeCheck;
+  static check_size<sizeof(MemberHolder), 24 + sizeof(::System::Runtime::Serialization::StreamingContext)> __System_Runtime_Serialization_MemberHolderSizeCheck;
   static_assert(sizeof(MemberHolder) == 0x24);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

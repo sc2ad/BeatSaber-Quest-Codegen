@@ -49,8 +49,8 @@ namespace System::Xml::Schema {
   class BaseProcessor;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Schema::BaseProcessor);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::BaseProcessor*, "System.Xml.Schema", "BaseProcessor");
+NEED_NO_BOX(::System::Xml::Schema::BaseProcessor);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::BaseProcessor*, "System.Xml.Schema", "BaseProcessor");
 // Type namespace: System.Xml.Schema
 namespace System::Xml::Schema {
   // Size: 0x40
@@ -71,27 +71,27 @@ namespace System::Xml::Schema {
     // private System.Xml.XmlNameTable nameTable
     // Size: 0x8
     // Offset: 0x10
-    System::Xml::XmlNameTable* nameTable;
+    ::System::Xml::XmlNameTable* nameTable;
     // Field size check
-    static_assert(sizeof(System::Xml::XmlNameTable*) == 0x8);
+    static_assert(sizeof(::System::Xml::XmlNameTable*) == 0x8);
     // private System.Xml.Schema.SchemaNames schemaNames
     // Size: 0x8
     // Offset: 0x18
-    System::Xml::Schema::SchemaNames* schemaNames;
+    ::System::Xml::Schema::SchemaNames* schemaNames;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::SchemaNames*) == 0x8);
+    static_assert(sizeof(::System::Xml::Schema::SchemaNames*) == 0x8);
     // private System.Xml.Schema.ValidationEventHandler eventHandler
     // Size: 0x8
     // Offset: 0x20
-    System::Xml::Schema::ValidationEventHandler* eventHandler;
+    ::System::Xml::Schema::ValidationEventHandler* eventHandler;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::ValidationEventHandler*) == 0x8);
+    static_assert(sizeof(::System::Xml::Schema::ValidationEventHandler*) == 0x8);
     // private System.Xml.Schema.XmlSchemaCompilationSettings compilationSettings
     // Size: 0x8
     // Offset: 0x28
-    System::Xml::Schema::XmlSchemaCompilationSettings* compilationSettings;
+    ::System::Xml::Schema::XmlSchemaCompilationSettings* compilationSettings;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::XmlSchemaCompilationSettings*) == 0x8);
+    static_assert(sizeof(::System::Xml::Schema::XmlSchemaCompilationSettings*) == 0x8);
     // private System.Int32 errorCount
     // Size: 0x4
     // Offset: 0x30
@@ -108,88 +108,88 @@ namespace System::Xml::Schema {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.Xml.XmlNameTable nameTable
-    System::Xml::XmlNameTable*& dyn_nameTable();
+    ::System::Xml::XmlNameTable*& dyn_nameTable();
     // Get instance field reference: private System.Xml.Schema.SchemaNames schemaNames
-    System::Xml::Schema::SchemaNames*& dyn_schemaNames();
+    ::System::Xml::Schema::SchemaNames*& dyn_schemaNames();
     // Get instance field reference: private System.Xml.Schema.ValidationEventHandler eventHandler
-    System::Xml::Schema::ValidationEventHandler*& dyn_eventHandler();
+    ::System::Xml::Schema::ValidationEventHandler*& dyn_eventHandler();
     // Get instance field reference: private System.Xml.Schema.XmlSchemaCompilationSettings compilationSettings
-    System::Xml::Schema::XmlSchemaCompilationSettings*& dyn_compilationSettings();
+    ::System::Xml::Schema::XmlSchemaCompilationSettings*& dyn_compilationSettings();
     // Get instance field reference: private System.Int32 errorCount
     int& dyn_errorCount();
     // Get instance field reference: private System.String NsXml
     ::StringW& dyn_NsXml();
     // protected System.Xml.XmlNameTable get_NameTable()
     // Offset: 0x16F3764
-    System::Xml::XmlNameTable* get_NameTable();
+    ::System::Xml::XmlNameTable* get_NameTable();
     // protected System.Xml.Schema.SchemaNames get_SchemaNames()
     // Offset: 0x16F376C
-    System::Xml::Schema::SchemaNames* get_SchemaNames();
+    ::System::Xml::Schema::SchemaNames* get_SchemaNames();
     // protected System.Xml.Schema.ValidationEventHandler get_EventHandler()
     // Offset: 0x16F37E8
-    System::Xml::Schema::ValidationEventHandler* get_EventHandler();
+    ::System::Xml::Schema::ValidationEventHandler* get_EventHandler();
     // protected System.Xml.Schema.XmlSchemaCompilationSettings get_CompilationSettings()
     // Offset: 0x16F37F0
-    System::Xml::Schema::XmlSchemaCompilationSettings* get_CompilationSettings();
+    ::System::Xml::Schema::XmlSchemaCompilationSettings* get_CompilationSettings();
     // protected System.Boolean get_HasErrors()
     // Offset: 0x16F37F8
     bool get_HasErrors();
     // public System.Void .ctor(System.Xml.XmlNameTable nameTable, System.Xml.Schema.SchemaNames schemaNames, System.Xml.Schema.ValidationEventHandler eventHandler)
     // Offset: 0x16F363C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BaseProcessor* New_ctor(System::Xml::XmlNameTable* nameTable, System::Xml::Schema::SchemaNames* schemaNames, System::Xml::Schema::ValidationEventHandler* eventHandler) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Schema::BaseProcessor::.ctor");
+    static BaseProcessor* New_ctor(::System::Xml::XmlNameTable* nameTable, ::System::Xml::Schema::SchemaNames* schemaNames, ::System::Xml::Schema::ValidationEventHandler* eventHandler) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::BaseProcessor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseProcessor*, creationType>(nameTable, schemaNames, eventHandler)));
     }
     // public System.Void .ctor(System.Xml.XmlNameTable nameTable, System.Xml.Schema.SchemaNames schemaNames, System.Xml.Schema.ValidationEventHandler eventHandler, System.Xml.Schema.XmlSchemaCompilationSettings compilationSettings)
     // Offset: 0x16F36C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BaseProcessor* New_ctor(System::Xml::XmlNameTable* nameTable, System::Xml::Schema::SchemaNames* schemaNames, System::Xml::Schema::ValidationEventHandler* eventHandler, System::Xml::Schema::XmlSchemaCompilationSettings* compilationSettings) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Schema::BaseProcessor::.ctor");
+    static BaseProcessor* New_ctor(::System::Xml::XmlNameTable* nameTable, ::System::Xml::Schema::SchemaNames* schemaNames, ::System::Xml::Schema::ValidationEventHandler* eventHandler, ::System::Xml::Schema::XmlSchemaCompilationSettings* compilationSettings) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::BaseProcessor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseProcessor*, creationType>(nameTable, schemaNames, eventHandler, compilationSettings)));
     }
     // protected System.Void AddToTable(System.Xml.Schema.XmlSchemaObjectTable table, System.Xml.XmlQualifiedName qname, System.Xml.Schema.XmlSchemaObject item)
     // Offset: 0x16F3808
-    void AddToTable(System::Xml::Schema::XmlSchemaObjectTable* table, System::Xml::XmlQualifiedName* qname, System::Xml::Schema::XmlSchemaObject* item);
+    void AddToTable(::System::Xml::Schema::XmlSchemaObjectTable* table, ::System::Xml::XmlQualifiedName* qname, ::System::Xml::Schema::XmlSchemaObject* item);
     // private System.Boolean IsValidAttributeGroupRedefine(System.Xml.Schema.XmlSchemaObject existingObject, System.Xml.Schema.XmlSchemaObject item, System.Xml.Schema.XmlSchemaObjectTable table)
     // Offset: 0x16F3BC0
-    bool IsValidAttributeGroupRedefine(System::Xml::Schema::XmlSchemaObject* existingObject, System::Xml::Schema::XmlSchemaObject* item, System::Xml::Schema::XmlSchemaObjectTable* table);
+    bool IsValidAttributeGroupRedefine(::System::Xml::Schema::XmlSchemaObject* existingObject, ::System::Xml::Schema::XmlSchemaObject* item, ::System::Xml::Schema::XmlSchemaObjectTable* table);
     // private System.Boolean IsValidGroupRedefine(System.Xml.Schema.XmlSchemaObject existingObject, System.Xml.Schema.XmlSchemaObject item, System.Xml.Schema.XmlSchemaObjectTable table)
     // Offset: 0x16F3E20
-    bool IsValidGroupRedefine(System::Xml::Schema::XmlSchemaObject* existingObject, System::Xml::Schema::XmlSchemaObject* item, System::Xml::Schema::XmlSchemaObjectTable* table);
+    bool IsValidGroupRedefine(::System::Xml::Schema::XmlSchemaObject* existingObject, ::System::Xml::Schema::XmlSchemaObject* item, ::System::Xml::Schema::XmlSchemaObjectTable* table);
     // private System.Boolean IsValidTypeRedefine(System.Xml.Schema.XmlSchemaObject existingObject, System.Xml.Schema.XmlSchemaObject item, System.Xml.Schema.XmlSchemaObjectTable table)
     // Offset: 0x16F3CF0
-    bool IsValidTypeRedefine(System::Xml::Schema::XmlSchemaObject* existingObject, System::Xml::Schema::XmlSchemaObject* item, System::Xml::Schema::XmlSchemaObjectTable* table);
+    bool IsValidTypeRedefine(::System::Xml::Schema::XmlSchemaObject* existingObject, ::System::Xml::Schema::XmlSchemaObject* item, ::System::Xml::Schema::XmlSchemaObjectTable* table);
     // protected System.Void SendValidationEvent(System.String code, System.Xml.Schema.XmlSchemaObject source)
     // Offset: 0x16F3FCC
-    void SendValidationEvent(::StringW code, System::Xml::Schema::XmlSchemaObject* source);
+    void SendValidationEvent(::StringW code, ::System::Xml::Schema::XmlSchemaObject* source);
     // protected System.Void SendValidationEvent(System.String code, System.String msg, System.Xml.Schema.XmlSchemaObject source)
     // Offset: 0x16F3F3C
-    void SendValidationEvent(::StringW code, ::StringW msg, System::Xml::Schema::XmlSchemaObject* source);
+    void SendValidationEvent(::StringW code, ::StringW msg, ::System::Xml::Schema::XmlSchemaObject* source);
     // protected System.Void SendValidationEvent(System.String code, System.String msg1, System.String msg2, System.Xml.Schema.XmlSchemaObject source)
     // Offset: 0x16F4110
-    void SendValidationEvent(::StringW code, ::StringW msg1, ::StringW msg2, System::Xml::Schema::XmlSchemaObject* source);
+    void SendValidationEvent(::StringW code, ::StringW msg1, ::StringW msg2, ::System::Xml::Schema::XmlSchemaObject* source);
     // protected System.Void SendValidationEvent(System.String code, System.String[] args, System.Exception innerException, System.Xml.Schema.XmlSchemaObject source)
     // Offset: 0x16F4228
-    void SendValidationEvent(::StringW code, ::ArrayW<::StringW> args, System::Exception* innerException, System::Xml::Schema::XmlSchemaObject* source);
+    void SendValidationEvent(::StringW code, ::ArrayW<::StringW> args, ::System::Exception* innerException, ::System::Xml::Schema::XmlSchemaObject* source);
     // protected System.Void SendValidationEvent(System.String code, System.String msg1, System.String msg2, System.String sourceUri, System.Int32 lineNumber, System.Int32 linePosition)
     // Offset: 0x16F42F4
     void SendValidationEvent(::StringW code, ::StringW msg1, ::StringW msg2, ::StringW sourceUri, int lineNumber, int linePosition);
     // protected System.Void SendValidationEvent(System.String code, System.Xml.Schema.XmlSchemaObject source, System.Xml.Schema.XmlSeverityType severity)
     // Offset: 0x16F4424
-    void SendValidationEvent(::StringW code, System::Xml::Schema::XmlSchemaObject* source, System::Xml::Schema::XmlSeverityType severity);
+    void SendValidationEvent(::StringW code, ::System::Xml::Schema::XmlSchemaObject* source, ::System::Xml::Schema::XmlSeverityType severity);
     // protected System.Void SendValidationEvent(System.Xml.Schema.XmlSchemaException e)
     // Offset: 0x16F44B0
-    void SendValidationEvent(System::Xml::Schema::XmlSchemaException* e);
+    void SendValidationEvent(::System::Xml::Schema::XmlSchemaException* e);
     // protected System.Void SendValidationEvent(System.String code, System.String msg, System.Xml.Schema.XmlSchemaObject source, System.Xml.Schema.XmlSeverityType severity)
     // Offset: 0x16F44B8
-    void SendValidationEvent(::StringW code, ::StringW msg, System::Xml::Schema::XmlSchemaObject* source, System::Xml::Schema::XmlSeverityType severity);
+    void SendValidationEvent(::StringW code, ::StringW msg, ::System::Xml::Schema::XmlSchemaObject* source, ::System::Xml::Schema::XmlSeverityType severity);
     // protected System.Void SendValidationEvent(System.Xml.Schema.XmlSchemaException e, System.Xml.Schema.XmlSeverityType severity)
     // Offset: 0x16F404C
-    void SendValidationEvent(System::Xml::Schema::XmlSchemaException* e, System::Xml::Schema::XmlSeverityType severity);
+    void SendValidationEvent(::System::Xml::Schema::XmlSchemaException* e, ::System::Xml::Schema::XmlSeverityType severity);
     // protected System.Void SendValidationEventNoThrow(System.Xml.Schema.XmlSchemaException e, System.Xml.Schema.XmlSeverityType severity)
     // Offset: 0x16F454C
-    void SendValidationEventNoThrow(System::Xml::Schema::XmlSchemaException* e, System::Xml::Schema::XmlSeverityType severity);
+    void SendValidationEventNoThrow(::System::Xml::Schema::XmlSchemaException* e, ::System::Xml::Schema::XmlSeverityType severity);
   }; // System.Xml.Schema.BaseProcessor
   #pragma pack(pop)
   static check_size<sizeof(BaseProcessor), 56 + sizeof(::StringW)> __System_Xml_Schema_BaseProcessorSizeCheck;
@@ -199,7 +199,7 @@ namespace System::Xml::Schema {
 // Writing MetadataGetter for method: System::Xml::Schema::BaseProcessor::get_NameTable
 // Il2CppName: get_NameTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlNameTable* (System::Xml::Schema::BaseProcessor::*)()>(&System::Xml::Schema::BaseProcessor::get_NameTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNameTable* (System::Xml::Schema::BaseProcessor::*)()>(&System::Xml::Schema::BaseProcessor::get_NameTable)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::BaseProcessor*), "get_NameTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -207,7 +207,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Schema::BaseProcessor::get_SchemaNames
 // Il2CppName: get_SchemaNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Schema::SchemaNames* (System::Xml::Schema::BaseProcessor::*)()>(&System::Xml::Schema::BaseProcessor::get_SchemaNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::SchemaNames* (System::Xml::Schema::BaseProcessor::*)()>(&System::Xml::Schema::BaseProcessor::get_SchemaNames)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::BaseProcessor*), "get_SchemaNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -215,7 +215,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Schema::BaseProcessor::get_EventHandler
 // Il2CppName: get_EventHandler
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Schema::ValidationEventHandler* (System::Xml::Schema::BaseProcessor::*)()>(&System::Xml::Schema::BaseProcessor::get_EventHandler)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::ValidationEventHandler* (System::Xml::Schema::BaseProcessor::*)()>(&System::Xml::Schema::BaseProcessor::get_EventHandler)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::BaseProcessor*), "get_EventHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -223,7 +223,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Schema::BaseProcessor::get_CompilationSettings
 // Il2CppName: get_CompilationSettings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Schema::XmlSchemaCompilationSettings* (System::Xml::Schema::BaseProcessor::*)()>(&System::Xml::Schema::BaseProcessor::get_CompilationSettings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaCompilationSettings* (System::Xml::Schema::BaseProcessor::*)()>(&System::Xml::Schema::BaseProcessor::get_CompilationSettings)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::BaseProcessor*), "get_CompilationSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -247,7 +247,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::BaseProcessor::AddToTable
 // Il2CppName: AddToTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::BaseProcessor::*)(System::Xml::Schema::XmlSchemaObjectTable*, System::Xml::XmlQualifiedName*, System::Xml::Schema::XmlSchemaObject*)>(&System::Xml::Schema::BaseProcessor::AddToTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::BaseProcessor::*)(::System::Xml::Schema::XmlSchemaObjectTable*, ::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::XmlSchemaObject*)>(&System::Xml::Schema::BaseProcessor::AddToTable)> {
   static const MethodInfo* get() {
     static auto* table = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaObjectTable")->byval_arg;
     static auto* qname = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlQualifiedName")->byval_arg;
@@ -258,7 +258,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::BaseProcessor::IsValidAttributeGroupRedefine
 // Il2CppName: IsValidAttributeGroupRedefine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::Schema::BaseProcessor::*)(System::Xml::Schema::XmlSchemaObject*, System::Xml::Schema::XmlSchemaObject*, System::Xml::Schema::XmlSchemaObjectTable*)>(&System::Xml::Schema::BaseProcessor::IsValidAttributeGroupRedefine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::Schema::BaseProcessor::*)(::System::Xml::Schema::XmlSchemaObject*, ::System::Xml::Schema::XmlSchemaObject*, ::System::Xml::Schema::XmlSchemaObjectTable*)>(&System::Xml::Schema::BaseProcessor::IsValidAttributeGroupRedefine)> {
   static const MethodInfo* get() {
     static auto* existingObject = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaObject")->byval_arg;
     static auto* item = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaObject")->byval_arg;
@@ -269,7 +269,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::BaseProcessor::IsValidGroupRedefine
 // Il2CppName: IsValidGroupRedefine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::Schema::BaseProcessor::*)(System::Xml::Schema::XmlSchemaObject*, System::Xml::Schema::XmlSchemaObject*, System::Xml::Schema::XmlSchemaObjectTable*)>(&System::Xml::Schema::BaseProcessor::IsValidGroupRedefine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::Schema::BaseProcessor::*)(::System::Xml::Schema::XmlSchemaObject*, ::System::Xml::Schema::XmlSchemaObject*, ::System::Xml::Schema::XmlSchemaObjectTable*)>(&System::Xml::Schema::BaseProcessor::IsValidGroupRedefine)> {
   static const MethodInfo* get() {
     static auto* existingObject = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaObject")->byval_arg;
     static auto* item = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaObject")->byval_arg;
@@ -280,7 +280,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::BaseProcessor::IsValidTypeRedefine
 // Il2CppName: IsValidTypeRedefine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::Schema::BaseProcessor::*)(System::Xml::Schema::XmlSchemaObject*, System::Xml::Schema::XmlSchemaObject*, System::Xml::Schema::XmlSchemaObjectTable*)>(&System::Xml::Schema::BaseProcessor::IsValidTypeRedefine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::Schema::BaseProcessor::*)(::System::Xml::Schema::XmlSchemaObject*, ::System::Xml::Schema::XmlSchemaObject*, ::System::Xml::Schema::XmlSchemaObjectTable*)>(&System::Xml::Schema::BaseProcessor::IsValidTypeRedefine)> {
   static const MethodInfo* get() {
     static auto* existingObject = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaObject")->byval_arg;
     static auto* item = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaObject")->byval_arg;
@@ -291,7 +291,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::BaseProcessor::SendValidationEvent
 // Il2CppName: SendValidationEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::BaseProcessor::*)(::StringW, System::Xml::Schema::XmlSchemaObject*)>(&System::Xml::Schema::BaseProcessor::SendValidationEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::BaseProcessor::*)(::StringW, ::System::Xml::Schema::XmlSchemaObject*)>(&System::Xml::Schema::BaseProcessor::SendValidationEvent)> {
   static const MethodInfo* get() {
     static auto* code = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* source = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaObject")->byval_arg;
@@ -301,7 +301,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::BaseProcessor::SendValidationEvent
 // Il2CppName: SendValidationEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::BaseProcessor::*)(::StringW, ::StringW, System::Xml::Schema::XmlSchemaObject*)>(&System::Xml::Schema::BaseProcessor::SendValidationEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::BaseProcessor::*)(::StringW, ::StringW, ::System::Xml::Schema::XmlSchemaObject*)>(&System::Xml::Schema::BaseProcessor::SendValidationEvent)> {
   static const MethodInfo* get() {
     static auto* code = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* msg = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -312,7 +312,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::BaseProcessor::SendValidationEvent
 // Il2CppName: SendValidationEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::BaseProcessor::*)(::StringW, ::StringW, ::StringW, System::Xml::Schema::XmlSchemaObject*)>(&System::Xml::Schema::BaseProcessor::SendValidationEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::BaseProcessor::*)(::StringW, ::StringW, ::StringW, ::System::Xml::Schema::XmlSchemaObject*)>(&System::Xml::Schema::BaseProcessor::SendValidationEvent)> {
   static const MethodInfo* get() {
     static auto* code = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* msg1 = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -324,7 +324,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::BaseProcessor::SendValidationEvent
 // Il2CppName: SendValidationEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::BaseProcessor::*)(::StringW, ::ArrayW<::StringW>, System::Exception*, System::Xml::Schema::XmlSchemaObject*)>(&System::Xml::Schema::BaseProcessor::SendValidationEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::BaseProcessor::*)(::StringW, ::ArrayW<::StringW>, ::System::Exception*, ::System::Xml::Schema::XmlSchemaObject*)>(&System::Xml::Schema::BaseProcessor::SendValidationEvent)> {
   static const MethodInfo* get() {
     static auto* code = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
@@ -350,7 +350,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::BaseProcessor::SendValidationEvent
 // Il2CppName: SendValidationEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::BaseProcessor::*)(::StringW, System::Xml::Schema::XmlSchemaObject*, System::Xml::Schema::XmlSeverityType)>(&System::Xml::Schema::BaseProcessor::SendValidationEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::BaseProcessor::*)(::StringW, ::System::Xml::Schema::XmlSchemaObject*, ::System::Xml::Schema::XmlSeverityType)>(&System::Xml::Schema::BaseProcessor::SendValidationEvent)> {
   static const MethodInfo* get() {
     static auto* code = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* source = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaObject")->byval_arg;
@@ -361,7 +361,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::BaseProcessor::SendValidationEvent
 // Il2CppName: SendValidationEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::BaseProcessor::*)(System::Xml::Schema::XmlSchemaException*)>(&System::Xml::Schema::BaseProcessor::SendValidationEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::BaseProcessor::*)(::System::Xml::Schema::XmlSchemaException*)>(&System::Xml::Schema::BaseProcessor::SendValidationEvent)> {
   static const MethodInfo* get() {
     static auto* e = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaException")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::BaseProcessor*), "SendValidationEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{e});
@@ -370,7 +370,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::BaseProcessor::SendValidationEvent
 // Il2CppName: SendValidationEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::BaseProcessor::*)(::StringW, ::StringW, System::Xml::Schema::XmlSchemaObject*, System::Xml::Schema::XmlSeverityType)>(&System::Xml::Schema::BaseProcessor::SendValidationEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::BaseProcessor::*)(::StringW, ::StringW, ::System::Xml::Schema::XmlSchemaObject*, ::System::Xml::Schema::XmlSeverityType)>(&System::Xml::Schema::BaseProcessor::SendValidationEvent)> {
   static const MethodInfo* get() {
     static auto* code = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* msg = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -382,7 +382,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::BaseProcessor::SendValidationEvent
 // Il2CppName: SendValidationEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::BaseProcessor::*)(System::Xml::Schema::XmlSchemaException*, System::Xml::Schema::XmlSeverityType)>(&System::Xml::Schema::BaseProcessor::SendValidationEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::BaseProcessor::*)(::System::Xml::Schema::XmlSchemaException*, ::System::Xml::Schema::XmlSeverityType)>(&System::Xml::Schema::BaseProcessor::SendValidationEvent)> {
   static const MethodInfo* get() {
     static auto* e = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaException")->byval_arg;
     static auto* severity = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSeverityType")->byval_arg;
@@ -392,7 +392,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::BaseProcessor::SendValidationEventNoThrow
 // Il2CppName: SendValidationEventNoThrow
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::BaseProcessor::*)(System::Xml::Schema::XmlSchemaException*, System::Xml::Schema::XmlSeverityType)>(&System::Xml::Schema::BaseProcessor::SendValidationEventNoThrow)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::BaseProcessor::*)(::System::Xml::Schema::XmlSchemaException*, ::System::Xml::Schema::XmlSeverityType)>(&System::Xml::Schema::BaseProcessor::SendValidationEventNoThrow)> {
   static const MethodInfo* get() {
     static auto* e = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaException")->byval_arg;
     static auto* severity = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSeverityType")->byval_arg;

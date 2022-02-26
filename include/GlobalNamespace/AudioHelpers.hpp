@@ -12,8 +12,8 @@ namespace GlobalNamespace {
   class AudioHelpers;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::AudioHelpers);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioHelpers*, "", "AudioHelpers");
+NEED_NO_BOX(::GlobalNamespace::AudioHelpers);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AudioHelpers*, "", "AudioHelpers");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10

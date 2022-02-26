@@ -14,8 +14,8 @@ namespace System::ComponentModel::Design {
   class IDictionaryService;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::ComponentModel::Design::IDictionaryService);
-DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::Design::IDictionaryService*, "System.ComponentModel.Design", "IDictionaryService");
+NEED_NO_BOX(::System::ComponentModel::Design::IDictionaryService);
+DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::Design::IDictionaryService*, "System.ComponentModel.Design", "IDictionaryService");
 // Type namespace: System.ComponentModel.Design
 namespace System::ComponentModel::Design {
   // Size: 0x10

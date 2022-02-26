@@ -26,7 +26,7 @@ namespace UnityEngine {
   struct Vector2Int;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Vector2Int, "UnityEngine", "Vector2Int");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Vector2Int, "UnityEngine", "Vector2Int");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x8
@@ -36,7 +36,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [DefaultMemberAttribute] Offset: 11A54D4
   // [UsedByNativeCodeAttribute] Offset: 11A54D4
-  struct Vector2Int/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Vector2Int>*/ {
+  struct Vector2Int/*, public ::System::ValueType, public ::System::IEquatable_1<::UnityEngine::Vector2Int>*/ {
     public:
     public:
     // private System.Int32 m_X
@@ -54,38 +54,38 @@ namespace UnityEngine {
     public:
     // Creating value type constructor for type: Vector2Int
     constexpr Vector2Int(int m_X_ = {}, int m_Y_ = {}) noexcept : m_X{m_X_}, m_Y{m_Y_} {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
-    // Creating interface conversion operator: operator System::IEquatable_1<UnityEngine::Vector2Int>
-    operator System::IEquatable_1<UnityEngine::Vector2Int>() noexcept {
-      return *reinterpret_cast<System::IEquatable_1<UnityEngine::Vector2Int>*>(this);
+    // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::Vector2Int>
+    operator ::System::IEquatable_1<::UnityEngine::Vector2Int>() noexcept {
+      return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::Vector2Int>*>(this);
     }
     // Get static field: static private readonly UnityEngine.Vector2Int s_Zero
-    static UnityEngine::Vector2Int _get_s_Zero();
+    static ::UnityEngine::Vector2Int _get_s_Zero();
     // Set static field: static private readonly UnityEngine.Vector2Int s_Zero
-    static void _set_s_Zero(UnityEngine::Vector2Int value);
+    static void _set_s_Zero(::UnityEngine::Vector2Int value);
     // Get static field: static private readonly UnityEngine.Vector2Int s_One
-    static UnityEngine::Vector2Int _get_s_One();
+    static ::UnityEngine::Vector2Int _get_s_One();
     // Set static field: static private readonly UnityEngine.Vector2Int s_One
-    static void _set_s_One(UnityEngine::Vector2Int value);
+    static void _set_s_One(::UnityEngine::Vector2Int value);
     // Get static field: static private readonly UnityEngine.Vector2Int s_Up
-    static UnityEngine::Vector2Int _get_s_Up();
+    static ::UnityEngine::Vector2Int _get_s_Up();
     // Set static field: static private readonly UnityEngine.Vector2Int s_Up
-    static void _set_s_Up(UnityEngine::Vector2Int value);
+    static void _set_s_Up(::UnityEngine::Vector2Int value);
     // Get static field: static private readonly UnityEngine.Vector2Int s_Down
-    static UnityEngine::Vector2Int _get_s_Down();
+    static ::UnityEngine::Vector2Int _get_s_Down();
     // Set static field: static private readonly UnityEngine.Vector2Int s_Down
-    static void _set_s_Down(UnityEngine::Vector2Int value);
+    static void _set_s_Down(::UnityEngine::Vector2Int value);
     // Get static field: static private readonly UnityEngine.Vector2Int s_Left
-    static UnityEngine::Vector2Int _get_s_Left();
+    static ::UnityEngine::Vector2Int _get_s_Left();
     // Set static field: static private readonly UnityEngine.Vector2Int s_Left
-    static void _set_s_Left(UnityEngine::Vector2Int value);
+    static void _set_s_Left(::UnityEngine::Vector2Int value);
     // Get static field: static private readonly UnityEngine.Vector2Int s_Right
-    static UnityEngine::Vector2Int _get_s_Right();
+    static ::UnityEngine::Vector2Int _get_s_Right();
     // Set static field: static private readonly UnityEngine.Vector2Int s_Right
-    static void _set_s_Right(UnityEngine::Vector2Int value);
+    static void _set_s_Right(::UnityEngine::Vector2Int value);
     // Get instance field reference: private System.Int32 m_X
     int& dyn_m_X();
     // Get instance field reference: private System.Int32 m_Y
@@ -110,7 +110,7 @@ namespace UnityEngine {
     static void _cctor();
     // public System.Boolean Equals(UnityEngine.Vector2Int other)
     // Offset: 0x2701E98
-    bool Equals(UnityEngine::Vector2Int other);
+    bool Equals(::UnityEngine::Vector2Int other);
     // public override System.Boolean Equals(System.Object other)
     // Offset: 0x2701E0C
     // Implemented from: System.ValueType
@@ -181,7 +181,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::Vector2Int::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Vector2Int::*)(UnityEngine::Vector2Int)>(&UnityEngine::Vector2Int::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Vector2Int::*)(::UnityEngine::Vector2Int)>(&UnityEngine::Vector2Int::Equals)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2Int")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Vector2Int), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});

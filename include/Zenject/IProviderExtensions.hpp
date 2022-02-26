@@ -34,8 +34,8 @@ namespace Zenject {
   class IProviderExtensions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::IProviderExtensions);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::IProviderExtensions*, "Zenject", "IProviderExtensions");
+NEED_NO_BOX(::Zenject::IProviderExtensions);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::IProviderExtensions*, "Zenject", "IProviderExtensions");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x10
@@ -46,33 +46,33 @@ namespace Zenject {
   class IProviderExtensions : public ::Il2CppObject {
     public:
     // Get static field: static private readonly System.Collections.Generic.List`1<Zenject.TypeValuePair> EmptyArgList
-    static System::Collections::Generic::List_1<Zenject::TypeValuePair>* _get_EmptyArgList();
+    static ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* _get_EmptyArgList();
     // Set static field: static private readonly System.Collections.Generic.List`1<Zenject.TypeValuePair> EmptyArgList
-    static void _set_EmptyArgList(System::Collections::Generic::List_1<Zenject::TypeValuePair>* value);
+    static void _set_EmptyArgList(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* value);
     // static private System.Void .cctor()
     // Offset: 0x1D3AF1C
     static void _cctor();
     // static public System.Void GetAllInstancesWithInjectSplit(Zenject.IProvider creator, Zenject.InjectContext context, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
     // Offset: 0x1D3A858
-    static void GetAllInstancesWithInjectSplit(Zenject::IProvider* creator, Zenject::InjectContext* context, ByRef<System::Action*> injectAction, System::Collections::Generic::List_1<::Il2CppObject*>* buffer);
+    static void GetAllInstancesWithInjectSplit(::Zenject::IProvider* creator, ::Zenject::InjectContext* context, ByRef<::System::Action*> injectAction, ::System::Collections::Generic::List_1<::Il2CppObject*>* buffer);
     // static public System.Void GetAllInstances(Zenject.IProvider creator, Zenject.InjectContext context, System.Collections.Generic.List`1<System.Object> buffer)
     // Offset: 0x1D3A960
-    static void GetAllInstances(Zenject::IProvider* creator, Zenject::InjectContext* context, System::Collections::Generic::List_1<::Il2CppObject*>* buffer);
+    static void GetAllInstances(::Zenject::IProvider* creator, ::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Il2CppObject*>* buffer);
     // static public System.Void GetAllInstances(Zenject.IProvider creator, Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, System.Collections.Generic.List`1<System.Object> buffer)
     // Offset: 0x1D3A9E8
-    static void GetAllInstances(Zenject::IProvider* creator, Zenject::InjectContext* context, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, System::Collections::Generic::List_1<::Il2CppObject*>* buffer);
+    static void GetAllInstances(::Zenject::IProvider* creator, ::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::System::Collections::Generic::List_1<::Il2CppObject*>* buffer);
     // static public System.Object TryGetInstance(Zenject.IProvider creator, Zenject.InjectContext context)
     // Offset: 0x1D3AAE8
-    static ::Il2CppObject* TryGetInstance(Zenject::IProvider* creator, Zenject::InjectContext* context);
+    static ::Il2CppObject* TryGetInstance(::Zenject::IProvider* creator, ::Zenject::InjectContext* context);
     // static public System.Object TryGetInstance(Zenject.IProvider creator, Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args)
     // Offset: 0x1D3AB68
-    static ::Il2CppObject* TryGetInstance(Zenject::IProvider* creator, Zenject::InjectContext* context, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args);
+    static ::Il2CppObject* TryGetInstance(::Zenject::IProvider* creator, ::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args);
     // static public System.Object GetInstance(Zenject.IProvider creator, Zenject.InjectContext context)
     // Offset: 0x1D3ACE8
-    static ::Il2CppObject* GetInstance(Zenject::IProvider* creator, Zenject::InjectContext* context);
+    static ::Il2CppObject* GetInstance(::Zenject::IProvider* creator, ::Zenject::InjectContext* context);
     // static public System.Object GetInstance(Zenject.IProvider creator, Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args)
     // Offset: 0x1D3AD68
-    static ::Il2CppObject* GetInstance(Zenject::IProvider* creator, Zenject::InjectContext* context, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args);
+    static ::Il2CppObject* GetInstance(::Zenject::IProvider* creator, ::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args);
   }; // Zenject.IProviderExtensions
   #pragma pack(pop)
 }
@@ -88,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Zenject::IProviderExtensions::GetAllInstancesWithInjectSplit
 // Il2CppName: GetAllInstancesWithInjectSplit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Zenject::IProvider*, Zenject::InjectContext*, ByRef<System::Action*>, System::Collections::Generic::List_1<::Il2CppObject*>*)>(&Zenject::IProviderExtensions::GetAllInstancesWithInjectSplit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Zenject::IProvider*, ::Zenject::InjectContext*, ByRef<::System::Action*>, ::System::Collections::Generic::List_1<::Il2CppObject*>*)>(&Zenject::IProviderExtensions::GetAllInstancesWithInjectSplit)> {
   static const MethodInfo* get() {
     static auto* creator = &::il2cpp_utils::GetClassFromName("Zenject", "IProvider")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("Zenject", "InjectContext")->byval_arg;
@@ -100,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ze
 // Writing MetadataGetter for method: Zenject::IProviderExtensions::GetAllInstances
 // Il2CppName: GetAllInstances
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Zenject::IProvider*, Zenject::InjectContext*, System::Collections::Generic::List_1<::Il2CppObject*>*)>(&Zenject::IProviderExtensions::GetAllInstances)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Zenject::IProvider*, ::Zenject::InjectContext*, ::System::Collections::Generic::List_1<::Il2CppObject*>*)>(&Zenject::IProviderExtensions::GetAllInstances)> {
   static const MethodInfo* get() {
     static auto* creator = &::il2cpp_utils::GetClassFromName("Zenject", "IProvider")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("Zenject", "InjectContext")->byval_arg;
@@ -111,7 +111,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ze
 // Writing MetadataGetter for method: Zenject::IProviderExtensions::GetAllInstances
 // Il2CppName: GetAllInstances
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Zenject::IProvider*, Zenject::InjectContext*, System::Collections::Generic::List_1<Zenject::TypeValuePair>*, System::Collections::Generic::List_1<::Il2CppObject*>*)>(&Zenject::IProviderExtensions::GetAllInstances)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Zenject::IProvider*, ::Zenject::InjectContext*, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, ::System::Collections::Generic::List_1<::Il2CppObject*>*)>(&Zenject::IProviderExtensions::GetAllInstances)> {
   static const MethodInfo* get() {
     static auto* creator = &::il2cpp_utils::GetClassFromName("Zenject", "IProvider")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("Zenject", "InjectContext")->byval_arg;
@@ -123,7 +123,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ze
 // Writing MetadataGetter for method: Zenject::IProviderExtensions::TryGetInstance
 // Il2CppName: TryGetInstance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(Zenject::IProvider*, Zenject::InjectContext*)>(&Zenject::IProviderExtensions::TryGetInstance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Zenject::IProvider*, ::Zenject::InjectContext*)>(&Zenject::IProviderExtensions::TryGetInstance)> {
   static const MethodInfo* get() {
     static auto* creator = &::il2cpp_utils::GetClassFromName("Zenject", "IProvider")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("Zenject", "InjectContext")->byval_arg;
@@ -133,7 +133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: Zenject::IProviderExtensions::TryGetInstance
 // Il2CppName: TryGetInstance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(Zenject::IProvider*, Zenject::InjectContext*, System::Collections::Generic::List_1<Zenject::TypeValuePair>*)>(&Zenject::IProviderExtensions::TryGetInstance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Zenject::IProvider*, ::Zenject::InjectContext*, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*)>(&Zenject::IProviderExtensions::TryGetInstance)> {
   static const MethodInfo* get() {
     static auto* creator = &::il2cpp_utils::GetClassFromName("Zenject", "IProvider")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("Zenject", "InjectContext")->byval_arg;
@@ -144,7 +144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: Zenject::IProviderExtensions::GetInstance
 // Il2CppName: GetInstance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(Zenject::IProvider*, Zenject::InjectContext*)>(&Zenject::IProviderExtensions::GetInstance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Zenject::IProvider*, ::Zenject::InjectContext*)>(&Zenject::IProviderExtensions::GetInstance)> {
   static const MethodInfo* get() {
     static auto* creator = &::il2cpp_utils::GetClassFromName("Zenject", "IProvider")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("Zenject", "InjectContext")->byval_arg;
@@ -154,7 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: Zenject::IProviderExtensions::GetInstance
 // Il2CppName: GetInstance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(Zenject::IProvider*, Zenject::InjectContext*, System::Collections::Generic::List_1<Zenject::TypeValuePair>*)>(&Zenject::IProviderExtensions::GetInstance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Zenject::IProvider*, ::Zenject::InjectContext*, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*)>(&Zenject::IProviderExtensions::GetInstance)> {
   static const MethodInfo* get() {
     static auto* creator = &::il2cpp_utils::GetClassFromName("Zenject", "IProvider")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("Zenject", "InjectContext")->byval_arg;

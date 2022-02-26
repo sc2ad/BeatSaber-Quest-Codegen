@@ -17,8 +17,8 @@ namespace System::Security::Cryptography {
   class SignatureDescription;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Security::Cryptography::SignatureDescription);
-DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::SignatureDescription*, "System.Security.Cryptography", "SignatureDescription");
+NEED_NO_BOX(::System::Security::Cryptography::SignatureDescription);
+DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::SignatureDescription*, "System.Security.Cryptography", "SignatureDescription");
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {
   // Size: 0x30
@@ -88,7 +88,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SignatureDescription* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::SignatureDescription::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::SignatureDescription::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SignatureDescription*, creationType>()));
     }
   }; // System.Security.Cryptography.SignatureDescription

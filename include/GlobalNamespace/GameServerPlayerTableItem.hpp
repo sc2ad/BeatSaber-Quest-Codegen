@@ -17,8 +17,8 @@ namespace GlobalNamespace {
   class GameServerPlayerTableItem;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::GameServerPlayerTableItem);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServerPlayerTableItem*, "", "GameServerPlayerTableItem");
+NEED_NO_BOX(::GlobalNamespace::GameServerPlayerTableItem);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameServerPlayerTableItem*, "", "GameServerPlayerTableItem");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x29
@@ -73,7 +73,7 @@ namespace GlobalNamespace {
     // Offset: 0x2AD5ADC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameServerPlayerTableItem* New_ctor(::StringW playerName, ::StringW suggestedLevel, ::StringW suggestedModifiers, bool isReady) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GameServerPlayerTableItem::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameServerPlayerTableItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameServerPlayerTableItem*, creationType>(playerName, suggestedLevel, suggestedModifiers, isReady)));
     }
   }; // GameServerPlayerTableItem

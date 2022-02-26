@@ -12,8 +12,8 @@ namespace System::Reflection::Emit {
   class CustomAttributeBuilder;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Reflection::Emit::CustomAttributeBuilder);
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Emit::CustomAttributeBuilder*, "System.Reflection.Emit", "CustomAttributeBuilder");
+NEED_NO_BOX(::System::Reflection::Emit::CustomAttributeBuilder);
+DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::Emit::CustomAttributeBuilder*, "System.Reflection.Emit", "CustomAttributeBuilder");
 // Type namespace: System.Reflection.Emit
 namespace System::Reflection::Emit {
   // Size: 0x10

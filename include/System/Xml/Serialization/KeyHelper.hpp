@@ -25,8 +25,8 @@ namespace System::Xml::Serialization {
   class KeyHelper;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Serialization::KeyHelper);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Serialization::KeyHelper*, "System.Xml.Serialization", "KeyHelper");
+NEED_NO_BOX(::System::Xml::Serialization::KeyHelper);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::KeyHelper*, "System.Xml.Serialization", "KeyHelper");
 // Type namespace: System.Xml.Serialization
 namespace System::Xml::Serialization {
   // Size: 0x10
@@ -37,22 +37,22 @@ namespace System::Xml::Serialization {
     public:
     // static public System.Void AddField(System.Text.StringBuilder sb, System.Int32 n, System.String val)
     // Offset: 0x1948DE4
-    static void AddField(System::Text::StringBuilder* sb, int n, ::StringW val);
+    static void AddField(::System::Text::StringBuilder* sb, int n, ::StringW val);
     // static public System.Void AddField(System.Text.StringBuilder sb, System.Int32 n, System.String val, System.String def)
     // Offset: 0x1948DEC
-    static void AddField(System::Text::StringBuilder* sb, int n, ::StringW val, ::StringW def);
+    static void AddField(::System::Text::StringBuilder* sb, int n, ::StringW val, ::StringW def);
     // static public System.Void AddField(System.Text.StringBuilder sb, System.Int32 n, System.Boolean val)
     // Offset: 0x1948EE8
-    static void AddField(System::Text::StringBuilder* sb, int n, bool val);
+    static void AddField(::System::Text::StringBuilder* sb, int n, bool val);
     // static public System.Void AddField(System.Text.StringBuilder sb, System.Int32 n, System.Boolean val, System.Boolean def)
     // Offset: 0x1948EF4
-    static void AddField(System::Text::StringBuilder* sb, int n, bool val, bool def);
+    static void AddField(::System::Text::StringBuilder* sb, int n, bool val, bool def);
     // static public System.Void AddField(System.Text.StringBuilder sb, System.Int32 n, System.Int32 val, System.Int32 def)
     // Offset: 0x1948F40
-    static void AddField(System::Text::StringBuilder* sb, int n, int val, int def);
+    static void AddField(::System::Text::StringBuilder* sb, int n, int val, int def);
     // static public System.Void AddField(System.Text.StringBuilder sb, System.Int32 n, System.Type val)
     // Offset: 0x1949010
-    static void AddField(System::Text::StringBuilder* sb, int n, System::Type* val);
+    static void AddField(::System::Text::StringBuilder* sb, int n, ::System::Type* val);
   }; // System.Xml.Serialization.KeyHelper
   #pragma pack(pop)
 }
@@ -60,7 +60,7 @@ namespace System::Xml::Serialization {
 // Writing MetadataGetter for method: System::Xml::Serialization::KeyHelper::AddField
 // Il2CppName: AddField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Text::StringBuilder*, int, ::StringW)>(&System::Xml::Serialization::KeyHelper::AddField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, int, ::StringW)>(&System::Xml::Serialization::KeyHelper::AddField)> {
   static const MethodInfo* get() {
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* n = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -71,7 +71,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Xml::Serialization::KeyHelper::AddField
 // Il2CppName: AddField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Text::StringBuilder*, int, ::StringW, ::StringW)>(&System::Xml::Serialization::KeyHelper::AddField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, int, ::StringW, ::StringW)>(&System::Xml::Serialization::KeyHelper::AddField)> {
   static const MethodInfo* get() {
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* n = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -83,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Xml::Serialization::KeyHelper::AddField
 // Il2CppName: AddField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Text::StringBuilder*, int, bool)>(&System::Xml::Serialization::KeyHelper::AddField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, int, bool)>(&System::Xml::Serialization::KeyHelper::AddField)> {
   static const MethodInfo* get() {
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* n = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -94,7 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Xml::Serialization::KeyHelper::AddField
 // Il2CppName: AddField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Text::StringBuilder*, int, bool, bool)>(&System::Xml::Serialization::KeyHelper::AddField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, int, bool, bool)>(&System::Xml::Serialization::KeyHelper::AddField)> {
   static const MethodInfo* get() {
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* n = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -106,7 +106,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Xml::Serialization::KeyHelper::AddField
 // Il2CppName: AddField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Text::StringBuilder*, int, int, int)>(&System::Xml::Serialization::KeyHelper::AddField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, int, int, int)>(&System::Xml::Serialization::KeyHelper::AddField)> {
   static const MethodInfo* get() {
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* n = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -118,7 +118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Xml::Serialization::KeyHelper::AddField
 // Il2CppName: AddField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Text::StringBuilder*, int, System::Type*)>(&System::Xml::Serialization::KeyHelper::AddField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, int, ::System::Type*)>(&System::Xml::Serialization::KeyHelper::AddField)> {
   static const MethodInfo* get() {
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* n = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

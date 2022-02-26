@@ -26,8 +26,8 @@ namespace UnityEngine {
   class Display;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Display);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Display*, "UnityEngine", "Display");
+NEED_NO_BOX(::UnityEngine::Display);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Display*, "UnityEngine", "Display");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -38,7 +38,7 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: 11A4030
   class Display : public ::Il2CppObject {
     public:
-    // Nested type: UnityEngine::Display::DisplaysUpdatedDelegate
+    // Nested type: ::UnityEngine::Display::DisplaysUpdatedDelegate
     class DisplaysUpdatedDelegate;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -52,29 +52,29 @@ namespace UnityEngine {
     // System.IntPtr nativeDisplay
     // Size: 0x8
     // Offset: 0x10
-    System::IntPtr nativeDisplay;
+    ::System::IntPtr nativeDisplay;
     // Field size check
-    static_assert(sizeof(System::IntPtr) == 0x8);
+    static_assert(sizeof(::System::IntPtr) == 0x8);
     public:
-    // Creating conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const noexcept {
+    // Creating conversion operator: operator ::System::IntPtr
+    constexpr operator ::System::IntPtr() const noexcept {
       return nativeDisplay;
     }
     // Get static field: static public UnityEngine.Display[] displays
-    static ::ArrayW<UnityEngine::Display*> _get_displays();
+    static ::ArrayW<::UnityEngine::Display*> _get_displays();
     // Set static field: static public UnityEngine.Display[] displays
-    static void _set_displays(::ArrayW<UnityEngine::Display*> value);
+    static void _set_displays(::ArrayW<::UnityEngine::Display*> value);
     // Get static field: static private UnityEngine.Display _mainDisplay
-    static UnityEngine::Display* _get__mainDisplay();
+    static ::UnityEngine::Display* _get__mainDisplay();
     // Set static field: static private UnityEngine.Display _mainDisplay
-    static void _set__mainDisplay(UnityEngine::Display* value);
+    static void _set__mainDisplay(::UnityEngine::Display* value);
     // [DebuggerBrowsableAttribute] Offset: 0x11A8CEC
     // Get static field: static private UnityEngine.Display/UnityEngine.DisplaysUpdatedDelegate onDisplaysUpdated
-    static UnityEngine::Display::DisplaysUpdatedDelegate* _get_onDisplaysUpdated();
+    static ::UnityEngine::Display::DisplaysUpdatedDelegate* _get_onDisplaysUpdated();
     // Set static field: static private UnityEngine.Display/UnityEngine.DisplaysUpdatedDelegate onDisplaysUpdated
-    static void _set_onDisplaysUpdated(UnityEngine::Display::DisplaysUpdatedDelegate* value);
+    static void _set_onDisplaysUpdated(::UnityEngine::Display::DisplaysUpdatedDelegate* value);
     // Get instance field reference: System.IntPtr nativeDisplay
-    System::IntPtr& dyn_nativeDisplay();
+    ::System::IntPtr& dyn_nativeDisplay();
     // public System.Int32 get_renderingWidth()
     // Offset: 0x1EB7C4C
     int get_renderingWidth();
@@ -89,12 +89,12 @@ namespace UnityEngine {
     int get_systemHeight();
     // static public UnityEngine.Display get_main()
     // Offset: 0x1EB80E8
-    static UnityEngine::Display* get_main();
+    static ::UnityEngine::Display* get_main();
     // System.Void .ctor(System.IntPtr nativeDisplay)
     // Offset: 0x1EB7C20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Display* New_ctor(System::IntPtr nativeDisplay) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Display::.ctor");
+    static Display* New_ctor(::System::IntPtr nativeDisplay) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Display::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Display*, creationType>(nativeDisplay)));
     }
     // static private System.Void .cctor()
@@ -102,19 +102,19 @@ namespace UnityEngine {
     static void _cctor();
     // static public UnityEngine.Vector3 RelativeMouseAt(UnityEngine.Vector3 inputMouseCoordinates)
     // Offset: 0x1EB7F8C
-    static UnityEngine::Vector3 RelativeMouseAt(UnityEngine::Vector3 inputMouseCoordinates);
+    static ::UnityEngine::Vector3 RelativeMouseAt(::UnityEngine::Vector3 inputMouseCoordinates);
     // static private System.Void RecreateDisplayList(System.IntPtr[] nativeDisplay)
     // Offset: 0x1EB8150
-    static void RecreateDisplayList(::ArrayW<System::IntPtr> nativeDisplay);
+    static void RecreateDisplayList(::ArrayW<::System::IntPtr> nativeDisplay);
     // static private System.Void FireDisplaysUpdated()
     // Offset: 0x1EB82F4
     static void FireDisplaysUpdated();
     // static private System.Void GetSystemExtImpl(System.IntPtr nativeDisplay, out System.Int32 w, out System.Int32 h)
     // Offset: 0x1EB7E90
-    static void GetSystemExtImpl(System::IntPtr nativeDisplay, ByRef<int> w, ByRef<int> h);
+    static void GetSystemExtImpl(::System::IntPtr nativeDisplay, ByRef<int> w, ByRef<int> h);
     // static private System.Void GetRenderingExtImpl(System.IntPtr nativeDisplay, out System.Int32 w, out System.Int32 h)
     // Offset: 0x1EB7CF0
-    static void GetRenderingExtImpl(System::IntPtr nativeDisplay, ByRef<int> w, ByRef<int> h);
+    static void GetRenderingExtImpl(::System::IntPtr nativeDisplay, ByRef<int> w, ByRef<int> h);
     // static private System.Int32 RelativeMouseAtImpl(System.Int32 x, System.Int32 y, out System.Int32 rx, out System.Int32 ry)
     // Offset: 0x1EB8080
     static int RelativeMouseAtImpl(int x, int y, ByRef<int> rx, ByRef<int> ry);
@@ -124,12 +124,12 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Display* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Display::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Display::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Display*, creationType>()));
     }
   }; // UnityEngine.Display
   #pragma pack(pop)
-  static check_size<sizeof(Display), 16 + sizeof(System::IntPtr)> __UnityEngine_DisplaySizeCheck;
+  static check_size<sizeof(Display), 16 + sizeof(::System::IntPtr)> __UnityEngine_DisplaySizeCheck;
   static_assert(sizeof(Display) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -168,7 +168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::Display::get_main
 // Il2CppName: get_main
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Display* (*)()>(&UnityEngine::Display::get_main)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Display* (*)()>(&UnityEngine::Display::get_main)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Display*), "get_main", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -188,7 +188,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::Display::RelativeMouseAt
 // Il2CppName: RelativeMouseAt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Vector3)>(&UnityEngine::Display::RelativeMouseAt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3)>(&UnityEngine::Display::RelativeMouseAt)> {
   static const MethodInfo* get() {
     static auto* inputMouseCoordinates = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Display*), "RelativeMouseAt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inputMouseCoordinates});
@@ -197,7 +197,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Display::RecreateDisplayList
 // Il2CppName: RecreateDisplayList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<System::IntPtr>)>(&UnityEngine::Display::RecreateDisplayList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<::System::IntPtr>)>(&UnityEngine::Display::RecreateDisplayList)> {
   static const MethodInfo* get() {
     static auto* nativeDisplay = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "IntPtr"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Display*), "RecreateDisplayList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nativeDisplay});
@@ -214,7 +214,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::Display::GetSystemExtImpl
 // Il2CppName: GetSystemExtImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ByRef<int>, ByRef<int>)>(&UnityEngine::Display::GetSystemExtImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ByRef<int>, ByRef<int>)>(&UnityEngine::Display::GetSystemExtImpl)> {
   static const MethodInfo* get() {
     static auto* nativeDisplay = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* w = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -225,7 +225,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::Display::GetRenderingExtImpl
 // Il2CppName: GetRenderingExtImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ByRef<int>, ByRef<int>)>(&UnityEngine::Display::GetRenderingExtImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ByRef<int>, ByRef<int>)>(&UnityEngine::Display::GetRenderingExtImpl)> {
   static const MethodInfo* get() {
     static auto* nativeDisplay = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* w = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;

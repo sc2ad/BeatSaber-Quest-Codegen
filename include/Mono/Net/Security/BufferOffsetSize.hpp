@@ -18,8 +18,8 @@ namespace Mono::Net::Security {
   class BufferOffsetSize;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Net::Security::BufferOffsetSize);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::BufferOffsetSize*, "Mono.Net.Security", "BufferOffsetSize");
+NEED_NO_BOX(::Mono::Net::Security::BufferOffsetSize);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Net::Security::BufferOffsetSize*, "Mono.Net.Security", "BufferOffsetSize");
 // Type namespace: Mono.Net.Security
 namespace Mono::Net::Security {
   // Size: 0x25
@@ -88,7 +88,7 @@ namespace Mono::Net::Security {
     // Offset: 0x1A3036C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BufferOffsetSize* New_ctor(::ArrayW<uint8_t> buffer, int offset, int size) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::Security::BufferOffsetSize::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Net::Security::BufferOffsetSize::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BufferOffsetSize*, creationType>(buffer, offset, size)));
     }
     // public override System.String ToString()

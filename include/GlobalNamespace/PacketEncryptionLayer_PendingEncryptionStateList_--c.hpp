@@ -25,8 +25,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::$$c);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::$$c*, "", "PacketEncryptionLayer/PendingEncryptionStateList/<>c");
+NEED_NO_BOX(::GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::$$c*, "", "PacketEncryptionLayer/PendingEncryptionStateList/<>c");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -37,26 +37,26 @@ namespace GlobalNamespace {
   class PacketEncryptionLayer::PendingEncryptionStateList::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly PacketEncryptionLayer/PendingEncryptionStateList/<>c <>9
-    static GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::$$c* _get_$$9();
+    static ::GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::$$c* _get_$$9();
     // Set static field: static public readonly PacketEncryptionLayer/PendingEncryptionStateList/<>c <>9
-    static void _set_$$9(GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::$$c* value);
+    static void _set_$$9(::GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::$$c* value);
     // Get static field: static public System.Func`2<System.Collections.Generic.KeyValuePair`2<System.Int32,EncryptionUtility/IEncryptionState>,EncryptionUtility/IEncryptionState> <>9__4_1
-    static System::Func_2<System::Collections::Generic::KeyValuePair_2<int, GlobalNamespace::EncryptionUtility::IEncryptionState*>, GlobalNamespace::EncryptionUtility::IEncryptionState*>* _get_$$9__4_1();
+    static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<int, ::GlobalNamespace::EncryptionUtility::IEncryptionState*>, ::GlobalNamespace::EncryptionUtility::IEncryptionState*>* _get_$$9__4_1();
     // Set static field: static public System.Func`2<System.Collections.Generic.KeyValuePair`2<System.Int32,EncryptionUtility/IEncryptionState>,EncryptionUtility/IEncryptionState> <>9__4_1
-    static void _set_$$9__4_1(System::Func_2<System::Collections::Generic::KeyValuePair_2<int, GlobalNamespace::EncryptionUtility::IEncryptionState*>, GlobalNamespace::EncryptionUtility::IEncryptionState*>* value);
+    static void _set_$$9__4_1(::System::Func_2<::System::Collections::Generic::KeyValuePair_2<int, ::GlobalNamespace::EncryptionUtility::IEncryptionState*>, ::GlobalNamespace::EncryptionUtility::IEncryptionState*>* value);
     // static private System.Void .cctor()
     // Offset: 0x2DFDB88
     static void _cctor();
     // EncryptionUtility/IEncryptionState <GetSortedEncryptionStates>b__4_1(System.Collections.Generic.KeyValuePair`2<System.Int32,EncryptionUtility/IEncryptionState> kvp)
     // Offset: 0x2DFDBF4
-    GlobalNamespace::EncryptionUtility::IEncryptionState* $GetSortedEncryptionStates$b__4_1(System::Collections::Generic::KeyValuePair_2<int, GlobalNamespace::EncryptionUtility::IEncryptionState*> kvp);
+    ::GlobalNamespace::EncryptionUtility::IEncryptionState* $GetSortedEncryptionStates$b__4_1(::System::Collections::Generic::KeyValuePair_2<int, ::GlobalNamespace::EncryptionUtility::IEncryptionState*> kvp);
     // public System.Void .ctor()
     // Offset: 0x2DFDBEC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PacketEncryptionLayer::PendingEncryptionStateList::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PacketEncryptionLayer::PendingEncryptionStateList::$$c*, creationType>()));
     }
   }; // PacketEncryptionLayer/PendingEncryptionStateList/<>c
@@ -74,7 +74,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::$$c::$GetSortedEncryptionStates$b__4_1
 // Il2CppName: <GetSortedEncryptionStates>b__4_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EncryptionUtility::IEncryptionState* (GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::$$c::*)(System::Collections::Generic::KeyValuePair_2<int, GlobalNamespace::EncryptionUtility::IEncryptionState*>)>(&GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::$$c::$GetSortedEncryptionStates$b__4_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::EncryptionUtility::IEncryptionState* (GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::$$c::*)(::System::Collections::Generic::KeyValuePair_2<int, ::GlobalNamespace::EncryptionUtility::IEncryptionState*>)>(&GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::$$c::$GetSortedEncryptionStates$b__4_1)> {
   static const MethodInfo* get() {
     static auto* kvp = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "KeyValuePair`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32"), ::il2cpp_utils::GetClassFromName("", "EncryptionUtility/IEncryptionState")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::$$c*), "<GetSortedEncryptionStates>b__4_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{kvp});

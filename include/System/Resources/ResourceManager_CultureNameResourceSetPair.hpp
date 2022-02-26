@@ -13,8 +13,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Resources::ResourceManager::CultureNameResourceSetPair);
-DEFINE_IL2CPP_ARG_TYPE(System::Resources::ResourceManager::CultureNameResourceSetPair*, "System.Resources", "ResourceManager/CultureNameResourceSetPair");
+NEED_NO_BOX(::System::Resources::ResourceManager::CultureNameResourceSetPair);
+DEFINE_IL2CPP_ARG_TYPE(::System::Resources::ResourceManager::CultureNameResourceSetPair*, "System.Resources", "ResourceManager/CultureNameResourceSetPair");
 // Type namespace: System.Resources
 namespace System::Resources {
   // Size: 0x10
@@ -29,7 +29,7 @@ namespace System::Resources {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResourceManager::CultureNameResourceSetPair* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Resources::ResourceManager::CultureNameResourceSetPair::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Resources::ResourceManager::CultureNameResourceSetPair::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResourceManager::CultureNameResourceSetPair*, creationType>()));
     }
   }; // System.Resources.ResourceManager/System.Resources.CultureNameResourceSetPair

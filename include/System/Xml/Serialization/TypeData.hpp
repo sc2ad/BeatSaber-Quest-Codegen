@@ -41,8 +41,8 @@ namespace System::Xml::Serialization {
   class TypeData;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Serialization::TypeData);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Serialization::TypeData*, "System.Xml.Serialization", "TypeData");
+NEED_NO_BOX(::System::Xml::Serialization::TypeData);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::TypeData*, "System.Xml.Serialization", "TypeData");
 // Type namespace: System.Xml.Serialization
 namespace System::Xml::Serialization {
   // Size: 0x62
@@ -63,9 +63,9 @@ namespace System::Xml::Serialization {
     // private System.Type type
     // Size: 0x8
     // Offset: 0x10
-    System::Type* type;
+    ::System::Type* type;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     // private System.String elementName
     // Size: 0x8
     // Offset: 0x18
@@ -75,17 +75,17 @@ namespace System::Xml::Serialization {
     // private System.Xml.Serialization.SchemaTypes sType
     // Size: 0x4
     // Offset: 0x20
-    System::Xml::Serialization::SchemaTypes sType;
+    ::System::Xml::Serialization::SchemaTypes sType;
     // Field size check
-    static_assert(sizeof(System::Xml::Serialization::SchemaTypes) == 0x4);
+    static_assert(sizeof(::System::Xml::Serialization::SchemaTypes) == 0x4);
     // Padding between fields: sType and: listItemType
     char __padding2[0x4] = {};
     // private System.Type listItemType
     // Size: 0x8
     // Offset: 0x28
-    System::Type* listItemType;
+    ::System::Type* listItemType;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     // private System.String typeName
     // Size: 0x8
     // Offset: 0x30
@@ -101,27 +101,27 @@ namespace System::Xml::Serialization {
     // private System.Xml.Serialization.TypeData listItemTypeData
     // Size: 0x8
     // Offset: 0x40
-    System::Xml::Serialization::TypeData* listItemTypeData;
+    ::System::Xml::Serialization::TypeData* listItemTypeData;
     // Field size check
-    static_assert(sizeof(System::Xml::Serialization::TypeData*) == 0x8);
+    static_assert(sizeof(::System::Xml::Serialization::TypeData*) == 0x8);
     // private System.Xml.Serialization.TypeData mappedType
     // Size: 0x8
     // Offset: 0x48
-    System::Xml::Serialization::TypeData* mappedType;
+    ::System::Xml::Serialization::TypeData* mappedType;
     // Field size check
-    static_assert(sizeof(System::Xml::Serialization::TypeData*) == 0x8);
+    static_assert(sizeof(::System::Xml::Serialization::TypeData*) == 0x8);
     // private System.Xml.Schema.XmlSchemaPatternFacet facet
     // Size: 0x8
     // Offset: 0x50
-    System::Xml::Schema::XmlSchemaPatternFacet* facet;
+    ::System::Xml::Schema::XmlSchemaPatternFacet* facet;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::XmlSchemaPatternFacet*) == 0x8);
+    static_assert(sizeof(::System::Xml::Schema::XmlSchemaPatternFacet*) == 0x8);
     // private System.Reflection.MethodInfo typeConvertor
     // Size: 0x8
     // Offset: 0x58
-    System::Reflection::MethodInfo* typeConvertor;
+    ::System::Reflection::MethodInfo* typeConvertor;
     // Field size check
-    static_assert(sizeof(System::Reflection::MethodInfo*) == 0x8);
+    static_assert(sizeof(::System::Reflection::MethodInfo*) == 0x8);
     // private System.Boolean hasPublicConstructor
     // Size: 0x1
     // Offset: 0x60
@@ -140,25 +140,25 @@ namespace System::Xml::Serialization {
     // Set static field: static private System.String[] keywords
     static void _set_keywords(::ArrayW<::StringW> value);
     // Get instance field reference: private System.Type type
-    System::Type*& dyn_type();
+    ::System::Type*& dyn_type();
     // Get instance field reference: private System.String elementName
     ::StringW& dyn_elementName();
     // Get instance field reference: private System.Xml.Serialization.SchemaTypes sType
-    System::Xml::Serialization::SchemaTypes& dyn_sType();
+    ::System::Xml::Serialization::SchemaTypes& dyn_sType();
     // Get instance field reference: private System.Type listItemType
-    System::Type*& dyn_listItemType();
+    ::System::Type*& dyn_listItemType();
     // Get instance field reference: private System.String typeName
     ::StringW& dyn_typeName();
     // Get instance field reference: private System.String fullTypeName
     ::StringW& dyn_fullTypeName();
     // Get instance field reference: private System.Xml.Serialization.TypeData listItemTypeData
-    System::Xml::Serialization::TypeData*& dyn_listItemTypeData();
+    ::System::Xml::Serialization::TypeData*& dyn_listItemTypeData();
     // Get instance field reference: private System.Xml.Serialization.TypeData mappedType
-    System::Xml::Serialization::TypeData*& dyn_mappedType();
+    ::System::Xml::Serialization::TypeData*& dyn_mappedType();
     // Get instance field reference: private System.Xml.Schema.XmlSchemaPatternFacet facet
-    System::Xml::Schema::XmlSchemaPatternFacet*& dyn_facet();
+    ::System::Xml::Schema::XmlSchemaPatternFacet*& dyn_facet();
     // Get instance field reference: private System.Reflection.MethodInfo typeConvertor
-    System::Reflection::MethodInfo*& dyn_typeConvertor();
+    ::System::Reflection::MethodInfo*& dyn_typeConvertor();
     // Get instance field reference: private System.Boolean hasPublicConstructor
     bool& dyn_hasPublicConstructor();
     // Get instance field reference: private System.Boolean nullableOverride
@@ -171,13 +171,13 @@ namespace System::Xml::Serialization {
     ::StringW get_XmlType();
     // public System.Type get_Type()
     // Offset: 0x194B294
-    System::Type* get_Type();
+    ::System::Type* get_Type();
     // public System.String get_FullTypeName()
     // Offset: 0x194B29C
     ::StringW get_FullTypeName();
     // public System.Xml.Serialization.SchemaTypes get_SchemaType()
     // Offset: 0x194B2A4
-    System::Xml::Serialization::SchemaTypes get_SchemaType();
+    ::System::Xml::Serialization::SchemaTypes get_SchemaType();
     // public System.Boolean get_IsListType()
     // Offset: 0x1946CD8
     bool get_IsListType();
@@ -195,10 +195,10 @@ namespace System::Xml::Serialization {
     void set_IsNullable(bool value);
     // public System.Xml.Serialization.TypeData get_ListItemTypeData()
     // Offset: 0x194AF28
-    System::Xml::Serialization::TypeData* get_ListItemTypeData();
+    ::System::Xml::Serialization::TypeData* get_ListItemTypeData();
     // public System.Type get_ListItemType()
     // Offset: 0x194B4C0
-    System::Type* get_ListItemType();
+    ::System::Type* get_ListItemType();
     // public System.Boolean get_IsXsdType()
     // Offset: 0x194B2D4
     bool get_IsXsdType();
@@ -208,15 +208,15 @@ namespace System::Xml::Serialization {
     // public System.Void .ctor(System.Type type, System.String elementName, System.Boolean isPrimitive)
     // Offset: 0x194AB84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TypeData* New_ctor(System::Type* type, ::StringW elementName, bool isPrimitive) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Serialization::TypeData::.ctor");
+    static TypeData* New_ctor(::System::Type* type, ::StringW elementName, bool isPrimitive) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Serialization::TypeData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeData*, creationType>(type, elementName, isPrimitive)));
     }
     // public System.Void .ctor(System.Type type, System.String elementName, System.Boolean isPrimitive, System.Xml.Serialization.TypeData mappedType, System.Xml.Schema.XmlSchemaPatternFacet facet)
     // Offset: 0x194AB94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TypeData* New_ctor(System::Type* type, ::StringW elementName, bool isPrimitive, System::Xml::Serialization::TypeData* mappedType, System::Xml::Schema::XmlSchemaPatternFacet* facet) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Serialization::TypeData::.ctor");
+    static TypeData* New_ctor(::System::Type* type, ::StringW elementName, bool isPrimitive, ::System::Xml::Serialization::TypeData* mappedType, ::System::Xml::Schema::XmlSchemaPatternFacet* facet) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Serialization::TypeData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeData*, creationType>(type, elementName, isPrimitive, mappedType, facet)));
     }
     // static private System.Void .cctor()
@@ -230,13 +230,13 @@ namespace System::Xml::Serialization {
     void ConvertForAssignment(ByRef<::Il2CppObject*> value);
     // static public System.Reflection.PropertyInfo GetIndexerProperty(System.Type collectionType)
     // Offset: 0x194BD9C
-    static System::Reflection::PropertyInfo* GetIndexerProperty(System::Type* collectionType);
+    static ::System::Reflection::PropertyInfo* GetIndexerProperty(::System::Type* collectionType);
     // static private System.InvalidOperationException CreateMissingAddMethodException(System.Type type, System.String inheritFrom, System.Type argumentType)
     // Offset: 0x194BEF0
-    static System::InvalidOperationException* CreateMissingAddMethodException(System::Type* type, ::StringW inheritFrom, System::Type* argumentType);
+    static ::System::InvalidOperationException* CreateMissingAddMethodException(::System::Type* type, ::StringW inheritFrom, ::System::Type* argumentType);
     // static System.Type GetGenericListItemType(System.Type type)
     // Offset: 0x194BB9C
-    static System::Type* GetGenericListItemType(System::Type* type);
+    static ::System::Type* GetGenericListItemType(::System::Type* type);
   }; // System.Xml.Serialization.TypeData
   #pragma pack(pop)
   static check_size<sizeof(TypeData), 97 + sizeof(bool)> __System_Xml_Serialization_TypeDataSizeCheck;
@@ -262,7 +262,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Xml::Serialization::TypeData::get_Type
 // Il2CppName: get_Type
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Xml::Serialization::TypeData::*)()>(&System::Xml::Serialization::TypeData::get_Type)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (System::Xml::Serialization::TypeData::*)()>(&System::Xml::Serialization::TypeData::get_Type)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::TypeData*), "get_Type", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -278,7 +278,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Xml::Serialization::TypeData::get_SchemaType
 // Il2CppName: get_SchemaType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Serialization::SchemaTypes (System::Xml::Serialization::TypeData::*)()>(&System::Xml::Serialization::TypeData::get_SchemaType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::SchemaTypes (System::Xml::Serialization::TypeData::*)()>(&System::Xml::Serialization::TypeData::get_SchemaType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::TypeData*), "get_SchemaType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -327,7 +327,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Serialization::TypeData::get_ListItemTypeData
 // Il2CppName: get_ListItemTypeData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Serialization::TypeData* (System::Xml::Serialization::TypeData::*)()>(&System::Xml::Serialization::TypeData::get_ListItemTypeData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::TypeData* (System::Xml::Serialization::TypeData::*)()>(&System::Xml::Serialization::TypeData::get_ListItemTypeData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::TypeData*), "get_ListItemTypeData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -335,7 +335,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Serialization::TypeData::get_ListItemType
 // Il2CppName: get_ListItemType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Xml::Serialization::TypeData::*)()>(&System::Xml::Serialization::TypeData::get_ListItemType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (System::Xml::Serialization::TypeData::*)()>(&System::Xml::Serialization::TypeData::get_ListItemType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::TypeData*), "get_ListItemType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -392,7 +392,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Serialization::TypeData::GetIndexerProperty
 // Il2CppName: GetIndexerProperty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::PropertyInfo* (*)(System::Type*)>(&System::Xml::Serialization::TypeData::GetIndexerProperty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::PropertyInfo* (*)(::System::Type*)>(&System::Xml::Serialization::TypeData::GetIndexerProperty)> {
   static const MethodInfo* get() {
     static auto* collectionType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::TypeData*), "GetIndexerProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{collectionType});
@@ -401,7 +401,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Xml::Serialization::TypeData::CreateMissingAddMethodException
 // Il2CppName: CreateMissingAddMethodException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::InvalidOperationException* (*)(System::Type*, ::StringW, System::Type*)>(&System::Xml::Serialization::TypeData::CreateMissingAddMethodException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::InvalidOperationException* (*)(::System::Type*, ::StringW, ::System::Type*)>(&System::Xml::Serialization::TypeData::CreateMissingAddMethodException)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* inheritFrom = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -412,7 +412,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Inv
 // Writing MetadataGetter for method: System::Xml::Serialization::TypeData::GetGenericListItemType
 // Il2CppName: GetGenericListItemType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(System::Type*)>(&System::Xml::Serialization::TypeData::GetGenericListItemType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Type*)>(&System::Xml::Serialization::TypeData::GetGenericListItemType)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::TypeData*), "GetGenericListItemType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});

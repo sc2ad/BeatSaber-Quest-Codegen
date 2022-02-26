@@ -54,8 +54,8 @@ namespace Zenject {
   class FactoryFromBinder6Extensions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::FactoryFromBinder6Extensions);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::FactoryFromBinder6Extensions*, "Zenject", "FactoryFromBinder6Extensions");
+NEED_NO_BOX(::Zenject::FactoryFromBinder6Extensions);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::FactoryFromBinder6Extensions*, "Zenject", "FactoryFromBinder6Extensions");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x10
@@ -65,91 +65,91 @@ namespace Zenject {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class FactoryFromBinder6Extensions : public ::Il2CppObject {
     public:
-    // Nested type: Zenject::FactoryFromBinder6Extensions::$$c__DisplayClass0_0_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>
+    // Nested type: ::Zenject::FactoryFromBinder6Extensions::$$c__DisplayClass0_0_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>
     template<typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract>
     class $$c__DisplayClass0_0_7;
-    // Nested type: Zenject::FactoryFromBinder6Extensions::$$c__1_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>
+    // Nested type: ::Zenject::FactoryFromBinder6Extensions::$$c__1_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>
     template<typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract>
     class $$c__1_7;
-    // Nested type: Zenject::FactoryFromBinder6Extensions::$$c__3_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>
+    // Nested type: ::Zenject::FactoryFromBinder6Extensions::$$c__3_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>
     template<typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract>
     class $$c__3_7;
-    // Nested type: Zenject::FactoryFromBinder6Extensions::$$c__5_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TMemoryPool>
+    // Nested type: ::Zenject::FactoryFromBinder6Extensions::$$c__5_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TMemoryPool>
     template<typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract, typename TMemoryPool>
     class $$c__5_8;
-    // Nested type: Zenject::FactoryFromBinder6Extensions::$$c__DisplayClass6_0_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TMemoryPool>
+    // Nested type: ::Zenject::FactoryFromBinder6Extensions::$$c__DisplayClass6_0_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TMemoryPool>
     template<typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract, typename TMemoryPool>
     class $$c__DisplayClass6_0_8;
     // static public Zenject.ArgConditionCopyNonLazyBinder FromIFactory(Zenject.FactoryFromBinder`7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TContract> fromBinder, System.Action`1<Zenject.ConcreteBinderGeneric`1<Zenject.IFactory`7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TContract>>> factoryBindGenerator)
     // Offset: 0xFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TParam4, class TParam5, class TParam6, class TContract>
-    static Zenject::ArgConditionCopyNonLazyBinder* FromIFactory(Zenject::FactoryFromBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>* fromBinder, System::Action_1<Zenject::ConcreteBinderGeneric_1<Zenject::IFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*>*>* factoryBindGenerator) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryFromBinder6Extensions::FromIFactory");
+    static ::Zenject::ArgConditionCopyNonLazyBinder* FromIFactory(::Zenject::FactoryFromBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>* fromBinder, ::System::Action_1<::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*>*>* factoryBindGenerator) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactoryFromBinder6Extensions::FromIFactory");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "FactoryFromBinder6Extensions", "FromIFactory", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam6>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(fromBinder), ::il2cpp_utils::ExtractType(factoryBindGenerator)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam6>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()})));
-      return ::il2cpp_utils::RunMethodRethrow<Zenject::ArgConditionCopyNonLazyBinder*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, fromBinder, factoryBindGenerator);
+      return ::il2cpp_utils::RunMethodRethrow<::Zenject::ArgConditionCopyNonLazyBinder*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, fromBinder, factoryBindGenerator);
     }
     // static public Zenject.ArgConditionCopyNonLazyBinder FromPoolableMemoryPool(Zenject.FactoryFromBinder`7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TContract> fromBinder)
     // Offset: 0xFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TParam4, class TParam5, class TParam6, class TContract>
-    static Zenject::ArgConditionCopyNonLazyBinder* FromPoolableMemoryPool(Zenject::FactoryFromBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>* fromBinder) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<TContract>, Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, Zenject::IMemoryPool*>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryFromBinder6Extensions::FromPoolableMemoryPool");
+    static ::Zenject::ArgConditionCopyNonLazyBinder* FromPoolableMemoryPool(::Zenject::FactoryFromBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>* fromBinder) {
+      static_assert(std::is_convertible_v<std::remove_pointer_t<TContract>, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*>>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactoryFromBinder6Extensions::FromPoolableMemoryPool");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "FactoryFromBinder6Extensions", "FromPoolableMemoryPool", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam6>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(fromBinder)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam6>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()})));
-      return ::il2cpp_utils::RunMethodRethrow<Zenject::ArgConditionCopyNonLazyBinder*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, fromBinder);
+      return ::il2cpp_utils::RunMethodRethrow<::Zenject::ArgConditionCopyNonLazyBinder*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, fromBinder);
     }
     // static public Zenject.ArgConditionCopyNonLazyBinder FromPoolableMemoryPool(Zenject.FactoryFromBinder`7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TContract> fromBinder, System.Action`1<Zenject.MemoryPoolInitialSizeMaxSizeBinder`1<TContract>> poolBindGenerator)
     // Offset: 0xFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TParam4, class TParam5, class TParam6, class TContract>
-    static Zenject::ArgConditionCopyNonLazyBinder* FromPoolableMemoryPool(Zenject::FactoryFromBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>* fromBinder, System::Action_1<Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>* poolBindGenerator) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<TContract>, Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, Zenject::IMemoryPool*>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryFromBinder6Extensions::FromPoolableMemoryPool");
+    static ::Zenject::ArgConditionCopyNonLazyBinder* FromPoolableMemoryPool(::Zenject::FactoryFromBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>* fromBinder, ::System::Action_1<::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>* poolBindGenerator) {
+      static_assert(std::is_convertible_v<std::remove_pointer_t<TContract>, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*>>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactoryFromBinder6Extensions::FromPoolableMemoryPool");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "FactoryFromBinder6Extensions", "FromPoolableMemoryPool", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam6>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(fromBinder), ::il2cpp_utils::ExtractType(poolBindGenerator)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam6>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()})));
-      return ::il2cpp_utils::RunMethodRethrow<Zenject::ArgConditionCopyNonLazyBinder*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, fromBinder, poolBindGenerator);
+      return ::il2cpp_utils::RunMethodRethrow<::Zenject::ArgConditionCopyNonLazyBinder*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, fromBinder, poolBindGenerator);
     }
     // static public Zenject.ArgConditionCopyNonLazyBinder FromMonoPoolableMemoryPool(Zenject.FactoryFromBinder`7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TContract> fromBinder)
     // Offset: 0xFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TParam4, class TParam5, class TParam6, class TContract>
-    static Zenject::ArgConditionCopyNonLazyBinder* FromMonoPoolableMemoryPool(Zenject::FactoryFromBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>* fromBinder) {
-      static_assert(std::is_convertible_v<TContract, UnityEngine::Component*> && std::is_convertible_v<std::remove_pointer_t<TContract>, Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, Zenject::IMemoryPool*>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryFromBinder6Extensions::FromMonoPoolableMemoryPool");
+    static ::Zenject::ArgConditionCopyNonLazyBinder* FromMonoPoolableMemoryPool(::Zenject::FactoryFromBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>* fromBinder) {
+      static_assert(std::is_convertible_v<TContract, ::UnityEngine::Component*> && std::is_convertible_v<std::remove_pointer_t<TContract>, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*>>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactoryFromBinder6Extensions::FromMonoPoolableMemoryPool");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "FactoryFromBinder6Extensions", "FromMonoPoolableMemoryPool", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam6>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(fromBinder)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam6>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()})));
-      return ::il2cpp_utils::RunMethodRethrow<Zenject::ArgConditionCopyNonLazyBinder*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, fromBinder);
+      return ::il2cpp_utils::RunMethodRethrow<::Zenject::ArgConditionCopyNonLazyBinder*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, fromBinder);
     }
     // static public Zenject.ArgConditionCopyNonLazyBinder FromMonoPoolableMemoryPool(Zenject.FactoryFromBinder`7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TContract> fromBinder, System.Action`1<Zenject.MemoryPoolInitialSizeMaxSizeBinder`1<TContract>> poolBindGenerator)
     // Offset: 0xFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TParam4, class TParam5, class TParam6, class TContract>
-    static Zenject::ArgConditionCopyNonLazyBinder* FromMonoPoolableMemoryPool(Zenject::FactoryFromBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>* fromBinder, System::Action_1<Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>* poolBindGenerator) {
-      static_assert(std::is_convertible_v<TContract, UnityEngine::Component*> && std::is_convertible_v<std::remove_pointer_t<TContract>, Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, Zenject::IMemoryPool*>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryFromBinder6Extensions::FromMonoPoolableMemoryPool");
+    static ::Zenject::ArgConditionCopyNonLazyBinder* FromMonoPoolableMemoryPool(::Zenject::FactoryFromBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>* fromBinder, ::System::Action_1<::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>* poolBindGenerator) {
+      static_assert(std::is_convertible_v<TContract, ::UnityEngine::Component*> && std::is_convertible_v<std::remove_pointer_t<TContract>, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*>>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactoryFromBinder6Extensions::FromMonoPoolableMemoryPool");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "FactoryFromBinder6Extensions", "FromMonoPoolableMemoryPool", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam6>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(fromBinder), ::il2cpp_utils::ExtractType(poolBindGenerator)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam6>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get()})));
-      return ::il2cpp_utils::RunMethodRethrow<Zenject::ArgConditionCopyNonLazyBinder*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, fromBinder, poolBindGenerator);
+      return ::il2cpp_utils::RunMethodRethrow<::Zenject::ArgConditionCopyNonLazyBinder*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, fromBinder, poolBindGenerator);
     }
     // static public Zenject.ArgConditionCopyNonLazyBinder FromPoolableMemoryPool(Zenject.FactoryFromBinder`7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TContract> fromBinder)
     // Offset: 0xFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TParam4, class TParam5, class TParam6, class TContract, class TMemoryPool>
-    static Zenject::ArgConditionCopyNonLazyBinder* FromPoolableMemoryPool(Zenject::FactoryFromBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>* fromBinder) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<TContract>, Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, Zenject::IMemoryPool*>>);
-      static_assert(std::is_convertible_v<std::remove_pointer_t<TMemoryPool>, Zenject::MemoryPool_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, Zenject::IMemoryPool*, TContract>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryFromBinder6Extensions::FromPoolableMemoryPool");
+    static ::Zenject::ArgConditionCopyNonLazyBinder* FromPoolableMemoryPool(::Zenject::FactoryFromBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>* fromBinder) {
+      static_assert(std::is_convertible_v<std::remove_pointer_t<TContract>, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*>>);
+      static_assert(std::is_convertible_v<std::remove_pointer_t<TMemoryPool>, ::Zenject::MemoryPool_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*, TContract>>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactoryFromBinder6Extensions::FromPoolableMemoryPool");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "FactoryFromBinder6Extensions", "FromPoolableMemoryPool", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam6>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMemoryPool>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(fromBinder)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam6>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMemoryPool>::get()})));
-      return ::il2cpp_utils::RunMethodRethrow<Zenject::ArgConditionCopyNonLazyBinder*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, fromBinder);
+      return ::il2cpp_utils::RunMethodRethrow<::Zenject::ArgConditionCopyNonLazyBinder*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, fromBinder);
     }
     // static public Zenject.ArgConditionCopyNonLazyBinder FromPoolableMemoryPool(Zenject.FactoryFromBinder`7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TContract> fromBinder, System.Action`1<Zenject.MemoryPoolInitialSizeMaxSizeBinder`1<TContract>> poolBindGenerator)
     // Offset: 0xFFFFFFFF
     template<class TParam1, class TParam2, class TParam3, class TParam4, class TParam5, class TParam6, class TContract, class TMemoryPool>
-    static Zenject::ArgConditionCopyNonLazyBinder* FromPoolableMemoryPool(Zenject::FactoryFromBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>* fromBinder, System::Action_1<Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>* poolBindGenerator) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<TContract>, Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, Zenject::IMemoryPool*>>);
-      static_assert(std::is_convertible_v<std::remove_pointer_t<TMemoryPool>, Zenject::MemoryPool_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, Zenject::IMemoryPool*, TContract>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryFromBinder6Extensions::FromPoolableMemoryPool");
+    static ::Zenject::ArgConditionCopyNonLazyBinder* FromPoolableMemoryPool(::Zenject::FactoryFromBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>* fromBinder, ::System::Action_1<::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>* poolBindGenerator) {
+      static_assert(std::is_convertible_v<std::remove_pointer_t<TContract>, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*>>);
+      static_assert(std::is_convertible_v<std::remove_pointer_t<TMemoryPool>, ::Zenject::MemoryPool_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*, TContract>>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactoryFromBinder6Extensions::FromPoolableMemoryPool");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject", "FactoryFromBinder6Extensions", "FromPoolableMemoryPool", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam6>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMemoryPool>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(fromBinder), ::il2cpp_utils::ExtractType(poolBindGenerator)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam4>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam5>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TParam6>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TContract>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMemoryPool>::get()})));
-      return ::il2cpp_utils::RunMethodRethrow<Zenject::ArgConditionCopyNonLazyBinder*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, fromBinder, poolBindGenerator);
+      return ::il2cpp_utils::RunMethodRethrow<::Zenject::ArgConditionCopyNonLazyBinder*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, fromBinder, poolBindGenerator);
     }
   }; // Zenject.FactoryFromBinder6Extensions
   #pragma pack(pop)

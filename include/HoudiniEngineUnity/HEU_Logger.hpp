@@ -26,8 +26,8 @@ namespace HoudiniEngineUnity {
   class HEU_Logger;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_Logger);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_Logger*, "HoudiniEngineUnity", "HEU_Logger");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_Logger);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_Logger*, "HoudiniEngineUnity", "HEU_Logger");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x10
@@ -56,7 +56,7 @@ namespace HoudiniEngineUnity {
     static void LogErrorFormat(::StringW text, ::ArrayW<::Il2CppObject*> args);
     // static public System.Void LogError(System.Exception ex)
     // Offset: 0x1787E54
-    static void LogError(System::Exception* ex);
+    static void LogError(::System::Exception* ex);
     // static public System.Void LogAssertion(System.String text)
     // Offset: 0x1787EF0
     static void LogAssertion(::StringW text);
@@ -75,7 +75,7 @@ namespace HoudiniEngineUnity {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_Logger* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_Logger::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_Logger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_Logger*, creationType>()));
     }
   }; // HoudiniEngineUnity.HEU_Logger
@@ -142,7 +142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Logger::LogError
 // Il2CppName: LogError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Exception*)>(&HoudiniEngineUnity::HEU_Logger::LogError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Exception*)>(&HoudiniEngineUnity::HEU_Logger::LogError)> {
   static const MethodInfo* get() {
     static auto* ex = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Logger*), "LogError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ex});

@@ -27,7 +27,7 @@ namespace UnityEngine::Rendering {
   struct BatchRendererCullingOutput;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::BatchRendererCullingOutput, "UnityEngine.Rendering", "BatchRendererCullingOutput");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::BatchRendererCullingOutput, "UnityEngine.Rendering", "BatchRendererCullingOutput");
 // Type namespace: UnityEngine.Rendering
 namespace UnityEngine::Rendering {
   // Size: 0x34
@@ -37,29 +37,29 @@ namespace UnityEngine::Rendering {
   // [TokenAttribute] Offset: FFFFFFFF
   // [UsedByNativeCodeAttribute] Offset: 11A7B80
   // [NativeHeaderAttribute] Offset: 11A7B80
-  struct BatchRendererCullingOutput/*, public System::ValueType*/ {
+  struct BatchRendererCullingOutput/*, public ::System::ValueType*/ {
     public:
     public:
     // public Unity.Jobs.JobHandle cullingJobsFence
     // Size: 0xC
     // Offset: 0x0
-    Unity::Jobs::JobHandle cullingJobsFence;
+    ::Unity::Jobs::JobHandle cullingJobsFence;
     // Field size check
-    static_assert(sizeof(Unity::Jobs::JobHandle) == 0xC);
+    static_assert(sizeof(::Unity::Jobs::JobHandle) == 0xC);
     // Padding between fields: cullingJobsFence and: cullingPlanes
     char __padding0[0x4] = {};
     // public UnityEngine.Plane* cullingPlanes
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::Plane* cullingPlanes;
+    ::UnityEngine::Plane* cullingPlanes;
     // Field size check
-    static_assert(sizeof(UnityEngine::Plane*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Plane*) == 0x8);
     // public UnityEngine.Rendering.BatchVisibility* batchVisibility
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::Rendering::BatchVisibility* batchVisibility;
+    ::UnityEngine::Rendering::BatchVisibility* batchVisibility;
     // Field size check
-    static_assert(sizeof(UnityEngine::Rendering::BatchVisibility*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Rendering::BatchVisibility*) == 0x8);
     // public System.Int32* visibleIndices
     // Size: 0x8
     // Offset: 0x20
@@ -86,17 +86,17 @@ namespace UnityEngine::Rendering {
     static_assert(sizeof(int) == 0x4);
     public:
     // Creating value type constructor for type: BatchRendererCullingOutput
-    constexpr BatchRendererCullingOutput(Unity::Jobs::JobHandle cullingJobsFence_ = {}, UnityEngine::Plane* cullingPlanes_ = {}, UnityEngine::Rendering::BatchVisibility* batchVisibility_ = {}, int* visibleIndices_ = {}, int cullingPlanesCount_ = {}, int batchVisibilityCount_ = {}, int visibleIndicesCount_ = {}) noexcept : cullingJobsFence{cullingJobsFence_}, cullingPlanes{cullingPlanes_}, batchVisibility{batchVisibility_}, visibleIndices{visibleIndices_}, cullingPlanesCount{cullingPlanesCount_}, batchVisibilityCount{batchVisibilityCount_}, visibleIndicesCount{visibleIndicesCount_} {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    constexpr BatchRendererCullingOutput(::Unity::Jobs::JobHandle cullingJobsFence_ = {}, ::UnityEngine::Plane* cullingPlanes_ = {}, ::UnityEngine::Rendering::BatchVisibility* batchVisibility_ = {}, int* visibleIndices_ = {}, int cullingPlanesCount_ = {}, int batchVisibilityCount_ = {}, int visibleIndicesCount_ = {}) noexcept : cullingJobsFence{cullingJobsFence_}, cullingPlanes{cullingPlanes_}, batchVisibility{batchVisibility_}, visibleIndices{visibleIndices_}, cullingPlanesCount{cullingPlanesCount_}, batchVisibilityCount{batchVisibilityCount_}, visibleIndicesCount{visibleIndicesCount_} {}
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: public Unity.Jobs.JobHandle cullingJobsFence
-    Unity::Jobs::JobHandle& dyn_cullingJobsFence();
+    ::Unity::Jobs::JobHandle& dyn_cullingJobsFence();
     // Get instance field reference: public UnityEngine.Plane* cullingPlanes
-    UnityEngine::Plane*& dyn_cullingPlanes();
+    ::UnityEngine::Plane*& dyn_cullingPlanes();
     // Get instance field reference: public UnityEngine.Rendering.BatchVisibility* batchVisibility
-    UnityEngine::Rendering::BatchVisibility*& dyn_batchVisibility();
+    ::UnityEngine::Rendering::BatchVisibility*& dyn_batchVisibility();
     // Get instance field reference: public System.Int32* visibleIndices
     int*& dyn_visibleIndices();
     // Get instance field reference: public System.Int32 cullingPlanesCount

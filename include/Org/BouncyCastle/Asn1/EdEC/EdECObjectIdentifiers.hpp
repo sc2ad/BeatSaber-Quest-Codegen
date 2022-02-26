@@ -19,8 +19,8 @@ namespace Org::BouncyCastle::Asn1::EdEC {
   class EdECObjectIdentifiers;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Asn1::EdEC::EdECObjectIdentifiers);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::EdEC::EdECObjectIdentifiers*, "Org.BouncyCastle.Asn1.EdEC", "EdECObjectIdentifiers");
+NEED_NO_BOX(::Org::BouncyCastle::Asn1::EdEC::EdECObjectIdentifiers);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::EdEC::EdECObjectIdentifiers*, "Org.BouncyCastle.Asn1.EdEC", "EdECObjectIdentifiers");
 // Type namespace: Org.BouncyCastle.Asn1.EdEC
 namespace Org::BouncyCastle::Asn1::EdEC {
   // Size: 0x10
@@ -30,25 +30,25 @@ namespace Org::BouncyCastle::Asn1::EdEC {
   class EdECObjectIdentifiers : public ::Il2CppObject {
     public:
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_edwards_curve_algs
-    static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_edwards_curve_algs();
+    static ::Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_edwards_curve_algs();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_edwards_curve_algs
-    static void _set_id_edwards_curve_algs(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+    static void _set_id_edwards_curve_algs(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_X25519
-    static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_X25519();
+    static ::Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_X25519();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_X25519
-    static void _set_id_X25519(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+    static void _set_id_X25519(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_X448
-    static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_X448();
+    static ::Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_X448();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_X448
-    static void _set_id_X448(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+    static void _set_id_X448(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_Ed25519
-    static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_Ed25519();
+    static ::Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_Ed25519();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_Ed25519
-    static void _set_id_Ed25519(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+    static void _set_id_Ed25519(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_Ed448
-    static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_Ed448();
+    static ::Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_Ed448();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_Ed448
-    static void _set_id_Ed448(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+    static void _set_id_Ed448(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // static private System.Void .cctor()
     // Offset: 0x1B2FEF8
     static void _cctor();

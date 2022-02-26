@@ -21,8 +21,8 @@ namespace GlobalNamespace {
   class IConnectedPlayer;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::IConnectedPlayer);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IConnectedPlayer*, "", "IConnectedPlayer");
+NEED_NO_BOX(::GlobalNamespace::IConnectedPlayer);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IConnectedPlayer*, "", "IConnectedPlayer");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     bool get_isConnected();
     // public DisconnectedReason get_disconnectedReason()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::DisconnectedReason get_disconnectedReason();
+    ::GlobalNamespace::DisconnectedReason get_disconnectedReason();
     // public System.Boolean get_isConnectionOwner()
     // Offset: 0xFFFFFFFF
     bool get_isConnectionOwner();
@@ -66,7 +66,7 @@ namespace GlobalNamespace {
     bool get_isKicked();
     // public MultiplayerAvatarData get_multiplayerAvatarData()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::MultiplayerAvatarData get_multiplayerAvatarData();
+    ::GlobalNamespace::MultiplayerAvatarData get_multiplayerAvatarData();
     // public System.Boolean HasState(System.String state)
     // Offset: 0xFFFFFFFF
     bool HasState(::StringW state);
@@ -125,7 +125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IConnectedPlayer::get_disconnectedReason
 // Il2CppName: get_disconnectedReason
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::DisconnectedReason (GlobalNamespace::IConnectedPlayer::*)()>(&GlobalNamespace::IConnectedPlayer::get_disconnectedReason)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::DisconnectedReason (GlobalNamespace::IConnectedPlayer::*)()>(&GlobalNamespace::IConnectedPlayer::get_disconnectedReason)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IConnectedPlayer*), "get_disconnectedReason", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -165,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IConnectedPlayer::get_multiplayerAvatarData
 // Il2CppName: get_multiplayerAvatarData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerAvatarData (GlobalNamespace::IConnectedPlayer::*)()>(&GlobalNamespace::IConnectedPlayer::get_multiplayerAvatarData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MultiplayerAvatarData (GlobalNamespace::IConnectedPlayer::*)()>(&GlobalNamespace::IConnectedPlayer::get_multiplayerAvatarData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IConnectedPlayer*), "get_multiplayerAvatarData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

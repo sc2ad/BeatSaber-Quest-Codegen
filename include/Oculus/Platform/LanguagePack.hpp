@@ -28,8 +28,8 @@ namespace Oculus::Platform {
   class LanguagePack;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::LanguagePack);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::LanguagePack*, "Oculus.Platform", "LanguagePack");
+NEED_NO_BOX(::Oculus::Platform::LanguagePack);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::LanguagePack*, "Oculus.Platform", "LanguagePack");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x10
@@ -40,10 +40,10 @@ namespace Oculus::Platform {
     public:
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.AssetDetails> GetCurrent()
     // Offset: 0x195BC80
-    static Oculus::Platform::Request_1<Oculus::Platform::Models::AssetDetails*>* GetCurrent();
+    static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetDetails*>* GetCurrent();
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.AssetFileDownloadResult> SetCurrent(System.String tag)
     // Offset: 0x195BD8C
-    static Oculus::Platform::Request_1<Oculus::Platform::Models::AssetFileDownloadResult*>* SetCurrent(::StringW tag);
+    static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetFileDownloadResult*>* SetCurrent(::StringW tag);
   }; // Oculus.Platform.LanguagePack
   #pragma pack(pop)
 }
@@ -51,7 +51,7 @@ namespace Oculus::Platform {
 // Writing MetadataGetter for method: Oculus::Platform::LanguagePack::GetCurrent
 // Il2CppName: GetCurrent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AssetDetails*>* (*)()>(&Oculus::Platform::LanguagePack::GetCurrent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetDetails*>* (*)()>(&Oculus::Platform::LanguagePack::GetCurrent)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::LanguagePack*), "GetCurrent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -59,7 +59,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Writing MetadataGetter for method: Oculus::Platform::LanguagePack::SetCurrent
 // Il2CppName: SetCurrent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AssetFileDownloadResult*>* (*)(::StringW)>(&Oculus::Platform::LanguagePack::SetCurrent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetFileDownloadResult*>* (*)(::StringW)>(&Oculus::Platform::LanguagePack::SetCurrent)> {
   static const MethodInfo* get() {
     static auto* tag = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::LanguagePack*), "SetCurrent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tag});

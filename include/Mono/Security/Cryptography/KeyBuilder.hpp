@@ -20,8 +20,8 @@ namespace Mono::Security::Cryptography {
   class KeyBuilder;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Security::Cryptography::KeyBuilder);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::KeyBuilder*, "Mono.Security.Cryptography", "KeyBuilder");
+NEED_NO_BOX(::Mono::Security::Cryptography::KeyBuilder);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Cryptography::KeyBuilder*, "Mono.Security.Cryptography", "KeyBuilder");
 // Type namespace: Mono.Security.Cryptography
 namespace Mono::Security::Cryptography {
   // Size: 0x10
@@ -31,12 +31,12 @@ namespace Mono::Security::Cryptography {
   class KeyBuilder : public ::Il2CppObject {
     public:
     // Get static field: static private System.Security.Cryptography.RandomNumberGenerator rng
-    static System::Security::Cryptography::RandomNumberGenerator* _get_rng();
+    static ::System::Security::Cryptography::RandomNumberGenerator* _get_rng();
     // Set static field: static private System.Security.Cryptography.RandomNumberGenerator rng
-    static void _set_rng(System::Security::Cryptography::RandomNumberGenerator* value);
+    static void _set_rng(::System::Security::Cryptography::RandomNumberGenerator* value);
     // static private System.Security.Cryptography.RandomNumberGenerator get_Rng()
     // Offset: 0x22C8F74
-    static System::Security::Cryptography::RandomNumberGenerator* get_Rng();
+    static ::System::Security::Cryptography::RandomNumberGenerator* get_Rng();
     // static public System.Byte[] Key(System.Int32 size)
     // Offset: 0x22C7FE4
     static ::ArrayW<uint8_t> Key(int size);
@@ -47,7 +47,7 @@ namespace Mono::Security::Cryptography {
 // Writing MetadataGetter for method: Mono::Security::Cryptography::KeyBuilder::get_Rng
 // Il2CppName: get_Rng
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::RandomNumberGenerator* (*)()>(&Mono::Security::Cryptography::KeyBuilder::get_Rng)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::RandomNumberGenerator* (*)()>(&Mono::Security::Cryptography::KeyBuilder::get_Rng)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::KeyBuilder*), "get_Rng", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

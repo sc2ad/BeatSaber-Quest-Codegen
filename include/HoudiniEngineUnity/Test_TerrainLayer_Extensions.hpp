@@ -31,8 +31,8 @@ namespace HoudiniEngineUnity {
   class Test_TerrainLayer_Extensions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::Test_TerrainLayer_Extensions);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_TerrainLayer_Extensions*, "HoudiniEngineUnity", "Test_TerrainLayer_Extensions");
+NEED_NO_BOX(::HoudiniEngineUnity::Test_TerrainLayer_Extensions);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::Test_TerrainLayer_Extensions*, "HoudiniEngineUnity", "Test_TerrainLayer_Extensions");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x10
@@ -42,17 +42,17 @@ namespace HoudiniEngineUnity {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class Test_TerrainLayer_Extensions : public ::Il2CppObject {
     public:
-    // Nested type: HoudiniEngineUnity::Test_TerrainLayer_Extensions::$$c
+    // Nested type: ::HoudiniEngineUnity::Test_TerrainLayer_Extensions::$$c
     class $$c;
     // static public HoudiniEngineUnity.Test_TerrainLayer ToTestObject(UnityEngine.TerrainLayer self)
     // Offset: 0x2A1000C
-    static HoudiniEngineUnity::Test_TerrainLayer* ToTestObject(UnityEngine::TerrainLayer* self);
+    static ::HoudiniEngineUnity::Test_TerrainLayer* ToTestObject(::UnityEngine::TerrainLayer* self);
     // static public HoudiniEngineUnity.Test_TerrainLayer[] ToTestObject(UnityEngine.TerrainLayer[] self)
     // Offset: 0x2A0F650
-    static ::ArrayW<HoudiniEngineUnity::Test_TerrainLayer*> ToTestObject(::ArrayW<UnityEngine::TerrainLayer*> self);
+    static ::ArrayW<::HoudiniEngineUnity::Test_TerrainLayer*> ToTestObject(::ArrayW<::UnityEngine::TerrainLayer*> self);
     // static public System.Collections.Generic.List`1<HoudiniEngineUnity.Test_TerrainLayer> ToTestObject(System.Collections.Generic.List`1<UnityEngine.TerrainLayer> self)
     // Offset: 0x2A10070
-    static System::Collections::Generic::List_1<HoudiniEngineUnity::Test_TerrainLayer*>* ToTestObject(System::Collections::Generic::List_1<UnityEngine::TerrainLayer*>* self);
+    static ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_TerrainLayer*>* ToTestObject(::System::Collections::Generic::List_1<::UnityEngine::TerrainLayer*>* self);
   }; // HoudiniEngineUnity.Test_TerrainLayer_Extensions
   #pragma pack(pop)
 }
@@ -60,7 +60,7 @@ namespace HoudiniEngineUnity {
 // Writing MetadataGetter for method: HoudiniEngineUnity::Test_TerrainLayer_Extensions::ToTestObject
 // Il2CppName: ToTestObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::Test_TerrainLayer* (*)(UnityEngine::TerrainLayer*)>(&HoudiniEngineUnity::Test_TerrainLayer_Extensions::ToTestObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::Test_TerrainLayer* (*)(::UnityEngine::TerrainLayer*)>(&HoudiniEngineUnity::Test_TerrainLayer_Extensions::ToTestObject)> {
   static const MethodInfo* get() {
     static auto* self = &::il2cpp_utils::GetClassFromName("UnityEngine", "TerrainLayer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::Test_TerrainLayer_Extensions*), "ToTestObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{self});
@@ -69,7 +69,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::Test_TerrainLayer_Extensions::ToTestObject
 // Il2CppName: ToTestObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<HoudiniEngineUnity::Test_TerrainLayer*> (*)(::ArrayW<UnityEngine::TerrainLayer*>)>(&HoudiniEngineUnity::Test_TerrainLayer_Extensions::ToTestObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::HoudiniEngineUnity::Test_TerrainLayer*> (*)(::ArrayW<::UnityEngine::TerrainLayer*>)>(&HoudiniEngineUnity::Test_TerrainLayer_Extensions::ToTestObject)> {
   static const MethodInfo* get() {
     static auto* self = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "TerrainLayer"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::Test_TerrainLayer_Extensions*), "ToTestObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{self});
@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::Test_TerrainLayer_Extensions::ToTestObject
 // Il2CppName: ToTestObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<HoudiniEngineUnity::Test_TerrainLayer*>* (*)(System::Collections::Generic::List_1<UnityEngine::TerrainLayer*>*)>(&HoudiniEngineUnity::Test_TerrainLayer_Extensions::ToTestObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_TerrainLayer*>* (*)(::System::Collections::Generic::List_1<::UnityEngine::TerrainLayer*>*)>(&HoudiniEngineUnity::Test_TerrainLayer_Extensions::ToTestObject)> {
   static const MethodInfo* get() {
     static auto* self = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "TerrainLayer")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::Test_TerrainLayer_Extensions*), "ToTestObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{self});

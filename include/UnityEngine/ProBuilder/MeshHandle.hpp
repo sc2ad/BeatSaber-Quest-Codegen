@@ -25,8 +25,8 @@ namespace UnityEngine::ProBuilder {
   class MeshHandle;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::MeshHandle);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshHandle*, "UnityEngine.ProBuilder", "MeshHandle");
+NEED_NO_BOX(::UnityEngine::ProBuilder::MeshHandle);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::MeshHandle*, "UnityEngine.ProBuilder", "MeshHandle");
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
   // Size: 0x20
@@ -47,28 +47,28 @@ namespace UnityEngine::ProBuilder {
     // private UnityEngine.Transform m_Transform
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::Transform* m_Transform;
+    ::UnityEngine::Transform* m_Transform;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // private UnityEngine.Mesh m_Mesh
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::Mesh* m_Mesh;
+    ::UnityEngine::Mesh* m_Mesh;
     // Field size check
-    static_assert(sizeof(UnityEngine::Mesh*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Mesh*) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.Transform m_Transform
-    UnityEngine::Transform*& dyn_m_Transform();
+    ::UnityEngine::Transform*& dyn_m_Transform();
     // Get instance field reference: private UnityEngine.Mesh m_Mesh
-    UnityEngine::Mesh*& dyn_m_Mesh();
+    ::UnityEngine::Mesh*& dyn_m_Mesh();
     // public UnityEngine.Mesh get_mesh()
     // Offset: 0x1F4834C
-    UnityEngine::Mesh* get_mesh();
+    ::UnityEngine::Mesh* get_mesh();
     // public System.Void .ctor(UnityEngine.Transform transform, UnityEngine.Mesh mesh)
     // Offset: 0x1F48354
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MeshHandle* New_ctor(UnityEngine::Transform* transform, UnityEngine::Mesh* mesh) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::MeshHandle::.ctor");
+    static MeshHandle* New_ctor(::UnityEngine::Transform* transform, ::UnityEngine::Mesh* mesh) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshHandle::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MeshHandle*, creationType>(transform, mesh)));
     }
     // public System.Void DrawMeshNow(System.Int32 submeshIndex)
@@ -76,14 +76,14 @@ namespace UnityEngine::ProBuilder {
     void DrawMeshNow(int submeshIndex);
   }; // UnityEngine.ProBuilder.MeshHandle
   #pragma pack(pop)
-  static check_size<sizeof(MeshHandle), 24 + sizeof(UnityEngine::Mesh*)> __UnityEngine_ProBuilder_MeshHandleSizeCheck;
+  static check_size<sizeof(MeshHandle), 24 + sizeof(::UnityEngine::Mesh*)> __UnityEngine_ProBuilder_MeshHandleSizeCheck;
   static_assert(sizeof(MeshHandle) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshHandle::get_mesh
 // Il2CppName: get_mesh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Mesh* (UnityEngine::ProBuilder::MeshHandle::*)()>(&UnityEngine::ProBuilder::MeshHandle::get_mesh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Mesh* (UnityEngine::ProBuilder::MeshHandle::*)()>(&UnityEngine::ProBuilder::MeshHandle::get_mesh)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshHandle*), "get_mesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

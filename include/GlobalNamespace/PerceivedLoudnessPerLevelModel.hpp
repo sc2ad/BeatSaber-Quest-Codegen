@@ -32,8 +32,8 @@ namespace GlobalNamespace {
   class PerceivedLoudnessPerLevelModel;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PerceivedLoudnessPerLevelModel);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PerceivedLoudnessPerLevelModel*, "", "PerceivedLoudnessPerLevelModel");
+NEED_NO_BOX(::GlobalNamespace::PerceivedLoudnessPerLevelModel);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PerceivedLoudnessPerLevelModel*, "", "PerceivedLoudnessPerLevelModel");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -54,12 +54,12 @@ namespace GlobalNamespace {
     // private readonly System.Collections.Generic.Dictionary`2<System.String,System.Single> _loudnessLevelPerLevelId
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::Dictionary_2<::StringW, float>* loudnessLevelPerLevelId;
+    ::System::Collections::Generic::Dictionary_2<::StringW, float>* loudnessLevelPerLevelId;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, float>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::Dictionary_2<::StringW, float>*) == 0x8);
     public:
-    // Creating conversion operator: operator System::Collections::Generic::Dictionary_2<::StringW, float>*
-    constexpr operator System::Collections::Generic::Dictionary_2<::StringW, float>*() const noexcept {
+    // Creating conversion operator: operator ::System::Collections::Generic::Dictionary_2<::StringW, float>*
+    constexpr operator ::System::Collections::Generic::Dictionary_2<::StringW, float>*() const noexcept {
       return loudnessLevelPerLevelId;
     }
     // static field const value: static private System.Single kDefaultLoudness
@@ -81,12 +81,12 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kPerceivedLoudnessToMaxSfxLevelDifference
     static void _set_kPerceivedLoudnessToMaxSfxLevelDifference(float value);
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,System.Single> _loudnessLevelPerLevelId
-    System::Collections::Generic::Dictionary_2<::StringW, float>*& dyn__loudnessLevelPerLevelId();
+    ::System::Collections::Generic::Dictionary_2<::StringW, float>*& dyn__loudnessLevelPerLevelId();
     // public System.Void .ctor(PerceivedLoudnessPerLevelSO loudnessPerLeveData)
     // Offset: 0x2ABD638
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PerceivedLoudnessPerLevelModel* New_ctor(GlobalNamespace::PerceivedLoudnessPerLevelSO* loudnessPerLeveData) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PerceivedLoudnessPerLevelModel::.ctor");
+    static PerceivedLoudnessPerLevelModel* New_ctor(::GlobalNamespace::PerceivedLoudnessPerLevelSO* loudnessPerLeveData) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PerceivedLoudnessPerLevelModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PerceivedLoudnessPerLevelModel*, creationType>(loudnessPerLeveData)));
     }
     // public System.Boolean ContainsLevelId(System.String levelId)
@@ -103,7 +103,7 @@ namespace GlobalNamespace {
     float GetLoudnessByLevelId(::StringW levelId);
   }; // PerceivedLoudnessPerLevelModel
   #pragma pack(pop)
-  static check_size<sizeof(PerceivedLoudnessPerLevelModel), 16 + sizeof(System::Collections::Generic::Dictionary_2<::StringW, float>*)> __GlobalNamespace_PerceivedLoudnessPerLevelModelSizeCheck;
+  static check_size<sizeof(PerceivedLoudnessPerLevelModel), 16 + sizeof(::System::Collections::Generic::Dictionary_2<::StringW, float>*)> __GlobalNamespace_PerceivedLoudnessPerLevelModelSizeCheck;
   static_assert(sizeof(PerceivedLoudnessPerLevelModel) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

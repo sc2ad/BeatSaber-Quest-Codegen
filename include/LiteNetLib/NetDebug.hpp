@@ -24,8 +24,8 @@ namespace LiteNetLib {
   class NetDebug;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(LiteNetLib::NetDebug);
-DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetDebug*, "LiteNetLib", "NetDebug");
+NEED_NO_BOX(::LiteNetLib::NetDebug);
+DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::NetDebug*, "LiteNetLib", "NetDebug");
 // Type namespace: LiteNetLib
 namespace LiteNetLib {
   // Size: 0x10
@@ -35,9 +35,9 @@ namespace LiteNetLib {
   class NetDebug : public ::Il2CppObject {
     public:
     // Get static field: static public LiteNetLib.INetLogger Logger
-    static LiteNetLib::INetLogger* _get_Logger();
+    static ::LiteNetLib::INetLogger* _get_Logger();
     // Set static field: static public LiteNetLib.INetLogger Logger
-    static void _set_Logger(LiteNetLib::INetLogger* value);
+    static void _set_Logger(::LiteNetLib::INetLogger* value);
     // Get static field: static private readonly System.Object DebugLogLock
     static ::Il2CppObject* _get_DebugLogLock();
     // Set static field: static private readonly System.Object DebugLogLock
@@ -47,19 +47,19 @@ namespace LiteNetLib {
     static void _cctor();
     // static private System.Void WriteLogic(LiteNetLib.NetLogLevel logLevel, System.String str, params System.Object[] args)
     // Offset: 0x20E068C
-    static void WriteLogic(LiteNetLib::NetLogLevel logLevel, ::StringW str, ::ArrayW<::Il2CppObject*> args);
+    static void WriteLogic(::LiteNetLib::NetLogLevel logLevel, ::StringW str, ::ArrayW<::Il2CppObject*> args);
     // static System.Void Write(System.String str, params System.Object[] args)
     // Offset: 0x20E088C
     static void Write(::StringW str, ::ArrayW<::Il2CppObject*> args);
     // static System.Void Write(LiteNetLib.NetLogLevel level, System.String str, params System.Object[] args)
     // Offset: 0x20E0904
-    static void Write(LiteNetLib::NetLogLevel level, ::StringW str, ::ArrayW<::Il2CppObject*> args);
+    static void Write(::LiteNetLib::NetLogLevel level, ::StringW str, ::ArrayW<::Il2CppObject*> args);
     // static System.Void WriteForce(System.String str, params System.Object[] args)
     // Offset: 0x20E0980
     static void WriteForce(::StringW str, ::ArrayW<::Il2CppObject*> args);
     // static System.Void WriteForce(LiteNetLib.NetLogLevel level, System.String str, params System.Object[] args)
     // Offset: 0x20E09F8
-    static void WriteForce(LiteNetLib::NetLogLevel level, ::StringW str, ::ArrayW<::Il2CppObject*> args);
+    static void WriteForce(::LiteNetLib::NetLogLevel level, ::StringW str, ::ArrayW<::Il2CppObject*> args);
     // static System.Void WriteError(System.String str, params System.Object[] args)
     // Offset: 0x20DA080
     static void WriteError(::StringW str, ::ArrayW<::Il2CppObject*> args);
@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: LiteNetLib::NetDebug::WriteLogic
 // Il2CppName: WriteLogic
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(LiteNetLib::NetLogLevel, ::StringW, ::ArrayW<::Il2CppObject*>)>(&LiteNetLib::NetDebug::WriteLogic)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::LiteNetLib::NetLogLevel, ::StringW, ::ArrayW<::Il2CppObject*>)>(&LiteNetLib::NetDebug::WriteLogic)> {
   static const MethodInfo* get() {
     static auto* logLevel = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetLogLevel")->byval_arg;
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -99,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: LiteNetLib::NetDebug::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(LiteNetLib::NetLogLevel, ::StringW, ::ArrayW<::Il2CppObject*>)>(&LiteNetLib::NetDebug::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::LiteNetLib::NetLogLevel, ::StringW, ::ArrayW<::Il2CppObject*>)>(&LiteNetLib::NetDebug::Write)> {
   static const MethodInfo* get() {
     static auto* level = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetLogLevel")->byval_arg;
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -120,7 +120,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: LiteNetLib::NetDebug::WriteForce
 // Il2CppName: WriteForce
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(LiteNetLib::NetLogLevel, ::StringW, ::ArrayW<::Il2CppObject*>)>(&LiteNetLib::NetDebug::WriteForce)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::LiteNetLib::NetLogLevel, ::StringW, ::ArrayW<::Il2CppObject*>)>(&LiteNetLib::NetDebug::WriteForce)> {
   static const MethodInfo* get() {
     static auto* level = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetLogLevel")->byval_arg;
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

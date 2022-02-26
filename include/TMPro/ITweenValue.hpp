@@ -11,8 +11,8 @@ namespace TMPro {
   class ITweenValue;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(TMPro::ITweenValue);
-DEFINE_IL2CPP_ARG_TYPE(TMPro::ITweenValue*, "TMPro", "ITweenValue");
+NEED_NO_BOX(::TMPro::ITweenValue);
+DEFINE_IL2CPP_ARG_TYPE(::TMPro::ITweenValue*, "TMPro", "ITweenValue");
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0x10

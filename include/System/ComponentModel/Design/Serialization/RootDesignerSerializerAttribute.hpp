@@ -19,8 +19,8 @@ namespace System::ComponentModel::Design::Serialization {
   class RootDesignerSerializerAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute);
-DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute*, "System.ComponentModel.Design.Serialization", "RootDesignerSerializerAttribute");
+NEED_NO_BOX(::System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute*, "System.ComponentModel.Design.Serialization", "RootDesignerSerializerAttribute");
 // Type namespace: System.ComponentModel.Design.Serialization
 namespace System::ComponentModel::Design::Serialization {
   // Size: 0x30
@@ -29,7 +29,7 @@ namespace System::ComponentModel::Design::Serialization {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AttributeUsageAttribute] Offset: 119A16C
   // [ObsoleteAttribute] Offset: 119A16C
-  class RootDesignerSerializerAttribute : public System::Attribute {
+  class RootDesignerSerializerAttribute : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -79,7 +79,7 @@ namespace System::ComponentModel::Design::Serialization {
     // Offset: 0x1DF4940
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RootDesignerSerializerAttribute* New_ctor(::StringW serializerTypeName, ::StringW baseSerializerTypeName, bool reloadable) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RootDesignerSerializerAttribute*, creationType>(serializerTypeName, baseSerializerTypeName, reloadable)));
     }
     // public override System.Object get_TypeId()

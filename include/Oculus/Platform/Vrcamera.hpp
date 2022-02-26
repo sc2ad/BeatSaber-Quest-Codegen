@@ -15,8 +15,8 @@ namespace Oculus::Platform {
   class Vrcamera;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Vrcamera);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Vrcamera*, "Oculus.Platform", "Vrcamera");
+NEED_NO_BOX(::Oculus::Platform::Vrcamera);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Vrcamera*, "Oculus.Platform", "Vrcamera");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x10
@@ -27,7 +27,7 @@ namespace Oculus::Platform {
     public:
     // static public System.Void SetGetSurfaceUpdateNotificationCallback(Oculus.Platform.Message`1/Oculus.Platform.Callback<System.String> callback)
     // Offset: 0x2A04A24
-    static void SetGetSurfaceUpdateNotificationCallback(typename Oculus::Platform::Message_1<::StringW>::Callback* callback);
+    static void SetGetSurfaceUpdateNotificationCallback(typename ::Oculus::Platform::Message_1<::StringW>::Callback* callback);
   }; // Oculus.Platform.Vrcamera
   #pragma pack(pop)
 }

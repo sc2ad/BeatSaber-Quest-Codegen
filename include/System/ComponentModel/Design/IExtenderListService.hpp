@@ -19,8 +19,8 @@ namespace System::ComponentModel::Design {
   class IExtenderListService;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::ComponentModel::Design::IExtenderListService);
-DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::Design::IExtenderListService*, "System.ComponentModel.Design", "IExtenderListService");
+NEED_NO_BOX(::System::ComponentModel::Design::IExtenderListService);
+DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::Design::IExtenderListService*, "System.ComponentModel.Design", "IExtenderListService");
 // Type namespace: System.ComponentModel.Design
 namespace System::ComponentModel::Design {
   // Size: 0x10
@@ -31,7 +31,7 @@ namespace System::ComponentModel::Design {
     public:
     // public System.ComponentModel.IExtenderProvider[] GetExtenderProviders()
     // Offset: 0xFFFFFFFF
-    ::ArrayW<System::ComponentModel::IExtenderProvider*> GetExtenderProviders();
+    ::ArrayW<::System::ComponentModel::IExtenderProvider*> GetExtenderProviders();
   }; // System.ComponentModel.Design.IExtenderListService
   #pragma pack(pop)
 }
@@ -39,7 +39,7 @@ namespace System::ComponentModel::Design {
 // Writing MetadataGetter for method: System::ComponentModel::Design::IExtenderListService::GetExtenderProviders
 // Il2CppName: GetExtenderProviders
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::ComponentModel::IExtenderProvider*> (System::ComponentModel::Design::IExtenderListService::*)()>(&System::ComponentModel::Design::IExtenderListService::GetExtenderProviders)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::ComponentModel::IExtenderProvider*> (System::ComponentModel::Design::IExtenderListService::*)()>(&System::ComponentModel::Design::IExtenderListService::GetExtenderProviders)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::Design::IExtenderListService*), "GetExtenderProviders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

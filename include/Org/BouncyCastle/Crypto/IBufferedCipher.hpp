@@ -20,8 +20,8 @@ namespace Org::BouncyCastle::Crypto {
   class IBufferedCipher;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Crypto::IBufferedCipher);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::IBufferedCipher*, "Org.BouncyCastle.Crypto", "IBufferedCipher");
+NEED_NO_BOX(::Org::BouncyCastle::Crypto::IBufferedCipher);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::IBufferedCipher*, "Org.BouncyCastle.Crypto", "IBufferedCipher");
 // Type namespace: Org.BouncyCastle.Crypto
 namespace Org::BouncyCastle::Crypto {
   // Size: 0x10
@@ -32,7 +32,7 @@ namespace Org::BouncyCastle::Crypto {
     public:
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     // Offset: 0xFFFFFFFF
-    void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+    void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Byte[] DoFinal(System.Byte[] input)
     // Offset: 0xFFFFFFFF
     ::ArrayW<uint8_t> DoFinal(::ArrayW<uint8_t> input);
@@ -43,7 +43,7 @@ namespace Org::BouncyCastle::Crypto {
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::IBufferedCipher::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::IBufferedCipher::*)(bool, Org::BouncyCastle::Crypto::ICipherParameters*)>(&Org::BouncyCastle::Crypto::IBufferedCipher::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::IBufferedCipher::*)(bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(&Org::BouncyCastle::Crypto::IBufferedCipher::Init)> {
   static const MethodInfo* get() {
     static auto* forEncryption = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* parameters = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Crypto", "ICipherParameters")->byval_arg;

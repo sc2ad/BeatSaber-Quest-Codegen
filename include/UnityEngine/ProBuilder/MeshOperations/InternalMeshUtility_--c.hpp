@@ -33,8 +33,8 @@ namespace UnityEngine {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c*, "UnityEngine.ProBuilder.MeshOperations", "InternalMeshUtility/<>c");
+NEED_NO_BOX(::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c*, "UnityEngine.ProBuilder.MeshOperations", "InternalMeshUtility/<>c");
 // Type namespace: UnityEngine.ProBuilder.MeshOperations
 namespace UnityEngine::ProBuilder::MeshOperations {
   // Size: 0x10
@@ -45,58 +45,58 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   class InternalMeshUtility::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly UnityEngine.ProBuilder.MeshOperations.InternalMeshUtility/UnityEngine.ProBuilder.MeshOperations.<>c <>9
-    static UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c* _get_$$9();
+    static ::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c* _get_$$9();
     // Set static field: static public readonly UnityEngine.ProBuilder.MeshOperations.InternalMeshUtility/UnityEngine.ProBuilder.MeshOperations.<>c <>9
-    static void _set_$$9(UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c* value);
+    static void _set_$$9(::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c* value);
     // Get static field: static public System.Func`2<UnityEngine.Mesh,UnityEngine.Vector3[]> <>9__1_0
-    static System::Func_2<UnityEngine::Mesh*, ::ArrayW<UnityEngine::Vector3>>* _get_$$9__1_0();
+    static ::System::Func_2<::UnityEngine::Mesh*, ::ArrayW<::UnityEngine::Vector3>>* _get_$$9__1_0();
     // Set static field: static public System.Func`2<UnityEngine.Mesh,UnityEngine.Vector3[]> <>9__1_0
-    static void _set_$$9__1_0(System::Func_2<UnityEngine::Mesh*, ::ArrayW<UnityEngine::Vector3>>* value);
+    static void _set_$$9__1_0(::System::Func_2<::UnityEngine::Mesh*, ::ArrayW<::UnityEngine::Vector3>>* value);
     // Get static field: static public System.Func`2<UnityEngine.Mesh,UnityEngine.Color[]> <>9__1_1
-    static System::Func_2<UnityEngine::Mesh*, ::ArrayW<UnityEngine::Color>>* _get_$$9__1_1();
+    static ::System::Func_2<::UnityEngine::Mesh*, ::ArrayW<::UnityEngine::Color>>* _get_$$9__1_1();
     // Set static field: static public System.Func`2<UnityEngine.Mesh,UnityEngine.Color[]> <>9__1_1
-    static void _set_$$9__1_1(System::Func_2<UnityEngine::Mesh*, ::ArrayW<UnityEngine::Color>>* value);
+    static void _set_$$9__1_1(::System::Func_2<::UnityEngine::Mesh*, ::ArrayW<::UnityEngine::Color>>* value);
     // Get static field: static public System.Func`2<UnityEngine.Mesh,UnityEngine.Vector2[]> <>9__1_2
-    static System::Func_2<UnityEngine::Mesh*, ::ArrayW<UnityEngine::Vector2>>* _get_$$9__1_2();
+    static ::System::Func_2<::UnityEngine::Mesh*, ::ArrayW<::UnityEngine::Vector2>>* _get_$$9__1_2();
     // Set static field: static public System.Func`2<UnityEngine.Mesh,UnityEngine.Vector2[]> <>9__1_2
-    static void _set_$$9__1_2(System::Func_2<UnityEngine::Mesh*, ::ArrayW<UnityEngine::Vector2>>* value);
+    static void _set_$$9__1_2(::System::Func_2<::UnityEngine::Mesh*, ::ArrayW<::UnityEngine::Vector2>>* value);
     // Get static field: static public System.Func`2<UnityEngine.Mesh,UnityEngine.Vector3[]> <>9__2_0
-    static System::Func_2<UnityEngine::Mesh*, ::ArrayW<UnityEngine::Vector3>>* _get_$$9__2_0();
+    static ::System::Func_2<::UnityEngine::Mesh*, ::ArrayW<::UnityEngine::Vector3>>* _get_$$9__2_0();
     // Set static field: static public System.Func`2<UnityEngine.Mesh,UnityEngine.Vector3[]> <>9__2_0
-    static void _set_$$9__2_0(System::Func_2<UnityEngine::Mesh*, ::ArrayW<UnityEngine::Vector3>>* value);
+    static void _set_$$9__2_0(::System::Func_2<::UnityEngine::Mesh*, ::ArrayW<::UnityEngine::Vector3>>* value);
     // Get static field: static public System.Func`2<UnityEngine.Mesh,UnityEngine.Color[]> <>9__2_1
-    static System::Func_2<UnityEngine::Mesh*, ::ArrayW<UnityEngine::Color>>* _get_$$9__2_1();
+    static ::System::Func_2<::UnityEngine::Mesh*, ::ArrayW<::UnityEngine::Color>>* _get_$$9__2_1();
     // Set static field: static public System.Func`2<UnityEngine.Mesh,UnityEngine.Color[]> <>9__2_1
-    static void _set_$$9__2_1(System::Func_2<UnityEngine::Mesh*, ::ArrayW<UnityEngine::Color>>* value);
+    static void _set_$$9__2_1(::System::Func_2<::UnityEngine::Mesh*, ::ArrayW<::UnityEngine::Color>>* value);
     // Get static field: static public System.Func`2<UnityEngine.Mesh,UnityEngine.Vector2[]> <>9__2_2
-    static System::Func_2<UnityEngine::Mesh*, ::ArrayW<UnityEngine::Vector2>>* _get_$$9__2_2();
+    static ::System::Func_2<::UnityEngine::Mesh*, ::ArrayW<::UnityEngine::Vector2>>* _get_$$9__2_2();
     // Set static field: static public System.Func`2<UnityEngine.Mesh,UnityEngine.Vector2[]> <>9__2_2
-    static void _set_$$9__2_2(System::Func_2<UnityEngine::Mesh*, ::ArrayW<UnityEngine::Vector2>>* value);
+    static void _set_$$9__2_2(::System::Func_2<::UnityEngine::Mesh*, ::ArrayW<::UnityEngine::Vector2>>* value);
     // Get static field: static public System.Func`2<System.Boolean,System.Boolean> <>9__3_0
-    static System::Func_2<bool, bool>* _get_$$9__3_0();
+    static ::System::Func_2<bool, bool>* _get_$$9__3_0();
     // Set static field: static public System.Func`2<System.Boolean,System.Boolean> <>9__3_0
-    static void _set_$$9__3_0(System::Func_2<bool, bool>* value);
+    static void _set_$$9__3_0(::System::Func_2<bool, bool>* value);
     // static private System.Void .cctor()
     // Offset: 0x1B328A4
     static void _cctor();
     // UnityEngine.Vector3[] <CreateMeshWithTransform>b__1_0(UnityEngine.Mesh x)
     // Offset: 0x1B32910
-    ::ArrayW<UnityEngine::Vector3> $CreateMeshWithTransform$b__1_0(UnityEngine::Mesh* x);
+    ::ArrayW<::UnityEngine::Vector3> $CreateMeshWithTransform$b__1_0(::UnityEngine::Mesh* x);
     // UnityEngine.Color[] <CreateMeshWithTransform>b__1_1(UnityEngine.Mesh x)
     // Offset: 0x1B3292C
-    ::ArrayW<UnityEngine::Color> $CreateMeshWithTransform$b__1_1(UnityEngine::Mesh* x);
+    ::ArrayW<::UnityEngine::Color> $CreateMeshWithTransform$b__1_1(::UnityEngine::Mesh* x);
     // UnityEngine.Vector2[] <CreateMeshWithTransform>b__1_2(UnityEngine.Mesh x)
     // Offset: 0x1B32948
-    ::ArrayW<UnityEngine::Vector2> $CreateMeshWithTransform$b__1_2(UnityEngine::Mesh* x);
+    ::ArrayW<::UnityEngine::Vector2> $CreateMeshWithTransform$b__1_2(::UnityEngine::Mesh* x);
     // UnityEngine.Vector3[] <ResetPbObjectWithMeshFilter>b__2_0(UnityEngine.Mesh x)
     // Offset: 0x1B32964
-    ::ArrayW<UnityEngine::Vector3> $ResetPbObjectWithMeshFilter$b__2_0(UnityEngine::Mesh* x);
+    ::ArrayW<::UnityEngine::Vector3> $ResetPbObjectWithMeshFilter$b__2_0(::UnityEngine::Mesh* x);
     // UnityEngine.Color[] <ResetPbObjectWithMeshFilter>b__2_1(UnityEngine.Mesh x)
     // Offset: 0x1B32980
-    ::ArrayW<UnityEngine::Color> $ResetPbObjectWithMeshFilter$b__2_1(UnityEngine::Mesh* x);
+    ::ArrayW<::UnityEngine::Color> $ResetPbObjectWithMeshFilter$b__2_1(::UnityEngine::Mesh* x);
     // UnityEngine.Vector2[] <ResetPbObjectWithMeshFilter>b__2_2(UnityEngine.Mesh x)
     // Offset: 0x1B3299C
-    ::ArrayW<UnityEngine::Vector2> $ResetPbObjectWithMeshFilter$b__2_2(UnityEngine::Mesh* x);
+    ::ArrayW<::UnityEngine::Vector2> $ResetPbObjectWithMeshFilter$b__2_2(::UnityEngine::Mesh* x);
     // System.Boolean <FilterUnusedSubmeshIndexes>b__3_0(System.Boolean x)
     // Offset: 0x1B329B8
     bool $FilterUnusedSubmeshIndexes$b__3_0(bool x);
@@ -106,7 +106,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InternalMeshUtility::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InternalMeshUtility::$$c*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.MeshOperations.InternalMeshUtility/UnityEngine.ProBuilder.MeshOperations.<>c
@@ -124,7 +124,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::$CreateMeshWithTransform$b__1_0
 // Il2CppName: <CreateMeshWithTransform>b__1_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector3> (UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::*)(UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::$CreateMeshWithTransform$b__1_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Vector3> (UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::*)(::UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::$CreateMeshWithTransform$b__1_0)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c*), "<CreateMeshWithTransform>b__1_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -133,7 +133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::$CreateMeshWithTransform$b__1_1
 // Il2CppName: <CreateMeshWithTransform>b__1_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Color> (UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::*)(UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::$CreateMeshWithTransform$b__1_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Color> (UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::*)(::UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::$CreateMeshWithTransform$b__1_1)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c*), "<CreateMeshWithTransform>b__1_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -142,7 +142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::$CreateMeshWithTransform$b__1_2
 // Il2CppName: <CreateMeshWithTransform>b__1_2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector2> (UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::*)(UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::$CreateMeshWithTransform$b__1_2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Vector2> (UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::*)(::UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::$CreateMeshWithTransform$b__1_2)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c*), "<CreateMeshWithTransform>b__1_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -151,7 +151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::$ResetPbObjectWithMeshFilter$b__2_0
 // Il2CppName: <ResetPbObjectWithMeshFilter>b__2_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector3> (UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::*)(UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::$ResetPbObjectWithMeshFilter$b__2_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Vector3> (UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::*)(::UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::$ResetPbObjectWithMeshFilter$b__2_0)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c*), "<ResetPbObjectWithMeshFilter>b__2_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -160,7 +160,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::$ResetPbObjectWithMeshFilter$b__2_1
 // Il2CppName: <ResetPbObjectWithMeshFilter>b__2_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Color> (UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::*)(UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::$ResetPbObjectWithMeshFilter$b__2_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Color> (UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::*)(::UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::$ResetPbObjectWithMeshFilter$b__2_1)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c*), "<ResetPbObjectWithMeshFilter>b__2_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -169,7 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::$ResetPbObjectWithMeshFilter$b__2_2
 // Il2CppName: <ResetPbObjectWithMeshFilter>b__2_2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector2> (UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::*)(UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::$ResetPbObjectWithMeshFilter$b__2_2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Vector2> (UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::*)(::UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::$ResetPbObjectWithMeshFilter$b__2_2)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c*), "<ResetPbObjectWithMeshFilter>b__2_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});

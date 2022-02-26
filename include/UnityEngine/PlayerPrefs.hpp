@@ -13,8 +13,8 @@ namespace UnityEngine {
   class PlayerPrefs;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::PlayerPrefs);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PlayerPrefs*, "UnityEngine", "PlayerPrefs");
+NEED_NO_BOX(::UnityEngine::PlayerPrefs);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerPrefs*, "UnityEngine", "PlayerPrefs");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10

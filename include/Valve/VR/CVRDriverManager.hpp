@@ -27,8 +27,8 @@ namespace Valve::VR {
   class CVRDriverManager;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Valve::VR::CVRDriverManager);
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRDriverManager*, "Valve.VR", "CVRDriverManager");
+NEED_NO_BOX(::Valve::VR::CVRDriverManager);
+DEFINE_IL2CPP_ARG_TYPE(::Valve::VR::CVRDriverManager*, "Valve.VR", "CVRDriverManager");
 // Type namespace: Valve.VR
 namespace Valve::VR {
   // Size: 0x20
@@ -49,21 +49,21 @@ namespace Valve::VR {
     // private Valve.VR.IVRDriverManager FnTable
     // Size: 0x10
     // Offset: 0x10
-    Valve::VR::IVRDriverManager FnTable;
+    ::Valve::VR::IVRDriverManager FnTable;
     // Field size check
-    static_assert(sizeof(Valve::VR::IVRDriverManager) == 0x10);
+    static_assert(sizeof(::Valve::VR::IVRDriverManager) == 0x10);
     public:
-    // Creating conversion operator: operator Valve::VR::IVRDriverManager
-    constexpr operator Valve::VR::IVRDriverManager() const noexcept {
+    // Creating conversion operator: operator ::Valve::VR::IVRDriverManager
+    constexpr operator ::Valve::VR::IVRDriverManager() const noexcept {
       return FnTable;
     }
     // Get instance field reference: private Valve.VR.IVRDriverManager FnTable
-    Valve::VR::IVRDriverManager& dyn_FnTable();
+    ::Valve::VR::IVRDriverManager& dyn_FnTable();
     // System.Void .ctor(System.IntPtr pInterface)
     // Offset: 0x1AFA54C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CVRDriverManager* New_ctor(System::IntPtr pInterface) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::CVRDriverManager::.ctor");
+    static CVRDriverManager* New_ctor(::System::IntPtr pInterface) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Valve::VR::CVRDriverManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRDriverManager*, creationType>(pInterface)));
     }
     // public System.UInt32 GetDriverCount()
@@ -71,10 +71,10 @@ namespace Valve::VR {
     uint GetDriverCount();
     // public System.UInt32 GetDriverName(System.UInt32 nDriver, System.Text.StringBuilder pchValue, System.UInt32 unBufferSize)
     // Offset: 0x1AFA668
-    uint GetDriverName(uint nDriver, System::Text::StringBuilder* pchValue, uint unBufferSize);
+    uint GetDriverName(uint nDriver, ::System::Text::StringBuilder* pchValue, uint unBufferSize);
   }; // Valve.VR.CVRDriverManager
   #pragma pack(pop)
-  static check_size<sizeof(CVRDriverManager), 16 + sizeof(Valve::VR::IVRDriverManager)> __Valve_VR_CVRDriverManagerSizeCheck;
+  static check_size<sizeof(CVRDriverManager), 16 + sizeof(::Valve::VR::IVRDriverManager)> __Valve_VR_CVRDriverManagerSizeCheck;
   static_assert(sizeof(CVRDriverManager) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -93,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve
 // Writing MetadataGetter for method: Valve::VR::CVRDriverManager::GetDriverName
 // Il2CppName: GetDriverName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::CVRDriverManager::*)(uint, System::Text::StringBuilder*, uint)>(&Valve::VR::CVRDriverManager::GetDriverName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::CVRDriverManager::*)(uint, ::System::Text::StringBuilder*, uint)>(&Valve::VR::CVRDriverManager::GetDriverName)> {
   static const MethodInfo* get() {
     static auto* nDriver = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* pchValue = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;

@@ -15,8 +15,8 @@ namespace System::Security::Cryptography {
   class CryptoConfig;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Security::Cryptography::CryptoConfig);
-DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::CryptoConfig*, "System.Security.Cryptography", "CryptoConfig");
+NEED_NO_BOX(::System::Security::Cryptography::CryptoConfig);
+DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::CryptoConfig*, "System.Security.Cryptography", "CryptoConfig");
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {
   // Size: 0x10

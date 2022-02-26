@@ -21,8 +21,8 @@ namespace HMUI {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HMUI::StackedController::$$c);
-DEFINE_IL2CPP_ARG_TYPE(HMUI::StackedController::$$c*, "HMUI", "StackedController/<>c");
+NEED_NO_BOX(::HMUI::StackedController::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::HMUI::StackedController::$$c*, "HMUI", "StackedController/<>c");
 // Type namespace: HMUI
 namespace HMUI {
   // Size: 0x10
@@ -33,22 +33,22 @@ namespace HMUI {
   class StackedController::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly HMUI.StackedController/HMUI.<>c <>9
-    static HMUI::StackedController::$$c* _get_$$9();
+    static ::HMUI::StackedController::$$c* _get_$$9();
     // Set static field: static public readonly HMUI.StackedController/HMUI.<>c <>9
-    static void _set_$$9(HMUI::StackedController::$$c* value);
+    static void _set_$$9(::HMUI::StackedController::$$c* value);
     // static private System.Void .cctor()
     // Offset: 0x16B1B24
     static void _cctor();
     // System.Void <PushViewController>g__AnimationLayouter|3_0(System.Single t, HMUI.ViewController[] viewControllers)
     // Offset: 0x16B1B90
-    void $PushViewController$g__AnimationLayouter_3_0(float t, ::ArrayW<HMUI::ViewController*> viewControllers);
+    void $PushViewController$g__AnimationLayouter_3_0(float t, ::ArrayW<::HMUI::ViewController*> viewControllers);
     // public System.Void .ctor()
     // Offset: 0x16B1B88
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StackedController::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::StackedController::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::StackedController::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StackedController::$$c*, creationType>()));
     }
   }; // HMUI.StackedController/HMUI.<>c
@@ -66,7 +66,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: HMUI::StackedController::$$c::$PushViewController$g__AnimationLayouter_3_0
 // Il2CppName: <PushViewController>g__AnimationLayouter|3_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::StackedController::$$c::*)(float, ::ArrayW<HMUI::ViewController*>)>(&HMUI::StackedController::$$c::$PushViewController$g__AnimationLayouter_3_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::StackedController::$$c::*)(float, ::ArrayW<::HMUI::ViewController*>)>(&HMUI::StackedController::$$c::$PushViewController$g__AnimationLayouter_3_0)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* viewControllers = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("HMUI", "ViewController"), 1)->byval_arg;

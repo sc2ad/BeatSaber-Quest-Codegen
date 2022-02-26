@@ -23,8 +23,8 @@ namespace GlobalNamespace {
   class BeatmapEventCallbackData;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BeatmapEventCallbackData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapEventCallbackData*, "", "BeatmapEventCallbackData");
+NEED_NO_BOX(::GlobalNamespace::BeatmapEventCallbackData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapEventCallbackData*, "", "BeatmapEventCallbackData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -45,9 +45,9 @@ namespace GlobalNamespace {
     // public readonly BeatmapEventCallback callback
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::BeatmapEventCallback* callback;
+    ::GlobalNamespace::BeatmapEventCallback* callback;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::BeatmapEventCallback*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::BeatmapEventCallback*) == 0x8);
     // public System.Single aheadTime
     // Size: 0x4
     // Offset: 0x18
@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public readonly BeatmapEventCallback callback
-    GlobalNamespace::BeatmapEventCallback*& dyn_callback();
+    ::GlobalNamespace::BeatmapEventCallback*& dyn_callback();
     // Get instance field reference: public System.Single aheadTime
     float& dyn_aheadTime();
     // Get instance field reference: public System.Int32 nextEventIndex
@@ -70,8 +70,8 @@ namespace GlobalNamespace {
     // public System.Void .ctor(BeatmapEventCallback callback, System.Single aheadTime)
     // Offset: 0x14BE24C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BeatmapEventCallbackData* New_ctor(GlobalNamespace::BeatmapEventCallback* callback, float aheadTime) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapEventCallbackData::.ctor");
+    static BeatmapEventCallbackData* New_ctor(::GlobalNamespace::BeatmapEventCallback* callback, float aheadTime) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapEventCallbackData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapEventCallbackData*, creationType>(callback, aheadTime)));
     }
   }; // BeatmapEventCallbackData

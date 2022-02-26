@@ -19,8 +19,8 @@ namespace System::Runtime::Remoting::Messaging {
   class IInternalMessage;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Remoting::Messaging::IInternalMessage);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::IInternalMessage*, "System.Runtime.Remoting.Messaging", "IInternalMessage");
+NEED_NO_BOX(::System::Runtime::Remoting::Messaging::IInternalMessage);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Messaging::IInternalMessage*, "System.Runtime.Remoting.Messaging", "IInternalMessage");
 // Type namespace: System.Runtime.Remoting.Messaging
 namespace System::Runtime::Remoting::Messaging {
   // Size: 0x10
@@ -31,10 +31,10 @@ namespace System::Runtime::Remoting::Messaging {
     public:
     // public System.Runtime.Remoting.Identity get_TargetIdentity()
     // Offset: 0xFFFFFFFF
-    System::Runtime::Remoting::Identity* get_TargetIdentity();
+    ::System::Runtime::Remoting::Identity* get_TargetIdentity();
     // public System.Void set_TargetIdentity(System.Runtime.Remoting.Identity value)
     // Offset: 0xFFFFFFFF
-    void set_TargetIdentity(System::Runtime::Remoting::Identity* value);
+    void set_TargetIdentity(::System::Runtime::Remoting::Identity* value);
     // public System.String get_Uri()
     // Offset: 0xFFFFFFFF
     ::StringW get_Uri();
@@ -48,7 +48,7 @@ namespace System::Runtime::Remoting::Messaging {
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::IInternalMessage::get_TargetIdentity
 // Il2CppName: get_TargetIdentity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Identity* (System::Runtime::Remoting::Messaging::IInternalMessage::*)()>(&System::Runtime::Remoting::Messaging::IInternalMessage::get_TargetIdentity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Identity* (System::Runtime::Remoting::Messaging::IInternalMessage::*)()>(&System::Runtime::Remoting::Messaging::IInternalMessage::get_TargetIdentity)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::IInternalMessage*), "get_TargetIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -56,7 +56,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::IInternalMessage::set_TargetIdentity
 // Il2CppName: set_TargetIdentity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::IInternalMessage::*)(System::Runtime::Remoting::Identity*)>(&System::Runtime::Remoting::Messaging::IInternalMessage::set_TargetIdentity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::IInternalMessage::*)(::System::Runtime::Remoting::Identity*)>(&System::Runtime::Remoting::Messaging::IInternalMessage::set_TargetIdentity)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting", "Identity")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::IInternalMessage*), "set_TargetIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

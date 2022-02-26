@@ -16,8 +16,8 @@ namespace System::Net::Sockets {
   class LingerOption;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::Sockets::LingerOption);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::LingerOption*, "System.Net.Sockets", "LingerOption");
+NEED_NO_BOX(::System::Net::Sockets::LingerOption);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::Sockets::LingerOption*, "System.Net.Sockets", "LingerOption");
 // Type namespace: System.Net.Sockets
 namespace System::Net::Sockets {
   // Size: 0x18
@@ -64,7 +64,7 @@ namespace System::Net::Sockets {
     // Offset: 0x17B68EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LingerOption* New_ctor(bool enable, int seconds) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Sockets::LingerOption::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Sockets::LingerOption::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LingerOption*, creationType>(enable, seconds)));
     }
   }; // System.Net.Sockets.LingerOption

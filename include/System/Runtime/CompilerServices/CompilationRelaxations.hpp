@@ -14,7 +14,7 @@ namespace System::Runtime::CompilerServices {
   struct CompilationRelaxations;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::CompilationRelaxations, "System.Runtime.CompilerServices", "CompilationRelaxations");
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::CompilerServices::CompilationRelaxations, "System.Runtime.CompilerServices", "CompilationRelaxations");
 // Type namespace: System.Runtime.CompilerServices
 namespace System::Runtime::CompilerServices {
   // Size: 0x4
@@ -23,7 +23,7 @@ namespace System::Runtime::CompilerServices {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: 118B300
   // [FlagsAttribute] Offset: FFFFFFFF
-  struct CompilationRelaxations/*, public System::Enum*/ {
+  struct CompilationRelaxations/*, public ::System::Enum*/ {
     public:
     public:
     // public System.Int32 value__
@@ -35,9 +35,9 @@ namespace System::Runtime::CompilerServices {
     public:
     // Creating value type constructor for type: CompilationRelaxations
     constexpr CompilationRelaxations(int value_ = {}) noexcept : value{value_} {}
-    // Creating interface conversion operator: operator System::Enum
-    operator System::Enum() noexcept {
-      return *reinterpret_cast<System::Enum*>(this);
+    // Creating interface conversion operator: operator ::System::Enum
+    operator ::System::Enum() noexcept {
+      return *reinterpret_cast<::System::Enum*>(this);
     }
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
@@ -46,9 +46,9 @@ namespace System::Runtime::CompilerServices {
     // static field const value: static public System.Runtime.CompilerServices.CompilationRelaxations NoStringInterning
     static constexpr const int NoStringInterning = 8;
     // Get static field: static public System.Runtime.CompilerServices.CompilationRelaxations NoStringInterning
-    static System::Runtime::CompilerServices::CompilationRelaxations _get_NoStringInterning();
+    static ::System::Runtime::CompilerServices::CompilationRelaxations _get_NoStringInterning();
     // Set static field: static public System.Runtime.CompilerServices.CompilationRelaxations NoStringInterning
-    static void _set_NoStringInterning(System::Runtime::CompilerServices::CompilationRelaxations value);
+    static void _set_NoStringInterning(::System::Runtime::CompilerServices::CompilationRelaxations value);
     // Get instance field reference: public System.Int32 value__
     int& dyn_value__();
   }; // System.Runtime.CompilerServices.CompilationRelaxations

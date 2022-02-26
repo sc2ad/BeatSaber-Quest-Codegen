@@ -22,8 +22,8 @@ namespace UnityEngine {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::FBBIKHeadEffector::BendBone);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FBBIKHeadEffector::BendBone*, "RootMotion.FinalIK", "FBBIKHeadEffector/BendBone");
+NEED_NO_BOX(::RootMotion::FinalIK::FBBIKHeadEffector::BendBone);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::FBBIKHeadEffector::BendBone*, "RootMotion.FinalIK", "FBBIKHeadEffector/BendBone");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x2C
@@ -45,9 +45,9 @@ namespace RootMotion::FinalIK {
     // public UnityEngine.Transform transform
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::Transform* transform;
+    ::UnityEngine::Transform* transform;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // [TooltipAttribute] Offset: 0x12670A0
     // [RangeAttribute] Offset: 0x12670A0
     // public System.Single weight
@@ -59,21 +59,21 @@ namespace RootMotion::FinalIK {
     // private UnityEngine.Quaternion defaultLocalRotation
     // Size: 0x10
     // Offset: 0x1C
-    UnityEngine::Quaternion defaultLocalRotation;
+    ::UnityEngine::Quaternion defaultLocalRotation;
     // Field size check
-    static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    static_assert(sizeof(::UnityEngine::Quaternion) == 0x10);
     public:
     // Get instance field reference: public UnityEngine.Transform transform
-    UnityEngine::Transform*& dyn_transform();
+    ::UnityEngine::Transform*& dyn_transform();
     // Get instance field reference: public System.Single weight
     float& dyn_weight();
     // Get instance field reference: private UnityEngine.Quaternion defaultLocalRotation
-    UnityEngine::Quaternion& dyn_defaultLocalRotation();
+    ::UnityEngine::Quaternion& dyn_defaultLocalRotation();
     // public System.Void .ctor(UnityEngine.Transform transform, System.Single weight)
     // Offset: 0x222FD5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static FBBIKHeadEffector::BendBone* New_ctor(UnityEngine::Transform* transform, float weight) {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::FBBIKHeadEffector::BendBone::.ctor");
+    static FBBIKHeadEffector::BendBone* New_ctor(::UnityEngine::Transform* transform, float weight) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::FBBIKHeadEffector::BendBone::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FBBIKHeadEffector::BendBone*, creationType>(transform, weight)));
     }
     // public System.Void StoreDefaultLocalState()
@@ -88,12 +88,12 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FBBIKHeadEffector::BendBone* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::FBBIKHeadEffector::BendBone::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::FBBIKHeadEffector::BendBone::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FBBIKHeadEffector::BendBone*, creationType>()));
     }
   }; // RootMotion.FinalIK.FBBIKHeadEffector/RootMotion.FinalIK.BendBone
   #pragma pack(pop)
-  static check_size<sizeof(FBBIKHeadEffector::BendBone), 28 + sizeof(UnityEngine::Quaternion)> __RootMotion_FinalIK_FBBIKHeadEffector_BendBoneSizeCheck;
+  static check_size<sizeof(FBBIKHeadEffector::BendBone), 28 + sizeof(::UnityEngine::Quaternion)> __RootMotion_FinalIK_FBBIKHeadEffector_BendBoneSizeCheck;
   static_assert(sizeof(FBBIKHeadEffector::BendBone) == 0x2C);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

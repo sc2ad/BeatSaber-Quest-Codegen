@@ -12,8 +12,8 @@ namespace UnityEngine::Rendering {
   class SplashScreen;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Rendering::SplashScreen);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::SplashScreen*, "UnityEngine.Rendering", "SplashScreen");
+NEED_NO_BOX(::UnityEngine::Rendering::SplashScreen);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::SplashScreen*, "UnityEngine.Rendering", "SplashScreen");
 // Type namespace: UnityEngine.Rendering
 namespace UnityEngine::Rendering {
   // Size: 0x10

@@ -29,8 +29,8 @@ namespace UnityEngine::ProBuilder {
   class BuiltinMaterials;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::BuiltinMaterials);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::BuiltinMaterials*, "UnityEngine.ProBuilder", "BuiltinMaterials");
+NEED_NO_BOX(::UnityEngine::ProBuilder::BuiltinMaterials);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::BuiltinMaterials*, "UnityEngine.ProBuilder", "BuiltinMaterials");
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
   // Size: 0x10
@@ -80,45 +80,45 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public System.String dotShader
     static void _set_dotShader(::StringW value);
     // Get static field: static readonly UnityEngine.Color previewColor
-    static UnityEngine::Color _get_previewColor();
+    static ::UnityEngine::Color _get_previewColor();
     // Set static field: static readonly UnityEngine.Color previewColor
-    static void _set_previewColor(UnityEngine::Color value);
+    static void _set_previewColor(::UnityEngine::Color value);
     // Get static field: static private UnityEngine.Shader s_SelectionPickerShader
-    static UnityEngine::Shader* _get_s_SelectionPickerShader();
+    static ::UnityEngine::Shader* _get_s_SelectionPickerShader();
     // Set static field: static private UnityEngine.Shader s_SelectionPickerShader
-    static void _set_s_SelectionPickerShader(UnityEngine::Shader* value);
+    static void _set_s_SelectionPickerShader(::UnityEngine::Shader* value);
     // Get static field: static private System.Boolean s_GeometryShadersSupported
     static bool _get_s_GeometryShadersSupported();
     // Set static field: static private System.Boolean s_GeometryShadersSupported
     static void _set_s_GeometryShadersSupported(bool value);
     // Get static field: static private UnityEngine.Material s_DefaultMaterial
-    static UnityEngine::Material* _get_s_DefaultMaterial();
+    static ::UnityEngine::Material* _get_s_DefaultMaterial();
     // Set static field: static private UnityEngine.Material s_DefaultMaterial
-    static void _set_s_DefaultMaterial(UnityEngine::Material* value);
+    static void _set_s_DefaultMaterial(::UnityEngine::Material* value);
     // Get static field: static private UnityEngine.Material s_FacePickerMaterial
-    static UnityEngine::Material* _get_s_FacePickerMaterial();
+    static ::UnityEngine::Material* _get_s_FacePickerMaterial();
     // Set static field: static private UnityEngine.Material s_FacePickerMaterial
-    static void _set_s_FacePickerMaterial(UnityEngine::Material* value);
+    static void _set_s_FacePickerMaterial(::UnityEngine::Material* value);
     // Get static field: static private UnityEngine.Material s_VertexPickerMaterial
-    static UnityEngine::Material* _get_s_VertexPickerMaterial();
+    static ::UnityEngine::Material* _get_s_VertexPickerMaterial();
     // Set static field: static private UnityEngine.Material s_VertexPickerMaterial
-    static void _set_s_VertexPickerMaterial(UnityEngine::Material* value);
+    static void _set_s_VertexPickerMaterial(::UnityEngine::Material* value);
     // Get static field: static private UnityEngine.Material s_EdgePickerMaterial
-    static UnityEngine::Material* _get_s_EdgePickerMaterial();
+    static ::UnityEngine::Material* _get_s_EdgePickerMaterial();
     // Set static field: static private UnityEngine.Material s_EdgePickerMaterial
-    static void _set_s_EdgePickerMaterial(UnityEngine::Material* value);
+    static void _set_s_EdgePickerMaterial(::UnityEngine::Material* value);
     // Get static field: static private UnityEngine.Material s_UnityDefaultDiffuse
-    static UnityEngine::Material* _get_s_UnityDefaultDiffuse();
+    static ::UnityEngine::Material* _get_s_UnityDefaultDiffuse();
     // Set static field: static private UnityEngine.Material s_UnityDefaultDiffuse
-    static void _set_s_UnityDefaultDiffuse(UnityEngine::Material* value);
+    static void _set_s_UnityDefaultDiffuse(::UnityEngine::Material* value);
     // Get static field: static private UnityEngine.Material s_UnlitVertexColorMaterial
-    static UnityEngine::Material* _get_s_UnlitVertexColorMaterial();
+    static ::UnityEngine::Material* _get_s_UnlitVertexColorMaterial();
     // Set static field: static private UnityEngine.Material s_UnlitVertexColorMaterial
-    static void _set_s_UnlitVertexColorMaterial(UnityEngine::Material* value);
+    static void _set_s_UnlitVertexColorMaterial(::UnityEngine::Material* value);
     // Get static field: static private UnityEngine.Material s_ShapePreviewMaterial
-    static UnityEngine::Material* _get_s_ShapePreviewMaterial();
+    static ::UnityEngine::Material* _get_s_ShapePreviewMaterial();
     // Set static field: static private UnityEngine.Material s_ShapePreviewMaterial
-    static void _set_s_ShapePreviewMaterial(UnityEngine::Material* value);
+    static void _set_s_ShapePreviewMaterial(::UnityEngine::Material* value);
     // Get static field: static private System.String k_EdgePickerMaterial
     static ::StringW _get_k_EdgePickerMaterial();
     // Set static field: static private System.String k_EdgePickerMaterial
@@ -148,34 +148,34 @@ namespace UnityEngine::ProBuilder {
     static bool get_geometryShadersSupported();
     // static public UnityEngine.Material get_defaultMaterial()
     // Offset: 0x25038C0
-    static UnityEngine::Material* get_defaultMaterial();
+    static ::UnityEngine::Material* get_defaultMaterial();
     // static UnityEngine.Shader get_selectionPickerShader()
     // Offset: 0x250392C
-    static UnityEngine::Shader* get_selectionPickerShader();
+    static ::UnityEngine::Shader* get_selectionPickerShader();
     // static UnityEngine.Material get_facePickerMaterial()
     // Offset: 0x2503998
-    static UnityEngine::Material* get_facePickerMaterial();
+    static ::UnityEngine::Material* get_facePickerMaterial();
     // static UnityEngine.Material get_vertexPickerMaterial()
     // Offset: 0x2503A04
-    static UnityEngine::Material* get_vertexPickerMaterial();
+    static ::UnityEngine::Material* get_vertexPickerMaterial();
     // static UnityEngine.Material get_edgePickerMaterial()
     // Offset: 0x2503A70
-    static UnityEngine::Material* get_edgePickerMaterial();
+    static ::UnityEngine::Material* get_edgePickerMaterial();
     // static UnityEngine.Material get_triggerMaterial()
     // Offset: 0x2503ADC
-    static UnityEngine::Material* get_triggerMaterial();
+    static ::UnityEngine::Material* get_triggerMaterial();
     // static UnityEngine.Material get_colliderMaterial()
     // Offset: 0x2503BCC
-    static UnityEngine::Material* get_colliderMaterial();
+    static ::UnityEngine::Material* get_colliderMaterial();
     // static UnityEngine.Material get_noDrawMaterial()
     // Offset: 0x2503CBC
-    static UnityEngine::Material* get_noDrawMaterial();
+    static ::UnityEngine::Material* get_noDrawMaterial();
     // static UnityEngine.Material get_unlitVertexColor()
     // Offset: 0x2504040
-    static UnityEngine::Material* get_unlitVertexColor();
+    static ::UnityEngine::Material* get_unlitVertexColor();
     // static UnityEngine.Material get_ShapePreviewMaterial()
     // Offset: 0x25040AC
-    static UnityEngine::Material* get_ShapePreviewMaterial();
+    static ::UnityEngine::Material* get_ShapePreviewMaterial();
     // static private System.Void .cctor()
     // Offset: 0x2504118
     static void _cctor();
@@ -184,10 +184,10 @@ namespace UnityEngine::ProBuilder {
     static void Init();
     // static UnityEngine.Material GetLegacyDiffuse()
     // Offset: 0x2503DAC
-    static UnityEngine::Material* GetLegacyDiffuse();
+    static ::UnityEngine::Material* GetLegacyDiffuse();
     // static UnityEngine.Material GetDefaultMaterial()
     // Offset: 0x2503670
-    static UnityEngine::Material* GetDefaultMaterial();
+    static ::UnityEngine::Material* GetDefaultMaterial();
   }; // UnityEngine.ProBuilder.BuiltinMaterials
   #pragma pack(pop)
 }
@@ -203,7 +203,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::BuiltinMaterials::get_defaultMaterial
 // Il2CppName: get_defaultMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&UnityEngine::ProBuilder::BuiltinMaterials::get_defaultMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Material* (*)()>(&UnityEngine::ProBuilder::BuiltinMaterials::get_defaultMaterial)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::BuiltinMaterials*), "get_defaultMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -211,7 +211,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::BuiltinMaterials::get_selectionPickerShader
 // Il2CppName: get_selectionPickerShader
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Shader* (*)()>(&UnityEngine::ProBuilder::BuiltinMaterials::get_selectionPickerShader)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Shader* (*)()>(&UnityEngine::ProBuilder::BuiltinMaterials::get_selectionPickerShader)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::BuiltinMaterials*), "get_selectionPickerShader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -219,7 +219,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::BuiltinMaterials::get_facePickerMaterial
 // Il2CppName: get_facePickerMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&UnityEngine::ProBuilder::BuiltinMaterials::get_facePickerMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Material* (*)()>(&UnityEngine::ProBuilder::BuiltinMaterials::get_facePickerMaterial)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::BuiltinMaterials*), "get_facePickerMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -227,7 +227,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::BuiltinMaterials::get_vertexPickerMaterial
 // Il2CppName: get_vertexPickerMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&UnityEngine::ProBuilder::BuiltinMaterials::get_vertexPickerMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Material* (*)()>(&UnityEngine::ProBuilder::BuiltinMaterials::get_vertexPickerMaterial)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::BuiltinMaterials*), "get_vertexPickerMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -235,7 +235,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::BuiltinMaterials::get_edgePickerMaterial
 // Il2CppName: get_edgePickerMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&UnityEngine::ProBuilder::BuiltinMaterials::get_edgePickerMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Material* (*)()>(&UnityEngine::ProBuilder::BuiltinMaterials::get_edgePickerMaterial)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::BuiltinMaterials*), "get_edgePickerMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -243,7 +243,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::BuiltinMaterials::get_triggerMaterial
 // Il2CppName: get_triggerMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&UnityEngine::ProBuilder::BuiltinMaterials::get_triggerMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Material* (*)()>(&UnityEngine::ProBuilder::BuiltinMaterials::get_triggerMaterial)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::BuiltinMaterials*), "get_triggerMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -251,7 +251,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::BuiltinMaterials::get_colliderMaterial
 // Il2CppName: get_colliderMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&UnityEngine::ProBuilder::BuiltinMaterials::get_colliderMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Material* (*)()>(&UnityEngine::ProBuilder::BuiltinMaterials::get_colliderMaterial)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::BuiltinMaterials*), "get_colliderMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -259,7 +259,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::BuiltinMaterials::get_noDrawMaterial
 // Il2CppName: get_noDrawMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&UnityEngine::ProBuilder::BuiltinMaterials::get_noDrawMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Material* (*)()>(&UnityEngine::ProBuilder::BuiltinMaterials::get_noDrawMaterial)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::BuiltinMaterials*), "get_noDrawMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -267,7 +267,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::BuiltinMaterials::get_unlitVertexColor
 // Il2CppName: get_unlitVertexColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&UnityEngine::ProBuilder::BuiltinMaterials::get_unlitVertexColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Material* (*)()>(&UnityEngine::ProBuilder::BuiltinMaterials::get_unlitVertexColor)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::BuiltinMaterials*), "get_unlitVertexColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -275,7 +275,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::BuiltinMaterials::get_ShapePreviewMaterial
 // Il2CppName: get_ShapePreviewMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&UnityEngine::ProBuilder::BuiltinMaterials::get_ShapePreviewMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Material* (*)()>(&UnityEngine::ProBuilder::BuiltinMaterials::get_ShapePreviewMaterial)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::BuiltinMaterials*), "get_ShapePreviewMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -299,7 +299,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::BuiltinMaterials::GetLegacyDiffuse
 // Il2CppName: GetLegacyDiffuse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&UnityEngine::ProBuilder::BuiltinMaterials::GetLegacyDiffuse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Material* (*)()>(&UnityEngine::ProBuilder::BuiltinMaterials::GetLegacyDiffuse)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::BuiltinMaterials*), "GetLegacyDiffuse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -307,7 +307,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::BuiltinMaterials::GetDefaultMaterial
 // Il2CppName: GetDefaultMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&UnityEngine::ProBuilder::BuiltinMaterials::GetDefaultMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Material* (*)()>(&UnityEngine::ProBuilder::BuiltinMaterials::GetDefaultMaterial)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::BuiltinMaterials*), "GetDefaultMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

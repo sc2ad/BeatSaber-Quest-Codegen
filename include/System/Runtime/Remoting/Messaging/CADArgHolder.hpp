@@ -16,8 +16,8 @@ namespace System::Runtime::Remoting::Messaging {
   class CADArgHolder;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Remoting::Messaging::CADArgHolder);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CADArgHolder*, "System.Runtime.Remoting.Messaging", "CADArgHolder");
+NEED_NO_BOX(::System::Runtime::Remoting::Messaging::CADArgHolder);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Messaging::CADArgHolder*, "System.Runtime.Remoting.Messaging", "CADArgHolder");
 // Type namespace: System.Runtime.Remoting.Messaging
 namespace System::Runtime::Remoting::Messaging {
   // Size: 0x14
@@ -52,7 +52,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Offset: 0x1B8530C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CADArgHolder* New_ctor(int i) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::CADArgHolder::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::Messaging::CADArgHolder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CADArgHolder*, creationType>(i)));
     }
   }; // System.Runtime.Remoting.Messaging.CADArgHolder

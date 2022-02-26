@@ -33,7 +33,7 @@ namespace System::Threading {
   struct CancellationToken;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::CancellationToken, "System.Threading", "CancellationToken");
+DEFINE_IL2CPP_ARG_TYPE(::System::Threading::CancellationToken, "System.Threading", "CancellationToken");
 // Type namespace: System.Threading
 namespace System::Threading {
   // Size: 0x8
@@ -43,35 +43,35 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: 11893E4
   // [DebuggerDisplayAttribute] Offset: 11893E4
-  struct CancellationToken/*, public System::ValueType*/ {
+  struct CancellationToken/*, public ::System::ValueType*/ {
     public:
     public:
     // private System.Threading.CancellationTokenSource m_source
     // Size: 0x8
     // Offset: 0x0
-    System::Threading::CancellationTokenSource* m_source;
+    ::System::Threading::CancellationTokenSource* m_source;
     // Field size check
-    static_assert(sizeof(System::Threading::CancellationTokenSource*) == 0x8);
+    static_assert(sizeof(::System::Threading::CancellationTokenSource*) == 0x8);
     public:
     // Creating value type constructor for type: CancellationToken
-    constexpr CancellationToken(System::Threading::CancellationTokenSource* m_source_ = {}) noexcept : m_source{m_source_} {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    constexpr CancellationToken(::System::Threading::CancellationTokenSource* m_source_ = {}) noexcept : m_source{m_source_} {}
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
-    // Creating conversion operator: operator System::Threading::CancellationTokenSource*
-    constexpr operator System::Threading::CancellationTokenSource*() const noexcept {
+    // Creating conversion operator: operator ::System::Threading::CancellationTokenSource*
+    constexpr operator ::System::Threading::CancellationTokenSource*() const noexcept {
       return m_source;
     }
     // Get static field: static private readonly System.Action`1<System.Object> s_ActionToActionObjShunt
-    static System::Action_1<::Il2CppObject*>* _get_s_ActionToActionObjShunt();
+    static ::System::Action_1<::Il2CppObject*>* _get_s_ActionToActionObjShunt();
     // Set static field: static private readonly System.Action`1<System.Object> s_ActionToActionObjShunt
-    static void _set_s_ActionToActionObjShunt(System::Action_1<::Il2CppObject*>* value);
+    static void _set_s_ActionToActionObjShunt(::System::Action_1<::Il2CppObject*>* value);
     // Get instance field reference: private System.Threading.CancellationTokenSource m_source
-    System::Threading::CancellationTokenSource*& dyn_m_source();
+    ::System::Threading::CancellationTokenSource*& dyn_m_source();
     // static public System.Threading.CancellationToken get_None()
     // Offset: 0x1C29938
-    static System::Threading::CancellationToken get_None();
+    static ::System::Threading::CancellationToken get_None();
     // public System.Boolean get_IsCancellationRequested()
     // Offset: 0x1C29940
     bool get_IsCancellationRequested();
@@ -80,7 +80,7 @@ namespace System::Threading {
     bool get_CanBeCanceled();
     // System.Void .ctor(System.Threading.CancellationTokenSource source)
     // Offset: 0x1C29A00
-    // ABORTED: conflicts with another method.  CancellationToken(System::Threading::CancellationTokenSource* source);
+    // ABORTED: conflicts with another method.  CancellationToken(::System::Threading::CancellationTokenSource* source);
     // static private System.Void .cctor()
     // Offset: 0x1C2A670
     static void _cctor();
@@ -89,19 +89,19 @@ namespace System::Threading {
     static void ActionToActionObjShunt(::Il2CppObject* obj);
     // public System.Threading.CancellationTokenRegistration Register(System.Action callback)
     // Offset: 0x1C29A70
-    System::Threading::CancellationTokenRegistration Register(System::Action* callback);
+    ::System::Threading::CancellationTokenRegistration Register(::System::Action* callback);
     // public System.Threading.CancellationTokenRegistration Register(System.Action`1<System.Object> callback, System.Object state)
     // Offset: 0x1C29CAC
-    System::Threading::CancellationTokenRegistration Register(System::Action_1<::Il2CppObject*>* callback, ::Il2CppObject* state);
+    ::System::Threading::CancellationTokenRegistration Register(::System::Action_1<::Il2CppObject*>* callback, ::Il2CppObject* state);
     // System.Threading.CancellationTokenRegistration InternalRegisterWithoutEC(System.Action`1<System.Object> callback, System.Object state)
     // Offset: 0x1C29D60
-    System::Threading::CancellationTokenRegistration InternalRegisterWithoutEC(System::Action_1<::Il2CppObject*>* callback, ::Il2CppObject* state);
+    ::System::Threading::CancellationTokenRegistration InternalRegisterWithoutEC(::System::Action_1<::Il2CppObject*>* callback, ::Il2CppObject* state);
     // private System.Threading.CancellationTokenRegistration Register(System.Action`1<System.Object> callback, System.Object state, System.Boolean useSynchronizationContext, System.Boolean useExecutionContext)
     // Offset: 0x1C29B40
-    System::Threading::CancellationTokenRegistration Register(System::Action_1<::Il2CppObject*>* callback, ::Il2CppObject* state, bool useSynchronizationContext, bool useExecutionContext);
+    ::System::Threading::CancellationTokenRegistration Register(::System::Action_1<::Il2CppObject*>* callback, ::Il2CppObject* state, bool useSynchronizationContext, bool useExecutionContext);
     // public System.Boolean Equals(System.Threading.CancellationToken other)
     // Offset: 0x1C2A1F0
-    bool Equals(System::Threading::CancellationToken other);
+    bool Equals(::System::Threading::CancellationToken other);
     // public System.Void ThrowIfCancellationRequested()
     // Offset: 0x1C2A4AC
     void ThrowIfCancellationRequested();
@@ -126,20 +126,20 @@ namespace System::Threading {
     int GetHashCode();
   }; // System.Threading.CancellationToken
   #pragma pack(pop)
-  static check_size<sizeof(CancellationToken), 0 + sizeof(System::Threading::CancellationTokenSource*)> __System_Threading_CancellationTokenSizeCheck;
+  static check_size<sizeof(CancellationToken), 0 + sizeof(::System::Threading::CancellationTokenSource*)> __System_Threading_CancellationTokenSizeCheck;
   static_assert(sizeof(CancellationToken) == 0x8);
   // static public System.Boolean op_Equality(System.Threading.CancellationToken left, System.Threading.CancellationToken right)
   // Offset: 0x1C2A458
-  bool operator ==(const System::Threading::CancellationToken& left, const System::Threading::CancellationToken& right);
+  bool operator ==(const ::System::Threading::CancellationToken& left, const ::System::Threading::CancellationToken& right);
   // static public System.Boolean op_Inequality(System.Threading.CancellationToken left, System.Threading.CancellationToken right)
   // Offset: 0x1C2A480
-  bool operator !=(const System::Threading::CancellationToken& left, const System::Threading::CancellationToken& right);
+  bool operator !=(const ::System::Threading::CancellationToken& left, const ::System::Threading::CancellationToken& right);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::CancellationToken::get_None
 // Il2CppName: get_None
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::CancellationToken (*)()>(&System::Threading::CancellationToken::get_None)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::CancellationToken (*)()>(&System::Threading::CancellationToken::get_None)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::CancellationToken), "get_None", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -184,7 +184,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::Threading::CancellationToken::Register
 // Il2CppName: Register
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::CancellationTokenRegistration (System::Threading::CancellationToken::*)(System::Action*)>(&System::Threading::CancellationToken::Register)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::CancellationTokenRegistration (System::Threading::CancellationToken::*)(::System::Action*)>(&System::Threading::CancellationToken::Register)> {
   static const MethodInfo* get() {
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::CancellationToken), "Register", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{callback});
@@ -193,7 +193,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: System::Threading::CancellationToken::Register
 // Il2CppName: Register
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::CancellationTokenRegistration (System::Threading::CancellationToken::*)(System::Action_1<::Il2CppObject*>*, ::Il2CppObject*)>(&System::Threading::CancellationToken::Register)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::CancellationTokenRegistration (System::Threading::CancellationToken::*)(::System::Action_1<::Il2CppObject*>*, ::Il2CppObject*)>(&System::Threading::CancellationToken::Register)> {
   static const MethodInfo* get() {
     static auto* callback = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Object")})->byval_arg;
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -203,7 +203,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: System::Threading::CancellationToken::InternalRegisterWithoutEC
 // Il2CppName: InternalRegisterWithoutEC
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::CancellationTokenRegistration (System::Threading::CancellationToken::*)(System::Action_1<::Il2CppObject*>*, ::Il2CppObject*)>(&System::Threading::CancellationToken::InternalRegisterWithoutEC)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::CancellationTokenRegistration (System::Threading::CancellationToken::*)(::System::Action_1<::Il2CppObject*>*, ::Il2CppObject*)>(&System::Threading::CancellationToken::InternalRegisterWithoutEC)> {
   static const MethodInfo* get() {
     static auto* callback = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Object")})->byval_arg;
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -213,7 +213,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: System::Threading::CancellationToken::Register
 // Il2CppName: Register
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::CancellationTokenRegistration (System::Threading::CancellationToken::*)(System::Action_1<::Il2CppObject*>*, ::Il2CppObject*, bool, bool)>(&System::Threading::CancellationToken::Register)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::CancellationTokenRegistration (System::Threading::CancellationToken::*)(::System::Action_1<::Il2CppObject*>*, ::Il2CppObject*, bool, bool)>(&System::Threading::CancellationToken::Register)> {
   static const MethodInfo* get() {
     static auto* callback = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Object")})->byval_arg;
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -225,7 +225,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: System::Threading::CancellationToken::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::CancellationToken::*)(System::Threading::CancellationToken)>(&System::Threading::CancellationToken::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::CancellationToken::*)(::System::Threading::CancellationToken)>(&System::Threading::CancellationToken::Equals)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::CancellationToken), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});

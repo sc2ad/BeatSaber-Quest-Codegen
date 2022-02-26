@@ -48,8 +48,8 @@ namespace HoudiniEngineUnity {
   class HEU_EditorUtility;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_EditorUtility);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_EditorUtility*, "HoudiniEngineUnity", "HEU_EditorUtility");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_EditorUtility);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_EditorUtility*, "HoudiniEngineUnity", "HEU_EditorUtility");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x10
@@ -58,86 +58,86 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_EditorUtility : public ::Il2CppObject {
     public:
-    // Nested type: HoudiniEngineUnity::HEU_EditorUtility::HEU_ReplacePrefabOptions
+    // Nested type: ::HoudiniEngineUnity::HEU_EditorUtility::HEU_ReplacePrefabOptions
     struct HEU_ReplacePrefabOptions;
     // static public System.Void MarkSceneDirty()
     // Offset: 0x16B8BF0
     static void MarkSceneDirty();
     // static public System.Void SelectObject(UnityEngine.GameObject gameObject)
     // Offset: 0x16B8BF4
-    static void SelectObject(UnityEngine::GameObject* gameObject);
+    static void SelectObject(::UnityEngine::GameObject* gameObject);
     // static public System.Void SelectObjects(UnityEngine.GameObject[] gameObjects)
     // Offset: 0x16B8BF8
-    static void SelectObjects(::ArrayW<UnityEngine::GameObject*> gameObjects);
+    static void SelectObjects(::ArrayW<::UnityEngine::GameObject*> gameObjects);
     // static public UnityEngine.Vector3 GetSelectedObjectsMeanPosition()
     // Offset: 0x16B8BFC
-    static UnityEngine::Vector3 GetSelectedObjectsMeanPosition();
+    static ::UnityEngine::Vector3 GetSelectedObjectsMeanPosition();
     // static public UnityEngine.Matrix4x4 GetSelectedObjectsMeanTransform()
     // Offset: 0x16B8C5C
-    static UnityEngine::Matrix4x4 GetSelectedObjectsMeanTransform();
+    static ::UnityEngine::Matrix4x4 GetSelectedObjectsMeanTransform();
     // static public UnityEngine.GameObject SaveAsPrefabAsset(System.String path, UnityEngine.GameObject go)
     // Offset: 0x16B8CC4
-    static UnityEngine::GameObject* SaveAsPrefabAsset(::StringW path, UnityEngine::GameObject* go);
+    static ::UnityEngine::GameObject* SaveAsPrefabAsset(::StringW path, ::UnityEngine::GameObject* go);
     // static public System.Boolean PrefabIsAddedComponentOverride(UnityEngine.Component comp)
     // Offset: 0x16B8D18
-    static bool PrefabIsAddedComponentOverride(UnityEngine::Component* comp);
+    static bool PrefabIsAddedComponentOverride(::UnityEngine::Component* comp);
     // static public System.Boolean IsEditorPlaying()
     // Offset: 0x16B8D20
     static bool IsEditorPlaying();
     // static public UnityEngine.GameObject ReplacePrefab(UnityEngine.GameObject go, UnityEngine.Object targetPrefab, HoudiniEngineUnity.HEU_EditorUtility/HoudiniEngineUnity.HEU_ReplacePrefabOptions heuOptions)
     // Offset: 0x16B8D28
-    static UnityEngine::GameObject* ReplacePrefab(UnityEngine::GameObject* go, UnityEngine::Object* targetPrefab, HoudiniEngineUnity::HEU_EditorUtility::HEU_ReplacePrefabOptions heuOptions);
+    static ::UnityEngine::GameObject* ReplacePrefab(::UnityEngine::GameObject* go, ::UnityEngine::Object* targetPrefab, ::HoudiniEngineUnity::HEU_EditorUtility::HEU_ReplacePrefabOptions heuOptions);
     // static public System.Boolean IsPrefabInstance(UnityEngine.GameObject go)
     // Offset: 0x16B8D7C
-    static bool IsPrefabInstance(UnityEngine::GameObject* go);
+    static bool IsPrefabInstance(::UnityEngine::GameObject* go);
     // static public System.Boolean IsPrefabAsset(UnityEngine.GameObject go)
     // Offset: 0x16B8DD0
-    static bool IsPrefabAsset(UnityEngine::GameObject* go);
+    static bool IsPrefabAsset(::UnityEngine::GameObject* go);
     // static public System.Boolean IsEditingInPrefabMode(UnityEngine.GameObject obj)
     // Offset: 0x16B8E24
-    static bool IsEditingInPrefabMode(UnityEngine::GameObject* obj);
+    static bool IsEditingInPrefabMode(::UnityEngine::GameObject* obj);
     // static public System.Boolean IsDisconnectedPrefabInstance(UnityEngine.GameObject go)
     // Offset: 0x16B8E2C
-    static bool IsDisconnectedPrefabInstance(UnityEngine::GameObject* go);
+    static bool IsDisconnectedPrefabInstance(::UnityEngine::GameObject* go);
     // static public UnityEngine.Object GetPrefabAsset(UnityEngine.GameObject go)
     // Offset: 0x16B8E80
-    static UnityEngine::Object* GetPrefabAsset(UnityEngine::GameObject* go);
+    static ::UnityEngine::Object* GetPrefabAsset(::UnityEngine::GameObject* go);
     // static public System.String GetPrefabAssetPath(UnityEngine.Object obj)
     // Offset: 0x16B8ED4
-    static ::StringW GetPrefabAssetPath(UnityEngine::Object* obj);
+    static ::StringW GetPrefabAssetPath(::UnityEngine::Object* obj);
     // static public System.Void DisconnectPrefabInstance(UnityEngine.GameObject instance)
     // Offset: 0x16B8F28
-    static void DisconnectPrefabInstance(UnityEngine::GameObject* instance);
+    static void DisconnectPrefabInstance(::UnityEngine::GameObject* instance);
     // static public UnityEngine.Object InstantiatePrefab(UnityEngine.GameObject prefabOriginal)
     // Offset: 0x16B8F74
-    static UnityEngine::Object* InstantiatePrefab(UnityEngine::GameObject* prefabOriginal);
+    static ::UnityEngine::Object* InstantiatePrefab(::UnityEngine::GameObject* prefabOriginal);
     // static public UnityEngine.GameObject InstantiateGameObject(UnityEngine.GameObject sourceGameObject, UnityEngine.Transform parentTransform, System.Boolean instantiateInWorldSpace, System.Boolean bRegisterUndo)
     // Offset: 0x16B8FC8
-    static UnityEngine::GameObject* InstantiateGameObject(UnityEngine::GameObject* sourceGameObject, UnityEngine::Transform* parentTransform, bool instantiateInWorldSpace, bool bRegisterUndo);
+    static ::UnityEngine::GameObject* InstantiateGameObject(::UnityEngine::GameObject* sourceGameObject, ::UnityEngine::Transform* parentTransform, bool instantiateInWorldSpace, bool bRegisterUndo);
     // static public UnityEngine.Component AddComponent(UnityEngine.GameObject target, System.Boolean bRegisterUndo)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static UnityEngine::Component* AddComponent(UnityEngine::GameObject* target, bool bRegisterUndo) {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_EditorUtility::AddComponent");
+    static ::UnityEngine::Component* AddComponent(::UnityEngine::GameObject* target, bool bRegisterUndo) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_EditorUtility::AddComponent");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_EditorUtility", "AddComponent", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(target), ::il2cpp_utils::ExtractType(bRegisterUndo)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodRethrow<UnityEngine::Component*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, target, bRegisterUndo);
+      return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::Component*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, target, bRegisterUndo);
     }
     // static public System.Void UndoRecordObject(UnityEngine.Object objectToUndo, System.String name)
     // Offset: 0x16B9050
-    static void UndoRecordObject(UnityEngine::Object* objectToUndo, ::StringW name);
+    static void UndoRecordObject(::UnityEngine::Object* objectToUndo, ::StringW name);
     // static public System.Void UndoCollapseCurrentGroup()
     // Offset: 0x16B9054
     static void UndoCollapseCurrentGroup();
     // static public UnityEngine.Object[] CollectDependencies(UnityEngine.Object obj)
     // Offset: 0x16B9058
-    static ::ArrayW<UnityEngine::Object*> CollectDependencies(UnityEngine::Object* obj);
+    static ::ArrayW<::UnityEngine::Object*> CollectDependencies(::UnityEngine::Object* obj);
     // static public System.Boolean IsPersistant(UnityEngine.Object obj)
     // Offset: 0x16B90AC
-    static bool IsPersistant(UnityEngine::Object* obj);
+    static bool IsPersistant(::UnityEngine::Object* obj);
     // static public System.String GetUniqueNameForSibling(UnityEngine.Transform parentTransform, System.String name)
     // Offset: 0x16B9100
-    static ::StringW GetUniqueNameForSibling(UnityEngine::Transform* parentTransform, ::StringW name);
+    static ::StringW GetUniqueNameForSibling(::UnityEngine::Transform* parentTransform, ::StringW name);
     // static public System.Void DisplayProgressBar(System.String title, System.String info, System.Single progress)
     // Offset: 0x16B9154
     static void DisplayProgressBar(::StringW title, ::StringW info, float progress);
@@ -158,22 +158,22 @@ namespace HoudiniEngineUnity {
     static void RevealInFinder(::StringW path);
     // static public System.Void SetObjectDirtyForEditorUpdate(UnityEngine.Object obj)
     // Offset: 0x16B9318
-    static void SetObjectDirtyForEditorUpdate(UnityEngine::Object* obj);
+    static void SetObjectDirtyForEditorUpdate(::UnityEngine::Object* obj);
     // static public System.Void SetStatic(UnityEngine.GameObject go, System.Boolean bStatic, System.Boolean bIncludeChildren)
     // Offset: 0x16B931C
-    static void SetStatic(UnityEngine::GameObject* go, bool bStatic, bool bIncludeChildren);
+    static void SetStatic(::UnityEngine::GameObject* go, bool bStatic, bool bIncludeChildren);
     // static public System.Void SetIsHidden(UnityEngine.GameObject go, System.Boolean isHidden, System.Boolean bIncludeChildren)
     // Offset: 0x16B9320
-    static void SetIsHidden(UnityEngine::GameObject* go, bool isHidden, bool bIncludeChildren);
+    static void SetIsHidden(::UnityEngine::GameObject* go, bool isHidden, bool bIncludeChildren);
     // static public UnityEngine.GameObject[] GetSelectedObjects()
     // Offset: 0x16B9324
-    static ::ArrayW<UnityEngine::GameObject*> GetSelectedObjects();
+    static ::ArrayW<::UnityEngine::GameObject*> GetSelectedObjects();
     // static public HoudiniEngineUnity.HEU_HoudiniAssetRoot[] GetSelectedAssetRoots()
     // Offset: 0x16B932C
-    static ::ArrayW<HoudiniEngineUnity::HEU_HoudiniAssetRoot*> GetSelectedAssetRoots();
+    static ::ArrayW<::HoudiniEngineUnity::HEU_HoudiniAssetRoot*> GetSelectedAssetRoots();
     // static public HoudiniEngineUnity.HEU_HoudiniAssetRoot[] GetAllAssetRoots()
     // Offset: 0x16B93A4
-    static ::ArrayW<HoudiniEngineUnity::HEU_HoudiniAssetRoot*> GetAllAssetRoots();
+    static ::ArrayW<::HoudiniEngineUnity::HEU_HoudiniAssetRoot*> GetAllAssetRoots();
     // static public System.Void CookSelected()
     // Offset: 0x16B940C
     static void CookSelected();
@@ -182,7 +182,7 @@ namespace HoudiniEngineUnity {
     static void CookAll();
     // static public System.Void CookAssets(HoudiniEngineUnity.HEU_HoudiniAssetRoot[] rootAssets)
     // Offset: 0x16B9420
-    static void CookAssets(::ArrayW<HoudiniEngineUnity::HEU_HoudiniAssetRoot*> rootAssets);
+    static void CookAssets(::ArrayW<::HoudiniEngineUnity::HEU_HoudiniAssetRoot*> rootAssets);
     // static public System.Void RebuildSelected()
     // Offset: 0x16B9528
     static void RebuildSelected();
@@ -191,7 +191,7 @@ namespace HoudiniEngineUnity {
     static void RebuildAll();
     // static public System.Void RebuildAssets(HoudiniEngineUnity.HEU_HoudiniAssetRoot[] rootAssets)
     // Offset: 0x16B953C
-    static void RebuildAssets(::ArrayW<HoudiniEngineUnity::HEU_HoudiniAssetRoot*> rootAssets);
+    static void RebuildAssets(::ArrayW<::HoudiniEngineUnity::HEU_HoudiniAssetRoot*> rootAssets);
     // static public System.Void BakeAndReplaceSelectedInScene()
     // Offset: 0x16B9638
     static void BakeAndReplaceSelectedInScene();
@@ -200,7 +200,7 @@ namespace HoudiniEngineUnity {
     static void BakeAndReplaceAllInScene();
     // static public System.Void BakeAndReplaceAssets(HoudiniEngineUnity.HEU_HoudiniAssetRoot[] rootAssets)
     // Offset: 0x16B964C
-    static void BakeAndReplaceAssets(::ArrayW<HoudiniEngineUnity::HEU_HoudiniAssetRoot*> rootAssets);
+    static void BakeAndReplaceAssets(::ArrayW<::HoudiniEngineUnity::HEU_HoudiniAssetRoot*> rootAssets);
     // static public System.Void ExportSelectedAssetsToGeoFiles()
     // Offset: 0x16B9744
     static void ExportSelectedAssetsToGeoFiles();
@@ -209,7 +209,7 @@ namespace HoudiniEngineUnity {
     static void ExportAllAssetsToGeoFiles();
     // static public System.Void ExportAssetsToGeoFiles(HoudiniEngineUnity.HEU_HoudiniAssetRoot[] rootAssets)
     // Offset: 0x16B9758
-    static void ExportAssetsToGeoFiles(::ArrayW<HoudiniEngineUnity::HEU_HoudiniAssetRoot*> rootAssets);
+    static void ExportAssetsToGeoFiles(::ArrayW<::HoudiniEngineUnity::HEU_HoudiniAssetRoot*> rootAssets);
     // static public System.String EditorSaveFolderPanel(System.String title, System.String folder, System.String defaultName)
     // Offset: 0x16B9DE4
     static ::StringW EditorSaveFolderPanel(::StringW title, ::StringW folder, ::StringW defaultName);
@@ -218,7 +218,7 @@ namespace HoudiniEngineUnity {
     static void QuerySelectedMeshTopology();
     // static public System.String GetObjectParentFolder(UnityEngine.GameObject parentObject, System.Collections.Generic.HashSet`1<UnityEngine.Material> generatedMaterials)
     // Offset: 0x16B9E44
-    static ::StringW GetObjectParentFolder(UnityEngine::GameObject* parentObject, System::Collections::Generic::HashSet_1<UnityEngine::Material*>* generatedMaterials);
+    static ::StringW GetObjectParentFolder(::UnityEngine::GameObject* parentObject, ::System::Collections::Generic::HashSet_1<::UnityEngine::Material*>* generatedMaterials);
     // static private System.String GetObjectParentFolderHelper(System.Int32 instanceID)
     // Offset: 0x16B9E8C
     static ::StringW GetObjectParentFolderHelper(int instanceID);
@@ -246,7 +246,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_EditorUtility::SelectObject
 // Il2CppName: SelectObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_EditorUtility::SelectObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_EditorUtility::SelectObject)> {
   static const MethodInfo* get() {
     static auto* gameObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_EditorUtility*), "SelectObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameObject});
@@ -255,7 +255,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_EditorUtility::SelectObjects
 // Il2CppName: SelectObjects
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<UnityEngine::GameObject*>)>(&HoudiniEngineUnity::HEU_EditorUtility::SelectObjects)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<::UnityEngine::GameObject*>)>(&HoudiniEngineUnity::HEU_EditorUtility::SelectObjects)> {
   static const MethodInfo* get() {
     static auto* gameObjects = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_EditorUtility*), "SelectObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameObjects});
@@ -264,7 +264,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_EditorUtility::GetSelectedObjectsMeanPosition
 // Il2CppName: GetSelectedObjectsMeanPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)()>(&HoudiniEngineUnity::HEU_EditorUtility::GetSelectedObjectsMeanPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)()>(&HoudiniEngineUnity::HEU_EditorUtility::GetSelectedObjectsMeanPosition)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_EditorUtility*), "GetSelectedObjectsMeanPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -272,7 +272,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_EditorUtility::GetSelectedObjectsMeanTransform
 // Il2CppName: GetSelectedObjectsMeanTransform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (*)()>(&HoudiniEngineUnity::HEU_EditorUtility::GetSelectedObjectsMeanTransform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Matrix4x4 (*)()>(&HoudiniEngineUnity::HEU_EditorUtility::GetSelectedObjectsMeanTransform)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_EditorUtility*), "GetSelectedObjectsMeanTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -280,7 +280,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_EditorUtility::SaveAsPrefabAsset
 // Il2CppName: SaveAsPrefabAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(::StringW, UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_EditorUtility::SaveAsPrefabAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GameObject* (*)(::StringW, ::UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_EditorUtility::SaveAsPrefabAsset)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* go = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
@@ -290,7 +290,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_EditorUtility::PrefabIsAddedComponentOverride
 // Il2CppName: PrefabIsAddedComponentOverride
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Component*)>(&HoudiniEngineUnity::HEU_EditorUtility::PrefabIsAddedComponentOverride)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Component*)>(&HoudiniEngineUnity::HEU_EditorUtility::PrefabIsAddedComponentOverride)> {
   static const MethodInfo* get() {
     static auto* comp = &::il2cpp_utils::GetClassFromName("UnityEngine", "Component")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_EditorUtility*), "PrefabIsAddedComponentOverride", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{comp});
@@ -307,7 +307,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_EditorUtility::ReplacePrefab
 // Il2CppName: ReplacePrefab
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::GameObject*, UnityEngine::Object*, HoudiniEngineUnity::HEU_EditorUtility::HEU_ReplacePrefabOptions)>(&HoudiniEngineUnity::HEU_EditorUtility::ReplacePrefab)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GameObject* (*)(::UnityEngine::GameObject*, ::UnityEngine::Object*, ::HoudiniEngineUnity::HEU_EditorUtility::HEU_ReplacePrefabOptions)>(&HoudiniEngineUnity::HEU_EditorUtility::ReplacePrefab)> {
   static const MethodInfo* get() {
     static auto* go = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* targetPrefab = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
@@ -318,7 +318,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_EditorUtility::IsPrefabInstance
 // Il2CppName: IsPrefabInstance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_EditorUtility::IsPrefabInstance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_EditorUtility::IsPrefabInstance)> {
   static const MethodInfo* get() {
     static auto* go = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_EditorUtility*), "IsPrefabInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{go});
@@ -327,7 +327,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_EditorUtility::IsPrefabAsset
 // Il2CppName: IsPrefabAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_EditorUtility::IsPrefabAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_EditorUtility::IsPrefabAsset)> {
   static const MethodInfo* get() {
     static auto* go = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_EditorUtility*), "IsPrefabAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{go});
@@ -336,7 +336,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_EditorUtility::IsEditingInPrefabMode
 // Il2CppName: IsEditingInPrefabMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_EditorUtility::IsEditingInPrefabMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_EditorUtility::IsEditingInPrefabMode)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_EditorUtility*), "IsEditingInPrefabMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -345,7 +345,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_EditorUtility::IsDisconnectedPrefabInstance
 // Il2CppName: IsDisconnectedPrefabInstance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_EditorUtility::IsDisconnectedPrefabInstance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_EditorUtility::IsDisconnectedPrefabInstance)> {
   static const MethodInfo* get() {
     static auto* go = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_EditorUtility*), "IsDisconnectedPrefabInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{go});
@@ -354,7 +354,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_EditorUtility::GetPrefabAsset
 // Il2CppName: GetPrefabAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (*)(UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_EditorUtility::GetPrefabAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Object* (*)(::UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_EditorUtility::GetPrefabAsset)> {
   static const MethodInfo* get() {
     static auto* go = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_EditorUtility*), "GetPrefabAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{go});
@@ -363,7 +363,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_EditorUtility::GetPrefabAssetPath
 // Il2CppName: GetPrefabAssetPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(UnityEngine::Object*)>(&HoudiniEngineUnity::HEU_EditorUtility::GetPrefabAssetPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::UnityEngine::Object*)>(&HoudiniEngineUnity::HEU_EditorUtility::GetPrefabAssetPath)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_EditorUtility*), "GetPrefabAssetPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -372,7 +372,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_EditorUtility::DisconnectPrefabInstance
 // Il2CppName: DisconnectPrefabInstance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_EditorUtility::DisconnectPrefabInstance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_EditorUtility::DisconnectPrefabInstance)> {
   static const MethodInfo* get() {
     static auto* instance = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_EditorUtility*), "DisconnectPrefabInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{instance});
@@ -381,7 +381,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_EditorUtility::InstantiatePrefab
 // Il2CppName: InstantiatePrefab
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (*)(UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_EditorUtility::InstantiatePrefab)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Object* (*)(::UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_EditorUtility::InstantiatePrefab)> {
   static const MethodInfo* get() {
     static auto* prefabOriginal = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_EditorUtility*), "InstantiatePrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{prefabOriginal});
@@ -390,7 +390,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_EditorUtility::InstantiateGameObject
 // Il2CppName: InstantiateGameObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::GameObject*, UnityEngine::Transform*, bool, bool)>(&HoudiniEngineUnity::HEU_EditorUtility::InstantiateGameObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GameObject* (*)(::UnityEngine::GameObject*, ::UnityEngine::Transform*, bool, bool)>(&HoudiniEngineUnity::HEU_EditorUtility::InstantiateGameObject)> {
   static const MethodInfo* get() {
     static auto* sourceGameObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* parentTransform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
@@ -405,7 +405,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_EditorUtility::UndoRecordObject
 // Il2CppName: UndoRecordObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*, ::StringW)>(&HoudiniEngineUnity::HEU_EditorUtility::UndoRecordObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Object*, ::StringW)>(&HoudiniEngineUnity::HEU_EditorUtility::UndoRecordObject)> {
   static const MethodInfo* get() {
     static auto* objectToUndo = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -423,7 +423,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_EditorUtility::CollectDependencies
 // Il2CppName: CollectDependencies
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Object*> (*)(UnityEngine::Object*)>(&HoudiniEngineUnity::HEU_EditorUtility::CollectDependencies)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Object*> (*)(::UnityEngine::Object*)>(&HoudiniEngineUnity::HEU_EditorUtility::CollectDependencies)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_EditorUtility*), "CollectDependencies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -432,7 +432,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_EditorUtility::IsPersistant
 // Il2CppName: IsPersistant
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Object*)>(&HoudiniEngineUnity::HEU_EditorUtility::IsPersistant)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Object*)>(&HoudiniEngineUnity::HEU_EditorUtility::IsPersistant)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_EditorUtility*), "IsPersistant", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -441,7 +441,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_EditorUtility::GetUniqueNameForSibling
 // Il2CppName: GetUniqueNameForSibling
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(UnityEngine::Transform*, ::StringW)>(&HoudiniEngineUnity::HEU_EditorUtility::GetUniqueNameForSibling)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::UnityEngine::Transform*, ::StringW)>(&HoudiniEngineUnity::HEU_EditorUtility::GetUniqueNameForSibling)> {
   static const MethodInfo* get() {
     static auto* parentTransform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -511,7 +511,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_EditorUtility::SetObjectDirtyForEditorUpdate
 // Il2CppName: SetObjectDirtyForEditorUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*)>(&HoudiniEngineUnity::HEU_EditorUtility::SetObjectDirtyForEditorUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Object*)>(&HoudiniEngineUnity::HEU_EditorUtility::SetObjectDirtyForEditorUpdate)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_EditorUtility*), "SetObjectDirtyForEditorUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -520,7 +520,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_EditorUtility::SetStatic
 // Il2CppName: SetStatic
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, bool, bool)>(&HoudiniEngineUnity::HEU_EditorUtility::SetStatic)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*, bool, bool)>(&HoudiniEngineUnity::HEU_EditorUtility::SetStatic)> {
   static const MethodInfo* get() {
     static auto* go = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* bStatic = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -531,7 +531,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_EditorUtility::SetIsHidden
 // Il2CppName: SetIsHidden
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, bool, bool)>(&HoudiniEngineUnity::HEU_EditorUtility::SetIsHidden)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*, bool, bool)>(&HoudiniEngineUnity::HEU_EditorUtility::SetIsHidden)> {
   static const MethodInfo* get() {
     static auto* go = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* isHidden = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -542,7 +542,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_EditorUtility::GetSelectedObjects
 // Il2CppName: GetSelectedObjects
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::GameObject*> (*)()>(&HoudiniEngineUnity::HEU_EditorUtility::GetSelectedObjects)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::GameObject*> (*)()>(&HoudiniEngineUnity::HEU_EditorUtility::GetSelectedObjects)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_EditorUtility*), "GetSelectedObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -550,7 +550,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_EditorUtility::GetSelectedAssetRoots
 // Il2CppName: GetSelectedAssetRoots
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<HoudiniEngineUnity::HEU_HoudiniAssetRoot*> (*)()>(&HoudiniEngineUnity::HEU_EditorUtility::GetSelectedAssetRoots)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::HoudiniEngineUnity::HEU_HoudiniAssetRoot*> (*)()>(&HoudiniEngineUnity::HEU_EditorUtility::GetSelectedAssetRoots)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_EditorUtility*), "GetSelectedAssetRoots", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -558,7 +558,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_EditorUtility::GetAllAssetRoots
 // Il2CppName: GetAllAssetRoots
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<HoudiniEngineUnity::HEU_HoudiniAssetRoot*> (*)()>(&HoudiniEngineUnity::HEU_EditorUtility::GetAllAssetRoots)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::HoudiniEngineUnity::HEU_HoudiniAssetRoot*> (*)()>(&HoudiniEngineUnity::HEU_EditorUtility::GetAllAssetRoots)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_EditorUtility*), "GetAllAssetRoots", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -582,7 +582,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_EditorUtility::CookAssets
 // Il2CppName: CookAssets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<HoudiniEngineUnity::HEU_HoudiniAssetRoot*>)>(&HoudiniEngineUnity::HEU_EditorUtility::CookAssets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<::HoudiniEngineUnity::HEU_HoudiniAssetRoot*>)>(&HoudiniEngineUnity::HEU_EditorUtility::CookAssets)> {
   static const MethodInfo* get() {
     static auto* rootAssets = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_HoudiniAssetRoot"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_EditorUtility*), "CookAssets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rootAssets});
@@ -607,7 +607,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_EditorUtility::RebuildAssets
 // Il2CppName: RebuildAssets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<HoudiniEngineUnity::HEU_HoudiniAssetRoot*>)>(&HoudiniEngineUnity::HEU_EditorUtility::RebuildAssets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<::HoudiniEngineUnity::HEU_HoudiniAssetRoot*>)>(&HoudiniEngineUnity::HEU_EditorUtility::RebuildAssets)> {
   static const MethodInfo* get() {
     static auto* rootAssets = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_HoudiniAssetRoot"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_EditorUtility*), "RebuildAssets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rootAssets});
@@ -632,7 +632,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_EditorUtility::BakeAndReplaceAssets
 // Il2CppName: BakeAndReplaceAssets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<HoudiniEngineUnity::HEU_HoudiniAssetRoot*>)>(&HoudiniEngineUnity::HEU_EditorUtility::BakeAndReplaceAssets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<::HoudiniEngineUnity::HEU_HoudiniAssetRoot*>)>(&HoudiniEngineUnity::HEU_EditorUtility::BakeAndReplaceAssets)> {
   static const MethodInfo* get() {
     static auto* rootAssets = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_HoudiniAssetRoot"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_EditorUtility*), "BakeAndReplaceAssets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rootAssets});
@@ -657,7 +657,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_EditorUtility::ExportAssetsToGeoFiles
 // Il2CppName: ExportAssetsToGeoFiles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<HoudiniEngineUnity::HEU_HoudiniAssetRoot*>)>(&HoudiniEngineUnity::HEU_EditorUtility::ExportAssetsToGeoFiles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<::HoudiniEngineUnity::HEU_HoudiniAssetRoot*>)>(&HoudiniEngineUnity::HEU_EditorUtility::ExportAssetsToGeoFiles)> {
   static const MethodInfo* get() {
     static auto* rootAssets = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_HoudiniAssetRoot"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_EditorUtility*), "ExportAssetsToGeoFiles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rootAssets});
@@ -685,7 +685,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_EditorUtility::GetObjectParentFolder
 // Il2CppName: GetObjectParentFolder
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(UnityEngine::GameObject*, System::Collections::Generic::HashSet_1<UnityEngine::Material*>*)>(&HoudiniEngineUnity::HEU_EditorUtility::GetObjectParentFolder)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::UnityEngine::GameObject*, ::System::Collections::Generic::HashSet_1<::UnityEngine::Material*>*)>(&HoudiniEngineUnity::HEU_EditorUtility::GetObjectParentFolder)> {
   static const MethodInfo* get() {
     static auto* parentObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* generatedMaterials = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "HashSet`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Material")})->byval_arg;

@@ -45,7 +45,7 @@ namespace System::Threading::Tasks {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(BGNet::Core::Messages::UnconnectedMessageHandler::$GetAndSendResponseAsync$d__57_2, "BGNet.Core.Messages", "UnconnectedMessageHandler/<GetAndSendResponseAsync>d__57`2");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::BGNet::Core::Messages::UnconnectedMessageHandler::$GetAndSendResponseAsync$d__57_2, "BGNet.Core.Messages", "UnconnectedMessageHandler/<GetAndSendResponseAsync>d__57`2");
 // Type namespace: BGNet.Core.Messages
 namespace BGNet::Core::Messages {
   // WARNING Size may be invalid!
@@ -53,7 +53,7 @@ namespace BGNet::Core::Messages {
   // [TokenAttribute] Offset: FFFFFFFF
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   template<typename TRequest, typename TResponse>
-  struct UnconnectedMessageHandler::$GetAndSendResponseAsync$d__57_2/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
+  struct UnconnectedMessageHandler::$GetAndSendResponseAsync$d__57_2/*, public ::System::ValueType, public ::System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
     public:
     // public System.Int32 <>1__state
@@ -65,13 +65,13 @@ namespace BGNet::Core::Messages {
     // public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder
     // Size: 0xFFFFFFFF
     // Offset: 0x0
-    System::Runtime::CompilerServices::AsyncTaskMethodBuilder $$t__builder;
+    ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder $$t__builder;
     // public System.Func`3<TRequest,BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.MessageOrigin,System.Threading.Tasks.Task`1<TResponse>> tryGetResponse
     // Size: 0x8
     // Offset: 0x0
-    System::Func_3<TRequest, BGNet::Core::Messages::UnconnectedMessageHandler::MessageOrigin, System::Threading::Tasks::Task_1<TResponse>*>* tryGetResponse;
+    ::System::Func_3<TRequest, ::BGNet::Core::Messages::UnconnectedMessageHandler::MessageOrigin, ::System::Threading::Tasks::Task_1<TResponse>*>* tryGetResponse;
     // Field size check
-    static_assert(sizeof(System::Func_3<TRequest, BGNet::Core::Messages::UnconnectedMessageHandler::MessageOrigin, System::Threading::Tasks::Task_1<TResponse>*>*) == 0x8);
+    static_assert(sizeof(::System::Func_3<TRequest, ::BGNet::Core::Messages::UnconnectedMessageHandler::MessageOrigin, ::System::Threading::Tasks::Task_1<TResponse>*>*) == 0x8);
     // public TRequest request
     // Size: 0xFFFFFFFF
     // Offset: 0x0
@@ -79,21 +79,21 @@ namespace BGNet::Core::Messages {
     // public BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.MessageOrigin origin
     // Size: 0xC
     // Offset: 0x0
-    BGNet::Core::Messages::UnconnectedMessageHandler::MessageOrigin origin;
+    ::BGNet::Core::Messages::UnconnectedMessageHandler::MessageOrigin origin;
     // Field size check
-    static_assert(sizeof(BGNet::Core::Messages::UnconnectedMessageHandler::MessageOrigin) == 0xC);
+    static_assert(sizeof(::BGNet::Core::Messages::UnconnectedMessageHandler::MessageOrigin) == 0xC);
     // public System.Func`1<TResponse> getFailureResponse
     // Size: 0x8
     // Offset: 0x0
-    System::Func_1<TResponse>* getFailureResponse;
+    ::System::Func_1<TResponse>* getFailureResponse;
     // Field size check
-    static_assert(sizeof(System::Func_1<TResponse>*) == 0x8);
+    static_assert(sizeof(::System::Func_1<TResponse>*) == 0x8);
     // public BGNet.Core.Messages.UnconnectedMessageHandler <>4__this
     // Size: 0x8
     // Offset: 0x0
-    BGNet::Core::Messages::UnconnectedMessageHandler* $$4__this;
+    ::BGNet::Core::Messages::UnconnectedMessageHandler* $$4__this;
     // Field size check
-    static_assert(sizeof(BGNet::Core::Messages::UnconnectedMessageHandler*) == 0x8);
+    static_assert(sizeof(::BGNet::Core::Messages::UnconnectedMessageHandler*) == 0x8);
     // private TResponse <response>5__2
     // Size: 0xFFFFFFFF
     // Offset: 0x0
@@ -101,101 +101,101 @@ namespace BGNet::Core::Messages {
     // private System.Runtime.CompilerServices.TaskAwaiter`1<TResponse> <>u__1
     // Size: 0xFFFFFFFF
     // Offset: 0x0
-    System::Runtime::CompilerServices::TaskAwaiter_1<TResponse> $$u__1;
+    ::System::Runtime::CompilerServices::TaskAwaiter_1<TResponse> $$u__1;
     public:
     // Creating value type constructor for type: $GetAndSendResponseAsync$d__57_2
-    constexpr $GetAndSendResponseAsync$d__57_2(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder $$t__builder_ = {}, System::Func_3<TRequest, BGNet::Core::Messages::UnconnectedMessageHandler::MessageOrigin, System::Threading::Tasks::Task_1<TResponse>*>* tryGetResponse_ = {}, TRequest request_ = {}, BGNet::Core::Messages::UnconnectedMessageHandler::MessageOrigin origin_ = {}, System::Func_1<TResponse>* getFailureResponse_ = {}, BGNet::Core::Messages::UnconnectedMessageHandler* $$4__this_ = {}, TResponse $response$5__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<TResponse> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, tryGetResponse{tryGetResponse_}, request{request_}, origin{origin_}, getFailureResponse{getFailureResponse_}, $$4__this{$$4__this_}, $response$5__2{$response$5__2_}, $$u__1{$$u__1_} {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    constexpr $GetAndSendResponseAsync$d__57_2(int $$1__state_ = {}, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder $$t__builder_ = {}, ::System::Func_3<TRequest, ::BGNet::Core::Messages::UnconnectedMessageHandler::MessageOrigin, ::System::Threading::Tasks::Task_1<TResponse>*>* tryGetResponse_ = {}, TRequest request_ = {}, ::BGNet::Core::Messages::UnconnectedMessageHandler::MessageOrigin origin_ = {}, ::System::Func_1<TResponse>* getFailureResponse_ = {}, ::BGNet::Core::Messages::UnconnectedMessageHandler* $$4__this_ = {}, TResponse $response$5__2_ = {}, ::System::Runtime::CompilerServices::TaskAwaiter_1<TResponse> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, tryGetResponse{tryGetResponse_}, request{request_}, origin{origin_}, getFailureResponse{getFailureResponse_}, $$4__this{$$4__this_}, $response$5__2{$response$5__2_}, $$u__1{$$u__1_} {}
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
-    // Creating interface conversion operator: operator System::Runtime::CompilerServices::IAsyncStateMachine
-    operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
-      return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
+    // Creating interface conversion operator: operator ::System::Runtime::CompilerServices::IAsyncStateMachine
+    operator ::System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
+      return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Autogenerated instance field getter
     // Get instance field: public System.Int32 <>1__state
     int& dyn_$$1__state() {
-      static auto ___internal__logger = ::Logger::get().WithContext("BGNet::Core::Messages::UnconnectedMessageHandler::$GetAndSendResponseAsync$d__57_2::dyn_$$1__state");
+      static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::UnconnectedMessageHandler::$GetAndSendResponseAsync$d__57_2::dyn_$$1__state");
       auto ___internal__instance = *this;
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "<>1__state"))->offset;
       return *reinterpret_cast<int*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // Autogenerated instance field getter
     // Get instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder
-    System::Runtime::CompilerServices::AsyncTaskMethodBuilder& dyn_$$t__builder() {
-      static auto ___internal__logger = ::Logger::get().WithContext("BGNet::Core::Messages::UnconnectedMessageHandler::$GetAndSendResponseAsync$d__57_2::dyn_$$t__builder");
+    ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder& dyn_$$t__builder() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::UnconnectedMessageHandler::$GetAndSendResponseAsync$d__57_2::dyn_$$t__builder");
       auto ___internal__instance = *this;
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "<>t__builder"))->offset;
-      return *reinterpret_cast<System::Runtime::CompilerServices::AsyncTaskMethodBuilder*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+      return *reinterpret_cast<::System::Runtime::CompilerServices::AsyncTaskMethodBuilder*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // Autogenerated instance field getter
     // Get instance field: public System.Func`3<TRequest,BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.MessageOrigin,System.Threading.Tasks.Task`1<TResponse>> tryGetResponse
-    System::Func_3<TRequest, BGNet::Core::Messages::UnconnectedMessageHandler::MessageOrigin, System::Threading::Tasks::Task_1<TResponse>*>*& dyn_tryGetResponse() {
-      static auto ___internal__logger = ::Logger::get().WithContext("BGNet::Core::Messages::UnconnectedMessageHandler::$GetAndSendResponseAsync$d__57_2::dyn_tryGetResponse");
+    ::System::Func_3<TRequest, ::BGNet::Core::Messages::UnconnectedMessageHandler::MessageOrigin, ::System::Threading::Tasks::Task_1<TResponse>*>*& dyn_tryGetResponse() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::UnconnectedMessageHandler::$GetAndSendResponseAsync$d__57_2::dyn_tryGetResponse");
       auto ___internal__instance = *this;
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "tryGetResponse"))->offset;
-      return *reinterpret_cast<System::Func_3<TRequest, BGNet::Core::Messages::UnconnectedMessageHandler::MessageOrigin, System::Threading::Tasks::Task_1<TResponse>*>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+      return *reinterpret_cast<::System::Func_3<TRequest, ::BGNet::Core::Messages::UnconnectedMessageHandler::MessageOrigin, ::System::Threading::Tasks::Task_1<TResponse>*>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // Autogenerated instance field getter
     // Get instance field: public TRequest request
     TRequest& dyn_request() {
-      static auto ___internal__logger = ::Logger::get().WithContext("BGNet::Core::Messages::UnconnectedMessageHandler::$GetAndSendResponseAsync$d__57_2::dyn_request");
+      static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::UnconnectedMessageHandler::$GetAndSendResponseAsync$d__57_2::dyn_request");
       auto ___internal__instance = *this;
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "request"))->offset;
       return *reinterpret_cast<TRequest*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // Autogenerated instance field getter
     // Get instance field: public BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.MessageOrigin origin
-    BGNet::Core::Messages::UnconnectedMessageHandler::MessageOrigin& dyn_origin() {
-      static auto ___internal__logger = ::Logger::get().WithContext("BGNet::Core::Messages::UnconnectedMessageHandler::$GetAndSendResponseAsync$d__57_2::dyn_origin");
+    ::BGNet::Core::Messages::UnconnectedMessageHandler::MessageOrigin& dyn_origin() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::UnconnectedMessageHandler::$GetAndSendResponseAsync$d__57_2::dyn_origin");
       auto ___internal__instance = *this;
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "origin"))->offset;
-      return *reinterpret_cast<BGNet::Core::Messages::UnconnectedMessageHandler::MessageOrigin*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+      return *reinterpret_cast<::BGNet::Core::Messages::UnconnectedMessageHandler::MessageOrigin*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // Autogenerated instance field getter
     // Get instance field: public System.Func`1<TResponse> getFailureResponse
-    System::Func_1<TResponse>*& dyn_getFailureResponse() {
-      static auto ___internal__logger = ::Logger::get().WithContext("BGNet::Core::Messages::UnconnectedMessageHandler::$GetAndSendResponseAsync$d__57_2::dyn_getFailureResponse");
+    ::System::Func_1<TResponse>*& dyn_getFailureResponse() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::UnconnectedMessageHandler::$GetAndSendResponseAsync$d__57_2::dyn_getFailureResponse");
       auto ___internal__instance = *this;
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "getFailureResponse"))->offset;
-      return *reinterpret_cast<System::Func_1<TResponse>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+      return *reinterpret_cast<::System::Func_1<TResponse>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // Autogenerated instance field getter
     // Get instance field: public BGNet.Core.Messages.UnconnectedMessageHandler <>4__this
-    BGNet::Core::Messages::UnconnectedMessageHandler*& dyn_$$4__this() {
-      static auto ___internal__logger = ::Logger::get().WithContext("BGNet::Core::Messages::UnconnectedMessageHandler::$GetAndSendResponseAsync$d__57_2::dyn_$$4__this");
+    ::BGNet::Core::Messages::UnconnectedMessageHandler*& dyn_$$4__this() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::UnconnectedMessageHandler::$GetAndSendResponseAsync$d__57_2::dyn_$$4__this");
       auto ___internal__instance = *this;
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "<>4__this"))->offset;
-      return *reinterpret_cast<BGNet::Core::Messages::UnconnectedMessageHandler**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+      return *reinterpret_cast<::BGNet::Core::Messages::UnconnectedMessageHandler**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // Autogenerated instance field getter
     // Get instance field: private TResponse <response>5__2
     TResponse& dyn_$response$5__2() {
-      static auto ___internal__logger = ::Logger::get().WithContext("BGNet::Core::Messages::UnconnectedMessageHandler::$GetAndSendResponseAsync$d__57_2::dyn_$response$5__2");
+      static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::UnconnectedMessageHandler::$GetAndSendResponseAsync$d__57_2::dyn_$response$5__2");
       auto ___internal__instance = *this;
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "<response>5__2"))->offset;
       return *reinterpret_cast<TResponse*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // Autogenerated instance field getter
     // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<TResponse> <>u__1
-    System::Runtime::CompilerServices::TaskAwaiter_1<TResponse>& dyn_$$u__1() {
-      static auto ___internal__logger = ::Logger::get().WithContext("BGNet::Core::Messages::UnconnectedMessageHandler::$GetAndSendResponseAsync$d__57_2::dyn_$$u__1");
+    ::System::Runtime::CompilerServices::TaskAwaiter_1<TResponse>& dyn_$$u__1() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::UnconnectedMessageHandler::$GetAndSendResponseAsync$d__57_2::dyn_$$u__1");
       auto ___internal__instance = *this;
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "<>u__1"))->offset;
-      return *reinterpret_cast<System::Runtime::CompilerServices::TaskAwaiter_1<TResponse>*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+      return *reinterpret_cast<::System::Runtime::CompilerServices::TaskAwaiter_1<TResponse>*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // private System.Void MoveNext()
     // Offset: 0xFFFFFFFF
     void MoveNext() {
-      static auto ___internal__logger = ::Logger::get().WithContext("BGNet::Core::Messages::UnconnectedMessageHandler::$GetAndSendResponseAsync$d__57_2::MoveNext");
+      static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::UnconnectedMessageHandler::$GetAndSendResponseAsync$d__57_2::MoveNext");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "MoveNext", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     // Offset: 0xFFFFFFFF
-    void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-      static auto ___internal__logger = ::Logger::get().WithContext("BGNet::Core::Messages::UnconnectedMessageHandler::$GetAndSendResponseAsync$d__57_2::SetStateMachine");
+    void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::UnconnectedMessageHandler::$GetAndSendResponseAsync$d__57_2::SetStateMachine");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "SetStateMachine", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(stateMachine)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, stateMachine);
     }

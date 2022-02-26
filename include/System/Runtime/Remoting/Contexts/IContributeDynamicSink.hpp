@@ -18,8 +18,8 @@ namespace System::Runtime::Remoting::Contexts {
   class IContributeDynamicSink;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Remoting::Contexts::IContributeDynamicSink);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::IContributeDynamicSink*, "System.Runtime.Remoting.Contexts", "IContributeDynamicSink");
+NEED_NO_BOX(::System::Runtime::Remoting::Contexts::IContributeDynamicSink);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Contexts::IContributeDynamicSink*, "System.Runtime.Remoting.Contexts", "IContributeDynamicSink");
 // Type namespace: System.Runtime.Remoting.Contexts
 namespace System::Runtime::Remoting::Contexts {
   // Size: 0x10
@@ -31,7 +31,7 @@ namespace System::Runtime::Remoting::Contexts {
     public:
     // public System.Runtime.Remoting.Contexts.IDynamicMessageSink GetDynamicSink()
     // Offset: 0xFFFFFFFF
-    System::Runtime::Remoting::Contexts::IDynamicMessageSink* GetDynamicSink();
+    ::System::Runtime::Remoting::Contexts::IDynamicMessageSink* GetDynamicSink();
   }; // System.Runtime.Remoting.Contexts.IContributeDynamicSink
   #pragma pack(pop)
 }
@@ -39,7 +39,7 @@ namespace System::Runtime::Remoting::Contexts {
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::IContributeDynamicSink::GetDynamicSink
 // Il2CppName: GetDynamicSink
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Contexts::IDynamicMessageSink* (System::Runtime::Remoting::Contexts::IContributeDynamicSink::*)()>(&System::Runtime::Remoting::Contexts::IContributeDynamicSink::GetDynamicSink)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Contexts::IDynamicMessageSink* (System::Runtime::Remoting::Contexts::IContributeDynamicSink::*)()>(&System::Runtime::Remoting::Contexts::IContributeDynamicSink::GetDynamicSink)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::IContributeDynamicSink*), "GetDynamicSink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

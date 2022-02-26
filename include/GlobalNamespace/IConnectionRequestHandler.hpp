@@ -21,8 +21,8 @@ namespace GlobalNamespace {
   class IConnectionRequestHandler;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::IConnectionRequestHandler);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IConnectionRequestHandler*, "", "IConnectionRequestHandler");
+NEED_NO_BOX(::GlobalNamespace::IConnectionRequestHandler);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IConnectionRequestHandler*, "", "IConnectionRequestHandler");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -33,10 +33,10 @@ namespace GlobalNamespace {
     public:
     // public System.Void GetConnectionMessage(LiteNetLib.Utils.NetDataWriter writer, System.String userId, System.String userName, System.Boolean isConnectionOwner)
     // Offset: 0xFFFFFFFF
-    void GetConnectionMessage(LiteNetLib::Utils::NetDataWriter* writer, ::StringW userId, ::StringW userName, bool isConnectionOwner);
+    void GetConnectionMessage(::LiteNetLib::Utils::NetDataWriter* writer, ::StringW userId, ::StringW userName, bool isConnectionOwner);
     // public System.Boolean ValidateConnectionMessage(LiteNetLib.Utils.NetDataReader reader, out System.String userId, out System.String userName, out System.Boolean isConnectionOwner)
     // Offset: 0xFFFFFFFF
-    bool ValidateConnectionMessage(LiteNetLib::Utils::NetDataReader* reader, ByRef<::StringW> userId, ByRef<::StringW> userName, ByRef<bool> isConnectionOwner);
+    bool ValidateConnectionMessage(::LiteNetLib::Utils::NetDataReader* reader, ByRef<::StringW> userId, ByRef<::StringW> userName, ByRef<bool> isConnectionOwner);
   }; // IConnectionRequestHandler
   #pragma pack(pop)
 }
@@ -44,7 +44,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::IConnectionRequestHandler::GetConnectionMessage
 // Il2CppName: GetConnectionMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IConnectionRequestHandler::*)(LiteNetLib::Utils::NetDataWriter*, ::StringW, ::StringW, bool)>(&GlobalNamespace::IConnectionRequestHandler::GetConnectionMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IConnectionRequestHandler::*)(::LiteNetLib::Utils::NetDataWriter*, ::StringW, ::StringW, bool)>(&GlobalNamespace::IConnectionRequestHandler::GetConnectionMessage)> {
   static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataWriter")->byval_arg;
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -56,7 +56,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IConnectionRequestHandler::ValidateConnectionMessage
 // Il2CppName: ValidateConnectionMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::IConnectionRequestHandler::*)(LiteNetLib::Utils::NetDataReader*, ByRef<::StringW>, ByRef<::StringW>, ByRef<bool>)>(&GlobalNamespace::IConnectionRequestHandler::ValidateConnectionMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::IConnectionRequestHandler::*)(::LiteNetLib::Utils::NetDataReader*, ByRef<::StringW>, ByRef<::StringW>, ByRef<bool>)>(&GlobalNamespace::IConnectionRequestHandler::ValidateConnectionMessage)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataReader")->byval_arg;
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;

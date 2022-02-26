@@ -16,7 +16,7 @@ namespace System {
   class IEquatable_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::IEquatable_1, "System", "IEquatable`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::IEquatable_1, "System", "IEquatable`1");
 // Type namespace: System
 namespace System {
   // WARNING Size may be invalid!
@@ -28,7 +28,7 @@ namespace System {
     // public System.Boolean Equals(T other)
     // Offset: 0xFFFFFFFF
     bool Equals(T other) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::IEquatable_1::Equals");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::IEquatable_1::Equals");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Equals", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(other)})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, other);
     }

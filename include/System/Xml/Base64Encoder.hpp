@@ -17,8 +17,8 @@ namespace System::Xml {
   class Base64Encoder;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Base64Encoder);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Base64Encoder*, "System.Xml", "Base64Encoder");
+NEED_NO_BOX(::System::Xml::Base64Encoder);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Base64Encoder*, "System.Xml", "Base64Encoder");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x28
@@ -78,7 +78,7 @@ namespace System::Xml {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Base64Encoder* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Base64Encoder::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Base64Encoder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Base64Encoder*, creationType>()));
     }
   }; // System.Xml.Base64Encoder

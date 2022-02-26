@@ -22,8 +22,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::UnhandledExceptionHandler::$$c);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnhandledExceptionHandler::$$c*, "UnityEngine", "UnhandledExceptionHandler/<>c");
+NEED_NO_BOX(::UnityEngine::UnhandledExceptionHandler::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UnhandledExceptionHandler::$$c*, "UnityEngine", "UnhandledExceptionHandler/<>c");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -34,26 +34,26 @@ namespace UnityEngine {
   class UnhandledExceptionHandler::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly UnityEngine.UnhandledExceptionHandler/UnityEngine.<>c <>9
-    static UnityEngine::UnhandledExceptionHandler::$$c* _get_$$9();
+    static ::UnityEngine::UnhandledExceptionHandler::$$c* _get_$$9();
     // Set static field: static public readonly UnityEngine.UnhandledExceptionHandler/UnityEngine.<>c <>9
-    static void _set_$$9(UnityEngine::UnhandledExceptionHandler::$$c* value);
+    static void _set_$$9(::UnityEngine::UnhandledExceptionHandler::$$c* value);
     // Get static field: static public System.UnhandledExceptionEventHandler <>9__0_0
-    static System::UnhandledExceptionEventHandler* _get_$$9__0_0();
+    static ::System::UnhandledExceptionEventHandler* _get_$$9__0_0();
     // Set static field: static public System.UnhandledExceptionEventHandler <>9__0_0
-    static void _set_$$9__0_0(System::UnhandledExceptionEventHandler* value);
+    static void _set_$$9__0_0(::System::UnhandledExceptionEventHandler* value);
     // static private System.Void .cctor()
     // Offset: 0x2700178
     static void _cctor();
     // System.Void <RegisterUECatcher>b__0_0(System.Object sender, System.UnhandledExceptionEventArgs e)
     // Offset: 0x27001E4
-    void $RegisterUECatcher$b__0_0(::Il2CppObject* sender, System::UnhandledExceptionEventArgs* e);
+    void $RegisterUECatcher$b__0_0(::Il2CppObject* sender, ::System::UnhandledExceptionEventArgs* e);
     // public System.Void .ctor()
     // Offset: 0x27001DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnhandledExceptionHandler::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UnhandledExceptionHandler::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UnhandledExceptionHandler::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnhandledExceptionHandler::$$c*, creationType>()));
     }
   }; // UnityEngine.UnhandledExceptionHandler/UnityEngine.<>c
@@ -71,7 +71,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::UnhandledExceptionHandler::$$c::$RegisterUECatcher$b__0_0
 // Il2CppName: <RegisterUECatcher>b__0_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UnhandledExceptionHandler::$$c::*)(::Il2CppObject*, System::UnhandledExceptionEventArgs*)>(&UnityEngine::UnhandledExceptionHandler::$$c::$RegisterUECatcher$b__0_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UnhandledExceptionHandler::$$c::*)(::Il2CppObject*, ::System::UnhandledExceptionEventArgs*)>(&UnityEngine::UnhandledExceptionHandler::$$c::$RegisterUECatcher$b__0_0)> {
   static const MethodInfo* get() {
     static auto* sender = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* e = &::il2cpp_utils::GetClassFromName("System", "UnhandledExceptionEventArgs")->byval_arg;

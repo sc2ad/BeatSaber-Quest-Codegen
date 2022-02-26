@@ -21,8 +21,8 @@ namespace UnityEngine {
   class QualitySettings;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::QualitySettings);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::QualitySettings*, "UnityEngine", "QualitySettings");
+NEED_NO_BOX(::UnityEngine::QualitySettings);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::QualitySettings*, "UnityEngine", "QualitySettings");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -32,7 +32,7 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: 11A44A4
   // [StaticAccessorAttribute] Offset: 11A44A4
   // [NativeHeaderAttribute] Offset: 11A44A4
-  class QualitySettings : public UnityEngine::Object {
+  class QualitySettings : public ::UnityEngine::Object {
     public:
     // static public System.Void set_vSyncCount(System.Int32 value)
     // Offset: 0x20C622C
@@ -48,7 +48,7 @@ namespace UnityEngine {
     static void set_maxQueuedFrames(int value);
     // static public UnityEngine.ColorSpace get_activeColorSpace()
     // Offset: 0x20C6320
-    static UnityEngine::ColorSpace get_activeColorSpace();
+    static ::UnityEngine::ColorSpace get_activeColorSpace();
   }; // UnityEngine.QualitySettings
   #pragma pack(pop)
 }
@@ -91,7 +91,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 // Writing MetadataGetter for method: UnityEngine::QualitySettings::get_activeColorSpace
 // Il2CppName: get_activeColorSpace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ColorSpace (*)()>(&UnityEngine::QualitySettings::get_activeColorSpace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ColorSpace (*)()>(&UnityEngine::QualitySettings::get_activeColorSpace)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::QualitySettings*), "get_activeColorSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

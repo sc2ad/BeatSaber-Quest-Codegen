@@ -30,8 +30,8 @@ namespace Org::BouncyCastle::X509 {
   class X509ExtensionBase;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::X509::X509ExtensionBase);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::X509ExtensionBase*, "Org.BouncyCastle.X509", "X509ExtensionBase");
+NEED_NO_BOX(::Org::BouncyCastle::X509::X509ExtensionBase);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::X509::X509ExtensionBase*, "Org.BouncyCastle.X509", "X509ExtensionBase");
 // Type namespace: Org.BouncyCastle.X509
 namespace Org::BouncyCastle::X509 {
   // Size: 0x10
@@ -42,17 +42,17 @@ namespace Org::BouncyCastle::X509 {
     public:
     // protected Org.BouncyCastle.Asn1.X509.X509Extensions GetX509Extensions()
     // Offset: 0xFFFFFFFF
-    Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
+    ::Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
     // public Org.BouncyCastle.Asn1.Asn1OctetString GetExtensionValue(Org.BouncyCastle.Asn1.DerObjectIdentifier oid)
     // Offset: 0x25AD504
-    Org::BouncyCastle::Asn1::Asn1OctetString* GetExtensionValue(Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
+    ::Org::BouncyCastle::Asn1::Asn1OctetString* GetExtensionValue(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
     // protected System.Void .ctor()
     // Offset: 0x25A8D44
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509ExtensionBase* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::X509::X509ExtensionBase::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::X509::X509ExtensionBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509ExtensionBase*, creationType>()));
     }
   }; // Org.BouncyCastle.X509.X509ExtensionBase
@@ -62,7 +62,7 @@ namespace Org::BouncyCastle::X509 {
 // Writing MetadataGetter for method: Org::BouncyCastle::X509::X509ExtensionBase::GetX509Extensions
 // Il2CppName: GetX509Extensions
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::X509Extensions* (Org::BouncyCastle::X509::X509ExtensionBase::*)()>(&Org::BouncyCastle::X509::X509ExtensionBase::GetX509Extensions)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::X509Extensions* (Org::BouncyCastle::X509::X509ExtensionBase::*)()>(&Org::BouncyCastle::X509::X509ExtensionBase::GetX509Extensions)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::X509::X509ExtensionBase*), "GetX509Extensions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -70,7 +70,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::X509::X509ExtensionBase::GetExtensionValue
 // Il2CppName: GetExtensionValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1OctetString* (Org::BouncyCastle::X509::X509ExtensionBase::*)(Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&Org::BouncyCastle::X509::X509ExtensionBase::GetExtensionValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1OctetString* (Org::BouncyCastle::X509::X509ExtensionBase::*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&Org::BouncyCastle::X509::X509ExtensionBase::GetExtensionValue)> {
   static const MethodInfo* get() {
     static auto* oid = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1", "DerObjectIdentifier")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::X509::X509ExtensionBase*), "GetExtensionValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{oid});

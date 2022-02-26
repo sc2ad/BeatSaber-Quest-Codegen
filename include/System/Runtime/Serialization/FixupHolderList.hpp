@@ -24,8 +24,8 @@ namespace System::Runtime::Serialization {
   class FixupHolderList;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Serialization::FixupHolderList);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::FixupHolderList*, "System.Runtime.Serialization", "FixupHolderList");
+NEED_NO_BOX(::System::Runtime::Serialization::FixupHolderList);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::FixupHolderList*, "System.Runtime.Serialization", "FixupHolderList");
 // Type namespace: System.Runtime.Serialization
 namespace System::Runtime::Serialization {
   // Size: 0x1C
@@ -46,9 +46,9 @@ namespace System::Runtime::Serialization {
     // System.Runtime.Serialization.FixupHolder[] m_values
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<System::Runtime::Serialization::FixupHolder*> m_values;
+    ::ArrayW<::System::Runtime::Serialization::FixupHolder*> m_values;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::Runtime::Serialization::FixupHolder*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::System::Runtime::Serialization::FixupHolder*>) == 0x8);
     // System.Int32 m_count
     // Size: 0x4
     // Offset: 0x18
@@ -57,19 +57,19 @@ namespace System::Runtime::Serialization {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: System.Runtime.Serialization.FixupHolder[] m_values
-    ::ArrayW<System::Runtime::Serialization::FixupHolder*>& dyn_m_values();
+    ::ArrayW<::System::Runtime::Serialization::FixupHolder*>& dyn_m_values();
     // Get instance field reference: System.Int32 m_count
     int& dyn_m_count();
     // System.Void .ctor(System.Int32 startingSize)
     // Offset: 0x180C6CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FixupHolderList* New_ctor(int startingSize) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::FixupHolderList::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::FixupHolderList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FixupHolderList*, creationType>(startingSize)));
     }
     // System.Void Add(System.Runtime.Serialization.FixupHolder fixup)
     // Offset: 0x180C740
-    void Add(System::Runtime::Serialization::FixupHolder* fixup);
+    void Add(::System::Runtime::Serialization::FixupHolder* fixup);
     // private System.Void EnlargeArray()
     // Offset: 0x180C7F4
     void EnlargeArray();
@@ -79,7 +79,7 @@ namespace System::Runtime::Serialization {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FixupHolderList* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::FixupHolderList::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::FixupHolderList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FixupHolderList*, creationType>()));
     }
   }; // System.Runtime.Serialization.FixupHolderList
@@ -95,7 +95,7 @@ namespace System::Runtime::Serialization {
 // Writing MetadataGetter for method: System::Runtime::Serialization::FixupHolderList::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::FixupHolderList::*)(System::Runtime::Serialization::FixupHolder*)>(&System::Runtime::Serialization::FixupHolderList::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::FixupHolderList::*)(::System::Runtime::Serialization::FixupHolder*)>(&System::Runtime::Serialization::FixupHolderList::Add)> {
   static const MethodInfo* get() {
     static auto* fixup = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "FixupHolder")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::FixupHolderList*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fixup});

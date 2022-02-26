@@ -14,8 +14,8 @@ namespace UnityEngine {
   class PreferBinarySerialization;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::PreferBinarySerialization);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PreferBinarySerialization*, "UnityEngine", "PreferBinarySerialization");
+NEED_NO_BOX(::UnityEngine::PreferBinarySerialization);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PreferBinarySerialization*, "UnityEngine", "PreferBinarySerialization");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -24,7 +24,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [RequiredByNativeCodeAttribute] Offset: 11A6384
   // [AttributeUsageAttribute] Offset: 11A6384
-  class PreferBinarySerialization : public System::Attribute {
+  class PreferBinarySerialization : public ::System::Attribute {
     public:
   }; // UnityEngine.PreferBinarySerialization
   #pragma pack(pop)

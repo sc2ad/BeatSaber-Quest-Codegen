@@ -18,8 +18,8 @@ namespace System::Threading {
   class IThreadPoolWorkItem;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Threading::IThreadPoolWorkItem);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::IThreadPoolWorkItem*, "System.Threading", "IThreadPoolWorkItem");
+NEED_NO_BOX(::System::Threading::IThreadPoolWorkItem);
+DEFINE_IL2CPP_ARG_TYPE(::System::Threading::IThreadPoolWorkItem*, "System.Threading", "IThreadPoolWorkItem");
 // Type namespace: System.Threading
 namespace System::Threading {
   // Size: 0x10
@@ -33,7 +33,7 @@ namespace System::Threading {
     void ExecuteWorkItem();
     // public System.Void MarkAborted(System.Threading.ThreadAbortException tae)
     // Offset: 0xFFFFFFFF
-    void MarkAborted(System::Threading::ThreadAbortException* tae);
+    void MarkAborted(::System::Threading::ThreadAbortException* tae);
   }; // System.Threading.IThreadPoolWorkItem
   #pragma pack(pop)
 }
@@ -49,7 +49,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Threading::IThreadPoolWorkItem::MarkAborted
 // Il2CppName: MarkAborted
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::IThreadPoolWorkItem::*)(System::Threading::ThreadAbortException*)>(&System::Threading::IThreadPoolWorkItem::MarkAborted)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::IThreadPoolWorkItem::*)(::System::Threading::ThreadAbortException*)>(&System::Threading::IThreadPoolWorkItem::MarkAborted)> {
   static const MethodInfo* get() {
     static auto* tae = &::il2cpp_utils::GetClassFromName("System.Threading", "ThreadAbortException")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::IThreadPoolWorkItem*), "MarkAborted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tae});

@@ -14,7 +14,7 @@ namespace System::IO {
   struct FileShare;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::IO::FileShare, "System.IO", "FileShare");
+DEFINE_IL2CPP_ARG_TYPE(::System::IO::FileShare, "System.IO", "FileShare");
 // Type namespace: System.IO
 namespace System::IO {
   // Size: 0x4
@@ -23,7 +23,7 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: 118915C
   // [FlagsAttribute] Offset: FFFFFFFF
-  struct FileShare/*, public System::Enum*/ {
+  struct FileShare/*, public ::System::Enum*/ {
     public:
     public:
     // public System.Int32 value__
@@ -35,9 +35,9 @@ namespace System::IO {
     public:
     // Creating value type constructor for type: FileShare
     constexpr FileShare(int value_ = {}) noexcept : value{value_} {}
-    // Creating interface conversion operator: operator System::Enum
-    operator System::Enum() noexcept {
-      return *reinterpret_cast<System::Enum*>(this);
+    // Creating interface conversion operator: operator ::System::Enum
+    operator ::System::Enum() noexcept {
+      return *reinterpret_cast<::System::Enum*>(this);
     }
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
@@ -46,39 +46,39 @@ namespace System::IO {
     // static field const value: static public System.IO.FileShare None
     static constexpr const int None = 0;
     // Get static field: static public System.IO.FileShare None
-    static System::IO::FileShare _get_None();
+    static ::System::IO::FileShare _get_None();
     // Set static field: static public System.IO.FileShare None
-    static void _set_None(System::IO::FileShare value);
+    static void _set_None(::System::IO::FileShare value);
     // static field const value: static public System.IO.FileShare Read
     static constexpr const int Read = 1;
     // Get static field: static public System.IO.FileShare Read
-    static System::IO::FileShare _get_Read();
+    static ::System::IO::FileShare _get_Read();
     // Set static field: static public System.IO.FileShare Read
-    static void _set_Read(System::IO::FileShare value);
+    static void _set_Read(::System::IO::FileShare value);
     // static field const value: static public System.IO.FileShare Write
     static constexpr const int Write = 2;
     // Get static field: static public System.IO.FileShare Write
-    static System::IO::FileShare _get_Write();
+    static ::System::IO::FileShare _get_Write();
     // Set static field: static public System.IO.FileShare Write
-    static void _set_Write(System::IO::FileShare value);
+    static void _set_Write(::System::IO::FileShare value);
     // static field const value: static public System.IO.FileShare ReadWrite
     static constexpr const int ReadWrite = 3;
     // Get static field: static public System.IO.FileShare ReadWrite
-    static System::IO::FileShare _get_ReadWrite();
+    static ::System::IO::FileShare _get_ReadWrite();
     // Set static field: static public System.IO.FileShare ReadWrite
-    static void _set_ReadWrite(System::IO::FileShare value);
+    static void _set_ReadWrite(::System::IO::FileShare value);
     // static field const value: static public System.IO.FileShare Delete
     static constexpr const int Delete = 4;
     // Get static field: static public System.IO.FileShare Delete
-    static System::IO::FileShare _get_Delete();
+    static ::System::IO::FileShare _get_Delete();
     // Set static field: static public System.IO.FileShare Delete
-    static void _set_Delete(System::IO::FileShare value);
+    static void _set_Delete(::System::IO::FileShare value);
     // static field const value: static public System.IO.FileShare Inheritable
     static constexpr const int Inheritable = 16;
     // Get static field: static public System.IO.FileShare Inheritable
-    static System::IO::FileShare _get_Inheritable();
+    static ::System::IO::FileShare _get_Inheritable();
     // Set static field: static public System.IO.FileShare Inheritable
-    static void _set_Inheritable(System::IO::FileShare value);
+    static void _set_Inheritable(::System::IO::FileShare value);
     // Get instance field reference: public System.Int32 value__
     int& dyn_value__();
   }; // System.IO.FileShare

@@ -20,8 +20,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::WebConnection::AbortHelper);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnection::AbortHelper*, "System.Net", "WebConnection/AbortHelper");
+NEED_NO_BOX(::System::Net::WebConnection::AbortHelper);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::WebConnection::AbortHelper*, "System.Net", "WebConnection/AbortHelper");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x18
@@ -42,38 +42,38 @@ namespace System::Net {
     // public System.Net.WebConnection Connection
     // Size: 0x8
     // Offset: 0x10
-    System::Net::WebConnection* Connection;
+    ::System::Net::WebConnection* Connection;
     // Field size check
-    static_assert(sizeof(System::Net::WebConnection*) == 0x8);
+    static_assert(sizeof(::System::Net::WebConnection*) == 0x8);
     public:
-    // Creating conversion operator: operator System::Net::WebConnection*
-    constexpr operator System::Net::WebConnection*() const noexcept {
+    // Creating conversion operator: operator ::System::Net::WebConnection*
+    constexpr operator ::System::Net::WebConnection*() const noexcept {
       return Connection;
     }
     // Get instance field reference: public System.Net.WebConnection Connection
-    System::Net::WebConnection*& dyn_Connection();
+    ::System::Net::WebConnection*& dyn_Connection();
     // public System.Void Abort(System.Object sender, System.EventArgs args)
     // Offset: 0x1CBA9DC
-    void Abort(::Il2CppObject* sender, System::EventArgs* args);
+    void Abort(::Il2CppObject* sender, ::System::EventArgs* args);
     // public System.Void .ctor()
     // Offset: 0x1CB4D74
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebConnection::AbortHelper* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebConnection::AbortHelper::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::WebConnection::AbortHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebConnection::AbortHelper*, creationType>()));
     }
   }; // System.Net.WebConnection/System.Net.AbortHelper
   #pragma pack(pop)
-  static check_size<sizeof(WebConnection::AbortHelper), 16 + sizeof(System::Net::WebConnection*)> __System_Net_WebConnection_AbortHelperSizeCheck;
+  static check_size<sizeof(WebConnection::AbortHelper), 16 + sizeof(::System::Net::WebConnection*)> __System_Net_WebConnection_AbortHelperSizeCheck;
   static_assert(sizeof(WebConnection::AbortHelper) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::WebConnection::AbortHelper::Abort
 // Il2CppName: Abort
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnection::AbortHelper::*)(::Il2CppObject*, System::EventArgs*)>(&System::Net::WebConnection::AbortHelper::Abort)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnection::AbortHelper::*)(::Il2CppObject*, ::System::EventArgs*)>(&System::Net::WebConnection::AbortHelper::Abort)> {
   static const MethodInfo* get() {
     static auto* sender = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* args = &::il2cpp_utils::GetClassFromName("System", "EventArgs")->byval_arg;

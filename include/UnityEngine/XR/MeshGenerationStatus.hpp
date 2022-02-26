@@ -14,7 +14,7 @@ namespace UnityEngine::XR {
   struct MeshGenerationStatus;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::MeshGenerationStatus, "UnityEngine.XR", "MeshGenerationStatus");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::MeshGenerationStatus, "UnityEngine.XR", "MeshGenerationStatus");
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {
   // Size: 0x4
@@ -23,7 +23,7 @@ namespace UnityEngine::XR {
   // [TokenAttribute] Offset: FFFFFFFF
   // [RequiredByNativeCodeAttribute] Offset: 11CE684
   // [NativeHeaderAttribute] Offset: 11CE684
-  struct MeshGenerationStatus/*, public System::Enum*/ {
+  struct MeshGenerationStatus/*, public ::System::Enum*/ {
     public:
     public:
     // public System.Int32 value__
@@ -35,9 +35,9 @@ namespace UnityEngine::XR {
     public:
     // Creating value type constructor for type: MeshGenerationStatus
     constexpr MeshGenerationStatus(int value_ = {}) noexcept : value{value_} {}
-    // Creating interface conversion operator: operator System::Enum
-    operator System::Enum() noexcept {
-      return *reinterpret_cast<System::Enum*>(this);
+    // Creating interface conversion operator: operator ::System::Enum
+    operator ::System::Enum() noexcept {
+      return *reinterpret_cast<::System::Enum*>(this);
     }
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
@@ -46,33 +46,33 @@ namespace UnityEngine::XR {
     // static field const value: static public UnityEngine.XR.MeshGenerationStatus Success
     static constexpr const int Success = 0;
     // Get static field: static public UnityEngine.XR.MeshGenerationStatus Success
-    static UnityEngine::XR::MeshGenerationStatus _get_Success();
+    static ::UnityEngine::XR::MeshGenerationStatus _get_Success();
     // Set static field: static public UnityEngine.XR.MeshGenerationStatus Success
-    static void _set_Success(UnityEngine::XR::MeshGenerationStatus value);
+    static void _set_Success(::UnityEngine::XR::MeshGenerationStatus value);
     // static field const value: static public UnityEngine.XR.MeshGenerationStatus InvalidMeshId
     static constexpr const int InvalidMeshId = 1;
     // Get static field: static public UnityEngine.XR.MeshGenerationStatus InvalidMeshId
-    static UnityEngine::XR::MeshGenerationStatus _get_InvalidMeshId();
+    static ::UnityEngine::XR::MeshGenerationStatus _get_InvalidMeshId();
     // Set static field: static public UnityEngine.XR.MeshGenerationStatus InvalidMeshId
-    static void _set_InvalidMeshId(UnityEngine::XR::MeshGenerationStatus value);
+    static void _set_InvalidMeshId(::UnityEngine::XR::MeshGenerationStatus value);
     // static field const value: static public UnityEngine.XR.MeshGenerationStatus GenerationAlreadyInProgress
     static constexpr const int GenerationAlreadyInProgress = 2;
     // Get static field: static public UnityEngine.XR.MeshGenerationStatus GenerationAlreadyInProgress
-    static UnityEngine::XR::MeshGenerationStatus _get_GenerationAlreadyInProgress();
+    static ::UnityEngine::XR::MeshGenerationStatus _get_GenerationAlreadyInProgress();
     // Set static field: static public UnityEngine.XR.MeshGenerationStatus GenerationAlreadyInProgress
-    static void _set_GenerationAlreadyInProgress(UnityEngine::XR::MeshGenerationStatus value);
+    static void _set_GenerationAlreadyInProgress(::UnityEngine::XR::MeshGenerationStatus value);
     // static field const value: static public UnityEngine.XR.MeshGenerationStatus Canceled
     static constexpr const int Canceled = 3;
     // Get static field: static public UnityEngine.XR.MeshGenerationStatus Canceled
-    static UnityEngine::XR::MeshGenerationStatus _get_Canceled();
+    static ::UnityEngine::XR::MeshGenerationStatus _get_Canceled();
     // Set static field: static public UnityEngine.XR.MeshGenerationStatus Canceled
-    static void _set_Canceled(UnityEngine::XR::MeshGenerationStatus value);
+    static void _set_Canceled(::UnityEngine::XR::MeshGenerationStatus value);
     // static field const value: static public UnityEngine.XR.MeshGenerationStatus UnknownError
     static constexpr const int UnknownError = 4;
     // Get static field: static public UnityEngine.XR.MeshGenerationStatus UnknownError
-    static UnityEngine::XR::MeshGenerationStatus _get_UnknownError();
+    static ::UnityEngine::XR::MeshGenerationStatus _get_UnknownError();
     // Set static field: static public UnityEngine.XR.MeshGenerationStatus UnknownError
-    static void _set_UnknownError(UnityEngine::XR::MeshGenerationStatus value);
+    static void _set_UnknownError(::UnityEngine::XR::MeshGenerationStatus value);
     // Get instance field reference: public System.Int32 value__
     int& dyn_value__();
   }; // UnityEngine.XR.MeshGenerationStatus

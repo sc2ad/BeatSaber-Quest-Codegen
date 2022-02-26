@@ -21,8 +21,8 @@ namespace LiteNetLib {
   class IDeliveryEventListener;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(LiteNetLib::IDeliveryEventListener);
-DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::IDeliveryEventListener*, "LiteNetLib", "IDeliveryEventListener");
+NEED_NO_BOX(::LiteNetLib::IDeliveryEventListener);
+DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::IDeliveryEventListener*, "LiteNetLib", "IDeliveryEventListener");
 // Type namespace: LiteNetLib
 namespace LiteNetLib {
   // Size: 0x10
@@ -33,7 +33,7 @@ namespace LiteNetLib {
     public:
     // public System.Void OnMessageDelivered(LiteNetLib.NetPeer peer, System.Object userData)
     // Offset: 0xFFFFFFFF
-    void OnMessageDelivered(LiteNetLib::NetPeer* peer, ::Il2CppObject* userData);
+    void OnMessageDelivered(::LiteNetLib::NetPeer* peer, ::Il2CppObject* userData);
   }; // LiteNetLib.IDeliveryEventListener
   #pragma pack(pop)
 }
@@ -41,7 +41,7 @@ namespace LiteNetLib {
 // Writing MetadataGetter for method: LiteNetLib::IDeliveryEventListener::OnMessageDelivered
 // Il2CppName: OnMessageDelivered
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::IDeliveryEventListener::*)(LiteNetLib::NetPeer*, ::Il2CppObject*)>(&LiteNetLib::IDeliveryEventListener::OnMessageDelivered)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::IDeliveryEventListener::*)(::LiteNetLib::NetPeer*, ::Il2CppObject*)>(&LiteNetLib::IDeliveryEventListener::OnMessageDelivered)> {
   static const MethodInfo* get() {
     static auto* peer = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetPeer")->byval_arg;
     static auto* userData = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;

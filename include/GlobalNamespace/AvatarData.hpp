@@ -19,8 +19,8 @@ namespace GlobalNamespace {
   class AvatarData;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::AvatarData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarData*, "", "AvatarData");
+NEED_NO_BOX(::GlobalNamespace::AvatarData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AvatarData*, "", "AvatarData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0xD0
@@ -83,51 +83,51 @@ namespace GlobalNamespace {
     // private UnityEngine.Color <headTopPrimaryColor>k__BackingField
     // Size: 0x10
     // Offset: 0x48
-    UnityEngine::Color headTopPrimaryColor;
+    ::UnityEngine::Color headTopPrimaryColor;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     // private UnityEngine.Color <headTopSecondaryColor>k__BackingField
     // Size: 0x10
     // Offset: 0x58
-    UnityEngine::Color headTopSecondaryColor;
+    ::UnityEngine::Color headTopSecondaryColor;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     // private UnityEngine.Color <glassesColor>k__BackingField
     // Size: 0x10
     // Offset: 0x68
-    UnityEngine::Color glassesColor;
+    ::UnityEngine::Color glassesColor;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     // private UnityEngine.Color <facialHairColor>k__BackingField
     // Size: 0x10
     // Offset: 0x78
-    UnityEngine::Color facialHairColor;
+    ::UnityEngine::Color facialHairColor;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     // private UnityEngine.Color <handsColor>k__BackingField
     // Size: 0x10
     // Offset: 0x88
-    UnityEngine::Color handsColor;
+    ::UnityEngine::Color handsColor;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     // private UnityEngine.Color <clothesPrimaryColor>k__BackingField
     // Size: 0x10
     // Offset: 0x98
-    UnityEngine::Color clothesPrimaryColor;
+    ::UnityEngine::Color clothesPrimaryColor;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     // private UnityEngine.Color <clothesSecondaryColor>k__BackingField
     // Size: 0x10
     // Offset: 0xA8
-    UnityEngine::Color clothesSecondaryColor;
+    ::UnityEngine::Color clothesSecondaryColor;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     // private UnityEngine.Color <clothesDetailColor>k__BackingField
     // Size: 0x10
     // Offset: 0xB8
-    UnityEngine::Color clothesDetailColor;
+    ::UnityEngine::Color clothesDetailColor;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     // private System.String <skinColorId>k__BackingField
     // Size: 0x8
     // Offset: 0xC8
@@ -150,21 +150,21 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String <mouthId>k__BackingField
     ::StringW& dyn_$mouthId$k__BackingField();
     // Get instance field reference: private UnityEngine.Color <headTopPrimaryColor>k__BackingField
-    UnityEngine::Color& dyn_$headTopPrimaryColor$k__BackingField();
+    ::UnityEngine::Color& dyn_$headTopPrimaryColor$k__BackingField();
     // Get instance field reference: private UnityEngine.Color <headTopSecondaryColor>k__BackingField
-    UnityEngine::Color& dyn_$headTopSecondaryColor$k__BackingField();
+    ::UnityEngine::Color& dyn_$headTopSecondaryColor$k__BackingField();
     // Get instance field reference: private UnityEngine.Color <glassesColor>k__BackingField
-    UnityEngine::Color& dyn_$glassesColor$k__BackingField();
+    ::UnityEngine::Color& dyn_$glassesColor$k__BackingField();
     // Get instance field reference: private UnityEngine.Color <facialHairColor>k__BackingField
-    UnityEngine::Color& dyn_$facialHairColor$k__BackingField();
+    ::UnityEngine::Color& dyn_$facialHairColor$k__BackingField();
     // Get instance field reference: private UnityEngine.Color <handsColor>k__BackingField
-    UnityEngine::Color& dyn_$handsColor$k__BackingField();
+    ::UnityEngine::Color& dyn_$handsColor$k__BackingField();
     // Get instance field reference: private UnityEngine.Color <clothesPrimaryColor>k__BackingField
-    UnityEngine::Color& dyn_$clothesPrimaryColor$k__BackingField();
+    ::UnityEngine::Color& dyn_$clothesPrimaryColor$k__BackingField();
     // Get instance field reference: private UnityEngine.Color <clothesSecondaryColor>k__BackingField
-    UnityEngine::Color& dyn_$clothesSecondaryColor$k__BackingField();
+    ::UnityEngine::Color& dyn_$clothesSecondaryColor$k__BackingField();
     // Get instance field reference: private UnityEngine.Color <clothesDetailColor>k__BackingField
-    UnityEngine::Color& dyn_$clothesDetailColor$k__BackingField();
+    ::UnityEngine::Color& dyn_$clothesDetailColor$k__BackingField();
     // Get instance field reference: private System.String <skinColorId>k__BackingField
     ::StringW& dyn_$skinColorId$k__BackingField();
     // public System.String get_headTopId()
@@ -211,52 +211,52 @@ namespace GlobalNamespace {
     void set_mouthId(::StringW value);
     // public UnityEngine.Color get_headTopPrimaryColor()
     // Offset: 0x1492744
-    UnityEngine::Color get_headTopPrimaryColor();
+    ::UnityEngine::Color get_headTopPrimaryColor();
     // public System.Void set_headTopPrimaryColor(UnityEngine.Color value)
     // Offset: 0x1492750
-    void set_headTopPrimaryColor(UnityEngine::Color value);
+    void set_headTopPrimaryColor(::UnityEngine::Color value);
     // public UnityEngine.Color get_headTopSecondaryColor()
     // Offset: 0x149275C
-    UnityEngine::Color get_headTopSecondaryColor();
+    ::UnityEngine::Color get_headTopSecondaryColor();
     // public System.Void set_headTopSecondaryColor(UnityEngine.Color value)
     // Offset: 0x1492768
-    void set_headTopSecondaryColor(UnityEngine::Color value);
+    void set_headTopSecondaryColor(::UnityEngine::Color value);
     // public UnityEngine.Color get_glassesColor()
     // Offset: 0x1492774
-    UnityEngine::Color get_glassesColor();
+    ::UnityEngine::Color get_glassesColor();
     // public System.Void set_glassesColor(UnityEngine.Color value)
     // Offset: 0x1492780
-    void set_glassesColor(UnityEngine::Color value);
+    void set_glassesColor(::UnityEngine::Color value);
     // public UnityEngine.Color get_facialHairColor()
     // Offset: 0x149278C
-    UnityEngine::Color get_facialHairColor();
+    ::UnityEngine::Color get_facialHairColor();
     // public System.Void set_facialHairColor(UnityEngine.Color value)
     // Offset: 0x1492798
-    void set_facialHairColor(UnityEngine::Color value);
+    void set_facialHairColor(::UnityEngine::Color value);
     // public UnityEngine.Color get_handsColor()
     // Offset: 0x14927A4
-    UnityEngine::Color get_handsColor();
+    ::UnityEngine::Color get_handsColor();
     // public System.Void set_handsColor(UnityEngine.Color value)
     // Offset: 0x14927B0
-    void set_handsColor(UnityEngine::Color value);
+    void set_handsColor(::UnityEngine::Color value);
     // public UnityEngine.Color get_clothesPrimaryColor()
     // Offset: 0x14927BC
-    UnityEngine::Color get_clothesPrimaryColor();
+    ::UnityEngine::Color get_clothesPrimaryColor();
     // public System.Void set_clothesPrimaryColor(UnityEngine.Color value)
     // Offset: 0x14927C8
-    void set_clothesPrimaryColor(UnityEngine::Color value);
+    void set_clothesPrimaryColor(::UnityEngine::Color value);
     // public UnityEngine.Color get_clothesSecondaryColor()
     // Offset: 0x14927D4
-    UnityEngine::Color get_clothesSecondaryColor();
+    ::UnityEngine::Color get_clothesSecondaryColor();
     // public System.Void set_clothesSecondaryColor(UnityEngine.Color value)
     // Offset: 0x14927E0
-    void set_clothesSecondaryColor(UnityEngine::Color value);
+    void set_clothesSecondaryColor(::UnityEngine::Color value);
     // public UnityEngine.Color get_clothesDetailColor()
     // Offset: 0x14927EC
-    UnityEngine::Color get_clothesDetailColor();
+    ::UnityEngine::Color get_clothesDetailColor();
     // public System.Void set_clothesDetailColor(UnityEngine.Color value)
     // Offset: 0x14927F8
-    void set_clothesDetailColor(UnityEngine::Color value);
+    void set_clothesDetailColor(::UnityEngine::Color value);
     // public System.String get_skinColorId()
     // Offset: 0x1492804
     ::StringW get_skinColorId();
@@ -266,20 +266,20 @@ namespace GlobalNamespace {
     // public System.Void .ctor(System.String headTopId, UnityEngine.Color headTopPrimaryColor, UnityEngine.Color headTopSecondaryColor, System.String glassesId, UnityEngine.Color glassesColor, System.String facialHairId, UnityEngine.Color facialHairColor, System.String handsId, UnityEngine.Color handsColor, System.String clothesId, UnityEngine.Color clothesPrimaryColor, UnityEngine.Color clothesSecondaryColor, UnityEngine.Color clothesDetailColor, System.String skinColorId, System.String eyesId, System.String mouthId)
     // Offset: 0x149281C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AvatarData* New_ctor(::StringW headTopId, UnityEngine::Color headTopPrimaryColor, UnityEngine::Color headTopSecondaryColor, ::StringW glassesId, UnityEngine::Color glassesColor, ::StringW facialHairId, UnityEngine::Color facialHairColor, ::StringW handsId, UnityEngine::Color handsColor, ::StringW clothesId, UnityEngine::Color clothesPrimaryColor, UnityEngine::Color clothesSecondaryColor, UnityEngine::Color clothesDetailColor, ::StringW skinColorId, ::StringW eyesId, ::StringW mouthId) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AvatarData::.ctor");
+    static AvatarData* New_ctor(::StringW headTopId, ::UnityEngine::Color headTopPrimaryColor, ::UnityEngine::Color headTopSecondaryColor, ::StringW glassesId, ::UnityEngine::Color glassesColor, ::StringW facialHairId, ::UnityEngine::Color facialHairColor, ::StringW handsId, ::UnityEngine::Color handsColor, ::StringW clothesId, ::UnityEngine::Color clothesPrimaryColor, ::UnityEngine::Color clothesSecondaryColor, ::UnityEngine::Color clothesDetailColor, ::StringW skinColorId, ::StringW eyesId, ::StringW mouthId) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AvatarData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AvatarData*, creationType>(headTopId, headTopPrimaryColor, headTopSecondaryColor, glassesId, glassesColor, facialHairId, facialHairColor, handsId, handsColor, clothesId, clothesPrimaryColor, clothesSecondaryColor, clothesDetailColor, skinColorId, eyesId, mouthId)));
     }
     // public AvatarData Clone()
     // Offset: 0x149294C
-    GlobalNamespace::AvatarData* Clone();
+    ::GlobalNamespace::AvatarData* Clone();
     // public System.Void .ctor()
     // Offset: 0x1492814
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AvatarData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AvatarData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AvatarData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AvatarData*, creationType>()));
     }
   }; // AvatarData
@@ -410,7 +410,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::AvatarData::get_headTopPrimaryColor
 // Il2CppName: get_headTopPrimaryColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::get_headTopPrimaryColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::get_headTopPrimaryColor)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "get_headTopPrimaryColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -418,7 +418,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::AvatarData::set_headTopPrimaryColor
 // Il2CppName: set_headTopPrimaryColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(UnityEngine::Color)>(&GlobalNamespace::AvatarData::set_headTopPrimaryColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(::UnityEngine::Color)>(&GlobalNamespace::AvatarData::set_headTopPrimaryColor)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "set_headTopPrimaryColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -427,7 +427,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::AvatarData::get_headTopSecondaryColor
 // Il2CppName: get_headTopSecondaryColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::get_headTopSecondaryColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::get_headTopSecondaryColor)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "get_headTopSecondaryColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -435,7 +435,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::AvatarData::set_headTopSecondaryColor
 // Il2CppName: set_headTopSecondaryColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(UnityEngine::Color)>(&GlobalNamespace::AvatarData::set_headTopSecondaryColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(::UnityEngine::Color)>(&GlobalNamespace::AvatarData::set_headTopSecondaryColor)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "set_headTopSecondaryColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -444,7 +444,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::AvatarData::get_glassesColor
 // Il2CppName: get_glassesColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::get_glassesColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::get_glassesColor)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "get_glassesColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -452,7 +452,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::AvatarData::set_glassesColor
 // Il2CppName: set_glassesColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(UnityEngine::Color)>(&GlobalNamespace::AvatarData::set_glassesColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(::UnityEngine::Color)>(&GlobalNamespace::AvatarData::set_glassesColor)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "set_glassesColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -461,7 +461,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::AvatarData::get_facialHairColor
 // Il2CppName: get_facialHairColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::get_facialHairColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::get_facialHairColor)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "get_facialHairColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -469,7 +469,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::AvatarData::set_facialHairColor
 // Il2CppName: set_facialHairColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(UnityEngine::Color)>(&GlobalNamespace::AvatarData::set_facialHairColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(::UnityEngine::Color)>(&GlobalNamespace::AvatarData::set_facialHairColor)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "set_facialHairColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -478,7 +478,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::AvatarData::get_handsColor
 // Il2CppName: get_handsColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::get_handsColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::get_handsColor)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "get_handsColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -486,7 +486,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::AvatarData::set_handsColor
 // Il2CppName: set_handsColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(UnityEngine::Color)>(&GlobalNamespace::AvatarData::set_handsColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(::UnityEngine::Color)>(&GlobalNamespace::AvatarData::set_handsColor)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "set_handsColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -495,7 +495,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::AvatarData::get_clothesPrimaryColor
 // Il2CppName: get_clothesPrimaryColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::get_clothesPrimaryColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::get_clothesPrimaryColor)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "get_clothesPrimaryColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -503,7 +503,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::AvatarData::set_clothesPrimaryColor
 // Il2CppName: set_clothesPrimaryColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(UnityEngine::Color)>(&GlobalNamespace::AvatarData::set_clothesPrimaryColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(::UnityEngine::Color)>(&GlobalNamespace::AvatarData::set_clothesPrimaryColor)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "set_clothesPrimaryColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -512,7 +512,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::AvatarData::get_clothesSecondaryColor
 // Il2CppName: get_clothesSecondaryColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::get_clothesSecondaryColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::get_clothesSecondaryColor)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "get_clothesSecondaryColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -520,7 +520,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::AvatarData::set_clothesSecondaryColor
 // Il2CppName: set_clothesSecondaryColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(UnityEngine::Color)>(&GlobalNamespace::AvatarData::set_clothesSecondaryColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(::UnityEngine::Color)>(&GlobalNamespace::AvatarData::set_clothesSecondaryColor)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "set_clothesSecondaryColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -529,7 +529,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::AvatarData::get_clothesDetailColor
 // Il2CppName: get_clothesDetailColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::get_clothesDetailColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::get_clothesDetailColor)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "get_clothesDetailColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -537,7 +537,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::AvatarData::set_clothesDetailColor
 // Il2CppName: set_clothesDetailColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(UnityEngine::Color)>(&GlobalNamespace::AvatarData::set_clothesDetailColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(::UnityEngine::Color)>(&GlobalNamespace::AvatarData::set_clothesDetailColor)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "set_clothesDetailColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -567,7 +567,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::AvatarData::Clone
 // Il2CppName: Clone
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::AvatarData* (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::Clone)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::AvatarData* (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::Clone)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

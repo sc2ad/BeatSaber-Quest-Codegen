@@ -26,8 +26,8 @@ namespace HoudiniEngineUnity {
   class HEU_HoudiniVersion;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_HoudiniVersion);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_HoudiniVersion*, "HoudiniEngineUnity", "HEU_HoudiniVersion");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_HoudiniVersion);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_HoudiniVersion*, "HoudiniEngineUnity", "HEU_HoudiniVersion");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x10
@@ -132,7 +132,7 @@ namespace HoudiniEngineUnity {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_HoudiniVersion* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_HoudiniVersion::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_HoudiniVersion::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_HoudiniVersion*, creationType>()));
     }
   }; // HoudiniEngineUnity.HEU_HoudiniVersion

@@ -18,8 +18,8 @@ namespace GlobalNamespace {
   class BeatmapEventData;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BeatmapEventData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapEventData*, "", "BeatmapEventData");
+NEED_NO_BOX(::GlobalNamespace::BeatmapEventData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapEventData*, "", "BeatmapEventData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x28
@@ -40,9 +40,9 @@ namespace GlobalNamespace {
     // public readonly BeatmapEventType type
     // Size: 0x4
     // Offset: 0x10
-    GlobalNamespace::BeatmapEventType type;
+    ::GlobalNamespace::BeatmapEventType type;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::BeatmapEventType) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::BeatmapEventType) == 0x4);
     // public readonly System.Single time
     // Size: 0x4
     // Offset: 0x14
@@ -52,9 +52,9 @@ namespace GlobalNamespace {
     // private BeatmapEventData <nextSameTypeEvent>k__BackingField
     // Size: 0x8
     // Offset: 0x18
-    GlobalNamespace::BeatmapEventData* nextSameTypeEvent;
+    ::GlobalNamespace::BeatmapEventData* nextSameTypeEvent;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::BeatmapEventData*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::BeatmapEventData*) == 0x8);
     // public readonly System.Int32 value
     // Size: 0x4
     // Offset: 0x20
@@ -69,26 +69,26 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public readonly BeatmapEventType type
-    GlobalNamespace::BeatmapEventType& dyn_type();
+    ::GlobalNamespace::BeatmapEventType& dyn_type();
     // Get instance field reference: public readonly System.Single time
     float& dyn_time();
     // Get instance field reference: private BeatmapEventData <nextSameTypeEvent>k__BackingField
-    GlobalNamespace::BeatmapEventData*& dyn_$nextSameTypeEvent$k__BackingField();
+    ::GlobalNamespace::BeatmapEventData*& dyn_$nextSameTypeEvent$k__BackingField();
     // Get instance field reference: public readonly System.Int32 value
     int& dyn_value();
     // Get instance field reference: public readonly System.Single floatValue
     float& dyn_floatValue();
     // public BeatmapEventData get_nextSameTypeEvent()
     // Offset: 0x2A4A140
-    GlobalNamespace::BeatmapEventData* get_nextSameTypeEvent();
+    ::GlobalNamespace::BeatmapEventData* get_nextSameTypeEvent();
     // public System.Void set_nextSameTypeEvent(BeatmapEventData value)
     // Offset: 0x2A4A148
-    void set_nextSameTypeEvent(GlobalNamespace::BeatmapEventData* value);
+    void set_nextSameTypeEvent(::GlobalNamespace::BeatmapEventData* value);
     // public System.Void .ctor(System.Single time, BeatmapEventType type, System.Int32 value, System.Single floatValue)
     // Offset: 0x2A4A150
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BeatmapEventData* New_ctor(float time, GlobalNamespace::BeatmapEventType type, int value, float floatValue) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapEventData::.ctor");
+    static BeatmapEventData* New_ctor(float time, ::GlobalNamespace::BeatmapEventType type, int value, float floatValue) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapEventData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapEventData*, creationType>(time, type, value, floatValue)));
     }
   }; // BeatmapEventData
@@ -100,7 +100,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapEventData::get_nextSameTypeEvent
 // Il2CppName: get_nextSameTypeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapEventData* (GlobalNamespace::BeatmapEventData::*)()>(&GlobalNamespace::BeatmapEventData::get_nextSameTypeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapEventData* (GlobalNamespace::BeatmapEventData::*)()>(&GlobalNamespace::BeatmapEventData::get_nextSameTypeEvent)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventData*), "get_nextSameTypeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -108,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapEventData::set_nextSameTypeEvent
 // Il2CppName: set_nextSameTypeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapEventData::*)(GlobalNamespace::BeatmapEventData*)>(&GlobalNamespace::BeatmapEventData::set_nextSameTypeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapEventData::*)(::GlobalNamespace::BeatmapEventData*)>(&GlobalNamespace::BeatmapEventData::set_nextSameTypeEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "BeatmapEventData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventData*), "set_nextSameTypeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

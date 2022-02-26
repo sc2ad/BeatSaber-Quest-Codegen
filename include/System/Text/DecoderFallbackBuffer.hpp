@@ -17,8 +17,8 @@ namespace System::Text {
   class DecoderFallbackBuffer;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Text::DecoderFallbackBuffer);
-DEFINE_IL2CPP_ARG_TYPE(System::Text::DecoderFallbackBuffer*, "System.Text", "DecoderFallbackBuffer");
+NEED_NO_BOX(::System::Text::DecoderFallbackBuffer);
+DEFINE_IL2CPP_ARG_TYPE(::System::Text::DecoderFallbackBuffer*, "System.Text", "DecoderFallbackBuffer");
 // Type namespace: System.Text
 namespace System::Text {
   // Size: 0x20
@@ -86,7 +86,7 @@ namespace System::Text {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DecoderFallbackBuffer* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::DecoderFallbackBuffer::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::DecoderFallbackBuffer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DecoderFallbackBuffer*, creationType>()));
     }
   }; // System.Text.DecoderFallbackBuffer

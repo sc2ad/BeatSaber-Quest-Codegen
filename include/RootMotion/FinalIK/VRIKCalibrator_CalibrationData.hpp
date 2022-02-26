@@ -20,8 +20,8 @@ namespace RootMotion::FinalIK {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::VRIKCalibrator::CalibrationData);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::VRIKCalibrator::CalibrationData*, "RootMotion.FinalIK", "VRIKCalibrator/CalibrationData");
+NEED_NO_BOX(::RootMotion::FinalIK::VRIKCalibrator::CalibrationData);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::VRIKCalibrator::CalibrationData*, "RootMotion.FinalIK", "VRIKCalibrator/CalibrationData");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x6C
@@ -30,7 +30,7 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class VRIKCalibrator::CalibrationData : public ::Il2CppObject {
     public:
-    // Nested type: RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target
+    // Nested type: ::RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target
     class Target;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -52,57 +52,57 @@ namespace RootMotion::FinalIK {
     // public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target head
     // Size: 0x8
     // Offset: 0x18
-    RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* head;
+    ::RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* head;
     // Field size check
-    static_assert(sizeof(RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*) == 0x8);
+    static_assert(sizeof(::RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*) == 0x8);
     // public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target leftHand
     // Size: 0x8
     // Offset: 0x20
-    RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* leftHand;
+    ::RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* leftHand;
     // Field size check
-    static_assert(sizeof(RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*) == 0x8);
+    static_assert(sizeof(::RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*) == 0x8);
     // public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target rightHand
     // Size: 0x8
     // Offset: 0x28
-    RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* rightHand;
+    ::RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* rightHand;
     // Field size check
-    static_assert(sizeof(RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*) == 0x8);
+    static_assert(sizeof(::RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*) == 0x8);
     // public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target pelvis
     // Size: 0x8
     // Offset: 0x30
-    RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* pelvis;
+    ::RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* pelvis;
     // Field size check
-    static_assert(sizeof(RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*) == 0x8);
+    static_assert(sizeof(::RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*) == 0x8);
     // public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target leftFoot
     // Size: 0x8
     // Offset: 0x38
-    RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* leftFoot;
+    ::RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* leftFoot;
     // Field size check
-    static_assert(sizeof(RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*) == 0x8);
+    static_assert(sizeof(::RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*) == 0x8);
     // public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target rightFoot
     // Size: 0x8
     // Offset: 0x40
-    RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* rightFoot;
+    ::RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* rightFoot;
     // Field size check
-    static_assert(sizeof(RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*) == 0x8);
+    static_assert(sizeof(::RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*) == 0x8);
     // public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target leftLegGoal
     // Size: 0x8
     // Offset: 0x48
-    RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* leftLegGoal;
+    ::RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* leftLegGoal;
     // Field size check
-    static_assert(sizeof(RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*) == 0x8);
+    static_assert(sizeof(::RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*) == 0x8);
     // public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target rightLegGoal
     // Size: 0x8
     // Offset: 0x50
-    RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* rightLegGoal;
+    ::RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target* rightLegGoal;
     // Field size check
-    static_assert(sizeof(RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*) == 0x8);
+    static_assert(sizeof(::RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*) == 0x8);
     // public UnityEngine.Vector3 pelvisTargetRight
     // Size: 0xC
     // Offset: 0x58
-    UnityEngine::Vector3 pelvisTargetRight;
+    ::UnityEngine::Vector3 pelvisTargetRight;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // public System.Single pelvisPositionWeight
     // Size: 0x4
     // Offset: 0x64
@@ -119,23 +119,23 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Single scale
     float& dyn_scale();
     // Get instance field reference: public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target head
-    RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*& dyn_head();
+    ::RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*& dyn_head();
     // Get instance field reference: public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target leftHand
-    RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*& dyn_leftHand();
+    ::RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*& dyn_leftHand();
     // Get instance field reference: public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target rightHand
-    RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*& dyn_rightHand();
+    ::RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*& dyn_rightHand();
     // Get instance field reference: public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target pelvis
-    RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*& dyn_pelvis();
+    ::RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*& dyn_pelvis();
     // Get instance field reference: public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target leftFoot
-    RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*& dyn_leftFoot();
+    ::RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*& dyn_leftFoot();
     // Get instance field reference: public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target rightFoot
-    RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*& dyn_rightFoot();
+    ::RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*& dyn_rightFoot();
     // Get instance field reference: public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target leftLegGoal
-    RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*& dyn_leftLegGoal();
+    ::RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*& dyn_leftLegGoal();
     // Get instance field reference: public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target rightLegGoal
-    RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*& dyn_rightLegGoal();
+    ::RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*& dyn_rightLegGoal();
     // Get instance field reference: public UnityEngine.Vector3 pelvisTargetRight
-    UnityEngine::Vector3& dyn_pelvisTargetRight();
+    ::UnityEngine::Vector3& dyn_pelvisTargetRight();
     // Get instance field reference: public System.Single pelvisPositionWeight
     float& dyn_pelvisPositionWeight();
     // Get instance field reference: public System.Single pelvisRotationWeight
@@ -146,7 +146,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRIKCalibrator::CalibrationData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::VRIKCalibrator::CalibrationData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::VRIKCalibrator::CalibrationData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRIKCalibrator::CalibrationData*, creationType>()));
     }
   }; // RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData

@@ -43,8 +43,8 @@ namespace System::Reflection {
   class EventInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Reflection::EventInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::EventInfo*, "System.Reflection", "EventInfo");
+NEED_NO_BOX(::System::Reflection::EventInfo);
+DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::EventInfo*, "System.Reflection", "EventInfo");
 // Type namespace: System.Reflection
 namespace System::Reflection {
   // Size: 0x18
@@ -55,9 +55,9 @@ namespace System::Reflection {
   // [ClassInterfaceAttribute] Offset: 118898C
   // [ComVisibleAttribute] Offset: 118898C
   // [ComDefaultInterfaceAttribute] Offset: 118898C
-  class EventInfo : public System::Reflection::MemberInfo/*, public System::Runtime::InteropServices::_EventInfo*/ {
+  class EventInfo : public ::System::Reflection::MemberInfo/*, public ::System::Runtime::InteropServices::_EventInfo*/ {
     public:
-    // Nested type: System::Reflection::EventInfo::AddEventAdapter
+    // Nested type: ::System::Reflection::EventInfo::AddEventAdapter
     class AddEventAdapter;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -71,43 +71,43 @@ namespace System::Reflection {
     // private System.Reflection.EventInfo/System.Reflection.AddEventAdapter cached_add_event
     // Size: 0x8
     // Offset: 0x10
-    System::Reflection::EventInfo::AddEventAdapter* cached_add_event;
+    ::System::Reflection::EventInfo::AddEventAdapter* cached_add_event;
     // Field size check
-    static_assert(sizeof(System::Reflection::EventInfo::AddEventAdapter*) == 0x8);
+    static_assert(sizeof(::System::Reflection::EventInfo::AddEventAdapter*) == 0x8);
     public:
-    // Creating interface conversion operator: operator System::Runtime::InteropServices::_EventInfo
-    operator System::Runtime::InteropServices::_EventInfo() noexcept {
-      return *reinterpret_cast<System::Runtime::InteropServices::_EventInfo*>(this);
+    // Creating interface conversion operator: operator ::System::Runtime::InteropServices::_EventInfo
+    operator ::System::Runtime::InteropServices::_EventInfo() noexcept {
+      return *reinterpret_cast<::System::Runtime::InteropServices::_EventInfo*>(this);
     }
-    // Creating conversion operator: operator System::Reflection::EventInfo::AddEventAdapter*
-    constexpr operator System::Reflection::EventInfo::AddEventAdapter*() const noexcept {
+    // Creating conversion operator: operator ::System::Reflection::EventInfo::AddEventAdapter*
+    constexpr operator ::System::Reflection::EventInfo::AddEventAdapter*() const noexcept {
       return cached_add_event;
     }
     // Get instance field reference: private System.Reflection.EventInfo/System.Reflection.AddEventAdapter cached_add_event
-    System::Reflection::EventInfo::AddEventAdapter*& dyn_cached_add_event();
+    ::System::Reflection::EventInfo::AddEventAdapter*& dyn_cached_add_event();
     // public System.Type get_EventHandlerType()
     // Offset: 0x2166B44
-    System::Type* get_EventHandlerType();
+    ::System::Type* get_EventHandlerType();
     // public System.Reflection.MethodInfo GetAddMethod(System.Boolean nonPublic)
     // Offset: 0xFFFFFFFF
-    System::Reflection::MethodInfo* GetAddMethod(bool nonPublic);
+    ::System::Reflection::MethodInfo* GetAddMethod(bool nonPublic);
     // public System.Reflection.MethodInfo GetRaiseMethod(System.Boolean nonPublic)
     // Offset: 0xFFFFFFFF
-    System::Reflection::MethodInfo* GetRaiseMethod(bool nonPublic);
+    ::System::Reflection::MethodInfo* GetRaiseMethod(bool nonPublic);
     // public System.Reflection.MethodInfo GetRemoveMethod(System.Boolean nonPublic)
     // Offset: 0xFFFFFFFF
-    System::Reflection::MethodInfo* GetRemoveMethod(bool nonPublic);
+    ::System::Reflection::MethodInfo* GetRemoveMethod(bool nonPublic);
     // static private System.Reflection.EventInfo internal_from_handle_type(System.IntPtr event_handle, System.IntPtr type_handle)
     // Offset: 0x2166C84
-    static System::Reflection::EventInfo* internal_from_handle_type(System::IntPtr event_handle, System::IntPtr type_handle);
+    static ::System::Reflection::EventInfo* internal_from_handle_type(::System::IntPtr event_handle, ::System::IntPtr type_handle);
     // static System.Reflection.EventInfo GetEventFromHandle(Mono.RuntimeEventHandle handle, System.RuntimeTypeHandle reflectedType)
     // Offset: 0x2166C88
-    static System::Reflection::EventInfo* GetEventFromHandle(Mono::RuntimeEventHandle handle, System::RuntimeTypeHandle reflectedType);
+    static ::System::Reflection::EventInfo* GetEventFromHandle(::Mono::RuntimeEventHandle handle, ::System::RuntimeTypeHandle reflectedType);
     // public override System.Reflection.MemberTypes get_MemberType()
     // Offset: 0x2166BB8
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Reflection.MemberTypes MemberInfo::get_MemberType()
-    System::Reflection::MemberTypes get_MemberType();
+    ::System::Reflection::MemberTypes get_MemberType();
     // protected System.Void .ctor()
     // Offset: 0x2166BC0
     // Implemented from: System.Reflection.MemberInfo
@@ -115,7 +115,7 @@ namespace System::Reflection {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EventInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::EventInfo::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Reflection::EventInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EventInfo*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object obj)
@@ -130,20 +130,20 @@ namespace System::Reflection {
     int GetHashCode();
   }; // System.Reflection.EventInfo
   #pragma pack(pop)
-  static check_size<sizeof(EventInfo), 16 + sizeof(System::Reflection::EventInfo::AddEventAdapter*)> __System_Reflection_EventInfoSizeCheck;
+  static check_size<sizeof(EventInfo), 16 + sizeof(::System::Reflection::EventInfo::AddEventAdapter*)> __System_Reflection_EventInfoSizeCheck;
   static_assert(sizeof(EventInfo) == 0x18);
   // static public System.Boolean op_Equality(System.Reflection.EventInfo left, System.Reflection.EventInfo right)
   // Offset: 0x2166BDC
-  bool operator ==(System::Reflection::EventInfo* left, System::Reflection::EventInfo& right);
+  bool operator ==(::System::Reflection::EventInfo* left, ::System::Reflection::EventInfo& right);
   // static public System.Boolean op_Inequality(System.Reflection.EventInfo left, System.Reflection.EventInfo right)
   // Offset: 0x2166C28
-  bool operator !=(System::Reflection::EventInfo* left, System::Reflection::EventInfo& right);
+  bool operator !=(::System::Reflection::EventInfo* left, ::System::Reflection::EventInfo& right);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::EventInfo::get_EventHandlerType
 // Il2CppName: get_EventHandlerType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Reflection::EventInfo::*)()>(&System::Reflection::EventInfo::get_EventHandlerType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (System::Reflection::EventInfo::*)()>(&System::Reflection::EventInfo::get_EventHandlerType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::EventInfo*), "get_EventHandlerType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -151,7 +151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: System::Reflection::EventInfo::GetAddMethod
 // Il2CppName: GetAddMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (System::Reflection::EventInfo::*)(bool)>(&System::Reflection::EventInfo::GetAddMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (System::Reflection::EventInfo::*)(bool)>(&System::Reflection::EventInfo::GetAddMethod)> {
   static const MethodInfo* get() {
     static auto* nonPublic = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::EventInfo*), "GetAddMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nonPublic});
@@ -160,7 +160,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Reflection::EventInfo::GetRaiseMethod
 // Il2CppName: GetRaiseMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (System::Reflection::EventInfo::*)(bool)>(&System::Reflection::EventInfo::GetRaiseMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (System::Reflection::EventInfo::*)(bool)>(&System::Reflection::EventInfo::GetRaiseMethod)> {
   static const MethodInfo* get() {
     static auto* nonPublic = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::EventInfo*), "GetRaiseMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nonPublic});
@@ -169,7 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Reflection::EventInfo::GetRemoveMethod
 // Il2CppName: GetRemoveMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (System::Reflection::EventInfo::*)(bool)>(&System::Reflection::EventInfo::GetRemoveMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (System::Reflection::EventInfo::*)(bool)>(&System::Reflection::EventInfo::GetRemoveMethod)> {
   static const MethodInfo* get() {
     static auto* nonPublic = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::EventInfo*), "GetRemoveMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nonPublic});
@@ -178,7 +178,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Reflection::EventInfo::internal_from_handle_type
 // Il2CppName: internal_from_handle_type
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::EventInfo* (*)(System::IntPtr, System::IntPtr)>(&System::Reflection::EventInfo::internal_from_handle_type)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::EventInfo* (*)(::System::IntPtr, ::System::IntPtr)>(&System::Reflection::EventInfo::internal_from_handle_type)> {
   static const MethodInfo* get() {
     static auto* event_handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* type_handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -188,7 +188,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Reflection::EventInfo::GetEventFromHandle
 // Il2CppName: GetEventFromHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::EventInfo* (*)(Mono::RuntimeEventHandle, System::RuntimeTypeHandle)>(&System::Reflection::EventInfo::GetEventFromHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::EventInfo* (*)(::Mono::RuntimeEventHandle, ::System::RuntimeTypeHandle)>(&System::Reflection::EventInfo::GetEventFromHandle)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("Mono", "RuntimeEventHandle")->byval_arg;
     static auto* reflectedType = &::il2cpp_utils::GetClassFromName("System", "RuntimeTypeHandle")->byval_arg;
@@ -198,7 +198,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Reflection::EventInfo::get_MemberType
 // Il2CppName: get_MemberType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MemberTypes (System::Reflection::EventInfo::*)()>(&System::Reflection::EventInfo::get_MemberType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MemberTypes (System::Reflection::EventInfo::*)()>(&System::Reflection::EventInfo::get_MemberType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::EventInfo*), "get_MemberType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

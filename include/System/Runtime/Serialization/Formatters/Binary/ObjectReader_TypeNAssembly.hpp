@@ -21,8 +21,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::ObjectReader::TypeNAssembly);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::ObjectReader::TypeNAssembly*, "System.Runtime.Serialization.Formatters.Binary", "ObjectReader/TypeNAssembly");
+NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::ObjectReader::TypeNAssembly);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::ObjectReader::TypeNAssembly*, "System.Runtime.Serialization.Formatters.Binary", "ObjectReader/TypeNAssembly");
 // Type namespace: System.Runtime.Serialization.Formatters.Binary
 namespace System::Runtime::Serialization::Formatters::Binary {
   // Size: 0x20
@@ -43,9 +43,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // public System.Type type
     // Size: 0x8
     // Offset: 0x10
-    System::Type* type;
+    ::System::Type* type;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     // public System.String assemblyName
     // Size: 0x8
     // Offset: 0x18
@@ -54,7 +54,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public System.Type type
-    System::Type*& dyn_type();
+    ::System::Type*& dyn_type();
     // Get instance field reference: public System.String assemblyName
     ::StringW& dyn_assemblyName();
     // public System.Void .ctor()
@@ -63,7 +63,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjectReader::TypeNAssembly* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::ObjectReader::TypeNAssembly::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::Formatters::Binary::ObjectReader::TypeNAssembly::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectReader::TypeNAssembly*, creationType>()));
     }
   }; // System.Runtime.Serialization.Formatters.Binary.ObjectReader/System.Runtime.Serialization.Formatters.Binary.TypeNAssembly

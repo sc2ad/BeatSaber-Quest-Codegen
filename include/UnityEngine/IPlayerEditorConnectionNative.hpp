@@ -20,8 +20,8 @@ namespace UnityEngine {
   class IPlayerEditorConnectionNative;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::IPlayerEditorConnectionNative);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::IPlayerEditorConnectionNative*, "UnityEngine", "IPlayerEditorConnectionNative");
+NEED_NO_BOX(::UnityEngine::IPlayerEditorConnectionNative);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::IPlayerEditorConnectionNative*, "UnityEngine", "IPlayerEditorConnectionNative");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -38,19 +38,19 @@ namespace UnityEngine {
     void DisconnectAll();
     // public System.Void SendMessage(System.Guid messageId, System.Byte[] data, System.Int32 playerId)
     // Offset: 0xFFFFFFFF
-    void SendMessage(System::Guid messageId, ::ArrayW<uint8_t> data, int playerId);
+    void SendMessage(::System::Guid messageId, ::ArrayW<uint8_t> data, int playerId);
     // public System.Boolean TrySendMessage(System.Guid messageId, System.Byte[] data, System.Int32 playerId)
     // Offset: 0xFFFFFFFF
-    bool TrySendMessage(System::Guid messageId, ::ArrayW<uint8_t> data, int playerId);
+    bool TrySendMessage(::System::Guid messageId, ::ArrayW<uint8_t> data, int playerId);
     // public System.Void Poll()
     // Offset: 0xFFFFFFFF
     void Poll();
     // public System.Void RegisterInternal(System.Guid messageId)
     // Offset: 0xFFFFFFFF
-    void RegisterInternal(System::Guid messageId);
+    void RegisterInternal(::System::Guid messageId);
     // public System.Void UnregisterInternal(System.Guid messageId)
     // Offset: 0xFFFFFFFF
-    void UnregisterInternal(System::Guid messageId);
+    void UnregisterInternal(::System::Guid messageId);
     // public System.Boolean IsConnected()
     // Offset: 0xFFFFFFFF
     bool IsConnected();
@@ -77,7 +77,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::IPlayerEditorConnectionNative::SendMessage
 // Il2CppName: SendMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::IPlayerEditorConnectionNative::*)(System::Guid, ::ArrayW<uint8_t>, int)>(&UnityEngine::IPlayerEditorConnectionNative::SendMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::IPlayerEditorConnectionNative::*)(::System::Guid, ::ArrayW<uint8_t>, int)>(&UnityEngine::IPlayerEditorConnectionNative::SendMessage)> {
   static const MethodInfo* get() {
     static auto* messageId = &::il2cpp_utils::GetClassFromName("System", "Guid")->byval_arg;
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -88,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::IPlayerEditorConnectionNative::TrySendMessage
 // Il2CppName: TrySendMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::IPlayerEditorConnectionNative::*)(System::Guid, ::ArrayW<uint8_t>, int)>(&UnityEngine::IPlayerEditorConnectionNative::TrySendMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::IPlayerEditorConnectionNative::*)(::System::Guid, ::ArrayW<uint8_t>, int)>(&UnityEngine::IPlayerEditorConnectionNative::TrySendMessage)> {
   static const MethodInfo* get() {
     static auto* messageId = &::il2cpp_utils::GetClassFromName("System", "Guid")->byval_arg;
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -107,7 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::IPlayerEditorConnectionNative::RegisterInternal
 // Il2CppName: RegisterInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::IPlayerEditorConnectionNative::*)(System::Guid)>(&UnityEngine::IPlayerEditorConnectionNative::RegisterInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::IPlayerEditorConnectionNative::*)(::System::Guid)>(&UnityEngine::IPlayerEditorConnectionNative::RegisterInternal)> {
   static const MethodInfo* get() {
     static auto* messageId = &::il2cpp_utils::GetClassFromName("System", "Guid")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::IPlayerEditorConnectionNative*), "RegisterInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{messageId});
@@ -116,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::IPlayerEditorConnectionNative::UnregisterInternal
 // Il2CppName: UnregisterInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::IPlayerEditorConnectionNative::*)(System::Guid)>(&UnityEngine::IPlayerEditorConnectionNative::UnregisterInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::IPlayerEditorConnectionNative::*)(::System::Guid)>(&UnityEngine::IPlayerEditorConnectionNative::UnregisterInternal)> {
   static const MethodInfo* get() {
     static auto* messageId = &::il2cpp_utils::GetClassFromName("System", "Guid")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::IPlayerEditorConnectionNative*), "UnregisterInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{messageId});

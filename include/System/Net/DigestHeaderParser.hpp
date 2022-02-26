@@ -18,8 +18,8 @@ namespace System::Net {
   class DigestHeaderParser;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::DigestHeaderParser);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::DigestHeaderParser*, "System.Net", "DigestHeaderParser");
+NEED_NO_BOX(::System::Net::DigestHeaderParser);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::DigestHeaderParser*, "System.Net", "DigestHeaderParser");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x28
@@ -93,7 +93,7 @@ namespace System::Net {
     // Offset: 0x1AB1B4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DigestHeaderParser* New_ctor(::StringW header) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::DigestHeaderParser::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::DigestHeaderParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DigestHeaderParser*, creationType>(header)));
     }
     // static private System.Void .cctor()

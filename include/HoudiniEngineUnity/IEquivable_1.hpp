@@ -16,7 +16,7 @@ namespace HoudiniEngineUnity {
   class IEquivable_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(HoudiniEngineUnity::IEquivable_1, "HoudiniEngineUnity", "IEquivable`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::HoudiniEngineUnity::IEquivable_1, "HoudiniEngineUnity", "IEquivable`1");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // WARNING Size may be invalid!
@@ -28,7 +28,7 @@ namespace HoudiniEngineUnity {
     // public System.Boolean IsEquivalentTo(T other)
     // Offset: 0xFFFFFFFF
     bool IsEquivalentTo(T other) {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::IEquivable_1::IsEquivalentTo");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::IEquivable_1::IsEquivalentTo");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "IsEquivalentTo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(other)})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, other);
     }

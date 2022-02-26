@@ -22,8 +22,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::Http::Headers::Parser::MD5);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Parser::MD5*, "System.Net.Http.Headers", "Parser/MD5");
+NEED_NO_BOX(::System::Net::Http::Headers::Parser::MD5);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::Parser::MD5*, "System.Net.Http.Headers", "Parser/MD5");
 // Type namespace: System.Net.Http.Headers
 namespace System::Net::Http::Headers {
   // Size: 0x10
@@ -32,12 +32,12 @@ namespace System::Net::Http::Headers {
   // [TokenAttribute] Offset: FFFFFFFF
   class Parser::MD5 : public ::Il2CppObject {
     public:
-    // Nested type: System::Net::Http::Headers::Parser::MD5::$$c
+    // Nested type: ::System::Net::Http::Headers::Parser::MD5::$$c
     class $$c;
     // Get static field: static public readonly System.Func`2<System.Object,System.String> ToString
-    static System::Func_2<::Il2CppObject*, ::StringW>* _get_ToString();
+    static ::System::Func_2<::Il2CppObject*, ::StringW>* _get_ToString();
     // Set static field: static public readonly System.Func`2<System.Object,System.String> ToString
-    static void _set_ToString(System::Func_2<::Il2CppObject*, ::StringW>* value);
+    static void _set_ToString(::System::Func_2<::Il2CppObject*, ::StringW>* value);
     // static private System.Void .cctor()
     // Offset: 0x18FD694
     static void _cctor();

@@ -12,8 +12,8 @@ namespace System::Net {
   class DefaultCertificatePolicy;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::DefaultCertificatePolicy);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::DefaultCertificatePolicy*, "System.Net", "DefaultCertificatePolicy");
+NEED_NO_BOX(::System::Net::DefaultCertificatePolicy);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::DefaultCertificatePolicy*, "System.Net", "DefaultCertificatePolicy");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x10

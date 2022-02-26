@@ -36,8 +36,8 @@ namespace System::Reflection {
   class MethodInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Reflection::MethodInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MethodInfo*, "System.Reflection", "MethodInfo");
+NEED_NO_BOX(::System::Reflection::MethodInfo);
+DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::MethodInfo*, "System.Reflection", "MethodInfo");
 // Type namespace: System.Reflection
 namespace System::Reflection {
   // Size: 0x10
@@ -47,38 +47,38 @@ namespace System::Reflection {
   // [ClassInterfaceAttribute] Offset: 118853C
   // [ComVisibleAttribute] Offset: 118853C
   // [ComDefaultInterfaceAttribute] Offset: 118853C
-  class MethodInfo : public System::Reflection::MethodBase/*, public System::Runtime::InteropServices::_MethodInfo*/ {
+  class MethodInfo : public ::System::Reflection::MethodBase/*, public ::System::Runtime::InteropServices::_MethodInfo*/ {
     public:
-    // Creating interface conversion operator: operator System::Runtime::InteropServices::_MethodInfo
-    operator System::Runtime::InteropServices::_MethodInfo() noexcept {
-      return *reinterpret_cast<System::Runtime::InteropServices::_MethodInfo*>(this);
+    // Creating interface conversion operator: operator ::System::Runtime::InteropServices::_MethodInfo
+    operator ::System::Runtime::InteropServices::_MethodInfo() noexcept {
+      return *reinterpret_cast<::System::Runtime::InteropServices::_MethodInfo*>(this);
     }
     // public System.Type get_ReturnType()
     // Offset: 0x2169D64
-    System::Type* get_ReturnType();
+    ::System::Type* get_ReturnType();
     // public System.Reflection.MethodInfo GetBaseDefinition()
     // Offset: 0xFFFFFFFF
-    System::Reflection::MethodInfo* GetBaseDefinition();
+    ::System::Reflection::MethodInfo* GetBaseDefinition();
     // public System.Reflection.MethodInfo GetGenericMethodDefinition()
     // Offset: 0x2169E44
-    System::Reflection::MethodInfo* GetGenericMethodDefinition();
+    ::System::Reflection::MethodInfo* GetGenericMethodDefinition();
     // public System.Reflection.MethodInfo MakeGenericMethod(params System.Type[] typeArguments)
     // Offset: 0x2169EC4
-    System::Reflection::MethodInfo* MakeGenericMethod(::ArrayW<System::Type*> typeArguments);
+    ::System::Reflection::MethodInfo* MakeGenericMethod(::ArrayW<::System::Type*> typeArguments);
     // public System.Delegate CreateDelegate(System.Type delegateType)
     // Offset: 0x2169F44
-    System::Delegate* CreateDelegate(System::Type* delegateType);
+    ::System::Delegate* CreateDelegate(::System::Type* delegateType);
     // public System.Delegate CreateDelegate(System.Type delegateType, System.Object target)
     // Offset: 0x2169FC4
-    System::Delegate* CreateDelegate(System::Type* delegateType, ::Il2CppObject* target);
+    ::System::Delegate* CreateDelegate(::System::Type* delegateType, ::Il2CppObject* target);
     // System.Reflection.MethodInfo GetBaseMethod()
     // Offset: 0x216A044
-    System::Reflection::MethodInfo* GetBaseMethod();
+    ::System::Reflection::MethodInfo* GetBaseMethod();
     // public override System.Reflection.MemberTypes get_MemberType()
     // Offset: 0x2169D5C
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Reflection.MemberTypes MemberInfo::get_MemberType()
-    System::Reflection::MemberTypes get_MemberType();
+    ::System::Reflection::MemberTypes get_MemberType();
     // protected System.Void .ctor()
     // Offset: 0x2169D48
     // Implemented from: System.Reflection.MethodBase
@@ -87,7 +87,7 @@ namespace System::Reflection {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MethodInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::MethodInfo::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Reflection::MethodInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MethodInfo*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object obj)
@@ -104,21 +104,21 @@ namespace System::Reflection {
     // Offset: 0x2169DC4
     // Implemented from: System.Reflection.MethodBase
     // Base method: System.Type[] MethodBase::GetGenericArguments()
-    ::ArrayW<System::Type*> GetGenericArguments();
+    ::ArrayW<::System::Type*> GetGenericArguments();
   }; // System.Reflection.MethodInfo
   #pragma pack(pop)
   // static public System.Boolean op_Equality(System.Reflection.MethodInfo left, System.Reflection.MethodInfo right)
   // Offset: 0x21692B0
-  bool operator ==(System::Reflection::MethodInfo* left, System::Reflection::MethodInfo& right);
+  bool operator ==(::System::Reflection::MethodInfo* left, ::System::Reflection::MethodInfo& right);
   // static public System.Boolean op_Inequality(System.Reflection.MethodInfo left, System.Reflection.MethodInfo right)
   // Offset: 0x21695B0
-  bool operator !=(System::Reflection::MethodInfo* left, System::Reflection::MethodInfo& right);
+  bool operator !=(::System::Reflection::MethodInfo* left, ::System::Reflection::MethodInfo& right);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::MethodInfo::get_ReturnType
 // Il2CppName: get_ReturnType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Reflection::MethodInfo::*)()>(&System::Reflection::MethodInfo::get_ReturnType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (System::Reflection::MethodInfo::*)()>(&System::Reflection::MethodInfo::get_ReturnType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::MethodInfo*), "get_ReturnType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -126,7 +126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: System::Reflection::MethodInfo::GetBaseDefinition
 // Il2CppName: GetBaseDefinition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (System::Reflection::MethodInfo::*)()>(&System::Reflection::MethodInfo::GetBaseDefinition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (System::Reflection::MethodInfo::*)()>(&System::Reflection::MethodInfo::GetBaseDefinition)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::MethodInfo*), "GetBaseDefinition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -134,7 +134,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Reflection::MethodInfo::GetGenericMethodDefinition
 // Il2CppName: GetGenericMethodDefinition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (System::Reflection::MethodInfo::*)()>(&System::Reflection::MethodInfo::GetGenericMethodDefinition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (System::Reflection::MethodInfo::*)()>(&System::Reflection::MethodInfo::GetGenericMethodDefinition)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::MethodInfo*), "GetGenericMethodDefinition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -142,7 +142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Reflection::MethodInfo::MakeGenericMethod
 // Il2CppName: MakeGenericMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (System::Reflection::MethodInfo::*)(::ArrayW<System::Type*>)>(&System::Reflection::MethodInfo::MakeGenericMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (System::Reflection::MethodInfo::*)(::ArrayW<::System::Type*>)>(&System::Reflection::MethodInfo::MakeGenericMethod)> {
   static const MethodInfo* get() {
     static auto* typeArguments = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::MethodInfo*), "MakeGenericMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{typeArguments});
@@ -151,7 +151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Reflection::MethodInfo::CreateDelegate
 // Il2CppName: CreateDelegate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Delegate* (System::Reflection::MethodInfo::*)(System::Type*)>(&System::Reflection::MethodInfo::CreateDelegate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Delegate* (System::Reflection::MethodInfo::*)(::System::Type*)>(&System::Reflection::MethodInfo::CreateDelegate)> {
   static const MethodInfo* get() {
     static auto* delegateType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::MethodInfo*), "CreateDelegate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{delegateType});
@@ -160,7 +160,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Del
 // Writing MetadataGetter for method: System::Reflection::MethodInfo::CreateDelegate
 // Il2CppName: CreateDelegate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Delegate* (System::Reflection::MethodInfo::*)(System::Type*, ::Il2CppObject*)>(&System::Reflection::MethodInfo::CreateDelegate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Delegate* (System::Reflection::MethodInfo::*)(::System::Type*, ::Il2CppObject*)>(&System::Reflection::MethodInfo::CreateDelegate)> {
   static const MethodInfo* get() {
     static auto* delegateType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -170,7 +170,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Del
 // Writing MetadataGetter for method: System::Reflection::MethodInfo::GetBaseMethod
 // Il2CppName: GetBaseMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (System::Reflection::MethodInfo::*)()>(&System::Reflection::MethodInfo::GetBaseMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (System::Reflection::MethodInfo::*)()>(&System::Reflection::MethodInfo::GetBaseMethod)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::MethodInfo*), "GetBaseMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -178,7 +178,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Reflection::MethodInfo::get_MemberType
 // Il2CppName: get_MemberType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MemberTypes (System::Reflection::MethodInfo::*)()>(&System::Reflection::MethodInfo::get_MemberType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MemberTypes (System::Reflection::MethodInfo::*)()>(&System::Reflection::MethodInfo::get_MemberType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::MethodInfo*), "get_MemberType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -207,7 +207,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Reflection::MethodInfo::GetGenericArguments
 // Il2CppName: GetGenericArguments
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Type*> (System::Reflection::MethodInfo::*)()>(&System::Reflection::MethodInfo::GetGenericArguments)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Type*> (System::Reflection::MethodInfo::*)()>(&System::Reflection::MethodInfo::GetGenericArguments)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::MethodInfo*), "GetGenericArguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

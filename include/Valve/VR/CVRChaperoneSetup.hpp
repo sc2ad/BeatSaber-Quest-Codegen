@@ -38,8 +38,8 @@ namespace Valve::VR {
   class CVRChaperoneSetup;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Valve::VR::CVRChaperoneSetup);
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRChaperoneSetup*, "Valve.VR", "CVRChaperoneSetup");
+NEED_NO_BOX(::Valve::VR::CVRChaperoneSetup);
+DEFINE_IL2CPP_ARG_TYPE(::Valve::VR::CVRChaperoneSetup*, "Valve.VR", "CVRChaperoneSetup");
 // Type namespace: Valve.VR
 namespace Valve::VR {
   // Size: 0xB0
@@ -60,26 +60,26 @@ namespace Valve::VR {
     // private Valve.VR.IVRChaperoneSetup FnTable
     // Size: 0xA0
     // Offset: 0x10
-    Valve::VR::IVRChaperoneSetup FnTable;
+    ::Valve::VR::IVRChaperoneSetup FnTable;
     // Field size check
-    static_assert(sizeof(Valve::VR::IVRChaperoneSetup) == 0xA0);
+    static_assert(sizeof(::Valve::VR::IVRChaperoneSetup) == 0xA0);
     public:
-    // Creating conversion operator: operator Valve::VR::IVRChaperoneSetup
-    constexpr operator Valve::VR::IVRChaperoneSetup() const noexcept {
+    // Creating conversion operator: operator ::Valve::VR::IVRChaperoneSetup
+    constexpr operator ::Valve::VR::IVRChaperoneSetup() const noexcept {
       return FnTable;
     }
     // Get instance field reference: private Valve.VR.IVRChaperoneSetup FnTable
-    Valve::VR::IVRChaperoneSetup& dyn_FnTable();
+    ::Valve::VR::IVRChaperoneSetup& dyn_FnTable();
     // System.Void .ctor(System.IntPtr pInterface)
     // Offset: 0x1AF8E74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CVRChaperoneSetup* New_ctor(System::IntPtr pInterface) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::CVRChaperoneSetup::.ctor");
+    static CVRChaperoneSetup* New_ctor(::System::IntPtr pInterface) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Valve::VR::CVRChaperoneSetup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRChaperoneSetup*, creationType>(pInterface)));
     }
     // public System.Boolean CommitWorkingCopy(Valve.VR.EChaperoneConfigFile configFile)
     // Offset: 0x1AF8F7C
-    bool CommitWorkingCopy(Valve::VR::EChaperoneConfigFile configFile);
+    bool CommitWorkingCopy(::Valve::VR::EChaperoneConfigFile configFile);
     // public System.Void RevertWorkingCopy()
     // Offset: 0x1AF9210
     void RevertWorkingCopy();
@@ -88,37 +88,37 @@ namespace Valve::VR {
     bool GetWorkingPlayAreaSize(ByRef<float> pSizeX, ByRef<float> pSizeZ);
     // public System.Boolean GetWorkingPlayAreaRect(ref Valve.VR.HmdQuad_t rect)
     // Offset: 0x1AF9250
-    bool GetWorkingPlayAreaRect(ByRef<Valve::VR::HmdQuad_t> rect);
+    bool GetWorkingPlayAreaRect(ByRef<::Valve::VR::HmdQuad_t> rect);
     // public System.Boolean GetWorkingCollisionBoundsInfo(out Valve.VR.HmdQuad_t[] pQuadsBuffer)
     // Offset: 0x1AF926C
-    bool GetWorkingCollisionBoundsInfo(ByRef<::ArrayW<Valve::VR::HmdQuad_t>> pQuadsBuffer);
+    bool GetWorkingCollisionBoundsInfo(ByRef<::ArrayW<::Valve::VR::HmdQuad_t>> pQuadsBuffer);
     // public System.Boolean GetLiveCollisionBoundsInfo(out Valve.VR.HmdQuad_t[] pQuadsBuffer)
     // Offset: 0x1AF930C
-    bool GetLiveCollisionBoundsInfo(ByRef<::ArrayW<Valve::VR::HmdQuad_t>> pQuadsBuffer);
+    bool GetLiveCollisionBoundsInfo(ByRef<::ArrayW<::Valve::VR::HmdQuad_t>> pQuadsBuffer);
     // public System.Boolean GetWorkingSeatedZeroPoseToRawTrackingPose(ref Valve.VR.HmdMatrix34_t pmatSeatedZeroPoseToRawTrackingPose)
     // Offset: 0x1AF9620
-    bool GetWorkingSeatedZeroPoseToRawTrackingPose(ByRef<Valve::VR::HmdMatrix34_t> pmatSeatedZeroPoseToRawTrackingPose);
+    bool GetWorkingSeatedZeroPoseToRawTrackingPose(ByRef<::Valve::VR::HmdMatrix34_t> pmatSeatedZeroPoseToRawTrackingPose);
     // public System.Boolean GetWorkingStandingZeroPoseToRawTrackingPose(ref Valve.VR.HmdMatrix34_t pmatStandingZeroPoseToRawTrackingPose)
     // Offset: 0x1AF963C
-    bool GetWorkingStandingZeroPoseToRawTrackingPose(ByRef<Valve::VR::HmdMatrix34_t> pmatStandingZeroPoseToRawTrackingPose);
+    bool GetWorkingStandingZeroPoseToRawTrackingPose(ByRef<::Valve::VR::HmdMatrix34_t> pmatStandingZeroPoseToRawTrackingPose);
     // public System.Void SetWorkingPlayAreaSize(System.Single sizeX, System.Single sizeZ)
     // Offset: 0x1AF9658
     void SetWorkingPlayAreaSize(float sizeX, float sizeZ);
     // public System.Void SetWorkingCollisionBoundsInfo(Valve.VR.HmdQuad_t[] pQuadsBuffer)
     // Offset: 0x1AF9674
-    void SetWorkingCollisionBoundsInfo(::ArrayW<Valve::VR::HmdQuad_t> pQuadsBuffer);
+    void SetWorkingCollisionBoundsInfo(::ArrayW<::Valve::VR::HmdQuad_t> pQuadsBuffer);
     // public System.Void SetWorkingSeatedZeroPoseToRawTrackingPose(ref Valve.VR.HmdMatrix34_t pMatSeatedZeroPoseToRawTrackingPose)
     // Offset: 0x1AF969C
-    void SetWorkingSeatedZeroPoseToRawTrackingPose(ByRef<Valve::VR::HmdMatrix34_t> pMatSeatedZeroPoseToRawTrackingPose);
+    void SetWorkingSeatedZeroPoseToRawTrackingPose(ByRef<::Valve::VR::HmdMatrix34_t> pMatSeatedZeroPoseToRawTrackingPose);
     // public System.Void SetWorkingStandingZeroPoseToRawTrackingPose(ref Valve.VR.HmdMatrix34_t pMatStandingZeroPoseToRawTrackingPose)
     // Offset: 0x1AF96B8
-    void SetWorkingStandingZeroPoseToRawTrackingPose(ByRef<Valve::VR::HmdMatrix34_t> pMatStandingZeroPoseToRawTrackingPose);
+    void SetWorkingStandingZeroPoseToRawTrackingPose(ByRef<::Valve::VR::HmdMatrix34_t> pMatStandingZeroPoseToRawTrackingPose);
     // public System.Void ReloadFromDisk(Valve.VR.EChaperoneConfigFile configFile)
     // Offset: 0x1AF96D4
-    void ReloadFromDisk(Valve::VR::EChaperoneConfigFile configFile);
+    void ReloadFromDisk(::Valve::VR::EChaperoneConfigFile configFile);
     // public System.Boolean GetLiveSeatedZeroPoseToRawTrackingPose(ref Valve.VR.HmdMatrix34_t pmatSeatedZeroPoseToRawTrackingPose)
     // Offset: 0x1AF96F0
-    bool GetLiveSeatedZeroPoseToRawTrackingPose(ByRef<Valve::VR::HmdMatrix34_t> pmatSeatedZeroPoseToRawTrackingPose);
+    bool GetLiveSeatedZeroPoseToRawTrackingPose(ByRef<::Valve::VR::HmdMatrix34_t> pmatSeatedZeroPoseToRawTrackingPose);
     // public System.Void SetWorkingCollisionBoundsTagsInfo(System.Byte[] pTagsBuffer)
     // Offset: 0x1AF970C
     void SetWorkingCollisionBoundsTagsInfo(::ArrayW<uint8_t> pTagsBuffer);
@@ -127,19 +127,19 @@ namespace Valve::VR {
     bool GetLiveCollisionBoundsTagsInfo(ByRef<::ArrayW<uint8_t>> pTagsBuffer);
     // public System.Boolean SetWorkingPhysicalBoundsInfo(Valve.VR.HmdQuad_t[] pQuadsBuffer)
     // Offset: 0x1AF9A48
-    bool SetWorkingPhysicalBoundsInfo(::ArrayW<Valve::VR::HmdQuad_t> pQuadsBuffer);
+    bool SetWorkingPhysicalBoundsInfo(::ArrayW<::Valve::VR::HmdQuad_t> pQuadsBuffer);
     // public System.Boolean GetLivePhysicalBoundsInfo(out Valve.VR.HmdQuad_t[] pQuadsBuffer)
     // Offset: 0x1AF9A70
-    bool GetLivePhysicalBoundsInfo(ByRef<::ArrayW<Valve::VR::HmdQuad_t>> pQuadsBuffer);
+    bool GetLivePhysicalBoundsInfo(ByRef<::ArrayW<::Valve::VR::HmdQuad_t>> pQuadsBuffer);
     // public System.Boolean ExportLiveToBuffer(System.Text.StringBuilder pBuffer, ref System.UInt32 pnBufferLength)
     // Offset: 0x1AF9B10
-    bool ExportLiveToBuffer(System::Text::StringBuilder* pBuffer, ByRef<uint> pnBufferLength);
+    bool ExportLiveToBuffer(::System::Text::StringBuilder* pBuffer, ByRef<uint> pnBufferLength);
     // public System.Boolean ImportFromBufferToWorking(System.String pBuffer, System.UInt32 nImportFlags)
     // Offset: 0x1AF9F20
     bool ImportFromBufferToWorking(::StringW pBuffer, uint nImportFlags);
   }; // Valve.VR.CVRChaperoneSetup
   #pragma pack(pop)
-  static check_size<sizeof(CVRChaperoneSetup), 16 + sizeof(Valve::VR::IVRChaperoneSetup)> __Valve_VR_CVRChaperoneSetupSizeCheck;
+  static check_size<sizeof(CVRChaperoneSetup), 16 + sizeof(::Valve::VR::IVRChaperoneSetup)> __Valve_VR_CVRChaperoneSetupSizeCheck;
   static_assert(sizeof(CVRChaperoneSetup) == 0xB0);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -150,7 +150,7 @@ namespace Valve::VR {
 // Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::CommitWorkingCopy
 // Il2CppName: CommitWorkingCopy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperoneSetup::*)(Valve::VR::EChaperoneConfigFile)>(&Valve::VR::CVRChaperoneSetup::CommitWorkingCopy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperoneSetup::*)(::Valve::VR::EChaperoneConfigFile)>(&Valve::VR::CVRChaperoneSetup::CommitWorkingCopy)> {
   static const MethodInfo* get() {
     static auto* configFile = &::il2cpp_utils::GetClassFromName("Valve.VR", "EChaperoneConfigFile")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "CommitWorkingCopy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{configFile});
@@ -177,7 +177,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve
 // Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::GetWorkingPlayAreaRect
 // Il2CppName: GetWorkingPlayAreaRect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperoneSetup::*)(ByRef<Valve::VR::HmdQuad_t>)>(&Valve::VR::CVRChaperoneSetup::GetWorkingPlayAreaRect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperoneSetup::*)(ByRef<::Valve::VR::HmdQuad_t>)>(&Valve::VR::CVRChaperoneSetup::GetWorkingPlayAreaRect)> {
   static const MethodInfo* get() {
     static auto* rect = &::il2cpp_utils::GetClassFromName("Valve.VR", "HmdQuad_t")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "GetWorkingPlayAreaRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rect});
@@ -186,7 +186,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve
 // Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::GetWorkingCollisionBoundsInfo
 // Il2CppName: GetWorkingCollisionBoundsInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperoneSetup::*)(ByRef<::ArrayW<Valve::VR::HmdQuad_t>>)>(&Valve::VR::CVRChaperoneSetup::GetWorkingCollisionBoundsInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperoneSetup::*)(ByRef<::ArrayW<::Valve::VR::HmdQuad_t>>)>(&Valve::VR::CVRChaperoneSetup::GetWorkingCollisionBoundsInfo)> {
   static const MethodInfo* get() {
     static auto* pQuadsBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Valve.VR", "HmdQuad_t"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "GetWorkingCollisionBoundsInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pQuadsBuffer});
@@ -195,7 +195,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve
 // Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::GetLiveCollisionBoundsInfo
 // Il2CppName: GetLiveCollisionBoundsInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperoneSetup::*)(ByRef<::ArrayW<Valve::VR::HmdQuad_t>>)>(&Valve::VR::CVRChaperoneSetup::GetLiveCollisionBoundsInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperoneSetup::*)(ByRef<::ArrayW<::Valve::VR::HmdQuad_t>>)>(&Valve::VR::CVRChaperoneSetup::GetLiveCollisionBoundsInfo)> {
   static const MethodInfo* get() {
     static auto* pQuadsBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Valve.VR", "HmdQuad_t"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "GetLiveCollisionBoundsInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pQuadsBuffer});
@@ -204,7 +204,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve
 // Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::GetWorkingSeatedZeroPoseToRawTrackingPose
 // Il2CppName: GetWorkingSeatedZeroPoseToRawTrackingPose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperoneSetup::*)(ByRef<Valve::VR::HmdMatrix34_t>)>(&Valve::VR::CVRChaperoneSetup::GetWorkingSeatedZeroPoseToRawTrackingPose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperoneSetup::*)(ByRef<::Valve::VR::HmdMatrix34_t>)>(&Valve::VR::CVRChaperoneSetup::GetWorkingSeatedZeroPoseToRawTrackingPose)> {
   static const MethodInfo* get() {
     static auto* pmatSeatedZeroPoseToRawTrackingPose = &::il2cpp_utils::GetClassFromName("Valve.VR", "HmdMatrix34_t")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "GetWorkingSeatedZeroPoseToRawTrackingPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pmatSeatedZeroPoseToRawTrackingPose});
@@ -213,7 +213,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve
 // Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::GetWorkingStandingZeroPoseToRawTrackingPose
 // Il2CppName: GetWorkingStandingZeroPoseToRawTrackingPose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperoneSetup::*)(ByRef<Valve::VR::HmdMatrix34_t>)>(&Valve::VR::CVRChaperoneSetup::GetWorkingStandingZeroPoseToRawTrackingPose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperoneSetup::*)(ByRef<::Valve::VR::HmdMatrix34_t>)>(&Valve::VR::CVRChaperoneSetup::GetWorkingStandingZeroPoseToRawTrackingPose)> {
   static const MethodInfo* get() {
     static auto* pmatStandingZeroPoseToRawTrackingPose = &::il2cpp_utils::GetClassFromName("Valve.VR", "HmdMatrix34_t")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "GetWorkingStandingZeroPoseToRawTrackingPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pmatStandingZeroPoseToRawTrackingPose});
@@ -232,7 +232,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve
 // Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::SetWorkingCollisionBoundsInfo
 // Il2CppName: SetWorkingCollisionBoundsInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRChaperoneSetup::*)(::ArrayW<Valve::VR::HmdQuad_t>)>(&Valve::VR::CVRChaperoneSetup::SetWorkingCollisionBoundsInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRChaperoneSetup::*)(::ArrayW<::Valve::VR::HmdQuad_t>)>(&Valve::VR::CVRChaperoneSetup::SetWorkingCollisionBoundsInfo)> {
   static const MethodInfo* get() {
     static auto* pQuadsBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Valve.VR", "HmdQuad_t"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "SetWorkingCollisionBoundsInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pQuadsBuffer});
@@ -241,7 +241,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve
 // Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::SetWorkingSeatedZeroPoseToRawTrackingPose
 // Il2CppName: SetWorkingSeatedZeroPoseToRawTrackingPose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRChaperoneSetup::*)(ByRef<Valve::VR::HmdMatrix34_t>)>(&Valve::VR::CVRChaperoneSetup::SetWorkingSeatedZeroPoseToRawTrackingPose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRChaperoneSetup::*)(ByRef<::Valve::VR::HmdMatrix34_t>)>(&Valve::VR::CVRChaperoneSetup::SetWorkingSeatedZeroPoseToRawTrackingPose)> {
   static const MethodInfo* get() {
     static auto* pMatSeatedZeroPoseToRawTrackingPose = &::il2cpp_utils::GetClassFromName("Valve.VR", "HmdMatrix34_t")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "SetWorkingSeatedZeroPoseToRawTrackingPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pMatSeatedZeroPoseToRawTrackingPose});
@@ -250,7 +250,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve
 // Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::SetWorkingStandingZeroPoseToRawTrackingPose
 // Il2CppName: SetWorkingStandingZeroPoseToRawTrackingPose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRChaperoneSetup::*)(ByRef<Valve::VR::HmdMatrix34_t>)>(&Valve::VR::CVRChaperoneSetup::SetWorkingStandingZeroPoseToRawTrackingPose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRChaperoneSetup::*)(ByRef<::Valve::VR::HmdMatrix34_t>)>(&Valve::VR::CVRChaperoneSetup::SetWorkingStandingZeroPoseToRawTrackingPose)> {
   static const MethodInfo* get() {
     static auto* pMatStandingZeroPoseToRawTrackingPose = &::il2cpp_utils::GetClassFromName("Valve.VR", "HmdMatrix34_t")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "SetWorkingStandingZeroPoseToRawTrackingPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pMatStandingZeroPoseToRawTrackingPose});
@@ -259,7 +259,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve
 // Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::ReloadFromDisk
 // Il2CppName: ReloadFromDisk
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRChaperoneSetup::*)(Valve::VR::EChaperoneConfigFile)>(&Valve::VR::CVRChaperoneSetup::ReloadFromDisk)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRChaperoneSetup::*)(::Valve::VR::EChaperoneConfigFile)>(&Valve::VR::CVRChaperoneSetup::ReloadFromDisk)> {
   static const MethodInfo* get() {
     static auto* configFile = &::il2cpp_utils::GetClassFromName("Valve.VR", "EChaperoneConfigFile")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "ReloadFromDisk", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{configFile});
@@ -268,7 +268,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve
 // Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::GetLiveSeatedZeroPoseToRawTrackingPose
 // Il2CppName: GetLiveSeatedZeroPoseToRawTrackingPose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperoneSetup::*)(ByRef<Valve::VR::HmdMatrix34_t>)>(&Valve::VR::CVRChaperoneSetup::GetLiveSeatedZeroPoseToRawTrackingPose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperoneSetup::*)(ByRef<::Valve::VR::HmdMatrix34_t>)>(&Valve::VR::CVRChaperoneSetup::GetLiveSeatedZeroPoseToRawTrackingPose)> {
   static const MethodInfo* get() {
     static auto* pmatSeatedZeroPoseToRawTrackingPose = &::il2cpp_utils::GetClassFromName("Valve.VR", "HmdMatrix34_t")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "GetLiveSeatedZeroPoseToRawTrackingPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pmatSeatedZeroPoseToRawTrackingPose});
@@ -295,7 +295,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve
 // Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::SetWorkingPhysicalBoundsInfo
 // Il2CppName: SetWorkingPhysicalBoundsInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperoneSetup::*)(::ArrayW<Valve::VR::HmdQuad_t>)>(&Valve::VR::CVRChaperoneSetup::SetWorkingPhysicalBoundsInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperoneSetup::*)(::ArrayW<::Valve::VR::HmdQuad_t>)>(&Valve::VR::CVRChaperoneSetup::SetWorkingPhysicalBoundsInfo)> {
   static const MethodInfo* get() {
     static auto* pQuadsBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Valve.VR", "HmdQuad_t"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "SetWorkingPhysicalBoundsInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pQuadsBuffer});
@@ -304,7 +304,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve
 // Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::GetLivePhysicalBoundsInfo
 // Il2CppName: GetLivePhysicalBoundsInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperoneSetup::*)(ByRef<::ArrayW<Valve::VR::HmdQuad_t>>)>(&Valve::VR::CVRChaperoneSetup::GetLivePhysicalBoundsInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperoneSetup::*)(ByRef<::ArrayW<::Valve::VR::HmdQuad_t>>)>(&Valve::VR::CVRChaperoneSetup::GetLivePhysicalBoundsInfo)> {
   static const MethodInfo* get() {
     static auto* pQuadsBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Valve.VR", "HmdQuad_t"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "GetLivePhysicalBoundsInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pQuadsBuffer});
@@ -313,7 +313,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve
 // Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::ExportLiveToBuffer
 // Il2CppName: ExportLiveToBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperoneSetup::*)(System::Text::StringBuilder*, ByRef<uint>)>(&Valve::VR::CVRChaperoneSetup::ExportLiveToBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperoneSetup::*)(::System::Text::StringBuilder*, ByRef<uint>)>(&Valve::VR::CVRChaperoneSetup::ExportLiveToBuffer)> {
   static const MethodInfo* get() {
     static auto* pBuffer = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* pnBufferLength = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;

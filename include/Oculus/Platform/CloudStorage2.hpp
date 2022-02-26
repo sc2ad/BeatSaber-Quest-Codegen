@@ -21,8 +21,8 @@ namespace Oculus::Platform {
   class CloudStorage2;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::CloudStorage2);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CloudStorage2*, "Oculus.Platform", "CloudStorage2");
+NEED_NO_BOX(::Oculus::Platform::CloudStorage2);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::CloudStorage2*, "Oculus.Platform", "CloudStorage2");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x10
@@ -33,7 +33,7 @@ namespace Oculus::Platform {
     public:
     // static public Oculus.Platform.Request`1<System.String> GetUserDirectoryPath()
     // Offset: 0x1959958
-    static Oculus::Platform::Request_1<::StringW>* GetUserDirectoryPath();
+    static ::Oculus::Platform::Request_1<::StringW>* GetUserDirectoryPath();
   }; // Oculus.Platform.CloudStorage2
   #pragma pack(pop)
 }
@@ -41,7 +41,7 @@ namespace Oculus::Platform {
 // Writing MetadataGetter for method: Oculus::Platform::CloudStorage2::GetUserDirectoryPath
 // Il2CppName: GetUserDirectoryPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<::StringW>* (*)()>(&Oculus::Platform::CloudStorage2::GetUserDirectoryPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::StringW>* (*)()>(&Oculus::Platform::CloudStorage2::GetUserDirectoryPath)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CloudStorage2*), "GetUserDirectoryPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

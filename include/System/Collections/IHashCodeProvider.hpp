@@ -14,8 +14,8 @@ namespace System::Collections {
   class IHashCodeProvider;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Collections::IHashCodeProvider);
-DEFINE_IL2CPP_ARG_TYPE(System::Collections::IHashCodeProvider*, "System.Collections", "IHashCodeProvider");
+NEED_NO_BOX(::System::Collections::IHashCodeProvider);
+DEFINE_IL2CPP_ARG_TYPE(::System::Collections::IHashCodeProvider*, "System.Collections", "IHashCodeProvider");
 // Type namespace: System.Collections
 namespace System::Collections {
   // Size: 0x10

@@ -21,8 +21,8 @@ namespace Mono::Security::Cryptography {
   class CryptoConvert;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Security::Cryptography::CryptoConvert);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::CryptoConvert*, "Mono.Security.Cryptography", "CryptoConvert");
+NEED_NO_BOX(::Mono::Security::Cryptography::CryptoConvert);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Cryptography::CryptoConvert*, "Mono.Security.Cryptography", "CryptoConvert");
 // Type namespace: Mono.Security.Cryptography
 namespace Mono::Security::Cryptography {
   // Size: 0x10
@@ -42,10 +42,10 @@ namespace Mono::Security::Cryptography {
     static ::ArrayW<uint8_t> Trim(::ArrayW<uint8_t> array);
     // static public System.Security.Cryptography.RSA FromCapiPrivateKeyBlob(System.Byte[] blob)
     // Offset: 0x22C72E0
-    static System::Security::Cryptography::RSA* FromCapiPrivateKeyBlob(::ArrayW<uint8_t> blob);
+    static ::System::Security::Cryptography::RSA* FromCapiPrivateKeyBlob(::ArrayW<uint8_t> blob);
     // static public System.Security.Cryptography.RSA FromCapiPrivateKeyBlob(System.Byte[] blob, System.Int32 offset)
     // Offset: 0x22C86F4
-    static System::Security::Cryptography::RSA* FromCapiPrivateKeyBlob(::ArrayW<uint8_t> blob, int offset);
+    static ::System::Security::Cryptography::RSA* FromCapiPrivateKeyBlob(::ArrayW<uint8_t> blob, int offset);
     // static public System.String ToHex(System.Byte[] input)
     // Offset: 0x22C8E30
     static ::StringW ToHex(::ArrayW<uint8_t> input);
@@ -85,7 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
 // Writing MetadataGetter for method: Mono::Security::Cryptography::CryptoConvert::FromCapiPrivateKeyBlob
 // Il2CppName: FromCapiPrivateKeyBlob
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::RSA* (*)(::ArrayW<uint8_t>)>(&Mono::Security::Cryptography::CryptoConvert::FromCapiPrivateKeyBlob)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::RSA* (*)(::ArrayW<uint8_t>)>(&Mono::Security::Cryptography::CryptoConvert::FromCapiPrivateKeyBlob)> {
   static const MethodInfo* get() {
     static auto* blob = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::CryptoConvert*), "FromCapiPrivateKeyBlob", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{blob});
@@ -94,7 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Writing MetadataGetter for method: Mono::Security::Cryptography::CryptoConvert::FromCapiPrivateKeyBlob
 // Il2CppName: FromCapiPrivateKeyBlob
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::RSA* (*)(::ArrayW<uint8_t>, int)>(&Mono::Security::Cryptography::CryptoConvert::FromCapiPrivateKeyBlob)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::RSA* (*)(::ArrayW<uint8_t>, int)>(&Mono::Security::Cryptography::CryptoConvert::FromCapiPrivateKeyBlob)> {
   static const MethodInfo* get() {
     static auto* blob = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

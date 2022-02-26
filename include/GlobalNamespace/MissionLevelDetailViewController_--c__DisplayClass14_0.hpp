@@ -33,8 +33,8 @@ namespace System::Collections::Generic {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MissionLevelDetailViewController::$$c__DisplayClass14_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelDetailViewController::$$c__DisplayClass14_0*, "", "MissionLevelDetailViewController/<>c__DisplayClass14_0");
+NEED_NO_BOX(::GlobalNamespace::MissionLevelDetailViewController::$$c__DisplayClass14_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MissionLevelDetailViewController::$$c__DisplayClass14_0*, "", "MissionLevelDetailViewController/<>c__DisplayClass14_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -56,45 +56,45 @@ namespace GlobalNamespace {
     // public MissionObjective[] missionObjectives
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<GlobalNamespace::MissionObjective*> missionObjectives;
+    ::ArrayW<::GlobalNamespace::MissionObjective*> missionObjectives;
     // Field size check
-    static_assert(sizeof(::ArrayW<GlobalNamespace::MissionObjective*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::GlobalNamespace::MissionObjective*>) == 0x8);
     // public System.Collections.Generic.List`1<GameplayModifierParamsSO> modifierParamsList
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* modifierParamsList;
+    ::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>* modifierParamsList;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>*) == 0x8);
     public:
     // Get instance field reference: public MissionObjective[] missionObjectives
-    ::ArrayW<GlobalNamespace::MissionObjective*>& dyn_missionObjectives();
+    ::ArrayW<::GlobalNamespace::MissionObjective*>& dyn_missionObjectives();
     // Get instance field reference: public System.Collections.Generic.List`1<GameplayModifierParamsSO> modifierParamsList
-    System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>*& dyn_modifierParamsList();
+    ::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>*& dyn_modifierParamsList();
     // System.Void <RefreshContent>b__0(System.Int32 idx, ObjectiveListItem objectiveListItem)
     // Offset: 0x2A6D944
-    void $RefreshContent$b__0(int idx, GlobalNamespace::ObjectiveListItem* objectiveListItem);
+    void $RefreshContent$b__0(int idx, ::GlobalNamespace::ObjectiveListItem* objectiveListItem);
     // System.Void <RefreshContent>b__1(System.Int32 idx, GameplayModifierInfoListItem gameplayModifierInfoListItem)
     // Offset: 0x2A6DB20
-    void $RefreshContent$b__1(int idx, GlobalNamespace::GameplayModifierInfoListItem* gameplayModifierInfoListItem);
+    void $RefreshContent$b__1(int idx, ::GlobalNamespace::GameplayModifierInfoListItem* gameplayModifierInfoListItem);
     // public System.Void .ctor()
     // Offset: 0x2A6D8D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionLevelDetailViewController::$$c__DisplayClass14_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MissionLevelDetailViewController::$$c__DisplayClass14_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionLevelDetailViewController::$$c__DisplayClass14_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionLevelDetailViewController::$$c__DisplayClass14_0*, creationType>()));
     }
   }; // MissionLevelDetailViewController/<>c__DisplayClass14_0
   #pragma pack(pop)
-  static check_size<sizeof(MissionLevelDetailViewController::$$c__DisplayClass14_0), 24 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>*)> __GlobalNamespace_MissionLevelDetailViewController_$$c__DisplayClass14_0SizeCheck;
+  static check_size<sizeof(MissionLevelDetailViewController::$$c__DisplayClass14_0), 24 + sizeof(::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>*)> __GlobalNamespace_MissionLevelDetailViewController_$$c__DisplayClass14_0SizeCheck;
   static_assert(sizeof(MissionLevelDetailViewController::$$c__DisplayClass14_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionLevelDetailViewController::$$c__DisplayClass14_0::$RefreshContent$b__0
 // Il2CppName: <RefreshContent>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionLevelDetailViewController::$$c__DisplayClass14_0::*)(int, GlobalNamespace::ObjectiveListItem*)>(&GlobalNamespace::MissionLevelDetailViewController::$$c__DisplayClass14_0::$RefreshContent$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionLevelDetailViewController::$$c__DisplayClass14_0::*)(int, ::GlobalNamespace::ObjectiveListItem*)>(&GlobalNamespace::MissionLevelDetailViewController::$$c__DisplayClass14_0::$RefreshContent$b__0)> {
   static const MethodInfo* get() {
     static auto* idx = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* objectiveListItem = &::il2cpp_utils::GetClassFromName("", "ObjectiveListItem")->byval_arg;
@@ -104,7 +104,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MissionLevelDetailViewController::$$c__DisplayClass14_0::$RefreshContent$b__1
 // Il2CppName: <RefreshContent>b__1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionLevelDetailViewController::$$c__DisplayClass14_0::*)(int, GlobalNamespace::GameplayModifierInfoListItem*)>(&GlobalNamespace::MissionLevelDetailViewController::$$c__DisplayClass14_0::$RefreshContent$b__1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionLevelDetailViewController::$$c__DisplayClass14_0::*)(int, ::GlobalNamespace::GameplayModifierInfoListItem*)>(&GlobalNamespace::MissionLevelDetailViewController::$$c__DisplayClass14_0::$RefreshContent$b__1)> {
   static const MethodInfo* get() {
     static auto* idx = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* gameplayModifierInfoListItem = &::il2cpp_utils::GetClassFromName("", "GameplayModifierInfoListItem")->byval_arg;

@@ -26,8 +26,8 @@ namespace System::Threading {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Threading::Tasks::Task::$$c);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::Task::$$c*, "System.Threading.Tasks", "Task/<>c");
+NEED_NO_BOX(::System::Threading::Tasks::Task::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Tasks::Task::$$c*, "System.Threading.Tasks", "Task/<>c");
 // Type namespace: System.Threading.Tasks
 namespace System::Threading::Tasks {
   // Size: 0x10
@@ -38,17 +38,17 @@ namespace System::Threading::Tasks {
   class Task::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly System.Threading.Tasks.Task/System.Threading.Tasks.<>c <>9
-    static System::Threading::Tasks::Task::$$c* _get_$$9();
+    static ::System::Threading::Tasks::Task::$$c* _get_$$9();
     // Set static field: static public readonly System.Threading.Tasks.Task/System.Threading.Tasks.<>c <>9
-    static void _set_$$9(System::Threading::Tasks::Task::$$c* value);
+    static void _set_$$9(::System::Threading::Tasks::Task::$$c* value);
     // Get static field: static public System.Action`1<System.Object> <>9__276_0
-    static System::Action_1<::Il2CppObject*>* _get_$$9__276_0();
+    static ::System::Action_1<::Il2CppObject*>* _get_$$9__276_0();
     // Set static field: static public System.Action`1<System.Object> <>9__276_0
-    static void _set_$$9__276_0(System::Action_1<::Il2CppObject*>* value);
+    static void _set_$$9__276_0(::System::Action_1<::Il2CppObject*>* value);
     // Get static field: static public System.Threading.TimerCallback <>9__276_1
-    static System::Threading::TimerCallback* _get_$$9__276_1();
+    static ::System::Threading::TimerCallback* _get_$$9__276_1();
     // Set static field: static public System.Threading.TimerCallback <>9__276_1
-    static void _set_$$9__276_1(System::Threading::TimerCallback* value);
+    static void _set_$$9__276_1(::System::Threading::TimerCallback* value);
     // static private System.Void .cctor()
     // Offset: 0x1CD8C54
     static void _cctor();
@@ -60,10 +60,10 @@ namespace System::Threading::Tasks {
     void $Delay$b__276_1(::Il2CppObject* state);
     // System.Threading.Tasks.Task/System.Threading.Tasks.ContingentProperties <.cctor>b__295_0()
     // Offset: 0x1CD8ED8
-    System::Threading::Tasks::Task::ContingentProperties* $_cctor$b__295_0();
+    ::System::Threading::Tasks::Task::ContingentProperties* $_cctor$b__295_0();
     // System.Boolean <.cctor>b__295_1(System.Threading.Tasks.Task t)
     // Offset: 0x1CD8F74
-    bool $_cctor$b__295_1(System::Threading::Tasks::Task* t);
+    bool $_cctor$b__295_1(::System::Threading::Tasks::Task* t);
     // System.Boolean <.cctor>b__295_2(System.Object tc)
     // Offset: 0x1CD8F90
     bool $_cctor$b__295_2(::Il2CppObject* tc);
@@ -73,7 +73,7 @@ namespace System::Threading::Tasks {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Task::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::Task::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::Tasks::Task::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Task::$$c*, creationType>()));
     }
   }; // System.Threading.Tasks.Task/System.Threading.Tasks.<>c
@@ -109,7 +109,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Threading::Tasks::Task::$$c::$_cctor$b__295_0
 // Il2CppName: <.cctor>b__295_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task::ContingentProperties* (System::Threading::Tasks::Task::$$c::*)()>(&System::Threading::Tasks::Task::$$c::$_cctor$b__295_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task::ContingentProperties* (System::Threading::Tasks::Task::$$c::*)()>(&System::Threading::Tasks::Task::$$c::$_cctor$b__295_0)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task::$$c*), "<.cctor>b__295_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -117,7 +117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: System::Threading::Tasks::Task::$$c::$_cctor$b__295_1
 // Il2CppName: <.cctor>b__295_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::Task::$$c::*)(System::Threading::Tasks::Task*)>(&System::Threading::Tasks::Task::$$c::$_cctor$b__295_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::Task::$$c::*)(::System::Threading::Tasks::Task*)>(&System::Threading::Tasks::Task::$$c::$_cctor$b__295_1)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task::$$c*), "<.cctor>b__295_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});

@@ -21,8 +21,8 @@ namespace Oculus::Platform::Models {
   class Purchase;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::Purchase);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::Purchase*, "Oculus.Platform.Models", "Purchase");
+NEED_NO_BOX(::Oculus::Platform::Models::Purchase);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::Purchase*, "Oculus.Platform.Models", "Purchase");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x30
@@ -43,15 +43,15 @@ namespace Oculus::Platform::Models {
     // public readonly System.DateTime ExpirationTime
     // Size: 0x8
     // Offset: 0x10
-    System::DateTime ExpirationTime;
+    ::System::DateTime ExpirationTime;
     // Field size check
-    static_assert(sizeof(System::DateTime) == 0x8);
+    static_assert(sizeof(::System::DateTime) == 0x8);
     // public readonly System.DateTime GrantTime
     // Size: 0x8
     // Offset: 0x18
-    System::DateTime GrantTime;
+    ::System::DateTime GrantTime;
     // Field size check
-    static_assert(sizeof(System::DateTime) == 0x8);
+    static_assert(sizeof(::System::DateTime) == 0x8);
     // public readonly System.String ID
     // Size: 0x8
     // Offset: 0x20
@@ -66,9 +66,9 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public readonly System.DateTime ExpirationTime
-    System::DateTime& dyn_ExpirationTime();
+    ::System::DateTime& dyn_ExpirationTime();
     // Get instance field reference: public readonly System.DateTime GrantTime
-    System::DateTime& dyn_GrantTime();
+    ::System::DateTime& dyn_GrantTime();
     // Get instance field reference: public readonly System.String ID
     ::StringW& dyn_ID();
     // Get instance field reference: public readonly System.String Sku
@@ -76,8 +76,8 @@ namespace Oculus::Platform::Models {
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x196B108
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Purchase* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::Purchase::.ctor");
+    static Purchase* New_ctor(::System::IntPtr o) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::Purchase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Purchase*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.Purchase

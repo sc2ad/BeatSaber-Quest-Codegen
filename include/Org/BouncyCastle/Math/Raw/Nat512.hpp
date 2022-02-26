@@ -13,8 +13,8 @@ namespace Org::BouncyCastle::Math::Raw {
   class Nat512;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Math::Raw::Nat512);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Raw::Nat512*, "Org.BouncyCastle.Math.Raw", "Nat512");
+NEED_NO_BOX(::Org::BouncyCastle::Math::Raw::Nat512);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::Raw::Nat512*, "Org.BouncyCastle.Math.Raw", "Nat512");
 // Type namespace: Org.BouncyCastle.Math.Raw
 namespace Org::BouncyCastle::Math::Raw {
   // Size: 0x10

@@ -11,8 +11,8 @@ namespace Polyglot {
   class ILocalize;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Polyglot::ILocalize);
-DEFINE_IL2CPP_ARG_TYPE(Polyglot::ILocalize*, "Polyglot", "ILocalize");
+NEED_NO_BOX(::Polyglot::ILocalize);
+DEFINE_IL2CPP_ARG_TYPE(::Polyglot::ILocalize*, "Polyglot", "ILocalize");
 // Type namespace: Polyglot
 namespace Polyglot {
   // Size: 0x10

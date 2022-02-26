@@ -29,8 +29,8 @@ namespace UnityEngine {
   class Texture3D;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Texture3D);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Texture3D*, "UnityEngine", "Texture3D");
+NEED_NO_BOX(::UnityEngine::Texture3D);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Texture3D*, "UnityEngine", "Texture3D");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -39,58 +39,58 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ExcludeFromPresetAttribute] Offset: 11A4DE0
   // [NativeHeaderAttribute] Offset: 11A4DE0
-  class Texture3D : public UnityEngine::Texture {
+  class Texture3D : public ::UnityEngine::Texture {
     public:
     // public System.Void .ctor(System.Int32 width, System.Int32 height, System.Int32 depth, UnityEngine.Experimental.Rendering.DefaultFormat format, UnityEngine.Experimental.Rendering.TextureCreationFlags flags)
     // Offset: 0x26FB7C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Texture3D* New_ctor(int width, int height, int depth, UnityEngine::Experimental::Rendering::DefaultFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Texture3D::.ctor");
+    static Texture3D* New_ctor(int width, int height, int depth, ::UnityEngine::Experimental::Rendering::DefaultFormat format, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Texture3D::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Texture3D*, creationType>(width, height, depth, format, flags)));
     }
     // public System.Void .ctor(System.Int32 width, System.Int32 height, System.Int32 depth, UnityEngine.Experimental.Rendering.GraphicsFormat format, UnityEngine.Experimental.Rendering.TextureCreationFlags flags)
     // Offset: 0x26FB848
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Texture3D* New_ctor(int width, int height, int depth, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Texture3D::.ctor");
+    static Texture3D* New_ctor(int width, int height, int depth, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Texture3D::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Texture3D*, creationType>(width, height, depth, format, flags)));
     }
     // public System.Void .ctor(System.Int32 width, System.Int32 height, System.Int32 depth, UnityEngine.Experimental.Rendering.GraphicsFormat format, UnityEngine.Experimental.Rendering.TextureCreationFlags flags, System.Int32 mipCount)
     // Offset: 0x26FB8F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Texture3D* New_ctor(int width, int height, int depth, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags, int mipCount) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Texture3D::.ctor");
+    static Texture3D* New_ctor(int width, int height, int depth, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags, int mipCount) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Texture3D::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Texture3D*, creationType>(width, height, depth, format, flags, mipCount)));
     }
     // public System.Void .ctor(System.Int32 width, System.Int32 height, System.Int32 depth, UnityEngine.TextureFormat textureFormat, System.Int32 mipCount)
     // Offset: 0x26FB9D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Texture3D* New_ctor(int width, int height, int depth, UnityEngine::TextureFormat textureFormat, int mipCount) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Texture3D::.ctor");
+    static Texture3D* New_ctor(int width, int height, int depth, ::UnityEngine::TextureFormat textureFormat, int mipCount) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Texture3D::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Texture3D*, creationType>(width, height, depth, textureFormat, mipCount)));
     }
     // public System.Void .ctor(System.Int32 width, System.Int32 height, System.Int32 depth, UnityEngine.TextureFormat textureFormat, System.Boolean mipChain)
     // Offset: 0x26FBAE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Texture3D* New_ctor(int width, int height, int depth, UnityEngine::TextureFormat textureFormat, bool mipChain) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Texture3D::.ctor");
+    static Texture3D* New_ctor(int width, int height, int depth, ::UnityEngine::TextureFormat textureFormat, bool mipChain) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Texture3D::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Texture3D*, creationType>(width, height, depth, textureFormat, mipChain)));
     }
     // static private System.Boolean Internal_CreateImpl(UnityEngine.Texture3D mono, System.Int32 w, System.Int32 h, System.Int32 d, System.Int32 mipCount, UnityEngine.Experimental.Rendering.GraphicsFormat format, UnityEngine.Experimental.Rendering.TextureCreationFlags flags)
     // Offset: 0x26FB548
-    static bool Internal_CreateImpl(UnityEngine::Texture3D* mono, int w, int h, int d, int mipCount, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
+    static bool Internal_CreateImpl(::UnityEngine::Texture3D* mono, int w, int h, int d, int mipCount, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
     // static private System.Void Internal_Create(UnityEngine.Texture3D mono, System.Int32 w, System.Int32 h, System.Int32 d, System.Int32 mipCount, UnityEngine.Experimental.Rendering.GraphicsFormat format, UnityEngine.Experimental.Rendering.TextureCreationFlags flags)
     // Offset: 0x26FB5D0
-    static void Internal_Create(UnityEngine::Texture3D* mono, int w, int h, int d, int mipCount, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
+    static void Internal_Create(::UnityEngine::Texture3D* mono, int w, int h, int d, int mipCount, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
     // private System.Void ApplyImpl(System.Boolean updateMipmaps, System.Boolean makeNoLongerReadable)
     // Offset: 0x26FB6BC
     void ApplyImpl(bool updateMipmaps, bool makeNoLongerReadable);
     // public System.Void SetPixels32(UnityEngine.Color32[] colors, System.Int32 miplevel)
     // Offset: 0x26FB714
-    void SetPixels32(::ArrayW<UnityEngine::Color32> colors, int miplevel);
+    void SetPixels32(::ArrayW<::UnityEngine::Color32> colors, int miplevel);
     // public System.Void SetPixels32(UnityEngine.Color32[] colors)
     // Offset: 0x26FB76C
-    void SetPixels32(::ArrayW<UnityEngine::Color32> colors);
+    void SetPixels32(::ArrayW<::UnityEngine::Color32> colors);
     // public System.Void Apply(System.Boolean updateMipmaps, System.Boolean makeNoLongerReadable)
     // Offset: 0x26FBB00
     void Apply(bool updateMipmaps, bool makeNoLongerReadable);
@@ -129,7 +129,7 @@ namespace UnityEngine {
 // Writing MetadataGetter for method: UnityEngine::Texture3D::Internal_CreateImpl
 // Il2CppName: Internal_CreateImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Texture3D*, int, int, int, int, UnityEngine::Experimental::Rendering::GraphicsFormat, UnityEngine::Experimental::Rendering::TextureCreationFlags)>(&UnityEngine::Texture3D::Internal_CreateImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Texture3D*, int, int, int, int, ::UnityEngine::Experimental::Rendering::GraphicsFormat, ::UnityEngine::Experimental::Rendering::TextureCreationFlags)>(&UnityEngine::Texture3D::Internal_CreateImpl)> {
   static const MethodInfo* get() {
     static auto* mono = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture3D")->byval_arg;
     static auto* w = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -144,7 +144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Texture3D::Internal_Create
 // Il2CppName: Internal_Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Texture3D*, int, int, int, int, UnityEngine::Experimental::Rendering::GraphicsFormat, UnityEngine::Experimental::Rendering::TextureCreationFlags)>(&UnityEngine::Texture3D::Internal_Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Texture3D*, int, int, int, int, ::UnityEngine::Experimental::Rendering::GraphicsFormat, ::UnityEngine::Experimental::Rendering::TextureCreationFlags)>(&UnityEngine::Texture3D::Internal_Create)> {
   static const MethodInfo* get() {
     static auto* mono = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture3D")->byval_arg;
     static auto* w = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -169,7 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Texture3D::SetPixels32
 // Il2CppName: SetPixels32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Texture3D::*)(::ArrayW<UnityEngine::Color32>, int)>(&UnityEngine::Texture3D::SetPixels32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Texture3D::*)(::ArrayW<::UnityEngine::Color32>, int)>(&UnityEngine::Texture3D::SetPixels32)> {
   static const MethodInfo* get() {
     static auto* colors = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Color32"), 1)->byval_arg;
     static auto* miplevel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -179,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Texture3D::SetPixels32
 // Il2CppName: SetPixels32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Texture3D::*)(::ArrayW<UnityEngine::Color32>)>(&UnityEngine::Texture3D::SetPixels32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Texture3D::*)(::ArrayW<::UnityEngine::Color32>)>(&UnityEngine::Texture3D::SetPixels32)> {
   static const MethodInfo* get() {
     static auto* colors = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Color32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Texture3D*), "SetPixels32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colors});

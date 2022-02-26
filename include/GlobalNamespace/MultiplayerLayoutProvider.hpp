@@ -26,8 +26,8 @@ namespace GlobalNamespace {
   class MultiplayerLayoutProvider;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MultiplayerLayoutProvider);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLayoutProvider*, "", "MultiplayerLayoutProvider");
+NEED_NO_BOX(::GlobalNamespace::MultiplayerLayoutProvider);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerLayoutProvider*, "", "MultiplayerLayoutProvider");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -48,9 +48,9 @@ namespace GlobalNamespace {
     // private MultiplayerPlayerLayout <layout>k__BackingField
     // Size: 0x4
     // Offset: 0x10
-    GlobalNamespace::MultiplayerPlayerLayout layout;
+    ::GlobalNamespace::MultiplayerPlayerLayout layout;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::MultiplayerPlayerLayout) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::MultiplayerPlayerLayout) == 0x4);
     // private System.Int32 <activePlayerSpotsCount>k__BackingField
     // Size: 0x4
     // Offset: 0x14
@@ -60,22 +60,22 @@ namespace GlobalNamespace {
     // private System.Action`2<MultiplayerPlayerLayout,System.Int32> playersLayoutWasCalculatedEvent
     // Size: 0x8
     // Offset: 0x18
-    System::Action_2<GlobalNamespace::MultiplayerPlayerLayout, int>* playersLayoutWasCalculatedEvent;
+    ::System::Action_2<::GlobalNamespace::MultiplayerPlayerLayout, int>* playersLayoutWasCalculatedEvent;
     // Field size check
-    static_assert(sizeof(System::Action_2<GlobalNamespace::MultiplayerPlayerLayout, int>*) == 0x8);
+    static_assert(sizeof(::System::Action_2<::GlobalNamespace::MultiplayerPlayerLayout, int>*) == 0x8);
     public:
     // Get instance field reference: private MultiplayerPlayerLayout <layout>k__BackingField
-    GlobalNamespace::MultiplayerPlayerLayout& dyn_$layout$k__BackingField();
+    ::GlobalNamespace::MultiplayerPlayerLayout& dyn_$layout$k__BackingField();
     // Get instance field reference: private System.Int32 <activePlayerSpotsCount>k__BackingField
     int& dyn_$activePlayerSpotsCount$k__BackingField();
     // Get instance field reference: private System.Action`2<MultiplayerPlayerLayout,System.Int32> playersLayoutWasCalculatedEvent
-    System::Action_2<GlobalNamespace::MultiplayerPlayerLayout, int>*& dyn_playersLayoutWasCalculatedEvent();
+    ::System::Action_2<::GlobalNamespace::MultiplayerPlayerLayout, int>*& dyn_playersLayoutWasCalculatedEvent();
     // public MultiplayerPlayerLayout get_layout()
     // Offset: 0x143CC70
-    GlobalNamespace::MultiplayerPlayerLayout get_layout();
+    ::GlobalNamespace::MultiplayerPlayerLayout get_layout();
     // private System.Void set_layout(MultiplayerPlayerLayout value)
     // Offset: 0x143CC78
-    void set_layout(GlobalNamespace::MultiplayerPlayerLayout value);
+    void set_layout(::GlobalNamespace::MultiplayerPlayerLayout value);
     // public System.Int32 get_activePlayerSpotsCount()
     // Offset: 0x143CC80
     int get_activePlayerSpotsCount();
@@ -84,32 +84,32 @@ namespace GlobalNamespace {
     void set_activePlayerSpotsCount(int value);
     // public System.Void add_playersLayoutWasCalculatedEvent(System.Action`2<MultiplayerPlayerLayout,System.Int32> value)
     // Offset: 0x143CC90
-    void add_playersLayoutWasCalculatedEvent(System::Action_2<GlobalNamespace::MultiplayerPlayerLayout, int>* value);
+    void add_playersLayoutWasCalculatedEvent(::System::Action_2<::GlobalNamespace::MultiplayerPlayerLayout, int>* value);
     // public System.Void remove_playersLayoutWasCalculatedEvent(System.Action`2<MultiplayerPlayerLayout,System.Int32> value)
     // Offset: 0x143CD34
-    void remove_playersLayoutWasCalculatedEvent(System::Action_2<GlobalNamespace::MultiplayerPlayerLayout, int>* value);
+    void remove_playersLayoutWasCalculatedEvent(::System::Action_2<::GlobalNamespace::MultiplayerPlayerLayout, int>* value);
     // public MultiplayerPlayerLayout CalculateLayout(System.Int32 activePlayersCount)
     // Offset: 0x143CDD8
-    GlobalNamespace::MultiplayerPlayerLayout CalculateLayout(int activePlayersCount);
+    ::GlobalNamespace::MultiplayerPlayerLayout CalculateLayout(int activePlayersCount);
     // public System.Void .ctor()
     // Offset: 0x143CE74
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLayoutProvider* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerLayoutProvider::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLayoutProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLayoutProvider*, creationType>()));
     }
   }; // MultiplayerLayoutProvider
   #pragma pack(pop)
-  static check_size<sizeof(MultiplayerLayoutProvider), 24 + sizeof(System::Action_2<GlobalNamespace::MultiplayerPlayerLayout, int>*)> __GlobalNamespace_MultiplayerLayoutProviderSizeCheck;
+  static check_size<sizeof(MultiplayerLayoutProvider), 24 + sizeof(::System::Action_2<::GlobalNamespace::MultiplayerPlayerLayout, int>*)> __GlobalNamespace_MultiplayerLayoutProviderSizeCheck;
   static_assert(sizeof(MultiplayerLayoutProvider) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLayoutProvider::get_layout
 // Il2CppName: get_layout
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerPlayerLayout (GlobalNamespace::MultiplayerLayoutProvider::*)()>(&GlobalNamespace::MultiplayerLayoutProvider::get_layout)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MultiplayerPlayerLayout (GlobalNamespace::MultiplayerLayoutProvider::*)()>(&GlobalNamespace::MultiplayerLayoutProvider::get_layout)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLayoutProvider*), "get_layout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -117,7 +117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLayoutProvider::set_layout
 // Il2CppName: set_layout
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLayoutProvider::*)(GlobalNamespace::MultiplayerPlayerLayout)>(&GlobalNamespace::MultiplayerLayoutProvider::set_layout)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLayoutProvider::*)(::GlobalNamespace::MultiplayerPlayerLayout)>(&GlobalNamespace::MultiplayerLayoutProvider::set_layout)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "MultiplayerPlayerLayout")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLayoutProvider*), "set_layout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -143,7 +143,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLayoutProvider::add_playersLayoutWasCalculatedEvent
 // Il2CppName: add_playersLayoutWasCalculatedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLayoutProvider::*)(System::Action_2<GlobalNamespace::MultiplayerPlayerLayout, int>*)>(&GlobalNamespace::MultiplayerLayoutProvider::add_playersLayoutWasCalculatedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLayoutProvider::*)(::System::Action_2<::GlobalNamespace::MultiplayerPlayerLayout, int>*)>(&GlobalNamespace::MultiplayerLayoutProvider::add_playersLayoutWasCalculatedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MultiplayerPlayerLayout"), ::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLayoutProvider*), "add_playersLayoutWasCalculatedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -152,7 +152,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLayoutProvider::remove_playersLayoutWasCalculatedEvent
 // Il2CppName: remove_playersLayoutWasCalculatedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLayoutProvider::*)(System::Action_2<GlobalNamespace::MultiplayerPlayerLayout, int>*)>(&GlobalNamespace::MultiplayerLayoutProvider::remove_playersLayoutWasCalculatedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLayoutProvider::*)(::System::Action_2<::GlobalNamespace::MultiplayerPlayerLayout, int>*)>(&GlobalNamespace::MultiplayerLayoutProvider::remove_playersLayoutWasCalculatedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MultiplayerPlayerLayout"), ::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLayoutProvider*), "remove_playersLayoutWasCalculatedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -161,7 +161,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLayoutProvider::CalculateLayout
 // Il2CppName: CalculateLayout
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerPlayerLayout (GlobalNamespace::MultiplayerLayoutProvider::*)(int)>(&GlobalNamespace::MultiplayerLayoutProvider::CalculateLayout)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MultiplayerPlayerLayout (GlobalNamespace::MultiplayerLayoutProvider::*)(int)>(&GlobalNamespace::MultiplayerLayoutProvider::CalculateLayout)> {
   static const MethodInfo* get() {
     static auto* activePlayersCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLayoutProvider*), "CalculateLayout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{activePlayersCount});

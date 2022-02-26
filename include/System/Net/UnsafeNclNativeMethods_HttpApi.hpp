@@ -16,8 +16,8 @@ namespace System::Net {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::UnsafeNclNativeMethods::HttpApi);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::UnsafeNclNativeMethods::HttpApi*, "System.Net", "UnsafeNclNativeMethods/HttpApi");
+NEED_NO_BOX(::System::Net::UnsafeNclNativeMethods::HttpApi);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::UnsafeNclNativeMethods::HttpApi*, "System.Net", "UnsafeNclNativeMethods/HttpApi");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x10
@@ -26,7 +26,7 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnsafeNclNativeMethods::HttpApi : public ::Il2CppObject {
     public:
-    // Nested type: System::Net::UnsafeNclNativeMethods::HttpApi::HTTP_REQUEST_HEADER_ID
+    // Nested type: ::System::Net::UnsafeNclNativeMethods::HttpApi::HTTP_REQUEST_HEADER_ID
     class HTTP_REQUEST_HEADER_ID;
     // Get static field: static private System.String[] m_Strings
     static ::ArrayW<::StringW> _get_m_Strings();

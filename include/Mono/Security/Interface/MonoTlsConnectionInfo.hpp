@@ -21,8 +21,8 @@ namespace Mono::Security::Interface {
   class MonoTlsConnectionInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Security::Interface::MonoTlsConnectionInfo);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::MonoTlsConnectionInfo*, "Mono.Security.Interface", "MonoTlsConnectionInfo");
+NEED_NO_BOX(::Mono::Security::Interface::MonoTlsConnectionInfo);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Interface::MonoTlsConnectionInfo*, "Mono.Security.Interface", "MonoTlsConnectionInfo");
 // Type namespace: Mono.Security.Interface
 namespace Mono::Security::Interface {
   // Size: 0x20
@@ -43,17 +43,17 @@ namespace Mono::Security::Interface {
     // private Mono.Security.Interface.CipherSuiteCode <CipherSuiteCode>k__BackingField
     // Size: 0x2
     // Offset: 0x10
-    Mono::Security::Interface::CipherSuiteCode CipherSuiteCode;
+    ::Mono::Security::Interface::CipherSuiteCode CipherSuiteCode;
     // Field size check
-    static_assert(sizeof(Mono::Security::Interface::CipherSuiteCode) == 0x2);
+    static_assert(sizeof(::Mono::Security::Interface::CipherSuiteCode) == 0x2);
     // Padding between fields: CipherSuiteCode and: ProtocolVersion
     char __padding0[0x2] = {};
     // private Mono.Security.Interface.TlsProtocols <ProtocolVersion>k__BackingField
     // Size: 0x4
     // Offset: 0x14
-    Mono::Security::Interface::TlsProtocols ProtocolVersion;
+    ::Mono::Security::Interface::TlsProtocols ProtocolVersion;
     // Field size check
-    static_assert(sizeof(Mono::Security::Interface::TlsProtocols) == 0x4);
+    static_assert(sizeof(::Mono::Security::Interface::TlsProtocols) == 0x4);
     // private System.String <PeerDomainName>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -62,23 +62,23 @@ namespace Mono::Security::Interface {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private Mono.Security.Interface.CipherSuiteCode <CipherSuiteCode>k__BackingField
-    Mono::Security::Interface::CipherSuiteCode& dyn_$CipherSuiteCode$k__BackingField();
+    ::Mono::Security::Interface::CipherSuiteCode& dyn_$CipherSuiteCode$k__BackingField();
     // Get instance field reference: private Mono.Security.Interface.TlsProtocols <ProtocolVersion>k__BackingField
-    Mono::Security::Interface::TlsProtocols& dyn_$ProtocolVersion$k__BackingField();
+    ::Mono::Security::Interface::TlsProtocols& dyn_$ProtocolVersion$k__BackingField();
     // Get instance field reference: private System.String <PeerDomainName>k__BackingField
     ::StringW& dyn_$PeerDomainName$k__BackingField();
     // public Mono.Security.Interface.CipherSuiteCode get_CipherSuiteCode()
     // Offset: 0x22CDB5C
-    Mono::Security::Interface::CipherSuiteCode get_CipherSuiteCode();
+    ::Mono::Security::Interface::CipherSuiteCode get_CipherSuiteCode();
     // public System.Void set_CipherSuiteCode(Mono.Security.Interface.CipherSuiteCode value)
     // Offset: 0x22CDB64
-    void set_CipherSuiteCode(Mono::Security::Interface::CipherSuiteCode value);
+    void set_CipherSuiteCode(::Mono::Security::Interface::CipherSuiteCode value);
     // public Mono.Security.Interface.TlsProtocols get_ProtocolVersion()
     // Offset: 0x22CDB6C
-    Mono::Security::Interface::TlsProtocols get_ProtocolVersion();
+    ::Mono::Security::Interface::TlsProtocols get_ProtocolVersion();
     // public System.Void set_ProtocolVersion(Mono.Security.Interface.TlsProtocols value)
     // Offset: 0x22CDB74
-    void set_ProtocolVersion(Mono::Security::Interface::TlsProtocols value);
+    void set_ProtocolVersion(::Mono::Security::Interface::TlsProtocols value);
     // public System.Void set_PeerDomainName(System.String value)
     // Offset: 0x22CDB7C
     void set_PeerDomainName(::StringW value);
@@ -88,7 +88,7 @@ namespace Mono::Security::Interface {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoTlsConnectionInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Interface::MonoTlsConnectionInfo::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::Interface::MonoTlsConnectionInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoTlsConnectionInfo*, creationType>()));
     }
     // public override System.String ToString()
@@ -105,7 +105,7 @@ namespace Mono::Security::Interface {
 // Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsConnectionInfo::get_CipherSuiteCode
 // Il2CppName: get_CipherSuiteCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::CipherSuiteCode (Mono::Security::Interface::MonoTlsConnectionInfo::*)()>(&Mono::Security::Interface::MonoTlsConnectionInfo::get_CipherSuiteCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::Interface::CipherSuiteCode (Mono::Security::Interface::MonoTlsConnectionInfo::*)()>(&Mono::Security::Interface::MonoTlsConnectionInfo::get_CipherSuiteCode)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsConnectionInfo*), "get_CipherSuiteCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -113,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 // Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsConnectionInfo::set_CipherSuiteCode
 // Il2CppName: set_CipherSuiteCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Interface::MonoTlsConnectionInfo::*)(Mono::Security::Interface::CipherSuiteCode)>(&Mono::Security::Interface::MonoTlsConnectionInfo::set_CipherSuiteCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Interface::MonoTlsConnectionInfo::*)(::Mono::Security::Interface::CipherSuiteCode)>(&Mono::Security::Interface::MonoTlsConnectionInfo::set_CipherSuiteCode)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("Mono.Security.Interface", "CipherSuiteCode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsConnectionInfo*), "set_CipherSuiteCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsConnectionInfo::get_ProtocolVersion
 // Il2CppName: get_ProtocolVersion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::TlsProtocols (Mono::Security::Interface::MonoTlsConnectionInfo::*)()>(&Mono::Security::Interface::MonoTlsConnectionInfo::get_ProtocolVersion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::Interface::TlsProtocols (Mono::Security::Interface::MonoTlsConnectionInfo::*)()>(&Mono::Security::Interface::MonoTlsConnectionInfo::get_ProtocolVersion)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsConnectionInfo*), "get_ProtocolVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -130,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 // Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsConnectionInfo::set_ProtocolVersion
 // Il2CppName: set_ProtocolVersion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Interface::MonoTlsConnectionInfo::*)(Mono::Security::Interface::TlsProtocols)>(&Mono::Security::Interface::MonoTlsConnectionInfo::set_ProtocolVersion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Interface::MonoTlsConnectionInfo::*)(::Mono::Security::Interface::TlsProtocols)>(&Mono::Security::Interface::MonoTlsConnectionInfo::set_ProtocolVersion)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("Mono.Security.Interface", "TlsProtocols")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsConnectionInfo*), "set_ProtocolVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

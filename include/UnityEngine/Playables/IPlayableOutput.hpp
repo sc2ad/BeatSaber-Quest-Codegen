@@ -18,8 +18,8 @@ namespace UnityEngine::Playables {
   class IPlayableOutput;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Playables::IPlayableOutput);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::IPlayableOutput*, "UnityEngine.Playables", "IPlayableOutput");
+NEED_NO_BOX(::UnityEngine::Playables::IPlayableOutput);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Playables::IPlayableOutput*, "UnityEngine.Playables", "IPlayableOutput");
 // Type namespace: UnityEngine.Playables
 namespace UnityEngine::Playables {
   // Size: 0x10
@@ -30,7 +30,7 @@ namespace UnityEngine::Playables {
     public:
     // public UnityEngine.Playables.PlayableOutputHandle GetHandle()
     // Offset: 0xFFFFFFFF
-    UnityEngine::Playables::PlayableOutputHandle GetHandle();
+    ::UnityEngine::Playables::PlayableOutputHandle GetHandle();
   }; // UnityEngine.Playables.IPlayableOutput
   #pragma pack(pop)
 }
@@ -38,7 +38,7 @@ namespace UnityEngine::Playables {
 // Writing MetadataGetter for method: UnityEngine::Playables::IPlayableOutput::GetHandle
 // Il2CppName: GetHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableOutputHandle (UnityEngine::Playables::IPlayableOutput::*)()>(&UnityEngine::Playables::IPlayableOutput::GetHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::PlayableOutputHandle (UnityEngine::Playables::IPlayableOutput::*)()>(&UnityEngine::Playables::IPlayableOutput::GetHandle)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::IPlayableOutput*), "GetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

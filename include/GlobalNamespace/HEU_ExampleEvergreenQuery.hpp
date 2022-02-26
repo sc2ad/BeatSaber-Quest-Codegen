@@ -42,8 +42,8 @@ namespace GlobalNamespace {
   class HEU_ExampleEvergreenQuery;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::HEU_ExampleEvergreenQuery);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HEU_ExampleEvergreenQuery*, "", "HEU_ExampleEvergreenQuery");
+NEED_NO_BOX(::GlobalNamespace::HEU_ExampleEvergreenQuery);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::HEU_ExampleEvergreenQuery*, "", "HEU_ExampleEvergreenQuery");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -57,35 +57,35 @@ namespace GlobalNamespace {
     static void StartQuery();
     // static public HoudiniEngineUnity.HEU_HoudiniAsset QueryHoudiniAsset(UnityEngine.GameObject rootGO)
     // Offset: 0x163067C
-    static HoudiniEngineUnity::HEU_HoudiniAsset* QueryHoudiniAsset(UnityEngine::GameObject* rootGO);
+    static ::HoudiniEngineUnity::HEU_HoudiniAsset* QueryHoudiniAsset(::UnityEngine::GameObject* rootGO);
     // static public System.Void CookAsset(HoudiniEngineUnity.HEU_HoudiniAsset houdiniAsset)
     // Offset: 0x1630838
-    static void CookAsset(HoudiniEngineUnity::HEU_HoudiniAsset* houdiniAsset);
+    static void CookAsset(::HoudiniEngineUnity::HEU_HoudiniAsset* houdiniAsset);
     // static public System.Void ChangeParmsAndCook(HoudiniEngineUnity.HEU_HoudiniAsset houdiniAsset)
     // Offset: 0x1630860
-    static void ChangeParmsAndCook(HoudiniEngineUnity::HEU_HoudiniAsset* houdiniAsset);
+    static void ChangeParmsAndCook(::HoudiniEngineUnity::HEU_HoudiniAsset* houdiniAsset);
     // static public System.Void QueryObjects(HoudiniEngineUnity.HEU_HoudiniAsset houdiniAsset)
     // Offset: 0x1630B84
-    static void QueryObjects(HoudiniEngineUnity::HEU_HoudiniAsset* houdiniAsset);
+    static void QueryObjects(::HoudiniEngineUnity::HEU_HoudiniAsset* houdiniAsset);
     // static public System.Void QueryGeoParts(HoudiniEngineUnity.HEU_SessionBase session, ref HoudiniEngineUnity.HAPI_GeoInfo geoInfo)
     // Offset: 0x1631360
-    static void QueryGeoParts(HoudiniEngineUnity::HEU_SessionBase* session, ByRef<HoudiniEngineUnity::HAPI_GeoInfo> geoInfo);
+    static void QueryGeoParts(::HoudiniEngineUnity::HEU_SessionBase* session, ByRef<::HoudiniEngineUnity::HAPI_GeoInfo> geoInfo);
     // static public System.Void QueryPartAttributeByOwner(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, HoudiniEngineUnity.HAPI_AttributeOwner owner, System.Int32 count, System.Text.StringBuilder sb)
     // Offset: 0x16317C8
-    static void QueryPartAttributeByOwner(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, HoudiniEngineUnity::HAPI_AttributeOwner owner, int count, System::Text::StringBuilder* sb);
+    static void QueryPartAttributeByOwner(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::HoudiniEngineUnity::HAPI_AttributeOwner owner, int count, ::System::Text::StringBuilder* sb);
     // static public System.Void QueryAttributeByStorageType(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, ref HoudiniEngineUnity.HAPI_AttributeInfo attrInfo, System.String attrName)
     // Offset: 0x1631B08
-    static void QueryAttributeByStorageType(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::StringW attrName);
+    static void QueryAttributeByStorageType(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::StringW attrName);
     // static public System.Void QueryAttribute(HoudiniEngineUnity.HEU_HoudiniAsset houdiniAsset, System.String objName, System.String geoName, System.Int32 partID, System.String attrName)
     // Offset: 0x1630EC8
-    static void QueryAttribute(HoudiniEngineUnity::HEU_HoudiniAsset* houdiniAsset, ::StringW objName, ::StringW geoName, int partID, ::StringW attrName);
+    static void QueryAttribute(::HoudiniEngineUnity::HEU_HoudiniAsset* houdiniAsset, ::StringW objName, ::StringW geoName, int partID, ::StringW attrName);
     // public System.Void .ctor()
     // Offset: 0x1631CAC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_ExampleEvergreenQuery* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::HEU_ExampleEvergreenQuery::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HEU_ExampleEvergreenQuery::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_ExampleEvergreenQuery*, creationType>()));
     }
   }; // HEU_ExampleEvergreenQuery
@@ -103,7 +103,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::HEU_ExampleEvergreenQuery::QueryHoudiniAsset
 // Il2CppName: QueryHoudiniAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_HoudiniAsset* (*)(UnityEngine::GameObject*)>(&GlobalNamespace::HEU_ExampleEvergreenQuery::QueryHoudiniAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_HoudiniAsset* (*)(::UnityEngine::GameObject*)>(&GlobalNamespace::HEU_ExampleEvergreenQuery::QueryHoudiniAsset)> {
   static const MethodInfo* get() {
     static auto* rootGO = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HEU_ExampleEvergreenQuery*), "QueryHoudiniAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rootGO});
@@ -112,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: GlobalNamespace::HEU_ExampleEvergreenQuery::CookAsset
 // Il2CppName: CookAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HoudiniEngineUnity::HEU_HoudiniAsset*)>(&GlobalNamespace::HEU_ExampleEvergreenQuery::CookAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_HoudiniAsset*)>(&GlobalNamespace::HEU_ExampleEvergreenQuery::CookAsset)> {
   static const MethodInfo* get() {
     static auto* houdiniAsset = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_HoudiniAsset")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HEU_ExampleEvergreenQuery*), "CookAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{houdiniAsset});
@@ -121,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ho
 // Writing MetadataGetter for method: GlobalNamespace::HEU_ExampleEvergreenQuery::ChangeParmsAndCook
 // Il2CppName: ChangeParmsAndCook
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HoudiniEngineUnity::HEU_HoudiniAsset*)>(&GlobalNamespace::HEU_ExampleEvergreenQuery::ChangeParmsAndCook)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_HoudiniAsset*)>(&GlobalNamespace::HEU_ExampleEvergreenQuery::ChangeParmsAndCook)> {
   static const MethodInfo* get() {
     static auto* houdiniAsset = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_HoudiniAsset")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HEU_ExampleEvergreenQuery*), "ChangeParmsAndCook", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{houdiniAsset});
@@ -130,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ho
 // Writing MetadataGetter for method: GlobalNamespace::HEU_ExampleEvergreenQuery::QueryObjects
 // Il2CppName: QueryObjects
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HoudiniEngineUnity::HEU_HoudiniAsset*)>(&GlobalNamespace::HEU_ExampleEvergreenQuery::QueryObjects)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_HoudiniAsset*)>(&GlobalNamespace::HEU_ExampleEvergreenQuery::QueryObjects)> {
   static const MethodInfo* get() {
     static auto* houdiniAsset = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_HoudiniAsset")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HEU_ExampleEvergreenQuery*), "QueryObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{houdiniAsset});
@@ -139,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ho
 // Writing MetadataGetter for method: GlobalNamespace::HEU_ExampleEvergreenQuery::QueryGeoParts
 // Il2CppName: QueryGeoParts
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HoudiniEngineUnity::HEU_SessionBase*, ByRef<HoudiniEngineUnity::HAPI_GeoInfo>)>(&GlobalNamespace::HEU_ExampleEvergreenQuery::QueryGeoParts)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_SessionBase*, ByRef<::HoudiniEngineUnity::HAPI_GeoInfo>)>(&GlobalNamespace::HEU_ExampleEvergreenQuery::QueryGeoParts)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoInfo = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_GeoInfo")->this_arg;
@@ -149,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ho
 // Writing MetadataGetter for method: GlobalNamespace::HEU_ExampleEvergreenQuery::QueryPartAttributeByOwner
 // Il2CppName: QueryPartAttributeByOwner
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, HoudiniEngineUnity::HAPI_AttributeOwner, int, System::Text::StringBuilder*)>(&GlobalNamespace::HEU_ExampleEvergreenQuery::QueryPartAttributeByOwner)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_SessionBase*, int, int, ::HoudiniEngineUnity::HAPI_AttributeOwner, int, ::System::Text::StringBuilder*)>(&GlobalNamespace::HEU_ExampleEvergreenQuery::QueryPartAttributeByOwner)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -163,7 +163,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ho
 // Writing MetadataGetter for method: GlobalNamespace::HEU_ExampleEvergreenQuery::QueryAttributeByStorageType
 // Il2CppName: QueryAttributeByStorageType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ::StringW)>(&GlobalNamespace::HEU_ExampleEvergreenQuery::QueryAttributeByStorageType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_SessionBase*, int, int, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo>, ::StringW)>(&GlobalNamespace::HEU_ExampleEvergreenQuery::QueryAttributeByStorageType)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -176,7 +176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ho
 // Writing MetadataGetter for method: GlobalNamespace::HEU_ExampleEvergreenQuery::QueryAttribute
 // Il2CppName: QueryAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HoudiniEngineUnity::HEU_HoudiniAsset*, ::StringW, ::StringW, int, ::StringW)>(&GlobalNamespace::HEU_ExampleEvergreenQuery::QueryAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, ::StringW, ::StringW, int, ::StringW)>(&GlobalNamespace::HEU_ExampleEvergreenQuery::QueryAttribute)> {
   static const MethodInfo* get() {
     static auto* houdiniAsset = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_HoudiniAsset")->byval_arg;
     static auto* objName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

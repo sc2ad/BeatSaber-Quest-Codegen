@@ -33,8 +33,8 @@ namespace System::Net {
   class WebUtility;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::WebUtility);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::WebUtility*, "System.Net", "WebUtility");
+NEED_NO_BOX(::System::Net::WebUtility);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::WebUtility*, "System.Net", "WebUtility");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x10
@@ -43,23 +43,23 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class WebUtility : public ::Il2CppObject {
     public:
-    // Nested type: System::Net::WebUtility::UrlDecoder
+    // Nested type: ::System::Net::WebUtility::UrlDecoder
     class UrlDecoder;
     // Get static field: static private readonly System.Char[] _htmlEntityEndingChars
     static ::ArrayW<::Il2CppChar> _get__htmlEntityEndingChars();
     // Set static field: static private readonly System.Char[] _htmlEntityEndingChars
     static void _set__htmlEntityEndingChars(::ArrayW<::Il2CppChar> value);
     // Get static field: static private System.Net.Configuration.UnicodeDecodingConformance _htmlDecodeConformance
-    static System::Net::Configuration::UnicodeDecodingConformance _get__htmlDecodeConformance();
+    static ::System::Net::Configuration::UnicodeDecodingConformance _get__htmlDecodeConformance();
     // Set static field: static private System.Net.Configuration.UnicodeDecodingConformance _htmlDecodeConformance
-    static void _set__htmlDecodeConformance(System::Net::Configuration::UnicodeDecodingConformance value);
+    static void _set__htmlDecodeConformance(::System::Net::Configuration::UnicodeDecodingConformance value);
     // Get static field: static private System.Net.Configuration.UnicodeEncodingConformance _htmlEncodeConformance
-    static System::Net::Configuration::UnicodeEncodingConformance _get__htmlEncodeConformance();
+    static ::System::Net::Configuration::UnicodeEncodingConformance _get__htmlEncodeConformance();
     // Set static field: static private System.Net.Configuration.UnicodeEncodingConformance _htmlEncodeConformance
-    static void _set__htmlEncodeConformance(System::Net::Configuration::UnicodeEncodingConformance value);
+    static void _set__htmlEncodeConformance(::System::Net::Configuration::UnicodeEncodingConformance value);
     // static private System.Net.Configuration.UnicodeEncodingConformance get_HtmlEncodeConformance()
     // Offset: 0x1BE55F8
-    static System::Net::Configuration::UnicodeEncodingConformance get_HtmlEncodeConformance();
+    static ::System::Net::Configuration::UnicodeEncodingConformance get_HtmlEncodeConformance();
     // static private System.Void .cctor()
     // Offset: 0x1BE5CEC
     static void _cctor();
@@ -68,13 +68,13 @@ namespace System::Net {
     static ::StringW HtmlEncode(::StringW value);
     // static public System.Void HtmlEncode(System.String value, System.IO.TextWriter output)
     // Offset: 0x1BE527C
-    static void HtmlEncode(::StringW value, System::IO::TextWriter* output);
+    static void HtmlEncode(::StringW value, ::System::IO::TextWriter* output);
     // static private System.Int32 IndexOfHtmlEncodingChars(System.String s, System.Int32 startPos)
     // Offset: 0x1BE5128
     static int IndexOfHtmlEncodingChars(::StringW s, int startPos);
     // static private System.String UrlDecodeInternal(System.String value, System.Text.Encoding encoding)
     // Offset: 0x1BE57C4
-    static ::StringW UrlDecodeInternal(::StringW value, System::Text::Encoding* encoding);
+    static ::StringW UrlDecodeInternal(::StringW value, ::System::Text::Encoding* encoding);
     // static public System.String UrlDecode(System.String encodedValue)
     // Offset: 0x1BE5C64
     static ::StringW UrlDecode(::StringW encodedValue);
@@ -91,7 +91,7 @@ namespace System::Net {
 // Writing MetadataGetter for method: System::Net::WebUtility::get_HtmlEncodeConformance
 // Il2CppName: get_HtmlEncodeConformance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Configuration::UnicodeEncodingConformance (*)()>(&System::Net::WebUtility::get_HtmlEncodeConformance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Configuration::UnicodeEncodingConformance (*)()>(&System::Net::WebUtility::get_HtmlEncodeConformance)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebUtility*), "get_HtmlEncodeConformance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -116,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Net::WebUtility::HtmlEncode
 // Il2CppName: HtmlEncode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, System::IO::TextWriter*)>(&System::Net::WebUtility::HtmlEncode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::System::IO::TextWriter*)>(&System::Net::WebUtility::HtmlEncode)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* output = &::il2cpp_utils::GetClassFromName("System.IO", "TextWriter")->byval_arg;
@@ -136,7 +136,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::S
 // Writing MetadataGetter for method: System::Net::WebUtility::UrlDecodeInternal
 // Il2CppName: UrlDecodeInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, System::Text::Encoding*)>(&System::Net::WebUtility::UrlDecodeInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::System::Text::Encoding*)>(&System::Net::WebUtility::UrlDecodeInternal)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* encoding = &::il2cpp_utils::GetClassFromName("System.Text", "Encoding")->byval_arg;

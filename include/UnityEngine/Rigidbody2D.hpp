@@ -21,8 +21,8 @@ namespace UnityEngine {
   class Rigidbody2D;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Rigidbody2D);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rigidbody2D*, "UnityEngine", "Rigidbody2D");
+NEED_NO_BOX(::UnityEngine::Rigidbody2D);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rigidbody2D*, "UnityEngine", "Rigidbody2D");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -31,29 +31,29 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NativeHeaderAttribute] Offset: 11CA5C0
   // [RequireComponent] Offset: 11CA5C0
-  class Rigidbody2D : public UnityEngine::Component {
+  class Rigidbody2D : public ::UnityEngine::Component {
     public:
     // public UnityEngine.Vector2 get_position()
     // Offset: 0x2A56BDC
-    UnityEngine::Vector2 get_position();
+    ::UnityEngine::Vector2 get_position();
     // public UnityEngine.Vector2 get_velocity()
     // Offset: 0x2A56C84
-    UnityEngine::Vector2 get_velocity();
+    ::UnityEngine::Vector2 get_velocity();
     // public System.Void set_velocity(UnityEngine.Vector2 value)
     // Offset: 0x2A56D2C
-    void set_velocity(UnityEngine::Vector2 value);
+    void set_velocity(::UnityEngine::Vector2 value);
     // public System.Void Sleep()
     // Offset: 0x2A56DD0
     void Sleep();
     // private System.Void get_position_Injected(out UnityEngine.Vector2 ret)
     // Offset: 0x2A56C34
-    void get_position_Injected(ByRef<UnityEngine::Vector2> ret);
+    void get_position_Injected(ByRef<::UnityEngine::Vector2> ret);
     // private System.Void get_velocity_Injected(out UnityEngine.Vector2 ret)
     // Offset: 0x2A56CDC
-    void get_velocity_Injected(ByRef<UnityEngine::Vector2> ret);
+    void get_velocity_Injected(ByRef<::UnityEngine::Vector2> ret);
     // private System.Void set_velocity_Injected(ref UnityEngine.Vector2 value)
     // Offset: 0x2A56D80
-    void set_velocity_Injected(ByRef<UnityEngine::Vector2> value);
+    void set_velocity_Injected(ByRef<::UnityEngine::Vector2> value);
   }; // UnityEngine.Rigidbody2D
   #pragma pack(pop)
 }
@@ -61,7 +61,7 @@ namespace UnityEngine {
 // Writing MetadataGetter for method: UnityEngine::Rigidbody2D::get_position
 // Il2CppName: get_position
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::Rigidbody2D::*)()>(&UnityEngine::Rigidbody2D::get_position)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (UnityEngine::Rigidbody2D::*)()>(&UnityEngine::Rigidbody2D::get_position)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rigidbody2D*), "get_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -69,7 +69,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Rigidbody2D::get_velocity
 // Il2CppName: get_velocity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::Rigidbody2D::*)()>(&UnityEngine::Rigidbody2D::get_velocity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (UnityEngine::Rigidbody2D::*)()>(&UnityEngine::Rigidbody2D::get_velocity)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rigidbody2D*), "get_velocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -77,7 +77,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Rigidbody2D::set_velocity
 // Il2CppName: set_velocity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rigidbody2D::*)(UnityEngine::Vector2)>(&UnityEngine::Rigidbody2D::set_velocity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rigidbody2D::*)(::UnityEngine::Vector2)>(&UnityEngine::Rigidbody2D::set_velocity)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rigidbody2D*), "set_velocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -94,7 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Rigidbody2D::get_position_Injected
 // Il2CppName: get_position_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rigidbody2D::*)(ByRef<UnityEngine::Vector2>)>(&UnityEngine::Rigidbody2D::get_position_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rigidbody2D::*)(ByRef<::UnityEngine::Vector2>)>(&UnityEngine::Rigidbody2D::get_position_Injected)> {
   static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rigidbody2D*), "get_position_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
@@ -103,7 +103,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Rigidbody2D::get_velocity_Injected
 // Il2CppName: get_velocity_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rigidbody2D::*)(ByRef<UnityEngine::Vector2>)>(&UnityEngine::Rigidbody2D::get_velocity_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rigidbody2D::*)(ByRef<::UnityEngine::Vector2>)>(&UnityEngine::Rigidbody2D::get_velocity_Injected)> {
   static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rigidbody2D*), "get_velocity_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
@@ -112,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Rigidbody2D::set_velocity_Injected
 // Il2CppName: set_velocity_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rigidbody2D::*)(ByRef<UnityEngine::Vector2>)>(&UnityEngine::Rigidbody2D::set_velocity_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rigidbody2D::*)(ByRef<::UnityEngine::Vector2>)>(&UnityEngine::Rigidbody2D::set_velocity_Injected)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rigidbody2D*), "set_velocity_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

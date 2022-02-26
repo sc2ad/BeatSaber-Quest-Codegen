@@ -26,8 +26,8 @@ namespace GlobalNamespace {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BeatmapLevelFilterModel::$$c__DisplayClass0_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelFilterModel::$$c__DisplayClass0_0*, "", "BeatmapLevelFilterModel/<>c__DisplayClass0_0");
+NEED_NO_BOX(::GlobalNamespace::BeatmapLevelFilterModel::$$c__DisplayClass0_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapLevelFilterModel::$$c__DisplayClass0_0*, "", "BeatmapLevelFilterModel/<>c__DisplayClass0_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x30
@@ -63,46 +63,46 @@ namespace GlobalNamespace {
     // public LevelFilterParams levelFilterParams
     // Size: 0x8
     // Offset: 0x20
-    GlobalNamespace::LevelFilterParams* levelFilterParams;
+    ::GlobalNamespace::LevelFilterParams* levelFilterParams;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::LevelFilterParams*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::LevelFilterParams*) == 0x8);
     // public PlayerDataModel playerDataModel
     // Size: 0x8
     // Offset: 0x28
-    GlobalNamespace::PlayerDataModel* playerDataModel;
+    ::GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::PlayerDataModel*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::PlayerDataModel*) == 0x8);
     public:
     // Get instance field reference: public System.Boolean searchByText
     bool& dyn_searchByText();
     // Get instance field reference: public System.String[] searchTexts
     ::ArrayW<::StringW>& dyn_searchTexts();
     // Get instance field reference: public LevelFilterParams levelFilterParams
-    GlobalNamespace::LevelFilterParams*& dyn_levelFilterParams();
+    ::GlobalNamespace::LevelFilterParams*& dyn_levelFilterParams();
     // Get instance field reference: public PlayerDataModel playerDataModel
-    GlobalNamespace::PlayerDataModel*& dyn_playerDataModel();
+    ::GlobalNamespace::PlayerDataModel*& dyn_playerDataModel();
     // System.Boolean <FilerBeatmapLevelPackCollectionAsync>b__0(IPreviewBeatmapLevel beatmapLevel)
     // Offset: 0x14C1E00
-    bool $FilerBeatmapLevelPackCollectionAsync$b__0(GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel);
+    bool $FilerBeatmapLevelPackCollectionAsync$b__0(::GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel);
     // public System.Void .ctor()
     // Offset: 0x14C1DF8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLevelFilterModel::$$c__DisplayClass0_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapLevelFilterModel::$$c__DisplayClass0_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapLevelFilterModel::$$c__DisplayClass0_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelFilterModel::$$c__DisplayClass0_0*, creationType>()));
     }
   }; // BeatmapLevelFilterModel/<>c__DisplayClass0_0
   #pragma pack(pop)
-  static check_size<sizeof(BeatmapLevelFilterModel::$$c__DisplayClass0_0), 40 + sizeof(GlobalNamespace::PlayerDataModel*)> __GlobalNamespace_BeatmapLevelFilterModel_$$c__DisplayClass0_0SizeCheck;
+  static check_size<sizeof(BeatmapLevelFilterModel::$$c__DisplayClass0_0), 40 + sizeof(::GlobalNamespace::PlayerDataModel*)> __GlobalNamespace_BeatmapLevelFilterModel_$$c__DisplayClass0_0SizeCheck;
   static_assert(sizeof(BeatmapLevelFilterModel::$$c__DisplayClass0_0) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelFilterModel::$$c__DisplayClass0_0::$FilerBeatmapLevelPackCollectionAsync$b__0
 // Il2CppName: <FilerBeatmapLevelPackCollectionAsync>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::BeatmapLevelFilterModel::$$c__DisplayClass0_0::*)(GlobalNamespace::IPreviewBeatmapLevel*)>(&GlobalNamespace::BeatmapLevelFilterModel::$$c__DisplayClass0_0::$FilerBeatmapLevelPackCollectionAsync$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::BeatmapLevelFilterModel::$$c__DisplayClass0_0::*)(::GlobalNamespace::IPreviewBeatmapLevel*)>(&GlobalNamespace::BeatmapLevelFilterModel::$$c__DisplayClass0_0::$FilerBeatmapLevelPackCollectionAsync$b__0)> {
   static const MethodInfo* get() {
     static auto* beatmapLevel = &::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelFilterModel::$$c__DisplayClass0_0*), "<FilerBeatmapLevelPackCollectionAsync>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapLevel});

@@ -45,8 +45,8 @@ namespace UnityEngine {
   class SystemInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::SystemInfo);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SystemInfo*, "UnityEngine", "SystemInfo");
+NEED_NO_BOX(::UnityEngine::SystemInfo);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::SystemInfo*, "UnityEngine", "SystemInfo");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -63,13 +63,13 @@ namespace UnityEngine {
     public:
     // static public UnityEngine.OperatingSystemFamily get_operatingSystemFamily()
     // Offset: 0x26F754C
-    static UnityEngine::OperatingSystemFamily get_operatingSystemFamily();
+    static ::UnityEngine::OperatingSystemFamily get_operatingSystemFamily();
     // static public UnityEngine.DeviceType get_deviceType()
     // Offset: 0x26F75B4
-    static UnityEngine::DeviceType get_deviceType();
+    static ::UnityEngine::DeviceType get_deviceType();
     // static public UnityEngine.Rendering.GraphicsDeviceType get_graphicsDeviceType()
     // Offset: 0x26F761C
-    static UnityEngine::Rendering::GraphicsDeviceType get_graphicsDeviceType();
+    static ::UnityEngine::Rendering::GraphicsDeviceType get_graphicsDeviceType();
     // static public System.String get_graphicsDeviceVersion()
     // Offset: 0x26F7684
     static ::StringW get_graphicsDeviceVersion();
@@ -81,22 +81,22 @@ namespace UnityEngine {
     static bool get_usesReversedZBuffer();
     // static private System.Boolean IsValidEnumValue(System.Enum value)
     // Offset: 0x26F77BC
-    static bool IsValidEnumValue(System::Enum* value);
+    static bool IsValidEnumValue(::System::Enum* value);
     // static public System.Boolean SupportsRenderTextureFormat(UnityEngine.RenderTextureFormat format)
     // Offset: 0x26F7844
-    static bool SupportsRenderTextureFormat(UnityEngine::RenderTextureFormat format);
+    static bool SupportsRenderTextureFormat(::UnityEngine::RenderTextureFormat format);
     // static public System.Boolean SupportsTextureFormat(UnityEngine.TextureFormat format)
     // Offset: 0x26F7954
-    static bool SupportsTextureFormat(UnityEngine::TextureFormat format);
+    static bool SupportsTextureFormat(::UnityEngine::TextureFormat format);
     // static private UnityEngine.OperatingSystemFamily GetOperatingSystemFamily()
     // Offset: 0x26F7580
-    static UnityEngine::OperatingSystemFamily GetOperatingSystemFamily();
+    static ::UnityEngine::OperatingSystemFamily GetOperatingSystemFamily();
     // static private UnityEngine.DeviceType GetDeviceType()
     // Offset: 0x26F75E8
-    static UnityEngine::DeviceType GetDeviceType();
+    static ::UnityEngine::DeviceType GetDeviceType();
     // static private UnityEngine.Rendering.GraphicsDeviceType GetGraphicsDeviceType()
     // Offset: 0x26F7650
-    static UnityEngine::Rendering::GraphicsDeviceType GetGraphicsDeviceType();
+    static ::UnityEngine::Rendering::GraphicsDeviceType GetGraphicsDeviceType();
     // static private System.String GetGraphicsDeviceVersion()
     // Offset: 0x26F76B8
     static ::StringW GetGraphicsDeviceVersion();
@@ -108,19 +108,19 @@ namespace UnityEngine {
     static bool UsesReversedZBuffer();
     // static private System.Boolean HasRenderTextureNative(UnityEngine.RenderTextureFormat format)
     // Offset: 0x26F7914
-    static bool HasRenderTextureNative(UnityEngine::RenderTextureFormat format);
+    static bool HasRenderTextureNative(::UnityEngine::RenderTextureFormat format);
     // static private System.Boolean SupportsTextureFormatNative(UnityEngine.TextureFormat format)
     // Offset: 0x26F7A24
-    static bool SupportsTextureFormatNative(UnityEngine::TextureFormat format);
+    static bool SupportsTextureFormatNative(::UnityEngine::TextureFormat format);
     // static public System.Boolean IsFormatSupported(UnityEngine.Experimental.Rendering.GraphicsFormat format, UnityEngine.Experimental.Rendering.FormatUsage usage)
     // Offset: 0x26F7A64
-    static bool IsFormatSupported(UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::FormatUsage usage);
+    static bool IsFormatSupported(::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::Experimental::Rendering::FormatUsage usage);
     // static public UnityEngine.Experimental.Rendering.GraphicsFormat GetCompatibleFormat(UnityEngine.Experimental.Rendering.GraphicsFormat format, UnityEngine.Experimental.Rendering.FormatUsage usage)
     // Offset: 0x26F7AB4
-    static UnityEngine::Experimental::Rendering::GraphicsFormat GetCompatibleFormat(UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::FormatUsage usage);
+    static ::UnityEngine::Experimental::Rendering::GraphicsFormat GetCompatibleFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::Experimental::Rendering::FormatUsage usage);
     // static public UnityEngine.Experimental.Rendering.GraphicsFormat GetGraphicsFormat(UnityEngine.Experimental.Rendering.DefaultFormat format)
     // Offset: 0x26F7B04
-    static UnityEngine::Experimental::Rendering::GraphicsFormat GetGraphicsFormat(UnityEngine::Experimental::Rendering::DefaultFormat format);
+    static ::UnityEngine::Experimental::Rendering::GraphicsFormat GetGraphicsFormat(::UnityEngine::Experimental::Rendering::DefaultFormat format);
   }; // UnityEngine.SystemInfo
   #pragma pack(pop)
 }
@@ -128,7 +128,7 @@ namespace UnityEngine {
 // Writing MetadataGetter for method: UnityEngine::SystemInfo::get_operatingSystemFamily
 // Il2CppName: get_operatingSystemFamily
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::OperatingSystemFamily (*)()>(&UnityEngine::SystemInfo::get_operatingSystemFamily)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::OperatingSystemFamily (*)()>(&UnityEngine::SystemInfo::get_operatingSystemFamily)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::SystemInfo*), "get_operatingSystemFamily", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -136,7 +136,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::SystemInfo::get_deviceType
 // Il2CppName: get_deviceType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::DeviceType (*)()>(&UnityEngine::SystemInfo::get_deviceType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::DeviceType (*)()>(&UnityEngine::SystemInfo::get_deviceType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::SystemInfo*), "get_deviceType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -144,7 +144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::SystemInfo::get_graphicsDeviceType
 // Il2CppName: get_graphicsDeviceType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::GraphicsDeviceType (*)()>(&UnityEngine::SystemInfo::get_graphicsDeviceType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::GraphicsDeviceType (*)()>(&UnityEngine::SystemInfo::get_graphicsDeviceType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::SystemInfo*), "get_graphicsDeviceType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -176,7 +176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Writing MetadataGetter for method: UnityEngine::SystemInfo::IsValidEnumValue
 // Il2CppName: IsValidEnumValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Enum*)>(&UnityEngine::SystemInfo::IsValidEnumValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Enum*)>(&UnityEngine::SystemInfo::IsValidEnumValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Enum")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::SystemInfo*), "IsValidEnumValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -185,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::SystemInfo::SupportsRenderTextureFormat
 // Il2CppName: SupportsRenderTextureFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::RenderTextureFormat)>(&UnityEngine::SystemInfo::SupportsRenderTextureFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::RenderTextureFormat)>(&UnityEngine::SystemInfo::SupportsRenderTextureFormat)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTextureFormat")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::SystemInfo*), "SupportsRenderTextureFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{format});
@@ -194,7 +194,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: UnityEngine::SystemInfo::SupportsTextureFormat
 // Il2CppName: SupportsTextureFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::TextureFormat)>(&UnityEngine::SystemInfo::SupportsTextureFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::TextureFormat)>(&UnityEngine::SystemInfo::SupportsTextureFormat)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("UnityEngine", "TextureFormat")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::SystemInfo*), "SupportsTextureFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{format});
@@ -203,7 +203,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: UnityEngine::SystemInfo::GetOperatingSystemFamily
 // Il2CppName: GetOperatingSystemFamily
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::OperatingSystemFamily (*)()>(&UnityEngine::SystemInfo::GetOperatingSystemFamily)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::OperatingSystemFamily (*)()>(&UnityEngine::SystemInfo::GetOperatingSystemFamily)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::SystemInfo*), "GetOperatingSystemFamily", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -211,7 +211,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::SystemInfo::GetDeviceType
 // Il2CppName: GetDeviceType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::DeviceType (*)()>(&UnityEngine::SystemInfo::GetDeviceType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::DeviceType (*)()>(&UnityEngine::SystemInfo::GetDeviceType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::SystemInfo*), "GetDeviceType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -219,7 +219,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::SystemInfo::GetGraphicsDeviceType
 // Il2CppName: GetGraphicsDeviceType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::GraphicsDeviceType (*)()>(&UnityEngine::SystemInfo::GetGraphicsDeviceType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::GraphicsDeviceType (*)()>(&UnityEngine::SystemInfo::GetGraphicsDeviceType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::SystemInfo*), "GetGraphicsDeviceType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -251,7 +251,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Writing MetadataGetter for method: UnityEngine::SystemInfo::HasRenderTextureNative
 // Il2CppName: HasRenderTextureNative
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::RenderTextureFormat)>(&UnityEngine::SystemInfo::HasRenderTextureNative)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::RenderTextureFormat)>(&UnityEngine::SystemInfo::HasRenderTextureNative)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTextureFormat")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::SystemInfo*), "HasRenderTextureNative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{format});
@@ -260,7 +260,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: UnityEngine::SystemInfo::SupportsTextureFormatNative
 // Il2CppName: SupportsTextureFormatNative
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::TextureFormat)>(&UnityEngine::SystemInfo::SupportsTextureFormatNative)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::TextureFormat)>(&UnityEngine::SystemInfo::SupportsTextureFormatNative)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("UnityEngine", "TextureFormat")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::SystemInfo*), "SupportsTextureFormatNative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{format});
@@ -269,7 +269,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: UnityEngine::SystemInfo::IsFormatSupported
 // Il2CppName: IsFormatSupported
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Experimental::Rendering::GraphicsFormat, UnityEngine::Experimental::Rendering::FormatUsage)>(&UnityEngine::SystemInfo::IsFormatSupported)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Experimental::Rendering::GraphicsFormat, ::UnityEngine::Experimental::Rendering::FormatUsage)>(&UnityEngine::SystemInfo::IsFormatSupported)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("UnityEngine.Experimental.Rendering", "GraphicsFormat")->byval_arg;
     static auto* usage = &::il2cpp_utils::GetClassFromName("UnityEngine.Experimental.Rendering", "FormatUsage")->byval_arg;
@@ -279,7 +279,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: UnityEngine::SystemInfo::GetCompatibleFormat
 // Il2CppName: GetCompatibleFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Experimental::Rendering::GraphicsFormat (*)(UnityEngine::Experimental::Rendering::GraphicsFormat, UnityEngine::Experimental::Rendering::FormatUsage)>(&UnityEngine::SystemInfo::GetCompatibleFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Experimental::Rendering::GraphicsFormat (*)(::UnityEngine::Experimental::Rendering::GraphicsFormat, ::UnityEngine::Experimental::Rendering::FormatUsage)>(&UnityEngine::SystemInfo::GetCompatibleFormat)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("UnityEngine.Experimental.Rendering", "GraphicsFormat")->byval_arg;
     static auto* usage = &::il2cpp_utils::GetClassFromName("UnityEngine.Experimental.Rendering", "FormatUsage")->byval_arg;
@@ -289,7 +289,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::SystemInfo::GetGraphicsFormat
 // Il2CppName: GetGraphicsFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Experimental::Rendering::GraphicsFormat (*)(UnityEngine::Experimental::Rendering::DefaultFormat)>(&UnityEngine::SystemInfo::GetGraphicsFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Experimental::Rendering::GraphicsFormat (*)(::UnityEngine::Experimental::Rendering::DefaultFormat)>(&UnityEngine::SystemInfo::GetGraphicsFormat)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("UnityEngine.Experimental.Rendering", "DefaultFormat")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::SystemInfo*), "GetGraphicsFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{format});

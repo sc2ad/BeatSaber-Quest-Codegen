@@ -11,8 +11,8 @@ namespace System::Runtime::CompilerServices {
   class IRuntimeVariables;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::CompilerServices::IRuntimeVariables);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::IRuntimeVariables*, "System.Runtime.CompilerServices", "IRuntimeVariables");
+NEED_NO_BOX(::System::Runtime::CompilerServices::IRuntimeVariables);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::CompilerServices::IRuntimeVariables*, "System.Runtime.CompilerServices", "IRuntimeVariables");
 // Type namespace: System.Runtime.CompilerServices
 namespace System::Runtime::CompilerServices {
   // Size: 0x10

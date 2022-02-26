@@ -28,8 +28,8 @@ namespace GlobalNamespace {
   class PosePrediction;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PosePrediction);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PosePrediction*, "", "PosePrediction");
+NEED_NO_BOX(::GlobalNamespace::PosePrediction);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PosePrediction*, "", "PosePrediction");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -40,23 +40,23 @@ namespace GlobalNamespace {
     public:
     // static public UnityEngine.Pose PredictPose(UnityEngine.Pose prev, System.Single prevTime, UnityEngine.Pose curr, System.Single currTime, System.Single time)
     // Offset: 0x2E008CC
-    static UnityEngine::Pose PredictPose(UnityEngine::Pose prev, float prevTime, UnityEngine::Pose curr, float currTime, float time);
+    static ::UnityEngine::Pose PredictPose(::UnityEngine::Pose prev, float prevTime, ::UnityEngine::Pose curr, float currTime, float time);
     // static public UnityEngine.Pose InterpolatePose(UnityEngine.Pose prev, UnityEngine.Pose curr, System.Single t)
     // Offset: 0x2E009D4
-    static UnityEngine::Pose InterpolatePose(UnityEngine::Pose prev, UnityEngine::Pose curr, float t);
+    static ::UnityEngine::Pose InterpolatePose(::UnityEngine::Pose prev, ::UnityEngine::Pose curr, float t);
     // static public PoseSerializable PredictPoseSerializable(PoseSerializable prev, System.Single prevTime, PoseSerializable curr, System.Single currTime, System.Single time)
     // Offset: 0x2E00EE0
-    static GlobalNamespace::PoseSerializable PredictPoseSerializable(GlobalNamespace::PoseSerializable prev, float prevTime, GlobalNamespace::PoseSerializable curr, float currTime, float time);
+    static ::GlobalNamespace::PoseSerializable PredictPoseSerializable(::GlobalNamespace::PoseSerializable prev, float prevTime, ::GlobalNamespace::PoseSerializable curr, float currTime, float time);
     // static public PoseSerializable InterpolatePoseSerializable(PoseSerializable a, PoseSerializable b, System.Single t)
     // Offset: 0x2E00FCC
-    static GlobalNamespace::PoseSerializable InterpolatePoseSerializable(GlobalNamespace::PoseSerializable a, GlobalNamespace::PoseSerializable b, float t);
+    static ::GlobalNamespace::PoseSerializable InterpolatePoseSerializable(::GlobalNamespace::PoseSerializable a, ::GlobalNamespace::PoseSerializable b, float t);
     // public System.Void .ctor()
     // Offset: 0x2E010A0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PosePrediction* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PosePrediction::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PosePrediction::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PosePrediction*, creationType>()));
     }
   }; // PosePrediction
@@ -66,7 +66,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::PosePrediction::PredictPose
 // Il2CppName: PredictPose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Pose (*)(UnityEngine::Pose, float, UnityEngine::Pose, float, float)>(&GlobalNamespace::PosePrediction::PredictPose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Pose (*)(::UnityEngine::Pose, float, ::UnityEngine::Pose, float, float)>(&GlobalNamespace::PosePrediction::PredictPose)> {
   static const MethodInfo* get() {
     static auto* prev = &::il2cpp_utils::GetClassFromName("UnityEngine", "Pose")->byval_arg;
     static auto* prevTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -79,7 +79,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::PosePrediction::InterpolatePose
 // Il2CppName: InterpolatePose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Pose (*)(UnityEngine::Pose, UnityEngine::Pose, float)>(&GlobalNamespace::PosePrediction::InterpolatePose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Pose (*)(::UnityEngine::Pose, ::UnityEngine::Pose, float)>(&GlobalNamespace::PosePrediction::InterpolatePose)> {
   static const MethodInfo* get() {
     static auto* prev = &::il2cpp_utils::GetClassFromName("UnityEngine", "Pose")->byval_arg;
     static auto* curr = &::il2cpp_utils::GetClassFromName("UnityEngine", "Pose")->byval_arg;
@@ -90,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::PosePrediction::PredictPoseSerializable
 // Il2CppName: PredictPoseSerializable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PoseSerializable (*)(GlobalNamespace::PoseSerializable, float, GlobalNamespace::PoseSerializable, float, float)>(&GlobalNamespace::PosePrediction::PredictPoseSerializable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PoseSerializable (*)(::GlobalNamespace::PoseSerializable, float, ::GlobalNamespace::PoseSerializable, float, float)>(&GlobalNamespace::PosePrediction::PredictPoseSerializable)> {
   static const MethodInfo* get() {
     static auto* prev = &::il2cpp_utils::GetClassFromName("", "PoseSerializable")->byval_arg;
     static auto* prevTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -103,7 +103,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::PosePrediction::InterpolatePoseSerializable
 // Il2CppName: InterpolatePoseSerializable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PoseSerializable (*)(GlobalNamespace::PoseSerializable, GlobalNamespace::PoseSerializable, float)>(&GlobalNamespace::PosePrediction::InterpolatePoseSerializable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PoseSerializable (*)(::GlobalNamespace::PoseSerializable, ::GlobalNamespace::PoseSerializable, float)>(&GlobalNamespace::PosePrediction::InterpolatePoseSerializable)> {
   static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("", "PoseSerializable")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("", "PoseSerializable")->byval_arg;

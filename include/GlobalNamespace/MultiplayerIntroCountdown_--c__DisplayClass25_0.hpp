@@ -25,8 +25,8 @@ namespace UnityEngine {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0*, "", "MultiplayerIntroCountdown/<>c__DisplayClass25_0");
+NEED_NO_BOX(::GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0*, "", "MultiplayerIntroCountdown/<>c__DisplayClass25_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -48,20 +48,20 @@ namespace GlobalNamespace {
     // public MultiplayerIntroCountdownTextController textController
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::MultiplayerIntroCountdownTextController* textController;
+    ::GlobalNamespace::MultiplayerIntroCountdownTextController* textController;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::MultiplayerIntroCountdownTextController*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::MultiplayerIntroCountdownTextController*) == 0x8);
     // public MultiplayerIntroCountdown <>4__this
     // Size: 0x8
     // Offset: 0x18
-    GlobalNamespace::MultiplayerIntroCountdown* $$4__this;
+    ::GlobalNamespace::MultiplayerIntroCountdown* $$4__this;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::MultiplayerIntroCountdown*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::MultiplayerIntroCountdown*) == 0x8);
     public:
     // Get instance field reference: public MultiplayerIntroCountdownTextController textController
-    GlobalNamespace::MultiplayerIntroCountdownTextController*& dyn_textController();
+    ::GlobalNamespace::MultiplayerIntroCountdownTextController*& dyn_textController();
     // Get instance field reference: public MultiplayerIntroCountdown <>4__this
-    GlobalNamespace::MultiplayerIntroCountdown*& dyn_$$4__this();
+    ::GlobalNamespace::MultiplayerIntroCountdown*& dyn_$$4__this();
     // System.Void <PhaseRoutine>b__0(System.Single val)
     // Offset: 0x143BE94
     void $PhaseRoutine$b__0(float val);
@@ -70,7 +70,7 @@ namespace GlobalNamespace {
     void $PhaseRoutine$b__1(float val);
     // System.Void <PhaseRoutine>b__2(UnityEngine.Vector3 pos)
     // Offset: 0x143C01C
-    void $PhaseRoutine$b__2(UnityEngine::Vector3 pos);
+    void $PhaseRoutine$b__2(::UnityEngine::Vector3 pos);
     // System.Void <PhaseRoutine>b__3(System.Single f)
     // Offset: 0x143C070
     void $PhaseRoutine$b__3(float f);
@@ -83,12 +83,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerIntroCountdown::$$c__DisplayClass25_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerIntroCountdown::$$c__DisplayClass25_0*, creationType>()));
     }
   }; // MultiplayerIntroCountdown/<>c__DisplayClass25_0
   #pragma pack(pop)
-  static check_size<sizeof(MultiplayerIntroCountdown::$$c__DisplayClass25_0), 24 + sizeof(GlobalNamespace::MultiplayerIntroCountdown*)> __GlobalNamespace_MultiplayerIntroCountdown_$$c__DisplayClass25_0SizeCheck;
+  static check_size<sizeof(MultiplayerIntroCountdown::$$c__DisplayClass25_0), 24 + sizeof(::GlobalNamespace::MultiplayerIntroCountdown*)> __GlobalNamespace_MultiplayerIntroCountdown_$$c__DisplayClass25_0SizeCheck;
   static_assert(sizeof(MultiplayerIntroCountdown::$$c__DisplayClass25_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -113,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0::$PhaseRoutine$b__2
 // Il2CppName: <PhaseRoutine>b__2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0::*)(UnityEngine::Vector3)>(&GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0::$PhaseRoutine$b__2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0::*)(::UnityEngine::Vector3)>(&GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0::$PhaseRoutine$b__2)> {
   static const MethodInfo* get() {
     static auto* pos = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerIntroCountdown::$$c__DisplayClass25_0*), "<PhaseRoutine>b__2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pos});

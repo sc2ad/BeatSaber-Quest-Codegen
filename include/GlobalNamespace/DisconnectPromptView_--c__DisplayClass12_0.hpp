@@ -20,8 +20,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::DisconnectPromptView::$$c__DisplayClass12_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisconnectPromptView::$$c__DisplayClass12_0*, "", "DisconnectPromptView/<>c__DisplayClass12_0");
+NEED_NO_BOX(::GlobalNamespace::DisconnectPromptView::$$c__DisplayClass12_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DisconnectPromptView::$$c__DisplayClass12_0*, "", "DisconnectPromptView/<>c__DisplayClass12_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -43,20 +43,20 @@ namespace GlobalNamespace {
     // public System.Action finishedCallback
     // Size: 0x8
     // Offset: 0x10
-    System::Action* finishedCallback;
+    ::System::Action* finishedCallback;
     // Field size check
-    static_assert(sizeof(System::Action*) == 0x8);
+    static_assert(sizeof(::System::Action*) == 0x8);
     // public DisconnectPromptView <>4__this
     // Size: 0x8
     // Offset: 0x18
-    GlobalNamespace::DisconnectPromptView* $$4__this;
+    ::GlobalNamespace::DisconnectPromptView* $$4__this;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::DisconnectPromptView*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::DisconnectPromptView*) == 0x8);
     public:
     // Get instance field reference: public System.Action finishedCallback
-    System::Action*& dyn_finishedCallback();
+    ::System::Action*& dyn_finishedCallback();
     // Get instance field reference: public DisconnectPromptView <>4__this
-    GlobalNamespace::DisconnectPromptView*& dyn_$$4__this();
+    ::GlobalNamespace::DisconnectPromptView*& dyn_$$4__this();
     // System.Void <Hide>b__0()
     // Offset: 0x13F249C
     void $Hide$b__0();
@@ -66,12 +66,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DisconnectPromptView::$$c__DisplayClass12_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DisconnectPromptView::$$c__DisplayClass12_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DisconnectPromptView::$$c__DisplayClass12_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DisconnectPromptView::$$c__DisplayClass12_0*, creationType>()));
     }
   }; // DisconnectPromptView/<>c__DisplayClass12_0
   #pragma pack(pop)
-  static check_size<sizeof(DisconnectPromptView::$$c__DisplayClass12_0), 24 + sizeof(GlobalNamespace::DisconnectPromptView*)> __GlobalNamespace_DisconnectPromptView_$$c__DisplayClass12_0SizeCheck;
+  static check_size<sizeof(DisconnectPromptView::$$c__DisplayClass12_0), 24 + sizeof(::GlobalNamespace::DisconnectPromptView*)> __GlobalNamespace_DisconnectPromptView_$$c__DisplayClass12_0SizeCheck;
   static_assert(sizeof(DisconnectPromptView::$$c__DisplayClass12_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

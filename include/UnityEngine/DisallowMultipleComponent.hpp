@@ -18,8 +18,8 @@ namespace UnityEngine {
   class DisallowMultipleComponent;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::DisallowMultipleComponent);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::DisallowMultipleComponent*, "UnityEngine", "DisallowMultipleComponent");
+NEED_NO_BOX(::UnityEngine::DisallowMultipleComponent);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::DisallowMultipleComponent*, "UnityEngine", "DisallowMultipleComponent");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -28,7 +28,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AttributeUsageAttribute] Offset: 11A5A44
   // [RequiredByNativeCodeAttribute] Offset: 11A5A44
-  class DisallowMultipleComponent : public System::Attribute {
+  class DisallowMultipleComponent : public ::System::Attribute {
     public:
     // public System.Void .ctor()
     // Offset: 0x1EB7BD8
@@ -37,7 +37,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DisallowMultipleComponent* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::DisallowMultipleComponent::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::DisallowMultipleComponent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DisallowMultipleComponent*, creationType>()));
     }
   }; // UnityEngine.DisallowMultipleComponent

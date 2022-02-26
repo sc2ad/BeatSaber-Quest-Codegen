@@ -43,8 +43,8 @@ namespace System::Xml::Schema {
   class ValidationState;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Schema::ValidationState);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::ValidationState*, "System.Xml.Schema", "ValidationState");
+NEED_NO_BOX(::System::Xml::Schema::ValidationState);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::ValidationState*, "System.Xml.Schema", "ValidationState");
 // Type namespace: System.Xml.Schema
 namespace System::Xml::Schema {
   // WARNING Size may be invalid!
@@ -94,27 +94,27 @@ namespace System::Xml::Schema {
     // public System.Xml.Schema.XmlSchemaContentProcessing ProcessContents
     // Size: 0x4
     // Offset: 0x18
-    System::Xml::Schema::XmlSchemaContentProcessing ProcessContents;
+    ::System::Xml::Schema::XmlSchemaContentProcessing ProcessContents;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::XmlSchemaContentProcessing) == 0x4);
+    static_assert(sizeof(::System::Xml::Schema::XmlSchemaContentProcessing) == 0x4);
     // public System.Xml.Schema.XmlSchemaValidity Validity
     // Size: 0x4
     // Offset: 0x1C
-    System::Xml::Schema::XmlSchemaValidity Validity;
+    ::System::Xml::Schema::XmlSchemaValidity Validity;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::XmlSchemaValidity) == 0x4);
+    static_assert(sizeof(::System::Xml::Schema::XmlSchemaValidity) == 0x4);
     // public System.Xml.Schema.SchemaElementDecl ElementDecl
     // Size: 0x8
     // Offset: 0x20
-    System::Xml::Schema::SchemaElementDecl* ElementDecl;
+    ::System::Xml::Schema::SchemaElementDecl* ElementDecl;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::SchemaElementDecl*) == 0x8);
+    static_assert(sizeof(::System::Xml::Schema::SchemaElementDecl*) == 0x8);
     // public System.Xml.Schema.SchemaElementDecl ElementDeclBeforeXsi
     // Size: 0x8
     // Offset: 0x28
-    System::Xml::Schema::SchemaElementDecl* ElementDeclBeforeXsi;
+    ::System::Xml::Schema::SchemaElementDecl* ElementDeclBeforeXsi;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::SchemaElementDecl*) == 0x8);
+    static_assert(sizeof(::System::Xml::Schema::SchemaElementDecl*) == 0x8);
     // public System.String LocalName
     // Size: 0x8
     // Offset: 0x30
@@ -130,13 +130,13 @@ namespace System::Xml::Schema {
     // public System.Xml.Schema.ConstraintStruct[] Constr
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayW<System::Xml::Schema::ConstraintStruct*> Constr;
+    ::ArrayW<::System::Xml::Schema::ConstraintStruct*> Constr;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::Xml::Schema::ConstraintStruct*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::System::Xml::Schema::ConstraintStruct*>) == 0x8);
     // public System.Xml.Schema.StateUnion CurrentState
     // Size: 0xFFFFFFFF
     // Offset: 0x48
-    System::Xml::Schema::StateUnion CurrentState;
+    ::System::Xml::Schema::StateUnion CurrentState;
     // public System.Boolean HasMatched
     // Size: 0x1
     // Offset: 0x4C
@@ -146,21 +146,21 @@ namespace System::Xml::Schema {
     // public System.Xml.Schema.BitSet[] CurPos
     // Size: 0x8
     // Offset: 0x50
-    ::ArrayW<System::Xml::Schema::BitSet*> CurPos;
+    ::ArrayW<::System::Xml::Schema::BitSet*> CurPos;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::Xml::Schema::BitSet*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::System::Xml::Schema::BitSet*>) == 0x8);
     // public System.Xml.Schema.BitSet AllElementsSet
     // Size: 0x8
     // Offset: 0x58
-    System::Xml::Schema::BitSet* AllElementsSet;
+    ::System::Xml::Schema::BitSet* AllElementsSet;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::BitSet*) == 0x8);
+    static_assert(sizeof(::System::Xml::Schema::BitSet*) == 0x8);
     // public System.Collections.Generic.List`1<System.Xml.Schema.RangePositionInfo> RunningPositions
     // Size: 0x8
     // Offset: 0x60
-    System::Collections::Generic::List_1<System::Xml::Schema::RangePositionInfo>* RunningPositions;
+    ::System::Collections::Generic::List_1<::System::Xml::Schema::RangePositionInfo>* RunningPositions;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<System::Xml::Schema::RangePositionInfo>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::System::Xml::Schema::RangePositionInfo>*) == 0x8);
     // public System.Boolean TooComplex
     // Size: 0x1
     // Offset: 0x68
@@ -179,29 +179,29 @@ namespace System::Xml::Schema {
     // Get instance field reference: public System.Boolean ValidationSkipped
     bool& dyn_ValidationSkipped();
     // Get instance field reference: public System.Xml.Schema.XmlSchemaContentProcessing ProcessContents
-    System::Xml::Schema::XmlSchemaContentProcessing& dyn_ProcessContents();
+    ::System::Xml::Schema::XmlSchemaContentProcessing& dyn_ProcessContents();
     // Get instance field reference: public System.Xml.Schema.XmlSchemaValidity Validity
-    System::Xml::Schema::XmlSchemaValidity& dyn_Validity();
+    ::System::Xml::Schema::XmlSchemaValidity& dyn_Validity();
     // Get instance field reference: public System.Xml.Schema.SchemaElementDecl ElementDecl
-    System::Xml::Schema::SchemaElementDecl*& dyn_ElementDecl();
+    ::System::Xml::Schema::SchemaElementDecl*& dyn_ElementDecl();
     // Get instance field reference: public System.Xml.Schema.SchemaElementDecl ElementDeclBeforeXsi
-    System::Xml::Schema::SchemaElementDecl*& dyn_ElementDeclBeforeXsi();
+    ::System::Xml::Schema::SchemaElementDecl*& dyn_ElementDeclBeforeXsi();
     // Get instance field reference: public System.String LocalName
     ::StringW& dyn_LocalName();
     // Get instance field reference: public System.String Namespace
     ::StringW& dyn_Namespace();
     // Get instance field reference: public System.Xml.Schema.ConstraintStruct[] Constr
-    ::ArrayW<System::Xml::Schema::ConstraintStruct*>& dyn_Constr();
+    ::ArrayW<::System::Xml::Schema::ConstraintStruct*>& dyn_Constr();
     // Get instance field reference: public System.Xml.Schema.StateUnion CurrentState
-    System::Xml::Schema::StateUnion& dyn_CurrentState();
+    ::System::Xml::Schema::StateUnion& dyn_CurrentState();
     // Get instance field reference: public System.Boolean HasMatched
     bool& dyn_HasMatched();
     // Get instance field reference: public System.Xml.Schema.BitSet[] CurPos
-    ::ArrayW<System::Xml::Schema::BitSet*>& dyn_CurPos();
+    ::ArrayW<::System::Xml::Schema::BitSet*>& dyn_CurPos();
     // Get instance field reference: public System.Xml.Schema.BitSet AllElementsSet
-    System::Xml::Schema::BitSet*& dyn_AllElementsSet();
+    ::System::Xml::Schema::BitSet*& dyn_AllElementsSet();
     // Get instance field reference: public System.Collections.Generic.List`1<System.Xml.Schema.RangePositionInfo> RunningPositions
-    System::Collections::Generic::List_1<System::Xml::Schema::RangePositionInfo>*& dyn_RunningPositions();
+    ::System::Collections::Generic::List_1<::System::Xml::Schema::RangePositionInfo>*& dyn_RunningPositions();
     // Get instance field reference: public System.Boolean TooComplex
     bool& dyn_TooComplex();
     // public System.Void .ctor()
@@ -210,7 +210,7 @@ namespace System::Xml::Schema {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ValidationState* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Schema::ValidationState::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::ValidationState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ValidationState*, creationType>()));
     }
   }; // System.Xml.Schema.ValidationState

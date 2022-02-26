@@ -21,8 +21,8 @@ namespace GlobalNamespace {
   class XRNodeExtensions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::XRNodeExtensions);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::XRNodeExtensions*, "", "XRNodeExtensions");
+NEED_NO_BOX(::GlobalNamespace::XRNodeExtensions);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::XRNodeExtensions*, "", "XRNodeExtensions");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -34,10 +34,10 @@ namespace GlobalNamespace {
     public:
     // static public OVRPlugin/Node OculusNode(UnityEngine.XR.XRNode node)
     // Offset: 0x29A1C38
-    static GlobalNamespace::OVRPlugin::Node OculusNode(UnityEngine::XR::XRNode node);
+    static ::GlobalNamespace::OVRPlugin::Node OculusNode(::UnityEngine::XR::XRNode node);
     // static public System.Int32 PSMoveDeviceIndex(UnityEngine.XR.XRNode node)
     // Offset: 0x29A1D08
-    static int PSMoveDeviceIndex(UnityEngine::XR::XRNode node);
+    static int PSMoveDeviceIndex(::UnityEngine::XR::XRNode node);
   }; // XRNodeExtensions
   #pragma pack(pop)
 }
@@ -45,7 +45,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::XRNodeExtensions::OculusNode
 // Il2CppName: OculusNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Node (*)(UnityEngine::XR::XRNode)>(&GlobalNamespace::XRNodeExtensions::OculusNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Node (*)(::UnityEngine::XR::XRNode)>(&GlobalNamespace::XRNodeExtensions::OculusNode)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("UnityEngine.XR", "XRNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::XRNodeExtensions*), "OculusNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node});
@@ -54,7 +54,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::XRNodeExtensions::PSMoveDeviceIndex
 // Il2CppName: PSMoveDeviceIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::XR::XRNode)>(&GlobalNamespace::XRNodeExtensions::PSMoveDeviceIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::UnityEngine::XR::XRNode)>(&GlobalNamespace::XRNodeExtensions::PSMoveDeviceIndex)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("UnityEngine.XR", "XRNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::XRNodeExtensions*), "PSMoveDeviceIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node});

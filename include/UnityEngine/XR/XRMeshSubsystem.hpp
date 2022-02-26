@@ -33,8 +33,8 @@ namespace UnityEngine::XR {
   class XRMeshSubsystem;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::XR::XRMeshSubsystem);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRMeshSubsystem*, "UnityEngine.XR", "XRMeshSubsystem");
+NEED_NO_BOX(::UnityEngine::XR::XRMeshSubsystem);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::XRMeshSubsystem*, "UnityEngine.XR", "XRMeshSubsystem");
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {
   // WARNING Size may be invalid!
@@ -44,11 +44,11 @@ namespace UnityEngine::XR {
   // [NativeHeaderAttribute] Offset: 11CE778
   // [NativeHeaderAttribute] Offset: 11CE778
   // [NativeConditionalAttribute] Offset: 11CE778
-  class XRMeshSubsystem : public UnityEngine::IntegratedSubsystem_1<UnityEngine::XR::XRMeshSubsystemDescriptor*> {
+  class XRMeshSubsystem : public ::UnityEngine::IntegratedSubsystem_1<::UnityEngine::XR::XRMeshSubsystemDescriptor*> {
     public:
     // private System.Void InvokeMeshReadyDelegate(UnityEngine.XR.MeshGenerationResult result, System.Action`1<UnityEngine.XR.MeshGenerationResult> onMeshGenerationComplete)
     // Offset: 0x2A499C4
-    void InvokeMeshReadyDelegate(UnityEngine::XR::MeshGenerationResult result, System::Action_1<UnityEngine::XR::MeshGenerationResult>* onMeshGenerationComplete);
+    void InvokeMeshReadyDelegate(::UnityEngine::XR::MeshGenerationResult result, ::System::Action_1<::UnityEngine::XR::MeshGenerationResult>* onMeshGenerationComplete);
     // public System.Void .ctor()
     // Offset: 0x2A49A50
     // Implemented from: UnityEngine.IntegratedSubsystem`1
@@ -57,7 +57,7 @@ namespace UnityEngine::XR {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XRMeshSubsystem* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::XR::XRMeshSubsystem::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::XR::XRMeshSubsystem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XRMeshSubsystem*, creationType>()));
     }
   }; // UnityEngine.XR.XRMeshSubsystem
@@ -66,7 +66,7 @@ namespace UnityEngine::XR {
 // Writing MetadataGetter for method: UnityEngine::XR::XRMeshSubsystem::InvokeMeshReadyDelegate
 // Il2CppName: InvokeMeshReadyDelegate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::XR::XRMeshSubsystem::*)(UnityEngine::XR::MeshGenerationResult, System::Action_1<UnityEngine::XR::MeshGenerationResult>*)>(&UnityEngine::XR::XRMeshSubsystem::InvokeMeshReadyDelegate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::XR::XRMeshSubsystem::*)(::UnityEngine::XR::MeshGenerationResult, ::System::Action_1<::UnityEngine::XR::MeshGenerationResult>*)>(&UnityEngine::XR::XRMeshSubsystem::InvokeMeshReadyDelegate)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("UnityEngine.XR", "MeshGenerationResult")->byval_arg;
     static auto* onMeshGenerationComplete = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.XR", "MeshGenerationResult")})->byval_arg;

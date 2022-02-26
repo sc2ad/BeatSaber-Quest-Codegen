@@ -19,8 +19,8 @@ namespace GlobalNamespace {
   class Vector2Extensions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::Vector2Extensions);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Vector2Extensions*, "", "Vector2Extensions");
+NEED_NO_BOX(::GlobalNamespace::Vector2Extensions);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::Vector2Extensions*, "", "Vector2Extensions");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -32,7 +32,7 @@ namespace GlobalNamespace {
     public:
     // static public System.Single SignedAngleToLine(UnityEngine.Vector2 vec, UnityEngine.Vector2 line)
     // Offset: 0x29A170C
-    static float SignedAngleToLine(UnityEngine::Vector2 vec, UnityEngine::Vector2 line);
+    static float SignedAngleToLine(::UnityEngine::Vector2 vec, ::UnityEngine::Vector2 line);
   }; // Vector2Extensions
   #pragma pack(pop)
 }
@@ -40,7 +40,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::Vector2Extensions::SignedAngleToLine
 // Il2CppName: SignedAngleToLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::Vector2, UnityEngine::Vector2)>(&GlobalNamespace::Vector2Extensions::SignedAngleToLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::UnityEngine::Vector2, ::UnityEngine::Vector2)>(&GlobalNamespace::Vector2Extensions::SignedAngleToLine)> {
   static const MethodInfo* get() {
     static auto* vec = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     static auto* line = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;

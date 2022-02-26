@@ -36,8 +36,8 @@ namespace GlobalNamespace {
   class HMTask;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::HMTask);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HMTask*, "", "HMTask");
+NEED_NO_BOX(::GlobalNamespace::HMTask);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::HMTask*, "", "HMTask");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x2B
@@ -46,7 +46,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class HMTask : public ::Il2CppObject {
     public:
-    // Nested type: GlobalNamespace::HMTask::$RunCoroutine$d__8
+    // Nested type: ::GlobalNamespace::HMTask::$RunCoroutine$d__8
     class $RunCoroutine$d__8;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -60,21 +60,21 @@ namespace GlobalNamespace {
     // private System.Threading.Thread _thread
     // Size: 0x8
     // Offset: 0x10
-    System::Threading::Thread* thread;
+    ::System::Threading::Thread* thread;
     // Field size check
-    static_assert(sizeof(System::Threading::Thread*) == 0x8);
+    static_assert(sizeof(::System::Threading::Thread*) == 0x8);
     // private System.Action _job
     // Size: 0x8
     // Offset: 0x18
-    System::Action* job;
+    ::System::Action* job;
     // Field size check
-    static_assert(sizeof(System::Action*) == 0x8);
+    static_assert(sizeof(::System::Action*) == 0x8);
     // private System.Action _finishCallback
     // Size: 0x8
     // Offset: 0x20
-    System::Action* finishCallback;
+    ::System::Action* finishCallback;
     // Field size check
-    static_assert(sizeof(System::Action*) == 0x8);
+    static_assert(sizeof(::System::Action*) == 0x8);
     // private System.Boolean _canceled
     // Size: 0x1
     // Offset: 0x28
@@ -95,11 +95,11 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.Threading.Thread _thread
-    System::Threading::Thread*& dyn__thread();
+    ::System::Threading::Thread*& dyn__thread();
     // Get instance field reference: private System.Action _job
-    System::Action*& dyn__job();
+    ::System::Action*& dyn__job();
     // Get instance field reference: private System.Action _finishCallback
-    System::Action*& dyn__finishCallback();
+    ::System::Action*& dyn__finishCallback();
     // Get instance field reference: private System.Boolean _canceled
     bool& dyn__canceled();
     // Get instance field reference: private System.Boolean _started
@@ -109,8 +109,8 @@ namespace GlobalNamespace {
     // public System.Void .ctor(System.Action job, System.Action finishCallback)
     // Offset: 0x2C1CD5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static HMTask* New_ctor(System::Action* job, System::Action* finishCallback) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::HMTask::.ctor");
+    static HMTask* New_ctor(::System::Action* job, ::System::Action* finishCallback) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HMTask::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HMTask*, creationType>(job, finishCallback)));
     }
     // public System.Void Run()
@@ -118,7 +118,7 @@ namespace GlobalNamespace {
     void Run();
     // public System.Collections.IEnumerator RunCoroutine()
     // Offset: 0x2C228E0
-    System::Collections::IEnumerator* RunCoroutine();
+    ::System::Collections::IEnumerator* RunCoroutine();
     // private System.Void RunJob()
     // Offset: 0x2C2297C
     void RunJob();
@@ -152,7 +152,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::HMTask::RunCoroutine
 // Il2CppName: RunCoroutine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::HMTask::*)()>(&GlobalNamespace::HMTask::RunCoroutine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (GlobalNamespace::HMTask::*)()>(&GlobalNamespace::HMTask::RunCoroutine)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HMTask*), "RunCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

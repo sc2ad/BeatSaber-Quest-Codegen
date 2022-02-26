@@ -34,8 +34,8 @@ namespace Zenject {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::FromBinder::$$c__DisplayClass64_0);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::FromBinder::$$c__DisplayClass64_0*, "Zenject", "FromBinder/<>c__DisplayClass64_0");
+NEED_NO_BOX(::Zenject::FromBinder::$$c__DisplayClass64_0);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::FromBinder::$$c__DisplayClass64_0*, "Zenject", "FromBinder/<>c__DisplayClass64_0");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x18
@@ -57,44 +57,44 @@ namespace Zenject {
     // public System.Type concreteType
     // Size: 0x8
     // Offset: 0x10
-    System::Type* concreteType;
+    ::System::Type* concreteType;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     public:
-    // Creating conversion operator: operator System::Type*
-    constexpr operator System::Type*() const noexcept {
+    // Creating conversion operator: operator ::System::Type*
+    constexpr operator ::System::Type*() const noexcept {
       return concreteType;
     }
     // Get instance field reference: public System.Type concreteType
-    System::Type*& dyn_concreteType();
+    ::System::Type*& dyn_concreteType();
     // System.Collections.Generic.IEnumerable`1<System.Object> <FromComponentsSibling>b__1(Zenject.InjectContext ctx)
     // Offset: 0x1D35920
-    System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* $FromComponentsSibling$b__1(Zenject::InjectContext* ctx);
+    ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* $FromComponentsSibling$b__1(::Zenject::InjectContext* ctx);
     // static private System.Object __zenCreate(System.Object[] P_0)
     // Offset: 0x1D35AB0
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
     // Offset: 0x1D35B0C
-    static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
     // Offset: 0x1D316F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FromBinder::$$c__DisplayClass64_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FromBinder::$$c__DisplayClass64_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FromBinder::$$c__DisplayClass64_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FromBinder::$$c__DisplayClass64_0*, creationType>()));
     }
   }; // Zenject.FromBinder/Zenject.<>c__DisplayClass64_0
   #pragma pack(pop)
-  static check_size<sizeof(FromBinder::$$c__DisplayClass64_0), 16 + sizeof(System::Type*)> __Zenject_FromBinder_$$c__DisplayClass64_0SizeCheck;
+  static check_size<sizeof(FromBinder::$$c__DisplayClass64_0), 16 + sizeof(::System::Type*)> __Zenject_FromBinder_$$c__DisplayClass64_0SizeCheck;
   static_assert(sizeof(FromBinder::$$c__DisplayClass64_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::FromBinder::$$c__DisplayClass64_0::$FromComponentsSibling$b__1
 // Il2CppName: <FromComponentsSibling>b__1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* (Zenject::FromBinder::$$c__DisplayClass64_0::*)(Zenject::InjectContext*)>(&Zenject::FromBinder::$$c__DisplayClass64_0::$FromComponentsSibling$b__1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* (Zenject::FromBinder::$$c__DisplayClass64_0::*)(::Zenject::InjectContext*)>(&Zenject::FromBinder::$$c__DisplayClass64_0::$FromComponentsSibling$b__1)> {
   static const MethodInfo* get() {
     static auto* ctx = &::il2cpp_utils::GetClassFromName("Zenject", "InjectContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder::$$c__DisplayClass64_0*), "<FromComponentsSibling>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ctx});
@@ -112,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: Zenject::FromBinder::$$c__DisplayClass64_0::__zenCreateInjectTypeInfo
 // Il2CppName: __zenCreateInjectTypeInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (*)()>(&Zenject::FromBinder::$$c__DisplayClass64_0::__zenCreateInjectTypeInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&Zenject::FromBinder::$$c__DisplayClass64_0::__zenCreateInjectTypeInfo)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder::$$c__DisplayClass64_0*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

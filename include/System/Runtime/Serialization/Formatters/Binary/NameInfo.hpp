@@ -28,8 +28,8 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   class NameInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::NameInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::NameInfo*, "System.Runtime.Serialization.Formatters.Binary", "NameInfo");
+NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::NameInfo);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::NameInfo*, "System.Runtime.Serialization.Formatters.Binary", "NameInfo");
 // Type namespace: System.Runtime.Serialization.Formatters.Binary
 namespace System::Runtime::Serialization::Formatters::Binary {
   // Size: 0x45
@@ -68,17 +68,17 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE NIprimitiveTypeEnum
     // Size: 0x4
     // Offset: 0x28
-    System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE NIprimitiveTypeEnum;
+    ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE NIprimitiveTypeEnum;
     // Field size check
-    static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE) == 0x4);
+    static_assert(sizeof(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE) == 0x4);
     // Padding between fields: NIprimitiveTypeEnum and: NItype
     char __padding3[0x4] = {};
     // System.Type NItype
     // Size: 0x8
     // Offset: 0x30
-    System::Type* NItype;
+    ::System::Type* NItype;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     // System.Boolean NIisSealed
     // Size: 0x1
     // Offset: 0x38
@@ -120,9 +120,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.Runtime.Serialization.Formatters.Binary.InternalArrayTypeE NIarrayEnum
     // Size: 0x4
     // Offset: 0x40
-    System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE NIarrayEnum;
+    ::System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE NIarrayEnum;
     // Field size check
-    static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE) == 0x4);
+    static_assert(sizeof(::System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE) == 0x4);
     // private System.Boolean NIsealedStatusChecked
     // Size: 0x1
     // Offset: 0x44
@@ -137,9 +137,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.Int64 NIassemId
     int64_t& dyn_NIassemId();
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE NIprimitiveTypeEnum
-    System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE& dyn_NIprimitiveTypeEnum();
+    ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE& dyn_NIprimitiveTypeEnum();
     // Get instance field reference: System.Type NItype
-    System::Type*& dyn_NItype();
+    ::System::Type*& dyn_NItype();
     // Get instance field reference: System.Boolean NIisSealed
     bool& dyn_NIisSealed();
     // Get instance field reference: System.Boolean NIisArray
@@ -153,7 +153,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.Boolean NIisParentTypeOnObject
     bool& dyn_NIisParentTypeOnObject();
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.InternalArrayTypeE NIarrayEnum
-    System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE& dyn_NIarrayEnum();
+    ::System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE& dyn_NIarrayEnum();
     // Get instance field reference: private System.Boolean NIsealedStatusChecked
     bool& dyn_NIsealedStatusChecked();
     // public System.Boolean get_IsSealed()
@@ -174,7 +174,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NameInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::NameInfo::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::Formatters::Binary::NameInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NameInfo*, creationType>()));
     }
   }; // System.Runtime.Serialization.Formatters.Binary.NameInfo

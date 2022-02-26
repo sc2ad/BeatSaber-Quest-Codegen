@@ -16,8 +16,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*, "", "TestPlatformAdditionalContentModel/Entitlement");
+NEED_NO_BOX(::GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement*, "", "TestPlatformAdditionalContentModel/Entitlement");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x1C
@@ -44,26 +44,26 @@ namespace GlobalNamespace {
     // public AdditionalContentModel/EntitlementStatus status
     // Size: 0x4
     // Offset: 0x18
-    GlobalNamespace::AdditionalContentModel::EntitlementStatus status;
+    ::GlobalNamespace::AdditionalContentModel::EntitlementStatus status;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::AdditionalContentModel::EntitlementStatus) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::AdditionalContentModel::EntitlementStatus) == 0x4);
     public:
     // Get instance field reference: public System.String id
     ::StringW& dyn_id();
     // Get instance field reference: public AdditionalContentModel/EntitlementStatus status
-    GlobalNamespace::AdditionalContentModel::EntitlementStatus& dyn_status();
+    ::GlobalNamespace::AdditionalContentModel::EntitlementStatus& dyn_status();
     // public System.Void .ctor()
     // Offset: 0x2AE504C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestPlatformAdditionalContentModel::Entitlement* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TestPlatformAdditionalContentModel::Entitlement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestPlatformAdditionalContentModel::Entitlement*, creationType>()));
     }
   }; // TestPlatformAdditionalContentModel/Entitlement
   #pragma pack(pop)
-  static check_size<sizeof(TestPlatformAdditionalContentModel::Entitlement), 24 + sizeof(GlobalNamespace::AdditionalContentModel::EntitlementStatus)> __GlobalNamespace_TestPlatformAdditionalContentModel_EntitlementSizeCheck;
+  static check_size<sizeof(TestPlatformAdditionalContentModel::Entitlement), 24 + sizeof(::GlobalNamespace::AdditionalContentModel::EntitlementStatus)> __GlobalNamespace_TestPlatformAdditionalContentModel_EntitlementSizeCheck;
   static_assert(sizeof(TestPlatformAdditionalContentModel::Entitlement) == 0x1C);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

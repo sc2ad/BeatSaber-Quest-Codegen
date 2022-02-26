@@ -28,8 +28,8 @@ namespace UnityEngine::Tilemaps {
   class ITilemap;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Tilemaps::ITilemap);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Tilemaps::ITilemap*, "UnityEngine.Tilemaps", "ITilemap");
+NEED_NO_BOX(::UnityEngine::Tilemaps::ITilemap);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Tilemaps::ITilemap*, "UnityEngine.Tilemaps", "ITilemap");
 // Type namespace: UnityEngine.Tilemaps
 namespace UnityEngine::Tilemaps {
   // Size: 0x18
@@ -51,45 +51,45 @@ namespace UnityEngine::Tilemaps {
     // UnityEngine.Tilemaps.Tilemap m_Tilemap
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::Tilemaps::Tilemap* m_Tilemap;
+    ::UnityEngine::Tilemaps::Tilemap* m_Tilemap;
     // Field size check
-    static_assert(sizeof(UnityEngine::Tilemaps::Tilemap*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Tilemaps::Tilemap*) == 0x8);
     public:
-    // Creating conversion operator: operator UnityEngine::Tilemaps::Tilemap*
-    constexpr operator UnityEngine::Tilemaps::Tilemap*() const noexcept {
+    // Creating conversion operator: operator ::UnityEngine::Tilemaps::Tilemap*
+    constexpr operator ::UnityEngine::Tilemaps::Tilemap*() const noexcept {
       return m_Tilemap;
     }
     // Get static field: static UnityEngine.Tilemaps.ITilemap s_Instance
-    static UnityEngine::Tilemaps::ITilemap* _get_s_Instance();
+    static ::UnityEngine::Tilemaps::ITilemap* _get_s_Instance();
     // Set static field: static UnityEngine.Tilemaps.ITilemap s_Instance
-    static void _set_s_Instance(UnityEngine::Tilemaps::ITilemap* value);
+    static void _set_s_Instance(::UnityEngine::Tilemaps::ITilemap* value);
     // Get instance field reference: UnityEngine.Tilemaps.Tilemap m_Tilemap
-    UnityEngine::Tilemaps::Tilemap*& dyn_m_Tilemap();
+    ::UnityEngine::Tilemaps::Tilemap*& dyn_m_Tilemap();
     // public System.Void RefreshTile(UnityEngine.Vector3Int position)
     // Offset: 0x2A5A1A4
-    void RefreshTile(UnityEngine::Vector3Int position);
+    void RefreshTile(::UnityEngine::Vector3Int position);
     // static private UnityEngine.Tilemaps.ITilemap CreateInstance()
     // Offset: 0x2A5A218
-    static UnityEngine::Tilemaps::ITilemap* CreateInstance();
+    static ::UnityEngine::Tilemaps::ITilemap* CreateInstance();
     // System.Void .ctor()
     // Offset: 0x2A5A19C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ITilemap* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Tilemaps::ITilemap::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Tilemaps::ITilemap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ITilemap*, creationType>()));
     }
   }; // UnityEngine.Tilemaps.ITilemap
   #pragma pack(pop)
-  static check_size<sizeof(ITilemap), 16 + sizeof(UnityEngine::Tilemaps::Tilemap*)> __UnityEngine_Tilemaps_ITilemapSizeCheck;
+  static check_size<sizeof(ITilemap), 16 + sizeof(::UnityEngine::Tilemaps::Tilemap*)> __UnityEngine_Tilemaps_ITilemapSizeCheck;
   static_assert(sizeof(ITilemap) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Tilemaps::ITilemap::RefreshTile
 // Il2CppName: RefreshTile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Tilemaps::ITilemap::*)(UnityEngine::Vector3Int)>(&UnityEngine::Tilemaps::ITilemap::RefreshTile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Tilemaps::ITilemap::*)(::UnityEngine::Vector3Int)>(&UnityEngine::Tilemaps::ITilemap::RefreshTile)> {
   static const MethodInfo* get() {
     static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3Int")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Tilemaps::ITilemap*), "RefreshTile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position});
@@ -98,7 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Tilemaps::ITilemap::CreateInstance
 // Il2CppName: CreateInstance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Tilemaps::ITilemap* (*)()>(&UnityEngine::Tilemaps::ITilemap::CreateInstance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Tilemaps::ITilemap* (*)()>(&UnityEngine::Tilemaps::ITilemap::CreateInstance)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Tilemaps::ITilemap*), "CreateInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

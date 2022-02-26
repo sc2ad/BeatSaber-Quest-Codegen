@@ -52,8 +52,8 @@ namespace System::Data {
   class ExceptionBuilder;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Data::ExceptionBuilder);
-DEFINE_IL2CPP_ARG_TYPE(System::Data::ExceptionBuilder*, "System.Data", "ExceptionBuilder");
+NEED_NO_BOX(::System::Data::ExceptionBuilder);
+DEFINE_IL2CPP_ARG_TYPE(::System::Data::ExceptionBuilder*, "System.Data", "ExceptionBuilder");
 // Type namespace: System.Data
 namespace System::Data {
   // Size: 0x10
@@ -64,205 +64,205 @@ namespace System::Data {
     public:
     // static private System.Void TraceException(System.String trace, System.Exception e)
     // Offset: 0x1CC7554
-    static void TraceException(::StringW trace, System::Exception* e);
+    static void TraceException(::StringW trace, ::System::Exception* e);
     // static System.Exception TraceExceptionAsReturnValue(System.Exception e)
     // Offset: 0x1CC75FC
-    static System::Exception* TraceExceptionAsReturnValue(System::Exception* e);
+    static ::System::Exception* TraceExceptionAsReturnValue(::System::Exception* e);
     // static System.Exception TraceExceptionForCapture(System.Exception e)
     // Offset: 0x1CC7654
-    static System::Exception* TraceExceptionForCapture(System::Exception* e);
+    static ::System::Exception* TraceExceptionForCapture(::System::Exception* e);
     // static System.Exception TraceExceptionWithoutRethrow(System.Exception e)
     // Offset: 0x1CC573C
-    static System::Exception* TraceExceptionWithoutRethrow(System::Exception* e);
+    static ::System::Exception* TraceExceptionWithoutRethrow(::System::Exception* e);
     // static System.Exception _Argument(System.String error)
     // Offset: 0x1CC76AC
-    static System::Exception* _Argument(::StringW error);
+    static ::System::Exception* _Argument(::StringW error);
     // static System.Exception _Argument(System.String error, System.Exception innerException)
     // Offset: 0x1CC7710
-    static System::Exception* _Argument(::StringW error, System::Exception* innerException);
+    static ::System::Exception* _Argument(::StringW error, ::System::Exception* innerException);
     // static private System.Exception _ArgumentNull(System.String paramName, System.String msg)
     // Offset: 0x1CC7784
-    static System::Exception* _ArgumentNull(::StringW paramName, ::StringW msg);
+    static ::System::Exception* _ArgumentNull(::StringW paramName, ::StringW msg);
     // static System.Exception _ArgumentOutOfRange(System.String paramName, System.String msg)
     // Offset: 0x1CC77F8
-    static System::Exception* _ArgumentOutOfRange(::StringW paramName, ::StringW msg);
+    static ::System::Exception* _ArgumentOutOfRange(::StringW paramName, ::StringW msg);
     // static private System.Exception _IndexOutOfRange(System.String error)
     // Offset: 0x1CC786C
-    static System::Exception* _IndexOutOfRange(::StringW error);
+    static ::System::Exception* _IndexOutOfRange(::StringW error);
     // static private System.Exception _InvalidOperation(System.String error)
     // Offset: 0x1CC78D0
-    static System::Exception* _InvalidOperation(::StringW error);
+    static ::System::Exception* _InvalidOperation(::StringW error);
     // static private System.Exception _InvalidEnumArgumentException(System.String error)
     // Offset: 0x1CC7934
-    static System::Exception* _InvalidEnumArgumentException(::StringW error);
+    static ::System::Exception* _InvalidEnumArgumentException(::StringW error);
     // static private System.Exception _InvalidEnumArgumentException(T value)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static System::Exception* _InvalidEnumArgumentException(T value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Data::ExceptionBuilder::_InvalidEnumArgumentException");
+    static ::System::Exception* _InvalidEnumArgumentException(T value) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Data::ExceptionBuilder::_InvalidEnumArgumentException");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Data", "ExceptionBuilder", "_InvalidEnumArgumentException", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodRethrow<System::Exception*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, value);
+      return ::il2cpp_utils::RunMethodRethrow<::System::Exception*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, value);
     }
     // static private System.Void ThrowDataException(System.String error, System.Exception innerException)
     // Offset: 0x1CC7998
-    static void ThrowDataException(::StringW error, System::Exception* innerException);
+    static void ThrowDataException(::StringW error, ::System::Exception* innerException);
     // static private System.Exception _Data(System.String error)
     // Offset: 0x1CC7A10
-    static System::Exception* _Data(::StringW error);
+    static ::System::Exception* _Data(::StringW error);
     // static private System.Exception _Constraint(System.String error)
     // Offset: 0x1CC7A74
-    static System::Exception* _Constraint(::StringW error);
+    static ::System::Exception* _Constraint(::StringW error);
     // static private System.Exception _InvalidConstraint(System.String error)
     // Offset: 0x1CC7AD8
-    static System::Exception* _InvalidConstraint(::StringW error);
+    static ::System::Exception* _InvalidConstraint(::StringW error);
     // static private System.Exception _DeletedRowInaccessible(System.String error)
     // Offset: 0x1CC7B3C
-    static System::Exception* _DeletedRowInaccessible(::StringW error);
+    static ::System::Exception* _DeletedRowInaccessible(::StringW error);
     // static private System.Exception _DuplicateName(System.String error)
     // Offset: 0x1CC7BAC
-    static System::Exception* _DuplicateName(::StringW error);
+    static ::System::Exception* _DuplicateName(::StringW error);
     // static private System.Exception _InRowChangingEvent(System.String error)
     // Offset: 0x1CC7C1C
-    static System::Exception* _InRowChangingEvent(::StringW error);
+    static ::System::Exception* _InRowChangingEvent(::StringW error);
     // static private System.Exception _NoNullAllowed(System.String error)
     // Offset: 0x1CC7C80
-    static System::Exception* _NoNullAllowed(::StringW error);
+    static ::System::Exception* _NoNullAllowed(::StringW error);
     // static private System.Exception _ReadOnly(System.String error)
     // Offset: 0x1CC7CE4
-    static System::Exception* _ReadOnly(::StringW error);
+    static ::System::Exception* _ReadOnly(::StringW error);
     // static private System.Exception _RowNotInTable(System.String error)
     // Offset: 0x1CC7D48
-    static System::Exception* _RowNotInTable(::StringW error);
+    static ::System::Exception* _RowNotInTable(::StringW error);
     // static private System.Exception _VersionNotFound(System.String error)
     // Offset: 0x1CC7DAC
-    static System::Exception* _VersionNotFound(::StringW error);
+    static ::System::Exception* _VersionNotFound(::StringW error);
     // static public System.Exception ArgumentNull(System.String paramName)
     // Offset: 0x1CC0654
-    static System::Exception* ArgumentNull(::StringW paramName);
+    static ::System::Exception* ArgumentNull(::StringW paramName);
     // static public System.Exception ArgumentOutOfRange(System.String paramName)
     // Offset: 0x1CC7E10
-    static System::Exception* ArgumentOutOfRange(::StringW paramName);
+    static ::System::Exception* ArgumentOutOfRange(::StringW paramName);
     // static public System.Exception BadObjectPropertyAccess(System.String error)
     // Offset: 0x1CC7E70
-    static System::Exception* BadObjectPropertyAccess(::StringW error);
+    static ::System::Exception* BadObjectPropertyAccess(::StringW error);
     // static public System.Exception CaseInsensitiveNameConflict(System.String name)
     // Offset: 0x1CC04A8
-    static System::Exception* CaseInsensitiveNameConflict(::StringW name);
+    static ::System::Exception* CaseInsensitiveNameConflict(::StringW name);
     // static public System.Exception NamespaceNameConflict(System.String name)
     // Offset: 0x1CC0500
-    static System::Exception* NamespaceNameConflict(::StringW name);
+    static ::System::Exception* NamespaceNameConflict(::StringW name);
     // static public System.Exception InvalidOffsetLength()
     // Offset: 0x1CC7EC8
-    static System::Exception* InvalidOffsetLength();
+    static ::System::Exception* InvalidOffsetLength();
     // static public System.Exception ColumnNotInTheTable(System.String column, System.String table)
     // Offset: 0x1CC7F10
-    static System::Exception* ColumnNotInTheTable(::StringW column, ::StringW table);
+    static ::System::Exception* ColumnNotInTheTable(::StringW column, ::StringW table);
     // static public System.Exception ColumnNotInAnyTable()
     // Offset: 0x1CC7F78
-    static System::Exception* ColumnNotInAnyTable();
+    static ::System::Exception* ColumnNotInAnyTable();
     // static public System.Exception ColumnOutOfRange(System.Int32 index)
     // Offset: 0x1CC7FC0
-    static System::Exception* ColumnOutOfRange(int index);
+    static ::System::Exception* ColumnOutOfRange(int index);
     // static public System.Exception ColumnOutOfRange(System.String column)
     // Offset: 0x1CC8058
-    static System::Exception* ColumnOutOfRange(::StringW column);
+    static ::System::Exception* ColumnOutOfRange(::StringW column);
     // static public System.Exception CannotAddColumn1(System.String column)
     // Offset: 0x1CC80B0
-    static System::Exception* CannotAddColumn1(::StringW column);
+    static ::System::Exception* CannotAddColumn1(::StringW column);
     // static public System.Exception CannotAddColumn2(System.String column)
     // Offset: 0x1CC8108
-    static System::Exception* CannotAddColumn2(::StringW column);
+    static ::System::Exception* CannotAddColumn2(::StringW column);
     // static public System.Exception CannotAddColumn3()
     // Offset: 0x1CC8160
-    static System::Exception* CannotAddColumn3();
+    static ::System::Exception* CannotAddColumn3();
     // static public System.Exception CannotAddColumn4(System.String column)
     // Offset: 0x1CC81A8
-    static System::Exception* CannotAddColumn4(::StringW column);
+    static ::System::Exception* CannotAddColumn4(::StringW column);
     // static public System.Exception CannotAddDuplicate(System.String column)
     // Offset: 0x1CC8200
-    static System::Exception* CannotAddDuplicate(::StringW column);
+    static ::System::Exception* CannotAddDuplicate(::StringW column);
     // static public System.Exception CannotAddDuplicate2(System.String table)
     // Offset: 0x1CC8258
-    static System::Exception* CannotAddDuplicate2(::StringW table);
+    static ::System::Exception* CannotAddDuplicate2(::StringW table);
     // static public System.Exception CannotAddDuplicate3(System.String table)
     // Offset: 0x1CC82B0
-    static System::Exception* CannotAddDuplicate3(::StringW table);
+    static ::System::Exception* CannotAddDuplicate3(::StringW table);
     // static public System.Exception CannotRemoveColumn()
     // Offset: 0x1CC8308
-    static System::Exception* CannotRemoveColumn();
+    static ::System::Exception* CannotRemoveColumn();
     // static public System.Exception CannotRemovePrimaryKey()
     // Offset: 0x1CC8350
-    static System::Exception* CannotRemovePrimaryKey();
+    static ::System::Exception* CannotRemovePrimaryKey();
     // static public System.Exception CannotRemoveChildKey(System.String relation)
     // Offset: 0x1CC8398
-    static System::Exception* CannotRemoveChildKey(::StringW relation);
+    static ::System::Exception* CannotRemoveChildKey(::StringW relation);
     // static public System.Exception CannotRemoveConstraint(System.String constraint, System.String table)
     // Offset: 0x1CC83F0
-    static System::Exception* CannotRemoveConstraint(::StringW constraint, ::StringW table);
+    static ::System::Exception* CannotRemoveConstraint(::StringW constraint, ::StringW table);
     // static public System.Exception CannotRemoveExpression(System.String column, System.String expression)
     // Offset: 0x1CC8458
-    static System::Exception* CannotRemoveExpression(::StringW column, ::StringW expression);
+    static ::System::Exception* CannotRemoveExpression(::StringW column, ::StringW expression);
     // static public System.Exception AddPrimaryKeyConstraint()
     // Offset: 0x1CC84C0
-    static System::Exception* AddPrimaryKeyConstraint();
+    static ::System::Exception* AddPrimaryKeyConstraint();
     // static public System.Exception NoConstraintName()
     // Offset: 0x1CC8508
-    static System::Exception* NoConstraintName();
+    static ::System::Exception* NoConstraintName();
     // static public System.Exception ConstraintViolation(System.String constraint)
     // Offset: 0x1CC8550
-    static System::Exception* ConstraintViolation(::StringW constraint);
+    static ::System::Exception* ConstraintViolation(::StringW constraint);
     // static public System.String KeysToString(System.Object[] keys)
     // Offset: 0x1CC85A8
     static ::StringW KeysToString(::ArrayW<::Il2CppObject*> keys);
     // static public System.String UniqueConstraintViolationText(System.Data.DataColumn[] columns, System.Object[] values)
     // Offset: 0x1CC86D8
-    static ::StringW UniqueConstraintViolationText(::ArrayW<System::Data::DataColumn*> columns, ::ArrayW<::Il2CppObject*> values);
+    static ::StringW UniqueConstraintViolationText(::ArrayW<::System::Data::DataColumn*> columns, ::ArrayW<::Il2CppObject*> values);
     // static public System.Exception ConstraintViolation(System.Data.DataColumn[] columns, System.Object[] values)
     // Offset: 0x1CC8838
-    static System::Exception* ConstraintViolation(::ArrayW<System::Data::DataColumn*> columns, ::ArrayW<::Il2CppObject*> values);
+    static ::System::Exception* ConstraintViolation(::ArrayW<::System::Data::DataColumn*> columns, ::ArrayW<::Il2CppObject*> values);
     // static public System.Exception ConstraintOutOfRange(System.Int32 index)
     // Offset: 0x1CC884C
-    static System::Exception* ConstraintOutOfRange(int index);
+    static ::System::Exception* ConstraintOutOfRange(int index);
     // static public System.Exception DuplicateConstraint(System.String constraint)
     // Offset: 0x1CC88E4
-    static System::Exception* DuplicateConstraint(::StringW constraint);
+    static ::System::Exception* DuplicateConstraint(::StringW constraint);
     // static public System.Exception DuplicateConstraintName(System.String constraint)
     // Offset: 0x1CC893C
-    static System::Exception* DuplicateConstraintName(::StringW constraint);
+    static ::System::Exception* DuplicateConstraintName(::StringW constraint);
     // static public System.Exception NeededForForeignKeyConstraint(System.Data.UniqueConstraint key, System.Data.ForeignKeyConstraint fk)
     // Offset: 0x1CC8994
-    static System::Exception* NeededForForeignKeyConstraint(System::Data::UniqueConstraint* key, System::Data::ForeignKeyConstraint* fk);
+    static ::System::Exception* NeededForForeignKeyConstraint(::System::Data::UniqueConstraint* key, ::System::Data::ForeignKeyConstraint* fk);
     // static public System.Exception UniqueConstraintViolation()
     // Offset: 0x1CC8A30
-    static System::Exception* UniqueConstraintViolation();
+    static ::System::Exception* UniqueConstraintViolation();
     // static public System.Exception ConstraintForeignTable()
     // Offset: 0x1CC8A78
-    static System::Exception* ConstraintForeignTable();
+    static ::System::Exception* ConstraintForeignTable();
     // static public System.Exception ConstraintParentValues()
     // Offset: 0x1CC8AC0
-    static System::Exception* ConstraintParentValues();
+    static ::System::Exception* ConstraintParentValues();
     // static public System.Exception ConstraintAddFailed(System.Data.DataTable table)
     // Offset: 0x1CC8B08
-    static System::Exception* ConstraintAddFailed(System::Data::DataTable* table);
+    static ::System::Exception* ConstraintAddFailed(::System::Data::DataTable* table);
     // static public System.Exception ConstraintRemoveFailed()
     // Offset: 0x1CC8B68
-    static System::Exception* ConstraintRemoveFailed();
+    static ::System::Exception* ConstraintRemoveFailed();
     // static public System.Exception FailedCascadeDelete(System.String constraint)
     // Offset: 0x1CC8BB0
-    static System::Exception* FailedCascadeDelete(::StringW constraint);
+    static ::System::Exception* FailedCascadeDelete(::StringW constraint);
     // static public System.Exception FailedCascadeUpdate(System.String constraint)
     // Offset: 0x1CC8C08
-    static System::Exception* FailedCascadeUpdate(::StringW constraint);
+    static ::System::Exception* FailedCascadeUpdate(::StringW constraint);
     // static public System.Exception FailedClearParentTable(System.String table, System.String constraint, System.String childTable)
     // Offset: 0x1CC8C60
-    static System::Exception* FailedClearParentTable(::StringW table, ::StringW constraint, ::StringW childTable);
+    static ::System::Exception* FailedClearParentTable(::StringW table, ::StringW constraint, ::StringW childTable);
     // static public System.Exception ForeignKeyViolation(System.String constraint, System.Object[] keys)
     // Offset: 0x1CC8CD0
-    static System::Exception* ForeignKeyViolation(::StringW constraint, ::ArrayW<::Il2CppObject*> keys);
+    static ::System::Exception* ForeignKeyViolation(::StringW constraint, ::ArrayW<::Il2CppObject*> keys);
     // static public System.Exception RemoveParentRow(System.Data.ForeignKeyConstraint constraint)
     // Offset: 0x1CC8D44
-    static System::Exception* RemoveParentRow(System::Data::ForeignKeyConstraint* constraint);
+    static ::System::Exception* RemoveParentRow(::System::Data::ForeignKeyConstraint* constraint);
     // static public System.String MaxLengthViolationText(System.String columnName)
     // Offset: 0x1CC8DB8
     static ::StringW MaxLengthViolationText(::StringW columnName);
@@ -271,568 +271,568 @@ namespace System::Data {
     static ::StringW NotAllowDBNullViolationText(::StringW columnName);
     // static public System.Exception CantAddConstraintToMultipleNestedTable(System.String tableName)
     // Offset: 0x1CC8E60
-    static System::Exception* CantAddConstraintToMultipleNestedTable(::StringW tableName);
+    static ::System::Exception* CantAddConstraintToMultipleNestedTable(::StringW tableName);
     // static public System.Exception AutoIncrementAndExpression()
     // Offset: 0x1CC8EB8
-    static System::Exception* AutoIncrementAndExpression();
+    static ::System::Exception* AutoIncrementAndExpression();
     // static public System.Exception AutoIncrementAndDefaultValue()
     // Offset: 0x1CC8F00
-    static System::Exception* AutoIncrementAndDefaultValue();
+    static ::System::Exception* AutoIncrementAndDefaultValue();
     // static public System.Exception AutoIncrementSeed()
     // Offset: 0x1CC8F48
-    static System::Exception* AutoIncrementSeed();
+    static ::System::Exception* AutoIncrementSeed();
     // static public System.Exception CantChangeDataType()
     // Offset: 0x1CC8F90
-    static System::Exception* CantChangeDataType();
+    static ::System::Exception* CantChangeDataType();
     // static public System.Exception NullDataType()
     // Offset: 0x1CC8FD8
-    static System::Exception* NullDataType();
+    static ::System::Exception* NullDataType();
     // static public System.Exception ColumnNameRequired()
     // Offset: 0x1CC9020
-    static System::Exception* ColumnNameRequired();
+    static ::System::Exception* ColumnNameRequired();
     // static public System.Exception DefaultValueAndAutoIncrement()
     // Offset: 0x1CC9068
-    static System::Exception* DefaultValueAndAutoIncrement();
+    static ::System::Exception* DefaultValueAndAutoIncrement();
     // static public System.Exception DefaultValueDataType(System.String column, System.Type defaultType, System.Type columnType, System.Exception inner)
     // Offset: 0x1CC90B0
-    static System::Exception* DefaultValueDataType(::StringW column, System::Type* defaultType, System::Type* columnType, System::Exception* inner);
+    static ::System::Exception* DefaultValueDataType(::StringW column, ::System::Type* defaultType, ::System::Type* columnType, ::System::Exception* inner);
     // static public System.Exception DefaultValueColumnDataType(System.String column, System.Type defaultType, System.Type columnType, System.Exception inner)
     // Offset: 0x1CC9194
-    static System::Exception* DefaultValueColumnDataType(::StringW column, System::Type* defaultType, System::Type* columnType, System::Exception* inner);
+    static ::System::Exception* DefaultValueColumnDataType(::StringW column, ::System::Type* defaultType, ::System::Type* columnType, ::System::Exception* inner);
     // static public System.Exception ExpressionAndUnique()
     // Offset: 0x1CC9250
-    static System::Exception* ExpressionAndUnique();
+    static ::System::Exception* ExpressionAndUnique();
     // static public System.Exception ExpressionAndReadOnly()
     // Offset: 0x1CC9298
-    static System::Exception* ExpressionAndReadOnly();
+    static ::System::Exception* ExpressionAndReadOnly();
     // static public System.Exception ExpressionAndConstraint(System.Data.DataColumn column, System.Data.Constraint constraint)
     // Offset: 0x1CC92E0
-    static System::Exception* ExpressionAndConstraint(System::Data::DataColumn* column, System::Data::Constraint* constraint);
+    static ::System::Exception* ExpressionAndConstraint(::System::Data::DataColumn* column, ::System::Data::Constraint* constraint);
     // static public System.Exception ExpressionInConstraint(System.Data.DataColumn column)
     // Offset: 0x1CC936C
-    static System::Exception* ExpressionInConstraint(System::Data::DataColumn* column);
+    static ::System::Exception* ExpressionInConstraint(::System::Data::DataColumn* column);
     // static public System.Exception ExpressionCircular()
     // Offset: 0x1CC93CC
-    static System::Exception* ExpressionCircular();
+    static ::System::Exception* ExpressionCircular();
     // static public System.Exception NonUniqueValues(System.String column)
     // Offset: 0x1CC9414
-    static System::Exception* NonUniqueValues(::StringW column);
+    static ::System::Exception* NonUniqueValues(::StringW column);
     // static public System.Exception NullKeyValues(System.String column)
     // Offset: 0x1CC946C
-    static System::Exception* NullKeyValues(::StringW column);
+    static ::System::Exception* NullKeyValues(::StringW column);
     // static public System.Exception NullValues(System.String column)
     // Offset: 0x1CC94C4
-    static System::Exception* NullValues(::StringW column);
+    static ::System::Exception* NullValues(::StringW column);
     // static public System.Exception ReadOnlyAndExpression()
     // Offset: 0x1CC951C
-    static System::Exception* ReadOnlyAndExpression();
+    static ::System::Exception* ReadOnlyAndExpression();
     // static public System.Exception ReadOnly(System.String column)
     // Offset: 0x1CC9564
-    static System::Exception* ReadOnly(::StringW column);
+    static ::System::Exception* ReadOnly(::StringW column);
     // static public System.Exception UniqueAndExpression()
     // Offset: 0x1CC95BC
-    static System::Exception* UniqueAndExpression();
+    static ::System::Exception* UniqueAndExpression();
     // static public System.Exception SetFailed(System.Object value, System.Data.DataColumn column, System.Type type, System.Exception innerException)
     // Offset: 0x1CC9604
-    static System::Exception* SetFailed(::Il2CppObject* value, System::Data::DataColumn* column, System::Type* type, System::Exception* innerException);
+    static ::System::Exception* SetFailed(::Il2CppObject* value, ::System::Data::DataColumn* column, ::System::Type* type, ::System::Exception* innerException);
     // static public System.Exception CannotSetToNull(System.Data.DataColumn column)
     // Offset: 0x1CC96E8
-    static System::Exception* CannotSetToNull(System::Data::DataColumn* column);
+    static ::System::Exception* CannotSetToNull(::System::Data::DataColumn* column);
     // static public System.Exception LongerThanMaxLength(System.Data.DataColumn column)
     // Offset: 0x1CC9748
-    static System::Exception* LongerThanMaxLength(System::Data::DataColumn* column);
+    static ::System::Exception* LongerThanMaxLength(::System::Data::DataColumn* column);
     // static public System.Exception CannotSetMaxLength(System.Data.DataColumn column, System.Int32 value)
     // Offset: 0x1CC97A8
-    static System::Exception* CannotSetMaxLength(System::Data::DataColumn* column, int value);
+    static ::System::Exception* CannotSetMaxLength(::System::Data::DataColumn* column, int value);
     // static public System.Exception CannotSetMaxLength2(System.Data.DataColumn column)
     // Offset: 0x1CC985C
-    static System::Exception* CannotSetMaxLength2(System::Data::DataColumn* column);
+    static ::System::Exception* CannotSetMaxLength2(::System::Data::DataColumn* column);
     // static public System.Exception CannotSetSimpleContentType(System.String columnName, System.Type type)
     // Offset: 0x1CC98BC
-    static System::Exception* CannotSetSimpleContentType(::StringW columnName, System::Type* type);
+    static ::System::Exception* CannotSetSimpleContentType(::StringW columnName, ::System::Type* type);
     // static public System.Exception CannotSetSimpleContent(System.String columnName, System.Type type)
     // Offset: 0x1CC9924
-    static System::Exception* CannotSetSimpleContent(::StringW columnName, System::Type* type);
+    static ::System::Exception* CannotSetSimpleContent(::StringW columnName, ::System::Type* type);
     // static public System.Exception CannotChangeNamespace(System.String columnName)
     // Offset: 0x1CC998C
-    static System::Exception* CannotChangeNamespace(::StringW columnName);
+    static ::System::Exception* CannotChangeNamespace(::StringW columnName);
     // static public System.Exception HasToBeStringType(System.Data.DataColumn column)
     // Offset: 0x1CC99E4
-    static System::Exception* HasToBeStringType(System::Data::DataColumn* column);
+    static ::System::Exception* HasToBeStringType(::System::Data::DataColumn* column);
     // static public System.Exception AutoIncrementCannotSetIfHasData(System.String typeName)
     // Offset: 0x1CC9A44
-    static System::Exception* AutoIncrementCannotSetIfHasData(::StringW typeName);
+    static ::System::Exception* AutoIncrementCannotSetIfHasData(::StringW typeName);
     // static public System.Exception INullableUDTwithoutStaticNull(System.String typeName)
     // Offset: 0x1CC9A9C
-    static System::Exception* INullableUDTwithoutStaticNull(::StringW typeName);
+    static ::System::Exception* INullableUDTwithoutStaticNull(::StringW typeName);
     // static public System.Exception IComparableNotImplemented(System.String typeName)
     // Offset: 0x1CC9AF4
-    static System::Exception* IComparableNotImplemented(::StringW typeName);
+    static ::System::Exception* IComparableNotImplemented(::StringW typeName);
     // static public System.Exception UDTImplementsIChangeTrackingButnotIRevertible(System.String typeName)
     // Offset: 0x1CC9B4C
-    static System::Exception* UDTImplementsIChangeTrackingButnotIRevertible(::StringW typeName);
+    static ::System::Exception* UDTImplementsIChangeTrackingButnotIRevertible(::StringW typeName);
     // static public System.Exception InvalidDataColumnMapping(System.Type type)
     // Offset: 0x1CC9BA4
-    static System::Exception* InvalidDataColumnMapping(System::Type* type);
+    static ::System::Exception* InvalidDataColumnMapping(::System::Type* type);
     // static public System.Exception CannotSetDateTimeModeForNonDateTimeColumns()
     // Offset: 0x1CC9C1C
-    static System::Exception* CannotSetDateTimeModeForNonDateTimeColumns();
+    static ::System::Exception* CannotSetDateTimeModeForNonDateTimeColumns();
     // static public System.Exception InvalidDateTimeMode(System.Data.DataSetDateTime mode)
     // Offset: 0x1CC9C64
-    static System::Exception* InvalidDateTimeMode(System::Data::DataSetDateTime mode);
+    static ::System::Exception* InvalidDateTimeMode(::System::Data::DataSetDateTime mode);
     // static public System.Exception CantChangeDateTimeMode(System.Data.DataSetDateTime oldValue, System.Data.DataSetDateTime newValue)
     // Offset: 0x1CC9CB4
-    static System::Exception* CantChangeDateTimeMode(System::Data::DataSetDateTime oldValue, System::Data::DataSetDateTime newValue);
+    static ::System::Exception* CantChangeDateTimeMode(::System::Data::DataSetDateTime oldValue, ::System::Data::DataSetDateTime newValue);
     // static public System.Exception ColumnTypeNotSupported()
     // Offset: 0x1CC9D90
-    static System::Exception* ColumnTypeNotSupported();
+    static ::System::Exception* ColumnTypeNotSupported();
     // static public System.Exception SetFailed(System.String name)
     // Offset: 0x1CC9DFC
-    static System::Exception* SetFailed(::StringW name);
+    static ::System::Exception* SetFailed(::StringW name);
     // static public System.Exception CanNotUse()
     // Offset: 0x1CC59D8
-    static System::Exception* CanNotUse();
+    static ::System::Exception* CanNotUse();
     // static public System.Exception SetIListObject()
     // Offset: 0x1CC3AEC
-    static System::Exception* SetIListObject();
+    static ::System::Exception* SetIListObject();
     // static public System.Exception AddNewNotAllowNull()
     // Offset: 0x1CC3EFC
-    static System::Exception* AddNewNotAllowNull();
+    static ::System::Exception* AddNewNotAllowNull();
     // static public System.Exception NotOpen()
     // Offset: 0x1CC401C
-    static System::Exception* NotOpen();
+    static ::System::Exception* NotOpen();
     // static public System.Exception CreateChildView()
     // Offset: 0x1CC9E54
-    static System::Exception* CreateChildView();
+    static ::System::Exception* CreateChildView();
     // static public System.Exception CanNotDelete()
     // Offset: 0x1CC46F8
-    static System::Exception* CanNotDelete();
+    static ::System::Exception* CanNotDelete();
     // static public System.Exception GetElementIndex(System.Int32 index)
     // Offset: 0x1CC4E54
-    static System::Exception* GetElementIndex(int index);
+    static ::System::Exception* GetElementIndex(int index);
     // static public System.Exception AddExternalObject()
     // Offset: 0x1CC4890
-    static System::Exception* AddExternalObject();
+    static ::System::Exception* AddExternalObject();
     // static public System.Exception CanNotClear()
     // Offset: 0x1CC491C
-    static System::Exception* CanNotClear();
+    static ::System::Exception* CanNotClear();
     // static public System.Exception InsertExternalObject()
     // Offset: 0x1CC4B30
-    static System::Exception* InsertExternalObject();
+    static ::System::Exception* InsertExternalObject();
     // static public System.Exception RemoveExternalObject()
     // Offset: 0x1CC4C94
-    static System::Exception* RemoveExternalObject();
+    static ::System::Exception* RemoveExternalObject();
     // static public System.Exception KeyTableMismatch()
     // Offset: 0x1CC9E9C
-    static System::Exception* KeyTableMismatch();
+    static ::System::Exception* KeyTableMismatch();
     // static public System.Exception KeyNoColumns()
     // Offset: 0x1CC9EE4
-    static System::Exception* KeyNoColumns();
+    static ::System::Exception* KeyNoColumns();
     // static public System.Exception KeyTooManyColumns(System.Int32 cols)
     // Offset: 0x1CC9F2C
-    static System::Exception* KeyTooManyColumns(int cols);
+    static ::System::Exception* KeyTooManyColumns(int cols);
     // static public System.Exception KeyDuplicateColumns(System.String columnName)
     // Offset: 0x1CC9FC4
-    static System::Exception* KeyDuplicateColumns(::StringW columnName);
+    static ::System::Exception* KeyDuplicateColumns(::StringW columnName);
     // static public System.Exception RelationDataSetMismatch()
     // Offset: 0x1CCA01C
-    static System::Exception* RelationDataSetMismatch();
+    static ::System::Exception* RelationDataSetMismatch();
     // static public System.Exception ColumnsTypeMismatch()
     // Offset: 0x1CCA064
-    static System::Exception* ColumnsTypeMismatch();
+    static ::System::Exception* ColumnsTypeMismatch();
     // static public System.Exception KeyLengthMismatch()
     // Offset: 0x1CCA0AC
-    static System::Exception* KeyLengthMismatch();
+    static ::System::Exception* KeyLengthMismatch();
     // static public System.Exception KeyLengthZero()
     // Offset: 0x1CCA0F4
-    static System::Exception* KeyLengthZero();
+    static ::System::Exception* KeyLengthZero();
     // static public System.Exception ForeignRelation()
     // Offset: 0x1CCA13C
-    static System::Exception* ForeignRelation();
+    static ::System::Exception* ForeignRelation();
     // static public System.Exception KeyColumnsIdentical()
     // Offset: 0x1CCA184
-    static System::Exception* KeyColumnsIdentical();
+    static ::System::Exception* KeyColumnsIdentical();
     // static public System.Exception RelationForeignTable(System.String t1, System.String t2)
     // Offset: 0x1CCA1CC
-    static System::Exception* RelationForeignTable(::StringW t1, ::StringW t2);
+    static ::System::Exception* RelationForeignTable(::StringW t1, ::StringW t2);
     // static public System.Exception GetParentRowTableMismatch(System.String t1, System.String t2)
     // Offset: 0x1CCA234
-    static System::Exception* GetParentRowTableMismatch(::StringW t1, ::StringW t2);
+    static ::System::Exception* GetParentRowTableMismatch(::StringW t1, ::StringW t2);
     // static public System.Exception SetParentRowTableMismatch(System.String t1, System.String t2)
     // Offset: 0x1CCA29C
-    static System::Exception* SetParentRowTableMismatch(::StringW t1, ::StringW t2);
+    static ::System::Exception* SetParentRowTableMismatch(::StringW t1, ::StringW t2);
     // static public System.Exception RelationForeignRow()
     // Offset: 0x1CCA304
-    static System::Exception* RelationForeignRow();
+    static ::System::Exception* RelationForeignRow();
     // static public System.Exception RelationNestedReadOnly()
     // Offset: 0x1CCA34C
-    static System::Exception* RelationNestedReadOnly();
+    static ::System::Exception* RelationNestedReadOnly();
     // static public System.Exception TableCantBeNestedInTwoTables(System.String tableName)
     // Offset: 0x1CCA394
-    static System::Exception* TableCantBeNestedInTwoTables(::StringW tableName);
+    static ::System::Exception* TableCantBeNestedInTwoTables(::StringW tableName);
     // static public System.Exception LoopInNestedRelations(System.String tableName)
     // Offset: 0x1CCA3EC
-    static System::Exception* LoopInNestedRelations(::StringW tableName);
+    static ::System::Exception* LoopInNestedRelations(::StringW tableName);
     // static public System.Exception RelationDoesNotExist()
     // Offset: 0x1CCA444
-    static System::Exception* RelationDoesNotExist();
+    static ::System::Exception* RelationDoesNotExist();
     // static public System.Exception ParentOrChildColumnsDoNotHaveDataSet()
     // Offset: 0x1CCA48C
-    static System::Exception* ParentOrChildColumnsDoNotHaveDataSet();
+    static ::System::Exception* ParentOrChildColumnsDoNotHaveDataSet();
     // static public System.Exception InValidNestedRelation(System.String childTableName)
     // Offset: 0x1CCA4D4
-    static System::Exception* InValidNestedRelation(::StringW childTableName);
+    static ::System::Exception* InValidNestedRelation(::StringW childTableName);
     // static public System.Exception InvalidParentNamespaceinNestedRelation(System.String childTableName)
     // Offset: 0x1CCA52C
-    static System::Exception* InvalidParentNamespaceinNestedRelation(::StringW childTableName);
+    static ::System::Exception* InvalidParentNamespaceinNestedRelation(::StringW childTableName);
     // static public System.Exception RowNotInTheDataSet()
     // Offset: 0x1CCA584
-    static System::Exception* RowNotInTheDataSet();
+    static ::System::Exception* RowNotInTheDataSet();
     // static public System.Exception RowNotInTheTable()
     // Offset: 0x1CCA5CC
-    static System::Exception* RowNotInTheTable();
+    static ::System::Exception* RowNotInTheTable();
     // static public System.Exception EditInRowChanging()
     // Offset: 0x1CCA614
-    static System::Exception* EditInRowChanging();
+    static ::System::Exception* EditInRowChanging();
     // static public System.Exception EndEditInRowChanging()
     // Offset: 0x1CCA65C
-    static System::Exception* EndEditInRowChanging();
+    static ::System::Exception* EndEditInRowChanging();
     // static public System.Exception BeginEditInRowChanging()
     // Offset: 0x1CCA6A4
-    static System::Exception* BeginEditInRowChanging();
+    static ::System::Exception* BeginEditInRowChanging();
     // static public System.Exception CancelEditInRowChanging()
     // Offset: 0x1CCA6EC
-    static System::Exception* CancelEditInRowChanging();
+    static ::System::Exception* CancelEditInRowChanging();
     // static public System.Exception DeleteInRowDeleting()
     // Offset: 0x1CCA734
-    static System::Exception* DeleteInRowDeleting();
+    static ::System::Exception* DeleteInRowDeleting();
     // static public System.Exception ValueArrayLength()
     // Offset: 0x1CCA77C
-    static System::Exception* ValueArrayLength();
+    static ::System::Exception* ValueArrayLength();
     // static public System.Exception NoCurrentData()
     // Offset: 0x1CCA7C4
-    static System::Exception* NoCurrentData();
+    static ::System::Exception* NoCurrentData();
     // static public System.Exception NoOriginalData()
     // Offset: 0x1CCA80C
-    static System::Exception* NoOriginalData();
+    static ::System::Exception* NoOriginalData();
     // static public System.Exception NoProposedData()
     // Offset: 0x1CCA854
-    static System::Exception* NoProposedData();
+    static ::System::Exception* NoProposedData();
     // static public System.Exception RowRemovedFromTheTable()
     // Offset: 0x1CCA89C
-    static System::Exception* RowRemovedFromTheTable();
+    static ::System::Exception* RowRemovedFromTheTable();
     // static public System.Exception DeletedRowInaccessible()
     // Offset: 0x1CCA8E4
-    static System::Exception* DeletedRowInaccessible();
+    static ::System::Exception* DeletedRowInaccessible();
     // static public System.Exception RowAlreadyDeleted()
     // Offset: 0x1CCA92C
-    static System::Exception* RowAlreadyDeleted();
+    static ::System::Exception* RowAlreadyDeleted();
     // static public System.Exception RowEmpty()
     // Offset: 0x1CCA974
-    static System::Exception* RowEmpty();
+    static ::System::Exception* RowEmpty();
     // static public System.Exception InvalidRowVersion()
     // Offset: 0x1CCA9BC
-    static System::Exception* InvalidRowVersion();
+    static ::System::Exception* InvalidRowVersion();
     // static public System.Exception RowOutOfRange(System.Int32 index)
     // Offset: 0x1CC4DBC
-    static System::Exception* RowOutOfRange(int index);
+    static ::System::Exception* RowOutOfRange(int index);
     // static public System.Exception RowInsertTwice(System.Int32 index, System.String tableName)
     // Offset: 0x1CCAA04
-    static System::Exception* RowInsertTwice(int index, ::StringW tableName);
+    static ::System::Exception* RowInsertTwice(int index, ::StringW tableName);
     // static public System.Exception RowInsertMissing(System.String tableName)
     // Offset: 0x1CCAAAC
-    static System::Exception* RowInsertMissing(::StringW tableName);
+    static ::System::Exception* RowInsertMissing(::StringW tableName);
     // static public System.Exception RowAlreadyRemoved()
     // Offset: 0x1CCAB04
-    static System::Exception* RowAlreadyRemoved();
+    static ::System::Exception* RowAlreadyRemoved();
     // static public System.Exception MultipleParents()
     // Offset: 0x1CCAB4C
-    static System::Exception* MultipleParents();
+    static ::System::Exception* MultipleParents();
     // static public System.Exception InvalidRowState(System.Data.DataRowState state)
     // Offset: 0x1CCAB94
-    static System::Exception* InvalidRowState(System::Data::DataRowState state);
+    static ::System::Exception* InvalidRowState(::System::Data::DataRowState state);
     // static public System.Exception InvalidRowBitPattern()
     // Offset: 0x1CCABE4
-    static System::Exception* InvalidRowBitPattern();
+    static ::System::Exception* InvalidRowBitPattern();
     // static System.Exception SetDataSetNameToEmpty()
     // Offset: 0x1CCAC2C
-    static System::Exception* SetDataSetNameToEmpty();
+    static ::System::Exception* SetDataSetNameToEmpty();
     // static System.Exception SetDataSetNameConflicting(System.String name)
     // Offset: 0x1CCAC74
-    static System::Exception* SetDataSetNameConflicting(::StringW name);
+    static ::System::Exception* SetDataSetNameConflicting(::StringW name);
     // static public System.Exception DataSetUnsupportedSchema(System.String ns)
     // Offset: 0x1CCACCC
-    static System::Exception* DataSetUnsupportedSchema(::StringW ns);
+    static ::System::Exception* DataSetUnsupportedSchema(::StringW ns);
     // static public System.Exception MergeMissingDefinition(System.String obj)
     // Offset: 0x1CCAD24
-    static System::Exception* MergeMissingDefinition(::StringW obj);
+    static ::System::Exception* MergeMissingDefinition(::StringW obj);
     // static public System.Exception TablesInDifferentSets()
     // Offset: 0x1CCAD7C
-    static System::Exception* TablesInDifferentSets();
+    static ::System::Exception* TablesInDifferentSets();
     // static public System.Exception RelationAlreadyExists()
     // Offset: 0x1CCADC4
-    static System::Exception* RelationAlreadyExists();
+    static ::System::Exception* RelationAlreadyExists();
     // static public System.Exception RowAlreadyInOtherCollection()
     // Offset: 0x1CCAE0C
-    static System::Exception* RowAlreadyInOtherCollection();
+    static ::System::Exception* RowAlreadyInOtherCollection();
     // static public System.Exception RowAlreadyInTheCollection()
     // Offset: 0x1CCAE54
-    static System::Exception* RowAlreadyInTheCollection();
+    static ::System::Exception* RowAlreadyInTheCollection();
     // static public System.Exception RecordStateRange()
     // Offset: 0x1CCAE9C
-    static System::Exception* RecordStateRange();
+    static ::System::Exception* RecordStateRange();
     // static public System.Exception IndexKeyLength(System.Int32 length, System.Int32 keyLength)
     // Offset: 0x1CCAEE4
-    static System::Exception* IndexKeyLength(int length, int keyLength);
+    static ::System::Exception* IndexKeyLength(int length, int keyLength);
     // static public System.Exception RemovePrimaryKey(System.Data.DataTable table)
     // Offset: 0x1CCAFC8
-    static System::Exception* RemovePrimaryKey(System::Data::DataTable* table);
+    static ::System::Exception* RemovePrimaryKey(::System::Data::DataTable* table);
     // static public System.Exception RelationAlreadyInOtherDataSet()
     // Offset: 0x1CCB044
-    static System::Exception* RelationAlreadyInOtherDataSet();
+    static ::System::Exception* RelationAlreadyInOtherDataSet();
     // static public System.Exception RelationAlreadyInTheDataSet()
     // Offset: 0x1CCB08C
-    static System::Exception* RelationAlreadyInTheDataSet();
+    static ::System::Exception* RelationAlreadyInTheDataSet();
     // static public System.Exception RelationNotInTheDataSet(System.String relation)
     // Offset: 0x1CCB0D4
-    static System::Exception* RelationNotInTheDataSet(::StringW relation);
+    static ::System::Exception* RelationNotInTheDataSet(::StringW relation);
     // static public System.Exception RelationOutOfRange(System.Object index)
     // Offset: 0x1CCB12C
-    static System::Exception* RelationOutOfRange(::Il2CppObject* index);
+    static ::System::Exception* RelationOutOfRange(::Il2CppObject* index);
     // static public System.Exception DuplicateRelation(System.String relation)
     // Offset: 0x1CCB1B8
-    static System::Exception* DuplicateRelation(::StringW relation);
+    static ::System::Exception* DuplicateRelation(::StringW relation);
     // static public System.Exception RelationTableNull()
     // Offset: 0x1CCB210
-    static System::Exception* RelationTableNull();
+    static ::System::Exception* RelationTableNull();
     // static public System.Exception RelationDataSetNull()
     // Offset: 0x1CCB258
-    static System::Exception* RelationDataSetNull();
+    static ::System::Exception* RelationDataSetNull();
     // static public System.Exception RelationTableWasRemoved()
     // Offset: 0x1CCB2A0
-    static System::Exception* RelationTableWasRemoved();
+    static ::System::Exception* RelationTableWasRemoved();
     // static public System.Exception ParentTableMismatch()
     // Offset: 0x1CCB2E8
-    static System::Exception* ParentTableMismatch();
+    static ::System::Exception* ParentTableMismatch();
     // static public System.Exception ChildTableMismatch()
     // Offset: 0x1CCB330
-    static System::Exception* ChildTableMismatch();
+    static ::System::Exception* ChildTableMismatch();
     // static public System.Exception EnforceConstraint()
     // Offset: 0x1CCB378
-    static System::Exception* EnforceConstraint();
+    static ::System::Exception* EnforceConstraint();
     // static public System.Exception CaseLocaleMismatch()
     // Offset: 0x1CCB3C0
-    static System::Exception* CaseLocaleMismatch();
+    static ::System::Exception* CaseLocaleMismatch();
     // static public System.Exception CannotChangeCaseLocale()
     // Offset: 0x1CCB408
-    static System::Exception* CannotChangeCaseLocale();
+    static ::System::Exception* CannotChangeCaseLocale();
     // static public System.Exception CannotChangeCaseLocale(System.Exception innerException)
     // Offset: 0x1CCB410
-    static System::Exception* CannotChangeCaseLocale(System::Exception* innerException);
+    static ::System::Exception* CannotChangeCaseLocale(::System::Exception* innerException);
     // static public System.Exception InvalidRemotingFormat(System.Data.SerializationFormat mode)
     // Offset: 0x1CCB460
-    static System::Exception* InvalidRemotingFormat(System::Data::SerializationFormat mode);
+    static ::System::Exception* InvalidRemotingFormat(::System::Data::SerializationFormat mode);
     // static public System.Exception TableForeignPrimaryKey()
     // Offset: 0x1CCB4B0
-    static System::Exception* TableForeignPrimaryKey();
+    static ::System::Exception* TableForeignPrimaryKey();
     // static public System.Exception TableCannotAddToSimpleContent()
     // Offset: 0x1CCB4F8
-    static System::Exception* TableCannotAddToSimpleContent();
+    static ::System::Exception* TableCannotAddToSimpleContent();
     // static public System.Exception NoTableName()
     // Offset: 0x1CCB540
-    static System::Exception* NoTableName();
+    static ::System::Exception* NoTableName();
     // static public System.Exception MultipleTextOnlyColumns()
     // Offset: 0x1CCB588
-    static System::Exception* MultipleTextOnlyColumns();
+    static ::System::Exception* MultipleTextOnlyColumns();
     // static public System.Exception InvalidSortString(System.String sort)
     // Offset: 0x1CCB5D0
-    static System::Exception* InvalidSortString(::StringW sort);
+    static ::System::Exception* InvalidSortString(::StringW sort);
     // static public System.Exception DuplicateTableName(System.String table)
     // Offset: 0x1CC23C4
-    static System::Exception* DuplicateTableName(::StringW table);
+    static ::System::Exception* DuplicateTableName(::StringW table);
     // static public System.Exception DuplicateTableName2(System.String table, System.String ns)
     // Offset: 0x1CCB628
-    static System::Exception* DuplicateTableName2(::StringW table, ::StringW ns);
+    static ::System::Exception* DuplicateTableName2(::StringW table, ::StringW ns);
     // static public System.Exception SelfnestedDatasetConflictingName(System.String table)
     // Offset: 0x1CCB690
-    static System::Exception* SelfnestedDatasetConflictingName(::StringW table);
+    static ::System::Exception* SelfnestedDatasetConflictingName(::StringW table);
     // static public System.Exception DatasetConflictingName(System.String table)
     // Offset: 0x1CC1190
-    static System::Exception* DatasetConflictingName(::StringW table);
+    static ::System::Exception* DatasetConflictingName(::StringW table);
     // static public System.Exception TableAlreadyInOtherDataSet()
     // Offset: 0x1CC1148
-    static System::Exception* TableAlreadyInOtherDataSet();
+    static ::System::Exception* TableAlreadyInOtherDataSet();
     // static public System.Exception TableAlreadyInTheDataSet()
     // Offset: 0x1CC1100
-    static System::Exception* TableAlreadyInTheDataSet();
+    static ::System::Exception* TableAlreadyInTheDataSet();
     // static public System.Exception TableOutOfRange(System.Int32 index)
     // Offset: 0x1CC0138
-    static System::Exception* TableOutOfRange(int index);
+    static ::System::Exception* TableOutOfRange(int index);
     // static public System.Exception TableNotInTheDataSet(System.String table)
     // Offset: 0x1CC1ADC
-    static System::Exception* TableNotInTheDataSet(::StringW table);
+    static ::System::Exception* TableNotInTheDataSet(::StringW table);
     // static public System.Exception TableInRelation()
     // Offset: 0x1CC1B34
-    static System::Exception* TableInRelation();
+    static ::System::Exception* TableInRelation();
     // static public System.Exception TableInConstraint(System.Data.DataTable table, System.Data.Constraint constraint)
     // Offset: 0x1CC1BFC
-    static System::Exception* TableInConstraint(System::Data::DataTable* table, System::Data::Constraint* constraint);
+    static ::System::Exception* TableInConstraint(::System::Data::DataTable* table, ::System::Data::Constraint* constraint);
     // static public System.Exception CanNotSerializeDataTableHierarchy()
     // Offset: 0x1CCB6E8
-    static System::Exception* CanNotSerializeDataTableHierarchy();
+    static ::System::Exception* CanNotSerializeDataTableHierarchy();
     // static public System.Exception CanNotRemoteDataTable()
     // Offset: 0x1CCB730
-    static System::Exception* CanNotRemoteDataTable();
+    static ::System::Exception* CanNotRemoteDataTable();
     // static public System.Exception CanNotSetRemotingFormat()
     // Offset: 0x1CCB778
-    static System::Exception* CanNotSetRemotingFormat();
+    static ::System::Exception* CanNotSetRemotingFormat();
     // static public System.Exception CanNotSerializeDataTableWithEmptyName()
     // Offset: 0x1CCB7C0
-    static System::Exception* CanNotSerializeDataTableWithEmptyName();
+    static ::System::Exception* CanNotSerializeDataTableWithEmptyName();
     // static public System.Exception TableNotFound(System.String tableName)
     // Offset: 0x1CCB808
-    static System::Exception* TableNotFound(::StringW tableName);
+    static ::System::Exception* TableNotFound(::StringW tableName);
     // static public System.Exception AggregateException(System.Data.AggregateType aggregateType, System.Type type)
     // Offset: 0x1CCB860
-    static System::Exception* AggregateException(System::Data::AggregateType aggregateType, System::Type* type);
+    static ::System::Exception* AggregateException(::System::Data::AggregateType aggregateType, ::System::Type* type);
     // static public System.Exception InvalidStorageType(System.TypeCode typecode)
     // Offset: 0x1CCB924
-    static System::Exception* InvalidStorageType(System::TypeCode typecode);
+    static ::System::Exception* InvalidStorageType(::System::TypeCode typecode);
     // static public System.Exception RangeArgument(System.Int32 min, System.Int32 max)
     // Offset: 0x1CCB9C8
-    static System::Exception* RangeArgument(int min, int max);
+    static ::System::Exception* RangeArgument(int min, int max);
     // static public System.Exception NullRange()
     // Offset: 0x1CCBA84
-    static System::Exception* NullRange();
+    static ::System::Exception* NullRange();
     // static public System.Exception NegativeMinimumCapacity()
     // Offset: 0x1CCBACC
-    static System::Exception* NegativeMinimumCapacity();
+    static ::System::Exception* NegativeMinimumCapacity();
     // static public System.Exception ProblematicChars(System.Char charValue)
     // Offset: 0x1CCBB14
-    static System::Exception* ProblematicChars(::Il2CppChar charValue);
+    static ::System::Exception* ProblematicChars(::Il2CppChar charValue);
     // static public System.Exception StorageSetFailed()
     // Offset: 0x1CCBBE0
-    static System::Exception* StorageSetFailed();
+    static ::System::Exception* StorageSetFailed();
     // static public System.Exception SimpleTypeNotSupported()
     // Offset: 0x1CCBC28
-    static System::Exception* SimpleTypeNotSupported();
+    static ::System::Exception* SimpleTypeNotSupported();
     // static public System.Exception MissingAttribute(System.String attribute)
     // Offset: 0x1CCBC70
-    static System::Exception* MissingAttribute(::StringW attribute);
+    static ::System::Exception* MissingAttribute(::StringW attribute);
     // static public System.Exception MissingAttribute(System.String element, System.String attribute)
     // Offset: 0x1CCBCC8
-    static System::Exception* MissingAttribute(::StringW element, ::StringW attribute);
+    static ::System::Exception* MissingAttribute(::StringW element, ::StringW attribute);
     // static public System.Exception InvalidAttributeValue(System.String name, System.String value)
     // Offset: 0x1CCBD30
-    static System::Exception* InvalidAttributeValue(::StringW name, ::StringW value);
+    static ::System::Exception* InvalidAttributeValue(::StringW name, ::StringW value);
     // static public System.Exception AttributeValues(System.String name, System.String value1, System.String value2)
     // Offset: 0x1CCBD98
-    static System::Exception* AttributeValues(::StringW name, ::StringW value1, ::StringW value2);
+    static ::System::Exception* AttributeValues(::StringW name, ::StringW value1, ::StringW value2);
     // static public System.Exception ElementTypeNotFound(System.String name)
     // Offset: 0x1CCBE08
-    static System::Exception* ElementTypeNotFound(::StringW name);
+    static ::System::Exception* ElementTypeNotFound(::StringW name);
     // static public System.Exception RelationParentNameMissing(System.String rel)
     // Offset: 0x1CCBE60
-    static System::Exception* RelationParentNameMissing(::StringW rel);
+    static ::System::Exception* RelationParentNameMissing(::StringW rel);
     // static public System.Exception RelationChildNameMissing(System.String rel)
     // Offset: 0x1CCBEB8
-    static System::Exception* RelationChildNameMissing(::StringW rel);
+    static ::System::Exception* RelationChildNameMissing(::StringW rel);
     // static public System.Exception RelationTableKeyMissing(System.String rel)
     // Offset: 0x1CCBF10
-    static System::Exception* RelationTableKeyMissing(::StringW rel);
+    static ::System::Exception* RelationTableKeyMissing(::StringW rel);
     // static public System.Exception RelationChildKeyMissing(System.String rel)
     // Offset: 0x1CCBF68
-    static System::Exception* RelationChildKeyMissing(::StringW rel);
+    static ::System::Exception* RelationChildKeyMissing(::StringW rel);
     // static public System.Exception UndefinedDatatype(System.String name)
     // Offset: 0x1CCBFC0
-    static System::Exception* UndefinedDatatype(::StringW name);
+    static ::System::Exception* UndefinedDatatype(::StringW name);
     // static public System.Exception DatatypeNotDefined()
     // Offset: 0x1CCC018
-    static System::Exception* DatatypeNotDefined();
+    static ::System::Exception* DatatypeNotDefined();
     // static public System.Exception MismatchKeyLength()
     // Offset: 0x1CCC060
-    static System::Exception* MismatchKeyLength();
+    static ::System::Exception* MismatchKeyLength();
     // static public System.Exception InvalidField(System.String name)
     // Offset: 0x1CCC0A8
-    static System::Exception* InvalidField(::StringW name);
+    static ::System::Exception* InvalidField(::StringW name);
     // static public System.Exception InvalidSelector(System.String name)
     // Offset: 0x1CCC100
-    static System::Exception* InvalidSelector(::StringW name);
+    static ::System::Exception* InvalidSelector(::StringW name);
     // static public System.Exception CircularComplexType(System.String name)
     // Offset: 0x1CCC158
-    static System::Exception* CircularComplexType(::StringW name);
+    static ::System::Exception* CircularComplexType(::StringW name);
     // static public System.Exception CannotInstantiateAbstract(System.String name)
     // Offset: 0x1CCC1B0
-    static System::Exception* CannotInstantiateAbstract(::StringW name);
+    static ::System::Exception* CannotInstantiateAbstract(::StringW name);
     // static public System.Exception InvalidKey(System.String name)
     // Offset: 0x1CCC208
-    static System::Exception* InvalidKey(::StringW name);
+    static ::System::Exception* InvalidKey(::StringW name);
     // static public System.Exception DiffgramMissingTable(System.String name)
     // Offset: 0x1CCC260
-    static System::Exception* DiffgramMissingTable(::StringW name);
+    static ::System::Exception* DiffgramMissingTable(::StringW name);
     // static public System.Exception DiffgramMissingSQL()
     // Offset: 0x1CCC2B8
-    static System::Exception* DiffgramMissingSQL();
+    static ::System::Exception* DiffgramMissingSQL();
     // static public System.Exception DuplicateConstraintRead(System.String str)
     // Offset: 0x1CCC300
-    static System::Exception* DuplicateConstraintRead(::StringW str);
+    static ::System::Exception* DuplicateConstraintRead(::StringW str);
     // static public System.Exception ColumnTypeConflict(System.String name)
     // Offset: 0x1CCC358
-    static System::Exception* ColumnTypeConflict(::StringW name);
+    static ::System::Exception* ColumnTypeConflict(::StringW name);
     // static public System.Exception CannotConvert(System.String name, System.String type)
     // Offset: 0x1CCC3B0
-    static System::Exception* CannotConvert(::StringW name, ::StringW type);
+    static ::System::Exception* CannotConvert(::StringW name, ::StringW type);
     // static public System.Exception MissingRefer(System.String name)
     // Offset: 0x1CCC418
-    static System::Exception* MissingRefer(::StringW name);
+    static ::System::Exception* MissingRefer(::StringW name);
     // static public System.Exception InvalidPrefix(System.String name)
     // Offset: 0x1CCC488
-    static System::Exception* InvalidPrefix(::StringW name);
+    static ::System::Exception* InvalidPrefix(::StringW name);
     // static public System.Exception CanNotDeserializeObjectType()
     // Offset: 0x1CCC4E0
-    static System::Exception* CanNotDeserializeObjectType();
+    static ::System::Exception* CanNotDeserializeObjectType();
     // static public System.Exception IsDataSetAttributeMissingInSchema()
     // Offset: 0x1CCC528
-    static System::Exception* IsDataSetAttributeMissingInSchema();
+    static ::System::Exception* IsDataSetAttributeMissingInSchema();
     // static public System.Exception TooManyIsDataSetAtributeInSchema()
     // Offset: 0x1CCC570
-    static System::Exception* TooManyIsDataSetAtributeInSchema();
+    static ::System::Exception* TooManyIsDataSetAtributeInSchema();
     // static public System.Exception NestedCircular(System.String name)
     // Offset: 0x1CCC5B8
-    static System::Exception* NestedCircular(::StringW name);
+    static ::System::Exception* NestedCircular(::StringW name);
     // static public System.Exception MultipleParentRows(System.String tableQName)
     // Offset: 0x1CCC610
-    static System::Exception* MultipleParentRows(::StringW tableQName);
+    static ::System::Exception* MultipleParentRows(::StringW tableQName);
     // static public System.Exception PolymorphismNotSupported(System.String typeName)
     // Offset: 0x1CCC668
-    static System::Exception* PolymorphismNotSupported(::StringW typeName);
+    static ::System::Exception* PolymorphismNotSupported(::StringW typeName);
     // static public System.Exception DataTableInferenceNotSupported()
     // Offset: 0x1CCC6C0
-    static System::Exception* DataTableInferenceNotSupported();
+    static ::System::Exception* DataTableInferenceNotSupported();
     // static System.Void ThrowMultipleTargetConverter(System.Exception innerException)
     // Offset: 0x1CCC708
-    static void ThrowMultipleTargetConverter(System::Exception* innerException);
+    static void ThrowMultipleTargetConverter(::System::Exception* innerException);
     // static public System.Exception DuplicateDeclaration(System.String name)
     // Offset: 0x1CCC760
-    static System::Exception* DuplicateDeclaration(::StringW name);
+    static ::System::Exception* DuplicateDeclaration(::StringW name);
     // static public System.Exception FoundEntity()
     // Offset: 0x1CCC7B8
-    static System::Exception* FoundEntity();
+    static ::System::Exception* FoundEntity();
     // static public System.Exception MergeFailed(System.String name)
     // Offset: 0x1CCC800
-    static System::Exception* MergeFailed(::StringW name);
+    static ::System::Exception* MergeFailed(::StringW name);
     // static public System.Exception ConvertFailed(System.Type type1, System.Type type2)
     // Offset: 0x1CCC804
-    static System::Exception* ConvertFailed(System::Type* type1, System::Type* type2);
+    static ::System::Exception* ConvertFailed(::System::Type* type1, ::System::Type* type2);
     // static System.Exception InvalidDuplicateNamedSimpleTypeDelaration(System.String stName, System.String errorStr)
     // Offset: 0x1CCC8A8
-    static System::Exception* InvalidDuplicateNamedSimpleTypeDelaration(::StringW stName, ::StringW errorStr);
+    static ::System::Exception* InvalidDuplicateNamedSimpleTypeDelaration(::StringW stName, ::StringW errorStr);
     // static System.Exception InternalRBTreeError(System.Data.RBTreeError internalError)
     // Offset: 0x1CCC910
-    static System::Exception* InternalRBTreeError(System::Data::RBTreeError internalError);
+    static ::System::Exception* InternalRBTreeError(::System::Data::RBTreeError internalError);
     // static public System.Exception EnumeratorModified()
     // Offset: 0x1CCC990
-    static System::Exception* EnumeratorModified();
+    static ::System::Exception* EnumeratorModified();
   }; // System.Data.ExceptionBuilder
   #pragma pack(pop)
 }
@@ -840,7 +840,7 @@ namespace System::Data {
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::TraceException
 // Il2CppName: TraceException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, System::Exception*)>(&System::Data::ExceptionBuilder::TraceException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::System::Exception*)>(&System::Data::ExceptionBuilder::TraceException)> {
   static const MethodInfo* get() {
     static auto* trace = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* e = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
@@ -850,7 +850,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::TraceExceptionAsReturnValue
 // Il2CppName: TraceExceptionAsReturnValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(System::Exception*)>(&System::Data::ExceptionBuilder::TraceExceptionAsReturnValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Exception*)>(&System::Data::ExceptionBuilder::TraceExceptionAsReturnValue)> {
   static const MethodInfo* get() {
     static auto* e = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "TraceExceptionAsReturnValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{e});
@@ -859,7 +859,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::TraceExceptionForCapture
 // Il2CppName: TraceExceptionForCapture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(System::Exception*)>(&System::Data::ExceptionBuilder::TraceExceptionForCapture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Exception*)>(&System::Data::ExceptionBuilder::TraceExceptionForCapture)> {
   static const MethodInfo* get() {
     static auto* e = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "TraceExceptionForCapture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{e});
@@ -868,7 +868,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::TraceExceptionWithoutRethrow
 // Il2CppName: TraceExceptionWithoutRethrow
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(System::Exception*)>(&System::Data::ExceptionBuilder::TraceExceptionWithoutRethrow)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Exception*)>(&System::Data::ExceptionBuilder::TraceExceptionWithoutRethrow)> {
   static const MethodInfo* get() {
     static auto* e = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "TraceExceptionWithoutRethrow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{e});
@@ -877,7 +877,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::_Argument
 // Il2CppName: _Argument
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::_Argument)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::_Argument)> {
   static const MethodInfo* get() {
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "_Argument", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{error});
@@ -886,7 +886,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::_Argument
 // Il2CppName: _Argument
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, System::Exception*)>(&System::Data::ExceptionBuilder::_Argument)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, ::System::Exception*)>(&System::Data::ExceptionBuilder::_Argument)> {
   static const MethodInfo* get() {
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* innerException = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
@@ -896,7 +896,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::_ArgumentNull
 // Il2CppName: _ArgumentNull
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, ::StringW)>(&System::Data::ExceptionBuilder::_ArgumentNull)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, ::StringW)>(&System::Data::ExceptionBuilder::_ArgumentNull)> {
   static const MethodInfo* get() {
     static auto* paramName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* msg = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -906,7 +906,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::_ArgumentOutOfRange
 // Il2CppName: _ArgumentOutOfRange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, ::StringW)>(&System::Data::ExceptionBuilder::_ArgumentOutOfRange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, ::StringW)>(&System::Data::ExceptionBuilder::_ArgumentOutOfRange)> {
   static const MethodInfo* get() {
     static auto* paramName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* msg = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -916,7 +916,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::_IndexOutOfRange
 // Il2CppName: _IndexOutOfRange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::_IndexOutOfRange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::_IndexOutOfRange)> {
   static const MethodInfo* get() {
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "_IndexOutOfRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{error});
@@ -925,7 +925,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::_InvalidOperation
 // Il2CppName: _InvalidOperation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::_InvalidOperation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::_InvalidOperation)> {
   static const MethodInfo* get() {
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "_InvalidOperation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{error});
@@ -934,7 +934,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::_InvalidEnumArgumentException
 // Il2CppName: _InvalidEnumArgumentException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::_InvalidEnumArgumentException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::_InvalidEnumArgumentException)> {
   static const MethodInfo* get() {
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "_InvalidEnumArgumentException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{error});
@@ -946,7 +946,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::ThrowDataException
 // Il2CppName: ThrowDataException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, System::Exception*)>(&System::Data::ExceptionBuilder::ThrowDataException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::System::Exception*)>(&System::Data::ExceptionBuilder::ThrowDataException)> {
   static const MethodInfo* get() {
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* innerException = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
@@ -956,7 +956,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::_Data
 // Il2CppName: _Data
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::_Data)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::_Data)> {
   static const MethodInfo* get() {
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "_Data", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{error});
@@ -965,7 +965,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::_Constraint
 // Il2CppName: _Constraint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::_Constraint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::_Constraint)> {
   static const MethodInfo* get() {
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "_Constraint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{error});
@@ -974,7 +974,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::_InvalidConstraint
 // Il2CppName: _InvalidConstraint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::_InvalidConstraint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::_InvalidConstraint)> {
   static const MethodInfo* get() {
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "_InvalidConstraint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{error});
@@ -983,7 +983,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::_DeletedRowInaccessible
 // Il2CppName: _DeletedRowInaccessible
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::_DeletedRowInaccessible)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::_DeletedRowInaccessible)> {
   static const MethodInfo* get() {
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "_DeletedRowInaccessible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{error});
@@ -992,7 +992,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::_DuplicateName
 // Il2CppName: _DuplicateName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::_DuplicateName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::_DuplicateName)> {
   static const MethodInfo* get() {
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "_DuplicateName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{error});
@@ -1001,7 +1001,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::_InRowChangingEvent
 // Il2CppName: _InRowChangingEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::_InRowChangingEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::_InRowChangingEvent)> {
   static const MethodInfo* get() {
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "_InRowChangingEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{error});
@@ -1010,7 +1010,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::_NoNullAllowed
 // Il2CppName: _NoNullAllowed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::_NoNullAllowed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::_NoNullAllowed)> {
   static const MethodInfo* get() {
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "_NoNullAllowed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{error});
@@ -1019,7 +1019,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::_ReadOnly
 // Il2CppName: _ReadOnly
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::_ReadOnly)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::_ReadOnly)> {
   static const MethodInfo* get() {
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "_ReadOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{error});
@@ -1028,7 +1028,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::_RowNotInTable
 // Il2CppName: _RowNotInTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::_RowNotInTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::_RowNotInTable)> {
   static const MethodInfo* get() {
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "_RowNotInTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{error});
@@ -1037,7 +1037,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::_VersionNotFound
 // Il2CppName: _VersionNotFound
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::_VersionNotFound)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::_VersionNotFound)> {
   static const MethodInfo* get() {
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "_VersionNotFound", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{error});
@@ -1046,7 +1046,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::ArgumentNull
 // Il2CppName: ArgumentNull
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::ArgumentNull)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::ArgumentNull)> {
   static const MethodInfo* get() {
     static auto* paramName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "ArgumentNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{paramName});
@@ -1055,7 +1055,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::ArgumentOutOfRange
 // Il2CppName: ArgumentOutOfRange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::ArgumentOutOfRange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::ArgumentOutOfRange)> {
   static const MethodInfo* get() {
     static auto* paramName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "ArgumentOutOfRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{paramName});
@@ -1064,7 +1064,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::BadObjectPropertyAccess
 // Il2CppName: BadObjectPropertyAccess
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::BadObjectPropertyAccess)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::BadObjectPropertyAccess)> {
   static const MethodInfo* get() {
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "BadObjectPropertyAccess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{error});
@@ -1073,7 +1073,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::CaseInsensitiveNameConflict
 // Il2CppName: CaseInsensitiveNameConflict
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::CaseInsensitiveNameConflict)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::CaseInsensitiveNameConflict)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "CaseInsensitiveNameConflict", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -1082,7 +1082,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::NamespaceNameConflict
 // Il2CppName: NamespaceNameConflict
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::NamespaceNameConflict)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::NamespaceNameConflict)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "NamespaceNameConflict", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -1091,7 +1091,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::InvalidOffsetLength
 // Il2CppName: InvalidOffsetLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::InvalidOffsetLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::InvalidOffsetLength)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "InvalidOffsetLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1099,7 +1099,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::ColumnNotInTheTable
 // Il2CppName: ColumnNotInTheTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, ::StringW)>(&System::Data::ExceptionBuilder::ColumnNotInTheTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, ::StringW)>(&System::Data::ExceptionBuilder::ColumnNotInTheTable)> {
   static const MethodInfo* get() {
     static auto* column = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* table = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1109,7 +1109,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::ColumnNotInAnyTable
 // Il2CppName: ColumnNotInAnyTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::ColumnNotInAnyTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::ColumnNotInAnyTable)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "ColumnNotInAnyTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1117,7 +1117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::ColumnOutOfRange
 // Il2CppName: ColumnOutOfRange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(int)>(&System::Data::ExceptionBuilder::ColumnOutOfRange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(int)>(&System::Data::ExceptionBuilder::ColumnOutOfRange)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "ColumnOutOfRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
@@ -1126,7 +1126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::ColumnOutOfRange
 // Il2CppName: ColumnOutOfRange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::ColumnOutOfRange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::ColumnOutOfRange)> {
   static const MethodInfo* get() {
     static auto* column = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "ColumnOutOfRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{column});
@@ -1135,7 +1135,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::CannotAddColumn1
 // Il2CppName: CannotAddColumn1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::CannotAddColumn1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::CannotAddColumn1)> {
   static const MethodInfo* get() {
     static auto* column = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "CannotAddColumn1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{column});
@@ -1144,7 +1144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::CannotAddColumn2
 // Il2CppName: CannotAddColumn2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::CannotAddColumn2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::CannotAddColumn2)> {
   static const MethodInfo* get() {
     static auto* column = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "CannotAddColumn2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{column});
@@ -1153,7 +1153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::CannotAddColumn3
 // Il2CppName: CannotAddColumn3
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::CannotAddColumn3)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::CannotAddColumn3)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "CannotAddColumn3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1161,7 +1161,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::CannotAddColumn4
 // Il2CppName: CannotAddColumn4
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::CannotAddColumn4)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::CannotAddColumn4)> {
   static const MethodInfo* get() {
     static auto* column = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "CannotAddColumn4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{column});
@@ -1170,7 +1170,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::CannotAddDuplicate
 // Il2CppName: CannotAddDuplicate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::CannotAddDuplicate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::CannotAddDuplicate)> {
   static const MethodInfo* get() {
     static auto* column = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "CannotAddDuplicate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{column});
@@ -1179,7 +1179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::CannotAddDuplicate2
 // Il2CppName: CannotAddDuplicate2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::CannotAddDuplicate2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::CannotAddDuplicate2)> {
   static const MethodInfo* get() {
     static auto* table = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "CannotAddDuplicate2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{table});
@@ -1188,7 +1188,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::CannotAddDuplicate3
 // Il2CppName: CannotAddDuplicate3
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::CannotAddDuplicate3)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::CannotAddDuplicate3)> {
   static const MethodInfo* get() {
     static auto* table = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "CannotAddDuplicate3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{table});
@@ -1197,7 +1197,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::CannotRemoveColumn
 // Il2CppName: CannotRemoveColumn
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::CannotRemoveColumn)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::CannotRemoveColumn)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "CannotRemoveColumn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1205,7 +1205,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::CannotRemovePrimaryKey
 // Il2CppName: CannotRemovePrimaryKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::CannotRemovePrimaryKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::CannotRemovePrimaryKey)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "CannotRemovePrimaryKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1213,7 +1213,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::CannotRemoveChildKey
 // Il2CppName: CannotRemoveChildKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::CannotRemoveChildKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::CannotRemoveChildKey)> {
   static const MethodInfo* get() {
     static auto* relation = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "CannotRemoveChildKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{relation});
@@ -1222,7 +1222,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::CannotRemoveConstraint
 // Il2CppName: CannotRemoveConstraint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, ::StringW)>(&System::Data::ExceptionBuilder::CannotRemoveConstraint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, ::StringW)>(&System::Data::ExceptionBuilder::CannotRemoveConstraint)> {
   static const MethodInfo* get() {
     static auto* constraint = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* table = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1232,7 +1232,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::CannotRemoveExpression
 // Il2CppName: CannotRemoveExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, ::StringW)>(&System::Data::ExceptionBuilder::CannotRemoveExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, ::StringW)>(&System::Data::ExceptionBuilder::CannotRemoveExpression)> {
   static const MethodInfo* get() {
     static auto* column = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* expression = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1242,7 +1242,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::AddPrimaryKeyConstraint
 // Il2CppName: AddPrimaryKeyConstraint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::AddPrimaryKeyConstraint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::AddPrimaryKeyConstraint)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "AddPrimaryKeyConstraint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1250,7 +1250,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::NoConstraintName
 // Il2CppName: NoConstraintName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::NoConstraintName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::NoConstraintName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "NoConstraintName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1258,7 +1258,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::ConstraintViolation
 // Il2CppName: ConstraintViolation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::ConstraintViolation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::ConstraintViolation)> {
   static const MethodInfo* get() {
     static auto* constraint = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "ConstraintViolation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{constraint});
@@ -1276,7 +1276,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::UniqueConstraintViolationText
 // Il2CppName: UniqueConstraintViolationText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ArrayW<System::Data::DataColumn*>, ::ArrayW<::Il2CppObject*>)>(&System::Data::ExceptionBuilder::UniqueConstraintViolationText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ArrayW<::System::Data::DataColumn*>, ::ArrayW<::Il2CppObject*>)>(&System::Data::ExceptionBuilder::UniqueConstraintViolationText)> {
   static const MethodInfo* get() {
     static auto* columns = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Data", "DataColumn"), 1)->byval_arg;
     static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
@@ -1286,7 +1286,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::ConstraintViolation
 // Il2CppName: ConstraintViolation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::ArrayW<System::Data::DataColumn*>, ::ArrayW<::Il2CppObject*>)>(&System::Data::ExceptionBuilder::ConstraintViolation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::ArrayW<::System::Data::DataColumn*>, ::ArrayW<::Il2CppObject*>)>(&System::Data::ExceptionBuilder::ConstraintViolation)> {
   static const MethodInfo* get() {
     static auto* columns = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Data", "DataColumn"), 1)->byval_arg;
     static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
@@ -1296,7 +1296,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::ConstraintOutOfRange
 // Il2CppName: ConstraintOutOfRange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(int)>(&System::Data::ExceptionBuilder::ConstraintOutOfRange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(int)>(&System::Data::ExceptionBuilder::ConstraintOutOfRange)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "ConstraintOutOfRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
@@ -1305,7 +1305,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::DuplicateConstraint
 // Il2CppName: DuplicateConstraint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::DuplicateConstraint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::DuplicateConstraint)> {
   static const MethodInfo* get() {
     static auto* constraint = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "DuplicateConstraint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{constraint});
@@ -1314,7 +1314,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::DuplicateConstraintName
 // Il2CppName: DuplicateConstraintName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::DuplicateConstraintName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::DuplicateConstraintName)> {
   static const MethodInfo* get() {
     static auto* constraint = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "DuplicateConstraintName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{constraint});
@@ -1323,7 +1323,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::NeededForForeignKeyConstraint
 // Il2CppName: NeededForForeignKeyConstraint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(System::Data::UniqueConstraint*, System::Data::ForeignKeyConstraint*)>(&System::Data::ExceptionBuilder::NeededForForeignKeyConstraint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Data::UniqueConstraint*, ::System::Data::ForeignKeyConstraint*)>(&System::Data::ExceptionBuilder::NeededForForeignKeyConstraint)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System.Data", "UniqueConstraint")->byval_arg;
     static auto* fk = &::il2cpp_utils::GetClassFromName("System.Data", "ForeignKeyConstraint")->byval_arg;
@@ -1333,7 +1333,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::UniqueConstraintViolation
 // Il2CppName: UniqueConstraintViolation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::UniqueConstraintViolation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::UniqueConstraintViolation)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "UniqueConstraintViolation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1341,7 +1341,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::ConstraintForeignTable
 // Il2CppName: ConstraintForeignTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::ConstraintForeignTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::ConstraintForeignTable)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "ConstraintForeignTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1349,7 +1349,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::ConstraintParentValues
 // Il2CppName: ConstraintParentValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::ConstraintParentValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::ConstraintParentValues)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "ConstraintParentValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1357,7 +1357,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::ConstraintAddFailed
 // Il2CppName: ConstraintAddFailed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(System::Data::DataTable*)>(&System::Data::ExceptionBuilder::ConstraintAddFailed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Data::DataTable*)>(&System::Data::ExceptionBuilder::ConstraintAddFailed)> {
   static const MethodInfo* get() {
     static auto* table = &::il2cpp_utils::GetClassFromName("System.Data", "DataTable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "ConstraintAddFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{table});
@@ -1366,7 +1366,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::ConstraintRemoveFailed
 // Il2CppName: ConstraintRemoveFailed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::ConstraintRemoveFailed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::ConstraintRemoveFailed)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "ConstraintRemoveFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1374,7 +1374,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::FailedCascadeDelete
 // Il2CppName: FailedCascadeDelete
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::FailedCascadeDelete)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::FailedCascadeDelete)> {
   static const MethodInfo* get() {
     static auto* constraint = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "FailedCascadeDelete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{constraint});
@@ -1383,7 +1383,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::FailedCascadeUpdate
 // Il2CppName: FailedCascadeUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::FailedCascadeUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::FailedCascadeUpdate)> {
   static const MethodInfo* get() {
     static auto* constraint = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "FailedCascadeUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{constraint});
@@ -1392,7 +1392,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::FailedClearParentTable
 // Il2CppName: FailedClearParentTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, ::StringW, ::StringW)>(&System::Data::ExceptionBuilder::FailedClearParentTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, ::StringW, ::StringW)>(&System::Data::ExceptionBuilder::FailedClearParentTable)> {
   static const MethodInfo* get() {
     static auto* table = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* constraint = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1403,7 +1403,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::ForeignKeyViolation
 // Il2CppName: ForeignKeyViolation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, ::ArrayW<::Il2CppObject*>)>(&System::Data::ExceptionBuilder::ForeignKeyViolation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, ::ArrayW<::Il2CppObject*>)>(&System::Data::ExceptionBuilder::ForeignKeyViolation)> {
   static const MethodInfo* get() {
     static auto* constraint = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* keys = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
@@ -1413,7 +1413,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::RemoveParentRow
 // Il2CppName: RemoveParentRow
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(System::Data::ForeignKeyConstraint*)>(&System::Data::ExceptionBuilder::RemoveParentRow)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Data::ForeignKeyConstraint*)>(&System::Data::ExceptionBuilder::RemoveParentRow)> {
   static const MethodInfo* get() {
     static auto* constraint = &::il2cpp_utils::GetClassFromName("System.Data", "ForeignKeyConstraint")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "RemoveParentRow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{constraint});
@@ -1440,7 +1440,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::CantAddConstraintToMultipleNestedTable
 // Il2CppName: CantAddConstraintToMultipleNestedTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::CantAddConstraintToMultipleNestedTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::CantAddConstraintToMultipleNestedTable)> {
   static const MethodInfo* get() {
     static auto* tableName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "CantAddConstraintToMultipleNestedTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tableName});
@@ -1449,7 +1449,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::AutoIncrementAndExpression
 // Il2CppName: AutoIncrementAndExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::AutoIncrementAndExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::AutoIncrementAndExpression)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "AutoIncrementAndExpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1457,7 +1457,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::AutoIncrementAndDefaultValue
 // Il2CppName: AutoIncrementAndDefaultValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::AutoIncrementAndDefaultValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::AutoIncrementAndDefaultValue)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "AutoIncrementAndDefaultValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1465,7 +1465,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::AutoIncrementSeed
 // Il2CppName: AutoIncrementSeed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::AutoIncrementSeed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::AutoIncrementSeed)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "AutoIncrementSeed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1473,7 +1473,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::CantChangeDataType
 // Il2CppName: CantChangeDataType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::CantChangeDataType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::CantChangeDataType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "CantChangeDataType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1481,7 +1481,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::NullDataType
 // Il2CppName: NullDataType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::NullDataType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::NullDataType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "NullDataType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1489,7 +1489,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::ColumnNameRequired
 // Il2CppName: ColumnNameRequired
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::ColumnNameRequired)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::ColumnNameRequired)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "ColumnNameRequired", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1497,7 +1497,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::DefaultValueAndAutoIncrement
 // Il2CppName: DefaultValueAndAutoIncrement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::DefaultValueAndAutoIncrement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::DefaultValueAndAutoIncrement)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "DefaultValueAndAutoIncrement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1505,7 +1505,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::DefaultValueDataType
 // Il2CppName: DefaultValueDataType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, System::Type*, System::Type*, System::Exception*)>(&System::Data::ExceptionBuilder::DefaultValueDataType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, ::System::Type*, ::System::Type*, ::System::Exception*)>(&System::Data::ExceptionBuilder::DefaultValueDataType)> {
   static const MethodInfo* get() {
     static auto* column = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* defaultType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -1517,7 +1517,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::DefaultValueColumnDataType
 // Il2CppName: DefaultValueColumnDataType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, System::Type*, System::Type*, System::Exception*)>(&System::Data::ExceptionBuilder::DefaultValueColumnDataType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, ::System::Type*, ::System::Type*, ::System::Exception*)>(&System::Data::ExceptionBuilder::DefaultValueColumnDataType)> {
   static const MethodInfo* get() {
     static auto* column = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* defaultType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -1529,7 +1529,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::ExpressionAndUnique
 // Il2CppName: ExpressionAndUnique
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::ExpressionAndUnique)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::ExpressionAndUnique)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "ExpressionAndUnique", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1537,7 +1537,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::ExpressionAndReadOnly
 // Il2CppName: ExpressionAndReadOnly
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::ExpressionAndReadOnly)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::ExpressionAndReadOnly)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "ExpressionAndReadOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1545,7 +1545,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::ExpressionAndConstraint
 // Il2CppName: ExpressionAndConstraint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(System::Data::DataColumn*, System::Data::Constraint*)>(&System::Data::ExceptionBuilder::ExpressionAndConstraint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Data::DataColumn*, ::System::Data::Constraint*)>(&System::Data::ExceptionBuilder::ExpressionAndConstraint)> {
   static const MethodInfo* get() {
     static auto* column = &::il2cpp_utils::GetClassFromName("System.Data", "DataColumn")->byval_arg;
     static auto* constraint = &::il2cpp_utils::GetClassFromName("System.Data", "Constraint")->byval_arg;
@@ -1555,7 +1555,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::ExpressionInConstraint
 // Il2CppName: ExpressionInConstraint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(System::Data::DataColumn*)>(&System::Data::ExceptionBuilder::ExpressionInConstraint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Data::DataColumn*)>(&System::Data::ExceptionBuilder::ExpressionInConstraint)> {
   static const MethodInfo* get() {
     static auto* column = &::il2cpp_utils::GetClassFromName("System.Data", "DataColumn")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "ExpressionInConstraint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{column});
@@ -1564,7 +1564,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::ExpressionCircular
 // Il2CppName: ExpressionCircular
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::ExpressionCircular)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::ExpressionCircular)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "ExpressionCircular", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1572,7 +1572,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::NonUniqueValues
 // Il2CppName: NonUniqueValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::NonUniqueValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::NonUniqueValues)> {
   static const MethodInfo* get() {
     static auto* column = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "NonUniqueValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{column});
@@ -1581,7 +1581,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::NullKeyValues
 // Il2CppName: NullKeyValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::NullKeyValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::NullKeyValues)> {
   static const MethodInfo* get() {
     static auto* column = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "NullKeyValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{column});
@@ -1590,7 +1590,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::NullValues
 // Il2CppName: NullValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::NullValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::NullValues)> {
   static const MethodInfo* get() {
     static auto* column = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "NullValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{column});
@@ -1599,7 +1599,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::ReadOnlyAndExpression
 // Il2CppName: ReadOnlyAndExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::ReadOnlyAndExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::ReadOnlyAndExpression)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "ReadOnlyAndExpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1607,7 +1607,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::ReadOnly
 // Il2CppName: ReadOnly
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::ReadOnly)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::ReadOnly)> {
   static const MethodInfo* get() {
     static auto* column = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "ReadOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{column});
@@ -1616,7 +1616,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::UniqueAndExpression
 // Il2CppName: UniqueAndExpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::UniqueAndExpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::UniqueAndExpression)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "UniqueAndExpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1624,7 +1624,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::SetFailed
 // Il2CppName: SetFailed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::Il2CppObject*, System::Data::DataColumn*, System::Type*, System::Exception*)>(&System::Data::ExceptionBuilder::SetFailed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::Il2CppObject*, ::System::Data::DataColumn*, ::System::Type*, ::System::Exception*)>(&System::Data::ExceptionBuilder::SetFailed)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* column = &::il2cpp_utils::GetClassFromName("System.Data", "DataColumn")->byval_arg;
@@ -1636,7 +1636,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::CannotSetToNull
 // Il2CppName: CannotSetToNull
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(System::Data::DataColumn*)>(&System::Data::ExceptionBuilder::CannotSetToNull)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Data::DataColumn*)>(&System::Data::ExceptionBuilder::CannotSetToNull)> {
   static const MethodInfo* get() {
     static auto* column = &::il2cpp_utils::GetClassFromName("System.Data", "DataColumn")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "CannotSetToNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{column});
@@ -1645,7 +1645,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::LongerThanMaxLength
 // Il2CppName: LongerThanMaxLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(System::Data::DataColumn*)>(&System::Data::ExceptionBuilder::LongerThanMaxLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Data::DataColumn*)>(&System::Data::ExceptionBuilder::LongerThanMaxLength)> {
   static const MethodInfo* get() {
     static auto* column = &::il2cpp_utils::GetClassFromName("System.Data", "DataColumn")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "LongerThanMaxLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{column});
@@ -1654,7 +1654,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::CannotSetMaxLength
 // Il2CppName: CannotSetMaxLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(System::Data::DataColumn*, int)>(&System::Data::ExceptionBuilder::CannotSetMaxLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Data::DataColumn*, int)>(&System::Data::ExceptionBuilder::CannotSetMaxLength)> {
   static const MethodInfo* get() {
     static auto* column = &::il2cpp_utils::GetClassFromName("System.Data", "DataColumn")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1664,7 +1664,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::CannotSetMaxLength2
 // Il2CppName: CannotSetMaxLength2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(System::Data::DataColumn*)>(&System::Data::ExceptionBuilder::CannotSetMaxLength2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Data::DataColumn*)>(&System::Data::ExceptionBuilder::CannotSetMaxLength2)> {
   static const MethodInfo* get() {
     static auto* column = &::il2cpp_utils::GetClassFromName("System.Data", "DataColumn")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "CannotSetMaxLength2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{column});
@@ -1673,7 +1673,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::CannotSetSimpleContentType
 // Il2CppName: CannotSetSimpleContentType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, System::Type*)>(&System::Data::ExceptionBuilder::CannotSetSimpleContentType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, ::System::Type*)>(&System::Data::ExceptionBuilder::CannotSetSimpleContentType)> {
   static const MethodInfo* get() {
     static auto* columnName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -1683,7 +1683,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::CannotSetSimpleContent
 // Il2CppName: CannotSetSimpleContent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, System::Type*)>(&System::Data::ExceptionBuilder::CannotSetSimpleContent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, ::System::Type*)>(&System::Data::ExceptionBuilder::CannotSetSimpleContent)> {
   static const MethodInfo* get() {
     static auto* columnName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -1693,7 +1693,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::CannotChangeNamespace
 // Il2CppName: CannotChangeNamespace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::CannotChangeNamespace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::CannotChangeNamespace)> {
   static const MethodInfo* get() {
     static auto* columnName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "CannotChangeNamespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{columnName});
@@ -1702,7 +1702,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::HasToBeStringType
 // Il2CppName: HasToBeStringType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(System::Data::DataColumn*)>(&System::Data::ExceptionBuilder::HasToBeStringType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Data::DataColumn*)>(&System::Data::ExceptionBuilder::HasToBeStringType)> {
   static const MethodInfo* get() {
     static auto* column = &::il2cpp_utils::GetClassFromName("System.Data", "DataColumn")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "HasToBeStringType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{column});
@@ -1711,7 +1711,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::AutoIncrementCannotSetIfHasData
 // Il2CppName: AutoIncrementCannotSetIfHasData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::AutoIncrementCannotSetIfHasData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::AutoIncrementCannotSetIfHasData)> {
   static const MethodInfo* get() {
     static auto* typeName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "AutoIncrementCannotSetIfHasData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{typeName});
@@ -1720,7 +1720,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::INullableUDTwithoutStaticNull
 // Il2CppName: INullableUDTwithoutStaticNull
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::INullableUDTwithoutStaticNull)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::INullableUDTwithoutStaticNull)> {
   static const MethodInfo* get() {
     static auto* typeName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "INullableUDTwithoutStaticNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{typeName});
@@ -1729,7 +1729,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::IComparableNotImplemented
 // Il2CppName: IComparableNotImplemented
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::IComparableNotImplemented)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::IComparableNotImplemented)> {
   static const MethodInfo* get() {
     static auto* typeName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "IComparableNotImplemented", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{typeName});
@@ -1738,7 +1738,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::UDTImplementsIChangeTrackingButnotIRevertible
 // Il2CppName: UDTImplementsIChangeTrackingButnotIRevertible
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::UDTImplementsIChangeTrackingButnotIRevertible)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::UDTImplementsIChangeTrackingButnotIRevertible)> {
   static const MethodInfo* get() {
     static auto* typeName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "UDTImplementsIChangeTrackingButnotIRevertible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{typeName});
@@ -1747,7 +1747,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::InvalidDataColumnMapping
 // Il2CppName: InvalidDataColumnMapping
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(System::Type*)>(&System::Data::ExceptionBuilder::InvalidDataColumnMapping)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Type*)>(&System::Data::ExceptionBuilder::InvalidDataColumnMapping)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "InvalidDataColumnMapping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -1756,7 +1756,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::CannotSetDateTimeModeForNonDateTimeColumns
 // Il2CppName: CannotSetDateTimeModeForNonDateTimeColumns
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::CannotSetDateTimeModeForNonDateTimeColumns)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::CannotSetDateTimeModeForNonDateTimeColumns)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "CannotSetDateTimeModeForNonDateTimeColumns", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1764,7 +1764,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::InvalidDateTimeMode
 // Il2CppName: InvalidDateTimeMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(System::Data::DataSetDateTime)>(&System::Data::ExceptionBuilder::InvalidDateTimeMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Data::DataSetDateTime)>(&System::Data::ExceptionBuilder::InvalidDateTimeMode)> {
   static const MethodInfo* get() {
     static auto* mode = &::il2cpp_utils::GetClassFromName("System.Data", "DataSetDateTime")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "InvalidDateTimeMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mode});
@@ -1773,7 +1773,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::CantChangeDateTimeMode
 // Il2CppName: CantChangeDateTimeMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(System::Data::DataSetDateTime, System::Data::DataSetDateTime)>(&System::Data::ExceptionBuilder::CantChangeDateTimeMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Data::DataSetDateTime, ::System::Data::DataSetDateTime)>(&System::Data::ExceptionBuilder::CantChangeDateTimeMode)> {
   static const MethodInfo* get() {
     static auto* oldValue = &::il2cpp_utils::GetClassFromName("System.Data", "DataSetDateTime")->byval_arg;
     static auto* newValue = &::il2cpp_utils::GetClassFromName("System.Data", "DataSetDateTime")->byval_arg;
@@ -1783,7 +1783,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::ColumnTypeNotSupported
 // Il2CppName: ColumnTypeNotSupported
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::ColumnTypeNotSupported)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::ColumnTypeNotSupported)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "ColumnTypeNotSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1791,7 +1791,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::SetFailed
 // Il2CppName: SetFailed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::SetFailed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::SetFailed)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "SetFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -1800,7 +1800,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::CanNotUse
 // Il2CppName: CanNotUse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::CanNotUse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::CanNotUse)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "CanNotUse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1808,7 +1808,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::SetIListObject
 // Il2CppName: SetIListObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::SetIListObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::SetIListObject)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "SetIListObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1816,7 +1816,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::AddNewNotAllowNull
 // Il2CppName: AddNewNotAllowNull
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::AddNewNotAllowNull)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::AddNewNotAllowNull)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "AddNewNotAllowNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1824,7 +1824,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::NotOpen
 // Il2CppName: NotOpen
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::NotOpen)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::NotOpen)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "NotOpen", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1832,7 +1832,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::CreateChildView
 // Il2CppName: CreateChildView
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::CreateChildView)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::CreateChildView)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "CreateChildView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1840,7 +1840,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::CanNotDelete
 // Il2CppName: CanNotDelete
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::CanNotDelete)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::CanNotDelete)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "CanNotDelete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1848,7 +1848,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::GetElementIndex
 // Il2CppName: GetElementIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(int)>(&System::Data::ExceptionBuilder::GetElementIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(int)>(&System::Data::ExceptionBuilder::GetElementIndex)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "GetElementIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
@@ -1857,7 +1857,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::AddExternalObject
 // Il2CppName: AddExternalObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::AddExternalObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::AddExternalObject)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "AddExternalObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1865,7 +1865,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::CanNotClear
 // Il2CppName: CanNotClear
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::CanNotClear)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::CanNotClear)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "CanNotClear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1873,7 +1873,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::InsertExternalObject
 // Il2CppName: InsertExternalObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::InsertExternalObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::InsertExternalObject)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "InsertExternalObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1881,7 +1881,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::RemoveExternalObject
 // Il2CppName: RemoveExternalObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::RemoveExternalObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::RemoveExternalObject)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "RemoveExternalObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1889,7 +1889,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::KeyTableMismatch
 // Il2CppName: KeyTableMismatch
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::KeyTableMismatch)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::KeyTableMismatch)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "KeyTableMismatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1897,7 +1897,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::KeyNoColumns
 // Il2CppName: KeyNoColumns
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::KeyNoColumns)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::KeyNoColumns)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "KeyNoColumns", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1905,7 +1905,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::KeyTooManyColumns
 // Il2CppName: KeyTooManyColumns
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(int)>(&System::Data::ExceptionBuilder::KeyTooManyColumns)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(int)>(&System::Data::ExceptionBuilder::KeyTooManyColumns)> {
   static const MethodInfo* get() {
     static auto* cols = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "KeyTooManyColumns", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cols});
@@ -1914,7 +1914,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::KeyDuplicateColumns
 // Il2CppName: KeyDuplicateColumns
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::KeyDuplicateColumns)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::KeyDuplicateColumns)> {
   static const MethodInfo* get() {
     static auto* columnName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "KeyDuplicateColumns", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{columnName});
@@ -1923,7 +1923,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::RelationDataSetMismatch
 // Il2CppName: RelationDataSetMismatch
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::RelationDataSetMismatch)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::RelationDataSetMismatch)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "RelationDataSetMismatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1931,7 +1931,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::ColumnsTypeMismatch
 // Il2CppName: ColumnsTypeMismatch
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::ColumnsTypeMismatch)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::ColumnsTypeMismatch)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "ColumnsTypeMismatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1939,7 +1939,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::KeyLengthMismatch
 // Il2CppName: KeyLengthMismatch
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::KeyLengthMismatch)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::KeyLengthMismatch)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "KeyLengthMismatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1947,7 +1947,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::KeyLengthZero
 // Il2CppName: KeyLengthZero
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::KeyLengthZero)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::KeyLengthZero)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "KeyLengthZero", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1955,7 +1955,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::ForeignRelation
 // Il2CppName: ForeignRelation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::ForeignRelation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::ForeignRelation)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "ForeignRelation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1963,7 +1963,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::KeyColumnsIdentical
 // Il2CppName: KeyColumnsIdentical
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::KeyColumnsIdentical)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::KeyColumnsIdentical)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "KeyColumnsIdentical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1971,7 +1971,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::RelationForeignTable
 // Il2CppName: RelationForeignTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, ::StringW)>(&System::Data::ExceptionBuilder::RelationForeignTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, ::StringW)>(&System::Data::ExceptionBuilder::RelationForeignTable)> {
   static const MethodInfo* get() {
     static auto* t1 = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* t2 = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1981,7 +1981,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::GetParentRowTableMismatch
 // Il2CppName: GetParentRowTableMismatch
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, ::StringW)>(&System::Data::ExceptionBuilder::GetParentRowTableMismatch)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, ::StringW)>(&System::Data::ExceptionBuilder::GetParentRowTableMismatch)> {
   static const MethodInfo* get() {
     static auto* t1 = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* t2 = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1991,7 +1991,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::SetParentRowTableMismatch
 // Il2CppName: SetParentRowTableMismatch
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, ::StringW)>(&System::Data::ExceptionBuilder::SetParentRowTableMismatch)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, ::StringW)>(&System::Data::ExceptionBuilder::SetParentRowTableMismatch)> {
   static const MethodInfo* get() {
     static auto* t1 = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* t2 = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -2001,7 +2001,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::RelationForeignRow
 // Il2CppName: RelationForeignRow
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::RelationForeignRow)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::RelationForeignRow)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "RelationForeignRow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2009,7 +2009,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::RelationNestedReadOnly
 // Il2CppName: RelationNestedReadOnly
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::RelationNestedReadOnly)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::RelationNestedReadOnly)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "RelationNestedReadOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2017,7 +2017,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::TableCantBeNestedInTwoTables
 // Il2CppName: TableCantBeNestedInTwoTables
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::TableCantBeNestedInTwoTables)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::TableCantBeNestedInTwoTables)> {
   static const MethodInfo* get() {
     static auto* tableName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "TableCantBeNestedInTwoTables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tableName});
@@ -2026,7 +2026,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::LoopInNestedRelations
 // Il2CppName: LoopInNestedRelations
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::LoopInNestedRelations)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::LoopInNestedRelations)> {
   static const MethodInfo* get() {
     static auto* tableName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "LoopInNestedRelations", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tableName});
@@ -2035,7 +2035,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::RelationDoesNotExist
 // Il2CppName: RelationDoesNotExist
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::RelationDoesNotExist)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::RelationDoesNotExist)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "RelationDoesNotExist", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2043,7 +2043,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::ParentOrChildColumnsDoNotHaveDataSet
 // Il2CppName: ParentOrChildColumnsDoNotHaveDataSet
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::ParentOrChildColumnsDoNotHaveDataSet)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::ParentOrChildColumnsDoNotHaveDataSet)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "ParentOrChildColumnsDoNotHaveDataSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2051,7 +2051,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::InValidNestedRelation
 // Il2CppName: InValidNestedRelation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::InValidNestedRelation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::InValidNestedRelation)> {
   static const MethodInfo* get() {
     static auto* childTableName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "InValidNestedRelation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{childTableName});
@@ -2060,7 +2060,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::InvalidParentNamespaceinNestedRelation
 // Il2CppName: InvalidParentNamespaceinNestedRelation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::InvalidParentNamespaceinNestedRelation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::InvalidParentNamespaceinNestedRelation)> {
   static const MethodInfo* get() {
     static auto* childTableName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "InvalidParentNamespaceinNestedRelation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{childTableName});
@@ -2069,7 +2069,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::RowNotInTheDataSet
 // Il2CppName: RowNotInTheDataSet
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::RowNotInTheDataSet)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::RowNotInTheDataSet)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "RowNotInTheDataSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2077,7 +2077,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::RowNotInTheTable
 // Il2CppName: RowNotInTheTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::RowNotInTheTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::RowNotInTheTable)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "RowNotInTheTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2085,7 +2085,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::EditInRowChanging
 // Il2CppName: EditInRowChanging
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::EditInRowChanging)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::EditInRowChanging)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "EditInRowChanging", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2093,7 +2093,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::EndEditInRowChanging
 // Il2CppName: EndEditInRowChanging
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::EndEditInRowChanging)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::EndEditInRowChanging)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "EndEditInRowChanging", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2101,7 +2101,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::BeginEditInRowChanging
 // Il2CppName: BeginEditInRowChanging
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::BeginEditInRowChanging)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::BeginEditInRowChanging)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "BeginEditInRowChanging", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2109,7 +2109,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::CancelEditInRowChanging
 // Il2CppName: CancelEditInRowChanging
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::CancelEditInRowChanging)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::CancelEditInRowChanging)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "CancelEditInRowChanging", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2117,7 +2117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::DeleteInRowDeleting
 // Il2CppName: DeleteInRowDeleting
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::DeleteInRowDeleting)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::DeleteInRowDeleting)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "DeleteInRowDeleting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2125,7 +2125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::ValueArrayLength
 // Il2CppName: ValueArrayLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::ValueArrayLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::ValueArrayLength)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "ValueArrayLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2133,7 +2133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::NoCurrentData
 // Il2CppName: NoCurrentData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::NoCurrentData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::NoCurrentData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "NoCurrentData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2141,7 +2141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::NoOriginalData
 // Il2CppName: NoOriginalData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::NoOriginalData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::NoOriginalData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "NoOriginalData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2149,7 +2149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::NoProposedData
 // Il2CppName: NoProposedData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::NoProposedData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::NoProposedData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "NoProposedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2157,7 +2157,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::RowRemovedFromTheTable
 // Il2CppName: RowRemovedFromTheTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::RowRemovedFromTheTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::RowRemovedFromTheTable)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "RowRemovedFromTheTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2165,7 +2165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::DeletedRowInaccessible
 // Il2CppName: DeletedRowInaccessible
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::DeletedRowInaccessible)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::DeletedRowInaccessible)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "DeletedRowInaccessible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2173,7 +2173,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::RowAlreadyDeleted
 // Il2CppName: RowAlreadyDeleted
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::RowAlreadyDeleted)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::RowAlreadyDeleted)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "RowAlreadyDeleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2181,7 +2181,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::RowEmpty
 // Il2CppName: RowEmpty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::RowEmpty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::RowEmpty)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "RowEmpty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2189,7 +2189,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::InvalidRowVersion
 // Il2CppName: InvalidRowVersion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::InvalidRowVersion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::InvalidRowVersion)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "InvalidRowVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2197,7 +2197,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::RowOutOfRange
 // Il2CppName: RowOutOfRange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(int)>(&System::Data::ExceptionBuilder::RowOutOfRange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(int)>(&System::Data::ExceptionBuilder::RowOutOfRange)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "RowOutOfRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
@@ -2206,7 +2206,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::RowInsertTwice
 // Il2CppName: RowInsertTwice
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(int, ::StringW)>(&System::Data::ExceptionBuilder::RowInsertTwice)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(int, ::StringW)>(&System::Data::ExceptionBuilder::RowInsertTwice)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* tableName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -2216,7 +2216,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::RowInsertMissing
 // Il2CppName: RowInsertMissing
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::RowInsertMissing)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::RowInsertMissing)> {
   static const MethodInfo* get() {
     static auto* tableName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "RowInsertMissing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tableName});
@@ -2225,7 +2225,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::RowAlreadyRemoved
 // Il2CppName: RowAlreadyRemoved
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::RowAlreadyRemoved)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::RowAlreadyRemoved)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "RowAlreadyRemoved", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2233,7 +2233,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::MultipleParents
 // Il2CppName: MultipleParents
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::MultipleParents)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::MultipleParents)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "MultipleParents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2241,7 +2241,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::InvalidRowState
 // Il2CppName: InvalidRowState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(System::Data::DataRowState)>(&System::Data::ExceptionBuilder::InvalidRowState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Data::DataRowState)>(&System::Data::ExceptionBuilder::InvalidRowState)> {
   static const MethodInfo* get() {
     static auto* state = &::il2cpp_utils::GetClassFromName("System.Data", "DataRowState")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "InvalidRowState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{state});
@@ -2250,7 +2250,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::InvalidRowBitPattern
 // Il2CppName: InvalidRowBitPattern
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::InvalidRowBitPattern)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::InvalidRowBitPattern)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "InvalidRowBitPattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2258,7 +2258,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::SetDataSetNameToEmpty
 // Il2CppName: SetDataSetNameToEmpty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::SetDataSetNameToEmpty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::SetDataSetNameToEmpty)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "SetDataSetNameToEmpty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2266,7 +2266,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::SetDataSetNameConflicting
 // Il2CppName: SetDataSetNameConflicting
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::SetDataSetNameConflicting)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::SetDataSetNameConflicting)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "SetDataSetNameConflicting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -2275,7 +2275,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::DataSetUnsupportedSchema
 // Il2CppName: DataSetUnsupportedSchema
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::DataSetUnsupportedSchema)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::DataSetUnsupportedSchema)> {
   static const MethodInfo* get() {
     static auto* ns = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "DataSetUnsupportedSchema", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ns});
@@ -2284,7 +2284,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::MergeMissingDefinition
 // Il2CppName: MergeMissingDefinition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::MergeMissingDefinition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::MergeMissingDefinition)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "MergeMissingDefinition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -2293,7 +2293,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::TablesInDifferentSets
 // Il2CppName: TablesInDifferentSets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::TablesInDifferentSets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::TablesInDifferentSets)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "TablesInDifferentSets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2301,7 +2301,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::RelationAlreadyExists
 // Il2CppName: RelationAlreadyExists
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::RelationAlreadyExists)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::RelationAlreadyExists)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "RelationAlreadyExists", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2309,7 +2309,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::RowAlreadyInOtherCollection
 // Il2CppName: RowAlreadyInOtherCollection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::RowAlreadyInOtherCollection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::RowAlreadyInOtherCollection)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "RowAlreadyInOtherCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2317,7 +2317,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::RowAlreadyInTheCollection
 // Il2CppName: RowAlreadyInTheCollection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::RowAlreadyInTheCollection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::RowAlreadyInTheCollection)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "RowAlreadyInTheCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2325,7 +2325,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::RecordStateRange
 // Il2CppName: RecordStateRange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::RecordStateRange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::RecordStateRange)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "RecordStateRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2333,7 +2333,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::IndexKeyLength
 // Il2CppName: IndexKeyLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(int, int)>(&System::Data::ExceptionBuilder::IndexKeyLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(int, int)>(&System::Data::ExceptionBuilder::IndexKeyLength)> {
   static const MethodInfo* get() {
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* keyLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2343,7 +2343,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::RemovePrimaryKey
 // Il2CppName: RemovePrimaryKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(System::Data::DataTable*)>(&System::Data::ExceptionBuilder::RemovePrimaryKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Data::DataTable*)>(&System::Data::ExceptionBuilder::RemovePrimaryKey)> {
   static const MethodInfo* get() {
     static auto* table = &::il2cpp_utils::GetClassFromName("System.Data", "DataTable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "RemovePrimaryKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{table});
@@ -2352,7 +2352,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::RelationAlreadyInOtherDataSet
 // Il2CppName: RelationAlreadyInOtherDataSet
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::RelationAlreadyInOtherDataSet)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::RelationAlreadyInOtherDataSet)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "RelationAlreadyInOtherDataSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2360,7 +2360,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::RelationAlreadyInTheDataSet
 // Il2CppName: RelationAlreadyInTheDataSet
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::RelationAlreadyInTheDataSet)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::RelationAlreadyInTheDataSet)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "RelationAlreadyInTheDataSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2368,7 +2368,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::RelationNotInTheDataSet
 // Il2CppName: RelationNotInTheDataSet
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::RelationNotInTheDataSet)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::RelationNotInTheDataSet)> {
   static const MethodInfo* get() {
     static auto* relation = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "RelationNotInTheDataSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{relation});
@@ -2377,7 +2377,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::RelationOutOfRange
 // Il2CppName: RelationOutOfRange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::Il2CppObject*)>(&System::Data::ExceptionBuilder::RelationOutOfRange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::Il2CppObject*)>(&System::Data::ExceptionBuilder::RelationOutOfRange)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "RelationOutOfRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
@@ -2386,7 +2386,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::DuplicateRelation
 // Il2CppName: DuplicateRelation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::DuplicateRelation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::DuplicateRelation)> {
   static const MethodInfo* get() {
     static auto* relation = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "DuplicateRelation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{relation});
@@ -2395,7 +2395,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::RelationTableNull
 // Il2CppName: RelationTableNull
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::RelationTableNull)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::RelationTableNull)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "RelationTableNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2403,7 +2403,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::RelationDataSetNull
 // Il2CppName: RelationDataSetNull
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::RelationDataSetNull)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::RelationDataSetNull)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "RelationDataSetNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2411,7 +2411,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::RelationTableWasRemoved
 // Il2CppName: RelationTableWasRemoved
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::RelationTableWasRemoved)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::RelationTableWasRemoved)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "RelationTableWasRemoved", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2419,7 +2419,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::ParentTableMismatch
 // Il2CppName: ParentTableMismatch
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::ParentTableMismatch)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::ParentTableMismatch)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "ParentTableMismatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2427,7 +2427,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::ChildTableMismatch
 // Il2CppName: ChildTableMismatch
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::ChildTableMismatch)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::ChildTableMismatch)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "ChildTableMismatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2435,7 +2435,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::EnforceConstraint
 // Il2CppName: EnforceConstraint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::EnforceConstraint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::EnforceConstraint)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "EnforceConstraint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2443,7 +2443,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::CaseLocaleMismatch
 // Il2CppName: CaseLocaleMismatch
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::CaseLocaleMismatch)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::CaseLocaleMismatch)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "CaseLocaleMismatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2451,7 +2451,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::CannotChangeCaseLocale
 // Il2CppName: CannotChangeCaseLocale
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::CannotChangeCaseLocale)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::CannotChangeCaseLocale)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "CannotChangeCaseLocale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2459,7 +2459,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::CannotChangeCaseLocale
 // Il2CppName: CannotChangeCaseLocale
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(System::Exception*)>(&System::Data::ExceptionBuilder::CannotChangeCaseLocale)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Exception*)>(&System::Data::ExceptionBuilder::CannotChangeCaseLocale)> {
   static const MethodInfo* get() {
     static auto* innerException = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "CannotChangeCaseLocale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{innerException});
@@ -2468,7 +2468,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::InvalidRemotingFormat
 // Il2CppName: InvalidRemotingFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(System::Data::SerializationFormat)>(&System::Data::ExceptionBuilder::InvalidRemotingFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Data::SerializationFormat)>(&System::Data::ExceptionBuilder::InvalidRemotingFormat)> {
   static const MethodInfo* get() {
     static auto* mode = &::il2cpp_utils::GetClassFromName("System.Data", "SerializationFormat")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "InvalidRemotingFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mode});
@@ -2477,7 +2477,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::TableForeignPrimaryKey
 // Il2CppName: TableForeignPrimaryKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::TableForeignPrimaryKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::TableForeignPrimaryKey)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "TableForeignPrimaryKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2485,7 +2485,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::TableCannotAddToSimpleContent
 // Il2CppName: TableCannotAddToSimpleContent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::TableCannotAddToSimpleContent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::TableCannotAddToSimpleContent)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "TableCannotAddToSimpleContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2493,7 +2493,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::NoTableName
 // Il2CppName: NoTableName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::NoTableName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::NoTableName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "NoTableName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2501,7 +2501,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::MultipleTextOnlyColumns
 // Il2CppName: MultipleTextOnlyColumns
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::MultipleTextOnlyColumns)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::MultipleTextOnlyColumns)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "MultipleTextOnlyColumns", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2509,7 +2509,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::InvalidSortString
 // Il2CppName: InvalidSortString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::InvalidSortString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::InvalidSortString)> {
   static const MethodInfo* get() {
     static auto* sort = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "InvalidSortString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sort});
@@ -2518,7 +2518,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::DuplicateTableName
 // Il2CppName: DuplicateTableName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::DuplicateTableName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::DuplicateTableName)> {
   static const MethodInfo* get() {
     static auto* table = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "DuplicateTableName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{table});
@@ -2527,7 +2527,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::DuplicateTableName2
 // Il2CppName: DuplicateTableName2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, ::StringW)>(&System::Data::ExceptionBuilder::DuplicateTableName2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, ::StringW)>(&System::Data::ExceptionBuilder::DuplicateTableName2)> {
   static const MethodInfo* get() {
     static auto* table = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* ns = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -2537,7 +2537,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::SelfnestedDatasetConflictingName
 // Il2CppName: SelfnestedDatasetConflictingName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::SelfnestedDatasetConflictingName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::SelfnestedDatasetConflictingName)> {
   static const MethodInfo* get() {
     static auto* table = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "SelfnestedDatasetConflictingName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{table});
@@ -2546,7 +2546,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::DatasetConflictingName
 // Il2CppName: DatasetConflictingName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::DatasetConflictingName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::DatasetConflictingName)> {
   static const MethodInfo* get() {
     static auto* table = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "DatasetConflictingName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{table});
@@ -2555,7 +2555,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::TableAlreadyInOtherDataSet
 // Il2CppName: TableAlreadyInOtherDataSet
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::TableAlreadyInOtherDataSet)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::TableAlreadyInOtherDataSet)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "TableAlreadyInOtherDataSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2563,7 +2563,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::TableAlreadyInTheDataSet
 // Il2CppName: TableAlreadyInTheDataSet
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::TableAlreadyInTheDataSet)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::TableAlreadyInTheDataSet)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "TableAlreadyInTheDataSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2571,7 +2571,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::TableOutOfRange
 // Il2CppName: TableOutOfRange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(int)>(&System::Data::ExceptionBuilder::TableOutOfRange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(int)>(&System::Data::ExceptionBuilder::TableOutOfRange)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "TableOutOfRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
@@ -2580,7 +2580,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::TableNotInTheDataSet
 // Il2CppName: TableNotInTheDataSet
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::TableNotInTheDataSet)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::TableNotInTheDataSet)> {
   static const MethodInfo* get() {
     static auto* table = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "TableNotInTheDataSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{table});
@@ -2589,7 +2589,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::TableInRelation
 // Il2CppName: TableInRelation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::TableInRelation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::TableInRelation)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "TableInRelation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2597,7 +2597,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::TableInConstraint
 // Il2CppName: TableInConstraint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(System::Data::DataTable*, System::Data::Constraint*)>(&System::Data::ExceptionBuilder::TableInConstraint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Data::DataTable*, ::System::Data::Constraint*)>(&System::Data::ExceptionBuilder::TableInConstraint)> {
   static const MethodInfo* get() {
     static auto* table = &::il2cpp_utils::GetClassFromName("System.Data", "DataTable")->byval_arg;
     static auto* constraint = &::il2cpp_utils::GetClassFromName("System.Data", "Constraint")->byval_arg;
@@ -2607,7 +2607,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::CanNotSerializeDataTableHierarchy
 // Il2CppName: CanNotSerializeDataTableHierarchy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::CanNotSerializeDataTableHierarchy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::CanNotSerializeDataTableHierarchy)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "CanNotSerializeDataTableHierarchy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2615,7 +2615,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::CanNotRemoteDataTable
 // Il2CppName: CanNotRemoteDataTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::CanNotRemoteDataTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::CanNotRemoteDataTable)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "CanNotRemoteDataTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2623,7 +2623,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::CanNotSetRemotingFormat
 // Il2CppName: CanNotSetRemotingFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::CanNotSetRemotingFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::CanNotSetRemotingFormat)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "CanNotSetRemotingFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2631,7 +2631,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::CanNotSerializeDataTableWithEmptyName
 // Il2CppName: CanNotSerializeDataTableWithEmptyName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::CanNotSerializeDataTableWithEmptyName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::CanNotSerializeDataTableWithEmptyName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "CanNotSerializeDataTableWithEmptyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2639,7 +2639,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::TableNotFound
 // Il2CppName: TableNotFound
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::TableNotFound)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::TableNotFound)> {
   static const MethodInfo* get() {
     static auto* tableName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "TableNotFound", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tableName});
@@ -2648,7 +2648,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::AggregateException
 // Il2CppName: AggregateException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(System::Data::AggregateType, System::Type*)>(&System::Data::ExceptionBuilder::AggregateException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Data::AggregateType, ::System::Type*)>(&System::Data::ExceptionBuilder::AggregateException)> {
   static const MethodInfo* get() {
     static auto* aggregateType = &::il2cpp_utils::GetClassFromName("System.Data", "AggregateType")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -2658,7 +2658,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::InvalidStorageType
 // Il2CppName: InvalidStorageType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(System::TypeCode)>(&System::Data::ExceptionBuilder::InvalidStorageType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::TypeCode)>(&System::Data::ExceptionBuilder::InvalidStorageType)> {
   static const MethodInfo* get() {
     static auto* typecode = &::il2cpp_utils::GetClassFromName("System", "TypeCode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "InvalidStorageType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{typecode});
@@ -2667,7 +2667,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::RangeArgument
 // Il2CppName: RangeArgument
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(int, int)>(&System::Data::ExceptionBuilder::RangeArgument)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(int, int)>(&System::Data::ExceptionBuilder::RangeArgument)> {
   static const MethodInfo* get() {
     static auto* min = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* max = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2677,7 +2677,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::NullRange
 // Il2CppName: NullRange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::NullRange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::NullRange)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "NullRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2685,7 +2685,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::NegativeMinimumCapacity
 // Il2CppName: NegativeMinimumCapacity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::NegativeMinimumCapacity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::NegativeMinimumCapacity)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "NegativeMinimumCapacity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2693,7 +2693,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::ProblematicChars
 // Il2CppName: ProblematicChars
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::Il2CppChar)>(&System::Data::ExceptionBuilder::ProblematicChars)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::Il2CppChar)>(&System::Data::ExceptionBuilder::ProblematicChars)> {
   static const MethodInfo* get() {
     static auto* charValue = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "ProblematicChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{charValue});
@@ -2702,7 +2702,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::StorageSetFailed
 // Il2CppName: StorageSetFailed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::StorageSetFailed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::StorageSetFailed)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "StorageSetFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2710,7 +2710,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::SimpleTypeNotSupported
 // Il2CppName: SimpleTypeNotSupported
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::SimpleTypeNotSupported)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::SimpleTypeNotSupported)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "SimpleTypeNotSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2718,7 +2718,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::MissingAttribute
 // Il2CppName: MissingAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::MissingAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::MissingAttribute)> {
   static const MethodInfo* get() {
     static auto* attribute = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "MissingAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attribute});
@@ -2727,7 +2727,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::MissingAttribute
 // Il2CppName: MissingAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, ::StringW)>(&System::Data::ExceptionBuilder::MissingAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, ::StringW)>(&System::Data::ExceptionBuilder::MissingAttribute)> {
   static const MethodInfo* get() {
     static auto* element = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* attribute = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -2737,7 +2737,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::InvalidAttributeValue
 // Il2CppName: InvalidAttributeValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, ::StringW)>(&System::Data::ExceptionBuilder::InvalidAttributeValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, ::StringW)>(&System::Data::ExceptionBuilder::InvalidAttributeValue)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -2747,7 +2747,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::AttributeValues
 // Il2CppName: AttributeValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, ::StringW, ::StringW)>(&System::Data::ExceptionBuilder::AttributeValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, ::StringW, ::StringW)>(&System::Data::ExceptionBuilder::AttributeValues)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value1 = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -2758,7 +2758,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::ElementTypeNotFound
 // Il2CppName: ElementTypeNotFound
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::ElementTypeNotFound)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::ElementTypeNotFound)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "ElementTypeNotFound", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -2767,7 +2767,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::RelationParentNameMissing
 // Il2CppName: RelationParentNameMissing
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::RelationParentNameMissing)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::RelationParentNameMissing)> {
   static const MethodInfo* get() {
     static auto* rel = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "RelationParentNameMissing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rel});
@@ -2776,7 +2776,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::RelationChildNameMissing
 // Il2CppName: RelationChildNameMissing
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::RelationChildNameMissing)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::RelationChildNameMissing)> {
   static const MethodInfo* get() {
     static auto* rel = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "RelationChildNameMissing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rel});
@@ -2785,7 +2785,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::RelationTableKeyMissing
 // Il2CppName: RelationTableKeyMissing
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::RelationTableKeyMissing)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::RelationTableKeyMissing)> {
   static const MethodInfo* get() {
     static auto* rel = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "RelationTableKeyMissing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rel});
@@ -2794,7 +2794,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::RelationChildKeyMissing
 // Il2CppName: RelationChildKeyMissing
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::RelationChildKeyMissing)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::RelationChildKeyMissing)> {
   static const MethodInfo* get() {
     static auto* rel = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "RelationChildKeyMissing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rel});
@@ -2803,7 +2803,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::UndefinedDatatype
 // Il2CppName: UndefinedDatatype
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::UndefinedDatatype)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::UndefinedDatatype)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "UndefinedDatatype", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -2812,7 +2812,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::DatatypeNotDefined
 // Il2CppName: DatatypeNotDefined
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::DatatypeNotDefined)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::DatatypeNotDefined)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "DatatypeNotDefined", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2820,7 +2820,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::MismatchKeyLength
 // Il2CppName: MismatchKeyLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::MismatchKeyLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::MismatchKeyLength)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "MismatchKeyLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2828,7 +2828,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::InvalidField
 // Il2CppName: InvalidField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::InvalidField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::InvalidField)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "InvalidField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -2837,7 +2837,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::InvalidSelector
 // Il2CppName: InvalidSelector
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::InvalidSelector)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::InvalidSelector)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "InvalidSelector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -2846,7 +2846,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::CircularComplexType
 // Il2CppName: CircularComplexType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::CircularComplexType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::CircularComplexType)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "CircularComplexType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -2855,7 +2855,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::CannotInstantiateAbstract
 // Il2CppName: CannotInstantiateAbstract
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::CannotInstantiateAbstract)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::CannotInstantiateAbstract)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "CannotInstantiateAbstract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -2864,7 +2864,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::InvalidKey
 // Il2CppName: InvalidKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::InvalidKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::InvalidKey)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "InvalidKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -2873,7 +2873,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::DiffgramMissingTable
 // Il2CppName: DiffgramMissingTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::DiffgramMissingTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::DiffgramMissingTable)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "DiffgramMissingTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -2882,7 +2882,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::DiffgramMissingSQL
 // Il2CppName: DiffgramMissingSQL
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::DiffgramMissingSQL)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::DiffgramMissingSQL)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "DiffgramMissingSQL", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2890,7 +2890,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::DuplicateConstraintRead
 // Il2CppName: DuplicateConstraintRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::DuplicateConstraintRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::DuplicateConstraintRead)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "DuplicateConstraintRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str});
@@ -2899,7 +2899,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::ColumnTypeConflict
 // Il2CppName: ColumnTypeConflict
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::ColumnTypeConflict)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::ColumnTypeConflict)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "ColumnTypeConflict", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -2908,7 +2908,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::CannotConvert
 // Il2CppName: CannotConvert
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, ::StringW)>(&System::Data::ExceptionBuilder::CannotConvert)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, ::StringW)>(&System::Data::ExceptionBuilder::CannotConvert)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -2918,7 +2918,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::MissingRefer
 // Il2CppName: MissingRefer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::MissingRefer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::MissingRefer)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "MissingRefer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -2927,7 +2927,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::InvalidPrefix
 // Il2CppName: InvalidPrefix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::InvalidPrefix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::InvalidPrefix)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "InvalidPrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -2936,7 +2936,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::CanNotDeserializeObjectType
 // Il2CppName: CanNotDeserializeObjectType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::CanNotDeserializeObjectType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::CanNotDeserializeObjectType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "CanNotDeserializeObjectType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2944,7 +2944,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::IsDataSetAttributeMissingInSchema
 // Il2CppName: IsDataSetAttributeMissingInSchema
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::IsDataSetAttributeMissingInSchema)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::IsDataSetAttributeMissingInSchema)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "IsDataSetAttributeMissingInSchema", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2952,7 +2952,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::TooManyIsDataSetAtributeInSchema
 // Il2CppName: TooManyIsDataSetAtributeInSchema
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::TooManyIsDataSetAtributeInSchema)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::TooManyIsDataSetAtributeInSchema)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "TooManyIsDataSetAtributeInSchema", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2960,7 +2960,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::NestedCircular
 // Il2CppName: NestedCircular
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::NestedCircular)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::NestedCircular)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "NestedCircular", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -2969,7 +2969,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::MultipleParentRows
 // Il2CppName: MultipleParentRows
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::MultipleParentRows)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::MultipleParentRows)> {
   static const MethodInfo* get() {
     static auto* tableQName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "MultipleParentRows", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tableQName});
@@ -2978,7 +2978,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::PolymorphismNotSupported
 // Il2CppName: PolymorphismNotSupported
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::PolymorphismNotSupported)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::PolymorphismNotSupported)> {
   static const MethodInfo* get() {
     static auto* typeName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "PolymorphismNotSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{typeName});
@@ -2987,7 +2987,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::DataTableInferenceNotSupported
 // Il2CppName: DataTableInferenceNotSupported
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::DataTableInferenceNotSupported)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::DataTableInferenceNotSupported)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "DataTableInferenceNotSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2995,7 +2995,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::ThrowMultipleTargetConverter
 // Il2CppName: ThrowMultipleTargetConverter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Exception*)>(&System::Data::ExceptionBuilder::ThrowMultipleTargetConverter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Exception*)>(&System::Data::ExceptionBuilder::ThrowMultipleTargetConverter)> {
   static const MethodInfo* get() {
     static auto* innerException = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "ThrowMultipleTargetConverter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{innerException});
@@ -3004,7 +3004,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::DuplicateDeclaration
 // Il2CppName: DuplicateDeclaration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::DuplicateDeclaration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::DuplicateDeclaration)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "DuplicateDeclaration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -3013,7 +3013,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::FoundEntity
 // Il2CppName: FoundEntity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::FoundEntity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::FoundEntity)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "FoundEntity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -3021,7 +3021,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::MergeFailed
 // Il2CppName: MergeFailed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::MergeFailed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExceptionBuilder::MergeFailed)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "MergeFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -3030,7 +3030,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::ConvertFailed
 // Il2CppName: ConvertFailed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(System::Type*, System::Type*)>(&System::Data::ExceptionBuilder::ConvertFailed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Type*, ::System::Type*)>(&System::Data::ExceptionBuilder::ConvertFailed)> {
   static const MethodInfo* get() {
     static auto* type1 = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* type2 = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -3040,7 +3040,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::InvalidDuplicateNamedSimpleTypeDelaration
 // Il2CppName: InvalidDuplicateNamedSimpleTypeDelaration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, ::StringW)>(&System::Data::ExceptionBuilder::InvalidDuplicateNamedSimpleTypeDelaration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, ::StringW)>(&System::Data::ExceptionBuilder::InvalidDuplicateNamedSimpleTypeDelaration)> {
   static const MethodInfo* get() {
     static auto* stName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* errorStr = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -3050,7 +3050,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::InternalRBTreeError
 // Il2CppName: InternalRBTreeError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(System::Data::RBTreeError)>(&System::Data::ExceptionBuilder::InternalRBTreeError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Data::RBTreeError)>(&System::Data::ExceptionBuilder::InternalRBTreeError)> {
   static const MethodInfo* get() {
     static auto* internalError = &::il2cpp_utils::GetClassFromName("System.Data", "RBTreeError")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "InternalRBTreeError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{internalError});
@@ -3059,7 +3059,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExceptionBuilder::EnumeratorModified
 // Il2CppName: EnumeratorModified
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExceptionBuilder::EnumeratorModified)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExceptionBuilder::EnumeratorModified)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExceptionBuilder*), "EnumeratorModified", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

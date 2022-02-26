@@ -18,8 +18,8 @@ namespace GlobalNamespace {
   class ILightWithId;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::ILightWithId);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ILightWithId*, "", "ILightWithId");
+NEED_NO_BOX(::GlobalNamespace::ILightWithId);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ILightWithId*, "", "ILightWithId");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     void __SetIsUnRegistered();
     // public System.Void ColorWasSet(UnityEngine.Color color)
     // Offset: 0xFFFFFFFF
-    void ColorWasSet(UnityEngine::Color color);
+    void ColorWasSet(::UnityEngine::Color color);
   }; // ILightWithId
   #pragma pack(pop)
 }
@@ -82,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ILightWithId::ColorWasSet
 // Il2CppName: ColorWasSet
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILightWithId::*)(UnityEngine::Color)>(&GlobalNamespace::ILightWithId::ColorWasSet)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILightWithId::*)(::UnityEngine::Color)>(&GlobalNamespace::ILightWithId::ColorWasSet)> {
   static const MethodInfo* get() {
     static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILightWithId*), "ColorWasSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{color});

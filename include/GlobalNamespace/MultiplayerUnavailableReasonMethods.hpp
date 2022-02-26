@@ -32,8 +32,8 @@ namespace GlobalNamespace {
   class MultiplayerUnavailableReasonMethods;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MultiplayerUnavailableReasonMethods);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerUnavailableReasonMethods*, "", "MultiplayerUnavailableReasonMethods");
+NEED_NO_BOX(::GlobalNamespace::MultiplayerUnavailableReasonMethods);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerUnavailableReasonMethods*, "", "MultiplayerUnavailableReasonMethods");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -73,16 +73,16 @@ namespace GlobalNamespace {
     static void _set_kMultiplayerUnavailableTryAgain(::StringW value);
     // static public System.String LocalizedKey(MultiplayerUnavailableReason multiplayerUnavailableReason)
     // Offset: 0x2A9E19C
-    static ::StringW LocalizedKey(GlobalNamespace::MultiplayerUnavailableReason multiplayerUnavailableReason);
+    static ::StringW LocalizedKey(::GlobalNamespace::MultiplayerUnavailableReason multiplayerUnavailableReason);
     // static public System.String ErrorCode(MultiplayerUnavailableReason multiplayerUnavailableReason)
     // Offset: 0x2A9E204
-    static ::StringW ErrorCode(GlobalNamespace::MultiplayerUnavailableReason multiplayerUnavailableReason);
+    static ::StringW ErrorCode(::GlobalNamespace::MultiplayerUnavailableReason multiplayerUnavailableReason);
     // static public System.Boolean TryGetMultiplayerUnavailableReason(MultiplayerStatusData data, out MultiplayerUnavailableReason reason)
     // Offset: 0x2A9F290
-    static bool TryGetMultiplayerUnavailableReason(GlobalNamespace::MultiplayerStatusData* data, ByRef<GlobalNamespace::MultiplayerUnavailableReason> reason);
+    static bool TryGetMultiplayerUnavailableReason(::GlobalNamespace::MultiplayerStatusData* data, ByRef<::GlobalNamespace::MultiplayerUnavailableReason> reason);
     // static public System.String GetLocalizedMessage(MultiplayerStatusData data, Polyglot.Language language)
     // Offset: 0x2A9F3B0
-    static ::StringW GetLocalizedMessage(GlobalNamespace::MultiplayerStatusData* data, Polyglot::Language language);
+    static ::StringW GetLocalizedMessage(::GlobalNamespace::MultiplayerStatusData* data, ::Polyglot::Language language);
     // static private System.Boolean VersionLessThan(System.String currentVersion, System.String minVersion)
     // Offset: 0x2AAE574
     static bool VersionLessThan(::StringW currentVersion, ::StringW minVersion);
@@ -93,7 +93,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerUnavailableReasonMethods::LocalizedKey
 // Il2CppName: LocalizedKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(GlobalNamespace::MultiplayerUnavailableReason)>(&GlobalNamespace::MultiplayerUnavailableReasonMethods::LocalizedKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::GlobalNamespace::MultiplayerUnavailableReason)>(&GlobalNamespace::MultiplayerUnavailableReasonMethods::LocalizedKey)> {
   static const MethodInfo* get() {
     static auto* multiplayerUnavailableReason = &::il2cpp_utils::GetClassFromName("", "MultiplayerUnavailableReason")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerUnavailableReasonMethods*), "LocalizedKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{multiplayerUnavailableReason});
@@ -102,7 +102,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerUnavailableReasonMethods::ErrorCode
 // Il2CppName: ErrorCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(GlobalNamespace::MultiplayerUnavailableReason)>(&GlobalNamespace::MultiplayerUnavailableReasonMethods::ErrorCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::GlobalNamespace::MultiplayerUnavailableReason)>(&GlobalNamespace::MultiplayerUnavailableReasonMethods::ErrorCode)> {
   static const MethodInfo* get() {
     static auto* multiplayerUnavailableReason = &::il2cpp_utils::GetClassFromName("", "MultiplayerUnavailableReason")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerUnavailableReasonMethods*), "ErrorCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{multiplayerUnavailableReason});
@@ -111,7 +111,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerUnavailableReasonMethods::TryGetMultiplayerUnavailableReason
 // Il2CppName: TryGetMultiplayerUnavailableReason
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::MultiplayerStatusData*, ByRef<GlobalNamespace::MultiplayerUnavailableReason>)>(&GlobalNamespace::MultiplayerUnavailableReasonMethods::TryGetMultiplayerUnavailableReason)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::MultiplayerStatusData*, ByRef<::GlobalNamespace::MultiplayerUnavailableReason>)>(&GlobalNamespace::MultiplayerUnavailableReasonMethods::TryGetMultiplayerUnavailableReason)> {
   static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("", "MultiplayerStatusData")->byval_arg;
     static auto* reason = &::il2cpp_utils::GetClassFromName("", "MultiplayerUnavailableReason")->this_arg;
@@ -121,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerUnavailableReasonMethods::GetLocalizedMessage
 // Il2CppName: GetLocalizedMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(GlobalNamespace::MultiplayerStatusData*, Polyglot::Language)>(&GlobalNamespace::MultiplayerUnavailableReasonMethods::GetLocalizedMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::GlobalNamespace::MultiplayerStatusData*, ::Polyglot::Language)>(&GlobalNamespace::MultiplayerUnavailableReasonMethods::GetLocalizedMessage)> {
   static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("", "MultiplayerStatusData")->byval_arg;
     static auto* language = &::il2cpp_utils::GetClassFromName("Polyglot", "Language")->byval_arg;

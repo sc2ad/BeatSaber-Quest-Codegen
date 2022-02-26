@@ -23,8 +23,8 @@ namespace System::Runtime::CompilerServices {
   class JitHelpers;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::CompilerServices::JitHelpers);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::JitHelpers*, "System.Runtime.CompilerServices", "JitHelpers");
+NEED_NO_BOX(::System::Runtime::CompilerServices::JitHelpers);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::CompilerServices::JitHelpers*, "System.Runtime.CompilerServices", "JitHelpers");
 // Type namespace: System.Runtime.CompilerServices
 namespace System::Runtime::CompilerServices {
   // Size: 0x10
@@ -38,7 +38,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0xFFFFFFFF
     template<class T>
     static T UnsafeCast(::Il2CppObject* o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::JitHelpers::UnsafeCast");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::JitHelpers::UnsafeCast");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Runtime.CompilerServices", "JitHelpers", "UnsafeCast", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(o)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, o);
@@ -47,8 +47,8 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0xFFFFFFFF
     template<class T>
     static int UnsafeEnumCast(T val) {
-      static_assert(is_value_type_v<T>);
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::JitHelpers::UnsafeEnumCast");
+      static_assert(std::is_convertible_v<T, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::JitHelpers::UnsafeEnumCast");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Runtime.CompilerServices", "JitHelpers", "UnsafeEnumCast", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(val)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<int, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, val);
@@ -57,8 +57,8 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0xFFFFFFFF
     template<class T>
     static int64_t UnsafeEnumCastLong(T val) {
-      static_assert(is_value_type_v<T>);
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::JitHelpers::UnsafeEnumCastLong");
+      static_assert(std::is_convertible_v<T, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::JitHelpers::UnsafeEnumCastLong");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Runtime.CompilerServices", "JitHelpers", "UnsafeEnumCastLong", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(val)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<int64_t, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, val);

@@ -13,8 +13,8 @@ namespace System::Runtime::Remoting::Messaging {
   class Header;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Remoting::Messaging::Header);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::Header*, "System.Runtime.Remoting.Messaging", "Header");
+NEED_NO_BOX(::System::Runtime::Remoting::Messaging::Header);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Messaging::Header*, "System.Runtime.Remoting.Messaging", "Header");
 // Type namespace: System.Runtime.Remoting.Messaging
 namespace System::Runtime::Remoting::Messaging {
   // Size: 0x30

@@ -23,8 +23,8 @@ namespace GlobalNamespace {
   class MainSettingsBestGraphicsValues;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MainSettingsBestGraphicsValues);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainSettingsBestGraphicsValues*, "", "MainSettingsBestGraphicsValues");
+NEED_NO_BOX(::GlobalNamespace::MainSettingsBestGraphicsValues);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MainSettingsBestGraphicsValues*, "", "MainSettingsBestGraphicsValues");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -35,14 +35,14 @@ namespace GlobalNamespace {
     public:
     // static public System.Void ApplyValues(MainSettingsModelSO mainSettingsModel)
     // Offset: 0x2BA9AC0
-    static void ApplyValues(GlobalNamespace::MainSettingsModelSO* mainSettingsModel);
+    static void ApplyValues(::GlobalNamespace::MainSettingsModelSO* mainSettingsModel);
     // public System.Void .ctor()
     // Offset: 0x2BA9C04
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MainSettingsBestGraphicsValues* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MainSettingsBestGraphicsValues::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MainSettingsBestGraphicsValues::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MainSettingsBestGraphicsValues*, creationType>()));
     }
   }; // MainSettingsBestGraphicsValues
@@ -52,7 +52,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::MainSettingsBestGraphicsValues::ApplyValues
 // Il2CppName: ApplyValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::MainSettingsModelSO*)>(&GlobalNamespace::MainSettingsBestGraphicsValues::ApplyValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::MainSettingsModelSO*)>(&GlobalNamespace::MainSettingsBestGraphicsValues::ApplyValues)> {
   static const MethodInfo* get() {
     static auto* mainSettingsModel = &::il2cpp_utils::GetClassFromName("", "MainSettingsModelSO")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsBestGraphicsValues*), "ApplyValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mainSettingsModel});

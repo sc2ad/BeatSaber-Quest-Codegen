@@ -38,8 +38,8 @@ namespace System::Collections {
   class ArrayList;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Collections::ArrayList);
-DEFINE_IL2CPP_ARG_TYPE(System::Collections::ArrayList*, "System.Collections", "ArrayList");
+NEED_NO_BOX(::System::Collections::ArrayList);
+DEFINE_IL2CPP_ARG_TYPE(::System::Collections::ArrayList*, "System.Collections", "ArrayList");
 // Type namespace: System.Collections
 namespace System::Collections {
   // Size: 0x28
@@ -50,17 +50,17 @@ namespace System::Collections {
   // [DebuggerDisplayAttribute] Offset: 118C360
   // [DebuggerTypeProxyAttribute] Offset: 118C360
   // [ComVisibleAttribute] Offset: 118C360
-  class ArrayList : public ::Il2CppObject/*, public System::ICloneable, public System::Collections::IList*/ {
+  class ArrayList : public ::Il2CppObject/*, public ::System::ICloneable, public ::System::Collections::IList*/ {
     public:
-    // Nested type: System::Collections::ArrayList::IListWrapper
+    // Nested type: ::System::Collections::ArrayList::IListWrapper
     class IListWrapper;
-    // Nested type: System::Collections::ArrayList::ReadOnlyList
+    // Nested type: ::System::Collections::ArrayList::ReadOnlyList
     class ReadOnlyList;
-    // Nested type: System::Collections::ArrayList::ReadOnlyArrayList
+    // Nested type: ::System::Collections::ArrayList::ReadOnlyArrayList
     class ReadOnlyArrayList;
-    // Nested type: System::Collections::ArrayList::ArrayListEnumeratorSimple
+    // Nested type: ::System::Collections::ArrayList::ArrayListEnumeratorSimple
     class ArrayListEnumeratorSimple;
-    // Nested type: System::Collections::ArrayList::ArrayListDebugView
+    // Nested type: ::System::Collections::ArrayList::ArrayListDebugView
     class ArrayListDebugView;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -96,13 +96,13 @@ namespace System::Collections {
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     public:
-    // Creating interface conversion operator: operator System::ICloneable
-    operator System::ICloneable() noexcept {
-      return *reinterpret_cast<System::ICloneable*>(this);
+    // Creating interface conversion operator: operator ::System::ICloneable
+    operator ::System::ICloneable() noexcept {
+      return *reinterpret_cast<::System::ICloneable*>(this);
     }
-    // Creating interface conversion operator: operator System::Collections::IList
-    operator System::Collections::IList() noexcept {
-      return *reinterpret_cast<System::Collections::IList*>(this);
+    // Creating interface conversion operator: operator ::System::Collections::IList
+    operator ::System::Collections::IList() noexcept {
+      return *reinterpret_cast<::System::Collections::IList*>(this);
     }
     // Get static field: static private readonly System.Object[] emptyArray
     static ::ArrayW<::Il2CppObject*> _get_emptyArray();
@@ -141,14 +141,14 @@ namespace System::Collections {
     // Offset: 0x1DB0A98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ArrayList* New_ctor(int capacity) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::ArrayList::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::ArrayList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ArrayList*, creationType>(capacity)));
     }
     // public System.Void .ctor(System.Collections.ICollection c)
     // Offset: 0x1DB0BD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ArrayList* New_ctor(System::Collections::ICollection* c) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::ArrayList::.ctor");
+    static ArrayList* New_ctor(::System::Collections::ICollection* c) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::ArrayList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ArrayList*, creationType>(c)));
     }
     // static private System.Void .cctor()
@@ -156,13 +156,13 @@ namespace System::Collections {
     static void _cctor();
     // static public System.Collections.ArrayList Adapter(System.Collections.IList list)
     // Offset: 0x1DB1108
-    static System::Collections::ArrayList* Adapter(System::Collections::IList* list);
+    static ::System::Collections::ArrayList* Adapter(::System::Collections::IList* list);
     // public System.Int32 Add(System.Object value)
     // Offset: 0x1DB1220
     int Add(::Il2CppObject* value);
     // public System.Void AddRange(System.Collections.ICollection c)
     // Offset: 0x1DB132C
-    void AddRange(System::Collections::ICollection* c);
+    void AddRange(::System::Collections::ICollection* c);
     // public System.Void Clear()
     // Offset: 0x1DB1348
     void Clear();
@@ -174,19 +174,19 @@ namespace System::Collections {
     bool Contains(::Il2CppObject* item);
     // public System.Void CopyTo(System.Array array)
     // Offset: 0x1DB14FC
-    void CopyTo(System::Array* array);
+    void CopyTo(::System::Array* array);
     // public System.Void CopyTo(System.Array array, System.Int32 arrayIndex)
     // Offset: 0x1DB1510
-    void CopyTo(System::Array* array, int arrayIndex);
+    void CopyTo(::System::Array* array, int arrayIndex);
     // public System.Void CopyTo(System.Int32 index, System.Array array, System.Int32 arrayIndex, System.Int32 count)
     // Offset: 0x1DB15D4
-    void CopyTo(int index, System::Array* array, int arrayIndex, int count);
+    void CopyTo(int index, ::System::Array* array, int arrayIndex, int count);
     // private System.Void EnsureCapacity(System.Int32 min)
     // Offset: 0x1DB12D4
     void EnsureCapacity(int min);
     // public System.Collections.IEnumerator GetEnumerator()
     // Offset: 0x1DB16C4
-    System::Collections::IEnumerator* GetEnumerator();
+    ::System::Collections::IEnumerator* GetEnumerator();
     // public System.Int32 IndexOf(System.Object value)
     // Offset: 0x1DB182C
     int IndexOf(::Il2CppObject* value);
@@ -195,13 +195,13 @@ namespace System::Collections {
     void Insert(int index, ::Il2CppObject* value);
     // public System.Void InsertRange(System.Int32 index, System.Collections.ICollection c)
     // Offset: 0x1DB1998
-    void InsertRange(int index, System::Collections::ICollection* c);
+    void InsertRange(int index, ::System::Collections::ICollection* c);
     // static public System.Collections.IList ReadOnly(System.Collections.IList list)
     // Offset: 0x1DB1BF4
-    static System::Collections::IList* ReadOnly(System::Collections::IList* list);
+    static ::System::Collections::IList* ReadOnly(::System::Collections::IList* list);
     // static public System.Collections.ArrayList ReadOnly(System.Collections.ArrayList list)
     // Offset: 0x1DB1CC0
-    static System::Collections::ArrayList* ReadOnly(System::Collections::ArrayList* list);
+    static ::System::Collections::ArrayList* ReadOnly(::System::Collections::ArrayList* list);
     // public System.Void Remove(System.Object obj)
     // Offset: 0x1DB1DD4
     void Remove(::Il2CppObject* obj);
@@ -219,23 +219,23 @@ namespace System::Collections {
     void Reverse(int index, int count);
     // public System.Void Sort(System.Collections.IComparer comparer)
     // Offset: 0x1DB2288
-    void Sort(System::Collections::IComparer* comparer);
+    void Sort(::System::Collections::IComparer* comparer);
     // public System.Void Sort(System.Int32 index, System.Int32 count, System.Collections.IComparer comparer)
     // Offset: 0x1DB22D8
-    void Sort(int index, int count, System::Collections::IComparer* comparer);
+    void Sort(int index, int count, ::System::Collections::IComparer* comparer);
     // public System.Object[] ToArray()
     // Offset: 0x1DB243C
     ::ArrayW<::Il2CppObject*> ToArray();
     // public System.Array ToArray(System.Type type)
     // Offset: 0x1DB24B4
-    System::Array* ToArray(System::Type* type);
+    ::System::Array* ToArray(::System::Type* type);
     // public System.Void .ctor()
     // Offset: 0x1DB0A1C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ArrayList* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::ArrayList::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::ArrayList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ArrayList*, creationType>()));
     }
   }; // System.Collections.ArrayList
@@ -323,7 +323,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Collections::ArrayList::Adapter
 // Il2CppName: Adapter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ArrayList* (*)(System::Collections::IList*)>(&System::Collections::ArrayList::Adapter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (*)(::System::Collections::IList*)>(&System::Collections::ArrayList::Adapter)> {
   static const MethodInfo* get() {
     static auto* list = &::il2cpp_utils::GetClassFromName("System.Collections", "IList")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Collections::ArrayList*), "Adapter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{list});
@@ -341,7 +341,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Collections::ArrayList::AddRange
 // Il2CppName: AddRange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::ArrayList::*)(System::Collections::ICollection*)>(&System::Collections::ArrayList::AddRange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::ArrayList::*)(::System::Collections::ICollection*)>(&System::Collections::ArrayList::AddRange)> {
   static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("System.Collections", "ICollection")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Collections::ArrayList*), "AddRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
@@ -375,7 +375,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Collections::ArrayList::CopyTo
 // Il2CppName: CopyTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::ArrayList::*)(System::Array*)>(&System::Collections::ArrayList::CopyTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::ArrayList::*)(::System::Array*)>(&System::Collections::ArrayList::CopyTo)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "Array")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Collections::ArrayList*), "CopyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});
@@ -384,7 +384,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Collections::ArrayList::CopyTo
 // Il2CppName: CopyTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::ArrayList::*)(System::Array*, int)>(&System::Collections::ArrayList::CopyTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::ArrayList::*)(::System::Array*, int)>(&System::Collections::ArrayList::CopyTo)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "Array")->byval_arg;
     static auto* arrayIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -394,7 +394,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Collections::ArrayList::CopyTo
 // Il2CppName: CopyTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::ArrayList::*)(int, System::Array*, int, int)>(&System::Collections::ArrayList::CopyTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::ArrayList::*)(int, ::System::Array*, int, int)>(&System::Collections::ArrayList::CopyTo)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "Array")->byval_arg;
@@ -415,7 +415,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Collections::ArrayList::GetEnumerator
 // Il2CppName: GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (System::Collections::ArrayList::*)()>(&System::Collections::ArrayList::GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (System::Collections::ArrayList::*)()>(&System::Collections::ArrayList::GetEnumerator)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Collections::ArrayList*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -442,7 +442,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Collections::ArrayList::InsertRange
 // Il2CppName: InsertRange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::ArrayList::*)(int, System::Collections::ICollection*)>(&System::Collections::ArrayList::InsertRange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::ArrayList::*)(int, ::System::Collections::ICollection*)>(&System::Collections::ArrayList::InsertRange)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* c = &::il2cpp_utils::GetClassFromName("System.Collections", "ICollection")->byval_arg;
@@ -452,7 +452,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Collections::ArrayList::ReadOnly
 // Il2CppName: ReadOnly
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IList* (*)(System::Collections::IList*)>(&System::Collections::ArrayList::ReadOnly)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IList* (*)(::System::Collections::IList*)>(&System::Collections::ArrayList::ReadOnly)> {
   static const MethodInfo* get() {
     static auto* list = &::il2cpp_utils::GetClassFromName("System.Collections", "IList")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Collections::ArrayList*), "ReadOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{list});
@@ -461,7 +461,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::Collections::ArrayList::ReadOnly
 // Il2CppName: ReadOnly
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ArrayList* (*)(System::Collections::ArrayList*)>(&System::Collections::ArrayList::ReadOnly)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (*)(::System::Collections::ArrayList*)>(&System::Collections::ArrayList::ReadOnly)> {
   static const MethodInfo* get() {
     static auto* list = &::il2cpp_utils::GetClassFromName("System.Collections", "ArrayList")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Collections::ArrayList*), "ReadOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{list});
@@ -516,7 +516,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Collections::ArrayList::Sort
 // Il2CppName: Sort
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::ArrayList::*)(System::Collections::IComparer*)>(&System::Collections::ArrayList::Sort)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::ArrayList::*)(::System::Collections::IComparer*)>(&System::Collections::ArrayList::Sort)> {
   static const MethodInfo* get() {
     static auto* comparer = &::il2cpp_utils::GetClassFromName("System.Collections", "IComparer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Collections::ArrayList*), "Sort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{comparer});
@@ -525,7 +525,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Collections::ArrayList::Sort
 // Il2CppName: Sort
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::ArrayList::*)(int, int, System::Collections::IComparer*)>(&System::Collections::ArrayList::Sort)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::ArrayList::*)(int, int, ::System::Collections::IComparer*)>(&System::Collections::ArrayList::Sort)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -544,7 +544,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: System::Collections::ArrayList::ToArray
 // Il2CppName: ToArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Array* (System::Collections::ArrayList::*)(System::Type*)>(&System::Collections::ArrayList::ToArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Array* (System::Collections::ArrayList::*)(::System::Type*)>(&System::Collections::ArrayList::ToArray)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Collections::ArrayList*), "ToArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});

@@ -19,8 +19,8 @@ namespace GlobalNamespace {
   class SplineUtils;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SplineUtils);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SplineUtils*, "", "SplineUtils");
+NEED_NO_BOX(::GlobalNamespace::SplineUtils);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SplineUtils*, "", "SplineUtils");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -31,7 +31,7 @@ namespace GlobalNamespace {
     public:
     // static public UnityEngine.Vector3 Interpolate(UnityEngine.Vector3 t0, UnityEngine.Vector3 p0, UnityEngine.Vector3 p1, UnityEngine.Vector3 t1, System.Single f)
     // Offset: 0x13D6954
-    static UnityEngine::Vector3 Interpolate(UnityEngine::Vector3 t0, UnityEngine::Vector3 p0, UnityEngine::Vector3 p1, UnityEngine::Vector3 t1, float f);
+    static ::UnityEngine::Vector3 Interpolate(::UnityEngine::Vector3 t0, ::UnityEngine::Vector3 p0, ::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 t1, float f);
   }; // SplineUtils
   #pragma pack(pop)
 }
@@ -39,7 +39,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::SplineUtils::Interpolate
 // Il2CppName: Interpolate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3, float)>(&GlobalNamespace::SplineUtils::Interpolate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, float)>(&GlobalNamespace::SplineUtils::Interpolate)> {
   static const MethodInfo* get() {
     static auto* t0 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* p0 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;

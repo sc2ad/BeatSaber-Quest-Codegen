@@ -45,8 +45,8 @@ namespace HoudiniEngineUnity {
   class HEU_InputUtility;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_InputUtility);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_InputUtility*, "HoudiniEngineUnity", "HEU_InputUtility");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_InputUtility);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_InputUtility*, "HoudiniEngineUnity", "HEU_InputUtility");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x10
@@ -56,9 +56,9 @@ namespace HoudiniEngineUnity {
   class HEU_InputUtility : public ::Il2CppObject {
     public:
     // Get static field: static private System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputInterface> _inputInterfaces
-    static System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputInterface*>* _get__inputInterfaces();
+    static ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputInterface*>* _get__inputInterfaces();
     // Set static field: static private System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputInterface> _inputInterfaces
-    static void _set__inputInterfaces(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputInterface*>* value);
+    static void _set__inputInterfaces(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputInterface*>* value);
     // static private System.Void .cctor()
     // Offset: 0x17876FC
     static void _cctor();
@@ -67,28 +67,28 @@ namespace HoudiniEngineUnity {
     static int GetHighestPriority();
     // static public System.Void RegisterInputInterface(HoudiniEngineUnity.HEU_InputInterface inputInterface)
     // Offset: 0x177A2EC
-    static void RegisterInputInterface(HoudiniEngineUnity::HEU_InputInterface* inputInterface);
+    static void RegisterInputInterface(::HoudiniEngineUnity::HEU_InputInterface* inputInterface);
     // static public System.Void UnregisterInputInterface(HoudiniEngineUnity.HEU_InputInterface inputInterface)
     // Offset: 0x1787440
-    static void UnregisterInputInterface(HoudiniEngineUnity::HEU_InputInterface* inputInterface);
+    static void UnregisterInputInterface(::HoudiniEngineUnity::HEU_InputInterface* inputInterface);
     // static public HoudiniEngineUnity.HEU_InputInterface GetInputInterfaceByType(System.Type type)
     // Offset: 0x17872CC
-    static HoudiniEngineUnity::HEU_InputInterface* GetInputInterfaceByType(System::Type* type);
+    static ::HoudiniEngineUnity::HEU_InputInterface* GetInputInterfaceByType(::System::Type* type);
     // static public HoudiniEngineUnity.HEU_InputInterface GetInputInterface(UnityEngine.GameObject inputObject)
     // Offset: 0x17874C4
-    static HoudiniEngineUnity::HEU_InputInterface* GetInputInterface(UnityEngine::GameObject* inputObject);
+    static ::HoudiniEngineUnity::HEU_InputInterface* GetInputInterface(::UnityEngine::GameObject* inputObject);
     // static public HoudiniEngineUnity.HEU_InputInterface GetInputInterface(HoudiniEngineUnity.HEU_InputObjectInfo inputObjectInfo)
     // Offset: 0x1787600
-    static HoudiniEngineUnity::HEU_InputInterface* GetInputInterface(HoudiniEngineUnity::HEU_InputObjectInfo* inputObjectInfo);
+    static ::HoudiniEngineUnity::HEU_InputInterface* GetInputInterface(::HoudiniEngineUnity::HEU_InputObjectInfo* inputObjectInfo);
     // static public System.Boolean CreateInputNodeWithMultiObjects(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 assetID, ref System.Int32 connectMergeID, ref System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputObjectInfo> inputObjects, ref System.Collections.Generic.List`1<System.Int32> inputObjectsConnectedAssetIDs, HoudiniEngineUnity.HEU_InputNode inputNode)
     // Offset: 0x1784614
-    static bool CreateInputNodeWithMultiObjects(HoudiniEngineUnity::HEU_SessionBase* session, int assetID, ByRef<int> connectMergeID, ByRef<System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputObjectInfo*>*> inputObjects, ByRef<System::Collections::Generic::List_1<int>*> inputObjectsConnectedAssetIDs, HoudiniEngineUnity::HEU_InputNode* inputNode);
+    static bool CreateInputNodeWithMultiObjects(::HoudiniEngineUnity::HEU_SessionBase* session, int assetID, ByRef<int> connectMergeID, ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputObjectInfo*>*> inputObjects, ByRef<::System::Collections::Generic::List_1<int>*> inputObjectsConnectedAssetIDs, ::HoudiniEngineUnity::HEU_InputNode* inputNode);
     // static public System.Boolean CreateInputNodeWithMultiAssets(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_HoudiniAsset parentAsset, ref System.Int32 connectMergeID, ref System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputHDAInfo> inputAssetInfos, System.Boolean bKeepWorldTransform, System.Int32 mergeParentID)
     // Offset: 0x1783BDC
-    static bool CreateInputNodeWithMultiAssets(HoudiniEngineUnity::HEU_SessionBase* session, HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset, ByRef<int> connectMergeID, ByRef<System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputHDAInfo*>*> inputAssetInfos, bool bKeepWorldTransform, int mergeParentID);
+    static bool CreateInputNodeWithMultiAssets(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset, ByRef<int> connectMergeID, ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputHDAInfo*>*> inputAssetInfos, bool bKeepWorldTransform, int mergeParentID);
     // static public System.Boolean UploadInputObjectTransform(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_InputObjectInfo inputObject, System.Int32 inputNodeID, System.Boolean bKeepWorldTransform)
     // Offset: 0x1785458
-    static bool UploadInputObjectTransform(HoudiniEngineUnity::HEU_SessionBase* session, HoudiniEngineUnity::HEU_InputObjectInfo* inputObject, int inputNodeID, bool bKeepWorldTransform);
+    static bool UploadInputObjectTransform(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_InputObjectInfo* inputObject, int inputNodeID, bool bKeepWorldTransform);
   }; // HoudiniEngineUnity.HEU_InputUtility
   #pragma pack(pop)
 }
@@ -112,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InputUtility::RegisterInputInterface
 // Il2CppName: RegisterInputInterface
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HoudiniEngineUnity::HEU_InputInterface*)>(&HoudiniEngineUnity::HEU_InputUtility::RegisterInputInterface)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_InputInterface*)>(&HoudiniEngineUnity::HEU_InputUtility::RegisterInputInterface)> {
   static const MethodInfo* get() {
     static auto* inputInterface = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_InputInterface")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_InputUtility*), "RegisterInputInterface", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inputInterface});
@@ -121,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InputUtility::UnregisterInputInterface
 // Il2CppName: UnregisterInputInterface
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HoudiniEngineUnity::HEU_InputInterface*)>(&HoudiniEngineUnity::HEU_InputUtility::UnregisterInputInterface)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_InputInterface*)>(&HoudiniEngineUnity::HEU_InputUtility::UnregisterInputInterface)> {
   static const MethodInfo* get() {
     static auto* inputInterface = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_InputInterface")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_InputUtility*), "UnregisterInputInterface", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inputInterface});
@@ -130,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InputUtility::GetInputInterfaceByType
 // Il2CppName: GetInputInterfaceByType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_InputInterface* (*)(System::Type*)>(&HoudiniEngineUnity::HEU_InputUtility::GetInputInterfaceByType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_InputInterface* (*)(::System::Type*)>(&HoudiniEngineUnity::HEU_InputUtility::GetInputInterfaceByType)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_InputUtility*), "GetInputInterfaceByType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -139,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InputUtility::GetInputInterface
 // Il2CppName: GetInputInterface
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_InputInterface* (*)(UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_InputUtility::GetInputInterface)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_InputInterface* (*)(::UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_InputUtility::GetInputInterface)> {
   static const MethodInfo* get() {
     static auto* inputObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_InputUtility*), "GetInputInterface", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inputObject});
@@ -148,7 +148,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InputUtility::GetInputInterface
 // Il2CppName: GetInputInterface
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_InputInterface* (*)(HoudiniEngineUnity::HEU_InputObjectInfo*)>(&HoudiniEngineUnity::HEU_InputUtility::GetInputInterface)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_InputInterface* (*)(::HoudiniEngineUnity::HEU_InputObjectInfo*)>(&HoudiniEngineUnity::HEU_InputUtility::GetInputInterface)> {
   static const MethodInfo* get() {
     static auto* inputObjectInfo = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_InputObjectInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_InputUtility*), "GetInputInterface", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inputObjectInfo});
@@ -157,7 +157,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InputUtility::CreateInputNodeWithMultiObjects
 // Il2CppName: CreateInputNodeWithMultiObjects
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, int, ByRef<int>, ByRef<System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputObjectInfo*>*>, ByRef<System::Collections::Generic::List_1<int>*>, HoudiniEngineUnity::HEU_InputNode*)>(&HoudiniEngineUnity::HEU_InputUtility::CreateInputNodeWithMultiObjects)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::HoudiniEngineUnity::HEU_SessionBase*, int, ByRef<int>, ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputObjectInfo*>*>, ByRef<::System::Collections::Generic::List_1<int>*>, ::HoudiniEngineUnity::HEU_InputNode*)>(&HoudiniEngineUnity::HEU_InputUtility::CreateInputNodeWithMultiObjects)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* assetID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -171,7 +171,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InputUtility::CreateInputNodeWithMultiAssets
 // Il2CppName: CreateInputNodeWithMultiAssets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, HoudiniEngineUnity::HEU_HoudiniAsset*, ByRef<int>, ByRef<System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputHDAInfo*>*>, bool, int)>(&HoudiniEngineUnity::HEU_InputUtility::CreateInputNodeWithMultiAssets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_HoudiniAsset*, ByRef<int>, ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputHDAInfo*>*>, bool, int)>(&HoudiniEngineUnity::HEU_InputUtility::CreateInputNodeWithMultiAssets)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* parentAsset = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_HoudiniAsset")->byval_arg;
@@ -185,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InputUtility::UploadInputObjectTransform
 // Il2CppName: UploadInputObjectTransform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, HoudiniEngineUnity::HEU_InputObjectInfo*, int, bool)>(&HoudiniEngineUnity::HEU_InputUtility::UploadInputObjectTransform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_InputObjectInfo*, int, bool)>(&HoudiniEngineUnity::HEU_InputUtility::UploadInputObjectTransform)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* inputObject = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_InputObjectInfo")->byval_arg;

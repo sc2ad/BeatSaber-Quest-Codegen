@@ -28,8 +28,8 @@ namespace UnityEngine::AI {
   class NavMeshPath;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::AI::NavMeshPath);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AI::NavMeshPath*, "UnityEngine.AI", "NavMeshPath");
+NEED_NO_BOX(::UnityEngine::AI::NavMeshPath);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AI::NavMeshPath*, "UnityEngine.AI", "NavMeshPath");
 // Type namespace: UnityEngine.AI
 namespace UnityEngine::AI {
   // Size: 0x20
@@ -53,35 +53,35 @@ namespace UnityEngine::AI {
     // System.IntPtr m_Ptr
     // Size: 0x8
     // Offset: 0x10
-    System::IntPtr m_Ptr;
+    ::System::IntPtr m_Ptr;
     // Field size check
-    static_assert(sizeof(System::IntPtr) == 0x8);
+    static_assert(sizeof(::System::IntPtr) == 0x8);
     // UnityEngine.Vector3[] m_Corners
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayW<UnityEngine::Vector3> m_Corners;
+    ::ArrayW<::UnityEngine::Vector3> m_Corners;
     // Field size check
-    static_assert(sizeof(::ArrayW<UnityEngine::Vector3>) == 0x8);
+    static_assert(sizeof(::ArrayW<::UnityEngine::Vector3>) == 0x8);
     public:
     // Get instance field reference: System.IntPtr m_Ptr
-    System::IntPtr& dyn_m_Ptr();
+    ::System::IntPtr& dyn_m_Ptr();
     // Get instance field reference: UnityEngine.Vector3[] m_Corners
-    ::ArrayW<UnityEngine::Vector3>& dyn_m_Corners();
+    ::ArrayW<::UnityEngine::Vector3>& dyn_m_Corners();
     // public UnityEngine.Vector3[] get_corners()
     // Offset: 0x2A6135C
-    ::ArrayW<UnityEngine::Vector3> get_corners();
+    ::ArrayW<::UnityEngine::Vector3> get_corners();
     // public UnityEngine.AI.NavMeshPathStatus get_status()
     // Offset: 0x2A613AC
-    UnityEngine::AI::NavMeshPathStatus get_status();
+    ::UnityEngine::AI::NavMeshPathStatus get_status();
     // static private System.IntPtr InitializeNavMeshPath()
     // Offset: 0x2A61150
-    static System::IntPtr InitializeNavMeshPath();
+    static ::System::IntPtr InitializeNavMeshPath();
     // static private System.Void DestroyNavMeshPath(System.IntPtr ptr)
     // Offset: 0x2A61248
-    static void DestroyNavMeshPath(System::IntPtr ptr);
+    static void DestroyNavMeshPath(::System::IntPtr ptr);
     // private UnityEngine.Vector3[] CalculateCornersInternal()
     // Offset: 0x2A61288
-    ::ArrayW<UnityEngine::Vector3> CalculateCornersInternal();
+    ::ArrayW<::UnityEngine::Vector3> CalculateCornersInternal();
     // private System.Void ClearCornersInternal()
     // Offset: 0x2A612C8
     void ClearCornersInternal();
@@ -97,7 +97,7 @@ namespace UnityEngine::AI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NavMeshPath* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AI::NavMeshPath::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AI::NavMeshPath::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NavMeshPath*, creationType>()));
     }
     // protected override System.Void Finalize()
@@ -107,14 +107,14 @@ namespace UnityEngine::AI {
     void Finalize();
   }; // UnityEngine.AI.NavMeshPath
   #pragma pack(pop)
-  static check_size<sizeof(NavMeshPath), 24 + sizeof(::ArrayW<UnityEngine::Vector3>)> __UnityEngine_AI_NavMeshPathSizeCheck;
+  static check_size<sizeof(NavMeshPath), 24 + sizeof(::ArrayW<::UnityEngine::Vector3>)> __UnityEngine_AI_NavMeshPathSizeCheck;
   static_assert(sizeof(NavMeshPath) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AI::NavMeshPath::get_corners
 // Il2CppName: get_corners
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector3> (UnityEngine::AI::NavMeshPath::*)()>(&UnityEngine::AI::NavMeshPath::get_corners)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Vector3> (UnityEngine::AI::NavMeshPath::*)()>(&UnityEngine::AI::NavMeshPath::get_corners)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AI::NavMeshPath*), "get_corners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: UnityEngine::AI::NavMeshPath::get_status
 // Il2CppName: get_status
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AI::NavMeshPathStatus (UnityEngine::AI::NavMeshPath::*)()>(&UnityEngine::AI::NavMeshPath::get_status)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AI::NavMeshPathStatus (UnityEngine::AI::NavMeshPath::*)()>(&UnityEngine::AI::NavMeshPath::get_status)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AI::NavMeshPath*), "get_status", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -130,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::AI::NavMeshPath::InitializeNavMeshPath
 // Il2CppName: InitializeNavMeshPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&UnityEngine::AI::NavMeshPath::InitializeNavMeshPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&UnityEngine::AI::NavMeshPath::InitializeNavMeshPath)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AI::NavMeshPath*), "InitializeNavMeshPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -138,7 +138,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::AI::NavMeshPath::DestroyNavMeshPath
 // Il2CppName: DestroyNavMeshPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&UnityEngine::AI::NavMeshPath::DestroyNavMeshPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&UnityEngine::AI::NavMeshPath::DestroyNavMeshPath)> {
   static const MethodInfo* get() {
     static auto* ptr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AI::NavMeshPath*), "DestroyNavMeshPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ptr});
@@ -147,7 +147,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::AI::NavMeshPath::CalculateCornersInternal
 // Il2CppName: CalculateCornersInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector3> (UnityEngine::AI::NavMeshPath::*)()>(&UnityEngine::AI::NavMeshPath::CalculateCornersInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Vector3> (UnityEngine::AI::NavMeshPath::*)()>(&UnityEngine::AI::NavMeshPath::CalculateCornersInternal)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AI::NavMeshPath*), "CalculateCornersInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

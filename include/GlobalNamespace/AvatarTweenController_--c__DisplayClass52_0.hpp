@@ -22,8 +22,8 @@ namespace UnityEngine {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::AvatarTweenController::$$c__DisplayClass52_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarTweenController::$$c__DisplayClass52_0*, "", "AvatarTweenController/<>c__DisplayClass52_0");
+NEED_NO_BOX(::GlobalNamespace::AvatarTweenController::$$c__DisplayClass52_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AvatarTweenController::$$c__DisplayClass52_0*, "", "AvatarTweenController/<>c__DisplayClass52_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x24
@@ -45,20 +45,20 @@ namespace GlobalNamespace {
     // public UnityEngine.Transform partTransform
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::Transform* partTransform;
+    ::UnityEngine::Transform* partTransform;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // public UnityEngine.Vector3 originalScale
     // Size: 0xC
     // Offset: 0x18
-    UnityEngine::Vector3 originalScale;
+    ::UnityEngine::Vector3 originalScale;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     public:
     // Get instance field reference: public UnityEngine.Transform partTransform
-    UnityEngine::Transform*& dyn_partTransform();
+    ::UnityEngine::Transform*& dyn_partTransform();
     // Get instance field reference: public UnityEngine.Vector3 originalScale
-    UnityEngine::Vector3& dyn_originalScale();
+    ::UnityEngine::Vector3& dyn_originalScale();
     // System.Void <CreatePopTween>b__0(System.Single val)
     // Offset: 0x14972C0
     void $CreatePopTween$b__0(float val);
@@ -68,12 +68,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AvatarTweenController::$$c__DisplayClass52_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AvatarTweenController::$$c__DisplayClass52_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AvatarTweenController::$$c__DisplayClass52_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AvatarTweenController::$$c__DisplayClass52_0*, creationType>()));
     }
   }; // AvatarTweenController/<>c__DisplayClass52_0
   #pragma pack(pop)
-  static check_size<sizeof(AvatarTweenController::$$c__DisplayClass52_0), 24 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_AvatarTweenController_$$c__DisplayClass52_0SizeCheck;
+  static check_size<sizeof(AvatarTweenController::$$c__DisplayClass52_0), 24 + sizeof(::UnityEngine::Vector3)> __GlobalNamespace_AvatarTweenController_$$c__DisplayClass52_0SizeCheck;
   static_assert(sizeof(AvatarTweenController::$$c__DisplayClass52_0) == 0x24);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

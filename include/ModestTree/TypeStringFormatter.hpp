@@ -29,8 +29,8 @@ namespace ModestTree {
   class TypeStringFormatter;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(ModestTree::TypeStringFormatter);
-DEFINE_IL2CPP_ARG_TYPE(ModestTree::TypeStringFormatter*, "ModestTree", "TypeStringFormatter");
+NEED_NO_BOX(::ModestTree::TypeStringFormatter);
+DEFINE_IL2CPP_ARG_TYPE(::ModestTree::TypeStringFormatter*, "ModestTree", "TypeStringFormatter");
 // Type namespace: ModestTree
 namespace ModestTree {
   // Size: 0x10
@@ -40,21 +40,21 @@ namespace ModestTree {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class TypeStringFormatter : public ::Il2CppObject {
     public:
-    // Nested type: ModestTree::TypeStringFormatter::$$c
+    // Nested type: ::ModestTree::TypeStringFormatter::$$c
     class $$c;
     // Get static field: static private readonly System.Collections.Generic.Dictionary`2<System.Type,System.String> _prettyNameCache
-    static System::Collections::Generic::Dictionary_2<System::Type*, ::StringW>* _get__prettyNameCache();
+    static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::StringW>* _get__prettyNameCache();
     // Set static field: static private readonly System.Collections.Generic.Dictionary`2<System.Type,System.String> _prettyNameCache
-    static void _set__prettyNameCache(System::Collections::Generic::Dictionary_2<System::Type*, ::StringW>* value);
+    static void _set__prettyNameCache(::System::Collections::Generic::Dictionary_2<::System::Type*, ::StringW>* value);
     // static private System.Void .cctor()
     // Offset: 0x16D36F0
     static void _cctor();
     // static public System.String PrettyName(System.Type type)
     // Offset: 0x16D0FD4
-    static ::StringW PrettyName(System::Type* type);
+    static ::StringW PrettyName(::System::Type* type);
     // static private System.String PrettyNameInternal(System.Type type)
     // Offset: 0x16D3050
-    static ::StringW PrettyNameInternal(System::Type* type);
+    static ::StringW PrettyNameInternal(::System::Type* type);
     // static private System.String GetCSharpTypeName(System.String typeName)
     // Offset: 0x16D3484
     static ::StringW GetCSharpTypeName(::StringW typeName);
@@ -73,7 +73,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: ModestTree::TypeStringFormatter::PrettyName
 // Il2CppName: PrettyName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Type*)>(&ModestTree::TypeStringFormatter::PrettyName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Type*)>(&ModestTree::TypeStringFormatter::PrettyName)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeStringFormatter*), "PrettyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -82,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: ModestTree::TypeStringFormatter::PrettyNameInternal
 // Il2CppName: PrettyNameInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Type*)>(&ModestTree::TypeStringFormatter::PrettyNameInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Type*)>(&ModestTree::TypeStringFormatter::PrettyNameInternal)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeStringFormatter*), "PrettyNameInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});

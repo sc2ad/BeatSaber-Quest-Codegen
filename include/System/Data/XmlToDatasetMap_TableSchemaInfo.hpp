@@ -20,8 +20,8 @@ namespace System::Data {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Data::XmlToDatasetMap::TableSchemaInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::Data::XmlToDatasetMap::TableSchemaInfo*, "System.Data", "XmlToDatasetMap/TableSchemaInfo");
+NEED_NO_BOX(::System::Data::XmlToDatasetMap::TableSchemaInfo);
+DEFINE_IL2CPP_ARG_TYPE(::System::Data::XmlToDatasetMap::TableSchemaInfo*, "System.Data", "XmlToDatasetMap/TableSchemaInfo");
 // Type namespace: System.Data
 namespace System::Data {
   // Size: 0x20
@@ -42,30 +42,30 @@ namespace System::Data {
     // public System.Data.DataTable TableSchema
     // Size: 0x8
     // Offset: 0x10
-    System::Data::DataTable* TableSchema;
+    ::System::Data::DataTable* TableSchema;
     // Field size check
-    static_assert(sizeof(System::Data::DataTable*) == 0x8);
+    static_assert(sizeof(::System::Data::DataTable*) == 0x8);
     // public System.Data.XmlToDatasetMap/System.Data.XmlNodeIdHashtable ColumnsSchemaMap
     // Size: 0x8
     // Offset: 0x18
-    System::Data::XmlToDatasetMap::XmlNodeIdHashtable* ColumnsSchemaMap;
+    ::System::Data::XmlToDatasetMap::XmlNodeIdHashtable* ColumnsSchemaMap;
     // Field size check
-    static_assert(sizeof(System::Data::XmlToDatasetMap::XmlNodeIdHashtable*) == 0x8);
+    static_assert(sizeof(::System::Data::XmlToDatasetMap::XmlNodeIdHashtable*) == 0x8);
     public:
     // Get instance field reference: public System.Data.DataTable TableSchema
-    System::Data::DataTable*& dyn_TableSchema();
+    ::System::Data::DataTable*& dyn_TableSchema();
     // Get instance field reference: public System.Data.XmlToDatasetMap/System.Data.XmlNodeIdHashtable ColumnsSchemaMap
-    System::Data::XmlToDatasetMap::XmlNodeIdHashtable*& dyn_ColumnsSchemaMap();
+    ::System::Data::XmlToDatasetMap::XmlNodeIdHashtable*& dyn_ColumnsSchemaMap();
     // public System.Void .ctor(System.Data.DataTable tableSchema)
     // Offset: 0x2417334
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlToDatasetMap::TableSchemaInfo* New_ctor(System::Data::DataTable* tableSchema) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Data::XmlToDatasetMap::TableSchemaInfo::.ctor");
+    static XmlToDatasetMap::TableSchemaInfo* New_ctor(::System::Data::DataTable* tableSchema) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Data::XmlToDatasetMap::TableSchemaInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlToDatasetMap::TableSchemaInfo*, creationType>(tableSchema)));
     }
   }; // System.Data.XmlToDatasetMap/System.Data.TableSchemaInfo
   #pragma pack(pop)
-  static check_size<sizeof(XmlToDatasetMap::TableSchemaInfo), 24 + sizeof(System::Data::XmlToDatasetMap::XmlNodeIdHashtable*)> __System_Data_XmlToDatasetMap_TableSchemaInfoSizeCheck;
+  static check_size<sizeof(XmlToDatasetMap::TableSchemaInfo), 24 + sizeof(::System::Data::XmlToDatasetMap::XmlNodeIdHashtable*)> __System_Data_XmlToDatasetMap_TableSchemaInfoSizeCheck;
   static_assert(sizeof(XmlToDatasetMap::TableSchemaInfo) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

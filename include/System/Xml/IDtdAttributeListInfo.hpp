@@ -27,8 +27,8 @@ namespace System::Xml {
   class IDtdAttributeListInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::IDtdAttributeListInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::IDtdAttributeListInfo*, "System.Xml", "IDtdAttributeListInfo");
+NEED_NO_BOX(::System::Xml::IDtdAttributeListInfo);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::IDtdAttributeListInfo*, "System.Xml", "IDtdAttributeListInfo");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x10
@@ -42,10 +42,10 @@ namespace System::Xml {
     bool get_HasNonCDataAttributes();
     // public System.Xml.IDtdAttributeInfo LookupAttribute(System.String prefix, System.String localName)
     // Offset: 0xFFFFFFFF
-    System::Xml::IDtdAttributeInfo* LookupAttribute(::StringW prefix, ::StringW localName);
+    ::System::Xml::IDtdAttributeInfo* LookupAttribute(::StringW prefix, ::StringW localName);
     // public System.Collections.Generic.IEnumerable`1<System.Xml.IDtdDefaultAttributeInfo> LookupDefaultAttributes()
     // Offset: 0xFFFFFFFF
-    System::Collections::Generic::IEnumerable_1<System::Xml::IDtdDefaultAttributeInfo*>* LookupDefaultAttributes();
+    ::System::Collections::Generic::IEnumerable_1<::System::Xml::IDtdDefaultAttributeInfo*>* LookupDefaultAttributes();
   }; // System.Xml.IDtdAttributeListInfo
   #pragma pack(pop)
 }
@@ -61,7 +61,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Xml::IDtdAttributeListInfo::LookupAttribute
 // Il2CppName: LookupAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::IDtdAttributeInfo* (System::Xml::IDtdAttributeListInfo::*)(::StringW, ::StringW)>(&System::Xml::IDtdAttributeListInfo::LookupAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::IDtdAttributeInfo* (System::Xml::IDtdAttributeListInfo::*)(::StringW, ::StringW)>(&System::Xml::IDtdAttributeListInfo::LookupAttribute)> {
   static const MethodInfo* get() {
     static auto* prefix = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* localName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -71,7 +71,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::IDtdAttributeListInfo::LookupDefaultAttributes
 // Il2CppName: LookupDefaultAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<System::Xml::IDtdDefaultAttributeInfo*>* (System::Xml::IDtdAttributeListInfo::*)()>(&System::Xml::IDtdAttributeListInfo::LookupDefaultAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Xml::IDtdDefaultAttributeInfo*>* (System::Xml::IDtdAttributeListInfo::*)()>(&System::Xml::IDtdAttributeListInfo::LookupDefaultAttributes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::IDtdAttributeListInfo*), "LookupDefaultAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

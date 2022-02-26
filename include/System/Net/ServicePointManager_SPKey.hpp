@@ -20,8 +20,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::ServicePointManager::SPKey);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::ServicePointManager::SPKey*, "System.Net", "ServicePointManager/SPKey");
+NEED_NO_BOX(::System::Net::ServicePointManager::SPKey);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::ServicePointManager::SPKey*, "System.Net", "ServicePointManager/SPKey");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x21
@@ -42,15 +42,15 @@ namespace System::Net {
     // private System.Uri uri
     // Size: 0x8
     // Offset: 0x10
-    System::Uri* uri;
+    ::System::Uri* uri;
     // Field size check
-    static_assert(sizeof(System::Uri*) == 0x8);
+    static_assert(sizeof(::System::Uri*) == 0x8);
     // private System.Uri proxy
     // Size: 0x8
     // Offset: 0x18
-    System::Uri* proxy;
+    ::System::Uri* proxy;
     // Field size check
-    static_assert(sizeof(System::Uri*) == 0x8);
+    static_assert(sizeof(::System::Uri*) == 0x8);
     // private System.Boolean use_connect
     // Size: 0x1
     // Offset: 0x20
@@ -59,9 +59,9 @@ namespace System::Net {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.Uri uri
-    System::Uri*& dyn_uri();
+    ::System::Uri*& dyn_uri();
     // Get instance field reference: private System.Uri proxy
-    System::Uri*& dyn_proxy();
+    ::System::Uri*& dyn_proxy();
     // Get instance field reference: private System.Boolean use_connect
     bool& dyn_use_connect();
     // public System.Boolean get_UsesProxy()
@@ -70,8 +70,8 @@ namespace System::Net {
     // public System.Void .ctor(System.Uri uri, System.Uri proxy, System.Boolean use_connect)
     // Offset: 0x17B49EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ServicePointManager::SPKey* New_ctor(System::Uri* uri, System::Uri* proxy, bool use_connect) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::ServicePointManager::SPKey::.ctor");
+    static ServicePointManager::SPKey* New_ctor(::System::Uri* uri, ::System::Uri* proxy, bool use_connect) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::ServicePointManager::SPKey::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ServicePointManager::SPKey*, creationType>(uri, proxy, use_connect)));
     }
     // public override System.Int32 GetHashCode()

@@ -14,8 +14,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::LocalLeaderboardsModel::ScoreData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalLeaderboardsModel::ScoreData*, "", "LocalLeaderboardsModel/ScoreData");
+NEED_NO_BOX(::GlobalNamespace::LocalLeaderboardsModel::ScoreData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LocalLeaderboardsModel::ScoreData*, "", "LocalLeaderboardsModel/ScoreData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x30
@@ -76,7 +76,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalLeaderboardsModel::ScoreData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LocalLeaderboardsModel::ScoreData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LocalLeaderboardsModel::ScoreData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalLeaderboardsModel::ScoreData*, creationType>()));
     }
   }; // LocalLeaderboardsModel/ScoreData

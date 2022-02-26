@@ -25,8 +25,8 @@ namespace GlobalNamespace {
   class ICertificateValidator;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::ICertificateValidator);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ICertificateValidator*, "", "ICertificateValidator");
+NEED_NO_BOX(::GlobalNamespace::ICertificateValidator);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ICertificateValidator*, "", "ICertificateValidator");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     public:
     // public System.Void ValidateCertificateChain(DnsEndPoint endPoint, System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, System.Byte[][] certificateChain)
     // Offset: 0xFFFFFFFF
-    void ValidateCertificateChain(GlobalNamespace::DnsEndPoint* endPoint, System::Security::Cryptography::X509Certificates::X509Certificate2* certificate, ::ArrayW<::ArrayW<uint8_t>> certificateChain);
+    void ValidateCertificateChain(::GlobalNamespace::DnsEndPoint* endPoint, ::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate, ::ArrayW<::ArrayW<uint8_t>> certificateChain);
   }; // ICertificateValidator
   #pragma pack(pop)
 }
@@ -45,7 +45,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::ICertificateValidator::ValidateCertificateChain
 // Il2CppName: ValidateCertificateChain
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ICertificateValidator::*)(GlobalNamespace::DnsEndPoint*, System::Security::Cryptography::X509Certificates::X509Certificate2*, ::ArrayW<::ArrayW<uint8_t>>)>(&GlobalNamespace::ICertificateValidator::ValidateCertificateChain)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ICertificateValidator::*)(::GlobalNamespace::DnsEndPoint*, ::System::Security::Cryptography::X509Certificates::X509Certificate2*, ::ArrayW<::ArrayW<uint8_t>>)>(&GlobalNamespace::ICertificateValidator::ValidateCertificateChain)> {
   static const MethodInfo* get() {
     static auto* endPoint = &::il2cpp_utils::GetClassFromName("", "DnsEndPoint")->byval_arg;
     static auto* certificate = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509Certificate2")->byval_arg;

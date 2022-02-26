@@ -26,8 +26,8 @@ namespace System::Xml::Schema {
   class KSStruct;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Schema::KSStruct);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::KSStruct*, "System.Xml.Schema", "KSStruct");
+NEED_NO_BOX(::System::Xml::Schema::KSStruct);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::KSStruct*, "System.Xml.Schema", "KSStruct");
 // Type namespace: System.Xml.Schema
 namespace System::Xml::Schema {
   // Size: 0x28
@@ -56,32 +56,32 @@ namespace System::Xml::Schema {
     // public System.Xml.Schema.KeySequence ks
     // Size: 0x8
     // Offset: 0x18
-    System::Xml::Schema::KeySequence* ks;
+    ::System::Xml::Schema::KeySequence* ks;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::KeySequence*) == 0x8);
+    static_assert(sizeof(::System::Xml::Schema::KeySequence*) == 0x8);
     // public System.Xml.Schema.LocatedActiveAxis[] fields
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayW<System::Xml::Schema::LocatedActiveAxis*> fields;
+    ::ArrayW<::System::Xml::Schema::LocatedActiveAxis*> fields;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::Xml::Schema::LocatedActiveAxis*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::System::Xml::Schema::LocatedActiveAxis*>) == 0x8);
     public:
     // Get instance field reference: public System.Int32 depth
     int& dyn_depth();
     // Get instance field reference: public System.Xml.Schema.KeySequence ks
-    System::Xml::Schema::KeySequence*& dyn_ks();
+    ::System::Xml::Schema::KeySequence*& dyn_ks();
     // Get instance field reference: public System.Xml.Schema.LocatedActiveAxis[] fields
-    ::ArrayW<System::Xml::Schema::LocatedActiveAxis*>& dyn_fields();
+    ::ArrayW<::System::Xml::Schema::LocatedActiveAxis*>& dyn_fields();
     // public System.Void .ctor(System.Xml.Schema.KeySequence ks, System.Int32 dim)
     // Offset: 0x149A15C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static KSStruct* New_ctor(System::Xml::Schema::KeySequence* ks, int dim) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Schema::KSStruct::.ctor");
+    static KSStruct* New_ctor(::System::Xml::Schema::KeySequence* ks, int dim) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::KSStruct::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KSStruct*, creationType>(ks, dim)));
     }
   }; // System.Xml.Schema.KSStruct
   #pragma pack(pop)
-  static check_size<sizeof(KSStruct), 32 + sizeof(::ArrayW<System::Xml::Schema::LocatedActiveAxis*>)> __System_Xml_Schema_KSStructSizeCheck;
+  static check_size<sizeof(KSStruct), 32 + sizeof(::ArrayW<::System::Xml::Schema::LocatedActiveAxis*>)> __System_Xml_Schema_KSStructSizeCheck;
   static_assert(sizeof(KSStruct) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

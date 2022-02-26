@@ -15,8 +15,8 @@ namespace System {
   class GC;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::GC);
-DEFINE_IL2CPP_ARG_TYPE(System::GC*, "System", "GC");
+NEED_NO_BOX(::System::GC);
+DEFINE_IL2CPP_ARG_TYPE(::System::GC*, "System", "GC");
 // Type namespace: System
 namespace System {
   // Size: 0x10
@@ -46,7 +46,7 @@ namespace System {
     static void InternalCollect(int generation);
     // static System.Void register_ephemeron_array(System.Runtime.CompilerServices.Ephemeron[] array)
     // Offset: 0x188A268
-    static void register_ephemeron_array(::ArrayW<System::Runtime::CompilerServices::Ephemeron> array);
+    static void register_ephemeron_array(::ArrayW<::System::Runtime::CompilerServices::Ephemeron> array);
     // static private System.Object get_ephemeron_tombstone()
     // Offset: 0x188A26C
     static ::Il2CppObject* get_ephemeron_tombstone();
@@ -120,7 +120,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 // Writing MetadataGetter for method: System::GC::register_ephemeron_array
 // Il2CppName: register_ephemeron_array
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<System::Runtime::CompilerServices::Ephemeron>)>(&System::GC::register_ephemeron_array)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<::System::Runtime::CompilerServices::Ephemeron>)>(&System::GC::register_ephemeron_array)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Runtime.CompilerServices", "Ephemeron"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::GC*), "register_ephemeron_array", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});

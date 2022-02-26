@@ -18,8 +18,8 @@ namespace UnityEngine {
   class ExtensionOfNativeClassAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ExtensionOfNativeClassAttribute);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ExtensionOfNativeClassAttribute*, "UnityEngine", "ExtensionOfNativeClassAttribute");
+NEED_NO_BOX(::UnityEngine::ExtensionOfNativeClassAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ExtensionOfNativeClassAttribute*, "UnityEngine", "ExtensionOfNativeClassAttribute");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -28,7 +28,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [RequiredByNativeCodeAttribute] Offset: 11A5DD0
   // [AttributeUsageAttribute] Offset: 11A5DD0
-  class ExtensionOfNativeClassAttribute : public System::Attribute {
+  class ExtensionOfNativeClassAttribute : public ::System::Attribute {
     public:
     // public System.Void .ctor()
     // Offset: 0x1EBC5A8
@@ -37,7 +37,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExtensionOfNativeClassAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ExtensionOfNativeClassAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ExtensionOfNativeClassAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExtensionOfNativeClassAttribute*, creationType>()));
     }
   }; // UnityEngine.ExtensionOfNativeClassAttribute

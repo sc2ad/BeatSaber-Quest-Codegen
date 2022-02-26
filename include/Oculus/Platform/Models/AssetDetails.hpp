@@ -26,8 +26,8 @@ namespace Oculus::Platform::Models {
   class AssetDetails;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::AssetDetails);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::AssetDetails*, "Oculus.Platform.Models", "AssetDetails");
+NEED_NO_BOX(::Oculus::Platform::Models::AssetDetails);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::AssetDetails*, "Oculus.Platform.Models", "AssetDetails");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x50
@@ -78,16 +78,16 @@ namespace Oculus::Platform::Models {
     // public readonly Oculus.Platform.Models.LanguagePackInfo LanguageOptional
     // Size: 0x8
     // Offset: 0x38
-    Oculus::Platform::Models::LanguagePackInfo* LanguageOptional;
+    ::Oculus::Platform::Models::LanguagePackInfo* LanguageOptional;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::Models::LanguagePackInfo*) == 0x8);
+    static_assert(sizeof(::Oculus::Platform::Models::LanguagePackInfo*) == 0x8);
     // [ObsoleteAttribute] Offset: 0x12324A0
     // public readonly Oculus.Platform.Models.LanguagePackInfo Language
     // Size: 0x8
     // Offset: 0x40
-    Oculus::Platform::Models::LanguagePackInfo* Language;
+    ::Oculus::Platform::Models::LanguagePackInfo* Language;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::Models::LanguagePackInfo*) == 0x8);
+    static_assert(sizeof(::Oculus::Platform::Models::LanguagePackInfo*) == 0x8);
     // public readonly System.String Metadata
     // Size: 0x8
     // Offset: 0x48
@@ -106,16 +106,16 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.String IapStatus
     ::StringW& dyn_IapStatus();
     // Get instance field reference: public readonly Oculus.Platform.Models.LanguagePackInfo LanguageOptional
-    Oculus::Platform::Models::LanguagePackInfo*& dyn_LanguageOptional();
+    ::Oculus::Platform::Models::LanguagePackInfo*& dyn_LanguageOptional();
     // Get instance field reference: public readonly Oculus.Platform.Models.LanguagePackInfo Language
-    Oculus::Platform::Models::LanguagePackInfo*& dyn_Language();
+    ::Oculus::Platform::Models::LanguagePackInfo*& dyn_Language();
     // Get instance field reference: public readonly System.String Metadata
     ::StringW& dyn_Metadata();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x1963808
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AssetDetails* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::AssetDetails::.ctor");
+    static AssetDetails* New_ctor(::System::IntPtr o) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::AssetDetails::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssetDetails*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.AssetDetails

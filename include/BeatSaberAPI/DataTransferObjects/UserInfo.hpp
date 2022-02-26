@@ -17,8 +17,8 @@ namespace BeatSaberAPI::DataTransferObjects {
   class UserInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(BeatSaberAPI::DataTransferObjects::UserInfo);
-DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::UserInfo*, "BeatSaberAPI.DataTransferObjects", "UserInfo");
+NEED_NO_BOX(::BeatSaberAPI::DataTransferObjects::UserInfo);
+DEFINE_IL2CPP_ARG_TYPE(::BeatSaberAPI::DataTransferObjects::UserInfo*, "BeatSaberAPI.DataTransferObjects", "UserInfo");
 // Type namespace: BeatSaberAPI.DataTransferObjects
 namespace BeatSaberAPI::DataTransferObjects {
   // Size: 0x20
@@ -59,7 +59,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UserInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("BeatSaberAPI::DataTransferObjects::UserInfo::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::BeatSaberAPI::DataTransferObjects::UserInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UserInfo*, creationType>()));
     }
   }; // BeatSaberAPI.DataTransferObjects.UserInfo

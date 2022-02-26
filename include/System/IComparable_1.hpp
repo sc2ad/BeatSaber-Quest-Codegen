@@ -16,7 +16,7 @@ namespace System {
   class IComparable_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::IComparable_1, "System", "IComparable`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::IComparable_1, "System", "IComparable`1");
 // Type namespace: System
 namespace System {
   // WARNING Size may be invalid!
@@ -28,7 +28,7 @@ namespace System {
     // public System.Int32 CompareTo(T other)
     // Offset: 0xFFFFFFFF
     int CompareTo(T other) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::IComparable_1::CompareTo");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::IComparable_1::CompareTo");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CompareTo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(other)})));
       return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___internal__method, other);
     }

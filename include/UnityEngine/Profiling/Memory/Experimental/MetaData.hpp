@@ -17,8 +17,8 @@ namespace UnityEngine::Profiling::Memory::Experimental {
   class MetaData;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Profiling::Memory::Experimental::MetaData);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Profiling::Memory::Experimental::MetaData*, "UnityEngine.Profiling.Memory.Experimental", "MetaData");
+NEED_NO_BOX(::UnityEngine::Profiling::Memory::Experimental::MetaData);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Profiling::Memory::Experimental::MetaData*, "UnityEngine.Profiling.Memory.Experimental", "MetaData");
 // Type namespace: UnityEngine.Profiling.Memory.Experimental
 namespace UnityEngine::Profiling::Memory::Experimental {
   // Size: 0x20
@@ -59,7 +59,7 @@ namespace UnityEngine::Profiling::Memory::Experimental {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MetaData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Profiling::Memory::Experimental::MetaData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Profiling::Memory::Experimental::MetaData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MetaData*, creationType>()));
     }
   }; // UnityEngine.Profiling.Memory.Experimental.MetaData

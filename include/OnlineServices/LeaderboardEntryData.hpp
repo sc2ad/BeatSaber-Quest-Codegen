@@ -24,8 +24,8 @@ namespace OnlineServices {
   class LeaderboardEntryData;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(OnlineServices::LeaderboardEntryData);
-DEFINE_IL2CPP_ARG_TYPE(OnlineServices::LeaderboardEntryData*, "OnlineServices", "LeaderboardEntryData");
+NEED_NO_BOX(::OnlineServices::LeaderboardEntryData);
+DEFINE_IL2CPP_ARG_TYPE(::OnlineServices::LeaderboardEntryData*, "OnlineServices", "LeaderboardEntryData");
 // Type namespace: OnlineServices
 namespace OnlineServices {
   // Size: 0x30
@@ -70,9 +70,9 @@ namespace OnlineServices {
     // public readonly GameplayModifiers gameplayModifiers
     // Size: 0x8
     // Offset: 0x28
-    GlobalNamespace::GameplayModifiers* gameplayModifiers;
+    ::GlobalNamespace::GameplayModifiers* gameplayModifiers;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::GameplayModifiers*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::GameplayModifiers*) == 0x8);
     public:
     // Get instance field reference: public readonly System.Int32 score
     int& dyn_score();
@@ -83,12 +83,12 @@ namespace OnlineServices {
     // Get instance field reference: public readonly System.String playerId
     ::StringW& dyn_playerId();
     // Get instance field reference: public readonly GameplayModifiers gameplayModifiers
-    GlobalNamespace::GameplayModifiers*& dyn_gameplayModifiers();
+    ::GlobalNamespace::GameplayModifiers*& dyn_gameplayModifiers();
     // public System.Void .ctor(System.Int32 score, System.Int32 rank, System.String displayName, System.String playerId, GameplayModifiers gameplayModifiers)
     // Offset: 0x2AB2E38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static LeaderboardEntryData* New_ctor(int score, int rank, ::StringW displayName, ::StringW playerId, GlobalNamespace::GameplayModifiers* gameplayModifiers) {
-      static auto ___internal__logger = ::Logger::get().WithContext("OnlineServices::LeaderboardEntryData::.ctor");
+    static LeaderboardEntryData* New_ctor(int score, int rank, ::StringW displayName, ::StringW playerId, ::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::OnlineServices::LeaderboardEntryData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardEntryData*, creationType>(score, rank, displayName, playerId, gameplayModifiers)));
     }
     // public override System.String ToString()
@@ -98,7 +98,7 @@ namespace OnlineServices {
     ::StringW ToString();
   }; // OnlineServices.LeaderboardEntryData
   #pragma pack(pop)
-  static check_size<sizeof(LeaderboardEntryData), 40 + sizeof(GlobalNamespace::GameplayModifiers*)> __OnlineServices_LeaderboardEntryDataSizeCheck;
+  static check_size<sizeof(LeaderboardEntryData), 40 + sizeof(::GlobalNamespace::GameplayModifiers*)> __OnlineServices_LeaderboardEntryDataSizeCheck;
   static_assert(sizeof(LeaderboardEntryData) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

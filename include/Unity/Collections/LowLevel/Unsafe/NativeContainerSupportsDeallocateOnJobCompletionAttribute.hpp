@@ -18,8 +18,8 @@ namespace Unity::Collections::LowLevel::Unsafe {
   class NativeContainerSupportsDeallocateOnJobCompletionAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsDeallocateOnJobCompletionAttribute);
-DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsDeallocateOnJobCompletionAttribute*, "Unity.Collections.LowLevel.Unsafe", "NativeContainerSupportsDeallocateOnJobCompletionAttribute");
+NEED_NO_BOX(::Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsDeallocateOnJobCompletionAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsDeallocateOnJobCompletionAttribute*, "Unity.Collections.LowLevel.Unsafe", "NativeContainerSupportsDeallocateOnJobCompletionAttribute");
 // Type namespace: Unity.Collections.LowLevel.Unsafe
 namespace Unity::Collections::LowLevel::Unsafe {
   // Size: 0x10
@@ -28,7 +28,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
   // [TokenAttribute] Offset: FFFFFFFF
   // [RequiredByNativeCodeAttribute] Offset: 11A33E0
   // [AttributeUsageAttribute] Offset: 11A33E0
-  class NativeContainerSupportsDeallocateOnJobCompletionAttribute : public System::Attribute {
+  class NativeContainerSupportsDeallocateOnJobCompletionAttribute : public ::System::Attribute {
     public:
     // public System.Void .ctor()
     // Offset: 0x1EA92D4
@@ -37,7 +37,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NativeContainerSupportsDeallocateOnJobCompletionAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsDeallocateOnJobCompletionAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsDeallocateOnJobCompletionAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativeContainerSupportsDeallocateOnJobCompletionAttribute*, creationType>()));
     }
   }; // Unity.Collections.LowLevel.Unsafe.NativeContainerSupportsDeallocateOnJobCompletionAttribute

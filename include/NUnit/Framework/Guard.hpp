@@ -13,8 +13,8 @@ namespace NUnit::Framework {
   class Guard;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Guard);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Guard*, "NUnit.Framework", "Guard");
+NEED_NO_BOX(::NUnit::Framework::Guard);
+DEFINE_IL2CPP_ARG_TYPE(::NUnit::Framework::Guard*, "NUnit.Framework", "Guard");
 // Type namespace: NUnit.Framework
 namespace NUnit::Framework {
   // Size: 0x10

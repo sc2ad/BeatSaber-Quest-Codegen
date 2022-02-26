@@ -11,8 +11,8 @@ namespace UnityEngine::UI {
   class ILayoutIgnorer;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::UI::ILayoutIgnorer);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ILayoutIgnorer*, "UnityEngine.UI", "ILayoutIgnorer");
+NEED_NO_BOX(::UnityEngine::UI::ILayoutIgnorer);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::ILayoutIgnorer*, "UnityEngine.UI", "ILayoutIgnorer");
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {
   // Size: 0x10

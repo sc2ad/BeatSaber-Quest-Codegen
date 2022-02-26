@@ -36,8 +36,8 @@ namespace UnityEngine::ProBuilder {
   class ProBuilderSnapping;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::ProBuilderSnapping);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ProBuilderSnapping*, "UnityEngine.ProBuilder", "ProBuilderSnapping");
+NEED_NO_BOX(::UnityEngine::ProBuilder::ProBuilderSnapping);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::ProBuilderSnapping*, "UnityEngine.ProBuilder", "ProBuilderSnapping");
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
   // Size: 0x10
@@ -52,22 +52,22 @@ namespace UnityEngine::ProBuilder {
     static void _set_k_MaxRaySnapDistance(float value);
     // static public UnityEngine.Vector3 SnapValue(UnityEngine.Vector3 vertex, System.Single snpVal)
     // Offset: 0x1910930
-    static UnityEngine::Vector3 SnapValue(UnityEngine::Vector3 vertex, float snpVal);
+    static ::UnityEngine::Vector3 SnapValue(::UnityEngine::Vector3 vertex, float snpVal);
     // static public System.Single SnapValue(System.Single val, System.Single snpVal)
     // Offset: 0x1910B44
     static float SnapValue(float val, float snpVal);
     // static public UnityEngine.Vector3 SnapValue(UnityEngine.Vector3 vertex, UnityEngine.Vector3 snap)
     // Offset: 0x1910C58
-    static UnityEngine::Vector3 SnapValue(UnityEngine::Vector3 vertex, UnityEngine::Vector3 snap);
+    static ::UnityEngine::Vector3 SnapValue(::UnityEngine::Vector3 vertex, ::UnityEngine::Vector3 snap);
     // static public System.Void SnapVertices(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<System.Int32> indexes, UnityEngine.Vector3 snap)
     // Offset: 0x1910F34
-    static void SnapVertices(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<int>* indexes, UnityEngine::Vector3 snap);
+    static void SnapVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<int>* indexes, ::UnityEngine::Vector3 snap);
     // static UnityEngine.Vector3 GetSnappingMaskBasedOnNormalVector(UnityEngine.Vector3 normal)
     // Offset: 0x1911298
-    static UnityEngine::Vector3 GetSnappingMaskBasedOnNormalVector(UnityEngine::Vector3 normal);
+    static ::UnityEngine::Vector3 GetSnappingMaskBasedOnNormalVector(::UnityEngine::Vector3 normal);
     // static UnityEngine.Vector3 SnapValueOnRay(UnityEngine.Ray ray, System.Single distance, System.Single snap, UnityEngine.ProBuilder.Vector3Mask mask)
     // Offset: 0x19113D0
-    static UnityEngine::Vector3 SnapValueOnRay(UnityEngine::Ray ray, float distance, float snap, UnityEngine::ProBuilder::Vector3Mask mask);
+    static ::UnityEngine::Vector3 SnapValueOnRay(::UnityEngine::Ray ray, float distance, float snap, ::UnityEngine::ProBuilder::Vector3Mask mask);
   }; // UnityEngine.ProBuilder.ProBuilderSnapping
   #pragma pack(pop)
 }
@@ -75,7 +75,7 @@ namespace UnityEngine::ProBuilder {
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderSnapping::SnapValue
 // Il2CppName: SnapValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Vector3, float)>(&UnityEngine::ProBuilder::ProBuilderSnapping::SnapValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3, float)>(&UnityEngine::ProBuilder::ProBuilderSnapping::SnapValue)> {
   static const MethodInfo* get() {
     static auto* vertex = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* snpVal = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -95,7 +95,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(f
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderSnapping::SnapValue
 // Il2CppName: SnapValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&UnityEngine::ProBuilder::ProBuilderSnapping::SnapValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&UnityEngine::ProBuilder::ProBuilderSnapping::SnapValue)> {
   static const MethodInfo* get() {
     static auto* vertex = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* snap = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -105,7 +105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderSnapping::SnapVertices
 // Il2CppName: SnapVertices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IEnumerable_1<int>*, UnityEngine::Vector3)>(&UnityEngine::ProBuilder::ProBuilderSnapping::SnapVertices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<int>*, ::UnityEngine::Vector3)>(&UnityEngine::ProBuilder::ProBuilderSnapping::SnapVertices)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* indexes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
@@ -116,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderSnapping::GetSnappingMaskBasedOnNormalVector
 // Il2CppName: GetSnappingMaskBasedOnNormalVector
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Vector3)>(&UnityEngine::ProBuilder::ProBuilderSnapping::GetSnappingMaskBasedOnNormalVector)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3)>(&UnityEngine::ProBuilder::ProBuilderSnapping::GetSnappingMaskBasedOnNormalVector)> {
   static const MethodInfo* get() {
     static auto* normal = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ProBuilderSnapping*), "GetSnappingMaskBasedOnNormalVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{normal});
@@ -125,7 +125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderSnapping::SnapValueOnRay
 // Il2CppName: SnapValueOnRay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Ray, float, float, UnityEngine::ProBuilder::Vector3Mask)>(&UnityEngine::ProBuilder::ProBuilderSnapping::SnapValueOnRay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Ray, float, float, ::UnityEngine::ProBuilder::Vector3Mask)>(&UnityEngine::ProBuilder::ProBuilderSnapping::SnapValueOnRay)> {
   static const MethodInfo* get() {
     static auto* ray = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->byval_arg;
     static auto* distance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

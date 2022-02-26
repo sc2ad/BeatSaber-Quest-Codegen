@@ -12,8 +12,8 @@ namespace System::Runtime::Versioning {
   class BinaryCompatibility;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Versioning::BinaryCompatibility);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Versioning::BinaryCompatibility*, "System.Runtime.Versioning", "BinaryCompatibility");
+NEED_NO_BOX(::System::Runtime::Versioning::BinaryCompatibility);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Versioning::BinaryCompatibility*, "System.Runtime.Versioning", "BinaryCompatibility");
 // Type namespace: System.Runtime.Versioning
 namespace System::Runtime::Versioning {
   // Size: 0x10

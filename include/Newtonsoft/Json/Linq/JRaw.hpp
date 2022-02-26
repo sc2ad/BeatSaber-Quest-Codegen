@@ -29,8 +29,8 @@ namespace Newtonsoft::Json::Linq {
   class JRaw;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Linq::JRaw);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Linq::JRaw*, "Newtonsoft.Json.Linq", "JRaw");
+NEED_NO_BOX(::Newtonsoft::Json::Linq::JRaw);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Linq::JRaw*, "Newtonsoft.Json.Linq", "JRaw");
 // Type namespace: Newtonsoft.Json.Linq
 namespace Newtonsoft::Json::Linq {
   // Size: 0x40
@@ -39,32 +39,32 @@ namespace Newtonsoft::Json::Linq {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NullableContextAttribute] Offset: 12032BC
   // [NullableAttribute] Offset: 12032BC
-  class JRaw : public Newtonsoft::Json::Linq::JValue {
+  class JRaw : public ::Newtonsoft::Json::Linq::JValue {
     public:
     // public System.Void .ctor(Newtonsoft.Json.Linq.JRaw other)
     // Offset: 0x1C51C94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static JRaw* New_ctor(Newtonsoft::Json::Linq::JRaw* other) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Linq::JRaw::.ctor");
+    static JRaw* New_ctor(::Newtonsoft::Json::Linq::JRaw* other) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Linq::JRaw::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JRaw*, creationType>(other)));
     }
     // static public Newtonsoft.Json.Linq.JRaw Create(Newtonsoft.Json.JsonReader reader)
     // Offset: 0x1C51CA8
-    static Newtonsoft::Json::Linq::JRaw* Create(Newtonsoft::Json::JsonReader* reader);
+    static ::Newtonsoft::Json::Linq::JRaw* Create(::Newtonsoft::Json::JsonReader* reader);
     // public System.Void .ctor(System.Object rawJson)
     // Offset: 0x1C51C9C
     // Implemented from: Newtonsoft.Json.Linq.JValue
     // Base method: System.Void JValue::.ctor(System.Object rawJson)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JRaw* New_ctor(::Il2CppObject* rawJson) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Linq::JRaw::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Linq::JRaw::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JRaw*, creationType>(rawJson)));
     }
     // override Newtonsoft.Json.Linq.JToken CloneToken()
     // Offset: 0x1C51F10
     // Implemented from: Newtonsoft.Json.Linq.JValue
     // Base method: Newtonsoft.Json.Linq.JToken JValue::CloneToken()
-    Newtonsoft::Json::Linq::JToken* CloneToken();
+    ::Newtonsoft::Json::Linq::JToken* CloneToken();
   }; // Newtonsoft.Json.Linq.JRaw
   #pragma pack(pop)
 }
@@ -76,7 +76,7 @@ namespace Newtonsoft::Json::Linq {
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JRaw::Create
 // Il2CppName: Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Linq::JRaw* (*)(Newtonsoft::Json::JsonReader*)>(&Newtonsoft::Json::Linq::JRaw::Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Linq::JRaw* (*)(::Newtonsoft::Json::JsonReader*)>(&Newtonsoft::Json::Linq::JRaw::Create)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonReader")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JRaw*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader});
@@ -89,7 +89,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft:
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JRaw::CloneToken
 // Il2CppName: CloneToken
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Linq::JToken* (Newtonsoft::Json::Linq::JRaw::*)()>(&Newtonsoft::Json::Linq::JRaw::CloneToken)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Linq::JToken* (Newtonsoft::Json::Linq::JRaw::*)()>(&Newtonsoft::Json::Linq::JRaw::CloneToken)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JRaw*), "CloneToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

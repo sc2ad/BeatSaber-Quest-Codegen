@@ -23,8 +23,8 @@ namespace GlobalNamespace {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::LeaderboardScoreUploader::ScoreData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardScoreUploader::ScoreData*, "", "LeaderboardScoreUploader/ScoreData");
+NEED_NO_BOX(::GlobalNamespace::LeaderboardScoreUploader::ScoreData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LeaderboardScoreUploader::ScoreData*, "", "LeaderboardScoreUploader/ScoreData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x4C
@@ -51,15 +51,15 @@ namespace GlobalNamespace {
     // private IDifficultyBeatmap <beatmap>k__BackingField
     // Size: 0x8
     // Offset: 0x18
-    GlobalNamespace::IDifficultyBeatmap* beatmap;
+    ::GlobalNamespace::IDifficultyBeatmap* beatmap;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::IDifficultyBeatmap*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::IDifficultyBeatmap*) == 0x8);
     // private GameplayModifiers <gameplayModifiers>k__BackingField
     // Size: 0x8
     // Offset: 0x20
-    GlobalNamespace::GameplayModifiers* gameplayModifiers;
+    ::GlobalNamespace::GameplayModifiers* gameplayModifiers;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::GameplayModifiers*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::GameplayModifiers*) == 0x8);
     // private System.Int32 <rawScore>k__BackingField
     // Size: 0x4
     // Offset: 0x28
@@ -120,9 +120,9 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String <playerId>k__BackingField
     ::StringW& dyn_$playerId$k__BackingField();
     // Get instance field reference: private IDifficultyBeatmap <beatmap>k__BackingField
-    GlobalNamespace::IDifficultyBeatmap*& dyn_$beatmap$k__BackingField();
+    ::GlobalNamespace::IDifficultyBeatmap*& dyn_$beatmap$k__BackingField();
     // Get instance field reference: private GameplayModifiers <gameplayModifiers>k__BackingField
-    GlobalNamespace::GameplayModifiers*& dyn_$gameplayModifiers$k__BackingField();
+    ::GlobalNamespace::GameplayModifiers*& dyn_$gameplayModifiers$k__BackingField();
     // Get instance field reference: private System.Int32 <rawScore>k__BackingField
     int& dyn_$rawScore$k__BackingField();
     // Get instance field reference: private System.Int32 <modifiedScore>k__BackingField
@@ -149,16 +149,16 @@ namespace GlobalNamespace {
     void set_playerId(::StringW value);
     // public IDifficultyBeatmap get_beatmap()
     // Offset: 0x13B0E90
-    GlobalNamespace::IDifficultyBeatmap* get_beatmap();
+    ::GlobalNamespace::IDifficultyBeatmap* get_beatmap();
     // private System.Void set_beatmap(IDifficultyBeatmap value)
     // Offset: 0x13B0E98
-    void set_beatmap(GlobalNamespace::IDifficultyBeatmap* value);
+    void set_beatmap(::GlobalNamespace::IDifficultyBeatmap* value);
     // public GameplayModifiers get_gameplayModifiers()
     // Offset: 0x13B0EA0
-    GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
+    ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // private System.Void set_gameplayModifiers(GameplayModifiers value)
     // Offset: 0x13B0EA8
-    void set_gameplayModifiers(GlobalNamespace::GameplayModifiers* value);
+    void set_gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
     // public System.Int32 get_rawScore()
     // Offset: 0x13B0EB0
     int get_rawScore();
@@ -204,8 +204,8 @@ namespace GlobalNamespace {
     // public System.Void .ctor(System.String playerId, IDifficultyBeatmap beatmap, System.Int32 rawScore, System.Int32 modifiedScore, System.Boolean fullCombo, System.Int32 goodCutsCount, System.Int32 badCutsCount, System.Int32 missedCount, System.Int32 maxCombo, GameplayModifiers gameplayModifiers)
     // Offset: 0x13B0F24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static LeaderboardScoreUploader::ScoreData* New_ctor(::StringW playerId, GlobalNamespace::IDifficultyBeatmap* beatmap, int rawScore, int modifiedScore, bool fullCombo, int goodCutsCount, int badCutsCount, int missedCount, int maxCombo, GlobalNamespace::GameplayModifiers* gameplayModifiers) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LeaderboardScoreUploader::ScoreData::.ctor");
+    static LeaderboardScoreUploader::ScoreData* New_ctor(::StringW playerId, ::GlobalNamespace::IDifficultyBeatmap* beatmap, int rawScore, int modifiedScore, bool fullCombo, int goodCutsCount, int badCutsCount, int missedCount, int maxCombo, ::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LeaderboardScoreUploader::ScoreData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardScoreUploader::ScoreData*, creationType>(playerId, beatmap, rawScore, modifiedScore, fullCombo, goodCutsCount, badCutsCount, missedCount, maxCombo, gameplayModifiers)));
     }
   }; // LeaderboardScoreUploader/ScoreData
@@ -234,7 +234,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardScoreUploader::ScoreData::get_beatmap
 // Il2CppName: get_beatmap
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IDifficultyBeatmap* (GlobalNamespace::LeaderboardScoreUploader::ScoreData::*)()>(&GlobalNamespace::LeaderboardScoreUploader::ScoreData::get_beatmap)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IDifficultyBeatmap* (GlobalNamespace::LeaderboardScoreUploader::ScoreData::*)()>(&GlobalNamespace::LeaderboardScoreUploader::ScoreData::get_beatmap)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardScoreUploader::ScoreData*), "get_beatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -242,7 +242,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardScoreUploader::ScoreData::set_beatmap
 // Il2CppName: set_beatmap
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardScoreUploader::ScoreData::*)(GlobalNamespace::IDifficultyBeatmap*)>(&GlobalNamespace::LeaderboardScoreUploader::ScoreData::set_beatmap)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardScoreUploader::ScoreData::*)(::GlobalNamespace::IDifficultyBeatmap*)>(&GlobalNamespace::LeaderboardScoreUploader::ScoreData::set_beatmap)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmap")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardScoreUploader::ScoreData*), "set_beatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -251,7 +251,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardScoreUploader::ScoreData::get_gameplayModifiers
 // Il2CppName: get_gameplayModifiers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifiers* (GlobalNamespace::LeaderboardScoreUploader::ScoreData::*)()>(&GlobalNamespace::LeaderboardScoreUploader::ScoreData::get_gameplayModifiers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::GameplayModifiers* (GlobalNamespace::LeaderboardScoreUploader::ScoreData::*)()>(&GlobalNamespace::LeaderboardScoreUploader::ScoreData::get_gameplayModifiers)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardScoreUploader::ScoreData*), "get_gameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -259,7 +259,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardScoreUploader::ScoreData::set_gameplayModifiers
 // Il2CppName: set_gameplayModifiers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardScoreUploader::ScoreData::*)(GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::LeaderboardScoreUploader::ScoreData::set_gameplayModifiers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardScoreUploader::ScoreData::*)(::GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::LeaderboardScoreUploader::ScoreData::set_gameplayModifiers)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardScoreUploader::ScoreData*), "set_gameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

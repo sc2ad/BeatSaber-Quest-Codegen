@@ -54,8 +54,8 @@ namespace UnityEngine::Timeline {
   class AudioTrack;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Timeline::AudioTrack);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AudioTrack*, "UnityEngine.Timeline", "AudioTrack");
+NEED_NO_BOX(::UnityEngine::Timeline::AudioTrack);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::AudioTrack*, "UnityEngine.Timeline", "AudioTrack");
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
   // WARNING Size may be invalid!
@@ -64,9 +64,9 @@ namespace UnityEngine::Timeline {
   // [TrackClipTypeAttribute] Offset: 11F0EC0
   // [TrackBindingTypeAttribute] Offset: 11F0EC0
   // [ExcludeFromPresetAttribute] Offset: FFFFFFFF
-  class AudioTrack : public UnityEngine::Timeline::TrackAsset {
+  class AudioTrack : public ::UnityEngine::Timeline::TrackAsset {
     public:
-    // Nested type: UnityEngine::Timeline::AudioTrack::$get_outputs$d__4
+    // Nested type: ::UnityEngine::Timeline::AudioTrack::$get_outputs$d__4
     class $get_outputs$d__4;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -80,15 +80,15 @@ namespace UnityEngine::Timeline {
     // private UnityEngine.Timeline.AudioMixerProperties m_TrackProperties
     // Size: 0x8
     // Offset: 0xA0
-    UnityEngine::Timeline::AudioMixerProperties* m_TrackProperties;
+    ::UnityEngine::Timeline::AudioMixerProperties* m_TrackProperties;
     // Field size check
-    static_assert(sizeof(UnityEngine::Timeline::AudioMixerProperties*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Timeline::AudioMixerProperties*) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.Timeline.AudioMixerProperties m_TrackProperties
-    UnityEngine::Timeline::AudioMixerProperties*& dyn_m_TrackProperties();
+    ::UnityEngine::Timeline::AudioMixerProperties*& dyn_m_TrackProperties();
     // public UnityEngine.Timeline.TimelineClip CreateClip(UnityEngine.AudioClip clip)
     // Offset: 0x1C95C80
-    UnityEngine::Timeline::TimelineClip* CreateClip(UnityEngine::AudioClip* clip);
+    ::UnityEngine::Timeline::TimelineClip* CreateClip(::UnityEngine::AudioClip* clip);
     // private System.Void OnValidate()
     // Offset: 0x1C96510
     void OnValidate();
@@ -96,7 +96,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0x1C96458
     // Implemented from: UnityEngine.Timeline.TrackAsset
     // Base method: System.Collections.Generic.IEnumerable`1<UnityEngine.Playables.PlayableBinding> TrackAsset::get_outputs()
-    System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>* get_outputs();
+    ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* get_outputs();
     // public System.Void .ctor()
     // Offset: 0x1C965D0
     // Implemented from: UnityEngine.Timeline.TrackAsset
@@ -107,14 +107,14 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AudioTrack* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::AudioTrack::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Timeline::AudioTrack::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AudioTrack*, creationType>()));
     }
     // override UnityEngine.Playables.Playable CompileClips(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go, System.Collections.Generic.IList`1<UnityEngine.Timeline.TimelineClip> timelineClips, UnityEngine.Timeline.IntervalTree`1<UnityEngine.Timeline.RuntimeElement> tree)
     // Offset: 0x1C95DC8
     // Implemented from: UnityEngine.Timeline.TrackAsset
     // Base method: UnityEngine.Playables.Playable TrackAsset::CompileClips(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go, System.Collections.Generic.IList`1<UnityEngine.Timeline.TimelineClip> timelineClips, UnityEngine.Timeline.IntervalTree`1<UnityEngine.Timeline.RuntimeElement> tree)
-    UnityEngine::Playables::Playable CompileClips(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* go, System::Collections::Generic::IList_1<UnityEngine::Timeline::TimelineClip*>* timelineClips, UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement*>* tree);
+    ::UnityEngine::Playables::Playable CompileClips(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go, ::System::Collections::Generic::IList_1<::UnityEngine::Timeline::TimelineClip*>* timelineClips, ::UnityEngine::Timeline::IntervalTree_1<::UnityEngine::Timeline::RuntimeElement*>* tree);
   }; // UnityEngine.Timeline.AudioTrack
   // WARNING Not writing size check since size may be invalid!
 }
@@ -122,7 +122,7 @@ namespace UnityEngine::Timeline {
 // Writing MetadataGetter for method: UnityEngine::Timeline::AudioTrack::CreateClip
 // Il2CppName: CreateClip
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip* (UnityEngine::Timeline::AudioTrack::*)(UnityEngine::AudioClip*)>(&UnityEngine::Timeline::AudioTrack::CreateClip)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Timeline::TimelineClip* (UnityEngine::Timeline::AudioTrack::*)(::UnityEngine::AudioClip*)>(&UnityEngine::Timeline::AudioTrack::CreateClip)> {
   static const MethodInfo* get() {
     static auto* clip = &::il2cpp_utils::GetClassFromName("UnityEngine", "AudioClip")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AudioTrack*), "CreateClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clip});
@@ -139,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Timeline::AudioTrack::get_outputs
 // Il2CppName: get_outputs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>* (UnityEngine::Timeline::AudioTrack::*)()>(&UnityEngine::Timeline::AudioTrack::get_outputs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* (UnityEngine::Timeline::AudioTrack::*)()>(&UnityEngine::Timeline::AudioTrack::get_outputs)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AudioTrack*), "get_outputs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -151,7 +151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::Timeline::AudioTrack::CompileClips
 // Il2CppName: CompileClips
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (UnityEngine::Timeline::AudioTrack::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*, System::Collections::Generic::IList_1<UnityEngine::Timeline::TimelineClip*>*, UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement*>*)>(&UnityEngine::Timeline::AudioTrack::CompileClips)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::Playable (UnityEngine::Timeline::AudioTrack::*)(::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Collections::Generic::IList_1<::UnityEngine::Timeline::TimelineClip*>*, ::UnityEngine::Timeline::IntervalTree_1<::UnityEngine::Timeline::RuntimeElement*>*)>(&UnityEngine::Timeline::AudioTrack::CompileClips)> {
   static const MethodInfo* get() {
     static auto* graph = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableGraph")->byval_arg;
     static auto* go = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;

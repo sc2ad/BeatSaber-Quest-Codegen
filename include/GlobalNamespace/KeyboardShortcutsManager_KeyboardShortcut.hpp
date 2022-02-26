@@ -15,8 +15,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut*, "", "KeyboardShortcutsManager/KeyboardShortcut");
+NEED_NO_BOX(::GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut*, "", "KeyboardShortcutsManager/KeyboardShortcut");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x1C
@@ -37,33 +37,33 @@ namespace GlobalNamespace {
     // public UnityEngine.KeyCode mainKey
     // Size: 0x4
     // Offset: 0x10
-    UnityEngine::KeyCode mainKey;
+    ::UnityEngine::KeyCode mainKey;
     // Field size check
-    static_assert(sizeof(UnityEngine::KeyCode) == 0x4);
+    static_assert(sizeof(::UnityEngine::KeyCode) == 0x4);
     // public UnityEngine.KeyCode combinationKey1
     // Size: 0x4
     // Offset: 0x14
-    UnityEngine::KeyCode combinationKey1;
+    ::UnityEngine::KeyCode combinationKey1;
     // Field size check
-    static_assert(sizeof(UnityEngine::KeyCode) == 0x4);
+    static_assert(sizeof(::UnityEngine::KeyCode) == 0x4);
     // public UnityEngine.KeyCode combinationKey2
     // Size: 0x4
     // Offset: 0x18
-    UnityEngine::KeyCode combinationKey2;
+    ::UnityEngine::KeyCode combinationKey2;
     // Field size check
-    static_assert(sizeof(UnityEngine::KeyCode) == 0x4);
+    static_assert(sizeof(::UnityEngine::KeyCode) == 0x4);
     public:
     // Get instance field reference: public UnityEngine.KeyCode mainKey
-    UnityEngine::KeyCode& dyn_mainKey();
+    ::UnityEngine::KeyCode& dyn_mainKey();
     // Get instance field reference: public UnityEngine.KeyCode combinationKey1
-    UnityEngine::KeyCode& dyn_combinationKey1();
+    ::UnityEngine::KeyCode& dyn_combinationKey1();
     // Get instance field reference: public UnityEngine.KeyCode combinationKey2
-    UnityEngine::KeyCode& dyn_combinationKey2();
+    ::UnityEngine::KeyCode& dyn_combinationKey2();
     // public System.Void .ctor(UnityEngine.KeyCode mainKey, UnityEngine.KeyCode combinationKey1, UnityEngine.KeyCode combinationKey2)
     // Offset: 0x2C23EB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static KeyboardShortcutsManager::KeyboardShortcut* New_ctor(UnityEngine::KeyCode mainKey, UnityEngine::KeyCode combinationKey1, UnityEngine::KeyCode combinationKey2) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut::.ctor");
+    static KeyboardShortcutsManager::KeyboardShortcut* New_ctor(::UnityEngine::KeyCode mainKey, ::UnityEngine::KeyCode combinationKey1, ::UnityEngine::KeyCode combinationKey2) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeyboardShortcutsManager::KeyboardShortcut*, creationType>(mainKey, combinationKey1, combinationKey2)));
     }
     // public override System.Int32 GetHashCode()
@@ -78,7 +78,7 @@ namespace GlobalNamespace {
     bool Equals(::Il2CppObject* obj);
   }; // KeyboardShortcutsManager/KeyboardShortcut
   #pragma pack(pop)
-  static check_size<sizeof(KeyboardShortcutsManager::KeyboardShortcut), 24 + sizeof(UnityEngine::KeyCode)> __GlobalNamespace_KeyboardShortcutsManager_KeyboardShortcutSizeCheck;
+  static check_size<sizeof(KeyboardShortcutsManager::KeyboardShortcut), 24 + sizeof(::UnityEngine::KeyCode)> __GlobalNamespace_KeyboardShortcutsManager_KeyboardShortcutSizeCheck;
   static_assert(sizeof(KeyboardShortcutsManager::KeyboardShortcut) == 0x1C);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

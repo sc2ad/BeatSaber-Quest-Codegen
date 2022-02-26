@@ -31,8 +31,8 @@ namespace UnityEngine::ResourceManagement {
   class WebRequestQueueOperation;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ResourceManagement::WebRequestQueueOperation);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::WebRequestQueueOperation*, "UnityEngine.ResourceManagement", "WebRequestQueueOperation");
+NEED_NO_BOX(::UnityEngine::ResourceManagement::WebRequestQueueOperation);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::WebRequestQueueOperation*, "UnityEngine.ResourceManagement", "WebRequestQueueOperation");
 // Type namespace: UnityEngine.ResourceManagement
 namespace UnityEngine::ResourceManagement {
   // Size: 0x28
@@ -53,44 +53,44 @@ namespace UnityEngine::ResourceManagement {
     // public UnityEngine.Networking.UnityWebRequestAsyncOperation Result
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::Networking::UnityWebRequestAsyncOperation* Result;
+    ::UnityEngine::Networking::UnityWebRequestAsyncOperation* Result;
     // Field size check
-    static_assert(sizeof(UnityEngine::Networking::UnityWebRequestAsyncOperation*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Networking::UnityWebRequestAsyncOperation*) == 0x8);
     // public System.Action`1<UnityEngine.Networking.UnityWebRequestAsyncOperation> OnComplete
     // Size: 0x8
     // Offset: 0x18
-    System::Action_1<UnityEngine::Networking::UnityWebRequestAsyncOperation*>* OnComplete;
+    ::System::Action_1<::UnityEngine::Networking::UnityWebRequestAsyncOperation*>* OnComplete;
     // Field size check
-    static_assert(sizeof(System::Action_1<UnityEngine::Networking::UnityWebRequestAsyncOperation*>*) == 0x8);
+    static_assert(sizeof(::System::Action_1<::UnityEngine::Networking::UnityWebRequestAsyncOperation*>*) == 0x8);
     // UnityEngine.Networking.UnityWebRequest m_WebRequest
     // Size: 0x8
     // Offset: 0x20
-    UnityEngine::Networking::UnityWebRequest* m_WebRequest;
+    ::UnityEngine::Networking::UnityWebRequest* m_WebRequest;
     // Field size check
-    static_assert(sizeof(UnityEngine::Networking::UnityWebRequest*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Networking::UnityWebRequest*) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.Networking.UnityWebRequestAsyncOperation Result
-    UnityEngine::Networking::UnityWebRequestAsyncOperation*& dyn_Result();
+    ::UnityEngine::Networking::UnityWebRequestAsyncOperation*& dyn_Result();
     // Get instance field reference: public System.Action`1<UnityEngine.Networking.UnityWebRequestAsyncOperation> OnComplete
-    System::Action_1<UnityEngine::Networking::UnityWebRequestAsyncOperation*>*& dyn_OnComplete();
+    ::System::Action_1<::UnityEngine::Networking::UnityWebRequestAsyncOperation*>*& dyn_OnComplete();
     // Get instance field reference: UnityEngine.Networking.UnityWebRequest m_WebRequest
-    UnityEngine::Networking::UnityWebRequest*& dyn_m_WebRequest();
+    ::UnityEngine::Networking::UnityWebRequest*& dyn_m_WebRequest();
     // public System.Boolean get_IsDone()
     // Offset: 0x1E27958
     bool get_IsDone();
     // public System.Void .ctor(UnityEngine.Networking.UnityWebRequest request)
     // Offset: 0x1E2DE04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static WebRequestQueueOperation* New_ctor(UnityEngine::Networking::UnityWebRequest* request) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::WebRequestQueueOperation::.ctor");
+    static WebRequestQueueOperation* New_ctor(::UnityEngine::Networking::UnityWebRequest* request) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ResourceManagement::WebRequestQueueOperation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebRequestQueueOperation*, creationType>(request)));
     }
     // System.Void Complete(UnityEngine.Networking.UnityWebRequestAsyncOperation asyncOp)
     // Offset: 0x1E2DFF4
-    void Complete(UnityEngine::Networking::UnityWebRequestAsyncOperation* asyncOp);
+    void Complete(::UnityEngine::Networking::UnityWebRequestAsyncOperation* asyncOp);
   }; // UnityEngine.ResourceManagement.WebRequestQueueOperation
   #pragma pack(pop)
-  static check_size<sizeof(WebRequestQueueOperation), 32 + sizeof(UnityEngine::Networking::UnityWebRequest*)> __UnityEngine_ResourceManagement_WebRequestQueueOperationSizeCheck;
+  static check_size<sizeof(WebRequestQueueOperation), 32 + sizeof(::UnityEngine::Networking::UnityWebRequest*)> __UnityEngine_ResourceManagement_WebRequestQueueOperationSizeCheck;
   static_assert(sizeof(WebRequestQueueOperation) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -109,7 +109,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::WebRequestQueueOperation::Complete
 // Il2CppName: Complete
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::WebRequestQueueOperation::*)(UnityEngine::Networking::UnityWebRequestAsyncOperation*)>(&UnityEngine::ResourceManagement::WebRequestQueueOperation::Complete)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::WebRequestQueueOperation::*)(::UnityEngine::Networking::UnityWebRequestAsyncOperation*)>(&UnityEngine::ResourceManagement::WebRequestQueueOperation::Complete)> {
   static const MethodInfo* get() {
     static auto* asyncOp = &::il2cpp_utils::GetClassFromName("UnityEngine.Networking", "UnityWebRequestAsyncOperation")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::WebRequestQueueOperation*), "Complete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asyncOp});

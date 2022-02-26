@@ -14,8 +14,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::InternalUtility::$$c__DisplayClass6_0);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::InternalUtility::$$c__DisplayClass6_0*, "UnityEngine.ProBuilder", "InternalUtility/<>c__DisplayClass6_0");
+NEED_NO_BOX(::UnityEngine::ProBuilder::InternalUtility::$$c__DisplayClass6_0);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::InternalUtility::$$c__DisplayClass6_0*, "UnityEngine.ProBuilder", "InternalUtility/<>c__DisplayClass6_0");
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
   // Size: 0x18
@@ -56,7 +56,7 @@ namespace UnityEngine::ProBuilder {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InternalUtility::$$c__DisplayClass6_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::InternalUtility::$$c__DisplayClass6_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::InternalUtility::$$c__DisplayClass6_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InternalUtility::$$c__DisplayClass6_0*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.InternalUtility/UnityEngine.ProBuilder.<>c__DisplayClass6_0

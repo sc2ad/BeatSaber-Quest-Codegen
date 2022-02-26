@@ -14,8 +14,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SelectLevelCategoryViewController::$$c__DisplayClass12_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectLevelCategoryViewController::$$c__DisplayClass12_0*, "", "SelectLevelCategoryViewController/<>c__DisplayClass12_0");
+NEED_NO_BOX(::GlobalNamespace::SelectLevelCategoryViewController::$$c__DisplayClass12_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SelectLevelCategoryViewController::$$c__DisplayClass12_0*, "", "SelectLevelCategoryViewController/<>c__DisplayClass12_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -37,38 +37,38 @@ namespace GlobalNamespace {
     // public SelectLevelCategoryViewController/LevelCategory[] enabledLevelCategories
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory> enabledLevelCategories;
+    ::ArrayW<::GlobalNamespace::SelectLevelCategoryViewController::LevelCategory> enabledLevelCategories;
     // Field size check
-    static_assert(sizeof(::ArrayW<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>) == 0x8);
+    static_assert(sizeof(::ArrayW<::GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>) == 0x8);
     public:
-    // Creating conversion operator: operator ::ArrayW<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>
-    constexpr operator ::ArrayW<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>() const noexcept {
+    // Creating conversion operator: operator ::ArrayW<::GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>
+    constexpr operator ::ArrayW<::GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>() const noexcept {
       return enabledLevelCategories;
     }
     // Get instance field reference: public SelectLevelCategoryViewController/LevelCategory[] enabledLevelCategories
-    ::ArrayW<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>& dyn_enabledLevelCategories();
+    ::ArrayW<::GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>& dyn_enabledLevelCategories();
     // System.Boolean <Setup>b__0(SelectLevelCategoryViewController/LevelCategoryInfo data)
     // Offset: 0x2B5F95C
-    bool $Setup$b__0(GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo* data);
+    bool $Setup$b__0(::GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo* data);
     // public System.Void .ctor()
     // Offset: 0x2B5F4E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SelectLevelCategoryViewController::$$c__DisplayClass12_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SelectLevelCategoryViewController::$$c__DisplayClass12_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SelectLevelCategoryViewController::$$c__DisplayClass12_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SelectLevelCategoryViewController::$$c__DisplayClass12_0*, creationType>()));
     }
   }; // SelectLevelCategoryViewController/<>c__DisplayClass12_0
   #pragma pack(pop)
-  static check_size<sizeof(SelectLevelCategoryViewController::$$c__DisplayClass12_0), 16 + sizeof(::ArrayW<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>)> __GlobalNamespace_SelectLevelCategoryViewController_$$c__DisplayClass12_0SizeCheck;
+  static check_size<sizeof(SelectLevelCategoryViewController::$$c__DisplayClass12_0), 16 + sizeof(::ArrayW<::GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>)> __GlobalNamespace_SelectLevelCategoryViewController_$$c__DisplayClass12_0SizeCheck;
   static_assert(sizeof(SelectLevelCategoryViewController::$$c__DisplayClass12_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SelectLevelCategoryViewController::$$c__DisplayClass12_0::$Setup$b__0
 // Il2CppName: <Setup>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SelectLevelCategoryViewController::$$c__DisplayClass12_0::*)(GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*)>(&GlobalNamespace::SelectLevelCategoryViewController::$$c__DisplayClass12_0::$Setup$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SelectLevelCategoryViewController::$$c__DisplayClass12_0::*)(::GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*)>(&GlobalNamespace::SelectLevelCategoryViewController::$$c__DisplayClass12_0::$Setup$b__0)> {
   static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("", "SelectLevelCategoryViewController/LevelCategoryInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SelectLevelCategoryViewController::$$c__DisplayClass12_0*), "<Setup>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});

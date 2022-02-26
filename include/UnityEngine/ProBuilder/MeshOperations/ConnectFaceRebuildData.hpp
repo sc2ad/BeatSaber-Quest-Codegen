@@ -29,8 +29,8 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   class ConnectFaceRebuildData;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*, "UnityEngine.ProBuilder.MeshOperations", "ConnectFaceRebuildData");
+NEED_NO_BOX(::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*, "UnityEngine.ProBuilder.MeshOperations", "ConnectFaceRebuildData");
 // Type namespace: UnityEngine.ProBuilder.MeshOperations
 namespace UnityEngine::ProBuilder::MeshOperations {
   // Size: 0x20
@@ -51,30 +51,30 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // public UnityEngine.ProBuilder.FaceRebuildData faceRebuildData
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::ProBuilder::FaceRebuildData* faceRebuildData;
+    ::UnityEngine::ProBuilder::FaceRebuildData* faceRebuildData;
     // Field size check
-    static_assert(sizeof(UnityEngine::ProBuilder::FaceRebuildData*) == 0x8);
+    static_assert(sizeof(::UnityEngine::ProBuilder::FaceRebuildData*) == 0x8);
     // public System.Collections.Generic.List`1<System.Int32> newVertexIndexes
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::Generic::List_1<int>* newVertexIndexes;
+    ::System::Collections::Generic::List_1<int>* newVertexIndexes;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<int>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<int>*) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.ProBuilder.FaceRebuildData faceRebuildData
-    UnityEngine::ProBuilder::FaceRebuildData*& dyn_faceRebuildData();
+    ::UnityEngine::ProBuilder::FaceRebuildData*& dyn_faceRebuildData();
     // Get instance field reference: public System.Collections.Generic.List`1<System.Int32> newVertexIndexes
-    System::Collections::Generic::List_1<int>*& dyn_newVertexIndexes();
+    ::System::Collections::Generic::List_1<int>*& dyn_newVertexIndexes();
     // public System.Void .ctor(UnityEngine.ProBuilder.FaceRebuildData faceRebuildData, System.Collections.Generic.List`1<System.Int32> newVertexIndexes)
     // Offset: 0x19C16C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ConnectFaceRebuildData* New_ctor(UnityEngine::ProBuilder::FaceRebuildData* faceRebuildData, System::Collections::Generic::List_1<int>* newVertexIndexes) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData::.ctor");
+    static ConnectFaceRebuildData* New_ctor(::UnityEngine::ProBuilder::FaceRebuildData* faceRebuildData, ::System::Collections::Generic::List_1<int>* newVertexIndexes) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConnectFaceRebuildData*, creationType>(faceRebuildData, newVertexIndexes)));
     }
   }; // UnityEngine.ProBuilder.MeshOperations.ConnectFaceRebuildData
   #pragma pack(pop)
-  static check_size<sizeof(ConnectFaceRebuildData), 24 + sizeof(System::Collections::Generic::List_1<int>*)> __UnityEngine_ProBuilder_MeshOperations_ConnectFaceRebuildDataSizeCheck;
+  static check_size<sizeof(ConnectFaceRebuildData), 24 + sizeof(::System::Collections::Generic::List_1<int>*)> __UnityEngine_ProBuilder_MeshOperations_ConnectFaceRebuildDataSizeCheck;
   static_assert(sizeof(ConnectFaceRebuildData) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

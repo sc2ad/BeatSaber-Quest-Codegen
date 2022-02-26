@@ -19,8 +19,8 @@ namespace System::Reflection {
   class DefaultMemberAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Reflection::DefaultMemberAttribute);
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::DefaultMemberAttribute*, "System.Reflection", "DefaultMemberAttribute");
+NEED_NO_BOX(::System::Reflection::DefaultMemberAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::DefaultMemberAttribute*, "System.Reflection", "DefaultMemberAttribute");
 // Type namespace: System.Reflection
 namespace System::Reflection {
   // Size: 0x18
@@ -29,7 +29,7 @@ namespace System::Reflection {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: 1188238
   // [AttributeUsageAttribute] Offset: 1188238
-  class DefaultMemberAttribute : public System::Attribute {
+  class DefaultMemberAttribute : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -60,7 +60,7 @@ namespace System::Reflection {
     // Offset: 0x2163D80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultMemberAttribute* New_ctor(::StringW memberName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::DefaultMemberAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Reflection::DefaultMemberAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultMemberAttribute*, creationType>(memberName)));
     }
   }; // System.Reflection.DefaultMemberAttribute

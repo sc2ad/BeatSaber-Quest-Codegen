@@ -25,8 +25,8 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   class AdvancingFrontNode;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*, "UnityEngine.ProBuilder.Poly2Tri", "AdvancingFrontNode");
+NEED_NO_BOX(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*, "UnityEngine.ProBuilder.Poly2Tri", "AdvancingFrontNode");
 // Type namespace: UnityEngine.ProBuilder.Poly2Tri
 namespace UnityEngine::ProBuilder::Poly2Tri {
   // Size: 0x38
@@ -47,15 +47,15 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode Next
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* Next;
+    ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* Next;
     // Field size check
-    static_assert(sizeof(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*) == 0x8);
+    static_assert(sizeof(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*) == 0x8);
     // public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode Prev
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* Prev;
+    ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* Prev;
     // Field size check
-    static_assert(sizeof(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*) == 0x8);
+    static_assert(sizeof(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*) == 0x8);
     // public System.Double Value
     // Size: 0x8
     // Offset: 0x20
@@ -65,26 +65,26 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // public UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint Point
     // Size: 0x8
     // Offset: 0x28
-    UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* Point;
+    ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* Point;
     // Field size check
-    static_assert(sizeof(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*) == 0x8);
+    static_assert(sizeof(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*) == 0x8);
     // public UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle Triangle
     // Size: 0x8
     // Offset: 0x30
-    UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* Triangle;
+    ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* Triangle;
     // Field size check
-    static_assert(sizeof(UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*) == 0x8);
+    static_assert(sizeof(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode Next
-    UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& dyn_Next();
+    ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& dyn_Next();
     // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode Prev
-    UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& dyn_Prev();
+    ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& dyn_Prev();
     // Get instance field reference: public System.Double Value
     double& dyn_Value();
     // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint Point
-    UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*& dyn_Point();
+    ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*& dyn_Point();
     // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle Triangle
-    UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*& dyn_Triangle();
+    ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*& dyn_Triangle();
     // public System.Boolean get_HasNext()
     // Offset: 0x2A053FC
     bool get_HasNext();
@@ -94,13 +94,13 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // public System.Void .ctor(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint point)
     // Offset: 0x2A053C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AdvancingFrontNode* New_ctor(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::.ctor");
+    static AdvancingFrontNode* New_ctor(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AdvancingFrontNode*, creationType>(point)));
     }
   }; // UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode
   #pragma pack(pop)
-  static check_size<sizeof(AdvancingFrontNode), 48 + sizeof(UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*)> __UnityEngine_ProBuilder_Poly2Tri_AdvancingFrontNodeSizeCheck;
+  static check_size<sizeof(AdvancingFrontNode), 48 + sizeof(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*)> __UnityEngine_ProBuilder_Poly2Tri_AdvancingFrontNodeSizeCheck;
   static_assert(sizeof(AdvancingFrontNode) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

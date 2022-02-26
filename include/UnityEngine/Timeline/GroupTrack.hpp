@@ -26,8 +26,8 @@ namespace UnityEngine::Timeline {
   class GroupTrack;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Timeline::GroupTrack);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::GroupTrack*, "UnityEngine.Timeline", "GroupTrack");
+NEED_NO_BOX(::UnityEngine::Timeline::GroupTrack);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::GroupTrack*, "UnityEngine.Timeline", "GroupTrack");
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
   // WARNING Size may be invalid!
@@ -36,13 +36,13 @@ namespace UnityEngine::Timeline {
   // [TrackClipTypeAttribute] Offset: 11F122C
   // [SupportsChildTracksAttribute] Offset: 11F122C
   // [ExcludeFromPresetAttribute] Offset: FFFFFFFF
-  class GroupTrack : public UnityEngine::Timeline::TrackAsset {
+  class GroupTrack : public ::UnityEngine::Timeline::TrackAsset {
     public:
     // public override System.Collections.Generic.IEnumerable`1<UnityEngine.Playables.PlayableBinding> get_outputs()
     // Offset: 0x1C9C6C0
     // Implemented from: UnityEngine.Timeline.TrackAsset
     // Base method: System.Collections.Generic.IEnumerable`1<UnityEngine.Playables.PlayableBinding> TrackAsset::get_outputs()
-    System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>* get_outputs();
+    ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* get_outputs();
     // public System.Void .ctor()
     // Offset: 0x1C9C728
     // Implemented from: UnityEngine.Timeline.TrackAsset
@@ -53,7 +53,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GroupTrack* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::GroupTrack::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Timeline::GroupTrack::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GroupTrack*, creationType>()));
     }
     // override System.Boolean CanCompileClips()
@@ -67,7 +67,7 @@ namespace UnityEngine::Timeline {
 // Writing MetadataGetter for method: UnityEngine::Timeline::GroupTrack::get_outputs
 // Il2CppName: get_outputs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>* (UnityEngine::Timeline::GroupTrack::*)()>(&UnityEngine::Timeline::GroupTrack::get_outputs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* (UnityEngine::Timeline::GroupTrack::*)()>(&UnityEngine::Timeline::GroupTrack::get_outputs)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::GroupTrack*), "get_outputs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -20,8 +20,8 @@ namespace HMUI {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HMUI::UIKeyboard::$$c__DisplayClass13_0);
-DEFINE_IL2CPP_ARG_TYPE(HMUI::UIKeyboard::$$c__DisplayClass13_0*, "HMUI", "UIKeyboard/<>c__DisplayClass13_0");
+NEED_NO_BOX(::HMUI::UIKeyboard::$$c__DisplayClass13_0);
+DEFINE_IL2CPP_ARG_TYPE(::HMUI::UIKeyboard::$$c__DisplayClass13_0*, "HMUI", "UIKeyboard/<>c__DisplayClass13_0");
 // Type namespace: HMUI
 namespace HMUI {
   // Size: 0x20
@@ -43,20 +43,20 @@ namespace HMUI {
     // public HMUI.UIKeyboardKey key
     // Size: 0x8
     // Offset: 0x10
-    HMUI::UIKeyboardKey* key;
+    ::HMUI::UIKeyboardKey* key;
     // Field size check
-    static_assert(sizeof(HMUI::UIKeyboardKey*) == 0x8);
+    static_assert(sizeof(::HMUI::UIKeyboardKey*) == 0x8);
     // public HMUI.UIKeyboard <>4__this
     // Size: 0x8
     // Offset: 0x18
-    HMUI::UIKeyboard* $$4__this;
+    ::HMUI::UIKeyboard* $$4__this;
     // Field size check
-    static_assert(sizeof(HMUI::UIKeyboard*) == 0x8);
+    static_assert(sizeof(::HMUI::UIKeyboard*) == 0x8);
     public:
     // Get instance field reference: public HMUI.UIKeyboardKey key
-    HMUI::UIKeyboardKey*& dyn_key();
+    ::HMUI::UIKeyboardKey*& dyn_key();
     // Get instance field reference: public HMUI.UIKeyboard <>4__this
-    HMUI::UIKeyboard*& dyn_$$4__this();
+    ::HMUI::UIKeyboard*& dyn_$$4__this();
     // System.Void <Awake>b__2()
     // Offset: 0x16B6C10
     void $Awake$b__2();
@@ -66,12 +66,12 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UIKeyboard::$$c__DisplayClass13_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::UIKeyboard::$$c__DisplayClass13_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::UIKeyboard::$$c__DisplayClass13_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UIKeyboard::$$c__DisplayClass13_0*, creationType>()));
     }
   }; // HMUI.UIKeyboard/HMUI.<>c__DisplayClass13_0
   #pragma pack(pop)
-  static check_size<sizeof(UIKeyboard::$$c__DisplayClass13_0), 24 + sizeof(HMUI::UIKeyboard*)> __HMUI_UIKeyboard_$$c__DisplayClass13_0SizeCheck;
+  static check_size<sizeof(UIKeyboard::$$c__DisplayClass13_0), 24 + sizeof(::HMUI::UIKeyboard*)> __HMUI_UIKeyboard_$$c__DisplayClass13_0SizeCheck;
   static_assert(sizeof(UIKeyboard::$$c__DisplayClass13_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

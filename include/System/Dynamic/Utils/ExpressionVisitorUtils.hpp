@@ -31,8 +31,8 @@ namespace System::Dynamic::Utils {
   class ExpressionVisitorUtils;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Dynamic::Utils::ExpressionVisitorUtils);
-DEFINE_IL2CPP_ARG_TYPE(System::Dynamic::Utils::ExpressionVisitorUtils*, "System.Dynamic.Utils", "ExpressionVisitorUtils");
+NEED_NO_BOX(::System::Dynamic::Utils::ExpressionVisitorUtils);
+DEFINE_IL2CPP_ARG_TYPE(::System::Dynamic::Utils::ExpressionVisitorUtils*, "System.Dynamic.Utils", "ExpressionVisitorUtils");
 // Type namespace: System.Dynamic.Utils
 namespace System::Dynamic::Utils {
   // Size: 0x10
@@ -43,13 +43,13 @@ namespace System::Dynamic::Utils {
     public:
     // static public System.Linq.Expressions.Expression[] VisitBlockExpressions(System.Linq.Expressions.ExpressionVisitor visitor, System.Linq.Expressions.BlockExpression block)
     // Offset: 0x15F1C14
-    static ::ArrayW<System::Linq::Expressions::Expression*> VisitBlockExpressions(System::Linq::Expressions::ExpressionVisitor* visitor, System::Linq::Expressions::BlockExpression* block);
+    static ::ArrayW<::System::Linq::Expressions::Expression*> VisitBlockExpressions(::System::Linq::Expressions::ExpressionVisitor* visitor, ::System::Linq::Expressions::BlockExpression* block);
     // static public System.Linq.Expressions.ParameterExpression[] VisitParameters(System.Linq.Expressions.ExpressionVisitor visitor, System.Linq.Expressions.IParameterProvider nodes, System.String callerName)
     // Offset: 0x15F1DC8
-    static ::ArrayW<System::Linq::Expressions::ParameterExpression*> VisitParameters(System::Linq::Expressions::ExpressionVisitor* visitor, System::Linq::Expressions::IParameterProvider* nodes, ::StringW callerName);
+    static ::ArrayW<::System::Linq::Expressions::ParameterExpression*> VisitParameters(::System::Linq::Expressions::ExpressionVisitor* visitor, ::System::Linq::Expressions::IParameterProvider* nodes, ::StringW callerName);
     // static public System.Linq.Expressions.Expression[] VisitArguments(System.Linq.Expressions.ExpressionVisitor visitor, System.Linq.Expressions.IArgumentProvider nodes)
     // Offset: 0x15F208C
-    static ::ArrayW<System::Linq::Expressions::Expression*> VisitArguments(System::Linq::Expressions::ExpressionVisitor* visitor, System::Linq::Expressions::IArgumentProvider* nodes);
+    static ::ArrayW<::System::Linq::Expressions::Expression*> VisitArguments(::System::Linq::Expressions::ExpressionVisitor* visitor, ::System::Linq::Expressions::IArgumentProvider* nodes);
   }; // System.Dynamic.Utils.ExpressionVisitorUtils
   #pragma pack(pop)
 }
@@ -57,7 +57,7 @@ namespace System::Dynamic::Utils {
 // Writing MetadataGetter for method: System::Dynamic::Utils::ExpressionVisitorUtils::VisitBlockExpressions
 // Il2CppName: VisitBlockExpressions
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Linq::Expressions::Expression*> (*)(System::Linq::Expressions::ExpressionVisitor*, System::Linq::Expressions::BlockExpression*)>(&System::Dynamic::Utils::ExpressionVisitorUtils::VisitBlockExpressions)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Linq::Expressions::Expression*> (*)(::System::Linq::Expressions::ExpressionVisitor*, ::System::Linq::Expressions::BlockExpression*)>(&System::Dynamic::Utils::ExpressionVisitorUtils::VisitBlockExpressions)> {
   static const MethodInfo* get() {
     static auto* visitor = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "ExpressionVisitor")->byval_arg;
     static auto* block = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "BlockExpression")->byval_arg;
@@ -67,7 +67,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Sy
 // Writing MetadataGetter for method: System::Dynamic::Utils::ExpressionVisitorUtils::VisitParameters
 // Il2CppName: VisitParameters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Linq::Expressions::ParameterExpression*> (*)(System::Linq::Expressions::ExpressionVisitor*, System::Linq::Expressions::IParameterProvider*, ::StringW)>(&System::Dynamic::Utils::ExpressionVisitorUtils::VisitParameters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Linq::Expressions::ParameterExpression*> (*)(::System::Linq::Expressions::ExpressionVisitor*, ::System::Linq::Expressions::IParameterProvider*, ::StringW)>(&System::Dynamic::Utils::ExpressionVisitorUtils::VisitParameters)> {
   static const MethodInfo* get() {
     static auto* visitor = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "ExpressionVisitor")->byval_arg;
     static auto* nodes = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "IParameterProvider")->byval_arg;
@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Sy
 // Writing MetadataGetter for method: System::Dynamic::Utils::ExpressionVisitorUtils::VisitArguments
 // Il2CppName: VisitArguments
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Linq::Expressions::Expression*> (*)(System::Linq::Expressions::ExpressionVisitor*, System::Linq::Expressions::IArgumentProvider*)>(&System::Dynamic::Utils::ExpressionVisitorUtils::VisitArguments)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Linq::Expressions::Expression*> (*)(::System::Linq::Expressions::ExpressionVisitor*, ::System::Linq::Expressions::IArgumentProvider*)>(&System::Dynamic::Utils::ExpressionVisitorUtils::VisitArguments)> {
   static const MethodInfo* get() {
     static auto* visitor = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "ExpressionVisitor")->byval_arg;
     static auto* nodes = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "IArgumentProvider")->byval_arg;

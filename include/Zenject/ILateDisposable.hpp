@@ -11,8 +11,8 @@ namespace Zenject {
   class ILateDisposable;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::ILateDisposable);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::ILateDisposable*, "Zenject", "ILateDisposable");
+NEED_NO_BOX(::Zenject::ILateDisposable);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::ILateDisposable*, "Zenject", "ILateDisposable");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x10

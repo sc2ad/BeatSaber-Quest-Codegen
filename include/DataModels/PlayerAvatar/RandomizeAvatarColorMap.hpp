@@ -17,8 +17,8 @@ namespace DataModels::PlayerAvatar {
   class RandomizeAvatarColorMap;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(DataModels::PlayerAvatar::RandomizeAvatarColorMap);
-DEFINE_IL2CPP_ARG_TYPE(DataModels::PlayerAvatar::RandomizeAvatarColorMap*, "DataModels.PlayerAvatar", "RandomizeAvatarColorMap");
+NEED_NO_BOX(::DataModels::PlayerAvatar::RandomizeAvatarColorMap);
+DEFINE_IL2CPP_ARG_TYPE(::DataModels::PlayerAvatar::RandomizeAvatarColorMap*, "DataModels.PlayerAvatar", "RandomizeAvatarColorMap");
 // Type namespace: DataModels.PlayerAvatar
 namespace DataModels::PlayerAvatar {
   // Size: 0x20
@@ -65,7 +65,7 @@ namespace DataModels::PlayerAvatar {
     // Offset: 0x13EF7D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RandomizeAvatarColorMap* New_ctor(int headTopPrimaryColorIndex, int headTopSecondaryColorIndex, int glassesColorIndex, int facialHairColorIndex, int handsColorIndex, int clothesPrimaryColorIndex, int clothesSecondaryColorIndex, int clothesDetailColorIndex) {
-      static auto ___internal__logger = ::Logger::get().WithContext("DataModels::PlayerAvatar::RandomizeAvatarColorMap::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::DataModels::PlayerAvatar::RandomizeAvatarColorMap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RandomizeAvatarColorMap*, creationType>(headTopPrimaryColorIndex, headTopSecondaryColorIndex, glassesColorIndex, facialHairColorIndex, handsColorIndex, clothesPrimaryColorIndex, clothesSecondaryColorIndex, clothesDetailColorIndex)));
     }
   }; // DataModels.PlayerAvatar.RandomizeAvatarColorMap

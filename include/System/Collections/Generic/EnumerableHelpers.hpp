@@ -25,8 +25,8 @@ namespace System::Collections::Generic {
   class EnumerableHelpers;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Collections::Generic::EnumerableHelpers);
-DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::EnumerableHelpers*, "System.Collections.Generic", "EnumerableHelpers");
+NEED_NO_BOX(::System::Collections::Generic::EnumerableHelpers);
+DEFINE_IL2CPP_ARG_TYPE(::System::Collections::Generic::EnumerableHelpers*, "System.Collections.Generic", "EnumerableHelpers");
 // Type namespace: System.Collections.Generic
 namespace System::Collections::Generic {
   // Size: 0x10
@@ -38,8 +38,8 @@ namespace System::Collections::Generic {
     // static T[] ToArray(System.Collections.Generic.IEnumerable`1<T> source)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static ::ArrayW<T> ToArray(System::Collections::Generic::IEnumerable_1<T>* source) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::EnumerableHelpers::ToArray");
+    static ::ArrayW<T> ToArray(::System::Collections::Generic::IEnumerable_1<T>* source) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Generic::EnumerableHelpers::ToArray");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Collections.Generic", "EnumerableHelpers", "ToArray", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(source)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<T>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source);

@@ -55,8 +55,8 @@ namespace TMPro {
   class TextMeshProUGUI;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(TMPro::TextMeshProUGUI);
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TextMeshProUGUI*, "TMPro", "TextMeshProUGUI");
+NEED_NO_BOX(::TMPro::TextMeshProUGUI);
+DEFINE_IL2CPP_ARG_TYPE(::TMPro::TextMeshProUGUI*, "TMPro", "TextMeshProUGUI");
 // Type namespace: TMPro
 namespace TMPro {
   // WARNING Size may be invalid!
@@ -67,7 +67,7 @@ namespace TMPro {
   // [RequireComponent] Offset: 11EF36C
   // [AddComponentMenu] Offset: 11EF36C
   // [ExecuteAlways] Offset: FFFFFFFF
-  class TextMeshProUGUI : public TMPro::TMP_Text/*, public UnityEngine::UI::ILayoutElement*/ {
+  class TextMeshProUGUI : public ::TMPro::TMP_Text/*, public ::UnityEngine::UI::ILayoutElement*/ {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -87,9 +87,9 @@ namespace TMPro {
     // protected TMPro.TMP_SubMeshUI[] m_subTextObjects
     // Size: 0x8
     // Offset: 0xB38
-    ::ArrayW<TMPro::TMP_SubMeshUI*> m_subTextObjects;
+    ::ArrayW<::TMPro::TMP_SubMeshUI*> m_subTextObjects;
     // Field size check
-    static_assert(sizeof(::ArrayW<TMPro::TMP_SubMeshUI*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::TMPro::TMP_SubMeshUI*>) == 0x8);
     // private System.Single m_previousLossyScaleY
     // Size: 0x4
     // Offset: 0xB40
@@ -99,21 +99,21 @@ namespace TMPro {
     // private UnityEngine.Vector3[] m_RectTransformCorners
     // Size: 0x8
     // Offset: 0xB48
-    ::ArrayW<UnityEngine::Vector3> m_RectTransformCorners;
+    ::ArrayW<::UnityEngine::Vector3> m_RectTransformCorners;
     // Field size check
-    static_assert(sizeof(::ArrayW<UnityEngine::Vector3>) == 0x8);
+    static_assert(sizeof(::ArrayW<::UnityEngine::Vector3>) == 0x8);
     // private UnityEngine.CanvasRenderer m_canvasRenderer
     // Size: 0x8
     // Offset: 0xB50
-    UnityEngine::CanvasRenderer* m_canvasRenderer;
+    ::UnityEngine::CanvasRenderer* m_canvasRenderer;
     // Field size check
-    static_assert(sizeof(UnityEngine::CanvasRenderer*) == 0x8);
+    static_assert(sizeof(::UnityEngine::CanvasRenderer*) == 0x8);
     // private UnityEngine.Canvas m_canvas
     // Size: 0x8
     // Offset: 0xB58
-    UnityEngine::Canvas* m_canvas;
+    ::UnityEngine::Canvas* m_canvas;
     // Field size check
-    static_assert(sizeof(UnityEngine::Canvas*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Canvas*) == 0x8);
     // private System.Boolean m_isFirstAllocation
     // Size: 0x1
     // Offset: 0xB60
@@ -135,9 +135,9 @@ namespace TMPro {
     // private UnityEngine.Material m_baseMaterial
     // Size: 0x8
     // Offset: 0xB70
-    UnityEngine::Material* m_baseMaterial;
+    ::UnityEngine::Material* m_baseMaterial;
     // Field size check
-    static_assert(sizeof(UnityEngine::Material*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Material*) == 0x8);
     // private System.Boolean m_isScrollRegionSet
     // Size: 0x1
     // Offset: 0xB78
@@ -153,15 +153,15 @@ namespace TMPro {
     // private UnityEngine.Vector4 m_maskOffset
     // Size: 0x10
     // Offset: 0xB80
-    UnityEngine::Vector4 m_maskOffset;
+    ::UnityEngine::Vector4 m_maskOffset;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector4) == 0x10);
+    static_assert(sizeof(::UnityEngine::Vector4) == 0x10);
     // private UnityEngine.Matrix4x4 m_EnvMapMatrix
     // Size: 0x40
     // Offset: 0xB90
-    UnityEngine::Matrix4x4 m_EnvMapMatrix;
+    ::UnityEngine::Matrix4x4 m_EnvMapMatrix;
     // Field size check
-    static_assert(sizeof(UnityEngine::Matrix4x4) == 0x40);
+    static_assert(sizeof(::UnityEngine::Matrix4x4) == 0x40);
     // private System.Boolean m_isRegisteredForEvents
     // Size: 0x1
     // Offset: 0xBD0
@@ -187,22 +187,22 @@ namespace TMPro {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     public:
-    // Creating interface conversion operator: operator UnityEngine::UI::ILayoutElement
-    operator UnityEngine::UI::ILayoutElement() noexcept {
-      return *reinterpret_cast<UnityEngine::UI::ILayoutElement*>(this);
+    // Creating interface conversion operator: operator ::UnityEngine::UI::ILayoutElement
+    operator ::UnityEngine::UI::ILayoutElement() noexcept {
+      return *reinterpret_cast<::UnityEngine::UI::ILayoutElement*>(this);
     }
     // Get instance field reference: private System.Boolean m_hasFontAssetChanged
     bool& dyn_m_hasFontAssetChanged();
     // Get instance field reference: protected TMPro.TMP_SubMeshUI[] m_subTextObjects
-    ::ArrayW<TMPro::TMP_SubMeshUI*>& dyn_m_subTextObjects();
+    ::ArrayW<::TMPro::TMP_SubMeshUI*>& dyn_m_subTextObjects();
     // Get instance field reference: private System.Single m_previousLossyScaleY
     float& dyn_m_previousLossyScaleY();
     // Get instance field reference: private UnityEngine.Vector3[] m_RectTransformCorners
-    ::ArrayW<UnityEngine::Vector3>& dyn_m_RectTransformCorners();
+    ::ArrayW<::UnityEngine::Vector3>& dyn_m_RectTransformCorners();
     // Get instance field reference: private UnityEngine.CanvasRenderer m_canvasRenderer
-    UnityEngine::CanvasRenderer*& dyn_m_canvasRenderer();
+    ::UnityEngine::CanvasRenderer*& dyn_m_canvasRenderer();
     // Get instance field reference: private UnityEngine.Canvas m_canvas
-    UnityEngine::Canvas*& dyn_m_canvas();
+    ::UnityEngine::Canvas*& dyn_m_canvas();
     // Get instance field reference: private System.Boolean m_isFirstAllocation
     bool& dyn_m_isFirstAllocation();
     // Get instance field reference: private System.Int32 m_max_characters
@@ -210,15 +210,15 @@ namespace TMPro {
     // Get instance field reference: private System.Boolean m_isMaskingEnabled
     bool& dyn_m_isMaskingEnabled();
     // Get instance field reference: private UnityEngine.Material m_baseMaterial
-    UnityEngine::Material*& dyn_m_baseMaterial();
+    ::UnityEngine::Material*& dyn_m_baseMaterial();
     // Get instance field reference: private System.Boolean m_isScrollRegionSet
     bool& dyn_m_isScrollRegionSet();
     // Get instance field reference: private System.Int32 m_stencilID
     int& dyn_m_stencilID();
     // Get instance field reference: private UnityEngine.Vector4 m_maskOffset
-    UnityEngine::Vector4& dyn_m_maskOffset();
+    ::UnityEngine::Vector4& dyn_m_maskOffset();
     // Get instance field reference: private UnityEngine.Matrix4x4 m_EnvMapMatrix
-    UnityEngine::Matrix4x4& dyn_m_EnvMapMatrix();
+    ::UnityEngine::Matrix4x4& dyn_m_EnvMapMatrix();
     // Get instance field reference: private System.Boolean m_isRegisteredForEvents
     bool& dyn_m_isRegisteredForEvents();
     // Get instance field reference: private System.Int32 m_recursiveCountA
@@ -229,13 +229,13 @@ namespace TMPro {
     bool& dyn_m_isRebuildingLayout();
     // public UnityEngine.Vector4 get_maskOffset()
     // Offset: 0x21102C0
-    UnityEngine::Vector4 get_maskOffset();
+    ::UnityEngine::Vector4 get_maskOffset();
     // public System.Void set_maskOffset(UnityEngine.Vector4 value)
     // Offset: 0x21102D4
-    void set_maskOffset(UnityEngine::Vector4 value);
+    void set_maskOffset(::UnityEngine::Vector4 value);
     // private UnityEngine.Canvas GetCanvas()
     // Offset: 0x2101D24
-    UnityEngine::Canvas* GetCanvas();
+    ::UnityEngine::Canvas* GetCanvas();
     // private System.Void UpdateEnvMapMatrix()
     // Offset: 0x2102768
     void UpdateEnvMapMatrix();
@@ -276,7 +276,7 @@ namespace TMPro {
     // Offset: 0x210F92C
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: UnityEngine.Material Graphic::get_materialForRendering()
-    UnityEngine::Material* get_materialForRendering();
+    ::UnityEngine::Material* get_materialForRendering();
     // public override System.Boolean get_autoSizeTextContainer()
     // Offset: 0x210F99C
     // Implemented from: TMPro.TMP_Text
@@ -291,12 +291,12 @@ namespace TMPro {
     // Offset: 0x210FA5C
     // Implemented from: TMPro.TMP_Text
     // Base method: UnityEngine.Mesh TMP_Text::get_mesh()
-    UnityEngine::Mesh* get_mesh();
+    ::UnityEngine::Mesh* get_mesh();
     // public UnityEngine.CanvasRenderer get_canvasRenderer()
     // Offset: 0x210FA64
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: UnityEngine.CanvasRenderer Graphic::get_canvasRenderer()
-    UnityEngine::CanvasRenderer* get_canvasRenderer();
+    ::UnityEngine::CanvasRenderer* get_canvasRenderer();
     // public System.Void .ctor()
     // Offset: 0x2110C8C
     // Implemented from: TMPro.TMP_Text
@@ -311,7 +311,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TextMeshProUGUI* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TextMeshProUGUI::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TextMeshProUGUI::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TextMeshProUGUI*, creationType>()));
     }
     // protected override System.Void Awake()
@@ -343,27 +343,27 @@ namespace TMPro {
     // Offset: 0x2103238
     // Implemented from: TMPro.TMP_Text
     // Base method: UnityEngine.Material TMP_Text::GetMaterial(UnityEngine.Material mat)
-    UnityEngine::Material* GetMaterial(UnityEngine::Material* mat);
+    ::UnityEngine::Material* GetMaterial(::UnityEngine::Material* mat);
     // protected override UnityEngine.Material[] GetMaterials(UnityEngine.Material[] mats)
     // Offset: 0x2103388
     // Implemented from: TMPro.TMP_Text
     // Base method: UnityEngine.Material[] TMP_Text::GetMaterials(UnityEngine.Material[] mats)
-    ::ArrayW<UnityEngine::Material*> GetMaterials(::ArrayW<UnityEngine::Material*> mats);
+    ::ArrayW<::UnityEngine::Material*> GetMaterials(::ArrayW<::UnityEngine::Material*> mats);
     // protected override System.Void SetSharedMaterial(UnityEngine.Material mat)
     // Offset: 0x2103540
     // Implemented from: TMPro.TMP_Text
     // Base method: System.Void TMP_Text::SetSharedMaterial(UnityEngine.Material mat)
-    void SetSharedMaterial(UnityEngine::Material* mat);
+    void SetSharedMaterial(::UnityEngine::Material* mat);
     // protected override UnityEngine.Material[] GetSharedMaterials()
     // Offset: 0x2103584
     // Implemented from: TMPro.TMP_Text
     // Base method: UnityEngine.Material[] TMP_Text::GetSharedMaterials()
-    ::ArrayW<UnityEngine::Material*> GetSharedMaterials();
+    ::ArrayW<::UnityEngine::Material*> GetSharedMaterials();
     // protected override System.Void SetSharedMaterials(UnityEngine.Material[] materials)
     // Offset: 0x210371C
     // Implemented from: TMPro.TMP_Text
     // Base method: System.Void TMP_Text::SetSharedMaterials(UnityEngine.Material[] materials)
-    void SetSharedMaterials(::ArrayW<UnityEngine::Material*> materials);
+    void SetSharedMaterials(::ArrayW<::UnityEngine::Material*> materials);
     // protected override System.Void SetOutlineThickness(System.Single thickness)
     // Offset: 0x2103B48
     // Implemented from: TMPro.TMP_Text
@@ -373,12 +373,12 @@ namespace TMPro {
     // Offset: 0x2103D4C
     // Implemented from: TMPro.TMP_Text
     // Base method: System.Void TMP_Text::SetFaceColor(UnityEngine.Color32 color)
-    void SetFaceColor(UnityEngine::Color32 color);
+    void SetFaceColor(::UnityEngine::Color32 color);
     // protected override System.Void SetOutlineColor(UnityEngine.Color32 color)
     // Offset: 0x2103E68
     // Implemented from: TMPro.TMP_Text
     // Base method: System.Void TMP_Text::SetOutlineColor(UnityEngine.Color32 color)
-    void SetOutlineColor(UnityEngine::Color32 color);
+    void SetOutlineColor(::UnityEngine::Color32 color);
     // protected override System.Void SetShaderDepth()
     // Offset: 0x2103F84
     // Implemented from: TMPro.TMP_Text
@@ -393,7 +393,7 @@ namespace TMPro {
     // Offset: 0x21044B4
     // Implemented from: TMPro.TMP_Text
     // Base method: System.Single TMP_Text::GetPaddingForMaterial(UnityEngine.Material mat)
-    float GetPaddingForMaterial(UnityEngine::Material* mat);
+    float GetPaddingForMaterial(::UnityEngine::Material* mat);
     // protected override System.Single GetPaddingForMaterial()
     // Offset: 0x2104590
     // Implemented from: TMPro.TMP_Text
@@ -403,7 +403,7 @@ namespace TMPro {
     // Offset: 0x21046CC
     // Implemented from: TMPro.TMP_Text
     // Base method: System.Int32 TMP_Text::SetArraySizes(TMPro.TMP_Text/TMPro.UnicodeChar[] chars)
-    int SetArraySizes(::ArrayW<TMPro::TMP_Text::UnicodeChar> chars);
+    int SetArraySizes(::ArrayW<::TMPro::TMP_Text::UnicodeChar> chars);
     // public override System.Void ComputeMarginSize()
     // Offset: 0x21063E0
     // Implemented from: TMPro.TMP_Text
@@ -443,7 +443,7 @@ namespace TMPro {
     // Offset: 0x210F030
     // Implemented from: TMPro.TMP_Text
     // Base method: UnityEngine.Vector3[] TMP_Text::GetTextContainerLocalCorners()
-    ::ArrayW<UnityEngine::Vector3> GetTextContainerLocalCorners();
+    ::ArrayW<::UnityEngine::Vector3> GetTextContainerLocalCorners();
     // protected override System.Void SetActiveSubMeshes(System.Boolean state)
     // Offset: 0x210F0DC
     // Implemented from: TMPro.TMP_Text
@@ -453,7 +453,7 @@ namespace TMPro {
     // Offset: 0x210F1FC
     // Implemented from: TMPro.TMP_Text
     // Base method: UnityEngine.Bounds TMP_Text::GetCompoundBounds()
-    UnityEngine::Bounds GetCompoundBounds();
+    ::UnityEngine::Bounds GetCompoundBounds();
     // protected override System.Void AdjustLineOffset(System.Int32 startIndex, System.Int32 endIndex, System.Single offset)
     // Offset: 0x210F514
     // Implemented from: TMPro.TMP_Text
@@ -483,12 +483,12 @@ namespace TMPro {
     // Offset: 0x210FF5C
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::Rebuild(UnityEngine.UI.CanvasUpdate update)
-    void Rebuild(UnityEngine::UI::CanvasUpdate update);
+    void Rebuild(::UnityEngine::UI::CanvasUpdate update);
     // public override UnityEngine.Material GetModifiedMaterial(UnityEngine.Material baseMaterial)
     // Offset: 0x2110058
     // Implemented from: UnityEngine.UI.MaskableGraphic
     // Base method: UnityEngine.Material MaskableGraphic::GetModifiedMaterial(UnityEngine.Material baseMaterial)
-    UnityEngine::Material* GetModifiedMaterial(UnityEngine::Material* baseMaterial);
+    ::UnityEngine::Material* GetModifiedMaterial(::UnityEngine::Material* baseMaterial);
     // protected override System.Void UpdateMaterial()
     // Offset: 0x21101A8
     // Implemented from: UnityEngine.UI.Graphic
@@ -508,7 +508,7 @@ namespace TMPro {
     // Offset: 0x211032C
     // Implemented from: UnityEngine.UI.MaskableGraphic
     // Base method: System.Void MaskableGraphic::Cull(UnityEngine.Rect clipRect, System.Boolean validRect)
-    void Cull(UnityEngine::Rect clipRect, bool validRect);
+    void Cull(::UnityEngine::Rect clipRect, bool validRect);
     // public override System.Void UpdateMeshPadding()
     // Offset: 0x2110344
     // Implemented from: TMPro.TMP_Text
@@ -518,7 +518,7 @@ namespace TMPro {
     // Offset: 0x211045C
     // Implemented from: TMPro.TMP_Text
     // Base method: System.Void TMP_Text::InternalCrossFadeColor(UnityEngine.Color targetColor, System.Single duration, System.Boolean ignoreTimeScale, System.Boolean useAlpha)
-    void InternalCrossFadeColor(UnityEngine::Color targetColor, float duration, bool ignoreTimeScale, bool useAlpha);
+    void InternalCrossFadeColor(::UnityEngine::Color targetColor, float duration, bool ignoreTimeScale, bool useAlpha);
     // protected override System.Void InternalCrossFadeAlpha(System.Single alpha, System.Single duration, System.Boolean ignoreTimeScale)
     // Offset: 0x2110540
     // Implemented from: TMPro.TMP_Text
@@ -538,7 +538,7 @@ namespace TMPro {
     // Offset: 0x2110608
     // Implemented from: TMPro.TMP_Text
     // Base method: TMPro.TMP_TextInfo TMP_Text::GetTextInfo(System.String text)
-    TMPro::TMP_TextInfo* GetTextInfo(::StringW text);
+    ::TMPro::TMP_TextInfo* GetTextInfo(::StringW text);
     // public override System.Void ClearMesh()
     // Offset: 0x2110700
     // Implemented from: TMPro.TMP_Text
@@ -548,12 +548,12 @@ namespace TMPro {
     // Offset: 0x2110810
     // Implemented from: TMPro.TMP_Text
     // Base method: System.Void TMP_Text::UpdateGeometry(UnityEngine.Mesh mesh, System.Int32 index)
-    void UpdateGeometry(UnityEngine::Mesh* mesh, int index);
+    void UpdateGeometry(::UnityEngine::Mesh* mesh, int index);
     // public override System.Void UpdateVertexData(TMPro.TMP_VertexDataUpdateFlags flags)
     // Offset: 0x211089C
     // Implemented from: TMPro.TMP_Text
     // Base method: System.Void TMP_Text::UpdateVertexData(TMPro.TMP_VertexDataUpdateFlags flags)
-    void UpdateVertexData(TMPro::TMP_VertexDataUpdateFlags flags);
+    void UpdateVertexData(::TMPro::TMP_VertexDataUpdateFlags flags);
     // public override System.Void UpdateVertexData()
     // Offset: 0x2110A94
     // Implemented from: TMPro.TMP_Text
@@ -566,7 +566,7 @@ namespace TMPro {
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::get_maskOffset
 // Il2CppName: get_maskOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::get_maskOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::get_maskOffset)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "get_maskOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -574,7 +574,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::set_maskOffset
 // Il2CppName: set_maskOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)(UnityEngine::Vector4)>(&TMPro::TextMeshProUGUI::set_maskOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)(::UnityEngine::Vector4)>(&TMPro::TextMeshProUGUI::set_maskOffset)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "set_maskOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -583,7 +583,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::GetCanvas
 // Il2CppName: GetCanvas
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Canvas* (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::GetCanvas)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Canvas* (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::GetCanvas)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "GetCanvas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -689,7 +689,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::get_materialForRendering
 // Il2CppName: get_materialForRendering
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::get_materialForRendering)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Material* (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::get_materialForRendering)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "get_materialForRendering", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -714,7 +714,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::get_mesh
 // Il2CppName: get_mesh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Mesh* (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::get_mesh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Mesh* (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::get_mesh)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "get_mesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -722,7 +722,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::get_canvasRenderer
 // Il2CppName: get_canvasRenderer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::CanvasRenderer* (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::get_canvasRenderer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::CanvasRenderer* (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::get_canvasRenderer)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "get_canvasRenderer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -774,7 +774,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::GetMaterial
 // Il2CppName: GetMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMPro::TextMeshProUGUI::*)(UnityEngine::Material*)>(&TMPro::TextMeshProUGUI::GetMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Material* (TMPro::TextMeshProUGUI::*)(::UnityEngine::Material*)>(&TMPro::TextMeshProUGUI::GetMaterial)> {
   static const MethodInfo* get() {
     static auto* mat = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "GetMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mat});
@@ -783,7 +783,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::GetMaterials
 // Il2CppName: GetMaterials
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Material*> (TMPro::TextMeshProUGUI::*)(::ArrayW<UnityEngine::Material*>)>(&TMPro::TextMeshProUGUI::GetMaterials)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Material*> (TMPro::TextMeshProUGUI::*)(::ArrayW<::UnityEngine::Material*>)>(&TMPro::TextMeshProUGUI::GetMaterials)> {
   static const MethodInfo* get() {
     static auto* mats = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Material"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "GetMaterials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mats});
@@ -792,7 +792,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::SetSharedMaterial
 // Il2CppName: SetSharedMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)(UnityEngine::Material*)>(&TMPro::TextMeshProUGUI::SetSharedMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)(::UnityEngine::Material*)>(&TMPro::TextMeshProUGUI::SetSharedMaterial)> {
   static const MethodInfo* get() {
     static auto* mat = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "SetSharedMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mat});
@@ -801,7 +801,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::GetSharedMaterials
 // Il2CppName: GetSharedMaterials
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Material*> (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::GetSharedMaterials)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Material*> (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::GetSharedMaterials)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "GetSharedMaterials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -809,7 +809,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::SetSharedMaterials
 // Il2CppName: SetSharedMaterials
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)(::ArrayW<UnityEngine::Material*>)>(&TMPro::TextMeshProUGUI::SetSharedMaterials)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)(::ArrayW<::UnityEngine::Material*>)>(&TMPro::TextMeshProUGUI::SetSharedMaterials)> {
   static const MethodInfo* get() {
     static auto* materials = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Material"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "SetSharedMaterials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{materials});
@@ -827,7 +827,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::SetFaceColor
 // Il2CppName: SetFaceColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)(UnityEngine::Color32)>(&TMPro::TextMeshProUGUI::SetFaceColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)(::UnityEngine::Color32)>(&TMPro::TextMeshProUGUI::SetFaceColor)> {
   static const MethodInfo* get() {
     static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "SetFaceColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{color});
@@ -836,7 +836,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::SetOutlineColor
 // Il2CppName: SetOutlineColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)(UnityEngine::Color32)>(&TMPro::TextMeshProUGUI::SetOutlineColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)(::UnityEngine::Color32)>(&TMPro::TextMeshProUGUI::SetOutlineColor)> {
   static const MethodInfo* get() {
     static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "SetOutlineColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{color});
@@ -861,7 +861,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::GetPaddingForMaterial
 // Il2CppName: GetPaddingForMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TMPro::TextMeshProUGUI::*)(UnityEngine::Material*)>(&TMPro::TextMeshProUGUI::GetPaddingForMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TMPro::TextMeshProUGUI::*)(::UnityEngine::Material*)>(&TMPro::TextMeshProUGUI::GetPaddingForMaterial)> {
   static const MethodInfo* get() {
     static auto* mat = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "GetPaddingForMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mat});
@@ -878,7 +878,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TMPr
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::SetArraySizes
 // Il2CppName: SetArraySizes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro::TextMeshProUGUI::*)(::ArrayW<TMPro::TMP_Text::UnicodeChar>)>(&TMPro::TextMeshProUGUI::SetArraySizes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro::TextMeshProUGUI::*)(::ArrayW<::TMPro::TMP_Text::UnicodeChar>)>(&TMPro::TextMeshProUGUI::SetArraySizes)> {
   static const MethodInfo* get() {
     static auto* chars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text/UnicodeChar"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "SetArraySizes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{chars});
@@ -943,7 +943,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::GetTextContainerLocalCorners
 // Il2CppName: GetTextContainerLocalCorners
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector3> (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::GetTextContainerLocalCorners)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Vector3> (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::GetTextContainerLocalCorners)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "GetTextContainerLocalCorners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -960,7 +960,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::GetCompoundBounds
 // Il2CppName: GetCompoundBounds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Bounds (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::GetCompoundBounds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Bounds (TMPro::TextMeshProUGUI::*)()>(&TMPro::TextMeshProUGUI::GetCompoundBounds)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "GetCompoundBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1011,7 +1011,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::Rebuild
 // Il2CppName: Rebuild
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)(UnityEngine::UI::CanvasUpdate)>(&TMPro::TextMeshProUGUI::Rebuild)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)(::UnityEngine::UI::CanvasUpdate)>(&TMPro::TextMeshProUGUI::Rebuild)> {
   static const MethodInfo* get() {
     static auto* update = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "CanvasUpdate")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "Rebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{update});
@@ -1020,7 +1020,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::GetModifiedMaterial
 // Il2CppName: GetModifiedMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMPro::TextMeshProUGUI::*)(UnityEngine::Material*)>(&TMPro::TextMeshProUGUI::GetModifiedMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Material* (TMPro::TextMeshProUGUI::*)(::UnityEngine::Material*)>(&TMPro::TextMeshProUGUI::GetModifiedMaterial)> {
   static const MethodInfo* get() {
     static auto* baseMaterial = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "GetModifiedMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{baseMaterial});
@@ -1053,7 +1053,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::Cull
 // Il2CppName: Cull
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)(UnityEngine::Rect, bool)>(&TMPro::TextMeshProUGUI::Cull)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)(::UnityEngine::Rect, bool)>(&TMPro::TextMeshProUGUI::Cull)> {
   static const MethodInfo* get() {
     static auto* clipRect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
     static auto* validRect = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -1071,7 +1071,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::InternalCrossFadeColor
 // Il2CppName: InternalCrossFadeColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)(UnityEngine::Color, float, bool, bool)>(&TMPro::TextMeshProUGUI::InternalCrossFadeColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)(::UnityEngine::Color, float, bool, bool)>(&TMPro::TextMeshProUGUI::InternalCrossFadeColor)> {
   static const MethodInfo* get() {
     static auto* targetColor = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     static auto* duration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -1111,7 +1111,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::GetTextInfo
 // Il2CppName: GetTextInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_TextInfo* (TMPro::TextMeshProUGUI::*)(::StringW)>(&TMPro::TextMeshProUGUI::GetTextInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_TextInfo* (TMPro::TextMeshProUGUI::*)(::StringW)>(&TMPro::TextMeshProUGUI::GetTextInfo)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "GetTextInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text});
@@ -1128,7 +1128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::UpdateGeometry
 // Il2CppName: UpdateGeometry
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)(UnityEngine::Mesh*, int)>(&TMPro::TextMeshProUGUI::UpdateGeometry)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)(::UnityEngine::Mesh*, int)>(&TMPro::TextMeshProUGUI::UpdateGeometry)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1138,7 +1138,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::UpdateVertexData
 // Il2CppName: UpdateVertexData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)(TMPro::TMP_VertexDataUpdateFlags)>(&TMPro::TextMeshProUGUI::UpdateVertexData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)(::TMPro::TMP_VertexDataUpdateFlags)>(&TMPro::TextMeshProUGUI::UpdateVertexData)> {
   static const MethodInfo* get() {
     static auto* flags = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_VertexDataUpdateFlags")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "UpdateVertexData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{flags});

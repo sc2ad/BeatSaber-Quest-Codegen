@@ -29,8 +29,8 @@ namespace UnityEngine::UI {
   class ClipperRegistry;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::UI::ClipperRegistry);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ClipperRegistry*, "UnityEngine.UI", "ClipperRegistry");
+NEED_NO_BOX(::UnityEngine::UI::ClipperRegistry);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::ClipperRegistry*, "UnityEngine.UI", "ClipperRegistry");
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {
   // Size: 0x18
@@ -51,51 +51,51 @@ namespace UnityEngine::UI {
     // private readonly UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.IClipper> m_Clippers
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::IClipper*>* m_Clippers;
+    ::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::IClipper*>* m_Clippers;
     // Field size check
-    static_assert(sizeof(UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::IClipper*>*) == 0x8);
+    static_assert(sizeof(::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::IClipper*>*) == 0x8);
     public:
-    // Creating conversion operator: operator UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::IClipper*>*
-    constexpr operator UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::IClipper*>*() const noexcept {
+    // Creating conversion operator: operator ::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::IClipper*>*
+    constexpr operator ::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::IClipper*>*() const noexcept {
       return m_Clippers;
     }
     // Get static field: static private UnityEngine.UI.ClipperRegistry s_Instance
-    static UnityEngine::UI::ClipperRegistry* _get_s_Instance();
+    static ::UnityEngine::UI::ClipperRegistry* _get_s_Instance();
     // Set static field: static private UnityEngine.UI.ClipperRegistry s_Instance
-    static void _set_s_Instance(UnityEngine::UI::ClipperRegistry* value);
+    static void _set_s_Instance(::UnityEngine::UI::ClipperRegistry* value);
     // Get instance field reference: private readonly UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.IClipper> m_Clippers
-    UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::IClipper*>*& dyn_m_Clippers();
+    ::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::IClipper*>*& dyn_m_Clippers();
     // static public UnityEngine.UI.ClipperRegistry get_instance()
     // Offset: 0x18738F0
-    static UnityEngine::UI::ClipperRegistry* get_instance();
+    static ::UnityEngine::UI::ClipperRegistry* get_instance();
     // public System.Void Cull()
     // Offset: 0x187396C
     void Cull();
     // static public System.Void Register(UnityEngine.UI.IClipper c)
     // Offset: 0x1874500
-    static void Register(UnityEngine::UI::IClipper* c);
+    static void Register(::UnityEngine::UI::IClipper* c);
     // static public System.Void Unregister(UnityEngine.UI.IClipper c)
     // Offset: 0x1874574
-    static void Unregister(UnityEngine::UI::IClipper* c);
+    static void Unregister(::UnityEngine::UI::IClipper* c);
     // protected System.Void .ctor()
     // Offset: 0x1874490
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ClipperRegistry* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::ClipperRegistry::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::ClipperRegistry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ClipperRegistry*, creationType>()));
     }
   }; // UnityEngine.UI.ClipperRegistry
   #pragma pack(pop)
-  static check_size<sizeof(ClipperRegistry), 16 + sizeof(UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::IClipper*>*)> __UnityEngine_UI_ClipperRegistrySizeCheck;
+  static check_size<sizeof(ClipperRegistry), 16 + sizeof(::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::IClipper*>*)> __UnityEngine_UI_ClipperRegistrySizeCheck;
   static_assert(sizeof(ClipperRegistry) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::ClipperRegistry::get_instance
 // Il2CppName: get_instance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::ClipperRegistry* (*)()>(&UnityEngine::UI::ClipperRegistry::get_instance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::ClipperRegistry* (*)()>(&UnityEngine::UI::ClipperRegistry::get_instance)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ClipperRegistry*), "get_instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -111,7 +111,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::ClipperRegistry::Register
 // Il2CppName: Register
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::IClipper*)>(&UnityEngine::UI::ClipperRegistry::Register)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UI::IClipper*)>(&UnityEngine::UI::ClipperRegistry::Register)> {
   static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "IClipper")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ClipperRegistry*), "Register", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
@@ -120,7 +120,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::UI::ClipperRegistry::Unregister
 // Il2CppName: Unregister
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::IClipper*)>(&UnityEngine::UI::ClipperRegistry::Unregister)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UI::IClipper*)>(&UnityEngine::UI::ClipperRegistry::Unregister)> {
   static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "IClipper")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ClipperRegistry*), "Unregister", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});

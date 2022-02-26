@@ -31,8 +31,8 @@ namespace UnityEngine {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PingUtility::$$c);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PingUtility::$$c*, "", "PingUtility/<>c");
+NEED_NO_BOX(::GlobalNamespace::PingUtility::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PingUtility::$$c*, "", "PingUtility/<>c");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -43,26 +43,26 @@ namespace GlobalNamespace {
   class PingUtility::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly PingUtility/<>c <>9
-    static GlobalNamespace::PingUtility::$$c* _get_$$9();
+    static ::GlobalNamespace::PingUtility::$$c* _get_$$9();
     // Set static field: static public readonly PingUtility/<>c <>9
-    static void _set_$$9(GlobalNamespace::PingUtility::$$c* value);
+    static void _set_$$9(::GlobalNamespace::PingUtility::$$c* value);
     // Get static field: static public System.Func`2<System.Net.IPAddress,UnityEngine.Ping> <>9__0_0
-    static System::Func_2<System::Net::IPAddress*, UnityEngine::Ping*>* _get_$$9__0_0();
+    static ::System::Func_2<::System::Net::IPAddress*, ::UnityEngine::Ping*>* _get_$$9__0_0();
     // Set static field: static public System.Func`2<System.Net.IPAddress,UnityEngine.Ping> <>9__0_0
-    static void _set_$$9__0_0(System::Func_2<System::Net::IPAddress*, UnityEngine::Ping*>* value);
+    static void _set_$$9__0_0(::System::Func_2<::System::Net::IPAddress*, ::UnityEngine::Ping*>* value);
     // static private System.Void .cctor()
     // Offset: 0x2DFEB48
     static void _cctor();
     // UnityEngine.Ping <PingAsync>b__0_0(System.Net.IPAddress ip)
     // Offset: 0x2DFEBB4
-    UnityEngine::Ping* $PingAsync$b__0_0(System::Net::IPAddress* ip);
+    ::UnityEngine::Ping* $PingAsync$b__0_0(::System::Net::IPAddress* ip);
     // public System.Void .ctor()
     // Offset: 0x2DFEBAC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PingUtility::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PingUtility::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PingUtility::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PingUtility::$$c*, creationType>()));
     }
   }; // PingUtility/<>c
@@ -80,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::PingUtility::$$c::$PingAsync$b__0_0
 // Il2CppName: <PingAsync>b__0_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Ping* (GlobalNamespace::PingUtility::$$c::*)(System::Net::IPAddress*)>(&GlobalNamespace::PingUtility::$$c::$PingAsync$b__0_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Ping* (GlobalNamespace::PingUtility::$$c::*)(::System::Net::IPAddress*)>(&GlobalNamespace::PingUtility::$$c::$PingAsync$b__0_0)> {
   static const MethodInfo* get() {
     static auto* ip = &::il2cpp_utils::GetClassFromName("System.Net", "IPAddress")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PingUtility::$$c*), "<PingAsync>b__0_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ip});

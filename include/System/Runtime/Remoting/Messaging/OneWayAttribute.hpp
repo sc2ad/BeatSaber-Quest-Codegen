@@ -14,8 +14,8 @@ namespace System::Runtime::Remoting::Messaging {
   class OneWayAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Remoting::Messaging::OneWayAttribute);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::OneWayAttribute*, "System.Runtime.Remoting.Messaging", "OneWayAttribute");
+NEED_NO_BOX(::System::Runtime::Remoting::Messaging::OneWayAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Messaging::OneWayAttribute*, "System.Runtime.Remoting.Messaging", "OneWayAttribute");
 // Type namespace: System.Runtime.Remoting.Messaging
 namespace System::Runtime::Remoting::Messaging {
   // Size: 0x10
@@ -24,7 +24,7 @@ namespace System::Runtime::Remoting::Messaging {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AttributeUsageAttribute] Offset: 118B05C
   // [ComVisibleAttribute] Offset: 118B05C
-  class OneWayAttribute : public System::Attribute {
+  class OneWayAttribute : public ::System::Attribute {
     public:
   }; // System.Runtime.Remoting.Messaging.OneWayAttribute
   #pragma pack(pop)

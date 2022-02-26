@@ -12,8 +12,8 @@ namespace System {
   class EnvironmentHelpers;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::EnvironmentHelpers);
-DEFINE_IL2CPP_ARG_TYPE(System::EnvironmentHelpers*, "System", "EnvironmentHelpers");
+NEED_NO_BOX(::System::EnvironmentHelpers);
+DEFINE_IL2CPP_ARG_TYPE(::System::EnvironmentHelpers*, "System", "EnvironmentHelpers");
 // Type namespace: System
 namespace System {
   // Size: 0x10

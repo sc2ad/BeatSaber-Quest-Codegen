@@ -26,8 +26,8 @@ namespace UnityEngine::ProBuilder {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass3_0);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass3_0*, "UnityEngine.ProBuilder.MeshOperations", "ConnectElements/<>c__DisplayClass3_0");
+NEED_NO_BOX(::UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass3_0);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass3_0*, "UnityEngine.ProBuilder.MeshOperations", "ConnectElements/<>c__DisplayClass3_0");
 // Type namespace: UnityEngine.ProBuilder.MeshOperations
 namespace UnityEngine::ProBuilder::MeshOperations {
   // Size: 0x18
@@ -49,38 +49,38 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // public System.Collections.Generic.HashSet`1<System.Int32> appended
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::HashSet_1<int>* appended;
+    ::System::Collections::Generic::HashSet_1<int>* appended;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::HashSet_1<int>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::HashSet_1<int>*) == 0x8);
     public:
-    // Creating conversion operator: operator System::Collections::Generic::HashSet_1<int>*
-    constexpr operator System::Collections::Generic::HashSet_1<int>*() const noexcept {
+    // Creating conversion operator: operator ::System::Collections::Generic::HashSet_1<int>*
+    constexpr operator ::System::Collections::Generic::HashSet_1<int>*() const noexcept {
       return appended;
     }
     // Get instance field reference: public System.Collections.Generic.HashSet`1<System.Int32> appended
-    System::Collections::Generic::HashSet_1<int>*& dyn_appended();
+    ::System::Collections::Generic::HashSet_1<int>*& dyn_appended();
     // System.Boolean <Connect>b__3(UnityEngine.ProBuilder.Edge x)
     // Offset: 0x19C1AF8
-    bool $Connect$b__3(UnityEngine::ProBuilder::Edge x);
+    bool $Connect$b__3(::UnityEngine::ProBuilder::Edge x);
     // public System.Void .ctor()
     // Offset: 0x19C16C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConnectElements::$$c__DisplayClass3_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass3_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass3_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConnectElements::$$c__DisplayClass3_0*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.MeshOperations.ConnectElements/UnityEngine.ProBuilder.MeshOperations.<>c__DisplayClass3_0
   #pragma pack(pop)
-  static check_size<sizeof(ConnectElements::$$c__DisplayClass3_0), 16 + sizeof(System::Collections::Generic::HashSet_1<int>*)> __UnityEngine_ProBuilder_MeshOperations_ConnectElements_$$c__DisplayClass3_0SizeCheck;
+  static check_size<sizeof(ConnectElements::$$c__DisplayClass3_0), 16 + sizeof(::System::Collections::Generic::HashSet_1<int>*)> __UnityEngine_ProBuilder_MeshOperations_ConnectElements_$$c__DisplayClass3_0SizeCheck;
   static_assert(sizeof(ConnectElements::$$c__DisplayClass3_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass3_0::$Connect$b__3
 // Il2CppName: <Connect>b__3
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass3_0::*)(UnityEngine::ProBuilder::Edge)>(&UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass3_0::$Connect$b__3)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass3_0::*)(::UnityEngine::ProBuilder::Edge)>(&UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass3_0::$Connect$b__3)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Edge")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass3_0*), "<Connect>b__3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});

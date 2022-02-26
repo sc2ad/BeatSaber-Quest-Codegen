@@ -13,8 +13,8 @@ namespace Org::BouncyCastle::Crypto::Utilities {
   class Pack;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Crypto::Utilities::Pack);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Utilities::Pack*, "Org.BouncyCastle.Crypto.Utilities", "Pack");
+NEED_NO_BOX(::Org::BouncyCastle::Crypto::Utilities::Pack);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Utilities::Pack*, "Org.BouncyCastle.Crypto.Utilities", "Pack");
 // Type namespace: Org.BouncyCastle.Crypto.Utilities
 namespace Org::BouncyCastle::Crypto::Utilities {
   // Size: 0x10

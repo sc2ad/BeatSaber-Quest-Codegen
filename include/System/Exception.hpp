@@ -57,8 +57,8 @@ namespace System {
   class Exception;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Exception);
-DEFINE_IL2CPP_ARG_TYPE(System::Exception*, "System", "Exception");
+NEED_NO_BOX(::System::Exception);
+DEFINE_IL2CPP_ARG_TYPE(::System::Exception*, "System", "Exception");
 // Type namespace: System
 namespace System {
   // Size: 0x88
@@ -69,9 +69,9 @@ namespace System {
   // [ComDefaultInterfaceAttribute] Offset: 1186CE8
   // [ClassInterfaceAttribute] Offset: 1186CE8
   // [ComVisibleAttribute] Offset: 1186CE8
-  class Exception : public ::Il2CppObject/*, public System::Runtime::Serialization::ISerializable, public System::Runtime::InteropServices::_Exception*/ {
+  class Exception : public ::Il2CppObject/*, public ::System::Runtime::Serialization::ISerializable, public ::System::Runtime::InteropServices::_Exception*/ {
     public:
-    // Nested type: System::Exception::ExceptionMessageKind
+    // Nested type: ::System::Exception::ExceptionMessageKind
     struct ExceptionMessageKind;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -97,15 +97,15 @@ namespace System {
     // private System.Collections.IDictionary _data
     // Size: 0x8
     // Offset: 0x20
-    System::Collections::IDictionary* data;
+    ::System::Collections::IDictionary* data;
     // Field size check
-    static_assert(sizeof(System::Collections::IDictionary*) == 0x8);
+    static_assert(sizeof(::System::Collections::IDictionary*) == 0x8);
     // private System.Exception _innerException
     // Size: 0x8
     // Offset: 0x28
-    System::Exception* innerException;
+    ::System::Exception* innerException;
     // Field size check
-    static_assert(sizeof(System::Exception*) == 0x8);
+    static_assert(sizeof(::System::Exception*) == 0x8);
     // private System.String _helpURL
     // Size: 0x8
     // Offset: 0x30
@@ -162,29 +162,29 @@ namespace System {
     // private System.Runtime.Serialization.SafeSerializationManager _safeSerializationManager
     // Size: 0x8
     // Offset: 0x70
-    System::Runtime::Serialization::SafeSerializationManager* safeSerializationManager;
+    ::System::Runtime::Serialization::SafeSerializationManager* safeSerializationManager;
     // Field size check
-    static_assert(sizeof(System::Runtime::Serialization::SafeSerializationManager*) == 0x8);
+    static_assert(sizeof(::System::Runtime::Serialization::SafeSerializationManager*) == 0x8);
     // System.Diagnostics.StackTrace[] captured_traces
     // Size: 0x8
     // Offset: 0x78
-    ::ArrayW<System::Diagnostics::StackTrace*> captured_traces;
+    ::ArrayW<::System::Diagnostics::StackTrace*> captured_traces;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::Diagnostics::StackTrace*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::System::Diagnostics::StackTrace*>) == 0x8);
     // private System.IntPtr[] native_trace_ips
     // Size: 0x8
     // Offset: 0x80
-    ::ArrayW<System::IntPtr> native_trace_ips;
+    ::ArrayW<::System::IntPtr> native_trace_ips;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::IntPtr>) == 0x8);
+    static_assert(sizeof(::ArrayW<::System::IntPtr>) == 0x8);
     public:
-    // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
-    operator System::Runtime::Serialization::ISerializable() noexcept {
-      return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);
+    // Creating interface conversion operator: operator ::System::Runtime::Serialization::ISerializable
+    operator ::System::Runtime::Serialization::ISerializable() noexcept {
+      return *reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
     }
-    // Creating interface conversion operator: operator System::Runtime::InteropServices::_Exception
-    operator System::Runtime::InteropServices::_Exception() noexcept {
-      return *reinterpret_cast<System::Runtime::InteropServices::_Exception*>(this);
+    // Creating interface conversion operator: operator ::System::Runtime::InteropServices::_Exception
+    operator ::System::Runtime::InteropServices::_Exception() noexcept {
+      return *reinterpret_cast<::System::Runtime::InteropServices::_Exception*>(this);
     }
     // [OptionalFieldAttribute] Offset: 0x118DB38
     // Get static field: static private System.Object s_EDILock
@@ -202,9 +202,9 @@ namespace System {
     // Get instance field reference: System.String _message
     ::StringW& dyn__message();
     // Get instance field reference: private System.Collections.IDictionary _data
-    System::Collections::IDictionary*& dyn__data();
+    ::System::Collections::IDictionary*& dyn__data();
     // Get instance field reference: private System.Exception _innerException
-    System::Exception*& dyn__innerException();
+    ::System::Exception*& dyn__innerException();
     // Get instance field reference: private System.String _helpURL
     ::StringW& dyn__helpURL();
     // Get instance field reference: private System.Object _stackTrace
@@ -222,20 +222,20 @@ namespace System {
     // Get instance field reference: private System.String _source
     ::StringW& dyn__source();
     // Get instance field reference: private System.Runtime.Serialization.SafeSerializationManager _safeSerializationManager
-    System::Runtime::Serialization::SafeSerializationManager*& dyn__safeSerializationManager();
+    ::System::Runtime::Serialization::SafeSerializationManager*& dyn__safeSerializationManager();
     // Get instance field reference: System.Diagnostics.StackTrace[] captured_traces
-    ::ArrayW<System::Diagnostics::StackTrace*>& dyn_captured_traces();
+    ::ArrayW<::System::Diagnostics::StackTrace*>& dyn_captured_traces();
     // Get instance field reference: private System.IntPtr[] native_trace_ips
-    ::ArrayW<System::IntPtr>& dyn_native_trace_ips();
+    ::ArrayW<::System::IntPtr>& dyn_native_trace_ips();
     // public System.String get_Message()
     // Offset: 0x18893D8
     ::StringW get_Message();
     // public System.Collections.IDictionary get_Data()
     // Offset: 0x18894F8
-    System::Collections::IDictionary* get_Data();
+    ::System::Collections::IDictionary* get_Data();
     // public System.Exception get_InnerException()
     // Offset: 0x1889594
-    System::Exception* get_InnerException();
+    ::System::Exception* get_InnerException();
     // public System.String get_StackTrace()
     // Offset: 0x188959C
     ::StringW get_StackTrace();
@@ -252,21 +252,21 @@ namespace System {
     // Offset: 0x188902C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Exception* New_ctor(::StringW message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Exception::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Exception::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Exception*, creationType>(message)));
     }
     // public System.Void .ctor(System.String message, System.Exception innerException)
     // Offset: 0x1889060
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Exception* New_ctor(::StringW message, System::Exception* innerException) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Exception::.ctor");
+    static Exception* New_ctor(::StringW message, ::System::Exception* innerException) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Exception::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Exception*, creationType>(message, innerException)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x18890A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Exception* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Exception::.ctor");
+    static Exception* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Exception::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Exception*, creationType>(info, context)));
     }
     // static private System.Void .cctor()
@@ -277,7 +277,7 @@ namespace System {
     void Init();
     // static private System.Boolean IsImmutableAgileException(System.Exception e)
     // Offset: 0x1889584
-    static bool IsImmutableAgileException(System::Exception* e);
+    static bool IsImmutableAgileException(::System::Exception* e);
     // private System.String GetClassName()
     // Offset: 0x18894B0
     ::StringW GetClassName();
@@ -292,10 +292,10 @@ namespace System {
     ::StringW ToString(bool needFileLineInfo, bool needMessage);
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x1889994
-    void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
+    void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
     // private System.Void OnDeserialized(System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x1889D5C
-    void OnDeserialized(System::Runtime::Serialization::StreamingContext context);
+    void OnDeserialized(::System::Runtime::Serialization::StreamingContext context);
     // System.Void InternalPreserveStackTrace()
     // Offset: 0x1889DDC
     void InternalPreserveStackTrace();
@@ -304,26 +304,26 @@ namespace System {
     ::StringW StripFileInfo(::StringW stackTrace, bool isRemoteStackTrace);
     // System.Void RestoreExceptionDispatchInfo(System.Runtime.ExceptionServices.ExceptionDispatchInfo exceptionDispatchInfo)
     // Offset: 0x1889E34
-    void RestoreExceptionDispatchInfo(System::Runtime::ExceptionServices::ExceptionDispatchInfo* exceptionDispatchInfo);
+    void RestoreExceptionDispatchInfo(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* exceptionDispatchInfo);
     // public System.Type GetType()
     // Offset: 0x188958C
-    System::Type* GetType();
+    ::System::Type* GetType();
     // static System.String GetMessageFromNativeResources(System.Exception/System.ExceptionMessageKind kind)
     // Offset: 0x1889ED4
-    static ::StringW GetMessageFromNativeResources(System::Exception::ExceptionMessageKind kind);
+    static ::StringW GetMessageFromNativeResources(::System::Exception::ExceptionMessageKind kind);
     // System.Exception FixRemotingException()
     // Offset: 0x1889F30
-    System::Exception* FixRemotingException();
+    ::System::Exception* FixRemotingException();
     // static System.Void ReportUnhandledException(System.Exception exception)
     // Offset: 0x188A010
-    static void ReportUnhandledException(System::Exception* exception);
+    static void ReportUnhandledException(::System::Exception* exception);
     // public System.Void .ctor()
     // Offset: 0x1889004
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Exception* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Exception::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Exception::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Exception*, creationType>()));
     }
     // public override System.String ToString()
@@ -333,7 +333,7 @@ namespace System {
     ::StringW ToString();
   }; // System.Exception
   #pragma pack(pop)
-  static check_size<sizeof(Exception), 128 + sizeof(::ArrayW<System::IntPtr>)> __System_ExceptionSizeCheck;
+  static check_size<sizeof(Exception), 128 + sizeof(::ArrayW<::System::IntPtr>)> __System_ExceptionSizeCheck;
   static_assert(sizeof(Exception) == 0x88);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -348,7 +348,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Exception::get_Data
 // Il2CppName: get_Data
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IDictionary* (System::Exception::*)()>(&System::Exception::get_Data)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IDictionary* (System::Exception::*)()>(&System::Exception::get_Data)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Exception*), "get_Data", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -356,7 +356,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::Exception::get_InnerException
 // Il2CppName: get_InnerException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (System::Exception::*)()>(&System::Exception::get_InnerException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (System::Exception::*)()>(&System::Exception::get_InnerException)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Exception*), "get_InnerException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -425,7 +425,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Exception::IsImmutableAgileException
 // Il2CppName: IsImmutableAgileException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Exception*)>(&System::Exception::IsImmutableAgileException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Exception*)>(&System::Exception::IsImmutableAgileException)> {
   static const MethodInfo* get() {
     static auto* e = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Exception*), "IsImmutableAgileException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{e});
@@ -470,7 +470,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Exception::GetObjectData
 // Il2CppName: GetObjectData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Exception::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::Exception::GetObjectData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Exception::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&System::Exception::GetObjectData)> {
   static const MethodInfo* get() {
     static auto* info = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
@@ -480,7 +480,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Exception::OnDeserialized
 // Il2CppName: OnDeserialized
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Exception::*)(System::Runtime::Serialization::StreamingContext)>(&System::Exception::OnDeserialized)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Exception::*)(::System::Runtime::Serialization::StreamingContext)>(&System::Exception::OnDeserialized)> {
   static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Exception*), "OnDeserialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
@@ -507,7 +507,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Exception::RestoreExceptionDispatchInfo
 // Il2CppName: RestoreExceptionDispatchInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Exception::*)(System::Runtime::ExceptionServices::ExceptionDispatchInfo*)>(&System::Exception::RestoreExceptionDispatchInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Exception::*)(::System::Runtime::ExceptionServices::ExceptionDispatchInfo*)>(&System::Exception::RestoreExceptionDispatchInfo)> {
   static const MethodInfo* get() {
     static auto* exceptionDispatchInfo = &::il2cpp_utils::GetClassFromName("System.Runtime.ExceptionServices", "ExceptionDispatchInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Exception*), "RestoreExceptionDispatchInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{exceptionDispatchInfo});
@@ -516,7 +516,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Exception::GetType
 // Il2CppName: GetType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Exception::*)()>(&System::Exception::GetType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (System::Exception::*)()>(&System::Exception::GetType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Exception*), "GetType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -524,7 +524,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: System::Exception::GetMessageFromNativeResources
 // Il2CppName: GetMessageFromNativeResources
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Exception::ExceptionMessageKind)>(&System::Exception::GetMessageFromNativeResources)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Exception::ExceptionMessageKind)>(&System::Exception::GetMessageFromNativeResources)> {
   static const MethodInfo* get() {
     static auto* kind = &::il2cpp_utils::GetClassFromName("System", "Exception/ExceptionMessageKind")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Exception*), "GetMessageFromNativeResources", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{kind});
@@ -533,7 +533,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Exception::FixRemotingException
 // Il2CppName: FixRemotingException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (System::Exception::*)()>(&System::Exception::FixRemotingException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (System::Exception::*)()>(&System::Exception::FixRemotingException)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Exception*), "FixRemotingException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -541,7 +541,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Exception::ReportUnhandledException
 // Il2CppName: ReportUnhandledException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Exception*)>(&System::Exception::ReportUnhandledException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Exception*)>(&System::Exception::ReportUnhandledException)> {
   static const MethodInfo* get() {
     static auto* exception = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Exception*), "ReportUnhandledException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{exception});

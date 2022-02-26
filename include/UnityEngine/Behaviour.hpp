@@ -18,8 +18,8 @@ namespace UnityEngine {
   class Behaviour;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Behaviour);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Behaviour*, "UnityEngine", "Behaviour");
+NEED_NO_BOX(::UnityEngine::Behaviour);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Behaviour*, "UnityEngine", "Behaviour");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -28,7 +28,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [UsedByNativeCodeAttribute] Offset: 11A5C7C
   // [NativeHeaderAttribute] Offset: 11A5C7C
-  class Behaviour : public UnityEngine::Component {
+  class Behaviour : public ::UnityEngine::Component {
     public:
     // public System.Boolean get_enabled()
     // Offset: 0x1EAD800
@@ -47,7 +47,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Behaviour* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Behaviour::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Behaviour::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Behaviour*, creationType>()));
     }
   }; // UnityEngine.Behaviour

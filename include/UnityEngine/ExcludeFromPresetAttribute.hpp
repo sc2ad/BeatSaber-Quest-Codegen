@@ -18,8 +18,8 @@ namespace UnityEngine {
   class ExcludeFromPresetAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ExcludeFromPresetAttribute);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ExcludeFromPresetAttribute*, "UnityEngine", "ExcludeFromPresetAttribute");
+NEED_NO_BOX(::UnityEngine::ExcludeFromPresetAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ExcludeFromPresetAttribute*, "UnityEngine", "ExcludeFromPresetAttribute");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -28,7 +28,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AttributeUsageAttribute] Offset: 11A5C38
   // [UsedByNativeCodeAttribute] Offset: 11A5C38
-  class ExcludeFromPresetAttribute : public System::Attribute {
+  class ExcludeFromPresetAttribute : public ::System::Attribute {
     public:
     // public System.Void .ctor()
     // Offset: 0x1EBA6CC
@@ -37,7 +37,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExcludeFromPresetAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ExcludeFromPresetAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ExcludeFromPresetAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExcludeFromPresetAttribute*, creationType>()));
     }
   }; // UnityEngine.ExcludeFromPresetAttribute

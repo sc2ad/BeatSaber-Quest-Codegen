@@ -38,8 +38,8 @@ namespace LiteNetLib {
   class INetEventListener;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(LiteNetLib::INetEventListener);
-DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::INetEventListener*, "LiteNetLib", "INetEventListener");
+NEED_NO_BOX(::LiteNetLib::INetEventListener);
+DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::INetEventListener*, "LiteNetLib", "INetEventListener");
 // Type namespace: LiteNetLib
 namespace LiteNetLib {
   // Size: 0x10
@@ -50,25 +50,25 @@ namespace LiteNetLib {
     public:
     // public System.Void OnPeerConnected(LiteNetLib.NetPeer peer)
     // Offset: 0xFFFFFFFF
-    void OnPeerConnected(LiteNetLib::NetPeer* peer);
+    void OnPeerConnected(::LiteNetLib::NetPeer* peer);
     // public System.Void OnPeerDisconnected(LiteNetLib.NetPeer peer, LiteNetLib.DisconnectInfo disconnectInfo)
     // Offset: 0xFFFFFFFF
-    void OnPeerDisconnected(LiteNetLib::NetPeer* peer, LiteNetLib::DisconnectInfo disconnectInfo);
+    void OnPeerDisconnected(::LiteNetLib::NetPeer* peer, ::LiteNetLib::DisconnectInfo disconnectInfo);
     // public System.Void OnNetworkError(System.Net.IPEndPoint endPoint, System.Net.Sockets.SocketError socketError)
     // Offset: 0xFFFFFFFF
-    void OnNetworkError(System::Net::IPEndPoint* endPoint, System::Net::Sockets::SocketError socketError);
+    void OnNetworkError(::System::Net::IPEndPoint* endPoint, ::System::Net::Sockets::SocketError socketError);
     // public System.Void OnNetworkReceive(LiteNetLib.NetPeer peer, LiteNetLib.NetPacketReader reader, LiteNetLib.DeliveryMethod deliveryMethod)
     // Offset: 0xFFFFFFFF
-    void OnNetworkReceive(LiteNetLib::NetPeer* peer, LiteNetLib::NetPacketReader* reader, LiteNetLib::DeliveryMethod deliveryMethod);
+    void OnNetworkReceive(::LiteNetLib::NetPeer* peer, ::LiteNetLib::NetPacketReader* reader, ::LiteNetLib::DeliveryMethod deliveryMethod);
     // public System.Void OnNetworkReceiveUnconnected(System.Net.IPEndPoint remoteEndPoint, LiteNetLib.NetPacketReader reader, LiteNetLib.UnconnectedMessageType messageType)
     // Offset: 0xFFFFFFFF
-    void OnNetworkReceiveUnconnected(System::Net::IPEndPoint* remoteEndPoint, LiteNetLib::NetPacketReader* reader, LiteNetLib::UnconnectedMessageType messageType);
+    void OnNetworkReceiveUnconnected(::System::Net::IPEndPoint* remoteEndPoint, ::LiteNetLib::NetPacketReader* reader, ::LiteNetLib::UnconnectedMessageType messageType);
     // public System.Void OnNetworkLatencyUpdate(LiteNetLib.NetPeer peer, System.Int32 latency)
     // Offset: 0xFFFFFFFF
-    void OnNetworkLatencyUpdate(LiteNetLib::NetPeer* peer, int latency);
+    void OnNetworkLatencyUpdate(::LiteNetLib::NetPeer* peer, int latency);
     // public System.Void OnConnectionRequest(LiteNetLib.ConnectionRequest request)
     // Offset: 0xFFFFFFFF
-    void OnConnectionRequest(LiteNetLib::ConnectionRequest* request);
+    void OnConnectionRequest(::LiteNetLib::ConnectionRequest* request);
   }; // LiteNetLib.INetEventListener
   #pragma pack(pop)
 }
@@ -76,7 +76,7 @@ namespace LiteNetLib {
 // Writing MetadataGetter for method: LiteNetLib::INetEventListener::OnPeerConnected
 // Il2CppName: OnPeerConnected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::INetEventListener::*)(LiteNetLib::NetPeer*)>(&LiteNetLib::INetEventListener::OnPeerConnected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::INetEventListener::*)(::LiteNetLib::NetPeer*)>(&LiteNetLib::INetEventListener::OnPeerConnected)> {
   static const MethodInfo* get() {
     static auto* peer = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetPeer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::INetEventListener*), "OnPeerConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{peer});
@@ -85,7 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::INetEventListener::OnPeerDisconnected
 // Il2CppName: OnPeerDisconnected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::INetEventListener::*)(LiteNetLib::NetPeer*, LiteNetLib::DisconnectInfo)>(&LiteNetLib::INetEventListener::OnPeerDisconnected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::INetEventListener::*)(::LiteNetLib::NetPeer*, ::LiteNetLib::DisconnectInfo)>(&LiteNetLib::INetEventListener::OnPeerDisconnected)> {
   static const MethodInfo* get() {
     static auto* peer = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetPeer")->byval_arg;
     static auto* disconnectInfo = &::il2cpp_utils::GetClassFromName("LiteNetLib", "DisconnectInfo")->byval_arg;
@@ -95,7 +95,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::INetEventListener::OnNetworkError
 // Il2CppName: OnNetworkError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::INetEventListener::*)(System::Net::IPEndPoint*, System::Net::Sockets::SocketError)>(&LiteNetLib::INetEventListener::OnNetworkError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::INetEventListener::*)(::System::Net::IPEndPoint*, ::System::Net::Sockets::SocketError)>(&LiteNetLib::INetEventListener::OnNetworkError)> {
   static const MethodInfo* get() {
     static auto* endPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     static auto* socketError = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketError")->byval_arg;
@@ -105,7 +105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::INetEventListener::OnNetworkReceive
 // Il2CppName: OnNetworkReceive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::INetEventListener::*)(LiteNetLib::NetPeer*, LiteNetLib::NetPacketReader*, LiteNetLib::DeliveryMethod)>(&LiteNetLib::INetEventListener::OnNetworkReceive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::INetEventListener::*)(::LiteNetLib::NetPeer*, ::LiteNetLib::NetPacketReader*, ::LiteNetLib::DeliveryMethod)>(&LiteNetLib::INetEventListener::OnNetworkReceive)> {
   static const MethodInfo* get() {
     static auto* peer = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetPeer")->byval_arg;
     static auto* reader = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetPacketReader")->byval_arg;
@@ -116,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::INetEventListener::OnNetworkReceiveUnconnected
 // Il2CppName: OnNetworkReceiveUnconnected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::INetEventListener::*)(System::Net::IPEndPoint*, LiteNetLib::NetPacketReader*, LiteNetLib::UnconnectedMessageType)>(&LiteNetLib::INetEventListener::OnNetworkReceiveUnconnected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::INetEventListener::*)(::System::Net::IPEndPoint*, ::LiteNetLib::NetPacketReader*, ::LiteNetLib::UnconnectedMessageType)>(&LiteNetLib::INetEventListener::OnNetworkReceiveUnconnected)> {
   static const MethodInfo* get() {
     static auto* remoteEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     static auto* reader = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetPacketReader")->byval_arg;
@@ -127,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::INetEventListener::OnNetworkLatencyUpdate
 // Il2CppName: OnNetworkLatencyUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::INetEventListener::*)(LiteNetLib::NetPeer*, int)>(&LiteNetLib::INetEventListener::OnNetworkLatencyUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::INetEventListener::*)(::LiteNetLib::NetPeer*, int)>(&LiteNetLib::INetEventListener::OnNetworkLatencyUpdate)> {
   static const MethodInfo* get() {
     static auto* peer = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetPeer")->byval_arg;
     static auto* latency = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -137,7 +137,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::INetEventListener::OnConnectionRequest
 // Il2CppName: OnConnectionRequest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::INetEventListener::*)(LiteNetLib::ConnectionRequest*)>(&LiteNetLib::INetEventListener::OnConnectionRequest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::INetEventListener::*)(::LiteNetLib::ConnectionRequest*)>(&LiteNetLib::INetEventListener::OnConnectionRequest)> {
   static const MethodInfo* get() {
     static auto* request = &::il2cpp_utils::GetClassFromName("LiteNetLib", "ConnectionRequest")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::INetEventListener*), "OnConnectionRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{request});

@@ -21,8 +21,8 @@ namespace System::Collections::Generic {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(TMPro::TMP_Settings::LineBreakingTable);
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Settings::LineBreakingTable*, "TMPro", "TMP_Settings/LineBreakingTable");
+NEED_NO_BOX(::TMPro::TMP_Settings::LineBreakingTable);
+DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_Settings::LineBreakingTable*, "TMPro", "TMP_Settings/LineBreakingTable");
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0x20
@@ -43,32 +43,32 @@ namespace TMPro {
     // public System.Collections.Generic.Dictionary`2<System.Int32,System.Char> leadingCharacters
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::Dictionary_2<int, ::Il2CppChar>* leadingCharacters;
+    ::System::Collections::Generic::Dictionary_2<int, ::Il2CppChar>* leadingCharacters;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<int, ::Il2CppChar>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::Dictionary_2<int, ::Il2CppChar>*) == 0x8);
     // public System.Collections.Generic.Dictionary`2<System.Int32,System.Char> followingCharacters
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::Generic::Dictionary_2<int, ::Il2CppChar>* followingCharacters;
+    ::System::Collections::Generic::Dictionary_2<int, ::Il2CppChar>* followingCharacters;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<int, ::Il2CppChar>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::Dictionary_2<int, ::Il2CppChar>*) == 0x8);
     public:
     // Get instance field reference: public System.Collections.Generic.Dictionary`2<System.Int32,System.Char> leadingCharacters
-    System::Collections::Generic::Dictionary_2<int, ::Il2CppChar>*& dyn_leadingCharacters();
+    ::System::Collections::Generic::Dictionary_2<int, ::Il2CppChar>*& dyn_leadingCharacters();
     // Get instance field reference: public System.Collections.Generic.Dictionary`2<System.Int32,System.Char> followingCharacters
-    System::Collections::Generic::Dictionary_2<int, ::Il2CppChar>*& dyn_followingCharacters();
+    ::System::Collections::Generic::Dictionary_2<int, ::Il2CppChar>*& dyn_followingCharacters();
     // public System.Void .ctor()
     // Offset: 0x1455014
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_Settings::LineBreakingTable* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_Settings::LineBreakingTable::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_Settings::LineBreakingTable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_Settings::LineBreakingTable*, creationType>()));
     }
   }; // TMPro.TMP_Settings/TMPro.LineBreakingTable
   #pragma pack(pop)
-  static check_size<sizeof(TMP_Settings::LineBreakingTable), 24 + sizeof(System::Collections::Generic::Dictionary_2<int, ::Il2CppChar>*)> __TMPro_TMP_Settings_LineBreakingTableSizeCheck;
+  static check_size<sizeof(TMP_Settings::LineBreakingTable), 24 + sizeof(::System::Collections::Generic::Dictionary_2<int, ::Il2CppChar>*)> __TMPro_TMP_Settings_LineBreakingTableSizeCheck;
   static_assert(sizeof(TMP_Settings::LineBreakingTable) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

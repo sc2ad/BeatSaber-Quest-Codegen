@@ -12,8 +12,8 @@ namespace System::Net {
   class Logging;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::Logging);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::Logging*, "System.Net", "Logging");
+NEED_NO_BOX(::System::Net::Logging);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::Logging*, "System.Net", "Logging");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x10

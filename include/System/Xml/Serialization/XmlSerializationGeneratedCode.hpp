@@ -16,8 +16,8 @@ namespace System::Xml::Serialization {
   class XmlSerializationGeneratedCode;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Serialization::XmlSerializationGeneratedCode);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Serialization::XmlSerializationGeneratedCode*, "System.Xml.Serialization", "XmlSerializationGeneratedCode");
+NEED_NO_BOX(::System::Xml::Serialization::XmlSerializationGeneratedCode);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::XmlSerializationGeneratedCode*, "System.Xml.Serialization", "XmlSerializationGeneratedCode");
 // Type namespace: System.Xml.Serialization
 namespace System::Xml::Serialization {
   // Size: 0x10
@@ -32,7 +32,7 @@ namespace System::Xml::Serialization {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlSerializationGeneratedCode* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Serialization::XmlSerializationGeneratedCode::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Serialization::XmlSerializationGeneratedCode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlSerializationGeneratedCode*, creationType>()));
     }
   }; // System.Xml.Serialization.XmlSerializationGeneratedCode

@@ -26,8 +26,8 @@ namespace GlobalNamespace {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MultiplayerBadgesProvider::$$c);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerBadgesProvider::$$c*, "", "MultiplayerBadgesProvider/<>c");
+NEED_NO_BOX(::GlobalNamespace::MultiplayerBadgesProvider::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerBadgesProvider::$$c*, "", "MultiplayerBadgesProvider/<>c");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -38,33 +38,33 @@ namespace GlobalNamespace {
   class MultiplayerBadgesProvider::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly MultiplayerBadgesProvider/<>c <>9
-    static GlobalNamespace::MultiplayerBadgesProvider::$$c* _get_$$9();
+    static ::GlobalNamespace::MultiplayerBadgesProvider::$$c* _get_$$9();
     // Set static field: static public readonly MultiplayerBadgesProvider/<>c <>9
-    static void _set_$$9(GlobalNamespace::MultiplayerBadgesProvider::$$c* value);
+    static void _set_$$9(::GlobalNamespace::MultiplayerBadgesProvider::$$c* value);
     // Get static field: static public System.Func`2<MultiplayerPlayerResultsData,System.Boolean> <>9__7_0
-    static System::Func_2<GlobalNamespace::MultiplayerPlayerResultsData*, bool>* _get_$$9__7_0();
+    static ::System::Func_2<::GlobalNamespace::MultiplayerPlayerResultsData*, bool>* _get_$$9__7_0();
     // Set static field: static public System.Func`2<MultiplayerPlayerResultsData,System.Boolean> <>9__7_0
-    static void _set_$$9__7_0(System::Func_2<GlobalNamespace::MultiplayerPlayerResultsData*, bool>* value);
+    static void _set_$$9__7_0(::System::Func_2<::GlobalNamespace::MultiplayerPlayerResultsData*, bool>* value);
     // Get static field: static public System.Func`2<MultiplayerPlayerResultsData,System.Int32> <>9__7_1
-    static System::Func_2<GlobalNamespace::MultiplayerPlayerResultsData*, int>* _get_$$9__7_1();
+    static ::System::Func_2<::GlobalNamespace::MultiplayerPlayerResultsData*, int>* _get_$$9__7_1();
     // Set static field: static public System.Func`2<MultiplayerPlayerResultsData,System.Int32> <>9__7_1
-    static void _set_$$9__7_1(System::Func_2<GlobalNamespace::MultiplayerPlayerResultsData*, int>* value);
+    static void _set_$$9__7_1(::System::Func_2<::GlobalNamespace::MultiplayerPlayerResultsData*, int>* value);
     // static private System.Void .cctor()
     // Offset: 0x142BCF8
     static void _cctor();
     // System.Boolean <SelectBadgesAndPutThemIntoResults>b__7_0(MultiplayerPlayerResultsData result)
     // Offset: 0x142BD64
-    bool $SelectBadgesAndPutThemIntoResults$b__7_0(GlobalNamespace::MultiplayerPlayerResultsData* result);
+    bool $SelectBadgesAndPutThemIntoResults$b__7_0(::GlobalNamespace::MultiplayerPlayerResultsData* result);
     // System.Int32 <SelectBadgesAndPutThemIntoResults>b__7_1(MultiplayerPlayerResultsData p)
     // Offset: 0x142BD88
-    int $SelectBadgesAndPutThemIntoResults$b__7_1(GlobalNamespace::MultiplayerPlayerResultsData* p);
+    int $SelectBadgesAndPutThemIntoResults$b__7_1(::GlobalNamespace::MultiplayerPlayerResultsData* p);
     // public System.Void .ctor()
     // Offset: 0x142BD5C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerBadgesProvider::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerBadgesProvider::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerBadgesProvider::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerBadgesProvider::$$c*, creationType>()));
     }
   }; // MultiplayerBadgesProvider/<>c
@@ -82,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgesProvider::$$c::$SelectBadgesAndPutThemIntoResults$b__7_0
 // Il2CppName: <SelectBadgesAndPutThemIntoResults>b__7_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MultiplayerBadgesProvider::$$c::*)(GlobalNamespace::MultiplayerPlayerResultsData*)>(&GlobalNamespace::MultiplayerBadgesProvider::$$c::$SelectBadgesAndPutThemIntoResults$b__7_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MultiplayerBadgesProvider::$$c::*)(::GlobalNamespace::MultiplayerPlayerResultsData*)>(&GlobalNamespace::MultiplayerBadgesProvider::$$c::$SelectBadgesAndPutThemIntoResults$b__7_0)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("", "MultiplayerPlayerResultsData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerBadgesProvider::$$c*), "<SelectBadgesAndPutThemIntoResults>b__7_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
@@ -91,7 +91,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgesProvider::$$c::$SelectBadgesAndPutThemIntoResults$b__7_1
 // Il2CppName: <SelectBadgesAndPutThemIntoResults>b__7_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::MultiplayerBadgesProvider::$$c::*)(GlobalNamespace::MultiplayerPlayerResultsData*)>(&GlobalNamespace::MultiplayerBadgesProvider::$$c::$SelectBadgesAndPutThemIntoResults$b__7_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::MultiplayerBadgesProvider::$$c::*)(::GlobalNamespace::MultiplayerPlayerResultsData*)>(&GlobalNamespace::MultiplayerBadgesProvider::$$c::$SelectBadgesAndPutThemIntoResults$b__7_1)> {
   static const MethodInfo* get() {
     static auto* p = &::il2cpp_utils::GetClassFromName("", "MultiplayerPlayerResultsData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerBadgesProvider::$$c*), "<SelectBadgesAndPutThemIntoResults>b__7_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{p});

@@ -26,8 +26,8 @@ namespace Zenject {
   class InjectableInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::InjectableInfo);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectableInfo*, "Zenject", "InjectableInfo");
+NEED_NO_BOX(::Zenject::InjectableInfo);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::InjectableInfo*, "Zenject", "InjectableInfo");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x40
@@ -63,9 +63,9 @@ namespace Zenject {
     // public readonly Zenject.InjectSources SourceType
     // Size: 0x4
     // Offset: 0x20
-    Zenject::InjectSources SourceType;
+    ::Zenject::InjectSources SourceType;
     // Field size check
-    static_assert(sizeof(Zenject::InjectSources) == 0x4);
+    static_assert(sizeof(::Zenject::InjectSources) == 0x4);
     // Padding between fields: SourceType and: MemberName
     char __padding2[0x4] = {};
     // public readonly System.String MemberName
@@ -77,9 +77,9 @@ namespace Zenject {
     // public readonly System.Type MemberType
     // Size: 0x8
     // Offset: 0x30
-    System::Type* MemberType;
+    ::System::Type* MemberType;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     // public readonly System.Object DefaultValue
     // Size: 0x8
     // Offset: 0x38
@@ -92,18 +92,18 @@ namespace Zenject {
     // Get instance field reference: public readonly System.Object Identifier
     ::Il2CppObject*& dyn_Identifier();
     // Get instance field reference: public readonly Zenject.InjectSources SourceType
-    Zenject::InjectSources& dyn_SourceType();
+    ::Zenject::InjectSources& dyn_SourceType();
     // Get instance field reference: public readonly System.String MemberName
     ::StringW& dyn_MemberName();
     // Get instance field reference: public readonly System.Type MemberType
-    System::Type*& dyn_MemberType();
+    ::System::Type*& dyn_MemberType();
     // Get instance field reference: public readonly System.Object DefaultValue
     ::Il2CppObject*& dyn_DefaultValue();
     // public System.Void .ctor(System.Boolean optional, System.Object identifier, System.String memberName, System.Type memberType, System.Object defaultValue, Zenject.InjectSources sourceType)
     // Offset: 0x2A47A20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static InjectableInfo* New_ctor(bool optional, ::Il2CppObject* identifier, ::StringW memberName, System::Type* memberType, ::Il2CppObject* defaultValue, Zenject::InjectSources sourceType) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::InjectableInfo::.ctor");
+    static InjectableInfo* New_ctor(bool optional, ::Il2CppObject* identifier, ::StringW memberName, ::System::Type* memberType, ::Il2CppObject* defaultValue, ::Zenject::InjectSources sourceType) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InjectableInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InjectableInfo*, creationType>(optional, identifier, memberName, memberType, defaultValue, sourceType)));
     }
   }; // Zenject.InjectableInfo

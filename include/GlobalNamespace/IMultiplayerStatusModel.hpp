@@ -29,8 +29,8 @@ namespace GlobalNamespace {
   class IMultiplayerStatusModel;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::IMultiplayerStatusModel);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IMultiplayerStatusModel*, "", "IMultiplayerStatusModel");
+NEED_NO_BOX(::GlobalNamespace::IMultiplayerStatusModel);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IMultiplayerStatusModel*, "", "IMultiplayerStatusModel");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     public:
     // public System.Threading.Tasks.Task`1<MultiplayerStatusData> GetMultiplayerStatusAsync(System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF
-    System::Threading::Tasks::Task_1<GlobalNamespace::MultiplayerStatusData*>* GetMultiplayerStatusAsync(System::Threading::CancellationToken cancellationToken);
+    ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>* GetMultiplayerStatusAsync(::System::Threading::CancellationToken cancellationToken);
   }; // IMultiplayerStatusModel
   #pragma pack(pop)
 }
@@ -49,7 +49,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::IMultiplayerStatusModel::GetMultiplayerStatusAsync
 // Il2CppName: GetMultiplayerStatusAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::MultiplayerStatusData*>* (GlobalNamespace::IMultiplayerStatusModel::*)(System::Threading::CancellationToken)>(&GlobalNamespace::IMultiplayerStatusModel::GetMultiplayerStatusAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>* (GlobalNamespace::IMultiplayerStatusModel::*)(::System::Threading::CancellationToken)>(&GlobalNamespace::IMultiplayerStatusModel::GetMultiplayerStatusAsync)> {
   static const MethodInfo* get() {
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMultiplayerStatusModel*), "GetMultiplayerStatusAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cancellationToken});

@@ -28,8 +28,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::FileBrowserModel::$$c__DisplayClass0_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FileBrowserModel::$$c__DisplayClass0_0*, "", "FileBrowserModel/<>c__DisplayClass0_0");
+NEED_NO_BOX(::GlobalNamespace::FileBrowserModel::$$c__DisplayClass0_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FileBrowserModel::$$c__DisplayClass0_0*, "", "FileBrowserModel/<>c__DisplayClass0_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x30
@@ -51,9 +51,9 @@ namespace GlobalNamespace {
     // public FileBrowserItem[] items
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<GlobalNamespace::FileBrowserItem*> items;
+    ::ArrayW<::GlobalNamespace::FileBrowserItem*> items;
     // Field size check
-    static_assert(sizeof(::ArrayW<GlobalNamespace::FileBrowserItem*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::GlobalNamespace::FileBrowserItem*>) == 0x8);
     // public System.String direcotryPath
     // Size: 0x8
     // Offset: 0x18
@@ -69,18 +69,18 @@ namespace GlobalNamespace {
     // public System.Action`1<FileBrowserItem[]> callback
     // Size: 0x8
     // Offset: 0x28
-    System::Action_1<::ArrayW<GlobalNamespace::FileBrowserItem*>>* callback;
+    ::System::Action_1<::ArrayW<::GlobalNamespace::FileBrowserItem*>>* callback;
     // Field size check
-    static_assert(sizeof(System::Action_1<::ArrayW<GlobalNamespace::FileBrowserItem*>>*) == 0x8);
+    static_assert(sizeof(::System::Action_1<::ArrayW<::GlobalNamespace::FileBrowserItem*>>*) == 0x8);
     public:
     // Get instance field reference: public FileBrowserItem[] items
-    ::ArrayW<GlobalNamespace::FileBrowserItem*>& dyn_items();
+    ::ArrayW<::GlobalNamespace::FileBrowserItem*>& dyn_items();
     // Get instance field reference: public System.String direcotryPath
     ::StringW& dyn_direcotryPath();
     // Get instance field reference: public System.String[] extensions
     ::ArrayW<::StringW>& dyn_extensions();
     // Get instance field reference: public System.Action`1<FileBrowserItem[]> callback
-    System::Action_1<::ArrayW<GlobalNamespace::FileBrowserItem*>>*& dyn_callback();
+    ::System::Action_1<::ArrayW<::GlobalNamespace::FileBrowserItem*>>*& dyn_callback();
     // System.Void <GetContentOfDirectory>b__0()
     // Offset: 0x13FF2EC
     void $GetContentOfDirectory$b__0();
@@ -93,12 +93,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileBrowserModel::$$c__DisplayClass0_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::FileBrowserModel::$$c__DisplayClass0_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FileBrowserModel::$$c__DisplayClass0_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileBrowserModel::$$c__DisplayClass0_0*, creationType>()));
     }
   }; // FileBrowserModel/<>c__DisplayClass0_0
   #pragma pack(pop)
-  static check_size<sizeof(FileBrowserModel::$$c__DisplayClass0_0), 40 + sizeof(System::Action_1<::ArrayW<GlobalNamespace::FileBrowserItem*>>*)> __GlobalNamespace_FileBrowserModel_$$c__DisplayClass0_0SizeCheck;
+  static check_size<sizeof(FileBrowserModel::$$c__DisplayClass0_0), 40 + sizeof(::System::Action_1<::ArrayW<::GlobalNamespace::FileBrowserItem*>>*)> __GlobalNamespace_FileBrowserModel_$$c__DisplayClass0_0SizeCheck;
   static_assert(sizeof(FileBrowserModel::$$c__DisplayClass0_0) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

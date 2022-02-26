@@ -13,8 +13,8 @@ namespace UnityEngine::Assertions {
   class AssertionMessageUtil;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Assertions::AssertionMessageUtil);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Assertions::AssertionMessageUtil*, "UnityEngine.Assertions", "AssertionMessageUtil");
+NEED_NO_BOX(::UnityEngine::Assertions::AssertionMessageUtil);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Assertions::AssertionMessageUtil*, "UnityEngine.Assertions", "AssertionMessageUtil");
 // Type namespace: UnityEngine.Assertions
 namespace UnityEngine::Assertions {
   // Size: 0x10

@@ -20,8 +20,8 @@ namespace System::Globalization {
   class CalendarData;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Globalization::CalendarData);
-DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CalendarData*, "System.Globalization", "CalendarData");
+NEED_NO_BOX(::System::Globalization::CalendarData);
+DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::CalendarData*, "System.Globalization", "CalendarData");
 // Type namespace: System.Globalization
 namespace System::Globalization {
   // Size: 0x99
@@ -162,9 +162,9 @@ namespace System::Globalization {
     // Set static field: static System.Int32 MAX_CALENDARS
     static void _set_MAX_CALENDARS(int value);
     // Get static field: static System.Globalization.CalendarData Invariant
-    static System::Globalization::CalendarData* _get_Invariant();
+    static ::System::Globalization::CalendarData* _get_Invariant();
     // Set static field: static System.Globalization.CalendarData Invariant
-    static void _set_Invariant(System::Globalization::CalendarData* value);
+    static void _set_Invariant(::System::Globalization::CalendarData* value);
     // Get instance field reference: System.String sNativeName
     ::StringW& dyn_sNativeName();
     // Get instance field reference: System.String[] saShortDates
@@ -210,7 +210,7 @@ namespace System::Globalization {
     // Offset: 0x188C15C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CalendarData* New_ctor(::StringW localeName, int calendarId, bool bUseUserOverrides) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::CalendarData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Globalization::CalendarData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CalendarData*, creationType>(localeName, calendarId, bUseUserOverrides)));
     }
     // private System.Void InitializeEraNames(System.String localeName, System.Int32 calendarId)
@@ -221,7 +221,7 @@ namespace System::Globalization {
     void InitializeAbbreviatedEraNames(::StringW localeName, int calendarId);
     // static System.Globalization.CalendarData GetCalendarData(System.Int32 calendarId)
     // Offset: 0x188AF4C
-    static System::Globalization::CalendarData* GetCalendarData(int calendarId);
+    static ::System::Globalization::CalendarData* GetCalendarData(int calendarId);
     // static private System.String CalendarIdToCultureName(System.Int32 calendarId)
     // Offset: 0x188CC94
     static ::StringW CalendarIdToCultureName(int calendarId);
@@ -230,7 +230,7 @@ namespace System::Globalization {
     static int nativeGetTwoDigitYearMax(int calID);
     // static private System.Boolean nativeGetCalendarData(System.Globalization.CalendarData data, System.String localeName, System.Int32 calendarId)
     // Offset: 0x188C674
-    static bool nativeGetCalendarData(System::Globalization::CalendarData* data, ::StringW localeName, int calendarId);
+    static bool nativeGetCalendarData(::System::Globalization::CalendarData* data, ::StringW localeName, int calendarId);
     // private System.Boolean fill_calendar_data(System.String localeName, System.Int32 datetimeIndex)
     // Offset: 0x188D008
     bool fill_calendar_data(::StringW localeName, int datetimeIndex);
@@ -240,7 +240,7 @@ namespace System::Globalization {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CalendarData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::CalendarData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Globalization::CalendarData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CalendarData*, creationType>()));
     }
   }; // System.Globalization.CalendarData
@@ -284,7 +284,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Globalization::CalendarData::GetCalendarData
 // Il2CppName: GetCalendarData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CalendarData* (*)(int)>(&System::Globalization::CalendarData::GetCalendarData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::CalendarData* (*)(int)>(&System::Globalization::CalendarData::GetCalendarData)> {
   static const MethodInfo* get() {
     static auto* calendarId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::CalendarData*), "GetCalendarData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{calendarId});
@@ -311,7 +311,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 // Writing MetadataGetter for method: System::Globalization::CalendarData::nativeGetCalendarData
 // Il2CppName: nativeGetCalendarData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Globalization::CalendarData*, ::StringW, int)>(&System::Globalization::CalendarData::nativeGetCalendarData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Globalization::CalendarData*, ::StringW, int)>(&System::Globalization::CalendarData::nativeGetCalendarData)> {
   static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("System.Globalization", "CalendarData")->byval_arg;
     static auto* localeName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

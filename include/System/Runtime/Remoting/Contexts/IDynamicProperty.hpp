@@ -12,8 +12,8 @@ namespace System::Runtime::Remoting::Contexts {
   class IDynamicProperty;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Remoting::Contexts::IDynamicProperty);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::IDynamicProperty*, "System.Runtime.Remoting.Contexts", "IDynamicProperty");
+NEED_NO_BOX(::System::Runtime::Remoting::Contexts::IDynamicProperty);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Contexts::IDynamicProperty*, "System.Runtime.Remoting.Contexts", "IDynamicProperty");
 // Type namespace: System.Runtime.Remoting.Contexts
 namespace System::Runtime::Remoting::Contexts {
   // Size: 0x10

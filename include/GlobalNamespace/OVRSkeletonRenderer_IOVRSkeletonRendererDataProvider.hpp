@@ -9,8 +9,8 @@
 #include "GlobalNamespace/OVRSkeletonRenderer.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRSkeletonRenderer::IOVRSkeletonRendererDataProvider);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeletonRenderer::IOVRSkeletonRendererDataProvider*, "", "OVRSkeletonRenderer/IOVRSkeletonRendererDataProvider");
+NEED_NO_BOX(::GlobalNamespace::OVRSkeletonRenderer::IOVRSkeletonRendererDataProvider);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRSkeletonRenderer::IOVRSkeletonRendererDataProvider*, "", "OVRSkeletonRenderer/IOVRSkeletonRendererDataProvider");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -21,7 +21,7 @@ namespace GlobalNamespace {
     public:
     // public OVRSkeletonRenderer/SkeletonRendererData GetSkeletonRendererData()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::OVRSkeletonRenderer::SkeletonRendererData GetSkeletonRendererData();
+    ::GlobalNamespace::OVRSkeletonRenderer::SkeletonRendererData GetSkeletonRendererData();
   }; // OVRSkeletonRenderer/IOVRSkeletonRendererDataProvider
   #pragma pack(pop)
 }
@@ -29,7 +29,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::OVRSkeletonRenderer::IOVRSkeletonRendererDataProvider::GetSkeletonRendererData
 // Il2CppName: GetSkeletonRendererData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRSkeletonRenderer::SkeletonRendererData (GlobalNamespace::OVRSkeletonRenderer::IOVRSkeletonRendererDataProvider::*)()>(&GlobalNamespace::OVRSkeletonRenderer::IOVRSkeletonRendererDataProvider::GetSkeletonRendererData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRSkeletonRenderer::SkeletonRendererData (GlobalNamespace::OVRSkeletonRenderer::IOVRSkeletonRendererDataProvider::*)()>(&GlobalNamespace::OVRSkeletonRenderer::IOVRSkeletonRendererDataProvider::GetSkeletonRendererData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRSkeletonRenderer::IOVRSkeletonRendererDataProvider*), "GetSkeletonRendererData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

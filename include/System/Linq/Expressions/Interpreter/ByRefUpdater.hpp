@@ -27,8 +27,8 @@ namespace System::Linq::Expressions::Interpreter {
   class ByRefUpdater;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Linq::Expressions::Interpreter::ByRefUpdater);
-DEFINE_IL2CPP_ARG_TYPE(System::Linq::Expressions::Interpreter::ByRefUpdater*, "System.Linq.Expressions.Interpreter", "ByRefUpdater");
+NEED_NO_BOX(::System::Linq::Expressions::Interpreter::ByRefUpdater);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::ByRefUpdater*, "System.Linq.Expressions.Interpreter", "ByRefUpdater");
 // Type namespace: System.Linq.Expressions.Interpreter
 namespace System::Linq::Expressions::Interpreter {
   // Size: 0x14
@@ -63,15 +63,15 @@ namespace System::Linq::Expressions::Interpreter {
     // Offset: 0x1EE4ED8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ByRefUpdater* New_ctor(int argumentIndex) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Expressions::Interpreter::ByRefUpdater::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Expressions::Interpreter::ByRefUpdater::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ByRefUpdater*, creationType>(argumentIndex)));
     }
     // public System.Void Update(System.Linq.Expressions.Interpreter.InterpretedFrame frame, System.Object value)
     // Offset: 0xFFFFFFFF
-    void Update(System::Linq::Expressions::Interpreter::InterpretedFrame* frame, ::Il2CppObject* value);
+    void Update(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame, ::Il2CppObject* value);
     // public System.Void UndefineTemps(System.Linq.Expressions.Interpreter.InstructionList instructions, System.Linq.Expressions.Interpreter.LocalVariables locals)
     // Offset: 0x1EE6948
-    void UndefineTemps(System::Linq::Expressions::Interpreter::InstructionList* instructions, System::Linq::Expressions::Interpreter::LocalVariables* locals);
+    void UndefineTemps(::System::Linq::Expressions::Interpreter::InstructionList* instructions, ::System::Linq::Expressions::Interpreter::LocalVariables* locals);
   }; // System.Linq.Expressions.Interpreter.ByRefUpdater
   #pragma pack(pop)
   static check_size<sizeof(ByRefUpdater), 16 + sizeof(int)> __System_Linq_Expressions_Interpreter_ByRefUpdaterSizeCheck;
@@ -85,7 +85,7 @@ namespace System::Linq::Expressions::Interpreter {
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::ByRefUpdater::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::ByRefUpdater::*)(System::Linq::Expressions::Interpreter::InterpretedFrame*, ::Il2CppObject*)>(&System::Linq::Expressions::Interpreter::ByRefUpdater::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::ByRefUpdater::*)(::System::Linq::Expressions::Interpreter::InterpretedFrame*, ::Il2CppObject*)>(&System::Linq::Expressions::Interpreter::ByRefUpdater::Update)> {
   static const MethodInfo* get() {
     static auto* frame = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions.Interpreter", "InterpretedFrame")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -95,7 +95,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::ByRefUpdater::UndefineTemps
 // Il2CppName: UndefineTemps
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::ByRefUpdater::*)(System::Linq::Expressions::Interpreter::InstructionList*, System::Linq::Expressions::Interpreter::LocalVariables*)>(&System::Linq::Expressions::Interpreter::ByRefUpdater::UndefineTemps)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::ByRefUpdater::*)(::System::Linq::Expressions::Interpreter::InstructionList*, ::System::Linq::Expressions::Interpreter::LocalVariables*)>(&System::Linq::Expressions::Interpreter::ByRefUpdater::UndefineTemps)> {
   static const MethodInfo* get() {
     static auto* instructions = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions.Interpreter", "InstructionList")->byval_arg;
     static auto* locals = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions.Interpreter", "LocalVariables")->byval_arg;

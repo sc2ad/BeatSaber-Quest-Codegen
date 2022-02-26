@@ -27,8 +27,8 @@ namespace GlobalNamespace {
   class VRControllersRecorderSaveAndLoad;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::VRControllersRecorderSaveAndLoad);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorderSaveAndLoad*, "", "VRControllersRecorderSaveAndLoad");
+NEED_NO_BOX(::GlobalNamespace::VRControllersRecorderSaveAndLoad);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::VRControllersRecorderSaveAndLoad*, "", "VRControllersRecorderSaveAndLoad");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -39,16 +39,16 @@ namespace GlobalNamespace {
     public:
     // static private VRControllersRecorderSaveData LoadSaveDataFromFile(System.String filePath)
     // Offset: 0x2CB9284
-    static GlobalNamespace::VRControllersRecorderSaveData* LoadSaveDataFromFile(::StringW filePath);
+    static ::GlobalNamespace::VRControllersRecorderSaveData* LoadSaveDataFromFile(::StringW filePath);
     // static private VRControllersRecorderSaveData LoadSaveDataFromTextAsset(UnityEngine.TextAsset textAsset)
     // Offset: 0x2CB9448
-    static GlobalNamespace::VRControllersRecorderSaveData* LoadSaveDataFromTextAsset(UnityEngine::TextAsset* textAsset);
+    static ::GlobalNamespace::VRControllersRecorderSaveData* LoadSaveDataFromTextAsset(::UnityEngine::TextAsset* textAsset);
     // static public System.Void LoadFromFile(System.String filePath, VRControllersRecorderData data)
     // Offset: 0x2CB953C
-    static void LoadFromFile(::StringW filePath, GlobalNamespace::VRControllersRecorderData* data);
+    static void LoadFromFile(::StringW filePath, ::GlobalNamespace::VRControllersRecorderData* data);
     // static public System.Void SaveToFile(System.String filePath, VRControllersRecorderData data)
     // Offset: 0x2CB97C4
-    static void SaveToFile(::StringW filePath, GlobalNamespace::VRControllersRecorderData* data);
+    static void SaveToFile(::StringW filePath, ::GlobalNamespace::VRControllersRecorderData* data);
   }; // VRControllersRecorderSaveAndLoad
   #pragma pack(pop)
 }
@@ -56,7 +56,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorderSaveAndLoad::LoadSaveDataFromFile
 // Il2CppName: LoadSaveDataFromFile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::VRControllersRecorderSaveData* (*)(::StringW)>(&GlobalNamespace::VRControllersRecorderSaveAndLoad::LoadSaveDataFromFile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::VRControllersRecorderSaveData* (*)(::StringW)>(&GlobalNamespace::VRControllersRecorderSaveAndLoad::LoadSaveDataFromFile)> {
   static const MethodInfo* get() {
     static auto* filePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersRecorderSaveAndLoad*), "LoadSaveDataFromFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{filePath});
@@ -65,7 +65,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorderSaveAndLoad::LoadSaveDataFromTextAsset
 // Il2CppName: LoadSaveDataFromTextAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::VRControllersRecorderSaveData* (*)(UnityEngine::TextAsset*)>(&GlobalNamespace::VRControllersRecorderSaveAndLoad::LoadSaveDataFromTextAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::VRControllersRecorderSaveData* (*)(::UnityEngine::TextAsset*)>(&GlobalNamespace::VRControllersRecorderSaveAndLoad::LoadSaveDataFromTextAsset)> {
   static const MethodInfo* get() {
     static auto* textAsset = &::il2cpp_utils::GetClassFromName("UnityEngine", "TextAsset")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersRecorderSaveAndLoad*), "LoadSaveDataFromTextAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{textAsset});
@@ -74,7 +74,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorderSaveAndLoad::LoadFromFile
 // Il2CppName: LoadFromFile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, GlobalNamespace::VRControllersRecorderData*)>(&GlobalNamespace::VRControllersRecorderSaveAndLoad::LoadFromFile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::GlobalNamespace::VRControllersRecorderData*)>(&GlobalNamespace::VRControllersRecorderSaveAndLoad::LoadFromFile)> {
   static const MethodInfo* get() {
     static auto* filePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* data = &::il2cpp_utils::GetClassFromName("", "VRControllersRecorderData")->byval_arg;
@@ -84,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorderSaveAndLoad::SaveToFile
 // Il2CppName: SaveToFile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, GlobalNamespace::VRControllersRecorderData*)>(&GlobalNamespace::VRControllersRecorderSaveAndLoad::SaveToFile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::GlobalNamespace::VRControllersRecorderData*)>(&GlobalNamespace::VRControllersRecorderSaveAndLoad::SaveToFile)> {
   static const MethodInfo* get() {
     static auto* filePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* data = &::il2cpp_utils::GetClassFromName("", "VRControllersRecorderData")->byval_arg;

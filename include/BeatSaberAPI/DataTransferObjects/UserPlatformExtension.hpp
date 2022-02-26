@@ -25,8 +25,8 @@ namespace BeatSaberAPI::DataTransferObjects {
   class UserPlatformExtension;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(BeatSaberAPI::DataTransferObjects::UserPlatformExtension);
-DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::UserPlatformExtension*, "BeatSaberAPI.DataTransferObjects", "UserPlatformExtension");
+NEED_NO_BOX(::BeatSaberAPI::DataTransferObjects::UserPlatformExtension);
+DEFINE_IL2CPP_ARG_TYPE(::BeatSaberAPI::DataTransferObjects::UserPlatformExtension*, "BeatSaberAPI.DataTransferObjects", "UserPlatformExtension");
 // Type namespace: BeatSaberAPI.DataTransferObjects
 namespace BeatSaberAPI::DataTransferObjects {
   // Size: 0x10
@@ -68,10 +68,10 @@ namespace BeatSaberAPI::DataTransferObjects {
     static void _set_kOculusQuest(::StringW value);
     // static public BeatSaberAPI.DataTransferObjects.UserPlatform GetUserPlatformFromSerializedName(System.String name)
     // Offset: 0x2B40650
-    static BeatSaberAPI::DataTransferObjects::UserPlatform GetUserPlatformFromSerializedName(::StringW name);
+    static ::BeatSaberAPI::DataTransferObjects::UserPlatform GetUserPlatformFromSerializedName(::StringW name);
     // static public System.String GetUserPlatformSerializedName(BeatSaberAPI.DataTransferObjects.UserPlatform userPlatform)
     // Offset: 0x2B40744
-    static ::StringW GetUserPlatformSerializedName(BeatSaberAPI::DataTransferObjects::UserPlatform userPlatform);
+    static ::StringW GetUserPlatformSerializedName(::BeatSaberAPI::DataTransferObjects::UserPlatform userPlatform);
   }; // BeatSaberAPI.DataTransferObjects.UserPlatformExtension
   #pragma pack(pop)
 }
@@ -79,7 +79,7 @@ namespace BeatSaberAPI::DataTransferObjects {
 // Writing MetadataGetter for method: BeatSaberAPI::DataTransferObjects::UserPlatformExtension::GetUserPlatformFromSerializedName
 // Il2CppName: GetUserPlatformFromSerializedName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<BeatSaberAPI::DataTransferObjects::UserPlatform (*)(::StringW)>(&BeatSaberAPI::DataTransferObjects::UserPlatformExtension::GetUserPlatformFromSerializedName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaberAPI::DataTransferObjects::UserPlatform (*)(::StringW)>(&BeatSaberAPI::DataTransferObjects::UserPlatformExtension::GetUserPlatformFromSerializedName)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(BeatSaberAPI::DataTransferObjects::UserPlatformExtension*), "GetUserPlatformFromSerializedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -88,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<BeatSaberAP
 // Writing MetadataGetter for method: BeatSaberAPI::DataTransferObjects::UserPlatformExtension::GetUserPlatformSerializedName
 // Il2CppName: GetUserPlatformSerializedName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(BeatSaberAPI::DataTransferObjects::UserPlatform)>(&BeatSaberAPI::DataTransferObjects::UserPlatformExtension::GetUserPlatformSerializedName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::BeatSaberAPI::DataTransferObjects::UserPlatform)>(&BeatSaberAPI::DataTransferObjects::UserPlatformExtension::GetUserPlatformSerializedName)> {
   static const MethodInfo* get() {
     static auto* userPlatform = &::il2cpp_utils::GetClassFromName("BeatSaberAPI.DataTransferObjects", "UserPlatform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(BeatSaberAPI::DataTransferObjects::UserPlatformExtension*), "GetUserPlatformSerializedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userPlatform});

@@ -13,8 +13,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Math::BigInteger::ModulusRing);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Math::BigInteger::ModulusRing*, "Mono.Math", "BigInteger/ModulusRing");
+NEED_NO_BOX(::Mono::Math::BigInteger::ModulusRing);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Math::BigInteger::ModulusRing*, "Mono.Math", "BigInteger/ModulusRing");
 // Type namespace: Mono.Math
 namespace Mono::Math {
   // Size: 0x20
@@ -35,45 +35,45 @@ namespace Mono::Math {
     // private Mono.Math.BigInteger mod
     // Size: 0x8
     // Offset: 0x10
-    Mono::Math::BigInteger* mod;
+    ::Mono::Math::BigInteger* mod;
     // Field size check
-    static_assert(sizeof(Mono::Math::BigInteger*) == 0x8);
+    static_assert(sizeof(::Mono::Math::BigInteger*) == 0x8);
     // private Mono.Math.BigInteger constant
     // Size: 0x8
     // Offset: 0x18
-    Mono::Math::BigInteger* constant;
+    ::Mono::Math::BigInteger* constant;
     // Field size check
-    static_assert(sizeof(Mono::Math::BigInteger*) == 0x8);
+    static_assert(sizeof(::Mono::Math::BigInteger*) == 0x8);
     public:
     // Get instance field reference: private Mono.Math.BigInteger mod
-    Mono::Math::BigInteger*& dyn_mod();
+    ::Mono::Math::BigInteger*& dyn_mod();
     // Get instance field reference: private Mono.Math.BigInteger constant
-    Mono::Math::BigInteger*& dyn_constant();
+    ::Mono::Math::BigInteger*& dyn_constant();
     // public System.Void .ctor(Mono.Math.BigInteger modulus)
     // Offset: 0x22C36D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BigInteger::ModulusRing* New_ctor(Mono::Math::BigInteger* modulus) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Math::BigInteger::ModulusRing::.ctor");
+    static BigInteger::ModulusRing* New_ctor(::Mono::Math::BigInteger* modulus) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Math::BigInteger::ModulusRing::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BigInteger::ModulusRing*, creationType>(modulus)));
     }
     // public System.Void BarrettReduction(Mono.Math.BigInteger x)
     // Offset: 0x22C39D0
-    void BarrettReduction(Mono::Math::BigInteger* x);
+    void BarrettReduction(::Mono::Math::BigInteger* x);
     // public Mono.Math.BigInteger Multiply(Mono.Math.BigInteger a, Mono.Math.BigInteger b)
     // Offset: 0x22C3C40
-    Mono::Math::BigInteger* Multiply(Mono::Math::BigInteger* a, Mono::Math::BigInteger* b);
+    ::Mono::Math::BigInteger* Multiply(::Mono::Math::BigInteger* a, ::Mono::Math::BigInteger* b);
     // public Mono.Math.BigInteger Difference(Mono.Math.BigInteger a, Mono.Math.BigInteger b)
     // Offset: 0x22C37C0
-    Mono::Math::BigInteger* Difference(Mono::Math::BigInteger* a, Mono::Math::BigInteger* b);
+    ::Mono::Math::BigInteger* Difference(::Mono::Math::BigInteger* a, ::Mono::Math::BigInteger* b);
     // public Mono.Math.BigInteger Pow(Mono.Math.BigInteger a, Mono.Math.BigInteger k)
     // Offset: 0x22C3E10
-    Mono::Math::BigInteger* Pow(Mono::Math::BigInteger* a, Mono::Math::BigInteger* k);
+    ::Mono::Math::BigInteger* Pow(::Mono::Math::BigInteger* a, ::Mono::Math::BigInteger* k);
     // public Mono.Math.BigInteger Pow(System.UInt32 b, Mono.Math.BigInteger exp)
     // Offset: 0x22C3F2C
-    Mono::Math::BigInteger* Pow(uint b, Mono::Math::BigInteger* exp);
+    ::Mono::Math::BigInteger* Pow(uint b, ::Mono::Math::BigInteger* exp);
   }; // Mono.Math.BigInteger/Mono.Math.ModulusRing
   #pragma pack(pop)
-  static check_size<sizeof(BigInteger::ModulusRing), 24 + sizeof(Mono::Math::BigInteger*)> __Mono_Math_BigInteger_ModulusRingSizeCheck;
+  static check_size<sizeof(BigInteger::ModulusRing), 24 + sizeof(::Mono::Math::BigInteger*)> __Mono_Math_BigInteger_ModulusRingSizeCheck;
   static_assert(sizeof(BigInteger::ModulusRing) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -84,7 +84,7 @@ namespace Mono::Math {
 // Writing MetadataGetter for method: Mono::Math::BigInteger::ModulusRing::BarrettReduction
 // Il2CppName: BarrettReduction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Math::BigInteger::ModulusRing::*)(Mono::Math::BigInteger*)>(&Mono::Math::BigInteger::ModulusRing::BarrettReduction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Math::BigInteger::ModulusRing::*)(::Mono::Math::BigInteger*)>(&Mono::Math::BigInteger::ModulusRing::BarrettReduction)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("Mono.Math", "BigInteger")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger::ModulusRing*), "BarrettReduction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -93,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Math::BigInteger::ModulusRing::Multiply
 // Il2CppName: Multiply
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (Mono::Math::BigInteger::ModulusRing::*)(Mono::Math::BigInteger*, Mono::Math::BigInteger*)>(&Mono::Math::BigInteger::ModulusRing::Multiply)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Math::BigInteger* (Mono::Math::BigInteger::ModulusRing::*)(::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*)>(&Mono::Math::BigInteger::ModulusRing::Multiply)> {
   static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("Mono.Math", "BigInteger")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("Mono.Math", "BigInteger")->byval_arg;
@@ -103,7 +103,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math:
 // Writing MetadataGetter for method: Mono::Math::BigInteger::ModulusRing::Difference
 // Il2CppName: Difference
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (Mono::Math::BigInteger::ModulusRing::*)(Mono::Math::BigInteger*, Mono::Math::BigInteger*)>(&Mono::Math::BigInteger::ModulusRing::Difference)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Math::BigInteger* (Mono::Math::BigInteger::ModulusRing::*)(::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*)>(&Mono::Math::BigInteger::ModulusRing::Difference)> {
   static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("Mono.Math", "BigInteger")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("Mono.Math", "BigInteger")->byval_arg;
@@ -113,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math:
 // Writing MetadataGetter for method: Mono::Math::BigInteger::ModulusRing::Pow
 // Il2CppName: Pow
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (Mono::Math::BigInteger::ModulusRing::*)(Mono::Math::BigInteger*, Mono::Math::BigInteger*)>(&Mono::Math::BigInteger::ModulusRing::Pow)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Math::BigInteger* (Mono::Math::BigInteger::ModulusRing::*)(::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*)>(&Mono::Math::BigInteger::ModulusRing::Pow)> {
   static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("Mono.Math", "BigInteger")->byval_arg;
     static auto* k = &::il2cpp_utils::GetClassFromName("Mono.Math", "BigInteger")->byval_arg;
@@ -123,7 +123,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math:
 // Writing MetadataGetter for method: Mono::Math::BigInteger::ModulusRing::Pow
 // Il2CppName: Pow
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (Mono::Math::BigInteger::ModulusRing::*)(uint, Mono::Math::BigInteger*)>(&Mono::Math::BigInteger::ModulusRing::Pow)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Math::BigInteger* (Mono::Math::BigInteger::ModulusRing::*)(uint, ::Mono::Math::BigInteger*)>(&Mono::Math::BigInteger::ModulusRing::Pow)> {
   static const MethodInfo* get() {
     static auto* b = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* exp = &::il2cpp_utils::GetClassFromName("Mono.Math", "BigInteger")->byval_arg;

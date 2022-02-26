@@ -26,8 +26,8 @@ namespace System::Text {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::NumberFormatter::CustomInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::NumberFormatter::CustomInfo*, "System", "NumberFormatter/CustomInfo");
+NEED_NO_BOX(::System::NumberFormatter::CustomInfo);
+DEFINE_IL2CPP_ARG_TYPE(::System::NumberFormatter::CustomInfo*, "System", "NumberFormatter/CustomInfo");
 // Type namespace: System
 namespace System {
   // Size: 0x48
@@ -169,17 +169,17 @@ namespace System {
     static void GetActiveSection(::StringW format, ByRef<bool> positive, bool zero, ByRef<int> offset, ByRef<int> length);
     // static public System.NumberFormatter/System.CustomInfo Parse(System.String format, System.Int32 offset, System.Int32 length, System.Globalization.NumberFormatInfo nfi)
     // Offset: 0x215A6A0
-    static System::NumberFormatter::CustomInfo* Parse(::StringW format, int offset, int length, System::Globalization::NumberFormatInfo* nfi);
+    static ::System::NumberFormatter::CustomInfo* Parse(::StringW format, int offset, int length, ::System::Globalization::NumberFormatInfo* nfi);
     // public System.String Format(System.String format, System.Int32 offset, System.Int32 length, System.Globalization.NumberFormatInfo nfi, System.Boolean positive, System.Text.StringBuilder sb_int, System.Text.StringBuilder sb_dec, System.Text.StringBuilder sb_exp)
     // Offset: 0x215AEBC
-    ::StringW Format(::StringW format, int offset, int length, System::Globalization::NumberFormatInfo* nfi, bool positive, System::Text::StringBuilder* sb_int, System::Text::StringBuilder* sb_dec, System::Text::StringBuilder* sb_exp);
+    ::StringW Format(::StringW format, int offset, int length, ::System::Globalization::NumberFormatInfo* nfi, bool positive, ::System::Text::StringBuilder* sb_int, ::System::Text::StringBuilder* sb_dec, ::System::Text::StringBuilder* sb_exp);
     // public System.Void .ctor()
     // Offset: 0x215B878
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NumberFormatter::CustomInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::NumberFormatter::CustomInfo::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::NumberFormatter::CustomInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NumberFormatter::CustomInfo*, creationType>()));
     }
   }; // System.NumberFormatter/System.CustomInfo
@@ -204,7 +204,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::NumberFormatter::CustomInfo::Parse
 // Il2CppName: Parse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::NumberFormatter::CustomInfo* (*)(::StringW, int, int, System::Globalization::NumberFormatInfo*)>(&System::NumberFormatter::CustomInfo::Parse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::NumberFormatter::CustomInfo* (*)(::StringW, int, int, ::System::Globalization::NumberFormatInfo*)>(&System::NumberFormatter::CustomInfo::Parse)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -216,7 +216,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Num
 // Writing MetadataGetter for method: System::NumberFormatter::CustomInfo::Format
 // Il2CppName: Format
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::NumberFormatter::CustomInfo::*)(::StringW, int, int, System::Globalization::NumberFormatInfo*, bool, System::Text::StringBuilder*, System::Text::StringBuilder*, System::Text::StringBuilder*)>(&System::NumberFormatter::CustomInfo::Format)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::NumberFormatter::CustomInfo::*)(::StringW, int, int, ::System::Globalization::NumberFormatInfo*, bool, ::System::Text::StringBuilder*, ::System::Text::StringBuilder*, ::System::Text::StringBuilder*)>(&System::NumberFormatter::CustomInfo::Format)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

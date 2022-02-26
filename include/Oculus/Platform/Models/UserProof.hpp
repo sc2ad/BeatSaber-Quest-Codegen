@@ -19,8 +19,8 @@ namespace Oculus::Platform::Models {
   class UserProof;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::UserProof);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::UserProof*, "Oculus.Platform.Models", "UserProof");
+NEED_NO_BOX(::Oculus::Platform::Models::UserProof);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::UserProof*, "Oculus.Platform.Models", "UserProof");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x18
@@ -54,8 +54,8 @@ namespace Oculus::Platform::Models {
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x29FAF40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static UserProof* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::UserProof::.ctor");
+    static UserProof* New_ctor(::System::IntPtr o) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::UserProof::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UserProof*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.UserProof

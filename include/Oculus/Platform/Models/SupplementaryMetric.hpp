@@ -18,8 +18,8 @@ namespace Oculus::Platform::Models {
   class SupplementaryMetric;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::SupplementaryMetric);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::SupplementaryMetric*, "Oculus.Platform.Models", "SupplementaryMetric");
+NEED_NO_BOX(::Oculus::Platform::Models::SupplementaryMetric);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::SupplementaryMetric*, "Oculus.Platform.Models", "SupplementaryMetric");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x20
@@ -57,8 +57,8 @@ namespace Oculus::Platform::Models {
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x196D684
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SupplementaryMetric* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::SupplementaryMetric::.ctor");
+    static SupplementaryMetric* New_ctor(::System::IntPtr o) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::SupplementaryMetric::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SupplementaryMetric*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.SupplementaryMetric

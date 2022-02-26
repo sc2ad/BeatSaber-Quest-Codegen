@@ -23,8 +23,8 @@ namespace System::Xml {
   class IDtdInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::IDtdInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::IDtdInfo*, "System.Xml", "IDtdInfo");
+NEED_NO_BOX(::System::Xml::IDtdInfo);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::IDtdInfo*, "System.Xml", "IDtdInfo");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x10
@@ -35,7 +35,7 @@ namespace System::Xml {
     public:
     // public System.Xml.XmlQualifiedName get_Name()
     // Offset: 0xFFFFFFFF
-    System::Xml::XmlQualifiedName* get_Name();
+    ::System::Xml::XmlQualifiedName* get_Name();
     // public System.String get_InternalDtdSubset()
     // Offset: 0xFFFFFFFF
     ::StringW get_InternalDtdSubset();
@@ -47,10 +47,10 @@ namespace System::Xml {
     bool get_HasNonCDataAttributes();
     // public System.Xml.IDtdAttributeListInfo LookupAttributeList(System.String prefix, System.String localName)
     // Offset: 0xFFFFFFFF
-    System::Xml::IDtdAttributeListInfo* LookupAttributeList(::StringW prefix, ::StringW localName);
+    ::System::Xml::IDtdAttributeListInfo* LookupAttributeList(::StringW prefix, ::StringW localName);
     // public System.Xml.IDtdEntityInfo LookupEntity(System.String name)
     // Offset: 0xFFFFFFFF
-    System::Xml::IDtdEntityInfo* LookupEntity(::StringW name);
+    ::System::Xml::IDtdEntityInfo* LookupEntity(::StringW name);
   }; // System.Xml.IDtdInfo
   #pragma pack(pop)
 }
@@ -58,7 +58,7 @@ namespace System::Xml {
 // Writing MetadataGetter for method: System::Xml::IDtdInfo::get_Name
 // Il2CppName: get_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlQualifiedName* (System::Xml::IDtdInfo::*)()>(&System::Xml::IDtdInfo::get_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlQualifiedName* (System::Xml::IDtdInfo::*)()>(&System::Xml::IDtdInfo::get_Name)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::IDtdInfo*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -90,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Xml::IDtdInfo::LookupAttributeList
 // Il2CppName: LookupAttributeList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::IDtdAttributeListInfo* (System::Xml::IDtdInfo::*)(::StringW, ::StringW)>(&System::Xml::IDtdInfo::LookupAttributeList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::IDtdAttributeListInfo* (System::Xml::IDtdInfo::*)(::StringW, ::StringW)>(&System::Xml::IDtdInfo::LookupAttributeList)> {
   static const MethodInfo* get() {
     static auto* prefix = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* localName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -100,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::IDtdInfo::LookupEntity
 // Il2CppName: LookupEntity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::IDtdEntityInfo* (System::Xml::IDtdInfo::*)(::StringW)>(&System::Xml::IDtdInfo::LookupEntity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::IDtdEntityInfo* (System::Xml::IDtdInfo::*)(::StringW)>(&System::Xml::IDtdInfo::LookupEntity)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::IDtdInfo*), "LookupEntity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});

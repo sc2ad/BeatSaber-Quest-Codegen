@@ -20,8 +20,8 @@ namespace UnityEngine {
   class ICanvasRaycastFilter;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ICanvasRaycastFilter);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ICanvasRaycastFilter*, "UnityEngine", "ICanvasRaycastFilter");
+NEED_NO_BOX(::UnityEngine::ICanvasRaycastFilter);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ICanvasRaycastFilter*, "UnityEngine", "ICanvasRaycastFilter");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -32,7 +32,7 @@ namespace UnityEngine {
     public:
     // public System.Boolean IsRaycastLocationValid(UnityEngine.Vector2 sp, UnityEngine.Camera eventCamera)
     // Offset: 0xFFFFFFFF
-    bool IsRaycastLocationValid(UnityEngine::Vector2 sp, UnityEngine::Camera* eventCamera);
+    bool IsRaycastLocationValid(::UnityEngine::Vector2 sp, ::UnityEngine::Camera* eventCamera);
   }; // UnityEngine.ICanvasRaycastFilter
   #pragma pack(pop)
 }
@@ -40,7 +40,7 @@ namespace UnityEngine {
 // Writing MetadataGetter for method: UnityEngine::ICanvasRaycastFilter::IsRaycastLocationValid
 // Il2CppName: IsRaycastLocationValid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ICanvasRaycastFilter::*)(UnityEngine::Vector2, UnityEngine::Camera*)>(&UnityEngine::ICanvasRaycastFilter::IsRaycastLocationValid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ICanvasRaycastFilter::*)(::UnityEngine::Vector2, ::UnityEngine::Camera*)>(&UnityEngine::ICanvasRaycastFilter::IsRaycastLocationValid)> {
   static const MethodInfo* get() {
     static auto* sp = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     static auto* eventCamera = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;

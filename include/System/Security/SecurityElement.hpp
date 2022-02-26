@@ -35,8 +35,8 @@ namespace System::Security {
   class SecurityElement;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Security::SecurityElement);
-DEFINE_IL2CPP_ARG_TYPE(System::Security::SecurityElement*, "System.Security", "SecurityElement");
+NEED_NO_BOX(::System::Security::SecurityElement);
+DEFINE_IL2CPP_ARG_TYPE(::System::Security::SecurityElement*, "System.Security", "SecurityElement");
 // Type namespace: System.Security
 namespace System::Security {
   // Size: 0x30
@@ -46,7 +46,7 @@ namespace System::Security {
   // [ComVisibleAttribute] Offset: 1189D1C
   class SecurityElement : public ::Il2CppObject {
     public:
-    // Nested type: System::Security::SecurityElement::SecurityAttribute
+    // Nested type: ::System::Security::SecurityElement::SecurityAttribute
     class SecurityAttribute;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -72,15 +72,15 @@ namespace System::Security {
     // private System.Collections.ArrayList attributes
     // Size: 0x8
     // Offset: 0x20
-    System::Collections::ArrayList* attributes;
+    ::System::Collections::ArrayList* attributes;
     // Field size check
-    static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
+    static_assert(sizeof(::System::Collections::ArrayList*) == 0x8);
     // private System.Collections.ArrayList children
     // Size: 0x8
     // Offset: 0x28
-    System::Collections::ArrayList* children;
+    ::System::Collections::ArrayList* children;
     // Field size check
-    static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
+    static_assert(sizeof(::System::Collections::ArrayList*) == 0x8);
     public:
     // Get static field: static private readonly System.Char[] invalid_tag_chars
     static ::ArrayW<::Il2CppChar> _get_invalid_tag_chars();
@@ -107,15 +107,15 @@ namespace System::Security {
     // Get instance field reference: private System.String tag
     ::StringW& dyn_tag();
     // Get instance field reference: private System.Collections.ArrayList attributes
-    System::Collections::ArrayList*& dyn_attributes();
+    ::System::Collections::ArrayList*& dyn_attributes();
     // Get instance field reference: private System.Collections.ArrayList children
-    System::Collections::ArrayList*& dyn_children();
+    ::System::Collections::ArrayList*& dyn_children();
     // public System.Collections.Hashtable get_Attributes()
     // Offset: 0x206B448
-    System::Collections::Hashtable* get_Attributes();
+    ::System::Collections::Hashtable* get_Attributes();
     // public System.Collections.ArrayList get_Children()
     // Offset: 0x206B6FC
-    System::Collections::ArrayList* get_Children();
+    ::System::Collections::ArrayList* get_Children();
     // public System.String get_Tag()
     // Offset: 0x206B704
     ::StringW get_Tag();
@@ -132,14 +132,14 @@ namespace System::Security {
     // Offset: 0x2068B1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SecurityElement* New_ctor(::StringW tag) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::SecurityElement::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::SecurityElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SecurityElement*, creationType>(tag)));
     }
     // public System.Void .ctor(System.String tag, System.String text)
     // Offset: 0x206B170
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SecurityElement* New_ctor(::StringW tag, ::StringW text) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::SecurityElement::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::SecurityElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SecurityElement*, creationType>(tag, text)));
     }
     // static private System.Void .cctor()
@@ -150,7 +150,7 @@ namespace System::Security {
     void AddAttribute(::StringW name, ::StringW value);
     // public System.Void AddChild(System.Security.SecurityElement child)
     // Offset: 0x2068B24
-    void AddChild(System::Security::SecurityElement* child);
+    void AddChild(::System::Security::SecurityElement* child);
     // static public System.String Escape(System.String str)
     // Offset: 0x206BB90
     static ::StringW Escape(::StringW str);
@@ -159,7 +159,7 @@ namespace System::Security {
     static ::StringW Unescape(::StringW str);
     // static public System.Security.SecurityElement FromString(System.String xml)
     // Offset: 0x206BD6C
-    static System::Security::SecurityElement* FromString(::StringW xml);
+    static ::System::Security::SecurityElement* FromString(::StringW xml);
     // static public System.Boolean IsValidAttributeName(System.String name)
     // Offset: 0x206BF48
     static bool IsValidAttributeName(::StringW name);
@@ -174,13 +174,13 @@ namespace System::Security {
     static bool IsValidText(::StringW text);
     // public System.Security.SecurityElement SearchForChildByTag(System.String tag)
     // Offset: 0x206C060
-    System::Security::SecurityElement* SearchForChildByTag(::StringW tag);
+    ::System::Security::SecurityElement* SearchForChildByTag(::StringW tag);
     // private System.Void ToXml(ref System.Text.StringBuilder s, System.Int32 level)
     // Offset: 0x206C218
-    void ToXml(ByRef<System::Text::StringBuilder*> s, int level);
+    void ToXml(ByRef<::System::Text::StringBuilder*> s, int level);
     // System.Security.SecurityElement/System.Security.SecurityAttribute GetAttribute(System.String name)
     // Offset: 0x206B8DC
-    System::Security::SecurityElement::SecurityAttribute* GetAttribute(::StringW name);
+    ::System::Security::SecurityElement::SecurityAttribute* GetAttribute(::StringW name);
     // System.String SearchForTextOfLocalName(System.String strLocalName)
     // Offset: 0x2058B58
     ::StringW SearchForTextOfLocalName(::StringW strLocalName);
@@ -191,14 +191,14 @@ namespace System::Security {
     ::StringW ToString();
   }; // System.Security.SecurityElement
   #pragma pack(pop)
-  static check_size<sizeof(SecurityElement), 40 + sizeof(System::Collections::ArrayList*)> __System_Security_SecurityElementSizeCheck;
+  static check_size<sizeof(SecurityElement), 40 + sizeof(::System::Collections::ArrayList*)> __System_Security_SecurityElementSizeCheck;
   static_assert(sizeof(SecurityElement) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::SecurityElement::get_Attributes
 // Il2CppName: get_Attributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Hashtable* (System::Security::SecurityElement::*)()>(&System::Security::SecurityElement::get_Attributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Hashtable* (System::Security::SecurityElement::*)()>(&System::Security::SecurityElement::get_Attributes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::SecurityElement*), "get_Attributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -206,7 +206,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::Security::SecurityElement::get_Children
 // Il2CppName: get_Children
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ArrayList* (System::Security::SecurityElement::*)()>(&System::Security::SecurityElement::get_Children)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (System::Security::SecurityElement::*)()>(&System::Security::SecurityElement::get_Children)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::SecurityElement*), "get_Children", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -274,7 +274,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::SecurityElement::AddChild
 // Il2CppName: AddChild
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::SecurityElement::*)(System::Security::SecurityElement*)>(&System::Security::SecurityElement::AddChild)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::SecurityElement::*)(::System::Security::SecurityElement*)>(&System::Security::SecurityElement::AddChild)> {
   static const MethodInfo* get() {
     static auto* child = &::il2cpp_utils::GetClassFromName("System.Security", "SecurityElement")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::SecurityElement*), "AddChild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{child});
@@ -301,7 +301,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Security::SecurityElement::FromString
 // Il2CppName: FromString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::SecurityElement* (*)(::StringW)>(&System::Security::SecurityElement::FromString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::SecurityElement* (*)(::StringW)>(&System::Security::SecurityElement::FromString)> {
   static const MethodInfo* get() {
     static auto* xml = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::SecurityElement*), "FromString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{xml});
@@ -346,7 +346,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Security::SecurityElement::SearchForChildByTag
 // Il2CppName: SearchForChildByTag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::SecurityElement* (System::Security::SecurityElement::*)(::StringW)>(&System::Security::SecurityElement::SearchForChildByTag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::SecurityElement* (System::Security::SecurityElement::*)(::StringW)>(&System::Security::SecurityElement::SearchForChildByTag)> {
   static const MethodInfo* get() {
     static auto* tag = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::SecurityElement*), "SearchForChildByTag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tag});
@@ -355,7 +355,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Writing MetadataGetter for method: System::Security::SecurityElement::ToXml
 // Il2CppName: ToXml
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::SecurityElement::*)(ByRef<System::Text::StringBuilder*>, int)>(&System::Security::SecurityElement::ToXml)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::SecurityElement::*)(ByRef<::System::Text::StringBuilder*>, int)>(&System::Security::SecurityElement::ToXml)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->this_arg;
     static auto* level = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -365,7 +365,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::SecurityElement::GetAttribute
 // Il2CppName: GetAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::SecurityElement::SecurityAttribute* (System::Security::SecurityElement::*)(::StringW)>(&System::Security::SecurityElement::GetAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::SecurityElement::SecurityAttribute* (System::Security::SecurityElement::*)(::StringW)>(&System::Security::SecurityElement::GetAttribute)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::SecurityElement*), "GetAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});

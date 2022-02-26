@@ -13,8 +13,8 @@ namespace Org::BouncyCastle::Math::EC::Rfc7748 {
   class X25519Field;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Math::EC::Rfc7748::X25519Field);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Rfc7748::X25519Field*, "Org.BouncyCastle.Math.EC.Rfc7748", "X25519Field");
+NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Rfc7748::X25519Field);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::Rfc7748::X25519Field*, "Org.BouncyCastle.Math.EC.Rfc7748", "X25519Field");
 // Type namespace: Org.BouncyCastle.Math.EC.Rfc7748
 namespace Org::BouncyCastle::Math::EC::Rfc7748 {
   // Size: 0x10

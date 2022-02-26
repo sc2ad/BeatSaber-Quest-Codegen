@@ -29,8 +29,8 @@ namespace System::Runtime::Serialization {
   class SerializationEventsCache;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Serialization::SerializationEventsCache);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationEventsCache*, "System.Runtime.Serialization", "SerializationEventsCache");
+NEED_NO_BOX(::System::Runtime::Serialization::SerializationEventsCache);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::SerializationEventsCache*, "System.Runtime.Serialization", "SerializationEventsCache");
 // Type namespace: System.Runtime.Serialization
 namespace System::Runtime::Serialization {
   // Size: 0x10
@@ -40,15 +40,15 @@ namespace System::Runtime::Serialization {
   class SerializationEventsCache : public ::Il2CppObject {
     public:
     // Get static field: static private System.Collections.Hashtable cache
-    static System::Collections::Hashtable* _get_cache();
+    static ::System::Collections::Hashtable* _get_cache();
     // Set static field: static private System.Collections.Hashtable cache
-    static void _set_cache(System::Collections::Hashtable* value);
+    static void _set_cache(::System::Collections::Hashtable* value);
     // static private System.Void .cctor()
     // Offset: 0x158F56C
     static void _cctor();
     // static System.Runtime.Serialization.SerializationEvents GetSerializationEventsForType(System.Type t)
     // Offset: 0x158D23C
-    static System::Runtime::Serialization::SerializationEvents* GetSerializationEventsForType(System::Type* t);
+    static ::System::Runtime::Serialization::SerializationEvents* GetSerializationEventsForType(::System::Type* t);
   }; // System.Runtime.Serialization.SerializationEventsCache
   #pragma pack(pop)
 }
@@ -64,7 +64,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationEventsCache::GetSerializationEventsForType
 // Il2CppName: GetSerializationEventsForType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::SerializationEvents* (*)(System::Type*)>(&System::Runtime::Serialization::SerializationEventsCache::GetSerializationEventsForType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::SerializationEvents* (*)(::System::Type*)>(&System::Runtime::Serialization::SerializationEventsCache::GetSerializationEventsForType)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::SerializationEventsCache*), "GetSerializationEventsForType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});

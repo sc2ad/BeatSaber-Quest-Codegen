@@ -25,8 +25,8 @@ namespace Newtonsoft::Json {
   class DefaultJsonNameTable;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::DefaultJsonNameTable);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::DefaultJsonNameTable*, "Newtonsoft.Json", "DefaultJsonNameTable");
+NEED_NO_BOX(::Newtonsoft::Json::DefaultJsonNameTable);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::DefaultJsonNameTable*, "Newtonsoft.Json", "DefaultJsonNameTable");
 // Type namespace: Newtonsoft.Json
 namespace Newtonsoft::Json {
   // Size: 0x24
@@ -35,9 +35,9 @@ namespace Newtonsoft::Json {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NullableContextAttribute] Offset: 1201340
   // [NullableAttribute] Offset: 1201340
-  class DefaultJsonNameTable : public Newtonsoft::Json::JsonNameTable {
+  class DefaultJsonNameTable : public ::Newtonsoft::Json::JsonNameTable {
     public:
-    // Nested type: Newtonsoft::Json::DefaultJsonNameTable::Entry
+    // Nested type: ::Newtonsoft::Json::DefaultJsonNameTable::Entry
     class Entry;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -59,9 +59,9 @@ namespace Newtonsoft::Json {
     // private Newtonsoft.Json.DefaultJsonNameTable/Newtonsoft.Json.Entry[] _entries
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayW<Newtonsoft::Json::DefaultJsonNameTable::Entry*> entries;
+    ::ArrayW<::Newtonsoft::Json::DefaultJsonNameTable::Entry*> entries;
     // Field size check
-    static_assert(sizeof(::ArrayW<Newtonsoft::Json::DefaultJsonNameTable::Entry*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Newtonsoft::Json::DefaultJsonNameTable::Entry*>) == 0x8);
     // private System.Int32 _mask
     // Size: 0x4
     // Offset: 0x20
@@ -76,7 +76,7 @@ namespace Newtonsoft::Json {
     // Get instance field reference: private System.Int32 _count
     int& dyn__count();
     // Get instance field reference: private Newtonsoft.Json.DefaultJsonNameTable/Newtonsoft.Json.Entry[] _entries
-    ::ArrayW<Newtonsoft::Json::DefaultJsonNameTable::Entry*>& dyn__entries();
+    ::ArrayW<::Newtonsoft::Json::DefaultJsonNameTable::Entry*>& dyn__entries();
     // Get instance field reference: private System.Int32 _mask
     int& dyn__mask();
     // static private System.Void .cctor()
@@ -101,7 +101,7 @@ namespace Newtonsoft::Json {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultJsonNameTable* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::DefaultJsonNameTable::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::DefaultJsonNameTable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultJsonNameTable*, creationType>()));
     }
     // public override System.String Get(System.Char[] key, System.Int32 start, System.Int32 length)

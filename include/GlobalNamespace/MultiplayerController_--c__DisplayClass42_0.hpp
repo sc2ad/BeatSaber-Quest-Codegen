@@ -13,8 +13,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MultiplayerController::$$c__DisplayClass42_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerController::$$c__DisplayClass42_0*, "", "MultiplayerController/<>c__DisplayClass42_0");
+NEED_NO_BOX(::GlobalNamespace::MultiplayerController::$$c__DisplayClass42_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerController::$$c__DisplayClass42_0*, "", "MultiplayerController/<>c__DisplayClass42_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x1C
@@ -36,9 +36,9 @@ namespace GlobalNamespace {
     // public MultiplayerController <>4__this
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::MultiplayerController* $$4__this;
+    ::GlobalNamespace::MultiplayerController* $$4__this;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::MultiplayerController*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::MultiplayerController*) == 0x8);
     // public System.Single introAnimationStartSyncTime
     // Size: 0x4
     // Offset: 0x18
@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public MultiplayerController <>4__this
-    GlobalNamespace::MultiplayerController*& dyn_$$4__this();
+    ::GlobalNamespace::MultiplayerController*& dyn_$$4__this();
     // Get instance field reference: public System.Single introAnimationStartSyncTime
     float& dyn_introAnimationStartSyncTime();
     // System.Void <HandleSongStartSyncControllerSyncStartSuccess>b__0()
@@ -59,7 +59,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerController::$$c__DisplayClass42_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerController::$$c__DisplayClass42_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerController::$$c__DisplayClass42_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerController::$$c__DisplayClass42_0*, creationType>()));
     }
   }; // MultiplayerController/<>c__DisplayClass42_0

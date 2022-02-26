@@ -18,8 +18,8 @@ namespace System::Threading::Tasks {
   class StackGuard;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Threading::Tasks::StackGuard);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::StackGuard*, "System.Threading.Tasks", "StackGuard");
+NEED_NO_BOX(::System::Threading::Tasks::StackGuard);
+DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Tasks::StackGuard*, "System.Threading.Tasks", "StackGuard");
 // Type namespace: System.Threading.Tasks
 namespace System::Threading::Tasks {
   // Size: 0x14
@@ -71,7 +71,7 @@ namespace System::Threading::Tasks {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StackGuard* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::StackGuard::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::Tasks::StackGuard::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StackGuard*, creationType>()));
     }
   }; // System.Threading.Tasks.StackGuard

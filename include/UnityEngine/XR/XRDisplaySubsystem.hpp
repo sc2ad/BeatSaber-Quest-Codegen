@@ -31,8 +31,8 @@ namespace UnityEngine::XR {
   class XRDisplaySubsystem;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::XR::XRDisplaySubsystem);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRDisplaySubsystem*, "UnityEngine.XR", "XRDisplaySubsystem");
+NEED_NO_BOX(::UnityEngine::XR::XRDisplaySubsystem);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::XRDisplaySubsystem*, "UnityEngine.XR", "XRDisplaySubsystem");
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {
   // WARNING Size may be invalid!
@@ -42,17 +42,17 @@ namespace UnityEngine::XR {
   // [NativeHeaderAttribute] Offset: 11CE390
   // [NativeConditionalAttribute] Offset: 11CE390
   // [UsedByNativeCodeAttribute] Offset: 11CE390
-  class XRDisplaySubsystem : public UnityEngine::IntegratedSubsystem_1<UnityEngine::XR::XRDisplaySubsystemDescriptor*> {
+  class XRDisplaySubsystem : public ::UnityEngine::IntegratedSubsystem_1<::UnityEngine::XR::XRDisplaySubsystemDescriptor*> {
     public:
-    // Nested type: UnityEngine::XR::XRDisplaySubsystem::XRRenderPass
+    // Nested type: ::UnityEngine::XR::XRDisplaySubsystem::XRRenderPass
     struct XRRenderPass;
-    // Nested type: UnityEngine::XR::XRDisplaySubsystem::XRMirrorViewBlitDesc
+    // Nested type: ::UnityEngine::XR::XRDisplaySubsystem::XRMirrorViewBlitDesc
     struct XRMirrorViewBlitDesc;
     // [DebuggerBrowsableAttribute] Offset: 0x11CEA58
     // Get static field: static private System.Action`1<System.Boolean> displayFocusChanged
-    static System::Action_1<bool>* _get_displayFocusChanged();
+    static ::System::Action_1<bool>* _get_displayFocusChanged();
     // Set static field: static private System.Action`1<System.Boolean> displayFocusChanged
-    static void _set_displayFocusChanged(System::Action_1<bool>* value);
+    static void _set_displayFocusChanged(::System::Action_1<bool>* value);
     // static private System.Void InvokeDisplayFocusChanged(System.Boolean focus)
     // Offset: 0x2A49680
     static void InvokeDisplayFocusChanged(bool focus);
@@ -64,7 +64,7 @@ namespace UnityEngine::XR {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XRDisplaySubsystem* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::XR::XRDisplaySubsystem::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::XR::XRDisplaySubsystem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XRDisplaySubsystem*, creationType>()));
     }
   }; // UnityEngine.XR.XRDisplaySubsystem

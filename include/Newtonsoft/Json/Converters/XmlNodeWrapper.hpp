@@ -34,8 +34,8 @@ namespace Newtonsoft::Json::Converters {
   class XmlNodeWrapper;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Converters::XmlNodeWrapper);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Converters::XmlNodeWrapper*, "Newtonsoft.Json.Converters", "XmlNodeWrapper");
+NEED_NO_BOX(::Newtonsoft::Json::Converters::XmlNodeWrapper);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Converters::XmlNodeWrapper*, "Newtonsoft.Json.Converters", "XmlNodeWrapper");
 // Type namespace: Newtonsoft.Json.Converters
 namespace Newtonsoft::Json::Converters {
   // Size: 0x28
@@ -44,7 +44,7 @@ namespace Newtonsoft::Json::Converters {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NullableContextAttribute] Offset: 1203820
   // [NullableAttribute] Offset: 1203820
-  class XmlNodeWrapper : public ::Il2CppObject/*, public Newtonsoft::Json::Converters::IXmlNode*/ {
+  class XmlNodeWrapper : public ::Il2CppObject/*, public ::Newtonsoft::Json::Converters::IXmlNode*/ {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -59,55 +59,55 @@ namespace Newtonsoft::Json::Converters {
     // private readonly System.Xml.XmlNode _node
     // Size: 0x8
     // Offset: 0x10
-    System::Xml::XmlNode* node;
+    ::System::Xml::XmlNode* node;
     // Field size check
-    static_assert(sizeof(System::Xml::XmlNode*) == 0x8);
+    static_assert(sizeof(::System::Xml::XmlNode*) == 0x8);
     // [NullableAttribute] Offset: 0x1207120
     // private System.Collections.Generic.List`1<Newtonsoft.Json.Converters.IXmlNode> _childNodes
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::Generic::List_1<Newtonsoft::Json::Converters::IXmlNode*>* childNodes;
+    ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* childNodes;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<Newtonsoft::Json::Converters::IXmlNode*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>*) == 0x8);
     // [NullableAttribute] Offset: 0x120718C
     // private System.Collections.Generic.List`1<Newtonsoft.Json.Converters.IXmlNode> _attributes
     // Size: 0x8
     // Offset: 0x20
-    System::Collections::Generic::List_1<Newtonsoft::Json::Converters::IXmlNode*>* attributes;
+    ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* attributes;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<Newtonsoft::Json::Converters::IXmlNode*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>*) == 0x8);
     public:
-    // Creating interface conversion operator: operator Newtonsoft::Json::Converters::IXmlNode
-    operator Newtonsoft::Json::Converters::IXmlNode() noexcept {
-      return *reinterpret_cast<Newtonsoft::Json::Converters::IXmlNode*>(this);
+    // Creating interface conversion operator: operator ::Newtonsoft::Json::Converters::IXmlNode
+    operator ::Newtonsoft::Json::Converters::IXmlNode() noexcept {
+      return *reinterpret_cast<::Newtonsoft::Json::Converters::IXmlNode*>(this);
     }
     // Get instance field reference: private readonly System.Xml.XmlNode _node
-    System::Xml::XmlNode*& dyn__node();
+    ::System::Xml::XmlNode*& dyn__node();
     // Get instance field reference: private System.Collections.Generic.List`1<Newtonsoft.Json.Converters.IXmlNode> _childNodes
-    System::Collections::Generic::List_1<Newtonsoft::Json::Converters::IXmlNode*>*& dyn__childNodes();
+    ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>*& dyn__childNodes();
     // Get instance field reference: private System.Collections.Generic.List`1<Newtonsoft.Json.Converters.IXmlNode> _attributes
-    System::Collections::Generic::List_1<Newtonsoft::Json::Converters::IXmlNode*>*& dyn__attributes();
+    ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>*& dyn__attributes();
     // public System.Object get_WrappedNode()
     // Offset: 0x182CF28
     ::Il2CppObject* get_WrappedNode();
     // public System.Xml.XmlNodeType get_NodeType()
     // Offset: 0x182CF30
-    System::Xml::XmlNodeType get_NodeType();
+    ::System::Xml::XmlNodeType get_NodeType();
     // public System.String get_LocalName()
     // Offset: 0x182CF50
     ::StringW get_LocalName();
     // public System.Collections.Generic.List`1<Newtonsoft.Json.Converters.IXmlNode> get_ChildNodes()
     // Offset: 0x182CF74
-    System::Collections::Generic::List_1<Newtonsoft::Json::Converters::IXmlNode*>* get_ChildNodes();
+    ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* get_ChildNodes();
     // public System.Collections.Generic.List`1<Newtonsoft.Json.Converters.IXmlNode> get_Attributes()
     // Offset: 0x182D2A4
-    System::Collections::Generic::List_1<Newtonsoft::Json::Converters::IXmlNode*>* get_Attributes();
+    ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* get_Attributes();
     // private System.Boolean get_HasAttributes()
     // Offset: 0x182D5CC
     bool get_HasAttributes();
     // public Newtonsoft.Json.Converters.IXmlNode get_ParentNode()
     // Offset: 0x182D684
-    Newtonsoft::Json::Converters::IXmlNode* get_ParentNode();
+    ::Newtonsoft::Json::Converters::IXmlNode* get_ParentNode();
     // public System.String get_Value()
     // Offset: 0x182D728
     ::StringW get_Value();
@@ -120,19 +120,19 @@ namespace Newtonsoft::Json::Converters {
     // public System.Void .ctor(System.Xml.XmlNode node)
     // Offset: 0x1824710
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlNodeWrapper* New_ctor(System::Xml::XmlNode* node) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Converters::XmlNodeWrapper::.ctor");
+    static XmlNodeWrapper* New_ctor(::System::Xml::XmlNode* node) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Converters::XmlNodeWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlNodeWrapper*, creationType>(node)));
     }
     // static Newtonsoft.Json.Converters.IXmlNode WrapNode(System.Xml.XmlNode node)
     // Offset: 0x182724C
-    static Newtonsoft::Json::Converters::IXmlNode* WrapNode(System::Xml::XmlNode* node);
+    static ::Newtonsoft::Json::Converters::IXmlNode* WrapNode(::System::Xml::XmlNode* node);
     // public Newtonsoft.Json.Converters.IXmlNode AppendChild(Newtonsoft.Json.Converters.IXmlNode newChild)
     // Offset: 0x182D748
-    Newtonsoft::Json::Converters::IXmlNode* AppendChild(Newtonsoft::Json::Converters::IXmlNode* newChild);
+    ::Newtonsoft::Json::Converters::IXmlNode* AppendChild(::Newtonsoft::Json::Converters::IXmlNode* newChild);
   }; // Newtonsoft.Json.Converters.XmlNodeWrapper
   #pragma pack(pop)
-  static check_size<sizeof(XmlNodeWrapper), 32 + sizeof(System::Collections::Generic::List_1<Newtonsoft::Json::Converters::IXmlNode*>*)> __Newtonsoft_Json_Converters_XmlNodeWrapperSizeCheck;
+  static check_size<sizeof(XmlNodeWrapper), 32 + sizeof(::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>*)> __Newtonsoft_Json_Converters_XmlNodeWrapperSizeCheck;
   static_assert(sizeof(XmlNodeWrapper) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -147,7 +147,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlNodeWrapper::get_NodeType
 // Il2CppName: get_NodeType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlNodeType (Newtonsoft::Json::Converters::XmlNodeWrapper::*)()>(&Newtonsoft::Json::Converters::XmlNodeWrapper::get_NodeType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNodeType (Newtonsoft::Json::Converters::XmlNodeWrapper::*)()>(&Newtonsoft::Json::Converters::XmlNodeWrapper::get_NodeType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Converters::XmlNodeWrapper*), "get_NodeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -163,7 +163,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlNodeWrapper::get_ChildNodes
 // Il2CppName: get_ChildNodes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<Newtonsoft::Json::Converters::IXmlNode*>* (Newtonsoft::Json::Converters::XmlNodeWrapper::*)()>(&Newtonsoft::Json::Converters::XmlNodeWrapper::get_ChildNodes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* (Newtonsoft::Json::Converters::XmlNodeWrapper::*)()>(&Newtonsoft::Json::Converters::XmlNodeWrapper::get_ChildNodes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Converters::XmlNodeWrapper*), "get_ChildNodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -171,7 +171,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlNodeWrapper::get_Attributes
 // Il2CppName: get_Attributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<Newtonsoft::Json::Converters::IXmlNode*>* (Newtonsoft::Json::Converters::XmlNodeWrapper::*)()>(&Newtonsoft::Json::Converters::XmlNodeWrapper::get_Attributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* (Newtonsoft::Json::Converters::XmlNodeWrapper::*)()>(&Newtonsoft::Json::Converters::XmlNodeWrapper::get_Attributes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Converters::XmlNodeWrapper*), "get_Attributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -187,7 +187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlNodeWrapper::get_ParentNode
 // Il2CppName: get_ParentNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Converters::IXmlNode* (Newtonsoft::Json::Converters::XmlNodeWrapper::*)()>(&Newtonsoft::Json::Converters::XmlNodeWrapper::get_ParentNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Converters::IXmlNode* (Newtonsoft::Json::Converters::XmlNodeWrapper::*)()>(&Newtonsoft::Json::Converters::XmlNodeWrapper::get_ParentNode)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Converters::XmlNodeWrapper*), "get_ParentNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -224,7 +224,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlNodeWrapper::WrapNode
 // Il2CppName: WrapNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Converters::IXmlNode* (*)(System::Xml::XmlNode*)>(&Newtonsoft::Json::Converters::XmlNodeWrapper::WrapNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Converters::IXmlNode* (*)(::System::Xml::XmlNode*)>(&Newtonsoft::Json::Converters::XmlNodeWrapper::WrapNode)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Converters::XmlNodeWrapper*), "WrapNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node});
@@ -233,7 +233,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft:
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlNodeWrapper::AppendChild
 // Il2CppName: AppendChild
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Converters::IXmlNode* (Newtonsoft::Json::Converters::XmlNodeWrapper::*)(Newtonsoft::Json::Converters::IXmlNode*)>(&Newtonsoft::Json::Converters::XmlNodeWrapper::AppendChild)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Converters::IXmlNode* (Newtonsoft::Json::Converters::XmlNodeWrapper::*)(::Newtonsoft::Json::Converters::IXmlNode*)>(&Newtonsoft::Json::Converters::XmlNodeWrapper::AppendChild)> {
   static const MethodInfo* get() {
     static auto* newChild = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Converters", "IXmlNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Converters::XmlNodeWrapper*), "AppendChild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newChild});

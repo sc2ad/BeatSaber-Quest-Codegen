@@ -25,8 +25,8 @@ namespace System::Xml {
   class XmlImplementation;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::XmlImplementation);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlImplementation*, "System.Xml", "XmlImplementation");
+NEED_NO_BOX(::System::Xml::XmlImplementation);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlImplementation*, "System.Xml", "XmlImplementation");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x18
@@ -47,48 +47,48 @@ namespace System::Xml {
     // private System.Xml.XmlNameTable nameTable
     // Size: 0x8
     // Offset: 0x10
-    System::Xml::XmlNameTable* nameTable;
+    ::System::Xml::XmlNameTable* nameTable;
     // Field size check
-    static_assert(sizeof(System::Xml::XmlNameTable*) == 0x8);
+    static_assert(sizeof(::System::Xml::XmlNameTable*) == 0x8);
     public:
-    // Creating conversion operator: operator System::Xml::XmlNameTable*
-    constexpr operator System::Xml::XmlNameTable*() const noexcept {
+    // Creating conversion operator: operator ::System::Xml::XmlNameTable*
+    constexpr operator ::System::Xml::XmlNameTable*() const noexcept {
       return nameTable;
     }
     // Get instance field reference: private System.Xml.XmlNameTable nameTable
-    System::Xml::XmlNameTable*& dyn_nameTable();
+    ::System::Xml::XmlNameTable*& dyn_nameTable();
     // System.Xml.XmlNameTable get_NameTable()
     // Offset: 0x1A1E348
-    System::Xml::XmlNameTable* get_NameTable();
+    ::System::Xml::XmlNameTable* get_NameTable();
     // public System.Void .ctor(System.Xml.XmlNameTable nt)
     // Offset: 0x1A1E2B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlImplementation* New_ctor(System::Xml::XmlNameTable* nt) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlImplementation::.ctor");
+    static XmlImplementation* New_ctor(::System::Xml::XmlNameTable* nt) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlImplementation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlImplementation*, creationType>(nt)));
     }
     // public System.Xml.XmlDocument CreateDocument()
     // Offset: 0x1A1E2E4
-    System::Xml::XmlDocument* CreateDocument();
+    ::System::Xml::XmlDocument* CreateDocument();
     // public System.Void .ctor()
     // Offset: 0x1A1E24C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlImplementation* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlImplementation::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlImplementation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlImplementation*, creationType>()));
     }
   }; // System.Xml.XmlImplementation
   #pragma pack(pop)
-  static check_size<sizeof(XmlImplementation), 16 + sizeof(System::Xml::XmlNameTable*)> __System_Xml_XmlImplementationSizeCheck;
+  static check_size<sizeof(XmlImplementation), 16 + sizeof(::System::Xml::XmlNameTable*)> __System_Xml_XmlImplementationSizeCheck;
   static_assert(sizeof(XmlImplementation) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::XmlImplementation::get_NameTable
 // Il2CppName: get_NameTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlNameTable* (System::Xml::XmlImplementation::*)()>(&System::Xml::XmlImplementation::get_NameTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNameTable* (System::Xml::XmlImplementation::*)()>(&System::Xml::XmlImplementation::get_NameTable)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlImplementation*), "get_NameTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -100,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlImplementation::CreateDocument
 // Il2CppName: CreateDocument
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlDocument* (System::Xml::XmlImplementation::*)()>(&System::Xml::XmlImplementation::CreateDocument)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlDocument* (System::Xml::XmlImplementation::*)()>(&System::Xml::XmlImplementation::CreateDocument)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlImplementation*), "CreateDocument", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

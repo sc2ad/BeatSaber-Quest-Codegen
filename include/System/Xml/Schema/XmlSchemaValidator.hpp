@@ -111,8 +111,8 @@ namespace System::Xml::Schema {
   class XmlSchemaValidator;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Schema::XmlSchemaValidator);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::XmlSchemaValidator*, "System.Xml.Schema", "XmlSchemaValidator");
+NEED_NO_BOX(::System::Xml::Schema::XmlSchemaValidator);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XmlSchemaValidator*, "System.Xml.Schema", "XmlSchemaValidator");
 // Type namespace: System.Xml.Schema
 namespace System::Xml::Schema {
   // Size: 0x128
@@ -133,15 +133,15 @@ namespace System::Xml::Schema {
     // private System.Xml.Schema.XmlSchemaSet schemaSet
     // Size: 0x8
     // Offset: 0x10
-    System::Xml::Schema::XmlSchemaSet* schemaSet;
+    ::System::Xml::Schema::XmlSchemaSet* schemaSet;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::XmlSchemaSet*) == 0x8);
+    static_assert(sizeof(::System::Xml::Schema::XmlSchemaSet*) == 0x8);
     // private System.Xml.Schema.XmlSchemaValidationFlags validationFlags
     // Size: 0x4
     // Offset: 0x18
-    System::Xml::Schema::XmlSchemaValidationFlags validationFlags;
+    ::System::Xml::Schema::XmlSchemaValidationFlags validationFlags;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::XmlSchemaValidationFlags) == 0x4);
+    static_assert(sizeof(::System::Xml::Schema::XmlSchemaValidationFlags) == 0x4);
     // private System.Int32 startIDConstraint
     // Size: 0x4
     // Offset: 0x1C
@@ -177,71 +177,71 @@ namespace System::Xml::Schema {
     // private System.Xml.Schema.SchemaInfo compiledSchemaInfo
     // Size: 0x8
     // Offset: 0x28
-    System::Xml::Schema::SchemaInfo* compiledSchemaInfo;
+    ::System::Xml::Schema::SchemaInfo* compiledSchemaInfo;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::SchemaInfo*) == 0x8);
+    static_assert(sizeof(::System::Xml::Schema::SchemaInfo*) == 0x8);
     // private System.Xml.IDtdInfo dtdSchemaInfo
     // Size: 0x8
     // Offset: 0x30
-    System::Xml::IDtdInfo* dtdSchemaInfo;
+    ::System::Xml::IDtdInfo* dtdSchemaInfo;
     // Field size check
-    static_assert(sizeof(System::Xml::IDtdInfo*) == 0x8);
+    static_assert(sizeof(::System::Xml::IDtdInfo*) == 0x8);
     // private System.Collections.Hashtable validatedNamespaces
     // Size: 0x8
     // Offset: 0x38
-    System::Collections::Hashtable* validatedNamespaces;
+    ::System::Collections::Hashtable* validatedNamespaces;
     // Field size check
-    static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
+    static_assert(sizeof(::System::Collections::Hashtable*) == 0x8);
     // private System.Xml.HWStack validationStack
     // Size: 0x8
     // Offset: 0x40
-    System::Xml::HWStack* validationStack;
+    ::System::Xml::HWStack* validationStack;
     // Field size check
-    static_assert(sizeof(System::Xml::HWStack*) == 0x8);
+    static_assert(sizeof(::System::Xml::HWStack*) == 0x8);
     // private System.Xml.Schema.ValidationState context
     // Size: 0x8
     // Offset: 0x48
-    System::Xml::Schema::ValidationState* context;
+    ::System::Xml::Schema::ValidationState* context;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::ValidationState*) == 0x8);
+    static_assert(sizeof(::System::Xml::Schema::ValidationState*) == 0x8);
     // private System.Xml.Schema.ValidatorState currentState
     // Size: 0x4
     // Offset: 0x50
-    System::Xml::Schema::ValidatorState currentState;
+    ::System::Xml::Schema::ValidatorState currentState;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::ValidatorState) == 0x4);
+    static_assert(sizeof(::System::Xml::Schema::ValidatorState) == 0x4);
     // Padding between fields: currentState and: attPresence
     char __padding12[0x4] = {};
     // private System.Collections.Hashtable attPresence
     // Size: 0x8
     // Offset: 0x58
-    System::Collections::Hashtable* attPresence;
+    ::System::Collections::Hashtable* attPresence;
     // Field size check
-    static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
+    static_assert(sizeof(::System::Collections::Hashtable*) == 0x8);
     // private System.Xml.Schema.SchemaAttDef wildID
     // Size: 0x8
     // Offset: 0x60
-    System::Xml::Schema::SchemaAttDef* wildID;
+    ::System::Xml::Schema::SchemaAttDef* wildID;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::SchemaAttDef*) == 0x8);
+    static_assert(sizeof(::System::Xml::Schema::SchemaAttDef*) == 0x8);
     // private System.Collections.Hashtable IDs
     // Size: 0x8
     // Offset: 0x68
-    System::Collections::Hashtable* IDs;
+    ::System::Collections::Hashtable* IDs;
     // Field size check
-    static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
+    static_assert(sizeof(::System::Collections::Hashtable*) == 0x8);
     // private System.Xml.Schema.IdRefNode idRefListHead
     // Size: 0x8
     // Offset: 0x70
-    System::Xml::Schema::IdRefNode* idRefListHead;
+    ::System::Xml::Schema::IdRefNode* idRefListHead;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::IdRefNode*) == 0x8);
+    static_assert(sizeof(::System::Xml::Schema::IdRefNode*) == 0x8);
     // private System.Xml.XmlQualifiedName contextQName
     // Size: 0x8
     // Offset: 0x78
-    System::Xml::XmlQualifiedName* contextQName;
+    ::System::Xml::XmlQualifiedName* contextQName;
     // Field size check
-    static_assert(sizeof(System::Xml::XmlQualifiedName*) == 0x8);
+    static_assert(sizeof(::System::Xml::XmlQualifiedName*) == 0x8);
     // private System.String NsXs
     // Size: 0x8
     // Offset: 0x80
@@ -269,21 +269,21 @@ namespace System::Xml::Schema {
     // private System.Xml.Schema.XmlSchemaObject partialValidationType
     // Size: 0x8
     // Offset: 0xA0
-    System::Xml::Schema::XmlSchemaObject* partialValidationType;
+    ::System::Xml::Schema::XmlSchemaObject* partialValidationType;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::XmlSchemaObject*) == 0x8);
+    static_assert(sizeof(::System::Xml::Schema::XmlSchemaObject*) == 0x8);
     // private System.Text.StringBuilder textValue
     // Size: 0x8
     // Offset: 0xA8
-    System::Text::StringBuilder* textValue;
+    ::System::Text::StringBuilder* textValue;
     // Field size check
-    static_assert(sizeof(System::Text::StringBuilder*) == 0x8);
+    static_assert(sizeof(::System::Text::StringBuilder*) == 0x8);
     // private System.Xml.Schema.ValidationEventHandler eventHandler
     // Size: 0x8
     // Offset: 0xB0
-    System::Xml::Schema::ValidationEventHandler* eventHandler;
+    ::System::Xml::Schema::ValidationEventHandler* eventHandler;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::ValidationEventHandler*) == 0x8);
+    static_assert(sizeof(::System::Xml::Schema::ValidationEventHandler*) == 0x8);
     // private System.Object validationEventSender
     // Size: 0x8
     // Offset: 0xB8
@@ -293,33 +293,33 @@ namespace System::Xml::Schema {
     // private System.Xml.XmlNameTable nameTable
     // Size: 0x8
     // Offset: 0xC0
-    System::Xml::XmlNameTable* nameTable;
+    ::System::Xml::XmlNameTable* nameTable;
     // Field size check
-    static_assert(sizeof(System::Xml::XmlNameTable*) == 0x8);
+    static_assert(sizeof(::System::Xml::XmlNameTable*) == 0x8);
     // private System.Xml.IXmlLineInfo positionInfo
     // Size: 0x8
     // Offset: 0xC8
-    System::Xml::IXmlLineInfo* positionInfo;
+    ::System::Xml::IXmlLineInfo* positionInfo;
     // Field size check
-    static_assert(sizeof(System::Xml::IXmlLineInfo*) == 0x8);
+    static_assert(sizeof(::System::Xml::IXmlLineInfo*) == 0x8);
     // private System.Xml.IXmlLineInfo dummyPositionInfo
     // Size: 0x8
     // Offset: 0xD0
-    System::Xml::IXmlLineInfo* dummyPositionInfo;
+    ::System::Xml::IXmlLineInfo* dummyPositionInfo;
     // Field size check
-    static_assert(sizeof(System::Xml::IXmlLineInfo*) == 0x8);
+    static_assert(sizeof(::System::Xml::IXmlLineInfo*) == 0x8);
     // private System.Xml.XmlResolver xmlResolver
     // Size: 0x8
     // Offset: 0xD8
-    System::Xml::XmlResolver* xmlResolver;
+    ::System::Xml::XmlResolver* xmlResolver;
     // Field size check
-    static_assert(sizeof(System::Xml::XmlResolver*) == 0x8);
+    static_assert(sizeof(::System::Xml::XmlResolver*) == 0x8);
     // private System.Uri sourceUri
     // Size: 0x8
     // Offset: 0xE0
-    System::Uri* sourceUri;
+    ::System::Uri* sourceUri;
     // Field size check
-    static_assert(sizeof(System::Uri*) == 0x8);
+    static_assert(sizeof(::System::Uri*) == 0x8);
     // private System.String sourceUriString
     // Size: 0x8
     // Offset: 0xE8
@@ -329,15 +329,15 @@ namespace System::Xml::Schema {
     // private System.Xml.IXmlNamespaceResolver nsResolver
     // Size: 0x8
     // Offset: 0xF0
-    System::Xml::IXmlNamespaceResolver* nsResolver;
+    ::System::Xml::IXmlNamespaceResolver* nsResolver;
     // Field size check
-    static_assert(sizeof(System::Xml::IXmlNamespaceResolver*) == 0x8);
+    static_assert(sizeof(::System::Xml::IXmlNamespaceResolver*) == 0x8);
     // private System.Xml.Schema.XmlSchemaContentProcessing processContents
     // Size: 0x4
     // Offset: 0xF8
-    System::Xml::Schema::XmlSchemaContentProcessing processContents;
+    ::System::Xml::Schema::XmlSchemaContentProcessing processContents;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::XmlSchemaContentProcessing) == 0x4);
+    static_assert(sizeof(::System::Xml::Schema::XmlSchemaContentProcessing) == 0x4);
     // Padding between fields: processContents and: xsiTypeString
     char __padding33[0x4] = {};
     // private System.String xsiTypeString
@@ -367,30 +367,30 @@ namespace System::Xml::Schema {
     // private System.Xml.XmlCharType xmlCharType
     // Size: 0x8
     // Offset: 0x120
-    System::Xml::XmlCharType xmlCharType;
+    ::System::Xml::XmlCharType xmlCharType;
     // Field size check
-    static_assert(sizeof(System::Xml::XmlCharType) == 0x8);
+    static_assert(sizeof(::System::Xml::XmlCharType) == 0x8);
     public:
     // Get static field: static private readonly System.Xml.Schema.XmlSchemaDatatype dtQName
-    static System::Xml::Schema::XmlSchemaDatatype* _get_dtQName();
+    static ::System::Xml::Schema::XmlSchemaDatatype* _get_dtQName();
     // Set static field: static private readonly System.Xml.Schema.XmlSchemaDatatype dtQName
-    static void _set_dtQName(System::Xml::Schema::XmlSchemaDatatype* value);
+    static void _set_dtQName(::System::Xml::Schema::XmlSchemaDatatype* value);
     // Get static field: static private readonly System.Xml.Schema.XmlSchemaDatatype dtCDATA
-    static System::Xml::Schema::XmlSchemaDatatype* _get_dtCDATA();
+    static ::System::Xml::Schema::XmlSchemaDatatype* _get_dtCDATA();
     // Set static field: static private readonly System.Xml.Schema.XmlSchemaDatatype dtCDATA
-    static void _set_dtCDATA(System::Xml::Schema::XmlSchemaDatatype* value);
+    static void _set_dtCDATA(::System::Xml::Schema::XmlSchemaDatatype* value);
     // Get static field: static private readonly System.Xml.Schema.XmlSchemaDatatype dtStringArray
-    static System::Xml::Schema::XmlSchemaDatatype* _get_dtStringArray();
+    static ::System::Xml::Schema::XmlSchemaDatatype* _get_dtStringArray();
     // Set static field: static private readonly System.Xml.Schema.XmlSchemaDatatype dtStringArray
-    static void _set_dtStringArray(System::Xml::Schema::XmlSchemaDatatype* value);
+    static void _set_dtStringArray(::System::Xml::Schema::XmlSchemaDatatype* value);
     // Get static field: static private System.Xml.Schema.XmlSchemaParticle[] EmptyParticleArray
-    static ::ArrayW<System::Xml::Schema::XmlSchemaParticle*> _get_EmptyParticleArray();
+    static ::ArrayW<::System::Xml::Schema::XmlSchemaParticle*> _get_EmptyParticleArray();
     // Set static field: static private System.Xml.Schema.XmlSchemaParticle[] EmptyParticleArray
-    static void _set_EmptyParticleArray(::ArrayW<System::Xml::Schema::XmlSchemaParticle*> value);
+    static void _set_EmptyParticleArray(::ArrayW<::System::Xml::Schema::XmlSchemaParticle*> value);
     // Get static field: static private System.Xml.Schema.XmlSchemaAttribute[] EmptyAttributeArray
-    static ::ArrayW<System::Xml::Schema::XmlSchemaAttribute*> _get_EmptyAttributeArray();
+    static ::ArrayW<::System::Xml::Schema::XmlSchemaAttribute*> _get_EmptyAttributeArray();
     // Set static field: static private System.Xml.Schema.XmlSchemaAttribute[] EmptyAttributeArray
-    static void _set_EmptyAttributeArray(::ArrayW<System::Xml::Schema::XmlSchemaAttribute*> value);
+    static void _set_EmptyAttributeArray(::ArrayW<::System::Xml::Schema::XmlSchemaAttribute*> value);
     // Get static field: static System.Boolean[,] ValidStates
     static ::ArrayW<bool> _get_ValidStates();
     // Set static field: static System.Boolean[,] ValidStates
@@ -400,9 +400,9 @@ namespace System::Xml::Schema {
     // Set static field: static private System.String[] MethodNames
     static void _set_MethodNames(::ArrayW<::StringW> value);
     // Get instance field reference: private System.Xml.Schema.XmlSchemaSet schemaSet
-    System::Xml::Schema::XmlSchemaSet*& dyn_schemaSet();
+    ::System::Xml::Schema::XmlSchemaSet*& dyn_schemaSet();
     // Get instance field reference: private System.Xml.Schema.XmlSchemaValidationFlags validationFlags
-    System::Xml::Schema::XmlSchemaValidationFlags& dyn_validationFlags();
+    ::System::Xml::Schema::XmlSchemaValidationFlags& dyn_validationFlags();
     // Get instance field reference: private System.Int32 startIDConstraint
     int& dyn_startIDConstraint();
     // Get instance field reference: private System.Boolean isRoot
@@ -414,27 +414,27 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Boolean checkEntity
     bool& dyn_checkEntity();
     // Get instance field reference: private System.Xml.Schema.SchemaInfo compiledSchemaInfo
-    System::Xml::Schema::SchemaInfo*& dyn_compiledSchemaInfo();
+    ::System::Xml::Schema::SchemaInfo*& dyn_compiledSchemaInfo();
     // Get instance field reference: private System.Xml.IDtdInfo dtdSchemaInfo
-    System::Xml::IDtdInfo*& dyn_dtdSchemaInfo();
+    ::System::Xml::IDtdInfo*& dyn_dtdSchemaInfo();
     // Get instance field reference: private System.Collections.Hashtable validatedNamespaces
-    System::Collections::Hashtable*& dyn_validatedNamespaces();
+    ::System::Collections::Hashtable*& dyn_validatedNamespaces();
     // Get instance field reference: private System.Xml.HWStack validationStack
-    System::Xml::HWStack*& dyn_validationStack();
+    ::System::Xml::HWStack*& dyn_validationStack();
     // Get instance field reference: private System.Xml.Schema.ValidationState context
-    System::Xml::Schema::ValidationState*& dyn_context();
+    ::System::Xml::Schema::ValidationState*& dyn_context();
     // Get instance field reference: private System.Xml.Schema.ValidatorState currentState
-    System::Xml::Schema::ValidatorState& dyn_currentState();
+    ::System::Xml::Schema::ValidatorState& dyn_currentState();
     // Get instance field reference: private System.Collections.Hashtable attPresence
-    System::Collections::Hashtable*& dyn_attPresence();
+    ::System::Collections::Hashtable*& dyn_attPresence();
     // Get instance field reference: private System.Xml.Schema.SchemaAttDef wildID
-    System::Xml::Schema::SchemaAttDef*& dyn_wildID();
+    ::System::Xml::Schema::SchemaAttDef*& dyn_wildID();
     // Get instance field reference: private System.Collections.Hashtable IDs
-    System::Collections::Hashtable*& dyn_IDs();
+    ::System::Collections::Hashtable*& dyn_IDs();
     // Get instance field reference: private System.Xml.Schema.IdRefNode idRefListHead
-    System::Xml::Schema::IdRefNode*& dyn_idRefListHead();
+    ::System::Xml::Schema::IdRefNode*& dyn_idRefListHead();
     // Get instance field reference: private System.Xml.XmlQualifiedName contextQName
-    System::Xml::XmlQualifiedName*& dyn_contextQName();
+    ::System::Xml::XmlQualifiedName*& dyn_contextQName();
     // Get instance field reference: private System.String NsXs
     ::StringW& dyn_NsXs();
     // Get instance field reference: private System.String NsXsi
@@ -444,29 +444,29 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.String NsXml
     ::StringW& dyn_NsXml();
     // Get instance field reference: private System.Xml.Schema.XmlSchemaObject partialValidationType
-    System::Xml::Schema::XmlSchemaObject*& dyn_partialValidationType();
+    ::System::Xml::Schema::XmlSchemaObject*& dyn_partialValidationType();
     // Get instance field reference: private System.Text.StringBuilder textValue
-    System::Text::StringBuilder*& dyn_textValue();
+    ::System::Text::StringBuilder*& dyn_textValue();
     // Get instance field reference: private System.Xml.Schema.ValidationEventHandler eventHandler
-    System::Xml::Schema::ValidationEventHandler*& dyn_eventHandler();
+    ::System::Xml::Schema::ValidationEventHandler*& dyn_eventHandler();
     // Get instance field reference: private System.Object validationEventSender
     ::Il2CppObject*& dyn_validationEventSender();
     // Get instance field reference: private System.Xml.XmlNameTable nameTable
-    System::Xml::XmlNameTable*& dyn_nameTable();
+    ::System::Xml::XmlNameTable*& dyn_nameTable();
     // Get instance field reference: private System.Xml.IXmlLineInfo positionInfo
-    System::Xml::IXmlLineInfo*& dyn_positionInfo();
+    ::System::Xml::IXmlLineInfo*& dyn_positionInfo();
     // Get instance field reference: private System.Xml.IXmlLineInfo dummyPositionInfo
-    System::Xml::IXmlLineInfo*& dyn_dummyPositionInfo();
+    ::System::Xml::IXmlLineInfo*& dyn_dummyPositionInfo();
     // Get instance field reference: private System.Xml.XmlResolver xmlResolver
-    System::Xml::XmlResolver*& dyn_xmlResolver();
+    ::System::Xml::XmlResolver*& dyn_xmlResolver();
     // Get instance field reference: private System.Uri sourceUri
-    System::Uri*& dyn_sourceUri();
+    ::System::Uri*& dyn_sourceUri();
     // Get instance field reference: private System.String sourceUriString
     ::StringW& dyn_sourceUriString();
     // Get instance field reference: private System.Xml.IXmlNamespaceResolver nsResolver
-    System::Xml::IXmlNamespaceResolver*& dyn_nsResolver();
+    ::System::Xml::IXmlNamespaceResolver*& dyn_nsResolver();
     // Get instance field reference: private System.Xml.Schema.XmlSchemaContentProcessing processContents
-    System::Xml::Schema::XmlSchemaContentProcessing& dyn_processContents();
+    ::System::Xml::Schema::XmlSchemaContentProcessing& dyn_processContents();
     // Get instance field reference: private System.String xsiTypeString
     ::StringW& dyn_xsiTypeString();
     // Get instance field reference: private System.String xsiNilString
@@ -476,28 +476,28 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.String xsiNoNamespaceSchemaLocationString
     ::StringW& dyn_xsiNoNamespaceSchemaLocationString();
     // Get instance field reference: private System.Xml.XmlCharType xmlCharType
-    System::Xml::XmlCharType& dyn_xmlCharType();
+    ::System::Xml::XmlCharType& dyn_xmlCharType();
     // public System.Void set_XmlResolver(System.Xml.XmlResolver value)
     // Offset: 0x153F3EC
-    void set_XmlResolver(System::Xml::XmlResolver* value);
+    void set_XmlResolver(::System::Xml::XmlResolver* value);
     // public System.Void set_LineInfoProvider(System.Xml.IXmlLineInfo value)
     // Offset: 0x153F3F4
-    void set_LineInfoProvider(System::Xml::IXmlLineInfo* value);
+    void set_LineInfoProvider(::System::Xml::IXmlLineInfo* value);
     // public System.Void set_SourceUri(System.Uri value)
     // Offset: 0x153F40C
-    void set_SourceUri(System::Uri* value);
+    void set_SourceUri(::System::Uri* value);
     // public System.Void set_ValidationEventSender(System.Object value)
     // Offset: 0x153F44C
     void set_ValidationEventSender(::Il2CppObject* value);
     // System.Xml.Schema.XmlSchemaSet get_SchemaSet()
     // Offset: 0x15453BC
-    System::Xml::Schema::XmlSchemaSet* get_SchemaSet();
+    ::System::Xml::Schema::XmlSchemaSet* get_SchemaSet();
     // System.Xml.Schema.XmlSchemaValidationFlags get_ValidationFlags()
     // Offset: 0x15453C4
-    System::Xml::Schema::XmlSchemaValidationFlags get_ValidationFlags();
+    ::System::Xml::Schema::XmlSchemaValidationFlags get_ValidationFlags();
     // System.Xml.Schema.XmlSchemaContentType get_CurrentContentType()
     // Offset: 0x15453CC
-    System::Xml::Schema::XmlSchemaContentType get_CurrentContentType();
+    ::System::Xml::Schema::XmlSchemaContentType get_CurrentContentType();
     // private System.Boolean get_StrictlyAssessed()
     // Offset: 0x1545414
     bool get_StrictlyAssessed();
@@ -518,15 +518,15 @@ namespace System::Xml::Schema {
     bool get_ProcessSchemaHints();
     // public System.Void add_ValidationEventHandler(System.Xml.Schema.ValidationEventHandler value)
     // Offset: 0x153F454
-    void add_ValidationEventHandler(System::Xml::Schema::ValidationEventHandler* value);
+    void add_ValidationEventHandler(::System::Xml::Schema::ValidationEventHandler* value);
     // public System.Void remove_ValidationEventHandler(System.Xml.Schema.ValidationEventHandler value)
     // Offset: 0x153F4D4
-    void remove_ValidationEventHandler(System::Xml::Schema::ValidationEventHandler* value);
+    void remove_ValidationEventHandler(::System::Xml::Schema::ValidationEventHandler* value);
     // public System.Void .ctor(System.Xml.XmlNameTable nameTable, System.Xml.Schema.XmlSchemaSet schemas, System.Xml.IXmlNamespaceResolver namespaceResolver, System.Xml.Schema.XmlSchemaValidationFlags validationFlags)
     // Offset: 0x153ECA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlSchemaValidator* New_ctor(System::Xml::XmlNameTable* nameTable, System::Xml::Schema::XmlSchemaSet* schemas, System::Xml::IXmlNamespaceResolver* namespaceResolver, System::Xml::Schema::XmlSchemaValidationFlags validationFlags) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Schema::XmlSchemaValidator::.ctor");
+    static XmlSchemaValidator* New_ctor(::System::Xml::XmlNameTable* nameTable, ::System::Xml::Schema::XmlSchemaSet* schemas, ::System::Xml::IXmlNamespaceResolver* namespaceResolver, ::System::Xml::Schema::XmlSchemaValidationFlags validationFlags) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlSchemaValidator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlSchemaValidator*, creationType>(nameTable, schemas, namespaceResolver, validationFlags)));
     }
     // static private System.Void .cctor()
@@ -540,91 +540,91 @@ namespace System::Xml::Schema {
     void Reset();
     // public System.Void AddSchema(System.Xml.Schema.XmlSchema schema)
     // Offset: 0x153F554
-    void AddSchema(System::Xml::Schema::XmlSchema* schema);
+    void AddSchema(::System::Xml::Schema::XmlSchema* schema);
     // public System.Void Initialize()
     // Offset: 0x153FCDC
     void Initialize();
     // public System.Void Initialize(System.Xml.Schema.XmlSchemaObject partialValidationType)
     // Offset: 0x153FE68
-    void Initialize(System::Xml::Schema::XmlSchemaObject* partialValidationType);
+    void Initialize(::System::Xml::Schema::XmlSchemaObject* partialValidationType);
     // public System.Void ValidateElement(System.String localName, System.String namespaceUri, System.Xml.Schema.XmlSchemaInfo schemaInfo, System.String xsiType, System.String xsiNil, System.String xsiSchemaLocation, System.String xsiNoNamespaceSchemaLocation)
     // Offset: 0x1540108
-    void ValidateElement(::StringW localName, ::StringW namespaceUri, System::Xml::Schema::XmlSchemaInfo* schemaInfo, ::StringW xsiType, ::StringW xsiNil, ::StringW xsiSchemaLocation, ::StringW xsiNoNamespaceSchemaLocation);
+    void ValidateElement(::StringW localName, ::StringW namespaceUri, ::System::Xml::Schema::XmlSchemaInfo* schemaInfo, ::StringW xsiType, ::StringW xsiNil, ::StringW xsiSchemaLocation, ::StringW xsiNoNamespaceSchemaLocation);
     // public System.Object ValidateAttribute(System.String localName, System.String namespaceUri, System.Xml.Schema.XmlValueGetter attributeValue, System.Xml.Schema.XmlSchemaInfo schemaInfo)
     // Offset: 0x1541A58
-    ::Il2CppObject* ValidateAttribute(::StringW localName, ::StringW namespaceUri, System::Xml::Schema::XmlValueGetter* attributeValue, System::Xml::Schema::XmlSchemaInfo* schemaInfo);
+    ::Il2CppObject* ValidateAttribute(::StringW localName, ::StringW namespaceUri, ::System::Xml::Schema::XmlValueGetter* attributeValue, ::System::Xml::Schema::XmlSchemaInfo* schemaInfo);
     // private System.Object ValidateAttribute(System.String lName, System.String ns, System.Xml.Schema.XmlValueGetter attributeValueGetter, System.String attributeStringValue, System.Xml.Schema.XmlSchemaInfo schemaInfo)
     // Offset: 0x1541B10
-    ::Il2CppObject* ValidateAttribute(::StringW lName, ::StringW ns, System::Xml::Schema::XmlValueGetter* attributeValueGetter, ::StringW attributeStringValue, System::Xml::Schema::XmlSchemaInfo* schemaInfo);
+    ::Il2CppObject* ValidateAttribute(::StringW lName, ::StringW ns, ::System::Xml::Schema::XmlValueGetter* attributeValueGetter, ::StringW attributeStringValue, ::System::Xml::Schema::XmlSchemaInfo* schemaInfo);
     // public System.Void ValidateEndOfAttributes(System.Xml.Schema.XmlSchemaInfo schemaInfo)
     // Offset: 0x1543154
-    void ValidateEndOfAttributes(System::Xml::Schema::XmlSchemaInfo* schemaInfo);
+    void ValidateEndOfAttributes(::System::Xml::Schema::XmlSchemaInfo* schemaInfo);
     // public System.Void ValidateText(System.Xml.Schema.XmlValueGetter elementValue)
     // Offset: 0x15433BC
-    void ValidateText(System::Xml::Schema::XmlValueGetter* elementValue);
+    void ValidateText(::System::Xml::Schema::XmlValueGetter* elementValue);
     // private System.Void ValidateText(System.String elementStringValue, System.Xml.Schema.XmlValueGetter elementValueGetter)
     // Offset: 0x1543454
-    void ValidateText(::StringW elementStringValue, System::Xml::Schema::XmlValueGetter* elementValueGetter);
+    void ValidateText(::StringW elementStringValue, ::System::Xml::Schema::XmlValueGetter* elementValueGetter);
     // public System.Void ValidateWhitespace(System.Xml.Schema.XmlValueGetter elementValue)
     // Offset: 0x1543DC0
-    void ValidateWhitespace(System::Xml::Schema::XmlValueGetter* elementValue);
+    void ValidateWhitespace(::System::Xml::Schema::XmlValueGetter* elementValue);
     // private System.Void ValidateWhitespace(System.String elementStringValue, System.Xml.Schema.XmlValueGetter elementValueGetter)
     // Offset: 0x1543E58
-    void ValidateWhitespace(::StringW elementStringValue, System::Xml::Schema::XmlValueGetter* elementValueGetter);
+    void ValidateWhitespace(::StringW elementStringValue, ::System::Xml::Schema::XmlValueGetter* elementValueGetter);
     // public System.Object ValidateEndElement(System.Xml.Schema.XmlSchemaInfo schemaInfo)
     // Offset: 0x1544028
-    ::Il2CppObject* ValidateEndElement(System::Xml::Schema::XmlSchemaInfo* schemaInfo);
+    ::Il2CppObject* ValidateEndElement(::System::Xml::Schema::XmlSchemaInfo* schemaInfo);
     // public System.Void SkipToEndElement(System.Xml.Schema.XmlSchemaInfo schemaInfo)
     // Offset: 0x1544558
-    void SkipToEndElement(System::Xml::Schema::XmlSchemaInfo* schemaInfo);
+    void SkipToEndElement(::System::Xml::Schema::XmlSchemaInfo* schemaInfo);
     // public System.Void EndValidation()
     // Offset: 0x15448B8
     void EndValidation();
     // System.Void GetUnspecifiedDefaultAttributes(System.Collections.ArrayList defaultAttributes, System.Boolean createNodeData)
     // Offset: 0x1544AA8
-    void GetUnspecifiedDefaultAttributes(System::Collections::ArrayList* defaultAttributes, bool createNodeData);
+    void GetUnspecifiedDefaultAttributes(::System::Collections::ArrayList* defaultAttributes, bool createNodeData);
     // System.Void SetDtdSchemaInfo(System.Xml.IDtdInfo dtdSchemaInfo)
     // Offset: 0x1545404
-    void SetDtdSchemaInfo(System::Xml::IDtdInfo* dtdSchemaInfo);
+    void SetDtdSchemaInfo(::System::Xml::IDtdInfo* dtdSchemaInfo);
     // System.String GetConcatenatedValue()
     // Offset: 0x15454AC
     ::StringW GetConcatenatedValue();
     // private System.Object InternalValidateEndElement(System.Xml.Schema.XmlSchemaInfo schemaInfo, System.Object typedValue)
     // Offset: 0x1544030
-    ::Il2CppObject* InternalValidateEndElement(System::Xml::Schema::XmlSchemaInfo* schemaInfo, ::Il2CppObject* typedValue);
+    ::Il2CppObject* InternalValidateEndElement(::System::Xml::Schema::XmlSchemaInfo* schemaInfo, ::Il2CppObject* typedValue);
     // private System.Void ProcessSchemaLocations(System.String xsiSchemaLocation, System.String xsiNoNamespaceSchemaLocation)
     // Offset: 0x1540D78
     void ProcessSchemaLocations(::StringW xsiSchemaLocation, ::StringW xsiNoNamespaceSchemaLocation);
     // private System.Object ValidateElementContext(System.Xml.XmlQualifiedName elementName, out System.Boolean invalidElementInContext)
     // Offset: 0x1540734
-    ::Il2CppObject* ValidateElementContext(System::Xml::XmlQualifiedName* elementName, ByRef<bool> invalidElementInContext);
+    ::Il2CppObject* ValidateElementContext(::System::Xml::XmlQualifiedName* elementName, ByRef<bool> invalidElementInContext);
     // private System.Xml.Schema.XmlSchemaElement GetSubstitutionGroupHead(System.Xml.XmlQualifiedName member)
     // Offset: 0x1547120
-    System::Xml::Schema::XmlSchemaElement* GetSubstitutionGroupHead(System::Xml::XmlQualifiedName* member);
+    ::System::Xml::Schema::XmlSchemaElement* GetSubstitutionGroupHead(::System::Xml::XmlQualifiedName* member);
     // private System.Object ValidateAtomicValue(System.String stringValue, out System.Xml.Schema.XmlSchemaSimpleType memberType)
     // Offset: 0x15454CC
-    ::Il2CppObject* ValidateAtomicValue(::StringW stringValue, ByRef<System::Xml::Schema::XmlSchemaSimpleType*> memberType);
+    ::Il2CppObject* ValidateAtomicValue(::StringW stringValue, ByRef<::System::Xml::Schema::XmlSchemaSimpleType*> memberType);
     // private System.Object ValidateAtomicValue(System.Object parsedValue, out System.Xml.Schema.XmlSchemaSimpleType memberType)
     // Offset: 0x1545764
-    ::Il2CppObject* ValidateAtomicValue(::Il2CppObject* parsedValue, ByRef<System::Xml::Schema::XmlSchemaSimpleType*> memberType);
+    ::Il2CppObject* ValidateAtomicValue(::Il2CppObject* parsedValue, ByRef<::System::Xml::Schema::XmlSchemaSimpleType*> memberType);
     // private System.String GetTypeName(System.Xml.Schema.SchemaDeclBase decl)
     // Offset: 0x1548000
-    ::StringW GetTypeName(System::Xml::Schema::SchemaDeclBase* decl);
+    ::StringW GetTypeName(::System::Xml::Schema::SchemaDeclBase* decl);
     // private System.Void SaveTextValue(System.Object value)
     // Offset: 0x1543840
     void SaveTextValue(::Il2CppObject* value);
     // private System.Void Push(System.Xml.XmlQualifiedName elementName)
     // Offset: 0x153F0EC
-    void Push(System::Xml::XmlQualifiedName* elementName);
+    void Push(::System::Xml::XmlQualifiedName* elementName);
     // private System.Void Pop()
     // Offset: 0x1544794
     void Pop();
     // private System.Xml.Schema.SchemaElementDecl FastGetElementDecl(System.Xml.XmlQualifiedName elementName, System.Object particle)
     // Offset: 0x1540B54
-    System::Xml::Schema::SchemaElementDecl* FastGetElementDecl(System::Xml::XmlQualifiedName* elementName, ::Il2CppObject* particle);
+    ::System::Xml::Schema::SchemaElementDecl* FastGetElementDecl(::System::Xml::XmlQualifiedName* elementName, ::Il2CppObject* particle);
     // private System.Xml.Schema.SchemaElementDecl CheckXsiTypeAndNil(System.Xml.Schema.SchemaElementDecl elementDecl, System.String xsiType, System.String xsiNil, ref System.Boolean declFound)
     // Offset: 0x15410EC
-    System::Xml::Schema::SchemaElementDecl* CheckXsiTypeAndNil(System::Xml::Schema::SchemaElementDecl* elementDecl, ::StringW xsiType, ::StringW xsiNil, ByRef<bool> declFound);
+    ::System::Xml::Schema::SchemaElementDecl* CheckXsiTypeAndNil(::System::Xml::Schema::SchemaElementDecl* elementDecl, ::StringW xsiType, ::StringW xsiNil, ByRef<bool> declFound);
     // private System.Void ThrowDeclNotFoundWarningOrError(System.Boolean declFound)
     // Offset: 0x15416B4
     void ThrowDeclNotFoundWarningOrError(bool declFound);
@@ -636,7 +636,7 @@ namespace System::Xml::Schema {
     void ValidateStartElementIdentityConstraints();
     // private System.Xml.Schema.SchemaAttDef CheckIsXmlAttribute(System.Xml.XmlQualifiedName attQName)
     // Offset: 0x1542604
-    System::Xml::Schema::SchemaAttDef* CheckIsXmlAttribute(System::Xml::XmlQualifiedName* attQName);
+    ::System::Xml::Schema::SchemaAttDef* CheckIsXmlAttribute(::System::Xml::XmlQualifiedName* attQName);
     // private System.Void AddXmlNamespaceSchema()
     // Offset: 0x1548870
     void AddXmlNamespaceSchema();
@@ -651,16 +651,16 @@ namespace System::Xml::Schema {
     void RecompileSchemaSet();
     // private System.Void ProcessTokenizedType(System.Xml.XmlTokenizedType ttype, System.String name, System.Boolean attrValue)
     // Offset: 0x1548AF0
-    void ProcessTokenizedType(System::Xml::XmlTokenizedType ttype, ::StringW name, bool attrValue);
+    void ProcessTokenizedType(::System::Xml::XmlTokenizedType ttype, ::StringW name, bool attrValue);
     // private System.Object CheckAttributeValue(System.Object value, System.Xml.Schema.SchemaAttDef attdef)
     // Offset: 0x1542A88
-    ::Il2CppObject* CheckAttributeValue(::Il2CppObject* value, System::Xml::Schema::SchemaAttDef* attdef);
+    ::Il2CppObject* CheckAttributeValue(::Il2CppObject* value, ::System::Xml::Schema::SchemaAttDef* attdef);
     // private System.Object CheckElementValue(System.String stringValue)
     // Offset: 0x1547DA4
     ::Il2CppObject* CheckElementValue(::StringW stringValue);
     // private System.Void CheckTokenizedTypes(System.Xml.Schema.XmlSchemaDatatype dtype, System.Object typedValue, System.Boolean attrValue)
     // Offset: 0x1542D00
-    void CheckTokenizedTypes(System::Xml::Schema::XmlSchemaDatatype* dtype, ::Il2CppObject* typedValue, bool attrValue);
+    void CheckTokenizedTypes(::System::Xml::Schema::XmlSchemaDatatype* dtype, ::Il2CppObject* typedValue, bool attrValue);
     // private System.Object FindId(System.String name)
     // Offset: 0x1548D84
     ::Il2CppObject* FindId(::StringW name);
@@ -669,16 +669,16 @@ namespace System::Xml::Schema {
     void CheckForwardRefs();
     // private System.Void CheckStateTransition(System.Xml.Schema.ValidatorState toState, System.String methodName)
     // Offset: 0x1540470
-    void CheckStateTransition(System::Xml::Schema::ValidatorState toState, ::StringW methodName);
+    void CheckStateTransition(::System::Xml::Schema::ValidatorState toState, ::StringW methodName);
     // private System.Void ClearPSVI()
     // Offset: 0x15406E4
     void ClearPSVI();
     // private System.Void CheckRequiredAttributes(System.Xml.Schema.SchemaElementDecl currentElementDecl)
     // Offset: 0x1543234
-    void CheckRequiredAttributes(System::Xml::Schema::SchemaElementDecl* currentElementDecl);
+    void CheckRequiredAttributes(::System::Xml::Schema::SchemaElementDecl* currentElementDecl);
     // private System.Xml.Schema.XmlSchemaElement GetSchemaElement()
     // Offset: 0x1541940
-    System::Xml::Schema::XmlSchemaElement* GetSchemaElement();
+    ::System::Xml::Schema::XmlSchemaElement* GetSchemaElement();
     // System.String GetDefaultAttributePrefix(System.String attributeNS)
     // Offset: 0x154503C
     ::StringW GetDefaultAttributePrefix(::StringW attributeNS);
@@ -690,34 +690,34 @@ namespace System::Xml::Schema {
     void ElementIdentityConstraints();
     // private System.Void AttributeIdentityConstraints(System.String name, System.String ns, System.Object obj, System.String sobj, System.Xml.Schema.XmlSchemaDatatype datatype)
     // Offset: 0x1542EB0
-    void AttributeIdentityConstraints(::StringW name, ::StringW ns, ::Il2CppObject* obj, ::StringW sobj, System::Xml::Schema::XmlSchemaDatatype* datatype);
+    void AttributeIdentityConstraints(::StringW name, ::StringW ns, ::Il2CppObject* obj, ::StringW sobj, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
     // private System.Void EndElementIdentityConstraints(System.Object typedValue, System.String stringValue, System.Xml.Schema.XmlSchemaDatatype datatype)
     // Offset: 0x154601C
-    void EndElementIdentityConstraints(::Il2CppObject* typedValue, ::StringW stringValue, System::Xml::Schema::XmlSchemaDatatype* datatype);
+    void EndElementIdentityConstraints(::Il2CppObject* typedValue, ::StringW stringValue, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
     // static System.Void ElementValidationError(System.Xml.XmlQualifiedName name, System.Xml.Schema.ValidationState context, System.Xml.Schema.ValidationEventHandler eventHandler, System.Object sender, System.String sourceUri, System.Int32 lineNo, System.Int32 linePos, System.Xml.Schema.XmlSchemaSet schemaSet)
     // Offset: 0x15475E8
-    static void ElementValidationError(System::Xml::XmlQualifiedName* name, System::Xml::Schema::ValidationState* context, System::Xml::Schema::ValidationEventHandler* eventHandler, ::Il2CppObject* sender, ::StringW sourceUri, int lineNo, int linePos, System::Xml::Schema::XmlSchemaSet* schemaSet);
+    static void ElementValidationError(::System::Xml::XmlQualifiedName* name, ::System::Xml::Schema::ValidationState* context, ::System::Xml::Schema::ValidationEventHandler* eventHandler, ::Il2CppObject* sender, ::StringW sourceUri, int lineNo, int linePos, ::System::Xml::Schema::XmlSchemaSet* schemaSet);
     // static System.Void CompleteValidationError(System.Xml.Schema.ValidationState context, System.Xml.Schema.ValidationEventHandler eventHandler, System.Object sender, System.String sourceUri, System.Int32 lineNo, System.Int32 linePos, System.Xml.Schema.XmlSchemaSet schemaSet)
     // Offset: 0x1545B70
-    static void CompleteValidationError(System::Xml::Schema::ValidationState* context, System::Xml::Schema::ValidationEventHandler* eventHandler, ::Il2CppObject* sender, ::StringW sourceUri, int lineNo, int linePos, System::Xml::Schema::XmlSchemaSet* schemaSet);
+    static void CompleteValidationError(::System::Xml::Schema::ValidationState* context, ::System::Xml::Schema::ValidationEventHandler* eventHandler, ::Il2CppObject* sender, ::StringW sourceUri, int lineNo, int linePos, ::System::Xml::Schema::XmlSchemaSet* schemaSet);
     // static System.String PrintExpectedElements(System.Collections.ArrayList expected, System.Boolean getParticles)
     // Offset: 0x15439B8
-    static ::StringW PrintExpectedElements(System::Collections::ArrayList* expected, bool getParticles);
+    static ::StringW PrintExpectedElements(::System::Collections::ArrayList* expected, bool getParticles);
     // static private System.String PrintNames(System.Collections.ArrayList expected)
     // Offset: 0x1549548
-    static ::StringW PrintNames(System::Collections::ArrayList* expected);
+    static ::StringW PrintNames(::System::Collections::ArrayList* expected);
     // static private System.Void PrintNamesWithNS(System.Collections.ArrayList expected, System.Text.StringBuilder builder)
     // Offset: 0x1549108
-    static void PrintNamesWithNS(System::Collections::ArrayList* expected, System::Text::StringBuilder* builder);
+    static void PrintNamesWithNS(::System::Collections::ArrayList* expected, ::System::Text::StringBuilder* builder);
     // static private System.Void EnumerateAny(System.Text.StringBuilder builder, System.String namespaces)
     // Offset: 0x15496BC
-    static void EnumerateAny(System::Text::StringBuilder* builder, ::StringW namespaces);
+    static void EnumerateAny(::System::Text::StringBuilder* builder, ::StringW namespaces);
     // static System.String QNameString(System.String localName, System.String ns)
     // Offset: 0x15437B8
     static ::StringW QNameString(::StringW localName, ::StringW ns);
     // static System.String BuildElementName(System.Xml.XmlQualifiedName qname)
     // Offset: 0x1547350
-    static ::StringW BuildElementName(System::Xml::XmlQualifiedName* qname);
+    static ::StringW BuildElementName(::System::Xml::XmlQualifiedName* qname);
     // static System.String BuildElementName(System.String localName, System.String ns)
     // Offset: 0x154388C
     static ::StringW BuildElementName(::StringW localName, ::StringW ns);
@@ -738,35 +738,35 @@ namespace System::Xml::Schema {
     void SendValidationEvent(::StringW code, ::StringW arg1, ::StringW arg2);
     // private System.Void SendValidationEvent(System.String code, System.String[] args, System.Exception innerException, System.Xml.Schema.XmlSeverityType severity)
     // Offset: 0x1548910
-    void SendValidationEvent(::StringW code, ::ArrayW<::StringW> args, System::Exception* innerException, System::Xml::Schema::XmlSeverityType severity);
+    void SendValidationEvent(::StringW code, ::ArrayW<::StringW> args, ::System::Exception* innerException, ::System::Xml::Schema::XmlSeverityType severity);
     // private System.Void SendValidationEvent(System.String code, System.String[] args, System.Exception innerException)
     // Offset: 0x153FB38
-    void SendValidationEvent(::StringW code, ::ArrayW<::StringW> args, System::Exception* innerException);
+    void SendValidationEvent(::StringW code, ::ArrayW<::StringW> args, ::System::Exception* innerException);
     // private System.Void SendValidationEvent(System.Xml.Schema.XmlSchemaValidationException e)
     // Offset: 0x1549040
-    void SendValidationEvent(System::Xml::Schema::XmlSchemaValidationException* e);
+    void SendValidationEvent(::System::Xml::Schema::XmlSchemaValidationException* e);
     // private System.Void SendValidationEvent(System.Xml.Schema.XmlSchemaException e)
     // Offset: 0x1547064
-    void SendValidationEvent(System::Xml::Schema::XmlSchemaException* e);
+    void SendValidationEvent(::System::Xml::Schema::XmlSchemaException* e);
     // private System.Void SendValidationEvent(System.String code, System.String msg, System.Xml.Schema.XmlSeverityType severity)
     // Offset: 0x153F980
-    void SendValidationEvent(::StringW code, ::StringW msg, System::Xml::Schema::XmlSeverityType severity);
+    void SendValidationEvent(::StringW code, ::StringW msg, ::System::Xml::Schema::XmlSeverityType severity);
     // private System.Void SendValidationEvent(System.Xml.Schema.XmlSchemaValidationException e, System.Xml.Schema.XmlSeverityType severity)
     // Offset: 0x1548F14
-    void SendValidationEvent(System::Xml::Schema::XmlSchemaValidationException* e, System::Xml::Schema::XmlSeverityType severity);
+    void SendValidationEvent(::System::Xml::Schema::XmlSchemaValidationException* e, ::System::Xml::Schema::XmlSeverityType severity);
     // static System.Void SendValidationEvent(System.Xml.Schema.ValidationEventHandler eventHandler, System.Object sender, System.Xml.Schema.XmlSchemaValidationException e, System.Xml.Schema.XmlSeverityType severity)
     // Offset: 0x1549048
-    static void SendValidationEvent(System::Xml::Schema::ValidationEventHandler* eventHandler, ::Il2CppObject* sender, System::Xml::Schema::XmlSchemaValidationException* e, System::Xml::Schema::XmlSeverityType severity);
+    static void SendValidationEvent(::System::Xml::Schema::ValidationEventHandler* eventHandler, ::Il2CppObject* sender, ::System::Xml::Schema::XmlSchemaValidationException* e, ::System::Xml::Schema::XmlSeverityType severity);
   }; // System.Xml.Schema.XmlSchemaValidator
   #pragma pack(pop)
-  static check_size<sizeof(XmlSchemaValidator), 288 + sizeof(System::Xml::XmlCharType)> __System_Xml_Schema_XmlSchemaValidatorSizeCheck;
+  static check_size<sizeof(XmlSchemaValidator), 288 + sizeof(::System::Xml::XmlCharType)> __System_Xml_Schema_XmlSchemaValidatorSizeCheck;
   static_assert(sizeof(XmlSchemaValidator) == 0x128);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::set_XmlResolver
 // Il2CppName: set_XmlResolver
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(System::Xml::XmlResolver*)>(&System::Xml::Schema::XmlSchemaValidator::set_XmlResolver)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::XmlResolver*)>(&System::Xml::Schema::XmlSchemaValidator::set_XmlResolver)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlResolver")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaValidator*), "set_XmlResolver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -775,7 +775,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::set_LineInfoProvider
 // Il2CppName: set_LineInfoProvider
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(System::Xml::IXmlLineInfo*)>(&System::Xml::Schema::XmlSchemaValidator::set_LineInfoProvider)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::IXmlLineInfo*)>(&System::Xml::Schema::XmlSchemaValidator::set_LineInfoProvider)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Xml", "IXmlLineInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaValidator*), "set_LineInfoProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -784,7 +784,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::set_SourceUri
 // Il2CppName: set_SourceUri
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(System::Uri*)>(&System::Xml::Schema::XmlSchemaValidator::set_SourceUri)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(::System::Uri*)>(&System::Xml::Schema::XmlSchemaValidator::set_SourceUri)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaValidator*), "set_SourceUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -802,7 +802,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::get_SchemaSet
 // Il2CppName: get_SchemaSet
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Schema::XmlSchemaSet* (System::Xml::Schema::XmlSchemaValidator::*)()>(&System::Xml::Schema::XmlSchemaValidator::get_SchemaSet)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaSet* (System::Xml::Schema::XmlSchemaValidator::*)()>(&System::Xml::Schema::XmlSchemaValidator::get_SchemaSet)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaValidator*), "get_SchemaSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -810,7 +810,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::get_ValidationFlags
 // Il2CppName: get_ValidationFlags
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Schema::XmlSchemaValidationFlags (System::Xml::Schema::XmlSchemaValidator::*)()>(&System::Xml::Schema::XmlSchemaValidator::get_ValidationFlags)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaValidationFlags (System::Xml::Schema::XmlSchemaValidator::*)()>(&System::Xml::Schema::XmlSchemaValidator::get_ValidationFlags)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaValidator*), "get_ValidationFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -818,7 +818,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::get_CurrentContentType
 // Il2CppName: get_CurrentContentType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Schema::XmlSchemaContentType (System::Xml::Schema::XmlSchemaValidator::*)()>(&System::Xml::Schema::XmlSchemaValidator::get_CurrentContentType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaContentType (System::Xml::Schema::XmlSchemaValidator::*)()>(&System::Xml::Schema::XmlSchemaValidator::get_CurrentContentType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaValidator*), "get_CurrentContentType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -874,7 +874,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::add_ValidationEventHandler
 // Il2CppName: add_ValidationEventHandler
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(System::Xml::Schema::ValidationEventHandler*)>(&System::Xml::Schema::XmlSchemaValidator::add_ValidationEventHandler)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::Schema::ValidationEventHandler*)>(&System::Xml::Schema::XmlSchemaValidator::add_ValidationEventHandler)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "ValidationEventHandler")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaValidator*), "add_ValidationEventHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -883,7 +883,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::remove_ValidationEventHandler
 // Il2CppName: remove_ValidationEventHandler
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(System::Xml::Schema::ValidationEventHandler*)>(&System::Xml::Schema::XmlSchemaValidator::remove_ValidationEventHandler)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::Schema::ValidationEventHandler*)>(&System::Xml::Schema::XmlSchemaValidator::remove_ValidationEventHandler)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "ValidationEventHandler")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaValidator*), "remove_ValidationEventHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -920,7 +920,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::AddSchema
 // Il2CppName: AddSchema
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(System::Xml::Schema::XmlSchema*)>(&System::Xml::Schema::XmlSchemaValidator::AddSchema)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::Schema::XmlSchema*)>(&System::Xml::Schema::XmlSchemaValidator::AddSchema)> {
   static const MethodInfo* get() {
     static auto* schema = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchema")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaValidator*), "AddSchema", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{schema});
@@ -937,7 +937,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::Initialize
 // Il2CppName: Initialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(System::Xml::Schema::XmlSchemaObject*)>(&System::Xml::Schema::XmlSchemaValidator::Initialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::Schema::XmlSchemaObject*)>(&System::Xml::Schema::XmlSchemaValidator::Initialize)> {
   static const MethodInfo* get() {
     static auto* partialValidationType = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaValidator*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{partialValidationType});
@@ -946,7 +946,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::ValidateElement
 // Il2CppName: ValidateElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(::StringW, ::StringW, System::Xml::Schema::XmlSchemaInfo*, ::StringW, ::StringW, ::StringW, ::StringW)>(&System::Xml::Schema::XmlSchemaValidator::ValidateElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(::StringW, ::StringW, ::System::Xml::Schema::XmlSchemaInfo*, ::StringW, ::StringW, ::StringW, ::StringW)>(&System::Xml::Schema::XmlSchemaValidator::ValidateElement)> {
   static const MethodInfo* get() {
     static auto* localName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* namespaceUri = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -961,7 +961,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::ValidateAttribute
 // Il2CppName: ValidateAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::Schema::XmlSchemaValidator::*)(::StringW, ::StringW, System::Xml::Schema::XmlValueGetter*, System::Xml::Schema::XmlSchemaInfo*)>(&System::Xml::Schema::XmlSchemaValidator::ValidateAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::Schema::XmlSchemaValidator::*)(::StringW, ::StringW, ::System::Xml::Schema::XmlValueGetter*, ::System::Xml::Schema::XmlSchemaInfo*)>(&System::Xml::Schema::XmlSchemaValidator::ValidateAttribute)> {
   static const MethodInfo* get() {
     static auto* localName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* namespaceUri = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -973,7 +973,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::ValidateAttribute
 // Il2CppName: ValidateAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::Schema::XmlSchemaValidator::*)(::StringW, ::StringW, System::Xml::Schema::XmlValueGetter*, ::StringW, System::Xml::Schema::XmlSchemaInfo*)>(&System::Xml::Schema::XmlSchemaValidator::ValidateAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::Schema::XmlSchemaValidator::*)(::StringW, ::StringW, ::System::Xml::Schema::XmlValueGetter*, ::StringW, ::System::Xml::Schema::XmlSchemaInfo*)>(&System::Xml::Schema::XmlSchemaValidator::ValidateAttribute)> {
   static const MethodInfo* get() {
     static auto* lName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* ns = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -986,7 +986,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::ValidateEndOfAttributes
 // Il2CppName: ValidateEndOfAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(System::Xml::Schema::XmlSchemaInfo*)>(&System::Xml::Schema::XmlSchemaValidator::ValidateEndOfAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::Schema::XmlSchemaInfo*)>(&System::Xml::Schema::XmlSchemaValidator::ValidateEndOfAttributes)> {
   static const MethodInfo* get() {
     static auto* schemaInfo = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaValidator*), "ValidateEndOfAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{schemaInfo});
@@ -995,7 +995,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::ValidateText
 // Il2CppName: ValidateText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(System::Xml::Schema::XmlValueGetter*)>(&System::Xml::Schema::XmlSchemaValidator::ValidateText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::Schema::XmlValueGetter*)>(&System::Xml::Schema::XmlSchemaValidator::ValidateText)> {
   static const MethodInfo* get() {
     static auto* elementValue = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlValueGetter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaValidator*), "ValidateText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{elementValue});
@@ -1004,7 +1004,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::ValidateText
 // Il2CppName: ValidateText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(::StringW, System::Xml::Schema::XmlValueGetter*)>(&System::Xml::Schema::XmlSchemaValidator::ValidateText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(::StringW, ::System::Xml::Schema::XmlValueGetter*)>(&System::Xml::Schema::XmlSchemaValidator::ValidateText)> {
   static const MethodInfo* get() {
     static auto* elementStringValue = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* elementValueGetter = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlValueGetter")->byval_arg;
@@ -1014,7 +1014,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::ValidateWhitespace
 // Il2CppName: ValidateWhitespace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(System::Xml::Schema::XmlValueGetter*)>(&System::Xml::Schema::XmlSchemaValidator::ValidateWhitespace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::Schema::XmlValueGetter*)>(&System::Xml::Schema::XmlSchemaValidator::ValidateWhitespace)> {
   static const MethodInfo* get() {
     static auto* elementValue = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlValueGetter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaValidator*), "ValidateWhitespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{elementValue});
@@ -1023,7 +1023,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::ValidateWhitespace
 // Il2CppName: ValidateWhitespace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(::StringW, System::Xml::Schema::XmlValueGetter*)>(&System::Xml::Schema::XmlSchemaValidator::ValidateWhitespace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(::StringW, ::System::Xml::Schema::XmlValueGetter*)>(&System::Xml::Schema::XmlSchemaValidator::ValidateWhitespace)> {
   static const MethodInfo* get() {
     static auto* elementStringValue = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* elementValueGetter = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlValueGetter")->byval_arg;
@@ -1033,7 +1033,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::ValidateEndElement
 // Il2CppName: ValidateEndElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::Schema::XmlSchemaValidator::*)(System::Xml::Schema::XmlSchemaInfo*)>(&System::Xml::Schema::XmlSchemaValidator::ValidateEndElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::Schema::XmlSchemaInfo*)>(&System::Xml::Schema::XmlSchemaValidator::ValidateEndElement)> {
   static const MethodInfo* get() {
     static auto* schemaInfo = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaValidator*), "ValidateEndElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{schemaInfo});
@@ -1042,7 +1042,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::SkipToEndElement
 // Il2CppName: SkipToEndElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(System::Xml::Schema::XmlSchemaInfo*)>(&System::Xml::Schema::XmlSchemaValidator::SkipToEndElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::Schema::XmlSchemaInfo*)>(&System::Xml::Schema::XmlSchemaValidator::SkipToEndElement)> {
   static const MethodInfo* get() {
     static auto* schemaInfo = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaValidator*), "SkipToEndElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{schemaInfo});
@@ -1059,7 +1059,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::GetUnspecifiedDefaultAttributes
 // Il2CppName: GetUnspecifiedDefaultAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(System::Collections::ArrayList*, bool)>(&System::Xml::Schema::XmlSchemaValidator::GetUnspecifiedDefaultAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(::System::Collections::ArrayList*, bool)>(&System::Xml::Schema::XmlSchemaValidator::GetUnspecifiedDefaultAttributes)> {
   static const MethodInfo* get() {
     static auto* defaultAttributes = &::il2cpp_utils::GetClassFromName("System.Collections", "ArrayList")->byval_arg;
     static auto* createNodeData = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -1069,7 +1069,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::SetDtdSchemaInfo
 // Il2CppName: SetDtdSchemaInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(System::Xml::IDtdInfo*)>(&System::Xml::Schema::XmlSchemaValidator::SetDtdSchemaInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::IDtdInfo*)>(&System::Xml::Schema::XmlSchemaValidator::SetDtdSchemaInfo)> {
   static const MethodInfo* get() {
     static auto* dtdSchemaInfo = &::il2cpp_utils::GetClassFromName("System.Xml", "IDtdInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaValidator*), "SetDtdSchemaInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dtdSchemaInfo});
@@ -1086,7 +1086,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::InternalValidateEndElement
 // Il2CppName: InternalValidateEndElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::Schema::XmlSchemaValidator::*)(System::Xml::Schema::XmlSchemaInfo*, ::Il2CppObject*)>(&System::Xml::Schema::XmlSchemaValidator::InternalValidateEndElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::Schema::XmlSchemaInfo*, ::Il2CppObject*)>(&System::Xml::Schema::XmlSchemaValidator::InternalValidateEndElement)> {
   static const MethodInfo* get() {
     static auto* schemaInfo = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaInfo")->byval_arg;
     static auto* typedValue = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -1106,7 +1106,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::ValidateElementContext
 // Il2CppName: ValidateElementContext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::Schema::XmlSchemaValidator::*)(System::Xml::XmlQualifiedName*, ByRef<bool>)>(&System::Xml::Schema::XmlSchemaValidator::ValidateElementContext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::XmlQualifiedName*, ByRef<bool>)>(&System::Xml::Schema::XmlSchemaValidator::ValidateElementContext)> {
   static const MethodInfo* get() {
     static auto* elementName = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlQualifiedName")->byval_arg;
     static auto* invalidElementInContext = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
@@ -1116,7 +1116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::GetSubstitutionGroupHead
 // Il2CppName: GetSubstitutionGroupHead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Schema::XmlSchemaElement* (System::Xml::Schema::XmlSchemaValidator::*)(System::Xml::XmlQualifiedName*)>(&System::Xml::Schema::XmlSchemaValidator::GetSubstitutionGroupHead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaElement* (System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::XmlQualifiedName*)>(&System::Xml::Schema::XmlSchemaValidator::GetSubstitutionGroupHead)> {
   static const MethodInfo* get() {
     static auto* member = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlQualifiedName")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaValidator*), "GetSubstitutionGroupHead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{member});
@@ -1125,7 +1125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::ValidateAtomicValue
 // Il2CppName: ValidateAtomicValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::Schema::XmlSchemaValidator::*)(::StringW, ByRef<System::Xml::Schema::XmlSchemaSimpleType*>)>(&System::Xml::Schema::XmlSchemaValidator::ValidateAtomicValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::Schema::XmlSchemaValidator::*)(::StringW, ByRef<::System::Xml::Schema::XmlSchemaSimpleType*>)>(&System::Xml::Schema::XmlSchemaValidator::ValidateAtomicValue)> {
   static const MethodInfo* get() {
     static auto* stringValue = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* memberType = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaSimpleType")->this_arg;
@@ -1135,7 +1135,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::ValidateAtomicValue
 // Il2CppName: ValidateAtomicValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::Schema::XmlSchemaValidator::*)(::Il2CppObject*, ByRef<System::Xml::Schema::XmlSchemaSimpleType*>)>(&System::Xml::Schema::XmlSchemaValidator::ValidateAtomicValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::Schema::XmlSchemaValidator::*)(::Il2CppObject*, ByRef<::System::Xml::Schema::XmlSchemaSimpleType*>)>(&System::Xml::Schema::XmlSchemaValidator::ValidateAtomicValue)> {
   static const MethodInfo* get() {
     static auto* parsedValue = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* memberType = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaSimpleType")->this_arg;
@@ -1145,7 +1145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::GetTypeName
 // Il2CppName: GetTypeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Xml::Schema::XmlSchemaValidator::*)(System::Xml::Schema::SchemaDeclBase*)>(&System::Xml::Schema::XmlSchemaValidator::GetTypeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::Schema::SchemaDeclBase*)>(&System::Xml::Schema::XmlSchemaValidator::GetTypeName)> {
   static const MethodInfo* get() {
     static auto* decl = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "SchemaDeclBase")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaValidator*), "GetTypeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{decl});
@@ -1163,7 +1163,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::Push
 // Il2CppName: Push
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(System::Xml::XmlQualifiedName*)>(&System::Xml::Schema::XmlSchemaValidator::Push)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::XmlQualifiedName*)>(&System::Xml::Schema::XmlSchemaValidator::Push)> {
   static const MethodInfo* get() {
     static auto* elementName = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlQualifiedName")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaValidator*), "Push", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{elementName});
@@ -1180,7 +1180,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::FastGetElementDecl
 // Il2CppName: FastGetElementDecl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Schema::SchemaElementDecl* (System::Xml::Schema::XmlSchemaValidator::*)(System::Xml::XmlQualifiedName*, ::Il2CppObject*)>(&System::Xml::Schema::XmlSchemaValidator::FastGetElementDecl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::SchemaElementDecl* (System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::XmlQualifiedName*, ::Il2CppObject*)>(&System::Xml::Schema::XmlSchemaValidator::FastGetElementDecl)> {
   static const MethodInfo* get() {
     static auto* elementName = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlQualifiedName")->byval_arg;
     static auto* particle = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -1190,7 +1190,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::CheckXsiTypeAndNil
 // Il2CppName: CheckXsiTypeAndNil
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Schema::SchemaElementDecl* (System::Xml::Schema::XmlSchemaValidator::*)(System::Xml::Schema::SchemaElementDecl*, ::StringW, ::StringW, ByRef<bool>)>(&System::Xml::Schema::XmlSchemaValidator::CheckXsiTypeAndNil)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::SchemaElementDecl* (System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::Schema::SchemaElementDecl*, ::StringW, ::StringW, ByRef<bool>)>(&System::Xml::Schema::XmlSchemaValidator::CheckXsiTypeAndNil)> {
   static const MethodInfo* get() {
     static auto* elementDecl = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "SchemaElementDecl")->byval_arg;
     static auto* xsiType = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1227,7 +1227,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::CheckIsXmlAttribute
 // Il2CppName: CheckIsXmlAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Schema::SchemaAttDef* (System::Xml::Schema::XmlSchemaValidator::*)(System::Xml::XmlQualifiedName*)>(&System::Xml::Schema::XmlSchemaValidator::CheckIsXmlAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::SchemaAttDef* (System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::XmlQualifiedName*)>(&System::Xml::Schema::XmlSchemaValidator::CheckIsXmlAttribute)> {
   static const MethodInfo* get() {
     static auto* attQName = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlQualifiedName")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaValidator*), "CheckIsXmlAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attQName});
@@ -1271,7 +1271,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::ProcessTokenizedType
 // Il2CppName: ProcessTokenizedType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(System::Xml::XmlTokenizedType, ::StringW, bool)>(&System::Xml::Schema::XmlSchemaValidator::ProcessTokenizedType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::XmlTokenizedType, ::StringW, bool)>(&System::Xml::Schema::XmlSchemaValidator::ProcessTokenizedType)> {
   static const MethodInfo* get() {
     static auto* ttype = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlTokenizedType")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1282,7 +1282,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::CheckAttributeValue
 // Il2CppName: CheckAttributeValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::Schema::XmlSchemaValidator::*)(::Il2CppObject*, System::Xml::Schema::SchemaAttDef*)>(&System::Xml::Schema::XmlSchemaValidator::CheckAttributeValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::Schema::XmlSchemaValidator::*)(::Il2CppObject*, ::System::Xml::Schema::SchemaAttDef*)>(&System::Xml::Schema::XmlSchemaValidator::CheckAttributeValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* attdef = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "SchemaAttDef")->byval_arg;
@@ -1301,7 +1301,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::CheckTokenizedTypes
 // Il2CppName: CheckTokenizedTypes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(System::Xml::Schema::XmlSchemaDatatype*, ::Il2CppObject*, bool)>(&System::Xml::Schema::XmlSchemaValidator::CheckTokenizedTypes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::Schema::XmlSchemaDatatype*, ::Il2CppObject*, bool)>(&System::Xml::Schema::XmlSchemaValidator::CheckTokenizedTypes)> {
   static const MethodInfo* get() {
     static auto* dtype = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaDatatype")->byval_arg;
     static auto* typedValue = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -1329,7 +1329,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::CheckStateTransition
 // Il2CppName: CheckStateTransition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(System::Xml::Schema::ValidatorState, ::StringW)>(&System::Xml::Schema::XmlSchemaValidator::CheckStateTransition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::Schema::ValidatorState, ::StringW)>(&System::Xml::Schema::XmlSchemaValidator::CheckStateTransition)> {
   static const MethodInfo* get() {
     static auto* toState = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "ValidatorState")->byval_arg;
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1347,7 +1347,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::CheckRequiredAttributes
 // Il2CppName: CheckRequiredAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(System::Xml::Schema::SchemaElementDecl*)>(&System::Xml::Schema::XmlSchemaValidator::CheckRequiredAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::Schema::SchemaElementDecl*)>(&System::Xml::Schema::XmlSchemaValidator::CheckRequiredAttributes)> {
   static const MethodInfo* get() {
     static auto* currentElementDecl = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "SchemaElementDecl")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaValidator*), "CheckRequiredAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{currentElementDecl});
@@ -1356,7 +1356,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::GetSchemaElement
 // Il2CppName: GetSchemaElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Schema::XmlSchemaElement* (System::Xml::Schema::XmlSchemaValidator::*)()>(&System::Xml::Schema::XmlSchemaValidator::GetSchemaElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaElement* (System::Xml::Schema::XmlSchemaValidator::*)()>(&System::Xml::Schema::XmlSchemaValidator::GetSchemaElement)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaValidator*), "GetSchemaElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1389,7 +1389,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::AttributeIdentityConstraints
 // Il2CppName: AttributeIdentityConstraints
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(::StringW, ::StringW, ::Il2CppObject*, ::StringW, System::Xml::Schema::XmlSchemaDatatype*)>(&System::Xml::Schema::XmlSchemaValidator::AttributeIdentityConstraints)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(::StringW, ::StringW, ::Il2CppObject*, ::StringW, ::System::Xml::Schema::XmlSchemaDatatype*)>(&System::Xml::Schema::XmlSchemaValidator::AttributeIdentityConstraints)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* ns = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1402,7 +1402,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::EndElementIdentityConstraints
 // Il2CppName: EndElementIdentityConstraints
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(::Il2CppObject*, ::StringW, System::Xml::Schema::XmlSchemaDatatype*)>(&System::Xml::Schema::XmlSchemaValidator::EndElementIdentityConstraints)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(::Il2CppObject*, ::StringW, ::System::Xml::Schema::XmlSchemaDatatype*)>(&System::Xml::Schema::XmlSchemaValidator::EndElementIdentityConstraints)> {
   static const MethodInfo* get() {
     static auto* typedValue = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* stringValue = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1413,7 +1413,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::ElementValidationError
 // Il2CppName: ElementValidationError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Xml::XmlQualifiedName*, System::Xml::Schema::ValidationState*, System::Xml::Schema::ValidationEventHandler*, ::Il2CppObject*, ::StringW, int, int, System::Xml::Schema::XmlSchemaSet*)>(&System::Xml::Schema::XmlSchemaValidator::ElementValidationError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::ValidationState*, ::System::Xml::Schema::ValidationEventHandler*, ::Il2CppObject*, ::StringW, int, int, ::System::Xml::Schema::XmlSchemaSet*)>(&System::Xml::Schema::XmlSchemaValidator::ElementValidationError)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlQualifiedName")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "ValidationState")->byval_arg;
@@ -1429,7 +1429,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::CompleteValidationError
 // Il2CppName: CompleteValidationError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Xml::Schema::ValidationState*, System::Xml::Schema::ValidationEventHandler*, ::Il2CppObject*, ::StringW, int, int, System::Xml::Schema::XmlSchemaSet*)>(&System::Xml::Schema::XmlSchemaValidator::CompleteValidationError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::ValidationState*, ::System::Xml::Schema::ValidationEventHandler*, ::Il2CppObject*, ::StringW, int, int, ::System::Xml::Schema::XmlSchemaSet*)>(&System::Xml::Schema::XmlSchemaValidator::CompleteValidationError)> {
   static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "ValidationState")->byval_arg;
     static auto* eventHandler = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "ValidationEventHandler")->byval_arg;
@@ -1444,7 +1444,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::PrintExpectedElements
 // Il2CppName: PrintExpectedElements
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Collections::ArrayList*, bool)>(&System::Xml::Schema::XmlSchemaValidator::PrintExpectedElements)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Collections::ArrayList*, bool)>(&System::Xml::Schema::XmlSchemaValidator::PrintExpectedElements)> {
   static const MethodInfo* get() {
     static auto* expected = &::il2cpp_utils::GetClassFromName("System.Collections", "ArrayList")->byval_arg;
     static auto* getParticles = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -1454,7 +1454,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::PrintNames
 // Il2CppName: PrintNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Collections::ArrayList*)>(&System::Xml::Schema::XmlSchemaValidator::PrintNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Collections::ArrayList*)>(&System::Xml::Schema::XmlSchemaValidator::PrintNames)> {
   static const MethodInfo* get() {
     static auto* expected = &::il2cpp_utils::GetClassFromName("System.Collections", "ArrayList")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaValidator*), "PrintNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expected});
@@ -1463,7 +1463,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::PrintNamesWithNS
 // Il2CppName: PrintNamesWithNS
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::ArrayList*, System::Text::StringBuilder*)>(&System::Xml::Schema::XmlSchemaValidator::PrintNamesWithNS)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::ArrayList*, ::System::Text::StringBuilder*)>(&System::Xml::Schema::XmlSchemaValidator::PrintNamesWithNS)> {
   static const MethodInfo* get() {
     static auto* expected = &::il2cpp_utils::GetClassFromName("System.Collections", "ArrayList")->byval_arg;
     static auto* builder = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
@@ -1473,7 +1473,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::EnumerateAny
 // Il2CppName: EnumerateAny
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Text::StringBuilder*, ::StringW)>(&System::Xml::Schema::XmlSchemaValidator::EnumerateAny)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, ::StringW)>(&System::Xml::Schema::XmlSchemaValidator::EnumerateAny)> {
   static const MethodInfo* get() {
     static auto* builder = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* namespaces = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1493,7 +1493,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::BuildElementName
 // Il2CppName: BuildElementName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Xml::XmlQualifiedName*)>(&System::Xml::Schema::XmlSchemaValidator::BuildElementName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Xml::XmlQualifiedName*)>(&System::Xml::Schema::XmlSchemaValidator::BuildElementName)> {
   static const MethodInfo* get() {
     static auto* qname = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlQualifiedName")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaValidator*), "BuildElementName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{qname});
@@ -1561,7 +1561,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::SendValidationEvent
 // Il2CppName: SendValidationEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(::StringW, ::ArrayW<::StringW>, System::Exception*, System::Xml::Schema::XmlSeverityType)>(&System::Xml::Schema::XmlSchemaValidator::SendValidationEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(::StringW, ::ArrayW<::StringW>, ::System::Exception*, ::System::Xml::Schema::XmlSeverityType)>(&System::Xml::Schema::XmlSchemaValidator::SendValidationEvent)> {
   static const MethodInfo* get() {
     static auto* code = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
@@ -1573,7 +1573,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::SendValidationEvent
 // Il2CppName: SendValidationEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(::StringW, ::ArrayW<::StringW>, System::Exception*)>(&System::Xml::Schema::XmlSchemaValidator::SendValidationEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(::StringW, ::ArrayW<::StringW>, ::System::Exception*)>(&System::Xml::Schema::XmlSchemaValidator::SendValidationEvent)> {
   static const MethodInfo* get() {
     static auto* code = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
@@ -1584,7 +1584,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::SendValidationEvent
 // Il2CppName: SendValidationEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(System::Xml::Schema::XmlSchemaValidationException*)>(&System::Xml::Schema::XmlSchemaValidator::SendValidationEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::Schema::XmlSchemaValidationException*)>(&System::Xml::Schema::XmlSchemaValidator::SendValidationEvent)> {
   static const MethodInfo* get() {
     static auto* e = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaValidationException")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaValidator*), "SendValidationEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{e});
@@ -1593,7 +1593,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::SendValidationEvent
 // Il2CppName: SendValidationEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(System::Xml::Schema::XmlSchemaException*)>(&System::Xml::Schema::XmlSchemaValidator::SendValidationEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::Schema::XmlSchemaException*)>(&System::Xml::Schema::XmlSchemaValidator::SendValidationEvent)> {
   static const MethodInfo* get() {
     static auto* e = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaException")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XmlSchemaValidator*), "SendValidationEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{e});
@@ -1602,7 +1602,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::SendValidationEvent
 // Il2CppName: SendValidationEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(::StringW, ::StringW, System::Xml::Schema::XmlSeverityType)>(&System::Xml::Schema::XmlSchemaValidator::SendValidationEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(::StringW, ::StringW, ::System::Xml::Schema::XmlSeverityType)>(&System::Xml::Schema::XmlSchemaValidator::SendValidationEvent)> {
   static const MethodInfo* get() {
     static auto* code = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* msg = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1613,7 +1613,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::SendValidationEvent
 // Il2CppName: SendValidationEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(System::Xml::Schema::XmlSchemaValidationException*, System::Xml::Schema::XmlSeverityType)>(&System::Xml::Schema::XmlSchemaValidator::SendValidationEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::XmlSchemaValidator::*)(::System::Xml::Schema::XmlSchemaValidationException*, ::System::Xml::Schema::XmlSeverityType)>(&System::Xml::Schema::XmlSchemaValidator::SendValidationEvent)> {
   static const MethodInfo* get() {
     static auto* e = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaValidationException")->byval_arg;
     static auto* severity = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSeverityType")->byval_arg;
@@ -1623,7 +1623,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::XmlSchemaValidator::SendValidationEvent
 // Il2CppName: SendValidationEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Xml::Schema::ValidationEventHandler*, ::Il2CppObject*, System::Xml::Schema::XmlSchemaValidationException*, System::Xml::Schema::XmlSeverityType)>(&System::Xml::Schema::XmlSchemaValidator::SendValidationEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::ValidationEventHandler*, ::Il2CppObject*, ::System::Xml::Schema::XmlSchemaValidationException*, ::System::Xml::Schema::XmlSeverityType)>(&System::Xml::Schema::XmlSchemaValidator::SendValidationEvent)> {
   static const MethodInfo* get() {
     static auto* eventHandler = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "ValidationEventHandler")->byval_arg;
     static auto* sender = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;

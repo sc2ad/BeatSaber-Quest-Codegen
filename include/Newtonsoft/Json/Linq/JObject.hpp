@@ -88,8 +88,8 @@ namespace Newtonsoft::Json::Linq {
   class JObject;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Linq::JObject);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Linq::JObject*, "Newtonsoft.Json.Linq", "JObject");
+NEED_NO_BOX(::Newtonsoft::Json::Linq::JObject);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Linq::JObject*, "Newtonsoft.Json.Linq", "JObject");
 // Type namespace: Newtonsoft.Json.Linq
 namespace Newtonsoft::Json::Linq {
   // Size: 0x68
@@ -99,13 +99,13 @@ namespace Newtonsoft::Json::Linq {
   // [DefaultMemberAttribute] Offset: 1203048
   // [NullableAttribute] Offset: 1203048
   // [NullableContextAttribute] Offset: 1203048
-  class JObject : public Newtonsoft::Json::Linq::JContainer/*, public System::Collections::Generic::IDictionary_2<::StringW, Newtonsoft::Json::Linq::JToken*>, public System::ComponentModel::ICustomTypeDescriptor*/ {
+  class JObject : public ::Newtonsoft::Json::Linq::JContainer/*, public ::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Linq::JToken*>, public ::System::ComponentModel::ICustomTypeDescriptor*/ {
     public:
     // Writing base type padding for base size: 0x49 to desired offset: 0x50
     char ___base_padding[0x7] = {};
-    // Nested type: Newtonsoft::Json::Linq::JObject::JObjectDynamicProxy
+    // Nested type: ::Newtonsoft::Json::Linq::JObject::JObjectDynamicProxy
     class JObjectDynamicProxy;
-    // Nested type: Newtonsoft::Json::Linq::JObject::$GetEnumerator$d__63
+    // Nested type: ::Newtonsoft::Json::Linq::JObject::$GetEnumerator$d__63
     class $GetEnumerator$d__63;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -119,78 +119,78 @@ namespace Newtonsoft::Json::Linq {
     // private readonly Newtonsoft.Json.Linq.JPropertyKeyedCollection _properties
     // Size: 0x8
     // Offset: 0x50
-    Newtonsoft::Json::Linq::JPropertyKeyedCollection* properties;
+    ::Newtonsoft::Json::Linq::JPropertyKeyedCollection* properties;
     // Field size check
-    static_assert(sizeof(Newtonsoft::Json::Linq::JPropertyKeyedCollection*) == 0x8);
+    static_assert(sizeof(::Newtonsoft::Json::Linq::JPropertyKeyedCollection*) == 0x8);
     // [NullableAttribute] Offset: 0x1206DEC
     // private System.ComponentModel.PropertyChangedEventHandler PropertyChanged
     // Size: 0x8
     // Offset: 0x58
-    System::ComponentModel::PropertyChangedEventHandler* PropertyChanged;
+    ::System::ComponentModel::PropertyChangedEventHandler* PropertyChanged;
     // Field size check
-    static_assert(sizeof(System::ComponentModel::PropertyChangedEventHandler*) == 0x8);
+    static_assert(sizeof(::System::ComponentModel::PropertyChangedEventHandler*) == 0x8);
     // [NullableAttribute] Offset: 0x1206E28
     // private System.ComponentModel.PropertyChangingEventHandler PropertyChanging
     // Size: 0x8
     // Offset: 0x60
-    System::ComponentModel::PropertyChangingEventHandler* PropertyChanging;
+    ::System::ComponentModel::PropertyChangingEventHandler* PropertyChanging;
     // Field size check
-    static_assert(sizeof(System::ComponentModel::PropertyChangingEventHandler*) == 0x8);
+    static_assert(sizeof(::System::ComponentModel::PropertyChangingEventHandler*) == 0x8);
     public:
-    // Creating interface conversion operator: operator System::Collections::Generic::IDictionary_2<::StringW, Newtonsoft::Json::Linq::JToken*>
-    operator System::Collections::Generic::IDictionary_2<::StringW, Newtonsoft::Json::Linq::JToken*>() noexcept {
-      return *reinterpret_cast<System::Collections::Generic::IDictionary_2<::StringW, Newtonsoft::Json::Linq::JToken*>*>(this);
+    // Creating interface conversion operator: operator ::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Linq::JToken*>
+    operator ::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Linq::JToken*>() noexcept {
+      return *reinterpret_cast<::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Linq::JToken*>*>(this);
     }
-    // Creating interface conversion operator: operator System::ComponentModel::ICustomTypeDescriptor
-    operator System::ComponentModel::ICustomTypeDescriptor() noexcept {
-      return *reinterpret_cast<System::ComponentModel::ICustomTypeDescriptor*>(this);
+    // Creating interface conversion operator: operator ::System::ComponentModel::ICustomTypeDescriptor
+    operator ::System::ComponentModel::ICustomTypeDescriptor() noexcept {
+      return *reinterpret_cast<::System::ComponentModel::ICustomTypeDescriptor*>(this);
     }
     // Get instance field reference: private readonly Newtonsoft.Json.Linq.JPropertyKeyedCollection _properties
-    Newtonsoft::Json::Linq::JPropertyKeyedCollection*& dyn__properties();
+    ::Newtonsoft::Json::Linq::JPropertyKeyedCollection*& dyn__properties();
     // Get instance field reference: private System.ComponentModel.PropertyChangedEventHandler PropertyChanged
-    System::ComponentModel::PropertyChangedEventHandler*& dyn_PropertyChanged();
+    ::System::ComponentModel::PropertyChangedEventHandler*& dyn_PropertyChanged();
     // Get instance field reference: private System.ComponentModel.PropertyChangingEventHandler PropertyChanging
-    System::ComponentModel::PropertyChangingEventHandler*& dyn_PropertyChanging();
+    ::System::ComponentModel::PropertyChangingEventHandler*& dyn_PropertyChanging();
     // public Newtonsoft.Json.Linq.JToken get_Item(System.String propertyName)
     // Offset: 0x1C4E9EC
-    Newtonsoft::Json::Linq::JToken* get_Item(::StringW propertyName);
+    ::Newtonsoft::Json::Linq::JToken* get_Item(::StringW propertyName);
     // public System.Void set_Item(System.String propertyName, Newtonsoft.Json.Linq.JToken value)
     // Offset: 0x1C4EA74
-    void set_Item(::StringW propertyName, Newtonsoft::Json::Linq::JToken* value);
+    void set_Item(::StringW propertyName, ::Newtonsoft::Json::Linq::JToken* value);
     // private System.Collections.Generic.ICollection`1<System.String> System.Collections.Generic.IDictionary<System.String,Newtonsoft.Json.Linq.JToken>.get_Keys()
     // Offset: 0x1C4F0A0
-    System::Collections::Generic::ICollection_1<::StringW>* System_Collections_Generic_IDictionary$System_String_Newtonsoft_Json_Linq_JToken$_get_Keys();
+    ::System::Collections::Generic::ICollection_1<::StringW>* System_Collections_Generic_IDictionary$System_String_Newtonsoft_Json_Linq_JToken$_get_Keys();
     // private System.Collections.Generic.ICollection`1<Newtonsoft.Json.Linq.JToken> System.Collections.Generic.IDictionary<System.String,Newtonsoft.Json.Linq.JToken>.get_Values()
     // Offset: 0x1C4F218
-    System::Collections::Generic::ICollection_1<Newtonsoft::Json::Linq::JToken*>* System_Collections_Generic_IDictionary$System_String_Newtonsoft_Json_Linq_JToken$_get_Values();
+    ::System::Collections::Generic::ICollection_1<::Newtonsoft::Json::Linq::JToken*>* System_Collections_Generic_IDictionary$System_String_Newtonsoft_Json_Linq_JToken$_get_Values();
     // private System.Boolean System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.get_IsReadOnly()
     // Offset: 0x1C4F73C
     bool System_Collections_Generic_ICollection$System_Collections_Generic_KeyValuePair$System_String_Newtonsoft_Json_Linq_JToken$$_get_IsReadOnly();
     // public System.Void .ctor(Newtonsoft.Json.Linq.JObject other)
     // Offset: 0x1C4E378
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static JObject* New_ctor(Newtonsoft::Json::Linq::JObject* other) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Linq::JObject::.ctor");
+    static JObject* New_ctor(::Newtonsoft::Json::Linq::JObject* other) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Linq::JObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JObject*, creationType>(other)));
     }
     // System.Void InternalPropertyChanged(Newtonsoft.Json.Linq.JProperty childProperty)
     // Offset: 0x1C4E7C8
-    void InternalPropertyChanged(Newtonsoft::Json::Linq::JProperty* childProperty);
+    void InternalPropertyChanged(::Newtonsoft::Json::Linq::JProperty* childProperty);
     // System.Void InternalPropertyChanging(Newtonsoft.Json.Linq.JProperty childProperty)
     // Offset: 0x1C4E910
-    void InternalPropertyChanging(Newtonsoft::Json::Linq::JProperty* childProperty);
+    void InternalPropertyChanging(::Newtonsoft::Json::Linq::JProperty* childProperty);
     // public System.Collections.Generic.IEnumerable`1<Newtonsoft.Json.Linq.JProperty> Properties()
     // Offset: 0x1C4E99C
-    System::Collections::Generic::IEnumerable_1<Newtonsoft::Json::Linq::JProperty*>* Properties();
+    ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JProperty*>* Properties();
     // public Newtonsoft.Json.Linq.JProperty Property(System.String name, System.StringComparison comparison)
     // Offset: 0x1C4DCAC
-    Newtonsoft::Json::Linq::JProperty* Property(::StringW name, System::StringComparison comparison);
+    ::Newtonsoft::Json::Linq::JProperty* Property(::StringW name, ::System::StringComparison comparison);
     // static public Newtonsoft.Json.Linq.JObject Load(Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Linq.JsonLoadSettings settings)
     // Offset: 0x1C4EC04
-    static Newtonsoft::Json::Linq::JObject* Load(Newtonsoft::Json::JsonReader* reader, Newtonsoft::Json::Linq::JsonLoadSettings* settings);
+    static ::Newtonsoft::Json::Linq::JObject* Load(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Linq::JsonLoadSettings* settings);
     // public System.Void Add(System.String propertyName, Newtonsoft.Json.Linq.JToken value)
     // Offset: 0x1C4EB80
-    void Add(::StringW propertyName, Newtonsoft::Json::Linq::JToken* value);
+    void Add(::StringW propertyName, ::Newtonsoft::Json::Linq::JToken* value);
     // public System.Boolean ContainsKey(System.String propertyName)
     // Offset: 0x1C4EF78
     bool ContainsKey(::StringW propertyName);
@@ -199,25 +199,25 @@ namespace Newtonsoft::Json::Linq {
     bool Remove(::StringW propertyName);
     // public System.Boolean TryGetValue(System.String propertyName, out Newtonsoft.Json.Linq.JToken value)
     // Offset: 0x1C4F1D0
-    bool TryGetValue(::StringW propertyName, ByRef<Newtonsoft::Json::Linq::JToken*> value);
+    bool TryGetValue(::StringW propertyName, ByRef<::Newtonsoft::Json::Linq::JToken*> value);
     // private System.Void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.Add(System.Collections.Generic.KeyValuePair`2<System.String,Newtonsoft.Json.Linq.JToken> item)
     // Offset: 0x1C4F278
-    void System_Collections_Generic_ICollection$System_Collections_Generic_KeyValuePair$System_String_Newtonsoft_Json_Linq_JToken$$_Add(System::Collections::Generic::KeyValuePair_2<::StringW, Newtonsoft::Json::Linq::JToken*> item);
+    void System_Collections_Generic_ICollection$System_Collections_Generic_KeyValuePair$System_String_Newtonsoft_Json_Linq_JToken$$_Add(::System::Collections::Generic::KeyValuePair_2<::StringW, ::Newtonsoft::Json::Linq::JToken*> item);
     // private System.Void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.Clear()
     // Offset: 0x1C4F2FC
     void System_Collections_Generic_ICollection$System_Collections_Generic_KeyValuePair$System_String_Newtonsoft_Json_Linq_JToken$$_Clear();
     // private System.Boolean System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.Contains(System.Collections.Generic.KeyValuePair`2<System.String,Newtonsoft.Json.Linq.JToken> item)
     // Offset: 0x1C4F30C
-    bool System_Collections_Generic_ICollection$System_Collections_Generic_KeyValuePair$System_String_Newtonsoft_Json_Linq_JToken$$_Contains(System::Collections::Generic::KeyValuePair_2<::StringW, Newtonsoft::Json::Linq::JToken*> item);
+    bool System_Collections_Generic_ICollection$System_Collections_Generic_KeyValuePair$System_String_Newtonsoft_Json_Linq_JToken$$_Contains(::System::Collections::Generic::KeyValuePair_2<::StringW, ::Newtonsoft::Json::Linq::JToken*> item);
     // private System.Void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.CopyTo(System.Collections.Generic.KeyValuePair`2<System.String,Newtonsoft.Json.Linq.JToken>[] array, System.Int32 arrayIndex)
     // Offset: 0x1C4F388
-    void System_Collections_Generic_ICollection$System_Collections_Generic_KeyValuePair$System_String_Newtonsoft_Json_Linq_JToken$$_CopyTo(::ArrayW<System::Collections::Generic::KeyValuePair_2<::StringW, Newtonsoft::Json::Linq::JToken*>> array, int arrayIndex);
+    void System_Collections_Generic_ICollection$System_Collections_Generic_KeyValuePair$System_String_Newtonsoft_Json_Linq_JToken$$_CopyTo(::ArrayW<::System::Collections::Generic::KeyValuePair_2<::StringW, ::Newtonsoft::Json::Linq::JToken*>> array, int arrayIndex);
     // private System.Boolean System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.Remove(System.Collections.Generic.KeyValuePair`2<System.String,Newtonsoft.Json.Linq.JToken> item)
     // Offset: 0x1C4F744
-    bool System_Collections_Generic_ICollection$System_Collections_Generic_KeyValuePair$System_String_Newtonsoft_Json_Linq_JToken$$_Remove(System::Collections::Generic::KeyValuePair_2<::StringW, Newtonsoft::Json::Linq::JToken*> item);
+    bool System_Collections_Generic_ICollection$System_Collections_Generic_KeyValuePair$System_String_Newtonsoft_Json_Linq_JToken$$_Remove(::System::Collections::Generic::KeyValuePair_2<::StringW, ::Newtonsoft::Json::Linq::JToken*> item);
     // public System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.String,Newtonsoft.Json.Linq.JToken>> GetEnumerator()
     // Offset: 0x1C4F888
-    System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<::StringW, Newtonsoft::Json::Linq::JToken*>>* GetEnumerator();
+    ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::Newtonsoft::Json::Linq::JToken*>>* GetEnumerator();
     // protected System.Void OnPropertyChanged(System.String propertyName)
     // Offset: 0x1C4F924
     void OnPropertyChanged(::StringW propertyName);
@@ -226,29 +226,29 @@ namespace Newtonsoft::Json::Linq {
     void OnPropertyChanging(::StringW propertyName);
     // private System.ComponentModel.PropertyDescriptorCollection System.ComponentModel.ICustomTypeDescriptor.GetProperties()
     // Offset: 0x1C4FA4C
-    System::ComponentModel::PropertyDescriptorCollection* System_ComponentModel_ICustomTypeDescriptor_GetProperties();
+    ::System::ComponentModel::PropertyDescriptorCollection* System_ComponentModel_ICustomTypeDescriptor_GetProperties();
     // private System.ComponentModel.PropertyDescriptorCollection System.ComponentModel.ICustomTypeDescriptor.GetProperties(System.Attribute[] attributes)
     // Offset: 0x1C4FAF8
-    System::ComponentModel::PropertyDescriptorCollection* System_ComponentModel_ICustomTypeDescriptor_GetProperties(::ArrayW<System::Attribute*> attributes);
+    ::System::ComponentModel::PropertyDescriptorCollection* System_ComponentModel_ICustomTypeDescriptor_GetProperties(::ArrayW<::System::Attribute*> attributes);
     // private System.ComponentModel.AttributeCollection System.ComponentModel.ICustomTypeDescriptor.GetAttributes()
     // Offset: 0x1C4FDBC
-    System::ComponentModel::AttributeCollection* System_ComponentModel_ICustomTypeDescriptor_GetAttributes();
+    ::System::ComponentModel::AttributeCollection* System_ComponentModel_ICustomTypeDescriptor_GetAttributes();
     // private System.ComponentModel.TypeConverter System.ComponentModel.ICustomTypeDescriptor.GetConverter()
     // Offset: 0x1C4FE24
-    System::ComponentModel::TypeConverter* System_ComponentModel_ICustomTypeDescriptor_GetConverter();
+    ::System::ComponentModel::TypeConverter* System_ComponentModel_ICustomTypeDescriptor_GetConverter();
     // private System.Object System.ComponentModel.ICustomTypeDescriptor.GetPropertyOwner(System.ComponentModel.PropertyDescriptor pd)
     // Offset: 0x1C4FE80
-    ::Il2CppObject* System_ComponentModel_ICustomTypeDescriptor_GetPropertyOwner(System::ComponentModel::PropertyDescriptor* pd);
+    ::Il2CppObject* System_ComponentModel_ICustomTypeDescriptor_GetPropertyOwner(::System::ComponentModel::PropertyDescriptor* pd);
     // protected override System.Collections.Generic.IList`1<Newtonsoft.Json.Linq.JToken> get_ChildrenTokens()
     // Offset: 0x1C4E2F8
     // Implemented from: Newtonsoft.Json.Linq.JContainer
     // Base method: System.Collections.Generic.IList`1<Newtonsoft.Json.Linq.JToken> JContainer::get_ChildrenTokens()
-    System::Collections::Generic::IList_1<Newtonsoft::Json::Linq::JToken*>* get_ChildrenTokens();
+    ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>* get_ChildrenTokens();
     // public override Newtonsoft.Json.Linq.JTokenType get_Type()
     // Offset: 0x1C4E994
     // Implemented from: Newtonsoft.Json.Linq.JToken
     // Base method: Newtonsoft.Json.Linq.JTokenType JToken::get_Type()
-    Newtonsoft::Json::Linq::JTokenType get_Type();
+    ::Newtonsoft::Json::Linq::JTokenType get_Type();
     // public System.Void .ctor()
     // Offset: 0x1C4DA48
     // Implemented from: Newtonsoft.Json.Linq.JContainer
@@ -257,49 +257,49 @@ namespace Newtonsoft::Json::Linq {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JObject* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Linq::JObject::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Linq::JObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JObject*, creationType>()));
     }
     // override System.Int32 IndexOfItem(Newtonsoft.Json.Linq.JToken item)
     // Offset: 0x1C4E3E8
     // Implemented from: Newtonsoft.Json.Linq.JContainer
     // Base method: System.Int32 JContainer::IndexOfItem(Newtonsoft.Json.Linq.JToken item)
-    int IndexOfItem(Newtonsoft::Json::Linq::JToken* item);
+    int IndexOfItem(::Newtonsoft::Json::Linq::JToken* item);
     // override System.Void InsertItem(System.Int32 index, Newtonsoft.Json.Linq.JToken item, System.Boolean skipParentCheck)
     // Offset: 0x1C4E4A8
     // Implemented from: Newtonsoft.Json.Linq.JContainer
     // Base method: System.Void JContainer::InsertItem(System.Int32 index, Newtonsoft.Json.Linq.JToken item, System.Boolean skipParentCheck)
-    void InsertItem(int index, Newtonsoft::Json::Linq::JToken* item, bool skipParentCheck);
+    void InsertItem(int index, ::Newtonsoft::Json::Linq::JToken* item, bool skipParentCheck);
     // override System.Void ValidateToken(Newtonsoft.Json.Linq.JToken o, Newtonsoft.Json.Linq.JToken existing)
     // Offset: 0x1C4E514
     // Implemented from: Newtonsoft.Json.Linq.JContainer
     // Base method: System.Void JContainer::ValidateToken(Newtonsoft.Json.Linq.JToken o, Newtonsoft.Json.Linq.JToken existing)
-    void ValidateToken(Newtonsoft::Json::Linq::JToken* o, Newtonsoft::Json::Linq::JToken* existing);
+    void ValidateToken(::Newtonsoft::Json::Linq::JToken* o, ::Newtonsoft::Json::Linq::JToken* existing);
     // override Newtonsoft.Json.Linq.JToken CloneToken()
     // Offset: 0x1C4E934
     // Implemented from: Newtonsoft.Json.Linq.JToken
     // Base method: Newtonsoft.Json.Linq.JToken JToken::CloneToken()
-    Newtonsoft::Json::Linq::JToken* CloneToken();
+    ::Newtonsoft::Json::Linq::JToken* CloneToken();
     // public override System.Void WriteTo(Newtonsoft.Json.JsonWriter writer, params Newtonsoft.Json.JsonConverter[] converters)
     // Offset: 0x1C4EDC0
     // Implemented from: Newtonsoft.Json.Linq.JToken
     // Base method: System.Void JToken::WriteTo(Newtonsoft.Json.JsonWriter writer, params Newtonsoft.Json.JsonConverter[] converters)
-    void WriteTo(Newtonsoft::Json::JsonWriter* writer, ::ArrayW<Newtonsoft::Json::JsonConverter*> converters);
+    void WriteTo(::Newtonsoft::Json::JsonWriter* writer, ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters);
     // protected override System.Dynamic.DynamicMetaObject GetMetaObject(System.Linq.Expressions.Expression parameter)
     // Offset: 0x1C4FF0C
     // Implemented from: Newtonsoft.Json.Linq.JToken
     // Base method: System.Dynamic.DynamicMetaObject JToken::GetMetaObject(System.Linq.Expressions.Expression parameter)
-    System::Dynamic::DynamicMetaObject* GetMetaObject(System::Linq::Expressions::Expression* parameter);
+    ::System::Dynamic::DynamicMetaObject* GetMetaObject(::System::Linq::Expressions::Expression* parameter);
   }; // Newtonsoft.Json.Linq.JObject
   #pragma pack(pop)
-  static check_size<sizeof(JObject), 96 + sizeof(System::ComponentModel::PropertyChangingEventHandler*)> __Newtonsoft_Json_Linq_JObjectSizeCheck;
+  static check_size<sizeof(JObject), 96 + sizeof(::System::ComponentModel::PropertyChangingEventHandler*)> __Newtonsoft_Json_Linq_JObjectSizeCheck;
   static_assert(sizeof(JObject) == 0x68);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JObject::get_Item
 // Il2CppName: get_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Linq::JToken* (Newtonsoft::Json::Linq::JObject::*)(::StringW)>(&Newtonsoft::Json::Linq::JObject::get_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Linq::JToken* (Newtonsoft::Json::Linq::JObject::*)(::StringW)>(&Newtonsoft::Json::Linq::JObject::get_Item)> {
   static const MethodInfo* get() {
     static auto* propertyName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JObject*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{propertyName});
@@ -308,7 +308,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft:
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JObject::set_Item
 // Il2CppName: set_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Linq::JObject::*)(::StringW, Newtonsoft::Json::Linq::JToken*)>(&Newtonsoft::Json::Linq::JObject::set_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Linq::JObject::*)(::StringW, ::Newtonsoft::Json::Linq::JToken*)>(&Newtonsoft::Json::Linq::JObject::set_Item)> {
   static const MethodInfo* get() {
     static auto* propertyName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Linq", "JToken")->byval_arg;
@@ -318,7 +318,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JObject::System_Collections_Generic_IDictionary$System_String_Newtonsoft_Json_Linq_JToken$_get_Keys
 // Il2CppName: System.Collections.Generic.IDictionary<System.String,Newtonsoft.Json.Linq.JToken>.get_Keys
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::ICollection_1<::StringW>* (Newtonsoft::Json::Linq::JObject::*)()>(&Newtonsoft::Json::Linq::JObject::System_Collections_Generic_IDictionary$System_String_Newtonsoft_Json_Linq_JToken$_get_Keys)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::ICollection_1<::StringW>* (Newtonsoft::Json::Linq::JObject::*)()>(&Newtonsoft::Json::Linq::JObject::System_Collections_Generic_IDictionary$System_String_Newtonsoft_Json_Linq_JToken$_get_Keys)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JObject*), "System.Collections.Generic.IDictionary<System.String,Newtonsoft.Json.Linq.JToken>.get_Keys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -326,7 +326,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JObject::System_Collections_Generic_IDictionary$System_String_Newtonsoft_Json_Linq_JToken$_get_Values
 // Il2CppName: System.Collections.Generic.IDictionary<System.String,Newtonsoft.Json.Linq.JToken>.get_Values
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::ICollection_1<Newtonsoft::Json::Linq::JToken*>* (Newtonsoft::Json::Linq::JObject::*)()>(&Newtonsoft::Json::Linq::JObject::System_Collections_Generic_IDictionary$System_String_Newtonsoft_Json_Linq_JToken$_get_Values)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::ICollection_1<::Newtonsoft::Json::Linq::JToken*>* (Newtonsoft::Json::Linq::JObject::*)()>(&Newtonsoft::Json::Linq::JObject::System_Collections_Generic_IDictionary$System_String_Newtonsoft_Json_Linq_JToken$_get_Values)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JObject*), "System.Collections.Generic.IDictionary<System.String,Newtonsoft.Json.Linq.JToken>.get_Values", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -346,7 +346,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JObject::InternalPropertyChanged
 // Il2CppName: InternalPropertyChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Linq::JObject::*)(Newtonsoft::Json::Linq::JProperty*)>(&Newtonsoft::Json::Linq::JObject::InternalPropertyChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Linq::JObject::*)(::Newtonsoft::Json::Linq::JProperty*)>(&Newtonsoft::Json::Linq::JObject::InternalPropertyChanged)> {
   static const MethodInfo* get() {
     static auto* childProperty = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Linq", "JProperty")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JObject*), "InternalPropertyChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{childProperty});
@@ -355,7 +355,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JObject::InternalPropertyChanging
 // Il2CppName: InternalPropertyChanging
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Linq::JObject::*)(Newtonsoft::Json::Linq::JProperty*)>(&Newtonsoft::Json::Linq::JObject::InternalPropertyChanging)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Linq::JObject::*)(::Newtonsoft::Json::Linq::JProperty*)>(&Newtonsoft::Json::Linq::JObject::InternalPropertyChanging)> {
   static const MethodInfo* get() {
     static auto* childProperty = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Linq", "JProperty")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JObject*), "InternalPropertyChanging", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{childProperty});
@@ -364,7 +364,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JObject::Properties
 // Il2CppName: Properties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<Newtonsoft::Json::Linq::JProperty*>* (Newtonsoft::Json::Linq::JObject::*)()>(&Newtonsoft::Json::Linq::JObject::Properties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JProperty*>* (Newtonsoft::Json::Linq::JObject::*)()>(&Newtonsoft::Json::Linq::JObject::Properties)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JObject*), "Properties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -372,7 +372,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JObject::Property
 // Il2CppName: Property
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Linq::JProperty* (Newtonsoft::Json::Linq::JObject::*)(::StringW, System::StringComparison)>(&Newtonsoft::Json::Linq::JObject::Property)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Linq::JProperty* (Newtonsoft::Json::Linq::JObject::*)(::StringW, ::System::StringComparison)>(&Newtonsoft::Json::Linq::JObject::Property)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* comparison = &::il2cpp_utils::GetClassFromName("System", "StringComparison")->byval_arg;
@@ -382,7 +382,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft:
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JObject::Load
 // Il2CppName: Load
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Linq::JObject* (*)(Newtonsoft::Json::JsonReader*, Newtonsoft::Json::Linq::JsonLoadSettings*)>(&Newtonsoft::Json::Linq::JObject::Load)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Linq::JObject* (*)(::Newtonsoft::Json::JsonReader*, ::Newtonsoft::Json::Linq::JsonLoadSettings*)>(&Newtonsoft::Json::Linq::JObject::Load)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonReader")->byval_arg;
     static auto* settings = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Linq", "JsonLoadSettings")->byval_arg;
@@ -392,7 +392,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft:
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JObject::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Linq::JObject::*)(::StringW, Newtonsoft::Json::Linq::JToken*)>(&Newtonsoft::Json::Linq::JObject::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Linq::JObject::*)(::StringW, ::Newtonsoft::Json::Linq::JToken*)>(&Newtonsoft::Json::Linq::JObject::Add)> {
   static const MethodInfo* get() {
     static auto* propertyName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Linq", "JToken")->byval_arg;
@@ -420,7 +420,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JObject::TryGetValue
 // Il2CppName: TryGetValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Linq::JObject::*)(::StringW, ByRef<Newtonsoft::Json::Linq::JToken*>)>(&Newtonsoft::Json::Linq::JObject::TryGetValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Linq::JObject::*)(::StringW, ByRef<::Newtonsoft::Json::Linq::JToken*>)>(&Newtonsoft::Json::Linq::JObject::TryGetValue)> {
   static const MethodInfo* get() {
     static auto* propertyName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Linq", "JToken")->this_arg;
@@ -430,7 +430,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JObject::System_Collections_Generic_ICollection$System_Collections_Generic_KeyValuePair$System_String_Newtonsoft_Json_Linq_JToken$$_Add
 // Il2CppName: System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Linq::JObject::*)(System::Collections::Generic::KeyValuePair_2<::StringW, Newtonsoft::Json::Linq::JToken*>)>(&Newtonsoft::Json::Linq::JObject::System_Collections_Generic_ICollection$System_Collections_Generic_KeyValuePair$System_String_Newtonsoft_Json_Linq_JToken$$_Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Linq::JObject::*)(::System::Collections::Generic::KeyValuePair_2<::StringW, ::Newtonsoft::Json::Linq::JToken*>)>(&Newtonsoft::Json::Linq::JObject::System_Collections_Generic_ICollection$System_Collections_Generic_KeyValuePair$System_String_Newtonsoft_Json_Linq_JToken$$_Add)> {
   static const MethodInfo* get() {
     static auto* item = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "KeyValuePair`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Linq", "JToken")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JObject*), "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{item});
@@ -447,7 +447,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JObject::System_Collections_Generic_ICollection$System_Collections_Generic_KeyValuePair$System_String_Newtonsoft_Json_Linq_JToken$$_Contains
 // Il2CppName: System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.Contains
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Linq::JObject::*)(System::Collections::Generic::KeyValuePair_2<::StringW, Newtonsoft::Json::Linq::JToken*>)>(&Newtonsoft::Json::Linq::JObject::System_Collections_Generic_ICollection$System_Collections_Generic_KeyValuePair$System_String_Newtonsoft_Json_Linq_JToken$$_Contains)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Linq::JObject::*)(::System::Collections::Generic::KeyValuePair_2<::StringW, ::Newtonsoft::Json::Linq::JToken*>)>(&Newtonsoft::Json::Linq::JObject::System_Collections_Generic_ICollection$System_Collections_Generic_KeyValuePair$System_String_Newtonsoft_Json_Linq_JToken$$_Contains)> {
   static const MethodInfo* get() {
     static auto* item = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "KeyValuePair`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Linq", "JToken")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JObject*), "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{item});
@@ -456,7 +456,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JObject::System_Collections_Generic_ICollection$System_Collections_Generic_KeyValuePair$System_String_Newtonsoft_Json_Linq_JToken$$_CopyTo
 // Il2CppName: System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.CopyTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Linq::JObject::*)(::ArrayW<System::Collections::Generic::KeyValuePair_2<::StringW, Newtonsoft::Json::Linq::JToken*>>, int)>(&Newtonsoft::Json::Linq::JObject::System_Collections_Generic_ICollection$System_Collections_Generic_KeyValuePair$System_String_Newtonsoft_Json_Linq_JToken$$_CopyTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Linq::JObject::*)(::ArrayW<::System::Collections::Generic::KeyValuePair_2<::StringW, ::Newtonsoft::Json::Linq::JToken*>>, int)>(&Newtonsoft::Json::Linq::JObject::System_Collections_Generic_ICollection$System_Collections_Generic_KeyValuePair$System_String_Newtonsoft_Json_Linq_JToken$$_CopyTo)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "KeyValuePair`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Linq", "JToken")}), 1)->byval_arg;
     static auto* arrayIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -466,7 +466,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JObject::System_Collections_Generic_ICollection$System_Collections_Generic_KeyValuePair$System_String_Newtonsoft_Json_Linq_JToken$$_Remove
 // Il2CppName: System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.Remove
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Linq::JObject::*)(System::Collections::Generic::KeyValuePair_2<::StringW, Newtonsoft::Json::Linq::JToken*>)>(&Newtonsoft::Json::Linq::JObject::System_Collections_Generic_ICollection$System_Collections_Generic_KeyValuePair$System_String_Newtonsoft_Json_Linq_JToken$$_Remove)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Linq::JObject::*)(::System::Collections::Generic::KeyValuePair_2<::StringW, ::Newtonsoft::Json::Linq::JToken*>)>(&Newtonsoft::Json::Linq::JObject::System_Collections_Generic_ICollection$System_Collections_Generic_KeyValuePair$System_String_Newtonsoft_Json_Linq_JToken$$_Remove)> {
   static const MethodInfo* get() {
     static auto* item = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "KeyValuePair`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Linq", "JToken")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JObject*), "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{item});
@@ -475,7 +475,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JObject::GetEnumerator
 // Il2CppName: GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<::StringW, Newtonsoft::Json::Linq::JToken*>>* (Newtonsoft::Json::Linq::JObject::*)()>(&Newtonsoft::Json::Linq::JObject::GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::Newtonsoft::Json::Linq::JToken*>>* (Newtonsoft::Json::Linq::JObject::*)()>(&Newtonsoft::Json::Linq::JObject::GetEnumerator)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JObject*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -501,7 +501,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JObject::System_ComponentModel_ICustomTypeDescriptor_GetProperties
 // Il2CppName: System.ComponentModel.ICustomTypeDescriptor.GetProperties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ComponentModel::PropertyDescriptorCollection* (Newtonsoft::Json::Linq::JObject::*)()>(&Newtonsoft::Json::Linq::JObject::System_ComponentModel_ICustomTypeDescriptor_GetProperties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::PropertyDescriptorCollection* (Newtonsoft::Json::Linq::JObject::*)()>(&Newtonsoft::Json::Linq::JObject::System_ComponentModel_ICustomTypeDescriptor_GetProperties)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JObject*), "System.ComponentModel.ICustomTypeDescriptor.GetProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -509,7 +509,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Com
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JObject::System_ComponentModel_ICustomTypeDescriptor_GetProperties
 // Il2CppName: System.ComponentModel.ICustomTypeDescriptor.GetProperties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ComponentModel::PropertyDescriptorCollection* (Newtonsoft::Json::Linq::JObject::*)(::ArrayW<System::Attribute*>)>(&Newtonsoft::Json::Linq::JObject::System_ComponentModel_ICustomTypeDescriptor_GetProperties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::PropertyDescriptorCollection* (Newtonsoft::Json::Linq::JObject::*)(::ArrayW<::System::Attribute*>)>(&Newtonsoft::Json::Linq::JObject::System_ComponentModel_ICustomTypeDescriptor_GetProperties)> {
   static const MethodInfo* get() {
     static auto* attributes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Attribute"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JObject*), "System.ComponentModel.ICustomTypeDescriptor.GetProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attributes});
@@ -518,7 +518,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Com
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JObject::System_ComponentModel_ICustomTypeDescriptor_GetAttributes
 // Il2CppName: System.ComponentModel.ICustomTypeDescriptor.GetAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ComponentModel::AttributeCollection* (Newtonsoft::Json::Linq::JObject::*)()>(&Newtonsoft::Json::Linq::JObject::System_ComponentModel_ICustomTypeDescriptor_GetAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::AttributeCollection* (Newtonsoft::Json::Linq::JObject::*)()>(&Newtonsoft::Json::Linq::JObject::System_ComponentModel_ICustomTypeDescriptor_GetAttributes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JObject*), "System.ComponentModel.ICustomTypeDescriptor.GetAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -526,7 +526,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Com
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JObject::System_ComponentModel_ICustomTypeDescriptor_GetConverter
 // Il2CppName: System.ComponentModel.ICustomTypeDescriptor.GetConverter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ComponentModel::TypeConverter* (Newtonsoft::Json::Linq::JObject::*)()>(&Newtonsoft::Json::Linq::JObject::System_ComponentModel_ICustomTypeDescriptor_GetConverter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::TypeConverter* (Newtonsoft::Json::Linq::JObject::*)()>(&Newtonsoft::Json::Linq::JObject::System_ComponentModel_ICustomTypeDescriptor_GetConverter)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JObject*), "System.ComponentModel.ICustomTypeDescriptor.GetConverter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -534,7 +534,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Com
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JObject::System_ComponentModel_ICustomTypeDescriptor_GetPropertyOwner
 // Il2CppName: System.ComponentModel.ICustomTypeDescriptor.GetPropertyOwner
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Newtonsoft::Json::Linq::JObject::*)(System::ComponentModel::PropertyDescriptor*)>(&Newtonsoft::Json::Linq::JObject::System_ComponentModel_ICustomTypeDescriptor_GetPropertyOwner)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Newtonsoft::Json::Linq::JObject::*)(::System::ComponentModel::PropertyDescriptor*)>(&Newtonsoft::Json::Linq::JObject::System_ComponentModel_ICustomTypeDescriptor_GetPropertyOwner)> {
   static const MethodInfo* get() {
     static auto* pd = &::il2cpp_utils::GetClassFromName("System.ComponentModel", "PropertyDescriptor")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JObject*), "System.ComponentModel.ICustomTypeDescriptor.GetPropertyOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pd});
@@ -543,7 +543,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JObject::get_ChildrenTokens
 // Il2CppName: get_ChildrenTokens
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<Newtonsoft::Json::Linq::JToken*>* (Newtonsoft::Json::Linq::JObject::*)()>(&Newtonsoft::Json::Linq::JObject::get_ChildrenTokens)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>* (Newtonsoft::Json::Linq::JObject::*)()>(&Newtonsoft::Json::Linq::JObject::get_ChildrenTokens)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JObject*), "get_ChildrenTokens", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -551,7 +551,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JObject::get_Type
 // Il2CppName: get_Type
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Linq::JTokenType (Newtonsoft::Json::Linq::JObject::*)()>(&Newtonsoft::Json::Linq::JObject::get_Type)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Linq::JTokenType (Newtonsoft::Json::Linq::JObject::*)()>(&Newtonsoft::Json::Linq::JObject::get_Type)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JObject*), "get_Type", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -563,7 +563,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft:
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JObject::IndexOfItem
 // Il2CppName: IndexOfItem
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Newtonsoft::Json::Linq::JObject::*)(Newtonsoft::Json::Linq::JToken*)>(&Newtonsoft::Json::Linq::JObject::IndexOfItem)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Newtonsoft::Json::Linq::JObject::*)(::Newtonsoft::Json::Linq::JToken*)>(&Newtonsoft::Json::Linq::JObject::IndexOfItem)> {
   static const MethodInfo* get() {
     static auto* item = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Linq", "JToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JObject*), "IndexOfItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{item});
@@ -572,7 +572,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Newton
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JObject::InsertItem
 // Il2CppName: InsertItem
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Linq::JObject::*)(int, Newtonsoft::Json::Linq::JToken*, bool)>(&Newtonsoft::Json::Linq::JObject::InsertItem)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Linq::JObject::*)(int, ::Newtonsoft::Json::Linq::JToken*, bool)>(&Newtonsoft::Json::Linq::JObject::InsertItem)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* item = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Linq", "JToken")->byval_arg;
@@ -583,7 +583,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JObject::ValidateToken
 // Il2CppName: ValidateToken
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Linq::JObject::*)(Newtonsoft::Json::Linq::JToken*, Newtonsoft::Json::Linq::JToken*)>(&Newtonsoft::Json::Linq::JObject::ValidateToken)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Linq::JObject::*)(::Newtonsoft::Json::Linq::JToken*, ::Newtonsoft::Json::Linq::JToken*)>(&Newtonsoft::Json::Linq::JObject::ValidateToken)> {
   static const MethodInfo* get() {
     static auto* o = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Linq", "JToken")->byval_arg;
     static auto* existing = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Linq", "JToken")->byval_arg;
@@ -593,7 +593,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JObject::CloneToken
 // Il2CppName: CloneToken
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Linq::JToken* (Newtonsoft::Json::Linq::JObject::*)()>(&Newtonsoft::Json::Linq::JObject::CloneToken)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Linq::JToken* (Newtonsoft::Json::Linq::JObject::*)()>(&Newtonsoft::Json::Linq::JObject::CloneToken)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JObject*), "CloneToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -601,7 +601,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft:
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JObject::WriteTo
 // Il2CppName: WriteTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Linq::JObject::*)(Newtonsoft::Json::JsonWriter*, ::ArrayW<Newtonsoft::Json::JsonConverter*>)>(&Newtonsoft::Json::Linq::JObject::WriteTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Linq::JObject::*)(::Newtonsoft::Json::JsonWriter*, ::ArrayW<::Newtonsoft::Json::JsonConverter*>)>(&Newtonsoft::Json::Linq::JObject::WriteTo)> {
   static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonWriter")->byval_arg;
     static auto* converters = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonConverter"), 1)->byval_arg;
@@ -611,7 +611,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JObject::GetMetaObject
 // Il2CppName: GetMetaObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dynamic::DynamicMetaObject* (Newtonsoft::Json::Linq::JObject::*)(System::Linq::Expressions::Expression*)>(&Newtonsoft::Json::Linq::JObject::GetMetaObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::DynamicMetaObject* (Newtonsoft::Json::Linq::JObject::*)(::System::Linq::Expressions::Expression*)>(&Newtonsoft::Json::Linq::JObject::GetMetaObject)> {
   static const MethodInfo* get() {
     static auto* parameter = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JObject*), "GetMetaObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{parameter});

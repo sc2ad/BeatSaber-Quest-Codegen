@@ -19,8 +19,8 @@ namespace Zenject {
   class StaticContext;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::StaticContext);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::StaticContext*, "Zenject", "StaticContext");
+NEED_NO_BOX(::Zenject::StaticContext);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::StaticContext*, "Zenject", "StaticContext");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x10
@@ -30,15 +30,15 @@ namespace Zenject {
   class StaticContext : public ::Il2CppObject {
     public:
     // Get static field: static private Zenject.DiContainer _container
-    static Zenject::DiContainer* _get__container();
+    static ::Zenject::DiContainer* _get__container();
     // Set static field: static private Zenject.DiContainer _container
-    static void _set__container(Zenject::DiContainer* value);
+    static void _set__container(::Zenject::DiContainer* value);
     // static public System.Boolean get_HasContainer()
     // Offset: 0x2465A80
     static bool get_HasContainer();
     // static public Zenject.DiContainer get_Container()
     // Offset: 0x2465AD8
-    static Zenject::DiContainer* get_Container();
+    static ::Zenject::DiContainer* get_Container();
     // static public System.Void Clear()
     // Offset: 0x2465A30
     static void Clear();
@@ -57,7 +57,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Writing MetadataGetter for method: Zenject::StaticContext::get_Container
 // Il2CppName: get_Container
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (*)()>(&Zenject::StaticContext::get_Container)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::DiContainer* (*)()>(&Zenject::StaticContext::get_Container)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::StaticContext*), "get_Container", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

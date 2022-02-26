@@ -14,8 +14,8 @@ namespace System::IO {
   class FileSystemEnumerableHelpers;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::IO::FileSystemEnumerableHelpers);
-DEFINE_IL2CPP_ARG_TYPE(System::IO::FileSystemEnumerableHelpers*, "System.IO", "FileSystemEnumerableHelpers");
+NEED_NO_BOX(::System::IO::FileSystemEnumerableHelpers);
+DEFINE_IL2CPP_ARG_TYPE(::System::IO::FileSystemEnumerableHelpers*, "System.IO", "FileSystemEnumerableHelpers");
 // Type namespace: System.IO
 namespace System::IO {
   // Size: 0x10
@@ -26,10 +26,10 @@ namespace System::IO {
     public:
     // static System.Boolean IsDir(Microsoft.Win32.Win32Native/Microsoft.Win32.WIN32_FIND_DATA data)
     // Offset: 0x1F80D2C
-    static bool IsDir(Microsoft::Win32::Win32Native::WIN32_FIND_DATA* data);
+    static bool IsDir(::Microsoft::Win32::Win32Native::WIN32_FIND_DATA* data);
     // static System.Boolean IsFile(Microsoft.Win32.Win32Native/Microsoft.Win32.WIN32_FIND_DATA data)
     // Offset: 0x1F80DC8
-    static bool IsFile(Microsoft::Win32::Win32Native::WIN32_FIND_DATA* data);
+    static bool IsFile(::Microsoft::Win32::Win32Native::WIN32_FIND_DATA* data);
   }; // System.IO.FileSystemEnumerableHelpers
   #pragma pack(pop)
 }
@@ -37,7 +37,7 @@ namespace System::IO {
 // Writing MetadataGetter for method: System::IO::FileSystemEnumerableHelpers::IsDir
 // Il2CppName: IsDir
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Microsoft::Win32::Win32Native::WIN32_FIND_DATA*)>(&System::IO::FileSystemEnumerableHelpers::IsDir)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Microsoft::Win32::Win32Native::WIN32_FIND_DATA*)>(&System::IO::FileSystemEnumerableHelpers::IsDir)> {
   static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("Microsoft.Win32", "Win32Native/WIN32_FIND_DATA")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::FileSystemEnumerableHelpers*), "IsDir", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});
@@ -46,7 +46,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Mi
 // Writing MetadataGetter for method: System::IO::FileSystemEnumerableHelpers::IsFile
 // Il2CppName: IsFile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Microsoft::Win32::Win32Native::WIN32_FIND_DATA*)>(&System::IO::FileSystemEnumerableHelpers::IsFile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Microsoft::Win32::Win32Native::WIN32_FIND_DATA*)>(&System::IO::FileSystemEnumerableHelpers::IsFile)> {
   static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("Microsoft.Win32", "Win32Native/WIN32_FIND_DATA")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::FileSystemEnumerableHelpers*), "IsFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});

@@ -32,8 +32,8 @@ namespace RootMotion {
   class BakerTransform;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::BakerTransform);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::BakerTransform*, "RootMotion", "BakerTransform");
+NEED_NO_BOX(::RootMotion::BakerTransform);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::BakerTransform*, "RootMotion", "BakerTransform");
 // Type namespace: RootMotion
 namespace RootMotion {
   // Size: 0x7C
@@ -54,51 +54,51 @@ namespace RootMotion {
     // public UnityEngine.Transform transform
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::Transform* transform;
+    ::UnityEngine::Transform* transform;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // public UnityEngine.AnimationCurve posX
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::AnimationCurve* posX;
+    ::UnityEngine::AnimationCurve* posX;
     // Field size check
-    static_assert(sizeof(UnityEngine::AnimationCurve*) == 0x8);
+    static_assert(sizeof(::UnityEngine::AnimationCurve*) == 0x8);
     // public UnityEngine.AnimationCurve posY
     // Size: 0x8
     // Offset: 0x20
-    UnityEngine::AnimationCurve* posY;
+    ::UnityEngine::AnimationCurve* posY;
     // Field size check
-    static_assert(sizeof(UnityEngine::AnimationCurve*) == 0x8);
+    static_assert(sizeof(::UnityEngine::AnimationCurve*) == 0x8);
     // public UnityEngine.AnimationCurve posZ
     // Size: 0x8
     // Offset: 0x28
-    UnityEngine::AnimationCurve* posZ;
+    ::UnityEngine::AnimationCurve* posZ;
     // Field size check
-    static_assert(sizeof(UnityEngine::AnimationCurve*) == 0x8);
+    static_assert(sizeof(::UnityEngine::AnimationCurve*) == 0x8);
     // public UnityEngine.AnimationCurve rotX
     // Size: 0x8
     // Offset: 0x30
-    UnityEngine::AnimationCurve* rotX;
+    ::UnityEngine::AnimationCurve* rotX;
     // Field size check
-    static_assert(sizeof(UnityEngine::AnimationCurve*) == 0x8);
+    static_assert(sizeof(::UnityEngine::AnimationCurve*) == 0x8);
     // public UnityEngine.AnimationCurve rotY
     // Size: 0x8
     // Offset: 0x38
-    UnityEngine::AnimationCurve* rotY;
+    ::UnityEngine::AnimationCurve* rotY;
     // Field size check
-    static_assert(sizeof(UnityEngine::AnimationCurve*) == 0x8);
+    static_assert(sizeof(::UnityEngine::AnimationCurve*) == 0x8);
     // public UnityEngine.AnimationCurve rotZ
     // Size: 0x8
     // Offset: 0x40
-    UnityEngine::AnimationCurve* rotZ;
+    ::UnityEngine::AnimationCurve* rotZ;
     // Field size check
-    static_assert(sizeof(UnityEngine::AnimationCurve*) == 0x8);
+    static_assert(sizeof(::UnityEngine::AnimationCurve*) == 0x8);
     // public UnityEngine.AnimationCurve rotW
     // Size: 0x8
     // Offset: 0x48
-    UnityEngine::AnimationCurve* rotW;
+    ::UnityEngine::AnimationCurve* rotW;
     // Field size check
-    static_assert(sizeof(UnityEngine::AnimationCurve*) == 0x8);
+    static_assert(sizeof(::UnityEngine::AnimationCurve*) == 0x8);
     // private System.String relativePath
     // Size: 0x8
     // Offset: 0x50
@@ -116,9 +116,9 @@ namespace RootMotion {
     // private UnityEngine.Vector3 relativePosition
     // Size: 0xC
     // Offset: 0x5C
-    UnityEngine::Vector3 relativePosition;
+    ::UnityEngine::Vector3 relativePosition;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // private System.Boolean isRootNode
     // Size: 0x1
     // Offset: 0x68
@@ -130,52 +130,52 @@ namespace RootMotion {
     // private UnityEngine.Quaternion relativeRotation
     // Size: 0x10
     // Offset: 0x6C
-    UnityEngine::Quaternion relativeRotation;
+    ::UnityEngine::Quaternion relativeRotation;
     // Field size check
-    static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    static_assert(sizeof(::UnityEngine::Quaternion) == 0x10);
     public:
     // Get instance field reference: public UnityEngine.Transform transform
-    UnityEngine::Transform*& dyn_transform();
+    ::UnityEngine::Transform*& dyn_transform();
     // Get instance field reference: public UnityEngine.AnimationCurve posX
-    UnityEngine::AnimationCurve*& dyn_posX();
+    ::UnityEngine::AnimationCurve*& dyn_posX();
     // Get instance field reference: public UnityEngine.AnimationCurve posY
-    UnityEngine::AnimationCurve*& dyn_posY();
+    ::UnityEngine::AnimationCurve*& dyn_posY();
     // Get instance field reference: public UnityEngine.AnimationCurve posZ
-    UnityEngine::AnimationCurve*& dyn_posZ();
+    ::UnityEngine::AnimationCurve*& dyn_posZ();
     // Get instance field reference: public UnityEngine.AnimationCurve rotX
-    UnityEngine::AnimationCurve*& dyn_rotX();
+    ::UnityEngine::AnimationCurve*& dyn_rotX();
     // Get instance field reference: public UnityEngine.AnimationCurve rotY
-    UnityEngine::AnimationCurve*& dyn_rotY();
+    ::UnityEngine::AnimationCurve*& dyn_rotY();
     // Get instance field reference: public UnityEngine.AnimationCurve rotZ
-    UnityEngine::AnimationCurve*& dyn_rotZ();
+    ::UnityEngine::AnimationCurve*& dyn_rotZ();
     // Get instance field reference: public UnityEngine.AnimationCurve rotW
-    UnityEngine::AnimationCurve*& dyn_rotW();
+    ::UnityEngine::AnimationCurve*& dyn_rotW();
     // Get instance field reference: private System.String relativePath
     ::StringW& dyn_relativePath();
     // Get instance field reference: private System.Boolean recordPosition
     bool& dyn_recordPosition();
     // Get instance field reference: private UnityEngine.Vector3 relativePosition
-    UnityEngine::Vector3& dyn_relativePosition();
+    ::UnityEngine::Vector3& dyn_relativePosition();
     // Get instance field reference: private System.Boolean isRootNode
     bool& dyn_isRootNode();
     // Get instance field reference: private UnityEngine.Quaternion relativeRotation
-    UnityEngine::Quaternion& dyn_relativeRotation();
+    ::UnityEngine::Quaternion& dyn_relativeRotation();
     // public System.Void .ctor(UnityEngine.Transform transform, UnityEngine.Transform root, System.Boolean recordPosition, System.Boolean isRootNode)
     // Offset: 0x221F800
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BakerTransform* New_ctor(UnityEngine::Transform* transform, UnityEngine::Transform* root, bool recordPosition, bool isRootNode) {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::BakerTransform::.ctor");
+    static BakerTransform* New_ctor(::UnityEngine::Transform* transform, ::UnityEngine::Transform* root, bool recordPosition, bool isRootNode) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::BakerTransform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BakerTransform*, creationType>(transform, root, recordPosition, isRootNode)));
     }
     // public System.Void SetRelativeSpace(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
     // Offset: 0x221F994
-    void SetRelativeSpace(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation);
+    void SetRelativeSpace(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
     // public System.Void SetCurves(ref UnityEngine.AnimationClip clip)
     // Offset: 0x221F9A8
-    void SetCurves(ByRef<UnityEngine::AnimationClip*> clip);
+    void SetCurves(ByRef<::UnityEngine::AnimationClip*> clip);
     // private System.Void AddRootMotionCurves(ref UnityEngine.AnimationClip clip)
     // Offset: 0x221FC38
-    void AddRootMotionCurves(ByRef<UnityEngine::AnimationClip*> clip);
+    void AddRootMotionCurves(ByRef<::UnityEngine::AnimationClip*> clip);
     // public System.Void Reset()
     // Offset: 0x221F89C
     void Reset();
@@ -190,7 +190,7 @@ namespace RootMotion {
     void AddLoopFrame(float time);
   }; // RootMotion.BakerTransform
   #pragma pack(pop)
-  static check_size<sizeof(BakerTransform), 108 + sizeof(UnityEngine::Quaternion)> __RootMotion_BakerTransformSizeCheck;
+  static check_size<sizeof(BakerTransform), 108 + sizeof(::UnityEngine::Quaternion)> __RootMotion_BakerTransformSizeCheck;
   static_assert(sizeof(BakerTransform) == 0x7C);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -201,7 +201,7 @@ namespace RootMotion {
 // Writing MetadataGetter for method: RootMotion::BakerTransform::SetRelativeSpace
 // Il2CppName: SetRelativeSpace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerTransform::*)(UnityEngine::Vector3, UnityEngine::Quaternion)>(&RootMotion::BakerTransform::SetRelativeSpace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerTransform::*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(&RootMotion::BakerTransform::SetRelativeSpace)> {
   static const MethodInfo* get() {
     static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* rotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
@@ -211,7 +211,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::BakerTransform::SetCurves
 // Il2CppName: SetCurves
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerTransform::*)(ByRef<UnityEngine::AnimationClip*>)>(&RootMotion::BakerTransform::SetCurves)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerTransform::*)(ByRef<::UnityEngine::AnimationClip*>)>(&RootMotion::BakerTransform::SetCurves)> {
   static const MethodInfo* get() {
     static auto* clip = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationClip")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::BakerTransform*), "SetCurves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clip});
@@ -220,7 +220,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::BakerTransform::AddRootMotionCurves
 // Il2CppName: AddRootMotionCurves
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerTransform::*)(ByRef<UnityEngine::AnimationClip*>)>(&RootMotion::BakerTransform::AddRootMotionCurves)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerTransform::*)(ByRef<::UnityEngine::AnimationClip*>)>(&RootMotion::BakerTransform::AddRootMotionCurves)> {
   static const MethodInfo* get() {
     static auto* clip = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationClip")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::BakerTransform*), "AddRootMotionCurves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clip});

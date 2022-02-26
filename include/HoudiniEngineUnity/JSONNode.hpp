@@ -62,8 +62,8 @@ namespace HoudiniEngineUnity {
   class JSONNode;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::JSONNode);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::JSONNode*, "HoudiniEngineUnity", "JSONNode");
+NEED_NO_BOX(::HoudiniEngineUnity::JSONNode);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::JSONNode*, "HoudiniEngineUnity", "JSONNode");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x10
@@ -73,17 +73,17 @@ namespace HoudiniEngineUnity {
   // [DefaultMemberAttribute] Offset: 126C890
   class JSONNode : public ::Il2CppObject {
     public:
-    // Nested type: HoudiniEngineUnity::JSONNode::Enumerator
+    // Nested type: ::HoudiniEngineUnity::JSONNode::Enumerator
     struct Enumerator;
-    // Nested type: HoudiniEngineUnity::JSONNode::ValueEnumerator
+    // Nested type: ::HoudiniEngineUnity::JSONNode::ValueEnumerator
     struct ValueEnumerator;
-    // Nested type: HoudiniEngineUnity::JSONNode::KeyEnumerator
+    // Nested type: ::HoudiniEngineUnity::JSONNode::KeyEnumerator
     struct KeyEnumerator;
-    // Nested type: HoudiniEngineUnity::JSONNode::LinqEnumerator
+    // Nested type: ::HoudiniEngineUnity::JSONNode::LinqEnumerator
     class LinqEnumerator;
-    // Nested type: HoudiniEngineUnity::JSONNode::$get_Children$d__40
+    // Nested type: ::HoudiniEngineUnity::JSONNode::$get_Children$d__40
     class $get_Children$d__40;
-    // Nested type: HoudiniEngineUnity::JSONNode::$get_DeepChildren$d__42
+    // Nested type: ::HoudiniEngineUnity::JSONNode::$get_DeepChildren$d__42
     class $get_DeepChildren$d__42;
     // Get static field: static public System.Boolean forceASCII
     static bool _get_forceASCII();
@@ -94,36 +94,36 @@ namespace HoudiniEngineUnity {
     // Set static field: static public System.Boolean longAsString
     static void _set_longAsString(bool value);
     // Get static field: static private System.Text.StringBuilder m_EscapeBuilder
-    static System::Text::StringBuilder* _get_m_EscapeBuilder();
+    static ::System::Text::StringBuilder* _get_m_EscapeBuilder();
     // Set static field: static private System.Text.StringBuilder m_EscapeBuilder
-    static void _set_m_EscapeBuilder(System::Text::StringBuilder* value);
+    static void _set_m_EscapeBuilder(::System::Text::StringBuilder* value);
     // Get static field: static public HoudiniEngineUnity.JSONContainerType VectorContainerType
-    static HoudiniEngineUnity::JSONContainerType _get_VectorContainerType();
+    static ::HoudiniEngineUnity::JSONContainerType _get_VectorContainerType();
     // Set static field: static public HoudiniEngineUnity.JSONContainerType VectorContainerType
-    static void _set_VectorContainerType(HoudiniEngineUnity::JSONContainerType value);
+    static void _set_VectorContainerType(::HoudiniEngineUnity::JSONContainerType value);
     // Get static field: static public HoudiniEngineUnity.JSONContainerType QuaternionContainerType
-    static HoudiniEngineUnity::JSONContainerType _get_QuaternionContainerType();
+    static ::HoudiniEngineUnity::JSONContainerType _get_QuaternionContainerType();
     // Set static field: static public HoudiniEngineUnity.JSONContainerType QuaternionContainerType
-    static void _set_QuaternionContainerType(HoudiniEngineUnity::JSONContainerType value);
+    static void _set_QuaternionContainerType(::HoudiniEngineUnity::JSONContainerType value);
     // Get static field: static public HoudiniEngineUnity.JSONContainerType RectContainerType
-    static HoudiniEngineUnity::JSONContainerType _get_RectContainerType();
+    static ::HoudiniEngineUnity::JSONContainerType _get_RectContainerType();
     // Set static field: static public HoudiniEngineUnity.JSONContainerType RectContainerType
-    static void _set_RectContainerType(HoudiniEngineUnity::JSONContainerType value);
+    static void _set_RectContainerType(::HoudiniEngineUnity::JSONContainerType value);
     // public HoudiniEngineUnity.JSONNodeType get_Tag()
     // Offset: 0xFFFFFFFF
-    HoudiniEngineUnity::JSONNodeType get_Tag();
+    ::HoudiniEngineUnity::JSONNodeType get_Tag();
     // public HoudiniEngineUnity.JSONNode get_Item(System.Int32 aIndex)
     // Offset: 0x19AF280
-    HoudiniEngineUnity::JSONNode* get_Item(int aIndex);
+    ::HoudiniEngineUnity::JSONNode* get_Item(int aIndex);
     // public System.Void set_Item(System.Int32 aIndex, HoudiniEngineUnity.JSONNode value)
     // Offset: 0x19AF288
-    void set_Item(int aIndex, HoudiniEngineUnity::JSONNode* value);
+    void set_Item(int aIndex, ::HoudiniEngineUnity::JSONNode* value);
     // public HoudiniEngineUnity.JSONNode get_Item(System.String aKey)
     // Offset: 0x19AF28C
-    HoudiniEngineUnity::JSONNode* get_Item(::StringW aKey);
+    ::HoudiniEngineUnity::JSONNode* get_Item(::StringW aKey);
     // public System.Void set_Item(System.String aKey, HoudiniEngineUnity.JSONNode value)
     // Offset: 0x19AF294
-    void set_Item(::StringW aKey, HoudiniEngineUnity::JSONNode* value);
+    void set_Item(::StringW aKey, ::HoudiniEngineUnity::JSONNode* value);
     // public System.String get_Value()
     // Offset: 0x19AF298
     ::StringW get_Value();
@@ -159,19 +159,19 @@ namespace HoudiniEngineUnity {
     void set_Inline(bool value);
     // public System.Collections.Generic.IEnumerable`1<HoudiniEngineUnity.JSONNode> get_Children()
     // Offset: 0x19AF3B0
-    System::Collections::Generic::IEnumerable_1<HoudiniEngineUnity::JSONNode*>* get_Children();
+    ::System::Collections::Generic::IEnumerable_1<::HoudiniEngineUnity::JSONNode*>* get_Children();
     // public System.Collections.Generic.IEnumerable`1<HoudiniEngineUnity.JSONNode> get_DeepChildren()
     // Offset: 0x19AF458
-    System::Collections::Generic::IEnumerable_1<HoudiniEngineUnity::JSONNode*>* get_DeepChildren();
+    ::System::Collections::Generic::IEnumerable_1<::HoudiniEngineUnity::JSONNode*>* get_DeepChildren();
     // public System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<System.String,HoudiniEngineUnity.JSONNode>> get_Linq()
     // Offset: 0x19AF644
-    System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<::StringW, HoudiniEngineUnity::JSONNode*>>* get_Linq();
+    ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::HoudiniEngineUnity::JSONNode*>>* get_Linq();
     // public HoudiniEngineUnity.JSONNode/HoudiniEngineUnity.KeyEnumerator get_Keys()
     // Offset: 0x19AF768
-    HoudiniEngineUnity::JSONNode::KeyEnumerator get_Keys();
+    ::HoudiniEngineUnity::JSONNode::KeyEnumerator get_Keys();
     // public HoudiniEngineUnity.JSONNode/HoudiniEngineUnity.ValueEnumerator get_Values()
     // Offset: 0x19AF7B0
-    HoudiniEngineUnity::JSONNode::ValueEnumerator get_Values();
+    ::HoudiniEngineUnity::JSONNode::ValueEnumerator get_Values();
     // public System.Double get_AsDouble()
     // Offset: 0x19AF7F8
     double get_AsDouble();
@@ -204,125 +204,125 @@ namespace HoudiniEngineUnity {
     void set_AsLong(int64_t value);
     // public HoudiniEngineUnity.JSONArray get_AsArray()
     // Offset: 0x19AFBB8
-    HoudiniEngineUnity::JSONArray* get_AsArray();
+    ::HoudiniEngineUnity::JSONArray* get_AsArray();
     // public HoudiniEngineUnity.JSONObject get_AsObject()
     // Offset: 0x19AFC38
-    HoudiniEngineUnity::JSONObject* get_AsObject();
+    ::HoudiniEngineUnity::JSONObject* get_AsObject();
     // static System.Text.StringBuilder get_EscapeBuilder()
     // Offset: 0x19B03DC
-    static System::Text::StringBuilder* get_EscapeBuilder();
+    static ::System::Text::StringBuilder* get_EscapeBuilder();
     // static private System.Void .cctor()
     // Offset: 0x19B2D48
     static void _cctor();
     // public System.Void Add(System.String aKey, HoudiniEngineUnity.JSONNode aItem)
     // Offset: 0x19AF328
-    void Add(::StringW aKey, HoudiniEngineUnity::JSONNode* aItem);
+    void Add(::StringW aKey, ::HoudiniEngineUnity::JSONNode* aItem);
     // public System.Void Add(HoudiniEngineUnity.JSONNode aItem)
     // Offset: 0x19AF32C
-    void Add(HoudiniEngineUnity::JSONNode* aItem);
+    void Add(::HoudiniEngineUnity::JSONNode* aItem);
     // public HoudiniEngineUnity.JSONNode Remove(System.String aKey)
     // Offset: 0x19AF398
-    HoudiniEngineUnity::JSONNode* Remove(::StringW aKey);
+    ::HoudiniEngineUnity::JSONNode* Remove(::StringW aKey);
     // public HoudiniEngineUnity.JSONNode Remove(System.Int32 aIndex)
     // Offset: 0x19AF3A0
-    HoudiniEngineUnity::JSONNode* Remove(int aIndex);
+    ::HoudiniEngineUnity::JSONNode* Remove(int aIndex);
     // public HoudiniEngineUnity.JSONNode Remove(HoudiniEngineUnity.JSONNode aNode)
     // Offset: 0x19AF3A8
-    HoudiniEngineUnity::JSONNode* Remove(HoudiniEngineUnity::JSONNode* aNode);
+    ::HoudiniEngineUnity::JSONNode* Remove(::HoudiniEngineUnity::JSONNode* aNode);
     // public System.String ToString(System.Int32 aIndent)
     // Offset: 0x19AF5A4
     ::StringW ToString(int aIndent);
     // System.Void WriteToStringBuilder(System.Text.StringBuilder aSB, System.Int32 aIndent, System.Int32 aIndentInc, HoudiniEngineUnity.JSONTextMode aMode)
     // Offset: 0xFFFFFFFF
-    void WriteToStringBuilder(System::Text::StringBuilder* aSB, int aIndent, int aIndentInc, HoudiniEngineUnity::JSONTextMode aMode);
+    void WriteToStringBuilder(::System::Text::StringBuilder* aSB, int aIndent, int aIndentInc, ::HoudiniEngineUnity::JSONTextMode aMode);
     // public HoudiniEngineUnity.JSONNode/HoudiniEngineUnity.Enumerator GetEnumerator()
     // Offset: 0xFFFFFFFF
-    HoudiniEngineUnity::JSONNode::Enumerator GetEnumerator();
+    ::HoudiniEngineUnity::JSONNode::Enumerator GetEnumerator();
     // static System.String Escape(System.String aText)
     // Offset: 0x19B04AC
     static ::StringW Escape(::StringW aText);
     // static private HoudiniEngineUnity.JSONNode ParseElement(System.String token, System.Boolean quoted)
     // Offset: 0x19B074C
-    static HoudiniEngineUnity::JSONNode* ParseElement(::StringW token, bool quoted);
+    static ::HoudiniEngineUnity::JSONNode* ParseElement(::StringW token, bool quoted);
     // static public HoudiniEngineUnity.JSONNode Parse(System.String aJSON)
     // Offset: 0x19ACE4C
-    static HoudiniEngineUnity::JSONNode* Parse(::StringW aJSON);
+    static ::HoudiniEngineUnity::JSONNode* Parse(::StringW aJSON);
     // static private HoudiniEngineUnity.JSONNode GetContainer(HoudiniEngineUnity.JSONContainerType aType)
     // Offset: 0x19B0950
-    static HoudiniEngineUnity::JSONNode* GetContainer(HoudiniEngineUnity::JSONContainerType aType);
+    static ::HoudiniEngineUnity::JSONNode* GetContainer(::HoudiniEngineUnity::JSONContainerType aType);
     // public UnityEngine.Vector2 ReadVector2(UnityEngine.Vector2 aDefault)
     // Offset: 0x19B1CD0
-    UnityEngine::Vector2 ReadVector2(UnityEngine::Vector2 aDefault);
+    ::UnityEngine::Vector2 ReadVector2(::UnityEngine::Vector2 aDefault);
     // public UnityEngine.Vector2 ReadVector2(System.String aXName, System.String aYName)
     // Offset: 0x19B1E2C
-    UnityEngine::Vector2 ReadVector2(::StringW aXName, ::StringW aYName);
+    ::UnityEngine::Vector2 ReadVector2(::StringW aXName, ::StringW aYName);
     // public UnityEngine.Vector2 ReadVector2()
     // Offset: 0x19B1A34
-    UnityEngine::Vector2 ReadVector2();
+    ::UnityEngine::Vector2 ReadVector2();
     // public HoudiniEngineUnity.JSONNode WriteVector2(UnityEngine.Vector2 aVec, System.String aXName, System.String aYName)
     // Offset: 0x19B0A70
-    HoudiniEngineUnity::JSONNode* WriteVector2(UnityEngine::Vector2 aVec, ::StringW aXName, ::StringW aYName);
+    ::HoudiniEngineUnity::JSONNode* WriteVector2(::UnityEngine::Vector2 aVec, ::StringW aXName, ::StringW aYName);
     // public UnityEngine.Vector3 ReadVector3(UnityEngine.Vector3 aDefault)
     // Offset: 0x19B1F40
-    UnityEngine::Vector3 ReadVector3(UnityEngine::Vector3 aDefault);
+    ::UnityEngine::Vector3 ReadVector3(::UnityEngine::Vector3 aDefault);
     // public UnityEngine.Vector3 ReadVector3(System.String aXName, System.String aYName, System.String aZName)
     // Offset: 0x19B2118
-    UnityEngine::Vector3 ReadVector3(::StringW aXName, ::StringW aYName, ::StringW aZName);
+    ::UnityEngine::Vector3 ReadVector3(::StringW aXName, ::StringW aYName, ::StringW aZName);
     // public UnityEngine.Vector3 ReadVector3()
     // Offset: 0x19B1AB4
-    UnityEngine::Vector3 ReadVector3();
+    ::UnityEngine::Vector3 ReadVector3();
     // public HoudiniEngineUnity.JSONNode WriteVector3(UnityEngine.Vector3 aVec, System.String aXName, System.String aYName, System.String aZName)
     // Offset: 0x19B0C6C
-    HoudiniEngineUnity::JSONNode* WriteVector3(UnityEngine::Vector3 aVec, ::StringW aXName, ::StringW aYName, ::StringW aZName);
+    ::HoudiniEngineUnity::JSONNode* WriteVector3(::UnityEngine::Vector3 aVec, ::StringW aXName, ::StringW aYName, ::StringW aZName);
     // public UnityEngine.Vector4 ReadVector4(UnityEngine.Vector4 aDefault)
     // Offset: 0x19B227C
-    UnityEngine::Vector4 ReadVector4(UnityEngine::Vector4 aDefault);
+    ::UnityEngine::Vector4 ReadVector4(::UnityEngine::Vector4 aDefault);
     // public UnityEngine.Vector4 ReadVector4()
     // Offset: 0x19B1B34
-    UnityEngine::Vector4 ReadVector4();
+    ::UnityEngine::Vector4 ReadVector4();
     // public HoudiniEngineUnity.JSONNode WriteVector4(UnityEngine.Vector4 aVec)
     // Offset: 0x19B0EB4
-    HoudiniEngineUnity::JSONNode* WriteVector4(UnityEngine::Vector4 aVec);
+    ::HoudiniEngineUnity::JSONNode* WriteVector4(::UnityEngine::Vector4 aVec);
     // public UnityEngine.Quaternion ReadQuaternion(UnityEngine.Quaternion aDefault)
     // Offset: 0x19B24B8
-    UnityEngine::Quaternion ReadQuaternion(UnityEngine::Quaternion aDefault);
+    ::UnityEngine::Quaternion ReadQuaternion(::UnityEngine::Quaternion aDefault);
     // public UnityEngine.Quaternion ReadQuaternion()
     // Offset: 0x19B1BB4
-    UnityEngine::Quaternion ReadQuaternion();
+    ::UnityEngine::Quaternion ReadQuaternion();
     // public HoudiniEngineUnity.JSONNode WriteQuaternion(UnityEngine.Quaternion aRot)
     // Offset: 0x19B118C
-    HoudiniEngineUnity::JSONNode* WriteQuaternion(UnityEngine::Quaternion aRot);
+    ::HoudiniEngineUnity::JSONNode* WriteQuaternion(::UnityEngine::Quaternion aRot);
     // public UnityEngine.Rect ReadRect(UnityEngine.Rect aDefault)
     // Offset: 0x19B26F4
-    UnityEngine::Rect ReadRect(UnityEngine::Rect aDefault);
+    ::UnityEngine::Rect ReadRect(::UnityEngine::Rect aDefault);
     // public UnityEngine.Rect ReadRect()
     // Offset: 0x19B1C44
-    UnityEngine::Rect ReadRect();
+    ::UnityEngine::Rect ReadRect();
     // public HoudiniEngineUnity.JSONNode WriteRect(UnityEngine.Rect aRect)
     // Offset: 0x19B1464
-    HoudiniEngineUnity::JSONNode* WriteRect(UnityEngine::Rect aRect);
+    ::HoudiniEngineUnity::JSONNode* WriteRect(::UnityEngine::Rect aRect);
     // public UnityEngine.RectOffset ReadRectOffset(UnityEngine.RectOffset aDefault)
     // Offset: 0x19B2930
-    UnityEngine::RectOffset* ReadRectOffset(UnityEngine::RectOffset* aDefault);
+    ::UnityEngine::RectOffset* ReadRectOffset(::UnityEngine::RectOffset* aDefault);
     // public UnityEngine.RectOffset ReadRectOffset()
     // Offset: 0x19B1C6C
-    UnityEngine::RectOffset* ReadRectOffset();
+    ::UnityEngine::RectOffset* ReadRectOffset();
     // public HoudiniEngineUnity.JSONNode WriteRectOffset(UnityEngine.RectOffset aRect)
     // Offset: 0x19B1770
-    HoudiniEngineUnity::JSONNode* WriteRectOffset(UnityEngine::RectOffset* aRect);
+    ::HoudiniEngineUnity::JSONNode* WriteRectOffset(::UnityEngine::RectOffset* aRect);
     // public UnityEngine.Matrix4x4 ReadMatrix()
     // Offset: 0x19B2B88
-    UnityEngine::Matrix4x4 ReadMatrix();
+    ::UnityEngine::Matrix4x4 ReadMatrix();
     // public HoudiniEngineUnity.JSONNode WriteMatrix(UnityEngine.Matrix4x4 aMatrix)
     // Offset: 0x19B2C98
-    HoudiniEngineUnity::JSONNode* WriteMatrix(UnityEngine::Matrix4x4 aMatrix);
+    ::HoudiniEngineUnity::JSONNode* WriteMatrix(::UnityEngine::Matrix4x4 aMatrix);
     // protected System.Void .ctor()
     // Offset: 0x19AE008
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JSONNode* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::JSONNode::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::JSONNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JSONNode*, creationType>()));
     }
     // public override System.String ToString()
@@ -344,16 +344,16 @@ namespace HoudiniEngineUnity {
   #pragma pack(pop)
   // static public System.Boolean op_Equality(HoudiniEngineUnity.JSONNode a, System.Object b)
   // Offset: 0x19AD7CC
-  bool operator ==(HoudiniEngineUnity::JSONNode* a, ::Il2CppObject& b);
+  bool operator ==(::HoudiniEngineUnity::JSONNode* a, ::Il2CppObject& b);
   // static public System.Boolean op_Inequality(HoudiniEngineUnity.JSONNode a, System.Object b)
   // Offset: 0x19B0348
-  bool operator !=(HoudiniEngineUnity::JSONNode* a, ::Il2CppObject& b);
+  bool operator !=(::HoudiniEngineUnity::JSONNode* a, ::Il2CppObject& b);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::get_Tag
 // Il2CppName: get_Tag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::JSONNodeType (HoudiniEngineUnity::JSONNode::*)()>(&HoudiniEngineUnity::JSONNode::get_Tag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::JSONNodeType (HoudiniEngineUnity::JSONNode::*)()>(&HoudiniEngineUnity::JSONNode::get_Tag)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::JSONNode*), "get_Tag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -361,7 +361,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::get_Item
 // Il2CppName: get_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::JSONNode* (HoudiniEngineUnity::JSONNode::*)(int)>(&HoudiniEngineUnity::JSONNode::get_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::JSONNode* (HoudiniEngineUnity::JSONNode::*)(int)>(&HoudiniEngineUnity::JSONNode::get_Item)> {
   static const MethodInfo* get() {
     static auto* aIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::JSONNode*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{aIndex});
@@ -370,7 +370,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::set_Item
 // Il2CppName: set_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::JSONNode::*)(int, HoudiniEngineUnity::JSONNode*)>(&HoudiniEngineUnity::JSONNode::set_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::JSONNode::*)(int, ::HoudiniEngineUnity::JSONNode*)>(&HoudiniEngineUnity::JSONNode::set_Item)> {
   static const MethodInfo* get() {
     static auto* aIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "JSONNode")->byval_arg;
@@ -380,7 +380,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::get_Item
 // Il2CppName: get_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::JSONNode* (HoudiniEngineUnity::JSONNode::*)(::StringW)>(&HoudiniEngineUnity::JSONNode::get_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::JSONNode* (HoudiniEngineUnity::JSONNode::*)(::StringW)>(&HoudiniEngineUnity::JSONNode::get_Item)> {
   static const MethodInfo* get() {
     static auto* aKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::JSONNode*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{aKey});
@@ -389,7 +389,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::set_Item
 // Il2CppName: set_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::JSONNode::*)(::StringW, HoudiniEngineUnity::JSONNode*)>(&HoudiniEngineUnity::JSONNode::set_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::JSONNode::*)(::StringW, ::HoudiniEngineUnity::JSONNode*)>(&HoudiniEngineUnity::JSONNode::set_Item)> {
   static const MethodInfo* get() {
     static auto* aKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "JSONNode")->byval_arg;
@@ -489,7 +489,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::get_Children
 // Il2CppName: get_Children
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<HoudiniEngineUnity::JSONNode*>* (HoudiniEngineUnity::JSONNode::*)()>(&HoudiniEngineUnity::JSONNode::get_Children)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::HoudiniEngineUnity::JSONNode*>* (HoudiniEngineUnity::JSONNode::*)()>(&HoudiniEngineUnity::JSONNode::get_Children)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::JSONNode*), "get_Children", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -497,7 +497,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::get_DeepChildren
 // Il2CppName: get_DeepChildren
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<HoudiniEngineUnity::JSONNode*>* (HoudiniEngineUnity::JSONNode::*)()>(&HoudiniEngineUnity::JSONNode::get_DeepChildren)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::HoudiniEngineUnity::JSONNode*>* (HoudiniEngineUnity::JSONNode::*)()>(&HoudiniEngineUnity::JSONNode::get_DeepChildren)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::JSONNode*), "get_DeepChildren", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -505,7 +505,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::get_Linq
 // Il2CppName: get_Linq
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<::StringW, HoudiniEngineUnity::JSONNode*>>* (HoudiniEngineUnity::JSONNode::*)()>(&HoudiniEngineUnity::JSONNode::get_Linq)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::HoudiniEngineUnity::JSONNode*>>* (HoudiniEngineUnity::JSONNode::*)()>(&HoudiniEngineUnity::JSONNode::get_Linq)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::JSONNode*), "get_Linq", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -513,7 +513,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::get_Keys
 // Il2CppName: get_Keys
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::JSONNode::KeyEnumerator (HoudiniEngineUnity::JSONNode::*)()>(&HoudiniEngineUnity::JSONNode::get_Keys)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::JSONNode::KeyEnumerator (HoudiniEngineUnity::JSONNode::*)()>(&HoudiniEngineUnity::JSONNode::get_Keys)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::JSONNode*), "get_Keys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -521,7 +521,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::get_Values
 // Il2CppName: get_Values
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::JSONNode::ValueEnumerator (HoudiniEngineUnity::JSONNode::*)()>(&HoudiniEngineUnity::JSONNode::get_Values)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::JSONNode::ValueEnumerator (HoudiniEngineUnity::JSONNode::*)()>(&HoudiniEngineUnity::JSONNode::get_Values)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::JSONNode*), "get_Values", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -614,7 +614,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::get_AsArray
 // Il2CppName: get_AsArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::JSONArray* (HoudiniEngineUnity::JSONNode::*)()>(&HoudiniEngineUnity::JSONNode::get_AsArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::JSONArray* (HoudiniEngineUnity::JSONNode::*)()>(&HoudiniEngineUnity::JSONNode::get_AsArray)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::JSONNode*), "get_AsArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -622,7 +622,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::get_AsObject
 // Il2CppName: get_AsObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::JSONObject* (HoudiniEngineUnity::JSONNode::*)()>(&HoudiniEngineUnity::JSONNode::get_AsObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::JSONObject* (HoudiniEngineUnity::JSONNode::*)()>(&HoudiniEngineUnity::JSONNode::get_AsObject)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::JSONNode*), "get_AsObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -630,7 +630,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::get_EscapeBuilder
 // Il2CppName: get_EscapeBuilder
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (*)()>(&HoudiniEngineUnity::JSONNode::get_EscapeBuilder)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::StringBuilder* (*)()>(&HoudiniEngineUnity::JSONNode::get_EscapeBuilder)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::JSONNode*), "get_EscapeBuilder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -646,7 +646,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::JSONNode::*)(::StringW, HoudiniEngineUnity::JSONNode*)>(&HoudiniEngineUnity::JSONNode::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::JSONNode::*)(::StringW, ::HoudiniEngineUnity::JSONNode*)>(&HoudiniEngineUnity::JSONNode::Add)> {
   static const MethodInfo* get() {
     static auto* aKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* aItem = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "JSONNode")->byval_arg;
@@ -656,7 +656,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::JSONNode::*)(HoudiniEngineUnity::JSONNode*)>(&HoudiniEngineUnity::JSONNode::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::JSONNode::*)(::HoudiniEngineUnity::JSONNode*)>(&HoudiniEngineUnity::JSONNode::Add)> {
   static const MethodInfo* get() {
     static auto* aItem = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "JSONNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::JSONNode*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{aItem});
@@ -665,7 +665,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::Remove
 // Il2CppName: Remove
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::JSONNode* (HoudiniEngineUnity::JSONNode::*)(::StringW)>(&HoudiniEngineUnity::JSONNode::Remove)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::JSONNode* (HoudiniEngineUnity::JSONNode::*)(::StringW)>(&HoudiniEngineUnity::JSONNode::Remove)> {
   static const MethodInfo* get() {
     static auto* aKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::JSONNode*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{aKey});
@@ -674,7 +674,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::Remove
 // Il2CppName: Remove
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::JSONNode* (HoudiniEngineUnity::JSONNode::*)(int)>(&HoudiniEngineUnity::JSONNode::Remove)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::JSONNode* (HoudiniEngineUnity::JSONNode::*)(int)>(&HoudiniEngineUnity::JSONNode::Remove)> {
   static const MethodInfo* get() {
     static auto* aIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::JSONNode*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{aIndex});
@@ -683,7 +683,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::Remove
 // Il2CppName: Remove
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::JSONNode* (HoudiniEngineUnity::JSONNode::*)(HoudiniEngineUnity::JSONNode*)>(&HoudiniEngineUnity::JSONNode::Remove)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::JSONNode* (HoudiniEngineUnity::JSONNode::*)(::HoudiniEngineUnity::JSONNode*)>(&HoudiniEngineUnity::JSONNode::Remove)> {
   static const MethodInfo* get() {
     static auto* aNode = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "JSONNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::JSONNode*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{aNode});
@@ -701,7 +701,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::WriteToStringBuilder
 // Il2CppName: WriteToStringBuilder
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::JSONNode::*)(System::Text::StringBuilder*, int, int, HoudiniEngineUnity::JSONTextMode)>(&HoudiniEngineUnity::JSONNode::WriteToStringBuilder)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::JSONNode::*)(::System::Text::StringBuilder*, int, int, ::HoudiniEngineUnity::JSONTextMode)>(&HoudiniEngineUnity::JSONNode::WriteToStringBuilder)> {
   static const MethodInfo* get() {
     static auto* aSB = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* aIndent = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -713,7 +713,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::GetEnumerator
 // Il2CppName: GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::JSONNode::Enumerator (HoudiniEngineUnity::JSONNode::*)()>(&HoudiniEngineUnity::JSONNode::GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::JSONNode::Enumerator (HoudiniEngineUnity::JSONNode::*)()>(&HoudiniEngineUnity::JSONNode::GetEnumerator)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::JSONNode*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -730,7 +730,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::ParseElement
 // Il2CppName: ParseElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::JSONNode* (*)(::StringW, bool)>(&HoudiniEngineUnity::JSONNode::ParseElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::JSONNode* (*)(::StringW, bool)>(&HoudiniEngineUnity::JSONNode::ParseElement)> {
   static const MethodInfo* get() {
     static auto* token = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* quoted = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -740,7 +740,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::Parse
 // Il2CppName: Parse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::JSONNode* (*)(::StringW)>(&HoudiniEngineUnity::JSONNode::Parse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::JSONNode* (*)(::StringW)>(&HoudiniEngineUnity::JSONNode::Parse)> {
   static const MethodInfo* get() {
     static auto* aJSON = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::JSONNode*), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{aJSON});
@@ -749,7 +749,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::GetContainer
 // Il2CppName: GetContainer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::JSONNode* (*)(HoudiniEngineUnity::JSONContainerType)>(&HoudiniEngineUnity::JSONNode::GetContainer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::JSONNode* (*)(::HoudiniEngineUnity::JSONContainerType)>(&HoudiniEngineUnity::JSONNode::GetContainer)> {
   static const MethodInfo* get() {
     static auto* aType = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "JSONContainerType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::JSONNode*), "GetContainer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{aType});
@@ -758,7 +758,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::ReadVector2
 // Il2CppName: ReadVector2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (HoudiniEngineUnity::JSONNode::*)(UnityEngine::Vector2)>(&HoudiniEngineUnity::JSONNode::ReadVector2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (HoudiniEngineUnity::JSONNode::*)(::UnityEngine::Vector2)>(&HoudiniEngineUnity::JSONNode::ReadVector2)> {
   static const MethodInfo* get() {
     static auto* aDefault = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::JSONNode*), "ReadVector2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{aDefault});
@@ -767,7 +767,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::ReadVector2
 // Il2CppName: ReadVector2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (HoudiniEngineUnity::JSONNode::*)(::StringW, ::StringW)>(&HoudiniEngineUnity::JSONNode::ReadVector2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (HoudiniEngineUnity::JSONNode::*)(::StringW, ::StringW)>(&HoudiniEngineUnity::JSONNode::ReadVector2)> {
   static const MethodInfo* get() {
     static auto* aXName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* aYName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -777,7 +777,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::ReadVector2
 // Il2CppName: ReadVector2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (HoudiniEngineUnity::JSONNode::*)()>(&HoudiniEngineUnity::JSONNode::ReadVector2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (HoudiniEngineUnity::JSONNode::*)()>(&HoudiniEngineUnity::JSONNode::ReadVector2)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::JSONNode*), "ReadVector2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -785,7 +785,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::WriteVector2
 // Il2CppName: WriteVector2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::JSONNode* (HoudiniEngineUnity::JSONNode::*)(UnityEngine::Vector2, ::StringW, ::StringW)>(&HoudiniEngineUnity::JSONNode::WriteVector2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::JSONNode* (HoudiniEngineUnity::JSONNode::*)(::UnityEngine::Vector2, ::StringW, ::StringW)>(&HoudiniEngineUnity::JSONNode::WriteVector2)> {
   static const MethodInfo* get() {
     static auto* aVec = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     static auto* aXName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -796,7 +796,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::ReadVector3
 // Il2CppName: ReadVector3
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (HoudiniEngineUnity::JSONNode::*)(UnityEngine::Vector3)>(&HoudiniEngineUnity::JSONNode::ReadVector3)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (HoudiniEngineUnity::JSONNode::*)(::UnityEngine::Vector3)>(&HoudiniEngineUnity::JSONNode::ReadVector3)> {
   static const MethodInfo* get() {
     static auto* aDefault = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::JSONNode*), "ReadVector3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{aDefault});
@@ -805,7 +805,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::ReadVector3
 // Il2CppName: ReadVector3
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (HoudiniEngineUnity::JSONNode::*)(::StringW, ::StringW, ::StringW)>(&HoudiniEngineUnity::JSONNode::ReadVector3)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (HoudiniEngineUnity::JSONNode::*)(::StringW, ::StringW, ::StringW)>(&HoudiniEngineUnity::JSONNode::ReadVector3)> {
   static const MethodInfo* get() {
     static auto* aXName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* aYName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -816,7 +816,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::ReadVector3
 // Il2CppName: ReadVector3
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (HoudiniEngineUnity::JSONNode::*)()>(&HoudiniEngineUnity::JSONNode::ReadVector3)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (HoudiniEngineUnity::JSONNode::*)()>(&HoudiniEngineUnity::JSONNode::ReadVector3)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::JSONNode*), "ReadVector3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -824,7 +824,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::WriteVector3
 // Il2CppName: WriteVector3
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::JSONNode* (HoudiniEngineUnity::JSONNode::*)(UnityEngine::Vector3, ::StringW, ::StringW, ::StringW)>(&HoudiniEngineUnity::JSONNode::WriteVector3)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::JSONNode* (HoudiniEngineUnity::JSONNode::*)(::UnityEngine::Vector3, ::StringW, ::StringW, ::StringW)>(&HoudiniEngineUnity::JSONNode::WriteVector3)> {
   static const MethodInfo* get() {
     static auto* aVec = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* aXName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -836,7 +836,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::ReadVector4
 // Il2CppName: ReadVector4
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (HoudiniEngineUnity::JSONNode::*)(UnityEngine::Vector4)>(&HoudiniEngineUnity::JSONNode::ReadVector4)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (HoudiniEngineUnity::JSONNode::*)(::UnityEngine::Vector4)>(&HoudiniEngineUnity::JSONNode::ReadVector4)> {
   static const MethodInfo* get() {
     static auto* aDefault = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::JSONNode*), "ReadVector4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{aDefault});
@@ -845,7 +845,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::ReadVector4
 // Il2CppName: ReadVector4
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (HoudiniEngineUnity::JSONNode::*)()>(&HoudiniEngineUnity::JSONNode::ReadVector4)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (HoudiniEngineUnity::JSONNode::*)()>(&HoudiniEngineUnity::JSONNode::ReadVector4)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::JSONNode*), "ReadVector4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -853,7 +853,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::WriteVector4
 // Il2CppName: WriteVector4
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::JSONNode* (HoudiniEngineUnity::JSONNode::*)(UnityEngine::Vector4)>(&HoudiniEngineUnity::JSONNode::WriteVector4)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::JSONNode* (HoudiniEngineUnity::JSONNode::*)(::UnityEngine::Vector4)>(&HoudiniEngineUnity::JSONNode::WriteVector4)> {
   static const MethodInfo* get() {
     static auto* aVec = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::JSONNode*), "WriteVector4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{aVec});
@@ -862,7 +862,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::ReadQuaternion
 // Il2CppName: ReadQuaternion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (HoudiniEngineUnity::JSONNode::*)(UnityEngine::Quaternion)>(&HoudiniEngineUnity::JSONNode::ReadQuaternion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (HoudiniEngineUnity::JSONNode::*)(::UnityEngine::Quaternion)>(&HoudiniEngineUnity::JSONNode::ReadQuaternion)> {
   static const MethodInfo* get() {
     static auto* aDefault = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::JSONNode*), "ReadQuaternion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{aDefault});
@@ -871,7 +871,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::ReadQuaternion
 // Il2CppName: ReadQuaternion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (HoudiniEngineUnity::JSONNode::*)()>(&HoudiniEngineUnity::JSONNode::ReadQuaternion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (HoudiniEngineUnity::JSONNode::*)()>(&HoudiniEngineUnity::JSONNode::ReadQuaternion)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::JSONNode*), "ReadQuaternion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -879,7 +879,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::WriteQuaternion
 // Il2CppName: WriteQuaternion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::JSONNode* (HoudiniEngineUnity::JSONNode::*)(UnityEngine::Quaternion)>(&HoudiniEngineUnity::JSONNode::WriteQuaternion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::JSONNode* (HoudiniEngineUnity::JSONNode::*)(::UnityEngine::Quaternion)>(&HoudiniEngineUnity::JSONNode::WriteQuaternion)> {
   static const MethodInfo* get() {
     static auto* aRot = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::JSONNode*), "WriteQuaternion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{aRot});
@@ -888,7 +888,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::ReadRect
 // Il2CppName: ReadRect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (HoudiniEngineUnity::JSONNode::*)(UnityEngine::Rect)>(&HoudiniEngineUnity::JSONNode::ReadRect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rect (HoudiniEngineUnity::JSONNode::*)(::UnityEngine::Rect)>(&HoudiniEngineUnity::JSONNode::ReadRect)> {
   static const MethodInfo* get() {
     static auto* aDefault = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::JSONNode*), "ReadRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{aDefault});
@@ -897,7 +897,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::ReadRect
 // Il2CppName: ReadRect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (HoudiniEngineUnity::JSONNode::*)()>(&HoudiniEngineUnity::JSONNode::ReadRect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rect (HoudiniEngineUnity::JSONNode::*)()>(&HoudiniEngineUnity::JSONNode::ReadRect)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::JSONNode*), "ReadRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -905,7 +905,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::WriteRect
 // Il2CppName: WriteRect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::JSONNode* (HoudiniEngineUnity::JSONNode::*)(UnityEngine::Rect)>(&HoudiniEngineUnity::JSONNode::WriteRect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::JSONNode* (HoudiniEngineUnity::JSONNode::*)(::UnityEngine::Rect)>(&HoudiniEngineUnity::JSONNode::WriteRect)> {
   static const MethodInfo* get() {
     static auto* aRect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::JSONNode*), "WriteRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{aRect});
@@ -914,7 +914,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::ReadRectOffset
 // Il2CppName: ReadRectOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectOffset* (HoudiniEngineUnity::JSONNode::*)(UnityEngine::RectOffset*)>(&HoudiniEngineUnity::JSONNode::ReadRectOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RectOffset* (HoudiniEngineUnity::JSONNode::*)(::UnityEngine::RectOffset*)>(&HoudiniEngineUnity::JSONNode::ReadRectOffset)> {
   static const MethodInfo* get() {
     static auto* aDefault = &::il2cpp_utils::GetClassFromName("UnityEngine", "RectOffset")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::JSONNode*), "ReadRectOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{aDefault});
@@ -923,7 +923,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::ReadRectOffset
 // Il2CppName: ReadRectOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectOffset* (HoudiniEngineUnity::JSONNode::*)()>(&HoudiniEngineUnity::JSONNode::ReadRectOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RectOffset* (HoudiniEngineUnity::JSONNode::*)()>(&HoudiniEngineUnity::JSONNode::ReadRectOffset)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::JSONNode*), "ReadRectOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -931,7 +931,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::WriteRectOffset
 // Il2CppName: WriteRectOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::JSONNode* (HoudiniEngineUnity::JSONNode::*)(UnityEngine::RectOffset*)>(&HoudiniEngineUnity::JSONNode::WriteRectOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::JSONNode* (HoudiniEngineUnity::JSONNode::*)(::UnityEngine::RectOffset*)>(&HoudiniEngineUnity::JSONNode::WriteRectOffset)> {
   static const MethodInfo* get() {
     static auto* aRect = &::il2cpp_utils::GetClassFromName("UnityEngine", "RectOffset")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::JSONNode*), "WriteRectOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{aRect});
@@ -940,7 +940,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::ReadMatrix
 // Il2CppName: ReadMatrix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (HoudiniEngineUnity::JSONNode::*)()>(&HoudiniEngineUnity::JSONNode::ReadMatrix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Matrix4x4 (HoudiniEngineUnity::JSONNode::*)()>(&HoudiniEngineUnity::JSONNode::ReadMatrix)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::JSONNode*), "ReadMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -948,7 +948,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::JSONNode::WriteMatrix
 // Il2CppName: WriteMatrix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::JSONNode* (HoudiniEngineUnity::JSONNode::*)(UnityEngine::Matrix4x4)>(&HoudiniEngineUnity::JSONNode::WriteMatrix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::JSONNode* (HoudiniEngineUnity::JSONNode::*)(::UnityEngine::Matrix4x4)>(&HoudiniEngineUnity::JSONNode::WriteMatrix)> {
   static const MethodInfo* get() {
     static auto* aMatrix = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::JSONNode*), "WriteMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{aMatrix});

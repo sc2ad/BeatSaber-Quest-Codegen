@@ -23,8 +23,8 @@ namespace System::Text {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Text::Encoding::EncodingCharBuffer);
-DEFINE_IL2CPP_ARG_TYPE(System::Text::Encoding::EncodingCharBuffer*, "System.Text", "Encoding/EncodingCharBuffer");
+NEED_NO_BOX(::System::Text::Encoding::EncodingCharBuffer);
+DEFINE_IL2CPP_ARG_TYPE(::System::Text::Encoding::EncodingCharBuffer*, "System.Text", "Encoding/EncodingCharBuffer");
 // Type namespace: System.Text
 namespace System::Text {
   // Size: 0x60
@@ -71,15 +71,15 @@ namespace System::Text {
     // private System.Text.Encoding enc
     // Size: 0x8
     // Offset: 0x30
-    System::Text::Encoding* enc;
+    ::System::Text::Encoding* enc;
     // Field size check
-    static_assert(sizeof(System::Text::Encoding*) == 0x8);
+    static_assert(sizeof(::System::Text::Encoding*) == 0x8);
     // private System.Text.DecoderNLS decoder
     // Size: 0x8
     // Offset: 0x38
-    System::Text::DecoderNLS* decoder;
+    ::System::Text::DecoderNLS* decoder;
     // Field size check
-    static_assert(sizeof(System::Text::DecoderNLS*) == 0x8);
+    static_assert(sizeof(::System::Text::DecoderNLS*) == 0x8);
     // private System.Byte* byteStart
     // Size: 0x8
     // Offset: 0x40
@@ -101,9 +101,9 @@ namespace System::Text {
     // private System.Text.DecoderFallbackBuffer fallbackBuffer
     // Size: 0x8
     // Offset: 0x58
-    System::Text::DecoderFallbackBuffer* fallbackBuffer;
+    ::System::Text::DecoderFallbackBuffer* fallbackBuffer;
     // Field size check
-    static_assert(sizeof(System::Text::DecoderFallbackBuffer*) == 0x8);
+    static_assert(sizeof(::System::Text::DecoderFallbackBuffer*) == 0x8);
     public:
     // Get instance field reference: private System.Char* chars
     ::Il2CppChar*& dyn_chars();
@@ -114,9 +114,9 @@ namespace System::Text {
     // Get instance field reference: private System.Int32 charCountResult
     int& dyn_charCountResult();
     // Get instance field reference: private System.Text.Encoding enc
-    System::Text::Encoding*& dyn_enc();
+    ::System::Text::Encoding*& dyn_enc();
     // Get instance field reference: private System.Text.DecoderNLS decoder
-    System::Text::DecoderNLS*& dyn_decoder();
+    ::System::Text::DecoderNLS*& dyn_decoder();
     // Get instance field reference: private System.Byte* byteStart
     uint8_t*& dyn_byteStart();
     // Get instance field reference: private System.Byte* byteEnd
@@ -124,7 +124,7 @@ namespace System::Text {
     // Get instance field reference: private System.Byte* bytes
     uint8_t*& dyn_bytes();
     // Get instance field reference: private System.Text.DecoderFallbackBuffer fallbackBuffer
-    System::Text::DecoderFallbackBuffer*& dyn_fallbackBuffer();
+    ::System::Text::DecoderFallbackBuffer*& dyn_fallbackBuffer();
     // System.Boolean get_MoreData()
     // Offset: 0x1FA6BE8
     bool get_MoreData();
@@ -137,8 +137,8 @@ namespace System::Text {
     // System.Void .ctor(System.Text.Encoding enc, System.Text.DecoderNLS decoder, System.Char* charStart, System.Int32 charCount, System.Byte* byteStart, System.Int32 byteCount)
     // Offset: 0x1FA6AA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Encoding::EncodingCharBuffer* New_ctor(System::Text::Encoding* enc, System::Text::DecoderNLS* decoder, ::Il2CppChar* charStart, int charCount, uint8_t* byteStart, int byteCount) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::Encoding::EncodingCharBuffer::.ctor");
+    static Encoding::EncodingCharBuffer* New_ctor(::System::Text::Encoding* enc, ::System::Text::DecoderNLS* decoder, ::Il2CppChar* charStart, int charCount, uint8_t* byteStart, int byteCount) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::Encoding::EncodingCharBuffer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Encoding::EncodingCharBuffer*, creationType>(enc, decoder, charStart, charCount, byteStart, byteCount)));
     }
     // System.Boolean AddChar(System.Char ch, System.Int32 numBytes)
@@ -161,7 +161,7 @@ namespace System::Text {
     bool Fallback(::ArrayW<uint8_t> byteBuffer);
   }; // System.Text.Encoding/System.Text.EncodingCharBuffer
   #pragma pack(pop)
-  static check_size<sizeof(Encoding::EncodingCharBuffer), 88 + sizeof(System::Text::DecoderFallbackBuffer*)> __System_Text_Encoding_EncodingCharBufferSizeCheck;
+  static check_size<sizeof(Encoding::EncodingCharBuffer), 88 + sizeof(::System::Text::DecoderFallbackBuffer*)> __System_Text_Encoding_EncodingCharBufferSizeCheck;
   static_assert(sizeof(Encoding::EncodingCharBuffer) == 0x60);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

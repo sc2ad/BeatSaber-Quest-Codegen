@@ -21,8 +21,8 @@ namespace Polyglot {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Polyglot::LocalizationImporter::$$c__DisplayClass8_0);
-DEFINE_IL2CPP_ARG_TYPE(Polyglot::LocalizationImporter::$$c__DisplayClass8_0*, "Polyglot", "LocalizationImporter/<>c__DisplayClass8_0");
+NEED_NO_BOX(::Polyglot::LocalizationImporter::$$c__DisplayClass8_0);
+DEFINE_IL2CPP_ARG_TYPE(::Polyglot::LocalizationImporter::$$c__DisplayClass8_0*, "Polyglot", "LocalizationImporter/<>c__DisplayClass8_0");
 // Type namespace: Polyglot
 namespace Polyglot {
   // Size: 0x18
@@ -44,16 +44,16 @@ namespace Polyglot {
     // public Polyglot.Localization settings
     // Size: 0x8
     // Offset: 0x10
-    Polyglot::Localization* settings;
+    ::Polyglot::Localization* settings;
     // Field size check
-    static_assert(sizeof(Polyglot::Localization*) == 0x8);
+    static_assert(sizeof(::Polyglot::Localization*) == 0x8);
     public:
-    // Creating conversion operator: operator Polyglot::Localization*
-    constexpr operator Polyglot::Localization*() const noexcept {
+    // Creating conversion operator: operator ::Polyglot::Localization*
+    constexpr operator ::Polyglot::Localization*() const noexcept {
       return settings;
     }
     // Get instance field reference: public Polyglot.Localization settings
-    Polyglot::Localization*& dyn_settings();
+    ::Polyglot::Localization*& dyn_settings();
     // System.Void <DownloadCustomSheet>b__0(System.String s)
     // Offset: 0x2999584
     void $DownloadCustomSheet$b__0(::StringW s);
@@ -63,12 +63,12 @@ namespace Polyglot {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalizationImporter::$$c__DisplayClass8_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Polyglot::LocalizationImporter::$$c__DisplayClass8_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Polyglot::LocalizationImporter::$$c__DisplayClass8_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalizationImporter::$$c__DisplayClass8_0*, creationType>()));
     }
   }; // Polyglot.LocalizationImporter/Polyglot.<>c__DisplayClass8_0
   #pragma pack(pop)
-  static check_size<sizeof(LocalizationImporter::$$c__DisplayClass8_0), 16 + sizeof(Polyglot::Localization*)> __Polyglot_LocalizationImporter_$$c__DisplayClass8_0SizeCheck;
+  static check_size<sizeof(LocalizationImporter::$$c__DisplayClass8_0), 16 + sizeof(::Polyglot::Localization*)> __Polyglot_LocalizationImporter_$$c__DisplayClass8_0SizeCheck;
   static_assert(sizeof(LocalizationImporter::$$c__DisplayClass8_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

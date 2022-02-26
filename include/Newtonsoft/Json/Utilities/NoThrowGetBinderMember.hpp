@@ -25,8 +25,8 @@ namespace Newtonsoft::Json::Utilities {
   class NoThrowGetBinderMember;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Utilities::NoThrowGetBinderMember);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::NoThrowGetBinderMember*, "Newtonsoft.Json.Utilities", "NoThrowGetBinderMember");
+NEED_NO_BOX(::Newtonsoft::Json::Utilities::NoThrowGetBinderMember);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::NoThrowGetBinderMember*, "Newtonsoft.Json.Utilities", "NoThrowGetBinderMember");
 // Type namespace: Newtonsoft.Json.Utilities
 namespace Newtonsoft::Json::Utilities {
   // Size: 0x30
@@ -35,7 +35,7 @@ namespace Newtonsoft::Json::Utilities {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NullableContextAttribute] Offset: 1201E64
   // [NullableAttribute] Offset: 1201E64
-  class NoThrowGetBinderMember : public System::Dynamic::GetMemberBinder {
+  class NoThrowGetBinderMember : public ::System::Dynamic::GetMemberBinder {
     public:
     // Writing base type padding for base size: 0x21 to desired offset: 0x28
     char ___base_padding[0x7] = {};
@@ -51,27 +51,27 @@ namespace Newtonsoft::Json::Utilities {
     // private readonly System.Dynamic.GetMemberBinder _innerBinder
     // Size: 0x8
     // Offset: 0x28
-    System::Dynamic::GetMemberBinder* innerBinder;
+    ::System::Dynamic::GetMemberBinder* innerBinder;
     // Field size check
-    static_assert(sizeof(System::Dynamic::GetMemberBinder*) == 0x8);
+    static_assert(sizeof(::System::Dynamic::GetMemberBinder*) == 0x8);
     public:
     // Get instance field reference: private readonly System.Dynamic.GetMemberBinder _innerBinder
-    System::Dynamic::GetMemberBinder*& dyn__innerBinder();
+    ::System::Dynamic::GetMemberBinder*& dyn__innerBinder();
     // public System.Void .ctor(System.Dynamic.GetMemberBinder innerBinder)
     // Offset: 0x29F297C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static NoThrowGetBinderMember* New_ctor(System::Dynamic::GetMemberBinder* innerBinder) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Utilities::NoThrowGetBinderMember::.ctor");
+    static NoThrowGetBinderMember* New_ctor(::System::Dynamic::GetMemberBinder* innerBinder) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Utilities::NoThrowGetBinderMember::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoThrowGetBinderMember*, creationType>(innerBinder)));
     }
     // public override System.Dynamic.DynamicMetaObject FallbackGetMember(System.Dynamic.DynamicMetaObject target, System.Dynamic.DynamicMetaObject errorSuggestion)
     // Offset: 0x29F29B8
     // Implemented from: System.Dynamic.GetMemberBinder
     // Base method: System.Dynamic.DynamicMetaObject GetMemberBinder::FallbackGetMember(System.Dynamic.DynamicMetaObject target, System.Dynamic.DynamicMetaObject errorSuggestion)
-    System::Dynamic::DynamicMetaObject* FallbackGetMember(System::Dynamic::DynamicMetaObject* target, System::Dynamic::DynamicMetaObject* errorSuggestion);
+    ::System::Dynamic::DynamicMetaObject* FallbackGetMember(::System::Dynamic::DynamicMetaObject* target, ::System::Dynamic::DynamicMetaObject* errorSuggestion);
   }; // Newtonsoft.Json.Utilities.NoThrowGetBinderMember
   #pragma pack(pop)
-  static check_size<sizeof(NoThrowGetBinderMember), 40 + sizeof(System::Dynamic::GetMemberBinder*)> __Newtonsoft_Json_Utilities_NoThrowGetBinderMemberSizeCheck;
+  static check_size<sizeof(NoThrowGetBinderMember), 40 + sizeof(::System::Dynamic::GetMemberBinder*)> __Newtonsoft_Json_Utilities_NoThrowGetBinderMemberSizeCheck;
   static_assert(sizeof(NoThrowGetBinderMember) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -82,7 +82,7 @@ namespace Newtonsoft::Json::Utilities {
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::NoThrowGetBinderMember::FallbackGetMember
 // Il2CppName: FallbackGetMember
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dynamic::DynamicMetaObject* (Newtonsoft::Json::Utilities::NoThrowGetBinderMember::*)(System::Dynamic::DynamicMetaObject*, System::Dynamic::DynamicMetaObject*)>(&Newtonsoft::Json::Utilities::NoThrowGetBinderMember::FallbackGetMember)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::DynamicMetaObject* (Newtonsoft::Json::Utilities::NoThrowGetBinderMember::*)(::System::Dynamic::DynamicMetaObject*, ::System::Dynamic::DynamicMetaObject*)>(&Newtonsoft::Json::Utilities::NoThrowGetBinderMember::FallbackGetMember)> {
   static const MethodInfo* get() {
     static auto* target = &::il2cpp_utils::GetClassFromName("System.Dynamic", "DynamicMetaObject")->byval_arg;
     static auto* errorSuggestion = &::il2cpp_utils::GetClassFromName("System.Dynamic", "DynamicMetaObject")->byval_arg;

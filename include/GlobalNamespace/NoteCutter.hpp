@@ -31,8 +31,8 @@ namespace GlobalNamespace {
   class NoteCutter;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::NoteCutter);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutter*, "", "NoteCutter");
+NEED_NO_BOX(::GlobalNamespace::NoteCutter);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NoteCutter*, "", "NoteCutter");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x28
@@ -41,9 +41,9 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class NoteCutter : public ::Il2CppObject {
     public:
-    // Nested type: GlobalNamespace::NoteCutter::CuttableBySaberSortParams
+    // Nested type: ::GlobalNamespace::NoteCutter::CuttableBySaberSortParams
     class CuttableBySaberSortParams;
-    // Nested type: GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer
+    // Nested type: ::GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer
     class CuttableBySaberSortParamsComparer;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -57,21 +57,21 @@ namespace GlobalNamespace {
     // private readonly UnityEngine.Collider[] _colliders
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<UnityEngine::Collider*> colliders;
+    ::ArrayW<::UnityEngine::Collider*> colliders;
     // Field size check
-    static_assert(sizeof(::ArrayW<UnityEngine::Collider*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::UnityEngine::Collider*>) == 0x8);
     // private readonly NoteCutter/CuttableBySaberSortParams[] _cuttableBySaberSortParams
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayW<GlobalNamespace::NoteCutter::CuttableBySaberSortParams*> cuttableBySaberSortParams;
+    ::ArrayW<::GlobalNamespace::NoteCutter::CuttableBySaberSortParams*> cuttableBySaberSortParams;
     // Field size check
-    static_assert(sizeof(::ArrayW<GlobalNamespace::NoteCutter::CuttableBySaberSortParams*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::GlobalNamespace::NoteCutter::CuttableBySaberSortParams*>) == 0x8);
     // private readonly NoteCutter/CuttableBySaberSortParamsComparer _comparer
     // Size: 0x8
     // Offset: 0x20
-    GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer* comparer;
+    ::GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer* comparer;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer*) == 0x8);
     public:
     // static field const value: static private System.Int32 kMaxNumberOfColliders
     static constexpr const int kMaxNumberOfColliders = 16;
@@ -80,33 +80,33 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kMaxNumberOfColliders
     static void _set_kMaxNumberOfColliders(int value);
     // Get instance field reference: private readonly UnityEngine.Collider[] _colliders
-    ::ArrayW<UnityEngine::Collider*>& dyn__colliders();
+    ::ArrayW<::UnityEngine::Collider*>& dyn__colliders();
     // Get instance field reference: private readonly NoteCutter/CuttableBySaberSortParams[] _cuttableBySaberSortParams
-    ::ArrayW<GlobalNamespace::NoteCutter::CuttableBySaberSortParams*>& dyn__cuttableBySaberSortParams();
+    ::ArrayW<::GlobalNamespace::NoteCutter::CuttableBySaberSortParams*>& dyn__cuttableBySaberSortParams();
     // Get instance field reference: private readonly NoteCutter/CuttableBySaberSortParamsComparer _comparer
-    GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer*& dyn__comparer();
+    ::GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer*& dyn__comparer();
     // public System.Void Cut(Saber saber)
     // Offset: 0x2B2C750
-    void Cut(GlobalNamespace::Saber* saber);
+    void Cut(::GlobalNamespace::Saber* saber);
     // public System.Void .ctor()
     // Offset: 0x2B2C618
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteCutter* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NoteCutter::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteCutter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteCutter*, creationType>()));
     }
   }; // NoteCutter
   #pragma pack(pop)
-  static check_size<sizeof(NoteCutter), 32 + sizeof(GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer*)> __GlobalNamespace_NoteCutterSizeCheck;
+  static check_size<sizeof(NoteCutter), 32 + sizeof(::GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer*)> __GlobalNamespace_NoteCutterSizeCheck;
   static_assert(sizeof(NoteCutter) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutter::Cut
 // Il2CppName: Cut
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteCutter::*)(GlobalNamespace::Saber*)>(&GlobalNamespace::NoteCutter::Cut)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteCutter::*)(::GlobalNamespace::Saber*)>(&GlobalNamespace::NoteCutter::Cut)> {
   static const MethodInfo* get() {
     static auto* saber = &::il2cpp_utils::GetClassFromName("", "Saber")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutter*), "Cut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{saber});

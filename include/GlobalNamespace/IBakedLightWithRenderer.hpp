@@ -18,8 +18,8 @@ namespace GlobalNamespace {
   class IBakedLightWithRenderer;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::IBakedLightWithRenderer);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IBakedLightWithRenderer*, "", "IBakedLightWithRenderer");
+NEED_NO_BOX(::GlobalNamespace::IBakedLightWithRenderer);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IBakedLightWithRenderer*, "", "IBakedLightWithRenderer");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -30,7 +30,7 @@ namespace GlobalNamespace {
     public:
     // public UnityEngine.Material get_bakingMaterial()
     // Offset: 0xFFFFFFFF
-    UnityEngine::Material* get_bakingMaterial();
+    ::UnityEngine::Material* get_bakingMaterial();
   }; // IBakedLightWithRenderer
   #pragma pack(pop)
 }
@@ -38,7 +38,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::IBakedLightWithRenderer::get_bakingMaterial
 // Il2CppName: get_bakingMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (GlobalNamespace::IBakedLightWithRenderer::*)()>(&GlobalNamespace::IBakedLightWithRenderer::get_bakingMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Material* (GlobalNamespace::IBakedLightWithRenderer::*)()>(&GlobalNamespace::IBakedLightWithRenderer::get_bakingMaterial)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IBakedLightWithRenderer*), "get_bakingMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

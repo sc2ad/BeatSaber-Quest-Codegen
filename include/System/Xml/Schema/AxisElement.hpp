@@ -26,8 +26,8 @@ namespace System::Xml::Schema {
   class AxisElement;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Schema::AxisElement);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::AxisElement*, "System.Xml.Schema", "AxisElement");
+NEED_NO_BOX(::System::Xml::Schema::AxisElement);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::AxisElement*, "System.Xml.Schema", "AxisElement");
 // Type namespace: System.Xml.Schema
 namespace System::Xml::Schema {
   // Size: 0x21
@@ -48,9 +48,9 @@ namespace System::Xml::Schema {
     // System.Xml.Schema.DoubleLinkAxis curNode
     // Size: 0x8
     // Offset: 0x10
-    System::Xml::Schema::DoubleLinkAxis* curNode;
+    ::System::Xml::Schema::DoubleLinkAxis* curNode;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::DoubleLinkAxis*) == 0x8);
+    static_assert(sizeof(::System::Xml::Schema::DoubleLinkAxis*) == 0x8);
     // System.Int32 rootDepth
     // Size: 0x4
     // Offset: 0x18
@@ -71,7 +71,7 @@ namespace System::Xml::Schema {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: System.Xml.Schema.DoubleLinkAxis curNode
-    System::Xml::Schema::DoubleLinkAxis*& dyn_curNode();
+    ::System::Xml::Schema::DoubleLinkAxis*& dyn_curNode();
     // Get instance field reference: System.Int32 rootDepth
     int& dyn_rootDepth();
     // Get instance field reference: System.Int32 curDepth
@@ -80,12 +80,12 @@ namespace System::Xml::Schema {
     bool& dyn_isMatch();
     // System.Xml.Schema.DoubleLinkAxis get_CurNode()
     // Offset: 0x16F31F8
-    System::Xml::Schema::DoubleLinkAxis* get_CurNode();
+    ::System::Xml::Schema::DoubleLinkAxis* get_CurNode();
     // System.Void .ctor(System.Xml.Schema.DoubleLinkAxis node, System.Int32 depth)
     // Offset: 0x16F3200
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AxisElement* New_ctor(System::Xml::Schema::DoubleLinkAxis* node, int depth) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Schema::AxisElement::.ctor");
+    static AxisElement* New_ctor(::System::Xml::Schema::DoubleLinkAxis* node, int depth) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::AxisElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AxisElement*, creationType>(node, depth)));
     }
     // System.Void SetDepth(System.Int32 depth)
@@ -93,10 +93,10 @@ namespace System::Xml::Schema {
     void SetDepth(int depth);
     // System.Void MoveToParent(System.Int32 depth, System.Xml.Schema.ForwardAxis parent)
     // Offset: 0x16F3248
-    void MoveToParent(int depth, System::Xml::Schema::ForwardAxis* parent);
+    void MoveToParent(int depth, ::System::Xml::Schema::ForwardAxis* parent);
     // System.Boolean MoveToChild(System.String name, System.String URN, System.Int32 depth, System.Xml.Schema.ForwardAxis parent)
     // Offset: 0x16F333C
-    bool MoveToChild(::StringW name, ::StringW URN, int depth, System::Xml::Schema::ForwardAxis* parent);
+    bool MoveToChild(::StringW name, ::StringW URN, int depth, ::System::Xml::Schema::ForwardAxis* parent);
   }; // System.Xml.Schema.AxisElement
   #pragma pack(pop)
   static check_size<sizeof(AxisElement), 32 + sizeof(bool)> __System_Xml_Schema_AxisElementSizeCheck;
@@ -106,7 +106,7 @@ namespace System::Xml::Schema {
 // Writing MetadataGetter for method: System::Xml::Schema::AxisElement::get_CurNode
 // Il2CppName: get_CurNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Schema::DoubleLinkAxis* (System::Xml::Schema::AxisElement::*)()>(&System::Xml::Schema::AxisElement::get_CurNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::DoubleLinkAxis* (System::Xml::Schema::AxisElement::*)()>(&System::Xml::Schema::AxisElement::get_CurNode)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::AxisElement*), "get_CurNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -127,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::AxisElement::MoveToParent
 // Il2CppName: MoveToParent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::AxisElement::*)(int, System::Xml::Schema::ForwardAxis*)>(&System::Xml::Schema::AxisElement::MoveToParent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::AxisElement::*)(int, ::System::Xml::Schema::ForwardAxis*)>(&System::Xml::Schema::AxisElement::MoveToParent)> {
   static const MethodInfo* get() {
     static auto* depth = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* parent = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "ForwardAxis")->byval_arg;
@@ -137,7 +137,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::AxisElement::MoveToChild
 // Il2CppName: MoveToChild
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::Schema::AxisElement::*)(::StringW, ::StringW, int, System::Xml::Schema::ForwardAxis*)>(&System::Xml::Schema::AxisElement::MoveToChild)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::Schema::AxisElement::*)(::StringW, ::StringW, int, ::System::Xml::Schema::ForwardAxis*)>(&System::Xml::Schema::AxisElement::MoveToChild)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* URN = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

@@ -14,8 +14,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::DiffieHellmanUtility::DiffieHellmanKeyPair::$$c__DisplayClass5_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DiffieHellmanUtility::DiffieHellmanKeyPair::$$c__DisplayClass5_0*, "", "DiffieHellmanUtility/DiffieHellmanKeyPair/<>c__DisplayClass5_0");
+NEED_NO_BOX(::GlobalNamespace::DiffieHellmanUtility::DiffieHellmanKeyPair::$$c__DisplayClass5_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DiffieHellmanUtility::DiffieHellmanKeyPair::$$c__DisplayClass5_0*, "", "DiffieHellmanUtility/DiffieHellmanKeyPair/<>c__DisplayClass5_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -37,9 +37,9 @@ namespace GlobalNamespace {
     // public DiffieHellmanUtility/DiffieHellmanKeyPair <>4__this
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::DiffieHellmanUtility::DiffieHellmanKeyPair* $$4__this;
+    ::GlobalNamespace::DiffieHellmanUtility::DiffieHellmanKeyPair* $$4__this;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::DiffieHellmanUtility::DiffieHellmanKeyPair*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::DiffieHellmanUtility::DiffieHellmanKeyPair*) == 0x8);
     // public System.Byte[] clientPublicKey
     // Size: 0x8
     // Offset: 0x18
@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     public:
     // Get instance field reference: public DiffieHellmanUtility/DiffieHellmanKeyPair <>4__this
-    GlobalNamespace::DiffieHellmanUtility::DiffieHellmanKeyPair*& dyn_$$4__this();
+    ::GlobalNamespace::DiffieHellmanUtility::DiffieHellmanKeyPair*& dyn_$$4__this();
     // Get instance field reference: public System.Byte[] clientPublicKey
     ::ArrayW<uint8_t>& dyn_clientPublicKey();
     // System.Byte[] <GetPreMasterSecretAsync>b__0()
@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DiffieHellmanUtility::DiffieHellmanKeyPair::$$c__DisplayClass5_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DiffieHellmanUtility::DiffieHellmanKeyPair::$$c__DisplayClass5_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DiffieHellmanUtility::DiffieHellmanKeyPair::$$c__DisplayClass5_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DiffieHellmanUtility::DiffieHellmanKeyPair::$$c__DisplayClass5_0*, creationType>()));
     }
   }; // DiffieHellmanUtility/DiffieHellmanKeyPair/<>c__DisplayClass5_0

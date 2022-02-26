@@ -16,8 +16,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRPlugin::OVRP_1_46_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_46_0*, "", "OVRPlugin/OVRP_1_46_0");
+NEED_NO_BOX(::GlobalNamespace::OVRPlugin::OVRP_1_46_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRPlugin::OVRP_1_46_0*, "", "OVRPlugin/OVRP_1_46_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -27,18 +27,18 @@ namespace GlobalNamespace {
   class OVRPlugin::OVRP_1_46_0 : public ::Il2CppObject {
     public:
     // Get static field: static public readonly System.Version version
-    static System::Version* _get_version();
+    static ::System::Version* _get_version();
     // Set static field: static public readonly System.Version version
-    static void _set_version(System::Version* value);
+    static void _set_version(::System::Version* value);
     // static private System.Void .cctor()
     // Offset: 0x1A74E50
     static void _cctor();
     // static public OVRPlugin/Result ovrp_GetTiledMultiResDynamic(out OVRPlugin/Bool isDynamic)
     // Offset: 0x1A74D50
-    static GlobalNamespace::OVRPlugin::Result ovrp_GetTiledMultiResDynamic(ByRef<GlobalNamespace::OVRPlugin::Bool> isDynamic);
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_GetTiledMultiResDynamic(ByRef<::GlobalNamespace::OVRPlugin::Bool> isDynamic);
     // static public OVRPlugin/Result ovrp_SetTiledMultiResDynamic(OVRPlugin/Bool isDynamic)
     // Offset: 0x1A74DD0
-    static GlobalNamespace::OVRPlugin::Result ovrp_SetTiledMultiResDynamic(GlobalNamespace::OVRPlugin::Bool isDynamic);
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_SetTiledMultiResDynamic(::GlobalNamespace::OVRPlugin::Bool isDynamic);
   }; // OVRPlugin/OVRP_1_46_0
   #pragma pack(pop)
 }
@@ -54,7 +54,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_46_0::ovrp_GetTiledMultiResDynamic
 // Il2CppName: ovrp_GetTiledMultiResDynamic
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(ByRef<GlobalNamespace::OVRPlugin::Bool>)>(&GlobalNamespace::OVRPlugin::OVRP_1_46_0::ovrp_GetTiledMultiResDynamic)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)(ByRef<::GlobalNamespace::OVRPlugin::Bool>)>(&GlobalNamespace::OVRPlugin::OVRP_1_46_0::ovrp_GetTiledMultiResDynamic)> {
   static const MethodInfo* get() {
     static auto* isDynamic = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Bool")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_46_0*), "ovrp_GetTiledMultiResDynamic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{isDynamic});
@@ -63,7 +63,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_46_0::ovrp_SetTiledMultiResDynamic
 // Il2CppName: ovrp_SetTiledMultiResDynamic
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::Bool)>(&GlobalNamespace::OVRPlugin::OVRP_1_46_0::ovrp_SetTiledMultiResDynamic)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)(::GlobalNamespace::OVRPlugin::Bool)>(&GlobalNamespace::OVRPlugin::OVRP_1_46_0::ovrp_SetTiledMultiResDynamic)> {
   static const MethodInfo* get() {
     static auto* isDynamic = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Bool")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_46_0*), "ovrp_SetTiledMultiResDynamic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{isDynamic});

@@ -14,7 +14,7 @@ namespace System::Reflection {
   struct EventAttributes;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::EventAttributes, "System.Reflection", "EventAttributes");
+DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::EventAttributes, "System.Reflection", "EventAttributes");
 // Type namespace: System.Reflection
 namespace System::Reflection {
   // Size: 0x4
@@ -23,7 +23,7 @@ namespace System::Reflection {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: 1188278
   // [FlagsAttribute] Offset: FFFFFFFF
-  struct EventAttributes/*, public System::Enum*/ {
+  struct EventAttributes/*, public ::System::Enum*/ {
     public:
     public:
     // public System.Int32 value__
@@ -35,9 +35,9 @@ namespace System::Reflection {
     public:
     // Creating value type constructor for type: EventAttributes
     constexpr EventAttributes(int value_ = {}) noexcept : value{value_} {}
-    // Creating interface conversion operator: operator System::Enum
-    operator System::Enum() noexcept {
-      return *reinterpret_cast<System::Enum*>(this);
+    // Creating interface conversion operator: operator ::System::Enum
+    operator ::System::Enum() noexcept {
+      return *reinterpret_cast<::System::Enum*>(this);
     }
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
@@ -46,27 +46,27 @@ namespace System::Reflection {
     // static field const value: static public System.Reflection.EventAttributes None
     static constexpr const int None = 0;
     // Get static field: static public System.Reflection.EventAttributes None
-    static System::Reflection::EventAttributes _get_None();
+    static ::System::Reflection::EventAttributes _get_None();
     // Set static field: static public System.Reflection.EventAttributes None
-    static void _set_None(System::Reflection::EventAttributes value);
+    static void _set_None(::System::Reflection::EventAttributes value);
     // static field const value: static public System.Reflection.EventAttributes SpecialName
     static constexpr const int SpecialName = 512;
     // Get static field: static public System.Reflection.EventAttributes SpecialName
-    static System::Reflection::EventAttributes _get_SpecialName();
+    static ::System::Reflection::EventAttributes _get_SpecialName();
     // Set static field: static public System.Reflection.EventAttributes SpecialName
-    static void _set_SpecialName(System::Reflection::EventAttributes value);
+    static void _set_SpecialName(::System::Reflection::EventAttributes value);
     // static field const value: static public System.Reflection.EventAttributes ReservedMask
     static constexpr const int ReservedMask = 1024;
     // Get static field: static public System.Reflection.EventAttributes ReservedMask
-    static System::Reflection::EventAttributes _get_ReservedMask();
+    static ::System::Reflection::EventAttributes _get_ReservedMask();
     // Set static field: static public System.Reflection.EventAttributes ReservedMask
-    static void _set_ReservedMask(System::Reflection::EventAttributes value);
+    static void _set_ReservedMask(::System::Reflection::EventAttributes value);
     // static field const value: static public System.Reflection.EventAttributes RTSpecialName
     static constexpr const int RTSpecialName = 1024;
     // Get static field: static public System.Reflection.EventAttributes RTSpecialName
-    static System::Reflection::EventAttributes _get_RTSpecialName();
+    static ::System::Reflection::EventAttributes _get_RTSpecialName();
     // Set static field: static public System.Reflection.EventAttributes RTSpecialName
-    static void _set_RTSpecialName(System::Reflection::EventAttributes value);
+    static void _set_RTSpecialName(::System::Reflection::EventAttributes value);
     // Get instance field reference: public System.Int32 value__
     int& dyn_value__();
   }; // System.Reflection.EventAttributes

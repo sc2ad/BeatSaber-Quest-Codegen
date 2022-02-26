@@ -13,8 +13,8 @@ namespace NUnit {
   class Env;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Env);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Env*, "NUnit", "Env");
+NEED_NO_BOX(::NUnit::Env);
+DEFINE_IL2CPP_ARG_TYPE(::NUnit::Env*, "NUnit", "Env");
 // Type namespace: NUnit
 namespace NUnit {
   // Size: 0x10

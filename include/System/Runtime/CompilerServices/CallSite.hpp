@@ -23,8 +23,8 @@ namespace System::Runtime::CompilerServices {
   class CallSite;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::CompilerServices::CallSite);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::CallSite*, "System.Runtime.CompilerServices", "CallSite");
+NEED_NO_BOX(::System::Runtime::CompilerServices::CallSite);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::CompilerServices::CallSite*, "System.Runtime.CompilerServices", "CallSite");
 // Type namespace: System.Runtime.CompilerServices
 namespace System::Runtime::CompilerServices {
   // Size: 0x19
@@ -45,9 +45,9 @@ namespace System::Runtime::CompilerServices {
     // readonly System.Runtime.CompilerServices.CallSiteBinder _binder
     // Size: 0x8
     // Offset: 0x10
-    System::Runtime::CompilerServices::CallSiteBinder* binder;
+    ::System::Runtime::CompilerServices::CallSiteBinder* binder;
     // Field size check
-    static_assert(sizeof(System::Runtime::CompilerServices::CallSiteBinder*) == 0x8);
+    static_assert(sizeof(::System::Runtime::CompilerServices::CallSiteBinder*) == 0x8);
     // System.Boolean _match
     // Size: 0x1
     // Offset: 0x18
@@ -56,17 +56,17 @@ namespace System::Runtime::CompilerServices {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: readonly System.Runtime.CompilerServices.CallSiteBinder _binder
-    System::Runtime::CompilerServices::CallSiteBinder*& dyn__binder();
+    ::System::Runtime::CompilerServices::CallSiteBinder*& dyn__binder();
     // Get instance field reference: System.Boolean _match
     bool& dyn__match();
     // public System.Runtime.CompilerServices.CallSiteBinder get_Binder()
     // Offset: 0x297EEA4
-    System::Runtime::CompilerServices::CallSiteBinder* get_Binder();
+    ::System::Runtime::CompilerServices::CallSiteBinder* get_Binder();
     // System.Void .ctor(System.Runtime.CompilerServices.CallSiteBinder binder)
     // Offset: 0x297EE78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CallSite* New_ctor(System::Runtime::CompilerServices::CallSiteBinder* binder) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::CallSite::.ctor");
+    static CallSite* New_ctor(::System::Runtime::CompilerServices::CallSiteBinder* binder) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::CallSite::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CallSite*, creationType>(binder)));
     }
   }; // System.Runtime.CompilerServices.CallSite
@@ -78,7 +78,7 @@ namespace System::Runtime::CompilerServices {
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::CallSite::get_Binder
 // Il2CppName: get_Binder
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::CompilerServices::CallSiteBinder* (System::Runtime::CompilerServices::CallSite::*)()>(&System::Runtime::CompilerServices::CallSite::get_Binder)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::CompilerServices::CallSiteBinder* (System::Runtime::CompilerServices::CallSite::*)()>(&System::Runtime::CompilerServices::CallSite::get_Binder)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::CallSite*), "get_Binder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

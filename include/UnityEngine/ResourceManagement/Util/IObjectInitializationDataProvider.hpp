@@ -19,8 +19,8 @@ namespace UnityEngine::ResourceManagement::Util {
   class IObjectInitializationDataProvider;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ResourceManagement::Util::IObjectInitializationDataProvider);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::IObjectInitializationDataProvider*, "UnityEngine.ResourceManagement.Util", "IObjectInitializationDataProvider");
+NEED_NO_BOX(::UnityEngine::ResourceManagement::Util::IObjectInitializationDataProvider);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::Util::IObjectInitializationDataProvider*, "UnityEngine.ResourceManagement.Util", "IObjectInitializationDataProvider");
 // Type namespace: UnityEngine.ResourceManagement.Util
 namespace UnityEngine::ResourceManagement::Util {
   // Size: 0x10
@@ -34,7 +34,7 @@ namespace UnityEngine::ResourceManagement::Util {
     ::StringW get_Name();
     // public UnityEngine.ResourceManagement.Util.ObjectInitializationData CreateObjectInitializationData()
     // Offset: 0xFFFFFFFF
-    UnityEngine::ResourceManagement::Util::ObjectInitializationData CreateObjectInitializationData();
+    ::UnityEngine::ResourceManagement::Util::ObjectInitializationData CreateObjectInitializationData();
   }; // UnityEngine.ResourceManagement.Util.IObjectInitializationDataProvider
   #pragma pack(pop)
 }
@@ -50,7 +50,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::IObjectInitializationDataProvider::CreateObjectInitializationData
 // Il2CppName: CreateObjectInitializationData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::Util::ObjectInitializationData (UnityEngine::ResourceManagement::Util::IObjectInitializationDataProvider::*)()>(&UnityEngine::ResourceManagement::Util::IObjectInitializationDataProvider::CreateObjectInitializationData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ResourceManagement::Util::ObjectInitializationData (UnityEngine::ResourceManagement::Util::IObjectInitializationDataProvider::*)()>(&UnityEngine::ResourceManagement::Util::IObjectInitializationDataProvider::CreateObjectInitializationData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::IObjectInitializationDataProvider*), "CreateObjectInitializationData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

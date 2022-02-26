@@ -34,8 +34,8 @@ namespace Newtonsoft::Json::Converters {
   class XmlDocumentWrapper;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Converters::XmlDocumentWrapper);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Converters::XmlDocumentWrapper*, "Newtonsoft.Json.Converters", "XmlDocumentWrapper");
+NEED_NO_BOX(::Newtonsoft::Json::Converters::XmlDocumentWrapper);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Converters::XmlDocumentWrapper*, "Newtonsoft.Json.Converters", "XmlDocumentWrapper");
 // Type namespace: Newtonsoft.Json.Converters
 namespace Newtonsoft::Json::Converters {
   // Size: 0x30
@@ -44,7 +44,7 @@ namespace Newtonsoft::Json::Converters {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NullableContextAttribute] Offset: 1203720
   // [NullableAttribute] Offset: 1203720
-  class XmlDocumentWrapper : public Newtonsoft::Json::Converters::XmlNodeWrapper/*, public Newtonsoft::Json::Converters::IXmlDocument*/ {
+  class XmlDocumentWrapper : public ::Newtonsoft::Json::Converters::XmlNodeWrapper/*, public ::Newtonsoft::Json::Converters::IXmlDocument*/ {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -58,76 +58,76 @@ namespace Newtonsoft::Json::Converters {
     // private readonly System.Xml.XmlDocument _document
     // Size: 0x8
     // Offset: 0x28
-    System::Xml::XmlDocument* document;
+    ::System::Xml::XmlDocument* document;
     // Field size check
-    static_assert(sizeof(System::Xml::XmlDocument*) == 0x8);
+    static_assert(sizeof(::System::Xml::XmlDocument*) == 0x8);
     public:
-    // Creating interface conversion operator: operator Newtonsoft::Json::Converters::IXmlDocument
-    operator Newtonsoft::Json::Converters::IXmlDocument() noexcept {
-      return *reinterpret_cast<Newtonsoft::Json::Converters::IXmlDocument*>(this);
+    // Creating interface conversion operator: operator ::Newtonsoft::Json::Converters::IXmlDocument
+    operator ::Newtonsoft::Json::Converters::IXmlDocument() noexcept {
+      return *reinterpret_cast<::Newtonsoft::Json::Converters::IXmlDocument*>(this);
     }
-    // Creating conversion operator: operator System::Xml::XmlDocument*
-    constexpr operator System::Xml::XmlDocument*() const noexcept {
+    // Creating conversion operator: operator ::System::Xml::XmlDocument*
+    constexpr operator ::System::Xml::XmlDocument*() const noexcept {
       return document;
     }
     // Get instance field reference: private readonly System.Xml.XmlDocument _document
-    System::Xml::XmlDocument*& dyn__document();
+    ::System::Xml::XmlDocument*& dyn__document();
     // public Newtonsoft.Json.Converters.IXmlElement get_DocumentElement()
     // Offset: 0x18250A0
-    Newtonsoft::Json::Converters::IXmlElement* get_DocumentElement();
+    ::Newtonsoft::Json::Converters::IXmlElement* get_DocumentElement();
     // public System.Void .ctor(System.Xml.XmlDocument document)
     // Offset: 0x182487C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlDocumentWrapper* New_ctor(System::Xml::XmlDocument* document) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Converters::XmlDocumentWrapper::.ctor");
+    static XmlDocumentWrapper* New_ctor(::System::Xml::XmlDocument* document) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Converters::XmlDocumentWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlDocumentWrapper*, creationType>(document)));
     }
     // public Newtonsoft.Json.Converters.IXmlNode CreateComment(System.String data)
     // Offset: 0x18248AC
-    Newtonsoft::Json::Converters::IXmlNode* CreateComment(::StringW data);
+    ::Newtonsoft::Json::Converters::IXmlNode* CreateComment(::StringW data);
     // public Newtonsoft.Json.Converters.IXmlNode CreateTextNode(System.String text)
     // Offset: 0x1824944
-    Newtonsoft::Json::Converters::IXmlNode* CreateTextNode(::StringW text);
+    ::Newtonsoft::Json::Converters::IXmlNode* CreateTextNode(::StringW text);
     // public Newtonsoft.Json.Converters.IXmlNode CreateCDataSection(System.String data)
     // Offset: 0x18249DC
-    Newtonsoft::Json::Converters::IXmlNode* CreateCDataSection(::StringW data);
+    ::Newtonsoft::Json::Converters::IXmlNode* CreateCDataSection(::StringW data);
     // public Newtonsoft.Json.Converters.IXmlNode CreateWhitespace(System.String text)
     // Offset: 0x1824A74
-    Newtonsoft::Json::Converters::IXmlNode* CreateWhitespace(::StringW text);
+    ::Newtonsoft::Json::Converters::IXmlNode* CreateWhitespace(::StringW text);
     // public Newtonsoft.Json.Converters.IXmlNode CreateSignificantWhitespace(System.String text)
     // Offset: 0x1824B0C
-    Newtonsoft::Json::Converters::IXmlNode* CreateSignificantWhitespace(::StringW text);
+    ::Newtonsoft::Json::Converters::IXmlNode* CreateSignificantWhitespace(::StringW text);
     // public Newtonsoft.Json.Converters.IXmlNode CreateXmlDeclaration(System.String version, System.String encoding, System.String standalone)
     // Offset: 0x1824BA4
-    Newtonsoft::Json::Converters::IXmlNode* CreateXmlDeclaration(::StringW version, ::StringW encoding, ::StringW standalone);
+    ::Newtonsoft::Json::Converters::IXmlNode* CreateXmlDeclaration(::StringW version, ::StringW encoding, ::StringW standalone);
     // public Newtonsoft.Json.Converters.IXmlNode CreateXmlDocumentType(System.String name, System.String publicId, System.String systemId, System.String internalSubset)
     // Offset: 0x1824C58
-    Newtonsoft::Json::Converters::IXmlNode* CreateXmlDocumentType(::StringW name, ::StringW publicId, ::StringW systemId, ::StringW internalSubset);
+    ::Newtonsoft::Json::Converters::IXmlNode* CreateXmlDocumentType(::StringW name, ::StringW publicId, ::StringW systemId, ::StringW internalSubset);
     // public Newtonsoft.Json.Converters.IXmlNode CreateProcessingInstruction(System.String target, System.String data)
     // Offset: 0x1824D10
-    Newtonsoft::Json::Converters::IXmlNode* CreateProcessingInstruction(::StringW target, ::StringW data);
+    ::Newtonsoft::Json::Converters::IXmlNode* CreateProcessingInstruction(::StringW target, ::StringW data);
     // public Newtonsoft.Json.Converters.IXmlElement CreateElement(System.String elementName)
     // Offset: 0x1824DB0
-    Newtonsoft::Json::Converters::IXmlElement* CreateElement(::StringW elementName);
+    ::Newtonsoft::Json::Converters::IXmlElement* CreateElement(::StringW elementName);
     // public Newtonsoft.Json.Converters.IXmlElement CreateElement(System.String qualifiedName, System.String namespaceUri)
     // Offset: 0x1824E74
-    Newtonsoft::Json::Converters::IXmlElement* CreateElement(::StringW qualifiedName, ::StringW namespaceUri);
+    ::Newtonsoft::Json::Converters::IXmlElement* CreateElement(::StringW qualifiedName, ::StringW namespaceUri);
     // public Newtonsoft.Json.Converters.IXmlNode CreateAttribute(System.String name, System.String value)
     // Offset: 0x1824F10
-    Newtonsoft::Json::Converters::IXmlNode* CreateAttribute(::StringW name, ::StringW value);
+    ::Newtonsoft::Json::Converters::IXmlNode* CreateAttribute(::StringW name, ::StringW value);
     // public Newtonsoft.Json.Converters.IXmlNode CreateAttribute(System.String qualifiedName, System.String namespaceUri, System.String value)
     // Offset: 0x1824FE0
-    Newtonsoft::Json::Converters::IXmlNode* CreateAttribute(::StringW qualifiedName, ::StringW namespaceUri, ::StringW value);
+    ::Newtonsoft::Json::Converters::IXmlNode* CreateAttribute(::StringW qualifiedName, ::StringW namespaceUri, ::StringW value);
   }; // Newtonsoft.Json.Converters.XmlDocumentWrapper
   #pragma pack(pop)
-  static check_size<sizeof(XmlDocumentWrapper), 40 + sizeof(System::Xml::XmlDocument*)> __Newtonsoft_Json_Converters_XmlDocumentWrapperSizeCheck;
+  static check_size<sizeof(XmlDocumentWrapper), 40 + sizeof(::System::Xml::XmlDocument*)> __Newtonsoft_Json_Converters_XmlDocumentWrapperSizeCheck;
   static_assert(sizeof(XmlDocumentWrapper) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlDocumentWrapper::get_DocumentElement
 // Il2CppName: get_DocumentElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Converters::IXmlElement* (Newtonsoft::Json::Converters::XmlDocumentWrapper::*)()>(&Newtonsoft::Json::Converters::XmlDocumentWrapper::get_DocumentElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Converters::IXmlElement* (Newtonsoft::Json::Converters::XmlDocumentWrapper::*)()>(&Newtonsoft::Json::Converters::XmlDocumentWrapper::get_DocumentElement)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Converters::XmlDocumentWrapper*), "get_DocumentElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -139,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft:
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlDocumentWrapper::CreateComment
 // Il2CppName: CreateComment
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Converters::IXmlNode* (Newtonsoft::Json::Converters::XmlDocumentWrapper::*)(::StringW)>(&Newtonsoft::Json::Converters::XmlDocumentWrapper::CreateComment)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Converters::IXmlNode* (Newtonsoft::Json::Converters::XmlDocumentWrapper::*)(::StringW)>(&Newtonsoft::Json::Converters::XmlDocumentWrapper::CreateComment)> {
   static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Converters::XmlDocumentWrapper*), "CreateComment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});
@@ -148,7 +148,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft:
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlDocumentWrapper::CreateTextNode
 // Il2CppName: CreateTextNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Converters::IXmlNode* (Newtonsoft::Json::Converters::XmlDocumentWrapper::*)(::StringW)>(&Newtonsoft::Json::Converters::XmlDocumentWrapper::CreateTextNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Converters::IXmlNode* (Newtonsoft::Json::Converters::XmlDocumentWrapper::*)(::StringW)>(&Newtonsoft::Json::Converters::XmlDocumentWrapper::CreateTextNode)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Converters::XmlDocumentWrapper*), "CreateTextNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text});
@@ -157,7 +157,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft:
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlDocumentWrapper::CreateCDataSection
 // Il2CppName: CreateCDataSection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Converters::IXmlNode* (Newtonsoft::Json::Converters::XmlDocumentWrapper::*)(::StringW)>(&Newtonsoft::Json::Converters::XmlDocumentWrapper::CreateCDataSection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Converters::IXmlNode* (Newtonsoft::Json::Converters::XmlDocumentWrapper::*)(::StringW)>(&Newtonsoft::Json::Converters::XmlDocumentWrapper::CreateCDataSection)> {
   static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Converters::XmlDocumentWrapper*), "CreateCDataSection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});
@@ -166,7 +166,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft:
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlDocumentWrapper::CreateWhitespace
 // Il2CppName: CreateWhitespace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Converters::IXmlNode* (Newtonsoft::Json::Converters::XmlDocumentWrapper::*)(::StringW)>(&Newtonsoft::Json::Converters::XmlDocumentWrapper::CreateWhitespace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Converters::IXmlNode* (Newtonsoft::Json::Converters::XmlDocumentWrapper::*)(::StringW)>(&Newtonsoft::Json::Converters::XmlDocumentWrapper::CreateWhitespace)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Converters::XmlDocumentWrapper*), "CreateWhitespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text});
@@ -175,7 +175,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft:
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlDocumentWrapper::CreateSignificantWhitespace
 // Il2CppName: CreateSignificantWhitespace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Converters::IXmlNode* (Newtonsoft::Json::Converters::XmlDocumentWrapper::*)(::StringW)>(&Newtonsoft::Json::Converters::XmlDocumentWrapper::CreateSignificantWhitespace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Converters::IXmlNode* (Newtonsoft::Json::Converters::XmlDocumentWrapper::*)(::StringW)>(&Newtonsoft::Json::Converters::XmlDocumentWrapper::CreateSignificantWhitespace)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Converters::XmlDocumentWrapper*), "CreateSignificantWhitespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text});
@@ -184,7 +184,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft:
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlDocumentWrapper::CreateXmlDeclaration
 // Il2CppName: CreateXmlDeclaration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Converters::IXmlNode* (Newtonsoft::Json::Converters::XmlDocumentWrapper::*)(::StringW, ::StringW, ::StringW)>(&Newtonsoft::Json::Converters::XmlDocumentWrapper::CreateXmlDeclaration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Converters::IXmlNode* (Newtonsoft::Json::Converters::XmlDocumentWrapper::*)(::StringW, ::StringW, ::StringW)>(&Newtonsoft::Json::Converters::XmlDocumentWrapper::CreateXmlDeclaration)> {
   static const MethodInfo* get() {
     static auto* version = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* encoding = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -195,7 +195,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft:
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlDocumentWrapper::CreateXmlDocumentType
 // Il2CppName: CreateXmlDocumentType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Converters::IXmlNode* (Newtonsoft::Json::Converters::XmlDocumentWrapper::*)(::StringW, ::StringW, ::StringW, ::StringW)>(&Newtonsoft::Json::Converters::XmlDocumentWrapper::CreateXmlDocumentType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Converters::IXmlNode* (Newtonsoft::Json::Converters::XmlDocumentWrapper::*)(::StringW, ::StringW, ::StringW, ::StringW)>(&Newtonsoft::Json::Converters::XmlDocumentWrapper::CreateXmlDocumentType)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* publicId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -207,7 +207,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft:
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlDocumentWrapper::CreateProcessingInstruction
 // Il2CppName: CreateProcessingInstruction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Converters::IXmlNode* (Newtonsoft::Json::Converters::XmlDocumentWrapper::*)(::StringW, ::StringW)>(&Newtonsoft::Json::Converters::XmlDocumentWrapper::CreateProcessingInstruction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Converters::IXmlNode* (Newtonsoft::Json::Converters::XmlDocumentWrapper::*)(::StringW, ::StringW)>(&Newtonsoft::Json::Converters::XmlDocumentWrapper::CreateProcessingInstruction)> {
   static const MethodInfo* get() {
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* data = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -217,7 +217,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft:
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlDocumentWrapper::CreateElement
 // Il2CppName: CreateElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Converters::IXmlElement* (Newtonsoft::Json::Converters::XmlDocumentWrapper::*)(::StringW)>(&Newtonsoft::Json::Converters::XmlDocumentWrapper::CreateElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Converters::IXmlElement* (Newtonsoft::Json::Converters::XmlDocumentWrapper::*)(::StringW)>(&Newtonsoft::Json::Converters::XmlDocumentWrapper::CreateElement)> {
   static const MethodInfo* get() {
     static auto* elementName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Converters::XmlDocumentWrapper*), "CreateElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{elementName});
@@ -226,7 +226,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft:
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlDocumentWrapper::CreateElement
 // Il2CppName: CreateElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Converters::IXmlElement* (Newtonsoft::Json::Converters::XmlDocumentWrapper::*)(::StringW, ::StringW)>(&Newtonsoft::Json::Converters::XmlDocumentWrapper::CreateElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Converters::IXmlElement* (Newtonsoft::Json::Converters::XmlDocumentWrapper::*)(::StringW, ::StringW)>(&Newtonsoft::Json::Converters::XmlDocumentWrapper::CreateElement)> {
   static const MethodInfo* get() {
     static auto* qualifiedName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* namespaceUri = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -236,7 +236,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft:
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlDocumentWrapper::CreateAttribute
 // Il2CppName: CreateAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Converters::IXmlNode* (Newtonsoft::Json::Converters::XmlDocumentWrapper::*)(::StringW, ::StringW)>(&Newtonsoft::Json::Converters::XmlDocumentWrapper::CreateAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Converters::IXmlNode* (Newtonsoft::Json::Converters::XmlDocumentWrapper::*)(::StringW, ::StringW)>(&Newtonsoft::Json::Converters::XmlDocumentWrapper::CreateAttribute)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -246,7 +246,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft:
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XmlDocumentWrapper::CreateAttribute
 // Il2CppName: CreateAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Converters::IXmlNode* (Newtonsoft::Json::Converters::XmlDocumentWrapper::*)(::StringW, ::StringW, ::StringW)>(&Newtonsoft::Json::Converters::XmlDocumentWrapper::CreateAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Converters::IXmlNode* (Newtonsoft::Json::Converters::XmlDocumentWrapper::*)(::StringW, ::StringW, ::StringW)>(&Newtonsoft::Json::Converters::XmlDocumentWrapper::CreateAttribute)> {
   static const MethodInfo* get() {
     static auto* qualifiedName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* namespaceUri = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

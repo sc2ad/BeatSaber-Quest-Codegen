@@ -31,8 +31,8 @@ namespace LiteNetLib {
   class BaseChannel;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(LiteNetLib::BaseChannel);
-DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::BaseChannel*, "LiteNetLib", "BaseChannel");
+NEED_NO_BOX(::LiteNetLib::BaseChannel);
+DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::BaseChannel*, "LiteNetLib", "BaseChannel");
 // Type namespace: LiteNetLib
 namespace LiteNetLib {
   // Size: 0x28
@@ -53,50 +53,50 @@ namespace LiteNetLib {
     // public LiteNetLib.BaseChannel Next
     // Size: 0x8
     // Offset: 0x10
-    LiteNetLib::BaseChannel* Next;
+    ::LiteNetLib::BaseChannel* Next;
     // Field size check
-    static_assert(sizeof(LiteNetLib::BaseChannel*) == 0x8);
+    static_assert(sizeof(::LiteNetLib::BaseChannel*) == 0x8);
     // protected readonly LiteNetLib.NetPeer Peer
     // Size: 0x8
     // Offset: 0x18
-    LiteNetLib::NetPeer* Peer;
+    ::LiteNetLib::NetPeer* Peer;
     // Field size check
-    static_assert(sizeof(LiteNetLib::NetPeer*) == 0x8);
+    static_assert(sizeof(::LiteNetLib::NetPeer*) == 0x8);
     // protected readonly System.Collections.Generic.Queue`1<LiteNetLib.NetPacket> OutgoingQueue
     // Size: 0x8
     // Offset: 0x20
-    System::Collections::Generic::Queue_1<LiteNetLib::NetPacket*>* OutgoingQueue;
+    ::System::Collections::Generic::Queue_1<::LiteNetLib::NetPacket*>* OutgoingQueue;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Queue_1<LiteNetLib::NetPacket*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::Queue_1<::LiteNetLib::NetPacket*>*) == 0x8);
     public:
     // Get instance field reference: public LiteNetLib.BaseChannel Next
-    LiteNetLib::BaseChannel*& dyn_Next();
+    ::LiteNetLib::BaseChannel*& dyn_Next();
     // Get instance field reference: protected readonly LiteNetLib.NetPeer Peer
-    LiteNetLib::NetPeer*& dyn_Peer();
+    ::LiteNetLib::NetPeer*& dyn_Peer();
     // Get instance field reference: protected readonly System.Collections.Generic.Queue`1<LiteNetLib.NetPacket> OutgoingQueue
-    System::Collections::Generic::Queue_1<LiteNetLib::NetPacket*>*& dyn_OutgoingQueue();
+    ::System::Collections::Generic::Queue_1<::LiteNetLib::NetPacket*>*& dyn_OutgoingQueue();
     // public System.Int32 get_PacketsInQueue()
     // Offset: 0x20D9BD4
     int get_PacketsInQueue();
     // protected System.Void .ctor(LiteNetLib.NetPeer peer)
     // Offset: 0x20D9B4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BaseChannel* New_ctor(LiteNetLib::NetPeer* peer) {
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::BaseChannel::.ctor");
+    static BaseChannel* New_ctor(::LiteNetLib::NetPeer* peer) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::BaseChannel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseChannel*, creationType>(peer)));
     }
     // public System.Void AddToQueue(LiteNetLib.NetPacket packet)
     // Offset: 0x20D9C24
-    void AddToQueue(LiteNetLib::NetPacket* packet);
+    void AddToQueue(::LiteNetLib::NetPacket* packet);
     // public System.Void SendNextPackets()
     // Offset: 0xFFFFFFFF
     void SendNextPackets();
     // public System.Boolean ProcessPacket(LiteNetLib.NetPacket packet)
     // Offset: 0xFFFFFFFF
-    bool ProcessPacket(LiteNetLib::NetPacket* packet);
+    bool ProcessPacket(::LiteNetLib::NetPacket* packet);
   }; // LiteNetLib.BaseChannel
   #pragma pack(pop)
-  static check_size<sizeof(BaseChannel), 32 + sizeof(System::Collections::Generic::Queue_1<LiteNetLib::NetPacket*>*)> __LiteNetLib_BaseChannelSizeCheck;
+  static check_size<sizeof(BaseChannel), 32 + sizeof(::System::Collections::Generic::Queue_1<::LiteNetLib::NetPacket*>*)> __LiteNetLib_BaseChannelSizeCheck;
   static_assert(sizeof(BaseChannel) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -115,7 +115,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LiteNe
 // Writing MetadataGetter for method: LiteNetLib::BaseChannel::AddToQueue
 // Il2CppName: AddToQueue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::BaseChannel::*)(LiteNetLib::NetPacket*)>(&LiteNetLib::BaseChannel::AddToQueue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::BaseChannel::*)(::LiteNetLib::NetPacket*)>(&LiteNetLib::BaseChannel::AddToQueue)> {
   static const MethodInfo* get() {
     static auto* packet = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetPacket")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::BaseChannel*), "AddToQueue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet});
@@ -132,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::BaseChannel::ProcessPacket
 // Il2CppName: ProcessPacket
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::BaseChannel::*)(LiteNetLib::NetPacket*)>(&LiteNetLib::BaseChannel::ProcessPacket)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::BaseChannel::*)(::LiteNetLib::NetPacket*)>(&LiteNetLib::BaseChannel::ProcessPacket)> {
   static const MethodInfo* get() {
     static auto* packet = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetPacket")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::BaseChannel*), "ProcessPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet});

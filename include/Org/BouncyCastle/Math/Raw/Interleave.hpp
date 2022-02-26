@@ -13,8 +13,8 @@ namespace Org::BouncyCastle::Math::Raw {
   class Interleave;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Math::Raw::Interleave);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Raw::Interleave*, "Org.BouncyCastle.Math.Raw", "Interleave");
+NEED_NO_BOX(::Org::BouncyCastle::Math::Raw::Interleave);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::Raw::Interleave*, "Org.BouncyCastle.Math.Raw", "Interleave");
 // Type namespace: Org.BouncyCastle.Math.Raw
 namespace Org::BouncyCastle::Math::Raw {
   // Size: 0x10

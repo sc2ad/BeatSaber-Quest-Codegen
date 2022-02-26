@@ -31,8 +31,8 @@ namespace Oculus::Platform {
   class RichPresenceOptions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::RichPresenceOptions);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::RichPresenceOptions*, "Oculus.Platform", "RichPresenceOptions");
+NEED_NO_BOX(::Oculus::Platform::RichPresenceOptions);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::RichPresenceOptions*, "Oculus.Platform", "RichPresenceOptions");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x18
@@ -53,16 +53,16 @@ namespace Oculus::Platform {
     // private System.IntPtr Handle
     // Size: 0x8
     // Offset: 0x10
-    System::IntPtr Handle;
+    ::System::IntPtr Handle;
     // Field size check
-    static_assert(sizeof(System::IntPtr) == 0x8);
+    static_assert(sizeof(::System::IntPtr) == 0x8);
     public:
-    // Creating conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const noexcept {
+    // Creating conversion operator: operator ::System::IntPtr
+    constexpr operator ::System::IntPtr() const noexcept {
       return Handle;
     }
     // Get instance field reference: private System.IntPtr Handle
-    System::IntPtr& dyn_Handle();
+    ::System::IntPtr& dyn_Handle();
     // public System.Void SetApiName(System.String value)
     // Offset: 0x29FE288
     void SetApiName(::StringW value);
@@ -74,10 +74,10 @@ namespace Oculus::Platform {
     void SetDeeplinkMessageOverride(::StringW value);
     // public System.Void SetEndTime(System.DateTime value)
     // Offset: 0x29FE3FC
-    void SetEndTime(System::DateTime value);
+    void SetEndTime(::System::DateTime value);
     // public System.Void SetExtraContext(Oculus.Platform.RichPresenceExtraContext value)
     // Offset: 0x29FE478
-    void SetExtraContext(Oculus::Platform::RichPresenceExtraContext value);
+    void SetExtraContext(::Oculus::Platform::RichPresenceExtraContext value);
     // public System.Void SetInstanceId(System.String value)
     // Offset: 0x29FE4F4
     void SetInstanceId(::StringW value);
@@ -92,17 +92,17 @@ namespace Oculus::Platform {
     void SetMaxCapacity(uint value);
     // public System.Void SetStartTime(System.DateTime value)
     // Offset: 0x29FE6E4
-    void SetStartTime(System::DateTime value);
+    void SetStartTime(::System::DateTime value);
     // static public System.IntPtr op_Explicit(Oculus.Platform.RichPresenceOptions options)
     // Offset: 0x29FE044
-    // ABORTED: conflicts with another method.  explicit operator System::IntPtr();
+    // ABORTED: conflicts with another method.  explicit operator ::System::IntPtr();
     // public System.Void .ctor()
     // Offset: 0x29FE210
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RichPresenceOptions* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::RichPresenceOptions::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::RichPresenceOptions::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RichPresenceOptions*, creationType>()));
     }
     // protected override System.Void Finalize()
@@ -112,7 +112,7 @@ namespace Oculus::Platform {
     void Finalize();
   }; // Oculus.Platform.RichPresenceOptions
   #pragma pack(pop)
-  static check_size<sizeof(RichPresenceOptions), 16 + sizeof(System::IntPtr)> __Oculus_Platform_RichPresenceOptionsSizeCheck;
+  static check_size<sizeof(RichPresenceOptions), 16 + sizeof(::System::IntPtr)> __Oculus_Platform_RichPresenceOptionsSizeCheck;
   static_assert(sizeof(RichPresenceOptions) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -146,7 +146,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 // Writing MetadataGetter for method: Oculus::Platform::RichPresenceOptions::SetEndTime
 // Il2CppName: SetEndTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::RichPresenceOptions::*)(System::DateTime)>(&Oculus::Platform::RichPresenceOptions::SetEndTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::RichPresenceOptions::*)(::System::DateTime)>(&Oculus::Platform::RichPresenceOptions::SetEndTime)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::RichPresenceOptions*), "SetEndTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -155,7 +155,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 // Writing MetadataGetter for method: Oculus::Platform::RichPresenceOptions::SetExtraContext
 // Il2CppName: SetExtraContext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::RichPresenceOptions::*)(Oculus::Platform::RichPresenceExtraContext)>(&Oculus::Platform::RichPresenceOptions::SetExtraContext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::RichPresenceOptions::*)(::Oculus::Platform::RichPresenceExtraContext)>(&Oculus::Platform::RichPresenceOptions::SetExtraContext)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "RichPresenceExtraContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::RichPresenceOptions*), "SetExtraContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -200,13 +200,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 // Writing MetadataGetter for method: Oculus::Platform::RichPresenceOptions::SetStartTime
 // Il2CppName: SetStartTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::RichPresenceOptions::*)(System::DateTime)>(&Oculus::Platform::RichPresenceOptions::SetStartTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::RichPresenceOptions::*)(::System::DateTime)>(&Oculus::Platform::RichPresenceOptions::SetStartTime)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::RichPresenceOptions*), "SetStartTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
-// Writing MetadataGetter for method: Oculus::Platform::RichPresenceOptions::operator System::IntPtr
+// Writing MetadataGetter for method: Oculus::Platform::RichPresenceOptions::operator ::System::IntPtr
 // Il2CppName: op_Explicit
 // Cannot perform method pointer template specialization from operators!
 // Writing MetadataGetter for method: Oculus::Platform::RichPresenceOptions::New_ctor

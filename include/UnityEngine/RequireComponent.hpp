@@ -25,8 +25,8 @@ namespace UnityEngine {
   class RequireComponent;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::RequireComponent);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RequireComponent*, "UnityEngine", "RequireComponent");
+NEED_NO_BOX(::UnityEngine::RequireComponent);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::RequireComponent*, "UnityEngine", "RequireComponent");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x28
@@ -35,7 +35,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AttributeUsageAttribute] Offset: 11A5A88
   // [RequiredByNativeCodeAttribute] Offset: 11A5A88
-  class RequireComponent : public System::Attribute {
+  class RequireComponent : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -49,45 +49,45 @@ namespace UnityEngine {
     // public System.Type m_Type0
     // Size: 0x8
     // Offset: 0x10
-    System::Type* m_Type0;
+    ::System::Type* m_Type0;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     // public System.Type m_Type1
     // Size: 0x8
     // Offset: 0x18
-    System::Type* m_Type1;
+    ::System::Type* m_Type1;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     // public System.Type m_Type2
     // Size: 0x8
     // Offset: 0x20
-    System::Type* m_Type2;
+    ::System::Type* m_Type2;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     public:
     // Get instance field reference: public System.Type m_Type0
-    System::Type*& dyn_m_Type0();
+    ::System::Type*& dyn_m_Type0();
     // Get instance field reference: public System.Type m_Type1
-    System::Type*& dyn_m_Type1();
+    ::System::Type*& dyn_m_Type1();
     // Get instance field reference: public System.Type m_Type2
-    System::Type*& dyn_m_Type2();
+    ::System::Type*& dyn_m_Type2();
     // public System.Void .ctor(System.Type requiredComponent)
     // Offset: 0x20D2D68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static RequireComponent* New_ctor(System::Type* requiredComponent) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::RequireComponent::.ctor");
+    static RequireComponent* New_ctor(::System::Type* requiredComponent) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::RequireComponent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RequireComponent*, creationType>(requiredComponent)));
     }
     // public System.Void .ctor(System.Type requiredComponent, System.Type requiredComponent2)
     // Offset: 0x20D2D94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static RequireComponent* New_ctor(System::Type* requiredComponent, System::Type* requiredComponent2) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::RequireComponent::.ctor");
+    static RequireComponent* New_ctor(::System::Type* requiredComponent, ::System::Type* requiredComponent2) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::RequireComponent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RequireComponent*, creationType>(requiredComponent, requiredComponent2)));
     }
   }; // UnityEngine.RequireComponent
   #pragma pack(pop)
-  static check_size<sizeof(RequireComponent), 32 + sizeof(System::Type*)> __UnityEngine_RequireComponentSizeCheck;
+  static check_size<sizeof(RequireComponent), 32 + sizeof(::System::Type*)> __UnityEngine_RequireComponentSizeCheck;
   static_assert(sizeof(RequireComponent) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

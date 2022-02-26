@@ -22,8 +22,8 @@ namespace UnityEngine::Audio {
   class AudioMixer;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Audio::AudioMixer);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Audio::AudioMixer*, "UnityEngine.Audio", "AudioMixer");
+NEED_NO_BOX(::UnityEngine::Audio::AudioMixer);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Audio::AudioMixer*, "UnityEngine.Audio", "AudioMixer");
 // Type namespace: UnityEngine.Audio
 namespace UnityEngine::Audio {
   // Size: 0x18
@@ -34,11 +34,11 @@ namespace UnityEngine::Audio {
   // [NativeHeaderAttribute] Offset: 11D7940
   // [ExcludeFromPresetAttribute] Offset: FFFFFFFF
   // [ExcludeFromObjectFactoryAttribute] Offset: FFFFFFFF
-  class AudioMixer : public UnityEngine::Object {
+  class AudioMixer : public ::UnityEngine::Object {
     public:
     // public System.Void set_updateMode(UnityEngine.Audio.AudioMixerUpdateMode value)
     // Offset: 0x2A3D324
-    void set_updateMode(UnityEngine::Audio::AudioMixerUpdateMode value);
+    void set_updateMode(::UnityEngine::Audio::AudioMixerUpdateMode value);
     // public System.Boolean SetFloat(System.String name, System.Single value)
     // Offset: 0x2A3D374
     bool SetFloat(::StringW name, float value);
@@ -52,7 +52,7 @@ namespace UnityEngine::Audio {
 // Writing MetadataGetter for method: UnityEngine::Audio::AudioMixer::set_updateMode
 // Il2CppName: set_updateMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Audio::AudioMixer::*)(UnityEngine::Audio::AudioMixerUpdateMode)>(&UnityEngine::Audio::AudioMixer::set_updateMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Audio::AudioMixer::*)(::UnityEngine::Audio::AudioMixerUpdateMode)>(&UnityEngine::Audio::AudioMixer::set_updateMode)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.Audio", "AudioMixerUpdateMode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Audio::AudioMixer*), "set_updateMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

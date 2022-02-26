@@ -19,7 +19,7 @@ namespace UnityEngine::XR {
   struct InputDevice;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::InputDevice, "UnityEngine.XR", "InputDevice");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::InputDevice, "UnityEngine.XR", "InputDevice");
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {
   // Size: 0x9
@@ -29,7 +29,7 @@ namespace UnityEngine::XR {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NativeConditionalAttribute] Offset: 11CE00C
   // [UsedByNativeCodeAttribute] Offset: 11CE00C
-  struct InputDevice/*, public System::ValueType, public System::IEquatable_1<UnityEngine::XR::InputDevice>*/ {
+  struct InputDevice/*, public ::System::ValueType, public ::System::IEquatable_1<::UnityEngine::XR::InputDevice>*/ {
     public:
     public:
     // private System.UInt64 m_DeviceId
@@ -47,13 +47,13 @@ namespace UnityEngine::XR {
     public:
     // Creating value type constructor for type: InputDevice
     constexpr InputDevice(uint64_t m_DeviceId_ = {}, bool m_Initialized_ = {}) noexcept : m_DeviceId{m_DeviceId_}, m_Initialized{m_Initialized_} {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
-    // Creating interface conversion operator: operator System::IEquatable_1<UnityEngine::XR::InputDevice>
-    operator System::IEquatable_1<UnityEngine::XR::InputDevice>() noexcept {
-      return *reinterpret_cast<System::IEquatable_1<UnityEngine::XR::InputDevice>*>(this);
+    // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::XR::InputDevice>
+    operator ::System::IEquatable_1<::UnityEngine::XR::InputDevice>() noexcept {
+      return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::XR::InputDevice>*>(this);
     }
     // Get instance field reference: private System.UInt64 m_DeviceId
     uint64_t& dyn_m_DeviceId();
@@ -67,7 +67,7 @@ namespace UnityEngine::XR {
     InputDevice(uint64_t deviceId);
     // public System.Boolean Equals(UnityEngine.XR.InputDevice other)
     // Offset: 0x2A48B1C
-    bool Equals(UnityEngine::XR::InputDevice other);
+    bool Equals(::UnityEngine::XR::InputDevice other);
     // public override System.Boolean Equals(System.Object obj)
     // Offset: 0x2A48A78
     // Implemented from: System.ValueType
@@ -99,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (U
 // Writing MetadataGetter for method: UnityEngine::XR::InputDevice::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::XR::InputDevice::*)(UnityEngine::XR::InputDevice)>(&UnityEngine::XR::InputDevice::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::XR::InputDevice::*)(::UnityEngine::XR::InputDevice)>(&UnityEngine::XR::InputDevice::Equals)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("UnityEngine.XR", "InputDevice")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::InputDevice), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});

@@ -19,8 +19,8 @@ namespace System::Reflection {
   class AssemblyProductAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Reflection::AssemblyProductAttribute);
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyProductAttribute*, "System.Reflection", "AssemblyProductAttribute");
+NEED_NO_BOX(::System::Reflection::AssemblyProductAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::AssemblyProductAttribute*, "System.Reflection", "AssemblyProductAttribute");
 // Type namespace: System.Reflection
 namespace System::Reflection {
   // Size: 0x18
@@ -29,7 +29,7 @@ namespace System::Reflection {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AttributeUsageAttribute] Offset: 1187E40
   // [ComVisibleAttribute] Offset: 1187E40
-  class AssemblyProductAttribute : public System::Attribute {
+  class AssemblyProductAttribute : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -57,7 +57,7 @@ namespace System::Reflection {
     // Offset: 0x2161C00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssemblyProductAttribute* New_ctor(::StringW product) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::AssemblyProductAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Reflection::AssemblyProductAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssemblyProductAttribute*, creationType>(product)));
     }
   }; // System.Reflection.AssemblyProductAttribute

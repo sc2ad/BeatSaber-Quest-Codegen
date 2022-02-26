@@ -79,8 +79,8 @@ namespace UnityEngine {
   class Animator;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Animator);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animator*, "UnityEngine", "Animator");
+NEED_NO_BOX(::UnityEngine::Animator);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Animator*, "UnityEngine", "Animator");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -91,7 +91,7 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: 11BF518
   // [NativeHeaderAttribute] Offset: 11BF518
   // [UsedByNativeCodeAttribute] Offset: 11BF518
-  class Animator : public UnityEngine::Behaviour {
+  class Animator : public ::UnityEngine::Behaviour {
     public:
     // public System.Boolean get_isOptimizable()
     // Offset: 0x29A6EF4
@@ -113,28 +113,28 @@ namespace UnityEngine {
     bool get_isInitialized();
     // public UnityEngine.Vector3 get_deltaPosition()
     // Offset: 0x29A7E14
-    UnityEngine::Vector3 get_deltaPosition();
+    ::UnityEngine::Vector3 get_deltaPosition();
     // public UnityEngine.Quaternion get_deltaRotation()
     // Offset: 0x29A7EC4
-    UnityEngine::Quaternion get_deltaRotation();
+    ::UnityEngine::Quaternion get_deltaRotation();
     // public UnityEngine.Vector3 get_velocity()
     // Offset: 0x29A7F70
-    UnityEngine::Vector3 get_velocity();
+    ::UnityEngine::Vector3 get_velocity();
     // public UnityEngine.Vector3 get_angularVelocity()
     // Offset: 0x29A8020
-    UnityEngine::Vector3 get_angularVelocity();
+    ::UnityEngine::Vector3 get_angularVelocity();
     // public UnityEngine.Vector3 get_rootPosition()
     // Offset: 0x29A80D0
-    UnityEngine::Vector3 get_rootPosition();
+    ::UnityEngine::Vector3 get_rootPosition();
     // public System.Void set_rootPosition(UnityEngine.Vector3 value)
     // Offset: 0x29A8180
-    void set_rootPosition(UnityEngine::Vector3 value);
+    void set_rootPosition(::UnityEngine::Vector3 value);
     // public UnityEngine.Quaternion get_rootRotation()
     // Offset: 0x29A8228
-    UnityEngine::Quaternion get_rootRotation();
+    ::UnityEngine::Quaternion get_rootRotation();
     // public System.Void set_rootRotation(UnityEngine.Quaternion value)
     // Offset: 0x29A82D4
-    void set_rootRotation(UnityEngine::Quaternion value);
+    void set_rootRotation(::UnityEngine::Quaternion value);
     // public System.Boolean get_applyRootMotion()
     // Offset: 0x29A837C
     bool get_applyRootMotion();
@@ -155,10 +155,10 @@ namespace UnityEngine {
     void set_animatePhysics(bool value);
     // public UnityEngine.AnimatorUpdateMode get_updateMode()
     // Offset: 0x29A84E8
-    UnityEngine::AnimatorUpdateMode get_updateMode();
+    ::UnityEngine::AnimatorUpdateMode get_updateMode();
     // public System.Void set_updateMode(UnityEngine.AnimatorUpdateMode value)
     // Offset: 0x29A8580
-    void set_updateMode(UnityEngine::AnimatorUpdateMode value);
+    void set_updateMode(::UnityEngine::AnimatorUpdateMode value);
     // public System.Boolean get_hasTransformHierarchy()
     // Offset: 0x29A85D0
     bool get_hasTransformHierarchy();
@@ -173,28 +173,28 @@ namespace UnityEngine {
     float get_gravityWeight();
     // public UnityEngine.Vector3 get_bodyPosition()
     // Offset: 0x29A86E0
-    UnityEngine::Vector3 get_bodyPosition();
+    ::UnityEngine::Vector3 get_bodyPosition();
     // public System.Void set_bodyPosition(UnityEngine.Vector3 value)
     // Offset: 0x29A8838
-    void set_bodyPosition(UnityEngine::Vector3 value);
+    void set_bodyPosition(::UnityEngine::Vector3 value);
     // UnityEngine.Vector3 get_bodyPositionInternal()
     // Offset: 0x29A87D8
-    UnityEngine::Vector3 get_bodyPositionInternal();
+    ::UnityEngine::Vector3 get_bodyPositionInternal();
     // System.Void set_bodyPositionInternal(UnityEngine.Vector3 value)
     // Offset: 0x29A8884
-    void set_bodyPositionInternal(UnityEngine::Vector3 value);
+    void set_bodyPositionInternal(::UnityEngine::Vector3 value);
     // public UnityEngine.Quaternion get_bodyRotation()
     // Offset: 0x29A897C
-    UnityEngine::Quaternion get_bodyRotation();
+    ::UnityEngine::Quaternion get_bodyRotation();
     // public System.Void set_bodyRotation(UnityEngine.Quaternion value)
     // Offset: 0x29A89FC
-    void set_bodyRotation(UnityEngine::Quaternion value);
+    void set_bodyRotation(::UnityEngine::Quaternion value);
     // UnityEngine.Quaternion get_bodyRotationInternal()
     // Offset: 0x29A89A0
-    UnityEngine::Quaternion get_bodyRotationInternal();
+    ::UnityEngine::Quaternion get_bodyRotationInternal();
     // System.Void set_bodyRotationInternal(UnityEngine.Quaternion value)
     // Offset: 0x29A8A50
-    void set_bodyRotationInternal(UnityEngine::Quaternion value);
+    void set_bodyRotationInternal(::UnityEngine::Quaternion value);
     // public System.Boolean get_stabilizeFeet()
     // Offset: 0x29A9CB4
     bool get_stabilizeFeet();
@@ -206,7 +206,7 @@ namespace UnityEngine {
     int get_layerCount();
     // public UnityEngine.AnimatorControllerParameter[] get_parameters()
     // Offset: 0x29AA4F8
-    ::ArrayW<UnityEngine::AnimatorControllerParameter*> get_parameters();
+    ::ArrayW<::UnityEngine::AnimatorControllerParameter*> get_parameters();
     // public System.Int32 get_parameterCount()
     // Offset: 0x29AA538
     int get_parameterCount();
@@ -221,7 +221,7 @@ namespace UnityEngine {
     float get_pivotWeight();
     // public UnityEngine.Vector3 get_pivotPosition()
     // Offset: 0x29AA7AC
-    UnityEngine::Vector3 get_pivotPosition();
+    ::UnityEngine::Vector3 get_pivotPosition();
     // public System.Boolean get_isMatchingTarget()
     // Offset: 0x29AAAA0
     bool get_isMatchingTarget();
@@ -233,19 +233,19 @@ namespace UnityEngine {
     void set_speed(float value);
     // public UnityEngine.Vector3 get_targetPosition()
     // Offset: 0x29AB750
-    UnityEngine::Vector3 get_targetPosition();
+    ::UnityEngine::Vector3 get_targetPosition();
     // public UnityEngine.Quaternion get_targetRotation()
     // Offset: 0x29AB800
-    UnityEngine::Quaternion get_targetRotation();
+    ::UnityEngine::Quaternion get_targetRotation();
     // UnityEngine.Transform get_avatarRoot()
     // Offset: 0x29AB904
-    UnityEngine::Transform* get_avatarRoot();
+    ::UnityEngine::Transform* get_avatarRoot();
     // public UnityEngine.AnimatorCullingMode get_cullingMode()
     // Offset: 0x29ABAB0
-    UnityEngine::AnimatorCullingMode get_cullingMode();
+    ::UnityEngine::AnimatorCullingMode get_cullingMode();
     // public System.Void set_cullingMode(UnityEngine.AnimatorCullingMode value)
     // Offset: 0x29ABAF0
-    void set_cullingMode(UnityEngine::AnimatorCullingMode value);
+    void set_cullingMode(::UnityEngine::AnimatorCullingMode value);
     // public System.Single get_playbackTime()
     // Offset: 0x29ABBC0
     float get_playbackTime();
@@ -266,25 +266,25 @@ namespace UnityEngine {
     void set_recorderStopTime(float value);
     // public UnityEngine.AnimatorRecorderMode get_recorderMode()
     // Offset: 0x29ABDE8
-    UnityEngine::AnimatorRecorderMode get_recorderMode();
+    ::UnityEngine::AnimatorRecorderMode get_recorderMode();
     // public UnityEngine.RuntimeAnimatorController get_runtimeAnimatorController()
     // Offset: 0x29ABE28
-    UnityEngine::RuntimeAnimatorController* get_runtimeAnimatorController();
+    ::UnityEngine::RuntimeAnimatorController* get_runtimeAnimatorController();
     // public System.Void set_runtimeAnimatorController(UnityEngine.RuntimeAnimatorController value)
     // Offset: 0x29ABE68
-    void set_runtimeAnimatorController(UnityEngine::RuntimeAnimatorController* value);
+    void set_runtimeAnimatorController(::UnityEngine::RuntimeAnimatorController* value);
     // public System.Boolean get_hasBoundPlayables()
     // Offset: 0x29ABEB8
     bool get_hasBoundPlayables();
     // public UnityEngine.Avatar get_avatar()
     // Offset: 0x29ABF90
-    UnityEngine::Avatar* get_avatar();
+    ::UnityEngine::Avatar* get_avatar();
     // public System.Void set_avatar(UnityEngine.Avatar value)
     // Offset: 0x29ABFD0
-    void set_avatar(UnityEngine::Avatar* value);
+    void set_avatar(::UnityEngine::Avatar* value);
     // public UnityEngine.Playables.PlayableGraph get_playableGraph()
     // Offset: 0x29AC060
-    UnityEngine::Playables::PlayableGraph get_playableGraph();
+    ::UnityEngine::Playables::PlayableGraph get_playableGraph();
     // public System.Boolean get_layersAffectMassCenter()
     // Offset: 0x29AC188
     bool get_layersAffectMassCenter();
@@ -380,82 +380,82 @@ namespace UnityEngine {
     bool IsParameterControlledByCurve(int id);
     // public UnityEngine.Vector3 GetIKPosition(UnityEngine.AvatarIKGoal goal)
     // Offset: 0x29A8B48
-    UnityEngine::Vector3 GetIKPosition(UnityEngine::AvatarIKGoal goal);
+    ::UnityEngine::Vector3 GetIKPosition(::UnityEngine::AvatarIKGoal goal);
     // private UnityEngine.Vector3 GetGoalPosition(UnityEngine.AvatarIKGoal goal)
     // Offset: 0x29A8B74
-    UnityEngine::Vector3 GetGoalPosition(UnityEngine::AvatarIKGoal goal);
+    ::UnityEngine::Vector3 GetGoalPosition(::UnityEngine::AvatarIKGoal goal);
     // public System.Void SetIKPosition(UnityEngine.AvatarIKGoal goal, UnityEngine.Vector3 goalPosition)
     // Offset: 0x29A8C3C
-    void SetIKPosition(UnityEngine::AvatarIKGoal goal, UnityEngine::Vector3 goalPosition);
+    void SetIKPosition(::UnityEngine::AvatarIKGoal goal, ::UnityEngine::Vector3 goalPosition);
     // private System.Void SetGoalPosition(UnityEngine.AvatarIKGoal goal, UnityEngine.Vector3 goalPosition)
     // Offset: 0x29A8C90
-    void SetGoalPosition(UnityEngine::AvatarIKGoal goal, UnityEngine::Vector3 goalPosition);
+    void SetGoalPosition(::UnityEngine::AvatarIKGoal goal, ::UnityEngine::Vector3 goalPosition);
     // public UnityEngine.Quaternion GetIKRotation(UnityEngine.AvatarIKGoal goal)
     // Offset: 0x29A8D50
-    UnityEngine::Quaternion GetIKRotation(UnityEngine::AvatarIKGoal goal);
+    ::UnityEngine::Quaternion GetIKRotation(::UnityEngine::AvatarIKGoal goal);
     // private UnityEngine.Quaternion GetGoalRotation(UnityEngine.AvatarIKGoal goal)
     // Offset: 0x29A8D7C
-    UnityEngine::Quaternion GetGoalRotation(UnityEngine::AvatarIKGoal goal);
+    ::UnityEngine::Quaternion GetGoalRotation(::UnityEngine::AvatarIKGoal goal);
     // public System.Void SetIKRotation(UnityEngine.AvatarIKGoal goal, UnityEngine.Quaternion goalRotation)
     // Offset: 0x29A8E40
-    void SetIKRotation(UnityEngine::AvatarIKGoal goal, UnityEngine::Quaternion goalRotation);
+    void SetIKRotation(::UnityEngine::AvatarIKGoal goal, ::UnityEngine::Quaternion goalRotation);
     // private System.Void SetGoalRotation(UnityEngine.AvatarIKGoal goal, UnityEngine.Quaternion goalRotation)
     // Offset: 0x29A8E9C
-    void SetGoalRotation(UnityEngine::AvatarIKGoal goal, UnityEngine::Quaternion goalRotation);
+    void SetGoalRotation(::UnityEngine::AvatarIKGoal goal, ::UnityEngine::Quaternion goalRotation);
     // public System.Single GetIKPositionWeight(UnityEngine.AvatarIKGoal goal)
     // Offset: 0x29A8F5C
-    float GetIKPositionWeight(UnityEngine::AvatarIKGoal goal);
+    float GetIKPositionWeight(::UnityEngine::AvatarIKGoal goal);
     // private System.Single GetGoalWeightPosition(UnityEngine.AvatarIKGoal goal)
     // Offset: 0x29A8FB0
-    float GetGoalWeightPosition(UnityEngine::AvatarIKGoal goal);
+    float GetGoalWeightPosition(::UnityEngine::AvatarIKGoal goal);
     // public System.Void SetIKPositionWeight(UnityEngine.AvatarIKGoal goal, System.Single value)
     // Offset: 0x29A9000
-    void SetIKPositionWeight(UnityEngine::AvatarIKGoal goal, float value);
+    void SetIKPositionWeight(::UnityEngine::AvatarIKGoal goal, float value);
     // private System.Void SetGoalWeightPosition(UnityEngine.AvatarIKGoal goal, System.Single value)
     // Offset: 0x29A9064
-    void SetGoalWeightPosition(UnityEngine::AvatarIKGoal goal, float value);
+    void SetGoalWeightPosition(::UnityEngine::AvatarIKGoal goal, float value);
     // public System.Single GetIKRotationWeight(UnityEngine.AvatarIKGoal goal)
     // Offset: 0x29A90C4
-    float GetIKRotationWeight(UnityEngine::AvatarIKGoal goal);
+    float GetIKRotationWeight(::UnityEngine::AvatarIKGoal goal);
     // private System.Single GetGoalWeightRotation(UnityEngine.AvatarIKGoal goal)
     // Offset: 0x29A9118
-    float GetGoalWeightRotation(UnityEngine::AvatarIKGoal goal);
+    float GetGoalWeightRotation(::UnityEngine::AvatarIKGoal goal);
     // public System.Void SetIKRotationWeight(UnityEngine.AvatarIKGoal goal, System.Single value)
     // Offset: 0x29A9168
-    void SetIKRotationWeight(UnityEngine::AvatarIKGoal goal, float value);
+    void SetIKRotationWeight(::UnityEngine::AvatarIKGoal goal, float value);
     // private System.Void SetGoalWeightRotation(UnityEngine.AvatarIKGoal goal, System.Single value)
     // Offset: 0x29A91CC
-    void SetGoalWeightRotation(UnityEngine::AvatarIKGoal goal, float value);
+    void SetGoalWeightRotation(::UnityEngine::AvatarIKGoal goal, float value);
     // public UnityEngine.Vector3 GetIKHintPosition(UnityEngine.AvatarIKHint hint)
     // Offset: 0x29A922C
-    UnityEngine::Vector3 GetIKHintPosition(UnityEngine::AvatarIKHint hint);
+    ::UnityEngine::Vector3 GetIKHintPosition(::UnityEngine::AvatarIKHint hint);
     // private UnityEngine.Vector3 GetHintPosition(UnityEngine.AvatarIKHint hint)
     // Offset: 0x29A9258
-    UnityEngine::Vector3 GetHintPosition(UnityEngine::AvatarIKHint hint);
+    ::UnityEngine::Vector3 GetHintPosition(::UnityEngine::AvatarIKHint hint);
     // public System.Void SetIKHintPosition(UnityEngine.AvatarIKHint hint, UnityEngine.Vector3 hintPosition)
     // Offset: 0x29A9320
-    void SetIKHintPosition(UnityEngine::AvatarIKHint hint, UnityEngine::Vector3 hintPosition);
+    void SetIKHintPosition(::UnityEngine::AvatarIKHint hint, ::UnityEngine::Vector3 hintPosition);
     // private System.Void SetHintPosition(UnityEngine.AvatarIKHint hint, UnityEngine.Vector3 hintPosition)
     // Offset: 0x29A9374
-    void SetHintPosition(UnityEngine::AvatarIKHint hint, UnityEngine::Vector3 hintPosition);
+    void SetHintPosition(::UnityEngine::AvatarIKHint hint, ::UnityEngine::Vector3 hintPosition);
     // public System.Single GetIKHintPositionWeight(UnityEngine.AvatarIKHint hint)
     // Offset: 0x29A9434
-    float GetIKHintPositionWeight(UnityEngine::AvatarIKHint hint);
+    float GetIKHintPositionWeight(::UnityEngine::AvatarIKHint hint);
     // private System.Single GetHintWeightPosition(UnityEngine.AvatarIKHint hint)
     // Offset: 0x29A9488
-    float GetHintWeightPosition(UnityEngine::AvatarIKHint hint);
+    float GetHintWeightPosition(::UnityEngine::AvatarIKHint hint);
     // public System.Void SetIKHintPositionWeight(UnityEngine.AvatarIKHint hint, System.Single value)
     // Offset: 0x29A94D8
-    void SetIKHintPositionWeight(UnityEngine::AvatarIKHint hint, float value);
+    void SetIKHintPositionWeight(::UnityEngine::AvatarIKHint hint, float value);
     // private System.Void SetHintWeightPosition(UnityEngine.AvatarIKHint hint, System.Single value)
     // Offset: 0x29A953C
-    void SetHintWeightPosition(UnityEngine::AvatarIKHint hint, float value);
+    void SetHintWeightPosition(::UnityEngine::AvatarIKHint hint, float value);
     // public System.Void SetLookAtPosition(UnityEngine.Vector3 lookAtPosition)
     // Offset: 0x29A959C
-    void SetLookAtPosition(UnityEngine::Vector3 lookAtPosition);
+    void SetLookAtPosition(::UnityEngine::Vector3 lookAtPosition);
     // private System.Void SetLookAtPositionInternal(UnityEngine.Vector3 lookAtPosition)
     // Offset: 0x29A95E8
-    void SetLookAtPositionInternal(UnityEngine::Vector3 lookAtPosition);
+    void SetLookAtPositionInternal(::UnityEngine::Vector3 lookAtPosition);
     // public System.Void SetLookAtWeight(System.Single weight)
     // Offset: 0x29A9690
     void SetLookAtWeight(float weight);
@@ -476,19 +476,19 @@ namespace UnityEngine {
     void SetLookAtWeightInternal(float weight, float bodyWeight, float headWeight, float eyesWeight, float clampWeight);
     // public System.Void SetBoneLocalRotation(UnityEngine.HumanBodyBones humanBoneId, UnityEngine.Quaternion rotation)
     // Offset: 0x29A994C
-    void SetBoneLocalRotation(UnityEngine::HumanBodyBones humanBoneId, UnityEngine::Quaternion rotation);
+    void SetBoneLocalRotation(::UnityEngine::HumanBodyBones humanBoneId, ::UnityEngine::Quaternion rotation);
     // private System.Void SetBoneLocalRotationInternal(System.Int32 humanBoneId, UnityEngine.Quaternion rotation)
     // Offset: 0x29A9A18
-    void SetBoneLocalRotationInternal(int humanBoneId, UnityEngine::Quaternion rotation);
+    void SetBoneLocalRotationInternal(int humanBoneId, ::UnityEngine::Quaternion rotation);
     // private UnityEngine.ScriptableObject GetBehaviour(System.Type type)
     // Offset: 0x29A9AD8
-    UnityEngine::ScriptableObject* GetBehaviour(System::Type* type);
+    ::UnityEngine::ScriptableObject* GetBehaviour(::System::Type* type);
     // public T GetBehaviour()
     // Offset: 0xFFFFFFFF
     template<class T>
     T GetBehaviour() {
-      static_assert(std::is_convertible_v<T, UnityEngine::StateMachineBehaviour*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Animator::GetBehaviour");
+      static_assert(std::is_convertible_v<T, ::UnityEngine::StateMachineBehaviour*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Animator::GetBehaviour");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetBehaviour", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___generic__method);
@@ -496,9 +496,9 @@ namespace UnityEngine {
     // static private T[] ConvertStateMachineBehaviour(UnityEngine.ScriptableObject[] rawObjects)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static ::ArrayW<T> ConvertStateMachineBehaviour(::ArrayW<UnityEngine::ScriptableObject*> rawObjects) {
-      static_assert(std::is_convertible_v<T, UnityEngine::StateMachineBehaviour*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Animator::ConvertStateMachineBehaviour");
+    static ::ArrayW<T> ConvertStateMachineBehaviour(::ArrayW<::UnityEngine::ScriptableObject*> rawObjects) {
+      static_assert(std::is_convertible_v<T, ::UnityEngine::StateMachineBehaviour*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Animator::ConvertStateMachineBehaviour");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine", "Animator", "ConvertStateMachineBehaviour", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(rawObjects)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<T>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, rawObjects);
@@ -507,21 +507,21 @@ namespace UnityEngine {
     // Offset: 0xFFFFFFFF
     template<class T>
     ::ArrayW<T> GetBehaviours() {
-      static_assert(std::is_convertible_v<T, UnityEngine::StateMachineBehaviour*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Animator::GetBehaviours");
+      static_assert(std::is_convertible_v<T, ::UnityEngine::StateMachineBehaviour*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Animator::GetBehaviours");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetBehaviours", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<T>, false>(this, ___generic__method);
     }
     // UnityEngine.ScriptableObject[] InternalGetBehaviours(System.Type type)
     // Offset: 0x29A9B28
-    ::ArrayW<UnityEngine::ScriptableObject*> InternalGetBehaviours(System::Type* type);
+    ::ArrayW<::UnityEngine::ScriptableObject*> InternalGetBehaviours(::System::Type* type);
     // public UnityEngine.StateMachineBehaviour[] GetBehaviours(System.Int32 fullPathHash, System.Int32 layerIndex)
     // Offset: 0x29A9B78
-    ::ArrayW<UnityEngine::StateMachineBehaviour*> GetBehaviours(int fullPathHash, int layerIndex);
+    ::ArrayW<::UnityEngine::StateMachineBehaviour*> GetBehaviours(int fullPathHash, int layerIndex);
     // UnityEngine.ScriptableObject[] InternalGetBehavioursByKey(System.Int32 fullPathHash, System.Int32 layerIndex, System.Type type)
     // Offset: 0x29A9C4C
-    ::ArrayW<UnityEngine::ScriptableObject*> InternalGetBehavioursByKey(int fullPathHash, int layerIndex, System::Type* type);
+    ::ArrayW<::UnityEngine::ScriptableObject*> InternalGetBehavioursByKey(int fullPathHash, int layerIndex, ::System::Type* type);
     // public System.String GetLayerName(System.Int32 layerIndex)
     // Offset: 0x29A9D84
     ::StringW GetLayerName(int layerIndex);
@@ -536,19 +536,19 @@ namespace UnityEngine {
     void SetLayerWeight(int layerIndex, float weight);
     // private System.Void GetAnimatorStateInfo(System.Int32 layerIndex, UnityEngine.StateInfoIndex stateInfoIndex, out UnityEngine.AnimatorStateInfo info)
     // Offset: 0x29A9ED4
-    void GetAnimatorStateInfo(int layerIndex, UnityEngine::StateInfoIndex stateInfoIndex, ByRef<UnityEngine::AnimatorStateInfo> info);
+    void GetAnimatorStateInfo(int layerIndex, ::UnityEngine::StateInfoIndex stateInfoIndex, ByRef<::UnityEngine::AnimatorStateInfo> info);
     // public UnityEngine.AnimatorStateInfo GetCurrentAnimatorStateInfo(System.Int32 layerIndex)
     // Offset: 0x29A9F3C
-    UnityEngine::AnimatorStateInfo GetCurrentAnimatorStateInfo(int layerIndex);
+    ::UnityEngine::AnimatorStateInfo GetCurrentAnimatorStateInfo(int layerIndex);
     // public UnityEngine.AnimatorStateInfo GetNextAnimatorStateInfo(System.Int32 layerIndex)
     // Offset: 0x29A9FC8
-    UnityEngine::AnimatorStateInfo GetNextAnimatorStateInfo(int layerIndex);
+    ::UnityEngine::AnimatorStateInfo GetNextAnimatorStateInfo(int layerIndex);
     // private System.Void GetAnimatorTransitionInfo(System.Int32 layerIndex, out UnityEngine.AnimatorTransitionInfo info)
     // Offset: 0x29AA054
-    void GetAnimatorTransitionInfo(int layerIndex, ByRef<UnityEngine::AnimatorTransitionInfo> info);
+    void GetAnimatorTransitionInfo(int layerIndex, ByRef<::UnityEngine::AnimatorTransitionInfo> info);
     // public UnityEngine.AnimatorTransitionInfo GetAnimatorTransitionInfo(System.Int32 layerIndex)
     // Offset: 0x29AA0AC
-    UnityEngine::AnimatorTransitionInfo GetAnimatorTransitionInfo(int layerIndex);
+    ::UnityEngine::AnimatorTransitionInfo GetAnimatorTransitionInfo(int layerIndex);
     // System.Int32 GetAnimatorClipInfoCount(System.Int32 layerIndex, System.Boolean current)
     // Offset: 0x29AA120
     int GetAnimatorClipInfoCount(int layerIndex, bool current);
@@ -560,37 +560,37 @@ namespace UnityEngine {
     int GetNextAnimatorClipInfoCount(int layerIndex);
     // public UnityEngine.AnimatorClipInfo[] GetCurrentAnimatorClipInfo(System.Int32 layerIndex)
     // Offset: 0x29AA220
-    ::ArrayW<UnityEngine::AnimatorClipInfo> GetCurrentAnimatorClipInfo(int layerIndex);
+    ::ArrayW<::UnityEngine::AnimatorClipInfo> GetCurrentAnimatorClipInfo(int layerIndex);
     // public UnityEngine.AnimatorClipInfo[] GetNextAnimatorClipInfo(System.Int32 layerIndex)
     // Offset: 0x29AA270
-    ::ArrayW<UnityEngine::AnimatorClipInfo> GetNextAnimatorClipInfo(int layerIndex);
+    ::ArrayW<::UnityEngine::AnimatorClipInfo> GetNextAnimatorClipInfo(int layerIndex);
     // public System.Void GetCurrentAnimatorClipInfo(System.Int32 layerIndex, System.Collections.Generic.List`1<UnityEngine.AnimatorClipInfo> clips)
     // Offset: 0x29AA2C0
-    void GetCurrentAnimatorClipInfo(int layerIndex, System::Collections::Generic::List_1<UnityEngine::AnimatorClipInfo>* clips);
+    void GetCurrentAnimatorClipInfo(int layerIndex, ::System::Collections::Generic::List_1<::UnityEngine::AnimatorClipInfo>* clips);
     // private System.Void GetAnimatorClipInfoInternal(System.Int32 layerIndex, System.Boolean isCurrent, System.Object clips)
     // Offset: 0x29AA380
     void GetAnimatorClipInfoInternal(int layerIndex, bool isCurrent, ::Il2CppObject* clips);
     // public System.Void GetNextAnimatorClipInfo(System.Int32 layerIndex, System.Collections.Generic.List`1<UnityEngine.AnimatorClipInfo> clips)
     // Offset: 0x29AA3E8
-    void GetNextAnimatorClipInfo(int layerIndex, System::Collections::Generic::List_1<UnityEngine::AnimatorClipInfo>* clips);
+    void GetNextAnimatorClipInfo(int layerIndex, ::System::Collections::Generic::List_1<::UnityEngine::AnimatorClipInfo>* clips);
     // public System.Boolean IsInTransition(System.Int32 layerIndex)
     // Offset: 0x29AA4A8
     bool IsInTransition(int layerIndex);
     // public UnityEngine.AnimatorControllerParameter GetParameter(System.Int32 index)
     // Offset: 0x29AA578
-    UnityEngine::AnimatorControllerParameter* GetParameter(int index);
+    ::UnityEngine::AnimatorControllerParameter* GetParameter(int index);
     // private System.Void MatchTarget(UnityEngine.Vector3 matchPosition, UnityEngine.Quaternion matchRotation, System.Int32 targetBodyPart, UnityEngine.MatchTargetWeightMask weightMask, System.Single startNormalizedTime, System.Single targetNormalizedTime, System.Boolean completeMatch)
     // Offset: 0x29AA85C
-    void MatchTarget(UnityEngine::Vector3 matchPosition, UnityEngine::Quaternion matchRotation, int targetBodyPart, UnityEngine::MatchTargetWeightMask weightMask, float startNormalizedTime, float targetNormalizedTime, bool completeMatch);
+    void MatchTarget(::UnityEngine::Vector3 matchPosition, ::UnityEngine::Quaternion matchRotation, int targetBodyPart, ::UnityEngine::MatchTargetWeightMask weightMask, float startNormalizedTime, float targetNormalizedTime, bool completeMatch);
     // public System.Void MatchTarget(UnityEngine.Vector3 matchPosition, UnityEngine.Quaternion matchRotation, UnityEngine.AvatarTarget targetBodyPart, UnityEngine.MatchTargetWeightMask weightMask, System.Single startNormalizedTime)
     // Offset: 0x29AA994
-    void MatchTarget(UnityEngine::Vector3 matchPosition, UnityEngine::Quaternion matchRotation, UnityEngine::AvatarTarget targetBodyPart, UnityEngine::MatchTargetWeightMask weightMask, float startNormalizedTime);
+    void MatchTarget(::UnityEngine::Vector3 matchPosition, ::UnityEngine::Quaternion matchRotation, ::UnityEngine::AvatarTarget targetBodyPart, ::UnityEngine::MatchTargetWeightMask weightMask, float startNormalizedTime);
     // public System.Void MatchTarget(UnityEngine.Vector3 matchPosition, UnityEngine.Quaternion matchRotation, UnityEngine.AvatarTarget targetBodyPart, UnityEngine.MatchTargetWeightMask weightMask, System.Single startNormalizedTime, System.Single targetNormalizedTime)
     // Offset: 0x29AA9CC
-    void MatchTarget(UnityEngine::Vector3 matchPosition, UnityEngine::Quaternion matchRotation, UnityEngine::AvatarTarget targetBodyPart, UnityEngine::MatchTargetWeightMask weightMask, float startNormalizedTime, float targetNormalizedTime);
+    void MatchTarget(::UnityEngine::Vector3 matchPosition, ::UnityEngine::Quaternion matchRotation, ::UnityEngine::AvatarTarget targetBodyPart, ::UnityEngine::MatchTargetWeightMask weightMask, float startNormalizedTime, float targetNormalizedTime);
     // public System.Void MatchTarget(UnityEngine.Vector3 matchPosition, UnityEngine.Quaternion matchRotation, UnityEngine.AvatarTarget targetBodyPart, UnityEngine.MatchTargetWeightMask weightMask, System.Single startNormalizedTime, System.Single targetNormalizedTime, System.Boolean completeMatch)
     // Offset: 0x29AA9EC
-    void MatchTarget(UnityEngine::Vector3 matchPosition, UnityEngine::Quaternion matchRotation, UnityEngine::AvatarTarget targetBodyPart, UnityEngine::MatchTargetWeightMask weightMask, float startNormalizedTime, float targetNormalizedTime, bool completeMatch);
+    void MatchTarget(::UnityEngine::Vector3 matchPosition, ::UnityEngine::Quaternion matchRotation, ::UnityEngine::AvatarTarget targetBodyPart, ::UnityEngine::MatchTargetWeightMask weightMask, float startNormalizedTime, float targetNormalizedTime, bool completeMatch);
     // public System.Void InterruptMatchTarget()
     // Offset: 0x29AAA0C
     void InterruptMatchTarget();
@@ -689,19 +689,19 @@ namespace UnityEngine {
     void Play(int stateNameHash);
     // public System.Void SetTarget(UnityEngine.AvatarTarget targetIndex, System.Single targetNormalizedTime)
     // Offset: 0x29AB6F0
-    void SetTarget(UnityEngine::AvatarTarget targetIndex, float targetNormalizedTime);
+    void SetTarget(::UnityEngine::AvatarTarget targetIndex, float targetNormalizedTime);
     // public System.Boolean IsControlled(UnityEngine.Transform transform)
     // Offset: 0x29AB8AC
-    bool IsControlled(UnityEngine::Transform* transform);
+    bool IsControlled(::UnityEngine::Transform* transform);
     // System.Boolean IsBoneTransform(UnityEngine.Transform transform)
     // Offset: 0x29AB8B4
-    bool IsBoneTransform(UnityEngine::Transform* transform);
+    bool IsBoneTransform(::UnityEngine::Transform* transform);
     // public UnityEngine.Transform GetBoneTransform(UnityEngine.HumanBodyBones humanBoneId)
     // Offset: 0x29AB944
-    UnityEngine::Transform* GetBoneTransform(UnityEngine::HumanBodyBones humanBoneId);
+    ::UnityEngine::Transform* GetBoneTransform(::UnityEngine::HumanBodyBones humanBoneId);
     // UnityEngine.Transform GetBoneTransformInternal(System.Int32 humanBoneId)
     // Offset: 0x29ABA60
-    UnityEngine::Transform* GetBoneTransformInternal(int humanBoneId);
+    ::UnityEngine::Transform* GetBoneTransformInternal(int humanBoneId);
     // public System.Void StartPlayback()
     // Offset: 0x29ABB40
     void StartPlayback();
@@ -734,7 +734,7 @@ namespace UnityEngine {
     ::StringW GetStats();
     // private System.Void GetCurrentGraph(ref UnityEngine.Playables.PlayableGraph graph)
     // Offset: 0x29AC0B8
-    void GetCurrentGraph(ByRef<UnityEngine::Playables::PlayableGraph> graph);
+    void GetCurrentGraph(ByRef<::UnityEngine::Playables::PlayableGraph> graph);
     // private System.Void CheckIfInIKPass()
     // Offset: 0x29A8704
     void CheckIfInIKPass();
@@ -842,100 +842,100 @@ namespace UnityEngine {
     ::StringW ResolveHash(int hash);
     // public UnityEngine.Vector3 GetVector(System.String name)
     // Offset: 0x29AC810
-    UnityEngine::Vector3 GetVector(::StringW name);
+    ::UnityEngine::Vector3 GetVector(::StringW name);
     // public UnityEngine.Vector3 GetVector(System.Int32 id)
     // Offset: 0x29AC870
-    UnityEngine::Vector3 GetVector(int id);
+    ::UnityEngine::Vector3 GetVector(int id);
     // public System.Void SetVector(System.String name, UnityEngine.Vector3 value)
     // Offset: 0x29AC8D0
-    void SetVector(::StringW name, UnityEngine::Vector3 value);
+    void SetVector(::StringW name, ::UnityEngine::Vector3 value);
     // public System.Void SetVector(System.Int32 id, UnityEngine.Vector3 value)
     // Offset: 0x29AC8D4
-    void SetVector(int id, UnityEngine::Vector3 value);
+    void SetVector(int id, ::UnityEngine::Vector3 value);
     // public UnityEngine.Quaternion GetQuaternion(System.String name)
     // Offset: 0x29AC8D8
-    UnityEngine::Quaternion GetQuaternion(::StringW name);
+    ::UnityEngine::Quaternion GetQuaternion(::StringW name);
     // public UnityEngine.Quaternion GetQuaternion(System.Int32 id)
     // Offset: 0x29AC938
-    UnityEngine::Quaternion GetQuaternion(int id);
+    ::UnityEngine::Quaternion GetQuaternion(int id);
     // public System.Void SetQuaternion(System.String name, UnityEngine.Quaternion value)
     // Offset: 0x29AC998
-    void SetQuaternion(::StringW name, UnityEngine::Quaternion value);
+    void SetQuaternion(::StringW name, ::UnityEngine::Quaternion value);
     // public System.Void SetQuaternion(System.Int32 id, UnityEngine.Quaternion value)
     // Offset: 0x29AC99C
-    void SetQuaternion(int id, UnityEngine::Quaternion value);
+    void SetQuaternion(int id, ::UnityEngine::Quaternion value);
     // private System.Void get_deltaPosition_Injected(out UnityEngine.Vector3 ret)
     // Offset: 0x29A7E74
-    void get_deltaPosition_Injected(ByRef<UnityEngine::Vector3> ret);
+    void get_deltaPosition_Injected(ByRef<::UnityEngine::Vector3> ret);
     // private System.Void get_deltaRotation_Injected(out UnityEngine.Quaternion ret)
     // Offset: 0x29A7F20
-    void get_deltaRotation_Injected(ByRef<UnityEngine::Quaternion> ret);
+    void get_deltaRotation_Injected(ByRef<::UnityEngine::Quaternion> ret);
     // private System.Void get_velocity_Injected(out UnityEngine.Vector3 ret)
     // Offset: 0x29A7FD0
-    void get_velocity_Injected(ByRef<UnityEngine::Vector3> ret);
+    void get_velocity_Injected(ByRef<::UnityEngine::Vector3> ret);
     // private System.Void get_angularVelocity_Injected(out UnityEngine.Vector3 ret)
     // Offset: 0x29A8080
-    void get_angularVelocity_Injected(ByRef<UnityEngine::Vector3> ret);
+    void get_angularVelocity_Injected(ByRef<::UnityEngine::Vector3> ret);
     // private System.Void get_rootPosition_Injected(out UnityEngine.Vector3 ret)
     // Offset: 0x29A8130
-    void get_rootPosition_Injected(ByRef<UnityEngine::Vector3> ret);
+    void get_rootPosition_Injected(ByRef<::UnityEngine::Vector3> ret);
     // private System.Void set_rootPosition_Injected(ref UnityEngine.Vector3 value)
     // Offset: 0x29A81D8
-    void set_rootPosition_Injected(ByRef<UnityEngine::Vector3> value);
+    void set_rootPosition_Injected(ByRef<::UnityEngine::Vector3> value);
     // private System.Void get_rootRotation_Injected(out UnityEngine.Quaternion ret)
     // Offset: 0x29A8284
-    void get_rootRotation_Injected(ByRef<UnityEngine::Quaternion> ret);
+    void get_rootRotation_Injected(ByRef<::UnityEngine::Quaternion> ret);
     // private System.Void set_rootRotation_Injected(ref UnityEngine.Quaternion value)
     // Offset: 0x29A832C
-    void set_rootRotation_Injected(ByRef<UnityEngine::Quaternion> value);
+    void set_rootRotation_Injected(ByRef<::UnityEngine::Quaternion> value);
     // private System.Void get_bodyPositionInternal_Injected(out UnityEngine.Vector3 ret)
     // Offset: 0x29A88DC
-    void get_bodyPositionInternal_Injected(ByRef<UnityEngine::Vector3> ret);
+    void get_bodyPositionInternal_Injected(ByRef<::UnityEngine::Vector3> ret);
     // private System.Void set_bodyPositionInternal_Injected(ref UnityEngine.Vector3 value)
     // Offset: 0x29A892C
-    void set_bodyPositionInternal_Injected(ByRef<UnityEngine::Vector3> value);
+    void set_bodyPositionInternal_Injected(ByRef<::UnityEngine::Vector3> value);
     // private System.Void get_bodyRotationInternal_Injected(out UnityEngine.Quaternion ret)
     // Offset: 0x29A8AA8
-    void get_bodyRotationInternal_Injected(ByRef<UnityEngine::Quaternion> ret);
+    void get_bodyRotationInternal_Injected(ByRef<::UnityEngine::Quaternion> ret);
     // private System.Void set_bodyRotationInternal_Injected(ref UnityEngine.Quaternion value)
     // Offset: 0x29A8AF8
-    void set_bodyRotationInternal_Injected(ByRef<UnityEngine::Quaternion> value);
+    void set_bodyRotationInternal_Injected(ByRef<::UnityEngine::Quaternion> value);
     // private System.Void GetGoalPosition_Injected(UnityEngine.AvatarIKGoal goal, out UnityEngine.Vector3 ret)
     // Offset: 0x29A8BE4
-    void GetGoalPosition_Injected(UnityEngine::AvatarIKGoal goal, ByRef<UnityEngine::Vector3> ret);
+    void GetGoalPosition_Injected(::UnityEngine::AvatarIKGoal goal, ByRef<::UnityEngine::Vector3> ret);
     // private System.Void SetGoalPosition_Injected(UnityEngine.AvatarIKGoal goal, ref UnityEngine.Vector3 goalPosition)
     // Offset: 0x29A8CF8
-    void SetGoalPosition_Injected(UnityEngine::AvatarIKGoal goal, ByRef<UnityEngine::Vector3> goalPosition);
+    void SetGoalPosition_Injected(::UnityEngine::AvatarIKGoal goal, ByRef<::UnityEngine::Vector3> goalPosition);
     // private System.Void GetGoalRotation_Injected(UnityEngine.AvatarIKGoal goal, out UnityEngine.Quaternion ret)
     // Offset: 0x29A8DE8
-    void GetGoalRotation_Injected(UnityEngine::AvatarIKGoal goal, ByRef<UnityEngine::Quaternion> ret);
+    void GetGoalRotation_Injected(::UnityEngine::AvatarIKGoal goal, ByRef<::UnityEngine::Quaternion> ret);
     // private System.Void SetGoalRotation_Injected(UnityEngine.AvatarIKGoal goal, ref UnityEngine.Quaternion goalRotation)
     // Offset: 0x29A8F04
-    void SetGoalRotation_Injected(UnityEngine::AvatarIKGoal goal, ByRef<UnityEngine::Quaternion> goalRotation);
+    void SetGoalRotation_Injected(::UnityEngine::AvatarIKGoal goal, ByRef<::UnityEngine::Quaternion> goalRotation);
     // private System.Void GetHintPosition_Injected(UnityEngine.AvatarIKHint hint, out UnityEngine.Vector3 ret)
     // Offset: 0x29A92C8
-    void GetHintPosition_Injected(UnityEngine::AvatarIKHint hint, ByRef<UnityEngine::Vector3> ret);
+    void GetHintPosition_Injected(::UnityEngine::AvatarIKHint hint, ByRef<::UnityEngine::Vector3> ret);
     // private System.Void SetHintPosition_Injected(UnityEngine.AvatarIKHint hint, ref UnityEngine.Vector3 hintPosition)
     // Offset: 0x29A93DC
-    void SetHintPosition_Injected(UnityEngine::AvatarIKHint hint, ByRef<UnityEngine::Vector3> hintPosition);
+    void SetHintPosition_Injected(::UnityEngine::AvatarIKHint hint, ByRef<::UnityEngine::Vector3> hintPosition);
     // private System.Void SetLookAtPositionInternal_Injected(ref UnityEngine.Vector3 lookAtPosition)
     // Offset: 0x29A9640
-    void SetLookAtPositionInternal_Injected(ByRef<UnityEngine::Vector3> lookAtPosition);
+    void SetLookAtPositionInternal_Injected(ByRef<::UnityEngine::Vector3> lookAtPosition);
     // private System.Void SetBoneLocalRotationInternal_Injected(System.Int32 humanBoneId, ref UnityEngine.Quaternion rotation)
     // Offset: 0x29A9A80
-    void SetBoneLocalRotationInternal_Injected(int humanBoneId, ByRef<UnityEngine::Quaternion> rotation);
+    void SetBoneLocalRotationInternal_Injected(int humanBoneId, ByRef<::UnityEngine::Quaternion> rotation);
     // private System.Void get_pivotPosition_Injected(out UnityEngine.Vector3 ret)
     // Offset: 0x29AA80C
-    void get_pivotPosition_Injected(ByRef<UnityEngine::Vector3> ret);
+    void get_pivotPosition_Injected(ByRef<::UnityEngine::Vector3> ret);
     // private System.Void MatchTarget_Injected(ref UnityEngine.Vector3 matchPosition, ref UnityEngine.Quaternion matchRotation, System.Int32 targetBodyPart, ref UnityEngine.MatchTargetWeightMask weightMask, System.Single startNormalizedTime, System.Single targetNormalizedTime, System.Boolean completeMatch)
     // Offset: 0x29AA8FC
-    void MatchTarget_Injected(ByRef<UnityEngine::Vector3> matchPosition, ByRef<UnityEngine::Quaternion> matchRotation, int targetBodyPart, ByRef<UnityEngine::MatchTargetWeightMask> weightMask, float startNormalizedTime, float targetNormalizedTime, bool completeMatch);
+    void MatchTarget_Injected(ByRef<::UnityEngine::Vector3> matchPosition, ByRef<::UnityEngine::Quaternion> matchRotation, int targetBodyPart, ByRef<::UnityEngine::MatchTargetWeightMask> weightMask, float startNormalizedTime, float targetNormalizedTime, bool completeMatch);
     // private System.Void get_targetPosition_Injected(out UnityEngine.Vector3 ret)
     // Offset: 0x29AB7B0
-    void get_targetPosition_Injected(ByRef<UnityEngine::Vector3> ret);
+    void get_targetPosition_Injected(ByRef<::UnityEngine::Vector3> ret);
     // private System.Void get_targetRotation_Injected(out UnityEngine.Quaternion ret)
     // Offset: 0x29AB85C
-    void get_targetRotation_Injected(ByRef<UnityEngine::Quaternion> ret);
+    void get_targetRotation_Injected(ByRef<::UnityEngine::Quaternion> ret);
     // public System.Void .ctor()
     // Offset: 0x29AC9A0
     // Implemented from: UnityEngine.Behaviour
@@ -945,7 +945,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Animator* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Animator::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Animator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Animator*, creationType>()));
     }
   }; // UnityEngine.Animator
@@ -1003,7 +1003,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::get_deltaPosition
 // Il2CppName: get_deltaPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_deltaPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_deltaPosition)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_deltaPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1011,7 +1011,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Animator::get_deltaRotation
 // Il2CppName: get_deltaRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_deltaRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_deltaRotation)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_deltaRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1019,7 +1019,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Animator::get_velocity
 // Il2CppName: get_velocity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_velocity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_velocity)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_velocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1027,7 +1027,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Animator::get_angularVelocity
 // Il2CppName: get_angularVelocity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_angularVelocity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_angularVelocity)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_angularVelocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1035,7 +1035,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Animator::get_rootPosition
 // Il2CppName: get_rootPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_rootPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_rootPosition)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_rootPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1043,7 +1043,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Animator::set_rootPosition
 // Il2CppName: set_rootPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::Vector3)>(&UnityEngine::Animator::set_rootPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::UnityEngine::Vector3)>(&UnityEngine::Animator::set_rootPosition)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "set_rootPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1052,7 +1052,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::get_rootRotation
 // Il2CppName: get_rootRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_rootRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_rootRotation)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_rootRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1060,7 +1060,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Animator::set_rootRotation
 // Il2CppName: set_rootRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::Quaternion)>(&UnityEngine::Animator::set_rootRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::UnityEngine::Quaternion)>(&UnityEngine::Animator::set_rootRotation)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "set_rootRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1120,7 +1120,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::get_updateMode
 // Il2CppName: get_updateMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimatorUpdateMode (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_updateMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AnimatorUpdateMode (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_updateMode)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_updateMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1128,7 +1128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Animator::set_updateMode
 // Il2CppName: set_updateMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::AnimatorUpdateMode)>(&UnityEngine::Animator::set_updateMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::UnityEngine::AnimatorUpdateMode)>(&UnityEngine::Animator::set_updateMode)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimatorUpdateMode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "set_updateMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1170,7 +1170,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Writing MetadataGetter for method: UnityEngine::Animator::get_bodyPosition
 // Il2CppName: get_bodyPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_bodyPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_bodyPosition)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_bodyPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1178,7 +1178,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Animator::set_bodyPosition
 // Il2CppName: set_bodyPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::Vector3)>(&UnityEngine::Animator::set_bodyPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::UnityEngine::Vector3)>(&UnityEngine::Animator::set_bodyPosition)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "set_bodyPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1187,7 +1187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::get_bodyPositionInternal
 // Il2CppName: get_bodyPositionInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_bodyPositionInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_bodyPositionInternal)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_bodyPositionInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1195,7 +1195,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Animator::set_bodyPositionInternal
 // Il2CppName: set_bodyPositionInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::Vector3)>(&UnityEngine::Animator::set_bodyPositionInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::UnityEngine::Vector3)>(&UnityEngine::Animator::set_bodyPositionInternal)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "set_bodyPositionInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1204,7 +1204,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::get_bodyRotation
 // Il2CppName: get_bodyRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_bodyRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_bodyRotation)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_bodyRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1212,7 +1212,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Animator::set_bodyRotation
 // Il2CppName: set_bodyRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::Quaternion)>(&UnityEngine::Animator::set_bodyRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::UnityEngine::Quaternion)>(&UnityEngine::Animator::set_bodyRotation)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "set_bodyRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1221,7 +1221,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::get_bodyRotationInternal
 // Il2CppName: get_bodyRotationInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_bodyRotationInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_bodyRotationInternal)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_bodyRotationInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1229,7 +1229,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Animator::set_bodyRotationInternal
 // Il2CppName: set_bodyRotationInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::Quaternion)>(&UnityEngine::Animator::set_bodyRotationInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::UnityEngine::Quaternion)>(&UnityEngine::Animator::set_bodyRotationInternal)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "set_bodyRotationInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1263,7 +1263,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::Animator::get_parameters
 // Il2CppName: get_parameters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::AnimatorControllerParameter*> (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_parameters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::AnimatorControllerParameter*> (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_parameters)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_parameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1304,7 +1304,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Writing MetadataGetter for method: UnityEngine::Animator::get_pivotPosition
 // Il2CppName: get_pivotPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_pivotPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_pivotPosition)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_pivotPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1337,7 +1337,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::get_targetPosition
 // Il2CppName: get_targetPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_targetPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_targetPosition)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_targetPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1345,7 +1345,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Animator::get_targetRotation
 // Il2CppName: get_targetRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_targetRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_targetRotation)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_targetRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1353,7 +1353,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Animator::get_avatarRoot
 // Il2CppName: get_avatarRoot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_avatarRoot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Transform* (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_avatarRoot)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_avatarRoot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1361,7 +1361,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Animator::get_cullingMode
 // Il2CppName: get_cullingMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimatorCullingMode (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_cullingMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AnimatorCullingMode (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_cullingMode)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_cullingMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1369,7 +1369,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Animator::set_cullingMode
 // Il2CppName: set_cullingMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::AnimatorCullingMode)>(&UnityEngine::Animator::set_cullingMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::UnityEngine::AnimatorCullingMode)>(&UnityEngine::Animator::set_cullingMode)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimatorCullingMode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "set_cullingMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1429,7 +1429,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::get_recorderMode
 // Il2CppName: get_recorderMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimatorRecorderMode (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_recorderMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AnimatorRecorderMode (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_recorderMode)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_recorderMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1437,7 +1437,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Animator::get_runtimeAnimatorController
 // Il2CppName: get_runtimeAnimatorController
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RuntimeAnimatorController* (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_runtimeAnimatorController)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RuntimeAnimatorController* (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_runtimeAnimatorController)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_runtimeAnimatorController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1445,7 +1445,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Animator::set_runtimeAnimatorController
 // Il2CppName: set_runtimeAnimatorController
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::RuntimeAnimatorController*)>(&UnityEngine::Animator::set_runtimeAnimatorController)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::UnityEngine::RuntimeAnimatorController*)>(&UnityEngine::Animator::set_runtimeAnimatorController)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "RuntimeAnimatorController")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "set_runtimeAnimatorController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1462,7 +1462,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::get_avatar
 // Il2CppName: get_avatar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Avatar* (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_avatar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Avatar* (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_avatar)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_avatar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1470,7 +1470,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Animator::set_avatar
 // Il2CppName: set_avatar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::Avatar*)>(&UnityEngine::Animator::set_avatar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::UnityEngine::Avatar*)>(&UnityEngine::Animator::set_avatar)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Avatar")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "set_avatar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1479,7 +1479,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::get_playableGraph
 // Il2CppName: get_playableGraph
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableGraph (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_playableGraph)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::PlayableGraph (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_playableGraph)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_playableGraph", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1771,7 +1771,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::GetIKPosition
 // Il2CppName: GetIKPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Animator::*)(UnityEngine::AvatarIKGoal)>(&UnityEngine::Animator::GetIKPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (UnityEngine::Animator::*)(::UnityEngine::AvatarIKGoal)>(&UnityEngine::Animator::GetIKPosition)> {
   static const MethodInfo* get() {
     static auto* goal = &::il2cpp_utils::GetClassFromName("UnityEngine", "AvatarIKGoal")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetIKPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{goal});
@@ -1780,7 +1780,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Animator::GetGoalPosition
 // Il2CppName: GetGoalPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Animator::*)(UnityEngine::AvatarIKGoal)>(&UnityEngine::Animator::GetGoalPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (UnityEngine::Animator::*)(::UnityEngine::AvatarIKGoal)>(&UnityEngine::Animator::GetGoalPosition)> {
   static const MethodInfo* get() {
     static auto* goal = &::il2cpp_utils::GetClassFromName("UnityEngine", "AvatarIKGoal")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetGoalPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{goal});
@@ -1789,7 +1789,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Animator::SetIKPosition
 // Il2CppName: SetIKPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::AvatarIKGoal, UnityEngine::Vector3)>(&UnityEngine::Animator::SetIKPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::UnityEngine::AvatarIKGoal, ::UnityEngine::Vector3)>(&UnityEngine::Animator::SetIKPosition)> {
   static const MethodInfo* get() {
     static auto* goal = &::il2cpp_utils::GetClassFromName("UnityEngine", "AvatarIKGoal")->byval_arg;
     static auto* goalPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -1799,7 +1799,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::SetGoalPosition
 // Il2CppName: SetGoalPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::AvatarIKGoal, UnityEngine::Vector3)>(&UnityEngine::Animator::SetGoalPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::UnityEngine::AvatarIKGoal, ::UnityEngine::Vector3)>(&UnityEngine::Animator::SetGoalPosition)> {
   static const MethodInfo* get() {
     static auto* goal = &::il2cpp_utils::GetClassFromName("UnityEngine", "AvatarIKGoal")->byval_arg;
     static auto* goalPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -1809,7 +1809,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::GetIKRotation
 // Il2CppName: GetIKRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (UnityEngine::Animator::*)(UnityEngine::AvatarIKGoal)>(&UnityEngine::Animator::GetIKRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (UnityEngine::Animator::*)(::UnityEngine::AvatarIKGoal)>(&UnityEngine::Animator::GetIKRotation)> {
   static const MethodInfo* get() {
     static auto* goal = &::il2cpp_utils::GetClassFromName("UnityEngine", "AvatarIKGoal")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetIKRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{goal});
@@ -1818,7 +1818,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Animator::GetGoalRotation
 // Il2CppName: GetGoalRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (UnityEngine::Animator::*)(UnityEngine::AvatarIKGoal)>(&UnityEngine::Animator::GetGoalRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (UnityEngine::Animator::*)(::UnityEngine::AvatarIKGoal)>(&UnityEngine::Animator::GetGoalRotation)> {
   static const MethodInfo* get() {
     static auto* goal = &::il2cpp_utils::GetClassFromName("UnityEngine", "AvatarIKGoal")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetGoalRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{goal});
@@ -1827,7 +1827,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Animator::SetIKRotation
 // Il2CppName: SetIKRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::AvatarIKGoal, UnityEngine::Quaternion)>(&UnityEngine::Animator::SetIKRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::UnityEngine::AvatarIKGoal, ::UnityEngine::Quaternion)>(&UnityEngine::Animator::SetIKRotation)> {
   static const MethodInfo* get() {
     static auto* goal = &::il2cpp_utils::GetClassFromName("UnityEngine", "AvatarIKGoal")->byval_arg;
     static auto* goalRotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
@@ -1837,7 +1837,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::SetGoalRotation
 // Il2CppName: SetGoalRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::AvatarIKGoal, UnityEngine::Quaternion)>(&UnityEngine::Animator::SetGoalRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::UnityEngine::AvatarIKGoal, ::UnityEngine::Quaternion)>(&UnityEngine::Animator::SetGoalRotation)> {
   static const MethodInfo* get() {
     static auto* goal = &::il2cpp_utils::GetClassFromName("UnityEngine", "AvatarIKGoal")->byval_arg;
     static auto* goalRotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
@@ -1847,7 +1847,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::GetIKPositionWeight
 // Il2CppName: GetIKPositionWeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Animator::*)(UnityEngine::AvatarIKGoal)>(&UnityEngine::Animator::GetIKPositionWeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Animator::*)(::UnityEngine::AvatarIKGoal)>(&UnityEngine::Animator::GetIKPositionWeight)> {
   static const MethodInfo* get() {
     static auto* goal = &::il2cpp_utils::GetClassFromName("UnityEngine", "AvatarIKGoal")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetIKPositionWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{goal});
@@ -1856,7 +1856,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Writing MetadataGetter for method: UnityEngine::Animator::GetGoalWeightPosition
 // Il2CppName: GetGoalWeightPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Animator::*)(UnityEngine::AvatarIKGoal)>(&UnityEngine::Animator::GetGoalWeightPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Animator::*)(::UnityEngine::AvatarIKGoal)>(&UnityEngine::Animator::GetGoalWeightPosition)> {
   static const MethodInfo* get() {
     static auto* goal = &::il2cpp_utils::GetClassFromName("UnityEngine", "AvatarIKGoal")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetGoalWeightPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{goal});
@@ -1865,7 +1865,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Writing MetadataGetter for method: UnityEngine::Animator::SetIKPositionWeight
 // Il2CppName: SetIKPositionWeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::AvatarIKGoal, float)>(&UnityEngine::Animator::SetIKPositionWeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::UnityEngine::AvatarIKGoal, float)>(&UnityEngine::Animator::SetIKPositionWeight)> {
   static const MethodInfo* get() {
     static auto* goal = &::il2cpp_utils::GetClassFromName("UnityEngine", "AvatarIKGoal")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -1875,7 +1875,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::SetGoalWeightPosition
 // Il2CppName: SetGoalWeightPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::AvatarIKGoal, float)>(&UnityEngine::Animator::SetGoalWeightPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::UnityEngine::AvatarIKGoal, float)>(&UnityEngine::Animator::SetGoalWeightPosition)> {
   static const MethodInfo* get() {
     static auto* goal = &::il2cpp_utils::GetClassFromName("UnityEngine", "AvatarIKGoal")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -1885,7 +1885,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::GetIKRotationWeight
 // Il2CppName: GetIKRotationWeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Animator::*)(UnityEngine::AvatarIKGoal)>(&UnityEngine::Animator::GetIKRotationWeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Animator::*)(::UnityEngine::AvatarIKGoal)>(&UnityEngine::Animator::GetIKRotationWeight)> {
   static const MethodInfo* get() {
     static auto* goal = &::il2cpp_utils::GetClassFromName("UnityEngine", "AvatarIKGoal")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetIKRotationWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{goal});
@@ -1894,7 +1894,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Writing MetadataGetter for method: UnityEngine::Animator::GetGoalWeightRotation
 // Il2CppName: GetGoalWeightRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Animator::*)(UnityEngine::AvatarIKGoal)>(&UnityEngine::Animator::GetGoalWeightRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Animator::*)(::UnityEngine::AvatarIKGoal)>(&UnityEngine::Animator::GetGoalWeightRotation)> {
   static const MethodInfo* get() {
     static auto* goal = &::il2cpp_utils::GetClassFromName("UnityEngine", "AvatarIKGoal")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetGoalWeightRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{goal});
@@ -1903,7 +1903,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Writing MetadataGetter for method: UnityEngine::Animator::SetIKRotationWeight
 // Il2CppName: SetIKRotationWeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::AvatarIKGoal, float)>(&UnityEngine::Animator::SetIKRotationWeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::UnityEngine::AvatarIKGoal, float)>(&UnityEngine::Animator::SetIKRotationWeight)> {
   static const MethodInfo* get() {
     static auto* goal = &::il2cpp_utils::GetClassFromName("UnityEngine", "AvatarIKGoal")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -1913,7 +1913,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::SetGoalWeightRotation
 // Il2CppName: SetGoalWeightRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::AvatarIKGoal, float)>(&UnityEngine::Animator::SetGoalWeightRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::UnityEngine::AvatarIKGoal, float)>(&UnityEngine::Animator::SetGoalWeightRotation)> {
   static const MethodInfo* get() {
     static auto* goal = &::il2cpp_utils::GetClassFromName("UnityEngine", "AvatarIKGoal")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -1923,7 +1923,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::GetIKHintPosition
 // Il2CppName: GetIKHintPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Animator::*)(UnityEngine::AvatarIKHint)>(&UnityEngine::Animator::GetIKHintPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (UnityEngine::Animator::*)(::UnityEngine::AvatarIKHint)>(&UnityEngine::Animator::GetIKHintPosition)> {
   static const MethodInfo* get() {
     static auto* hint = &::il2cpp_utils::GetClassFromName("UnityEngine", "AvatarIKHint")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetIKHintPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hint});
@@ -1932,7 +1932,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Animator::GetHintPosition
 // Il2CppName: GetHintPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Animator::*)(UnityEngine::AvatarIKHint)>(&UnityEngine::Animator::GetHintPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (UnityEngine::Animator::*)(::UnityEngine::AvatarIKHint)>(&UnityEngine::Animator::GetHintPosition)> {
   static const MethodInfo* get() {
     static auto* hint = &::il2cpp_utils::GetClassFromName("UnityEngine", "AvatarIKHint")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetHintPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hint});
@@ -1941,7 +1941,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Animator::SetIKHintPosition
 // Il2CppName: SetIKHintPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::AvatarIKHint, UnityEngine::Vector3)>(&UnityEngine::Animator::SetIKHintPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::UnityEngine::AvatarIKHint, ::UnityEngine::Vector3)>(&UnityEngine::Animator::SetIKHintPosition)> {
   static const MethodInfo* get() {
     static auto* hint = &::il2cpp_utils::GetClassFromName("UnityEngine", "AvatarIKHint")->byval_arg;
     static auto* hintPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -1951,7 +1951,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::SetHintPosition
 // Il2CppName: SetHintPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::AvatarIKHint, UnityEngine::Vector3)>(&UnityEngine::Animator::SetHintPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::UnityEngine::AvatarIKHint, ::UnityEngine::Vector3)>(&UnityEngine::Animator::SetHintPosition)> {
   static const MethodInfo* get() {
     static auto* hint = &::il2cpp_utils::GetClassFromName("UnityEngine", "AvatarIKHint")->byval_arg;
     static auto* hintPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -1961,7 +1961,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::GetIKHintPositionWeight
 // Il2CppName: GetIKHintPositionWeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Animator::*)(UnityEngine::AvatarIKHint)>(&UnityEngine::Animator::GetIKHintPositionWeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Animator::*)(::UnityEngine::AvatarIKHint)>(&UnityEngine::Animator::GetIKHintPositionWeight)> {
   static const MethodInfo* get() {
     static auto* hint = &::il2cpp_utils::GetClassFromName("UnityEngine", "AvatarIKHint")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetIKHintPositionWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hint});
@@ -1970,7 +1970,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Writing MetadataGetter for method: UnityEngine::Animator::GetHintWeightPosition
 // Il2CppName: GetHintWeightPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Animator::*)(UnityEngine::AvatarIKHint)>(&UnityEngine::Animator::GetHintWeightPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Animator::*)(::UnityEngine::AvatarIKHint)>(&UnityEngine::Animator::GetHintWeightPosition)> {
   static const MethodInfo* get() {
     static auto* hint = &::il2cpp_utils::GetClassFromName("UnityEngine", "AvatarIKHint")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetHintWeightPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hint});
@@ -1979,7 +1979,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Writing MetadataGetter for method: UnityEngine::Animator::SetIKHintPositionWeight
 // Il2CppName: SetIKHintPositionWeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::AvatarIKHint, float)>(&UnityEngine::Animator::SetIKHintPositionWeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::UnityEngine::AvatarIKHint, float)>(&UnityEngine::Animator::SetIKHintPositionWeight)> {
   static const MethodInfo* get() {
     static auto* hint = &::il2cpp_utils::GetClassFromName("UnityEngine", "AvatarIKHint")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -1989,7 +1989,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::SetHintWeightPosition
 // Il2CppName: SetHintWeightPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::AvatarIKHint, float)>(&UnityEngine::Animator::SetHintWeightPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::UnityEngine::AvatarIKHint, float)>(&UnityEngine::Animator::SetHintWeightPosition)> {
   static const MethodInfo* get() {
     static auto* hint = &::il2cpp_utils::GetClassFromName("UnityEngine", "AvatarIKHint")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -1999,7 +1999,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::SetLookAtPosition
 // Il2CppName: SetLookAtPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::Vector3)>(&UnityEngine::Animator::SetLookAtPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::UnityEngine::Vector3)>(&UnityEngine::Animator::SetLookAtPosition)> {
   static const MethodInfo* get() {
     static auto* lookAtPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetLookAtPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lookAtPosition});
@@ -2008,7 +2008,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::SetLookAtPositionInternal
 // Il2CppName: SetLookAtPositionInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::Vector3)>(&UnityEngine::Animator::SetLookAtPositionInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::UnityEngine::Vector3)>(&UnityEngine::Animator::SetLookAtPositionInternal)> {
   static const MethodInfo* get() {
     static auto* lookAtPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetLookAtPositionInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lookAtPosition});
@@ -2085,7 +2085,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::SetBoneLocalRotation
 // Il2CppName: SetBoneLocalRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::HumanBodyBones, UnityEngine::Quaternion)>(&UnityEngine::Animator::SetBoneLocalRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::UnityEngine::HumanBodyBones, ::UnityEngine::Quaternion)>(&UnityEngine::Animator::SetBoneLocalRotation)> {
   static const MethodInfo* get() {
     static auto* humanBoneId = &::il2cpp_utils::GetClassFromName("UnityEngine", "HumanBodyBones")->byval_arg;
     static auto* rotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
@@ -2095,7 +2095,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::SetBoneLocalRotationInternal
 // Il2CppName: SetBoneLocalRotationInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int, UnityEngine::Quaternion)>(&UnityEngine::Animator::SetBoneLocalRotationInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int, ::UnityEngine::Quaternion)>(&UnityEngine::Animator::SetBoneLocalRotationInternal)> {
   static const MethodInfo* get() {
     static auto* humanBoneId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* rotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
@@ -2105,7 +2105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::GetBehaviour
 // Il2CppName: GetBehaviour
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ScriptableObject* (UnityEngine::Animator::*)(System::Type*)>(&UnityEngine::Animator::GetBehaviour)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ScriptableObject* (UnityEngine::Animator::*)(::System::Type*)>(&UnityEngine::Animator::GetBehaviour)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetBehaviour", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -2123,7 +2123,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Animator::InternalGetBehaviours
 // Il2CppName: InternalGetBehaviours
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::ScriptableObject*> (UnityEngine::Animator::*)(System::Type*)>(&UnityEngine::Animator::InternalGetBehaviours)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::ScriptableObject*> (UnityEngine::Animator::*)(::System::Type*)>(&UnityEngine::Animator::InternalGetBehaviours)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "InternalGetBehaviours", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -2132,7 +2132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: UnityEngine::Animator::GetBehaviours
 // Il2CppName: GetBehaviours
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::StateMachineBehaviour*> (UnityEngine::Animator::*)(int, int)>(&UnityEngine::Animator::GetBehaviours)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::StateMachineBehaviour*> (UnityEngine::Animator::*)(int, int)>(&UnityEngine::Animator::GetBehaviours)> {
   static const MethodInfo* get() {
     static auto* fullPathHash = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* layerIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2142,7 +2142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: UnityEngine::Animator::InternalGetBehavioursByKey
 // Il2CppName: InternalGetBehavioursByKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::ScriptableObject*> (UnityEngine::Animator::*)(int, int, System::Type*)>(&UnityEngine::Animator::InternalGetBehavioursByKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::ScriptableObject*> (UnityEngine::Animator::*)(int, int, ::System::Type*)>(&UnityEngine::Animator::InternalGetBehavioursByKey)> {
   static const MethodInfo* get() {
     static auto* fullPathHash = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* layerIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2190,7 +2190,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::GetAnimatorStateInfo
 // Il2CppName: GetAnimatorStateInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int, UnityEngine::StateInfoIndex, ByRef<UnityEngine::AnimatorStateInfo>)>(&UnityEngine::Animator::GetAnimatorStateInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int, ::UnityEngine::StateInfoIndex, ByRef<::UnityEngine::AnimatorStateInfo>)>(&UnityEngine::Animator::GetAnimatorStateInfo)> {
   static const MethodInfo* get() {
     static auto* layerIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* stateInfoIndex = &::il2cpp_utils::GetClassFromName("UnityEngine", "StateInfoIndex")->byval_arg;
@@ -2201,7 +2201,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::GetCurrentAnimatorStateInfo
 // Il2CppName: GetCurrentAnimatorStateInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimatorStateInfo (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetCurrentAnimatorStateInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AnimatorStateInfo (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetCurrentAnimatorStateInfo)> {
   static const MethodInfo* get() {
     static auto* layerIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetCurrentAnimatorStateInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{layerIndex});
@@ -2210,7 +2210,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Animator::GetNextAnimatorStateInfo
 // Il2CppName: GetNextAnimatorStateInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimatorStateInfo (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetNextAnimatorStateInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AnimatorStateInfo (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetNextAnimatorStateInfo)> {
   static const MethodInfo* get() {
     static auto* layerIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetNextAnimatorStateInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{layerIndex});
@@ -2219,7 +2219,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Animator::GetAnimatorTransitionInfo
 // Il2CppName: GetAnimatorTransitionInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int, ByRef<UnityEngine::AnimatorTransitionInfo>)>(&UnityEngine::Animator::GetAnimatorTransitionInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int, ByRef<::UnityEngine::AnimatorTransitionInfo>)>(&UnityEngine::Animator::GetAnimatorTransitionInfo)> {
   static const MethodInfo* get() {
     static auto* layerIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* info = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimatorTransitionInfo")->this_arg;
@@ -2229,7 +2229,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::GetAnimatorTransitionInfo
 // Il2CppName: GetAnimatorTransitionInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimatorTransitionInfo (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetAnimatorTransitionInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AnimatorTransitionInfo (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetAnimatorTransitionInfo)> {
   static const MethodInfo* get() {
     static auto* layerIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetAnimatorTransitionInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{layerIndex});
@@ -2266,7 +2266,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::Animator::GetCurrentAnimatorClipInfo
 // Il2CppName: GetCurrentAnimatorClipInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::AnimatorClipInfo> (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetCurrentAnimatorClipInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::AnimatorClipInfo> (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetCurrentAnimatorClipInfo)> {
   static const MethodInfo* get() {
     static auto* layerIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetCurrentAnimatorClipInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{layerIndex});
@@ -2275,7 +2275,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: UnityEngine::Animator::GetNextAnimatorClipInfo
 // Il2CppName: GetNextAnimatorClipInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::AnimatorClipInfo> (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetNextAnimatorClipInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::AnimatorClipInfo> (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetNextAnimatorClipInfo)> {
   static const MethodInfo* get() {
     static auto* layerIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetNextAnimatorClipInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{layerIndex});
@@ -2284,7 +2284,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: UnityEngine::Animator::GetCurrentAnimatorClipInfo
 // Il2CppName: GetCurrentAnimatorClipInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int, System::Collections::Generic::List_1<UnityEngine::AnimatorClipInfo>*)>(&UnityEngine::Animator::GetCurrentAnimatorClipInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int, ::System::Collections::Generic::List_1<::UnityEngine::AnimatorClipInfo>*)>(&UnityEngine::Animator::GetCurrentAnimatorClipInfo)> {
   static const MethodInfo* get() {
     static auto* layerIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* clips = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "AnimatorClipInfo")})->byval_arg;
@@ -2305,7 +2305,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::GetNextAnimatorClipInfo
 // Il2CppName: GetNextAnimatorClipInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int, System::Collections::Generic::List_1<UnityEngine::AnimatorClipInfo>*)>(&UnityEngine::Animator::GetNextAnimatorClipInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int, ::System::Collections::Generic::List_1<::UnityEngine::AnimatorClipInfo>*)>(&UnityEngine::Animator::GetNextAnimatorClipInfo)> {
   static const MethodInfo* get() {
     static auto* layerIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* clips = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "AnimatorClipInfo")})->byval_arg;
@@ -2324,7 +2324,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::GetParameter
 // Il2CppName: GetParameter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimatorControllerParameter* (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetParameter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AnimatorControllerParameter* (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetParameter)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetParameter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
@@ -2333,7 +2333,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Animator::MatchTarget
 // Il2CppName: MatchTarget
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::Vector3, UnityEngine::Quaternion, int, UnityEngine::MatchTargetWeightMask, float, float, bool)>(&UnityEngine::Animator::MatchTarget)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion, int, ::UnityEngine::MatchTargetWeightMask, float, float, bool)>(&UnityEngine::Animator::MatchTarget)> {
   static const MethodInfo* get() {
     static auto* matchPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* matchRotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
@@ -2348,7 +2348,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::MatchTarget
 // Il2CppName: MatchTarget
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::AvatarTarget, UnityEngine::MatchTargetWeightMask, float)>(&UnityEngine::Animator::MatchTarget)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::AvatarTarget, ::UnityEngine::MatchTargetWeightMask, float)>(&UnityEngine::Animator::MatchTarget)> {
   static const MethodInfo* get() {
     static auto* matchPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* matchRotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
@@ -2361,7 +2361,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::MatchTarget
 // Il2CppName: MatchTarget
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::AvatarTarget, UnityEngine::MatchTargetWeightMask, float, float)>(&UnityEngine::Animator::MatchTarget)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::AvatarTarget, ::UnityEngine::MatchTargetWeightMask, float, float)>(&UnityEngine::Animator::MatchTarget)> {
   static const MethodInfo* get() {
     static auto* matchPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* matchRotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
@@ -2375,7 +2375,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::MatchTarget
 // Il2CppName: MatchTarget
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::AvatarTarget, UnityEngine::MatchTargetWeightMask, float, float, bool)>(&UnityEngine::Animator::MatchTarget)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::AvatarTarget, ::UnityEngine::MatchTargetWeightMask, float, float, bool)>(&UnityEngine::Animator::MatchTarget)> {
   static const MethodInfo* get() {
     static auto* matchPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* matchRotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
@@ -2728,7 +2728,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::SetTarget
 // Il2CppName: SetTarget
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::AvatarTarget, float)>(&UnityEngine::Animator::SetTarget)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::UnityEngine::AvatarTarget, float)>(&UnityEngine::Animator::SetTarget)> {
   static const MethodInfo* get() {
     static auto* targetIndex = &::il2cpp_utils::GetClassFromName("UnityEngine", "AvatarTarget")->byval_arg;
     static auto* targetNormalizedTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -2738,7 +2738,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::IsControlled
 // Il2CppName: IsControlled
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animator::*)(UnityEngine::Transform*)>(&UnityEngine::Animator::IsControlled)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animator::*)(::UnityEngine::Transform*)>(&UnityEngine::Animator::IsControlled)> {
   static const MethodInfo* get() {
     static auto* transform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "IsControlled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{transform});
@@ -2747,7 +2747,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::IsBoneTransform
 // Il2CppName: IsBoneTransform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animator::*)(UnityEngine::Transform*)>(&UnityEngine::Animator::IsBoneTransform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animator::*)(::UnityEngine::Transform*)>(&UnityEngine::Animator::IsBoneTransform)> {
   static const MethodInfo* get() {
     static auto* transform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "IsBoneTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{transform});
@@ -2756,7 +2756,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::GetBoneTransform
 // Il2CppName: GetBoneTransform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (UnityEngine::Animator::*)(UnityEngine::HumanBodyBones)>(&UnityEngine::Animator::GetBoneTransform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Transform* (UnityEngine::Animator::*)(::UnityEngine::HumanBodyBones)>(&UnityEngine::Animator::GetBoneTransform)> {
   static const MethodInfo* get() {
     static auto* humanBoneId = &::il2cpp_utils::GetClassFromName("UnityEngine", "HumanBodyBones")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetBoneTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{humanBoneId});
@@ -2765,7 +2765,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Animator::GetBoneTransformInternal
 // Il2CppName: GetBoneTransformInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetBoneTransformInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Transform* (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetBoneTransformInternal)> {
   static const MethodInfo* get() {
     static auto* humanBoneId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetBoneTransformInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{humanBoneId});
@@ -2858,7 +2858,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: UnityEngine::Animator::GetCurrentGraph
 // Il2CppName: GetCurrentGraph
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(ByRef<UnityEngine::Playables::PlayableGraph>)>(&UnityEngine::Animator::GetCurrentGraph)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(ByRef<::UnityEngine::Playables::PlayableGraph>)>(&UnityEngine::Animator::GetCurrentGraph)> {
   static const MethodInfo* get() {
     static auto* graph = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableGraph")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetCurrentGraph", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{graph});
@@ -3187,7 +3187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: UnityEngine::Animator::GetVector
 // Il2CppName: GetVector
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Animator::*)(::StringW)>(&UnityEngine::Animator::GetVector)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (UnityEngine::Animator::*)(::StringW)>(&UnityEngine::Animator::GetVector)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -3196,7 +3196,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Animator::GetVector
 // Il2CppName: GetVector
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetVector)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetVector)> {
   static const MethodInfo* get() {
     static auto* id = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{id});
@@ -3205,7 +3205,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Animator::SetVector
 // Il2CppName: SetVector
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::StringW, UnityEngine::Vector3)>(&UnityEngine::Animator::SetVector)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::StringW, ::UnityEngine::Vector3)>(&UnityEngine::Animator::SetVector)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -3215,7 +3215,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::SetVector
 // Il2CppName: SetVector
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int, UnityEngine::Vector3)>(&UnityEngine::Animator::SetVector)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int, ::UnityEngine::Vector3)>(&UnityEngine::Animator::SetVector)> {
   static const MethodInfo* get() {
     static auto* id = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -3225,7 +3225,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::GetQuaternion
 // Il2CppName: GetQuaternion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (UnityEngine::Animator::*)(::StringW)>(&UnityEngine::Animator::GetQuaternion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (UnityEngine::Animator::*)(::StringW)>(&UnityEngine::Animator::GetQuaternion)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetQuaternion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -3234,7 +3234,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Animator::GetQuaternion
 // Il2CppName: GetQuaternion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetQuaternion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetQuaternion)> {
   static const MethodInfo* get() {
     static auto* id = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetQuaternion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{id});
@@ -3243,7 +3243,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Animator::SetQuaternion
 // Il2CppName: SetQuaternion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::StringW, UnityEngine::Quaternion)>(&UnityEngine::Animator::SetQuaternion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::StringW, ::UnityEngine::Quaternion)>(&UnityEngine::Animator::SetQuaternion)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
@@ -3253,7 +3253,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::SetQuaternion
 // Il2CppName: SetQuaternion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int, UnityEngine::Quaternion)>(&UnityEngine::Animator::SetQuaternion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int, ::UnityEngine::Quaternion)>(&UnityEngine::Animator::SetQuaternion)> {
   static const MethodInfo* get() {
     static auto* id = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
@@ -3263,7 +3263,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::get_deltaPosition_Injected
 // Il2CppName: get_deltaPosition_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(ByRef<UnityEngine::Vector3>)>(&UnityEngine::Animator::get_deltaPosition_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(ByRef<::UnityEngine::Vector3>)>(&UnityEngine::Animator::get_deltaPosition_Injected)> {
   static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_deltaPosition_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
@@ -3272,7 +3272,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::get_deltaRotation_Injected
 // Il2CppName: get_deltaRotation_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(ByRef<UnityEngine::Quaternion>)>(&UnityEngine::Animator::get_deltaRotation_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(ByRef<::UnityEngine::Quaternion>)>(&UnityEngine::Animator::get_deltaRotation_Injected)> {
   static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_deltaRotation_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
@@ -3281,7 +3281,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::get_velocity_Injected
 // Il2CppName: get_velocity_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(ByRef<UnityEngine::Vector3>)>(&UnityEngine::Animator::get_velocity_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(ByRef<::UnityEngine::Vector3>)>(&UnityEngine::Animator::get_velocity_Injected)> {
   static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_velocity_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
@@ -3290,7 +3290,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::get_angularVelocity_Injected
 // Il2CppName: get_angularVelocity_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(ByRef<UnityEngine::Vector3>)>(&UnityEngine::Animator::get_angularVelocity_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(ByRef<::UnityEngine::Vector3>)>(&UnityEngine::Animator::get_angularVelocity_Injected)> {
   static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_angularVelocity_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
@@ -3299,7 +3299,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::get_rootPosition_Injected
 // Il2CppName: get_rootPosition_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(ByRef<UnityEngine::Vector3>)>(&UnityEngine::Animator::get_rootPosition_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(ByRef<::UnityEngine::Vector3>)>(&UnityEngine::Animator::get_rootPosition_Injected)> {
   static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_rootPosition_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
@@ -3308,7 +3308,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::set_rootPosition_Injected
 // Il2CppName: set_rootPosition_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(ByRef<UnityEngine::Vector3>)>(&UnityEngine::Animator::set_rootPosition_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(ByRef<::UnityEngine::Vector3>)>(&UnityEngine::Animator::set_rootPosition_Injected)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "set_rootPosition_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -3317,7 +3317,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::get_rootRotation_Injected
 // Il2CppName: get_rootRotation_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(ByRef<UnityEngine::Quaternion>)>(&UnityEngine::Animator::get_rootRotation_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(ByRef<::UnityEngine::Quaternion>)>(&UnityEngine::Animator::get_rootRotation_Injected)> {
   static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_rootRotation_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
@@ -3326,7 +3326,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::set_rootRotation_Injected
 // Il2CppName: set_rootRotation_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(ByRef<UnityEngine::Quaternion>)>(&UnityEngine::Animator::set_rootRotation_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(ByRef<::UnityEngine::Quaternion>)>(&UnityEngine::Animator::set_rootRotation_Injected)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "set_rootRotation_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -3335,7 +3335,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::get_bodyPositionInternal_Injected
 // Il2CppName: get_bodyPositionInternal_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(ByRef<UnityEngine::Vector3>)>(&UnityEngine::Animator::get_bodyPositionInternal_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(ByRef<::UnityEngine::Vector3>)>(&UnityEngine::Animator::get_bodyPositionInternal_Injected)> {
   static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_bodyPositionInternal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
@@ -3344,7 +3344,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::set_bodyPositionInternal_Injected
 // Il2CppName: set_bodyPositionInternal_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(ByRef<UnityEngine::Vector3>)>(&UnityEngine::Animator::set_bodyPositionInternal_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(ByRef<::UnityEngine::Vector3>)>(&UnityEngine::Animator::set_bodyPositionInternal_Injected)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "set_bodyPositionInternal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -3353,7 +3353,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::get_bodyRotationInternal_Injected
 // Il2CppName: get_bodyRotationInternal_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(ByRef<UnityEngine::Quaternion>)>(&UnityEngine::Animator::get_bodyRotationInternal_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(ByRef<::UnityEngine::Quaternion>)>(&UnityEngine::Animator::get_bodyRotationInternal_Injected)> {
   static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_bodyRotationInternal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
@@ -3362,7 +3362,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::set_bodyRotationInternal_Injected
 // Il2CppName: set_bodyRotationInternal_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(ByRef<UnityEngine::Quaternion>)>(&UnityEngine::Animator::set_bodyRotationInternal_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(ByRef<::UnityEngine::Quaternion>)>(&UnityEngine::Animator::set_bodyRotationInternal_Injected)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "set_bodyRotationInternal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -3371,7 +3371,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::GetGoalPosition_Injected
 // Il2CppName: GetGoalPosition_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::AvatarIKGoal, ByRef<UnityEngine::Vector3>)>(&UnityEngine::Animator::GetGoalPosition_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::UnityEngine::AvatarIKGoal, ByRef<::UnityEngine::Vector3>)>(&UnityEngine::Animator::GetGoalPosition_Injected)> {
   static const MethodInfo* get() {
     static auto* goal = &::il2cpp_utils::GetClassFromName("UnityEngine", "AvatarIKGoal")->byval_arg;
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
@@ -3381,7 +3381,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::SetGoalPosition_Injected
 // Il2CppName: SetGoalPosition_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::AvatarIKGoal, ByRef<UnityEngine::Vector3>)>(&UnityEngine::Animator::SetGoalPosition_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::UnityEngine::AvatarIKGoal, ByRef<::UnityEngine::Vector3>)>(&UnityEngine::Animator::SetGoalPosition_Injected)> {
   static const MethodInfo* get() {
     static auto* goal = &::il2cpp_utils::GetClassFromName("UnityEngine", "AvatarIKGoal")->byval_arg;
     static auto* goalPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
@@ -3391,7 +3391,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::GetGoalRotation_Injected
 // Il2CppName: GetGoalRotation_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::AvatarIKGoal, ByRef<UnityEngine::Quaternion>)>(&UnityEngine::Animator::GetGoalRotation_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::UnityEngine::AvatarIKGoal, ByRef<::UnityEngine::Quaternion>)>(&UnityEngine::Animator::GetGoalRotation_Injected)> {
   static const MethodInfo* get() {
     static auto* goal = &::il2cpp_utils::GetClassFromName("UnityEngine", "AvatarIKGoal")->byval_arg;
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->this_arg;
@@ -3401,7 +3401,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::SetGoalRotation_Injected
 // Il2CppName: SetGoalRotation_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::AvatarIKGoal, ByRef<UnityEngine::Quaternion>)>(&UnityEngine::Animator::SetGoalRotation_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::UnityEngine::AvatarIKGoal, ByRef<::UnityEngine::Quaternion>)>(&UnityEngine::Animator::SetGoalRotation_Injected)> {
   static const MethodInfo* get() {
     static auto* goal = &::il2cpp_utils::GetClassFromName("UnityEngine", "AvatarIKGoal")->byval_arg;
     static auto* goalRotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->this_arg;
@@ -3411,7 +3411,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::GetHintPosition_Injected
 // Il2CppName: GetHintPosition_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::AvatarIKHint, ByRef<UnityEngine::Vector3>)>(&UnityEngine::Animator::GetHintPosition_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::UnityEngine::AvatarIKHint, ByRef<::UnityEngine::Vector3>)>(&UnityEngine::Animator::GetHintPosition_Injected)> {
   static const MethodInfo* get() {
     static auto* hint = &::il2cpp_utils::GetClassFromName("UnityEngine", "AvatarIKHint")->byval_arg;
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
@@ -3421,7 +3421,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::SetHintPosition_Injected
 // Il2CppName: SetHintPosition_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::AvatarIKHint, ByRef<UnityEngine::Vector3>)>(&UnityEngine::Animator::SetHintPosition_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::UnityEngine::AvatarIKHint, ByRef<::UnityEngine::Vector3>)>(&UnityEngine::Animator::SetHintPosition_Injected)> {
   static const MethodInfo* get() {
     static auto* hint = &::il2cpp_utils::GetClassFromName("UnityEngine", "AvatarIKHint")->byval_arg;
     static auto* hintPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
@@ -3431,7 +3431,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::SetLookAtPositionInternal_Injected
 // Il2CppName: SetLookAtPositionInternal_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(ByRef<UnityEngine::Vector3>)>(&UnityEngine::Animator::SetLookAtPositionInternal_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(ByRef<::UnityEngine::Vector3>)>(&UnityEngine::Animator::SetLookAtPositionInternal_Injected)> {
   static const MethodInfo* get() {
     static auto* lookAtPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetLookAtPositionInternal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lookAtPosition});
@@ -3440,7 +3440,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::SetBoneLocalRotationInternal_Injected
 // Il2CppName: SetBoneLocalRotationInternal_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int, ByRef<UnityEngine::Quaternion>)>(&UnityEngine::Animator::SetBoneLocalRotationInternal_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int, ByRef<::UnityEngine::Quaternion>)>(&UnityEngine::Animator::SetBoneLocalRotationInternal_Injected)> {
   static const MethodInfo* get() {
     static auto* humanBoneId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* rotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->this_arg;
@@ -3450,7 +3450,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::get_pivotPosition_Injected
 // Il2CppName: get_pivotPosition_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(ByRef<UnityEngine::Vector3>)>(&UnityEngine::Animator::get_pivotPosition_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(ByRef<::UnityEngine::Vector3>)>(&UnityEngine::Animator::get_pivotPosition_Injected)> {
   static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_pivotPosition_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
@@ -3459,7 +3459,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::MatchTarget_Injected
 // Il2CppName: MatchTarget_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(ByRef<UnityEngine::Vector3>, ByRef<UnityEngine::Quaternion>, int, ByRef<UnityEngine::MatchTargetWeightMask>, float, float, bool)>(&UnityEngine::Animator::MatchTarget_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(ByRef<::UnityEngine::Vector3>, ByRef<::UnityEngine::Quaternion>, int, ByRef<::UnityEngine::MatchTargetWeightMask>, float, float, bool)>(&UnityEngine::Animator::MatchTarget_Injected)> {
   static const MethodInfo* get() {
     static auto* matchPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     static auto* matchRotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->this_arg;
@@ -3474,7 +3474,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::get_targetPosition_Injected
 // Il2CppName: get_targetPosition_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(ByRef<UnityEngine::Vector3>)>(&UnityEngine::Animator::get_targetPosition_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(ByRef<::UnityEngine::Vector3>)>(&UnityEngine::Animator::get_targetPosition_Injected)> {
   static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_targetPosition_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
@@ -3483,7 +3483,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Animator::get_targetRotation_Injected
 // Il2CppName: get_targetRotation_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(ByRef<UnityEngine::Quaternion>)>(&UnityEngine::Animator::get_targetRotation_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(ByRef<::UnityEngine::Quaternion>)>(&UnityEngine::Animator::get_targetRotation_Injected)> {
   static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_targetRotation_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});

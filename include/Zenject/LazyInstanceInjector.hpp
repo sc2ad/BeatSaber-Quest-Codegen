@@ -32,8 +32,8 @@ namespace Zenject {
   class LazyInstanceInjector;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::LazyInstanceInjector);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::LazyInstanceInjector*, "Zenject", "LazyInstanceInjector");
+NEED_NO_BOX(::Zenject::LazyInstanceInjector);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::LazyInstanceInjector*, "Zenject", "LazyInstanceInjector");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x20
@@ -55,28 +55,28 @@ namespace Zenject {
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x10
-    Zenject::DiContainer* container;
+    ::Zenject::DiContainer* container;
     // Field size check
-    static_assert(sizeof(Zenject::DiContainer*) == 0x8);
+    static_assert(sizeof(::Zenject::DiContainer*) == 0x8);
     // private readonly System.Collections.Generic.HashSet`1<System.Object> _instancesToInject
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::Generic::HashSet_1<::Il2CppObject*>* instancesToInject;
+    ::System::Collections::Generic::HashSet_1<::Il2CppObject*>* instancesToInject;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::HashSet_1<::Il2CppObject*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::HashSet_1<::Il2CppObject*>*) == 0x8);
     public:
     // Get instance field reference: private readonly Zenject.DiContainer _container
-    Zenject::DiContainer*& dyn__container();
+    ::Zenject::DiContainer*& dyn__container();
     // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<System.Object> _instancesToInject
-    System::Collections::Generic::HashSet_1<::Il2CppObject*>*& dyn__instancesToInject();
+    ::System::Collections::Generic::HashSet_1<::Il2CppObject*>*& dyn__instancesToInject();
     // public System.Collections.Generic.IEnumerable`1<System.Object> get_Instances()
     // Offset: 0x1B0A9BC
-    System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* get_Instances();
+    ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* get_Instances();
     // public System.Void .ctor(Zenject.DiContainer container)
     // Offset: 0x1B0A938
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static LazyInstanceInjector* New_ctor(Zenject::DiContainer* container) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::LazyInstanceInjector::.ctor");
+    static LazyInstanceInjector* New_ctor(::Zenject::DiContainer* container) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::LazyInstanceInjector::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LazyInstanceInjector*, creationType>(container)));
     }
     // public System.Void AddInstance(System.Object instance)
@@ -84,7 +84,7 @@ namespace Zenject {
     void AddInstance(::Il2CppObject* instance);
     // public System.Void AddInstances(System.Collections.Generic.IEnumerable`1<System.Object> instances)
     // Offset: 0x1B0AA2C
-    void AddInstances(System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* instances);
+    void AddInstances(::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* instances);
     // public System.Void LazyInject(System.Object instance)
     // Offset: 0x1B0AA94
     void LazyInject(::Il2CppObject* instance);
@@ -93,14 +93,14 @@ namespace Zenject {
     void LazyInjectAll();
   }; // Zenject.LazyInstanceInjector
   #pragma pack(pop)
-  static check_size<sizeof(LazyInstanceInjector), 24 + sizeof(System::Collections::Generic::HashSet_1<::Il2CppObject*>*)> __Zenject_LazyInstanceInjectorSizeCheck;
+  static check_size<sizeof(LazyInstanceInjector), 24 + sizeof(::System::Collections::Generic::HashSet_1<::Il2CppObject*>*)> __Zenject_LazyInstanceInjectorSizeCheck;
   static_assert(sizeof(LazyInstanceInjector) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::LazyInstanceInjector::get_Instances
 // Il2CppName: get_Instances
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* (Zenject::LazyInstanceInjector::*)()>(&Zenject::LazyInstanceInjector::get_Instances)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* (Zenject::LazyInstanceInjector::*)()>(&Zenject::LazyInstanceInjector::get_Instances)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::LazyInstanceInjector*), "get_Instances", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -121,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Writing MetadataGetter for method: Zenject::LazyInstanceInjector::AddInstances
 // Il2CppName: AddInstances
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::LazyInstanceInjector::*)(System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*)>(&Zenject::LazyInstanceInjector::AddInstances)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::LazyInstanceInjector::*)(::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*)>(&Zenject::LazyInstanceInjector::AddInstances)> {
   static const MethodInfo* get() {
     static auto* instances = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Object")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::LazyInstanceInjector*), "AddInstances", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{instances});

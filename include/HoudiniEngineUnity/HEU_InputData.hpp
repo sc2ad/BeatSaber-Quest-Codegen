@@ -23,8 +23,8 @@ namespace HoudiniEngineUnity {
   class HEU_InputData;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_InputData);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_InputData*, "HoudiniEngineUnity", "HEU_InputData");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_InputData);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_InputData*, "HoudiniEngineUnity", "HEU_InputData");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x18
@@ -45,28 +45,28 @@ namespace HoudiniEngineUnity {
     // public UnityEngine.GameObject _inputObject
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::GameObject* inputObject;
+    ::UnityEngine::GameObject* inputObject;
     // Field size check
-    static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
+    static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
     public:
-    // Creating conversion operator: operator UnityEngine::GameObject*
-    constexpr operator UnityEngine::GameObject*() const noexcept {
+    // Creating conversion operator: operator ::UnityEngine::GameObject*
+    constexpr operator ::UnityEngine::GameObject*() const noexcept {
       return inputObject;
     }
     // Get instance field reference: public UnityEngine.GameObject _inputObject
-    UnityEngine::GameObject*& dyn__inputObject();
+    ::UnityEngine::GameObject*& dyn__inputObject();
     // public System.Void .ctor()
     // Offset: 0x177A09C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_InputData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_InputData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_InputData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_InputData*, creationType>()));
     }
   }; // HoudiniEngineUnity.HEU_InputData
   #pragma pack(pop)
-  static check_size<sizeof(HEU_InputData), 16 + sizeof(UnityEngine::GameObject*)> __HoudiniEngineUnity_HEU_InputDataSizeCheck;
+  static check_size<sizeof(HEU_InputData), 16 + sizeof(::UnityEngine::GameObject*)> __HoudiniEngineUnity_HEU_InputDataSizeCheck;
   static_assert(sizeof(HEU_InputData) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

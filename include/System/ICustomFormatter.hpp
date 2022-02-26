@@ -22,8 +22,8 @@ namespace System {
   class ICustomFormatter;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::ICustomFormatter);
-DEFINE_IL2CPP_ARG_TYPE(System::ICustomFormatter*, "System", "ICustomFormatter");
+NEED_NO_BOX(::System::ICustomFormatter);
+DEFINE_IL2CPP_ARG_TYPE(::System::ICustomFormatter*, "System", "ICustomFormatter");
 // Type namespace: System
 namespace System {
   // Size: 0x10
@@ -35,7 +35,7 @@ namespace System {
     public:
     // public System.String Format(System.String format, System.Object arg, System.IFormatProvider formatProvider)
     // Offset: 0xFFFFFFFF
-    ::StringW Format(::StringW format, ::Il2CppObject* arg, System::IFormatProvider* formatProvider);
+    ::StringW Format(::StringW format, ::Il2CppObject* arg, ::System::IFormatProvider* formatProvider);
   }; // System.ICustomFormatter
   #pragma pack(pop)
 }
@@ -43,7 +43,7 @@ namespace System {
 // Writing MetadataGetter for method: System::ICustomFormatter::Format
 // Il2CppName: Format
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::ICustomFormatter::*)(::StringW, ::Il2CppObject*, System::IFormatProvider*)>(&System::ICustomFormatter::Format)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::ICustomFormatter::*)(::StringW, ::Il2CppObject*, ::System::IFormatProvider*)>(&System::ICustomFormatter::Format)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* arg = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;

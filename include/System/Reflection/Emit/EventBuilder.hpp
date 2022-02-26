@@ -12,8 +12,8 @@ namespace System::Reflection::Emit {
   class EventBuilder;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Reflection::Emit::EventBuilder);
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Emit::EventBuilder*, "System.Reflection.Emit", "EventBuilder");
+NEED_NO_BOX(::System::Reflection::Emit::EventBuilder);
+DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::Emit::EventBuilder*, "System.Reflection.Emit", "EventBuilder");
 // Type namespace: System.Reflection.Emit
 namespace System::Reflection::Emit {
   // Size: 0x10

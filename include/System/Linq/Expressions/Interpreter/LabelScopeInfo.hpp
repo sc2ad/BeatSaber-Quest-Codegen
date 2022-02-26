@@ -33,8 +33,8 @@ namespace System::Linq::Expressions::Interpreter {
   class LabelScopeInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Linq::Expressions::Interpreter::LabelScopeInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::Linq::Expressions::Interpreter::LabelScopeInfo*, "System.Linq.Expressions.Interpreter", "LabelScopeInfo");
+NEED_NO_BOX(::System::Linq::Expressions::Interpreter::LabelScopeInfo);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::LabelScopeInfo*, "System.Linq.Expressions.Interpreter", "LabelScopeInfo");
 // Type namespace: System.Linq.Expressions.Interpreter
 namespace System::Linq::Expressions::Interpreter {
   // Size: 0x28
@@ -55,52 +55,52 @@ namespace System::Linq::Expressions::Interpreter {
     // private System.Linq.Expressions.Interpreter.HybridReferenceDictionary`2<System.Linq.Expressions.LabelTarget,System.Linq.Expressions.Interpreter.LabelInfo> _labels
     // Size: 0x8
     // Offset: 0x10
-    System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2<System::Linq::Expressions::LabelTarget*, System::Linq::Expressions::Interpreter::LabelInfo*>* labels;
+    ::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2<::System::Linq::Expressions::LabelTarget*, ::System::Linq::Expressions::Interpreter::LabelInfo*>* labels;
     // Field size check
-    static_assert(sizeof(System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2<System::Linq::Expressions::LabelTarget*, System::Linq::Expressions::Interpreter::LabelInfo*>*) == 0x8);
+    static_assert(sizeof(::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2<::System::Linq::Expressions::LabelTarget*, ::System::Linq::Expressions::Interpreter::LabelInfo*>*) == 0x8);
     // readonly System.Linq.Expressions.Interpreter.LabelScopeKind Kind
     // Size: 0x4
     // Offset: 0x18
-    System::Linq::Expressions::Interpreter::LabelScopeKind Kind;
+    ::System::Linq::Expressions::Interpreter::LabelScopeKind Kind;
     // Field size check
-    static_assert(sizeof(System::Linq::Expressions::Interpreter::LabelScopeKind) == 0x4);
+    static_assert(sizeof(::System::Linq::Expressions::Interpreter::LabelScopeKind) == 0x4);
     // Padding between fields: Kind and: Parent
     char __padding1[0x4] = {};
     // readonly System.Linq.Expressions.Interpreter.LabelScopeInfo Parent
     // Size: 0x8
     // Offset: 0x20
-    System::Linq::Expressions::Interpreter::LabelScopeInfo* Parent;
+    ::System::Linq::Expressions::Interpreter::LabelScopeInfo* Parent;
     // Field size check
-    static_assert(sizeof(System::Linq::Expressions::Interpreter::LabelScopeInfo*) == 0x8);
+    static_assert(sizeof(::System::Linq::Expressions::Interpreter::LabelScopeInfo*) == 0x8);
     public:
     // Get instance field reference: private System.Linq.Expressions.Interpreter.HybridReferenceDictionary`2<System.Linq.Expressions.LabelTarget,System.Linq.Expressions.Interpreter.LabelInfo> _labels
-    System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2<System::Linq::Expressions::LabelTarget*, System::Linq::Expressions::Interpreter::LabelInfo*>*& dyn__labels();
+    ::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2<::System::Linq::Expressions::LabelTarget*, ::System::Linq::Expressions::Interpreter::LabelInfo*>*& dyn__labels();
     // Get instance field reference: readonly System.Linq.Expressions.Interpreter.LabelScopeKind Kind
-    System::Linq::Expressions::Interpreter::LabelScopeKind& dyn_Kind();
+    ::System::Linq::Expressions::Interpreter::LabelScopeKind& dyn_Kind();
     // Get instance field reference: readonly System.Linq.Expressions.Interpreter.LabelScopeInfo Parent
-    System::Linq::Expressions::Interpreter::LabelScopeInfo*& dyn_Parent();
+    ::System::Linq::Expressions::Interpreter::LabelScopeInfo*& dyn_Parent();
     // System.Boolean get_CanJumpInto()
     // Offset: 0x1C00038
     bool get_CanJumpInto();
     // System.Void .ctor(System.Linq.Expressions.Interpreter.LabelScopeInfo parent, System.Linq.Expressions.Interpreter.LabelScopeKind kind)
     // Offset: 0x1C00154
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static LabelScopeInfo* New_ctor(System::Linq::Expressions::Interpreter::LabelScopeInfo* parent, System::Linq::Expressions::Interpreter::LabelScopeKind kind) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Expressions::Interpreter::LabelScopeInfo::.ctor");
+    static LabelScopeInfo* New_ctor(::System::Linq::Expressions::Interpreter::LabelScopeInfo* parent, ::System::Linq::Expressions::Interpreter::LabelScopeKind kind) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Expressions::Interpreter::LabelScopeInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LabelScopeInfo*, creationType>(parent, kind)));
     }
     // System.Boolean ContainsTarget(System.Linq.Expressions.LabelTarget target)
     // Offset: 0x1BFFB34
-    bool ContainsTarget(System::Linq::Expressions::LabelTarget* target);
+    bool ContainsTarget(::System::Linq::Expressions::LabelTarget* target);
     // System.Boolean TryGetLabelInfo(System.Linq.Expressions.LabelTarget target, out System.Linq.Expressions.Interpreter.LabelInfo info)
     // Offset: 0x1C00190
-    bool TryGetLabelInfo(System::Linq::Expressions::LabelTarget* target, ByRef<System::Linq::Expressions::Interpreter::LabelInfo*> info);
+    bool TryGetLabelInfo(::System::Linq::Expressions::LabelTarget* target, ByRef<::System::Linq::Expressions::Interpreter::LabelInfo*> info);
     // System.Void AddLabelInfo(System.Linq.Expressions.LabelTarget target, System.Linq.Expressions.Interpreter.LabelInfo info)
     // Offset: 0x1BFFCBC
-    void AddLabelInfo(System::Linq::Expressions::LabelTarget* target, System::Linq::Expressions::Interpreter::LabelInfo* info);
+    void AddLabelInfo(::System::Linq::Expressions::LabelTarget* target, ::System::Linq::Expressions::Interpreter::LabelInfo* info);
   }; // System.Linq.Expressions.Interpreter.LabelScopeInfo
   #pragma pack(pop)
-  static check_size<sizeof(LabelScopeInfo), 32 + sizeof(System::Linq::Expressions::Interpreter::LabelScopeInfo*)> __System_Linq_Expressions_Interpreter_LabelScopeInfoSizeCheck;
+  static check_size<sizeof(LabelScopeInfo), 32 + sizeof(::System::Linq::Expressions::Interpreter::LabelScopeInfo*)> __System_Linq_Expressions_Interpreter_LabelScopeInfoSizeCheck;
   static_assert(sizeof(LabelScopeInfo) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -119,7 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LabelScopeInfo::ContainsTarget
 // Il2CppName: ContainsTarget
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Linq::Expressions::Interpreter::LabelScopeInfo::*)(System::Linq::Expressions::LabelTarget*)>(&System::Linq::Expressions::Interpreter::LabelScopeInfo::ContainsTarget)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Linq::Expressions::Interpreter::LabelScopeInfo::*)(::System::Linq::Expressions::LabelTarget*)>(&System::Linq::Expressions::Interpreter::LabelScopeInfo::ContainsTarget)> {
   static const MethodInfo* get() {
     static auto* target = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "LabelTarget")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LabelScopeInfo*), "ContainsTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{target});
@@ -128,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LabelScopeInfo::TryGetLabelInfo
 // Il2CppName: TryGetLabelInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Linq::Expressions::Interpreter::LabelScopeInfo::*)(System::Linq::Expressions::LabelTarget*, ByRef<System::Linq::Expressions::Interpreter::LabelInfo*>)>(&System::Linq::Expressions::Interpreter::LabelScopeInfo::TryGetLabelInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Linq::Expressions::Interpreter::LabelScopeInfo::*)(::System::Linq::Expressions::LabelTarget*, ByRef<::System::Linq::Expressions::Interpreter::LabelInfo*>)>(&System::Linq::Expressions::Interpreter::LabelScopeInfo::TryGetLabelInfo)> {
   static const MethodInfo* get() {
     static auto* target = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "LabelTarget")->byval_arg;
     static auto* info = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions.Interpreter", "LabelInfo")->this_arg;
@@ -138,7 +138,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LabelScopeInfo::AddLabelInfo
 // Il2CppName: AddLabelInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LabelScopeInfo::*)(System::Linq::Expressions::LabelTarget*, System::Linq::Expressions::Interpreter::LabelInfo*)>(&System::Linq::Expressions::Interpreter::LabelScopeInfo::AddLabelInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::LabelScopeInfo::*)(::System::Linq::Expressions::LabelTarget*, ::System::Linq::Expressions::Interpreter::LabelInfo*)>(&System::Linq::Expressions::Interpreter::LabelScopeInfo::AddLabelInfo)> {
   static const MethodInfo* get() {
     static auto* target = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "LabelTarget")->byval_arg;
     static auto* info = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions.Interpreter", "LabelInfo")->byval_arg;

@@ -25,8 +25,8 @@ namespace Org::BouncyCastle::Crypto::Agreement {
   class DHStandardGroups;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Crypto::Agreement::DHStandardGroups);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Agreement::DHStandardGroups*, "Org.BouncyCastle.Crypto.Agreement", "DHStandardGroups");
+NEED_NO_BOX(::Org::BouncyCastle::Crypto::Agreement::DHStandardGroups);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Agreement::DHStandardGroups*, "Org.BouncyCastle.Crypto.Agreement", "DHStandardGroups");
 // Type namespace: Org.BouncyCastle.Crypto.Agreement
 namespace Org::BouncyCastle::Crypto::Agreement {
   // Size: 0x10
@@ -36,25 +36,25 @@ namespace Org::BouncyCastle::Crypto::Agreement {
   class DHStandardGroups : public ::Il2CppObject {
     public:
     // Get static field: static private readonly Org.BouncyCastle.Math.BigInteger Two
-    static Org::BouncyCastle::Math::BigInteger* _get_Two();
+    static ::Org::BouncyCastle::Math::BigInteger* _get_Two();
     // Set static field: static private readonly Org.BouncyCastle.Math.BigInteger Two
-    static void _set_Two(Org::BouncyCastle::Math::BigInteger* value);
+    static void _set_Two(::Org::BouncyCastle::Math::BigInteger* value);
     // Get static field: static private readonly System.String rfc2409_768_p
     static ::StringW _get_rfc2409_768_p();
     // Set static field: static private readonly System.String rfc2409_768_p
     static void _set_rfc2409_768_p(::StringW value);
     // Get static field: static public readonly Org.BouncyCastle.Crypto.Parameters.DHParameters rfc2409_768
-    static Org::BouncyCastle::Crypto::Parameters::DHParameters* _get_rfc2409_768();
+    static ::Org::BouncyCastle::Crypto::Parameters::DHParameters* _get_rfc2409_768();
     // Set static field: static public readonly Org.BouncyCastle.Crypto.Parameters.DHParameters rfc2409_768
-    static void _set_rfc2409_768(Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
+    static void _set_rfc2409_768(::Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
     // Get static field: static private readonly System.String rfc2409_1024_p
     static ::StringW _get_rfc2409_1024_p();
     // Set static field: static private readonly System.String rfc2409_1024_p
     static void _set_rfc2409_1024_p(::StringW value);
     // Get static field: static public readonly Org.BouncyCastle.Crypto.Parameters.DHParameters rfc2409_1024
-    static Org::BouncyCastle::Crypto::Parameters::DHParameters* _get_rfc2409_1024();
+    static ::Org::BouncyCastle::Crypto::Parameters::DHParameters* _get_rfc2409_1024();
     // Set static field: static public readonly Org.BouncyCastle.Crypto.Parameters.DHParameters rfc2409_1024
-    static void _set_rfc2409_1024(Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
+    static void _set_rfc2409_1024(::Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
     // Get static field: static private readonly System.String rfc3526_1536_p
     static ::StringW _get_rfc3526_1536_p();
     // Set static field: static private readonly System.String rfc3526_1536_p
@@ -64,9 +64,9 @@ namespace Org::BouncyCastle::Crypto::Agreement {
     // Set static field: static private readonly System.Int32 rfc3526_1536_l
     static void _set_rfc3526_1536_l(int value);
     // Get static field: static public readonly Org.BouncyCastle.Crypto.Parameters.DHParameters rfc3526_1536
-    static Org::BouncyCastle::Crypto::Parameters::DHParameters* _get_rfc3526_1536();
+    static ::Org::BouncyCastle::Crypto::Parameters::DHParameters* _get_rfc3526_1536();
     // Set static field: static public readonly Org.BouncyCastle.Crypto.Parameters.DHParameters rfc3526_1536
-    static void _set_rfc3526_1536(Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
+    static void _set_rfc3526_1536(::Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
     // Get static field: static private readonly System.String rfc3526_2048_p
     static ::StringW _get_rfc3526_2048_p();
     // Set static field: static private readonly System.String rfc3526_2048_p
@@ -76,9 +76,9 @@ namespace Org::BouncyCastle::Crypto::Agreement {
     // Set static field: static private readonly System.Int32 rfc3526_2048_l
     static void _set_rfc3526_2048_l(int value);
     // Get static field: static public readonly Org.BouncyCastle.Crypto.Parameters.DHParameters rfc3526_2048
-    static Org::BouncyCastle::Crypto::Parameters::DHParameters* _get_rfc3526_2048();
+    static ::Org::BouncyCastle::Crypto::Parameters::DHParameters* _get_rfc3526_2048();
     // Set static field: static public readonly Org.BouncyCastle.Crypto.Parameters.DHParameters rfc3526_2048
-    static void _set_rfc3526_2048(Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
+    static void _set_rfc3526_2048(::Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
     // Get static field: static private readonly System.String rfc3526_3072_p
     static ::StringW _get_rfc3526_3072_p();
     // Set static field: static private readonly System.String rfc3526_3072_p
@@ -88,9 +88,9 @@ namespace Org::BouncyCastle::Crypto::Agreement {
     // Set static field: static private readonly System.Int32 rfc3526_3072_l
     static void _set_rfc3526_3072_l(int value);
     // Get static field: static public readonly Org.BouncyCastle.Crypto.Parameters.DHParameters rfc3526_3072
-    static Org::BouncyCastle::Crypto::Parameters::DHParameters* _get_rfc3526_3072();
+    static ::Org::BouncyCastle::Crypto::Parameters::DHParameters* _get_rfc3526_3072();
     // Set static field: static public readonly Org.BouncyCastle.Crypto.Parameters.DHParameters rfc3526_3072
-    static void _set_rfc3526_3072(Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
+    static void _set_rfc3526_3072(::Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
     // Get static field: static private readonly System.String rfc3526_4096_p
     static ::StringW _get_rfc3526_4096_p();
     // Set static field: static private readonly System.String rfc3526_4096_p
@@ -100,9 +100,9 @@ namespace Org::BouncyCastle::Crypto::Agreement {
     // Set static field: static private readonly System.Int32 rfc3526_4096_l
     static void _set_rfc3526_4096_l(int value);
     // Get static field: static public readonly Org.BouncyCastle.Crypto.Parameters.DHParameters rfc3526_4096
-    static Org::BouncyCastle::Crypto::Parameters::DHParameters* _get_rfc3526_4096();
+    static ::Org::BouncyCastle::Crypto::Parameters::DHParameters* _get_rfc3526_4096();
     // Set static field: static public readonly Org.BouncyCastle.Crypto.Parameters.DHParameters rfc3526_4096
-    static void _set_rfc3526_4096(Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
+    static void _set_rfc3526_4096(::Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
     // Get static field: static private readonly System.String rfc3526_6144_p
     static ::StringW _get_rfc3526_6144_p();
     // Set static field: static private readonly System.String rfc3526_6144_p
@@ -112,9 +112,9 @@ namespace Org::BouncyCastle::Crypto::Agreement {
     // Set static field: static private readonly System.Int32 rfc3526_6144_l
     static void _set_rfc3526_6144_l(int value);
     // Get static field: static public readonly Org.BouncyCastle.Crypto.Parameters.DHParameters rfc3526_6144
-    static Org::BouncyCastle::Crypto::Parameters::DHParameters* _get_rfc3526_6144();
+    static ::Org::BouncyCastle::Crypto::Parameters::DHParameters* _get_rfc3526_6144();
     // Set static field: static public readonly Org.BouncyCastle.Crypto.Parameters.DHParameters rfc3526_6144
-    static void _set_rfc3526_6144(Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
+    static void _set_rfc3526_6144(::Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
     // Get static field: static private readonly System.String rfc3526_8192_p
     static ::StringW _get_rfc3526_8192_p();
     // Set static field: static private readonly System.String rfc3526_8192_p
@@ -124,25 +124,25 @@ namespace Org::BouncyCastle::Crypto::Agreement {
     // Set static field: static private readonly System.Int32 rfc3526_8192_l
     static void _set_rfc3526_8192_l(int value);
     // Get static field: static public readonly Org.BouncyCastle.Crypto.Parameters.DHParameters rfc3526_8192
-    static Org::BouncyCastle::Crypto::Parameters::DHParameters* _get_rfc3526_8192();
+    static ::Org::BouncyCastle::Crypto::Parameters::DHParameters* _get_rfc3526_8192();
     // Set static field: static public readonly Org.BouncyCastle.Crypto.Parameters.DHParameters rfc3526_8192
-    static void _set_rfc3526_8192(Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
+    static void _set_rfc3526_8192(::Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
     // Get static field: static public readonly Org.BouncyCastle.Crypto.Parameters.DHParameters rfc4306_768
-    static Org::BouncyCastle::Crypto::Parameters::DHParameters* _get_rfc4306_768();
+    static ::Org::BouncyCastle::Crypto::Parameters::DHParameters* _get_rfc4306_768();
     // Set static field: static public readonly Org.BouncyCastle.Crypto.Parameters.DHParameters rfc4306_768
-    static void _set_rfc4306_768(Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
+    static void _set_rfc4306_768(::Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
     // Get static field: static public readonly Org.BouncyCastle.Crypto.Parameters.DHParameters rfc4306_1024
-    static Org::BouncyCastle::Crypto::Parameters::DHParameters* _get_rfc4306_1024();
+    static ::Org::BouncyCastle::Crypto::Parameters::DHParameters* _get_rfc4306_1024();
     // Set static field: static public readonly Org.BouncyCastle.Crypto.Parameters.DHParameters rfc4306_1024
-    static void _set_rfc4306_1024(Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
+    static void _set_rfc4306_1024(::Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
     // Get static field: static public readonly Org.BouncyCastle.Crypto.Parameters.DHParameters rfc5996_768
-    static Org::BouncyCastle::Crypto::Parameters::DHParameters* _get_rfc5996_768();
+    static ::Org::BouncyCastle::Crypto::Parameters::DHParameters* _get_rfc5996_768();
     // Set static field: static public readonly Org.BouncyCastle.Crypto.Parameters.DHParameters rfc5996_768
-    static void _set_rfc5996_768(Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
+    static void _set_rfc5996_768(::Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
     // Get static field: static public readonly Org.BouncyCastle.Crypto.Parameters.DHParameters rfc5996_1024
-    static Org::BouncyCastle::Crypto::Parameters::DHParameters* _get_rfc5996_1024();
+    static ::Org::BouncyCastle::Crypto::Parameters::DHParameters* _get_rfc5996_1024();
     // Set static field: static public readonly Org.BouncyCastle.Crypto.Parameters.DHParameters rfc5996_1024
-    static void _set_rfc5996_1024(Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
+    static void _set_rfc5996_1024(::Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
     // Get static field: static private readonly System.String rfc7919_ffdhe2048_p
     static ::StringW _get_rfc7919_ffdhe2048_p();
     // Set static field: static private readonly System.String rfc7919_ffdhe2048_p
@@ -152,9 +152,9 @@ namespace Org::BouncyCastle::Crypto::Agreement {
     // Set static field: static private readonly System.Int32 rfc7919_ffdhe2048_l
     static void _set_rfc7919_ffdhe2048_l(int value);
     // Get static field: static public readonly Org.BouncyCastle.Crypto.Parameters.DHParameters rfc7919_ffdhe2048
-    static Org::BouncyCastle::Crypto::Parameters::DHParameters* _get_rfc7919_ffdhe2048();
+    static ::Org::BouncyCastle::Crypto::Parameters::DHParameters* _get_rfc7919_ffdhe2048();
     // Set static field: static public readonly Org.BouncyCastle.Crypto.Parameters.DHParameters rfc7919_ffdhe2048
-    static void _set_rfc7919_ffdhe2048(Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
+    static void _set_rfc7919_ffdhe2048(::Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
     // Get static field: static private readonly System.String rfc7919_ffdhe3072_p
     static ::StringW _get_rfc7919_ffdhe3072_p();
     // Set static field: static private readonly System.String rfc7919_ffdhe3072_p
@@ -164,9 +164,9 @@ namespace Org::BouncyCastle::Crypto::Agreement {
     // Set static field: static private readonly System.Int32 rfc7919_ffdhe3072_l
     static void _set_rfc7919_ffdhe3072_l(int value);
     // Get static field: static public readonly Org.BouncyCastle.Crypto.Parameters.DHParameters rfc7919_ffdhe3072
-    static Org::BouncyCastle::Crypto::Parameters::DHParameters* _get_rfc7919_ffdhe3072();
+    static ::Org::BouncyCastle::Crypto::Parameters::DHParameters* _get_rfc7919_ffdhe3072();
     // Set static field: static public readonly Org.BouncyCastle.Crypto.Parameters.DHParameters rfc7919_ffdhe3072
-    static void _set_rfc7919_ffdhe3072(Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
+    static void _set_rfc7919_ffdhe3072(::Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
     // Get static field: static private readonly System.String rfc7919_ffdhe4096_p
     static ::StringW _get_rfc7919_ffdhe4096_p();
     // Set static field: static private readonly System.String rfc7919_ffdhe4096_p
@@ -176,9 +176,9 @@ namespace Org::BouncyCastle::Crypto::Agreement {
     // Set static field: static private readonly System.Int32 rfc7919_ffdhe4096_l
     static void _set_rfc7919_ffdhe4096_l(int value);
     // Get static field: static public readonly Org.BouncyCastle.Crypto.Parameters.DHParameters rfc7919_ffdhe4096
-    static Org::BouncyCastle::Crypto::Parameters::DHParameters* _get_rfc7919_ffdhe4096();
+    static ::Org::BouncyCastle::Crypto::Parameters::DHParameters* _get_rfc7919_ffdhe4096();
     // Set static field: static public readonly Org.BouncyCastle.Crypto.Parameters.DHParameters rfc7919_ffdhe4096
-    static void _set_rfc7919_ffdhe4096(Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
+    static void _set_rfc7919_ffdhe4096(::Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
     // Get static field: static private readonly System.String rfc7919_ffdhe6144_p
     static ::StringW _get_rfc7919_ffdhe6144_p();
     // Set static field: static private readonly System.String rfc7919_ffdhe6144_p
@@ -188,9 +188,9 @@ namespace Org::BouncyCastle::Crypto::Agreement {
     // Set static field: static private readonly System.Int32 rfc7919_ffdhe6144_l
     static void _set_rfc7919_ffdhe6144_l(int value);
     // Get static field: static public readonly Org.BouncyCastle.Crypto.Parameters.DHParameters rfc7919_ffdhe6144
-    static Org::BouncyCastle::Crypto::Parameters::DHParameters* _get_rfc7919_ffdhe6144();
+    static ::Org::BouncyCastle::Crypto::Parameters::DHParameters* _get_rfc7919_ffdhe6144();
     // Set static field: static public readonly Org.BouncyCastle.Crypto.Parameters.DHParameters rfc7919_ffdhe6144
-    static void _set_rfc7919_ffdhe6144(Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
+    static void _set_rfc7919_ffdhe6144(::Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
     // Get static field: static private readonly System.String rfc7919_ffdhe8192_p
     static ::StringW _get_rfc7919_ffdhe8192_p();
     // Set static field: static private readonly System.String rfc7919_ffdhe8192_p
@@ -200,21 +200,21 @@ namespace Org::BouncyCastle::Crypto::Agreement {
     // Set static field: static private readonly System.Int32 rfc7919_ffdhe8192_l
     static void _set_rfc7919_ffdhe8192_l(int value);
     // Get static field: static public readonly Org.BouncyCastle.Crypto.Parameters.DHParameters rfc7919_ffdhe8192
-    static Org::BouncyCastle::Crypto::Parameters::DHParameters* _get_rfc7919_ffdhe8192();
+    static ::Org::BouncyCastle::Crypto::Parameters::DHParameters* _get_rfc7919_ffdhe8192();
     // Set static field: static public readonly Org.BouncyCastle.Crypto.Parameters.DHParameters rfc7919_ffdhe8192
-    static void _set_rfc7919_ffdhe8192(Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
+    static void _set_rfc7919_ffdhe8192(::Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
     // static private System.Void .cctor()
     // Offset: 0x1E44040
     static void _cctor();
     // static private Org.BouncyCastle.Math.BigInteger FromHex(System.String hex)
     // Offset: 0x1E43E64
-    static Org::BouncyCastle::Math::BigInteger* FromHex(::StringW hex);
+    static ::Org::BouncyCastle::Math::BigInteger* FromHex(::StringW hex);
     // static private Org.BouncyCastle.Crypto.Parameters.DHParameters SafePrimeGen2(System.String hexP)
     // Offset: 0x1E43F00
-    static Org::BouncyCastle::Crypto::Parameters::DHParameters* SafePrimeGen2(::StringW hexP);
+    static ::Org::BouncyCastle::Crypto::Parameters::DHParameters* SafePrimeGen2(::StringW hexP);
     // static private Org.BouncyCastle.Crypto.Parameters.DHParameters SafePrimeGen2(System.String hexP, System.Int32 l)
     // Offset: 0x1E43F68
-    static Org::BouncyCastle::Crypto::Parameters::DHParameters* SafePrimeGen2(::StringW hexP, int l);
+    static ::Org::BouncyCastle::Crypto::Parameters::DHParameters* SafePrimeGen2(::StringW hexP, int l);
   }; // Org.BouncyCastle.Crypto.Agreement.DHStandardGroups
   #pragma pack(pop)
 }
@@ -230,7 +230,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Agreement::DHStandardGroups::FromHex
 // Il2CppName: FromHex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (*)(::StringW)>(&Org::BouncyCastle::Crypto::Agreement::DHStandardGroups::FromHex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (*)(::StringW)>(&Org::BouncyCastle::Crypto::Agreement::DHStandardGroups::FromHex)> {
   static const MethodInfo* get() {
     static auto* hex = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Agreement::DHStandardGroups*), "FromHex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hex});
@@ -239,7 +239,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Agreement::DHStandardGroups::SafePrimeGen2
 // Il2CppName: SafePrimeGen2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::Parameters::DHParameters* (*)(::StringW)>(&Org::BouncyCastle::Crypto::Agreement::DHStandardGroups::SafePrimeGen2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Parameters::DHParameters* (*)(::StringW)>(&Org::BouncyCastle::Crypto::Agreement::DHStandardGroups::SafePrimeGen2)> {
   static const MethodInfo* get() {
     static auto* hexP = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Agreement::DHStandardGroups*), "SafePrimeGen2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hexP});
@@ -248,7 +248,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Agreement::DHStandardGroups::SafePrimeGen2
 // Il2CppName: SafePrimeGen2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::Parameters::DHParameters* (*)(::StringW, int)>(&Org::BouncyCastle::Crypto::Agreement::DHStandardGroups::SafePrimeGen2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Parameters::DHParameters* (*)(::StringW, int)>(&Org::BouncyCastle::Crypto::Agreement::DHStandardGroups::SafePrimeGen2)> {
   static const MethodInfo* get() {
     static auto* hexP = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* l = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

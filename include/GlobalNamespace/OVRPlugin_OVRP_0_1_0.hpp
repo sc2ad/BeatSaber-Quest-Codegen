@@ -16,8 +16,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRPlugin::OVRP_0_1_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_0_1_0*, "", "OVRPlugin/OVRP_0_1_0");
+NEED_NO_BOX(::GlobalNamespace::OVRPlugin::OVRP_0_1_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRPlugin::OVRP_0_1_0*, "", "OVRPlugin/OVRP_0_1_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -27,15 +27,15 @@ namespace GlobalNamespace {
   class OVRPlugin::OVRP_0_1_0 : public ::Il2CppObject {
     public:
     // Get static field: static public readonly System.Version version
-    static System::Version* _get_version();
+    static ::System::Version* _get_version();
     // Set static field: static public readonly System.Version version
-    static void _set_version(System::Version* value);
+    static void _set_version(::System::Version* value);
     // static private System.Void .cctor()
     // Offset: 0x1A6F1A4
     static void _cctor();
     // static public OVRPlugin/Sizei ovrp_GetEyeTextureSize(OVRPlugin/Eye eyeId)
     // Offset: 0x1A6F124
-    static GlobalNamespace::OVRPlugin::Sizei ovrp_GetEyeTextureSize(GlobalNamespace::OVRPlugin::Eye eyeId);
+    static ::GlobalNamespace::OVRPlugin::Sizei ovrp_GetEyeTextureSize(::GlobalNamespace::OVRPlugin::Eye eyeId);
   }; // OVRPlugin/OVRP_0_1_0
   #pragma pack(pop)
 }
@@ -51,7 +51,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_0_1_0::ovrp_GetEyeTextureSize
 // Il2CppName: ovrp_GetEyeTextureSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Sizei (*)(GlobalNamespace::OVRPlugin::Eye)>(&GlobalNamespace::OVRPlugin::OVRP_0_1_0::ovrp_GetEyeTextureSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Sizei (*)(::GlobalNamespace::OVRPlugin::Eye)>(&GlobalNamespace::OVRPlugin::OVRP_0_1_0::ovrp_GetEyeTextureSize)> {
   static const MethodInfo* get() {
     static auto* eyeId = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Eye")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_0_1_0*), "ovrp_GetEyeTextureSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eyeId});

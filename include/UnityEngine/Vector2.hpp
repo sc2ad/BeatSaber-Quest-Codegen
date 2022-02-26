@@ -26,7 +26,7 @@ namespace UnityEngine {
   struct Vector2;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Vector2, "UnityEngine", "Vector2");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Vector2, "UnityEngine", "Vector2");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x8
@@ -37,7 +37,7 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: 11A5458
   // [NativeClassAttribute] Offset: 11A5458
   // [DefaultMemberAttribute] Offset: 11A5458
-  struct Vector2/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Vector2>*/ {
+  struct Vector2/*, public ::System::ValueType, public ::System::IEquatable_1<::UnityEngine::Vector2>*/ {
     public:
     public:
     // public System.Single x
@@ -55,46 +55,46 @@ namespace UnityEngine {
     public:
     // Creating value type constructor for type: Vector2
     constexpr Vector2(float x_ = {}, float y_ = {}) noexcept : x{x_}, y{y_} {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
-    // Creating interface conversion operator: operator System::IEquatable_1<UnityEngine::Vector2>
-    operator System::IEquatable_1<UnityEngine::Vector2>() noexcept {
-      return *reinterpret_cast<System::IEquatable_1<UnityEngine::Vector2>*>(this);
+    // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::Vector2>
+    operator ::System::IEquatable_1<::UnityEngine::Vector2>() noexcept {
+      return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::Vector2>*>(this);
     }
     // Get static field: static private readonly UnityEngine.Vector2 zeroVector
-    static UnityEngine::Vector2 _get_zeroVector();
+    static ::UnityEngine::Vector2 _get_zeroVector();
     // Set static field: static private readonly UnityEngine.Vector2 zeroVector
-    static void _set_zeroVector(UnityEngine::Vector2 value);
+    static void _set_zeroVector(::UnityEngine::Vector2 value);
     // Get static field: static private readonly UnityEngine.Vector2 oneVector
-    static UnityEngine::Vector2 _get_oneVector();
+    static ::UnityEngine::Vector2 _get_oneVector();
     // Set static field: static private readonly UnityEngine.Vector2 oneVector
-    static void _set_oneVector(UnityEngine::Vector2 value);
+    static void _set_oneVector(::UnityEngine::Vector2 value);
     // Get static field: static private readonly UnityEngine.Vector2 upVector
-    static UnityEngine::Vector2 _get_upVector();
+    static ::UnityEngine::Vector2 _get_upVector();
     // Set static field: static private readonly UnityEngine.Vector2 upVector
-    static void _set_upVector(UnityEngine::Vector2 value);
+    static void _set_upVector(::UnityEngine::Vector2 value);
     // Get static field: static private readonly UnityEngine.Vector2 downVector
-    static UnityEngine::Vector2 _get_downVector();
+    static ::UnityEngine::Vector2 _get_downVector();
     // Set static field: static private readonly UnityEngine.Vector2 downVector
-    static void _set_downVector(UnityEngine::Vector2 value);
+    static void _set_downVector(::UnityEngine::Vector2 value);
     // Get static field: static private readonly UnityEngine.Vector2 leftVector
-    static UnityEngine::Vector2 _get_leftVector();
+    static ::UnityEngine::Vector2 _get_leftVector();
     // Set static field: static private readonly UnityEngine.Vector2 leftVector
-    static void _set_leftVector(UnityEngine::Vector2 value);
+    static void _set_leftVector(::UnityEngine::Vector2 value);
     // Get static field: static private readonly UnityEngine.Vector2 rightVector
-    static UnityEngine::Vector2 _get_rightVector();
+    static ::UnityEngine::Vector2 _get_rightVector();
     // Set static field: static private readonly UnityEngine.Vector2 rightVector
-    static void _set_rightVector(UnityEngine::Vector2 value);
+    static void _set_rightVector(::UnityEngine::Vector2 value);
     // Get static field: static private readonly UnityEngine.Vector2 positiveInfinityVector
-    static UnityEngine::Vector2 _get_positiveInfinityVector();
+    static ::UnityEngine::Vector2 _get_positiveInfinityVector();
     // Set static field: static private readonly UnityEngine.Vector2 positiveInfinityVector
-    static void _set_positiveInfinityVector(UnityEngine::Vector2 value);
+    static void _set_positiveInfinityVector(::UnityEngine::Vector2 value);
     // Get static field: static private readonly UnityEngine.Vector2 negativeInfinityVector
-    static UnityEngine::Vector2 _get_negativeInfinityVector();
+    static ::UnityEngine::Vector2 _get_negativeInfinityVector();
     // Set static field: static private readonly UnityEngine.Vector2 negativeInfinityVector
-    static void _set_negativeInfinityVector(UnityEngine::Vector2 value);
+    static void _set_negativeInfinityVector(::UnityEngine::Vector2 value);
     // static field const value: static public System.Single kEpsilon
     static constexpr const float kEpsilon = 1e-05;
     // Get static field: static public System.Single kEpsilon
@@ -119,7 +119,7 @@ namespace UnityEngine {
     void set_Item(int index, float value);
     // public UnityEngine.Vector2 get_normalized()
     // Offset: 0x27013E0
-    UnityEngine::Vector2 get_normalized();
+    ::UnityEngine::Vector2 get_normalized();
     // public System.Single get_magnitude()
     // Offset: 0x27012D4
     float get_magnitude();
@@ -128,16 +128,16 @@ namespace UnityEngine {
     float get_sqrMagnitude();
     // static public UnityEngine.Vector2 get_zero()
     // Offset: 0x2701378
-    static UnityEngine::Vector2 get_zero();
+    static ::UnityEngine::Vector2 get_zero();
     // static public UnityEngine.Vector2 get_one()
     // Offset: 0x2701BE0
-    static UnityEngine::Vector2 get_one();
+    static ::UnityEngine::Vector2 get_one();
     // static public UnityEngine.Vector2 get_up()
     // Offset: 0x2701C48
-    static UnityEngine::Vector2 get_up();
+    static ::UnityEngine::Vector2 get_up();
     // static public UnityEngine.Vector2 get_right()
     // Offset: 0x2701CB0
-    static UnityEngine::Vector2 get_right();
+    static ::UnityEngine::Vector2 get_right();
     // public System.Void .ctor(System.Single x, System.Single y)
     // Offset: 0x270113C
     // ABORTED: conflicts with another method.  Vector2(float x, float y);
@@ -146,13 +146,13 @@ namespace UnityEngine {
     static void _cctor();
     // static public UnityEngine.Vector2 Lerp(UnityEngine.Vector2 a, UnityEngine.Vector2 b, System.Single t)
     // Offset: 0x2701144
-    static UnityEngine::Vector2 Lerp(UnityEngine::Vector2 a, UnityEngine::Vector2 b, float t);
+    static ::UnityEngine::Vector2 Lerp(::UnityEngine::Vector2 a, ::UnityEngine::Vector2 b, float t);
     // static public UnityEngine.Vector2 Scale(UnityEngine.Vector2 a, UnityEngine.Vector2 b)
     // Offset: 0x27011F0
-    static UnityEngine::Vector2 Scale(UnityEngine::Vector2 a, UnityEngine::Vector2 b);
+    static ::UnityEngine::Vector2 Scale(::UnityEngine::Vector2 a, ::UnityEngine::Vector2 b);
     // public System.Void Scale(UnityEngine.Vector2 scale)
     // Offset: 0x27011FC
-    void Scale(UnityEngine::Vector2 scale);
+    void Scale(::UnityEngine::Vector2 scale);
     // public System.Void Normalize()
     // Offset: 0x2701210
     void Normalize();
@@ -161,22 +161,22 @@ namespace UnityEngine {
     ::StringW ToString(::StringW format);
     // public System.Boolean Equals(UnityEngine.Vector2 other)
     // Offset: 0x2701774
-    bool Equals(UnityEngine::Vector2 other);
+    bool Equals(::UnityEngine::Vector2 other);
     // static public UnityEngine.Vector2 Perpendicular(UnityEngine.Vector2 inDirection)
     // Offset: 0x2701798
-    static UnityEngine::Vector2 Perpendicular(UnityEngine::Vector2 inDirection);
+    static ::UnityEngine::Vector2 Perpendicular(::UnityEngine::Vector2 inDirection);
     // static public System.Single Dot(UnityEngine.Vector2 lhs, UnityEngine.Vector2 rhs)
     // Offset: 0x27017AC
-    static float Dot(UnityEngine::Vector2 lhs, UnityEngine::Vector2 rhs);
+    static float Dot(::UnityEngine::Vector2 lhs, ::UnityEngine::Vector2 rhs);
     // static public System.Single Angle(UnityEngine.Vector2 from, UnityEngine.Vector2 to)
     // Offset: 0x27017D0
-    static float Angle(UnityEngine::Vector2 from, UnityEngine::Vector2 to);
+    static float Angle(::UnityEngine::Vector2 from, ::UnityEngine::Vector2 to);
     // static public System.Single SignedAngle(UnityEngine.Vector2 from, UnityEngine.Vector2 to)
     // Offset: 0x270192C
-    static float SignedAngle(UnityEngine::Vector2 from, UnityEngine::Vector2 to);
+    static float SignedAngle(::UnityEngine::Vector2 from, ::UnityEngine::Vector2 to);
     // static public System.Single Distance(UnityEngine.Vector2 a, UnityEngine.Vector2 b)
     // Offset: 0x2701A00
-    static float Distance(UnityEngine::Vector2 a, UnityEngine::Vector2 b);
+    static float Distance(::UnityEngine::Vector2 a, ::UnityEngine::Vector2 b);
     // public override System.String ToString()
     // Offset: 0x270140C
     // Implemented from: System.ValueType
@@ -198,34 +198,34 @@ namespace UnityEngine {
   static_assert(sizeof(Vector2) == 0x8);
   // static public UnityEngine.Vector2 op_Addition(UnityEngine.Vector2 a, UnityEngine.Vector2 b)
   // Offset: 0x2701AB4
-  UnityEngine::Vector2 operator+(const UnityEngine::Vector2& a, const UnityEngine::Vector2& b);
+  ::UnityEngine::Vector2 operator+(const ::UnityEngine::Vector2& a, const ::UnityEngine::Vector2& b);
   // static public UnityEngine.Vector2 op_Subtraction(UnityEngine.Vector2 a, UnityEngine.Vector2 b)
   // Offset: 0x2701AC0
-  UnityEngine::Vector2 operator-(const UnityEngine::Vector2& a, const UnityEngine::Vector2& b);
+  ::UnityEngine::Vector2 operator-(const ::UnityEngine::Vector2& a, const ::UnityEngine::Vector2& b);
   // static public UnityEngine.Vector2 op_Multiply(UnityEngine.Vector2 a, UnityEngine.Vector2 b)
   // Offset: 0x2701ACC
-  UnityEngine::Vector2 operator*(const UnityEngine::Vector2& a, const UnityEngine::Vector2& b);
+  ::UnityEngine::Vector2 operator*(const ::UnityEngine::Vector2& a, const ::UnityEngine::Vector2& b);
   // static public UnityEngine.Vector2 op_Division(UnityEngine.Vector2 a, UnityEngine.Vector2 b)
   // Offset: 0x2701AD8
-  UnityEngine::Vector2 operator/(const UnityEngine::Vector2& a, const UnityEngine::Vector2& b);
+  ::UnityEngine::Vector2 operator/(const ::UnityEngine::Vector2& a, const ::UnityEngine::Vector2& b);
   // static public UnityEngine.Vector2 op_UnaryNegation(UnityEngine.Vector2 a)
   // Offset: 0x2701AE4
-  UnityEngine::Vector2 operator-(const UnityEngine::Vector2& a);
+  ::UnityEngine::Vector2 operator-(const ::UnityEngine::Vector2& a);
   // static public UnityEngine.Vector2 op_Multiply(UnityEngine.Vector2 a, System.Single d)
   // Offset: 0x2701AF0
-  UnityEngine::Vector2 operator*(const UnityEngine::Vector2& a, const float& d);
+  ::UnityEngine::Vector2 operator*(const ::UnityEngine::Vector2& a, const float& d);
   // static public UnityEngine.Vector2 op_Multiply(System.Single d, UnityEngine.Vector2 a)
   // Offset: 0x2701AFC
-  UnityEngine::Vector2 operator*(const float& d, const UnityEngine::Vector2& a);
+  ::UnityEngine::Vector2 operator*(const float& d, const ::UnityEngine::Vector2& a);
   // static public UnityEngine.Vector2 op_Division(UnityEngine.Vector2 a, System.Single d)
   // Offset: 0x270136C
-  UnityEngine::Vector2 operator/(const UnityEngine::Vector2& a, const float& d);
+  ::UnityEngine::Vector2 operator/(const ::UnityEngine::Vector2& a, const float& d);
   // static public System.Boolean op_Equality(UnityEngine.Vector2 lhs, UnityEngine.Vector2 rhs)
   // Offset: 0x2701B0C
-  bool operator ==(const UnityEngine::Vector2& lhs, const UnityEngine::Vector2& rhs);
+  bool operator ==(const ::UnityEngine::Vector2& lhs, const ::UnityEngine::Vector2& rhs);
   // static public System.Boolean op_Inequality(UnityEngine.Vector2 lhs, UnityEngine.Vector2 rhs)
   // Offset: 0x2701B34
-  bool operator !=(const UnityEngine::Vector2& lhs, const UnityEngine::Vector2& rhs);
+  bool operator !=(const ::UnityEngine::Vector2& lhs, const ::UnityEngine::Vector2& rhs);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Vector2::get_Item
@@ -250,7 +250,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Vector2::get_normalized
 // Il2CppName: get_normalized
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::Vector2::*)()>(&UnityEngine::Vector2::get_normalized)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (UnityEngine::Vector2::*)()>(&UnityEngine::Vector2::get_normalized)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Vector2), "get_normalized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -274,7 +274,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Writing MetadataGetter for method: UnityEngine::Vector2::get_zero
 // Il2CppName: get_zero
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)()>(&UnityEngine::Vector2::get_zero)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)()>(&UnityEngine::Vector2::get_zero)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Vector2), "get_zero", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -282,7 +282,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Vector2::get_one
 // Il2CppName: get_one
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)()>(&UnityEngine::Vector2::get_one)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)()>(&UnityEngine::Vector2::get_one)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Vector2), "get_one", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -290,7 +290,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Vector2::get_up
 // Il2CppName: get_up
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)()>(&UnityEngine::Vector2::get_up)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)()>(&UnityEngine::Vector2::get_up)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Vector2), "get_up", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -298,7 +298,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Vector2::get_right
 // Il2CppName: get_right
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)()>(&UnityEngine::Vector2::get_right)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)()>(&UnityEngine::Vector2::get_right)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Vector2), "get_right", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -318,7 +318,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::Vector2::Lerp
 // Il2CppName: Lerp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(UnityEngine::Vector2, UnityEngine::Vector2, float)>(&UnityEngine::Vector2::Lerp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, float)>(&UnityEngine::Vector2::Lerp)> {
   static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
@@ -329,7 +329,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Vector2::Scale
 // Il2CppName: Scale
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(UnityEngine::Vector2, UnityEngine::Vector2)>(&UnityEngine::Vector2::Scale)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::Vector2, ::UnityEngine::Vector2)>(&UnityEngine::Vector2::Scale)> {
   static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
@@ -339,7 +339,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Vector2::Scale
 // Il2CppName: Scale
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Vector2::*)(UnityEngine::Vector2)>(&UnityEngine::Vector2::Scale)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Vector2::*)(::UnityEngine::Vector2)>(&UnityEngine::Vector2::Scale)> {
   static const MethodInfo* get() {
     static auto* scale = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Vector2), "Scale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scale});
@@ -365,7 +365,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: UnityEngine::Vector2::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Vector2::*)(UnityEngine::Vector2)>(&UnityEngine::Vector2::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Vector2::*)(::UnityEngine::Vector2)>(&UnityEngine::Vector2::Equals)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Vector2), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
@@ -374,7 +374,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::Vector2::Perpendicular
 // Il2CppName: Perpendicular
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(UnityEngine::Vector2)>(&UnityEngine::Vector2::Perpendicular)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::Vector2)>(&UnityEngine::Vector2::Perpendicular)> {
   static const MethodInfo* get() {
     static auto* inDirection = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Vector2), "Perpendicular", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inDirection});
@@ -383,7 +383,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Vector2::Dot
 // Il2CppName: Dot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::Vector2, UnityEngine::Vector2)>(&UnityEngine::Vector2::Dot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::UnityEngine::Vector2, ::UnityEngine::Vector2)>(&UnityEngine::Vector2::Dot)> {
   static const MethodInfo* get() {
     static auto* lhs = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     static auto* rhs = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
@@ -393,7 +393,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(U
 // Writing MetadataGetter for method: UnityEngine::Vector2::Angle
 // Il2CppName: Angle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::Vector2, UnityEngine::Vector2)>(&UnityEngine::Vector2::Angle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::UnityEngine::Vector2, ::UnityEngine::Vector2)>(&UnityEngine::Vector2::Angle)> {
   static const MethodInfo* get() {
     static auto* from = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     static auto* to = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
@@ -403,7 +403,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(U
 // Writing MetadataGetter for method: UnityEngine::Vector2::SignedAngle
 // Il2CppName: SignedAngle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::Vector2, UnityEngine::Vector2)>(&UnityEngine::Vector2::SignedAngle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::UnityEngine::Vector2, ::UnityEngine::Vector2)>(&UnityEngine::Vector2::SignedAngle)> {
   static const MethodInfo* get() {
     static auto* from = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     static auto* to = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
@@ -413,7 +413,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(U
 // Writing MetadataGetter for method: UnityEngine::Vector2::Distance
 // Il2CppName: Distance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::Vector2, UnityEngine::Vector2)>(&UnityEngine::Vector2::Distance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::UnityEngine::Vector2, ::UnityEngine::Vector2)>(&UnityEngine::Vector2::Distance)> {
   static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;

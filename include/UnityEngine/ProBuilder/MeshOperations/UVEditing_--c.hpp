@@ -38,8 +38,8 @@ namespace System::Collections::Generic {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c*, "UnityEngine.ProBuilder.MeshOperations", "UVEditing/<>c");
+NEED_NO_BOX(::UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c*, "UnityEngine.ProBuilder.MeshOperations", "UVEditing/<>c");
 // Type namespace: UnityEngine.ProBuilder.MeshOperations
 namespace UnityEngine::ProBuilder::MeshOperations {
   // Size: 0x10
@@ -50,68 +50,68 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   class UVEditing::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly UnityEngine.ProBuilder.MeshOperations.UVEditing/UnityEngine.ProBuilder.MeshOperations.<>c <>9
-    static UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c* _get_$$9();
+    static ::UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c* _get_$$9();
     // Set static field: static public readonly UnityEngine.ProBuilder.MeshOperations.UVEditing/UnityEngine.ProBuilder.MeshOperations.<>c <>9
-    static void _set_$$9(UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c* value);
+    static void _set_$$9(::UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c* value);
     // Get static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Boolean> <>9__0_0
-    static System::Func_2<UnityEngine::ProBuilder::Face*, bool>* _get_$$9__0_0();
+    static ::System::Func_2<::UnityEngine::ProBuilder::Face*, bool>* _get_$$9__0_0();
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Boolean> <>9__0_0
-    static void _set_$$9__0_0(System::Func_2<UnityEngine::ProBuilder::Face*, bool>* value);
+    static void _set_$$9__0_0(::System::Func_2<::UnityEngine::ProBuilder::Face*, bool>* value);
     // Get static field: static public System.Func`2<UnityEngine.Vector4,UnityEngine.Vector2> <>9__11_0
-    static System::Func_2<UnityEngine::Vector4, UnityEngine::Vector2>* _get_$$9__11_0();
+    static ::System::Func_2<::UnityEngine::Vector4, ::UnityEngine::Vector2>* _get_$$9__11_0();
     // Set static field: static public System.Func`2<UnityEngine.Vector4,UnityEngine.Vector2> <>9__11_0
-    static void _set_$$9__11_0(System::Func_2<UnityEngine::Vector4, UnityEngine::Vector2>* value);
+    static void _set_$$9__11_0(::System::Func_2<::UnityEngine::Vector4, ::UnityEngine::Vector2>* value);
     // Get static field: static public System.Func`2<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>,System.Int32> <>9__13_1
-    static System::Func_2<System::Collections::Generic::KeyValuePair_2<int, int>, int>* _get_$$9__13_1();
+    static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<int, int>, int>* _get_$$9__13_1();
     // Set static field: static public System.Func`2<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>,System.Int32> <>9__13_1
-    static void _set_$$9__13_1(System::Func_2<System::Collections::Generic::KeyValuePair_2<int, int>, int>* value);
+    static void _set_$$9__13_1(::System::Func_2<::System::Collections::Generic::KeyValuePair_2<int, int>, int>* value);
     // Get static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Collections.Generic.IEnumerable`1<System.Int32>> <>9__17_0
-    static System::Func_2<UnityEngine::ProBuilder::Face*, System::Collections::Generic::IEnumerable_1<int>*>* _get_$$9__17_0();
+    static ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<int>*>* _get_$$9__17_0();
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Collections.Generic.IEnumerable`1<System.Int32>> <>9__17_0
-    static void _set_$$9__17_0(System::Func_2<UnityEngine::ProBuilder::Face*, System::Collections::Generic::IEnumerable_1<int>*>* value);
+    static void _set_$$9__17_0(::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<int>*>* value);
     // Get static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Collections.Generic.IEnumerable`1<System.Int32>> <>9__17_1
-    static System::Func_2<UnityEngine::ProBuilder::Face*, System::Collections::Generic::IEnumerable_1<int>*>* _get_$$9__17_1();
+    static ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<int>*>* _get_$$9__17_1();
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Collections.Generic.IEnumerable`1<System.Int32>> <>9__17_1
-    static void _set_$$9__17_1(System::Func_2<UnityEngine::ProBuilder::Face*, System::Collections::Generic::IEnumerable_1<int>*>* value);
+    static void _set_$$9__17_1(::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<int>*>* value);
     // Get static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Collections.Generic.IEnumerable`1<System.Int32>> <>9__18_0
-    static System::Func_2<UnityEngine::ProBuilder::Face*, System::Collections::Generic::IEnumerable_1<int>*>* _get_$$9__18_0();
+    static ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<int>*>* _get_$$9__18_0();
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Collections.Generic.IEnumerable`1<System.Int32>> <>9__18_0
-    static void _set_$$9__18_0(System::Func_2<UnityEngine::ProBuilder::Face*, System::Collections::Generic::IEnumerable_1<int>*>* value);
+    static void _set_$$9__18_0(::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<int>*>* value);
     // Get static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Collections.Generic.IEnumerable`1<System.Int32>> <>9__20_0
-    static System::Func_2<UnityEngine::ProBuilder::Face*, System::Collections::Generic::IEnumerable_1<int>*>* _get_$$9__20_0();
+    static ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<int>*>* _get_$$9__20_0();
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Collections.Generic.IEnumerable`1<System.Int32>> <>9__20_0
-    static void _set_$$9__20_0(System::Func_2<UnityEngine::ProBuilder::Face*, System::Collections::Generic::IEnumerable_1<int>*>* value);
+    static void _set_$$9__20_0(::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<int>*>* value);
     // static private System.Void .cctor()
     // Offset: 0x1B4011C
     static void _cctor();
     // System.Boolean <SetAutoUV>b__0_0(UnityEngine.ProBuilder.Face x)
     // Offset: 0x1B40188
-    bool $SetAutoUV$b__0_0(UnityEngine::ProBuilder::Face* x);
+    bool $SetAutoUV$b__0_0(::UnityEngine::ProBuilder::Face* x);
     // UnityEngine.Vector2 <GetUVs>b__11_0(UnityEngine.Vector4 x)
     // Offset: 0x1B401A0
-    UnityEngine::Vector2 $GetUVs$b__11_0(UnityEngine::Vector4 x);
+    ::UnityEngine::Vector2 $GetUVs$b__11_0(::UnityEngine::Vector4 x);
     // System.Int32 <SewUVs>b__13_1(System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> y)
     // Offset: 0x1B40230
-    int $SewUVs$b__13_1(System::Collections::Generic::KeyValuePair_2<int, int> y);
+    int $SewUVs$b__13_1(::System::Collections::Generic::KeyValuePair_2<int, int> y);
     // System.Collections.Generic.IEnumerable`1<System.Int32> <ProjectFacesAuto>b__17_0(UnityEngine.ProBuilder.Face x)
     // Offset: 0x1B40274
-    System::Collections::Generic::IEnumerable_1<int>* $ProjectFacesAuto$b__17_0(UnityEngine::ProBuilder::Face* x);
+    ::System::Collections::Generic::IEnumerable_1<int>* $ProjectFacesAuto$b__17_0(::UnityEngine::ProBuilder::Face* x);
     // System.Collections.Generic.IEnumerable`1<System.Int32> <ProjectFacesAuto>b__17_1(UnityEngine.ProBuilder.Face x)
     // Offset: 0x1B40290
-    System::Collections::Generic::IEnumerable_1<int>* $ProjectFacesAuto$b__17_1(UnityEngine::ProBuilder::Face* x);
+    ::System::Collections::Generic::IEnumerable_1<int>* $ProjectFacesAuto$b__17_1(::UnityEngine::ProBuilder::Face* x);
     // System.Collections.Generic.IEnumerable`1<System.Int32> <ProjectFacesBox>b__18_0(UnityEngine.ProBuilder.Face x)
     // Offset: 0x1B402AC
-    System::Collections::Generic::IEnumerable_1<int>* $ProjectFacesBox$b__18_0(UnityEngine::ProBuilder::Face* x);
+    ::System::Collections::Generic::IEnumerable_1<int>* $ProjectFacesBox$b__18_0(::UnityEngine::ProBuilder::Face* x);
     // System.Collections.Generic.IEnumerable`1<System.Int32> <ProjectFacesBox>b__20_0(UnityEngine.ProBuilder.Face x)
     // Offset: 0x1B402C8
-    System::Collections::Generic::IEnumerable_1<int>* $ProjectFacesBox$b__20_0(UnityEngine::ProBuilder::Face* x);
+    ::System::Collections::Generic::IEnumerable_1<int>* $ProjectFacesBox$b__20_0(::UnityEngine::ProBuilder::Face* x);
     // public System.Void .ctor()
     // Offset: 0x1B40180
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UVEditing::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UVEditing::$$c*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.MeshOperations.UVEditing/UnityEngine.ProBuilder.MeshOperations.<>c
@@ -129,7 +129,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c::$SetAutoUV$b__0_0
 // Il2CppName: <SetAutoUV>b__0_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c::*)(UnityEngine::ProBuilder::Face*)>(&UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c::$SetAutoUV$b__0_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c::*)(::UnityEngine::ProBuilder::Face*)>(&UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c::$SetAutoUV$b__0_0)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c*), "<SetAutoUV>b__0_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -138,7 +138,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c::$GetUVs$b__11_0
 // Il2CppName: <GetUVs>b__11_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c::*)(UnityEngine::Vector4)>(&UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c::$GetUVs$b__11_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c::*)(::UnityEngine::Vector4)>(&UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c::$GetUVs$b__11_0)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c*), "<GetUVs>b__11_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -147,7 +147,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c::$SewUVs$b__13_1
 // Il2CppName: <SewUVs>b__13_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c::*)(System::Collections::Generic::KeyValuePair_2<int, int>)>(&UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c::$SewUVs$b__13_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c::*)(::System::Collections::Generic::KeyValuePair_2<int, int>)>(&UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c::$SewUVs$b__13_1)> {
   static const MethodInfo* get() {
     static auto* y = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "KeyValuePair`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32"), ::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c*), "<SewUVs>b__13_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{y});
@@ -156,7 +156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c::$ProjectFacesAuto$b__17_0
 // Il2CppName: <ProjectFacesAuto>b__17_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<int>* (UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c::*)(UnityEngine::ProBuilder::Face*)>(&UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c::$ProjectFacesAuto$b__17_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<int>* (UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c::*)(::UnityEngine::ProBuilder::Face*)>(&UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c::$ProjectFacesAuto$b__17_0)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c*), "<ProjectFacesAuto>b__17_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -165,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c::$ProjectFacesAuto$b__17_1
 // Il2CppName: <ProjectFacesAuto>b__17_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<int>* (UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c::*)(UnityEngine::ProBuilder::Face*)>(&UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c::$ProjectFacesAuto$b__17_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<int>* (UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c::*)(::UnityEngine::ProBuilder::Face*)>(&UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c::$ProjectFacesAuto$b__17_1)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c*), "<ProjectFacesAuto>b__17_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -174,7 +174,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c::$ProjectFacesBox$b__18_0
 // Il2CppName: <ProjectFacesBox>b__18_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<int>* (UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c::*)(UnityEngine::ProBuilder::Face*)>(&UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c::$ProjectFacesBox$b__18_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<int>* (UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c::*)(::UnityEngine::ProBuilder::Face*)>(&UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c::$ProjectFacesBox$b__18_0)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c*), "<ProjectFacesBox>b__18_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -183,7 +183,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c::$ProjectFacesBox$b__20_0
 // Il2CppName: <ProjectFacesBox>b__20_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<int>* (UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c::*)(UnityEngine::ProBuilder::Face*)>(&UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c::$ProjectFacesBox$b__20_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<int>* (UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c::*)(::UnityEngine::ProBuilder::Face*)>(&UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c::$ProjectFacesBox$b__20_0)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c*), "<ProjectFacesBox>b__20_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});

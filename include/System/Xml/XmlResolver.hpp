@@ -32,8 +32,8 @@ namespace System::Xml {
   class XmlResolver;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::XmlResolver);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlResolver*, "System.Xml", "XmlResolver");
+NEED_NO_BOX(::System::Xml::XmlResolver);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlResolver*, "System.Xml", "XmlResolver");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x10
@@ -44,23 +44,23 @@ namespace System::Xml {
     public:
     // public System.Object GetEntity(System.Uri absoluteUri, System.String role, System.Type ofObjectToReturn)
     // Offset: 0xFFFFFFFF
-    ::Il2CppObject* GetEntity(System::Uri* absoluteUri, ::StringW role, System::Type* ofObjectToReturn);
+    ::Il2CppObject* GetEntity(::System::Uri* absoluteUri, ::StringW role, ::System::Type* ofObjectToReturn);
     // public System.Uri ResolveUri(System.Uri baseUri, System.String relativeUri)
     // Offset: 0x14DB4F8
-    System::Uri* ResolveUri(System::Uri* baseUri, ::StringW relativeUri);
+    ::System::Uri* ResolveUri(::System::Uri* baseUri, ::StringW relativeUri);
     // public System.Boolean SupportsType(System.Uri absoluteUri, System.Type type)
     // Offset: 0x14DB6D4
-    bool SupportsType(System::Uri* absoluteUri, System::Type* type);
+    bool SupportsType(::System::Uri* absoluteUri, ::System::Type* type);
     // public System.Threading.Tasks.Task`1<System.Object> GetEntityAsync(System.Uri absoluteUri, System.String role, System.Type ofObjectToReturn)
     // Offset: 0x14DB814
-    System::Threading::Tasks::Task_1<::Il2CppObject*>* GetEntityAsync(System::Uri* absoluteUri, ::StringW role, System::Type* ofObjectToReturn);
+    ::System::Threading::Tasks::Task_1<::Il2CppObject*>* GetEntityAsync(::System::Uri* absoluteUri, ::StringW role, ::System::Type* ofObjectToReturn);
     // protected System.Void .ctor()
     // Offset: 0x14DB874
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlResolver* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlResolver::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlResolver::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlResolver*, creationType>()));
     }
   }; // System.Xml.XmlResolver
@@ -70,7 +70,7 @@ namespace System::Xml {
 // Writing MetadataGetter for method: System::Xml::XmlResolver::GetEntity
 // Il2CppName: GetEntity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::XmlResolver::*)(System::Uri*, ::StringW, System::Type*)>(&System::Xml::XmlResolver::GetEntity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::XmlResolver::*)(::System::Uri*, ::StringW, ::System::Type*)>(&System::Xml::XmlResolver::GetEntity)> {
   static const MethodInfo* get() {
     static auto* absoluteUri = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
     static auto* role = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -81,7 +81,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Xml::XmlResolver::ResolveUri
 // Il2CppName: ResolveUri
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (System::Xml::XmlResolver::*)(System::Uri*, ::StringW)>(&System::Xml::XmlResolver::ResolveUri)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Uri* (System::Xml::XmlResolver::*)(::System::Uri*, ::StringW)>(&System::Xml::XmlResolver::ResolveUri)> {
   static const MethodInfo* get() {
     static auto* baseUri = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
     static auto* relativeUri = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -91,7 +91,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri
 // Writing MetadataGetter for method: System::Xml::XmlResolver::SupportsType
 // Il2CppName: SupportsType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::XmlResolver::*)(System::Uri*, System::Type*)>(&System::Xml::XmlResolver::SupportsType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::XmlResolver::*)(::System::Uri*, ::System::Type*)>(&System::Xml::XmlResolver::SupportsType)> {
   static const MethodInfo* get() {
     static auto* absoluteUri = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -101,7 +101,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Xml::XmlResolver::GetEntityAsync
 // Il2CppName: GetEntityAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::Il2CppObject*>* (System::Xml::XmlResolver::*)(System::Uri*, ::StringW, System::Type*)>(&System::Xml::XmlResolver::GetEntityAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::Il2CppObject*>* (System::Xml::XmlResolver::*)(::System::Uri*, ::StringW, ::System::Type*)>(&System::Xml::XmlResolver::GetEntityAsync)> {
   static const MethodInfo* get() {
     static auto* absoluteUri = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
     static auto* role = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

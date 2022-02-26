@@ -15,8 +15,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::KawaseBlurRendererSO::BloomKernel);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::KawaseBlurRendererSO::BloomKernel*, "", "KawaseBlurRendererSO/BloomKernel");
+NEED_NO_BOX(::GlobalNamespace::KawaseBlurRendererSO::BloomKernel);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::KawaseBlurRendererSO::BloomKernel*, "", "KawaseBlurRendererSO/BloomKernel");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -37,9 +37,9 @@ namespace GlobalNamespace {
     // public KawaseBlurRendererSO/KernelSize kernelSize
     // Size: 0x4
     // Offset: 0x10
-    GlobalNamespace::KawaseBlurRendererSO::KernelSize kernelSize;
+    ::GlobalNamespace::KawaseBlurRendererSO::KernelSize kernelSize;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::KawaseBlurRendererSO::KernelSize) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::KawaseBlurRendererSO::KernelSize) == 0x4);
     // public System.Int32 sharedPartWithNext
     // Size: 0x4
     // Offset: 0x14
@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public KawaseBlurRendererSO/KernelSize kernelSize
-    GlobalNamespace::KawaseBlurRendererSO::KernelSize& dyn_kernelSize();
+    ::GlobalNamespace::KawaseBlurRendererSO::KernelSize& dyn_kernelSize();
     // Get instance field reference: public System.Int32 sharedPartWithNext
     int& dyn_sharedPartWithNext();
     // public System.Void .ctor()
@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KawaseBlurRendererSO::BloomKernel* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::KawaseBlurRendererSO::BloomKernel::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::KawaseBlurRendererSO::BloomKernel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KawaseBlurRendererSO::BloomKernel*, creationType>()));
     }
   }; // KawaseBlurRendererSO/BloomKernel

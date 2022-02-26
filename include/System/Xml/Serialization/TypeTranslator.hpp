@@ -30,8 +30,8 @@ namespace System::Xml::Serialization {
   class TypeTranslator;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Serialization::TypeTranslator);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Serialization::TypeTranslator*, "System.Xml.Serialization", "TypeTranslator");
+NEED_NO_BOX(::System::Xml::Serialization::TypeTranslator);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::TypeTranslator*, "System.Xml.Serialization", "TypeTranslator");
 // Type namespace: System.Xml.Serialization
 namespace System::Xml::Serialization {
   // Size: 0x10
@@ -41,39 +41,39 @@ namespace System::Xml::Serialization {
   class TypeTranslator : public ::Il2CppObject {
     public:
     // Get static field: static private System.Collections.Hashtable nameCache
-    static System::Collections::Hashtable* _get_nameCache();
+    static ::System::Collections::Hashtable* _get_nameCache();
     // Set static field: static private System.Collections.Hashtable nameCache
-    static void _set_nameCache(System::Collections::Hashtable* value);
+    static void _set_nameCache(::System::Collections::Hashtable* value);
     // Get static field: static private System.Collections.Hashtable primitiveTypes
-    static System::Collections::Hashtable* _get_primitiveTypes();
+    static ::System::Collections::Hashtable* _get_primitiveTypes();
     // Set static field: static private System.Collections.Hashtable primitiveTypes
-    static void _set_primitiveTypes(System::Collections::Hashtable* value);
+    static void _set_primitiveTypes(::System::Collections::Hashtable* value);
     // Get static field: static private System.Collections.Hashtable primitiveArrayTypes
-    static System::Collections::Hashtable* _get_primitiveArrayTypes();
+    static ::System::Collections::Hashtable* _get_primitiveArrayTypes();
     // Set static field: static private System.Collections.Hashtable primitiveArrayTypes
-    static void _set_primitiveArrayTypes(System::Collections::Hashtable* value);
+    static void _set_primitiveArrayTypes(::System::Collections::Hashtable* value);
     // Get static field: static private System.Collections.Hashtable nullableTypes
-    static System::Collections::Hashtable* _get_nullableTypes();
+    static ::System::Collections::Hashtable* _get_nullableTypes();
     // Set static field: static private System.Collections.Hashtable nullableTypes
-    static void _set_nullableTypes(System::Collections::Hashtable* value);
+    static void _set_nullableTypes(::System::Collections::Hashtable* value);
     // static private System.Void .cctor()
     // Offset: 0x194D31C
     static void _cctor();
     // static public System.Xml.Serialization.TypeData GetTypeData(System.Type type)
     // Offset: 0x194A8D0
-    static System::Xml::Serialization::TypeData* GetTypeData(System::Type* type);
+    static ::System::Xml::Serialization::TypeData* GetTypeData(::System::Type* type);
     // static public System.Xml.Serialization.TypeData GetTypeData(System.Type runtimeType, System.String xmlDataType, System.Boolean underlyingEnumType)
     // Offset: 0x194F358
-    static System::Xml::Serialization::TypeData* GetTypeData(System::Type* runtimeType, ::StringW xmlDataType, bool underlyingEnumType);
+    static ::System::Xml::Serialization::TypeData* GetTypeData(::System::Type* runtimeType, ::StringW xmlDataType, bool underlyingEnumType);
     // static public System.Xml.Serialization.TypeData GetPrimitiveTypeData(System.String typeName)
     // Offset: 0x194FD6C
-    static System::Xml::Serialization::TypeData* GetPrimitiveTypeData(::StringW typeName);
+    static ::System::Xml::Serialization::TypeData* GetPrimitiveTypeData(::StringW typeName);
     // static public System.Xml.Serialization.TypeData GetPrimitiveTypeData(System.String typeName, System.Boolean nullable)
     // Offset: 0x194FDD4
-    static System::Xml::Serialization::TypeData* GetPrimitiveTypeData(::StringW typeName, bool nullable);
+    static ::System::Xml::Serialization::TypeData* GetPrimitiveTypeData(::StringW typeName, bool nullable);
     // static public System.Xml.Serialization.TypeData FindPrimitiveTypeData(System.String typeName)
     // Offset: 0x194FFEC
-    static System::Xml::Serialization::TypeData* FindPrimitiveTypeData(::StringW typeName);
+    static ::System::Xml::Serialization::TypeData* FindPrimitiveTypeData(::StringW typeName);
     // static public System.String GetArrayName(System.String elemName)
     // Offset: 0x194AFEC
     static ::StringW GetArrayName(::StringW elemName);
@@ -95,7 +95,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Xml::Serialization::TypeTranslator::GetTypeData
 // Il2CppName: GetTypeData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Serialization::TypeData* (*)(System::Type*)>(&System::Xml::Serialization::TypeTranslator::GetTypeData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::TypeData* (*)(::System::Type*)>(&System::Xml::Serialization::TypeTranslator::GetTypeData)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::TypeTranslator*), "GetTypeData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -104,7 +104,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Serialization::TypeTranslator::GetTypeData
 // Il2CppName: GetTypeData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Serialization::TypeData* (*)(System::Type*, ::StringW, bool)>(&System::Xml::Serialization::TypeTranslator::GetTypeData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::TypeData* (*)(::System::Type*, ::StringW, bool)>(&System::Xml::Serialization::TypeTranslator::GetTypeData)> {
   static const MethodInfo* get() {
     static auto* runtimeType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* xmlDataType = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -115,7 +115,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Serialization::TypeTranslator::GetPrimitiveTypeData
 // Il2CppName: GetPrimitiveTypeData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Serialization::TypeData* (*)(::StringW)>(&System::Xml::Serialization::TypeTranslator::GetPrimitiveTypeData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::TypeData* (*)(::StringW)>(&System::Xml::Serialization::TypeTranslator::GetPrimitiveTypeData)> {
   static const MethodInfo* get() {
     static auto* typeName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::TypeTranslator*), "GetPrimitiveTypeData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{typeName});
@@ -124,7 +124,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Serialization::TypeTranslator::GetPrimitiveTypeData
 // Il2CppName: GetPrimitiveTypeData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Serialization::TypeData* (*)(::StringW, bool)>(&System::Xml::Serialization::TypeTranslator::GetPrimitiveTypeData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::TypeData* (*)(::StringW, bool)>(&System::Xml::Serialization::TypeTranslator::GetPrimitiveTypeData)> {
   static const MethodInfo* get() {
     static auto* typeName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* nullable = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -134,7 +134,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Serialization::TypeTranslator::FindPrimitiveTypeData
 // Il2CppName: FindPrimitiveTypeData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Serialization::TypeData* (*)(::StringW)>(&System::Xml::Serialization::TypeTranslator::FindPrimitiveTypeData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::TypeData* (*)(::StringW)>(&System::Xml::Serialization::TypeTranslator::FindPrimitiveTypeData)> {
   static const MethodInfo* get() {
     static auto* typeName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::TypeTranslator*), "FindPrimitiveTypeData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{typeName});

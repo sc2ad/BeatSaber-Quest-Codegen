@@ -27,8 +27,8 @@ namespace GlobalNamespace {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper::$$c);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper::$$c*, "", "AlphabetScrollbarInfoBeatmapLevelHelper/<>c");
+NEED_NO_BOX(::GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper::$$c*, "", "AlphabetScrollbarInfoBeatmapLevelHelper/<>c");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -39,26 +39,26 @@ namespace GlobalNamespace {
   class AlphabetScrollbarInfoBeatmapLevelHelper::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly AlphabetScrollbarInfoBeatmapLevelHelper/<>c <>9
-    static GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper::$$c* _get_$$9();
+    static ::GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper::$$c* _get_$$9();
     // Set static field: static public readonly AlphabetScrollbarInfoBeatmapLevelHelper/<>c <>9
-    static void _set_$$9(GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper::$$c* value);
+    static void _set_$$9(::GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper::$$c* value);
     // Get static field: static public System.Func`2<IPreviewBeatmapLevel,System.String> <>9__3_0
-    static System::Func_2<GlobalNamespace::IPreviewBeatmapLevel*, ::StringW>* _get_$$9__3_0();
+    static ::System::Func_2<::GlobalNamespace::IPreviewBeatmapLevel*, ::StringW>* _get_$$9__3_0();
     // Set static field: static public System.Func`2<IPreviewBeatmapLevel,System.String> <>9__3_0
-    static void _set_$$9__3_0(System::Func_2<GlobalNamespace::IPreviewBeatmapLevel*, ::StringW>* value);
+    static void _set_$$9__3_0(::System::Func_2<::GlobalNamespace::IPreviewBeatmapLevel*, ::StringW>* value);
     // static private System.Void .cctor()
     // Offset: 0x1487A34
     static void _cctor();
     // System.String <CreateData>b__3_0(IPreviewBeatmapLevel x)
     // Offset: 0x1487AA0
-    ::StringW $CreateData$b__3_0(GlobalNamespace::IPreviewBeatmapLevel* x);
+    ::StringW $CreateData$b__3_0(::GlobalNamespace::IPreviewBeatmapLevel* x);
     // public System.Void .ctor()
     // Offset: 0x1487A98
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AlphabetScrollbarInfoBeatmapLevelHelper::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AlphabetScrollbarInfoBeatmapLevelHelper::$$c*, creationType>()));
     }
   }; // AlphabetScrollbarInfoBeatmapLevelHelper/<>c
@@ -76,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper::$$c::$CreateData$b__3_0
 // Il2CppName: <CreateData>b__3_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper::$$c::*)(GlobalNamespace::IPreviewBeatmapLevel*)>(&GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper::$$c::$CreateData$b__3_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper::$$c::*)(::GlobalNamespace::IPreviewBeatmapLevel*)>(&GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper::$$c::$CreateData$b__3_0)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper::$$c*), "<CreateData>b__3_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});

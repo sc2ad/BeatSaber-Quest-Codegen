@@ -36,8 +36,8 @@ namespace RootMotion {
   class BakerHumanoidQT;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::BakerHumanoidQT);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::BakerHumanoidQT*, "RootMotion", "BakerHumanoidQT");
+NEED_NO_BOX(::RootMotion::BakerHumanoidQT);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::BakerHumanoidQT*, "RootMotion", "BakerHumanoidQT");
 // Type namespace: RootMotion
 namespace RootMotion {
   // Size: 0x9D
@@ -58,9 +58,9 @@ namespace RootMotion {
     // private UnityEngine.Transform transform
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::Transform* transform;
+    ::UnityEngine::Transform* transform;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // private System.String Qx
     // Size: 0x8
     // Offset: 0x18
@@ -106,57 +106,57 @@ namespace RootMotion {
     // public UnityEngine.AnimationCurve rotX
     // Size: 0x8
     // Offset: 0x50
-    UnityEngine::AnimationCurve* rotX;
+    ::UnityEngine::AnimationCurve* rotX;
     // Field size check
-    static_assert(sizeof(UnityEngine::AnimationCurve*) == 0x8);
+    static_assert(sizeof(::UnityEngine::AnimationCurve*) == 0x8);
     // public UnityEngine.AnimationCurve rotY
     // Size: 0x8
     // Offset: 0x58
-    UnityEngine::AnimationCurve* rotY;
+    ::UnityEngine::AnimationCurve* rotY;
     // Field size check
-    static_assert(sizeof(UnityEngine::AnimationCurve*) == 0x8);
+    static_assert(sizeof(::UnityEngine::AnimationCurve*) == 0x8);
     // public UnityEngine.AnimationCurve rotZ
     // Size: 0x8
     // Offset: 0x60
-    UnityEngine::AnimationCurve* rotZ;
+    ::UnityEngine::AnimationCurve* rotZ;
     // Field size check
-    static_assert(sizeof(UnityEngine::AnimationCurve*) == 0x8);
+    static_assert(sizeof(::UnityEngine::AnimationCurve*) == 0x8);
     // public UnityEngine.AnimationCurve rotW
     // Size: 0x8
     // Offset: 0x68
-    UnityEngine::AnimationCurve* rotW;
+    ::UnityEngine::AnimationCurve* rotW;
     // Field size check
-    static_assert(sizeof(UnityEngine::AnimationCurve*) == 0x8);
+    static_assert(sizeof(::UnityEngine::AnimationCurve*) == 0x8);
     // public UnityEngine.AnimationCurve posX
     // Size: 0x8
     // Offset: 0x70
-    UnityEngine::AnimationCurve* posX;
+    ::UnityEngine::AnimationCurve* posX;
     // Field size check
-    static_assert(sizeof(UnityEngine::AnimationCurve*) == 0x8);
+    static_assert(sizeof(::UnityEngine::AnimationCurve*) == 0x8);
     // public UnityEngine.AnimationCurve posY
     // Size: 0x8
     // Offset: 0x78
-    UnityEngine::AnimationCurve* posY;
+    ::UnityEngine::AnimationCurve* posY;
     // Field size check
-    static_assert(sizeof(UnityEngine::AnimationCurve*) == 0x8);
+    static_assert(sizeof(::UnityEngine::AnimationCurve*) == 0x8);
     // public UnityEngine.AnimationCurve posZ
     // Size: 0x8
     // Offset: 0x80
-    UnityEngine::AnimationCurve* posZ;
+    ::UnityEngine::AnimationCurve* posZ;
     // Field size check
-    static_assert(sizeof(UnityEngine::AnimationCurve*) == 0x8);
+    static_assert(sizeof(::UnityEngine::AnimationCurve*) == 0x8);
     // private UnityEngine.AvatarIKGoal goal
     // Size: 0x4
     // Offset: 0x88
-    UnityEngine::AvatarIKGoal goal;
+    ::UnityEngine::AvatarIKGoal goal;
     // Field size check
-    static_assert(sizeof(UnityEngine::AvatarIKGoal) == 0x4);
+    static_assert(sizeof(::UnityEngine::AvatarIKGoal) == 0x4);
     // private UnityEngine.Quaternion lastQ
     // Size: 0x10
     // Offset: 0x8C
-    UnityEngine::Quaternion lastQ;
+    ::UnityEngine::Quaternion lastQ;
     // Field size check
-    static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    static_assert(sizeof(::UnityEngine::Quaternion) == 0x10);
     // private System.Boolean lastQSet
     // Size: 0x1
     // Offset: 0x9C
@@ -165,7 +165,7 @@ namespace RootMotion {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private UnityEngine.Transform transform
-    UnityEngine::Transform*& dyn_transform();
+    ::UnityEngine::Transform*& dyn_transform();
     // Get instance field reference: private System.String Qx
     ::StringW& dyn_Qx();
     // Get instance field reference: private System.String Qy
@@ -181,37 +181,37 @@ namespace RootMotion {
     // Get instance field reference: private System.String Tz
     ::StringW& dyn_Tz();
     // Get instance field reference: public UnityEngine.AnimationCurve rotX
-    UnityEngine::AnimationCurve*& dyn_rotX();
+    ::UnityEngine::AnimationCurve*& dyn_rotX();
     // Get instance field reference: public UnityEngine.AnimationCurve rotY
-    UnityEngine::AnimationCurve*& dyn_rotY();
+    ::UnityEngine::AnimationCurve*& dyn_rotY();
     // Get instance field reference: public UnityEngine.AnimationCurve rotZ
-    UnityEngine::AnimationCurve*& dyn_rotZ();
+    ::UnityEngine::AnimationCurve*& dyn_rotZ();
     // Get instance field reference: public UnityEngine.AnimationCurve rotW
-    UnityEngine::AnimationCurve*& dyn_rotW();
+    ::UnityEngine::AnimationCurve*& dyn_rotW();
     // Get instance field reference: public UnityEngine.AnimationCurve posX
-    UnityEngine::AnimationCurve*& dyn_posX();
+    ::UnityEngine::AnimationCurve*& dyn_posX();
     // Get instance field reference: public UnityEngine.AnimationCurve posY
-    UnityEngine::AnimationCurve*& dyn_posY();
+    ::UnityEngine::AnimationCurve*& dyn_posY();
     // Get instance field reference: public UnityEngine.AnimationCurve posZ
-    UnityEngine::AnimationCurve*& dyn_posZ();
+    ::UnityEngine::AnimationCurve*& dyn_posZ();
     // Get instance field reference: private UnityEngine.AvatarIKGoal goal
-    UnityEngine::AvatarIKGoal& dyn_goal();
+    ::UnityEngine::AvatarIKGoal& dyn_goal();
     // Get instance field reference: private UnityEngine.Quaternion lastQ
-    UnityEngine::Quaternion& dyn_lastQ();
+    ::UnityEngine::Quaternion& dyn_lastQ();
     // Get instance field reference: private System.Boolean lastQSet
     bool& dyn_lastQSet();
     // public System.Void .ctor(System.String name)
     // Offset: 0x221DDF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BakerHumanoidQT* New_ctor(::StringW name) {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::BakerHumanoidQT::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::BakerHumanoidQT::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BakerHumanoidQT*, creationType>(name)));
     }
     // public System.Void .ctor(UnityEngine.Transform transform, UnityEngine.AvatarIKGoal goal, System.String name)
     // Offset: 0x221E03C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BakerHumanoidQT* New_ctor(UnityEngine::Transform* transform, UnityEngine::AvatarIKGoal goal, ::StringW name) {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::BakerHumanoidQT::.ctor");
+    static BakerHumanoidQT* New_ctor(::UnityEngine::Transform* transform, ::UnityEngine::AvatarIKGoal goal, ::StringW name) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::BakerHumanoidQT::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BakerHumanoidQT*, creationType>(transform, goal, name)));
     }
     // public System.Void Reset()
@@ -219,10 +219,10 @@ namespace RootMotion {
     void Reset();
     // public System.Void SetIKKeyframes(System.Single time, UnityEngine.Avatar avatar, System.Single humanScale, UnityEngine.Vector3 bodyPosition, UnityEngine.Quaternion bodyRotation)
     // Offset: 0x221E174
-    void SetIKKeyframes(float time, UnityEngine::Avatar* avatar, float humanScale, UnityEngine::Vector3 bodyPosition, UnityEngine::Quaternion bodyRotation);
+    void SetIKKeyframes(float time, ::UnityEngine::Avatar* avatar, float humanScale, ::UnityEngine::Vector3 bodyPosition, ::UnityEngine::Quaternion bodyRotation);
     // public System.Void SetKeyframes(System.Single time, UnityEngine.Vector3 pos, UnityEngine.Quaternion rot)
     // Offset: 0x221E61C
-    void SetKeyframes(float time, UnityEngine::Vector3 pos, UnityEngine::Quaternion rot);
+    void SetKeyframes(float time, ::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot);
     // public System.Void MoveLastKeyframes(System.Single time)
     // Offset: 0x221E718
     void MoveLastKeyframes(float time);
@@ -231,13 +231,13 @@ namespace RootMotion {
     void SetLoopFrame(float time);
     // private System.Void MoveLastKeyframe(System.Single time, UnityEngine.AnimationCurve curve)
     // Offset: 0x221E78C
-    void MoveLastKeyframe(float time, UnityEngine::AnimationCurve* curve);
+    void MoveLastKeyframe(float time, ::UnityEngine::AnimationCurve* curve);
     // public System.Void MultiplyLength(UnityEngine.AnimationCurve curve, System.Single mlp)
     // Offset: 0x221EAD4
-    void MultiplyLength(UnityEngine::AnimationCurve* curve, float mlp);
+    void MultiplyLength(::UnityEngine::AnimationCurve* curve, float mlp);
     // public System.Void SetCurves(ref UnityEngine.AnimationClip clip, System.Single maxError, System.Single lengthMlp)
     // Offset: 0x221EB88
-    void SetCurves(ByRef<UnityEngine::AnimationClip*> clip, float maxError, float lengthMlp);
+    void SetCurves(ByRef<::UnityEngine::AnimationClip*> clip, float maxError, float lengthMlp);
   }; // RootMotion.BakerHumanoidQT
   #pragma pack(pop)
   static check_size<sizeof(BakerHumanoidQT), 156 + sizeof(bool)> __RootMotion_BakerHumanoidQTSizeCheck;
@@ -263,7 +263,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::BakerHumanoidQT::SetIKKeyframes
 // Il2CppName: SetIKKeyframes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerHumanoidQT::*)(float, UnityEngine::Avatar*, float, UnityEngine::Vector3, UnityEngine::Quaternion)>(&RootMotion::BakerHumanoidQT::SetIKKeyframes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerHumanoidQT::*)(float, ::UnityEngine::Avatar*, float, ::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(&RootMotion::BakerHumanoidQT::SetIKKeyframes)> {
   static const MethodInfo* get() {
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* avatar = &::il2cpp_utils::GetClassFromName("UnityEngine", "Avatar")->byval_arg;
@@ -276,7 +276,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::BakerHumanoidQT::SetKeyframes
 // Il2CppName: SetKeyframes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerHumanoidQT::*)(float, UnityEngine::Vector3, UnityEngine::Quaternion)>(&RootMotion::BakerHumanoidQT::SetKeyframes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerHumanoidQT::*)(float, ::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(&RootMotion::BakerHumanoidQT::SetKeyframes)> {
   static const MethodInfo* get() {
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* pos = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -305,7 +305,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::BakerHumanoidQT::MoveLastKeyframe
 // Il2CppName: MoveLastKeyframe
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerHumanoidQT::*)(float, UnityEngine::AnimationCurve*)>(&RootMotion::BakerHumanoidQT::MoveLastKeyframe)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerHumanoidQT::*)(float, ::UnityEngine::AnimationCurve*)>(&RootMotion::BakerHumanoidQT::MoveLastKeyframe)> {
   static const MethodInfo* get() {
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* curve = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationCurve")->byval_arg;
@@ -315,7 +315,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::BakerHumanoidQT::MultiplyLength
 // Il2CppName: MultiplyLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerHumanoidQT::*)(UnityEngine::AnimationCurve*, float)>(&RootMotion::BakerHumanoidQT::MultiplyLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerHumanoidQT::*)(::UnityEngine::AnimationCurve*, float)>(&RootMotion::BakerHumanoidQT::MultiplyLength)> {
   static const MethodInfo* get() {
     static auto* curve = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationCurve")->byval_arg;
     static auto* mlp = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -325,7 +325,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::BakerHumanoidQT::SetCurves
 // Il2CppName: SetCurves
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerHumanoidQT::*)(ByRef<UnityEngine::AnimationClip*>, float, float)>(&RootMotion::BakerHumanoidQT::SetCurves)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerHumanoidQT::*)(ByRef<::UnityEngine::AnimationClip*>, float, float)>(&RootMotion::BakerHumanoidQT::SetCurves)> {
   static const MethodInfo* get() {
     static auto* clip = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationClip")->this_arg;
     static auto* maxError = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

@@ -25,8 +25,8 @@ namespace System::Reflection {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Utilities::ReflectionUtils::$$c__DisplayClass44_1);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::ReflectionUtils::$$c__DisplayClass44_1*, "Newtonsoft.Json.Utilities", "ReflectionUtils/<>c__DisplayClass44_1");
+NEED_NO_BOX(::Newtonsoft::Json::Utilities::ReflectionUtils::$$c__DisplayClass44_1);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::ReflectionUtils::$$c__DisplayClass44_1*, "Newtonsoft.Json.Utilities", "ReflectionUtils/<>c__DisplayClass44_1");
 // Type namespace: Newtonsoft.Json.Utilities
 namespace Newtonsoft::Json::Utilities {
   // Size: 0x20
@@ -49,43 +49,43 @@ namespace Newtonsoft::Json::Utilities {
     // public System.Type subTypePropertyDeclaringType
     // Size: 0x8
     // Offset: 0x10
-    System::Type* subTypePropertyDeclaringType;
+    ::System::Type* subTypePropertyDeclaringType;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     // [NullableAttribute] Offset: 0x12052E8
     // public Newtonsoft.Json.Utilities.ReflectionUtils/Newtonsoft.Json.Utilities.<>c__DisplayClass44_0 CS$<>8__locals1
     // Size: 0x8
     // Offset: 0x18
-    Newtonsoft::Json::Utilities::ReflectionUtils::$$c__DisplayClass44_0* CS$$$8__locals1;
+    ::Newtonsoft::Json::Utilities::ReflectionUtils::$$c__DisplayClass44_0* CS$$$8__locals1;
     // Field size check
-    static_assert(sizeof(Newtonsoft::Json::Utilities::ReflectionUtils::$$c__DisplayClass44_0*) == 0x8);
+    static_assert(sizeof(::Newtonsoft::Json::Utilities::ReflectionUtils::$$c__DisplayClass44_0*) == 0x8);
     public:
     // Get instance field reference: public System.Type subTypePropertyDeclaringType
-    System::Type*& dyn_subTypePropertyDeclaringType();
+    ::System::Type*& dyn_subTypePropertyDeclaringType();
     // Get instance field reference: public Newtonsoft.Json.Utilities.ReflectionUtils/Newtonsoft.Json.Utilities.<>c__DisplayClass44_0 CS$<>8__locals1
-    Newtonsoft::Json::Utilities::ReflectionUtils::$$c__DisplayClass44_0*& dyn_CS$$$8__locals1();
+    ::Newtonsoft::Json::Utilities::ReflectionUtils::$$c__DisplayClass44_0*& dyn_CS$$$8__locals1();
     // System.Boolean <GetChildPrivateProperties>b__2(System.Reflection.PropertyInfo p)
     // Offset: 0x29F8338
-    bool $GetChildPrivateProperties$b__2(System::Reflection::PropertyInfo* p);
+    bool $GetChildPrivateProperties$b__2(::System::Reflection::PropertyInfo* p);
     // public System.Void .ctor()
     // Offset: 0x29F7D28
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReflectionUtils::$$c__DisplayClass44_1* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Utilities::ReflectionUtils::$$c__DisplayClass44_1::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Utilities::ReflectionUtils::$$c__DisplayClass44_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReflectionUtils::$$c__DisplayClass44_1*, creationType>()));
     }
   }; // Newtonsoft.Json.Utilities.ReflectionUtils/Newtonsoft.Json.Utilities.<>c__DisplayClass44_1
   #pragma pack(pop)
-  static check_size<sizeof(ReflectionUtils::$$c__DisplayClass44_1), 24 + sizeof(Newtonsoft::Json::Utilities::ReflectionUtils::$$c__DisplayClass44_0*)> __Newtonsoft_Json_Utilities_ReflectionUtils_$$c__DisplayClass44_1SizeCheck;
+  static check_size<sizeof(ReflectionUtils::$$c__DisplayClass44_1), 24 + sizeof(::Newtonsoft::Json::Utilities::ReflectionUtils::$$c__DisplayClass44_0*)> __Newtonsoft_Json_Utilities_ReflectionUtils_$$c__DisplayClass44_1SizeCheck;
   static_assert(sizeof(ReflectionUtils::$$c__DisplayClass44_1) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionUtils::$$c__DisplayClass44_1::$GetChildPrivateProperties$b__2
 // Il2CppName: <GetChildPrivateProperties>b__2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Utilities::ReflectionUtils::$$c__DisplayClass44_1::*)(System::Reflection::PropertyInfo*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::$$c__DisplayClass44_1::$GetChildPrivateProperties$b__2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Utilities::ReflectionUtils::$$c__DisplayClass44_1::*)(::System::Reflection::PropertyInfo*)>(&Newtonsoft::Json::Utilities::ReflectionUtils::$$c__DisplayClass44_1::$GetChildPrivateProperties$b__2)> {
   static const MethodInfo* get() {
     static auto* p = &::il2cpp_utils::GetClassFromName("System.Reflection", "PropertyInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::ReflectionUtils::$$c__DisplayClass44_1*), "<GetChildPrivateProperties>b__2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{p});

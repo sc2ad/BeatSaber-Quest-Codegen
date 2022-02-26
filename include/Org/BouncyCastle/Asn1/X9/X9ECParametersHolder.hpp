@@ -23,8 +23,8 @@ namespace Org::BouncyCastle::Asn1::X9 {
   class X9ECParametersHolder;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Asn1::X9::X9ECParametersHolder);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Org.BouncyCastle.Asn1.X9", "X9ECParametersHolder");
+NEED_NO_BOX(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Org.BouncyCastle.Asn1.X9", "X9ECParametersHolder");
 // Type namespace: Org.BouncyCastle.Asn1.X9
 namespace Org::BouncyCastle::Asn1::X9 {
   // Size: 0x18
@@ -45,41 +45,41 @@ namespace Org::BouncyCastle::Asn1::X9 {
     // private Org.BouncyCastle.Asn1.X9.X9ECParameters parameters
     // Size: 0x8
     // Offset: 0x10
-    Org::BouncyCastle::Asn1::X9::X9ECParameters* parameters;
+    ::Org::BouncyCastle::Asn1::X9::X9ECParameters* parameters;
     // Field size check
-    static_assert(sizeof(Org::BouncyCastle::Asn1::X9::X9ECParameters*) == 0x8);
+    static_assert(sizeof(::Org::BouncyCastle::Asn1::X9::X9ECParameters*) == 0x8);
     public:
-    // Creating conversion operator: operator Org::BouncyCastle::Asn1::X9::X9ECParameters*
-    constexpr operator Org::BouncyCastle::Asn1::X9::X9ECParameters*() const noexcept {
+    // Creating conversion operator: operator ::Org::BouncyCastle::Asn1::X9::X9ECParameters*
+    constexpr operator ::Org::BouncyCastle::Asn1::X9::X9ECParameters*() const noexcept {
       return parameters;
     }
     // Get instance field reference: private Org.BouncyCastle.Asn1.X9.X9ECParameters parameters
-    Org::BouncyCastle::Asn1::X9::X9ECParameters*& dyn_parameters();
+    ::Org::BouncyCastle::Asn1::X9::X9ECParameters*& dyn_parameters();
     // public Org.BouncyCastle.Asn1.X9.X9ECParameters get_Parameters()
     // Offset: 0x1E3DEA8
-    Org::BouncyCastle::Asn1::X9::X9ECParameters* get_Parameters();
+    ::Org::BouncyCastle::Asn1::X9::X9ECParameters* get_Parameters();
     // protected Org.BouncyCastle.Asn1.X9.X9ECParameters CreateParameters()
     // Offset: 0xFFFFFFFF
-    Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
+    ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
     // protected System.Void .ctor()
     // Offset: 0x1E3DF44
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X9ECParametersHolder* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X9::X9ECParametersHolder::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X9ECParametersHolder*, creationType>()));
     }
   }; // Org.BouncyCastle.Asn1.X9.X9ECParametersHolder
   #pragma pack(pop)
-  static check_size<sizeof(X9ECParametersHolder), 16 + sizeof(Org::BouncyCastle::Asn1::X9::X9ECParameters*)> __Org_BouncyCastle_Asn1_X9_X9ECParametersHolderSizeCheck;
+  static check_size<sizeof(X9ECParametersHolder), 16 + sizeof(::Org::BouncyCastle::Asn1::X9::X9ECParameters*)> __Org_BouncyCastle_Asn1_X9_X9ECParametersHolderSizeCheck;
   static_assert(sizeof(X9ECParametersHolder) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X9::X9ECParametersHolder::get_Parameters
 // Il2CppName: get_Parameters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (Org::BouncyCastle::Asn1::X9::X9ECParametersHolder::*)()>(&Org::BouncyCastle::Asn1::X9::X9ECParametersHolder::get_Parameters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (Org::BouncyCastle::Asn1::X9::X9ECParametersHolder::*)()>(&Org::BouncyCastle::Asn1::X9::X9ECParametersHolder::get_Parameters)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*), "get_Parameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -87,7 +87,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X9::X9ECParametersHolder::CreateParameters
 // Il2CppName: CreateParameters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (Org::BouncyCastle::Asn1::X9::X9ECParametersHolder::*)()>(&Org::BouncyCastle::Asn1::X9::X9ECParametersHolder::CreateParameters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (Org::BouncyCastle::Asn1::X9::X9ECParametersHolder::*)()>(&Org::BouncyCastle::Asn1::X9::X9ECParametersHolder::CreateParameters)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*), "CreateParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -25,8 +25,8 @@ namespace TMPro {
   class ShaderUtilities;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(TMPro::ShaderUtilities);
-DEFINE_IL2CPP_ARG_TYPE(TMPro::ShaderUtilities*, "TMPro", "ShaderUtilities");
+NEED_NO_BOX(::TMPro::ShaderUtilities);
+DEFINE_IL2CPP_ARG_TYPE(::TMPro::ShaderUtilities*, "TMPro", "ShaderUtilities");
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0x10
@@ -280,19 +280,19 @@ namespace TMPro {
     // Set static field: static public System.Boolean isInitialized
     static void _set_isInitialized(bool value);
     // Get static field: static private UnityEngine.Shader k_ShaderRef_MobileSDF
-    static UnityEngine::Shader* _get_k_ShaderRef_MobileSDF();
+    static ::UnityEngine::Shader* _get_k_ShaderRef_MobileSDF();
     // Set static field: static private UnityEngine.Shader k_ShaderRef_MobileSDF
-    static void _set_k_ShaderRef_MobileSDF(UnityEngine::Shader* value);
+    static void _set_k_ShaderRef_MobileSDF(::UnityEngine::Shader* value);
     // Get static field: static private UnityEngine.Shader k_ShaderRef_MobileBitmap
-    static UnityEngine::Shader* _get_k_ShaderRef_MobileBitmap();
+    static ::UnityEngine::Shader* _get_k_ShaderRef_MobileBitmap();
     // Set static field: static private UnityEngine.Shader k_ShaderRef_MobileBitmap
-    static void _set_k_ShaderRef_MobileBitmap(UnityEngine::Shader* value);
+    static void _set_k_ShaderRef_MobileBitmap(::UnityEngine::Shader* value);
     // static UnityEngine.Shader get_ShaderRef_MobileSDF()
     // Offset: 0x14059BC
-    static UnityEngine::Shader* get_ShaderRef_MobileSDF();
+    static ::UnityEngine::Shader* get_ShaderRef_MobileSDF();
     // static UnityEngine.Shader get_ShaderRef_MobileBitmap()
     // Offset: 0x1405AC8
-    static UnityEngine::Shader* get_ShaderRef_MobileBitmap();
+    static ::UnityEngine::Shader* get_ShaderRef_MobileBitmap();
     // static private System.Void .cctor()
     // Offset: 0x1405BD4
     static void _cctor();
@@ -301,19 +301,19 @@ namespace TMPro {
     static void GetShaderPropertyIDs();
     // static public System.Void UpdateShaderRatios(UnityEngine.Material mat)
     // Offset: 0x14064CC
-    static void UpdateShaderRatios(UnityEngine::Material* mat);
+    static void UpdateShaderRatios(::UnityEngine::Material* mat);
     // static public UnityEngine.Vector4 GetFontExtent(UnityEngine.Material material)
     // Offset: 0x1406A00
-    static UnityEngine::Vector4 GetFontExtent(UnityEngine::Material* material);
+    static ::UnityEngine::Vector4 GetFontExtent(::UnityEngine::Material* material);
     // static public System.Boolean IsMaskingEnabled(UnityEngine.Material material)
     // Offset: 0x1406A60
-    static bool IsMaskingEnabled(UnityEngine::Material* material);
+    static bool IsMaskingEnabled(::UnityEngine::Material* material);
     // static public System.Single GetPadding(UnityEngine.Material material, System.Boolean enableExtraPadding, System.Boolean isBold)
     // Offset: 0x1406C14
-    static float GetPadding(UnityEngine::Material* material, bool enableExtraPadding, bool isBold);
+    static float GetPadding(::UnityEngine::Material* material, bool enableExtraPadding, bool isBold);
     // static public System.Single GetPadding(UnityEngine.Material[] materials, System.Boolean enableExtraPadding, System.Boolean isBold)
     // Offset: 0x14074E0
-    static float GetPadding(::ArrayW<UnityEngine::Material*> materials, bool enableExtraPadding, bool isBold);
+    static float GetPadding(::ArrayW<::UnityEngine::Material*> materials, bool enableExtraPadding, bool isBold);
   }; // TMPro.ShaderUtilities
   #pragma pack(pop)
 }
@@ -321,7 +321,7 @@ namespace TMPro {
 // Writing MetadataGetter for method: TMPro::ShaderUtilities::get_ShaderRef_MobileSDF
 // Il2CppName: get_ShaderRef_MobileSDF
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Shader* (*)()>(&TMPro::ShaderUtilities::get_ShaderRef_MobileSDF)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Shader* (*)()>(&TMPro::ShaderUtilities::get_ShaderRef_MobileSDF)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::ShaderUtilities*), "get_ShaderRef_MobileSDF", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -329,7 +329,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: TMPro::ShaderUtilities::get_ShaderRef_MobileBitmap
 // Il2CppName: get_ShaderRef_MobileBitmap
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Shader* (*)()>(&TMPro::ShaderUtilities::get_ShaderRef_MobileBitmap)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Shader* (*)()>(&TMPro::ShaderUtilities::get_ShaderRef_MobileBitmap)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::ShaderUtilities*), "get_ShaderRef_MobileBitmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -353,7 +353,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: TMPro::ShaderUtilities::UpdateShaderRatios
 // Il2CppName: UpdateShaderRatios
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Material*)>(&TMPro::ShaderUtilities::UpdateShaderRatios)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Material*)>(&TMPro::ShaderUtilities::UpdateShaderRatios)> {
   static const MethodInfo* get() {
     static auto* mat = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::ShaderUtilities*), "UpdateShaderRatios", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mat});
@@ -362,7 +362,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: TMPro::ShaderUtilities::GetFontExtent
 // Il2CppName: GetFontExtent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (*)(UnityEngine::Material*)>(&TMPro::ShaderUtilities::GetFontExtent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (*)(::UnityEngine::Material*)>(&TMPro::ShaderUtilities::GetFontExtent)> {
   static const MethodInfo* get() {
     static auto* material = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::ShaderUtilities*), "GetFontExtent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{material});
@@ -371,7 +371,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: TMPro::ShaderUtilities::IsMaskingEnabled
 // Il2CppName: IsMaskingEnabled
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Material*)>(&TMPro::ShaderUtilities::IsMaskingEnabled)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Material*)>(&TMPro::ShaderUtilities::IsMaskingEnabled)> {
   static const MethodInfo* get() {
     static auto* material = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::ShaderUtilities*), "IsMaskingEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{material});
@@ -380,7 +380,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: TMPro::ShaderUtilities::GetPadding
 // Il2CppName: GetPadding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::Material*, bool, bool)>(&TMPro::ShaderUtilities::GetPadding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::UnityEngine::Material*, bool, bool)>(&TMPro::ShaderUtilities::GetPadding)> {
   static const MethodInfo* get() {
     static auto* material = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
     static auto* enableExtraPadding = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -391,7 +391,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(U
 // Writing MetadataGetter for method: TMPro::ShaderUtilities::GetPadding
 // Il2CppName: GetPadding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::ArrayW<UnityEngine::Material*>, bool, bool)>(&TMPro::ShaderUtilities::GetPadding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::ArrayW<::UnityEngine::Material*>, bool, bool)>(&TMPro::ShaderUtilities::GetPadding)> {
   static const MethodInfo* get() {
     static auto* materials = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Material"), 1)->byval_arg;
     static auto* enableExtraPadding = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

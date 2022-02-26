@@ -28,8 +28,8 @@ namespace Oculus::Platform {
   class Media;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Media);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Media*, "Oculus.Platform", "Media");
+NEED_NO_BOX(::Oculus::Platform::Media);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Media*, "Oculus.Platform", "Media");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x10
@@ -40,7 +40,7 @@ namespace Oculus::Platform {
     public:
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.ShareMediaResult> ShareToFacebook(System.String postTextSuggestion, System.String filePath, Oculus.Platform.MediaContentType contentType)
     // Offset: 0x195EF60
-    static Oculus::Platform::Request_1<Oculus::Platform::Models::ShareMediaResult*>* ShareToFacebook(::StringW postTextSuggestion, ::StringW filePath, Oculus::Platform::MediaContentType contentType);
+    static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ShareMediaResult*>* ShareToFacebook(::StringW postTextSuggestion, ::StringW filePath, ::Oculus::Platform::MediaContentType contentType);
   }; // Oculus.Platform.Media
   #pragma pack(pop)
 }
@@ -48,7 +48,7 @@ namespace Oculus::Platform {
 // Writing MetadataGetter for method: Oculus::Platform::Media::ShareToFacebook
 // Il2CppName: ShareToFacebook
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::ShareMediaResult*>* (*)(::StringW, ::StringW, Oculus::Platform::MediaContentType)>(&Oculus::Platform::Media::ShareToFacebook)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::ShareMediaResult*>* (*)(::StringW, ::StringW, ::Oculus::Platform::MediaContentType)>(&Oculus::Platform::Media::ShareToFacebook)> {
   static const MethodInfo* get() {
     static auto* postTextSuggestion = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* filePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

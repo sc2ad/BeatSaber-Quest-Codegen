@@ -34,8 +34,8 @@ namespace GlobalNamespace {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0*, "", "BeatmapLevelDataLoaderSO/<>c__DisplayClass6_0");
+NEED_NO_BOX(::GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0*, "", "BeatmapLevelDataLoaderSO/<>c__DisplayClass6_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x28
@@ -57,9 +57,9 @@ namespace GlobalNamespace {
     // public UnityEngine.AssetBundleCreateRequest asetBundleCreateRequest
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::AssetBundleCreateRequest* asetBundleCreateRequest;
+    ::UnityEngine::AssetBundleCreateRequest* asetBundleCreateRequest;
     // Field size check
-    static_assert(sizeof(UnityEngine::AssetBundleCreateRequest*) == 0x8);
+    static_assert(sizeof(::UnityEngine::AssetBundleCreateRequest*) == 0x8);
     // public System.String levelDataAssetName
     // Size: 0x8
     // Offset: 0x18
@@ -69,38 +69,38 @@ namespace GlobalNamespace {
     // public System.Threading.Tasks.TaskCompletionSource`1<BeatmapLevelDataSO> taskSource
     // Size: 0x8
     // Offset: 0x20
-    System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::BeatmapLevelDataSO*>* taskSource;
+    ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::BeatmapLevelDataSO*>* taskSource;
     // Field size check
-    static_assert(sizeof(System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::BeatmapLevelDataSO*>*) == 0x8);
+    static_assert(sizeof(::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::BeatmapLevelDataSO*>*) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.AssetBundleCreateRequest asetBundleCreateRequest
-    UnityEngine::AssetBundleCreateRequest*& dyn_asetBundleCreateRequest();
+    ::UnityEngine::AssetBundleCreateRequest*& dyn_asetBundleCreateRequest();
     // Get instance field reference: public System.String levelDataAssetName
     ::StringW& dyn_levelDataAssetName();
     // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<BeatmapLevelDataSO> taskSource
-    System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::BeatmapLevelDataSO*>*& dyn_taskSource();
+    ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::BeatmapLevelDataSO*>*& dyn_taskSource();
     // System.Void <LoadBeatmalLevelDataAsync>b__0(UnityEngine.AsyncOperation asyncOperation)
     // Offset: 0x14BF64C
-    void $LoadBeatmalLevelDataAsync$b__0(UnityEngine::AsyncOperation* asyncOperation);
+    void $LoadBeatmalLevelDataAsync$b__0(::UnityEngine::AsyncOperation* asyncOperation);
     // public System.Void .ctor()
     // Offset: 0x14BF644
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0*, creationType>()));
     }
   }; // BeatmapLevelDataLoaderSO/<>c__DisplayClass6_0
   #pragma pack(pop)
-  static check_size<sizeof(BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0), 32 + sizeof(System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::BeatmapLevelDataSO*>*)> __GlobalNamespace_BeatmapLevelDataLoaderSO_$$c__DisplayClass6_0SizeCheck;
+  static check_size<sizeof(BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0), 32 + sizeof(::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::BeatmapLevelDataSO*>*)> __GlobalNamespace_BeatmapLevelDataLoaderSO_$$c__DisplayClass6_0SizeCheck;
   static_assert(sizeof(BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0::$LoadBeatmalLevelDataAsync$b__0
 // Il2CppName: <LoadBeatmalLevelDataAsync>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0::*)(UnityEngine::AsyncOperation*)>(&GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0::$LoadBeatmalLevelDataAsync$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0::*)(::UnityEngine::AsyncOperation*)>(&GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0::$LoadBeatmalLevelDataAsync$b__0)> {
   static const MethodInfo* get() {
     static auto* asyncOperation = &::il2cpp_utils::GetClassFromName("UnityEngine", "AsyncOperation")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0*), "<LoadBeatmalLevelDataAsync>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asyncOperation});

@@ -25,8 +25,8 @@ namespace Zenject::Internal {
   class LookupId;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::Internal::LookupId);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::LookupId*, "Zenject.Internal", "LookupId");
+NEED_NO_BOX(::Zenject::Internal::LookupId);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::Internal::LookupId*, "Zenject.Internal", "LookupId");
 // Type namespace: Zenject.Internal
 namespace Zenject::Internal {
   // Size: 0x28
@@ -48,25 +48,25 @@ namespace Zenject::Internal {
     // public Zenject.IProvider Provider
     // Size: 0x8
     // Offset: 0x10
-    Zenject::IProvider* Provider;
+    ::Zenject::IProvider* Provider;
     // Field size check
-    static_assert(sizeof(Zenject::IProvider*) == 0x8);
+    static_assert(sizeof(::Zenject::IProvider*) == 0x8);
     // public Zenject.BindingId BindingId
     // Size: 0x10
     // Offset: 0x18
-    Zenject::BindingId BindingId;
+    ::Zenject::BindingId BindingId;
     // Field size check
-    static_assert(sizeof(Zenject::BindingId) == 0x10);
+    static_assert(sizeof(::Zenject::BindingId) == 0x10);
     public:
     // Get instance field reference: public Zenject.IProvider Provider
-    Zenject::IProvider*& dyn_Provider();
+    ::Zenject::IProvider*& dyn_Provider();
     // Get instance field reference: public Zenject.BindingId BindingId
-    Zenject::BindingId& dyn_BindingId();
+    ::Zenject::BindingId& dyn_BindingId();
     // public System.Void .ctor(Zenject.IProvider provider, Zenject.BindingId bindingId)
     // Offset: 0x1B034A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static LookupId* New_ctor(Zenject::IProvider* provider, Zenject::BindingId bindingId) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::Internal::LookupId::.ctor");
+    static LookupId* New_ctor(::Zenject::IProvider* provider, ::Zenject::BindingId bindingId) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Internal::LookupId::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LookupId*, creationType>(provider, bindingId)));
     }
     // public System.Void .ctor()
@@ -75,7 +75,7 @@ namespace Zenject::Internal {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LookupId* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::Internal::LookupId::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Internal::LookupId::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LookupId*, creationType>()));
     }
     // public override System.Int32 GetHashCode()
@@ -85,7 +85,7 @@ namespace Zenject::Internal {
     int GetHashCode();
   }; // Zenject.Internal.LookupId
   #pragma pack(pop)
-  static check_size<sizeof(LookupId), 24 + sizeof(Zenject::BindingId)> __Zenject_Internal_LookupIdSizeCheck;
+  static check_size<sizeof(LookupId), 24 + sizeof(::Zenject::BindingId)> __Zenject_Internal_LookupIdSizeCheck;
   static_assert(sizeof(LookupId) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

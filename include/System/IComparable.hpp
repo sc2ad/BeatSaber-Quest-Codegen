@@ -14,8 +14,8 @@ namespace System {
   class IComparable;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::IComparable);
-DEFINE_IL2CPP_ARG_TYPE(System::IComparable*, "System", "IComparable");
+NEED_NO_BOX(::System::IComparable);
+DEFINE_IL2CPP_ARG_TYPE(::System::IComparable*, "System", "IComparable");
 // Type namespace: System
 namespace System {
   // Size: 0x10

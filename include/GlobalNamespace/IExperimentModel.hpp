@@ -24,8 +24,8 @@ namespace GlobalNamespace {
   class IExperimentModel;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::IExperimentModel);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IExperimentModel*, "", "IExperimentModel");
+NEED_NO_BOX(::GlobalNamespace::IExperimentModel);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IExperimentModel*, "", "IExperimentModel");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -36,10 +36,10 @@ namespace GlobalNamespace {
     public:
     // public System.Threading.Tasks.Task`1<System.Boolean> IsEmployee()
     // Offset: 0xFFFFFFFF
-    System::Threading::Tasks::Task_1<bool>* IsEmployee();
+    ::System::Threading::Tasks::Task_1<bool>* IsEmployee();
     // public System.Threading.Tasks.Task`1<System.Boolean> IsInTest(IExperimentData data)
     // Offset: 0xFFFFFFFF
-    System::Threading::Tasks::Task_1<bool>* IsInTest(GlobalNamespace::IExperimentData* data);
+    ::System::Threading::Tasks::Task_1<bool>* IsInTest(::GlobalNamespace::IExperimentData* data);
   }; // IExperimentModel
   #pragma pack(pop)
 }
@@ -47,7 +47,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::IExperimentModel::IsEmployee
 // Il2CppName: IsEmployee
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<bool>* (GlobalNamespace::IExperimentModel::*)()>(&GlobalNamespace::IExperimentModel::IsEmployee)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<bool>* (GlobalNamespace::IExperimentModel::*)()>(&GlobalNamespace::IExperimentModel::IsEmployee)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IExperimentModel*), "IsEmployee", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -55,7 +55,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: GlobalNamespace::IExperimentModel::IsInTest
 // Il2CppName: IsInTest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<bool>* (GlobalNamespace::IExperimentModel::*)(GlobalNamespace::IExperimentData*)>(&GlobalNamespace::IExperimentModel::IsInTest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<bool>* (GlobalNamespace::IExperimentModel::*)(::GlobalNamespace::IExperimentData*)>(&GlobalNamespace::IExperimentModel::IsInTest)> {
   static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("", "IExperimentData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IExperimentModel*), "IsInTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});

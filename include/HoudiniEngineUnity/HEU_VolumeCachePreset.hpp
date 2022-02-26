@@ -30,8 +30,8 @@ namespace HoudiniEngineUnity {
   class HEU_VolumeCachePreset;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_VolumeCachePreset);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_VolumeCachePreset*, "HoudiniEngineUnity", "HEU_VolumeCachePreset");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_VolumeCachePreset);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_VolumeCachePreset*, "HoudiniEngineUnity", "HEU_VolumeCachePreset");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x3C
@@ -72,9 +72,9 @@ namespace HoudiniEngineUnity {
     // public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_VolumeLayerPreset> _volumeLayersPresets
     // Size: 0x8
     // Offset: 0x28
-    System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeLayerPreset*>* volumeLayersPresets;
+    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeLayerPreset*>* volumeLayersPresets;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeLayerPreset*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeLayerPreset*>*) == 0x8);
     // [OptionalFieldAttribute] Offset: 0x126CDC0
     // public System.String _terrainDataPath
     // Size: 0x8
@@ -97,7 +97,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Boolean _uiExpanded
     bool& dyn__uiExpanded();
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_VolumeLayerPreset> _volumeLayersPresets
-    System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeLayerPreset*>*& dyn__volumeLayersPresets();
+    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeLayerPreset*>*& dyn__volumeLayersPresets();
     // Get instance field reference: public System.String _terrainDataPath
     ::StringW& dyn__terrainDataPath();
     // Get instance field reference: public System.Int32 _tile
@@ -108,7 +108,7 @@ namespace HoudiniEngineUnity {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_VolumeCachePreset* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_VolumeCachePreset::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_VolumeCachePreset::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_VolumeCachePreset*, creationType>()));
     }
   }; // HoudiniEngineUnity.HEU_VolumeCachePreset

@@ -20,8 +20,8 @@ namespace GlobalNamespace {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::CampaignFlowCoordinator::$$c__DisplayClass20_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CampaignFlowCoordinator::$$c__DisplayClass20_0*, "", "CampaignFlowCoordinator/<>c__DisplayClass20_0");
+NEED_NO_BOX(::GlobalNamespace::CampaignFlowCoordinator::$$c__DisplayClass20_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CampaignFlowCoordinator::$$c__DisplayClass20_0*, "", "CampaignFlowCoordinator/<>c__DisplayClass20_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -43,20 +43,20 @@ namespace GlobalNamespace {
     // public CampaignFlowCoordinator <>4__this
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::CampaignFlowCoordinator* $$4__this;
+    ::GlobalNamespace::CampaignFlowCoordinator* $$4__this;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::CampaignFlowCoordinator*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::CampaignFlowCoordinator*) == 0x8);
     // public MissionHelpViewController viewController
     // Size: 0x8
     // Offset: 0x18
-    GlobalNamespace::MissionHelpViewController* viewController;
+    ::GlobalNamespace::MissionHelpViewController* viewController;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::MissionHelpViewController*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::MissionHelpViewController*) == 0x8);
     public:
     // Get instance field reference: public CampaignFlowCoordinator <>4__this
-    GlobalNamespace::CampaignFlowCoordinator*& dyn_$$4__this();
+    ::GlobalNamespace::CampaignFlowCoordinator*& dyn_$$4__this();
     // Get instance field reference: public MissionHelpViewController viewController
-    GlobalNamespace::MissionHelpViewController*& dyn_viewController();
+    ::GlobalNamespace::MissionHelpViewController*& dyn_viewController();
     // System.Void <HandleMissionHelpViewControllerDidFinish>b__0()
     // Offset: 0x13BAB80
     void $HandleMissionHelpViewControllerDidFinish$b__0();
@@ -66,12 +66,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CampaignFlowCoordinator::$$c__DisplayClass20_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CampaignFlowCoordinator::$$c__DisplayClass20_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CampaignFlowCoordinator::$$c__DisplayClass20_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CampaignFlowCoordinator::$$c__DisplayClass20_0*, creationType>()));
     }
   }; // CampaignFlowCoordinator/<>c__DisplayClass20_0
   #pragma pack(pop)
-  static check_size<sizeof(CampaignFlowCoordinator::$$c__DisplayClass20_0), 24 + sizeof(GlobalNamespace::MissionHelpViewController*)> __GlobalNamespace_CampaignFlowCoordinator_$$c__DisplayClass20_0SizeCheck;
+  static check_size<sizeof(CampaignFlowCoordinator::$$c__DisplayClass20_0), 24 + sizeof(::GlobalNamespace::MissionHelpViewController*)> __GlobalNamespace_CampaignFlowCoordinator_$$c__DisplayClass20_0SizeCheck;
   static_assert(sizeof(CampaignFlowCoordinator::$$c__DisplayClass20_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

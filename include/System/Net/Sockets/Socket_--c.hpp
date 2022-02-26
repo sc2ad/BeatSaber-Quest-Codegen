@@ -24,8 +24,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::Sockets::Socket::$$c);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::Socket::$$c*, "System.Net.Sockets", "Socket/<>c");
+NEED_NO_BOX(::System::Net::Sockets::Socket::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::Sockets::Socket::$$c*, "System.Net.Sockets", "Socket/<>c");
 // Type namespace: System.Net.Sockets
 namespace System::Net::Sockets {
   // Size: 0x10
@@ -36,71 +36,71 @@ namespace System::Net::Sockets {
   class Socket::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly System.Net.Sockets.Socket/System.Net.Sockets.<>c <>9
-    static System::Net::Sockets::Socket::$$c* _get_$$9();
+    static ::System::Net::Sockets::Socket::$$c* _get_$$9();
     // Set static field: static public readonly System.Net.Sockets.Socket/System.Net.Sockets.<>c <>9
-    static void _set_$$9(System::Net::Sockets::Socket::$$c* value);
+    static void _set_$$9(::System::Net::Sockets::Socket::$$c* value);
     // Get static field: static public System.IOAsyncCallback <>9__241_0
-    static System::IOAsyncCallback* _get_$$9__241_0();
+    static ::System::IOAsyncCallback* _get_$$9__241_0();
     // Set static field: static public System.IOAsyncCallback <>9__241_0
-    static void _set_$$9__241_0(System::IOAsyncCallback* value);
+    static void _set_$$9__241_0(::System::IOAsyncCallback* value);
     // static private System.Void .cctor()
     // Offset: 0x1CAF6AC
     static void _cctor();
     // System.Void <BeginSend>b__241_0(System.IOAsyncResult s)
     // Offset: 0x1CAF718
-    void $BeginSend$b__241_0(System::IOAsyncResult* s);
+    void $BeginSend$b__241_0(::System::IOAsyncResult* s);
     // System.Void <.cctor>b__309_0(System.IAsyncResult ares)
     // Offset: 0x1CAF7AC
-    void $_cctor$b__309_0(System::IAsyncResult* ares);
+    void $_cctor$b__309_0(::System::IAsyncResult* ares);
     // System.Void <.cctor>b__309_1(System.IOAsyncResult ares)
     // Offset: 0x1CAFA74
-    void $_cctor$b__309_1(System::IOAsyncResult* ares);
+    void $_cctor$b__309_1(::System::IOAsyncResult* ares);
     // System.Void <.cctor>b__309_2(System.IOAsyncResult ares)
     // Offset: 0x1CAFBAC
-    void $_cctor$b__309_2(System::IOAsyncResult* ares);
+    void $_cctor$b__309_2(::System::IOAsyncResult* ares);
     // System.Void <.cctor>b__309_3(System.IAsyncResult ares)
     // Offset: 0x1CAFDC8
-    void $_cctor$b__309_3(System::IAsyncResult* ares);
+    void $_cctor$b__309_3(::System::IAsyncResult* ares);
     // System.Void <.cctor>b__309_4(System.IOAsyncResult ares)
     // Offset: 0x1CB000C
-    void $_cctor$b__309_4(System::IOAsyncResult* ares);
+    void $_cctor$b__309_4(::System::IOAsyncResult* ares);
     // System.Void <.cctor>b__309_5(System.IAsyncResult ares)
     // Offset: 0x1CB047C
-    void $_cctor$b__309_5(System::IAsyncResult* ares);
+    void $_cctor$b__309_5(::System::IAsyncResult* ares);
     // System.Void <.cctor>b__309_6(System.IOAsyncResult ares)
     // Offset: 0x1CB06C0
-    void $_cctor$b__309_6(System::IOAsyncResult* ares);
+    void $_cctor$b__309_6(::System::IOAsyncResult* ares);
     // System.Void <.cctor>b__309_7(System.IAsyncResult ares)
     // Offset: 0x1CB07C8
-    void $_cctor$b__309_7(System::IAsyncResult* ares);
+    void $_cctor$b__309_7(::System::IAsyncResult* ares);
     // System.Void <.cctor>b__309_8(System.IOAsyncResult ares)
     // Offset: 0x1CB0A14
-    void $_cctor$b__309_8(System::IOAsyncResult* ares);
+    void $_cctor$b__309_8(::System::IOAsyncResult* ares);
     // System.Void <.cctor>b__309_9(System.IOAsyncResult ares)
     // Offset: 0x1CB0BE0
-    void $_cctor$b__309_9(System::IOAsyncResult* ares);
+    void $_cctor$b__309_9(::System::IOAsyncResult* ares);
     // System.Void <.cctor>b__309_10(System.IAsyncResult ares)
     // Offset: 0x1CB0CF4
-    void $_cctor$b__309_10(System::IAsyncResult* ares);
+    void $_cctor$b__309_10(::System::IAsyncResult* ares);
     // System.Void <.cctor>b__309_11(System.IOAsyncResult ares)
     // Offset: 0x1CB0F44
-    void $_cctor$b__309_11(System::IOAsyncResult* ares);
+    void $_cctor$b__309_11(::System::IOAsyncResult* ares);
     // System.Void <.cctor>b__309_12(System.IAsyncResult ares)
     // Offset: 0x1CB10A4
-    void $_cctor$b__309_12(System::IAsyncResult* ares);
+    void $_cctor$b__309_12(::System::IAsyncResult* ares);
     // System.Void <.cctor>b__309_13(System.IOAsyncResult ares)
     // Offset: 0x1CB12F0
-    void $_cctor$b__309_13(System::IOAsyncResult* ares);
+    void $_cctor$b__309_13(::System::IOAsyncResult* ares);
     // System.Void <.cctor>b__309_14(System.IAsyncResult ares)
     // Offset: 0x1CB1404
-    void $_cctor$b__309_14(System::IAsyncResult* ares);
+    void $_cctor$b__309_14(::System::IAsyncResult* ares);
     // public System.Void .ctor()
     // Offset: 0x1CAF710
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Socket::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Sockets::Socket::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Sockets::Socket::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Socket::$$c*, creationType>()));
     }
   }; // System.Net.Sockets.Socket/System.Net.Sockets.<>c
@@ -118,7 +118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::$$c::$BeginSend$b__241_0
 // Il2CppName: <BeginSend>b__241_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::$$c::*)(System::IOAsyncResult*)>(&System::Net::Sockets::Socket::$$c::$BeginSend$b__241_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::$$c::*)(::System::IOAsyncResult*)>(&System::Net::Sockets::Socket::$$c::$BeginSend$b__241_0)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "IOAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket::$$c*), "<BeginSend>b__241_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
@@ -127,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::$$c::$_cctor$b__309_0
 // Il2CppName: <.cctor>b__309_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::$$c::*)(System::IAsyncResult*)>(&System::Net::Sockets::Socket::$$c::$_cctor$b__309_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::$$c::*)(::System::IAsyncResult*)>(&System::Net::Sockets::Socket::$$c::$_cctor$b__309_0)> {
   static const MethodInfo* get() {
     static auto* ares = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket::$$c*), "<.cctor>b__309_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ares});
@@ -136,7 +136,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::$$c::$_cctor$b__309_1
 // Il2CppName: <.cctor>b__309_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::$$c::*)(System::IOAsyncResult*)>(&System::Net::Sockets::Socket::$$c::$_cctor$b__309_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::$$c::*)(::System::IOAsyncResult*)>(&System::Net::Sockets::Socket::$$c::$_cctor$b__309_1)> {
   static const MethodInfo* get() {
     static auto* ares = &::il2cpp_utils::GetClassFromName("System", "IOAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket::$$c*), "<.cctor>b__309_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ares});
@@ -145,7 +145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::$$c::$_cctor$b__309_2
 // Il2CppName: <.cctor>b__309_2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::$$c::*)(System::IOAsyncResult*)>(&System::Net::Sockets::Socket::$$c::$_cctor$b__309_2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::$$c::*)(::System::IOAsyncResult*)>(&System::Net::Sockets::Socket::$$c::$_cctor$b__309_2)> {
   static const MethodInfo* get() {
     static auto* ares = &::il2cpp_utils::GetClassFromName("System", "IOAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket::$$c*), "<.cctor>b__309_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ares});
@@ -154,7 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::$$c::$_cctor$b__309_3
 // Il2CppName: <.cctor>b__309_3
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::$$c::*)(System::IAsyncResult*)>(&System::Net::Sockets::Socket::$$c::$_cctor$b__309_3)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::$$c::*)(::System::IAsyncResult*)>(&System::Net::Sockets::Socket::$$c::$_cctor$b__309_3)> {
   static const MethodInfo* get() {
     static auto* ares = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket::$$c*), "<.cctor>b__309_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ares});
@@ -163,7 +163,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::$$c::$_cctor$b__309_4
 // Il2CppName: <.cctor>b__309_4
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::$$c::*)(System::IOAsyncResult*)>(&System::Net::Sockets::Socket::$$c::$_cctor$b__309_4)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::$$c::*)(::System::IOAsyncResult*)>(&System::Net::Sockets::Socket::$$c::$_cctor$b__309_4)> {
   static const MethodInfo* get() {
     static auto* ares = &::il2cpp_utils::GetClassFromName("System", "IOAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket::$$c*), "<.cctor>b__309_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ares});
@@ -172,7 +172,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::$$c::$_cctor$b__309_5
 // Il2CppName: <.cctor>b__309_5
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::$$c::*)(System::IAsyncResult*)>(&System::Net::Sockets::Socket::$$c::$_cctor$b__309_5)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::$$c::*)(::System::IAsyncResult*)>(&System::Net::Sockets::Socket::$$c::$_cctor$b__309_5)> {
   static const MethodInfo* get() {
     static auto* ares = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket::$$c*), "<.cctor>b__309_5", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ares});
@@ -181,7 +181,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::$$c::$_cctor$b__309_6
 // Il2CppName: <.cctor>b__309_6
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::$$c::*)(System::IOAsyncResult*)>(&System::Net::Sockets::Socket::$$c::$_cctor$b__309_6)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::$$c::*)(::System::IOAsyncResult*)>(&System::Net::Sockets::Socket::$$c::$_cctor$b__309_6)> {
   static const MethodInfo* get() {
     static auto* ares = &::il2cpp_utils::GetClassFromName("System", "IOAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket::$$c*), "<.cctor>b__309_6", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ares});
@@ -190,7 +190,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::$$c::$_cctor$b__309_7
 // Il2CppName: <.cctor>b__309_7
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::$$c::*)(System::IAsyncResult*)>(&System::Net::Sockets::Socket::$$c::$_cctor$b__309_7)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::$$c::*)(::System::IAsyncResult*)>(&System::Net::Sockets::Socket::$$c::$_cctor$b__309_7)> {
   static const MethodInfo* get() {
     static auto* ares = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket::$$c*), "<.cctor>b__309_7", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ares});
@@ -199,7 +199,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::$$c::$_cctor$b__309_8
 // Il2CppName: <.cctor>b__309_8
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::$$c::*)(System::IOAsyncResult*)>(&System::Net::Sockets::Socket::$$c::$_cctor$b__309_8)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::$$c::*)(::System::IOAsyncResult*)>(&System::Net::Sockets::Socket::$$c::$_cctor$b__309_8)> {
   static const MethodInfo* get() {
     static auto* ares = &::il2cpp_utils::GetClassFromName("System", "IOAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket::$$c*), "<.cctor>b__309_8", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ares});
@@ -208,7 +208,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::$$c::$_cctor$b__309_9
 // Il2CppName: <.cctor>b__309_9
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::$$c::*)(System::IOAsyncResult*)>(&System::Net::Sockets::Socket::$$c::$_cctor$b__309_9)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::$$c::*)(::System::IOAsyncResult*)>(&System::Net::Sockets::Socket::$$c::$_cctor$b__309_9)> {
   static const MethodInfo* get() {
     static auto* ares = &::il2cpp_utils::GetClassFromName("System", "IOAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket::$$c*), "<.cctor>b__309_9", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ares});
@@ -217,7 +217,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::$$c::$_cctor$b__309_10
 // Il2CppName: <.cctor>b__309_10
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::$$c::*)(System::IAsyncResult*)>(&System::Net::Sockets::Socket::$$c::$_cctor$b__309_10)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::$$c::*)(::System::IAsyncResult*)>(&System::Net::Sockets::Socket::$$c::$_cctor$b__309_10)> {
   static const MethodInfo* get() {
     static auto* ares = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket::$$c*), "<.cctor>b__309_10", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ares});
@@ -226,7 +226,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::$$c::$_cctor$b__309_11
 // Il2CppName: <.cctor>b__309_11
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::$$c::*)(System::IOAsyncResult*)>(&System::Net::Sockets::Socket::$$c::$_cctor$b__309_11)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::$$c::*)(::System::IOAsyncResult*)>(&System::Net::Sockets::Socket::$$c::$_cctor$b__309_11)> {
   static const MethodInfo* get() {
     static auto* ares = &::il2cpp_utils::GetClassFromName("System", "IOAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket::$$c*), "<.cctor>b__309_11", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ares});
@@ -235,7 +235,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::$$c::$_cctor$b__309_12
 // Il2CppName: <.cctor>b__309_12
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::$$c::*)(System::IAsyncResult*)>(&System::Net::Sockets::Socket::$$c::$_cctor$b__309_12)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::$$c::*)(::System::IAsyncResult*)>(&System::Net::Sockets::Socket::$$c::$_cctor$b__309_12)> {
   static const MethodInfo* get() {
     static auto* ares = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket::$$c*), "<.cctor>b__309_12", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ares});
@@ -244,7 +244,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::$$c::$_cctor$b__309_13
 // Il2CppName: <.cctor>b__309_13
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::$$c::*)(System::IOAsyncResult*)>(&System::Net::Sockets::Socket::$$c::$_cctor$b__309_13)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::$$c::*)(::System::IOAsyncResult*)>(&System::Net::Sockets::Socket::$$c::$_cctor$b__309_13)> {
   static const MethodInfo* get() {
     static auto* ares = &::il2cpp_utils::GetClassFromName("System", "IOAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket::$$c*), "<.cctor>b__309_13", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ares});
@@ -253,7 +253,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::$$c::$_cctor$b__309_14
 // Il2CppName: <.cctor>b__309_14
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::$$c::*)(System::IAsyncResult*)>(&System::Net::Sockets::Socket::$$c::$_cctor$b__309_14)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::$$c::*)(::System::IAsyncResult*)>(&System::Net::Sockets::Socket::$$c::$_cctor$b__309_14)> {
   static const MethodInfo* get() {
     static auto* ares = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket::$$c*), "<.cctor>b__309_14", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ares});

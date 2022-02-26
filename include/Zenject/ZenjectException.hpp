@@ -19,8 +19,8 @@ namespace Zenject {
   class ZenjectException;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::ZenjectException);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectException*, "Zenject", "ZenjectException");
+NEED_NO_BOX(::Zenject::ZenjectException);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::ZenjectException*, "Zenject", "ZenjectException");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x88
@@ -29,7 +29,7 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   // [DebuggerStepThroughAttribute] Offset: FFFFFFFF
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
-  class ZenjectException : public System::Exception {
+  class ZenjectException : public ::System::Exception {
     public:
     // public System.Void .ctor(System.String message)
     // Offset: 0x2472054
@@ -37,7 +37,7 @@ namespace Zenject {
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ZenjectException* New_ctor(::StringW message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ZenjectException::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenjectException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ZenjectException*, creationType>(message)));
     }
     // public System.Void .ctor(System.String message, System.Exception innerException)
@@ -45,8 +45,8 @@ namespace Zenject {
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception innerException)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ZenjectException* New_ctor(::StringW message, System::Exception* innerException) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ZenjectException::.ctor");
+    static ZenjectException* New_ctor(::StringW message, ::System::Exception* innerException) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ZenjectException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ZenjectException*, creationType>(message, innerException)));
     }
   }; // Zenject.ZenjectException

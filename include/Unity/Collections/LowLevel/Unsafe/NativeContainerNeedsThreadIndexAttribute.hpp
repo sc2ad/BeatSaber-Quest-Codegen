@@ -14,8 +14,8 @@ namespace Unity::Collections::LowLevel::Unsafe {
   class NativeContainerNeedsThreadIndexAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Unity::Collections::LowLevel::Unsafe::NativeContainerNeedsThreadIndexAttribute);
-DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::LowLevel::Unsafe::NativeContainerNeedsThreadIndexAttribute*, "Unity.Collections.LowLevel.Unsafe", "NativeContainerNeedsThreadIndexAttribute");
+NEED_NO_BOX(::Unity::Collections::LowLevel::Unsafe::NativeContainerNeedsThreadIndexAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::Unity::Collections::LowLevel::Unsafe::NativeContainerNeedsThreadIndexAttribute*, "Unity.Collections.LowLevel.Unsafe", "NativeContainerNeedsThreadIndexAttribute");
 // Type namespace: Unity.Collections.LowLevel.Unsafe
 namespace Unity::Collections::LowLevel::Unsafe {
   // Size: 0x10
@@ -25,7 +25,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
   // [AttributeUsageAttribute] Offset: 11A3494
   // [ObsoleteAttribute] Offset: 11A3494
   // [RequiredByNativeCodeAttribute] Offset: 11A3494
-  class NativeContainerNeedsThreadIndexAttribute : public System::Attribute {
+  class NativeContainerNeedsThreadIndexAttribute : public ::System::Attribute {
     public:
   }; // Unity.Collections.LowLevel.Unsafe.NativeContainerNeedsThreadIndexAttribute
   #pragma pack(pop)

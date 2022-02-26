@@ -16,8 +16,8 @@ namespace Mono::Globalization::Unicode {
   class Level2Map;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Globalization::Unicode::Level2Map);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::Level2Map*, "Mono.Globalization.Unicode", "Level2Map");
+NEED_NO_BOX(::Mono::Globalization::Unicode::Level2Map);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Globalization::Unicode::Level2Map*, "Mono.Globalization.Unicode", "Level2Map");
 // Type namespace: Mono.Globalization.Unicode
 namespace Mono::Globalization::Unicode {
   // Size: 0x12
@@ -56,7 +56,7 @@ namespace Mono::Globalization::Unicode {
     // Offset: 0x1E66E1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Level2Map* New_ctor(uint8_t source, uint8_t replace) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Globalization::Unicode::Level2Map::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Globalization::Unicode::Level2Map::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Level2Map*, creationType>(source, replace)));
     }
   }; // Mono.Globalization.Unicode.Level2Map

@@ -18,8 +18,8 @@ namespace System::Net::Configuration {
   class ConnectionManagementElementCollection;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::Configuration::ConnectionManagementElementCollection);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::ConnectionManagementElementCollection*, "System.Net.Configuration", "ConnectionManagementElementCollection");
+NEED_NO_BOX(::System::Net::Configuration::ConnectionManagementElementCollection);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::Configuration::ConnectionManagementElementCollection*, "System.Net.Configuration", "ConnectionManagementElementCollection");
 // Type namespace: System.Net.Configuration
 namespace System::Net::Configuration {
   // Size: 0x10
@@ -28,7 +28,7 @@ namespace System::Net::Configuration {
   // [TokenAttribute] Offset: FFFFFFFF
   // [DefaultMemberAttribute] Offset: 119AD80
   // [ConfigurationCollectionAttribute] Offset: FFFFFFFF
-  class ConnectionManagementElementCollection : public System::Configuration::ConfigurationElementCollection {
+  class ConnectionManagementElementCollection : public ::System::Configuration::ConfigurationElementCollection {
     public:
     // public System.Void .ctor()
     // Offset: 0x1AA84D0
@@ -36,7 +36,7 @@ namespace System::Net::Configuration {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConnectionManagementElementCollection* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Configuration::ConnectionManagementElementCollection::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Configuration::ConnectionManagementElementCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConnectionManagementElementCollection*, creationType>()));
     }
   }; // System.Net.Configuration.ConnectionManagementElementCollection

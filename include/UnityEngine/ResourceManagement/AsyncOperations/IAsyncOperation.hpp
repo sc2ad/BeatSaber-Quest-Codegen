@@ -62,8 +62,8 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
   class IAsyncOperation;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*, "UnityEngine.ResourceManagement.AsyncOperations", "IAsyncOperation");
+NEED_NO_BOX(::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*, "UnityEngine.ResourceManagement.AsyncOperations", "IAsyncOperation");
 // Type namespace: UnityEngine.ResourceManagement.AsyncOperations
 namespace UnityEngine::ResourceManagement::AsyncOperations {
   // Size: 0x10
@@ -74,7 +74,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     public:
     // public System.Type get_ResultType()
     // Offset: 0xFFFFFFFF
-    System::Type* get_ResultType();
+    ::System::Type* get_ResultType();
     // public System.Int32 get_Version()
     // Offset: 0xFFFFFFFF
     int get_Version();
@@ -89,37 +89,37 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     float get_PercentComplete();
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationStatus get_Status()
     // Offset: 0xFFFFFFFF
-    UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus get_Status();
+    ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus get_Status();
     // public System.Exception get_OperationException()
     // Offset: 0xFFFFFFFF
-    System::Exception* get_OperationException();
+    ::System::Exception* get_OperationException();
     // public System.Boolean get_IsDone()
     // Offset: 0xFFFFFFFF
     bool get_IsDone();
     // public System.Void set_OnDestroy(System.Action`1<UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation> value)
     // Offset: 0xFFFFFFFF
-    void set_OnDestroy(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* value);
+    void set_OnDestroy(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* value);
     // public System.Boolean get_IsRunning()
     // Offset: 0xFFFFFFFF
     bool get_IsRunning();
     // public System.Threading.Tasks.Task`1<System.Object> get_Task()
     // Offset: 0xFFFFFFFF
-    System::Threading::Tasks::Task_1<::Il2CppObject*>* get_Task();
+    ::System::Threading::Tasks::Task_1<::Il2CppObject*>* get_Task();
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle get_Handle()
     // Offset: 0xFFFFFFFF
-    UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle get_Handle();
+    ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle get_Handle();
     // public System.Void add_CompletedTypeless(System.Action`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> value)
     // Offset: 0xFFFFFFFF
-    void add_CompletedTypeless(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
+    void add_CompletedTypeless(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
     // public System.Void remove_CompletedTypeless(System.Action`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> value)
     // Offset: 0xFFFFFFFF
-    void remove_CompletedTypeless(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
+    void remove_CompletedTypeless(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
     // public System.Void add_Destroyed(System.Action`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> value)
     // Offset: 0xFFFFFFFF
-    void add_Destroyed(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
+    void add_Destroyed(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
     // public System.Void remove_Destroyed(System.Action`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> value)
     // Offset: 0xFFFFFFFF
-    void remove_Destroyed(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
+    void remove_Destroyed(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
     // public System.Object GetResultAsObject()
     // Offset: 0xFFFFFFFF
     ::Il2CppObject* GetResultAsObject();
@@ -131,16 +131,16 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     void IncrementReferenceCount();
     // public UnityEngine.ResourceManagement.AsyncOperations.DownloadStatus GetDownloadStatus(System.Collections.Generic.HashSet`1<System.Object> visited)
     // Offset: 0xFFFFFFFF
-    UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus GetDownloadStatus(System::Collections::Generic::HashSet_1<::Il2CppObject*>* visited);
+    ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus GetDownloadStatus(::System::Collections::Generic::HashSet_1<::Il2CppObject*>* visited);
     // public System.Void GetDependencies(System.Collections.Generic.List`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> deps)
     // Offset: 0xFFFFFFFF
-    void GetDependencies(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* deps);
+    void GetDependencies(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* deps);
     // public System.Void InvokeCompletionEvent()
     // Offset: 0xFFFFFFFF
     void InvokeCompletionEvent();
     // public System.Void Start(UnityEngine.ResourceManagement.ResourceManager rm, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle dependency, DelegateList`1<System.Single> updateCallbacks)
     // Offset: 0xFFFFFFFF
-    void Start(UnityEngine::ResourceManagement::ResourceManager* rm, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dependency, GlobalNamespace::DelegateList_1<float>* updateCallbacks);
+    void Start(::UnityEngine::ResourceManagement::ResourceManager* rm, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dependency, ::GlobalNamespace::DelegateList_1<float>* updateCallbacks);
     // public System.Void WaitForCompletion()
     // Offset: 0xFFFFFFFF
     void WaitForCompletion();
@@ -151,7 +151,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::get_ResultType
 // Il2CppName: get_ResultType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::get_ResultType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::get_ResultType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*), "get_ResultType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -191,7 +191,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::get_Status
 // Il2CppName: get_Status
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::get_Status)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::get_Status)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*), "get_Status", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -199,7 +199,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::get_OperationException
 // Il2CppName: get_OperationException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::get_OperationException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::get_OperationException)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*), "get_OperationException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -215,7 +215,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::set_OnDestroy
 // Il2CppName: set_OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>*)>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::set_OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>*)>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::set_OnDestroy)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.AsyncOperations", "IAsyncOperation")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*), "set_OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -232,7 +232,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::get_Task
 // Il2CppName: get_Task
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::Il2CppObject*>* (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::get_Task)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::Il2CppObject*>* (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::get_Task)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*), "get_Task", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -240,7 +240,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::get_Handle
 // Il2CppName: get_Handle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::get_Handle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::get_Handle)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*), "get_Handle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -248,7 +248,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::add_CompletedTypeless
 // Il2CppName: add_CompletedTypeless
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*)>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::add_CompletedTypeless)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*)>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::add_CompletedTypeless)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.AsyncOperations", "AsyncOperationHandle")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*), "add_CompletedTypeless", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -257,7 +257,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::remove_CompletedTypeless
 // Il2CppName: remove_CompletedTypeless
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*)>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::remove_CompletedTypeless)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*)>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::remove_CompletedTypeless)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.AsyncOperations", "AsyncOperationHandle")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*), "remove_CompletedTypeless", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -266,7 +266,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::add_Destroyed
 // Il2CppName: add_Destroyed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*)>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::add_Destroyed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*)>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::add_Destroyed)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.AsyncOperations", "AsyncOperationHandle")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*), "add_Destroyed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -275,7 +275,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::remove_Destroyed
 // Il2CppName: remove_Destroyed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*)>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::remove_Destroyed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*)>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::remove_Destroyed)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.AsyncOperations", "AsyncOperationHandle")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*), "remove_Destroyed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -308,7 +308,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::GetDownloadStatus
 // Il2CppName: GetDownloadStatus
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)(System::Collections::Generic::HashSet_1<::Il2CppObject*>*)>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::GetDownloadStatus)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)(::System::Collections::Generic::HashSet_1<::Il2CppObject*>*)>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::GetDownloadStatus)> {
   static const MethodInfo* get() {
     static auto* visited = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "HashSet`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Object")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*), "GetDownloadStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{visited});
@@ -317,7 +317,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::GetDependencies
 // Il2CppName: GetDependencies
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*)>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::GetDependencies)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*)>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::GetDependencies)> {
   static const MethodInfo* get() {
     static auto* deps = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.AsyncOperations", "AsyncOperationHandle")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*), "GetDependencies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{deps});
@@ -334,7 +334,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)(UnityEngine::ResourceManagement::ResourceManager*, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, GlobalNamespace::DelegateList_1<float>*)>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::*)(::UnityEngine::ResourceManagement::ResourceManager*, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, ::GlobalNamespace::DelegateList_1<float>*)>(&UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation::Start)> {
   static const MethodInfo* get() {
     static auto* rm = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement", "ResourceManager")->byval_arg;
     static auto* dependency = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.AsyncOperations", "AsyncOperationHandle")->byval_arg;

@@ -14,8 +14,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Console::WindowsConsole);
-DEFINE_IL2CPP_ARG_TYPE(System::Console::WindowsConsole*, "System", "Console/WindowsConsole");
+NEED_NO_BOX(::System::Console::WindowsConsole);
+DEFINE_IL2CPP_ARG_TYPE(::System::Console::WindowsConsole*, "System", "Console/WindowsConsole");
 // Type namespace: System
 namespace System {
   // Size: 0x10
@@ -24,16 +24,16 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class Console::WindowsConsole : public ::Il2CppObject {
     public:
-    // Nested type: System::Console::WindowsConsole::WindowsCancelHandler
+    // Nested type: ::System::Console::WindowsConsole::WindowsCancelHandler
     class WindowsCancelHandler;
     // Get static field: static public System.Boolean ctrlHandlerAdded
     static bool _get_ctrlHandlerAdded();
     // Set static field: static public System.Boolean ctrlHandlerAdded
     static void _set_ctrlHandlerAdded(bool value);
     // Get static field: static private System.Console/System.WindowsConsole/System.WindowsCancelHandler cancelHandler
-    static System::Console::WindowsConsole::WindowsCancelHandler* _get_cancelHandler();
+    static ::System::Console::WindowsConsole::WindowsCancelHandler* _get_cancelHandler();
     // Set static field: static private System.Console/System.WindowsConsole/System.WindowsCancelHandler cancelHandler
-    static void _set_cancelHandler(System::Console::WindowsConsole::WindowsCancelHandler* value);
+    static void _set_cancelHandler(::System::Console::WindowsConsole::WindowsCancelHandler* value);
     // static private System.Void .cctor()
     // Offset: 0x1ADB1C8
     static void _cctor();

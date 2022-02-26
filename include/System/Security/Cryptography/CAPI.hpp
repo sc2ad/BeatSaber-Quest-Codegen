@@ -20,8 +20,8 @@ namespace System::Security::Cryptography {
   class CAPI;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Security::Cryptography::CAPI);
-DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::CAPI*, "System.Security.Cryptography", "CAPI");
+NEED_NO_BOX(::System::Security::Cryptography::CAPI);
+DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::CAPI*, "System.Security.Cryptography", "CAPI");
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {
   // Size: 0x10
@@ -32,10 +32,10 @@ namespace System::Security::Cryptography {
     public:
     // static public System.String CryptFindOIDInfoNameFromKey(System.String key, System.Security.Cryptography.OidGroup oidGroup)
     // Offset: 0x1BE773C
-    static ::StringW CryptFindOIDInfoNameFromKey(::StringW key, System::Security::Cryptography::OidGroup oidGroup);
+    static ::StringW CryptFindOIDInfoNameFromKey(::StringW key, ::System::Security::Cryptography::OidGroup oidGroup);
     // static public System.String CryptFindOIDInfoKeyFromName(System.String name, System.Security.Cryptography.OidGroup oidGroup)
     // Offset: 0x1BE7F94
-    static ::StringW CryptFindOIDInfoKeyFromName(::StringW name, System::Security::Cryptography::OidGroup oidGroup);
+    static ::StringW CryptFindOIDInfoKeyFromName(::StringW name, ::System::Security::Cryptography::OidGroup oidGroup);
   }; // System.Security.Cryptography.CAPI
   #pragma pack(pop)
 }
@@ -43,7 +43,7 @@ namespace System::Security::Cryptography {
 // Writing MetadataGetter for method: System::Security::Cryptography::CAPI::CryptFindOIDInfoNameFromKey
 // Il2CppName: CryptFindOIDInfoNameFromKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, System::Security::Cryptography::OidGroup)>(&System::Security::Cryptography::CAPI::CryptFindOIDInfoNameFromKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::System::Security::Cryptography::OidGroup)>(&System::Security::Cryptography::CAPI::CryptFindOIDInfoNameFromKey)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* oidGroup = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography", "OidGroup")->byval_arg;
@@ -53,7 +53,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Security::Cryptography::CAPI::CryptFindOIDInfoKeyFromName
 // Il2CppName: CryptFindOIDInfoKeyFromName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, System::Security::Cryptography::OidGroup)>(&System::Security::Cryptography::CAPI::CryptFindOIDInfoKeyFromName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::System::Security::Cryptography::OidGroup)>(&System::Security::Cryptography::CAPI::CryptFindOIDInfoKeyFromName)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* oidGroup = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography", "OidGroup")->byval_arg;

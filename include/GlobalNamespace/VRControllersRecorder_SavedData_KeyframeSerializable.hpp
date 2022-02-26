@@ -13,8 +13,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::VRControllersRecorder::SavedData::KeyframeSerializable);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorder::SavedData::KeyframeSerializable*, "", "VRControllersRecorder/SavedData/KeyframeSerializable");
+NEED_NO_BOX(::GlobalNamespace::VRControllersRecorder::SavedData::KeyframeSerializable);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::VRControllersRecorder::SavedData::KeyframeSerializable*, "", "VRControllersRecorder/SavedData/KeyframeSerializable");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x68
@@ -215,7 +215,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRControllersRecorder::SavedData::KeyframeSerializable* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::VRControllersRecorder::SavedData::KeyframeSerializable::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VRControllersRecorder::SavedData::KeyframeSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRControllersRecorder::SavedData::KeyframeSerializable*, creationType>()));
     }
   }; // VRControllersRecorder/SavedData/KeyframeSerializable

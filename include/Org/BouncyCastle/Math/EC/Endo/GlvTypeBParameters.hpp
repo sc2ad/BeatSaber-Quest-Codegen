@@ -28,8 +28,8 @@ namespace Org::BouncyCastle::Math::EC::Endo {
   class GlvTypeBParameters;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters*, "Org.BouncyCastle.Math.EC.Endo", "GlvTypeBParameters");
+NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters*, "Org.BouncyCastle.Math.EC.Endo", "GlvTypeBParameters");
 // Type namespace: Org.BouncyCastle.Math.EC.Endo
 namespace Org::BouncyCastle::Math::EC::Endo {
   // Size: 0x28
@@ -50,51 +50,51 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     // protected readonly Org.BouncyCastle.Math.BigInteger m_beta
     // Size: 0x8
     // Offset: 0x10
-    Org::BouncyCastle::Math::BigInteger* m_beta;
+    ::Org::BouncyCastle::Math::BigInteger* m_beta;
     // Field size check
-    static_assert(sizeof(Org::BouncyCastle::Math::BigInteger*) == 0x8);
+    static_assert(sizeof(::Org::BouncyCastle::Math::BigInteger*) == 0x8);
     // protected readonly Org.BouncyCastle.Math.BigInteger m_lambda
     // Size: 0x8
     // Offset: 0x18
-    Org::BouncyCastle::Math::BigInteger* m_lambda;
+    ::Org::BouncyCastle::Math::BigInteger* m_lambda;
     // Field size check
-    static_assert(sizeof(Org::BouncyCastle::Math::BigInteger*) == 0x8);
+    static_assert(sizeof(::Org::BouncyCastle::Math::BigInteger*) == 0x8);
     // protected readonly Org.BouncyCastle.Math.EC.Endo.ScalarSplitParameters m_splitParams
     // Size: 0x8
     // Offset: 0x20
-    Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* m_splitParams;
+    ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* m_splitParams;
     // Field size check
-    static_assert(sizeof(Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*) == 0x8);
+    static_assert(sizeof(::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*) == 0x8);
     public:
     // Get instance field reference: protected readonly Org.BouncyCastle.Math.BigInteger m_beta
-    Org::BouncyCastle::Math::BigInteger*& dyn_m_beta();
+    ::Org::BouncyCastle::Math::BigInteger*& dyn_m_beta();
     // Get instance field reference: protected readonly Org.BouncyCastle.Math.BigInteger m_lambda
-    Org::BouncyCastle::Math::BigInteger*& dyn_m_lambda();
+    ::Org::BouncyCastle::Math::BigInteger*& dyn_m_lambda();
     // Get instance field reference: protected readonly Org.BouncyCastle.Math.EC.Endo.ScalarSplitParameters m_splitParams
-    Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*& dyn_m_splitParams();
+    ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*& dyn_m_splitParams();
     // public Org.BouncyCastle.Math.BigInteger get_Beta()
     // Offset: 0x2694644
-    Org::BouncyCastle::Math::BigInteger* get_Beta();
+    ::Org::BouncyCastle::Math::BigInteger* get_Beta();
     // public Org.BouncyCastle.Math.EC.Endo.ScalarSplitParameters get_SplitParams()
     // Offset: 0x269464C
-    Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* get_SplitParams();
+    ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* get_SplitParams();
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger beta, Org.BouncyCastle.Math.BigInteger lambda, Org.BouncyCastle.Math.EC.Endo.ScalarSplitParameters splitParams)
     // Offset: 0x2694604
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static GlvTypeBParameters* New_ctor(Org::BouncyCastle::Math::BigInteger* beta, Org::BouncyCastle::Math::BigInteger* lambda, Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* splitParams) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::.ctor");
+    static GlvTypeBParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* beta, ::Org::BouncyCastle::Math::BigInteger* lambda, ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* splitParams) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GlvTypeBParameters*, creationType>(beta, lambda, splitParams)));
     }
   }; // Org.BouncyCastle.Math.EC.Endo.GlvTypeBParameters
   #pragma pack(pop)
-  static check_size<sizeof(GlvTypeBParameters), 32 + sizeof(Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*)> __Org_BouncyCastle_Math_EC_Endo_GlvTypeBParametersSizeCheck;
+  static check_size<sizeof(GlvTypeBParameters), 32 + sizeof(::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*)> __Org_BouncyCastle_Math_EC_Endo_GlvTypeBParametersSizeCheck;
   static_assert(sizeof(GlvTypeBParameters) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::get_Beta
 // Il2CppName: get_Beta
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::*)()>(&Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::get_Beta)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::*)()>(&Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::get_Beta)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters*), "get_Beta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -102,7 +102,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::get_SplitParams
 // Il2CppName: get_SplitParams
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* (Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::*)()>(&Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::get_SplitParams)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* (Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::*)()>(&Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::get_SplitParams)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters*), "get_SplitParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -17,8 +17,8 @@ namespace Newtonsoft::Json::Bson {
   class BsonObjectId;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Bson::BsonObjectId);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Bson::BsonObjectId*, "Newtonsoft.Json.Bson", "BsonObjectId");
+NEED_NO_BOX(::Newtonsoft::Json::Bson::BsonObjectId);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Bson::BsonObjectId*, "Newtonsoft.Json.Bson", "BsonObjectId");
 // Type namespace: Newtonsoft.Json.Bson
 namespace Newtonsoft::Json::Bson {
   // Size: 0x18
@@ -57,7 +57,7 @@ namespace Newtonsoft::Json::Bson {
     // Offset: 0x181BA8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BsonObjectId* New_ctor(::ArrayW<uint8_t> value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Bson::BsonObjectId::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Bson::BsonObjectId::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BsonObjectId*, creationType>(value)));
     }
   }; // Newtonsoft.Json.Bson.BsonObjectId

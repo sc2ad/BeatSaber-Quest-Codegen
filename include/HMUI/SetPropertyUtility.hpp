@@ -28,8 +28,8 @@ namespace HMUI {
   class SetPropertyUtility;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HMUI::SetPropertyUtility);
-DEFINE_IL2CPP_ARG_TYPE(HMUI::SetPropertyUtility*, "HMUI", "SetPropertyUtility");
+NEED_NO_BOX(::HMUI::SetPropertyUtility);
+DEFINE_IL2CPP_ARG_TYPE(::HMUI::SetPropertyUtility*, "HMUI", "SetPropertyUtility");
 // Type namespace: HMUI
 namespace HMUI {
   // Size: 0x10
@@ -40,13 +40,13 @@ namespace HMUI {
     public:
     // static public System.Boolean SetColor(ref UnityEngine.Color currentValue, UnityEngine.Color newValue)
     // Offset: 0x16AFA58
-    static bool SetColor(ByRef<UnityEngine::Color> currentValue, UnityEngine::Color newValue);
+    static bool SetColor(ByRef<::UnityEngine::Color> currentValue, ::UnityEngine::Color newValue);
     // static public System.Boolean SetStruct(ref T currentValue, T newValue)
     // Offset: 0xFFFFFFFF
     template<class T>
     static bool SetStruct(ByRef<T> currentValue, T newValue) {
-      static_assert(is_value_type_v<T>);
-      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::SetPropertyUtility::SetStruct");
+      static_assert(std::is_convertible_v<T, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::SetPropertyUtility::SetStruct");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HMUI", "SetPropertyUtility", "SetStruct", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(currentValue), ::il2cpp_utils::ExtractType(newValue)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, byref(currentValue), newValue);
@@ -55,7 +55,7 @@ namespace HMUI {
     // Offset: 0xFFFFFFFF
     template<class T>
     static bool SetClass(ByRef<T> currentValue, T newValue) {
-      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::SetPropertyUtility::SetClass");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::SetPropertyUtility::SetClass");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HMUI", "SetPropertyUtility", "SetClass", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(currentValue), ::il2cpp_utils::ExtractType(newValue)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, byref(currentValue), newValue);
@@ -67,7 +67,7 @@ namespace HMUI {
 // Writing MetadataGetter for method: HMUI::SetPropertyUtility::SetColor
 // Il2CppName: SetColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<UnityEngine::Color>, UnityEngine::Color)>(&HMUI::SetPropertyUtility::SetColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<::UnityEngine::Color>, ::UnityEngine::Color)>(&HMUI::SetPropertyUtility::SetColor)> {
   static const MethodInfo* get() {
     static auto* currentValue = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->this_arg;
     static auto* newValue = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;

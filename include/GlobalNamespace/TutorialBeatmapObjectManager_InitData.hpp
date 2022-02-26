@@ -13,8 +13,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::TutorialBeatmapObjectManager::InitData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialBeatmapObjectManager::InitData*, "", "TutorialBeatmapObjectManager/InitData");
+NEED_NO_BOX(::GlobalNamespace::TutorialBeatmapObjectManager::InitData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TutorialBeatmapObjectManager::InitData*, "", "TutorialBeatmapObjectManager/InitData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x14
@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     // Offset: 0x2AEB394
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TutorialBeatmapObjectManager::InitData* New_ctor(float cutAngleTolerance) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TutorialBeatmapObjectManager::InitData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TutorialBeatmapObjectManager::InitData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TutorialBeatmapObjectManager::InitData*, creationType>(cutAngleTolerance)));
     }
   }; // TutorialBeatmapObjectManager/InitData

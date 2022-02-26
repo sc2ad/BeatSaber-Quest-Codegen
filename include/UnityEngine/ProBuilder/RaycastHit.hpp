@@ -18,8 +18,8 @@ namespace UnityEngine::ProBuilder {
   class RaycastHit;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::RaycastHit);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::RaycastHit*, "UnityEngine.ProBuilder", "RaycastHit");
+NEED_NO_BOX(::UnityEngine::ProBuilder::RaycastHit);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::RaycastHit*, "UnityEngine.ProBuilder", "RaycastHit");
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
   // Size: 0x30
@@ -46,15 +46,15 @@ namespace UnityEngine::ProBuilder {
     // public UnityEngine.Vector3 point
     // Size: 0xC
     // Offset: 0x14
-    UnityEngine::Vector3 point;
+    ::UnityEngine::Vector3 point;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // public UnityEngine.Vector3 normal
     // Size: 0xC
     // Offset: 0x20
-    UnityEngine::Vector3 normal;
+    ::UnityEngine::Vector3 normal;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // public System.Int32 face
     // Size: 0x4
     // Offset: 0x2C
@@ -65,16 +65,16 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: public System.Single distance
     float& dyn_distance();
     // Get instance field reference: public UnityEngine.Vector3 point
-    UnityEngine::Vector3& dyn_point();
+    ::UnityEngine::Vector3& dyn_point();
     // Get instance field reference: public UnityEngine.Vector3 normal
-    UnityEngine::Vector3& dyn_normal();
+    ::UnityEngine::Vector3& dyn_normal();
     // Get instance field reference: public System.Int32 face
     int& dyn_face();
     // public System.Void .ctor(System.Single distance, UnityEngine.Vector3 point, UnityEngine.Vector3 normal, System.Int32 face)
     // Offset: 0x19143AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static RaycastHit* New_ctor(float distance, UnityEngine::Vector3 point, UnityEngine::Vector3 normal, int face) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::RaycastHit::.ctor");
+    static RaycastHit* New_ctor(float distance, ::UnityEngine::Vector3 point, ::UnityEngine::Vector3 normal, int face) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::RaycastHit::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RaycastHit*, creationType>(distance, point, normal, face)));
     }
   }; // UnityEngine.ProBuilder.RaycastHit

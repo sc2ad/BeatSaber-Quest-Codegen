@@ -17,7 +17,7 @@ namespace UnityEngine {
   struct HumanBone;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HumanBone, "UnityEngine", "HumanBone");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::HumanBone, "UnityEngine", "HumanBone");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x3C
@@ -28,7 +28,7 @@ namespace UnityEngine {
   // [NativeTypeAttribute] Offset: 11BF830
   // [NativeHeaderAttribute] Offset: 11BF830
   // [RequiredByNativeCodeAttribute] Offset: 11BF830
-  struct HumanBone/*, public System::ValueType*/ {
+  struct HumanBone/*, public ::System::ValueType*/ {
     public:
     public:
     // private System.String m_BoneName
@@ -47,25 +47,25 @@ namespace UnityEngine {
     // public UnityEngine.HumanLimit limit
     // Size: 0x2C
     // Offset: 0x10
-    UnityEngine::HumanLimit limit;
+    ::UnityEngine::HumanLimit limit;
     // Field size check
-    static_assert(sizeof(UnityEngine::HumanLimit) == 0x2C);
+    static_assert(sizeof(::UnityEngine::HumanLimit) == 0x2C);
     public:
     // Creating value type constructor for type: HumanBone
-    constexpr HumanBone(::StringW m_BoneName_ = {}, ::StringW m_HumanName_ = {}, UnityEngine::HumanLimit limit_ = {}) noexcept : m_BoneName{m_BoneName_}, m_HumanName{m_HumanName_}, limit{limit_} {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    constexpr HumanBone(::StringW m_BoneName_ = {}, ::StringW m_HumanName_ = {}, ::UnityEngine::HumanLimit limit_ = {}) noexcept : m_BoneName{m_BoneName_}, m_HumanName{m_HumanName_}, limit{limit_} {}
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: private System.String m_BoneName
     ::StringW& dyn_m_BoneName();
     // Get instance field reference: private System.String m_HumanName
     ::StringW& dyn_m_HumanName();
     // Get instance field reference: public UnityEngine.HumanLimit limit
-    UnityEngine::HumanLimit& dyn_limit();
+    ::UnityEngine::HumanLimit& dyn_limit();
   }; // UnityEngine.HumanBone
   #pragma pack(pop)
-  static check_size<sizeof(HumanBone), 16 + sizeof(UnityEngine::HumanLimit)> __UnityEngine_HumanBoneSizeCheck;
+  static check_size<sizeof(HumanBone), 16 + sizeof(::UnityEngine::HumanLimit)> __UnityEngine_HumanBoneSizeCheck;
   static_assert(sizeof(HumanBone) == 0x3C);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

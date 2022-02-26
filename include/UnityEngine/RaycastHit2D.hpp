@@ -23,7 +23,7 @@ namespace UnityEngine {
   struct RaycastHit2D;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RaycastHit2D, "UnityEngine", "RaycastHit2D");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::RaycastHit2D, "UnityEngine", "RaycastHit2D");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x24
@@ -34,30 +34,30 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: 11CA528
   // [NativeClassAttribute] Offset: 11CA528
   // [NativeHeaderAttribute] Offset: 11CA528
-  struct RaycastHit2D/*, public System::ValueType*/ {
+  struct RaycastHit2D/*, public ::System::ValueType*/ {
     public:
     public:
     // [NativeNameAttribute] Offset: 0x11CABBC
     // private UnityEngine.Vector2 m_Centroid
     // Size: 0x8
     // Offset: 0x0
-    UnityEngine::Vector2 m_Centroid;
+    ::UnityEngine::Vector2 m_Centroid;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector2) == 0x8);
+    static_assert(sizeof(::UnityEngine::Vector2) == 0x8);
     // [NativeNameAttribute] Offset: 0x11CABF4
     // private UnityEngine.Vector2 m_Point
     // Size: 0x8
     // Offset: 0x8
-    UnityEngine::Vector2 m_Point;
+    ::UnityEngine::Vector2 m_Point;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector2) == 0x8);
+    static_assert(sizeof(::UnityEngine::Vector2) == 0x8);
     // [NativeNameAttribute] Offset: 0x11CAC2C
     // private UnityEngine.Vector2 m_Normal
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::Vector2 m_Normal;
+    ::UnityEngine::Vector2 m_Normal;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector2) == 0x8);
+    static_assert(sizeof(::UnityEngine::Vector2) == 0x8);
     // [NativeNameAttribute] Offset: 0x11CAC64
     // private System.Single m_Distance
     // Size: 0x4
@@ -81,17 +81,17 @@ namespace UnityEngine {
     static_assert(sizeof(int) == 0x4);
     public:
     // Creating value type constructor for type: RaycastHit2D
-    constexpr RaycastHit2D(UnityEngine::Vector2 m_Centroid_ = {}, UnityEngine::Vector2 m_Point_ = {}, UnityEngine::Vector2 m_Normal_ = {}, float m_Distance_ = {}, float m_Fraction_ = {}, int m_Collider_ = {}) noexcept : m_Centroid{m_Centroid_}, m_Point{m_Point_}, m_Normal{m_Normal_}, m_Distance{m_Distance_}, m_Fraction{m_Fraction_}, m_Collider{m_Collider_} {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    constexpr RaycastHit2D(::UnityEngine::Vector2 m_Centroid_ = {}, ::UnityEngine::Vector2 m_Point_ = {}, ::UnityEngine::Vector2 m_Normal_ = {}, float m_Distance_ = {}, float m_Fraction_ = {}, int m_Collider_ = {}) noexcept : m_Centroid{m_Centroid_}, m_Point{m_Point_}, m_Normal{m_Normal_}, m_Distance{m_Distance_}, m_Fraction{m_Fraction_}, m_Collider{m_Collider_} {}
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: private UnityEngine.Vector2 m_Centroid
-    UnityEngine::Vector2& dyn_m_Centroid();
+    ::UnityEngine::Vector2& dyn_m_Centroid();
     // Get instance field reference: private UnityEngine.Vector2 m_Point
-    UnityEngine::Vector2& dyn_m_Point();
+    ::UnityEngine::Vector2& dyn_m_Point();
     // Get instance field reference: private UnityEngine.Vector2 m_Normal
-    UnityEngine::Vector2& dyn_m_Normal();
+    ::UnityEngine::Vector2& dyn_m_Normal();
     // Get instance field reference: private System.Single m_Distance
     float& dyn_m_Distance();
     // Get instance field reference: private System.Single m_Fraction
@@ -100,10 +100,10 @@ namespace UnityEngine {
     int& dyn_m_Collider();
     // public UnityEngine.Vector2 get_point()
     // Offset: 0x2A56B0C
-    UnityEngine::Vector2 get_point();
+    ::UnityEngine::Vector2 get_point();
     // public UnityEngine.Vector2 get_normal()
     // Offset: 0x2A56B14
-    UnityEngine::Vector2 get_normal();
+    ::UnityEngine::Vector2 get_normal();
     // public System.Single get_distance()
     // Offset: 0x2A56B1C
     float get_distance();
@@ -112,7 +112,7 @@ namespace UnityEngine {
     float get_fraction();
     // public UnityEngine.Collider2D get_collider()
     // Offset: 0x2A56B2C
-    UnityEngine::Collider2D* get_collider();
+    ::UnityEngine::Collider2D* get_collider();
   }; // UnityEngine.RaycastHit2D
   #pragma pack(pop)
   static check_size<sizeof(RaycastHit2D), 32 + sizeof(int)> __UnityEngine_RaycastHit2DSizeCheck;
@@ -122,7 +122,7 @@ namespace UnityEngine {
 // Writing MetadataGetter for method: UnityEngine::RaycastHit2D::get_point
 // Il2CppName: get_point
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::RaycastHit2D::*)()>(&UnityEngine::RaycastHit2D::get_point)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (UnityEngine::RaycastHit2D::*)()>(&UnityEngine::RaycastHit2D::get_point)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RaycastHit2D), "get_point", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -130,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::RaycastHit2D::get_normal
 // Il2CppName: get_normal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::RaycastHit2D::*)()>(&UnityEngine::RaycastHit2D::get_normal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (UnityEngine::RaycastHit2D::*)()>(&UnityEngine::RaycastHit2D::get_normal)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RaycastHit2D), "get_normal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -154,7 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Writing MetadataGetter for method: UnityEngine::RaycastHit2D::get_collider
 // Il2CppName: get_collider
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Collider2D* (UnityEngine::RaycastHit2D::*)()>(&UnityEngine::RaycastHit2D::get_collider)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Collider2D* (UnityEngine::RaycastHit2D::*)()>(&UnityEngine::RaycastHit2D::get_collider)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RaycastHit2D), "get_collider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

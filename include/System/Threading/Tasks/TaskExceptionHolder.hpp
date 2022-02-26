@@ -51,8 +51,8 @@ namespace System::Threading::Tasks {
   class TaskExceptionHolder;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Threading::Tasks::TaskExceptionHolder);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskExceptionHolder*, "System.Threading.Tasks", "TaskExceptionHolder");
+NEED_NO_BOX(::System::Threading::Tasks::TaskExceptionHolder);
+DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Tasks::TaskExceptionHolder*, "System.Threading.Tasks", "TaskExceptionHolder");
 // Type namespace: System.Threading.Tasks
 namespace System::Threading::Tasks {
   // Size: 0x29
@@ -73,21 +73,21 @@ namespace System::Threading::Tasks {
     // private readonly System.Threading.Tasks.Task m_task
     // Size: 0x8
     // Offset: 0x10
-    System::Threading::Tasks::Task* m_task;
+    ::System::Threading::Tasks::Task* m_task;
     // Field size check
-    static_assert(sizeof(System::Threading::Tasks::Task*) == 0x8);
+    static_assert(sizeof(::System::Threading::Tasks::Task*) == 0x8);
     // private System.Collections.Generic.List`1<System.Runtime.ExceptionServices.ExceptionDispatchInfo> m_faultExceptions
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::Generic::List_1<System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* m_faultExceptions;
+    ::System::Collections::Generic::List_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* m_faultExceptions;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<System::Runtime::ExceptionServices::ExceptionDispatchInfo*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>*) == 0x8);
     // private System.Runtime.ExceptionServices.ExceptionDispatchInfo m_cancellationException
     // Size: 0x8
     // Offset: 0x20
-    System::Runtime::ExceptionServices::ExceptionDispatchInfo* m_cancellationException;
+    ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* m_cancellationException;
     // Field size check
-    static_assert(sizeof(System::Runtime::ExceptionServices::ExceptionDispatchInfo*) == 0x8);
+    static_assert(sizeof(::System::Runtime::ExceptionServices::ExceptionDispatchInfo*) == 0x8);
     // private System.Boolean m_isHandled
     // Size: 0x1
     // Offset: 0x28
@@ -104,15 +104,15 @@ namespace System::Threading::Tasks {
     // Set static field: static private System.Boolean s_domainUnloadStarted
     static void _set_s_domainUnloadStarted(bool value);
     // Get static field: static private System.EventHandler s_adUnloadEventHandler
-    static System::EventHandler* _get_s_adUnloadEventHandler();
+    static ::System::EventHandler* _get_s_adUnloadEventHandler();
     // Set static field: static private System.EventHandler s_adUnloadEventHandler
-    static void _set_s_adUnloadEventHandler(System::EventHandler* value);
+    static void _set_s_adUnloadEventHandler(::System::EventHandler* value);
     // Get instance field reference: private readonly System.Threading.Tasks.Task m_task
-    System::Threading::Tasks::Task*& dyn_m_task();
+    ::System::Threading::Tasks::Task*& dyn_m_task();
     // Get instance field reference: private System.Collections.Generic.List`1<System.Runtime.ExceptionServices.ExceptionDispatchInfo> m_faultExceptions
-    System::Collections::Generic::List_1<System::Runtime::ExceptionServices::ExceptionDispatchInfo*>*& dyn_m_faultExceptions();
+    ::System::Collections::Generic::List_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>*& dyn_m_faultExceptions();
     // Get instance field reference: private System.Runtime.ExceptionServices.ExceptionDispatchInfo m_cancellationException
-    System::Runtime::ExceptionServices::ExceptionDispatchInfo*& dyn_m_cancellationException();
+    ::System::Runtime::ExceptionServices::ExceptionDispatchInfo*& dyn_m_cancellationException();
     // Get instance field reference: private System.Boolean m_isHandled
     bool& dyn_m_isHandled();
     // System.Boolean get_ContainsFaultList()
@@ -121,8 +121,8 @@ namespace System::Threading::Tasks {
     // System.Void .ctor(System.Threading.Tasks.Task task)
     // Offset: 0x1CDA100
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TaskExceptionHolder* New_ctor(System::Threading::Tasks::Task* task) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::TaskExceptionHolder::.ctor");
+    static TaskExceptionHolder* New_ctor(::System::Threading::Tasks::Task* task) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::Tasks::TaskExceptionHolder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TaskExceptionHolder*, creationType>(task)));
     }
     // static private System.Void .cctor()
@@ -136,7 +136,7 @@ namespace System::Threading::Tasks {
     static void EnsureADUnloadCallbackRegistered();
     // static private System.Void AppDomainUnloadCallback(System.Object sender, System.EventArgs e)
     // Offset: 0x1CDA2A8
-    static void AppDomainUnloadCallback(::Il2CppObject* sender, System::EventArgs* e);
+    static void AppDomainUnloadCallback(::Il2CppObject* sender, ::System::EventArgs* e);
     // System.Void Add(System.Object exceptionObject, System.Boolean representsCancellation)
     // Offset: 0x1CDAAEC
     void Add(::Il2CppObject* exceptionObject, bool representsCancellation);
@@ -154,13 +154,13 @@ namespace System::Threading::Tasks {
     void MarkAsHandled(bool calledFromFinalizer);
     // System.AggregateException CreateExceptionObject(System.Boolean calledFromFinalizer, System.Exception includeThisException)
     // Offset: 0x1CDB1F4
-    System::AggregateException* CreateExceptionObject(bool calledFromFinalizer, System::Exception* includeThisException);
+    ::System::AggregateException* CreateExceptionObject(bool calledFromFinalizer, ::System::Exception* includeThisException);
     // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Runtime.ExceptionServices.ExceptionDispatchInfo> GetExceptionDispatchInfos()
     // Offset: 0x1CDB394
-    System::Collections::ObjectModel::ReadOnlyCollection_1<System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* GetExceptionDispatchInfos();
+    ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* GetExceptionDispatchInfos();
     // System.Runtime.ExceptionServices.ExceptionDispatchInfo GetCancellationExceptionDispatchInfo()
     // Offset: 0x1CDB414
-    System::Runtime::ExceptionServices::ExceptionDispatchInfo* GetCancellationExceptionDispatchInfo();
+    ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* GetCancellationExceptionDispatchInfo();
     // protected override System.Void Finalize()
     // Offset: 0x1CDA318
     // Implemented from: System.Object
@@ -211,7 +211,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Threading::Tasks::TaskExceptionHolder::AppDomainUnloadCallback
 // Il2CppName: AppDomainUnloadCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, System::EventArgs*)>(&System::Threading::Tasks::TaskExceptionHolder::AppDomainUnloadCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::System::EventArgs*)>(&System::Threading::Tasks::TaskExceptionHolder::AppDomainUnloadCallback)> {
   static const MethodInfo* get() {
     static auto* sender = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* e = &::il2cpp_utils::GetClassFromName("System", "EventArgs")->byval_arg;
@@ -266,7 +266,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Threading::Tasks::TaskExceptionHolder::CreateExceptionObject
 // Il2CppName: CreateExceptionObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::AggregateException* (System::Threading::Tasks::TaskExceptionHolder::*)(bool, System::Exception*)>(&System::Threading::Tasks::TaskExceptionHolder::CreateExceptionObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::AggregateException* (System::Threading::Tasks::TaskExceptionHolder::*)(bool, ::System::Exception*)>(&System::Threading::Tasks::TaskExceptionHolder::CreateExceptionObject)> {
   static const MethodInfo* get() {
     static auto* calledFromFinalizer = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* includeThisException = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
@@ -276,7 +276,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Agg
 // Writing MetadataGetter for method: System::Threading::Tasks::TaskExceptionHolder::GetExceptionDispatchInfos
 // Il2CppName: GetExceptionDispatchInfos
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ObjectModel::ReadOnlyCollection_1<System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* (System::Threading::Tasks::TaskExceptionHolder::*)()>(&System::Threading::Tasks::TaskExceptionHolder::GetExceptionDispatchInfos)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* (System::Threading::Tasks::TaskExceptionHolder::*)()>(&System::Threading::Tasks::TaskExceptionHolder::GetExceptionDispatchInfos)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskExceptionHolder*), "GetExceptionDispatchInfos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -284,7 +284,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::Threading::Tasks::TaskExceptionHolder::GetCancellationExceptionDispatchInfo
 // Il2CppName: GetCancellationExceptionDispatchInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::ExceptionServices::ExceptionDispatchInfo* (System::Threading::Tasks::TaskExceptionHolder::*)()>(&System::Threading::Tasks::TaskExceptionHolder::GetCancellationExceptionDispatchInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::ExceptionServices::ExceptionDispatchInfo* (System::Threading::Tasks::TaskExceptionHolder::*)()>(&System::Threading::Tasks::TaskExceptionHolder::GetCancellationExceptionDispatchInfo)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskExceptionHolder*), "GetCancellationExceptionDispatchInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

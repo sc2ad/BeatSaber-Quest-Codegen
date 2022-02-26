@@ -27,8 +27,8 @@ namespace GlobalNamespace {
   class IBeatmapObjectSpawner;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::IBeatmapObjectSpawner);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IBeatmapObjectSpawner*, "", "IBeatmapObjectSpawner");
+NEED_NO_BOX(::GlobalNamespace::IBeatmapObjectSpawner);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IBeatmapObjectSpawner*, "", "IBeatmapObjectSpawner");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -39,13 +39,13 @@ namespace GlobalNamespace {
     public:
     // public ObstacleController SpawnObstacle(ObstacleData obstacleData, BeatmapObjectSpawnMovementData/ObstacleSpawnData obstacleSpawnData, System.Single rotation)
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::ObstacleController* SpawnObstacle(GlobalNamespace::ObstacleData* obstacleData, GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData obstacleSpawnData, float rotation);
+    ::GlobalNamespace::ObstacleController* SpawnObstacle(::GlobalNamespace::ObstacleData* obstacleData, ::GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData obstacleSpawnData, float rotation);
     // public NoteController SpawnBombNote(NoteData noteData, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation)
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::NoteController* SpawnBombNote(GlobalNamespace::NoteData* noteData, GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData noteSpawnData, float rotation);
+    ::GlobalNamespace::NoteController* SpawnBombNote(::GlobalNamespace::NoteData* noteData, ::GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData noteSpawnData, float rotation);
     // public NoteController SpawnBasicNote(NoteData noteData, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation, System.Single cutDirectionAngleOffset)
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::NoteController* SpawnBasicNote(GlobalNamespace::NoteData* noteData, GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData noteSpawnData, float rotation, float cutDirectionAngleOffset);
+    ::GlobalNamespace::NoteController* SpawnBasicNote(::GlobalNamespace::NoteData* noteData, ::GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData noteSpawnData, float rotation, float cutDirectionAngleOffset);
   }; // IBeatmapObjectSpawner
   #pragma pack(pop)
 }
@@ -53,7 +53,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::IBeatmapObjectSpawner::SpawnObstacle
 // Il2CppName: SpawnObstacle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ObstacleController* (GlobalNamespace::IBeatmapObjectSpawner::*)(GlobalNamespace::ObstacleData*, GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData, float)>(&GlobalNamespace::IBeatmapObjectSpawner::SpawnObstacle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ObstacleController* (GlobalNamespace::IBeatmapObjectSpawner::*)(::GlobalNamespace::ObstacleData*, ::GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData, float)>(&GlobalNamespace::IBeatmapObjectSpawner::SpawnObstacle)> {
   static const MethodInfo* get() {
     static auto* obstacleData = &::il2cpp_utils::GetClassFromName("", "ObstacleData")->byval_arg;
     static auto* obstacleSpawnData = &::il2cpp_utils::GetClassFromName("", "BeatmapObjectSpawnMovementData/ObstacleSpawnData")->byval_arg;
@@ -64,7 +64,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::IBeatmapObjectSpawner::SpawnBombNote
 // Il2CppName: SpawnBombNote
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteController* (GlobalNamespace::IBeatmapObjectSpawner::*)(GlobalNamespace::NoteData*, GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData, float)>(&GlobalNamespace::IBeatmapObjectSpawner::SpawnBombNote)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NoteController* (GlobalNamespace::IBeatmapObjectSpawner::*)(::GlobalNamespace::NoteData*, ::GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData, float)>(&GlobalNamespace::IBeatmapObjectSpawner::SpawnBombNote)> {
   static const MethodInfo* get() {
     static auto* noteData = &::il2cpp_utils::GetClassFromName("", "NoteData")->byval_arg;
     static auto* noteSpawnData = &::il2cpp_utils::GetClassFromName("", "BeatmapObjectSpawnMovementData/NoteSpawnData")->byval_arg;
@@ -75,7 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::IBeatmapObjectSpawner::SpawnBasicNote
 // Il2CppName: SpawnBasicNote
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteController* (GlobalNamespace::IBeatmapObjectSpawner::*)(GlobalNamespace::NoteData*, GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData, float, float)>(&GlobalNamespace::IBeatmapObjectSpawner::SpawnBasicNote)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NoteController* (GlobalNamespace::IBeatmapObjectSpawner::*)(::GlobalNamespace::NoteData*, ::GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData, float, float)>(&GlobalNamespace::IBeatmapObjectSpawner::SpawnBasicNote)> {
   static const MethodInfo* get() {
     static auto* noteData = &::il2cpp_utils::GetClassFromName("", "NoteData")->byval_arg;
     static auto* noteSpawnData = &::il2cpp_utils::GetClassFromName("", "BeatmapObjectSpawnMovementData/NoteSpawnData")->byval_arg;

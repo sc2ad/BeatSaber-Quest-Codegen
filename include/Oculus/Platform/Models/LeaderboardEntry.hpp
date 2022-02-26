@@ -31,8 +31,8 @@ namespace Oculus::Platform::Models {
   class LeaderboardEntry;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::LeaderboardEntry);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LeaderboardEntry*, "Oculus.Platform.Models", "LeaderboardEntry");
+NEED_NO_BOX(::Oculus::Platform::Models::LeaderboardEntry);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::LeaderboardEntry*, "Oculus.Platform.Models", "LeaderboardEntry");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x50
@@ -79,28 +79,28 @@ namespace Oculus::Platform::Models {
     // public readonly Oculus.Platform.Models.SupplementaryMetric SupplementaryMetricOptional
     // Size: 0x8
     // Offset: 0x30
-    Oculus::Platform::Models::SupplementaryMetric* SupplementaryMetricOptional;
+    ::Oculus::Platform::Models::SupplementaryMetric* SupplementaryMetricOptional;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::Models::SupplementaryMetric*) == 0x8);
+    static_assert(sizeof(::Oculus::Platform::Models::SupplementaryMetric*) == 0x8);
     // [ObsoleteAttribute] Offset: 0x12325B8
     // public readonly Oculus.Platform.Models.SupplementaryMetric SupplementaryMetric
     // Size: 0x8
     // Offset: 0x38
-    Oculus::Platform::Models::SupplementaryMetric* SupplementaryMetric;
+    ::Oculus::Platform::Models::SupplementaryMetric* SupplementaryMetric;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::Models::SupplementaryMetric*) == 0x8);
+    static_assert(sizeof(::Oculus::Platform::Models::SupplementaryMetric*) == 0x8);
     // public readonly System.DateTime Timestamp
     // Size: 0x8
     // Offset: 0x40
-    System::DateTime Timestamp;
+    ::System::DateTime Timestamp;
     // Field size check
-    static_assert(sizeof(System::DateTime) == 0x8);
+    static_assert(sizeof(::System::DateTime) == 0x8);
     // public readonly Oculus.Platform.Models.User User
     // Size: 0x8
     // Offset: 0x48
-    Oculus::Platform::Models::User* User;
+    ::Oculus::Platform::Models::User* User;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::Models::User*) == 0x8);
+    static_assert(sizeof(::Oculus::Platform::Models::User*) == 0x8);
     public:
     // Get instance field reference: public readonly System.String DisplayScore
     ::StringW& dyn_DisplayScore();
@@ -111,23 +111,23 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.Int64 Score
     int64_t& dyn_Score();
     // Get instance field reference: public readonly Oculus.Platform.Models.SupplementaryMetric SupplementaryMetricOptional
-    Oculus::Platform::Models::SupplementaryMetric*& dyn_SupplementaryMetricOptional();
+    ::Oculus::Platform::Models::SupplementaryMetric*& dyn_SupplementaryMetricOptional();
     // Get instance field reference: public readonly Oculus.Platform.Models.SupplementaryMetric SupplementaryMetric
-    Oculus::Platform::Models::SupplementaryMetric*& dyn_SupplementaryMetric();
+    ::Oculus::Platform::Models::SupplementaryMetric*& dyn_SupplementaryMetric();
     // Get instance field reference: public readonly System.DateTime Timestamp
-    System::DateTime& dyn_Timestamp();
+    ::System::DateTime& dyn_Timestamp();
     // Get instance field reference: public readonly Oculus.Platform.Models.User User
-    Oculus::Platform::Models::User*& dyn_User();
+    ::Oculus::Platform::Models::User*& dyn_User();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x196D510
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static LeaderboardEntry* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::LeaderboardEntry::.ctor");
+    static LeaderboardEntry* New_ctor(::System::IntPtr o) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::LeaderboardEntry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardEntry*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.LeaderboardEntry
   #pragma pack(pop)
-  static check_size<sizeof(LeaderboardEntry), 72 + sizeof(Oculus::Platform::Models::User*)> __Oculus_Platform_Models_LeaderboardEntrySizeCheck;
+  static check_size<sizeof(LeaderboardEntry), 72 + sizeof(::Oculus::Platform::Models::User*)> __Oculus_Platform_Models_LeaderboardEntrySizeCheck;
   static_assert(sizeof(LeaderboardEntry) == 0x50);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

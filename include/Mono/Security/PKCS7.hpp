@@ -17,8 +17,8 @@ namespace Mono::Security {
   class PKCS7;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Security::PKCS7);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Security::PKCS7*, "Mono.Security", "PKCS7");
+NEED_NO_BOX(::Mono::Security::PKCS7);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::PKCS7*, "Mono.Security", "PKCS7");
 // Type namespace: Mono.Security
 namespace Mono::Security {
   // Size: 0x10
@@ -27,9 +27,9 @@ namespace Mono::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   class PKCS7 : public ::Il2CppObject {
     public:
-    // Nested type: Mono::Security::PKCS7::ContentInfo
+    // Nested type: ::Mono::Security::PKCS7::ContentInfo
     class ContentInfo;
-    // Nested type: Mono::Security::PKCS7::EncryptedData
+    // Nested type: ::Mono::Security::PKCS7::EncryptedData
     class EncryptedData;
   }; // Mono.Security.PKCS7
   #pragma pack(pop)

@@ -15,8 +15,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Security::X509::PKCS12::DeriveBytes);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::PKCS12::DeriveBytes*, "Mono.Security.X509", "PKCS12/DeriveBytes");
+NEED_NO_BOX(::Mono::Security::X509::PKCS12::DeriveBytes);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::X509::PKCS12::DeriveBytes*, "Mono.Security.X509", "PKCS12/DeriveBytes");
 // Type namespace: Mono.Security.X509
 namespace Mono::Security::X509 {
   // Size: 0x30
@@ -117,7 +117,7 @@ namespace Mono::Security::X509 {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PKCS12::DeriveBytes* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::X509::PKCS12::DeriveBytes::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::X509::PKCS12::DeriveBytes::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PKCS12::DeriveBytes*, creationType>()));
     }
   }; // Mono.Security.X509.PKCS12/Mono.Security.X509.DeriveBytes

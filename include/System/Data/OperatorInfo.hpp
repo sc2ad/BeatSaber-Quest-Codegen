@@ -18,8 +18,8 @@ namespace System::Data {
   class OperatorInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Data::OperatorInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::Data::OperatorInfo*, "System.Data", "OperatorInfo");
+NEED_NO_BOX(::System::Data::OperatorInfo);
+DEFINE_IL2CPP_ARG_TYPE(::System::Data::OperatorInfo*, "System.Data", "OperatorInfo");
 // Type namespace: System.Data
 namespace System::Data {
   // Size: 0x1C
@@ -40,9 +40,9 @@ namespace System::Data {
     // System.Data.Nodes _type
     // Size: 0x4
     // Offset: 0x10
-    System::Data::Nodes type;
+    ::System::Data::Nodes type;
     // Field size check
-    static_assert(sizeof(System::Data::Nodes) == 0x4);
+    static_assert(sizeof(::System::Data::Nodes) == 0x4);
     // System.Int32 _op
     // Size: 0x4
     // Offset: 0x14
@@ -57,7 +57,7 @@ namespace System::Data {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: System.Data.Nodes _type
-    System::Data::Nodes& dyn__type();
+    ::System::Data::Nodes& dyn__type();
     // Get instance field reference: System.Int32 _op
     int& dyn__op();
     // Get instance field reference: System.Int32 _priority
@@ -65,8 +65,8 @@ namespace System::Data {
     // System.Void .ctor(System.Data.Nodes type, System.Int32 op, System.Int32 pri)
     // Offset: 0x19933C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static OperatorInfo* New_ctor(System::Data::Nodes type, int op, int pri) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Data::OperatorInfo::.ctor");
+    static OperatorInfo* New_ctor(::System::Data::Nodes type, int op, int pri) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Data::OperatorInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OperatorInfo*, creationType>(type, op, pri)));
     }
   }; // System.Data.OperatorInfo

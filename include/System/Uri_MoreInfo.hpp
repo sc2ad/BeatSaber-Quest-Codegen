@@ -14,8 +14,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Uri::MoreInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::Uri::MoreInfo*, "System", "Uri/MoreInfo");
+NEED_NO_BOX(::System::Uri::MoreInfo);
+DEFINE_IL2CPP_ARG_TYPE(::System::Uri::MoreInfo*, "System", "Uri/MoreInfo");
 // Type namespace: System
 namespace System {
   // Size: 0x40
@@ -90,7 +90,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Uri::MoreInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Uri::MoreInfo::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Uri::MoreInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Uri::MoreInfo*, creationType>()));
     }
   }; // System.Uri/System.MoreInfo

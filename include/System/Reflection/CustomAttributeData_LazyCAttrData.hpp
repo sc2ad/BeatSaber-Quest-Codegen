@@ -22,8 +22,8 @@ namespace System::Reflection {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Reflection::CustomAttributeData::LazyCAttrData);
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::CustomAttributeData::LazyCAttrData*, "System.Reflection", "CustomAttributeData/LazyCAttrData");
+NEED_NO_BOX(::System::Reflection::CustomAttributeData::LazyCAttrData);
+DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::CustomAttributeData::LazyCAttrData*, "System.Reflection", "CustomAttributeData/LazyCAttrData");
 // Type namespace: System.Reflection
 namespace System::Reflection {
   // Size: 0x24
@@ -44,15 +44,15 @@ namespace System::Reflection {
     // System.Reflection.Assembly assembly
     // Size: 0x8
     // Offset: 0x10
-    System::Reflection::Assembly* assembly;
+    ::System::Reflection::Assembly* assembly;
     // Field size check
-    static_assert(sizeof(System::Reflection::Assembly*) == 0x8);
+    static_assert(sizeof(::System::Reflection::Assembly*) == 0x8);
     // System.IntPtr data
     // Size: 0x8
     // Offset: 0x18
-    System::IntPtr data;
+    ::System::IntPtr data;
     // Field size check
-    static_assert(sizeof(System::IntPtr) == 0x8);
+    static_assert(sizeof(::System::IntPtr) == 0x8);
     // System.UInt32 data_length
     // Size: 0x4
     // Offset: 0x20
@@ -61,9 +61,9 @@ namespace System::Reflection {
     static_assert(sizeof(uint) == 0x4);
     public:
     // Get instance field reference: System.Reflection.Assembly assembly
-    System::Reflection::Assembly*& dyn_assembly();
+    ::System::Reflection::Assembly*& dyn_assembly();
     // Get instance field reference: System.IntPtr data
-    System::IntPtr& dyn_data();
+    ::System::IntPtr& dyn_data();
     // Get instance field reference: System.UInt32 data_length
     uint& dyn_data_length();
     // public System.Void .ctor()
@@ -72,7 +72,7 @@ namespace System::Reflection {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomAttributeData::LazyCAttrData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::CustomAttributeData::LazyCAttrData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Reflection::CustomAttributeData::LazyCAttrData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CustomAttributeData::LazyCAttrData*, creationType>()));
     }
   }; // System.Reflection.CustomAttributeData/System.Reflection.LazyCAttrData

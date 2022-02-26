@@ -23,8 +23,8 @@ namespace GlobalNamespace {
   class RankModelHelper;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::RankModelHelper);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RankModelHelper*, "", "RankModelHelper");
+NEED_NO_BOX(::GlobalNamespace::RankModelHelper);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::RankModelHelper*, "", "RankModelHelper");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     public:
     // static public RankModel/Rank MaxRankForGameplayModifiers(GameplayModifiers gameplayModifiers, GameplayModifiersModelSO gameplayModifiersModel, System.Single energy)
     // Offset: 0x13ED7D8
-    static GlobalNamespace::RankModel::Rank MaxRankForGameplayModifiers(GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel, float energy);
+    static ::GlobalNamespace::RankModel::Rank MaxRankForGameplayModifiers(::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel, float energy);
   }; // RankModelHelper
   #pragma pack(pop)
 }
@@ -43,7 +43,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::RankModelHelper::MaxRankForGameplayModifiers
 // Il2CppName: MaxRankForGameplayModifiers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::RankModel::Rank (*)(GlobalNamespace::GameplayModifiers*, GlobalNamespace::GameplayModifiersModelSO*, float)>(&GlobalNamespace::RankModelHelper::MaxRankForGameplayModifiers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::RankModel::Rank (*)(::GlobalNamespace::GameplayModifiers*, ::GlobalNamespace::GameplayModifiersModelSO*, float)>(&GlobalNamespace::RankModelHelper::MaxRankForGameplayModifiers)> {
   static const MethodInfo* get() {
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
     static auto* gameplayModifiersModel = &::il2cpp_utils::GetClassFromName("", "GameplayModifiersModelSO")->byval_arg;

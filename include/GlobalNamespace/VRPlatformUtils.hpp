@@ -19,8 +19,8 @@ namespace GlobalNamespace {
   class VRPlatformUtils;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::VRPlatformUtils);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRPlatformUtils*, "", "VRPlatformUtils");
+NEED_NO_BOX(::GlobalNamespace::VRPlatformUtils);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::VRPlatformUtils*, "", "VRPlatformUtils");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -31,7 +31,7 @@ namespace GlobalNamespace {
     public:
     // static public XRDeviceModel GetXRDeviceModel()
     // Offset: 0x29A1704
-    static GlobalNamespace::XRDeviceModel GetXRDeviceModel();
+    static ::GlobalNamespace::XRDeviceModel GetXRDeviceModel();
   }; // VRPlatformUtils
   #pragma pack(pop)
 }
@@ -39,7 +39,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::VRPlatformUtils::GetXRDeviceModel
 // Il2CppName: GetXRDeviceModel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::XRDeviceModel (*)()>(&GlobalNamespace::VRPlatformUtils::GetXRDeviceModel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::XRDeviceModel (*)()>(&GlobalNamespace::VRPlatformUtils::GetXRDeviceModel)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRPlatformUtils*), "GetXRDeviceModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

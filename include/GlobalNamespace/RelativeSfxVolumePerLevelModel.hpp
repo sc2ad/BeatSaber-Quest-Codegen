@@ -32,8 +32,8 @@ namespace GlobalNamespace {
   class RelativeSfxVolumePerLevelModel;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::RelativeSfxVolumePerLevelModel);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RelativeSfxVolumePerLevelModel*, "", "RelativeSfxVolumePerLevelModel");
+NEED_NO_BOX(::GlobalNamespace::RelativeSfxVolumePerLevelModel);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::RelativeSfxVolumePerLevelModel*, "", "RelativeSfxVolumePerLevelModel");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -54,12 +54,12 @@ namespace GlobalNamespace {
     // private readonly System.Collections.Generic.Dictionary`2<System.String,System.Single> _relativeSfxVolumePerLevelId
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::Dictionary_2<::StringW, float>* relativeSfxVolumePerLevelId;
+    ::System::Collections::Generic::Dictionary_2<::StringW, float>* relativeSfxVolumePerLevelId;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, float>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::Dictionary_2<::StringW, float>*) == 0x8);
     public:
-    // Creating conversion operator: operator System::Collections::Generic::Dictionary_2<::StringW, float>*
-    constexpr operator System::Collections::Generic::Dictionary_2<::StringW, float>*() const noexcept {
+    // Creating conversion operator: operator ::System::Collections::Generic::Dictionary_2<::StringW, float>*
+    constexpr operator ::System::Collections::Generic::Dictionary_2<::StringW, float>*() const noexcept {
       return relativeSfxVolumePerLevelId;
     }
     // static field const value: static private System.Single kDefaultSfxVolume
@@ -69,12 +69,12 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kDefaultSfxVolume
     static void _set_kDefaultSfxVolume(float value);
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,System.Single> _relativeSfxVolumePerLevelId
-    System::Collections::Generic::Dictionary_2<::StringW, float>*& dyn__relativeSfxVolumePerLevelId();
+    ::System::Collections::Generic::Dictionary_2<::StringW, float>*& dyn__relativeSfxVolumePerLevelId();
     // public System.Void .ctor(RelativeSfxVolumePerLevelSO relativeSfxVolumePerLevelData)
     // Offset: 0x13EE314
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static RelativeSfxVolumePerLevelModel* New_ctor(GlobalNamespace::RelativeSfxVolumePerLevelSO* relativeSfxVolumePerLevelData) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::RelativeSfxVolumePerLevelModel::.ctor");
+    static RelativeSfxVolumePerLevelModel* New_ctor(::GlobalNamespace::RelativeSfxVolumePerLevelSO* relativeSfxVolumePerLevelData) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RelativeSfxVolumePerLevelModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RelativeSfxVolumePerLevelModel*, creationType>(relativeSfxVolumePerLevelData)));
     }
     // public System.Single GetRelativeSfxVolume(System.String levelId)
@@ -82,7 +82,7 @@ namespace GlobalNamespace {
     float GetRelativeSfxVolume(::StringW levelId);
   }; // RelativeSfxVolumePerLevelModel
   #pragma pack(pop)
-  static check_size<sizeof(RelativeSfxVolumePerLevelModel), 16 + sizeof(System::Collections::Generic::Dictionary_2<::StringW, float>*)> __GlobalNamespace_RelativeSfxVolumePerLevelModelSizeCheck;
+  static check_size<sizeof(RelativeSfxVolumePerLevelModel), 16 + sizeof(::System::Collections::Generic::Dictionary_2<::StringW, float>*)> __GlobalNamespace_RelativeSfxVolumePerLevelModelSizeCheck;
   static_assert(sizeof(RelativeSfxVolumePerLevelModel) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

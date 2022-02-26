@@ -20,8 +20,8 @@ namespace GlobalNamespace {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::ShowcaseFlowCoordinator::$$c__DisplayClass28_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShowcaseFlowCoordinator::$$c__DisplayClass28_0*, "", "ShowcaseFlowCoordinator/<>c__DisplayClass28_0");
+NEED_NO_BOX(::GlobalNamespace::ShowcaseFlowCoordinator::$$c__DisplayClass28_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ShowcaseFlowCoordinator::$$c__DisplayClass28_0*, "", "ShowcaseFlowCoordinator/<>c__DisplayClass28_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -43,20 +43,20 @@ namespace GlobalNamespace {
     // public ShowcaseFlowCoordinator <>4__this
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::ShowcaseFlowCoordinator* $$4__this;
+    ::GlobalNamespace::ShowcaseFlowCoordinator* $$4__this;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::ShowcaseFlowCoordinator*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::ShowcaseFlowCoordinator*) == 0x8);
     // public ResultsViewController resultsViewController
     // Size: 0x8
     // Offset: 0x18
-    GlobalNamespace::ResultsViewController* resultsViewController;
+    ::GlobalNamespace::ResultsViewController* resultsViewController;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::ResultsViewController*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::ResultsViewController*) == 0x8);
     public:
     // Get instance field reference: public ShowcaseFlowCoordinator <>4__this
-    GlobalNamespace::ShowcaseFlowCoordinator*& dyn_$$4__this();
+    ::GlobalNamespace::ShowcaseFlowCoordinator*& dyn_$$4__this();
     // Get instance field reference: public ResultsViewController resultsViewController
-    GlobalNamespace::ResultsViewController*& dyn_resultsViewController();
+    ::GlobalNamespace::ResultsViewController*& dyn_resultsViewController();
     // System.Void <HandleResultsViewControllerRestartButtonPressed>b__0()
     // Offset: 0x13CB650
     void $HandleResultsViewControllerRestartButtonPressed$b__0();
@@ -66,12 +66,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ShowcaseFlowCoordinator::$$c__DisplayClass28_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ShowcaseFlowCoordinator::$$c__DisplayClass28_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ShowcaseFlowCoordinator::$$c__DisplayClass28_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ShowcaseFlowCoordinator::$$c__DisplayClass28_0*, creationType>()));
     }
   }; // ShowcaseFlowCoordinator/<>c__DisplayClass28_0
   #pragma pack(pop)
-  static check_size<sizeof(ShowcaseFlowCoordinator::$$c__DisplayClass28_0), 24 + sizeof(GlobalNamespace::ResultsViewController*)> __GlobalNamespace_ShowcaseFlowCoordinator_$$c__DisplayClass28_0SizeCheck;
+  static check_size<sizeof(ShowcaseFlowCoordinator::$$c__DisplayClass28_0), 24 + sizeof(::GlobalNamespace::ResultsViewController*)> __GlobalNamespace_ShowcaseFlowCoordinator_$$c__DisplayClass28_0SizeCheck;
   static_assert(sizeof(ShowcaseFlowCoordinator::$$c__DisplayClass28_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -38,8 +38,8 @@ namespace GlobalNamespace {
   class PlayerHeadAndObstacleInteraction;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PlayerHeadAndObstacleInteraction);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerHeadAndObstacleInteraction*, "", "PlayerHeadAndObstacleInteraction");
+NEED_NO_BOX(::GlobalNamespace::PlayerHeadAndObstacleInteraction);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlayerHeadAndObstacleInteraction*, "", "PlayerHeadAndObstacleInteraction");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x30
@@ -61,16 +61,16 @@ namespace GlobalNamespace {
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::PlayerTransforms* playerTransforms;
+    ::GlobalNamespace::PlayerTransforms* playerTransforms;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::PlayerTransforms*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::PlayerTransforms*) == 0x8);
     // [InjectAttribute] Offset: 0x1246158
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x18
-    GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
+    ::GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::BeatmapObjectManager*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::BeatmapObjectManager*) == 0x8);
     // private System.Int32 _lastFrameNumCheck
     // Size: 0x4
     // Offset: 0x20
@@ -82,43 +82,43 @@ namespace GlobalNamespace {
     // private readonly System.Collections.Generic.List`1<ObstacleController> _intersectingObstacles
     // Size: 0x8
     // Offset: 0x28
-    System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* intersectingObstacles;
+    ::System::Collections::Generic::List_1<::GlobalNamespace::ObstacleController*>* intersectingObstacles;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::GlobalNamespace::ObstacleController*>*) == 0x8);
     public:
     // Get instance field reference: private readonly PlayerTransforms _playerTransforms
-    GlobalNamespace::PlayerTransforms*& dyn__playerTransforms();
+    ::GlobalNamespace::PlayerTransforms*& dyn__playerTransforms();
     // Get instance field reference: private readonly BeatmapObjectManager _beatmapObjectManager
-    GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
+    ::GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
     // Get instance field reference: private System.Int32 _lastFrameNumCheck
     int& dyn__lastFrameNumCheck();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<ObstacleController> _intersectingObstacles
-    System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>*& dyn__intersectingObstacles();
+    ::System::Collections::Generic::List_1<::GlobalNamespace::ObstacleController*>*& dyn__intersectingObstacles();
     // public System.Collections.Generic.List`1<ObstacleController> get_intersectingObstacles()
     // Offset: 0x13E2110
-    System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* get_intersectingObstacles();
+    ::System::Collections::Generic::List_1<::GlobalNamespace::ObstacleController*>* get_intersectingObstacles();
     // private System.Void GetObstaclesContainingPoint(UnityEngine.Vector3 worldPos, System.Collections.Generic.List`1<ObstacleController> obstacleControllers)
     // Offset: 0x13E2180
-    void GetObstaclesContainingPoint(UnityEngine::Vector3 worldPos, System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* obstacleControllers);
+    void GetObstaclesContainingPoint(::UnityEngine::Vector3 worldPos, ::System::Collections::Generic::List_1<::GlobalNamespace::ObstacleController*>* obstacleControllers);
     // public System.Void .ctor()
     // Offset: 0x13E2340
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerHeadAndObstacleInteraction* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerHeadAndObstacleInteraction::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerHeadAndObstacleInteraction::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerHeadAndObstacleInteraction*, creationType>()));
     }
   }; // PlayerHeadAndObstacleInteraction
   #pragma pack(pop)
-  static check_size<sizeof(PlayerHeadAndObstacleInteraction), 40 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>*)> __GlobalNamespace_PlayerHeadAndObstacleInteractionSizeCheck;
+  static check_size<sizeof(PlayerHeadAndObstacleInteraction), 40 + sizeof(::System::Collections::Generic::List_1<::GlobalNamespace::ObstacleController*>*)> __GlobalNamespace_PlayerHeadAndObstacleInteractionSizeCheck;
   static_assert(sizeof(PlayerHeadAndObstacleInteraction) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerHeadAndObstacleInteraction::get_intersectingObstacles
 // Il2CppName: get_intersectingObstacles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* (GlobalNamespace::PlayerHeadAndObstacleInteraction::*)()>(&GlobalNamespace::PlayerHeadAndObstacleInteraction::get_intersectingObstacles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::GlobalNamespace::ObstacleController*>* (GlobalNamespace::PlayerHeadAndObstacleInteraction::*)()>(&GlobalNamespace::PlayerHeadAndObstacleInteraction::get_intersectingObstacles)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerHeadAndObstacleInteraction*), "get_intersectingObstacles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -126,7 +126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: GlobalNamespace::PlayerHeadAndObstacleInteraction::GetObstaclesContainingPoint
 // Il2CppName: GetObstaclesContainingPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerHeadAndObstacleInteraction::*)(UnityEngine::Vector3, System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>*)>(&GlobalNamespace::PlayerHeadAndObstacleInteraction::GetObstaclesContainingPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerHeadAndObstacleInteraction::*)(::UnityEngine::Vector3, ::System::Collections::Generic::List_1<::GlobalNamespace::ObstacleController*>*)>(&GlobalNamespace::PlayerHeadAndObstacleInteraction::GetObstaclesContainingPoint)> {
   static const MethodInfo* get() {
     static auto* worldPos = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* obstacleControllers = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "ObstacleController")})->byval_arg;

@@ -32,8 +32,8 @@ namespace System::Net {
   class HeaderInfoTable;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::HeaderInfoTable);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::HeaderInfoTable*, "System.Net", "HeaderInfoTable");
+NEED_NO_BOX(::System::Net::HeaderInfoTable);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::HeaderInfoTable*, "System.Net", "HeaderInfoTable");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x10
@@ -44,24 +44,24 @@ namespace System::Net {
   class HeaderInfoTable : public ::Il2CppObject {
     public:
     // Get static field: static private System.Collections.Hashtable HeaderHashTable
-    static System::Collections::Hashtable* _get_HeaderHashTable();
+    static ::System::Collections::Hashtable* _get_HeaderHashTable();
     // Set static field: static private System.Collections.Hashtable HeaderHashTable
-    static void _set_HeaderHashTable(System::Collections::Hashtable* value);
+    static void _set_HeaderHashTable(::System::Collections::Hashtable* value);
     // Get static field: static private System.Net.HeaderInfo UnknownHeaderInfo
-    static System::Net::HeaderInfo* _get_UnknownHeaderInfo();
+    static ::System::Net::HeaderInfo* _get_UnknownHeaderInfo();
     // Set static field: static private System.Net.HeaderInfo UnknownHeaderInfo
-    static void _set_UnknownHeaderInfo(System::Net::HeaderInfo* value);
+    static void _set_UnknownHeaderInfo(::System::Net::HeaderInfo* value);
     // Get static field: static private System.Net.HeaderParser SingleParser
-    static System::Net::HeaderParser* _get_SingleParser();
+    static ::System::Net::HeaderParser* _get_SingleParser();
     // Set static field: static private System.Net.HeaderParser SingleParser
-    static void _set_SingleParser(System::Net::HeaderParser* value);
+    static void _set_SingleParser(::System::Net::HeaderParser* value);
     // Get static field: static private System.Net.HeaderParser MultiParser
-    static System::Net::HeaderParser* _get_MultiParser();
+    static ::System::Net::HeaderParser* _get_MultiParser();
     // Set static field: static private System.Net.HeaderParser MultiParser
-    static void _set_MultiParser(System::Net::HeaderParser* value);
+    static void _set_MultiParser(::System::Net::HeaderParser* value);
     // System.Net.HeaderInfo get_Item(System.String name)
     // Offset: 0x175508C
-    System::Net::HeaderInfo* get_Item(::StringW name);
+    ::System::Net::HeaderInfo* get_Item(::StringW name);
     // static private System.Void .cctor()
     // Offset: 0x1753A58
     static void _cctor();
@@ -77,7 +77,7 @@ namespace System::Net {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HeaderInfoTable* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::HeaderInfoTable::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::HeaderInfoTable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HeaderInfoTable*, creationType>()));
     }
   }; // System.Net.HeaderInfoTable
@@ -87,7 +87,7 @@ namespace System::Net {
 // Writing MetadataGetter for method: System::Net::HeaderInfoTable::get_Item
 // Il2CppName: get_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::HeaderInfo* (System::Net::HeaderInfoTable::*)(::StringW)>(&System::Net::HeaderInfoTable::get_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::HeaderInfo* (System::Net::HeaderInfoTable::*)(::StringW)>(&System::Net::HeaderInfoTable::get_Item)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HeaderInfoTable*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});

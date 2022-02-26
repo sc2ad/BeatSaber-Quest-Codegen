@@ -18,8 +18,8 @@ namespace GlobalNamespace {
   class SecureRandomProvider;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SecureRandomProvider);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SecureRandomProvider*, "", "SecureRandomProvider");
+NEED_NO_BOX(::GlobalNamespace::SecureRandomProvider);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SecureRandomProvider*, "", "SecureRandomProvider");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -28,12 +28,12 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SecureRandomProvider : public ::Il2CppObject {
     public:
-    // Nested type: GlobalNamespace::SecureRandomProvider::SecureRandomState
+    // Nested type: ::GlobalNamespace::SecureRandomProvider::SecureRandomState
     class SecureRandomState;
     // Get static field: static private SecureRandomProvider/SecureRandomState _secureRandomState
-    static GlobalNamespace::SecureRandomProvider::SecureRandomState* _get__secureRandomState();
+    static ::GlobalNamespace::SecureRandomProvider::SecureRandomState* _get__secureRandomState();
     // Set static field: static private SecureRandomProvider/SecureRandomState _secureRandomState
-    static void _set__secureRandomState(GlobalNamespace::SecureRandomProvider::SecureRandomState* value);
+    static void _set__secureRandomState(::GlobalNamespace::SecureRandomProvider::SecureRandomState* value);
     // static private System.Void .cctor()
     // Offset: 0x2E0437C
     static void _cctor();

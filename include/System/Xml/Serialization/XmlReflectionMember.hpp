@@ -29,8 +29,8 @@ namespace System::Xml::Serialization {
   class XmlReflectionMember;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Serialization::XmlReflectionMember);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Serialization::XmlReflectionMember*, "System.Xml.Serialization", "XmlReflectionMember");
+NEED_NO_BOX(::System::Xml::Serialization::XmlReflectionMember);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::XmlReflectionMember*, "System.Xml.Serialization", "XmlReflectionMember");
 // Type namespace: System.Xml.Serialization
 namespace System::Xml::Serialization {
   // Size: 0x38
@@ -65,32 +65,32 @@ namespace System::Xml::Serialization {
     // private System.Type memberType
     // Size: 0x8
     // Offset: 0x20
-    System::Type* memberType;
+    ::System::Type* memberType;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     // private System.Xml.Serialization.XmlAttributes xmlAttributes
     // Size: 0x8
     // Offset: 0x28
-    System::Xml::Serialization::XmlAttributes* xmlAttributes;
+    ::System::Xml::Serialization::XmlAttributes* xmlAttributes;
     // Field size check
-    static_assert(sizeof(System::Xml::Serialization::XmlAttributes*) == 0x8);
+    static_assert(sizeof(::System::Xml::Serialization::XmlAttributes*) == 0x8);
     // private System.Type declaringType
     // Size: 0x8
     // Offset: 0x30
-    System::Type* declaringType;
+    ::System::Type* declaringType;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     public:
     // Get instance field reference: private System.Boolean isReturnValue
     bool& dyn_isReturnValue();
     // Get instance field reference: private System.String memberName
     ::StringW& dyn_memberName();
     // Get instance field reference: private System.Type memberType
-    System::Type*& dyn_memberType();
+    ::System::Type*& dyn_memberType();
     // Get instance field reference: private System.Xml.Serialization.XmlAttributes xmlAttributes
-    System::Xml::Serialization::XmlAttributes*& dyn_xmlAttributes();
+    ::System::Xml::Serialization::XmlAttributes*& dyn_xmlAttributes();
     // Get instance field reference: private System.Type declaringType
-    System::Type*& dyn_declaringType();
+    ::System::Type*& dyn_declaringType();
     // public System.Boolean get_IsReturnValue()
     // Offset: 0x1E0B578
     bool get_IsReturnValue();
@@ -99,26 +99,26 @@ namespace System::Xml::Serialization {
     ::StringW get_MemberName();
     // public System.Type get_MemberType()
     // Offset: 0x1E0B588
-    System::Type* get_MemberType();
+    ::System::Type* get_MemberType();
     // public System.Xml.Serialization.XmlAttributes get_XmlAttributes()
     // Offset: 0x1E08854
-    System::Xml::Serialization::XmlAttributes* get_XmlAttributes();
+    ::System::Xml::Serialization::XmlAttributes* get_XmlAttributes();
     // System.Type get_DeclaringType()
     // Offset: 0x1E0B590
-    System::Type* get_DeclaringType();
+    ::System::Type* get_DeclaringType();
     // System.Void set_DeclaringType(System.Type value)
     // Offset: 0x1E0B598
-    void set_DeclaringType(System::Type* value);
+    void set_DeclaringType(::System::Type* value);
     // System.Void .ctor(System.String name, System.Type type, System.Xml.Serialization.XmlAttributes attributes)
     // Offset: 0x1E09448
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlReflectionMember* New_ctor(::StringW name, System::Type* type, System::Xml::Serialization::XmlAttributes* attributes) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Serialization::XmlReflectionMember::.ctor");
+    static XmlReflectionMember* New_ctor(::StringW name, ::System::Type* type, ::System::Xml::Serialization::XmlAttributes* attributes) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Serialization::XmlReflectionMember::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlReflectionMember*, creationType>(name, type, attributes)));
     }
   }; // System.Xml.Serialization.XmlReflectionMember
   #pragma pack(pop)
-  static check_size<sizeof(XmlReflectionMember), 48 + sizeof(System::Type*)> __System_Xml_Serialization_XmlReflectionMemberSizeCheck;
+  static check_size<sizeof(XmlReflectionMember), 48 + sizeof(::System::Type*)> __System_Xml_Serialization_XmlReflectionMemberSizeCheck;
   static_assert(sizeof(XmlReflectionMember) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -141,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlReflectionMember::get_MemberType
 // Il2CppName: get_MemberType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Xml::Serialization::XmlReflectionMember::*)()>(&System::Xml::Serialization::XmlReflectionMember::get_MemberType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (System::Xml::Serialization::XmlReflectionMember::*)()>(&System::Xml::Serialization::XmlReflectionMember::get_MemberType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::XmlReflectionMember*), "get_MemberType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -149,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlReflectionMember::get_XmlAttributes
 // Il2CppName: get_XmlAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Serialization::XmlAttributes* (System::Xml::Serialization::XmlReflectionMember::*)()>(&System::Xml::Serialization::XmlReflectionMember::get_XmlAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlAttributes* (System::Xml::Serialization::XmlReflectionMember::*)()>(&System::Xml::Serialization::XmlReflectionMember::get_XmlAttributes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::XmlReflectionMember*), "get_XmlAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -157,7 +157,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlReflectionMember::get_DeclaringType
 // Il2CppName: get_DeclaringType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Xml::Serialization::XmlReflectionMember::*)()>(&System::Xml::Serialization::XmlReflectionMember::get_DeclaringType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (System::Xml::Serialization::XmlReflectionMember::*)()>(&System::Xml::Serialization::XmlReflectionMember::get_DeclaringType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::XmlReflectionMember*), "get_DeclaringType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -165,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlReflectionMember::set_DeclaringType
 // Il2CppName: set_DeclaringType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Serialization::XmlReflectionMember::*)(System::Type*)>(&System::Xml::Serialization::XmlReflectionMember::set_DeclaringType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Serialization::XmlReflectionMember::*)(::System::Type*)>(&System::Xml::Serialization::XmlReflectionMember::set_DeclaringType)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::XmlReflectionMember*), "set_DeclaringType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

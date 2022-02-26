@@ -31,8 +31,8 @@ namespace OnlineServices::API {
   class IUserLoginDtoDataSource;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(OnlineServices::API::IUserLoginDtoDataSource);
-DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::IUserLoginDtoDataSource*, "OnlineServices.API", "IUserLoginDtoDataSource");
+NEED_NO_BOX(::OnlineServices::API::IUserLoginDtoDataSource);
+DEFINE_IL2CPP_ARG_TYPE(::OnlineServices::API::IUserLoginDtoDataSource*, "OnlineServices.API", "IUserLoginDtoDataSource");
 // Type namespace: OnlineServices.API
 namespace OnlineServices::API {
   // Size: 0x10
@@ -43,13 +43,13 @@ namespace OnlineServices::API {
     public:
     // public System.Threading.Tasks.Task`1<BeatSaberAPI.DataTransferObjects.UserAuthenticationData> UserAuthenticationDataAsync(System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF
-    System::Threading::Tasks::Task_1<BeatSaberAPI::DataTransferObjects::UserAuthenticationData*>* UserAuthenticationDataAsync(System::Threading::CancellationToken cancellationToken);
+    ::System::Threading::Tasks::Task_1<::BeatSaberAPI::DataTransferObjects::UserAuthenticationData*>* UserAuthenticationDataAsync(::System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<System.String[]> GetUserFriendsUserIds(System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF
-    System::Threading::Tasks::Task_1<::ArrayW<::StringW>>* GetUserFriendsUserIds(System::Threading::CancellationToken cancellationToken);
+    ::System::Threading::Tasks::Task_1<::ArrayW<::StringW>>* GetUserFriendsUserIds(::System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<System.String> GetPlatformUserIdAsync(System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF
-    System::Threading::Tasks::Task_1<::StringW>* GetPlatformUserIdAsync(System::Threading::CancellationToken cancellationToken);
+    ::System::Threading::Tasks::Task_1<::StringW>* GetPlatformUserIdAsync(::System::Threading::CancellationToken cancellationToken);
   }; // OnlineServices.API.IUserLoginDtoDataSource
   #pragma pack(pop)
 }
@@ -57,7 +57,7 @@ namespace OnlineServices::API {
 // Writing MetadataGetter for method: OnlineServices::API::IUserLoginDtoDataSource::UserAuthenticationDataAsync
 // Il2CppName: UserAuthenticationDataAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<BeatSaberAPI::DataTransferObjects::UserAuthenticationData*>* (OnlineServices::API::IUserLoginDtoDataSource::*)(System::Threading::CancellationToken)>(&OnlineServices::API::IUserLoginDtoDataSource::UserAuthenticationDataAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::BeatSaberAPI::DataTransferObjects::UserAuthenticationData*>* (OnlineServices::API::IUserLoginDtoDataSource::*)(::System::Threading::CancellationToken)>(&OnlineServices::API::IUserLoginDtoDataSource::UserAuthenticationDataAsync)> {
   static const MethodInfo* get() {
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::IUserLoginDtoDataSource*), "UserAuthenticationDataAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cancellationToken});
@@ -66,7 +66,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: OnlineServices::API::IUserLoginDtoDataSource::GetUserFriendsUserIds
 // Il2CppName: GetUserFriendsUserIds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::ArrayW<::StringW>>* (OnlineServices::API::IUserLoginDtoDataSource::*)(System::Threading::CancellationToken)>(&OnlineServices::API::IUserLoginDtoDataSource::GetUserFriendsUserIds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::ArrayW<::StringW>>* (OnlineServices::API::IUserLoginDtoDataSource::*)(::System::Threading::CancellationToken)>(&OnlineServices::API::IUserLoginDtoDataSource::GetUserFriendsUserIds)> {
   static const MethodInfo* get() {
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::IUserLoginDtoDataSource*), "GetUserFriendsUserIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cancellationToken});
@@ -75,7 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: OnlineServices::API::IUserLoginDtoDataSource::GetPlatformUserIdAsync
 // Il2CppName: GetPlatformUserIdAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::StringW>* (OnlineServices::API::IUserLoginDtoDataSource::*)(System::Threading::CancellationToken)>(&OnlineServices::API::IUserLoginDtoDataSource::GetPlatformUserIdAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::StringW>* (OnlineServices::API::IUserLoginDtoDataSource::*)(::System::Threading::CancellationToken)>(&OnlineServices::API::IUserLoginDtoDataSource::GetPlatformUserIdAsync)> {
   static const MethodInfo* get() {
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::IUserLoginDtoDataSource*), "GetPlatformUserIdAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cancellationToken});

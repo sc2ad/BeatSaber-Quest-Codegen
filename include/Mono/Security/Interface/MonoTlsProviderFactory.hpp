@@ -19,8 +19,8 @@ namespace Mono::Security::Interface {
   class MonoTlsProviderFactory;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Security::Interface::MonoTlsProviderFactory);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::MonoTlsProviderFactory*, "Mono.Security.Interface", "MonoTlsProviderFactory");
+NEED_NO_BOX(::Mono::Security::Interface::MonoTlsProviderFactory);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Interface::MonoTlsProviderFactory*, "Mono.Security.Interface", "MonoTlsProviderFactory");
 // Type namespace: Mono.Security.Interface
 namespace Mono::Security::Interface {
   // Size: 0x10
@@ -31,7 +31,7 @@ namespace Mono::Security::Interface {
     public:
     // static public Mono.Security.Interface.MonoTlsProvider GetProvider()
     // Offset: 0x22CDC38
-    static Mono::Security::Interface::MonoTlsProvider* GetProvider();
+    static ::Mono::Security::Interface::MonoTlsProvider* GetProvider();
   }; // Mono.Security.Interface.MonoTlsProviderFactory
   #pragma pack(pop)
 }
@@ -39,7 +39,7 @@ namespace Mono::Security::Interface {
 // Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsProviderFactory::GetProvider
 // Il2CppName: GetProvider
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::MonoTlsProvider* (*)()>(&Mono::Security::Interface::MonoTlsProviderFactory::GetProvider)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::Interface::MonoTlsProvider* (*)()>(&Mono::Security::Interface::MonoTlsProviderFactory::GetProvider)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsProviderFactory*), "GetProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

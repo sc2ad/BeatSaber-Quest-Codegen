@@ -34,8 +34,8 @@ namespace Polyglot {
   class GoogleDownload;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Polyglot::GoogleDownload);
-DEFINE_IL2CPP_ARG_TYPE(Polyglot::GoogleDownload*, "Polyglot", "GoogleDownload");
+NEED_NO_BOX(::Polyglot::GoogleDownload);
+DEFINE_IL2CPP_ARG_TYPE(::Polyglot::GoogleDownload*, "Polyglot", "GoogleDownload");
 // Type namespace: Polyglot
 namespace Polyglot {
   // Size: 0x10
@@ -44,11 +44,11 @@ namespace Polyglot {
   // [TokenAttribute] Offset: FFFFFFFF
   class GoogleDownload : public ::Il2CppObject {
     public:
-    // Nested type: Polyglot::GoogleDownload::$DownloadSheet$d__0
+    // Nested type: ::Polyglot::GoogleDownload::$DownloadSheet$d__0
     class $DownloadSheet$d__0;
     // static public System.Collections.IEnumerator DownloadSheet(System.String docsId, System.String sheetId, System.Action`1<System.String> done, Polyglot.GoogleDriveDownloadFormat format, System.Func`2<System.Single,System.Boolean> progressbar)
     // Offset: 0x2995E14
-    static System::Collections::IEnumerator* DownloadSheet(::StringW docsId, ::StringW sheetId, System::Action_1<::StringW>* done, Polyglot::GoogleDriveDownloadFormat format, System::Func_2<float, bool>* progressbar);
+    static ::System::Collections::IEnumerator* DownloadSheet(::StringW docsId, ::StringW sheetId, ::System::Action_1<::StringW>* done, ::Polyglot::GoogleDriveDownloadFormat format, ::System::Func_2<float, bool>* progressbar);
   }; // Polyglot.GoogleDownload
   #pragma pack(pop)
 }
@@ -56,7 +56,7 @@ namespace Polyglot {
 // Writing MetadataGetter for method: Polyglot::GoogleDownload::DownloadSheet
 // Il2CppName: DownloadSheet
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (*)(::StringW, ::StringW, System::Action_1<::StringW>*, Polyglot::GoogleDriveDownloadFormat, System::Func_2<float, bool>*)>(&Polyglot::GoogleDownload::DownloadSheet)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (*)(::StringW, ::StringW, ::System::Action_1<::StringW>*, ::Polyglot::GoogleDriveDownloadFormat, ::System::Func_2<float, bool>*)>(&Polyglot::GoogleDownload::DownloadSheet)> {
   static const MethodInfo* get() {
     static auto* docsId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* sheetId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

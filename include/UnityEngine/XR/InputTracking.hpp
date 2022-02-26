@@ -32,8 +32,8 @@ namespace UnityEngine::XR {
   class InputTracking;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::XR::InputTracking);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::InputTracking*, "UnityEngine.XR", "InputTracking");
+NEED_NO_BOX(::UnityEngine::XR::InputTracking);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::InputTracking*, "UnityEngine.XR", "InputTracking");
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {
   // Size: 0x10
@@ -46,43 +46,43 @@ namespace UnityEngine::XR {
   // [NativeConditionalAttribute] Offset: 11CDEE4
   class InputTracking : public ::Il2CppObject {
     public:
-    // Nested type: UnityEngine::XR::InputTracking::TrackingStateEventType
+    // Nested type: ::UnityEngine::XR::InputTracking::TrackingStateEventType
     struct TrackingStateEventType;
     // [DebuggerBrowsableAttribute] Offset: 0x11CE87C
     // Get static field: static private System.Action`1<UnityEngine.XR.XRNodeState> trackingAcquired
-    static System::Action_1<UnityEngine::XR::XRNodeState>* _get_trackingAcquired();
+    static ::System::Action_1<::UnityEngine::XR::XRNodeState>* _get_trackingAcquired();
     // Set static field: static private System.Action`1<UnityEngine.XR.XRNodeState> trackingAcquired
-    static void _set_trackingAcquired(System::Action_1<UnityEngine::XR::XRNodeState>* value);
+    static void _set_trackingAcquired(::System::Action_1<::UnityEngine::XR::XRNodeState>* value);
     // [DebuggerBrowsableAttribute] Offset: 0x11CE8B8
     // Get static field: static private System.Action`1<UnityEngine.XR.XRNodeState> trackingLost
-    static System::Action_1<UnityEngine::XR::XRNodeState>* _get_trackingLost();
+    static ::System::Action_1<::UnityEngine::XR::XRNodeState>* _get_trackingLost();
     // Set static field: static private System.Action`1<UnityEngine.XR.XRNodeState> trackingLost
-    static void _set_trackingLost(System::Action_1<UnityEngine::XR::XRNodeState>* value);
+    static void _set_trackingLost(::System::Action_1<::UnityEngine::XR::XRNodeState>* value);
     // [DebuggerBrowsableAttribute] Offset: 0x11CE8F4
     // Get static field: static private System.Action`1<UnityEngine.XR.XRNodeState> nodeAdded
-    static System::Action_1<UnityEngine::XR::XRNodeState>* _get_nodeAdded();
+    static ::System::Action_1<::UnityEngine::XR::XRNodeState>* _get_nodeAdded();
     // Set static field: static private System.Action`1<UnityEngine.XR.XRNodeState> nodeAdded
-    static void _set_nodeAdded(System::Action_1<UnityEngine::XR::XRNodeState>* value);
+    static void _set_nodeAdded(::System::Action_1<::UnityEngine::XR::XRNodeState>* value);
     // [DebuggerBrowsableAttribute] Offset: 0x11CE930
     // Get static field: static private System.Action`1<UnityEngine.XR.XRNodeState> nodeRemoved
-    static System::Action_1<UnityEngine::XR::XRNodeState>* _get_nodeRemoved();
+    static ::System::Action_1<::UnityEngine::XR::XRNodeState>* _get_nodeRemoved();
     // Set static field: static private System.Action`1<UnityEngine.XR.XRNodeState> nodeRemoved
-    static void _set_nodeRemoved(System::Action_1<UnityEngine::XR::XRNodeState>* value);
+    static void _set_nodeRemoved(::System::Action_1<::UnityEngine::XR::XRNodeState>* value);
     // static private System.Void .cctor()
     // Offset: 0x2A49108
     static void _cctor();
     // static private System.Void InvokeTrackingEvent(UnityEngine.XR.InputTracking/UnityEngine.XR.TrackingStateEventType eventType, UnityEngine.XR.XRNode nodeType, System.Int64 uniqueID, System.Boolean tracked)
     // Offset: 0x2A48D9C
-    static void InvokeTrackingEvent(UnityEngine::XR::InputTracking::TrackingStateEventType eventType, UnityEngine::XR::XRNode nodeType, int64_t uniqueID, bool tracked);
+    static void InvokeTrackingEvent(::UnityEngine::XR::InputTracking::TrackingStateEventType eventType, ::UnityEngine::XR::XRNode nodeType, int64_t uniqueID, bool tracked);
     // static public System.Void Recenter()
     // Offset: 0x2A48FBC
     static void Recenter();
     // static public System.Void GetNodeStates(System.Collections.Generic.List`1<UnityEngine.XR.XRNodeState> nodeStates)
     // Offset: 0x2A48FF0
-    static void GetNodeStates(System::Collections::Generic::List_1<UnityEngine::XR::XRNodeState>* nodeStates);
+    static void GetNodeStates(::System::Collections::Generic::List_1<::UnityEngine::XR::XRNodeState>* nodeStates);
     // static private System.Void GetNodeStates_Internal(System.Collections.Generic.List`1<UnityEngine.XR.XRNodeState> nodeStates)
     // Offset: 0x2A490C8
-    static void GetNodeStates_Internal(System::Collections::Generic::List_1<UnityEngine::XR::XRNodeState>* nodeStates);
+    static void GetNodeStates_Internal(::System::Collections::Generic::List_1<::UnityEngine::XR::XRNodeState>* nodeStates);
   }; // UnityEngine.XR.InputTracking
   #pragma pack(pop)
 }
@@ -98,7 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::XR::InputTracking::InvokeTrackingEvent
 // Il2CppName: InvokeTrackingEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::XR::InputTracking::TrackingStateEventType, UnityEngine::XR::XRNode, int64_t, bool)>(&UnityEngine::XR::InputTracking::InvokeTrackingEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::XR::InputTracking::TrackingStateEventType, ::UnityEngine::XR::XRNode, int64_t, bool)>(&UnityEngine::XR::InputTracking::InvokeTrackingEvent)> {
   static const MethodInfo* get() {
     static auto* eventType = &::il2cpp_utils::GetClassFromName("UnityEngine.XR", "InputTracking/TrackingStateEventType")->byval_arg;
     static auto* nodeType = &::il2cpp_utils::GetClassFromName("UnityEngine.XR", "XRNode")->byval_arg;
@@ -118,7 +118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::XR::InputTracking::GetNodeStates
 // Il2CppName: GetNodeStates
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::List_1<UnityEngine::XR::XRNodeState>*)>(&UnityEngine::XR::InputTracking::GetNodeStates)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::List_1<::UnityEngine::XR::XRNodeState>*)>(&UnityEngine::XR::InputTracking::GetNodeStates)> {
   static const MethodInfo* get() {
     static auto* nodeStates = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.XR", "XRNodeState")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::InputTracking*), "GetNodeStates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeStates});
@@ -127,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::XR::InputTracking::GetNodeStates_Internal
 // Il2CppName: GetNodeStates_Internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::List_1<UnityEngine::XR::XRNodeState>*)>(&UnityEngine::XR::InputTracking::GetNodeStates_Internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::List_1<::UnityEngine::XR::XRNodeState>*)>(&UnityEngine::XR::InputTracking::GetNodeStates_Internal)> {
   static const MethodInfo* get() {
     static auto* nodeStates = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.XR", "XRNodeState")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::InputTracking*), "GetNodeStates_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeStates});

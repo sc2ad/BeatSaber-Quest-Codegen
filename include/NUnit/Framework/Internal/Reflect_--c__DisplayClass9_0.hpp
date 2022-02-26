@@ -21,8 +21,8 @@ namespace System::Reflection {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Internal::Reflect::$$c__DisplayClass9_0);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Reflect::$$c__DisplayClass9_0*, "NUnit.Framework.Internal", "Reflect/<>c__DisplayClass9_0");
+NEED_NO_BOX(::NUnit::Framework::Internal::Reflect::$$c__DisplayClass9_0);
+DEFINE_IL2CPP_ARG_TYPE(::NUnit::Framework::Internal::Reflect::$$c__DisplayClass9_0*, "NUnit.Framework.Internal", "Reflect/<>c__DisplayClass9_0");
 // Type namespace: NUnit.Framework.Internal
 namespace NUnit::Framework::Internal {
   // Size: 0x28
@@ -44,9 +44,9 @@ namespace NUnit::Framework::Internal {
     // public System.Reflection.MethodInfo method
     // Size: 0x8
     // Offset: 0x10
-    System::Reflection::MethodInfo* method;
+    ::System::Reflection::MethodInfo* method;
     // Field size check
-    static_assert(sizeof(System::Reflection::MethodInfo*) == 0x8);
+    static_assert(sizeof(::System::Reflection::MethodInfo*) == 0x8);
     // public System.Object fixture
     // Size: 0x8
     // Offset: 0x18
@@ -61,7 +61,7 @@ namespace NUnit::Framework::Internal {
     static_assert(sizeof(::ArrayW<::Il2CppObject*>) == 0x8);
     public:
     // Get instance field reference: public System.Reflection.MethodInfo method
-    System::Reflection::MethodInfo*& dyn_method();
+    ::System::Reflection::MethodInfo*& dyn_method();
     // Get instance field reference: public System.Object fixture
     ::Il2CppObject*& dyn_fixture();
     // Get instance field reference: public System.Object[] args
@@ -75,7 +75,7 @@ namespace NUnit::Framework::Internal {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Reflect::$$c__DisplayClass9_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Reflect::$$c__DisplayClass9_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::Reflect::$$c__DisplayClass9_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Reflect::$$c__DisplayClass9_0*, creationType>()));
     }
   }; // NUnit.Framework.Internal.Reflect/NUnit.Framework.Internal.<>c__DisplayClass9_0

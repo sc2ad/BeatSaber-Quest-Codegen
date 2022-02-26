@@ -24,8 +24,8 @@ namespace Zenject {
   class SubContainerCreatorBindInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::SubContainerCreatorBindInfo);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorBindInfo*, "Zenject", "SubContainerCreatorBindInfo");
+NEED_NO_BOX(::Zenject::SubContainerCreatorBindInfo);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::SubContainerCreatorBindInfo*, "Zenject", "SubContainerCreatorBindInfo");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x28
@@ -61,16 +61,16 @@ namespace Zenject {
     // private System.Type <KernelType>k__BackingField
     // Size: 0x8
     // Offset: 0x20
-    System::Type* KernelType;
+    ::System::Type* KernelType;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     public:
     // Get instance field reference: private System.String <DefaultParentName>k__BackingField
     ::StringW& dyn_$DefaultParentName$k__BackingField();
     // Get instance field reference: private System.Boolean <CreateKernel>k__BackingField
     bool& dyn_$CreateKernel$k__BackingField();
     // Get instance field reference: private System.Type <KernelType>k__BackingField
-    System::Type*& dyn_$KernelType$k__BackingField();
+    ::System::Type*& dyn_$KernelType$k__BackingField();
     // public System.String get_DefaultParentName()
     // Offset: 0x2469B38
     ::StringW get_DefaultParentName();
@@ -85,22 +85,22 @@ namespace Zenject {
     void set_CreateKernel(bool value);
     // public System.Type get_KernelType()
     // Offset: 0x2469B5C
-    System::Type* get_KernelType();
+    ::System::Type* get_KernelType();
     // public System.Void set_KernelType(System.Type value)
     // Offset: 0x2469B64
-    void set_KernelType(System::Type* value);
+    void set_KernelType(::System::Type* value);
     // public System.Void .ctor()
     // Offset: 0x2466020
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubContainerCreatorBindInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::SubContainerCreatorBindInfo::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SubContainerCreatorBindInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SubContainerCreatorBindInfo*, creationType>()));
     }
   }; // Zenject.SubContainerCreatorBindInfo
   #pragma pack(pop)
-  static check_size<sizeof(SubContainerCreatorBindInfo), 32 + sizeof(System::Type*)> __Zenject_SubContainerCreatorBindInfoSizeCheck;
+  static check_size<sizeof(SubContainerCreatorBindInfo), 32 + sizeof(::System::Type*)> __Zenject_SubContainerCreatorBindInfoSizeCheck;
   static_assert(sizeof(SubContainerCreatorBindInfo) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -141,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Writing MetadataGetter for method: Zenject::SubContainerCreatorBindInfo::get_KernelType
 // Il2CppName: get_KernelType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (Zenject::SubContainerCreatorBindInfo::*)()>(&Zenject::SubContainerCreatorBindInfo::get_KernelType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (Zenject::SubContainerCreatorBindInfo::*)()>(&Zenject::SubContainerCreatorBindInfo::get_KernelType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerCreatorBindInfo*), "get_KernelType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -149,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: Zenject::SubContainerCreatorBindInfo::set_KernelType
 // Il2CppName: set_KernelType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::SubContainerCreatorBindInfo::*)(System::Type*)>(&Zenject::SubContainerCreatorBindInfo::set_KernelType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::SubContainerCreatorBindInfo::*)(::System::Type*)>(&Zenject::SubContainerCreatorBindInfo::set_KernelType)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerCreatorBindInfo*), "set_KernelType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

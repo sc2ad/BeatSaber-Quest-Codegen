@@ -27,8 +27,8 @@ namespace System::Runtime::CompilerServices {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::CompilerServices::AsyncMethodBuilderCore::MoveNextRunner);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncMethodBuilderCore::MoveNextRunner*, "System.Runtime.CompilerServices", "AsyncMethodBuilderCore/MoveNextRunner");
+NEED_NO_BOX(::System::Runtime::CompilerServices::AsyncMethodBuilderCore::MoveNextRunner);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::CompilerServices::AsyncMethodBuilderCore::MoveNextRunner*, "System.Runtime.CompilerServices", "AsyncMethodBuilderCore/MoveNextRunner");
 // Type namespace: System.Runtime.CompilerServices
 namespace System::Runtime::CompilerServices {
   // Size: 0x20
@@ -49,29 +49,29 @@ namespace System::Runtime::CompilerServices {
     // private readonly System.Threading.ExecutionContext m_context
     // Size: 0x8
     // Offset: 0x10
-    System::Threading::ExecutionContext* m_context;
+    ::System::Threading::ExecutionContext* m_context;
     // Field size check
-    static_assert(sizeof(System::Threading::ExecutionContext*) == 0x8);
+    static_assert(sizeof(::System::Threading::ExecutionContext*) == 0x8);
     // System.Runtime.CompilerServices.IAsyncStateMachine m_stateMachine
     // Size: 0x8
     // Offset: 0x18
-    System::Runtime::CompilerServices::IAsyncStateMachine* m_stateMachine;
+    ::System::Runtime::CompilerServices::IAsyncStateMachine* m_stateMachine;
     // Field size check
-    static_assert(sizeof(System::Runtime::CompilerServices::IAsyncStateMachine*) == 0x8);
+    static_assert(sizeof(::System::Runtime::CompilerServices::IAsyncStateMachine*) == 0x8);
     public:
     // Get static field: static private System.Threading.ContextCallback s_invokeMoveNext
-    static System::Threading::ContextCallback* _get_s_invokeMoveNext();
+    static ::System::Threading::ContextCallback* _get_s_invokeMoveNext();
     // Set static field: static private System.Threading.ContextCallback s_invokeMoveNext
-    static void _set_s_invokeMoveNext(System::Threading::ContextCallback* value);
+    static void _set_s_invokeMoveNext(::System::Threading::ContextCallback* value);
     // Get instance field reference: private readonly System.Threading.ExecutionContext m_context
-    System::Threading::ExecutionContext*& dyn_m_context();
+    ::System::Threading::ExecutionContext*& dyn_m_context();
     // Get instance field reference: System.Runtime.CompilerServices.IAsyncStateMachine m_stateMachine
-    System::Runtime::CompilerServices::IAsyncStateMachine*& dyn_m_stateMachine();
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*& dyn_m_stateMachine();
     // System.Void .ctor(System.Threading.ExecutionContext context, System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     // Offset: 0x1C69280
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AsyncMethodBuilderCore::MoveNextRunner* New_ctor(System::Threading::ExecutionContext* context, System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::AsyncMethodBuilderCore::MoveNextRunner::.ctor");
+    static AsyncMethodBuilderCore::MoveNextRunner* New_ctor(::System::Threading::ExecutionContext* context, ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::AsyncMethodBuilderCore::MoveNextRunner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsyncMethodBuilderCore::MoveNextRunner*, creationType>(context, stateMachine)));
     }
     // System.Void Run()
@@ -82,7 +82,7 @@ namespace System::Runtime::CompilerServices {
     static void InvokeMoveNext(::Il2CppObject* stateMachine);
   }; // System.Runtime.CompilerServices.AsyncMethodBuilderCore/System.Runtime.CompilerServices.MoveNextRunner
   #pragma pack(pop)
-  static check_size<sizeof(AsyncMethodBuilderCore::MoveNextRunner), 24 + sizeof(System::Runtime::CompilerServices::IAsyncStateMachine*)> __System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunnerSizeCheck;
+  static check_size<sizeof(AsyncMethodBuilderCore::MoveNextRunner), 24 + sizeof(::System::Runtime::CompilerServices::IAsyncStateMachine*)> __System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunnerSizeCheck;
   static_assert(sizeof(AsyncMethodBuilderCore::MoveNextRunner) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -41,8 +41,8 @@ namespace System::Text {
   class StringBuilder;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Text::StringBuilder);
-DEFINE_IL2CPP_ARG_TYPE(System::Text::StringBuilder*, "System.Text", "StringBuilder");
+NEED_NO_BOX(::System::Text::StringBuilder);
+DEFINE_IL2CPP_ARG_TYPE(::System::Text::StringBuilder*, "System.Text", "StringBuilder");
 // Type namespace: System.Text
 namespace System::Text {
   // Size: 0x2C
@@ -52,7 +52,7 @@ namespace System::Text {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: 1187BE0
   // [DefaultMemberAttribute] Offset: 1187BE0
-  class StringBuilder : public ::Il2CppObject/*, public System::Runtime::Serialization::ISerializable*/ {
+  class StringBuilder : public ::Il2CppObject/*, public ::System::Runtime::Serialization::ISerializable*/ {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -72,9 +72,9 @@ namespace System::Text {
     // System.Text.StringBuilder m_ChunkPrevious
     // Size: 0x8
     // Offset: 0x18
-    System::Text::StringBuilder* m_ChunkPrevious;
+    ::System::Text::StringBuilder* m_ChunkPrevious;
     // Field size check
-    static_assert(sizeof(System::Text::StringBuilder*) == 0x8);
+    static_assert(sizeof(::System::Text::StringBuilder*) == 0x8);
     // System.Int32 m_ChunkLength
     // Size: 0x4
     // Offset: 0x20
@@ -94,9 +94,9 @@ namespace System::Text {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     public:
-    // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
-    operator System::Runtime::Serialization::ISerializable() noexcept {
-      return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);
+    // Creating interface conversion operator: operator ::System::Runtime::Serialization::ISerializable
+    operator ::System::Runtime::Serialization::ISerializable() noexcept {
+      return *reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
     }
     // static field const value: static System.Int32 DefaultCapacity
     static constexpr const int DefaultCapacity = 16;
@@ -137,7 +137,7 @@ namespace System::Text {
     // Get instance field reference: System.Char[] m_ChunkChars
     ::ArrayW<::Il2CppChar>& dyn_m_ChunkChars();
     // Get instance field reference: System.Text.StringBuilder m_ChunkPrevious
-    System::Text::StringBuilder*& dyn_m_ChunkPrevious();
+    ::System::Text::StringBuilder*& dyn_m_ChunkPrevious();
     // Get instance field reference: System.Int32 m_ChunkLength
     int& dyn_m_ChunkLength();
     // Get instance field reference: System.Int32 m_ChunkOffset
@@ -169,54 +169,54 @@ namespace System::Text {
     // Offset: 0x1FAA4C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StringBuilder* New_ctor(int capacity) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::StringBuilder::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::StringBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StringBuilder*, creationType>(capacity)));
     }
     // public System.Void .ctor(System.String value)
     // Offset: 0x1FABCC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StringBuilder* New_ctor(::StringW value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::StringBuilder::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::StringBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StringBuilder*, creationType>(value)));
     }
     // public System.Void .ctor(System.String value, System.Int32 capacity)
     // Offset: 0x1FABC98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StringBuilder* New_ctor(::StringW value, int capacity) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::StringBuilder::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::StringBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StringBuilder*, creationType>(value, capacity)));
     }
     // public System.Void .ctor(System.String value, System.Int32 startIndex, System.Int32 length, System.Int32 capacity)
     // Offset: 0x1FABCCC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StringBuilder* New_ctor(::StringW value, int startIndex, int length, int capacity) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::StringBuilder::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::StringBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StringBuilder*, creationType>(value, startIndex, length, capacity)));
     }
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x1FAC038
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static StringBuilder* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::StringBuilder::.ctor");
+    static StringBuilder* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::StringBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StringBuilder*, creationType>(info, context)));
     }
     // private System.Void .ctor(System.Text.StringBuilder from)
     // Offset: 0x1FAF1C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static StringBuilder* New_ctor(System::Text::StringBuilder* from) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::StringBuilder::.ctor");
+    static StringBuilder* New_ctor(::System::Text::StringBuilder* from) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::StringBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StringBuilder*, creationType>(from)));
     }
     // private System.Void .ctor(System.Int32 size, System.Int32 maxCapacity, System.Text.StringBuilder previousBlock)
     // Offset: 0x1FAF21C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static StringBuilder* New_ctor(int size, int maxCapacity, System::Text::StringBuilder* previousBlock) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::StringBuilder::.ctor");
+    static StringBuilder* New_ctor(int size, int maxCapacity, ::System::Text::StringBuilder* previousBlock) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::StringBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StringBuilder*, creationType>(size, maxCapacity, previousBlock)));
     }
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x1FAC2DC
-    void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
+    void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
     // public System.Int32 EnsureCapacity(System.Int32 capacity)
     // Offset: 0x1FAC554
     int EnsureCapacity(int capacity);
@@ -225,115 +225,115 @@ namespace System::Text {
     ::StringW ToString(int startIndex, int length);
     // public System.Text.StringBuilder Clear()
     // Offset: 0x1FAC9CC
-    System::Text::StringBuilder* Clear();
+    ::System::Text::StringBuilder* Clear();
     // public System.Text.StringBuilder Append(System.Char value, System.Int32 repeatCount)
     // Offset: 0x1FACB90
-    System::Text::StringBuilder* Append(::Il2CppChar value, int repeatCount);
+    ::System::Text::StringBuilder* Append(::Il2CppChar value, int repeatCount);
     // public System.Text.StringBuilder Append(System.Char[] value, System.Int32 startIndex, System.Int32 charCount)
     // Offset: 0x1FACE74
-    System::Text::StringBuilder* Append(::ArrayW<::Il2CppChar> value, int startIndex, int charCount);
+    ::System::Text::StringBuilder* Append(::ArrayW<::Il2CppChar> value, int startIndex, int charCount);
     // public System.Text.StringBuilder Append(System.String value)
     // Offset: 0x1FAA530
-    System::Text::StringBuilder* Append(::StringW value);
+    ::System::Text::StringBuilder* Append(::StringW value);
     // private System.Void AppendHelper(System.String value)
     // Offset: 0x1FAD158
     void AppendHelper(::StringW value);
     // public System.Text.StringBuilder Append(System.String value, System.Int32 startIndex, System.Int32 count)
     // Offset: 0x1FAB1B0
-    System::Text::StringBuilder* Append(::StringW value, int startIndex, int count);
+    ::System::Text::StringBuilder* Append(::StringW value, int startIndex, int count);
     // public System.Text.StringBuilder AppendLine()
     // Offset: 0x1FAD194
-    System::Text::StringBuilder* AppendLine();
+    ::System::Text::StringBuilder* AppendLine();
     // public System.Text.StringBuilder AppendLine(System.String value)
     // Offset: 0x1FAD1C0
-    System::Text::StringBuilder* AppendLine(::StringW value);
+    ::System::Text::StringBuilder* AppendLine(::StringW value);
     // public System.Text.StringBuilder Insert(System.Int32 index, System.String value, System.Int32 count)
     // Offset: 0x1FAD1F0
-    System::Text::StringBuilder* Insert(int index, ::StringW value, int count);
+    ::System::Text::StringBuilder* Insert(int index, ::StringW value, int count);
     // public System.Text.StringBuilder Remove(System.Int32 startIndex, System.Int32 length)
     // Offset: 0x1FAAC6C
-    System::Text::StringBuilder* Remove(int startIndex, int length);
+    ::System::Text::StringBuilder* Remove(int startIndex, int length);
     // public System.Text.StringBuilder Append(System.Boolean value)
     // Offset: 0x1FAD8A8
-    System::Text::StringBuilder* Append(bool value);
+    ::System::Text::StringBuilder* Append(bool value);
     // public System.Text.StringBuilder Append(System.Byte value)
     // Offset: 0x1FAD8E4
-    System::Text::StringBuilder* Append(uint8_t value);
+    ::System::Text::StringBuilder* Append(uint8_t value);
     // public System.Text.StringBuilder Append(System.Char value)
     // Offset: 0x1FAB7C4
-    System::Text::StringBuilder* Append(::Il2CppChar value);
+    ::System::Text::StringBuilder* Append(::Il2CppChar value);
     // public System.Text.StringBuilder Append(System.Int32 value)
     // Offset: 0x1FAD974
-    System::Text::StringBuilder* Append(int value);
+    ::System::Text::StringBuilder* Append(int value);
     // public System.Text.StringBuilder Append(System.Int64 value)
     // Offset: 0x1FADA04
-    System::Text::StringBuilder* Append(int64_t value);
+    ::System::Text::StringBuilder* Append(int64_t value);
     // public System.Text.StringBuilder Append(System.Double value)
     // Offset: 0x1FADA94
-    System::Text::StringBuilder* Append(double value);
+    ::System::Text::StringBuilder* Append(double value);
     // public System.Text.StringBuilder Append(System.Object value)
     // Offset: 0x1FADB24
-    System::Text::StringBuilder* Append(::Il2CppObject* value);
+    ::System::Text::StringBuilder* Append(::Il2CppObject* value);
     // public System.Text.StringBuilder Append(System.Char[] value)
     // Offset: 0x1FADB70
-    System::Text::StringBuilder* Append(::ArrayW<::Il2CppChar> value);
+    ::System::Text::StringBuilder* Append(::ArrayW<::Il2CppChar> value);
     // public System.Text.StringBuilder Insert(System.Int32 index, System.String value)
     // Offset: 0x1FADBA4
-    System::Text::StringBuilder* Insert(int index, ::StringW value);
+    ::System::Text::StringBuilder* Insert(int index, ::StringW value);
     // public System.Text.StringBuilder Insert(System.Int32 index, System.Char value)
     // Offset: 0x1FADD98
-    System::Text::StringBuilder* Insert(int index, ::Il2CppChar value);
+    ::System::Text::StringBuilder* Insert(int index, ::Il2CppChar value);
     // public System.Text.StringBuilder AppendFormat(System.String format, System.Object arg0)
     // Offset: 0x1FADDC8
-    System::Text::StringBuilder* AppendFormat(::StringW format, ::Il2CppObject* arg0);
+    ::System::Text::StringBuilder* AppendFormat(::StringW format, ::Il2CppObject* arg0);
     // public System.Text.StringBuilder AppendFormat(System.String format, System.Object arg0, System.Object arg1)
     // Offset: 0x1FAE60C
-    System::Text::StringBuilder* AppendFormat(::StringW format, ::Il2CppObject* arg0, ::Il2CppObject* arg1);
+    ::System::Text::StringBuilder* AppendFormat(::StringW format, ::Il2CppObject* arg0, ::Il2CppObject* arg1);
     // public System.Text.StringBuilder AppendFormat(System.String format, System.Object arg0, System.Object arg1, System.Object arg2)
     // Offset: 0x1FAE66C
-    System::Text::StringBuilder* AppendFormat(::StringW format, ::Il2CppObject* arg0, ::Il2CppObject* arg1, ::Il2CppObject* arg2);
+    ::System::Text::StringBuilder* AppendFormat(::StringW format, ::Il2CppObject* arg0, ::Il2CppObject* arg1, ::Il2CppObject* arg2);
     // public System.Text.StringBuilder AppendFormat(System.String format, params System.Object[] args)
     // Offset: 0x1FAE6D0
-    System::Text::StringBuilder* AppendFormat(::StringW format, ::ArrayW<::Il2CppObject*> args);
+    ::System::Text::StringBuilder* AppendFormat(::StringW format, ::ArrayW<::Il2CppObject*> args);
     // public System.Text.StringBuilder AppendFormat(System.IFormatProvider provider, System.String format, System.Object arg0)
     // Offset: 0x1FAE7B0
-    System::Text::StringBuilder* AppendFormat(System::IFormatProvider* provider, ::StringW format, ::Il2CppObject* arg0);
+    ::System::Text::StringBuilder* AppendFormat(::System::IFormatProvider* provider, ::StringW format, ::Il2CppObject* arg0);
     // public System.Text.StringBuilder AppendFormat(System.IFormatProvider provider, System.String format, System.Object arg0, System.Object arg1)
     // Offset: 0x1FAE818
-    System::Text::StringBuilder* AppendFormat(System::IFormatProvider* provider, ::StringW format, ::Il2CppObject* arg0, ::Il2CppObject* arg1);
+    ::System::Text::StringBuilder* AppendFormat(::System::IFormatProvider* provider, ::StringW format, ::Il2CppObject* arg0, ::Il2CppObject* arg1);
     // public System.Text.StringBuilder AppendFormat(System.IFormatProvider provider, System.String format, System.Object arg0, System.Object arg1, System.Object arg2)
     // Offset: 0x1FAE884
-    System::Text::StringBuilder* AppendFormat(System::IFormatProvider* provider, ::StringW format, ::Il2CppObject* arg0, ::Il2CppObject* arg1, ::Il2CppObject* arg2);
+    ::System::Text::StringBuilder* AppendFormat(::System::IFormatProvider* provider, ::StringW format, ::Il2CppObject* arg0, ::Il2CppObject* arg1, ::Il2CppObject* arg2);
     // public System.Text.StringBuilder AppendFormat(System.IFormatProvider provider, System.String format, params System.Object[] args)
     // Offset: 0x1FAE8F4
-    System::Text::StringBuilder* AppendFormat(System::IFormatProvider* provider, ::StringW format, ::ArrayW<::Il2CppObject*> args);
+    ::System::Text::StringBuilder* AppendFormat(::System::IFormatProvider* provider, ::StringW format, ::ArrayW<::Il2CppObject*> args);
     // static private System.Void FormatError()
     // Offset: 0x1FAE9E0
     static void FormatError();
     // System.Text.StringBuilder AppendFormatHelper(System.IFormatProvider provider, System.String format, System.ParamsArray args)
     // Offset: 0x1FADE24
-    System::Text::StringBuilder* AppendFormatHelper(System::IFormatProvider* provider, ::StringW format, System::ParamsArray args);
+    ::System::Text::StringBuilder* AppendFormatHelper(::System::IFormatProvider* provider, ::StringW format, ::System::ParamsArray args);
     // public System.Text.StringBuilder Replace(System.String oldValue, System.String newValue)
     // Offset: 0x1FAEA60
-    System::Text::StringBuilder* Replace(::StringW oldValue, ::StringW newValue);
+    ::System::Text::StringBuilder* Replace(::StringW oldValue, ::StringW newValue);
     // public System.Text.StringBuilder Replace(System.String oldValue, System.String newValue, System.Int32 startIndex, System.Int32 count)
     // Offset: 0x1FAEA70
-    System::Text::StringBuilder* Replace(::StringW oldValue, ::StringW newValue, int startIndex, int count);
+    ::System::Text::StringBuilder* Replace(::StringW oldValue, ::StringW newValue, int startIndex, int count);
     // public System.Text.StringBuilder Append(System.Char* value, System.Int32 valueCount)
     // Offset: 0x1FAD020
-    System::Text::StringBuilder* Append(::Il2CppChar* value, int valueCount);
+    ::System::Text::StringBuilder* Append(::Il2CppChar* value, int valueCount);
     // private System.Void Insert(System.Int32 index, System.Char* value, System.Int32 valueCount)
     // Offset: 0x1FADC84
     void Insert(int index, ::Il2CppChar* value, int valueCount);
     // private System.Void ReplaceAllInChunk(System.Int32[] replacements, System.Int32 replacementsCount, System.Text.StringBuilder sourceChunk, System.Int32 removeCount, System.String value)
     // Offset: 0x1FAEE94
-    void ReplaceAllInChunk(::ArrayW<int> replacements, int replacementsCount, System::Text::StringBuilder* sourceChunk, int removeCount, ::StringW value);
+    void ReplaceAllInChunk(::ArrayW<int> replacements, int replacementsCount, ::System::Text::StringBuilder* sourceChunk, int removeCount, ::StringW value);
     // private System.Boolean StartsWith(System.Text.StringBuilder chunk, System.Int32 indexInChunk, System.Int32 count, System.String value)
     // Offset: 0x1FAEDAC
-    bool StartsWith(System::Text::StringBuilder* chunk, int indexInChunk, int count, ::StringW value);
+    bool StartsWith(::System::Text::StringBuilder* chunk, int indexInChunk, int count, ::StringW value);
     // private System.Void ReplaceInPlaceAtChunk(ref System.Text.StringBuilder chunk, ref System.Int32 indexInChunk, System.Char* value, System.Int32 count)
     // Offset: 0x1FAD698
-    void ReplaceInPlaceAtChunk(ByRef<System::Text::StringBuilder*> chunk, ByRef<int> indexInChunk, ::Il2CppChar* value, int count);
+    void ReplaceInPlaceAtChunk(ByRef<::System::Text::StringBuilder*> chunk, ByRef<int> indexInChunk, ::Il2CppChar* value, int count);
     // static private System.Void ThreadSafeCopy(System.Char* sourcePtr, System.Char[] destination, System.Int32 destinationIndex, System.Int32 count)
     // Offset: 0x1FABF1C
     static void ThreadSafeCopy(::Il2CppChar* sourcePtr, ::ArrayW<::Il2CppChar> destination, int destinationIndex, int count);
@@ -342,26 +342,26 @@ namespace System::Text {
     static void ThreadSafeCopy(::ArrayW<::Il2CppChar> source, int sourceIndex, ::ArrayW<::Il2CppChar> destination, int destinationIndex, int count);
     // private System.Text.StringBuilder FindChunkForIndex(System.Int32 index)
     // Offset: 0x1FACCB8
-    System::Text::StringBuilder* FindChunkForIndex(int index);
+    ::System::Text::StringBuilder* FindChunkForIndex(int index);
     // private System.Text.StringBuilder Next(System.Text.StringBuilder chunk)
     // Offset: 0x1FAF060
-    System::Text::StringBuilder* Next(System::Text::StringBuilder* chunk);
+    ::System::Text::StringBuilder* Next(::System::Text::StringBuilder* chunk);
     // private System.Void ExpandByABlock(System.Int32 minBlockCharCount)
     // Offset: 0x1FACCE0
     void ExpandByABlock(int minBlockCharCount);
     // private System.Void MakeRoom(System.Int32 index, System.Int32 count, out System.Text.StringBuilder chunk, out System.Int32 indexInChunk, System.Boolean doneMoveFollowingChars)
     // Offset: 0x1FAD3B0
-    void MakeRoom(int index, int count, ByRef<System::Text::StringBuilder*> chunk, ByRef<int> indexInChunk, bool doneMoveFollowingChars);
+    void MakeRoom(int index, int count, ByRef<::System::Text::StringBuilder*> chunk, ByRef<int> indexInChunk, bool doneMoveFollowingChars);
     // private System.Void Remove(System.Int32 startIndex, System.Int32 count, out System.Text.StringBuilder chunk, out System.Int32 indexInChunk)
     // Offset: 0x1FAD7B0
-    void Remove(int startIndex, int count, ByRef<System::Text::StringBuilder*> chunk, ByRef<int> indexInChunk);
+    void Remove(int startIndex, int count, ByRef<::System::Text::StringBuilder*> chunk, ByRef<int> indexInChunk);
     // public System.Void .ctor()
     // Offset: 0x1FABC90
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StringBuilder* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::StringBuilder::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::StringBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StringBuilder*, creationType>()));
     }
     // public override System.String ToString()
@@ -467,7 +467,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Text::StringBuilder::System_Runtime_Serialization_ISerializable_GetObjectData
 // Il2CppName: System.Runtime.Serialization.ISerializable.GetObjectData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::StringBuilder::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::Text::StringBuilder::System_Runtime_Serialization_ISerializable_GetObjectData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::StringBuilder::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&System::Text::StringBuilder::System_Runtime_Serialization_ISerializable_GetObjectData)> {
   static const MethodInfo* get() {
     static auto* info = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
@@ -496,7 +496,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Text::StringBuilder::Clear
 // Il2CppName: Clear
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)()>(&System::Text::StringBuilder::Clear)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::StringBuilder* (System::Text::StringBuilder::*)()>(&System::Text::StringBuilder::Clear)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -504,7 +504,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::StringBuilder::Append
 // Il2CppName: Append
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(::Il2CppChar, int)>(&System::Text::StringBuilder::Append)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::StringBuilder* (System::Text::StringBuilder::*)(::Il2CppChar, int)>(&System::Text::StringBuilder::Append)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     static auto* repeatCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -514,7 +514,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::StringBuilder::Append
 // Il2CppName: Append
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(::ArrayW<::Il2CppChar>, int, int)>(&System::Text::StringBuilder::Append)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::StringBuilder* (System::Text::StringBuilder::*)(::ArrayW<::Il2CppChar>, int, int)>(&System::Text::StringBuilder::Append)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -525,7 +525,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::StringBuilder::Append
 // Il2CppName: Append
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(::StringW)>(&System::Text::StringBuilder::Append)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::StringBuilder* (System::Text::StringBuilder::*)(::StringW)>(&System::Text::StringBuilder::Append)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "Append", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -543,7 +543,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Text::StringBuilder::Append
 // Il2CppName: Append
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(::StringW, int, int)>(&System::Text::StringBuilder::Append)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::StringBuilder* (System::Text::StringBuilder::*)(::StringW, int, int)>(&System::Text::StringBuilder::Append)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -554,7 +554,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::StringBuilder::AppendLine
 // Il2CppName: AppendLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)()>(&System::Text::StringBuilder::AppendLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::StringBuilder* (System::Text::StringBuilder::*)()>(&System::Text::StringBuilder::AppendLine)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "AppendLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -562,7 +562,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::StringBuilder::AppendLine
 // Il2CppName: AppendLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(::StringW)>(&System::Text::StringBuilder::AppendLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::StringBuilder* (System::Text::StringBuilder::*)(::StringW)>(&System::Text::StringBuilder::AppendLine)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "AppendLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -571,7 +571,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::StringBuilder::Insert
 // Il2CppName: Insert
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(int, ::StringW, int)>(&System::Text::StringBuilder::Insert)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::StringBuilder* (System::Text::StringBuilder::*)(int, ::StringW, int)>(&System::Text::StringBuilder::Insert)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -582,7 +582,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::StringBuilder::Remove
 // Il2CppName: Remove
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(int, int)>(&System::Text::StringBuilder::Remove)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::StringBuilder* (System::Text::StringBuilder::*)(int, int)>(&System::Text::StringBuilder::Remove)> {
   static const MethodInfo* get() {
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -592,7 +592,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::StringBuilder::Append
 // Il2CppName: Append
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(bool)>(&System::Text::StringBuilder::Append)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::StringBuilder* (System::Text::StringBuilder::*)(bool)>(&System::Text::StringBuilder::Append)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "Append", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -601,7 +601,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::StringBuilder::Append
 // Il2CppName: Append
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(uint8_t)>(&System::Text::StringBuilder::Append)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::StringBuilder* (System::Text::StringBuilder::*)(uint8_t)>(&System::Text::StringBuilder::Append)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "Append", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -610,7 +610,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::StringBuilder::Append
 // Il2CppName: Append
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(::Il2CppChar)>(&System::Text::StringBuilder::Append)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::StringBuilder* (System::Text::StringBuilder::*)(::Il2CppChar)>(&System::Text::StringBuilder::Append)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "Append", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -619,7 +619,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::StringBuilder::Append
 // Il2CppName: Append
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(int)>(&System::Text::StringBuilder::Append)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::StringBuilder* (System::Text::StringBuilder::*)(int)>(&System::Text::StringBuilder::Append)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "Append", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -628,7 +628,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::StringBuilder::Append
 // Il2CppName: Append
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(int64_t)>(&System::Text::StringBuilder::Append)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::StringBuilder* (System::Text::StringBuilder::*)(int64_t)>(&System::Text::StringBuilder::Append)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "Append", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -637,7 +637,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::StringBuilder::Append
 // Il2CppName: Append
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(double)>(&System::Text::StringBuilder::Append)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::StringBuilder* (System::Text::StringBuilder::*)(double)>(&System::Text::StringBuilder::Append)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "Append", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -646,7 +646,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::StringBuilder::Append
 // Il2CppName: Append
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(::Il2CppObject*)>(&System::Text::StringBuilder::Append)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::StringBuilder* (System::Text::StringBuilder::*)(::Il2CppObject*)>(&System::Text::StringBuilder::Append)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "Append", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -655,7 +655,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::StringBuilder::Append
 // Il2CppName: Append
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(::ArrayW<::Il2CppChar>)>(&System::Text::StringBuilder::Append)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::StringBuilder* (System::Text::StringBuilder::*)(::ArrayW<::Il2CppChar>)>(&System::Text::StringBuilder::Append)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "Append", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -664,7 +664,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::StringBuilder::Insert
 // Il2CppName: Insert
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(int, ::StringW)>(&System::Text::StringBuilder::Insert)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::StringBuilder* (System::Text::StringBuilder::*)(int, ::StringW)>(&System::Text::StringBuilder::Insert)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -674,7 +674,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::StringBuilder::Insert
 // Il2CppName: Insert
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(int, ::Il2CppChar)>(&System::Text::StringBuilder::Insert)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::StringBuilder* (System::Text::StringBuilder::*)(int, ::Il2CppChar)>(&System::Text::StringBuilder::Insert)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
@@ -684,7 +684,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::StringBuilder::AppendFormat
 // Il2CppName: AppendFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(::StringW, ::Il2CppObject*)>(&System::Text::StringBuilder::AppendFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::StringBuilder* (System::Text::StringBuilder::*)(::StringW, ::Il2CppObject*)>(&System::Text::StringBuilder::AppendFormat)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* arg0 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -694,7 +694,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::StringBuilder::AppendFormat
 // Il2CppName: AppendFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(::StringW, ::Il2CppObject*, ::Il2CppObject*)>(&System::Text::StringBuilder::AppendFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::StringBuilder* (System::Text::StringBuilder::*)(::StringW, ::Il2CppObject*, ::Il2CppObject*)>(&System::Text::StringBuilder::AppendFormat)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* arg0 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -705,7 +705,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::StringBuilder::AppendFormat
 // Il2CppName: AppendFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(::StringW, ::Il2CppObject*, ::Il2CppObject*, ::Il2CppObject*)>(&System::Text::StringBuilder::AppendFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::StringBuilder* (System::Text::StringBuilder::*)(::StringW, ::Il2CppObject*, ::Il2CppObject*, ::Il2CppObject*)>(&System::Text::StringBuilder::AppendFormat)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* arg0 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -717,7 +717,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::StringBuilder::AppendFormat
 // Il2CppName: AppendFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(::StringW, ::ArrayW<::Il2CppObject*>)>(&System::Text::StringBuilder::AppendFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::StringBuilder* (System::Text::StringBuilder::*)(::StringW, ::ArrayW<::Il2CppObject*>)>(&System::Text::StringBuilder::AppendFormat)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
@@ -727,7 +727,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::StringBuilder::AppendFormat
 // Il2CppName: AppendFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(System::IFormatProvider*, ::StringW, ::Il2CppObject*)>(&System::Text::StringBuilder::AppendFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::StringBuilder* (System::Text::StringBuilder::*)(::System::IFormatProvider*, ::StringW, ::Il2CppObject*)>(&System::Text::StringBuilder::AppendFormat)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -738,7 +738,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::StringBuilder::AppendFormat
 // Il2CppName: AppendFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(System::IFormatProvider*, ::StringW, ::Il2CppObject*, ::Il2CppObject*)>(&System::Text::StringBuilder::AppendFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::StringBuilder* (System::Text::StringBuilder::*)(::System::IFormatProvider*, ::StringW, ::Il2CppObject*, ::Il2CppObject*)>(&System::Text::StringBuilder::AppendFormat)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -750,7 +750,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::StringBuilder::AppendFormat
 // Il2CppName: AppendFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(System::IFormatProvider*, ::StringW, ::Il2CppObject*, ::Il2CppObject*, ::Il2CppObject*)>(&System::Text::StringBuilder::AppendFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::StringBuilder* (System::Text::StringBuilder::*)(::System::IFormatProvider*, ::StringW, ::Il2CppObject*, ::Il2CppObject*, ::Il2CppObject*)>(&System::Text::StringBuilder::AppendFormat)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -763,7 +763,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::StringBuilder::AppendFormat
 // Il2CppName: AppendFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(System::IFormatProvider*, ::StringW, ::ArrayW<::Il2CppObject*>)>(&System::Text::StringBuilder::AppendFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::StringBuilder* (System::Text::StringBuilder::*)(::System::IFormatProvider*, ::StringW, ::ArrayW<::Il2CppObject*>)>(&System::Text::StringBuilder::AppendFormat)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -782,7 +782,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Text::StringBuilder::AppendFormatHelper
 // Il2CppName: AppendFormatHelper
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(System::IFormatProvider*, ::StringW, System::ParamsArray)>(&System::Text::StringBuilder::AppendFormatHelper)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::StringBuilder* (System::Text::StringBuilder::*)(::System::IFormatProvider*, ::StringW, ::System::ParamsArray)>(&System::Text::StringBuilder::AppendFormatHelper)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -793,7 +793,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::StringBuilder::Replace
 // Il2CppName: Replace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(::StringW, ::StringW)>(&System::Text::StringBuilder::Replace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::StringBuilder* (System::Text::StringBuilder::*)(::StringW, ::StringW)>(&System::Text::StringBuilder::Replace)> {
   static const MethodInfo* get() {
     static auto* oldValue = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* newValue = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -803,7 +803,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::StringBuilder::Replace
 // Il2CppName: Replace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(::StringW, ::StringW, int, int)>(&System::Text::StringBuilder::Replace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::StringBuilder* (System::Text::StringBuilder::*)(::StringW, ::StringW, int, int)>(&System::Text::StringBuilder::Replace)> {
   static const MethodInfo* get() {
     static auto* oldValue = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* newValue = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -815,7 +815,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::StringBuilder::Append
 // Il2CppName: Append
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(::Il2CppChar*, int)>(&System::Text::StringBuilder::Append)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::StringBuilder* (System::Text::StringBuilder::*)(::Il2CppChar*, int)>(&System::Text::StringBuilder::Append)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
     static auto* valueCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -836,7 +836,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Text::StringBuilder::ReplaceAllInChunk
 // Il2CppName: ReplaceAllInChunk
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::StringBuilder::*)(::ArrayW<int>, int, System::Text::StringBuilder*, int, ::StringW)>(&System::Text::StringBuilder::ReplaceAllInChunk)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::StringBuilder::*)(::ArrayW<int>, int, ::System::Text::StringBuilder*, int, ::StringW)>(&System::Text::StringBuilder::ReplaceAllInChunk)> {
   static const MethodInfo* get() {
     static auto* replacements = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* replacementsCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -849,7 +849,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Text::StringBuilder::StartsWith
 // Il2CppName: StartsWith
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::StringBuilder::*)(System::Text::StringBuilder*, int, int, ::StringW)>(&System::Text::StringBuilder::StartsWith)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::StringBuilder::*)(::System::Text::StringBuilder*, int, int, ::StringW)>(&System::Text::StringBuilder::StartsWith)> {
   static const MethodInfo* get() {
     static auto* chunk = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* indexInChunk = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -861,7 +861,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Text::StringBuilder::ReplaceInPlaceAtChunk
 // Il2CppName: ReplaceInPlaceAtChunk
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::StringBuilder::*)(ByRef<System::Text::StringBuilder*>, ByRef<int>, ::Il2CppChar*, int)>(&System::Text::StringBuilder::ReplaceInPlaceAtChunk)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::StringBuilder::*)(ByRef<::System::Text::StringBuilder*>, ByRef<int>, ::Il2CppChar*, int)>(&System::Text::StringBuilder::ReplaceInPlaceAtChunk)> {
   static const MethodInfo* get() {
     static auto* chunk = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->this_arg;
     static auto* indexInChunk = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -898,7 +898,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::Text::StringBuilder::FindChunkForIndex
 // Il2CppName: FindChunkForIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(int)>(&System::Text::StringBuilder::FindChunkForIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::StringBuilder* (System::Text::StringBuilder::*)(int)>(&System::Text::StringBuilder::FindChunkForIndex)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "FindChunkForIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
@@ -907,7 +907,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::StringBuilder::Next
 // Il2CppName: Next
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(System::Text::StringBuilder*)>(&System::Text::StringBuilder::Next)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::StringBuilder* (System::Text::StringBuilder::*)(::System::Text::StringBuilder*)>(&System::Text::StringBuilder::Next)> {
   static const MethodInfo* get() {
     static auto* chunk = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "Next", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{chunk});
@@ -925,7 +925,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Text::StringBuilder::MakeRoom
 // Il2CppName: MakeRoom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::StringBuilder::*)(int, int, ByRef<System::Text::StringBuilder*>, ByRef<int>, bool)>(&System::Text::StringBuilder::MakeRoom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::StringBuilder::*)(int, int, ByRef<::System::Text::StringBuilder*>, ByRef<int>, bool)>(&System::Text::StringBuilder::MakeRoom)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -938,7 +938,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Text::StringBuilder::Remove
 // Il2CppName: Remove
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::StringBuilder::*)(int, int, ByRef<System::Text::StringBuilder*>, ByRef<int>)>(&System::Text::StringBuilder::Remove)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::StringBuilder::*)(int, int, ByRef<::System::Text::StringBuilder*>, ByRef<int>)>(&System::Text::StringBuilder::Remove)> {
   static const MethodInfo* get() {
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

@@ -14,8 +14,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::$$c__DisplayClass24_0);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::$$c__DisplayClass24_0*, "Newtonsoft.Json.Utilities", "ImmutableCollectionsUtils/<>c__DisplayClass24_0");
+NEED_NO_BOX(::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::$$c__DisplayClass24_0);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::$$c__DisplayClass24_0*, "Newtonsoft.Json.Utilities", "ImmutableCollectionsUtils/<>c__DisplayClass24_0");
 // Type namespace: Newtonsoft.Json.Utilities
 namespace Newtonsoft::Json::Utilities {
   // Size: 0x18
@@ -50,14 +50,14 @@ namespace Newtonsoft::Json::Utilities {
     ::StringW& dyn_name();
     // System.Boolean <TryBuildImmutableForArrayContract>b__0(Newtonsoft.Json.Utilities.ImmutableCollectionsUtils/Newtonsoft.Json.Utilities.ImmutableCollectionTypeInfo d)
     // Offset: 0x19E616C
-    bool $TryBuildImmutableForArrayContract$b__0(Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::ImmutableCollectionTypeInfo* d);
+    bool $TryBuildImmutableForArrayContract$b__0(::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::ImmutableCollectionTypeInfo* d);
     // public System.Void .ctor()
     // Offset: 0x19E5630
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ImmutableCollectionsUtils::$$c__DisplayClass24_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::$$c__DisplayClass24_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::$$c__DisplayClass24_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ImmutableCollectionsUtils::$$c__DisplayClass24_0*, creationType>()));
     }
   }; // Newtonsoft.Json.Utilities.ImmutableCollectionsUtils/Newtonsoft.Json.Utilities.<>c__DisplayClass24_0
@@ -69,7 +69,7 @@ namespace Newtonsoft::Json::Utilities {
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::$$c__DisplayClass24_0::$TryBuildImmutableForArrayContract$b__0
 // Il2CppName: <TryBuildImmutableForArrayContract>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::$$c__DisplayClass24_0::*)(Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::ImmutableCollectionTypeInfo*)>(&Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::$$c__DisplayClass24_0::$TryBuildImmutableForArrayContract$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::$$c__DisplayClass24_0::*)(::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::ImmutableCollectionTypeInfo*)>(&Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::$$c__DisplayClass24_0::$TryBuildImmutableForArrayContract$b__0)> {
   static const MethodInfo* get() {
     static auto* d = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Utilities", "ImmutableCollectionsUtils/ImmutableCollectionTypeInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::$$c__DisplayClass24_0*), "<TryBuildImmutableForArrayContract>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{d});

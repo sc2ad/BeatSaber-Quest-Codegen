@@ -23,8 +23,8 @@ namespace System::Collections {
   class IDictionary;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Collections::IDictionary);
-DEFINE_IL2CPP_ARG_TYPE(System::Collections::IDictionary*, "System.Collections", "IDictionary");
+NEED_NO_BOX(::System::Collections::IDictionary);
+DEFINE_IL2CPP_ARG_TYPE(::System::Collections::IDictionary*, "System.Collections", "IDictionary");
 // Type namespace: System.Collections
 namespace System::Collections {
   // Size: 0x10
@@ -33,11 +33,11 @@ namespace System::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   // [DefaultMemberAttribute] Offset: 118C70C
   // [ComVisibleAttribute] Offset: 118C70C
-  class IDictionary/*, public System::Collections::ICollection*/ {
+  class IDictionary/*, public ::System::Collections::ICollection*/ {
     public:
-    // Creating interface conversion operator: operator System::Collections::ICollection
-    operator System::Collections::ICollection() noexcept {
-      return *reinterpret_cast<System::Collections::ICollection*>(this);
+    // Creating interface conversion operator: operator ::System::Collections::ICollection
+    operator ::System::Collections::ICollection() noexcept {
+      return *reinterpret_cast<::System::Collections::ICollection*>(this);
     }
     // public System.Object get_Item(System.Object key)
     // Offset: 0xFFFFFFFF
@@ -47,10 +47,10 @@ namespace System::Collections {
     void set_Item(::Il2CppObject* key, ::Il2CppObject* value);
     // public System.Collections.ICollection get_Keys()
     // Offset: 0xFFFFFFFF
-    System::Collections::ICollection* get_Keys();
+    ::System::Collections::ICollection* get_Keys();
     // public System.Collections.ICollection get_Values()
     // Offset: 0xFFFFFFFF
-    System::Collections::ICollection* get_Values();
+    ::System::Collections::ICollection* get_Values();
     // public System.Boolean get_IsReadOnly()
     // Offset: 0xFFFFFFFF
     bool get_IsReadOnly();
@@ -65,7 +65,7 @@ namespace System::Collections {
     void Clear();
     // public System.Collections.IDictionaryEnumerator GetEnumerator()
     // Offset: 0xFFFFFFFF
-    System::Collections::IDictionaryEnumerator* GetEnumerator();
+    ::System::Collections::IDictionaryEnumerator* GetEnumerator();
     // public System.Void Remove(System.Object key)
     // Offset: 0xFFFFFFFF
     void Remove(::Il2CppObject* key);
@@ -95,7 +95,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Collections::IDictionary::get_Keys
 // Il2CppName: get_Keys
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ICollection* (System::Collections::IDictionary::*)()>(&System::Collections::IDictionary::get_Keys)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (System::Collections::IDictionary::*)()>(&System::Collections::IDictionary::get_Keys)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Collections::IDictionary*), "get_Keys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -103,7 +103,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::Collections::IDictionary::get_Values
 // Il2CppName: get_Values
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ICollection* (System::Collections::IDictionary::*)()>(&System::Collections::IDictionary::get_Values)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (System::Collections::IDictionary::*)()>(&System::Collections::IDictionary::get_Values)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Collections::IDictionary*), "get_Values", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -146,7 +146,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Collections::IDictionary::GetEnumerator
 // Il2CppName: GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IDictionaryEnumerator* (System::Collections::IDictionary::*)()>(&System::Collections::IDictionary::GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IDictionaryEnumerator* (System::Collections::IDictionary::*)()>(&System::Collections::IDictionary::GetEnumerator)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Collections::IDictionary*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

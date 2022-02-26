@@ -26,8 +26,8 @@ namespace System::Reflection {
   class MethodBody;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Reflection::MethodBody);
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MethodBody*, "System.Reflection", "MethodBody");
+NEED_NO_BOX(::System::Reflection::MethodBody);
+DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::MethodBody*, "System.Reflection", "MethodBody");
 // Type namespace: System.Reflection
 namespace System::Reflection {
   // Size: 0x34
@@ -50,15 +50,15 @@ namespace System::Reflection {
     // private System.Reflection.ExceptionHandlingClause[] clauses
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<System::Reflection::ExceptionHandlingClause*> clauses;
+    ::ArrayW<::System::Reflection::ExceptionHandlingClause*> clauses;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::Reflection::ExceptionHandlingClause*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::System::Reflection::ExceptionHandlingClause*>) == 0x8);
     // private System.Reflection.LocalVariableInfo[] locals
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayW<System::Reflection::LocalVariableInfo*> locals;
+    ::ArrayW<::System::Reflection::LocalVariableInfo*> locals;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::Reflection::LocalVariableInfo*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::System::Reflection::LocalVariableInfo*>) == 0x8);
     // private System.Byte[] il
     // Size: 0x8
     // Offset: 0x20
@@ -87,9 +87,9 @@ namespace System::Reflection {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private System.Reflection.ExceptionHandlingClause[] clauses
-    ::ArrayW<System::Reflection::ExceptionHandlingClause*>& dyn_clauses();
+    ::ArrayW<::System::Reflection::ExceptionHandlingClause*>& dyn_clauses();
     // Get instance field reference: private System.Reflection.LocalVariableInfo[] locals
-    ::ArrayW<System::Reflection::LocalVariableInfo*>& dyn_locals();
+    ::ArrayW<::System::Reflection::LocalVariableInfo*>& dyn_locals();
     // Get instance field reference: private System.Byte[] il
     ::ArrayW<uint8_t>& dyn_il();
     // Get instance field reference: private System.Boolean init_locals
@@ -104,7 +104,7 @@ namespace System::Reflection {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MethodBody* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::MethodBody::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Reflection::MethodBody::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MethodBody*, creationType>()));
     }
   }; // System.Reflection.MethodBody

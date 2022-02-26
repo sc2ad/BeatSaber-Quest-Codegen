@@ -18,8 +18,8 @@ namespace System::Runtime::CompilerServices {
   class NullableContextAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::CompilerServices::NullableContextAttribute);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::NullableContextAttribute*, "System.Runtime.CompilerServices", "NullableContextAttribute");
+NEED_NO_BOX(::System::Runtime::CompilerServices::NullableContextAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::CompilerServices::NullableContextAttribute*, "System.Runtime.CompilerServices", "NullableContextAttribute");
 // Type namespace: System.Runtime.CompilerServices
 namespace System::Runtime::CompilerServices {
   // Size: 0x11
@@ -29,7 +29,7 @@ namespace System::Runtime::CompilerServices {
   // [AttributeUsageAttribute] Offset: 1201218
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   // [EmbeddedAttribute] Offset: FFFFFFFF
-  class NullableContextAttribute : public System::Attribute {
+  class NullableContextAttribute : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -57,7 +57,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0x29F9A80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NullableContextAttribute* New_ctor(uint8_t param_0000f433) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::NullableContextAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::NullableContextAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NullableContextAttribute*, creationType>(param_0000f433)));
     }
   }; // System.Runtime.CompilerServices.NullableContextAttribute

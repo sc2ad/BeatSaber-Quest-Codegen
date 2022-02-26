@@ -38,8 +38,8 @@ namespace System::Runtime::Remoting::Proxies {
   class ProxyAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Remoting::Proxies::ProxyAttribute);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Proxies::ProxyAttribute*, "System.Runtime.Remoting.Proxies", "ProxyAttribute");
+NEED_NO_BOX(::System::Runtime::Remoting::Proxies::ProxyAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Proxies::ProxyAttribute*, "System.Runtime.Remoting.Proxies", "ProxyAttribute");
 // Type namespace: System.Runtime.Remoting.Proxies
 namespace System::Runtime::Remoting::Proxies {
   // Size: 0x10
@@ -48,14 +48,14 @@ namespace System::Runtime::Remoting::Proxies {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: 118AA50
   // [AttributeUsageAttribute] Offset: 118AA50
-  class ProxyAttribute : public System::Attribute {
+  class ProxyAttribute : public ::System::Attribute {
     public:
     // public System.MarshalByRefObject CreateInstance(System.Type serverType)
     // Offset: 0x1800244
-    System::MarshalByRefObject* CreateInstance(System::Type* serverType);
+    ::System::MarshalByRefObject* CreateInstance(::System::Type* serverType);
     // public System.Runtime.Remoting.Proxies.RealProxy CreateProxy(System.Runtime.Remoting.ObjRef objRef, System.Type serverType, System.Object serverObject, System.Runtime.Remoting.Contexts.Context serverContext)
     // Offset: 0x1800394
-    System::Runtime::Remoting::Proxies::RealProxy* CreateProxy(System::Runtime::Remoting::ObjRef* objRef, System::Type* serverType, ::Il2CppObject* serverObject, System::Runtime::Remoting::Contexts::Context* serverContext);
+    ::System::Runtime::Remoting::Proxies::RealProxy* CreateProxy(::System::Runtime::Remoting::ObjRef* objRef, ::System::Type* serverType, ::Il2CppObject* serverObject, ::System::Runtime::Remoting::Contexts::Context* serverContext);
   }; // System.Runtime.Remoting.Proxies.ProxyAttribute
   #pragma pack(pop)
 }
@@ -63,7 +63,7 @@ namespace System::Runtime::Remoting::Proxies {
 // Writing MetadataGetter for method: System::Runtime::Remoting::Proxies::ProxyAttribute::CreateInstance
 // Il2CppName: CreateInstance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::MarshalByRefObject* (System::Runtime::Remoting::Proxies::ProxyAttribute::*)(System::Type*)>(&System::Runtime::Remoting::Proxies::ProxyAttribute::CreateInstance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::MarshalByRefObject* (System::Runtime::Remoting::Proxies::ProxyAttribute::*)(::System::Type*)>(&System::Runtime::Remoting::Proxies::ProxyAttribute::CreateInstance)> {
   static const MethodInfo* get() {
     static auto* serverType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Proxies::ProxyAttribute*), "CreateInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{serverType});
@@ -72,7 +72,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Mar
 // Writing MetadataGetter for method: System::Runtime::Remoting::Proxies::ProxyAttribute::CreateProxy
 // Il2CppName: CreateProxy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Proxies::RealProxy* (System::Runtime::Remoting::Proxies::ProxyAttribute::*)(System::Runtime::Remoting::ObjRef*, System::Type*, ::Il2CppObject*, System::Runtime::Remoting::Contexts::Context*)>(&System::Runtime::Remoting::Proxies::ProxyAttribute::CreateProxy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Proxies::RealProxy* (System::Runtime::Remoting::Proxies::ProxyAttribute::*)(::System::Runtime::Remoting::ObjRef*, ::System::Type*, ::Il2CppObject*, ::System::Runtime::Remoting::Contexts::Context*)>(&System::Runtime::Remoting::Proxies::ProxyAttribute::CreateProxy)> {
   static const MethodInfo* get() {
     static auto* objRef = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting", "ObjRef")->byval_arg;
     static auto* serverType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;

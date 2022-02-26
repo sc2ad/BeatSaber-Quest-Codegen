@@ -22,7 +22,7 @@ namespace UnityEngine {
   struct Color32;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Color32, "UnityEngine", "Color32");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Color32, "UnityEngine", "Color32");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x4
@@ -32,7 +32,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [DefaultMemberAttribute] Offset: 11A50B0
   // [UsedByNativeCodeAttribute] Offset: 11A50B0
-  struct Color32/*, public System::ValueType*/ {
+  struct Color32/*, public ::System::ValueType*/ {
     public:
     public:
     // [IgnoreAttribute] Offset: 0x11A92CC
@@ -65,9 +65,9 @@ namespace UnityEngine {
     public:
     // Creating value type constructor for type: Color32
     constexpr Color32(uint8_t r_ = {}, uint8_t g_ = {}, uint8_t b_ = {}, uint8_t a_ = {}) noexcept : r{r_}, g{g_}, b{b_}, a{a_} {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: private System.Int32 rgba
     int& dyn_rgba();
@@ -84,7 +84,7 @@ namespace UnityEngine {
     // ABORTED: conflicts with another method.  Color32(uint8_t r, uint8_t g, uint8_t b, uint8_t a);
     // static public UnityEngine.Color32 Lerp(UnityEngine.Color32 a, UnityEngine.Color32 b, System.Single t)
     // Offset: 0x1EB3CF8
-    static UnityEngine::Color32 Lerp(UnityEngine::Color32 a, UnityEngine::Color32 b, float t);
+    static ::UnityEngine::Color32 Lerp(::UnityEngine::Color32 a, ::UnityEngine::Color32 b, float t);
     // public override System.String ToString()
     // Offset: 0x1EB3E40
     // Implemented from: System.ValueType
@@ -103,7 +103,7 @@ namespace UnityEngine {
 // Writing MetadataGetter for method: UnityEngine::Color32::Lerp
 // Il2CppName: Lerp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color32 (*)(UnityEngine::Color32, UnityEngine::Color32, float)>(&UnityEngine::Color32::Lerp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color32 (*)(::UnityEngine::Color32, ::UnityEngine::Color32, float)>(&UnityEngine::Color32::Lerp)> {
   static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color32")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color32")->byval_arg;

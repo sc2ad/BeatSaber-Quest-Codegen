@@ -27,8 +27,8 @@ namespace UnityEngine {
   class IntegratedSubsystem;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::IntegratedSubsystem);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::IntegratedSubsystem*, "UnityEngine", "IntegratedSubsystem");
+NEED_NO_BOX(::UnityEngine::IntegratedSubsystem);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::IntegratedSubsystem*, "UnityEngine", "IntegratedSubsystem");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x20
@@ -38,7 +38,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NativeTypeAttribute] Offset: 11BC28C
   // [UsedByNativeCodeAttribute] Offset: 11BC28C
-  class IntegratedSubsystem : public ::Il2CppObject/*, public UnityEngine::ISubsystem*/ {
+  class IntegratedSubsystem : public ::Il2CppObject/*, public ::UnityEngine::ISubsystem*/ {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -52,46 +52,46 @@ namespace UnityEngine {
     // System.IntPtr m_Ptr
     // Size: 0x8
     // Offset: 0x10
-    System::IntPtr m_Ptr;
+    ::System::IntPtr m_Ptr;
     // Field size check
-    static_assert(sizeof(System::IntPtr) == 0x8);
+    static_assert(sizeof(::System::IntPtr) == 0x8);
     // UnityEngine.ISubsystemDescriptor m_subsystemDescriptor
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::ISubsystemDescriptor* m_subsystemDescriptor;
+    ::UnityEngine::ISubsystemDescriptor* m_subsystemDescriptor;
     // Field size check
-    static_assert(sizeof(UnityEngine::ISubsystemDescriptor*) == 0x8);
+    static_assert(sizeof(::UnityEngine::ISubsystemDescriptor*) == 0x8);
     public:
-    // Creating interface conversion operator: operator UnityEngine::ISubsystem
-    operator UnityEngine::ISubsystem() noexcept {
-      return *reinterpret_cast<UnityEngine::ISubsystem*>(this);
+    // Creating interface conversion operator: operator ::UnityEngine::ISubsystem
+    operator ::UnityEngine::ISubsystem() noexcept {
+      return *reinterpret_cast<::UnityEngine::ISubsystem*>(this);
     }
     // Get instance field reference: System.IntPtr m_Ptr
-    System::IntPtr& dyn_m_Ptr();
+    ::System::IntPtr& dyn_m_Ptr();
     // Get instance field reference: UnityEngine.ISubsystemDescriptor m_subsystemDescriptor
-    UnityEngine::ISubsystemDescriptor*& dyn_m_subsystemDescriptor();
+    ::UnityEngine::ISubsystemDescriptor*& dyn_m_subsystemDescriptor();
     // System.Void SetHandle(UnityEngine.IntegratedSubsystem inst)
     // Offset: 0x2A5C5AC
-    void SetHandle(UnityEngine::IntegratedSubsystem* inst);
+    void SetHandle(::UnityEngine::IntegratedSubsystem* inst);
     // public System.Void .ctor()
     // Offset: 0x2A5C5FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IntegratedSubsystem* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::IntegratedSubsystem::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::IntegratedSubsystem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IntegratedSubsystem*, creationType>()));
     }
   }; // UnityEngine.IntegratedSubsystem
   #pragma pack(pop)
-  static check_size<sizeof(IntegratedSubsystem), 24 + sizeof(UnityEngine::ISubsystemDescriptor*)> __UnityEngine_IntegratedSubsystemSizeCheck;
+  static check_size<sizeof(IntegratedSubsystem), 24 + sizeof(::UnityEngine::ISubsystemDescriptor*)> __UnityEngine_IntegratedSubsystemSizeCheck;
   static_assert(sizeof(IntegratedSubsystem) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::IntegratedSubsystem::SetHandle
 // Il2CppName: SetHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::IntegratedSubsystem::*)(UnityEngine::IntegratedSubsystem*)>(&UnityEngine::IntegratedSubsystem::SetHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::IntegratedSubsystem::*)(::UnityEngine::IntegratedSubsystem*)>(&UnityEngine::IntegratedSubsystem::SetHandle)> {
   static const MethodInfo* get() {
     static auto* inst = &::il2cpp_utils::GetClassFromName("UnityEngine", "IntegratedSubsystem")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::IntegratedSubsystem*), "SetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inst});

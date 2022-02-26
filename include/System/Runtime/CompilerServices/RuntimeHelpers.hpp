@@ -27,8 +27,8 @@ namespace System::Runtime::CompilerServices {
   class RuntimeHelpers;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::CompilerServices::RuntimeHelpers);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::RuntimeHelpers*, "System.Runtime.CompilerServices", "RuntimeHelpers");
+NEED_NO_BOX(::System::Runtime::CompilerServices::RuntimeHelpers);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::CompilerServices::RuntimeHelpers*, "System.Runtime.CompilerServices", "RuntimeHelpers");
 // Type namespace: System.Runtime.CompilerServices
 namespace System::Runtime::CompilerServices {
   // Size: 0x10
@@ -42,10 +42,10 @@ namespace System::Runtime::CompilerServices {
     static int get_OffsetToStringData();
     // static private System.Void InitializeArray(System.Array array, System.IntPtr fldHandle)
     // Offset: 0x1C6AA1C
-    static void InitializeArray(System::Array* array, System::IntPtr fldHandle);
+    static void InitializeArray(::System::Array* array, ::System::IntPtr fldHandle);
     // static public System.Void InitializeArray(System.Array array, System.RuntimeFieldHandle fldHandle)
     // Offset: 0x1C6AA20
-    static void InitializeArray(System::Array* array, System::RuntimeFieldHandle fldHandle);
+    static void InitializeArray(::System::Array* array, ::System::RuntimeFieldHandle fldHandle);
     // static public System.Int32 GetHashCode(System.Object o)
     // Offset: 0x1C6AAC0
     static int GetHashCode(::Il2CppObject* o);
@@ -65,7 +65,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0xFFFFFFFF
     template<class T>
     static bool IsReferenceOrContainsReferences() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::RuntimeHelpers::IsReferenceOrContainsReferences");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::RuntimeHelpers::IsReferenceOrContainsReferences");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Runtime.CompilerServices", "RuntimeHelpers", "IsReferenceOrContainsReferences", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
@@ -85,7 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::RuntimeHelpers::InitializeArray
 // Il2CppName: InitializeArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Array*, System::IntPtr)>(&System::Runtime::CompilerServices::RuntimeHelpers::InitializeArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Array*, ::System::IntPtr)>(&System::Runtime::CompilerServices::RuntimeHelpers::InitializeArray)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "Array")->byval_arg;
     static auto* fldHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -95,7 +95,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::RuntimeHelpers::InitializeArray
 // Il2CppName: InitializeArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Array*, System::RuntimeFieldHandle)>(&System::Runtime::CompilerServices::RuntimeHelpers::InitializeArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Array*, ::System::RuntimeFieldHandle)>(&System::Runtime::CompilerServices::RuntimeHelpers::InitializeArray)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "Array")->byval_arg;
     static auto* fldHandle = &::il2cpp_utils::GetClassFromName("System", "RuntimeFieldHandle")->byval_arg;

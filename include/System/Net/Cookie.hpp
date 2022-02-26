@@ -39,8 +39,8 @@ namespace System::Net {
   class Cookie;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::Cookie);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::Cookie*, "System.Net", "Cookie");
+NEED_NO_BOX(::System::Net::Cookie);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::Cookie*, "System.Net", "Cookie");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x9A
@@ -67,15 +67,15 @@ namespace System::Net {
     // private System.Uri m_commentUri
     // Size: 0x8
     // Offset: 0x18
-    System::Uri* m_commentUri;
+    ::System::Uri* m_commentUri;
     // Field size check
-    static_assert(sizeof(System::Uri*) == 0x8);
+    static_assert(sizeof(::System::Uri*) == 0x8);
     // private System.Net.CookieVariant m_cookieVariant
     // Size: 0x4
     // Offset: 0x20
-    System::Net::CookieVariant m_cookieVariant;
+    ::System::Net::CookieVariant m_cookieVariant;
     // Field size check
-    static_assert(sizeof(System::Net::CookieVariant) == 0x4);
+    static_assert(sizeof(::System::Net::CookieVariant) == 0x4);
     // private System.Boolean m_discard
     // Size: 0x1
     // Offset: 0x24
@@ -101,9 +101,9 @@ namespace System::Net {
     // private System.DateTime m_expires
     // Size: 0x8
     // Offset: 0x38
-    System::DateTime m_expires;
+    ::System::DateTime m_expires;
     // Field size check
-    static_assert(sizeof(System::DateTime) == 0x8);
+    static_assert(sizeof(::System::DateTime) == 0x8);
     // private System.String m_name
     // Size: 0x8
     // Offset: 0x40
@@ -162,9 +162,9 @@ namespace System::Net {
     // private System.DateTime m_timeStamp
     // Size: 0x8
     // Offset: 0x78
-    System::DateTime m_timeStamp;
+    ::System::DateTime m_timeStamp;
     // Field size check
-    static_assert(sizeof(System::DateTime) == 0x8);
+    static_assert(sizeof(::System::DateTime) == 0x8);
     // private System.String m_value
     // Size: 0x8
     // Offset: 0x80
@@ -211,15 +211,15 @@ namespace System::Net {
     // Set static field: static readonly System.Char[] Reserved2Value
     static void _set_Reserved2Value(::ArrayW<::Il2CppChar> value);
     // Get static field: static private System.Net.Comparer staticComparer
-    static System::Net::Comparer* _get_staticComparer();
+    static ::System::Net::Comparer* _get_staticComparer();
     // Set static field: static private System.Net.Comparer staticComparer
-    static void _set_staticComparer(System::Net::Comparer* value);
+    static void _set_staticComparer(::System::Net::Comparer* value);
     // Get instance field reference: private System.String m_comment
     ::StringW& dyn_m_comment();
     // Get instance field reference: private System.Uri m_commentUri
-    System::Uri*& dyn_m_commentUri();
+    ::System::Uri*& dyn_m_commentUri();
     // Get instance field reference: private System.Net.CookieVariant m_cookieVariant
-    System::Net::CookieVariant& dyn_m_cookieVariant();
+    ::System::Net::CookieVariant& dyn_m_cookieVariant();
     // Get instance field reference: private System.Boolean m_discard
     bool& dyn_m_discard();
     // Get instance field reference: private System.String m_domain
@@ -227,7 +227,7 @@ namespace System::Net {
     // Get instance field reference: private System.Boolean m_domain_implicit
     bool& dyn_m_domain_implicit();
     // Get instance field reference: private System.DateTime m_expires
-    System::DateTime& dyn_m_expires();
+    ::System::DateTime& dyn_m_expires();
     // Get instance field reference: private System.String m_name
     ::StringW& dyn_m_name();
     // Get instance field reference: private System.String m_path
@@ -245,7 +245,7 @@ namespace System::Net {
     // Get instance field reference: private System.Boolean m_httpOnly
     bool& dyn_m_httpOnly();
     // Get instance field reference: private System.DateTime m_timeStamp
-    System::DateTime& dyn_m_timeStamp();
+    ::System::DateTime& dyn_m_timeStamp();
     // Get instance field reference: private System.String m_value
     ::StringW& dyn_m_value();
     // Get instance field reference: private System.Int32 m_version
@@ -264,7 +264,7 @@ namespace System::Net {
     void set_Comment(::StringW value);
     // public System.Void set_CommentUri(System.Uri value)
     // Offset: 0x1AA8F5C
-    void set_CommentUri(System::Uri* value);
+    void set_CommentUri(::System::Uri* value);
     // public System.Void set_HttpOnly(System.Boolean value)
     // Offset: 0x1AA8F64
     void set_HttpOnly(bool value);
@@ -285,7 +285,7 @@ namespace System::Net {
     bool get_Expired();
     // public System.Void set_Expires(System.DateTime value)
     // Offset: 0x1AA91C8
-    void set_Expires(System::DateTime value);
+    void set_Expires(::System::DateTime value);
     // public System.String get_Name()
     // Offset: 0x1AA91D0
     ::StringW get_Name();
@@ -330,7 +330,7 @@ namespace System::Net {
     void set_Value(::StringW value);
     // System.Net.CookieVariant get_Variant()
     // Offset: 0x1AAA530
-    System::Net::CookieVariant get_Variant();
+    ::System::Net::CookieVariant get_Variant();
     // System.String get_DomainKey()
     // Offset: 0x1AAA538
     ::StringW get_DomainKey();
@@ -354,20 +354,20 @@ namespace System::Net {
     static bool IsDomainEqualToHost(::StringW domain, ::StringW host);
     // System.Boolean VerifySetDefaults(System.Net.CookieVariant variant, System.Uri uri, System.Boolean isLocalDomain, System.String localDomain, System.Boolean set_default, System.Boolean isThrow)
     // Offset: 0x1AA95C0
-    bool VerifySetDefaults(System::Net::CookieVariant variant, System::Uri* uri, bool isLocalDomain, ::StringW localDomain, bool set_default, bool isThrow);
+    bool VerifySetDefaults(::System::Net::CookieVariant variant, ::System::Uri* uri, bool isLocalDomain, ::StringW localDomain, bool set_default, bool isThrow);
     // static private System.Boolean DomainCharsTest(System.String name)
     // Offset: 0x1AA9F9C
     static bool DomainCharsTest(::StringW name);
     // static System.Collections.IComparer GetComparer()
     // Offset: 0x1AAA700
-    static System::Collections::IComparer* GetComparer();
+    static ::System::Collections::IComparer* GetComparer();
     // public System.Void .ctor()
     // Offset: 0x1AA8DE0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Cookie* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Cookie::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Cookie::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Cookie*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object comparand)
@@ -411,7 +411,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::Cookie::set_CommentUri
 // Il2CppName: set_CommentUri
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Cookie::*)(System::Uri*)>(&System::Net::Cookie::set_CommentUri)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Cookie::*)(::System::Uri*)>(&System::Net::Cookie::set_CommentUri)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Cookie*), "set_CommentUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -471,7 +471,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Net::Cookie::set_Expires
 // Il2CppName: set_Expires
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Cookie::*)(System::DateTime)>(&System::Net::Cookie::set_Expires)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Cookie::*)(::System::DateTime)>(&System::Net::Cookie::set_Expires)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Cookie*), "set_Expires", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -597,7 +597,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::Cookie::get_Variant
 // Il2CppName: get_Variant
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::CookieVariant (System::Net::Cookie::*)()>(&System::Net::Cookie::get_Variant)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::CookieVariant (System::Net::Cookie::*)()>(&System::Net::Cookie::get_Variant)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Cookie*), "get_Variant", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -665,7 +665,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Net::Cookie::VerifySetDefaults
 // Il2CppName: VerifySetDefaults
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Cookie::*)(System::Net::CookieVariant, System::Uri*, bool, ::StringW, bool, bool)>(&System::Net::Cookie::VerifySetDefaults)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Cookie::*)(::System::Net::CookieVariant, ::System::Uri*, bool, ::StringW, bool, bool)>(&System::Net::Cookie::VerifySetDefaults)> {
   static const MethodInfo* get() {
     static auto* variant = &::il2cpp_utils::GetClassFromName("System.Net", "CookieVariant")->byval_arg;
     static auto* uri = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
@@ -688,7 +688,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Net::Cookie::GetComparer
 // Il2CppName: GetComparer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IComparer* (*)()>(&System::Net::Cookie::GetComparer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IComparer* (*)()>(&System::Net::Cookie::GetComparer)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Cookie*), "GetComparer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

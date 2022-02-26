@@ -18,8 +18,8 @@ namespace Unity::Collections::LowLevel::Unsafe {
   class NativeContainerAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Unity::Collections::LowLevel::Unsafe::NativeContainerAttribute);
-DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::LowLevel::Unsafe::NativeContainerAttribute*, "Unity.Collections.LowLevel.Unsafe", "NativeContainerAttribute");
+NEED_NO_BOX(::Unity::Collections::LowLevel::Unsafe::NativeContainerAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::Unity::Collections::LowLevel::Unsafe::NativeContainerAttribute*, "Unity.Collections.LowLevel.Unsafe", "NativeContainerAttribute");
 // Type namespace: Unity.Collections.LowLevel.Unsafe
 namespace Unity::Collections::LowLevel::Unsafe {
   // Size: 0x10
@@ -28,7 +28,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
   // [TokenAttribute] Offset: FFFFFFFF
   // [RequiredByNativeCodeAttribute] Offset: 11A32F0
   // [AttributeUsageAttribute] Offset: 11A32F0
-  class NativeContainerAttribute : public System::Attribute {
+  class NativeContainerAttribute : public ::System::Attribute {
     public:
     // public System.Void .ctor()
     // Offset: 0x1EA92CC
@@ -37,7 +37,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NativeContainerAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Unity::Collections::LowLevel::Unsafe::NativeContainerAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Unity::Collections::LowLevel::Unsafe::NativeContainerAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativeContainerAttribute*, creationType>()));
     }
   }; // Unity.Collections.LowLevel.Unsafe.NativeContainerAttribute

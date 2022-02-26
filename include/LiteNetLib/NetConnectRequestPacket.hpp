@@ -38,8 +38,8 @@ namespace LiteNetLib {
   class NetConnectRequestPacket;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(LiteNetLib::NetConnectRequestPacket);
-DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetConnectRequestPacket*, "LiteNetLib", "NetConnectRequestPacket");
+NEED_NO_BOX(::LiteNetLib::NetConnectRequestPacket);
+DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::NetConnectRequestPacket*, "LiteNetLib", "NetConnectRequestPacket");
 // Type namespace: LiteNetLib
 namespace LiteNetLib {
   // Size: 0x30
@@ -80,9 +80,9 @@ namespace LiteNetLib {
     // public readonly LiteNetLib.Utils.NetDataReader Data
     // Size: 0x8
     // Offset: 0x28
-    LiteNetLib::Utils::NetDataReader* Data;
+    ::LiteNetLib::Utils::NetDataReader* Data;
     // Field size check
-    static_assert(sizeof(LiteNetLib::Utils::NetDataReader*) == 0x8);
+    static_assert(sizeof(::LiteNetLib::Utils::NetDataReader*) == 0x8);
     public:
     // static field const value: static public System.Int32 HeaderSize
     static constexpr const int HeaderSize = 14;
@@ -97,26 +97,26 @@ namespace LiteNetLib {
     // Get instance field reference: public readonly System.Byte[] TargetAddress
     ::ArrayW<uint8_t>& dyn_TargetAddress();
     // Get instance field reference: public readonly LiteNetLib.Utils.NetDataReader Data
-    LiteNetLib::Utils::NetDataReader*& dyn_Data();
+    ::LiteNetLib::Utils::NetDataReader*& dyn_Data();
     // private System.Void .ctor(System.Int64 connectionTime, System.Byte connectionNumber, System.Byte[] targetAddress, LiteNetLib.Utils.NetDataReader data)
     // Offset: 0x20E0194
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static NetConnectRequestPacket* New_ctor(int64_t connectionTime, uint8_t connectionNumber, ::ArrayW<uint8_t> targetAddress, LiteNetLib::Utils::NetDataReader* data) {
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::NetConnectRequestPacket::.ctor");
+    static NetConnectRequestPacket* New_ctor(int64_t connectionTime, uint8_t connectionNumber, ::ArrayW<uint8_t> targetAddress, ::LiteNetLib::Utils::NetDataReader* data) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::NetConnectRequestPacket::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetConnectRequestPacket*, creationType>(connectionTime, connectionNumber, targetAddress, data)));
     }
     // static public System.Int32 GetProtocolId(LiteNetLib.NetPacket packet)
     // Offset: 0x20E01E4
-    static int GetProtocolId(LiteNetLib::NetPacket* packet);
+    static int GetProtocolId(::LiteNetLib::NetPacket* packet);
     // static public LiteNetLib.NetConnectRequestPacket FromData(LiteNetLib.NetPacket packet)
     // Offset: 0x20E025C
-    static LiteNetLib::NetConnectRequestPacket* FromData(LiteNetLib::NetPacket* packet);
+    static ::LiteNetLib::NetConnectRequestPacket* FromData(::LiteNetLib::NetPacket* packet);
     // static public LiteNetLib.NetPacket Make(LiteNetLib.Utils.NetDataWriter connectData, System.Net.SocketAddress addressBytes, System.Int64 connectId)
     // Offset: 0x20E0474
-    static LiteNetLib::NetPacket* Make(LiteNetLib::Utils::NetDataWriter* connectData, System::Net::SocketAddress* addressBytes, int64_t connectId);
+    static ::LiteNetLib::NetPacket* Make(::LiteNetLib::Utils::NetDataWriter* connectData, ::System::Net::SocketAddress* addressBytes, int64_t connectId);
   }; // LiteNetLib.NetConnectRequestPacket
   #pragma pack(pop)
-  static check_size<sizeof(NetConnectRequestPacket), 40 + sizeof(LiteNetLib::Utils::NetDataReader*)> __LiteNetLib_NetConnectRequestPacketSizeCheck;
+  static check_size<sizeof(NetConnectRequestPacket), 40 + sizeof(::LiteNetLib::Utils::NetDataReader*)> __LiteNetLib_NetConnectRequestPacketSizeCheck;
   static_assert(sizeof(NetConnectRequestPacket) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -127,7 +127,7 @@ namespace LiteNetLib {
 // Writing MetadataGetter for method: LiteNetLib::NetConnectRequestPacket::GetProtocolId
 // Il2CppName: GetProtocolId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(LiteNetLib::NetPacket*)>(&LiteNetLib::NetConnectRequestPacket::GetProtocolId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::LiteNetLib::NetPacket*)>(&LiteNetLib::NetConnectRequestPacket::GetProtocolId)> {
   static const MethodInfo* get() {
     static auto* packet = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetPacket")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetConnectRequestPacket*), "GetProtocolId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet});
@@ -136,7 +136,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Lit
 // Writing MetadataGetter for method: LiteNetLib::NetConnectRequestPacket::FromData
 // Il2CppName: FromData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetConnectRequestPacket* (*)(LiteNetLib::NetPacket*)>(&LiteNetLib::NetConnectRequestPacket::FromData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LiteNetLib::NetConnectRequestPacket* (*)(::LiteNetLib::NetPacket*)>(&LiteNetLib::NetConnectRequestPacket::FromData)> {
   static const MethodInfo* get() {
     static auto* packet = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetPacket")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetConnectRequestPacket*), "FromData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet});
@@ -145,7 +145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib:
 // Writing MetadataGetter for method: LiteNetLib::NetConnectRequestPacket::Make
 // Il2CppName: Make
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetPacket* (*)(LiteNetLib::Utils::NetDataWriter*, System::Net::SocketAddress*, int64_t)>(&LiteNetLib::NetConnectRequestPacket::Make)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LiteNetLib::NetPacket* (*)(::LiteNetLib::Utils::NetDataWriter*, ::System::Net::SocketAddress*, int64_t)>(&LiteNetLib::NetConnectRequestPacket::Make)> {
   static const MethodInfo* get() {
     static auto* connectData = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataWriter")->byval_arg;
     static auto* addressBytes = &::il2cpp_utils::GetClassFromName("System.Net", "SocketAddress")->byval_arg;

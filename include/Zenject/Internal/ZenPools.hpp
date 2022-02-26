@@ -61,8 +61,8 @@ namespace Zenject::Internal {
   class ZenPools;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::Internal::ZenPools);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ZenPools*, "Zenject.Internal", "ZenPools");
+NEED_NO_BOX(::Zenject::Internal::ZenPools);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::Internal::ZenPools*, "Zenject.Internal", "ZenPools");
 // Type namespace: Zenject.Internal
 namespace Zenject::Internal {
   // Size: 0x10
@@ -72,59 +72,59 @@ namespace Zenject::Internal {
   class ZenPools : public ::Il2CppObject {
     public:
     // Get static field: static private readonly Zenject.StaticMemoryPool`1<Zenject.InjectContext> _contextPool
-    static Zenject::StaticMemoryPool_1<Zenject::InjectContext*>* _get__contextPool();
+    static ::Zenject::StaticMemoryPool_1<::Zenject::InjectContext*>* _get__contextPool();
     // Set static field: static private readonly Zenject.StaticMemoryPool`1<Zenject.InjectContext> _contextPool
-    static void _set__contextPool(Zenject::StaticMemoryPool_1<Zenject::InjectContext*>* value);
+    static void _set__contextPool(::Zenject::StaticMemoryPool_1<::Zenject::InjectContext*>* value);
     // Get static field: static private readonly Zenject.StaticMemoryPool`1<Zenject.Internal.LookupId> _lookupIdPool
-    static Zenject::StaticMemoryPool_1<Zenject::Internal::LookupId*>* _get__lookupIdPool();
+    static ::Zenject::StaticMemoryPool_1<::Zenject::Internal::LookupId*>* _get__lookupIdPool();
     // Set static field: static private readonly Zenject.StaticMemoryPool`1<Zenject.Internal.LookupId> _lookupIdPool
-    static void _set__lookupIdPool(Zenject::StaticMemoryPool_1<Zenject::Internal::LookupId*>* value);
+    static void _set__lookupIdPool(::Zenject::StaticMemoryPool_1<::Zenject::Internal::LookupId*>* value);
     // Get static field: static private readonly Zenject.StaticMemoryPool`1<Zenject.BindInfo> _bindInfoPool
-    static Zenject::StaticMemoryPool_1<Zenject::BindInfo*>* _get__bindInfoPool();
+    static ::Zenject::StaticMemoryPool_1<::Zenject::BindInfo*>* _get__bindInfoPool();
     // Set static field: static private readonly Zenject.StaticMemoryPool`1<Zenject.BindInfo> _bindInfoPool
-    static void _set__bindInfoPool(Zenject::StaticMemoryPool_1<Zenject::BindInfo*>* value);
+    static void _set__bindInfoPool(::Zenject::StaticMemoryPool_1<::Zenject::BindInfo*>* value);
     // Get static field: static private readonly Zenject.StaticMemoryPool`1<Zenject.BindStatement> _bindStatementPool
-    static Zenject::StaticMemoryPool_1<Zenject::BindStatement*>* _get__bindStatementPool();
+    static ::Zenject::StaticMemoryPool_1<::Zenject::BindStatement*>* _get__bindStatementPool();
     // Set static field: static private readonly Zenject.StaticMemoryPool`1<Zenject.BindStatement> _bindStatementPool
-    static void _set__bindStatementPool(Zenject::StaticMemoryPool_1<Zenject::BindStatement*>* value);
+    static void _set__bindStatementPool(::Zenject::StaticMemoryPool_1<::Zenject::BindStatement*>* value);
     // static private System.Void .cctor()
     // Offset: 0x1B0852C
     static void _cctor();
     // static public System.Collections.Generic.HashSet`1<T> SpawnHashSet()
     // Offset: 0xFFFFFFFF
     template<class T>
-    static System::Collections::Generic::HashSet_1<T>* SpawnHashSet() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::Internal::ZenPools::SpawnHashSet");
+    static ::System::Collections::Generic::HashSet_1<T>* SpawnHashSet() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Internal::ZenPools::SpawnHashSet");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject.Internal", "ZenPools", "SpawnHashSet", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodRethrow<System::Collections::Generic::HashSet_1<T>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
+      return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::HashSet_1<T>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
     }
     // static public System.Collections.Generic.Dictionary`2<TKey,TValue> SpawnDictionary()
     // Offset: 0xFFFFFFFF
     template<class TKey, class TValue>
-    static System::Collections::Generic::Dictionary_2<TKey, TValue>* SpawnDictionary() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::Internal::ZenPools::SpawnDictionary");
+    static ::System::Collections::Generic::Dictionary_2<TKey, TValue>* SpawnDictionary() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Internal::ZenPools::SpawnDictionary");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject.Internal", "ZenPools", "SpawnDictionary", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get()})));
-      return ::il2cpp_utils::RunMethodRethrow<System::Collections::Generic::Dictionary_2<TKey, TValue>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
+      return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::Dictionary_2<TKey, TValue>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
     }
     // static public Zenject.BindStatement SpawnStatement()
     // Offset: 0x1B07FC4
-    static Zenject::BindStatement* SpawnStatement();
+    static ::Zenject::BindStatement* SpawnStatement();
     // static public System.Void DespawnStatement(Zenject.BindStatement statement)
     // Offset: 0x1B08040
-    static void DespawnStatement(Zenject::BindStatement* statement);
+    static void DespawnStatement(::Zenject::BindStatement* statement);
     // static public Zenject.BindInfo SpawnBindInfo()
     // Offset: 0x1B080D4
-    static Zenject::BindInfo* SpawnBindInfo();
+    static ::Zenject::BindInfo* SpawnBindInfo();
     // static public System.Void DespawnBindInfo(Zenject.BindInfo bindInfo)
     // Offset: 0x1B08150
-    static void DespawnBindInfo(Zenject::BindInfo* bindInfo);
+    static void DespawnBindInfo(::Zenject::BindInfo* bindInfo);
     // static public System.Void DespawnDictionary(System.Collections.Generic.Dictionary`2<TKey,TValue> dictionary)
     // Offset: 0xFFFFFFFF
     template<class TKey, class TValue>
-    static void DespawnDictionary(System::Collections::Generic::Dictionary_2<TKey, TValue>* dictionary) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::Internal::ZenPools::DespawnDictionary");
+    static void DespawnDictionary(::System::Collections::Generic::Dictionary_2<TKey, TValue>* dictionary) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Internal::ZenPools::DespawnDictionary");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject.Internal", "ZenPools", "DespawnDictionary", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(dictionary)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TKey>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get()})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, dictionary);
@@ -132,32 +132,32 @@ namespace Zenject::Internal {
     // static public System.Void DespawnHashSet(System.Collections.Generic.HashSet`1<T> set)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static void DespawnHashSet(System::Collections::Generic::HashSet_1<T>* set) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::Internal::ZenPools::DespawnHashSet");
+    static void DespawnHashSet(::System::Collections::Generic::HashSet_1<T>* set) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Internal::ZenPools::DespawnHashSet");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject.Internal", "ZenPools", "DespawnHashSet", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(set)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, set);
     }
     // static public Zenject.Internal.LookupId SpawnLookupId(Zenject.IProvider provider, Zenject.BindingId bindingId)
     // Offset: 0x1B081E4
-    static Zenject::Internal::LookupId* SpawnLookupId(Zenject::IProvider* provider, Zenject::BindingId bindingId);
+    static ::Zenject::Internal::LookupId* SpawnLookupId(::Zenject::IProvider* provider, ::Zenject::BindingId bindingId);
     // static public System.Void DespawnLookupId(Zenject.Internal.LookupId lookupId)
     // Offset: 0x1B08284
-    static void DespawnLookupId(Zenject::Internal::LookupId* lookupId);
+    static void DespawnLookupId(::Zenject::Internal::LookupId* lookupId);
     // static public System.Collections.Generic.List`1<T> SpawnList()
     // Offset: 0xFFFFFFFF
     template<class T>
-    static System::Collections::Generic::List_1<T>* SpawnList() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::Internal::ZenPools::SpawnList");
+    static ::System::Collections::Generic::List_1<T>* SpawnList() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Internal::ZenPools::SpawnList");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject.Internal", "ZenPools", "SpawnList", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodRethrow<System::Collections::Generic::List_1<T>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
+      return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::List_1<T>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
     }
     // static public System.Void DespawnList(System.Collections.Generic.List`1<T> list)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static void DespawnList(System::Collections::Generic::List_1<T>* list) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::Internal::ZenPools::DespawnList");
+    static void DespawnList(::System::Collections::Generic::List_1<T>* list) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Internal::ZenPools::DespawnList");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject.Internal", "ZenPools", "DespawnList", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(list)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, list);
@@ -166,7 +166,7 @@ namespace Zenject::Internal {
     // Offset: 0xFFFFFFFF
     template<class T>
     static void DespawnArray(::ArrayW<T> arr) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::Internal::ZenPools::DespawnArray");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Internal::ZenPools::DespawnArray");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject.Internal", "ZenPools", "DespawnArray", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arr)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, arr);
@@ -175,20 +175,20 @@ namespace Zenject::Internal {
     // Offset: 0xFFFFFFFF
     template<class T>
     static ::ArrayW<T> SpawnArray(int length) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::Internal::ZenPools::SpawnArray");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::Internal::ZenPools::SpawnArray");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject.Internal", "ZenPools", "SpawnArray", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(length)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<T>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, length);
     }
     // static public Zenject.InjectContext SpawnInjectContext(Zenject.DiContainer container, System.Type memberType)
     // Offset: 0x1B08308
-    static Zenject::InjectContext* SpawnInjectContext(Zenject::DiContainer* container, System::Type* memberType);
+    static ::Zenject::InjectContext* SpawnInjectContext(::Zenject::DiContainer* container, ::System::Type* memberType);
     // static public System.Void DespawnInjectContext(Zenject.InjectContext context)
     // Offset: 0x1B083B4
-    static void DespawnInjectContext(Zenject::InjectContext* context);
+    static void DespawnInjectContext(::Zenject::InjectContext* context);
     // static public Zenject.InjectContext SpawnInjectContext(Zenject.DiContainer container, Zenject.InjectableInfo injectableInfo, Zenject.InjectContext currentContext, System.Object targetInstance, System.Type targetType, System.Object concreteIdentifier)
     // Offset: 0x1B08448
-    static Zenject::InjectContext* SpawnInjectContext(Zenject::DiContainer* container, Zenject::InjectableInfo* injectableInfo, Zenject::InjectContext* currentContext, ::Il2CppObject* targetInstance, System::Type* targetType, ::Il2CppObject* concreteIdentifier);
+    static ::Zenject::InjectContext* SpawnInjectContext(::Zenject::DiContainer* container, ::Zenject::InjectableInfo* injectableInfo, ::Zenject::InjectContext* currentContext, ::Il2CppObject* targetInstance, ::System::Type* targetType, ::Il2CppObject* concreteIdentifier);
   }; // Zenject.Internal.ZenPools
   #pragma pack(pop)
 }
@@ -210,7 +210,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Zenject::Internal::ZenPools::SpawnStatement
 // Il2CppName: SpawnStatement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::BindStatement* (*)()>(&Zenject::Internal::ZenPools::SpawnStatement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::BindStatement* (*)()>(&Zenject::Internal::ZenPools::SpawnStatement)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenPools*), "SpawnStatement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -218,7 +218,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Bi
 // Writing MetadataGetter for method: Zenject::Internal::ZenPools::DespawnStatement
 // Il2CppName: DespawnStatement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Zenject::BindStatement*)>(&Zenject::Internal::ZenPools::DespawnStatement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Zenject::BindStatement*)>(&Zenject::Internal::ZenPools::DespawnStatement)> {
   static const MethodInfo* get() {
     static auto* statement = &::il2cpp_utils::GetClassFromName("Zenject", "BindStatement")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenPools*), "DespawnStatement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{statement});
@@ -227,7 +227,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ze
 // Writing MetadataGetter for method: Zenject::Internal::ZenPools::SpawnBindInfo
 // Il2CppName: SpawnBindInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::BindInfo* (*)()>(&Zenject::Internal::ZenPools::SpawnBindInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::BindInfo* (*)()>(&Zenject::Internal::ZenPools::SpawnBindInfo)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenPools*), "SpawnBindInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -235,7 +235,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Bi
 // Writing MetadataGetter for method: Zenject::Internal::ZenPools::DespawnBindInfo
 // Il2CppName: DespawnBindInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Zenject::BindInfo*)>(&Zenject::Internal::ZenPools::DespawnBindInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Zenject::BindInfo*)>(&Zenject::Internal::ZenPools::DespawnBindInfo)> {
   static const MethodInfo* get() {
     static auto* bindInfo = &::il2cpp_utils::GetClassFromName("Zenject", "BindInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenPools*), "DespawnBindInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bindInfo});
@@ -250,7 +250,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ze
 // Writing MetadataGetter for method: Zenject::Internal::ZenPools::SpawnLookupId
 // Il2CppName: SpawnLookupId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Internal::LookupId* (*)(Zenject::IProvider*, Zenject::BindingId)>(&Zenject::Internal::ZenPools::SpawnLookupId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::Internal::LookupId* (*)(::Zenject::IProvider*, ::Zenject::BindingId)>(&Zenject::Internal::ZenPools::SpawnLookupId)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("Zenject", "IProvider")->byval_arg;
     static auto* bindingId = &::il2cpp_utils::GetClassFromName("Zenject", "BindingId")->byval_arg;
@@ -260,7 +260,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::In
 // Writing MetadataGetter for method: Zenject::Internal::ZenPools::DespawnLookupId
 // Il2CppName: DespawnLookupId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Zenject::Internal::LookupId*)>(&Zenject::Internal::ZenPools::DespawnLookupId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Zenject::Internal::LookupId*)>(&Zenject::Internal::ZenPools::DespawnLookupId)> {
   static const MethodInfo* get() {
     static auto* lookupId = &::il2cpp_utils::GetClassFromName("Zenject.Internal", "LookupId")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenPools*), "DespawnLookupId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lookupId});
@@ -281,7 +281,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ze
 // Writing MetadataGetter for method: Zenject::Internal::ZenPools::SpawnInjectContext
 // Il2CppName: SpawnInjectContext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectContext* (*)(Zenject::DiContainer*, System::Type*)>(&Zenject::Internal::ZenPools::SpawnInjectContext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectContext* (*)(::Zenject::DiContainer*, ::System::Type*)>(&Zenject::Internal::ZenPools::SpawnInjectContext)> {
   static const MethodInfo* get() {
     static auto* container = &::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")->byval_arg;
     static auto* memberType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -291,7 +291,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::In
 // Writing MetadataGetter for method: Zenject::Internal::ZenPools::DespawnInjectContext
 // Il2CppName: DespawnInjectContext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Zenject::InjectContext*)>(&Zenject::Internal::ZenPools::DespawnInjectContext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Zenject::InjectContext*)>(&Zenject::Internal::ZenPools::DespawnInjectContext)> {
   static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("Zenject", "InjectContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenPools*), "DespawnInjectContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
@@ -300,7 +300,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ze
 // Writing MetadataGetter for method: Zenject::Internal::ZenPools::SpawnInjectContext
 // Il2CppName: SpawnInjectContext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectContext* (*)(Zenject::DiContainer*, Zenject::InjectableInfo*, Zenject::InjectContext*, ::Il2CppObject*, System::Type*, ::Il2CppObject*)>(&Zenject::Internal::ZenPools::SpawnInjectContext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectContext* (*)(::Zenject::DiContainer*, ::Zenject::InjectableInfo*, ::Zenject::InjectContext*, ::Il2CppObject*, ::System::Type*, ::Il2CppObject*)>(&Zenject::Internal::ZenPools::SpawnInjectContext)> {
   static const MethodInfo* get() {
     static auto* container = &::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")->byval_arg;
     static auto* injectableInfo = &::il2cpp_utils::GetClassFromName("Zenject", "InjectableInfo")->byval_arg;

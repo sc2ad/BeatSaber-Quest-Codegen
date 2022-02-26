@@ -48,8 +48,8 @@ namespace System::Data {
   class DataRelation;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Data::DataRelation);
-DEFINE_IL2CPP_ARG_TYPE(System::Data::DataRelation*, "System.Data", "DataRelation");
+NEED_NO_BOX(::System::Data::DataRelation);
+DEFINE_IL2CPP_ARG_TYPE(::System::Data::DataRelation*, "System.Data", "DataRelation");
 // Type namespace: System.Data
 namespace System::Data {
   // Size: 0x58
@@ -72,15 +72,15 @@ namespace System::Data {
     // private System.Data.DataSet _dataSet
     // Size: 0x8
     // Offset: 0x10
-    System::Data::DataSet* dataSet;
+    ::System::Data::DataSet* dataSet;
     // Field size check
-    static_assert(sizeof(System::Data::DataSet*) == 0x8);
+    static_assert(sizeof(::System::Data::DataSet*) == 0x8);
     // System.Data.PropertyCollection _extendedProperties
     // Size: 0x8
     // Offset: 0x18
-    System::Data::PropertyCollection* extendedProperties;
+    ::System::Data::PropertyCollection* extendedProperties;
     // Field size check
-    static_assert(sizeof(System::Data::PropertyCollection*) == 0x8);
+    static_assert(sizeof(::System::Data::PropertyCollection*) == 0x8);
     // System.String _relationName
     // Size: 0x8
     // Offset: 0x20
@@ -90,27 +90,27 @@ namespace System::Data {
     // private System.Data.DataKey _childKey
     // Size: 0x8
     // Offset: 0x28
-    System::Data::DataKey childKey;
+    ::System::Data::DataKey childKey;
     // Field size check
-    static_assert(sizeof(System::Data::DataKey) == 0x8);
+    static_assert(sizeof(::System::Data::DataKey) == 0x8);
     // private System.Data.DataKey _parentKey
     // Size: 0x8
     // Offset: 0x30
-    System::Data::DataKey parentKey;
+    ::System::Data::DataKey parentKey;
     // Field size check
-    static_assert(sizeof(System::Data::DataKey) == 0x8);
+    static_assert(sizeof(::System::Data::DataKey) == 0x8);
     // private System.Data.UniqueConstraint _parentKeyConstraint
     // Size: 0x8
     // Offset: 0x38
-    System::Data::UniqueConstraint* parentKeyConstraint;
+    ::System::Data::UniqueConstraint* parentKeyConstraint;
     // Field size check
-    static_assert(sizeof(System::Data::UniqueConstraint*) == 0x8);
+    static_assert(sizeof(::System::Data::UniqueConstraint*) == 0x8);
     // private System.Data.ForeignKeyConstraint _childKeyConstraint
     // Size: 0x8
     // Offset: 0x40
-    System::Data::ForeignKeyConstraint* childKeyConstraint;
+    ::System::Data::ForeignKeyConstraint* childKeyConstraint;
     // Field size check
-    static_assert(sizeof(System::Data::ForeignKeyConstraint*) == 0x8);
+    static_assert(sizeof(::System::Data::ForeignKeyConstraint*) == 0x8);
     // System.Boolean _nested
     // Size: 0x1
     // Offset: 0x48
@@ -140,28 +140,28 @@ namespace System::Data {
     // private System.ComponentModel.PropertyChangedEventHandler PropertyChanging
     // Size: 0x8
     // Offset: 0x50
-    System::ComponentModel::PropertyChangedEventHandler* PropertyChanging;
+    ::System::ComponentModel::PropertyChangedEventHandler* PropertyChanging;
     // Field size check
-    static_assert(sizeof(System::ComponentModel::PropertyChangedEventHandler*) == 0x8);
+    static_assert(sizeof(::System::ComponentModel::PropertyChangedEventHandler*) == 0x8);
     public:
     // Get static field: static private System.Int32 s_objectTypeCount
     static int _get_s_objectTypeCount();
     // Set static field: static private System.Int32 s_objectTypeCount
     static void _set_s_objectTypeCount(int value);
     // Get instance field reference: private System.Data.DataSet _dataSet
-    System::Data::DataSet*& dyn__dataSet();
+    ::System::Data::DataSet*& dyn__dataSet();
     // Get instance field reference: System.Data.PropertyCollection _extendedProperties
-    System::Data::PropertyCollection*& dyn__extendedProperties();
+    ::System::Data::PropertyCollection*& dyn__extendedProperties();
     // Get instance field reference: System.String _relationName
     ::StringW& dyn__relationName();
     // Get instance field reference: private System.Data.DataKey _childKey
-    System::Data::DataKey& dyn__childKey();
+    ::System::Data::DataKey& dyn__childKey();
     // Get instance field reference: private System.Data.DataKey _parentKey
-    System::Data::DataKey& dyn__parentKey();
+    ::System::Data::DataKey& dyn__parentKey();
     // Get instance field reference: private System.Data.UniqueConstraint _parentKeyConstraint
-    System::Data::UniqueConstraint*& dyn__parentKeyConstraint();
+    ::System::Data::UniqueConstraint*& dyn__parentKeyConstraint();
     // Get instance field reference: private System.Data.ForeignKeyConstraint _childKeyConstraint
-    System::Data::ForeignKeyConstraint*& dyn__childKeyConstraint();
+    ::System::Data::ForeignKeyConstraint*& dyn__childKeyConstraint();
     // Get instance field reference: System.Boolean _nested
     bool& dyn__nested();
     // Get instance field reference: System.Boolean _createConstraints
@@ -171,34 +171,34 @@ namespace System::Data {
     // Get instance field reference: private readonly System.Int32 _objectID
     int& dyn__objectID();
     // Get instance field reference: private System.ComponentModel.PropertyChangedEventHandler PropertyChanging
-    System::ComponentModel::PropertyChangedEventHandler*& dyn_PropertyChanging();
+    ::System::ComponentModel::PropertyChangedEventHandler*& dyn_PropertyChanging();
     // public System.Data.DataColumn[] get_ChildColumns()
     // Offset: 0x1E5667C
-    ::ArrayW<System::Data::DataColumn*> get_ChildColumns();
+    ::ArrayW<::System::Data::DataColumn*> get_ChildColumns();
     // System.Data.DataColumn[] get_ChildColumnsReference()
     // Offset: 0x1E567C4
-    ::ArrayW<System::Data::DataColumn*> get_ChildColumnsReference();
+    ::ArrayW<::System::Data::DataColumn*> get_ChildColumnsReference();
     // System.Data.DataKey get_ChildKey()
     // Offset: 0x1E50C24
-    System::Data::DataKey get_ChildKey();
+    ::System::Data::DataKey get_ChildKey();
     // public System.Data.DataTable get_ChildTable()
     // Offset: 0x1E567E8
-    System::Data::DataTable* get_ChildTable();
+    ::System::Data::DataTable* get_ChildTable();
     // public System.Data.DataSet get_DataSet()
     // Offset: 0x1E5680C
-    System::Data::DataSet* get_DataSet();
+    ::System::Data::DataSet* get_DataSet();
     // public System.Data.DataColumn[] get_ParentColumns()
     // Offset: 0x1E56C00
-    ::ArrayW<System::Data::DataColumn*> get_ParentColumns();
+    ::ArrayW<::System::Data::DataColumn*> get_ParentColumns();
     // System.Data.DataColumn[] get_ParentColumnsReference()
     // Offset: 0x1E56C24
-    ::ArrayW<System::Data::DataColumn*> get_ParentColumnsReference();
+    ::ArrayW<::System::Data::DataColumn*> get_ParentColumnsReference();
     // System.Data.DataKey get_ParentKey()
     // Offset: 0x1E50CB0
-    System::Data::DataKey get_ParentKey();
+    ::System::Data::DataKey get_ParentKey();
     // public System.Data.DataTable get_ParentTable()
     // Offset: 0x1E56C2C
-    System::Data::DataTable* get_ParentTable();
+    ::System::Data::DataTable* get_ParentTable();
     // public System.String get_RelationName()
     // Offset: 0x1E56C50
     ::StringW get_RelationName();
@@ -210,13 +210,13 @@ namespace System::Data {
     void set_Nested(bool value);
     // public System.Data.UniqueConstraint get_ParentKeyConstraint()
     // Offset: 0x1E5877C
-    System::Data::UniqueConstraint* get_ParentKeyConstraint();
+    ::System::Data::UniqueConstraint* get_ParentKeyConstraint();
     // public System.Data.ForeignKeyConstraint get_ChildKeyConstraint()
     // Offset: 0x1E587A8
-    System::Data::ForeignKeyConstraint* get_ChildKeyConstraint();
+    ::System::Data::ForeignKeyConstraint* get_ChildKeyConstraint();
     // public System.Data.PropertyCollection get_ExtendedProperties()
     // Offset: 0x1E587CC
-    System::Data::PropertyCollection* get_ExtendedProperties();
+    ::System::Data::PropertyCollection* get_ExtendedProperties();
     // System.Boolean get_CheckMultipleNested()
     // Offset: 0x1E58838
     bool get_CheckMultipleNested();
@@ -229,22 +229,22 @@ namespace System::Data {
     // public System.Void .ctor(System.String relationName, System.Data.DataColumn parentColumn, System.Data.DataColumn childColumn, System.Boolean createConstraints)
     // Offset: 0x1E56174
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DataRelation* New_ctor(::StringW relationName, System::Data::DataColumn* parentColumn, System::Data::DataColumn* childColumn, bool createConstraints) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Data::DataRelation::.ctor");
+    static DataRelation* New_ctor(::StringW relationName, ::System::Data::DataColumn* parentColumn, ::System::Data::DataColumn* childColumn, bool createConstraints) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Data::DataRelation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DataRelation*, creationType>(relationName, parentColumn, childColumn, createConstraints)));
     }
     // public System.Void .ctor(System.String relationName, System.Data.DataColumn[] parentColumns, System.Data.DataColumn[] childColumns)
     // Offset: 0x1E565B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DataRelation* New_ctor(::StringW relationName, ::ArrayW<System::Data::DataColumn*> parentColumns, ::ArrayW<System::Data::DataColumn*> childColumns) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Data::DataRelation::.ctor");
+    static DataRelation* New_ctor(::StringW relationName, ::ArrayW<::System::Data::DataColumn*> parentColumns, ::ArrayW<::System::Data::DataColumn*> childColumns) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Data::DataRelation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DataRelation*, creationType>(relationName, parentColumns, childColumns)));
     }
     // public System.Void .ctor(System.String relationName, System.Data.DataColumn[] parentColumns, System.Data.DataColumn[] childColumns, System.Boolean createConstraints)
     // Offset: 0x1E565C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DataRelation* New_ctor(::StringW relationName, ::ArrayW<System::Data::DataColumn*> parentColumns, ::ArrayW<System::Data::DataColumn*> childColumns, bool createConstraints) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Data::DataRelation::.ctor");
+    static DataRelation* New_ctor(::StringW relationName, ::ArrayW<::System::Data::DataColumn*> parentColumns, ::ArrayW<::System::Data::DataColumn*> childColumns, bool createConstraints) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Data::DataRelation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DataRelation*, creationType>(relationName, parentColumns, childColumns, createConstraints)));
     }
     // static private System.Boolean IsKeyNull(System.Object[] values)
@@ -252,16 +252,16 @@ namespace System::Data {
     static bool IsKeyNull(::ArrayW<::Il2CppObject*> values);
     // static System.Data.DataRow[] GetChildRows(System.Data.DataKey parentKey, System.Data.DataKey childKey, System.Data.DataRow parentRow, System.Data.DataRowVersion version)
     // Offset: 0x1E56904
-    static ::ArrayW<System::Data::DataRow*> GetChildRows(System::Data::DataKey parentKey, System::Data::DataKey childKey, System::Data::DataRow* parentRow, System::Data::DataRowVersion version);
+    static ::ArrayW<::System::Data::DataRow*> GetChildRows(::System::Data::DataKey parentKey, ::System::Data::DataKey childKey, ::System::Data::DataRow* parentRow, ::System::Data::DataRowVersion version);
     // static System.Data.DataRow[] GetParentRows(System.Data.DataKey parentKey, System.Data.DataKey childKey, System.Data.DataRow childRow, System.Data.DataRowVersion version)
     // Offset: 0x1E569D4
-    static ::ArrayW<System::Data::DataRow*> GetParentRows(System::Data::DataKey parentKey, System::Data::DataKey childKey, System::Data::DataRow* childRow, System::Data::DataRowVersion version);
+    static ::ArrayW<::System::Data::DataRow*> GetParentRows(::System::Data::DataKey parentKey, ::System::Data::DataKey childKey, ::System::Data::DataRow* childRow, ::System::Data::DataRowVersion version);
     // static System.Data.DataRow GetParentRow(System.Data.DataKey parentKey, System.Data.DataKey childKey, System.Data.DataRow childRow, System.Data.DataRowVersion version)
     // Offset: 0x1E56A74
-    static System::Data::DataRow* GetParentRow(System::Data::DataKey parentKey, System::Data::DataKey childKey, System::Data::DataRow* childRow, System::Data::DataRowVersion version);
+    static ::System::Data::DataRow* GetParentRow(::System::Data::DataKey parentKey, ::System::Data::DataKey childKey, ::System::Data::DataRow* childRow, ::System::Data::DataRowVersion version);
     // System.Void SetDataSet(System.Data.DataSet dataSet)
     // Offset: 0x1E56BEC
-    void SetDataSet(System::Data::DataSet* dataSet);
+    void SetDataSet(::System::Data::DataSet* dataSet);
     // System.Void CheckNamespaceValidityForNestedRelations(System.String ns)
     // Offset: 0x1E56C74
     void CheckNamespaceValidityForNestedRelations(::StringW ns);
@@ -270,10 +270,10 @@ namespace System::Data {
     void CheckNestedRelations();
     // System.Void SetParentKeyConstraint(System.Data.UniqueConstraint value)
     // Offset: 0x1E587A0
-    void SetParentKeyConstraint(System::Data::UniqueConstraint* value);
+    void SetParentKeyConstraint(::System::Data::UniqueConstraint* value);
     // System.Void SetChildKeyConstraint(System.Data.ForeignKeyConstraint value)
     // Offset: 0x1E5884C
-    void SetChildKeyConstraint(System::Data::ForeignKeyConstraint* value);
+    void SetChildKeyConstraint(::System::Data::ForeignKeyConstraint* value);
     // System.Void CheckState()
     // Offset: 0x1E58854
     void CheckState();
@@ -282,13 +282,13 @@ namespace System::Data {
     void CheckStateForProperty();
     // private System.Void Create(System.String relationName, System.Data.DataColumn[] parentColumns, System.Data.DataColumn[] childColumns, System.Boolean createConstraints)
     // Offset: 0x1E56348
-    void Create(::StringW relationName, ::ArrayW<System::Data::DataColumn*> parentColumns, ::ArrayW<System::Data::DataColumn*> childColumns, bool createConstraints);
+    void Create(::StringW relationName, ::ArrayW<::System::Data::DataColumn*> parentColumns, ::ArrayW<::System::Data::DataColumn*> childColumns, bool createConstraints);
     // System.Data.DataRelation Clone(System.Data.DataSet destination)
     // Offset: 0x1E58A84
-    System::Data::DataRelation* Clone(System::Data::DataSet* destination);
+    ::System::Data::DataRelation* Clone(::System::Data::DataSet* destination);
     // protected internal System.Void OnPropertyChanging(System.ComponentModel.PropertyChangedEventArgs pcevent)
     // Offset: 0x1E59028
-    void OnPropertyChanging(System::ComponentModel::PropertyChangedEventArgs* pcevent);
+    void OnPropertyChanging(::System::ComponentModel::PropertyChangedEventArgs* pcevent);
     // protected internal System.Void RaisePropertyChanging(System.String name)
     // Offset: 0x1E58610
     void RaisePropertyChanging(::StringW name);
@@ -297,7 +297,7 @@ namespace System::Data {
     void ValidateMultipleNestedRelations();
     // private System.Boolean IsAutoGenerated(System.Data.DataColumn col)
     // Offset: 0x1E59100
-    bool IsAutoGenerated(System::Data::DataColumn* col);
+    bool IsAutoGenerated(::System::Data::DataColumn* col);
     // public override System.String ToString()
     // Offset: 0x1E590F4
     // Implemented from: System.Object
@@ -305,14 +305,14 @@ namespace System::Data {
     ::StringW ToString();
   }; // System.Data.DataRelation
   #pragma pack(pop)
-  static check_size<sizeof(DataRelation), 80 + sizeof(System::ComponentModel::PropertyChangedEventHandler*)> __System_Data_DataRelationSizeCheck;
+  static check_size<sizeof(DataRelation), 80 + sizeof(::System::ComponentModel::PropertyChangedEventHandler*)> __System_Data_DataRelationSizeCheck;
   static_assert(sizeof(DataRelation) == 0x58);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Data::DataRelation::get_ChildColumns
 // Il2CppName: get_ChildColumns
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Data::DataColumn*> (System::Data::DataRelation::*)()>(&System::Data::DataRelation::get_ChildColumns)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Data::DataColumn*> (System::Data::DataRelation::*)()>(&System::Data::DataRelation::get_ChildColumns)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataRelation*), "get_ChildColumns", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -320,7 +320,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Sy
 // Writing MetadataGetter for method: System::Data::DataRelation::get_ChildColumnsReference
 // Il2CppName: get_ChildColumnsReference
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Data::DataColumn*> (System::Data::DataRelation::*)()>(&System::Data::DataRelation::get_ChildColumnsReference)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Data::DataColumn*> (System::Data::DataRelation::*)()>(&System::Data::DataRelation::get_ChildColumnsReference)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataRelation*), "get_ChildColumnsReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -328,7 +328,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Sy
 // Writing MetadataGetter for method: System::Data::DataRelation::get_ChildKey
 // Il2CppName: get_ChildKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::DataKey (System::Data::DataRelation::*)()>(&System::Data::DataRelation::get_ChildKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataKey (System::Data::DataRelation::*)()>(&System::Data::DataRelation::get_ChildKey)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataRelation*), "get_ChildKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -336,7 +336,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::DataRelation::get_ChildTable
 // Il2CppName: get_ChildTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::DataTable* (System::Data::DataRelation::*)()>(&System::Data::DataRelation::get_ChildTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataTable* (System::Data::DataRelation::*)()>(&System::Data::DataRelation::get_ChildTable)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataRelation*), "get_ChildTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -344,7 +344,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::DataRelation::get_DataSet
 // Il2CppName: get_DataSet
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::DataSet* (System::Data::DataRelation::*)()>(&System::Data::DataRelation::get_DataSet)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataSet* (System::Data::DataRelation::*)()>(&System::Data::DataRelation::get_DataSet)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataRelation*), "get_DataSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -352,7 +352,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::DataRelation::get_ParentColumns
 // Il2CppName: get_ParentColumns
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Data::DataColumn*> (System::Data::DataRelation::*)()>(&System::Data::DataRelation::get_ParentColumns)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Data::DataColumn*> (System::Data::DataRelation::*)()>(&System::Data::DataRelation::get_ParentColumns)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataRelation*), "get_ParentColumns", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -360,7 +360,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Sy
 // Writing MetadataGetter for method: System::Data::DataRelation::get_ParentColumnsReference
 // Il2CppName: get_ParentColumnsReference
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Data::DataColumn*> (System::Data::DataRelation::*)()>(&System::Data::DataRelation::get_ParentColumnsReference)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Data::DataColumn*> (System::Data::DataRelation::*)()>(&System::Data::DataRelation::get_ParentColumnsReference)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataRelation*), "get_ParentColumnsReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -368,7 +368,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Sy
 // Writing MetadataGetter for method: System::Data::DataRelation::get_ParentKey
 // Il2CppName: get_ParentKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::DataKey (System::Data::DataRelation::*)()>(&System::Data::DataRelation::get_ParentKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataKey (System::Data::DataRelation::*)()>(&System::Data::DataRelation::get_ParentKey)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataRelation*), "get_ParentKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -376,7 +376,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::DataRelation::get_ParentTable
 // Il2CppName: get_ParentTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::DataTable* (System::Data::DataRelation::*)()>(&System::Data::DataRelation::get_ParentTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataTable* (System::Data::DataRelation::*)()>(&System::Data::DataRelation::get_ParentTable)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataRelation*), "get_ParentTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -409,7 +409,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataRelation::get_ParentKeyConstraint
 // Il2CppName: get_ParentKeyConstraint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::UniqueConstraint* (System::Data::DataRelation::*)()>(&System::Data::DataRelation::get_ParentKeyConstraint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::UniqueConstraint* (System::Data::DataRelation::*)()>(&System::Data::DataRelation::get_ParentKeyConstraint)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataRelation*), "get_ParentKeyConstraint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -417,7 +417,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::DataRelation::get_ChildKeyConstraint
 // Il2CppName: get_ChildKeyConstraint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::ForeignKeyConstraint* (System::Data::DataRelation::*)()>(&System::Data::DataRelation::get_ChildKeyConstraint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::ForeignKeyConstraint* (System::Data::DataRelation::*)()>(&System::Data::DataRelation::get_ChildKeyConstraint)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataRelation*), "get_ChildKeyConstraint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -425,7 +425,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::DataRelation::get_ExtendedProperties
 // Il2CppName: get_ExtendedProperties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::PropertyCollection* (System::Data::DataRelation::*)()>(&System::Data::DataRelation::get_ExtendedProperties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::PropertyCollection* (System::Data::DataRelation::*)()>(&System::Data::DataRelation::get_ExtendedProperties)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataRelation*), "get_ExtendedProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -479,7 +479,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Data::DataRelation::GetChildRows
 // Il2CppName: GetChildRows
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Data::DataRow*> (*)(System::Data::DataKey, System::Data::DataKey, System::Data::DataRow*, System::Data::DataRowVersion)>(&System::Data::DataRelation::GetChildRows)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Data::DataRow*> (*)(::System::Data::DataKey, ::System::Data::DataKey, ::System::Data::DataRow*, ::System::Data::DataRowVersion)>(&System::Data::DataRelation::GetChildRows)> {
   static const MethodInfo* get() {
     static auto* parentKey = &::il2cpp_utils::GetClassFromName("System.Data", "DataKey")->byval_arg;
     static auto* childKey = &::il2cpp_utils::GetClassFromName("System.Data", "DataKey")->byval_arg;
@@ -491,7 +491,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Sy
 // Writing MetadataGetter for method: System::Data::DataRelation::GetParentRows
 // Il2CppName: GetParentRows
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Data::DataRow*> (*)(System::Data::DataKey, System::Data::DataKey, System::Data::DataRow*, System::Data::DataRowVersion)>(&System::Data::DataRelation::GetParentRows)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Data::DataRow*> (*)(::System::Data::DataKey, ::System::Data::DataKey, ::System::Data::DataRow*, ::System::Data::DataRowVersion)>(&System::Data::DataRelation::GetParentRows)> {
   static const MethodInfo* get() {
     static auto* parentKey = &::il2cpp_utils::GetClassFromName("System.Data", "DataKey")->byval_arg;
     static auto* childKey = &::il2cpp_utils::GetClassFromName("System.Data", "DataKey")->byval_arg;
@@ -503,7 +503,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Sy
 // Writing MetadataGetter for method: System::Data::DataRelation::GetParentRow
 // Il2CppName: GetParentRow
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::DataRow* (*)(System::Data::DataKey, System::Data::DataKey, System::Data::DataRow*, System::Data::DataRowVersion)>(&System::Data::DataRelation::GetParentRow)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataRow* (*)(::System::Data::DataKey, ::System::Data::DataKey, ::System::Data::DataRow*, ::System::Data::DataRowVersion)>(&System::Data::DataRelation::GetParentRow)> {
   static const MethodInfo* get() {
     static auto* parentKey = &::il2cpp_utils::GetClassFromName("System.Data", "DataKey")->byval_arg;
     static auto* childKey = &::il2cpp_utils::GetClassFromName("System.Data", "DataKey")->byval_arg;
@@ -515,7 +515,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::DataRelation::SetDataSet
 // Il2CppName: SetDataSet
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataRelation::*)(System::Data::DataSet*)>(&System::Data::DataRelation::SetDataSet)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataRelation::*)(::System::Data::DataSet*)>(&System::Data::DataRelation::SetDataSet)> {
   static const MethodInfo* get() {
     static auto* dataSet = &::il2cpp_utils::GetClassFromName("System.Data", "DataSet")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataRelation*), "SetDataSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dataSet});
@@ -541,7 +541,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataRelation::SetParentKeyConstraint
 // Il2CppName: SetParentKeyConstraint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataRelation::*)(System::Data::UniqueConstraint*)>(&System::Data::DataRelation::SetParentKeyConstraint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataRelation::*)(::System::Data::UniqueConstraint*)>(&System::Data::DataRelation::SetParentKeyConstraint)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Data", "UniqueConstraint")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataRelation*), "SetParentKeyConstraint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -550,7 +550,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataRelation::SetChildKeyConstraint
 // Il2CppName: SetChildKeyConstraint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataRelation::*)(System::Data::ForeignKeyConstraint*)>(&System::Data::DataRelation::SetChildKeyConstraint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataRelation::*)(::System::Data::ForeignKeyConstraint*)>(&System::Data::DataRelation::SetChildKeyConstraint)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Data", "ForeignKeyConstraint")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataRelation*), "SetChildKeyConstraint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -575,7 +575,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataRelation::Create
 // Il2CppName: Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataRelation::*)(::StringW, ::ArrayW<System::Data::DataColumn*>, ::ArrayW<System::Data::DataColumn*>, bool)>(&System::Data::DataRelation::Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataRelation::*)(::StringW, ::ArrayW<::System::Data::DataColumn*>, ::ArrayW<::System::Data::DataColumn*>, bool)>(&System::Data::DataRelation::Create)> {
   static const MethodInfo* get() {
     static auto* relationName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* parentColumns = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Data", "DataColumn"), 1)->byval_arg;
@@ -587,7 +587,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataRelation::Clone
 // Il2CppName: Clone
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::DataRelation* (System::Data::DataRelation::*)(System::Data::DataSet*)>(&System::Data::DataRelation::Clone)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataRelation* (System::Data::DataRelation::*)(::System::Data::DataSet*)>(&System::Data::DataRelation::Clone)> {
   static const MethodInfo* get() {
     static auto* destination = &::il2cpp_utils::GetClassFromName("System.Data", "DataSet")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataRelation*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{destination});
@@ -596,7 +596,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::DataRelation::OnPropertyChanging
 // Il2CppName: OnPropertyChanging
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataRelation::*)(System::ComponentModel::PropertyChangedEventArgs*)>(&System::Data::DataRelation::OnPropertyChanging)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataRelation::*)(::System::ComponentModel::PropertyChangedEventArgs*)>(&System::Data::DataRelation::OnPropertyChanging)> {
   static const MethodInfo* get() {
     static auto* pcevent = &::il2cpp_utils::GetClassFromName("System.ComponentModel", "PropertyChangedEventArgs")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataRelation*), "OnPropertyChanging", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pcevent});
@@ -622,7 +622,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataRelation::IsAutoGenerated
 // Il2CppName: IsAutoGenerated
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Data::DataRelation::*)(System::Data::DataColumn*)>(&System::Data::DataRelation::IsAutoGenerated)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Data::DataRelation::*)(::System::Data::DataColumn*)>(&System::Data::DataRelation::IsAutoGenerated)> {
   static const MethodInfo* get() {
     static auto* col = &::il2cpp_utils::GetClassFromName("System.Data", "DataColumn")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataRelation*), "IsAutoGenerated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{col});

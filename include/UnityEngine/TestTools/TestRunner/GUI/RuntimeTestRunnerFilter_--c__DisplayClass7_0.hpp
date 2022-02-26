@@ -32,8 +32,8 @@ namespace NUnit::Framework::Interfaces {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c__DisplayClass7_0);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c__DisplayClass7_0*, "UnityEngine.TestTools.TestRunner.GUI", "RuntimeTestRunnerFilter/<>c__DisplayClass7_0");
+NEED_NO_BOX(::UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c__DisplayClass7_0);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c__DisplayClass7_0*, "UnityEngine.TestTools.TestRunner.GUI", "RuntimeTestRunnerFilter/<>c__DisplayClass7_0");
 // Type namespace: UnityEngine.TestTools.TestRunner.GUI
 namespace UnityEngine::TestTools::TestRunner::GUI {
   // Size: 0x18
@@ -55,41 +55,41 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
     // public System.Func`2<System.String,NUnit.Framework.Internal.TestFilter> builder
     // Size: 0x8
     // Offset: 0x10
-    System::Func_2<::StringW, NUnit::Framework::Internal::TestFilter*>* builder;
+    ::System::Func_2<::StringW, ::NUnit::Framework::Internal::TestFilter*>* builder;
     // Field size check
-    static_assert(sizeof(System::Func_2<::StringW, NUnit::Framework::Internal::TestFilter*>*) == 0x8);
+    static_assert(sizeof(::System::Func_2<::StringW, ::NUnit::Framework::Internal::TestFilter*>*) == 0x8);
     public:
-    // Creating conversion operator: operator System::Func_2<::StringW, NUnit::Framework::Internal::TestFilter*>*
-    constexpr operator System::Func_2<::StringW, NUnit::Framework::Internal::TestFilter*>*() const noexcept {
+    // Creating conversion operator: operator ::System::Func_2<::StringW, ::NUnit::Framework::Internal::TestFilter*>*
+    constexpr operator ::System::Func_2<::StringW, ::NUnit::Framework::Internal::TestFilter*>*() const noexcept {
       return builder;
     }
     // Get instance field reference: public System.Func`2<System.String,NUnit.Framework.Internal.TestFilter> builder
-    System::Func_2<::StringW, NUnit::Framework::Internal::TestFilter*>*& dyn_builder();
+    ::System::Func_2<::StringW, ::NUnit::Framework::Internal::TestFilter*>*& dyn_builder();
     // NUnit.Framework.Interfaces.ITestFilter <AddFilters>b__1(System.String v)
     // Offset: 0x18DE2D0
-    NUnit::Framework::Interfaces::ITestFilter* $AddFilters$b__1(::StringW v);
+    ::NUnit::Framework::Interfaces::ITestFilter* $AddFilters$b__1(::StringW v);
     // NUnit.Framework.Interfaces.ITestFilter <AddFilters>b__3(System.String v)
     // Offset: 0x18DE338
-    NUnit::Framework::Interfaces::ITestFilter* $AddFilters$b__3(::StringW v);
+    ::NUnit::Framework::Interfaces::ITestFilter* $AddFilters$b__3(::StringW v);
     // public System.Void .ctor()
     // Offset: 0x18DE054
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RuntimeTestRunnerFilter::$$c__DisplayClass7_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c__DisplayClass7_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c__DisplayClass7_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeTestRunnerFilter::$$c__DisplayClass7_0*, creationType>()));
     }
   }; // UnityEngine.TestTools.TestRunner.GUI.RuntimeTestRunnerFilter/UnityEngine.TestTools.TestRunner.GUI.<>c__DisplayClass7_0
   #pragma pack(pop)
-  static check_size<sizeof(RuntimeTestRunnerFilter::$$c__DisplayClass7_0), 16 + sizeof(System::Func_2<::StringW, NUnit::Framework::Internal::TestFilter*>*)> __UnityEngine_TestTools_TestRunner_GUI_RuntimeTestRunnerFilter_$$c__DisplayClass7_0SizeCheck;
+  static check_size<sizeof(RuntimeTestRunnerFilter::$$c__DisplayClass7_0), 16 + sizeof(::System::Func_2<::StringW, ::NUnit::Framework::Internal::TestFilter*>*)> __UnityEngine_TestTools_TestRunner_GUI_RuntimeTestRunnerFilter_$$c__DisplayClass7_0SizeCheck;
   static_assert(sizeof(RuntimeTestRunnerFilter::$$c__DisplayClass7_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c__DisplayClass7_0::$AddFilters$b__1
 // Il2CppName: <AddFilters>b__1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ITestFilter* (UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c__DisplayClass7_0::*)(::StringW)>(&UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c__DisplayClass7_0::$AddFilters$b__1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Framework::Interfaces::ITestFilter* (UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c__DisplayClass7_0::*)(::StringW)>(&UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c__DisplayClass7_0::$AddFilters$b__1)> {
   static const MethodInfo* get() {
     static auto* v = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c__DisplayClass7_0*), "<AddFilters>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{v});
@@ -98,7 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c__DisplayClass7_0::$AddFilters$b__3
 // Il2CppName: <AddFilters>b__3
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ITestFilter* (UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c__DisplayClass7_0::*)(::StringW)>(&UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c__DisplayClass7_0::$AddFilters$b__3)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Framework::Interfaces::ITestFilter* (UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c__DisplayClass7_0::*)(::StringW)>(&UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c__DisplayClass7_0::$AddFilters$b__3)> {
   static const MethodInfo* get() {
     static auto* v = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c__DisplayClass7_0*), "<AddFilters>b__3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{v});

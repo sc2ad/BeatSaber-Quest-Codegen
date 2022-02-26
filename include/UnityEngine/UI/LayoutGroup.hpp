@@ -51,8 +51,8 @@ namespace UnityEngine::UI {
   class LayoutGroup;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::UI::LayoutGroup);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::LayoutGroup*, "UnityEngine.UI", "LayoutGroup");
+NEED_NO_BOX(::UnityEngine::UI::LayoutGroup);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::LayoutGroup*, "UnityEngine.UI", "LayoutGroup");
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {
   // Size: 0x58
@@ -62,9 +62,9 @@ namespace UnityEngine::UI {
   // [DisallowMultipleComponent] Offset: FFFFFFFF
   // [ExecuteAlways] Offset: FFFFFFFF
   // [RequireComponent] Offset: 11E0B80
-  class LayoutGroup : public UnityEngine::EventSystems::UIBehaviour/*, public UnityEngine::UI::ILayoutElement, public UnityEngine::UI::ILayoutGroup*/ {
+  class LayoutGroup : public ::UnityEngine::EventSystems::UIBehaviour/*, public ::UnityEngine::UI::ILayoutElement, public ::UnityEngine::UI::ILayoutGroup*/ {
     public:
-    // Nested type: UnityEngine::UI::LayoutGroup::$DelayedSetDirty$d__56
+    // Nested type: ::UnityEngine::UI::LayoutGroup::$DelayedSetDirty$d__56
     class $DelayedSetDirty$d__56;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -78,102 +78,102 @@ namespace UnityEngine::UI {
     // protected UnityEngine.RectOffset m_Padding
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::RectOffset* m_Padding;
+    ::UnityEngine::RectOffset* m_Padding;
     // Field size check
-    static_assert(sizeof(UnityEngine::RectOffset*) == 0x8);
+    static_assert(sizeof(::UnityEngine::RectOffset*) == 0x8);
     // protected UnityEngine.TextAnchor m_ChildAlignment
     // Size: 0x4
     // Offset: 0x20
-    UnityEngine::TextAnchor m_ChildAlignment;
+    ::UnityEngine::TextAnchor m_ChildAlignment;
     // Field size check
-    static_assert(sizeof(UnityEngine::TextAnchor) == 0x4);
+    static_assert(sizeof(::UnityEngine::TextAnchor) == 0x4);
     // Padding between fields: m_ChildAlignment and: m_Rect
     char __padding1[0x4] = {};
     // private UnityEngine.RectTransform m_Rect
     // Size: 0x8
     // Offset: 0x28
-    UnityEngine::RectTransform* m_Rect;
+    ::UnityEngine::RectTransform* m_Rect;
     // Field size check
-    static_assert(sizeof(UnityEngine::RectTransform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::RectTransform*) == 0x8);
     // protected UnityEngine.DrivenRectTransformTracker m_Tracker
     // Size: 0x1
     // Offset: 0x30
-    UnityEngine::DrivenRectTransformTracker m_Tracker;
+    ::UnityEngine::DrivenRectTransformTracker m_Tracker;
     // Field size check
-    static_assert(sizeof(UnityEngine::DrivenRectTransformTracker) == 0x1);
+    static_assert(sizeof(::UnityEngine::DrivenRectTransformTracker) == 0x1);
     // Padding between fields: m_Tracker and: m_TotalMinSize
     char __padding3[0x3] = {};
     // private UnityEngine.Vector2 m_TotalMinSize
     // Size: 0x8
     // Offset: 0x34
-    UnityEngine::Vector2 m_TotalMinSize;
+    ::UnityEngine::Vector2 m_TotalMinSize;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector2) == 0x8);
+    static_assert(sizeof(::UnityEngine::Vector2) == 0x8);
     // private UnityEngine.Vector2 m_TotalPreferredSize
     // Size: 0x8
     // Offset: 0x3C
-    UnityEngine::Vector2 m_TotalPreferredSize;
+    ::UnityEngine::Vector2 m_TotalPreferredSize;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector2) == 0x8);
+    static_assert(sizeof(::UnityEngine::Vector2) == 0x8);
     // private UnityEngine.Vector2 m_TotalFlexibleSize
     // Size: 0x8
     // Offset: 0x44
-    UnityEngine::Vector2 m_TotalFlexibleSize;
+    ::UnityEngine::Vector2 m_TotalFlexibleSize;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector2) == 0x8);
+    static_assert(sizeof(::UnityEngine::Vector2) == 0x8);
     // Padding between fields: m_TotalFlexibleSize and: m_RectChildren
     char __padding6[0x4] = {};
     // private System.Collections.Generic.List`1<UnityEngine.RectTransform> m_RectChildren
     // Size: 0x8
     // Offset: 0x50
-    System::Collections::Generic::List_1<UnityEngine::RectTransform*>* m_RectChildren;
+    ::System::Collections::Generic::List_1<::UnityEngine::RectTransform*>* m_RectChildren;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::RectTransform*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::UnityEngine::RectTransform*>*) == 0x8);
     public:
-    // Creating interface conversion operator: operator UnityEngine::UI::ILayoutElement
-    operator UnityEngine::UI::ILayoutElement() noexcept {
-      return *reinterpret_cast<UnityEngine::UI::ILayoutElement*>(this);
+    // Creating interface conversion operator: operator ::UnityEngine::UI::ILayoutElement
+    operator ::UnityEngine::UI::ILayoutElement() noexcept {
+      return *reinterpret_cast<::UnityEngine::UI::ILayoutElement*>(this);
     }
-    // Creating interface conversion operator: operator UnityEngine::UI::ILayoutGroup
-    operator UnityEngine::UI::ILayoutGroup() noexcept {
-      return *reinterpret_cast<UnityEngine::UI::ILayoutGroup*>(this);
+    // Creating interface conversion operator: operator ::UnityEngine::UI::ILayoutGroup
+    operator ::UnityEngine::UI::ILayoutGroup() noexcept {
+      return *reinterpret_cast<::UnityEngine::UI::ILayoutGroup*>(this);
     }
-    // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const noexcept = delete;
+    // Deleting conversion operator: operator ::System::IntPtr
+    constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: protected UnityEngine.RectOffset m_Padding
-    UnityEngine::RectOffset*& dyn_m_Padding();
+    ::UnityEngine::RectOffset*& dyn_m_Padding();
     // Get instance field reference: protected UnityEngine.TextAnchor m_ChildAlignment
-    UnityEngine::TextAnchor& dyn_m_ChildAlignment();
+    ::UnityEngine::TextAnchor& dyn_m_ChildAlignment();
     // Get instance field reference: private UnityEngine.RectTransform m_Rect
-    UnityEngine::RectTransform*& dyn_m_Rect();
+    ::UnityEngine::RectTransform*& dyn_m_Rect();
     // Get instance field reference: protected UnityEngine.DrivenRectTransformTracker m_Tracker
-    UnityEngine::DrivenRectTransformTracker& dyn_m_Tracker();
+    ::UnityEngine::DrivenRectTransformTracker& dyn_m_Tracker();
     // Get instance field reference: private UnityEngine.Vector2 m_TotalMinSize
-    UnityEngine::Vector2& dyn_m_TotalMinSize();
+    ::UnityEngine::Vector2& dyn_m_TotalMinSize();
     // Get instance field reference: private UnityEngine.Vector2 m_TotalPreferredSize
-    UnityEngine::Vector2& dyn_m_TotalPreferredSize();
+    ::UnityEngine::Vector2& dyn_m_TotalPreferredSize();
     // Get instance field reference: private UnityEngine.Vector2 m_TotalFlexibleSize
-    UnityEngine::Vector2& dyn_m_TotalFlexibleSize();
+    ::UnityEngine::Vector2& dyn_m_TotalFlexibleSize();
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.RectTransform> m_RectChildren
-    System::Collections::Generic::List_1<UnityEngine::RectTransform*>*& dyn_m_RectChildren();
+    ::System::Collections::Generic::List_1<::UnityEngine::RectTransform*>*& dyn_m_RectChildren();
     // public UnityEngine.RectOffset get_padding()
     // Offset: 0x1DD0A74
-    UnityEngine::RectOffset* get_padding();
+    ::UnityEngine::RectOffset* get_padding();
     // public System.Void set_padding(UnityEngine.RectOffset value)
     // Offset: 0x1DD0A7C
-    void set_padding(UnityEngine::RectOffset* value);
+    void set_padding(::UnityEngine::RectOffset* value);
     // public UnityEngine.TextAnchor get_childAlignment()
     // Offset: 0x1DD0AE0
-    UnityEngine::TextAnchor get_childAlignment();
+    ::UnityEngine::TextAnchor get_childAlignment();
     // public System.Void set_childAlignment(UnityEngine.TextAnchor value)
     // Offset: 0x1DD0AE8
-    void set_childAlignment(UnityEngine::TextAnchor value);
+    void set_childAlignment(::UnityEngine::TextAnchor value);
     // protected UnityEngine.RectTransform get_rectTransform()
     // Offset: 0x1DD0B4C
-    UnityEngine::RectTransform* get_rectTransform();
+    ::UnityEngine::RectTransform* get_rectTransform();
     // protected System.Collections.Generic.List`1<UnityEngine.RectTransform> get_rectChildren()
     // Offset: 0x1DD0BE4
-    System::Collections::Generic::List_1<UnityEngine::RectTransform*>* get_rectChildren();
+    ::System::Collections::Generic::List_1<::UnityEngine::RectTransform*>* get_rectChildren();
     // public System.Single get_minWidth()
     // Offset: 0x1DD0EFC
     float get_minWidth();
@@ -230,16 +230,16 @@ namespace UnityEngine::UI {
     void SetLayoutInputForAxis(float totalMin, float totalPreferred, float totalFlexible, int axis);
     // protected System.Void SetChildAlongAxis(UnityEngine.RectTransform rect, System.Int32 axis, System.Single pos)
     // Offset: 0x1DD1400
-    void SetChildAlongAxis(UnityEngine::RectTransform* rect, int axis, float pos);
+    void SetChildAlongAxis(::UnityEngine::RectTransform* rect, int axis, float pos);
     // protected System.Void SetChildAlongAxisWithScale(UnityEngine.RectTransform rect, System.Int32 axis, System.Single pos, System.Single scaleFactor)
     // Offset: 0x1DD14B8
-    void SetChildAlongAxisWithScale(UnityEngine::RectTransform* rect, int axis, float pos, float scaleFactor);
+    void SetChildAlongAxisWithScale(::UnityEngine::RectTransform* rect, int axis, float pos, float scaleFactor);
     // protected System.Void SetChildAlongAxis(UnityEngine.RectTransform rect, System.Int32 axis, System.Single pos, System.Single size)
     // Offset: 0x1DD1678
-    void SetChildAlongAxis(UnityEngine::RectTransform* rect, int axis, float pos, float size);
+    void SetChildAlongAxis(::UnityEngine::RectTransform* rect, int axis, float pos, float size);
     // protected System.Void SetChildAlongAxisWithScale(UnityEngine.RectTransform rect, System.Int32 axis, System.Single pos, System.Single size, System.Single scaleFactor)
     // Offset: 0x1DD1738
-    void SetChildAlongAxisWithScale(UnityEngine::RectTransform* rect, int axis, float pos, float size, float scaleFactor);
+    void SetChildAlongAxisWithScale(::UnityEngine::RectTransform* rect, int axis, float pos, float size, float scaleFactor);
     // protected System.Void OnTransformChildrenChanged()
     // Offset: 0x1DD1A98
     void OnTransformChildrenChanged();
@@ -247,7 +247,7 @@ namespace UnityEngine::UI {
     // Offset: 0xFFFFFFFF
     template<class T>
     void SetProperty(ByRef<T> currentValue, T newValue) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::LayoutGroup::SetProperty");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::LayoutGroup::SetProperty");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SetProperty", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(currentValue), ::il2cpp_utils::ExtractType(newValue)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, byref(currentValue), newValue);
@@ -257,7 +257,7 @@ namespace UnityEngine::UI {
     void SetDirty();
     // private System.Collections.IEnumerator DelayedSetDirty(UnityEngine.RectTransform rectTransform)
     // Offset: 0x1DD1A9C
-    System::Collections::IEnumerator* DelayedSetDirty(UnityEngine::RectTransform* rectTransform);
+    ::System::Collections::IEnumerator* DelayedSetDirty(::UnityEngine::RectTransform* rectTransform);
     // protected System.Void .ctor()
     // Offset: 0x1DD0F88
     // Implemented from: UnityEngine.EventSystems.UIBehaviour
@@ -269,7 +269,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LayoutGroup* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::LayoutGroup::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::LayoutGroup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LayoutGroup*, creationType>()));
     }
     // protected override System.Void OnEnable()
@@ -294,14 +294,14 @@ namespace UnityEngine::UI {
     void OnRectTransformDimensionsChange();
   }; // UnityEngine.UI.LayoutGroup
   #pragma pack(pop)
-  static check_size<sizeof(LayoutGroup), 80 + sizeof(System::Collections::Generic::List_1<UnityEngine::RectTransform*>*)> __UnityEngine_UI_LayoutGroupSizeCheck;
+  static check_size<sizeof(LayoutGroup), 80 + sizeof(::System::Collections::Generic::List_1<::UnityEngine::RectTransform*>*)> __UnityEngine_UI_LayoutGroupSizeCheck;
   static_assert(sizeof(LayoutGroup) == 0x58);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::get_padding
 // Il2CppName: get_padding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectOffset* (UnityEngine::UI::LayoutGroup::*)()>(&UnityEngine::UI::LayoutGroup::get_padding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RectOffset* (UnityEngine::UI::LayoutGroup::*)()>(&UnityEngine::UI::LayoutGroup::get_padding)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "get_padding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -309,7 +309,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::set_padding
 // Il2CppName: set_padding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutGroup::*)(UnityEngine::RectOffset*)>(&UnityEngine::UI::LayoutGroup::set_padding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutGroup::*)(::UnityEngine::RectOffset*)>(&UnityEngine::UI::LayoutGroup::set_padding)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "RectOffset")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "set_padding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -318,7 +318,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::get_childAlignment
 // Il2CppName: get_childAlignment
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextAnchor (UnityEngine::UI::LayoutGroup::*)()>(&UnityEngine::UI::LayoutGroup::get_childAlignment)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextAnchor (UnityEngine::UI::LayoutGroup::*)()>(&UnityEngine::UI::LayoutGroup::get_childAlignment)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "get_childAlignment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -326,7 +326,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::set_childAlignment
 // Il2CppName: set_childAlignment
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutGroup::*)(UnityEngine::TextAnchor)>(&UnityEngine::UI::LayoutGroup::set_childAlignment)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutGroup::*)(::UnityEngine::TextAnchor)>(&UnityEngine::UI::LayoutGroup::set_childAlignment)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "TextAnchor")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "set_childAlignment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -335,7 +335,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::get_rectTransform
 // Il2CppName: get_rectTransform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (UnityEngine::UI::LayoutGroup::*)()>(&UnityEngine::UI::LayoutGroup::get_rectTransform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RectTransform* (UnityEngine::UI::LayoutGroup::*)()>(&UnityEngine::UI::LayoutGroup::get_rectTransform)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "get_rectTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -343,7 +343,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::get_rectChildren
 // Il2CppName: get_rectChildren
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::RectTransform*>* (UnityEngine::UI::LayoutGroup::*)()>(&UnityEngine::UI::LayoutGroup::get_rectChildren)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::RectTransform*>* (UnityEngine::UI::LayoutGroup::*)()>(&UnityEngine::UI::LayoutGroup::get_rectChildren)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "get_rectChildren", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -505,7 +505,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::SetChildAlongAxis
 // Il2CppName: SetChildAlongAxis
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutGroup::*)(UnityEngine::RectTransform*, int, float)>(&UnityEngine::UI::LayoutGroup::SetChildAlongAxis)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutGroup::*)(::UnityEngine::RectTransform*, int, float)>(&UnityEngine::UI::LayoutGroup::SetChildAlongAxis)> {
   static const MethodInfo* get() {
     static auto* rect = &::il2cpp_utils::GetClassFromName("UnityEngine", "RectTransform")->byval_arg;
     static auto* axis = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -516,7 +516,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::SetChildAlongAxisWithScale
 // Il2CppName: SetChildAlongAxisWithScale
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutGroup::*)(UnityEngine::RectTransform*, int, float, float)>(&UnityEngine::UI::LayoutGroup::SetChildAlongAxisWithScale)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutGroup::*)(::UnityEngine::RectTransform*, int, float, float)>(&UnityEngine::UI::LayoutGroup::SetChildAlongAxisWithScale)> {
   static const MethodInfo* get() {
     static auto* rect = &::il2cpp_utils::GetClassFromName("UnityEngine", "RectTransform")->byval_arg;
     static auto* axis = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -528,7 +528,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::SetChildAlongAxis
 // Il2CppName: SetChildAlongAxis
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutGroup::*)(UnityEngine::RectTransform*, int, float, float)>(&UnityEngine::UI::LayoutGroup::SetChildAlongAxis)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutGroup::*)(::UnityEngine::RectTransform*, int, float, float)>(&UnityEngine::UI::LayoutGroup::SetChildAlongAxis)> {
   static const MethodInfo* get() {
     static auto* rect = &::il2cpp_utils::GetClassFromName("UnityEngine", "RectTransform")->byval_arg;
     static auto* axis = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -540,7 +540,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::SetChildAlongAxisWithScale
 // Il2CppName: SetChildAlongAxisWithScale
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutGroup::*)(UnityEngine::RectTransform*, int, float, float, float)>(&UnityEngine::UI::LayoutGroup::SetChildAlongAxisWithScale)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutGroup::*)(::UnityEngine::RectTransform*, int, float, float, float)>(&UnityEngine::UI::LayoutGroup::SetChildAlongAxisWithScale)> {
   static const MethodInfo* get() {
     static auto* rect = &::il2cpp_utils::GetClassFromName("UnityEngine", "RectTransform")->byval_arg;
     static auto* axis = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -572,7 +572,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::DelayedSetDirty
 // Il2CppName: DelayedSetDirty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (UnityEngine::UI::LayoutGroup::*)(UnityEngine::RectTransform*)>(&UnityEngine::UI::LayoutGroup::DelayedSetDirty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (UnityEngine::UI::LayoutGroup::*)(::UnityEngine::RectTransform*)>(&UnityEngine::UI::LayoutGroup::DelayedSetDirty)> {
   static const MethodInfo* get() {
     static auto* rectTransform = &::il2cpp_utils::GetClassFromName("UnityEngine", "RectTransform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "DelayedSetDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rectTransform});

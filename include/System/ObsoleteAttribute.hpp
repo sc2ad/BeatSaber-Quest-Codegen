@@ -19,8 +19,8 @@ namespace System {
   class ObsoleteAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::ObsoleteAttribute);
-DEFINE_IL2CPP_ARG_TYPE(System::ObsoleteAttribute*, "System", "ObsoleteAttribute");
+NEED_NO_BOX(::System::ObsoleteAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::ObsoleteAttribute*, "System", "ObsoleteAttribute");
 // Type namespace: System
 namespace System {
   // Size: 0x19
@@ -29,7 +29,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: 1187164
   // [AttributeUsageAttribute] Offset: 1187164
-  class ObsoleteAttribute : public System::Attribute {
+  class ObsoleteAttribute : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -64,14 +64,14 @@ namespace System {
     // Offset: 0x215BE50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObsoleteAttribute* New_ctor(::StringW message) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::ObsoleteAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::ObsoleteAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObsoleteAttribute*, creationType>(message)));
     }
     // public System.Void .ctor(System.String message, System.Boolean error)
     // Offset: 0x215BE80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObsoleteAttribute* New_ctor(::StringW message, bool error) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::ObsoleteAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::ObsoleteAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObsoleteAttribute*, creationType>(message, error)));
     }
     // public System.Void .ctor()
@@ -81,7 +81,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObsoleteAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::ObsoleteAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::ObsoleteAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObsoleteAttribute*, creationType>()));
     }
   }; // System.ObsoleteAttribute

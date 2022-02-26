@@ -14,7 +14,7 @@ namespace System::Reflection {
   struct CallingConventions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::CallingConventions, "System.Reflection", "CallingConventions");
+DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::CallingConventions, "System.Reflection", "CallingConventions");
 // Type namespace: System.Reflection
 namespace System::Reflection {
   // Size: 0x4
@@ -23,7 +23,7 @@ namespace System::Reflection {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: 11881FC
   // [FlagsAttribute] Offset: FFFFFFFF
-  struct CallingConventions/*, public System::Enum*/ {
+  struct CallingConventions/*, public ::System::Enum*/ {
     public:
     public:
     // public System.Int32 value__
@@ -35,9 +35,9 @@ namespace System::Reflection {
     public:
     // Creating value type constructor for type: CallingConventions
     constexpr CallingConventions(int value_ = {}) noexcept : value{value_} {}
-    // Creating interface conversion operator: operator System::Enum
-    operator System::Enum() noexcept {
-      return *reinterpret_cast<System::Enum*>(this);
+    // Creating interface conversion operator: operator ::System::Enum
+    operator ::System::Enum() noexcept {
+      return *reinterpret_cast<::System::Enum*>(this);
     }
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
@@ -46,33 +46,33 @@ namespace System::Reflection {
     // static field const value: static public System.Reflection.CallingConventions Standard
     static constexpr const int Standard = 1;
     // Get static field: static public System.Reflection.CallingConventions Standard
-    static System::Reflection::CallingConventions _get_Standard();
+    static ::System::Reflection::CallingConventions _get_Standard();
     // Set static field: static public System.Reflection.CallingConventions Standard
-    static void _set_Standard(System::Reflection::CallingConventions value);
+    static void _set_Standard(::System::Reflection::CallingConventions value);
     // static field const value: static public System.Reflection.CallingConventions VarArgs
     static constexpr const int VarArgs = 2;
     // Get static field: static public System.Reflection.CallingConventions VarArgs
-    static System::Reflection::CallingConventions _get_VarArgs();
+    static ::System::Reflection::CallingConventions _get_VarArgs();
     // Set static field: static public System.Reflection.CallingConventions VarArgs
-    static void _set_VarArgs(System::Reflection::CallingConventions value);
+    static void _set_VarArgs(::System::Reflection::CallingConventions value);
     // static field const value: static public System.Reflection.CallingConventions Any
     static constexpr const int Any = 3;
     // Get static field: static public System.Reflection.CallingConventions Any
-    static System::Reflection::CallingConventions _get_Any();
+    static ::System::Reflection::CallingConventions _get_Any();
     // Set static field: static public System.Reflection.CallingConventions Any
-    static void _set_Any(System::Reflection::CallingConventions value);
+    static void _set_Any(::System::Reflection::CallingConventions value);
     // static field const value: static public System.Reflection.CallingConventions HasThis
     static constexpr const int HasThis = 32;
     // Get static field: static public System.Reflection.CallingConventions HasThis
-    static System::Reflection::CallingConventions _get_HasThis();
+    static ::System::Reflection::CallingConventions _get_HasThis();
     // Set static field: static public System.Reflection.CallingConventions HasThis
-    static void _set_HasThis(System::Reflection::CallingConventions value);
+    static void _set_HasThis(::System::Reflection::CallingConventions value);
     // static field const value: static public System.Reflection.CallingConventions ExplicitThis
     static constexpr const int ExplicitThis = 64;
     // Get static field: static public System.Reflection.CallingConventions ExplicitThis
-    static System::Reflection::CallingConventions _get_ExplicitThis();
+    static ::System::Reflection::CallingConventions _get_ExplicitThis();
     // Set static field: static public System.Reflection.CallingConventions ExplicitThis
-    static void _set_ExplicitThis(System::Reflection::CallingConventions value);
+    static void _set_ExplicitThis(::System::Reflection::CallingConventions value);
     // Get instance field reference: public System.Int32 value__
     int& dyn_value__();
   }; // System.Reflection.CallingConventions

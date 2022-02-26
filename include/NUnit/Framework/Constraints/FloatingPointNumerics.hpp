@@ -17,8 +17,8 @@ namespace NUnit::Framework::Constraints {
   class FloatingPointNumerics;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Constraints::FloatingPointNumerics);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::FloatingPointNumerics*, "NUnit.Framework.Constraints", "FloatingPointNumerics");
+NEED_NO_BOX(::NUnit::Framework::Constraints::FloatingPointNumerics);
+DEFINE_IL2CPP_ARG_TYPE(::NUnit::Framework::Constraints::FloatingPointNumerics*, "NUnit.Framework.Constraints", "FloatingPointNumerics");
 // Type namespace: NUnit.Framework.Constraints
 namespace NUnit::Framework::Constraints {
   // Size: 0x10
@@ -27,9 +27,9 @@ namespace NUnit::Framework::Constraints {
   // [TokenAttribute] Offset: FFFFFFFF
   class FloatingPointNumerics : public ::Il2CppObject {
     public:
-    // Nested type: NUnit::Framework::Constraints::FloatingPointNumerics::FloatIntUnion
+    // Nested type: ::NUnit::Framework::Constraints::FloatingPointNumerics::FloatIntUnion
     struct FloatIntUnion;
-    // Nested type: NUnit::Framework::Constraints::FloatingPointNumerics::DoubleLongUnion
+    // Nested type: ::NUnit::Framework::Constraints::FloatingPointNumerics::DoubleLongUnion
     struct DoubleLongUnion;
     // static public System.Boolean AreAlmostEqualUlps(System.Single left, System.Single right, System.Int32 maxUlps)
     // Offset: 0x1B51734

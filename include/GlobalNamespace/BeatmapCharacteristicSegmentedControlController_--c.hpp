@@ -26,8 +26,8 @@ namespace GlobalNamespace {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BeatmapCharacteristicSegmentedControlController::$$c);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCharacteristicSegmentedControlController::$$c*, "", "BeatmapCharacteristicSegmentedControlController/<>c");
+NEED_NO_BOX(::GlobalNamespace::BeatmapCharacteristicSegmentedControlController::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapCharacteristicSegmentedControlController::$$c*, "", "BeatmapCharacteristicSegmentedControlController/<>c");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -38,26 +38,26 @@ namespace GlobalNamespace {
   class BeatmapCharacteristicSegmentedControlController::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly BeatmapCharacteristicSegmentedControlController/<>c <>9
-    static GlobalNamespace::BeatmapCharacteristicSegmentedControlController::$$c* _get_$$9();
+    static ::GlobalNamespace::BeatmapCharacteristicSegmentedControlController::$$c* _get_$$9();
     // Set static field: static public readonly BeatmapCharacteristicSegmentedControlController/<>c <>9
-    static void _set_$$9(GlobalNamespace::BeatmapCharacteristicSegmentedControlController::$$c* value);
+    static void _set_$$9(::GlobalNamespace::BeatmapCharacteristicSegmentedControlController::$$c* value);
     // Get static field: static public System.Comparison`1<IDifficultyBeatmapSet> <>9__10_0
-    static System::Comparison_1<GlobalNamespace::IDifficultyBeatmapSet*>* _get_$$9__10_0();
+    static ::System::Comparison_1<::GlobalNamespace::IDifficultyBeatmapSet*>* _get_$$9__10_0();
     // Set static field: static public System.Comparison`1<IDifficultyBeatmapSet> <>9__10_0
-    static void _set_$$9__10_0(System::Comparison_1<GlobalNamespace::IDifficultyBeatmapSet*>* value);
+    static void _set_$$9__10_0(::System::Comparison_1<::GlobalNamespace::IDifficultyBeatmapSet*>* value);
     // static private System.Void .cctor()
     // Offset: 0x2B43BDC
     static void _cctor();
     // System.Int32 <SetData>b__10_0(IDifficultyBeatmapSet a, IDifficultyBeatmapSet b)
     // Offset: 0x2B43C48
-    int $SetData$b__10_0(GlobalNamespace::IDifficultyBeatmapSet* a, GlobalNamespace::IDifficultyBeatmapSet* b);
+    int $SetData$b__10_0(::GlobalNamespace::IDifficultyBeatmapSet* a, ::GlobalNamespace::IDifficultyBeatmapSet* b);
     // public System.Void .ctor()
     // Offset: 0x2B43C40
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapCharacteristicSegmentedControlController::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapCharacteristicSegmentedControlController::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapCharacteristicSegmentedControlController::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapCharacteristicSegmentedControlController::$$c*, creationType>()));
     }
   }; // BeatmapCharacteristicSegmentedControlController/<>c
@@ -75,7 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapCharacteristicSegmentedControlController::$$c::$SetData$b__10_0
 // Il2CppName: <SetData>b__10_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::BeatmapCharacteristicSegmentedControlController::$$c::*)(GlobalNamespace::IDifficultyBeatmapSet*, GlobalNamespace::IDifficultyBeatmapSet*)>(&GlobalNamespace::BeatmapCharacteristicSegmentedControlController::$$c::$SetData$b__10_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::BeatmapCharacteristicSegmentedControlController::$$c::*)(::GlobalNamespace::IDifficultyBeatmapSet*, ::GlobalNamespace::IDifficultyBeatmapSet*)>(&GlobalNamespace::BeatmapCharacteristicSegmentedControlController::$$c::$SetData$b__10_0)> {
   static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmapSet")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmapSet")->byval_arg;

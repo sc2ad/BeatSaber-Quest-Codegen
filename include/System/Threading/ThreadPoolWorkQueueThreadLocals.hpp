@@ -25,8 +25,8 @@ namespace System::Threading {
   class ThreadPoolWorkQueueThreadLocals;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Threading::ThreadPoolWorkQueueThreadLocals);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadPoolWorkQueueThreadLocals*, "System.Threading", "ThreadPoolWorkQueueThreadLocals");
+NEED_NO_BOX(::System::Threading::ThreadPoolWorkQueueThreadLocals);
+DEFINE_IL2CPP_ARG_TYPE(::System::Threading::ThreadPoolWorkQueueThreadLocals*, "System.Threading", "ThreadPoolWorkQueueThreadLocals");
 // Type namespace: System.Threading
 namespace System::Threading {
   // Size: 0x28
@@ -47,37 +47,37 @@ namespace System::Threading {
     // public readonly System.Threading.ThreadPoolWorkQueue workQueue
     // Size: 0x8
     // Offset: 0x10
-    System::Threading::ThreadPoolWorkQueue* workQueue;
+    ::System::Threading::ThreadPoolWorkQueue* workQueue;
     // Field size check
-    static_assert(sizeof(System::Threading::ThreadPoolWorkQueue*) == 0x8);
+    static_assert(sizeof(::System::Threading::ThreadPoolWorkQueue*) == 0x8);
     // public readonly System.Threading.ThreadPoolWorkQueue/System.Threading.WorkStealingQueue workStealingQueue
     // Size: 0x8
     // Offset: 0x18
-    System::Threading::ThreadPoolWorkQueue::WorkStealingQueue* workStealingQueue;
+    ::System::Threading::ThreadPoolWorkQueue::WorkStealingQueue* workStealingQueue;
     // Field size check
-    static_assert(sizeof(System::Threading::ThreadPoolWorkQueue::WorkStealingQueue*) == 0x8);
+    static_assert(sizeof(::System::Threading::ThreadPoolWorkQueue::WorkStealingQueue*) == 0x8);
     // public readonly System.Random random
     // Size: 0x8
     // Offset: 0x20
-    System::Random* random;
+    ::System::Random* random;
     // Field size check
-    static_assert(sizeof(System::Random*) == 0x8);
+    static_assert(sizeof(::System::Random*) == 0x8);
     public:
     // Get static field: static public System.Threading.ThreadPoolWorkQueueThreadLocals threadLocals
-    static System::Threading::ThreadPoolWorkQueueThreadLocals* _get_threadLocals();
+    static ::System::Threading::ThreadPoolWorkQueueThreadLocals* _get_threadLocals();
     // Set static field: static public System.Threading.ThreadPoolWorkQueueThreadLocals threadLocals
-    static void _set_threadLocals(System::Threading::ThreadPoolWorkQueueThreadLocals* value);
+    static void _set_threadLocals(::System::Threading::ThreadPoolWorkQueueThreadLocals* value);
     // Get instance field reference: public readonly System.Threading.ThreadPoolWorkQueue workQueue
-    System::Threading::ThreadPoolWorkQueue*& dyn_workQueue();
+    ::System::Threading::ThreadPoolWorkQueue*& dyn_workQueue();
     // Get instance field reference: public readonly System.Threading.ThreadPoolWorkQueue/System.Threading.WorkStealingQueue workStealingQueue
-    System::Threading::ThreadPoolWorkQueue::WorkStealingQueue*& dyn_workStealingQueue();
+    ::System::Threading::ThreadPoolWorkQueue::WorkStealingQueue*& dyn_workStealingQueue();
     // Get instance field reference: public readonly System.Random random
-    System::Random*& dyn_random();
+    ::System::Random*& dyn_random();
     // public System.Void .ctor(System.Threading.ThreadPoolWorkQueue tpq)
     // Offset: 0x1CDF874
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ThreadPoolWorkQueueThreadLocals* New_ctor(System::Threading::ThreadPoolWorkQueue* tpq) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::ThreadPoolWorkQueueThreadLocals::.ctor");
+    static ThreadPoolWorkQueueThreadLocals* New_ctor(::System::Threading::ThreadPoolWorkQueue* tpq) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::ThreadPoolWorkQueueThreadLocals::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ThreadPoolWorkQueueThreadLocals*, creationType>(tpq)));
     }
     // private System.Void CleanUp()
@@ -90,7 +90,7 @@ namespace System::Threading {
     void Finalize();
   }; // System.Threading.ThreadPoolWorkQueueThreadLocals
   #pragma pack(pop)
-  static check_size<sizeof(ThreadPoolWorkQueueThreadLocals), 32 + sizeof(System::Random*)> __System_Threading_ThreadPoolWorkQueueThreadLocalsSizeCheck;
+  static check_size<sizeof(ThreadPoolWorkQueueThreadLocals), 32 + sizeof(::System::Random*)> __System_Threading_ThreadPoolWorkQueueThreadLocalsSizeCheck;
   static_assert(sizeof(ThreadPoolWorkQueueThreadLocals) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

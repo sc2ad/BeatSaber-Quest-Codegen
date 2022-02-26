@@ -28,8 +28,8 @@ namespace Mono::Security {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Security::X509::X509Crl::X509CrlEntry);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509Crl::X509CrlEntry*, "Mono.Security.X509", "X509Crl/X509CrlEntry");
+NEED_NO_BOX(::Mono::Security::X509::X509Crl::X509CrlEntry);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::X509::X509Crl::X509CrlEntry*, "Mono.Security.X509", "X509Crl/X509CrlEntry");
 // Type namespace: Mono.Security.X509
 namespace Mono::Security::X509 {
   // Size: 0x28
@@ -56,41 +56,41 @@ namespace Mono::Security::X509 {
     // private System.DateTime revocationDate
     // Size: 0x8
     // Offset: 0x18
-    System::DateTime revocationDate;
+    ::System::DateTime revocationDate;
     // Field size check
-    static_assert(sizeof(System::DateTime) == 0x8);
+    static_assert(sizeof(::System::DateTime) == 0x8);
     // private Mono.Security.X509.X509ExtensionCollection extensions
     // Size: 0x8
     // Offset: 0x20
-    Mono::Security::X509::X509ExtensionCollection* extensions;
+    ::Mono::Security::X509::X509ExtensionCollection* extensions;
     // Field size check
-    static_assert(sizeof(Mono::Security::X509::X509ExtensionCollection*) == 0x8);
+    static_assert(sizeof(::Mono::Security::X509::X509ExtensionCollection*) == 0x8);
     public:
     // Get instance field reference: private System.Byte[] sn
     ::ArrayW<uint8_t>& dyn_sn();
     // Get instance field reference: private System.DateTime revocationDate
-    System::DateTime& dyn_revocationDate();
+    ::System::DateTime& dyn_revocationDate();
     // Get instance field reference: private Mono.Security.X509.X509ExtensionCollection extensions
-    Mono::Security::X509::X509ExtensionCollection*& dyn_extensions();
+    ::Mono::Security::X509::X509ExtensionCollection*& dyn_extensions();
     // public System.Byte[] get_SerialNumber()
     // Offset: 0x2A1F668
     ::ArrayW<uint8_t> get_SerialNumber();
     // public System.DateTime get_RevocationDate()
     // Offset: 0x2A1FBD8
-    System::DateTime get_RevocationDate();
+    ::System::DateTime get_RevocationDate();
     // public Mono.Security.X509.X509ExtensionCollection get_Extensions()
     // Offset: 0x2A1FBE0
-    Mono::Security::X509::X509ExtensionCollection* get_Extensions();
+    ::Mono::Security::X509::X509ExtensionCollection* get_Extensions();
     // System.Void .ctor(Mono.Security.ASN1 entry)
     // Offset: 0x2A1F164
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static X509Crl::X509CrlEntry* New_ctor(Mono::Security::ASN1* entry) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::X509::X509Crl::X509CrlEntry::.ctor");
+    static X509Crl::X509CrlEntry* New_ctor(::Mono::Security::ASN1* entry) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::X509::X509Crl::X509CrlEntry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Crl::X509CrlEntry*, creationType>(entry)));
     }
   }; // Mono.Security.X509.X509Crl/Mono.Security.X509.X509CrlEntry
   #pragma pack(pop)
-  static check_size<sizeof(X509Crl::X509CrlEntry), 32 + sizeof(Mono::Security::X509::X509ExtensionCollection*)> __Mono_Security_X509_X509Crl_X509CrlEntrySizeCheck;
+  static check_size<sizeof(X509Crl::X509CrlEntry), 32 + sizeof(::Mono::Security::X509::X509ExtensionCollection*)> __Mono_Security_X509_X509Crl_X509CrlEntrySizeCheck;
   static_assert(sizeof(X509Crl::X509CrlEntry) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -105,7 +105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
 // Writing MetadataGetter for method: Mono::Security::X509::X509Crl::X509CrlEntry::get_RevocationDate
 // Il2CppName: get_RevocationDate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (Mono::Security::X509::X509Crl::X509CrlEntry::*)()>(&Mono::Security::X509::X509Crl::X509CrlEntry::get_RevocationDate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (Mono::Security::X509::X509Crl::X509CrlEntry::*)()>(&Mono::Security::X509::X509Crl::X509CrlEntry::get_RevocationDate)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Crl::X509CrlEntry*), "get_RevocationDate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -113,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: Mono::Security::X509::X509Crl::X509CrlEntry::get_Extensions
 // Il2CppName: get_Extensions
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::X509::X509ExtensionCollection* (Mono::Security::X509::X509Crl::X509CrlEntry::*)()>(&Mono::Security::X509::X509Crl::X509CrlEntry::get_Extensions)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::X509::X509ExtensionCollection* (Mono::Security::X509::X509Crl::X509CrlEntry::*)()>(&Mono::Security::X509::X509Crl::X509CrlEntry::get_Extensions)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Crl::X509CrlEntry*), "get_Extensions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

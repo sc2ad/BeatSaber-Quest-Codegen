@@ -24,8 +24,8 @@ namespace HoudiniEngineUnity {
   class HEU_LoadBufferBase;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_LoadBufferBase);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_LoadBufferBase*, "HoudiniEngineUnity", "HEU_LoadBufferBase");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_LoadBufferBase);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_LoadBufferBase*, "HoudiniEngineUnity", "HEU_LoadBufferBase");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x30
@@ -74,9 +74,9 @@ namespace HoudiniEngineUnity {
     // public HoudiniEngineUnity.HEU_GeneratedOutput _generatedOutput
     // Size: 0x8
     // Offset: 0x28
-    HoudiniEngineUnity::HEU_GeneratedOutput* generatedOutput;
+    ::HoudiniEngineUnity::HEU_GeneratedOutput* generatedOutput;
     // Field size check
-    static_assert(sizeof(HoudiniEngineUnity::HEU_GeneratedOutput*) == 0x8);
+    static_assert(sizeof(::HoudiniEngineUnity::HEU_GeneratedOutput*) == 0x8);
     public:
     // Get instance field reference: public System.Int32 _id
     int& dyn__id();
@@ -87,7 +87,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Boolean _bInstancer
     bool& dyn__bInstancer();
     // Get instance field reference: public HoudiniEngineUnity.HEU_GeneratedOutput _generatedOutput
-    HoudiniEngineUnity::HEU_GeneratedOutput*& dyn__generatedOutput();
+    ::HoudiniEngineUnity::HEU_GeneratedOutput*& dyn__generatedOutput();
     // public System.Void InitializeBuffer(System.Int32 id, System.String name, System.Boolean bInstanced, System.Boolean bInstancer)
     // Offset: 0x1787B28
     void InitializeBuffer(int id, ::StringW name, bool bInstanced, bool bInstancer);
@@ -97,12 +97,12 @@ namespace HoudiniEngineUnity {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_LoadBufferBase* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_LoadBufferBase::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_LoadBufferBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_LoadBufferBase*, creationType>()));
     }
   }; // HoudiniEngineUnity.HEU_LoadBufferBase
   #pragma pack(pop)
-  static check_size<sizeof(HEU_LoadBufferBase), 40 + sizeof(HoudiniEngineUnity::HEU_GeneratedOutput*)> __HoudiniEngineUnity_HEU_LoadBufferBaseSizeCheck;
+  static check_size<sizeof(HEU_LoadBufferBase), 40 + sizeof(::HoudiniEngineUnity::HEU_GeneratedOutput*)> __HoudiniEngineUnity_HEU_LoadBufferBaseSizeCheck;
   static_assert(sizeof(HEU_LoadBufferBase) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

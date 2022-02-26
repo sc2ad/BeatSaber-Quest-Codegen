@@ -23,8 +23,8 @@ namespace System {
   class LocalDataStoreSlot;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::LocalDataStoreSlot);
-DEFINE_IL2CPP_ARG_TYPE(System::LocalDataStoreSlot*, "System", "LocalDataStoreSlot");
+NEED_NO_BOX(::System::LocalDataStoreSlot);
+DEFINE_IL2CPP_ARG_TYPE(::System::LocalDataStoreSlot*, "System", "LocalDataStoreSlot");
 // Type namespace: System
 namespace System {
   // Size: 0x28
@@ -46,9 +46,9 @@ namespace System {
     // private System.LocalDataStoreMgr m_mgr
     // Size: 0x8
     // Offset: 0x10
-    System::LocalDataStoreMgr* m_mgr;
+    ::System::LocalDataStoreMgr* m_mgr;
     // Field size check
-    static_assert(sizeof(System::LocalDataStoreMgr*) == 0x8);
+    static_assert(sizeof(::System::LocalDataStoreMgr*) == 0x8);
     // private System.Int32 m_slot
     // Size: 0x4
     // Offset: 0x18
@@ -65,14 +65,14 @@ namespace System {
     static_assert(sizeof(int64_t) == 0x8);
     public:
     // Get instance field reference: private System.LocalDataStoreMgr m_mgr
-    System::LocalDataStoreMgr*& dyn_m_mgr();
+    ::System::LocalDataStoreMgr*& dyn_m_mgr();
     // Get instance field reference: private System.Int32 m_slot
     int& dyn_m_slot();
     // Get instance field reference: private System.Int64 m_cookie
     int64_t& dyn_m_cookie();
     // System.LocalDataStoreMgr get_Manager()
     // Offset: 0x1A93A90
-    System::LocalDataStoreMgr* get_Manager();
+    ::System::LocalDataStoreMgr* get_Manager();
     // System.Int32 get_Slot()
     // Offset: 0x1A93A98
     int get_Slot();
@@ -82,8 +82,8 @@ namespace System {
     // System.Void .ctor(System.LocalDataStoreMgr mgr, System.Int32 slot, System.Int64 cookie)
     // Offset: 0x1A9358C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static LocalDataStoreSlot* New_ctor(System::LocalDataStoreMgr* mgr, int slot, int64_t cookie) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::LocalDataStoreSlot::.ctor");
+    static LocalDataStoreSlot* New_ctor(::System::LocalDataStoreMgr* mgr, int slot, int64_t cookie) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::LocalDataStoreSlot::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalDataStoreSlot*, creationType>(mgr, slot, cookie)));
     }
     // protected override System.Void Finalize()
@@ -100,7 +100,7 @@ namespace System {
 // Writing MetadataGetter for method: System::LocalDataStoreSlot::get_Manager
 // Il2CppName: get_Manager
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::LocalDataStoreMgr* (System::LocalDataStoreSlot::*)()>(&System::LocalDataStoreSlot::get_Manager)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::LocalDataStoreMgr* (System::LocalDataStoreSlot::*)()>(&System::LocalDataStoreSlot::get_Manager)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::LocalDataStoreSlot*), "get_Manager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

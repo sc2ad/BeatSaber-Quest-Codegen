@@ -18,8 +18,8 @@ namespace System::Linq::Expressions::Interpreter {
   class IBoxableInstruction;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Linq::Expressions::Interpreter::IBoxableInstruction);
-DEFINE_IL2CPP_ARG_TYPE(System::Linq::Expressions::Interpreter::IBoxableInstruction*, "System.Linq.Expressions.Interpreter", "IBoxableInstruction");
+NEED_NO_BOX(::System::Linq::Expressions::Interpreter::IBoxableInstruction);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::IBoxableInstruction*, "System.Linq.Expressions.Interpreter", "IBoxableInstruction");
 // Type namespace: System.Linq.Expressions.Interpreter
 namespace System::Linq::Expressions::Interpreter {
   // Size: 0x10
@@ -30,7 +30,7 @@ namespace System::Linq::Expressions::Interpreter {
     public:
     // public System.Linq.Expressions.Interpreter.Instruction BoxIfIndexMatches(System.Int32 index)
     // Offset: 0xFFFFFFFF
-    System::Linq::Expressions::Interpreter::Instruction* BoxIfIndexMatches(int index);
+    ::System::Linq::Expressions::Interpreter::Instruction* BoxIfIndexMatches(int index);
   }; // System.Linq.Expressions.Interpreter.IBoxableInstruction
   #pragma pack(pop)
 }
@@ -38,7 +38,7 @@ namespace System::Linq::Expressions::Interpreter {
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::IBoxableInstruction::BoxIfIndexMatches
 // Il2CppName: BoxIfIndexMatches
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Linq::Expressions::Interpreter::Instruction* (System::Linq::Expressions::Interpreter::IBoxableInstruction::*)(int)>(&System::Linq::Expressions::Interpreter::IBoxableInstruction::BoxIfIndexMatches)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Interpreter::Instruction* (System::Linq::Expressions::Interpreter::IBoxableInstruction::*)(int)>(&System::Linq::Expressions::Interpreter::IBoxableInstruction::BoxIfIndexMatches)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::IBoxableInstruction*), "BoxIfIndexMatches", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});

@@ -16,8 +16,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Schema::XdrBuilder::XdrEntry);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::XdrBuilder::XdrEntry*, "System.Xml.Schema", "XdrBuilder/XdrEntry");
+NEED_NO_BOX(::System::Xml::Schema::XdrBuilder::XdrEntry);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XdrBuilder::XdrEntry*, "System.Xml.Schema", "XdrBuilder/XdrEntry");
 // Type namespace: System.Xml.Schema
 namespace System::Xml::Schema {
   // Size: 0x41
@@ -38,9 +38,9 @@ namespace System::Xml::Schema {
     // System.Xml.Schema.SchemaNames/System.Xml.Schema.Token _Name
     // Size: 0x4
     // Offset: 0x10
-    System::Xml::Schema::SchemaNames::Token Name;
+    ::System::Xml::Schema::SchemaNames::Token Name;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::SchemaNames::Token) == 0x4);
+    static_assert(sizeof(::System::Xml::Schema::SchemaNames::Token) == 0x4);
     // Padding between fields: Name and: NextStates
     char __padding0[0x4] = {};
     // System.Int32[] _NextStates
@@ -52,27 +52,27 @@ namespace System::Xml::Schema {
     // System.Xml.Schema.XdrBuilder/System.Xml.Schema.XdrAttributeEntry[] _Attributes
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayW<System::Xml::Schema::XdrBuilder::XdrAttributeEntry*> Attributes;
+    ::ArrayW<::System::Xml::Schema::XdrBuilder::XdrAttributeEntry*> Attributes;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::Xml::Schema::XdrBuilder::XdrAttributeEntry*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::System::Xml::Schema::XdrBuilder::XdrAttributeEntry*>) == 0x8);
     // System.Xml.Schema.XdrBuilder/System.Xml.Schema.XdrInitFunction _InitFunc
     // Size: 0x8
     // Offset: 0x28
-    System::Xml::Schema::XdrBuilder::XdrInitFunction* InitFunc;
+    ::System::Xml::Schema::XdrBuilder::XdrInitFunction* InitFunc;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::XdrBuilder::XdrInitFunction*) == 0x8);
+    static_assert(sizeof(::System::Xml::Schema::XdrBuilder::XdrInitFunction*) == 0x8);
     // System.Xml.Schema.XdrBuilder/System.Xml.Schema.XdrBeginChildFunction _BeginChildFunc
     // Size: 0x8
     // Offset: 0x30
-    System::Xml::Schema::XdrBuilder::XdrBeginChildFunction* BeginChildFunc;
+    ::System::Xml::Schema::XdrBuilder::XdrBeginChildFunction* BeginChildFunc;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::XdrBuilder::XdrBeginChildFunction*) == 0x8);
+    static_assert(sizeof(::System::Xml::Schema::XdrBuilder::XdrBeginChildFunction*) == 0x8);
     // System.Xml.Schema.XdrBuilder/System.Xml.Schema.XdrEndChildFunction _EndChildFunc
     // Size: 0x8
     // Offset: 0x38
-    System::Xml::Schema::XdrBuilder::XdrEndChildFunction* EndChildFunc;
+    ::System::Xml::Schema::XdrBuilder::XdrEndChildFunction* EndChildFunc;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::XdrBuilder::XdrEndChildFunction*) == 0x8);
+    static_assert(sizeof(::System::Xml::Schema::XdrBuilder::XdrEndChildFunction*) == 0x8);
     // System.Boolean _AllowText
     // Size: 0x1
     // Offset: 0x40
@@ -81,24 +81,24 @@ namespace System::Xml::Schema {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: System.Xml.Schema.SchemaNames/System.Xml.Schema.Token _Name
-    System::Xml::Schema::SchemaNames::Token& dyn__Name();
+    ::System::Xml::Schema::SchemaNames::Token& dyn__Name();
     // Get instance field reference: System.Int32[] _NextStates
     ::ArrayW<int>& dyn__NextStates();
     // Get instance field reference: System.Xml.Schema.XdrBuilder/System.Xml.Schema.XdrAttributeEntry[] _Attributes
-    ::ArrayW<System::Xml::Schema::XdrBuilder::XdrAttributeEntry*>& dyn__Attributes();
+    ::ArrayW<::System::Xml::Schema::XdrBuilder::XdrAttributeEntry*>& dyn__Attributes();
     // Get instance field reference: System.Xml.Schema.XdrBuilder/System.Xml.Schema.XdrInitFunction _InitFunc
-    System::Xml::Schema::XdrBuilder::XdrInitFunction*& dyn__InitFunc();
+    ::System::Xml::Schema::XdrBuilder::XdrInitFunction*& dyn__InitFunc();
     // Get instance field reference: System.Xml.Schema.XdrBuilder/System.Xml.Schema.XdrBeginChildFunction _BeginChildFunc
-    System::Xml::Schema::XdrBuilder::XdrBeginChildFunction*& dyn__BeginChildFunc();
+    ::System::Xml::Schema::XdrBuilder::XdrBeginChildFunction*& dyn__BeginChildFunc();
     // Get instance field reference: System.Xml.Schema.XdrBuilder/System.Xml.Schema.XdrEndChildFunction _EndChildFunc
-    System::Xml::Schema::XdrBuilder::XdrEndChildFunction*& dyn__EndChildFunc();
+    ::System::Xml::Schema::XdrBuilder::XdrEndChildFunction*& dyn__EndChildFunc();
     // Get instance field reference: System.Boolean _AllowText
     bool& dyn__AllowText();
     // System.Void .ctor(System.Xml.Schema.SchemaNames/System.Xml.Schema.Token n, System.Int32[] states, System.Xml.Schema.XdrBuilder/System.Xml.Schema.XdrAttributeEntry[] attributes, System.Xml.Schema.XdrBuilder/System.Xml.Schema.XdrInitFunction init, System.Xml.Schema.XdrBuilder/System.Xml.Schema.XdrBeginChildFunction begin, System.Xml.Schema.XdrBuilder/System.Xml.Schema.XdrEndChildFunction end, System.Boolean fText)
     // Offset: 0x1C72280
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XdrBuilder::XdrEntry* New_ctor(System::Xml::Schema::SchemaNames::Token n, ::ArrayW<int> states, ::ArrayW<System::Xml::Schema::XdrBuilder::XdrAttributeEntry*> attributes, System::Xml::Schema::XdrBuilder::XdrInitFunction* init, System::Xml::Schema::XdrBuilder::XdrBeginChildFunction* begin, System::Xml::Schema::XdrBuilder::XdrEndChildFunction* end, bool fText) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Schema::XdrBuilder::XdrEntry::.ctor");
+    static XdrBuilder::XdrEntry* New_ctor(::System::Xml::Schema::SchemaNames::Token n, ::ArrayW<int> states, ::ArrayW<::System::Xml::Schema::XdrBuilder::XdrAttributeEntry*> attributes, ::System::Xml::Schema::XdrBuilder::XdrInitFunction* init, ::System::Xml::Schema::XdrBuilder::XdrBeginChildFunction* begin, ::System::Xml::Schema::XdrBuilder::XdrEndChildFunction* end, bool fText) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XdrBuilder::XdrEntry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XdrBuilder::XdrEntry*, creationType>(n, states, attributes, init, begin, end, fText)));
     }
   }; // System.Xml.Schema.XdrBuilder/System.Xml.Schema.XdrEntry

@@ -16,8 +16,8 @@ namespace GlobalNamespace {
   class MainEffectCore;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MainEffectCore);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainEffectCore*, "", "MainEffectCore");
+NEED_NO_BOX(::GlobalNamespace::MainEffectCore);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MainEffectCore*, "", "MainEffectCore");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MainEffectCore* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MainEffectCore::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MainEffectCore::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MainEffectCore*, creationType>()));
     }
   }; // MainEffectCore

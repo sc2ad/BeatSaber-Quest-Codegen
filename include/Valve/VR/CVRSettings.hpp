@@ -33,8 +33,8 @@ namespace Valve::VR {
   class CVRSettings;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Valve::VR::CVRSettings);
-DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRSettings*, "Valve.VR", "CVRSettings");
+NEED_NO_BOX(::Valve::VR::CVRSettings);
+DEFINE_IL2CPP_ARG_TYPE(::Valve::VR::CVRSettings*, "Valve.VR", "CVRSettings");
 // Type namespace: Valve.VR
 namespace Valve::VR {
   // Size: 0x70
@@ -55,62 +55,62 @@ namespace Valve::VR {
     // private Valve.VR.IVRSettings FnTable
     // Size: 0x60
     // Offset: 0x10
-    Valve::VR::IVRSettings FnTable;
+    ::Valve::VR::IVRSettings FnTable;
     // Field size check
-    static_assert(sizeof(Valve::VR::IVRSettings) == 0x60);
+    static_assert(sizeof(::Valve::VR::IVRSettings) == 0x60);
     public:
-    // Creating conversion operator: operator Valve::VR::IVRSettings
-    constexpr operator Valve::VR::IVRSettings() const noexcept {
+    // Creating conversion operator: operator ::Valve::VR::IVRSettings
+    constexpr operator ::Valve::VR::IVRSettings() const noexcept {
       return FnTable;
     }
     // Get instance field reference: private Valve.VR.IVRSettings FnTable
-    Valve::VR::IVRSettings& dyn_FnTable();
+    ::Valve::VR::IVRSettings& dyn_FnTable();
     // System.Void .ctor(System.IntPtr pInterface)
     // Offset: 0x1AFC694
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CVRSettings* New_ctor(System::IntPtr pInterface) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Valve::VR::CVRSettings::.ctor");
+    static CVRSettings* New_ctor(::System::IntPtr pInterface) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Valve::VR::CVRSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRSettings*, creationType>(pInterface)));
     }
     // public System.String GetSettingsErrorNameFromEnum(Valve.VR.EVRSettingsError eError)
     // Offset: 0x1AFC79C
-    ::StringW GetSettingsErrorNameFromEnum(Valve::VR::EVRSettingsError eError);
+    ::StringW GetSettingsErrorNameFromEnum(::Valve::VR::EVRSettingsError eError);
     // public System.Boolean Sync(System.Boolean bForce, ref Valve.VR.EVRSettingsError peError)
     // Offset: 0x1AFC830
-    bool Sync(bool bForce, ByRef<Valve::VR::EVRSettingsError> peError);
+    bool Sync(bool bForce, ByRef<::Valve::VR::EVRSettingsError> peError);
     // public System.Void SetBool(System.String pchSection, System.String pchSettingsKey, System.Boolean bValue, ref Valve.VR.EVRSettingsError peError)
     // Offset: 0x1AFC850
-    void SetBool(::StringW pchSection, ::StringW pchSettingsKey, bool bValue, ByRef<Valve::VR::EVRSettingsError> peError);
+    void SetBool(::StringW pchSection, ::StringW pchSettingsKey, bool bValue, ByRef<::Valve::VR::EVRSettingsError> peError);
     // public System.Void SetInt32(System.String pchSection, System.String pchSettingsKey, System.Int32 nValue, ref Valve.VR.EVRSettingsError peError)
     // Offset: 0x1AFC870
-    void SetInt32(::StringW pchSection, ::StringW pchSettingsKey, int nValue, ByRef<Valve::VR::EVRSettingsError> peError);
+    void SetInt32(::StringW pchSection, ::StringW pchSettingsKey, int nValue, ByRef<::Valve::VR::EVRSettingsError> peError);
     // public System.Void SetFloat(System.String pchSection, System.String pchSettingsKey, System.Single flValue, ref Valve.VR.EVRSettingsError peError)
     // Offset: 0x1AFC88C
-    void SetFloat(::StringW pchSection, ::StringW pchSettingsKey, float flValue, ByRef<Valve::VR::EVRSettingsError> peError);
+    void SetFloat(::StringW pchSection, ::StringW pchSettingsKey, float flValue, ByRef<::Valve::VR::EVRSettingsError> peError);
     // public System.Void SetString(System.String pchSection, System.String pchSettingsKey, System.String pchValue, ref Valve.VR.EVRSettingsError peError)
     // Offset: 0x1AFC8A8
-    void SetString(::StringW pchSection, ::StringW pchSettingsKey, ::StringW pchValue, ByRef<Valve::VR::EVRSettingsError> peError);
+    void SetString(::StringW pchSection, ::StringW pchSettingsKey, ::StringW pchValue, ByRef<::Valve::VR::EVRSettingsError> peError);
     // public System.Boolean GetBool(System.String pchSection, System.String pchSettingsKey, ref Valve.VR.EVRSettingsError peError)
     // Offset: 0x1AFC8C4
-    bool GetBool(::StringW pchSection, ::StringW pchSettingsKey, ByRef<Valve::VR::EVRSettingsError> peError);
+    bool GetBool(::StringW pchSection, ::StringW pchSettingsKey, ByRef<::Valve::VR::EVRSettingsError> peError);
     // public System.Int32 GetInt32(System.String pchSection, System.String pchSettingsKey, ref Valve.VR.EVRSettingsError peError)
     // Offset: 0x1AFC8E0
-    int GetInt32(::StringW pchSection, ::StringW pchSettingsKey, ByRef<Valve::VR::EVRSettingsError> peError);
+    int GetInt32(::StringW pchSection, ::StringW pchSettingsKey, ByRef<::Valve::VR::EVRSettingsError> peError);
     // public System.Single GetFloat(System.String pchSection, System.String pchSettingsKey, ref Valve.VR.EVRSettingsError peError)
     // Offset: 0x1AFC8FC
-    float GetFloat(::StringW pchSection, ::StringW pchSettingsKey, ByRef<Valve::VR::EVRSettingsError> peError);
+    float GetFloat(::StringW pchSection, ::StringW pchSettingsKey, ByRef<::Valve::VR::EVRSettingsError> peError);
     // public System.Void GetString(System.String pchSection, System.String pchSettingsKey, System.Text.StringBuilder pchValue, System.UInt32 unValueLen, ref Valve.VR.EVRSettingsError peError)
     // Offset: 0x1AFC918
-    void GetString(::StringW pchSection, ::StringW pchSettingsKey, System::Text::StringBuilder* pchValue, uint unValueLen, ByRef<Valve::VR::EVRSettingsError> peError);
+    void GetString(::StringW pchSection, ::StringW pchSettingsKey, ::System::Text::StringBuilder* pchValue, uint unValueLen, ByRef<::Valve::VR::EVRSettingsError> peError);
     // public System.Void RemoveSection(System.String pchSection, ref Valve.VR.EVRSettingsError peError)
     // Offset: 0x1AFC934
-    void RemoveSection(::StringW pchSection, ByRef<Valve::VR::EVRSettingsError> peError);
+    void RemoveSection(::StringW pchSection, ByRef<::Valve::VR::EVRSettingsError> peError);
     // public System.Void RemoveKeyInSection(System.String pchSection, System.String pchSettingsKey, ref Valve.VR.EVRSettingsError peError)
     // Offset: 0x1AFC950
-    void RemoveKeyInSection(::StringW pchSection, ::StringW pchSettingsKey, ByRef<Valve::VR::EVRSettingsError> peError);
+    void RemoveKeyInSection(::StringW pchSection, ::StringW pchSettingsKey, ByRef<::Valve::VR::EVRSettingsError> peError);
   }; // Valve.VR.CVRSettings
   #pragma pack(pop)
-  static check_size<sizeof(CVRSettings), 16 + sizeof(Valve::VR::IVRSettings)> __Valve_VR_CVRSettingsSizeCheck;
+  static check_size<sizeof(CVRSettings), 16 + sizeof(::Valve::VR::IVRSettings)> __Valve_VR_CVRSettingsSizeCheck;
   static_assert(sizeof(CVRSettings) == 0x70);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -121,7 +121,7 @@ namespace Valve::VR {
 // Writing MetadataGetter for method: Valve::VR::CVRSettings::GetSettingsErrorNameFromEnum
 // Il2CppName: GetSettingsErrorNameFromEnum
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Valve::VR::CVRSettings::*)(Valve::VR::EVRSettingsError)>(&Valve::VR::CVRSettings::GetSettingsErrorNameFromEnum)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Valve::VR::CVRSettings::*)(::Valve::VR::EVRSettingsError)>(&Valve::VR::CVRSettings::GetSettingsErrorNameFromEnum)> {
   static const MethodInfo* get() {
     static auto* eError = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRSettingsError")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSettings*), "GetSettingsErrorNameFromEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eError});
@@ -130,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: Valve::VR::CVRSettings::Sync
 // Il2CppName: Sync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRSettings::*)(bool, ByRef<Valve::VR::EVRSettingsError>)>(&Valve::VR::CVRSettings::Sync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRSettings::*)(bool, ByRef<::Valve::VR::EVRSettingsError>)>(&Valve::VR::CVRSettings::Sync)> {
   static const MethodInfo* get() {
     static auto* bForce = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* peError = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRSettingsError")->this_arg;
@@ -140,7 +140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve
 // Writing MetadataGetter for method: Valve::VR::CVRSettings::SetBool
 // Il2CppName: SetBool
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRSettings::*)(::StringW, ::StringW, bool, ByRef<Valve::VR::EVRSettingsError>)>(&Valve::VR::CVRSettings::SetBool)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRSettings::*)(::StringW, ::StringW, bool, ByRef<::Valve::VR::EVRSettingsError>)>(&Valve::VR::CVRSettings::SetBool)> {
   static const MethodInfo* get() {
     static auto* pchSection = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchSettingsKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -152,7 +152,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve
 // Writing MetadataGetter for method: Valve::VR::CVRSettings::SetInt32
 // Il2CppName: SetInt32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRSettings::*)(::StringW, ::StringW, int, ByRef<Valve::VR::EVRSettingsError>)>(&Valve::VR::CVRSettings::SetInt32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRSettings::*)(::StringW, ::StringW, int, ByRef<::Valve::VR::EVRSettingsError>)>(&Valve::VR::CVRSettings::SetInt32)> {
   static const MethodInfo* get() {
     static auto* pchSection = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchSettingsKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -164,7 +164,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve
 // Writing MetadataGetter for method: Valve::VR::CVRSettings::SetFloat
 // Il2CppName: SetFloat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRSettings::*)(::StringW, ::StringW, float, ByRef<Valve::VR::EVRSettingsError>)>(&Valve::VR::CVRSettings::SetFloat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRSettings::*)(::StringW, ::StringW, float, ByRef<::Valve::VR::EVRSettingsError>)>(&Valve::VR::CVRSettings::SetFloat)> {
   static const MethodInfo* get() {
     static auto* pchSection = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchSettingsKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -176,7 +176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve
 // Writing MetadataGetter for method: Valve::VR::CVRSettings::SetString
 // Il2CppName: SetString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRSettings::*)(::StringW, ::StringW, ::StringW, ByRef<Valve::VR::EVRSettingsError>)>(&Valve::VR::CVRSettings::SetString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRSettings::*)(::StringW, ::StringW, ::StringW, ByRef<::Valve::VR::EVRSettingsError>)>(&Valve::VR::CVRSettings::SetString)> {
   static const MethodInfo* get() {
     static auto* pchSection = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchSettingsKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -188,7 +188,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve
 // Writing MetadataGetter for method: Valve::VR::CVRSettings::GetBool
 // Il2CppName: GetBool
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRSettings::*)(::StringW, ::StringW, ByRef<Valve::VR::EVRSettingsError>)>(&Valve::VR::CVRSettings::GetBool)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRSettings::*)(::StringW, ::StringW, ByRef<::Valve::VR::EVRSettingsError>)>(&Valve::VR::CVRSettings::GetBool)> {
   static const MethodInfo* get() {
     static auto* pchSection = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchSettingsKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -199,7 +199,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve
 // Writing MetadataGetter for method: Valve::VR::CVRSettings::GetInt32
 // Il2CppName: GetInt32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Valve::VR::CVRSettings::*)(::StringW, ::StringW, ByRef<Valve::VR::EVRSettingsError>)>(&Valve::VR::CVRSettings::GetInt32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Valve::VR::CVRSettings::*)(::StringW, ::StringW, ByRef<::Valve::VR::EVRSettingsError>)>(&Valve::VR::CVRSettings::GetInt32)> {
   static const MethodInfo* get() {
     static auto* pchSection = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchSettingsKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -210,7 +210,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Valve:
 // Writing MetadataGetter for method: Valve::VR::CVRSettings::GetFloat
 // Il2CppName: GetFloat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Valve::VR::CVRSettings::*)(::StringW, ::StringW, ByRef<Valve::VR::EVRSettingsError>)>(&Valve::VR::CVRSettings::GetFloat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Valve::VR::CVRSettings::*)(::StringW, ::StringW, ByRef<::Valve::VR::EVRSettingsError>)>(&Valve::VR::CVRSettings::GetFloat)> {
   static const MethodInfo* get() {
     static auto* pchSection = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchSettingsKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -221,7 +221,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Valv
 // Writing MetadataGetter for method: Valve::VR::CVRSettings::GetString
 // Il2CppName: GetString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRSettings::*)(::StringW, ::StringW, System::Text::StringBuilder*, uint, ByRef<Valve::VR::EVRSettingsError>)>(&Valve::VR::CVRSettings::GetString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRSettings::*)(::StringW, ::StringW, ::System::Text::StringBuilder*, uint, ByRef<::Valve::VR::EVRSettingsError>)>(&Valve::VR::CVRSettings::GetString)> {
   static const MethodInfo* get() {
     static auto* pchSection = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchSettingsKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -234,7 +234,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve
 // Writing MetadataGetter for method: Valve::VR::CVRSettings::RemoveSection
 // Il2CppName: RemoveSection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRSettings::*)(::StringW, ByRef<Valve::VR::EVRSettingsError>)>(&Valve::VR::CVRSettings::RemoveSection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRSettings::*)(::StringW, ByRef<::Valve::VR::EVRSettingsError>)>(&Valve::VR::CVRSettings::RemoveSection)> {
   static const MethodInfo* get() {
     static auto* pchSection = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* peError = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRSettingsError")->this_arg;
@@ -244,7 +244,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve
 // Writing MetadataGetter for method: Valve::VR::CVRSettings::RemoveKeyInSection
 // Il2CppName: RemoveKeyInSection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRSettings::*)(::StringW, ::StringW, ByRef<Valve::VR::EVRSettingsError>)>(&Valve::VR::CVRSettings::RemoveKeyInSection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRSettings::*)(::StringW, ::StringW, ByRef<::Valve::VR::EVRSettingsError>)>(&Valve::VR::CVRSettings::RemoveKeyInSection)> {
   static const MethodInfo* get() {
     static auto* pchSection = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchSettingsKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

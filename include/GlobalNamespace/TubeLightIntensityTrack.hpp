@@ -18,8 +18,8 @@ namespace GlobalNamespace {
   class TubeLightIntensityTrack;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::TubeLightIntensityTrack);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TubeLightIntensityTrack*, "", "TubeLightIntensityTrack");
+NEED_NO_BOX(::GlobalNamespace::TubeLightIntensityTrack);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TubeLightIntensityTrack*, "", "TubeLightIntensityTrack");
 // Type namespace: 
 namespace GlobalNamespace {
   // WARNING Size may be invalid!
@@ -28,7 +28,7 @@ namespace GlobalNamespace {
   // [TrackClipTypeAttribute] Offset: 1238454
   // [TrackBindingTypeAttribute] Offset: 1238454
   // [TrackColorAttribute] Offset: 1238454
-  class TubeLightIntensityTrack : public UnityEngine::Timeline::TrackAsset {
+  class TubeLightIntensityTrack : public ::UnityEngine::Timeline::TrackAsset {
     public:
     // public System.Void .ctor()
     // Offset: 0x2AEA0C0
@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TubeLightIntensityTrack* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TubeLightIntensityTrack::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TubeLightIntensityTrack::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TubeLightIntensityTrack*, creationType>()));
     }
   }; // TubeLightIntensityTrack

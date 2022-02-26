@@ -26,8 +26,8 @@ namespace UnityEngine {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BloomPrePassRenderDataSO::Data);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassRenderDataSO::Data*, "", "BloomPrePassRenderDataSO/Data");
+NEED_NO_BOX(::GlobalNamespace::BloomPrePassRenderDataSO::Data);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BloomPrePassRenderDataSO::Data*, "", "BloomPrePassRenderDataSO/Data");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0xA8
@@ -48,27 +48,27 @@ namespace GlobalNamespace {
     // public UnityEngine.RenderTexture bloomPrePassRenderTexture
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::RenderTexture* bloomPrePassRenderTexture;
+    ::UnityEngine::RenderTexture* bloomPrePassRenderTexture;
     // Field size check
-    static_assert(sizeof(UnityEngine::RenderTexture*) == 0x8);
+    static_assert(sizeof(::UnityEngine::RenderTexture*) == 0x8);
     // public UnityEngine.Vector2 textureToScreenRatio
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::Vector2 textureToScreenRatio;
+    ::UnityEngine::Vector2 textureToScreenRatio;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector2) == 0x8);
+    static_assert(sizeof(::UnityEngine::Vector2) == 0x8);
     // public UnityEngine.Matrix4x4 viewMatrix
     // Size: 0x40
     // Offset: 0x20
-    UnityEngine::Matrix4x4 viewMatrix;
+    ::UnityEngine::Matrix4x4 viewMatrix;
     // Field size check
-    static_assert(sizeof(UnityEngine::Matrix4x4) == 0x40);
+    static_assert(sizeof(::UnityEngine::Matrix4x4) == 0x40);
     // public UnityEngine.Matrix4x4 projectionMatrix
     // Size: 0x40
     // Offset: 0x60
-    UnityEngine::Matrix4x4 projectionMatrix;
+    ::UnityEngine::Matrix4x4 projectionMatrix;
     // Field size check
-    static_assert(sizeof(UnityEngine::Matrix4x4) == 0x40);
+    static_assert(sizeof(::UnityEngine::Matrix4x4) == 0x40);
     // public System.Single stereoCameraEyeOffset
     // Size: 0x4
     // Offset: 0xA0
@@ -78,34 +78,34 @@ namespace GlobalNamespace {
     // public ToneMapping toneMapping
     // Size: 0x4
     // Offset: 0xA4
-    GlobalNamespace::ToneMapping toneMapping;
+    ::GlobalNamespace::ToneMapping toneMapping;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::ToneMapping) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::ToneMapping) == 0x4);
     public:
     // Get instance field reference: public UnityEngine.RenderTexture bloomPrePassRenderTexture
-    UnityEngine::RenderTexture*& dyn_bloomPrePassRenderTexture();
+    ::UnityEngine::RenderTexture*& dyn_bloomPrePassRenderTexture();
     // Get instance field reference: public UnityEngine.Vector2 textureToScreenRatio
-    UnityEngine::Vector2& dyn_textureToScreenRatio();
+    ::UnityEngine::Vector2& dyn_textureToScreenRatio();
     // Get instance field reference: public UnityEngine.Matrix4x4 viewMatrix
-    UnityEngine::Matrix4x4& dyn_viewMatrix();
+    ::UnityEngine::Matrix4x4& dyn_viewMatrix();
     // Get instance field reference: public UnityEngine.Matrix4x4 projectionMatrix
-    UnityEngine::Matrix4x4& dyn_projectionMatrix();
+    ::UnityEngine::Matrix4x4& dyn_projectionMatrix();
     // Get instance field reference: public System.Single stereoCameraEyeOffset
     float& dyn_stereoCameraEyeOffset();
     // Get instance field reference: public ToneMapping toneMapping
-    GlobalNamespace::ToneMapping& dyn_toneMapping();
+    ::GlobalNamespace::ToneMapping& dyn_toneMapping();
     // public System.Void .ctor()
     // Offset: 0x2082FF8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomPrePassRenderDataSO::Data* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BloomPrePassRenderDataSO::Data::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomPrePassRenderDataSO::Data::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassRenderDataSO::Data*, creationType>()));
     }
   }; // BloomPrePassRenderDataSO/Data
   #pragma pack(pop)
-  static check_size<sizeof(BloomPrePassRenderDataSO::Data), 164 + sizeof(GlobalNamespace::ToneMapping)> __GlobalNamespace_BloomPrePassRenderDataSO_DataSizeCheck;
+  static check_size<sizeof(BloomPrePassRenderDataSO::Data), 164 + sizeof(::GlobalNamespace::ToneMapping)> __GlobalNamespace_BloomPrePassRenderDataSO_DataSizeCheck;
   static_assert(sizeof(BloomPrePassRenderDataSO::Data) == 0xA8);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

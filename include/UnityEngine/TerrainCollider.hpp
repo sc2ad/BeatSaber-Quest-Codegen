@@ -21,8 +21,8 @@ namespace UnityEngine {
   class TerrainCollider;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::TerrainCollider);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TerrainCollider*, "UnityEngine", "TerrainCollider");
+NEED_NO_BOX(::UnityEngine::TerrainCollider);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TerrainCollider*, "UnityEngine", "TerrainCollider");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -31,11 +31,11 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NativeHeaderAttribute] Offset: 12195A0
   // [NativeHeaderAttribute] Offset: 12195A0
-  class TerrainCollider : public UnityEngine::Collider {
+  class TerrainCollider : public ::UnityEngine::Collider {
     public:
     // public System.Void set_terrainData(UnityEngine.TerrainData value)
     // Offset: 0x2A63F60
-    void set_terrainData(UnityEngine::TerrainData* value);
+    void set_terrainData(::UnityEngine::TerrainData* value);
   }; // UnityEngine.TerrainCollider
   #pragma pack(pop)
 }
@@ -43,7 +43,7 @@ namespace UnityEngine {
 // Writing MetadataGetter for method: UnityEngine::TerrainCollider::set_terrainData
 // Il2CppName: set_terrainData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainCollider::*)(UnityEngine::TerrainData*)>(&UnityEngine::TerrainCollider::set_terrainData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainCollider::*)(::UnityEngine::TerrainData*)>(&UnityEngine::TerrainCollider::set_terrainData)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "TerrainData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TerrainCollider*), "set_terrainData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

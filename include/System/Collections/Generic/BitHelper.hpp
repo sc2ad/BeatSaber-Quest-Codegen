@@ -17,8 +17,8 @@ namespace System::Collections::Generic {
   class BitHelper;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Collections::Generic::BitHelper);
-DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::BitHelper*, "System.Collections.Generic", "BitHelper");
+NEED_NO_BOX(::System::Collections::Generic::BitHelper);
+DEFINE_IL2CPP_ARG_TYPE(::System::Collections::Generic::BitHelper*, "System.Collections.Generic", "BitHelper");
 // Type namespace: System.Collections.Generic
 namespace System::Collections::Generic {
   // Size: 0x29
@@ -75,14 +75,14 @@ namespace System::Collections::Generic {
     // Offset: 0x15E8448
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BitHelper* New_ctor(int* bitArrayPtr, int length) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::BitHelper::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Generic::BitHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BitHelper*, creationType>(bitArrayPtr, length)));
     }
     // System.Void .ctor(System.Int32[] bitArray, System.Int32 length)
     // Offset: 0x15E848C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BitHelper* New_ctor(::ArrayW<int> bitArray, int length) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::BitHelper::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Generic::BitHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BitHelper*, creationType>(bitArray, length)));
     }
     // System.Void MarkBit(System.Int32 bitPosition)

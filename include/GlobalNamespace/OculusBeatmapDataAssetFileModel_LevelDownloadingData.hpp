@@ -24,8 +24,8 @@ namespace System::Threading::Tasks {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OculusBeatmapDataAssetFileModel::LevelDownloadingData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusBeatmapDataAssetFileModel::LevelDownloadingData*, "", "OculusBeatmapDataAssetFileModel/LevelDownloadingData");
+NEED_NO_BOX(::GlobalNamespace::OculusBeatmapDataAssetFileModel::LevelDownloadingData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OculusBeatmapDataAssetFileModel::LevelDownloadingData*, "", "OculusBeatmapDataAssetFileModel/LevelDownloadingData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x28
@@ -58,26 +58,26 @@ namespace GlobalNamespace {
     // public readonly System.Threading.Tasks.TaskCompletionSource`1<GetAssetBundleFileResult> downloadAssetBundleFileTCS
     // Size: 0x8
     // Offset: 0x20
-    System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::GetAssetBundleFileResult>* downloadAssetBundleFileTCS;
+    ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>* downloadAssetBundleFileTCS;
     // Field size check
-    static_assert(sizeof(System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::GetAssetBundleFileResult>*) == 0x8);
+    static_assert(sizeof(::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>*) == 0x8);
     public:
     // Get instance field reference: public readonly System.String levelId
     ::StringW& dyn_levelId();
     // Get instance field reference: public readonly System.String assetBundlePath
     ::StringW& dyn_assetBundlePath();
     // Get instance field reference: public readonly System.Threading.Tasks.TaskCompletionSource`1<GetAssetBundleFileResult> downloadAssetBundleFileTCS
-    System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::GetAssetBundleFileResult>*& dyn_downloadAssetBundleFileTCS();
+    ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>*& dyn_downloadAssetBundleFileTCS();
     // public System.Void .ctor(System.String levelId, System.String assetBundlePath)
     // Offset: 0x2BAD8E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusBeatmapDataAssetFileModel::LevelDownloadingData* New_ctor(::StringW levelId, ::StringW assetBundlePath) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OculusBeatmapDataAssetFileModel::LevelDownloadingData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusBeatmapDataAssetFileModel::LevelDownloadingData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusBeatmapDataAssetFileModel::LevelDownloadingData*, creationType>(levelId, assetBundlePath)));
     }
   }; // OculusBeatmapDataAssetFileModel/LevelDownloadingData
   #pragma pack(pop)
-  static check_size<sizeof(OculusBeatmapDataAssetFileModel::LevelDownloadingData), 32 + sizeof(System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::GetAssetBundleFileResult>*)> __GlobalNamespace_OculusBeatmapDataAssetFileModel_LevelDownloadingDataSizeCheck;
+  static check_size<sizeof(OculusBeatmapDataAssetFileModel::LevelDownloadingData), 32 + sizeof(::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>*)> __GlobalNamespace_OculusBeatmapDataAssetFileModel_LevelDownloadingDataSizeCheck;
   static_assert(sizeof(OculusBeatmapDataAssetFileModel::LevelDownloadingData) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

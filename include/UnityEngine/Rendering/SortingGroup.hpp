@@ -14,8 +14,8 @@ namespace UnityEngine::Rendering {
   class SortingGroup;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Rendering::SortingGroup);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::SortingGroup*, "UnityEngine.Rendering", "SortingGroup");
+NEED_NO_BOX(::UnityEngine::Rendering::SortingGroup);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::SortingGroup*, "UnityEngine.Rendering", "SortingGroup");
 // Type namespace: UnityEngine.Rendering
 namespace UnityEngine::Rendering {
   // Size: 0x18
@@ -24,7 +24,7 @@ namespace UnityEngine::Rendering {
   // [TokenAttribute] Offset: FFFFFFFF
   // [RequireComponent] Offset: 11A7C4C
   // [NativeTypeAttribute] Offset: 11A7C4C
-  class SortingGroup : public UnityEngine::Behaviour {
+  class SortingGroup : public ::UnityEngine::Behaviour {
     public:
   }; // UnityEngine.Rendering.SortingGroup
   #pragma pack(pop)

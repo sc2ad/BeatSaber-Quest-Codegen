@@ -61,8 +61,8 @@ namespace LiteNetLib::Utils {
   class NetPacketProcessor;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(LiteNetLib::Utils::NetPacketProcessor);
-DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NetPacketProcessor*, "LiteNetLib.Utils", "NetPacketProcessor");
+NEED_NO_BOX(::LiteNetLib::Utils::NetPacketProcessor);
+DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::Utils::NetPacketProcessor*, "LiteNetLib.Utils", "NetPacketProcessor");
 // Type namespace: LiteNetLib.Utils
 namespace LiteNetLib::Utils {
   // Size: 0x28
@@ -71,33 +71,33 @@ namespace LiteNetLib::Utils {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetPacketProcessor : public ::Il2CppObject {
     public:
-    // Nested type: LiteNetLib::Utils::NetPacketProcessor::HashCache_1<T>
+    // Nested type: ::LiteNetLib::Utils::NetPacketProcessor::HashCache_1<T>
     template<typename T>
     class HashCache_1;
-    // Nested type: LiteNetLib::Utils::NetPacketProcessor::SubscribeDelegate
+    // Nested type: ::LiteNetLib::Utils::NetPacketProcessor::SubscribeDelegate
     class SubscribeDelegate;
-    // Nested type: LiteNetLib::Utils::NetPacketProcessor::$$c__DisplayClass25_0_1<T>
+    // Nested type: ::LiteNetLib::Utils::NetPacketProcessor::$$c__DisplayClass25_0_1<T>
     template<typename T>
     class $$c__DisplayClass25_0_1;
-    // Nested type: LiteNetLib::Utils::NetPacketProcessor::$$c__DisplayClass26_0_2<T, TUserData>
+    // Nested type: ::LiteNetLib::Utils::NetPacketProcessor::$$c__DisplayClass26_0_2<T, TUserData>
     template<typename T, typename TUserData>
     class $$c__DisplayClass26_0_2;
-    // Nested type: LiteNetLib::Utils::NetPacketProcessor::$$c__DisplayClass27_0_1<T>
+    // Nested type: ::LiteNetLib::Utils::NetPacketProcessor::$$c__DisplayClass27_0_1<T>
     template<typename T>
     class $$c__DisplayClass27_0_1;
-    // Nested type: LiteNetLib::Utils::NetPacketProcessor::$$c__DisplayClass28_0_2<T, TUserData>
+    // Nested type: ::LiteNetLib::Utils::NetPacketProcessor::$$c__DisplayClass28_0_2<T, TUserData>
     template<typename T, typename TUserData>
     class $$c__DisplayClass28_0_2;
-    // Nested type: LiteNetLib::Utils::NetPacketProcessor::$$c__DisplayClass29_0_2<T, TUserData>
+    // Nested type: ::LiteNetLib::Utils::NetPacketProcessor::$$c__DisplayClass29_0_2<T, TUserData>
     template<typename T, typename TUserData>
     class $$c__DisplayClass29_0_2;
-    // Nested type: LiteNetLib::Utils::NetPacketProcessor::$$c__DisplayClass30_0_1<T>
+    // Nested type: ::LiteNetLib::Utils::NetPacketProcessor::$$c__DisplayClass30_0_1<T>
     template<typename T>
     class $$c__DisplayClass30_0_1;
-    // Nested type: LiteNetLib::Utils::NetPacketProcessor::$$c__DisplayClass31_0_2<T, TUserData>
+    // Nested type: ::LiteNetLib::Utils::NetPacketProcessor::$$c__DisplayClass31_0_2<T, TUserData>
     template<typename T, typename TUserData>
     class $$c__DisplayClass31_0_2;
-    // Nested type: LiteNetLib::Utils::NetPacketProcessor::$$c__DisplayClass32_0_1<T>
+    // Nested type: ::LiteNetLib::Utils::NetPacketProcessor::$$c__DisplayClass32_0_1<T>
     template<typename T>
     class $$c__DisplayClass32_0_1;
     #ifdef USE_CODEGEN_FIELDS
@@ -112,52 +112,52 @@ namespace LiteNetLib::Utils {
     // private readonly LiteNetLib.Utils.NetSerializer _netSerializer
     // Size: 0x8
     // Offset: 0x10
-    LiteNetLib::Utils::NetSerializer* netSerializer;
+    ::LiteNetLib::Utils::NetSerializer* netSerializer;
     // Field size check
-    static_assert(sizeof(LiteNetLib::Utils::NetSerializer*) == 0x8);
+    static_assert(sizeof(::LiteNetLib::Utils::NetSerializer*) == 0x8);
     // private readonly System.Collections.Generic.Dictionary`2<System.UInt64,LiteNetLib.Utils.NetPacketProcessor/LiteNetLib.Utils.SubscribeDelegate> _callbacks
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::Generic::Dictionary_2<uint64_t, LiteNetLib::Utils::NetPacketProcessor::SubscribeDelegate*>* callbacks;
+    ::System::Collections::Generic::Dictionary_2<uint64_t, ::LiteNetLib::Utils::NetPacketProcessor::SubscribeDelegate*>* callbacks;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<uint64_t, LiteNetLib::Utils::NetPacketProcessor::SubscribeDelegate*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::Dictionary_2<uint64_t, ::LiteNetLib::Utils::NetPacketProcessor::SubscribeDelegate*>*) == 0x8);
     // private readonly LiteNetLib.Utils.NetDataWriter _netDataWriter
     // Size: 0x8
     // Offset: 0x20
-    LiteNetLib::Utils::NetDataWriter* netDataWriter;
+    ::LiteNetLib::Utils::NetDataWriter* netDataWriter;
     // Field size check
-    static_assert(sizeof(LiteNetLib::Utils::NetDataWriter*) == 0x8);
+    static_assert(sizeof(::LiteNetLib::Utils::NetDataWriter*) == 0x8);
     public:
     // Get instance field reference: private readonly LiteNetLib.Utils.NetSerializer _netSerializer
-    LiteNetLib::Utils::NetSerializer*& dyn__netSerializer();
+    ::LiteNetLib::Utils::NetSerializer*& dyn__netSerializer();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.UInt64,LiteNetLib.Utils.NetPacketProcessor/LiteNetLib.Utils.SubscribeDelegate> _callbacks
-    System::Collections::Generic::Dictionary_2<uint64_t, LiteNetLib::Utils::NetPacketProcessor::SubscribeDelegate*>*& dyn__callbacks();
+    ::System::Collections::Generic::Dictionary_2<uint64_t, ::LiteNetLib::Utils::NetPacketProcessor::SubscribeDelegate*>*& dyn__callbacks();
     // Get instance field reference: private readonly LiteNetLib.Utils.NetDataWriter _netDataWriter
-    LiteNetLib::Utils::NetDataWriter*& dyn__netDataWriter();
+    ::LiteNetLib::Utils::NetDataWriter*& dyn__netDataWriter();
     // public System.Void .ctor(System.Int32 maxStringLength)
     // Offset: 0x2A4ED74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetPacketProcessor* New_ctor(int maxStringLength) {
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetPacketProcessor::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetPacketProcessor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetPacketProcessor*, creationType>(maxStringLength)));
     }
     // protected System.UInt64 GetHash()
     // Offset: 0xFFFFFFFF
     template<class T>
     uint64_t GetHash() {
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetPacketProcessor::GetHash");
+      static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetPacketProcessor::GetHash");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetHash", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<uint64_t, false>(this, ___generic__method);
     }
     // protected LiteNetLib.Utils.NetPacketProcessor/LiteNetLib.Utils.SubscribeDelegate GetCallbackFromData(LiteNetLib.Utils.NetDataReader reader)
     // Offset: 0x2A4EEB8
-    LiteNetLib::Utils::NetPacketProcessor::SubscribeDelegate* GetCallbackFromData(LiteNetLib::Utils::NetDataReader* reader);
+    ::LiteNetLib::Utils::NetPacketProcessor::SubscribeDelegate* GetCallbackFromData(::LiteNetLib::Utils::NetDataReader* reader);
     // protected System.Void WriteHash(LiteNetLib.Utils.NetDataWriter writer)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void WriteHash(LiteNetLib::Utils::NetDataWriter* writer) {
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetPacketProcessor::WriteHash");
+    void WriteHash(::LiteNetLib::Utils::NetDataWriter* writer) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetPacketProcessor::WriteHash");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "WriteHash", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(writer)})));
       auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, writer);
@@ -166,8 +166,8 @@ namespace LiteNetLib::Utils {
     // Offset: 0xFFFFFFFF
     template<class T>
     void RegisterNestedType() {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, LiteNetLib::Utils::INetSerializable> && is_value_type_v<T>);
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetPacketProcessor::RegisterNestedType");
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::LiteNetLib::Utils::INetSerializable> && std::is_convertible_v<T, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetPacketProcessor::RegisterNestedType");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "RegisterNestedType", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method);
@@ -175,8 +175,8 @@ namespace LiteNetLib::Utils {
     // public System.Void RegisterNestedType(System.Action`2<LiteNetLib.Utils.NetDataWriter,T> writeDelegate, System.Func`2<LiteNetLib.Utils.NetDataReader,T> readDelegate)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void RegisterNestedType(System::Action_2<LiteNetLib::Utils::NetDataWriter*, T>* writeDelegate, System::Func_2<LiteNetLib::Utils::NetDataReader*, T>* readDelegate) {
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetPacketProcessor::RegisterNestedType");
+    void RegisterNestedType(::System::Action_2<::LiteNetLib::Utils::NetDataWriter*, T>* writeDelegate, ::System::Func_2<::LiteNetLib::Utils::NetDataReader*, T>* readDelegate) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetPacketProcessor::RegisterNestedType");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "RegisterNestedType", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(writeDelegate), ::il2cpp_utils::ExtractType(readDelegate)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, writeDelegate, readDelegate);
@@ -184,27 +184,27 @@ namespace LiteNetLib::Utils {
     // public System.Void RegisterNestedType(System.Func`1<T> constructor)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void RegisterNestedType(System::Func_1<T>* constructor) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, LiteNetLib::Utils::INetSerializable>);
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetPacketProcessor::RegisterNestedType");
+    void RegisterNestedType(::System::Func_1<T>* constructor) {
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::LiteNetLib::Utils::INetSerializable>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetPacketProcessor::RegisterNestedType");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "RegisterNestedType", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(constructor)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, constructor);
     }
     // public System.Void ReadAllPackets(LiteNetLib.Utils.NetDataReader reader)
     // Offset: 0x2A4EFF8
-    void ReadAllPackets(LiteNetLib::Utils::NetDataReader* reader);
+    void ReadAllPackets(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void ReadAllPackets(LiteNetLib.Utils.NetDataReader reader, System.Object userData)
     // Offset: 0x2A4F050
-    void ReadAllPackets(LiteNetLib::Utils::NetDataReader* reader, ::Il2CppObject* userData);
+    void ReadAllPackets(::LiteNetLib::Utils::NetDataReader* reader, ::Il2CppObject* userData);
     // public System.Void ReadPacket(LiteNetLib.Utils.NetDataReader reader)
     // Offset: 0x2A4F048
-    void ReadPacket(LiteNetLib::Utils::NetDataReader* reader);
+    void ReadPacket(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Send(LiteNetLib.NetPeer peer, T packet, LiteNetLib.DeliveryMethod options)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void Send(LiteNetLib::NetPeer* peer, T packet, LiteNetLib::DeliveryMethod options) {
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetPacketProcessor::Send");
+    void Send(::LiteNetLib::NetPeer* peer, T packet, ::LiteNetLib::DeliveryMethod options) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetPacketProcessor::Send");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Send", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(peer), ::il2cpp_utils::ExtractType(packet), ::il2cpp_utils::ExtractType(options)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, peer, packet, options);
@@ -212,9 +212,9 @@ namespace LiteNetLib::Utils {
     // public System.Void SendNetSerializable(LiteNetLib.NetPeer peer, T packet, LiteNetLib.DeliveryMethod options)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void SendNetSerializable(LiteNetLib::NetPeer* peer, T packet, LiteNetLib::DeliveryMethod options) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, LiteNetLib::Utils::INetSerializable>);
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetPacketProcessor::SendNetSerializable");
+    void SendNetSerializable(::LiteNetLib::NetPeer* peer, T packet, ::LiteNetLib::DeliveryMethod options) {
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::LiteNetLib::Utils::INetSerializable>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetPacketProcessor::SendNetSerializable");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SendNetSerializable", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(peer), ::il2cpp_utils::ExtractType(packet), ::il2cpp_utils::ExtractType(options)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, peer, packet, options);
@@ -222,8 +222,8 @@ namespace LiteNetLib::Utils {
     // public System.Void Send(LiteNetLib.NetManager manager, T packet, LiteNetLib.DeliveryMethod options)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void Send(LiteNetLib::NetManager* manager, T packet, LiteNetLib::DeliveryMethod options) {
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetPacketProcessor::Send");
+    void Send(::LiteNetLib::NetManager* manager, T packet, ::LiteNetLib::DeliveryMethod options) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetPacketProcessor::Send");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Send", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(manager), ::il2cpp_utils::ExtractType(packet), ::il2cpp_utils::ExtractType(options)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, manager, packet, options);
@@ -231,9 +231,9 @@ namespace LiteNetLib::Utils {
     // public System.Void SendNetSerializable(LiteNetLib.NetManager manager, T packet, LiteNetLib.DeliveryMethod options)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void SendNetSerializable(LiteNetLib::NetManager* manager, T packet, LiteNetLib::DeliveryMethod options) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, LiteNetLib::Utils::INetSerializable>);
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetPacketProcessor::SendNetSerializable");
+    void SendNetSerializable(::LiteNetLib::NetManager* manager, T packet, ::LiteNetLib::DeliveryMethod options) {
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::LiteNetLib::Utils::INetSerializable>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetPacketProcessor::SendNetSerializable");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SendNetSerializable", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(manager), ::il2cpp_utils::ExtractType(packet), ::il2cpp_utils::ExtractType(options)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, manager, packet, options);
@@ -241,8 +241,8 @@ namespace LiteNetLib::Utils {
     // public System.Void Write(LiteNetLib.Utils.NetDataWriter writer, T packet)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void Write(LiteNetLib::Utils::NetDataWriter* writer, T packet) {
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetPacketProcessor::Write");
+    void Write(::LiteNetLib::Utils::NetDataWriter* writer, T packet) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetPacketProcessor::Write");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Write", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(writer), ::il2cpp_utils::ExtractType(packet)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, writer, packet);
@@ -250,9 +250,9 @@ namespace LiteNetLib::Utils {
     // public System.Void WriteNetSerializable(LiteNetLib.Utils.NetDataWriter writer, T packet)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void WriteNetSerializable(LiteNetLib::Utils::NetDataWriter* writer, T packet) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, LiteNetLib::Utils::INetSerializable>);
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetPacketProcessor::WriteNetSerializable");
+    void WriteNetSerializable(::LiteNetLib::Utils::NetDataWriter* writer, T packet) {
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::LiteNetLib::Utils::INetSerializable>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetPacketProcessor::WriteNetSerializable");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "WriteNetSerializable", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(writer), ::il2cpp_utils::ExtractType(packet)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, writer, packet);
@@ -261,7 +261,7 @@ namespace LiteNetLib::Utils {
     // Offset: 0xFFFFFFFF
     template<class T>
     ::ArrayW<uint8_t> Write(T packet) {
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetPacketProcessor::Write");
+      static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetPacketProcessor::Write");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Write", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(packet)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<uint8_t>, false>(this, ___generic__method, packet);
@@ -270,20 +270,20 @@ namespace LiteNetLib::Utils {
     // Offset: 0xFFFFFFFF
     template<class T>
     ::ArrayW<uint8_t> WriteNetSerializable(T packet) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, LiteNetLib::Utils::INetSerializable>);
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetPacketProcessor::WriteNetSerializable");
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::LiteNetLib::Utils::INetSerializable>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetPacketProcessor::WriteNetSerializable");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "WriteNetSerializable", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(packet)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<uint8_t>, false>(this, ___generic__method, packet);
     }
     // public System.Void ReadPacket(LiteNetLib.Utils.NetDataReader reader, System.Object userData)
     // Offset: 0x2A4F0AC
-    void ReadPacket(LiteNetLib::Utils::NetDataReader* reader, ::Il2CppObject* userData);
+    void ReadPacket(::LiteNetLib::Utils::NetDataReader* reader, ::Il2CppObject* userData);
     // public System.Void Subscribe(System.Action`1<T> onReceive, System.Func`1<T> packetConstructor)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void Subscribe(System::Action_1<T>* onReceive, System::Func_1<T>* packetConstructor) {
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetPacketProcessor::Subscribe");
+    void Subscribe(::System::Action_1<T>* onReceive, ::System::Func_1<T>* packetConstructor) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetPacketProcessor::Subscribe");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Subscribe", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(onReceive), ::il2cpp_utils::ExtractType(packetConstructor)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, onReceive, packetConstructor);
@@ -291,8 +291,8 @@ namespace LiteNetLib::Utils {
     // public System.Void Subscribe(System.Action`2<T,TUserData> onReceive, System.Func`1<T> packetConstructor)
     // Offset: 0xFFFFFFFF
     template<class T, class TUserData>
-    void Subscribe(System::Action_2<T, TUserData>* onReceive, System::Func_1<T>* packetConstructor) {
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetPacketProcessor::Subscribe");
+    void Subscribe(::System::Action_2<T, TUserData>* onReceive, ::System::Func_1<T>* packetConstructor) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetPacketProcessor::Subscribe");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Subscribe", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TUserData>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(onReceive), ::il2cpp_utils::ExtractType(packetConstructor)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TUserData>::get()})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, onReceive, packetConstructor);
@@ -300,8 +300,8 @@ namespace LiteNetLib::Utils {
     // public System.Void SubscribeReusable(System.Action`1<T> onReceive)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void SubscribeReusable(System::Action_1<T>* onReceive) {
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetPacketProcessor::SubscribeReusable");
+    void SubscribeReusable(::System::Action_1<T>* onReceive) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetPacketProcessor::SubscribeReusable");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SubscribeReusable", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(onReceive)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, onReceive);
@@ -309,8 +309,8 @@ namespace LiteNetLib::Utils {
     // public System.Void SubscribeReusable(System.Action`2<T,TUserData> onReceive)
     // Offset: 0xFFFFFFFF
     template<class T, class TUserData>
-    void SubscribeReusable(System::Action_2<T, TUserData>* onReceive) {
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetPacketProcessor::SubscribeReusable");
+    void SubscribeReusable(::System::Action_2<T, TUserData>* onReceive) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetPacketProcessor::SubscribeReusable");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SubscribeReusable", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TUserData>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(onReceive)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TUserData>::get()})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, onReceive);
@@ -318,9 +318,9 @@ namespace LiteNetLib::Utils {
     // public System.Void SubscribeNetSerializable(System.Action`2<T,TUserData> onReceive, System.Func`1<T> packetConstructor)
     // Offset: 0xFFFFFFFF
     template<class T, class TUserData>
-    void SubscribeNetSerializable(System::Action_2<T, TUserData>* onReceive, System::Func_1<T>* packetConstructor) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, LiteNetLib::Utils::INetSerializable>);
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetPacketProcessor::SubscribeNetSerializable");
+    void SubscribeNetSerializable(::System::Action_2<T, TUserData>* onReceive, ::System::Func_1<T>* packetConstructor) {
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::LiteNetLib::Utils::INetSerializable>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetPacketProcessor::SubscribeNetSerializable");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SubscribeNetSerializable", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TUserData>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(onReceive), ::il2cpp_utils::ExtractType(packetConstructor)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TUserData>::get()})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, onReceive, packetConstructor);
@@ -328,9 +328,9 @@ namespace LiteNetLib::Utils {
     // public System.Void SubscribeNetSerializable(System.Action`1<T> onReceive, System.Func`1<T> packetConstructor)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void SubscribeNetSerializable(System::Action_1<T>* onReceive, System::Func_1<T>* packetConstructor) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, LiteNetLib::Utils::INetSerializable>);
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetPacketProcessor::SubscribeNetSerializable");
+    void SubscribeNetSerializable(::System::Action_1<T>* onReceive, ::System::Func_1<T>* packetConstructor) {
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::LiteNetLib::Utils::INetSerializable>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetPacketProcessor::SubscribeNetSerializable");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SubscribeNetSerializable", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(onReceive), ::il2cpp_utils::ExtractType(packetConstructor)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, onReceive, packetConstructor);
@@ -338,9 +338,9 @@ namespace LiteNetLib::Utils {
     // public System.Void SubscribeNetSerializable(System.Action`2<T,TUserData> onReceive)
     // Offset: 0xFFFFFFFF
     template<class T, class TUserData>
-    void SubscribeNetSerializable(System::Action_2<T, TUserData>* onReceive) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, LiteNetLib::Utils::INetSerializable>);
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetPacketProcessor::SubscribeNetSerializable");
+    void SubscribeNetSerializable(::System::Action_2<T, TUserData>* onReceive) {
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::LiteNetLib::Utils::INetSerializable>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetPacketProcessor::SubscribeNetSerializable");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SubscribeNetSerializable", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TUserData>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(onReceive)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TUserData>::get()})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, onReceive);
@@ -348,9 +348,9 @@ namespace LiteNetLib::Utils {
     // public System.Void SubscribeNetSerializable(System.Action`1<T> onReceive)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void SubscribeNetSerializable(System::Action_1<T>* onReceive) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, LiteNetLib::Utils::INetSerializable>);
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetPacketProcessor::SubscribeNetSerializable");
+    void SubscribeNetSerializable(::System::Action_1<T>* onReceive) {
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::LiteNetLib::Utils::INetSerializable>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetPacketProcessor::SubscribeNetSerializable");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "SubscribeNetSerializable", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(onReceive)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, onReceive);
@@ -359,7 +359,7 @@ namespace LiteNetLib::Utils {
     // Offset: 0xFFFFFFFF
     template<class T>
     bool RemoveSubscription() {
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetPacketProcessor::RemoveSubscription");
+      static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetPacketProcessor::RemoveSubscription");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "RemoveSubscription", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___generic__method);
@@ -370,12 +370,12 @@ namespace LiteNetLib::Utils {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetPacketProcessor* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetPacketProcessor::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetPacketProcessor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetPacketProcessor*, creationType>()));
     }
   }; // LiteNetLib.Utils.NetPacketProcessor
   #pragma pack(pop)
-  static check_size<sizeof(NetPacketProcessor), 32 + sizeof(LiteNetLib::Utils::NetDataWriter*)> __LiteNetLib_Utils_NetPacketProcessorSizeCheck;
+  static check_size<sizeof(NetPacketProcessor), 32 + sizeof(::LiteNetLib::Utils::NetDataWriter*)> __LiteNetLib_Utils_NetPacketProcessorSizeCheck;
   static_assert(sizeof(NetPacketProcessor) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -389,7 +389,7 @@ namespace LiteNetLib::Utils {
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetPacketProcessor::GetCallbackFromData
 // Il2CppName: GetCallbackFromData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::Utils::NetPacketProcessor::SubscribeDelegate* (LiteNetLib::Utils::NetPacketProcessor::*)(LiteNetLib::Utils::NetDataReader*)>(&LiteNetLib::Utils::NetPacketProcessor::GetCallbackFromData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LiteNetLib::Utils::NetPacketProcessor::SubscribeDelegate* (LiteNetLib::Utils::NetPacketProcessor::*)(::LiteNetLib::Utils::NetDataReader*)>(&LiteNetLib::Utils::NetPacketProcessor::GetCallbackFromData)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataReader")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetPacketProcessor*), "GetCallbackFromData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader});
@@ -410,7 +410,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib:
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetPacketProcessor::ReadAllPackets
 // Il2CppName: ReadAllPackets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetPacketProcessor::*)(LiteNetLib::Utils::NetDataReader*)>(&LiteNetLib::Utils::NetPacketProcessor::ReadAllPackets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetPacketProcessor::*)(::LiteNetLib::Utils::NetDataReader*)>(&LiteNetLib::Utils::NetPacketProcessor::ReadAllPackets)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataReader")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetPacketProcessor*), "ReadAllPackets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader});
@@ -419,7 +419,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetPacketProcessor::ReadAllPackets
 // Il2CppName: ReadAllPackets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetPacketProcessor::*)(LiteNetLib::Utils::NetDataReader*, ::Il2CppObject*)>(&LiteNetLib::Utils::NetPacketProcessor::ReadAllPackets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetPacketProcessor::*)(::LiteNetLib::Utils::NetDataReader*, ::Il2CppObject*)>(&LiteNetLib::Utils::NetPacketProcessor::ReadAllPackets)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataReader")->byval_arg;
     static auto* userData = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -429,7 +429,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetPacketProcessor::ReadPacket
 // Il2CppName: ReadPacket
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetPacketProcessor::*)(LiteNetLib::Utils::NetDataReader*)>(&LiteNetLib::Utils::NetPacketProcessor::ReadPacket)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetPacketProcessor::*)(::LiteNetLib::Utils::NetDataReader*)>(&LiteNetLib::Utils::NetPacketProcessor::ReadPacket)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataReader")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetPacketProcessor*), "ReadPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader});
@@ -462,7 +462,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetPacketProcessor::ReadPacket
 // Il2CppName: ReadPacket
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetPacketProcessor::*)(LiteNetLib::Utils::NetDataReader*, ::Il2CppObject*)>(&LiteNetLib::Utils::NetPacketProcessor::ReadPacket)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetPacketProcessor::*)(::LiteNetLib::Utils::NetDataReader*, ::Il2CppObject*)>(&LiteNetLib::Utils::NetPacketProcessor::ReadPacket)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataReader")->byval_arg;
     static auto* userData = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;

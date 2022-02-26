@@ -13,8 +13,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MainCameraCullingMask::InitData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainCameraCullingMask::InitData*, "", "MainCameraCullingMask/InitData");
+NEED_NO_BOX(::GlobalNamespace::MainCameraCullingMask::InitData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MainCameraCullingMask::InitData*, "", "MainCameraCullingMask/InitData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x11
@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     // Offset: 0x2E0CA14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MainCameraCullingMask::InitData* New_ctor(bool showDebris) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MainCameraCullingMask::InitData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MainCameraCullingMask::InitData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MainCameraCullingMask::InitData*, creationType>(showDebris)));
     }
   }; // MainCameraCullingMask/InitData

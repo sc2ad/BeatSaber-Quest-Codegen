@@ -33,8 +33,8 @@ namespace Zenject {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::ConventionFilterTypesBinder::$$c__DisplayClass13_0);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::ConventionFilterTypesBinder::$$c__DisplayClass13_0*, "Zenject", "ConventionFilterTypesBinder/<>c__DisplayClass13_0");
+NEED_NO_BOX(::Zenject::ConventionFilterTypesBinder::$$c__DisplayClass13_0);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::ConventionFilterTypesBinder::$$c__DisplayClass13_0*, "Zenject", "ConventionFilterTypesBinder/<>c__DisplayClass13_0");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x18
@@ -56,44 +56,44 @@ namespace Zenject {
     // public System.Collections.Generic.IEnumerable`1<System.String> namespaces
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::IEnumerable_1<::StringW>* namespaces;
+    ::System::Collections::Generic::IEnumerable_1<::StringW>* namespaces;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::IEnumerable_1<::StringW>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::IEnumerable_1<::StringW>*) == 0x8);
     public:
-    // Creating conversion operator: operator System::Collections::Generic::IEnumerable_1<::StringW>*
-    constexpr operator System::Collections::Generic::IEnumerable_1<::StringW>*() const noexcept {
+    // Creating conversion operator: operator ::System::Collections::Generic::IEnumerable_1<::StringW>*
+    constexpr operator ::System::Collections::Generic::IEnumerable_1<::StringW>*() const noexcept {
       return namespaces;
     }
     // Get instance field reference: public System.Collections.Generic.IEnumerable`1<System.String> namespaces
-    System::Collections::Generic::IEnumerable_1<::StringW>*& dyn_namespaces();
+    ::System::Collections::Generic::IEnumerable_1<::StringW>*& dyn_namespaces();
     // System.Boolean <InNamespaces>b__0(System.Type t)
     // Offset: 0x16E0590
-    bool $InNamespaces$b__0(System::Type* t);
+    bool $InNamespaces$b__0(::System::Type* t);
     // static private System.Object __zenCreate(System.Object[] P_0)
     // Offset: 0x16E0658
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
     // Offset: 0x16E06B4
-    static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
     // Offset: 0x16E01CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConventionFilterTypesBinder::$$c__DisplayClass13_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ConventionFilterTypesBinder::$$c__DisplayClass13_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ConventionFilterTypesBinder::$$c__DisplayClass13_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConventionFilterTypesBinder::$$c__DisplayClass13_0*, creationType>()));
     }
   }; // Zenject.ConventionFilterTypesBinder/Zenject.<>c__DisplayClass13_0
   #pragma pack(pop)
-  static check_size<sizeof(ConventionFilterTypesBinder::$$c__DisplayClass13_0), 16 + sizeof(System::Collections::Generic::IEnumerable_1<::StringW>*)> __Zenject_ConventionFilterTypesBinder_$$c__DisplayClass13_0SizeCheck;
+  static check_size<sizeof(ConventionFilterTypesBinder::$$c__DisplayClass13_0), 16 + sizeof(::System::Collections::Generic::IEnumerable_1<::StringW>*)> __Zenject_ConventionFilterTypesBinder_$$c__DisplayClass13_0SizeCheck;
   static_assert(sizeof(ConventionFilterTypesBinder::$$c__DisplayClass13_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ConventionFilterTypesBinder::$$c__DisplayClass13_0::$InNamespaces$b__0
 // Il2CppName: <InNamespaces>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::ConventionFilterTypesBinder::$$c__DisplayClass13_0::*)(System::Type*)>(&Zenject::ConventionFilterTypesBinder::$$c__DisplayClass13_0::$InNamespaces$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::ConventionFilterTypesBinder::$$c__DisplayClass13_0::*)(::System::Type*)>(&Zenject::ConventionFilterTypesBinder::$$c__DisplayClass13_0::$InNamespaces$b__0)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder::$$c__DisplayClass13_0*), "<InNamespaces>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
@@ -111,7 +111,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: Zenject::ConventionFilterTypesBinder::$$c__DisplayClass13_0::__zenCreateInjectTypeInfo
 // Il2CppName: __zenCreateInjectTypeInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (*)()>(&Zenject::ConventionFilterTypesBinder::$$c__DisplayClass13_0::__zenCreateInjectTypeInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&Zenject::ConventionFilterTypesBinder::$$c__DisplayClass13_0::__zenCreateInjectTypeInfo)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder::$$c__DisplayClass13_0*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

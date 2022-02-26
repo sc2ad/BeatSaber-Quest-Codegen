@@ -20,8 +20,8 @@ namespace GlobalNamespace {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SoloFreePlayFlowCoordinator::$$c__DisplayClass21_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SoloFreePlayFlowCoordinator::$$c__DisplayClass21_0*, "", "SoloFreePlayFlowCoordinator/<>c__DisplayClass21_0");
+NEED_NO_BOX(::GlobalNamespace::SoloFreePlayFlowCoordinator::$$c__DisplayClass21_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SoloFreePlayFlowCoordinator::$$c__DisplayClass21_0*, "", "SoloFreePlayFlowCoordinator/<>c__DisplayClass21_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -43,20 +43,20 @@ namespace GlobalNamespace {
     // public SoloFreePlayFlowCoordinator <>4__this
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::SoloFreePlayFlowCoordinator* $$4__this;
+    ::GlobalNamespace::SoloFreePlayFlowCoordinator* $$4__this;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::SoloFreePlayFlowCoordinator*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::SoloFreePlayFlowCoordinator*) == 0x8);
     // public ResultsViewController resultsViewController
     // Size: 0x8
     // Offset: 0x18
-    GlobalNamespace::ResultsViewController* resultsViewController;
+    ::GlobalNamespace::ResultsViewController* resultsViewController;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::ResultsViewController*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::ResultsViewController*) == 0x8);
     public:
     // Get instance field reference: public SoloFreePlayFlowCoordinator <>4__this
-    GlobalNamespace::SoloFreePlayFlowCoordinator*& dyn_$$4__this();
+    ::GlobalNamespace::SoloFreePlayFlowCoordinator*& dyn_$$4__this();
     // Get instance field reference: public ResultsViewController resultsViewController
-    GlobalNamespace::ResultsViewController*& dyn_resultsViewController();
+    ::GlobalNamespace::ResultsViewController*& dyn_resultsViewController();
     // System.Void <HandleResultsViewControllerRestartButtonPressed>b__0()
     // Offset: 0x13D0BF8
     void $HandleResultsViewControllerRestartButtonPressed$b__0();
@@ -66,12 +66,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SoloFreePlayFlowCoordinator::$$c__DisplayClass21_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SoloFreePlayFlowCoordinator::$$c__DisplayClass21_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SoloFreePlayFlowCoordinator::$$c__DisplayClass21_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SoloFreePlayFlowCoordinator::$$c__DisplayClass21_0*, creationType>()));
     }
   }; // SoloFreePlayFlowCoordinator/<>c__DisplayClass21_0
   #pragma pack(pop)
-  static check_size<sizeof(SoloFreePlayFlowCoordinator::$$c__DisplayClass21_0), 24 + sizeof(GlobalNamespace::ResultsViewController*)> __GlobalNamespace_SoloFreePlayFlowCoordinator_$$c__DisplayClass21_0SizeCheck;
+  static check_size<sizeof(SoloFreePlayFlowCoordinator::$$c__DisplayClass21_0), 24 + sizeof(::GlobalNamespace::ResultsViewController*)> __GlobalNamespace_SoloFreePlayFlowCoordinator_$$c__DisplayClass21_0SizeCheck;
   static_assert(sizeof(SoloFreePlayFlowCoordinator::$$c__DisplayClass21_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

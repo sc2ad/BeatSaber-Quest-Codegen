@@ -33,8 +33,8 @@ namespace UnityEngine {
   class Canvas;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Canvas);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Canvas*, "UnityEngine", "Canvas");
+NEED_NO_BOX(::UnityEngine::Canvas);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Canvas*, "UnityEngine", "Canvas");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -45,26 +45,26 @@ namespace UnityEngine {
   // [RequireComponent] Offset: 11CC744
   // [NativeHeaderAttribute] Offset: 11CC744
   // [NativeHeaderAttribute] Offset: 11CC744
-  class Canvas : public UnityEngine::Behaviour {
+  class Canvas : public ::UnityEngine::Behaviour {
     public:
-    // Nested type: UnityEngine::Canvas::WillRenderCanvases
+    // Nested type: ::UnityEngine::Canvas::WillRenderCanvases
     class WillRenderCanvases;
     // [DebuggerBrowsableAttribute] Offset: 0x11CC8B4
     // Get static field: static private UnityEngine.Canvas/UnityEngine.WillRenderCanvases preWillRenderCanvases
-    static UnityEngine::Canvas::WillRenderCanvases* _get_preWillRenderCanvases();
+    static ::UnityEngine::Canvas::WillRenderCanvases* _get_preWillRenderCanvases();
     // Set static field: static private UnityEngine.Canvas/UnityEngine.WillRenderCanvases preWillRenderCanvases
-    static void _set_preWillRenderCanvases(UnityEngine::Canvas::WillRenderCanvases* value);
+    static void _set_preWillRenderCanvases(::UnityEngine::Canvas::WillRenderCanvases* value);
     // [DebuggerBrowsableAttribute] Offset: 0x11CC8F0
     // Get static field: static private UnityEngine.Canvas/UnityEngine.WillRenderCanvases willRenderCanvases
-    static UnityEngine::Canvas::WillRenderCanvases* _get_willRenderCanvases();
+    static ::UnityEngine::Canvas::WillRenderCanvases* _get_willRenderCanvases();
     // Set static field: static private UnityEngine.Canvas/UnityEngine.WillRenderCanvases willRenderCanvases
-    static void _set_willRenderCanvases(UnityEngine::Canvas::WillRenderCanvases* value);
+    static void _set_willRenderCanvases(::UnityEngine::Canvas::WillRenderCanvases* value);
     // public UnityEngine.RenderMode get_renderMode()
     // Offset: 0x2A4C190
-    UnityEngine::RenderMode get_renderMode();
+    ::UnityEngine::RenderMode get_renderMode();
     // public System.Void set_renderMode(UnityEngine.RenderMode value)
     // Offset: 0x2A4C1D0
-    void set_renderMode(UnityEngine::RenderMode value);
+    void set_renderMode(::UnityEngine::RenderMode value);
     // public System.Boolean get_isRootCanvas()
     // Offset: 0x2A4C220
     bool get_isRootCanvas();
@@ -112,40 +112,40 @@ namespace UnityEngine {
     void set_sortingLayerID(int value);
     // public UnityEngine.AdditionalCanvasShaderChannels get_additionalShaderChannels()
     // Offset: 0x2A4C640
-    UnityEngine::AdditionalCanvasShaderChannels get_additionalShaderChannels();
+    ::UnityEngine::AdditionalCanvasShaderChannels get_additionalShaderChannels();
     // public System.Void set_additionalShaderChannels(UnityEngine.AdditionalCanvasShaderChannels value)
     // Offset: 0x2A4C680
-    void set_additionalShaderChannels(UnityEngine::AdditionalCanvasShaderChannels value);
+    void set_additionalShaderChannels(::UnityEngine::AdditionalCanvasShaderChannels value);
     // public UnityEngine.Canvas get_rootCanvas()
     // Offset: 0x2A4C6D0
-    UnityEngine::Canvas* get_rootCanvas();
+    ::UnityEngine::Canvas* get_rootCanvas();
     // public UnityEngine.Vector2 get_renderingDisplaySize()
     // Offset: 0x2A4C710
-    UnityEngine::Vector2 get_renderingDisplaySize();
+    ::UnityEngine::Vector2 get_renderingDisplaySize();
     // public UnityEngine.Camera get_worldCamera()
     // Offset: 0x2A4C7B8
-    UnityEngine::Camera* get_worldCamera();
+    ::UnityEngine::Camera* get_worldCamera();
     // public System.Void set_worldCamera(UnityEngine.Camera value)
     // Offset: 0x2A4C7F8
-    void set_worldCamera(UnityEngine::Camera* value);
+    void set_worldCamera(::UnityEngine::Camera* value);
     // static public System.Void add_preWillRenderCanvases(UnityEngine.Canvas/UnityEngine.WillRenderCanvases value)
     // Offset: 0x2A4BEB8
-    static void add_preWillRenderCanvases(UnityEngine::Canvas::WillRenderCanvases* value);
+    static void add_preWillRenderCanvases(::UnityEngine::Canvas::WillRenderCanvases* value);
     // static public System.Void remove_preWillRenderCanvases(UnityEngine.Canvas/UnityEngine.WillRenderCanvases value)
     // Offset: 0x2A4BF6C
-    static void remove_preWillRenderCanvases(UnityEngine::Canvas::WillRenderCanvases* value);
+    static void remove_preWillRenderCanvases(::UnityEngine::Canvas::WillRenderCanvases* value);
     // static public System.Void add_willRenderCanvases(UnityEngine.Canvas/UnityEngine.WillRenderCanvases value)
     // Offset: 0x2A4C020
-    static void add_willRenderCanvases(UnityEngine::Canvas::WillRenderCanvases* value);
+    static void add_willRenderCanvases(::UnityEngine::Canvas::WillRenderCanvases* value);
     // static public System.Void remove_willRenderCanvases(UnityEngine.Canvas/UnityEngine.WillRenderCanvases value)
     // Offset: 0x2A4C0D8
-    static void remove_willRenderCanvases(UnityEngine::Canvas::WillRenderCanvases* value);
+    static void remove_willRenderCanvases(::UnityEngine::Canvas::WillRenderCanvases* value);
     // static public UnityEngine.Material GetDefaultCanvasMaterial()
     // Offset: 0x2A4C848
-    static UnityEngine::Material* GetDefaultCanvasMaterial();
+    static ::UnityEngine::Material* GetDefaultCanvasMaterial();
     // static public UnityEngine.Material GetETC1SupportedCanvasMaterial()
     // Offset: 0x2A4C87C
-    static UnityEngine::Material* GetETC1SupportedCanvasMaterial();
+    static ::UnityEngine::Material* GetETC1SupportedCanvasMaterial();
     // static public System.Void ForceUpdateCanvases()
     // Offset: 0x2A4C8B0
     static void ForceUpdateCanvases();
@@ -157,7 +157,7 @@ namespace UnityEngine {
     static void SendWillRenderCanvases();
     // private System.Void get_renderingDisplaySize_Injected(out UnityEngine.Vector2 ret)
     // Offset: 0x2A4C768
-    void get_renderingDisplaySize_Injected(ByRef<UnityEngine::Vector2> ret);
+    void get_renderingDisplaySize_Injected(ByRef<::UnityEngine::Vector2> ret);
     // public System.Void .ctor()
     // Offset: 0x2A4CB90
     // Implemented from: UnityEngine.Behaviour
@@ -167,7 +167,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Canvas* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Canvas::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Canvas::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Canvas*, creationType>()));
     }
   }; // UnityEngine.Canvas
@@ -177,7 +177,7 @@ namespace UnityEngine {
 // Writing MetadataGetter for method: UnityEngine::Canvas::get_renderMode
 // Il2CppName: get_renderMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderMode (UnityEngine::Canvas::*)()>(&UnityEngine::Canvas::get_renderMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RenderMode (UnityEngine::Canvas::*)()>(&UnityEngine::Canvas::get_renderMode)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Canvas*), "get_renderMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -185,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Canvas::set_renderMode
 // Il2CppName: set_renderMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Canvas::*)(UnityEngine::RenderMode)>(&UnityEngine::Canvas::set_renderMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Canvas::*)(::UnityEngine::RenderMode)>(&UnityEngine::Canvas::set_renderMode)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderMode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Canvas*), "set_renderMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -320,7 +320,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Canvas::get_additionalShaderChannels
 // Il2CppName: get_additionalShaderChannels
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AdditionalCanvasShaderChannels (UnityEngine::Canvas::*)()>(&UnityEngine::Canvas::get_additionalShaderChannels)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AdditionalCanvasShaderChannels (UnityEngine::Canvas::*)()>(&UnityEngine::Canvas::get_additionalShaderChannels)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Canvas*), "get_additionalShaderChannels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -328,7 +328,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Canvas::set_additionalShaderChannels
 // Il2CppName: set_additionalShaderChannels
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Canvas::*)(UnityEngine::AdditionalCanvasShaderChannels)>(&UnityEngine::Canvas::set_additionalShaderChannels)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Canvas::*)(::UnityEngine::AdditionalCanvasShaderChannels)>(&UnityEngine::Canvas::set_additionalShaderChannels)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "AdditionalCanvasShaderChannels")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Canvas*), "set_additionalShaderChannels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -337,7 +337,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Canvas::get_rootCanvas
 // Il2CppName: get_rootCanvas
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Canvas* (UnityEngine::Canvas::*)()>(&UnityEngine::Canvas::get_rootCanvas)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Canvas* (UnityEngine::Canvas::*)()>(&UnityEngine::Canvas::get_rootCanvas)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Canvas*), "get_rootCanvas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -345,7 +345,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Canvas::get_renderingDisplaySize
 // Il2CppName: get_renderingDisplaySize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::Canvas::*)()>(&UnityEngine::Canvas::get_renderingDisplaySize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (UnityEngine::Canvas::*)()>(&UnityEngine::Canvas::get_renderingDisplaySize)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Canvas*), "get_renderingDisplaySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -353,7 +353,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Canvas::get_worldCamera
 // Il2CppName: get_worldCamera
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Camera* (UnityEngine::Canvas::*)()>(&UnityEngine::Canvas::get_worldCamera)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Camera* (UnityEngine::Canvas::*)()>(&UnityEngine::Canvas::get_worldCamera)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Canvas*), "get_worldCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -361,7 +361,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Canvas::set_worldCamera
 // Il2CppName: set_worldCamera
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Canvas::*)(UnityEngine::Camera*)>(&UnityEngine::Canvas::set_worldCamera)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Canvas::*)(::UnityEngine::Camera*)>(&UnityEngine::Canvas::set_worldCamera)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Canvas*), "set_worldCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -370,7 +370,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Canvas::add_preWillRenderCanvases
 // Il2CppName: add_preWillRenderCanvases
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Canvas::WillRenderCanvases*)>(&UnityEngine::Canvas::add_preWillRenderCanvases)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Canvas::WillRenderCanvases*)>(&UnityEngine::Canvas::add_preWillRenderCanvases)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Canvas/WillRenderCanvases")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Canvas*), "add_preWillRenderCanvases", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -379,7 +379,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Canvas::remove_preWillRenderCanvases
 // Il2CppName: remove_preWillRenderCanvases
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Canvas::WillRenderCanvases*)>(&UnityEngine::Canvas::remove_preWillRenderCanvases)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Canvas::WillRenderCanvases*)>(&UnityEngine::Canvas::remove_preWillRenderCanvases)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Canvas/WillRenderCanvases")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Canvas*), "remove_preWillRenderCanvases", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -388,7 +388,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Canvas::add_willRenderCanvases
 // Il2CppName: add_willRenderCanvases
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Canvas::WillRenderCanvases*)>(&UnityEngine::Canvas::add_willRenderCanvases)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Canvas::WillRenderCanvases*)>(&UnityEngine::Canvas::add_willRenderCanvases)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Canvas/WillRenderCanvases")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Canvas*), "add_willRenderCanvases", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -397,7 +397,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Canvas::remove_willRenderCanvases
 // Il2CppName: remove_willRenderCanvases
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Canvas::WillRenderCanvases*)>(&UnityEngine::Canvas::remove_willRenderCanvases)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Canvas::WillRenderCanvases*)>(&UnityEngine::Canvas::remove_willRenderCanvases)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Canvas/WillRenderCanvases")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Canvas*), "remove_willRenderCanvases", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -406,7 +406,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Canvas::GetDefaultCanvasMaterial
 // Il2CppName: GetDefaultCanvasMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&UnityEngine::Canvas::GetDefaultCanvasMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Material* (*)()>(&UnityEngine::Canvas::GetDefaultCanvasMaterial)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Canvas*), "GetDefaultCanvasMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -414,7 +414,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Canvas::GetETC1SupportedCanvasMaterial
 // Il2CppName: GetETC1SupportedCanvasMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&UnityEngine::Canvas::GetETC1SupportedCanvasMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Material* (*)()>(&UnityEngine::Canvas::GetETC1SupportedCanvasMaterial)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Canvas*), "GetETC1SupportedCanvasMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -446,7 +446,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::Canvas::get_renderingDisplaySize_Injected
 // Il2CppName: get_renderingDisplaySize_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Canvas::*)(ByRef<UnityEngine::Vector2>)>(&UnityEngine::Canvas::get_renderingDisplaySize_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Canvas::*)(ByRef<::UnityEngine::Vector2>)>(&UnityEngine::Canvas::get_renderingDisplaySize_Injected)> {
   static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Canvas*), "get_renderingDisplaySize_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});

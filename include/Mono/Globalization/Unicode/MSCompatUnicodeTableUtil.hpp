@@ -19,8 +19,8 @@ namespace Mono::Globalization::Unicode {
   class MSCompatUnicodeTableUtil;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Globalization::Unicode::MSCompatUnicodeTableUtil);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::MSCompatUnicodeTableUtil*, "Mono.Globalization.Unicode", "MSCompatUnicodeTableUtil");
+NEED_NO_BOX(::Mono::Globalization::Unicode::MSCompatUnicodeTableUtil);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Globalization::Unicode::MSCompatUnicodeTableUtil*, "Mono.Globalization.Unicode", "MSCompatUnicodeTableUtil");
 // Type namespace: Mono.Globalization.Unicode
 namespace Mono::Globalization::Unicode {
   // Size: 0x10
@@ -30,33 +30,33 @@ namespace Mono::Globalization::Unicode {
   class MSCompatUnicodeTableUtil : public ::Il2CppObject {
     public:
     // Get static field: static public readonly Mono.Globalization.Unicode.CodePointIndexer Ignorable
-    static Mono::Globalization::Unicode::CodePointIndexer* _get_Ignorable();
+    static ::Mono::Globalization::Unicode::CodePointIndexer* _get_Ignorable();
     // Set static field: static public readonly Mono.Globalization.Unicode.CodePointIndexer Ignorable
-    static void _set_Ignorable(Mono::Globalization::Unicode::CodePointIndexer* value);
+    static void _set_Ignorable(::Mono::Globalization::Unicode::CodePointIndexer* value);
     // Get static field: static public readonly Mono.Globalization.Unicode.CodePointIndexer Category
-    static Mono::Globalization::Unicode::CodePointIndexer* _get_Category();
+    static ::Mono::Globalization::Unicode::CodePointIndexer* _get_Category();
     // Set static field: static public readonly Mono.Globalization.Unicode.CodePointIndexer Category
-    static void _set_Category(Mono::Globalization::Unicode::CodePointIndexer* value);
+    static void _set_Category(::Mono::Globalization::Unicode::CodePointIndexer* value);
     // Get static field: static public readonly Mono.Globalization.Unicode.CodePointIndexer Level1
-    static Mono::Globalization::Unicode::CodePointIndexer* _get_Level1();
+    static ::Mono::Globalization::Unicode::CodePointIndexer* _get_Level1();
     // Set static field: static public readonly Mono.Globalization.Unicode.CodePointIndexer Level1
-    static void _set_Level1(Mono::Globalization::Unicode::CodePointIndexer* value);
+    static void _set_Level1(::Mono::Globalization::Unicode::CodePointIndexer* value);
     // Get static field: static public readonly Mono.Globalization.Unicode.CodePointIndexer Level2
-    static Mono::Globalization::Unicode::CodePointIndexer* _get_Level2();
+    static ::Mono::Globalization::Unicode::CodePointIndexer* _get_Level2();
     // Set static field: static public readonly Mono.Globalization.Unicode.CodePointIndexer Level2
-    static void _set_Level2(Mono::Globalization::Unicode::CodePointIndexer* value);
+    static void _set_Level2(::Mono::Globalization::Unicode::CodePointIndexer* value);
     // Get static field: static public readonly Mono.Globalization.Unicode.CodePointIndexer Level3
-    static Mono::Globalization::Unicode::CodePointIndexer* _get_Level3();
+    static ::Mono::Globalization::Unicode::CodePointIndexer* _get_Level3();
     // Set static field: static public readonly Mono.Globalization.Unicode.CodePointIndexer Level3
-    static void _set_Level3(Mono::Globalization::Unicode::CodePointIndexer* value);
+    static void _set_Level3(::Mono::Globalization::Unicode::CodePointIndexer* value);
     // Get static field: static public readonly Mono.Globalization.Unicode.CodePointIndexer CjkCHS
-    static Mono::Globalization::Unicode::CodePointIndexer* _get_CjkCHS();
+    static ::Mono::Globalization::Unicode::CodePointIndexer* _get_CjkCHS();
     // Set static field: static public readonly Mono.Globalization.Unicode.CodePointIndexer CjkCHS
-    static void _set_CjkCHS(Mono::Globalization::Unicode::CodePointIndexer* value);
+    static void _set_CjkCHS(::Mono::Globalization::Unicode::CodePointIndexer* value);
     // Get static field: static public readonly Mono.Globalization.Unicode.CodePointIndexer Cjk
-    static Mono::Globalization::Unicode::CodePointIndexer* _get_Cjk();
+    static ::Mono::Globalization::Unicode::CodePointIndexer* _get_Cjk();
     // Set static field: static public readonly Mono.Globalization.Unicode.CodePointIndexer Cjk
-    static void _set_Cjk(Mono::Globalization::Unicode::CodePointIndexer* value);
+    static void _set_Cjk(::Mono::Globalization::Unicode::CodePointIndexer* value);
     // static private System.Void .cctor()
     // Offset: 0x1E68C0C
     static void _cctor();

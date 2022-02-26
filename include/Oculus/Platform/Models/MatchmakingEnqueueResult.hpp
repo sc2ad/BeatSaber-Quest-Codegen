@@ -26,8 +26,8 @@ namespace Oculus::Platform::Models {
   class MatchmakingEnqueueResult;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::MatchmakingEnqueueResult);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::MatchmakingEnqueueResult*, "Oculus.Platform.Models", "MatchmakingEnqueueResult");
+NEED_NO_BOX(::Oculus::Platform::Models::MatchmakingEnqueueResult);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::MatchmakingEnqueueResult*, "Oculus.Platform.Models", "MatchmakingEnqueueResult");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x48
@@ -48,16 +48,16 @@ namespace Oculus::Platform::Models {
     // public readonly Oculus.Platform.Models.MatchmakingAdminSnapshot AdminSnapshotOptional
     // Size: 0x8
     // Offset: 0x10
-    Oculus::Platform::Models::MatchmakingAdminSnapshot* AdminSnapshotOptional;
+    ::Oculus::Platform::Models::MatchmakingAdminSnapshot* AdminSnapshotOptional;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::Models::MatchmakingAdminSnapshot*) == 0x8);
+    static_assert(sizeof(::Oculus::Platform::Models::MatchmakingAdminSnapshot*) == 0x8);
     // [ObsoleteAttribute] Offset: 0x12325F0
     // public readonly Oculus.Platform.Models.MatchmakingAdminSnapshot AdminSnapshot
     // Size: 0x8
     // Offset: 0x18
-    Oculus::Platform::Models::MatchmakingAdminSnapshot* AdminSnapshot;
+    ::Oculus::Platform::Models::MatchmakingAdminSnapshot* AdminSnapshot;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::Models::MatchmakingAdminSnapshot*) == 0x8);
+    static_assert(sizeof(::Oculus::Platform::Models::MatchmakingAdminSnapshot*) == 0x8);
     // public readonly System.UInt32 AverageWait
     // Size: 0x4
     // Offset: 0x20
@@ -100,9 +100,9 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public readonly Oculus.Platform.Models.MatchmakingAdminSnapshot AdminSnapshotOptional
-    Oculus::Platform::Models::MatchmakingAdminSnapshot*& dyn_AdminSnapshotOptional();
+    ::Oculus::Platform::Models::MatchmakingAdminSnapshot*& dyn_AdminSnapshotOptional();
     // Get instance field reference: public readonly Oculus.Platform.Models.MatchmakingAdminSnapshot AdminSnapshot
-    Oculus::Platform::Models::MatchmakingAdminSnapshot*& dyn_AdminSnapshot();
+    ::Oculus::Platform::Models::MatchmakingAdminSnapshot*& dyn_AdminSnapshot();
     // Get instance field reference: public readonly System.UInt32 AverageWait
     uint& dyn_AverageWait();
     // Get instance field reference: public readonly System.UInt32 MatchesInLastHourCount
@@ -118,8 +118,8 @@ namespace Oculus::Platform::Models {
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x1968730
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MatchmakingEnqueueResult* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::MatchmakingEnqueueResult::.ctor");
+    static MatchmakingEnqueueResult* New_ctor(::System::IntPtr o) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::MatchmakingEnqueueResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MatchmakingEnqueueResult*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.MatchmakingEnqueueResult

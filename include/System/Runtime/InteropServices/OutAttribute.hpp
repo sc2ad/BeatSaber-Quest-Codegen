@@ -18,8 +18,8 @@ namespace System::Runtime::InteropServices {
   class OutAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::InteropServices::OutAttribute);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::OutAttribute*, "System.Runtime.InteropServices", "OutAttribute");
+NEED_NO_BOX(::System::Runtime::InteropServices::OutAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::InteropServices::OutAttribute*, "System.Runtime.InteropServices", "OutAttribute");
 // Type namespace: System.Runtime.InteropServices
 namespace System::Runtime::InteropServices {
   // Size: 0x10
@@ -28,7 +28,7 @@ namespace System::Runtime::InteropServices {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: 118B940
   // [AttributeUsageAttribute] Offset: 118B940
-  class OutAttribute : public System::Attribute {
+  class OutAttribute : public ::System::Attribute {
     public:
     // public System.Void .ctor()
     // Offset: 0x1C5F518
@@ -37,7 +37,7 @@ namespace System::Runtime::InteropServices {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OutAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::OutAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::InteropServices::OutAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OutAttribute*, creationType>()));
     }
   }; // System.Runtime.InteropServices.OutAttribute

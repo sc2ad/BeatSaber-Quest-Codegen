@@ -13,8 +13,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PromoViewController::$$c__DisplayClass5_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PromoViewController::$$c__DisplayClass5_0*, "", "PromoViewController/<>c__DisplayClass5_0");
+NEED_NO_BOX(::GlobalNamespace::PromoViewController::$$c__DisplayClass5_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PromoViewController::$$c__DisplayClass5_0*, "", "PromoViewController/<>c__DisplayClass5_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -36,20 +36,20 @@ namespace GlobalNamespace {
     // public PromoViewController/ButtonPromoTypePair item
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::PromoViewController::ButtonPromoTypePair* item;
+    ::GlobalNamespace::PromoViewController::ButtonPromoTypePair* item;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::PromoViewController::ButtonPromoTypePair*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::PromoViewController::ButtonPromoTypePair*) == 0x8);
     // public PromoViewController <>4__this
     // Size: 0x8
     // Offset: 0x18
-    GlobalNamespace::PromoViewController* $$4__this;
+    ::GlobalNamespace::PromoViewController* $$4__this;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::PromoViewController*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::PromoViewController*) == 0x8);
     public:
     // Get instance field reference: public PromoViewController/ButtonPromoTypePair item
-    GlobalNamespace::PromoViewController::ButtonPromoTypePair*& dyn_item();
+    ::GlobalNamespace::PromoViewController::ButtonPromoTypePair*& dyn_item();
     // Get instance field reference: public PromoViewController <>4__this
-    GlobalNamespace::PromoViewController*& dyn_$$4__this();
+    ::GlobalNamespace::PromoViewController*& dyn_$$4__this();
     // System.Void <DidActivate>b__0()
     // Offset: 0x13EAE44
     void $DidActivate$b__0();
@@ -59,12 +59,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PromoViewController::$$c__DisplayClass5_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PromoViewController::$$c__DisplayClass5_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PromoViewController::$$c__DisplayClass5_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PromoViewController::$$c__DisplayClass5_0*, creationType>()));
     }
   }; // PromoViewController/<>c__DisplayClass5_0
   #pragma pack(pop)
-  static check_size<sizeof(PromoViewController::$$c__DisplayClass5_0), 24 + sizeof(GlobalNamespace::PromoViewController*)> __GlobalNamespace_PromoViewController_$$c__DisplayClass5_0SizeCheck;
+  static check_size<sizeof(PromoViewController::$$c__DisplayClass5_0), 24 + sizeof(::GlobalNamespace::PromoViewController*)> __GlobalNamespace_PromoViewController_$$c__DisplayClass5_0SizeCheck;
   static_assert(sizeof(PromoViewController::$$c__DisplayClass5_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

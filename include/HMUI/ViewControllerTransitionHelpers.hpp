@@ -36,8 +36,8 @@ namespace HMUI {
   class ViewControllerTransitionHelpers;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HMUI::ViewControllerTransitionHelpers);
-DEFINE_IL2CPP_ARG_TYPE(HMUI::ViewControllerTransitionHelpers*, "HMUI", "ViewControllerTransitionHelpers");
+NEED_NO_BOX(::HMUI::ViewControllerTransitionHelpers);
+DEFINE_IL2CPP_ARG_TYPE(::HMUI::ViewControllerTransitionHelpers*, "HMUI", "ViewControllerTransitionHelpers");
 // Type namespace: HMUI
 namespace HMUI {
   // Size: 0x10
@@ -46,19 +46,19 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class ViewControllerTransitionHelpers : public ::Il2CppObject {
     public:
-    // Nested type: HMUI::ViewControllerTransitionHelpers::$DoPresentTransition$d__3
+    // Nested type: ::HMUI::ViewControllerTransitionHelpers::$DoPresentTransition$d__3
     class $DoPresentTransition$d__3;
-    // Nested type: HMUI::ViewControllerTransitionHelpers::$DoDismissTransition$d__4
+    // Nested type: ::HMUI::ViewControllerTransitionHelpers::$DoDismissTransition$d__4
     class $DoDismissTransition$d__4;
-    // Nested type: HMUI::ViewControllerTransitionHelpers::$$c__DisplayClass5_0
+    // Nested type: ::HMUI::ViewControllerTransitionHelpers::$$c__DisplayClass5_0
     class $$c__DisplayClass5_0;
-    // Nested type: HMUI::ViewControllerTransitionHelpers::$DoHorizontalTransition$d__5
+    // Nested type: ::HMUI::ViewControllerTransitionHelpers::$DoHorizontalTransition$d__5
     class $DoHorizontalTransition$d__5;
-    // Nested type: HMUI::ViewControllerTransitionHelpers::$$c__DisplayClass6_0
+    // Nested type: ::HMUI::ViewControllerTransitionHelpers::$$c__DisplayClass6_0
     class $$c__DisplayClass6_0;
-    // Nested type: HMUI::ViewControllerTransitionHelpers::$DoVerticalTransition$d__6
+    // Nested type: ::HMUI::ViewControllerTransitionHelpers::$DoVerticalTransition$d__6
     class $DoVerticalTransition$d__6;
-    // Nested type: HMUI::ViewControllerTransitionHelpers::$AnimationCoroutine$d__8
+    // Nested type: ::HMUI::ViewControllerTransitionHelpers::$AnimationCoroutine$d__8
     class $AnimationCoroutine$d__8;
     // static field const value: static private System.Single kTransitionDuration
     static constexpr const float kTransitionDuration = 0.4;
@@ -80,29 +80,29 @@ namespace HMUI {
     static void _set_kVerticalTransitionMoveOffset(float value);
     // static public System.Collections.IEnumerator DoPresentTransition(HMUI.ViewController toPresentViewController, HMUI.ViewController toDismissViewController, HMUI.ViewController/HMUI.AnimationDirection animationDirection, System.Single moveOffsetMultiplier)
     // Offset: 0x29CCC38
-    static System::Collections::IEnumerator* DoPresentTransition(HMUI::ViewController* toPresentViewController, HMUI::ViewController* toDismissViewController, HMUI::ViewController::AnimationDirection animationDirection, float moveOffsetMultiplier);
+    static ::System::Collections::IEnumerator* DoPresentTransition(::HMUI::ViewController* toPresentViewController, ::HMUI::ViewController* toDismissViewController, ::HMUI::ViewController::AnimationDirection animationDirection, float moveOffsetMultiplier);
     // static public System.Collections.IEnumerator DoDismissTransition(HMUI.ViewController toPresentViewController, HMUI.ViewController toDismissViewController, HMUI.ViewController/HMUI.AnimationDirection animationDirection, System.Single moveOffsetMultiplier)
     // Offset: 0x29CC814
-    static System::Collections::IEnumerator* DoDismissTransition(HMUI::ViewController* toPresentViewController, HMUI::ViewController* toDismissViewController, HMUI::ViewController::AnimationDirection animationDirection, float moveOffsetMultiplier);
+    static ::System::Collections::IEnumerator* DoDismissTransition(::HMUI::ViewController* toPresentViewController, ::HMUI::ViewController* toDismissViewController, ::HMUI::ViewController::AnimationDirection animationDirection, float moveOffsetMultiplier);
     // static private System.Collections.IEnumerator DoHorizontalTransition(HMUI.ViewController toPresentViewController, HMUI.ViewController toDismissViewController, System.Single moveOffsetMultiplier)
     // Offset: 0x29CD21C
-    static System::Collections::IEnumerator* DoHorizontalTransition(HMUI::ViewController* toPresentViewController, HMUI::ViewController* toDismissViewController, float moveOffsetMultiplier);
+    static ::System::Collections::IEnumerator* DoHorizontalTransition(::HMUI::ViewController* toPresentViewController, ::HMUI::ViewController* toDismissViewController, float moveOffsetMultiplier);
     // static private System.Collections.IEnumerator DoVerticalTransition(HMUI.ViewController toPresentViewController, HMUI.ViewController toDismissViewController, System.Single moveOffsetMultiplier)
     // Offset: 0x29CD2D4
-    static System::Collections::IEnumerator* DoVerticalTransition(HMUI::ViewController* toPresentViewController, HMUI::ViewController* toDismissViewController, float moveOffsetMultiplier);
+    static ::System::Collections::IEnumerator* DoVerticalTransition(::HMUI::ViewController* toPresentViewController, ::HMUI::ViewController* toDismissViewController, float moveOffsetMultiplier);
     // static public System.Void ImmediateTransition(HMUI.ViewController toPresentViewController, HMUI.ViewController toDismissViewController)
     // Offset: 0x29CC8A8
-    static void ImmediateTransition(HMUI::ViewController* toPresentViewController, HMUI::ViewController* toDismissViewController);
+    static void ImmediateTransition(::HMUI::ViewController* toPresentViewController, ::HMUI::ViewController* toDismissViewController);
     // static private System.Collections.IEnumerator AnimationCoroutine(System.Action`1<System.Single> transitionAnimation)
     // Offset: 0x29CD38C
-    static System::Collections::IEnumerator* AnimationCoroutine(System::Action_1<float>* transitionAnimation);
+    static ::System::Collections::IEnumerator* AnimationCoroutine(::System::Action_1<float>* transitionAnimation);
     // public System.Void .ctor()
     // Offset: 0x29CD428
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ViewControllerTransitionHelpers* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::ViewControllerTransitionHelpers::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ViewControllerTransitionHelpers::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ViewControllerTransitionHelpers*, creationType>()));
     }
   }; // HMUI.ViewControllerTransitionHelpers
@@ -112,7 +112,7 @@ namespace HMUI {
 // Writing MetadataGetter for method: HMUI::ViewControllerTransitionHelpers::DoPresentTransition
 // Il2CppName: DoPresentTransition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (*)(HMUI::ViewController*, HMUI::ViewController*, HMUI::ViewController::AnimationDirection, float)>(&HMUI::ViewControllerTransitionHelpers::DoPresentTransition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (*)(::HMUI::ViewController*, ::HMUI::ViewController*, ::HMUI::ViewController::AnimationDirection, float)>(&HMUI::ViewControllerTransitionHelpers::DoPresentTransition)> {
   static const MethodInfo* get() {
     static auto* toPresentViewController = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController")->byval_arg;
     static auto* toDismissViewController = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController")->byval_arg;
@@ -124,7 +124,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: HMUI::ViewControllerTransitionHelpers::DoDismissTransition
 // Il2CppName: DoDismissTransition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (*)(HMUI::ViewController*, HMUI::ViewController*, HMUI::ViewController::AnimationDirection, float)>(&HMUI::ViewControllerTransitionHelpers::DoDismissTransition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (*)(::HMUI::ViewController*, ::HMUI::ViewController*, ::HMUI::ViewController::AnimationDirection, float)>(&HMUI::ViewControllerTransitionHelpers::DoDismissTransition)> {
   static const MethodInfo* get() {
     static auto* toPresentViewController = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController")->byval_arg;
     static auto* toDismissViewController = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController")->byval_arg;
@@ -136,7 +136,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: HMUI::ViewControllerTransitionHelpers::DoHorizontalTransition
 // Il2CppName: DoHorizontalTransition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (*)(HMUI::ViewController*, HMUI::ViewController*, float)>(&HMUI::ViewControllerTransitionHelpers::DoHorizontalTransition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (*)(::HMUI::ViewController*, ::HMUI::ViewController*, float)>(&HMUI::ViewControllerTransitionHelpers::DoHorizontalTransition)> {
   static const MethodInfo* get() {
     static auto* toPresentViewController = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController")->byval_arg;
     static auto* toDismissViewController = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController")->byval_arg;
@@ -147,7 +147,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: HMUI::ViewControllerTransitionHelpers::DoVerticalTransition
 // Il2CppName: DoVerticalTransition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (*)(HMUI::ViewController*, HMUI::ViewController*, float)>(&HMUI::ViewControllerTransitionHelpers::DoVerticalTransition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (*)(::HMUI::ViewController*, ::HMUI::ViewController*, float)>(&HMUI::ViewControllerTransitionHelpers::DoVerticalTransition)> {
   static const MethodInfo* get() {
     static auto* toPresentViewController = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController")->byval_arg;
     static auto* toDismissViewController = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController")->byval_arg;
@@ -158,7 +158,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: HMUI::ViewControllerTransitionHelpers::ImmediateTransition
 // Il2CppName: ImmediateTransition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HMUI::ViewController*, HMUI::ViewController*)>(&HMUI::ViewControllerTransitionHelpers::ImmediateTransition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HMUI::ViewController*, ::HMUI::ViewController*)>(&HMUI::ViewControllerTransitionHelpers::ImmediateTransition)> {
   static const MethodInfo* get() {
     static auto* toPresentViewController = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController")->byval_arg;
     static auto* toDismissViewController = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController")->byval_arg;
@@ -168,7 +168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HM
 // Writing MetadataGetter for method: HMUI::ViewControllerTransitionHelpers::AnimationCoroutine
 // Il2CppName: AnimationCoroutine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (*)(System::Action_1<float>*)>(&HMUI::ViewControllerTransitionHelpers::AnimationCoroutine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (*)(::System::Action_1<float>*)>(&HMUI::ViewControllerTransitionHelpers::AnimationCoroutine)> {
   static const MethodInfo* get() {
     static auto* transitionAnimation = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::ViewControllerTransitionHelpers*), "AnimationCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{transitionAnimation});

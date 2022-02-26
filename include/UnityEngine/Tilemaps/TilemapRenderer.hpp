@@ -21,8 +21,8 @@ namespace UnityEngine::Tilemaps {
   class TilemapRenderer;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Tilemaps::TilemapRenderer);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Tilemaps::TilemapRenderer*, "UnityEngine.Tilemaps", "TilemapRenderer");
+NEED_NO_BOX(::UnityEngine::Tilemaps::TilemapRenderer);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Tilemaps::TilemapRenderer*, "UnityEngine.Tilemaps", "TilemapRenderer");
 // Type namespace: UnityEngine.Tilemaps
 namespace UnityEngine::Tilemaps {
   // Size: 0x18
@@ -34,7 +34,7 @@ namespace UnityEngine::Tilemaps {
   // [NativeHeaderAttribute] Offset: 121AA30
   // [NativeTypeAttribute] Offset: 121AA30
   // [RequireComponent] Offset: 121AA30
-  class TilemapRenderer : public UnityEngine::Renderer {
+  class TilemapRenderer : public ::UnityEngine::Renderer {
     public:
     // System.Void RegisterSpriteAtlasRegistered()
     // Offset: 0x2A5AD98
@@ -44,7 +44,7 @@ namespace UnityEngine::Tilemaps {
     void UnregisterSpriteAtlasRegistered();
     // System.Void OnSpriteAtlasRegistered(UnityEngine.U2D.SpriteAtlas atlas)
     // Offset: 0x2A5AED0
-    void OnSpriteAtlasRegistered(UnityEngine::U2D::SpriteAtlas* atlas);
+    void OnSpriteAtlasRegistered(::UnityEngine::U2D::SpriteAtlas* atlas);
   }; // UnityEngine.Tilemaps.TilemapRenderer
   #pragma pack(pop)
 }
@@ -68,7 +68,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Tilemaps::TilemapRenderer::OnSpriteAtlasRegistered
 // Il2CppName: OnSpriteAtlasRegistered
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Tilemaps::TilemapRenderer::*)(UnityEngine::U2D::SpriteAtlas*)>(&UnityEngine::Tilemaps::TilemapRenderer::OnSpriteAtlasRegistered)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Tilemaps::TilemapRenderer::*)(::UnityEngine::U2D::SpriteAtlas*)>(&UnityEngine::Tilemaps::TilemapRenderer::OnSpriteAtlasRegistered)> {
   static const MethodInfo* get() {
     static auto* atlas = &::il2cpp_utils::GetClassFromName("UnityEngine.U2D", "SpriteAtlas")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Tilemaps::TilemapRenderer*), "OnSpriteAtlasRegistered", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{atlas});

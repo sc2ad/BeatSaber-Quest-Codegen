@@ -25,8 +25,8 @@ namespace UnityEngine {
   class ScriptableObject;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ScriptableObject);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ScriptableObject*, "UnityEngine", "ScriptableObject");
+NEED_NO_BOX(::UnityEngine::ScriptableObject);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ScriptableObject*, "UnityEngine", "ScriptableObject");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -38,27 +38,27 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: 11A6080
   // [NativeClassAttribute] Offset: 11A6080
   // [ExtensionOfNativeClassAttribute] Offset: FFFFFFFF
-  class ScriptableObject : public UnityEngine::Object {
+  class ScriptableObject : public ::UnityEngine::Object {
     public:
     // static public UnityEngine.ScriptableObject CreateInstance(System.Type type)
     // Offset: 0x20D5180
-    static UnityEngine::ScriptableObject* CreateInstance(System::Type* type);
+    static ::UnityEngine::ScriptableObject* CreateInstance(::System::Type* type);
     // static public T CreateInstance()
     // Offset: 0xFFFFFFFF
     template<class T>
     static T CreateInstance() {
-      static_assert(std::is_convertible_v<T, UnityEngine::ScriptableObject*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ScriptableObject::CreateInstance");
+      static_assert(std::is_convertible_v<T, ::UnityEngine::ScriptableObject*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ScriptableObject::CreateInstance");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine", "ScriptableObject", "CreateInstance", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
     }
     // static private System.Void CreateScriptableObject(UnityEngine.ScriptableObject self)
     // Offset: 0x20D5140
-    static void CreateScriptableObject(UnityEngine::ScriptableObject* self);
+    static void CreateScriptableObject(::UnityEngine::ScriptableObject* self);
     // static UnityEngine.ScriptableObject CreateScriptableObjectInstanceFromType(System.Type type, System.Boolean applyDefaultsAndReset)
     // Offset: 0x20D51C4
-    static UnityEngine::ScriptableObject* CreateScriptableObjectInstanceFromType(System::Type* type, bool applyDefaultsAndReset);
+    static ::UnityEngine::ScriptableObject* CreateScriptableObjectInstanceFromType(::System::Type* type, bool applyDefaultsAndReset);
     // public System.Void .ctor()
     // Offset: 0x20D0A98
     // Implemented from: UnityEngine.Object
@@ -66,7 +66,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScriptableObject* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ScriptableObject::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ScriptableObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScriptableObject*, creationType>()));
     }
   }; // UnityEngine.ScriptableObject
@@ -76,7 +76,7 @@ namespace UnityEngine {
 // Writing MetadataGetter for method: UnityEngine::ScriptableObject::CreateInstance
 // Il2CppName: CreateInstance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ScriptableObject* (*)(System::Type*)>(&UnityEngine::ScriptableObject::CreateInstance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ScriptableObject* (*)(::System::Type*)>(&UnityEngine::ScriptableObject::CreateInstance)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ScriptableObject*), "CreateInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -88,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ScriptableObject::CreateScriptableObject
 // Il2CppName: CreateScriptableObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ScriptableObject*)>(&UnityEngine::ScriptableObject::CreateScriptableObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::ScriptableObject*)>(&UnityEngine::ScriptableObject::CreateScriptableObject)> {
   static const MethodInfo* get() {
     static auto* self = &::il2cpp_utils::GetClassFromName("UnityEngine", "ScriptableObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ScriptableObject*), "CreateScriptableObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{self});
@@ -97,7 +97,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::ScriptableObject::CreateScriptableObjectInstanceFromType
 // Il2CppName: CreateScriptableObjectInstanceFromType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ScriptableObject* (*)(System::Type*, bool)>(&UnityEngine::ScriptableObject::CreateScriptableObjectInstanceFromType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ScriptableObject* (*)(::System::Type*, bool)>(&UnityEngine::ScriptableObject::CreateScriptableObjectInstanceFromType)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* applyDefaultsAndReset = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

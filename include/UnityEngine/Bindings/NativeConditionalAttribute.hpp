@@ -19,8 +19,8 @@ namespace UnityEngine::Bindings {
   class NativeConditionalAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Bindings::NativeConditionalAttribute);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativeConditionalAttribute*, "UnityEngine.Bindings", "NativeConditionalAttribute");
+NEED_NO_BOX(::UnityEngine::Bindings::NativeConditionalAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Bindings::NativeConditionalAttribute*, "UnityEngine.Bindings", "NativeConditionalAttribute");
 // Type namespace: UnityEngine.Bindings
 namespace UnityEngine::Bindings {
   // Size: 0x19
@@ -29,7 +29,7 @@ namespace UnityEngine::Bindings {
   // [TokenAttribute] Offset: FFFFFFFF
   // [VisibleToOtherModulesAttribute] Offset: FFFFFFFF
   // [AttributeUsageAttribute] Offset: 11A10E8
-  class NativeConditionalAttribute : public System::Attribute {
+  class NativeConditionalAttribute : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -69,7 +69,7 @@ namespace UnityEngine::Bindings {
     // Offset: 0x2A56F74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NativeConditionalAttribute* New_ctor(::StringW condition) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::NativeConditionalAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Bindings::NativeConditionalAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativeConditionalAttribute*, creationType>(condition)));
     }
   }; // UnityEngine.Bindings.NativeConditionalAttribute

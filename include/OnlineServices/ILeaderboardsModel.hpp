@@ -42,8 +42,8 @@ namespace OnlineServices {
   class ILeaderboardsModel;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(OnlineServices::ILeaderboardsModel);
-DEFINE_IL2CPP_ARG_TYPE(OnlineServices::ILeaderboardsModel*, "OnlineServices", "ILeaderboardsModel");
+NEED_NO_BOX(::OnlineServices::ILeaderboardsModel);
+DEFINE_IL2CPP_ARG_TYPE(::OnlineServices::ILeaderboardsModel*, "OnlineServices", "ILeaderboardsModel");
 // Type namespace: OnlineServices
 namespace OnlineServices {
   // Size: 0x10
@@ -54,13 +54,13 @@ namespace OnlineServices {
     public:
     // public System.String GetLeaderboardId(IDifficultyBeatmap difficultyBeatmap)
     // Offset: 0xFFFFFFFF
-    ::StringW GetLeaderboardId(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
+    ::StringW GetLeaderboardId(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public System.Threading.Tasks.Task`1<OnlineServices.GetLeaderboardEntriesResult> GetLeaderboardEntriesAsync(OnlineServices.GetLeaderboardFilterData leaderboardFilterData, System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF
-    System::Threading::Tasks::Task_1<OnlineServices::GetLeaderboardEntriesResult>* GetLeaderboardEntriesAsync(OnlineServices::GetLeaderboardFilterData leaderboardFilterData, System::Threading::CancellationToken cancellationToken);
+    ::System::Threading::Tasks::Task_1<::OnlineServices::GetLeaderboardEntriesResult>* GetLeaderboardEntriesAsync(::OnlineServices::GetLeaderboardFilterData leaderboardFilterData, ::System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<OnlineServices.SendLeaderboardEntryResult> SendLevelScoreResultAsync(OnlineServices.LevelScoreResultsData levelScoreResultsData, System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF
-    System::Threading::Tasks::Task_1<OnlineServices::SendLeaderboardEntryResult>* SendLevelScoreResultAsync(OnlineServices::LevelScoreResultsData levelScoreResultsData, System::Threading::CancellationToken cancellationToken);
+    ::System::Threading::Tasks::Task_1<::OnlineServices::SendLeaderboardEntryResult>* SendLevelScoreResultAsync(::OnlineServices::LevelScoreResultsData levelScoreResultsData, ::System::Threading::CancellationToken cancellationToken);
   }; // OnlineServices.ILeaderboardsModel
   #pragma pack(pop)
 }
@@ -68,7 +68,7 @@ namespace OnlineServices {
 // Writing MetadataGetter for method: OnlineServices::ILeaderboardsModel::GetLeaderboardId
 // Il2CppName: GetLeaderboardId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (OnlineServices::ILeaderboardsModel::*)(GlobalNamespace::IDifficultyBeatmap*)>(&OnlineServices::ILeaderboardsModel::GetLeaderboardId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (OnlineServices::ILeaderboardsModel::*)(::GlobalNamespace::IDifficultyBeatmap*)>(&OnlineServices::ILeaderboardsModel::GetLeaderboardId)> {
   static const MethodInfo* get() {
     static auto* difficultyBeatmap = &::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmap")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::ILeaderboardsModel*), "GetLeaderboardId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{difficultyBeatmap});
@@ -77,7 +77,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: OnlineServices::ILeaderboardsModel::GetLeaderboardEntriesAsync
 // Il2CppName: GetLeaderboardEntriesAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<OnlineServices::GetLeaderboardEntriesResult>* (OnlineServices::ILeaderboardsModel::*)(OnlineServices::GetLeaderboardFilterData, System::Threading::CancellationToken)>(&OnlineServices::ILeaderboardsModel::GetLeaderboardEntriesAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::OnlineServices::GetLeaderboardEntriesResult>* (OnlineServices::ILeaderboardsModel::*)(::OnlineServices::GetLeaderboardFilterData, ::System::Threading::CancellationToken)>(&OnlineServices::ILeaderboardsModel::GetLeaderboardEntriesAsync)> {
   static const MethodInfo* get() {
     static auto* leaderboardFilterData = &::il2cpp_utils::GetClassFromName("OnlineServices", "GetLeaderboardFilterData")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
@@ -87,7 +87,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: OnlineServices::ILeaderboardsModel::SendLevelScoreResultAsync
 // Il2CppName: SendLevelScoreResultAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<OnlineServices::SendLeaderboardEntryResult>* (OnlineServices::ILeaderboardsModel::*)(OnlineServices::LevelScoreResultsData, System::Threading::CancellationToken)>(&OnlineServices::ILeaderboardsModel::SendLevelScoreResultAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::OnlineServices::SendLeaderboardEntryResult>* (OnlineServices::ILeaderboardsModel::*)(::OnlineServices::LevelScoreResultsData, ::System::Threading::CancellationToken)>(&OnlineServices::ILeaderboardsModel::SendLevelScoreResultAsync)> {
   static const MethodInfo* get() {
     static auto* levelScoreResultsData = &::il2cpp_utils::GetClassFromName("OnlineServices", "LevelScoreResultsData")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;

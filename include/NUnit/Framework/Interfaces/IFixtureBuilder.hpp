@@ -29,8 +29,8 @@ namespace NUnit::Framework::Interfaces {
   class IFixtureBuilder;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Interfaces::IFixtureBuilder);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::IFixtureBuilder*, "NUnit.Framework.Interfaces", "IFixtureBuilder");
+NEED_NO_BOX(::NUnit::Framework::Interfaces::IFixtureBuilder);
+DEFINE_IL2CPP_ARG_TYPE(::NUnit::Framework::Interfaces::IFixtureBuilder*, "NUnit.Framework.Interfaces", "IFixtureBuilder");
 // Type namespace: NUnit.Framework.Interfaces
 namespace NUnit::Framework::Interfaces {
   // Size: 0x10
@@ -41,7 +41,7 @@ namespace NUnit::Framework::Interfaces {
     public:
     // public System.Collections.Generic.IEnumerable`1<NUnit.Framework.Internal.TestSuite> BuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
     // Offset: 0xFFFFFFFF
-    System::Collections::Generic::IEnumerable_1<NUnit::Framework::Internal::TestSuite*>* BuildFrom(NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
+    ::System::Collections::Generic::IEnumerable_1<::NUnit::Framework::Internal::TestSuite*>* BuildFrom(::NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
   }; // NUnit.Framework.Interfaces.IFixtureBuilder
   #pragma pack(pop)
 }
@@ -49,7 +49,7 @@ namespace NUnit::Framework::Interfaces {
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::IFixtureBuilder::BuildFrom
 // Il2CppName: BuildFrom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<NUnit::Framework::Internal::TestSuite*>* (NUnit::Framework::Interfaces::IFixtureBuilder::*)(NUnit::Framework::Interfaces::ITypeInfo*)>(&NUnit::Framework::Interfaces::IFixtureBuilder::BuildFrom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::NUnit::Framework::Internal::TestSuite*>* (NUnit::Framework::Interfaces::IFixtureBuilder::*)(::NUnit::Framework::Interfaces::ITypeInfo*)>(&NUnit::Framework::Interfaces::IFixtureBuilder::BuildFrom)> {
   static const MethodInfo* get() {
     static auto* typeInfo = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ITypeInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::IFixtureBuilder*), "BuildFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{typeInfo});

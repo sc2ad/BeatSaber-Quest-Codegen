@@ -18,8 +18,8 @@ namespace System::Security {
   class ISecurityEncodable;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Security::ISecurityEncodable);
-DEFINE_IL2CPP_ARG_TYPE(System::Security::ISecurityEncodable*, "System.Security", "ISecurityEncodable");
+NEED_NO_BOX(::System::Security::ISecurityEncodable);
+DEFINE_IL2CPP_ARG_TYPE(::System::Security::ISecurityEncodable*, "System.Security", "ISecurityEncodable");
 // Type namespace: System.Security
 namespace System::Security {
   // Size: 0x10
@@ -31,7 +31,7 @@ namespace System::Security {
     public:
     // public System.Security.SecurityElement ToXml()
     // Offset: 0xFFFFFFFF
-    System::Security::SecurityElement* ToXml();
+    ::System::Security::SecurityElement* ToXml();
   }; // System.Security.ISecurityEncodable
   #pragma pack(pop)
 }
@@ -39,7 +39,7 @@ namespace System::Security {
 // Writing MetadataGetter for method: System::Security::ISecurityEncodable::ToXml
 // Il2CppName: ToXml
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::SecurityElement* (System::Security::ISecurityEncodable::*)()>(&System::Security::ISecurityEncodable::ToXml)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::SecurityElement* (System::Security::ISecurityEncodable::*)()>(&System::Security::ISecurityEncodable::ToXml)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::ISecurityEncodable*), "ToXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -26,7 +26,7 @@ namespace System::Collections::Generic {
   class IEnumerable_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Collections::Generic::IEnumerable_1, "System.Collections.Generic", "IEnumerable`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Collections::Generic::IEnumerable_1, "System.Collections.Generic", "IEnumerable`1");
 // Type namespace: System.Collections.Generic
 namespace System::Collections::Generic {
   // WARNING Size may be invalid!
@@ -34,18 +34,18 @@ namespace System::Collections::Generic {
   // [TokenAttribute] Offset: FFFFFFFF
   // [TypeDependencyAttribute] Offset: 118D344
   template<typename T>
-  class IEnumerable_1/*, public System::Collections::IEnumerable*/ {
+  class IEnumerable_1/*, public ::System::Collections::IEnumerable*/ {
     public:
-    // Creating interface conversion operator: operator System::Collections::IEnumerable
-    operator System::Collections::IEnumerable() noexcept {
-      return *reinterpret_cast<System::Collections::IEnumerable*>(this);
+    // Creating interface conversion operator: operator ::System::Collections::IEnumerable
+    operator ::System::Collections::IEnumerable() noexcept {
+      return *reinterpret_cast<::System::Collections::IEnumerable*>(this);
     }
     // public System.Collections.Generic.IEnumerator`1<T> GetEnumerator()
     // Offset: 0xFFFFFFFF
-    System::Collections::Generic::IEnumerator_1<T>* GetEnumerator() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::IEnumerable_1::GetEnumerator");
+    ::System::Collections::Generic::IEnumerator_1<T>* GetEnumerator() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Collections::Generic::IEnumerable_1::GetEnumerator");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetEnumerator", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodRethrow<System::Collections::Generic::IEnumerator_1<T>*, false>(this, ___internal__method);
+      return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<T>*, false>(this, ___internal__method);
     }
   }; // System.Collections.Generic.IEnumerable`1
   // Could not write size check! Type: System.Collections.Generic.IEnumerable`1 is generic, or has no fields that are valid for size checks!

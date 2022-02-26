@@ -13,7 +13,7 @@ namespace UnityEngine {
   struct AnimatorTransitionInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimatorTransitionInfo, "UnityEngine", "AnimatorTransitionInfo");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AnimatorTransitionInfo, "UnityEngine", "AnimatorTransitionInfo");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x20
@@ -23,7 +23,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [RequiredByNativeCodeAttribute] Offset: 11BF494
   // [NativeHeaderAttribute] Offset: 11BF494
-  struct AnimatorTransitionInfo/*, public System::ValueType*/ {
+  struct AnimatorTransitionInfo/*, public ::System::ValueType*/ {
     public:
     public:
     // [NativeNameAttribute] Offset: 0x11C0604
@@ -89,9 +89,9 @@ namespace UnityEngine {
     public:
     // Creating value type constructor for type: AnimatorTransitionInfo
     constexpr AnimatorTransitionInfo(int m_FullPath_ = {}, int m_UserName_ = {}, int m_Name_ = {}, bool m_HasFixedDuration_ = {}, float m_Duration_ = {}, float m_NormalizedTime_ = {}, bool m_AnyState_ = {}, int m_TransitionType_ = {}) noexcept : m_FullPath{m_FullPath_}, m_UserName{m_UserName_}, m_Name{m_Name_}, m_HasFixedDuration{m_HasFixedDuration_}, m_Duration{m_Duration_}, m_NormalizedTime{m_NormalizedTime_}, m_AnyState{m_AnyState_}, m_TransitionType{m_TransitionType_} {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: private System.Int32 m_FullPath
     int& dyn_m_FullPath();

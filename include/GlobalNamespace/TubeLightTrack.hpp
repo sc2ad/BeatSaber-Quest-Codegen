@@ -18,8 +18,8 @@ namespace GlobalNamespace {
   class TubeLightTrack;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::TubeLightTrack);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TubeLightTrack*, "", "TubeLightTrack");
+NEED_NO_BOX(::GlobalNamespace::TubeLightTrack);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TubeLightTrack*, "", "TubeLightTrack");
 // Type namespace: 
 namespace GlobalNamespace {
   // WARNING Size may be invalid!
@@ -28,7 +28,7 @@ namespace GlobalNamespace {
   // [TrackClipTypeAttribute] Offset: 12384FC
   // [TrackBindingTypeAttribute] Offset: 12384FC
   // [TrackColorAttribute] Offset: 12384FC
-  class TubeLightTrack : public UnityEngine::Timeline::TrackAsset {
+  class TubeLightTrack : public ::UnityEngine::Timeline::TrackAsset {
     public:
     // public System.Void .ctor()
     // Offset: 0x2AEA128
@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TubeLightTrack* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TubeLightTrack::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TubeLightTrack::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TubeLightTrack*, creationType>()));
     }
   }; // TubeLightTrack

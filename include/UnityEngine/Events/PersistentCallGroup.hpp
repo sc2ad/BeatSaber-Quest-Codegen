@@ -33,8 +33,8 @@ namespace UnityEngine::Events {
   class PersistentCallGroup;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Events::PersistentCallGroup);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::PersistentCallGroup*, "UnityEngine.Events", "PersistentCallGroup");
+NEED_NO_BOX(::UnityEngine::Events::PersistentCallGroup);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Events::PersistentCallGroup*, "UnityEngine.Events", "PersistentCallGroup");
 // Type namespace: UnityEngine.Events
 namespace UnityEngine::Events {
   // Size: 0x18
@@ -56,34 +56,34 @@ namespace UnityEngine::Events {
     // private System.Collections.Generic.List`1<UnityEngine.Events.PersistentCall> m_Calls
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::List_1<UnityEngine::Events::PersistentCall*>* m_Calls;
+    ::System::Collections::Generic::List_1<::UnityEngine::Events::PersistentCall*>* m_Calls;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::Events::PersistentCall*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::UnityEngine::Events::PersistentCall*>*) == 0x8);
     public:
-    // Creating conversion operator: operator System::Collections::Generic::List_1<UnityEngine::Events::PersistentCall*>*
-    constexpr operator System::Collections::Generic::List_1<UnityEngine::Events::PersistentCall*>*() const noexcept {
+    // Creating conversion operator: operator ::System::Collections::Generic::List_1<::UnityEngine::Events::PersistentCall*>*
+    constexpr operator ::System::Collections::Generic::List_1<::UnityEngine::Events::PersistentCall*>*() const noexcept {
       return m_Calls;
     }
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.Events.PersistentCall> m_Calls
-    System::Collections::Generic::List_1<UnityEngine::Events::PersistentCall*>*& dyn_m_Calls();
+    ::System::Collections::Generic::List_1<::UnityEngine::Events::PersistentCall*>*& dyn_m_Calls();
     // public System.Int32 get_Count()
     // Offset: 0x1EB9B28
     int get_Count();
     // public System.Void Initialize(UnityEngine.Events.InvokableCallList invokableList, UnityEngine.Events.UnityEventBase unityEventBase)
     // Offset: 0x1EB9B78
-    void Initialize(UnityEngine::Events::InvokableCallList* invokableList, UnityEngine::Events::UnityEventBase* unityEventBase);
+    void Initialize(::UnityEngine::Events::InvokableCallList* invokableList, ::UnityEngine::Events::UnityEventBase* unityEventBase);
     // public System.Void .ctor()
     // Offset: 0x1EB9AB4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PersistentCallGroup* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::PersistentCallGroup::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Events::PersistentCallGroup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PersistentCallGroup*, creationType>()));
     }
   }; // UnityEngine.Events.PersistentCallGroup
   #pragma pack(pop)
-  static check_size<sizeof(PersistentCallGroup), 16 + sizeof(System::Collections::Generic::List_1<UnityEngine::Events::PersistentCall*>*)> __UnityEngine_Events_PersistentCallGroupSizeCheck;
+  static check_size<sizeof(PersistentCallGroup), 16 + sizeof(::System::Collections::Generic::List_1<::UnityEngine::Events::PersistentCall*>*)> __UnityEngine_Events_PersistentCallGroupSizeCheck;
   static_assert(sizeof(PersistentCallGroup) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -98,7 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::Events::PersistentCallGroup::Initialize
 // Il2CppName: Initialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::PersistentCallGroup::*)(UnityEngine::Events::InvokableCallList*, UnityEngine::Events::UnityEventBase*)>(&UnityEngine::Events::PersistentCallGroup::Initialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::PersistentCallGroup::*)(::UnityEngine::Events::InvokableCallList*, ::UnityEngine::Events::UnityEventBase*)>(&UnityEngine::Events::PersistentCallGroup::Initialize)> {
   static const MethodInfo* get() {
     static auto* invokableList = &::il2cpp_utils::GetClassFromName("UnityEngine.Events", "InvokableCallList")->byval_arg;
     static auto* unityEventBase = &::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityEventBase")->byval_arg;

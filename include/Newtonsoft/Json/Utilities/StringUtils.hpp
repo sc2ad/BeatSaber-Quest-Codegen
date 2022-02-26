@@ -43,8 +43,8 @@ namespace Newtonsoft::Json::Utilities {
   class StringUtils;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Utilities::StringUtils);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::StringUtils*, "Newtonsoft.Json.Utilities", "StringUtils");
+NEED_NO_BOX(::Newtonsoft::Json::Utilities::StringUtils);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::StringUtils*, "Newtonsoft.Json.Utilities", "StringUtils");
 // Type namespace: Newtonsoft.Json.Utilities
 namespace Newtonsoft::Json::Utilities {
   // Size: 0x10
@@ -56,7 +56,7 @@ namespace Newtonsoft::Json::Utilities {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class StringUtils : public ::Il2CppObject {
     public:
-    // Nested type: Newtonsoft::Json::Utilities::StringUtils::$$c__DisplayClass14_0_1<TSource>
+    // Nested type: ::Newtonsoft::Json::Utilities::StringUtils::$$c__DisplayClass14_0_1<TSource>
     template<typename TSource>
     class $$c__DisplayClass14_0_1;
     // static public System.Boolean IsNullOrEmpty(System.String value)
@@ -64,30 +64,30 @@ namespace Newtonsoft::Json::Utilities {
     static bool IsNullOrEmpty(::StringW value);
     // static public System.String FormatWith(System.String format, System.IFormatProvider provider, System.Object arg0)
     // Offset: 0x29F2448
-    static ::StringW FormatWith(::StringW format, System::IFormatProvider* provider, ::Il2CppObject* arg0);
+    static ::StringW FormatWith(::StringW format, ::System::IFormatProvider* provider, ::Il2CppObject* arg0);
     // static public System.String FormatWith(System.String format, System.IFormatProvider provider, System.Object arg0, System.Object arg1)
     // Offset: 0x29F3BC4
-    static ::StringW FormatWith(::StringW format, System::IFormatProvider* provider, ::Il2CppObject* arg0, ::Il2CppObject* arg1);
+    static ::StringW FormatWith(::StringW format, ::System::IFormatProvider* provider, ::Il2CppObject* arg0, ::Il2CppObject* arg1);
     // static public System.String FormatWith(System.String format, System.IFormatProvider provider, System.Object arg0, System.Object arg1, System.Object arg2)
     // Offset: 0x29F8AFC
-    static ::StringW FormatWith(::StringW format, System::IFormatProvider* provider, ::Il2CppObject* arg0, ::Il2CppObject* arg1, ::Il2CppObject* arg2);
+    static ::StringW FormatWith(::StringW format, ::System::IFormatProvider* provider, ::Il2CppObject* arg0, ::Il2CppObject* arg1, ::Il2CppObject* arg2);
     // static public System.String FormatWith(System.String format, System.IFormatProvider provider, System.Object arg0, System.Object arg1, System.Object arg2, System.Object arg3)
     // Offset: 0x29F8C14
-    static ::StringW FormatWith(::StringW format, System::IFormatProvider* provider, ::Il2CppObject* arg0, ::Il2CppObject* arg1, ::Il2CppObject* arg2, ::Il2CppObject* arg3);
+    static ::StringW FormatWith(::StringW format, ::System::IFormatProvider* provider, ::Il2CppObject* arg0, ::Il2CppObject* arg1, ::Il2CppObject* arg2, ::Il2CppObject* arg3);
     // static private System.String FormatWith(System.String format, System.IFormatProvider provider, params System.Object[] args)
     // Offset: 0x29F8A88
-    static ::StringW FormatWith(::StringW format, System::IFormatProvider* provider, ::ArrayW<::Il2CppObject*> args);
+    static ::StringW FormatWith(::StringW format, ::System::IFormatProvider* provider, ::ArrayW<::Il2CppObject*> args);
     // static public System.IO.StringWriter CreateStringWriter(System.Int32 capacity)
     // Offset: 0x29F8D60
-    static System::IO::StringWriter* CreateStringWriter(int capacity);
+    static ::System::IO::StringWriter* CreateStringWriter(int capacity);
     // static public System.Void ToCharAsUnicode(System.Char c, System.Char[] buffer)
     // Offset: 0x29F8E20
     static void ToCharAsUnicode(::Il2CppChar c, ::ArrayW<::Il2CppChar> buffer);
     // static public TSource ForgivingCaseSensitiveFind(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,System.String> valueSelector, System.String testValue)
     // Offset: 0xFFFFFFFF
     template<class TSource>
-    static TSource ForgivingCaseSensitiveFind(System::Collections::Generic::IEnumerable_1<TSource>* source, System::Func_2<TSource, ::StringW>* valueSelector, ::StringW testValue) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Utilities::StringUtils::ForgivingCaseSensitiveFind");
+    static TSource ForgivingCaseSensitiveFind(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, ::StringW>* valueSelector, ::StringW testValue) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Utilities::StringUtils::ForgivingCaseSensitiveFind");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Newtonsoft.Json.Utilities", "StringUtils", "ForgivingCaseSensitiveFind", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(source), ::il2cpp_utils::ExtractType(valueSelector), ::il2cpp_utils::ExtractType(testValue)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<TSource, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source, valueSelector, testValue);
@@ -129,7 +129,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::StringUtils::FormatWith
 // Il2CppName: FormatWith
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, System::IFormatProvider*, ::Il2CppObject*)>(&Newtonsoft::Json::Utilities::StringUtils::FormatWith)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::System::IFormatProvider*, ::Il2CppObject*)>(&Newtonsoft::Json::Utilities::StringUtils::FormatWith)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -140,7 +140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::StringUtils::FormatWith
 // Il2CppName: FormatWith
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, System::IFormatProvider*, ::Il2CppObject*, ::Il2CppObject*)>(&Newtonsoft::Json::Utilities::StringUtils::FormatWith)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::System::IFormatProvider*, ::Il2CppObject*, ::Il2CppObject*)>(&Newtonsoft::Json::Utilities::StringUtils::FormatWith)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -152,7 +152,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::StringUtils::FormatWith
 // Il2CppName: FormatWith
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, System::IFormatProvider*, ::Il2CppObject*, ::Il2CppObject*, ::Il2CppObject*)>(&Newtonsoft::Json::Utilities::StringUtils::FormatWith)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::System::IFormatProvider*, ::Il2CppObject*, ::Il2CppObject*, ::Il2CppObject*)>(&Newtonsoft::Json::Utilities::StringUtils::FormatWith)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -165,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::StringUtils::FormatWith
 // Il2CppName: FormatWith
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, System::IFormatProvider*, ::Il2CppObject*, ::Il2CppObject*, ::Il2CppObject*, ::Il2CppObject*)>(&Newtonsoft::Json::Utilities::StringUtils::FormatWith)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::System::IFormatProvider*, ::Il2CppObject*, ::Il2CppObject*, ::Il2CppObject*, ::Il2CppObject*)>(&Newtonsoft::Json::Utilities::StringUtils::FormatWith)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -179,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::StringUtils::FormatWith
 // Il2CppName: FormatWith
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, System::IFormatProvider*, ::ArrayW<::Il2CppObject*>)>(&Newtonsoft::Json::Utilities::StringUtils::FormatWith)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::System::IFormatProvider*, ::ArrayW<::Il2CppObject*>)>(&Newtonsoft::Json::Utilities::StringUtils::FormatWith)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -190,7 +190,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::StringUtils::CreateStringWriter
 // Il2CppName: CreateStringWriter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::StringWriter* (*)(int)>(&Newtonsoft::Json::Utilities::StringUtils::CreateStringWriter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::StringWriter* (*)(int)>(&Newtonsoft::Json::Utilities::StringUtils::CreateStringWriter)> {
   static const MethodInfo* get() {
     static auto* capacity = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::StringUtils*), "CreateStringWriter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{capacity});

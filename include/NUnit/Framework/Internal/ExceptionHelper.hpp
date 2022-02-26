@@ -32,8 +32,8 @@ namespace NUnit::Framework::Internal {
   class ExceptionHelper;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Internal::ExceptionHelper);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::ExceptionHelper*, "NUnit.Framework.Internal", "ExceptionHelper");
+NEED_NO_BOX(::NUnit::Framework::Internal::ExceptionHelper);
+DEFINE_IL2CPP_ARG_TYPE(::NUnit::Framework::Internal::ExceptionHelper*, "NUnit.Framework.Internal", "ExceptionHelper");
 // Type namespace: NUnit.Framework.Internal
 namespace NUnit::Framework::Internal {
   // Size: 0x10
@@ -42,27 +42,27 @@ namespace NUnit::Framework::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class ExceptionHelper : public ::Il2CppObject {
     public:
-    // Nested type: NUnit::Framework::Internal::ExceptionHelper::$$c
+    // Nested type: ::NUnit::Framework::Internal::ExceptionHelper::$$c
     class $$c;
     // Get static field: static private readonly System.Action`1<System.Exception> PreserveStackTrace
-    static System::Action_1<System::Exception*>* _get_PreserveStackTrace();
+    static ::System::Action_1<::System::Exception*>* _get_PreserveStackTrace();
     // Set static field: static private readonly System.Action`1<System.Exception> PreserveStackTrace
-    static void _set_PreserveStackTrace(System::Action_1<System::Exception*>* value);
+    static void _set_PreserveStackTrace(::System::Action_1<::System::Exception*>* value);
     // static private System.Void .cctor()
     // Offset: 0x1B626A8
     static void _cctor();
     // static public System.String BuildMessage(System.Exception exception)
     // Offset: 0x1B628A0
-    static ::StringW BuildMessage(System::Exception* exception);
+    static ::StringW BuildMessage(::System::Exception* exception);
     // static public System.String BuildStackTrace(System.Exception exception)
     // Offset: 0x1B62D60
-    static ::StringW BuildStackTrace(System::Exception* exception);
+    static ::StringW BuildStackTrace(::System::Exception* exception);
     // static public System.String GetStackTrace(System.Exception exception)
     // Offset: 0x1B62FCC
-    static ::StringW GetStackTrace(System::Exception* exception);
+    static ::StringW GetStackTrace(::System::Exception* exception);
     // static private System.Collections.Generic.List`1<System.Exception> FlattenExceptionHierarchy(System.Exception exception)
     // Offset: 0x1B62C8C
-    static System::Collections::Generic::List_1<System::Exception*>* FlattenExceptionHierarchy(System::Exception* exception);
+    static ::System::Collections::Generic::List_1<::System::Exception*>* FlattenExceptionHierarchy(::System::Exception* exception);
   }; // NUnit.Framework.Internal.ExceptionHelper
   #pragma pack(pop)
 }
@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: NUnit::Framework::Internal::ExceptionHelper::BuildMessage
 // Il2CppName: BuildMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Exception*)>(&NUnit::Framework::Internal::ExceptionHelper::BuildMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Exception*)>(&NUnit::Framework::Internal::ExceptionHelper::BuildMessage)> {
   static const MethodInfo* get() {
     static auto* exception = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::ExceptionHelper*), "BuildMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{exception});
@@ -87,7 +87,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: NUnit::Framework::Internal::ExceptionHelper::BuildStackTrace
 // Il2CppName: BuildStackTrace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Exception*)>(&NUnit::Framework::Internal::ExceptionHelper::BuildStackTrace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Exception*)>(&NUnit::Framework::Internal::ExceptionHelper::BuildStackTrace)> {
   static const MethodInfo* get() {
     static auto* exception = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::ExceptionHelper*), "BuildStackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{exception});
@@ -96,7 +96,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: NUnit::Framework::Internal::ExceptionHelper::GetStackTrace
 // Il2CppName: GetStackTrace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Exception*)>(&NUnit::Framework::Internal::ExceptionHelper::GetStackTrace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Exception*)>(&NUnit::Framework::Internal::ExceptionHelper::GetStackTrace)> {
   static const MethodInfo* get() {
     static auto* exception = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::ExceptionHelper*), "GetStackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{exception});
@@ -105,7 +105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: NUnit::Framework::Internal::ExceptionHelper::FlattenExceptionHierarchy
 // Il2CppName: FlattenExceptionHierarchy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<System::Exception*>* (*)(System::Exception*)>(&NUnit::Framework::Internal::ExceptionHelper::FlattenExceptionHierarchy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::System::Exception*>* (*)(::System::Exception*)>(&NUnit::Framework::Internal::ExceptionHelper::FlattenExceptionHierarchy)> {
   static const MethodInfo* get() {
     static auto* exception = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::ExceptionHelper*), "FlattenExceptionHierarchy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{exception});

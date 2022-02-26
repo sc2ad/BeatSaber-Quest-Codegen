@@ -42,8 +42,8 @@ namespace System::Security::Cryptography::X509Certificates {
   class X509Certificate;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Security::Cryptography::X509Certificates::X509Certificate);
-DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509Certificate*, "System.Security.Cryptography.X509Certificates", "X509Certificate");
+NEED_NO_BOX(::System::Security::Cryptography::X509Certificates::X509Certificate);
+DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::X509Certificates::X509Certificate*, "System.Security.Cryptography.X509Certificates", "X509Certificate");
 // Type namespace: System.Security.Cryptography.X509Certificates
 namespace System::Security::Cryptography::X509Certificates {
   // Size: 0x30
@@ -52,7 +52,7 @@ namespace System::Security::Cryptography::X509Certificates {
   // [TokenAttribute] Offset: FFFFFFFF
   // [MonoTODOAttribute] Offset: 118A44C
   // [ComVisibleAttribute] Offset: 118A44C
-  class X509Certificate : public ::Il2CppObject/*, public System::IDisposable, public System::Runtime::Serialization::ISerializable, public System::Runtime::Serialization::IDeserializationCallback*/ {
+  class X509Certificate : public ::Il2CppObject/*, public ::System::IDisposable, public ::System::Runtime::Serialization::ISerializable, public ::System::Runtime::Serialization::IDeserializationCallback*/ {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -66,9 +66,9 @@ namespace System::Security::Cryptography::X509Certificates {
     // private System.Security.Cryptography.X509Certificates.X509CertificateImpl impl
     // Size: 0x8
     // Offset: 0x10
-    System::Security::Cryptography::X509Certificates::X509CertificateImpl* impl;
+    ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* impl;
     // Field size check
-    static_assert(sizeof(System::Security::Cryptography::X509Certificates::X509CertificateImpl*) == 0x8);
+    static_assert(sizeof(::System::Security::Cryptography::X509Certificates::X509CertificateImpl*) == 0x8);
     // private System.Boolean hideDates
     // Size: 0x1
     // Offset: 0x18
@@ -90,20 +90,20 @@ namespace System::Security::Cryptography::X509Certificates {
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating interface conversion operator: operator System::IDisposable
-    operator System::IDisposable() noexcept {
-      return *reinterpret_cast<System::IDisposable*>(this);
+    // Creating interface conversion operator: operator ::System::IDisposable
+    operator ::System::IDisposable() noexcept {
+      return *reinterpret_cast<::System::IDisposable*>(this);
     }
-    // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
-    operator System::Runtime::Serialization::ISerializable() noexcept {
-      return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);
+    // Creating interface conversion operator: operator ::System::Runtime::Serialization::ISerializable
+    operator ::System::Runtime::Serialization::ISerializable() noexcept {
+      return *reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
     }
-    // Creating interface conversion operator: operator System::Runtime::Serialization::IDeserializationCallback
-    operator System::Runtime::Serialization::IDeserializationCallback() noexcept {
-      return *reinterpret_cast<System::Runtime::Serialization::IDeserializationCallback*>(this);
+    // Creating interface conversion operator: operator ::System::Runtime::Serialization::IDeserializationCallback
+    operator ::System::Runtime::Serialization::IDeserializationCallback() noexcept {
+      return *reinterpret_cast<::System::Runtime::Serialization::IDeserializationCallback*>(this);
     }
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509CertificateImpl impl
-    System::Security::Cryptography::X509Certificates::X509CertificateImpl*& dyn_impl();
+    ::System::Security::Cryptography::X509Certificates::X509CertificateImpl*& dyn_impl();
     // Get instance field reference: private System.Boolean hideDates
     bool& dyn_hideDates();
     // Get instance field reference: private System.String issuer_name
@@ -112,7 +112,7 @@ namespace System::Security::Cryptography::X509Certificates {
     ::StringW& dyn_subject_name();
     // System.Security.Cryptography.X509Certificates.X509CertificateImpl get_Impl()
     // Offset: 0x2065A0C
-    System::Security::Cryptography::X509Certificates::X509CertificateImpl* get_Impl();
+    ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* get_Impl();
     // System.Boolean get_IsValid()
     // Offset: 0x2065AA0
     bool get_IsValid();
@@ -126,43 +126,43 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0x2065668
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Certificate* New_ctor(::ArrayW<uint8_t> data, bool dates) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509Certificate::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::X509Certificates::X509Certificate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Certificate*, creationType>(data, dates)));
     }
     // public System.Void .ctor(System.Byte[] data)
     // Offset: 0x20656CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Certificate* New_ctor(::ArrayW<uint8_t> data) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509Certificate::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::X509Certificates::X509Certificate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Certificate*, creationType>(data)));
     }
     // System.Void .ctor(System.Security.Cryptography.X509Certificates.X509CertificateImpl impl)
     // Offset: 0x20656D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static X509Certificate* New_ctor(System::Security::Cryptography::X509Certificates::X509CertificateImpl* impl) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509Certificate::.ctor");
+    static X509Certificate* New_ctor(::System::Security::Cryptography::X509Certificates::X509CertificateImpl* impl) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::X509Certificates::X509Certificate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Certificate*, creationType>(impl)));
     }
     // public System.Void .ctor(System.Security.Cryptography.X509Certificates.X509Certificate cert)
     // Offset: 0x206584C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static X509Certificate* New_ctor(System::Security::Cryptography::X509Certificates::X509Certificate* cert) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509Certificate::.ctor");
+    static X509Certificate* New_ctor(::System::Security::Cryptography::X509Certificates::X509Certificate* cert) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::X509Certificates::X509Certificate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Certificate*, creationType>(cert)));
     }
     // public System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x2065F04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static X509Certificate* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509Certificate::.ctor");
+    static X509Certificate* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::X509Certificates::X509Certificate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Certificate*, creationType>(info, context)));
     }
     // System.Void ImportHandle(System.Security.Cryptography.X509Certificates.X509CertificateImpl impl)
     // Offset: 0x20659D4
-    void ImportHandle(System::Security::Cryptography::X509Certificates::X509CertificateImpl* impl);
+    void ImportHandle(::System::Security::Cryptography::X509Certificates::X509CertificateImpl* impl);
     // public System.Boolean Equals(System.Security.Cryptography.X509Certificates.X509Certificate other)
     // Offset: 0x2065ACC
-    bool Equals(System::Security::Cryptography::X509Certificates::X509Certificate* other);
+    bool Equals(::System::Security::Cryptography::X509Certificates::X509Certificate* other);
     // public System.Byte[] GetCertHash()
     // Offset: 0x2065BC4
     ::ArrayW<uint8_t> GetCertHash();
@@ -183,22 +183,22 @@ namespace System::Security::Cryptography::X509Certificates {
     ::StringW ToString(bool fVerbose);
     // public System.Byte[] Export(System.Security.Cryptography.X509Certificates.X509ContentType contentType)
     // Offset: 0x2066144
-    ::ArrayW<uint8_t> Export(System::Security::Cryptography::X509Certificates::X509ContentType contentType);
+    ::ArrayW<uint8_t> Export(::System::Security::Cryptography::X509Certificates::X509ContentType contentType);
     // System.Byte[] Export(System.Security.Cryptography.X509Certificates.X509ContentType contentType, System.Byte[] password)
     // Offset: 0x206614C
-    ::ArrayW<uint8_t> Export(System::Security::Cryptography::X509Certificates::X509ContentType contentType, ::ArrayW<uint8_t> password);
+    ::ArrayW<uint8_t> Export(::System::Security::Cryptography::X509Certificates::X509ContentType contentType, ::ArrayW<uint8_t> password);
     // public System.Void Import(System.Byte[] rawData, System.String password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags)
     // Offset: 0x2066204
-    void Import(::ArrayW<uint8_t> rawData, ::StringW password, System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags);
+    void Import(::ArrayW<uint8_t> rawData, ::StringW password, ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags);
     // public System.Void Import(System.String fileName, System.String password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags)
     // Offset: 0x2066380
-    void Import(::StringW fileName, ::StringW password, System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags);
+    void Import(::StringW fileName, ::StringW password, ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags);
     // private System.Void System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(System.Object sender)
     // Offset: 0x20663D4
     void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::Il2CppObject* sender);
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x20663D8
-    void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
+    void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
     // public System.Void Dispose()
     // Offset: 0x20664A0
     void Dispose();
@@ -214,7 +214,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Certificate* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509Certificate::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::X509Certificates::X509Certificate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Certificate*, creationType>()));
     }
     // public override System.Int32 GetHashCode()
@@ -241,7 +241,7 @@ namespace System::Security::Cryptography::X509Certificates {
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Certificate::get_Impl
 // Il2CppName: get_Impl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509CertificateImpl* (System::Security::Cryptography::X509Certificates::X509Certificate::*)()>(&System::Security::Cryptography::X509Certificates::X509Certificate::get_Impl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::X509Certificates::X509CertificateImpl* (System::Security::Cryptography::X509Certificates::X509Certificate::*)()>(&System::Security::Cryptography::X509Certificates::X509Certificate::get_Impl)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509Certificate*), "get_Impl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -293,7 +293,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Certificate::ImportHandle
 // Il2CppName: ImportHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::X509Certificates::X509Certificate::*)(System::Security::Cryptography::X509Certificates::X509CertificateImpl*)>(&System::Security::Cryptography::X509Certificates::X509Certificate::ImportHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::X509Certificates::X509Certificate::*)(::System::Security::Cryptography::X509Certificates::X509CertificateImpl*)>(&System::Security::Cryptography::X509Certificates::X509Certificate::ImportHandle)> {
   static const MethodInfo* get() {
     static auto* impl = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509CertificateImpl")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509Certificate*), "ImportHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{impl});
@@ -302,7 +302,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Certificate::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Security::Cryptography::X509Certificates::X509Certificate::*)(System::Security::Cryptography::X509Certificates::X509Certificate*)>(&System::Security::Cryptography::X509Certificates::X509Certificate::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Security::Cryptography::X509Certificates::X509Certificate::*)(::System::Security::Cryptography::X509Certificates::X509Certificate*)>(&System::Security::Cryptography::X509Certificates::X509Certificate::Equals)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509Certificate")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509Certificate*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
@@ -360,7 +360,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Certificate::Export
 // Il2CppName: Export
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Security::Cryptography::X509Certificates::X509Certificate::*)(System::Security::Cryptography::X509Certificates::X509ContentType)>(&System::Security::Cryptography::X509Certificates::X509Certificate::Export)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Security::Cryptography::X509Certificates::X509Certificate::*)(::System::Security::Cryptography::X509Certificates::X509ContentType)>(&System::Security::Cryptography::X509Certificates::X509Certificate::Export)> {
   static const MethodInfo* get() {
     static auto* contentType = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509ContentType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509Certificate*), "Export", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{contentType});
@@ -369,7 +369,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Certificate::Export
 // Il2CppName: Export
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Security::Cryptography::X509Certificates::X509Certificate::*)(System::Security::Cryptography::X509Certificates::X509ContentType, ::ArrayW<uint8_t>)>(&System::Security::Cryptography::X509Certificates::X509Certificate::Export)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Security::Cryptography::X509Certificates::X509Certificate::*)(::System::Security::Cryptography::X509Certificates::X509ContentType, ::ArrayW<uint8_t>)>(&System::Security::Cryptography::X509Certificates::X509Certificate::Export)> {
   static const MethodInfo* get() {
     static auto* contentType = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509ContentType")->byval_arg;
     static auto* password = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -379,7 +379,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Certificate::Import
 // Il2CppName: Import
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::X509Certificates::X509Certificate::*)(::ArrayW<uint8_t>, ::StringW, System::Security::Cryptography::X509Certificates::X509KeyStorageFlags)>(&System::Security::Cryptography::X509Certificates::X509Certificate::Import)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::X509Certificates::X509Certificate::*)(::ArrayW<uint8_t>, ::StringW, ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags)>(&System::Security::Cryptography::X509Certificates::X509Certificate::Import)> {
   static const MethodInfo* get() {
     static auto* rawData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* password = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -390,7 +390,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Certificate::Import
 // Il2CppName: Import
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::X509Certificates::X509Certificate::*)(::StringW, ::StringW, System::Security::Cryptography::X509Certificates::X509KeyStorageFlags)>(&System::Security::Cryptography::X509Certificates::X509Certificate::Import)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::X509Certificates::X509Certificate::*)(::StringW, ::StringW, ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags)>(&System::Security::Cryptography::X509Certificates::X509Certificate::Import)> {
   static const MethodInfo* get() {
     static auto* fileName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* password = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -410,7 +410,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Certificate::System_Runtime_Serialization_ISerializable_GetObjectData
 // Il2CppName: System.Runtime.Serialization.ISerializable.GetObjectData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::X509Certificates::X509Certificate::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::Security::Cryptography::X509Certificates::X509Certificate::System_Runtime_Serialization_ISerializable_GetObjectData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::X509Certificates::X509Certificate::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&System::Security::Cryptography::X509Certificates::X509Certificate::System_Runtime_Serialization_ISerializable_GetObjectData)> {
   static const MethodInfo* get() {
     static auto* info = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;

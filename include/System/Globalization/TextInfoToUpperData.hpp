@@ -13,8 +13,8 @@ namespace System::Globalization {
   class TextInfoToUpperData;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Globalization::TextInfoToUpperData);
-DEFINE_IL2CPP_ARG_TYPE(System::Globalization::TextInfoToUpperData*, "System.Globalization", "TextInfoToUpperData");
+NEED_NO_BOX(::System::Globalization::TextInfoToUpperData);
+DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::TextInfoToUpperData*, "System.Globalization", "TextInfoToUpperData");
 // Type namespace: System.Globalization
 namespace System::Globalization {
   // Size: 0x10

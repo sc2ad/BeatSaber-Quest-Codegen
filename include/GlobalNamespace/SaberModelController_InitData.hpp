@@ -15,8 +15,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SaberModelController::InitData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberModelController::InitData*, "", "SaberModelController/InitData");
+NEED_NO_BOX(::GlobalNamespace::SaberModelController::InitData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SaberModelController::InitData*, "", "SaberModelController/InitData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -37,21 +37,21 @@ namespace GlobalNamespace {
     // public readonly UnityEngine.Color trailTintColor
     // Size: 0x10
     // Offset: 0x10
-    UnityEngine::Color trailTintColor;
+    ::UnityEngine::Color trailTintColor;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     public:
-    // Creating conversion operator: operator UnityEngine::Color
-    constexpr operator UnityEngine::Color() const noexcept {
+    // Creating conversion operator: operator ::UnityEngine::Color
+    constexpr operator ::UnityEngine::Color() const noexcept {
       return trailTintColor;
     }
     // Get instance field reference: public readonly UnityEngine.Color trailTintColor
-    UnityEngine::Color& dyn_trailTintColor();
+    ::UnityEngine::Color& dyn_trailTintColor();
     // public System.Void .ctor(UnityEngine.Color trailTintColor)
     // Offset: 0x2B56180
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SaberModelController::InitData* New_ctor(UnityEngine::Color trailTintColor) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SaberModelController::InitData::.ctor");
+    static SaberModelController::InitData* New_ctor(::UnityEngine::Color trailTintColor) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SaberModelController::InitData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SaberModelController::InitData*, creationType>(trailTintColor)));
     }
     // public System.Void .ctor()
@@ -60,12 +60,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SaberModelController::InitData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SaberModelController::InitData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SaberModelController::InitData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SaberModelController::InitData*, creationType>()));
     }
   }; // SaberModelController/InitData
   #pragma pack(pop)
-  static check_size<sizeof(SaberModelController::InitData), 16 + sizeof(UnityEngine::Color)> __GlobalNamespace_SaberModelController_InitDataSizeCheck;
+  static check_size<sizeof(SaberModelController::InitData), 16 + sizeof(::UnityEngine::Color)> __GlobalNamespace_SaberModelController_InitDataSizeCheck;
   static_assert(sizeof(SaberModelController::InitData) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -16,8 +16,8 @@ namespace Microsoft::CSharp {
   class CodeDomProvider;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Microsoft::CSharp::CodeDomProvider);
-DEFINE_IL2CPP_ARG_TYPE(Microsoft::CSharp::CodeDomProvider*, "Microsoft.CSharp", "CodeDomProvider");
+NEED_NO_BOX(::Microsoft::CSharp::CodeDomProvider);
+DEFINE_IL2CPP_ARG_TYPE(::Microsoft::CSharp::CodeDomProvider*, "Microsoft.CSharp", "CodeDomProvider");
 // Type namespace: Microsoft.CSharp
 namespace Microsoft::CSharp {
   // Size: 0x10
@@ -32,7 +32,7 @@ namespace Microsoft::CSharp {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CodeDomProvider* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Microsoft::CSharp::CodeDomProvider::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Microsoft::CSharp::CodeDomProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CodeDomProvider*, creationType>()));
     }
   }; // Microsoft.CSharp.CodeDomProvider

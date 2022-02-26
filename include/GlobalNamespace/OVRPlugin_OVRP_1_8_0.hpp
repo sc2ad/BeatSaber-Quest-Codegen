@@ -16,8 +16,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRPlugin::OVRP_1_8_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_8_0*, "", "OVRPlugin/OVRP_1_8_0");
+NEED_NO_BOX(::GlobalNamespace::OVRPlugin::OVRP_1_8_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRPlugin::OVRP_1_8_0*, "", "OVRPlugin/OVRP_1_8_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -27,45 +27,45 @@ namespace GlobalNamespace {
   class OVRPlugin::OVRP_1_8_0 : public ::Il2CppObject {
     public:
     // Get static field: static public readonly System.Version version
-    static System::Version* _get_version();
+    static ::System::Version* _get_version();
     // Set static field: static public readonly System.Version version
-    static void _set_version(System::Version* value);
+    static void _set_version(::System::Version* value);
     // static private System.Void .cctor()
     // Offset: 0x1A770B8
     static void _cctor();
     // static public OVRPlugin/Bool ovrp_GetBoundaryConfigured()
     // Offset: 0x1A76A74
-    static GlobalNamespace::OVRPlugin::Bool ovrp_GetBoundaryConfigured();
+    static ::GlobalNamespace::OVRPlugin::Bool ovrp_GetBoundaryConfigured();
     // static public OVRPlugin/BoundaryTestResult ovrp_TestBoundaryNode(OVRPlugin/Node nodeId, OVRPlugin/BoundaryType boundaryType)
     // Offset: 0x1A76AE8
-    static GlobalNamespace::OVRPlugin::BoundaryTestResult ovrp_TestBoundaryNode(GlobalNamespace::OVRPlugin::Node nodeId, GlobalNamespace::OVRPlugin::BoundaryType boundaryType);
+    static ::GlobalNamespace::OVRPlugin::BoundaryTestResult ovrp_TestBoundaryNode(::GlobalNamespace::OVRPlugin::Node nodeId, ::GlobalNamespace::OVRPlugin::BoundaryType boundaryType);
     // static public OVRPlugin/BoundaryTestResult ovrp_TestBoundaryPoint(OVRPlugin/Vector3f point, OVRPlugin/BoundaryType boundaryType)
     // Offset: 0x1A76B80
-    static GlobalNamespace::OVRPlugin::BoundaryTestResult ovrp_TestBoundaryPoint(GlobalNamespace::OVRPlugin::Vector3f point, GlobalNamespace::OVRPlugin::BoundaryType boundaryType);
+    static ::GlobalNamespace::OVRPlugin::BoundaryTestResult ovrp_TestBoundaryPoint(::GlobalNamespace::OVRPlugin::Vector3f point, ::GlobalNamespace::OVRPlugin::BoundaryType boundaryType);
     // static public OVRPlugin/BoundaryGeometry ovrp_GetBoundaryGeometry(OVRPlugin/BoundaryType boundaryType)
     // Offset: 0x1A76C38
-    static GlobalNamespace::OVRPlugin::BoundaryGeometry ovrp_GetBoundaryGeometry(GlobalNamespace::OVRPlugin::BoundaryType boundaryType);
+    static ::GlobalNamespace::OVRPlugin::BoundaryGeometry ovrp_GetBoundaryGeometry(::GlobalNamespace::OVRPlugin::BoundaryType boundaryType);
     // static public OVRPlugin/Vector3f ovrp_GetBoundaryDimensions(OVRPlugin/BoundaryType boundaryType)
     // Offset: 0x1A76CDC
-    static GlobalNamespace::OVRPlugin::Vector3f ovrp_GetBoundaryDimensions(GlobalNamespace::OVRPlugin::BoundaryType boundaryType);
+    static ::GlobalNamespace::OVRPlugin::Vector3f ovrp_GetBoundaryDimensions(::GlobalNamespace::OVRPlugin::BoundaryType boundaryType);
     // static public OVRPlugin/Bool ovrp_GetBoundaryVisible()
     // Offset: 0x1A76D5C
-    static GlobalNamespace::OVRPlugin::Bool ovrp_GetBoundaryVisible();
+    static ::GlobalNamespace::OVRPlugin::Bool ovrp_GetBoundaryVisible();
     // static public OVRPlugin/Bool ovrp_SetBoundaryVisible(OVRPlugin/Bool value)
     // Offset: 0x1A76DD0
-    static GlobalNamespace::OVRPlugin::Bool ovrp_SetBoundaryVisible(GlobalNamespace::OVRPlugin::Bool value);
+    static ::GlobalNamespace::OVRPlugin::Bool ovrp_SetBoundaryVisible(::GlobalNamespace::OVRPlugin::Bool value);
     // static public OVRPlugin/Bool ovrp_Update2(System.Int32 stateId, System.Int32 frameIndex, System.Double predictionSeconds)
     // Offset: 0x1A76E50
-    static GlobalNamespace::OVRPlugin::Bool ovrp_Update2(int stateId, int frameIndex, double predictionSeconds);
+    static ::GlobalNamespace::OVRPlugin::Bool ovrp_Update2(int stateId, int frameIndex, double predictionSeconds);
     // static public OVRPlugin/Posef ovrp_GetNodePose2(System.Int32 stateId, OVRPlugin/Node nodeId)
     // Offset: 0x1A76EF0
-    static GlobalNamespace::OVRPlugin::Posef ovrp_GetNodePose2(int stateId, GlobalNamespace::OVRPlugin::Node nodeId);
+    static ::GlobalNamespace::OVRPlugin::Posef ovrp_GetNodePose2(int stateId, ::GlobalNamespace::OVRPlugin::Node nodeId);
     // static public OVRPlugin/Posef ovrp_GetNodeVelocity2(System.Int32 stateId, OVRPlugin/Node nodeId)
     // Offset: 0x1A76F88
-    static GlobalNamespace::OVRPlugin::Posef ovrp_GetNodeVelocity2(int stateId, GlobalNamespace::OVRPlugin::Node nodeId);
+    static ::GlobalNamespace::OVRPlugin::Posef ovrp_GetNodeVelocity2(int stateId, ::GlobalNamespace::OVRPlugin::Node nodeId);
     // static public OVRPlugin/Posef ovrp_GetNodeAcceleration2(System.Int32 stateId, OVRPlugin/Node nodeId)
     // Offset: 0x1A77020
-    static GlobalNamespace::OVRPlugin::Posef ovrp_GetNodeAcceleration2(int stateId, GlobalNamespace::OVRPlugin::Node nodeId);
+    static ::GlobalNamespace::OVRPlugin::Posef ovrp_GetNodeAcceleration2(int stateId, ::GlobalNamespace::OVRPlugin::Node nodeId);
   }; // OVRPlugin/OVRP_1_8_0
   #pragma pack(pop)
 }
@@ -81,7 +81,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetBoundaryConfigured
 // Il2CppName: ovrp_GetBoundaryConfigured
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetBoundaryConfigured)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Bool (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetBoundaryConfigured)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_8_0*), "ovrp_GetBoundaryConfigured", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -89,7 +89,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_TestBoundaryNode
 // Il2CppName: ovrp_TestBoundaryNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::BoundaryTestResult (*)(GlobalNamespace::OVRPlugin::Node, GlobalNamespace::OVRPlugin::BoundaryType)>(&GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_TestBoundaryNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::BoundaryTestResult (*)(::GlobalNamespace::OVRPlugin::Node, ::GlobalNamespace::OVRPlugin::BoundaryType)>(&GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_TestBoundaryNode)> {
   static const MethodInfo* get() {
     static auto* nodeId = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Node")->byval_arg;
     static auto* boundaryType = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/BoundaryType")->byval_arg;
@@ -99,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_TestBoundaryPoint
 // Il2CppName: ovrp_TestBoundaryPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::BoundaryTestResult (*)(GlobalNamespace::OVRPlugin::Vector3f, GlobalNamespace::OVRPlugin::BoundaryType)>(&GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_TestBoundaryPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::BoundaryTestResult (*)(::GlobalNamespace::OVRPlugin::Vector3f, ::GlobalNamespace::OVRPlugin::BoundaryType)>(&GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_TestBoundaryPoint)> {
   static const MethodInfo* get() {
     static auto* point = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Vector3f")->byval_arg;
     static auto* boundaryType = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/BoundaryType")->byval_arg;
@@ -109,7 +109,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetBoundaryGeometry
 // Il2CppName: ovrp_GetBoundaryGeometry
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::BoundaryGeometry (*)(GlobalNamespace::OVRPlugin::BoundaryType)>(&GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetBoundaryGeometry)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::BoundaryGeometry (*)(::GlobalNamespace::OVRPlugin::BoundaryType)>(&GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetBoundaryGeometry)> {
   static const MethodInfo* get() {
     static auto* boundaryType = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/BoundaryType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_8_0*), "ovrp_GetBoundaryGeometry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{boundaryType});
@@ -118,7 +118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetBoundaryDimensions
 // Il2CppName: ovrp_GetBoundaryDimensions
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Vector3f (*)(GlobalNamespace::OVRPlugin::BoundaryType)>(&GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetBoundaryDimensions)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Vector3f (*)(::GlobalNamespace::OVRPlugin::BoundaryType)>(&GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetBoundaryDimensions)> {
   static const MethodInfo* get() {
     static auto* boundaryType = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/BoundaryType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_8_0*), "ovrp_GetBoundaryDimensions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{boundaryType});
@@ -127,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetBoundaryVisible
 // Il2CppName: ovrp_GetBoundaryVisible
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetBoundaryVisible)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Bool (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetBoundaryVisible)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_8_0*), "ovrp_GetBoundaryVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -135,7 +135,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_SetBoundaryVisible
 // Il2CppName: ovrp_SetBoundaryVisible
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(GlobalNamespace::OVRPlugin::Bool)>(&GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_SetBoundaryVisible)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Bool (*)(::GlobalNamespace::OVRPlugin::Bool)>(&GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_SetBoundaryVisible)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Bool")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_8_0*), "ovrp_SetBoundaryVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -144,7 +144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_Update2
 // Il2CppName: ovrp_Update2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(int, int, double)>(&GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_Update2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Bool (*)(int, int, double)>(&GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_Update2)> {
   static const MethodInfo* get() {
     static auto* stateId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* frameIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -155,7 +155,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetNodePose2
 // Il2CppName: ovrp_GetNodePose2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Posef (*)(int, GlobalNamespace::OVRPlugin::Node)>(&GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetNodePose2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Posef (*)(int, ::GlobalNamespace::OVRPlugin::Node)>(&GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetNodePose2)> {
   static const MethodInfo* get() {
     static auto* stateId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* nodeId = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Node")->byval_arg;
@@ -165,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetNodeVelocity2
 // Il2CppName: ovrp_GetNodeVelocity2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Posef (*)(int, GlobalNamespace::OVRPlugin::Node)>(&GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetNodeVelocity2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Posef (*)(int, ::GlobalNamespace::OVRPlugin::Node)>(&GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetNodeVelocity2)> {
   static const MethodInfo* get() {
     static auto* stateId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* nodeId = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Node")->byval_arg;
@@ -175,7 +175,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetNodeAcceleration2
 // Il2CppName: ovrp_GetNodeAcceleration2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Posef (*)(int, GlobalNamespace::OVRPlugin::Node)>(&GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetNodeAcceleration2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Posef (*)(int, ::GlobalNamespace::OVRPlugin::Node)>(&GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetNodeAcceleration2)> {
   static const MethodInfo* get() {
     static auto* stateId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* nodeId = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Node")->byval_arg;

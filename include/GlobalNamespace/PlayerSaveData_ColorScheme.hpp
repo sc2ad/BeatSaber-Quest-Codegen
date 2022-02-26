@@ -16,8 +16,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PlayerSaveData::ColorScheme);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveData::ColorScheme*, "", "PlayerSaveData/ColorScheme");
+NEED_NO_BOX(::GlobalNamespace::PlayerSaveData::ColorScheme);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlayerSaveData::ColorScheme*, "", "PlayerSaveData/ColorScheme");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x68
@@ -44,56 +44,56 @@ namespace GlobalNamespace {
     // public UnityEngine.Color saberAColor
     // Size: 0x10
     // Offset: 0x18
-    UnityEngine::Color saberAColor;
+    ::UnityEngine::Color saberAColor;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     // public UnityEngine.Color saberBColor
     // Size: 0x10
     // Offset: 0x28
-    UnityEngine::Color saberBColor;
+    ::UnityEngine::Color saberBColor;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     // public UnityEngine.Color environmentColor0
     // Size: 0x10
     // Offset: 0x38
-    UnityEngine::Color environmentColor0;
+    ::UnityEngine::Color environmentColor0;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     // public UnityEngine.Color environmentColor1
     // Size: 0x10
     // Offset: 0x48
-    UnityEngine::Color environmentColor1;
+    ::UnityEngine::Color environmentColor1;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     // public UnityEngine.Color obstaclesColor
     // Size: 0x10
     // Offset: 0x58
-    UnityEngine::Color obstaclesColor;
+    ::UnityEngine::Color obstaclesColor;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     public:
     // Get instance field reference: public System.String colorSchemeId
     ::StringW& dyn_colorSchemeId();
     // Get instance field reference: public UnityEngine.Color saberAColor
-    UnityEngine::Color& dyn_saberAColor();
+    ::UnityEngine::Color& dyn_saberAColor();
     // Get instance field reference: public UnityEngine.Color saberBColor
-    UnityEngine::Color& dyn_saberBColor();
+    ::UnityEngine::Color& dyn_saberBColor();
     // Get instance field reference: public UnityEngine.Color environmentColor0
-    UnityEngine::Color& dyn_environmentColor0();
+    ::UnityEngine::Color& dyn_environmentColor0();
     // Get instance field reference: public UnityEngine.Color environmentColor1
-    UnityEngine::Color& dyn_environmentColor1();
+    ::UnityEngine::Color& dyn_environmentColor1();
     // Get instance field reference: public UnityEngine.Color obstaclesColor
-    UnityEngine::Color& dyn_obstaclesColor();
+    ::UnityEngine::Color& dyn_obstaclesColor();
     // public System.Void .ctor(System.String colorSchemeId, UnityEngine.Color saberAColor, UnityEngine.Color saberBColor, UnityEngine.Color environmentColor0, UnityEngine.Color environmentColor1, UnityEngine.Color obstaclesColor)
     // Offset: 0x13DF7A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PlayerSaveData::ColorScheme* New_ctor(::StringW colorSchemeId, UnityEngine::Color saberAColor, UnityEngine::Color saberBColor, UnityEngine::Color environmentColor0, UnityEngine::Color environmentColor1, UnityEngine::Color obstaclesColor) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerSaveData::ColorScheme::.ctor");
+    static PlayerSaveData::ColorScheme* New_ctor(::StringW colorSchemeId, ::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color environmentColor0, ::UnityEngine::Color environmentColor1, ::UnityEngine::Color obstaclesColor) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSaveData::ColorScheme::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerSaveData::ColorScheme*, creationType>(colorSchemeId, saberAColor, saberBColor, environmentColor0, environmentColor1, obstaclesColor)));
     }
   }; // PlayerSaveData/ColorScheme
   #pragma pack(pop)
-  static check_size<sizeof(PlayerSaveData::ColorScheme), 88 + sizeof(UnityEngine::Color)> __GlobalNamespace_PlayerSaveData_ColorSchemeSizeCheck;
+  static check_size<sizeof(PlayerSaveData::ColorScheme), 88 + sizeof(::UnityEngine::Color)> __GlobalNamespace_PlayerSaveData_ColorSchemeSizeCheck;
   static_assert(sizeof(PlayerSaveData::ColorScheme) == 0x68);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

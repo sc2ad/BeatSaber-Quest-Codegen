@@ -26,8 +26,8 @@ namespace System::Collections::Generic {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Linq::Expressions::Interpreter::LocalVariables::VariableScope);
-DEFINE_IL2CPP_ARG_TYPE(System::Linq::Expressions::Interpreter::LocalVariables::VariableScope*, "System.Linq.Expressions.Interpreter", "LocalVariables/VariableScope");
+NEED_NO_BOX(::System::Linq::Expressions::Interpreter::LocalVariables::VariableScope);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::LocalVariables::VariableScope*, "System.Linq.Expressions.Interpreter", "LocalVariables/VariableScope");
 // Type namespace: System.Linq.Expressions.Interpreter
 namespace System::Linq::Expressions::Interpreter {
   // Size: 0x30
@@ -60,42 +60,42 @@ namespace System::Linq::Expressions::Interpreter {
     // public readonly System.Linq.Expressions.Interpreter.LocalVariable Variable
     // Size: 0x8
     // Offset: 0x18
-    System::Linq::Expressions::Interpreter::LocalVariable* Variable;
+    ::System::Linq::Expressions::Interpreter::LocalVariable* Variable;
     // Field size check
-    static_assert(sizeof(System::Linq::Expressions::Interpreter::LocalVariable*) == 0x8);
+    static_assert(sizeof(::System::Linq::Expressions::Interpreter::LocalVariable*) == 0x8);
     // public readonly System.Linq.Expressions.Interpreter.LocalVariables/System.Linq.Expressions.Interpreter.VariableScope Parent
     // Size: 0x8
     // Offset: 0x20
-    System::Linq::Expressions::Interpreter::LocalVariables::VariableScope* Parent;
+    ::System::Linq::Expressions::Interpreter::LocalVariables::VariableScope* Parent;
     // Field size check
-    static_assert(sizeof(System::Linq::Expressions::Interpreter::LocalVariables::VariableScope*) == 0x8);
+    static_assert(sizeof(::System::Linq::Expressions::Interpreter::LocalVariables::VariableScope*) == 0x8);
     // public System.Collections.Generic.List`1<System.Linq.Expressions.Interpreter.LocalVariables/System.Linq.Expressions.Interpreter.VariableScope> ChildScopes
     // Size: 0x8
     // Offset: 0x28
-    System::Collections::Generic::List_1<System::Linq::Expressions::Interpreter::LocalVariables::VariableScope*>* ChildScopes;
+    ::System::Collections::Generic::List_1<::System::Linq::Expressions::Interpreter::LocalVariables::VariableScope*>* ChildScopes;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<System::Linq::Expressions::Interpreter::LocalVariables::VariableScope*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::System::Linq::Expressions::Interpreter::LocalVariables::VariableScope*>*) == 0x8);
     public:
     // Get instance field reference: public readonly System.Int32 Start
     int& dyn_Start();
     // Get instance field reference: public System.Int32 Stop
     int& dyn_Stop();
     // Get instance field reference: public readonly System.Linq.Expressions.Interpreter.LocalVariable Variable
-    System::Linq::Expressions::Interpreter::LocalVariable*& dyn_Variable();
+    ::System::Linq::Expressions::Interpreter::LocalVariable*& dyn_Variable();
     // Get instance field reference: public readonly System.Linq.Expressions.Interpreter.LocalVariables/System.Linq.Expressions.Interpreter.VariableScope Parent
-    System::Linq::Expressions::Interpreter::LocalVariables::VariableScope*& dyn_Parent();
+    ::System::Linq::Expressions::Interpreter::LocalVariables::VariableScope*& dyn_Parent();
     // Get instance field reference: public System.Collections.Generic.List`1<System.Linq.Expressions.Interpreter.LocalVariables/System.Linq.Expressions.Interpreter.VariableScope> ChildScopes
-    System::Collections::Generic::List_1<System::Linq::Expressions::Interpreter::LocalVariables::VariableScope*>*& dyn_ChildScopes();
+    ::System::Collections::Generic::List_1<::System::Linq::Expressions::Interpreter::LocalVariables::VariableScope*>*& dyn_ChildScopes();
     // public System.Void .ctor(System.Linq.Expressions.Interpreter.LocalVariable variable, System.Int32 start, System.Linq.Expressions.Interpreter.LocalVariables/System.Linq.Expressions.Interpreter.VariableScope parent)
     // Offset: 0x1EF6C14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static LocalVariables::VariableScope* New_ctor(System::Linq::Expressions::Interpreter::LocalVariable* variable, int start, System::Linq::Expressions::Interpreter::LocalVariables::VariableScope* parent) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Expressions::Interpreter::LocalVariables::VariableScope::.ctor");
+    static LocalVariables::VariableScope* New_ctor(::System::Linq::Expressions::Interpreter::LocalVariable* variable, int start, ::System::Linq::Expressions::Interpreter::LocalVariables::VariableScope* parent) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Expressions::Interpreter::LocalVariables::VariableScope::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalVariables::VariableScope*, creationType>(variable, start, parent)));
     }
   }; // System.Linq.Expressions.Interpreter.LocalVariables/System.Linq.Expressions.Interpreter.VariableScope
   #pragma pack(pop)
-  static check_size<sizeof(LocalVariables::VariableScope), 40 + sizeof(System::Collections::Generic::List_1<System::Linq::Expressions::Interpreter::LocalVariables::VariableScope*>*)> __System_Linq_Expressions_Interpreter_LocalVariables_VariableScopeSizeCheck;
+  static check_size<sizeof(LocalVariables::VariableScope), 40 + sizeof(::System::Collections::Generic::List_1<::System::Linq::Expressions::Interpreter::LocalVariables::VariableScope*>*)> __System_Linq_Expressions_Interpreter_LocalVariables_VariableScopeSizeCheck;
   static_assert(sizeof(LocalVariables::VariableScope) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

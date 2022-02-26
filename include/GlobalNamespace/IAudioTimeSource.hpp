@@ -11,8 +11,8 @@ namespace GlobalNamespace {
   class IAudioTimeSource;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::IAudioTimeSource);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IAudioTimeSource*, "", "IAudioTimeSource");
+NEED_NO_BOX(::GlobalNamespace::IAudioTimeSource);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IAudioTimeSource*, "", "IAudioTimeSource");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10

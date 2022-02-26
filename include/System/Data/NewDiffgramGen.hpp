@@ -46,8 +46,8 @@ namespace System::Data {
   class NewDiffgramGen;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Data::NewDiffgramGen);
-DEFINE_IL2CPP_ARG_TYPE(System::Data::NewDiffgramGen*, "System.Data", "NewDiffgramGen");
+NEED_NO_BOX(::System::Data::NewDiffgramGen);
+DEFINE_IL2CPP_ARG_TYPE(::System::Data::NewDiffgramGen*, "System.Data", "NewDiffgramGen");
 // Type namespace: System.Data
 namespace System::Data {
   // Size: 0x49
@@ -68,27 +68,27 @@ namespace System::Data {
     // System.Xml.XmlDocument _doc
     // Size: 0x8
     // Offset: 0x10
-    System::Xml::XmlDocument* doc;
+    ::System::Xml::XmlDocument* doc;
     // Field size check
-    static_assert(sizeof(System::Xml::XmlDocument*) == 0x8);
+    static_assert(sizeof(::System::Xml::XmlDocument*) == 0x8);
     // System.Data.DataSet _ds
     // Size: 0x8
     // Offset: 0x18
-    System::Data::DataSet* ds;
+    ::System::Data::DataSet* ds;
     // Field size check
-    static_assert(sizeof(System::Data::DataSet*) == 0x8);
+    static_assert(sizeof(::System::Data::DataSet*) == 0x8);
     // System.Data.DataTable _dt
     // Size: 0x8
     // Offset: 0x20
-    System::Data::DataTable* dt;
+    ::System::Data::DataTable* dt;
     // Field size check
-    static_assert(sizeof(System::Data::DataTable*) == 0x8);
+    static_assert(sizeof(::System::Data::DataTable*) == 0x8);
     // System.Xml.XmlWriter _xmlw
     // Size: 0x8
     // Offset: 0x28
-    System::Xml::XmlWriter* xmlw;
+    ::System::Xml::XmlWriter* xmlw;
     // Field size check
-    static_assert(sizeof(System::Xml::XmlWriter*) == 0x8);
+    static_assert(sizeof(::System::Xml::XmlWriter*) == 0x8);
     // private System.Boolean _fBefore
     // Size: 0x1
     // Offset: 0x30
@@ -106,15 +106,15 @@ namespace System::Data {
     // System.Collections.Hashtable _rowsOrder
     // Size: 0x8
     // Offset: 0x38
-    System::Collections::Hashtable* rowsOrder;
+    ::System::Collections::Hashtable* rowsOrder;
     // Field size check
-    static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
+    static_assert(sizeof(::System::Collections::Hashtable*) == 0x8);
     // private System.Collections.ArrayList _tables
     // Size: 0x8
     // Offset: 0x40
-    System::Collections::ArrayList* tables;
+    ::System::Collections::ArrayList* tables;
     // Field size check
-    static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
+    static_assert(sizeof(::System::Collections::ArrayList*) == 0x8);
     // private System.Boolean _writeHierarchy
     // Size: 0x1
     // Offset: 0x48
@@ -123,64 +123,64 @@ namespace System::Data {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: System.Xml.XmlDocument _doc
-    System::Xml::XmlDocument*& dyn__doc();
+    ::System::Xml::XmlDocument*& dyn__doc();
     // Get instance field reference: System.Data.DataSet _ds
-    System::Data::DataSet*& dyn__ds();
+    ::System::Data::DataSet*& dyn__ds();
     // Get instance field reference: System.Data.DataTable _dt
-    System::Data::DataTable*& dyn__dt();
+    ::System::Data::DataTable*& dyn__dt();
     // Get instance field reference: System.Xml.XmlWriter _xmlw
-    System::Xml::XmlWriter*& dyn__xmlw();
+    ::System::Xml::XmlWriter*& dyn__xmlw();
     // Get instance field reference: private System.Boolean _fBefore
     bool& dyn__fBefore();
     // Get instance field reference: private System.Boolean _fErrors
     bool& dyn__fErrors();
     // Get instance field reference: System.Collections.Hashtable _rowsOrder
-    System::Collections::Hashtable*& dyn__rowsOrder();
+    ::System::Collections::Hashtable*& dyn__rowsOrder();
     // Get instance field reference: private System.Collections.ArrayList _tables
-    System::Collections::ArrayList*& dyn__tables();
+    ::System::Collections::ArrayList*& dyn__tables();
     // Get instance field reference: private System.Boolean _writeHierarchy
     bool& dyn__writeHierarchy();
     // System.Void .ctor(System.Data.DataSet ds)
     // Offset: 0x19911EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static NewDiffgramGen* New_ctor(System::Data::DataSet* ds) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Data::NewDiffgramGen::.ctor");
+    static NewDiffgramGen* New_ctor(::System::Data::DataSet* ds) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Data::NewDiffgramGen::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NewDiffgramGen*, creationType>(ds)));
     }
     // System.Void .ctor(System.Data.DataTable dt, System.Boolean writeHierarchy)
     // Offset: 0x199155C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static NewDiffgramGen* New_ctor(System::Data::DataTable* dt, bool writeHierarchy) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Data::NewDiffgramGen::.ctor");
+    static NewDiffgramGen* New_ctor(::System::Data::DataTable* dt, bool writeHierarchy) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Data::NewDiffgramGen::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NewDiffgramGen*, creationType>(dt, writeHierarchy)));
     }
     // private System.Void CreateTableHierarchy(System.Data.DataTable dt)
     // Offset: 0x199163C
-    void CreateTableHierarchy(System::Data::DataTable* dt);
+    void CreateTableHierarchy(::System::Data::DataTable* dt);
     // private System.Void DoAssignments(System.Collections.ArrayList tables)
     // Offset: 0x19912F8
-    void DoAssignments(System::Collections::ArrayList* tables);
+    void DoAssignments(::System::Collections::ArrayList* tables);
     // private System.Boolean EmptyData()
     // Offset: 0x1991938
     bool EmptyData();
     // System.Void Save(System.Xml.XmlWriter xmlw)
     // Offset: 0x1991A34
-    void Save(System::Xml::XmlWriter* xmlw);
+    void Save(::System::Xml::XmlWriter* xmlw);
     // System.Void Save(System.Xml.XmlWriter xmlw, System.Data.DataTable table)
     // Offset: 0x1991A3C
-    void Save(System::Xml::XmlWriter* xmlw, System::Data::DataTable* table);
+    void Save(::System::Xml::XmlWriter* xmlw, ::System::Data::DataTable* table);
     // private System.Void GenerateTable(System.Data.DataTable table)
     // Offset: 0x1991DF4
-    void GenerateTable(System::Data::DataTable* table);
+    void GenerateTable(::System::Data::DataTable* table);
     // private System.Void GenerateTableErrors(System.Data.DataTable table)
     // Offset: 0x1991E74
-    void GenerateTableErrors(System::Data::DataTable* table);
+    void GenerateTableErrors(::System::Data::DataTable* table);
     // private System.Void GenerateRow(System.Data.DataRow row)
     // Offset: 0x19923A8
-    void GenerateRow(System::Data::DataRow* row);
+    void GenerateRow(::System::Data::DataRow* row);
     // private System.Void GenerateColumn(System.Data.DataRow row, System.Data.DataColumn col, System.Data.DataRowVersion version)
     // Offset: 0x19928D8
-    void GenerateColumn(System::Data::DataRow* row, System::Data::DataColumn* col, System::Data::DataRowVersion version);
+    void GenerateColumn(::System::Data::DataRow* row, ::System::Data::DataColumn* col, ::System::Data::DataRowVersion version);
     // static System.String QualifiedName(System.String prefix, System.String name)
     // Offset: 0x1993224
     static ::StringW QualifiedName(::StringW prefix, ::StringW name);
@@ -201,7 +201,7 @@ namespace System::Data {
 // Writing MetadataGetter for method: System::Data::NewDiffgramGen::CreateTableHierarchy
 // Il2CppName: CreateTableHierarchy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::NewDiffgramGen::*)(System::Data::DataTable*)>(&System::Data::NewDiffgramGen::CreateTableHierarchy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::NewDiffgramGen::*)(::System::Data::DataTable*)>(&System::Data::NewDiffgramGen::CreateTableHierarchy)> {
   static const MethodInfo* get() {
     static auto* dt = &::il2cpp_utils::GetClassFromName("System.Data", "DataTable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::NewDiffgramGen*), "CreateTableHierarchy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dt});
@@ -210,7 +210,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::NewDiffgramGen::DoAssignments
 // Il2CppName: DoAssignments
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::NewDiffgramGen::*)(System::Collections::ArrayList*)>(&System::Data::NewDiffgramGen::DoAssignments)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::NewDiffgramGen::*)(::System::Collections::ArrayList*)>(&System::Data::NewDiffgramGen::DoAssignments)> {
   static const MethodInfo* get() {
     static auto* tables = &::il2cpp_utils::GetClassFromName("System.Collections", "ArrayList")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::NewDiffgramGen*), "DoAssignments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tables});
@@ -227,7 +227,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Data::NewDiffgramGen::Save
 // Il2CppName: Save
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::NewDiffgramGen::*)(System::Xml::XmlWriter*)>(&System::Data::NewDiffgramGen::Save)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::NewDiffgramGen::*)(::System::Xml::XmlWriter*)>(&System::Data::NewDiffgramGen::Save)> {
   static const MethodInfo* get() {
     static auto* xmlw = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlWriter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::NewDiffgramGen*), "Save", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{xmlw});
@@ -236,7 +236,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::NewDiffgramGen::Save
 // Il2CppName: Save
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::NewDiffgramGen::*)(System::Xml::XmlWriter*, System::Data::DataTable*)>(&System::Data::NewDiffgramGen::Save)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::NewDiffgramGen::*)(::System::Xml::XmlWriter*, ::System::Data::DataTable*)>(&System::Data::NewDiffgramGen::Save)> {
   static const MethodInfo* get() {
     static auto* xmlw = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlWriter")->byval_arg;
     static auto* table = &::il2cpp_utils::GetClassFromName("System.Data", "DataTable")->byval_arg;
@@ -246,7 +246,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::NewDiffgramGen::GenerateTable
 // Il2CppName: GenerateTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::NewDiffgramGen::*)(System::Data::DataTable*)>(&System::Data::NewDiffgramGen::GenerateTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::NewDiffgramGen::*)(::System::Data::DataTable*)>(&System::Data::NewDiffgramGen::GenerateTable)> {
   static const MethodInfo* get() {
     static auto* table = &::il2cpp_utils::GetClassFromName("System.Data", "DataTable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::NewDiffgramGen*), "GenerateTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{table});
@@ -255,7 +255,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::NewDiffgramGen::GenerateTableErrors
 // Il2CppName: GenerateTableErrors
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::NewDiffgramGen::*)(System::Data::DataTable*)>(&System::Data::NewDiffgramGen::GenerateTableErrors)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::NewDiffgramGen::*)(::System::Data::DataTable*)>(&System::Data::NewDiffgramGen::GenerateTableErrors)> {
   static const MethodInfo* get() {
     static auto* table = &::il2cpp_utils::GetClassFromName("System.Data", "DataTable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::NewDiffgramGen*), "GenerateTableErrors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{table});
@@ -264,7 +264,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::NewDiffgramGen::GenerateRow
 // Il2CppName: GenerateRow
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::NewDiffgramGen::*)(System::Data::DataRow*)>(&System::Data::NewDiffgramGen::GenerateRow)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::NewDiffgramGen::*)(::System::Data::DataRow*)>(&System::Data::NewDiffgramGen::GenerateRow)> {
   static const MethodInfo* get() {
     static auto* row = &::il2cpp_utils::GetClassFromName("System.Data", "DataRow")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::NewDiffgramGen*), "GenerateRow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{row});
@@ -273,7 +273,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::NewDiffgramGen::GenerateColumn
 // Il2CppName: GenerateColumn
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::NewDiffgramGen::*)(System::Data::DataRow*, System::Data::DataColumn*, System::Data::DataRowVersion)>(&System::Data::NewDiffgramGen::GenerateColumn)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::NewDiffgramGen::*)(::System::Data::DataRow*, ::System::Data::DataColumn*, ::System::Data::DataRowVersion)>(&System::Data::NewDiffgramGen::GenerateColumn)> {
   static const MethodInfo* get() {
     static auto* row = &::il2cpp_utils::GetClassFromName("System.Data", "DataRow")->byval_arg;
     static auto* col = &::il2cpp_utils::GetClassFromName("System.Data", "DataColumn")->byval_arg;

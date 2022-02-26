@@ -79,8 +79,8 @@ namespace System {
   class String;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::String);
-DEFINE_IL2CPP_ARG_TYPE(System::String*, "System", "String");
+NEED_NO_BOX(::System::String);
+DEFINE_IL2CPP_ARG_TYPE(::System::String*, "System", "String");
 // Type namespace: System
 namespace System {
   // Size: 0x16
@@ -89,7 +89,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   // [DefaultMemberAttribute] Offset: 1187398
   // [ComVisibleAttribute] Offset: 1187398
-  class String : public ::Il2CppObject/*, public System::IComparable_1<::StringW>, public System::Collections::Generic::IEnumerable_1<::Il2CppChar>, public System::IEquatable_1<::StringW>, public System::ICloneable, public System::IComparable, public System::IConvertible*/ {
+  class String : public ::Il2CppObject/*, public ::System::IComparable_1<::StringW>, public ::System::Collections::Generic::IEnumerable_1<::Il2CppChar>, public ::System::IEquatable_1<::StringW>, public ::System::ICloneable, public ::System::IComparable, public ::System::IConvertible*/ {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -113,29 +113,29 @@ namespace System {
     // Field size check
     static_assert(sizeof(::Il2CppChar) == 0x2);
     public:
-    // Creating interface conversion operator: operator System::IComparable_1<::StringW>
-    operator System::IComparable_1<::StringW>() noexcept {
-      return *reinterpret_cast<System::IComparable_1<::StringW>*>(this);
+    // Creating interface conversion operator: operator ::System::IComparable_1<::StringW>
+    operator ::System::IComparable_1<::StringW>() noexcept {
+      return *reinterpret_cast<::System::IComparable_1<::StringW>*>(this);
     }
-    // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<::Il2CppChar>
-    operator System::Collections::Generic::IEnumerable_1<::Il2CppChar>() noexcept {
-      return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<::Il2CppChar>*>(this);
+    // Creating interface conversion operator: operator ::System::Collections::Generic::IEnumerable_1<::Il2CppChar>
+    operator ::System::Collections::Generic::IEnumerable_1<::Il2CppChar>() noexcept {
+      return *reinterpret_cast<::System::Collections::Generic::IEnumerable_1<::Il2CppChar>*>(this);
     }
-    // Creating interface conversion operator: operator System::IEquatable_1<::StringW>
-    operator System::IEquatable_1<::StringW>() noexcept {
-      return *reinterpret_cast<System::IEquatable_1<::StringW>*>(this);
+    // Creating interface conversion operator: operator ::System::IEquatable_1<::StringW>
+    operator ::System::IEquatable_1<::StringW>() noexcept {
+      return *reinterpret_cast<::System::IEquatable_1<::StringW>*>(this);
     }
-    // Creating interface conversion operator: operator System::ICloneable
-    operator System::ICloneable() noexcept {
-      return *reinterpret_cast<System::ICloneable*>(this);
+    // Creating interface conversion operator: operator ::System::ICloneable
+    operator ::System::ICloneable() noexcept {
+      return *reinterpret_cast<::System::ICloneable*>(this);
     }
-    // Creating interface conversion operator: operator System::IComparable
-    operator System::IComparable() noexcept {
-      return *reinterpret_cast<System::IComparable*>(this);
+    // Creating interface conversion operator: operator ::System::IComparable
+    operator ::System::IComparable() noexcept {
+      return *reinterpret_cast<::System::IComparable*>(this);
     }
-    // Creating interface conversion operator: operator System::IConvertible
-    operator System::IConvertible() noexcept {
-      return *reinterpret_cast<System::IConvertible*>(this);
+    // Creating interface conversion operator: operator ::System::IConvertible
+    operator ::System::IConvertible() noexcept {
+      return *reinterpret_cast<::System::IConvertible*>(this);
     }
     // static field const value: static private System.Int32 TrimHead
     static constexpr const int TrimHead = 0;
@@ -185,42 +185,42 @@ namespace System {
     // Offset: 0x1FFE904
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ::StringW New_ctor(::Il2CppChar* value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::String::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::String::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<::StringW*, creationType>(value)));
     }
     // public System.Void .ctor(System.Char* value, System.Int32 startIndex, System.Int32 length)
     // Offset: 0x1FFE908
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ::StringW New_ctor(::Il2CppChar* value, int startIndex, int length) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::String::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::String::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<::StringW*, creationType>(value, startIndex, length)));
     }
     // public System.Void .ctor(System.SByte* value, System.Int32 startIndex, System.Int32 length, System.Text.Encoding enc)
     // Offset: 0x1FFE90C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ::StringW New_ctor(int8_t* value, int startIndex, int length, System::Text::Encoding* enc) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::String::.ctor");
+    static ::StringW New_ctor(int8_t* value, int startIndex, int length, ::System::Text::Encoding* enc) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::String::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<::StringW*, creationType>(value, startIndex, length, enc)));
     }
     // public System.Void .ctor(System.Char[] value, System.Int32 startIndex, System.Int32 length)
     // Offset: 0x1FFEB74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ::StringW New_ctor(::ArrayW<::Il2CppChar> value, int startIndex, int length) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::String::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::String::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<::StringW*, creationType>(value, startIndex, length)));
     }
     // public System.Void .ctor(System.Char[] value)
     // Offset: 0x1FFEB78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ::StringW New_ctor(::ArrayW<::Il2CppChar> value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::String::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::String::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<::StringW*, creationType>(value)));
     }
     // public System.Void .ctor(System.Char c, System.Int32 count)
     // Offset: 0x1FFF22C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ::StringW New_ctor(::Il2CppChar c, int count) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::String::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::String::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<::StringW*, creationType>(c, count)));
     }
     // static public System.String Join(System.String separator, params System.String[] value)
@@ -229,15 +229,15 @@ namespace System {
     // static public System.String Join(System.String separator, System.Collections.Generic.IEnumerable`1<T> values)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static ::StringW Join(::StringW separator, System::Collections::Generic::IEnumerable_1<T>* values) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::String::Join");
+    static ::StringW Join(::StringW separator, ::System::Collections::Generic::IEnumerable_1<T>* values) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::String::Join");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System", "String", "Join", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(separator), ::il2cpp_utils::ExtractType(values)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, separator, values);
     }
     // static public System.String Join(System.String separator, System.Collections.Generic.IEnumerable`1<System.String> values)
     // Offset: 0x1FFC298
-    static ::StringW Join(::StringW separator, System::Collections::Generic::IEnumerable_1<::StringW>* values);
+    static ::StringW Join(::StringW separator, ::System::Collections::Generic::IEnumerable_1<::StringW>* values);
     // static public System.String Join(System.String separator, System.String[] value, System.Int32 startIndex, System.Int32 count)
     // Offset: 0x1FFBFF8
     static ::StringW Join(::StringW separator, ::ArrayW<::StringW> value, int startIndex, int count);
@@ -255,13 +255,13 @@ namespace System {
     bool Equals(::StringW value);
     // public System.Boolean Equals(System.String value, System.StringComparison comparisonType)
     // Offset: 0x1FFCC18
-    bool Equals(::StringW value, System::StringComparison comparisonType);
+    bool Equals(::StringW value, ::System::StringComparison comparisonType);
     // static public System.Boolean Equals(System.String a, System.String b)
     // Offset: 0x1FFCF0C
     static bool Equals(::StringW a, ::StringW b);
     // static public System.Boolean Equals(System.String a, System.String b, System.StringComparison comparisonType)
     // Offset: 0x1FFCF48
-    static bool Equals(::StringW a, ::StringW b, System::StringComparison comparisonType);
+    static bool Equals(::StringW a, ::StringW b, ::System::StringComparison comparisonType);
     // public System.Void CopyTo(System.Int32 sourceIndex, System.Char[] destination, System.Int32 destinationIndex, System.Int32 count)
     // Offset: 0x1FFD220
     void CopyTo(int sourceIndex, ::ArrayW<::Il2CppChar> destination, int destinationIndex, int count);
@@ -285,19 +285,19 @@ namespace System {
     ::ArrayW<::StringW> Split(::ArrayW<::Il2CppChar> separator, int count);
     // public System.String[] Split(System.Char[] separator, System.StringSplitOptions options)
     // Offset: 0x1FFD8E0
-    ::ArrayW<::StringW> Split(::ArrayW<::Il2CppChar> separator, System::StringSplitOptions options);
+    ::ArrayW<::StringW> Split(::ArrayW<::Il2CppChar> separator, ::System::StringSplitOptions options);
     // public System.String[] Split(System.Char[] separator, System.Int32 count, System.StringSplitOptions options)
     // Offset: 0x1FFD8EC
-    ::ArrayW<::StringW> Split(::ArrayW<::Il2CppChar> separator, int count, System::StringSplitOptions options);
+    ::ArrayW<::StringW> Split(::ArrayW<::Il2CppChar> separator, int count, ::System::StringSplitOptions options);
     // System.String[] SplitInternal(System.Char[] separator, System.Int32 count, System.StringSplitOptions options)
     // Offset: 0x1FFD678
-    ::ArrayW<::StringW> SplitInternal(::ArrayW<::Il2CppChar> separator, int count, System::StringSplitOptions options);
+    ::ArrayW<::StringW> SplitInternal(::ArrayW<::Il2CppChar> separator, int count, ::System::StringSplitOptions options);
     // public System.String[] Split(System.String[] separator, System.StringSplitOptions options)
     // Offset: 0x1FFDFC8
-    ::ArrayW<::StringW> Split(::ArrayW<::StringW> separator, System::StringSplitOptions options);
+    ::ArrayW<::StringW> Split(::ArrayW<::StringW> separator, ::System::StringSplitOptions options);
     // public System.String[] Split(System.String[] separator, System.Int32 count, System.StringSplitOptions options)
     // Offset: 0x1FFDFD4
-    ::ArrayW<::StringW> Split(::ArrayW<::StringW> separator, int count, System::StringSplitOptions options);
+    ::ArrayW<::StringW> Split(::ArrayW<::StringW> separator, int count, ::System::StringSplitOptions options);
     // private System.String[] InternalSplitKeepEmptyEntries(System.Int32[] sepList, System.Int32[] lengthList, System.Int32 numReplaces, System.Int32 count)
     // Offset: 0x1FFDDA4
     ::ArrayW<::StringW> InternalSplitKeepEmptyEntries(::ArrayW<int> sepList, ::ArrayW<int> lengthList, int numReplaces, int count);
@@ -330,10 +330,10 @@ namespace System {
     ::StringW TrimEnd(::ArrayW<::Il2CppChar> trimChars);
     // static System.String CreateStringFromEncoding(System.Byte* bytes, System.Int32 byteLength, System.Text.Encoding encoding)
     // Offset: 0x1FFE910
-    static ::StringW CreateStringFromEncoding(uint8_t* bytes, int byteLength, System::Text::Encoding* encoding);
+    static ::StringW CreateStringFromEncoding(uint8_t* bytes, int byteLength, ::System::Text::Encoding* encoding);
     // public System.String Normalize(System.Text.NormalizationForm normalizationForm)
     // Offset: 0x1FFE9E8
-    ::StringW Normalize(System::Text::NormalizationForm normalizationForm);
+    ::StringW Normalize(::System::Text::NormalizationForm normalizationForm);
     // static System.String FastAllocateString(System.Int32 length)
     // Offset: 0x1FFC76C
     static ::StringW FastAllocateString(int length);
@@ -366,16 +366,16 @@ namespace System {
     static int Compare(::StringW strA, ::StringW strB, bool ignoreCase);
     // static public System.Int32 Compare(System.String strA, System.String strB, System.StringComparison comparisonType)
     // Offset: 0x1FF9180
-    static int Compare(::StringW strA, ::StringW strB, System::StringComparison comparisonType);
+    static int Compare(::StringW strA, ::StringW strB, ::System::StringComparison comparisonType);
     // static public System.Int32 Compare(System.String strA, System.String strB, System.Boolean ignoreCase, System.Globalization.CultureInfo culture)
     // Offset: 0x1FFF3B8
-    static int Compare(::StringW strA, ::StringW strB, bool ignoreCase, System::Globalization::CultureInfo* culture);
+    static int Compare(::StringW strA, ::StringW strB, bool ignoreCase, ::System::Globalization::CultureInfo* culture);
     // static public System.Int32 Compare(System.String strA, System.Int32 indexA, System.String strB, System.Int32 indexB, System.Int32 length, System.Globalization.CultureInfo culture, System.Globalization.CompareOptions options)
     // Offset: 0x1FFF480
-    static int Compare(::StringW strA, int indexA, ::StringW strB, int indexB, int length, System::Globalization::CultureInfo* culture, System::Globalization::CompareOptions options);
+    static int Compare(::StringW strA, int indexA, ::StringW strB, int indexB, int length, ::System::Globalization::CultureInfo* culture, ::System::Globalization::CompareOptions options);
     // static public System.Int32 Compare(System.String strA, System.Int32 indexA, System.String strB, System.Int32 indexB, System.Int32 length, System.StringComparison comparisonType)
     // Offset: 0x1FFA004
-    static int Compare(::StringW strA, int indexA, ::StringW strB, int indexB, int length, System::StringComparison comparisonType);
+    static int Compare(::StringW strA, int indexA, ::StringW strB, int indexB, int length, ::System::StringComparison comparisonType);
     // public System.Int32 CompareTo(System.Object value)
     // Offset: 0x1FFF71C
     int CompareTo(::Il2CppObject* value);
@@ -396,7 +396,7 @@ namespace System {
     bool EndsWith(::StringW value);
     // public System.Boolean EndsWith(System.String value, System.StringComparison comparisonType)
     // Offset: 0x1FFF934
-    bool EndsWith(::StringW value, System::StringComparison comparisonType);
+    bool EndsWith(::StringW value, ::System::StringComparison comparisonType);
     // System.Boolean EndsWith(System.Char value)
     // Offset: 0x1FFFBC8
     bool EndsWith(::Il2CppChar value);
@@ -420,13 +420,13 @@ namespace System {
     int IndexOf(::StringW value, int startIndex);
     // public System.Int32 IndexOf(System.String value, System.StringComparison comparisonType)
     // Offset: 0x1FFF91C
-    int IndexOf(::StringW value, System::StringComparison comparisonType);
+    int IndexOf(::StringW value, ::System::StringComparison comparisonType);
     // public System.Int32 IndexOf(System.String value, System.Int32 startIndex, System.StringComparison comparisonType)
     // Offset: 0x1FFFEBC
-    int IndexOf(::StringW value, int startIndex, System::StringComparison comparisonType);
+    int IndexOf(::StringW value, int startIndex, ::System::StringComparison comparisonType);
     // public System.Int32 IndexOf(System.String value, System.Int32 startIndex, System.Int32 count, System.StringComparison comparisonType)
     // Offset: 0x1FFFECC
-    int IndexOf(::StringW value, int startIndex, int count, System::StringComparison comparisonType);
+    int IndexOf(::StringW value, int startIndex, int count, ::System::StringComparison comparisonType);
     // public System.Int32 LastIndexOf(System.Char value)
     // Offset: 0x2000270
     int LastIndexOf(::Il2CppChar value);
@@ -444,10 +444,10 @@ namespace System {
     int LastIndexOf(::StringW value);
     // public System.Int32 LastIndexOf(System.String value, System.StringComparison comparisonType)
     // Offset: 0x2000970
-    int LastIndexOf(::StringW value, System::StringComparison comparisonType);
+    int LastIndexOf(::StringW value, ::System::StringComparison comparisonType);
     // public System.Int32 LastIndexOf(System.String value, System.Int32 startIndex, System.Int32 count, System.StringComparison comparisonType)
     // Offset: 0x2000554
-    int LastIndexOf(::StringW value, int startIndex, int count, System::StringComparison comparisonType);
+    int LastIndexOf(::StringW value, int startIndex, int count, ::System::StringComparison comparisonType);
     // public System.String PadLeft(System.Int32 totalWidth, System.Char paddingChar)
     // Offset: 0x2000980
     ::StringW PadLeft(int totalWidth, ::Il2CppChar paddingChar);
@@ -459,13 +459,13 @@ namespace System {
     bool StartsWith(::StringW value);
     // public System.Boolean StartsWith(System.String value, System.StringComparison comparisonType)
     // Offset: 0x2000B78
-    bool StartsWith(::StringW value, System::StringComparison comparisonType);
+    bool StartsWith(::StringW value, ::System::StringComparison comparisonType);
     // public System.String ToLower()
     // Offset: 0x2000E14
     ::StringW ToLower();
     // public System.String ToLower(System.Globalization.CultureInfo culture)
     // Offset: 0x2000E84
-    ::StringW ToLower(System::Globalization::CultureInfo* culture);
+    ::StringW ToLower(::System::Globalization::CultureInfo* culture);
     // public System.String ToLowerInvariant()
     // Offset: 0x2000F34
     ::StringW ToLowerInvariant();
@@ -474,13 +474,13 @@ namespace System {
     ::StringW ToUpper();
     // public System.String ToUpper(System.Globalization.CultureInfo culture)
     // Offset: 0x2001014
-    ::StringW ToUpper(System::Globalization::CultureInfo* culture);
+    ::StringW ToUpper(::System::Globalization::CultureInfo* culture);
     // public System.String ToUpperInvariant()
     // Offset: 0x20010C4
     ::StringW ToUpperInvariant();
     // public System.String ToString(System.IFormatProvider provider)
     // Offset: 0x2001138
-    ::StringW ToString(System::IFormatProvider* provider);
+    ::StringW ToString(::System::IFormatProvider* provider);
     // public System.Object Clone()
     // Offset: 0x200113C
     ::Il2CppObject* Clone();
@@ -528,19 +528,19 @@ namespace System {
     static ::StringW Format(::StringW format, ::ArrayW<::Il2CppObject*> args);
     // static public System.String Format(System.IFormatProvider provider, System.String format, System.Object arg0)
     // Offset: 0x2001A34
-    static ::StringW Format(System::IFormatProvider* provider, ::StringW format, ::Il2CppObject* arg0);
+    static ::StringW Format(::System::IFormatProvider* provider, ::StringW format, ::Il2CppObject* arg0);
     // static public System.String Format(System.IFormatProvider provider, System.String format, System.Object arg0, System.Object arg1)
     // Offset: 0x2001A8C
-    static ::StringW Format(System::IFormatProvider* provider, ::StringW format, ::Il2CppObject* arg0, ::Il2CppObject* arg1);
+    static ::StringW Format(::System::IFormatProvider* provider, ::StringW format, ::Il2CppObject* arg0, ::Il2CppObject* arg1);
     // static public System.String Format(System.IFormatProvider provider, System.String format, System.Object arg0, System.Object arg1, System.Object arg2)
     // Offset: 0x2001AE8
-    static ::StringW Format(System::IFormatProvider* provider, ::StringW format, ::Il2CppObject* arg0, ::Il2CppObject* arg1, ::Il2CppObject* arg2);
+    static ::StringW Format(::System::IFormatProvider* provider, ::StringW format, ::Il2CppObject* arg0, ::Il2CppObject* arg1, ::Il2CppObject* arg2);
     // static public System.String Format(System.IFormatProvider provider, System.String format, params System.Object[] args)
     // Offset: 0x2001B48
-    static ::StringW Format(System::IFormatProvider* provider, ::StringW format, ::ArrayW<::Il2CppObject*> args);
+    static ::StringW Format(::System::IFormatProvider* provider, ::StringW format, ::ArrayW<::Il2CppObject*> args);
     // static private System.String FormatHelper(System.IFormatProvider provider, System.String format, System.ParamsArray args)
     // Offset: 0x2001824
-    static ::StringW FormatHelper(System::IFormatProvider* provider, ::StringW format, System::ParamsArray args);
+    static ::StringW FormatHelper(::System::IFormatProvider* provider, ::StringW format, ::System::ParamsArray args);
     // static public System.String Copy(System.String str)
     // Offset: 0x2001C24
     static ::StringW Copy(::StringW str);
@@ -576,58 +576,58 @@ namespace System {
     static ::StringW IsInterned(::StringW str);
     // public System.TypeCode GetTypeCode()
     // Offset: 0x2002618
-    System::TypeCode GetTypeCode();
+    ::System::TypeCode GetTypeCode();
     // private System.Boolean System.IConvertible.ToBoolean(System.IFormatProvider provider)
     // Offset: 0x2002620
-    bool System_IConvertible_ToBoolean(System::IFormatProvider* provider);
+    bool System_IConvertible_ToBoolean(::System::IFormatProvider* provider);
     // private System.Char System.IConvertible.ToChar(System.IFormatProvider provider)
     // Offset: 0x2002698
-    ::Il2CppChar System_IConvertible_ToChar(System::IFormatProvider* provider);
+    ::Il2CppChar System_IConvertible_ToChar(::System::IFormatProvider* provider);
     // private System.SByte System.IConvertible.ToSByte(System.IFormatProvider provider)
     // Offset: 0x2002710
-    int8_t System_IConvertible_ToSByte(System::IFormatProvider* provider);
+    int8_t System_IConvertible_ToSByte(::System::IFormatProvider* provider);
     // private System.Byte System.IConvertible.ToByte(System.IFormatProvider provider)
     // Offset: 0x2002788
-    uint8_t System_IConvertible_ToByte(System::IFormatProvider* provider);
+    uint8_t System_IConvertible_ToByte(::System::IFormatProvider* provider);
     // private System.Int16 System.IConvertible.ToInt16(System.IFormatProvider provider)
     // Offset: 0x2002800
-    int16_t System_IConvertible_ToInt16(System::IFormatProvider* provider);
+    int16_t System_IConvertible_ToInt16(::System::IFormatProvider* provider);
     // private System.UInt16 System.IConvertible.ToUInt16(System.IFormatProvider provider)
     // Offset: 0x2002878
-    uint16_t System_IConvertible_ToUInt16(System::IFormatProvider* provider);
+    uint16_t System_IConvertible_ToUInt16(::System::IFormatProvider* provider);
     // private System.Int32 System.IConvertible.ToInt32(System.IFormatProvider provider)
     // Offset: 0x20028F0
-    int System_IConvertible_ToInt32(System::IFormatProvider* provider);
+    int System_IConvertible_ToInt32(::System::IFormatProvider* provider);
     // private System.UInt32 System.IConvertible.ToUInt32(System.IFormatProvider provider)
     // Offset: 0x2002968
-    uint System_IConvertible_ToUInt32(System::IFormatProvider* provider);
+    uint System_IConvertible_ToUInt32(::System::IFormatProvider* provider);
     // private System.Int64 System.IConvertible.ToInt64(System.IFormatProvider provider)
     // Offset: 0x20029E0
-    int64_t System_IConvertible_ToInt64(System::IFormatProvider* provider);
+    int64_t System_IConvertible_ToInt64(::System::IFormatProvider* provider);
     // private System.UInt64 System.IConvertible.ToUInt64(System.IFormatProvider provider)
     // Offset: 0x2002A58
-    uint64_t System_IConvertible_ToUInt64(System::IFormatProvider* provider);
+    uint64_t System_IConvertible_ToUInt64(::System::IFormatProvider* provider);
     // private System.Single System.IConvertible.ToSingle(System.IFormatProvider provider)
     // Offset: 0x2002AD0
-    float System_IConvertible_ToSingle(System::IFormatProvider* provider);
+    float System_IConvertible_ToSingle(::System::IFormatProvider* provider);
     // private System.Double System.IConvertible.ToDouble(System.IFormatProvider provider)
     // Offset: 0x2002B48
-    double System_IConvertible_ToDouble(System::IFormatProvider* provider);
+    double System_IConvertible_ToDouble(::System::IFormatProvider* provider);
     // private System.Decimal System.IConvertible.ToDecimal(System.IFormatProvider provider)
     // Offset: 0x2002BC0
-    System::Decimal System_IConvertible_ToDecimal(System::IFormatProvider* provider);
+    ::System::Decimal System_IConvertible_ToDecimal(::System::IFormatProvider* provider);
     // private System.DateTime System.IConvertible.ToDateTime(System.IFormatProvider provider)
     // Offset: 0x2002C38
-    System::DateTime System_IConvertible_ToDateTime(System::IFormatProvider* provider);
+    ::System::DateTime System_IConvertible_ToDateTime(::System::IFormatProvider* provider);
     // private System.Object System.IConvertible.ToType(System.Type type, System.IFormatProvider provider)
     // Offset: 0x2002CB0
-    ::Il2CppObject* System_IConvertible_ToType(System::Type* type, System::IFormatProvider* provider);
+    ::Il2CppObject* System_IConvertible_ToType(::System::Type* type, ::System::IFormatProvider* provider);
     // private System.Collections.Generic.IEnumerator`1<System.Char> System.Collections.Generic.IEnumerable<System.Char>.GetEnumerator()
     // Offset: 0x2002D30
-    System::Collections::Generic::IEnumerator_1<::Il2CppChar>* System_Collections_Generic_IEnumerable$System_Char$_GetEnumerator();
+    ::System::Collections::Generic::IEnumerator_1<::Il2CppChar>* System_Collections_Generic_IEnumerable$System_Char$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
     // Offset: 0x2002D94
-    System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
+    ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // static System.Int32 CompareOrdinalUnchecked(System.String strA, System.Int32 indexA, System.Int32 lenA, System.String strB, System.Int32 indexB, System.Int32 lenB)
     // Offset: 0x2002E00
     static int CompareOrdinalUnchecked(::StringW strA, int indexA, int lenA, ::StringW strB, int indexB, int lenB);
@@ -744,7 +744,7 @@ namespace System {
     ::StringW CreateString(::Il2CppChar c, int count);
     // private System.String CreateString(System.SByte* value, System.Int32 startIndex, System.Int32 length, System.Text.Encoding enc)
     // Offset: 0x2003CE0
-    ::StringW CreateString(int8_t* value, int startIndex, int length, System::Text::Encoding* enc);
+    ::StringW CreateString(int8_t* value, int startIndex, int length, ::System::Text::Encoding* enc);
     // public override System.Boolean Equals(System.Object obj)
     // Offset: 0x1FFCB38
     // Implemented from: System.Object
@@ -829,7 +829,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::String::Join
 // Il2CppName: Join
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, System::Collections::Generic::IEnumerable_1<::StringW>*)>(&System::String::Join)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::System::Collections::Generic::IEnumerable_1<::StringW>*)>(&System::String::Join)> {
   static const MethodInfo* get() {
     static auto* separator = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* values = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
@@ -890,7 +890,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::String::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::String::*)(::StringW, System::StringComparison)>(&System::String::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::String::*)(::StringW, ::System::StringComparison)>(&System::String::Equals)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* comparisonType = &::il2cpp_utils::GetClassFromName("System", "StringComparison")->byval_arg;
@@ -910,7 +910,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::String::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW, System::StringComparison)>(&System::String::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW, ::System::StringComparison)>(&System::String::Equals)> {
   static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -986,7 +986,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: System::String::Split
 // Il2CppName: Split
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW> (System::String::*)(::ArrayW<::Il2CppChar>, System::StringSplitOptions)>(&System::String::Split)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW> (System::String::*)(::ArrayW<::Il2CppChar>, ::System::StringSplitOptions)>(&System::String::Split)> {
   static const MethodInfo* get() {
     static auto* separator = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* options = &::il2cpp_utils::GetClassFromName("System", "StringSplitOptions")->byval_arg;
@@ -996,7 +996,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: System::String::Split
 // Il2CppName: Split
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW> (System::String::*)(::ArrayW<::Il2CppChar>, int, System::StringSplitOptions)>(&System::String::Split)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW> (System::String::*)(::ArrayW<::Il2CppChar>, int, ::System::StringSplitOptions)>(&System::String::Split)> {
   static const MethodInfo* get() {
     static auto* separator = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1007,7 +1007,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: System::String::SplitInternal
 // Il2CppName: SplitInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW> (System::String::*)(::ArrayW<::Il2CppChar>, int, System::StringSplitOptions)>(&System::String::SplitInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW> (System::String::*)(::ArrayW<::Il2CppChar>, int, ::System::StringSplitOptions)>(&System::String::SplitInternal)> {
   static const MethodInfo* get() {
     static auto* separator = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1018,7 +1018,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: System::String::Split
 // Il2CppName: Split
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW> (System::String::*)(::ArrayW<::StringW>, System::StringSplitOptions)>(&System::String::Split)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW> (System::String::*)(::ArrayW<::StringW>, ::System::StringSplitOptions)>(&System::String::Split)> {
   static const MethodInfo* get() {
     static auto* separator = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* options = &::il2cpp_utils::GetClassFromName("System", "StringSplitOptions")->byval_arg;
@@ -1028,7 +1028,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: System::String::Split
 // Il2CppName: Split
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW> (System::String::*)(::ArrayW<::StringW>, int, System::StringSplitOptions)>(&System::String::Split)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW> (System::String::*)(::ArrayW<::StringW>, int, ::System::StringSplitOptions)>(&System::String::Split)> {
   static const MethodInfo* get() {
     static auto* separator = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1140,7 +1140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::String::CreateStringFromEncoding
 // Il2CppName: CreateStringFromEncoding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(uint8_t*, int, System::Text::Encoding*)>(&System::String::CreateStringFromEncoding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(uint8_t*, int, ::System::Text::Encoding*)>(&System::String::CreateStringFromEncoding)> {
   static const MethodInfo* get() {
     static auto* bytes = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Byte"))->byval_arg;
     static auto* byteLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1151,7 +1151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::String::Normalize
 // Il2CppName: Normalize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::String::*)(System::Text::NormalizationForm)>(&System::String::Normalize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::String::*)(::System::Text::NormalizationForm)>(&System::String::Normalize)> {
   static const MethodInfo* get() {
     static auto* normalizationForm = &::il2cpp_utils::GetClassFromName("System.Text", "NormalizationForm")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "Normalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{normalizationForm});
@@ -1261,7 +1261,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::S
 // Writing MetadataGetter for method: System::String::Compare
 // Il2CppName: Compare
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::StringW, ::StringW, System::StringComparison)>(&System::String::Compare)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::StringW, ::StringW, ::System::StringComparison)>(&System::String::Compare)> {
   static const MethodInfo* get() {
     static auto* strA = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* strB = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1272,7 +1272,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::S
 // Writing MetadataGetter for method: System::String::Compare
 // Il2CppName: Compare
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::StringW, ::StringW, bool, System::Globalization::CultureInfo*)>(&System::String::Compare)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::StringW, ::StringW, bool, ::System::Globalization::CultureInfo*)>(&System::String::Compare)> {
   static const MethodInfo* get() {
     static auto* strA = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* strB = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1284,7 +1284,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::S
 // Writing MetadataGetter for method: System::String::Compare
 // Il2CppName: Compare
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::StringW, int, ::StringW, int, int, System::Globalization::CultureInfo*, System::Globalization::CompareOptions)>(&System::String::Compare)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::StringW, int, ::StringW, int, int, ::System::Globalization::CultureInfo*, ::System::Globalization::CompareOptions)>(&System::String::Compare)> {
   static const MethodInfo* get() {
     static auto* strA = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* indexA = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1299,7 +1299,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::S
 // Writing MetadataGetter for method: System::String::Compare
 // Il2CppName: Compare
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::StringW, int, ::StringW, int, int, System::StringComparison)>(&System::String::Compare)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::StringW, int, ::StringW, int, int, ::System::StringComparison)>(&System::String::Compare)> {
   static const MethodInfo* get() {
     static auto* strA = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* indexA = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1372,7 +1372,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::String::EndsWith
 // Il2CppName: EndsWith
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::String::*)(::StringW, System::StringComparison)>(&System::String::EndsWith)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::String::*)(::StringW, ::System::StringComparison)>(&System::String::EndsWith)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* comparisonType = &::il2cpp_utils::GetClassFromName("System", "StringComparison")->byval_arg;
@@ -1448,7 +1448,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::String::IndexOf
 // Il2CppName: IndexOf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::String::*)(::StringW, System::StringComparison)>(&System::String::IndexOf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::String::*)(::StringW, ::System::StringComparison)>(&System::String::IndexOf)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* comparisonType = &::il2cpp_utils::GetClassFromName("System", "StringComparison")->byval_arg;
@@ -1458,7 +1458,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::String::IndexOf
 // Il2CppName: IndexOf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::String::*)(::StringW, int, System::StringComparison)>(&System::String::IndexOf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::String::*)(::StringW, int, ::System::StringComparison)>(&System::String::IndexOf)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1469,7 +1469,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::String::IndexOf
 // Il2CppName: IndexOf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::String::*)(::StringW, int, int, System::StringComparison)>(&System::String::IndexOf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::String::*)(::StringW, int, int, ::System::StringComparison)>(&System::String::IndexOf)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1528,7 +1528,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::String::LastIndexOf
 // Il2CppName: LastIndexOf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::String::*)(::StringW, System::StringComparison)>(&System::String::LastIndexOf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::String::*)(::StringW, ::System::StringComparison)>(&System::String::LastIndexOf)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* comparisonType = &::il2cpp_utils::GetClassFromName("System", "StringComparison")->byval_arg;
@@ -1538,7 +1538,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::String::LastIndexOf
 // Il2CppName: LastIndexOf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::String::*)(::StringW, int, int, System::StringComparison)>(&System::String::LastIndexOf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::String::*)(::StringW, int, int, ::System::StringComparison)>(&System::String::LastIndexOf)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1579,7 +1579,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::String::StartsWith
 // Il2CppName: StartsWith
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::String::*)(::StringW, System::StringComparison)>(&System::String::StartsWith)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::String::*)(::StringW, ::System::StringComparison)>(&System::String::StartsWith)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* comparisonType = &::il2cpp_utils::GetClassFromName("System", "StringComparison")->byval_arg;
@@ -1597,7 +1597,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::String::ToLower
 // Il2CppName: ToLower
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::String::*)(System::Globalization::CultureInfo*)>(&System::String::ToLower)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::String::*)(::System::Globalization::CultureInfo*)>(&System::String::ToLower)> {
   static const MethodInfo* get() {
     static auto* culture = &::il2cpp_utils::GetClassFromName("System.Globalization", "CultureInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "ToLower", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{culture});
@@ -1622,7 +1622,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::String::ToUpper
 // Il2CppName: ToUpper
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::String::*)(System::Globalization::CultureInfo*)>(&System::String::ToUpper)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::String::*)(::System::Globalization::CultureInfo*)>(&System::String::ToUpper)> {
   static const MethodInfo* get() {
     static auto* culture = &::il2cpp_utils::GetClassFromName("System.Globalization", "CultureInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "ToUpper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{culture});
@@ -1639,7 +1639,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::String::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::String::*)(System::IFormatProvider*)>(&System::String::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::String::*)(::System::IFormatProvider*)>(&System::String::ToString)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -1794,7 +1794,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::String::Format
 // Il2CppName: Format
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IFormatProvider*, ::StringW, ::Il2CppObject*)>(&System::String::Format)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IFormatProvider*, ::StringW, ::Il2CppObject*)>(&System::String::Format)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1805,7 +1805,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::String::Format
 // Il2CppName: Format
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IFormatProvider*, ::StringW, ::Il2CppObject*, ::Il2CppObject*)>(&System::String::Format)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IFormatProvider*, ::StringW, ::Il2CppObject*, ::Il2CppObject*)>(&System::String::Format)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1817,7 +1817,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::String::Format
 // Il2CppName: Format
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IFormatProvider*, ::StringW, ::Il2CppObject*, ::Il2CppObject*, ::Il2CppObject*)>(&System::String::Format)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IFormatProvider*, ::StringW, ::Il2CppObject*, ::Il2CppObject*, ::Il2CppObject*)>(&System::String::Format)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1830,7 +1830,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::String::Format
 // Il2CppName: Format
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IFormatProvider*, ::StringW, ::ArrayW<::Il2CppObject*>)>(&System::String::Format)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IFormatProvider*, ::StringW, ::ArrayW<::Il2CppObject*>)>(&System::String::Format)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1841,7 +1841,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::String::FormatHelper
 // Il2CppName: FormatHelper
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IFormatProvider*, ::StringW, System::ParamsArray)>(&System::String::FormatHelper)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IFormatProvider*, ::StringW, ::System::ParamsArray)>(&System::String::FormatHelper)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1961,7 +1961,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::String::GetTypeCode
 // Il2CppName: GetTypeCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TypeCode (System::String::*)()>(&System::String::GetTypeCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TypeCode (System::String::*)()>(&System::String::GetTypeCode)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::String*), "GetTypeCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1969,7 +1969,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: System::String::System_IConvertible_ToBoolean
 // Il2CppName: System.IConvertible.ToBoolean
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::String::*)(System::IFormatProvider*)>(&System::String::System_IConvertible_ToBoolean)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::String::*)(::System::IFormatProvider*)>(&System::String::System_IConvertible_ToBoolean)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "System.IConvertible.ToBoolean", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -1978,7 +1978,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::String::System_IConvertible_ToChar
 // Il2CppName: System.IConvertible.ToChar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (System::String::*)(System::IFormatProvider*)>(&System::String::System_IConvertible_ToChar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (System::String::*)(::System::IFormatProvider*)>(&System::String::System_IConvertible_ToChar)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "System.IConvertible.ToChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -1987,7 +1987,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppCha
 // Writing MetadataGetter for method: System::String::System_IConvertible_ToSByte
 // Il2CppName: System.IConvertible.ToSByte
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (System::String::*)(System::IFormatProvider*)>(&System::String::System_IConvertible_ToSByte)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (System::String::*)(::System::IFormatProvider*)>(&System::String::System_IConvertible_ToSByte)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "System.IConvertible.ToSByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -1996,7 +1996,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (Sys
 // Writing MetadataGetter for method: System::String::System_IConvertible_ToByte
 // Il2CppName: System.IConvertible.ToByte
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (System::String::*)(System::IFormatProvider*)>(&System::String::System_IConvertible_ToByte)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (System::String::*)(::System::IFormatProvider*)>(&System::String::System_IConvertible_ToByte)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "System.IConvertible.ToByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -2005,7 +2005,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (Sy
 // Writing MetadataGetter for method: System::String::System_IConvertible_ToInt16
 // Il2CppName: System.IConvertible.ToInt16
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (System::String::*)(System::IFormatProvider*)>(&System::String::System_IConvertible_ToInt16)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (System::String::*)(::System::IFormatProvider*)>(&System::String::System_IConvertible_ToInt16)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "System.IConvertible.ToInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -2014,7 +2014,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (Sy
 // Writing MetadataGetter for method: System::String::System_IConvertible_ToUInt16
 // Il2CppName: System.IConvertible.ToUInt16
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (System::String::*)(System::IFormatProvider*)>(&System::String::System_IConvertible_ToUInt16)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (System::String::*)(::System::IFormatProvider*)>(&System::String::System_IConvertible_ToUInt16)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "System.IConvertible.ToUInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -2023,7 +2023,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (S
 // Writing MetadataGetter for method: System::String::System_IConvertible_ToInt32
 // Il2CppName: System.IConvertible.ToInt32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::String::*)(System::IFormatProvider*)>(&System::String::System_IConvertible_ToInt32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::String::*)(::System::IFormatProvider*)>(&System::String::System_IConvertible_ToInt32)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "System.IConvertible.ToInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -2032,7 +2032,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::String::System_IConvertible_ToUInt32
 // Il2CppName: System.IConvertible.ToUInt32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (System::String::*)(System::IFormatProvider*)>(&System::String::System_IConvertible_ToUInt32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (System::String::*)(::System::IFormatProvider*)>(&System::String::System_IConvertible_ToUInt32)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "System.IConvertible.ToUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -2041,7 +2041,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Syste
 // Writing MetadataGetter for method: System::String::System_IConvertible_ToInt64
 // Il2CppName: System.IConvertible.ToInt64
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::String::*)(System::IFormatProvider*)>(&System::String::System_IConvertible_ToInt64)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::String::*)(::System::IFormatProvider*)>(&System::String::System_IConvertible_ToInt64)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "System.IConvertible.ToInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -2050,7 +2050,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Sy
 // Writing MetadataGetter for method: System::String::System_IConvertible_ToUInt64
 // Il2CppName: System.IConvertible.ToUInt64
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (System::String::*)(System::IFormatProvider*)>(&System::String::System_IConvertible_ToUInt64)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (System::String::*)(::System::IFormatProvider*)>(&System::String::System_IConvertible_ToUInt64)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "System.IConvertible.ToUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -2059,7 +2059,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (S
 // Writing MetadataGetter for method: System::String::System_IConvertible_ToSingle
 // Il2CppName: System.IConvertible.ToSingle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (System::String::*)(System::IFormatProvider*)>(&System::String::System_IConvertible_ToSingle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (System::String::*)(::System::IFormatProvider*)>(&System::String::System_IConvertible_ToSingle)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "System.IConvertible.ToSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -2068,7 +2068,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Syst
 // Writing MetadataGetter for method: System::String::System_IConvertible_ToDouble
 // Il2CppName: System.IConvertible.ToDouble
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (System::String::*)(System::IFormatProvider*)>(&System::String::System_IConvertible_ToDouble)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (System::String::*)(::System::IFormatProvider*)>(&System::String::System_IConvertible_ToDouble)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "System.IConvertible.ToDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -2077,7 +2077,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (Sys
 // Writing MetadataGetter for method: System::String::System_IConvertible_ToDecimal
 // Il2CppName: System.IConvertible.ToDecimal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (System::String::*)(System::IFormatProvider*)>(&System::String::System_IConvertible_ToDecimal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (System::String::*)(::System::IFormatProvider*)>(&System::String::System_IConvertible_ToDecimal)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "System.IConvertible.ToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -2086,7 +2086,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dec
 // Writing MetadataGetter for method: System::String::System_IConvertible_ToDateTime
 // Il2CppName: System.IConvertible.ToDateTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (System::String::*)(System::IFormatProvider*)>(&System::String::System_IConvertible_ToDateTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (System::String::*)(::System::IFormatProvider*)>(&System::String::System_IConvertible_ToDateTime)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "System.IConvertible.ToDateTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
@@ -2095,7 +2095,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::String::System_IConvertible_ToType
 // Il2CppName: System.IConvertible.ToType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::String::*)(System::Type*, System::IFormatProvider*)>(&System::String::System_IConvertible_ToType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::String::*)(::System::Type*, ::System::IFormatProvider*)>(&System::String::System_IConvertible_ToType)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
@@ -2105,7 +2105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::String::System_Collections_Generic_IEnumerable$System_Char$_GetEnumerator
 // Il2CppName: System.Collections.Generic.IEnumerable<System.Char>.GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerator_1<::Il2CppChar>* (System::String::*)()>(&System::String::System_Collections_Generic_IEnumerable$System_Char$_GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerator_1<::Il2CppChar>* (System::String::*)()>(&System::String::System_Collections_Generic_IEnumerable$System_Char$_GetEnumerator)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::String*), "System.Collections.Generic.IEnumerable<System.Char>.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2113,7 +2113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::String::System_Collections_IEnumerable_GetEnumerator
 // Il2CppName: System.Collections.IEnumerable.GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (System::String::*)()>(&System::String::System_Collections_IEnumerable_GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (System::String::*)()>(&System::String::System_Collections_IEnumerable_GetEnumerator)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::String*), "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2522,7 +2522,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::String::CreateString
 // Il2CppName: CreateString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::String::*)(int8_t*, int, int, System::Text::Encoding*)>(&System::String::CreateString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::String::*)(int8_t*, int, int, ::System::Text::Encoding*)>(&System::String::CreateString)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "SByte"))->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

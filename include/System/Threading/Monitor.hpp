@@ -12,8 +12,8 @@ namespace System::Threading {
   class Monitor;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Threading::Monitor);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::Monitor*, "System.Threading", "Monitor");
+NEED_NO_BOX(::System::Threading::Monitor);
+DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Monitor*, "System.Threading", "Monitor");
 // Type namespace: System.Threading
 namespace System::Threading {
   // Size: 0x10

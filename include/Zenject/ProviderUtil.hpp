@@ -19,8 +19,8 @@ namespace Zenject {
   class ProviderUtil;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::ProviderUtil);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::ProviderUtil*, "Zenject", "ProviderUtil");
+NEED_NO_BOX(::Zenject::ProviderUtil);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::ProviderUtil*, "Zenject", "ProviderUtil");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x10
@@ -31,7 +31,7 @@ namespace Zenject {
     public:
     // static public System.Type GetTypeToInstantiate(System.Type contractType, System.Type concreteType)
     // Offset: 0x1B14CC0
-    static System::Type* GetTypeToInstantiate(System::Type* contractType, System::Type* concreteType);
+    static ::System::Type* GetTypeToInstantiate(::System::Type* contractType, ::System::Type* concreteType);
   }; // Zenject.ProviderUtil
   #pragma pack(pop)
 }
@@ -39,7 +39,7 @@ namespace Zenject {
 // Writing MetadataGetter for method: Zenject::ProviderUtil::GetTypeToInstantiate
 // Il2CppName: GetTypeToInstantiate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(System::Type*, System::Type*)>(&Zenject::ProviderUtil::GetTypeToInstantiate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Type*, ::System::Type*)>(&Zenject::ProviderUtil::GetTypeToInstantiate)> {
   static const MethodInfo* get() {
     static auto* contractType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* concreteType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;

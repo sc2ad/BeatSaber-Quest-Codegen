@@ -31,8 +31,8 @@ namespace UnityEngine::TextCore {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(TMPro::TMP_FontAsset::$$c);
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_FontAsset::$$c*, "TMPro", "TMP_FontAsset/<>c");
+NEED_NO_BOX(::TMPro::TMP_FontAsset::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_FontAsset::$$c*, "TMPro", "TMP_FontAsset/<>c");
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0x10
@@ -43,33 +43,33 @@ namespace TMPro {
   class TMP_FontAsset::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly TMPro.TMP_FontAsset/TMPro.<>c <>9
-    static TMPro::TMP_FontAsset::$$c* _get_$$9();
+    static ::TMPro::TMP_FontAsset::$$c* _get_$$9();
     // Set static field: static public readonly TMPro.TMP_FontAsset/TMPro.<>c <>9
-    static void _set_$$9(TMPro::TMP_FontAsset::$$c* value);
+    static void _set_$$9(::TMPro::TMP_FontAsset::$$c* value);
     // Get static field: static public System.Func`2<TMPro.TMP_Character,System.UInt32> <>9__100_0
-    static System::Func_2<TMPro::TMP_Character*, uint>* _get_$$9__100_0();
+    static ::System::Func_2<::TMPro::TMP_Character*, uint>* _get_$$9__100_0();
     // Set static field: static public System.Func`2<TMPro.TMP_Character,System.UInt32> <>9__100_0
-    static void _set_$$9__100_0(System::Func_2<TMPro::TMP_Character*, uint>* value);
+    static void _set_$$9__100_0(::System::Func_2<::TMPro::TMP_Character*, uint>* value);
     // Get static field: static public System.Func`2<UnityEngine.TextCore.Glyph,System.UInt32> <>9__101_0
-    static System::Func_2<UnityEngine::TextCore::Glyph*, uint>* _get_$$9__101_0();
+    static ::System::Func_2<::UnityEngine::TextCore::Glyph*, uint>* _get_$$9__101_0();
     // Set static field: static public System.Func`2<UnityEngine.TextCore.Glyph,System.UInt32> <>9__101_0
-    static void _set_$$9__101_0(System::Func_2<UnityEngine::TextCore::Glyph*, uint>* value);
+    static void _set_$$9__101_0(::System::Func_2<::UnityEngine::TextCore::Glyph*, uint>* value);
     // static private System.Void .cctor()
     // Offset: 0x1412764
     static void _cctor();
     // System.UInt32 <SortCharacterTable>b__100_0(TMPro.TMP_Character c)
     // Offset: 0x14127D0
-    uint $SortCharacterTable$b__100_0(TMPro::TMP_Character* c);
+    uint $SortCharacterTable$b__100_0(::TMPro::TMP_Character* c);
     // System.UInt32 <SortGlyphTable>b__101_0(UnityEngine.TextCore.Glyph c)
     // Offset: 0x14127E8
-    uint $SortGlyphTable$b__101_0(UnityEngine::TextCore::Glyph* c);
+    uint $SortGlyphTable$b__101_0(::UnityEngine::TextCore::Glyph* c);
     // public System.Void .ctor()
     // Offset: 0x14127C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_FontAsset::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_FontAsset::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_FontAsset::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_FontAsset::$$c*, creationType>()));
     }
   }; // TMPro.TMP_FontAsset/TMPro.<>c
@@ -87,7 +87,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::$$c::$SortCharacterTable$b__100_0
 // Il2CppName: <SortCharacterTable>b__100_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (TMPro::TMP_FontAsset::$$c::*)(TMPro::TMP_Character*)>(&TMPro::TMP_FontAsset::$$c::$SortCharacterTable$b__100_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (TMPro::TMP_FontAsset::$$c::*)(::TMPro::TMP_Character*)>(&TMPro::TMP_FontAsset::$$c::$SortCharacterTable$b__100_0)> {
   static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_Character")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset::$$c*), "<SortCharacterTable>b__100_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
@@ -96,7 +96,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::$$c::$SortGlyphTable$b__101_0
 // Il2CppName: <SortGlyphTable>b__101_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (TMPro::TMP_FontAsset::$$c::*)(UnityEngine::TextCore::Glyph*)>(&TMPro::TMP_FontAsset::$$c::$SortGlyphTable$b__101_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (TMPro::TMP_FontAsset::$$c::*)(::UnityEngine::TextCore::Glyph*)>(&TMPro::TMP_FontAsset::$$c::$SortGlyphTable$b__101_0)> {
   static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("UnityEngine.TextCore", "Glyph")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset::$$c*), "<SortGlyphTable>b__101_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});

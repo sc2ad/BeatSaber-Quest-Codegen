@@ -21,8 +21,8 @@ namespace Oculus::Platform::Models {
   class PartyUpdateNotification;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::PartyUpdateNotification);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::PartyUpdateNotification*, "Oculus.Platform.Models", "PartyUpdateNotification");
+NEED_NO_BOX(::Oculus::Platform::Models::PartyUpdateNotification);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::PartyUpdateNotification*, "Oculus.Platform.Models", "PartyUpdateNotification");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x48
@@ -43,9 +43,9 @@ namespace Oculus::Platform::Models {
     // public readonly Oculus.Platform.PartyUpdateAction Action
     // Size: 0x4
     // Offset: 0x10
-    Oculus::Platform::PartyUpdateAction Action;
+    ::Oculus::Platform::PartyUpdateAction Action;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::PartyUpdateAction) == 0x4);
+    static_assert(sizeof(::Oculus::Platform::PartyUpdateAction) == 0x4);
     // Padding between fields: Action and: PartyId
     char __padding0[0x4] = {};
     // public readonly System.UInt64 PartyId
@@ -86,7 +86,7 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public readonly Oculus.Platform.PartyUpdateAction Action
-    Oculus::Platform::PartyUpdateAction& dyn_Action();
+    ::Oculus::Platform::PartyUpdateAction& dyn_Action();
     // Get instance field reference: public readonly System.UInt64 PartyId
     uint64_t& dyn_PartyId();
     // Get instance field reference: public readonly System.UInt64 SenderId
@@ -102,8 +102,8 @@ namespace Oculus::Platform::Models {
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x196A6A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PartyUpdateNotification* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::PartyUpdateNotification::.ctor");
+    static PartyUpdateNotification* New_ctor(::System::IntPtr o) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::PartyUpdateNotification::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PartyUpdateNotification*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.PartyUpdateNotification

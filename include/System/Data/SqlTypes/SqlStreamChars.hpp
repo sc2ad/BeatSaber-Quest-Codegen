@@ -20,8 +20,8 @@ namespace System::Data::SqlTypes {
   class SqlStreamChars;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Data::SqlTypes::SqlStreamChars);
-DEFINE_IL2CPP_ARG_TYPE(System::Data::SqlTypes::SqlStreamChars*, "System.Data.SqlTypes", "SqlStreamChars");
+NEED_NO_BOX(::System::Data::SqlTypes::SqlStreamChars);
+DEFINE_IL2CPP_ARG_TYPE(::System::Data::SqlTypes::SqlStreamChars*, "System.Data.SqlTypes", "SqlStreamChars");
 // Type namespace: System.Data.SqlTypes
 namespace System::Data::SqlTypes {
   // Size: 0x10
@@ -41,7 +41,7 @@ namespace System::Data::SqlTypes {
     int Read(::ArrayW<::Il2CppChar> buffer, int offset, int count);
     // public System.Int64 Seek(System.Int64 offset, System.IO.SeekOrigin origin)
     // Offset: 0xFFFFFFFF
-    int64_t Seek(int64_t offset, System::IO::SeekOrigin origin);
+    int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
   }; // System.Data.SqlTypes.SqlStreamChars
   #pragma pack(pop)
 }
@@ -76,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Data::SqlTypes::SqlStreamChars::Seek
 // Il2CppName: Seek
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::Data::SqlTypes::SqlStreamChars::*)(int64_t, System::IO::SeekOrigin)>(&System::Data::SqlTypes::SqlStreamChars::Seek)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::Data::SqlTypes::SqlStreamChars::*)(int64_t, ::System::IO::SeekOrigin)>(&System::Data::SqlTypes::SqlStreamChars::Seek)> {
   static const MethodInfo* get() {
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     static auto* origin = &::il2cpp_utils::GetClassFromName("System.IO", "SeekOrigin")->byval_arg;

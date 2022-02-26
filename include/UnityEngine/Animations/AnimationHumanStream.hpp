@@ -15,7 +15,7 @@ namespace UnityEngine::Animations {
   struct AnimationHumanStream;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationHumanStream, "UnityEngine.Animations", "AnimationHumanStream");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Animations::AnimationHumanStream, "UnityEngine.Animations", "AnimationHumanStream");
 // Type namespace: UnityEngine.Animations
 namespace UnityEngine::Animations {
   // Size: 0x8
@@ -27,31 +27,31 @@ namespace UnityEngine::Animations {
   // [RequiredByNativeCodeAttribute] Offset: 11BFC60
   // [NativeHeaderAttribute] Offset: 11BFC60
   // [MovedFromAttribute] Offset: 11BFC60
-  struct AnimationHumanStream/*, public System::ValueType*/ {
+  struct AnimationHumanStream/*, public ::System::ValueType*/ {
     public:
     public:
     // private System.IntPtr stream
     // Size: 0x8
     // Offset: 0x0
-    System::IntPtr stream;
+    ::System::IntPtr stream;
     // Field size check
-    static_assert(sizeof(System::IntPtr) == 0x8);
+    static_assert(sizeof(::System::IntPtr) == 0x8);
     public:
     // Creating value type constructor for type: AnimationHumanStream
-    constexpr AnimationHumanStream(System::IntPtr stream_ = {}) noexcept : stream{stream_} {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    constexpr AnimationHumanStream(::System::IntPtr stream_ = {}) noexcept : stream{stream_} {}
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
-    // Creating conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const noexcept {
+    // Creating conversion operator: operator ::System::IntPtr
+    constexpr operator ::System::IntPtr() const noexcept {
       return stream;
     }
     // Get instance field reference: private System.IntPtr stream
-    System::IntPtr& dyn_stream();
+    ::System::IntPtr& dyn_stream();
   }; // UnityEngine.Animations.AnimationHumanStream
   #pragma pack(pop)
-  static check_size<sizeof(AnimationHumanStream), 0 + sizeof(System::IntPtr)> __UnityEngine_Animations_AnimationHumanStreamSizeCheck;
+  static check_size<sizeof(AnimationHumanStream), 0 + sizeof(::System::IntPtr)> __UnityEngine_Animations_AnimationHumanStreamSizeCheck;
   static_assert(sizeof(AnimationHumanStream) == 0x8);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

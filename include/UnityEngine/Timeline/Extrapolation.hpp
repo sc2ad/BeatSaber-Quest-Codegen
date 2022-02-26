@@ -22,8 +22,8 @@ namespace UnityEngine::Timeline {
   class Extrapolation;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Timeline::Extrapolation);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::Extrapolation*, "UnityEngine.Timeline", "Extrapolation");
+NEED_NO_BOX(::UnityEngine::Timeline::Extrapolation);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::Extrapolation*, "UnityEngine.Timeline", "Extrapolation");
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
   // Size: 0x10
@@ -33,7 +33,7 @@ namespace UnityEngine::Timeline {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class Extrapolation : public ::Il2CppObject {
     public:
-    // Nested type: UnityEngine::Timeline::Extrapolation::$$c
+    // Nested type: ::UnityEngine::Timeline::Extrapolation::$$c
     class $$c;
     // Get static field: static readonly System.Double kMinExtrapolationTime
     static double _get_kMinExtrapolationTime();
@@ -44,10 +44,10 @@ namespace UnityEngine::Timeline {
     static void _cctor();
     // static System.Void CalculateExtrapolationTimes(UnityEngine.Timeline.TrackAsset asset)
     // Offset: 0x1C9C020
-    static void CalculateExtrapolationTimes(UnityEngine::Timeline::TrackAsset* asset);
+    static void CalculateExtrapolationTimes(::UnityEngine::Timeline::TrackAsset* asset);
     // static private UnityEngine.Timeline.TimelineClip[] SortClipsByStartTime(UnityEngine.Timeline.TimelineClip[] clips)
     // Offset: 0x1C9C45C
-    static ::ArrayW<UnityEngine::Timeline::TimelineClip*> SortClipsByStartTime(::ArrayW<UnityEngine::Timeline::TimelineClip*> clips);
+    static ::ArrayW<::UnityEngine::Timeline::TimelineClip*> SortClipsByStartTime(::ArrayW<::UnityEngine::Timeline::TimelineClip*> clips);
   }; // UnityEngine.Timeline.Extrapolation
   #pragma pack(pop)
 }
@@ -63,7 +63,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::Timeline::Extrapolation::CalculateExtrapolationTimes
 // Il2CppName: CalculateExtrapolationTimes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Timeline::TrackAsset*)>(&UnityEngine::Timeline::Extrapolation::CalculateExtrapolationTimes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Timeline::TrackAsset*)>(&UnityEngine::Timeline::Extrapolation::CalculateExtrapolationTimes)> {
   static const MethodInfo* get() {
     static auto* asset = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "TrackAsset")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::Extrapolation*), "CalculateExtrapolationTimes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asset});
@@ -72,7 +72,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Timeline::Extrapolation::SortClipsByStartTime
 // Il2CppName: SortClipsByStartTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Timeline::TimelineClip*> (*)(::ArrayW<UnityEngine::Timeline::TimelineClip*>)>(&UnityEngine::Timeline::Extrapolation::SortClipsByStartTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Timeline::TimelineClip*> (*)(::ArrayW<::UnityEngine::Timeline::TimelineClip*>)>(&UnityEngine::Timeline::Extrapolation::SortClipsByStartTime)> {
   static const MethodInfo* get() {
     static auto* clips = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "TimelineClip"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::Extrapolation*), "SortClipsByStartTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clips});

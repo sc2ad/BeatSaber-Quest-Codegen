@@ -35,8 +35,8 @@ namespace Polyglot {
   class LocalizedTextMesh;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Polyglot::LocalizedTextMesh);
-DEFINE_IL2CPP_ARG_TYPE(Polyglot::LocalizedTextMesh*, "Polyglot", "LocalizedTextMesh");
+NEED_NO_BOX(::Polyglot::LocalizedTextMesh);
+DEFINE_IL2CPP_ARG_TYPE(::Polyglot::LocalizedTextMesh*, "Polyglot", "LocalizedTextMesh");
 // Type namespace: Polyglot
 namespace Polyglot {
   // Size: 0x28
@@ -45,7 +45,7 @@ namespace Polyglot {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AddComponentMenu] Offset: 1210D94
   // [RequireComponent] Offset: 1210D94
-  class LocalizedTextMesh : public UnityEngine::MonoBehaviour/*, public Polyglot::ILocalize*/ {
+  class LocalizedTextMesh : public ::UnityEngine::MonoBehaviour/*, public ::Polyglot::ILocalize*/ {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -60,9 +60,9 @@ namespace Polyglot {
     // private UnityEngine.TextMesh text
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::TextMesh* text;
+    ::UnityEngine::TextMesh* text;
     // Field size check
-    static_assert(sizeof(UnityEngine::TextMesh*) == 0x8);
+    static_assert(sizeof(::UnityEngine::TextMesh*) == 0x8);
     // [TooltipAttribute] Offset: 0x1211344
     // [LocalizationKeyAttribute] Offset: 0x1211344
     // private System.String key
@@ -72,14 +72,14 @@ namespace Polyglot {
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
     public:
-    // Creating interface conversion operator: operator Polyglot::ILocalize
-    operator Polyglot::ILocalize() noexcept {
-      return *reinterpret_cast<Polyglot::ILocalize*>(this);
+    // Creating interface conversion operator: operator ::Polyglot::ILocalize
+    operator ::Polyglot::ILocalize() noexcept {
+      return *reinterpret_cast<::Polyglot::ILocalize*>(this);
     }
-    // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const noexcept = delete;
+    // Deleting conversion operator: operator ::System::IntPtr
+    constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.TextMesh text
-    UnityEngine::TextMesh*& dyn_text();
+    ::UnityEngine::TextMesh*& dyn_text();
     // Get instance field reference: private System.String key
     ::StringW& dyn_key();
     // public System.String get_Key()
@@ -96,13 +96,13 @@ namespace Polyglot {
     void OnLocalize();
     // private System.Boolean IsOppositeDirection(UnityEngine.TextAlignment alignment, Polyglot.LanguageDirection direction)
     // Offset: 0x2999A98
-    bool IsOppositeDirection(UnityEngine::TextAlignment alignment, Polyglot::LanguageDirection direction);
+    bool IsOppositeDirection(::UnityEngine::TextAlignment alignment, ::Polyglot::LanguageDirection direction);
     // private System.Boolean IsAlignmentRight(UnityEngine.TextAlignment alignment)
     // Offset: 0x2999AC4
-    bool IsAlignmentRight(UnityEngine::TextAlignment alignment);
+    bool IsAlignmentRight(::UnityEngine::TextAlignment alignment);
     // private System.Boolean IsAlignmentLeft(UnityEngine.TextAlignment alignment)
     // Offset: 0x2999AD0
-    bool IsAlignmentLeft(UnityEngine::TextAlignment alignment);
+    bool IsAlignmentLeft(::UnityEngine::TextAlignment alignment);
     // public System.Void .ctor()
     // Offset: 0x2999ADC
     // Implemented from: UnityEngine.MonoBehaviour
@@ -113,7 +113,7 @@ namespace Polyglot {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalizedTextMesh* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Polyglot::LocalizedTextMesh::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Polyglot::LocalizedTextMesh::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalizedTextMesh*, creationType>()));
     }
   }; // Polyglot.LocalizedTextMesh
@@ -157,7 +157,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyg
 // Writing MetadataGetter for method: Polyglot::LocalizedTextMesh::IsOppositeDirection
 // Il2CppName: IsOppositeDirection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Polyglot::LocalizedTextMesh::*)(UnityEngine::TextAlignment, Polyglot::LanguageDirection)>(&Polyglot::LocalizedTextMesh::IsOppositeDirection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Polyglot::LocalizedTextMesh::*)(::UnityEngine::TextAlignment, ::Polyglot::LanguageDirection)>(&Polyglot::LocalizedTextMesh::IsOppositeDirection)> {
   static const MethodInfo* get() {
     static auto* alignment = &::il2cpp_utils::GetClassFromName("UnityEngine", "TextAlignment")->byval_arg;
     static auto* direction = &::il2cpp_utils::GetClassFromName("Polyglot", "LanguageDirection")->byval_arg;
@@ -167,7 +167,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Polyg
 // Writing MetadataGetter for method: Polyglot::LocalizedTextMesh::IsAlignmentRight
 // Il2CppName: IsAlignmentRight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Polyglot::LocalizedTextMesh::*)(UnityEngine::TextAlignment)>(&Polyglot::LocalizedTextMesh::IsAlignmentRight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Polyglot::LocalizedTextMesh::*)(::UnityEngine::TextAlignment)>(&Polyglot::LocalizedTextMesh::IsAlignmentRight)> {
   static const MethodInfo* get() {
     static auto* alignment = &::il2cpp_utils::GetClassFromName("UnityEngine", "TextAlignment")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizedTextMesh*), "IsAlignmentRight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{alignment});
@@ -176,7 +176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Polyg
 // Writing MetadataGetter for method: Polyglot::LocalizedTextMesh::IsAlignmentLeft
 // Il2CppName: IsAlignmentLeft
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Polyglot::LocalizedTextMesh::*)(UnityEngine::TextAlignment)>(&Polyglot::LocalizedTextMesh::IsAlignmentLeft)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Polyglot::LocalizedTextMesh::*)(::UnityEngine::TextAlignment)>(&Polyglot::LocalizedTextMesh::IsAlignmentLeft)> {
   static const MethodInfo* get() {
     static auto* alignment = &::il2cpp_utils::GetClassFromName("UnityEngine", "TextAlignment")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizedTextMesh*), "IsAlignmentLeft", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{alignment});

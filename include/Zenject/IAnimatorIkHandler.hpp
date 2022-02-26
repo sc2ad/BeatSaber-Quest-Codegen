@@ -11,8 +11,8 @@ namespace Zenject {
   class IAnimatorIkHandler;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::IAnimatorIkHandler);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::IAnimatorIkHandler*, "Zenject", "IAnimatorIkHandler");
+NEED_NO_BOX(::Zenject::IAnimatorIkHandler);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::IAnimatorIkHandler*, "Zenject", "IAnimatorIkHandler");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x10

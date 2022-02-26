@@ -22,8 +22,8 @@ namespace System::Xml {
   class ValidateNames;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::ValidateNames);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::ValidateNames*, "System.Xml", "ValidateNames");
+NEED_NO_BOX(::System::Xml::ValidateNames);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::ValidateNames*, "System.Xml", "ValidateNames");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x10
@@ -33,9 +33,9 @@ namespace System::Xml {
   class ValidateNames : public ::Il2CppObject {
     public:
     // Get static field: static private System.Xml.XmlCharType xmlCharType
-    static System::Xml::XmlCharType _get_xmlCharType();
+    static ::System::Xml::XmlCharType _get_xmlCharType();
     // Set static field: static private System.Xml.XmlCharType xmlCharType
-    static void _set_xmlCharType(System::Xml::XmlCharType value);
+    static void _set_xmlCharType(::System::Xml::XmlCharType value);
     // static private System.Void .cctor()
     // Offset: 0x1619E00
     static void _cctor();
@@ -68,7 +68,7 @@ namespace System::Xml {
     static void ThrowInvalidName(::StringW s, int offsetStartChar, int offsetBadChar);
     // static System.Exception GetInvalidNameException(System.String s, System.Int32 offsetStartChar, System.Int32 offsetBadChar)
     // Offset: 0x1619B04
-    static System::Exception* GetInvalidNameException(::StringW s, int offsetStartChar, int offsetBadChar);
+    static ::System::Exception* GetInvalidNameException(::StringW s, int offsetStartChar, int offsetBadChar);
     // static System.Void SplitQName(System.String name, out System.String prefix, out System.String lname)
     // Offset: 0x1619CB0
     static void SplitQName(::StringW name, ByRef<::StringW> prefix, ByRef<::StringW> lname);
@@ -178,7 +178,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::Xml::ValidateNames::GetInvalidNameException
 // Il2CppName: GetInvalidNameException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, int, int)>(&System::Xml::ValidateNames::GetInvalidNameException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, int, int)>(&System::Xml::ValidateNames::GetInvalidNameException)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* offsetStartChar = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

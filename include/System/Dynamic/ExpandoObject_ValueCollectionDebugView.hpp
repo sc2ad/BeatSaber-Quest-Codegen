@@ -9,8 +9,8 @@
 #include "System/Dynamic/ExpandoObject.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Dynamic::ExpandoObject::ValueCollectionDebugView);
-DEFINE_IL2CPP_ARG_TYPE(System::Dynamic::ExpandoObject::ValueCollectionDebugView*, "System.Dynamic", "ExpandoObject/ValueCollectionDebugView");
+NEED_NO_BOX(::System::Dynamic::ExpandoObject::ValueCollectionDebugView);
+DEFINE_IL2CPP_ARG_TYPE(::System::Dynamic::ExpandoObject::ValueCollectionDebugView*, "System.Dynamic", "ExpandoObject/ValueCollectionDebugView");
 // Type namespace: System.Dynamic
 namespace System::Dynamic {
   // Size: 0x10

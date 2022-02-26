@@ -38,8 +38,8 @@ namespace System::Net {
   class ServicePointManager;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::ServicePointManager);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::ServicePointManager*, "System.Net", "ServicePointManager");
+NEED_NO_BOX(::System::Net::ServicePointManager);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::ServicePointManager*, "System.Net", "ServicePointManager");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x10
@@ -48,16 +48,16 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class ServicePointManager : public ::Il2CppObject {
     public:
-    // Nested type: System::Net::ServicePointManager::SPKey
+    // Nested type: ::System::Net::ServicePointManager::SPKey
     class SPKey;
     // Get static field: static private System.Collections.Specialized.HybridDictionary servicePoints
-    static System::Collections::Specialized::HybridDictionary* _get_servicePoints();
+    static ::System::Collections::Specialized::HybridDictionary* _get_servicePoints();
     // Set static field: static private System.Collections.Specialized.HybridDictionary servicePoints
-    static void _set_servicePoints(System::Collections::Specialized::HybridDictionary* value);
+    static void _set_servicePoints(::System::Collections::Specialized::HybridDictionary* value);
     // Get static field: static private System.Net.ICertificatePolicy policy
-    static System::Net::ICertificatePolicy* _get_policy();
+    static ::System::Net::ICertificatePolicy* _get_policy();
     // Set static field: static private System.Net.ICertificatePolicy policy
-    static void _set_policy(System::Net::ICertificatePolicy* value);
+    static void _set_policy(::System::Net::ICertificatePolicy* value);
     // Get static field: static private System.Int32 defaultConnectionLimit
     static int _get_defaultConnectionLimit();
     // Set static field: static private System.Int32 defaultConnectionLimit
@@ -79,9 +79,9 @@ namespace System::Net {
     // Set static field: static private System.Boolean _checkCRL
     static void _set__checkCRL(bool value);
     // Get static field: static private System.Net.SecurityProtocolType _securityProtocol
-    static System::Net::SecurityProtocolType _get__securityProtocol();
+    static ::System::Net::SecurityProtocolType _get__securityProtocol();
     // Set static field: static private System.Net.SecurityProtocolType _securityProtocol
-    static void _set__securityProtocol(System::Net::SecurityProtocolType value);
+    static void _set__securityProtocol(::System::Net::SecurityProtocolType value);
     // Get static field: static private System.Boolean expectContinue
     static bool _get_expectContinue();
     // Set static field: static private System.Boolean expectContinue
@@ -91,9 +91,9 @@ namespace System::Net {
     // Set static field: static private System.Boolean useNagle
     static void _set_useNagle(bool value);
     // Get static field: static private System.Net.ServerCertValidationCallback server_cert_cb
-    static System::Net::ServerCertValidationCallback* _get_server_cert_cb();
+    static ::System::Net::ServerCertValidationCallback* _get_server_cert_cb();
     // Set static field: static private System.Net.ServerCertValidationCallback server_cert_cb
-    static void _set_server_cert_cb(System::Net::ServerCertValidationCallback* value);
+    static void _set_server_cert_cb(::System::Net::ServerCertValidationCallback* value);
     // Get static field: static private System.Boolean tcp_keepalive
     static bool _get_tcp_keepalive();
     // Set static field: static private System.Boolean tcp_keepalive
@@ -114,19 +114,19 @@ namespace System::Net {
     static int get_DnsRefreshTimeout();
     // static public System.Net.SecurityProtocolType get_SecurityProtocol()
     // Offset: 0x17B430C
-    static System::Net::SecurityProtocolType get_SecurityProtocol();
+    static ::System::Net::SecurityProtocolType get_SecurityProtocol();
     // static System.Net.ServerCertValidationCallback get_ServerCertValidationCallback()
     // Offset: 0x17B4374
-    static System::Net::ServerCertValidationCallback* get_ServerCertValidationCallback();
+    static ::System::Net::ServerCertValidationCallback* get_ServerCertValidationCallback();
     // static private System.Void .cctor()
     // Offset: 0x17B4110
     static void _cctor();
     // static System.Net.ICertificatePolicy GetLegacyCertificatePolicy()
     // Offset: 0x17B41D4
-    static System::Net::ICertificatePolicy* GetLegacyCertificatePolicy();
+    static ::System::Net::ICertificatePolicy* GetLegacyCertificatePolicy();
     // static public System.Net.ServicePoint FindServicePoint(System.Uri address, System.Net.IWebProxy proxy)
     // Offset: 0x17B43DC
-    static System::Net::ServicePoint* FindServicePoint(System::Uri* address, System::Net::IWebProxy* proxy);
+    static ::System::Net::ServicePoint* FindServicePoint(::System::Uri* address, ::System::Net::IWebProxy* proxy);
     // static System.Void CloseConnectionGroup(System.String connectionGroupName)
     // Offset: 0x17B4A30
     static void CloseConnectionGroup(::StringW connectionGroupName);
@@ -153,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(
 // Writing MetadataGetter for method: System::Net::ServicePointManager::get_SecurityProtocol
 // Il2CppName: get_SecurityProtocol
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::SecurityProtocolType (*)()>(&System::Net::ServicePointManager::get_SecurityProtocol)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::SecurityProtocolType (*)()>(&System::Net::ServicePointManager::get_SecurityProtocol)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::ServicePointManager*), "get_SecurityProtocol", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -161,7 +161,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Writing MetadataGetter for method: System::Net::ServicePointManager::get_ServerCertValidationCallback
 // Il2CppName: get_ServerCertValidationCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::ServerCertValidationCallback* (*)()>(&System::Net::ServicePointManager::get_ServerCertValidationCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::ServerCertValidationCallback* (*)()>(&System::Net::ServicePointManager::get_ServerCertValidationCallback)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::ServicePointManager*), "get_ServerCertValidationCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -177,7 +177,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Net::ServicePointManager::GetLegacyCertificatePolicy
 // Il2CppName: GetLegacyCertificatePolicy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::ICertificatePolicy* (*)()>(&System::Net::ServicePointManager::GetLegacyCertificatePolicy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::ICertificatePolicy* (*)()>(&System::Net::ServicePointManager::GetLegacyCertificatePolicy)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::ServicePointManager*), "GetLegacyCertificatePolicy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -185,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Writing MetadataGetter for method: System::Net::ServicePointManager::FindServicePoint
 // Il2CppName: FindServicePoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::ServicePoint* (*)(System::Uri*, System::Net::IWebProxy*)>(&System::Net::ServicePointManager::FindServicePoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::ServicePoint* (*)(::System::Uri*, ::System::Net::IWebProxy*)>(&System::Net::ServicePointManager::FindServicePoint)> {
   static const MethodInfo* get() {
     static auto* address = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
     static auto* proxy = &::il2cpp_utils::GetClassFromName("System.Net", "IWebProxy")->byval_arg;

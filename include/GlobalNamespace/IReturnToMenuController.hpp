@@ -11,8 +11,8 @@ namespace GlobalNamespace {
   class IReturnToMenuController;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::IReturnToMenuController);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IReturnToMenuController*, "", "IReturnToMenuController");
+NEED_NO_BOX(::GlobalNamespace::IReturnToMenuController);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IReturnToMenuController*, "", "IReturnToMenuController");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10

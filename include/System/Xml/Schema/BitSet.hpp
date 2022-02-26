@@ -17,8 +17,8 @@ namespace System::Xml::Schema {
   class BitSet;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Schema::BitSet);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::BitSet*, "System.Xml.Schema", "BitSet");
+NEED_NO_BOX(::System::Xml::Schema::BitSet);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::BitSet*, "System.Xml.Schema", "BitSet");
 // Type namespace: System.Xml.Schema
 namespace System::Xml::Schema {
   // Size: 0x20
@@ -69,7 +69,7 @@ namespace System::Xml::Schema {
     // Offset: 0x16F1550
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BitSet* New_ctor(int count) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Schema::BitSet::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::BitSet::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BitSet*, creationType>(count)));
     }
     // public System.Void Clear()
@@ -86,16 +86,16 @@ namespace System::Xml::Schema {
     int NextSet(int startFrom);
     // public System.Void And(System.Xml.Schema.BitSet other)
     // Offset: 0x16F5CF0
-    void And(System::Xml::Schema::BitSet* other);
+    void And(::System::Xml::Schema::BitSet* other);
     // public System.Void Or(System.Xml.Schema.BitSet other)
     // Offset: 0x16F5DE4
-    void Or(System::Xml::Schema::BitSet* other);
+    void Or(::System::Xml::Schema::BitSet* other);
     // public System.Xml.Schema.BitSet Clone()
     // Offset: 0x16F6040
-    System::Xml::Schema::BitSet* Clone();
+    ::System::Xml::Schema::BitSet* Clone();
     // public System.Boolean Intersects(System.Xml.Schema.BitSet other)
     // Offset: 0x16F616C
-    bool Intersects(System::Xml::Schema::BitSet* other);
+    bool Intersects(::System::Xml::Schema::BitSet* other);
     // private System.Int32 Subscript(System.Int32 bitIndex)
     // Offset: 0x16F5AC4
     int Subscript(int bitIndex);
@@ -108,7 +108,7 @@ namespace System::Xml::Schema {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BitSet* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Schema::BitSet::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::BitSet::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BitSet*, creationType>()));
     }
     // public override System.Int32 GetHashCode()
@@ -194,7 +194,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Xml::Schema::BitSet::And
 // Il2CppName: And
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::BitSet::*)(System::Xml::Schema::BitSet*)>(&System::Xml::Schema::BitSet::And)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::BitSet::*)(::System::Xml::Schema::BitSet*)>(&System::Xml::Schema::BitSet::And)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "BitSet")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::BitSet*), "And", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
@@ -203,7 +203,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::BitSet::Or
 // Il2CppName: Or
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::BitSet::*)(System::Xml::Schema::BitSet*)>(&System::Xml::Schema::BitSet::Or)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::BitSet::*)(::System::Xml::Schema::BitSet*)>(&System::Xml::Schema::BitSet::Or)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "BitSet")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::BitSet*), "Or", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
@@ -212,7 +212,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::BitSet::Clone
 // Il2CppName: Clone
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Schema::BitSet* (System::Xml::Schema::BitSet::*)()>(&System::Xml::Schema::BitSet::Clone)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::BitSet* (System::Xml::Schema::BitSet::*)()>(&System::Xml::Schema::BitSet::Clone)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::BitSet*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -220,7 +220,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Schema::BitSet::Intersects
 // Il2CppName: Intersects
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::Schema::BitSet::*)(System::Xml::Schema::BitSet*)>(&System::Xml::Schema::BitSet::Intersects)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::Schema::BitSet::*)(::System::Xml::Schema::BitSet*)>(&System::Xml::Schema::BitSet::Intersects)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "BitSet")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::BitSet*), "Intersects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});

@@ -18,8 +18,8 @@ namespace UnityEngine::Bindings {
   class NativeThrowsAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Bindings::NativeThrowsAttribute);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativeThrowsAttribute*, "UnityEngine.Bindings", "NativeThrowsAttribute");
+NEED_NO_BOX(::UnityEngine::Bindings::NativeThrowsAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Bindings::NativeThrowsAttribute*, "UnityEngine.Bindings", "NativeThrowsAttribute");
 // Type namespace: UnityEngine.Bindings
 namespace UnityEngine::Bindings {
   // Size: 0x11
@@ -28,7 +28,7 @@ namespace UnityEngine::Bindings {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AttributeUsageAttribute] Offset: 11A1430
   // [VisibleToOtherModulesAttribute] Offset: FFFFFFFF
-  class NativeThrowsAttribute : public System::Attribute {
+  class NativeThrowsAttribute : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -63,7 +63,7 @@ namespace UnityEngine::Bindings {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NativeThrowsAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::NativeThrowsAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Bindings::NativeThrowsAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativeThrowsAttribute*, creationType>()));
     }
   }; // UnityEngine.Bindings.NativeThrowsAttribute

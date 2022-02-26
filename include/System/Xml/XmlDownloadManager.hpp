@@ -55,8 +55,8 @@ namespace System::Xml {
   class XmlDownloadManager;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::XmlDownloadManager);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlDownloadManager*, "System.Xml", "XmlDownloadManager");
+NEED_NO_BOX(::System::Xml::XmlDownloadManager);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlDownloadManager*, "System.Xml", "XmlDownloadManager");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x18
@@ -65,9 +65,9 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class XmlDownloadManager : public ::Il2CppObject {
     public:
-    // Nested type: System::Xml::XmlDownloadManager::$$c__DisplayClass4_0
+    // Nested type: ::System::Xml::XmlDownloadManager::$$c__DisplayClass4_0
     class $$c__DisplayClass4_0;
-    // Nested type: System::Xml::XmlDownloadManager::$GetNonFileStreamAsync$d__5
+    // Nested type: ::System::Xml::XmlDownloadManager::$GetNonFileStreamAsync$d__5
     struct $GetNonFileStreamAsync$d__5;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -81,50 +81,50 @@ namespace System::Xml {
     // private System.Collections.Hashtable connections
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Hashtable* connections;
+    ::System::Collections::Hashtable* connections;
     // Field size check
-    static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
+    static_assert(sizeof(::System::Collections::Hashtable*) == 0x8);
     public:
-    // Creating conversion operator: operator System::Collections::Hashtable*
-    constexpr operator System::Collections::Hashtable*() const noexcept {
+    // Creating conversion operator: operator ::System::Collections::Hashtable*
+    constexpr operator ::System::Collections::Hashtable*() const noexcept {
       return connections;
     }
     // Get instance field reference: private System.Collections.Hashtable connections
-    System::Collections::Hashtable*& dyn_connections();
+    ::System::Collections::Hashtable*& dyn_connections();
     // System.IO.Stream GetStream(System.Uri uri, System.Net.ICredentials credentials, System.Net.IWebProxy proxy, System.Net.Cache.RequestCachePolicy cachePolicy)
     // Offset: 0x1A13D84
-    System::IO::Stream* GetStream(System::Uri* uri, System::Net::ICredentials* credentials, System::Net::IWebProxy* proxy, System::Net::Cache::RequestCachePolicy* cachePolicy);
+    ::System::IO::Stream* GetStream(::System::Uri* uri, ::System::Net::ICredentials* credentials, ::System::Net::IWebProxy* proxy, ::System::Net::Cache::RequestCachePolicy* cachePolicy);
     // private System.IO.Stream GetNonFileStream(System.Uri uri, System.Net.ICredentials credentials, System.Net.IWebProxy proxy, System.Net.Cache.RequestCachePolicy cachePolicy)
     // Offset: 0x1A13E80
-    System::IO::Stream* GetNonFileStream(System::Uri* uri, System::Net::ICredentials* credentials, System::Net::IWebProxy* proxy, System::Net::Cache::RequestCachePolicy* cachePolicy);
+    ::System::IO::Stream* GetNonFileStream(::System::Uri* uri, ::System::Net::ICredentials* credentials, ::System::Net::IWebProxy* proxy, ::System::Net::Cache::RequestCachePolicy* cachePolicy);
     // System.Void Remove(System.String host)
     // Offset: 0x1A142AC
     void Remove(::StringW host);
     // System.Threading.Tasks.Task`1<System.IO.Stream> GetStreamAsync(System.Uri uri, System.Net.ICredentials credentials, System.Net.IWebProxy proxy, System.Net.Cache.RequestCachePolicy cachePolicy)
     // Offset: 0x1A143E8
-    System::Threading::Tasks::Task_1<System::IO::Stream*>* GetStreamAsync(System::Uri* uri, System::Net::ICredentials* credentials, System::Net::IWebProxy* proxy, System::Net::Cache::RequestCachePolicy* cachePolicy);
+    ::System::Threading::Tasks::Task_1<::System::IO::Stream*>* GetStreamAsync(::System::Uri* uri, ::System::Net::ICredentials* credentials, ::System::Net::IWebProxy* proxy, ::System::Net::Cache::RequestCachePolicy* cachePolicy);
     // private System.Threading.Tasks.Task`1<System.IO.Stream> GetNonFileStreamAsync(System.Uri uri, System.Net.ICredentials credentials, System.Net.IWebProxy proxy, System.Net.Cache.RequestCachePolicy cachePolicy)
     // Offset: 0x1A1452C
-    System::Threading::Tasks::Task_1<System::IO::Stream*>* GetNonFileStreamAsync(System::Uri* uri, System::Net::ICredentials* credentials, System::Net::IWebProxy* proxy, System::Net::Cache::RequestCachePolicy* cachePolicy);
+    ::System::Threading::Tasks::Task_1<::System::IO::Stream*>* GetNonFileStreamAsync(::System::Uri* uri, ::System::Net::ICredentials* credentials, ::System::Net::IWebProxy* proxy, ::System::Net::Cache::RequestCachePolicy* cachePolicy);
     // public System.Void .ctor()
     // Offset: 0x1A14664
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlDownloadManager* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlDownloadManager::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlDownloadManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlDownloadManager*, creationType>()));
     }
   }; // System.Xml.XmlDownloadManager
   #pragma pack(pop)
-  static check_size<sizeof(XmlDownloadManager), 16 + sizeof(System::Collections::Hashtable*)> __System_Xml_XmlDownloadManagerSizeCheck;
+  static check_size<sizeof(XmlDownloadManager), 16 + sizeof(::System::Collections::Hashtable*)> __System_Xml_XmlDownloadManagerSizeCheck;
   static_assert(sizeof(XmlDownloadManager) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::XmlDownloadManager::GetStream
 // Il2CppName: GetStream
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::Stream* (System::Xml::XmlDownloadManager::*)(System::Uri*, System::Net::ICredentials*, System::Net::IWebProxy*, System::Net::Cache::RequestCachePolicy*)>(&System::Xml::XmlDownloadManager::GetStream)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (System::Xml::XmlDownloadManager::*)(::System::Uri*, ::System::Net::ICredentials*, ::System::Net::IWebProxy*, ::System::Net::Cache::RequestCachePolicy*)>(&System::Xml::XmlDownloadManager::GetStream)> {
   static const MethodInfo* get() {
     static auto* uri = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
     static auto* credentials = &::il2cpp_utils::GetClassFromName("System.Net", "ICredentials")->byval_arg;
@@ -136,7 +136,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO:
 // Writing MetadataGetter for method: System::Xml::XmlDownloadManager::GetNonFileStream
 // Il2CppName: GetNonFileStream
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::Stream* (System::Xml::XmlDownloadManager::*)(System::Uri*, System::Net::ICredentials*, System::Net::IWebProxy*, System::Net::Cache::RequestCachePolicy*)>(&System::Xml::XmlDownloadManager::GetNonFileStream)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (System::Xml::XmlDownloadManager::*)(::System::Uri*, ::System::Net::ICredentials*, ::System::Net::IWebProxy*, ::System::Net::Cache::RequestCachePolicy*)>(&System::Xml::XmlDownloadManager::GetNonFileStream)> {
   static const MethodInfo* get() {
     static auto* uri = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
     static auto* credentials = &::il2cpp_utils::GetClassFromName("System.Net", "ICredentials")->byval_arg;
@@ -157,7 +157,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlDownloadManager::GetStreamAsync
 // Il2CppName: GetStreamAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<System::IO::Stream*>* (System::Xml::XmlDownloadManager::*)(System::Uri*, System::Net::ICredentials*, System::Net::IWebProxy*, System::Net::Cache::RequestCachePolicy*)>(&System::Xml::XmlDownloadManager::GetStreamAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::System::IO::Stream*>* (System::Xml::XmlDownloadManager::*)(::System::Uri*, ::System::Net::ICredentials*, ::System::Net::IWebProxy*, ::System::Net::Cache::RequestCachePolicy*)>(&System::Xml::XmlDownloadManager::GetStreamAsync)> {
   static const MethodInfo* get() {
     static auto* uri = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
     static auto* credentials = &::il2cpp_utils::GetClassFromName("System.Net", "ICredentials")->byval_arg;
@@ -169,7 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: System::Xml::XmlDownloadManager::GetNonFileStreamAsync
 // Il2CppName: GetNonFileStreamAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<System::IO::Stream*>* (System::Xml::XmlDownloadManager::*)(System::Uri*, System::Net::ICredentials*, System::Net::IWebProxy*, System::Net::Cache::RequestCachePolicy*)>(&System::Xml::XmlDownloadManager::GetNonFileStreamAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::System::IO::Stream*>* (System::Xml::XmlDownloadManager::*)(::System::Uri*, ::System::Net::ICredentials*, ::System::Net::IWebProxy*, ::System::Net::Cache::RequestCachePolicy*)>(&System::Xml::XmlDownloadManager::GetNonFileStreamAsync)> {
   static const MethodInfo* get() {
     static auto* uri = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
     static auto* credentials = &::il2cpp_utils::GetClassFromName("System.Net", "ICredentials")->byval_arg;

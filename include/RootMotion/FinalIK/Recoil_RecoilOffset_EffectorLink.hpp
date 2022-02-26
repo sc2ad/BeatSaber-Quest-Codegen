@@ -15,8 +15,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::Recoil::RecoilOffset::EffectorLink);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Recoil::RecoilOffset::EffectorLink*, "RootMotion.FinalIK", "Recoil/RecoilOffset/EffectorLink");
+NEED_NO_BOX(::RootMotion::FinalIK::Recoil::RecoilOffset::EffectorLink);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::Recoil::RecoilOffset::EffectorLink*, "RootMotion.FinalIK", "Recoil/RecoilOffset/EffectorLink");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x18
@@ -38,9 +38,9 @@ namespace RootMotion::FinalIK {
     // public RootMotion.FinalIK.FullBodyBipedEffector effector
     // Size: 0x4
     // Offset: 0x10
-    RootMotion::FinalIK::FullBodyBipedEffector effector;
+    ::RootMotion::FinalIK::FullBodyBipedEffector effector;
     // Field size check
-    static_assert(sizeof(RootMotion::FinalIK::FullBodyBipedEffector) == 0x4);
+    static_assert(sizeof(::RootMotion::FinalIK::FullBodyBipedEffector) == 0x4);
     // [TooltipAttribute] Offset: 0x126A078
     // public System.Single weight
     // Size: 0x4
@@ -50,7 +50,7 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public RootMotion.FinalIK.FullBodyBipedEffector effector
-    RootMotion::FinalIK::FullBodyBipedEffector& dyn_effector();
+    ::RootMotion::FinalIK::FullBodyBipedEffector& dyn_effector();
     // Get instance field reference: public System.Single weight
     float& dyn_weight();
     // public System.Void .ctor()
@@ -59,7 +59,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Recoil::RecoilOffset::EffectorLink* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::Recoil::RecoilOffset::EffectorLink::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::Recoil::RecoilOffset::EffectorLink::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Recoil::RecoilOffset::EffectorLink*, creationType>()));
     }
   }; // RootMotion.FinalIK.Recoil/RootMotion.FinalIK.RecoilOffset/RootMotion.FinalIK.EffectorLink

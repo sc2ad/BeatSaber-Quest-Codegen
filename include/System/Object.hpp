@@ -26,8 +26,8 @@ namespace System {
   class Object;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Object);
-DEFINE_IL2CPP_ARG_TYPE(System::Object*, "System", "Object");
+NEED_NO_BOX(::System::Object);
+DEFINE_IL2CPP_ARG_TYPE(::System::Object*, "System", "Object");
 // Type namespace: System
 namespace System {
   // Size: 0x10
@@ -42,7 +42,7 @@ namespace System {
     // Offset: 0x2156DCC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ::Il2CppObject* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Object::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Object::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<::Il2CppObject*, creationType>()));
     }
     // public System.Boolean Equals(System.Object obj)
@@ -59,7 +59,7 @@ namespace System {
     int GetHashCode();
     // public System.Type GetType()
     // Offset: 0x215B9A4
-    System::Type* GetType();
+    ::System::Type* GetType();
     // protected System.Object MemberwiseClone()
     // Offset: 0x215B874
     ::Il2CppObject* MemberwiseClone();
@@ -121,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Object::GetType
 // Il2CppName: GetType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Object::*)()>(&System::Object::GetType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (System::Object::*)()>(&System::Object::GetType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Object*), "GetType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

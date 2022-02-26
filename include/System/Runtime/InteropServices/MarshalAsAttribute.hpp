@@ -26,8 +26,8 @@ namespace System::Runtime::InteropServices {
   class MarshalAsAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::InteropServices::MarshalAsAttribute);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::MarshalAsAttribute*, "System.Runtime.InteropServices", "MarshalAsAttribute");
+NEED_NO_BOX(::System::Runtime::InteropServices::MarshalAsAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::InteropServices::MarshalAsAttribute*, "System.Runtime.InteropServices", "MarshalAsAttribute");
 // Type namespace: System.Runtime.InteropServices
 namespace System::Runtime::InteropServices {
   // Size: 0x46
@@ -37,7 +37,7 @@ namespace System::Runtime::InteropServices {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AttributeUsageAttribute] Offset: 118BC10
   // [ComVisibleAttribute] Offset: 118BC10
-  class MarshalAsAttribute : public System::Attribute {
+  class MarshalAsAttribute : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -65,33 +65,33 @@ namespace System::Runtime::InteropServices {
     // public System.Type MarshalTypeRef
     // Size: 0x8
     // Offset: 0x20
-    System::Type* MarshalTypeRef;
+    ::System::Type* MarshalTypeRef;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     // public System.Type SafeArrayUserDefinedSubType
     // Size: 0x8
     // Offset: 0x28
-    System::Type* SafeArrayUserDefinedSubType;
+    ::System::Type* SafeArrayUserDefinedSubType;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     // private System.Runtime.InteropServices.UnmanagedType utype
     // Size: 0x4
     // Offset: 0x30
-    System::Runtime::InteropServices::UnmanagedType utype;
+    ::System::Runtime::InteropServices::UnmanagedType utype;
     // Field size check
-    static_assert(sizeof(System::Runtime::InteropServices::UnmanagedType) == 0x4);
+    static_assert(sizeof(::System::Runtime::InteropServices::UnmanagedType) == 0x4);
     // public System.Runtime.InteropServices.UnmanagedType ArraySubType
     // Size: 0x4
     // Offset: 0x34
-    System::Runtime::InteropServices::UnmanagedType ArraySubType;
+    ::System::Runtime::InteropServices::UnmanagedType ArraySubType;
     // Field size check
-    static_assert(sizeof(System::Runtime::InteropServices::UnmanagedType) == 0x4);
+    static_assert(sizeof(::System::Runtime::InteropServices::UnmanagedType) == 0x4);
     // public System.Runtime.InteropServices.VarEnum SafeArraySubType
     // Size: 0x4
     // Offset: 0x38
-    System::Runtime::InteropServices::VarEnum SafeArraySubType;
+    ::System::Runtime::InteropServices::VarEnum SafeArraySubType;
     // Field size check
-    static_assert(sizeof(System::Runtime::InteropServices::VarEnum) == 0x4);
+    static_assert(sizeof(::System::Runtime::InteropServices::VarEnum) == 0x4);
     // public System.Int32 SizeConst
     // Size: 0x4
     // Offset: 0x3C
@@ -116,15 +116,15 @@ namespace System::Runtime::InteropServices {
     // Get instance field reference: public System.String MarshalType
     ::StringW& dyn_MarshalType();
     // Get instance field reference: public System.Type MarshalTypeRef
-    System::Type*& dyn_MarshalTypeRef();
+    ::System::Type*& dyn_MarshalTypeRef();
     // Get instance field reference: public System.Type SafeArrayUserDefinedSubType
-    System::Type*& dyn_SafeArrayUserDefinedSubType();
+    ::System::Type*& dyn_SafeArrayUserDefinedSubType();
     // Get instance field reference: private System.Runtime.InteropServices.UnmanagedType utype
-    System::Runtime::InteropServices::UnmanagedType& dyn_utype();
+    ::System::Runtime::InteropServices::UnmanagedType& dyn_utype();
     // Get instance field reference: public System.Runtime.InteropServices.UnmanagedType ArraySubType
-    System::Runtime::InteropServices::UnmanagedType& dyn_ArraySubType();
+    ::System::Runtime::InteropServices::UnmanagedType& dyn_ArraySubType();
     // Get instance field reference: public System.Runtime.InteropServices.VarEnum SafeArraySubType
-    System::Runtime::InteropServices::VarEnum& dyn_SafeArraySubType();
+    ::System::Runtime::InteropServices::VarEnum& dyn_SafeArraySubType();
     // Get instance field reference: public System.Int32 SizeConst
     int& dyn_SizeConst();
     // Get instance field reference: public System.Int32 IidParameterIndex
@@ -133,7 +133,7 @@ namespace System::Runtime::InteropServices {
     int16_t& dyn_SizeParamIndex();
     // System.Runtime.InteropServices.MarshalAsAttribute Copy()
     // Offset: 0x1C5F520
-    System::Runtime::InteropServices::MarshalAsAttribute* Copy();
+    ::System::Runtime::InteropServices::MarshalAsAttribute* Copy();
   }; // System.Runtime.InteropServices.MarshalAsAttribute
   #pragma pack(pop)
   static check_size<sizeof(MarshalAsAttribute), 68 + sizeof(int16_t)> __System_Runtime_InteropServices_MarshalAsAttributeSizeCheck;
@@ -143,7 +143,7 @@ namespace System::Runtime::InteropServices {
 // Writing MetadataGetter for method: System::Runtime::InteropServices::MarshalAsAttribute::Copy
 // Il2CppName: Copy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::InteropServices::MarshalAsAttribute* (System::Runtime::InteropServices::MarshalAsAttribute::*)()>(&System::Runtime::InteropServices::MarshalAsAttribute::Copy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::InteropServices::MarshalAsAttribute* (System::Runtime::InteropServices::MarshalAsAttribute::*)()>(&System::Runtime::InteropServices::MarshalAsAttribute::Copy)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::MarshalAsAttribute*), "Copy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

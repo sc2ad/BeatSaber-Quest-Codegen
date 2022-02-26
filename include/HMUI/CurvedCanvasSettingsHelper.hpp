@@ -34,8 +34,8 @@ namespace HMUI {
   class CurvedCanvasSettingsHelper;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HMUI::CurvedCanvasSettingsHelper);
-DEFINE_IL2CPP_ARG_TYPE(HMUI::CurvedCanvasSettingsHelper*, "HMUI", "CurvedCanvasSettingsHelper");
+NEED_NO_BOX(::HMUI::CurvedCanvasSettingsHelper);
+DEFINE_IL2CPP_ARG_TYPE(::HMUI::CurvedCanvasSettingsHelper*, "HMUI", "CurvedCanvasSettingsHelper");
 // Type namespace: HMUI
 namespace HMUI {
   // Size: 0x29
@@ -56,9 +56,9 @@ namespace HMUI {
     // private UnityEngine.Canvas _cachedCanvas
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::Canvas* cachedCanvas;
+    ::UnityEngine::Canvas* cachedCanvas;
     // Field size check
-    static_assert(sizeof(UnityEngine::Canvas*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Canvas*) == 0x8);
     // private System.Boolean _cachedCanvasIsRootCanvas
     // Size: 0x1
     // Offset: 0x18
@@ -70,9 +70,9 @@ namespace HMUI {
     // private HMUI.CurvedCanvasSettings _curvedCanvasSettings
     // Size: 0x8
     // Offset: 0x20
-    HMUI::CurvedCanvasSettings* curvedCanvasSettings;
+    ::HMUI::CurvedCanvasSettings* curvedCanvasSettings;
     // Field size check
-    static_assert(sizeof(HMUI::CurvedCanvasSettings*) == 0x8);
+    static_assert(sizeof(::HMUI::CurvedCanvasSettings*) == 0x8);
     // private System.Boolean _hasCachedData
     // Size: 0x1
     // Offset: 0x28
@@ -81,15 +81,15 @@ namespace HMUI {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get static field: static private System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,HMUI.CurvedCanvasSettings> _curvedCanvasCache
-    static System::Collections::Generic::Dictionary_2<UnityEngine::Canvas*, HMUI::CurvedCanvasSettings*>* _get__curvedCanvasCache();
+    static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Canvas*, ::HMUI::CurvedCanvasSettings*>* _get__curvedCanvasCache();
     // Set static field: static private System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,HMUI.CurvedCanvasSettings> _curvedCanvasCache
-    static void _set__curvedCanvasCache(System::Collections::Generic::Dictionary_2<UnityEngine::Canvas*, HMUI::CurvedCanvasSettings*>* value);
+    static void _set__curvedCanvasCache(::System::Collections::Generic::Dictionary_2<::UnityEngine::Canvas*, ::HMUI::CurvedCanvasSettings*>* value);
     // Get instance field reference: private UnityEngine.Canvas _cachedCanvas
-    UnityEngine::Canvas*& dyn__cachedCanvas();
+    ::UnityEngine::Canvas*& dyn__cachedCanvas();
     // Get instance field reference: private System.Boolean _cachedCanvasIsRootCanvas
     bool& dyn__cachedCanvasIsRootCanvas();
     // Get instance field reference: private HMUI.CurvedCanvasSettings _curvedCanvasSettings
-    HMUI::CurvedCanvasSettings*& dyn__curvedCanvasSettings();
+    ::HMUI::CurvedCanvasSettings*& dyn__curvedCanvasSettings();
     // Get instance field reference: private System.Boolean _hasCachedData
     bool& dyn__hasCachedData();
     // static private System.Void .cctor()
@@ -100,17 +100,17 @@ namespace HMUI {
     void Reset();
     // public HMUI.CurvedCanvasSettings GetCurvedCanvasSettings(UnityEngine.Canvas canvas)
     // Offset: 0x166BD1C
-    HMUI::CurvedCanvasSettings* GetCurvedCanvasSettings(UnityEngine::Canvas* canvas);
+    ::HMUI::CurvedCanvasSettings* GetCurvedCanvasSettings(::UnityEngine::Canvas* canvas);
     // static private HMUI.CurvedCanvasSettings GetCurvedCanvasSettingsForCanvas(UnityEngine.Canvas canvas)
     // Offset: 0x166BF44
-    static HMUI::CurvedCanvasSettings* GetCurvedCanvasSettingsForCanvas(UnityEngine::Canvas* canvas);
+    static ::HMUI::CurvedCanvasSettings* GetCurvedCanvasSettingsForCanvas(::UnityEngine::Canvas* canvas);
     // public System.Void .ctor()
     // Offset: 0x166C058
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CurvedCanvasSettingsHelper* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::CurvedCanvasSettingsHelper::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::CurvedCanvasSettingsHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CurvedCanvasSettingsHelper*, creationType>()));
     }
   }; // HMUI.CurvedCanvasSettingsHelper
@@ -138,7 +138,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Writing MetadataGetter for method: HMUI::CurvedCanvasSettingsHelper::GetCurvedCanvasSettings
 // Il2CppName: GetCurvedCanvasSettings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::CurvedCanvasSettings* (HMUI::CurvedCanvasSettingsHelper::*)(UnityEngine::Canvas*)>(&HMUI::CurvedCanvasSettingsHelper::GetCurvedCanvasSettings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HMUI::CurvedCanvasSettings* (HMUI::CurvedCanvasSettingsHelper::*)(::UnityEngine::Canvas*)>(&HMUI::CurvedCanvasSettingsHelper::GetCurvedCanvasSettings)> {
   static const MethodInfo* get() {
     static auto* canvas = &::il2cpp_utils::GetClassFromName("UnityEngine", "Canvas")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::CurvedCanvasSettingsHelper*), "GetCurvedCanvasSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{canvas});
@@ -147,7 +147,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::Curve
 // Writing MetadataGetter for method: HMUI::CurvedCanvasSettingsHelper::GetCurvedCanvasSettingsForCanvas
 // Il2CppName: GetCurvedCanvasSettingsForCanvas
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::CurvedCanvasSettings* (*)(UnityEngine::Canvas*)>(&HMUI::CurvedCanvasSettingsHelper::GetCurvedCanvasSettingsForCanvas)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HMUI::CurvedCanvasSettings* (*)(::UnityEngine::Canvas*)>(&HMUI::CurvedCanvasSettingsHelper::GetCurvedCanvasSettingsForCanvas)> {
   static const MethodInfo* get() {
     static auto* canvas = &::il2cpp_utils::GetClassFromName("UnityEngine", "Canvas")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::CurvedCanvasSettingsHelper*), "GetCurvedCanvasSettingsForCanvas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{canvas});

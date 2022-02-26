@@ -29,8 +29,8 @@ namespace NUnit::Framework::Internal {
   class InternalTrace;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Internal::InternalTrace);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::InternalTrace*, "NUnit.Framework.Internal", "InternalTrace");
+NEED_NO_BOX(::NUnit::Framework::Internal::InternalTrace);
+DEFINE_IL2CPP_ARG_TYPE(::NUnit::Framework::Internal::InternalTrace*, "NUnit.Framework.Internal", "InternalTrace");
 // Type namespace: NUnit.Framework.Internal
 namespace NUnit::Framework::Internal {
   // Size: 0x10
@@ -40,19 +40,19 @@ namespace NUnit::Framework::Internal {
   class InternalTrace : public ::Il2CppObject {
     public:
     // Get static field: static private NUnit.Framework.Internal.InternalTraceLevel traceLevel
-    static NUnit::Framework::Internal::InternalTraceLevel _get_traceLevel();
+    static ::NUnit::Framework::Internal::InternalTraceLevel _get_traceLevel();
     // Set static field: static private NUnit.Framework.Internal.InternalTraceLevel traceLevel
-    static void _set_traceLevel(NUnit::Framework::Internal::InternalTraceLevel value);
+    static void _set_traceLevel(::NUnit::Framework::Internal::InternalTraceLevel value);
     // Get static field: static private NUnit.Framework.Internal.InternalTraceWriter traceWriter
-    static NUnit::Framework::Internal::InternalTraceWriter* _get_traceWriter();
+    static ::NUnit::Framework::Internal::InternalTraceWriter* _get_traceWriter();
     // Set static field: static private NUnit.Framework.Internal.InternalTraceWriter traceWriter
-    static void _set_traceWriter(NUnit::Framework::Internal::InternalTraceWriter* value);
+    static void _set_traceWriter(::NUnit::Framework::Internal::InternalTraceWriter* value);
     // static public NUnit.Framework.Internal.Logger GetLogger(System.String name)
     // Offset: 0x28B3528
-    static NUnit::Framework::Internal::Logger* GetLogger(::StringW name);
+    static ::NUnit::Framework::Internal::Logger* GetLogger(::StringW name);
     // static public NUnit.Framework.Internal.Logger GetLogger(System.Type type)
     // Offset: 0x28B362C
-    static NUnit::Framework::Internal::Logger* GetLogger(System::Type* type);
+    static ::NUnit::Framework::Internal::Logger* GetLogger(::System::Type* type);
   }; // NUnit.Framework.Internal.InternalTrace
   #pragma pack(pop)
 }
@@ -60,7 +60,7 @@ namespace NUnit::Framework::Internal {
 // Writing MetadataGetter for method: NUnit::Framework::Internal::InternalTrace::GetLogger
 // Il2CppName: GetLogger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Logger* (*)(::StringW)>(&NUnit::Framework::Internal::InternalTrace::GetLogger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Framework::Internal::Logger* (*)(::StringW)>(&NUnit::Framework::Internal::InternalTrace::GetLogger)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::InternalTrace*), "GetLogger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -69,7 +69,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Writing MetadataGetter for method: NUnit::Framework::Internal::InternalTrace::GetLogger
 // Il2CppName: GetLogger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Logger* (*)(System::Type*)>(&NUnit::Framework::Internal::InternalTrace::GetLogger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Framework::Internal::Logger* (*)(::System::Type*)>(&NUnit::Framework::Internal::InternalTrace::GetLogger)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::InternalTrace*), "GetLogger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});

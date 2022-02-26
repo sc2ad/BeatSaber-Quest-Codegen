@@ -53,8 +53,8 @@ namespace GlobalNamespace {
   class OVRPlugin;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRPlugin);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin*, "", "OVRPlugin");
+NEED_NO_BOX(::GlobalNamespace::OVRPlugin);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRPlugin*, "", "OVRPlugin");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -63,293 +63,293 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRPlugin : public ::Il2CppObject {
     public:
-    // Nested type: GlobalNamespace::OVRPlugin::GUID
+    // Nested type: ::GlobalNamespace::OVRPlugin::GUID
     class GUID;
-    // Nested type: GlobalNamespace::OVRPlugin::Bool
+    // Nested type: ::GlobalNamespace::OVRPlugin::Bool
     struct Bool;
-    // Nested type: GlobalNamespace::OVRPlugin::Result
+    // Nested type: ::GlobalNamespace::OVRPlugin::Result
     struct Result;
-    // Nested type: GlobalNamespace::OVRPlugin::CameraStatus
+    // Nested type: ::GlobalNamespace::OVRPlugin::CameraStatus
     struct CameraStatus;
-    // Nested type: GlobalNamespace::OVRPlugin::CameraAnchorType
+    // Nested type: ::GlobalNamespace::OVRPlugin::CameraAnchorType
     struct CameraAnchorType;
-    // Nested type: GlobalNamespace::OVRPlugin::XrApi
+    // Nested type: ::GlobalNamespace::OVRPlugin::XrApi
     struct XrApi;
-    // Nested type: GlobalNamespace::OVRPlugin::Eye
+    // Nested type: ::GlobalNamespace::OVRPlugin::Eye
     struct Eye;
-    // Nested type: GlobalNamespace::OVRPlugin::Tracker
+    // Nested type: ::GlobalNamespace::OVRPlugin::Tracker
     struct Tracker;
-    // Nested type: GlobalNamespace::OVRPlugin::Node
+    // Nested type: ::GlobalNamespace::OVRPlugin::Node
     struct Node;
-    // Nested type: GlobalNamespace::OVRPlugin::Controller
+    // Nested type: ::GlobalNamespace::OVRPlugin::Controller
     struct Controller;
-    // Nested type: GlobalNamespace::OVRPlugin::Handedness
+    // Nested type: ::GlobalNamespace::OVRPlugin::Handedness
     struct Handedness;
-    // Nested type: GlobalNamespace::OVRPlugin::TrackingOrigin
+    // Nested type: ::GlobalNamespace::OVRPlugin::TrackingOrigin
     struct TrackingOrigin;
-    // Nested type: GlobalNamespace::OVRPlugin::RecenterFlags
+    // Nested type: ::GlobalNamespace::OVRPlugin::RecenterFlags
     struct RecenterFlags;
-    // Nested type: GlobalNamespace::OVRPlugin::BatteryStatus
+    // Nested type: ::GlobalNamespace::OVRPlugin::BatteryStatus
     struct BatteryStatus;
-    // Nested type: GlobalNamespace::OVRPlugin::EyeTextureFormat
+    // Nested type: ::GlobalNamespace::OVRPlugin::EyeTextureFormat
     struct EyeTextureFormat;
-    // Nested type: GlobalNamespace::OVRPlugin::PlatformUI
+    // Nested type: ::GlobalNamespace::OVRPlugin::PlatformUI
     struct PlatformUI;
-    // Nested type: GlobalNamespace::OVRPlugin::SystemRegion
+    // Nested type: ::GlobalNamespace::OVRPlugin::SystemRegion
     struct SystemRegion;
-    // Nested type: GlobalNamespace::OVRPlugin::SystemHeadset
+    // Nested type: ::GlobalNamespace::OVRPlugin::SystemHeadset
     struct SystemHeadset;
-    // Nested type: GlobalNamespace::OVRPlugin::OverlayShape
+    // Nested type: ::GlobalNamespace::OVRPlugin::OverlayShape
     struct OverlayShape;
-    // Nested type: GlobalNamespace::OVRPlugin::Step
+    // Nested type: ::GlobalNamespace::OVRPlugin::Step
     struct Step;
-    // Nested type: GlobalNamespace::OVRPlugin::CameraDevice
+    // Nested type: ::GlobalNamespace::OVRPlugin::CameraDevice
     struct CameraDevice;
-    // Nested type: GlobalNamespace::OVRPlugin::CameraDeviceDepthSensingMode
+    // Nested type: ::GlobalNamespace::OVRPlugin::CameraDeviceDepthSensingMode
     struct CameraDeviceDepthSensingMode;
-    // Nested type: GlobalNamespace::OVRPlugin::CameraDeviceDepthQuality
+    // Nested type: ::GlobalNamespace::OVRPlugin::CameraDeviceDepthQuality
     struct CameraDeviceDepthQuality;
-    // Nested type: GlobalNamespace::OVRPlugin::FixedFoveatedRenderingLevel
+    // Nested type: ::GlobalNamespace::OVRPlugin::FixedFoveatedRenderingLevel
     struct FixedFoveatedRenderingLevel;
-    // Nested type: GlobalNamespace::OVRPlugin::TiledMultiResLevel
+    // Nested type: ::GlobalNamespace::OVRPlugin::TiledMultiResLevel
     struct TiledMultiResLevel;
-    // Nested type: GlobalNamespace::OVRPlugin::PerfMetrics
+    // Nested type: ::GlobalNamespace::OVRPlugin::PerfMetrics
     struct PerfMetrics;
-    // Nested type: GlobalNamespace::OVRPlugin::CameraDeviceIntrinsicsParameters
+    // Nested type: ::GlobalNamespace::OVRPlugin::CameraDeviceIntrinsicsParameters
     struct CameraDeviceIntrinsicsParameters;
-    // Nested type: GlobalNamespace::OVRPlugin::OverlayFlag
+    // Nested type: ::GlobalNamespace::OVRPlugin::OverlayFlag
     struct OverlayFlag;
-    // Nested type: GlobalNamespace::OVRPlugin::Vector2f
+    // Nested type: ::GlobalNamespace::OVRPlugin::Vector2f
     struct Vector2f;
-    // Nested type: GlobalNamespace::OVRPlugin::Vector3f
+    // Nested type: ::GlobalNamespace::OVRPlugin::Vector3f
     struct Vector3f;
-    // Nested type: GlobalNamespace::OVRPlugin::Vector4f
+    // Nested type: ::GlobalNamespace::OVRPlugin::Vector4f
     struct Vector4f;
-    // Nested type: GlobalNamespace::OVRPlugin::Vector4s
+    // Nested type: ::GlobalNamespace::OVRPlugin::Vector4s
     struct Vector4s;
-    // Nested type: GlobalNamespace::OVRPlugin::Quatf
+    // Nested type: ::GlobalNamespace::OVRPlugin::Quatf
     struct Quatf;
-    // Nested type: GlobalNamespace::OVRPlugin::Posef
+    // Nested type: ::GlobalNamespace::OVRPlugin::Posef
     struct Posef;
-    // Nested type: GlobalNamespace::OVRPlugin::TextureRectMatrixf
+    // Nested type: ::GlobalNamespace::OVRPlugin::TextureRectMatrixf
     struct TextureRectMatrixf;
-    // Nested type: GlobalNamespace::OVRPlugin::PoseStatef
+    // Nested type: ::GlobalNamespace::OVRPlugin::PoseStatef
     struct PoseStatef;
-    // Nested type: GlobalNamespace::OVRPlugin::ControllerState4
+    // Nested type: ::GlobalNamespace::OVRPlugin::ControllerState4
     struct ControllerState4;
-    // Nested type: GlobalNamespace::OVRPlugin::ControllerState2
+    // Nested type: ::GlobalNamespace::OVRPlugin::ControllerState2
     struct ControllerState2;
-    // Nested type: GlobalNamespace::OVRPlugin::ControllerState
+    // Nested type: ::GlobalNamespace::OVRPlugin::ControllerState
     struct ControllerState;
-    // Nested type: GlobalNamespace::OVRPlugin::HapticsBuffer
+    // Nested type: ::GlobalNamespace::OVRPlugin::HapticsBuffer
     struct HapticsBuffer;
-    // Nested type: GlobalNamespace::OVRPlugin::HapticsState
+    // Nested type: ::GlobalNamespace::OVRPlugin::HapticsState
     struct HapticsState;
-    // Nested type: GlobalNamespace::OVRPlugin::HapticsDesc
+    // Nested type: ::GlobalNamespace::OVRPlugin::HapticsDesc
     struct HapticsDesc;
-    // Nested type: GlobalNamespace::OVRPlugin::AppPerfFrameStats
+    // Nested type: ::GlobalNamespace::OVRPlugin::AppPerfFrameStats
     struct AppPerfFrameStats;
-    // Nested type: GlobalNamespace::OVRPlugin::AppPerfStats
+    // Nested type: ::GlobalNamespace::OVRPlugin::AppPerfStats
     struct AppPerfStats;
-    // Nested type: GlobalNamespace::OVRPlugin::Sizei
+    // Nested type: ::GlobalNamespace::OVRPlugin::Sizei
     struct Sizei;
-    // Nested type: GlobalNamespace::OVRPlugin::Sizef
+    // Nested type: ::GlobalNamespace::OVRPlugin::Sizef
     struct Sizef;
-    // Nested type: GlobalNamespace::OVRPlugin::Vector2i
+    // Nested type: ::GlobalNamespace::OVRPlugin::Vector2i
     struct Vector2i;
-    // Nested type: GlobalNamespace::OVRPlugin::Recti
+    // Nested type: ::GlobalNamespace::OVRPlugin::Recti
     struct Recti;
-    // Nested type: GlobalNamespace::OVRPlugin::Rectf
+    // Nested type: ::GlobalNamespace::OVRPlugin::Rectf
     struct Rectf;
-    // Nested type: GlobalNamespace::OVRPlugin::Frustumf
+    // Nested type: ::GlobalNamespace::OVRPlugin::Frustumf
     struct Frustumf;
-    // Nested type: GlobalNamespace::OVRPlugin::Frustumf2
+    // Nested type: ::GlobalNamespace::OVRPlugin::Frustumf2
     struct Frustumf2;
-    // Nested type: GlobalNamespace::OVRPlugin::BoundaryType
+    // Nested type: ::GlobalNamespace::OVRPlugin::BoundaryType
     struct BoundaryType;
-    // Nested type: GlobalNamespace::OVRPlugin::BoundaryTestResult
+    // Nested type: ::GlobalNamespace::OVRPlugin::BoundaryTestResult
     struct BoundaryTestResult;
-    // Nested type: GlobalNamespace::OVRPlugin::BoundaryGeometry
+    // Nested type: ::GlobalNamespace::OVRPlugin::BoundaryGeometry
     struct BoundaryGeometry;
-    // Nested type: GlobalNamespace::OVRPlugin::Colorf
+    // Nested type: ::GlobalNamespace::OVRPlugin::Colorf
     struct Colorf;
-    // Nested type: GlobalNamespace::OVRPlugin::Fovf
+    // Nested type: ::GlobalNamespace::OVRPlugin::Fovf
     struct Fovf;
-    // Nested type: GlobalNamespace::OVRPlugin::CameraIntrinsics
+    // Nested type: ::GlobalNamespace::OVRPlugin::CameraIntrinsics
     struct CameraIntrinsics;
-    // Nested type: GlobalNamespace::OVRPlugin::CameraExtrinsics
+    // Nested type: ::GlobalNamespace::OVRPlugin::CameraExtrinsics
     struct CameraExtrinsics;
-    // Nested type: GlobalNamespace::OVRPlugin::LayerLayout
+    // Nested type: ::GlobalNamespace::OVRPlugin::LayerLayout
     struct LayerLayout;
-    // Nested type: GlobalNamespace::OVRPlugin::LayerFlags
+    // Nested type: ::GlobalNamespace::OVRPlugin::LayerFlags
     struct LayerFlags;
-    // Nested type: GlobalNamespace::OVRPlugin::LayerDesc
+    // Nested type: ::GlobalNamespace::OVRPlugin::LayerDesc
     struct LayerDesc;
-    // Nested type: GlobalNamespace::OVRPlugin::BlendFactor
+    // Nested type: ::GlobalNamespace::OVRPlugin::BlendFactor
     struct BlendFactor;
-    // Nested type: GlobalNamespace::OVRPlugin::LayerSubmit
+    // Nested type: ::GlobalNamespace::OVRPlugin::LayerSubmit
     struct LayerSubmit;
-    // Nested type: GlobalNamespace::OVRPlugin::TrackingConfidence
+    // Nested type: ::GlobalNamespace::OVRPlugin::TrackingConfidence
     struct TrackingConfidence;
-    // Nested type: GlobalNamespace::OVRPlugin::Hand
+    // Nested type: ::GlobalNamespace::OVRPlugin::Hand
     struct Hand;
-    // Nested type: GlobalNamespace::OVRPlugin::HandStatus
+    // Nested type: ::GlobalNamespace::OVRPlugin::HandStatus
     struct HandStatus;
-    // Nested type: GlobalNamespace::OVRPlugin::BoneId
+    // Nested type: ::GlobalNamespace::OVRPlugin::BoneId
     struct BoneId;
-    // Nested type: GlobalNamespace::OVRPlugin::HandFinger
+    // Nested type: ::GlobalNamespace::OVRPlugin::HandFinger
     struct HandFinger;
-    // Nested type: GlobalNamespace::OVRPlugin::HandFingerPinch
+    // Nested type: ::GlobalNamespace::OVRPlugin::HandFingerPinch
     struct HandFingerPinch;
-    // Nested type: GlobalNamespace::OVRPlugin::HandState
+    // Nested type: ::GlobalNamespace::OVRPlugin::HandState
     struct HandState;
-    // Nested type: GlobalNamespace::OVRPlugin::HandStateInternal
+    // Nested type: ::GlobalNamespace::OVRPlugin::HandStateInternal
     struct HandStateInternal;
-    // Nested type: GlobalNamespace::OVRPlugin::BoneCapsule
+    // Nested type: ::GlobalNamespace::OVRPlugin::BoneCapsule
     struct BoneCapsule;
-    // Nested type: GlobalNamespace::OVRPlugin::Bone
+    // Nested type: ::GlobalNamespace::OVRPlugin::Bone
     struct Bone;
-    // Nested type: GlobalNamespace::OVRPlugin::SkeletonConstants
+    // Nested type: ::GlobalNamespace::OVRPlugin::SkeletonConstants
     struct SkeletonConstants;
-    // Nested type: GlobalNamespace::OVRPlugin::SkeletonType
+    // Nested type: ::GlobalNamespace::OVRPlugin::SkeletonType
     struct SkeletonType;
-    // Nested type: GlobalNamespace::OVRPlugin::Skeleton
+    // Nested type: ::GlobalNamespace::OVRPlugin::Skeleton
     struct Skeleton;
-    // Nested type: GlobalNamespace::OVRPlugin::Skeleton2
+    // Nested type: ::GlobalNamespace::OVRPlugin::Skeleton2
     struct Skeleton2;
-    // Nested type: GlobalNamespace::OVRPlugin::Skeleton2Internal
+    // Nested type: ::GlobalNamespace::OVRPlugin::Skeleton2Internal
     struct Skeleton2Internal;
-    // Nested type: GlobalNamespace::OVRPlugin::MeshConstants
+    // Nested type: ::GlobalNamespace::OVRPlugin::MeshConstants
     struct MeshConstants;
-    // Nested type: GlobalNamespace::OVRPlugin::MeshType
+    // Nested type: ::GlobalNamespace::OVRPlugin::MeshType
     struct MeshType;
-    // Nested type: GlobalNamespace::OVRPlugin::Mesh
+    // Nested type: ::GlobalNamespace::OVRPlugin::Mesh
     class Mesh;
-    // Nested type: GlobalNamespace::OVRPlugin::ColorSpace
+    // Nested type: ::GlobalNamespace::OVRPlugin::ColorSpace
     struct ColorSpace;
-    // Nested type: GlobalNamespace::OVRPlugin::EventType
+    // Nested type: ::GlobalNamespace::OVRPlugin::EventType
     struct EventType;
-    // Nested type: GlobalNamespace::OVRPlugin::EventDataBuffer
+    // Nested type: ::GlobalNamespace::OVRPlugin::EventDataBuffer
     struct EventDataBuffer;
-    // Nested type: GlobalNamespace::OVRPlugin::Media
+    // Nested type: ::GlobalNamespace::OVRPlugin::Media
     class Media;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_0_1_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_0_1_0
     class OVRP_0_1_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_0_1_1
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_0_1_1
     class OVRP_0_1_1;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_0_1_2
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_0_1_2
     class OVRP_0_1_2;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_0_1_3
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_0_1_3
     class OVRP_0_1_3;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_0_5_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_0_5_0
     class OVRP_0_5_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_0_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_0_0
     class OVRP_1_0_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_1_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_1_0
     class OVRP_1_1_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_2_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_2_0
     class OVRP_1_2_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_3_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_3_0
     class OVRP_1_3_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_5_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_5_0
     class OVRP_1_5_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_6_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_6_0
     class OVRP_1_6_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_7_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_7_0
     class OVRP_1_7_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_8_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_8_0
     class OVRP_1_8_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_9_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_9_0
     class OVRP_1_9_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_10_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_10_0
     class OVRP_1_10_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_11_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_11_0
     class OVRP_1_11_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_12_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_12_0
     class OVRP_1_12_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_15_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_15_0
     class OVRP_1_15_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_16_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_16_0
     class OVRP_1_16_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_17_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_17_0
     class OVRP_1_17_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_18_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_18_0
     class OVRP_1_18_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_19_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_19_0
     class OVRP_1_19_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_21_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_21_0
     class OVRP_1_21_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_28_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_28_0
     class OVRP_1_28_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_29_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_29_0
     class OVRP_1_29_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_30_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_30_0
     class OVRP_1_30_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_31_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_31_0
     class OVRP_1_31_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_32_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_32_0
     class OVRP_1_32_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_34_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_34_0
     class OVRP_1_34_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_35_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_35_0
     class OVRP_1_35_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_36_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_36_0
     class OVRP_1_36_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_37_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_37_0
     class OVRP_1_37_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_38_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_38_0
     class OVRP_1_38_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_39_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_39_0
     class OVRP_1_39_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_40_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_40_0
     class OVRP_1_40_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_41_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_41_0
     class OVRP_1_41_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_42_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_42_0
     class OVRP_1_42_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_43_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_43_0
     class OVRP_1_43_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_44_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_44_0
     class OVRP_1_44_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_45_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_45_0
     class OVRP_1_45_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_46_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_46_0
     class OVRP_1_46_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_47_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_47_0
     class OVRP_1_47_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_48_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_48_0
     class OVRP_1_48_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_49_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_49_0
     class OVRP_1_49_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_50_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_50_0
     class OVRP_1_50_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_51_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_51_0
     class OVRP_1_51_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_52_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_52_0
     class OVRP_1_52_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_53_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_53_0
     class OVRP_1_53_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_54_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_54_0
     class OVRP_1_54_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_55_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_55_0
     class OVRP_1_55_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_55_1
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_55_1
     class OVRP_1_55_1;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_56_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_56_0
     class OVRP_1_56_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_57_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_57_0
     class OVRP_1_57_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_58_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_58_0
     class OVRP_1_58_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_59_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_59_0
     class OVRP_1_59_0;
-    // Nested type: GlobalNamespace::OVRPlugin::OVRP_1_60_0
+    // Nested type: ::GlobalNamespace::OVRPlugin::OVRP_1_60_0
     class OVRP_1_60_0;
     // Size: 0x4
     #pragma pack(push, 1)
     // Autogenerated type: OVRPlugin/XrApi
     // [TokenAttribute] Offset: FFFFFFFF
-    struct XrApi/*, public System::Enum*/ {
+    struct XrApi/*, public ::System::Enum*/ {
       public:
       public:
       // public System.Int32 value__
@@ -361,9 +361,9 @@ namespace GlobalNamespace {
       public:
       // Creating value type constructor for type: XrApi
       constexpr XrApi(int value_ = {}) noexcept : value{value_} {}
-      // Creating interface conversion operator: operator System::Enum
-      operator System::Enum() noexcept {
-        return *reinterpret_cast<System::Enum*>(this);
+      // Creating interface conversion operator: operator ::System::Enum
+      operator ::System::Enum() noexcept {
+        return *reinterpret_cast<::System::Enum*>(this);
       }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
@@ -372,33 +372,33 @@ namespace GlobalNamespace {
       // static field const value: static public OVRPlugin/XrApi Unknown
       static constexpr const int Unknown = 0;
       // Get static field: static public OVRPlugin/XrApi Unknown
-      static GlobalNamespace::OVRPlugin::XrApi _get_Unknown();
+      static ::GlobalNamespace::OVRPlugin::XrApi _get_Unknown();
       // Set static field: static public OVRPlugin/XrApi Unknown
-      static void _set_Unknown(GlobalNamespace::OVRPlugin::XrApi value);
+      static void _set_Unknown(::GlobalNamespace::OVRPlugin::XrApi value);
       // static field const value: static public OVRPlugin/XrApi CAPI
       static constexpr const int CAPI = 1;
       // Get static field: static public OVRPlugin/XrApi CAPI
-      static GlobalNamespace::OVRPlugin::XrApi _get_CAPI();
+      static ::GlobalNamespace::OVRPlugin::XrApi _get_CAPI();
       // Set static field: static public OVRPlugin/XrApi CAPI
-      static void _set_CAPI(GlobalNamespace::OVRPlugin::XrApi value);
+      static void _set_CAPI(::GlobalNamespace::OVRPlugin::XrApi value);
       // static field const value: static public OVRPlugin/XrApi VRAPI
       static constexpr const int VRAPI = 2;
       // Get static field: static public OVRPlugin/XrApi VRAPI
-      static GlobalNamespace::OVRPlugin::XrApi _get_VRAPI();
+      static ::GlobalNamespace::OVRPlugin::XrApi _get_VRAPI();
       // Set static field: static public OVRPlugin/XrApi VRAPI
-      static void _set_VRAPI(GlobalNamespace::OVRPlugin::XrApi value);
+      static void _set_VRAPI(::GlobalNamespace::OVRPlugin::XrApi value);
       // static field const value: static public OVRPlugin/XrApi OpenXR
       static constexpr const int OpenXR = 3;
       // Get static field: static public OVRPlugin/XrApi OpenXR
-      static GlobalNamespace::OVRPlugin::XrApi _get_OpenXR();
+      static ::GlobalNamespace::OVRPlugin::XrApi _get_OpenXR();
       // Set static field: static public OVRPlugin/XrApi OpenXR
-      static void _set_OpenXR(GlobalNamespace::OVRPlugin::XrApi value);
+      static void _set_OpenXR(::GlobalNamespace::OVRPlugin::XrApi value);
       // static field const value: static public OVRPlugin/XrApi EnumSize
       static constexpr const int EnumSize = 2147483647;
       // Get static field: static public OVRPlugin/XrApi EnumSize
-      static GlobalNamespace::OVRPlugin::XrApi _get_EnumSize();
+      static ::GlobalNamespace::OVRPlugin::XrApi _get_EnumSize();
       // Set static field: static public OVRPlugin/XrApi EnumSize
-      static void _set_EnumSize(GlobalNamespace::OVRPlugin::XrApi value);
+      static void _set_EnumSize(::GlobalNamespace::OVRPlugin::XrApi value);
       // Get instance field reference: public System.Int32 value__
       int& dyn_value__();
     }; // OVRPlugin/XrApi
@@ -410,7 +410,7 @@ namespace GlobalNamespace {
     // WARNING Layout: Sequential may not be correctly taken into account!
     // Autogenerated type: OVRPlugin/Vector3f
     // [TokenAttribute] Offset: FFFFFFFF
-    struct Vector3f/*, public System::ValueType*/ {
+    struct Vector3f/*, public ::System::ValueType*/ {
       public:
       public:
       // public System.Single x
@@ -434,14 +434,14 @@ namespace GlobalNamespace {
       public:
       // Creating value type constructor for type: Vector3f
       constexpr Vector3f(float x_ = {}, float y_ = {}, float z_ = {}) noexcept : x{x_}, y{y_}, z{z_} {}
-      // Creating interface conversion operator: operator System::ValueType
-      operator System::ValueType() noexcept {
-        return *reinterpret_cast<System::ValueType*>(this);
+      // Creating interface conversion operator: operator ::System::ValueType
+      operator ::System::ValueType() noexcept {
+        return *reinterpret_cast<::System::ValueType*>(this);
       }
       // Get static field: static public readonly OVRPlugin/Vector3f zero
-      static GlobalNamespace::OVRPlugin::Vector3f _get_zero();
+      static ::GlobalNamespace::OVRPlugin::Vector3f _get_zero();
       // Set static field: static public readonly OVRPlugin/Vector3f zero
-      static void _set_zero(GlobalNamespace::OVRPlugin::Vector3f value);
+      static void _set_zero(::GlobalNamespace::OVRPlugin::Vector3f value);
       // Get instance field reference: public System.Single x
       float& dyn_x();
       // Get instance field reference: public System.Single y
@@ -465,7 +465,7 @@ namespace GlobalNamespace {
     // WARNING Layout: Sequential may not be correctly taken into account!
     // Autogenerated type: OVRPlugin/Quatf
     // [TokenAttribute] Offset: FFFFFFFF
-    struct Quatf/*, public System::ValueType*/ {
+    struct Quatf/*, public ::System::ValueType*/ {
       public:
       public:
       // public System.Single x
@@ -495,14 +495,14 @@ namespace GlobalNamespace {
       public:
       // Creating value type constructor for type: Quatf
       constexpr Quatf(float x_ = {}, float y_ = {}, float z_ = {}, float w_ = {}) noexcept : x{x_}, y{y_}, z{z_}, w{w_} {}
-      // Creating interface conversion operator: operator System::ValueType
-      operator System::ValueType() noexcept {
-        return *reinterpret_cast<System::ValueType*>(this);
+      // Creating interface conversion operator: operator ::System::ValueType
+      operator ::System::ValueType() noexcept {
+        return *reinterpret_cast<::System::ValueType*>(this);
       }
       // Get static field: static public readonly OVRPlugin/Quatf identity
-      static GlobalNamespace::OVRPlugin::Quatf _get_identity();
+      static ::GlobalNamespace::OVRPlugin::Quatf _get_identity();
       // Set static field: static public readonly OVRPlugin/Quatf identity
-      static void _set_identity(GlobalNamespace::OVRPlugin::Quatf value);
+      static void _set_identity(::GlobalNamespace::OVRPlugin::Quatf value);
       // Get instance field reference: public System.Single x
       float& dyn_x();
       // Get instance field reference: public System.Single y
@@ -528,36 +528,36 @@ namespace GlobalNamespace {
     // WARNING Layout: Sequential may not be correctly taken into account!
     // Autogenerated type: OVRPlugin/Posef
     // [TokenAttribute] Offset: FFFFFFFF
-    struct Posef/*, public System::ValueType*/ {
+    struct Posef/*, public ::System::ValueType*/ {
       public:
       public:
       // public OVRPlugin/Quatf Orientation
       // Size: 0x10
       // Offset: 0x0
-      GlobalNamespace::OVRPlugin::Quatf Orientation;
+      ::GlobalNamespace::OVRPlugin::Quatf Orientation;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Quatf) == 0x10);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Quatf) == 0x10);
       // public OVRPlugin/Vector3f Position
       // Size: 0xC
       // Offset: 0x10
-      GlobalNamespace::OVRPlugin::Vector3f Position;
+      ::GlobalNamespace::OVRPlugin::Vector3f Position;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Vector3f) == 0xC);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Vector3f) == 0xC);
       public:
       // Creating value type constructor for type: Posef
-      constexpr Posef(GlobalNamespace::OVRPlugin::Quatf Orientation_ = {}, GlobalNamespace::OVRPlugin::Vector3f Position_ = {}) noexcept : Orientation{Orientation_}, Position{Position_} {}
-      // Creating interface conversion operator: operator System::ValueType
-      operator System::ValueType() noexcept {
-        return *reinterpret_cast<System::ValueType*>(this);
+      constexpr Posef(::GlobalNamespace::OVRPlugin::Quatf Orientation_ = {}, ::GlobalNamespace::OVRPlugin::Vector3f Position_ = {}) noexcept : Orientation{Orientation_}, Position{Position_} {}
+      // Creating interface conversion operator: operator ::System::ValueType
+      operator ::System::ValueType() noexcept {
+        return *reinterpret_cast<::System::ValueType*>(this);
       }
       // Get static field: static public readonly OVRPlugin/Posef identity
-      static GlobalNamespace::OVRPlugin::Posef _get_identity();
+      static ::GlobalNamespace::OVRPlugin::Posef _get_identity();
       // Set static field: static public readonly OVRPlugin/Posef identity
-      static void _set_identity(GlobalNamespace::OVRPlugin::Posef value);
+      static void _set_identity(::GlobalNamespace::OVRPlugin::Posef value);
       // Get instance field reference: public OVRPlugin/Quatf Orientation
-      GlobalNamespace::OVRPlugin::Quatf& dyn_Orientation();
+      ::GlobalNamespace::OVRPlugin::Quatf& dyn_Orientation();
       // Get instance field reference: public OVRPlugin/Vector3f Position
-      GlobalNamespace::OVRPlugin::Vector3f& dyn_Position();
+      ::GlobalNamespace::OVRPlugin::Vector3f& dyn_Position();
       // static private System.Void .cctor()
       // Offset: 0x1A7768C
       static void _cctor();
@@ -568,13 +568,13 @@ namespace GlobalNamespace {
       ::StringW ToString();
     }; // OVRPlugin/Posef
     #pragma pack(pop)
-    static check_size<sizeof(OVRPlugin::Posef), 16 + sizeof(GlobalNamespace::OVRPlugin::Vector3f)> __GlobalNamespace_OVRPlugin_PosefSizeCheck;
+    static check_size<sizeof(OVRPlugin::Posef), 16 + sizeof(::GlobalNamespace::OVRPlugin::Vector3f)> __GlobalNamespace_OVRPlugin_PosefSizeCheck;
     static_assert(sizeof(OVRPlugin::Posef) == 0x1C);
     // Size: 0x4
     #pragma pack(push, 1)
     // Autogenerated type: OVRPlugin/TrackingConfidence
     // [TokenAttribute] Offset: FFFFFFFF
-    struct TrackingConfidence/*, public System::Enum*/ {
+    struct TrackingConfidence/*, public ::System::Enum*/ {
       public:
       public:
       // public System.Int32 value__
@@ -586,9 +586,9 @@ namespace GlobalNamespace {
       public:
       // Creating value type constructor for type: TrackingConfidence
       constexpr TrackingConfidence(int value_ = {}) noexcept : value{value_} {}
-      // Creating interface conversion operator: operator System::Enum
-      operator System::Enum() noexcept {
-        return *reinterpret_cast<System::Enum*>(this);
+      // Creating interface conversion operator: operator ::System::Enum
+      operator ::System::Enum() noexcept {
+        return *reinterpret_cast<::System::Enum*>(this);
       }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
@@ -597,15 +597,15 @@ namespace GlobalNamespace {
       // static field const value: static public OVRPlugin/TrackingConfidence Low
       static constexpr const int Low = 0;
       // Get static field: static public OVRPlugin/TrackingConfidence Low
-      static GlobalNamespace::OVRPlugin::TrackingConfidence _get_Low();
+      static ::GlobalNamespace::OVRPlugin::TrackingConfidence _get_Low();
       // Set static field: static public OVRPlugin/TrackingConfidence Low
-      static void _set_Low(GlobalNamespace::OVRPlugin::TrackingConfidence value);
+      static void _set_Low(::GlobalNamespace::OVRPlugin::TrackingConfidence value);
       // static field const value: static public OVRPlugin/TrackingConfidence High
       static constexpr const int High = 1065353216;
       // Get static field: static public OVRPlugin/TrackingConfidence High
-      static GlobalNamespace::OVRPlugin::TrackingConfidence _get_High();
+      static ::GlobalNamespace::OVRPlugin::TrackingConfidence _get_High();
       // Set static field: static public OVRPlugin/TrackingConfidence High
-      static void _set_High(GlobalNamespace::OVRPlugin::TrackingConfidence value);
+      static void _set_High(::GlobalNamespace::OVRPlugin::TrackingConfidence value);
       // Get instance field reference: public System.Int32 value__
       int& dyn_value__();
     }; // OVRPlugin/TrackingConfidence
@@ -617,7 +617,7 @@ namespace GlobalNamespace {
     // Autogenerated type: OVRPlugin/HandStatus
     // [TokenAttribute] Offset: FFFFFFFF
     // [FlagsAttribute] Offset: FFFFFFFF
-    struct HandStatus/*, public System::Enum*/ {
+    struct HandStatus/*, public ::System::Enum*/ {
       public:
       public:
       // public System.Int32 value__
@@ -629,9 +629,9 @@ namespace GlobalNamespace {
       public:
       // Creating value type constructor for type: HandStatus
       constexpr HandStatus(int value_ = {}) noexcept : value{value_} {}
-      // Creating interface conversion operator: operator System::Enum
-      operator System::Enum() noexcept {
-        return *reinterpret_cast<System::Enum*>(this);
+      // Creating interface conversion operator: operator ::System::Enum
+      operator ::System::Enum() noexcept {
+        return *reinterpret_cast<::System::Enum*>(this);
       }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
@@ -640,33 +640,33 @@ namespace GlobalNamespace {
       // static field const value: static public OVRPlugin/HandStatus HandTracked
       static constexpr const int HandTracked = 1;
       // Get static field: static public OVRPlugin/HandStatus HandTracked
-      static GlobalNamespace::OVRPlugin::HandStatus _get_HandTracked();
+      static ::GlobalNamespace::OVRPlugin::HandStatus _get_HandTracked();
       // Set static field: static public OVRPlugin/HandStatus HandTracked
-      static void _set_HandTracked(GlobalNamespace::OVRPlugin::HandStatus value);
+      static void _set_HandTracked(::GlobalNamespace::OVRPlugin::HandStatus value);
       // static field const value: static public OVRPlugin/HandStatus InputStateValid
       static constexpr const int InputStateValid = 2;
       // Get static field: static public OVRPlugin/HandStatus InputStateValid
-      static GlobalNamespace::OVRPlugin::HandStatus _get_InputStateValid();
+      static ::GlobalNamespace::OVRPlugin::HandStatus _get_InputStateValid();
       // Set static field: static public OVRPlugin/HandStatus InputStateValid
-      static void _set_InputStateValid(GlobalNamespace::OVRPlugin::HandStatus value);
+      static void _set_InputStateValid(::GlobalNamespace::OVRPlugin::HandStatus value);
       // static field const value: static public OVRPlugin/HandStatus SystemGestureInProgress
       static constexpr const int SystemGestureInProgress = 64;
       // Get static field: static public OVRPlugin/HandStatus SystemGestureInProgress
-      static GlobalNamespace::OVRPlugin::HandStatus _get_SystemGestureInProgress();
+      static ::GlobalNamespace::OVRPlugin::HandStatus _get_SystemGestureInProgress();
       // Set static field: static public OVRPlugin/HandStatus SystemGestureInProgress
-      static void _set_SystemGestureInProgress(GlobalNamespace::OVRPlugin::HandStatus value);
+      static void _set_SystemGestureInProgress(::GlobalNamespace::OVRPlugin::HandStatus value);
       // static field const value: static public OVRPlugin/HandStatus DominantHand
       static constexpr const int DominantHand = 128;
       // Get static field: static public OVRPlugin/HandStatus DominantHand
-      static GlobalNamespace::OVRPlugin::HandStatus _get_DominantHand();
+      static ::GlobalNamespace::OVRPlugin::HandStatus _get_DominantHand();
       // Set static field: static public OVRPlugin/HandStatus DominantHand
-      static void _set_DominantHand(GlobalNamespace::OVRPlugin::HandStatus value);
+      static void _set_DominantHand(::GlobalNamespace::OVRPlugin::HandStatus value);
       // static field const value: static public OVRPlugin/HandStatus MenuPressed
       static constexpr const int MenuPressed = 256;
       // Get static field: static public OVRPlugin/HandStatus MenuPressed
-      static GlobalNamespace::OVRPlugin::HandStatus _get_MenuPressed();
+      static ::GlobalNamespace::OVRPlugin::HandStatus _get_MenuPressed();
       // Set static field: static public OVRPlugin/HandStatus MenuPressed
-      static void _set_MenuPressed(GlobalNamespace::OVRPlugin::HandStatus value);
+      static void _set_MenuPressed(::GlobalNamespace::OVRPlugin::HandStatus value);
       // Get instance field reference: public System.Int32 value__
       int& dyn_value__();
     }; // OVRPlugin/HandStatus
@@ -677,7 +677,7 @@ namespace GlobalNamespace {
     #pragma pack(push, 1)
     // Autogenerated type: OVRPlugin/BoneId
     // [TokenAttribute] Offset: FFFFFFFF
-    struct BoneId/*, public System::Enum*/ {
+    struct BoneId/*, public ::System::Enum*/ {
       public:
       public:
       // public System.Int32 value__
@@ -689,9 +689,9 @@ namespace GlobalNamespace {
       public:
       // Creating value type constructor for type: BoneId
       constexpr BoneId(int value_ = {}) noexcept : value{value_} {}
-      // Creating interface conversion operator: operator System::Enum
-      operator System::Enum() noexcept {
-        return *reinterpret_cast<System::Enum*>(this);
+      // Creating interface conversion operator: operator ::System::Enum
+      operator ::System::Enum() noexcept {
+        return *reinterpret_cast<::System::Enum*>(this);
       }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
@@ -700,177 +700,177 @@ namespace GlobalNamespace {
       // static field const value: static public OVRPlugin/BoneId Invalid
       static constexpr const int Invalid = -1;
       // Get static field: static public OVRPlugin/BoneId Invalid
-      static GlobalNamespace::OVRPlugin::BoneId _get_Invalid();
+      static ::GlobalNamespace::OVRPlugin::BoneId _get_Invalid();
       // Set static field: static public OVRPlugin/BoneId Invalid
-      static void _set_Invalid(GlobalNamespace::OVRPlugin::BoneId value);
+      static void _set_Invalid(::GlobalNamespace::OVRPlugin::BoneId value);
       // static field const value: static public OVRPlugin/BoneId Hand_Start
       static constexpr const int Hand_Start = 0;
       // Get static field: static public OVRPlugin/BoneId Hand_Start
-      static GlobalNamespace::OVRPlugin::BoneId _get_Hand_Start();
+      static ::GlobalNamespace::OVRPlugin::BoneId _get_Hand_Start();
       // Set static field: static public OVRPlugin/BoneId Hand_Start
-      static void _set_Hand_Start(GlobalNamespace::OVRPlugin::BoneId value);
+      static void _set_Hand_Start(::GlobalNamespace::OVRPlugin::BoneId value);
       // static field const value: static public OVRPlugin/BoneId Hand_WristRoot
       static constexpr const int Hand_WristRoot = 0;
       // Get static field: static public OVRPlugin/BoneId Hand_WristRoot
-      static GlobalNamespace::OVRPlugin::BoneId _get_Hand_WristRoot();
+      static ::GlobalNamespace::OVRPlugin::BoneId _get_Hand_WristRoot();
       // Set static field: static public OVRPlugin/BoneId Hand_WristRoot
-      static void _set_Hand_WristRoot(GlobalNamespace::OVRPlugin::BoneId value);
+      static void _set_Hand_WristRoot(::GlobalNamespace::OVRPlugin::BoneId value);
       // static field const value: static public OVRPlugin/BoneId Hand_ForearmStub
       static constexpr const int Hand_ForearmStub = 1;
       // Get static field: static public OVRPlugin/BoneId Hand_ForearmStub
-      static GlobalNamespace::OVRPlugin::BoneId _get_Hand_ForearmStub();
+      static ::GlobalNamespace::OVRPlugin::BoneId _get_Hand_ForearmStub();
       // Set static field: static public OVRPlugin/BoneId Hand_ForearmStub
-      static void _set_Hand_ForearmStub(GlobalNamespace::OVRPlugin::BoneId value);
+      static void _set_Hand_ForearmStub(::GlobalNamespace::OVRPlugin::BoneId value);
       // static field const value: static public OVRPlugin/BoneId Hand_Thumb0
       static constexpr const int Hand_Thumb0 = 2;
       // Get static field: static public OVRPlugin/BoneId Hand_Thumb0
-      static GlobalNamespace::OVRPlugin::BoneId _get_Hand_Thumb0();
+      static ::GlobalNamespace::OVRPlugin::BoneId _get_Hand_Thumb0();
       // Set static field: static public OVRPlugin/BoneId Hand_Thumb0
-      static void _set_Hand_Thumb0(GlobalNamespace::OVRPlugin::BoneId value);
+      static void _set_Hand_Thumb0(::GlobalNamespace::OVRPlugin::BoneId value);
       // static field const value: static public OVRPlugin/BoneId Hand_Thumb1
       static constexpr const int Hand_Thumb1 = 3;
       // Get static field: static public OVRPlugin/BoneId Hand_Thumb1
-      static GlobalNamespace::OVRPlugin::BoneId _get_Hand_Thumb1();
+      static ::GlobalNamespace::OVRPlugin::BoneId _get_Hand_Thumb1();
       // Set static field: static public OVRPlugin/BoneId Hand_Thumb1
-      static void _set_Hand_Thumb1(GlobalNamespace::OVRPlugin::BoneId value);
+      static void _set_Hand_Thumb1(::GlobalNamespace::OVRPlugin::BoneId value);
       // static field const value: static public OVRPlugin/BoneId Hand_Thumb2
       static constexpr const int Hand_Thumb2 = 4;
       // Get static field: static public OVRPlugin/BoneId Hand_Thumb2
-      static GlobalNamespace::OVRPlugin::BoneId _get_Hand_Thumb2();
+      static ::GlobalNamespace::OVRPlugin::BoneId _get_Hand_Thumb2();
       // Set static field: static public OVRPlugin/BoneId Hand_Thumb2
-      static void _set_Hand_Thumb2(GlobalNamespace::OVRPlugin::BoneId value);
+      static void _set_Hand_Thumb2(::GlobalNamespace::OVRPlugin::BoneId value);
       // static field const value: static public OVRPlugin/BoneId Hand_Thumb3
       static constexpr const int Hand_Thumb3 = 5;
       // Get static field: static public OVRPlugin/BoneId Hand_Thumb3
-      static GlobalNamespace::OVRPlugin::BoneId _get_Hand_Thumb3();
+      static ::GlobalNamespace::OVRPlugin::BoneId _get_Hand_Thumb3();
       // Set static field: static public OVRPlugin/BoneId Hand_Thumb3
-      static void _set_Hand_Thumb3(GlobalNamespace::OVRPlugin::BoneId value);
+      static void _set_Hand_Thumb3(::GlobalNamespace::OVRPlugin::BoneId value);
       // static field const value: static public OVRPlugin/BoneId Hand_Index1
       static constexpr const int Hand_Index1 = 6;
       // Get static field: static public OVRPlugin/BoneId Hand_Index1
-      static GlobalNamespace::OVRPlugin::BoneId _get_Hand_Index1();
+      static ::GlobalNamespace::OVRPlugin::BoneId _get_Hand_Index1();
       // Set static field: static public OVRPlugin/BoneId Hand_Index1
-      static void _set_Hand_Index1(GlobalNamespace::OVRPlugin::BoneId value);
+      static void _set_Hand_Index1(::GlobalNamespace::OVRPlugin::BoneId value);
       // static field const value: static public OVRPlugin/BoneId Hand_Index2
       static constexpr const int Hand_Index2 = 7;
       // Get static field: static public OVRPlugin/BoneId Hand_Index2
-      static GlobalNamespace::OVRPlugin::BoneId _get_Hand_Index2();
+      static ::GlobalNamespace::OVRPlugin::BoneId _get_Hand_Index2();
       // Set static field: static public OVRPlugin/BoneId Hand_Index2
-      static void _set_Hand_Index2(GlobalNamespace::OVRPlugin::BoneId value);
+      static void _set_Hand_Index2(::GlobalNamespace::OVRPlugin::BoneId value);
       // static field const value: static public OVRPlugin/BoneId Hand_Index3
       static constexpr const int Hand_Index3 = 8;
       // Get static field: static public OVRPlugin/BoneId Hand_Index3
-      static GlobalNamespace::OVRPlugin::BoneId _get_Hand_Index3();
+      static ::GlobalNamespace::OVRPlugin::BoneId _get_Hand_Index3();
       // Set static field: static public OVRPlugin/BoneId Hand_Index3
-      static void _set_Hand_Index3(GlobalNamespace::OVRPlugin::BoneId value);
+      static void _set_Hand_Index3(::GlobalNamespace::OVRPlugin::BoneId value);
       // static field const value: static public OVRPlugin/BoneId Hand_Middle1
       static constexpr const int Hand_Middle1 = 9;
       // Get static field: static public OVRPlugin/BoneId Hand_Middle1
-      static GlobalNamespace::OVRPlugin::BoneId _get_Hand_Middle1();
+      static ::GlobalNamespace::OVRPlugin::BoneId _get_Hand_Middle1();
       // Set static field: static public OVRPlugin/BoneId Hand_Middle1
-      static void _set_Hand_Middle1(GlobalNamespace::OVRPlugin::BoneId value);
+      static void _set_Hand_Middle1(::GlobalNamespace::OVRPlugin::BoneId value);
       // static field const value: static public OVRPlugin/BoneId Hand_Middle2
       static constexpr const int Hand_Middle2 = 10;
       // Get static field: static public OVRPlugin/BoneId Hand_Middle2
-      static GlobalNamespace::OVRPlugin::BoneId _get_Hand_Middle2();
+      static ::GlobalNamespace::OVRPlugin::BoneId _get_Hand_Middle2();
       // Set static field: static public OVRPlugin/BoneId Hand_Middle2
-      static void _set_Hand_Middle2(GlobalNamespace::OVRPlugin::BoneId value);
+      static void _set_Hand_Middle2(::GlobalNamespace::OVRPlugin::BoneId value);
       // static field const value: static public OVRPlugin/BoneId Hand_Middle3
       static constexpr const int Hand_Middle3 = 11;
       // Get static field: static public OVRPlugin/BoneId Hand_Middle3
-      static GlobalNamespace::OVRPlugin::BoneId _get_Hand_Middle3();
+      static ::GlobalNamespace::OVRPlugin::BoneId _get_Hand_Middle3();
       // Set static field: static public OVRPlugin/BoneId Hand_Middle3
-      static void _set_Hand_Middle3(GlobalNamespace::OVRPlugin::BoneId value);
+      static void _set_Hand_Middle3(::GlobalNamespace::OVRPlugin::BoneId value);
       // static field const value: static public OVRPlugin/BoneId Hand_Ring1
       static constexpr const int Hand_Ring1 = 12;
       // Get static field: static public OVRPlugin/BoneId Hand_Ring1
-      static GlobalNamespace::OVRPlugin::BoneId _get_Hand_Ring1();
+      static ::GlobalNamespace::OVRPlugin::BoneId _get_Hand_Ring1();
       // Set static field: static public OVRPlugin/BoneId Hand_Ring1
-      static void _set_Hand_Ring1(GlobalNamespace::OVRPlugin::BoneId value);
+      static void _set_Hand_Ring1(::GlobalNamespace::OVRPlugin::BoneId value);
       // static field const value: static public OVRPlugin/BoneId Hand_Ring2
       static constexpr const int Hand_Ring2 = 13;
       // Get static field: static public OVRPlugin/BoneId Hand_Ring2
-      static GlobalNamespace::OVRPlugin::BoneId _get_Hand_Ring2();
+      static ::GlobalNamespace::OVRPlugin::BoneId _get_Hand_Ring2();
       // Set static field: static public OVRPlugin/BoneId Hand_Ring2
-      static void _set_Hand_Ring2(GlobalNamespace::OVRPlugin::BoneId value);
+      static void _set_Hand_Ring2(::GlobalNamespace::OVRPlugin::BoneId value);
       // static field const value: static public OVRPlugin/BoneId Hand_Ring3
       static constexpr const int Hand_Ring3 = 14;
       // Get static field: static public OVRPlugin/BoneId Hand_Ring3
-      static GlobalNamespace::OVRPlugin::BoneId _get_Hand_Ring3();
+      static ::GlobalNamespace::OVRPlugin::BoneId _get_Hand_Ring3();
       // Set static field: static public OVRPlugin/BoneId Hand_Ring3
-      static void _set_Hand_Ring3(GlobalNamespace::OVRPlugin::BoneId value);
+      static void _set_Hand_Ring3(::GlobalNamespace::OVRPlugin::BoneId value);
       // static field const value: static public OVRPlugin/BoneId Hand_Pinky0
       static constexpr const int Hand_Pinky0 = 15;
       // Get static field: static public OVRPlugin/BoneId Hand_Pinky0
-      static GlobalNamespace::OVRPlugin::BoneId _get_Hand_Pinky0();
+      static ::GlobalNamespace::OVRPlugin::BoneId _get_Hand_Pinky0();
       // Set static field: static public OVRPlugin/BoneId Hand_Pinky0
-      static void _set_Hand_Pinky0(GlobalNamespace::OVRPlugin::BoneId value);
+      static void _set_Hand_Pinky0(::GlobalNamespace::OVRPlugin::BoneId value);
       // static field const value: static public OVRPlugin/BoneId Hand_Pinky1
       static constexpr const int Hand_Pinky1 = 16;
       // Get static field: static public OVRPlugin/BoneId Hand_Pinky1
-      static GlobalNamespace::OVRPlugin::BoneId _get_Hand_Pinky1();
+      static ::GlobalNamespace::OVRPlugin::BoneId _get_Hand_Pinky1();
       // Set static field: static public OVRPlugin/BoneId Hand_Pinky1
-      static void _set_Hand_Pinky1(GlobalNamespace::OVRPlugin::BoneId value);
+      static void _set_Hand_Pinky1(::GlobalNamespace::OVRPlugin::BoneId value);
       // static field const value: static public OVRPlugin/BoneId Hand_Pinky2
       static constexpr const int Hand_Pinky2 = 17;
       // Get static field: static public OVRPlugin/BoneId Hand_Pinky2
-      static GlobalNamespace::OVRPlugin::BoneId _get_Hand_Pinky2();
+      static ::GlobalNamespace::OVRPlugin::BoneId _get_Hand_Pinky2();
       // Set static field: static public OVRPlugin/BoneId Hand_Pinky2
-      static void _set_Hand_Pinky2(GlobalNamespace::OVRPlugin::BoneId value);
+      static void _set_Hand_Pinky2(::GlobalNamespace::OVRPlugin::BoneId value);
       // static field const value: static public OVRPlugin/BoneId Hand_Pinky3
       static constexpr const int Hand_Pinky3 = 18;
       // Get static field: static public OVRPlugin/BoneId Hand_Pinky3
-      static GlobalNamespace::OVRPlugin::BoneId _get_Hand_Pinky3();
+      static ::GlobalNamespace::OVRPlugin::BoneId _get_Hand_Pinky3();
       // Set static field: static public OVRPlugin/BoneId Hand_Pinky3
-      static void _set_Hand_Pinky3(GlobalNamespace::OVRPlugin::BoneId value);
+      static void _set_Hand_Pinky3(::GlobalNamespace::OVRPlugin::BoneId value);
       // static field const value: static public OVRPlugin/BoneId Hand_MaxSkinnable
       static constexpr const int Hand_MaxSkinnable = 19;
       // Get static field: static public OVRPlugin/BoneId Hand_MaxSkinnable
-      static GlobalNamespace::OVRPlugin::BoneId _get_Hand_MaxSkinnable();
+      static ::GlobalNamespace::OVRPlugin::BoneId _get_Hand_MaxSkinnable();
       // Set static field: static public OVRPlugin/BoneId Hand_MaxSkinnable
-      static void _set_Hand_MaxSkinnable(GlobalNamespace::OVRPlugin::BoneId value);
+      static void _set_Hand_MaxSkinnable(::GlobalNamespace::OVRPlugin::BoneId value);
       // static field const value: static public OVRPlugin/BoneId Hand_ThumbTip
       static constexpr const int Hand_ThumbTip = 19;
       // Get static field: static public OVRPlugin/BoneId Hand_ThumbTip
-      static GlobalNamespace::OVRPlugin::BoneId _get_Hand_ThumbTip();
+      static ::GlobalNamespace::OVRPlugin::BoneId _get_Hand_ThumbTip();
       // Set static field: static public OVRPlugin/BoneId Hand_ThumbTip
-      static void _set_Hand_ThumbTip(GlobalNamespace::OVRPlugin::BoneId value);
+      static void _set_Hand_ThumbTip(::GlobalNamespace::OVRPlugin::BoneId value);
       // static field const value: static public OVRPlugin/BoneId Hand_IndexTip
       static constexpr const int Hand_IndexTip = 20;
       // Get static field: static public OVRPlugin/BoneId Hand_IndexTip
-      static GlobalNamespace::OVRPlugin::BoneId _get_Hand_IndexTip();
+      static ::GlobalNamespace::OVRPlugin::BoneId _get_Hand_IndexTip();
       // Set static field: static public OVRPlugin/BoneId Hand_IndexTip
-      static void _set_Hand_IndexTip(GlobalNamespace::OVRPlugin::BoneId value);
+      static void _set_Hand_IndexTip(::GlobalNamespace::OVRPlugin::BoneId value);
       // static field const value: static public OVRPlugin/BoneId Hand_MiddleTip
       static constexpr const int Hand_MiddleTip = 21;
       // Get static field: static public OVRPlugin/BoneId Hand_MiddleTip
-      static GlobalNamespace::OVRPlugin::BoneId _get_Hand_MiddleTip();
+      static ::GlobalNamespace::OVRPlugin::BoneId _get_Hand_MiddleTip();
       // Set static field: static public OVRPlugin/BoneId Hand_MiddleTip
-      static void _set_Hand_MiddleTip(GlobalNamespace::OVRPlugin::BoneId value);
+      static void _set_Hand_MiddleTip(::GlobalNamespace::OVRPlugin::BoneId value);
       // static field const value: static public OVRPlugin/BoneId Hand_RingTip
       static constexpr const int Hand_RingTip = 22;
       // Get static field: static public OVRPlugin/BoneId Hand_RingTip
-      static GlobalNamespace::OVRPlugin::BoneId _get_Hand_RingTip();
+      static ::GlobalNamespace::OVRPlugin::BoneId _get_Hand_RingTip();
       // Set static field: static public OVRPlugin/BoneId Hand_RingTip
-      static void _set_Hand_RingTip(GlobalNamespace::OVRPlugin::BoneId value);
+      static void _set_Hand_RingTip(::GlobalNamespace::OVRPlugin::BoneId value);
       // static field const value: static public OVRPlugin/BoneId Hand_PinkyTip
       static constexpr const int Hand_PinkyTip = 23;
       // Get static field: static public OVRPlugin/BoneId Hand_PinkyTip
-      static GlobalNamespace::OVRPlugin::BoneId _get_Hand_PinkyTip();
+      static ::GlobalNamespace::OVRPlugin::BoneId _get_Hand_PinkyTip();
       // Set static field: static public OVRPlugin/BoneId Hand_PinkyTip
-      static void _set_Hand_PinkyTip(GlobalNamespace::OVRPlugin::BoneId value);
+      static void _set_Hand_PinkyTip(::GlobalNamespace::OVRPlugin::BoneId value);
       // static field const value: static public OVRPlugin/BoneId Hand_End
       static constexpr const int Hand_End = 24;
       // Get static field: static public OVRPlugin/BoneId Hand_End
-      static GlobalNamespace::OVRPlugin::BoneId _get_Hand_End();
+      static ::GlobalNamespace::OVRPlugin::BoneId _get_Hand_End();
       // Set static field: static public OVRPlugin/BoneId Hand_End
-      static void _set_Hand_End(GlobalNamespace::OVRPlugin::BoneId value);
+      static void _set_Hand_End(::GlobalNamespace::OVRPlugin::BoneId value);
       // static field const value: static public OVRPlugin/BoneId Max
       static constexpr const int Max = 50;
       // Get static field: static public OVRPlugin/BoneId Max
-      static GlobalNamespace::OVRPlugin::BoneId _get_Max();
+      static ::GlobalNamespace::OVRPlugin::BoneId _get_Max();
       // Set static field: static public OVRPlugin/BoneId Max
-      static void _set_Max(GlobalNamespace::OVRPlugin::BoneId value);
+      static void _set_Max(::GlobalNamespace::OVRPlugin::BoneId value);
       // Get instance field reference: public System.Int32 value__
       int& dyn_value__();
     }; // OVRPlugin/BoneId
@@ -882,7 +882,7 @@ namespace GlobalNamespace {
     // Autogenerated type: OVRPlugin/HandFingerPinch
     // [TokenAttribute] Offset: FFFFFFFF
     // [FlagsAttribute] Offset: FFFFFFFF
-    struct HandFingerPinch/*, public System::Enum*/ {
+    struct HandFingerPinch/*, public ::System::Enum*/ {
       public:
       public:
       // public System.Int32 value__
@@ -894,9 +894,9 @@ namespace GlobalNamespace {
       public:
       // Creating value type constructor for type: HandFingerPinch
       constexpr HandFingerPinch(int value_ = {}) noexcept : value{value_} {}
-      // Creating interface conversion operator: operator System::Enum
-      operator System::Enum() noexcept {
-        return *reinterpret_cast<System::Enum*>(this);
+      // Creating interface conversion operator: operator ::System::Enum
+      operator ::System::Enum() noexcept {
+        return *reinterpret_cast<::System::Enum*>(this);
       }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
@@ -905,33 +905,33 @@ namespace GlobalNamespace {
       // static field const value: static public OVRPlugin/HandFingerPinch Thumb
       static constexpr const int Thumb = 1;
       // Get static field: static public OVRPlugin/HandFingerPinch Thumb
-      static GlobalNamespace::OVRPlugin::HandFingerPinch _get_Thumb();
+      static ::GlobalNamespace::OVRPlugin::HandFingerPinch _get_Thumb();
       // Set static field: static public OVRPlugin/HandFingerPinch Thumb
-      static void _set_Thumb(GlobalNamespace::OVRPlugin::HandFingerPinch value);
+      static void _set_Thumb(::GlobalNamespace::OVRPlugin::HandFingerPinch value);
       // static field const value: static public OVRPlugin/HandFingerPinch Index
       static constexpr const int Index = 2;
       // Get static field: static public OVRPlugin/HandFingerPinch Index
-      static GlobalNamespace::OVRPlugin::HandFingerPinch _get_Index();
+      static ::GlobalNamespace::OVRPlugin::HandFingerPinch _get_Index();
       // Set static field: static public OVRPlugin/HandFingerPinch Index
-      static void _set_Index(GlobalNamespace::OVRPlugin::HandFingerPinch value);
+      static void _set_Index(::GlobalNamespace::OVRPlugin::HandFingerPinch value);
       // static field const value: static public OVRPlugin/HandFingerPinch Middle
       static constexpr const int Middle = 4;
       // Get static field: static public OVRPlugin/HandFingerPinch Middle
-      static GlobalNamespace::OVRPlugin::HandFingerPinch _get_Middle();
+      static ::GlobalNamespace::OVRPlugin::HandFingerPinch _get_Middle();
       // Set static field: static public OVRPlugin/HandFingerPinch Middle
-      static void _set_Middle(GlobalNamespace::OVRPlugin::HandFingerPinch value);
+      static void _set_Middle(::GlobalNamespace::OVRPlugin::HandFingerPinch value);
       // static field const value: static public OVRPlugin/HandFingerPinch Ring
       static constexpr const int Ring = 8;
       // Get static field: static public OVRPlugin/HandFingerPinch Ring
-      static GlobalNamespace::OVRPlugin::HandFingerPinch _get_Ring();
+      static ::GlobalNamespace::OVRPlugin::HandFingerPinch _get_Ring();
       // Set static field: static public OVRPlugin/HandFingerPinch Ring
-      static void _set_Ring(GlobalNamespace::OVRPlugin::HandFingerPinch value);
+      static void _set_Ring(::GlobalNamespace::OVRPlugin::HandFingerPinch value);
       // static field const value: static public OVRPlugin/HandFingerPinch Pinky
       static constexpr const int Pinky = 16;
       // Get static field: static public OVRPlugin/HandFingerPinch Pinky
-      static GlobalNamespace::OVRPlugin::HandFingerPinch _get_Pinky();
+      static ::GlobalNamespace::OVRPlugin::HandFingerPinch _get_Pinky();
       // Set static field: static public OVRPlugin/HandFingerPinch Pinky
-      static void _set_Pinky(GlobalNamespace::OVRPlugin::HandFingerPinch value);
+      static void _set_Pinky(::GlobalNamespace::OVRPlugin::HandFingerPinch value);
       // Get instance field reference: public System.Int32 value__
       int& dyn_value__();
     }; // OVRPlugin/HandFingerPinch
@@ -943,171 +943,171 @@ namespace GlobalNamespace {
     // WARNING Layout: Sequential may not be correctly taken into account!
     // Autogenerated type: OVRPlugin/HandStateInternal
     // [TokenAttribute] Offset: FFFFFFFF
-    struct HandStateInternal/*, public System::ValueType*/ {
+    struct HandStateInternal/*, public ::System::ValueType*/ {
       public:
       public:
       // public OVRPlugin/HandStatus Status
       // Size: 0x4
       // Offset: 0x0
-      GlobalNamespace::OVRPlugin::HandStatus Status;
+      ::GlobalNamespace::OVRPlugin::HandStatus Status;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::HandStatus) == 0x4);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::HandStatus) == 0x4);
       // public OVRPlugin/Posef RootPose
       // Size: 0x1C
       // Offset: 0x4
-      GlobalNamespace::OVRPlugin::Posef RootPose;
+      ::GlobalNamespace::OVRPlugin::Posef RootPose;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Posef) == 0x1C);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Posef) == 0x1C);
       // public OVRPlugin/Quatf BoneRotations_0
       // Size: 0x10
       // Offset: 0x20
-      GlobalNamespace::OVRPlugin::Quatf BoneRotations_0;
+      ::GlobalNamespace::OVRPlugin::Quatf BoneRotations_0;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Quatf) == 0x10);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Quatf) == 0x10);
       // public OVRPlugin/Quatf BoneRotations_1
       // Size: 0x10
       // Offset: 0x30
-      GlobalNamespace::OVRPlugin::Quatf BoneRotations_1;
+      ::GlobalNamespace::OVRPlugin::Quatf BoneRotations_1;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Quatf) == 0x10);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Quatf) == 0x10);
       // public OVRPlugin/Quatf BoneRotations_2
       // Size: 0x10
       // Offset: 0x40
-      GlobalNamespace::OVRPlugin::Quatf BoneRotations_2;
+      ::GlobalNamespace::OVRPlugin::Quatf BoneRotations_2;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Quatf) == 0x10);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Quatf) == 0x10);
       // public OVRPlugin/Quatf BoneRotations_3
       // Size: 0x10
       // Offset: 0x50
-      GlobalNamespace::OVRPlugin::Quatf BoneRotations_3;
+      ::GlobalNamespace::OVRPlugin::Quatf BoneRotations_3;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Quatf) == 0x10);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Quatf) == 0x10);
       // public OVRPlugin/Quatf BoneRotations_4
       // Size: 0x10
       // Offset: 0x60
-      GlobalNamespace::OVRPlugin::Quatf BoneRotations_4;
+      ::GlobalNamespace::OVRPlugin::Quatf BoneRotations_4;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Quatf) == 0x10);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Quatf) == 0x10);
       // public OVRPlugin/Quatf BoneRotations_5
       // Size: 0x10
       // Offset: 0x70
-      GlobalNamespace::OVRPlugin::Quatf BoneRotations_5;
+      ::GlobalNamespace::OVRPlugin::Quatf BoneRotations_5;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Quatf) == 0x10);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Quatf) == 0x10);
       // public OVRPlugin/Quatf BoneRotations_6
       // Size: 0x10
       // Offset: 0x80
-      GlobalNamespace::OVRPlugin::Quatf BoneRotations_6;
+      ::GlobalNamespace::OVRPlugin::Quatf BoneRotations_6;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Quatf) == 0x10);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Quatf) == 0x10);
       // public OVRPlugin/Quatf BoneRotations_7
       // Size: 0x10
       // Offset: 0x90
-      GlobalNamespace::OVRPlugin::Quatf BoneRotations_7;
+      ::GlobalNamespace::OVRPlugin::Quatf BoneRotations_7;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Quatf) == 0x10);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Quatf) == 0x10);
       // public OVRPlugin/Quatf BoneRotations_8
       // Size: 0x10
       // Offset: 0xA0
-      GlobalNamespace::OVRPlugin::Quatf BoneRotations_8;
+      ::GlobalNamespace::OVRPlugin::Quatf BoneRotations_8;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Quatf) == 0x10);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Quatf) == 0x10);
       // public OVRPlugin/Quatf BoneRotations_9
       // Size: 0x10
       // Offset: 0xB0
-      GlobalNamespace::OVRPlugin::Quatf BoneRotations_9;
+      ::GlobalNamespace::OVRPlugin::Quatf BoneRotations_9;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Quatf) == 0x10);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Quatf) == 0x10);
       // public OVRPlugin/Quatf BoneRotations_10
       // Size: 0x10
       // Offset: 0xC0
-      GlobalNamespace::OVRPlugin::Quatf BoneRotations_10;
+      ::GlobalNamespace::OVRPlugin::Quatf BoneRotations_10;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Quatf) == 0x10);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Quatf) == 0x10);
       // public OVRPlugin/Quatf BoneRotations_11
       // Size: 0x10
       // Offset: 0xD0
-      GlobalNamespace::OVRPlugin::Quatf BoneRotations_11;
+      ::GlobalNamespace::OVRPlugin::Quatf BoneRotations_11;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Quatf) == 0x10);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Quatf) == 0x10);
       // public OVRPlugin/Quatf BoneRotations_12
       // Size: 0x10
       // Offset: 0xE0
-      GlobalNamespace::OVRPlugin::Quatf BoneRotations_12;
+      ::GlobalNamespace::OVRPlugin::Quatf BoneRotations_12;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Quatf) == 0x10);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Quatf) == 0x10);
       // public OVRPlugin/Quatf BoneRotations_13
       // Size: 0x10
       // Offset: 0xF0
-      GlobalNamespace::OVRPlugin::Quatf BoneRotations_13;
+      ::GlobalNamespace::OVRPlugin::Quatf BoneRotations_13;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Quatf) == 0x10);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Quatf) == 0x10);
       // public OVRPlugin/Quatf BoneRotations_14
       // Size: 0x10
       // Offset: 0x100
-      GlobalNamespace::OVRPlugin::Quatf BoneRotations_14;
+      ::GlobalNamespace::OVRPlugin::Quatf BoneRotations_14;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Quatf) == 0x10);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Quatf) == 0x10);
       // public OVRPlugin/Quatf BoneRotations_15
       // Size: 0x10
       // Offset: 0x110
-      GlobalNamespace::OVRPlugin::Quatf BoneRotations_15;
+      ::GlobalNamespace::OVRPlugin::Quatf BoneRotations_15;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Quatf) == 0x10);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Quatf) == 0x10);
       // public OVRPlugin/Quatf BoneRotations_16
       // Size: 0x10
       // Offset: 0x120
-      GlobalNamespace::OVRPlugin::Quatf BoneRotations_16;
+      ::GlobalNamespace::OVRPlugin::Quatf BoneRotations_16;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Quatf) == 0x10);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Quatf) == 0x10);
       // public OVRPlugin/Quatf BoneRotations_17
       // Size: 0x10
       // Offset: 0x130
-      GlobalNamespace::OVRPlugin::Quatf BoneRotations_17;
+      ::GlobalNamespace::OVRPlugin::Quatf BoneRotations_17;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Quatf) == 0x10);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Quatf) == 0x10);
       // public OVRPlugin/Quatf BoneRotations_18
       // Size: 0x10
       // Offset: 0x140
-      GlobalNamespace::OVRPlugin::Quatf BoneRotations_18;
+      ::GlobalNamespace::OVRPlugin::Quatf BoneRotations_18;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Quatf) == 0x10);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Quatf) == 0x10);
       // public OVRPlugin/Quatf BoneRotations_19
       // Size: 0x10
       // Offset: 0x150
-      GlobalNamespace::OVRPlugin::Quatf BoneRotations_19;
+      ::GlobalNamespace::OVRPlugin::Quatf BoneRotations_19;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Quatf) == 0x10);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Quatf) == 0x10);
       // public OVRPlugin/Quatf BoneRotations_20
       // Size: 0x10
       // Offset: 0x160
-      GlobalNamespace::OVRPlugin::Quatf BoneRotations_20;
+      ::GlobalNamespace::OVRPlugin::Quatf BoneRotations_20;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Quatf) == 0x10);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Quatf) == 0x10);
       // public OVRPlugin/Quatf BoneRotations_21
       // Size: 0x10
       // Offset: 0x170
-      GlobalNamespace::OVRPlugin::Quatf BoneRotations_21;
+      ::GlobalNamespace::OVRPlugin::Quatf BoneRotations_21;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Quatf) == 0x10);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Quatf) == 0x10);
       // public OVRPlugin/Quatf BoneRotations_22
       // Size: 0x10
       // Offset: 0x180
-      GlobalNamespace::OVRPlugin::Quatf BoneRotations_22;
+      ::GlobalNamespace::OVRPlugin::Quatf BoneRotations_22;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Quatf) == 0x10);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Quatf) == 0x10);
       // public OVRPlugin/Quatf BoneRotations_23
       // Size: 0x10
       // Offset: 0x190
-      GlobalNamespace::OVRPlugin::Quatf BoneRotations_23;
+      ::GlobalNamespace::OVRPlugin::Quatf BoneRotations_23;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Quatf) == 0x10);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Quatf) == 0x10);
       // public OVRPlugin/HandFingerPinch Pinches
       // Size: 0x4
       // Offset: 0x1A0
-      GlobalNamespace::OVRPlugin::HandFingerPinch Pinches;
+      ::GlobalNamespace::OVRPlugin::HandFingerPinch Pinches;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::HandFingerPinch) == 0x4);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::HandFingerPinch) == 0x4);
       // public System.Single PinchStrength_0
       // Size: 0x4
       // Offset: 0x1A4
@@ -1141,9 +1141,9 @@ namespace GlobalNamespace {
       // public OVRPlugin/Posef PointerPose
       // Size: 0x1C
       // Offset: 0x1B8
-      GlobalNamespace::OVRPlugin::Posef PointerPose;
+      ::GlobalNamespace::OVRPlugin::Posef PointerPose;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Posef) == 0x1C);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Posef) == 0x1C);
       // public System.Single HandScale
       // Size: 0x4
       // Offset: 0x1D4
@@ -1153,39 +1153,39 @@ namespace GlobalNamespace {
       // public OVRPlugin/TrackingConfidence HandConfidence
       // Size: 0x4
       // Offset: 0x1D8
-      GlobalNamespace::OVRPlugin::TrackingConfidence HandConfidence;
+      ::GlobalNamespace::OVRPlugin::TrackingConfidence HandConfidence;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::TrackingConfidence) == 0x4);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::TrackingConfidence) == 0x4);
       // public OVRPlugin/TrackingConfidence FingerConfidences_0
       // Size: 0x4
       // Offset: 0x1DC
-      GlobalNamespace::OVRPlugin::TrackingConfidence FingerConfidences_0;
+      ::GlobalNamespace::OVRPlugin::TrackingConfidence FingerConfidences_0;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::TrackingConfidence) == 0x4);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::TrackingConfidence) == 0x4);
       // public OVRPlugin/TrackingConfidence FingerConfidences_1
       // Size: 0x4
       // Offset: 0x1E0
-      GlobalNamespace::OVRPlugin::TrackingConfidence FingerConfidences_1;
+      ::GlobalNamespace::OVRPlugin::TrackingConfidence FingerConfidences_1;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::TrackingConfidence) == 0x4);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::TrackingConfidence) == 0x4);
       // public OVRPlugin/TrackingConfidence FingerConfidences_2
       // Size: 0x4
       // Offset: 0x1E4
-      GlobalNamespace::OVRPlugin::TrackingConfidence FingerConfidences_2;
+      ::GlobalNamespace::OVRPlugin::TrackingConfidence FingerConfidences_2;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::TrackingConfidence) == 0x4);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::TrackingConfidence) == 0x4);
       // public OVRPlugin/TrackingConfidence FingerConfidences_3
       // Size: 0x4
       // Offset: 0x1E8
-      GlobalNamespace::OVRPlugin::TrackingConfidence FingerConfidences_3;
+      ::GlobalNamespace::OVRPlugin::TrackingConfidence FingerConfidences_3;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::TrackingConfidence) == 0x4);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::TrackingConfidence) == 0x4);
       // public OVRPlugin/TrackingConfidence FingerConfidences_4
       // Size: 0x4
       // Offset: 0x1EC
-      GlobalNamespace::OVRPlugin::TrackingConfidence FingerConfidences_4;
+      ::GlobalNamespace::OVRPlugin::TrackingConfidence FingerConfidences_4;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::TrackingConfidence) == 0x4);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::TrackingConfidence) == 0x4);
       // public System.Double RequestedTimeStamp
       // Size: 0x8
       // Offset: 0x1F0
@@ -1200,65 +1200,65 @@ namespace GlobalNamespace {
       static_assert(sizeof(double) == 0x8);
       public:
       // Creating value type constructor for type: HandStateInternal
-      constexpr HandStateInternal(GlobalNamespace::OVRPlugin::HandStatus Status_ = {}, GlobalNamespace::OVRPlugin::Posef RootPose_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_0_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_1_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_2_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_3_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_4_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_5_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_6_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_7_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_8_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_9_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_10_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_11_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_12_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_13_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_14_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_15_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_16_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_17_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_18_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_19_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_20_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_21_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_22_ = {}, GlobalNamespace::OVRPlugin::Quatf BoneRotations_23_ = {}, GlobalNamespace::OVRPlugin::HandFingerPinch Pinches_ = {}, float PinchStrength_0_ = {}, float PinchStrength_1_ = {}, float PinchStrength_2_ = {}, float PinchStrength_3_ = {}, float PinchStrength_4_ = {}, GlobalNamespace::OVRPlugin::Posef PointerPose_ = {}, float HandScale_ = {}, GlobalNamespace::OVRPlugin::TrackingConfidence HandConfidence_ = {}, GlobalNamespace::OVRPlugin::TrackingConfidence FingerConfidences_0_ = {}, GlobalNamespace::OVRPlugin::TrackingConfidence FingerConfidences_1_ = {}, GlobalNamespace::OVRPlugin::TrackingConfidence FingerConfidences_2_ = {}, GlobalNamespace::OVRPlugin::TrackingConfidence FingerConfidences_3_ = {}, GlobalNamespace::OVRPlugin::TrackingConfidence FingerConfidences_4_ = {}, double RequestedTimeStamp_ = {}, double SampleTimeStamp_ = {}) noexcept : Status{Status_}, RootPose{RootPose_}, BoneRotations_0{BoneRotations_0_}, BoneRotations_1{BoneRotations_1_}, BoneRotations_2{BoneRotations_2_}, BoneRotations_3{BoneRotations_3_}, BoneRotations_4{BoneRotations_4_}, BoneRotations_5{BoneRotations_5_}, BoneRotations_6{BoneRotations_6_}, BoneRotations_7{BoneRotations_7_}, BoneRotations_8{BoneRotations_8_}, BoneRotations_9{BoneRotations_9_}, BoneRotations_10{BoneRotations_10_}, BoneRotations_11{BoneRotations_11_}, BoneRotations_12{BoneRotations_12_}, BoneRotations_13{BoneRotations_13_}, BoneRotations_14{BoneRotations_14_}, BoneRotations_15{BoneRotations_15_}, BoneRotations_16{BoneRotations_16_}, BoneRotations_17{BoneRotations_17_}, BoneRotations_18{BoneRotations_18_}, BoneRotations_19{BoneRotations_19_}, BoneRotations_20{BoneRotations_20_}, BoneRotations_21{BoneRotations_21_}, BoneRotations_22{BoneRotations_22_}, BoneRotations_23{BoneRotations_23_}, Pinches{Pinches_}, PinchStrength_0{PinchStrength_0_}, PinchStrength_1{PinchStrength_1_}, PinchStrength_2{PinchStrength_2_}, PinchStrength_3{PinchStrength_3_}, PinchStrength_4{PinchStrength_4_}, PointerPose{PointerPose_}, HandScale{HandScale_}, HandConfidence{HandConfidence_}, FingerConfidences_0{FingerConfidences_0_}, FingerConfidences_1{FingerConfidences_1_}, FingerConfidences_2{FingerConfidences_2_}, FingerConfidences_3{FingerConfidences_3_}, FingerConfidences_4{FingerConfidences_4_}, RequestedTimeStamp{RequestedTimeStamp_}, SampleTimeStamp{SampleTimeStamp_} {}
-      // Creating interface conversion operator: operator System::ValueType
-      operator System::ValueType() noexcept {
-        return *reinterpret_cast<System::ValueType*>(this);
+      constexpr HandStateInternal(::GlobalNamespace::OVRPlugin::HandStatus Status_ = {}, ::GlobalNamespace::OVRPlugin::Posef RootPose_ = {}, ::GlobalNamespace::OVRPlugin::Quatf BoneRotations_0_ = {}, ::GlobalNamespace::OVRPlugin::Quatf BoneRotations_1_ = {}, ::GlobalNamespace::OVRPlugin::Quatf BoneRotations_2_ = {}, ::GlobalNamespace::OVRPlugin::Quatf BoneRotations_3_ = {}, ::GlobalNamespace::OVRPlugin::Quatf BoneRotations_4_ = {}, ::GlobalNamespace::OVRPlugin::Quatf BoneRotations_5_ = {}, ::GlobalNamespace::OVRPlugin::Quatf BoneRotations_6_ = {}, ::GlobalNamespace::OVRPlugin::Quatf BoneRotations_7_ = {}, ::GlobalNamespace::OVRPlugin::Quatf BoneRotations_8_ = {}, ::GlobalNamespace::OVRPlugin::Quatf BoneRotations_9_ = {}, ::GlobalNamespace::OVRPlugin::Quatf BoneRotations_10_ = {}, ::GlobalNamespace::OVRPlugin::Quatf BoneRotations_11_ = {}, ::GlobalNamespace::OVRPlugin::Quatf BoneRotations_12_ = {}, ::GlobalNamespace::OVRPlugin::Quatf BoneRotations_13_ = {}, ::GlobalNamespace::OVRPlugin::Quatf BoneRotations_14_ = {}, ::GlobalNamespace::OVRPlugin::Quatf BoneRotations_15_ = {}, ::GlobalNamespace::OVRPlugin::Quatf BoneRotations_16_ = {}, ::GlobalNamespace::OVRPlugin::Quatf BoneRotations_17_ = {}, ::GlobalNamespace::OVRPlugin::Quatf BoneRotations_18_ = {}, ::GlobalNamespace::OVRPlugin::Quatf BoneRotations_19_ = {}, ::GlobalNamespace::OVRPlugin::Quatf BoneRotations_20_ = {}, ::GlobalNamespace::OVRPlugin::Quatf BoneRotations_21_ = {}, ::GlobalNamespace::OVRPlugin::Quatf BoneRotations_22_ = {}, ::GlobalNamespace::OVRPlugin::Quatf BoneRotations_23_ = {}, ::GlobalNamespace::OVRPlugin::HandFingerPinch Pinches_ = {}, float PinchStrength_0_ = {}, float PinchStrength_1_ = {}, float PinchStrength_2_ = {}, float PinchStrength_3_ = {}, float PinchStrength_4_ = {}, ::GlobalNamespace::OVRPlugin::Posef PointerPose_ = {}, float HandScale_ = {}, ::GlobalNamespace::OVRPlugin::TrackingConfidence HandConfidence_ = {}, ::GlobalNamespace::OVRPlugin::TrackingConfidence FingerConfidences_0_ = {}, ::GlobalNamespace::OVRPlugin::TrackingConfidence FingerConfidences_1_ = {}, ::GlobalNamespace::OVRPlugin::TrackingConfidence FingerConfidences_2_ = {}, ::GlobalNamespace::OVRPlugin::TrackingConfidence FingerConfidences_3_ = {}, ::GlobalNamespace::OVRPlugin::TrackingConfidence FingerConfidences_4_ = {}, double RequestedTimeStamp_ = {}, double SampleTimeStamp_ = {}) noexcept : Status{Status_}, RootPose{RootPose_}, BoneRotations_0{BoneRotations_0_}, BoneRotations_1{BoneRotations_1_}, BoneRotations_2{BoneRotations_2_}, BoneRotations_3{BoneRotations_3_}, BoneRotations_4{BoneRotations_4_}, BoneRotations_5{BoneRotations_5_}, BoneRotations_6{BoneRotations_6_}, BoneRotations_7{BoneRotations_7_}, BoneRotations_8{BoneRotations_8_}, BoneRotations_9{BoneRotations_9_}, BoneRotations_10{BoneRotations_10_}, BoneRotations_11{BoneRotations_11_}, BoneRotations_12{BoneRotations_12_}, BoneRotations_13{BoneRotations_13_}, BoneRotations_14{BoneRotations_14_}, BoneRotations_15{BoneRotations_15_}, BoneRotations_16{BoneRotations_16_}, BoneRotations_17{BoneRotations_17_}, BoneRotations_18{BoneRotations_18_}, BoneRotations_19{BoneRotations_19_}, BoneRotations_20{BoneRotations_20_}, BoneRotations_21{BoneRotations_21_}, BoneRotations_22{BoneRotations_22_}, BoneRotations_23{BoneRotations_23_}, Pinches{Pinches_}, PinchStrength_0{PinchStrength_0_}, PinchStrength_1{PinchStrength_1_}, PinchStrength_2{PinchStrength_2_}, PinchStrength_3{PinchStrength_3_}, PinchStrength_4{PinchStrength_4_}, PointerPose{PointerPose_}, HandScale{HandScale_}, HandConfidence{HandConfidence_}, FingerConfidences_0{FingerConfidences_0_}, FingerConfidences_1{FingerConfidences_1_}, FingerConfidences_2{FingerConfidences_2_}, FingerConfidences_3{FingerConfidences_3_}, FingerConfidences_4{FingerConfidences_4_}, RequestedTimeStamp{RequestedTimeStamp_}, SampleTimeStamp{SampleTimeStamp_} {}
+      // Creating interface conversion operator: operator ::System::ValueType
+      operator ::System::ValueType() noexcept {
+        return *reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: public OVRPlugin/HandStatus Status
-      GlobalNamespace::OVRPlugin::HandStatus& dyn_Status();
+      ::GlobalNamespace::OVRPlugin::HandStatus& dyn_Status();
       // Get instance field reference: public OVRPlugin/Posef RootPose
-      GlobalNamespace::OVRPlugin::Posef& dyn_RootPose();
+      ::GlobalNamespace::OVRPlugin::Posef& dyn_RootPose();
       // Get instance field reference: public OVRPlugin/Quatf BoneRotations_0
-      GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_0();
+      ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_0();
       // Get instance field reference: public OVRPlugin/Quatf BoneRotations_1
-      GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_1();
+      ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_1();
       // Get instance field reference: public OVRPlugin/Quatf BoneRotations_2
-      GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_2();
+      ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_2();
       // Get instance field reference: public OVRPlugin/Quatf BoneRotations_3
-      GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_3();
+      ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_3();
       // Get instance field reference: public OVRPlugin/Quatf BoneRotations_4
-      GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_4();
+      ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_4();
       // Get instance field reference: public OVRPlugin/Quatf BoneRotations_5
-      GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_5();
+      ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_5();
       // Get instance field reference: public OVRPlugin/Quatf BoneRotations_6
-      GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_6();
+      ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_6();
       // Get instance field reference: public OVRPlugin/Quatf BoneRotations_7
-      GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_7();
+      ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_7();
       // Get instance field reference: public OVRPlugin/Quatf BoneRotations_8
-      GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_8();
+      ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_8();
       // Get instance field reference: public OVRPlugin/Quatf BoneRotations_9
-      GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_9();
+      ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_9();
       // Get instance field reference: public OVRPlugin/Quatf BoneRotations_10
-      GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_10();
+      ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_10();
       // Get instance field reference: public OVRPlugin/Quatf BoneRotations_11
-      GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_11();
+      ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_11();
       // Get instance field reference: public OVRPlugin/Quatf BoneRotations_12
-      GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_12();
+      ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_12();
       // Get instance field reference: public OVRPlugin/Quatf BoneRotations_13
-      GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_13();
+      ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_13();
       // Get instance field reference: public OVRPlugin/Quatf BoneRotations_14
-      GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_14();
+      ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_14();
       // Get instance field reference: public OVRPlugin/Quatf BoneRotations_15
-      GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_15();
+      ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_15();
       // Get instance field reference: public OVRPlugin/Quatf BoneRotations_16
-      GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_16();
+      ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_16();
       // Get instance field reference: public OVRPlugin/Quatf BoneRotations_17
-      GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_17();
+      ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_17();
       // Get instance field reference: public OVRPlugin/Quatf BoneRotations_18
-      GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_18();
+      ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_18();
       // Get instance field reference: public OVRPlugin/Quatf BoneRotations_19
-      GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_19();
+      ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_19();
       // Get instance field reference: public OVRPlugin/Quatf BoneRotations_20
-      GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_20();
+      ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_20();
       // Get instance field reference: public OVRPlugin/Quatf BoneRotations_21
-      GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_21();
+      ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_21();
       // Get instance field reference: public OVRPlugin/Quatf BoneRotations_22
-      GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_22();
+      ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_22();
       // Get instance field reference: public OVRPlugin/Quatf BoneRotations_23
-      GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_23();
+      ::GlobalNamespace::OVRPlugin::Quatf& dyn_BoneRotations_23();
       // Get instance field reference: public OVRPlugin/HandFingerPinch Pinches
-      GlobalNamespace::OVRPlugin::HandFingerPinch& dyn_Pinches();
+      ::GlobalNamespace::OVRPlugin::HandFingerPinch& dyn_Pinches();
       // Get instance field reference: public System.Single PinchStrength_0
       float& dyn_PinchStrength_0();
       // Get instance field reference: public System.Single PinchStrength_1
@@ -1270,21 +1270,21 @@ namespace GlobalNamespace {
       // Get instance field reference: public System.Single PinchStrength_4
       float& dyn_PinchStrength_4();
       // Get instance field reference: public OVRPlugin/Posef PointerPose
-      GlobalNamespace::OVRPlugin::Posef& dyn_PointerPose();
+      ::GlobalNamespace::OVRPlugin::Posef& dyn_PointerPose();
       // Get instance field reference: public System.Single HandScale
       float& dyn_HandScale();
       // Get instance field reference: public OVRPlugin/TrackingConfidence HandConfidence
-      GlobalNamespace::OVRPlugin::TrackingConfidence& dyn_HandConfidence();
+      ::GlobalNamespace::OVRPlugin::TrackingConfidence& dyn_HandConfidence();
       // Get instance field reference: public OVRPlugin/TrackingConfidence FingerConfidences_0
-      GlobalNamespace::OVRPlugin::TrackingConfidence& dyn_FingerConfidences_0();
+      ::GlobalNamespace::OVRPlugin::TrackingConfidence& dyn_FingerConfidences_0();
       // Get instance field reference: public OVRPlugin/TrackingConfidence FingerConfidences_1
-      GlobalNamespace::OVRPlugin::TrackingConfidence& dyn_FingerConfidences_1();
+      ::GlobalNamespace::OVRPlugin::TrackingConfidence& dyn_FingerConfidences_1();
       // Get instance field reference: public OVRPlugin/TrackingConfidence FingerConfidences_2
-      GlobalNamespace::OVRPlugin::TrackingConfidence& dyn_FingerConfidences_2();
+      ::GlobalNamespace::OVRPlugin::TrackingConfidence& dyn_FingerConfidences_2();
       // Get instance field reference: public OVRPlugin/TrackingConfidence FingerConfidences_3
-      GlobalNamespace::OVRPlugin::TrackingConfidence& dyn_FingerConfidences_3();
+      ::GlobalNamespace::OVRPlugin::TrackingConfidence& dyn_FingerConfidences_3();
       // Get instance field reference: public OVRPlugin/TrackingConfidence FingerConfidences_4
-      GlobalNamespace::OVRPlugin::TrackingConfidence& dyn_FingerConfidences_4();
+      ::GlobalNamespace::OVRPlugin::TrackingConfidence& dyn_FingerConfidences_4();
       // Get instance field reference: public System.Double RequestedTimeStamp
       double& dyn_RequestedTimeStamp();
       // Get instance field reference: public System.Double SampleTimeStamp
@@ -1298,7 +1298,7 @@ namespace GlobalNamespace {
     // WARNING Layout: Sequential may not be correctly taken into account!
     // Autogenerated type: OVRPlugin/BoneCapsule
     // [TokenAttribute] Offset: FFFFFFFF
-    struct BoneCapsule/*, public System::ValueType*/ {
+    struct BoneCapsule/*, public ::System::ValueType*/ {
       public:
       public:
       // public System.Int16 BoneIndex
@@ -1312,15 +1312,15 @@ namespace GlobalNamespace {
       // public OVRPlugin/Vector3f StartPoint
       // Size: 0xC
       // Offset: 0x4
-      GlobalNamespace::OVRPlugin::Vector3f StartPoint;
+      ::GlobalNamespace::OVRPlugin::Vector3f StartPoint;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Vector3f) == 0xC);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Vector3f) == 0xC);
       // public OVRPlugin/Vector3f EndPoint
       // Size: 0xC
       // Offset: 0x10
-      GlobalNamespace::OVRPlugin::Vector3f EndPoint;
+      ::GlobalNamespace::OVRPlugin::Vector3f EndPoint;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Vector3f) == 0xC);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Vector3f) == 0xC);
       // public System.Single Radius
       // Size: 0x4
       // Offset: 0x1C
@@ -1329,17 +1329,17 @@ namespace GlobalNamespace {
       static_assert(sizeof(float) == 0x4);
       public:
       // Creating value type constructor for type: BoneCapsule
-      constexpr BoneCapsule(int16_t BoneIndex_ = {}, GlobalNamespace::OVRPlugin::Vector3f StartPoint_ = {}, GlobalNamespace::OVRPlugin::Vector3f EndPoint_ = {}, float Radius_ = {}) noexcept : BoneIndex{BoneIndex_}, StartPoint{StartPoint_}, EndPoint{EndPoint_}, Radius{Radius_} {}
-      // Creating interface conversion operator: operator System::ValueType
-      operator System::ValueType() noexcept {
-        return *reinterpret_cast<System::ValueType*>(this);
+      constexpr BoneCapsule(int16_t BoneIndex_ = {}, ::GlobalNamespace::OVRPlugin::Vector3f StartPoint_ = {}, ::GlobalNamespace::OVRPlugin::Vector3f EndPoint_ = {}, float Radius_ = {}) noexcept : BoneIndex{BoneIndex_}, StartPoint{StartPoint_}, EndPoint{EndPoint_}, Radius{Radius_} {}
+      // Creating interface conversion operator: operator ::System::ValueType
+      operator ::System::ValueType() noexcept {
+        return *reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: public System.Int16 BoneIndex
       int16_t& dyn_BoneIndex();
       // Get instance field reference: public OVRPlugin/Vector3f StartPoint
-      GlobalNamespace::OVRPlugin::Vector3f& dyn_StartPoint();
+      ::GlobalNamespace::OVRPlugin::Vector3f& dyn_StartPoint();
       // Get instance field reference: public OVRPlugin/Vector3f EndPoint
-      GlobalNamespace::OVRPlugin::Vector3f& dyn_EndPoint();
+      ::GlobalNamespace::OVRPlugin::Vector3f& dyn_EndPoint();
       // Get instance field reference: public System.Single Radius
       float& dyn_Radius();
     }; // OVRPlugin/BoneCapsule
@@ -1351,15 +1351,15 @@ namespace GlobalNamespace {
     // WARNING Layout: Sequential may not be correctly taken into account!
     // Autogenerated type: OVRPlugin/Bone
     // [TokenAttribute] Offset: FFFFFFFF
-    struct Bone/*, public System::ValueType*/ {
+    struct Bone/*, public ::System::ValueType*/ {
       public:
       public:
       // public OVRPlugin/BoneId Id
       // Size: 0x4
       // Offset: 0x0
-      GlobalNamespace::OVRPlugin::BoneId Id;
+      ::GlobalNamespace::OVRPlugin::BoneId Id;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::BoneId) == 0x4);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::BoneId) == 0x4);
       // public System.Int16 ParentBoneIndex
       // Size: 0x2
       // Offset: 0x4
@@ -1371,31 +1371,31 @@ namespace GlobalNamespace {
       // public OVRPlugin/Posef Pose
       // Size: 0x1C
       // Offset: 0x8
-      GlobalNamespace::OVRPlugin::Posef Pose;
+      ::GlobalNamespace::OVRPlugin::Posef Pose;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Posef) == 0x1C);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Posef) == 0x1C);
       public:
       // Creating value type constructor for type: Bone
-      constexpr Bone(GlobalNamespace::OVRPlugin::BoneId Id_ = {}, int16_t ParentBoneIndex_ = {}, GlobalNamespace::OVRPlugin::Posef Pose_ = {}) noexcept : Id{Id_}, ParentBoneIndex{ParentBoneIndex_}, Pose{Pose_} {}
-      // Creating interface conversion operator: operator System::ValueType
-      operator System::ValueType() noexcept {
-        return *reinterpret_cast<System::ValueType*>(this);
+      constexpr Bone(::GlobalNamespace::OVRPlugin::BoneId Id_ = {}, int16_t ParentBoneIndex_ = {}, ::GlobalNamespace::OVRPlugin::Posef Pose_ = {}) noexcept : Id{Id_}, ParentBoneIndex{ParentBoneIndex_}, Pose{Pose_} {}
+      // Creating interface conversion operator: operator ::System::ValueType
+      operator ::System::ValueType() noexcept {
+        return *reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: public OVRPlugin/BoneId Id
-      GlobalNamespace::OVRPlugin::BoneId& dyn_Id();
+      ::GlobalNamespace::OVRPlugin::BoneId& dyn_Id();
       // Get instance field reference: public System.Int16 ParentBoneIndex
       int16_t& dyn_ParentBoneIndex();
       // Get instance field reference: public OVRPlugin/Posef Pose
-      GlobalNamespace::OVRPlugin::Posef& dyn_Pose();
+      ::GlobalNamespace::OVRPlugin::Posef& dyn_Pose();
     }; // OVRPlugin/Bone
     #pragma pack(pop)
-    static check_size<sizeof(OVRPlugin::Bone), 8 + sizeof(GlobalNamespace::OVRPlugin::Posef)> __GlobalNamespace_OVRPlugin_BoneSizeCheck;
+    static check_size<sizeof(OVRPlugin::Bone), 8 + sizeof(::GlobalNamespace::OVRPlugin::Posef)> __GlobalNamespace_OVRPlugin_BoneSizeCheck;
     static_assert(sizeof(OVRPlugin::Bone) == 0x24);
     // Size: 0x4
     #pragma pack(push, 1)
     // Autogenerated type: OVRPlugin/SkeletonType
     // [TokenAttribute] Offset: FFFFFFFF
-    struct SkeletonType/*, public System::Enum*/ {
+    struct SkeletonType/*, public ::System::Enum*/ {
       public:
       public:
       // public System.Int32 value__
@@ -1407,9 +1407,9 @@ namespace GlobalNamespace {
       public:
       // Creating value type constructor for type: SkeletonType
       constexpr SkeletonType(int value_ = {}) noexcept : value{value_} {}
-      // Creating interface conversion operator: operator System::Enum
-      operator System::Enum() noexcept {
-        return *reinterpret_cast<System::Enum*>(this);
+      // Creating interface conversion operator: operator ::System::Enum
+      operator ::System::Enum() noexcept {
+        return *reinterpret_cast<::System::Enum*>(this);
       }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
@@ -1418,21 +1418,21 @@ namespace GlobalNamespace {
       // static field const value: static public OVRPlugin/SkeletonType None
       static constexpr const int None = -1;
       // Get static field: static public OVRPlugin/SkeletonType None
-      static GlobalNamespace::OVRPlugin::SkeletonType _get_None();
+      static ::GlobalNamespace::OVRPlugin::SkeletonType _get_None();
       // Set static field: static public OVRPlugin/SkeletonType None
-      static void _set_None(GlobalNamespace::OVRPlugin::SkeletonType value);
+      static void _set_None(::GlobalNamespace::OVRPlugin::SkeletonType value);
       // static field const value: static public OVRPlugin/SkeletonType HandLeft
       static constexpr const int HandLeft = 0;
       // Get static field: static public OVRPlugin/SkeletonType HandLeft
-      static GlobalNamespace::OVRPlugin::SkeletonType _get_HandLeft();
+      static ::GlobalNamespace::OVRPlugin::SkeletonType _get_HandLeft();
       // Set static field: static public OVRPlugin/SkeletonType HandLeft
-      static void _set_HandLeft(GlobalNamespace::OVRPlugin::SkeletonType value);
+      static void _set_HandLeft(::GlobalNamespace::OVRPlugin::SkeletonType value);
       // static field const value: static public OVRPlugin/SkeletonType HandRight
       static constexpr const int HandRight = 1;
       // Get static field: static public OVRPlugin/SkeletonType HandRight
-      static GlobalNamespace::OVRPlugin::SkeletonType _get_HandRight();
+      static ::GlobalNamespace::OVRPlugin::SkeletonType _get_HandRight();
       // Set static field: static public OVRPlugin/SkeletonType HandRight
-      static void _set_HandRight(GlobalNamespace::OVRPlugin::SkeletonType value);
+      static void _set_HandRight(::GlobalNamespace::OVRPlugin::SkeletonType value);
       // Get instance field reference: public System.Int32 value__
       int& dyn_value__();
     }; // OVRPlugin/SkeletonType
@@ -1444,15 +1444,15 @@ namespace GlobalNamespace {
     // WARNING Layout: Sequential may not be correctly taken into account!
     // Autogenerated type: OVRPlugin/Skeleton
     // [TokenAttribute] Offset: FFFFFFFF
-    struct Skeleton/*, public System::ValueType*/ {
+    struct Skeleton/*, public ::System::ValueType*/ {
       public:
       public:
       // public OVRPlugin/SkeletonType Type
       // Size: 0x4
       // Offset: 0x0
-      GlobalNamespace::OVRPlugin::SkeletonType Type;
+      ::GlobalNamespace::OVRPlugin::SkeletonType Type;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::SkeletonType) == 0x4);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::SkeletonType) == 0x4);
       // public System.UInt32 NumBones
       // Size: 0x4
       // Offset: 0x4
@@ -1470,50 +1470,50 @@ namespace GlobalNamespace {
       // public OVRPlugin/Bone[] Bones
       // Size: 0x8
       // Offset: 0x10
-      ::ArrayW<GlobalNamespace::OVRPlugin::Bone> Bones;
+      ::ArrayW<::GlobalNamespace::OVRPlugin::Bone> Bones;
       // Field size check
-      static_assert(sizeof(::ArrayW<GlobalNamespace::OVRPlugin::Bone>) == 0x8);
+      static_assert(sizeof(::ArrayW<::GlobalNamespace::OVRPlugin::Bone>) == 0x8);
       // public OVRPlugin/BoneCapsule[] BoneCapsules
       // Size: 0x8
       // Offset: 0x18
-      ::ArrayW<GlobalNamespace::OVRPlugin::BoneCapsule> BoneCapsules;
+      ::ArrayW<::GlobalNamespace::OVRPlugin::BoneCapsule> BoneCapsules;
       // Field size check
-      static_assert(sizeof(::ArrayW<GlobalNamespace::OVRPlugin::BoneCapsule>) == 0x8);
+      static_assert(sizeof(::ArrayW<::GlobalNamespace::OVRPlugin::BoneCapsule>) == 0x8);
       public:
       // Creating value type constructor for type: Skeleton
-      constexpr Skeleton(GlobalNamespace::OVRPlugin::SkeletonType Type_ = {}, uint NumBones_ = {}, uint NumBoneCapsules_ = {}, ::ArrayW<GlobalNamespace::OVRPlugin::Bone> Bones_ = ::ArrayW<GlobalNamespace::OVRPlugin::Bone>(static_cast<void*>(nullptr)), ::ArrayW<GlobalNamespace::OVRPlugin::BoneCapsule> BoneCapsules_ = ::ArrayW<GlobalNamespace::OVRPlugin::BoneCapsule>(static_cast<void*>(nullptr))) noexcept : Type{Type_}, NumBones{NumBones_}, NumBoneCapsules{NumBoneCapsules_}, Bones{Bones_}, BoneCapsules{BoneCapsules_} {}
-      // Creating interface conversion operator: operator System::ValueType
-      operator System::ValueType() noexcept {
-        return *reinterpret_cast<System::ValueType*>(this);
+      constexpr Skeleton(::GlobalNamespace::OVRPlugin::SkeletonType Type_ = {}, uint NumBones_ = {}, uint NumBoneCapsules_ = {}, ::ArrayW<::GlobalNamespace::OVRPlugin::Bone> Bones_ = ::ArrayW<::GlobalNamespace::OVRPlugin::Bone>(static_cast<void*>(nullptr)), ::ArrayW<::GlobalNamespace::OVRPlugin::BoneCapsule> BoneCapsules_ = ::ArrayW<::GlobalNamespace::OVRPlugin::BoneCapsule>(static_cast<void*>(nullptr))) noexcept : Type{Type_}, NumBones{NumBones_}, NumBoneCapsules{NumBoneCapsules_}, Bones{Bones_}, BoneCapsules{BoneCapsules_} {}
+      // Creating interface conversion operator: operator ::System::ValueType
+      operator ::System::ValueType() noexcept {
+        return *reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: public OVRPlugin/SkeletonType Type
-      GlobalNamespace::OVRPlugin::SkeletonType& dyn_Type();
+      ::GlobalNamespace::OVRPlugin::SkeletonType& dyn_Type();
       // Get instance field reference: public System.UInt32 NumBones
       uint& dyn_NumBones();
       // Get instance field reference: public System.UInt32 NumBoneCapsules
       uint& dyn_NumBoneCapsules();
       // Get instance field reference: public OVRPlugin/Bone[] Bones
-      ::ArrayW<GlobalNamespace::OVRPlugin::Bone>& dyn_Bones();
+      ::ArrayW<::GlobalNamespace::OVRPlugin::Bone>& dyn_Bones();
       // Get instance field reference: public OVRPlugin/BoneCapsule[] BoneCapsules
-      ::ArrayW<GlobalNamespace::OVRPlugin::BoneCapsule>& dyn_BoneCapsules();
+      ::ArrayW<::GlobalNamespace::OVRPlugin::BoneCapsule>& dyn_BoneCapsules();
     }; // OVRPlugin/Skeleton
     #pragma pack(pop)
-    static check_size<sizeof(OVRPlugin::Skeleton), 24 + sizeof(::ArrayW<GlobalNamespace::OVRPlugin::BoneCapsule>)> __GlobalNamespace_OVRPlugin_SkeletonSizeCheck;
+    static check_size<sizeof(OVRPlugin::Skeleton), 24 + sizeof(::ArrayW<::GlobalNamespace::OVRPlugin::BoneCapsule>)> __GlobalNamespace_OVRPlugin_SkeletonSizeCheck;
     static_assert(sizeof(OVRPlugin::Skeleton) == 0x20);
     // Size: 0x974
     #pragma pack(push, 1)
     // WARNING Layout: Sequential may not be correctly taken into account!
     // Autogenerated type: OVRPlugin/Skeleton2Internal
     // [TokenAttribute] Offset: FFFFFFFF
-    struct Skeleton2Internal/*, public System::ValueType*/ {
+    struct Skeleton2Internal/*, public ::System::ValueType*/ {
       public:
       public:
       // public OVRPlugin/SkeletonType Type
       // Size: 0x4
       // Offset: 0x0
-      GlobalNamespace::OVRPlugin::SkeletonType Type;
+      ::GlobalNamespace::OVRPlugin::SkeletonType Type;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::SkeletonType) == 0x4);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::SkeletonType) == 0x4);
       // public System.UInt32 NumBones
       // Size: 0x4
       // Offset: 0x4
@@ -1529,571 +1529,571 @@ namespace GlobalNamespace {
       // public OVRPlugin/Bone Bones_0
       // Size: 0x24
       // Offset: 0xC
-      GlobalNamespace::OVRPlugin::Bone Bones_0;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_0;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_1
       // Size: 0x24
       // Offset: 0x30
-      GlobalNamespace::OVRPlugin::Bone Bones_1;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_1;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_2
       // Size: 0x24
       // Offset: 0x54
-      GlobalNamespace::OVRPlugin::Bone Bones_2;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_2;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_3
       // Size: 0x24
       // Offset: 0x78
-      GlobalNamespace::OVRPlugin::Bone Bones_3;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_3;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_4
       // Size: 0x24
       // Offset: 0x9C
-      GlobalNamespace::OVRPlugin::Bone Bones_4;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_4;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_5
       // Size: 0x24
       // Offset: 0xC0
-      GlobalNamespace::OVRPlugin::Bone Bones_5;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_5;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_6
       // Size: 0x24
       // Offset: 0xE4
-      GlobalNamespace::OVRPlugin::Bone Bones_6;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_6;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_7
       // Size: 0x24
       // Offset: 0x108
-      GlobalNamespace::OVRPlugin::Bone Bones_7;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_7;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_8
       // Size: 0x24
       // Offset: 0x12C
-      GlobalNamespace::OVRPlugin::Bone Bones_8;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_8;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_9
       // Size: 0x24
       // Offset: 0x150
-      GlobalNamespace::OVRPlugin::Bone Bones_9;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_9;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_10
       // Size: 0x24
       // Offset: 0x174
-      GlobalNamespace::OVRPlugin::Bone Bones_10;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_10;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_11
       // Size: 0x24
       // Offset: 0x198
-      GlobalNamespace::OVRPlugin::Bone Bones_11;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_11;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_12
       // Size: 0x24
       // Offset: 0x1BC
-      GlobalNamespace::OVRPlugin::Bone Bones_12;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_12;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_13
       // Size: 0x24
       // Offset: 0x1E0
-      GlobalNamespace::OVRPlugin::Bone Bones_13;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_13;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_14
       // Size: 0x24
       // Offset: 0x204
-      GlobalNamespace::OVRPlugin::Bone Bones_14;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_14;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_15
       // Size: 0x24
       // Offset: 0x228
-      GlobalNamespace::OVRPlugin::Bone Bones_15;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_15;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_16
       // Size: 0x24
       // Offset: 0x24C
-      GlobalNamespace::OVRPlugin::Bone Bones_16;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_16;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_17
       // Size: 0x24
       // Offset: 0x270
-      GlobalNamespace::OVRPlugin::Bone Bones_17;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_17;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_18
       // Size: 0x24
       // Offset: 0x294
-      GlobalNamespace::OVRPlugin::Bone Bones_18;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_18;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_19
       // Size: 0x24
       // Offset: 0x2B8
-      GlobalNamespace::OVRPlugin::Bone Bones_19;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_19;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_20
       // Size: 0x24
       // Offset: 0x2DC
-      GlobalNamespace::OVRPlugin::Bone Bones_20;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_20;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_21
       // Size: 0x24
       // Offset: 0x300
-      GlobalNamespace::OVRPlugin::Bone Bones_21;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_21;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_22
       // Size: 0x24
       // Offset: 0x324
-      GlobalNamespace::OVRPlugin::Bone Bones_22;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_22;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_23
       // Size: 0x24
       // Offset: 0x348
-      GlobalNamespace::OVRPlugin::Bone Bones_23;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_23;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_24
       // Size: 0x24
       // Offset: 0x36C
-      GlobalNamespace::OVRPlugin::Bone Bones_24;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_24;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_25
       // Size: 0x24
       // Offset: 0x390
-      GlobalNamespace::OVRPlugin::Bone Bones_25;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_25;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_26
       // Size: 0x24
       // Offset: 0x3B4
-      GlobalNamespace::OVRPlugin::Bone Bones_26;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_26;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_27
       // Size: 0x24
       // Offset: 0x3D8
-      GlobalNamespace::OVRPlugin::Bone Bones_27;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_27;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_28
       // Size: 0x24
       // Offset: 0x3FC
-      GlobalNamespace::OVRPlugin::Bone Bones_28;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_28;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_29
       // Size: 0x24
       // Offset: 0x420
-      GlobalNamespace::OVRPlugin::Bone Bones_29;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_29;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_30
       // Size: 0x24
       // Offset: 0x444
-      GlobalNamespace::OVRPlugin::Bone Bones_30;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_30;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_31
       // Size: 0x24
       // Offset: 0x468
-      GlobalNamespace::OVRPlugin::Bone Bones_31;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_31;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_32
       // Size: 0x24
       // Offset: 0x48C
-      GlobalNamespace::OVRPlugin::Bone Bones_32;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_32;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_33
       // Size: 0x24
       // Offset: 0x4B0
-      GlobalNamespace::OVRPlugin::Bone Bones_33;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_33;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_34
       // Size: 0x24
       // Offset: 0x4D4
-      GlobalNamespace::OVRPlugin::Bone Bones_34;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_34;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_35
       // Size: 0x24
       // Offset: 0x4F8
-      GlobalNamespace::OVRPlugin::Bone Bones_35;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_35;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_36
       // Size: 0x24
       // Offset: 0x51C
-      GlobalNamespace::OVRPlugin::Bone Bones_36;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_36;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_37
       // Size: 0x24
       // Offset: 0x540
-      GlobalNamespace::OVRPlugin::Bone Bones_37;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_37;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_38
       // Size: 0x24
       // Offset: 0x564
-      GlobalNamespace::OVRPlugin::Bone Bones_38;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_38;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_39
       // Size: 0x24
       // Offset: 0x588
-      GlobalNamespace::OVRPlugin::Bone Bones_39;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_39;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_40
       // Size: 0x24
       // Offset: 0x5AC
-      GlobalNamespace::OVRPlugin::Bone Bones_40;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_40;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_41
       // Size: 0x24
       // Offset: 0x5D0
-      GlobalNamespace::OVRPlugin::Bone Bones_41;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_41;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_42
       // Size: 0x24
       // Offset: 0x5F4
-      GlobalNamespace::OVRPlugin::Bone Bones_42;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_42;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_43
       // Size: 0x24
       // Offset: 0x618
-      GlobalNamespace::OVRPlugin::Bone Bones_43;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_43;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_44
       // Size: 0x24
       // Offset: 0x63C
-      GlobalNamespace::OVRPlugin::Bone Bones_44;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_44;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_45
       // Size: 0x24
       // Offset: 0x660
-      GlobalNamespace::OVRPlugin::Bone Bones_45;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_45;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_46
       // Size: 0x24
       // Offset: 0x684
-      GlobalNamespace::OVRPlugin::Bone Bones_46;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_46;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_47
       // Size: 0x24
       // Offset: 0x6A8
-      GlobalNamespace::OVRPlugin::Bone Bones_47;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_47;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_48
       // Size: 0x24
       // Offset: 0x6CC
-      GlobalNamespace::OVRPlugin::Bone Bones_48;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_48;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/Bone Bones_49
       // Size: 0x24
       // Offset: 0x6F0
-      GlobalNamespace::OVRPlugin::Bone Bones_49;
+      ::GlobalNamespace::OVRPlugin::Bone Bones_49;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::Bone) == 0x24);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::Bone) == 0x24);
       // public OVRPlugin/BoneCapsule BoneCapsules_0
       // Size: 0x20
       // Offset: 0x714
-      GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_0;
+      ::GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_0;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::BoneCapsule) == 0x20);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::BoneCapsule) == 0x20);
       // public OVRPlugin/BoneCapsule BoneCapsules_1
       // Size: 0x20
       // Offset: 0x734
-      GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_1;
+      ::GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_1;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::BoneCapsule) == 0x20);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::BoneCapsule) == 0x20);
       // public OVRPlugin/BoneCapsule BoneCapsules_2
       // Size: 0x20
       // Offset: 0x754
-      GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_2;
+      ::GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_2;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::BoneCapsule) == 0x20);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::BoneCapsule) == 0x20);
       // public OVRPlugin/BoneCapsule BoneCapsules_3
       // Size: 0x20
       // Offset: 0x774
-      GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_3;
+      ::GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_3;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::BoneCapsule) == 0x20);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::BoneCapsule) == 0x20);
       // public OVRPlugin/BoneCapsule BoneCapsules_4
       // Size: 0x20
       // Offset: 0x794
-      GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_4;
+      ::GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_4;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::BoneCapsule) == 0x20);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::BoneCapsule) == 0x20);
       // public OVRPlugin/BoneCapsule BoneCapsules_5
       // Size: 0x20
       // Offset: 0x7B4
-      GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_5;
+      ::GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_5;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::BoneCapsule) == 0x20);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::BoneCapsule) == 0x20);
       // public OVRPlugin/BoneCapsule BoneCapsules_6
       // Size: 0x20
       // Offset: 0x7D4
-      GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_6;
+      ::GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_6;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::BoneCapsule) == 0x20);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::BoneCapsule) == 0x20);
       // public OVRPlugin/BoneCapsule BoneCapsules_7
       // Size: 0x20
       // Offset: 0x7F4
-      GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_7;
+      ::GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_7;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::BoneCapsule) == 0x20);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::BoneCapsule) == 0x20);
       // public OVRPlugin/BoneCapsule BoneCapsules_8
       // Size: 0x20
       // Offset: 0x814
-      GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_8;
+      ::GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_8;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::BoneCapsule) == 0x20);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::BoneCapsule) == 0x20);
       // public OVRPlugin/BoneCapsule BoneCapsules_9
       // Size: 0x20
       // Offset: 0x834
-      GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_9;
+      ::GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_9;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::BoneCapsule) == 0x20);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::BoneCapsule) == 0x20);
       // public OVRPlugin/BoneCapsule BoneCapsules_10
       // Size: 0x20
       // Offset: 0x854
-      GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_10;
+      ::GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_10;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::BoneCapsule) == 0x20);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::BoneCapsule) == 0x20);
       // public OVRPlugin/BoneCapsule BoneCapsules_11
       // Size: 0x20
       // Offset: 0x874
-      GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_11;
+      ::GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_11;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::BoneCapsule) == 0x20);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::BoneCapsule) == 0x20);
       // public OVRPlugin/BoneCapsule BoneCapsules_12
       // Size: 0x20
       // Offset: 0x894
-      GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_12;
+      ::GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_12;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::BoneCapsule) == 0x20);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::BoneCapsule) == 0x20);
       // public OVRPlugin/BoneCapsule BoneCapsules_13
       // Size: 0x20
       // Offset: 0x8B4
-      GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_13;
+      ::GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_13;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::BoneCapsule) == 0x20);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::BoneCapsule) == 0x20);
       // public OVRPlugin/BoneCapsule BoneCapsules_14
       // Size: 0x20
       // Offset: 0x8D4
-      GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_14;
+      ::GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_14;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::BoneCapsule) == 0x20);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::BoneCapsule) == 0x20);
       // public OVRPlugin/BoneCapsule BoneCapsules_15
       // Size: 0x20
       // Offset: 0x8F4
-      GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_15;
+      ::GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_15;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::BoneCapsule) == 0x20);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::BoneCapsule) == 0x20);
       // public OVRPlugin/BoneCapsule BoneCapsules_16
       // Size: 0x20
       // Offset: 0x914
-      GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_16;
+      ::GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_16;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::BoneCapsule) == 0x20);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::BoneCapsule) == 0x20);
       // public OVRPlugin/BoneCapsule BoneCapsules_17
       // Size: 0x20
       // Offset: 0x934
-      GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_17;
+      ::GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_17;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::BoneCapsule) == 0x20);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::BoneCapsule) == 0x20);
       // public OVRPlugin/BoneCapsule BoneCapsules_18
       // Size: 0x20
       // Offset: 0x954
-      GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_18;
+      ::GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_18;
       // Field size check
-      static_assert(sizeof(GlobalNamespace::OVRPlugin::BoneCapsule) == 0x20);
+      static_assert(sizeof(::GlobalNamespace::OVRPlugin::BoneCapsule) == 0x20);
       public:
       // Creating value type constructor for type: Skeleton2Internal
-      constexpr Skeleton2Internal(GlobalNamespace::OVRPlugin::SkeletonType Type_ = {}, uint NumBones_ = {}, uint NumBoneCapsules_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_0_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_1_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_2_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_3_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_4_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_5_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_6_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_7_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_8_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_9_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_10_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_11_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_12_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_13_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_14_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_15_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_16_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_17_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_18_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_19_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_20_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_21_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_22_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_23_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_24_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_25_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_26_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_27_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_28_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_29_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_30_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_31_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_32_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_33_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_34_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_35_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_36_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_37_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_38_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_39_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_40_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_41_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_42_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_43_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_44_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_45_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_46_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_47_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_48_ = {}, GlobalNamespace::OVRPlugin::Bone Bones_49_ = {}, GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_0_ = {}, GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_1_ = {}, GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_2_ = {}, GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_3_ = {}, GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_4_ = {}, GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_5_ = {}, GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_6_ = {}, GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_7_ = {}, GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_8_ = {}, GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_9_ = {}, GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_10_ = {}, GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_11_ = {}, GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_12_ = {}, GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_13_ = {}, GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_14_ = {}, GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_15_ = {}, GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_16_ = {}, GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_17_ = {}, GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_18_ = {}) noexcept : Type{Type_}, NumBones{NumBones_}, NumBoneCapsules{NumBoneCapsules_}, Bones_0{Bones_0_}, Bones_1{Bones_1_}, Bones_2{Bones_2_}, Bones_3{Bones_3_}, Bones_4{Bones_4_}, Bones_5{Bones_5_}, Bones_6{Bones_6_}, Bones_7{Bones_7_}, Bones_8{Bones_8_}, Bones_9{Bones_9_}, Bones_10{Bones_10_}, Bones_11{Bones_11_}, Bones_12{Bones_12_}, Bones_13{Bones_13_}, Bones_14{Bones_14_}, Bones_15{Bones_15_}, Bones_16{Bones_16_}, Bones_17{Bones_17_}, Bones_18{Bones_18_}, Bones_19{Bones_19_}, Bones_20{Bones_20_}, Bones_21{Bones_21_}, Bones_22{Bones_22_}, Bones_23{Bones_23_}, Bones_24{Bones_24_}, Bones_25{Bones_25_}, Bones_26{Bones_26_}, Bones_27{Bones_27_}, Bones_28{Bones_28_}, Bones_29{Bones_29_}, Bones_30{Bones_30_}, Bones_31{Bones_31_}, Bones_32{Bones_32_}, Bones_33{Bones_33_}, Bones_34{Bones_34_}, Bones_35{Bones_35_}, Bones_36{Bones_36_}, Bones_37{Bones_37_}, Bones_38{Bones_38_}, Bones_39{Bones_39_}, Bones_40{Bones_40_}, Bones_41{Bones_41_}, Bones_42{Bones_42_}, Bones_43{Bones_43_}, Bones_44{Bones_44_}, Bones_45{Bones_45_}, Bones_46{Bones_46_}, Bones_47{Bones_47_}, Bones_48{Bones_48_}, Bones_49{Bones_49_}, BoneCapsules_0{BoneCapsules_0_}, BoneCapsules_1{BoneCapsules_1_}, BoneCapsules_2{BoneCapsules_2_}, BoneCapsules_3{BoneCapsules_3_}, BoneCapsules_4{BoneCapsules_4_}, BoneCapsules_5{BoneCapsules_5_}, BoneCapsules_6{BoneCapsules_6_}, BoneCapsules_7{BoneCapsules_7_}, BoneCapsules_8{BoneCapsules_8_}, BoneCapsules_9{BoneCapsules_9_}, BoneCapsules_10{BoneCapsules_10_}, BoneCapsules_11{BoneCapsules_11_}, BoneCapsules_12{BoneCapsules_12_}, BoneCapsules_13{BoneCapsules_13_}, BoneCapsules_14{BoneCapsules_14_}, BoneCapsules_15{BoneCapsules_15_}, BoneCapsules_16{BoneCapsules_16_}, BoneCapsules_17{BoneCapsules_17_}, BoneCapsules_18{BoneCapsules_18_} {}
-      // Creating interface conversion operator: operator System::ValueType
-      operator System::ValueType() noexcept {
-        return *reinterpret_cast<System::ValueType*>(this);
+      constexpr Skeleton2Internal(::GlobalNamespace::OVRPlugin::SkeletonType Type_ = {}, uint NumBones_ = {}, uint NumBoneCapsules_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_0_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_1_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_2_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_3_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_4_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_5_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_6_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_7_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_8_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_9_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_10_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_11_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_12_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_13_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_14_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_15_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_16_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_17_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_18_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_19_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_20_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_21_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_22_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_23_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_24_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_25_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_26_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_27_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_28_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_29_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_30_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_31_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_32_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_33_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_34_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_35_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_36_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_37_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_38_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_39_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_40_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_41_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_42_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_43_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_44_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_45_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_46_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_47_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_48_ = {}, ::GlobalNamespace::OVRPlugin::Bone Bones_49_ = {}, ::GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_0_ = {}, ::GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_1_ = {}, ::GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_2_ = {}, ::GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_3_ = {}, ::GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_4_ = {}, ::GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_5_ = {}, ::GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_6_ = {}, ::GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_7_ = {}, ::GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_8_ = {}, ::GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_9_ = {}, ::GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_10_ = {}, ::GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_11_ = {}, ::GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_12_ = {}, ::GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_13_ = {}, ::GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_14_ = {}, ::GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_15_ = {}, ::GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_16_ = {}, ::GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_17_ = {}, ::GlobalNamespace::OVRPlugin::BoneCapsule BoneCapsules_18_ = {}) noexcept : Type{Type_}, NumBones{NumBones_}, NumBoneCapsules{NumBoneCapsules_}, Bones_0{Bones_0_}, Bones_1{Bones_1_}, Bones_2{Bones_2_}, Bones_3{Bones_3_}, Bones_4{Bones_4_}, Bones_5{Bones_5_}, Bones_6{Bones_6_}, Bones_7{Bones_7_}, Bones_8{Bones_8_}, Bones_9{Bones_9_}, Bones_10{Bones_10_}, Bones_11{Bones_11_}, Bones_12{Bones_12_}, Bones_13{Bones_13_}, Bones_14{Bones_14_}, Bones_15{Bones_15_}, Bones_16{Bones_16_}, Bones_17{Bones_17_}, Bones_18{Bones_18_}, Bones_19{Bones_19_}, Bones_20{Bones_20_}, Bones_21{Bones_21_}, Bones_22{Bones_22_}, Bones_23{Bones_23_}, Bones_24{Bones_24_}, Bones_25{Bones_25_}, Bones_26{Bones_26_}, Bones_27{Bones_27_}, Bones_28{Bones_28_}, Bones_29{Bones_29_}, Bones_30{Bones_30_}, Bones_31{Bones_31_}, Bones_32{Bones_32_}, Bones_33{Bones_33_}, Bones_34{Bones_34_}, Bones_35{Bones_35_}, Bones_36{Bones_36_}, Bones_37{Bones_37_}, Bones_38{Bones_38_}, Bones_39{Bones_39_}, Bones_40{Bones_40_}, Bones_41{Bones_41_}, Bones_42{Bones_42_}, Bones_43{Bones_43_}, Bones_44{Bones_44_}, Bones_45{Bones_45_}, Bones_46{Bones_46_}, Bones_47{Bones_47_}, Bones_48{Bones_48_}, Bones_49{Bones_49_}, BoneCapsules_0{BoneCapsules_0_}, BoneCapsules_1{BoneCapsules_1_}, BoneCapsules_2{BoneCapsules_2_}, BoneCapsules_3{BoneCapsules_3_}, BoneCapsules_4{BoneCapsules_4_}, BoneCapsules_5{BoneCapsules_5_}, BoneCapsules_6{BoneCapsules_6_}, BoneCapsules_7{BoneCapsules_7_}, BoneCapsules_8{BoneCapsules_8_}, BoneCapsules_9{BoneCapsules_9_}, BoneCapsules_10{BoneCapsules_10_}, BoneCapsules_11{BoneCapsules_11_}, BoneCapsules_12{BoneCapsules_12_}, BoneCapsules_13{BoneCapsules_13_}, BoneCapsules_14{BoneCapsules_14_}, BoneCapsules_15{BoneCapsules_15_}, BoneCapsules_16{BoneCapsules_16_}, BoneCapsules_17{BoneCapsules_17_}, BoneCapsules_18{BoneCapsules_18_} {}
+      // Creating interface conversion operator: operator ::System::ValueType
+      operator ::System::ValueType() noexcept {
+        return *reinterpret_cast<::System::ValueType*>(this);
       }
       // Get instance field reference: public OVRPlugin/SkeletonType Type
-      GlobalNamespace::OVRPlugin::SkeletonType& dyn_Type();
+      ::GlobalNamespace::OVRPlugin::SkeletonType& dyn_Type();
       // Get instance field reference: public System.UInt32 NumBones
       uint& dyn_NumBones();
       // Get instance field reference: public System.UInt32 NumBoneCapsules
       uint& dyn_NumBoneCapsules();
       // Get instance field reference: public OVRPlugin/Bone Bones_0
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_0();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_0();
       // Get instance field reference: public OVRPlugin/Bone Bones_1
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_1();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_1();
       // Get instance field reference: public OVRPlugin/Bone Bones_2
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_2();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_2();
       // Get instance field reference: public OVRPlugin/Bone Bones_3
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_3();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_3();
       // Get instance field reference: public OVRPlugin/Bone Bones_4
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_4();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_4();
       // Get instance field reference: public OVRPlugin/Bone Bones_5
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_5();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_5();
       // Get instance field reference: public OVRPlugin/Bone Bones_6
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_6();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_6();
       // Get instance field reference: public OVRPlugin/Bone Bones_7
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_7();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_7();
       // Get instance field reference: public OVRPlugin/Bone Bones_8
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_8();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_8();
       // Get instance field reference: public OVRPlugin/Bone Bones_9
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_9();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_9();
       // Get instance field reference: public OVRPlugin/Bone Bones_10
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_10();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_10();
       // Get instance field reference: public OVRPlugin/Bone Bones_11
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_11();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_11();
       // Get instance field reference: public OVRPlugin/Bone Bones_12
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_12();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_12();
       // Get instance field reference: public OVRPlugin/Bone Bones_13
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_13();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_13();
       // Get instance field reference: public OVRPlugin/Bone Bones_14
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_14();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_14();
       // Get instance field reference: public OVRPlugin/Bone Bones_15
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_15();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_15();
       // Get instance field reference: public OVRPlugin/Bone Bones_16
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_16();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_16();
       // Get instance field reference: public OVRPlugin/Bone Bones_17
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_17();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_17();
       // Get instance field reference: public OVRPlugin/Bone Bones_18
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_18();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_18();
       // Get instance field reference: public OVRPlugin/Bone Bones_19
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_19();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_19();
       // Get instance field reference: public OVRPlugin/Bone Bones_20
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_20();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_20();
       // Get instance field reference: public OVRPlugin/Bone Bones_21
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_21();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_21();
       // Get instance field reference: public OVRPlugin/Bone Bones_22
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_22();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_22();
       // Get instance field reference: public OVRPlugin/Bone Bones_23
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_23();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_23();
       // Get instance field reference: public OVRPlugin/Bone Bones_24
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_24();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_24();
       // Get instance field reference: public OVRPlugin/Bone Bones_25
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_25();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_25();
       // Get instance field reference: public OVRPlugin/Bone Bones_26
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_26();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_26();
       // Get instance field reference: public OVRPlugin/Bone Bones_27
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_27();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_27();
       // Get instance field reference: public OVRPlugin/Bone Bones_28
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_28();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_28();
       // Get instance field reference: public OVRPlugin/Bone Bones_29
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_29();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_29();
       // Get instance field reference: public OVRPlugin/Bone Bones_30
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_30();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_30();
       // Get instance field reference: public OVRPlugin/Bone Bones_31
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_31();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_31();
       // Get instance field reference: public OVRPlugin/Bone Bones_32
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_32();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_32();
       // Get instance field reference: public OVRPlugin/Bone Bones_33
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_33();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_33();
       // Get instance field reference: public OVRPlugin/Bone Bones_34
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_34();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_34();
       // Get instance field reference: public OVRPlugin/Bone Bones_35
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_35();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_35();
       // Get instance field reference: public OVRPlugin/Bone Bones_36
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_36();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_36();
       // Get instance field reference: public OVRPlugin/Bone Bones_37
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_37();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_37();
       // Get instance field reference: public OVRPlugin/Bone Bones_38
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_38();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_38();
       // Get instance field reference: public OVRPlugin/Bone Bones_39
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_39();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_39();
       // Get instance field reference: public OVRPlugin/Bone Bones_40
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_40();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_40();
       // Get instance field reference: public OVRPlugin/Bone Bones_41
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_41();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_41();
       // Get instance field reference: public OVRPlugin/Bone Bones_42
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_42();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_42();
       // Get instance field reference: public OVRPlugin/Bone Bones_43
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_43();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_43();
       // Get instance field reference: public OVRPlugin/Bone Bones_44
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_44();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_44();
       // Get instance field reference: public OVRPlugin/Bone Bones_45
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_45();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_45();
       // Get instance field reference: public OVRPlugin/Bone Bones_46
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_46();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_46();
       // Get instance field reference: public OVRPlugin/Bone Bones_47
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_47();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_47();
       // Get instance field reference: public OVRPlugin/Bone Bones_48
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_48();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_48();
       // Get instance field reference: public OVRPlugin/Bone Bones_49
-      GlobalNamespace::OVRPlugin::Bone& dyn_Bones_49();
+      ::GlobalNamespace::OVRPlugin::Bone& dyn_Bones_49();
       // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_0
-      GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_0();
+      ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_0();
       // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_1
-      GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_1();
+      ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_1();
       // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_2
-      GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_2();
+      ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_2();
       // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_3
-      GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_3();
+      ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_3();
       // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_4
-      GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_4();
+      ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_4();
       // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_5
-      GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_5();
+      ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_5();
       // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_6
-      GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_6();
+      ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_6();
       // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_7
-      GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_7();
+      ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_7();
       // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_8
-      GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_8();
+      ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_8();
       // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_9
-      GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_9();
+      ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_9();
       // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_10
-      GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_10();
+      ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_10();
       // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_11
-      GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_11();
+      ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_11();
       // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_12
-      GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_12();
+      ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_12();
       // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_13
-      GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_13();
+      ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_13();
       // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_14
-      GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_14();
+      ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_14();
       // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_15
-      GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_15();
+      ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_15();
       // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_16
-      GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_16();
+      ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_16();
       // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_17
-      GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_17();
+      ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_17();
       // Get instance field reference: public OVRPlugin/BoneCapsule BoneCapsules_18
-      GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_18();
+      ::GlobalNamespace::OVRPlugin::BoneCapsule& dyn_BoneCapsules_18();
     }; // OVRPlugin/Skeleton2Internal
     #pragma pack(pop)
-    static check_size<sizeof(OVRPlugin::Skeleton2Internal), 2388 + sizeof(GlobalNamespace::OVRPlugin::BoneCapsule)> __GlobalNamespace_OVRPlugin_Skeleton2InternalSizeCheck;
+    static check_size<sizeof(OVRPlugin::Skeleton2Internal), 2388 + sizeof(::GlobalNamespace::OVRPlugin::BoneCapsule)> __GlobalNamespace_OVRPlugin_Skeleton2InternalSizeCheck;
     static_assert(sizeof(OVRPlugin::Skeleton2Internal) == 0x974);
     // static field const value: static public System.Boolean isSupportedPlatform
     static constexpr const bool isSupportedPlatform = true;
@@ -2102,17 +2102,17 @@ namespace GlobalNamespace {
     // Set static field: static public System.Boolean isSupportedPlatform
     static void _set_isSupportedPlatform(bool value);
     // Get static field: static public readonly System.Version wrapperVersion
-    static System::Version* _get_wrapperVersion();
+    static ::System::Version* _get_wrapperVersion();
     // Set static field: static public readonly System.Version wrapperVersion
-    static void _set_wrapperVersion(System::Version* value);
+    static void _set_wrapperVersion(::System::Version* value);
     // Get static field: static private System.Version _version
-    static System::Version* _get__version();
+    static ::System::Version* _get__version();
     // Set static field: static private System.Version _version
-    static void _set__version(System::Version* value);
+    static void _set__version(::System::Version* value);
     // Get static field: static private System.Version _nativeSDKVersion
-    static System::Version* _get__nativeSDKVersion();
+    static ::System::Version* _get__nativeSDKVersion();
     // Set static field: static private System.Version _nativeSDKVersion
-    static void _set__nativeSDKVersion(System::Version* value);
+    static void _set__nativeSDKVersion(::System::Version* value);
     // static field const value: static private System.Int32 OverlayShapeFlagShift
     static constexpr const int OverlayShapeFlagShift = 4;
     // Get static field: static private System.Int32 OverlayShapeFlagShift
@@ -2132,53 +2132,53 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 EventDataBufferSize
     static void _set_EventDataBufferSize(int value);
     // Get static field: static private System.Nullable`1<OVRPlugin/XrApi> _nativeXrApi
-    static System::Nullable_1<GlobalNamespace::OVRPlugin::XrApi> _get__nativeXrApi();
+    static ::System::Nullable_1<::GlobalNamespace::OVRPlugin::XrApi> _get__nativeXrApi();
     // Set static field: static private System.Nullable`1<OVRPlugin/XrApi> _nativeXrApi
-    static void _set__nativeXrApi(System::Nullable_1<GlobalNamespace::OVRPlugin::XrApi> value);
+    static void _set__nativeXrApi(::System::Nullable_1<::GlobalNamespace::OVRPlugin::XrApi> value);
     // Get static field: static private OVRPlugin/GUID _nativeAudioOutGuid
-    static GlobalNamespace::OVRPlugin::GUID* _get__nativeAudioOutGuid();
+    static ::GlobalNamespace::OVRPlugin::GUID* _get__nativeAudioOutGuid();
     // Set static field: static private OVRPlugin/GUID _nativeAudioOutGuid
-    static void _set__nativeAudioOutGuid(GlobalNamespace::OVRPlugin::GUID* value);
+    static void _set__nativeAudioOutGuid(::GlobalNamespace::OVRPlugin::GUID* value);
     // Get static field: static private System.Guid _cachedAudioOutGuid
-    static System::Guid _get__cachedAudioOutGuid();
+    static ::System::Guid _get__cachedAudioOutGuid();
     // Set static field: static private System.Guid _cachedAudioOutGuid
-    static void _set__cachedAudioOutGuid(System::Guid value);
+    static void _set__cachedAudioOutGuid(::System::Guid value);
     // Get static field: static private System.String _cachedAudioOutString
     static ::StringW _get__cachedAudioOutString();
     // Set static field: static private System.String _cachedAudioOutString
     static void _set__cachedAudioOutString(::StringW value);
     // Get static field: static private OVRPlugin/GUID _nativeAudioInGuid
-    static GlobalNamespace::OVRPlugin::GUID* _get__nativeAudioInGuid();
+    static ::GlobalNamespace::OVRPlugin::GUID* _get__nativeAudioInGuid();
     // Set static field: static private OVRPlugin/GUID _nativeAudioInGuid
-    static void _set__nativeAudioInGuid(GlobalNamespace::OVRPlugin::GUID* value);
+    static void _set__nativeAudioInGuid(::GlobalNamespace::OVRPlugin::GUID* value);
     // Get static field: static private System.Guid _cachedAudioInGuid
-    static System::Guid _get__cachedAudioInGuid();
+    static ::System::Guid _get__cachedAudioInGuid();
     // Set static field: static private System.Guid _cachedAudioInGuid
-    static void _set__cachedAudioInGuid(System::Guid value);
+    static void _set__cachedAudioInGuid(::System::Guid value);
     // Get static field: static private System.String _cachedAudioInString
     static ::StringW _get__cachedAudioInString();
     // Set static field: static private System.String _cachedAudioInString
     static void _set__cachedAudioInString(::StringW value);
     // Get static field: static private OVRNativeBuffer _nativeSystemDisplayFrequenciesAvailable
-    static GlobalNamespace::OVRNativeBuffer* _get__nativeSystemDisplayFrequenciesAvailable();
+    static ::GlobalNamespace::OVRNativeBuffer* _get__nativeSystemDisplayFrequenciesAvailable();
     // Set static field: static private OVRNativeBuffer _nativeSystemDisplayFrequenciesAvailable
-    static void _set__nativeSystemDisplayFrequenciesAvailable(GlobalNamespace::OVRNativeBuffer* value);
+    static void _set__nativeSystemDisplayFrequenciesAvailable(::GlobalNamespace::OVRNativeBuffer* value);
     // Get static field: static private System.Single[] _cachedSystemDisplayFrequenciesAvailable
     static ::ArrayW<float> _get__cachedSystemDisplayFrequenciesAvailable();
     // Set static field: static private System.Single[] _cachedSystemDisplayFrequenciesAvailable
     static void _set__cachedSystemDisplayFrequenciesAvailable(::ArrayW<float> value);
     // Get static field: static private OVRPlugin/HandStateInternal cachedHandState
-    static GlobalNamespace::OVRPlugin::HandStateInternal _get_cachedHandState();
+    static ::GlobalNamespace::OVRPlugin::HandStateInternal _get_cachedHandState();
     // Set static field: static private OVRPlugin/HandStateInternal cachedHandState
-    static void _set_cachedHandState(GlobalNamespace::OVRPlugin::HandStateInternal value);
+    static void _set_cachedHandState(::GlobalNamespace::OVRPlugin::HandStateInternal value);
     // Get static field: static private OVRPlugin/Skeleton cachedSkeleton
-    static GlobalNamespace::OVRPlugin::Skeleton _get_cachedSkeleton();
+    static ::GlobalNamespace::OVRPlugin::Skeleton _get_cachedSkeleton();
     // Set static field: static private OVRPlugin/Skeleton cachedSkeleton
-    static void _set_cachedSkeleton(GlobalNamespace::OVRPlugin::Skeleton value);
+    static void _set_cachedSkeleton(::GlobalNamespace::OVRPlugin::Skeleton value);
     // Get static field: static private OVRPlugin/Skeleton2Internal cachedSkeleton2
-    static GlobalNamespace::OVRPlugin::Skeleton2Internal _get_cachedSkeleton2();
+    static ::GlobalNamespace::OVRPlugin::Skeleton2Internal _get_cachedSkeleton2();
     // Set static field: static private OVRPlugin/Skeleton2Internal cachedSkeleton2
-    static void _set_cachedSkeleton2(GlobalNamespace::OVRPlugin::Skeleton2Internal value);
+    static void _set_cachedSkeleton2(::GlobalNamespace::OVRPlugin::Skeleton2Internal value);
     // static field const value: static private System.String pluginName
     static constexpr const char* pluginName = "OVRPlugin";
     // Get static field: static private System.String pluginName
@@ -2186,21 +2186,21 @@ namespace GlobalNamespace {
     // Set static field: static private System.String pluginName
     static void _set_pluginName(::StringW value);
     // Get static field: static private System.Version _versionZero
-    static System::Version* _get__versionZero();
+    static ::System::Version* _get__versionZero();
     // Set static field: static private System.Version _versionZero
-    static void _set__versionZero(System::Version* value);
+    static void _set__versionZero(::System::Version* value);
     // static public System.Version get_version()
     // Offset: 0x165A3C4
-    static System::Version* get_version();
+    static ::System::Version* get_version();
     // static public System.Version get_nativeSDKVersion()
     // Offset: 0x165A978
-    static System::Version* get_nativeSDKVersion();
+    static ::System::Version* get_nativeSDKVersion();
     // static public System.Boolean get_initialized()
     // Offset: 0x1647838
     static bool get_initialized();
     // static public OVRPlugin/XrApi get_nativeXrApi()
     // Offset: 0x1654194
-    static GlobalNamespace::OVRPlugin::XrApi get_nativeXrApi();
+    static ::GlobalNamespace::OVRPlugin::XrApi get_nativeXrApi();
     // static public System.Boolean get_chromatic()
     // Offset: 0x165ACC4
     static bool get_chromatic();
@@ -2254,7 +2254,7 @@ namespace GlobalNamespace {
     static int get_recommendedMSAALevel();
     // static public OVRPlugin/SystemRegion get_systemRegion()
     // Offset: 0x165B934
-    static GlobalNamespace::OVRPlugin::SystemRegion get_systemRegion();
+    static ::GlobalNamespace::OVRPlugin::SystemRegion get_systemRegion();
     // static public System.String get_audioOutId()
     // Offset: 0x165BA54
     static ::StringW get_audioOutId();
@@ -2332,16 +2332,16 @@ namespace GlobalNamespace {
     static void set_occlusionMesh(bool value);
     // static public OVRPlugin/BatteryStatus get_batteryStatus()
     // Offset: 0x165CAC8
-    static GlobalNamespace::OVRPlugin::BatteryStatus get_batteryStatus();
+    static ::GlobalNamespace::OVRPlugin::BatteryStatus get_batteryStatus();
     // static public System.Boolean get_fixedFoveatedRenderingSupported()
     // Offset: 0x165F74C
     static bool get_fixedFoveatedRenderingSupported();
     // static public OVRPlugin/FixedFoveatedRenderingLevel get_fixedFoveatedRenderingLevel()
     // Offset: 0x165F85C
-    static GlobalNamespace::OVRPlugin::FixedFoveatedRenderingLevel get_fixedFoveatedRenderingLevel();
+    static ::GlobalNamespace::OVRPlugin::FixedFoveatedRenderingLevel get_fixedFoveatedRenderingLevel();
     // static public System.Void set_fixedFoveatedRenderingLevel(OVRPlugin/FixedFoveatedRenderingLevel value)
     // Offset: 0x165F988
-    static void set_fixedFoveatedRenderingLevel(GlobalNamespace::OVRPlugin::FixedFoveatedRenderingLevel value);
+    static void set_fixedFoveatedRenderingLevel(::GlobalNamespace::OVRPlugin::FixedFoveatedRenderingLevel value);
     // static public System.Boolean get_useDynamicFixedFoveatedRendering()
     // Offset: 0x165FAB8
     static bool get_useDynamicFixedFoveatedRendering();
@@ -2353,10 +2353,10 @@ namespace GlobalNamespace {
     static bool get_tiledMultiResSupported();
     // static public OVRPlugin/TiledMultiResLevel get_tiledMultiResLevel()
     // Offset: 0x165FD80
-    static GlobalNamespace::OVRPlugin::TiledMultiResLevel get_tiledMultiResLevel();
+    static ::GlobalNamespace::OVRPlugin::TiledMultiResLevel get_tiledMultiResLevel();
     // static public System.Void set_tiledMultiResLevel(OVRPlugin/TiledMultiResLevel value)
     // Offset: 0x165FDDC
-    static void set_tiledMultiResLevel(GlobalNamespace::OVRPlugin::TiledMultiResLevel value);
+    static void set_tiledMultiResLevel(::GlobalNamespace::OVRPlugin::TiledMultiResLevel value);
     // static public System.Boolean get_gpuUtilSupported()
     // Offset: 0x165FE40
     static bool get_gpuUtilSupported();
@@ -2389,106 +2389,106 @@ namespace GlobalNamespace {
     static void _cctor();
     // static public OVRPlugin/Frustumf GetEyeFrustum(OVRPlugin/Eye eyeId)
     // Offset: 0x165CB28
-    static GlobalNamespace::OVRPlugin::Frustumf GetEyeFrustum(GlobalNamespace::OVRPlugin::Eye eyeId);
+    static ::GlobalNamespace::OVRPlugin::Frustumf GetEyeFrustum(::GlobalNamespace::OVRPlugin::Eye eyeId);
     // static public OVRPlugin/Sizei GetEyeTextureSize(OVRPlugin/Eye eyeId)
     // Offset: 0x165CB90
-    static GlobalNamespace::OVRPlugin::Sizei GetEyeTextureSize(GlobalNamespace::OVRPlugin::Eye eyeId);
+    static ::GlobalNamespace::OVRPlugin::Sizei GetEyeTextureSize(::GlobalNamespace::OVRPlugin::Eye eyeId);
     // static public OVRPlugin/Posef GetTrackerPose(OVRPlugin/Tracker trackerId)
     // Offset: 0x165CBF8
-    static GlobalNamespace::OVRPlugin::Posef GetTrackerPose(GlobalNamespace::OVRPlugin::Tracker trackerId);
+    static ::GlobalNamespace::OVRPlugin::Posef GetTrackerPose(::GlobalNamespace::OVRPlugin::Tracker trackerId);
     // static public OVRPlugin/Frustumf GetTrackerFrustum(OVRPlugin/Tracker trackerId)
     // Offset: 0x165CC70
-    static GlobalNamespace::OVRPlugin::Frustumf GetTrackerFrustum(GlobalNamespace::OVRPlugin::Tracker trackerId);
+    static ::GlobalNamespace::OVRPlugin::Frustumf GetTrackerFrustum(::GlobalNamespace::OVRPlugin::Tracker trackerId);
     // static public System.Boolean ShowUI(OVRPlugin/PlatformUI ui)
     // Offset: 0x165CCD8
-    static bool ShowUI(GlobalNamespace::OVRPlugin::PlatformUI ui);
+    static bool ShowUI(::GlobalNamespace::OVRPlugin::PlatformUI ui);
     // static public System.Boolean EnqueueSubmitLayer(System.Boolean onTop, System.Boolean headLocked, System.Boolean noDepthBufferTesting, System.IntPtr leftTexture, System.IntPtr rightTexture, System.Int32 layerId, System.Int32 frameIndex, OVRPlugin/Posef pose, OVRPlugin/Vector3f scale, System.Int32 layerIndex, OVRPlugin/OverlayShape shape, System.Boolean overrideTextureRectMatrix, OVRPlugin/TextureRectMatrixf textureRectMatrix, System.Boolean overridePerLayerColorScaleAndOffset, UnityEngine.Vector4 colorScale, UnityEngine.Vector4 colorOffset, System.Boolean expensiveSuperSample, System.Boolean hidden)
     // Offset: 0x1650E40
-    static bool EnqueueSubmitLayer(bool onTop, bool headLocked, bool noDepthBufferTesting, System::IntPtr leftTexture, System::IntPtr rightTexture, int layerId, int frameIndex, GlobalNamespace::OVRPlugin::Posef pose, GlobalNamespace::OVRPlugin::Vector3f scale, int layerIndex, GlobalNamespace::OVRPlugin::OverlayShape shape, bool overrideTextureRectMatrix, GlobalNamespace::OVRPlugin::TextureRectMatrixf textureRectMatrix, bool overridePerLayerColorScaleAndOffset, UnityEngine::Vector4 colorScale, UnityEngine::Vector4 colorOffset, bool expensiveSuperSample, bool hidden);
+    static bool EnqueueSubmitLayer(bool onTop, bool headLocked, bool noDepthBufferTesting, ::System::IntPtr leftTexture, ::System::IntPtr rightTexture, int layerId, int frameIndex, ::GlobalNamespace::OVRPlugin::Posef pose, ::GlobalNamespace::OVRPlugin::Vector3f scale, int layerIndex, ::GlobalNamespace::OVRPlugin::OverlayShape shape, bool overrideTextureRectMatrix, ::GlobalNamespace::OVRPlugin::TextureRectMatrixf textureRectMatrix, bool overridePerLayerColorScaleAndOffset, ::UnityEngine::Vector4 colorScale, ::UnityEngine::Vector4 colorOffset, bool expensiveSuperSample, bool hidden);
     // static public OVRPlugin/LayerDesc CalculateLayerDesc(OVRPlugin/OverlayShape shape, OVRPlugin/LayerLayout layout, OVRPlugin/Sizei textureSize, System.Int32 mipLevels, System.Int32 sampleCount, OVRPlugin/EyeTextureFormat format, System.Int32 layerFlags)
     // Offset: 0x164FC20
-    static GlobalNamespace::OVRPlugin::LayerDesc CalculateLayerDesc(GlobalNamespace::OVRPlugin::OverlayShape shape, GlobalNamespace::OVRPlugin::LayerLayout layout, GlobalNamespace::OVRPlugin::Sizei textureSize, int mipLevels, int sampleCount, GlobalNamespace::OVRPlugin::EyeTextureFormat format, int layerFlags);
+    static ::GlobalNamespace::OVRPlugin::LayerDesc CalculateLayerDesc(::GlobalNamespace::OVRPlugin::OverlayShape shape, ::GlobalNamespace::OVRPlugin::LayerLayout layout, ::GlobalNamespace::OVRPlugin::Sizei textureSize, int mipLevels, int sampleCount, ::GlobalNamespace::OVRPlugin::EyeTextureFormat format, int layerFlags);
     // static public System.Boolean EnqueueSetupLayer(OVRPlugin/LayerDesc desc, System.Int32 compositionDepth, System.IntPtr layerID)
     // Offset: 0x164FDB0
-    static bool EnqueueSetupLayer(GlobalNamespace::OVRPlugin::LayerDesc desc, int compositionDepth, System::IntPtr layerID);
+    static bool EnqueueSetupLayer(::GlobalNamespace::OVRPlugin::LayerDesc desc, int compositionDepth, ::System::IntPtr layerID);
     // static public System.Boolean EnqueueDestroyLayer(System.IntPtr layerID)
     // Offset: 0x1651594
-    static bool EnqueueDestroyLayer(System::IntPtr layerID);
+    static bool EnqueueDestroyLayer(::System::IntPtr layerID);
     // static public System.IntPtr GetLayerTexture(System.Int32 layerId, System.Int32 stage, OVRPlugin/Eye eyeId)
     // Offset: 0x1650940
-    static System::IntPtr GetLayerTexture(int layerId, int stage, GlobalNamespace::OVRPlugin::Eye eyeId);
+    static ::System::IntPtr GetLayerTexture(int layerId, int stage, ::GlobalNamespace::OVRPlugin::Eye eyeId);
     // static public System.Int32 GetLayerTextureStageCount(System.Int32 layerId)
     // Offset: 0x164FFD8
     static int GetLayerTextureStageCount(int layerId);
     // static public System.IntPtr GetLayerAndroidSurfaceObject(System.Int32 layerId)
     // Offset: 0x16505F8
-    static System::IntPtr GetLayerAndroidSurfaceObject(int layerId);
+    static ::System::IntPtr GetLayerAndroidSurfaceObject(int layerId);
     // static public System.Boolean UpdateNodePhysicsPoses(System.Int32 frameIndex, System.Double predictionSeconds)
     // Offset: 0x165CD4C
     static bool UpdateNodePhysicsPoses(int frameIndex, double predictionSeconds);
     // static public OVRPlugin/Posef GetNodePose(OVRPlugin/Node nodeId, OVRPlugin/Step stepId)
     // Offset: 0x164EDA8
-    static GlobalNamespace::OVRPlugin::Posef GetNodePose(GlobalNamespace::OVRPlugin::Node nodeId, GlobalNamespace::OVRPlugin::Step stepId);
+    static ::GlobalNamespace::OVRPlugin::Posef GetNodePose(::GlobalNamespace::OVRPlugin::Node nodeId, ::GlobalNamespace::OVRPlugin::Step stepId);
     // static public OVRPlugin/Vector3f GetNodeVelocity(OVRPlugin/Node nodeId, OVRPlugin/Step stepId)
     // Offset: 0x164E9B0
-    static GlobalNamespace::OVRPlugin::Vector3f GetNodeVelocity(GlobalNamespace::OVRPlugin::Node nodeId, GlobalNamespace::OVRPlugin::Step stepId);
+    static ::GlobalNamespace::OVRPlugin::Vector3f GetNodeVelocity(::GlobalNamespace::OVRPlugin::Node nodeId, ::GlobalNamespace::OVRPlugin::Step stepId);
     // static public OVRPlugin/Vector3f GetNodeAngularVelocity(OVRPlugin/Node nodeId, OVRPlugin/Step stepId)
     // Offset: 0x164EC20
-    static GlobalNamespace::OVRPlugin::Vector3f GetNodeAngularVelocity(GlobalNamespace::OVRPlugin::Node nodeId, GlobalNamespace::OVRPlugin::Step stepId);
+    static ::GlobalNamespace::OVRPlugin::Vector3f GetNodeAngularVelocity(::GlobalNamespace::OVRPlugin::Node nodeId, ::GlobalNamespace::OVRPlugin::Step stepId);
     // static public OVRPlugin/Vector3f GetNodeAcceleration(OVRPlugin/Node nodeId, OVRPlugin/Step stepId)
     // Offset: 0x164E444
-    static GlobalNamespace::OVRPlugin::Vector3f GetNodeAcceleration(GlobalNamespace::OVRPlugin::Node nodeId, GlobalNamespace::OVRPlugin::Step stepId);
+    static ::GlobalNamespace::OVRPlugin::Vector3f GetNodeAcceleration(::GlobalNamespace::OVRPlugin::Node nodeId, ::GlobalNamespace::OVRPlugin::Step stepId);
     // static public OVRPlugin/Vector3f GetNodeAngularAcceleration(OVRPlugin/Node nodeId, OVRPlugin/Step stepId)
     // Offset: 0x164E828
-    static GlobalNamespace::OVRPlugin::Vector3f GetNodeAngularAcceleration(GlobalNamespace::OVRPlugin::Node nodeId, GlobalNamespace::OVRPlugin::Step stepId);
+    static ::GlobalNamespace::OVRPlugin::Vector3f GetNodeAngularAcceleration(::GlobalNamespace::OVRPlugin::Node nodeId, ::GlobalNamespace::OVRPlugin::Step stepId);
     // static public System.Boolean GetNodePresent(OVRPlugin/Node nodeId)
     // Offset: 0x165CE68
-    static bool GetNodePresent(GlobalNamespace::OVRPlugin::Node nodeId);
+    static bool GetNodePresent(::GlobalNamespace::OVRPlugin::Node nodeId);
     // static public System.Boolean GetNodeOrientationTracked(OVRPlugin/Node nodeId)
     // Offset: 0x165CEDC
-    static bool GetNodeOrientationTracked(GlobalNamespace::OVRPlugin::Node nodeId);
+    static bool GetNodeOrientationTracked(::GlobalNamespace::OVRPlugin::Node nodeId);
     // static public System.Boolean GetNodeOrientationValid(OVRPlugin/Node nodeId)
     // Offset: 0x165CF50
-    static bool GetNodeOrientationValid(GlobalNamespace::OVRPlugin::Node nodeId);
+    static bool GetNodeOrientationValid(::GlobalNamespace::OVRPlugin::Node nodeId);
     // static public System.Boolean GetNodePositionTracked(OVRPlugin/Node nodeId)
     // Offset: 0x165D09C
-    static bool GetNodePositionTracked(GlobalNamespace::OVRPlugin::Node nodeId);
+    static bool GetNodePositionTracked(::GlobalNamespace::OVRPlugin::Node nodeId);
     // static public System.Boolean GetNodePositionValid(OVRPlugin/Node nodeId)
     // Offset: 0x165D110
-    static bool GetNodePositionValid(GlobalNamespace::OVRPlugin::Node nodeId);
+    static bool GetNodePositionValid(::GlobalNamespace::OVRPlugin::Node nodeId);
     // static public OVRPlugin/PoseStatef GetNodePoseStateRaw(OVRPlugin/Node nodeId, OVRPlugin/Step stepId)
     // Offset: 0x165D25C
-    static GlobalNamespace::OVRPlugin::PoseStatef GetNodePoseStateRaw(GlobalNamespace::OVRPlugin::Node nodeId, GlobalNamespace::OVRPlugin::Step stepId);
+    static ::GlobalNamespace::OVRPlugin::PoseStatef GetNodePoseStateRaw(::GlobalNamespace::OVRPlugin::Node nodeId, ::GlobalNamespace::OVRPlugin::Step stepId);
     // static public OVRPlugin/Posef GetCurrentTrackingTransformPose()
     // Offset: 0x165D4DC
-    static GlobalNamespace::OVRPlugin::Posef GetCurrentTrackingTransformPose();
+    static ::GlobalNamespace::OVRPlugin::Posef GetCurrentTrackingTransformPose();
     // static public OVRPlugin/Posef GetTrackingTransformRawPose()
     // Offset: 0x165D630
-    static GlobalNamespace::OVRPlugin::Posef GetTrackingTransformRawPose();
+    static ::GlobalNamespace::OVRPlugin::Posef GetTrackingTransformRawPose();
     // static public OVRPlugin/Posef GetTrackingTransformRelativePose(OVRPlugin/TrackingOrigin trackingOrigin)
     // Offset: 0x164A334
-    static GlobalNamespace::OVRPlugin::Posef GetTrackingTransformRelativePose(GlobalNamespace::OVRPlugin::TrackingOrigin trackingOrigin);
+    static ::GlobalNamespace::OVRPlugin::Posef GetTrackingTransformRelativePose(::GlobalNamespace::OVRPlugin::TrackingOrigin trackingOrigin);
     // static public OVRPlugin/ControllerState GetControllerState(System.UInt32 controllerMask)
     // Offset: 0x165D784
-    static GlobalNamespace::OVRPlugin::ControllerState GetControllerState(uint controllerMask);
+    static ::GlobalNamespace::OVRPlugin::ControllerState GetControllerState(uint controllerMask);
     // static public OVRPlugin/ControllerState2 GetControllerState2(System.UInt32 controllerMask)
     // Offset: 0x165D7FC
-    static GlobalNamespace::OVRPlugin::ControllerState2 GetControllerState2(uint controllerMask);
+    static ::GlobalNamespace::OVRPlugin::ControllerState2 GetControllerState2(uint controllerMask);
     // static public OVRPlugin/ControllerState4 GetControllerState4(System.UInt32 controllerMask)
     // Offset: 0x165D97C
-    static GlobalNamespace::OVRPlugin::ControllerState4 GetControllerState4(uint controllerMask);
+    static ::GlobalNamespace::OVRPlugin::ControllerState4 GetControllerState4(uint controllerMask);
     // static public System.Boolean SetControllerVibration(System.UInt32 controllerMask, System.Single frequency, System.Single amplitude)
     // Offset: 0x165DB1C
     static bool SetControllerVibration(uint controllerMask, float frequency, float amplitude);
     // static public OVRPlugin/HapticsDesc GetControllerHapticsDesc(System.UInt32 controllerMask)
     // Offset: 0x165DBA8
-    static GlobalNamespace::OVRPlugin::HapticsDesc GetControllerHapticsDesc(uint controllerMask);
+    static ::GlobalNamespace::OVRPlugin::HapticsDesc GetControllerHapticsDesc(uint controllerMask);
     // static public OVRPlugin/HapticsState GetControllerHapticsState(System.UInt32 controllerMask)
     // Offset: 0x165DCC8
-    static GlobalNamespace::OVRPlugin::HapticsState GetControllerHapticsState(uint controllerMask);
+    static ::GlobalNamespace::OVRPlugin::HapticsState GetControllerHapticsState(uint controllerMask);
     // static public System.Boolean SetControllerHaptics(System.UInt32 controllerMask, OVRPlugin/HapticsBuffer hapticsBuffer)
     // Offset: 0x165DDD0
-    static bool SetControllerHaptics(uint controllerMask, GlobalNamespace::OVRPlugin::HapticsBuffer hapticsBuffer);
+    static bool SetControllerHaptics(uint controllerMask, ::GlobalNamespace::OVRPlugin::HapticsBuffer hapticsBuffer);
     // static public System.Single GetEyeRecommendedResolutionScale()
     // Offset: 0x165DEF0
     static float GetEyeRecommendedResolutionScale();
@@ -2500,19 +2500,19 @@ namespace GlobalNamespace {
     static bool GetBoundaryConfigured();
     // static public OVRPlugin/BoundaryTestResult TestBoundaryNode(OVRPlugin/Node nodeId, OVRPlugin/BoundaryType boundaryType)
     // Offset: 0x165E1F0
-    static GlobalNamespace::OVRPlugin::BoundaryTestResult TestBoundaryNode(GlobalNamespace::OVRPlugin::Node nodeId, GlobalNamespace::OVRPlugin::BoundaryType boundaryType);
+    static ::GlobalNamespace::OVRPlugin::BoundaryTestResult TestBoundaryNode(::GlobalNamespace::OVRPlugin::Node nodeId, ::GlobalNamespace::OVRPlugin::BoundaryType boundaryType);
     // static public OVRPlugin/BoundaryTestResult TestBoundaryPoint(OVRPlugin/Vector3f point, OVRPlugin/BoundaryType boundaryType)
     // Offset: 0x165E318
-    static GlobalNamespace::OVRPlugin::BoundaryTestResult TestBoundaryPoint(GlobalNamespace::OVRPlugin::Vector3f point, GlobalNamespace::OVRPlugin::BoundaryType boundaryType);
+    static ::GlobalNamespace::OVRPlugin::BoundaryTestResult TestBoundaryPoint(::GlobalNamespace::OVRPlugin::Vector3f point, ::GlobalNamespace::OVRPlugin::BoundaryType boundaryType);
     // static public OVRPlugin/BoundaryGeometry GetBoundaryGeometry(OVRPlugin/BoundaryType boundaryType)
     // Offset: 0x165E468
-    static GlobalNamespace::OVRPlugin::BoundaryGeometry GetBoundaryGeometry(GlobalNamespace::OVRPlugin::BoundaryType boundaryType);
+    static ::GlobalNamespace::OVRPlugin::BoundaryGeometry GetBoundaryGeometry(::GlobalNamespace::OVRPlugin::BoundaryType boundaryType);
     // static public System.Boolean GetBoundaryGeometry2(OVRPlugin/BoundaryType boundaryType, System.IntPtr points, ref System.Int32 pointsCount)
     // Offset: 0x165E588
-    static bool GetBoundaryGeometry2(GlobalNamespace::OVRPlugin::BoundaryType boundaryType, System::IntPtr points, ByRef<int> pointsCount);
+    static bool GetBoundaryGeometry2(::GlobalNamespace::OVRPlugin::BoundaryType boundaryType, ::System::IntPtr points, ByRef<int> pointsCount);
     // static public OVRPlugin/AppPerfStats GetAppPerfStats()
     // Offset: 0x165E6AC
-    static GlobalNamespace::OVRPlugin::AppPerfStats GetAppPerfStats();
+    static ::GlobalNamespace::OVRPlugin::AppPerfStats GetAppPerfStats();
     // static public System.Boolean ResetAppPerfStats()
     // Offset: 0x165E7B8
     static bool ResetAppPerfStats();
@@ -2527,10 +2527,10 @@ namespace GlobalNamespace {
     static double GetHandNodePoseStateLatency();
     // static public OVRPlugin/EyeTextureFormat GetDesiredEyeTextureFormat()
     // Offset: 0x165EBD8
-    static GlobalNamespace::OVRPlugin::EyeTextureFormat GetDesiredEyeTextureFormat();
+    static ::GlobalNamespace::OVRPlugin::EyeTextureFormat GetDesiredEyeTextureFormat();
     // static public System.Boolean SetDesiredEyeTextureFormat(OVRPlugin/EyeTextureFormat value)
     // Offset: 0x165ECD8
-    static bool SetDesiredEyeTextureFormat(GlobalNamespace::OVRPlugin::EyeTextureFormat value);
+    static bool SetDesiredEyeTextureFormat(::GlobalNamespace::OVRPlugin::EyeTextureFormat value);
     // static public System.Boolean InitializeMixedReality()
     // Offset: 0x16479A4
     static bool InitializeMixedReality();
@@ -2548,16 +2548,16 @@ namespace GlobalNamespace {
     static bool UpdateExternalCamera();
     // static public System.Boolean GetMixedRealityCameraInfo(System.Int32 cameraId, out OVRPlugin/CameraExtrinsics cameraExtrinsics, out OVRPlugin/CameraIntrinsics cameraIntrinsics)
     // Offset: 0x164A1C4
-    static bool GetMixedRealityCameraInfo(int cameraId, ByRef<GlobalNamespace::OVRPlugin::CameraExtrinsics> cameraExtrinsics, ByRef<GlobalNamespace::OVRPlugin::CameraIntrinsics> cameraIntrinsics);
+    static bool GetMixedRealityCameraInfo(int cameraId, ByRef<::GlobalNamespace::OVRPlugin::CameraExtrinsics> cameraExtrinsics, ByRef<::GlobalNamespace::OVRPlugin::CameraIntrinsics> cameraIntrinsics);
     // static public System.Boolean OverrideExternalCameraFov(System.Int32 cameraId, System.Boolean useOverriddenFov, OVRPlugin/Fovf fov)
     // Offset: 0x164AD9C
-    static bool OverrideExternalCameraFov(int cameraId, bool useOverriddenFov, GlobalNamespace::OVRPlugin::Fovf fov);
+    static bool OverrideExternalCameraFov(int cameraId, bool useOverriddenFov, ::GlobalNamespace::OVRPlugin::Fovf fov);
     // static public System.Boolean GetUseOverriddenExternalCameraFov(System.Int32 cameraId)
     // Offset: 0x164AFF0
     static bool GetUseOverriddenExternalCameraFov(int cameraId);
     // static public System.Boolean OverrideExternalCameraStaticPose(System.Int32 cameraId, System.Boolean useOverriddenPose, OVRPlugin/Posef poseInStageOrigin)
     // Offset: 0x164AECC
-    static bool OverrideExternalCameraStaticPose(int cameraId, bool useOverriddenPose, GlobalNamespace::OVRPlugin::Posef poseInStageOrigin);
+    static bool OverrideExternalCameraStaticPose(int cameraId, bool useOverriddenPose, ::GlobalNamespace::OVRPlugin::Posef poseInStageOrigin);
     // static public System.Boolean GetUseOverriddenExternalCameraStaticPose(System.Int32 cameraId)
     // Offset: 0x164B11C
     static bool GetUseOverriddenExternalCameraStaticPose(int cameraId);
@@ -2566,13 +2566,13 @@ namespace GlobalNamespace {
     static bool ResetDefaultExternalCamera();
     // static public System.Boolean SetDefaultExternalCamera(System.String cameraName, ref OVRPlugin/CameraIntrinsics cameraIntrinsics, ref OVRPlugin/CameraExtrinsics cameraExtrinsics)
     // Offset: 0x164A4F4
-    static bool SetDefaultExternalCamera(::StringW cameraName, ByRef<GlobalNamespace::OVRPlugin::CameraIntrinsics> cameraIntrinsics, ByRef<GlobalNamespace::OVRPlugin::CameraExtrinsics> cameraExtrinsics);
+    static bool SetDefaultExternalCamera(::StringW cameraName, ByRef<::GlobalNamespace::OVRPlugin::CameraIntrinsics> cameraIntrinsics, ByRef<::GlobalNamespace::OVRPlugin::CameraExtrinsics> cameraExtrinsics);
     // static public System.Boolean SetExternalCameraProperties(System.String cameraName, ref OVRPlugin/CameraIntrinsics cameraIntrinsics, ref OVRPlugin/CameraExtrinsics cameraExtrinsics)
     // Offset: 0x165EDE0
-    static bool SetExternalCameraProperties(::StringW cameraName, ByRef<GlobalNamespace::OVRPlugin::CameraIntrinsics> cameraIntrinsics, ByRef<GlobalNamespace::OVRPlugin::CameraExtrinsics> cameraExtrinsics);
+    static bool SetExternalCameraProperties(::StringW cameraName, ByRef<::GlobalNamespace::OVRPlugin::CameraIntrinsics> cameraIntrinsics, ByRef<::GlobalNamespace::OVRPlugin::CameraExtrinsics> cameraExtrinsics);
     // static public OVRPlugin/Vector3f GetBoundaryDimensions(OVRPlugin/BoundaryType boundaryType)
     // Offset: 0x165EF00
-    static GlobalNamespace::OVRPlugin::Vector3f GetBoundaryDimensions(GlobalNamespace::OVRPlugin::BoundaryType boundaryType);
+    static ::GlobalNamespace::OVRPlugin::Vector3f GetBoundaryDimensions(::GlobalNamespace::OVRPlugin::BoundaryType boundaryType);
     // static public System.Boolean GetBoundaryVisible()
     // Offset: 0x165F004
     static bool GetBoundaryVisible();
@@ -2581,67 +2581,67 @@ namespace GlobalNamespace {
     static bool SetBoundaryVisible(bool value);
     // static public OVRPlugin/SystemHeadset GetSystemHeadsetType()
     // Offset: 0x165F230
-    static GlobalNamespace::OVRPlugin::SystemHeadset GetSystemHeadsetType();
+    static ::GlobalNamespace::OVRPlugin::SystemHeadset GetSystemHeadsetType();
     // static public OVRPlugin/Controller GetActiveController()
     // Offset: 0x165F330
-    static GlobalNamespace::OVRPlugin::Controller GetActiveController();
+    static ::GlobalNamespace::OVRPlugin::Controller GetActiveController();
     // static public OVRPlugin/Controller GetConnectedControllers()
     // Offset: 0x165F430
-    static GlobalNamespace::OVRPlugin::Controller GetConnectedControllers();
+    static ::GlobalNamespace::OVRPlugin::Controller GetConnectedControllers();
     // static private OVRPlugin/Bool ToBool(System.Boolean b)
     // Offset: 0x165AF30
-    static GlobalNamespace::OVRPlugin::Bool ToBool(bool b);
+    static ::GlobalNamespace::OVRPlugin::Bool ToBool(bool b);
     // static public OVRPlugin/TrackingOrigin GetTrackingOriginType()
     // Offset: 0x165F530
-    static GlobalNamespace::OVRPlugin::TrackingOrigin GetTrackingOriginType();
+    static ::GlobalNamespace::OVRPlugin::TrackingOrigin GetTrackingOriginType();
     // static public System.Boolean SetTrackingOriginType(OVRPlugin/TrackingOrigin originType)
     // Offset: 0x165F590
-    static bool SetTrackingOriginType(GlobalNamespace::OVRPlugin::TrackingOrigin originType);
+    static bool SetTrackingOriginType(::GlobalNamespace::OVRPlugin::TrackingOrigin originType);
     // static public OVRPlugin/Posef GetTrackingCalibratedOrigin()
     // Offset: 0x165F604
-    static GlobalNamespace::OVRPlugin::Posef GetTrackingCalibratedOrigin();
+    static ::GlobalNamespace::OVRPlugin::Posef GetTrackingCalibratedOrigin();
     // static public System.Boolean SetTrackingCalibratedOrigin()
     // Offset: 0x165F66C
     static bool SetTrackingCalibratedOrigin();
     // static public System.Boolean RecenterTrackingOrigin(OVRPlugin/RecenterFlags flags)
     // Offset: 0x165F6D8
-    static bool RecenterTrackingOrigin(GlobalNamespace::OVRPlugin::RecenterFlags flags);
+    static bool RecenterTrackingOrigin(::GlobalNamespace::OVRPlugin::RecenterFlags flags);
     // static public System.Boolean GetNodeFrustum2(OVRPlugin/Node nodeId, out OVRPlugin/Frustumf2 frustum)
     // Offset: 0x16608A8
-    static bool GetNodeFrustum2(GlobalNamespace::OVRPlugin::Node nodeId, ByRef<GlobalNamespace::OVRPlugin::Frustumf2> frustum);
+    static bool GetNodeFrustum2(::GlobalNamespace::OVRPlugin::Node nodeId, ByRef<::GlobalNamespace::OVRPlugin::Frustumf2> frustum);
     // static public OVRPlugin/Handedness GetDominantHand()
     // Offset: 0x1660BDC
-    static GlobalNamespace::OVRPlugin::Handedness GetDominantHand();
+    static ::GlobalNamespace::OVRPlugin::Handedness GetDominantHand();
     // static public System.Boolean SendEvent(System.String name, System.String param, System.String source)
     // Offset: 0x1660CE8
     static bool SendEvent(::StringW name, ::StringW param, ::StringW source);
     // static public System.Boolean SetHeadPoseModifier(ref OVRPlugin/Quatf relativeRotation, ref OVRPlugin/Vector3f relativeTranslation)
     // Offset: 0x1660ED8
-    static bool SetHeadPoseModifier(ByRef<GlobalNamespace::OVRPlugin::Quatf> relativeRotation, ByRef<GlobalNamespace::OVRPlugin::Vector3f> relativeTranslation);
+    static bool SetHeadPoseModifier(ByRef<::GlobalNamespace::OVRPlugin::Quatf> relativeRotation, ByRef<::GlobalNamespace::OVRPlugin::Vector3f> relativeTranslation);
     // static public System.Boolean GetHeadPoseModifier(out OVRPlugin/Quatf relativeRotation, out OVRPlugin/Vector3f relativeTranslation)
     // Offset: 0x1660FF0
-    static bool GetHeadPoseModifier(ByRef<GlobalNamespace::OVRPlugin::Quatf> relativeRotation, ByRef<GlobalNamespace::OVRPlugin::Vector3f> relativeTranslation);
+    static bool GetHeadPoseModifier(ByRef<::GlobalNamespace::OVRPlugin::Quatf> relativeRotation, ByRef<::GlobalNamespace::OVRPlugin::Vector3f> relativeTranslation);
     // static public System.Boolean IsPerfMetricsSupported(OVRPlugin/PerfMetrics perfMetrics)
     // Offset: 0x1661174
-    static bool IsPerfMetricsSupported(GlobalNamespace::OVRPlugin::PerfMetrics perfMetrics);
+    static bool IsPerfMetricsSupported(::GlobalNamespace::OVRPlugin::PerfMetrics perfMetrics);
     // static public System.Nullable`1<System.Single> GetPerfMetricsFloat(OVRPlugin/PerfMetrics perfMetrics)
     // Offset: 0x1661294
-    static System::Nullable_1<float> GetPerfMetricsFloat(GlobalNamespace::OVRPlugin::PerfMetrics perfMetrics);
+    static ::System::Nullable_1<float> GetPerfMetricsFloat(::GlobalNamespace::OVRPlugin::PerfMetrics perfMetrics);
     // static public System.Nullable`1<System.Int32> GetPerfMetricsInt(OVRPlugin/PerfMetrics perfMetrics)
     // Offset: 0x16613CC
-    static System::Nullable_1<int> GetPerfMetricsInt(GlobalNamespace::OVRPlugin::PerfMetrics perfMetrics);
+    static ::System::Nullable_1<int> GetPerfMetricsInt(::GlobalNamespace::OVRPlugin::PerfMetrics perfMetrics);
     // static public System.Double GetTimeInSeconds()
     // Offset: 0x1661504
     static double GetTimeInSeconds();
     // static public System.Boolean SetColorScaleAndOffset(UnityEngine.Vector4 colorScale, UnityEngine.Vector4 colorOffset, System.Boolean applyToAllLayers)
     // Offset: 0x1661610
-    static bool SetColorScaleAndOffset(UnityEngine::Vector4 colorScale, UnityEngine::Vector4 colorOffset, bool applyToAllLayers);
+    static bool SetColorScaleAndOffset(::UnityEngine::Vector4 colorScale, ::UnityEngine::Vector4 colorOffset, bool applyToAllLayers);
     // static public System.Boolean AddCustomMetadata(System.String name, System.String param)
     // Offset: 0x166177C
     static bool AddCustomMetadata(::StringW name, ::StringW param);
     // static public System.Boolean SetDeveloperMode(OVRPlugin/Bool active)
     // Offset: 0x1661894
-    static bool SetDeveloperMode(GlobalNamespace::OVRPlugin::Bool active);
+    static bool SetDeveloperMode(::GlobalNamespace::OVRPlugin::Bool active);
     // static public System.Single GetAdaptiveGPUPerformanceScale()
     // Offset: 0x166199C
     static float GetAdaptiveGPUPerformanceScale();
@@ -2650,16 +2650,16 @@ namespace GlobalNamespace {
     static bool GetHandTrackingEnabled();
     // static public System.Boolean GetHandState(OVRPlugin/Step stepId, OVRPlugin/Hand hand, ref OVRPlugin/HandState handState)
     // Offset: 0x1661BC8
-    static bool GetHandState(GlobalNamespace::OVRPlugin::Step stepId, GlobalNamespace::OVRPlugin::Hand hand, ByRef<GlobalNamespace::OVRPlugin::HandState> handState);
+    static bool GetHandState(::GlobalNamespace::OVRPlugin::Step stepId, ::GlobalNamespace::OVRPlugin::Hand hand, ByRef<::GlobalNamespace::OVRPlugin::HandState> handState);
     // static public System.Boolean GetSkeleton(OVRPlugin/SkeletonType skeletonType, out OVRPlugin/Skeleton skeleton)
     // Offset: 0x166236C
-    static bool GetSkeleton(GlobalNamespace::OVRPlugin::SkeletonType skeletonType, ByRef<GlobalNamespace::OVRPlugin::Skeleton> skeleton);
+    static bool GetSkeleton(::GlobalNamespace::OVRPlugin::SkeletonType skeletonType, ByRef<::GlobalNamespace::OVRPlugin::Skeleton> skeleton);
     // static public System.Boolean GetSkeleton2(OVRPlugin/SkeletonType skeletonType, ref OVRPlugin/Skeleton2 skeleton)
     // Offset: 0x166248C
-    static bool GetSkeleton2(GlobalNamespace::OVRPlugin::SkeletonType skeletonType, ByRef<GlobalNamespace::OVRPlugin::Skeleton2> skeleton);
+    static bool GetSkeleton2(::GlobalNamespace::OVRPlugin::SkeletonType skeletonType, ByRef<::GlobalNamespace::OVRPlugin::Skeleton2> skeleton);
     // static public System.Boolean GetMesh(OVRPlugin/MeshType meshType, out OVRPlugin/Mesh mesh)
     // Offset: 0x1646650
-    static bool GetMesh(GlobalNamespace::OVRPlugin::MeshType meshType, ByRef<GlobalNamespace::OVRPlugin::Mesh*> mesh);
+    static bool GetMesh(::GlobalNamespace::OVRPlugin::MeshType meshType, ByRef<::GlobalNamespace::OVRPlugin::Mesh*> mesh);
     // static public System.Int32 GetLocalTrackingSpaceRecenterCount()
     // Offset: 0x16642F8
     static int GetLocalTrackingSpaceRecenterCount();
@@ -2668,13 +2668,13 @@ namespace GlobalNamespace {
     static bool GetSystemHmd3DofModeEnabled();
     // static public System.Boolean SetClientColorDesc(OVRPlugin/ColorSpace colorSpace)
     // Offset: 0x166451C
-    static bool SetClientColorDesc(GlobalNamespace::OVRPlugin::ColorSpace colorSpace);
+    static bool SetClientColorDesc(::GlobalNamespace::OVRPlugin::ColorSpace colorSpace);
     // static public OVRPlugin/ColorSpace GetHmdColorDesc()
     // Offset: 0x1664660
-    static GlobalNamespace::OVRPlugin::ColorSpace GetHmdColorDesc();
+    static ::GlobalNamespace::OVRPlugin::ColorSpace GetHmdColorDesc();
     // static public System.Boolean PollEvent(ref OVRPlugin/EventDataBuffer eventDataBuffer)
     // Offset: 0x16647C0
-    static bool PollEvent(ByRef<GlobalNamespace::OVRPlugin::EventDataBuffer> eventDataBuffer);
+    static bool PollEvent(ByRef<::GlobalNamespace::OVRPlugin::EventDataBuffer> eventDataBuffer);
     // static public System.UInt64 GetNativeOpenXRInstance()
     // Offset: 0x1664A10
     static uint64_t GetNativeOpenXRInstance();
@@ -2683,43 +2683,43 @@ namespace GlobalNamespace {
     static uint64_t GetNativeOpenXRSession();
     // static public System.Boolean SetKeyboardOverlayUV(OVRPlugin/Vector2f uv)
     // Offset: 0x1664C48
-    static bool SetKeyboardOverlayUV(GlobalNamespace::OVRPlugin::Vector2f uv);
+    static bool SetKeyboardOverlayUV(::GlobalNamespace::OVRPlugin::Vector2f uv);
   }; // OVRPlugin
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Skeleton2Internal, "", "OVRPlugin/Skeleton2Internal");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRPlugin::Skeleton2Internal, "", "OVRPlugin/Skeleton2Internal");
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Skeleton, "", "OVRPlugin/Skeleton");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRPlugin::Skeleton, "", "OVRPlugin/Skeleton");
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::SkeletonType, "", "OVRPlugin/SkeletonType");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRPlugin::SkeletonType, "", "OVRPlugin/SkeletonType");
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Bone, "", "OVRPlugin/Bone");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRPlugin::Bone, "", "OVRPlugin/Bone");
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::BoneCapsule, "", "OVRPlugin/BoneCapsule");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRPlugin::BoneCapsule, "", "OVRPlugin/BoneCapsule");
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::HandStateInternal, "", "OVRPlugin/HandStateInternal");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRPlugin::HandStateInternal, "", "OVRPlugin/HandStateInternal");
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::HandFingerPinch, "", "OVRPlugin/HandFingerPinch");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRPlugin::HandFingerPinch, "", "OVRPlugin/HandFingerPinch");
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::BoneId, "", "OVRPlugin/BoneId");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRPlugin::BoneId, "", "OVRPlugin/BoneId");
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::HandStatus, "", "OVRPlugin/HandStatus");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRPlugin::HandStatus, "", "OVRPlugin/HandStatus");
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::TrackingConfidence, "", "OVRPlugin/TrackingConfidence");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRPlugin::TrackingConfidence, "", "OVRPlugin/TrackingConfidence");
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Posef, "", "OVRPlugin/Posef");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRPlugin::Posef, "", "OVRPlugin/Posef");
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Quatf, "", "OVRPlugin/Quatf");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRPlugin::Quatf, "", "OVRPlugin/Quatf");
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Vector3f, "", "OVRPlugin/Vector3f");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRPlugin::Vector3f, "", "OVRPlugin/Vector3f");
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::XrApi, "", "OVRPlugin/XrApi");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRPlugin::XrApi, "", "OVRPlugin/XrApi");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::get_version
 // Il2CppName: get_version
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Version* (*)()>(&GlobalNamespace::OVRPlugin::get_version)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Version* (*)()>(&GlobalNamespace::OVRPlugin::get_version)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "get_version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2727,7 +2727,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ver
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::get_nativeSDKVersion
 // Il2CppName: get_nativeSDKVersion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Version* (*)()>(&GlobalNamespace::OVRPlugin::get_nativeSDKVersion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Version* (*)()>(&GlobalNamespace::OVRPlugin::get_nativeSDKVersion)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "get_nativeSDKVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2743,7 +2743,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::get_nativeXrApi
 // Il2CppName: get_nativeXrApi
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::XrApi (*)()>(&GlobalNamespace::OVRPlugin::get_nativeXrApi)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::XrApi (*)()>(&GlobalNamespace::OVRPlugin::get_nativeXrApi)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "get_nativeXrApi", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2892,7 +2892,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::get_systemRegion
 // Il2CppName: get_systemRegion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::SystemRegion (*)()>(&GlobalNamespace::OVRPlugin::get_systemRegion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::SystemRegion (*)()>(&GlobalNamespace::OVRPlugin::get_systemRegion)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "get_systemRegion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -3107,7 +3107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bo
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::get_batteryStatus
 // Il2CppName: get_batteryStatus
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::BatteryStatus (*)()>(&GlobalNamespace::OVRPlugin::get_batteryStatus)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::BatteryStatus (*)()>(&GlobalNamespace::OVRPlugin::get_batteryStatus)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "get_batteryStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -3123,7 +3123,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::get_fixedFoveatedRenderingLevel
 // Il2CppName: get_fixedFoveatedRenderingLevel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::FixedFoveatedRenderingLevel (*)()>(&GlobalNamespace::OVRPlugin::get_fixedFoveatedRenderingLevel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::FixedFoveatedRenderingLevel (*)()>(&GlobalNamespace::OVRPlugin::get_fixedFoveatedRenderingLevel)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "get_fixedFoveatedRenderingLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -3131,7 +3131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::set_fixedFoveatedRenderingLevel
 // Il2CppName: set_fixedFoveatedRenderingLevel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::OVRPlugin::FixedFoveatedRenderingLevel)>(&GlobalNamespace::OVRPlugin::set_fixedFoveatedRenderingLevel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::OVRPlugin::FixedFoveatedRenderingLevel)>(&GlobalNamespace::OVRPlugin::set_fixedFoveatedRenderingLevel)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/FixedFoveatedRenderingLevel")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "set_fixedFoveatedRenderingLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -3165,7 +3165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::get_tiledMultiResLevel
 // Il2CppName: get_tiledMultiResLevel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::TiledMultiResLevel (*)()>(&GlobalNamespace::OVRPlugin::get_tiledMultiResLevel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::TiledMultiResLevel (*)()>(&GlobalNamespace::OVRPlugin::get_tiledMultiResLevel)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "get_tiledMultiResLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -3173,7 +3173,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::set_tiledMultiResLevel
 // Il2CppName: set_tiledMultiResLevel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::OVRPlugin::TiledMultiResLevel)>(&GlobalNamespace::OVRPlugin::set_tiledMultiResLevel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::OVRPlugin::TiledMultiResLevel)>(&GlobalNamespace::OVRPlugin::set_tiledMultiResLevel)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/TiledMultiResLevel")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "set_tiledMultiResLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -3264,7 +3264,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GetEyeFrustum
 // Il2CppName: GetEyeFrustum
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Frustumf (*)(GlobalNamespace::OVRPlugin::Eye)>(&GlobalNamespace::OVRPlugin::GetEyeFrustum)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Frustumf (*)(::GlobalNamespace::OVRPlugin::Eye)>(&GlobalNamespace::OVRPlugin::GetEyeFrustum)> {
   static const MethodInfo* get() {
     static auto* eyeId = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Eye")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "GetEyeFrustum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eyeId});
@@ -3273,7 +3273,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GetEyeTextureSize
 // Il2CppName: GetEyeTextureSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Sizei (*)(GlobalNamespace::OVRPlugin::Eye)>(&GlobalNamespace::OVRPlugin::GetEyeTextureSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Sizei (*)(::GlobalNamespace::OVRPlugin::Eye)>(&GlobalNamespace::OVRPlugin::GetEyeTextureSize)> {
   static const MethodInfo* get() {
     static auto* eyeId = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Eye")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "GetEyeTextureSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eyeId});
@@ -3282,7 +3282,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GetTrackerPose
 // Il2CppName: GetTrackerPose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Posef (*)(GlobalNamespace::OVRPlugin::Tracker)>(&GlobalNamespace::OVRPlugin::GetTrackerPose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Posef (*)(::GlobalNamespace::OVRPlugin::Tracker)>(&GlobalNamespace::OVRPlugin::GetTrackerPose)> {
   static const MethodInfo* get() {
     static auto* trackerId = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Tracker")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "GetTrackerPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{trackerId});
@@ -3291,7 +3291,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GetTrackerFrustum
 // Il2CppName: GetTrackerFrustum
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Frustumf (*)(GlobalNamespace::OVRPlugin::Tracker)>(&GlobalNamespace::OVRPlugin::GetTrackerFrustum)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Frustumf (*)(::GlobalNamespace::OVRPlugin::Tracker)>(&GlobalNamespace::OVRPlugin::GetTrackerFrustum)> {
   static const MethodInfo* get() {
     static auto* trackerId = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Tracker")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "GetTrackerFrustum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{trackerId});
@@ -3300,7 +3300,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::ShowUI
 // Il2CppName: ShowUI
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRPlugin::PlatformUI)>(&GlobalNamespace::OVRPlugin::ShowUI)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin::PlatformUI)>(&GlobalNamespace::OVRPlugin::ShowUI)> {
   static const MethodInfo* get() {
     static auto* ui = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/PlatformUI")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "ShowUI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ui});
@@ -3309,7 +3309,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::EnqueueSubmitLayer
 // Il2CppName: EnqueueSubmitLayer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bool, bool, bool, System::IntPtr, System::IntPtr, int, int, GlobalNamespace::OVRPlugin::Posef, GlobalNamespace::OVRPlugin::Vector3f, int, GlobalNamespace::OVRPlugin::OverlayShape, bool, GlobalNamespace::OVRPlugin::TextureRectMatrixf, bool, UnityEngine::Vector4, UnityEngine::Vector4, bool, bool)>(&GlobalNamespace::OVRPlugin::EnqueueSubmitLayer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bool, bool, bool, ::System::IntPtr, ::System::IntPtr, int, int, ::GlobalNamespace::OVRPlugin::Posef, ::GlobalNamespace::OVRPlugin::Vector3f, int, ::GlobalNamespace::OVRPlugin::OverlayShape, bool, ::GlobalNamespace::OVRPlugin::TextureRectMatrixf, bool, ::UnityEngine::Vector4, ::UnityEngine::Vector4, bool, bool)>(&GlobalNamespace::OVRPlugin::EnqueueSubmitLayer)> {
   static const MethodInfo* get() {
     static auto* onTop = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* headLocked = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -3335,7 +3335,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bo
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::CalculateLayerDesc
 // Il2CppName: CalculateLayerDesc
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::LayerDesc (*)(GlobalNamespace::OVRPlugin::OverlayShape, GlobalNamespace::OVRPlugin::LayerLayout, GlobalNamespace::OVRPlugin::Sizei, int, int, GlobalNamespace::OVRPlugin::EyeTextureFormat, int)>(&GlobalNamespace::OVRPlugin::CalculateLayerDesc)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::LayerDesc (*)(::GlobalNamespace::OVRPlugin::OverlayShape, ::GlobalNamespace::OVRPlugin::LayerLayout, ::GlobalNamespace::OVRPlugin::Sizei, int, int, ::GlobalNamespace::OVRPlugin::EyeTextureFormat, int)>(&GlobalNamespace::OVRPlugin::CalculateLayerDesc)> {
   static const MethodInfo* get() {
     static auto* shape = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/OverlayShape")->byval_arg;
     static auto* layout = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/LayerLayout")->byval_arg;
@@ -3350,7 +3350,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::EnqueueSetupLayer
 // Il2CppName: EnqueueSetupLayer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRPlugin::LayerDesc, int, System::IntPtr)>(&GlobalNamespace::OVRPlugin::EnqueueSetupLayer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin::LayerDesc, int, ::System::IntPtr)>(&GlobalNamespace::OVRPlugin::EnqueueSetupLayer)> {
   static const MethodInfo* get() {
     static auto* desc = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/LayerDesc")->byval_arg;
     static auto* compositionDepth = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -3361,7 +3361,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::EnqueueDestroyLayer
 // Il2CppName: EnqueueDestroyLayer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&GlobalNamespace::OVRPlugin::EnqueueDestroyLayer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&GlobalNamespace::OVRPlugin::EnqueueDestroyLayer)> {
   static const MethodInfo* get() {
     static auto* layerID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "EnqueueDestroyLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{layerID});
@@ -3370,7 +3370,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GetLayerTexture
 // Il2CppName: GetLayerTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(int, int, GlobalNamespace::OVRPlugin::Eye)>(&GlobalNamespace::OVRPlugin::GetLayerTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(int, int, ::GlobalNamespace::OVRPlugin::Eye)>(&GlobalNamespace::OVRPlugin::GetLayerTexture)> {
   static const MethodInfo* get() {
     static auto* layerId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* stage = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -3390,7 +3390,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GetLayerAndroidSurfaceObject
 // Il2CppName: GetLayerAndroidSurfaceObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(int)>(&GlobalNamespace::OVRPlugin::GetLayerAndroidSurfaceObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(int)>(&GlobalNamespace::OVRPlugin::GetLayerAndroidSurfaceObject)> {
   static const MethodInfo* get() {
     static auto* layerId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "GetLayerAndroidSurfaceObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{layerId});
@@ -3409,7 +3409,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(in
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GetNodePose
 // Il2CppName: GetNodePose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Posef (*)(GlobalNamespace::OVRPlugin::Node, GlobalNamespace::OVRPlugin::Step)>(&GlobalNamespace::OVRPlugin::GetNodePose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Posef (*)(::GlobalNamespace::OVRPlugin::Node, ::GlobalNamespace::OVRPlugin::Step)>(&GlobalNamespace::OVRPlugin::GetNodePose)> {
   static const MethodInfo* get() {
     static auto* nodeId = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Node")->byval_arg;
     static auto* stepId = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Step")->byval_arg;
@@ -3419,7 +3419,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GetNodeVelocity
 // Il2CppName: GetNodeVelocity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Vector3f (*)(GlobalNamespace::OVRPlugin::Node, GlobalNamespace::OVRPlugin::Step)>(&GlobalNamespace::OVRPlugin::GetNodeVelocity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Vector3f (*)(::GlobalNamespace::OVRPlugin::Node, ::GlobalNamespace::OVRPlugin::Step)>(&GlobalNamespace::OVRPlugin::GetNodeVelocity)> {
   static const MethodInfo* get() {
     static auto* nodeId = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Node")->byval_arg;
     static auto* stepId = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Step")->byval_arg;
@@ -3429,7 +3429,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GetNodeAngularVelocity
 // Il2CppName: GetNodeAngularVelocity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Vector3f (*)(GlobalNamespace::OVRPlugin::Node, GlobalNamespace::OVRPlugin::Step)>(&GlobalNamespace::OVRPlugin::GetNodeAngularVelocity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Vector3f (*)(::GlobalNamespace::OVRPlugin::Node, ::GlobalNamespace::OVRPlugin::Step)>(&GlobalNamespace::OVRPlugin::GetNodeAngularVelocity)> {
   static const MethodInfo* get() {
     static auto* nodeId = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Node")->byval_arg;
     static auto* stepId = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Step")->byval_arg;
@@ -3439,7 +3439,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GetNodeAcceleration
 // Il2CppName: GetNodeAcceleration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Vector3f (*)(GlobalNamespace::OVRPlugin::Node, GlobalNamespace::OVRPlugin::Step)>(&GlobalNamespace::OVRPlugin::GetNodeAcceleration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Vector3f (*)(::GlobalNamespace::OVRPlugin::Node, ::GlobalNamespace::OVRPlugin::Step)>(&GlobalNamespace::OVRPlugin::GetNodeAcceleration)> {
   static const MethodInfo* get() {
     static auto* nodeId = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Node")->byval_arg;
     static auto* stepId = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Step")->byval_arg;
@@ -3449,7 +3449,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GetNodeAngularAcceleration
 // Il2CppName: GetNodeAngularAcceleration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Vector3f (*)(GlobalNamespace::OVRPlugin::Node, GlobalNamespace::OVRPlugin::Step)>(&GlobalNamespace::OVRPlugin::GetNodeAngularAcceleration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Vector3f (*)(::GlobalNamespace::OVRPlugin::Node, ::GlobalNamespace::OVRPlugin::Step)>(&GlobalNamespace::OVRPlugin::GetNodeAngularAcceleration)> {
   static const MethodInfo* get() {
     static auto* nodeId = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Node")->byval_arg;
     static auto* stepId = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Step")->byval_arg;
@@ -3459,7 +3459,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GetNodePresent
 // Il2CppName: GetNodePresent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRPlugin::Node)>(&GlobalNamespace::OVRPlugin::GetNodePresent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin::Node)>(&GlobalNamespace::OVRPlugin::GetNodePresent)> {
   static const MethodInfo* get() {
     static auto* nodeId = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Node")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "GetNodePresent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeId});
@@ -3468,7 +3468,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GetNodeOrientationTracked
 // Il2CppName: GetNodeOrientationTracked
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRPlugin::Node)>(&GlobalNamespace::OVRPlugin::GetNodeOrientationTracked)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin::Node)>(&GlobalNamespace::OVRPlugin::GetNodeOrientationTracked)> {
   static const MethodInfo* get() {
     static auto* nodeId = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Node")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "GetNodeOrientationTracked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeId});
@@ -3477,7 +3477,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GetNodeOrientationValid
 // Il2CppName: GetNodeOrientationValid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRPlugin::Node)>(&GlobalNamespace::OVRPlugin::GetNodeOrientationValid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin::Node)>(&GlobalNamespace::OVRPlugin::GetNodeOrientationValid)> {
   static const MethodInfo* get() {
     static auto* nodeId = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Node")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "GetNodeOrientationValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeId});
@@ -3486,7 +3486,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GetNodePositionTracked
 // Il2CppName: GetNodePositionTracked
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRPlugin::Node)>(&GlobalNamespace::OVRPlugin::GetNodePositionTracked)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin::Node)>(&GlobalNamespace::OVRPlugin::GetNodePositionTracked)> {
   static const MethodInfo* get() {
     static auto* nodeId = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Node")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "GetNodePositionTracked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeId});
@@ -3495,7 +3495,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GetNodePositionValid
 // Il2CppName: GetNodePositionValid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRPlugin::Node)>(&GlobalNamespace::OVRPlugin::GetNodePositionValid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin::Node)>(&GlobalNamespace::OVRPlugin::GetNodePositionValid)> {
   static const MethodInfo* get() {
     static auto* nodeId = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Node")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "GetNodePositionValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeId});
@@ -3504,7 +3504,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GetNodePoseStateRaw
 // Il2CppName: GetNodePoseStateRaw
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::PoseStatef (*)(GlobalNamespace::OVRPlugin::Node, GlobalNamespace::OVRPlugin::Step)>(&GlobalNamespace::OVRPlugin::GetNodePoseStateRaw)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::PoseStatef (*)(::GlobalNamespace::OVRPlugin::Node, ::GlobalNamespace::OVRPlugin::Step)>(&GlobalNamespace::OVRPlugin::GetNodePoseStateRaw)> {
   static const MethodInfo* get() {
     static auto* nodeId = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Node")->byval_arg;
     static auto* stepId = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Step")->byval_arg;
@@ -3514,7 +3514,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GetCurrentTrackingTransformPose
 // Il2CppName: GetCurrentTrackingTransformPose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Posef (*)()>(&GlobalNamespace::OVRPlugin::GetCurrentTrackingTransformPose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Posef (*)()>(&GlobalNamespace::OVRPlugin::GetCurrentTrackingTransformPose)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "GetCurrentTrackingTransformPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -3522,7 +3522,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GetTrackingTransformRawPose
 // Il2CppName: GetTrackingTransformRawPose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Posef (*)()>(&GlobalNamespace::OVRPlugin::GetTrackingTransformRawPose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Posef (*)()>(&GlobalNamespace::OVRPlugin::GetTrackingTransformRawPose)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "GetTrackingTransformRawPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -3530,7 +3530,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GetTrackingTransformRelativePose
 // Il2CppName: GetTrackingTransformRelativePose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Posef (*)(GlobalNamespace::OVRPlugin::TrackingOrigin)>(&GlobalNamespace::OVRPlugin::GetTrackingTransformRelativePose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Posef (*)(::GlobalNamespace::OVRPlugin::TrackingOrigin)>(&GlobalNamespace::OVRPlugin::GetTrackingTransformRelativePose)> {
   static const MethodInfo* get() {
     static auto* trackingOrigin = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/TrackingOrigin")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "GetTrackingTransformRelativePose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{trackingOrigin});
@@ -3539,7 +3539,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GetControllerState
 // Il2CppName: GetControllerState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::ControllerState (*)(uint)>(&GlobalNamespace::OVRPlugin::GetControllerState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::ControllerState (*)(uint)>(&GlobalNamespace::OVRPlugin::GetControllerState)> {
   static const MethodInfo* get() {
     static auto* controllerMask = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "GetControllerState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{controllerMask});
@@ -3548,7 +3548,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GetControllerState2
 // Il2CppName: GetControllerState2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::ControllerState2 (*)(uint)>(&GlobalNamespace::OVRPlugin::GetControllerState2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::ControllerState2 (*)(uint)>(&GlobalNamespace::OVRPlugin::GetControllerState2)> {
   static const MethodInfo* get() {
     static auto* controllerMask = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "GetControllerState2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{controllerMask});
@@ -3557,7 +3557,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GetControllerState4
 // Il2CppName: GetControllerState4
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::ControllerState4 (*)(uint)>(&GlobalNamespace::OVRPlugin::GetControllerState4)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::ControllerState4 (*)(uint)>(&GlobalNamespace::OVRPlugin::GetControllerState4)> {
   static const MethodInfo* get() {
     static auto* controllerMask = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "GetControllerState4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{controllerMask});
@@ -3577,7 +3577,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ui
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GetControllerHapticsDesc
 // Il2CppName: GetControllerHapticsDesc
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::HapticsDesc (*)(uint)>(&GlobalNamespace::OVRPlugin::GetControllerHapticsDesc)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::HapticsDesc (*)(uint)>(&GlobalNamespace::OVRPlugin::GetControllerHapticsDesc)> {
   static const MethodInfo* get() {
     static auto* controllerMask = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "GetControllerHapticsDesc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{controllerMask});
@@ -3586,7 +3586,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GetControllerHapticsState
 // Il2CppName: GetControllerHapticsState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::HapticsState (*)(uint)>(&GlobalNamespace::OVRPlugin::GetControllerHapticsState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::HapticsState (*)(uint)>(&GlobalNamespace::OVRPlugin::GetControllerHapticsState)> {
   static const MethodInfo* get() {
     static auto* controllerMask = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "GetControllerHapticsState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{controllerMask});
@@ -3595,7 +3595,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::SetControllerHaptics
 // Il2CppName: SetControllerHaptics
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint, GlobalNamespace::OVRPlugin::HapticsBuffer)>(&GlobalNamespace::OVRPlugin::SetControllerHaptics)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint, ::GlobalNamespace::OVRPlugin::HapticsBuffer)>(&GlobalNamespace::OVRPlugin::SetControllerHaptics)> {
   static const MethodInfo* get() {
     static auto* controllerMask = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* hapticsBuffer = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/HapticsBuffer")->byval_arg;
@@ -3629,7 +3629,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::TestBoundaryNode
 // Il2CppName: TestBoundaryNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::BoundaryTestResult (*)(GlobalNamespace::OVRPlugin::Node, GlobalNamespace::OVRPlugin::BoundaryType)>(&GlobalNamespace::OVRPlugin::TestBoundaryNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::BoundaryTestResult (*)(::GlobalNamespace::OVRPlugin::Node, ::GlobalNamespace::OVRPlugin::BoundaryType)>(&GlobalNamespace::OVRPlugin::TestBoundaryNode)> {
   static const MethodInfo* get() {
     static auto* nodeId = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Node")->byval_arg;
     static auto* boundaryType = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/BoundaryType")->byval_arg;
@@ -3639,7 +3639,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::TestBoundaryPoint
 // Il2CppName: TestBoundaryPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::BoundaryTestResult (*)(GlobalNamespace::OVRPlugin::Vector3f, GlobalNamespace::OVRPlugin::BoundaryType)>(&GlobalNamespace::OVRPlugin::TestBoundaryPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::BoundaryTestResult (*)(::GlobalNamespace::OVRPlugin::Vector3f, ::GlobalNamespace::OVRPlugin::BoundaryType)>(&GlobalNamespace::OVRPlugin::TestBoundaryPoint)> {
   static const MethodInfo* get() {
     static auto* point = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Vector3f")->byval_arg;
     static auto* boundaryType = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/BoundaryType")->byval_arg;
@@ -3649,7 +3649,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GetBoundaryGeometry
 // Il2CppName: GetBoundaryGeometry
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::BoundaryGeometry (*)(GlobalNamespace::OVRPlugin::BoundaryType)>(&GlobalNamespace::OVRPlugin::GetBoundaryGeometry)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::BoundaryGeometry (*)(::GlobalNamespace::OVRPlugin::BoundaryType)>(&GlobalNamespace::OVRPlugin::GetBoundaryGeometry)> {
   static const MethodInfo* get() {
     static auto* boundaryType = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/BoundaryType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "GetBoundaryGeometry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{boundaryType});
@@ -3658,7 +3658,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GetBoundaryGeometry2
 // Il2CppName: GetBoundaryGeometry2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRPlugin::BoundaryType, System::IntPtr, ByRef<int>)>(&GlobalNamespace::OVRPlugin::GetBoundaryGeometry2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin::BoundaryType, ::System::IntPtr, ByRef<int>)>(&GlobalNamespace::OVRPlugin::GetBoundaryGeometry2)> {
   static const MethodInfo* get() {
     static auto* boundaryType = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/BoundaryType")->byval_arg;
     static auto* points = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -3669,7 +3669,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GetAppPerfStats
 // Il2CppName: GetAppPerfStats
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::AppPerfStats (*)()>(&GlobalNamespace::OVRPlugin::GetAppPerfStats)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::AppPerfStats (*)()>(&GlobalNamespace::OVRPlugin::GetAppPerfStats)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "GetAppPerfStats", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -3710,7 +3710,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GetDesiredEyeTextureFormat
 // Il2CppName: GetDesiredEyeTextureFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::EyeTextureFormat (*)()>(&GlobalNamespace::OVRPlugin::GetDesiredEyeTextureFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::EyeTextureFormat (*)()>(&GlobalNamespace::OVRPlugin::GetDesiredEyeTextureFormat)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "GetDesiredEyeTextureFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -3718,7 +3718,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::SetDesiredEyeTextureFormat
 // Il2CppName: SetDesiredEyeTextureFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRPlugin::EyeTextureFormat)>(&GlobalNamespace::OVRPlugin::SetDesiredEyeTextureFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin::EyeTextureFormat)>(&GlobalNamespace::OVRPlugin::SetDesiredEyeTextureFormat)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/EyeTextureFormat")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "SetDesiredEyeTextureFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -3767,7 +3767,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GetMixedRealityCameraInfo
 // Il2CppName: GetMixedRealityCameraInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, ByRef<GlobalNamespace::OVRPlugin::CameraExtrinsics>, ByRef<GlobalNamespace::OVRPlugin::CameraIntrinsics>)>(&GlobalNamespace::OVRPlugin::GetMixedRealityCameraInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, ByRef<::GlobalNamespace::OVRPlugin::CameraExtrinsics>, ByRef<::GlobalNamespace::OVRPlugin::CameraIntrinsics>)>(&GlobalNamespace::OVRPlugin::GetMixedRealityCameraInfo)> {
   static const MethodInfo* get() {
     static auto* cameraId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* cameraExtrinsics = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/CameraExtrinsics")->this_arg;
@@ -3778,7 +3778,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(in
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OverrideExternalCameraFov
 // Il2CppName: OverrideExternalCameraFov
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, bool, GlobalNamespace::OVRPlugin::Fovf)>(&GlobalNamespace::OVRPlugin::OverrideExternalCameraFov)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, bool, ::GlobalNamespace::OVRPlugin::Fovf)>(&GlobalNamespace::OVRPlugin::OverrideExternalCameraFov)> {
   static const MethodInfo* get() {
     static auto* cameraId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* useOverriddenFov = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -3798,7 +3798,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(in
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OverrideExternalCameraStaticPose
 // Il2CppName: OverrideExternalCameraStaticPose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, bool, GlobalNamespace::OVRPlugin::Posef)>(&GlobalNamespace::OVRPlugin::OverrideExternalCameraStaticPose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, bool, ::GlobalNamespace::OVRPlugin::Posef)>(&GlobalNamespace::OVRPlugin::OverrideExternalCameraStaticPose)> {
   static const MethodInfo* get() {
     static auto* cameraId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* useOverriddenPose = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -3826,7 +3826,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::SetDefaultExternalCamera
 // Il2CppName: SetDefaultExternalCamera
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<GlobalNamespace::OVRPlugin::CameraIntrinsics>, ByRef<GlobalNamespace::OVRPlugin::CameraExtrinsics>)>(&GlobalNamespace::OVRPlugin::SetDefaultExternalCamera)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<::GlobalNamespace::OVRPlugin::CameraIntrinsics>, ByRef<::GlobalNamespace::OVRPlugin::CameraExtrinsics>)>(&GlobalNamespace::OVRPlugin::SetDefaultExternalCamera)> {
   static const MethodInfo* get() {
     static auto* cameraName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* cameraIntrinsics = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/CameraIntrinsics")->this_arg;
@@ -3837,7 +3837,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::SetExternalCameraProperties
 // Il2CppName: SetExternalCameraProperties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<GlobalNamespace::OVRPlugin::CameraIntrinsics>, ByRef<GlobalNamespace::OVRPlugin::CameraExtrinsics>)>(&GlobalNamespace::OVRPlugin::SetExternalCameraProperties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<::GlobalNamespace::OVRPlugin::CameraIntrinsics>, ByRef<::GlobalNamespace::OVRPlugin::CameraExtrinsics>)>(&GlobalNamespace::OVRPlugin::SetExternalCameraProperties)> {
   static const MethodInfo* get() {
     static auto* cameraName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* cameraIntrinsics = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/CameraIntrinsics")->this_arg;
@@ -3848,7 +3848,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GetBoundaryDimensions
 // Il2CppName: GetBoundaryDimensions
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Vector3f (*)(GlobalNamespace::OVRPlugin::BoundaryType)>(&GlobalNamespace::OVRPlugin::GetBoundaryDimensions)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Vector3f (*)(::GlobalNamespace::OVRPlugin::BoundaryType)>(&GlobalNamespace::OVRPlugin::GetBoundaryDimensions)> {
   static const MethodInfo* get() {
     static auto* boundaryType = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/BoundaryType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "GetBoundaryDimensions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{boundaryType});
@@ -3874,7 +3874,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bo
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GetSystemHeadsetType
 // Il2CppName: GetSystemHeadsetType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::SystemHeadset (*)()>(&GlobalNamespace::OVRPlugin::GetSystemHeadsetType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::SystemHeadset (*)()>(&GlobalNamespace::OVRPlugin::GetSystemHeadsetType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "GetSystemHeadsetType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -3882,7 +3882,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GetActiveController
 // Il2CppName: GetActiveController
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Controller (*)()>(&GlobalNamespace::OVRPlugin::GetActiveController)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Controller (*)()>(&GlobalNamespace::OVRPlugin::GetActiveController)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "GetActiveController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -3890,7 +3890,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GetConnectedControllers
 // Il2CppName: GetConnectedControllers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Controller (*)()>(&GlobalNamespace::OVRPlugin::GetConnectedControllers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Controller (*)()>(&GlobalNamespace::OVRPlugin::GetConnectedControllers)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "GetConnectedControllers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -3898,7 +3898,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::ToBool
 // Il2CppName: ToBool
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(bool)>(&GlobalNamespace::OVRPlugin::ToBool)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Bool (*)(bool)>(&GlobalNamespace::OVRPlugin::ToBool)> {
   static const MethodInfo* get() {
     static auto* b = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "ToBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{b});
@@ -3907,7 +3907,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GetTrackingOriginType
 // Il2CppName: GetTrackingOriginType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::TrackingOrigin (*)()>(&GlobalNamespace::OVRPlugin::GetTrackingOriginType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::TrackingOrigin (*)()>(&GlobalNamespace::OVRPlugin::GetTrackingOriginType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "GetTrackingOriginType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -3915,7 +3915,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::SetTrackingOriginType
 // Il2CppName: SetTrackingOriginType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRPlugin::TrackingOrigin)>(&GlobalNamespace::OVRPlugin::SetTrackingOriginType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin::TrackingOrigin)>(&GlobalNamespace::OVRPlugin::SetTrackingOriginType)> {
   static const MethodInfo* get() {
     static auto* originType = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/TrackingOrigin")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "SetTrackingOriginType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{originType});
@@ -3924,7 +3924,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GetTrackingCalibratedOrigin
 // Il2CppName: GetTrackingCalibratedOrigin
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Posef (*)()>(&GlobalNamespace::OVRPlugin::GetTrackingCalibratedOrigin)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Posef (*)()>(&GlobalNamespace::OVRPlugin::GetTrackingCalibratedOrigin)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "GetTrackingCalibratedOrigin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -3940,7 +3940,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::RecenterTrackingOrigin
 // Il2CppName: RecenterTrackingOrigin
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRPlugin::RecenterFlags)>(&GlobalNamespace::OVRPlugin::RecenterTrackingOrigin)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin::RecenterFlags)>(&GlobalNamespace::OVRPlugin::RecenterTrackingOrigin)> {
   static const MethodInfo* get() {
     static auto* flags = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/RecenterFlags")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "RecenterTrackingOrigin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{flags});
@@ -3949,7 +3949,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GetNodeFrustum2
 // Il2CppName: GetNodeFrustum2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRPlugin::Node, ByRef<GlobalNamespace::OVRPlugin::Frustumf2>)>(&GlobalNamespace::OVRPlugin::GetNodeFrustum2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin::Node, ByRef<::GlobalNamespace::OVRPlugin::Frustumf2>)>(&GlobalNamespace::OVRPlugin::GetNodeFrustum2)> {
   static const MethodInfo* get() {
     static auto* nodeId = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Node")->byval_arg;
     static auto* frustum = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Frustumf2")->this_arg;
@@ -3959,7 +3959,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GetDominantHand
 // Il2CppName: GetDominantHand
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Handedness (*)()>(&GlobalNamespace::OVRPlugin::GetDominantHand)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Handedness (*)()>(&GlobalNamespace::OVRPlugin::GetDominantHand)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "GetDominantHand", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -3978,7 +3978,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::SetHeadPoseModifier
 // Il2CppName: SetHeadPoseModifier
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<GlobalNamespace::OVRPlugin::Quatf>, ByRef<GlobalNamespace::OVRPlugin::Vector3f>)>(&GlobalNamespace::OVRPlugin::SetHeadPoseModifier)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<::GlobalNamespace::OVRPlugin::Quatf>, ByRef<::GlobalNamespace::OVRPlugin::Vector3f>)>(&GlobalNamespace::OVRPlugin::SetHeadPoseModifier)> {
   static const MethodInfo* get() {
     static auto* relativeRotation = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Quatf")->this_arg;
     static auto* relativeTranslation = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Vector3f")->this_arg;
@@ -3988,7 +3988,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(By
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GetHeadPoseModifier
 // Il2CppName: GetHeadPoseModifier
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<GlobalNamespace::OVRPlugin::Quatf>, ByRef<GlobalNamespace::OVRPlugin::Vector3f>)>(&GlobalNamespace::OVRPlugin::GetHeadPoseModifier)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<::GlobalNamespace::OVRPlugin::Quatf>, ByRef<::GlobalNamespace::OVRPlugin::Vector3f>)>(&GlobalNamespace::OVRPlugin::GetHeadPoseModifier)> {
   static const MethodInfo* get() {
     static auto* relativeRotation = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Quatf")->this_arg;
     static auto* relativeTranslation = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Vector3f")->this_arg;
@@ -3998,7 +3998,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(By
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::IsPerfMetricsSupported
 // Il2CppName: IsPerfMetricsSupported
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRPlugin::PerfMetrics)>(&GlobalNamespace::OVRPlugin::IsPerfMetricsSupported)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin::PerfMetrics)>(&GlobalNamespace::OVRPlugin::IsPerfMetricsSupported)> {
   static const MethodInfo* get() {
     static auto* perfMetrics = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/PerfMetrics")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "IsPerfMetricsSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{perfMetrics});
@@ -4007,7 +4007,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GetPerfMetricsFloat
 // Il2CppName: GetPerfMetricsFloat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<float> (*)(GlobalNamespace::OVRPlugin::PerfMetrics)>(&GlobalNamespace::OVRPlugin::GetPerfMetricsFloat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<float> (*)(::GlobalNamespace::OVRPlugin::PerfMetrics)>(&GlobalNamespace::OVRPlugin::GetPerfMetricsFloat)> {
   static const MethodInfo* get() {
     static auto* perfMetrics = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/PerfMetrics")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "GetPerfMetricsFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{perfMetrics});
@@ -4016,7 +4016,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nul
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GetPerfMetricsInt
 // Il2CppName: GetPerfMetricsInt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<int> (*)(GlobalNamespace::OVRPlugin::PerfMetrics)>(&GlobalNamespace::OVRPlugin::GetPerfMetricsInt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<int> (*)(::GlobalNamespace::OVRPlugin::PerfMetrics)>(&GlobalNamespace::OVRPlugin::GetPerfMetricsInt)> {
   static const MethodInfo* get() {
     static auto* perfMetrics = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/PerfMetrics")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "GetPerfMetricsInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{perfMetrics});
@@ -4033,7 +4033,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::SetColorScaleAndOffset
 // Il2CppName: SetColorScaleAndOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Vector4, UnityEngine::Vector4, bool)>(&GlobalNamespace::OVRPlugin::SetColorScaleAndOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Vector4, ::UnityEngine::Vector4, bool)>(&GlobalNamespace::OVRPlugin::SetColorScaleAndOffset)> {
   static const MethodInfo* get() {
     static auto* colorScale = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->byval_arg;
     static auto* colorOffset = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->byval_arg;
@@ -4054,7 +4054,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::SetDeveloperMode
 // Il2CppName: SetDeveloperMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRPlugin::Bool)>(&GlobalNamespace::OVRPlugin::SetDeveloperMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin::Bool)>(&GlobalNamespace::OVRPlugin::SetDeveloperMode)> {
   static const MethodInfo* get() {
     static auto* active = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Bool")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "SetDeveloperMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{active});
@@ -4079,7 +4079,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GetHandState
 // Il2CppName: GetHandState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRPlugin::Step, GlobalNamespace::OVRPlugin::Hand, ByRef<GlobalNamespace::OVRPlugin::HandState>)>(&GlobalNamespace::OVRPlugin::GetHandState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin::Step, ::GlobalNamespace::OVRPlugin::Hand, ByRef<::GlobalNamespace::OVRPlugin::HandState>)>(&GlobalNamespace::OVRPlugin::GetHandState)> {
   static const MethodInfo* get() {
     static auto* stepId = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Step")->byval_arg;
     static auto* hand = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Hand")->byval_arg;
@@ -4090,7 +4090,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GetSkeleton
 // Il2CppName: GetSkeleton
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRPlugin::SkeletonType, ByRef<GlobalNamespace::OVRPlugin::Skeleton>)>(&GlobalNamespace::OVRPlugin::GetSkeleton)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin::SkeletonType, ByRef<::GlobalNamespace::OVRPlugin::Skeleton>)>(&GlobalNamespace::OVRPlugin::GetSkeleton)> {
   static const MethodInfo* get() {
     static auto* skeletonType = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/SkeletonType")->byval_arg;
     static auto* skeleton = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Skeleton")->this_arg;
@@ -4100,7 +4100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GetSkeleton2
 // Il2CppName: GetSkeleton2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRPlugin::SkeletonType, ByRef<GlobalNamespace::OVRPlugin::Skeleton2>)>(&GlobalNamespace::OVRPlugin::GetSkeleton2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin::SkeletonType, ByRef<::GlobalNamespace::OVRPlugin::Skeleton2>)>(&GlobalNamespace::OVRPlugin::GetSkeleton2)> {
   static const MethodInfo* get() {
     static auto* skeletonType = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/SkeletonType")->byval_arg;
     static auto* skeleton = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Skeleton2")->this_arg;
@@ -4110,7 +4110,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GetMesh
 // Il2CppName: GetMesh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRPlugin::MeshType, ByRef<GlobalNamespace::OVRPlugin::Mesh*>)>(&GlobalNamespace::OVRPlugin::GetMesh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin::MeshType, ByRef<::GlobalNamespace::OVRPlugin::Mesh*>)>(&GlobalNamespace::OVRPlugin::GetMesh)> {
   static const MethodInfo* get() {
     static auto* meshType = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/MeshType")->byval_arg;
     static auto* mesh = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Mesh")->this_arg;
@@ -4136,7 +4136,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::SetClientColorDesc
 // Il2CppName: SetClientColorDesc
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRPlugin::ColorSpace)>(&GlobalNamespace::OVRPlugin::SetClientColorDesc)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin::ColorSpace)>(&GlobalNamespace::OVRPlugin::SetClientColorDesc)> {
   static const MethodInfo* get() {
     static auto* colorSpace = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/ColorSpace")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "SetClientColorDesc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colorSpace});
@@ -4145,7 +4145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GetHmdColorDesc
 // Il2CppName: GetHmdColorDesc
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::ColorSpace (*)()>(&GlobalNamespace::OVRPlugin::GetHmdColorDesc)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::ColorSpace (*)()>(&GlobalNamespace::OVRPlugin::GetHmdColorDesc)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "GetHmdColorDesc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -4153,7 +4153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::PollEvent
 // Il2CppName: PollEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<GlobalNamespace::OVRPlugin::EventDataBuffer>)>(&GlobalNamespace::OVRPlugin::PollEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<::GlobalNamespace::OVRPlugin::EventDataBuffer>)>(&GlobalNamespace::OVRPlugin::PollEvent)> {
   static const MethodInfo* get() {
     static auto* eventDataBuffer = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/EventDataBuffer")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "PollEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eventDataBuffer});
@@ -4178,7 +4178,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::SetKeyboardOverlayUV
 // Il2CppName: SetKeyboardOverlayUV
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRPlugin::Vector2f)>(&GlobalNamespace::OVRPlugin::SetKeyboardOverlayUV)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin::Vector2f)>(&GlobalNamespace::OVRPlugin::SetKeyboardOverlayUV)> {
   static const MethodInfo* get() {
     static auto* uv = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Vector2f")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin*), "SetKeyboardOverlayUV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{uv});

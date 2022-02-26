@@ -55,8 +55,8 @@ namespace System::Diagnostics {
   class ProcessStartInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Diagnostics::ProcessStartInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::ProcessStartInfo*, "System.Diagnostics", "ProcessStartInfo");
+NEED_NO_BOX(::System::Diagnostics::ProcessStartInfo);
+DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::ProcessStartInfo*, "System.Diagnostics", "ProcessStartInfo");
 // Type namespace: System.Diagnostics
 namespace System::Diagnostics {
   // Size: 0xA0
@@ -103,9 +103,9 @@ namespace System::Diagnostics {
     // private System.Diagnostics.ProcessWindowStyle windowStyle
     // Size: 0x4
     // Offset: 0x30
-    System::Diagnostics::ProcessWindowStyle windowStyle;
+    ::System::Diagnostics::ProcessWindowStyle windowStyle;
     // Field size check
-    static_assert(sizeof(System::Diagnostics::ProcessWindowStyle) == 0x4);
+    static_assert(sizeof(::System::Diagnostics::ProcessWindowStyle) == 0x4);
     // private System.Boolean errorDialog
     // Size: 0x1
     // Offset: 0x34
@@ -117,9 +117,9 @@ namespace System::Diagnostics {
     // private System.IntPtr errorDialogParentHandle
     // Size: 0x8
     // Offset: 0x38
-    System::IntPtr errorDialogParentHandle;
+    ::System::IntPtr errorDialogParentHandle;
     // Field size check
-    static_assert(sizeof(System::IntPtr) == 0x8);
+    static_assert(sizeof(::System::IntPtr) == 0x8);
     // private System.Boolean useShellExecute
     // Size: 0x1
     // Offset: 0x40
@@ -143,9 +143,9 @@ namespace System::Diagnostics {
     // private System.Security.SecureString password
     // Size: 0x8
     // Offset: 0x58
-    System::Security::SecureString* password;
+    ::System::Security::SecureString* password;
     // Field size check
-    static_assert(sizeof(System::Security::SecureString*) == 0x8);
+    static_assert(sizeof(::System::Security::SecureString*) == 0x8);
     // private System.String passwordInClearText
     // Size: 0x8
     // Offset: 0x60
@@ -181,15 +181,15 @@ namespace System::Diagnostics {
     // private System.Text.Encoding standardOutputEncoding
     // Size: 0x8
     // Offset: 0x70
-    System::Text::Encoding* standardOutputEncoding;
+    ::System::Text::Encoding* standardOutputEncoding;
     // Field size check
-    static_assert(sizeof(System::Text::Encoding*) == 0x8);
+    static_assert(sizeof(::System::Text::Encoding*) == 0x8);
     // private System.Text.Encoding standardErrorEncoding
     // Size: 0x8
     // Offset: 0x78
-    System::Text::Encoding* standardErrorEncoding;
+    ::System::Text::Encoding* standardErrorEncoding;
     // Field size check
-    static_assert(sizeof(System::Text::Encoding*) == 0x8);
+    static_assert(sizeof(::System::Text::Encoding*) == 0x8);
     // private System.Boolean createNoWindow
     // Size: 0x1
     // Offset: 0x80
@@ -201,21 +201,21 @@ namespace System::Diagnostics {
     // private System.WeakReference weakParentProcess
     // Size: 0x8
     // Offset: 0x88
-    System::WeakReference* weakParentProcess;
+    ::System::WeakReference* weakParentProcess;
     // Field size check
-    static_assert(sizeof(System::WeakReference*) == 0x8);
+    static_assert(sizeof(::System::WeakReference*) == 0x8);
     // System.Collections.Specialized.StringDictionary environmentVariables
     // Size: 0x8
     // Offset: 0x90
-    System::Collections::Specialized::StringDictionary* environmentVariables;
+    ::System::Collections::Specialized::StringDictionary* environmentVariables;
     // Field size check
-    static_assert(sizeof(System::Collections::Specialized::StringDictionary*) == 0x8);
+    static_assert(sizeof(::System::Collections::Specialized::StringDictionary*) == 0x8);
     // private System.Collections.Generic.IDictionary`2<System.String,System.String> environment
     // Size: 0x8
     // Offset: 0x98
-    System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* environment;
+    ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* environment;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::IDictionary_2<::StringW, ::StringW>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>*) == 0x8);
     public:
     // Get static field: static private readonly System.String[] empty
     static ::ArrayW<::StringW> _get_empty();
@@ -230,11 +230,11 @@ namespace System::Diagnostics {
     // Get instance field reference: private System.String verb
     ::StringW& dyn_verb();
     // Get instance field reference: private System.Diagnostics.ProcessWindowStyle windowStyle
-    System::Diagnostics::ProcessWindowStyle& dyn_windowStyle();
+    ::System::Diagnostics::ProcessWindowStyle& dyn_windowStyle();
     // Get instance field reference: private System.Boolean errorDialog
     bool& dyn_errorDialog();
     // Get instance field reference: private System.IntPtr errorDialogParentHandle
-    System::IntPtr& dyn_errorDialogParentHandle();
+    ::System::IntPtr& dyn_errorDialogParentHandle();
     // Get instance field reference: private System.Boolean useShellExecute
     bool& dyn_useShellExecute();
     // Get instance field reference: private System.String userName
@@ -242,7 +242,7 @@ namespace System::Diagnostics {
     // Get instance field reference: private System.String domain
     ::StringW& dyn_domain();
     // Get instance field reference: private System.Security.SecureString password
-    System::Security::SecureString*& dyn_password();
+    ::System::Security::SecureString*& dyn_password();
     // Get instance field reference: private System.String passwordInClearText
     ::StringW& dyn_passwordInClearText();
     // Get instance field reference: private System.Boolean loadUserProfile
@@ -254,17 +254,17 @@ namespace System::Diagnostics {
     // Get instance field reference: private System.Boolean redirectStandardError
     bool& dyn_redirectStandardError();
     // Get instance field reference: private System.Text.Encoding standardOutputEncoding
-    System::Text::Encoding*& dyn_standardOutputEncoding();
+    ::System::Text::Encoding*& dyn_standardOutputEncoding();
     // Get instance field reference: private System.Text.Encoding standardErrorEncoding
-    System::Text::Encoding*& dyn_standardErrorEncoding();
+    ::System::Text::Encoding*& dyn_standardErrorEncoding();
     // Get instance field reference: private System.Boolean createNoWindow
     bool& dyn_createNoWindow();
     // Get instance field reference: private System.WeakReference weakParentProcess
-    System::WeakReference*& dyn_weakParentProcess();
+    ::System::WeakReference*& dyn_weakParentProcess();
     // Get instance field reference: System.Collections.Specialized.StringDictionary environmentVariables
-    System::Collections::Specialized::StringDictionary*& dyn_environmentVariables();
+    ::System::Collections::Specialized::StringDictionary*& dyn_environmentVariables();
     // Get instance field reference: private System.Collections.Generic.IDictionary`2<System.String,System.String> environment
-    System::Collections::Generic::IDictionary_2<::StringW, ::StringW>*& dyn_environment();
+    ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>*& dyn_environment();
     // public System.String get_Arguments()
     // Offset: 0x1ED9C24
     ::StringW get_Arguments();
@@ -273,7 +273,7 @@ namespace System::Diagnostics {
     void set_Arguments(::StringW value);
     // public System.Collections.Specialized.StringDictionary get_EnvironmentVariables()
     // Offset: 0x1ED976C
-    System::Collections::Specialized::StringDictionary* get_EnvironmentVariables();
+    ::System::Collections::Specialized::StringDictionary* get_EnvironmentVariables();
     // public System.Boolean get_RedirectStandardInput()
     // Offset: 0x1ED9D40
     bool get_RedirectStandardInput();
@@ -285,10 +285,10 @@ namespace System::Diagnostics {
     bool get_RedirectStandardError();
     // public System.Text.Encoding get_StandardErrorEncoding()
     // Offset: 0x1ED9D58
-    System::Text::Encoding* get_StandardErrorEncoding();
+    ::System::Text::Encoding* get_StandardErrorEncoding();
     // public System.Text.Encoding get_StandardOutputEncoding()
     // Offset: 0x1ED9D60
-    System::Text::Encoding* get_StandardOutputEncoding();
+    ::System::Text::Encoding* get_StandardOutputEncoding();
     // public System.Boolean get_UseShellExecute()
     // Offset: 0x1ED9D68
     bool get_UseShellExecute();
@@ -297,7 +297,7 @@ namespace System::Diagnostics {
     ::StringW get_UserName();
     // public System.Security.SecureString get_Password()
     // Offset: 0x1ED9D70
-    System::Security::SecureString* get_Password();
+    ::System::Security::SecureString* get_Password();
     // public System.String get_Domain()
     // Offset: 0x1ED9CDC
     ::StringW get_Domain();
@@ -319,8 +319,8 @@ namespace System::Diagnostics {
     // System.Void .ctor(System.Diagnostics.Process parent)
     // Offset: 0x1ED6C84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ProcessStartInfo* New_ctor(System::Diagnostics::Process* parent) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::ProcessStartInfo::.ctor");
+    static ProcessStartInfo* New_ctor(::System::Diagnostics::Process* parent) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Diagnostics::ProcessStartInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProcessStartInfo*, creationType>(parent)));
     }
     // static private System.Void .cctor()
@@ -328,7 +328,7 @@ namespace System::Diagnostics {
     static void _cctor();
   }; // System.Diagnostics.ProcessStartInfo
   #pragma pack(pop)
-  static check_size<sizeof(ProcessStartInfo), 152 + sizeof(System::Collections::Generic::IDictionary_2<::StringW, ::StringW>*)> __System_Diagnostics_ProcessStartInfoSizeCheck;
+  static check_size<sizeof(ProcessStartInfo), 152 + sizeof(::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>*)> __System_Diagnostics_ProcessStartInfoSizeCheck;
   static_assert(sizeof(ProcessStartInfo) == 0xA0);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -352,7 +352,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Diagnostics::ProcessStartInfo::get_EnvironmentVariables
 // Il2CppName: get_EnvironmentVariables
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Specialized::StringDictionary* (System::Diagnostics::ProcessStartInfo::*)()>(&System::Diagnostics::ProcessStartInfo::get_EnvironmentVariables)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Specialized::StringDictionary* (System::Diagnostics::ProcessStartInfo::*)()>(&System::Diagnostics::ProcessStartInfo::get_EnvironmentVariables)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::ProcessStartInfo*), "get_EnvironmentVariables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -384,7 +384,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Diagnostics::ProcessStartInfo::get_StandardErrorEncoding
 // Il2CppName: get_StandardErrorEncoding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (System::Diagnostics::ProcessStartInfo::*)()>(&System::Diagnostics::ProcessStartInfo::get_StandardErrorEncoding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (System::Diagnostics::ProcessStartInfo::*)()>(&System::Diagnostics::ProcessStartInfo::get_StandardErrorEncoding)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::ProcessStartInfo*), "get_StandardErrorEncoding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -392,7 +392,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Diagnostics::ProcessStartInfo::get_StandardOutputEncoding
 // Il2CppName: get_StandardOutputEncoding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (System::Diagnostics::ProcessStartInfo::*)()>(&System::Diagnostics::ProcessStartInfo::get_StandardOutputEncoding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (System::Diagnostics::ProcessStartInfo::*)()>(&System::Diagnostics::ProcessStartInfo::get_StandardOutputEncoding)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::ProcessStartInfo*), "get_StandardOutputEncoding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -416,7 +416,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Diagnostics::ProcessStartInfo::get_Password
 // Il2CppName: get_Password
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::SecureString* (System::Diagnostics::ProcessStartInfo::*)()>(&System::Diagnostics::ProcessStartInfo::get_Password)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::SecureString* (System::Diagnostics::ProcessStartInfo::*)()>(&System::Diagnostics::ProcessStartInfo::get_Password)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::ProcessStartInfo*), "get_Password", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

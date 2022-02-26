@@ -30,8 +30,8 @@ namespace GlobalNamespace {
   class IBeatmapObjectSpawnController;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::IBeatmapObjectSpawnController);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IBeatmapObjectSpawnController*, "", "IBeatmapObjectSpawnController");
+NEED_NO_BOX(::GlobalNamespace::IBeatmapObjectSpawnController);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IBeatmapObjectSpawnController*, "", "IBeatmapObjectSpawnController");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -72,22 +72,22 @@ namespace GlobalNamespace {
     float get_noteLinesDistance();
     // public BeatmapObjectSpawnMovementData get_beatmapObjectSpawnMovementData()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::BeatmapObjectSpawnMovementData* get_beatmapObjectSpawnMovementData();
+    ::GlobalNamespace::BeatmapObjectSpawnMovementData* get_beatmapObjectSpawnMovementData();
     // public System.Boolean get_isInitialized()
     // Offset: 0xFFFFFFFF
     bool get_isInitialized();
     // public System.Void add_didInitEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void add_didInitEvent(System::Action* value);
+    void add_didInitEvent(::System::Action* value);
     // public System.Void remove_didInitEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void remove_didInitEvent(System::Action* value);
+    void remove_didInitEvent(::System::Action* value);
     // public UnityEngine.Vector2 Get2DNoteOffset(System.Int32 noteLineIndex, NoteLineLayer noteLineLayer)
     // Offset: 0xFFFFFFFF
-    UnityEngine::Vector2 Get2DNoteOffset(int noteLineIndex, GlobalNamespace::NoteLineLayer noteLineLayer);
+    ::UnityEngine::Vector2 Get2DNoteOffset(int noteLineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer);
     // public System.Single JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset(NoteLineLayer lineLayer, System.Single distanceFromPlayer)
     // Offset: 0xFFFFFFFF
-    float JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset(GlobalNamespace::NoteLineLayer lineLayer, float distanceFromPlayer);
+    float JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset(::GlobalNamespace::NoteLineLayer lineLayer, float distanceFromPlayer);
   }; // IBeatmapObjectSpawnController
   #pragma pack(pop)
 }
@@ -176,7 +176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Writing MetadataGetter for method: GlobalNamespace::IBeatmapObjectSpawnController::get_beatmapObjectSpawnMovementData
 // Il2CppName: get_beatmapObjectSpawnMovementData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapObjectSpawnMovementData* (GlobalNamespace::IBeatmapObjectSpawnController::*)()>(&GlobalNamespace::IBeatmapObjectSpawnController::get_beatmapObjectSpawnMovementData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapObjectSpawnMovementData* (GlobalNamespace::IBeatmapObjectSpawnController::*)()>(&GlobalNamespace::IBeatmapObjectSpawnController::get_beatmapObjectSpawnMovementData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IBeatmapObjectSpawnController*), "get_beatmapObjectSpawnMovementData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -192,7 +192,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IBeatmapObjectSpawnController::add_didInitEvent
 // Il2CppName: add_didInitEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IBeatmapObjectSpawnController::*)(System::Action*)>(&GlobalNamespace::IBeatmapObjectSpawnController::add_didInitEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IBeatmapObjectSpawnController::*)(::System::Action*)>(&GlobalNamespace::IBeatmapObjectSpawnController::add_didInitEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IBeatmapObjectSpawnController*), "add_didInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -201,7 +201,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IBeatmapObjectSpawnController::remove_didInitEvent
 // Il2CppName: remove_didInitEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IBeatmapObjectSpawnController::*)(System::Action*)>(&GlobalNamespace::IBeatmapObjectSpawnController::remove_didInitEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IBeatmapObjectSpawnController::*)(::System::Action*)>(&GlobalNamespace::IBeatmapObjectSpawnController::remove_didInitEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IBeatmapObjectSpawnController*), "remove_didInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -210,7 +210,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IBeatmapObjectSpawnController::Get2DNoteOffset
 // Il2CppName: Get2DNoteOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (GlobalNamespace::IBeatmapObjectSpawnController::*)(int, GlobalNamespace::NoteLineLayer)>(&GlobalNamespace::IBeatmapObjectSpawnController::Get2DNoteOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (GlobalNamespace::IBeatmapObjectSpawnController::*)(int, ::GlobalNamespace::NoteLineLayer)>(&GlobalNamespace::IBeatmapObjectSpawnController::Get2DNoteOffset)> {
   static const MethodInfo* get() {
     static auto* noteLineIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* noteLineLayer = &::il2cpp_utils::GetClassFromName("", "NoteLineLayer")->byval_arg;
@@ -220,7 +220,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::IBeatmapObjectSpawnController::JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset
 // Il2CppName: JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::IBeatmapObjectSpawnController::*)(GlobalNamespace::NoteLineLayer, float)>(&GlobalNamespace::IBeatmapObjectSpawnController::JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::IBeatmapObjectSpawnController::*)(::GlobalNamespace::NoteLineLayer, float)>(&GlobalNamespace::IBeatmapObjectSpawnController::JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset)> {
   static const MethodInfo* get() {
     static auto* lineLayer = &::il2cpp_utils::GetClassFromName("", "NoteLineLayer")->byval_arg;
     static auto* distanceFromPlayer = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

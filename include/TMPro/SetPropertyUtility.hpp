@@ -31,8 +31,8 @@ namespace TMPro {
   class SetPropertyUtility;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(TMPro::SetPropertyUtility);
-DEFINE_IL2CPP_ARG_TYPE(TMPro::SetPropertyUtility*, "TMPro", "SetPropertyUtility");
+NEED_NO_BOX(::TMPro::SetPropertyUtility);
+DEFINE_IL2CPP_ARG_TYPE(::TMPro::SetPropertyUtility*, "TMPro", "SetPropertyUtility");
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0x10
@@ -43,13 +43,13 @@ namespace TMPro {
     public:
     // static public System.Boolean SetColor(ref UnityEngine.Color currentValue, UnityEngine.Color newValue)
     // Offset: 0x1405974
-    static bool SetColor(ByRef<UnityEngine::Color> currentValue, UnityEngine::Color newValue);
+    static bool SetColor(ByRef<::UnityEngine::Color> currentValue, ::UnityEngine::Color newValue);
     // static public System.Boolean SetEquatableStruct(ref T currentValue, T newValue)
     // Offset: 0xFFFFFFFF
     template<class T>
     static bool SetEquatableStruct(ByRef<T> currentValue, T newValue) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, System::IEquatable_1<T>>);
-      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::SetPropertyUtility::SetEquatableStruct");
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::System::IEquatable_1<T>>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::SetPropertyUtility::SetEquatableStruct");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("TMPro", "SetPropertyUtility", "SetEquatableStruct", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(currentValue), ::il2cpp_utils::ExtractType(newValue)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, byref(currentValue), newValue);
@@ -58,8 +58,8 @@ namespace TMPro {
     // Offset: 0xFFFFFFFF
     template<class T>
     static bool SetStruct(ByRef<T> currentValue, T newValue) {
-      static_assert(is_value_type_v<T>);
-      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::SetPropertyUtility::SetStruct");
+      static_assert(std::is_convertible_v<T, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::SetPropertyUtility::SetStruct");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("TMPro", "SetPropertyUtility", "SetStruct", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(currentValue), ::il2cpp_utils::ExtractType(newValue)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, byref(currentValue), newValue);
@@ -68,7 +68,7 @@ namespace TMPro {
     // Offset: 0xFFFFFFFF
     template<class T>
     static bool SetClass(ByRef<T> currentValue, T newValue) {
-      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::SetPropertyUtility::SetClass");
+      static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::SetPropertyUtility::SetClass");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("TMPro", "SetPropertyUtility", "SetClass", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(currentValue), ::il2cpp_utils::ExtractType(newValue)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, byref(currentValue), newValue);
@@ -80,7 +80,7 @@ namespace TMPro {
 // Writing MetadataGetter for method: TMPro::SetPropertyUtility::SetColor
 // Il2CppName: SetColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<UnityEngine::Color>, UnityEngine::Color)>(&TMPro::SetPropertyUtility::SetColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<::UnityEngine::Color>, ::UnityEngine::Color)>(&TMPro::SetPropertyUtility::SetColor)> {
   static const MethodInfo* get() {
     static auto* currentValue = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->this_arg;
     static auto* newValue = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;

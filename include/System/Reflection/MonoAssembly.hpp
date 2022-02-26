@@ -34,8 +34,8 @@ namespace System::Reflection {
   class MonoAssembly;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Reflection::MonoAssembly);
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoAssembly*, "System.Reflection", "MonoAssembly");
+NEED_NO_BOX(::System::Reflection::MonoAssembly);
+DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::MonoAssembly*, "System.Reflection", "MonoAssembly");
 // Type namespace: System.Reflection
 namespace System::Reflection {
   // Size: 0x60
@@ -45,7 +45,7 @@ namespace System::Reflection {
   // [ComDefaultInterfaceAttribute] Offset: 1188B6C
   // [ClassInterfaceAttribute] Offset: 1188B6C
   // [ComVisibleAttribute] Offset: 1188B6C
-  class MonoAssembly : public System::Reflection::RuntimeAssembly {
+  class MonoAssembly : public ::System::Reflection::RuntimeAssembly {
     public:
     // public System.Void .ctor()
     // Offset: 0x1C5A948
@@ -55,29 +55,29 @@ namespace System::Reflection {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoAssembly* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::MonoAssembly::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Reflection::MonoAssembly::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoAssembly*, creationType>()));
     }
     // public override System.Type GetType(System.String name, System.Boolean throwOnError, System.Boolean ignoreCase)
     // Offset: 0x1C5A5D4
     // Implemented from: System.Reflection.Assembly
     // Base method: System.Type Assembly::GetType(System.String name, System.Boolean throwOnError, System.Boolean ignoreCase)
-    System::Type* GetType(::StringW name, bool throwOnError, bool ignoreCase);
+    ::System::Type* GetType(::StringW name, bool throwOnError, bool ignoreCase);
     // public override System.Reflection.Module GetModule(System.String name)
     // Offset: 0x1C5A6C0
     // Implemented from: System.Reflection.Assembly
     // Base method: System.Reflection.Module Assembly::GetModule(System.String name)
-    System::Reflection::Module* GetModule(::StringW name);
+    ::System::Reflection::Module* GetModule(::StringW name);
     // public override System.Reflection.AssemblyName[] GetReferencedAssemblies()
     // Offset: 0x1C5A80C
     // Implemented from: System.Reflection.Assembly
     // Base method: System.Reflection.AssemblyName[] Assembly::GetReferencedAssemblies()
-    ::ArrayW<System::Reflection::AssemblyName*> GetReferencedAssemblies();
+    ::ArrayW<::System::Reflection::AssemblyName*> GetReferencedAssemblies();
     // public override System.Reflection.Module[] GetModules(System.Boolean getResourceModules)
     // Offset: 0x1C5A814
     // Implemented from: System.Reflection.Assembly
     // Base method: System.Reflection.Module[] Assembly::GetModules(System.Boolean getResourceModules)
-    ::ArrayW<System::Reflection::Module*> GetModules(bool getResourceModules);
+    ::ArrayW<::System::Reflection::Module*> GetModules(bool getResourceModules);
   }; // System.Reflection.MonoAssembly
   #pragma pack(pop)
 }
@@ -89,7 +89,7 @@ namespace System::Reflection {
 // Writing MetadataGetter for method: System::Reflection::MonoAssembly::GetType
 // Il2CppName: GetType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Reflection::MonoAssembly::*)(::StringW, bool, bool)>(&System::Reflection::MonoAssembly::GetType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (System::Reflection::MonoAssembly::*)(::StringW, bool, bool)>(&System::Reflection::MonoAssembly::GetType)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* throwOnError = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -100,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: System::Reflection::MonoAssembly::GetModule
 // Il2CppName: GetModule
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Module* (System::Reflection::MonoAssembly::*)(::StringW)>(&System::Reflection::MonoAssembly::GetModule)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::Module* (System::Reflection::MonoAssembly::*)(::StringW)>(&System::Reflection::MonoAssembly::GetModule)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::MonoAssembly*), "GetModule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -109,7 +109,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Reflection::MonoAssembly::GetReferencedAssemblies
 // Il2CppName: GetReferencedAssemblies
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Reflection::AssemblyName*> (System::Reflection::MonoAssembly::*)()>(&System::Reflection::MonoAssembly::GetReferencedAssemblies)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::AssemblyName*> (System::Reflection::MonoAssembly::*)()>(&System::Reflection::MonoAssembly::GetReferencedAssemblies)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::MonoAssembly*), "GetReferencedAssemblies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -117,7 +117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Sy
 // Writing MetadataGetter for method: System::Reflection::MonoAssembly::GetModules
 // Il2CppName: GetModules
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Reflection::Module*> (System::Reflection::MonoAssembly::*)(bool)>(&System::Reflection::MonoAssembly::GetModules)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::Module*> (System::Reflection::MonoAssembly::*)(bool)>(&System::Reflection::MonoAssembly::GetModules)> {
   static const MethodInfo* get() {
     static auto* getResourceModules = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::MonoAssembly*), "GetModules", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{getResourceModules});

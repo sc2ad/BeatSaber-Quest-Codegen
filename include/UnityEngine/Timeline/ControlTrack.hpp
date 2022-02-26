@@ -18,8 +18,8 @@ namespace UnityEngine::Timeline {
   class ControlTrack;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Timeline::ControlTrack);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ControlTrack*, "UnityEngine.Timeline", "ControlTrack");
+NEED_NO_BOX(::UnityEngine::Timeline::ControlTrack);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::ControlTrack*, "UnityEngine.Timeline", "ControlTrack");
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
   // WARNING Size may be invalid!
@@ -27,7 +27,7 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   // [TrackClipTypeAttribute] Offset: 11F0F90
   // [ExcludeFromPresetAttribute] Offset: FFFFFFFF
-  class ControlTrack : public UnityEngine::Timeline::TrackAsset {
+  class ControlTrack : public ::UnityEngine::Timeline::TrackAsset {
     public:
     // public System.Void .ctor()
     // Offset: 0x1C9A97C
@@ -39,7 +39,7 @@ namespace UnityEngine::Timeline {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ControlTrack* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::ControlTrack::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Timeline::ControlTrack::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ControlTrack*, creationType>()));
     }
   }; // UnityEngine.Timeline.ControlTrack

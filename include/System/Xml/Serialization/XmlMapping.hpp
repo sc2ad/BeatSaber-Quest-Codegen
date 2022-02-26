@@ -33,8 +33,8 @@ namespace System::Xml::Serialization {
   class XmlMapping;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Serialization::XmlMapping);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Serialization::XmlMapping*, "System.Xml.Serialization", "XmlMapping");
+NEED_NO_BOX(::System::Xml::Serialization::XmlMapping);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::XmlMapping*, "System.Xml.Serialization", "XmlMapping");
 // Type namespace: System.Xml.Serialization
 namespace System::Xml::Serialization {
   // Size: 0x48
@@ -55,29 +55,29 @@ namespace System::Xml::Serialization {
     // private System.Xml.Serialization.ObjectMap map
     // Size: 0x8
     // Offset: 0x10
-    System::Xml::Serialization::ObjectMap* map;
+    ::System::Xml::Serialization::ObjectMap* map;
     // Field size check
-    static_assert(sizeof(System::Xml::Serialization::ObjectMap*) == 0x8);
+    static_assert(sizeof(::System::Xml::Serialization::ObjectMap*) == 0x8);
     // private System.Collections.ArrayList relatedMaps
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::ArrayList* relatedMaps;
+    ::System::Collections::ArrayList* relatedMaps;
     // Field size check
-    static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
+    static_assert(sizeof(::System::Collections::ArrayList*) == 0x8);
     // private System.Xml.Serialization.SerializationFormat format
     // Size: 0x4
     // Offset: 0x20
-    System::Xml::Serialization::SerializationFormat format;
+    ::System::Xml::Serialization::SerializationFormat format;
     // Field size check
-    static_assert(sizeof(System::Xml::Serialization::SerializationFormat) == 0x4);
+    static_assert(sizeof(::System::Xml::Serialization::SerializationFormat) == 0x4);
     // Padding between fields: format and: source
     char __padding2[0x4] = {};
     // private System.Xml.Serialization.SerializationSource source
     // Size: 0x8
     // Offset: 0x28
-    System::Xml::Serialization::SerializationSource* source;
+    ::System::Xml::Serialization::SerializationSource* source;
     // Field size check
-    static_assert(sizeof(System::Xml::Serialization::SerializationSource*) == 0x8);
+    static_assert(sizeof(::System::Xml::Serialization::SerializationSource*) == 0x8);
     // System.String _elementName
     // Size: 0x8
     // Offset: 0x30
@@ -98,13 +98,13 @@ namespace System::Xml::Serialization {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.Xml.Serialization.ObjectMap map
-    System::Xml::Serialization::ObjectMap*& dyn_map();
+    ::System::Xml::Serialization::ObjectMap*& dyn_map();
     // Get instance field reference: private System.Collections.ArrayList relatedMaps
-    System::Collections::ArrayList*& dyn_relatedMaps();
+    ::System::Collections::ArrayList*& dyn_relatedMaps();
     // Get instance field reference: private System.Xml.Serialization.SerializationFormat format
-    System::Xml::Serialization::SerializationFormat& dyn_format();
+    ::System::Xml::Serialization::SerializationFormat& dyn_format();
     // Get instance field reference: private System.Xml.Serialization.SerializationSource source
-    System::Xml::Serialization::SerializationSource*& dyn_source();
+    ::System::Xml::Serialization::SerializationSource*& dyn_source();
     // Get instance field reference: System.String _elementName
     ::StringW& dyn__elementName();
     // Get instance field reference: System.String _namespace
@@ -119,30 +119,30 @@ namespace System::Xml::Serialization {
     ::StringW get_Namespace();
     // System.Xml.Serialization.ObjectMap get_ObjectMap()
     // Offset: 0x1E03EDC
-    System::Xml::Serialization::ObjectMap* get_ObjectMap();
+    ::System::Xml::Serialization::ObjectMap* get_ObjectMap();
     // System.Void set_ObjectMap(System.Xml.Serialization.ObjectMap value)
     // Offset: 0x1E03EE4
-    void set_ObjectMap(System::Xml::Serialization::ObjectMap* value);
+    void set_ObjectMap(::System::Xml::Serialization::ObjectMap* value);
     // System.Collections.ArrayList get_RelatedMaps()
     // Offset: 0x1E03EEC
-    System::Collections::ArrayList* get_RelatedMaps();
+    ::System::Collections::ArrayList* get_RelatedMaps();
     // System.Void set_RelatedMaps(System.Collections.ArrayList value)
     // Offset: 0x1E03EF4
-    void set_RelatedMaps(System::Collections::ArrayList* value);
+    void set_RelatedMaps(::System::Collections::ArrayList* value);
     // System.Xml.Serialization.SerializationFormat get_Format()
     // Offset: 0x1E03EFC
-    System::Xml::Serialization::SerializationFormat get_Format();
+    ::System::Xml::Serialization::SerializationFormat get_Format();
     // System.Void set_Format(System.Xml.Serialization.SerializationFormat value)
     // Offset: 0x1E03F04
-    void set_Format(System::Xml::Serialization::SerializationFormat value);
+    void set_Format(::System::Xml::Serialization::SerializationFormat value);
     // System.Xml.Serialization.SerializationSource get_Source()
     // Offset: 0x1E03F0C
-    System::Xml::Serialization::SerializationSource* get_Source();
+    ::System::Xml::Serialization::SerializationSource* get_Source();
     // System.Void .ctor(System.String elementName, System.String ns)
     // Offset: 0x1E03E8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlMapping* New_ctor(::StringW elementName, ::StringW ns) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Serialization::XmlMapping::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Serialization::XmlMapping::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlMapping*, creationType>(elementName, ns)));
     }
     // public System.Void SetKey(System.String key)
@@ -173,7 +173,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlMapping::get_ObjectMap
 // Il2CppName: get_ObjectMap
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Serialization::ObjectMap* (System::Xml::Serialization::XmlMapping::*)()>(&System::Xml::Serialization::XmlMapping::get_ObjectMap)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::ObjectMap* (System::Xml::Serialization::XmlMapping::*)()>(&System::Xml::Serialization::XmlMapping::get_ObjectMap)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::XmlMapping*), "get_ObjectMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -181,7 +181,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlMapping::set_ObjectMap
 // Il2CppName: set_ObjectMap
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Serialization::XmlMapping::*)(System::Xml::Serialization::ObjectMap*)>(&System::Xml::Serialization::XmlMapping::set_ObjectMap)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Serialization::XmlMapping::*)(::System::Xml::Serialization::ObjectMap*)>(&System::Xml::Serialization::XmlMapping::set_ObjectMap)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Xml.Serialization", "ObjectMap")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::XmlMapping*), "set_ObjectMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -190,7 +190,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlMapping::get_RelatedMaps
 // Il2CppName: get_RelatedMaps
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ArrayList* (System::Xml::Serialization::XmlMapping::*)()>(&System::Xml::Serialization::XmlMapping::get_RelatedMaps)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (System::Xml::Serialization::XmlMapping::*)()>(&System::Xml::Serialization::XmlMapping::get_RelatedMaps)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::XmlMapping*), "get_RelatedMaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -198,7 +198,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlMapping::set_RelatedMaps
 // Il2CppName: set_RelatedMaps
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Serialization::XmlMapping::*)(System::Collections::ArrayList*)>(&System::Xml::Serialization::XmlMapping::set_RelatedMaps)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Serialization::XmlMapping::*)(::System::Collections::ArrayList*)>(&System::Xml::Serialization::XmlMapping::set_RelatedMaps)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Collections", "ArrayList")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::XmlMapping*), "set_RelatedMaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -207,7 +207,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlMapping::get_Format
 // Il2CppName: get_Format
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Serialization::SerializationFormat (System::Xml::Serialization::XmlMapping::*)()>(&System::Xml::Serialization::XmlMapping::get_Format)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::SerializationFormat (System::Xml::Serialization::XmlMapping::*)()>(&System::Xml::Serialization::XmlMapping::get_Format)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::XmlMapping*), "get_Format", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -215,7 +215,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlMapping::set_Format
 // Il2CppName: set_Format
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Serialization::XmlMapping::*)(System::Xml::Serialization::SerializationFormat)>(&System::Xml::Serialization::XmlMapping::set_Format)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Serialization::XmlMapping::*)(::System::Xml::Serialization::SerializationFormat)>(&System::Xml::Serialization::XmlMapping::set_Format)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Xml.Serialization", "SerializationFormat")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::XmlMapping*), "set_Format", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -224,7 +224,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlMapping::get_Source
 // Il2CppName: get_Source
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Serialization::SerializationSource* (System::Xml::Serialization::XmlMapping::*)()>(&System::Xml::Serialization::XmlMapping::get_Source)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::SerializationSource* (System::Xml::Serialization::XmlMapping::*)()>(&System::Xml::Serialization::XmlMapping::get_Source)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::XmlMapping*), "get_Source", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

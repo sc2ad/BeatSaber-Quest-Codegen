@@ -36,8 +36,8 @@ namespace System::Data {
   class XMLDiffLoader;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Data::XMLDiffLoader);
-DEFINE_IL2CPP_ARG_TYPE(System::Data::XMLDiffLoader*, "System.Data", "XMLDiffLoader");
+NEED_NO_BOX(::System::Data::XMLDiffLoader);
+DEFINE_IL2CPP_ARG_TYPE(::System::Data::XMLDiffLoader*, "System.Data", "XMLDiffLoader");
 // Type namespace: System.Data
 namespace System::Data {
   // Size: 0x28
@@ -58,77 +58,77 @@ namespace System::Data {
     // private System.Collections.ArrayList _tables
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::ArrayList* tables;
+    ::System::Collections::ArrayList* tables;
     // Field size check
-    static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
+    static_assert(sizeof(::System::Collections::ArrayList*) == 0x8);
     // private System.Data.DataSet _dataSet
     // Size: 0x8
     // Offset: 0x18
-    System::Data::DataSet* dataSet;
+    ::System::Data::DataSet* dataSet;
     // Field size check
-    static_assert(sizeof(System::Data::DataSet*) == 0x8);
+    static_assert(sizeof(::System::Data::DataSet*) == 0x8);
     // private System.Data.DataTable _dataTable
     // Size: 0x8
     // Offset: 0x20
-    System::Data::DataTable* dataTable;
+    ::System::Data::DataTable* dataTable;
     // Field size check
-    static_assert(sizeof(System::Data::DataTable*) == 0x8);
+    static_assert(sizeof(::System::Data::DataTable*) == 0x8);
     public:
     // Get instance field reference: private System.Collections.ArrayList _tables
-    System::Collections::ArrayList*& dyn__tables();
+    ::System::Collections::ArrayList*& dyn__tables();
     // Get instance field reference: private System.Data.DataSet _dataSet
-    System::Data::DataSet*& dyn__dataSet();
+    ::System::Data::DataSet*& dyn__dataSet();
     // Get instance field reference: private System.Data.DataTable _dataTable
-    System::Data::DataTable*& dyn__dataTable();
+    ::System::Data::DataTable*& dyn__dataTable();
     // System.Void LoadDiffGram(System.Data.DataSet ds, System.Xml.XmlReader dataTextReader)
     // Offset: 0x150B974
-    void LoadDiffGram(System::Data::DataSet* ds, System::Xml::XmlReader* dataTextReader);
+    void LoadDiffGram(::System::Data::DataSet* ds, ::System::Xml::XmlReader* dataTextReader);
     // private System.Void CreateTablesHierarchy(System.Data.DataTable dt)
     // Offset: 0x150C148
-    void CreateTablesHierarchy(System::Data::DataTable* dt);
+    void CreateTablesHierarchy(::System::Data::DataTable* dt);
     // System.Void LoadDiffGram(System.Data.DataTable dt, System.Xml.XmlReader dataTextReader)
     // Offset: 0x150C444
-    void LoadDiffGram(System::Data::DataTable* dt, System::Xml::XmlReader* dataTextReader);
+    void LoadDiffGram(::System::Data::DataTable* dt, ::System::Xml::XmlReader* dataTextReader);
     // System.Void ProcessDiffs(System.Data.DataSet ds, System.Xml.XmlReader ssync)
     // Offset: 0x150BB08
-    void ProcessDiffs(System::Data::DataSet* ds, System::Xml::XmlReader* ssync);
+    void ProcessDiffs(::System::Data::DataSet* ds, ::System::Xml::XmlReader* ssync);
     // System.Void ProcessDiffs(System.Collections.ArrayList tableList, System.Xml.XmlReader ssync)
     // Offset: 0x150C620
-    void ProcessDiffs(System::Collections::ArrayList* tableList, System::Xml::XmlReader* ssync);
+    void ProcessDiffs(::System::Collections::ArrayList* tableList, ::System::Xml::XmlReader* ssync);
     // System.Void ProcessErrors(System.Data.DataSet ds, System.Xml.XmlReader ssync)
     // Offset: 0x150BDB8
-    void ProcessErrors(System::Data::DataSet* ds, System::Xml::XmlReader* ssync);
+    void ProcessErrors(::System::Data::DataSet* ds, ::System::Xml::XmlReader* ssync);
     // System.Void ProcessErrors(System.Collections.ArrayList dt, System.Xml.XmlReader ssync)
     // Offset: 0x150C8C4
-    void ProcessErrors(System::Collections::ArrayList* dt, System::Xml::XmlReader* ssync);
+    void ProcessErrors(::System::Collections::ArrayList* dt, ::System::Xml::XmlReader* ssync);
     // private System.Data.DataTable GetTable(System.String tableName, System.String ns)
     // Offset: 0x150DB78
-    System::Data::DataTable* GetTable(::StringW tableName, ::StringW ns);
+    ::System::Data::DataTable* GetTable(::StringW tableName, ::StringW ns);
     // private System.Int32 ReadOldRowData(System.Data.DataSet ds, ref System.Data.DataTable table, ref System.Int32 pos, System.Xml.XmlReader row)
     // Offset: 0x150CDBC
-    int ReadOldRowData(System::Data::DataSet* ds, ByRef<System::Data::DataTable*> table, ByRef<int> pos, System::Xml::XmlReader* row);
+    int ReadOldRowData(::System::Data::DataSet* ds, ByRef<::System::Data::DataTable*> table, ByRef<int> pos, ::System::Xml::XmlReader* row);
     // System.Void SkipWhitespaces(System.Xml.XmlReader reader)
     // Offset: 0x150CD50
-    void SkipWhitespaces(System::Xml::XmlReader* reader);
+    void SkipWhitespaces(::System::Xml::XmlReader* reader);
     // public System.Void .ctor()
     // Offset: 0x150DD54
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XMLDiffLoader* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Data::XMLDiffLoader::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Data::XMLDiffLoader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XMLDiffLoader*, creationType>()));
     }
   }; // System.Data.XMLDiffLoader
   #pragma pack(pop)
-  static check_size<sizeof(XMLDiffLoader), 32 + sizeof(System::Data::DataTable*)> __System_Data_XMLDiffLoaderSizeCheck;
+  static check_size<sizeof(XMLDiffLoader), 32 + sizeof(::System::Data::DataTable*)> __System_Data_XMLDiffLoaderSizeCheck;
   static_assert(sizeof(XMLDiffLoader) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Data::XMLDiffLoader::LoadDiffGram
 // Il2CppName: LoadDiffGram
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XMLDiffLoader::*)(System::Data::DataSet*, System::Xml::XmlReader*)>(&System::Data::XMLDiffLoader::LoadDiffGram)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XMLDiffLoader::*)(::System::Data::DataSet*, ::System::Xml::XmlReader*)>(&System::Data::XMLDiffLoader::LoadDiffGram)> {
   static const MethodInfo* get() {
     static auto* ds = &::il2cpp_utils::GetClassFromName("System.Data", "DataSet")->byval_arg;
     static auto* dataTextReader = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlReader")->byval_arg;
@@ -138,7 +138,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::XMLDiffLoader::CreateTablesHierarchy
 // Il2CppName: CreateTablesHierarchy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XMLDiffLoader::*)(System::Data::DataTable*)>(&System::Data::XMLDiffLoader::CreateTablesHierarchy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XMLDiffLoader::*)(::System::Data::DataTable*)>(&System::Data::XMLDiffLoader::CreateTablesHierarchy)> {
   static const MethodInfo* get() {
     static auto* dt = &::il2cpp_utils::GetClassFromName("System.Data", "DataTable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::XMLDiffLoader*), "CreateTablesHierarchy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dt});
@@ -147,7 +147,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::XMLDiffLoader::LoadDiffGram
 // Il2CppName: LoadDiffGram
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XMLDiffLoader::*)(System::Data::DataTable*, System::Xml::XmlReader*)>(&System::Data::XMLDiffLoader::LoadDiffGram)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XMLDiffLoader::*)(::System::Data::DataTable*, ::System::Xml::XmlReader*)>(&System::Data::XMLDiffLoader::LoadDiffGram)> {
   static const MethodInfo* get() {
     static auto* dt = &::il2cpp_utils::GetClassFromName("System.Data", "DataTable")->byval_arg;
     static auto* dataTextReader = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlReader")->byval_arg;
@@ -157,7 +157,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::XMLDiffLoader::ProcessDiffs
 // Il2CppName: ProcessDiffs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XMLDiffLoader::*)(System::Data::DataSet*, System::Xml::XmlReader*)>(&System::Data::XMLDiffLoader::ProcessDiffs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XMLDiffLoader::*)(::System::Data::DataSet*, ::System::Xml::XmlReader*)>(&System::Data::XMLDiffLoader::ProcessDiffs)> {
   static const MethodInfo* get() {
     static auto* ds = &::il2cpp_utils::GetClassFromName("System.Data", "DataSet")->byval_arg;
     static auto* ssync = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlReader")->byval_arg;
@@ -167,7 +167,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::XMLDiffLoader::ProcessDiffs
 // Il2CppName: ProcessDiffs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XMLDiffLoader::*)(System::Collections::ArrayList*, System::Xml::XmlReader*)>(&System::Data::XMLDiffLoader::ProcessDiffs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XMLDiffLoader::*)(::System::Collections::ArrayList*, ::System::Xml::XmlReader*)>(&System::Data::XMLDiffLoader::ProcessDiffs)> {
   static const MethodInfo* get() {
     static auto* tableList = &::il2cpp_utils::GetClassFromName("System.Collections", "ArrayList")->byval_arg;
     static auto* ssync = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlReader")->byval_arg;
@@ -177,7 +177,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::XMLDiffLoader::ProcessErrors
 // Il2CppName: ProcessErrors
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XMLDiffLoader::*)(System::Data::DataSet*, System::Xml::XmlReader*)>(&System::Data::XMLDiffLoader::ProcessErrors)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XMLDiffLoader::*)(::System::Data::DataSet*, ::System::Xml::XmlReader*)>(&System::Data::XMLDiffLoader::ProcessErrors)> {
   static const MethodInfo* get() {
     static auto* ds = &::il2cpp_utils::GetClassFromName("System.Data", "DataSet")->byval_arg;
     static auto* ssync = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlReader")->byval_arg;
@@ -187,7 +187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::XMLDiffLoader::ProcessErrors
 // Il2CppName: ProcessErrors
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XMLDiffLoader::*)(System::Collections::ArrayList*, System::Xml::XmlReader*)>(&System::Data::XMLDiffLoader::ProcessErrors)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XMLDiffLoader::*)(::System::Collections::ArrayList*, ::System::Xml::XmlReader*)>(&System::Data::XMLDiffLoader::ProcessErrors)> {
   static const MethodInfo* get() {
     static auto* dt = &::il2cpp_utils::GetClassFromName("System.Collections", "ArrayList")->byval_arg;
     static auto* ssync = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlReader")->byval_arg;
@@ -197,7 +197,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::XMLDiffLoader::GetTable
 // Il2CppName: GetTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::DataTable* (System::Data::XMLDiffLoader::*)(::StringW, ::StringW)>(&System::Data::XMLDiffLoader::GetTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataTable* (System::Data::XMLDiffLoader::*)(::StringW, ::StringW)>(&System::Data::XMLDiffLoader::GetTable)> {
   static const MethodInfo* get() {
     static auto* tableName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* ns = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -207,7 +207,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::XMLDiffLoader::ReadOldRowData
 // Il2CppName: ReadOldRowData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Data::XMLDiffLoader::*)(System::Data::DataSet*, ByRef<System::Data::DataTable*>, ByRef<int>, System::Xml::XmlReader*)>(&System::Data::XMLDiffLoader::ReadOldRowData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Data::XMLDiffLoader::*)(::System::Data::DataSet*, ByRef<::System::Data::DataTable*>, ByRef<int>, ::System::Xml::XmlReader*)>(&System::Data::XMLDiffLoader::ReadOldRowData)> {
   static const MethodInfo* get() {
     static auto* ds = &::il2cpp_utils::GetClassFromName("System.Data", "DataSet")->byval_arg;
     static auto* table = &::il2cpp_utils::GetClassFromName("System.Data", "DataTable")->this_arg;
@@ -219,7 +219,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Data::XMLDiffLoader::SkipWhitespaces
 // Il2CppName: SkipWhitespaces
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XMLDiffLoader::*)(System::Xml::XmlReader*)>(&System::Data::XMLDiffLoader::SkipWhitespaces)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XMLDiffLoader::*)(::System::Xml::XmlReader*)>(&System::Data::XMLDiffLoader::SkipWhitespaces)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlReader")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::XMLDiffLoader*), "SkipWhitespaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader});

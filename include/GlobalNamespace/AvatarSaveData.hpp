@@ -19,8 +19,8 @@ namespace GlobalNamespace {
   class AvatarSaveData;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::AvatarSaveData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarSaveData*, "", "AvatarSaveData");
+NEED_NO_BOX(::GlobalNamespace::AvatarSaveData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AvatarSaveData*, "", "AvatarSaveData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0xD0
@@ -89,51 +89,51 @@ namespace GlobalNamespace {
     // public UnityEngine.Color headTopPrimaryColor
     // Size: 0x10
     // Offset: 0x50
-    UnityEngine::Color headTopPrimaryColor;
+    ::UnityEngine::Color headTopPrimaryColor;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     // public UnityEngine.Color headTopSecondaryColor
     // Size: 0x10
     // Offset: 0x60
-    UnityEngine::Color headTopSecondaryColor;
+    ::UnityEngine::Color headTopSecondaryColor;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     // public UnityEngine.Color glassesColor
     // Size: 0x10
     // Offset: 0x70
-    UnityEngine::Color glassesColor;
+    ::UnityEngine::Color glassesColor;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     // public UnityEngine.Color facialHairColor
     // Size: 0x10
     // Offset: 0x80
-    UnityEngine::Color facialHairColor;
+    ::UnityEngine::Color facialHairColor;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     // public UnityEngine.Color handsColor
     // Size: 0x10
     // Offset: 0x90
-    UnityEngine::Color handsColor;
+    ::UnityEngine::Color handsColor;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     // public UnityEngine.Color clothesPrimaryColor
     // Size: 0x10
     // Offset: 0xA0
-    UnityEngine::Color clothesPrimaryColor;
+    ::UnityEngine::Color clothesPrimaryColor;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     // public UnityEngine.Color clothesSecondaryColor
     // Size: 0x10
     // Offset: 0xB0
-    UnityEngine::Color clothesSecondaryColor;
+    ::UnityEngine::Color clothesSecondaryColor;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     // public UnityEngine.Color clothesDetailColor
     // Size: 0x10
     // Offset: 0xC0
-    UnityEngine::Color clothesDetailColor;
+    ::UnityEngine::Color clothesDetailColor;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     public:
     // Get instance field reference: public System.String headTopId
     ::StringW& dyn_headTopId();
@@ -152,33 +152,33 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String eyesId
     ::StringW& dyn_eyesId();
     // Get instance field reference: public UnityEngine.Color headTopPrimaryColor
-    UnityEngine::Color& dyn_headTopPrimaryColor();
+    ::UnityEngine::Color& dyn_headTopPrimaryColor();
     // Get instance field reference: public UnityEngine.Color headTopSecondaryColor
-    UnityEngine::Color& dyn_headTopSecondaryColor();
+    ::UnityEngine::Color& dyn_headTopSecondaryColor();
     // Get instance field reference: public UnityEngine.Color glassesColor
-    UnityEngine::Color& dyn_glassesColor();
+    ::UnityEngine::Color& dyn_glassesColor();
     // Get instance field reference: public UnityEngine.Color facialHairColor
-    UnityEngine::Color& dyn_facialHairColor();
+    ::UnityEngine::Color& dyn_facialHairColor();
     // Get instance field reference: public UnityEngine.Color handsColor
-    UnityEngine::Color& dyn_handsColor();
+    ::UnityEngine::Color& dyn_handsColor();
     // Get instance field reference: public UnityEngine.Color clothesPrimaryColor
-    UnityEngine::Color& dyn_clothesPrimaryColor();
+    ::UnityEngine::Color& dyn_clothesPrimaryColor();
     // Get instance field reference: public UnityEngine.Color clothesSecondaryColor
-    UnityEngine::Color& dyn_clothesSecondaryColor();
+    ::UnityEngine::Color& dyn_clothesSecondaryColor();
     // Get instance field reference: public UnityEngine.Color clothesDetailColor
-    UnityEngine::Color& dyn_clothesDetailColor();
+    ::UnityEngine::Color& dyn_clothesDetailColor();
     // public System.Void .ctor()
     // Offset: 0x1492C74
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AvatarSaveData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AvatarSaveData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AvatarSaveData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AvatarSaveData*, creationType>()));
     }
   }; // AvatarSaveData
   #pragma pack(pop)
-  static check_size<sizeof(AvatarSaveData), 192 + sizeof(UnityEngine::Color)> __GlobalNamespace_AvatarSaveDataSizeCheck;
+  static check_size<sizeof(AvatarSaveData), 192 + sizeof(::UnityEngine::Color)> __GlobalNamespace_AvatarSaveDataSizeCheck;
   static_assert(sizeof(AvatarSaveData) == 0xD0);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

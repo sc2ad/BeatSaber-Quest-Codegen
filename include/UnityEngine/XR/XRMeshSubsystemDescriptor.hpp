@@ -25,8 +25,8 @@ namespace UnityEngine::XR {
   class XRMeshSubsystemDescriptor;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::XR::XRMeshSubsystemDescriptor);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRMeshSubsystemDescriptor*, "UnityEngine.XR", "XRMeshSubsystemDescriptor");
+NEED_NO_BOX(::UnityEngine::XR::XRMeshSubsystemDescriptor);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::XRMeshSubsystemDescriptor*, "UnityEngine.XR", "XRMeshSubsystemDescriptor");
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {
   // WARNING Size may be invalid!
@@ -35,7 +35,7 @@ namespace UnityEngine::XR {
   // [NativeTypeAttribute] Offset: 11CE80C
   // [NativeHeaderAttribute] Offset: 11CE80C
   // [UsedByNativeCodeAttribute] Offset: 11CE80C
-  class XRMeshSubsystemDescriptor : public UnityEngine::IntegratedSubsystemDescriptor_1<UnityEngine::XR::XRMeshSubsystem*> {
+  class XRMeshSubsystemDescriptor : public ::UnityEngine::IntegratedSubsystemDescriptor_1<::UnityEngine::XR::XRMeshSubsystem*> {
     public:
     // public System.Void .ctor()
     // Offset: 0x2A49AA0
@@ -45,7 +45,7 @@ namespace UnityEngine::XR {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XRMeshSubsystemDescriptor* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::XR::XRMeshSubsystemDescriptor::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::XR::XRMeshSubsystemDescriptor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XRMeshSubsystemDescriptor*, creationType>()));
     }
   }; // UnityEngine.XR.XRMeshSubsystemDescriptor

@@ -23,8 +23,8 @@ namespace System::Collections::Generic {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(TMPro::SpriteAssetUtilities::TexturePacker::SpriteDataObject);
-DEFINE_IL2CPP_ARG_TYPE(TMPro::SpriteAssetUtilities::TexturePacker::SpriteDataObject*, "TMPro.SpriteAssetUtilities", "TexturePacker/SpriteDataObject");
+NEED_NO_BOX(::TMPro::SpriteAssetUtilities::TexturePacker::SpriteDataObject);
+DEFINE_IL2CPP_ARG_TYPE(::TMPro::SpriteAssetUtilities::TexturePacker::SpriteDataObject*, "TMPro.SpriteAssetUtilities", "TexturePacker/SpriteDataObject");
 // Type namespace: TMPro.SpriteAssetUtilities
 namespace TMPro::SpriteAssetUtilities {
   // Size: 0x18
@@ -45,28 +45,28 @@ namespace TMPro::SpriteAssetUtilities {
     // public System.Collections.Generic.List`1<TMPro.SpriteAssetUtilities.TexturePacker/TMPro.SpriteAssetUtilities.SpriteData> frames
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::List_1<TMPro::SpriteAssetUtilities::TexturePacker::SpriteData>* frames;
+    ::System::Collections::Generic::List_1<::TMPro::SpriteAssetUtilities::TexturePacker::SpriteData>* frames;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<TMPro::SpriteAssetUtilities::TexturePacker::SpriteData>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::TMPro::SpriteAssetUtilities::TexturePacker::SpriteData>*) == 0x8);
     public:
-    // Creating conversion operator: operator System::Collections::Generic::List_1<TMPro::SpriteAssetUtilities::TexturePacker::SpriteData>*
-    constexpr operator System::Collections::Generic::List_1<TMPro::SpriteAssetUtilities::TexturePacker::SpriteData>*() const noexcept {
+    // Creating conversion operator: operator ::System::Collections::Generic::List_1<::TMPro::SpriteAssetUtilities::TexturePacker::SpriteData>*
+    constexpr operator ::System::Collections::Generic::List_1<::TMPro::SpriteAssetUtilities::TexturePacker::SpriteData>*() const noexcept {
       return frames;
     }
     // Get instance field reference: public System.Collections.Generic.List`1<TMPro.SpriteAssetUtilities.TexturePacker/TMPro.SpriteAssetUtilities.SpriteData> frames
-    System::Collections::Generic::List_1<TMPro::SpriteAssetUtilities::TexturePacker::SpriteData>*& dyn_frames();
+    ::System::Collections::Generic::List_1<::TMPro::SpriteAssetUtilities::TexturePacker::SpriteData>*& dyn_frames();
     // public System.Void .ctor()
     // Offset: 0x1407F98
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TexturePacker::SpriteDataObject* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::SpriteAssetUtilities::TexturePacker::SpriteDataObject::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::SpriteAssetUtilities::TexturePacker::SpriteDataObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TexturePacker::SpriteDataObject*, creationType>()));
     }
   }; // TMPro.SpriteAssetUtilities.TexturePacker/TMPro.SpriteAssetUtilities.SpriteDataObject
   #pragma pack(pop)
-  static check_size<sizeof(TexturePacker::SpriteDataObject), 16 + sizeof(System::Collections::Generic::List_1<TMPro::SpriteAssetUtilities::TexturePacker::SpriteData>*)> __TMPro_SpriteAssetUtilities_TexturePacker_SpriteDataObjectSizeCheck;
+  static check_size<sizeof(TexturePacker::SpriteDataObject), 16 + sizeof(::System::Collections::Generic::List_1<::TMPro::SpriteAssetUtilities::TexturePacker::SpriteData>*)> __TMPro_SpriteAssetUtilities_TexturePacker_SpriteDataObjectSizeCheck;
   static_assert(sizeof(TexturePacker::SpriteDataObject) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

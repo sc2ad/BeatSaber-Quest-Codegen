@@ -19,8 +19,8 @@ namespace Oculus::Platform::Models {
   class LivestreamingVideoStats;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::LivestreamingVideoStats);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LivestreamingVideoStats*, "Oculus.Platform.Models", "LivestreamingVideoStats");
+NEED_NO_BOX(::Oculus::Platform::Models::LivestreamingVideoStats);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::LivestreamingVideoStats*, "Oculus.Platform.Models", "LivestreamingVideoStats");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x20
@@ -66,8 +66,8 @@ namespace Oculus::Platform::Models {
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x19681F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static LivestreamingVideoStats* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::LivestreamingVideoStats::.ctor");
+    static LivestreamingVideoStats* New_ctor(::System::IntPtr o) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::LivestreamingVideoStats::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LivestreamingVideoStats*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.LivestreamingVideoStats

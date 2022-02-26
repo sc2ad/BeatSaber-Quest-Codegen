@@ -28,8 +28,8 @@ namespace UnityEngine {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::Recoil::RecoilOffset);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Recoil::RecoilOffset*, "RootMotion.FinalIK", "Recoil/RecoilOffset");
+NEED_NO_BOX(::RootMotion::FinalIK::Recoil::RecoilOffset);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::Recoil::RecoilOffset*, "RootMotion.FinalIK", "Recoil/RecoilOffset");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x48
@@ -38,7 +38,7 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class Recoil::RecoilOffset : public ::Il2CppObject {
     public:
-    // Nested type: RootMotion::FinalIK::Recoil::RecoilOffset::EffectorLink
+    // Nested type: ::RootMotion::FinalIK::Recoil::RecoilOffset::EffectorLink
     class EffectorLink;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -53,9 +53,9 @@ namespace RootMotion::FinalIK {
     // public UnityEngine.Vector3 offset
     // Size: 0xC
     // Offset: 0x10
-    UnityEngine::Vector3 offset;
+    ::UnityEngine::Vector3 offset;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // [TooltipAttribute] Offset: 0x1269848
     // [RangeAttribute] Offset: 0x1269848
     // public System.Single additivity
@@ -77,52 +77,52 @@ namespace RootMotion::FinalIK {
     // public RootMotion.FinalIK.Recoil/RootMotion.FinalIK.RecoilOffset/RootMotion.FinalIK.EffectorLink[] effectorLinks
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayW<RootMotion::FinalIK::Recoil::RecoilOffset::EffectorLink*> effectorLinks;
+    ::ArrayW<::RootMotion::FinalIK::Recoil::RecoilOffset::EffectorLink*> effectorLinks;
     // Field size check
-    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::Recoil::RecoilOffset::EffectorLink*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::RootMotion::FinalIK::Recoil::RecoilOffset::EffectorLink*>) == 0x8);
     // private UnityEngine.Vector3 additiveOffset
     // Size: 0xC
     // Offset: 0x30
-    UnityEngine::Vector3 additiveOffset;
+    ::UnityEngine::Vector3 additiveOffset;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // private UnityEngine.Vector3 lastOffset
     // Size: 0xC
     // Offset: 0x3C
-    UnityEngine::Vector3 lastOffset;
+    ::UnityEngine::Vector3 lastOffset;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     public:
     // Get instance field reference: public UnityEngine.Vector3 offset
-    UnityEngine::Vector3& dyn_offset();
+    ::UnityEngine::Vector3& dyn_offset();
     // Get instance field reference: public System.Single additivity
     float& dyn_additivity();
     // Get instance field reference: public System.Single maxAdditiveOffsetMag
     float& dyn_maxAdditiveOffsetMag();
     // Get instance field reference: public RootMotion.FinalIK.Recoil/RootMotion.FinalIK.RecoilOffset/RootMotion.FinalIK.EffectorLink[] effectorLinks
-    ::ArrayW<RootMotion::FinalIK::Recoil::RecoilOffset::EffectorLink*>& dyn_effectorLinks();
+    ::ArrayW<::RootMotion::FinalIK::Recoil::RecoilOffset::EffectorLink*>& dyn_effectorLinks();
     // Get instance field reference: private UnityEngine.Vector3 additiveOffset
-    UnityEngine::Vector3& dyn_additiveOffset();
+    ::UnityEngine::Vector3& dyn_additiveOffset();
     // Get instance field reference: private UnityEngine.Vector3 lastOffset
-    UnityEngine::Vector3& dyn_lastOffset();
+    ::UnityEngine::Vector3& dyn_lastOffset();
     // public System.Void Start()
     // Offset: 0x1F0ECE0
     void Start();
     // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, UnityEngine.Quaternion rotation, System.Single masterWeight, System.Single length, System.Single timeLeft)
     // Offset: 0x1F0F870
-    void Apply(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, UnityEngine::Quaternion rotation, float masterWeight, float length, float timeLeft);
+    void Apply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, ::UnityEngine::Quaternion rotation, float masterWeight, float length, float timeLeft);
     // public System.Void .ctor()
     // Offset: 0x1F0FF84
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Recoil::RecoilOffset* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::Recoil::RecoilOffset::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::Recoil::RecoilOffset::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Recoil::RecoilOffset*, creationType>()));
     }
   }; // RootMotion.FinalIK.Recoil/RootMotion.FinalIK.RecoilOffset
   #pragma pack(pop)
-  static check_size<sizeof(Recoil::RecoilOffset), 60 + sizeof(UnityEngine::Vector3)> __RootMotion_FinalIK_Recoil_RecoilOffsetSizeCheck;
+  static check_size<sizeof(Recoil::RecoilOffset), 60 + sizeof(::UnityEngine::Vector3)> __RootMotion_FinalIK_Recoil_RecoilOffsetSizeCheck;
   static_assert(sizeof(Recoil::RecoilOffset) == 0x48);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -137,7 +137,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::Recoil::RecoilOffset::Apply
 // Il2CppName: Apply
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Recoil::RecoilOffset::*)(RootMotion::FinalIK::IKSolverFullBodyBiped*, UnityEngine::Quaternion, float, float, float)>(&RootMotion::FinalIK::Recoil::RecoilOffset::Apply)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Recoil::RecoilOffset::*)(::RootMotion::FinalIK::IKSolverFullBodyBiped*, ::UnityEngine::Quaternion, float, float, float)>(&RootMotion::FinalIK::Recoil::RecoilOffset::Apply)> {
   static const MethodInfo* get() {
     static auto* solver = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverFullBodyBiped")->byval_arg;
     static auto* rotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;

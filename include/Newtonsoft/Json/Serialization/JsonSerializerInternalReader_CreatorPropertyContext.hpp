@@ -23,8 +23,8 @@ namespace Newtonsoft::Json::Serialization {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Serialization::JsonSerializerInternalReader::CreatorPropertyContext);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Serialization::JsonSerializerInternalReader::CreatorPropertyContext*, "Newtonsoft.Json.Serialization", "JsonSerializerInternalReader/CreatorPropertyContext");
+NEED_NO_BOX(::Newtonsoft::Json::Serialization::JsonSerializerInternalReader::CreatorPropertyContext);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Serialization::JsonSerializerInternalReader::CreatorPropertyContext*, "Newtonsoft.Json.Serialization", "JsonSerializerInternalReader/CreatorPropertyContext");
 // Type namespace: Newtonsoft.Json.Serialization
 namespace Newtonsoft::Json::Serialization {
   // WARNING Size may be invalid!
@@ -53,19 +53,19 @@ namespace Newtonsoft::Json::Serialization {
     // public Newtonsoft.Json.Serialization.JsonProperty Property
     // Size: 0x8
     // Offset: 0x18
-    Newtonsoft::Json::Serialization::JsonProperty* Property;
+    ::Newtonsoft::Json::Serialization::JsonProperty* Property;
     // Field size check
-    static_assert(sizeof(Newtonsoft::Json::Serialization::JsonProperty*) == 0x8);
+    static_assert(sizeof(::Newtonsoft::Json::Serialization::JsonProperty*) == 0x8);
     // public Newtonsoft.Json.Serialization.JsonProperty ConstructorProperty
     // Size: 0x8
     // Offset: 0x20
-    Newtonsoft::Json::Serialization::JsonProperty* ConstructorProperty;
+    ::Newtonsoft::Json::Serialization::JsonProperty* ConstructorProperty;
     // Field size check
-    static_assert(sizeof(Newtonsoft::Json::Serialization::JsonProperty*) == 0x8);
+    static_assert(sizeof(::Newtonsoft::Json::Serialization::JsonProperty*) == 0x8);
     // public System.Nullable`1<Newtonsoft.Json.Serialization.JsonSerializerInternalReader/Newtonsoft.Json.Serialization.PropertyPresence> Presence
     // Size: 0xFFFFFFFF
     // Offset: 0x28
-    System::Nullable_1<Newtonsoft::Json::Serialization::JsonSerializerInternalReader::PropertyPresence> Presence;
+    ::System::Nullable_1<::Newtonsoft::Json::Serialization::JsonSerializerInternalReader::PropertyPresence> Presence;
     // public System.Object Value
     // Size: 0x8
     // Offset: 0x30
@@ -82,11 +82,11 @@ namespace Newtonsoft::Json::Serialization {
     // Get instance field reference: public readonly System.String Name
     ::StringW& dyn_Name();
     // Get instance field reference: public Newtonsoft.Json.Serialization.JsonProperty Property
-    Newtonsoft::Json::Serialization::JsonProperty*& dyn_Property();
+    ::Newtonsoft::Json::Serialization::JsonProperty*& dyn_Property();
     // Get instance field reference: public Newtonsoft.Json.Serialization.JsonProperty ConstructorProperty
-    Newtonsoft::Json::Serialization::JsonProperty*& dyn_ConstructorProperty();
+    ::Newtonsoft::Json::Serialization::JsonProperty*& dyn_ConstructorProperty();
     // Get instance field reference: public System.Nullable`1<Newtonsoft.Json.Serialization.JsonSerializerInternalReader/Newtonsoft.Json.Serialization.PropertyPresence> Presence
-    System::Nullable_1<Newtonsoft::Json::Serialization::JsonSerializerInternalReader::PropertyPresence>& dyn_Presence();
+    ::System::Nullable_1<::Newtonsoft::Json::Serialization::JsonSerializerInternalReader::PropertyPresence>& dyn_Presence();
     // Get instance field reference: public System.Object Value
     ::Il2CppObject*& dyn_Value();
     // Get instance field reference: public System.Boolean Used
@@ -95,7 +95,7 @@ namespace Newtonsoft::Json::Serialization {
     // Offset: 0x19CE2EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JsonSerializerInternalReader::CreatorPropertyContext* New_ctor(::StringW name) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Serialization::JsonSerializerInternalReader::CreatorPropertyContext::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::JsonSerializerInternalReader::CreatorPropertyContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JsonSerializerInternalReader::CreatorPropertyContext*, creationType>(name)));
     }
   }; // Newtonsoft.Json.Serialization.JsonSerializerInternalReader/Newtonsoft.Json.Serialization.CreatorPropertyContext

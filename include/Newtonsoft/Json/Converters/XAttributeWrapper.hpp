@@ -30,8 +30,8 @@ namespace Newtonsoft::Json::Converters {
   class XAttributeWrapper;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Converters::XAttributeWrapper);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Converters::XAttributeWrapper*, "Newtonsoft.Json.Converters", "XAttributeWrapper");
+NEED_NO_BOX(::Newtonsoft::Json::Converters::XAttributeWrapper);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Converters::XAttributeWrapper*, "Newtonsoft.Json.Converters", "XAttributeWrapper");
 // Type namespace: Newtonsoft.Json.Converters
 namespace Newtonsoft::Json::Converters {
   // Size: 0x18
@@ -40,16 +40,16 @@ namespace Newtonsoft::Json::Converters {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NullableContextAttribute] Offset: 1203AC4
   // [NullableAttribute] Offset: 1203AC4
-  class XAttributeWrapper : public Newtonsoft::Json::Converters::XObjectWrapper {
+  class XAttributeWrapper : public ::Newtonsoft::Json::Converters::XObjectWrapper {
     public:
     // private System.Xml.Linq.XAttribute get_Attribute()
     // Offset: 0x1822298
-    System::Xml::Linq::XAttribute* get_Attribute();
+    ::System::Xml::Linq::XAttribute* get_Attribute();
     // public System.Void .ctor(System.Xml.Linq.XAttribute attribute)
     // Offset: 0x1822318
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XAttributeWrapper* New_ctor(System::Xml::Linq::XAttribute* attribute) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Converters::XAttributeWrapper::.ctor");
+    static XAttributeWrapper* New_ctor(::System::Xml::Linq::XAttribute* attribute) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Converters::XAttributeWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XAttributeWrapper*, creationType>(attribute)));
     }
     // public override System.String get_Value()
@@ -71,7 +71,7 @@ namespace Newtonsoft::Json::Converters {
     // Offset: 0x18223E0
     // Implemented from: Newtonsoft.Json.Converters.XObjectWrapper
     // Base method: Newtonsoft.Json.Converters.IXmlNode XObjectWrapper::get_ParentNode()
-    Newtonsoft::Json::Converters::IXmlNode* get_ParentNode();
+    ::Newtonsoft::Json::Converters::IXmlNode* get_ParentNode();
   }; // Newtonsoft.Json.Converters.XAttributeWrapper
   #pragma pack(pop)
 }
@@ -79,7 +79,7 @@ namespace Newtonsoft::Json::Converters {
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XAttributeWrapper::get_Attribute
 // Il2CppName: get_Attribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Linq::XAttribute* (Newtonsoft::Json::Converters::XAttributeWrapper::*)()>(&Newtonsoft::Json::Converters::XAttributeWrapper::get_Attribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Linq::XAttribute* (Newtonsoft::Json::Converters::XAttributeWrapper::*)()>(&Newtonsoft::Json::Converters::XAttributeWrapper::get_Attribute)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Converters::XAttributeWrapper*), "get_Attribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -115,7 +115,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XAttributeWrapper::get_ParentNode
 // Il2CppName: get_ParentNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Converters::IXmlNode* (Newtonsoft::Json::Converters::XAttributeWrapper::*)()>(&Newtonsoft::Json::Converters::XAttributeWrapper::get_ParentNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Converters::IXmlNode* (Newtonsoft::Json::Converters::XAttributeWrapper::*)()>(&Newtonsoft::Json::Converters::XAttributeWrapper::get_ParentNode)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Converters::XAttributeWrapper*), "get_ParentNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

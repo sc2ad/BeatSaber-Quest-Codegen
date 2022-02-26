@@ -19,8 +19,8 @@ namespace System::Diagnostics {
   class DebuggerDisplayAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Diagnostics::DebuggerDisplayAttribute);
-DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DebuggerDisplayAttribute*, "System.Diagnostics", "DebuggerDisplayAttribute");
+NEED_NO_BOX(::System::Diagnostics::DebuggerDisplayAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::DebuggerDisplayAttribute*, "System.Diagnostics", "DebuggerDisplayAttribute");
 // Type namespace: System.Diagnostics
 namespace System::Diagnostics {
   // Size: 0x28
@@ -29,7 +29,7 @@ namespace System::Diagnostics {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: 118D7C8
   // [AttributeUsageAttribute] Offset: 118D7C8
-  class DebuggerDisplayAttribute : public System::Attribute {
+  class DebuggerDisplayAttribute : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -69,7 +69,7 @@ namespace System::Diagnostics {
     // Offset: 0x187FF8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DebuggerDisplayAttribute* New_ctor(::StringW value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::DebuggerDisplayAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Diagnostics::DebuggerDisplayAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DebuggerDisplayAttribute*, creationType>(value)));
     }
   }; // System.Diagnostics.DebuggerDisplayAttribute

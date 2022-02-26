@@ -16,8 +16,8 @@ namespace System::Xml {
   class OpenedHost;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::OpenedHost);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::OpenedHost*, "System.Xml", "OpenedHost");
+NEED_NO_BOX(::System::Xml::OpenedHost);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::OpenedHost*, "System.Xml", "OpenedHost");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x14
@@ -54,7 +54,7 @@ namespace System::Xml {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OpenedHost* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::OpenedHost::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::OpenedHost::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OpenedHost*, creationType>()));
     }
   }; // System.Xml.OpenedHost

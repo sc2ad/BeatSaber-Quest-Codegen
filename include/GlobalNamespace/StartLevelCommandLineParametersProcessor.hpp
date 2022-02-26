@@ -50,8 +50,8 @@ namespace GlobalNamespace {
   class StartLevelCommandLineParametersProcessor;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::StartLevelCommandLineParametersProcessor);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StartLevelCommandLineParametersProcessor*, "", "StartLevelCommandLineParametersProcessor");
+NEED_NO_BOX(::GlobalNamespace::StartLevelCommandLineParametersProcessor);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StartLevelCommandLineParametersProcessor*, "", "StartLevelCommandLineParametersProcessor");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -60,35 +60,35 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class StartLevelCommandLineParametersProcessor : public ::Il2CppObject {
     public:
-    // Nested type: GlobalNamespace::StartLevelCommandLineParametersProcessor::CommandLineParametersModel
+    // Nested type: ::GlobalNamespace::StartLevelCommandLineParametersProcessor::CommandLineParametersModel
     class CommandLineParametersModel;
-    // Nested type: GlobalNamespace::StartLevelCommandLineParametersProcessor::$$c__DisplayClass5_0
+    // Nested type: ::GlobalNamespace::StartLevelCommandLineParametersProcessor::$$c__DisplayClass5_0
     class $$c__DisplayClass5_0;
     // static public System.Void ProcessCommandLine(Zenject.DiContainer container)
     // Offset: 0x2ADD8F4
-    static void ProcessCommandLine(Zenject::DiContainer* container);
+    static void ProcessCommandLine(::Zenject::DiContainer* container);
     // static public StartLevelCommandLineParametersProcessor/CommandLineParametersModel ReadCommandLine(System.String[] args)
     // Offset: 0x2ADDA9C
-    static GlobalNamespace::StartLevelCommandLineParametersProcessor::CommandLineParametersModel* ReadCommandLine(::ArrayW<::StringW> args);
+    static ::GlobalNamespace::StartLevelCommandLineParametersProcessor::CommandLineParametersModel* ReadCommandLine(::ArrayW<::StringW> args);
     // static public ObjectsMovementRecorder/InitData CreateObjectsMovementRecorderInitDataFromCommandLineParameters(StartLevelCommandLineParametersProcessor/CommandLineParametersModel commandLineParametersModel)
     // Offset: 0x2ADE17C
-    static GlobalNamespace::ObjectsMovementRecorder::InitData* CreateObjectsMovementRecorderInitDataFromCommandLineParameters(GlobalNamespace::StartLevelCommandLineParametersProcessor::CommandLineParametersModel* commandLineParametersModel);
+    static ::GlobalNamespace::ObjectsMovementRecorder::InitData* CreateObjectsMovementRecorderInitDataFromCommandLineParameters(::GlobalNamespace::StartLevelCommandLineParametersProcessor::CommandLineParametersModel* commandLineParametersModel);
     // static public MenuDestination CreateMenuDestinationFromCommandLineParameters(StartLevelCommandLineParametersProcessor/CommandLineParametersModel commandLineParametersModel, System.Collections.Generic.IEnumerable`1<IBeatmapLevelPack> beatmapLevelPacks, BeatmapCharacteristicCollectionSO beatmapCharacteristicCollection)
     // Offset: 0x2ADE2B8
-    static GlobalNamespace::MenuDestination* CreateMenuDestinationFromCommandLineParameters(GlobalNamespace::StartLevelCommandLineParametersProcessor::CommandLineParametersModel* commandLineParametersModel, System::Collections::Generic::IEnumerable_1<GlobalNamespace::IBeatmapLevelPack*>* beatmapLevelPacks, GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection);
+    static ::GlobalNamespace::MenuDestination* CreateMenuDestinationFromCommandLineParameters(::GlobalNamespace::StartLevelCommandLineParametersProcessor::CommandLineParametersModel* commandLineParametersModel, ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::IBeatmapLevelPack*>* beatmapLevelPacks, ::GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection);
     // static private IBeatmapLevelPack GetLevelPack(System.String levePackId, System.Collections.Generic.IEnumerable`1<IBeatmapLevelPack> beatmapLevelPacks)
     // Offset: 0x2ADEBB8
-    static GlobalNamespace::IBeatmapLevelPack* GetLevelPack(::StringW levePackId, System::Collections::Generic::IEnumerable_1<GlobalNamespace::IBeatmapLevelPack*>* beatmapLevelPacks);
+    static ::GlobalNamespace::IBeatmapLevelPack* GetLevelPack(::StringW levePackId, ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::IBeatmapLevelPack*>* beatmapLevelPacks);
     // static private System.ValueTuple`2<IBeatmapLevelPack,IPreviewBeatmapLevel> GetLevelPackAndLevelPreviewForLevelId(System.String levelId, System.Collections.Generic.IEnumerable`1<IBeatmapLevelPack> beatmapLevelPacks)
     // Offset: 0x2ADE6C8
-    static System::ValueTuple_2<GlobalNamespace::IBeatmapLevelPack*, GlobalNamespace::IPreviewBeatmapLevel*> GetLevelPackAndLevelPreviewForLevelId(::StringW levelId, System::Collections::Generic::IEnumerable_1<GlobalNamespace::IBeatmapLevelPack*>* beatmapLevelPacks);
+    static ::System::ValueTuple_2<::GlobalNamespace::IBeatmapLevelPack*, ::GlobalNamespace::IPreviewBeatmapLevel*> GetLevelPackAndLevelPreviewForLevelId(::StringW levelId, ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::IBeatmapLevelPack*>* beatmapLevelPacks);
     // public System.Void .ctor()
     // Offset: 0x2ADEC7C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StartLevelCommandLineParametersProcessor* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StartLevelCommandLineParametersProcessor::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::StartLevelCommandLineParametersProcessor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StartLevelCommandLineParametersProcessor*, creationType>()));
     }
   }; // StartLevelCommandLineParametersProcessor
@@ -98,7 +98,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::StartLevelCommandLineParametersProcessor::ProcessCommandLine
 // Il2CppName: ProcessCommandLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Zenject::DiContainer*)>(&GlobalNamespace::StartLevelCommandLineParametersProcessor::ProcessCommandLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Zenject::DiContainer*)>(&GlobalNamespace::StartLevelCommandLineParametersProcessor::ProcessCommandLine)> {
   static const MethodInfo* get() {
     static auto* container = &::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StartLevelCommandLineParametersProcessor*), "ProcessCommandLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{container});
@@ -107,7 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ze
 // Writing MetadataGetter for method: GlobalNamespace::StartLevelCommandLineParametersProcessor::ReadCommandLine
 // Il2CppName: ReadCommandLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::StartLevelCommandLineParametersProcessor::CommandLineParametersModel* (*)(::ArrayW<::StringW>)>(&GlobalNamespace::StartLevelCommandLineParametersProcessor::ReadCommandLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::StartLevelCommandLineParametersProcessor::CommandLineParametersModel* (*)(::ArrayW<::StringW>)>(&GlobalNamespace::StartLevelCommandLineParametersProcessor::ReadCommandLine)> {
   static const MethodInfo* get() {
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StartLevelCommandLineParametersProcessor*), "ReadCommandLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{args});
@@ -116,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::StartLevelCommandLineParametersProcessor::CreateObjectsMovementRecorderInitDataFromCommandLineParameters
 // Il2CppName: CreateObjectsMovementRecorderInitDataFromCommandLineParameters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ObjectsMovementRecorder::InitData* (*)(GlobalNamespace::StartLevelCommandLineParametersProcessor::CommandLineParametersModel*)>(&GlobalNamespace::StartLevelCommandLineParametersProcessor::CreateObjectsMovementRecorderInitDataFromCommandLineParameters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ObjectsMovementRecorder::InitData* (*)(::GlobalNamespace::StartLevelCommandLineParametersProcessor::CommandLineParametersModel*)>(&GlobalNamespace::StartLevelCommandLineParametersProcessor::CreateObjectsMovementRecorderInitDataFromCommandLineParameters)> {
   static const MethodInfo* get() {
     static auto* commandLineParametersModel = &::il2cpp_utils::GetClassFromName("", "StartLevelCommandLineParametersProcessor/CommandLineParametersModel")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StartLevelCommandLineParametersProcessor*), "CreateObjectsMovementRecorderInitDataFromCommandLineParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{commandLineParametersModel});
@@ -125,7 +125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::StartLevelCommandLineParametersProcessor::CreateMenuDestinationFromCommandLineParameters
 // Il2CppName: CreateMenuDestinationFromCommandLineParameters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MenuDestination* (*)(GlobalNamespace::StartLevelCommandLineParametersProcessor::CommandLineParametersModel*, System::Collections::Generic::IEnumerable_1<GlobalNamespace::IBeatmapLevelPack*>*, GlobalNamespace::BeatmapCharacteristicCollectionSO*)>(&GlobalNamespace::StartLevelCommandLineParametersProcessor::CreateMenuDestinationFromCommandLineParameters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MenuDestination* (*)(::GlobalNamespace::StartLevelCommandLineParametersProcessor::CommandLineParametersModel*, ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::IBeatmapLevelPack*>*, ::GlobalNamespace::BeatmapCharacteristicCollectionSO*)>(&GlobalNamespace::StartLevelCommandLineParametersProcessor::CreateMenuDestinationFromCommandLineParameters)> {
   static const MethodInfo* get() {
     static auto* commandLineParametersModel = &::il2cpp_utils::GetClassFromName("", "StartLevelCommandLineParametersProcessor/CommandLineParametersModel")->byval_arg;
     static auto* beatmapLevelPacks = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "IBeatmapLevelPack")})->byval_arg;
@@ -136,7 +136,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::StartLevelCommandLineParametersProcessor::GetLevelPack
 // Il2CppName: GetLevelPack
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IBeatmapLevelPack* (*)(::StringW, System::Collections::Generic::IEnumerable_1<GlobalNamespace::IBeatmapLevelPack*>*)>(&GlobalNamespace::StartLevelCommandLineParametersProcessor::GetLevelPack)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IBeatmapLevelPack* (*)(::StringW, ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::IBeatmapLevelPack*>*)>(&GlobalNamespace::StartLevelCommandLineParametersProcessor::GetLevelPack)> {
   static const MethodInfo* get() {
     static auto* levePackId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* beatmapLevelPacks = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "IBeatmapLevelPack")})->byval_arg;
@@ -146,7 +146,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::StartLevelCommandLineParametersProcessor::GetLevelPackAndLevelPreviewForLevelId
 // Il2CppName: GetLevelPackAndLevelPreviewForLevelId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ValueTuple_2<GlobalNamespace::IBeatmapLevelPack*, GlobalNamespace::IPreviewBeatmapLevel*> (*)(::StringW, System::Collections::Generic::IEnumerable_1<GlobalNamespace::IBeatmapLevelPack*>*)>(&GlobalNamespace::StartLevelCommandLineParametersProcessor::GetLevelPackAndLevelPreviewForLevelId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ValueTuple_2<::GlobalNamespace::IBeatmapLevelPack*, ::GlobalNamespace::IPreviewBeatmapLevel*> (*)(::StringW, ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::IBeatmapLevelPack*>*)>(&GlobalNamespace::StartLevelCommandLineParametersProcessor::GetLevelPackAndLevelPreviewForLevelId)> {
   static const MethodInfo* get() {
     static auto* levelId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* beatmapLevelPacks = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "IBeatmapLevelPack")})->byval_arg;

@@ -21,8 +21,8 @@ namespace System::Globalization {
   class CharUnicodeInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Globalization::CharUnicodeInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CharUnicodeInfo*, "System.Globalization", "CharUnicodeInfo");
+NEED_NO_BOX(::System::Globalization::CharUnicodeInfo);
+DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::CharUnicodeInfo*, "System.Globalization", "CharUnicodeInfo");
 // Type namespace: System.Globalization
 namespace System::Globalization {
   // Size: 0x10
@@ -31,7 +31,7 @@ namespace System::Globalization {
   // [TokenAttribute] Offset: FFFFFFFF
   class CharUnicodeInfo : public ::Il2CppObject {
     public:
-    // Nested type: System::Globalization::CharUnicodeInfo::Debug
+    // Nested type: ::System::Globalization::CharUnicodeInfo::Debug
     class Debug;
     // Get static field: static private System.UInt16[] s_pCategoryLevel1Index
     static ::ArrayW<uint16_t> _get_s_pCategoryLevel1Index();
@@ -67,19 +67,19 @@ namespace System::Globalization {
     static bool IsWhiteSpace(::Il2CppChar c);
     // static public System.Globalization.UnicodeCategory GetUnicodeCategory(System.Char ch)
     // Offset: 0x188D2D0
-    static System::Globalization::UnicodeCategory GetUnicodeCategory(::Il2CppChar ch);
+    static ::System::Globalization::UnicodeCategory GetUnicodeCategory(::Il2CppChar ch);
     // static public System.Globalization.UnicodeCategory GetUnicodeCategory(System.String s, System.Int32 index)
     // Offset: 0x188D170
-    static System::Globalization::UnicodeCategory GetUnicodeCategory(::StringW s, int index);
+    static ::System::Globalization::UnicodeCategory GetUnicodeCategory(::StringW s, int index);
     // static System.Globalization.UnicodeCategory InternalGetUnicodeCategory(System.Int32 ch)
     // Offset: 0x188D334
-    static System::Globalization::UnicodeCategory InternalGetUnicodeCategory(int ch);
+    static ::System::Globalization::UnicodeCategory InternalGetUnicodeCategory(int ch);
     // static System.Byte InternalGetCategoryValue(System.Int32 ch, System.Int32 offset)
     // Offset: 0x188D424
     static uint8_t InternalGetCategoryValue(int ch, int offset);
     // static System.Globalization.UnicodeCategory InternalGetUnicodeCategory(System.String value, System.Int32 index)
     // Offset: 0x188D3A4
-    static System::Globalization::UnicodeCategory InternalGetUnicodeCategory(::StringW value, int index);
+    static ::System::Globalization::UnicodeCategory InternalGetUnicodeCategory(::StringW value, int index);
   }; // System.Globalization.CharUnicodeInfo
   #pragma pack(pop)
 }
@@ -124,7 +124,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Globalization::CharUnicodeInfo::GetUnicodeCategory
 // Il2CppName: GetUnicodeCategory
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::UnicodeCategory (*)(::Il2CppChar)>(&System::Globalization::CharUnicodeInfo::GetUnicodeCategory)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::UnicodeCategory (*)(::Il2CppChar)>(&System::Globalization::CharUnicodeInfo::GetUnicodeCategory)> {
   static const MethodInfo* get() {
     static auto* ch = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::CharUnicodeInfo*), "GetUnicodeCategory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ch});
@@ -133,7 +133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 // Writing MetadataGetter for method: System::Globalization::CharUnicodeInfo::GetUnicodeCategory
 // Il2CppName: GetUnicodeCategory
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::UnicodeCategory (*)(::StringW, int)>(&System::Globalization::CharUnicodeInfo::GetUnicodeCategory)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::UnicodeCategory (*)(::StringW, int)>(&System::Globalization::CharUnicodeInfo::GetUnicodeCategory)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -143,7 +143,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 // Writing MetadataGetter for method: System::Globalization::CharUnicodeInfo::InternalGetUnicodeCategory
 // Il2CppName: InternalGetUnicodeCategory
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::UnicodeCategory (*)(int)>(&System::Globalization::CharUnicodeInfo::InternalGetUnicodeCategory)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::UnicodeCategory (*)(int)>(&System::Globalization::CharUnicodeInfo::InternalGetUnicodeCategory)> {
   static const MethodInfo* get() {
     static auto* ch = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::CharUnicodeInfo*), "InternalGetUnicodeCategory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ch});
@@ -162,7 +162,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)
 // Writing MetadataGetter for method: System::Globalization::CharUnicodeInfo::InternalGetUnicodeCategory
 // Il2CppName: InternalGetUnicodeCategory
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::UnicodeCategory (*)(::StringW, int)>(&System::Globalization::CharUnicodeInfo::InternalGetUnicodeCategory)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::UnicodeCategory (*)(::StringW, int)>(&System::Globalization::CharUnicodeInfo::InternalGetUnicodeCategory)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

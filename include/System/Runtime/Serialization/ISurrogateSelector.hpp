@@ -25,8 +25,8 @@ namespace System::Runtime::Serialization {
   class ISurrogateSelector;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Serialization::ISurrogateSelector);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::ISurrogateSelector*, "System.Runtime.Serialization", "ISurrogateSelector");
+NEED_NO_BOX(::System::Runtime::Serialization::ISurrogateSelector);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::ISurrogateSelector*, "System.Runtime.Serialization", "ISurrogateSelector");
 // Type namespace: System.Runtime.Serialization
 namespace System::Runtime::Serialization {
   // Size: 0x10
@@ -38,7 +38,7 @@ namespace System::Runtime::Serialization {
     public:
     // public System.Runtime.Serialization.ISerializationSurrogate GetSurrogate(System.Type type, System.Runtime.Serialization.StreamingContext context, out System.Runtime.Serialization.ISurrogateSelector selector)
     // Offset: 0xFFFFFFFF
-    System::Runtime::Serialization::ISerializationSurrogate* GetSurrogate(System::Type* type, System::Runtime::Serialization::StreamingContext context, ByRef<System::Runtime::Serialization::ISurrogateSelector*> selector);
+    ::System::Runtime::Serialization::ISerializationSurrogate* GetSurrogate(::System::Type* type, ::System::Runtime::Serialization::StreamingContext context, ByRef<::System::Runtime::Serialization::ISurrogateSelector*> selector);
   }; // System.Runtime.Serialization.ISurrogateSelector
   #pragma pack(pop)
 }
@@ -46,7 +46,7 @@ namespace System::Runtime::Serialization {
 // Writing MetadataGetter for method: System::Runtime::Serialization::ISurrogateSelector::GetSurrogate
 // Il2CppName: GetSurrogate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::ISerializationSurrogate* (System::Runtime::Serialization::ISurrogateSelector::*)(System::Type*, System::Runtime::Serialization::StreamingContext, ByRef<System::Runtime::Serialization::ISurrogateSelector*>)>(&System::Runtime::Serialization::ISurrogateSelector::GetSurrogate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::ISerializationSurrogate* (System::Runtime::Serialization::ISurrogateSelector::*)(::System::Type*, ::System::Runtime::Serialization::StreamingContext, ByRef<::System::Runtime::Serialization::ISurrogateSelector*>)>(&System::Runtime::Serialization::ISurrogateSelector::GetSurrogate)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;

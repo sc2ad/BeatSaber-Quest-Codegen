@@ -26,8 +26,8 @@ namespace System::Runtime::Remoting::Messaging {
   class ArgInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Remoting::Messaging::ArgInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::ArgInfo*, "System.Runtime.Remoting.Messaging", "ArgInfo");
+NEED_NO_BOX(::System::Runtime::Remoting::Messaging::ArgInfo);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Messaging::ArgInfo*, "System.Runtime.Remoting.Messaging", "ArgInfo");
 // Type namespace: System.Runtime.Remoting.Messaging
 namespace System::Runtime::Remoting::Messaging {
   // Size: 0x28
@@ -62,21 +62,21 @@ namespace System::Runtime::Remoting::Messaging {
     // private System.Reflection.MethodBase _method
     // Size: 0x8
     // Offset: 0x20
-    System::Reflection::MethodBase* method;
+    ::System::Reflection::MethodBase* method;
     // Field size check
-    static_assert(sizeof(System::Reflection::MethodBase*) == 0x8);
+    static_assert(sizeof(::System::Reflection::MethodBase*) == 0x8);
     public:
     // Get instance field reference: private System.Int32[] _paramMap
     ::ArrayW<int>& dyn__paramMap();
     // Get instance field reference: private System.Int32 _inoutArgCount
     int& dyn__inoutArgCount();
     // Get instance field reference: private System.Reflection.MethodBase _method
-    System::Reflection::MethodBase*& dyn__method();
+    ::System::Reflection::MethodBase*& dyn__method();
     // public System.Void .ctor(System.Reflection.MethodBase method, System.Runtime.Remoting.Messaging.ArgInfoType type)
     // Offset: 0x1B849A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ArgInfo* New_ctor(System::Reflection::MethodBase* method, System::Runtime::Remoting::Messaging::ArgInfoType type) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Messaging::ArgInfo::.ctor");
+    static ArgInfo* New_ctor(::System::Reflection::MethodBase* method, ::System::Runtime::Remoting::Messaging::ArgInfoType type) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::Messaging::ArgInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ArgInfo*, creationType>(method, type)));
     }
     // public System.Object[] GetInOutArgs(System.Object[] args)
@@ -84,7 +84,7 @@ namespace System::Runtime::Remoting::Messaging {
     ::ArrayW<::Il2CppObject*> GetInOutArgs(::ArrayW<::Il2CppObject*> args);
   }; // System.Runtime.Remoting.Messaging.ArgInfo
   #pragma pack(pop)
-  static check_size<sizeof(ArgInfo), 32 + sizeof(System::Reflection::MethodBase*)> __System_Runtime_Remoting_Messaging_ArgInfoSizeCheck;
+  static check_size<sizeof(ArgInfo), 32 + sizeof(::System::Reflection::MethodBase*)> __System_Runtime_Remoting_Messaging_ArgInfoSizeCheck;
   static_assert(sizeof(ArgInfo) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

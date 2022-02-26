@@ -18,8 +18,8 @@ namespace System::Runtime::CompilerServices {
   class Unsafe;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::CompilerServices::Unsafe);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::Unsafe*, "System.Runtime.CompilerServices", "Unsafe");
+NEED_NO_BOX(::System::Runtime::CompilerServices::Unsafe);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::CompilerServices::Unsafe*, "System.Runtime.CompilerServices", "Unsafe");
 // Type namespace: System.Runtime.CompilerServices
 namespace System::Runtime::CompilerServices {
   // Size: 0x10
@@ -32,7 +32,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0xFFFFFFFF
     template<class T>
     static T Add(ByRef<T> source, int elementOffset) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::Unsafe::Add");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::Unsafe::Add");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Runtime.CompilerServices", "Unsafe", "Add", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(source), ::il2cpp_utils::ExtractType(elementOffset)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, byref(source), elementOffset);
@@ -40,8 +40,8 @@ namespace System::Runtime::CompilerServices {
     // static public T AddByteOffset(ref T source, System.IntPtr byteOffset)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static T AddByteOffset(ByRef<T> source, System::IntPtr byteOffset) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::Unsafe::AddByteOffset");
+    static T AddByteOffset(ByRef<T> source, ::System::IntPtr byteOffset) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::Unsafe::AddByteOffset");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Runtime.CompilerServices", "Unsafe", "AddByteOffset", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(source), ::il2cpp_utils::ExtractType(byteOffset)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, byref(source), byteOffset);
@@ -50,7 +50,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0xFFFFFFFF
     template<class T>
     static T As(::Il2CppObject* o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::Unsafe::As");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::Unsafe::As");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Runtime.CompilerServices", "Unsafe", "As", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(o)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, o);
@@ -59,7 +59,7 @@ namespace System::Runtime::CompilerServices {
     // Offset: 0xFFFFFFFF
     template<class T>
     static T AsRef(void* source) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::Unsafe::AsRef");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::Unsafe::AsRef");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Runtime.CompilerServices", "Unsafe", "AsRef", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(source)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, source);
@@ -67,11 +67,11 @@ namespace System::Runtime::CompilerServices {
     // static public System.IntPtr ByteOffset(ref T origin, ref T target)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static System::IntPtr ByteOffset(ByRef<T> origin, ByRef<T> target) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::Unsafe::ByteOffset");
+    static ::System::IntPtr ByteOffset(ByRef<T> origin, ByRef<T> target) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::Unsafe::ByteOffset");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Runtime.CompilerServices", "Unsafe", "ByteOffset", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(origin), ::il2cpp_utils::ExtractType(target)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodRethrow<System::IntPtr, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, byref(origin), byref(target));
+      return ::il2cpp_utils::RunMethodRethrow<::System::IntPtr, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, byref(origin), byref(target));
     }
   }; // System.Runtime.CompilerServices.Unsafe
   #pragma pack(pop)

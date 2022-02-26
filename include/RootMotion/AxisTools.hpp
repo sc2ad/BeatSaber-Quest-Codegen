@@ -32,8 +32,8 @@ namespace RootMotion {
   class AxisTools;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::AxisTools);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::AxisTools*, "RootMotion", "AxisTools");
+NEED_NO_BOX(::RootMotion::AxisTools);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::AxisTools*, "RootMotion", "AxisTools");
 // Type namespace: RootMotion
 namespace RootMotion {
   // Size: 0x10
@@ -44,32 +44,32 @@ namespace RootMotion {
     public:
     // static public UnityEngine.Vector3 ToVector3(RootMotion.Axis axis)
     // Offset: 0x221D444
-    static UnityEngine::Vector3 ToVector3(RootMotion::Axis axis);
+    static ::UnityEngine::Vector3 ToVector3(::RootMotion::Axis axis);
     // static public RootMotion.Axis ToAxis(UnityEngine.Vector3 v)
     // Offset: 0x221D4FC
-    static RootMotion::Axis ToAxis(UnityEngine::Vector3 v);
+    static ::RootMotion::Axis ToAxis(::UnityEngine::Vector3 v);
     // static public RootMotion.Axis GetAxisToPoint(UnityEngine.Transform t, UnityEngine.Vector3 worldPosition)
     // Offset: 0x221D5A8
-    static RootMotion::Axis GetAxisToPoint(UnityEngine::Transform* t, UnityEngine::Vector3 worldPosition);
+    static ::RootMotion::Axis GetAxisToPoint(::UnityEngine::Transform* t, ::UnityEngine::Vector3 worldPosition);
     // static public RootMotion.Axis GetAxisToDirection(UnityEngine.Transform t, UnityEngine.Vector3 direction)
     // Offset: 0x221D78C
-    static RootMotion::Axis GetAxisToDirection(UnityEngine::Transform* t, UnityEngine::Vector3 direction);
+    static ::RootMotion::Axis GetAxisToDirection(::UnityEngine::Transform* t, ::UnityEngine::Vector3 direction);
     // static public UnityEngine.Vector3 GetAxisVectorToPoint(UnityEngine.Transform t, UnityEngine.Vector3 worldPosition)
     // Offset: 0x221D6C4
-    static UnityEngine::Vector3 GetAxisVectorToPoint(UnityEngine::Transform* t, UnityEngine::Vector3 worldPosition);
+    static ::UnityEngine::Vector3 GetAxisVectorToPoint(::UnityEngine::Transform* t, ::UnityEngine::Vector3 worldPosition);
     // static public UnityEngine.Vector3 GetAxisVectorToDirection(UnityEngine.Transform t, UnityEngine.Vector3 direction)
     // Offset: 0x221D8A8
-    static UnityEngine::Vector3 GetAxisVectorToDirection(UnityEngine::Transform* t, UnityEngine::Vector3 direction);
+    static ::UnityEngine::Vector3 GetAxisVectorToDirection(::UnityEngine::Transform* t, ::UnityEngine::Vector3 direction);
     // static public UnityEngine.Vector3 GetAxisVectorToDirection(UnityEngine.Quaternion r, UnityEngine.Vector3 direction)
     // Offset: 0x221D8F0
-    static UnityEngine::Vector3 GetAxisVectorToDirection(UnityEngine::Quaternion r, UnityEngine::Vector3 direction);
+    static ::UnityEngine::Vector3 GetAxisVectorToDirection(::UnityEngine::Quaternion r, ::UnityEngine::Vector3 direction);
     // public System.Void .ctor()
     // Offset: 0x221DBB8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AxisTools* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::AxisTools::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::AxisTools::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AxisTools*, creationType>()));
     }
   }; // RootMotion.AxisTools
@@ -79,7 +79,7 @@ namespace RootMotion {
 // Writing MetadataGetter for method: RootMotion::AxisTools::ToVector3
 // Il2CppName: ToVector3
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(RootMotion::Axis)>(&RootMotion::AxisTools::ToVector3)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::RootMotion::Axis)>(&RootMotion::AxisTools::ToVector3)> {
   static const MethodInfo* get() {
     static auto* axis = &::il2cpp_utils::GetClassFromName("RootMotion", "Axis")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::AxisTools*), "ToVector3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{axis});
@@ -88,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: RootMotion::AxisTools::ToAxis
 // Il2CppName: ToAxis
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::Axis (*)(UnityEngine::Vector3)>(&RootMotion::AxisTools::ToAxis)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::Axis (*)(::UnityEngine::Vector3)>(&RootMotion::AxisTools::ToAxis)> {
   static const MethodInfo* get() {
     static auto* v = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::AxisTools*), "ToAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{v});
@@ -97,7 +97,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion:
 // Writing MetadataGetter for method: RootMotion::AxisTools::GetAxisToPoint
 // Il2CppName: GetAxisToPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::Axis (*)(UnityEngine::Transform*, UnityEngine::Vector3)>(&RootMotion::AxisTools::GetAxisToPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::Axis (*)(::UnityEngine::Transform*, ::UnityEngine::Vector3)>(&RootMotion::AxisTools::GetAxisToPoint)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* worldPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -107,7 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion:
 // Writing MetadataGetter for method: RootMotion::AxisTools::GetAxisToDirection
 // Il2CppName: GetAxisToDirection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::Axis (*)(UnityEngine::Transform*, UnityEngine::Vector3)>(&RootMotion::AxisTools::GetAxisToDirection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::Axis (*)(::UnityEngine::Transform*, ::UnityEngine::Vector3)>(&RootMotion::AxisTools::GetAxisToDirection)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -117,7 +117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion:
 // Writing MetadataGetter for method: RootMotion::AxisTools::GetAxisVectorToPoint
 // Il2CppName: GetAxisVectorToPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Transform*, UnityEngine::Vector3)>(&RootMotion::AxisTools::GetAxisVectorToPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Transform*, ::UnityEngine::Vector3)>(&RootMotion::AxisTools::GetAxisVectorToPoint)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* worldPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -127,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: RootMotion::AxisTools::GetAxisVectorToDirection
 // Il2CppName: GetAxisVectorToDirection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Transform*, UnityEngine::Vector3)>(&RootMotion::AxisTools::GetAxisVectorToDirection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Transform*, ::UnityEngine::Vector3)>(&RootMotion::AxisTools::GetAxisVectorToDirection)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -137,7 +137,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: RootMotion::AxisTools::GetAxisVectorToDirection
 // Il2CppName: GetAxisVectorToDirection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Quaternion, UnityEngine::Vector3)>(&RootMotion::AxisTools::GetAxisVectorToDirection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Quaternion, ::UnityEngine::Vector3)>(&RootMotion::AxisTools::GetAxisVectorToDirection)> {
   static const MethodInfo* get() {
     static auto* r = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;

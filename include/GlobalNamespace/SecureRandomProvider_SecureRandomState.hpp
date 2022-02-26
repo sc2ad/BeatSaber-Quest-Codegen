@@ -23,8 +23,8 @@ namespace System::Security::Cryptography {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SecureRandomProvider::SecureRandomState);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SecureRandomProvider::SecureRandomState*, "", "SecureRandomProvider/SecureRandomState");
+NEED_NO_BOX(::GlobalNamespace::SecureRandomProvider::SecureRandomState);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SecureRandomProvider::SecureRandomState*, "", "SecureRandomProvider/SecureRandomState");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x2C
@@ -45,9 +45,9 @@ namespace GlobalNamespace {
     // private readonly System.Security.Cryptography.RNGCryptoServiceProvider _random
     // Size: 0x8
     // Offset: 0x10
-    System::Security::Cryptography::RNGCryptoServiceProvider* random;
+    ::System::Security::Cryptography::RNGCryptoServiceProvider* random;
     // Field size check
-    static_assert(sizeof(System::Security::Cryptography::RNGCryptoServiceProvider*) == 0x8);
+    static_assert(sizeof(::System::Security::Cryptography::RNGCryptoServiceProvider*) == 0x8);
     // private readonly System.Byte[] _randomBuffer0
     // Size: 0x8
     // Offset: 0x18
@@ -74,7 +74,7 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kBufferSize
     static void _set_kBufferSize(int value);
     // Get instance field reference: private readonly System.Security.Cryptography.RNGCryptoServiceProvider _random
-    System::Security::Cryptography::RNGCryptoServiceProvider*& dyn__random();
+    ::System::Security::Cryptography::RNGCryptoServiceProvider*& dyn__random();
     // Get instance field reference: private readonly System.Byte[] _randomBuffer0
     ::ArrayW<uint8_t>& dyn__randomBuffer0();
     // Get instance field reference: private readonly System.Byte[] _randomBuffer1
@@ -96,7 +96,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SecureRandomProvider::SecureRandomState* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SecureRandomProvider::SecureRandomState::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SecureRandomProvider::SecureRandomState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SecureRandomProvider::SecureRandomState*, creationType>()));
     }
   }; // SecureRandomProvider/SecureRandomState

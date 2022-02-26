@@ -37,8 +37,8 @@ namespace System::Threading {
   class ManualResetEventSlim;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Threading::ManualResetEventSlim);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::ManualResetEventSlim*, "System.Threading", "ManualResetEventSlim");
+NEED_NO_BOX(::System::Threading::ManualResetEventSlim);
+DEFINE_IL2CPP_ARG_TYPE(::System::Threading::ManualResetEventSlim*, "System.Threading", "ManualResetEventSlim");
 // Type namespace: System.Threading
 namespace System::Threading {
   // Size: 0x24
@@ -47,7 +47,7 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   // [DebuggerDisplayAttribute] Offset: 1189480
   // [ComVisibleAttribute] Offset: 1189480
-  class ManualResetEventSlim : public ::Il2CppObject/*, public System::IDisposable*/ {
+  class ManualResetEventSlim : public ::Il2CppObject/*, public ::System::IDisposable*/ {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -67,9 +67,9 @@ namespace System::Threading {
     // private System.Threading.ManualResetEvent m_eventObj
     // Size: 0x8
     // Offset: 0x18
-    System::Threading::ManualResetEvent* m_eventObj;
+    ::System::Threading::ManualResetEvent* m_eventObj;
     // Field size check
-    static_assert(sizeof(System::Threading::ManualResetEvent*) == 0x8);
+    static_assert(sizeof(::System::Threading::ManualResetEvent*) == 0x8);
     // private System.Int32 m_combinedState
     // Size: 0x4
     // Offset: 0x20
@@ -77,9 +77,9 @@ namespace System::Threading {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     public:
-    // Creating interface conversion operator: operator System::IDisposable
-    operator System::IDisposable() noexcept {
-      return *reinterpret_cast<System::IDisposable*>(this);
+    // Creating interface conversion operator: operator ::System::IDisposable
+    operator ::System::IDisposable() noexcept {
+      return *reinterpret_cast<::System::IDisposable*>(this);
     }
     // static field const value: static private System.Int32 DEFAULT_SPIN_SP
     static constexpr const int DEFAULT_SPIN_SP = 1;
@@ -148,18 +148,18 @@ namespace System::Threading {
     // Set static field: static private System.Int32 NumWaitersState_MaxValue
     static void _set_NumWaitersState_MaxValue(int value);
     // Get static field: static private System.Action`1<System.Object> s_cancellationTokenCallback
-    static System::Action_1<::Il2CppObject*>* _get_s_cancellationTokenCallback();
+    static ::System::Action_1<::Il2CppObject*>* _get_s_cancellationTokenCallback();
     // Set static field: static private System.Action`1<System.Object> s_cancellationTokenCallback
-    static void _set_s_cancellationTokenCallback(System::Action_1<::Il2CppObject*>* value);
+    static void _set_s_cancellationTokenCallback(::System::Action_1<::Il2CppObject*>* value);
     // Get instance field reference: private System.Object m_lock
     ::Il2CppObject*& dyn_m_lock();
     // Get instance field reference: private System.Threading.ManualResetEvent m_eventObj
-    System::Threading::ManualResetEvent*& dyn_m_eventObj();
+    ::System::Threading::ManualResetEvent*& dyn_m_eventObj();
     // Get instance field reference: private System.Int32 m_combinedState
     int& dyn_m_combinedState();
     // public System.Threading.WaitHandle get_WaitHandle()
     // Offset: 0x1C2E240
-    System::Threading::WaitHandle* get_WaitHandle();
+    ::System::Threading::WaitHandle* get_WaitHandle();
     // public System.Boolean get_IsSet()
     // Offset: 0x1C2E470
     bool get_IsSet();
@@ -182,14 +182,14 @@ namespace System::Threading {
     // Offset: 0x1C2E7AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ManualResetEventSlim* New_ctor(bool initialState) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::ManualResetEventSlim::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::ManualResetEventSlim::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ManualResetEventSlim*, creationType>(initialState)));
     }
     // public System.Void .ctor(System.Boolean initialState, System.Int32 spinCount)
     // Offset: 0x1C2E854
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ManualResetEventSlim* New_ctor(bool initialState, int spinCount) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::ManualResetEventSlim::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::ManualResetEventSlim::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ManualResetEventSlim*, creationType>(initialState, spinCount)));
     }
     // static private System.Void .cctor()
@@ -212,7 +212,7 @@ namespace System::Threading {
     void Set(bool duringCancellation);
     // public System.Boolean Wait(System.Int32 millisecondsTimeout, System.Threading.CancellationToken cancellationToken)
     // Offset: 0x1C2EC58
-    bool Wait(int millisecondsTimeout, System::Threading::CancellationToken cancellationToken);
+    bool Wait(int millisecondsTimeout, ::System::Threading::CancellationToken cancellationToken);
     // public System.Void Dispose()
     // Offset: 0x1C2F110
     void Dispose();
@@ -243,7 +243,7 @@ namespace System::Threading {
 // Writing MetadataGetter for method: System::Threading::ManualResetEventSlim::get_WaitHandle
 // Il2CppName: get_WaitHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::WaitHandle* (System::Threading::ManualResetEventSlim::*)()>(&System::Threading::ManualResetEventSlim::get_WaitHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::WaitHandle* (System::Threading::ManualResetEventSlim::*)()>(&System::Threading::ManualResetEventSlim::get_WaitHandle)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ManualResetEventSlim*), "get_WaitHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -361,7 +361,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Threading::ManualResetEventSlim::Wait
 // Il2CppName: Wait
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ManualResetEventSlim::*)(int, System::Threading::CancellationToken)>(&System::Threading::ManualResetEventSlim::Wait)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ManualResetEventSlim::*)(int, ::System::Threading::CancellationToken)>(&System::Threading::ManualResetEventSlim::Wait)> {
   static const MethodInfo* get() {
     static auto* millisecondsTimeout = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;

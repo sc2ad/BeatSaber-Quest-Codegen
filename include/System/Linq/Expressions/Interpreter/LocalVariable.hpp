@@ -17,8 +17,8 @@ namespace System::Linq::Expressions::Interpreter {
   class LocalVariable;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Linq::Expressions::Interpreter::LocalVariable);
-DEFINE_IL2CPP_ARG_TYPE(System::Linq::Expressions::Interpreter::LocalVariable*, "System.Linq.Expressions.Interpreter", "LocalVariable");
+NEED_NO_BOX(::System::Linq::Expressions::Interpreter::LocalVariable);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::LocalVariable*, "System.Linq.Expressions.Interpreter", "LocalVariable");
 // Type namespace: System.Linq.Expressions.Interpreter
 namespace System::Linq::Expressions::Interpreter {
   // Size: 0x18
@@ -66,7 +66,7 @@ namespace System::Linq::Expressions::Interpreter {
     // Offset: 0x1EF690C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalVariable* New_ctor(int index, bool closure) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Expressions::Interpreter::LocalVariable::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Expressions::Interpreter::LocalVariable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalVariable*, creationType>(index, closure)));
     }
     // public override System.String ToString()

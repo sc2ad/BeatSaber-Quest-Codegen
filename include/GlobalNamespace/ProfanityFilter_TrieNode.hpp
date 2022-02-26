@@ -22,8 +22,8 @@ namespace System::Collections::Generic {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::ProfanityFilter::TrieNode);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ProfanityFilter::TrieNode*, "", "ProfanityFilter/TrieNode");
+NEED_NO_BOX(::GlobalNamespace::ProfanityFilter::TrieNode);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ProfanityFilter::TrieNode*, "", "ProfanityFilter/TrieNode");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x1C
@@ -44,9 +44,9 @@ namespace GlobalNamespace {
     // private System.Collections.Generic.Dictionary`2<System.Char,ProfanityFilter/TrieNode> _children
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::Dictionary_2<::Il2CppChar, GlobalNamespace::ProfanityFilter::TrieNode*>* children;
+    ::System::Collections::Generic::Dictionary_2<::Il2CppChar, ::GlobalNamespace::ProfanityFilter::TrieNode*>* children;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppChar, GlobalNamespace::ProfanityFilter::TrieNode*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::Dictionary_2<::Il2CppChar, ::GlobalNamespace::ProfanityFilter::TrieNode*>*) == 0x8);
     // private System.Int32 _shortestWord
     // Size: 0x4
     // Offset: 0x18
@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Char,ProfanityFilter/TrieNode> _children
-    System::Collections::Generic::Dictionary_2<::Il2CppChar, GlobalNamespace::ProfanityFilter::TrieNode*>*& dyn__children();
+    ::System::Collections::Generic::Dictionary_2<::Il2CppChar, ::GlobalNamespace::ProfanityFilter::TrieNode*>*& dyn__children();
     // Get instance field reference: private System.Int32 _shortestWord
     int& dyn__shortestWord();
     // public System.Void AddWord(System.String word, System.Int32 index)
@@ -70,7 +70,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProfanityFilter::TrieNode* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ProfanityFilter::TrieNode::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ProfanityFilter::TrieNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProfanityFilter::TrieNode*, creationType>()));
     }
   }; // ProfanityFilter/TrieNode

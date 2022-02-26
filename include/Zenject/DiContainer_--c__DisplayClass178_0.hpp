@@ -20,8 +20,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::DiContainer::$$c__DisplayClass178_0);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::DiContainer::$$c__DisplayClass178_0*, "Zenject", "DiContainer/<>c__DisplayClass178_0");
+NEED_NO_BOX(::Zenject::DiContainer::$$c__DisplayClass178_0);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::DiContainer::$$c__DisplayClass178_0*, "Zenject", "DiContainer/<>c__DisplayClass178_0");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x30
@@ -43,15 +43,15 @@ namespace Zenject {
     // public Zenject.DiContainer <>4__this
     // Size: 0x8
     // Offset: 0x10
-    Zenject::DiContainer* $$4__this;
+    ::Zenject::DiContainer* $$4__this;
     // Field size check
-    static_assert(sizeof(Zenject::DiContainer*) == 0x8);
+    static_assert(sizeof(::Zenject::DiContainer*) == 0x8);
     // public System.Type contractType
     // Size: 0x8
     // Offset: 0x18
-    System::Type* contractType;
+    ::System::Type* contractType;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     // public System.Object identifier
     // Size: 0x8
     // Offset: 0x20
@@ -61,40 +61,40 @@ namespace Zenject {
     // public System.Type concreteType
     // Size: 0x8
     // Offset: 0x28
-    System::Type* concreteType;
+    ::System::Type* concreteType;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     public:
     // Get instance field reference: public Zenject.DiContainer <>4__this
-    Zenject::DiContainer*& dyn_$$4__this();
+    ::Zenject::DiContainer*& dyn_$$4__this();
     // Get instance field reference: public System.Type contractType
-    System::Type*& dyn_contractType();
+    ::System::Type*& dyn_contractType();
     // Get instance field reference: public System.Object identifier
     ::Il2CppObject*& dyn_identifier();
     // Get instance field reference: public System.Type concreteType
-    System::Type*& dyn_concreteType();
+    ::System::Type*& dyn_concreteType();
     // System.Boolean <UnbindId>b__0(Zenject.DiContainer/Zenject.ProviderInfo x)
     // Offset: 0x1D26BE4
-    bool $UnbindId$b__0(Zenject::DiContainer::ProviderInfo* x);
+    bool $UnbindId$b__0(::Zenject::DiContainer::ProviderInfo* x);
     // public System.Void .ctor()
     // Offset: 0x1D26BDC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DiContainer::$$c__DisplayClass178_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::$$c__DisplayClass178_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DiContainer::$$c__DisplayClass178_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DiContainer::$$c__DisplayClass178_0*, creationType>()));
     }
   }; // Zenject.DiContainer/Zenject.<>c__DisplayClass178_0
   #pragma pack(pop)
-  static check_size<sizeof(DiContainer::$$c__DisplayClass178_0), 40 + sizeof(System::Type*)> __Zenject_DiContainer_$$c__DisplayClass178_0SizeCheck;
+  static check_size<sizeof(DiContainer::$$c__DisplayClass178_0), 40 + sizeof(::System::Type*)> __Zenject_DiContainer_$$c__DisplayClass178_0SizeCheck;
   static_assert(sizeof(DiContainer::$$c__DisplayClass178_0) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::DiContainer::$$c__DisplayClass178_0::$UnbindId$b__0
 // Il2CppName: <UnbindId>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::DiContainer::$$c__DisplayClass178_0::*)(Zenject::DiContainer::ProviderInfo*)>(&Zenject::DiContainer::$$c__DisplayClass178_0::$UnbindId$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::DiContainer::$$c__DisplayClass178_0::*)(::Zenject::DiContainer::ProviderInfo*)>(&Zenject::DiContainer::$$c__DisplayClass178_0::$UnbindId$b__0)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("Zenject", "DiContainer/ProviderInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer::$$c__DisplayClass178_0*), "<UnbindId>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});

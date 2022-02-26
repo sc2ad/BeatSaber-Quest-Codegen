@@ -32,8 +32,8 @@ namespace GlobalNamespace {
   class ColorManager;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::ColorManager);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorManager*, "", "ColorManager");
+NEED_NO_BOX(::GlobalNamespace::ColorManager);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ColorManager*, "", "ColorManager");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -55,50 +55,50 @@ namespace GlobalNamespace {
     // private readonly ColorScheme _colorScheme
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::ColorScheme* colorScheme;
+    ::GlobalNamespace::ColorScheme* colorScheme;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::ColorScheme*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::ColorScheme*) == 0x8);
     public:
-    // Creating conversion operator: operator GlobalNamespace::ColorScheme*
-    constexpr operator GlobalNamespace::ColorScheme*() const noexcept {
+    // Creating conversion operator: operator ::GlobalNamespace::ColorScheme*
+    constexpr operator ::GlobalNamespace::ColorScheme*() const noexcept {
       return colorScheme;
     }
     // Get instance field reference: private readonly ColorScheme _colorScheme
-    GlobalNamespace::ColorScheme*& dyn__colorScheme();
+    ::GlobalNamespace::ColorScheme*& dyn__colorScheme();
     // public UnityEngine.Color get_obstaclesColor()
     // Offset: 0x13BE820
-    UnityEngine::Color get_obstaclesColor();
+    ::UnityEngine::Color get_obstaclesColor();
     // public UnityEngine.Color ColorForType(ColorType type)
     // Offset: 0x13BE840
-    UnityEngine::Color ColorForType(GlobalNamespace::ColorType type);
+    ::UnityEngine::Color ColorForType(::GlobalNamespace::ColorType type);
     // public UnityEngine.Color ColorForSaberType(SaberType type)
     // Offset: 0x13BE890
-    UnityEngine::Color ColorForSaberType(GlobalNamespace::SaberType type);
+    ::UnityEngine::Color ColorForSaberType(::GlobalNamespace::SaberType type);
     // public UnityEngine.Color EffectsColorForSaberType(SaberType type)
     // Offset: 0x13BE8E4
-    UnityEngine::Color EffectsColorForSaberType(GlobalNamespace::SaberType type);
+    ::UnityEngine::Color EffectsColorForSaberType(::GlobalNamespace::SaberType type);
     // public UnityEngine.Color GetObstacleEffectColor()
     // Offset: 0x13BE97C
-    UnityEngine::Color GetObstacleEffectColor();
+    ::UnityEngine::Color GetObstacleEffectColor();
     // public System.Void .ctor()
     // Offset: 0x13BE9E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorManager* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ColorManager::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ColorManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorManager*, creationType>()));
     }
   }; // ColorManager
   #pragma pack(pop)
-  static check_size<sizeof(ColorManager), 16 + sizeof(GlobalNamespace::ColorScheme*)> __GlobalNamespace_ColorManagerSizeCheck;
+  static check_size<sizeof(ColorManager), 16 + sizeof(::GlobalNamespace::ColorScheme*)> __GlobalNamespace_ColorManagerSizeCheck;
   static_assert(sizeof(ColorManager) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ColorManager::get_obstaclesColor
 // Il2CppName: get_obstaclesColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::ColorManager::*)()>(&GlobalNamespace::ColorManager::get_obstaclesColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (GlobalNamespace::ColorManager::*)()>(&GlobalNamespace::ColorManager::get_obstaclesColor)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorManager*), "get_obstaclesColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -106,7 +106,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::ColorManager::ColorForType
 // Il2CppName: ColorForType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::ColorManager::*)(GlobalNamespace::ColorType)>(&GlobalNamespace::ColorManager::ColorForType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (GlobalNamespace::ColorManager::*)(::GlobalNamespace::ColorType)>(&GlobalNamespace::ColorManager::ColorForType)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("", "ColorType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorManager*), "ColorForType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -115,7 +115,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::ColorManager::ColorForSaberType
 // Il2CppName: ColorForSaberType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::ColorManager::*)(GlobalNamespace::SaberType)>(&GlobalNamespace::ColorManager::ColorForSaberType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (GlobalNamespace::ColorManager::*)(::GlobalNamespace::SaberType)>(&GlobalNamespace::ColorManager::ColorForSaberType)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("", "SaberType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorManager*), "ColorForSaberType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -124,7 +124,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::ColorManager::EffectsColorForSaberType
 // Il2CppName: EffectsColorForSaberType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::ColorManager::*)(GlobalNamespace::SaberType)>(&GlobalNamespace::ColorManager::EffectsColorForSaberType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (GlobalNamespace::ColorManager::*)(::GlobalNamespace::SaberType)>(&GlobalNamespace::ColorManager::EffectsColorForSaberType)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("", "SaberType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorManager*), "EffectsColorForSaberType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -133,7 +133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::ColorManager::GetObstacleEffectColor
 // Il2CppName: GetObstacleEffectColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::ColorManager::*)()>(&GlobalNamespace::ColorManager::GetObstacleEffectColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (GlobalNamespace::ColorManager::*)()>(&GlobalNamespace::ColorManager::GetObstacleEffectColor)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorManager*), "GetObstacleEffectColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

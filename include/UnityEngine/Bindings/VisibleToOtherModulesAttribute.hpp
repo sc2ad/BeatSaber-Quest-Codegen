@@ -21,8 +21,8 @@ namespace UnityEngine::Bindings {
   class VisibleToOtherModulesAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Bindings::VisibleToOtherModulesAttribute);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::VisibleToOtherModulesAttribute*, "UnityEngine.Bindings", "VisibleToOtherModulesAttribute");
+NEED_NO_BOX(::UnityEngine::Bindings::VisibleToOtherModulesAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Bindings::VisibleToOtherModulesAttribute*, "UnityEngine.Bindings", "VisibleToOtherModulesAttribute");
 // Type namespace: UnityEngine.Bindings
 namespace UnityEngine::Bindings {
   // Size: 0x10
@@ -31,13 +31,13 @@ namespace UnityEngine::Bindings {
   // [TokenAttribute] Offset: FFFFFFFF
   // [VisibleToOtherModulesAttribute] Offset: 11A10A0
   // [AttributeUsageAttribute] Offset: 11A10A0
-  class VisibleToOtherModulesAttribute : public System::Attribute {
+  class VisibleToOtherModulesAttribute : public ::System::Attribute {
     public:
     // public System.Void .ctor(params System.String[] modules)
     // Offset: 0x2A575D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VisibleToOtherModulesAttribute* New_ctor(::ArrayW<::StringW> modules) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::VisibleToOtherModulesAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Bindings::VisibleToOtherModulesAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VisibleToOtherModulesAttribute*, creationType>(modules)));
     }
     // public System.Void .ctor()
@@ -47,7 +47,7 @@ namespace UnityEngine::Bindings {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VisibleToOtherModulesAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::VisibleToOtherModulesAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Bindings::VisibleToOtherModulesAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VisibleToOtherModulesAttribute*, creationType>()));
     }
   }; // UnityEngine.Bindings.VisibleToOtherModulesAttribute

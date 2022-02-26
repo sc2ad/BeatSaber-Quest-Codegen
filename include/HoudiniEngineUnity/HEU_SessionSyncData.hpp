@@ -26,8 +26,8 @@ namespace HoudiniEngineUnity {
   class HEU_SessionSyncData;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_SessionSyncData);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_SessionSyncData*, "HoudiniEngineUnity", "HEU_SessionSyncData");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_SessionSyncData);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_SessionSyncData*, "HoudiniEngineUnity", "HEU_SessionSyncData");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x63
@@ -36,7 +36,7 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_SessionSyncData : public ::Il2CppObject {
     public:
-    // Nested type: HoudiniEngineUnity::HEU_SessionSyncData::Status
+    // Nested type: ::HoudiniEngineUnity::HEU_SessionSyncData::Status
     struct Status;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -90,17 +90,17 @@ namespace HoudiniEngineUnity {
     // public HoudiniEngineUnity.HAPI_Viewport _viewportHAPI
     // Size: 0x14
     // Offset: 0x30
-    HoudiniEngineUnity::HAPI_Viewport viewportHAPI;
+    ::HoudiniEngineUnity::HAPI_Viewport viewportHAPI;
     // Field size check
-    static_assert(sizeof(HoudiniEngineUnity::HAPI_Viewport) == 0x14);
+    static_assert(sizeof(::HoudiniEngineUnity::HAPI_Viewport) == 0x14);
     // Padding between fields: viewportHAPI and: viewportLocal
     char __padding6[0x4] = {};
     // public HoudiniEngineUnity.HAPI_Viewport _viewportLocal
     // Size: 0x14
     // Offset: 0x48
-    HoudiniEngineUnity::HAPI_Viewport viewportLocal;
+    ::HoudiniEngineUnity::HAPI_Viewport viewportLocal;
     // Field size check
-    static_assert(sizeof(HoudiniEngineUnity::HAPI_Viewport) == 0x14);
+    static_assert(sizeof(::HoudiniEngineUnity::HAPI_Viewport) == 0x14);
     // Padding between fields: viewportLocal and: viewportJustUpdated
     char __padding7[0x4] = {};
     // public System.Boolean _viewportJustUpdated
@@ -112,9 +112,9 @@ namespace HoudiniEngineUnity {
     // public HoudiniEngineUnity.HAPI_SessionSyncInfo _syncInfo
     // Size: 0x2
     // Offset: 0x61
-    HoudiniEngineUnity::HAPI_SessionSyncInfo syncInfo;
+    ::HoudiniEngineUnity::HAPI_SessionSyncInfo syncInfo;
     // Field size check
-    static_assert(sizeof(HoudiniEngineUnity::HAPI_SessionSyncInfo) == 0x2);
+    static_assert(sizeof(::HoudiniEngineUnity::HAPI_SessionSyncInfo) == 0x2);
     public:
     // Get instance field reference: private System.Int32 _status
     int& dyn__status();
@@ -129,38 +129,38 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Boolean _validForConnection
     bool& dyn__validForConnection();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_Viewport _viewportHAPI
-    HoudiniEngineUnity::HAPI_Viewport& dyn__viewportHAPI();
+    ::HoudiniEngineUnity::HAPI_Viewport& dyn__viewportHAPI();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_Viewport _viewportLocal
-    HoudiniEngineUnity::HAPI_Viewport& dyn__viewportLocal();
+    ::HoudiniEngineUnity::HAPI_Viewport& dyn__viewportLocal();
     // Get instance field reference: public System.Boolean _viewportJustUpdated
     bool& dyn__viewportJustUpdated();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_SessionSyncInfo _syncInfo
-    HoudiniEngineUnity::HAPI_SessionSyncInfo& dyn__syncInfo();
+    ::HoudiniEngineUnity::HAPI_SessionSyncInfo& dyn__syncInfo();
     // public HoudiniEngineUnity.HEU_SessionSyncData/HoudiniEngineUnity.Status get_SyncStatus()
     // Offset: 0x1A60804
-    HoudiniEngineUnity::HEU_SessionSyncData::Status get_SyncStatus();
+    ::HoudiniEngineUnity::HEU_SessionSyncData::Status get_SyncStatus();
     // public System.Void set_SyncStatus(HoudiniEngineUnity.HEU_SessionSyncData/HoudiniEngineUnity.Status value)
     // Offset: 0x1A60818
-    void set_SyncStatus(HoudiniEngineUnity::HEU_SessionSyncData::Status value);
+    void set_SyncStatus(::HoudiniEngineUnity::HEU_SessionSyncData::Status value);
     // public System.Void .ctor()
     // Offset: 0x1A5D524
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_SessionSyncData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_SessionSyncData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_SessionSyncData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_SessionSyncData*, creationType>()));
     }
   }; // HoudiniEngineUnity.HEU_SessionSyncData
   #pragma pack(pop)
-  static check_size<sizeof(HEU_SessionSyncData), 97 + sizeof(HoudiniEngineUnity::HAPI_SessionSyncInfo)> __HoudiniEngineUnity_HEU_SessionSyncDataSizeCheck;
+  static check_size<sizeof(HEU_SessionSyncData), 97 + sizeof(::HoudiniEngineUnity::HAPI_SessionSyncInfo)> __HoudiniEngineUnity_HEU_SessionSyncDataSizeCheck;
   static_assert(sizeof(HEU_SessionSyncData) == 0x63);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionSyncData::get_SyncStatus
 // Il2CppName: get_SyncStatus
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_SessionSyncData::Status (HoudiniEngineUnity::HEU_SessionSyncData::*)()>(&HoudiniEngineUnity::HEU_SessionSyncData::get_SyncStatus)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_SessionSyncData::Status (HoudiniEngineUnity::HEU_SessionSyncData::*)()>(&HoudiniEngineUnity::HEU_SessionSyncData::get_SyncStatus)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionSyncData*), "get_SyncStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -168,7 +168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionSyncData::set_SyncStatus
 // Il2CppName: set_SyncStatus
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_SessionSyncData::*)(HoudiniEngineUnity::HEU_SessionSyncData::Status)>(&HoudiniEngineUnity::HEU_SessionSyncData::set_SyncStatus)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_SessionSyncData::*)(::HoudiniEngineUnity::HEU_SessionSyncData::Status)>(&HoudiniEngineUnity::HEU_SessionSyncData::set_SyncStatus)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionSyncData/Status")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_SessionSyncData*), "set_SyncStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

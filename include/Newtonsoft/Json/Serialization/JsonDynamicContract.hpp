@@ -59,8 +59,8 @@ namespace Newtonsoft::Json::Serialization {
   class JsonDynamicContract;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Serialization::JsonDynamicContract);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Serialization::JsonDynamicContract*, "Newtonsoft.Json.Serialization", "JsonDynamicContract");
+NEED_NO_BOX(::Newtonsoft::Json::Serialization::JsonDynamicContract);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Serialization::JsonDynamicContract*, "Newtonsoft.Json.Serialization", "JsonDynamicContract");
 // Type namespace: Newtonsoft.Json.Serialization
 namespace Newtonsoft::Json::Serialization {
   // WARNING Size may be invalid!
@@ -68,7 +68,7 @@ namespace Newtonsoft::Json::Serialization {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NullableContextAttribute] Offset: 12029A8
   // [NullableAttribute] Offset: 12029A8
-  class JsonDynamicContract : public Newtonsoft::Json::Serialization::JsonContainerContract {
+  class JsonDynamicContract : public ::Newtonsoft::Json::Serialization::JsonContainerContract {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -82,67 +82,67 @@ namespace Newtonsoft::Json::Serialization {
     // private readonly Newtonsoft.Json.Serialization.JsonPropertyCollection <Properties>k__BackingField
     // Size: 0x8
     // Offset: 0xC0
-    Newtonsoft::Json::Serialization::JsonPropertyCollection* Properties;
+    ::Newtonsoft::Json::Serialization::JsonPropertyCollection* Properties;
     // Field size check
-    static_assert(sizeof(Newtonsoft::Json::Serialization::JsonPropertyCollection*) == 0x8);
+    static_assert(sizeof(::Newtonsoft::Json::Serialization::JsonPropertyCollection*) == 0x8);
     // [NullableAttribute] Offset: 0x12062A0
     // private System.Func`2<System.String,System.String> <PropertyNameResolver>k__BackingField
     // Size: 0x8
     // Offset: 0xC8
-    System::Func_2<::StringW, ::StringW>* PropertyNameResolver;
+    ::System::Func_2<::StringW, ::StringW>* PropertyNameResolver;
     // Field size check
-    static_assert(sizeof(System::Func_2<::StringW, ::StringW>*) == 0x8);
+    static_assert(sizeof(::System::Func_2<::StringW, ::StringW>*) == 0x8);
     // private readonly Newtonsoft.Json.Utilities.ThreadSafeStore`2<System.String,System.Runtime.CompilerServices.CallSite`1<System.Func`3<System.Runtime.CompilerServices.CallSite,System.Object,System.Object>>> _callSiteGetters
     // Size: 0x8
     // Offset: 0xD0
-    Newtonsoft::Json::Utilities::ThreadSafeStore_2<::StringW, System::Runtime::CompilerServices::CallSite_1<System::Func_3<System::Runtime::CompilerServices::CallSite*, ::Il2CppObject*, ::Il2CppObject*>*>*>* callSiteGetters;
+    ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::StringW, ::System::Runtime::CompilerServices::CallSite_1<::System::Func_3<::System::Runtime::CompilerServices::CallSite*, ::Il2CppObject*, ::Il2CppObject*>*>*>* callSiteGetters;
     // Field size check
-    static_assert(sizeof(Newtonsoft::Json::Utilities::ThreadSafeStore_2<::StringW, System::Runtime::CompilerServices::CallSite_1<System::Func_3<System::Runtime::CompilerServices::CallSite*, ::Il2CppObject*, ::Il2CppObject*>*>*>*) == 0x8);
+    static_assert(sizeof(::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::StringW, ::System::Runtime::CompilerServices::CallSite_1<::System::Func_3<::System::Runtime::CompilerServices::CallSite*, ::Il2CppObject*, ::Il2CppObject*>*>*>*) == 0x8);
     // [NullableAttribute] Offset: 0x1206324
     // private readonly Newtonsoft.Json.Utilities.ThreadSafeStore`2<System.String,System.Runtime.CompilerServices.CallSite`1<System.Func`4<System.Runtime.CompilerServices.CallSite,System.Object,System.Object,System.Object>>> _callSiteSetters
     // Size: 0x8
     // Offset: 0xD8
-    Newtonsoft::Json::Utilities::ThreadSafeStore_2<::StringW, System::Runtime::CompilerServices::CallSite_1<System::Func_4<System::Runtime::CompilerServices::CallSite*, ::Il2CppObject*, ::Il2CppObject*, ::Il2CppObject*>*>*>* callSiteSetters;
+    ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::StringW, ::System::Runtime::CompilerServices::CallSite_1<::System::Func_4<::System::Runtime::CompilerServices::CallSite*, ::Il2CppObject*, ::Il2CppObject*, ::Il2CppObject*>*>*>* callSiteSetters;
     // Field size check
-    static_assert(sizeof(Newtonsoft::Json::Utilities::ThreadSafeStore_2<::StringW, System::Runtime::CompilerServices::CallSite_1<System::Func_4<System::Runtime::CompilerServices::CallSite*, ::Il2CppObject*, ::Il2CppObject*, ::Il2CppObject*>*>*>*) == 0x8);
+    static_assert(sizeof(::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::StringW, ::System::Runtime::CompilerServices::CallSite_1<::System::Func_4<::System::Runtime::CompilerServices::CallSite*, ::Il2CppObject*, ::Il2CppObject*, ::Il2CppObject*>*>*>*) == 0x8);
     public:
     // Get instance field reference: private readonly Newtonsoft.Json.Serialization.JsonPropertyCollection <Properties>k__BackingField
-    Newtonsoft::Json::Serialization::JsonPropertyCollection*& dyn_$Properties$k__BackingField();
+    ::Newtonsoft::Json::Serialization::JsonPropertyCollection*& dyn_$Properties$k__BackingField();
     // Get instance field reference: private System.Func`2<System.String,System.String> <PropertyNameResolver>k__BackingField
-    System::Func_2<::StringW, ::StringW>*& dyn_$PropertyNameResolver$k__BackingField();
+    ::System::Func_2<::StringW, ::StringW>*& dyn_$PropertyNameResolver$k__BackingField();
     // Get instance field reference: private readonly Newtonsoft.Json.Utilities.ThreadSafeStore`2<System.String,System.Runtime.CompilerServices.CallSite`1<System.Func`3<System.Runtime.CompilerServices.CallSite,System.Object,System.Object>>> _callSiteGetters
-    Newtonsoft::Json::Utilities::ThreadSafeStore_2<::StringW, System::Runtime::CompilerServices::CallSite_1<System::Func_3<System::Runtime::CompilerServices::CallSite*, ::Il2CppObject*, ::Il2CppObject*>*>*>*& dyn__callSiteGetters();
+    ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::StringW, ::System::Runtime::CompilerServices::CallSite_1<::System::Func_3<::System::Runtime::CompilerServices::CallSite*, ::Il2CppObject*, ::Il2CppObject*>*>*>*& dyn__callSiteGetters();
     // Get instance field reference: private readonly Newtonsoft.Json.Utilities.ThreadSafeStore`2<System.String,System.Runtime.CompilerServices.CallSite`1<System.Func`4<System.Runtime.CompilerServices.CallSite,System.Object,System.Object,System.Object>>> _callSiteSetters
-    Newtonsoft::Json::Utilities::ThreadSafeStore_2<::StringW, System::Runtime::CompilerServices::CallSite_1<System::Func_4<System::Runtime::CompilerServices::CallSite*, ::Il2CppObject*, ::Il2CppObject*, ::Il2CppObject*>*>*>*& dyn__callSiteSetters();
+    ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::StringW, ::System::Runtime::CompilerServices::CallSite_1<::System::Func_4<::System::Runtime::CompilerServices::CallSite*, ::Il2CppObject*, ::Il2CppObject*, ::Il2CppObject*>*>*>*& dyn__callSiteSetters();
     // public Newtonsoft.Json.Serialization.JsonPropertyCollection get_Properties()
     // Offset: 0x152F4B8
-    Newtonsoft::Json::Serialization::JsonPropertyCollection* get_Properties();
+    ::Newtonsoft::Json::Serialization::JsonPropertyCollection* get_Properties();
     // public System.Func`2<System.String,System.String> get_PropertyNameResolver()
     // Offset: 0x152F4C0
-    System::Func_2<::StringW, ::StringW>* get_PropertyNameResolver();
+    ::System::Func_2<::StringW, ::StringW>* get_PropertyNameResolver();
     // public System.Void set_PropertyNameResolver(System.Func`2<System.String,System.String> value)
     // Offset: 0x152F4C8
-    void set_PropertyNameResolver(System::Func_2<::StringW, ::StringW>* value);
+    void set_PropertyNameResolver(::System::Func_2<::StringW, ::StringW>* value);
     // static private System.Runtime.CompilerServices.CallSite`1<System.Func`3<System.Runtime.CompilerServices.CallSite,System.Object,System.Object>> CreateCallSiteGetter(System.String name)
     // Offset: 0x152F4D0
-    static System::Runtime::CompilerServices::CallSite_1<System::Func_3<System::Runtime::CompilerServices::CallSite*, ::Il2CppObject*, ::Il2CppObject*>*>* CreateCallSiteGetter(::StringW name);
+    static ::System::Runtime::CompilerServices::CallSite_1<::System::Func_3<::System::Runtime::CompilerServices::CallSite*, ::Il2CppObject*, ::Il2CppObject*>*>* CreateCallSiteGetter(::StringW name);
     // static private System.Runtime.CompilerServices.CallSite`1<System.Func`4<System.Runtime.CompilerServices.CallSite,System.Object,System.Object,System.Object>> CreateCallSiteSetter(System.String name)
     // Offset: 0x152F5D4
-    static System::Runtime::CompilerServices::CallSite_1<System::Func_4<System::Runtime::CompilerServices::CallSite*, ::Il2CppObject*, ::Il2CppObject*, ::Il2CppObject*>*>* CreateCallSiteSetter(::StringW name);
+    static ::System::Runtime::CompilerServices::CallSite_1<::System::Func_4<::System::Runtime::CompilerServices::CallSite*, ::Il2CppObject*, ::Il2CppObject*, ::Il2CppObject*>*>* CreateCallSiteSetter(::StringW name);
     // System.Boolean TryGetMember(System.Dynamic.IDynamicMetaObjectProvider dynamicProvider, System.String name, out System.Object value)
     // Offset: 0x152F6D8
-    bool TryGetMember(System::Dynamic::IDynamicMetaObjectProvider* dynamicProvider, ::StringW name, ByRef<::Il2CppObject*> value);
+    bool TryGetMember(::System::Dynamic::IDynamicMetaObjectProvider* dynamicProvider, ::StringW name, ByRef<::Il2CppObject*> value);
     // System.Boolean TrySetMember(System.Dynamic.IDynamicMetaObjectProvider dynamicProvider, System.String name, System.Object value)
     // Offset: 0x152F7D4
-    bool TrySetMember(System::Dynamic::IDynamicMetaObjectProvider* dynamicProvider, ::StringW name, ::Il2CppObject* value);
+    bool TrySetMember(::System::Dynamic::IDynamicMetaObjectProvider* dynamicProvider, ::StringW name, ::Il2CppObject* value);
     // public System.Void .ctor(System.Type underlyingType)
     // Offset: 0x1529D3C
     // Implemented from: Newtonsoft.Json.Serialization.JsonContainerContract
     // Base method: System.Void JsonContainerContract::.ctor(System.Type underlyingType)
     // Base method: System.Void JsonContract::.ctor(System.Type underlyingType)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static JsonDynamicContract* New_ctor(System::Type* underlyingType) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Serialization::JsonDynamicContract::.ctor");
+    static JsonDynamicContract* New_ctor(::System::Type* underlyingType) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::JsonDynamicContract::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JsonDynamicContract*, creationType>(underlyingType)));
     }
   }; // Newtonsoft.Json.Serialization.JsonDynamicContract
@@ -152,7 +152,7 @@ namespace Newtonsoft::Json::Serialization {
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::JsonDynamicContract::get_Properties
 // Il2CppName: get_Properties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Serialization::JsonPropertyCollection* (Newtonsoft::Json::Serialization::JsonDynamicContract::*)()>(&Newtonsoft::Json::Serialization::JsonDynamicContract::get_Properties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Serialization::JsonPropertyCollection* (Newtonsoft::Json::Serialization::JsonDynamicContract::*)()>(&Newtonsoft::Json::Serialization::JsonDynamicContract::get_Properties)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::JsonDynamicContract*), "get_Properties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -160,7 +160,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft:
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::JsonDynamicContract::get_PropertyNameResolver
 // Il2CppName: get_PropertyNameResolver
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Func_2<::StringW, ::StringW>* (Newtonsoft::Json::Serialization::JsonDynamicContract::*)()>(&Newtonsoft::Json::Serialization::JsonDynamicContract::get_PropertyNameResolver)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Func_2<::StringW, ::StringW>* (Newtonsoft::Json::Serialization::JsonDynamicContract::*)()>(&Newtonsoft::Json::Serialization::JsonDynamicContract::get_PropertyNameResolver)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::JsonDynamicContract*), "get_PropertyNameResolver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -168,7 +168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Fun
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::JsonDynamicContract::set_PropertyNameResolver
 // Il2CppName: set_PropertyNameResolver
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::JsonDynamicContract::*)(System::Func_2<::StringW, ::StringW>*)>(&Newtonsoft::Json::Serialization::JsonDynamicContract::set_PropertyNameResolver)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::JsonDynamicContract::*)(::System::Func_2<::StringW, ::StringW>*)>(&Newtonsoft::Json::Serialization::JsonDynamicContract::set_PropertyNameResolver)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::JsonDynamicContract*), "set_PropertyNameResolver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -177,7 +177,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::JsonDynamicContract::CreateCallSiteGetter
 // Il2CppName: CreateCallSiteGetter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::CompilerServices::CallSite_1<System::Func_3<System::Runtime::CompilerServices::CallSite*, ::Il2CppObject*, ::Il2CppObject*>*>* (*)(::StringW)>(&Newtonsoft::Json::Serialization::JsonDynamicContract::CreateCallSiteGetter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::CompilerServices::CallSite_1<::System::Func_3<::System::Runtime::CompilerServices::CallSite*, ::Il2CppObject*, ::Il2CppObject*>*>* (*)(::StringW)>(&Newtonsoft::Json::Serialization::JsonDynamicContract::CreateCallSiteGetter)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::JsonDynamicContract*), "CreateCallSiteGetter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -186,7 +186,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::JsonDynamicContract::CreateCallSiteSetter
 // Il2CppName: CreateCallSiteSetter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::CompilerServices::CallSite_1<System::Func_4<System::Runtime::CompilerServices::CallSite*, ::Il2CppObject*, ::Il2CppObject*, ::Il2CppObject*>*>* (*)(::StringW)>(&Newtonsoft::Json::Serialization::JsonDynamicContract::CreateCallSiteSetter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::CompilerServices::CallSite_1<::System::Func_4<::System::Runtime::CompilerServices::CallSite*, ::Il2CppObject*, ::Il2CppObject*, ::Il2CppObject*>*>* (*)(::StringW)>(&Newtonsoft::Json::Serialization::JsonDynamicContract::CreateCallSiteSetter)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::JsonDynamicContract*), "CreateCallSiteSetter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -195,7 +195,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::JsonDynamicContract::TryGetMember
 // Il2CppName: TryGetMember
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Serialization::JsonDynamicContract::*)(System::Dynamic::IDynamicMetaObjectProvider*, ::StringW, ByRef<::Il2CppObject*>)>(&Newtonsoft::Json::Serialization::JsonDynamicContract::TryGetMember)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Serialization::JsonDynamicContract::*)(::System::Dynamic::IDynamicMetaObjectProvider*, ::StringW, ByRef<::Il2CppObject*>)>(&Newtonsoft::Json::Serialization::JsonDynamicContract::TryGetMember)> {
   static const MethodInfo* get() {
     static auto* dynamicProvider = &::il2cpp_utils::GetClassFromName("System.Dynamic", "IDynamicMetaObjectProvider")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -206,7 +206,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::JsonDynamicContract::TrySetMember
 // Il2CppName: TrySetMember
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Serialization::JsonDynamicContract::*)(System::Dynamic::IDynamicMetaObjectProvider*, ::StringW, ::Il2CppObject*)>(&Newtonsoft::Json::Serialization::JsonDynamicContract::TrySetMember)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Serialization::JsonDynamicContract::*)(::System::Dynamic::IDynamicMetaObjectProvider*, ::StringW, ::Il2CppObject*)>(&Newtonsoft::Json::Serialization::JsonDynamicContract::TrySetMember)> {
   static const MethodInfo* get() {
     static auto* dynamicProvider = &::il2cpp_utils::GetClassFromName("System.Dynamic", "IDynamicMetaObjectProvider")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

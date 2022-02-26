@@ -29,8 +29,8 @@ namespace Oculus::Platform {
   class Parties;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Parties);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Parties*, "Oculus.Platform", "Parties");
+NEED_NO_BOX(::Oculus::Platform::Parties);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Parties*, "Oculus.Platform", "Parties");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x10
@@ -41,10 +41,10 @@ namespace Oculus::Platform {
     public:
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Party> GetCurrent()
     // Offset: 0x29FC784
-    static Oculus::Platform::Request_1<Oculus::Platform::Models::Party*>* GetCurrent();
+    static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::Party*>* GetCurrent();
     // static public System.Void SetPartyUpdateNotificationCallback(Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.PartyUpdateNotification> callback)
     // Offset: 0x29FC890
-    static void SetPartyUpdateNotificationCallback(typename Oculus::Platform::Message_1<Oculus::Platform::Models::PartyUpdateNotification*>::Callback* callback);
+    static void SetPartyUpdateNotificationCallback(typename ::Oculus::Platform::Message_1<::Oculus::Platform::Models::PartyUpdateNotification*>::Callback* callback);
   }; // Oculus.Platform.Parties
   #pragma pack(pop)
 }
@@ -52,7 +52,7 @@ namespace Oculus::Platform {
 // Writing MetadataGetter for method: Oculus::Platform::Parties::GetCurrent
 // Il2CppName: GetCurrent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::Party*>* (*)()>(&Oculus::Platform::Parties::GetCurrent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::Party*>* (*)()>(&Oculus::Platform::Parties::GetCurrent)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Parties*), "GetCurrent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

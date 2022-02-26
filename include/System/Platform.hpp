@@ -19,8 +19,8 @@ namespace System {
   class Platform;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Platform);
-DEFINE_IL2CPP_ARG_TYPE(System::Platform*, "System", "Platform");
+NEED_NO_BOX(::System::Platform);
+DEFINE_IL2CPP_ARG_TYPE(::System::Platform*, "System", "Platform");
 // Type namespace: System
 namespace System {
   // Size: 0x10
@@ -49,7 +49,7 @@ namespace System {
     static bool get_IsFreeBSD();
     // static private System.Int32 uname(System.IntPtr buf)
     // Offset: 0x1BE5E08
-    static int uname(System::IntPtr buf);
+    static int uname(::System::IntPtr buf);
     // static private System.Void CheckOS()
     // Offset: 0x1BE5E88
     static void CheckOS();
@@ -76,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Writing MetadataGetter for method: System::Platform::uname
 // Il2CppName: uname
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr)>(&System::Platform::uname)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::System::IntPtr)>(&System::Platform::uname)> {
   static const MethodInfo* get() {
     static auto* buf = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Platform*), "uname", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buf});

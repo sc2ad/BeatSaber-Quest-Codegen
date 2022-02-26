@@ -110,8 +110,8 @@ namespace System::Data {
   class DataSet;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Data::DataSet);
-DEFINE_IL2CPP_ARG_TYPE(System::Data::DataSet*, "System.Data", "DataSet");
+NEED_NO_BOX(::System::Data::DataSet);
+DEFINE_IL2CPP_ARG_TYPE(::System::Data::DataSet*, "System.Data", "DataSet");
 // Type namespace: System.Data
 namespace System::Data {
   // Size: 0xB0
@@ -121,7 +121,7 @@ namespace System::Data {
   // [XmlSchemaProviderAttribute] Offset: 11D04FC
   // [XmlRootAttribute] Offset: 11D04FC
   // [DefaultPropertyAttribute] Offset: 11D04FC
-  class DataSet : public System::ComponentModel::MarshalByValueComponent/*, public System::Xml::Serialization::IXmlSerializable, public System::Runtime::Serialization::ISerializable*/ {
+  class DataSet : public ::System::ComponentModel::MarshalByValueComponent/*, public ::System::Xml::Serialization::IXmlSerializable, public ::System::Runtime::Serialization::ISerializable*/ {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -135,27 +135,27 @@ namespace System::Data {
     // private System.Data.DataViewManager _defaultViewManager
     // Size: 0x8
     // Offset: 0x20
-    System::Data::DataViewManager* defaultViewManager;
+    ::System::Data::DataViewManager* defaultViewManager;
     // Field size check
-    static_assert(sizeof(System::Data::DataViewManager*) == 0x8);
+    static_assert(sizeof(::System::Data::DataViewManager*) == 0x8);
     // private readonly System.Data.DataTableCollection _tableCollection
     // Size: 0x8
     // Offset: 0x28
-    System::Data::DataTableCollection* tableCollection;
+    ::System::Data::DataTableCollection* tableCollection;
     // Field size check
-    static_assert(sizeof(System::Data::DataTableCollection*) == 0x8);
+    static_assert(sizeof(::System::Data::DataTableCollection*) == 0x8);
     // private readonly System.Data.DataRelationCollection _relationCollection
     // Size: 0x8
     // Offset: 0x30
-    System::Data::DataRelationCollection* relationCollection;
+    ::System::Data::DataRelationCollection* relationCollection;
     // Field size check
-    static_assert(sizeof(System::Data::DataRelationCollection*) == 0x8);
+    static_assert(sizeof(::System::Data::DataRelationCollection*) == 0x8);
     // System.Data.PropertyCollection _extendedProperties
     // Size: 0x8
     // Offset: 0x38
-    System::Data::PropertyCollection* extendedProperties;
+    ::System::Data::PropertyCollection* extendedProperties;
     // Field size check
-    static_assert(sizeof(System::Data::PropertyCollection*) == 0x8);
+    static_assert(sizeof(::System::Data::PropertyCollection*) == 0x8);
     // private System.String _dataSetName
     // Size: 0x8
     // Offset: 0x40
@@ -191,9 +191,9 @@ namespace System::Data {
     // private System.Globalization.CultureInfo _culture
     // Size: 0x8
     // Offset: 0x60
-    System::Globalization::CultureInfo* culture;
+    ::System::Globalization::CultureInfo* culture;
     // Field size check
-    static_assert(sizeof(System::Globalization::CultureInfo*) == 0x8);
+    static_assert(sizeof(::System::Globalization::CultureInfo*) == 0x8);
     // private System.Boolean _cultureUserSet
     // Size: 0x1
     // Offset: 0x68
@@ -247,9 +247,9 @@ namespace System::Data {
     // private System.Data.SerializationFormat _remotingFormat
     // Size: 0x4
     // Offset: 0x78
-    System::Data::SerializationFormat remotingFormat;
+    ::System::Data::SerializationFormat remotingFormat;
     // Field size check
-    static_assert(sizeof(System::Data::SerializationFormat) == 0x4);
+    static_assert(sizeof(::System::Data::SerializationFormat) == 0x4);
     // Padding between fields: remotingFormat and: defaultViewManagerLock
     char __padding18[0x4] = {};
     // private System.Object _defaultViewManagerLock
@@ -281,52 +281,52 @@ namespace System::Data {
     // private System.ComponentModel.PropertyChangedEventHandler PropertyChanging
     // Size: 0x8
     // Offset: 0x90
-    System::ComponentModel::PropertyChangedEventHandler* PropertyChanging;
+    ::System::ComponentModel::PropertyChangedEventHandler* PropertyChanging;
     // Field size check
-    static_assert(sizeof(System::ComponentModel::PropertyChangedEventHandler*) == 0x8);
+    static_assert(sizeof(::System::ComponentModel::PropertyChangedEventHandler*) == 0x8);
     // private System.Data.MergeFailedEventHandler MergeFailed
     // Size: 0x8
     // Offset: 0x98
-    System::Data::MergeFailedEventHandler* MergeFailed;
+    ::System::Data::MergeFailedEventHandler* MergeFailed;
     // Field size check
-    static_assert(sizeof(System::Data::MergeFailedEventHandler*) == 0x8);
+    static_assert(sizeof(::System::Data::MergeFailedEventHandler*) == 0x8);
     // private System.Data.DataRowCreatedEventHandler DataRowCreated
     // Size: 0x8
     // Offset: 0xA0
-    System::Data::DataRowCreatedEventHandler* DataRowCreated;
+    ::System::Data::DataRowCreatedEventHandler* DataRowCreated;
     // Field size check
-    static_assert(sizeof(System::Data::DataRowCreatedEventHandler*) == 0x8);
+    static_assert(sizeof(::System::Data::DataRowCreatedEventHandler*) == 0x8);
     // private System.Data.DataSetClearEventhandler ClearFunctionCalled
     // Size: 0x8
     // Offset: 0xA8
-    System::Data::DataSetClearEventhandler* ClearFunctionCalled;
+    ::System::Data::DataSetClearEventhandler* ClearFunctionCalled;
     // Field size check
-    static_assert(sizeof(System::Data::DataSetClearEventhandler*) == 0x8);
+    static_assert(sizeof(::System::Data::DataSetClearEventhandler*) == 0x8);
     public:
-    // Creating interface conversion operator: operator System::Xml::Serialization::IXmlSerializable
-    operator System::Xml::Serialization::IXmlSerializable() noexcept {
-      return *reinterpret_cast<System::Xml::Serialization::IXmlSerializable*>(this);
+    // Creating interface conversion operator: operator ::System::Xml::Serialization::IXmlSerializable
+    operator ::System::Xml::Serialization::IXmlSerializable() noexcept {
+      return *reinterpret_cast<::System::Xml::Serialization::IXmlSerializable*>(this);
     }
-    // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
-    operator System::Runtime::Serialization::ISerializable() noexcept {
-      return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);
+    // Creating interface conversion operator: operator ::System::Runtime::Serialization::ISerializable
+    operator ::System::Runtime::Serialization::ISerializable() noexcept {
+      return *reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
     }
     // Get static field: static private System.Int32 s_objectTypeCount
     static int _get_s_objectTypeCount();
     // Set static field: static private System.Int32 s_objectTypeCount
     static void _set_s_objectTypeCount(int value);
     // Get static field: static private System.Xml.Schema.XmlSchemaComplexType s_schemaTypeForWSDL
-    static System::Xml::Schema::XmlSchemaComplexType* _get_s_schemaTypeForWSDL();
+    static ::System::Xml::Schema::XmlSchemaComplexType* _get_s_schemaTypeForWSDL();
     // Set static field: static private System.Xml.Schema.XmlSchemaComplexType s_schemaTypeForWSDL
-    static void _set_s_schemaTypeForWSDL(System::Xml::Schema::XmlSchemaComplexType* value);
+    static void _set_s_schemaTypeForWSDL(::System::Xml::Schema::XmlSchemaComplexType* value);
     // Get instance field reference: private System.Data.DataViewManager _defaultViewManager
-    System::Data::DataViewManager*& dyn__defaultViewManager();
+    ::System::Data::DataViewManager*& dyn__defaultViewManager();
     // Get instance field reference: private readonly System.Data.DataTableCollection _tableCollection
-    System::Data::DataTableCollection*& dyn__tableCollection();
+    ::System::Data::DataTableCollection*& dyn__tableCollection();
     // Get instance field reference: private readonly System.Data.DataRelationCollection _relationCollection
-    System::Data::DataRelationCollection*& dyn__relationCollection();
+    ::System::Data::DataRelationCollection*& dyn__relationCollection();
     // Get instance field reference: System.Data.PropertyCollection _extendedProperties
-    System::Data::PropertyCollection*& dyn__extendedProperties();
+    ::System::Data::PropertyCollection*& dyn__extendedProperties();
     // Get instance field reference: private System.String _dataSetName
     ::StringW& dyn__dataSetName();
     // Get instance field reference: private System.String _datasetPrefix
@@ -338,7 +338,7 @@ namespace System::Data {
     // Get instance field reference: private System.Boolean _caseSensitive
     bool& dyn__caseSensitive();
     // Get instance field reference: private System.Globalization.CultureInfo _culture
-    System::Globalization::CultureInfo*& dyn__culture();
+    ::System::Globalization::CultureInfo*& dyn__culture();
     // Get instance field reference: private System.Boolean _cultureUserSet
     bool& dyn__cultureUserSet();
     // Get instance field reference: System.Boolean _fInReadXml
@@ -356,7 +356,7 @@ namespace System::Data {
     // Get instance field reference: System.String _mainTableName
     ::StringW& dyn__mainTableName();
     // Get instance field reference: private System.Data.SerializationFormat _remotingFormat
-    System::Data::SerializationFormat& dyn__remotingFormat();
+    ::System::Data::SerializationFormat& dyn__remotingFormat();
     // Get instance field reference: private System.Object _defaultViewManagerLock
     ::Il2CppObject*& dyn__defaultViewManagerLock();
     // Get instance field reference: private readonly System.Int32 _objectID
@@ -366,22 +366,22 @@ namespace System::Data {
     // Get instance field reference: System.Boolean _udtIsWrapped
     bool& dyn__udtIsWrapped();
     // Get instance field reference: private System.ComponentModel.PropertyChangedEventHandler PropertyChanging
-    System::ComponentModel::PropertyChangedEventHandler*& dyn_PropertyChanging();
+    ::System::ComponentModel::PropertyChangedEventHandler*& dyn_PropertyChanging();
     // Get instance field reference: private System.Data.MergeFailedEventHandler MergeFailed
-    System::Data::MergeFailedEventHandler*& dyn_MergeFailed();
+    ::System::Data::MergeFailedEventHandler*& dyn_MergeFailed();
     // Get instance field reference: private System.Data.DataRowCreatedEventHandler DataRowCreated
-    System::Data::DataRowCreatedEventHandler*& dyn_DataRowCreated();
+    ::System::Data::DataRowCreatedEventHandler*& dyn_DataRowCreated();
     // Get instance field reference: private System.Data.DataSetClearEventhandler ClearFunctionCalled
-    System::Data::DataSetClearEventhandler*& dyn_ClearFunctionCalled();
+    ::System::Data::DataSetClearEventhandler*& dyn_ClearFunctionCalled();
     // public System.Data.SerializationFormat get_RemotingFormat()
     // Offset: 0x15B40A4
-    System::Data::SerializationFormat get_RemotingFormat();
+    ::System::Data::SerializationFormat get_RemotingFormat();
     // public System.Void set_RemotingFormat(System.Data.SerializationFormat value)
     // Offset: 0x15B40AC
-    void set_RemotingFormat(System::Data::SerializationFormat value);
+    void set_RemotingFormat(::System::Data::SerializationFormat value);
     // public System.Data.SchemaSerializationMode get_SchemaSerializationMode()
     // Offset: 0x15B4204
-    System::Data::SchemaSerializationMode get_SchemaSerializationMode();
+    ::System::Data::SchemaSerializationMode get_SchemaSerializationMode();
     // public System.Boolean get_CaseSensitive()
     // Offset: 0x15B930C
     bool get_CaseSensitive();
@@ -414,19 +414,19 @@ namespace System::Data {
     void set_Prefix(::StringW value);
     // public System.Data.PropertyCollection get_ExtendedProperties()
     // Offset: 0x15B9104
-    System::Data::PropertyCollection* get_ExtendedProperties();
+    ::System::Data::PropertyCollection* get_ExtendedProperties();
     // public System.Globalization.CultureInfo get_Locale()
     // Offset: 0x15BB0F4
-    System::Globalization::CultureInfo* get_Locale();
+    ::System::Globalization::CultureInfo* get_Locale();
     // public System.Void set_Locale(System.Globalization.CultureInfo value)
     // Offset: 0x15BB0FC
-    void set_Locale(System::Globalization::CultureInfo* value);
+    void set_Locale(::System::Globalization::CultureInfo* value);
     // public System.Data.DataRelationCollection get_Relations()
     // Offset: 0x15BC5D8
-    System::Data::DataRelationCollection* get_Relations();
+    ::System::Data::DataRelationCollection* get_Relations();
     // public System.Data.DataTableCollection get_Tables()
     // Offset: 0x15BC5E0
-    System::Data::DataTableCollection* get_Tables();
+    ::System::Data::DataTableCollection* get_Tables();
     // System.String get_MainTableName()
     // Offset: 0x15C31A4
     ::StringW get_MainTableName();
@@ -440,53 +440,53 @@ namespace System::Data {
     // Offset: 0x15B3F50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DataSet* New_ctor(::StringW dataSetName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Data::DataSet::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Data::DataSet::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DataSet*, creationType>(dataSetName)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x15B420C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DataSet* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Data::DataSet::.ctor");
+    static DataSet* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Data::DataSet::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DataSet*, creationType>(info, context)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context, System.Boolean ConstructSchema)
     // Offset: 0x15B4214
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DataSet* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context, bool ConstructSchema) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Data::DataSet::.ctor");
+    static DataSet* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context, bool ConstructSchema) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Data::DataSet::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DataSet*, creationType>(info, context, ConstructSchema)));
     }
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x15B445C
-    void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
+    void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
     // protected System.Void InitializeDerivedDataSet()
     // Offset: 0x15B49A8
     void InitializeDerivedDataSet();
     // private System.Void SerializeDataSet(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context, System.Data.SerializationFormat remotingFormat)
     // Offset: 0x15B4464
-    void SerializeDataSet(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context, System::Data::SerializationFormat remotingFormat);
+    void SerializeDataSet(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context, ::System::Data::SerializationFormat remotingFormat);
     // System.Void DeserializeDataSet(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context, System.Data.SerializationFormat remotingFormat, System.Data.SchemaSerializationMode schemaSerializationMode)
     // Offset: 0x15B4408
-    void DeserializeDataSet(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context, System::Data::SerializationFormat remotingFormat, System::Data::SchemaSerializationMode schemaSerializationMode);
+    void DeserializeDataSet(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context, ::System::Data::SerializationFormat remotingFormat, ::System::Data::SchemaSerializationMode schemaSerializationMode);
     // private System.Void DeserializeDataSetSchema(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context, System.Data.SerializationFormat remotingFormat, System.Data.SchemaSerializationMode schemaSerializationMode)
     // Offset: 0x15B62F0
-    void DeserializeDataSetSchema(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context, System::Data::SerializationFormat remotingFormat, System::Data::SchemaSerializationMode schemaSerializationMode);
+    void DeserializeDataSetSchema(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context, ::System::Data::SerializationFormat remotingFormat, ::System::Data::SchemaSerializationMode schemaSerializationMode);
     // private System.Void DeserializeDataSetData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context, System.Data.SerializationFormat remotingFormat)
     // Offset: 0x15B672C
-    void DeserializeDataSetData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context, System::Data::SerializationFormat remotingFormat);
+    void DeserializeDataSetData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context, ::System::Data::SerializationFormat remotingFormat);
     // private System.Void SerializeDataSetProperties(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x15B49AC
-    void SerializeDataSetProperties(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
+    void SerializeDataSetProperties(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
     // private System.Void DeserializeDataSetProperties(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x15B68B4
-    void DeserializeDataSetProperties(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
+    void DeserializeDataSetProperties(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
     // private System.Void SerializeRelations(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x15B51C8
-    void SerializeRelations(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
+    void SerializeRelations(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
     // private System.Void DeserializeRelations(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x15B76C8
-    void DeserializeRelations(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
+    void DeserializeRelations(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
     // System.Void FailedEnableConstraints()
     // Offset: 0x15B9170
     void FailedEnableConstraints();
@@ -498,7 +498,7 @@ namespace System::Data {
     void EnableConstraints();
     // System.Void SetLocaleValue(System.Globalization.CultureInfo value, System.Boolean userSet)
     // Offset: 0x15BB248
-    void SetLocaleValue(System::Globalization::CultureInfo* value, bool userSet);
+    void SetLocaleValue(::System::Globalization::CultureInfo* value, bool userSet);
     // System.Boolean ShouldSerializeLocale()
     // Offset: 0x15BC5C8
     bool ShouldSerializeLocale();
@@ -507,106 +507,106 @@ namespace System::Data {
     void Clear();
     // public System.Data.DataSet Clone()
     // Offset: 0x15BC7C4
-    System::Data::DataSet* Clone();
+    ::System::Data::DataSet* Clone();
     // System.Int32 EstimatedXmlStringSize()
     // Offset: 0x15B601C
     int EstimatedXmlStringSize();
     // System.String GetRemotingDiffGram(System.Data.DataTable table)
     // Offset: 0x15BD8E8
-    ::StringW GetRemotingDiffGram(System::Data::DataTable* table);
+    ::StringW GetRemotingDiffGram(::System::Data::DataTable* table);
     // System.String GetXmlSchemaForRemoting(System.Data.DataTable table)
     // Offset: 0x15B5E90
-    ::StringW GetXmlSchemaForRemoting(System::Data::DataTable* table);
+    ::StringW GetXmlSchemaForRemoting(::System::Data::DataTable* table);
     // public System.Void ReadXmlSchema(System.Xml.XmlReader reader)
     // Offset: 0x15BDA04
-    void ReadXmlSchema(System::Xml::XmlReader* reader);
+    void ReadXmlSchema(::System::Xml::XmlReader* reader);
     // System.Void ReadXmlSchema(System.Xml.XmlReader reader, System.Boolean denyResolving)
     // Offset: 0x15B7FE4
-    void ReadXmlSchema(System::Xml::XmlReader* reader, bool denyResolving);
+    void ReadXmlSchema(::System::Xml::XmlReader* reader, bool denyResolving);
     // System.Boolean MoveToElement(System.Xml.XmlReader reader, System.Int32 depth)
     // Offset: 0x15BDDCC
-    bool MoveToElement(System::Xml::XmlReader* reader, int depth);
+    bool MoveToElement(::System::Xml::XmlReader* reader, int depth);
     // static private System.Void MoveToElement(System.Xml.XmlReader reader)
     // Offset: 0x15BE220
-    static void MoveToElement(System::Xml::XmlReader* reader);
+    static void MoveToElement(::System::Xml::XmlReader* reader);
     // System.Void ReadEndElement(System.Xml.XmlReader reader)
     // Offset: 0x15BDE84
-    void ReadEndElement(System::Xml::XmlReader* reader);
+    void ReadEndElement(::System::Xml::XmlReader* reader);
     // System.Void ReadXSDSchema(System.Xml.XmlReader reader, System.Boolean denyResolving)
     // Offset: 0x15BDB54
-    void ReadXSDSchema(System::Xml::XmlReader* reader, bool denyResolving);
+    void ReadXSDSchema(::System::Xml::XmlReader* reader, bool denyResolving);
     // System.Void ReadXDRSchema(System.Xml.XmlReader reader)
     // Offset: 0x15BDA0C
-    void ReadXDRSchema(System::Xml::XmlReader* reader);
+    void ReadXDRSchema(::System::Xml::XmlReader* reader);
     // private System.Void WriteXmlSchema(System.Xml.XmlWriter writer, System.Data.SchemaFormat schemaFormat, System.Converter`2<System.Type,System.String> multipleTargetConverter)
     // Offset: 0x15BE2A4
-    void WriteXmlSchema(System::Xml::XmlWriter* writer, System::Data::SchemaFormat schemaFormat, System::Converter_2<System::Type*, ::StringW>* multipleTargetConverter);
+    void WriteXmlSchema(::System::Xml::XmlWriter* writer, ::System::Data::SchemaFormat schemaFormat, ::System::Converter_2<::System::Type*, ::StringW>* multipleTargetConverter);
     // public System.Data.XmlReadMode ReadXml(System.Xml.XmlReader reader)
     // Offset: 0x15BE490
-    System::Data::XmlReadMode ReadXml(System::Xml::XmlReader* reader);
+    ::System::Data::XmlReadMode ReadXml(::System::Xml::XmlReader* reader);
     // System.Data.XmlReadMode ReadXml(System.Xml.XmlReader reader, System.Boolean denyResolving)
     // Offset: 0x15BE498
-    System::Data::XmlReadMode ReadXml(System::Xml::XmlReader* reader, bool denyResolving);
+    ::System::Data::XmlReadMode ReadXml(::System::Xml::XmlReader* reader, bool denyResolving);
     // System.Void InferSchema(System.Xml.XmlDocument xdoc, System.String[] excludedNamespaces, System.Data.XmlReadMode mode)
     // Offset: 0x15BDF28
-    void InferSchema(System::Xml::XmlDocument* xdoc, ::ArrayW<::StringW> excludedNamespaces, System::Data::XmlReadMode mode);
+    void InferSchema(::System::Xml::XmlDocument* xdoc, ::ArrayW<::StringW> excludedNamespaces, ::System::Data::XmlReadMode mode);
     // private System.Boolean IsEmpty()
     // Offset: 0x15C0658
     bool IsEmpty();
     // private System.Void ReadXmlDiffgram(System.Xml.XmlReader reader)
     // Offset: 0x15BF4A8
-    void ReadXmlDiffgram(System::Xml::XmlReader* reader);
+    void ReadXmlDiffgram(::System::Xml::XmlReader* reader);
     // public System.Data.XmlReadMode ReadXml(System.Xml.XmlReader reader, System.Data.XmlReadMode mode)
     // Offset: 0x15B90FC
-    System::Data::XmlReadMode ReadXml(System::Xml::XmlReader* reader, System::Data::XmlReadMode mode);
+    ::System::Data::XmlReadMode ReadXml(::System::Xml::XmlReader* reader, ::System::Data::XmlReadMode mode);
     // System.Data.XmlReadMode ReadXml(System.Xml.XmlReader reader, System.Data.XmlReadMode mode, System.Boolean denyResolving)
     // Offset: 0x15C0A2C
-    System::Data::XmlReadMode ReadXml(System::Xml::XmlReader* reader, System::Data::XmlReadMode mode, bool denyResolving);
+    ::System::Data::XmlReadMode ReadXml(::System::Xml::XmlReader* reader, ::System::Data::XmlReadMode mode, bool denyResolving);
     // public System.Void WriteXml(System.Xml.XmlWriter writer, System.Data.XmlWriteMode mode)
     // Offset: 0x15B6140
-    void WriteXml(System::Xml::XmlWriter* writer, System::Data::XmlWriteMode mode);
+    void WriteXml(::System::Xml::XmlWriter* writer, ::System::Data::XmlWriteMode mode);
     // public System.Void Merge(System.Data.DataSet dataSet)
     // Offset: 0x15C08FC
-    void Merge(System::Data::DataSet* dataSet);
+    void Merge(::System::Data::DataSet* dataSet);
     // public System.Void Merge(System.Data.DataSet dataSet, System.Boolean preserveChanges, System.Data.MissingSchemaAction missingSchemaAction)
     // Offset: 0x15C171C
-    void Merge(System::Data::DataSet* dataSet, bool preserveChanges, System::Data::MissingSchemaAction missingSchemaAction);
+    void Merge(::System::Data::DataSet* dataSet, bool preserveChanges, ::System::Data::MissingSchemaAction missingSchemaAction);
     // protected System.Void OnPropertyChanging(System.ComponentModel.PropertyChangedEventArgs pcevent)
     // Offset: 0x15C1918
-    void OnPropertyChanging(System::ComponentModel::PropertyChangedEventArgs* pcevent);
+    void OnPropertyChanging(::System::ComponentModel::PropertyChangedEventArgs* pcevent);
     // System.Void OnMergeFailed(System.Data.MergeFailedEventArgs mfevent)
     // Offset: 0x15C1938
-    void OnMergeFailed(System::Data::MergeFailedEventArgs* mfevent);
+    void OnMergeFailed(::System::Data::MergeFailedEventArgs* mfevent);
     // System.Void RaiseMergeFailed(System.Data.DataTable table, System.String conflict, System.Data.MissingSchemaAction missingSchemaAction)
     // Offset: 0x15C19BC
-    void RaiseMergeFailed(System::Data::DataTable* table, ::StringW conflict, System::Data::MissingSchemaAction missingSchemaAction);
+    void RaiseMergeFailed(::System::Data::DataTable* table, ::StringW conflict, ::System::Data::MissingSchemaAction missingSchemaAction);
     // System.Void OnDataRowCreated(System.Data.DataRow row)
     // Offset: 0x15C1A68
-    void OnDataRowCreated(System::Data::DataRow* row);
+    void OnDataRowCreated(::System::Data::DataRow* row);
     // System.Void OnClearFunctionCalled(System.Data.DataTable table)
     // Offset: 0x15BC7A0
-    void OnClearFunctionCalled(System::Data::DataTable* table);
+    void OnClearFunctionCalled(::System::Data::DataTable* table);
     // protected internal System.Void OnRemoveTable(System.Data.DataTable table)
     // Offset: 0x15C1E6C
-    void OnRemoveTable(System::Data::DataTable* table);
+    void OnRemoveTable(::System::Data::DataTable* table);
     // System.Void OnRemovedTable(System.Data.DataTable table)
     // Offset: 0x15C1E70
-    void OnRemovedTable(System::Data::DataTable* table);
+    void OnRemovedTable(::System::Data::DataTable* table);
     // protected System.Void OnRemoveRelation(System.Data.DataRelation relation)
     // Offset: 0x15C1E98
-    void OnRemoveRelation(System::Data::DataRelation* relation);
+    void OnRemoveRelation(::System::Data::DataRelation* relation);
     // System.Void OnRemoveRelationHack(System.Data.DataRelation relation)
     // Offset: 0x15C1E9C
-    void OnRemoveRelationHack(System::Data::DataRelation* relation);
+    void OnRemoveRelationHack(::System::Data::DataRelation* relation);
     // protected internal System.Void RaisePropertyChanging(System.String name)
     // Offset: 0x15BA304
     void RaisePropertyChanging(::StringW name);
     // System.Data.DataTable[] TopLevelTables()
     // Offset: 0x15C1EAC
-    ::ArrayW<System::Data::DataTable*> TopLevelTables();
+    ::ArrayW<::System::Data::DataTable*> TopLevelTables();
     // System.Data.DataTable[] TopLevelTables(System.Boolean forSchema)
     // Offset: 0x15C1EB4
-    ::ArrayW<System::Data::DataTable*> TopLevelTables(bool forSchema);
+    ::ArrayW<::System::Data::DataTable*> TopLevelTables(bool forSchema);
     // public System.Void Reset()
     // Offset: 0x15C2658
     void Reset();
@@ -618,24 +618,24 @@ namespace System::Data {
     bool ValidateLocaleConstraint();
     // protected System.Void ReadXmlSerializable(System.Xml.XmlReader reader)
     // Offset: 0x15C28C0
-    void ReadXmlSerializable(System::Xml::XmlReader* reader);
+    void ReadXmlSerializable(::System::Xml::XmlReader* reader);
     // static public System.Xml.Schema.XmlSchemaComplexType GetDataSetSchema(System.Xml.Schema.XmlSchemaSet schemaSet)
     // Offset: 0x15C2B6C
-    static System::Xml::Schema::XmlSchemaComplexType* GetDataSetSchema(System::Xml::Schema::XmlSchemaSet* schemaSet);
+    static ::System::Xml::Schema::XmlSchemaComplexType* GetDataSetSchema(::System::Xml::Schema::XmlSchemaSet* schemaSet);
     // private System.Xml.Schema.XmlSchema System.Xml.Serialization.IXmlSerializable.GetSchema()
     // Offset: 0x15C2D68
-    System::Xml::Schema::XmlSchema* System_Xml_Serialization_IXmlSerializable_GetSchema();
+    ::System::Xml::Schema::XmlSchema* System_Xml_Serialization_IXmlSerializable_GetSchema();
     // private System.Void System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader reader)
     // Offset: 0x15C2F08
-    void System_Xml_Serialization_IXmlSerializable_ReadXml(System::Xml::XmlReader* reader);
+    void System_Xml_Serialization_IXmlSerializable_ReadXml(::System::Xml::XmlReader* reader);
     // private System.Void System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter writer)
     // Offset: 0x15C316C
-    void System_Xml_Serialization_IXmlSerializable_WriteXml(System::Xml::XmlWriter* writer);
+    void System_Xml_Serialization_IXmlSerializable_WriteXml(::System::Xml::XmlWriter* writer);
     // public override System.ComponentModel.ISite get_Site()
     // Offset: 0x15BC5D0
     // Implemented from: System.ComponentModel.MarshalByValueComponent
     // Base method: System.ComponentModel.ISite MarshalByValueComponent::get_Site()
-    System::ComponentModel::ISite* get_Site();
+    ::System::ComponentModel::ISite* get_Site();
     // public System.Void .ctor()
     // Offset: 0x15B3D68
     // Implemented from: System.ComponentModel.MarshalByValueComponent
@@ -643,19 +643,19 @@ namespace System::Data {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DataSet* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Data::DataSet::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Data::DataSet::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DataSet*, creationType>()));
     }
   }; // System.Data.DataSet
   #pragma pack(pop)
-  static check_size<sizeof(DataSet), 168 + sizeof(System::Data::DataSetClearEventhandler*)> __System_Data_DataSetSizeCheck;
+  static check_size<sizeof(DataSet), 168 + sizeof(::System::Data::DataSetClearEventhandler*)> __System_Data_DataSetSizeCheck;
   static_assert(sizeof(DataSet) == 0xB0);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Data::DataSet::get_RemotingFormat
 // Il2CppName: get_RemotingFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::SerializationFormat (System::Data::DataSet::*)()>(&System::Data::DataSet::get_RemotingFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SerializationFormat (System::Data::DataSet::*)()>(&System::Data::DataSet::get_RemotingFormat)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataSet*), "get_RemotingFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -663,7 +663,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::DataSet::set_RemotingFormat
 // Il2CppName: set_RemotingFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(System::Data::SerializationFormat)>(&System::Data::DataSet::set_RemotingFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(::System::Data::SerializationFormat)>(&System::Data::DataSet::set_RemotingFormat)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Data", "SerializationFormat")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataSet*), "set_RemotingFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -672,7 +672,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataSet::get_SchemaSerializationMode
 // Il2CppName: get_SchemaSerializationMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::SchemaSerializationMode (System::Data::DataSet::*)()>(&System::Data::DataSet::get_SchemaSerializationMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SchemaSerializationMode (System::Data::DataSet::*)()>(&System::Data::DataSet::get_SchemaSerializationMode)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataSet*), "get_SchemaSerializationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -765,7 +765,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataSet::get_ExtendedProperties
 // Il2CppName: get_ExtendedProperties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::PropertyCollection* (System::Data::DataSet::*)()>(&System::Data::DataSet::get_ExtendedProperties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::PropertyCollection* (System::Data::DataSet::*)()>(&System::Data::DataSet::get_ExtendedProperties)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataSet*), "get_ExtendedProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -773,7 +773,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::DataSet::get_Locale
 // Il2CppName: get_Locale
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureInfo* (System::Data::DataSet::*)()>(&System::Data::DataSet::get_Locale)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::CultureInfo* (System::Data::DataSet::*)()>(&System::Data::DataSet::get_Locale)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataSet*), "get_Locale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -781,7 +781,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 // Writing MetadataGetter for method: System::Data::DataSet::set_Locale
 // Il2CppName: set_Locale
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(System::Globalization::CultureInfo*)>(&System::Data::DataSet::set_Locale)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(::System::Globalization::CultureInfo*)>(&System::Data::DataSet::set_Locale)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Globalization", "CultureInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataSet*), "set_Locale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -790,7 +790,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataSet::get_Relations
 // Il2CppName: get_Relations
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::DataRelationCollection* (System::Data::DataSet::*)()>(&System::Data::DataSet::get_Relations)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataRelationCollection* (System::Data::DataSet::*)()>(&System::Data::DataSet::get_Relations)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataSet*), "get_Relations", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -798,7 +798,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::DataSet::get_Tables
 // Il2CppName: get_Tables
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::DataTableCollection* (System::Data::DataSet::*)()>(&System::Data::DataSet::get_Tables)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataTableCollection* (System::Data::DataSet::*)()>(&System::Data::DataSet::get_Tables)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataSet*), "get_Tables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -843,7 +843,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Data::DataSet::GetObjectData
 // Il2CppName: GetObjectData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::Data::DataSet::GetObjectData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&System::Data::DataSet::GetObjectData)> {
   static const MethodInfo* get() {
     static auto* info = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
@@ -861,7 +861,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataSet::SerializeDataSet
 // Il2CppName: SerializeDataSet
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext, System::Data::SerializationFormat)>(&System::Data::DataSet::SerializeDataSet)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext, ::System::Data::SerializationFormat)>(&System::Data::DataSet::SerializeDataSet)> {
   static const MethodInfo* get() {
     static auto* info = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
@@ -872,7 +872,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataSet::DeserializeDataSet
 // Il2CppName: DeserializeDataSet
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext, System::Data::SerializationFormat, System::Data::SchemaSerializationMode)>(&System::Data::DataSet::DeserializeDataSet)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext, ::System::Data::SerializationFormat, ::System::Data::SchemaSerializationMode)>(&System::Data::DataSet::DeserializeDataSet)> {
   static const MethodInfo* get() {
     static auto* info = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
@@ -884,7 +884,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataSet::DeserializeDataSetSchema
 // Il2CppName: DeserializeDataSetSchema
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext, System::Data::SerializationFormat, System::Data::SchemaSerializationMode)>(&System::Data::DataSet::DeserializeDataSetSchema)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext, ::System::Data::SerializationFormat, ::System::Data::SchemaSerializationMode)>(&System::Data::DataSet::DeserializeDataSetSchema)> {
   static const MethodInfo* get() {
     static auto* info = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
@@ -896,7 +896,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataSet::DeserializeDataSetData
 // Il2CppName: DeserializeDataSetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext, System::Data::SerializationFormat)>(&System::Data::DataSet::DeserializeDataSetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext, ::System::Data::SerializationFormat)>(&System::Data::DataSet::DeserializeDataSetData)> {
   static const MethodInfo* get() {
     static auto* info = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
@@ -907,7 +907,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataSet::SerializeDataSetProperties
 // Il2CppName: SerializeDataSetProperties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::Data::DataSet::SerializeDataSetProperties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&System::Data::DataSet::SerializeDataSetProperties)> {
   static const MethodInfo* get() {
     static auto* info = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
@@ -917,7 +917,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataSet::DeserializeDataSetProperties
 // Il2CppName: DeserializeDataSetProperties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::Data::DataSet::DeserializeDataSetProperties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&System::Data::DataSet::DeserializeDataSetProperties)> {
   static const MethodInfo* get() {
     static auto* info = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
@@ -927,7 +927,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataSet::SerializeRelations
 // Il2CppName: SerializeRelations
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::Data::DataSet::SerializeRelations)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&System::Data::DataSet::SerializeRelations)> {
   static const MethodInfo* get() {
     static auto* info = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
@@ -937,7 +937,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataSet::DeserializeRelations
 // Il2CppName: DeserializeRelations
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::Data::DataSet::DeserializeRelations)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&System::Data::DataSet::DeserializeRelations)> {
   static const MethodInfo* get() {
     static auto* info = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
@@ -972,7 +972,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataSet::SetLocaleValue
 // Il2CppName: SetLocaleValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(System::Globalization::CultureInfo*, bool)>(&System::Data::DataSet::SetLocaleValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(::System::Globalization::CultureInfo*, bool)>(&System::Data::DataSet::SetLocaleValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Globalization", "CultureInfo")->byval_arg;
     static auto* userSet = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -998,7 +998,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataSet::Clone
 // Il2CppName: Clone
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::DataSet* (System::Data::DataSet::*)()>(&System::Data::DataSet::Clone)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataSet* (System::Data::DataSet::*)()>(&System::Data::DataSet::Clone)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataSet*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1014,7 +1014,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Data::DataSet::GetRemotingDiffGram
 // Il2CppName: GetRemotingDiffGram
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Data::DataSet::*)(System::Data::DataTable*)>(&System::Data::DataSet::GetRemotingDiffGram)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Data::DataSet::*)(::System::Data::DataTable*)>(&System::Data::DataSet::GetRemotingDiffGram)> {
   static const MethodInfo* get() {
     static auto* table = &::il2cpp_utils::GetClassFromName("System.Data", "DataTable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataSet*), "GetRemotingDiffGram", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{table});
@@ -1023,7 +1023,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Data::DataSet::GetXmlSchemaForRemoting
 // Il2CppName: GetXmlSchemaForRemoting
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Data::DataSet::*)(System::Data::DataTable*)>(&System::Data::DataSet::GetXmlSchemaForRemoting)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Data::DataSet::*)(::System::Data::DataTable*)>(&System::Data::DataSet::GetXmlSchemaForRemoting)> {
   static const MethodInfo* get() {
     static auto* table = &::il2cpp_utils::GetClassFromName("System.Data", "DataTable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataSet*), "GetXmlSchemaForRemoting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{table});
@@ -1032,7 +1032,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Data::DataSet::ReadXmlSchema
 // Il2CppName: ReadXmlSchema
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(System::Xml::XmlReader*)>(&System::Data::DataSet::ReadXmlSchema)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(::System::Xml::XmlReader*)>(&System::Data::DataSet::ReadXmlSchema)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlReader")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataSet*), "ReadXmlSchema", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader});
@@ -1041,7 +1041,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataSet::ReadXmlSchema
 // Il2CppName: ReadXmlSchema
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(System::Xml::XmlReader*, bool)>(&System::Data::DataSet::ReadXmlSchema)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(::System::Xml::XmlReader*, bool)>(&System::Data::DataSet::ReadXmlSchema)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlReader")->byval_arg;
     static auto* denyResolving = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -1051,7 +1051,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataSet::MoveToElement
 // Il2CppName: MoveToElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Data::DataSet::*)(System::Xml::XmlReader*, int)>(&System::Data::DataSet::MoveToElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Data::DataSet::*)(::System::Xml::XmlReader*, int)>(&System::Data::DataSet::MoveToElement)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlReader")->byval_arg;
     static auto* depth = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1061,7 +1061,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Data::DataSet::MoveToElement
 // Il2CppName: MoveToElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Xml::XmlReader*)>(&System::Data::DataSet::MoveToElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::XmlReader*)>(&System::Data::DataSet::MoveToElement)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlReader")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataSet*), "MoveToElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader});
@@ -1070,7 +1070,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Data::DataSet::ReadEndElement
 // Il2CppName: ReadEndElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(System::Xml::XmlReader*)>(&System::Data::DataSet::ReadEndElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(::System::Xml::XmlReader*)>(&System::Data::DataSet::ReadEndElement)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlReader")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataSet*), "ReadEndElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader});
@@ -1079,7 +1079,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataSet::ReadXSDSchema
 // Il2CppName: ReadXSDSchema
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(System::Xml::XmlReader*, bool)>(&System::Data::DataSet::ReadXSDSchema)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(::System::Xml::XmlReader*, bool)>(&System::Data::DataSet::ReadXSDSchema)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlReader")->byval_arg;
     static auto* denyResolving = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -1089,7 +1089,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataSet::ReadXDRSchema
 // Il2CppName: ReadXDRSchema
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(System::Xml::XmlReader*)>(&System::Data::DataSet::ReadXDRSchema)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(::System::Xml::XmlReader*)>(&System::Data::DataSet::ReadXDRSchema)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlReader")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataSet*), "ReadXDRSchema", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader});
@@ -1098,7 +1098,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataSet::WriteXmlSchema
 // Il2CppName: WriteXmlSchema
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(System::Xml::XmlWriter*, System::Data::SchemaFormat, System::Converter_2<System::Type*, ::StringW>*)>(&System::Data::DataSet::WriteXmlSchema)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(::System::Xml::XmlWriter*, ::System::Data::SchemaFormat, ::System::Converter_2<::System::Type*, ::StringW>*)>(&System::Data::DataSet::WriteXmlSchema)> {
   static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlWriter")->byval_arg;
     static auto* schemaFormat = &::il2cpp_utils::GetClassFromName("System.Data", "SchemaFormat")->byval_arg;
@@ -1109,7 +1109,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataSet::ReadXml
 // Il2CppName: ReadXml
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::XmlReadMode (System::Data::DataSet::*)(System::Xml::XmlReader*)>(&System::Data::DataSet::ReadXml)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::XmlReadMode (System::Data::DataSet::*)(::System::Xml::XmlReader*)>(&System::Data::DataSet::ReadXml)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlReader")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataSet*), "ReadXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader});
@@ -1118,7 +1118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::DataSet::ReadXml
 // Il2CppName: ReadXml
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::XmlReadMode (System::Data::DataSet::*)(System::Xml::XmlReader*, bool)>(&System::Data::DataSet::ReadXml)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::XmlReadMode (System::Data::DataSet::*)(::System::Xml::XmlReader*, bool)>(&System::Data::DataSet::ReadXml)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlReader")->byval_arg;
     static auto* denyResolving = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -1128,7 +1128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::DataSet::InferSchema
 // Il2CppName: InferSchema
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(System::Xml::XmlDocument*, ::ArrayW<::StringW>, System::Data::XmlReadMode)>(&System::Data::DataSet::InferSchema)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(::System::Xml::XmlDocument*, ::ArrayW<::StringW>, ::System::Data::XmlReadMode)>(&System::Data::DataSet::InferSchema)> {
   static const MethodInfo* get() {
     static auto* xdoc = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlDocument")->byval_arg;
     static auto* excludedNamespaces = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
@@ -1147,7 +1147,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Data::DataSet::ReadXmlDiffgram
 // Il2CppName: ReadXmlDiffgram
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(System::Xml::XmlReader*)>(&System::Data::DataSet::ReadXmlDiffgram)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(::System::Xml::XmlReader*)>(&System::Data::DataSet::ReadXmlDiffgram)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlReader")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataSet*), "ReadXmlDiffgram", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader});
@@ -1156,7 +1156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataSet::ReadXml
 // Il2CppName: ReadXml
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::XmlReadMode (System::Data::DataSet::*)(System::Xml::XmlReader*, System::Data::XmlReadMode)>(&System::Data::DataSet::ReadXml)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::XmlReadMode (System::Data::DataSet::*)(::System::Xml::XmlReader*, ::System::Data::XmlReadMode)>(&System::Data::DataSet::ReadXml)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlReader")->byval_arg;
     static auto* mode = &::il2cpp_utils::GetClassFromName("System.Data", "XmlReadMode")->byval_arg;
@@ -1166,7 +1166,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::DataSet::ReadXml
 // Il2CppName: ReadXml
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::XmlReadMode (System::Data::DataSet::*)(System::Xml::XmlReader*, System::Data::XmlReadMode, bool)>(&System::Data::DataSet::ReadXml)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::XmlReadMode (System::Data::DataSet::*)(::System::Xml::XmlReader*, ::System::Data::XmlReadMode, bool)>(&System::Data::DataSet::ReadXml)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlReader")->byval_arg;
     static auto* mode = &::il2cpp_utils::GetClassFromName("System.Data", "XmlReadMode")->byval_arg;
@@ -1177,7 +1177,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::DataSet::WriteXml
 // Il2CppName: WriteXml
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(System::Xml::XmlWriter*, System::Data::XmlWriteMode)>(&System::Data::DataSet::WriteXml)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(::System::Xml::XmlWriter*, ::System::Data::XmlWriteMode)>(&System::Data::DataSet::WriteXml)> {
   static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlWriter")->byval_arg;
     static auto* mode = &::il2cpp_utils::GetClassFromName("System.Data", "XmlWriteMode")->byval_arg;
@@ -1187,7 +1187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataSet::Merge
 // Il2CppName: Merge
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(System::Data::DataSet*)>(&System::Data::DataSet::Merge)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(::System::Data::DataSet*)>(&System::Data::DataSet::Merge)> {
   static const MethodInfo* get() {
     static auto* dataSet = &::il2cpp_utils::GetClassFromName("System.Data", "DataSet")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataSet*), "Merge", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dataSet});
@@ -1196,7 +1196,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataSet::Merge
 // Il2CppName: Merge
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(System::Data::DataSet*, bool, System::Data::MissingSchemaAction)>(&System::Data::DataSet::Merge)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(::System::Data::DataSet*, bool, ::System::Data::MissingSchemaAction)>(&System::Data::DataSet::Merge)> {
   static const MethodInfo* get() {
     static auto* dataSet = &::il2cpp_utils::GetClassFromName("System.Data", "DataSet")->byval_arg;
     static auto* preserveChanges = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -1207,7 +1207,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataSet::OnPropertyChanging
 // Il2CppName: OnPropertyChanging
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(System::ComponentModel::PropertyChangedEventArgs*)>(&System::Data::DataSet::OnPropertyChanging)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(::System::ComponentModel::PropertyChangedEventArgs*)>(&System::Data::DataSet::OnPropertyChanging)> {
   static const MethodInfo* get() {
     static auto* pcevent = &::il2cpp_utils::GetClassFromName("System.ComponentModel", "PropertyChangedEventArgs")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataSet*), "OnPropertyChanging", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pcevent});
@@ -1216,7 +1216,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataSet::OnMergeFailed
 // Il2CppName: OnMergeFailed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(System::Data::MergeFailedEventArgs*)>(&System::Data::DataSet::OnMergeFailed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(::System::Data::MergeFailedEventArgs*)>(&System::Data::DataSet::OnMergeFailed)> {
   static const MethodInfo* get() {
     static auto* mfevent = &::il2cpp_utils::GetClassFromName("System.Data", "MergeFailedEventArgs")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataSet*), "OnMergeFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mfevent});
@@ -1225,7 +1225,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataSet::RaiseMergeFailed
 // Il2CppName: RaiseMergeFailed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(System::Data::DataTable*, ::StringW, System::Data::MissingSchemaAction)>(&System::Data::DataSet::RaiseMergeFailed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(::System::Data::DataTable*, ::StringW, ::System::Data::MissingSchemaAction)>(&System::Data::DataSet::RaiseMergeFailed)> {
   static const MethodInfo* get() {
     static auto* table = &::il2cpp_utils::GetClassFromName("System.Data", "DataTable")->byval_arg;
     static auto* conflict = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1236,7 +1236,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataSet::OnDataRowCreated
 // Il2CppName: OnDataRowCreated
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(System::Data::DataRow*)>(&System::Data::DataSet::OnDataRowCreated)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(::System::Data::DataRow*)>(&System::Data::DataSet::OnDataRowCreated)> {
   static const MethodInfo* get() {
     static auto* row = &::il2cpp_utils::GetClassFromName("System.Data", "DataRow")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataSet*), "OnDataRowCreated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{row});
@@ -1245,7 +1245,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataSet::OnClearFunctionCalled
 // Il2CppName: OnClearFunctionCalled
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(System::Data::DataTable*)>(&System::Data::DataSet::OnClearFunctionCalled)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(::System::Data::DataTable*)>(&System::Data::DataSet::OnClearFunctionCalled)> {
   static const MethodInfo* get() {
     static auto* table = &::il2cpp_utils::GetClassFromName("System.Data", "DataTable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataSet*), "OnClearFunctionCalled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{table});
@@ -1254,7 +1254,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataSet::OnRemoveTable
 // Il2CppName: OnRemoveTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(System::Data::DataTable*)>(&System::Data::DataSet::OnRemoveTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(::System::Data::DataTable*)>(&System::Data::DataSet::OnRemoveTable)> {
   static const MethodInfo* get() {
     static auto* table = &::il2cpp_utils::GetClassFromName("System.Data", "DataTable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataSet*), "OnRemoveTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{table});
@@ -1263,7 +1263,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataSet::OnRemovedTable
 // Il2CppName: OnRemovedTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(System::Data::DataTable*)>(&System::Data::DataSet::OnRemovedTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(::System::Data::DataTable*)>(&System::Data::DataSet::OnRemovedTable)> {
   static const MethodInfo* get() {
     static auto* table = &::il2cpp_utils::GetClassFromName("System.Data", "DataTable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataSet*), "OnRemovedTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{table});
@@ -1272,7 +1272,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataSet::OnRemoveRelation
 // Il2CppName: OnRemoveRelation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(System::Data::DataRelation*)>(&System::Data::DataSet::OnRemoveRelation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(::System::Data::DataRelation*)>(&System::Data::DataSet::OnRemoveRelation)> {
   static const MethodInfo* get() {
     static auto* relation = &::il2cpp_utils::GetClassFromName("System.Data", "DataRelation")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataSet*), "OnRemoveRelation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{relation});
@@ -1281,7 +1281,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataSet::OnRemoveRelationHack
 // Il2CppName: OnRemoveRelationHack
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(System::Data::DataRelation*)>(&System::Data::DataSet::OnRemoveRelationHack)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(::System::Data::DataRelation*)>(&System::Data::DataSet::OnRemoveRelationHack)> {
   static const MethodInfo* get() {
     static auto* relation = &::il2cpp_utils::GetClassFromName("System.Data", "DataRelation")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataSet*), "OnRemoveRelationHack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{relation});
@@ -1299,7 +1299,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataSet::TopLevelTables
 // Il2CppName: TopLevelTables
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Data::DataTable*> (System::Data::DataSet::*)()>(&System::Data::DataSet::TopLevelTables)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Data::DataTable*> (System::Data::DataSet::*)()>(&System::Data::DataSet::TopLevelTables)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataSet*), "TopLevelTables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1307,7 +1307,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Sy
 // Writing MetadataGetter for method: System::Data::DataSet::TopLevelTables
 // Il2CppName: TopLevelTables
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Data::DataTable*> (System::Data::DataSet::*)(bool)>(&System::Data::DataSet::TopLevelTables)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Data::DataTable*> (System::Data::DataSet::*)(bool)>(&System::Data::DataSet::TopLevelTables)> {
   static const MethodInfo* get() {
     static auto* forSchema = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataSet*), "TopLevelTables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{forSchema});
@@ -1340,7 +1340,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Data::DataSet::ReadXmlSerializable
 // Il2CppName: ReadXmlSerializable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(System::Xml::XmlReader*)>(&System::Data::DataSet::ReadXmlSerializable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(::System::Xml::XmlReader*)>(&System::Data::DataSet::ReadXmlSerializable)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlReader")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataSet*), "ReadXmlSerializable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader});
@@ -1349,7 +1349,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataSet::GetDataSetSchema
 // Il2CppName: GetDataSetSchema
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Schema::XmlSchemaComplexType* (*)(System::Xml::Schema::XmlSchemaSet*)>(&System::Data::DataSet::GetDataSetSchema)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaComplexType* (*)(::System::Xml::Schema::XmlSchemaSet*)>(&System::Data::DataSet::GetDataSetSchema)> {
   static const MethodInfo* get() {
     static auto* schemaSet = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaSet")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataSet*), "GetDataSetSchema", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{schemaSet});
@@ -1358,7 +1358,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Data::DataSet::System_Xml_Serialization_IXmlSerializable_GetSchema
 // Il2CppName: System.Xml.Serialization.IXmlSerializable.GetSchema
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Schema::XmlSchema* (System::Data::DataSet::*)()>(&System::Data::DataSet::System_Xml_Serialization_IXmlSerializable_GetSchema)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchema* (System::Data::DataSet::*)()>(&System::Data::DataSet::System_Xml_Serialization_IXmlSerializable_GetSchema)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataSet*), "System.Xml.Serialization.IXmlSerializable.GetSchema", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1366,7 +1366,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Data::DataSet::System_Xml_Serialization_IXmlSerializable_ReadXml
 // Il2CppName: System.Xml.Serialization.IXmlSerializable.ReadXml
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(System::Xml::XmlReader*)>(&System::Data::DataSet::System_Xml_Serialization_IXmlSerializable_ReadXml)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(::System::Xml::XmlReader*)>(&System::Data::DataSet::System_Xml_Serialization_IXmlSerializable_ReadXml)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlReader")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataSet*), "System.Xml.Serialization.IXmlSerializable.ReadXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader});
@@ -1375,7 +1375,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataSet::System_Xml_Serialization_IXmlSerializable_WriteXml
 // Il2CppName: System.Xml.Serialization.IXmlSerializable.WriteXml
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(System::Xml::XmlWriter*)>(&System::Data::DataSet::System_Xml_Serialization_IXmlSerializable_WriteXml)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataSet::*)(::System::Xml::XmlWriter*)>(&System::Data::DataSet::System_Xml_Serialization_IXmlSerializable_WriteXml)> {
   static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlWriter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataSet*), "System.Xml.Serialization.IXmlSerializable.WriteXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{writer});
@@ -1384,7 +1384,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataSet::get_Site
 // Il2CppName: get_Site
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ComponentModel::ISite* (System::Data::DataSet::*)()>(&System::Data::DataSet::get_Site)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::ISite* (System::Data::DataSet::*)()>(&System::Data::DataSet::get_Site)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataSet*), "get_Site", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

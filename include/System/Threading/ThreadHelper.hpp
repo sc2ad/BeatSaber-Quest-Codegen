@@ -30,8 +30,8 @@ namespace System::Threading {
   class ThreadHelper;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Threading::ThreadHelper);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadHelper*, "System.Threading", "ThreadHelper");
+NEED_NO_BOX(::System::Threading::ThreadHelper);
+DEFINE_IL2CPP_ARG_TYPE(::System::Threading::ThreadHelper*, "System.Threading", "ThreadHelper");
 // Type namespace: System.Threading
 namespace System::Threading {
   // Size: 0x28
@@ -52,9 +52,9 @@ namespace System::Threading {
     // private System.Delegate _start
     // Size: 0x8
     // Offset: 0x10
-    System::Delegate* start;
+    ::System::Delegate* start;
     // Field size check
-    static_assert(sizeof(System::Delegate*) == 0x8);
+    static_assert(sizeof(::System::Delegate*) == 0x8);
     // private System.Object _startArg
     // Size: 0x8
     // Offset: 0x18
@@ -64,33 +64,33 @@ namespace System::Threading {
     // private System.Threading.ExecutionContext _executionContext
     // Size: 0x8
     // Offset: 0x20
-    System::Threading::ExecutionContext* executionContext;
+    ::System::Threading::ExecutionContext* executionContext;
     // Field size check
-    static_assert(sizeof(System::Threading::ExecutionContext*) == 0x8);
+    static_assert(sizeof(::System::Threading::ExecutionContext*) == 0x8);
     public:
     // Get static field: static System.Threading.ContextCallback _ccb
-    static System::Threading::ContextCallback* _get__ccb();
+    static ::System::Threading::ContextCallback* _get__ccb();
     // Set static field: static System.Threading.ContextCallback _ccb
-    static void _set__ccb(System::Threading::ContextCallback* value);
+    static void _set__ccb(::System::Threading::ContextCallback* value);
     // Get instance field reference: private System.Delegate _start
-    System::Delegate*& dyn__start();
+    ::System::Delegate*& dyn__start();
     // Get instance field reference: private System.Object _startArg
     ::Il2CppObject*& dyn__startArg();
     // Get instance field reference: private System.Threading.ExecutionContext _executionContext
-    System::Threading::ExecutionContext*& dyn__executionContext();
+    ::System::Threading::ExecutionContext*& dyn__executionContext();
     // static private System.Void .cctor()
     // Offset: 0x1CDE770
     static void _cctor();
     // System.Void .ctor(System.Delegate start)
     // Offset: 0x1CDDB08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ThreadHelper* New_ctor(System::Delegate* start) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::ThreadHelper::.ctor");
+    static ThreadHelper* New_ctor(::System::Delegate* start) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::ThreadHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ThreadHelper*, creationType>(start)));
     }
     // System.Void SetExecutionContextHelper(System.Threading.ExecutionContext ec)
     // Offset: 0x1CDE7EC
-    void SetExecutionContextHelper(System::Threading::ExecutionContext* ec);
+    void SetExecutionContextHelper(::System::Threading::ExecutionContext* ec);
     // static private System.Void ThreadStart_Context(System.Object state)
     // Offset: 0x1CDE7F4
     static void ThreadStart_Context(::Il2CppObject* state);
@@ -102,7 +102,7 @@ namespace System::Threading {
     void ThreadStart();
   }; // System.Threading.ThreadHelper
   #pragma pack(pop)
-  static check_size<sizeof(ThreadHelper), 32 + sizeof(System::Threading::ExecutionContext*)> __System_Threading_ThreadHelperSizeCheck;
+  static check_size<sizeof(ThreadHelper), 32 + sizeof(::System::Threading::ExecutionContext*)> __System_Threading_ThreadHelperSizeCheck;
   static_assert(sizeof(ThreadHelper) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -121,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Threading::ThreadHelper::SetExecutionContextHelper
 // Il2CppName: SetExecutionContextHelper
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ThreadHelper::*)(System::Threading::ExecutionContext*)>(&System::Threading::ThreadHelper::SetExecutionContextHelper)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ThreadHelper::*)(::System::Threading::ExecutionContext*)>(&System::Threading::ThreadHelper::SetExecutionContextHelper)> {
   static const MethodInfo* get() {
     static auto* ec = &::il2cpp_utils::GetClassFromName("System.Threading", "ExecutionContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ThreadHelper*), "SetExecutionContextHelper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ec});

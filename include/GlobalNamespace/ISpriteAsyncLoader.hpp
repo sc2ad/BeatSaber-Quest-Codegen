@@ -30,8 +30,8 @@ namespace GlobalNamespace {
   class ISpriteAsyncLoader;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::ISpriteAsyncLoader);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ISpriteAsyncLoader*, "", "ISpriteAsyncLoader");
+NEED_NO_BOX(::GlobalNamespace::ISpriteAsyncLoader);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ISpriteAsyncLoader*, "", "ISpriteAsyncLoader");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     public:
     // public System.Threading.Tasks.Task`1<UnityEngine.Sprite> LoadSpriteAsync(System.String path, System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF
-    System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* LoadSpriteAsync(::StringW path, System::Threading::CancellationToken cancellationToken);
+    ::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>* LoadSpriteAsync(::StringW path, ::System::Threading::CancellationToken cancellationToken);
   }; // ISpriteAsyncLoader
   #pragma pack(pop)
 }
@@ -50,7 +50,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::ISpriteAsyncLoader::LoadSpriteAsync
 // Il2CppName: LoadSpriteAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* (GlobalNamespace::ISpriteAsyncLoader::*)(::StringW, System::Threading::CancellationToken)>(&GlobalNamespace::ISpriteAsyncLoader::LoadSpriteAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>* (GlobalNamespace::ISpriteAsyncLoader::*)(::StringW, ::System::Threading::CancellationToken)>(&GlobalNamespace::ISpriteAsyncLoader::LoadSpriteAsync)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;

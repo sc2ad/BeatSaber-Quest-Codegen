@@ -21,8 +21,8 @@ namespace Oculus::Platform::Models {
   class CloudStorageUpdateResponse;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::CloudStorageUpdateResponse);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::CloudStorageUpdateResponse*, "Oculus.Platform.Models", "CloudStorageUpdateResponse");
+NEED_NO_BOX(::Oculus::Platform::Models::CloudStorageUpdateResponse);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::CloudStorageUpdateResponse*, "Oculus.Platform.Models", "CloudStorageUpdateResponse");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x30
@@ -55,9 +55,9 @@ namespace Oculus::Platform::Models {
     // public readonly Oculus.Platform.CloudStorageUpdateStatus Status
     // Size: 0x4
     // Offset: 0x20
-    Oculus::Platform::CloudStorageUpdateStatus Status;
+    ::Oculus::Platform::CloudStorageUpdateStatus Status;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::CloudStorageUpdateStatus) == 0x4);
+    static_assert(sizeof(::Oculus::Platform::CloudStorageUpdateStatus) == 0x4);
     // Padding between fields: Status and: VersionHandle
     char __padding2[0x4] = {};
     // public readonly System.String VersionHandle
@@ -72,14 +72,14 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.String Key
     ::StringW& dyn_Key();
     // Get instance field reference: public readonly Oculus.Platform.CloudStorageUpdateStatus Status
-    Oculus::Platform::CloudStorageUpdateStatus& dyn_Status();
+    ::Oculus::Platform::CloudStorageUpdateStatus& dyn_Status();
     // Get instance field reference: public readonly System.String VersionHandle
     ::StringW& dyn_VersionHandle();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x1965A38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CloudStorageUpdateResponse* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::CloudStorageUpdateResponse::.ctor");
+    static CloudStorageUpdateResponse* New_ctor(::System::IntPtr o) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::CloudStorageUpdateResponse::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CloudStorageUpdateResponse*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.CloudStorageUpdateResponse

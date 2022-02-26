@@ -18,8 +18,8 @@ namespace Oculus::Platform::Models {
   class PingResult;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::PingResult);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::PingResult*, "Oculus.Platform.Models", "PingResult");
+NEED_NO_BOX(::Oculus::Platform::Models::PingResult);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::PingResult*, "Oculus.Platform.Models", "PingResult");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // WARNING Size may be invalid!
@@ -45,12 +45,12 @@ namespace Oculus::Platform::Models {
     // private System.Nullable`1<System.UInt64> pingTimeUsec
     // Size: 0xFFFFFFFF
     // Offset: 0x18
-    System::Nullable_1<uint64_t> pingTimeUsec;
+    ::System::Nullable_1<uint64_t> pingTimeUsec;
     public:
     // Get instance field reference: private System.UInt64 <ID>k__BackingField
     uint64_t& dyn_$ID$k__BackingField();
     // Get instance field reference: private System.Nullable`1<System.UInt64> pingTimeUsec
-    System::Nullable_1<uint64_t>& dyn_pingTimeUsec();
+    ::System::Nullable_1<uint64_t>& dyn_pingTimeUsec();
     // public System.UInt64 get_ID()
     // Offset: 0x196DF24
     uint64_t get_ID();
@@ -66,8 +66,8 @@ namespace Oculus::Platform::Models {
     // public System.Void .ctor(System.UInt64 id, System.Nullable`1<System.UInt64> pingTimeUsec)
     // Offset: 0x196ABA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PingResult* New_ctor(uint64_t id, System::Nullable_1<uint64_t> pingTimeUsec) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::PingResult::.ctor");
+    static PingResult* New_ctor(uint64_t id, ::System::Nullable_1<uint64_t> pingTimeUsec) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::PingResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PingResult*, creationType>(id, pingTimeUsec)));
     }
   }; // Oculus.Platform.Models.PingResult

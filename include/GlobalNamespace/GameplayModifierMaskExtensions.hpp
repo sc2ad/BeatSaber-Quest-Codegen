@@ -22,8 +22,8 @@ namespace GlobalNamespace {
   class GameplayModifierMaskExtensions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::GameplayModifierMaskExtensions);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifierMaskExtensions*, "", "GameplayModifierMaskExtensions");
+NEED_NO_BOX(::GlobalNamespace::GameplayModifierMaskExtensions);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameplayModifierMaskExtensions*, "", "GameplayModifierMaskExtensions");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -35,19 +35,19 @@ namespace GlobalNamespace {
     public:
     // static public System.Boolean Contains(GameplayModifierMask mask, GameplayModifierMask other)
     // Offset: 0x297281C
-    static bool Contains(GlobalNamespace::GameplayModifierMask mask, GlobalNamespace::GameplayModifierMask other);
+    static bool Contains(::GlobalNamespace::GameplayModifierMask mask, ::GlobalNamespace::GameplayModifierMask other);
     // static public System.Int32 DifferenceFrom(GameplayModifierMask mask, GameplayModifierMask other)
     // Offset: 0x297282C
-    static int DifferenceFrom(GlobalNamespace::GameplayModifierMask mask, GlobalNamespace::GameplayModifierMask other);
+    static int DifferenceFrom(::GlobalNamespace::GameplayModifierMask mask, ::GlobalNamespace::GameplayModifierMask other);
     // static public System.String ToHexString(GameplayModifierMask mask)
     // Offset: 0x297283C
-    static ::StringW ToHexString(GlobalNamespace::GameplayModifierMask mask);
+    static ::StringW ToHexString(::GlobalNamespace::GameplayModifierMask mask);
     // static public GameplayModifiers ToModifiers(GameplayModifierMask gameplayModifierMask)
     // Offset: 0x29728A0
-    static GlobalNamespace::GameplayModifiers* ToModifiers(GlobalNamespace::GameplayModifierMask gameplayModifierMask);
+    static ::GlobalNamespace::GameplayModifiers* ToModifiers(::GlobalNamespace::GameplayModifierMask gameplayModifierMask);
     // static public GameplayModifierMask ToMask(GameplayModifiers gameplayModifiers)
     // Offset: 0x2972AEC
-    static GlobalNamespace::GameplayModifierMask ToMask(GlobalNamespace::GameplayModifiers* gameplayModifiers);
+    static ::GlobalNamespace::GameplayModifierMask ToMask(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
   }; // GameplayModifierMaskExtensions
   #pragma pack(pop)
 }
@@ -55,7 +55,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifierMaskExtensions::Contains
 // Il2CppName: Contains
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::GameplayModifierMask, GlobalNamespace::GameplayModifierMask)>(&GlobalNamespace::GameplayModifierMaskExtensions::Contains)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::GameplayModifierMask, ::GlobalNamespace::GameplayModifierMask)>(&GlobalNamespace::GameplayModifierMaskExtensions::Contains)> {
   static const MethodInfo* get() {
     static auto* mask = &::il2cpp_utils::GetClassFromName("", "GameplayModifierMask")->byval_arg;
     static auto* other = &::il2cpp_utils::GetClassFromName("", "GameplayModifierMask")->byval_arg;
@@ -65,7 +65,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifierMaskExtensions::DifferenceFrom
 // Il2CppName: DifferenceFrom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(GlobalNamespace::GameplayModifierMask, GlobalNamespace::GameplayModifierMask)>(&GlobalNamespace::GameplayModifierMaskExtensions::DifferenceFrom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::GlobalNamespace::GameplayModifierMask, ::GlobalNamespace::GameplayModifierMask)>(&GlobalNamespace::GameplayModifierMaskExtensions::DifferenceFrom)> {
   static const MethodInfo* get() {
     static auto* mask = &::il2cpp_utils::GetClassFromName("", "GameplayModifierMask")->byval_arg;
     static auto* other = &::il2cpp_utils::GetClassFromName("", "GameplayModifierMask")->byval_arg;
@@ -75,7 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Glo
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifierMaskExtensions::ToHexString
 // Il2CppName: ToHexString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(GlobalNamespace::GameplayModifierMask)>(&GlobalNamespace::GameplayModifierMaskExtensions::ToHexString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::GlobalNamespace::GameplayModifierMask)>(&GlobalNamespace::GameplayModifierMaskExtensions::ToHexString)> {
   static const MethodInfo* get() {
     static auto* mask = &::il2cpp_utils::GetClassFromName("", "GameplayModifierMask")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifierMaskExtensions*), "ToHexString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mask});
@@ -84,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifierMaskExtensions::ToModifiers
 // Il2CppName: ToModifiers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifiers* (*)(GlobalNamespace::GameplayModifierMask)>(&GlobalNamespace::GameplayModifierMaskExtensions::ToModifiers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::GameplayModifiers* (*)(::GlobalNamespace::GameplayModifierMask)>(&GlobalNamespace::GameplayModifierMaskExtensions::ToModifiers)> {
   static const MethodInfo* get() {
     static auto* gameplayModifierMask = &::il2cpp_utils::GetClassFromName("", "GameplayModifierMask")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifierMaskExtensions*), "ToModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifierMask});
@@ -93,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifierMaskExtensions::ToMask
 // Il2CppName: ToMask
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifierMask (*)(GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifierMaskExtensions::ToMask)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::GameplayModifierMask (*)(::GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifierMaskExtensions::ToMask)> {
   static const MethodInfo* get() {
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifierMaskExtensions*), "ToMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});

@@ -23,8 +23,8 @@ namespace Zenject {
   class IdBinder;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::IdBinder);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::IdBinder*, "Zenject", "IdBinder");
+NEED_NO_BOX(::Zenject::IdBinder);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::IdBinder*, "Zenject", "IdBinder");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x18
@@ -46,21 +46,21 @@ namespace Zenject {
     // private Zenject.BindInfo _bindInfo
     // Size: 0x8
     // Offset: 0x10
-    Zenject::BindInfo* bindInfo;
+    ::Zenject::BindInfo* bindInfo;
     // Field size check
-    static_assert(sizeof(Zenject::BindInfo*) == 0x8);
+    static_assert(sizeof(::Zenject::BindInfo*) == 0x8);
     public:
-    // Creating conversion operator: operator Zenject::BindInfo*
-    constexpr operator Zenject::BindInfo*() const noexcept {
+    // Creating conversion operator: operator ::Zenject::BindInfo*
+    constexpr operator ::Zenject::BindInfo*() const noexcept {
       return bindInfo;
     }
     // Get instance field reference: private Zenject.BindInfo _bindInfo
-    Zenject::BindInfo*& dyn__bindInfo();
+    ::Zenject::BindInfo*& dyn__bindInfo();
     // public System.Void .ctor(Zenject.BindInfo bindInfo)
     // Offset: 0x1D3AF90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static IdBinder* New_ctor(Zenject::BindInfo* bindInfo) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::IdBinder::.ctor");
+    static IdBinder* New_ctor(::Zenject::BindInfo* bindInfo) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::IdBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IdBinder*, creationType>(bindInfo)));
     }
     // public System.Void WithId(System.Object identifier)
@@ -68,7 +68,7 @@ namespace Zenject {
     void WithId(::Il2CppObject* identifier);
   }; // Zenject.IdBinder
   #pragma pack(pop)
-  static check_size<sizeof(IdBinder), 16 + sizeof(Zenject::BindInfo*)> __Zenject_IdBinderSizeCheck;
+  static check_size<sizeof(IdBinder), 16 + sizeof(::Zenject::BindInfo*)> __Zenject_IdBinderSizeCheck;
   static_assert(sizeof(IdBinder) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

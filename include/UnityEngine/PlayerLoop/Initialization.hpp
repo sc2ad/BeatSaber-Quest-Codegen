@@ -18,7 +18,7 @@ namespace UnityEngine::PlayerLoop {
   struct Initialization;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PlayerLoop::Initialization, "UnityEngine.PlayerLoop", "Initialization");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::Initialization, "UnityEngine.PlayerLoop", "Initialization");
 // Type namespace: UnityEngine.PlayerLoop
 namespace UnityEngine::PlayerLoop {
   // Size: 0x0
@@ -28,25 +28,25 @@ namespace UnityEngine::PlayerLoop {
   // [TokenAttribute] Offset: FFFFFFFF
   // [MovedFromAttribute] Offset: 11A6E34
   // [RequiredByNativeCodeAttribute] Offset: 11A6E34
-  struct Initialization/*, public System::ValueType*/ {
+  struct Initialization/*, public ::System::ValueType*/ {
     public:
-    // Nested type: UnityEngine::PlayerLoop::Initialization::PlayerUpdateTime
+    // Nested type: ::UnityEngine::PlayerLoop::Initialization::PlayerUpdateTime
     struct PlayerUpdateTime;
-    // Nested type: UnityEngine::PlayerLoop::Initialization::DirectorSampleTime
+    // Nested type: ::UnityEngine::PlayerLoop::Initialization::DirectorSampleTime
     struct DirectorSampleTime;
-    // Nested type: UnityEngine::PlayerLoop::Initialization::AsyncUploadTimeSlicedUpdate
+    // Nested type: ::UnityEngine::PlayerLoop::Initialization::AsyncUploadTimeSlicedUpdate
     struct AsyncUploadTimeSlicedUpdate;
-    // Nested type: UnityEngine::PlayerLoop::Initialization::SynchronizeState
+    // Nested type: ::UnityEngine::PlayerLoop::Initialization::SynchronizeState
     struct SynchronizeState;
-    // Nested type: UnityEngine::PlayerLoop::Initialization::SynchronizeInputs
+    // Nested type: ::UnityEngine::PlayerLoop::Initialization::SynchronizeInputs
     struct SynchronizeInputs;
-    // Nested type: UnityEngine::PlayerLoop::Initialization::XREarlyUpdate
+    // Nested type: ::UnityEngine::PlayerLoop::Initialization::XREarlyUpdate
     struct XREarlyUpdate;
     // Creating value type constructor for type: Initialization
     constexpr Initialization() noexcept {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
   }; // UnityEngine.PlayerLoop.Initialization
   #pragma pack(pop)

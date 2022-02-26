@@ -13,8 +13,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PlayerSaveData::PlayerAllOverallStatsData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveData::PlayerAllOverallStatsData*, "", "PlayerSaveData/PlayerAllOverallStatsData");
+NEED_NO_BOX(::GlobalNamespace::PlayerSaveData::PlayerAllOverallStatsData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlayerSaveData::PlayerAllOverallStatsData*, "", "PlayerSaveData/PlayerAllOverallStatsData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x30
@@ -35,41 +35,41 @@ namespace GlobalNamespace {
     // public PlayerSaveData/PlayerOverallStatsData campaignOverallStatsData
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* campaignOverallStatsData;
+    ::GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* campaignOverallStatsData;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::PlayerSaveData::PlayerOverallStatsData*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::PlayerSaveData::PlayerOverallStatsData*) == 0x8);
     // public PlayerSaveData/PlayerOverallStatsData soloFreePlayOverallStatsData
     // Size: 0x8
     // Offset: 0x18
-    GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* soloFreePlayOverallStatsData;
+    ::GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* soloFreePlayOverallStatsData;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::PlayerSaveData::PlayerOverallStatsData*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::PlayerSaveData::PlayerOverallStatsData*) == 0x8);
     // public PlayerSaveData/PlayerOverallStatsData partyFreePlayOverallStatsData
     // Size: 0x8
     // Offset: 0x20
-    GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* partyFreePlayOverallStatsData;
+    ::GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* partyFreePlayOverallStatsData;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::PlayerSaveData::PlayerOverallStatsData*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::PlayerSaveData::PlayerOverallStatsData*) == 0x8);
     // public PlayerSaveData/PlayerOverallStatsData onlinePlayOverallStatsData
     // Size: 0x8
     // Offset: 0x28
-    GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* onlinePlayOverallStatsData;
+    ::GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* onlinePlayOverallStatsData;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::PlayerSaveData::PlayerOverallStatsData*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::PlayerSaveData::PlayerOverallStatsData*) == 0x8);
     public:
     // Get instance field reference: public PlayerSaveData/PlayerOverallStatsData campaignOverallStatsData
-    GlobalNamespace::PlayerSaveData::PlayerOverallStatsData*& dyn_campaignOverallStatsData();
+    ::GlobalNamespace::PlayerSaveData::PlayerOverallStatsData*& dyn_campaignOverallStatsData();
     // Get instance field reference: public PlayerSaveData/PlayerOverallStatsData soloFreePlayOverallStatsData
-    GlobalNamespace::PlayerSaveData::PlayerOverallStatsData*& dyn_soloFreePlayOverallStatsData();
+    ::GlobalNamespace::PlayerSaveData::PlayerOverallStatsData*& dyn_soloFreePlayOverallStatsData();
     // Get instance field reference: public PlayerSaveData/PlayerOverallStatsData partyFreePlayOverallStatsData
-    GlobalNamespace::PlayerSaveData::PlayerOverallStatsData*& dyn_partyFreePlayOverallStatsData();
+    ::GlobalNamespace::PlayerSaveData::PlayerOverallStatsData*& dyn_partyFreePlayOverallStatsData();
     // Get instance field reference: public PlayerSaveData/PlayerOverallStatsData onlinePlayOverallStatsData
-    GlobalNamespace::PlayerSaveData::PlayerOverallStatsData*& dyn_onlinePlayOverallStatsData();
+    ::GlobalNamespace::PlayerSaveData::PlayerOverallStatsData*& dyn_onlinePlayOverallStatsData();
     // public System.Void .ctor(PlayerSaveData/PlayerOverallStatsData campaignOverallStatsData, PlayerSaveData/PlayerOverallStatsData soloFreePlayOverallStatsData, PlayerSaveData/PlayerOverallStatsData partyFreePlayOverallStatsData, PlayerSaveData/PlayerOverallStatsData onlinePlayOverallStatsData)
     // Offset: 0x13E2004
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PlayerSaveData::PlayerAllOverallStatsData* New_ctor(GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* campaignOverallStatsData, GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* soloFreePlayOverallStatsData, GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* partyFreePlayOverallStatsData, GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* onlinePlayOverallStatsData) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerSaveData::PlayerAllOverallStatsData::.ctor");
+    static PlayerSaveData::PlayerAllOverallStatsData* New_ctor(::GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* campaignOverallStatsData, ::GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* soloFreePlayOverallStatsData, ::GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* partyFreePlayOverallStatsData, ::GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* onlinePlayOverallStatsData) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSaveData::PlayerAllOverallStatsData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerSaveData::PlayerAllOverallStatsData*, creationType>(campaignOverallStatsData, soloFreePlayOverallStatsData, partyFreePlayOverallStatsData, onlinePlayOverallStatsData)));
     }
     // public System.Void .ctor()
@@ -78,12 +78,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSaveData::PlayerAllOverallStatsData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerSaveData::PlayerAllOverallStatsData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSaveData::PlayerAllOverallStatsData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerSaveData::PlayerAllOverallStatsData*, creationType>()));
     }
   }; // PlayerSaveData/PlayerAllOverallStatsData
   #pragma pack(pop)
-  static check_size<sizeof(PlayerSaveData::PlayerAllOverallStatsData), 40 + sizeof(GlobalNamespace::PlayerSaveData::PlayerOverallStatsData*)> __GlobalNamespace_PlayerSaveData_PlayerAllOverallStatsDataSizeCheck;
+  static check_size<sizeof(PlayerSaveData::PlayerAllOverallStatsData), 40 + sizeof(::GlobalNamespace::PlayerSaveData::PlayerOverallStatsData*)> __GlobalNamespace_PlayerSaveData_PlayerAllOverallStatsDataSizeCheck;
   static_assert(sizeof(PlayerSaveData::PlayerAllOverallStatsData) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

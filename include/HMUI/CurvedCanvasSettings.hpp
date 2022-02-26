@@ -32,8 +32,8 @@ namespace HMUI {
   class CurvedCanvasSettings;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HMUI::CurvedCanvasSettings);
-DEFINE_IL2CPP_ARG_TYPE(HMUI::CurvedCanvasSettings*, "HMUI", "CurvedCanvasSettings");
+NEED_NO_BOX(::HMUI::CurvedCanvasSettings);
+DEFINE_IL2CPP_ARG_TYPE(::HMUI::CurvedCanvasSettings*, "HMUI", "CurvedCanvasSettings");
 // Type namespace: HMUI
 namespace HMUI {
   // Size: 0x91
@@ -42,7 +42,7 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   // [RequireComponent] Offset: 122A9B8
   // [RequireComponent] Offset: 122A9B8
-  class CurvedCanvasSettings : public UnityEngine::UI::Graphic {
+  class CurvedCanvasSettings : public ::UnityEngine::UI::Graphic {
     public:
     // Writing base type padding for base size: 0x89 to desired offset: 0x8C
     char ___base_padding[0x3] = {};
@@ -86,10 +86,10 @@ namespace HMUI {
     void SetRadius(float value);
     // private UnityEngine.Vector3 TransformPointFromCanvasTo3D(UnityEngine.Vector2 point)
     // Offset: 0x166BBC8
-    UnityEngine::Vector3 TransformPointFromCanvasTo3D(UnityEngine::Vector2 point);
+    ::UnityEngine::Vector3 TransformPointFromCanvasTo3D(::UnityEngine::Vector2 point);
     // static private System.Void RebuildAndSetup(UnityEngine.Transform t)
     // Offset: 0x166B918
-    static void RebuildAndSetup(UnityEngine::Transform* t);
+    static void RebuildAndSetup(::UnityEngine::Transform* t);
     // public System.Void .ctor()
     // Offset: 0x166BC98
     // Implemented from: UnityEngine.UI.Graphic
@@ -102,7 +102,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CurvedCanvasSettings* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::CurvedCanvasSettings::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::CurvedCanvasSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CurvedCanvasSettings*, creationType>()));
     }
     // protected override System.Void Start()
@@ -114,7 +114,7 @@ namespace HMUI {
     // Offset: 0x166BAB8
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::OnPopulateMesh(UnityEngine.UI.VertexHelper vh)
-    void OnPopulateMesh(UnityEngine::UI::VertexHelper* vh);
+    void OnPopulateMesh(::UnityEngine::UI::VertexHelper* vh);
   }; // HMUI.CurvedCanvasSettings
   #pragma pack(pop)
   static check_size<sizeof(CurvedCanvasSettings), 144 + sizeof(bool)> __HMUI_CurvedCanvasSettingsSizeCheck;
@@ -141,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Writing MetadataGetter for method: HMUI::CurvedCanvasSettings::TransformPointFromCanvasTo3D
 // Il2CppName: TransformPointFromCanvasTo3D
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (HMUI::CurvedCanvasSettings::*)(UnityEngine::Vector2)>(&HMUI::CurvedCanvasSettings::TransformPointFromCanvasTo3D)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (HMUI::CurvedCanvasSettings::*)(::UnityEngine::Vector2)>(&HMUI::CurvedCanvasSettings::TransformPointFromCanvasTo3D)> {
   static const MethodInfo* get() {
     static auto* point = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::CurvedCanvasSettings*), "TransformPointFromCanvasTo3D", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{point});
@@ -150,7 +150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HMUI::CurvedCanvasSettings::RebuildAndSetup
 // Il2CppName: RebuildAndSetup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Transform*)>(&HMUI::CurvedCanvasSettings::RebuildAndSetup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Transform*)>(&HMUI::CurvedCanvasSettings::RebuildAndSetup)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::CurvedCanvasSettings*), "RebuildAndSetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
@@ -171,7 +171,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Writing MetadataGetter for method: HMUI::CurvedCanvasSettings::OnPopulateMesh
 // Il2CppName: OnPopulateMesh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::CurvedCanvasSettings::*)(UnityEngine::UI::VertexHelper*)>(&HMUI::CurvedCanvasSettings::OnPopulateMesh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::CurvedCanvasSettings::*)(::UnityEngine::UI::VertexHelper*)>(&HMUI::CurvedCanvasSettings::OnPopulateMesh)> {
   static const MethodInfo* get() {
     static auto* vh = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "VertexHelper")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::CurvedCanvasSettings*), "OnPopulateMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{vh});

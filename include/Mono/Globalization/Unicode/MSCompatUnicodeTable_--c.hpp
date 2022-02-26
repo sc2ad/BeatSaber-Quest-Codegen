@@ -26,8 +26,8 @@ namespace Mono::Globalization::Unicode {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Globalization::Unicode::MSCompatUnicodeTable::$$c);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::MSCompatUnicodeTable::$$c*, "Mono.Globalization.Unicode", "MSCompatUnicodeTable/<>c");
+NEED_NO_BOX(::Mono::Globalization::Unicode::MSCompatUnicodeTable::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Globalization::Unicode::MSCompatUnicodeTable::$$c*, "Mono.Globalization.Unicode", "MSCompatUnicodeTable/<>c");
 // Type namespace: Mono.Globalization.Unicode
 namespace Mono::Globalization::Unicode {
   // Size: 0x10
@@ -38,26 +38,26 @@ namespace Mono::Globalization::Unicode {
   class MSCompatUnicodeTable::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly Mono.Globalization.Unicode.MSCompatUnicodeTable/Mono.Globalization.Unicode.<>c <>9
-    static Mono::Globalization::Unicode::MSCompatUnicodeTable::$$c* _get_$$9();
+    static ::Mono::Globalization::Unicode::MSCompatUnicodeTable::$$c* _get_$$9();
     // Set static field: static public readonly Mono.Globalization.Unicode.MSCompatUnicodeTable/Mono.Globalization.Unicode.<>c <>9
-    static void _set_$$9(Mono::Globalization::Unicode::MSCompatUnicodeTable::$$c* value);
+    static void _set_$$9(::Mono::Globalization::Unicode::MSCompatUnicodeTable::$$c* value);
     // Get static field: static public System.Comparison`1<Mono.Globalization.Unicode.Level2Map> <>9__17_0
-    static System::Comparison_1<Mono::Globalization::Unicode::Level2Map*>* _get_$$9__17_0();
+    static ::System::Comparison_1<::Mono::Globalization::Unicode::Level2Map*>* _get_$$9__17_0();
     // Set static field: static public System.Comparison`1<Mono.Globalization.Unicode.Level2Map> <>9__17_0
-    static void _set_$$9__17_0(System::Comparison_1<Mono::Globalization::Unicode::Level2Map*>* value);
+    static void _set_$$9__17_0(::System::Comparison_1<::Mono::Globalization::Unicode::Level2Map*>* value);
     // static private System.Void .cctor()
     // Offset: 0x1E68B78
     static void _cctor();
     // System.Int32 <BuildTailoringTables>b__17_0(Mono.Globalization.Unicode.Level2Map a, Mono.Globalization.Unicode.Level2Map b)
     // Offset: 0x1E68BE4
-    int $BuildTailoringTables$b__17_0(Mono::Globalization::Unicode::Level2Map* a, Mono::Globalization::Unicode::Level2Map* b);
+    int $BuildTailoringTables$b__17_0(::Mono::Globalization::Unicode::Level2Map* a, ::Mono::Globalization::Unicode::Level2Map* b);
     // public System.Void .ctor()
     // Offset: 0x1E68BDC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MSCompatUnicodeTable::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Globalization::Unicode::MSCompatUnicodeTable::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Globalization::Unicode::MSCompatUnicodeTable::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MSCompatUnicodeTable::$$c*, creationType>()));
     }
   }; // Mono.Globalization.Unicode.MSCompatUnicodeTable/Mono.Globalization.Unicode.<>c
@@ -75,7 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::MSCompatUnicodeTable::$$c::$BuildTailoringTables$b__17_0
 // Il2CppName: <BuildTailoringTables>b__17_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::MSCompatUnicodeTable::$$c::*)(Mono::Globalization::Unicode::Level2Map*, Mono::Globalization::Unicode::Level2Map*)>(&Mono::Globalization::Unicode::MSCompatUnicodeTable::$$c::$BuildTailoringTables$b__17_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::MSCompatUnicodeTable::$$c::*)(::Mono::Globalization::Unicode::Level2Map*, ::Mono::Globalization::Unicode::Level2Map*)>(&Mono::Globalization::Unicode::MSCompatUnicodeTable::$$c::$BuildTailoringTables$b__17_0)> {
   static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("Mono.Globalization.Unicode", "Level2Map")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("Mono.Globalization.Unicode", "Level2Map")->byval_arg;

@@ -14,8 +14,8 @@ namespace Unity::Collections::LowLevel::Unsafe {
   class NativeSetClassTypeToNullOnScheduleAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Unity::Collections::LowLevel::Unsafe::NativeSetClassTypeToNullOnScheduleAttribute);
-DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::LowLevel::Unsafe::NativeSetClassTypeToNullOnScheduleAttribute*, "Unity.Collections.LowLevel.Unsafe", "NativeSetClassTypeToNullOnScheduleAttribute");
+NEED_NO_BOX(::Unity::Collections::LowLevel::Unsafe::NativeSetClassTypeToNullOnScheduleAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::Unity::Collections::LowLevel::Unsafe::NativeSetClassTypeToNullOnScheduleAttribute*, "Unity.Collections.LowLevel.Unsafe", "NativeSetClassTypeToNullOnScheduleAttribute");
 // Type namespace: Unity.Collections.LowLevel.Unsafe
 namespace Unity::Collections::LowLevel::Unsafe {
   // Size: 0x10
@@ -24,7 +24,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AttributeUsageAttribute] Offset: 11A3580
   // [RequiredByNativeCodeAttribute] Offset: 11A3580
-  class NativeSetClassTypeToNullOnScheduleAttribute : public System::Attribute {
+  class NativeSetClassTypeToNullOnScheduleAttribute : public ::System::Attribute {
     public:
   }; // Unity.Collections.LowLevel.Unsafe.NativeSetClassTypeToNullOnScheduleAttribute
   #pragma pack(pop)

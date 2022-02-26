@@ -22,8 +22,8 @@ namespace UnityEngine::UI {
   class LayoutElement;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::UI::LayoutElement);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::LayoutElement*, "UnityEngine.UI", "LayoutElement");
+NEED_NO_BOX(::UnityEngine::UI::LayoutElement);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::LayoutElement*, "UnityEngine.UI", "LayoutElement");
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {
   // Size: 0x38
@@ -33,7 +33,7 @@ namespace UnityEngine::UI {
   // [AddComponentMenu] Offset: 11E0AE4
   // [RequireComponent] Offset: 11E0AE4
   // [ExecuteAlways] Offset: FFFFFFFF
-  class LayoutElement : public UnityEngine::EventSystems::UIBehaviour/*, public UnityEngine::UI::ILayoutElement, public UnityEngine::UI::ILayoutIgnorer*/ {
+  class LayoutElement : public ::UnityEngine::EventSystems::UIBehaviour/*, public ::UnityEngine::UI::ILayoutElement, public ::UnityEngine::UI::ILayoutIgnorer*/ {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -95,16 +95,16 @@ namespace UnityEngine::UI {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     public:
-    // Creating interface conversion operator: operator UnityEngine::UI::ILayoutElement
-    operator UnityEngine::UI::ILayoutElement() noexcept {
-      return *reinterpret_cast<UnityEngine::UI::ILayoutElement*>(this);
+    // Creating interface conversion operator: operator ::UnityEngine::UI::ILayoutElement
+    operator ::UnityEngine::UI::ILayoutElement() noexcept {
+      return *reinterpret_cast<::UnityEngine::UI::ILayoutElement*>(this);
     }
-    // Creating interface conversion operator: operator UnityEngine::UI::ILayoutIgnorer
-    operator UnityEngine::UI::ILayoutIgnorer() noexcept {
-      return *reinterpret_cast<UnityEngine::UI::ILayoutIgnorer*>(this);
+    // Creating interface conversion operator: operator ::UnityEngine::UI::ILayoutIgnorer
+    operator ::UnityEngine::UI::ILayoutIgnorer() noexcept {
+      return *reinterpret_cast<::UnityEngine::UI::ILayoutIgnorer*>(this);
     }
-    // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const noexcept = delete;
+    // Deleting conversion operator: operator ::System::IntPtr
+    constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Boolean m_IgnoreLayout
     bool& dyn_m_IgnoreLayout();
     // Get instance field reference: private System.Single m_MinWidth
@@ -189,7 +189,7 @@ namespace UnityEngine::UI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LayoutElement* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::LayoutElement::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::LayoutElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LayoutElement*, creationType>()));
     }
     // protected override System.Void OnEnable()

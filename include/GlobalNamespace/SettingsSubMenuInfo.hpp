@@ -24,8 +24,8 @@ namespace GlobalNamespace {
   class SettingsSubMenuInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SettingsSubMenuInfo);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SettingsSubMenuInfo*, "", "SettingsSubMenuInfo");
+NEED_NO_BOX(::GlobalNamespace::SettingsSubMenuInfo);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SettingsSubMenuInfo*, "", "SettingsSubMenuInfo");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -46,9 +46,9 @@ namespace GlobalNamespace {
     // private HMUI.ViewController _viewController
     // Size: 0x8
     // Offset: 0x10
-    HMUI::ViewController* viewController;
+    ::HMUI::ViewController* viewController;
     // Field size check
-    static_assert(sizeof(HMUI::ViewController*) == 0x8);
+    static_assert(sizeof(::HMUI::ViewController*) == 0x8);
     // [LocalizationKeyAttribute] Offset: 0x124CA40
     // private System.String _menuName
     // Size: 0x8
@@ -58,12 +58,12 @@ namespace GlobalNamespace {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private HMUI.ViewController _viewController
-    HMUI::ViewController*& dyn__viewController();
+    ::HMUI::ViewController*& dyn__viewController();
     // Get instance field reference: private System.String _menuName
     ::StringW& dyn__menuName();
     // public HMUI.ViewController get_viewController()
     // Offset: 0x13C9F20
-    HMUI::ViewController* get_viewController();
+    ::HMUI::ViewController* get_viewController();
     // public System.String get_localizedMenuName()
     // Offset: 0x13C9F28
     ::StringW get_localizedMenuName();
@@ -73,7 +73,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SettingsSubMenuInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SettingsSubMenuInfo::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SettingsSubMenuInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SettingsSubMenuInfo*, creationType>()));
     }
   }; // SettingsSubMenuInfo
@@ -85,7 +85,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::SettingsSubMenuInfo::get_viewController
 // Il2CppName: get_viewController
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ViewController* (GlobalNamespace::SettingsSubMenuInfo::*)()>(&GlobalNamespace::SettingsSubMenuInfo::get_viewController)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HMUI::ViewController* (GlobalNamespace::SettingsSubMenuInfo::*)()>(&GlobalNamespace::SettingsSubMenuInfo::get_viewController)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SettingsSubMenuInfo*), "get_viewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

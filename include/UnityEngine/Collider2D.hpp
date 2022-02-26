@@ -14,8 +14,8 @@ namespace UnityEngine {
   class Collider2D;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Collider2D);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Collider2D*, "UnityEngine", "Collider2D");
+NEED_NO_BOX(::UnityEngine::Collider2D);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Collider2D*, "UnityEngine", "Collider2D");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -25,7 +25,7 @@ namespace UnityEngine {
   // [RequireComponent] Offset: 11CA648
   // [RequiredByNativeCodeAttribute] Offset: 11CA648
   // [NativeHeaderAttribute] Offset: 11CA648
-  class Collider2D : public UnityEngine::Behaviour {
+  class Collider2D : public ::UnityEngine::Behaviour {
     public:
   }; // UnityEngine.Collider2D
   #pragma pack(pop)

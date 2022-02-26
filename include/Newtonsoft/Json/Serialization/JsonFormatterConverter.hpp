@@ -35,8 +35,8 @@ namespace Newtonsoft::Json::Serialization {
   class JsonFormatterConverter;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Serialization::JsonFormatterConverter);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Serialization::JsonFormatterConverter*, "Newtonsoft.Json.Serialization", "JsonFormatterConverter");
+NEED_NO_BOX(::Newtonsoft::Json::Serialization::JsonFormatterConverter);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Serialization::JsonFormatterConverter*, "Newtonsoft.Json.Serialization", "JsonFormatterConverter");
 // Type namespace: Newtonsoft.Json.Serialization
 namespace Newtonsoft::Json::Serialization {
   // Size: 0x28
@@ -45,7 +45,7 @@ namespace Newtonsoft::Json::Serialization {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NullableAttribute] Offset: 12029E8
   // [NullableContextAttribute] Offset: 12029E8
-  class JsonFormatterConverter : public ::Il2CppObject/*, public System::Runtime::Serialization::IFormatterConverter*/ {
+  class JsonFormatterConverter : public ::Il2CppObject/*, public ::System::Runtime::Serialization::IFormatterConverter*/ {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -59,52 +59,52 @@ namespace Newtonsoft::Json::Serialization {
     // private readonly Newtonsoft.Json.Serialization.JsonSerializerInternalReader _reader
     // Size: 0x8
     // Offset: 0x10
-    Newtonsoft::Json::Serialization::JsonSerializerInternalReader* reader;
+    ::Newtonsoft::Json::Serialization::JsonSerializerInternalReader* reader;
     // Field size check
-    static_assert(sizeof(Newtonsoft::Json::Serialization::JsonSerializerInternalReader*) == 0x8);
+    static_assert(sizeof(::Newtonsoft::Json::Serialization::JsonSerializerInternalReader*) == 0x8);
     // private readonly Newtonsoft.Json.Serialization.JsonISerializableContract _contract
     // Size: 0x8
     // Offset: 0x18
-    Newtonsoft::Json::Serialization::JsonISerializableContract* contract;
+    ::Newtonsoft::Json::Serialization::JsonISerializableContract* contract;
     // Field size check
-    static_assert(sizeof(Newtonsoft::Json::Serialization::JsonISerializableContract*) == 0x8);
+    static_assert(sizeof(::Newtonsoft::Json::Serialization::JsonISerializableContract*) == 0x8);
     // [NullableAttribute] Offset: 0x12063A4
     // private readonly Newtonsoft.Json.Serialization.JsonProperty _member
     // Size: 0x8
     // Offset: 0x20
-    Newtonsoft::Json::Serialization::JsonProperty* member;
+    ::Newtonsoft::Json::Serialization::JsonProperty* member;
     // Field size check
-    static_assert(sizeof(Newtonsoft::Json::Serialization::JsonProperty*) == 0x8);
+    static_assert(sizeof(::Newtonsoft::Json::Serialization::JsonProperty*) == 0x8);
     public:
-    // Creating interface conversion operator: operator System::Runtime::Serialization::IFormatterConverter
-    operator System::Runtime::Serialization::IFormatterConverter() noexcept {
-      return *reinterpret_cast<System::Runtime::Serialization::IFormatterConverter*>(this);
+    // Creating interface conversion operator: operator ::System::Runtime::Serialization::IFormatterConverter
+    operator ::System::Runtime::Serialization::IFormatterConverter() noexcept {
+      return *reinterpret_cast<::System::Runtime::Serialization::IFormatterConverter*>(this);
     }
     // Get instance field reference: private readonly Newtonsoft.Json.Serialization.JsonSerializerInternalReader _reader
-    Newtonsoft::Json::Serialization::JsonSerializerInternalReader*& dyn__reader();
+    ::Newtonsoft::Json::Serialization::JsonSerializerInternalReader*& dyn__reader();
     // Get instance field reference: private readonly Newtonsoft.Json.Serialization.JsonISerializableContract _contract
-    Newtonsoft::Json::Serialization::JsonISerializableContract*& dyn__contract();
+    ::Newtonsoft::Json::Serialization::JsonISerializableContract*& dyn__contract();
     // Get instance field reference: private readonly Newtonsoft.Json.Serialization.JsonProperty _member
-    Newtonsoft::Json::Serialization::JsonProperty*& dyn__member();
+    ::Newtonsoft::Json::Serialization::JsonProperty*& dyn__member();
     // public System.Void .ctor(Newtonsoft.Json.Serialization.JsonSerializerInternalReader reader, Newtonsoft.Json.Serialization.JsonISerializableContract contract, Newtonsoft.Json.Serialization.JsonProperty member)
     // Offset: 0x152F8CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static JsonFormatterConverter* New_ctor(Newtonsoft::Json::Serialization::JsonSerializerInternalReader* reader, Newtonsoft::Json::Serialization::JsonISerializableContract* contract, Newtonsoft::Json::Serialization::JsonProperty* member) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Serialization::JsonFormatterConverter::.ctor");
+    static JsonFormatterConverter* New_ctor(::Newtonsoft::Json::Serialization::JsonSerializerInternalReader* reader, ::Newtonsoft::Json::Serialization::JsonISerializableContract* contract, ::Newtonsoft::Json::Serialization::JsonProperty* member) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::JsonFormatterConverter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JsonFormatterConverter*, creationType>(reader, contract, member)));
     }
     // private T GetTokenValue(System.Object value)
     // Offset: 0xFFFFFFFF
     template<class T>
     T GetTokenValue(::Il2CppObject* value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Serialization::JsonFormatterConverter::GetTokenValue");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::JsonFormatterConverter::GetTokenValue");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetTokenValue", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___generic__method, value);
     }
     // public System.Object Convert(System.Object value, System.Type type)
     // Offset: 0x152F96C
-    ::Il2CppObject* Convert(::Il2CppObject* value, System::Type* type);
+    ::Il2CppObject* Convert(::Il2CppObject* value, ::System::Type* type);
     // public System.Boolean ToBoolean(System.Object value)
     // Offset: 0x152FB68
     bool ToBoolean(::Il2CppObject* value);
@@ -122,7 +122,7 @@ namespace Newtonsoft::Json::Serialization {
     ::StringW ToString(::Il2CppObject* value);
   }; // Newtonsoft.Json.Serialization.JsonFormatterConverter
   #pragma pack(pop)
-  static check_size<sizeof(JsonFormatterConverter), 32 + sizeof(Newtonsoft::Json::Serialization::JsonProperty*)> __Newtonsoft_Json_Serialization_JsonFormatterConverterSizeCheck;
+  static check_size<sizeof(JsonFormatterConverter), 32 + sizeof(::Newtonsoft::Json::Serialization::JsonProperty*)> __Newtonsoft_Json_Serialization_JsonFormatterConverterSizeCheck;
   static_assert(sizeof(JsonFormatterConverter) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -136,7 +136,7 @@ namespace Newtonsoft::Json::Serialization {
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::JsonFormatterConverter::Convert
 // Il2CppName: Convert
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Newtonsoft::Json::Serialization::JsonFormatterConverter::*)(::Il2CppObject*, System::Type*)>(&Newtonsoft::Json::Serialization::JsonFormatterConverter::Convert)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Newtonsoft::Json::Serialization::JsonFormatterConverter::*)(::Il2CppObject*, ::System::Type*)>(&Newtonsoft::Json::Serialization::JsonFormatterConverter::Convert)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;

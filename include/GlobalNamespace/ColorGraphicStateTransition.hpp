@@ -42,8 +42,8 @@ namespace GlobalNamespace {
   class ColorGraphicStateTransition;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::ColorGraphicStateTransition);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorGraphicStateTransition*, "", "ColorGraphicStateTransition");
+NEED_NO_BOX(::GlobalNamespace::ColorGraphicStateTransition);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ColorGraphicStateTransition*, "", "ColorGraphicStateTransition");
 // Type namespace: 
 namespace GlobalNamespace {
   // WARNING Size may be invalid!
@@ -51,7 +51,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AddComponentMenu] Offset: 1237F04
   // [RequireComponent] Offset: 1237F04
-  class ColorGraphicStateTransition : public GlobalNamespace::BaseStateTransition_1<UnityEngine::UI::Graphic*> {
+  class ColorGraphicStateTransition : public ::GlobalNamespace::BaseStateTransition_1<::UnityEngine::UI::Graphic*> {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -66,26 +66,26 @@ namespace GlobalNamespace {
     // private ColorTransitionSO _transition
     // Size: 0x8
     // Offset: 0x28
-    GlobalNamespace::ColorTransitionSO* transition;
+    ::GlobalNamespace::ColorTransitionSO* transition;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::ColorTransitionSO*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::ColorTransitionSO*) == 0x8);
     // private Tweening.ColorTween _colorTween
     // Size: 0x8
     // Offset: 0x30
-    Tweening::ColorTween* colorTween;
+    ::Tweening::ColorTween* colorTween;
     // Field size check
-    static_assert(sizeof(Tweening::ColorTween*) == 0x8);
+    static_assert(sizeof(::Tweening::ColorTween*) == 0x8);
     public:
     // Get instance field reference: private ColorTransitionSO _transition
-    GlobalNamespace::ColorTransitionSO*& dyn__transition();
+    ::GlobalNamespace::ColorTransitionSO*& dyn__transition();
     // Get instance field reference: private Tweening.ColorTween _colorTween
-    Tweening::ColorTween*& dyn__colorTween();
+    ::Tweening::ColorTween*& dyn__colorTween();
     // private System.Void StartTween(UnityEngine.Color endColor)
     // Offset: 0x13BDDEC
-    void StartTween(UnityEngine::Color endColor);
+    void StartTween(::UnityEngine::Color endColor);
     // private System.Void <StartTween>b__16_0(UnityEngine.Color color)
     // Offset: 0x13BE364
-    void $StartTween$b__16_0(UnityEngine::Color color);
+    void $StartTween$b__16_0(::UnityEngine::Color color);
     // private System.Void <StartTween>b__16_1()
     // Offset: 0x13BE388
     void $StartTween$b__16_1();
@@ -93,7 +93,7 @@ namespace GlobalNamespace {
     // Offset: 0x13BDDA0
     // Implemented from: BaseStateTransition
     // Base method: BaseTransitionSO BaseStateTransition::get_transition()
-    GlobalNamespace::BaseTransitionSO* get_transition();
+    ::GlobalNamespace::BaseTransitionSO* get_transition();
     // public System.Void .ctor()
     // Offset: 0x13BE314
     // Implemented from: BaseStateTransition`1
@@ -106,7 +106,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ColorGraphicStateTransition* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ColorGraphicStateTransition::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ColorGraphicStateTransition::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorGraphicStateTransition*, creationType>()));
     }
     // protected override System.Void TransitionToNormalState()
@@ -176,7 +176,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::ColorGraphicStateTransition::StartTween
 // Il2CppName: StartTween
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorGraphicStateTransition::*)(UnityEngine::Color)>(&GlobalNamespace::ColorGraphicStateTransition::StartTween)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorGraphicStateTransition::*)(::UnityEngine::Color)>(&GlobalNamespace::ColorGraphicStateTransition::StartTween)> {
   static const MethodInfo* get() {
     static auto* endColor = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorGraphicStateTransition*), "StartTween", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{endColor});
@@ -185,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ColorGraphicStateTransition::$StartTween$b__16_0
 // Il2CppName: <StartTween>b__16_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorGraphicStateTransition::*)(UnityEngine::Color)>(&GlobalNamespace::ColorGraphicStateTransition::$StartTween$b__16_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorGraphicStateTransition::*)(::UnityEngine::Color)>(&GlobalNamespace::ColorGraphicStateTransition::$StartTween$b__16_0)> {
   static const MethodInfo* get() {
     static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorGraphicStateTransition*), "<StartTween>b__16_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{color});
@@ -202,7 +202,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ColorGraphicStateTransition::get_transition
 // Il2CppName: get_transition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BaseTransitionSO* (GlobalNamespace::ColorGraphicStateTransition::*)()>(&GlobalNamespace::ColorGraphicStateTransition::get_transition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BaseTransitionSO* (GlobalNamespace::ColorGraphicStateTransition::*)()>(&GlobalNamespace::ColorGraphicStateTransition::get_transition)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorGraphicStateTransition*), "get_transition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

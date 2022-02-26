@@ -20,8 +20,8 @@ namespace RootMotion {
   class TQ;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::TQ);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::TQ*, "RootMotion", "TQ");
+NEED_NO_BOX(::RootMotion::TQ);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::TQ*, "RootMotion", "TQ");
 // Type namespace: RootMotion
 namespace RootMotion {
   // Size: 0x2C
@@ -42,30 +42,30 @@ namespace RootMotion {
     // public UnityEngine.Vector3 t
     // Size: 0xC
     // Offset: 0x10
-    UnityEngine::Vector3 t;
+    ::UnityEngine::Vector3 t;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // public UnityEngine.Quaternion q
     // Size: 0x10
     // Offset: 0x1C
-    UnityEngine::Quaternion q;
+    ::UnityEngine::Quaternion q;
     // Field size check
-    static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    static_assert(sizeof(::UnityEngine::Quaternion) == 0x10);
     public:
     // Get instance field reference: public UnityEngine.Vector3 t
-    UnityEngine::Vector3& dyn_t();
+    ::UnityEngine::Vector3& dyn_t();
     // Get instance field reference: public UnityEngine.Quaternion q
-    UnityEngine::Quaternion& dyn_q();
+    ::UnityEngine::Quaternion& dyn_q();
     // public System.Void .ctor(UnityEngine.Vector3 translation, UnityEngine.Quaternion rotation)
     // Offset: 0x1F1E3DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TQ* New_ctor(UnityEngine::Vector3 translation, UnityEngine::Quaternion rotation) {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::TQ::.ctor");
+    static TQ* New_ctor(::UnityEngine::Vector3 translation, ::UnityEngine::Quaternion rotation) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::TQ::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TQ*, creationType>(translation, rotation)));
     }
   }; // RootMotion.TQ
   #pragma pack(pop)
-  static check_size<sizeof(TQ), 28 + sizeof(UnityEngine::Quaternion)> __RootMotion_TQSizeCheck;
+  static check_size<sizeof(TQ), 28 + sizeof(::UnityEngine::Quaternion)> __RootMotion_TQSizeCheck;
   static_assert(sizeof(TQ) == 0x2C);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

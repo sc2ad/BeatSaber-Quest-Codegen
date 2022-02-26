@@ -25,8 +25,8 @@ namespace System {
   class TimeZone;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::TimeZone);
-DEFINE_IL2CPP_ARG_TYPE(System::TimeZone*, "System", "TimeZone");
+NEED_NO_BOX(::System::TimeZone);
+DEFINE_IL2CPP_ARG_TYPE(::System::TimeZone*, "System", "TimeZone");
 // Type namespace: System
 namespace System {
   // Size: 0x10
@@ -37,9 +37,9 @@ namespace System {
   class TimeZone : public ::Il2CppObject {
     public:
     // Get static field: static private System.TimeZone currentTimeZone
-    static System::TimeZone* _get_currentTimeZone();
+    static ::System::TimeZone* _get_currentTimeZone();
     // Set static field: static private System.TimeZone currentTimeZone
-    static void _set_currentTimeZone(System::TimeZone* value);
+    static void _set_currentTimeZone(::System::TimeZone* value);
     // Get static field: static private System.Object tz_lock
     static ::Il2CppObject* _get_tz_lock();
     // Set static field: static private System.Object tz_lock
@@ -50,20 +50,20 @@ namespace System {
     static void _set_timezone_check(int64_t value);
     // static public System.TimeZone get_CurrentTimeZone()
     // Offset: 0x1CE62E0
-    static System::TimeZone* get_CurrentTimeZone();
+    static ::System::TimeZone* get_CurrentTimeZone();
     // static private System.Void .cctor()
     // Offset: 0x1CE64D0
     static void _cctor();
     // public System.TimeSpan GetUtcOffset(System.DateTime time)
     // Offset: 0xFFFFFFFF
-    System::TimeSpan GetUtcOffset(System::DateTime time);
+    ::System::TimeSpan GetUtcOffset(::System::DateTime time);
     // protected System.Void .ctor()
     // Offset: 0x1CE62D8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimeZone* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::TimeZone::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::TimeZone::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimeZone*, creationType>()));
     }
   }; // System.TimeZone
@@ -73,7 +73,7 @@ namespace System {
 // Writing MetadataGetter for method: System::TimeZone::get_CurrentTimeZone
 // Il2CppName: get_CurrentTimeZone
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZone* (*)()>(&System::TimeZone::get_CurrentTimeZone)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeZone* (*)()>(&System::TimeZone::get_CurrentTimeZone)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::TimeZone*), "get_CurrentTimeZone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -89,7 +89,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::TimeZone::GetUtcOffset
 // Il2CppName: GetUtcOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (System::TimeZone::*)(System::DateTime)>(&System::TimeZone::GetUtcOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeSpan (System::TimeZone::*)(::System::DateTime)>(&System::TimeZone::GetUtcOffset)> {
   static const MethodInfo* get() {
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::TimeZone*), "GetUtcOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time});

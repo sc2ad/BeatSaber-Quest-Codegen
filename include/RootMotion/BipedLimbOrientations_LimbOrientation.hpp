@@ -15,8 +15,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::BipedLimbOrientations::LimbOrientation);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedLimbOrientations::LimbOrientation*, "RootMotion", "BipedLimbOrientations/LimbOrientation");
+NEED_NO_BOX(::RootMotion::BipedLimbOrientations::LimbOrientation);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::BipedLimbOrientations::LimbOrientation*, "RootMotion", "BipedLimbOrientations/LimbOrientation");
 // Type namespace: RootMotion
 namespace RootMotion {
   // Size: 0x34
@@ -37,38 +37,38 @@ namespace RootMotion {
     // public UnityEngine.Vector3 upperBoneForwardAxis
     // Size: 0xC
     // Offset: 0x10
-    UnityEngine::Vector3 upperBoneForwardAxis;
+    ::UnityEngine::Vector3 upperBoneForwardAxis;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // public UnityEngine.Vector3 lowerBoneForwardAxis
     // Size: 0xC
     // Offset: 0x1C
-    UnityEngine::Vector3 lowerBoneForwardAxis;
+    ::UnityEngine::Vector3 lowerBoneForwardAxis;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // public UnityEngine.Vector3 lastBoneLeftAxis
     // Size: 0xC
     // Offset: 0x28
-    UnityEngine::Vector3 lastBoneLeftAxis;
+    ::UnityEngine::Vector3 lastBoneLeftAxis;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     public:
     // Get instance field reference: public UnityEngine.Vector3 upperBoneForwardAxis
-    UnityEngine::Vector3& dyn_upperBoneForwardAxis();
+    ::UnityEngine::Vector3& dyn_upperBoneForwardAxis();
     // Get instance field reference: public UnityEngine.Vector3 lowerBoneForwardAxis
-    UnityEngine::Vector3& dyn_lowerBoneForwardAxis();
+    ::UnityEngine::Vector3& dyn_lowerBoneForwardAxis();
     // Get instance field reference: public UnityEngine.Vector3 lastBoneLeftAxis
-    UnityEngine::Vector3& dyn_lastBoneLeftAxis();
+    ::UnityEngine::Vector3& dyn_lastBoneLeftAxis();
     // public System.Void .ctor(UnityEngine.Vector3 upperBoneForwardAxis, UnityEngine.Vector3 lowerBoneForwardAxis, UnityEngine.Vector3 lastBoneLeftAxis)
     // Offset: 0x22209F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BipedLimbOrientations::LimbOrientation* New_ctor(UnityEngine::Vector3 upperBoneForwardAxis, UnityEngine::Vector3 lowerBoneForwardAxis, UnityEngine::Vector3 lastBoneLeftAxis) {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::BipedLimbOrientations::LimbOrientation::.ctor");
+    static BipedLimbOrientations::LimbOrientation* New_ctor(::UnityEngine::Vector3 upperBoneForwardAxis, ::UnityEngine::Vector3 lowerBoneForwardAxis, ::UnityEngine::Vector3 lastBoneLeftAxis) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::BipedLimbOrientations::LimbOrientation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BipedLimbOrientations::LimbOrientation*, creationType>(upperBoneForwardAxis, lowerBoneForwardAxis, lastBoneLeftAxis)));
     }
   }; // RootMotion.BipedLimbOrientations/RootMotion.LimbOrientation
   #pragma pack(pop)
-  static check_size<sizeof(BipedLimbOrientations::LimbOrientation), 40 + sizeof(UnityEngine::Vector3)> __RootMotion_BipedLimbOrientations_LimbOrientationSizeCheck;
+  static check_size<sizeof(BipedLimbOrientations::LimbOrientation), 40 + sizeof(::UnityEngine::Vector3)> __RootMotion_BipedLimbOrientations_LimbOrientationSizeCheck;
   static_assert(sizeof(BipedLimbOrientations::LimbOrientation) == 0x34);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

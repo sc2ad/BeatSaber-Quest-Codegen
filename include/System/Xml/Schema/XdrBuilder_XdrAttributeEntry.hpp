@@ -24,8 +24,8 @@ namespace System::Xml::Schema {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Schema::XdrBuilder::XdrAttributeEntry);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::XdrBuilder::XdrAttributeEntry*, "System.Xml.Schema", "XdrBuilder/XdrAttributeEntry");
+NEED_NO_BOX(::System::Xml::Schema::XdrBuilder::XdrAttributeEntry);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XdrBuilder::XdrAttributeEntry*, "System.Xml.Schema", "XdrBuilder/XdrAttributeEntry");
 // Type namespace: System.Xml.Schema
 namespace System::Xml::Schema {
   // Size: 0x28
@@ -46,9 +46,9 @@ namespace System::Xml::Schema {
     // System.Xml.Schema.SchemaNames/System.Xml.Schema.Token _Attribute
     // Size: 0x4
     // Offset: 0x10
-    System::Xml::Schema::SchemaNames::Token Attribute;
+    ::System::Xml::Schema::SchemaNames::Token Attribute;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::SchemaNames::Token) == 0x4);
+    static_assert(sizeof(::System::Xml::Schema::SchemaNames::Token) == 0x4);
     // System.Int32 _SchemaFlags
     // Size: 0x4
     // Offset: 0x14
@@ -58,41 +58,41 @@ namespace System::Xml::Schema {
     // System.Xml.Schema.XmlSchemaDatatype _Datatype
     // Size: 0x8
     // Offset: 0x18
-    System::Xml::Schema::XmlSchemaDatatype* Datatype;
+    ::System::Xml::Schema::XmlSchemaDatatype* Datatype;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::XmlSchemaDatatype*) == 0x8);
+    static_assert(sizeof(::System::Xml::Schema::XmlSchemaDatatype*) == 0x8);
     // System.Xml.Schema.XdrBuilder/System.Xml.Schema.XdrBuildFunction _BuildFunc
     // Size: 0x8
     // Offset: 0x20
-    System::Xml::Schema::XdrBuilder::XdrBuildFunction* BuildFunc;
+    ::System::Xml::Schema::XdrBuilder::XdrBuildFunction* BuildFunc;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::XdrBuilder::XdrBuildFunction*) == 0x8);
+    static_assert(sizeof(::System::Xml::Schema::XdrBuilder::XdrBuildFunction*) == 0x8);
     public:
     // Get instance field reference: System.Xml.Schema.SchemaNames/System.Xml.Schema.Token _Attribute
-    System::Xml::Schema::SchemaNames::Token& dyn__Attribute();
+    ::System::Xml::Schema::SchemaNames::Token& dyn__Attribute();
     // Get instance field reference: System.Int32 _SchemaFlags
     int& dyn__SchemaFlags();
     // Get instance field reference: System.Xml.Schema.XmlSchemaDatatype _Datatype
-    System::Xml::Schema::XmlSchemaDatatype*& dyn__Datatype();
+    ::System::Xml::Schema::XmlSchemaDatatype*& dyn__Datatype();
     // Get instance field reference: System.Xml.Schema.XdrBuilder/System.Xml.Schema.XdrBuildFunction _BuildFunc
-    System::Xml::Schema::XdrBuilder::XdrBuildFunction*& dyn__BuildFunc();
+    ::System::Xml::Schema::XdrBuilder::XdrBuildFunction*& dyn__BuildFunc();
     // System.Void .ctor(System.Xml.Schema.SchemaNames/System.Xml.Schema.Token a, System.Xml.XmlTokenizedType ttype, System.Xml.Schema.XdrBuilder/System.Xml.Schema.XdrBuildFunction build)
     // Offset: 0x1C715D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XdrBuilder::XdrAttributeEntry* New_ctor(System::Xml::Schema::SchemaNames::Token a, System::Xml::XmlTokenizedType ttype, System::Xml::Schema::XdrBuilder::XdrBuildFunction* build) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Schema::XdrBuilder::XdrAttributeEntry::.ctor");
+    static XdrBuilder::XdrAttributeEntry* New_ctor(::System::Xml::Schema::SchemaNames::Token a, ::System::Xml::XmlTokenizedType ttype, ::System::Xml::Schema::XdrBuilder::XdrBuildFunction* build) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XdrBuilder::XdrAttributeEntry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XdrBuilder::XdrAttributeEntry*, creationType>(a, ttype, build)));
     }
     // System.Void .ctor(System.Xml.Schema.SchemaNames/System.Xml.Schema.Token a, System.Xml.XmlTokenizedType ttype, System.Int32 schemaFlags, System.Xml.Schema.XdrBuilder/System.Xml.Schema.XdrBuildFunction build)
     // Offset: 0x1C71620
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XdrBuilder::XdrAttributeEntry* New_ctor(System::Xml::Schema::SchemaNames::Token a, System::Xml::XmlTokenizedType ttype, int schemaFlags, System::Xml::Schema::XdrBuilder::XdrBuildFunction* build) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Schema::XdrBuilder::XdrAttributeEntry::.ctor");
+    static XdrBuilder::XdrAttributeEntry* New_ctor(::System::Xml::Schema::SchemaNames::Token a, ::System::Xml::XmlTokenizedType ttype, int schemaFlags, ::System::Xml::Schema::XdrBuilder::XdrBuildFunction* build) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XdrBuilder::XdrAttributeEntry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XdrBuilder::XdrAttributeEntry*, creationType>(a, ttype, schemaFlags, build)));
     }
   }; // System.Xml.Schema.XdrBuilder/System.Xml.Schema.XdrAttributeEntry
   #pragma pack(pop)
-  static check_size<sizeof(XdrBuilder::XdrAttributeEntry), 32 + sizeof(System::Xml::Schema::XdrBuilder::XdrBuildFunction*)> __System_Xml_Schema_XdrBuilder_XdrAttributeEntrySizeCheck;
+  static check_size<sizeof(XdrBuilder::XdrAttributeEntry), 32 + sizeof(::System::Xml::Schema::XdrBuilder::XdrBuildFunction*)> __System_Xml_Schema_XdrBuilder_XdrAttributeEntrySizeCheck;
   static_assert(sizeof(XdrBuilder::XdrAttributeEntry) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

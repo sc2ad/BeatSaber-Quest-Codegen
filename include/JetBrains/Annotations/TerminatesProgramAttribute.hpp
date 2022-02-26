@@ -18,8 +18,8 @@ namespace JetBrains::Annotations {
   class TerminatesProgramAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(JetBrains::Annotations::TerminatesProgramAttribute);
-DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::TerminatesProgramAttribute*, "JetBrains.Annotations", "TerminatesProgramAttribute");
+NEED_NO_BOX(::JetBrains::Annotations::TerminatesProgramAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::JetBrains::Annotations::TerminatesProgramAttribute*, "JetBrains.Annotations", "TerminatesProgramAttribute");
 // Type namespace: JetBrains.Annotations
 namespace JetBrains::Annotations {
   // Size: 0x10
@@ -28,7 +28,7 @@ namespace JetBrains::Annotations {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AttributeUsageAttribute] Offset: 11E6658
   // [ObsoleteAttribute] Offset: 11E6658
-  class TerminatesProgramAttribute : public System::Attribute {
+  class TerminatesProgramAttribute : public ::System::Attribute {
     public:
     // public System.Void .ctor()
     // Offset: 0x2A47588
@@ -37,7 +37,7 @@ namespace JetBrains::Annotations {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TerminatesProgramAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("JetBrains::Annotations::TerminatesProgramAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::JetBrains::Annotations::TerminatesProgramAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TerminatesProgramAttribute*, creationType>()));
     }
   }; // JetBrains.Annotations.TerminatesProgramAttribute

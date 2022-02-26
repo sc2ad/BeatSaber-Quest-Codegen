@@ -25,8 +25,8 @@ namespace UnityEngine {
   class ManagedStreamHelpers;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ManagedStreamHelpers);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ManagedStreamHelpers*, "UnityEngine", "ManagedStreamHelpers");
+NEED_NO_BOX(::UnityEngine::ManagedStreamHelpers);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ManagedStreamHelpers*, "UnityEngine", "ManagedStreamHelpers");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -37,16 +37,16 @@ namespace UnityEngine {
     public:
     // static System.Void ValidateLoadFromStream(System.IO.Stream stream)
     // Offset: 0x202A8EC
-    static void ValidateLoadFromStream(System::IO::Stream* stream);
+    static void ValidateLoadFromStream(::System::IO::Stream* stream);
     // static System.Void ManagedStreamRead(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.IO.Stream stream, System.IntPtr returnValueAddress)
     // Offset: 0x202A9F4
-    static void ManagedStreamRead(::ArrayW<uint8_t> buffer, int offset, int count, System::IO::Stream* stream, System::IntPtr returnValueAddress);
+    static void ManagedStreamRead(::ArrayW<uint8_t> buffer, int offset, int count, ::System::IO::Stream* stream, ::System::IntPtr returnValueAddress);
     // static System.Void ManagedStreamSeek(System.Int64 offset, System.UInt32 origin, System.IO.Stream stream, System.IntPtr returnValueAddress)
     // Offset: 0x202AAF4
-    static void ManagedStreamSeek(int64_t offset, uint origin, System::IO::Stream* stream, System::IntPtr returnValueAddress);
+    static void ManagedStreamSeek(int64_t offset, uint origin, ::System::IO::Stream* stream, ::System::IntPtr returnValueAddress);
     // static System.Void ManagedStreamLength(System.IO.Stream stream, System.IntPtr returnValueAddress)
     // Offset: 0x202ABEC
-    static void ManagedStreamLength(System::IO::Stream* stream, System::IntPtr returnValueAddress);
+    static void ManagedStreamLength(::System::IO::Stream* stream, ::System::IntPtr returnValueAddress);
   }; // UnityEngine.ManagedStreamHelpers
   #pragma pack(pop)
 }
@@ -54,7 +54,7 @@ namespace UnityEngine {
 // Writing MetadataGetter for method: UnityEngine::ManagedStreamHelpers::ValidateLoadFromStream
 // Il2CppName: ValidateLoadFromStream
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IO::Stream*)>(&UnityEngine::ManagedStreamHelpers::ValidateLoadFromStream)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IO::Stream*)>(&UnityEngine::ManagedStreamHelpers::ValidateLoadFromStream)> {
   static const MethodInfo* get() {
     static auto* stream = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ManagedStreamHelpers*), "ValidateLoadFromStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stream});
@@ -63,7 +63,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::ManagedStreamHelpers::ManagedStreamRead
 // Il2CppName: ManagedStreamRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t>, int, int, System::IO::Stream*, System::IntPtr)>(&UnityEngine::ManagedStreamHelpers::ManagedStreamRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t>, int, int, ::System::IO::Stream*, ::System::IntPtr)>(&UnityEngine::ManagedStreamHelpers::ManagedStreamRead)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -76,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::ManagedStreamHelpers::ManagedStreamSeek
 // Il2CppName: ManagedStreamSeek
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int64_t, uint, System::IO::Stream*, System::IntPtr)>(&UnityEngine::ManagedStreamHelpers::ManagedStreamSeek)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int64_t, uint, ::System::IO::Stream*, ::System::IntPtr)>(&UnityEngine::ManagedStreamHelpers::ManagedStreamSeek)> {
   static const MethodInfo* get() {
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     static auto* origin = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -88,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 // Writing MetadataGetter for method: UnityEngine::ManagedStreamHelpers::ManagedStreamLength
 // Il2CppName: ManagedStreamLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IO::Stream*, System::IntPtr)>(&UnityEngine::ManagedStreamHelpers::ManagedStreamLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IO::Stream*, ::System::IntPtr)>(&UnityEngine::ManagedStreamHelpers::ManagedStreamLength)> {
   static const MethodInfo* get() {
     static auto* stream = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
     static auto* returnValueAddress = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;

@@ -18,8 +18,8 @@ namespace System::Linq::Expressions {
   class IArgumentProvider;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Linq::Expressions::IArgumentProvider);
-DEFINE_IL2CPP_ARG_TYPE(System::Linq::Expressions::IArgumentProvider*, "System.Linq.Expressions", "IArgumentProvider");
+NEED_NO_BOX(::System::Linq::Expressions::IArgumentProvider);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::IArgumentProvider*, "System.Linq.Expressions", "IArgumentProvider");
 // Type namespace: System.Linq.Expressions
 namespace System::Linq::Expressions {
   // Size: 0x10
@@ -33,7 +33,7 @@ namespace System::Linq::Expressions {
     int get_ArgumentCount();
     // public System.Linq.Expressions.Expression GetArgument(System.Int32 index)
     // Offset: 0xFFFFFFFF
-    System::Linq::Expressions::Expression* GetArgument(int index);
+    ::System::Linq::Expressions::Expression* GetArgument(int index);
   }; // System.Linq.Expressions.IArgumentProvider
   #pragma pack(pop)
 }
@@ -49,7 +49,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Linq::Expressions::IArgumentProvider::GetArgument
 // Il2CppName: GetArgument
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Linq::Expressions::Expression* (System::Linq::Expressions::IArgumentProvider::*)(int)>(&System::Linq::Expressions::IArgumentProvider::GetArgument)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (System::Linq::Expressions::IArgumentProvider::*)(int)>(&System::Linq::Expressions::IArgumentProvider::GetArgument)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::IArgumentProvider*), "GetArgument", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});

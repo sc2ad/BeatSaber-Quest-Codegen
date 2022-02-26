@@ -32,8 +32,8 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   class BinaryMethodCall;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall*, "System.Runtime.Serialization.Formatters.Binary", "BinaryMethodCall");
+NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall*, "System.Runtime.Serialization.Formatters.Binary", "BinaryMethodCall");
 // Type namespace: System.Runtime.Serialization.Formatters.Binary
 namespace System::Runtime::Serialization::Formatters::Binary {
   // Size: 0x40
@@ -78,9 +78,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // private System.Type[] argTypes
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayW<System::Type*> argTypes;
+    ::ArrayW<::System::Type*> argTypes;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::Type*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::System::Type*>) == 0x8);
     // private System.Boolean bArgsPrimitive
     // Size: 0x1
     // Offset: 0x38
@@ -92,9 +92,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // private System.Runtime.Serialization.Formatters.Binary.MessageEnum messageEnum
     // Size: 0x4
     // Offset: 0x3C
-    System::Runtime::Serialization::Formatters::Binary::MessageEnum messageEnum;
+    ::System::Runtime::Serialization::Formatters::Binary::MessageEnum messageEnum;
     // Field size check
-    static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::MessageEnum) == 0x4);
+    static_assert(sizeof(::System::Runtime::Serialization::Formatters::Binary::MessageEnum) == 0x4);
     public:
     // Get instance field reference: private System.String methodName
     ::StringW& dyn_methodName();
@@ -105,14 +105,14 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: private System.Object callContext
     ::Il2CppObject*& dyn_callContext();
     // Get instance field reference: private System.Type[] argTypes
-    ::ArrayW<System::Type*>& dyn_argTypes();
+    ::ArrayW<::System::Type*>& dyn_argTypes();
     // Get instance field reference: private System.Boolean bArgsPrimitive
     bool& dyn_bArgsPrimitive();
     // Get instance field reference: private System.Runtime.Serialization.Formatters.Binary.MessageEnum messageEnum
-    System::Runtime::Serialization::Formatters::Binary::MessageEnum& dyn_messageEnum();
+    ::System::Runtime::Serialization::Formatters::Binary::MessageEnum& dyn_messageEnum();
     // System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
     // Offset: 0x1811F60
-    void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
+    void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // System.Void Dump()
     // Offset: 0x1812238
     void Dump();
@@ -122,19 +122,19 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BinaryMethodCall* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BinaryMethodCall*, creationType>()));
     }
   }; // System.Runtime.Serialization.Formatters.Binary.BinaryMethodCall
   #pragma pack(pop)
-  static check_size<sizeof(BinaryMethodCall), 60 + sizeof(System::Runtime::Serialization::Formatters::Binary::MessageEnum)> __System_Runtime_Serialization_Formatters_Binary_BinaryMethodCallSizeCheck;
+  static check_size<sizeof(BinaryMethodCall), 60 + sizeof(::System::Runtime::Serialization::Formatters::Binary::MessageEnum)> __System_Runtime_Serialization_Formatters_Binary_BinaryMethodCallSizeCheck;
   static_assert(sizeof(BinaryMethodCall) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall::*)(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*)>(&System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall::*)(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*)>(&System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall::Write)> {
   static const MethodInfo* get() {
     static auto* sout = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "__BinaryWriter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sout});

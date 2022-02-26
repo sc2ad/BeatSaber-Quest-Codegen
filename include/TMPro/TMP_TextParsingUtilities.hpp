@@ -24,8 +24,8 @@ namespace TMPro {
   class TMP_TextParsingUtilities;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(TMPro::TMP_TextParsingUtilities);
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_TextParsingUtilities*, "TMPro", "TMP_TextParsingUtilities");
+NEED_NO_BOX(::TMPro::TMP_TextParsingUtilities);
+DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_TextParsingUtilities*, "TMPro", "TMP_TextParsingUtilities");
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0x10
@@ -35,9 +35,9 @@ namespace TMPro {
   class TMP_TextParsingUtilities : public ::Il2CppObject {
     public:
     // Get static field: static private readonly TMPro.TMP_TextParsingUtilities s_Instance
-    static TMPro::TMP_TextParsingUtilities* _get_s_Instance();
+    static ::TMPro::TMP_TextParsingUtilities* _get_s_Instance();
     // Set static field: static private readonly TMPro.TMP_TextParsingUtilities s_Instance
-    static void _set_s_Instance(TMPro::TMP_TextParsingUtilities* value);
+    static void _set_s_Instance(::TMPro::TMP_TextParsingUtilities* value);
     // static field const value: static private System.String k_LookupStringL
     static constexpr const char* k_LookupStringL = "-------------------------------- !-#$%&-()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[-]^_`abcdefghijklmnopqrstuvwxyz{|}~-";
     // Get static field: static private System.String k_LookupStringL
@@ -52,7 +52,7 @@ namespace TMPro {
     static void _set_k_LookupStringU(::StringW value);
     // static public TMPro.TMP_TextParsingUtilities get_instance()
     // Offset: 0x1837CCC
-    static TMPro::TMP_TextParsingUtilities* get_instance();
+    static ::TMPro::TMP_TextParsingUtilities* get_instance();
     // static private System.Void .cctor()
     // Offset: 0x1837C60
     static void _cctor();
@@ -86,7 +86,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_TextParsingUtilities* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_TextParsingUtilities::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_TextParsingUtilities::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_TextParsingUtilities*, creationType>()));
     }
   }; // TMPro.TMP_TextParsingUtilities
@@ -96,7 +96,7 @@ namespace TMPro {
 // Writing MetadataGetter for method: TMPro::TMP_TextParsingUtilities::get_instance
 // Il2CppName: get_instance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_TextParsingUtilities* (*)()>(&TMPro::TMP_TextParsingUtilities::get_instance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_TextParsingUtilities* (*)()>(&TMPro::TMP_TextParsingUtilities::get_instance)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextParsingUtilities*), "get_instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

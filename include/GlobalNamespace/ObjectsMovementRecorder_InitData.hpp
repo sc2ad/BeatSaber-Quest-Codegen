@@ -14,8 +14,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::ObjectsMovementRecorder::InitData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObjectsMovementRecorder::InitData*, "", "ObjectsMovementRecorder/InitData");
+NEED_NO_BOX(::GlobalNamespace::ObjectsMovementRecorder::InitData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ObjectsMovementRecorder::InitData*, "", "ObjectsMovementRecorder/InitData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x30
@@ -36,15 +36,15 @@ namespace GlobalNamespace {
     // public readonly ObjectsMovementRecorder/Mode mode
     // Size: 0x4
     // Offset: 0x10
-    GlobalNamespace::ObjectsMovementRecorder::Mode mode;
+    ::GlobalNamespace::ObjectsMovementRecorder::Mode mode;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::ObjectsMovementRecorder::Mode) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::ObjectsMovementRecorder::Mode) == 0x4);
     // public readonly ObjectsMovementRecorder/CameraView cameraView
     // Size: 0x4
     // Offset: 0x14
-    GlobalNamespace::ObjectsMovementRecorder::CameraView cameraView;
+    ::GlobalNamespace::ObjectsMovementRecorder::CameraView cameraView;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::ObjectsMovementRecorder::CameraView) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::ObjectsMovementRecorder::CameraView) == 0x4);
     // public readonly System.String recordingFileName
     // Size: 0x8
     // Offset: 0x18
@@ -85,9 +85,9 @@ namespace GlobalNamespace {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public readonly ObjectsMovementRecorder/Mode mode
-    GlobalNamespace::ObjectsMovementRecorder::Mode& dyn_mode();
+    ::GlobalNamespace::ObjectsMovementRecorder::Mode& dyn_mode();
     // Get instance field reference: public readonly ObjectsMovementRecorder/CameraView cameraView
-    GlobalNamespace::ObjectsMovementRecorder::CameraView& dyn_cameraView();
+    ::GlobalNamespace::ObjectsMovementRecorder::CameraView& dyn_cameraView();
     // Get instance field reference: public readonly System.String recordingFileName
     ::StringW& dyn_recordingFileName();
     // Get instance field reference: public readonly System.Boolean addDateTimeSuffixToFileName
@@ -103,8 +103,8 @@ namespace GlobalNamespace {
     // public System.Void .ctor(ObjectsMovementRecorder/Mode mode, ObjectsMovementRecorder/CameraView cameraView, System.String recordingFileName, System.Boolean addDateTimeSuffixToFileName, System.Boolean screenshotRecording, System.Int32 screenshotWidth, System.Int32 screenshotHeight, System.Int32 framerate)
     // Offset: 0x2B3261C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ObjectsMovementRecorder::InitData* New_ctor(GlobalNamespace::ObjectsMovementRecorder::Mode mode, GlobalNamespace::ObjectsMovementRecorder::CameraView cameraView, ::StringW recordingFileName, bool addDateTimeSuffixToFileName, bool screenshotRecording, int screenshotWidth, int screenshotHeight, int framerate) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ObjectsMovementRecorder::InitData::.ctor");
+    static ObjectsMovementRecorder::InitData* New_ctor(::GlobalNamespace::ObjectsMovementRecorder::Mode mode, ::GlobalNamespace::ObjectsMovementRecorder::CameraView cameraView, ::StringW recordingFileName, bool addDateTimeSuffixToFileName, bool screenshotRecording, int screenshotWidth, int screenshotHeight, int framerate) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ObjectsMovementRecorder::InitData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectsMovementRecorder::InitData*, creationType>(mode, cameraView, recordingFileName, addDateTimeSuffixToFileName, screenshotRecording, screenshotWidth, screenshotHeight, framerate)));
     }
   }; // ObjectsMovementRecorder/InitData

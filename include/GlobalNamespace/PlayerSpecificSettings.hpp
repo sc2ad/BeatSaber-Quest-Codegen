@@ -28,8 +28,8 @@ namespace GlobalNamespace {
   class PlayerSpecificSettings;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PlayerSpecificSettings);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSpecificSettings*, "", "PlayerSpecificSettings");
+NEED_NO_BOX(::GlobalNamespace::PlayerSpecificSettings);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlayerSpecificSettings*, "", "PlayerSpecificSettings");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x44
@@ -116,9 +116,9 @@ namespace GlobalNamespace {
     // private NoteJumpDurationTypeSettings _noteJumpDurationTypeSettings
     // Size: 0x4
     // Offset: 0x2C
-    GlobalNamespace::NoteJumpDurationTypeSettings noteJumpDurationTypeSettings;
+    ::GlobalNamespace::NoteJumpDurationTypeSettings noteJumpDurationTypeSettings;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::NoteJumpDurationTypeSettings) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::NoteJumpDurationTypeSettings) == 0x4);
     // private System.Single _noteJumpFixedDuration
     // Size: 0x4
     // Offset: 0x30
@@ -148,15 +148,15 @@ namespace GlobalNamespace {
     // private EnvironmentEffectsFilterPreset _environmentEffectsFilterDefaultPreset
     // Size: 0x4
     // Offset: 0x3C
-    GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterDefaultPreset;
+    ::GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterDefaultPreset;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::EnvironmentEffectsFilterPreset) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::EnvironmentEffectsFilterPreset) == 0x4);
     // private EnvironmentEffectsFilterPreset _environmentEffectsFilterExpertPlusPreset
     // Size: 0x4
     // Offset: 0x40
-    GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterExpertPlusPreset;
+    ::GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterExpertPlusPreset;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::EnvironmentEffectsFilterPreset) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::EnvironmentEffectsFilterPreset) == 0x4);
     public:
     // Get instance field reference: private System.Boolean _leftHanded
     bool& dyn__leftHanded();
@@ -179,7 +179,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _saberTrailIntensity
     float& dyn__saberTrailIntensity();
     // Get instance field reference: private NoteJumpDurationTypeSettings _noteJumpDurationTypeSettings
-    GlobalNamespace::NoteJumpDurationTypeSettings& dyn__noteJumpDurationTypeSettings();
+    ::GlobalNamespace::NoteJumpDurationTypeSettings& dyn__noteJumpDurationTypeSettings();
     // Get instance field reference: private System.Single _noteJumpFixedDuration
     float& dyn__noteJumpFixedDuration();
     // Get instance field reference: private System.Single _noteJumpStartBeatOffset
@@ -189,9 +189,9 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _adaptiveSfx
     bool& dyn__adaptiveSfx();
     // Get instance field reference: private EnvironmentEffectsFilterPreset _environmentEffectsFilterDefaultPreset
-    GlobalNamespace::EnvironmentEffectsFilterPreset& dyn__environmentEffectsFilterDefaultPreset();
+    ::GlobalNamespace::EnvironmentEffectsFilterPreset& dyn__environmentEffectsFilterDefaultPreset();
     // Get instance field reference: private EnvironmentEffectsFilterPreset _environmentEffectsFilterExpertPlusPreset
-    GlobalNamespace::EnvironmentEffectsFilterPreset& dyn__environmentEffectsFilterExpertPlusPreset();
+    ::GlobalNamespace::EnvironmentEffectsFilterPreset& dyn__environmentEffectsFilterExpertPlusPreset();
     // public System.Boolean get_leftHanded()
     // Offset: 0x13E4B0C
     bool get_leftHanded();
@@ -224,7 +224,7 @@ namespace GlobalNamespace {
     float get_saberTrailIntensity();
     // public NoteJumpDurationTypeSettings get_noteJumpDurationTypeSettings()
     // Offset: 0x13E4B5C
-    GlobalNamespace::NoteJumpDurationTypeSettings get_noteJumpDurationTypeSettings();
+    ::GlobalNamespace::NoteJumpDurationTypeSettings get_noteJumpDurationTypeSettings();
     // public System.Single get_noteJumpFixedDuration()
     // Offset: 0x13E4B64
     float get_noteJumpFixedDuration();
@@ -239,32 +239,32 @@ namespace GlobalNamespace {
     bool get_adaptiveSfx();
     // public EnvironmentEffectsFilterPreset get_environmentEffectsFilterDefaultPreset()
     // Offset: 0x13E4B84
-    GlobalNamespace::EnvironmentEffectsFilterPreset get_environmentEffectsFilterDefaultPreset();
+    ::GlobalNamespace::EnvironmentEffectsFilterPreset get_environmentEffectsFilterDefaultPreset();
     // public EnvironmentEffectsFilterPreset get_environmentEffectsFilterExpertPlusPreset()
     // Offset: 0x13E4B8C
-    GlobalNamespace::EnvironmentEffectsFilterPreset get_environmentEffectsFilterExpertPlusPreset();
+    ::GlobalNamespace::EnvironmentEffectsFilterPreset get_environmentEffectsFilterExpertPlusPreset();
     // public System.Void .ctor(System.Boolean leftHanded, System.Single playerHeight, System.Boolean automaticPlayerHeight, System.Single sfxVolume, System.Boolean reduceDebris, System.Boolean noTextsAndHuds, System.Boolean noFailEffects, System.Boolean advancedHud, System.Boolean autoRestart, System.Single saberTrailIntensity, NoteJumpDurationTypeSettings noteJumpDurationTypeSettings, System.Single noteJumpFixedDuration, System.Single noteJumpStartBeatOffset, System.Boolean hideNoteSpawnEffect, System.Boolean adaptiveSfx, EnvironmentEffectsFilterPreset environmentEffectsFilterDefaultPreset, EnvironmentEffectsFilterPreset environmentEffectsFilterExpertPlusPreset)
     // Offset: 0x13E10DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PlayerSpecificSettings* New_ctor(bool leftHanded, float playerHeight, bool automaticPlayerHeight, float sfxVolume, bool reduceDebris, bool noTextsAndHuds, bool noFailEffects, bool advancedHud, bool autoRestart, float saberTrailIntensity, GlobalNamespace::NoteJumpDurationTypeSettings noteJumpDurationTypeSettings, float noteJumpFixedDuration, float noteJumpStartBeatOffset, bool hideNoteSpawnEffect, bool adaptiveSfx, GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterDefaultPreset, GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterExpertPlusPreset) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerSpecificSettings::.ctor");
+    static PlayerSpecificSettings* New_ctor(bool leftHanded, float playerHeight, bool automaticPlayerHeight, float sfxVolume, bool reduceDebris, bool noTextsAndHuds, bool noFailEffects, bool advancedHud, bool autoRestart, float saberTrailIntensity, ::GlobalNamespace::NoteJumpDurationTypeSettings noteJumpDurationTypeSettings, float noteJumpFixedDuration, float noteJumpStartBeatOffset, bool hideNoteSpawnEffect, bool adaptiveSfx, ::GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterDefaultPreset, ::GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterExpertPlusPreset) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSpecificSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerSpecificSettings*, creationType>(leftHanded, playerHeight, automaticPlayerHeight, sfxVolume, reduceDebris, noTextsAndHuds, noFailEffects, advancedHud, autoRestart, saberTrailIntensity, noteJumpDurationTypeSettings, noteJumpFixedDuration, noteJumpStartBeatOffset, hideNoteSpawnEffect, adaptiveSfx, environmentEffectsFilterDefaultPreset, environmentEffectsFilterExpertPlusPreset)));
     }
     // public PlayerSpecificSettings CopyWith(System.Nullable`1<System.Boolean> leftHanded, System.Nullable`1<System.Single> playerHeight, System.Nullable`1<System.Boolean> automaticPlayerHeight, System.Nullable`1<System.Single> sfxVolume, System.Nullable`1<System.Boolean> reduceDebris, System.Nullable`1<System.Boolean> noTextsAndHuds, System.Nullable`1<System.Boolean> noFailEffects, System.Nullable`1<System.Boolean> advancedHud, System.Nullable`1<System.Boolean> autoRestart, System.Nullable`1<System.Single> saberTrailIntensity, System.Nullable`1<NoteJumpDurationTypeSettings> noteJumpDurationTypeSettings, System.Nullable`1<System.Single> noteJumpFixedDuration, System.Nullable`1<System.Single> noteJumpStartBeatOffset, System.Nullable`1<System.Boolean> hideNoteSpawnEffect, System.Nullable`1<System.Boolean> adaptiveSfx, System.Nullable`1<EnvironmentEffectsFilterPreset> environmentEffectsFilterDefaultPreset, System.Nullable`1<EnvironmentEffectsFilterPreset> environmentEffectsFilterExpertPlusPreset)
     // Offset: 0x13E14E4
-    GlobalNamespace::PlayerSpecificSettings* CopyWith(System::Nullable_1<bool> leftHanded, System::Nullable_1<float> playerHeight, System::Nullable_1<bool> automaticPlayerHeight, System::Nullable_1<float> sfxVolume, System::Nullable_1<bool> reduceDebris, System::Nullable_1<bool> noTextsAndHuds, System::Nullable_1<bool> noFailEffects, System::Nullable_1<bool> advancedHud, System::Nullable_1<bool> autoRestart, System::Nullable_1<float> saberTrailIntensity, System::Nullable_1<GlobalNamespace::NoteJumpDurationTypeSettings> noteJumpDurationTypeSettings, System::Nullable_1<float> noteJumpFixedDuration, System::Nullable_1<float> noteJumpStartBeatOffset, System::Nullable_1<bool> hideNoteSpawnEffect, System::Nullable_1<bool> adaptiveSfx, System::Nullable_1<GlobalNamespace::EnvironmentEffectsFilterPreset> environmentEffectsFilterDefaultPreset, System::Nullable_1<GlobalNamespace::EnvironmentEffectsFilterPreset> environmentEffectsFilterExpertPlusPreset);
+    ::GlobalNamespace::PlayerSpecificSettings* CopyWith(::System::Nullable_1<bool> leftHanded, ::System::Nullable_1<float> playerHeight, ::System::Nullable_1<bool> automaticPlayerHeight, ::System::Nullable_1<float> sfxVolume, ::System::Nullable_1<bool> reduceDebris, ::System::Nullable_1<bool> noTextsAndHuds, ::System::Nullable_1<bool> noFailEffects, ::System::Nullable_1<bool> advancedHud, ::System::Nullable_1<bool> autoRestart, ::System::Nullable_1<float> saberTrailIntensity, ::System::Nullable_1<::GlobalNamespace::NoteJumpDurationTypeSettings> noteJumpDurationTypeSettings, ::System::Nullable_1<float> noteJumpFixedDuration, ::System::Nullable_1<float> noteJumpStartBeatOffset, ::System::Nullable_1<bool> hideNoteSpawnEffect, ::System::Nullable_1<bool> adaptiveSfx, ::System::Nullable_1<::GlobalNamespace::EnvironmentEffectsFilterPreset> environmentEffectsFilterDefaultPreset, ::System::Nullable_1<::GlobalNamespace::EnvironmentEffectsFilterPreset> environmentEffectsFilterExpertPlusPreset);
     // public System.Void .ctor()
     // Offset: 0x13E1470
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSpecificSettings* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerSpecificSettings::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSpecificSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerSpecificSettings*, creationType>()));
     }
   }; // PlayerSpecificSettings
   #pragma pack(pop)
-  static check_size<sizeof(PlayerSpecificSettings), 64 + sizeof(GlobalNamespace::EnvironmentEffectsFilterPreset)> __GlobalNamespace_PlayerSpecificSettingsSizeCheck;
+  static check_size<sizeof(PlayerSpecificSettings), 64 + sizeof(::GlobalNamespace::EnvironmentEffectsFilterPreset)> __GlobalNamespace_PlayerSpecificSettingsSizeCheck;
   static_assert(sizeof(PlayerSpecificSettings) == 0x44);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -351,7 +351,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettings::get_noteJumpDurationTypeSettings
 // Il2CppName: get_noteJumpDurationTypeSettings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteJumpDurationTypeSettings (GlobalNamespace::PlayerSpecificSettings::*)()>(&GlobalNamespace::PlayerSpecificSettings::get_noteJumpDurationTypeSettings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NoteJumpDurationTypeSettings (GlobalNamespace::PlayerSpecificSettings::*)()>(&GlobalNamespace::PlayerSpecificSettings::get_noteJumpDurationTypeSettings)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSpecificSettings*), "get_noteJumpDurationTypeSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -391,7 +391,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettings::get_environmentEffectsFilterDefaultPreset
 // Il2CppName: get_environmentEffectsFilterDefaultPreset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EnvironmentEffectsFilterPreset (GlobalNamespace::PlayerSpecificSettings::*)()>(&GlobalNamespace::PlayerSpecificSettings::get_environmentEffectsFilterDefaultPreset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::EnvironmentEffectsFilterPreset (GlobalNamespace::PlayerSpecificSettings::*)()>(&GlobalNamespace::PlayerSpecificSettings::get_environmentEffectsFilterDefaultPreset)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSpecificSettings*), "get_environmentEffectsFilterDefaultPreset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -399,7 +399,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettings::get_environmentEffectsFilterExpertPlusPreset
 // Il2CppName: get_environmentEffectsFilterExpertPlusPreset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EnvironmentEffectsFilterPreset (GlobalNamespace::PlayerSpecificSettings::*)()>(&GlobalNamespace::PlayerSpecificSettings::get_environmentEffectsFilterExpertPlusPreset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::EnvironmentEffectsFilterPreset (GlobalNamespace::PlayerSpecificSettings::*)()>(&GlobalNamespace::PlayerSpecificSettings::get_environmentEffectsFilterExpertPlusPreset)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSpecificSettings*), "get_environmentEffectsFilterExpertPlusPreset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -411,7 +411,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettings::CopyWith
 // Il2CppName: CopyWith
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerSpecificSettings* (GlobalNamespace::PlayerSpecificSettings::*)(System::Nullable_1<bool>, System::Nullable_1<float>, System::Nullable_1<bool>, System::Nullable_1<float>, System::Nullable_1<bool>, System::Nullable_1<bool>, System::Nullable_1<bool>, System::Nullable_1<bool>, System::Nullable_1<bool>, System::Nullable_1<float>, System::Nullable_1<GlobalNamespace::NoteJumpDurationTypeSettings>, System::Nullable_1<float>, System::Nullable_1<float>, System::Nullable_1<bool>, System::Nullable_1<bool>, System::Nullable_1<GlobalNamespace::EnvironmentEffectsFilterPreset>, System::Nullable_1<GlobalNamespace::EnvironmentEffectsFilterPreset>)>(&GlobalNamespace::PlayerSpecificSettings::CopyWith)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerSpecificSettings* (GlobalNamespace::PlayerSpecificSettings::*)(::System::Nullable_1<bool>, ::System::Nullable_1<float>, ::System::Nullable_1<bool>, ::System::Nullable_1<float>, ::System::Nullable_1<bool>, ::System::Nullable_1<bool>, ::System::Nullable_1<bool>, ::System::Nullable_1<bool>, ::System::Nullable_1<bool>, ::System::Nullable_1<float>, ::System::Nullable_1<::GlobalNamespace::NoteJumpDurationTypeSettings>, ::System::Nullable_1<float>, ::System::Nullable_1<float>, ::System::Nullable_1<bool>, ::System::Nullable_1<bool>, ::System::Nullable_1<::GlobalNamespace::EnvironmentEffectsFilterPreset>, ::System::Nullable_1<::GlobalNamespace::EnvironmentEffectsFilterPreset>)>(&GlobalNamespace::PlayerSpecificSettings::CopyWith)> {
   static const MethodInfo* get() {
     static auto* leftHanded = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
     static auto* playerHeight = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;

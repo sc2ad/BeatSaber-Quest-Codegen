@@ -29,8 +29,8 @@ namespace GlobalNamespace {
   class MainCamera;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MainCamera);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainCamera*, "", "MainCamera");
+NEED_NO_BOX(::GlobalNamespace::MainCamera);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MainCamera*, "", "MainCamera");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x28
@@ -39,7 +39,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ExecuteInEditMode] Offset: FFFFFFFF
   // [RequireComponent] Offset: 1238240
-  class MainCamera : public UnityEngine::MonoBehaviour {
+  class MainCamera : public ::UnityEngine::MonoBehaviour {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -53,34 +53,34 @@ namespace GlobalNamespace {
     // private UnityEngine.Camera _camera
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::Camera* camera;
+    ::UnityEngine::Camera* camera;
     // Field size check
-    static_assert(sizeof(UnityEngine::Camera*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Camera*) == 0x8);
     // private UnityEngine.Transform _transform
     // Size: 0x8
     // Offset: 0x20
-    UnityEngine::Transform* transform;
+    ::UnityEngine::Transform* transform;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     public:
-    // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const noexcept = delete;
+    // Deleting conversion operator: operator ::System::IntPtr
+    constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Camera _camera
-    UnityEngine::Camera*& dyn__camera();
+    ::UnityEngine::Camera*& dyn__camera();
     // Get instance field reference: private UnityEngine.Transform _transform
-    UnityEngine::Transform*& dyn__transform();
+    ::UnityEngine::Transform*& dyn__transform();
     // public UnityEngine.Camera get_camera()
     // Offset: 0x2BA62CC
-    UnityEngine::Camera* get_camera();
+    ::UnityEngine::Camera* get_camera();
     // public System.Void set_enableCamera(System.Boolean value)
     // Offset: 0x2BA62D4
     void set_enableCamera(bool value);
     // public UnityEngine.Vector3 get_position()
     // Offset: 0x2BA6308
-    UnityEngine::Vector3 get_position();
+    ::UnityEngine::Vector3 get_position();
     // public UnityEngine.Quaternion get_rotation()
     // Offset: 0x2BA6324
-    UnityEngine::Quaternion get_rotation();
+    ::UnityEngine::Quaternion get_rotation();
     // protected System.Void Awake()
     // Offset: 0x2BA6340
     void Awake();
@@ -94,19 +94,19 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MainCamera* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MainCamera::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MainCamera::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MainCamera*, creationType>()));
     }
   }; // MainCamera
   #pragma pack(pop)
-  static check_size<sizeof(MainCamera), 32 + sizeof(UnityEngine::Transform*)> __GlobalNamespace_MainCameraSizeCheck;
+  static check_size<sizeof(MainCamera), 32 + sizeof(::UnityEngine::Transform*)> __GlobalNamespace_MainCameraSizeCheck;
   static_assert(sizeof(MainCamera) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MainCamera::get_camera
 // Il2CppName: get_camera
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Camera* (GlobalNamespace::MainCamera::*)()>(&GlobalNamespace::MainCamera::get_camera)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Camera* (GlobalNamespace::MainCamera::*)()>(&GlobalNamespace::MainCamera::get_camera)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainCamera*), "get_camera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -123,7 +123,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MainCamera::get_position
 // Il2CppName: get_position
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::MainCamera::*)()>(&GlobalNamespace::MainCamera::get_position)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (GlobalNamespace::MainCamera::*)()>(&GlobalNamespace::MainCamera::get_position)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainCamera*), "get_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -131,7 +131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::MainCamera::get_rotation
 // Il2CppName: get_rotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (GlobalNamespace::MainCamera::*)()>(&GlobalNamespace::MainCamera::get_rotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (GlobalNamespace::MainCamera::*)()>(&GlobalNamespace::MainCamera::get_rotation)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainCamera*), "get_rotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -30,8 +30,8 @@ namespace System::Security::Authentication::ExtendedProtection {
   class ExtendedProtectionPolicy;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy);
-DEFINE_IL2CPP_ARG_TYPE(System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy*, "System.Security.Authentication.ExtendedProtection", "ExtendedProtectionPolicy");
+NEED_NO_BOX(::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy);
+DEFINE_IL2CPP_ARG_TYPE(::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy*, "System.Security.Authentication.ExtendedProtection", "ExtendedProtectionPolicy");
 // Type namespace: System.Security.Authentication.ExtendedProtection
 namespace System::Security::Authentication::ExtendedProtection {
   // Size: 0x10
@@ -40,29 +40,29 @@ namespace System::Security::Authentication::ExtendedProtection {
   // [TokenAttribute] Offset: FFFFFFFF
   // [TypeConverterAttribute] Offset: 119A1D8
   // [MonoTODOAttribute] Offset: 119A1D8
-  class ExtendedProtectionPolicy : public ::Il2CppObject/*, public System::Runtime::Serialization::ISerializable*/ {
+  class ExtendedProtectionPolicy : public ::Il2CppObject/*, public ::System::Runtime::Serialization::ISerializable*/ {
     public:
-    // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
-    operator System::Runtime::Serialization::ISerializable() noexcept {
-      return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);
+    // Creating interface conversion operator: operator ::System::Runtime::Serialization::ISerializable
+    operator ::System::Runtime::Serialization::ISerializable() noexcept {
+      return *reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
     }
     // public System.Void .ctor(System.Security.Authentication.ExtendedProtection.PolicyEnforcement policyEnforcement)
     // Offset: 0x1BE6218
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ExtendedProtectionPolicy* New_ctor(System::Security::Authentication::ExtendedProtection::PolicyEnforcement policyEnforcement) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy::.ctor");
+    static ExtendedProtectionPolicy* New_ctor(::System::Security::Authentication::ExtendedProtection::PolicyEnforcement policyEnforcement) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExtendedProtectionPolicy*, creationType>(policyEnforcement)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x1BE6220
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ExtendedProtectionPolicy* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy::.ctor");
+    static ExtendedProtectionPolicy* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExtendedProtectionPolicy*, creationType>(info, context)));
     }
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x1BE6298
-    void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
+    void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
     // public override System.String ToString()
     // Offset: 0x1BE6290
     // Implemented from: System.Object
@@ -83,7 +83,7 @@ namespace System::Security::Authentication::ExtendedProtection {
 // Writing MetadataGetter for method: System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy::System_Runtime_Serialization_ISerializable_GetObjectData
 // Il2CppName: System.Runtime.Serialization.ISerializable.GetObjectData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy::System_Runtime_Serialization_ISerializable_GetObjectData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy::System_Runtime_Serialization_ISerializable_GetObjectData)> {
   static const MethodInfo* get() {
     static auto* info = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;

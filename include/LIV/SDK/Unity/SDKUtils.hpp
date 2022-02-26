@@ -73,8 +73,8 @@ namespace LIV::SDK::Unity {
   class SDKUtils;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(LIV::SDK::Unity::SDKUtils);
-DEFINE_IL2CPP_ARG_TYPE(LIV::SDK::Unity::SDKUtils*, "LIV.SDK.Unity", "SDKUtils");
+NEED_NO_BOX(::LIV::SDK::Unity::SDKUtils);
+DEFINE_IL2CPP_ARG_TYPE(::LIV::SDK::Unity::SDKUtils*, "LIV.SDK.Unity", "SDKUtils");
 // Type namespace: LIV.SDK.Unity
 namespace LIV::SDK::Unity {
   // Size: 0x10
@@ -85,22 +85,22 @@ namespace LIV::SDK::Unity {
     public:
     // static public LIV.SDK.Unity.TEXTURE_COLOR_SPACE get_GetDefaultColorSpace()
     // Offset: 0x29B736C
-    static LIV::SDK::Unity::TEXTURE_COLOR_SPACE get_GetDefaultColorSpace();
+    static ::LIV::SDK::Unity::TEXTURE_COLOR_SPACE get_GetDefaultColorSpace();
     // static public System.Void CreateClipPlane(UnityEngine.Mesh mesh, System.Int32 resX, System.Int32 resY, System.Boolean useQuads, System.Single skirtLength)
     // Offset: 0x29B5458
-    static void CreateClipPlane(UnityEngine::Mesh* mesh, int resX, int resY, bool useQuads, float skirtLength);
+    static void CreateClipPlane(::UnityEngine::Mesh* mesh, int resX, int resY, bool useQuads, float skirtLength);
     // static public UnityEngine.RenderTextureReadWrite GetReadWriteFromColorSpace(LIV.SDK.Unity.TEXTURE_COLOR_SPACE colorSpace)
     // Offset: 0x29B7354
-    static UnityEngine::RenderTextureReadWrite GetReadWriteFromColorSpace(LIV::SDK::Unity::TEXTURE_COLOR_SPACE colorSpace);
+    static ::UnityEngine::RenderTextureReadWrite GetReadWriteFromColorSpace(::LIV::SDK::Unity::TEXTURE_COLOR_SPACE colorSpace);
     // static public LIV.SDK.Unity.TEXTURE_COLOR_SPACE GetColorSpace(UnityEngine.RenderTexture renderTexture)
     // Offset: 0x29B6B18
-    static LIV::SDK::Unity::TEXTURE_COLOR_SPACE GetColorSpace(UnityEngine::RenderTexture* renderTexture);
+    static ::LIV::SDK::Unity::TEXTURE_COLOR_SPACE GetColorSpace(::UnityEngine::RenderTexture* renderTexture);
     // static public LIV.SDK.Unity.RENDERING_PIPELINE GetRenderingPipeline(UnityEngine.RenderingPath renderingPath)
     // Offset: 0x29B739C
-    static LIV::SDK::Unity::RENDERING_PIPELINE GetRenderingPipeline(UnityEngine::RenderingPath renderingPath);
+    static ::LIV::SDK::Unity::RENDERING_PIPELINE GetRenderingPipeline(::UnityEngine::RenderingPath renderingPath);
     // static public LIV.SDK.Unity.TEXTURE_DEVICE GetDevice()
     // Offset: 0x29B6AB4
-    static LIV::SDK::Unity::TEXTURE_DEVICE GetDevice();
+    static ::LIV::SDK::Unity::TEXTURE_DEVICE GetDevice();
     // static public System.Boolean ContainsFlag(System.UInt64 flags, System.UInt64 flag)
     // Offset: 0x29AF460
     static bool ContainsFlag(uint64_t flags, uint64_t flag);
@@ -109,25 +109,25 @@ namespace LIV::SDK::Unity {
     static uint64_t SetFlag(uint64_t flags, uint64_t flag, bool enabled);
     // static public System.Void GetCameraPositionAndRotation(LIV.SDK.Unity.SDKPose pose, UnityEngine.Matrix4x4 originLocalToWorldMatrix, out UnityEngine.Vector3 position, out UnityEngine.Quaternion rotation)
     // Offset: 0x29B73BC
-    static void GetCameraPositionAndRotation(LIV::SDK::Unity::SDKPose pose, UnityEngine::Matrix4x4 originLocalToWorldMatrix, ByRef<UnityEngine::Vector3> position, ByRef<UnityEngine::Quaternion> rotation);
+    static void GetCameraPositionAndRotation(::LIV::SDK::Unity::SDKPose pose, ::UnityEngine::Matrix4x4 originLocalToWorldMatrix, ByRef<::UnityEngine::Vector3> position, ByRef<::UnityEngine::Quaternion> rotation);
     // static public System.Void CleanCameraBehaviours(UnityEngine.Camera camera, System.String[] excludeBehaviours)
     // Offset: 0x29B5144
-    static void CleanCameraBehaviours(UnityEngine::Camera* camera, ::ArrayW<::StringW> excludeBehaviours);
+    static void CleanCameraBehaviours(::UnityEngine::Camera* camera, ::ArrayW<::StringW> excludeBehaviours);
     // static public System.Void SetCamera(UnityEngine.Camera camera, UnityEngine.Transform cameraTransform, LIV.SDK.Unity.SDKInputFrame inputFrame, UnityEngine.Matrix4x4 originLocalToWorldMatrix, System.Int32 layerMask)
     // Offset: 0x29B47A0
-    static void SetCamera(UnityEngine::Camera* camera, UnityEngine::Transform* cameraTransform, LIV::SDK::Unity::SDKInputFrame inputFrame, UnityEngine::Matrix4x4 originLocalToWorldMatrix, int layerMask);
+    static void SetCamera(::UnityEngine::Camera* camera, ::UnityEngine::Transform* cameraTransform, ::LIV::SDK::Unity::SDKInputFrame inputFrame, ::UnityEngine::Matrix4x4 originLocalToWorldMatrix, int layerMask);
     // static public UnityEngine.Quaternion RotateQuaternionByMatrix(UnityEngine.Matrix4x4 matrix, UnityEngine.Quaternion rotation)
     // Offset: 0x29B617C
-    static UnityEngine::Quaternion RotateQuaternionByMatrix(UnityEngine::Matrix4x4 matrix, UnityEngine::Quaternion rotation);
+    static ::UnityEngine::Quaternion RotateQuaternionByMatrix(::UnityEngine::Matrix4x4 matrix, ::UnityEngine::Quaternion rotation);
     // static public LIV.SDK.Unity.SDKTrackedSpace GetTrackedSpace(UnityEngine.Transform transform)
     // Offset: 0x29B749C
-    static LIV::SDK::Unity::SDKTrackedSpace GetTrackedSpace(UnityEngine::Transform* transform);
+    static ::LIV::SDK::Unity::SDKTrackedSpace GetTrackedSpace(::UnityEngine::Transform* transform);
     // static public System.Boolean DestroyObject(ref T reference)
     // Offset: 0xFFFFFFFF
     template<class T>
     static bool DestroyObject(ByRef<T> reference) {
-      static_assert(std::is_convertible_v<T, UnityEngine::Object*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("LIV::SDK::Unity::SDKUtils::DestroyObject");
+      static_assert(std::is_convertible_v<T, ::UnityEngine::Object*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::LIV::SDK::Unity::SDKUtils::DestroyObject");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("LIV.SDK.Unity", "SDKUtils", "DestroyObject", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(reference)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, byref(reference));
@@ -136,36 +136,36 @@ namespace LIV::SDK::Unity {
     // Offset: 0xFFFFFFFF
     template<class T>
     static bool DisposeObject(ByRef<T> reference) {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, System::IDisposable>);
-      static auto ___internal__logger = ::Logger::get().WithContext("LIV::SDK::Unity::SDKUtils::DisposeObject");
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::System::IDisposable>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::LIV::SDK::Unity::SDKUtils::DisposeObject");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("LIV.SDK.Unity", "SDKUtils", "DisposeObject", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(reference)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, byref(reference));
     }
     // static public System.Boolean CreateTexture(ref UnityEngine.RenderTexture renderTexture, System.Int32 width, System.Int32 height, System.Int32 depth, UnityEngine.RenderTextureFormat format)
     // Offset: 0x29B6780
-    static bool CreateTexture(ByRef<UnityEngine::RenderTexture*> renderTexture, int width, int height, int depth, UnityEngine::RenderTextureFormat format);
+    static bool CreateTexture(ByRef<::UnityEngine::RenderTexture*> renderTexture, int width, int height, int depth, ::UnityEngine::RenderTextureFormat format);
     // static public System.Void DestroyTexture(ref UnityEngine.RenderTexture _renderTexture)
     // Offset: 0x29B5BDC
-    static void DestroyTexture(ByRef<UnityEngine::RenderTexture*> _renderTexture);
+    static void DestroyTexture(ByRef<::UnityEngine::RenderTexture*> _renderTexture);
     // static public System.Void ApplyUserSpaceTransform(LIV.SDK.Unity.SDKRender render)
     // Offset: 0x29B3458
-    static void ApplyUserSpaceTransform(LIV::SDK::Unity::SDKRender* render);
+    static void ApplyUserSpaceTransform(::LIV::SDK::Unity::SDKRender* render);
     // static public System.Void CreateBridgeOutputFrame(LIV.SDK.Unity.SDKRender render)
     // Offset: 0x29B4524
-    static void CreateBridgeOutputFrame(LIV::SDK::Unity::SDKRender* render);
+    static void CreateBridgeOutputFrame(::LIV::SDK::Unity::SDKRender* render);
     // static public System.Boolean FeatureEnabled(LIV.SDK.Unity.FEATURES features, LIV.SDK.Unity.FEATURES feature)
     // Offset: 0x29B2A98
-    static bool FeatureEnabled(LIV::SDK::Unity::FEATURES features, LIV::SDK::Unity::FEATURES feature);
+    static bool FeatureEnabled(::LIV::SDK::Unity::FEATURES features, ::LIV::SDK::Unity::FEATURES feature);
     // static public System.Void DisableStandardAssets(UnityEngine.Camera cameraInstance, ref UnityEngine.MonoBehaviour[] behaviours, ref System.Boolean[] wasBehaviourEnabled)
     // Offset: 0x29B4D2C
-    static void DisableStandardAssets(UnityEngine::Camera* cameraInstance, ByRef<::ArrayW<UnityEngine::MonoBehaviour*>> behaviours, ByRef<::ArrayW<bool>> wasBehaviourEnabled);
+    static void DisableStandardAssets(::UnityEngine::Camera* cameraInstance, ByRef<::ArrayW<::UnityEngine::MonoBehaviour*>> behaviours, ByRef<::ArrayW<bool>> wasBehaviourEnabled);
     // static public System.Void RestoreStandardAssets(ref UnityEngine.MonoBehaviour[] behaviours, ref System.Boolean[] wasBehaviourEnabled)
     // Offset: 0x29B500C
-    static void RestoreStandardAssets(ByRef<::ArrayW<UnityEngine::MonoBehaviour*>> behaviours, ByRef<::ArrayW<bool>> wasBehaviourEnabled);
+    static void RestoreStandardAssets(ByRef<::ArrayW<::UnityEngine::MonoBehaviour*>> behaviours, ByRef<::ArrayW<bool>> wasBehaviourEnabled);
     // static public System.Void ForceForwardRendering(UnityEngine.Camera cameraInstance, UnityEngine.Mesh clipPlaneMesh, UnityEngine.Material forceForwardRenderingMaterial)
     // Offset: 0x29B7728
-    static void ForceForwardRendering(UnityEngine::Camera* cameraInstance, UnityEngine::Mesh* clipPlaneMesh, UnityEngine::Material* forceForwardRenderingMaterial);
+    static void ForceForwardRendering(::UnityEngine::Camera* cameraInstance, ::UnityEngine::Mesh* clipPlaneMesh, ::UnityEngine::Material* forceForwardRenderingMaterial);
   }; // LIV.SDK.Unity.SDKUtils
   #pragma pack(pop)
 }
@@ -173,7 +173,7 @@ namespace LIV::SDK::Unity {
 // Writing MetadataGetter for method: LIV::SDK::Unity::SDKUtils::get_GetDefaultColorSpace
 // Il2CppName: get_GetDefaultColorSpace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LIV::SDK::Unity::TEXTURE_COLOR_SPACE (*)()>(&LIV::SDK::Unity::SDKUtils::get_GetDefaultColorSpace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LIV::SDK::Unity::TEXTURE_COLOR_SPACE (*)()>(&LIV::SDK::Unity::SDKUtils::get_GetDefaultColorSpace)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(LIV::SDK::Unity::SDKUtils*), "get_GetDefaultColorSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -181,7 +181,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LIV::SDK::U
 // Writing MetadataGetter for method: LIV::SDK::Unity::SDKUtils::CreateClipPlane
 // Il2CppName: CreateClipPlane
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Mesh*, int, int, bool, float)>(&LIV::SDK::Unity::SDKUtils::CreateClipPlane)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Mesh*, int, int, bool, float)>(&LIV::SDK::Unity::SDKUtils::CreateClipPlane)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     static auto* resX = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -194,7 +194,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: LIV::SDK::Unity::SDKUtils::GetReadWriteFromColorSpace
 // Il2CppName: GetReadWriteFromColorSpace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderTextureReadWrite (*)(LIV::SDK::Unity::TEXTURE_COLOR_SPACE)>(&LIV::SDK::Unity::SDKUtils::GetReadWriteFromColorSpace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RenderTextureReadWrite (*)(::LIV::SDK::Unity::TEXTURE_COLOR_SPACE)>(&LIV::SDK::Unity::SDKUtils::GetReadWriteFromColorSpace)> {
   static const MethodInfo* get() {
     static auto* colorSpace = &::il2cpp_utils::GetClassFromName("LIV.SDK.Unity", "TEXTURE_COLOR_SPACE")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LIV::SDK::Unity::SDKUtils*), "GetReadWriteFromColorSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colorSpace});
@@ -203,7 +203,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: LIV::SDK::Unity::SDKUtils::GetColorSpace
 // Il2CppName: GetColorSpace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LIV::SDK::Unity::TEXTURE_COLOR_SPACE (*)(UnityEngine::RenderTexture*)>(&LIV::SDK::Unity::SDKUtils::GetColorSpace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LIV::SDK::Unity::TEXTURE_COLOR_SPACE (*)(::UnityEngine::RenderTexture*)>(&LIV::SDK::Unity::SDKUtils::GetColorSpace)> {
   static const MethodInfo* get() {
     static auto* renderTexture = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LIV::SDK::Unity::SDKUtils*), "GetColorSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{renderTexture});
@@ -212,7 +212,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LIV::SDK::U
 // Writing MetadataGetter for method: LIV::SDK::Unity::SDKUtils::GetRenderingPipeline
 // Il2CppName: GetRenderingPipeline
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LIV::SDK::Unity::RENDERING_PIPELINE (*)(UnityEngine::RenderingPath)>(&LIV::SDK::Unity::SDKUtils::GetRenderingPipeline)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LIV::SDK::Unity::RENDERING_PIPELINE (*)(::UnityEngine::RenderingPath)>(&LIV::SDK::Unity::SDKUtils::GetRenderingPipeline)> {
   static const MethodInfo* get() {
     static auto* renderingPath = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderingPath")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LIV::SDK::Unity::SDKUtils*), "GetRenderingPipeline", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{renderingPath});
@@ -221,7 +221,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LIV::SDK::U
 // Writing MetadataGetter for method: LIV::SDK::Unity::SDKUtils::GetDevice
 // Il2CppName: GetDevice
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LIV::SDK::Unity::TEXTURE_DEVICE (*)()>(&LIV::SDK::Unity::SDKUtils::GetDevice)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LIV::SDK::Unity::TEXTURE_DEVICE (*)()>(&LIV::SDK::Unity::SDKUtils::GetDevice)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(LIV::SDK::Unity::SDKUtils*), "GetDevice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -250,7 +250,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: LIV::SDK::Unity::SDKUtils::GetCameraPositionAndRotation
 // Il2CppName: GetCameraPositionAndRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(LIV::SDK::Unity::SDKPose, UnityEngine::Matrix4x4, ByRef<UnityEngine::Vector3>, ByRef<UnityEngine::Quaternion>)>(&LIV::SDK::Unity::SDKUtils::GetCameraPositionAndRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::LIV::SDK::Unity::SDKPose, ::UnityEngine::Matrix4x4, ByRef<::UnityEngine::Vector3>, ByRef<::UnityEngine::Quaternion>)>(&LIV::SDK::Unity::SDKUtils::GetCameraPositionAndRotation)> {
   static const MethodInfo* get() {
     static auto* pose = &::il2cpp_utils::GetClassFromName("LIV.SDK.Unity", "SDKPose")->byval_arg;
     static auto* originLocalToWorldMatrix = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->byval_arg;
@@ -262,7 +262,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(LI
 // Writing MetadataGetter for method: LIV::SDK::Unity::SDKUtils::CleanCameraBehaviours
 // Il2CppName: CleanCameraBehaviours
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Camera*, ::ArrayW<::StringW>)>(&LIV::SDK::Unity::SDKUtils::CleanCameraBehaviours)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Camera*, ::ArrayW<::StringW>)>(&LIV::SDK::Unity::SDKUtils::CleanCameraBehaviours)> {
   static const MethodInfo* get() {
     static auto* camera = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
     static auto* excludeBehaviours = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
@@ -272,7 +272,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: LIV::SDK::Unity::SDKUtils::SetCamera
 // Il2CppName: SetCamera
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Camera*, UnityEngine::Transform*, LIV::SDK::Unity::SDKInputFrame, UnityEngine::Matrix4x4, int)>(&LIV::SDK::Unity::SDKUtils::SetCamera)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Camera*, ::UnityEngine::Transform*, ::LIV::SDK::Unity::SDKInputFrame, ::UnityEngine::Matrix4x4, int)>(&LIV::SDK::Unity::SDKUtils::SetCamera)> {
   static const MethodInfo* get() {
     static auto* camera = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
     static auto* cameraTransform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
@@ -285,7 +285,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: LIV::SDK::Unity::SDKUtils::RotateQuaternionByMatrix
 // Il2CppName: RotateQuaternionByMatrix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(UnityEngine::Matrix4x4, UnityEngine::Quaternion)>(&LIV::SDK::Unity::SDKUtils::RotateQuaternionByMatrix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Matrix4x4, ::UnityEngine::Quaternion)>(&LIV::SDK::Unity::SDKUtils::RotateQuaternionByMatrix)> {
   static const MethodInfo* get() {
     static auto* matrix = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->byval_arg;
     static auto* rotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
@@ -295,7 +295,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: LIV::SDK::Unity::SDKUtils::GetTrackedSpace
 // Il2CppName: GetTrackedSpace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LIV::SDK::Unity::SDKTrackedSpace (*)(UnityEngine::Transform*)>(&LIV::SDK::Unity::SDKUtils::GetTrackedSpace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LIV::SDK::Unity::SDKTrackedSpace (*)(::UnityEngine::Transform*)>(&LIV::SDK::Unity::SDKUtils::GetTrackedSpace)> {
   static const MethodInfo* get() {
     static auto* transform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LIV::SDK::Unity::SDKUtils*), "GetTrackedSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{transform});
@@ -310,7 +310,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LIV::SDK::U
 // Writing MetadataGetter for method: LIV::SDK::Unity::SDKUtils::CreateTexture
 // Il2CppName: CreateTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<UnityEngine::RenderTexture*>, int, int, int, UnityEngine::RenderTextureFormat)>(&LIV::SDK::Unity::SDKUtils::CreateTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<::UnityEngine::RenderTexture*>, int, int, int, ::UnityEngine::RenderTextureFormat)>(&LIV::SDK::Unity::SDKUtils::CreateTexture)> {
   static const MethodInfo* get() {
     static auto* renderTexture = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->this_arg;
     static auto* width = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -323,7 +323,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(By
 // Writing MetadataGetter for method: LIV::SDK::Unity::SDKUtils::DestroyTexture
 // Il2CppName: DestroyTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<UnityEngine::RenderTexture*>)>(&LIV::SDK::Unity::SDKUtils::DestroyTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::RenderTexture*>)>(&LIV::SDK::Unity::SDKUtils::DestroyTexture)> {
   static const MethodInfo* get() {
     static auto* _renderTexture = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(LIV::SDK::Unity::SDKUtils*), "DestroyTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{_renderTexture});
@@ -332,7 +332,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(By
 // Writing MetadataGetter for method: LIV::SDK::Unity::SDKUtils::ApplyUserSpaceTransform
 // Il2CppName: ApplyUserSpaceTransform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(LIV::SDK::Unity::SDKRender*)>(&LIV::SDK::Unity::SDKUtils::ApplyUserSpaceTransform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::LIV::SDK::Unity::SDKRender*)>(&LIV::SDK::Unity::SDKUtils::ApplyUserSpaceTransform)> {
   static const MethodInfo* get() {
     static auto* render = &::il2cpp_utils::GetClassFromName("LIV.SDK.Unity", "SDKRender")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LIV::SDK::Unity::SDKUtils*), "ApplyUserSpaceTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{render});
@@ -341,7 +341,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(LI
 // Writing MetadataGetter for method: LIV::SDK::Unity::SDKUtils::CreateBridgeOutputFrame
 // Il2CppName: CreateBridgeOutputFrame
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(LIV::SDK::Unity::SDKRender*)>(&LIV::SDK::Unity::SDKUtils::CreateBridgeOutputFrame)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::LIV::SDK::Unity::SDKRender*)>(&LIV::SDK::Unity::SDKUtils::CreateBridgeOutputFrame)> {
   static const MethodInfo* get() {
     static auto* render = &::il2cpp_utils::GetClassFromName("LIV.SDK.Unity", "SDKRender")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LIV::SDK::Unity::SDKUtils*), "CreateBridgeOutputFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{render});
@@ -350,7 +350,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(LI
 // Writing MetadataGetter for method: LIV::SDK::Unity::SDKUtils::FeatureEnabled
 // Il2CppName: FeatureEnabled
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(LIV::SDK::Unity::FEATURES, LIV::SDK::Unity::FEATURES)>(&LIV::SDK::Unity::SDKUtils::FeatureEnabled)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::LIV::SDK::Unity::FEATURES, ::LIV::SDK::Unity::FEATURES)>(&LIV::SDK::Unity::SDKUtils::FeatureEnabled)> {
   static const MethodInfo* get() {
     static auto* features = &::il2cpp_utils::GetClassFromName("LIV.SDK.Unity", "FEATURES")->byval_arg;
     static auto* feature = &::il2cpp_utils::GetClassFromName("LIV.SDK.Unity", "FEATURES")->byval_arg;
@@ -360,7 +360,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(LI
 // Writing MetadataGetter for method: LIV::SDK::Unity::SDKUtils::DisableStandardAssets
 // Il2CppName: DisableStandardAssets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Camera*, ByRef<::ArrayW<UnityEngine::MonoBehaviour*>>, ByRef<::ArrayW<bool>>)>(&LIV::SDK::Unity::SDKUtils::DisableStandardAssets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Camera*, ByRef<::ArrayW<::UnityEngine::MonoBehaviour*>>, ByRef<::ArrayW<bool>>)>(&LIV::SDK::Unity::SDKUtils::DisableStandardAssets)> {
   static const MethodInfo* get() {
     static auto* cameraInstance = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
     static auto* behaviours = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "MonoBehaviour"), 1)->this_arg;
@@ -371,7 +371,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: LIV::SDK::Unity::SDKUtils::RestoreStandardAssets
 // Il2CppName: RestoreStandardAssets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::ArrayW<UnityEngine::MonoBehaviour*>>, ByRef<::ArrayW<bool>>)>(&LIV::SDK::Unity::SDKUtils::RestoreStandardAssets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::ArrayW<::UnityEngine::MonoBehaviour*>>, ByRef<::ArrayW<bool>>)>(&LIV::SDK::Unity::SDKUtils::RestoreStandardAssets)> {
   static const MethodInfo* get() {
     static auto* behaviours = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "MonoBehaviour"), 1)->this_arg;
     static auto* wasBehaviourEnabled = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Boolean"), 1)->this_arg;
@@ -381,7 +381,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(By
 // Writing MetadataGetter for method: LIV::SDK::Unity::SDKUtils::ForceForwardRendering
 // Il2CppName: ForceForwardRendering
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Camera*, UnityEngine::Mesh*, UnityEngine::Material*)>(&LIV::SDK::Unity::SDKUtils::ForceForwardRendering)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Camera*, ::UnityEngine::Mesh*, ::UnityEngine::Material*)>(&LIV::SDK::Unity::SDKUtils::ForceForwardRendering)> {
   static const MethodInfo* get() {
     static auto* cameraInstance = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
     static auto* clipPlaneMesh = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;

@@ -21,8 +21,8 @@ namespace GlobalNamespace {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PS4AchievementIdsModelSO::AchievementIdData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4AchievementIdsModelSO::AchievementIdData*, "", "PS4AchievementIdsModelSO/AchievementIdData");
+NEED_NO_BOX(::GlobalNamespace::PS4AchievementIdsModelSO::AchievementIdData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PS4AchievementIdsModelSO::AchievementIdData*, "", "PS4AchievementIdsModelSO/AchievementIdData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -51,14 +51,14 @@ namespace GlobalNamespace {
     // private AchievementSO _achievement
     // Size: 0x8
     // Offset: 0x18
-    GlobalNamespace::AchievementSO* achievement;
+    ::GlobalNamespace::AchievementSO* achievement;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::AchievementSO*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::AchievementSO*) == 0x8);
     public:
     // Get instance field reference: private System.Int32 _trophyId
     int& dyn__trophyId();
     // Get instance field reference: private AchievementSO _achievement
-    GlobalNamespace::AchievementSO*& dyn__achievement();
+    ::GlobalNamespace::AchievementSO*& dyn__achievement();
     // public System.Int32 get_ps4TrophyId()
     // Offset: 0x2AB6910
     int get_ps4TrophyId();
@@ -71,12 +71,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PS4AchievementIdsModelSO::AchievementIdData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PS4AchievementIdsModelSO::AchievementIdData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PS4AchievementIdsModelSO::AchievementIdData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PS4AchievementIdsModelSO::AchievementIdData*, creationType>()));
     }
   }; // PS4AchievementIdsModelSO/AchievementIdData
   #pragma pack(pop)
-  static check_size<sizeof(PS4AchievementIdsModelSO::AchievementIdData), 24 + sizeof(GlobalNamespace::AchievementSO*)> __GlobalNamespace_PS4AchievementIdsModelSO_AchievementIdDataSizeCheck;
+  static check_size<sizeof(PS4AchievementIdsModelSO::AchievementIdData), 24 + sizeof(::GlobalNamespace::AchievementSO*)> __GlobalNamespace_PS4AchievementIdsModelSO_AchievementIdDataSizeCheck;
   static_assert(sizeof(PS4AchievementIdsModelSO::AchievementIdData) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

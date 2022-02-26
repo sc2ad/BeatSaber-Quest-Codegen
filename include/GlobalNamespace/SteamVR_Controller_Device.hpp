@@ -33,8 +33,8 @@ namespace Valve::VR {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SteamVR_Controller::Device);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Controller::Device*, "", "SteamVR_Controller/Device");
+NEED_NO_BOX(::GlobalNamespace::SteamVR_Controller::Device);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SteamVR_Controller::Device*, "", "SteamVR_Controller/Device");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0xF6
@@ -69,21 +69,21 @@ namespace GlobalNamespace {
     // private Valve.VR.VRControllerState_t state
     // Size: 0x40
     // Offset: 0x18
-    Valve::VR::VRControllerState_t state;
+    ::Valve::VR::VRControllerState_t state;
     // Field size check
-    static_assert(sizeof(Valve::VR::VRControllerState_t) == 0x40);
+    static_assert(sizeof(::Valve::VR::VRControllerState_t) == 0x40);
     // private Valve.VR.VRControllerState_t prevState
     // Size: 0x40
     // Offset: 0x58
-    Valve::VR::VRControllerState_t prevState;
+    ::Valve::VR::VRControllerState_t prevState;
     // Field size check
-    static_assert(sizeof(Valve::VR::VRControllerState_t) == 0x40);
+    static_assert(sizeof(::Valve::VR::VRControllerState_t) == 0x40);
     // private Valve.VR.TrackedDevicePose_t pose
     // Size: 0x4E
     // Offset: 0x98
-    Valve::VR::TrackedDevicePose_t pose;
+    ::Valve::VR::TrackedDevicePose_t pose;
     // Field size check
-    static_assert(sizeof(Valve::VR::TrackedDevicePose_t) == 0x4E);
+    static_assert(sizeof(::Valve::VR::TrackedDevicePose_t) == 0x4E);
     // Padding between fields: pose and: prevFrameCount
     char __padding4[0x2] = {};
     // private System.Int32 prevFrameCount
@@ -122,11 +122,11 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <valid>k__BackingField
     bool& dyn_$valid$k__BackingField();
     // Get instance field reference: private Valve.VR.VRControllerState_t state
-    Valve::VR::VRControllerState_t& dyn_state();
+    ::Valve::VR::VRControllerState_t& dyn_state();
     // Get instance field reference: private Valve.VR.VRControllerState_t prevState
-    Valve::VR::VRControllerState_t& dyn_prevState();
+    ::Valve::VR::VRControllerState_t& dyn_prevState();
     // Get instance field reference: private Valve.VR.TrackedDevicePose_t pose
-    Valve::VR::TrackedDevicePose_t& dyn_pose();
+    ::Valve::VR::TrackedDevicePose_t& dyn_pose();
     // Get instance field reference: private System.Int32 prevFrameCount
     int& dyn_prevFrameCount();
     // Get instance field reference: public System.Single hairTriggerDelta
@@ -166,29 +166,29 @@ namespace GlobalNamespace {
     bool get_uninitialized();
     // public SteamVR_Utils/RigidTransform get_transform()
     // Offset: 0x17BD89C
-    GlobalNamespace::SteamVR_Utils::RigidTransform get_transform();
+    ::GlobalNamespace::SteamVR_Utils::RigidTransform get_transform();
     // public UnityEngine.Vector3 get_velocity()
     // Offset: 0x17BDA08
-    UnityEngine::Vector3 get_velocity();
+    ::UnityEngine::Vector3 get_velocity();
     // public UnityEngine.Vector3 get_angularVelocity()
     // Offset: 0x17BDA58
-    UnityEngine::Vector3 get_angularVelocity();
+    ::UnityEngine::Vector3 get_angularVelocity();
     // public System.Void .ctor(System.UInt32 i)
     // Offset: 0x17BD344
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_Controller::Device* New_ctor(uint i) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_Controller::Device::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_Controller::Device::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_Controller::Device*, creationType>(i)));
     }
     // public Valve.VR.VRControllerState_t GetState()
     // Offset: 0x17BDAAC
-    Valve::VR::VRControllerState_t GetState();
+    ::Valve::VR::VRControllerState_t GetState();
     // public Valve.VR.VRControllerState_t GetPrevState()
     // Offset: 0x17BDAE8
-    Valve::VR::VRControllerState_t GetPrevState();
+    ::Valve::VR::VRControllerState_t GetPrevState();
     // public Valve.VR.TrackedDevicePose_t GetPose()
     // Offset: 0x17BDB24
-    Valve::VR::TrackedDevicePose_t GetPose();
+    ::Valve::VR::TrackedDevicePose_t GetPose();
     // public System.Void Update()
     // Offset: 0x17BD3B8
     void Update();
@@ -203,13 +203,13 @@ namespace GlobalNamespace {
     bool GetPressUp(uint64_t buttonMask);
     // public System.Boolean GetPress(Valve.VR.EVRButtonId buttonId)
     // Offset: 0x17BDE40
-    bool GetPress(Valve::VR::EVRButtonId buttonId);
+    bool GetPress(::Valve::VR::EVRButtonId buttonId);
     // public System.Boolean GetPressDown(Valve.VR.EVRButtonId buttonId)
     // Offset: 0x17BDE74
-    bool GetPressDown(Valve::VR::EVRButtonId buttonId);
+    bool GetPressDown(::Valve::VR::EVRButtonId buttonId);
     // public System.Boolean GetPressUp(Valve.VR.EVRButtonId buttonId)
     // Offset: 0x17BDEBC
-    bool GetPressUp(Valve::VR::EVRButtonId buttonId);
+    bool GetPressUp(::Valve::VR::EVRButtonId buttonId);
     // public System.Boolean GetTouch(System.UInt64 buttonMask)
     // Offset: 0x17BDF04
     bool GetTouch(uint64_t buttonMask);
@@ -221,19 +221,19 @@ namespace GlobalNamespace {
     bool GetTouchUp(uint64_t buttonMask);
     // public System.Boolean GetTouch(Valve.VR.EVRButtonId buttonId)
     // Offset: 0x17BDFBC
-    bool GetTouch(Valve::VR::EVRButtonId buttonId);
+    bool GetTouch(::Valve::VR::EVRButtonId buttonId);
     // public System.Boolean GetTouchDown(Valve.VR.EVRButtonId buttonId)
     // Offset: 0x17BDFF0
-    bool GetTouchDown(Valve::VR::EVRButtonId buttonId);
+    bool GetTouchDown(::Valve::VR::EVRButtonId buttonId);
     // public System.Boolean GetTouchUp(Valve.VR.EVRButtonId buttonId)
     // Offset: 0x17BE038
-    bool GetTouchUp(Valve::VR::EVRButtonId buttonId);
+    bool GetTouchUp(::Valve::VR::EVRButtonId buttonId);
     // public UnityEngine.Vector2 GetAxis(Valve.VR.EVRButtonId buttonId)
     // Offset: 0x17BE080
-    UnityEngine::Vector2 GetAxis(Valve::VR::EVRButtonId buttonId);
+    ::UnityEngine::Vector2 GetAxis(::Valve::VR::EVRButtonId buttonId);
     // public System.Void TriggerHapticPulse(System.UInt16 durationMicroSec, Valve.VR.EVRButtonId buttonId)
     // Offset: 0x17BE15C
-    void TriggerHapticPulse(uint16_t durationMicroSec, Valve::VR::EVRButtonId buttonId);
+    void TriggerHapticPulse(uint16_t durationMicroSec, ::Valve::VR::EVRButtonId buttonId);
     // private System.Void UpdateHairTrigger()
     // Offset: 0x17BDC88
     void UpdateHairTrigger();
@@ -329,7 +329,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::get_transform
 // Il2CppName: get_transform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Utils::RigidTransform (GlobalNamespace::SteamVR_Controller::Device::*)()>(&GlobalNamespace::SteamVR_Controller::Device::get_transform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SteamVR_Utils::RigidTransform (GlobalNamespace::SteamVR_Controller::Device::*)()>(&GlobalNamespace::SteamVR_Controller::Device::get_transform)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "get_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -337,7 +337,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::get_velocity
 // Il2CppName: get_velocity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::SteamVR_Controller::Device::*)()>(&GlobalNamespace::SteamVR_Controller::Device::get_velocity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (GlobalNamespace::SteamVR_Controller::Device::*)()>(&GlobalNamespace::SteamVR_Controller::Device::get_velocity)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "get_velocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -345,7 +345,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::get_angularVelocity
 // Il2CppName: get_angularVelocity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::SteamVR_Controller::Device::*)()>(&GlobalNamespace::SteamVR_Controller::Device::get_angularVelocity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (GlobalNamespace::SteamVR_Controller::Device::*)()>(&GlobalNamespace::SteamVR_Controller::Device::get_angularVelocity)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "get_angularVelocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -357,7 +357,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::GetState
 // Il2CppName: GetState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::VRControllerState_t (GlobalNamespace::SteamVR_Controller::Device::*)()>(&GlobalNamespace::SteamVR_Controller::Device::GetState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::VRControllerState_t (GlobalNamespace::SteamVR_Controller::Device::*)()>(&GlobalNamespace::SteamVR_Controller::Device::GetState)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "GetState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -365,7 +365,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::GetPrevState
 // Il2CppName: GetPrevState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::VRControllerState_t (GlobalNamespace::SteamVR_Controller::Device::*)()>(&GlobalNamespace::SteamVR_Controller::Device::GetPrevState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::VRControllerState_t (GlobalNamespace::SteamVR_Controller::Device::*)()>(&GlobalNamespace::SteamVR_Controller::Device::GetPrevState)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "GetPrevState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -373,7 +373,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::GetPose
 // Il2CppName: GetPose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::TrackedDevicePose_t (GlobalNamespace::SteamVR_Controller::Device::*)()>(&GlobalNamespace::SteamVR_Controller::Device::GetPose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Valve::VR::TrackedDevicePose_t (GlobalNamespace::SteamVR_Controller::Device::*)()>(&GlobalNamespace::SteamVR_Controller::Device::GetPose)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "GetPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -416,7 +416,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::GetPress
 // Il2CppName: GetPress
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)(Valve::VR::EVRButtonId)>(&GlobalNamespace::SteamVR_Controller::Device::GetPress)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)(::Valve::VR::EVRButtonId)>(&GlobalNamespace::SteamVR_Controller::Device::GetPress)> {
   static const MethodInfo* get() {
     static auto* buttonId = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRButtonId")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "GetPress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buttonId});
@@ -425,7 +425,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::GetPressDown
 // Il2CppName: GetPressDown
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)(Valve::VR::EVRButtonId)>(&GlobalNamespace::SteamVR_Controller::Device::GetPressDown)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)(::Valve::VR::EVRButtonId)>(&GlobalNamespace::SteamVR_Controller::Device::GetPressDown)> {
   static const MethodInfo* get() {
     static auto* buttonId = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRButtonId")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "GetPressDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buttonId});
@@ -434,7 +434,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::GetPressUp
 // Il2CppName: GetPressUp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)(Valve::VR::EVRButtonId)>(&GlobalNamespace::SteamVR_Controller::Device::GetPressUp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)(::Valve::VR::EVRButtonId)>(&GlobalNamespace::SteamVR_Controller::Device::GetPressUp)> {
   static const MethodInfo* get() {
     static auto* buttonId = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRButtonId")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "GetPressUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buttonId});
@@ -470,7 +470,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::GetTouch
 // Il2CppName: GetTouch
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)(Valve::VR::EVRButtonId)>(&GlobalNamespace::SteamVR_Controller::Device::GetTouch)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)(::Valve::VR::EVRButtonId)>(&GlobalNamespace::SteamVR_Controller::Device::GetTouch)> {
   static const MethodInfo* get() {
     static auto* buttonId = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRButtonId")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "GetTouch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buttonId});
@@ -479,7 +479,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::GetTouchDown
 // Il2CppName: GetTouchDown
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)(Valve::VR::EVRButtonId)>(&GlobalNamespace::SteamVR_Controller::Device::GetTouchDown)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)(::Valve::VR::EVRButtonId)>(&GlobalNamespace::SteamVR_Controller::Device::GetTouchDown)> {
   static const MethodInfo* get() {
     static auto* buttonId = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRButtonId")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "GetTouchDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buttonId});
@@ -488,7 +488,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::GetTouchUp
 // Il2CppName: GetTouchUp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)(Valve::VR::EVRButtonId)>(&GlobalNamespace::SteamVR_Controller::Device::GetTouchUp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)(::Valve::VR::EVRButtonId)>(&GlobalNamespace::SteamVR_Controller::Device::GetTouchUp)> {
   static const MethodInfo* get() {
     static auto* buttonId = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRButtonId")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "GetTouchUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buttonId});
@@ -497,7 +497,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::GetAxis
 // Il2CppName: GetAxis
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (GlobalNamespace::SteamVR_Controller::Device::*)(Valve::VR::EVRButtonId)>(&GlobalNamespace::SteamVR_Controller::Device::GetAxis)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (GlobalNamespace::SteamVR_Controller::Device::*)(::Valve::VR::EVRButtonId)>(&GlobalNamespace::SteamVR_Controller::Device::GetAxis)> {
   static const MethodInfo* get() {
     static auto* buttonId = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRButtonId")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "GetAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buttonId});
@@ -506,7 +506,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Controller::Device::TriggerHapticPulse
 // Il2CppName: TriggerHapticPulse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_Controller::Device::*)(uint16_t, Valve::VR::EVRButtonId)>(&GlobalNamespace::SteamVR_Controller::Device::TriggerHapticPulse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_Controller::Device::*)(uint16_t, ::Valve::VR::EVRButtonId)>(&GlobalNamespace::SteamVR_Controller::Device::TriggerHapticPulse)> {
   static const MethodInfo* get() {
     static auto* durationMicroSec = &::il2cpp_utils::GetClassFromName("System", "UInt16")->byval_arg;
     static auto* buttonId = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRButtonId")->byval_arg;

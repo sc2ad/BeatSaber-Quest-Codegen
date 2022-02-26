@@ -31,8 +31,8 @@ namespace UnityEngine {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo*, "", "DlcPromoPanelDataSO/MusicPackPromoInfo");
+NEED_NO_BOX(::GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo*, "", "DlcPromoPanelDataSO/MusicPackPromoInfo");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x28
@@ -53,57 +53,57 @@ namespace GlobalNamespace {
     // private PreviewBeatmapLevelPackSO _beatmapLevelPack
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::PreviewBeatmapLevelPackSO* beatmapLevelPack;
+    ::GlobalNamespace::PreviewBeatmapLevelPackSO* beatmapLevelPack;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::PreviewBeatmapLevelPackSO*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::PreviewBeatmapLevelPackSO*) == 0x8);
     // [NullAllowed] Offset: 0x125258C
     // private BeatmapLevelSO _beatmapLevel
     // Size: 0x8
     // Offset: 0x18
-    GlobalNamespace::BeatmapLevelSO* beatmapLevel;
+    ::GlobalNamespace::BeatmapLevelSO* beatmapLevel;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::BeatmapLevelSO*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::BeatmapLevelSO*) == 0x8);
     // private UnityEngine.Sprite _bannerImage
     // Size: 0x8
     // Offset: 0x20
-    UnityEngine::Sprite* bannerImage;
+    ::UnityEngine::Sprite* bannerImage;
     // Field size check
-    static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Sprite*) == 0x8);
     public:
     // Get instance field reference: private PreviewBeatmapLevelPackSO _beatmapLevelPack
-    GlobalNamespace::PreviewBeatmapLevelPackSO*& dyn__beatmapLevelPack();
+    ::GlobalNamespace::PreviewBeatmapLevelPackSO*& dyn__beatmapLevelPack();
     // Get instance field reference: private BeatmapLevelSO _beatmapLevel
-    GlobalNamespace::BeatmapLevelSO*& dyn__beatmapLevel();
+    ::GlobalNamespace::BeatmapLevelSO*& dyn__beatmapLevel();
     // Get instance field reference: private UnityEngine.Sprite _bannerImage
-    UnityEngine::Sprite*& dyn__bannerImage();
+    ::UnityEngine::Sprite*& dyn__bannerImage();
     // public IBeatmapLevelPack get_previewBeatmapLevelPack()
     // Offset: 0x13F26B4
-    GlobalNamespace::IBeatmapLevelPack* get_previewBeatmapLevelPack();
+    ::GlobalNamespace::IBeatmapLevelPack* get_previewBeatmapLevelPack();
     // public IPreviewBeatmapLevel get_previewBeatmapLevel()
     // Offset: 0x13F26BC
-    GlobalNamespace::IPreviewBeatmapLevel* get_previewBeatmapLevel();
+    ::GlobalNamespace::IPreviewBeatmapLevel* get_previewBeatmapLevel();
     // public UnityEngine.Sprite get_bannerImage()
     // Offset: 0x13F26C4
-    UnityEngine::Sprite* get_bannerImage();
+    ::UnityEngine::Sprite* get_bannerImage();
     // public System.Void .ctor()
     // Offset: 0x13F26CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DlcPromoPanelDataSO::MusicPackPromoInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DlcPromoPanelDataSO::MusicPackPromoInfo*, creationType>()));
     }
   }; // DlcPromoPanelDataSO/MusicPackPromoInfo
   #pragma pack(pop)
-  static check_size<sizeof(DlcPromoPanelDataSO::MusicPackPromoInfo), 32 + sizeof(UnityEngine::Sprite*)> __GlobalNamespace_DlcPromoPanelDataSO_MusicPackPromoInfoSizeCheck;
+  static check_size<sizeof(DlcPromoPanelDataSO::MusicPackPromoInfo), 32 + sizeof(::UnityEngine::Sprite*)> __GlobalNamespace_DlcPromoPanelDataSO_MusicPackPromoInfoSizeCheck;
   static_assert(sizeof(DlcPromoPanelDataSO::MusicPackPromoInfo) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo::get_previewBeatmapLevelPack
 // Il2CppName: get_previewBeatmapLevelPack
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IBeatmapLevelPack* (GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo::*)()>(&GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo::get_previewBeatmapLevelPack)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IBeatmapLevelPack* (GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo::*)()>(&GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo::get_previewBeatmapLevelPack)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo*), "get_previewBeatmapLevelPack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -111,7 +111,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo::get_previewBeatmapLevel
 // Il2CppName: get_previewBeatmapLevel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IPreviewBeatmapLevel* (GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo::*)()>(&GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo::get_previewBeatmapLevel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IPreviewBeatmapLevel* (GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo::*)()>(&GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo::get_previewBeatmapLevel)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo*), "get_previewBeatmapLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -119,7 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo::get_bannerImage
 // Il2CppName: get_bannerImage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo::*)()>(&GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo::get_bannerImage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Sprite* (GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo::*)()>(&GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo::get_bannerImage)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo*), "get_bannerImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

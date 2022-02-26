@@ -24,8 +24,8 @@ namespace UnityEngine {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::DynamicBone::Particle);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DynamicBone::Particle*, "", "DynamicBone/Particle");
+NEED_NO_BOX(::GlobalNamespace::DynamicBone::Particle);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DynamicBone::Particle*, "", "DynamicBone/Particle");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x74
@@ -46,9 +46,9 @@ namespace GlobalNamespace {
     // public UnityEngine.Transform m_Transform
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::Transform* m_Transform;
+    ::UnityEngine::Transform* m_Transform;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // public System.Int32 m_ParentIndex
     // Size: 0x4
     // Offset: 0x18
@@ -94,36 +94,36 @@ namespace GlobalNamespace {
     // public UnityEngine.Vector3 m_Position
     // Size: 0xC
     // Offset: 0x34
-    UnityEngine::Vector3 m_Position;
+    ::UnityEngine::Vector3 m_Position;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // public UnityEngine.Vector3 m_PrevPosition
     // Size: 0xC
     // Offset: 0x40
-    UnityEngine::Vector3 m_PrevPosition;
+    ::UnityEngine::Vector3 m_PrevPosition;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // public UnityEngine.Vector3 m_EndOffset
     // Size: 0xC
     // Offset: 0x4C
-    UnityEngine::Vector3 m_EndOffset;
+    ::UnityEngine::Vector3 m_EndOffset;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // public UnityEngine.Vector3 m_InitLocalPosition
     // Size: 0xC
     // Offset: 0x58
-    UnityEngine::Vector3 m_InitLocalPosition;
+    ::UnityEngine::Vector3 m_InitLocalPosition;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // public UnityEngine.Quaternion m_InitLocalRotation
     // Size: 0x10
     // Offset: 0x64
-    UnityEngine::Quaternion m_InitLocalRotation;
+    ::UnityEngine::Quaternion m_InitLocalRotation;
     // Field size check
-    static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    static_assert(sizeof(::UnityEngine::Quaternion) == 0x10);
     public:
     // Get instance field reference: public UnityEngine.Transform m_Transform
-    UnityEngine::Transform*& dyn_m_Transform();
+    ::UnityEngine::Transform*& dyn_m_Transform();
     // Get instance field reference: public System.Int32 m_ParentIndex
     int& dyn_m_ParentIndex();
     // Get instance field reference: public System.Single m_Damping
@@ -139,27 +139,27 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single m_BoneLength
     float& dyn_m_BoneLength();
     // Get instance field reference: public UnityEngine.Vector3 m_Position
-    UnityEngine::Vector3& dyn_m_Position();
+    ::UnityEngine::Vector3& dyn_m_Position();
     // Get instance field reference: public UnityEngine.Vector3 m_PrevPosition
-    UnityEngine::Vector3& dyn_m_PrevPosition();
+    ::UnityEngine::Vector3& dyn_m_PrevPosition();
     // Get instance field reference: public UnityEngine.Vector3 m_EndOffset
-    UnityEngine::Vector3& dyn_m_EndOffset();
+    ::UnityEngine::Vector3& dyn_m_EndOffset();
     // Get instance field reference: public UnityEngine.Vector3 m_InitLocalPosition
-    UnityEngine::Vector3& dyn_m_InitLocalPosition();
+    ::UnityEngine::Vector3& dyn_m_InitLocalPosition();
     // Get instance field reference: public UnityEngine.Quaternion m_InitLocalRotation
-    UnityEngine::Quaternion& dyn_m_InitLocalRotation();
+    ::UnityEngine::Quaternion& dyn_m_InitLocalRotation();
     // public System.Void .ctor()
     // Offset: 0x2A3B1A0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DynamicBone::Particle* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DynamicBone::Particle::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DynamicBone::Particle::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DynamicBone::Particle*, creationType>()));
     }
   }; // DynamicBone/Particle
   #pragma pack(pop)
-  static check_size<sizeof(DynamicBone::Particle), 100 + sizeof(UnityEngine::Quaternion)> __GlobalNamespace_DynamicBone_ParticleSizeCheck;
+  static check_size<sizeof(DynamicBone::Particle), 100 + sizeof(::UnityEngine::Quaternion)> __GlobalNamespace_DynamicBone_ParticleSizeCheck;
   static_assert(sizeof(DynamicBone::Particle) == 0x74);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

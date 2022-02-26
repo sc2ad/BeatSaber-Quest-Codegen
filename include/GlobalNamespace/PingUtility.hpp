@@ -24,8 +24,8 @@ namespace GlobalNamespace {
   class PingUtility;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PingUtility);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PingUtility*, "", "PingUtility");
+NEED_NO_BOX(::GlobalNamespace::PingUtility);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PingUtility*, "", "PingUtility");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -34,13 +34,13 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PingUtility : public ::Il2CppObject {
     public:
-    // Nested type: GlobalNamespace::PingUtility::$$c
+    // Nested type: ::GlobalNamespace::PingUtility::$$c
     class $$c;
-    // Nested type: GlobalNamespace::PingUtility::$PingAsync$d__0
+    // Nested type: ::GlobalNamespace::PingUtility::$PingAsync$d__0
     struct $PingAsync$d__0;
     // static public System.Threading.Tasks.Task`1<System.Int64> PingAsync(System.String url)
     // Offset: 0x2DFEA3C
-    static System::Threading::Tasks::Task_1<int64_t>* PingAsync(::StringW url);
+    static ::System::Threading::Tasks::Task_1<int64_t>* PingAsync(::StringW url);
   }; // PingUtility
   #pragma pack(pop)
 }
@@ -48,7 +48,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::PingUtility::PingAsync
 // Il2CppName: PingAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<int64_t>* (*)(::StringW)>(&GlobalNamespace::PingUtility::PingAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<int64_t>* (*)(::StringW)>(&GlobalNamespace::PingUtility::PingAsync)> {
   static const MethodInfo* get() {
     static auto* url = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PingUtility*), "PingAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{url});

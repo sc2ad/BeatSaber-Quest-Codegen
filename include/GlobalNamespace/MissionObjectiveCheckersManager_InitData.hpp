@@ -21,8 +21,8 @@ namespace GlobalNamespace {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MissionObjectiveCheckersManager::InitData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveCheckersManager::InitData*, "", "MissionObjectiveCheckersManager/InitData");
+NEED_NO_BOX(::GlobalNamespace::MissionObjectiveCheckersManager::InitData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MissionObjectiveCheckersManager::InitData*, "", "MissionObjectiveCheckersManager/InitData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -43,26 +43,26 @@ namespace GlobalNamespace {
     // public readonly MissionObjective[] missionObjectives
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<GlobalNamespace::MissionObjective*> missionObjectives;
+    ::ArrayW<::GlobalNamespace::MissionObjective*> missionObjectives;
     // Field size check
-    static_assert(sizeof(::ArrayW<GlobalNamespace::MissionObjective*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::GlobalNamespace::MissionObjective*>) == 0x8);
     public:
-    // Creating conversion operator: operator ::ArrayW<GlobalNamespace::MissionObjective*>
-    constexpr operator ::ArrayW<GlobalNamespace::MissionObjective*>() const noexcept {
+    // Creating conversion operator: operator ::ArrayW<::GlobalNamespace::MissionObjective*>
+    constexpr operator ::ArrayW<::GlobalNamespace::MissionObjective*>() const noexcept {
       return missionObjectives;
     }
     // Get instance field reference: public readonly MissionObjective[] missionObjectives
-    ::ArrayW<GlobalNamespace::MissionObjective*>& dyn_missionObjectives();
+    ::ArrayW<::GlobalNamespace::MissionObjective*>& dyn_missionObjectives();
     // public System.Void .ctor(MissionObjective[] missionObjectives)
     // Offset: 0x2A6CD40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MissionObjectiveCheckersManager::InitData* New_ctor(::ArrayW<GlobalNamespace::MissionObjective*> missionObjectives) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MissionObjectiveCheckersManager::InitData::.ctor");
+    static MissionObjectiveCheckersManager::InitData* New_ctor(::ArrayW<::GlobalNamespace::MissionObjective*> missionObjectives) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionObjectiveCheckersManager::InitData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionObjectiveCheckersManager::InitData*, creationType>(missionObjectives)));
     }
   }; // MissionObjectiveCheckersManager/InitData
   #pragma pack(pop)
-  static check_size<sizeof(MissionObjectiveCheckersManager::InitData), 16 + sizeof(::ArrayW<GlobalNamespace::MissionObjective*>)> __GlobalNamespace_MissionObjectiveCheckersManager_InitDataSizeCheck;
+  static check_size<sizeof(MissionObjectiveCheckersManager::InitData), 16 + sizeof(::ArrayW<::GlobalNamespace::MissionObjective*>)> __GlobalNamespace_MissionObjectiveCheckersManager_InitDataSizeCheck;
   static_assert(sizeof(MissionObjectiveCheckersManager::InitData) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

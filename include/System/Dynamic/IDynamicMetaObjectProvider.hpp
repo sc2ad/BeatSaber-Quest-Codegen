@@ -23,8 +23,8 @@ namespace System::Dynamic {
   class IDynamicMetaObjectProvider;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Dynamic::IDynamicMetaObjectProvider);
-DEFINE_IL2CPP_ARG_TYPE(System::Dynamic::IDynamicMetaObjectProvider*, "System.Dynamic", "IDynamicMetaObjectProvider");
+NEED_NO_BOX(::System::Dynamic::IDynamicMetaObjectProvider);
+DEFINE_IL2CPP_ARG_TYPE(::System::Dynamic::IDynamicMetaObjectProvider*, "System.Dynamic", "IDynamicMetaObjectProvider");
 // Type namespace: System.Dynamic
 namespace System::Dynamic {
   // Size: 0x10
@@ -35,7 +35,7 @@ namespace System::Dynamic {
     public:
     // public System.Dynamic.DynamicMetaObject GetMetaObject(System.Linq.Expressions.Expression parameter)
     // Offset: 0xFFFFFFFF
-    System::Dynamic::DynamicMetaObject* GetMetaObject(System::Linq::Expressions::Expression* parameter);
+    ::System::Dynamic::DynamicMetaObject* GetMetaObject(::System::Linq::Expressions::Expression* parameter);
   }; // System.Dynamic.IDynamicMetaObjectProvider
   #pragma pack(pop)
 }
@@ -43,7 +43,7 @@ namespace System::Dynamic {
 // Writing MetadataGetter for method: System::Dynamic::IDynamicMetaObjectProvider::GetMetaObject
 // Il2CppName: GetMetaObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dynamic::DynamicMetaObject* (System::Dynamic::IDynamicMetaObjectProvider::*)(System::Linq::Expressions::Expression*)>(&System::Dynamic::IDynamicMetaObjectProvider::GetMetaObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::DynamicMetaObject* (System::Dynamic::IDynamicMetaObjectProvider::*)(::System::Linq::Expressions::Expression*)>(&System::Dynamic::IDynamicMetaObjectProvider::GetMetaObject)> {
   static const MethodInfo* get() {
     static auto* parameter = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Dynamic::IDynamicMetaObjectProvider*), "GetMetaObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{parameter});

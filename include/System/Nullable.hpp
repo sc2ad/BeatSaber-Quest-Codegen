@@ -19,8 +19,8 @@ namespace System {
   class Nullable;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Nullable);
-DEFINE_IL2CPP_ARG_TYPE(System::Nullable*, "System", "Nullable");
+NEED_NO_BOX(::System::Nullable);
+DEFINE_IL2CPP_ARG_TYPE(::System::Nullable*, "System", "Nullable");
 // Type namespace: System
 namespace System {
   // Size: 0x10
@@ -32,7 +32,7 @@ namespace System {
     public:
     // static public System.Type GetUnderlyingType(System.Type nullableType)
     // Offset: 0x1A9816C
-    static System::Type* GetUnderlyingType(System::Type* nullableType);
+    static ::System::Type* GetUnderlyingType(::System::Type* nullableType);
   }; // System.Nullable
   #pragma pack(pop)
 }
@@ -40,7 +40,7 @@ namespace System {
 // Writing MetadataGetter for method: System::Nullable::GetUnderlyingType
 // Il2CppName: GetUnderlyingType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(System::Type*)>(&System::Nullable::GetUnderlyingType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Type*)>(&System::Nullable::GetUnderlyingType)> {
   static const MethodInfo* get() {
     static auto* nullableType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Nullable*), "GetUnderlyingType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nullableType});

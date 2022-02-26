@@ -27,8 +27,8 @@ namespace System::Xml::Schema {
   class TypedObject;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Schema::TypedObject);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::TypedObject*, "System.Xml.Schema", "TypedObject");
+NEED_NO_BOX(::System::Xml::Schema::TypedObject);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::TypedObject*, "System.Xml.Schema", "TypedObject");
 // Type namespace: System.Xml.Schema
 namespace System::Xml::Schema {
   // Size: 0x35
@@ -37,7 +37,7 @@ namespace System::Xml::Schema {
   // [TokenAttribute] Offset: FFFFFFFF
   class TypedObject : public ::Il2CppObject {
     public:
-    // Nested type: System::Xml::Schema::TypedObject::DecimalStruct
+    // Nested type: ::System::Xml::Schema::TypedObject::DecimalStruct
     class DecimalStruct;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -51,9 +51,9 @@ namespace System::Xml::Schema {
     // private System.Xml.Schema.TypedObject/System.Xml.Schema.DecimalStruct dstruct
     // Size: 0x8
     // Offset: 0x10
-    System::Xml::Schema::TypedObject::DecimalStruct* dstruct;
+    ::System::Xml::Schema::TypedObject::DecimalStruct* dstruct;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::TypedObject::DecimalStruct*) == 0x8);
+    static_assert(sizeof(::System::Xml::Schema::TypedObject::DecimalStruct*) == 0x8);
     // private System.Object ovalue
     // Size: 0x8
     // Offset: 0x18
@@ -69,9 +69,9 @@ namespace System::Xml::Schema {
     // private System.Xml.Schema.XmlSchemaDatatype xsdtype
     // Size: 0x8
     // Offset: 0x28
-    System::Xml::Schema::XmlSchemaDatatype* xsdtype;
+    ::System::Xml::Schema::XmlSchemaDatatype* xsdtype;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::XmlSchemaDatatype*) == 0x8);
+    static_assert(sizeof(::System::Xml::Schema::XmlSchemaDatatype*) == 0x8);
     // private System.Int32 dim
     // Size: 0x4
     // Offset: 0x30
@@ -86,13 +86,13 @@ namespace System::Xml::Schema {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.Xml.Schema.TypedObject/System.Xml.Schema.DecimalStruct dstruct
-    System::Xml::Schema::TypedObject::DecimalStruct*& dyn_dstruct();
+    ::System::Xml::Schema::TypedObject::DecimalStruct*& dyn_dstruct();
     // Get instance field reference: private System.Object ovalue
     ::Il2CppObject*& dyn_ovalue();
     // Get instance field reference: private System.String svalue
     ::StringW& dyn_svalue();
     // Get instance field reference: private System.Xml.Schema.XmlSchemaDatatype xsdtype
-    System::Xml::Schema::XmlSchemaDatatype*& dyn_xsdtype();
+    ::System::Xml::Schema::XmlSchemaDatatype*& dyn_xsdtype();
     // Get instance field reference: private System.Int32 dim
     int& dyn_dim();
     // Get instance field reference: private System.Boolean isList
@@ -108,18 +108,18 @@ namespace System::Xml::Schema {
     bool get_IsDecimal();
     // public System.Decimal[] get_Dvalue()
     // Offset: 0x169C73C
-    ::ArrayW<System::Decimal> get_Dvalue();
+    ::ArrayW<::System::Decimal> get_Dvalue();
     // public System.Object get_Value()
     // Offset: 0x169C758
     ::Il2CppObject* get_Value();
     // public System.Xml.Schema.XmlSchemaDatatype get_Type()
     // Offset: 0x169C760
-    System::Xml::Schema::XmlSchemaDatatype* get_Type();
+    ::System::Xml::Schema::XmlSchemaDatatype* get_Type();
     // public System.Void .ctor(System.Object obj, System.String svalue, System.Xml.Schema.XmlSchemaDatatype xsdtype)
     // Offset: 0x169C768
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TypedObject* New_ctor(::Il2CppObject* obj, ::StringW svalue, System::Xml::Schema::XmlSchemaDatatype* xsdtype) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Schema::TypedObject::.ctor");
+    static TypedObject* New_ctor(::Il2CppObject* obj, ::StringW svalue, ::System::Xml::Schema::XmlSchemaDatatype* xsdtype) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::TypedObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypedObject*, creationType>(obj, svalue, xsdtype)));
     }
     // public System.Void SetDecimal()
@@ -127,10 +127,10 @@ namespace System::Xml::Schema {
     void SetDecimal();
     // private System.Boolean ListDValueEquals(System.Xml.Schema.TypedObject other)
     // Offset: 0x169CC10
-    bool ListDValueEquals(System::Xml::Schema::TypedObject* other);
+    bool ListDValueEquals(::System::Xml::Schema::TypedObject* other);
     // public System.Boolean Equals(System.Xml.Schema.TypedObject other)
     // Offset: 0x169CD40
-    bool Equals(System::Xml::Schema::TypedObject* other);
+    bool Equals(::System::Xml::Schema::TypedObject* other);
     // public override System.String ToString()
     // Offset: 0x169C8BC
     // Implemented from: System.Object
@@ -169,7 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::TypedObject::get_Dvalue
 // Il2CppName: get_Dvalue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Decimal> (System::Xml::Schema::TypedObject::*)()>(&System::Xml::Schema::TypedObject::get_Dvalue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Decimal> (System::Xml::Schema::TypedObject::*)()>(&System::Xml::Schema::TypedObject::get_Dvalue)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::TypedObject*), "get_Dvalue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -185,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Xml::Schema::TypedObject::get_Type
 // Il2CppName: get_Type
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Schema::XmlSchemaDatatype* (System::Xml::Schema::TypedObject::*)()>(&System::Xml::Schema::TypedObject::get_Type)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaDatatype* (System::Xml::Schema::TypedObject::*)()>(&System::Xml::Schema::TypedObject::get_Type)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::TypedObject*), "get_Type", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -205,7 +205,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::TypedObject::ListDValueEquals
 // Il2CppName: ListDValueEquals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::Schema::TypedObject::*)(System::Xml::Schema::TypedObject*)>(&System::Xml::Schema::TypedObject::ListDValueEquals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::Schema::TypedObject::*)(::System::Xml::Schema::TypedObject*)>(&System::Xml::Schema::TypedObject::ListDValueEquals)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "TypedObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::TypedObject*), "ListDValueEquals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
@@ -214,7 +214,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::TypedObject::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::Schema::TypedObject::*)(System::Xml::Schema::TypedObject*)>(&System::Xml::Schema::TypedObject::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::Schema::TypedObject::*)(::System::Xml::Schema::TypedObject*)>(&System::Xml::Schema::TypedObject::Equals)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "TypedObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::TypedObject*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});

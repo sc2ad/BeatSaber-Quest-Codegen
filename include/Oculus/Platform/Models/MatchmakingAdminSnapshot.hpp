@@ -25,8 +25,8 @@ namespace Oculus::Platform::Models {
   class MatchmakingAdminSnapshot;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::MatchmakingAdminSnapshot);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::MatchmakingAdminSnapshot*, "Oculus.Platform.Models", "MatchmakingAdminSnapshot");
+NEED_NO_BOX(::Oculus::Platform::Models::MatchmakingAdminSnapshot);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::MatchmakingAdminSnapshot*, "Oculus.Platform.Models", "MatchmakingAdminSnapshot");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x20
@@ -47,9 +47,9 @@ namespace Oculus::Platform::Models {
     // public readonly Oculus.Platform.Models.MatchmakingAdminSnapshotCandidateList Candidates
     // Size: 0x8
     // Offset: 0x10
-    Oculus::Platform::Models::MatchmakingAdminSnapshotCandidateList* Candidates;
+    ::Oculus::Platform::Models::MatchmakingAdminSnapshotCandidateList* Candidates;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::Models::MatchmakingAdminSnapshotCandidateList*) == 0x8);
+    static_assert(sizeof(::Oculus::Platform::Models::MatchmakingAdminSnapshotCandidateList*) == 0x8);
     // public readonly System.Double MyCurrentThreshold
     // Size: 0x8
     // Offset: 0x18
@@ -58,14 +58,14 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(double) == 0x8);
     public:
     // Get instance field reference: public readonly Oculus.Platform.Models.MatchmakingAdminSnapshotCandidateList Candidates
-    Oculus::Platform::Models::MatchmakingAdminSnapshotCandidateList*& dyn_Candidates();
+    ::Oculus::Platform::Models::MatchmakingAdminSnapshotCandidateList*& dyn_Candidates();
     // Get instance field reference: public readonly System.Double MyCurrentThreshold
     double& dyn_MyCurrentThreshold();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x1968378
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MatchmakingAdminSnapshot* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::MatchmakingAdminSnapshot::.ctor");
+    static MatchmakingAdminSnapshot* New_ctor(::System::IntPtr o) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::MatchmakingAdminSnapshot::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MatchmakingAdminSnapshot*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.MatchmakingAdminSnapshot

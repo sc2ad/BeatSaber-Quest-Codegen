@@ -18,8 +18,8 @@ namespace UnityEngine {
   class ExcludeFromObjectFactoryAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ExcludeFromObjectFactoryAttribute);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ExcludeFromObjectFactoryAttribute*, "UnityEngine", "ExcludeFromObjectFactoryAttribute");
+NEED_NO_BOX(::UnityEngine::ExcludeFromObjectFactoryAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ExcludeFromObjectFactoryAttribute*, "UnityEngine", "ExcludeFromObjectFactoryAttribute");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -28,7 +28,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [UsedByNativeCodeAttribute] Offset: 11A5D94
   // [AttributeUsageAttribute] Offset: 11A5D94
-  class ExcludeFromObjectFactoryAttribute : public System::Attribute {
+  class ExcludeFromObjectFactoryAttribute : public ::System::Attribute {
     public:
     // public System.Void .ctor()
     // Offset: 0x1EBA6C4
@@ -37,7 +37,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExcludeFromObjectFactoryAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ExcludeFromObjectFactoryAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ExcludeFromObjectFactoryAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExcludeFromObjectFactoryAttribute*, creationType>()));
     }
   }; // UnityEngine.ExcludeFromObjectFactoryAttribute

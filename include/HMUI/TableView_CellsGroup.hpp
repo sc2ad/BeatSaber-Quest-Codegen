@@ -27,8 +27,8 @@ namespace HMUI {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HMUI::TableView::CellsGroup);
-DEFINE_IL2CPP_ARG_TYPE(HMUI::TableView::CellsGroup*, "HMUI", "TableView/CellsGroup");
+NEED_NO_BOX(::HMUI::TableView::CellsGroup);
+DEFINE_IL2CPP_ARG_TYPE(::HMUI::TableView::CellsGroup*, "HMUI", "TableView/CellsGroup");
 // Type namespace: HMUI
 namespace HMUI {
   // Size: 0x20
@@ -55,32 +55,32 @@ namespace HMUI {
     // private System.Collections.Generic.List`1<HMUI.TableCell> _cells
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::Generic::List_1<HMUI::TableCell*>* cells;
+    ::System::Collections::Generic::List_1<::HMUI::TableCell*>* cells;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<HMUI::TableCell*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::HMUI::TableCell*>*) == 0x8);
     public:
     // Get instance field reference: private System.String _reuseIdentifier
     ::StringW& dyn__reuseIdentifier();
     // Get instance field reference: private System.Collections.Generic.List`1<HMUI.TableCell> _cells
-    System::Collections::Generic::List_1<HMUI::TableCell*>*& dyn__cells();
+    ::System::Collections::Generic::List_1<::HMUI::TableCell*>*& dyn__cells();
     // public System.String get_reuseIdentifier()
     // Offset: 0x16B4328
     ::StringW get_reuseIdentifier();
     // public System.Collections.Generic.List`1<HMUI.TableCell> get_cells()
     // Offset: 0x16B4330
-    System::Collections::Generic::List_1<HMUI::TableCell*>* get_cells();
+    ::System::Collections::Generic::List_1<::HMUI::TableCell*>* get_cells();
     // public System.Void .ctor()
     // Offset: 0x16B4338
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TableView::CellsGroup* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::TableView::CellsGroup::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::TableView::CellsGroup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TableView::CellsGroup*, creationType>()));
     }
   }; // HMUI.TableView/HMUI.CellsGroup
   #pragma pack(pop)
-  static check_size<sizeof(TableView::CellsGroup), 24 + sizeof(System::Collections::Generic::List_1<HMUI::TableCell*>*)> __HMUI_TableView_CellsGroupSizeCheck;
+  static check_size<sizeof(TableView::CellsGroup), 24 + sizeof(::System::Collections::Generic::List_1<::HMUI::TableCell*>*)> __HMUI_TableView_CellsGroupSizeCheck;
   static_assert(sizeof(TableView::CellsGroup) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -95,7 +95,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: HMUI::TableView::CellsGroup::get_cells
 // Il2CppName: get_cells
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<HMUI::TableCell*>* (HMUI::TableView::CellsGroup::*)()>(&HMUI::TableView::CellsGroup::get_cells)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::HMUI::TableCell*>* (HMUI::TableView::CellsGroup::*)()>(&HMUI::TableView::CellsGroup::get_cells)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::TableView::CellsGroup*), "get_cells", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

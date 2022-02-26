@@ -23,8 +23,8 @@ namespace NUnit::Framework::Internal::Execution {
   class CountdownEvent;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Internal::Execution::CountdownEvent);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Execution::CountdownEvent*, "NUnit.Framework.Internal.Execution", "CountdownEvent");
+NEED_NO_BOX(::NUnit::Framework::Internal::Execution::CountdownEvent);
+DEFINE_IL2CPP_ARG_TYPE(::NUnit::Framework::Internal::Execution::CountdownEvent*, "NUnit.Framework.Internal.Execution", "CountdownEvent");
 // Type namespace: NUnit.Framework.Internal.Execution
 namespace NUnit::Framework::Internal::Execution {
   // Size: 0x28
@@ -63,9 +63,9 @@ namespace NUnit::Framework::Internal::Execution {
     // private System.Threading.ManualResetEvent _event
     // Size: 0x8
     // Offset: 0x20
-    System::Threading::ManualResetEvent* event;
+    ::System::Threading::ManualResetEvent* event;
     // Field size check
-    static_assert(sizeof(System::Threading::ManualResetEvent*) == 0x8);
+    static_assert(sizeof(::System::Threading::ManualResetEvent*) == 0x8);
     public:
     // Get instance field reference: private System.Int32 _initialCount
     int& dyn__initialCount();
@@ -74,7 +74,7 @@ namespace NUnit::Framework::Internal::Execution {
     // Get instance field reference: private System.Object _lock
     ::Il2CppObject*& dyn__lock();
     // Get instance field reference: private System.Threading.ManualResetEvent _event
-    System::Threading::ManualResetEvent*& dyn__event();
+    ::System::Threading::ManualResetEvent*& dyn__event();
     // public System.Int32 get_CurrentCount()
     // Offset: 0x1B63B14
     int get_CurrentCount();
@@ -82,7 +82,7 @@ namespace NUnit::Framework::Internal::Execution {
     // Offset: 0x1B63A74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CountdownEvent* New_ctor(int initialCount) {
-      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Execution::CountdownEvent::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::Execution::CountdownEvent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CountdownEvent*, creationType>(initialCount)));
     }
     // public System.Void Signal()
@@ -90,7 +90,7 @@ namespace NUnit::Framework::Internal::Execution {
     void Signal();
   }; // NUnit.Framework.Internal.Execution.CountdownEvent
   #pragma pack(pop)
-  static check_size<sizeof(CountdownEvent), 32 + sizeof(System::Threading::ManualResetEvent*)> __NUnit_Framework_Internal_Execution_CountdownEventSizeCheck;
+  static check_size<sizeof(CountdownEvent), 32 + sizeof(::System::Threading::ManualResetEvent*)> __NUnit_Framework_Internal_Execution_CountdownEventSizeCheck;
   static_assert(sizeof(CountdownEvent) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

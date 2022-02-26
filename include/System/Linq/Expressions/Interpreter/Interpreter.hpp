@@ -44,8 +44,8 @@ namespace System::Linq::Expressions::Interpreter {
   class Interpreter;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Linq::Expressions::Interpreter::Interpreter);
-DEFINE_IL2CPP_ARG_TYPE(System::Linq::Expressions::Interpreter::Interpreter*, "System.Linq.Expressions.Interpreter", "Interpreter");
+NEED_NO_BOX(::System::Linq::Expressions::Interpreter::Interpreter);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::Interpreter*, "System.Linq.Expressions.Interpreter", "Interpreter");
 // Type namespace: System.Linq.Expressions.Interpreter
 namespace System::Linq::Expressions::Interpreter {
   // Size: 0x68
@@ -66,9 +66,9 @@ namespace System::Linq::Expressions::Interpreter {
     // private readonly System.Linq.Expressions.Interpreter.InstructionArray _instructions
     // Size: 0x28
     // Offset: 0x10
-    System::Linq::Expressions::Interpreter::InstructionArray instructions;
+    ::System::Linq::Expressions::Interpreter::InstructionArray instructions;
     // Field size check
-    static_assert(sizeof(System::Linq::Expressions::Interpreter::InstructionArray) == 0x28);
+    static_assert(sizeof(::System::Linq::Expressions::Interpreter::InstructionArray) == 0x28);
     // readonly System.Object[] _objects
     // Size: 0x8
     // Offset: 0x38
@@ -78,15 +78,15 @@ namespace System::Linq::Expressions::Interpreter {
     // readonly System.Linq.Expressions.Interpreter.RuntimeLabel[] _labels
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayW<System::Linq::Expressions::Interpreter::RuntimeLabel> labels;
+    ::ArrayW<::System::Linq::Expressions::Interpreter::RuntimeLabel> labels;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::Linq::Expressions::Interpreter::RuntimeLabel>) == 0x8);
+    static_assert(sizeof(::ArrayW<::System::Linq::Expressions::Interpreter::RuntimeLabel>) == 0x8);
     // readonly System.Linq.Expressions.Interpreter.DebugInfo[] _debugInfos
     // Size: 0x8
     // Offset: 0x48
-    ::ArrayW<System::Linq::Expressions::Interpreter::DebugInfo*> debugInfos;
+    ::ArrayW<::System::Linq::Expressions::Interpreter::DebugInfo*> debugInfos;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::Linq::Expressions::Interpreter::DebugInfo*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::System::Linq::Expressions::Interpreter::DebugInfo*>) == 0x8);
     // private readonly System.String <Name>k__BackingField
     // Size: 0x8
     // Offset: 0x50
@@ -104,28 +104,28 @@ namespace System::Linq::Expressions::Interpreter {
     // private readonly System.Collections.Generic.Dictionary`2<System.Linq.Expressions.ParameterExpression,System.Linq.Expressions.Interpreter.LocalVariable> <ClosureVariables>k__BackingField
     // Size: 0x8
     // Offset: 0x60
-    System::Collections::Generic::Dictionary_2<System::Linq::Expressions::ParameterExpression*, System::Linq::Expressions::Interpreter::LocalVariable*>* ClosureVariables;
+    ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* ClosureVariables;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<System::Linq::Expressions::ParameterExpression*, System::Linq::Expressions::Interpreter::LocalVariable*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>*) == 0x8);
     public:
     // Get static field: static readonly System.Object NoValue
     static ::Il2CppObject* _get_NoValue();
     // Set static field: static readonly System.Object NoValue
     static void _set_NoValue(::Il2CppObject* value);
     // Get instance field reference: private readonly System.Linq.Expressions.Interpreter.InstructionArray _instructions
-    System::Linq::Expressions::Interpreter::InstructionArray& dyn__instructions();
+    ::System::Linq::Expressions::Interpreter::InstructionArray& dyn__instructions();
     // Get instance field reference: readonly System.Object[] _objects
     ::ArrayW<::Il2CppObject*>& dyn__objects();
     // Get instance field reference: readonly System.Linq.Expressions.Interpreter.RuntimeLabel[] _labels
-    ::ArrayW<System::Linq::Expressions::Interpreter::RuntimeLabel>& dyn__labels();
+    ::ArrayW<::System::Linq::Expressions::Interpreter::RuntimeLabel>& dyn__labels();
     // Get instance field reference: readonly System.Linq.Expressions.Interpreter.DebugInfo[] _debugInfos
-    ::ArrayW<System::Linq::Expressions::Interpreter::DebugInfo*>& dyn__debugInfos();
+    ::ArrayW<::System::Linq::Expressions::Interpreter::DebugInfo*>& dyn__debugInfos();
     // Get instance field reference: private readonly System.String <Name>k__BackingField
     ::StringW& dyn_$Name$k__BackingField();
     // Get instance field reference: private readonly System.Int32 <LocalCount>k__BackingField
     int& dyn_$LocalCount$k__BackingField();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.Linq.Expressions.ParameterExpression,System.Linq.Expressions.Interpreter.LocalVariable> <ClosureVariables>k__BackingField
-    System::Collections::Generic::Dictionary_2<System::Linq::Expressions::ParameterExpression*, System::Linq::Expressions::Interpreter::LocalVariable*>*& dyn_$ClosureVariables$k__BackingField();
+    ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>*& dyn_$ClosureVariables$k__BackingField();
     // System.String get_Name()
     // Offset: 0x1BFF414
     ::StringW get_Name();
@@ -137,15 +137,15 @@ namespace System::Linq::Expressions::Interpreter {
     int get_ClosureSize();
     // System.Linq.Expressions.Interpreter.InstructionArray get_Instructions()
     // Offset: 0x1BFF484
-    System::Linq::Expressions::Interpreter::InstructionArray get_Instructions();
+    ::System::Linq::Expressions::Interpreter::InstructionArray get_Instructions();
     // System.Collections.Generic.Dictionary`2<System.Linq.Expressions.ParameterExpression,System.Linq.Expressions.Interpreter.LocalVariable> get_ClosureVariables()
     // Offset: 0x1BFF498
-    System::Collections::Generic::Dictionary_2<System::Linq::Expressions::ParameterExpression*, System::Linq::Expressions::Interpreter::LocalVariable*>* get_ClosureVariables();
+    ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* get_ClosureVariables();
     // System.Void .ctor(System.String name, System.Linq.Expressions.Interpreter.LocalVariables locals, System.Linq.Expressions.Interpreter.InstructionArray instructions, System.Linq.Expressions.Interpreter.DebugInfo[] debugInfos)
     // Offset: 0x1BFF394
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Interpreter* New_ctor(::StringW name, System::Linq::Expressions::Interpreter::LocalVariables* locals, System::Linq::Expressions::Interpreter::InstructionArray instructions, ::ArrayW<System::Linq::Expressions::Interpreter::DebugInfo*> debugInfos) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Expressions::Interpreter::Interpreter::.ctor");
+    static Interpreter* New_ctor(::StringW name, ::System::Linq::Expressions::Interpreter::LocalVariables* locals, ::System::Linq::Expressions::Interpreter::InstructionArray instructions, ::ArrayW<::System::Linq::Expressions::Interpreter::DebugInfo*> debugInfos) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Expressions::Interpreter::Interpreter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Interpreter*, creationType>(name, locals, instructions, debugInfos)));
     }
     // static private System.Void .cctor()
@@ -153,10 +153,10 @@ namespace System::Linq::Expressions::Interpreter {
     static void _cctor();
     // public System.Void Run(System.Linq.Expressions.Interpreter.InterpretedFrame frame)
     // Offset: 0x1BFF4A0
-    void Run(System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
+    void Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
   }; // System.Linq.Expressions.Interpreter.Interpreter
   #pragma pack(pop)
-  static check_size<sizeof(Interpreter), 96 + sizeof(System::Collections::Generic::Dictionary_2<System::Linq::Expressions::ParameterExpression*, System::Linq::Expressions::Interpreter::LocalVariable*>*)> __System_Linq_Expressions_Interpreter_InterpreterSizeCheck;
+  static check_size<sizeof(Interpreter), 96 + sizeof(::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>*)> __System_Linq_Expressions_Interpreter_InterpreterSizeCheck;
   static_assert(sizeof(Interpreter) == 0x68);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -187,7 +187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::Interpreter::get_Instructions
 // Il2CppName: get_Instructions
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Linq::Expressions::Interpreter::InstructionArray (System::Linq::Expressions::Interpreter::Interpreter::*)()>(&System::Linq::Expressions::Interpreter::Interpreter::get_Instructions)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Interpreter::InstructionArray (System::Linq::Expressions::Interpreter::Interpreter::*)()>(&System::Linq::Expressions::Interpreter::Interpreter::get_Instructions)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::Interpreter*), "get_Instructions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -195,7 +195,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Lin
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::Interpreter::get_ClosureVariables
 // Il2CppName: get_ClosureVariables
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<System::Linq::Expressions::ParameterExpression*, System::Linq::Expressions::Interpreter::LocalVariable*>* (System::Linq::Expressions::Interpreter::Interpreter::*)()>(&System::Linq::Expressions::Interpreter::Interpreter::get_ClosureVariables)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* (System::Linq::Expressions::Interpreter::Interpreter::*)()>(&System::Linq::Expressions::Interpreter::Interpreter::get_ClosureVariables)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::Interpreter*), "get_ClosureVariables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -215,7 +215,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::Interpreter::Run
 // Il2CppName: Run
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::Interpreter::*)(System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&System::Linq::Expressions::Interpreter::Interpreter::Run)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::Interpreter::*)(::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&System::Linq::Expressions::Interpreter::Interpreter::Run)> {
   static const MethodInfo* get() {
     static auto* frame = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions.Interpreter", "InterpretedFrame")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::Interpreter*), "Run", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{frame});

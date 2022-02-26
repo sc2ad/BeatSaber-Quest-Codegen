@@ -19,7 +19,7 @@ namespace UnityEngine::U2D {
   struct SpriteBone;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::U2D::SpriteBone, "UnityEngine.U2D", "SpriteBone");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::U2D::SpriteBone, "UnityEngine.U2D", "SpriteBone");
 // Type namespace: UnityEngine.U2D
 namespace UnityEngine::U2D {
   // Size: 0x2C
@@ -32,7 +32,7 @@ namespace UnityEngine::U2D {
   // [NativeHeaderAttribute] Offset: 11A68B8
   // [RequiredByNativeCodeAttribute] Offset: 11A68B8
   // [NativeHeaderAttribute] Offset: 11A68B8
-  struct SpriteBone/*, public System::ValueType*/ {
+  struct SpriteBone/*, public ::System::ValueType*/ {
     public:
     public:
     // [NativeNameAttribute] Offset: 0x11A98C0
@@ -46,16 +46,16 @@ namespace UnityEngine::U2D {
     // private UnityEngine.Vector3 m_Position
     // Size: 0xC
     // Offset: 0x8
-    UnityEngine::Vector3 m_Position;
+    ::UnityEngine::Vector3 m_Position;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // [NativeNameAttribute] Offset: 0x11A9958
     // private UnityEngine.Quaternion m_Rotation
     // Size: 0x10
     // Offset: 0x14
-    UnityEngine::Quaternion m_Rotation;
+    ::UnityEngine::Quaternion m_Rotation;
     // Field size check
-    static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    static_assert(sizeof(::UnityEngine::Quaternion) == 0x10);
     // [NativeNameAttribute] Offset: 0x11A99A4
     // private System.Single m_Length
     // Size: 0x4
@@ -72,17 +72,17 @@ namespace UnityEngine::U2D {
     static_assert(sizeof(int) == 0x4);
     public:
     // Creating value type constructor for type: SpriteBone
-    constexpr SpriteBone(::StringW m_Name_ = {}, UnityEngine::Vector3 m_Position_ = {}, UnityEngine::Quaternion m_Rotation_ = {}, float m_Length_ = {}, int m_ParentId_ = {}) noexcept : m_Name{m_Name_}, m_Position{m_Position_}, m_Rotation{m_Rotation_}, m_Length{m_Length_}, m_ParentId{m_ParentId_} {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    constexpr SpriteBone(::StringW m_Name_ = {}, ::UnityEngine::Vector3 m_Position_ = {}, ::UnityEngine::Quaternion m_Rotation_ = {}, float m_Length_ = {}, int m_ParentId_ = {}) noexcept : m_Name{m_Name_}, m_Position{m_Position_}, m_Rotation{m_Rotation_}, m_Length{m_Length_}, m_ParentId{m_ParentId_} {}
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: private System.String m_Name
     ::StringW& dyn_m_Name();
     // Get instance field reference: private UnityEngine.Vector3 m_Position
-    UnityEngine::Vector3& dyn_m_Position();
+    ::UnityEngine::Vector3& dyn_m_Position();
     // Get instance field reference: private UnityEngine.Quaternion m_Rotation
-    UnityEngine::Quaternion& dyn_m_Rotation();
+    ::UnityEngine::Quaternion& dyn_m_Rotation();
     // Get instance field reference: private System.Single m_Length
     float& dyn_m_Length();
     // Get instance field reference: private System.Int32 m_ParentId

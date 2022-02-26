@@ -51,7 +51,7 @@ namespace System::Threading::Tasks {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(BGNet::Core::Messages::UnconnectedMessageHandler::$SendMessageWithRetryAwaitResponseAsync$d__75_1, "BGNet.Core.Messages", "UnconnectedMessageHandler/<SendMessageWithRetryAwaitResponseAsync>d__75`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::BGNet::Core::Messages::UnconnectedMessageHandler::$SendMessageWithRetryAwaitResponseAsync$d__75_1, "BGNet.Core.Messages", "UnconnectedMessageHandler/<SendMessageWithRetryAwaitResponseAsync>d__75`1");
 // Type namespace: BGNet.Core.Messages
 namespace BGNet::Core::Messages {
   // WARNING Size may be invalid!
@@ -59,7 +59,7 @@ namespace BGNet::Core::Messages {
   // [TokenAttribute] Offset: FFFFFFFF
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   template<typename T>
-  struct UnconnectedMessageHandler::$SendMessageWithRetryAwaitResponseAsync$d__75_1/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
+  struct UnconnectedMessageHandler::$SendMessageWithRetryAwaitResponseAsync$d__75_1/*, public ::System::ValueType, public ::System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
     public:
     // public System.Int32 <>1__state
@@ -71,31 +71,31 @@ namespace BGNet::Core::Messages {
     // public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<T> <>t__builder
     // Size: 0xFFFFFFFF
     // Offset: 0x0
-    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T> $$t__builder;
+    ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T> $$t__builder;
     // public BGNet.Core.Messages.UnconnectedMessageHandler <>4__this
     // Size: 0x8
     // Offset: 0x0
-    BGNet::Core::Messages::UnconnectedMessageHandler* $$4__this;
+    ::BGNet::Core::Messages::UnconnectedMessageHandler* $$4__this;
     // Field size check
-    static_assert(sizeof(BGNet::Core::Messages::UnconnectedMessageHandler*) == 0x8);
+    static_assert(sizeof(::BGNet::Core::Messages::UnconnectedMessageHandler*) == 0x8);
     // public System.Threading.CancellationToken cancellationToken
     // Size: 0x8
     // Offset: 0x0
-    System::Threading::CancellationToken cancellationToken;
+    ::System::Threading::CancellationToken cancellationToken;
     // Field size check
-    static_assert(sizeof(System::Threading::CancellationToken) == 0x8);
+    static_assert(sizeof(::System::Threading::CancellationToken) == 0x8);
     // public System.Net.IPEndPoint remoteEndPoint
     // Size: 0x8
     // Offset: 0x0
-    System::Net::IPEndPoint* remoteEndPoint;
+    ::System::Net::IPEndPoint* remoteEndPoint;
     // Field size check
-    static_assert(sizeof(System::Net::IPEndPoint*) == 0x8);
+    static_assert(sizeof(::System::Net::IPEndPoint*) == 0x8);
     // public BGNet.Core.Messages.IUnconnectedReliableRequest message
     // Size: 0x8
     // Offset: 0x0
-    BGNet::Core::Messages::IUnconnectedReliableRequest* message;
+    ::BGNet::Core::Messages::IUnconnectedReliableRequest* message;
     // Field size check
-    static_assert(sizeof(BGNet::Core::Messages::IUnconnectedReliableRequest*) == 0x8);
+    static_assert(sizeof(::BGNet::Core::Messages::IUnconnectedReliableRequest*) == 0x8);
     // public System.UInt32 protocolVersion
     // Size: 0x4
     // Offset: 0x0
@@ -105,21 +105,21 @@ namespace BGNet::Core::Messages {
     // public System.Func`5<System.UInt32,System.Net.IPEndPoint,BGNet.Core.Messages.IUnconnectedReliableRequest,System.Threading.CancellationToken,System.Threading.Tasks.Task`1<T>> onSendFailedAwaitResponse
     // Size: 0x8
     // Offset: 0x0
-    System::Func_5<uint, System::Net::IPEndPoint*, BGNet::Core::Messages::IUnconnectedReliableRequest*, System::Threading::CancellationToken, System::Threading::Tasks::Task_1<T>*>* onSendFailedAwaitResponse;
+    ::System::Func_5<uint, ::System::Net::IPEndPoint*, ::BGNet::Core::Messages::IUnconnectedReliableRequest*, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<T>*>* onSendFailedAwaitResponse;
     // Field size check
-    static_assert(sizeof(System::Func_5<uint, System::Net::IPEndPoint*, BGNet::Core::Messages::IUnconnectedReliableRequest*, System::Threading::CancellationToken, System::Threading::Tasks::Task_1<T>*>*) == 0x8);
+    static_assert(sizeof(::System::Func_5<uint, ::System::Net::IPEndPoint*, ::BGNet::Core::Messages::IUnconnectedReliableRequest*, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<T>*>*) == 0x8);
     // private BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.RequestResponseWaiter <request>5__2
     // Size: 0x8
     // Offset: 0x0
-    BGNet::Core::Messages::UnconnectedMessageHandler::RequestResponseWaiter* $request$5__2;
+    ::BGNet::Core::Messages::UnconnectedMessageHandler::RequestResponseWaiter* $request$5__2;
     // Field size check
-    static_assert(sizeof(BGNet::Core::Messages::UnconnectedMessageHandler::RequestResponseWaiter*) == 0x8);
+    static_assert(sizeof(::BGNet::Core::Messages::UnconnectedMessageHandler::RequestResponseWaiter*) == 0x8);
     // private BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.RequestWaiterId <waiterId>5__3
     // Size: 0xC
     // Offset: 0x0
-    BGNet::Core::Messages::UnconnectedMessageHandler::RequestWaiterId $waiterId$5__3;
+    ::BGNet::Core::Messages::UnconnectedMessageHandler::RequestWaiterId $waiterId$5__3;
     // Field size check
-    static_assert(sizeof(BGNet::Core::Messages::UnconnectedMessageHandler::RequestWaiterId) == 0xC);
+    static_assert(sizeof(::BGNet::Core::Messages::UnconnectedMessageHandler::RequestWaiterId) == 0xC);
     // private T <tResult>5__4
     // Size: 0xFFFFFFFF
     // Offset: 0x0
@@ -127,139 +127,139 @@ namespace BGNet::Core::Messages {
     // private System.Runtime.CompilerServices.TaskAwaiter <>u__1
     // Size: 0x8
     // Offset: 0x0
-    System::Runtime::CompilerServices::TaskAwaiter $$u__1;
+    ::System::Runtime::CompilerServices::TaskAwaiter $$u__1;
     // Field size check
-    static_assert(sizeof(System::Runtime::CompilerServices::TaskAwaiter) == 0x8);
+    static_assert(sizeof(::System::Runtime::CompilerServices::TaskAwaiter) == 0x8);
     // private System.Runtime.CompilerServices.TaskAwaiter`1<BGNet.Core.Messages.IUnconnectedMessage> <>u__2
     // Size: 0xFFFFFFFF
     // Offset: 0x0
-    System::Runtime::CompilerServices::TaskAwaiter_1<BGNet::Core::Messages::IUnconnectedMessage*> $$u__2;
+    ::System::Runtime::CompilerServices::TaskAwaiter_1<::BGNet::Core::Messages::IUnconnectedMessage*> $$u__2;
     public:
     // Creating value type constructor for type: $SendMessageWithRetryAwaitResponseAsync$d__75_1
-    constexpr $SendMessageWithRetryAwaitResponseAsync$d__75_1(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T> $$t__builder_ = {}, BGNet::Core::Messages::UnconnectedMessageHandler* $$4__this_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, System::Net::IPEndPoint* remoteEndPoint_ = {}, BGNet::Core::Messages::IUnconnectedReliableRequest* message_ = {}, uint protocolVersion_ = {}, System::Func_5<uint, System::Net::IPEndPoint*, BGNet::Core::Messages::IUnconnectedReliableRequest*, System::Threading::CancellationToken, System::Threading::Tasks::Task_1<T>*>* onSendFailedAwaitResponse_ = {}, BGNet::Core::Messages::UnconnectedMessageHandler::RequestResponseWaiter* $request$5__2_ = {}, BGNet::Core::Messages::UnconnectedMessageHandler::RequestWaiterId $waiterId$5__3_ = {}, T $tResult$5__4_ = {}, System::Runtime::CompilerServices::TaskAwaiter $$u__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<BGNet::Core::Messages::IUnconnectedMessage*> $$u__2_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, cancellationToken{cancellationToken_}, remoteEndPoint{remoteEndPoint_}, message{message_}, protocolVersion{protocolVersion_}, onSendFailedAwaitResponse{onSendFailedAwaitResponse_}, $request$5__2{$request$5__2_}, $waiterId$5__3{$waiterId$5__3_}, $tResult$5__4{$tResult$5__4_}, $$u__1{$$u__1_}, $$u__2{$$u__2_} {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    constexpr $SendMessageWithRetryAwaitResponseAsync$d__75_1(int $$1__state_ = {}, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T> $$t__builder_ = {}, ::BGNet::Core::Messages::UnconnectedMessageHandler* $$4__this_ = {}, ::System::Threading::CancellationToken cancellationToken_ = {}, ::System::Net::IPEndPoint* remoteEndPoint_ = {}, ::BGNet::Core::Messages::IUnconnectedReliableRequest* message_ = {}, uint protocolVersion_ = {}, ::System::Func_5<uint, ::System::Net::IPEndPoint*, ::BGNet::Core::Messages::IUnconnectedReliableRequest*, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<T>*>* onSendFailedAwaitResponse_ = {}, ::BGNet::Core::Messages::UnconnectedMessageHandler::RequestResponseWaiter* $request$5__2_ = {}, ::BGNet::Core::Messages::UnconnectedMessageHandler::RequestWaiterId $waiterId$5__3_ = {}, T $tResult$5__4_ = {}, ::System::Runtime::CompilerServices::TaskAwaiter $$u__1_ = {}, ::System::Runtime::CompilerServices::TaskAwaiter_1<::BGNet::Core::Messages::IUnconnectedMessage*> $$u__2_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, cancellationToken{cancellationToken_}, remoteEndPoint{remoteEndPoint_}, message{message_}, protocolVersion{protocolVersion_}, onSendFailedAwaitResponse{onSendFailedAwaitResponse_}, $request$5__2{$request$5__2_}, $waiterId$5__3{$waiterId$5__3_}, $tResult$5__4{$tResult$5__4_}, $$u__1{$$u__1_}, $$u__2{$$u__2_} {}
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
-    // Creating interface conversion operator: operator System::Runtime::CompilerServices::IAsyncStateMachine
-    operator System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
-      return *reinterpret_cast<System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
+    // Creating interface conversion operator: operator ::System::Runtime::CompilerServices::IAsyncStateMachine
+    operator ::System::Runtime::CompilerServices::IAsyncStateMachine() noexcept {
+      return *reinterpret_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(this);
     }
     // Autogenerated instance field getter
     // Get instance field: public System.Int32 <>1__state
     int& dyn_$$1__state() {
-      static auto ___internal__logger = ::Logger::get().WithContext("BGNet::Core::Messages::UnconnectedMessageHandler::$SendMessageWithRetryAwaitResponseAsync$d__75_1::dyn_$$1__state");
+      static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::UnconnectedMessageHandler::$SendMessageWithRetryAwaitResponseAsync$d__75_1::dyn_$$1__state");
       auto ___internal__instance = *this;
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "<>1__state"))->offset;
       return *reinterpret_cast<int*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // Autogenerated instance field getter
     // Get instance field: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<T> <>t__builder
-    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T>& dyn_$$t__builder() {
-      static auto ___internal__logger = ::Logger::get().WithContext("BGNet::Core::Messages::UnconnectedMessageHandler::$SendMessageWithRetryAwaitResponseAsync$d__75_1::dyn_$$t__builder");
+    ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T>& dyn_$$t__builder() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::UnconnectedMessageHandler::$SendMessageWithRetryAwaitResponseAsync$d__75_1::dyn_$$t__builder");
       auto ___internal__instance = *this;
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "<>t__builder"))->offset;
-      return *reinterpret_cast<System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T>*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+      return *reinterpret_cast<::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T>*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // Autogenerated instance field getter
     // Get instance field: public BGNet.Core.Messages.UnconnectedMessageHandler <>4__this
-    BGNet::Core::Messages::UnconnectedMessageHandler*& dyn_$$4__this() {
-      static auto ___internal__logger = ::Logger::get().WithContext("BGNet::Core::Messages::UnconnectedMessageHandler::$SendMessageWithRetryAwaitResponseAsync$d__75_1::dyn_$$4__this");
+    ::BGNet::Core::Messages::UnconnectedMessageHandler*& dyn_$$4__this() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::UnconnectedMessageHandler::$SendMessageWithRetryAwaitResponseAsync$d__75_1::dyn_$$4__this");
       auto ___internal__instance = *this;
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "<>4__this"))->offset;
-      return *reinterpret_cast<BGNet::Core::Messages::UnconnectedMessageHandler**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+      return *reinterpret_cast<::BGNet::Core::Messages::UnconnectedMessageHandler**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // Autogenerated instance field getter
     // Get instance field: public System.Threading.CancellationToken cancellationToken
-    System::Threading::CancellationToken& dyn_cancellationToken() {
-      static auto ___internal__logger = ::Logger::get().WithContext("BGNet::Core::Messages::UnconnectedMessageHandler::$SendMessageWithRetryAwaitResponseAsync$d__75_1::dyn_cancellationToken");
+    ::System::Threading::CancellationToken& dyn_cancellationToken() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::UnconnectedMessageHandler::$SendMessageWithRetryAwaitResponseAsync$d__75_1::dyn_cancellationToken");
       auto ___internal__instance = *this;
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "cancellationToken"))->offset;
-      return *reinterpret_cast<System::Threading::CancellationToken*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+      return *reinterpret_cast<::System::Threading::CancellationToken*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // Autogenerated instance field getter
     // Get instance field: public System.Net.IPEndPoint remoteEndPoint
-    System::Net::IPEndPoint*& dyn_remoteEndPoint() {
-      static auto ___internal__logger = ::Logger::get().WithContext("BGNet::Core::Messages::UnconnectedMessageHandler::$SendMessageWithRetryAwaitResponseAsync$d__75_1::dyn_remoteEndPoint");
+    ::System::Net::IPEndPoint*& dyn_remoteEndPoint() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::UnconnectedMessageHandler::$SendMessageWithRetryAwaitResponseAsync$d__75_1::dyn_remoteEndPoint");
       auto ___internal__instance = *this;
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "remoteEndPoint"))->offset;
-      return *reinterpret_cast<System::Net::IPEndPoint**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+      return *reinterpret_cast<::System::Net::IPEndPoint**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // Autogenerated instance field getter
     // Get instance field: public BGNet.Core.Messages.IUnconnectedReliableRequest message
-    BGNet::Core::Messages::IUnconnectedReliableRequest*& dyn_message() {
-      static auto ___internal__logger = ::Logger::get().WithContext("BGNet::Core::Messages::UnconnectedMessageHandler::$SendMessageWithRetryAwaitResponseAsync$d__75_1::dyn_message");
+    ::BGNet::Core::Messages::IUnconnectedReliableRequest*& dyn_message() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::UnconnectedMessageHandler::$SendMessageWithRetryAwaitResponseAsync$d__75_1::dyn_message");
       auto ___internal__instance = *this;
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "message"))->offset;
-      return *reinterpret_cast<BGNet::Core::Messages::IUnconnectedReliableRequest**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+      return *reinterpret_cast<::BGNet::Core::Messages::IUnconnectedReliableRequest**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // Autogenerated instance field getter
     // Get instance field: public System.UInt32 protocolVersion
     uint& dyn_protocolVersion() {
-      static auto ___internal__logger = ::Logger::get().WithContext("BGNet::Core::Messages::UnconnectedMessageHandler::$SendMessageWithRetryAwaitResponseAsync$d__75_1::dyn_protocolVersion");
+      static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::UnconnectedMessageHandler::$SendMessageWithRetryAwaitResponseAsync$d__75_1::dyn_protocolVersion");
       auto ___internal__instance = *this;
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "protocolVersion"))->offset;
       return *reinterpret_cast<uint*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // Autogenerated instance field getter
     // Get instance field: public System.Func`5<System.UInt32,System.Net.IPEndPoint,BGNet.Core.Messages.IUnconnectedReliableRequest,System.Threading.CancellationToken,System.Threading.Tasks.Task`1<T>> onSendFailedAwaitResponse
-    System::Func_5<uint, System::Net::IPEndPoint*, BGNet::Core::Messages::IUnconnectedReliableRequest*, System::Threading::CancellationToken, System::Threading::Tasks::Task_1<T>*>*& dyn_onSendFailedAwaitResponse() {
-      static auto ___internal__logger = ::Logger::get().WithContext("BGNet::Core::Messages::UnconnectedMessageHandler::$SendMessageWithRetryAwaitResponseAsync$d__75_1::dyn_onSendFailedAwaitResponse");
+    ::System::Func_5<uint, ::System::Net::IPEndPoint*, ::BGNet::Core::Messages::IUnconnectedReliableRequest*, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<T>*>*& dyn_onSendFailedAwaitResponse() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::UnconnectedMessageHandler::$SendMessageWithRetryAwaitResponseAsync$d__75_1::dyn_onSendFailedAwaitResponse");
       auto ___internal__instance = *this;
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "onSendFailedAwaitResponse"))->offset;
-      return *reinterpret_cast<System::Func_5<uint, System::Net::IPEndPoint*, BGNet::Core::Messages::IUnconnectedReliableRequest*, System::Threading::CancellationToken, System::Threading::Tasks::Task_1<T>*>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+      return *reinterpret_cast<::System::Func_5<uint, ::System::Net::IPEndPoint*, ::BGNet::Core::Messages::IUnconnectedReliableRequest*, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<T>*>**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // Autogenerated instance field getter
     // Get instance field: private BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.RequestResponseWaiter <request>5__2
-    BGNet::Core::Messages::UnconnectedMessageHandler::RequestResponseWaiter*& dyn_$request$5__2() {
-      static auto ___internal__logger = ::Logger::get().WithContext("BGNet::Core::Messages::UnconnectedMessageHandler::$SendMessageWithRetryAwaitResponseAsync$d__75_1::dyn_$request$5__2");
+    ::BGNet::Core::Messages::UnconnectedMessageHandler::RequestResponseWaiter*& dyn_$request$5__2() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::UnconnectedMessageHandler::$SendMessageWithRetryAwaitResponseAsync$d__75_1::dyn_$request$5__2");
       auto ___internal__instance = *this;
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "<request>5__2"))->offset;
-      return *reinterpret_cast<BGNet::Core::Messages::UnconnectedMessageHandler::RequestResponseWaiter**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+      return *reinterpret_cast<::BGNet::Core::Messages::UnconnectedMessageHandler::RequestResponseWaiter**>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // Autogenerated instance field getter
     // Get instance field: private BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.RequestWaiterId <waiterId>5__3
-    BGNet::Core::Messages::UnconnectedMessageHandler::RequestWaiterId& dyn_$waiterId$5__3() {
-      static auto ___internal__logger = ::Logger::get().WithContext("BGNet::Core::Messages::UnconnectedMessageHandler::$SendMessageWithRetryAwaitResponseAsync$d__75_1::dyn_$waiterId$5__3");
+    ::BGNet::Core::Messages::UnconnectedMessageHandler::RequestWaiterId& dyn_$waiterId$5__3() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::UnconnectedMessageHandler::$SendMessageWithRetryAwaitResponseAsync$d__75_1::dyn_$waiterId$5__3");
       auto ___internal__instance = *this;
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "<waiterId>5__3"))->offset;
-      return *reinterpret_cast<BGNet::Core::Messages::UnconnectedMessageHandler::RequestWaiterId*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+      return *reinterpret_cast<::BGNet::Core::Messages::UnconnectedMessageHandler::RequestWaiterId*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // Autogenerated instance field getter
     // Get instance field: private T <tResult>5__4
     T& dyn_$tResult$5__4() {
-      static auto ___internal__logger = ::Logger::get().WithContext("BGNet::Core::Messages::UnconnectedMessageHandler::$SendMessageWithRetryAwaitResponseAsync$d__75_1::dyn_$tResult$5__4");
+      static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::UnconnectedMessageHandler::$SendMessageWithRetryAwaitResponseAsync$d__75_1::dyn_$tResult$5__4");
       auto ___internal__instance = *this;
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "<tResult>5__4"))->offset;
       return *reinterpret_cast<T*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // Autogenerated instance field getter
     // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
-    System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__1() {
-      static auto ___internal__logger = ::Logger::get().WithContext("BGNet::Core::Messages::UnconnectedMessageHandler::$SendMessageWithRetryAwaitResponseAsync$d__75_1::dyn_$$u__1");
+    ::System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__1() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::UnconnectedMessageHandler::$SendMessageWithRetryAwaitResponseAsync$d__75_1::dyn_$$u__1");
       auto ___internal__instance = *this;
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "<>u__1"))->offset;
-      return *reinterpret_cast<System::Runtime::CompilerServices::TaskAwaiter*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+      return *reinterpret_cast<::System::Runtime::CompilerServices::TaskAwaiter*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // Autogenerated instance field getter
     // Get instance field: private System.Runtime.CompilerServices.TaskAwaiter`1<BGNet.Core.Messages.IUnconnectedMessage> <>u__2
-    System::Runtime::CompilerServices::TaskAwaiter_1<BGNet::Core::Messages::IUnconnectedMessage*>& dyn_$$u__2() {
-      static auto ___internal__logger = ::Logger::get().WithContext("BGNet::Core::Messages::UnconnectedMessageHandler::$SendMessageWithRetryAwaitResponseAsync$d__75_1::dyn_$$u__2");
+    ::System::Runtime::CompilerServices::TaskAwaiter_1<::BGNet::Core::Messages::IUnconnectedMessage*>& dyn_$$u__2() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::UnconnectedMessageHandler::$SendMessageWithRetryAwaitResponseAsync$d__75_1::dyn_$$u__2");
       auto ___internal__instance = *this;
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "<>u__2"))->offset;
-      return *reinterpret_cast<System::Runtime::CompilerServices::TaskAwaiter_1<BGNet::Core::Messages::IUnconnectedMessage*>*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+      return *reinterpret_cast<::System::Runtime::CompilerServices::TaskAwaiter_1<::BGNet::Core::Messages::IUnconnectedMessage*>*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // private System.Void MoveNext()
     // Offset: 0xFFFFFFFF
     void MoveNext() {
-      static auto ___internal__logger = ::Logger::get().WithContext("BGNet::Core::Messages::UnconnectedMessageHandler::$SendMessageWithRetryAwaitResponseAsync$d__75_1::MoveNext");
+      static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::UnconnectedMessageHandler::$SendMessageWithRetryAwaitResponseAsync$d__75_1::MoveNext");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "MoveNext", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
     // Offset: 0xFFFFFFFF
-    void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-      static auto ___internal__logger = ::Logger::get().WithContext("BGNet::Core::Messages::UnconnectedMessageHandler::$SendMessageWithRetryAwaitResponseAsync$d__75_1::SetStateMachine");
+    void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::UnconnectedMessageHandler::$SendMessageWithRetryAwaitResponseAsync$d__75_1::SetStateMachine");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, "SetStateMachine", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(stateMachine)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, stateMachine);
     }

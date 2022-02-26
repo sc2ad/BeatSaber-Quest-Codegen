@@ -59,8 +59,8 @@ namespace UnityEngine {
   class Camera;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Camera);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Camera*, "UnityEngine", "Camera");
+NEED_NO_BOX(::UnityEngine::Camera);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Camera*, "UnityEngine", "Camera");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -76,26 +76,26 @@ namespace UnityEngine {
   // [RequireComponent] Offset: 11A3B00
   // [NativeHeaderAttribute] Offset: 11A3B00
   // [NativeHeaderAttribute] Offset: 11A3B00
-  class Camera : public UnityEngine::Behaviour {
+  class Camera : public ::UnityEngine::Behaviour {
     public:
-    // Nested type: UnityEngine::Camera::StereoscopicEye
+    // Nested type: ::UnityEngine::Camera::StereoscopicEye
     struct StereoscopicEye;
-    // Nested type: UnityEngine::Camera::MonoOrStereoscopicEye
+    // Nested type: ::UnityEngine::Camera::MonoOrStereoscopicEye
     struct MonoOrStereoscopicEye;
-    // Nested type: UnityEngine::Camera::CameraCallback
+    // Nested type: ::UnityEngine::Camera::CameraCallback
     class CameraCallback;
     // Get static field: static public UnityEngine.Camera/UnityEngine.CameraCallback onPreCull
-    static UnityEngine::Camera::CameraCallback* _get_onPreCull();
+    static ::UnityEngine::Camera::CameraCallback* _get_onPreCull();
     // Set static field: static public UnityEngine.Camera/UnityEngine.CameraCallback onPreCull
-    static void _set_onPreCull(UnityEngine::Camera::CameraCallback* value);
+    static void _set_onPreCull(::UnityEngine::Camera::CameraCallback* value);
     // Get static field: static public UnityEngine.Camera/UnityEngine.CameraCallback onPreRender
-    static UnityEngine::Camera::CameraCallback* _get_onPreRender();
+    static ::UnityEngine::Camera::CameraCallback* _get_onPreRender();
     // Set static field: static public UnityEngine.Camera/UnityEngine.CameraCallback onPreRender
-    static void _set_onPreRender(UnityEngine::Camera::CameraCallback* value);
+    static void _set_onPreRender(::UnityEngine::Camera::CameraCallback* value);
     // Get static field: static public UnityEngine.Camera/UnityEngine.CameraCallback onPostRender
-    static UnityEngine::Camera::CameraCallback* _get_onPostRender();
+    static ::UnityEngine::Camera::CameraCallback* _get_onPostRender();
     // Set static field: static public UnityEngine.Camera/UnityEngine.CameraCallback onPostRender
-    static void _set_onPostRender(UnityEngine::Camera::CameraCallback* value);
+    static void _set_onPostRender(::UnityEngine::Camera::CameraCallback* value);
     // public System.Single get_nearClipPlane()
     // Offset: 0x1EB05FC
     float get_nearClipPlane();
@@ -116,10 +116,10 @@ namespace UnityEngine {
     void set_fieldOfView(float value);
     // public System.Void set_renderingPath(UnityEngine.RenderingPath value)
     // Offset: 0x1EB07AC
-    void set_renderingPath(UnityEngine::RenderingPath value);
+    void set_renderingPath(::UnityEngine::RenderingPath value);
     // public UnityEngine.RenderingPath get_actualRenderingPath()
     // Offset: 0x1EB07FC
-    UnityEngine::RenderingPath get_actualRenderingPath();
+    ::UnityEngine::RenderingPath get_actualRenderingPath();
     // public System.Void set_allowHDR(System.Boolean value)
     // Offset: 0x1EB083C
     void set_allowHDR(bool value);
@@ -164,31 +164,31 @@ namespace UnityEngine {
     void set_useOcclusionCulling(bool value);
     // public UnityEngine.Color get_backgroundColor()
     // Offset: 0x1EB0C4C
-    UnityEngine::Color get_backgroundColor();
+    ::UnityEngine::Color get_backgroundColor();
     // public System.Void set_backgroundColor(UnityEngine.Color value)
     // Offset: 0x1EB0CF8
-    void set_backgroundColor(UnityEngine::Color value);
+    void set_backgroundColor(::UnityEngine::Color value);
     // public UnityEngine.CameraClearFlags get_clearFlags()
     // Offset: 0x1EB0DA0
-    UnityEngine::CameraClearFlags get_clearFlags();
+    ::UnityEngine::CameraClearFlags get_clearFlags();
     // public System.Void set_clearFlags(UnityEngine.CameraClearFlags value)
     // Offset: 0x1EB0DE0
-    void set_clearFlags(UnityEngine::CameraClearFlags value);
+    void set_clearFlags(::UnityEngine::CameraClearFlags value);
     // public UnityEngine.DepthTextureMode get_depthTextureMode()
     // Offset: 0x1EB0E30
-    UnityEngine::DepthTextureMode get_depthTextureMode();
+    ::UnityEngine::DepthTextureMode get_depthTextureMode();
     // public System.Void set_depthTextureMode(UnityEngine.DepthTextureMode value)
     // Offset: 0x1EB0E70
-    void set_depthTextureMode(UnityEngine::DepthTextureMode value);
+    void set_depthTextureMode(::UnityEngine::DepthTextureMode value);
     // public UnityEngine.Rect get_rect()
     // Offset: 0x1EB0EC0
-    UnityEngine::Rect get_rect();
+    ::UnityEngine::Rect get_rect();
     // public System.Void set_rect(UnityEngine.Rect value)
     // Offset: 0x1EB0F6C
-    void set_rect(UnityEngine::Rect value);
+    void set_rect(::UnityEngine::Rect value);
     // public UnityEngine.Rect get_pixelRect()
     // Offset: 0x1EB1014
-    UnityEngine::Rect get_pixelRect();
+    ::UnityEngine::Rect get_pixelRect();
     // public System.Int32 get_pixelWidth()
     // Offset: 0x1EB10C0
     int get_pixelWidth();
@@ -197,10 +197,10 @@ namespace UnityEngine {
     int get_pixelHeight();
     // public UnityEngine.RenderTexture get_targetTexture()
     // Offset: 0x1EB1140
-    UnityEngine::RenderTexture* get_targetTexture();
+    ::UnityEngine::RenderTexture* get_targetTexture();
     // public System.Void set_targetTexture(UnityEngine.RenderTexture value)
     // Offset: 0x1EB1180
-    void set_targetTexture(UnityEngine::RenderTexture* value);
+    void set_targetTexture(::UnityEngine::RenderTexture* value);
     // public System.Int32 get_targetDisplay()
     // Offset: 0x1EB11D0
     int get_targetDisplay();
@@ -209,31 +209,31 @@ namespace UnityEngine {
     void set_targetDisplay(int value);
     // public UnityEngine.Matrix4x4 get_worldToCameraMatrix()
     // Offset: 0x1EB1260
-    UnityEngine::Matrix4x4 get_worldToCameraMatrix();
+    ::UnityEngine::Matrix4x4 get_worldToCameraMatrix();
     // public System.Void set_worldToCameraMatrix(UnityEngine.Matrix4x4 value)
     // Offset: 0x1EB1328
-    void set_worldToCameraMatrix(UnityEngine::Matrix4x4 value);
+    void set_worldToCameraMatrix(::UnityEngine::Matrix4x4 value);
     // public UnityEngine.Matrix4x4 get_projectionMatrix()
     // Offset: 0x1EB13C8
-    UnityEngine::Matrix4x4 get_projectionMatrix();
+    ::UnityEngine::Matrix4x4 get_projectionMatrix();
     // public System.Void set_projectionMatrix(UnityEngine.Matrix4x4 value)
     // Offset: 0x1EB1490
-    void set_projectionMatrix(UnityEngine::Matrix4x4 value);
+    void set_projectionMatrix(::UnityEngine::Matrix4x4 value);
     // static public UnityEngine.Camera get_main()
     // Offset: 0x1EB1BCC
-    static UnityEngine::Camera* get_main();
+    static ::UnityEngine::Camera* get_main();
     // static public UnityEngine.Camera get_current()
     // Offset: 0x1EB1C00
-    static UnityEngine::Camera* get_current();
+    static ::UnityEngine::Camera* get_current();
     // public System.Boolean get_stereoEnabled()
     // Offset: 0x1EB1C34
     bool get_stereoEnabled();
     // public UnityEngine.StereoTargetEyeMask get_stereoTargetEye()
     // Offset: 0x1EB1C74
-    UnityEngine::StereoTargetEyeMask get_stereoTargetEye();
+    ::UnityEngine::StereoTargetEyeMask get_stereoTargetEye();
     // public System.Void set_stereoTargetEye(UnityEngine.StereoTargetEyeMask value)
     // Offset: 0x1EB1CB4
-    void set_stereoTargetEye(UnityEngine::StereoTargetEyeMask value);
+    void set_stereoTargetEye(::UnityEngine::StereoTargetEyeMask value);
     // static public System.Int32 get_allCamerasCount()
     // Offset: 0x1EB1E50
     static int get_allCamerasCount();
@@ -242,130 +242,130 @@ namespace UnityEngine {
     void ResetWorldToCameraMatrix();
     // public UnityEngine.Matrix4x4 CalculateObliqueMatrix(UnityEngine.Vector4 clipPlane)
     // Offset: 0x1EB1570
-    UnityEngine::Matrix4x4 CalculateObliqueMatrix(UnityEngine::Vector4 clipPlane);
+    ::UnityEngine::Matrix4x4 CalculateObliqueMatrix(::UnityEngine::Vector4 clipPlane);
     // public UnityEngine.Vector3 WorldToScreenPoint(UnityEngine.Vector3 position, UnityEngine.Camera/UnityEngine.MonoOrStereoscopicEye eye)
     // Offset: 0x1EB164C
-    UnityEngine::Vector3 WorldToScreenPoint(UnityEngine::Vector3 position, UnityEngine::Camera::MonoOrStereoscopicEye eye);
+    ::UnityEngine::Vector3 WorldToScreenPoint(::UnityEngine::Vector3 position, ::UnityEngine::Camera::MonoOrStereoscopicEye eye);
     // public UnityEngine.Vector3 WorldToViewportPoint(UnityEngine.Vector3 position, UnityEngine.Camera/UnityEngine.MonoOrStereoscopicEye eye)
     // Offset: 0x1EB1730
-    UnityEngine::Vector3 WorldToViewportPoint(UnityEngine::Vector3 position, UnityEngine::Camera::MonoOrStereoscopicEye eye);
+    ::UnityEngine::Vector3 WorldToViewportPoint(::UnityEngine::Vector3 position, ::UnityEngine::Camera::MonoOrStereoscopicEye eye);
     // public UnityEngine.Vector3 ViewportToWorldPoint(UnityEngine.Vector3 position, UnityEngine.Camera/UnityEngine.MonoOrStereoscopicEye eye)
     // Offset: 0x1EB1814
-    UnityEngine::Vector3 ViewportToWorldPoint(UnityEngine::Vector3 position, UnityEngine::Camera::MonoOrStereoscopicEye eye);
+    ::UnityEngine::Vector3 ViewportToWorldPoint(::UnityEngine::Vector3 position, ::UnityEngine::Camera::MonoOrStereoscopicEye eye);
     // public UnityEngine.Vector3 WorldToScreenPoint(UnityEngine.Vector3 position)
     // Offset: 0x1EB18F8
-    UnityEngine::Vector3 WorldToScreenPoint(UnityEngine::Vector3 position);
+    ::UnityEngine::Vector3 WorldToScreenPoint(::UnityEngine::Vector3 position);
     // public UnityEngine.Vector3 WorldToViewportPoint(UnityEngine.Vector3 position)
     // Offset: 0x1EB1900
-    UnityEngine::Vector3 WorldToViewportPoint(UnityEngine::Vector3 position);
+    ::UnityEngine::Vector3 WorldToViewportPoint(::UnityEngine::Vector3 position);
     // public UnityEngine.Vector3 ScreenToViewportPoint(UnityEngine.Vector3 position)
     // Offset: 0x1EB1908
-    UnityEngine::Vector3 ScreenToViewportPoint(UnityEngine::Vector3 position);
+    ::UnityEngine::Vector3 ScreenToViewportPoint(::UnityEngine::Vector3 position);
     // private UnityEngine.Ray ScreenPointToRay(UnityEngine.Vector2 pos, UnityEngine.Camera/UnityEngine.MonoOrStereoscopicEye eye)
     // Offset: 0x1EB19CC
-    UnityEngine::Ray ScreenPointToRay(UnityEngine::Vector2 pos, UnityEngine::Camera::MonoOrStereoscopicEye eye);
+    ::UnityEngine::Ray ScreenPointToRay(::UnityEngine::Vector2 pos, ::UnityEngine::Camera::MonoOrStereoscopicEye eye);
     // public UnityEngine.Ray ScreenPointToRay(UnityEngine.Vector3 pos, UnityEngine.Camera/UnityEngine.MonoOrStereoscopicEye eye)
     // Offset: 0x1EB1AB8
-    UnityEngine::Ray ScreenPointToRay(UnityEngine::Vector3 pos, UnityEngine::Camera::MonoOrStereoscopicEye eye);
+    ::UnityEngine::Ray ScreenPointToRay(::UnityEngine::Vector3 pos, ::UnityEngine::Camera::MonoOrStereoscopicEye eye);
     // public UnityEngine.Ray ScreenPointToRay(UnityEngine.Vector3 pos)
     // Offset: 0x1EB1B88
-    UnityEngine::Ray ScreenPointToRay(UnityEngine::Vector3 pos);
+    ::UnityEngine::Ray ScreenPointToRay(::UnityEngine::Vector3 pos);
     // public UnityEngine.Matrix4x4 GetStereoProjectionMatrix(UnityEngine.Camera/UnityEngine.StereoscopicEye eye)
     // Offset: 0x1EB1D04
-    UnityEngine::Matrix4x4 GetStereoProjectionMatrix(UnityEngine::Camera::StereoscopicEye eye);
+    ::UnityEngine::Matrix4x4 GetStereoProjectionMatrix(::UnityEngine::Camera::StereoscopicEye eye);
     // static private System.Int32 GetAllCamerasCount()
     // Offset: 0x1EB1DDC
     static int GetAllCamerasCount();
     // static private System.Int32 GetAllCamerasImpl(out UnityEngine.Camera[] cam)
     // Offset: 0x1EB1E10
-    static int GetAllCamerasImpl(ByRef<::ArrayW<UnityEngine::Camera*>> cam);
+    static int GetAllCamerasImpl(ByRef<::ArrayW<::UnityEngine::Camera*>> cam);
     // static public System.Int32 GetAllCameras(UnityEngine.Camera[] cameras)
     // Offset: 0x1EB1E84
-    static int GetAllCameras(::ArrayW<UnityEngine::Camera*> cameras);
+    static int GetAllCameras(::ArrayW<::UnityEngine::Camera*> cameras);
     // private System.Boolean RenderToCubemapImpl(UnityEngine.Texture tex, System.Int32 faceMask)
     // Offset: 0x1EB1F78
-    bool RenderToCubemapImpl(UnityEngine::Texture* tex, int faceMask);
+    bool RenderToCubemapImpl(::UnityEngine::Texture* tex, int faceMask);
     // public System.Boolean RenderToCubemap(UnityEngine.RenderTexture cubemap)
     // Offset: 0x1EB1FD0
-    bool RenderToCubemap(UnityEngine::RenderTexture* cubemap);
+    bool RenderToCubemap(::UnityEngine::RenderTexture* cubemap);
     // public System.Void Render()
     // Offset: 0x1EB2024
     void Render();
     // public System.Void RenderWithShader(UnityEngine.Shader shader, System.String replacementTag)
     // Offset: 0x1EB2064
-    void RenderWithShader(UnityEngine::Shader* shader, ::StringW replacementTag);
+    void RenderWithShader(::UnityEngine::Shader* shader, ::StringW replacementTag);
     // public System.Void CopyFrom(UnityEngine.Camera other)
     // Offset: 0x1EB20BC
-    void CopyFrom(UnityEngine::Camera* other);
+    void CopyFrom(::UnityEngine::Camera* other);
     // private System.Void AddCommandBufferImpl(UnityEngine.Rendering.CameraEvent evt, UnityEngine.Rendering.CommandBuffer buffer)
     // Offset: 0x1EB210C
-    void AddCommandBufferImpl(UnityEngine::Rendering::CameraEvent evt, UnityEngine::Rendering::CommandBuffer* buffer);
+    void AddCommandBufferImpl(::UnityEngine::Rendering::CameraEvent evt, ::UnityEngine::Rendering::CommandBuffer* buffer);
     // private System.Void RemoveCommandBufferImpl(UnityEngine.Rendering.CameraEvent evt, UnityEngine.Rendering.CommandBuffer buffer)
     // Offset: 0x1EB2164
-    void RemoveCommandBufferImpl(UnityEngine::Rendering::CameraEvent evt, UnityEngine::Rendering::CommandBuffer* buffer);
+    void RemoveCommandBufferImpl(::UnityEngine::Rendering::CameraEvent evt, ::UnityEngine::Rendering::CommandBuffer* buffer);
     // public System.Void AddCommandBuffer(UnityEngine.Rendering.CameraEvent evt, UnityEngine.Rendering.CommandBuffer buffer)
     // Offset: 0x1EB21BC
-    void AddCommandBuffer(UnityEngine::Rendering::CameraEvent evt, UnityEngine::Rendering::CommandBuffer* buffer);
+    void AddCommandBuffer(::UnityEngine::Rendering::CameraEvent evt, ::UnityEngine::Rendering::CommandBuffer* buffer);
     // public System.Void RemoveCommandBuffer(UnityEngine.Rendering.CameraEvent evt, UnityEngine.Rendering.CommandBuffer buffer)
     // Offset: 0x1EB230C
-    void RemoveCommandBuffer(UnityEngine::Rendering::CameraEvent evt, UnityEngine::Rendering::CommandBuffer* buffer);
+    void RemoveCommandBuffer(::UnityEngine::Rendering::CameraEvent evt, ::UnityEngine::Rendering::CommandBuffer* buffer);
     // static private System.Void FireOnPreCull(UnityEngine.Camera cam)
     // Offset: 0x1EB245C
-    static void FireOnPreCull(UnityEngine::Camera* cam);
+    static void FireOnPreCull(::UnityEngine::Camera* cam);
     // static private System.Void FireOnPreRender(UnityEngine.Camera cam)
     // Offset: 0x1EB2858
-    static void FireOnPreRender(UnityEngine::Camera* cam);
+    static void FireOnPreRender(::UnityEngine::Camera* cam);
     // static private System.Void FireOnPostRender(UnityEngine.Camera cam)
     // Offset: 0x1EB28C0
-    static void FireOnPostRender(UnityEngine::Camera* cam);
+    static void FireOnPostRender(::UnityEngine::Camera* cam);
     // private System.Void get_backgroundColor_Injected(out UnityEngine.Color ret)
     // Offset: 0x1EB0CA8
-    void get_backgroundColor_Injected(ByRef<UnityEngine::Color> ret);
+    void get_backgroundColor_Injected(ByRef<::UnityEngine::Color> ret);
     // private System.Void set_backgroundColor_Injected(ref UnityEngine.Color value)
     // Offset: 0x1EB0D50
-    void set_backgroundColor_Injected(ByRef<UnityEngine::Color> value);
+    void set_backgroundColor_Injected(ByRef<::UnityEngine::Color> value);
     // private System.Void get_rect_Injected(out UnityEngine.Rect ret)
     // Offset: 0x1EB0F1C
-    void get_rect_Injected(ByRef<UnityEngine::Rect> ret);
+    void get_rect_Injected(ByRef<::UnityEngine::Rect> ret);
     // private System.Void set_rect_Injected(ref UnityEngine.Rect value)
     // Offset: 0x1EB0FC4
-    void set_rect_Injected(ByRef<UnityEngine::Rect> value);
+    void set_rect_Injected(ByRef<::UnityEngine::Rect> value);
     // private System.Void get_pixelRect_Injected(out UnityEngine.Rect ret)
     // Offset: 0x1EB1070
-    void get_pixelRect_Injected(ByRef<UnityEngine::Rect> ret);
+    void get_pixelRect_Injected(ByRef<::UnityEngine::Rect> ret);
     // private System.Void get_worldToCameraMatrix_Injected(out UnityEngine.Matrix4x4 ret)
     // Offset: 0x1EB12D8
-    void get_worldToCameraMatrix_Injected(ByRef<UnityEngine::Matrix4x4> ret);
+    void get_worldToCameraMatrix_Injected(ByRef<::UnityEngine::Matrix4x4> ret);
     // private System.Void set_worldToCameraMatrix_Injected(ref UnityEngine.Matrix4x4 value)
     // Offset: 0x1EB1378
-    void set_worldToCameraMatrix_Injected(ByRef<UnityEngine::Matrix4x4> value);
+    void set_worldToCameraMatrix_Injected(ByRef<::UnityEngine::Matrix4x4> value);
     // private System.Void get_projectionMatrix_Injected(out UnityEngine.Matrix4x4 ret)
     // Offset: 0x1EB1440
-    void get_projectionMatrix_Injected(ByRef<UnityEngine::Matrix4x4> ret);
+    void get_projectionMatrix_Injected(ByRef<::UnityEngine::Matrix4x4> ret);
     // private System.Void set_projectionMatrix_Injected(ref UnityEngine.Matrix4x4 value)
     // Offset: 0x1EB14E0
-    void set_projectionMatrix_Injected(ByRef<UnityEngine::Matrix4x4> value);
+    void set_projectionMatrix_Injected(ByRef<::UnityEngine::Matrix4x4> value);
     // private System.Void CalculateObliqueMatrix_Injected(ref UnityEngine.Vector4 clipPlane, out UnityEngine.Matrix4x4 ret)
     // Offset: 0x1EB15F4
-    void CalculateObliqueMatrix_Injected(ByRef<UnityEngine::Vector4> clipPlane, ByRef<UnityEngine::Matrix4x4> ret);
+    void CalculateObliqueMatrix_Injected(ByRef<::UnityEngine::Vector4> clipPlane, ByRef<::UnityEngine::Matrix4x4> ret);
     // private System.Void WorldToScreenPoint_Injected(ref UnityEngine.Vector3 position, UnityEngine.Camera/UnityEngine.MonoOrStereoscopicEye eye, out UnityEngine.Vector3 ret)
     // Offset: 0x1EB16C8
-    void WorldToScreenPoint_Injected(ByRef<UnityEngine::Vector3> position, UnityEngine::Camera::MonoOrStereoscopicEye eye, ByRef<UnityEngine::Vector3> ret);
+    void WorldToScreenPoint_Injected(ByRef<::UnityEngine::Vector3> position, ::UnityEngine::Camera::MonoOrStereoscopicEye eye, ByRef<::UnityEngine::Vector3> ret);
     // private System.Void WorldToViewportPoint_Injected(ref UnityEngine.Vector3 position, UnityEngine.Camera/UnityEngine.MonoOrStereoscopicEye eye, out UnityEngine.Vector3 ret)
     // Offset: 0x1EB17AC
-    void WorldToViewportPoint_Injected(ByRef<UnityEngine::Vector3> position, UnityEngine::Camera::MonoOrStereoscopicEye eye, ByRef<UnityEngine::Vector3> ret);
+    void WorldToViewportPoint_Injected(ByRef<::UnityEngine::Vector3> position, ::UnityEngine::Camera::MonoOrStereoscopicEye eye, ByRef<::UnityEngine::Vector3> ret);
     // private System.Void ViewportToWorldPoint_Injected(ref UnityEngine.Vector3 position, UnityEngine.Camera/UnityEngine.MonoOrStereoscopicEye eye, out UnityEngine.Vector3 ret)
     // Offset: 0x1EB1890
-    void ViewportToWorldPoint_Injected(ByRef<UnityEngine::Vector3> position, UnityEngine::Camera::MonoOrStereoscopicEye eye, ByRef<UnityEngine::Vector3> ret);
+    void ViewportToWorldPoint_Injected(ByRef<::UnityEngine::Vector3> position, ::UnityEngine::Camera::MonoOrStereoscopicEye eye, ByRef<::UnityEngine::Vector3> ret);
     // private System.Void ScreenToViewportPoint_Injected(ref UnityEngine.Vector3 position, out UnityEngine.Vector3 ret)
     // Offset: 0x1EB1974
-    void ScreenToViewportPoint_Injected(ByRef<UnityEngine::Vector3> position, ByRef<UnityEngine::Vector3> ret);
+    void ScreenToViewportPoint_Injected(ByRef<::UnityEngine::Vector3> position, ByRef<::UnityEngine::Vector3> ret);
     // private System.Void ScreenPointToRay_Injected(ref UnityEngine.Vector2 pos, UnityEngine.Camera/UnityEngine.MonoOrStereoscopicEye eye, out UnityEngine.Ray ret)
     // Offset: 0x1EB1A50
-    void ScreenPointToRay_Injected(ByRef<UnityEngine::Vector2> pos, UnityEngine::Camera::MonoOrStereoscopicEye eye, ByRef<UnityEngine::Ray> ret);
+    void ScreenPointToRay_Injected(ByRef<::UnityEngine::Vector2> pos, ::UnityEngine::Camera::MonoOrStereoscopicEye eye, ByRef<::UnityEngine::Ray> ret);
     // private System.Void GetStereoProjectionMatrix_Injected(UnityEngine.Camera/UnityEngine.StereoscopicEye eye, out UnityEngine.Matrix4x4 ret)
     // Offset: 0x1EB1D84
-    void GetStereoProjectionMatrix_Injected(UnityEngine::Camera::StereoscopicEye eye, ByRef<UnityEngine::Matrix4x4> ret);
+    void GetStereoProjectionMatrix_Injected(::UnityEngine::Camera::StereoscopicEye eye, ByRef<::UnityEngine::Matrix4x4> ret);
     // public System.Void .ctor()
     // Offset: 0x1EB2928
     // Implemented from: UnityEngine.Behaviour
@@ -375,7 +375,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Camera* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Camera::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Camera::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Camera*, creationType>()));
     }
   }; // UnityEngine.Camera
@@ -436,7 +436,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Camera::set_renderingPath
 // Il2CppName: set_renderingPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(UnityEngine::RenderingPath)>(&UnityEngine::Camera::set_renderingPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(::UnityEngine::RenderingPath)>(&UnityEngine::Camera::set_renderingPath)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderingPath")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "set_renderingPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -445,7 +445,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Camera::get_actualRenderingPath
 // Il2CppName: get_actualRenderingPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderingPath (UnityEngine::Camera::*)()>(&UnityEngine::Camera::get_actualRenderingPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RenderingPath (UnityEngine::Camera::*)()>(&UnityEngine::Camera::get_actualRenderingPath)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "get_actualRenderingPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -574,7 +574,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Camera::get_backgroundColor
 // Il2CppName: get_backgroundColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (UnityEngine::Camera::*)()>(&UnityEngine::Camera::get_backgroundColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (UnityEngine::Camera::*)()>(&UnityEngine::Camera::get_backgroundColor)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "get_backgroundColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -582,7 +582,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Camera::set_backgroundColor
 // Il2CppName: set_backgroundColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(UnityEngine::Color)>(&UnityEngine::Camera::set_backgroundColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(::UnityEngine::Color)>(&UnityEngine::Camera::set_backgroundColor)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "set_backgroundColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -591,7 +591,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Camera::get_clearFlags
 // Il2CppName: get_clearFlags
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::CameraClearFlags (UnityEngine::Camera::*)()>(&UnityEngine::Camera::get_clearFlags)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::CameraClearFlags (UnityEngine::Camera::*)()>(&UnityEngine::Camera::get_clearFlags)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "get_clearFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -599,7 +599,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Camera::set_clearFlags
 // Il2CppName: set_clearFlags
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(UnityEngine::CameraClearFlags)>(&UnityEngine::Camera::set_clearFlags)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(::UnityEngine::CameraClearFlags)>(&UnityEngine::Camera::set_clearFlags)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "CameraClearFlags")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "set_clearFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -608,7 +608,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Camera::get_depthTextureMode
 // Il2CppName: get_depthTextureMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::DepthTextureMode (UnityEngine::Camera::*)()>(&UnityEngine::Camera::get_depthTextureMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::DepthTextureMode (UnityEngine::Camera::*)()>(&UnityEngine::Camera::get_depthTextureMode)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "get_depthTextureMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -616,7 +616,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Camera::set_depthTextureMode
 // Il2CppName: set_depthTextureMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(UnityEngine::DepthTextureMode)>(&UnityEngine::Camera::set_depthTextureMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(::UnityEngine::DepthTextureMode)>(&UnityEngine::Camera::set_depthTextureMode)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "DepthTextureMode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "set_depthTextureMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -625,7 +625,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Camera::get_rect
 // Il2CppName: get_rect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (UnityEngine::Camera::*)()>(&UnityEngine::Camera::get_rect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rect (UnityEngine::Camera::*)()>(&UnityEngine::Camera::get_rect)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "get_rect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -633,7 +633,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Camera::set_rect
 // Il2CppName: set_rect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(UnityEngine::Rect)>(&UnityEngine::Camera::set_rect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(::UnityEngine::Rect)>(&UnityEngine::Camera::set_rect)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "set_rect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -642,7 +642,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Camera::get_pixelRect
 // Il2CppName: get_pixelRect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (UnityEngine::Camera::*)()>(&UnityEngine::Camera::get_pixelRect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rect (UnityEngine::Camera::*)()>(&UnityEngine::Camera::get_pixelRect)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "get_pixelRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -666,7 +666,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::Camera::get_targetTexture
 // Il2CppName: get_targetTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderTexture* (UnityEngine::Camera::*)()>(&UnityEngine::Camera::get_targetTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RenderTexture* (UnityEngine::Camera::*)()>(&UnityEngine::Camera::get_targetTexture)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "get_targetTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -674,7 +674,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Camera::set_targetTexture
 // Il2CppName: set_targetTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(UnityEngine::RenderTexture*)>(&UnityEngine::Camera::set_targetTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(::UnityEngine::RenderTexture*)>(&UnityEngine::Camera::set_targetTexture)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "set_targetTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -700,7 +700,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Camera::get_worldToCameraMatrix
 // Il2CppName: get_worldToCameraMatrix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (UnityEngine::Camera::*)()>(&UnityEngine::Camera::get_worldToCameraMatrix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Matrix4x4 (UnityEngine::Camera::*)()>(&UnityEngine::Camera::get_worldToCameraMatrix)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "get_worldToCameraMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -708,7 +708,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Camera::set_worldToCameraMatrix
 // Il2CppName: set_worldToCameraMatrix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(UnityEngine::Matrix4x4)>(&UnityEngine::Camera::set_worldToCameraMatrix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(::UnityEngine::Matrix4x4)>(&UnityEngine::Camera::set_worldToCameraMatrix)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "set_worldToCameraMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -717,7 +717,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Camera::get_projectionMatrix
 // Il2CppName: get_projectionMatrix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (UnityEngine::Camera::*)()>(&UnityEngine::Camera::get_projectionMatrix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Matrix4x4 (UnityEngine::Camera::*)()>(&UnityEngine::Camera::get_projectionMatrix)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "get_projectionMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -725,7 +725,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Camera::set_projectionMatrix
 // Il2CppName: set_projectionMatrix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(UnityEngine::Matrix4x4)>(&UnityEngine::Camera::set_projectionMatrix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(::UnityEngine::Matrix4x4)>(&UnityEngine::Camera::set_projectionMatrix)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "set_projectionMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -734,7 +734,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Camera::get_main
 // Il2CppName: get_main
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Camera* (*)()>(&UnityEngine::Camera::get_main)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Camera* (*)()>(&UnityEngine::Camera::get_main)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "get_main", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -742,7 +742,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Camera::get_current
 // Il2CppName: get_current
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Camera* (*)()>(&UnityEngine::Camera::get_current)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Camera* (*)()>(&UnityEngine::Camera::get_current)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "get_current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -758,7 +758,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::Camera::get_stereoTargetEye
 // Il2CppName: get_stereoTargetEye
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::StereoTargetEyeMask (UnityEngine::Camera::*)()>(&UnityEngine::Camera::get_stereoTargetEye)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::StereoTargetEyeMask (UnityEngine::Camera::*)()>(&UnityEngine::Camera::get_stereoTargetEye)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "get_stereoTargetEye", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -766,7 +766,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Camera::set_stereoTargetEye
 // Il2CppName: set_stereoTargetEye
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(UnityEngine::StereoTargetEyeMask)>(&UnityEngine::Camera::set_stereoTargetEye)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(::UnityEngine::StereoTargetEyeMask)>(&UnityEngine::Camera::set_stereoTargetEye)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "StereoTargetEyeMask")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "set_stereoTargetEye", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -791,7 +791,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Camera::CalculateObliqueMatrix
 // Il2CppName: CalculateObliqueMatrix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (UnityEngine::Camera::*)(UnityEngine::Vector4)>(&UnityEngine::Camera::CalculateObliqueMatrix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Matrix4x4 (UnityEngine::Camera::*)(::UnityEngine::Vector4)>(&UnityEngine::Camera::CalculateObliqueMatrix)> {
   static const MethodInfo* get() {
     static auto* clipPlane = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "CalculateObliqueMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clipPlane});
@@ -800,7 +800,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Camera::WorldToScreenPoint
 // Il2CppName: WorldToScreenPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Camera::*)(UnityEngine::Vector3, UnityEngine::Camera::MonoOrStereoscopicEye)>(&UnityEngine::Camera::WorldToScreenPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (UnityEngine::Camera::*)(::UnityEngine::Vector3, ::UnityEngine::Camera::MonoOrStereoscopicEye)>(&UnityEngine::Camera::WorldToScreenPoint)> {
   static const MethodInfo* get() {
     static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* eye = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera/MonoOrStereoscopicEye")->byval_arg;
@@ -810,7 +810,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Camera::WorldToViewportPoint
 // Il2CppName: WorldToViewportPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Camera::*)(UnityEngine::Vector3, UnityEngine::Camera::MonoOrStereoscopicEye)>(&UnityEngine::Camera::WorldToViewportPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (UnityEngine::Camera::*)(::UnityEngine::Vector3, ::UnityEngine::Camera::MonoOrStereoscopicEye)>(&UnityEngine::Camera::WorldToViewportPoint)> {
   static const MethodInfo* get() {
     static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* eye = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera/MonoOrStereoscopicEye")->byval_arg;
@@ -820,7 +820,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Camera::ViewportToWorldPoint
 // Il2CppName: ViewportToWorldPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Camera::*)(UnityEngine::Vector3, UnityEngine::Camera::MonoOrStereoscopicEye)>(&UnityEngine::Camera::ViewportToWorldPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (UnityEngine::Camera::*)(::UnityEngine::Vector3, ::UnityEngine::Camera::MonoOrStereoscopicEye)>(&UnityEngine::Camera::ViewportToWorldPoint)> {
   static const MethodInfo* get() {
     static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* eye = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera/MonoOrStereoscopicEye")->byval_arg;
@@ -830,7 +830,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Camera::WorldToScreenPoint
 // Il2CppName: WorldToScreenPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Camera::*)(UnityEngine::Vector3)>(&UnityEngine::Camera::WorldToScreenPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (UnityEngine::Camera::*)(::UnityEngine::Vector3)>(&UnityEngine::Camera::WorldToScreenPoint)> {
   static const MethodInfo* get() {
     static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "WorldToScreenPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position});
@@ -839,7 +839,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Camera::WorldToViewportPoint
 // Il2CppName: WorldToViewportPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Camera::*)(UnityEngine::Vector3)>(&UnityEngine::Camera::WorldToViewportPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (UnityEngine::Camera::*)(::UnityEngine::Vector3)>(&UnityEngine::Camera::WorldToViewportPoint)> {
   static const MethodInfo* get() {
     static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "WorldToViewportPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position});
@@ -848,7 +848,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Camera::ScreenToViewportPoint
 // Il2CppName: ScreenToViewportPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Camera::*)(UnityEngine::Vector3)>(&UnityEngine::Camera::ScreenToViewportPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (UnityEngine::Camera::*)(::UnityEngine::Vector3)>(&UnityEngine::Camera::ScreenToViewportPoint)> {
   static const MethodInfo* get() {
     static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "ScreenToViewportPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position});
@@ -857,7 +857,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Camera::ScreenPointToRay
 // Il2CppName: ScreenPointToRay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Ray (UnityEngine::Camera::*)(UnityEngine::Vector2, UnityEngine::Camera::MonoOrStereoscopicEye)>(&UnityEngine::Camera::ScreenPointToRay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Ray (UnityEngine::Camera::*)(::UnityEngine::Vector2, ::UnityEngine::Camera::MonoOrStereoscopicEye)>(&UnityEngine::Camera::ScreenPointToRay)> {
   static const MethodInfo* get() {
     static auto* pos = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     static auto* eye = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera/MonoOrStereoscopicEye")->byval_arg;
@@ -867,7 +867,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Camera::ScreenPointToRay
 // Il2CppName: ScreenPointToRay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Ray (UnityEngine::Camera::*)(UnityEngine::Vector3, UnityEngine::Camera::MonoOrStereoscopicEye)>(&UnityEngine::Camera::ScreenPointToRay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Ray (UnityEngine::Camera::*)(::UnityEngine::Vector3, ::UnityEngine::Camera::MonoOrStereoscopicEye)>(&UnityEngine::Camera::ScreenPointToRay)> {
   static const MethodInfo* get() {
     static auto* pos = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* eye = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera/MonoOrStereoscopicEye")->byval_arg;
@@ -877,7 +877,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Camera::ScreenPointToRay
 // Il2CppName: ScreenPointToRay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Ray (UnityEngine::Camera::*)(UnityEngine::Vector3)>(&UnityEngine::Camera::ScreenPointToRay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Ray (UnityEngine::Camera::*)(::UnityEngine::Vector3)>(&UnityEngine::Camera::ScreenPointToRay)> {
   static const MethodInfo* get() {
     static auto* pos = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "ScreenPointToRay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pos});
@@ -886,7 +886,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Camera::GetStereoProjectionMatrix
 // Il2CppName: GetStereoProjectionMatrix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (UnityEngine::Camera::*)(UnityEngine::Camera::StereoscopicEye)>(&UnityEngine::Camera::GetStereoProjectionMatrix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Matrix4x4 (UnityEngine::Camera::*)(::UnityEngine::Camera::StereoscopicEye)>(&UnityEngine::Camera::GetStereoProjectionMatrix)> {
   static const MethodInfo* get() {
     static auto* eye = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera/StereoscopicEye")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "GetStereoProjectionMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eye});
@@ -903,7 +903,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(
 // Writing MetadataGetter for method: UnityEngine::Camera::GetAllCamerasImpl
 // Il2CppName: GetAllCamerasImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(ByRef<::ArrayW<UnityEngine::Camera*>>)>(&UnityEngine::Camera::GetAllCamerasImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(ByRef<::ArrayW<::UnityEngine::Camera*>>)>(&UnityEngine::Camera::GetAllCamerasImpl)> {
   static const MethodInfo* get() {
     static auto* cam = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Camera"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "GetAllCamerasImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cam});
@@ -912,7 +912,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(ByR
 // Writing MetadataGetter for method: UnityEngine::Camera::GetAllCameras
 // Il2CppName: GetAllCameras
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayW<UnityEngine::Camera*>)>(&UnityEngine::Camera::GetAllCameras)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayW<::UnityEngine::Camera*>)>(&UnityEngine::Camera::GetAllCameras)> {
   static const MethodInfo* get() {
     static auto* cameras = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Camera"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "GetAllCameras", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cameras});
@@ -921,7 +921,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::A
 // Writing MetadataGetter for method: UnityEngine::Camera::RenderToCubemapImpl
 // Il2CppName: RenderToCubemapImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Camera::*)(UnityEngine::Texture*, int)>(&UnityEngine::Camera::RenderToCubemapImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Camera::*)(::UnityEngine::Texture*, int)>(&UnityEngine::Camera::RenderToCubemapImpl)> {
   static const MethodInfo* get() {
     static auto* tex = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
     static auto* faceMask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -931,7 +931,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::Camera::RenderToCubemap
 // Il2CppName: RenderToCubemap
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Camera::*)(UnityEngine::RenderTexture*)>(&UnityEngine::Camera::RenderToCubemap)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Camera::*)(::UnityEngine::RenderTexture*)>(&UnityEngine::Camera::RenderToCubemap)> {
   static const MethodInfo* get() {
     static auto* cubemap = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "RenderToCubemap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cubemap});
@@ -948,7 +948,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Camera::RenderWithShader
 // Il2CppName: RenderWithShader
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(UnityEngine::Shader*, ::StringW)>(&UnityEngine::Camera::RenderWithShader)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(::UnityEngine::Shader*, ::StringW)>(&UnityEngine::Camera::RenderWithShader)> {
   static const MethodInfo* get() {
     static auto* shader = &::il2cpp_utils::GetClassFromName("UnityEngine", "Shader")->byval_arg;
     static auto* replacementTag = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -958,7 +958,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Camera::CopyFrom
 // Il2CppName: CopyFrom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(UnityEngine::Camera*)>(&UnityEngine::Camera::CopyFrom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(::UnityEngine::Camera*)>(&UnityEngine::Camera::CopyFrom)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "CopyFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
@@ -967,7 +967,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Camera::AddCommandBufferImpl
 // Il2CppName: AddCommandBufferImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(UnityEngine::Rendering::CameraEvent, UnityEngine::Rendering::CommandBuffer*)>(&UnityEngine::Camera::AddCommandBufferImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(::UnityEngine::Rendering::CameraEvent, ::UnityEngine::Rendering::CommandBuffer*)>(&UnityEngine::Camera::AddCommandBufferImpl)> {
   static const MethodInfo* get() {
     static auto* evt = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "CameraEvent")->byval_arg;
     static auto* buffer = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "CommandBuffer")->byval_arg;
@@ -977,7 +977,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Camera::RemoveCommandBufferImpl
 // Il2CppName: RemoveCommandBufferImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(UnityEngine::Rendering::CameraEvent, UnityEngine::Rendering::CommandBuffer*)>(&UnityEngine::Camera::RemoveCommandBufferImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(::UnityEngine::Rendering::CameraEvent, ::UnityEngine::Rendering::CommandBuffer*)>(&UnityEngine::Camera::RemoveCommandBufferImpl)> {
   static const MethodInfo* get() {
     static auto* evt = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "CameraEvent")->byval_arg;
     static auto* buffer = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "CommandBuffer")->byval_arg;
@@ -987,7 +987,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Camera::AddCommandBuffer
 // Il2CppName: AddCommandBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(UnityEngine::Rendering::CameraEvent, UnityEngine::Rendering::CommandBuffer*)>(&UnityEngine::Camera::AddCommandBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(::UnityEngine::Rendering::CameraEvent, ::UnityEngine::Rendering::CommandBuffer*)>(&UnityEngine::Camera::AddCommandBuffer)> {
   static const MethodInfo* get() {
     static auto* evt = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "CameraEvent")->byval_arg;
     static auto* buffer = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "CommandBuffer")->byval_arg;
@@ -997,7 +997,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Camera::RemoveCommandBuffer
 // Il2CppName: RemoveCommandBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(UnityEngine::Rendering::CameraEvent, UnityEngine::Rendering::CommandBuffer*)>(&UnityEngine::Camera::RemoveCommandBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(::UnityEngine::Rendering::CameraEvent, ::UnityEngine::Rendering::CommandBuffer*)>(&UnityEngine::Camera::RemoveCommandBuffer)> {
   static const MethodInfo* get() {
     static auto* evt = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "CameraEvent")->byval_arg;
     static auto* buffer = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "CommandBuffer")->byval_arg;
@@ -1007,7 +1007,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Camera::FireOnPreCull
 // Il2CppName: FireOnPreCull
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Camera*)>(&UnityEngine::Camera::FireOnPreCull)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Camera*)>(&UnityEngine::Camera::FireOnPreCull)> {
   static const MethodInfo* get() {
     static auto* cam = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "FireOnPreCull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cam});
@@ -1016,7 +1016,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Camera::FireOnPreRender
 // Il2CppName: FireOnPreRender
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Camera*)>(&UnityEngine::Camera::FireOnPreRender)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Camera*)>(&UnityEngine::Camera::FireOnPreRender)> {
   static const MethodInfo* get() {
     static auto* cam = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "FireOnPreRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cam});
@@ -1025,7 +1025,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Camera::FireOnPostRender
 // Il2CppName: FireOnPostRender
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Camera*)>(&UnityEngine::Camera::FireOnPostRender)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Camera*)>(&UnityEngine::Camera::FireOnPostRender)> {
   static const MethodInfo* get() {
     static auto* cam = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "FireOnPostRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cam});
@@ -1034,7 +1034,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Camera::get_backgroundColor_Injected
 // Il2CppName: get_backgroundColor_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(ByRef<UnityEngine::Color>)>(&UnityEngine::Camera::get_backgroundColor_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(ByRef<::UnityEngine::Color>)>(&UnityEngine::Camera::get_backgroundColor_Injected)> {
   static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "get_backgroundColor_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
@@ -1043,7 +1043,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Camera::set_backgroundColor_Injected
 // Il2CppName: set_backgroundColor_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(ByRef<UnityEngine::Color>)>(&UnityEngine::Camera::set_backgroundColor_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(ByRef<::UnityEngine::Color>)>(&UnityEngine::Camera::set_backgroundColor_Injected)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "set_backgroundColor_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1052,7 +1052,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Camera::get_rect_Injected
 // Il2CppName: get_rect_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(ByRef<UnityEngine::Rect>)>(&UnityEngine::Camera::get_rect_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(ByRef<::UnityEngine::Rect>)>(&UnityEngine::Camera::get_rect_Injected)> {
   static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "get_rect_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
@@ -1061,7 +1061,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Camera::set_rect_Injected
 // Il2CppName: set_rect_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(ByRef<UnityEngine::Rect>)>(&UnityEngine::Camera::set_rect_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(ByRef<::UnityEngine::Rect>)>(&UnityEngine::Camera::set_rect_Injected)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "set_rect_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1070,7 +1070,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Camera::get_pixelRect_Injected
 // Il2CppName: get_pixelRect_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(ByRef<UnityEngine::Rect>)>(&UnityEngine::Camera::get_pixelRect_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(ByRef<::UnityEngine::Rect>)>(&UnityEngine::Camera::get_pixelRect_Injected)> {
   static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "get_pixelRect_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
@@ -1079,7 +1079,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Camera::get_worldToCameraMatrix_Injected
 // Il2CppName: get_worldToCameraMatrix_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(ByRef<UnityEngine::Matrix4x4>)>(&UnityEngine::Camera::get_worldToCameraMatrix_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(ByRef<::UnityEngine::Matrix4x4>)>(&UnityEngine::Camera::get_worldToCameraMatrix_Injected)> {
   static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "get_worldToCameraMatrix_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
@@ -1088,7 +1088,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Camera::set_worldToCameraMatrix_Injected
 // Il2CppName: set_worldToCameraMatrix_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(ByRef<UnityEngine::Matrix4x4>)>(&UnityEngine::Camera::set_worldToCameraMatrix_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(ByRef<::UnityEngine::Matrix4x4>)>(&UnityEngine::Camera::set_worldToCameraMatrix_Injected)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "set_worldToCameraMatrix_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1097,7 +1097,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Camera::get_projectionMatrix_Injected
 // Il2CppName: get_projectionMatrix_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(ByRef<UnityEngine::Matrix4x4>)>(&UnityEngine::Camera::get_projectionMatrix_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(ByRef<::UnityEngine::Matrix4x4>)>(&UnityEngine::Camera::get_projectionMatrix_Injected)> {
   static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "get_projectionMatrix_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
@@ -1106,7 +1106,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Camera::set_projectionMatrix_Injected
 // Il2CppName: set_projectionMatrix_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(ByRef<UnityEngine::Matrix4x4>)>(&UnityEngine::Camera::set_projectionMatrix_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(ByRef<::UnityEngine::Matrix4x4>)>(&UnityEngine::Camera::set_projectionMatrix_Injected)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "set_projectionMatrix_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1115,7 +1115,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Camera::CalculateObliqueMatrix_Injected
 // Il2CppName: CalculateObliqueMatrix_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(ByRef<UnityEngine::Vector4>, ByRef<UnityEngine::Matrix4x4>)>(&UnityEngine::Camera::CalculateObliqueMatrix_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(ByRef<::UnityEngine::Vector4>, ByRef<::UnityEngine::Matrix4x4>)>(&UnityEngine::Camera::CalculateObliqueMatrix_Injected)> {
   static const MethodInfo* get() {
     static auto* clipPlane = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->this_arg;
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->this_arg;
@@ -1125,7 +1125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Camera::WorldToScreenPoint_Injected
 // Il2CppName: WorldToScreenPoint_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(ByRef<UnityEngine::Vector3>, UnityEngine::Camera::MonoOrStereoscopicEye, ByRef<UnityEngine::Vector3>)>(&UnityEngine::Camera::WorldToScreenPoint_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(ByRef<::UnityEngine::Vector3>, ::UnityEngine::Camera::MonoOrStereoscopicEye, ByRef<::UnityEngine::Vector3>)>(&UnityEngine::Camera::WorldToScreenPoint_Injected)> {
   static const MethodInfo* get() {
     static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     static auto* eye = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera/MonoOrStereoscopicEye")->byval_arg;
@@ -1136,7 +1136,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Camera::WorldToViewportPoint_Injected
 // Il2CppName: WorldToViewportPoint_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(ByRef<UnityEngine::Vector3>, UnityEngine::Camera::MonoOrStereoscopicEye, ByRef<UnityEngine::Vector3>)>(&UnityEngine::Camera::WorldToViewportPoint_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(ByRef<::UnityEngine::Vector3>, ::UnityEngine::Camera::MonoOrStereoscopicEye, ByRef<::UnityEngine::Vector3>)>(&UnityEngine::Camera::WorldToViewportPoint_Injected)> {
   static const MethodInfo* get() {
     static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     static auto* eye = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera/MonoOrStereoscopicEye")->byval_arg;
@@ -1147,7 +1147,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Camera::ViewportToWorldPoint_Injected
 // Il2CppName: ViewportToWorldPoint_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(ByRef<UnityEngine::Vector3>, UnityEngine::Camera::MonoOrStereoscopicEye, ByRef<UnityEngine::Vector3>)>(&UnityEngine::Camera::ViewportToWorldPoint_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(ByRef<::UnityEngine::Vector3>, ::UnityEngine::Camera::MonoOrStereoscopicEye, ByRef<::UnityEngine::Vector3>)>(&UnityEngine::Camera::ViewportToWorldPoint_Injected)> {
   static const MethodInfo* get() {
     static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     static auto* eye = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera/MonoOrStereoscopicEye")->byval_arg;
@@ -1158,7 +1158,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Camera::ScreenToViewportPoint_Injected
 // Il2CppName: ScreenToViewportPoint_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(ByRef<UnityEngine::Vector3>, ByRef<UnityEngine::Vector3>)>(&UnityEngine::Camera::ScreenToViewportPoint_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(ByRef<::UnityEngine::Vector3>, ByRef<::UnityEngine::Vector3>)>(&UnityEngine::Camera::ScreenToViewportPoint_Injected)> {
   static const MethodInfo* get() {
     static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
@@ -1168,7 +1168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Camera::ScreenPointToRay_Injected
 // Il2CppName: ScreenPointToRay_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(ByRef<UnityEngine::Vector2>, UnityEngine::Camera::MonoOrStereoscopicEye, ByRef<UnityEngine::Ray>)>(&UnityEngine::Camera::ScreenPointToRay_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(ByRef<::UnityEngine::Vector2>, ::UnityEngine::Camera::MonoOrStereoscopicEye, ByRef<::UnityEngine::Ray>)>(&UnityEngine::Camera::ScreenPointToRay_Injected)> {
   static const MethodInfo* get() {
     static auto* pos = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->this_arg;
     static auto* eye = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera/MonoOrStereoscopicEye")->byval_arg;
@@ -1179,7 +1179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Camera::GetStereoProjectionMatrix_Injected
 // Il2CppName: GetStereoProjectionMatrix_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(UnityEngine::Camera::StereoscopicEye, ByRef<UnityEngine::Matrix4x4>)>(&UnityEngine::Camera::GetStereoProjectionMatrix_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(::UnityEngine::Camera::StereoscopicEye, ByRef<::UnityEngine::Matrix4x4>)>(&UnityEngine::Camera::GetStereoProjectionMatrix_Injected)> {
   static const MethodInfo* get() {
     static auto* eye = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera/StereoscopicEye")->byval_arg;
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->this_arg;

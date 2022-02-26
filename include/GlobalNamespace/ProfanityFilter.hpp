@@ -28,8 +28,8 @@ namespace GlobalNamespace {
   class ProfanityFilter;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::ProfanityFilter);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ProfanityFilter*, "", "ProfanityFilter");
+NEED_NO_BOX(::GlobalNamespace::ProfanityFilter);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ProfanityFilter*, "", "ProfanityFilter");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -38,9 +38,9 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ProfanityFilter : public ::Il2CppObject {
     public:
-    // Nested type: GlobalNamespace::ProfanityFilter::TrieNode
+    // Nested type: ::GlobalNamespace::ProfanityFilter::TrieNode
     class TrieNode;
-    // Nested type: GlobalNamespace::ProfanityFilter::$GetLookalikeLetters$d__4
+    // Nested type: ::GlobalNamespace::ProfanityFilter::$GetLookalikeLetters$d__4
     class $GetLookalikeLetters$d__4;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -54,21 +54,21 @@ namespace GlobalNamespace {
     // private readonly ProfanityFilter/TrieNode _trie
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::ProfanityFilter::TrieNode* trie;
+    ::GlobalNamespace::ProfanityFilter::TrieNode* trie;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::ProfanityFilter::TrieNode*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::ProfanityFilter::TrieNode*) == 0x8);
     public:
-    // Creating conversion operator: operator GlobalNamespace::ProfanityFilter::TrieNode*
-    constexpr operator GlobalNamespace::ProfanityFilter::TrieNode*() const noexcept {
+    // Creating conversion operator: operator ::GlobalNamespace::ProfanityFilter::TrieNode*
+    constexpr operator ::GlobalNamespace::ProfanityFilter::TrieNode*() const noexcept {
       return trie;
     }
     // Get instance field reference: private readonly ProfanityFilter/TrieNode _trie
-    GlobalNamespace::ProfanityFilter::TrieNode*& dyn__trie();
+    ::GlobalNamespace::ProfanityFilter::TrieNode*& dyn__trie();
     // public System.Void .ctor(System.Collections.Generic.IEnumerable`1<System.String> wordList)
     // Offset: 0x2E010A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ProfanityFilter* New_ctor(System::Collections::Generic::IEnumerable_1<::StringW>* wordList) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ProfanityFilter::.ctor");
+    static ProfanityFilter* New_ctor(::System::Collections::Generic::IEnumerable_1<::StringW>* wordList) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ProfanityFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProfanityFilter*, creationType>(wordList)));
     }
     // public System.Boolean IsProfane(System.String word)
@@ -76,13 +76,13 @@ namespace GlobalNamespace {
     bool IsProfane(::StringW word);
     // static private System.Collections.Generic.IEnumerable`1<System.Char> GetLookalikeLetters(System.Char c)
     // Offset: 0x2E0194C
-    static System::Collections::Generic::IEnumerable_1<::Il2CppChar>* GetLookalikeLetters(::Il2CppChar c);
+    static ::System::Collections::Generic::IEnumerable_1<::Il2CppChar>* GetLookalikeLetters(::Il2CppChar c);
     // static private System.Char GetLeetEquivalent(System.Char c)
     // Offset: 0x2E01A04
     static ::Il2CppChar GetLeetEquivalent(::Il2CppChar c);
   }; // ProfanityFilter
   #pragma pack(pop)
-  static check_size<sizeof(ProfanityFilter), 16 + sizeof(GlobalNamespace::ProfanityFilter::TrieNode*)> __GlobalNamespace_ProfanityFilterSizeCheck;
+  static check_size<sizeof(ProfanityFilter), 16 + sizeof(::GlobalNamespace::ProfanityFilter::TrieNode*)> __GlobalNamespace_ProfanityFilterSizeCheck;
   static_assert(sizeof(ProfanityFilter) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -102,7 +102,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ProfanityFilter::GetLookalikeLetters
 // Il2CppName: GetLookalikeLetters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::Il2CppChar>* (*)(::Il2CppChar)>(&GlobalNamespace::ProfanityFilter::GetLookalikeLetters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::Il2CppChar>* (*)(::Il2CppChar)>(&GlobalNamespace::ProfanityFilter::GetLookalikeLetters)> {
   static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ProfanityFilter*), "GetLookalikeLetters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});

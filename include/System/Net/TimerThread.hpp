@@ -45,8 +45,8 @@ namespace System::Net {
   class TimerThread;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::TimerThread);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::TimerThread*, "System.Net", "TimerThread");
+NEED_NO_BOX(::System::Net::TimerThread);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::TimerThread*, "System.Net", "TimerThread");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x10
@@ -55,58 +55,58 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class TimerThread : public ::Il2CppObject {
     public:
-    // Nested type: System::Net::TimerThread::Queue
+    // Nested type: ::System::Net::TimerThread::Queue
     class Queue;
-    // Nested type: System::Net::TimerThread::Timer
+    // Nested type: ::System::Net::TimerThread::Timer
     class Timer;
-    // Nested type: System::Net::TimerThread::Callback
+    // Nested type: ::System::Net::TimerThread::Callback
     class Callback;
-    // Nested type: System::Net::TimerThread::TimerQueue
+    // Nested type: ::System::Net::TimerThread::TimerQueue
     class TimerQueue;
-    // Nested type: System::Net::TimerThread::InfiniteTimerQueue
+    // Nested type: ::System::Net::TimerThread::InfiniteTimerQueue
     class InfiniteTimerQueue;
-    // Nested type: System::Net::TimerThread::TimerNode
+    // Nested type: ::System::Net::TimerThread::TimerNode
     class TimerNode;
     // Get static field: static private System.Collections.Generic.LinkedList`1<System.WeakReference> s_Queues
-    static System::Collections::Generic::LinkedList_1<System::WeakReference*>* _get_s_Queues();
+    static ::System::Collections::Generic::LinkedList_1<::System::WeakReference*>* _get_s_Queues();
     // Set static field: static private System.Collections.Generic.LinkedList`1<System.WeakReference> s_Queues
-    static void _set_s_Queues(System::Collections::Generic::LinkedList_1<System::WeakReference*>* value);
+    static void _set_s_Queues(::System::Collections::Generic::LinkedList_1<::System::WeakReference*>* value);
     // Get static field: static private System.Collections.Generic.LinkedList`1<System.WeakReference> s_NewQueues
-    static System::Collections::Generic::LinkedList_1<System::WeakReference*>* _get_s_NewQueues();
+    static ::System::Collections::Generic::LinkedList_1<::System::WeakReference*>* _get_s_NewQueues();
     // Set static field: static private System.Collections.Generic.LinkedList`1<System.WeakReference> s_NewQueues
-    static void _set_s_NewQueues(System::Collections::Generic::LinkedList_1<System::WeakReference*>* value);
+    static void _set_s_NewQueues(::System::Collections::Generic::LinkedList_1<::System::WeakReference*>* value);
     // Get static field: static private System.Int32 s_ThreadState
     static int _get_s_ThreadState();
     // Set static field: static private System.Int32 s_ThreadState
     static void _set_s_ThreadState(int value);
     // Get static field: static private System.Threading.AutoResetEvent s_ThreadReadyEvent
-    static System::Threading::AutoResetEvent* _get_s_ThreadReadyEvent();
+    static ::System::Threading::AutoResetEvent* _get_s_ThreadReadyEvent();
     // Set static field: static private System.Threading.AutoResetEvent s_ThreadReadyEvent
-    static void _set_s_ThreadReadyEvent(System::Threading::AutoResetEvent* value);
+    static void _set_s_ThreadReadyEvent(::System::Threading::AutoResetEvent* value);
     // Get static field: static private System.Threading.ManualResetEvent s_ThreadShutdownEvent
-    static System::Threading::ManualResetEvent* _get_s_ThreadShutdownEvent();
+    static ::System::Threading::ManualResetEvent* _get_s_ThreadShutdownEvent();
     // Set static field: static private System.Threading.ManualResetEvent s_ThreadShutdownEvent
-    static void _set_s_ThreadShutdownEvent(System::Threading::ManualResetEvent* value);
+    static void _set_s_ThreadShutdownEvent(::System::Threading::ManualResetEvent* value);
     // Get static field: static private System.Threading.WaitHandle[] s_ThreadEvents
-    static ::ArrayW<System::Threading::WaitHandle*> _get_s_ThreadEvents();
+    static ::ArrayW<::System::Threading::WaitHandle*> _get_s_ThreadEvents();
     // Set static field: static private System.Threading.WaitHandle[] s_ThreadEvents
-    static void _set_s_ThreadEvents(::ArrayW<System::Threading::WaitHandle*> value);
+    static void _set_s_ThreadEvents(::ArrayW<::System::Threading::WaitHandle*> value);
     // Get static field: static private System.Collections.Hashtable s_QueuesCache
-    static System::Collections::Hashtable* _get_s_QueuesCache();
+    static ::System::Collections::Hashtable* _get_s_QueuesCache();
     // Set static field: static private System.Collections.Hashtable s_QueuesCache
-    static void _set_s_QueuesCache(System::Collections::Hashtable* value);
+    static void _set_s_QueuesCache(::System::Collections::Hashtable* value);
     // static private System.Void .cctor()
     // Offset: 0x1CB2A8C
     static void _cctor();
     // static System.Net.TimerThread/System.Net.Queue CreateQueue(System.Int32 durationMilliseconds)
     // Offset: 0x1CB2CA4
-    static System::Net::TimerThread::Queue* CreateQueue(int durationMilliseconds);
+    static ::System::Net::TimerThread::Queue* CreateQueue(int durationMilliseconds);
     // static private System.Void StopTimerThread()
     // Offset: 0x1CB2F50
     static void StopTimerThread();
     // static private System.Void OnDomainUnload(System.Object sender, System.EventArgs e)
     // Offset: 0x1CB2FDC
-    static void OnDomainUnload(::Il2CppObject* sender, System::EventArgs* e);
+    static void OnDomainUnload(::Il2CppObject* sender, ::System::EventArgs* e);
   }; // System.Net.TimerThread
   #pragma pack(pop)
 }
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Net::TimerThread::CreateQueue
 // Il2CppName: CreateQueue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::TimerThread::Queue* (*)(int)>(&System::Net::TimerThread::CreateQueue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::TimerThread::Queue* (*)(int)>(&System::Net::TimerThread::CreateQueue)> {
   static const MethodInfo* get() {
     static auto* durationMilliseconds = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::TimerThread*), "CreateQueue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{durationMilliseconds});
@@ -139,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Net::TimerThread::OnDomainUnload
 // Il2CppName: OnDomainUnload
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, System::EventArgs*)>(&System::Net::TimerThread::OnDomainUnload)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::System::EventArgs*)>(&System::Net::TimerThread::OnDomainUnload)> {
   static const MethodInfo* get() {
     static auto* sender = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* e = &::il2cpp_utils::GetClassFromName("System", "EventArgs")->byval_arg;

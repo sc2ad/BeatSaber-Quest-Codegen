@@ -13,7 +13,7 @@ namespace System::Collections::Generic {
   class QueueDebugView_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Collections::Generic::QueueDebugView_1, "System.Collections.Generic", "QueueDebugView`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Collections::Generic::QueueDebugView_1, "System.Collections.Generic", "QueueDebugView`1");
 // Type namespace: System.Collections.Generic
 namespace System::Collections::Generic {
   // WARNING Size may be invalid!

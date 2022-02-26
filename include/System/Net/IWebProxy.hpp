@@ -23,8 +23,8 @@ namespace System::Net {
   class IWebProxy;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::IWebProxy);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::IWebProxy*, "System.Net", "IWebProxy");
+NEED_NO_BOX(::System::Net::IWebProxy);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::IWebProxy*, "System.Net", "IWebProxy");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x10
@@ -35,13 +35,13 @@ namespace System::Net {
     public:
     // public System.Net.ICredentials get_Credentials()
     // Offset: 0xFFFFFFFF
-    System::Net::ICredentials* get_Credentials();
+    ::System::Net::ICredentials* get_Credentials();
     // public System.Uri GetProxy(System.Uri destination)
     // Offset: 0xFFFFFFFF
-    System::Uri* GetProxy(System::Uri* destination);
+    ::System::Uri* GetProxy(::System::Uri* destination);
     // public System.Boolean IsBypassed(System.Uri host)
     // Offset: 0xFFFFFFFF
-    bool IsBypassed(System::Uri* host);
+    bool IsBypassed(::System::Uri* host);
   }; // System.Net.IWebProxy
   #pragma pack(pop)
 }
@@ -49,7 +49,7 @@ namespace System::Net {
 // Writing MetadataGetter for method: System::Net::IWebProxy::get_Credentials
 // Il2CppName: get_Credentials
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::ICredentials* (System::Net::IWebProxy::*)()>(&System::Net::IWebProxy::get_Credentials)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::ICredentials* (System::Net::IWebProxy::*)()>(&System::Net::IWebProxy::get_Credentials)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::IWebProxy*), "get_Credentials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -57,7 +57,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Writing MetadataGetter for method: System::Net::IWebProxy::GetProxy
 // Il2CppName: GetProxy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (System::Net::IWebProxy::*)(System::Uri*)>(&System::Net::IWebProxy::GetProxy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Uri* (System::Net::IWebProxy::*)(::System::Uri*)>(&System::Net::IWebProxy::GetProxy)> {
   static const MethodInfo* get() {
     static auto* destination = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::IWebProxy*), "GetProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{destination});
@@ -66,7 +66,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri
 // Writing MetadataGetter for method: System::Net::IWebProxy::IsBypassed
 // Il2CppName: IsBypassed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::IWebProxy::*)(System::Uri*)>(&System::Net::IWebProxy::IsBypassed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::IWebProxy::*)(::System::Uri*)>(&System::Net::IWebProxy::IsBypassed)> {
   static const MethodInfo* get() {
     static auto* host = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::IWebProxy*), "IsBypassed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{host});

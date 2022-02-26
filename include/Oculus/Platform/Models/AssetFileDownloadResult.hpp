@@ -19,8 +19,8 @@ namespace Oculus::Platform::Models {
   class AssetFileDownloadResult;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::AssetFileDownloadResult);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::AssetFileDownloadResult*, "Oculus.Platform.Models", "AssetFileDownloadResult");
+NEED_NO_BOX(::Oculus::Platform::Models::AssetFileDownloadResult);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::AssetFileDownloadResult*, "Oculus.Platform.Models", "AssetFileDownloadResult");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x20
@@ -58,8 +58,8 @@ namespace Oculus::Platform::Models {
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x1964020
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AssetFileDownloadResult* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::AssetFileDownloadResult::.ctor");
+    static AssetFileDownloadResult* New_ctor(::System::IntPtr o) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::AssetFileDownloadResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssetFileDownloadResult*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.AssetFileDownloadResult

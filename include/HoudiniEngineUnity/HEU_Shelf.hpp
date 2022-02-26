@@ -30,8 +30,8 @@ namespace HoudiniEngineUnity {
   class HEU_Shelf;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_Shelf);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_Shelf*, "HoudiniEngineUnity", "HEU_Shelf");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_Shelf);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_Shelf*, "HoudiniEngineUnity", "HEU_Shelf");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x30
@@ -72,9 +72,9 @@ namespace HoudiniEngineUnity {
     // public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_ShelfToolData> _tools
     // Size: 0x8
     // Offset: 0x28
-    System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ShelfToolData*>* tools;
+    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ShelfToolData*>* tools;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ShelfToolData*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ShelfToolData*>*) == 0x8);
     public:
     // Get instance field reference: public System.String _shelfName
     ::StringW& dyn__shelfName();
@@ -83,19 +83,19 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Boolean _defaultShelf
     bool& dyn__defaultShelf();
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_ShelfToolData> _tools
-    System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ShelfToolData*>*& dyn__tools();
+    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ShelfToolData*>*& dyn__tools();
     // public System.Void .ctor()
     // Offset: 0x1A60824
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_Shelf* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_Shelf::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_Shelf::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_Shelf*, creationType>()));
     }
   }; // HoudiniEngineUnity.HEU_Shelf
   #pragma pack(pop)
-  static check_size<sizeof(HEU_Shelf), 40 + sizeof(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ShelfToolData*>*)> __HoudiniEngineUnity_HEU_ShelfSizeCheck;
+  static check_size<sizeof(HEU_Shelf), 40 + sizeof(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ShelfToolData*>*)> __HoudiniEngineUnity_HEU_ShelfSizeCheck;
   static_assert(sizeof(HEU_Shelf) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

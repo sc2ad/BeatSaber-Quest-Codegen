@@ -21,8 +21,8 @@ namespace GlobalNamespace {
   class TransformExtensions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::TransformExtensions);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TransformExtensions*, "", "TransformExtensions");
+NEED_NO_BOX(::GlobalNamespace::TransformExtensions);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TransformExtensions*, "", "TransformExtensions");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     public:
     // static public UnityEngine.Quaternion InverseTransformRotation(UnityEngine.Transform trans, UnityEngine.Quaternion worldRotation)
     // Offset: 0x299F4D8
-    static UnityEngine::Quaternion InverseTransformRotation(UnityEngine::Transform* trans, UnityEngine::Quaternion worldRotation);
+    static ::UnityEngine::Quaternion InverseTransformRotation(::UnityEngine::Transform* trans, ::UnityEngine::Quaternion worldRotation);
   }; // TransformExtensions
   #pragma pack(pop)
 }
@@ -42,7 +42,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::TransformExtensions::InverseTransformRotation
 // Il2CppName: InverseTransformRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(UnityEngine::Transform*, UnityEngine::Quaternion)>(&GlobalNamespace::TransformExtensions::InverseTransformRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Transform*, ::UnityEngine::Quaternion)>(&GlobalNamespace::TransformExtensions::InverseTransformRotation)> {
   static const MethodInfo* get() {
     static auto* trans = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* worldRotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;

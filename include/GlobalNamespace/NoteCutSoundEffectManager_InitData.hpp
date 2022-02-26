@@ -13,8 +13,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::NoteCutSoundEffectManager::InitData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutSoundEffectManager::InitData*, "", "NoteCutSoundEffectManager/InitData");
+NEED_NO_BOX(::GlobalNamespace::NoteCutSoundEffectManager::InitData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NoteCutSoundEffectManager::InitData*, "", "NoteCutSoundEffectManager/InitData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x12
@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     // Offset: 0x2B2C5D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteCutSoundEffectManager::InitData* New_ctor(bool useTestAudioClips, bool ignoreBadCuts) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::NoteCutSoundEffectManager::InitData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteCutSoundEffectManager::InitData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteCutSoundEffectManager::InitData*, creationType>(useTestAudioClips, ignoreBadCuts)));
     }
   }; // NoteCutSoundEffectManager/InitData

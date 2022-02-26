@@ -48,8 +48,8 @@ namespace System::Text::RegularExpressions {
   class RegexWriter;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Text::RegularExpressions::RegexWriter);
-DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexWriter*, "System.Text.RegularExpressions", "RegexWriter");
+NEED_NO_BOX(::System::Text::RegularExpressions::RegexWriter);
+DEFINE_IL2CPP_ARG_TYPE(::System::Text::RegularExpressions::RegexWriter*, "System.Text.RegularExpressions", "RegexWriter");
 // Type namespace: System.Text.RegularExpressions
 namespace System::Text::RegularExpressions {
   // Size: 0x58
@@ -98,15 +98,15 @@ namespace System::Text::RegularExpressions {
     // System.Collections.Generic.Dictionary`2<System.String,System.Int32> _stringhash
     // Size: 0x8
     // Offset: 0x30
-    System::Collections::Generic::Dictionary_2<::StringW, int>* stringhash;
+    ::System::Collections::Generic::Dictionary_2<::StringW, int>* stringhash;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<::StringW, int>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::Dictionary_2<::StringW, int>*) == 0x8);
     // System.Collections.Generic.List`1<System.String> _stringtable
     // Size: 0x8
     // Offset: 0x38
-    System::Collections::Generic::List_1<::StringW>* stringtable;
+    ::System::Collections::Generic::List_1<::StringW>* stringtable;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<::StringW>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::StringW>*) == 0x8);
     // System.Boolean _counting
     // Size: 0x1
     // Offset: 0x40
@@ -132,9 +132,9 @@ namespace System::Text::RegularExpressions {
     // System.Collections.Hashtable _caps
     // Size: 0x8
     // Offset: 0x50
-    System::Collections::Hashtable* caps;
+    ::System::Collections::Hashtable* caps;
     // Field size check
-    static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
+    static_assert(sizeof(::System::Collections::Hashtable*) == 0x8);
     public:
     // Get instance field reference: System.Int32[] _intStack
     ::ArrayW<int>& dyn__intStack();
@@ -145,9 +145,9 @@ namespace System::Text::RegularExpressions {
     // Get instance field reference: System.Int32 _curpos
     int& dyn__curpos();
     // Get instance field reference: System.Collections.Generic.Dictionary`2<System.String,System.Int32> _stringhash
-    System::Collections::Generic::Dictionary_2<::StringW, int>*& dyn__stringhash();
+    ::System::Collections::Generic::Dictionary_2<::StringW, int>*& dyn__stringhash();
     // Get instance field reference: System.Collections.Generic.List`1<System.String> _stringtable
-    System::Collections::Generic::List_1<::StringW>*& dyn__stringtable();
+    ::System::Collections::Generic::List_1<::StringW>*& dyn__stringtable();
     // Get instance field reference: System.Boolean _counting
     bool& dyn__counting();
     // Get instance field reference: System.Int32 _count
@@ -155,10 +155,10 @@ namespace System::Text::RegularExpressions {
     // Get instance field reference: System.Int32 _trackcount
     int& dyn__trackcount();
     // Get instance field reference: System.Collections.Hashtable _caps
-    System::Collections::Hashtable*& dyn__caps();
+    ::System::Collections::Hashtable*& dyn__caps();
     // static System.Text.RegularExpressions.RegexCode Write(System.Text.RegularExpressions.RegexTree t)
     // Offset: 0x2426C78
-    static System::Text::RegularExpressions::RegexCode* Write(System::Text::RegularExpressions::RegexTree* t);
+    static ::System::Text::RegularExpressions::RegexCode* Write(::System::Text::RegularExpressions::RegexTree* t);
     // System.Void PushInt(System.Int32 I)
     // Offset: 0x2427148
     void PushInt(int I);
@@ -188,35 +188,35 @@ namespace System::Text::RegularExpressions {
     int StringCode(::StringW str);
     // System.ArgumentException MakeException(System.String message)
     // Offset: 0x24275E4
-    System::ArgumentException* MakeException(::StringW message);
+    ::System::ArgumentException* MakeException(::StringW message);
     // System.Int32 MapCapnum(System.Int32 capnum)
     // Offset: 0x2427648
     int MapCapnum(int capnum);
     // System.Text.RegularExpressions.RegexCode RegexCodeFromRegexTree(System.Text.RegularExpressions.RegexTree tree)
     // Offset: 0x2426DA4
-    System::Text::RegularExpressions::RegexCode* RegexCodeFromRegexTree(System::Text::RegularExpressions::RegexTree* tree);
+    ::System::Text::RegularExpressions::RegexCode* RegexCodeFromRegexTree(::System::Text::RegularExpressions::RegexTree* tree);
     // System.Void EmitFragment(System.Int32 nodetype, System.Text.RegularExpressions.RegexNode node, System.Int32 CurIndex)
     // Offset: 0x2427704
-    void EmitFragment(int nodetype, System::Text::RegularExpressions::RegexNode* node, int CurIndex);
+    void EmitFragment(int nodetype, ::System::Text::RegularExpressions::RegexNode* node, int CurIndex);
     // private System.Void .ctor()
     // Offset: 0x2426CE0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexWriter* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::RegexWriter::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::RegexWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexWriter*, creationType>()));
     }
   }; // System.Text.RegularExpressions.RegexWriter
   #pragma pack(pop)
-  static check_size<sizeof(RegexWriter), 80 + sizeof(System::Collections::Hashtable*)> __System_Text_RegularExpressions_RegexWriterSizeCheck;
+  static check_size<sizeof(RegexWriter), 80 + sizeof(::System::Collections::Hashtable*)> __System_Text_RegularExpressions_RegexWriterSizeCheck;
   static_assert(sizeof(RegexWriter) == 0x58);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexWriter::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexCode* (*)(System::Text::RegularExpressions::RegexTree*)>(&System::Text::RegularExpressions::RegexWriter::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::RegexCode* (*)(::System::Text::RegularExpressions::RegexTree*)>(&System::Text::RegularExpressions::RegexWriter::Write)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System.Text.RegularExpressions", "RegexTree")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
@@ -307,7 +307,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexWriter::MakeException
 // Il2CppName: MakeException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ArgumentException* (System::Text::RegularExpressions::RegexWriter::*)(::StringW)>(&System::Text::RegularExpressions::RegexWriter::MakeException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ArgumentException* (System::Text::RegularExpressions::RegexWriter::*)(::StringW)>(&System::Text::RegularExpressions::RegexWriter::MakeException)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexWriter*), "MakeException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
@@ -325,7 +325,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexWriter::RegexCodeFromRegexTree
 // Il2CppName: RegexCodeFromRegexTree
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexCode* (System::Text::RegularExpressions::RegexWriter::*)(System::Text::RegularExpressions::RegexTree*)>(&System::Text::RegularExpressions::RegexWriter::RegexCodeFromRegexTree)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::RegexCode* (System::Text::RegularExpressions::RegexWriter::*)(::System::Text::RegularExpressions::RegexTree*)>(&System::Text::RegularExpressions::RegexWriter::RegexCodeFromRegexTree)> {
   static const MethodInfo* get() {
     static auto* tree = &::il2cpp_utils::GetClassFromName("System.Text.RegularExpressions", "RegexTree")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexWriter*), "RegexCodeFromRegexTree", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tree});
@@ -334,7 +334,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexWriter::EmitFragment
 // Il2CppName: EmitFragment
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexWriter::*)(int, System::Text::RegularExpressions::RegexNode*, int)>(&System::Text::RegularExpressions::RegexWriter::EmitFragment)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexWriter::*)(int, ::System::Text::RegularExpressions::RegexNode*, int)>(&System::Text::RegularExpressions::RegexWriter::EmitFragment)> {
   static const MethodInfo* get() {
     static auto* nodetype = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* node = &::il2cpp_utils::GetClassFromName("System.Text.RegularExpressions", "RegexNode")->byval_arg;

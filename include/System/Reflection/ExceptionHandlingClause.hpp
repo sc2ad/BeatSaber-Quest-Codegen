@@ -26,8 +26,8 @@ namespace System::Reflection {
   class ExceptionHandlingClause;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Reflection::ExceptionHandlingClause);
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::ExceptionHandlingClause*, "System.Reflection", "ExceptionHandlingClause");
+NEED_NO_BOX(::System::Reflection::ExceptionHandlingClause);
+DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::ExceptionHandlingClause*, "System.Reflection", "ExceptionHandlingClause");
 // Type namespace: System.Reflection
 namespace System::Reflection {
   // Size: 0x30
@@ -50,9 +50,9 @@ namespace System::Reflection {
     // System.Type catch_type
     // Size: 0x8
     // Offset: 0x10
-    System::Type* catch_type;
+    ::System::Type* catch_type;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     // System.Int32 filter_offset
     // Size: 0x4
     // Offset: 0x18
@@ -62,9 +62,9 @@ namespace System::Reflection {
     // System.Reflection.ExceptionHandlingClauseOptions flags
     // Size: 0x4
     // Offset: 0x1C
-    System::Reflection::ExceptionHandlingClauseOptions flags;
+    ::System::Reflection::ExceptionHandlingClauseOptions flags;
     // Field size check
-    static_assert(sizeof(System::Reflection::ExceptionHandlingClauseOptions) == 0x4);
+    static_assert(sizeof(::System::Reflection::ExceptionHandlingClauseOptions) == 0x4);
     // System.Int32 try_offset
     // Size: 0x4
     // Offset: 0x20
@@ -91,11 +91,11 @@ namespace System::Reflection {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: System.Type catch_type
-    System::Type*& dyn_catch_type();
+    ::System::Type*& dyn_catch_type();
     // Get instance field reference: System.Int32 filter_offset
     int& dyn_filter_offset();
     // Get instance field reference: System.Reflection.ExceptionHandlingClauseOptions flags
-    System::Reflection::ExceptionHandlingClauseOptions& dyn_flags();
+    ::System::Reflection::ExceptionHandlingClauseOptions& dyn_flags();
     // Get instance field reference: System.Int32 try_offset
     int& dyn_try_offset();
     // Get instance field reference: System.Int32 try_length
@@ -110,7 +110,7 @@ namespace System::Reflection {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExceptionHandlingClause* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::ExceptionHandlingClause::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Reflection::ExceptionHandlingClause::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExceptionHandlingClause*, creationType>()));
     }
     // public override System.String ToString()

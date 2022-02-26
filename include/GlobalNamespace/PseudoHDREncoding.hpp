@@ -27,8 +27,8 @@ namespace GlobalNamespace {
   class PseudoHDREncoding;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PseudoHDREncoding);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PseudoHDREncoding*, "", "PseudoHDREncoding");
+NEED_NO_BOX(::GlobalNamespace::PseudoHDREncoding);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PseudoHDREncoding*, "", "PseudoHDREncoding");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -46,12 +46,12 @@ namespace GlobalNamespace {
     static void _set_kPseudoHDREncodingShaderName(::StringW value);
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x124FC80
     // Get static field: static private UnityEngine.Material _material
-    static UnityEngine::Material* _get__material();
+    static ::UnityEngine::Material* _get__material();
     // Set static field: static private UnityEngine.Material _material
-    static void _set__material(UnityEngine::Material* value);
+    static void _set__material(::UnityEngine::Material* value);
     // static public UnityEngine.RenderTexture CreatePseudoHDREncodedTexture(UnityEngine.RenderTexture src)
     // Offset: 0x13EAFB8
-    static UnityEngine::RenderTexture* CreatePseudoHDREncodedTexture(UnityEngine::RenderTexture* src);
+    static ::UnityEngine::RenderTexture* CreatePseudoHDREncodedTexture(::UnityEngine::RenderTexture* src);
   }; // PseudoHDREncoding
   #pragma pack(pop)
 }
@@ -59,7 +59,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::PseudoHDREncoding::CreatePseudoHDREncodedTexture
 // Il2CppName: CreatePseudoHDREncodedTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderTexture* (*)(UnityEngine::RenderTexture*)>(&GlobalNamespace::PseudoHDREncoding::CreatePseudoHDREncodedTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RenderTexture* (*)(::UnityEngine::RenderTexture*)>(&GlobalNamespace::PseudoHDREncoding::CreatePseudoHDREncodedTexture)> {
   static const MethodInfo* get() {
     static auto* src = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PseudoHDREncoding*), "CreatePseudoHDREncodedTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{src});

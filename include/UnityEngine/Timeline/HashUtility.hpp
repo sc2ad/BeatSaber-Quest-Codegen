@@ -13,8 +13,8 @@ namespace UnityEngine::Timeline {
   class HashUtility;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Timeline::HashUtility);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::HashUtility*, "UnityEngine.Timeline", "HashUtility");
+NEED_NO_BOX(::UnityEngine::Timeline::HashUtility);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::HashUtility*, "UnityEngine.Timeline", "HashUtility");
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
   // Size: 0x10

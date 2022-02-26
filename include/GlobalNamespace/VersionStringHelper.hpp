@@ -13,8 +13,8 @@ namespace GlobalNamespace {
   class VersionStringHelper;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::VersionStringHelper);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VersionStringHelper*, "", "VersionStringHelper");
+NEED_NO_BOX(::GlobalNamespace::VersionStringHelper);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::VersionStringHelper*, "", "VersionStringHelper");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10

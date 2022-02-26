@@ -16,8 +16,8 @@ namespace GlobalNamespace {
   class ManualUpdateManager;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::ManualUpdateManager);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ManualUpdateManager*, "", "ManualUpdateManager");
+NEED_NO_BOX(::GlobalNamespace::ManualUpdateManager);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ManualUpdateManager*, "", "ManualUpdateManager");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -32,7 +32,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ManualUpdateManager* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ManualUpdateManager::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ManualUpdateManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ManualUpdateManager*, creationType>()));
     }
   }; // ManualUpdateManager

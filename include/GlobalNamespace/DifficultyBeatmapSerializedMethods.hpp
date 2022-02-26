@@ -20,8 +20,8 @@ namespace GlobalNamespace {
   class DifficultyBeatmapSerializedMethods;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::DifficultyBeatmapSerializedMethods);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DifficultyBeatmapSerializedMethods*, "", "DifficultyBeatmapSerializedMethods");
+NEED_NO_BOX(::GlobalNamespace::DifficultyBeatmapSerializedMethods);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DifficultyBeatmapSerializedMethods*, "", "DifficultyBeatmapSerializedMethods");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -33,7 +33,7 @@ namespace GlobalNamespace {
     public:
     // static public System.String SerializedName(IDifficultyBeatmap difficultyBeatmap)
     // Offset: 0x13F111C
-    static ::StringW SerializedName(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
+    static ::StringW SerializedName(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
   }; // DifficultyBeatmapSerializedMethods
   #pragma pack(pop)
 }
@@ -41,7 +41,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::DifficultyBeatmapSerializedMethods::SerializedName
 // Il2CppName: SerializedName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(GlobalNamespace::IDifficultyBeatmap*)>(&GlobalNamespace::DifficultyBeatmapSerializedMethods::SerializedName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::GlobalNamespace::IDifficultyBeatmap*)>(&GlobalNamespace::DifficultyBeatmapSerializedMethods::SerializedName)> {
   static const MethodInfo* get() {
     static auto* difficultyBeatmap = &::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmap")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DifficultyBeatmapSerializedMethods*), "SerializedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{difficultyBeatmap});

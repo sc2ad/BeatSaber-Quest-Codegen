@@ -26,8 +26,8 @@ namespace System::Runtime::Serialization {
   class IFormatter;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Serialization::IFormatter);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::IFormatter*, "System.Runtime.Serialization", "IFormatter");
+NEED_NO_BOX(::System::Runtime::Serialization::IFormatter);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::IFormatter*, "System.Runtime.Serialization", "IFormatter");
 // Type namespace: System.Runtime.Serialization
 namespace System::Runtime::Serialization {
   // Size: 0x10
@@ -39,10 +39,10 @@ namespace System::Runtime::Serialization {
     public:
     // public System.Void set_SurrogateSelector(System.Runtime.Serialization.ISurrogateSelector value)
     // Offset: 0xFFFFFFFF
-    void set_SurrogateSelector(System::Runtime::Serialization::ISurrogateSelector* value);
+    void set_SurrogateSelector(::System::Runtime::Serialization::ISurrogateSelector* value);
     // public System.Void Serialize(System.IO.Stream serializationStream, System.Object graph)
     // Offset: 0xFFFFFFFF
-    void Serialize(System::IO::Stream* serializationStream, ::Il2CppObject* graph);
+    void Serialize(::System::IO::Stream* serializationStream, ::Il2CppObject* graph);
   }; // System.Runtime.Serialization.IFormatter
   #pragma pack(pop)
 }
@@ -50,7 +50,7 @@ namespace System::Runtime::Serialization {
 // Writing MetadataGetter for method: System::Runtime::Serialization::IFormatter::set_SurrogateSelector
 // Il2CppName: set_SurrogateSelector
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::IFormatter::*)(System::Runtime::Serialization::ISurrogateSelector*)>(&System::Runtime::Serialization::IFormatter::set_SurrogateSelector)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::IFormatter::*)(::System::Runtime::Serialization::ISurrogateSelector*)>(&System::Runtime::Serialization::IFormatter::set_SurrogateSelector)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "ISurrogateSelector")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::IFormatter*), "set_SurrogateSelector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -59,7 +59,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Serialization::IFormatter::Serialize
 // Il2CppName: Serialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::IFormatter::*)(System::IO::Stream*, ::Il2CppObject*)>(&System::Runtime::Serialization::IFormatter::Serialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::IFormatter::*)(::System::IO::Stream*, ::Il2CppObject*)>(&System::Runtime::Serialization::IFormatter::Serialize)> {
   static const MethodInfo* get() {
     static auto* serializationStream = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
     static auto* graph = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;

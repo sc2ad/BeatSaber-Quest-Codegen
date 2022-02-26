@@ -30,8 +30,8 @@ namespace HoudiniEngineUnity {
   class HEU_InputInterface;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_InputInterface);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_InputInterface*, "HoudiniEngineUnity", "HEU_InputInterface");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_InputInterface);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_InputInterface*, "HoudiniEngineUnity", "HEU_InputInterface");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x14
@@ -75,7 +75,7 @@ namespace HoudiniEngineUnity {
     // Offset: 0x177A25C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_InputInterface* New_ctor(int priority) {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_InputInterface::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_InputInterface::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_InputInterface*, creationType>(priority)));
     }
     // public System.Void RegisterInterface()
@@ -83,10 +83,10 @@ namespace HoudiniEngineUnity {
     void RegisterInterface();
     // public System.Boolean IsThisInputObjectSupported(UnityEngine.GameObject inputObject)
     // Offset: 0xFFFFFFFF
-    bool IsThisInputObjectSupported(UnityEngine::GameObject* inputObject);
+    bool IsThisInputObjectSupported(::UnityEngine::GameObject* inputObject);
     // public System.Boolean CreateInputNodeWithDataUpload(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 connectNodeID, UnityEngine.GameObject inputObject, out System.Int32 inputNodeID)
     // Offset: 0xFFFFFFFF
-    bool CreateInputNodeWithDataUpload(HoudiniEngineUnity::HEU_SessionBase* session, int connectNodeID, UnityEngine::GameObject* inputObject, ByRef<int> inputNodeID);
+    bool CreateInputNodeWithDataUpload(::HoudiniEngineUnity::HEU_SessionBase* session, int connectNodeID, ::UnityEngine::GameObject* inputObject, ByRef<int> inputNodeID);
   }; // HoudiniEngineUnity.HEU_InputInterface
   #pragma pack(pop)
   static check_size<sizeof(HEU_InputInterface), 16 + sizeof(int)> __HoudiniEngineUnity_HEU_InputInterfaceSizeCheck;
@@ -116,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InputInterface::IsThisInputObjectSupported
 // Il2CppName: IsThisInputObjectSupported
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_InputInterface::*)(UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_InputInterface::IsThisInputObjectSupported)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_InputInterface::*)(::UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_InputInterface::IsThisInputObjectSupported)> {
   static const MethodInfo* get() {
     static auto* inputObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_InputInterface*), "IsThisInputObjectSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inputObject});
@@ -125,7 +125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InputInterface::CreateInputNodeWithDataUpload
 // Il2CppName: CreateInputNodeWithDataUpload
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_InputInterface::*)(HoudiniEngineUnity::HEU_SessionBase*, int, UnityEngine::GameObject*, ByRef<int>)>(&HoudiniEngineUnity::HEU_InputInterface::CreateInputNodeWithDataUpload)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_InputInterface::*)(::HoudiniEngineUnity::HEU_SessionBase*, int, ::UnityEngine::GameObject*, ByRef<int>)>(&HoudiniEngineUnity::HEU_InputInterface::CreateInputNodeWithDataUpload)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* connectNodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

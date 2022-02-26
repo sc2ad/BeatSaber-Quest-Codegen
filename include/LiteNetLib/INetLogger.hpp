@@ -17,8 +17,8 @@ namespace LiteNetLib {
   class INetLogger;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(LiteNetLib::INetLogger);
-DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::INetLogger*, "LiteNetLib", "INetLogger");
+NEED_NO_BOX(::LiteNetLib::INetLogger);
+DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::INetLogger*, "LiteNetLib", "INetLogger");
 // Type namespace: LiteNetLib
 namespace LiteNetLib {
   // Size: 0x10
@@ -29,7 +29,7 @@ namespace LiteNetLib {
     public:
     // public System.Void WriteNet(LiteNetLib.NetLogLevel level, System.String str, params System.Object[] args)
     // Offset: 0xFFFFFFFF
-    void WriteNet(LiteNetLib::NetLogLevel level, ::StringW str, ::ArrayW<::Il2CppObject*> args);
+    void WriteNet(::LiteNetLib::NetLogLevel level, ::StringW str, ::ArrayW<::Il2CppObject*> args);
   }; // LiteNetLib.INetLogger
   #pragma pack(pop)
 }
@@ -37,7 +37,7 @@ namespace LiteNetLib {
 // Writing MetadataGetter for method: LiteNetLib::INetLogger::WriteNet
 // Il2CppName: WriteNet
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::INetLogger::*)(LiteNetLib::NetLogLevel, ::StringW, ::ArrayW<::Il2CppObject*>)>(&LiteNetLib::INetLogger::WriteNet)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::INetLogger::*)(::LiteNetLib::NetLogLevel, ::StringW, ::ArrayW<::Il2CppObject*>)>(&LiteNetLib::INetLogger::WriteNet)> {
   static const MethodInfo* get() {
     static auto* level = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetLogLevel")->byval_arg;
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

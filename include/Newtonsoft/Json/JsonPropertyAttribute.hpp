@@ -41,8 +41,8 @@ namespace Newtonsoft::Json {
   class JsonPropertyAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::JsonPropertyAttribute);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::JsonPropertyAttribute*, "Newtonsoft.Json", "JsonPropertyAttribute");
+NEED_NO_BOX(::Newtonsoft::Json::JsonPropertyAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::JsonPropertyAttribute*, "Newtonsoft.Json", "JsonPropertyAttribute");
 // Type namespace: Newtonsoft.Json
 namespace Newtonsoft::Json {
   // WARNING Size may be invalid!
@@ -51,7 +51,7 @@ namespace Newtonsoft::Json {
   // [NullableAttribute] Offset: 1201718
   // [NullableContextAttribute] Offset: 1201718
   // [AttributeUsageAttribute] Offset: 1201718
-  class JsonPropertyAttribute : public System::Attribute {
+  class JsonPropertyAttribute : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -65,53 +65,53 @@ namespace Newtonsoft::Json {
     // System.Nullable`1<Newtonsoft.Json.NullValueHandling> _nullValueHandling
     // Size: 0xFFFFFFFF
     // Offset: 0x10
-    System::Nullable_1<Newtonsoft::Json::NullValueHandling> nullValueHandling;
+    ::System::Nullable_1<::Newtonsoft::Json::NullValueHandling> nullValueHandling;
     // System.Nullable`1<Newtonsoft.Json.DefaultValueHandling> _defaultValueHandling
     // Size: 0xFFFFFFFF
     // Offset: 0x18
-    System::Nullable_1<Newtonsoft::Json::DefaultValueHandling> defaultValueHandling;
+    ::System::Nullable_1<::Newtonsoft::Json::DefaultValueHandling> defaultValueHandling;
     // System.Nullable`1<Newtonsoft.Json.ReferenceLoopHandling> _referenceLoopHandling
     // Size: 0xFFFFFFFF
     // Offset: 0x20
-    System::Nullable_1<Newtonsoft::Json::ReferenceLoopHandling> referenceLoopHandling;
+    ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> referenceLoopHandling;
     // System.Nullable`1<Newtonsoft.Json.ObjectCreationHandling> _objectCreationHandling
     // Size: 0xFFFFFFFF
     // Offset: 0x28
-    System::Nullable_1<Newtonsoft::Json::ObjectCreationHandling> objectCreationHandling;
+    ::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling> objectCreationHandling;
     // System.Nullable`1<Newtonsoft.Json.TypeNameHandling> _typeNameHandling
     // Size: 0xFFFFFFFF
     // Offset: 0x30
-    System::Nullable_1<Newtonsoft::Json::TypeNameHandling> typeNameHandling;
+    ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> typeNameHandling;
     // System.Nullable`1<System.Boolean> _isReference
     // Size: 0xFFFFFFFF
     // Offset: 0x38
-    System::Nullable_1<bool> isReference;
+    ::System::Nullable_1<bool> isReference;
     // System.Nullable`1<System.Int32> _order
     // Size: 0xFFFFFFFF
     // Offset: 0x3C
-    System::Nullable_1<int> order;
+    ::System::Nullable_1<int> order;
     // System.Nullable`1<Newtonsoft.Json.Required> _required
     // Size: 0xFFFFFFFF
     // Offset: 0x44
-    System::Nullable_1<Newtonsoft::Json::Required> required;
+    ::System::Nullable_1<::Newtonsoft::Json::Required> required;
     // System.Nullable`1<System.Boolean> _itemIsReference
     // Size: 0xFFFFFFFF
     // Offset: 0x4C
-    System::Nullable_1<bool> itemIsReference;
+    ::System::Nullable_1<bool> itemIsReference;
     // System.Nullable`1<Newtonsoft.Json.ReferenceLoopHandling> _itemReferenceLoopHandling
     // Size: 0xFFFFFFFF
     // Offset: 0x50
-    System::Nullable_1<Newtonsoft::Json::ReferenceLoopHandling> itemReferenceLoopHandling;
+    ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> itemReferenceLoopHandling;
     // System.Nullable`1<Newtonsoft.Json.TypeNameHandling> _itemTypeNameHandling
     // Size: 0xFFFFFFFF
     // Offset: 0x58
-    System::Nullable_1<Newtonsoft::Json::TypeNameHandling> itemTypeNameHandling;
+    ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> itemTypeNameHandling;
     // private System.Type <ItemConverterType>k__BackingField
     // Size: 0x8
     // Offset: 0x60
-    System::Type* ItemConverterType;
+    ::System::Type* ItemConverterType;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     // [NullableAttribute] Offset: 0x1203E58
     // private System.Object[] <ItemConverterParameters>k__BackingField
     // Size: 0x8
@@ -122,9 +122,9 @@ namespace Newtonsoft::Json {
     // private System.Type <NamingStrategyType>k__BackingField
     // Size: 0x8
     // Offset: 0x70
-    System::Type* NamingStrategyType;
+    ::System::Type* NamingStrategyType;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     // [NullableAttribute] Offset: 0x1203EE4
     // private System.Object[] <NamingStrategyParameters>k__BackingField
     // Size: 0x8
@@ -140,46 +140,46 @@ namespace Newtonsoft::Json {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: System.Nullable`1<Newtonsoft.Json.NullValueHandling> _nullValueHandling
-    System::Nullable_1<Newtonsoft::Json::NullValueHandling>& dyn__nullValueHandling();
+    ::System::Nullable_1<::Newtonsoft::Json::NullValueHandling>& dyn__nullValueHandling();
     // Get instance field reference: System.Nullable`1<Newtonsoft.Json.DefaultValueHandling> _defaultValueHandling
-    System::Nullable_1<Newtonsoft::Json::DefaultValueHandling>& dyn__defaultValueHandling();
+    ::System::Nullable_1<::Newtonsoft::Json::DefaultValueHandling>& dyn__defaultValueHandling();
     // Get instance field reference: System.Nullable`1<Newtonsoft.Json.ReferenceLoopHandling> _referenceLoopHandling
-    System::Nullable_1<Newtonsoft::Json::ReferenceLoopHandling>& dyn__referenceLoopHandling();
+    ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling>& dyn__referenceLoopHandling();
     // Get instance field reference: System.Nullable`1<Newtonsoft.Json.ObjectCreationHandling> _objectCreationHandling
-    System::Nullable_1<Newtonsoft::Json::ObjectCreationHandling>& dyn__objectCreationHandling();
+    ::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling>& dyn__objectCreationHandling();
     // Get instance field reference: System.Nullable`1<Newtonsoft.Json.TypeNameHandling> _typeNameHandling
-    System::Nullable_1<Newtonsoft::Json::TypeNameHandling>& dyn__typeNameHandling();
+    ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling>& dyn__typeNameHandling();
     // Get instance field reference: System.Nullable`1<System.Boolean> _isReference
-    System::Nullable_1<bool>& dyn__isReference();
+    ::System::Nullable_1<bool>& dyn__isReference();
     // Get instance field reference: System.Nullable`1<System.Int32> _order
-    System::Nullable_1<int>& dyn__order();
+    ::System::Nullable_1<int>& dyn__order();
     // Get instance field reference: System.Nullable`1<Newtonsoft.Json.Required> _required
-    System::Nullable_1<Newtonsoft::Json::Required>& dyn__required();
+    ::System::Nullable_1<::Newtonsoft::Json::Required>& dyn__required();
     // Get instance field reference: System.Nullable`1<System.Boolean> _itemIsReference
-    System::Nullable_1<bool>& dyn__itemIsReference();
+    ::System::Nullable_1<bool>& dyn__itemIsReference();
     // Get instance field reference: System.Nullable`1<Newtonsoft.Json.ReferenceLoopHandling> _itemReferenceLoopHandling
-    System::Nullable_1<Newtonsoft::Json::ReferenceLoopHandling>& dyn__itemReferenceLoopHandling();
+    ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling>& dyn__itemReferenceLoopHandling();
     // Get instance field reference: System.Nullable`1<Newtonsoft.Json.TypeNameHandling> _itemTypeNameHandling
-    System::Nullable_1<Newtonsoft::Json::TypeNameHandling>& dyn__itemTypeNameHandling();
+    ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling>& dyn__itemTypeNameHandling();
     // Get instance field reference: private System.Type <ItemConverterType>k__BackingField
-    System::Type*& dyn_$ItemConverterType$k__BackingField();
+    ::System::Type*& dyn_$ItemConverterType$k__BackingField();
     // Get instance field reference: private System.Object[] <ItemConverterParameters>k__BackingField
     ::ArrayW<::Il2CppObject*>& dyn_$ItemConverterParameters$k__BackingField();
     // Get instance field reference: private System.Type <NamingStrategyType>k__BackingField
-    System::Type*& dyn_$NamingStrategyType$k__BackingField();
+    ::System::Type*& dyn_$NamingStrategyType$k__BackingField();
     // Get instance field reference: private System.Object[] <NamingStrategyParameters>k__BackingField
     ::ArrayW<::Il2CppObject*>& dyn_$NamingStrategyParameters$k__BackingField();
     // Get instance field reference: private System.String <PropertyName>k__BackingField
     ::StringW& dyn_$PropertyName$k__BackingField();
     // public System.Type get_ItemConverterType()
     // Offset: 0x182FB28
-    System::Type* get_ItemConverterType();
+    ::System::Type* get_ItemConverterType();
     // public System.Object[] get_ItemConverterParameters()
     // Offset: 0x182FB30
     ::ArrayW<::Il2CppObject*> get_ItemConverterParameters();
     // public System.Type get_NamingStrategyType()
     // Offset: 0x182FB38
-    System::Type* get_NamingStrategyType();
+    ::System::Type* get_NamingStrategyType();
     // public System.Object[] get_NamingStrategyParameters()
     // Offset: 0x182FB40
     ::ArrayW<::Il2CppObject*> get_NamingStrategyParameters();
@@ -193,7 +193,7 @@ namespace Newtonsoft::Json {
     // Offset: 0x182FB58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JsonPropertyAttribute* New_ctor(::StringW propertyName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::JsonPropertyAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::JsonPropertyAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JsonPropertyAttribute*, creationType>(propertyName)));
     }
   }; // Newtonsoft.Json.JsonPropertyAttribute
@@ -203,7 +203,7 @@ namespace Newtonsoft::Json {
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonPropertyAttribute::get_ItemConverterType
 // Il2CppName: get_ItemConverterType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (Newtonsoft::Json::JsonPropertyAttribute::*)()>(&Newtonsoft::Json::JsonPropertyAttribute::get_ItemConverterType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (Newtonsoft::Json::JsonPropertyAttribute::*)()>(&Newtonsoft::Json::JsonPropertyAttribute::get_ItemConverterType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::JsonPropertyAttribute*), "get_ItemConverterType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -219,7 +219,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonPropertyAttribute::get_NamingStrategyType
 // Il2CppName: get_NamingStrategyType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (Newtonsoft::Json::JsonPropertyAttribute::*)()>(&Newtonsoft::Json::JsonPropertyAttribute::get_NamingStrategyType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (Newtonsoft::Json::JsonPropertyAttribute::*)()>(&Newtonsoft::Json::JsonPropertyAttribute::get_NamingStrategyType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::JsonPropertyAttribute*), "get_NamingStrategyType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

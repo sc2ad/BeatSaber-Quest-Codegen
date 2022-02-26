@@ -41,8 +41,8 @@ namespace System::Net::Sockets {
   class TcpListener;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::Sockets::TcpListener);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::TcpListener*, "System.Net.Sockets", "TcpListener");
+NEED_NO_BOX(::System::Net::Sockets::TcpListener);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::Sockets::TcpListener*, "System.Net.Sockets", "TcpListener");
 // Type namespace: System.Net.Sockets
 namespace System::Net::Sockets {
   // Size: 0x22
@@ -63,15 +63,15 @@ namespace System::Net::Sockets {
     // private System.Net.IPEndPoint m_ServerSocketEP
     // Size: 0x8
     // Offset: 0x10
-    System::Net::IPEndPoint* m_ServerSocketEP;
+    ::System::Net::IPEndPoint* m_ServerSocketEP;
     // Field size check
-    static_assert(sizeof(System::Net::IPEndPoint*) == 0x8);
+    static_assert(sizeof(::System::Net::IPEndPoint*) == 0x8);
     // private System.Net.Sockets.Socket m_ServerSocket
     // Size: 0x8
     // Offset: 0x18
-    System::Net::Sockets::Socket* m_ServerSocket;
+    ::System::Net::Sockets::Socket* m_ServerSocket;
     // Field size check
-    static_assert(sizeof(System::Net::Sockets::Socket*) == 0x8);
+    static_assert(sizeof(::System::Net::Sockets::Socket*) == 0x8);
     // private System.Boolean m_Active
     // Size: 0x1
     // Offset: 0x20
@@ -86,21 +86,21 @@ namespace System::Net::Sockets {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.Net.IPEndPoint m_ServerSocketEP
-    System::Net::IPEndPoint*& dyn_m_ServerSocketEP();
+    ::System::Net::IPEndPoint*& dyn_m_ServerSocketEP();
     // Get instance field reference: private System.Net.Sockets.Socket m_ServerSocket
-    System::Net::Sockets::Socket*& dyn_m_ServerSocket();
+    ::System::Net::Sockets::Socket*& dyn_m_ServerSocket();
     // Get instance field reference: private System.Boolean m_Active
     bool& dyn_m_Active();
     // Get instance field reference: private System.Boolean m_ExclusiveAddressUse
     bool& dyn_m_ExclusiveAddressUse();
     // public System.Net.EndPoint get_LocalEndpoint()
     // Offset: 0x1CB2544
-    System::Net::EndPoint* get_LocalEndpoint();
+    ::System::Net::EndPoint* get_LocalEndpoint();
     // public System.Void .ctor(System.Net.IPAddress localaddr, System.Int32 port)
     // Offset: 0x1CB23D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TcpListener* New_ctor(System::Net::IPAddress* localaddr, int port) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Sockets::TcpListener::.ctor");
+    static TcpListener* New_ctor(::System::Net::IPAddress* localaddr, int port) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Sockets::TcpListener::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TcpListener*, creationType>(localaddr, port)));
     }
     // public System.Void Start()
@@ -114,10 +114,10 @@ namespace System::Net::Sockets {
     void Stop();
     // public System.IAsyncResult BeginAcceptTcpClient(System.AsyncCallback callback, System.Object state)
     // Offset: 0x1CB27C8
-    System::IAsyncResult* BeginAcceptTcpClient(System::AsyncCallback* callback, ::Il2CppObject* state);
+    ::System::IAsyncResult* BeginAcceptTcpClient(::System::AsyncCallback* callback, ::Il2CppObject* state);
     // public System.Net.Sockets.TcpClient EndAcceptTcpClient(System.IAsyncResult asyncResult)
     // Offset: 0x1CB2884
-    System::Net::Sockets::TcpClient* EndAcceptTcpClient(System::IAsyncResult* asyncResult);
+    ::System::Net::Sockets::TcpClient* EndAcceptTcpClient(::System::IAsyncResult* asyncResult);
   }; // System.Net.Sockets.TcpListener
   #pragma pack(pop)
   static check_size<sizeof(TcpListener), 33 + sizeof(bool)> __System_Net_Sockets_TcpListenerSizeCheck;
@@ -127,7 +127,7 @@ namespace System::Net::Sockets {
 // Writing MetadataGetter for method: System::Net::Sockets::TcpListener::get_LocalEndpoint
 // Il2CppName: get_LocalEndpoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::EndPoint* (System::Net::Sockets::TcpListener::*)()>(&System::Net::Sockets::TcpListener::get_LocalEndpoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::EndPoint* (System::Net::Sockets::TcpListener::*)()>(&System::Net::Sockets::TcpListener::get_LocalEndpoint)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::TcpListener*), "get_LocalEndpoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -164,7 +164,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::Sockets::TcpListener::BeginAcceptTcpClient
 // Il2CppName: BeginAcceptTcpClient
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::Sockets::TcpListener::*)(System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::Sockets::TcpListener::BeginAcceptTcpClient)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (System::Net::Sockets::TcpListener::*)(::System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::Sockets::TcpListener::BeginAcceptTcpClient)> {
   static const MethodInfo* get() {
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -174,7 +174,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Writing MetadataGetter for method: System::Net::Sockets::TcpListener::EndAcceptTcpClient
 // Il2CppName: EndAcceptTcpClient
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::TcpClient* (System::Net::Sockets::TcpListener::*)(System::IAsyncResult*)>(&System::Net::Sockets::TcpListener::EndAcceptTcpClient)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Sockets::TcpClient* (System::Net::Sockets::TcpListener::*)(::System::IAsyncResult*)>(&System::Net::Sockets::TcpListener::EndAcceptTcpClient)> {
   static const MethodInfo* get() {
     static auto* asyncResult = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::TcpListener*), "EndAcceptTcpClient", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asyncResult});

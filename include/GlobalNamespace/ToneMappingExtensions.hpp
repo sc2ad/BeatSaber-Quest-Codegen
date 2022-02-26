@@ -21,8 +21,8 @@ namespace GlobalNamespace {
   class ToneMappingExtensions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::ToneMappingExtensions);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ToneMappingExtensions*, "", "ToneMappingExtensions");
+NEED_NO_BOX(::GlobalNamespace::ToneMappingExtensions);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ToneMappingExtensions*, "", "ToneMappingExtensions");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     static void _cctor();
     // static public System.Void SetShaderKeyword(ToneMapping toneMapping)
     // Offset: 0x2087240
-    static void SetShaderKeyword(GlobalNamespace::ToneMapping toneMapping);
+    static void SetShaderKeyword(::GlobalNamespace::ToneMapping toneMapping);
   }; // ToneMappingExtensions
   #pragma pack(pop)
 }
@@ -58,7 +58,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::ToneMappingExtensions::SetShaderKeyword
 // Il2CppName: SetShaderKeyword
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::ToneMapping)>(&GlobalNamespace::ToneMappingExtensions::SetShaderKeyword)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::ToneMapping)>(&GlobalNamespace::ToneMappingExtensions::SetShaderKeyword)> {
   static const MethodInfo* get() {
     static auto* toneMapping = &::il2cpp_utils::GetClassFromName("", "ToneMapping")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ToneMappingExtensions*), "SetShaderKeyword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{toneMapping});

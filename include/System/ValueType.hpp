@@ -21,8 +21,8 @@ namespace System {
   class ValueType;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::ValueType);
-DEFINE_IL2CPP_ARG_TYPE(System::ValueType*, "System", "ValueType");
+NEED_NO_BOX(::System::ValueType);
+DEFINE_IL2CPP_ARG_TYPE(::System::ValueType*, "System", "ValueType");
 // Type namespace: System
 namespace System {
   // Size: 0x0
@@ -47,7 +47,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ValueType* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::ValueType::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::ValueType::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ValueType*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object obj)

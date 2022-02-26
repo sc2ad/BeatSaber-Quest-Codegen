@@ -29,8 +29,8 @@ namespace GlobalNamespace {
   class PoseObject;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PoseObject);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PoseObject*, "", "PoseObject");
+NEED_NO_BOX(::GlobalNamespace::PoseObject);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PoseObject*, "", "PoseObject");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -51,43 +51,43 @@ namespace GlobalNamespace {
     // private UnityEngine.Transform _transform
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::Transform* transform;
+    ::UnityEngine::Transform* transform;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // private PoseObjectIdSO _poseObjectId
     // Size: 0x8
     // Offset: 0x18
-    GlobalNamespace::PoseObjectIdSO* poseObjectId;
+    ::GlobalNamespace::PoseObjectIdSO* poseObjectId;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::PoseObjectIdSO*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::PoseObjectIdSO*) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.Transform _transform
-    UnityEngine::Transform*& dyn__transform();
+    ::UnityEngine::Transform*& dyn__transform();
     // Get instance field reference: private PoseObjectIdSO _poseObjectId
-    GlobalNamespace::PoseObjectIdSO*& dyn__poseObjectId();
+    ::GlobalNamespace::PoseObjectIdSO*& dyn__poseObjectId();
     // public UnityEngine.Transform get_objectTransform()
     // Offset: 0x13E62D4
-    UnityEngine::Transform* get_objectTransform();
+    ::UnityEngine::Transform* get_objectTransform();
     // public System.String get_id()
     // Offset: 0x13E62DC
     ::StringW get_id();
     // public System.Void .ctor(UnityEngine.Transform transform, PoseObjectIdSO poseObjectId)
     // Offset: 0x13E62F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PoseObject* New_ctor(UnityEngine::Transform* transform, GlobalNamespace::PoseObjectIdSO* poseObjectId) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PoseObject::.ctor");
+    static PoseObject* New_ctor(::UnityEngine::Transform* transform, ::GlobalNamespace::PoseObjectIdSO* poseObjectId) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PoseObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PoseObject*, creationType>(transform, poseObjectId)));
     }
   }; // PoseObject
   #pragma pack(pop)
-  static check_size<sizeof(PoseObject), 24 + sizeof(GlobalNamespace::PoseObjectIdSO*)> __GlobalNamespace_PoseObjectSizeCheck;
+  static check_size<sizeof(PoseObject), 24 + sizeof(::GlobalNamespace::PoseObjectIdSO*)> __GlobalNamespace_PoseObjectSizeCheck;
   static_assert(sizeof(PoseObject) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PoseObject::get_objectTransform
 // Il2CppName: get_objectTransform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (GlobalNamespace::PoseObject::*)()>(&GlobalNamespace::PoseObject::get_objectTransform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Transform* (GlobalNamespace::PoseObject::*)()>(&GlobalNamespace::PoseObject::get_objectTransform)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PoseObject*), "get_objectTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

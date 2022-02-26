@@ -21,8 +21,8 @@ namespace RootMotion {
   class QuaTools;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::QuaTools);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::QuaTools*, "RootMotion", "QuaTools");
+NEED_NO_BOX(::RootMotion::QuaTools);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::QuaTools*, "RootMotion", "QuaTools");
 // Type namespace: RootMotion
 namespace RootMotion {
   // Size: 0x10
@@ -33,40 +33,40 @@ namespace RootMotion {
     public:
     // static public UnityEngine.Quaternion Lerp(UnityEngine.Quaternion fromRotation, UnityEngine.Quaternion toRotation, System.Single weight)
     // Offset: 0x1F1CF4C
-    static UnityEngine::Quaternion Lerp(UnityEngine::Quaternion fromRotation, UnityEngine::Quaternion toRotation, float weight);
+    static ::UnityEngine::Quaternion Lerp(::UnityEngine::Quaternion fromRotation, ::UnityEngine::Quaternion toRotation, float weight);
     // static public UnityEngine.Quaternion Slerp(UnityEngine.Quaternion fromRotation, UnityEngine.Quaternion toRotation, System.Single weight)
     // Offset: 0x1F1D098
-    static UnityEngine::Quaternion Slerp(UnityEngine::Quaternion fromRotation, UnityEngine::Quaternion toRotation, float weight);
+    static ::UnityEngine::Quaternion Slerp(::UnityEngine::Quaternion fromRotation, ::UnityEngine::Quaternion toRotation, float weight);
     // static public UnityEngine.Quaternion LinearBlend(UnityEngine.Quaternion q, System.Single weight)
     // Offset: 0x1F1D1E4
-    static UnityEngine::Quaternion LinearBlend(UnityEngine::Quaternion q, float weight);
+    static ::UnityEngine::Quaternion LinearBlend(::UnityEngine::Quaternion q, float weight);
     // static public UnityEngine.Quaternion SphericalBlend(UnityEngine.Quaternion q, System.Single weight)
     // Offset: 0x1F1D2F8
-    static UnityEngine::Quaternion SphericalBlend(UnityEngine::Quaternion q, float weight);
+    static ::UnityEngine::Quaternion SphericalBlend(::UnityEngine::Quaternion q, float weight);
     // static public UnityEngine.Quaternion FromToAroundAxis(UnityEngine.Vector3 fromDirection, UnityEngine.Vector3 toDirection, UnityEngine.Vector3 axis)
     // Offset: 0x1F1D40C
-    static UnityEngine::Quaternion FromToAroundAxis(UnityEngine::Vector3 fromDirection, UnityEngine::Vector3 toDirection, UnityEngine::Vector3 axis);
+    static ::UnityEngine::Quaternion FromToAroundAxis(::UnityEngine::Vector3 fromDirection, ::UnityEngine::Vector3 toDirection, ::UnityEngine::Vector3 axis);
     // static public UnityEngine.Quaternion RotationToLocalSpace(UnityEngine.Quaternion space, UnityEngine.Quaternion rotation)
     // Offset: 0x1F1D598
-    static UnityEngine::Quaternion RotationToLocalSpace(UnityEngine::Quaternion space, UnityEngine::Quaternion rotation);
+    static ::UnityEngine::Quaternion RotationToLocalSpace(::UnityEngine::Quaternion space, ::UnityEngine::Quaternion rotation);
     // static public UnityEngine.Quaternion FromToRotation(UnityEngine.Quaternion from, UnityEngine.Quaternion to)
     // Offset: 0x1F0E964
-    static UnityEngine::Quaternion FromToRotation(UnityEngine::Quaternion from, UnityEngine::Quaternion to);
+    static ::UnityEngine::Quaternion FromToRotation(::UnityEngine::Quaternion from, ::UnityEngine::Quaternion to);
     // static public UnityEngine.Vector3 GetAxis(UnityEngine.Vector3 v)
     // Offset: 0x1F1D668
-    static UnityEngine::Vector3 GetAxis(UnityEngine::Vector3 v);
+    static ::UnityEngine::Vector3 GetAxis(::UnityEngine::Vector3 v);
     // static public UnityEngine.Quaternion ClampRotation(UnityEngine.Quaternion rotation, System.Single clampWeight, System.Int32 clampSmoothing)
     // Offset: 0x1F1D8EC
-    static UnityEngine::Quaternion ClampRotation(UnityEngine::Quaternion rotation, float clampWeight, int clampSmoothing);
+    static ::UnityEngine::Quaternion ClampRotation(::UnityEngine::Quaternion rotation, float clampWeight, int clampSmoothing);
     // static public System.Single ClampAngle(System.Single angle, System.Single clampWeight, System.Int32 clampSmoothing)
     // Offset: 0x1F1DB00
     static float ClampAngle(float angle, float clampWeight, int clampSmoothing);
     // static public UnityEngine.Quaternion MatchRotation(UnityEngine.Quaternion targetRotation, UnityEngine.Vector3 targetforwardAxis, UnityEngine.Vector3 targetUpAxis, UnityEngine.Vector3 forwardAxis, UnityEngine.Vector3 upAxis)
     // Offset: 0x1F1741C
-    static UnityEngine::Quaternion MatchRotation(UnityEngine::Quaternion targetRotation, UnityEngine::Vector3 targetforwardAxis, UnityEngine::Vector3 targetUpAxis, UnityEngine::Vector3 forwardAxis, UnityEngine::Vector3 upAxis);
+    static ::UnityEngine::Quaternion MatchRotation(::UnityEngine::Quaternion targetRotation, ::UnityEngine::Vector3 targetforwardAxis, ::UnityEngine::Vector3 targetUpAxis, ::UnityEngine::Vector3 forwardAxis, ::UnityEngine::Vector3 upAxis);
     // static public UnityEngine.Vector3 ToBiPolar(UnityEngine.Vector3 euler)
     // Offset: 0x1F1DC80
-    static UnityEngine::Vector3 ToBiPolar(UnityEngine::Vector3 euler);
+    static ::UnityEngine::Vector3 ToBiPolar(::UnityEngine::Vector3 euler);
     // static public System.Single ToBiPolar(System.Single angle)
     // Offset: 0x1F1DD90
     static float ToBiPolar(float angle);
@@ -77,7 +77,7 @@ namespace RootMotion {
 // Writing MetadataGetter for method: RootMotion::QuaTools::Lerp
 // Il2CppName: Lerp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(UnityEngine::Quaternion, UnityEngine::Quaternion, float)>(&RootMotion::QuaTools::Lerp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Quaternion, ::UnityEngine::Quaternion, float)>(&RootMotion::QuaTools::Lerp)> {
   static const MethodInfo* get() {
     static auto* fromRotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     static auto* toRotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
@@ -88,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: RootMotion::QuaTools::Slerp
 // Il2CppName: Slerp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(UnityEngine::Quaternion, UnityEngine::Quaternion, float)>(&RootMotion::QuaTools::Slerp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Quaternion, ::UnityEngine::Quaternion, float)>(&RootMotion::QuaTools::Slerp)> {
   static const MethodInfo* get() {
     static auto* fromRotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     static auto* toRotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
@@ -99,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: RootMotion::QuaTools::LinearBlend
 // Il2CppName: LinearBlend
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(UnityEngine::Quaternion, float)>(&RootMotion::QuaTools::LinearBlend)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Quaternion, float)>(&RootMotion::QuaTools::LinearBlend)> {
   static const MethodInfo* get() {
     static auto* q = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     static auto* weight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -109,7 +109,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: RootMotion::QuaTools::SphericalBlend
 // Il2CppName: SphericalBlend
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(UnityEngine::Quaternion, float)>(&RootMotion::QuaTools::SphericalBlend)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Quaternion, float)>(&RootMotion::QuaTools::SphericalBlend)> {
   static const MethodInfo* get() {
     static auto* q = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     static auto* weight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -119,7 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: RootMotion::QuaTools::FromToAroundAxis
 // Il2CppName: FromToAroundAxis
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3)>(&RootMotion::QuaTools::FromToAroundAxis)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&RootMotion::QuaTools::FromToAroundAxis)> {
   static const MethodInfo* get() {
     static auto* fromDirection = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* toDirection = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -130,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: RootMotion::QuaTools::RotationToLocalSpace
 // Il2CppName: RotationToLocalSpace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(UnityEngine::Quaternion, UnityEngine::Quaternion)>(&RootMotion::QuaTools::RotationToLocalSpace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Quaternion, ::UnityEngine::Quaternion)>(&RootMotion::QuaTools::RotationToLocalSpace)> {
   static const MethodInfo* get() {
     static auto* space = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     static auto* rotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
@@ -140,7 +140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: RootMotion::QuaTools::FromToRotation
 // Il2CppName: FromToRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(UnityEngine::Quaternion, UnityEngine::Quaternion)>(&RootMotion::QuaTools::FromToRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Quaternion, ::UnityEngine::Quaternion)>(&RootMotion::QuaTools::FromToRotation)> {
   static const MethodInfo* get() {
     static auto* from = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     static auto* to = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
@@ -150,7 +150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: RootMotion::QuaTools::GetAxis
 // Il2CppName: GetAxis
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Vector3)>(&RootMotion::QuaTools::GetAxis)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3)>(&RootMotion::QuaTools::GetAxis)> {
   static const MethodInfo* get() {
     static auto* v = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::QuaTools*), "GetAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{v});
@@ -159,7 +159,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: RootMotion::QuaTools::ClampRotation
 // Il2CppName: ClampRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(UnityEngine::Quaternion, float, int)>(&RootMotion::QuaTools::ClampRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Quaternion, float, int)>(&RootMotion::QuaTools::ClampRotation)> {
   static const MethodInfo* get() {
     static auto* rotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     static auto* clampWeight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -181,7 +181,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(f
 // Writing MetadataGetter for method: RootMotion::QuaTools::MatchRotation
 // Il2CppName: MatchRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(UnityEngine::Quaternion, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3)>(&RootMotion::QuaTools::MatchRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Quaternion, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&RootMotion::QuaTools::MatchRotation)> {
   static const MethodInfo* get() {
     static auto* targetRotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     static auto* targetforwardAxis = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -194,7 +194,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: RootMotion::QuaTools::ToBiPolar
 // Il2CppName: ToBiPolar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Vector3)>(&RootMotion::QuaTools::ToBiPolar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3)>(&RootMotion::QuaTools::ToBiPolar)> {
   static const MethodInfo* get() {
     static auto* euler = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::QuaTools*), "ToBiPolar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{euler});

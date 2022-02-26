@@ -24,8 +24,8 @@ namespace System::Text {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRControllerTest::BoolMonitor);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRControllerTest::BoolMonitor*, "", "OVRControllerTest/BoolMonitor");
+NEED_NO_BOX(::GlobalNamespace::OVRControllerTest::BoolMonitor);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRControllerTest::BoolMonitor*, "", "OVRControllerTest/BoolMonitor");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x2C
@@ -34,7 +34,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRControllerTest::BoolMonitor : public ::Il2CppObject {
     public:
-    // Nested type: GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator
+    // Nested type: ::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator
     class BoolGenerator;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -54,9 +54,9 @@ namespace GlobalNamespace {
     // private OVRControllerTest/BoolMonitor/BoolGenerator m_generator
     // Size: 0x8
     // Offset: 0x18
-    GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* m_generator;
+    ::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* m_generator;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator*) == 0x8);
     // private System.Boolean m_prevValue
     // Size: 0x1
     // Offset: 0x20
@@ -93,7 +93,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String m_name
     ::StringW& dyn_m_name();
     // Get instance field reference: private OVRControllerTest/BoolMonitor/BoolGenerator m_generator
-    GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator*& dyn_m_generator();
+    ::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator*& dyn_m_generator();
     // Get instance field reference: private System.Boolean m_prevValue
     bool& dyn_m_prevValue();
     // Get instance field reference: private System.Boolean m_currentValue
@@ -107,8 +107,8 @@ namespace GlobalNamespace {
     // public System.Void .ctor(System.String name, OVRControllerTest/BoolMonitor/BoolGenerator generator, System.Single displayTimeout)
     // Offset: 0x15A7720
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static OVRControllerTest::BoolMonitor* New_ctor(::StringW name, GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* generator, float displayTimeout) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRControllerTest::BoolMonitor::.ctor");
+    static OVRControllerTest::BoolMonitor* New_ctor(::StringW name, ::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* generator, float displayTimeout) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRControllerTest::BoolMonitor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRControllerTest::BoolMonitor*, creationType>(name, generator, displayTimeout)));
     }
     // public System.Void Update()
@@ -116,7 +116,7 @@ namespace GlobalNamespace {
     void Update();
     // public System.Void AppendToStringBuilder(ref System.Text.StringBuilder sb)
     // Offset: 0x15A8094
-    void AppendToStringBuilder(ByRef<System::Text::StringBuilder*> sb);
+    void AppendToStringBuilder(ByRef<::System::Text::StringBuilder*> sb);
   }; // OVRControllerTest/BoolMonitor
   #pragma pack(pop)
   static check_size<sizeof(OVRControllerTest::BoolMonitor), 40 + sizeof(float)> __GlobalNamespace_OVRControllerTest_BoolMonitorSizeCheck;
@@ -138,7 +138,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::OVRControllerTest::BoolMonitor::AppendToStringBuilder
 // Il2CppName: AppendToStringBuilder
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRControllerTest::BoolMonitor::*)(ByRef<System::Text::StringBuilder*>)>(&GlobalNamespace::OVRControllerTest::BoolMonitor::AppendToStringBuilder)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRControllerTest::BoolMonitor::*)(ByRef<::System::Text::StringBuilder*>)>(&GlobalNamespace::OVRControllerTest::BoolMonitor::AppendToStringBuilder)> {
   static const MethodInfo* get() {
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRControllerTest::BoolMonitor*), "AppendToStringBuilder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sb});

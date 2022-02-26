@@ -24,8 +24,8 @@ namespace System::Xml::Schema {
   class SchemaNotation;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Schema::SchemaNotation);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::SchemaNotation*, "System.Xml.Schema", "SchemaNotation");
+NEED_NO_BOX(::System::Xml::Schema::SchemaNotation);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::SchemaNotation*, "System.Xml.Schema", "SchemaNotation");
 // Type namespace: System.Xml.Schema
 namespace System::Xml::Schema {
   // Size: 0x28
@@ -46,9 +46,9 @@ namespace System::Xml::Schema {
     // private System.Xml.XmlQualifiedName name
     // Size: 0x8
     // Offset: 0x10
-    System::Xml::XmlQualifiedName* name;
+    ::System::Xml::XmlQualifiedName* name;
     // Field size check
-    static_assert(sizeof(System::Xml::XmlQualifiedName*) == 0x8);
+    static_assert(sizeof(::System::Xml::XmlQualifiedName*) == 0x8);
     // private System.String systemLiteral
     // Size: 0x8
     // Offset: 0x18
@@ -63,14 +63,14 @@ namespace System::Xml::Schema {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.Xml.XmlQualifiedName name
-    System::Xml::XmlQualifiedName*& dyn_name();
+    ::System::Xml::XmlQualifiedName*& dyn_name();
     // Get instance field reference: private System.String systemLiteral
     ::StringW& dyn_systemLiteral();
     // Get instance field reference: private System.String pubid
     ::StringW& dyn_pubid();
     // System.Xml.XmlQualifiedName get_Name()
     // Offset: 0x1699FF4
-    System::Xml::XmlQualifiedName* get_Name();
+    ::System::Xml::XmlQualifiedName* get_Name();
     // System.String get_SystemLiteral()
     // Offset: 0x1699FFC
     ::StringW get_SystemLiteral();
@@ -86,8 +86,8 @@ namespace System::Xml::Schema {
     // System.Void .ctor(System.Xml.XmlQualifiedName name)
     // Offset: 0x1699FC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SchemaNotation* New_ctor(System::Xml::XmlQualifiedName* name) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Schema::SchemaNotation::.ctor");
+    static SchemaNotation* New_ctor(::System::Xml::XmlQualifiedName* name) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::SchemaNotation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SchemaNotation*, creationType>(name)));
     }
   }; // System.Xml.Schema.SchemaNotation
@@ -99,7 +99,7 @@ namespace System::Xml::Schema {
 // Writing MetadataGetter for method: System::Xml::Schema::SchemaNotation::get_Name
 // Il2CppName: get_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlQualifiedName* (System::Xml::Schema::SchemaNotation::*)()>(&System::Xml::Schema::SchemaNotation::get_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlQualifiedName* (System::Xml::Schema::SchemaNotation::*)()>(&System::Xml::Schema::SchemaNotation::get_Name)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::SchemaNotation*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

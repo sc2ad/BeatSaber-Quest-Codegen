@@ -21,8 +21,8 @@ namespace BeatSaberAPI::DataTransferObjects {
   class UserAuthenticationData;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(BeatSaberAPI::DataTransferObjects::UserAuthenticationData);
-DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::UserAuthenticationData*, "BeatSaberAPI.DataTransferObjects", "UserAuthenticationData");
+NEED_NO_BOX(::BeatSaberAPI::DataTransferObjects::UserAuthenticationData);
+DEFINE_IL2CPP_ARG_TYPE(::BeatSaberAPI::DataTransferObjects::UserAuthenticationData*, "BeatSaberAPI.DataTransferObjects", "UserAuthenticationData");
 // Type namespace: BeatSaberAPI.DataTransferObjects
 namespace BeatSaberAPI::DataTransferObjects {
   // Size: 0x40
@@ -43,15 +43,15 @@ namespace BeatSaberAPI::DataTransferObjects {
     // public BeatSaberAPI.DataTransferObjects.UserPlatform userPlatform
     // Size: 0x1
     // Offset: 0x10
-    BeatSaberAPI::DataTransferObjects::UserPlatform userPlatform;
+    ::BeatSaberAPI::DataTransferObjects::UserPlatform userPlatform;
     // Field size check
-    static_assert(sizeof(BeatSaberAPI::DataTransferObjects::UserPlatform) == 0x1);
+    static_assert(sizeof(::BeatSaberAPI::DataTransferObjects::UserPlatform) == 0x1);
     // public BeatSaberAPI.DataTransferObjects.PlatformEnviroment platformEnviroment
     // Size: 0x1
     // Offset: 0x11
-    BeatSaberAPI::DataTransferObjects::PlatformEnviroment platformEnviroment;
+    ::BeatSaberAPI::DataTransferObjects::PlatformEnviroment platformEnviroment;
     // Field size check
-    static_assert(sizeof(BeatSaberAPI::DataTransferObjects::PlatformEnviroment) == 0x1);
+    static_assert(sizeof(::BeatSaberAPI::DataTransferObjects::PlatformEnviroment) == 0x1);
     // Padding between fields: platformEnviroment and: platformUserId
     char __padding1[0x6] = {};
     // public System.String platformUserId
@@ -86,9 +86,9 @@ namespace BeatSaberAPI::DataTransferObjects {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public BeatSaberAPI.DataTransferObjects.UserPlatform userPlatform
-    BeatSaberAPI::DataTransferObjects::UserPlatform& dyn_userPlatform();
+    ::BeatSaberAPI::DataTransferObjects::UserPlatform& dyn_userPlatform();
     // Get instance field reference: public BeatSaberAPI.DataTransferObjects.PlatformEnviroment platformEnviroment
-    BeatSaberAPI::DataTransferObjects::PlatformEnviroment& dyn_platformEnviroment();
+    ::BeatSaberAPI::DataTransferObjects::PlatformEnviroment& dyn_platformEnviroment();
     // Get instance field reference: public System.String platformUserId
     ::StringW& dyn_platformUserId();
     // Get instance field reference: public System.String platformAuthToken
@@ -105,7 +105,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UserAuthenticationData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("BeatSaberAPI::DataTransferObjects::UserAuthenticationData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::BeatSaberAPI::DataTransferObjects::UserAuthenticationData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UserAuthenticationData*, creationType>()));
     }
   }; // BeatSaberAPI.DataTransferObjects.UserAuthenticationData

@@ -32,8 +32,8 @@ namespace TMPro {
   class TMP_FontFeatureTable;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(TMPro::TMP_FontFeatureTable);
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_FontFeatureTable*, "TMPro", "TMP_FontFeatureTable");
+NEED_NO_BOX(::TMPro::TMP_FontFeatureTable);
+DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_FontFeatureTable*, "TMPro", "TMP_FontFeatureTable");
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0x20
@@ -42,7 +42,7 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class TMP_FontFeatureTable : public ::Il2CppObject {
     public:
-    // Nested type: TMPro::TMP_FontFeatureTable::$$c
+    // Nested type: ::TMPro::TMP_FontFeatureTable::$$c
     class $$c;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -56,26 +56,26 @@ namespace TMPro {
     // System.Collections.Generic.List`1<TMPro.TMP_GlyphPairAdjustmentRecord> m_GlyphPairAdjustmentRecords
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::List_1<TMPro::TMP_GlyphPairAdjustmentRecord*>* m_GlyphPairAdjustmentRecords;
+    ::System::Collections::Generic::List_1<::TMPro::TMP_GlyphPairAdjustmentRecord*>* m_GlyphPairAdjustmentRecords;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<TMPro::TMP_GlyphPairAdjustmentRecord*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::TMPro::TMP_GlyphPairAdjustmentRecord*>*) == 0x8);
     // System.Collections.Generic.Dictionary`2<System.Int64,TMPro.TMP_GlyphPairAdjustmentRecord> m_GlyphPairAdjustmentRecordLookupDictionary
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::Generic::Dictionary_2<int64_t, TMPro::TMP_GlyphPairAdjustmentRecord*>* m_GlyphPairAdjustmentRecordLookupDictionary;
+    ::System::Collections::Generic::Dictionary_2<int64_t, ::TMPro::TMP_GlyphPairAdjustmentRecord*>* m_GlyphPairAdjustmentRecordLookupDictionary;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<int64_t, TMPro::TMP_GlyphPairAdjustmentRecord*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::Dictionary_2<int64_t, ::TMPro::TMP_GlyphPairAdjustmentRecord*>*) == 0x8);
     public:
     // Get instance field reference: System.Collections.Generic.List`1<TMPro.TMP_GlyphPairAdjustmentRecord> m_GlyphPairAdjustmentRecords
-    System::Collections::Generic::List_1<TMPro::TMP_GlyphPairAdjustmentRecord*>*& dyn_m_GlyphPairAdjustmentRecords();
+    ::System::Collections::Generic::List_1<::TMPro::TMP_GlyphPairAdjustmentRecord*>*& dyn_m_GlyphPairAdjustmentRecords();
     // Get instance field reference: System.Collections.Generic.Dictionary`2<System.Int64,TMPro.TMP_GlyphPairAdjustmentRecord> m_GlyphPairAdjustmentRecordLookupDictionary
-    System::Collections::Generic::Dictionary_2<int64_t, TMPro::TMP_GlyphPairAdjustmentRecord*>*& dyn_m_GlyphPairAdjustmentRecordLookupDictionary();
+    ::System::Collections::Generic::Dictionary_2<int64_t, ::TMPro::TMP_GlyphPairAdjustmentRecord*>*& dyn_m_GlyphPairAdjustmentRecordLookupDictionary();
     // System.Collections.Generic.List`1<TMPro.TMP_GlyphPairAdjustmentRecord> get_glyphPairAdjustmentRecords()
     // Offset: 0x1413424
-    System::Collections::Generic::List_1<TMPro::TMP_GlyphPairAdjustmentRecord*>* get_glyphPairAdjustmentRecords();
+    ::System::Collections::Generic::List_1<::TMPro::TMP_GlyphPairAdjustmentRecord*>* get_glyphPairAdjustmentRecords();
     // System.Void set_glyphPairAdjustmentRecords(System.Collections.Generic.List`1<TMPro.TMP_GlyphPairAdjustmentRecord> value)
     // Offset: 0x141342C
-    void set_glyphPairAdjustmentRecords(System::Collections::Generic::List_1<TMPro::TMP_GlyphPairAdjustmentRecord*>* value);
+    void set_glyphPairAdjustmentRecords(::System::Collections::Generic::List_1<::TMPro::TMP_GlyphPairAdjustmentRecord*>* value);
     // public System.Void SortGlyphPairAdjustmentRecords()
     // Offset: 0x1413434
     void SortGlyphPairAdjustmentRecords();
@@ -85,19 +85,19 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_FontFeatureTable* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_FontFeatureTable::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_FontFeatureTable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_FontFeatureTable*, creationType>()));
     }
   }; // TMPro.TMP_FontFeatureTable
   #pragma pack(pop)
-  static check_size<sizeof(TMP_FontFeatureTable), 24 + sizeof(System::Collections::Generic::Dictionary_2<int64_t, TMPro::TMP_GlyphPairAdjustmentRecord*>*)> __TMPro_TMP_FontFeatureTableSizeCheck;
+  static check_size<sizeof(TMP_FontFeatureTable), 24 + sizeof(::System::Collections::Generic::Dictionary_2<int64_t, ::TMPro::TMP_GlyphPairAdjustmentRecord*>*)> __TMPro_TMP_FontFeatureTableSizeCheck;
   static_assert(sizeof(TMP_FontFeatureTable) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_FontFeatureTable::get_glyphPairAdjustmentRecords
 // Il2CppName: get_glyphPairAdjustmentRecords
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<TMPro::TMP_GlyphPairAdjustmentRecord*>* (TMPro::TMP_FontFeatureTable::*)()>(&TMPro::TMP_FontFeatureTable::get_glyphPairAdjustmentRecords)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::TMPro::TMP_GlyphPairAdjustmentRecord*>* (TMPro::TMP_FontFeatureTable::*)()>(&TMPro::TMP_FontFeatureTable::get_glyphPairAdjustmentRecords)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontFeatureTable*), "get_glyphPairAdjustmentRecords", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -105,7 +105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: TMPro::TMP_FontFeatureTable::set_glyphPairAdjustmentRecords
 // Il2CppName: set_glyphPairAdjustmentRecords
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontFeatureTable::*)(System::Collections::Generic::List_1<TMPro::TMP_GlyphPairAdjustmentRecord*>*)>(&TMPro::TMP_FontFeatureTable::set_glyphPairAdjustmentRecords)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontFeatureTable::*)(::System::Collections::Generic::List_1<::TMPro::TMP_GlyphPairAdjustmentRecord*>*)>(&TMPro::TMP_FontFeatureTable::set_glyphPairAdjustmentRecords)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("TMPro", "TMP_GlyphPairAdjustmentRecord")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontFeatureTable*), "set_glyphPairAdjustmentRecords", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

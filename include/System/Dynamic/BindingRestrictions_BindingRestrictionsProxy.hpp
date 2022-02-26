@@ -9,8 +9,8 @@
 #include "System/Dynamic/BindingRestrictions.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Dynamic::BindingRestrictions::BindingRestrictionsProxy);
-DEFINE_IL2CPP_ARG_TYPE(System::Dynamic::BindingRestrictions::BindingRestrictionsProxy*, "System.Dynamic", "BindingRestrictions/BindingRestrictionsProxy");
+NEED_NO_BOX(::System::Dynamic::BindingRestrictions::BindingRestrictionsProxy);
+DEFINE_IL2CPP_ARG_TYPE(::System::Dynamic::BindingRestrictions::BindingRestrictionsProxy*, "System.Dynamic", "BindingRestrictions/BindingRestrictionsProxy");
 // Type namespace: System.Dynamic
 namespace System::Dynamic {
   // Size: 0x10

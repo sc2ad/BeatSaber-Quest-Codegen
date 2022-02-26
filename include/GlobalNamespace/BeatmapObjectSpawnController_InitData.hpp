@@ -15,8 +15,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BeatmapObjectSpawnController::InitData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectSpawnController::InitData*, "", "BeatmapObjectSpawnController/InitData");
+NEED_NO_BOX(::GlobalNamespace::BeatmapObjectSpawnController::InitData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapObjectSpawnController::InitData*, "", "BeatmapObjectSpawnController/InitData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x28
@@ -55,9 +55,9 @@ namespace GlobalNamespace {
     // public readonly BeatmapObjectSpawnMovementData/NoteJumpValueType noteJumpValueType
     // Size: 0x4
     // Offset: 0x1C
-    GlobalNamespace::BeatmapObjectSpawnMovementData::NoteJumpValueType noteJumpValueType;
+    ::GlobalNamespace::BeatmapObjectSpawnMovementData::NoteJumpValueType noteJumpValueType;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::BeatmapObjectSpawnMovementData::NoteJumpValueType) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::BeatmapObjectSpawnMovementData::NoteJumpValueType) == 0x4);
     // public readonly System.Single noteJumpValue
     // Size: 0x4
     // Offset: 0x20
@@ -78,7 +78,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Single noteJumpMovementSpeed
     float& dyn_noteJumpMovementSpeed();
     // Get instance field reference: public readonly BeatmapObjectSpawnMovementData/NoteJumpValueType noteJumpValueType
-    GlobalNamespace::BeatmapObjectSpawnMovementData::NoteJumpValueType& dyn_noteJumpValueType();
+    ::GlobalNamespace::BeatmapObjectSpawnMovementData::NoteJumpValueType& dyn_noteJumpValueType();
     // Get instance field reference: public readonly System.Single noteJumpValue
     float& dyn_noteJumpValue();
     // Get instance field reference: public readonly System.Single jumpOffsetY
@@ -86,8 +86,8 @@ namespace GlobalNamespace {
     // public System.Void .ctor(System.Single beatsPerMinute, System.Int32 noteLinesCount, System.Single noteJumpMovementSpeed, BeatmapObjectSpawnMovementData/NoteJumpValueType noteJumpValueType, System.Single noteJumpValue, System.Single jumpOffsetY)
     // Offset: 0x14CE6E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BeatmapObjectSpawnController::InitData* New_ctor(float beatsPerMinute, int noteLinesCount, float noteJumpMovementSpeed, GlobalNamespace::BeatmapObjectSpawnMovementData::NoteJumpValueType noteJumpValueType, float noteJumpValue, float jumpOffsetY) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapObjectSpawnController::InitData::.ctor");
+    static BeatmapObjectSpawnController::InitData* New_ctor(float beatsPerMinute, int noteLinesCount, float noteJumpMovementSpeed, ::GlobalNamespace::BeatmapObjectSpawnMovementData::NoteJumpValueType noteJumpValueType, float noteJumpValue, float jumpOffsetY) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectSpawnController::InitData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectSpawnController::InitData*, creationType>(beatsPerMinute, noteLinesCount, noteJumpMovementSpeed, noteJumpValueType, noteJumpValue, jumpOffsetY)));
     }
   }; // BeatmapObjectSpawnController/InitData

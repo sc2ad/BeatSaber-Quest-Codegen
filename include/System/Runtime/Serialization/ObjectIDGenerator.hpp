@@ -17,8 +17,8 @@ namespace System::Runtime::Serialization {
   class ObjectIDGenerator;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Serialization::ObjectIDGenerator);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::ObjectIDGenerator*, "System.Runtime.Serialization", "ObjectIDGenerator");
+NEED_NO_BOX(::System::Runtime::Serialization::ObjectIDGenerator);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::ObjectIDGenerator*, "System.Runtime.Serialization", "ObjectIDGenerator");
 // Type namespace: System.Runtime.Serialization
 namespace System::Runtime::Serialization {
   // Size: 0x28
@@ -95,7 +95,7 @@ namespace System::Runtime::Serialization {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjectIDGenerator* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::ObjectIDGenerator::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::ObjectIDGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectIDGenerator*, creationType>()));
     }
   }; // System.Runtime.Serialization.ObjectIDGenerator

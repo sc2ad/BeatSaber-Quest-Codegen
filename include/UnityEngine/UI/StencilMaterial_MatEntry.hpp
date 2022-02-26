@@ -26,8 +26,8 @@ namespace UnityEngine {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::UI::StencilMaterial::MatEntry);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::StencilMaterial::MatEntry*, "UnityEngine.UI", "StencilMaterial/MatEntry");
+NEED_NO_BOX(::UnityEngine::UI::StencilMaterial::MatEntry);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::StencilMaterial::MatEntry*, "UnityEngine.UI", "StencilMaterial/MatEntry");
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {
   // Size: 0x40
@@ -48,15 +48,15 @@ namespace UnityEngine::UI {
     // public UnityEngine.Material baseMat
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::Material* baseMat;
+    ::UnityEngine::Material* baseMat;
     // Field size check
-    static_assert(sizeof(UnityEngine::Material*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Material*) == 0x8);
     // public UnityEngine.Material customMat
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::Material* customMat;
+    ::UnityEngine::Material* customMat;
     // Field size check
-    static_assert(sizeof(UnityEngine::Material*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Material*) == 0x8);
     // public System.Int32 count
     // Size: 0x4
     // Offset: 0x20
@@ -72,15 +72,15 @@ namespace UnityEngine::UI {
     // public UnityEngine.Rendering.StencilOp operation
     // Size: 0x4
     // Offset: 0x28
-    UnityEngine::Rendering::StencilOp operation;
+    ::UnityEngine::Rendering::StencilOp operation;
     // Field size check
-    static_assert(sizeof(UnityEngine::Rendering::StencilOp) == 0x4);
+    static_assert(sizeof(::UnityEngine::Rendering::StencilOp) == 0x4);
     // public UnityEngine.Rendering.CompareFunction compareFunction
     // Size: 0x4
     // Offset: 0x2C
-    UnityEngine::Rendering::CompareFunction compareFunction;
+    ::UnityEngine::Rendering::CompareFunction compareFunction;
     // Field size check
-    static_assert(sizeof(UnityEngine::Rendering::CompareFunction) == 0x4);
+    static_assert(sizeof(::UnityEngine::Rendering::CompareFunction) == 0x4);
     // public System.Int32 readMask
     // Size: 0x4
     // Offset: 0x30
@@ -104,22 +104,22 @@ namespace UnityEngine::UI {
     // public UnityEngine.Rendering.ColorWriteMask colorMask
     // Size: 0x4
     // Offset: 0x3C
-    UnityEngine::Rendering::ColorWriteMask colorMask;
+    ::UnityEngine::Rendering::ColorWriteMask colorMask;
     // Field size check
-    static_assert(sizeof(UnityEngine::Rendering::ColorWriteMask) == 0x4);
+    static_assert(sizeof(::UnityEngine::Rendering::ColorWriteMask) == 0x4);
     public:
     // Get instance field reference: public UnityEngine.Material baseMat
-    UnityEngine::Material*& dyn_baseMat();
+    ::UnityEngine::Material*& dyn_baseMat();
     // Get instance field reference: public UnityEngine.Material customMat
-    UnityEngine::Material*& dyn_customMat();
+    ::UnityEngine::Material*& dyn_customMat();
     // Get instance field reference: public System.Int32 count
     int& dyn_count();
     // Get instance field reference: public System.Int32 stencilId
     int& dyn_stencilId();
     // Get instance field reference: public UnityEngine.Rendering.StencilOp operation
-    UnityEngine::Rendering::StencilOp& dyn_operation();
+    ::UnityEngine::Rendering::StencilOp& dyn_operation();
     // Get instance field reference: public UnityEngine.Rendering.CompareFunction compareFunction
-    UnityEngine::Rendering::CompareFunction& dyn_compareFunction();
+    ::UnityEngine::Rendering::CompareFunction& dyn_compareFunction();
     // Get instance field reference: public System.Int32 readMask
     int& dyn_readMask();
     // Get instance field reference: public System.Int32 writeMask
@@ -127,19 +127,19 @@ namespace UnityEngine::UI {
     // Get instance field reference: public System.Boolean useAlphaClip
     bool& dyn_useAlphaClip();
     // Get instance field reference: public UnityEngine.Rendering.ColorWriteMask colorMask
-    UnityEngine::Rendering::ColorWriteMask& dyn_colorMask();
+    ::UnityEngine::Rendering::ColorWriteMask& dyn_colorMask();
     // public System.Void .ctor()
     // Offset: 0x2A12190
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StencilMaterial::MatEntry* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::StencilMaterial::MatEntry::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::StencilMaterial::MatEntry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StencilMaterial::MatEntry*, creationType>()));
     }
   }; // UnityEngine.UI.StencilMaterial/UnityEngine.UI.MatEntry
   #pragma pack(pop)
-  static check_size<sizeof(StencilMaterial::MatEntry), 60 + sizeof(UnityEngine::Rendering::ColorWriteMask)> __UnityEngine_UI_StencilMaterial_MatEntrySizeCheck;
+  static check_size<sizeof(StencilMaterial::MatEntry), 60 + sizeof(::UnityEngine::Rendering::ColorWriteMask)> __UnityEngine_UI_StencilMaterial_MatEntrySizeCheck;
   static_assert(sizeof(StencilMaterial::MatEntry) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

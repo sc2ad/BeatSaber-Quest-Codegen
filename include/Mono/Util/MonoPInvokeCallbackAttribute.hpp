@@ -25,8 +25,8 @@ namespace Mono::Util {
   class MonoPInvokeCallbackAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Util::MonoPInvokeCallbackAttribute);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Util::MonoPInvokeCallbackAttribute*, "Mono.Util", "MonoPInvokeCallbackAttribute");
+NEED_NO_BOX(::Mono::Util::MonoPInvokeCallbackAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Util::MonoPInvokeCallbackAttribute*, "Mono.Util", "MonoPInvokeCallbackAttribute");
 // Type namespace: Mono.Util
 namespace Mono::Util {
   // Size: 0x10
@@ -37,13 +37,13 @@ namespace Mono::Util {
   // [ConditionalAttribute] Offset: 1199070
   // [ConditionalAttribute] Offset: 1199070
   // [ConditionalAttribute] Offset: 1199070
-  class MonoPInvokeCallbackAttribute : public System::Attribute {
+  class MonoPInvokeCallbackAttribute : public ::System::Attribute {
     public:
     // public System.Void .ctor(System.Type t)
     // Offset: 0x1DE7B94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MonoPInvokeCallbackAttribute* New_ctor(System::Type* t) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Util::MonoPInvokeCallbackAttribute::.ctor");
+    static MonoPInvokeCallbackAttribute* New_ctor(::System::Type* t) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Util::MonoPInvokeCallbackAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoPInvokeCallbackAttribute*, creationType>(t)));
     }
   }; // Mono.Util.MonoPInvokeCallbackAttribute

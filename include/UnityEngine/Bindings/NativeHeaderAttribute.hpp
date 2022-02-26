@@ -19,8 +19,8 @@ namespace UnityEngine::Bindings {
   class NativeHeaderAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Bindings::NativeHeaderAttribute);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativeHeaderAttribute*, "UnityEngine.Bindings", "NativeHeaderAttribute");
+NEED_NO_BOX(::UnityEngine::Bindings::NativeHeaderAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Bindings::NativeHeaderAttribute*, "UnityEngine.Bindings", "NativeHeaderAttribute");
 // Type namespace: UnityEngine.Bindings
 namespace UnityEngine::Bindings {
   // Size: 0x18
@@ -29,7 +29,7 @@ namespace UnityEngine::Bindings {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AttributeUsageAttribute] Offset: 11A1124
   // [VisibleToOtherModulesAttribute] Offset: FFFFFFFF
-  class NativeHeaderAttribute : public System::Attribute {
+  class NativeHeaderAttribute : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -61,7 +61,7 @@ namespace UnityEngine::Bindings {
     // Offset: 0x2A56FB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NativeHeaderAttribute* New_ctor(::StringW header) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::NativeHeaderAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Bindings::NativeHeaderAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativeHeaderAttribute*, creationType>(header)));
     }
   }; // UnityEngine.Bindings.NativeHeaderAttribute

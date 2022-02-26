@@ -14,8 +14,8 @@ namespace UnityEngine {
   class AudioListener;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::AudioListener);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioListener*, "UnityEngine", "AudioListener");
+NEED_NO_BOX(::UnityEngine::AudioListener);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AudioListener*, "UnityEngine", "AudioListener");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -24,7 +24,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [StaticAccessorAttribute] Offset: 11D7680
   // [RequireComponent] Offset: 11D7680
-  class AudioListener : public UnityEngine::AudioBehaviour {
+  class AudioListener : public ::UnityEngine::AudioBehaviour {
     public:
     // static public System.Boolean get_pause()
     // Offset: 0x2A3EF60

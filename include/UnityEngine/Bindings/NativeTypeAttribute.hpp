@@ -21,8 +21,8 @@ namespace UnityEngine::Bindings {
   class NativeTypeAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Bindings::NativeTypeAttribute);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativeTypeAttribute*, "UnityEngine.Bindings", "NativeTypeAttribute");
+NEED_NO_BOX(::UnityEngine::Bindings::NativeTypeAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Bindings::NativeTypeAttribute*, "UnityEngine.Bindings", "NativeTypeAttribute");
 // Type namespace: UnityEngine.Bindings
 namespace UnityEngine::Bindings {
   // Size: 0x24
@@ -31,7 +31,7 @@ namespace UnityEngine::Bindings {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AttributeUsageAttribute] Offset: 11A12B8
   // [VisibleToOtherModulesAttribute] Offset: FFFFFFFF
-  class NativeTypeAttribute : public System::Attribute {
+  class NativeTypeAttribute : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -60,16 +60,16 @@ namespace UnityEngine::Bindings {
     // private UnityEngine.Bindings.CodegenOptions <CodegenOptions>k__BackingField
     // Size: 0x4
     // Offset: 0x20
-    UnityEngine::Bindings::CodegenOptions CodegenOptions;
+    ::UnityEngine::Bindings::CodegenOptions CodegenOptions;
     // Field size check
-    static_assert(sizeof(UnityEngine::Bindings::CodegenOptions) == 0x4);
+    static_assert(sizeof(::UnityEngine::Bindings::CodegenOptions) == 0x4);
     public:
     // Get instance field reference: private System.String <Header>k__BackingField
     ::StringW& dyn_$Header$k__BackingField();
     // Get instance field reference: private System.String <IntermediateScriptingStructName>k__BackingField
     ::StringW& dyn_$IntermediateScriptingStructName$k__BackingField();
     // Get instance field reference: private UnityEngine.Bindings.CodegenOptions <CodegenOptions>k__BackingField
-    UnityEngine::Bindings::CodegenOptions& dyn_$CodegenOptions$k__BackingField();
+    ::UnityEngine::Bindings::CodegenOptions& dyn_$CodegenOptions$k__BackingField();
     // public System.Void set_Header(System.String value)
     // Offset: 0x2A57348
     void set_Header(::StringW value);
@@ -78,26 +78,26 @@ namespace UnityEngine::Bindings {
     void set_IntermediateScriptingStructName(::StringW value);
     // public System.Void set_CodegenOptions(UnityEngine.Bindings.CodegenOptions value)
     // Offset: 0x2A57358
-    void set_CodegenOptions(UnityEngine::Bindings::CodegenOptions value);
+    void set_CodegenOptions(::UnityEngine::Bindings::CodegenOptions value);
     // public System.Void .ctor(UnityEngine.Bindings.CodegenOptions codegenOptions)
     // Offset: 0x2A57388
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static NativeTypeAttribute* New_ctor(UnityEngine::Bindings::CodegenOptions codegenOptions) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::NativeTypeAttribute::.ctor");
+    static NativeTypeAttribute* New_ctor(::UnityEngine::Bindings::CodegenOptions codegenOptions) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Bindings::NativeTypeAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativeTypeAttribute*, creationType>(codegenOptions)));
     }
     // public System.Void .ctor(System.String header)
     // Offset: 0x2A573B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NativeTypeAttribute* New_ctor(::StringW header) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::NativeTypeAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Bindings::NativeTypeAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativeTypeAttribute*, creationType>(header)));
     }
     // public System.Void .ctor(UnityEngine.Bindings.CodegenOptions codegenOptions, System.String intermediateStructName)
     // Offset: 0x2A574A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static NativeTypeAttribute* New_ctor(UnityEngine::Bindings::CodegenOptions codegenOptions, ::StringW intermediateStructName) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::NativeTypeAttribute::.ctor");
+    static NativeTypeAttribute* New_ctor(::UnityEngine::Bindings::CodegenOptions codegenOptions, ::StringW intermediateStructName) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Bindings::NativeTypeAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativeTypeAttribute*, creationType>(codegenOptions, intermediateStructName)));
     }
     // public System.Void .ctor()
@@ -107,12 +107,12 @@ namespace UnityEngine::Bindings {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NativeTypeAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::NativeTypeAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Bindings::NativeTypeAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativeTypeAttribute*, creationType>()));
     }
   }; // UnityEngine.Bindings.NativeTypeAttribute
   #pragma pack(pop)
-  static check_size<sizeof(NativeTypeAttribute), 32 + sizeof(UnityEngine::Bindings::CodegenOptions)> __UnityEngine_Bindings_NativeTypeAttributeSizeCheck;
+  static check_size<sizeof(NativeTypeAttribute), 32 + sizeof(::UnityEngine::Bindings::CodegenOptions)> __UnityEngine_Bindings_NativeTypeAttributeSizeCheck;
   static_assert(sizeof(NativeTypeAttribute) == 0x24);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -137,7 +137,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Bindings::NativeTypeAttribute::set_CodegenOptions
 // Il2CppName: set_CodegenOptions
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Bindings::NativeTypeAttribute::*)(UnityEngine::Bindings::CodegenOptions)>(&UnityEngine::Bindings::NativeTypeAttribute::set_CodegenOptions)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Bindings::NativeTypeAttribute::*)(::UnityEngine::Bindings::CodegenOptions)>(&UnityEngine::Bindings::NativeTypeAttribute::set_CodegenOptions)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.Bindings", "CodegenOptions")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Bindings::NativeTypeAttribute*), "set_CodegenOptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

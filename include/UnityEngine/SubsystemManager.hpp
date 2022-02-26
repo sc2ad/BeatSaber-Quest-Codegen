@@ -20,8 +20,8 @@ namespace UnityEngine {
   class SubsystemManager;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::SubsystemManager);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SubsystemManager*, "UnityEngine", "SubsystemManager");
+NEED_NO_BOX(::UnityEngine::SubsystemManager);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::SubsystemManager*, "UnityEngine", "SubsystemManager");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -33,14 +33,14 @@ namespace UnityEngine {
     public:
     // [DebuggerBrowsableAttribute] Offset: 0x11BC34C
     // Get static field: static private System.Action reloadSubsytemsStarted
-    static System::Action* _get_reloadSubsytemsStarted();
+    static ::System::Action* _get_reloadSubsytemsStarted();
     // Set static field: static private System.Action reloadSubsytemsStarted
-    static void _set_reloadSubsytemsStarted(System::Action* value);
+    static void _set_reloadSubsytemsStarted(::System::Action* value);
     // [DebuggerBrowsableAttribute] Offset: 0x11BC388
     // Get static field: static private System.Action reloadSubsytemsCompleted
-    static System::Action* _get_reloadSubsytemsCompleted();
+    static ::System::Action* _get_reloadSubsytemsCompleted();
     // Set static field: static private System.Action reloadSubsytemsCompleted
-    static void _set_reloadSubsytemsCompleted(System::Action* value);
+    static void _set_reloadSubsytemsCompleted(::System::Action* value);
     // static private System.Void .cctor()
     // Offset: 0x2A5D208
     static void _cctor();

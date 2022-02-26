@@ -16,8 +16,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::XmlTextReaderImpl::XmlContext);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlTextReaderImpl::XmlContext*, "System.Xml", "XmlTextReaderImpl/XmlContext");
+NEED_NO_BOX(::System::Xml::XmlTextReaderImpl::XmlContext);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlTextReaderImpl::XmlContext*, "System.Xml", "XmlTextReaderImpl/XmlContext");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x30
@@ -38,9 +38,9 @@ namespace System::Xml {
     // System.Xml.XmlSpace xmlSpace
     // Size: 0x4
     // Offset: 0x10
-    System::Xml::XmlSpace xmlSpace;
+    ::System::Xml::XmlSpace xmlSpace;
     // Field size check
-    static_assert(sizeof(System::Xml::XmlSpace) == 0x4);
+    static_assert(sizeof(::System::Xml::XmlSpace) == 0x4);
     // Padding between fields: xmlSpace and: xmlLang
     char __padding0[0x4] = {};
     // System.String xmlLang
@@ -58,23 +58,23 @@ namespace System::Xml {
     // System.Xml.XmlTextReaderImpl/System.Xml.XmlContext previousContext
     // Size: 0x8
     // Offset: 0x28
-    System::Xml::XmlTextReaderImpl::XmlContext* previousContext;
+    ::System::Xml::XmlTextReaderImpl::XmlContext* previousContext;
     // Field size check
-    static_assert(sizeof(System::Xml::XmlTextReaderImpl::XmlContext*) == 0x8);
+    static_assert(sizeof(::System::Xml::XmlTextReaderImpl::XmlContext*) == 0x8);
     public:
     // Get instance field reference: System.Xml.XmlSpace xmlSpace
-    System::Xml::XmlSpace& dyn_xmlSpace();
+    ::System::Xml::XmlSpace& dyn_xmlSpace();
     // Get instance field reference: System.String xmlLang
     ::StringW& dyn_xmlLang();
     // Get instance field reference: System.String defaultNamespace
     ::StringW& dyn_defaultNamespace();
     // Get instance field reference: System.Xml.XmlTextReaderImpl/System.Xml.XmlContext previousContext
-    System::Xml::XmlTextReaderImpl::XmlContext*& dyn_previousContext();
+    ::System::Xml::XmlTextReaderImpl::XmlContext*& dyn_previousContext();
     // System.Void .ctor(System.Xml.XmlTextReaderImpl/System.Xml.XmlContext previousContext)
     // Offset: 0x1BAEB28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlTextReaderImpl::XmlContext* New_ctor(System::Xml::XmlTextReaderImpl::XmlContext* previousContext) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlTextReaderImpl::XmlContext::.ctor");
+    static XmlTextReaderImpl::XmlContext* New_ctor(::System::Xml::XmlTextReaderImpl::XmlContext* previousContext) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlTextReaderImpl::XmlContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlTextReaderImpl::XmlContext*, creationType>(previousContext)));
     }
     // System.Void .ctor()
@@ -83,12 +83,12 @@ namespace System::Xml {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlTextReaderImpl::XmlContext* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlTextReaderImpl::XmlContext::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlTextReaderImpl::XmlContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlTextReaderImpl::XmlContext*, creationType>()));
     }
   }; // System.Xml.XmlTextReaderImpl/System.Xml.XmlContext
   #pragma pack(pop)
-  static check_size<sizeof(XmlTextReaderImpl::XmlContext), 40 + sizeof(System::Xml::XmlTextReaderImpl::XmlContext*)> __System_Xml_XmlTextReaderImpl_XmlContextSizeCheck;
+  static check_size<sizeof(XmlTextReaderImpl::XmlContext), 40 + sizeof(::System::Xml::XmlTextReaderImpl::XmlContext*)> __System_Xml_XmlTextReaderImpl_XmlContextSizeCheck;
   static_assert(sizeof(XmlTextReaderImpl::XmlContext) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

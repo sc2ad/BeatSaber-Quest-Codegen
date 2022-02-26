@@ -25,8 +25,8 @@ namespace System::Xml {
   class IXmlNamespaceResolver;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::IXmlNamespaceResolver);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::IXmlNamespaceResolver*, "System.Xml", "IXmlNamespaceResolver");
+NEED_NO_BOX(::System::Xml::IXmlNamespaceResolver);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::IXmlNamespaceResolver*, "System.Xml", "IXmlNamespaceResolver");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x10
@@ -37,7 +37,7 @@ namespace System::Xml {
     public:
     // public System.Collections.Generic.IDictionary`2<System.String,System.String> GetNamespacesInScope(System.Xml.XmlNamespaceScope scope)
     // Offset: 0xFFFFFFFF
-    System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* GetNamespacesInScope(System::Xml::XmlNamespaceScope scope);
+    ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* GetNamespacesInScope(::System::Xml::XmlNamespaceScope scope);
     // public System.String LookupNamespace(System.String prefix)
     // Offset: 0xFFFFFFFF
     ::StringW LookupNamespace(::StringW prefix);
@@ -51,7 +51,7 @@ namespace System::Xml {
 // Writing MetadataGetter for method: System::Xml::IXmlNamespaceResolver::GetNamespacesInScope
 // Il2CppName: GetNamespacesInScope
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* (System::Xml::IXmlNamespaceResolver::*)(System::Xml::XmlNamespaceScope)>(&System::Xml::IXmlNamespaceResolver::GetNamespacesInScope)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* (System::Xml::IXmlNamespaceResolver::*)(::System::Xml::XmlNamespaceScope)>(&System::Xml::IXmlNamespaceResolver::GetNamespacesInScope)> {
   static const MethodInfo* get() {
     static auto* scope = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNamespaceScope")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::IXmlNamespaceResolver*), "GetNamespacesInScope", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scope});

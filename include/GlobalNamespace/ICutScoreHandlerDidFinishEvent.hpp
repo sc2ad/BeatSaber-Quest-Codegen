@@ -18,8 +18,8 @@ namespace GlobalNamespace {
   class ICutScoreHandlerDidFinishEvent;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::ICutScoreHandlerDidFinishEvent);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ICutScoreHandlerDidFinishEvent*, "", "ICutScoreHandlerDidFinishEvent");
+NEED_NO_BOX(::GlobalNamespace::ICutScoreHandlerDidFinishEvent);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ICutScoreHandlerDidFinishEvent*, "", "ICutScoreHandlerDidFinishEvent");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -30,7 +30,7 @@ namespace GlobalNamespace {
     public:
     // public System.Void HandleCutScoreHandlerDidFinish(BeatmapObjectExecutionRatingsRecorder/CutScoreHandler cutScoreHandler)
     // Offset: 0xFFFFFFFF
-    void HandleCutScoreHandlerDidFinish(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder_CutScoreHandler* cutScoreHandler);
+    void HandleCutScoreHandlerDidFinish(::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder_CutScoreHandler* cutScoreHandler);
   }; // ICutScoreHandlerDidFinishEvent
   #pragma pack(pop)
 }
@@ -38,7 +38,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::ICutScoreHandlerDidFinishEvent::HandleCutScoreHandlerDidFinish
 // Il2CppName: HandleCutScoreHandlerDidFinish
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ICutScoreHandlerDidFinishEvent::*)(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder_CutScoreHandler*)>(&GlobalNamespace::ICutScoreHandlerDidFinishEvent::HandleCutScoreHandlerDidFinish)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ICutScoreHandlerDidFinishEvent::*)(::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder_CutScoreHandler*)>(&GlobalNamespace::ICutScoreHandlerDidFinishEvent::HandleCutScoreHandlerDidFinish)> {
   static const MethodInfo* get() {
     static auto* cutScoreHandler = &::il2cpp_utils::GetClassFromName("", "BeatmapObjectExecutionRatingsRecorder/CutScoreHandler")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ICutScoreHandlerDidFinishEvent*), "HandleCutScoreHandlerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cutScoreHandler});

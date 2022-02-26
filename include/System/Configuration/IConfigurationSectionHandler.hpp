@@ -11,8 +11,8 @@ namespace System::Configuration {
   class IConfigurationSectionHandler;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Configuration::IConfigurationSectionHandler);
-DEFINE_IL2CPP_ARG_TYPE(System::Configuration::IConfigurationSectionHandler*, "System.Configuration", "IConfigurationSectionHandler");
+NEED_NO_BOX(::System::Configuration::IConfigurationSectionHandler);
+DEFINE_IL2CPP_ARG_TYPE(::System::Configuration::IConfigurationSectionHandler*, "System.Configuration", "IConfigurationSectionHandler");
 // Type namespace: System.Configuration
 namespace System::Configuration {
   // Size: 0x10

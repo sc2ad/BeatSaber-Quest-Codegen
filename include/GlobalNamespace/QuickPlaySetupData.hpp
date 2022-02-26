@@ -21,8 +21,8 @@ namespace GlobalNamespace {
   class QuickPlaySetupData;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::QuickPlaySetupData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuickPlaySetupData*, "", "QuickPlaySetupData");
+NEED_NO_BOX(::GlobalNamespace::QuickPlaySetupData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::QuickPlaySetupData*, "", "QuickPlaySetupData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -32,7 +32,7 @@ namespace GlobalNamespace {
   // [PreserveAttribute] Offset: FFFFFFFF
   class QuickPlaySetupData : public ::Il2CppObject {
     public:
-    // Nested type: GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride
+    // Nested type: ::GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride
     class QuickPlaySongPacksOverride;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -46,16 +46,16 @@ namespace GlobalNamespace {
     // public QuickPlaySetupData/QuickPlaySongPacksOverride quickPlayAvailablePacksOverride
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride* quickPlayAvailablePacksOverride;
+    ::GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride* quickPlayAvailablePacksOverride;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride*) == 0x8);
     public:
-    // Creating conversion operator: operator GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride*
-    constexpr operator GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride*() const noexcept {
+    // Creating conversion operator: operator ::GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride*
+    constexpr operator ::GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride*() const noexcept {
       return quickPlayAvailablePacksOverride;
     }
     // Get instance field reference: public QuickPlaySetupData/QuickPlaySongPacksOverride quickPlayAvailablePacksOverride
-    GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride*& dyn_quickPlayAvailablePacksOverride();
+    ::GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride*& dyn_quickPlayAvailablePacksOverride();
     // public System.Boolean get_hasOverride()
     // Offset: 0x13EB678
     bool get_hasOverride();
@@ -65,12 +65,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static QuickPlaySetupData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::QuickPlaySetupData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::QuickPlaySetupData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<QuickPlaySetupData*, creationType>()));
     }
   }; // QuickPlaySetupData
   #pragma pack(pop)
-  static check_size<sizeof(QuickPlaySetupData), 16 + sizeof(GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride*)> __GlobalNamespace_QuickPlaySetupDataSizeCheck;
+  static check_size<sizeof(QuickPlaySetupData), 16 + sizeof(::GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride*)> __GlobalNamespace_QuickPlaySetupDataSizeCheck;
   static_assert(sizeof(QuickPlaySetupData) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

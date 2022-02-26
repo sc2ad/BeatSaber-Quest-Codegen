@@ -27,8 +27,8 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::AddressableAssets::AddressablesImpl::$$c);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AddressablesImpl::$$c*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c");
+NEED_NO_BOX(::UnityEngine::AddressableAssets::AddressablesImpl::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AddressableAssets::AddressablesImpl::$$c*, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c");
 // Type namespace: UnityEngine.AddressableAssets
 namespace UnityEngine::AddressableAssets {
   // Size: 0x10
@@ -39,40 +39,40 @@ namespace UnityEngine::AddressableAssets {
   class AddressablesImpl::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly UnityEngine.AddressableAssets.AddressablesImpl/UnityEngine.AddressableAssets.<>c <>9
-    static UnityEngine::AddressableAssets::AddressablesImpl::$$c* _get_$$9();
+    static ::UnityEngine::AddressableAssets::AddressablesImpl::$$c* _get_$$9();
     // Set static field: static public readonly UnityEngine.AddressableAssets.AddressablesImpl/UnityEngine.AddressableAssets.<>c <>9
-    static void _set_$$9(UnityEngine::AddressableAssets::AddressablesImpl::$$c* value);
+    static void _set_$$9(::UnityEngine::AddressableAssets::AddressablesImpl::$$c* value);
     // Get static field: static public System.Func`2<UnityEngine.AddressableAssets.AddressablesImpl/UnityEngine.AddressableAssets.ResourceLocatorInfo,UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> <>9__51_0
-    static System::Func_2<UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*, UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>* _get_$$9__51_0();
+    static ::System::Func_2<::UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*, ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>* _get_$$9__51_0();
     // Set static field: static public System.Func`2<UnityEngine.AddressableAssets.AddressablesImpl/UnityEngine.AddressableAssets.ResourceLocatorInfo,UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> <>9__51_0
-    static void _set_$$9__51_0(System::Func_2<UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*, UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>* value);
+    static void _set_$$9__51_0(::System::Func_2<::UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*, ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>* value);
     // Get static field: static public System.Func`2<UnityEngine.AddressableAssets.AddressablesImpl/UnityEngine.AddressableAssets.ResourceLocatorInfo,System.Boolean> <>9__123_0
-    static System::Func_2<UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*, bool>* _get_$$9__123_0();
+    static ::System::Func_2<::UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*, bool>* _get_$$9__123_0();
     // Set static field: static public System.Func`2<UnityEngine.AddressableAssets.AddressablesImpl/UnityEngine.AddressableAssets.ResourceLocatorInfo,System.Boolean> <>9__123_0
-    static void _set_$$9__123_0(System::Func_2<UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*, bool>* value);
+    static void _set_$$9__123_0(::System::Func_2<::UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*, bool>* value);
     // Get static field: static public System.Func`2<UnityEngine.AddressableAssets.AddressablesImpl/UnityEngine.AddressableAssets.ResourceLocatorInfo,System.String> <>9__123_1
-    static System::Func_2<UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*, ::StringW>* _get_$$9__123_1();
+    static ::System::Func_2<::UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*, ::StringW>* _get_$$9__123_1();
     // Set static field: static public System.Func`2<UnityEngine.AddressableAssets.AddressablesImpl/UnityEngine.AddressableAssets.ResourceLocatorInfo,System.String> <>9__123_1
-    static void _set_$$9__123_1(System::Func_2<UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*, ::StringW>* value);
+    static void _set_$$9__123_1(::System::Func_2<::UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*, ::StringW>* value);
     // static private System.Void .cctor()
     // Offset: 0x17E0BE0
     static void _cctor();
     // UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator <get_ResourceLocators>b__51_0(UnityEngine.AddressableAssets.AddressablesImpl/UnityEngine.AddressableAssets.ResourceLocatorInfo l)
     // Offset: 0x17E0C4C
-    UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* $get_ResourceLocators$b__51_0(UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo* l);
+    ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* $get_ResourceLocators$b__51_0(::UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo* l);
     // System.Boolean <get_CatalogsWithAvailableUpdates>b__123_0(UnityEngine.AddressableAssets.AddressablesImpl/UnityEngine.AddressableAssets.ResourceLocatorInfo s)
     // Offset: 0x17E0C64
-    bool $get_CatalogsWithAvailableUpdates$b__123_0(UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo* s);
+    bool $get_CatalogsWithAvailableUpdates$b__123_0(::UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo* s);
     // System.String <get_CatalogsWithAvailableUpdates>b__123_1(UnityEngine.AddressableAssets.AddressablesImpl/UnityEngine.AddressableAssets.ResourceLocatorInfo s)
     // Offset: 0x17E0C7C
-    ::StringW $get_CatalogsWithAvailableUpdates$b__123_1(UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo* s);
+    ::StringW $get_CatalogsWithAvailableUpdates$b__123_1(::UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo* s);
     // public System.Void .ctor()
     // Offset: 0x17E0C44
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AddressablesImpl::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::AddressablesImpl::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::AddressablesImpl::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AddressablesImpl::$$c*, creationType>()));
     }
   }; // UnityEngine.AddressableAssets.AddressablesImpl/UnityEngine.AddressableAssets.<>c
@@ -90,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::$$c::$get_ResourceLocators$b__51_0
 // Il2CppName: <get_ResourceLocators>b__51_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* (UnityEngine::AddressableAssets::AddressablesImpl::$$c::*)(UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*)>(&UnityEngine::AddressableAssets::AddressablesImpl::$$c::$get_ResourceLocators$b__51_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* (UnityEngine::AddressableAssets::AddressablesImpl::$$c::*)(::UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*)>(&UnityEngine::AddressableAssets::AddressablesImpl::$$c::$get_ResourceLocators$b__51_0)> {
   static const MethodInfo* get() {
     static auto* l = &::il2cpp_utils::GetClassFromName("UnityEngine.AddressableAssets", "AddressablesImpl/ResourceLocatorInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AddressablesImpl::$$c*), "<get_ResourceLocators>b__51_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{l});
@@ -99,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::$$c::$get_CatalogsWithAvailableUpdates$b__123_0
 // Il2CppName: <get_CatalogsWithAvailableUpdates>b__123_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AddressableAssets::AddressablesImpl::$$c::*)(UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*)>(&UnityEngine::AddressableAssets::AddressablesImpl::$$c::$get_CatalogsWithAvailableUpdates$b__123_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AddressableAssets::AddressablesImpl::$$c::*)(::UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*)>(&UnityEngine::AddressableAssets::AddressablesImpl::$$c::$get_CatalogsWithAvailableUpdates$b__123_0)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("UnityEngine.AddressableAssets", "AddressablesImpl/ResourceLocatorInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AddressablesImpl::$$c*), "<get_CatalogsWithAvailableUpdates>b__123_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
@@ -108,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::$$c::$get_CatalogsWithAvailableUpdates$b__123_1
 // Il2CppName: <get_CatalogsWithAvailableUpdates>b__123_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::AddressableAssets::AddressablesImpl::$$c::*)(UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*)>(&UnityEngine::AddressableAssets::AddressablesImpl::$$c::$get_CatalogsWithAvailableUpdates$b__123_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::AddressableAssets::AddressablesImpl::$$c::*)(::UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*)>(&UnityEngine::AddressableAssets::AddressablesImpl::$$c::$get_CatalogsWithAvailableUpdates$b__123_1)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("UnityEngine.AddressableAssets", "AddressablesImpl/ResourceLocatorInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AddressablesImpl::$$c*), "<get_CatalogsWithAvailableUpdates>b__123_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});

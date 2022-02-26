@@ -24,7 +24,7 @@ namespace Newtonsoft::Json::Utilities {
   struct StringBuffer;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::StringBuffer, "Newtonsoft.Json.Utilities", "StringBuffer");
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::StringBuffer, "Newtonsoft.Json.Utilities", "StringBuffer");
 // Type namespace: Newtonsoft.Json.Utilities
 namespace Newtonsoft::Json::Utilities {
   // Size: 0xC
@@ -34,7 +34,7 @@ namespace Newtonsoft::Json::Utilities {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NullableAttribute] Offset: 12023E8
   // [NullableContextAttribute] Offset: 12023E8
-  struct StringBuffer/*, public System::ValueType*/ {
+  struct StringBuffer/*, public ::System::ValueType*/ {
     public:
     public:
     // private System.Char[] _buffer
@@ -52,9 +52,9 @@ namespace Newtonsoft::Json::Utilities {
     public:
     // Creating value type constructor for type: StringBuffer
     constexpr StringBuffer(::ArrayW<::Il2CppChar> buffer_ = ::ArrayW<::Il2CppChar>(static_cast<void*>(nullptr)), int position_ = {}) noexcept : buffer{buffer_}, position{position_} {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: private System.Char[] _buffer
     ::ArrayW<::Il2CppChar>& dyn__buffer();
@@ -74,22 +74,22 @@ namespace Newtonsoft::Json::Utilities {
     ::ArrayW<::Il2CppChar> get_InternalBuffer();
     // public System.Void .ctor(Newtonsoft.Json.IArrayPool`1<System.Char> bufferPool, System.Int32 initalSize)
     // Offset: 0x29F85C0
-    StringBuffer(Newtonsoft::Json::IArrayPool_1<::Il2CppChar>* bufferPool, int initalSize);
+    StringBuffer(::Newtonsoft::Json::IArrayPool_1<::Il2CppChar>* bufferPool, int initalSize);
     // private System.Void .ctor(System.Char[] buffer)
     // Offset: 0x29F85F4
     StringBuffer(::ArrayW<::Il2CppChar> buffer);
     // public System.Void Append(Newtonsoft.Json.IArrayPool`1<System.Char> bufferPool, System.Char value)
     // Offset: 0x29F8600
-    void Append(Newtonsoft::Json::IArrayPool_1<::Il2CppChar>* bufferPool, ::Il2CppChar value);
+    void Append(::Newtonsoft::Json::IArrayPool_1<::Il2CppChar>* bufferPool, ::Il2CppChar value);
     // public System.Void Append(Newtonsoft.Json.IArrayPool`1<System.Char> bufferPool, System.Char[] buffer, System.Int32 startIndex, System.Int32 count)
     // Offset: 0x29F86F8
-    void Append(Newtonsoft::Json::IArrayPool_1<::Il2CppChar>* bufferPool, ::ArrayW<::Il2CppChar> buffer, int startIndex, int count);
+    void Append(::Newtonsoft::Json::IArrayPool_1<::Il2CppChar>* bufferPool, ::ArrayW<::Il2CppChar> buffer, int startIndex, int count);
     // public System.Void Clear(Newtonsoft.Json.IArrayPool`1<System.Char> bufferPool)
     // Offset: 0x29F877C
-    void Clear(Newtonsoft::Json::IArrayPool_1<::Il2CppChar>* bufferPool);
+    void Clear(::Newtonsoft::Json::IArrayPool_1<::Il2CppChar>* bufferPool);
     // private System.Void EnsureSize(Newtonsoft.Json.IArrayPool`1<System.Char> bufferPool, System.Int32 appendLength)
     // Offset: 0x29F8684
-    void EnsureSize(Newtonsoft::Json::IArrayPool_1<::Il2CppChar>* bufferPool, int appendLength);
+    void EnsureSize(::Newtonsoft::Json::IArrayPool_1<::Il2CppChar>* bufferPool, int appendLength);
     // public System.String ToString(System.Int32 start, System.Int32 length)
     // Offset: 0x29F87D0
     ::StringW ToString(int start, int length);
@@ -148,7 +148,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::StringBuffer::Append
 // Il2CppName: Append
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Utilities::StringBuffer::*)(Newtonsoft::Json::IArrayPool_1<::Il2CppChar>*, ::Il2CppChar)>(&Newtonsoft::Json::Utilities::StringBuffer::Append)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Utilities::StringBuffer::*)(::Newtonsoft::Json::IArrayPool_1<::Il2CppChar>*, ::Il2CppChar)>(&Newtonsoft::Json::Utilities::StringBuffer::Append)> {
   static const MethodInfo* get() {
     static auto* bufferPool = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "IArrayPool`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Char")})->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
@@ -158,7 +158,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::StringBuffer::Append
 // Il2CppName: Append
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Utilities::StringBuffer::*)(Newtonsoft::Json::IArrayPool_1<::Il2CppChar>*, ::ArrayW<::Il2CppChar>, int, int)>(&Newtonsoft::Json::Utilities::StringBuffer::Append)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Utilities::StringBuffer::*)(::Newtonsoft::Json::IArrayPool_1<::Il2CppChar>*, ::ArrayW<::Il2CppChar>, int, int)>(&Newtonsoft::Json::Utilities::StringBuffer::Append)> {
   static const MethodInfo* get() {
     static auto* bufferPool = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "IArrayPool`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Char")})->byval_arg;
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
@@ -170,7 +170,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::StringBuffer::Clear
 // Il2CppName: Clear
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Utilities::StringBuffer::*)(Newtonsoft::Json::IArrayPool_1<::Il2CppChar>*)>(&Newtonsoft::Json::Utilities::StringBuffer::Clear)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Utilities::StringBuffer::*)(::Newtonsoft::Json::IArrayPool_1<::Il2CppChar>*)>(&Newtonsoft::Json::Utilities::StringBuffer::Clear)> {
   static const MethodInfo* get() {
     static auto* bufferPool = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "IArrayPool`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Char")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::StringBuffer), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bufferPool});
@@ -179,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::StringBuffer::EnsureSize
 // Il2CppName: EnsureSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Utilities::StringBuffer::*)(Newtonsoft::Json::IArrayPool_1<::Il2CppChar>*, int)>(&Newtonsoft::Json::Utilities::StringBuffer::EnsureSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Utilities::StringBuffer::*)(::Newtonsoft::Json::IArrayPool_1<::Il2CppChar>*, int)>(&Newtonsoft::Json::Utilities::StringBuffer::EnsureSize)> {
   static const MethodInfo* get() {
     static auto* bufferPool = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "IArrayPool`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Char")})->byval_arg;
     static auto* appendLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

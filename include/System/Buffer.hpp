@@ -20,8 +20,8 @@ namespace System {
   class Buffer;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Buffer);
-DEFINE_IL2CPP_ARG_TYPE(System::Buffer*, "System", "Buffer");
+NEED_NO_BOX(::System::Buffer);
+DEFINE_IL2CPP_ARG_TYPE(::System::Buffer*, "System", "Buffer");
 // Type namespace: System
 namespace System {
   // Size: 0x10
@@ -33,13 +33,13 @@ namespace System {
     public:
     // static System.Boolean InternalBlockCopy(System.Array src, System.Int32 srcOffsetBytes, System.Array dst, System.Int32 dstOffsetBytes, System.Int32 byteCount)
     // Offset: 0x1DAC750
-    static bool InternalBlockCopy(System::Array* src, int srcOffsetBytes, System::Array* dst, int dstOffsetBytes, int byteCount);
+    static bool InternalBlockCopy(::System::Array* src, int srcOffsetBytes, ::System::Array* dst, int dstOffsetBytes, int byteCount);
     // static System.Int32 IndexOfByte(System.Byte* src, System.Byte value, System.Int32 index, System.Int32 count)
     // Offset: 0x1DAC754
     static int IndexOfByte(uint8_t* src, uint8_t value, int index, int count);
     // static private System.Int32 _ByteLength(System.Array array)
     // Offset: 0x1DAC870
-    static int _ByteLength(System::Array* array);
+    static int _ByteLength(::System::Array* array);
     // static System.Void ZeroMemory(System.Byte* src, System.Int64 len)
     // Offset: 0x1DAC874
     static void ZeroMemory(uint8_t* src, int64_t len);
@@ -51,10 +51,10 @@ namespace System {
     static void Memcpy(uint8_t* pDest, int destIndex, ::ArrayW<uint8_t> src, int srcIndex, int len);
     // static public System.Int32 ByteLength(System.Array array)
     // Offset: 0x1DAC954
-    static int ByteLength(System::Array* array);
+    static int ByteLength(::System::Array* array);
     // static public System.Void BlockCopy(System.Array src, System.Int32 srcOffset, System.Array dst, System.Int32 dstOffset, System.Int32 count)
     // Offset: 0x1DACA28
-    static void BlockCopy(System::Array* src, int srcOffset, System::Array* dst, int dstOffset, int count);
+    static void BlockCopy(::System::Array* src, int srcOffset, ::System::Array* dst, int dstOffset, int count);
     // static System.Void memcpy4(System.Byte* dest, System.Byte* src, System.Int32 size)
     // Offset: 0x1DACC38
     static void memcpy4(uint8_t* dest, uint8_t* src, int size);
@@ -74,7 +74,7 @@ namespace System {
 // Writing MetadataGetter for method: System::Buffer::InternalBlockCopy
 // Il2CppName: InternalBlockCopy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Array*, int, System::Array*, int, int)>(&System::Buffer::InternalBlockCopy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Array*, int, ::System::Array*, int, int)>(&System::Buffer::InternalBlockCopy)> {
   static const MethodInfo* get() {
     static auto* src = &::il2cpp_utils::GetClassFromName("System", "Array")->byval_arg;
     static auto* srcOffsetBytes = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -99,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(uin
 // Writing MetadataGetter for method: System::Buffer::_ByteLength
 // Il2CppName: _ByteLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Array*)>(&System::Buffer::_ByteLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::System::Array*)>(&System::Buffer::_ByteLength)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "Array")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Buffer*), "_ByteLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});
@@ -144,7 +144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ui
 // Writing MetadataGetter for method: System::Buffer::ByteLength
 // Il2CppName: ByteLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Array*)>(&System::Buffer::ByteLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::System::Array*)>(&System::Buffer::ByteLength)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "Array")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Buffer*), "ByteLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});
@@ -153,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Writing MetadataGetter for method: System::Buffer::BlockCopy
 // Il2CppName: BlockCopy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Array*, int, System::Array*, int, int)>(&System::Buffer::BlockCopy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Array*, int, ::System::Array*, int, int)>(&System::Buffer::BlockCopy)> {
   static const MethodInfo* get() {
     static auto* src = &::il2cpp_utils::GetClassFromName("System", "Array")->byval_arg;
     static auto* srcOffset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

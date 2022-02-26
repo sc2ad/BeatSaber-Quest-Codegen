@@ -16,8 +16,8 @@ namespace System::Threading {
   class ReaderWriterCount;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Threading::ReaderWriterCount);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::ReaderWriterCount*, "System.Threading", "ReaderWriterCount");
+NEED_NO_BOX(::System::Threading::ReaderWriterCount);
+DEFINE_IL2CPP_ARG_TYPE(::System::Threading::ReaderWriterCount*, "System.Threading", "ReaderWriterCount");
 // Type namespace: System.Threading
 namespace System::Threading {
   // Size: 0x30
@@ -64,9 +64,9 @@ namespace System::Threading {
     // public System.Threading.ReaderWriterCount next
     // Size: 0x8
     // Offset: 0x28
-    System::Threading::ReaderWriterCount* next;
+    ::System::Threading::ReaderWriterCount* next;
     // Field size check
-    static_assert(sizeof(System::Threading::ReaderWriterCount*) == 0x8);
+    static_assert(sizeof(::System::Threading::ReaderWriterCount*) == 0x8);
     public:
     // Get instance field reference: public System.Int64 lockID
     int64_t& dyn_lockID();
@@ -77,19 +77,19 @@ namespace System::Threading {
     // Get instance field reference: public System.Int32 upgradecount
     int& dyn_upgradecount();
     // Get instance field reference: public System.Threading.ReaderWriterCount next
-    System::Threading::ReaderWriterCount*& dyn_next();
+    ::System::Threading::ReaderWriterCount*& dyn_next();
     // public System.Void .ctor()
     // Offset: 0x29844BC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReaderWriterCount* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::ReaderWriterCount::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::ReaderWriterCount::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReaderWriterCount*, creationType>()));
     }
   }; // System.Threading.ReaderWriterCount
   #pragma pack(pop)
-  static check_size<sizeof(ReaderWriterCount), 40 + sizeof(System::Threading::ReaderWriterCount*)> __System_Threading_ReaderWriterCountSizeCheck;
+  static check_size<sizeof(ReaderWriterCount), 40 + sizeof(::System::Threading::ReaderWriterCount*)> __System_Threading_ReaderWriterCountSizeCheck;
   static_assert(sizeof(ReaderWriterCount) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

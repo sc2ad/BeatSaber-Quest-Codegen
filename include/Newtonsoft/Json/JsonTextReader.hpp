@@ -56,8 +56,8 @@ namespace Newtonsoft::Json {
   class JsonTextReader;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::JsonTextReader);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::JsonTextReader*, "Newtonsoft.Json", "JsonTextReader");
+NEED_NO_BOX(::Newtonsoft::Json::JsonTextReader);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::JsonTextReader*, "Newtonsoft.Json", "JsonTextReader");
 // Type namespace: Newtonsoft.Json
 namespace Newtonsoft::Json {
   // WARNING Size may be invalid!
@@ -65,7 +65,7 @@ namespace Newtonsoft::Json {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NullableContextAttribute] Offset: 1201900
   // [NullableAttribute] Offset: 1201900
-  class JsonTextReader : public Newtonsoft::Json::JsonReader/*, public Newtonsoft::Json::IJsonLineInfo*/ {
+  class JsonTextReader : public ::Newtonsoft::Json::JsonReader/*, public ::Newtonsoft::Json::IJsonLineInfo*/ {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -85,9 +85,9 @@ namespace Newtonsoft::Json {
     // private readonly System.IO.TextReader _reader
     // Size: 0x8
     // Offset: 0x78
-    System::IO::TextReader* reader;
+    ::System::IO::TextReader* reader;
     // Field size check
-    static_assert(sizeof(System::IO::TextReader*) == 0x8);
+    static_assert(sizeof(::System::IO::TextReader*) == 0x8);
     // [NullableAttribute] Offset: 0x1204244
     // private System.Char[] _chars
     // Size: 0x8
@@ -128,38 +128,38 @@ namespace Newtonsoft::Json {
     // private Newtonsoft.Json.Utilities.StringBuffer _stringBuffer
     // Size: 0xC
     // Offset: 0xA0
-    Newtonsoft::Json::Utilities::StringBuffer stringBuffer;
+    ::Newtonsoft::Json::Utilities::StringBuffer stringBuffer;
     // Field size check
-    static_assert(sizeof(Newtonsoft::Json::Utilities::StringBuffer) == 0xC);
+    static_assert(sizeof(::Newtonsoft::Json::Utilities::StringBuffer) == 0xC);
     // private Newtonsoft.Json.Utilities.StringReference _stringReference
     // Size: 0x10
     // Offset: 0xB0
-    Newtonsoft::Json::Utilities::StringReference stringReference;
+    ::Newtonsoft::Json::Utilities::StringReference stringReference;
     // Field size check
-    static_assert(sizeof(Newtonsoft::Json::Utilities::StringReference) == 0x10);
+    static_assert(sizeof(::Newtonsoft::Json::Utilities::StringReference) == 0x10);
     // [NullableAttribute] Offset: 0x1204258
     // private Newtonsoft.Json.IArrayPool`1<System.Char> _arrayPool
     // Size: 0x8
     // Offset: 0xC0
-    Newtonsoft::Json::IArrayPool_1<::Il2CppChar>* arrayPool;
+    ::Newtonsoft::Json::IArrayPool_1<::Il2CppChar>* arrayPool;
     // Field size check
-    static_assert(sizeof(Newtonsoft::Json::IArrayPool_1<::Il2CppChar>*) == 0x8);
+    static_assert(sizeof(::Newtonsoft::Json::IArrayPool_1<::Il2CppChar>*) == 0x8);
     // [NullableAttribute] Offset: 0x120426C
     // private Newtonsoft.Json.JsonNameTable <PropertyNameTable>k__BackingField
     // Size: 0x8
     // Offset: 0xC8
-    Newtonsoft::Json::JsonNameTable* PropertyNameTable;
+    ::Newtonsoft::Json::JsonNameTable* PropertyNameTable;
     // Field size check
-    static_assert(sizeof(Newtonsoft::Json::JsonNameTable*) == 0x8);
+    static_assert(sizeof(::Newtonsoft::Json::JsonNameTable*) == 0x8);
     public:
-    // Creating interface conversion operator: operator Newtonsoft::Json::IJsonLineInfo
-    operator Newtonsoft::Json::IJsonLineInfo() noexcept {
-      return *reinterpret_cast<Newtonsoft::Json::IJsonLineInfo*>(this);
+    // Creating interface conversion operator: operator ::Newtonsoft::Json::IJsonLineInfo
+    operator ::Newtonsoft::Json::IJsonLineInfo() noexcept {
+      return *reinterpret_cast<::Newtonsoft::Json::IJsonLineInfo*>(this);
     }
     // Get instance field reference: private readonly System.Boolean _safeAsync
     bool& dyn__safeAsync();
     // Get instance field reference: private readonly System.IO.TextReader _reader
-    System::IO::TextReader*& dyn__reader();
+    ::System::IO::TextReader*& dyn__reader();
     // Get instance field reference: private System.Char[] _chars
     ::ArrayW<::Il2CppChar>& dyn__chars();
     // Get instance field reference: private System.Int32 _charsUsed
@@ -173,19 +173,19 @@ namespace Newtonsoft::Json {
     // Get instance field reference: private System.Boolean _isEndOfFile
     bool& dyn__isEndOfFile();
     // Get instance field reference: private Newtonsoft.Json.Utilities.StringBuffer _stringBuffer
-    Newtonsoft::Json::Utilities::StringBuffer& dyn__stringBuffer();
+    ::Newtonsoft::Json::Utilities::StringBuffer& dyn__stringBuffer();
     // Get instance field reference: private Newtonsoft.Json.Utilities.StringReference _stringReference
-    Newtonsoft::Json::Utilities::StringReference& dyn__stringReference();
+    ::Newtonsoft::Json::Utilities::StringReference& dyn__stringReference();
     // Get instance field reference: private Newtonsoft.Json.IArrayPool`1<System.Char> _arrayPool
-    Newtonsoft::Json::IArrayPool_1<::Il2CppChar>*& dyn__arrayPool();
+    ::Newtonsoft::Json::IArrayPool_1<::Il2CppChar>*& dyn__arrayPool();
     // Get instance field reference: private Newtonsoft.Json.JsonNameTable <PropertyNameTable>k__BackingField
-    Newtonsoft::Json::JsonNameTable*& dyn_$PropertyNameTable$k__BackingField();
+    ::Newtonsoft::Json::JsonNameTable*& dyn_$PropertyNameTable$k__BackingField();
     // public Newtonsoft.Json.JsonNameTable get_PropertyNameTable()
     // Offset: 0x1C3D3F0
-    Newtonsoft::Json::JsonNameTable* get_PropertyNameTable();
+    ::Newtonsoft::Json::JsonNameTable* get_PropertyNameTable();
     // public System.Void set_PropertyNameTable(Newtonsoft.Json.JsonNameTable value)
     // Offset: 0x1C3D3F8
-    void set_PropertyNameTable(Newtonsoft::Json::JsonNameTable* value);
+    void set_PropertyNameTable(::Newtonsoft::Json::JsonNameTable* value);
     // public System.Int32 get_LineNumber()
     // Offset: 0x1C438A0
     int get_LineNumber();
@@ -195,8 +195,8 @@ namespace Newtonsoft::Json {
     // public System.Void .ctor(System.IO.TextReader reader)
     // Offset: 0x1C3D2E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static JsonTextReader* New_ctor(System::IO::TextReader* reader) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::JsonTextReader::.ctor");
+    static JsonTextReader* New_ctor(::System::IO::TextReader* reader) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::JsonTextReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JsonTextReader*, creationType>(reader)));
     }
     // private System.Void EnsureBufferNotEmpty()
@@ -210,10 +210,10 @@ namespace Newtonsoft::Json {
     void OnNewLine(int pos);
     // private System.Void ParseString(System.Char quote, Newtonsoft.Json.ReadType readType)
     // Offset: 0x1C3D4D0
-    void ParseString(::Il2CppChar quote, Newtonsoft::Json::ReadType readType);
+    void ParseString(::Il2CppChar quote, ::Newtonsoft::Json::ReadType readType);
     // private System.Void ParseReadString(System.Char quote, Newtonsoft.Json.ReadType readType)
     // Offset: 0x1C3DA94
-    void ParseReadString(::Il2CppChar quote, Newtonsoft::Json::ReadType readType);
+    void ParseReadString(::Il2CppChar quote, ::Newtonsoft::Json::ReadType readType);
     // static private System.Void BlockCopyChars(System.Char[] src, System.Int32 srcOffset, System.Char[] dst, System.Int32 dstOffset, System.Int32 count)
     // Offset: 0x1C3DDE0
     static void BlockCopyChars(::ArrayW<::Il2CppChar> src, int srcOffset, ::ArrayW<::Il2CppChar> dst, int dstOffset, int count);
@@ -237,22 +237,22 @@ namespace Newtonsoft::Json {
     bool ReadChars(int relativePosition, bool append);
     // private System.Object ReadStringValue(Newtonsoft.Json.ReadType readType)
     // Offset: 0x1C3F510
-    ::Il2CppObject* ReadStringValue(Newtonsoft::Json::ReadType readType);
+    ::Il2CppObject* ReadStringValue(::Newtonsoft::Json::ReadType readType);
     // private System.Object FinishReadQuotedStringValue(Newtonsoft.Json.ReadType readType)
     // Offset: 0x1C40370
-    ::Il2CppObject* FinishReadQuotedStringValue(Newtonsoft::Json::ReadType readType);
+    ::Il2CppObject* FinishReadQuotedStringValue(::Newtonsoft::Json::ReadType readType);
     // private Newtonsoft.Json.JsonReaderException CreateUnexpectedCharacterException(System.Char c)
     // Offset: 0x1C400B8
-    Newtonsoft::Json::JsonReaderException* CreateUnexpectedCharacterException(::Il2CppChar c);
+    ::Newtonsoft::Json::JsonReaderException* CreateUnexpectedCharacterException(::Il2CppChar c);
     // private System.Void ProcessValueComma()
     // Offset: 0x1C40020
     void ProcessValueComma();
     // private System.Object ReadNumberValue(Newtonsoft.Json.ReadType readType)
     // Offset: 0x1C3F0B0
-    ::Il2CppObject* ReadNumberValue(Newtonsoft::Json::ReadType readType);
+    ::Il2CppObject* ReadNumberValue(::Newtonsoft::Json::ReadType readType);
     // private System.Object FinishReadQuotedNumber(Newtonsoft.Json.ReadType readType)
     // Offset: 0x1C40D7C
-    ::Il2CppObject* FinishReadQuotedNumber(Newtonsoft::Json::ReadType readType);
+    ::Il2CppObject* FinishReadQuotedNumber(::Newtonsoft::Json::ReadType readType);
     // private System.Void HandleNull()
     // Offset: 0x1C3FF20
     void HandleNull();
@@ -324,16 +324,16 @@ namespace Newtonsoft::Json {
     void ParseConstructor();
     // private System.Void ParseNumber(Newtonsoft.Json.ReadType readType)
     // Offset: 0x1C40620
-    void ParseNumber(Newtonsoft::Json::ReadType readType);
+    void ParseNumber(::Newtonsoft::Json::ReadType readType);
     // private System.Void ParseReadNumber(Newtonsoft.Json.ReadType readType, System.Char firstChar, System.Int32 initialPosition)
     // Offset: 0x1C4215C
-    void ParseReadNumber(Newtonsoft::Json::ReadType readType, ::Il2CppChar firstChar, int initialPosition);
+    void ParseReadNumber(::Newtonsoft::Json::ReadType readType, ::Il2CppChar firstChar, int initialPosition);
     // private Newtonsoft.Json.JsonReaderException ThrowReaderError(System.String message, System.Exception ex)
     // Offset: 0x1C43078
-    Newtonsoft::Json::JsonReaderException* ThrowReaderError(::StringW message, System::Exception* ex);
+    ::Newtonsoft::Json::JsonReaderException* ThrowReaderError(::StringW message, ::System::Exception* ex);
     // static private System.Object BigIntegerParse(System.String number, System.Globalization.CultureInfo culture)
     // Offset: 0x1C430C8
-    static ::Il2CppObject* BigIntegerParse(::StringW number, System::Globalization::CultureInfo* culture);
+    static ::Il2CppObject* BigIntegerParse(::StringW number, ::System::Globalization::CultureInfo* culture);
     // private System.Void ParseComment(System.Boolean setToken)
     // Offset: 0x1C3ED4C
     void ParseComment(bool setToken);
@@ -366,22 +366,22 @@ namespace Newtonsoft::Json {
     void ParseFalse();
     // private System.Object ParseNumberNegativeInfinity(Newtonsoft.Json.ReadType readType)
     // Offset: 0x1C40594
-    ::Il2CppObject* ParseNumberNegativeInfinity(Newtonsoft::Json::ReadType readType);
+    ::Il2CppObject* ParseNumberNegativeInfinity(::Newtonsoft::Json::ReadType readType);
     // private System.Object ParseNumberNegativeInfinity(Newtonsoft.Json.ReadType readType, System.Boolean matched)
     // Offset: 0x1C4348C
-    ::Il2CppObject* ParseNumberNegativeInfinity(Newtonsoft::Json::ReadType readType, bool matched);
+    ::Il2CppObject* ParseNumberNegativeInfinity(::Newtonsoft::Json::ReadType readType, bool matched);
     // private System.Object ParseNumberPositiveInfinity(Newtonsoft.Json.ReadType readType)
     // Offset: 0x1C4074C
-    ::Il2CppObject* ParseNumberPositiveInfinity(Newtonsoft::Json::ReadType readType);
+    ::Il2CppObject* ParseNumberPositiveInfinity(::Newtonsoft::Json::ReadType readType);
     // private System.Object ParseNumberPositiveInfinity(Newtonsoft.Json.ReadType readType, System.Boolean matched)
     // Offset: 0x1C435C4
-    ::Il2CppObject* ParseNumberPositiveInfinity(Newtonsoft::Json::ReadType readType, bool matched);
+    ::Il2CppObject* ParseNumberPositiveInfinity(::Newtonsoft::Json::ReadType readType, bool matched);
     // private System.Object ParseNumberNaN(Newtonsoft.Json.ReadType readType)
     // Offset: 0x1C407D8
-    ::Il2CppObject* ParseNumberNaN(Newtonsoft::Json::ReadType readType);
+    ::Il2CppObject* ParseNumberNaN(::Newtonsoft::Json::ReadType readType);
     // private System.Object ParseNumberNaN(Newtonsoft.Json.ReadType readType, System.Boolean matched)
     // Offset: 0x1C436FC
-    ::Il2CppObject* ParseNumberNaN(Newtonsoft::Json::ReadType readType, bool matched);
+    ::Il2CppObject* ParseNumberNaN(::Newtonsoft::Json::ReadType readType, bool matched);
     // public System.Boolean HasLineInfo()
     // Offset: 0x1C43898
     bool HasLineInfo();
@@ -394,12 +394,12 @@ namespace Newtonsoft::Json {
     // Offset: 0x1C3F024
     // Implemented from: Newtonsoft.Json.JsonReader
     // Base method: System.Nullable`1<System.Int32> JsonReader::ReadAsInt32()
-    System::Nullable_1<int> ReadAsInt32();
+    ::System::Nullable_1<int> ReadAsInt32();
     // public override System.Nullable`1<System.DateTime> ReadAsDateTime()
     // Offset: 0x1C3F484
     // Implemented from: Newtonsoft.Json.JsonReader
     // Base method: System.Nullable`1<System.DateTime> JsonReader::ReadAsDateTime()
-    System::Nullable_1<System::DateTime> ReadAsDateTime();
+    ::System::Nullable_1<::System::DateTime> ReadAsDateTime();
     // public override System.String ReadAsString()
     // Offset: 0x1C3F9E4
     // Implemented from: Newtonsoft.Json.JsonReader
@@ -414,22 +414,22 @@ namespace Newtonsoft::Json {
     // Offset: 0x1C40864
     // Implemented from: Newtonsoft.Json.JsonReader
     // Base method: System.Nullable`1<System.Boolean> JsonReader::ReadAsBoolean()
-    System::Nullable_1<bool> ReadAsBoolean();
+    ::System::Nullable_1<bool> ReadAsBoolean();
     // public override System.Nullable`1<System.DateTimeOffset> ReadAsDateTimeOffset()
     // Offset: 0x1C40ECC
     // Implemented from: Newtonsoft.Json.JsonReader
     // Base method: System.Nullable`1<System.DateTimeOffset> JsonReader::ReadAsDateTimeOffset()
-    System::Nullable_1<System::DateTimeOffset> ReadAsDateTimeOffset();
+    ::System::Nullable_1<::System::DateTimeOffset> ReadAsDateTimeOffset();
     // public override System.Nullable`1<System.Decimal> ReadAsDecimal()
     // Offset: 0x1C40F70
     // Implemented from: Newtonsoft.Json.JsonReader
     // Base method: System.Nullable`1<System.Decimal> JsonReader::ReadAsDecimal()
-    System::Nullable_1<System::Decimal> ReadAsDecimal();
+    ::System::Nullable_1<::System::Decimal> ReadAsDecimal();
     // public override System.Nullable`1<System.Double> ReadAsDouble()
     // Offset: 0x1C41014
     // Implemented from: Newtonsoft.Json.JsonReader
     // Base method: System.Nullable`1<System.Double> JsonReader::ReadAsDouble()
-    System::Nullable_1<double> ReadAsDouble();
+    ::System::Nullable_1<double> ReadAsDouble();
     // public override System.Void Close()
     // Offset: 0x1C43834
     // Implemented from: Newtonsoft.Json.JsonReader
@@ -442,7 +442,7 @@ namespace Newtonsoft::Json {
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonTextReader::get_PropertyNameTable
 // Il2CppName: get_PropertyNameTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::JsonNameTable* (Newtonsoft::Json::JsonTextReader::*)()>(&Newtonsoft::Json::JsonTextReader::get_PropertyNameTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::JsonNameTable* (Newtonsoft::Json::JsonTextReader::*)()>(&Newtonsoft::Json::JsonTextReader::get_PropertyNameTable)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::JsonTextReader*), "get_PropertyNameTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -450,7 +450,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft:
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonTextReader::set_PropertyNameTable
 // Il2CppName: set_PropertyNameTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::JsonTextReader::*)(Newtonsoft::Json::JsonNameTable*)>(&Newtonsoft::Json::JsonTextReader::set_PropertyNameTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::JsonTextReader::*)(::Newtonsoft::Json::JsonNameTable*)>(&Newtonsoft::Json::JsonTextReader::set_PropertyNameTable)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonNameTable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::JsonTextReader*), "set_PropertyNameTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -505,7 +505,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonTextReader::ParseString
 // Il2CppName: ParseString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::JsonTextReader::*)(::Il2CppChar, Newtonsoft::Json::ReadType)>(&Newtonsoft::Json::JsonTextReader::ParseString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::JsonTextReader::*)(::Il2CppChar, ::Newtonsoft::Json::ReadType)>(&Newtonsoft::Json::JsonTextReader::ParseString)> {
   static const MethodInfo* get() {
     static auto* quote = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     static auto* readType = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "ReadType")->byval_arg;
@@ -515,7 +515,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonTextReader::ParseReadString
 // Il2CppName: ParseReadString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::JsonTextReader::*)(::Il2CppChar, Newtonsoft::Json::ReadType)>(&Newtonsoft::Json::JsonTextReader::ParseReadString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::JsonTextReader::*)(::Il2CppChar, ::Newtonsoft::Json::ReadType)>(&Newtonsoft::Json::JsonTextReader::ParseReadString)> {
   static const MethodInfo* get() {
     static auto* quote = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     static auto* readType = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "ReadType")->byval_arg;
@@ -595,7 +595,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonTextReader::ReadStringValue
 // Il2CppName: ReadStringValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Newtonsoft::Json::JsonTextReader::*)(Newtonsoft::Json::ReadType)>(&Newtonsoft::Json::JsonTextReader::ReadStringValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Newtonsoft::Json::JsonTextReader::*)(::Newtonsoft::Json::ReadType)>(&Newtonsoft::Json::JsonTextReader::ReadStringValue)> {
   static const MethodInfo* get() {
     static auto* readType = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "ReadType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::JsonTextReader*), "ReadStringValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{readType});
@@ -604,7 +604,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonTextReader::FinishReadQuotedStringValue
 // Il2CppName: FinishReadQuotedStringValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Newtonsoft::Json::JsonTextReader::*)(Newtonsoft::Json::ReadType)>(&Newtonsoft::Json::JsonTextReader::FinishReadQuotedStringValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Newtonsoft::Json::JsonTextReader::*)(::Newtonsoft::Json::ReadType)>(&Newtonsoft::Json::JsonTextReader::FinishReadQuotedStringValue)> {
   static const MethodInfo* get() {
     static auto* readType = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "ReadType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::JsonTextReader*), "FinishReadQuotedStringValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{readType});
@@ -613,7 +613,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonTextReader::CreateUnexpectedCharacterException
 // Il2CppName: CreateUnexpectedCharacterException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::JsonReaderException* (Newtonsoft::Json::JsonTextReader::*)(::Il2CppChar)>(&Newtonsoft::Json::JsonTextReader::CreateUnexpectedCharacterException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::JsonReaderException* (Newtonsoft::Json::JsonTextReader::*)(::Il2CppChar)>(&Newtonsoft::Json::JsonTextReader::CreateUnexpectedCharacterException)> {
   static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::JsonTextReader*), "CreateUnexpectedCharacterException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
@@ -630,7 +630,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonTextReader::ReadNumberValue
 // Il2CppName: ReadNumberValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Newtonsoft::Json::JsonTextReader::*)(Newtonsoft::Json::ReadType)>(&Newtonsoft::Json::JsonTextReader::ReadNumberValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Newtonsoft::Json::JsonTextReader::*)(::Newtonsoft::Json::ReadType)>(&Newtonsoft::Json::JsonTextReader::ReadNumberValue)> {
   static const MethodInfo* get() {
     static auto* readType = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "ReadType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::JsonTextReader*), "ReadNumberValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{readType});
@@ -639,7 +639,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonTextReader::FinishReadQuotedNumber
 // Il2CppName: FinishReadQuotedNumber
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Newtonsoft::Json::JsonTextReader::*)(Newtonsoft::Json::ReadType)>(&Newtonsoft::Json::JsonTextReader::FinishReadQuotedNumber)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Newtonsoft::Json::JsonTextReader::*)(::Newtonsoft::Json::ReadType)>(&Newtonsoft::Json::JsonTextReader::FinishReadQuotedNumber)> {
   static const MethodInfo* get() {
     static auto* readType = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "ReadType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::JsonTextReader*), "FinishReadQuotedNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{readType});
@@ -847,7 +847,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonTextReader::ParseNumber
 // Il2CppName: ParseNumber
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::JsonTextReader::*)(Newtonsoft::Json::ReadType)>(&Newtonsoft::Json::JsonTextReader::ParseNumber)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::JsonTextReader::*)(::Newtonsoft::Json::ReadType)>(&Newtonsoft::Json::JsonTextReader::ParseNumber)> {
   static const MethodInfo* get() {
     static auto* readType = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "ReadType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::JsonTextReader*), "ParseNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{readType});
@@ -856,7 +856,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonTextReader::ParseReadNumber
 // Il2CppName: ParseReadNumber
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::JsonTextReader::*)(Newtonsoft::Json::ReadType, ::Il2CppChar, int)>(&Newtonsoft::Json::JsonTextReader::ParseReadNumber)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::JsonTextReader::*)(::Newtonsoft::Json::ReadType, ::Il2CppChar, int)>(&Newtonsoft::Json::JsonTextReader::ParseReadNumber)> {
   static const MethodInfo* get() {
     static auto* readType = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "ReadType")->byval_arg;
     static auto* firstChar = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
@@ -867,7 +867,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonTextReader::ThrowReaderError
 // Il2CppName: ThrowReaderError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::JsonReaderException* (Newtonsoft::Json::JsonTextReader::*)(::StringW, System::Exception*)>(&Newtonsoft::Json::JsonTextReader::ThrowReaderError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::JsonReaderException* (Newtonsoft::Json::JsonTextReader::*)(::StringW, ::System::Exception*)>(&Newtonsoft::Json::JsonTextReader::ThrowReaderError)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* ex = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
@@ -877,7 +877,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft:
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonTextReader::BigIntegerParse
 // Il2CppName: BigIntegerParse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::StringW, System::Globalization::CultureInfo*)>(&Newtonsoft::Json::JsonTextReader::BigIntegerParse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::StringW, ::System::Globalization::CultureInfo*)>(&Newtonsoft::Json::JsonTextReader::BigIntegerParse)> {
   static const MethodInfo* get() {
     static auto* number = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* culture = &::il2cpp_utils::GetClassFromName("System.Globalization", "CultureInfo")->byval_arg;
@@ -976,7 +976,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonTextReader::ParseNumberNegativeInfinity
 // Il2CppName: ParseNumberNegativeInfinity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Newtonsoft::Json::JsonTextReader::*)(Newtonsoft::Json::ReadType)>(&Newtonsoft::Json::JsonTextReader::ParseNumberNegativeInfinity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Newtonsoft::Json::JsonTextReader::*)(::Newtonsoft::Json::ReadType)>(&Newtonsoft::Json::JsonTextReader::ParseNumberNegativeInfinity)> {
   static const MethodInfo* get() {
     static auto* readType = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "ReadType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::JsonTextReader*), "ParseNumberNegativeInfinity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{readType});
@@ -985,7 +985,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonTextReader::ParseNumberNegativeInfinity
 // Il2CppName: ParseNumberNegativeInfinity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Newtonsoft::Json::JsonTextReader::*)(Newtonsoft::Json::ReadType, bool)>(&Newtonsoft::Json::JsonTextReader::ParseNumberNegativeInfinity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Newtonsoft::Json::JsonTextReader::*)(::Newtonsoft::Json::ReadType, bool)>(&Newtonsoft::Json::JsonTextReader::ParseNumberNegativeInfinity)> {
   static const MethodInfo* get() {
     static auto* readType = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "ReadType")->byval_arg;
     static auto* matched = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -995,7 +995,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonTextReader::ParseNumberPositiveInfinity
 // Il2CppName: ParseNumberPositiveInfinity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Newtonsoft::Json::JsonTextReader::*)(Newtonsoft::Json::ReadType)>(&Newtonsoft::Json::JsonTextReader::ParseNumberPositiveInfinity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Newtonsoft::Json::JsonTextReader::*)(::Newtonsoft::Json::ReadType)>(&Newtonsoft::Json::JsonTextReader::ParseNumberPositiveInfinity)> {
   static const MethodInfo* get() {
     static auto* readType = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "ReadType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::JsonTextReader*), "ParseNumberPositiveInfinity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{readType});
@@ -1004,7 +1004,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonTextReader::ParseNumberPositiveInfinity
 // Il2CppName: ParseNumberPositiveInfinity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Newtonsoft::Json::JsonTextReader::*)(Newtonsoft::Json::ReadType, bool)>(&Newtonsoft::Json::JsonTextReader::ParseNumberPositiveInfinity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Newtonsoft::Json::JsonTextReader::*)(::Newtonsoft::Json::ReadType, bool)>(&Newtonsoft::Json::JsonTextReader::ParseNumberPositiveInfinity)> {
   static const MethodInfo* get() {
     static auto* readType = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "ReadType")->byval_arg;
     static auto* matched = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -1014,7 +1014,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonTextReader::ParseNumberNaN
 // Il2CppName: ParseNumberNaN
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Newtonsoft::Json::JsonTextReader::*)(Newtonsoft::Json::ReadType)>(&Newtonsoft::Json::JsonTextReader::ParseNumberNaN)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Newtonsoft::Json::JsonTextReader::*)(::Newtonsoft::Json::ReadType)>(&Newtonsoft::Json::JsonTextReader::ParseNumberNaN)> {
   static const MethodInfo* get() {
     static auto* readType = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "ReadType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::JsonTextReader*), "ParseNumberNaN", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{readType});
@@ -1023,7 +1023,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonTextReader::ParseNumberNaN
 // Il2CppName: ParseNumberNaN
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Newtonsoft::Json::JsonTextReader::*)(Newtonsoft::Json::ReadType, bool)>(&Newtonsoft::Json::JsonTextReader::ParseNumberNaN)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Newtonsoft::Json::JsonTextReader::*)(::Newtonsoft::Json::ReadType, bool)>(&Newtonsoft::Json::JsonTextReader::ParseNumberNaN)> {
   static const MethodInfo* get() {
     static auto* readType = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "ReadType")->byval_arg;
     static auto* matched = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -1049,7 +1049,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonTextReader::ReadAsInt32
 // Il2CppName: ReadAsInt32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<int> (Newtonsoft::Json::JsonTextReader::*)()>(&Newtonsoft::Json::JsonTextReader::ReadAsInt32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<int> (Newtonsoft::Json::JsonTextReader::*)()>(&Newtonsoft::Json::JsonTextReader::ReadAsInt32)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::JsonTextReader*), "ReadAsInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1057,7 +1057,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nul
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonTextReader::ReadAsDateTime
 // Il2CppName: ReadAsDateTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<System::DateTime> (Newtonsoft::Json::JsonTextReader::*)()>(&Newtonsoft::Json::JsonTextReader::ReadAsDateTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::System::DateTime> (Newtonsoft::Json::JsonTextReader::*)()>(&Newtonsoft::Json::JsonTextReader::ReadAsDateTime)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::JsonTextReader*), "ReadAsDateTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1081,7 +1081,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonTextReader::ReadAsBoolean
 // Il2CppName: ReadAsBoolean
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<bool> (Newtonsoft::Json::JsonTextReader::*)()>(&Newtonsoft::Json::JsonTextReader::ReadAsBoolean)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<bool> (Newtonsoft::Json::JsonTextReader::*)()>(&Newtonsoft::Json::JsonTextReader::ReadAsBoolean)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::JsonTextReader*), "ReadAsBoolean", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1089,7 +1089,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nul
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonTextReader::ReadAsDateTimeOffset
 // Il2CppName: ReadAsDateTimeOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<System::DateTimeOffset> (Newtonsoft::Json::JsonTextReader::*)()>(&Newtonsoft::Json::JsonTextReader::ReadAsDateTimeOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::System::DateTimeOffset> (Newtonsoft::Json::JsonTextReader::*)()>(&Newtonsoft::Json::JsonTextReader::ReadAsDateTimeOffset)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::JsonTextReader*), "ReadAsDateTimeOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1097,7 +1097,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nul
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonTextReader::ReadAsDecimal
 // Il2CppName: ReadAsDecimal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<System::Decimal> (Newtonsoft::Json::JsonTextReader::*)()>(&Newtonsoft::Json::JsonTextReader::ReadAsDecimal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::System::Decimal> (Newtonsoft::Json::JsonTextReader::*)()>(&Newtonsoft::Json::JsonTextReader::ReadAsDecimal)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::JsonTextReader*), "ReadAsDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1105,7 +1105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nul
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonTextReader::ReadAsDouble
 // Il2CppName: ReadAsDouble
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<double> (Newtonsoft::Json::JsonTextReader::*)()>(&Newtonsoft::Json::JsonTextReader::ReadAsDouble)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<double> (Newtonsoft::Json::JsonTextReader::*)()>(&Newtonsoft::Json::JsonTextReader::ReadAsDouble)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::JsonTextReader*), "ReadAsDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

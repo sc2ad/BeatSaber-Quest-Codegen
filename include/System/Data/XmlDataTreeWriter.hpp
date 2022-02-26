@@ -41,8 +41,8 @@ namespace System::Data {
   class XmlDataTreeWriter;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Data::XmlDataTreeWriter);
-DEFINE_IL2CPP_ARG_TYPE(System::Data::XmlDataTreeWriter*, "System.Data", "XmlDataTreeWriter");
+NEED_NO_BOX(::System::Data::XmlDataTreeWriter);
+DEFINE_IL2CPP_ARG_TYPE(::System::Data::XmlDataTreeWriter*, "System.Data", "XmlDataTreeWriter");
 // Type namespace: System.Data
 namespace System::Data {
   // Size: 0x49
@@ -63,33 +63,33 @@ namespace System::Data {
     // private System.Xml.XmlWriter _xmlw
     // Size: 0x8
     // Offset: 0x10
-    System::Xml::XmlWriter* xmlw;
+    ::System::Xml::XmlWriter* xmlw;
     // Field size check
-    static_assert(sizeof(System::Xml::XmlWriter*) == 0x8);
+    static_assert(sizeof(::System::Xml::XmlWriter*) == 0x8);
     // private System.Data.DataSet _ds
     // Size: 0x8
     // Offset: 0x18
-    System::Data::DataSet* ds;
+    ::System::Data::DataSet* ds;
     // Field size check
-    static_assert(sizeof(System::Data::DataSet*) == 0x8);
+    static_assert(sizeof(::System::Data::DataSet*) == 0x8);
     // private System.Data.DataTable _dt
     // Size: 0x8
     // Offset: 0x20
-    System::Data::DataTable* dt;
+    ::System::Data::DataTable* dt;
     // Field size check
-    static_assert(sizeof(System::Data::DataTable*) == 0x8);
+    static_assert(sizeof(::System::Data::DataTable*) == 0x8);
     // private System.Collections.ArrayList _dTables
     // Size: 0x8
     // Offset: 0x28
-    System::Collections::ArrayList* dTables;
+    ::System::Collections::ArrayList* dTables;
     // Field size check
-    static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
+    static_assert(sizeof(::System::Collections::ArrayList*) == 0x8);
     // private System.Data.DataTable[] _topLevelTables
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayW<System::Data::DataTable*> topLevelTables;
+    ::ArrayW<::System::Data::DataTable*> topLevelTables;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::Data::DataTable*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::System::Data::DataTable*>) == 0x8);
     // private System.Boolean _fFromTable
     // Size: 0x1
     // Offset: 0x38
@@ -107,9 +107,9 @@ namespace System::Data {
     // private System.Collections.Hashtable _rowsOrder
     // Size: 0x8
     // Offset: 0x40
-    System::Collections::Hashtable* rowsOrder;
+    ::System::Collections::Hashtable* rowsOrder;
     // Field size check
-    static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
+    static_assert(sizeof(::System::Collections::Hashtable*) == 0x8);
     // private System.Boolean _writeHierarchy
     // Size: 0x1
     // Offset: 0x48
@@ -118,58 +118,58 @@ namespace System::Data {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.Xml.XmlWriter _xmlw
-    System::Xml::XmlWriter*& dyn__xmlw();
+    ::System::Xml::XmlWriter*& dyn__xmlw();
     // Get instance field reference: private System.Data.DataSet _ds
-    System::Data::DataSet*& dyn__ds();
+    ::System::Data::DataSet*& dyn__ds();
     // Get instance field reference: private System.Data.DataTable _dt
-    System::Data::DataTable*& dyn__dt();
+    ::System::Data::DataTable*& dyn__dt();
     // Get instance field reference: private System.Collections.ArrayList _dTables
-    System::Collections::ArrayList*& dyn__dTables();
+    ::System::Collections::ArrayList*& dyn__dTables();
     // Get instance field reference: private System.Data.DataTable[] _topLevelTables
-    ::ArrayW<System::Data::DataTable*>& dyn__topLevelTables();
+    ::ArrayW<::System::Data::DataTable*>& dyn__topLevelTables();
     // Get instance field reference: private System.Boolean _fFromTable
     bool& dyn__fFromTable();
     // Get instance field reference: private System.Boolean _isDiffgram
     bool& dyn__isDiffgram();
     // Get instance field reference: private System.Collections.Hashtable _rowsOrder
-    System::Collections::Hashtable*& dyn__rowsOrder();
+    ::System::Collections::Hashtable*& dyn__rowsOrder();
     // Get instance field reference: private System.Boolean _writeHierarchy
     bool& dyn__writeHierarchy();
     // System.Void .ctor(System.Data.DataSet ds)
     // Offset: 0x2411308
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlDataTreeWriter* New_ctor(System::Data::DataSet* ds) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Data::XmlDataTreeWriter::.ctor");
+    static XmlDataTreeWriter* New_ctor(::System::Data::DataSet* ds) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Data::XmlDataTreeWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlDataTreeWriter*, creationType>(ds)));
     }
     // System.Void .ctor(System.Data.DataTable dt, System.Boolean writeHierarchy)
     // Offset: 0x24115B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlDataTreeWriter* New_ctor(System::Data::DataTable* dt, bool writeHierarchy) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Data::XmlDataTreeWriter::.ctor");
+    static XmlDataTreeWriter* New_ctor(::System::Data::DataTable* dt, bool writeHierarchy) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Data::XmlDataTreeWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlDataTreeWriter*, creationType>(dt, writeHierarchy)));
     }
     // private System.Data.DataTable[] CreateToplevelTables()
     // Offset: 0x2411A04
-    ::ArrayW<System::Data::DataTable*> CreateToplevelTables();
+    ::ArrayW<::System::Data::DataTable*> CreateToplevelTables();
     // private System.Void CreateTablesHierarchy(System.Data.DataTable dt)
     // Offset: 0x2411708
-    void CreateTablesHierarchy(System::Data::DataTable* dt);
+    void CreateTablesHierarchy(::System::Data::DataTable* dt);
     // static System.Boolean RowHasErrors(System.Data.DataRow row)
     // Offset: 0x2411D00
-    static bool RowHasErrors(System::Data::DataRow* row);
+    static bool RowHasErrors(::System::Data::DataRow* row);
     // System.Void SaveDiffgramData(System.Xml.XmlWriter xw, System.Collections.Hashtable rowsOrder)
     // Offset: 0x2411DD4
-    void SaveDiffgramData(System::Xml::XmlWriter* xw, System::Collections::Hashtable* rowsOrder);
+    void SaveDiffgramData(::System::Xml::XmlWriter* xw, ::System::Collections::Hashtable* rowsOrder);
     // System.Void Save(System.Xml.XmlWriter xw, System.Boolean writeSchema)
     // Offset: 0x2413AF0
-    void Save(System::Xml::XmlWriter* xw, bool writeSchema);
+    void Save(::System::Xml::XmlWriter* xw, bool writeSchema);
     // private System.Collections.ArrayList GetNestedChildRelations(System.Data.DataRow row)
     // Offset: 0x241439C
-    System::Collections::ArrayList* GetNestedChildRelations(System::Data::DataRow* row);
+    ::System::Collections::ArrayList* GetNestedChildRelations(::System::Data::DataRow* row);
     // System.Void XmlDataRowWriter(System.Data.DataRow row, System.String encodedTableName)
     // Offset: 0x24123B4
-    void XmlDataRowWriter(System::Data::DataRow* row, ::StringW encodedTableName);
+    void XmlDataRowWriter(::System::Data::DataRow* row, ::StringW encodedTableName);
     // static System.Boolean PreserveSpace(System.Object value)
     // Offset: 0x24146E0
     static bool PreserveSpace(::Il2CppObject* value);
@@ -190,7 +190,7 @@ namespace System::Data {
 // Writing MetadataGetter for method: System::Data::XmlDataTreeWriter::CreateToplevelTables
 // Il2CppName: CreateToplevelTables
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Data::DataTable*> (System::Data::XmlDataTreeWriter::*)()>(&System::Data::XmlDataTreeWriter::CreateToplevelTables)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Data::DataTable*> (System::Data::XmlDataTreeWriter::*)()>(&System::Data::XmlDataTreeWriter::CreateToplevelTables)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::XmlDataTreeWriter*), "CreateToplevelTables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -198,7 +198,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Sy
 // Writing MetadataGetter for method: System::Data::XmlDataTreeWriter::CreateTablesHierarchy
 // Il2CppName: CreateTablesHierarchy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XmlDataTreeWriter::*)(System::Data::DataTable*)>(&System::Data::XmlDataTreeWriter::CreateTablesHierarchy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XmlDataTreeWriter::*)(::System::Data::DataTable*)>(&System::Data::XmlDataTreeWriter::CreateTablesHierarchy)> {
   static const MethodInfo* get() {
     static auto* dt = &::il2cpp_utils::GetClassFromName("System.Data", "DataTable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::XmlDataTreeWriter*), "CreateTablesHierarchy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dt});
@@ -207,7 +207,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::XmlDataTreeWriter::RowHasErrors
 // Il2CppName: RowHasErrors
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Data::DataRow*)>(&System::Data::XmlDataTreeWriter::RowHasErrors)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Data::DataRow*)>(&System::Data::XmlDataTreeWriter::RowHasErrors)> {
   static const MethodInfo* get() {
     static auto* row = &::il2cpp_utils::GetClassFromName("System.Data", "DataRow")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::XmlDataTreeWriter*), "RowHasErrors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{row});
@@ -216,7 +216,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Data::XmlDataTreeWriter::SaveDiffgramData
 // Il2CppName: SaveDiffgramData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XmlDataTreeWriter::*)(System::Xml::XmlWriter*, System::Collections::Hashtable*)>(&System::Data::XmlDataTreeWriter::SaveDiffgramData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XmlDataTreeWriter::*)(::System::Xml::XmlWriter*, ::System::Collections::Hashtable*)>(&System::Data::XmlDataTreeWriter::SaveDiffgramData)> {
   static const MethodInfo* get() {
     static auto* xw = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlWriter")->byval_arg;
     static auto* rowsOrder = &::il2cpp_utils::GetClassFromName("System.Collections", "Hashtable")->byval_arg;
@@ -226,7 +226,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::XmlDataTreeWriter::Save
 // Il2CppName: Save
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XmlDataTreeWriter::*)(System::Xml::XmlWriter*, bool)>(&System::Data::XmlDataTreeWriter::Save)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XmlDataTreeWriter::*)(::System::Xml::XmlWriter*, bool)>(&System::Data::XmlDataTreeWriter::Save)> {
   static const MethodInfo* get() {
     static auto* xw = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlWriter")->byval_arg;
     static auto* writeSchema = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -236,7 +236,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::XmlDataTreeWriter::GetNestedChildRelations
 // Il2CppName: GetNestedChildRelations
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ArrayList* (System::Data::XmlDataTreeWriter::*)(System::Data::DataRow*)>(&System::Data::XmlDataTreeWriter::GetNestedChildRelations)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (System::Data::XmlDataTreeWriter::*)(::System::Data::DataRow*)>(&System::Data::XmlDataTreeWriter::GetNestedChildRelations)> {
   static const MethodInfo* get() {
     static auto* row = &::il2cpp_utils::GetClassFromName("System.Data", "DataRow")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::XmlDataTreeWriter*), "GetNestedChildRelations", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{row});
@@ -245,7 +245,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::Data::XmlDataTreeWriter::XmlDataRowWriter
 // Il2CppName: XmlDataRowWriter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XmlDataTreeWriter::*)(System::Data::DataRow*, ::StringW)>(&System::Data::XmlDataTreeWriter::XmlDataRowWriter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::XmlDataTreeWriter::*)(::System::Data::DataRow*, ::StringW)>(&System::Data::XmlDataTreeWriter::XmlDataRowWriter)> {
   static const MethodInfo* get() {
     static auto* row = &::il2cpp_utils::GetClassFromName("System.Data", "DataRow")->byval_arg;
     static auto* encodedTableName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

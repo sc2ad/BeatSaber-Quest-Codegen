@@ -25,8 +25,8 @@ namespace Org::BouncyCastle::Asn1::X9 {
   class ECNamedCurveTable;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Asn1::X9::ECNamedCurveTable);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X9::ECNamedCurveTable*, "Org.BouncyCastle.Asn1.X9", "ECNamedCurveTable");
+NEED_NO_BOX(::Org::BouncyCastle::Asn1::X9::ECNamedCurveTable);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::X9::ECNamedCurveTable*, "Org.BouncyCastle.Asn1.X9", "ECNamedCurveTable");
 // Type namespace: Org.BouncyCastle.Asn1.X9
 namespace Org::BouncyCastle::Asn1::X9 {
   // Size: 0x10
@@ -37,10 +37,10 @@ namespace Org::BouncyCastle::Asn1::X9 {
     public:
     // static public Org.BouncyCastle.Asn1.X9.X9ECParameters GetByName(System.String name)
     // Offset: 0x1E3CC28
-    static Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByName(::StringW name);
+    static ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByName(::StringW name);
     // static public Org.BouncyCastle.Asn1.X9.X9ECParameters GetByOid(Org.BouncyCastle.Asn1.DerObjectIdentifier oid)
     // Offset: 0x1E3CE50
-    static Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByOid(Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
+    static ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
   }; // Org.BouncyCastle.Asn1.X9.ECNamedCurveTable
   #pragma pack(pop)
 }
@@ -48,7 +48,7 @@ namespace Org::BouncyCastle::Asn1::X9 {
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X9::ECNamedCurveTable::GetByName
 // Il2CppName: GetByName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (*)(::StringW)>(&Org::BouncyCastle::Asn1::X9::ECNamedCurveTable::GetByName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (*)(::StringW)>(&Org::BouncyCastle::Asn1::X9::ECNamedCurveTable::GetByName)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X9::ECNamedCurveTable*), "GetByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -57,7 +57,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X9::ECNamedCurveTable::GetByOid
 // Il2CppName: GetByOid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (*)(Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&Org::BouncyCastle::Asn1::X9::ECNamedCurveTable::GetByOid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&Org::BouncyCastle::Asn1::X9::ECNamedCurveTable::GetByOid)> {
   static const MethodInfo* get() {
     static auto* oid = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1", "DerObjectIdentifier")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X9::ECNamedCurveTable*), "GetByOid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{oid});

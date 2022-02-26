@@ -15,8 +15,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::GhostDuplicationEffect::$$c__DisplayClass7_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GhostDuplicationEffect::$$c__DisplayClass7_0*, "", "GhostDuplicationEffect/<>c__DisplayClass7_0");
+NEED_NO_BOX(::GlobalNamespace::GhostDuplicationEffect::$$c__DisplayClass7_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GhostDuplicationEffect::$$c__DisplayClass7_0*, "", "GhostDuplicationEffect/<>c__DisplayClass7_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x24
@@ -38,20 +38,20 @@ namespace GlobalNamespace {
     // public GhostDuplicationEffect <>4__this
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::GhostDuplicationEffect* $$4__this;
+    ::GlobalNamespace::GhostDuplicationEffect* $$4__this;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::GhostDuplicationEffect*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::GhostDuplicationEffect*) == 0x8);
     // public UnityEngine.Vector3 direction
     // Size: 0xC
     // Offset: 0x18
-    UnityEngine::Vector3 direction;
+    ::UnityEngine::Vector3 direction;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     public:
     // Get instance field reference: public GhostDuplicationEffect <>4__this
-    GlobalNamespace::GhostDuplicationEffect*& dyn_$$4__this();
+    ::GlobalNamespace::GhostDuplicationEffect*& dyn_$$4__this();
     // Get instance field reference: public UnityEngine.Vector3 direction
-    UnityEngine::Vector3& dyn_direction();
+    ::UnityEngine::Vector3& dyn_direction();
     // System.Void <Animate>b__0(System.Single val)
     // Offset: 0x13A57B8
     void $Animate$b__0(float val);
@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     void $Animate$b__1(float val);
     // System.Void <Animate>b__2(UnityEngine.Vector3 pos)
     // Offset: 0x13A5858
-    void $Animate$b__2(UnityEngine::Vector3 pos);
+    void $Animate$b__2(::UnityEngine::Vector3 pos);
     // System.Void <Animate>b__3(System.Single val)
     // Offset: 0x13A58AC
     void $Animate$b__3(float val);
@@ -70,12 +70,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GhostDuplicationEffect::$$c__DisplayClass7_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GhostDuplicationEffect::$$c__DisplayClass7_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GhostDuplicationEffect::$$c__DisplayClass7_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GhostDuplicationEffect::$$c__DisplayClass7_0*, creationType>()));
     }
   }; // GhostDuplicationEffect/<>c__DisplayClass7_0
   #pragma pack(pop)
-  static check_size<sizeof(GhostDuplicationEffect::$$c__DisplayClass7_0), 24 + sizeof(UnityEngine::Vector3)> __GlobalNamespace_GhostDuplicationEffect_$$c__DisplayClass7_0SizeCheck;
+  static check_size<sizeof(GhostDuplicationEffect::$$c__DisplayClass7_0), 24 + sizeof(::UnityEngine::Vector3)> __GlobalNamespace_GhostDuplicationEffect_$$c__DisplayClass7_0SizeCheck;
   static_assert(sizeof(GhostDuplicationEffect::$$c__DisplayClass7_0) == 0x24);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -100,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::GhostDuplicationEffect::$$c__DisplayClass7_0::$Animate$b__2
 // Il2CppName: <Animate>b__2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GhostDuplicationEffect::$$c__DisplayClass7_0::*)(UnityEngine::Vector3)>(&GlobalNamespace::GhostDuplicationEffect::$$c__DisplayClass7_0::$Animate$b__2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GhostDuplicationEffect::$$c__DisplayClass7_0::*)(::UnityEngine::Vector3)>(&GlobalNamespace::GhostDuplicationEffect::$$c__DisplayClass7_0::$Animate$b__2)> {
   static const MethodInfo* get() {
     static auto* pos = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GhostDuplicationEffect::$$c__DisplayClass7_0*), "<Animate>b__2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pos});

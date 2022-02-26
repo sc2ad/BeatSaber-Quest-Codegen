@@ -26,8 +26,8 @@ namespace UnityEngine::TestRunner::TestLaunchers {
   class RemoteTestResultDataWithTestData;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataWithTestData);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataWithTestData*, "UnityEngine.TestRunner.TestLaunchers", "RemoteTestResultDataWithTestData");
+NEED_NO_BOX(::UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataWithTestData);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataWithTestData*, "UnityEngine.TestRunner.TestLaunchers", "RemoteTestResultDataWithTestData");
 // Type namespace: UnityEngine.TestRunner.TestLaunchers
 namespace UnityEngine::TestRunner::TestLaunchers {
   // Size: 0x20
@@ -48,32 +48,32 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // public UnityEngine.TestRunner.TestLaunchers.RemoteTestResultData[] results
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*> results;
+    ::ArrayW<::UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*> results;
     // Field size check
-    static_assert(sizeof(::ArrayW<UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*>) == 0x8);
     // public UnityEngine.TestRunner.TestLaunchers.RemoteTestData[] tests
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayW<UnityEngine::TestRunner::TestLaunchers::RemoteTestData*> tests;
+    ::ArrayW<::UnityEngine::TestRunner::TestLaunchers::RemoteTestData*> tests;
     // Field size check
-    static_assert(sizeof(::ArrayW<UnityEngine::TestRunner::TestLaunchers::RemoteTestData*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::UnityEngine::TestRunner::TestLaunchers::RemoteTestData*>) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.TestRunner.TestLaunchers.RemoteTestResultData[] results
-    ::ArrayW<UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*>& dyn_results();
+    ::ArrayW<::UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*>& dyn_results();
     // Get instance field reference: public UnityEngine.TestRunner.TestLaunchers.RemoteTestData[] tests
-    ::ArrayW<UnityEngine::TestRunner::TestLaunchers::RemoteTestData*>& dyn_tests();
+    ::ArrayW<::UnityEngine::TestRunner::TestLaunchers::RemoteTestData*>& dyn_tests();
     // public System.Void .ctor()
     // Offset: 0x18D47E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RemoteTestResultDataWithTestData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataWithTestData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataWithTestData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RemoteTestResultDataWithTestData*, creationType>()));
     }
   }; // UnityEngine.TestRunner.TestLaunchers.RemoteTestResultDataWithTestData
   #pragma pack(pop)
-  static check_size<sizeof(RemoteTestResultDataWithTestData), 24 + sizeof(::ArrayW<UnityEngine::TestRunner::TestLaunchers::RemoteTestData*>)> __UnityEngine_TestRunner_TestLaunchers_RemoteTestResultDataWithTestDataSizeCheck;
+  static check_size<sizeof(RemoteTestResultDataWithTestData), 24 + sizeof(::ArrayW<::UnityEngine::TestRunner::TestLaunchers::RemoteTestData*>)> __UnityEngine_TestRunner_TestLaunchers_RemoteTestResultDataWithTestDataSizeCheck;
   static_assert(sizeof(RemoteTestResultDataWithTestData) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

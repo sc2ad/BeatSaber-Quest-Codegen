@@ -29,8 +29,8 @@ namespace Org::BouncyCastle::X509 {
   class PemParser;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::X509::PemParser);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::PemParser*, "Org.BouncyCastle.X509", "PemParser");
+NEED_NO_BOX(::Org::BouncyCastle::X509::PemParser);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::X509::PemParser*, "Org.BouncyCastle.X509", "PemParser");
 // Type namespace: Org.BouncyCastle.X509
 namespace Org::BouncyCastle::X509 {
   // Size: 0x30
@@ -85,15 +85,15 @@ namespace Org::BouncyCastle::X509 {
     // Offset: 0x25A8490
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PemParser* New_ctor(::StringW type) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::X509::PemParser::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::X509::PemParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PemParser*, creationType>(type)));
     }
     // private System.String ReadLine(System.IO.Stream inStream)
     // Offset: 0x25A8570
-    ::StringW ReadLine(System::IO::Stream* inStream);
+    ::StringW ReadLine(::System::IO::Stream* inStream);
     // Org.BouncyCastle.Asn1.Asn1Sequence ReadPemObject(System.IO.Stream inStream)
     // Offset: 0x25A8648
-    Org::BouncyCastle::Asn1::Asn1Sequence* ReadPemObject(System::IO::Stream* inStream);
+    ::Org::BouncyCastle::Asn1::Asn1Sequence* ReadPemObject(::System::IO::Stream* inStream);
   }; // Org.BouncyCastle.X509.PemParser
   #pragma pack(pop)
   static check_size<sizeof(PemParser), 40 + sizeof(::StringW)> __Org_BouncyCastle_X509_PemParserSizeCheck;
@@ -107,7 +107,7 @@ namespace Org::BouncyCastle::X509 {
 // Writing MetadataGetter for method: Org::BouncyCastle::X509::PemParser::ReadLine
 // Il2CppName: ReadLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Org::BouncyCastle::X509::PemParser::*)(System::IO::Stream*)>(&Org::BouncyCastle::X509::PemParser::ReadLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Org::BouncyCastle::X509::PemParser::*)(::System::IO::Stream*)>(&Org::BouncyCastle::X509::PemParser::ReadLine)> {
   static const MethodInfo* get() {
     static auto* inStream = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::X509::PemParser*), "ReadLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inStream});
@@ -116,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: Org::BouncyCastle::X509::PemParser::ReadPemObject
 // Il2CppName: ReadPemObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Sequence* (Org::BouncyCastle::X509::PemParser::*)(System::IO::Stream*)>(&Org::BouncyCastle::X509::PemParser::ReadPemObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Sequence* (Org::BouncyCastle::X509::PemParser::*)(::System::IO::Stream*)>(&Org::BouncyCastle::X509::PemParser::ReadPemObject)> {
   static const MethodInfo* get() {
     static auto* inStream = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::X509::PemParser*), "ReadPemObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inStream});

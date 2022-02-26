@@ -25,8 +25,8 @@ namespace UnityEngine::ResourceManagement::Util {
   class IInitializableObject;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ResourceManagement::Util::IInitializableObject);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::IInitializableObject*, "UnityEngine.ResourceManagement.Util", "IInitializableObject");
+NEED_NO_BOX(::UnityEngine::ResourceManagement::Util::IInitializableObject);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::Util::IInitializableObject*, "UnityEngine.ResourceManagement.Util", "IInitializableObject");
 // Type namespace: UnityEngine.ResourceManagement.Util
 namespace UnityEngine::ResourceManagement::Util {
   // Size: 0x10
@@ -40,7 +40,7 @@ namespace UnityEngine::ResourceManagement::Util {
     bool Initialize(::StringW id, ::StringW data);
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Boolean> InitializeAsync(UnityEngine.ResourceManagement.ResourceManager rm, System.String id, System.String data)
     // Offset: 0xFFFFFFFF
-    UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> InitializeAsync(UnityEngine::ResourceManagement::ResourceManager* rm, ::StringW id, ::StringW data);
+    ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> InitializeAsync(::UnityEngine::ResourceManagement::ResourceManager* rm, ::StringW id, ::StringW data);
   }; // UnityEngine.ResourceManagement.Util.IInitializableObject
   #pragma pack(pop)
 }
@@ -58,7 +58,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::IInitializableObject::InitializeAsync
 // Il2CppName: InitializeAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> (UnityEngine::ResourceManagement::Util::IInitializableObject::*)(UnityEngine::ResourceManagement::ResourceManager*, ::StringW, ::StringW)>(&UnityEngine::ResourceManagement::Util::IInitializableObject::InitializeAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> (UnityEngine::ResourceManagement::Util::IInitializableObject::*)(::UnityEngine::ResourceManagement::ResourceManager*, ::StringW, ::StringW)>(&UnityEngine::ResourceManagement::Util::IInitializableObject::InitializeAsync)> {
   static const MethodInfo* get() {
     static auto* rm = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement", "ResourceManager")->byval_arg;
     static auto* id = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

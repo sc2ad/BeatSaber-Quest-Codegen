@@ -28,8 +28,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::InteractionObject::Message);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionObject::Message*, "RootMotion.FinalIK", "InteractionObject/Message");
+NEED_NO_BOX(::RootMotion::FinalIK::InteractionObject::Message);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::InteractionObject::Message*, "RootMotion.FinalIK", "InteractionObject/Message");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x20
@@ -58,9 +58,9 @@ namespace RootMotion::FinalIK {
     // public UnityEngine.GameObject recipient
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::GameObject* recipient;
+    ::UnityEngine::GameObject* recipient;
     // Field size check
-    static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
+    static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
     public:
     // static field const value: static private System.String empty
     static constexpr const char* empty = "";
@@ -71,29 +71,29 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.String function
     ::StringW& dyn_function();
     // Get instance field reference: public UnityEngine.GameObject recipient
-    UnityEngine::GameObject*& dyn_recipient();
+    ::UnityEngine::GameObject*& dyn_recipient();
     // public System.Void Send(UnityEngine.Transform t)
     // Offset: 0x233AD4C
-    void Send(UnityEngine::Transform* t);
+    void Send(::UnityEngine::Transform* t);
     // public System.Void .ctor()
     // Offset: 0x233AE44
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InteractionObject::Message* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::InteractionObject::Message::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::InteractionObject::Message::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InteractionObject::Message*, creationType>()));
     }
   }; // RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.Message
   #pragma pack(pop)
-  static check_size<sizeof(InteractionObject::Message), 24 + sizeof(UnityEngine::GameObject*)> __RootMotion_FinalIK_InteractionObject_MessageSizeCheck;
+  static check_size<sizeof(InteractionObject::Message), 24 + sizeof(::UnityEngine::GameObject*)> __RootMotion_FinalIK_InteractionObject_MessageSizeCheck;
   static_assert(sizeof(InteractionObject::Message) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionObject::Message::Send
 // Il2CppName: Send
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionObject::Message::*)(UnityEngine::Transform*)>(&RootMotion::FinalIK::InteractionObject::Message::Send)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionObject::Message::*)(::UnityEngine::Transform*)>(&RootMotion::FinalIK::InteractionObject::Message::Send)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionObject::Message*), "Send", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});

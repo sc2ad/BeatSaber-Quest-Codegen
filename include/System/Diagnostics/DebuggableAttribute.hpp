@@ -20,8 +20,8 @@ namespace System::Diagnostics {
   class DebuggableAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Diagnostics::DebuggableAttribute);
-DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DebuggableAttribute*, "System.Diagnostics", "DebuggableAttribute");
+NEED_NO_BOX(::System::Diagnostics::DebuggableAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::DebuggableAttribute*, "System.Diagnostics", "DebuggableAttribute");
 // Type namespace: System.Diagnostics
 namespace System::Diagnostics {
   // Size: 0x14
@@ -30,9 +30,9 @@ namespace System::Diagnostics {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AttributeUsageAttribute] Offset: 118D69C
   // [ComVisibleAttribute] Offset: 118D69C
-  class DebuggableAttribute : public System::Attribute {
+  class DebuggableAttribute : public ::System::Attribute {
     public:
-    // Nested type: System::Diagnostics::DebuggableAttribute::DebuggingModes
+    // Nested type: ::System::Diagnostics::DebuggableAttribute::DebuggingModes
     struct DebuggingModes;
     // Size: 0x4
     #pragma pack(push, 1)
@@ -40,7 +40,7 @@ namespace System::Diagnostics {
     // [TokenAttribute] Offset: FFFFFFFF
     // [FlagsAttribute] Offset: FFFFFFFF
     // [ComVisibleAttribute] Offset: 118D6E4
-    struct DebuggingModes/*, public System::Enum*/ {
+    struct DebuggingModes/*, public ::System::Enum*/ {
       public:
       public:
       // public System.Int32 value__
@@ -52,9 +52,9 @@ namespace System::Diagnostics {
       public:
       // Creating value type constructor for type: DebuggingModes
       constexpr DebuggingModes(int value_ = {}) noexcept : value{value_} {}
-      // Creating interface conversion operator: operator System::Enum
-      operator System::Enum() noexcept {
-        return *reinterpret_cast<System::Enum*>(this);
+      // Creating interface conversion operator: operator ::System::Enum
+      operator ::System::Enum() noexcept {
+        return *reinterpret_cast<::System::Enum*>(this);
       }
       // Creating conversion operator: operator int
       constexpr operator int() const noexcept {
@@ -63,33 +63,33 @@ namespace System::Diagnostics {
       // static field const value: static public System.Diagnostics.DebuggableAttribute/System.Diagnostics.DebuggingModes None
       static constexpr const int None = 0;
       // Get static field: static public System.Diagnostics.DebuggableAttribute/System.Diagnostics.DebuggingModes None
-      static System::Diagnostics::DebuggableAttribute::DebuggingModes _get_None();
+      static ::System::Diagnostics::DebuggableAttribute::DebuggingModes _get_None();
       // Set static field: static public System.Diagnostics.DebuggableAttribute/System.Diagnostics.DebuggingModes None
-      static void _set_None(System::Diagnostics::DebuggableAttribute::DebuggingModes value);
+      static void _set_None(::System::Diagnostics::DebuggableAttribute::DebuggingModes value);
       // static field const value: static public System.Diagnostics.DebuggableAttribute/System.Diagnostics.DebuggingModes Default
       static constexpr const int Default = 1;
       // Get static field: static public System.Diagnostics.DebuggableAttribute/System.Diagnostics.DebuggingModes Default
-      static System::Diagnostics::DebuggableAttribute::DebuggingModes _get_Default();
+      static ::System::Diagnostics::DebuggableAttribute::DebuggingModes _get_Default();
       // Set static field: static public System.Diagnostics.DebuggableAttribute/System.Diagnostics.DebuggingModes Default
-      static void _set_Default(System::Diagnostics::DebuggableAttribute::DebuggingModes value);
+      static void _set_Default(::System::Diagnostics::DebuggableAttribute::DebuggingModes value);
       // static field const value: static public System.Diagnostics.DebuggableAttribute/System.Diagnostics.DebuggingModes DisableOptimizations
       static constexpr const int DisableOptimizations = 256;
       // Get static field: static public System.Diagnostics.DebuggableAttribute/System.Diagnostics.DebuggingModes DisableOptimizations
-      static System::Diagnostics::DebuggableAttribute::DebuggingModes _get_DisableOptimizations();
+      static ::System::Diagnostics::DebuggableAttribute::DebuggingModes _get_DisableOptimizations();
       // Set static field: static public System.Diagnostics.DebuggableAttribute/System.Diagnostics.DebuggingModes DisableOptimizations
-      static void _set_DisableOptimizations(System::Diagnostics::DebuggableAttribute::DebuggingModes value);
+      static void _set_DisableOptimizations(::System::Diagnostics::DebuggableAttribute::DebuggingModes value);
       // static field const value: static public System.Diagnostics.DebuggableAttribute/System.Diagnostics.DebuggingModes IgnoreSymbolStoreSequencePoints
       static constexpr const int IgnoreSymbolStoreSequencePoints = 2;
       // Get static field: static public System.Diagnostics.DebuggableAttribute/System.Diagnostics.DebuggingModes IgnoreSymbolStoreSequencePoints
-      static System::Diagnostics::DebuggableAttribute::DebuggingModes _get_IgnoreSymbolStoreSequencePoints();
+      static ::System::Diagnostics::DebuggableAttribute::DebuggingModes _get_IgnoreSymbolStoreSequencePoints();
       // Set static field: static public System.Diagnostics.DebuggableAttribute/System.Diagnostics.DebuggingModes IgnoreSymbolStoreSequencePoints
-      static void _set_IgnoreSymbolStoreSequencePoints(System::Diagnostics::DebuggableAttribute::DebuggingModes value);
+      static void _set_IgnoreSymbolStoreSequencePoints(::System::Diagnostics::DebuggableAttribute::DebuggingModes value);
       // static field const value: static public System.Diagnostics.DebuggableAttribute/System.Diagnostics.DebuggingModes EnableEditAndContinue
       static constexpr const int EnableEditAndContinue = 4;
       // Get static field: static public System.Diagnostics.DebuggableAttribute/System.Diagnostics.DebuggingModes EnableEditAndContinue
-      static System::Diagnostics::DebuggableAttribute::DebuggingModes _get_EnableEditAndContinue();
+      static ::System::Diagnostics::DebuggableAttribute::DebuggingModes _get_EnableEditAndContinue();
       // Set static field: static public System.Diagnostics.DebuggableAttribute/System.Diagnostics.DebuggingModes EnableEditAndContinue
-      static void _set_EnableEditAndContinue(System::Diagnostics::DebuggableAttribute::DebuggingModes value);
+      static void _set_EnableEditAndContinue(::System::Diagnostics::DebuggableAttribute::DebuggingModes value);
       // Get instance field reference: public System.Int32 value__
       int& dyn_value__();
     }; // System.Diagnostics.DebuggableAttribute/System.Diagnostics.DebuggingModes
@@ -108,30 +108,30 @@ namespace System::Diagnostics {
     // private System.Diagnostics.DebuggableAttribute/System.Diagnostics.DebuggingModes m_debuggingModes
     // Size: 0x4
     // Offset: 0x10
-    System::Diagnostics::DebuggableAttribute::DebuggingModes m_debuggingModes;
+    ::System::Diagnostics::DebuggableAttribute::DebuggingModes m_debuggingModes;
     // Field size check
-    static_assert(sizeof(System::Diagnostics::DebuggableAttribute::DebuggingModes) == 0x4);
+    static_assert(sizeof(::System::Diagnostics::DebuggableAttribute::DebuggingModes) == 0x4);
     public:
-    // Creating conversion operator: operator System::Diagnostics::DebuggableAttribute::DebuggingModes
-    constexpr operator System::Diagnostics::DebuggableAttribute::DebuggingModes() const noexcept {
+    // Creating conversion operator: operator ::System::Diagnostics::DebuggableAttribute::DebuggingModes
+    constexpr operator ::System::Diagnostics::DebuggableAttribute::DebuggingModes() const noexcept {
       return m_debuggingModes;
     }
     // Get instance field reference: private System.Diagnostics.DebuggableAttribute/System.Diagnostics.DebuggingModes m_debuggingModes
-    System::Diagnostics::DebuggableAttribute::DebuggingModes& dyn_m_debuggingModes();
+    ::System::Diagnostics::DebuggableAttribute::DebuggingModes& dyn_m_debuggingModes();
     // public System.Void .ctor(System.Diagnostics.DebuggableAttribute/System.Diagnostics.DebuggingModes modes)
     // Offset: 0x187FDF8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DebuggableAttribute* New_ctor(System::Diagnostics::DebuggableAttribute::DebuggingModes modes) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::DebuggableAttribute::.ctor");
+    static DebuggableAttribute* New_ctor(::System::Diagnostics::DebuggableAttribute::DebuggingModes modes) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Diagnostics::DebuggableAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DebuggableAttribute*, creationType>(modes)));
     }
   }; // System.Diagnostics.DebuggableAttribute
   #pragma pack(pop)
-  static check_size<sizeof(DebuggableAttribute), 16 + sizeof(System::Diagnostics::DebuggableAttribute::DebuggingModes)> __System_Diagnostics_DebuggableAttributeSizeCheck;
+  static check_size<sizeof(DebuggableAttribute), 16 + sizeof(::System::Diagnostics::DebuggableAttribute::DebuggingModes)> __System_Diagnostics_DebuggableAttributeSizeCheck;
   static_assert(sizeof(DebuggableAttribute) == 0x14);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DebuggableAttribute::DebuggingModes, "System.Diagnostics", "DebuggableAttribute/DebuggingModes");
+DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::DebuggableAttribute::DebuggingModes, "System.Diagnostics", "DebuggableAttribute/DebuggingModes");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Diagnostics::DebuggableAttribute::New_ctor
 // Il2CppName: .ctor

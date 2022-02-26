@@ -31,8 +31,8 @@ namespace GlobalNamespace {
   class IScoreController;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::IScoreController);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IScoreController*, "", "IScoreController");
+NEED_NO_BOX(::GlobalNamespace::IScoreController);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IScoreController*, "", "IScoreController");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -70,64 +70,64 @@ namespace GlobalNamespace {
     float get_gameplayModifiersScoreMultiplier();
     // public System.Void add_noteWasCutEvent(NoteWasCutDelegate value)
     // Offset: 0xFFFFFFFF
-    void add_noteWasCutEvent(GlobalNamespace::NoteWasCutDelegate* value);
+    void add_noteWasCutEvent(::GlobalNamespace::NoteWasCutDelegate* value);
     // public System.Void remove_noteWasCutEvent(NoteWasCutDelegate value)
     // Offset: 0xFFFFFFFF
-    void remove_noteWasCutEvent(GlobalNamespace::NoteWasCutDelegate* value);
+    void remove_noteWasCutEvent(::GlobalNamespace::NoteWasCutDelegate* value);
     // public System.Void add_noteWasMissedEvent(System.Action`2<NoteData,System.Int32> value)
     // Offset: 0xFFFFFFFF
-    void add_noteWasMissedEvent(System::Action_2<GlobalNamespace::NoteData*, int>* value);
+    void add_noteWasMissedEvent(::System::Action_2<::GlobalNamespace::NoteData*, int>* value);
     // public System.Void remove_noteWasMissedEvent(System.Action`2<NoteData,System.Int32> value)
     // Offset: 0xFFFFFFFF
-    void remove_noteWasMissedEvent(System::Action_2<GlobalNamespace::NoteData*, int>* value);
+    void remove_noteWasMissedEvent(::System::Action_2<::GlobalNamespace::NoteData*, int>* value);
     // public System.Void add_scoreDidChangeEvent(System.Action`2<System.Int32,System.Int32> value)
     // Offset: 0xFFFFFFFF
-    void add_scoreDidChangeEvent(System::Action_2<int, int>* value);
+    void add_scoreDidChangeEvent(::System::Action_2<int, int>* value);
     // public System.Void remove_scoreDidChangeEvent(System.Action`2<System.Int32,System.Int32> value)
     // Offset: 0xFFFFFFFF
-    void remove_scoreDidChangeEvent(System::Action_2<int, int>* value);
+    void remove_scoreDidChangeEvent(::System::Action_2<int, int>* value);
     // public System.Void add_immediateMaxPossibleScoreDidChangeEvent(System.Action`2<System.Int32,System.Int32> value)
     // Offset: 0xFFFFFFFF
-    void add_immediateMaxPossibleScoreDidChangeEvent(System::Action_2<int, int>* value);
+    void add_immediateMaxPossibleScoreDidChangeEvent(::System::Action_2<int, int>* value);
     // public System.Void remove_immediateMaxPossibleScoreDidChangeEvent(System.Action`2<System.Int32,System.Int32> value)
     // Offset: 0xFFFFFFFF
-    void remove_immediateMaxPossibleScoreDidChangeEvent(System::Action_2<int, int>* value);
+    void remove_immediateMaxPossibleScoreDidChangeEvent(::System::Action_2<int, int>* value);
     // public System.Void add_multiplierDidChangeEvent(System.Action`2<System.Int32,System.Single> value)
     // Offset: 0xFFFFFFFF
-    void add_multiplierDidChangeEvent(System::Action_2<int, float>* value);
+    void add_multiplierDidChangeEvent(::System::Action_2<int, float>* value);
     // public System.Void remove_multiplierDidChangeEvent(System.Action`2<System.Int32,System.Single> value)
     // Offset: 0xFFFFFFFF
-    void remove_multiplierDidChangeEvent(System::Action_2<int, float>* value);
+    void remove_multiplierDidChangeEvent(::System::Action_2<int, float>* value);
     // public System.Void add_comboDidChangeEvent(System.Action`1<System.Int32> value)
     // Offset: 0xFFFFFFFF
-    void add_comboDidChangeEvent(System::Action_1<int>* value);
+    void add_comboDidChangeEvent(::System::Action_1<int>* value);
     // public System.Void remove_comboDidChangeEvent(System.Action`1<System.Int32> value)
     // Offset: 0xFFFFFFFF
-    void remove_comboDidChangeEvent(System::Action_1<int>* value);
+    void remove_comboDidChangeEvent(::System::Action_1<int>* value);
     // public System.Void add_feverModeChargeProgressDidChangeEvent(System.Action`1<System.Single> value)
     // Offset: 0xFFFFFFFF
-    void add_feverModeChargeProgressDidChangeEvent(System::Action_1<float>* value);
+    void add_feverModeChargeProgressDidChangeEvent(::System::Action_1<float>* value);
     // public System.Void remove_feverModeChargeProgressDidChangeEvent(System.Action`1<System.Single> value)
     // Offset: 0xFFFFFFFF
-    void remove_feverModeChargeProgressDidChangeEvent(System::Action_1<float>* value);
+    void remove_feverModeChargeProgressDidChangeEvent(::System::Action_1<float>* value);
     // public System.Void add_feverDidStartEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void add_feverDidStartEvent(System::Action* value);
+    void add_feverDidStartEvent(::System::Action* value);
     // public System.Void remove_feverDidStartEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void remove_feverDidStartEvent(System::Action* value);
+    void remove_feverDidStartEvent(::System::Action* value);
     // public System.Void add_feverDidFinishEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void add_feverDidFinishEvent(System::Action* value);
+    void add_feverDidFinishEvent(::System::Action* value);
     // public System.Void remove_feverDidFinishEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void remove_feverDidFinishEvent(System::Action* value);
+    void remove_feverDidFinishEvent(::System::Action* value);
     // public System.Void add_comboBreakingEventHappenedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void add_comboBreakingEventHappenedEvent(System::Action* value);
+    void add_comboBreakingEventHappenedEvent(::System::Action* value);
     // public System.Void remove_comboBreakingEventHappenedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void remove_comboBreakingEventHappenedEvent(System::Action* value);
+    void remove_comboBreakingEventHappenedEvent(::System::Action* value);
     // public System.Void SetEnabled(System.Boolean enabled)
     // Offset: 0xFFFFFFFF
     void SetEnabled(bool enabled);
@@ -210,7 +210,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Writing MetadataGetter for method: GlobalNamespace::IScoreController::add_noteWasCutEvent
 // Il2CppName: add_noteWasCutEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IScoreController::*)(GlobalNamespace::NoteWasCutDelegate*)>(&GlobalNamespace::IScoreController::add_noteWasCutEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IScoreController::*)(::GlobalNamespace::NoteWasCutDelegate*)>(&GlobalNamespace::IScoreController::add_noteWasCutEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "NoteWasCutDelegate")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IScoreController*), "add_noteWasCutEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -219,7 +219,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IScoreController::remove_noteWasCutEvent
 // Il2CppName: remove_noteWasCutEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IScoreController::*)(GlobalNamespace::NoteWasCutDelegate*)>(&GlobalNamespace::IScoreController::remove_noteWasCutEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IScoreController::*)(::GlobalNamespace::NoteWasCutDelegate*)>(&GlobalNamespace::IScoreController::remove_noteWasCutEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "NoteWasCutDelegate")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IScoreController*), "remove_noteWasCutEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -228,7 +228,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IScoreController::add_noteWasMissedEvent
 // Il2CppName: add_noteWasMissedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IScoreController::*)(System::Action_2<GlobalNamespace::NoteData*, int>*)>(&GlobalNamespace::IScoreController::add_noteWasMissedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IScoreController::*)(::System::Action_2<::GlobalNamespace::NoteData*, int>*)>(&GlobalNamespace::IScoreController::add_noteWasMissedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "NoteData"), ::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IScoreController*), "add_noteWasMissedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -237,7 +237,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IScoreController::remove_noteWasMissedEvent
 // Il2CppName: remove_noteWasMissedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IScoreController::*)(System::Action_2<GlobalNamespace::NoteData*, int>*)>(&GlobalNamespace::IScoreController::remove_noteWasMissedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IScoreController::*)(::System::Action_2<::GlobalNamespace::NoteData*, int>*)>(&GlobalNamespace::IScoreController::remove_noteWasMissedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "NoteData"), ::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IScoreController*), "remove_noteWasMissedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -246,7 +246,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IScoreController::add_scoreDidChangeEvent
 // Il2CppName: add_scoreDidChangeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IScoreController::*)(System::Action_2<int, int>*)>(&GlobalNamespace::IScoreController::add_scoreDidChangeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IScoreController::*)(::System::Action_2<int, int>*)>(&GlobalNamespace::IScoreController::add_scoreDidChangeEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32"), ::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IScoreController*), "add_scoreDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -255,7 +255,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IScoreController::remove_scoreDidChangeEvent
 // Il2CppName: remove_scoreDidChangeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IScoreController::*)(System::Action_2<int, int>*)>(&GlobalNamespace::IScoreController::remove_scoreDidChangeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IScoreController::*)(::System::Action_2<int, int>*)>(&GlobalNamespace::IScoreController::remove_scoreDidChangeEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32"), ::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IScoreController*), "remove_scoreDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -264,7 +264,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IScoreController::add_immediateMaxPossibleScoreDidChangeEvent
 // Il2CppName: add_immediateMaxPossibleScoreDidChangeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IScoreController::*)(System::Action_2<int, int>*)>(&GlobalNamespace::IScoreController::add_immediateMaxPossibleScoreDidChangeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IScoreController::*)(::System::Action_2<int, int>*)>(&GlobalNamespace::IScoreController::add_immediateMaxPossibleScoreDidChangeEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32"), ::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IScoreController*), "add_immediateMaxPossibleScoreDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -273,7 +273,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IScoreController::remove_immediateMaxPossibleScoreDidChangeEvent
 // Il2CppName: remove_immediateMaxPossibleScoreDidChangeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IScoreController::*)(System::Action_2<int, int>*)>(&GlobalNamespace::IScoreController::remove_immediateMaxPossibleScoreDidChangeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IScoreController::*)(::System::Action_2<int, int>*)>(&GlobalNamespace::IScoreController::remove_immediateMaxPossibleScoreDidChangeEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32"), ::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IScoreController*), "remove_immediateMaxPossibleScoreDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -282,7 +282,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IScoreController::add_multiplierDidChangeEvent
 // Il2CppName: add_multiplierDidChangeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IScoreController::*)(System::Action_2<int, float>*)>(&GlobalNamespace::IScoreController::add_multiplierDidChangeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IScoreController::*)(::System::Action_2<int, float>*)>(&GlobalNamespace::IScoreController::add_multiplierDidChangeEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32"), ::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IScoreController*), "add_multiplierDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -291,7 +291,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IScoreController::remove_multiplierDidChangeEvent
 // Il2CppName: remove_multiplierDidChangeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IScoreController::*)(System::Action_2<int, float>*)>(&GlobalNamespace::IScoreController::remove_multiplierDidChangeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IScoreController::*)(::System::Action_2<int, float>*)>(&GlobalNamespace::IScoreController::remove_multiplierDidChangeEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32"), ::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IScoreController*), "remove_multiplierDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -300,7 +300,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IScoreController::add_comboDidChangeEvent
 // Il2CppName: add_comboDidChangeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IScoreController::*)(System::Action_1<int>*)>(&GlobalNamespace::IScoreController::add_comboDidChangeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IScoreController::*)(::System::Action_1<int>*)>(&GlobalNamespace::IScoreController::add_comboDidChangeEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IScoreController*), "add_comboDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -309,7 +309,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IScoreController::remove_comboDidChangeEvent
 // Il2CppName: remove_comboDidChangeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IScoreController::*)(System::Action_1<int>*)>(&GlobalNamespace::IScoreController::remove_comboDidChangeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IScoreController::*)(::System::Action_1<int>*)>(&GlobalNamespace::IScoreController::remove_comboDidChangeEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IScoreController*), "remove_comboDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -318,7 +318,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IScoreController::add_feverModeChargeProgressDidChangeEvent
 // Il2CppName: add_feverModeChargeProgressDidChangeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IScoreController::*)(System::Action_1<float>*)>(&GlobalNamespace::IScoreController::add_feverModeChargeProgressDidChangeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IScoreController::*)(::System::Action_1<float>*)>(&GlobalNamespace::IScoreController::add_feverModeChargeProgressDidChangeEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IScoreController*), "add_feverModeChargeProgressDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -327,7 +327,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IScoreController::remove_feverModeChargeProgressDidChangeEvent
 // Il2CppName: remove_feverModeChargeProgressDidChangeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IScoreController::*)(System::Action_1<float>*)>(&GlobalNamespace::IScoreController::remove_feverModeChargeProgressDidChangeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IScoreController::*)(::System::Action_1<float>*)>(&GlobalNamespace::IScoreController::remove_feverModeChargeProgressDidChangeEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IScoreController*), "remove_feverModeChargeProgressDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -336,7 +336,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IScoreController::add_feverDidStartEvent
 // Il2CppName: add_feverDidStartEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IScoreController::*)(System::Action*)>(&GlobalNamespace::IScoreController::add_feverDidStartEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IScoreController::*)(::System::Action*)>(&GlobalNamespace::IScoreController::add_feverDidStartEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IScoreController*), "add_feverDidStartEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -345,7 +345,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IScoreController::remove_feverDidStartEvent
 // Il2CppName: remove_feverDidStartEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IScoreController::*)(System::Action*)>(&GlobalNamespace::IScoreController::remove_feverDidStartEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IScoreController::*)(::System::Action*)>(&GlobalNamespace::IScoreController::remove_feverDidStartEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IScoreController*), "remove_feverDidStartEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -354,7 +354,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IScoreController::add_feverDidFinishEvent
 // Il2CppName: add_feverDidFinishEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IScoreController::*)(System::Action*)>(&GlobalNamespace::IScoreController::add_feverDidFinishEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IScoreController::*)(::System::Action*)>(&GlobalNamespace::IScoreController::add_feverDidFinishEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IScoreController*), "add_feverDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -363,7 +363,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IScoreController::remove_feverDidFinishEvent
 // Il2CppName: remove_feverDidFinishEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IScoreController::*)(System::Action*)>(&GlobalNamespace::IScoreController::remove_feverDidFinishEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IScoreController::*)(::System::Action*)>(&GlobalNamespace::IScoreController::remove_feverDidFinishEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IScoreController*), "remove_feverDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -372,7 +372,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IScoreController::add_comboBreakingEventHappenedEvent
 // Il2CppName: add_comboBreakingEventHappenedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IScoreController::*)(System::Action*)>(&GlobalNamespace::IScoreController::add_comboBreakingEventHappenedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IScoreController::*)(::System::Action*)>(&GlobalNamespace::IScoreController::add_comboBreakingEventHappenedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IScoreController*), "add_comboBreakingEventHappenedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -381,7 +381,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IScoreController::remove_comboBreakingEventHappenedEvent
 // Il2CppName: remove_comboBreakingEventHappenedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IScoreController::*)(System::Action*)>(&GlobalNamespace::IScoreController::remove_comboBreakingEventHappenedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IScoreController::*)(::System::Action*)>(&GlobalNamespace::IScoreController::remove_comboBreakingEventHappenedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IScoreController*), "remove_comboBreakingEventHappenedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

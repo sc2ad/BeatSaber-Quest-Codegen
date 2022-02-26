@@ -24,8 +24,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BookmarksFoldersModel::$$c);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BookmarksFoldersModel::$$c*, "", "BookmarksFoldersModel/<>c");
+NEED_NO_BOX(::GlobalNamespace::BookmarksFoldersModel::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BookmarksFoldersModel::$$c*, "", "BookmarksFoldersModel/<>c");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -36,26 +36,26 @@ namespace GlobalNamespace {
   class BookmarksFoldersModel::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly BookmarksFoldersModel/<>c <>9
-    static GlobalNamespace::BookmarksFoldersModel::$$c* _get_$$9();
+    static ::GlobalNamespace::BookmarksFoldersModel::$$c* _get_$$9();
     // Set static field: static public readonly BookmarksFoldersModel/<>c <>9
-    static void _set_$$9(GlobalNamespace::BookmarksFoldersModel::$$c* value);
+    static void _set_$$9(::GlobalNamespace::BookmarksFoldersModel::$$c* value);
     // Get static field: static public System.Func`2<System.Environment/System.SpecialFolder,System.String> <>9__3_0
-    static System::Func_2<System::Environment::SpecialFolder, ::StringW>* _get_$$9__3_0();
+    static ::System::Func_2<::System::Environment::SpecialFolder, ::StringW>* _get_$$9__3_0();
     // Set static field: static public System.Func`2<System.Environment/System.SpecialFolder,System.String> <>9__3_0
-    static void _set_$$9__3_0(System::Func_2<System::Environment::SpecialFolder, ::StringW>* value);
+    static void _set_$$9__3_0(::System::Func_2<::System::Environment::SpecialFolder, ::StringW>* value);
     // static private System.Void .cctor()
     // Offset: 0x13B87BC
     static void _cctor();
     // System.String <get_bookmarksFolders>b__3_0(System.Environment/System.SpecialFolder specialFolder)
     // Offset: 0x13B8828
-    ::StringW $get_bookmarksFolders$b__3_0(System::Environment::SpecialFolder specialFolder);
+    ::StringW $get_bookmarksFolders$b__3_0(::System::Environment::SpecialFolder specialFolder);
     // public System.Void .ctor()
     // Offset: 0x13B8820
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BookmarksFoldersModel::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BookmarksFoldersModel::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BookmarksFoldersModel::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BookmarksFoldersModel::$$c*, creationType>()));
     }
   }; // BookmarksFoldersModel/<>c
@@ -73,7 +73,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::BookmarksFoldersModel::$$c::$get_bookmarksFolders$b__3_0
 // Il2CppName: <get_bookmarksFolders>b__3_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::BookmarksFoldersModel::$$c::*)(System::Environment::SpecialFolder)>(&GlobalNamespace::BookmarksFoldersModel::$$c::$get_bookmarksFolders$b__3_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::BookmarksFoldersModel::$$c::*)(::System::Environment::SpecialFolder)>(&GlobalNamespace::BookmarksFoldersModel::$$c::$get_bookmarksFolders$b__3_0)> {
   static const MethodInfo* get() {
     static auto* specialFolder = &::il2cpp_utils::GetClassFromName("System", "Environment/SpecialFolder")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BookmarksFoldersModel::$$c*), "<get_bookmarksFolders>b__3_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{specialFolder});

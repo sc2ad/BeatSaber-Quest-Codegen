@@ -19,8 +19,8 @@ namespace HoudiniEngineUnity {
   class HEU_InputObjectPreset;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_InputObjectPreset);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_InputObjectPreset*, "HoudiniEngineUnity", "HEU_InputObjectPreset");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_InputObjectPreset);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_InputObjectPreset*, "HoudiniEngineUnity", "HEU_InputObjectPreset");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x40
@@ -61,21 +61,21 @@ namespace HoudiniEngineUnity {
     // public UnityEngine.Vector3 _translateOffset
     // Size: 0xC
     // Offset: 0x1C
-    UnityEngine::Vector3 translateOffset;
+    ::UnityEngine::Vector3 translateOffset;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // public UnityEngine.Vector3 _rotateOffset
     // Size: 0xC
     // Offset: 0x28
-    UnityEngine::Vector3 rotateOffset;
+    ::UnityEngine::Vector3 rotateOffset;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // public UnityEngine.Vector3 _scaleOffset
     // Size: 0xC
     // Offset: 0x34
-    UnityEngine::Vector3 scaleOffset;
+    ::UnityEngine::Vector3 scaleOffset;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     public:
     // Get instance field reference: public System.String _gameObjectName
     ::StringW& dyn__gameObjectName();
@@ -84,23 +84,23 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Boolean _useTransformOffset
     bool& dyn__useTransformOffset();
     // Get instance field reference: public UnityEngine.Vector3 _translateOffset
-    UnityEngine::Vector3& dyn__translateOffset();
+    ::UnityEngine::Vector3& dyn__translateOffset();
     // Get instance field reference: public UnityEngine.Vector3 _rotateOffset
-    UnityEngine::Vector3& dyn__rotateOffset();
+    ::UnityEngine::Vector3& dyn__rotateOffset();
     // Get instance field reference: public UnityEngine.Vector3 _scaleOffset
-    UnityEngine::Vector3& dyn__scaleOffset();
+    ::UnityEngine::Vector3& dyn__scaleOffset();
     // public System.Void .ctor()
     // Offset: 0x1785FF8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_InputObjectPreset* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_InputObjectPreset::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_InputObjectPreset::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_InputObjectPreset*, creationType>()));
     }
   }; // HoudiniEngineUnity.HEU_InputObjectPreset
   #pragma pack(pop)
-  static check_size<sizeof(HEU_InputObjectPreset), 52 + sizeof(UnityEngine::Vector3)> __HoudiniEngineUnity_HEU_InputObjectPresetSizeCheck;
+  static check_size<sizeof(HEU_InputObjectPreset), 52 + sizeof(::UnityEngine::Vector3)> __HoudiniEngineUnity_HEU_InputObjectPresetSizeCheck;
   static_assert(sizeof(HEU_InputObjectPreset) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

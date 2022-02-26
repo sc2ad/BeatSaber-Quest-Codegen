@@ -21,8 +21,8 @@ namespace UnityEngine {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(TMPro::TMP_Dropdown::OptionData);
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Dropdown::OptionData*, "TMPro", "TMP_Dropdown/OptionData");
+NEED_NO_BOX(::TMPro::TMP_Dropdown::OptionData);
+DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_Dropdown::OptionData*, "TMPro", "TMP_Dropdown/OptionData");
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0x20
@@ -49,14 +49,14 @@ namespace TMPro {
     // private UnityEngine.Sprite m_Image
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::Sprite* m_Image;
+    ::UnityEngine::Sprite* m_Image;
     // Field size check
-    static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Sprite*) == 0x8);
     public:
     // Get instance field reference: private System.String m_Text
     ::StringW& dyn_m_Text();
     // Get instance field reference: private UnityEngine.Sprite m_Image
-    UnityEngine::Sprite*& dyn_m_Image();
+    ::UnityEngine::Sprite*& dyn_m_Image();
     // public System.String get_text()
     // Offset: 0x140D1F0
     ::StringW get_text();
@@ -65,29 +65,29 @@ namespace TMPro {
     void set_text(::StringW value);
     // public UnityEngine.Sprite get_image()
     // Offset: 0x140D200
-    UnityEngine::Sprite* get_image();
+    ::UnityEngine::Sprite* get_image();
     // public System.Void set_image(UnityEngine.Sprite value)
     // Offset: 0x140D208
-    void set_image(UnityEngine::Sprite* value);
+    void set_image(::UnityEngine::Sprite* value);
     // public System.Void .ctor(System.String text)
     // Offset: 0x140AF48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_Dropdown::OptionData* New_ctor(::StringW text) {
-      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_Dropdown::OptionData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_Dropdown::OptionData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_Dropdown::OptionData*, creationType>(text)));
     }
     // public System.Void .ctor(UnityEngine.Sprite image)
     // Offset: 0x140B060
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TMP_Dropdown::OptionData* New_ctor(UnityEngine::Sprite* image) {
-      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_Dropdown::OptionData::.ctor");
+    static TMP_Dropdown::OptionData* New_ctor(::UnityEngine::Sprite* image) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_Dropdown::OptionData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_Dropdown::OptionData*, creationType>(image)));
     }
     // public System.Void .ctor(System.String text, UnityEngine.Sprite image)
     // Offset: 0x140D210
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TMP_Dropdown::OptionData* New_ctor(::StringW text, UnityEngine::Sprite* image) {
-      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_Dropdown::OptionData::.ctor");
+    static TMP_Dropdown::OptionData* New_ctor(::StringW text, ::UnityEngine::Sprite* image) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_Dropdown::OptionData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_Dropdown::OptionData*, creationType>(text, image)));
     }
     // public System.Void .ctor()
@@ -96,12 +96,12 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_Dropdown::OptionData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_Dropdown::OptionData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_Dropdown::OptionData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_Dropdown::OptionData*, creationType>()));
     }
   }; // TMPro.TMP_Dropdown/TMPro.OptionData
   #pragma pack(pop)
-  static check_size<sizeof(TMP_Dropdown::OptionData), 24 + sizeof(UnityEngine::Sprite*)> __TMPro_TMP_Dropdown_OptionDataSizeCheck;
+  static check_size<sizeof(TMP_Dropdown::OptionData), 24 + sizeof(::UnityEngine::Sprite*)> __TMPro_TMP_Dropdown_OptionDataSizeCheck;
   static_assert(sizeof(TMP_Dropdown::OptionData) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -125,7 +125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::OptionData::get_image
 // Il2CppName: get_image
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (TMPro::TMP_Dropdown::OptionData::*)()>(&TMPro::TMP_Dropdown::OptionData::get_image)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Sprite* (TMPro::TMP_Dropdown::OptionData::*)()>(&TMPro::TMP_Dropdown::OptionData::get_image)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown::OptionData*), "get_image", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -133,7 +133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::OptionData::set_image
 // Il2CppName: set_image
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::OptionData::*)(UnityEngine::Sprite*)>(&TMPro::TMP_Dropdown::OptionData::set_image)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::OptionData::*)(::UnityEngine::Sprite*)>(&TMPro::TMP_Dropdown::OptionData::set_image)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Sprite")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown::OptionData*), "set_image", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

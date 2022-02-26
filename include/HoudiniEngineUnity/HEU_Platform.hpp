@@ -26,8 +26,8 @@ namespace HoudiniEngineUnity {
   class HEU_Platform;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_Platform);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_Platform*, "HoudiniEngineUnity", "HEU_Platform");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_Platform);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_Platform*, "HoudiniEngineUnity", "HEU_Platform");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x10
@@ -83,7 +83,7 @@ namespace HoudiniEngineUnity {
     static ::StringW GetAllFoldersInPath(::StringW path);
     // static private System.Void GetAllFoldersInPathHelper(System.String inPath, System.Text.StringBuilder pathBuilder)
     // Offset: 0x1A545A8
-    static void GetAllFoldersInPathHelper(::StringW inPath, System::Text::StringBuilder* pathBuilder);
+    static void GetAllFoldersInPathHelper(::StringW inPath, ::System::Text::StringBuilder* pathBuilder);
     // static public System.String[] GetFilesInFolder(System.String folderPath, System.String searchPattern, System.Boolean bRecursive)
     // Offset: 0x1A54704
     static ::ArrayW<::StringW> GetFilesInFolder(::StringW folderPath, ::StringW searchPattern, bool bRecursive);
@@ -147,7 +147,7 @@ namespace HoudiniEngineUnity {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_Platform* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_Platform::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_Platform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_Platform*, creationType>()));
     }
   }; // HoudiniEngineUnity.HEU_Platform
@@ -246,7 +246,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Platform::GetAllFoldersInPathHelper
 // Il2CppName: GetAllFoldersInPathHelper
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, System::Text::StringBuilder*)>(&HoudiniEngineUnity::HEU_Platform::GetAllFoldersInPathHelper)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::System::Text::StringBuilder*)>(&HoudiniEngineUnity::HEU_Platform::GetAllFoldersInPathHelper)> {
   static const MethodInfo* get() {
     static auto* inPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pathBuilder = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;

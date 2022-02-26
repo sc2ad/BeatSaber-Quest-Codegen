@@ -22,8 +22,8 @@ namespace System::Xml {
   class AsyncHelper;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::AsyncHelper);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::AsyncHelper*, "System.Xml", "AsyncHelper");
+NEED_NO_BOX(::System::Xml::AsyncHelper);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::AsyncHelper*, "System.Xml", "AsyncHelper");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x10
@@ -34,21 +34,21 @@ namespace System::Xml {
   class AsyncHelper : public ::Il2CppObject {
     public:
     // Get static field: static public readonly System.Threading.Tasks.Task DoneTask
-    static System::Threading::Tasks::Task* _get_DoneTask();
+    static ::System::Threading::Tasks::Task* _get_DoneTask();
     // Set static field: static public readonly System.Threading.Tasks.Task DoneTask
-    static void _set_DoneTask(System::Threading::Tasks::Task* value);
+    static void _set_DoneTask(::System::Threading::Tasks::Task* value);
     // Get static field: static public readonly System.Threading.Tasks.Task`1<System.Boolean> DoneTaskTrue
-    static System::Threading::Tasks::Task_1<bool>* _get_DoneTaskTrue();
+    static ::System::Threading::Tasks::Task_1<bool>* _get_DoneTaskTrue();
     // Set static field: static public readonly System.Threading.Tasks.Task`1<System.Boolean> DoneTaskTrue
-    static void _set_DoneTaskTrue(System::Threading::Tasks::Task_1<bool>* value);
+    static void _set_DoneTaskTrue(::System::Threading::Tasks::Task_1<bool>* value);
     // Get static field: static public readonly System.Threading.Tasks.Task`1<System.Boolean> DoneTaskFalse
-    static System::Threading::Tasks::Task_1<bool>* _get_DoneTaskFalse();
+    static ::System::Threading::Tasks::Task_1<bool>* _get_DoneTaskFalse();
     // Set static field: static public readonly System.Threading.Tasks.Task`1<System.Boolean> DoneTaskFalse
-    static void _set_DoneTaskFalse(System::Threading::Tasks::Task_1<bool>* value);
+    static void _set_DoneTaskFalse(::System::Threading::Tasks::Task_1<bool>* value);
     // Get static field: static public readonly System.Threading.Tasks.Task`1<System.Int32> DoneTaskZero
-    static System::Threading::Tasks::Task_1<int>* _get_DoneTaskZero();
+    static ::System::Threading::Tasks::Task_1<int>* _get_DoneTaskZero();
     // Set static field: static public readonly System.Threading.Tasks.Task`1<System.Int32> DoneTaskZero
-    static void _set_DoneTaskZero(System::Threading::Tasks::Task_1<int>* value);
+    static void _set_DoneTaskZero(::System::Threading::Tasks::Task_1<int>* value);
     // static private System.Void .cctor()
     // Offset: 0x1B997A4
     static void _cctor();

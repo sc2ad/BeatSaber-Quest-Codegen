@@ -33,8 +33,8 @@ namespace UnityEngine::TestTools::TestRunner {
   class PlaymodeTestsControllerSettings;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::TestTools::TestRunner::PlaymodeTestsControllerSettings);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::PlaymodeTestsControllerSettings*, "UnityEngine.TestTools.TestRunner", "PlaymodeTestsControllerSettings");
+NEED_NO_BOX(::UnityEngine::TestTools::TestRunner::PlaymodeTestsControllerSettings);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TestTools::TestRunner::PlaymodeTestsControllerSettings*, "UnityEngine.TestTools.TestRunner", "PlaymodeTestsControllerSettings");
 // Type namespace: UnityEngine.TestTools.TestRunner
 namespace UnityEngine::TestTools::TestRunner {
   // Size: 0x30
@@ -43,7 +43,7 @@ namespace UnityEngine::TestTools::TestRunner {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlaymodeTestsControllerSettings : public ::Il2CppObject {
     public:
-    // Nested type: UnityEngine::TestTools::TestRunner::PlaymodeTestsControllerSettings::$$c
+    // Nested type: ::UnityEngine::TestTools::TestRunner::PlaymodeTestsControllerSettings::$$c
     class $$c;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -57,9 +57,9 @@ namespace UnityEngine::TestTools::TestRunner {
     // public UnityEngine.TestTools.TestRunner.GUI.RuntimeTestRunnerFilter[] filters
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter*> filters;
+    ::ArrayW<::UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter*> filters;
     // Field size check
-    static_assert(sizeof(::ArrayW<UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter*>) == 0x8);
     // public System.Boolean sceneBased
     // Size: 0x1
     // Offset: 0x18
@@ -82,7 +82,7 @@ namespace UnityEngine::TestTools::TestRunner {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.TestTools.TestRunner.GUI.RuntimeTestRunnerFilter[] filters
-    ::ArrayW<UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter*>& dyn_filters();
+    ::ArrayW<::UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter*>& dyn_filters();
     // Get instance field reference: public System.Boolean sceneBased
     bool& dyn_sceneBased();
     // Get instance field reference: public System.String originalScene
@@ -91,14 +91,14 @@ namespace UnityEngine::TestTools::TestRunner {
     ::StringW& dyn_bootstrapScene();
     // NUnit.Framework.Interfaces.ITestFilter BuildNUnitFilter()
     // Offset: 0x18DF9F8
-    NUnit::Framework::Interfaces::ITestFilter* BuildNUnitFilter();
+    ::NUnit::Framework::Interfaces::ITestFilter* BuildNUnitFilter();
     // public System.Void .ctor()
     // Offset: 0x18DF4D8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlaymodeTestsControllerSettings* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::TestRunner::PlaymodeTestsControllerSettings::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::TestRunner::PlaymodeTestsControllerSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlaymodeTestsControllerSettings*, creationType>()));
     }
   }; // UnityEngine.TestTools.TestRunner.PlaymodeTestsControllerSettings
@@ -110,7 +110,7 @@ namespace UnityEngine::TestTools::TestRunner {
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::PlaymodeTestsControllerSettings::BuildNUnitFilter
 // Il2CppName: BuildNUnitFilter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ITestFilter* (UnityEngine::TestTools::TestRunner::PlaymodeTestsControllerSettings::*)()>(&UnityEngine::TestTools::TestRunner::PlaymodeTestsControllerSettings::BuildNUnitFilter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Framework::Interfaces::ITestFilter* (UnityEngine::TestTools::TestRunner::PlaymodeTestsControllerSettings::*)()>(&UnityEngine::TestTools::TestRunner::PlaymodeTestsControllerSettings::BuildNUnitFilter)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::PlaymodeTestsControllerSettings*), "BuildNUnitFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

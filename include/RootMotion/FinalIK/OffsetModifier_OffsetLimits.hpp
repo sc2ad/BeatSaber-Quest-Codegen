@@ -27,8 +27,8 @@ namespace UnityEngine {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::OffsetModifier::OffsetLimits);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::OffsetModifier::OffsetLimits*, "RootMotion.FinalIK", "OffsetModifier/OffsetLimits");
+NEED_NO_BOX(::RootMotion::FinalIK::OffsetModifier::OffsetLimits);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::OffsetModifier::OffsetLimits*, "RootMotion.FinalIK", "OffsetModifier/OffsetLimits");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x34
@@ -50,9 +50,9 @@ namespace RootMotion::FinalIK {
     // public RootMotion.FinalIK.FullBodyBipedEffector effector
     // Size: 0x4
     // Offset: 0x10
-    RootMotion::FinalIK::FullBodyBipedEffector effector;
+    ::RootMotion::FinalIK::FullBodyBipedEffector effector;
     // Field size check
-    static_assert(sizeof(RootMotion::FinalIK::FullBodyBipedEffector) == 0x4);
+    static_assert(sizeof(::RootMotion::FinalIK::FullBodyBipedEffector) == 0x4);
     // [TooltipAttribute] Offset: 0x126943C
     // public System.Single spring
     // Size: 0x4
@@ -127,7 +127,7 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public RootMotion.FinalIK.FullBodyBipedEffector effector
-    RootMotion::FinalIK::FullBodyBipedEffector& dyn_effector();
+    ::RootMotion::FinalIK::FullBodyBipedEffector& dyn_effector();
     // Get instance field reference: public System.Single spring
     float& dyn_spring();
     // Get instance field reference: public System.Boolean x
@@ -150,7 +150,7 @@ namespace RootMotion::FinalIK {
     float& dyn_maxZ();
     // public System.Void Apply(RootMotion.FinalIK.IKEffector e, UnityEngine.Quaternion rootRotation)
     // Offset: 0x1F0B870
-    void Apply(RootMotion::FinalIK::IKEffector* e, UnityEngine::Quaternion rootRotation);
+    void Apply(::RootMotion::FinalIK::IKEffector* e, ::UnityEngine::Quaternion rootRotation);
     // private System.Single SpringAxis(System.Single value, System.Single min, System.Single max)
     // Offset: 0x1F0BD88
     float SpringAxis(float value, float min, float max);
@@ -163,7 +163,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OffsetModifier::OffsetLimits* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::OffsetModifier::OffsetLimits::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::OffsetModifier::OffsetLimits::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OffsetModifier::OffsetLimits*, creationType>()));
     }
   }; // RootMotion.FinalIK.OffsetModifier/RootMotion.FinalIK.OffsetLimits
@@ -175,7 +175,7 @@ namespace RootMotion::FinalIK {
 // Writing MetadataGetter for method: RootMotion::FinalIK::OffsetModifier::OffsetLimits::Apply
 // Il2CppName: Apply
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::OffsetModifier::OffsetLimits::*)(RootMotion::FinalIK::IKEffector*, UnityEngine::Quaternion)>(&RootMotion::FinalIK::OffsetModifier::OffsetLimits::Apply)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::OffsetModifier::OffsetLimits::*)(::RootMotion::FinalIK::IKEffector*, ::UnityEngine::Quaternion)>(&RootMotion::FinalIK::OffsetModifier::OffsetLimits::Apply)> {
   static const MethodInfo* get() {
     static auto* e = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKEffector")->byval_arg;
     static auto* rootRotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;

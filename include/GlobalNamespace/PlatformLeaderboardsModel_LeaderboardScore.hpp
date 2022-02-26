@@ -27,8 +27,8 @@ namespace GlobalNamespace {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore*, "", "PlatformLeaderboardsModel/LeaderboardScore");
+NEED_NO_BOX(::GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore*, "", "PlatformLeaderboardsModel/LeaderboardScore");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x28
@@ -82,8 +82,8 @@ namespace GlobalNamespace {
     // public System.Void .ctor(System.Int32 score, System.Int32 rank, System.String playerName, System.String playerId, System.Collections.Generic.List`1<GameplayModifierParamsSO> gameplayModifiers)
     // Offset: 0x2AC1020
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PlatformLeaderboardsModel::LeaderboardScore* New_ctor(int score, int rank, ::StringW playerName, ::StringW playerId, System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* gameplayModifiers) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore::.ctor");
+    static PlatformLeaderboardsModel::LeaderboardScore* New_ctor(int score, int rank, ::StringW playerName, ::StringW playerId, ::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>* gameplayModifiers) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlatformLeaderboardsModel::LeaderboardScore*, creationType>(score, rank, playerName, playerId, gameplayModifiers)));
     }
   }; // PlatformLeaderboardsModel/LeaderboardScore

@@ -43,8 +43,8 @@ namespace GlobalNamespace {
   class IReadonlyBeatmapData;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::IReadonlyBeatmapData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IReadonlyBeatmapData*, "", "IReadonlyBeatmapData");
+NEED_NO_BOX(::GlobalNamespace::IReadonlyBeatmapData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IReadonlyBeatmapData*, "", "IReadonlyBeatmapData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -55,13 +55,13 @@ namespace GlobalNamespace {
     public:
     // public System.Collections.Generic.IReadOnlyList`1<IReadonlyBeatmapLineData> get_beatmapLinesData()
     // Offset: 0xFFFFFFFF
-    System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IReadonlyBeatmapLineData*>* get_beatmapLinesData();
+    ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IReadonlyBeatmapLineData*>* get_beatmapLinesData();
     // public System.Collections.Generic.IReadOnlyList`1<BeatmapEventData> get_beatmapEventsData()
     // Offset: 0xFFFFFFFF
-    System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::BeatmapEventData*>* get_beatmapEventsData();
+    ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapEventData*>* get_beatmapEventsData();
     // public System.Collections.Generic.IReadOnlyDictionary`2<System.String,System.Collections.Generic.HashSet`1<BeatmapEventType>> get_availableSpecialEventsPerKeywordDictionary()
     // Offset: 0xFFFFFFFF
-    System::Collections::Generic::IReadOnlyDictionary_2<::StringW, System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapEventType>*>* get_availableSpecialEventsPerKeywordDictionary();
+    ::System::Collections::Generic::IReadOnlyDictionary_2<::StringW, ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventType>*>* get_availableSpecialEventsPerKeywordDictionary();
     // public System.Int32 get_numberOfLines()
     // Offset: 0xFFFFFFFF
     int get_numberOfLines();
@@ -79,16 +79,16 @@ namespace GlobalNamespace {
     int get_spawnRotationEventsCount();
     // public System.Collections.Generic.IEnumerable`1<BeatmapObjectData> get_beatmapObjectsData()
     // Offset: 0xFFFFFFFF
-    System::Collections::Generic::IEnumerable_1<GlobalNamespace::BeatmapObjectData*>* get_beatmapObjectsData();
+    ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapObjectData*>* get_beatmapObjectsData();
     // public BeatmapData GetCopy()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::BeatmapData* GetCopy();
+    ::GlobalNamespace::BeatmapData* GetCopy();
     // public BeatmapData GetCopyWithoutEvents()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::BeatmapData* GetCopyWithoutEvents();
+    ::GlobalNamespace::BeatmapData* GetCopyWithoutEvents();
     // public BeatmapData GetCopyWithoutBeatmapObjects()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::BeatmapData* GetCopyWithoutBeatmapObjects();
+    ::GlobalNamespace::BeatmapData* GetCopyWithoutBeatmapObjects();
   }; // IReadonlyBeatmapData
   #pragma pack(pop)
 }
@@ -96,7 +96,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::IReadonlyBeatmapData::get_beatmapLinesData
 // Il2CppName: get_beatmapLinesData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IReadonlyBeatmapLineData*>* (GlobalNamespace::IReadonlyBeatmapData::*)()>(&GlobalNamespace::IReadonlyBeatmapData::get_beatmapLinesData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IReadonlyBeatmapLineData*>* (GlobalNamespace::IReadonlyBeatmapData::*)()>(&GlobalNamespace::IReadonlyBeatmapData::get_beatmapLinesData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IReadonlyBeatmapData*), "get_beatmapLinesData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -104,7 +104,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: GlobalNamespace::IReadonlyBeatmapData::get_beatmapEventsData
 // Il2CppName: get_beatmapEventsData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::BeatmapEventData*>* (GlobalNamespace::IReadonlyBeatmapData::*)()>(&GlobalNamespace::IReadonlyBeatmapData::get_beatmapEventsData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapEventData*>* (GlobalNamespace::IReadonlyBeatmapData::*)()>(&GlobalNamespace::IReadonlyBeatmapData::get_beatmapEventsData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IReadonlyBeatmapData*), "get_beatmapEventsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -112,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: GlobalNamespace::IReadonlyBeatmapData::get_availableSpecialEventsPerKeywordDictionary
 // Il2CppName: get_availableSpecialEventsPerKeywordDictionary
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyDictionary_2<::StringW, System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapEventType>*>* (GlobalNamespace::IReadonlyBeatmapData::*)()>(&GlobalNamespace::IReadonlyBeatmapData::get_availableSpecialEventsPerKeywordDictionary)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IReadOnlyDictionary_2<::StringW, ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventType>*>* (GlobalNamespace::IReadonlyBeatmapData::*)()>(&GlobalNamespace::IReadonlyBeatmapData::get_availableSpecialEventsPerKeywordDictionary)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IReadonlyBeatmapData*), "get_availableSpecialEventsPerKeywordDictionary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -160,7 +160,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Writing MetadataGetter for method: GlobalNamespace::IReadonlyBeatmapData::get_beatmapObjectsData
 // Il2CppName: get_beatmapObjectsData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<GlobalNamespace::BeatmapObjectData*>* (GlobalNamespace::IReadonlyBeatmapData::*)()>(&GlobalNamespace::IReadonlyBeatmapData::get_beatmapObjectsData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapObjectData*>* (GlobalNamespace::IReadonlyBeatmapData::*)()>(&GlobalNamespace::IReadonlyBeatmapData::get_beatmapObjectsData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IReadonlyBeatmapData*), "get_beatmapObjectsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -168,7 +168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: GlobalNamespace::IReadonlyBeatmapData::GetCopy
 // Il2CppName: GetCopy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapData* (GlobalNamespace::IReadonlyBeatmapData::*)()>(&GlobalNamespace::IReadonlyBeatmapData::GetCopy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapData* (GlobalNamespace::IReadonlyBeatmapData::*)()>(&GlobalNamespace::IReadonlyBeatmapData::GetCopy)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IReadonlyBeatmapData*), "GetCopy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -176,7 +176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::IReadonlyBeatmapData::GetCopyWithoutEvents
 // Il2CppName: GetCopyWithoutEvents
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapData* (GlobalNamespace::IReadonlyBeatmapData::*)()>(&GlobalNamespace::IReadonlyBeatmapData::GetCopyWithoutEvents)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapData* (GlobalNamespace::IReadonlyBeatmapData::*)()>(&GlobalNamespace::IReadonlyBeatmapData::GetCopyWithoutEvents)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IReadonlyBeatmapData*), "GetCopyWithoutEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -184,7 +184,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::IReadonlyBeatmapData::GetCopyWithoutBeatmapObjects
 // Il2CppName: GetCopyWithoutBeatmapObjects
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapData* (GlobalNamespace::IReadonlyBeatmapData::*)()>(&GlobalNamespace::IReadonlyBeatmapData::GetCopyWithoutBeatmapObjects)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapData* (GlobalNamespace::IReadonlyBeatmapData::*)()>(&GlobalNamespace::IReadonlyBeatmapData::GetCopyWithoutBeatmapObjects)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IReadonlyBeatmapData*), "GetCopyWithoutBeatmapObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

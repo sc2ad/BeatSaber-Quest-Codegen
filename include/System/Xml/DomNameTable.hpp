@@ -34,8 +34,8 @@ namespace System::Xml {
   class DomNameTable;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::DomNameTable);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::DomNameTable*, "System.Xml", "DomNameTable");
+NEED_NO_BOX(::System::Xml::DomNameTable);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::DomNameTable*, "System.Xml", "DomNameTable");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x30
@@ -56,9 +56,9 @@ namespace System::Xml {
     // private System.Xml.XmlName[] entries
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<System::Xml::XmlName*> entries;
+    ::ArrayW<::System::Xml::XmlName*> entries;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::Xml::XmlName*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::System::Xml::XmlName*>) == 0x8);
     // private System.Int32 count
     // Size: 0x4
     // Offset: 0x18
@@ -74,45 +74,45 @@ namespace System::Xml {
     // private System.Xml.XmlDocument ownerDocument
     // Size: 0x8
     // Offset: 0x20
-    System::Xml::XmlDocument* ownerDocument;
+    ::System::Xml::XmlDocument* ownerDocument;
     // Field size check
-    static_assert(sizeof(System::Xml::XmlDocument*) == 0x8);
+    static_assert(sizeof(::System::Xml::XmlDocument*) == 0x8);
     // private System.Xml.XmlNameTable nameTable
     // Size: 0x8
     // Offset: 0x28
-    System::Xml::XmlNameTable* nameTable;
+    ::System::Xml::XmlNameTable* nameTable;
     // Field size check
-    static_assert(sizeof(System::Xml::XmlNameTable*) == 0x8);
+    static_assert(sizeof(::System::Xml::XmlNameTable*) == 0x8);
     public:
     // Get instance field reference: private System.Xml.XmlName[] entries
-    ::ArrayW<System::Xml::XmlName*>& dyn_entries();
+    ::ArrayW<::System::Xml::XmlName*>& dyn_entries();
     // Get instance field reference: private System.Int32 count
     int& dyn_count();
     // Get instance field reference: private System.Int32 mask
     int& dyn_mask();
     // Get instance field reference: private System.Xml.XmlDocument ownerDocument
-    System::Xml::XmlDocument*& dyn_ownerDocument();
+    ::System::Xml::XmlDocument*& dyn_ownerDocument();
     // Get instance field reference: private System.Xml.XmlNameTable nameTable
-    System::Xml::XmlNameTable*& dyn_nameTable();
+    ::System::Xml::XmlNameTable*& dyn_nameTable();
     // public System.Void .ctor(System.Xml.XmlDocument document)
     // Offset: 0x1B9E8EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DomNameTable* New_ctor(System::Xml::XmlDocument* document) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::DomNameTable::.ctor");
+    static DomNameTable* New_ctor(::System::Xml::XmlDocument* document) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::DomNameTable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DomNameTable*, creationType>(document)));
     }
     // public System.Xml.XmlName GetName(System.String prefix, System.String localName, System.String ns, System.Xml.Schema.IXmlSchemaInfo schemaInfo)
     // Offset: 0x1B9E980
-    System::Xml::XmlName* GetName(::StringW prefix, ::StringW localName, ::StringW ns, System::Xml::Schema::IXmlSchemaInfo* schemaInfo);
+    ::System::Xml::XmlName* GetName(::StringW prefix, ::StringW localName, ::StringW ns, ::System::Xml::Schema::IXmlSchemaInfo* schemaInfo);
     // public System.Xml.XmlName AddName(System.String prefix, System.String localName, System.String ns, System.Xml.Schema.IXmlSchemaInfo schemaInfo)
     // Offset: 0x1B9EAF8
-    System::Xml::XmlName* AddName(::StringW prefix, ::StringW localName, ::StringW ns, System::Xml::Schema::IXmlSchemaInfo* schemaInfo);
+    ::System::Xml::XmlName* AddName(::StringW prefix, ::StringW localName, ::StringW ns, ::System::Xml::Schema::IXmlSchemaInfo* schemaInfo);
     // private System.Void Grow()
     // Offset: 0x1B9ED78
     void Grow();
   }; // System.Xml.DomNameTable
   #pragma pack(pop)
-  static check_size<sizeof(DomNameTable), 40 + sizeof(System::Xml::XmlNameTable*)> __System_Xml_DomNameTableSizeCheck;
+  static check_size<sizeof(DomNameTable), 40 + sizeof(::System::Xml::XmlNameTable*)> __System_Xml_DomNameTableSizeCheck;
   static_assert(sizeof(DomNameTable) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -123,7 +123,7 @@ namespace System::Xml {
 // Writing MetadataGetter for method: System::Xml::DomNameTable::GetName
 // Il2CppName: GetName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlName* (System::Xml::DomNameTable::*)(::StringW, ::StringW, ::StringW, System::Xml::Schema::IXmlSchemaInfo*)>(&System::Xml::DomNameTable::GetName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlName* (System::Xml::DomNameTable::*)(::StringW, ::StringW, ::StringW, ::System::Xml::Schema::IXmlSchemaInfo*)>(&System::Xml::DomNameTable::GetName)> {
   static const MethodInfo* get() {
     static auto* prefix = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* localName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -135,7 +135,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::DomNameTable::AddName
 // Il2CppName: AddName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlName* (System::Xml::DomNameTable::*)(::StringW, ::StringW, ::StringW, System::Xml::Schema::IXmlSchemaInfo*)>(&System::Xml::DomNameTable::AddName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlName* (System::Xml::DomNameTable::*)(::StringW, ::StringW, ::StringW, ::System::Xml::Schema::IXmlSchemaInfo*)>(&System::Xml::DomNameTable::AddName)> {
   static const MethodInfo* get() {
     static auto* prefix = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* localName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

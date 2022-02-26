@@ -37,8 +37,8 @@ namespace System::Data {
   class ExprException;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Data::ExprException);
-DEFINE_IL2CPP_ARG_TYPE(System::Data::ExprException*, "System.Data", "ExprException");
+NEED_NO_BOX(::System::Data::ExprException);
+DEFINE_IL2CPP_ARG_TYPE(::System::Data::ExprException*, "System.Data", "ExprException");
 // Type namespace: System.Data
 namespace System::Data {
   // Size: 0x10
@@ -49,163 +49,163 @@ namespace System::Data {
     public:
     // static private System.OverflowException _Overflow(System.String error)
     // Offset: 0x1CCC9D8
-    static System::OverflowException* _Overflow(::StringW error);
+    static ::System::OverflowException* _Overflow(::StringW error);
     // static private System.Data.InvalidExpressionException _Expr(System.String error)
     // Offset: 0x1CCCA3C
-    static System::Data::InvalidExpressionException* _Expr(::StringW error);
+    static ::System::Data::InvalidExpressionException* _Expr(::StringW error);
     // static private System.Data.SyntaxErrorException _Syntax(System.String error)
     // Offset: 0x1CCCAA0
-    static System::Data::SyntaxErrorException* _Syntax(::StringW error);
+    static ::System::Data::SyntaxErrorException* _Syntax(::StringW error);
     // static private System.Data.EvaluateException _Eval(System.String error)
     // Offset: 0x1CCCB04
-    static System::Data::EvaluateException* _Eval(::StringW error);
+    static ::System::Data::EvaluateException* _Eval(::StringW error);
     // static private System.Data.EvaluateException _Eval(System.String error, System.Exception innerException)
     // Offset: 0x1CCCB68
-    static System::Data::EvaluateException* _Eval(::StringW error, System::Exception* innerException);
+    static ::System::Data::EvaluateException* _Eval(::StringW error, ::System::Exception* innerException);
     // static public System.Exception InvokeArgument()
     // Offset: 0x1CCCBCC
-    static System::Exception* InvokeArgument();
+    static ::System::Exception* InvokeArgument();
     // static public System.Exception NYI(System.String moreinfo)
     // Offset: 0x1CCCC14
-    static System::Exception* NYI(::StringW moreinfo);
+    static ::System::Exception* NYI(::StringW moreinfo);
     // static public System.Exception MissingOperand(System.Data.OperatorInfo before)
     // Offset: 0x1CCCC6C
-    static System::Exception* MissingOperand(System::Data::OperatorInfo* before);
+    static ::System::Exception* MissingOperand(::System::Data::OperatorInfo* before);
     // static public System.Exception MissingOperator(System.String token)
     // Offset: 0x1CCCD00
-    static System::Exception* MissingOperator(::StringW token);
+    static ::System::Exception* MissingOperator(::StringW token);
     // static public System.Exception TypeMismatch(System.String expr)
     // Offset: 0x1CCCD58
-    static System::Exception* TypeMismatch(::StringW expr);
+    static ::System::Exception* TypeMismatch(::StringW expr);
     // static public System.Exception FunctionArgumentOutOfRange(System.String arg, System.String func)
     // Offset: 0x1CCCDB0
-    static System::Exception* FunctionArgumentOutOfRange(::StringW arg, ::StringW func);
+    static ::System::Exception* FunctionArgumentOutOfRange(::StringW arg, ::StringW func);
     // static public System.Exception ExpressionTooComplex()
     // Offset: 0x1CCCE1C
-    static System::Exception* ExpressionTooComplex();
+    static ::System::Exception* ExpressionTooComplex();
     // static public System.Exception UnboundName(System.String name)
     // Offset: 0x1CCCE64
-    static System::Exception* UnboundName(::StringW name);
+    static ::System::Exception* UnboundName(::StringW name);
     // static public System.Exception InvalidString(System.String str)
     // Offset: 0x1CCCEBC
-    static System::Exception* InvalidString(::StringW str);
+    static ::System::Exception* InvalidString(::StringW str);
     // static public System.Exception UndefinedFunction(System.String name)
     // Offset: 0x1CCCF14
-    static System::Exception* UndefinedFunction(::StringW name);
+    static ::System::Exception* UndefinedFunction(::StringW name);
     // static public System.Exception SyntaxError()
     // Offset: 0x1CCCF6C
-    static System::Exception* SyntaxError();
+    static ::System::Exception* SyntaxError();
     // static public System.Exception FunctionArgumentCount(System.String name)
     // Offset: 0x1CCCFB4
-    static System::Exception* FunctionArgumentCount(::StringW name);
+    static ::System::Exception* FunctionArgumentCount(::StringW name);
     // static public System.Exception MissingRightParen()
     // Offset: 0x1CCD00C
-    static System::Exception* MissingRightParen();
+    static ::System::Exception* MissingRightParen();
     // static public System.Exception UnknownToken(System.String token, System.Int32 position)
     // Offset: 0x1CCD054
-    static System::Exception* UnknownToken(::StringW token, int position);
+    static ::System::Exception* UnknownToken(::StringW token, int position);
     // static public System.Exception UnknownToken(System.Data.Tokens tokExpected, System.Data.Tokens tokCurr, System.Int32 position)
     // Offset: 0x1CCD0FC
-    static System::Exception* UnknownToken(System::Data::Tokens tokExpected, System::Data::Tokens tokCurr, int position);
+    static ::System::Exception* UnknownToken(::System::Data::Tokens tokExpected, ::System::Data::Tokens tokCurr, int position);
     // static public System.Exception DatatypeConvertion(System.Type type1, System.Type type2)
     // Offset: 0x1CCD228
-    static System::Exception* DatatypeConvertion(System::Type* type1, System::Type* type2);
+    static ::System::Exception* DatatypeConvertion(::System::Type* type1, ::System::Type* type2);
     // static public System.Exception DatavalueConvertion(System.Object value, System.Type type, System.Exception innerException)
     // Offset: 0x1CCD2C4
-    static System::Exception* DatavalueConvertion(::Il2CppObject* value, System::Type* type, System::Exception* innerException);
+    static ::System::Exception* DatavalueConvertion(::Il2CppObject* value, ::System::Type* type, ::System::Exception* innerException);
     // static public System.Exception InvalidName(System.String name)
     // Offset: 0x1CCD360
-    static System::Exception* InvalidName(::StringW name);
+    static ::System::Exception* InvalidName(::StringW name);
     // static public System.Exception InvalidDate(System.String date)
     // Offset: 0x1CCD3B8
-    static System::Exception* InvalidDate(::StringW date);
+    static ::System::Exception* InvalidDate(::StringW date);
     // static public System.Exception NonConstantArgument()
     // Offset: 0x1CCD410
-    static System::Exception* NonConstantArgument();
+    static ::System::Exception* NonConstantArgument();
     // static public System.Exception InvalidPattern(System.String pat)
     // Offset: 0x1CCD458
-    static System::Exception* InvalidPattern(::StringW pat);
+    static ::System::Exception* InvalidPattern(::StringW pat);
     // static public System.Exception InWithoutParentheses()
     // Offset: 0x1CCD4B0
-    static System::Exception* InWithoutParentheses();
+    static ::System::Exception* InWithoutParentheses();
     // static public System.Exception InWithoutList()
     // Offset: 0x1CCD4F8
-    static System::Exception* InWithoutList();
+    static ::System::Exception* InWithoutList();
     // static public System.Exception InvalidIsSyntax()
     // Offset: 0x1CCD540
-    static System::Exception* InvalidIsSyntax();
+    static ::System::Exception* InvalidIsSyntax();
     // static public System.Exception Overflow(System.Type type)
     // Offset: 0x1CCD588
-    static System::Exception* Overflow(System::Type* type);
+    static ::System::Exception* Overflow(::System::Type* type);
     // static public System.Exception ArgumentType(System.String function, System.Int32 arg, System.Type type)
     // Offset: 0x1CCD5FC
-    static System::Exception* ArgumentType(::StringW function, int arg, System::Type* type);
+    static ::System::Exception* ArgumentType(::StringW function, int arg, ::System::Type* type);
     // static public System.Exception ArgumentTypeInteger(System.String function, System.Int32 arg)
     // Offset: 0x1CCD6C8
-    static System::Exception* ArgumentTypeInteger(::StringW function, int arg);
+    static ::System::Exception* ArgumentTypeInteger(::StringW function, int arg);
     // static public System.Exception TypeMismatchInBinop(System.Int32 op, System.Type type1, System.Type type2)
     // Offset: 0x1CCD770
-    static System::Exception* TypeMismatchInBinop(int op, System::Type* type1, System::Type* type2);
+    static ::System::Exception* TypeMismatchInBinop(int op, ::System::Type* type1, ::System::Type* type2);
     // static public System.Exception AmbiguousBinop(System.Int32 op, System.Type type1, System.Type type2)
     // Offset: 0x1CCD844
-    static System::Exception* AmbiguousBinop(int op, System::Type* type1, System::Type* type2);
+    static ::System::Exception* AmbiguousBinop(int op, ::System::Type* type1, ::System::Type* type2);
     // static public System.Exception UnsupportedOperator(System.Int32 op)
     // Offset: 0x1CCD918
-    static System::Exception* UnsupportedOperator(int op);
+    static ::System::Exception* UnsupportedOperator(int op);
     // static public System.Exception InvalidNameBracketing(System.String name)
     // Offset: 0x1CCD9A0
-    static System::Exception* InvalidNameBracketing(::StringW name);
+    static ::System::Exception* InvalidNameBracketing(::StringW name);
     // static public System.Exception MissingOperandBefore(System.String op)
     // Offset: 0x1CCD9F8
-    static System::Exception* MissingOperandBefore(::StringW op);
+    static ::System::Exception* MissingOperandBefore(::StringW op);
     // static public System.Exception TooManyRightParentheses()
     // Offset: 0x1CCDA50
-    static System::Exception* TooManyRightParentheses();
+    static ::System::Exception* TooManyRightParentheses();
     // static public System.Exception UnresolvedRelation(System.String name, System.String expr)
     // Offset: 0x1CCDA98
-    static System::Exception* UnresolvedRelation(::StringW name, ::StringW expr);
+    static ::System::Exception* UnresolvedRelation(::StringW name, ::StringW expr);
     // static System.Data.EvaluateException BindFailure(System.String relationName)
     // Offset: 0x1CCDB00
-    static System::Data::EvaluateException* BindFailure(::StringW relationName);
+    static ::System::Data::EvaluateException* BindFailure(::StringW relationName);
     // static public System.Exception AggregateArgument()
     // Offset: 0x1CCDB58
-    static System::Exception* AggregateArgument();
+    static ::System::Exception* AggregateArgument();
     // static public System.Exception AggregateUnbound(System.String expr)
     // Offset: 0x1CCDBA0
-    static System::Exception* AggregateUnbound(::StringW expr);
+    static ::System::Exception* AggregateUnbound(::StringW expr);
     // static public System.Exception EvalNoContext()
     // Offset: 0x1CCDBF8
-    static System::Exception* EvalNoContext();
+    static ::System::Exception* EvalNoContext();
     // static public System.Exception ExpressionUnbound(System.String expr)
     // Offset: 0x1CCDC40
-    static System::Exception* ExpressionUnbound(::StringW expr);
+    static ::System::Exception* ExpressionUnbound(::StringW expr);
     // static public System.Exception ComputeNotAggregate(System.String expr)
     // Offset: 0x1CCDC98
-    static System::Exception* ComputeNotAggregate(::StringW expr);
+    static ::System::Exception* ComputeNotAggregate(::StringW expr);
     // static public System.Exception FilterConvertion(System.String expr)
     // Offset: 0x1CCDCF0
-    static System::Exception* FilterConvertion(::StringW expr);
+    static ::System::Exception* FilterConvertion(::StringW expr);
     // static public System.Exception LookupArgument()
     // Offset: 0x1CCDD48
-    static System::Exception* LookupArgument();
+    static ::System::Exception* LookupArgument();
     // static public System.Exception InvalidType(System.String typeName)
     // Offset: 0x1CCDD90
-    static System::Exception* InvalidType(::StringW typeName);
+    static ::System::Exception* InvalidType(::StringW typeName);
     // static public System.Exception InvalidHoursArgument()
     // Offset: 0x1CCDDE8
-    static System::Exception* InvalidHoursArgument();
+    static ::System::Exception* InvalidHoursArgument();
     // static public System.Exception InvalidMinutesArgument()
     // Offset: 0x1CCDE30
-    static System::Exception* InvalidMinutesArgument();
+    static ::System::Exception* InvalidMinutesArgument();
     // static public System.Exception InvalidTimeZoneRange()
     // Offset: 0x1CCDE78
-    static System::Exception* InvalidTimeZoneRange();
+    static ::System::Exception* InvalidTimeZoneRange();
     // static public System.Exception MismatchKindandTimeSpan()
     // Offset: 0x1CCDEC0
-    static System::Exception* MismatchKindandTimeSpan();
+    static ::System::Exception* MismatchKindandTimeSpan();
     // static public System.Exception UnsupportedDataType(System.Type type)
     // Offset: 0x1CCDF08
-    static System::Exception* UnsupportedDataType(System::Type* type);
+    static ::System::Exception* UnsupportedDataType(::System::Type* type);
   }; // System.Data.ExprException
   #pragma pack(pop)
 }
@@ -213,7 +213,7 @@ namespace System::Data {
 // Writing MetadataGetter for method: System::Data::ExprException::_Overflow
 // Il2CppName: _Overflow
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::OverflowException* (*)(::StringW)>(&System::Data::ExprException::_Overflow)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::OverflowException* (*)(::StringW)>(&System::Data::ExprException::_Overflow)> {
   static const MethodInfo* get() {
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExprException*), "_Overflow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{error});
@@ -222,7 +222,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ove
 // Writing MetadataGetter for method: System::Data::ExprException::_Expr
 // Il2CppName: _Expr
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::InvalidExpressionException* (*)(::StringW)>(&System::Data::ExprException::_Expr)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::InvalidExpressionException* (*)(::StringW)>(&System::Data::ExprException::_Expr)> {
   static const MethodInfo* get() {
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExprException*), "_Expr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{error});
@@ -231,7 +231,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::ExprException::_Syntax
 // Il2CppName: _Syntax
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::SyntaxErrorException* (*)(::StringW)>(&System::Data::ExprException::_Syntax)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SyntaxErrorException* (*)(::StringW)>(&System::Data::ExprException::_Syntax)> {
   static const MethodInfo* get() {
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExprException*), "_Syntax", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{error});
@@ -240,7 +240,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::ExprException::_Eval
 // Il2CppName: _Eval
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::EvaluateException* (*)(::StringW)>(&System::Data::ExprException::_Eval)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::EvaluateException* (*)(::StringW)>(&System::Data::ExprException::_Eval)> {
   static const MethodInfo* get() {
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExprException*), "_Eval", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{error});
@@ -249,7 +249,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::ExprException::_Eval
 // Il2CppName: _Eval
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::EvaluateException* (*)(::StringW, System::Exception*)>(&System::Data::ExprException::_Eval)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::EvaluateException* (*)(::StringW, ::System::Exception*)>(&System::Data::ExprException::_Eval)> {
   static const MethodInfo* get() {
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* innerException = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
@@ -259,7 +259,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::ExprException::InvokeArgument
 // Il2CppName: InvokeArgument
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExprException::InvokeArgument)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExprException::InvokeArgument)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExprException*), "InvokeArgument", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -267,7 +267,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExprException::NYI
 // Il2CppName: NYI
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExprException::NYI)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExprException::NYI)> {
   static const MethodInfo* get() {
     static auto* moreinfo = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExprException*), "NYI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{moreinfo});
@@ -276,7 +276,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExprException::MissingOperand
 // Il2CppName: MissingOperand
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(System::Data::OperatorInfo*)>(&System::Data::ExprException::MissingOperand)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Data::OperatorInfo*)>(&System::Data::ExprException::MissingOperand)> {
   static const MethodInfo* get() {
     static auto* before = &::il2cpp_utils::GetClassFromName("System.Data", "OperatorInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExprException*), "MissingOperand", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{before});
@@ -285,7 +285,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExprException::MissingOperator
 // Il2CppName: MissingOperator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExprException::MissingOperator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExprException::MissingOperator)> {
   static const MethodInfo* get() {
     static auto* token = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExprException*), "MissingOperator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{token});
@@ -294,7 +294,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExprException::TypeMismatch
 // Il2CppName: TypeMismatch
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExprException::TypeMismatch)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExprException::TypeMismatch)> {
   static const MethodInfo* get() {
     static auto* expr = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExprException*), "TypeMismatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expr});
@@ -303,7 +303,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExprException::FunctionArgumentOutOfRange
 // Il2CppName: FunctionArgumentOutOfRange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, ::StringW)>(&System::Data::ExprException::FunctionArgumentOutOfRange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, ::StringW)>(&System::Data::ExprException::FunctionArgumentOutOfRange)> {
   static const MethodInfo* get() {
     static auto* arg = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* func = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -313,7 +313,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExprException::ExpressionTooComplex
 // Il2CppName: ExpressionTooComplex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExprException::ExpressionTooComplex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExprException::ExpressionTooComplex)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExprException*), "ExpressionTooComplex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -321,7 +321,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExprException::UnboundName
 // Il2CppName: UnboundName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExprException::UnboundName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExprException::UnboundName)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExprException*), "UnboundName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -330,7 +330,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExprException::InvalidString
 // Il2CppName: InvalidString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExprException::InvalidString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExprException::InvalidString)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExprException*), "InvalidString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str});
@@ -339,7 +339,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExprException::UndefinedFunction
 // Il2CppName: UndefinedFunction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExprException::UndefinedFunction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExprException::UndefinedFunction)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExprException*), "UndefinedFunction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -348,7 +348,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExprException::SyntaxError
 // Il2CppName: SyntaxError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExprException::SyntaxError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExprException::SyntaxError)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExprException*), "SyntaxError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -356,7 +356,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExprException::FunctionArgumentCount
 // Il2CppName: FunctionArgumentCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExprException::FunctionArgumentCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExprException::FunctionArgumentCount)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExprException*), "FunctionArgumentCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -365,7 +365,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExprException::MissingRightParen
 // Il2CppName: MissingRightParen
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExprException::MissingRightParen)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExprException::MissingRightParen)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExprException*), "MissingRightParen", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -373,7 +373,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExprException::UnknownToken
 // Il2CppName: UnknownToken
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, int)>(&System::Data::ExprException::UnknownToken)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, int)>(&System::Data::ExprException::UnknownToken)> {
   static const MethodInfo* get() {
     static auto* token = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* position = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -383,7 +383,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExprException::UnknownToken
 // Il2CppName: UnknownToken
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(System::Data::Tokens, System::Data::Tokens, int)>(&System::Data::ExprException::UnknownToken)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Data::Tokens, ::System::Data::Tokens, int)>(&System::Data::ExprException::UnknownToken)> {
   static const MethodInfo* get() {
     static auto* tokExpected = &::il2cpp_utils::GetClassFromName("System.Data", "Tokens")->byval_arg;
     static auto* tokCurr = &::il2cpp_utils::GetClassFromName("System.Data", "Tokens")->byval_arg;
@@ -394,7 +394,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExprException::DatatypeConvertion
 // Il2CppName: DatatypeConvertion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(System::Type*, System::Type*)>(&System::Data::ExprException::DatatypeConvertion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Type*, ::System::Type*)>(&System::Data::ExprException::DatatypeConvertion)> {
   static const MethodInfo* get() {
     static auto* type1 = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* type2 = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -404,7 +404,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExprException::DatavalueConvertion
 // Il2CppName: DatavalueConvertion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::Il2CppObject*, System::Type*, System::Exception*)>(&System::Data::ExprException::DatavalueConvertion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::Il2CppObject*, ::System::Type*, ::System::Exception*)>(&System::Data::ExprException::DatavalueConvertion)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -415,7 +415,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExprException::InvalidName
 // Il2CppName: InvalidName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExprException::InvalidName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExprException::InvalidName)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExprException*), "InvalidName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -424,7 +424,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExprException::InvalidDate
 // Il2CppName: InvalidDate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExprException::InvalidDate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExprException::InvalidDate)> {
   static const MethodInfo* get() {
     static auto* date = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExprException*), "InvalidDate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{date});
@@ -433,7 +433,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExprException::NonConstantArgument
 // Il2CppName: NonConstantArgument
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExprException::NonConstantArgument)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExprException::NonConstantArgument)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExprException*), "NonConstantArgument", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -441,7 +441,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExprException::InvalidPattern
 // Il2CppName: InvalidPattern
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExprException::InvalidPattern)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExprException::InvalidPattern)> {
   static const MethodInfo* get() {
     static auto* pat = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExprException*), "InvalidPattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pat});
@@ -450,7 +450,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExprException::InWithoutParentheses
 // Il2CppName: InWithoutParentheses
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExprException::InWithoutParentheses)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExprException::InWithoutParentheses)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExprException*), "InWithoutParentheses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -458,7 +458,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExprException::InWithoutList
 // Il2CppName: InWithoutList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExprException::InWithoutList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExprException::InWithoutList)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExprException*), "InWithoutList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -466,7 +466,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExprException::InvalidIsSyntax
 // Il2CppName: InvalidIsSyntax
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExprException::InvalidIsSyntax)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExprException::InvalidIsSyntax)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExprException*), "InvalidIsSyntax", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -474,7 +474,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExprException::Overflow
 // Il2CppName: Overflow
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(System::Type*)>(&System::Data::ExprException::Overflow)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Type*)>(&System::Data::ExprException::Overflow)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExprException*), "Overflow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -483,7 +483,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExprException::ArgumentType
 // Il2CppName: ArgumentType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, int, System::Type*)>(&System::Data::ExprException::ArgumentType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, int, ::System::Type*)>(&System::Data::ExprException::ArgumentType)> {
   static const MethodInfo* get() {
     static auto* function = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* arg = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -494,7 +494,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExprException::ArgumentTypeInteger
 // Il2CppName: ArgumentTypeInteger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, int)>(&System::Data::ExprException::ArgumentTypeInteger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, int)>(&System::Data::ExprException::ArgumentTypeInteger)> {
   static const MethodInfo* get() {
     static auto* function = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* arg = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -504,7 +504,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExprException::TypeMismatchInBinop
 // Il2CppName: TypeMismatchInBinop
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(int, System::Type*, System::Type*)>(&System::Data::ExprException::TypeMismatchInBinop)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(int, ::System::Type*, ::System::Type*)>(&System::Data::ExprException::TypeMismatchInBinop)> {
   static const MethodInfo* get() {
     static auto* op = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* type1 = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -515,7 +515,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExprException::AmbiguousBinop
 // Il2CppName: AmbiguousBinop
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(int, System::Type*, System::Type*)>(&System::Data::ExprException::AmbiguousBinop)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(int, ::System::Type*, ::System::Type*)>(&System::Data::ExprException::AmbiguousBinop)> {
   static const MethodInfo* get() {
     static auto* op = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* type1 = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -526,7 +526,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExprException::UnsupportedOperator
 // Il2CppName: UnsupportedOperator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(int)>(&System::Data::ExprException::UnsupportedOperator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(int)>(&System::Data::ExprException::UnsupportedOperator)> {
   static const MethodInfo* get() {
     static auto* op = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExprException*), "UnsupportedOperator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{op});
@@ -535,7 +535,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExprException::InvalidNameBracketing
 // Il2CppName: InvalidNameBracketing
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExprException::InvalidNameBracketing)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExprException::InvalidNameBracketing)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExprException*), "InvalidNameBracketing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -544,7 +544,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExprException::MissingOperandBefore
 // Il2CppName: MissingOperandBefore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExprException::MissingOperandBefore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExprException::MissingOperandBefore)> {
   static const MethodInfo* get() {
     static auto* op = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExprException*), "MissingOperandBefore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{op});
@@ -553,7 +553,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExprException::TooManyRightParentheses
 // Il2CppName: TooManyRightParentheses
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExprException::TooManyRightParentheses)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExprException::TooManyRightParentheses)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExprException*), "TooManyRightParentheses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -561,7 +561,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExprException::UnresolvedRelation
 // Il2CppName: UnresolvedRelation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, ::StringW)>(&System::Data::ExprException::UnresolvedRelation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, ::StringW)>(&System::Data::ExprException::UnresolvedRelation)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* expr = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -571,7 +571,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExprException::BindFailure
 // Il2CppName: BindFailure
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::EvaluateException* (*)(::StringW)>(&System::Data::ExprException::BindFailure)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::EvaluateException* (*)(::StringW)>(&System::Data::ExprException::BindFailure)> {
   static const MethodInfo* get() {
     static auto* relationName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExprException*), "BindFailure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{relationName});
@@ -580,7 +580,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::ExprException::AggregateArgument
 // Il2CppName: AggregateArgument
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExprException::AggregateArgument)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExprException::AggregateArgument)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExprException*), "AggregateArgument", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -588,7 +588,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExprException::AggregateUnbound
 // Il2CppName: AggregateUnbound
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExprException::AggregateUnbound)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExprException::AggregateUnbound)> {
   static const MethodInfo* get() {
     static auto* expr = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExprException*), "AggregateUnbound", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expr});
@@ -597,7 +597,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExprException::EvalNoContext
 // Il2CppName: EvalNoContext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExprException::EvalNoContext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExprException::EvalNoContext)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExprException*), "EvalNoContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -605,7 +605,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExprException::ExpressionUnbound
 // Il2CppName: ExpressionUnbound
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExprException::ExpressionUnbound)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExprException::ExpressionUnbound)> {
   static const MethodInfo* get() {
     static auto* expr = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExprException*), "ExpressionUnbound", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expr});
@@ -614,7 +614,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExprException::ComputeNotAggregate
 // Il2CppName: ComputeNotAggregate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExprException::ComputeNotAggregate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExprException::ComputeNotAggregate)> {
   static const MethodInfo* get() {
     static auto* expr = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExprException*), "ComputeNotAggregate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expr});
@@ -623,7 +623,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExprException::FilterConvertion
 // Il2CppName: FilterConvertion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExprException::FilterConvertion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExprException::FilterConvertion)> {
   static const MethodInfo* get() {
     static auto* expr = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExprException*), "FilterConvertion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expr});
@@ -632,7 +632,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExprException::LookupArgument
 // Il2CppName: LookupArgument
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExprException::LookupArgument)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExprException::LookupArgument)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExprException*), "LookupArgument", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -640,7 +640,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExprException::InvalidType
 // Il2CppName: InvalidType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Data::ExprException::InvalidType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&System::Data::ExprException::InvalidType)> {
   static const MethodInfo* get() {
     static auto* typeName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExprException*), "InvalidType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{typeName});
@@ -649,7 +649,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExprException::InvalidHoursArgument
 // Il2CppName: InvalidHoursArgument
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExprException::InvalidHoursArgument)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExprException::InvalidHoursArgument)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExprException*), "InvalidHoursArgument", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -657,7 +657,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExprException::InvalidMinutesArgument
 // Il2CppName: InvalidMinutesArgument
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExprException::InvalidMinutesArgument)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExprException::InvalidMinutesArgument)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExprException*), "InvalidMinutesArgument", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -665,7 +665,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExprException::InvalidTimeZoneRange
 // Il2CppName: InvalidTimeZoneRange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExprException::InvalidTimeZoneRange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExprException::InvalidTimeZoneRange)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExprException*), "InvalidTimeZoneRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -673,7 +673,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExprException::MismatchKindandTimeSpan
 // Il2CppName: MismatchKindandTimeSpan
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Data::ExprException::MismatchKindandTimeSpan)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&System::Data::ExprException::MismatchKindandTimeSpan)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExprException*), "MismatchKindandTimeSpan", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -681,7 +681,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Data::ExprException::UnsupportedDataType
 // Il2CppName: UnsupportedDataType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(System::Type*)>(&System::Data::ExprException::UnsupportedDataType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Type*)>(&System::Data::ExprException::UnsupportedDataType)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::ExprException*), "UnsupportedDataType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});

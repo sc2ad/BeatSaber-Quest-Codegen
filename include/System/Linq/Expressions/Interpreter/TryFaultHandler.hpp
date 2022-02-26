@@ -16,8 +16,8 @@ namespace System::Linq::Expressions::Interpreter {
   class TryFaultHandler;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Linq::Expressions::Interpreter::TryFaultHandler);
-DEFINE_IL2CPP_ARG_TYPE(System::Linq::Expressions::Interpreter::TryFaultHandler*, "System.Linq.Expressions.Interpreter", "TryFaultHandler");
+NEED_NO_BOX(::System::Linq::Expressions::Interpreter::TryFaultHandler);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::TryFaultHandler*, "System.Linq.Expressions.Interpreter", "TryFaultHandler");
 // Type namespace: System.Linq.Expressions.Interpreter
 namespace System::Linq::Expressions::Interpreter {
   // Size: 0x20
@@ -72,7 +72,7 @@ namespace System::Linq::Expressions::Interpreter {
     // Offset: 0x1F06400
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TryFaultHandler* New_ctor(int tryStart, int tryEnd, int finallyStart, int finallyEnd) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Expressions::Interpreter::TryFaultHandler::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Expressions::Interpreter::TryFaultHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TryFaultHandler*, creationType>(tryStart, tryEnd, finallyStart, finallyEnd)));
     }
   }; // System.Linq.Expressions.Interpreter.TryFaultHandler

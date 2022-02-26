@@ -30,8 +30,8 @@ namespace Org::BouncyCastle::Crypto::Generators {
   class DHBasicKeyPairGenerator;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Crypto::Generators::DHBasicKeyPairGenerator);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Generators::DHBasicKeyPairGenerator*, "Org.BouncyCastle.Crypto.Generators", "DHBasicKeyPairGenerator");
+NEED_NO_BOX(::Org::BouncyCastle::Crypto::Generators::DHBasicKeyPairGenerator);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Generators::DHBasicKeyPairGenerator*, "Org.BouncyCastle.Crypto.Generators", "DHBasicKeyPairGenerator");
 // Type namespace: Org.BouncyCastle.Crypto.Generators
 namespace Org::BouncyCastle::Crypto::Generators {
   // Size: 0x18
@@ -52,41 +52,41 @@ namespace Org::BouncyCastle::Crypto::Generators {
     // private Org.BouncyCastle.Crypto.Parameters.DHKeyGenerationParameters param
     // Size: 0x8
     // Offset: 0x10
-    Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters* param;
+    ::Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters* param;
     // Field size check
-    static_assert(sizeof(Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters*) == 0x8);
+    static_assert(sizeof(::Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters*) == 0x8);
     public:
-    // Creating conversion operator: operator Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters*
-    constexpr operator Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters*() const noexcept {
+    // Creating conversion operator: operator ::Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters*
+    constexpr operator ::Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters*() const noexcept {
       return param;
     }
     // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.DHKeyGenerationParameters param
-    Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters*& dyn_param();
+    ::Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters*& dyn_param();
     // public System.Void Init(Org.BouncyCastle.Crypto.KeyGenerationParameters parameters)
     // Offset: 0x1D4125C
-    void Init(Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
+    void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
     // public Org.BouncyCastle.Crypto.AsymmetricCipherKeyPair GenerateKeyPair()
     // Offset: 0x1D412EC
-    Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
+    ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
     // public System.Void .ctor()
     // Offset: 0x1D41638
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DHBasicKeyPairGenerator* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Generators::DHBasicKeyPairGenerator::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Generators::DHBasicKeyPairGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DHBasicKeyPairGenerator*, creationType>()));
     }
   }; // Org.BouncyCastle.Crypto.Generators.DHBasicKeyPairGenerator
   #pragma pack(pop)
-  static check_size<sizeof(DHBasicKeyPairGenerator), 16 + sizeof(Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters*)> __Org_BouncyCastle_Crypto_Generators_DHBasicKeyPairGeneratorSizeCheck;
+  static check_size<sizeof(DHBasicKeyPairGenerator), 16 + sizeof(::Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters*)> __Org_BouncyCastle_Crypto_Generators_DHBasicKeyPairGeneratorSizeCheck;
   static_assert(sizeof(DHBasicKeyPairGenerator) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Generators::DHBasicKeyPairGenerator::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Generators::DHBasicKeyPairGenerator::*)(Org::BouncyCastle::Crypto::KeyGenerationParameters*)>(&Org::BouncyCastle::Crypto::Generators::DHBasicKeyPairGenerator::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Generators::DHBasicKeyPairGenerator::*)(::Org::BouncyCastle::Crypto::KeyGenerationParameters*)>(&Org::BouncyCastle::Crypto::Generators::DHBasicKeyPairGenerator::Init)> {
   static const MethodInfo* get() {
     static auto* parameters = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Crypto", "KeyGenerationParameters")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Generators::DHBasicKeyPairGenerator*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{parameters});
@@ -95,7 +95,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Generators::DHBasicKeyPairGenerator::GenerateKeyPair
 // Il2CppName: GenerateKeyPair
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* (Org::BouncyCastle::Crypto::Generators::DHBasicKeyPairGenerator::*)()>(&Org::BouncyCastle::Crypto::Generators::DHBasicKeyPairGenerator::GenerateKeyPair)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* (Org::BouncyCastle::Crypto::Generators::DHBasicKeyPairGenerator::*)()>(&Org::BouncyCastle::Crypto::Generators::DHBasicKeyPairGenerator::GenerateKeyPair)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Generators::DHBasicKeyPairGenerator*), "GenerateKeyPair", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

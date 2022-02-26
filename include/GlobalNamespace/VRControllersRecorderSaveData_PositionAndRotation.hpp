@@ -13,8 +13,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::VRControllersRecorderSaveData::PositionAndRotation);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorderSaveData::PositionAndRotation*, "", "VRControllersRecorderSaveData/PositionAndRotation");
+NEED_NO_BOX(::GlobalNamespace::VRControllersRecorderSaveData::PositionAndRotation);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::VRControllersRecorderSaveData::PositionAndRotation*, "", "VRControllersRecorderSaveData/PositionAndRotation");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x2C
@@ -95,7 +95,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRControllersRecorderSaveData::PositionAndRotation* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::VRControllersRecorderSaveData::PositionAndRotation::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VRControllersRecorderSaveData::PositionAndRotation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRControllersRecorderSaveData::PositionAndRotation*, creationType>()));
     }
   }; // VRControllersRecorderSaveData/PositionAndRotation

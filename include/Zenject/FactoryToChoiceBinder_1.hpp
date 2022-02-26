@@ -37,7 +37,7 @@ namespace Zenject {
   class FactoryToChoiceBinder_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::FactoryToChoiceBinder_1, "Zenject", "FactoryToChoiceBinder`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Zenject::FactoryToChoiceBinder_1, "Zenject", "FactoryToChoiceBinder`1");
 // Type namespace: Zenject
 namespace Zenject {
   // WARNING Size may be invalid!
@@ -45,39 +45,39 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   template<typename TContract>
-  class FactoryToChoiceBinder_1 : public Zenject::FactoryFromBinder_1<TContract> {
+  class FactoryToChoiceBinder_1 : public ::Zenject::FactoryFromBinder_1<TContract> {
     public:
     // public Zenject.FactoryFromBinder`1<TContract> ToSelf()
     // Offset: 0xFFFFFFFF
-    Zenject::FactoryFromBinder_1<TContract>* ToSelf() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryToChoiceBinder_1::ToSelf");
+    ::Zenject::FactoryFromBinder_1<TContract>* ToSelf() {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactoryToChoiceBinder_1::ToSelf");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ToSelf", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-      return ::il2cpp_utils::RunMethodRethrow<Zenject::FactoryFromBinder_1<TContract>*, false>(this, ___internal__method);
+      return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryFromBinder_1<TContract>*, false>(this, ___internal__method);
     }
     // public Zenject.FactoryFromBinderUntyped To(System.Type concreteType)
     // Offset: 0xFFFFFFFF
-    Zenject::FactoryFromBinderUntyped* To(System::Type* concreteType) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryToChoiceBinder_1::To");
+    ::Zenject::FactoryFromBinderUntyped* To(::System::Type* concreteType) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactoryToChoiceBinder_1::To");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "To", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(concreteType)})));
-      return ::il2cpp_utils::RunMethodRethrow<Zenject::FactoryFromBinderUntyped*, false>(this, ___internal__method, concreteType);
+      return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryFromBinderUntyped*, false>(this, ___internal__method, concreteType);
     }
     // public Zenject.FactoryFromBinder`1<TConcrete> To()
     // Offset: 0xFFFFFFFF
     template<class TConcrete>
-    Zenject::FactoryFromBinder_1<TConcrete>* To() {
+    ::Zenject::FactoryFromBinder_1<TConcrete>* To() {
       static_assert(std::is_convertible_v<TConcrete, TContract>);
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryToChoiceBinder_1::To");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactoryToChoiceBinder_1::To");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "To", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TConcrete>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TConcrete>::get()}));
-      return ::il2cpp_utils::RunMethodRethrow<Zenject::FactoryFromBinder_1<TConcrete>*, false>(this, ___generic__method);
+      return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryFromBinder_1<TConcrete>*, false>(this, ___generic__method);
     }
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo)
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.FactoryFromBinder`1
     // Base method: System.Void FactoryFromBinder_1::.ctor(Zenject.DiContainer container, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static FactoryToChoiceBinder_1<TContract>* New_ctor(Zenject::DiContainer* container, Zenject::BindInfo* bindInfo, Zenject::FactoryBindInfo* factoryBindInfo) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryToChoiceBinder_1::.ctor");
+    static FactoryToChoiceBinder_1<TContract>* New_ctor(::Zenject::DiContainer* container, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactoryToChoiceBinder_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FactoryToChoiceBinder_1<TContract>*, creationType>(container, bindInfo, factoryBindInfo)));
     }
   }; // Zenject.FactoryToChoiceBinder`1

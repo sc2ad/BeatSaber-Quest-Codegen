@@ -48,8 +48,8 @@ namespace Newtonsoft::Json::Utilities {
   class ReflectionObject;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Utilities::ReflectionObject);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::ReflectionObject*, "Newtonsoft.Json.Utilities", "ReflectionObject");
+NEED_NO_BOX(::Newtonsoft::Json::Utilities::ReflectionObject);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::ReflectionObject*, "Newtonsoft.Json.Utilities", "ReflectionObject");
 // Type namespace: Newtonsoft.Json.Utilities
 namespace Newtonsoft::Json::Utilities {
   // Size: 0x20
@@ -60,11 +60,11 @@ namespace Newtonsoft::Json::Utilities {
   // [NullableAttribute] Offset: 12022D8
   class ReflectionObject : public ::Il2CppObject {
     public:
-    // Nested type: Newtonsoft::Json::Utilities::ReflectionObject::$$c__DisplayClass11_0
+    // Nested type: ::Newtonsoft::Json::Utilities::ReflectionObject::$$c__DisplayClass11_0
     class $$c__DisplayClass11_0;
-    // Nested type: Newtonsoft::Json::Utilities::ReflectionObject::$$c__DisplayClass11_1
+    // Nested type: ::Newtonsoft::Json::Utilities::ReflectionObject::$$c__DisplayClass11_1
     class $$c__DisplayClass11_1;
-    // Nested type: Newtonsoft::Json::Utilities::ReflectionObject::$$c__DisplayClass11_2
+    // Nested type: ::Newtonsoft::Json::Utilities::ReflectionObject::$$c__DisplayClass11_2
     class $$c__DisplayClass11_2;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -79,31 +79,31 @@ namespace Newtonsoft::Json::Utilities {
     // private readonly Newtonsoft.Json.Serialization.ObjectConstructor`1<System.Object> <Creator>k__BackingField
     // Size: 0x8
     // Offset: 0x10
-    Newtonsoft::Json::Serialization::ObjectConstructor_1<::Il2CppObject*>* Creator;
+    ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::Il2CppObject*>* Creator;
     // Field size check
-    static_assert(sizeof(Newtonsoft::Json::Serialization::ObjectConstructor_1<::Il2CppObject*>*) == 0x8);
+    static_assert(sizeof(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::Il2CppObject*>*) == 0x8);
     // private readonly System.Collections.Generic.IDictionary`2<System.String,Newtonsoft.Json.Utilities.ReflectionMember> <Members>k__BackingField
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::Generic::IDictionary_2<::StringW, Newtonsoft::Json::Utilities::ReflectionMember*>* Members;
+    ::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Utilities::ReflectionMember*>* Members;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::IDictionary_2<::StringW, Newtonsoft::Json::Utilities::ReflectionMember*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Utilities::ReflectionMember*>*) == 0x8);
     public:
     // Get instance field reference: private readonly Newtonsoft.Json.Serialization.ObjectConstructor`1<System.Object> <Creator>k__BackingField
-    Newtonsoft::Json::Serialization::ObjectConstructor_1<::Il2CppObject*>*& dyn_$Creator$k__BackingField();
+    ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::Il2CppObject*>*& dyn_$Creator$k__BackingField();
     // Get instance field reference: private readonly System.Collections.Generic.IDictionary`2<System.String,Newtonsoft.Json.Utilities.ReflectionMember> <Members>k__BackingField
-    System::Collections::Generic::IDictionary_2<::StringW, Newtonsoft::Json::Utilities::ReflectionMember*>*& dyn_$Members$k__BackingField();
+    ::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Utilities::ReflectionMember*>*& dyn_$Members$k__BackingField();
     // public Newtonsoft.Json.Serialization.ObjectConstructor`1<System.Object> get_Creator()
     // Offset: 0x29F2CD8
-    Newtonsoft::Json::Serialization::ObjectConstructor_1<::Il2CppObject*>* get_Creator();
+    ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::Il2CppObject*>* get_Creator();
     // public System.Collections.Generic.IDictionary`2<System.String,Newtonsoft.Json.Utilities.ReflectionMember> get_Members()
     // Offset: 0x29F2CE0
-    System::Collections::Generic::IDictionary_2<::StringW, Newtonsoft::Json::Utilities::ReflectionMember*>* get_Members();
+    ::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Utilities::ReflectionMember*>* get_Members();
     // private System.Void .ctor(Newtonsoft.Json.Serialization.ObjectConstructor`1<System.Object> creator)
     // Offset: 0x29F2CE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ReflectionObject* New_ctor(Newtonsoft::Json::Serialization::ObjectConstructor_1<::Il2CppObject*>* creator) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Utilities::ReflectionObject::.ctor");
+    static ReflectionObject* New_ctor(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::Il2CppObject*>* creator) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Utilities::ReflectionObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReflectionObject*, creationType>(creator)));
     }
     // public System.Object GetValue(System.Object target, System.String member)
@@ -114,23 +114,23 @@ namespace Newtonsoft::Json::Utilities {
     void SetValue(::Il2CppObject* target, ::StringW member, ::Il2CppObject* value);
     // public System.Type GetType(System.String member)
     // Offset: 0x29F2F40
-    System::Type* GetType(::StringW member);
+    ::System::Type* GetType(::StringW member);
     // static public Newtonsoft.Json.Utilities.ReflectionObject Create(System.Type t, params System.String[] memberNames)
     // Offset: 0x29F300C
-    static Newtonsoft::Json::Utilities::ReflectionObject* Create(System::Type* t, ::ArrayW<::StringW> memberNames);
+    static ::Newtonsoft::Json::Utilities::ReflectionObject* Create(::System::Type* t, ::ArrayW<::StringW> memberNames);
     // static public Newtonsoft.Json.Utilities.ReflectionObject Create(System.Type t, System.Reflection.MethodBase creator, params System.String[] memberNames)
     // Offset: 0x29F3018
-    static Newtonsoft::Json::Utilities::ReflectionObject* Create(System::Type* t, System::Reflection::MethodBase* creator, ::ArrayW<::StringW> memberNames);
+    static ::Newtonsoft::Json::Utilities::ReflectionObject* Create(::System::Type* t, ::System::Reflection::MethodBase* creator, ::ArrayW<::StringW> memberNames);
   }; // Newtonsoft.Json.Utilities.ReflectionObject
   #pragma pack(pop)
-  static check_size<sizeof(ReflectionObject), 24 + sizeof(System::Collections::Generic::IDictionary_2<::StringW, Newtonsoft::Json::Utilities::ReflectionMember*>*)> __Newtonsoft_Json_Utilities_ReflectionObjectSizeCheck;
+  static check_size<sizeof(ReflectionObject), 24 + sizeof(::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Utilities::ReflectionMember*>*)> __Newtonsoft_Json_Utilities_ReflectionObjectSizeCheck;
   static_assert(sizeof(ReflectionObject) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionObject::get_Creator
 // Il2CppName: get_Creator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Serialization::ObjectConstructor_1<::Il2CppObject*>* (Newtonsoft::Json::Utilities::ReflectionObject::*)()>(&Newtonsoft::Json::Utilities::ReflectionObject::get_Creator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::Il2CppObject*>* (Newtonsoft::Json::Utilities::ReflectionObject::*)()>(&Newtonsoft::Json::Utilities::ReflectionObject::get_Creator)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::ReflectionObject*), "get_Creator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -138,7 +138,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft:
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionObject::get_Members
 // Il2CppName: get_Members
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IDictionary_2<::StringW, Newtonsoft::Json::Utilities::ReflectionMember*>* (Newtonsoft::Json::Utilities::ReflectionObject::*)()>(&Newtonsoft::Json::Utilities::ReflectionObject::get_Members)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Utilities::ReflectionMember*>* (Newtonsoft::Json::Utilities::ReflectionObject::*)()>(&Newtonsoft::Json::Utilities::ReflectionObject::get_Members)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::ReflectionObject*), "get_Members", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -171,7 +171,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionObject::GetType
 // Il2CppName: GetType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (Newtonsoft::Json::Utilities::ReflectionObject::*)(::StringW)>(&Newtonsoft::Json::Utilities::ReflectionObject::GetType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (Newtonsoft::Json::Utilities::ReflectionObject::*)(::StringW)>(&Newtonsoft::Json::Utilities::ReflectionObject::GetType)> {
   static const MethodInfo* get() {
     static auto* member = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::ReflectionObject*), "GetType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{member});
@@ -180,7 +180,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionObject::Create
 // Il2CppName: Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Utilities::ReflectionObject* (*)(System::Type*, ::ArrayW<::StringW>)>(&Newtonsoft::Json::Utilities::ReflectionObject::Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Utilities::ReflectionObject* (*)(::System::Type*, ::ArrayW<::StringW>)>(&Newtonsoft::Json::Utilities::ReflectionObject::Create)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* memberNames = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
@@ -190,7 +190,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft:
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::ReflectionObject::Create
 // Il2CppName: Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Utilities::ReflectionObject* (*)(System::Type*, System::Reflection::MethodBase*, ::ArrayW<::StringW>)>(&Newtonsoft::Json::Utilities::ReflectionObject::Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Utilities::ReflectionObject* (*)(::System::Type*, ::System::Reflection::MethodBase*, ::ArrayW<::StringW>)>(&Newtonsoft::Json::Utilities::ReflectionObject::Create)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* creator = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodBase")->byval_arg;

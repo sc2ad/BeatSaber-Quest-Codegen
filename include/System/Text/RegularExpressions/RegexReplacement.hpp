@@ -46,8 +46,8 @@ namespace System::Text::RegularExpressions {
   class RegexReplacement;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Text::RegularExpressions::RegexReplacement);
-DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexReplacement*, "System.Text.RegularExpressions", "RegexReplacement");
+NEED_NO_BOX(::System::Text::RegularExpressions::RegexReplacement);
+DEFINE_IL2CPP_ARG_TYPE(::System::Text::RegularExpressions::RegexReplacement*, "System.Text.RegularExpressions", "RegexReplacement");
 // Type namespace: System.Text.RegularExpressions
 namespace System::Text::RegularExpressions {
   // Size: 0x28
@@ -74,47 +74,47 @@ namespace System::Text::RegularExpressions {
     // System.Collections.Generic.List`1<System.String> _strings
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::Generic::List_1<::StringW>* strings;
+    ::System::Collections::Generic::List_1<::StringW>* strings;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<::StringW>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::StringW>*) == 0x8);
     // System.Collections.Generic.List`1<System.Int32> _rules
     // Size: 0x8
     // Offset: 0x20
-    System::Collections::Generic::List_1<int>* rules;
+    ::System::Collections::Generic::List_1<int>* rules;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<int>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<int>*) == 0x8);
     public:
     // Get instance field reference: System.String _rep
     ::StringW& dyn__rep();
     // Get instance field reference: System.Collections.Generic.List`1<System.String> _strings
-    System::Collections::Generic::List_1<::StringW>*& dyn__strings();
+    ::System::Collections::Generic::List_1<::StringW>*& dyn__strings();
     // Get instance field reference: System.Collections.Generic.List`1<System.Int32> _rules
-    System::Collections::Generic::List_1<int>*& dyn__rules();
+    ::System::Collections::Generic::List_1<int>*& dyn__rules();
     // System.String get_Pattern()
     // Offset: 0x2425638
     ::StringW get_Pattern();
     // System.Void .ctor(System.String rep, System.Text.RegularExpressions.RegexNode concat, System.Collections.Hashtable _caps)
     // Offset: 0x2424FD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static RegexReplacement* New_ctor(::StringW rep, System::Text::RegularExpressions::RegexNode* concat, System::Collections::Hashtable* _caps) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::RegexReplacement::.ctor");
+    static RegexReplacement* New_ctor(::StringW rep, ::System::Text::RegularExpressions::RegexNode* concat, ::System::Collections::Hashtable* _caps) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::RegexReplacement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexReplacement*, creationType>(rep, concat, _caps)));
     }
     // private System.Void ReplacementImpl(System.Text.StringBuilder sb, System.Text.RegularExpressions.Match match)
     // Offset: 0x242530C
-    void ReplacementImpl(System::Text::StringBuilder* sb, System::Text::RegularExpressions::Match* match);
+    void ReplacementImpl(::System::Text::StringBuilder* sb, ::System::Text::RegularExpressions::Match* match);
     // private System.Void ReplacementImplRTL(System.Collections.Generic.List`1<System.String> al, System.Text.RegularExpressions.Match match)
     // Offset: 0x2425498
-    void ReplacementImplRTL(System::Collections::Generic::List_1<::StringW>* al, System::Text::RegularExpressions::Match* match);
+    void ReplacementImplRTL(::System::Collections::Generic::List_1<::StringW>* al, ::System::Text::RegularExpressions::Match* match);
     // System.String Replace(System.Text.RegularExpressions.Regex regex, System.String input, System.Int32 count, System.Int32 startat)
     // Offset: 0x2425640
-    ::StringW Replace(System::Text::RegularExpressions::Regex* regex, ::StringW input, int count, int startat);
+    ::StringW Replace(::System::Text::RegularExpressions::Regex* regex, ::StringW input, int count, int startat);
     // static System.String Replace(System.Text.RegularExpressions.MatchEvaluator evaluator, System.Text.RegularExpressions.Regex regex, System.String input, System.Int32 count, System.Int32 startat)
     // Offset: 0x24259B8
-    static ::StringW Replace(System::Text::RegularExpressions::MatchEvaluator* evaluator, System::Text::RegularExpressions::Regex* regex, ::StringW input, int count, int startat);
+    static ::StringW Replace(::System::Text::RegularExpressions::MatchEvaluator* evaluator, ::System::Text::RegularExpressions::Regex* regex, ::StringW input, int count, int startat);
   }; // System.Text.RegularExpressions.RegexReplacement
   #pragma pack(pop)
-  static check_size<sizeof(RegexReplacement), 32 + sizeof(System::Collections::Generic::List_1<int>*)> __System_Text_RegularExpressions_RegexReplacementSizeCheck;
+  static check_size<sizeof(RegexReplacement), 32 + sizeof(::System::Collections::Generic::List_1<int>*)> __System_Text_RegularExpressions_RegexReplacementSizeCheck;
   static_assert(sizeof(RegexReplacement) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -133,7 +133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexReplacement::ReplacementImpl
 // Il2CppName: ReplacementImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexReplacement::*)(System::Text::StringBuilder*, System::Text::RegularExpressions::Match*)>(&System::Text::RegularExpressions::RegexReplacement::ReplacementImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexReplacement::*)(::System::Text::StringBuilder*, ::System::Text::RegularExpressions::Match*)>(&System::Text::RegularExpressions::RegexReplacement::ReplacementImpl)> {
   static const MethodInfo* get() {
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* match = &::il2cpp_utils::GetClassFromName("System.Text.RegularExpressions", "Match")->byval_arg;
@@ -143,7 +143,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexReplacement::ReplacementImplRTL
 // Il2CppName: ReplacementImplRTL
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexReplacement::*)(System::Collections::Generic::List_1<::StringW>*, System::Text::RegularExpressions::Match*)>(&System::Text::RegularExpressions::RegexReplacement::ReplacementImplRTL)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexReplacement::*)(::System::Collections::Generic::List_1<::StringW>*, ::System::Text::RegularExpressions::Match*)>(&System::Text::RegularExpressions::RegexReplacement::ReplacementImplRTL)> {
   static const MethodInfo* get() {
     static auto* al = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     static auto* match = &::il2cpp_utils::GetClassFromName("System.Text.RegularExpressions", "Match")->byval_arg;
@@ -153,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexReplacement::Replace
 // Il2CppName: Replace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Text::RegularExpressions::RegexReplacement::*)(System::Text::RegularExpressions::Regex*, ::StringW, int, int)>(&System::Text::RegularExpressions::RegexReplacement::Replace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Text::RegularExpressions::RegexReplacement::*)(::System::Text::RegularExpressions::Regex*, ::StringW, int, int)>(&System::Text::RegularExpressions::RegexReplacement::Replace)> {
   static const MethodInfo* get() {
     static auto* regex = &::il2cpp_utils::GetClassFromName("System.Text.RegularExpressions", "Regex")->byval_arg;
     static auto* input = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -165,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexReplacement::Replace
 // Il2CppName: Replace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Text::RegularExpressions::MatchEvaluator*, System::Text::RegularExpressions::Regex*, ::StringW, int, int)>(&System::Text::RegularExpressions::RegexReplacement::Replace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Text::RegularExpressions::MatchEvaluator*, ::System::Text::RegularExpressions::Regex*, ::StringW, int, int)>(&System::Text::RegularExpressions::RegexReplacement::Replace)> {
   static const MethodInfo* get() {
     static auto* evaluator = &::il2cpp_utils::GetClassFromName("System.Text.RegularExpressions", "MatchEvaluator")->byval_arg;
     static auto* regex = &::il2cpp_utils::GetClassFromName("System.Text.RegularExpressions", "Regex")->byval_arg;

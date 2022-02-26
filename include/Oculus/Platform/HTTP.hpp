@@ -12,8 +12,8 @@ namespace Oculus::Platform {
   class HTTP;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::HTTP);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::HTTP*, "Oculus.Platform", "HTTP");
+NEED_NO_BOX(::Oculus::Platform::HTTP);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::HTTP*, "Oculus.Platform", "HTTP");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x10

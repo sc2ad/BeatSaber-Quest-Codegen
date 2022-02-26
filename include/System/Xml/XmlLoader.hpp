@@ -55,8 +55,8 @@ namespace System::Xml {
   class XmlLoader;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::XmlLoader);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlLoader*, "System.Xml", "XmlLoader");
+NEED_NO_BOX(::System::Xml::XmlLoader);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlLoader*, "System.Xml", "XmlLoader");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x21
@@ -77,15 +77,15 @@ namespace System::Xml {
     // private System.Xml.XmlDocument doc
     // Size: 0x8
     // Offset: 0x10
-    System::Xml::XmlDocument* doc;
+    ::System::Xml::XmlDocument* doc;
     // Field size check
-    static_assert(sizeof(System::Xml::XmlDocument*) == 0x8);
+    static_assert(sizeof(::System::Xml::XmlDocument*) == 0x8);
     // private System.Xml.XmlReader reader
     // Size: 0x8
     // Offset: 0x18
-    System::Xml::XmlReader* reader;
+    ::System::Xml::XmlReader* reader;
     // Field size check
-    static_assert(sizeof(System::Xml::XmlReader*) == 0x8);
+    static_assert(sizeof(::System::Xml::XmlReader*) == 0x8);
     // private System.Boolean preserveWhitespace
     // Size: 0x1
     // Offset: 0x20
@@ -94,96 +94,96 @@ namespace System::Xml {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.Xml.XmlDocument doc
-    System::Xml::XmlDocument*& dyn_doc();
+    ::System::Xml::XmlDocument*& dyn_doc();
     // Get instance field reference: private System.Xml.XmlReader reader
-    System::Xml::XmlReader*& dyn_reader();
+    ::System::Xml::XmlReader*& dyn_reader();
     // Get instance field reference: private System.Boolean preserveWhitespace
     bool& dyn_preserveWhitespace();
     // System.Void Load(System.Xml.XmlDocument doc, System.Xml.XmlReader reader, System.Boolean preserveWhitespace)
     // Offset: 0x1A1E410
-    void Load(System::Xml::XmlDocument* doc, System::Xml::XmlReader* reader, bool preserveWhitespace);
+    void Load(::System::Xml::XmlDocument* doc, ::System::Xml::XmlReader* reader, bool preserveWhitespace);
     // private System.Void LoadDocSequence(System.Xml.XmlDocument parentDoc)
     // Offset: 0x1A1E640
-    void LoadDocSequence(System::Xml::XmlDocument* parentDoc);
+    void LoadDocSequence(::System::Xml::XmlDocument* parentDoc);
     // System.Xml.XmlNode ReadCurrentNode(System.Xml.XmlDocument doc, System.Xml.XmlReader reader)
     // Offset: 0x1A1EC54
-    System::Xml::XmlNode* ReadCurrentNode(System::Xml::XmlDocument* doc, System::Xml::XmlReader* reader);
+    ::System::Xml::XmlNode* ReadCurrentNode(::System::Xml::XmlDocument* doc, ::System::Xml::XmlReader* reader);
     // private System.Xml.XmlNode LoadNode(System.Boolean skipOverWhitespace)
     // Offset: 0x1A1E6B0
-    System::Xml::XmlNode* LoadNode(bool skipOverWhitespace);
+    ::System::Xml::XmlNode* LoadNode(bool skipOverWhitespace);
     // private System.Xml.XmlAttribute LoadAttributeNode()
     // Offset: 0x1A1EDA8
-    System::Xml::XmlAttribute* LoadAttributeNode();
+    ::System::Xml::XmlAttribute* LoadAttributeNode();
     // private System.Xml.XmlAttribute LoadDefaultAttribute()
     // Offset: 0x1A1F740
-    System::Xml::XmlAttribute* LoadDefaultAttribute();
+    ::System::Xml::XmlAttribute* LoadDefaultAttribute();
     // private System.Void LoadAttributeValue(System.Xml.XmlNode parent, System.Boolean direct)
     // Offset: 0x1A1F8E4
-    void LoadAttributeValue(System::Xml::XmlNode* parent, bool direct);
+    void LoadAttributeValue(::System::Xml::XmlNode* parent, bool direct);
     // private System.Xml.XmlEntityReference LoadEntityReferenceNode(System.Boolean direct)
     // Offset: 0x1A1F0E0
-    System::Xml::XmlEntityReference* LoadEntityReferenceNode(bool direct);
+    ::System::Xml::XmlEntityReference* LoadEntityReferenceNode(bool direct);
     // private System.Xml.XmlDeclaration LoadDeclarationNode()
     // Offset: 0x1A1F2D0
-    System::Xml::XmlDeclaration* LoadDeclarationNode();
+    ::System::Xml::XmlDeclaration* LoadDeclarationNode();
     // private System.Xml.XmlDocumentType LoadDocumentTypeNode()
     // Offset: 0x1A1F47C
-    System::Xml::XmlDocumentType* LoadDocumentTypeNode();
+    ::System::Xml::XmlDocumentType* LoadDocumentTypeNode();
     // private System.Xml.XmlNode LoadNodeDirect()
     // Offset: 0x1A1FBD4
-    System::Xml::XmlNode* LoadNodeDirect();
+    ::System::Xml::XmlNode* LoadNodeDirect();
     // private System.Xml.XmlAttribute LoadAttributeNodeDirect()
     // Offset: 0x1A20B94
-    System::Xml::XmlAttribute* LoadAttributeNodeDirect();
+    ::System::Xml::XmlAttribute* LoadAttributeNodeDirect();
     // System.Void ParseDocumentType(System.Xml.XmlDocumentType dtNode)
     // Offset: 0x1A13B44
-    void ParseDocumentType(System::Xml::XmlDocumentType* dtNode);
+    void ParseDocumentType(::System::Xml::XmlDocumentType* dtNode);
     // private System.Void ParseDocumentType(System.Xml.XmlDocumentType dtNode, System.Boolean bUseResolver, System.Xml.XmlResolver resolver)
     // Offset: 0x1A20CDC
-    void ParseDocumentType(System::Xml::XmlDocumentType* dtNode, bool bUseResolver, System::Xml::XmlResolver* resolver);
+    void ParseDocumentType(::System::Xml::XmlDocumentType* dtNode, bool bUseResolver, ::System::Xml::XmlResolver* resolver);
     // private System.Void LoadDocumentType(System.Xml.IDtdInfo dtdInfo, System.Xml.XmlDocumentType dtNode)
     // Offset: 0x1A201A4
-    void LoadDocumentType(System::Xml::IDtdInfo* dtdInfo, System::Xml::XmlDocumentType* dtNode);
+    void LoadDocumentType(::System::Xml::IDtdInfo* dtdInfo, ::System::Xml::XmlDocumentType* dtNode);
     // private System.Xml.XmlParserContext GetContext(System.Xml.XmlNode node)
     // Offset: 0x1A21100
-    System::Xml::XmlParserContext* GetContext(System::Xml::XmlNode* node);
+    ::System::Xml::XmlParserContext* GetContext(::System::Xml::XmlNode* node);
     // System.Xml.XmlNamespaceManager ParsePartialContent(System.Xml.XmlNode parentNode, System.String innerxmltext, System.Xml.XmlNodeType nt)
     // Offset: 0x1A133B8
-    System::Xml::XmlNamespaceManager* ParsePartialContent(System::Xml::XmlNode* parentNode, ::StringW innerxmltext, System::Xml::XmlNodeType nt);
+    ::System::Xml::XmlNamespaceManager* ParsePartialContent(::System::Xml::XmlNode* parentNode, ::StringW innerxmltext, ::System::Xml::XmlNodeType nt);
     // System.Void LoadInnerXmlElement(System.Xml.XmlElement node, System.String innerxmltext)
     // Offset: 0x1A166BC
-    void LoadInnerXmlElement(System::Xml::XmlElement* node, ::StringW innerxmltext);
+    void LoadInnerXmlElement(::System::Xml::XmlElement* node, ::StringW innerxmltext);
     // System.Void LoadInnerXmlAttribute(System.Xml.XmlAttribute node, System.String innerxmltext)
     // Offset: 0x1A21E3C
-    void LoadInnerXmlAttribute(System::Xml::XmlAttribute* node, ::StringW innerxmltext);
+    void LoadInnerXmlAttribute(::System::Xml::XmlAttribute* node, ::StringW innerxmltext);
     // private System.Void RemoveDuplicateNamespace(System.Xml.XmlElement elem, System.Xml.XmlNamespaceManager mgr, System.Boolean fCheckElemAttrs)
     // Offset: 0x1A21B9C
-    void RemoveDuplicateNamespace(System::Xml::XmlElement* elem, System::Xml::XmlNamespaceManager* mgr, bool fCheckElemAttrs);
+    void RemoveDuplicateNamespace(::System::Xml::XmlElement* elem, ::System::Xml::XmlNamespaceManager* mgr, bool fCheckElemAttrs);
     // private System.String EntitizeName(System.String name)
     // Offset: 0x1A21E44
     ::StringW EntitizeName(::StringW name);
     // System.Void ExpandEntity(System.Xml.XmlEntity ent)
     // Offset: 0x1A1AE88
-    void ExpandEntity(System::Xml::XmlEntity* ent);
+    void ExpandEntity(::System::Xml::XmlEntity* ent);
     // System.Void ExpandEntityReference(System.Xml.XmlEntityReference eref)
     // Offset: 0x1A1B2F0
-    void ExpandEntityReference(System::Xml::XmlEntityReference* eref);
+    void ExpandEntityReference(::System::Xml::XmlEntityReference* eref);
     // private System.Xml.XmlReader CreateInnerXmlReader(System.String xmlFragment, System.Xml.XmlNodeType nt, System.Xml.XmlParserContext context, System.Xml.XmlDocument doc)
     // Offset: 0x1A21934
-    System::Xml::XmlReader* CreateInnerXmlReader(::StringW xmlFragment, System::Xml::XmlNodeType nt, System::Xml::XmlParserContext* context, System::Xml::XmlDocument* doc);
+    ::System::Xml::XmlReader* CreateInnerXmlReader(::StringW xmlFragment, ::System::Xml::XmlNodeType nt, ::System::Xml::XmlParserContext* context, ::System::Xml::XmlDocument* doc);
     // static System.Void ParseXmlDeclarationValue(System.String strValue, out System.String version, out System.String encoding, out System.String standalone)
     // Offset: 0x1A1FFEC
     static void ParseXmlDeclarationValue(::StringW strValue, ByRef<::StringW> version, ByRef<::StringW> encoding, ByRef<::StringW> standalone);
     // static System.Exception UnexpectedNodeType(System.Xml.XmlNodeType nodetype)
     // Offset: 0x1A1F624
-    static System::Exception* UnexpectedNodeType(System::Xml::XmlNodeType nodetype);
+    static ::System::Exception* UnexpectedNodeType(::System::Xml::XmlNodeType nodetype);
     // public System.Void .ctor()
     // Offset: 0x1A133B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlLoader* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlLoader::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlLoader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlLoader*, creationType>()));
     }
   }; // System.Xml.XmlLoader
@@ -195,7 +195,7 @@ namespace System::Xml {
 // Writing MetadataGetter for method: System::Xml::XmlLoader::Load
 // Il2CppName: Load
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlLoader::*)(System::Xml::XmlDocument*, System::Xml::XmlReader*, bool)>(&System::Xml::XmlLoader::Load)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlLoader::*)(::System::Xml::XmlDocument*, ::System::Xml::XmlReader*, bool)>(&System::Xml::XmlLoader::Load)> {
   static const MethodInfo* get() {
     static auto* doc = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlDocument")->byval_arg;
     static auto* reader = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlReader")->byval_arg;
@@ -206,7 +206,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlLoader::LoadDocSequence
 // Il2CppName: LoadDocSequence
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlLoader::*)(System::Xml::XmlDocument*)>(&System::Xml::XmlLoader::LoadDocSequence)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlLoader::*)(::System::Xml::XmlDocument*)>(&System::Xml::XmlLoader::LoadDocSequence)> {
   static const MethodInfo* get() {
     static auto* parentDoc = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlDocument")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlLoader*), "LoadDocSequence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{parentDoc});
@@ -215,7 +215,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlLoader::ReadCurrentNode
 // Il2CppName: ReadCurrentNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlNode* (System::Xml::XmlLoader::*)(System::Xml::XmlDocument*, System::Xml::XmlReader*)>(&System::Xml::XmlLoader::ReadCurrentNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (System::Xml::XmlLoader::*)(::System::Xml::XmlDocument*, ::System::Xml::XmlReader*)>(&System::Xml::XmlLoader::ReadCurrentNode)> {
   static const MethodInfo* get() {
     static auto* doc = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlDocument")->byval_arg;
     static auto* reader = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlReader")->byval_arg;
@@ -225,7 +225,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlLoader::LoadNode
 // Il2CppName: LoadNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlNode* (System::Xml::XmlLoader::*)(bool)>(&System::Xml::XmlLoader::LoadNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (System::Xml::XmlLoader::*)(bool)>(&System::Xml::XmlLoader::LoadNode)> {
   static const MethodInfo* get() {
     static auto* skipOverWhitespace = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlLoader*), "LoadNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{skipOverWhitespace});
@@ -234,7 +234,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlLoader::LoadAttributeNode
 // Il2CppName: LoadAttributeNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlAttribute* (System::Xml::XmlLoader::*)()>(&System::Xml::XmlLoader::LoadAttributeNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlAttribute* (System::Xml::XmlLoader::*)()>(&System::Xml::XmlLoader::LoadAttributeNode)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlLoader*), "LoadAttributeNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -242,7 +242,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlLoader::LoadDefaultAttribute
 // Il2CppName: LoadDefaultAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlAttribute* (System::Xml::XmlLoader::*)()>(&System::Xml::XmlLoader::LoadDefaultAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlAttribute* (System::Xml::XmlLoader::*)()>(&System::Xml::XmlLoader::LoadDefaultAttribute)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlLoader*), "LoadDefaultAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -250,7 +250,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlLoader::LoadAttributeValue
 // Il2CppName: LoadAttributeValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlLoader::*)(System::Xml::XmlNode*, bool)>(&System::Xml::XmlLoader::LoadAttributeValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlLoader::*)(::System::Xml::XmlNode*, bool)>(&System::Xml::XmlLoader::LoadAttributeValue)> {
   static const MethodInfo* get() {
     static auto* parent = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNode")->byval_arg;
     static auto* direct = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -260,7 +260,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlLoader::LoadEntityReferenceNode
 // Il2CppName: LoadEntityReferenceNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlEntityReference* (System::Xml::XmlLoader::*)(bool)>(&System::Xml::XmlLoader::LoadEntityReferenceNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlEntityReference* (System::Xml::XmlLoader::*)(bool)>(&System::Xml::XmlLoader::LoadEntityReferenceNode)> {
   static const MethodInfo* get() {
     static auto* direct = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlLoader*), "LoadEntityReferenceNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{direct});
@@ -269,7 +269,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlLoader::LoadDeclarationNode
 // Il2CppName: LoadDeclarationNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlDeclaration* (System::Xml::XmlLoader::*)()>(&System::Xml::XmlLoader::LoadDeclarationNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlDeclaration* (System::Xml::XmlLoader::*)()>(&System::Xml::XmlLoader::LoadDeclarationNode)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlLoader*), "LoadDeclarationNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -277,7 +277,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlLoader::LoadDocumentTypeNode
 // Il2CppName: LoadDocumentTypeNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlDocumentType* (System::Xml::XmlLoader::*)()>(&System::Xml::XmlLoader::LoadDocumentTypeNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlDocumentType* (System::Xml::XmlLoader::*)()>(&System::Xml::XmlLoader::LoadDocumentTypeNode)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlLoader*), "LoadDocumentTypeNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -285,7 +285,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlLoader::LoadNodeDirect
 // Il2CppName: LoadNodeDirect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlNode* (System::Xml::XmlLoader::*)()>(&System::Xml::XmlLoader::LoadNodeDirect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (System::Xml::XmlLoader::*)()>(&System::Xml::XmlLoader::LoadNodeDirect)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlLoader*), "LoadNodeDirect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -293,7 +293,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlLoader::LoadAttributeNodeDirect
 // Il2CppName: LoadAttributeNodeDirect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlAttribute* (System::Xml::XmlLoader::*)()>(&System::Xml::XmlLoader::LoadAttributeNodeDirect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlAttribute* (System::Xml::XmlLoader::*)()>(&System::Xml::XmlLoader::LoadAttributeNodeDirect)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlLoader*), "LoadAttributeNodeDirect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -301,7 +301,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlLoader::ParseDocumentType
 // Il2CppName: ParseDocumentType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlLoader::*)(System::Xml::XmlDocumentType*)>(&System::Xml::XmlLoader::ParseDocumentType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlLoader::*)(::System::Xml::XmlDocumentType*)>(&System::Xml::XmlLoader::ParseDocumentType)> {
   static const MethodInfo* get() {
     static auto* dtNode = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlDocumentType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlLoader*), "ParseDocumentType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dtNode});
@@ -310,7 +310,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlLoader::ParseDocumentType
 // Il2CppName: ParseDocumentType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlLoader::*)(System::Xml::XmlDocumentType*, bool, System::Xml::XmlResolver*)>(&System::Xml::XmlLoader::ParseDocumentType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlLoader::*)(::System::Xml::XmlDocumentType*, bool, ::System::Xml::XmlResolver*)>(&System::Xml::XmlLoader::ParseDocumentType)> {
   static const MethodInfo* get() {
     static auto* dtNode = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlDocumentType")->byval_arg;
     static auto* bUseResolver = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -321,7 +321,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlLoader::LoadDocumentType
 // Il2CppName: LoadDocumentType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlLoader::*)(System::Xml::IDtdInfo*, System::Xml::XmlDocumentType*)>(&System::Xml::XmlLoader::LoadDocumentType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlLoader::*)(::System::Xml::IDtdInfo*, ::System::Xml::XmlDocumentType*)>(&System::Xml::XmlLoader::LoadDocumentType)> {
   static const MethodInfo* get() {
     static auto* dtdInfo = &::il2cpp_utils::GetClassFromName("System.Xml", "IDtdInfo")->byval_arg;
     static auto* dtNode = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlDocumentType")->byval_arg;
@@ -331,7 +331,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlLoader::GetContext
 // Il2CppName: GetContext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlParserContext* (System::Xml::XmlLoader::*)(System::Xml::XmlNode*)>(&System::Xml::XmlLoader::GetContext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlParserContext* (System::Xml::XmlLoader::*)(::System::Xml::XmlNode*)>(&System::Xml::XmlLoader::GetContext)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlLoader*), "GetContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node});
@@ -340,7 +340,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlLoader::ParsePartialContent
 // Il2CppName: ParsePartialContent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlNamespaceManager* (System::Xml::XmlLoader::*)(System::Xml::XmlNode*, ::StringW, System::Xml::XmlNodeType)>(&System::Xml::XmlLoader::ParsePartialContent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNamespaceManager* (System::Xml::XmlLoader::*)(::System::Xml::XmlNode*, ::StringW, ::System::Xml::XmlNodeType)>(&System::Xml::XmlLoader::ParsePartialContent)> {
   static const MethodInfo* get() {
     static auto* parentNode = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNode")->byval_arg;
     static auto* innerxmltext = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -351,7 +351,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlLoader::LoadInnerXmlElement
 // Il2CppName: LoadInnerXmlElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlLoader::*)(System::Xml::XmlElement*, ::StringW)>(&System::Xml::XmlLoader::LoadInnerXmlElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlLoader::*)(::System::Xml::XmlElement*, ::StringW)>(&System::Xml::XmlLoader::LoadInnerXmlElement)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlElement")->byval_arg;
     static auto* innerxmltext = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -361,7 +361,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlLoader::LoadInnerXmlAttribute
 // Il2CppName: LoadInnerXmlAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlLoader::*)(System::Xml::XmlAttribute*, ::StringW)>(&System::Xml::XmlLoader::LoadInnerXmlAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlLoader::*)(::System::Xml::XmlAttribute*, ::StringW)>(&System::Xml::XmlLoader::LoadInnerXmlAttribute)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlAttribute")->byval_arg;
     static auto* innerxmltext = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -371,7 +371,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlLoader::RemoveDuplicateNamespace
 // Il2CppName: RemoveDuplicateNamespace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlLoader::*)(System::Xml::XmlElement*, System::Xml::XmlNamespaceManager*, bool)>(&System::Xml::XmlLoader::RemoveDuplicateNamespace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlLoader::*)(::System::Xml::XmlElement*, ::System::Xml::XmlNamespaceManager*, bool)>(&System::Xml::XmlLoader::RemoveDuplicateNamespace)> {
   static const MethodInfo* get() {
     static auto* elem = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlElement")->byval_arg;
     static auto* mgr = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNamespaceManager")->byval_arg;
@@ -391,7 +391,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Xml::XmlLoader::ExpandEntity
 // Il2CppName: ExpandEntity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlLoader::*)(System::Xml::XmlEntity*)>(&System::Xml::XmlLoader::ExpandEntity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlLoader::*)(::System::Xml::XmlEntity*)>(&System::Xml::XmlLoader::ExpandEntity)> {
   static const MethodInfo* get() {
     static auto* ent = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlEntity")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlLoader*), "ExpandEntity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ent});
@@ -400,7 +400,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlLoader::ExpandEntityReference
 // Il2CppName: ExpandEntityReference
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlLoader::*)(System::Xml::XmlEntityReference*)>(&System::Xml::XmlLoader::ExpandEntityReference)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlLoader::*)(::System::Xml::XmlEntityReference*)>(&System::Xml::XmlLoader::ExpandEntityReference)> {
   static const MethodInfo* get() {
     static auto* eref = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlEntityReference")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlLoader*), "ExpandEntityReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eref});
@@ -409,7 +409,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlLoader::CreateInnerXmlReader
 // Il2CppName: CreateInnerXmlReader
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlReader* (System::Xml::XmlLoader::*)(::StringW, System::Xml::XmlNodeType, System::Xml::XmlParserContext*, System::Xml::XmlDocument*)>(&System::Xml::XmlLoader::CreateInnerXmlReader)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlReader* (System::Xml::XmlLoader::*)(::StringW, ::System::Xml::XmlNodeType, ::System::Xml::XmlParserContext*, ::System::Xml::XmlDocument*)>(&System::Xml::XmlLoader::CreateInnerXmlReader)> {
   static const MethodInfo* get() {
     static auto* xmlFragment = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* nt = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNodeType")->byval_arg;
@@ -433,7 +433,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::Xml::XmlLoader::UnexpectedNodeType
 // Il2CppName: UnexpectedNodeType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(System::Xml::XmlNodeType)>(&System::Xml::XmlLoader::UnexpectedNodeType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Xml::XmlNodeType)>(&System::Xml::XmlLoader::UnexpectedNodeType)> {
   static const MethodInfo* get() {
     static auto* nodetype = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNodeType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlLoader*), "UnexpectedNodeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodetype});

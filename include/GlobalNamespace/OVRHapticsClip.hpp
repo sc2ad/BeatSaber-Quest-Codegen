@@ -24,8 +24,8 @@ namespace GlobalNamespace {
   class OVRHapticsClip;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRHapticsClip);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHapticsClip*, "", "OVRHapticsClip");
+NEED_NO_BOX(::GlobalNamespace::OVRHapticsClip);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRHapticsClip*, "", "OVRHapticsClip");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -90,28 +90,28 @@ namespace GlobalNamespace {
     // Offset: 0x1976190
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRHapticsClip* New_ctor(int capacity) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRHapticsClip::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRHapticsClip::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRHapticsClip*, creationType>(capacity)));
     }
     // public System.Void .ctor(System.Byte[] samples, System.Int32 samplesCount)
     // Offset: 0x1976430
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRHapticsClip* New_ctor(::ArrayW<uint8_t> samples, int samplesCount) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRHapticsClip::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRHapticsClip::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRHapticsClip*, creationType>(samples, samplesCount)));
     }
     // public System.Void .ctor(OVRHapticsClip a, OVRHapticsClip b)
     // Offset: 0x1976518
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static OVRHapticsClip* New_ctor(GlobalNamespace::OVRHapticsClip* a, GlobalNamespace::OVRHapticsClip* b) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRHapticsClip::.ctor");
+    static OVRHapticsClip* New_ctor(::GlobalNamespace::OVRHapticsClip* a, ::GlobalNamespace::OVRHapticsClip* b) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRHapticsClip::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRHapticsClip*, creationType>(a, b)));
     }
     // public System.Void .ctor(UnityEngine.AudioClip audioClip, System.Int32 channel)
     // Offset: 0x1976788
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static OVRHapticsClip* New_ctor(UnityEngine::AudioClip* audioClip, int channel) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRHapticsClip::.ctor");
+    static OVRHapticsClip* New_ctor(::UnityEngine::AudioClip* audioClip, int channel) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRHapticsClip::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRHapticsClip*, creationType>(audioClip, channel)));
     }
     // public System.Void WriteSample(System.Byte sample)
@@ -129,7 +129,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRHapticsClip* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRHapticsClip::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRHapticsClip::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRHapticsClip*, creationType>()));
     }
   }; // OVRHapticsClip

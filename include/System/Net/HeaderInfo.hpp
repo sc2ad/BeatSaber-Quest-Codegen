@@ -24,8 +24,8 @@ namespace System::Net {
   class HeaderInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::HeaderInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::HeaderInfo*, "System.Net", "HeaderInfo");
+NEED_NO_BOX(::System::Net::HeaderInfo);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::HeaderInfo*, "System.Net", "HeaderInfo");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x29
@@ -60,9 +60,9 @@ namespace System::Net {
     // readonly System.Net.HeaderParser Parser
     // Size: 0x8
     // Offset: 0x18
-    System::Net::HeaderParser* Parser;
+    ::System::Net::HeaderParser* Parser;
     // Field size check
-    static_assert(sizeof(System::Net::HeaderParser*) == 0x8);
+    static_assert(sizeof(::System::Net::HeaderParser*) == 0x8);
     // readonly System.String HeaderName
     // Size: 0x8
     // Offset: 0x20
@@ -81,7 +81,7 @@ namespace System::Net {
     // Get instance field reference: readonly System.Boolean IsResponseRestricted
     bool& dyn_IsResponseRestricted();
     // Get instance field reference: readonly System.Net.HeaderParser Parser
-    System::Net::HeaderParser*& dyn_Parser();
+    ::System::Net::HeaderParser*& dyn_Parser();
     // Get instance field reference: readonly System.String HeaderName
     ::StringW& dyn_HeaderName();
     // Get instance field reference: readonly System.Boolean AllowMultiValues
@@ -89,8 +89,8 @@ namespace System::Net {
     // System.Void .ctor(System.String name, System.Boolean requestRestricted, System.Boolean responseRestricted, System.Boolean multi, System.Net.HeaderParser p)
     // Offset: 0x1753758
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static HeaderInfo* New_ctor(::StringW name, bool requestRestricted, bool responseRestricted, bool multi, System::Net::HeaderParser* p) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::HeaderInfo::.ctor");
+    static HeaderInfo* New_ctor(::StringW name, bool requestRestricted, bool responseRestricted, bool multi, ::System::Net::HeaderParser* p) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::HeaderInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HeaderInfo*, creationType>(name, requestRestricted, responseRestricted, multi, p)));
     }
   }; // System.Net.HeaderInfo

@@ -14,7 +14,7 @@ namespace System::IO {
   struct FileAccess;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(System::IO::FileAccess, "System.IO", "FileAccess");
+DEFINE_IL2CPP_ARG_TYPE(::System::IO::FileAccess, "System.IO", "FileAccess");
 // Type namespace: System.IO
 namespace System::IO {
   // Size: 0x4
@@ -23,7 +23,7 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: 1189094
   // [FlagsAttribute] Offset: FFFFFFFF
-  struct FileAccess/*, public System::Enum*/ {
+  struct FileAccess/*, public ::System::Enum*/ {
     public:
     public:
     // public System.Int32 value__
@@ -35,9 +35,9 @@ namespace System::IO {
     public:
     // Creating value type constructor for type: FileAccess
     constexpr FileAccess(int value_ = {}) noexcept : value{value_} {}
-    // Creating interface conversion operator: operator System::Enum
-    operator System::Enum() noexcept {
-      return *reinterpret_cast<System::Enum*>(this);
+    // Creating interface conversion operator: operator ::System::Enum
+    operator ::System::Enum() noexcept {
+      return *reinterpret_cast<::System::Enum*>(this);
     }
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
@@ -46,21 +46,21 @@ namespace System::IO {
     // static field const value: static public System.IO.FileAccess Read
     static constexpr const int Read = 1;
     // Get static field: static public System.IO.FileAccess Read
-    static System::IO::FileAccess _get_Read();
+    static ::System::IO::FileAccess _get_Read();
     // Set static field: static public System.IO.FileAccess Read
-    static void _set_Read(System::IO::FileAccess value);
+    static void _set_Read(::System::IO::FileAccess value);
     // static field const value: static public System.IO.FileAccess Write
     static constexpr const int Write = 2;
     // Get static field: static public System.IO.FileAccess Write
-    static System::IO::FileAccess _get_Write();
+    static ::System::IO::FileAccess _get_Write();
     // Set static field: static public System.IO.FileAccess Write
-    static void _set_Write(System::IO::FileAccess value);
+    static void _set_Write(::System::IO::FileAccess value);
     // static field const value: static public System.IO.FileAccess ReadWrite
     static constexpr const int ReadWrite = 3;
     // Get static field: static public System.IO.FileAccess ReadWrite
-    static System::IO::FileAccess _get_ReadWrite();
+    static ::System::IO::FileAccess _get_ReadWrite();
     // Set static field: static public System.IO.FileAccess ReadWrite
-    static void _set_ReadWrite(System::IO::FileAccess value);
+    static void _set_ReadWrite(::System::IO::FileAccess value);
     // Get instance field reference: public System.Int32 value__
     int& dyn_value__();
   }; // System.IO.FileAccess

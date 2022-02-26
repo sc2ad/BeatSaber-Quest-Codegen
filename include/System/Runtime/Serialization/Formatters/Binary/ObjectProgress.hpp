@@ -38,8 +38,8 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   class ObjectProgress;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::ObjectProgress);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::ObjectProgress*, "System.Runtime.Serialization.Formatters.Binary", "ObjectProgress");
+NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::ObjectProgress);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::ObjectProgress*, "System.Runtime.Serialization.Formatters.Binary", "ObjectProgress");
 // Type namespace: System.Runtime.Serialization.Formatters.Binary
 namespace System::Runtime::Serialization::Formatters::Binary {
   // Size: 0x88
@@ -74,9 +74,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum expectedType
     // Size: 0x4
     // Offset: 0x18
-    System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum expectedType;
+    ::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum expectedType;
     // Field size check
-    static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum) == 0x4);
+    static_assert(sizeof(::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum) == 0x4);
     // Padding between fields: expectedType and: expectedTypeInformation
     char __padding2[0x4] = {};
     // System.Object expectedTypeInformation
@@ -94,29 +94,29 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.Runtime.Serialization.Formatters.Binary.InternalObjectTypeE objectTypeEnum
     // Size: 0x4
     // Offset: 0x30
-    System::Runtime::Serialization::Formatters::Binary::InternalObjectTypeE objectTypeEnum;
+    ::System::Runtime::Serialization::Formatters::Binary::InternalObjectTypeE objectTypeEnum;
     // Field size check
-    static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::InternalObjectTypeE) == 0x4);
+    static_assert(sizeof(::System::Runtime::Serialization::Formatters::Binary::InternalObjectTypeE) == 0x4);
     // System.Runtime.Serialization.Formatters.Binary.InternalMemberTypeE memberTypeEnum
     // Size: 0x4
     // Offset: 0x34
-    System::Runtime::Serialization::Formatters::Binary::InternalMemberTypeE memberTypeEnum;
+    ::System::Runtime::Serialization::Formatters::Binary::InternalMemberTypeE memberTypeEnum;
     // Field size check
-    static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::InternalMemberTypeE) == 0x4);
+    static_assert(sizeof(::System::Runtime::Serialization::Formatters::Binary::InternalMemberTypeE) == 0x4);
     // System.Runtime.Serialization.Formatters.Binary.InternalMemberValueE memberValueEnum
     // Size: 0x4
     // Offset: 0x38
-    System::Runtime::Serialization::Formatters::Binary::InternalMemberValueE memberValueEnum;
+    ::System::Runtime::Serialization::Formatters::Binary::InternalMemberValueE memberValueEnum;
     // Field size check
-    static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::InternalMemberValueE) == 0x4);
+    static_assert(sizeof(::System::Runtime::Serialization::Formatters::Binary::InternalMemberValueE) == 0x4);
     // Padding between fields: memberValueEnum and: dtType
     char __padding7[0x4] = {};
     // System.Type dtType
     // Size: 0x8
     // Offset: 0x40
-    System::Type* dtType;
+    ::System::Type* dtType;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     // System.Int32 numItems
     // Size: 0x4
     // Offset: 0x48
@@ -126,9 +126,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum binaryTypeEnum
     // Size: 0x4
     // Offset: 0x4C
-    System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum;
+    ::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum;
     // Field size check
-    static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum) == 0x4);
+    static_assert(sizeof(::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum) == 0x4);
     // System.Object typeInformation
     // Size: 0x8
     // Offset: 0x50
@@ -150,9 +150,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum[] binaryTypeEnumA
     // Size: 0x8
     // Offset: 0x60
-    ::ArrayW<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum> binaryTypeEnumA;
+    ::ArrayW<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum> binaryTypeEnumA;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>) == 0x8);
+    static_assert(sizeof(::ArrayW<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>) == 0x8);
     // System.Object[] typeInformationA
     // Size: 0x8
     // Offset: 0x68
@@ -168,15 +168,15 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.Type[] memberTypes
     // Size: 0x8
     // Offset: 0x78
-    ::ArrayW<System::Type*> memberTypes;
+    ::ArrayW<::System::Type*> memberTypes;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::Type*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::System::Type*>) == 0x8);
     // System.Runtime.Serialization.Formatters.Binary.ParseRecord pr
     // Size: 0x8
     // Offset: 0x80
-    System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr;
+    ::System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr;
     // Field size check
-    static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::ParseRecord*) == 0x8);
+    static_assert(sizeof(::System::Runtime::Serialization::Formatters::Binary::ParseRecord*) == 0x8);
     public:
     // Get static field: static System.Int32 opRecordIdCount
     static int _get_opRecordIdCount();
@@ -187,23 +187,23 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.Int32 count
     int& dyn_count();
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum expectedType
-    System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum& dyn_expectedType();
+    ::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum& dyn_expectedType();
     // Get instance field reference: System.Object expectedTypeInformation
     ::Il2CppObject*& dyn_expectedTypeInformation();
     // Get instance field reference: System.String name
     ::StringW& dyn_name();
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.InternalObjectTypeE objectTypeEnum
-    System::Runtime::Serialization::Formatters::Binary::InternalObjectTypeE& dyn_objectTypeEnum();
+    ::System::Runtime::Serialization::Formatters::Binary::InternalObjectTypeE& dyn_objectTypeEnum();
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.InternalMemberTypeE memberTypeEnum
-    System::Runtime::Serialization::Formatters::Binary::InternalMemberTypeE& dyn_memberTypeEnum();
+    ::System::Runtime::Serialization::Formatters::Binary::InternalMemberTypeE& dyn_memberTypeEnum();
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.InternalMemberValueE memberValueEnum
-    System::Runtime::Serialization::Formatters::Binary::InternalMemberValueE& dyn_memberValueEnum();
+    ::System::Runtime::Serialization::Formatters::Binary::InternalMemberValueE& dyn_memberValueEnum();
     // Get instance field reference: System.Type dtType
-    System::Type*& dyn_dtType();
+    ::System::Type*& dyn_dtType();
     // Get instance field reference: System.Int32 numItems
     int& dyn_numItems();
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum binaryTypeEnum
-    System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum& dyn_binaryTypeEnum();
+    ::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum& dyn_binaryTypeEnum();
     // Get instance field reference: System.Object typeInformation
     ::Il2CppObject*& dyn_typeInformation();
     // Get instance field reference: System.Int32 nullCount
@@ -211,15 +211,15 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.Int32 memberLength
     int& dyn_memberLength();
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum[] binaryTypeEnumA
-    ::ArrayW<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>& dyn_binaryTypeEnumA();
+    ::ArrayW<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>& dyn_binaryTypeEnumA();
     // Get instance field reference: System.Object[] typeInformationA
     ::ArrayW<::Il2CppObject*>& dyn_typeInformationA();
     // Get instance field reference: System.String[] memberNames
     ::ArrayW<::StringW>& dyn_memberNames();
     // Get instance field reference: System.Type[] memberTypes
-    ::ArrayW<System::Type*>& dyn_memberTypes();
+    ::ArrayW<::System::Type*>& dyn_memberTypes();
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.ParseRecord pr
-    System::Runtime::Serialization::Formatters::Binary::ParseRecord*& dyn_pr();
+    ::System::Runtime::Serialization::Formatters::Binary::ParseRecord*& dyn_pr();
     // static private System.Void .cctor()
     // Offset: 0x1815A14
     static void _cctor();
@@ -231,19 +231,19 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     void ArrayCountIncrement(int value);
     // System.Boolean GetNext(out System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum outBinaryTypeEnum, out System.Object outTypeInformation)
     // Offset: 0x18158F0
-    bool GetNext(ByRef<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum> outBinaryTypeEnum, ByRef<::Il2CppObject*> outTypeInformation);
+    bool GetNext(ByRef<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum> outBinaryTypeEnum, ByRef<::Il2CppObject*> outTypeInformation);
     // System.Void .ctor()
     // Offset: 0x1815820
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ObjectProgress* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::ObjectProgress::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::Formatters::Binary::ObjectProgress::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectProgress*, creationType>()));
     }
   }; // System.Runtime.Serialization.Formatters.Binary.ObjectProgress
   #pragma pack(pop)
-  static check_size<sizeof(ObjectProgress), 128 + sizeof(System::Runtime::Serialization::Formatters::Binary::ParseRecord*)> __System_Runtime_Serialization_Formatters_Binary_ObjectProgressSizeCheck;
+  static check_size<sizeof(ObjectProgress), 128 + sizeof(::System::Runtime::Serialization::Formatters::Binary::ParseRecord*)> __System_Runtime_Serialization_Formatters_Binary_ObjectProgressSizeCheck;
   static_assert(sizeof(ObjectProgress) == 0x88);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -275,7 +275,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectProgress::GetNext
 // Il2CppName: GetNext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Serialization::Formatters::Binary::ObjectProgress::*)(ByRef<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>, ByRef<::Il2CppObject*>)>(&System::Runtime::Serialization::Formatters::Binary::ObjectProgress::GetNext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Serialization::Formatters::Binary::ObjectProgress::*)(ByRef<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>, ByRef<::Il2CppObject*>)>(&System::Runtime::Serialization::Formatters::Binary::ObjectProgress::GetNext)> {
   static const MethodInfo* get() {
     static auto* outBinaryTypeEnum = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "BinaryTypeEnum")->this_arg;
     static auto* outTypeInformation = &::il2cpp_utils::GetClassFromName("System", "Object")->this_arg;

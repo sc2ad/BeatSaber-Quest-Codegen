@@ -20,8 +20,8 @@ namespace GlobalNamespace {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SpawnRotationChevronManager::DirectionData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SpawnRotationChevronManager::DirectionData*, "", "SpawnRotationChevronManager/DirectionData");
+NEED_NO_BOX(::GlobalNamespace::SpawnRotationChevronManager::DirectionData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SpawnRotationChevronManager::DirectionData*, "", "SpawnRotationChevronManager/DirectionData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x24
@@ -42,9 +42,9 @@ namespace GlobalNamespace {
     // public SpawnRotationChevron chevron
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::SpawnRotationChevron* chevron;
+    ::GlobalNamespace::SpawnRotationChevron* chevron;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::SpawnRotationChevron*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::SpawnRotationChevron*) == 0x8);
     // public System.Boolean fullyLid
     // Size: 0x1
     // Offset: 0x18
@@ -67,7 +67,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public SpawnRotationChevron chevron
-    GlobalNamespace::SpawnRotationChevron*& dyn_chevron();
+    ::GlobalNamespace::SpawnRotationChevron*& dyn_chevron();
     // Get instance field reference: public System.Boolean fullyLid
     bool& dyn_fullyLid();
     // Get instance field reference: public System.Single fadeOutStartTime
@@ -80,7 +80,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SpawnRotationChevronManager::DirectionData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SpawnRotationChevronManager::DirectionData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SpawnRotationChevronManager::DirectionData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SpawnRotationChevronManager::DirectionData*, creationType>()));
     }
   }; // SpawnRotationChevronManager/DirectionData

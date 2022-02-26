@@ -38,8 +38,8 @@ namespace System::Xml::Schema {
   class SymbolsDictionary;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Schema::SymbolsDictionary);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::SymbolsDictionary*, "System.Xml.Schema", "SymbolsDictionary");
+NEED_NO_BOX(::System::Xml::Schema::SymbolsDictionary);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::SymbolsDictionary*, "System.Xml.Schema", "SymbolsDictionary");
 // Type namespace: System.Xml.Schema
 namespace System::Xml::Schema {
   // Size: 0x39
@@ -69,21 +69,21 @@ namespace System::Xml::Schema {
     // private System.Collections.Hashtable names
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::Hashtable* names;
+    ::System::Collections::Hashtable* names;
     // Field size check
-    static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
+    static_assert(sizeof(::System::Collections::Hashtable*) == 0x8);
     // private System.Collections.Hashtable wildcards
     // Size: 0x8
     // Offset: 0x20
-    System::Collections::Hashtable* wildcards;
+    ::System::Collections::Hashtable* wildcards;
     // Field size check
-    static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
+    static_assert(sizeof(::System::Collections::Hashtable*) == 0x8);
     // private System.Collections.ArrayList particles
     // Size: 0x8
     // Offset: 0x28
-    System::Collections::ArrayList* particles;
+    ::System::Collections::ArrayList* particles;
     // Field size check
-    static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
+    static_assert(sizeof(::System::Collections::ArrayList*) == 0x8);
     // private System.Object particleLast
     // Size: 0x8
     // Offset: 0x30
@@ -100,11 +100,11 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Int32 last
     int& dyn_last();
     // Get instance field reference: private System.Collections.Hashtable names
-    System::Collections::Hashtable*& dyn_names();
+    ::System::Collections::Hashtable*& dyn_names();
     // Get instance field reference: private System.Collections.Hashtable wildcards
-    System::Collections::Hashtable*& dyn_wildcards();
+    ::System::Collections::Hashtable*& dyn_wildcards();
     // Get instance field reference: private System.Collections.ArrayList particles
-    System::Collections::ArrayList*& dyn_particles();
+    ::System::Collections::ArrayList*& dyn_particles();
     // Get instance field reference: private System.Object particleLast
     ::Il2CppObject*& dyn_particleLast();
     // Get instance field reference: private System.Boolean isUpaEnforced
@@ -120,22 +120,22 @@ namespace System::Xml::Schema {
     void set_IsUpaEnforced(bool value);
     // public System.Int32 get_Item(System.Xml.XmlQualifiedName name)
     // Offset: 0x169BF94
-    int get_Item(System::Xml::XmlQualifiedName* name);
+    int get_Item(::System::Xml::XmlQualifiedName* name);
     // public System.Int32 AddName(System.Xml.XmlQualifiedName name, System.Object particle)
     // Offset: 0x169B2F0
-    int AddName(System::Xml::XmlQualifiedName* name, ::Il2CppObject* particle);
+    int AddName(::System::Xml::XmlQualifiedName* name, ::Il2CppObject* particle);
     // public System.Void AddNamespaceList(System.Xml.Schema.NamespaceList list, System.Object particle, System.Boolean allowLocal)
     // Offset: 0x169B434
-    void AddNamespaceList(System::Xml::Schema::NamespaceList* list, ::Il2CppObject* particle, bool allowLocal);
+    void AddNamespaceList(::System::Xml::Schema::NamespaceList* list, ::Il2CppObject* particle, bool allowLocal);
     // private System.Void AddWildcard(System.String wildcard, System.Object particle)
     // Offset: 0x169B74C
     void AddWildcard(::StringW wildcard, ::Il2CppObject* particle);
     // public System.Collections.ICollection GetNamespaceListSymbols(System.Xml.Schema.NamespaceList list)
     // Offset: 0x169B8B8
-    System::Collections::ICollection* GetNamespaceListSymbols(System::Xml::Schema::NamespaceList* list);
+    ::System::Collections::ICollection* GetNamespaceListSymbols(::System::Xml::Schema::NamespaceList* list);
     // public System.Boolean Exists(System.Xml.XmlQualifiedName name)
     // Offset: 0x169C05C
-    bool Exists(System::Xml::XmlQualifiedName* name);
+    bool Exists(::System::Xml::XmlQualifiedName* name);
     // public System.Object GetParticle(System.Int32 symbol)
     // Offset: 0x169C090
     ::Il2CppObject* GetParticle(int symbol);
@@ -148,7 +148,7 @@ namespace System::Xml::Schema {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SymbolsDictionary* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Schema::SymbolsDictionary::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::SymbolsDictionary::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SymbolsDictionary*, creationType>()));
     }
   }; // System.Xml.Schema.SymbolsDictionary
@@ -185,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::SymbolsDictionary::get_Item
 // Il2CppName: get_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Xml::Schema::SymbolsDictionary::*)(System::Xml::XmlQualifiedName*)>(&System::Xml::Schema::SymbolsDictionary::get_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Xml::Schema::SymbolsDictionary::*)(::System::Xml::XmlQualifiedName*)>(&System::Xml::Schema::SymbolsDictionary::get_Item)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlQualifiedName")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::SymbolsDictionary*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -194,7 +194,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Xml::Schema::SymbolsDictionary::AddName
 // Il2CppName: AddName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Xml::Schema::SymbolsDictionary::*)(System::Xml::XmlQualifiedName*, ::Il2CppObject*)>(&System::Xml::Schema::SymbolsDictionary::AddName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Xml::Schema::SymbolsDictionary::*)(::System::Xml::XmlQualifiedName*, ::Il2CppObject*)>(&System::Xml::Schema::SymbolsDictionary::AddName)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlQualifiedName")->byval_arg;
     static auto* particle = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -204,7 +204,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Xml::Schema::SymbolsDictionary::AddNamespaceList
 // Il2CppName: AddNamespaceList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::SymbolsDictionary::*)(System::Xml::Schema::NamespaceList*, ::Il2CppObject*, bool)>(&System::Xml::Schema::SymbolsDictionary::AddNamespaceList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::SymbolsDictionary::*)(::System::Xml::Schema::NamespaceList*, ::Il2CppObject*, bool)>(&System::Xml::Schema::SymbolsDictionary::AddNamespaceList)> {
   static const MethodInfo* get() {
     static auto* list = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "NamespaceList")->byval_arg;
     static auto* particle = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -225,7 +225,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::SymbolsDictionary::GetNamespaceListSymbols
 // Il2CppName: GetNamespaceListSymbols
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ICollection* (System::Xml::Schema::SymbolsDictionary::*)(System::Xml::Schema::NamespaceList*)>(&System::Xml::Schema::SymbolsDictionary::GetNamespaceListSymbols)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (System::Xml::Schema::SymbolsDictionary::*)(::System::Xml::Schema::NamespaceList*)>(&System::Xml::Schema::SymbolsDictionary::GetNamespaceListSymbols)> {
   static const MethodInfo* get() {
     static auto* list = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "NamespaceList")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::SymbolsDictionary*), "GetNamespaceListSymbols", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{list});
@@ -234,7 +234,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::Xml::Schema::SymbolsDictionary::Exists
 // Il2CppName: Exists
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::Schema::SymbolsDictionary::*)(System::Xml::XmlQualifiedName*)>(&System::Xml::Schema::SymbolsDictionary::Exists)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::Schema::SymbolsDictionary::*)(::System::Xml::XmlQualifiedName*)>(&System::Xml::Schema::SymbolsDictionary::Exists)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlQualifiedName")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::SymbolsDictionary*), "Exists", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});

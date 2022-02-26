@@ -23,7 +23,7 @@ namespace GlobalNamespace {
   class IEquatableByReference_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::IEquatableByReference_1, "", "IEquatableByReference`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::IEquatableByReference_1, "", "IEquatableByReference`1");
 // Type namespace: 
 namespace GlobalNamespace {
   // WARNING Size may be invalid!
@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     // public System.Boolean Equals(in T other)
     // Offset: 0xFFFFFFFF
     bool Equals(ByRef<T> other) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IEquatableByReference_1::Equals");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::IEquatableByReference_1::Equals");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Equals", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(other)})));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___internal__method, byref(other));
     }

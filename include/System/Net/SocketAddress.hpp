@@ -29,8 +29,8 @@ namespace System::Net {
   class SocketAddress;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::SocketAddress);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::SocketAddress*, "System.Net", "SocketAddress");
+NEED_NO_BOX(::System::Net::SocketAddress);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::SocketAddress*, "System.Net", "SocketAddress");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x28
@@ -88,7 +88,7 @@ namespace System::Net {
     int& dyn_m_hash();
     // public System.Net.Sockets.AddressFamily get_Family()
     // Offset: 0x17A4E28
-    System::Net::Sockets::AddressFamily get_Family();
+    ::System::Net::Sockets::AddressFamily get_Family();
     // public System.Int32 get_Size()
     // Offset: 0x17B5DBC
     int get_Size();
@@ -98,30 +98,30 @@ namespace System::Net {
     // public System.Void .ctor(System.Net.Sockets.AddressFamily family, System.Int32 size)
     // Offset: 0x17B5E7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SocketAddress* New_ctor(System::Net::Sockets::AddressFamily family, int size) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::SocketAddress::.ctor");
+    static SocketAddress* New_ctor(::System::Net::Sockets::AddressFamily family, int size) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::SocketAddress::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SocketAddress*, creationType>(family, size)));
     }
     // System.Void .ctor(System.Net.IPAddress ipAddress)
     // Offset: 0x17B5F9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SocketAddress* New_ctor(System::Net::IPAddress* ipAddress) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::SocketAddress::.ctor");
+    static SocketAddress* New_ctor(::System::Net::IPAddress* ipAddress) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::SocketAddress::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SocketAddress*, creationType>(ipAddress)));
     }
     // System.Void .ctor(System.Net.IPAddress ipaddress, System.Int32 port)
     // Offset: 0x17A4A9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SocketAddress* New_ctor(System::Net::IPAddress* ipaddress, int port) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::SocketAddress::.ctor");
+    static SocketAddress* New_ctor(::System::Net::IPAddress* ipaddress, int port) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::SocketAddress::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SocketAddress*, creationType>(ipaddress, port)));
     }
     // System.Net.IPAddress GetIPAddress()
     // Offset: 0x17B61E8
-    System::Net::IPAddress* GetIPAddress();
+    ::System::Net::IPAddress* GetIPAddress();
     // System.Net.IPEndPoint GetIPEndPoint()
     // Offset: 0x17A4E6C
-    System::Net::IPEndPoint* GetIPEndPoint();
+    ::System::Net::IPEndPoint* GetIPEndPoint();
     // public override System.Boolean Equals(System.Object comparand)
     // Offset: 0x17B63D0
     // Implemented from: System.Object
@@ -146,7 +146,7 @@ namespace System::Net {
 // Writing MetadataGetter for method: System::Net::SocketAddress::get_Family
 // Il2CppName: get_Family
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::AddressFamily (System::Net::SocketAddress::*)()>(&System::Net::SocketAddress::get_Family)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Sockets::AddressFamily (System::Net::SocketAddress::*)()>(&System::Net::SocketAddress::get_Family)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::SocketAddress*), "get_Family", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -183,7 +183,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (Sy
 // Writing MetadataGetter for method: System::Net::SocketAddress::GetIPAddress
 // Il2CppName: GetIPAddress
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPAddress* (System::Net::SocketAddress::*)()>(&System::Net::SocketAddress::GetIPAddress)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::IPAddress* (System::Net::SocketAddress::*)()>(&System::Net::SocketAddress::GetIPAddress)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::SocketAddress*), "GetIPAddress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -191,7 +191,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Writing MetadataGetter for method: System::Net::SocketAddress::GetIPEndPoint
 // Il2CppName: GetIPEndPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPEndPoint* (System::Net::SocketAddress::*)()>(&System::Net::SocketAddress::GetIPEndPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::IPEndPoint* (System::Net::SocketAddress::*)()>(&System::Net::SocketAddress::GetIPEndPoint)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::SocketAddress*), "GetIPEndPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

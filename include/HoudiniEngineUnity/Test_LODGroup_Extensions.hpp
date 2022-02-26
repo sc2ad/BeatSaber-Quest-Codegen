@@ -31,8 +31,8 @@ namespace HoudiniEngineUnity {
   class Test_LODGroup_Extensions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::Test_LODGroup_Extensions);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_LODGroup_Extensions*, "HoudiniEngineUnity", "Test_LODGroup_Extensions");
+NEED_NO_BOX(::HoudiniEngineUnity::Test_LODGroup_Extensions);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::Test_LODGroup_Extensions*, "HoudiniEngineUnity", "Test_LODGroup_Extensions");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x10
@@ -42,17 +42,17 @@ namespace HoudiniEngineUnity {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class Test_LODGroup_Extensions : public ::Il2CppObject {
     public:
-    // Nested type: HoudiniEngineUnity::Test_LODGroup_Extensions::$$c
+    // Nested type: ::HoudiniEngineUnity::Test_LODGroup_Extensions::$$c
     class $$c;
     // static public HoudiniEngineUnity.Test_LODGroup ToTestObject(UnityEngine.LODGroup self)
     // Offset: 0x2A0D218
-    static HoudiniEngineUnity::Test_LODGroup* ToTestObject(UnityEngine::LODGroup* self);
+    static ::HoudiniEngineUnity::Test_LODGroup* ToTestObject(::UnityEngine::LODGroup* self);
     // static public HoudiniEngineUnity.Test_LODGroup[] ToTestObject(UnityEngine.LODGroup[] self)
     // Offset: 0x2A0D27C
-    static ::ArrayW<HoudiniEngineUnity::Test_LODGroup*> ToTestObject(::ArrayW<UnityEngine::LODGroup*> self);
+    static ::ArrayW<::HoudiniEngineUnity::Test_LODGroup*> ToTestObject(::ArrayW<::UnityEngine::LODGroup*> self);
     // static public System.Collections.Generic.List`1<HoudiniEngineUnity.Test_LODGroup> ToTestObject(System.Collections.Generic.List`1<UnityEngine.LODGroup> self)
     // Offset: 0x2A0D368
-    static System::Collections::Generic::List_1<HoudiniEngineUnity::Test_LODGroup*>* ToTestObject(System::Collections::Generic::List_1<UnityEngine::LODGroup*>* self);
+    static ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_LODGroup*>* ToTestObject(::System::Collections::Generic::List_1<::UnityEngine::LODGroup*>* self);
   }; // HoudiniEngineUnity.Test_LODGroup_Extensions
   #pragma pack(pop)
 }
@@ -60,7 +60,7 @@ namespace HoudiniEngineUnity {
 // Writing MetadataGetter for method: HoudiniEngineUnity::Test_LODGroup_Extensions::ToTestObject
 // Il2CppName: ToTestObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::Test_LODGroup* (*)(UnityEngine::LODGroup*)>(&HoudiniEngineUnity::Test_LODGroup_Extensions::ToTestObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::Test_LODGroup* (*)(::UnityEngine::LODGroup*)>(&HoudiniEngineUnity::Test_LODGroup_Extensions::ToTestObject)> {
   static const MethodInfo* get() {
     static auto* self = &::il2cpp_utils::GetClassFromName("UnityEngine", "LODGroup")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::Test_LODGroup_Extensions*), "ToTestObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{self});
@@ -69,7 +69,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::Test_LODGroup_Extensions::ToTestObject
 // Il2CppName: ToTestObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<HoudiniEngineUnity::Test_LODGroup*> (*)(::ArrayW<UnityEngine::LODGroup*>)>(&HoudiniEngineUnity::Test_LODGroup_Extensions::ToTestObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::HoudiniEngineUnity::Test_LODGroup*> (*)(::ArrayW<::UnityEngine::LODGroup*>)>(&HoudiniEngineUnity::Test_LODGroup_Extensions::ToTestObject)> {
   static const MethodInfo* get() {
     static auto* self = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "LODGroup"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::Test_LODGroup_Extensions*), "ToTestObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{self});
@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::Test_LODGroup_Extensions::ToTestObject
 // Il2CppName: ToTestObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<HoudiniEngineUnity::Test_LODGroup*>* (*)(System::Collections::Generic::List_1<UnityEngine::LODGroup*>*)>(&HoudiniEngineUnity::Test_LODGroup_Extensions::ToTestObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_LODGroup*>* (*)(::System::Collections::Generic::List_1<::UnityEngine::LODGroup*>*)>(&HoudiniEngineUnity::Test_LODGroup_Extensions::ToTestObject)> {
   static const MethodInfo* get() {
     static auto* self = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "LODGroup")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::Test_LODGroup_Extensions*), "ToTestObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{self});

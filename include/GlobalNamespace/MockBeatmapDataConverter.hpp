@@ -29,8 +29,8 @@ namespace GlobalNamespace {
   class MockBeatmapDataConverter;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MockBeatmapDataConverter);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockBeatmapDataConverter*, "", "MockBeatmapDataConverter");
+NEED_NO_BOX(::GlobalNamespace::MockBeatmapDataConverter);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MockBeatmapDataConverter*, "", "MockBeatmapDataConverter");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -40,17 +40,17 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class MockBeatmapDataConverter : public ::Il2CppObject {
     public:
-    // Nested type: GlobalNamespace::MockBeatmapDataConverter::$$c
+    // Nested type: ::GlobalNamespace::MockBeatmapDataConverter::$$c
     class $$c;
     // static public MockBeatmapData ToMockBeatmapData(BeatmapData beatmapData)
     // Offset: 0x1421354
-    static GlobalNamespace::MockBeatmapData* ToMockBeatmapData(GlobalNamespace::BeatmapData* beatmapData);
+    static ::GlobalNamespace::MockBeatmapData* ToMockBeatmapData(::GlobalNamespace::BeatmapData* beatmapData);
     // static public MockNoteData ToMockNoteData(NoteData noteData)
     // Offset: 0x1421C60
-    static GlobalNamespace::MockNoteData* ToMockNoteData(GlobalNamespace::NoteData* noteData);
+    static ::GlobalNamespace::MockNoteData* ToMockNoteData(::GlobalNamespace::NoteData* noteData);
     // static public MockObstacleData ToMockObstacleData(ObstacleData obstacleData)
     // Offset: 0x1421CFC
-    static GlobalNamespace::MockObstacleData* ToMockObstacleData(GlobalNamespace::ObstacleData* obstacleData);
+    static ::GlobalNamespace::MockObstacleData* ToMockObstacleData(::GlobalNamespace::ObstacleData* obstacleData);
   }; // MockBeatmapDataConverter
   #pragma pack(pop)
 }
@@ -58,7 +58,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::MockBeatmapDataConverter::ToMockBeatmapData
 // Il2CppName: ToMockBeatmapData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MockBeatmapData* (*)(GlobalNamespace::BeatmapData*)>(&GlobalNamespace::MockBeatmapDataConverter::ToMockBeatmapData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MockBeatmapData* (*)(::GlobalNamespace::BeatmapData*)>(&GlobalNamespace::MockBeatmapDataConverter::ToMockBeatmapData)> {
   static const MethodInfo* get() {
     static auto* beatmapData = &::il2cpp_utils::GetClassFromName("", "BeatmapData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockBeatmapDataConverter*), "ToMockBeatmapData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapData});
@@ -67,7 +67,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::MockBeatmapDataConverter::ToMockNoteData
 // Il2CppName: ToMockNoteData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MockNoteData* (*)(GlobalNamespace::NoteData*)>(&GlobalNamespace::MockBeatmapDataConverter::ToMockNoteData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MockNoteData* (*)(::GlobalNamespace::NoteData*)>(&GlobalNamespace::MockBeatmapDataConverter::ToMockNoteData)> {
   static const MethodInfo* get() {
     static auto* noteData = &::il2cpp_utils::GetClassFromName("", "NoteData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockBeatmapDataConverter*), "ToMockNoteData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteData});
@@ -76,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::MockBeatmapDataConverter::ToMockObstacleData
 // Il2CppName: ToMockObstacleData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MockObstacleData* (*)(GlobalNamespace::ObstacleData*)>(&GlobalNamespace::MockBeatmapDataConverter::ToMockObstacleData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MockObstacleData* (*)(::GlobalNamespace::ObstacleData*)>(&GlobalNamespace::MockBeatmapDataConverter::ToMockObstacleData)> {
   static const MethodInfo* get() {
     static auto* obstacleData = &::il2cpp_utils::GetClassFromName("", "ObstacleData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockBeatmapDataConverter*), "ToMockObstacleData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obstacleData});

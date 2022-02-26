@@ -24,8 +24,8 @@ namespace Newtonsoft::Json::Serialization {
   class ITraceWriter;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Serialization::ITraceWriter);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Serialization::ITraceWriter*, "Newtonsoft.Json.Serialization", "ITraceWriter");
+NEED_NO_BOX(::Newtonsoft::Json::Serialization::ITraceWriter);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Serialization::ITraceWriter*, "Newtonsoft.Json.Serialization", "ITraceWriter");
 // Type namespace: Newtonsoft.Json.Serialization
 namespace Newtonsoft::Json::Serialization {
   // Size: 0x10
@@ -37,10 +37,10 @@ namespace Newtonsoft::Json::Serialization {
     public:
     // public System.Diagnostics.TraceLevel get_LevelFilter()
     // Offset: 0xFFFFFFFF
-    System::Diagnostics::TraceLevel get_LevelFilter();
+    ::System::Diagnostics::TraceLevel get_LevelFilter();
     // public System.Void Trace(System.Diagnostics.TraceLevel level, System.String message, System.Exception ex)
     // Offset: 0xFFFFFFFF
-    void Trace(System::Diagnostics::TraceLevel level, ::StringW message, System::Exception* ex);
+    void Trace(::System::Diagnostics::TraceLevel level, ::StringW message, ::System::Exception* ex);
   }; // Newtonsoft.Json.Serialization.ITraceWriter
   #pragma pack(pop)
 }
@@ -48,7 +48,7 @@ namespace Newtonsoft::Json::Serialization {
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::ITraceWriter::get_LevelFilter
 // Il2CppName: get_LevelFilter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Diagnostics::TraceLevel (Newtonsoft::Json::Serialization::ITraceWriter::*)()>(&Newtonsoft::Json::Serialization::ITraceWriter::get_LevelFilter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Diagnostics::TraceLevel (Newtonsoft::Json::Serialization::ITraceWriter::*)()>(&Newtonsoft::Json::Serialization::ITraceWriter::get_LevelFilter)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::ITraceWriter*), "get_LevelFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -56,7 +56,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dia
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::ITraceWriter::Trace
 // Il2CppName: Trace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::ITraceWriter::*)(System::Diagnostics::TraceLevel, ::StringW, System::Exception*)>(&Newtonsoft::Json::Serialization::ITraceWriter::Trace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::ITraceWriter::*)(::System::Diagnostics::TraceLevel, ::StringW, ::System::Exception*)>(&Newtonsoft::Json::Serialization::ITraceWriter::Trace)> {
   static const MethodInfo* get() {
     static auto* level = &::il2cpp_utils::GetClassFromName("System.Diagnostics", "TraceLevel")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

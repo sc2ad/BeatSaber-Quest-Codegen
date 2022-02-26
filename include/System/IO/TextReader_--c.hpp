@@ -14,8 +14,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::IO::TextReader::$$c);
-DEFINE_IL2CPP_ARG_TYPE(System::IO::TextReader::$$c*, "System.IO", "TextReader/<>c");
+NEED_NO_BOX(::System::IO::TextReader::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::System::IO::TextReader::$$c*, "System.IO", "TextReader/<>c");
 // Type namespace: System.IO
 namespace System::IO {
   // Size: 0x10
@@ -26,9 +26,9 @@ namespace System::IO {
   class TextReader::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly System.IO.TextReader/System.IO.<>c <>9
-    static System::IO::TextReader::$$c* _get_$$9();
+    static ::System::IO::TextReader::$$c* _get_$$9();
     // Set static field: static public readonly System.IO.TextReader/System.IO.<>c <>9
-    static void _set_$$9(System::IO::TextReader::$$c* value);
+    static void _set_$$9(::System::IO::TextReader::$$c* value);
     // static private System.Void .cctor()
     // Offset: 0x1A8B364
     static void _cctor();
@@ -44,7 +44,7 @@ namespace System::IO {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TextReader::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::TextReader::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::IO::TextReader::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TextReader::$$c*, creationType>()));
     }
   }; // System.IO.TextReader/System.IO.<>c

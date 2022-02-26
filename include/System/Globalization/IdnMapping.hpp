@@ -24,8 +24,8 @@ namespace System::Globalization {
   class IdnMapping;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Globalization::IdnMapping);
-DEFINE_IL2CPP_ARG_TYPE(System::Globalization::IdnMapping*, "System.Globalization", "IdnMapping");
+NEED_NO_BOX(::System::Globalization::IdnMapping);
+DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::IdnMapping*, "System.Globalization", "IdnMapping");
 // Type namespace: System.Globalization
 namespace System::Globalization {
   // Size: 0x20
@@ -60,16 +60,16 @@ namespace System::Globalization {
     // private System.Globalization.Punycode puny
     // Size: 0x8
     // Offset: 0x18
-    System::Globalization::Punycode* puny;
+    ::System::Globalization::Punycode* puny;
     // Field size check
-    static_assert(sizeof(System::Globalization::Punycode*) == 0x8);
+    static_assert(sizeof(::System::Globalization::Punycode*) == 0x8);
     public:
     // Get instance field reference: private System.Boolean allow_unassigned
     bool& dyn_allow_unassigned();
     // Get instance field reference: private System.Boolean use_std3
     bool& dyn_use_std3();
     // Get instance field reference: private System.Globalization.Punycode puny
-    System::Globalization::Punycode*& dyn_puny();
+    ::System::Globalization::Punycode*& dyn_puny();
     // public System.String GetAscii(System.String unicode)
     // Offset: 0x20B6734
     ::StringW GetAscii(::StringW unicode);
@@ -109,7 +109,7 @@ namespace System::Globalization {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IdnMapping* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::IdnMapping::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Globalization::IdnMapping::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IdnMapping*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object obj)
@@ -124,7 +124,7 @@ namespace System::Globalization {
     int GetHashCode();
   }; // System.Globalization.IdnMapping
   #pragma pack(pop)
-  static check_size<sizeof(IdnMapping), 24 + sizeof(System::Globalization::Punycode*)> __System_Globalization_IdnMappingSizeCheck;
+  static check_size<sizeof(IdnMapping), 24 + sizeof(::System::Globalization::Punycode*)> __System_Globalization_IdnMappingSizeCheck;
   static_assert(sizeof(IdnMapping) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

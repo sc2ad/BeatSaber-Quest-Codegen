@@ -23,8 +23,8 @@ namespace System::Text::RegularExpressions {
   class ExclusiveReference;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Text::RegularExpressions::ExclusiveReference);
-DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::ExclusiveReference*, "System.Text.RegularExpressions", "ExclusiveReference");
+NEED_NO_BOX(::System::Text::RegularExpressions::ExclusiveReference);
+DEFINE_IL2CPP_ARG_TYPE(::System::Text::RegularExpressions::ExclusiveReference*, "System.Text.RegularExpressions", "ExclusiveReference");
 // Type namespace: System.Text.RegularExpressions
 namespace System::Text::RegularExpressions {
   // Size: 0x24
@@ -45,9 +45,9 @@ namespace System::Text::RegularExpressions {
     // private System.Text.RegularExpressions.RegexRunner _ref
     // Size: 0x8
     // Offset: 0x10
-    System::Text::RegularExpressions::RegexRunner* ref;
+    ::System::Text::RegularExpressions::RegexRunner* ref;
     // Field size check
-    static_assert(sizeof(System::Text::RegularExpressions::RegexRunner*) == 0x8);
+    static_assert(sizeof(::System::Text::RegularExpressions::RegexRunner*) == 0x8);
     // private System.Object _obj
     // Size: 0x8
     // Offset: 0x18
@@ -62,7 +62,7 @@ namespace System::Text::RegularExpressions {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private System.Text.RegularExpressions.RegexRunner _ref
-    System::Text::RegularExpressions::RegexRunner*& dyn__ref();
+    ::System::Text::RegularExpressions::RegexRunner*& dyn__ref();
     // Get instance field reference: private System.Object _obj
     ::Il2CppObject*& dyn__obj();
     // Get instance field reference: private System.Int32 _locked
@@ -79,7 +79,7 @@ namespace System::Text::RegularExpressions {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExclusiveReference* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::ExclusiveReference::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::ExclusiveReference::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExclusiveReference*, creationType>()));
     }
   }; // System.Text.RegularExpressions.ExclusiveReference

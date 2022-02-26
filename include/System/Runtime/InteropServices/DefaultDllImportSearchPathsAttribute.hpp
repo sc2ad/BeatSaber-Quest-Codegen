@@ -20,8 +20,8 @@ namespace System::Runtime::InteropServices {
   class DefaultDllImportSearchPathsAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute*, "System.Runtime.InteropServices", "DefaultDllImportSearchPathsAttribute");
+NEED_NO_BOX(::System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute*, "System.Runtime.InteropServices", "DefaultDllImportSearchPathsAttribute");
 // Type namespace: System.Runtime.InteropServices
 namespace System::Runtime::InteropServices {
   // Size: 0x14
@@ -30,7 +30,7 @@ namespace System::Runtime::InteropServices {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AttributeUsageAttribute] Offset: 118B9E8
   // [ComVisibleAttribute] Offset: 118B9E8
-  class DefaultDllImportSearchPathsAttribute : public System::Attribute {
+  class DefaultDllImportSearchPathsAttribute : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -44,26 +44,26 @@ namespace System::Runtime::InteropServices {
     // System.Runtime.InteropServices.DllImportSearchPath _paths
     // Size: 0x4
     // Offset: 0x10
-    System::Runtime::InteropServices::DllImportSearchPath paths;
+    ::System::Runtime::InteropServices::DllImportSearchPath paths;
     // Field size check
-    static_assert(sizeof(System::Runtime::InteropServices::DllImportSearchPath) == 0x4);
+    static_assert(sizeof(::System::Runtime::InteropServices::DllImportSearchPath) == 0x4);
     public:
-    // Creating conversion operator: operator System::Runtime::InteropServices::DllImportSearchPath
-    constexpr operator System::Runtime::InteropServices::DllImportSearchPath() const noexcept {
+    // Creating conversion operator: operator ::System::Runtime::InteropServices::DllImportSearchPath
+    constexpr operator ::System::Runtime::InteropServices::DllImportSearchPath() const noexcept {
       return paths;
     }
     // Get instance field reference: System.Runtime.InteropServices.DllImportSearchPath _paths
-    System::Runtime::InteropServices::DllImportSearchPath& dyn__paths();
+    ::System::Runtime::InteropServices::DllImportSearchPath& dyn__paths();
     // public System.Void .ctor(System.Runtime.InteropServices.DllImportSearchPath paths)
     // Offset: 0x1C6BBA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DefaultDllImportSearchPathsAttribute* New_ctor(System::Runtime::InteropServices::DllImportSearchPath paths) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute::.ctor");
+    static DefaultDllImportSearchPathsAttribute* New_ctor(::System::Runtime::InteropServices::DllImportSearchPath paths) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultDllImportSearchPathsAttribute*, creationType>(paths)));
     }
   }; // System.Runtime.InteropServices.DefaultDllImportSearchPathsAttribute
   #pragma pack(pop)
-  static check_size<sizeof(DefaultDllImportSearchPathsAttribute), 16 + sizeof(System::Runtime::InteropServices::DllImportSearchPath)> __System_Runtime_InteropServices_DefaultDllImportSearchPathsAttributeSizeCheck;
+  static check_size<sizeof(DefaultDllImportSearchPathsAttribute), 16 + sizeof(::System::Runtime::InteropServices::DllImportSearchPath)> __System_Runtime_InteropServices_DefaultDllImportSearchPathsAttributeSizeCheck;
   static_assert(sizeof(DefaultDllImportSearchPathsAttribute) == 0x14);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

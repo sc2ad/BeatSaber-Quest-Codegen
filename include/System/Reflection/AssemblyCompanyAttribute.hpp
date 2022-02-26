@@ -19,8 +19,8 @@ namespace System::Reflection {
   class AssemblyCompanyAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Reflection::AssemblyCompanyAttribute);
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyCompanyAttribute*, "System.Reflection", "AssemblyCompanyAttribute");
+NEED_NO_BOX(::System::Reflection::AssemblyCompanyAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::AssemblyCompanyAttribute*, "System.Reflection", "AssemblyCompanyAttribute");
 // Type namespace: System.Reflection
 namespace System::Reflection {
   // Size: 0x18
@@ -29,7 +29,7 @@ namespace System::Reflection {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: 1187E88
   // [AttributeUsageAttribute] Offset: 1187E88
-  class AssemblyCompanyAttribute : public System::Attribute {
+  class AssemblyCompanyAttribute : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -57,7 +57,7 @@ namespace System::Reflection {
     // Offset: 0x2160934
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssemblyCompanyAttribute* New_ctor(::StringW company) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::AssemblyCompanyAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Reflection::AssemblyCompanyAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssemblyCompanyAttribute*, creationType>(company)));
     }
   }; // System.Reflection.AssemblyCompanyAttribute

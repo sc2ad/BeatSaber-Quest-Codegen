@@ -18,8 +18,8 @@ namespace TMPro {
   class TMP_Math;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(TMPro::TMP_Math);
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Math*, "TMPro", "TMP_Math");
+NEED_NO_BOX(::TMPro::TMP_Math);
+DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_Math*, "TMPro", "TMP_Math");
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0x10
@@ -65,13 +65,13 @@ namespace TMPro {
     // Set static field: static public System.Int32 INT_UNSET
     static void _set_INT_UNSET(int value);
     // Get static field: static public UnityEngine.Vector2 MAX_16BIT
-    static UnityEngine::Vector2 _get_MAX_16BIT();
+    static ::UnityEngine::Vector2 _get_MAX_16BIT();
     // Set static field: static public UnityEngine.Vector2 MAX_16BIT
-    static void _set_MAX_16BIT(UnityEngine::Vector2 value);
+    static void _set_MAX_16BIT(::UnityEngine::Vector2 value);
     // Get static field: static public UnityEngine.Vector2 MIN_16BIT
-    static UnityEngine::Vector2 _get_MIN_16BIT();
+    static ::UnityEngine::Vector2 _get_MIN_16BIT();
     // Set static field: static public UnityEngine.Vector2 MIN_16BIT
-    static void _set_MIN_16BIT(UnityEngine::Vector2 value);
+    static void _set_MIN_16BIT(::UnityEngine::Vector2 value);
     // static private System.Void .cctor()
     // Offset: 0x1451B08
     static void _cctor();

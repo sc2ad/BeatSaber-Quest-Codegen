@@ -20,8 +20,8 @@ namespace UnityEngine::Analytics {
   class AnalyticsSessionInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Analytics::AnalyticsSessionInfo);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Analytics::AnalyticsSessionInfo*, "UnityEngine.Analytics", "AnalyticsSessionInfo");
+NEED_NO_BOX(::UnityEngine::Analytics::AnalyticsSessionInfo);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Analytics::AnalyticsSessionInfo*, "UnityEngine.Analytics", "AnalyticsSessionInfo");
 // Type namespace: UnityEngine.Analytics
 namespace UnityEngine::Analytics {
   // Size: 0x10
@@ -33,23 +33,23 @@ namespace UnityEngine::Analytics {
   // [RequiredByNativeCodeAttribute] Offset: 121C1E8
   class AnalyticsSessionInfo : public ::Il2CppObject {
     public:
-    // Nested type: UnityEngine::Analytics::AnalyticsSessionInfo::SessionStateChanged
+    // Nested type: ::UnityEngine::Analytics::AnalyticsSessionInfo::SessionStateChanged
     class SessionStateChanged;
-    // Nested type: UnityEngine::Analytics::AnalyticsSessionInfo::IdentityTokenChanged
+    // Nested type: ::UnityEngine::Analytics::AnalyticsSessionInfo::IdentityTokenChanged
     class IdentityTokenChanged;
     // [DebuggerBrowsableAttribute] Offset: 0x121C348
     // Get static field: static private UnityEngine.Analytics.AnalyticsSessionInfo/UnityEngine.Analytics.SessionStateChanged sessionStateChanged
-    static UnityEngine::Analytics::AnalyticsSessionInfo::SessionStateChanged* _get_sessionStateChanged();
+    static ::UnityEngine::Analytics::AnalyticsSessionInfo::SessionStateChanged* _get_sessionStateChanged();
     // Set static field: static private UnityEngine.Analytics.AnalyticsSessionInfo/UnityEngine.Analytics.SessionStateChanged sessionStateChanged
-    static void _set_sessionStateChanged(UnityEngine::Analytics::AnalyticsSessionInfo::SessionStateChanged* value);
+    static void _set_sessionStateChanged(::UnityEngine::Analytics::AnalyticsSessionInfo::SessionStateChanged* value);
     // [DebuggerBrowsableAttribute] Offset: 0x121C384
     // Get static field: static private UnityEngine.Analytics.AnalyticsSessionInfo/UnityEngine.Analytics.IdentityTokenChanged identityTokenChanged
-    static UnityEngine::Analytics::AnalyticsSessionInfo::IdentityTokenChanged* _get_identityTokenChanged();
+    static ::UnityEngine::Analytics::AnalyticsSessionInfo::IdentityTokenChanged* _get_identityTokenChanged();
     // Set static field: static private UnityEngine.Analytics.AnalyticsSessionInfo/UnityEngine.Analytics.IdentityTokenChanged identityTokenChanged
-    static void _set_identityTokenChanged(UnityEngine::Analytics::AnalyticsSessionInfo::IdentityTokenChanged* value);
+    static void _set_identityTokenChanged(::UnityEngine::Analytics::AnalyticsSessionInfo::IdentityTokenChanged* value);
     // static System.Void CallSessionStateChanged(UnityEngine.Analytics.AnalyticsSessionState sessionState, System.Int64 sessionId, System.Int64 sessionElapsedTime, System.Boolean sessionChanged)
     // Offset: 0x2A5F9E4
-    static void CallSessionStateChanged(UnityEngine::Analytics::AnalyticsSessionState sessionState, int64_t sessionId, int64_t sessionElapsedTime, bool sessionChanged);
+    static void CallSessionStateChanged(::UnityEngine::Analytics::AnalyticsSessionState sessionState, int64_t sessionId, int64_t sessionElapsedTime, bool sessionChanged);
     // static System.Void CallIdentityTokenChanged(System.String token)
     // Offset: 0x2A5FD50
     static void CallIdentityTokenChanged(::StringW token);
@@ -60,7 +60,7 @@ namespace UnityEngine::Analytics {
 // Writing MetadataGetter for method: UnityEngine::Analytics::AnalyticsSessionInfo::CallSessionStateChanged
 // Il2CppName: CallSessionStateChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Analytics::AnalyticsSessionState, int64_t, int64_t, bool)>(&UnityEngine::Analytics::AnalyticsSessionInfo::CallSessionStateChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Analytics::AnalyticsSessionState, int64_t, int64_t, bool)>(&UnityEngine::Analytics::AnalyticsSessionInfo::CallSessionStateChanged)> {
   static const MethodInfo* get() {
     static auto* sessionState = &::il2cpp_utils::GetClassFromName("UnityEngine.Analytics", "AnalyticsSessionState")->byval_arg;
     static auto* sessionId = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;

@@ -22,8 +22,8 @@ namespace System::Text {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::WebUtility::UrlDecoder);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::WebUtility::UrlDecoder*, "System.Net", "WebUtility/UrlDecoder");
+NEED_NO_BOX(::System::Net::WebUtility::UrlDecoder);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::WebUtility::UrlDecoder*, "System.Net", "WebUtility/UrlDecoder");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x38
@@ -76,9 +76,9 @@ namespace System::Net {
     // private System.Text.Encoding _encoding
     // Size: 0x8
     // Offset: 0x30
-    System::Text::Encoding* encoding;
+    ::System::Text::Encoding* encoding;
     // Field size check
-    static_assert(sizeof(System::Text::Encoding*) == 0x8);
+    static_assert(sizeof(::System::Text::Encoding*) == 0x8);
     public:
     // Get instance field reference: private System.Int32 _bufferSize
     int& dyn__bufferSize();
@@ -91,12 +91,12 @@ namespace System::Net {
     // Get instance field reference: private System.Byte[] _byteBuffer
     ::ArrayW<uint8_t>& dyn__byteBuffer();
     // Get instance field reference: private System.Text.Encoding _encoding
-    System::Text::Encoding*& dyn__encoding();
+    ::System::Text::Encoding*& dyn__encoding();
     // System.Void .ctor(System.Int32 bufferSize, System.Text.Encoding encoding)
     // Offset: 0x1BE59EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static WebUtility::UrlDecoder* New_ctor(int bufferSize, System::Text::Encoding* encoding) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebUtility::UrlDecoder::.ctor");
+    static WebUtility::UrlDecoder* New_ctor(int bufferSize, ::System::Text::Encoding* encoding) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::WebUtility::UrlDecoder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebUtility::UrlDecoder*, creationType>(bufferSize, encoding)));
     }
     // private System.Void FlushBytes()
@@ -113,7 +113,7 @@ namespace System::Net {
     ::StringW GetString();
   }; // System.Net.WebUtility/System.Net.UrlDecoder
   #pragma pack(pop)
-  static check_size<sizeof(WebUtility::UrlDecoder), 48 + sizeof(System::Text::Encoding*)> __System_Net_WebUtility_UrlDecoderSizeCheck;
+  static check_size<sizeof(WebUtility::UrlDecoder), 48 + sizeof(::System::Text::Encoding*)> __System_Net_WebUtility_UrlDecoderSizeCheck;
   static_assert(sizeof(WebUtility::UrlDecoder) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

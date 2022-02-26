@@ -11,8 +11,8 @@ namespace UnityEngine::EventSystems {
   class IEventSystemHandler;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::EventSystems::IEventSystemHandler);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::IEventSystemHandler*, "UnityEngine.EventSystems", "IEventSystemHandler");
+NEED_NO_BOX(::UnityEngine::EventSystems::IEventSystemHandler);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::EventSystems::IEventSystemHandler*, "UnityEngine.EventSystems", "IEventSystemHandler");
 // Type namespace: UnityEngine.EventSystems
 namespace UnityEngine::EventSystems {
   // Size: 0x10

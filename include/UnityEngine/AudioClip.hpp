@@ -27,8 +27,8 @@ namespace UnityEngine {
   class AudioClip;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::AudioClip);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioClip*, "UnityEngine", "AudioClip");
+NEED_NO_BOX(::UnityEngine::AudioClip);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AudioClip*, "UnityEngine", "AudioClip");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x28
@@ -37,11 +37,11 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [StaticAccessorAttribute] Offset: 11D761C
   // [NativeHeaderAttribute] Offset: 11D761C
-  class AudioClip : public UnityEngine::Object {
+  class AudioClip : public ::UnityEngine::Object {
     public:
-    // Nested type: UnityEngine::AudioClip::PCMReaderCallback
+    // Nested type: ::UnityEngine::AudioClip::PCMReaderCallback
     class PCMReaderCallback;
-    // Nested type: UnityEngine::AudioClip::PCMSetPositionCallback
+    // Nested type: ::UnityEngine::AudioClip::PCMSetPositionCallback
     class PCMSetPositionCallback;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -56,23 +56,23 @@ namespace UnityEngine {
     // private UnityEngine.AudioClip/UnityEngine.PCMReaderCallback m_PCMReaderCallback
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::AudioClip::PCMReaderCallback* m_PCMReaderCallback;
+    ::UnityEngine::AudioClip::PCMReaderCallback* m_PCMReaderCallback;
     // Field size check
-    static_assert(sizeof(UnityEngine::AudioClip::PCMReaderCallback*) == 0x8);
+    static_assert(sizeof(::UnityEngine::AudioClip::PCMReaderCallback*) == 0x8);
     // [DebuggerBrowsableAttribute] Offset: 0x11D7DC4
     // private UnityEngine.AudioClip/UnityEngine.PCMSetPositionCallback m_PCMSetPositionCallback
     // Size: 0x8
     // Offset: 0x20
-    UnityEngine::AudioClip::PCMSetPositionCallback* m_PCMSetPositionCallback;
+    ::UnityEngine::AudioClip::PCMSetPositionCallback* m_PCMSetPositionCallback;
     // Field size check
-    static_assert(sizeof(UnityEngine::AudioClip::PCMSetPositionCallback*) == 0x8);
+    static_assert(sizeof(::UnityEngine::AudioClip::PCMSetPositionCallback*) == 0x8);
     public:
-    // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const noexcept = delete;
+    // Deleting conversion operator: operator ::System::IntPtr
+    constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.AudioClip/UnityEngine.PCMReaderCallback m_PCMReaderCallback
-    UnityEngine::AudioClip::PCMReaderCallback*& dyn_m_PCMReaderCallback();
+    ::UnityEngine::AudioClip::PCMReaderCallback*& dyn_m_PCMReaderCallback();
     // Get instance field reference: private UnityEngine.AudioClip/UnityEngine.PCMSetPositionCallback m_PCMSetPositionCallback
-    UnityEngine::AudioClip::PCMSetPositionCallback*& dyn_m_PCMSetPositionCallback();
+    ::UnityEngine::AudioClip::PCMSetPositionCallback*& dyn_m_PCMSetPositionCallback();
     // public System.Single get_length()
     // Offset: 0x2A3CBEC
     float get_length();
@@ -87,28 +87,28 @@ namespace UnityEngine {
     int get_frequency();
     // public UnityEngine.AudioDataLoadState get_loadState()
     // Offset: 0x2A3E024
-    UnityEngine::AudioDataLoadState get_loadState();
+    ::UnityEngine::AudioDataLoadState get_loadState();
     // private System.Void add_m_PCMReaderCallback(UnityEngine.AudioClip/UnityEngine.PCMReaderCallback value)
     // Offset: 0x2A3E5D4
-    void add_m_PCMReaderCallback(UnityEngine::AudioClip::PCMReaderCallback* value);
+    void add_m_PCMReaderCallback(::UnityEngine::AudioClip::PCMReaderCallback* value);
     // private System.Void remove_m_PCMReaderCallback(UnityEngine.AudioClip/UnityEngine.PCMReaderCallback value)
     // Offset: 0x2A3E71C
-    void remove_m_PCMReaderCallback(UnityEngine::AudioClip::PCMReaderCallback* value);
+    void remove_m_PCMReaderCallback(::UnityEngine::AudioClip::PCMReaderCallback* value);
     // private System.Void add_m_PCMSetPositionCallback(UnityEngine.AudioClip/UnityEngine.PCMSetPositionCallback value)
     // Offset: 0x2A3E678
-    void add_m_PCMSetPositionCallback(UnityEngine::AudioClip::PCMSetPositionCallback* value);
+    void add_m_PCMSetPositionCallback(::UnityEngine::AudioClip::PCMSetPositionCallback* value);
     // private System.Void remove_m_PCMSetPositionCallback(UnityEngine.AudioClip/UnityEngine.PCMSetPositionCallback value)
     // Offset: 0x2A3E7C0
-    void remove_m_PCMSetPositionCallback(UnityEngine::AudioClip::PCMSetPositionCallback* value);
+    void remove_m_PCMSetPositionCallback(::UnityEngine::AudioClip::PCMSetPositionCallback* value);
     // static private System.Boolean GetData(UnityEngine.AudioClip clip, out System.Single[] data, System.Int32 numSamples, System.Int32 samplesOffset)
     // Offset: 0x2A3DD20
-    static bool GetData(UnityEngine::AudioClip* clip, ByRef<::ArrayW<float>> data, int numSamples, int samplesOffset);
+    static bool GetData(::UnityEngine::AudioClip* clip, ByRef<::ArrayW<float>> data, int numSamples, int samplesOffset);
     // static private System.Boolean SetData(UnityEngine.AudioClip clip, System.Single[] data, System.Int32 numsamples, System.Int32 samplesOffset)
     // Offset: 0x2A3DD88
-    static bool SetData(UnityEngine::AudioClip* clip, ::ArrayW<float> data, int numsamples, int samplesOffset);
+    static bool SetData(::UnityEngine::AudioClip* clip, ::ArrayW<float> data, int numsamples, int samplesOffset);
     // static private UnityEngine.AudioClip Construct_Internal()
     // Offset: 0x2A3DDF0
-    static UnityEngine::AudioClip* Construct_Internal();
+    static ::UnityEngine::AudioClip* Construct_Internal();
     // private System.String GetName()
     // Offset: 0x2A3DE24
     ::StringW GetName();
@@ -129,10 +129,10 @@ namespace UnityEngine {
     bool SetData(::ArrayW<float> data, int offsetSamples);
     // static public UnityEngine.AudioClip Create(System.String name, System.Int32 lengthSamples, System.Int32 channels, System.Int32 frequency, System.Boolean stream)
     // Offset: 0x2A3E408
-    static UnityEngine::AudioClip* Create(::StringW name, int lengthSamples, int channels, int frequency, bool stream);
+    static ::UnityEngine::AudioClip* Create(::StringW name, int lengthSamples, int channels, int frequency, bool stream);
     // static public UnityEngine.AudioClip Create(System.String name, System.Int32 lengthSamples, System.Int32 channels, System.Int32 frequency, System.Boolean stream, UnityEngine.AudioClip/UnityEngine.PCMReaderCallback pcmreadercallback, UnityEngine.AudioClip/UnityEngine.PCMSetPositionCallback pcmsetpositioncallback)
     // Offset: 0x2A3E418
-    static UnityEngine::AudioClip* Create(::StringW name, int lengthSamples, int channels, int frequency, bool stream, UnityEngine::AudioClip::PCMReaderCallback* pcmreadercallback, UnityEngine::AudioClip::PCMSetPositionCallback* pcmsetpositioncallback);
+    static ::UnityEngine::AudioClip* Create(::StringW name, int lengthSamples, int channels, int frequency, bool stream, ::UnityEngine::AudioClip::PCMReaderCallback* pcmreadercallback, ::UnityEngine::AudioClip::PCMSetPositionCallback* pcmsetpositioncallback);
     // private System.Void InvokePCMReaderCallback_Internal(System.Single[] data)
     // Offset: 0x2A3E864
     void InvokePCMReaderCallback_Internal(::ArrayW<float> data);
@@ -146,12 +146,12 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AudioClip* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AudioClip::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AudioClip::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AudioClip*, creationType>()));
     }
   }; // UnityEngine.AudioClip
   #pragma pack(pop)
-  static check_size<sizeof(AudioClip), 32 + sizeof(UnityEngine::AudioClip::PCMSetPositionCallback*)> __UnityEngine_AudioClipSizeCheck;
+  static check_size<sizeof(AudioClip), 32 + sizeof(::UnityEngine::AudioClip::PCMSetPositionCallback*)> __UnityEngine_AudioClipSizeCheck;
   static_assert(sizeof(AudioClip) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -190,7 +190,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::AudioClip::get_loadState
 // Il2CppName: get_loadState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AudioDataLoadState (UnityEngine::AudioClip::*)()>(&UnityEngine::AudioClip::get_loadState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AudioDataLoadState (UnityEngine::AudioClip::*)()>(&UnityEngine::AudioClip::get_loadState)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioClip*), "get_loadState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -198,7 +198,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::AudioClip::add_m_PCMReaderCallback
 // Il2CppName: add_m_PCMReaderCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AudioClip::*)(UnityEngine::AudioClip::PCMReaderCallback*)>(&UnityEngine::AudioClip::add_m_PCMReaderCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AudioClip::*)(::UnityEngine::AudioClip::PCMReaderCallback*)>(&UnityEngine::AudioClip::add_m_PCMReaderCallback)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "AudioClip/PCMReaderCallback")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioClip*), "add_m_PCMReaderCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -207,7 +207,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AudioClip::remove_m_PCMReaderCallback
 // Il2CppName: remove_m_PCMReaderCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AudioClip::*)(UnityEngine::AudioClip::PCMReaderCallback*)>(&UnityEngine::AudioClip::remove_m_PCMReaderCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AudioClip::*)(::UnityEngine::AudioClip::PCMReaderCallback*)>(&UnityEngine::AudioClip::remove_m_PCMReaderCallback)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "AudioClip/PCMReaderCallback")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioClip*), "remove_m_PCMReaderCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -216,7 +216,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AudioClip::add_m_PCMSetPositionCallback
 // Il2CppName: add_m_PCMSetPositionCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AudioClip::*)(UnityEngine::AudioClip::PCMSetPositionCallback*)>(&UnityEngine::AudioClip::add_m_PCMSetPositionCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AudioClip::*)(::UnityEngine::AudioClip::PCMSetPositionCallback*)>(&UnityEngine::AudioClip::add_m_PCMSetPositionCallback)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "AudioClip/PCMSetPositionCallback")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioClip*), "add_m_PCMSetPositionCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -225,7 +225,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AudioClip::remove_m_PCMSetPositionCallback
 // Il2CppName: remove_m_PCMSetPositionCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AudioClip::*)(UnityEngine::AudioClip::PCMSetPositionCallback*)>(&UnityEngine::AudioClip::remove_m_PCMSetPositionCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AudioClip::*)(::UnityEngine::AudioClip::PCMSetPositionCallback*)>(&UnityEngine::AudioClip::remove_m_PCMSetPositionCallback)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "AudioClip/PCMSetPositionCallback")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioClip*), "remove_m_PCMSetPositionCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -234,7 +234,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AudioClip::GetData
 // Il2CppName: GetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::AudioClip*, ByRef<::ArrayW<float>>, int, int)>(&UnityEngine::AudioClip::GetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::AudioClip*, ByRef<::ArrayW<float>>, int, int)>(&UnityEngine::AudioClip::GetData)> {
   static const MethodInfo* get() {
     static auto* clip = &::il2cpp_utils::GetClassFromName("UnityEngine", "AudioClip")->byval_arg;
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->this_arg;
@@ -246,7 +246,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: UnityEngine::AudioClip::SetData
 // Il2CppName: SetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::AudioClip*, ::ArrayW<float>, int, int)>(&UnityEngine::AudioClip::SetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::AudioClip*, ::ArrayW<float>, int, int)>(&UnityEngine::AudioClip::SetData)> {
   static const MethodInfo* get() {
     static auto* clip = &::il2cpp_utils::GetClassFromName("UnityEngine", "AudioClip")->byval_arg;
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
@@ -258,7 +258,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: UnityEngine::AudioClip::Construct_Internal
 // Il2CppName: Construct_Internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AudioClip* (*)()>(&UnityEngine::AudioClip::Construct_Internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AudioClip* (*)()>(&UnityEngine::AudioClip::Construct_Internal)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioClip*), "Construct_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -323,7 +323,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::AudioClip::Create
 // Il2CppName: Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AudioClip* (*)(::StringW, int, int, int, bool)>(&UnityEngine::AudioClip::Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AudioClip* (*)(::StringW, int, int, int, bool)>(&UnityEngine::AudioClip::Create)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* lengthSamples = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -336,7 +336,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::AudioClip::Create
 // Il2CppName: Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AudioClip* (*)(::StringW, int, int, int, bool, UnityEngine::AudioClip::PCMReaderCallback*, UnityEngine::AudioClip::PCMSetPositionCallback*)>(&UnityEngine::AudioClip::Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AudioClip* (*)(::StringW, int, int, int, bool, ::UnityEngine::AudioClip::PCMReaderCallback*, ::UnityEngine::AudioClip::PCMSetPositionCallback*)>(&UnityEngine::AudioClip::Create)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* lengthSamples = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

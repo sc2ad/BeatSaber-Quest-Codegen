@@ -38,8 +38,8 @@ namespace GlobalNamespace {
   class IPreviewBeatmapLevel;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::IPreviewBeatmapLevel);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IPreviewBeatmapLevel*, "", "IPreviewBeatmapLevel");
+NEED_NO_BOX(::GlobalNamespace::IPreviewBeatmapLevel);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IPreviewBeatmapLevel*, "", "IPreviewBeatmapLevel");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -86,16 +86,16 @@ namespace GlobalNamespace {
     float get_songDuration();
     // public EnvironmentInfoSO get_environmentInfo()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::EnvironmentInfoSO* get_environmentInfo();
+    ::GlobalNamespace::EnvironmentInfoSO* get_environmentInfo();
     // public EnvironmentInfoSO get_allDirectionsEnvironmentInfo()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::EnvironmentInfoSO* get_allDirectionsEnvironmentInfo();
+    ::GlobalNamespace::EnvironmentInfoSO* get_allDirectionsEnvironmentInfo();
     // public PreviewDifficultyBeatmapSet[] get_previewDifficultyBeatmapSets()
     // Offset: 0xFFFFFFFF
-    ::ArrayW<GlobalNamespace::PreviewDifficultyBeatmapSet*> get_previewDifficultyBeatmapSets();
+    ::ArrayW<::GlobalNamespace::PreviewDifficultyBeatmapSet*> get_previewDifficultyBeatmapSets();
     // public System.Threading.Tasks.Task`1<UnityEngine.Sprite> GetCoverImageAsync(System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF
-    System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* GetCoverImageAsync(System::Threading::CancellationToken cancellationToken);
+    ::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>* GetCoverImageAsync(::System::Threading::CancellationToken cancellationToken);
   }; // IPreviewBeatmapLevel
   #pragma pack(pop)
 }
@@ -199,7 +199,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Writing MetadataGetter for method: GlobalNamespace::IPreviewBeatmapLevel::get_environmentInfo
 // Il2CppName: get_environmentInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EnvironmentInfoSO* (GlobalNamespace::IPreviewBeatmapLevel::*)()>(&GlobalNamespace::IPreviewBeatmapLevel::get_environmentInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::EnvironmentInfoSO* (GlobalNamespace::IPreviewBeatmapLevel::*)()>(&GlobalNamespace::IPreviewBeatmapLevel::get_environmentInfo)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IPreviewBeatmapLevel*), "get_environmentInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -207,7 +207,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::IPreviewBeatmapLevel::get_allDirectionsEnvironmentInfo
 // Il2CppName: get_allDirectionsEnvironmentInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EnvironmentInfoSO* (GlobalNamespace::IPreviewBeatmapLevel::*)()>(&GlobalNamespace::IPreviewBeatmapLevel::get_allDirectionsEnvironmentInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::EnvironmentInfoSO* (GlobalNamespace::IPreviewBeatmapLevel::*)()>(&GlobalNamespace::IPreviewBeatmapLevel::get_allDirectionsEnvironmentInfo)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IPreviewBeatmapLevel*), "get_allDirectionsEnvironmentInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -215,7 +215,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::IPreviewBeatmapLevel::get_previewDifficultyBeatmapSets
 // Il2CppName: get_previewDifficultyBeatmapSets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::PreviewDifficultyBeatmapSet*> (GlobalNamespace::IPreviewBeatmapLevel::*)()>(&GlobalNamespace::IPreviewBeatmapLevel::get_previewDifficultyBeatmapSets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::GlobalNamespace::PreviewDifficultyBeatmapSet*> (GlobalNamespace::IPreviewBeatmapLevel::*)()>(&GlobalNamespace::IPreviewBeatmapLevel::get_previewDifficultyBeatmapSets)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IPreviewBeatmapLevel*), "get_previewDifficultyBeatmapSets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -223,7 +223,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Gl
 // Writing MetadataGetter for method: GlobalNamespace::IPreviewBeatmapLevel::GetCoverImageAsync
 // Il2CppName: GetCoverImageAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* (GlobalNamespace::IPreviewBeatmapLevel::*)(System::Threading::CancellationToken)>(&GlobalNamespace::IPreviewBeatmapLevel::GetCoverImageAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>* (GlobalNamespace::IPreviewBeatmapLevel::*)(::System::Threading::CancellationToken)>(&GlobalNamespace::IPreviewBeatmapLevel::GetCoverImageAsync)> {
   static const MethodInfo* get() {
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IPreviewBeatmapLevel*), "GetCoverImageAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cancellationToken});

@@ -20,8 +20,8 @@ namespace Mono::Security::Interface {
   class ValidationResult;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Security::Interface::ValidationResult);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::ValidationResult*, "Mono.Security.Interface", "ValidationResult");
+NEED_NO_BOX(::Mono::Security::Interface::ValidationResult);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Interface::ValidationResult*, "Mono.Security.Interface", "ValidationResult");
 // Type namespace: Mono.Security.Interface
 namespace Mono::Security::Interface {
   // WARNING Size may be invalid!
@@ -59,7 +59,7 @@ namespace Mono::Security::Interface {
     // private System.Nullable`1<Mono.Security.Interface.MonoSslPolicyErrors> policy_errors
     // Size: 0xFFFFFFFF
     // Offset: 0x18
-    System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors> policy_errors;
+    ::System::Nullable_1<::Mono::Security::Interface::MonoSslPolicyErrors> policy_errors;
     public:
     // Get instance field reference: private System.Boolean trusted
     bool& dyn_trusted();
@@ -68,7 +68,7 @@ namespace Mono::Security::Interface {
     // Get instance field reference: private System.Int32 error_code
     int& dyn_error_code();
     // Get instance field reference: private System.Nullable`1<Mono.Security.Interface.MonoSslPolicyErrors> policy_errors
-    System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors>& dyn_policy_errors();
+    ::System::Nullable_1<::Mono::Security::Interface::MonoSslPolicyErrors>& dyn_policy_errors();
     // public System.Boolean get_Trusted()
     // Offset: 0x22CE1B4
     bool get_Trusted();
@@ -78,8 +78,8 @@ namespace Mono::Security::Interface {
     // public System.Void .ctor(System.Boolean trusted, System.Boolean user_denied, System.Int32 error_code, System.Nullable`1<Mono.Security.Interface.MonoSslPolicyErrors> policy_errors)
     // Offset: 0x22CE158
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ValidationResult* New_ctor(bool trusted, bool user_denied, int error_code, System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors> policy_errors) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Interface::ValidationResult::.ctor");
+    static ValidationResult* New_ctor(bool trusted, bool user_denied, int error_code, ::System::Nullable_1<::Mono::Security::Interface::MonoSslPolicyErrors> policy_errors) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::Interface::ValidationResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ValidationResult*, creationType>(trusted, user_denied, error_code, policy_errors)));
     }
   }; // Mono.Security.Interface.ValidationResult

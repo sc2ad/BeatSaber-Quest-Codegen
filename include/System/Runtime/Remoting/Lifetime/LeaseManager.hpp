@@ -38,8 +38,8 @@ namespace System::Runtime::Remoting::Lifetime {
   class LeaseManager;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Remoting::Lifetime::LeaseManager);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Lifetime::LeaseManager*, "System.Runtime.Remoting.Lifetime", "LeaseManager");
+NEED_NO_BOX(::System::Runtime::Remoting::Lifetime::LeaseManager);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Lifetime::LeaseManager*, "System.Runtime.Remoting.Lifetime", "LeaseManager");
 // Type namespace: System.Runtime.Remoting.Lifetime
 namespace System::Runtime::Remoting::Lifetime {
   // Size: 0x20
@@ -60,26 +60,26 @@ namespace System::Runtime::Remoting::Lifetime {
     // private System.Collections.ArrayList _objects
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::ArrayList* objects;
+    ::System::Collections::ArrayList* objects;
     // Field size check
-    static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
+    static_assert(sizeof(::System::Collections::ArrayList*) == 0x8);
     // private System.Threading.Timer _timer
     // Size: 0x8
     // Offset: 0x18
-    System::Threading::Timer* timer;
+    ::System::Threading::Timer* timer;
     // Field size check
-    static_assert(sizeof(System::Threading::Timer*) == 0x8);
+    static_assert(sizeof(::System::Threading::Timer*) == 0x8);
     public:
     // Get instance field reference: private System.Collections.ArrayList _objects
-    System::Collections::ArrayList*& dyn__objects();
+    ::System::Collections::ArrayList*& dyn__objects();
     // Get instance field reference: private System.Threading.Timer _timer
-    System::Threading::Timer*& dyn__timer();
+    ::System::Threading::Timer*& dyn__timer();
     // public System.Void SetPollTime(System.TimeSpan timeSpan)
     // Offset: 0x1B83B34
-    void SetPollTime(System::TimeSpan timeSpan);
+    void SetPollTime(::System::TimeSpan timeSpan);
     // public System.Void TrackLifetime(System.Runtime.Remoting.ServerIdentity identity)
     // Offset: 0x1B83BF8
-    void TrackLifetime(System::Runtime::Remoting::ServerIdentity* identity);
+    void TrackLifetime(::System::Runtime::Remoting::ServerIdentity* identity);
     // public System.Void StartManager()
     // Offset: 0x1B83CF4
     void StartManager();
@@ -95,19 +95,19 @@ namespace System::Runtime::Remoting::Lifetime {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaseManager* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Lifetime::LeaseManager::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::Lifetime::LeaseManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LeaseManager*, creationType>()));
     }
   }; // System.Runtime.Remoting.Lifetime.LeaseManager
   #pragma pack(pop)
-  static check_size<sizeof(LeaseManager), 24 + sizeof(System::Threading::Timer*)> __System_Runtime_Remoting_Lifetime_LeaseManagerSizeCheck;
+  static check_size<sizeof(LeaseManager), 24 + sizeof(::System::Threading::Timer*)> __System_Runtime_Remoting_Lifetime_LeaseManagerSizeCheck;
   static_assert(sizeof(LeaseManager) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Lifetime::LeaseManager::SetPollTime
 // Il2CppName: SetPollTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Lifetime::LeaseManager::*)(System::TimeSpan)>(&System::Runtime::Remoting::Lifetime::LeaseManager::SetPollTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Lifetime::LeaseManager::*)(::System::TimeSpan)>(&System::Runtime::Remoting::Lifetime::LeaseManager::SetPollTime)> {
   static const MethodInfo* get() {
     static auto* timeSpan = &::il2cpp_utils::GetClassFromName("System", "TimeSpan")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Lifetime::LeaseManager*), "SetPollTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{timeSpan});
@@ -116,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Remoting::Lifetime::LeaseManager::TrackLifetime
 // Il2CppName: TrackLifetime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Lifetime::LeaseManager::*)(System::Runtime::Remoting::ServerIdentity*)>(&System::Runtime::Remoting::Lifetime::LeaseManager::TrackLifetime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Lifetime::LeaseManager::*)(::System::Runtime::Remoting::ServerIdentity*)>(&System::Runtime::Remoting::Lifetime::LeaseManager::TrackLifetime)> {
   static const MethodInfo* get() {
     static auto* identity = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting", "ServerIdentity")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Lifetime::LeaseManager*), "TrackLifetime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{identity});

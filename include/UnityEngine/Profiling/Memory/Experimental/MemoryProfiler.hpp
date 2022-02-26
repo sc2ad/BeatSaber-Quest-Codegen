@@ -41,8 +41,8 @@ namespace UnityEngine::Profiling::Memory::Experimental {
   class MemoryProfiler;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Profiling::Memory::Experimental::MemoryProfiler);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Profiling::Memory::Experimental::MemoryProfiler*, "UnityEngine.Profiling.Memory.Experimental", "MemoryProfiler");
+NEED_NO_BOX(::UnityEngine::Profiling::Memory::Experimental::MemoryProfiler);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Profiling::Memory::Experimental::MemoryProfiler*, "UnityEngine.Profiling.Memory.Experimental", "MemoryProfiler");
 // Type namespace: UnityEngine.Profiling.Memory.Experimental
 namespace UnityEngine::Profiling::Memory::Experimental {
   // Size: 0x10
@@ -54,19 +54,19 @@ namespace UnityEngine::Profiling::Memory::Experimental {
     public:
     // [DebuggerBrowsableAttribute] Offset: 0x11A9BA4
     // Get static field: static private System.Action`2<System.String,System.Boolean> m_SnapshotFinished
-    static System::Action_2<::StringW, bool>* _get_m_SnapshotFinished();
+    static ::System::Action_2<::StringW, bool>* _get_m_SnapshotFinished();
     // Set static field: static private System.Action`2<System.String,System.Boolean> m_SnapshotFinished
-    static void _set_m_SnapshotFinished(System::Action_2<::StringW, bool>* value);
+    static void _set_m_SnapshotFinished(::System::Action_2<::StringW, bool>* value);
     // [DebuggerBrowsableAttribute] Offset: 0x11A9BE0
     // Get static field: static private System.Action`3<System.String,System.Boolean,UnityEngine.Profiling.Experimental.DebugScreenCapture> m_SaveScreenshotToDisk
-    static System::Action_3<::StringW, bool, UnityEngine::Profiling::Experimental::DebugScreenCapture>* _get_m_SaveScreenshotToDisk();
+    static ::System::Action_3<::StringW, bool, ::UnityEngine::Profiling::Experimental::DebugScreenCapture>* _get_m_SaveScreenshotToDisk();
     // Set static field: static private System.Action`3<System.String,System.Boolean,UnityEngine.Profiling.Experimental.DebugScreenCapture> m_SaveScreenshotToDisk
-    static void _set_m_SaveScreenshotToDisk(System::Action_3<::StringW, bool, UnityEngine::Profiling::Experimental::DebugScreenCapture>* value);
+    static void _set_m_SaveScreenshotToDisk(::System::Action_3<::StringW, bool, ::UnityEngine::Profiling::Experimental::DebugScreenCapture>* value);
     // [DebuggerBrowsableAttribute] Offset: 0x11A9C1C
     // Get static field: static private System.Action`1<UnityEngine.Profiling.Memory.Experimental.MetaData> createMetaData
-    static System::Action_1<UnityEngine::Profiling::Memory::Experimental::MetaData*>* _get_createMetaData();
+    static ::System::Action_1<::UnityEngine::Profiling::Memory::Experimental::MetaData*>* _get_createMetaData();
     // Set static field: static private System.Action`1<UnityEngine.Profiling.Memory.Experimental.MetaData> createMetaData
-    static void _set_createMetaData(System::Action_1<UnityEngine::Profiling::Memory::Experimental::MetaData*>* value);
+    static void _set_createMetaData(::System::Action_1<::UnityEngine::Profiling::Memory::Experimental::MetaData*>* value);
     // static private System.Byte[] PrepareMetadata()
     // Offset: 0x20C5B30
     static ::ArrayW<uint8_t> PrepareMetadata();
@@ -81,7 +81,7 @@ namespace UnityEngine::Profiling::Memory::Experimental {
     static void FinalizeSnapshot(::StringW path, bool result);
     // static private System.Void SaveScreenshotToDisk(System.String path, System.Boolean result, System.IntPtr pixelsPtr, System.Int32 pixelsCount, UnityEngine.TextureFormat format, System.Int32 width, System.Int32 height)
     // Offset: 0x20C5EBC
-    static void SaveScreenshotToDisk(::StringW path, bool result, System::IntPtr pixelsPtr, int pixelsCount, UnityEngine::TextureFormat format, int width, int height);
+    static void SaveScreenshotToDisk(::StringW path, bool result, ::System::IntPtr pixelsPtr, int pixelsCount, ::UnityEngine::TextureFormat format, int width, int height);
   }; // UnityEngine.Profiling.Memory.Experimental.MemoryProfiler
   #pragma pack(pop)
 }
@@ -129,7 +129,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::Profiling::Memory::Experimental::MemoryProfiler::SaveScreenshotToDisk
 // Il2CppName: SaveScreenshotToDisk
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, bool, System::IntPtr, int, UnityEngine::TextureFormat, int, int)>(&UnityEngine::Profiling::Memory::Experimental::MemoryProfiler::SaveScreenshotToDisk)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, bool, ::System::IntPtr, int, ::UnityEngine::TextureFormat, int, int)>(&UnityEngine::Profiling::Memory::Experimental::MemoryProfiler::SaveScreenshotToDisk)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

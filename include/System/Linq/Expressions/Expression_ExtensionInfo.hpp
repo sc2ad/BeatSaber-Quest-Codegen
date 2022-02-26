@@ -18,8 +18,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Linq::Expressions::Expression::ExtensionInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::Linq::Expressions::Expression::ExtensionInfo*, "System.Linq.Expressions", "Expression/ExtensionInfo");
+NEED_NO_BOX(::System::Linq::Expressions::Expression::ExtensionInfo);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Expression::ExtensionInfo*, "System.Linq.Expressions", "Expression/ExtensionInfo");
 // Type namespace: System.Linq.Expressions
 namespace System::Linq::Expressions {
   // Size: 0x20
@@ -40,25 +40,25 @@ namespace System::Linq::Expressions {
     // readonly System.Linq.Expressions.ExpressionType NodeType
     // Size: 0x4
     // Offset: 0x10
-    System::Linq::Expressions::ExpressionType NodeType;
+    ::System::Linq::Expressions::ExpressionType NodeType;
     // Field size check
-    static_assert(sizeof(System::Linq::Expressions::ExpressionType) == 0x4);
+    static_assert(sizeof(::System::Linq::Expressions::ExpressionType) == 0x4);
     // Padding between fields: NodeType and: Type
     char __padding0[0x4] = {};
     // readonly System.Type Type
     // Size: 0x8
     // Offset: 0x18
-    System::Type* Type;
+    ::System::Type* Type;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     public:
     // Get instance field reference: readonly System.Linq.Expressions.ExpressionType NodeType
-    System::Linq::Expressions::ExpressionType& dyn_NodeType();
+    ::System::Linq::Expressions::ExpressionType& dyn_NodeType();
     // Get instance field reference: readonly System.Type Type
-    System::Type*& dyn_Type();
+    ::System::Type*& dyn_Type();
   }; // System.Linq.Expressions.Expression/System.Linq.Expressions.ExtensionInfo
   #pragma pack(pop)
-  static check_size<sizeof(Expression::ExtensionInfo), 24 + sizeof(System::Type*)> __System_Linq_Expressions_Expression_ExtensionInfoSizeCheck;
+  static check_size<sizeof(Expression::ExtensionInfo), 24 + sizeof(::System::Type*)> __System_Linq_Expressions_Expression_ExtensionInfoSizeCheck;
   static_assert(sizeof(Expression::ExtensionInfo) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

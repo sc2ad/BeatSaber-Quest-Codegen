@@ -25,8 +25,8 @@ namespace GlobalNamespace {
   class IBloomPrePassParams;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::IBloomPrePassParams);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IBloomPrePassParams*, "", "IBloomPrePassParams");
+NEED_NO_BOX(::GlobalNamespace::IBloomPrePassParams);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IBloomPrePassParams*, "", "IBloomPrePassParams");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     public:
     // public TextureEffectSO get_textureEffect()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::TextureEffectSO* get_textureEffect();
+    ::GlobalNamespace::TextureEffectSO* get_textureEffect();
     // public System.Int32 get_textureWidth()
     // Offset: 0xFFFFFFFF
     int get_textureWidth();
@@ -46,13 +46,13 @@ namespace GlobalNamespace {
     int get_textureHeight();
     // public UnityEngine.Vector2 get_fov()
     // Offset: 0xFFFFFFFF
-    UnityEngine::Vector2 get_fov();
+    ::UnityEngine::Vector2 get_fov();
     // public System.Single get_linesWidth()
     // Offset: 0xFFFFFFFF
     float get_linesWidth();
     // public ToneMapping get_toneMapping()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::ToneMapping get_toneMapping();
+    ::GlobalNamespace::ToneMapping get_toneMapping();
   }; // IBloomPrePassParams
   #pragma pack(pop)
 }
@@ -60,7 +60,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::IBloomPrePassParams::get_textureEffect
 // Il2CppName: get_textureEffect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::TextureEffectSO* (GlobalNamespace::IBloomPrePassParams::*)()>(&GlobalNamespace::IBloomPrePassParams::get_textureEffect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::TextureEffectSO* (GlobalNamespace::IBloomPrePassParams::*)()>(&GlobalNamespace::IBloomPrePassParams::get_textureEffect)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IBloomPrePassParams*), "get_textureEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -84,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Writing MetadataGetter for method: GlobalNamespace::IBloomPrePassParams::get_fov
 // Il2CppName: get_fov
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (GlobalNamespace::IBloomPrePassParams::*)()>(&GlobalNamespace::IBloomPrePassParams::get_fov)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (GlobalNamespace::IBloomPrePassParams::*)()>(&GlobalNamespace::IBloomPrePassParams::get_fov)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IBloomPrePassParams*), "get_fov", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -100,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Writing MetadataGetter for method: GlobalNamespace::IBloomPrePassParams::get_toneMapping
 // Il2CppName: get_toneMapping
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ToneMapping (GlobalNamespace::IBloomPrePassParams::*)()>(&GlobalNamespace::IBloomPrePassParams::get_toneMapping)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ToneMapping (GlobalNamespace::IBloomPrePassParams::*)()>(&GlobalNamespace::IBloomPrePassParams::get_toneMapping)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IBloomPrePassParams*), "get_toneMapping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

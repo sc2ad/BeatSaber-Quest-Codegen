@@ -21,8 +21,8 @@ namespace LiteNetLib {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(LiteNetLib::NetPeer::IncomingFragments);
-DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetPeer::IncomingFragments*, "LiteNetLib", "NetPeer/IncomingFragments");
+NEED_NO_BOX(::LiteNetLib::NetPeer::IncomingFragments);
+DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::NetPeer::IncomingFragments*, "LiteNetLib", "NetPeer/IncomingFragments");
 // Type namespace: LiteNetLib
 namespace LiteNetLib {
   // Size: 0x21
@@ -43,9 +43,9 @@ namespace LiteNetLib {
     // public LiteNetLib.NetPacket[] Fragments
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<LiteNetLib::NetPacket*> Fragments;
+    ::ArrayW<::LiteNetLib::NetPacket*> Fragments;
     // Field size check
-    static_assert(sizeof(::ArrayW<LiteNetLib::NetPacket*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::LiteNetLib::NetPacket*>) == 0x8);
     // public System.Int32 ReceivedCount
     // Size: 0x4
     // Offset: 0x18
@@ -66,7 +66,7 @@ namespace LiteNetLib {
     static_assert(sizeof(uint8_t) == 0x1);
     public:
     // Get instance field reference: public LiteNetLib.NetPacket[] Fragments
-    ::ArrayW<LiteNetLib::NetPacket*>& dyn_Fragments();
+    ::ArrayW<::LiteNetLib::NetPacket*>& dyn_Fragments();
     // Get instance field reference: public System.Int32 ReceivedCount
     int& dyn_ReceivedCount();
     // Get instance field reference: public System.Int32 TotalSize
@@ -79,7 +79,7 @@ namespace LiteNetLib {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetPeer::IncomingFragments* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::NetPeer::IncomingFragments::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::NetPeer::IncomingFragments::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetPeer::IncomingFragments*, creationType>()));
     }
   }; // LiteNetLib.NetPeer/LiteNetLib.IncomingFragments

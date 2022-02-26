@@ -12,8 +12,8 @@ namespace System::Configuration {
   class ConfigurationPropertyCollection;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Configuration::ConfigurationPropertyCollection);
-DEFINE_IL2CPP_ARG_TYPE(System::Configuration::ConfigurationPropertyCollection*, "System.Configuration", "ConfigurationPropertyCollection");
+NEED_NO_BOX(::System::Configuration::ConfigurationPropertyCollection);
+DEFINE_IL2CPP_ARG_TYPE(::System::Configuration::ConfigurationPropertyCollection*, "System.Configuration", "ConfigurationPropertyCollection");
 // Type namespace: System.Configuration
 namespace System::Configuration {
   // Size: 0x10

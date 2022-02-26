@@ -9,8 +9,8 @@
 #include "UnityEngine/Timeline/AnimationPlayableAsset.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Timeline::AnimationPlayableAsset::AnimationPlayableAssetUpgrade);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AnimationPlayableAsset::AnimationPlayableAssetUpgrade*, "UnityEngine.Timeline", "AnimationPlayableAsset/AnimationPlayableAssetUpgrade");
+NEED_NO_BOX(::UnityEngine::Timeline::AnimationPlayableAsset::AnimationPlayableAssetUpgrade);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::AnimationPlayableAsset::AnimationPlayableAssetUpgrade*, "UnityEngine.Timeline", "AnimationPlayableAsset/AnimationPlayableAssetUpgrade");
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
   // Size: 0x10
@@ -21,7 +21,7 @@ namespace UnityEngine::Timeline {
     public:
     // static public System.Void ConvertRotationToEuler(UnityEngine.Timeline.AnimationPlayableAsset asset)
     // Offset: 0x1C91344
-    static void ConvertRotationToEuler(UnityEngine::Timeline::AnimationPlayableAsset* asset);
+    static void ConvertRotationToEuler(::UnityEngine::Timeline::AnimationPlayableAsset* asset);
   }; // UnityEngine.Timeline.AnimationPlayableAsset/UnityEngine.Timeline.AnimationPlayableAssetUpgrade
   #pragma pack(pop)
 }
@@ -29,7 +29,7 @@ namespace UnityEngine::Timeline {
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationPlayableAsset::AnimationPlayableAssetUpgrade::ConvertRotationToEuler
 // Il2CppName: ConvertRotationToEuler
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Timeline::AnimationPlayableAsset*)>(&UnityEngine::Timeline::AnimationPlayableAsset::AnimationPlayableAssetUpgrade::ConvertRotationToEuler)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Timeline::AnimationPlayableAsset*)>(&UnityEngine::Timeline::AnimationPlayableAsset::AnimationPlayableAssetUpgrade::ConvertRotationToEuler)> {
   static const MethodInfo* get() {
     static auto* asset = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "AnimationPlayableAsset")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AnimationPlayableAsset::AnimationPlayableAssetUpgrade*), "ConvertRotationToEuler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asset});

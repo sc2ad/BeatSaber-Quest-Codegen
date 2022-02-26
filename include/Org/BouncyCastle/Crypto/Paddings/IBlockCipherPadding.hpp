@@ -20,8 +20,8 @@ namespace Org::BouncyCastle::Crypto::Paddings {
   class IBlockCipherPadding;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*, "Org.BouncyCastle.Crypto.Paddings", "IBlockCipherPadding");
+NEED_NO_BOX(::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*, "Org.BouncyCastle.Crypto.Paddings", "IBlockCipherPadding");
 // Type namespace: Org.BouncyCastle.Crypto.Paddings
 namespace Org::BouncyCastle::Crypto::Paddings {
   // Size: 0x10
@@ -32,7 +32,7 @@ namespace Org::BouncyCastle::Crypto::Paddings {
     public:
     // public System.Void Init(Org.BouncyCastle.Security.SecureRandom random)
     // Offset: 0xFFFFFFFF
-    void Init(Org::BouncyCastle::Security::SecureRandom* random);
+    void Init(::Org::BouncyCastle::Security::SecureRandom* random);
     // public System.Int32 AddPadding(System.Byte[] input, System.Int32 inOff)
     // Offset: 0xFFFFFFFF
     int AddPadding(::ArrayW<uint8_t> input, int inOff);
@@ -46,7 +46,7 @@ namespace Org::BouncyCastle::Crypto::Paddings {
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding::*)(Org::BouncyCastle::Security::SecureRandom*)>(&Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding::*)(::Org::BouncyCastle::Security::SecureRandom*)>(&Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding::Init)> {
   static const MethodInfo* get() {
     static auto* random = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Security", "SecureRandom")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{random});

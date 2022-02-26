@@ -32,8 +32,8 @@ namespace GlobalNamespace {
   class BeatmapObjectAvoidancePathEvaluator;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BeatmapObjectAvoidancePathEvaluator);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectAvoidancePathEvaluator*, "", "BeatmapObjectAvoidancePathEvaluator");
+NEED_NO_BOX(::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator*, "", "BeatmapObjectAvoidancePathEvaluator");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x40
@@ -90,21 +90,21 @@ namespace GlobalNamespace {
     // private readonly BezierSplineEvaluator _pathBezierCurveEvaluator
     // Size: 0x8
     // Offset: 0x28
-    GlobalNamespace::BezierSplineEvaluator* pathBezierCurveEvaluator;
+    ::GlobalNamespace::BezierSplineEvaluator* pathBezierCurveEvaluator;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::BezierSplineEvaluator*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::BezierSplineEvaluator*) == 0x8);
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x30
-    GlobalNamespace::IAudioTimeSource* audioTimeSource;
+    ::GlobalNamespace::IAudioTimeSource* audioTimeSource;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::IAudioTimeSource*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::IAudioTimeSource*) == 0x8);
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x38
-    GlobalNamespace::PlayerTransforms* playerTransforms;
+    ::GlobalNamespace::PlayerTransforms* playerTransforms;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::PlayerTransforms*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::PlayerTransforms*) == 0x8);
     public:
     // Get instance field reference: private readonly System.Single _jumpStartZ
     float& dyn__jumpStartZ();
@@ -119,24 +119,24 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Single _moveToPlayerHeadTParam
     float& dyn__moveToPlayerHeadTParam();
     // Get instance field reference: private readonly BezierSplineEvaluator _pathBezierCurveEvaluator
-    GlobalNamespace::BezierSplineEvaluator*& dyn__pathBezierCurveEvaluator();
+    ::GlobalNamespace::BezierSplineEvaluator*& dyn__pathBezierCurveEvaluator();
     // Get instance field reference: private readonly IAudioTimeSource _audioTimeSource
-    GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSource();
+    ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSource();
     // Get instance field reference: private readonly PlayerTransforms _playerTransforms
-    GlobalNamespace::PlayerTransforms*& dyn__playerTransforms();
+    ::GlobalNamespace::PlayerTransforms*& dyn__playerTransforms();
     // public System.Void .ctor(IAudioTimeSource audioTimeSource, PlayerTransforms playerTransforms, BezierSplineEvaluator pathBezierCurveEvaluator, System.Single jumpStartZ, System.Single jumpEndZ, System.Single yOffset, System.Single zOffset, System.Single noteJumpSeed, System.Single moveToPlayerHeadTParam)
     // Offset: 0x14C6C7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BeatmapObjectAvoidancePathEvaluator* New_ctor(GlobalNamespace::IAudioTimeSource* audioTimeSource, GlobalNamespace::PlayerTransforms* playerTransforms, GlobalNamespace::BezierSplineEvaluator* pathBezierCurveEvaluator, float jumpStartZ, float jumpEndZ, float yOffset, float zOffset, float noteJumpSeed, float moveToPlayerHeadTParam) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapObjectAvoidancePathEvaluator::.ctor");
+    static BeatmapObjectAvoidancePathEvaluator* New_ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::PlayerTransforms* playerTransforms, ::GlobalNamespace::BezierSplineEvaluator* pathBezierCurveEvaluator, float jumpStartZ, float jumpEndZ, float yOffset, float zOffset, float noteJumpSeed, float moveToPlayerHeadTParam) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectAvoidancePathEvaluator*, creationType>(audioTimeSource, playerTransforms, pathBezierCurveEvaluator, jumpStartZ, jumpEndZ, yOffset, zOffset, noteJumpSeed, moveToPlayerHeadTParam)));
     }
     // public UnityEngine.Vector3 GetCurrentPathPosition()
     // Offset: 0x14C6CF8
-    UnityEngine::Vector3 GetCurrentPathPosition();
+    ::UnityEngine::Vector3 GetCurrentPathPosition();
   }; // BeatmapObjectAvoidancePathEvaluator
   #pragma pack(pop)
-  static check_size<sizeof(BeatmapObjectAvoidancePathEvaluator), 56 + sizeof(GlobalNamespace::PlayerTransforms*)> __GlobalNamespace_BeatmapObjectAvoidancePathEvaluatorSizeCheck;
+  static check_size<sizeof(BeatmapObjectAvoidancePathEvaluator), 56 + sizeof(::GlobalNamespace::PlayerTransforms*)> __GlobalNamespace_BeatmapObjectAvoidancePathEvaluatorSizeCheck;
   static_assert(sizeof(BeatmapObjectAvoidancePathEvaluator) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -147,7 +147,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectAvoidancePathEvaluator::GetCurrentPathPosition
 // Il2CppName: GetCurrentPathPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::BeatmapObjectAvoidancePathEvaluator::*)()>(&GlobalNamespace::BeatmapObjectAvoidancePathEvaluator::GetCurrentPathPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (GlobalNamespace::BeatmapObjectAvoidancePathEvaluator::*)()>(&GlobalNamespace::BeatmapObjectAvoidancePathEvaluator::GetCurrentPathPosition)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectAvoidancePathEvaluator*), "GetCurrentPathPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

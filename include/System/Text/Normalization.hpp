@@ -30,8 +30,8 @@ namespace System::Text {
   class Normalization;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Text::Normalization);
-DEFINE_IL2CPP_ARG_TYPE(System::Text::Normalization*, "System.Text", "Normalization");
+NEED_NO_BOX(::System::Text::Normalization);
+DEFINE_IL2CPP_ARG_TYPE(::System::Text::Normalization*, "System.Text", "Normalization");
 // Type namespace: System.Text
 namespace System::Text {
   // Size: 0x10
@@ -95,19 +95,19 @@ namespace System::Text {
     static ::StringW Compose(::StringW source, int checkType);
     // static private System.Text.StringBuilder Combine(System.String source, System.Int32 start, System.Int32 checkType)
     // Offset: 0x1FAA0F8
-    static System::Text::StringBuilder* Combine(::StringW source, int start, int checkType);
+    static ::System::Text::StringBuilder* Combine(::StringW source, int start, int checkType);
     // static private System.Void Combine(System.Text.StringBuilder sb, System.Int32 i, System.Int32 checkType)
     // Offset: 0x1FAA238
-    static void Combine(System::Text::StringBuilder* sb, int i, int checkType);
+    static void Combine(::System::Text::StringBuilder* sb, int i, int checkType);
     // static private System.Int32 CombineHangul(System.Text.StringBuilder sb, System.String s, System.Int32 current)
     // Offset: 0x1FAA640
-    static int CombineHangul(System::Text::StringBuilder* sb, ::StringW s, int current);
+    static int CombineHangul(::System::Text::StringBuilder* sb, ::StringW s, int current);
     // static private System.Int32 Fetch(System.Text.StringBuilder sb, System.String s, System.Int32 i)
     // Offset: 0x1FAAB34
-    static int Fetch(System::Text::StringBuilder* sb, ::StringW s, int i);
+    static int Fetch(::System::Text::StringBuilder* sb, ::StringW s, int i);
     // static private System.Int32 TryComposeWithPreviousStarter(System.Text.StringBuilder sb, System.String s, System.Int32 current)
     // Offset: 0x1FAA8D8
-    static int TryComposeWithPreviousStarter(System::Text::StringBuilder* sb, ::StringW s, int current);
+    static int TryComposeWithPreviousStarter(::System::Text::StringBuilder* sb, ::StringW s, int current);
     // static private System.Int32 TryCompose(System.Int32 i, System.Int32 starter, System.Int32 candidate)
     // Offset: 0x1FAADF4
     static int TryCompose(int i, int starter, int candidate);
@@ -116,16 +116,16 @@ namespace System::Text {
     static ::StringW Decompose(::StringW source, int checkType);
     // static private System.Void Decompose(System.String source, ref System.Text.StringBuilder sb, System.Int32 checkType)
     // Offset: 0x1FA9FA0
-    static void Decompose(::StringW source, ByRef<System::Text::StringBuilder*> sb, int checkType);
+    static void Decompose(::StringW source, ByRef<::System::Text::StringBuilder*> sb, int checkType);
     // static private System.Void ReorderCanonical(System.String src, ref System.Text.StringBuilder sb, System.Int32 start)
     // Offset: 0x1FAB344
-    static void ReorderCanonical(::StringW src, ByRef<System::Text::StringBuilder*> sb, int start);
+    static void ReorderCanonical(::StringW src, ByRef<::System::Text::StringBuilder*> sb, int start);
     // static private System.Void DecomposeChar(ref System.Text.StringBuilder sb, ref System.Int32[] buf, System.String s, System.Int32 i, System.Int32 checkType, ref System.Int32 start)
     // Offset: 0x1FAAFE0
-    static void DecomposeChar(ByRef<System::Text::StringBuilder*> sb, ByRef<::ArrayW<int>> buf, ::StringW s, int i, int checkType, ByRef<int> start);
+    static void DecomposeChar(ByRef<::System::Text::StringBuilder*> sb, ByRef<::ArrayW<int>> buf, ::StringW s, int i, int checkType, ByRef<int> start);
     // static public System.Text.NormalizationCheck QuickCheck(System.Char c, System.Int32 type)
     // Offset: 0x1FAA364
-    static System::Text::NormalizationCheck QuickCheck(::Il2CppChar c, int type);
+    static ::System::Text::NormalizationCheck QuickCheck(::Il2CppChar c, int type);
     // static private System.Int32 GetCanonicalHangul(System.Int32 s, System.Int32[] buf, System.Int32 bufIdx)
     // Offset: 0x1FAB824
     static int GetCanonicalHangul(int s, ::ArrayW<int> buf, int bufIdx);
@@ -134,13 +134,13 @@ namespace System::Text {
     static int GetCanonical(int c, ::ArrayW<int> buf, int bufIdx, int checkType);
     // static public System.String Normalize(System.String source, System.Text.NormalizationForm normalizationForm)
     // Offset: 0x1FAB928
-    static ::StringW Normalize(::StringW source, System::Text::NormalizationForm normalizationForm);
+    static ::StringW Normalize(::StringW source, ::System::Text::NormalizationForm normalizationForm);
     // static public System.String Normalize(System.String source, System.Int32 type)
     // Offset: 0x1FABA14
     static ::StringW Normalize(::StringW source, int type);
     // static private System.Void load_normalization_resource(out System.IntPtr props, out System.IntPtr mappedChars, out System.IntPtr charMapIndex, out System.IntPtr helperIndex, out System.IntPtr mapIdxToComposite, out System.IntPtr combiningClass)
     // Offset: 0x1FABACC
-    static void load_normalization_resource(ByRef<System::IntPtr> props, ByRef<System::IntPtr> mappedChars, ByRef<System::IntPtr> charMapIndex, ByRef<System::IntPtr> helperIndex, ByRef<System::IntPtr> mapIdxToComposite, ByRef<System::IntPtr> combiningClass);
+    static void load_normalization_resource(ByRef<::System::IntPtr> props, ByRef<::System::IntPtr> mappedChars, ByRef<::System::IntPtr> charMapIndex, ByRef<::System::IntPtr> helperIndex, ByRef<::System::IntPtr> mapIdxToComposite, ByRef<::System::IntPtr> combiningClass);
   }; // System.Text.Normalization
   #pragma pack(pop)
 }
@@ -211,7 +211,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Text::Normalization::Combine
 // Il2CppName: Combine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (*)(::StringW, int, int)>(&System::Text::Normalization::Combine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::StringBuilder* (*)(::StringW, int, int)>(&System::Text::Normalization::Combine)> {
   static const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -222,7 +222,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::Normalization::Combine
 // Il2CppName: Combine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Text::StringBuilder*, int, int)>(&System::Text::Normalization::Combine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, int, int)>(&System::Text::Normalization::Combine)> {
   static const MethodInfo* get() {
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -233,7 +233,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Text::Normalization::CombineHangul
 // Il2CppName: CombineHangul
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Text::StringBuilder*, ::StringW, int)>(&System::Text::Normalization::CombineHangul)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::System::Text::StringBuilder*, ::StringW, int)>(&System::Text::Normalization::CombineHangul)> {
   static const MethodInfo* get() {
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -244,7 +244,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Writing MetadataGetter for method: System::Text::Normalization::Fetch
 // Il2CppName: Fetch
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Text::StringBuilder*, ::StringW, int)>(&System::Text::Normalization::Fetch)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::System::Text::StringBuilder*, ::StringW, int)>(&System::Text::Normalization::Fetch)> {
   static const MethodInfo* get() {
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -255,7 +255,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Writing MetadataGetter for method: System::Text::Normalization::TryComposeWithPreviousStarter
 // Il2CppName: TryComposeWithPreviousStarter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Text::StringBuilder*, ::StringW, int)>(&System::Text::Normalization::TryComposeWithPreviousStarter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::System::Text::StringBuilder*, ::StringW, int)>(&System::Text::Normalization::TryComposeWithPreviousStarter)> {
   static const MethodInfo* get() {
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -287,7 +287,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Text::Normalization::Decompose
 // Il2CppName: Decompose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ByRef<System::Text::StringBuilder*>, int)>(&System::Text::Normalization::Decompose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ByRef<::System::Text::StringBuilder*>, int)>(&System::Text::Normalization::Decompose)> {
   static const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->this_arg;
@@ -298,7 +298,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::Text::Normalization::ReorderCanonical
 // Il2CppName: ReorderCanonical
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ByRef<System::Text::StringBuilder*>, int)>(&System::Text::Normalization::ReorderCanonical)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ByRef<::System::Text::StringBuilder*>, int)>(&System::Text::Normalization::ReorderCanonical)> {
   static const MethodInfo* get() {
     static auto* src = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->this_arg;
@@ -309,7 +309,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::Text::Normalization::DecomposeChar
 // Il2CppName: DecomposeChar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<System::Text::StringBuilder*>, ByRef<::ArrayW<int>>, ::StringW, int, int, ByRef<int>)>(&System::Text::Normalization::DecomposeChar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::System::Text::StringBuilder*>, ByRef<::ArrayW<int>>, ::StringW, int, int, ByRef<int>)>(&System::Text::Normalization::DecomposeChar)> {
   static const MethodInfo* get() {
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->this_arg;
     static auto* buf = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->this_arg;
@@ -323,7 +323,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(By
 // Writing MetadataGetter for method: System::Text::Normalization::QuickCheck
 // Il2CppName: QuickCheck
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::NormalizationCheck (*)(::Il2CppChar, int)>(&System::Text::Normalization::QuickCheck)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::NormalizationCheck (*)(::Il2CppChar, int)>(&System::Text::Normalization::QuickCheck)> {
   static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -356,7 +356,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 // Writing MetadataGetter for method: System::Text::Normalization::Normalize
 // Il2CppName: Normalize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, System::Text::NormalizationForm)>(&System::Text::Normalization::Normalize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::System::Text::NormalizationForm)>(&System::Text::Normalization::Normalize)> {
   static const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* normalizationForm = &::il2cpp_utils::GetClassFromName("System.Text", "NormalizationForm")->byval_arg;
@@ -376,7 +376,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Text::Normalization::load_normalization_resource
 // Il2CppName: load_normalization_resource
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<System::IntPtr>, ByRef<System::IntPtr>, ByRef<System::IntPtr>, ByRef<System::IntPtr>, ByRef<System::IntPtr>, ByRef<System::IntPtr>)>(&System::Text::Normalization::load_normalization_resource)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::System::IntPtr>, ByRef<::System::IntPtr>, ByRef<::System::IntPtr>, ByRef<::System::IntPtr>, ByRef<::System::IntPtr>, ByRef<::System::IntPtr>)>(&System::Text::Normalization::load_normalization_resource)> {
   static const MethodInfo* get() {
     static auto* props = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->this_arg;
     static auto* mappedChars = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->this_arg;

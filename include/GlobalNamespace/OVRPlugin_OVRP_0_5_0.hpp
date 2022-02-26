@@ -16,8 +16,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRPlugin::OVRP_0_5_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_0_5_0*, "", "OVRPlugin/OVRP_0_5_0");
+NEED_NO_BOX(::GlobalNamespace::OVRPlugin::OVRP_0_5_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRPlugin::OVRP_0_5_0*, "", "OVRPlugin/OVRP_0_5_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -27,9 +27,9 @@ namespace GlobalNamespace {
   class OVRPlugin::OVRP_0_5_0 : public ::Il2CppObject {
     public:
     // Get static field: static public readonly System.Version version
-    static System::Version* _get_version();
+    static ::System::Version* _get_version();
     // Set static field: static public readonly System.Version version
-    static void _set_version(System::Version* value);
+    static void _set_version(::System::Version* value);
     // static private System.Void .cctor()
     // Offset: 0x1A6F6B4
     static void _cctor();

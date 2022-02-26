@@ -33,8 +33,8 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   class WNafUtilities;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities*, "Org.BouncyCastle.Math.EC.Multiplier", "WNafUtilities");
+NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities*, "Org.BouncyCastle.Math.EC.Multiplier", "WNafUtilities");
 // Type namespace: Org.BouncyCastle.Math.EC.Multiplier
 namespace Org::BouncyCastle::Math::EC::Multiplier {
   // Size: 0x10
@@ -43,11 +43,11 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   // [TokenAttribute] Offset: FFFFFFFF
   class WNafUtilities : public ::Il2CppObject {
     public:
-    // Nested type: Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::ConfigureBasepointCallback
+    // Nested type: ::Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::ConfigureBasepointCallback
     class ConfigureBasepointCallback;
-    // Nested type: Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::PrecomputeCallback
+    // Nested type: ::Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::PrecomputeCallback
     class PrecomputeCallback;
-    // Nested type: Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::PrecomputeWithPointMapCallback
+    // Nested type: ::Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::PrecomputeWithPointMapCallback
     class PrecomputeWithPointMapCallback;
     // Get static field: static public readonly System.String PRECOMP_NAME
     static ::StringW _get_PRECOMP_NAME();
@@ -62,30 +62,30 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Set static field: static private readonly System.Int32 MAX_WIDTH
     static void _set_MAX_WIDTH(int value);
     // Get static field: static private readonly Org.BouncyCastle.Math.EC.ECPoint[] EMPTY_POINTS
-    static ::ArrayW<Org::BouncyCastle::Math::EC::ECPoint*> _get_EMPTY_POINTS();
+    static ::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*> _get_EMPTY_POINTS();
     // Set static field: static private readonly Org.BouncyCastle.Math.EC.ECPoint[] EMPTY_POINTS
-    static void _set_EMPTY_POINTS(::ArrayW<Org::BouncyCastle::Math::EC::ECPoint*> value);
+    static void _set_EMPTY_POINTS(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*> value);
     // static private System.Void .cctor()
     // Offset: 0x227FCC0
     static void _cctor();
     // static public System.Void ConfigureBasepoint(Org.BouncyCastle.Math.EC.ECPoint p)
     // Offset: 0x227EEE0
-    static void ConfigureBasepoint(Org::BouncyCastle::Math::EC::ECPoint* p);
+    static void ConfigureBasepoint(::Org::BouncyCastle::Math::EC::ECPoint* p);
     // static public System.Int32[] GenerateCompactNaf(Org.BouncyCastle.Math.BigInteger k)
     // Offset: 0x227F098
-    static ::ArrayW<int> GenerateCompactNaf(Org::BouncyCastle::Math::BigInteger* k);
+    static ::ArrayW<int> GenerateCompactNaf(::Org::BouncyCastle::Math::BigInteger* k);
     // static public System.Int32[] GenerateCompactWindowNaf(System.Int32 width, Org.BouncyCastle.Math.BigInteger k)
     // Offset: 0x227EA90
-    static ::ArrayW<int> GenerateCompactWindowNaf(int width, Org::BouncyCastle::Math::BigInteger* k);
+    static ::ArrayW<int> GenerateCompactWindowNaf(int width, ::Org::BouncyCastle::Math::BigInteger* k);
     // static public System.Byte[] GenerateNaf(Org.BouncyCastle.Math.BigInteger k)
     // Offset: 0x227F38C
-    static ::ArrayW<uint8_t> GenerateNaf(Org::BouncyCastle::Math::BigInteger* k);
+    static ::ArrayW<uint8_t> GenerateNaf(::Org::BouncyCastle::Math::BigInteger* k);
     // static public System.Byte[] GenerateWindowNaf(System.Int32 width, Org.BouncyCastle.Math.BigInteger k)
     // Offset: 0x227F528
-    static ::ArrayW<uint8_t> GenerateWindowNaf(int width, Org::BouncyCastle::Math::BigInteger* k);
+    static ::ArrayW<uint8_t> GenerateWindowNaf(int width, ::Org::BouncyCastle::Math::BigInteger* k);
     // static public System.Int32 GetNafWeight(Org.BouncyCastle.Math.BigInteger k)
     // Offset: 0x227F88C
-    static int GetNafWeight(Org::BouncyCastle::Math::BigInteger* k);
+    static int GetNafWeight(::Org::BouncyCastle::Math::BigInteger* k);
     // static public System.Int32 GetWindowSize(System.Int32 bits)
     // Offset: 0x227E8EC
     static int GetWindowSize(int bits);
@@ -97,10 +97,10 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     static int GetWindowSize(int bits, ::ArrayW<int> windowSizeCutoffs, int maxWidth);
     // static public Org.BouncyCastle.Math.EC.Multiplier.WNafPreCompInfo Precompute(Org.BouncyCastle.Math.EC.ECPoint p, System.Int32 minWidth, System.Boolean includeNegated)
     // Offset: 0x227E960
-    static Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo* Precompute(Org::BouncyCastle::Math::EC::ECPoint* p, int minWidth, bool includeNegated);
+    static ::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo* Precompute(::Org::BouncyCastle::Math::EC::ECPoint* p, int minWidth, bool includeNegated);
     // static public Org.BouncyCastle.Math.EC.Multiplier.WNafPreCompInfo PrecomputeWithPointMap(Org.BouncyCastle.Math.EC.ECPoint p, Org.BouncyCastle.Math.EC.ECPointMap pointMap, Org.BouncyCastle.Math.EC.Multiplier.WNafPreCompInfo fromWNaf, System.Boolean includeNegated)
     // Offset: 0x227FAA4
-    static Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo* PrecomputeWithPointMap(Org::BouncyCastle::Math::EC::ECPoint* p, Org::BouncyCastle::Math::EC::ECPointMap* pointMap, Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo* fromWNaf, bool includeNegated);
+    static ::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo* PrecomputeWithPointMap(::Org::BouncyCastle::Math::EC::ECPoint* p, ::Org::BouncyCastle::Math::EC::ECPointMap* pointMap, ::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo* fromWNaf, bool includeNegated);
     // static private System.Byte[] Trim(System.Byte[] a, System.Int32 length)
     // Offset: 0x227F800
     static ::ArrayW<uint8_t> Trim(::ArrayW<uint8_t> a, int length);
@@ -109,7 +109,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     static ::ArrayW<int> Trim(::ArrayW<int> a, int length);
     // static private Org.BouncyCastle.Math.EC.ECPoint[] ResizeTable(Org.BouncyCastle.Math.EC.ECPoint[] a, System.Int32 length)
     // Offset: 0x227FC34
-    static ::ArrayW<Org::BouncyCastle::Math::EC::ECPoint*> ResizeTable(::ArrayW<Org::BouncyCastle::Math::EC::ECPoint*> a, int length);
+    static ::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*> ResizeTable(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*> a, int length);
   }; // Org.BouncyCastle.Math.EC.Multiplier.WNafUtilities
   #pragma pack(pop)
 }
@@ -125,7 +125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::ConfigureBasepoint
 // Il2CppName: ConfigureBasepoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Org::BouncyCastle::Math::EC::ECPoint*)>(&Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::ConfigureBasepoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Org::BouncyCastle::Math::EC::ECPoint*)>(&Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::ConfigureBasepoint)> {
   static const MethodInfo* get() {
     static auto* p = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECPoint")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities*), "ConfigureBasepoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{p});
@@ -134,7 +134,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Or
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::GenerateCompactNaf
 // Il2CppName: GenerateCompactNaf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (*)(Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::GenerateCompactNaf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (*)(::Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::GenerateCompactNaf)> {
   static const MethodInfo* get() {
     static auto* k = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math", "BigInteger")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities*), "GenerateCompactNaf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{k});
@@ -143,7 +143,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<in
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::GenerateCompactWindowNaf
 // Il2CppName: GenerateCompactWindowNaf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (*)(int, Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::GenerateCompactWindowNaf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (*)(int, ::Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::GenerateCompactWindowNaf)> {
   static const MethodInfo* get() {
     static auto* width = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* k = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math", "BigInteger")->byval_arg;
@@ -153,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<in
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::GenerateNaf
 // Il2CppName: GenerateNaf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::GenerateNaf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::GenerateNaf)> {
   static const MethodInfo* get() {
     static auto* k = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math", "BigInteger")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities*), "GenerateNaf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{k});
@@ -162,7 +162,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::GenerateWindowNaf
 // Il2CppName: GenerateWindowNaf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(int, Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::GenerateWindowNaf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(int, ::Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::GenerateWindowNaf)> {
   static const MethodInfo* get() {
     static auto* width = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* k = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math", "BigInteger")->byval_arg;
@@ -172,7 +172,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::GetNafWeight
 // Il2CppName: GetNafWeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::GetNafWeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::GetNafWeight)> {
   static const MethodInfo* get() {
     static auto* k = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math", "BigInteger")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities*), "GetNafWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{k});
@@ -211,7 +211,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::Precompute
 // Il2CppName: Precompute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo* (*)(Org::BouncyCastle::Math::EC::ECPoint*, int, bool)>(&Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::Precompute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo* (*)(::Org::BouncyCastle::Math::EC::ECPoint*, int, bool)>(&Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::Precompute)> {
   static const MethodInfo* get() {
     static auto* p = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECPoint")->byval_arg;
     static auto* minWidth = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -222,7 +222,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::PrecomputeWithPointMap
 // Il2CppName: PrecomputeWithPointMap
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo* (*)(Org::BouncyCastle::Math::EC::ECPoint*, Org::BouncyCastle::Math::EC::ECPointMap*, Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo*, bool)>(&Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::PrecomputeWithPointMap)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo* (*)(::Org::BouncyCastle::Math::EC::ECPoint*, ::Org::BouncyCastle::Math::EC::ECPointMap*, ::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo*, bool)>(&Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::PrecomputeWithPointMap)> {
   static const MethodInfo* get() {
     static auto* p = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECPoint")->byval_arg;
     static auto* pointMap = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECPointMap")->byval_arg;
@@ -254,7 +254,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<in
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::ResizeTable
 // Il2CppName: ResizeTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Org::BouncyCastle::Math::EC::ECPoint*> (*)(::ArrayW<Org::BouncyCastle::Math::EC::ECPoint*>, int)>(&Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::ResizeTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*> (*)(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*>, int)>(&Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::ResizeTable)> {
   static const MethodInfo* get() {
     static auto* a = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECPoint"), 1)->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

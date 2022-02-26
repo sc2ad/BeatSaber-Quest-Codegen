@@ -12,8 +12,8 @@ namespace GlobalNamespace {
   class BitMaskUtil;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BitMaskUtil);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BitMaskUtil*, "", "BitMaskUtil");
+NEED_NO_BOX(::GlobalNamespace::BitMaskUtil);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BitMaskUtil*, "", "BitMaskUtil");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10

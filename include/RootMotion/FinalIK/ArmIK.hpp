@@ -27,8 +27,8 @@ namespace RootMotion::FinalIK {
   class ArmIK;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::ArmIK);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::ArmIK*, "RootMotion.FinalIK", "ArmIK");
+NEED_NO_BOX(::RootMotion::FinalIK::ArmIK);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::ArmIK*, "RootMotion.FinalIK", "ArmIK");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x40
@@ -37,7 +37,7 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   // [HelpURLAttribute] Offset: 1262A80
   // [AddComponentMenu] Offset: 1262A80
-  class ArmIK : public RootMotion::FinalIK::IK {
+  class ArmIK : public ::RootMotion::FinalIK::IK {
     public:
     // Writing base type padding for base size: 0x33 to desired offset: 0x38
     char ___base_padding[0x5] = {};
@@ -53,12 +53,12 @@ namespace RootMotion::FinalIK {
     // public RootMotion.FinalIK.IKSolverArm solver
     // Size: 0x8
     // Offset: 0x38
-    RootMotion::FinalIK::IKSolverArm* solver;
+    ::RootMotion::FinalIK::IKSolverArm* solver;
     // Field size check
-    static_assert(sizeof(RootMotion::FinalIK::IKSolverArm*) == 0x8);
+    static_assert(sizeof(::RootMotion::FinalIK::IKSolverArm*) == 0x8);
     public:
     // Get instance field reference: public RootMotion.FinalIK.IKSolverArm solver
-    RootMotion::FinalIK::IKSolverArm*& dyn_solver();
+    ::RootMotion::FinalIK::IKSolverArm*& dyn_solver();
     // private System.Void SupportGroup()
     // Offset: 0x222987C
     void SupportGroup();
@@ -77,7 +77,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ArmIK* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::ArmIK::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::ArmIK::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ArmIK*, creationType>()));
     }
     // protected override System.Void OpenUserManual()
@@ -94,10 +94,10 @@ namespace RootMotion::FinalIK {
     // Offset: 0x2229914
     // Implemented from: RootMotion.FinalIK.IK
     // Base method: RootMotion.FinalIK.IKSolver IK::GetIKSolver()
-    RootMotion::FinalIK::IKSolver* GetIKSolver();
+    ::RootMotion::FinalIK::IKSolver* GetIKSolver();
   }; // RootMotion.FinalIK.ArmIK
   #pragma pack(pop)
-  static check_size<sizeof(ArmIK), 56 + sizeof(RootMotion::FinalIK::IKSolverArm*)> __RootMotion_FinalIK_ArmIKSizeCheck;
+  static check_size<sizeof(ArmIK), 56 + sizeof(::RootMotion::FinalIK::IKSolverArm*)> __RootMotion_FinalIK_ArmIKSizeCheck;
   static_assert(sizeof(ArmIK) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -140,7 +140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::ArmIK::GetIKSolver
 // Il2CppName: GetIKSolver
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKSolver* (RootMotion::FinalIK::ArmIK::*)()>(&RootMotion::FinalIK::ArmIK::GetIKSolver)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::FinalIK::IKSolver* (RootMotion::FinalIK::ArmIK::*)()>(&RootMotion::FinalIK::ArmIK::GetIKSolver)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::ArmIK*), "GetIKSolver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

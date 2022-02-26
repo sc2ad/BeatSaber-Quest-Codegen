@@ -32,8 +32,8 @@ namespace UnityEngine {
   class Internal_SubsystemInstances;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Internal_SubsystemInstances);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Internal_SubsystemInstances*, "UnityEngine", "Internal_SubsystemInstances");
+NEED_NO_BOX(::UnityEngine::Internal_SubsystemInstances);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Internal_SubsystemInstances*, "UnityEngine", "Internal_SubsystemInstances");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -43,28 +43,28 @@ namespace UnityEngine {
   class Internal_SubsystemInstances : public ::Il2CppObject {
     public:
     // Get static field: static System.Collections.Generic.List`1<UnityEngine.ISubsystem> s_IntegratedSubsystemInstances
-    static System::Collections::Generic::List_1<UnityEngine::ISubsystem*>* _get_s_IntegratedSubsystemInstances();
+    static ::System::Collections::Generic::List_1<::UnityEngine::ISubsystem*>* _get_s_IntegratedSubsystemInstances();
     // Set static field: static System.Collections.Generic.List`1<UnityEngine.ISubsystem> s_IntegratedSubsystemInstances
-    static void _set_s_IntegratedSubsystemInstances(System::Collections::Generic::List_1<UnityEngine::ISubsystem*>* value);
+    static void _set_s_IntegratedSubsystemInstances(::System::Collections::Generic::List_1<::UnityEngine::ISubsystem*>* value);
     // Get static field: static System.Collections.Generic.List`1<UnityEngine.ISubsystem> s_StandaloneSubsystemInstances
-    static System::Collections::Generic::List_1<UnityEngine::ISubsystem*>* _get_s_StandaloneSubsystemInstances();
+    static ::System::Collections::Generic::List_1<::UnityEngine::ISubsystem*>* _get_s_StandaloneSubsystemInstances();
     // Set static field: static System.Collections.Generic.List`1<UnityEngine.ISubsystem> s_StandaloneSubsystemInstances
-    static void _set_s_StandaloneSubsystemInstances(System::Collections::Generic::List_1<UnityEngine::ISubsystem*>* value);
+    static void _set_s_StandaloneSubsystemInstances(::System::Collections::Generic::List_1<::UnityEngine::ISubsystem*>* value);
     // static private System.Void .cctor()
     // Offset: 0x2A5D15C
     static void _cctor();
     // static System.Void Internal_InitializeManagedInstance(System.IntPtr ptr, UnityEngine.IntegratedSubsystem inst)
     // Offset: 0x2A5CB78
-    static void Internal_InitializeManagedInstance(System::IntPtr ptr, UnityEngine::IntegratedSubsystem* inst);
+    static void Internal_InitializeManagedInstance(::System::IntPtr ptr, ::UnityEngine::IntegratedSubsystem* inst);
     // static System.Void Internal_ClearManagedInstances()
     // Offset: 0x2A5CC3C
     static void Internal_ClearManagedInstances();
     // static System.Void Internal_RemoveInstanceByPtr(System.IntPtr ptr)
     // Offset: 0x2A5CDF0
-    static void Internal_RemoveInstanceByPtr(System::IntPtr ptr);
+    static void Internal_RemoveInstanceByPtr(::System::IntPtr ptr);
     // static UnityEngine.IntegratedSubsystem Internal_GetInstanceByPtr(System.IntPtr ptr)
     // Offset: 0x2A5CFD8
-    static UnityEngine::IntegratedSubsystem* Internal_GetInstanceByPtr(System::IntPtr ptr);
+    static ::UnityEngine::IntegratedSubsystem* Internal_GetInstanceByPtr(::System::IntPtr ptr);
   }; // UnityEngine.Internal_SubsystemInstances
   #pragma pack(pop)
 }
@@ -80,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::Internal_SubsystemInstances::Internal_InitializeManagedInstance
 // Il2CppName: Internal_InitializeManagedInstance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, UnityEngine::IntegratedSubsystem*)>(&UnityEngine::Internal_SubsystemInstances::Internal_InitializeManagedInstance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::UnityEngine::IntegratedSubsystem*)>(&UnityEngine::Internal_SubsystemInstances::Internal_InitializeManagedInstance)> {
   static const MethodInfo* get() {
     static auto* ptr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* inst = &::il2cpp_utils::GetClassFromName("UnityEngine", "IntegratedSubsystem")->byval_arg;
@@ -98,7 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::Internal_SubsystemInstances::Internal_RemoveInstanceByPtr
 // Il2CppName: Internal_RemoveInstanceByPtr
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&UnityEngine::Internal_SubsystemInstances::Internal_RemoveInstanceByPtr)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&UnityEngine::Internal_SubsystemInstances::Internal_RemoveInstanceByPtr)> {
   static const MethodInfo* get() {
     static auto* ptr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Internal_SubsystemInstances*), "Internal_RemoveInstanceByPtr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ptr});
@@ -107,7 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::Internal_SubsystemInstances::Internal_GetInstanceByPtr
 // Il2CppName: Internal_GetInstanceByPtr
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::IntegratedSubsystem* (*)(System::IntPtr)>(&UnityEngine::Internal_SubsystemInstances::Internal_GetInstanceByPtr)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::IntegratedSubsystem* (*)(::System::IntPtr)>(&UnityEngine::Internal_SubsystemInstances::Internal_GetInstanceByPtr)> {
   static const MethodInfo* get() {
     static auto* ptr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Internal_SubsystemInstances*), "Internal_GetInstanceByPtr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ptr});

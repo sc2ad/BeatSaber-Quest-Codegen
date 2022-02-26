@@ -23,8 +23,8 @@ namespace GlobalNamespace {
   class BeatmapDataObstaclesAndBombsTransform;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BeatmapDataObstaclesAndBombsTransform);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataObstaclesAndBombsTransform*, "", "BeatmapDataObstaclesAndBombsTransform");
+NEED_NO_BOX(::GlobalNamespace::BeatmapDataObstaclesAndBombsTransform);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapDataObstaclesAndBombsTransform*, "", "BeatmapDataObstaclesAndBombsTransform");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -35,10 +35,10 @@ namespace GlobalNamespace {
     public:
     // static public IReadonlyBeatmapData CreateTransformedData(IReadonlyBeatmapData beatmapData, GameplayModifiers/EnabledObstacleType enabledObstaclesType, System.Boolean noBombs)
     // Offset: 0x2B49AA4
-    static GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(GlobalNamespace::IReadonlyBeatmapData* beatmapData, GlobalNamespace::GameplayModifiers::EnabledObstacleType enabledObstaclesType, bool noBombs);
+    static ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData, ::GlobalNamespace::GameplayModifiers::EnabledObstacleType enabledObstaclesType, bool noBombs);
     // static private System.Boolean ShouldUseBeatmapObject(BeatmapObjectData beatmapObjectData, GameplayModifiers/EnabledObstacleType enabledObstaclesType, System.Boolean noBombs)
     // Offset: 0x2B49E18
-    static bool ShouldUseBeatmapObject(GlobalNamespace::BeatmapObjectData* beatmapObjectData, GlobalNamespace::GameplayModifiers::EnabledObstacleType enabledObstaclesType, bool noBombs);
+    static bool ShouldUseBeatmapObject(::GlobalNamespace::BeatmapObjectData* beatmapObjectData, ::GlobalNamespace::GameplayModifiers::EnabledObstacleType enabledObstaclesType, bool noBombs);
   }; // BeatmapDataObstaclesAndBombsTransform
   #pragma pack(pop)
 }
@@ -46,7 +46,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataObstaclesAndBombsTransform::CreateTransformedData
 // Il2CppName: CreateTransformedData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IReadonlyBeatmapData* (*)(GlobalNamespace::IReadonlyBeatmapData*, GlobalNamespace::GameplayModifiers::EnabledObstacleType, bool)>(&GlobalNamespace::BeatmapDataObstaclesAndBombsTransform::CreateTransformedData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IReadonlyBeatmapData* (*)(::GlobalNamespace::IReadonlyBeatmapData*, ::GlobalNamespace::GameplayModifiers::EnabledObstacleType, bool)>(&GlobalNamespace::BeatmapDataObstaclesAndBombsTransform::CreateTransformedData)> {
   static const MethodInfo* get() {
     static auto* beatmapData = &::il2cpp_utils::GetClassFromName("", "IReadonlyBeatmapData")->byval_arg;
     static auto* enabledObstaclesType = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers/EnabledObstacleType")->byval_arg;
@@ -57,7 +57,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataObstaclesAndBombsTransform::ShouldUseBeatmapObject
 // Il2CppName: ShouldUseBeatmapObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::BeatmapObjectData*, GlobalNamespace::GameplayModifiers::EnabledObstacleType, bool)>(&GlobalNamespace::BeatmapDataObstaclesAndBombsTransform::ShouldUseBeatmapObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::BeatmapObjectData*, ::GlobalNamespace::GameplayModifiers::EnabledObstacleType, bool)>(&GlobalNamespace::BeatmapDataObstaclesAndBombsTransform::ShouldUseBeatmapObject)> {
   static const MethodInfo* get() {
     static auto* beatmapObjectData = &::il2cpp_utils::GetClassFromName("", "BeatmapObjectData")->byval_arg;
     static auto* enabledObstaclesType = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers/EnabledObstacleType")->byval_arg;

@@ -21,8 +21,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::TabBarViewController::TabBarItem);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TabBarViewController::TabBarItem*, "", "TabBarViewController/TabBarItem");
+NEED_NO_BOX(::GlobalNamespace::TabBarViewController::TabBarItem);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TabBarViewController::TabBarItem*, "", "TabBarViewController/TabBarItem");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -49,24 +49,24 @@ namespace GlobalNamespace {
     // public readonly System.Action action
     // Size: 0x8
     // Offset: 0x18
-    System::Action* action;
+    ::System::Action* action;
     // Field size check
-    static_assert(sizeof(System::Action*) == 0x8);
+    static_assert(sizeof(::System::Action*) == 0x8);
     public:
     // Get instance field reference: public readonly System.String title
     ::StringW& dyn_title();
     // Get instance field reference: public readonly System.Action action
-    System::Action*& dyn_action();
+    ::System::Action*& dyn_action();
     // public System.Void .ctor(System.String title, System.Action action)
     // Offset: 0x2AE2E08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TabBarViewController::TabBarItem* New_ctor(::StringW title, System::Action* action) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TabBarViewController::TabBarItem::.ctor");
+    static TabBarViewController::TabBarItem* New_ctor(::StringW title, ::System::Action* action) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TabBarViewController::TabBarItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TabBarViewController::TabBarItem*, creationType>(title, action)));
     }
   }; // TabBarViewController/TabBarItem
   #pragma pack(pop)
-  static check_size<sizeof(TabBarViewController::TabBarItem), 24 + sizeof(System::Action*)> __GlobalNamespace_TabBarViewController_TabBarItemSizeCheck;
+  static check_size<sizeof(TabBarViewController::TabBarItem), 24 + sizeof(::System::Action*)> __GlobalNamespace_TabBarViewController_TabBarItemSizeCheck;
   static_assert(sizeof(TabBarViewController::TabBarItem) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

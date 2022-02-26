@@ -25,8 +25,8 @@ namespace System::Threading {
   class SemaphoreFullException;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Threading::SemaphoreFullException);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::SemaphoreFullException*, "System.Threading", "SemaphoreFullException");
+NEED_NO_BOX(::System::Threading::SemaphoreFullException);
+DEFINE_IL2CPP_ARG_TYPE(::System::Threading::SemaphoreFullException*, "System.Threading", "SemaphoreFullException");
 // Type namespace: System.Threading
 namespace System::Threading {
   // Size: 0x88
@@ -35,7 +35,7 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   // [TypeForwardedFromAttribute] Offset: 118967C
   // [ComVisibleAttribute] Offset: 118967C
-  class SemaphoreFullException : public System::SystemException {
+  class SemaphoreFullException : public ::System::SystemException {
     public:
     // public System.Void .ctor()
     // Offset: 0x1C317CC
@@ -45,7 +45,7 @@ namespace System::Threading {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SemaphoreFullException* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::SemaphoreFullException::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::SemaphoreFullException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SemaphoreFullException*, creationType>()));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
@@ -54,8 +54,8 @@ namespace System::Threading {
     // Base method: System.Void SystemException::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SemaphoreFullException* New_ctor(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::SemaphoreFullException::.ctor");
+    static SemaphoreFullException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::SemaphoreFullException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SemaphoreFullException*, creationType>(info, context)));
     }
   }; // System.Threading.SemaphoreFullException

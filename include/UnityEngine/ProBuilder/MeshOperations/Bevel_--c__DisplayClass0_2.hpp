@@ -20,8 +20,8 @@ namespace UnityEngine::ProBuilder {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_2);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_2*, "UnityEngine.ProBuilder.MeshOperations", "Bevel/<>c__DisplayClass0_2");
+NEED_NO_BOX(::UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_2);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_2*, "UnityEngine.ProBuilder.MeshOperations", "Bevel/<>c__DisplayClass0_2");
 // Type namespace: UnityEngine.ProBuilder.MeshOperations
 namespace UnityEngine::ProBuilder::MeshOperations {
   // Size: 0x20
@@ -51,36 +51,36 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // public UnityEngine.ProBuilder.MeshOperations.Bevel/UnityEngine.ProBuilder.MeshOperations.<>c__DisplayClass0_0 CS$<>8__locals1
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_0* CS$$$8__locals1;
+    ::UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_0* CS$$$8__locals1;
     // Field size check
-    static_assert(sizeof(UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_0*) == 0x8);
+    static_assert(sizeof(::UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_0*) == 0x8);
     public:
     // Get instance field reference: public System.Int32 c
     int& dyn_c();
     // Get instance field reference: public UnityEngine.ProBuilder.MeshOperations.Bevel/UnityEngine.ProBuilder.MeshOperations.<>c__DisplayClass0_0 CS$<>8__locals1
-    UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_0*& dyn_CS$$$8__locals1();
+    ::UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_0*& dyn_CS$$$8__locals1();
     // System.Boolean <BevelEdges>b__5(UnityEngine.ProBuilder.WingedEdge x)
     // Offset: 0x19BA7A8
-    bool $BevelEdges$b__5(UnityEngine::ProBuilder::WingedEdge* x);
+    bool $BevelEdges$b__5(::UnityEngine::ProBuilder::WingedEdge* x);
     // public System.Void .ctor()
     // Offset: 0x19BA350
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Bevel::$$c__DisplayClass0_2* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_2::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Bevel::$$c__DisplayClass0_2*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.MeshOperations.Bevel/UnityEngine.ProBuilder.MeshOperations.<>c__DisplayClass0_2
   #pragma pack(pop)
-  static check_size<sizeof(Bevel::$$c__DisplayClass0_2), 24 + sizeof(UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_0*)> __UnityEngine_ProBuilder_MeshOperations_Bevel_$$c__DisplayClass0_2SizeCheck;
+  static check_size<sizeof(Bevel::$$c__DisplayClass0_2), 24 + sizeof(::UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_0*)> __UnityEngine_ProBuilder_MeshOperations_Bevel_$$c__DisplayClass0_2SizeCheck;
   static_assert(sizeof(Bevel::$$c__DisplayClass0_2) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_2::$BevelEdges$b__5
 // Il2CppName: <BevelEdges>b__5
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_2::*)(UnityEngine::ProBuilder::WingedEdge*)>(&UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_2::$BevelEdges$b__5)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_2::*)(::UnityEngine::ProBuilder::WingedEdge*)>(&UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_2::$BevelEdges$b__5)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "WingedEdge")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_2*), "<BevelEdges>b__5", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});

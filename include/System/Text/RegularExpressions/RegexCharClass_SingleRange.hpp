@@ -13,8 +13,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Text::RegularExpressions::RegexCharClass::SingleRange);
-DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexCharClass::SingleRange*, "System.Text.RegularExpressions", "RegexCharClass/SingleRange");
+NEED_NO_BOX(::System::Text::RegularExpressions::RegexCharClass::SingleRange);
+DEFINE_IL2CPP_ARG_TYPE(::System::Text::RegularExpressions::RegexCharClass::SingleRange*, "System.Text.RegularExpressions", "RegexCharClass/SingleRange");
 // Type namespace: System.Text.RegularExpressions
 namespace System::Text::RegularExpressions {
   // Size: 0x14
@@ -53,7 +53,7 @@ namespace System::Text::RegularExpressions {
     // Offset: 0x1E9C6A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexCharClass::SingleRange* New_ctor(::Il2CppChar first, ::Il2CppChar last) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::RegexCharClass::SingleRange::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::RegexCharClass::SingleRange::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexCharClass::SingleRange*, creationType>(first, last)));
     }
   }; // System.Text.RegularExpressions.RegexCharClass/System.Text.RegularExpressions.SingleRange

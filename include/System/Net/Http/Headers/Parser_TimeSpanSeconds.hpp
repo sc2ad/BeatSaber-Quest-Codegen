@@ -17,8 +17,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::Http::Headers::Parser::TimeSpanSeconds);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Parser::TimeSpanSeconds*, "System.Net.Http.Headers", "Parser/TimeSpanSeconds");
+NEED_NO_BOX(::System::Net::Http::Headers::Parser::TimeSpanSeconds);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::Parser::TimeSpanSeconds*, "System.Net.Http.Headers", "Parser/TimeSpanSeconds");
 // Type namespace: System.Net.Http.Headers
 namespace System::Net::Http::Headers {
   // Size: 0x10
@@ -29,7 +29,7 @@ namespace System::Net::Http::Headers {
     public:
     // static public System.Boolean TryParse(System.String input, out System.TimeSpan result)
     // Offset: 0x18FD848
-    static bool TryParse(::StringW input, ByRef<System::TimeSpan> result);
+    static bool TryParse(::StringW input, ByRef<::System::TimeSpan> result);
   }; // System.Net.Http.Headers.Parser/System.Net.Http.Headers.TimeSpanSeconds
   #pragma pack(pop)
 }
@@ -37,7 +37,7 @@ namespace System::Net::Http::Headers {
 // Writing MetadataGetter for method: System::Net::Http::Headers::Parser::TimeSpanSeconds::TryParse
 // Il2CppName: TryParse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<System::TimeSpan>)>(&System::Net::Http::Headers::Parser::TimeSpanSeconds::TryParse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<::System::TimeSpan>)>(&System::Net::Http::Headers::Parser::TimeSpanSeconds::TryParse)> {
   static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "TimeSpan")->this_arg;

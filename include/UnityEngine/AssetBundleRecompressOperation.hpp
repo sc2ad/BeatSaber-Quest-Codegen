@@ -14,8 +14,8 @@ namespace UnityEngine {
   class AssetBundleRecompressOperation;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::AssetBundleRecompressOperation);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AssetBundleRecompressOperation*, "UnityEngine", "AssetBundleRecompressOperation");
+NEED_NO_BOX(::UnityEngine::AssetBundleRecompressOperation);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AssetBundleRecompressOperation*, "UnityEngine", "AssetBundleRecompressOperation");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x20
@@ -25,7 +25,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [RequiredByNativeCodeAttribute] Offset: 11D5F7C
   // [NativeHeaderAttribute] Offset: 11D5F7C
-  class AssetBundleRecompressOperation : public UnityEngine::AsyncOperation {
+  class AssetBundleRecompressOperation : public ::UnityEngine::AsyncOperation {
     public:
   }; // UnityEngine.AssetBundleRecompressOperation
   #pragma pack(pop)

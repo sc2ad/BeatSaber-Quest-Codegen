@@ -33,8 +33,8 @@ namespace System::ComponentModel {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::ComponentModel::ReflectTypeDescriptionProvider::ReflectedTypeData);
-DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::ReflectTypeDescriptionProvider::ReflectedTypeData*, "System.ComponentModel", "ReflectTypeDescriptionProvider/ReflectedTypeData");
+NEED_NO_BOX(::System::ComponentModel::ReflectTypeDescriptionProvider::ReflectedTypeData);
+DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::ReflectTypeDescriptionProvider::ReflectedTypeData*, "System.ComponentModel", "ReflectTypeDescriptionProvider/ReflectedTypeData");
 // Type namespace: System.ComponentModel
 namespace System::ComponentModel {
   // Size: 0x4C
@@ -55,33 +55,33 @@ namespace System::ComponentModel {
     // private System.Type _type
     // Size: 0x8
     // Offset: 0x10
-    System::Type* type;
+    ::System::Type* type;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     // private System.ComponentModel.AttributeCollection _attributes
     // Size: 0x8
     // Offset: 0x18
-    System::ComponentModel::AttributeCollection* attributes;
+    ::System::ComponentModel::AttributeCollection* attributes;
     // Field size check
-    static_assert(sizeof(System::ComponentModel::AttributeCollection*) == 0x8);
+    static_assert(sizeof(::System::ComponentModel::AttributeCollection*) == 0x8);
     // private System.ComponentModel.EventDescriptorCollection _events
     // Size: 0x8
     // Offset: 0x20
-    System::ComponentModel::EventDescriptorCollection* events;
+    ::System::ComponentModel::EventDescriptorCollection* events;
     // Field size check
-    static_assert(sizeof(System::ComponentModel::EventDescriptorCollection*) == 0x8);
+    static_assert(sizeof(::System::ComponentModel::EventDescriptorCollection*) == 0x8);
     // private System.ComponentModel.PropertyDescriptorCollection _properties
     // Size: 0x8
     // Offset: 0x28
-    System::ComponentModel::PropertyDescriptorCollection* properties;
+    ::System::ComponentModel::PropertyDescriptorCollection* properties;
     // Field size check
-    static_assert(sizeof(System::ComponentModel::PropertyDescriptorCollection*) == 0x8);
+    static_assert(sizeof(::System::ComponentModel::PropertyDescriptorCollection*) == 0x8);
     // private System.ComponentModel.TypeConverter _converter
     // Size: 0x8
     // Offset: 0x30
-    System::ComponentModel::TypeConverter* converter;
+    ::System::ComponentModel::TypeConverter* converter;
     // Field size check
-    static_assert(sizeof(System::ComponentModel::TypeConverter*) == 0x8);
+    static_assert(sizeof(::System::ComponentModel::TypeConverter*) == 0x8);
     // private System.Object[] _editors
     // Size: 0x8
     // Offset: 0x38
@@ -91,9 +91,9 @@ namespace System::ComponentModel {
     // private System.Type[] _editorTypes
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayW<System::Type*> editorTypes;
+    ::ArrayW<::System::Type*> editorTypes;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::Type*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::System::Type*>) == 0x8);
     // private System.Int32 _editorCount
     // Size: 0x4
     // Offset: 0x48
@@ -102,19 +102,19 @@ namespace System::ComponentModel {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: private System.Type _type
-    System::Type*& dyn__type();
+    ::System::Type*& dyn__type();
     // Get instance field reference: private System.ComponentModel.AttributeCollection _attributes
-    System::ComponentModel::AttributeCollection*& dyn__attributes();
+    ::System::ComponentModel::AttributeCollection*& dyn__attributes();
     // Get instance field reference: private System.ComponentModel.EventDescriptorCollection _events
-    System::ComponentModel::EventDescriptorCollection*& dyn__events();
+    ::System::ComponentModel::EventDescriptorCollection*& dyn__events();
     // Get instance field reference: private System.ComponentModel.PropertyDescriptorCollection _properties
-    System::ComponentModel::PropertyDescriptorCollection*& dyn__properties();
+    ::System::ComponentModel::PropertyDescriptorCollection*& dyn__properties();
     // Get instance field reference: private System.ComponentModel.TypeConverter _converter
-    System::ComponentModel::TypeConverter*& dyn__converter();
+    ::System::ComponentModel::TypeConverter*& dyn__converter();
     // Get instance field reference: private System.Object[] _editors
     ::ArrayW<::Il2CppObject*>& dyn__editors();
     // Get instance field reference: private System.Type[] _editorTypes
-    ::ArrayW<System::Type*>& dyn__editorTypes();
+    ::ArrayW<::System::Type*>& dyn__editorTypes();
     // Get instance field reference: private System.Int32 _editorCount
     int& dyn__editorCount();
     // System.Boolean get_IsPopulated()
@@ -123,22 +123,22 @@ namespace System::ComponentModel {
     // System.Void .ctor(System.Type type)
     // Offset: 0x1EC5094
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ReflectTypeDescriptionProvider::ReflectedTypeData* New_ctor(System::Type* type) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::ReflectTypeDescriptionProvider::ReflectedTypeData::.ctor");
+    static ReflectTypeDescriptionProvider::ReflectedTypeData* New_ctor(::System::Type* type) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::ReflectTypeDescriptionProvider::ReflectedTypeData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReflectTypeDescriptionProvider::ReflectedTypeData*, creationType>(type)));
     }
     // System.ComponentModel.AttributeCollection GetAttributes()
     // Offset: 0x1EC1588
-    System::ComponentModel::AttributeCollection* GetAttributes();
+    ::System::ComponentModel::AttributeCollection* GetAttributes();
     // System.ComponentModel.TypeConverter GetConverter(System.Object instance)
     // Offset: 0x1EC1E4C
-    System::ComponentModel::TypeConverter* GetConverter(::Il2CppObject* instance);
+    ::System::ComponentModel::TypeConverter* GetConverter(::Il2CppObject* instance);
     // System.ComponentModel.PropertyDescriptorCollection GetProperties()
     // Offset: 0x1EC4780
-    System::ComponentModel::PropertyDescriptorCollection* GetProperties();
+    ::System::ComponentModel::PropertyDescriptorCollection* GetProperties();
     // private System.Type GetTypeFromName(System.String typeName)
     // Offset: 0x1EC6EB4
-    System::Type* GetTypeFromName(::StringW typeName);
+    ::System::Type* GetTypeFromName(::StringW typeName);
     // System.Void Refresh()
     // Offset: 0x1EC6270
     void Refresh();
@@ -163,7 +163,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::ComponentModel::ReflectTypeDescriptionProvider::ReflectedTypeData::GetAttributes
 // Il2CppName: GetAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ComponentModel::AttributeCollection* (System::ComponentModel::ReflectTypeDescriptionProvider::ReflectedTypeData::*)()>(&System::ComponentModel::ReflectTypeDescriptionProvider::ReflectedTypeData::GetAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::AttributeCollection* (System::ComponentModel::ReflectTypeDescriptionProvider::ReflectedTypeData::*)()>(&System::ComponentModel::ReflectTypeDescriptionProvider::ReflectedTypeData::GetAttributes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::ReflectTypeDescriptionProvider::ReflectedTypeData*), "GetAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -171,7 +171,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Com
 // Writing MetadataGetter for method: System::ComponentModel::ReflectTypeDescriptionProvider::ReflectedTypeData::GetConverter
 // Il2CppName: GetConverter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ComponentModel::TypeConverter* (System::ComponentModel::ReflectTypeDescriptionProvider::ReflectedTypeData::*)(::Il2CppObject*)>(&System::ComponentModel::ReflectTypeDescriptionProvider::ReflectedTypeData::GetConverter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::TypeConverter* (System::ComponentModel::ReflectTypeDescriptionProvider::ReflectedTypeData::*)(::Il2CppObject*)>(&System::ComponentModel::ReflectTypeDescriptionProvider::ReflectedTypeData::GetConverter)> {
   static const MethodInfo* get() {
     static auto* instance = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::ReflectTypeDescriptionProvider::ReflectedTypeData*), "GetConverter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{instance});
@@ -180,7 +180,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Com
 // Writing MetadataGetter for method: System::ComponentModel::ReflectTypeDescriptionProvider::ReflectedTypeData::GetProperties
 // Il2CppName: GetProperties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ComponentModel::PropertyDescriptorCollection* (System::ComponentModel::ReflectTypeDescriptionProvider::ReflectedTypeData::*)()>(&System::ComponentModel::ReflectTypeDescriptionProvider::ReflectedTypeData::GetProperties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::PropertyDescriptorCollection* (System::ComponentModel::ReflectTypeDescriptionProvider::ReflectedTypeData::*)()>(&System::ComponentModel::ReflectTypeDescriptionProvider::ReflectedTypeData::GetProperties)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::ReflectTypeDescriptionProvider::ReflectedTypeData*), "GetProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -188,7 +188,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Com
 // Writing MetadataGetter for method: System::ComponentModel::ReflectTypeDescriptionProvider::ReflectedTypeData::GetTypeFromName
 // Il2CppName: GetTypeFromName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::ComponentModel::ReflectTypeDescriptionProvider::ReflectedTypeData::*)(::StringW)>(&System::ComponentModel::ReflectTypeDescriptionProvider::ReflectedTypeData::GetTypeFromName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (System::ComponentModel::ReflectTypeDescriptionProvider::ReflectedTypeData::*)(::StringW)>(&System::ComponentModel::ReflectTypeDescriptionProvider::ReflectedTypeData::GetTypeFromName)> {
   static const MethodInfo* get() {
     static auto* typeName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::ReflectTypeDescriptionProvider::ReflectedTypeData*), "GetTypeFromName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{typeName});

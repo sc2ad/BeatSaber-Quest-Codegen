@@ -17,8 +17,8 @@ namespace HoudiniEngineUnity {
   class HEU_VolumeLayerPreset;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_VolumeLayerPreset);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_VolumeLayerPreset*, "HoudiniEngineUnity", "HEU_VolumeLayerPreset");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_VolumeLayerPreset);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_VolumeLayerPreset*, "HoudiniEngineUnity", "HEU_VolumeLayerPreset");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x24
@@ -78,7 +78,7 @@ namespace HoudiniEngineUnity {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_VolumeLayerPreset* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_VolumeLayerPreset::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_VolumeLayerPreset::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_VolumeLayerPreset*, creationType>()));
     }
   }; // HoudiniEngineUnity.HEU_VolumeLayerPreset

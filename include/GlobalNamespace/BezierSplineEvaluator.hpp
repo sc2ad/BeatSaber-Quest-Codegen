@@ -35,8 +35,8 @@ namespace GlobalNamespace {
   class BezierSplineEvaluator;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BezierSplineEvaluator);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BezierSplineEvaluator*, "", "BezierSplineEvaluator");
+NEED_NO_BOX(::GlobalNamespace::BezierSplineEvaluator);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BezierSplineEvaluator*, "", "BezierSplineEvaluator");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x1C
@@ -45,7 +45,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BezierSplineEvaluator : public ::Il2CppObject {
     public:
-    // Nested type: GlobalNamespace::BezierSplineEvaluator::CubicSolveResult
+    // Nested type: ::GlobalNamespace::BezierSplineEvaluator::CubicSolveResult
     struct CubicSolveResult;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -59,9 +59,9 @@ namespace GlobalNamespace {
     // private readonly System.Collections.Generic.List`1<BezierCurve> _segments
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::List_1<GlobalNamespace::BezierCurve>* segments;
+    ::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve>* segments;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::BezierCurve>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve>*) == 0x8);
     // private System.Int32 _currentSegmentIndex
     // Size: 0x4
     // Offset: 0x18
@@ -82,28 +82,28 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kSlightBelowZero
     static void _set_kSlightBelowZero(float value);
     // Get instance field reference: private readonly System.Collections.Generic.List`1<BezierCurve> _segments
-    System::Collections::Generic::List_1<GlobalNamespace::BezierCurve>*& dyn__segments();
+    ::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve>*& dyn__segments();
     // Get instance field reference: private System.Int32 _currentSegmentIndex
     int& dyn__currentSegmentIndex();
     // public System.Void .ctor(BezierSpline spline)
     // Offset: 0x14D05AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BezierSplineEvaluator* New_ctor(GlobalNamespace::BezierSpline* spline) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BezierSplineEvaluator::.ctor");
+    static BezierSplineEvaluator* New_ctor(::GlobalNamespace::BezierSpline* spline) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BezierSplineEvaluator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BezierSplineEvaluator*, creationType>(spline)));
     }
     // public UnityEngine.Vector3 EvaluatePosition(System.Single time)
     // Offset: 0x14C6E30
-    UnityEngine::Vector3 EvaluatePosition(float time);
+    ::UnityEngine::Vector3 EvaluatePosition(float time);
     // private UnityEngine.Vector3 Evaluate(System.Single t)
     // Offset: 0x14D1CC0
-    UnityEngine::Vector3 Evaluate(float t);
+    ::UnityEngine::Vector3 Evaluate(float t);
     // private UnityEngine.Vector3 EvaluateFirstDerivation(System.Single t)
     // Offset: 0x14D1EFC
-    UnityEngine::Vector3 EvaluateFirstDerivation(float t);
+    ::UnityEngine::Vector3 EvaluateFirstDerivation(float t);
     // private UnityEngine.Vector3 EvaluateSecondDerivation(System.Single t)
     // Offset: 0x14D2150
-    UnityEngine::Vector3 EvaluateSecondDerivation(float t);
+    ::UnityEngine::Vector3 EvaluateSecondDerivation(float t);
     // public System.Single OffsetSegmentAndGetT(System.Single time)
     // Offset: 0x14D1BAC
     float OffsetSegmentAndGetT(float time);
@@ -121,7 +121,7 @@ namespace GlobalNamespace {
     static float CubeRoot(float x);
     // static private BezierSplineEvaluator/CubicSolveResult SolveCubic(System.Single a, System.Single b, System.Single c, System.Single d)
     // Offset: 0x14D2648
-    static GlobalNamespace::BezierSplineEvaluator::CubicSolveResult SolveCubic(float a, float b, float c, float d);
+    static ::GlobalNamespace::BezierSplineEvaluator::CubicSolveResult SolveCubic(float a, float b, float c, float d);
   }; // BezierSplineEvaluator
   #pragma pack(pop)
   static check_size<sizeof(BezierSplineEvaluator), 24 + sizeof(int)> __GlobalNamespace_BezierSplineEvaluatorSizeCheck;
@@ -135,7 +135,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::BezierSplineEvaluator::EvaluatePosition
 // Il2CppName: EvaluatePosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::BezierSplineEvaluator::*)(float)>(&GlobalNamespace::BezierSplineEvaluator::EvaluatePosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (GlobalNamespace::BezierSplineEvaluator::*)(float)>(&GlobalNamespace::BezierSplineEvaluator::EvaluatePosition)> {
   static const MethodInfo* get() {
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BezierSplineEvaluator*), "EvaluatePosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time});
@@ -144,7 +144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::BezierSplineEvaluator::Evaluate
 // Il2CppName: Evaluate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::BezierSplineEvaluator::*)(float)>(&GlobalNamespace::BezierSplineEvaluator::Evaluate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (GlobalNamespace::BezierSplineEvaluator::*)(float)>(&GlobalNamespace::BezierSplineEvaluator::Evaluate)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BezierSplineEvaluator*), "Evaluate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
@@ -153,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::BezierSplineEvaluator::EvaluateFirstDerivation
 // Il2CppName: EvaluateFirstDerivation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::BezierSplineEvaluator::*)(float)>(&GlobalNamespace::BezierSplineEvaluator::EvaluateFirstDerivation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (GlobalNamespace::BezierSplineEvaluator::*)(float)>(&GlobalNamespace::BezierSplineEvaluator::EvaluateFirstDerivation)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BezierSplineEvaluator*), "EvaluateFirstDerivation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
@@ -162,7 +162,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::BezierSplineEvaluator::EvaluateSecondDerivation
 // Il2CppName: EvaluateSecondDerivation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::BezierSplineEvaluator::*)(float)>(&GlobalNamespace::BezierSplineEvaluator::EvaluateSecondDerivation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (GlobalNamespace::BezierSplineEvaluator::*)(float)>(&GlobalNamespace::BezierSplineEvaluator::EvaluateSecondDerivation)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BezierSplineEvaluator*), "EvaluateSecondDerivation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
@@ -219,7 +219,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(f
 // Writing MetadataGetter for method: GlobalNamespace::BezierSplineEvaluator::SolveCubic
 // Il2CppName: SolveCubic
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BezierSplineEvaluator::CubicSolveResult (*)(float, float, float, float)>(&GlobalNamespace::BezierSplineEvaluator::SolveCubic)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BezierSplineEvaluator::CubicSolveResult (*)(float, float, float, float)>(&GlobalNamespace::BezierSplineEvaluator::SolveCubic)> {
   static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

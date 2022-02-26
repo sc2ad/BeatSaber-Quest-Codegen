@@ -21,8 +21,8 @@ namespace UnityEngine {
   class RenderSettings;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::RenderSettings);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RenderSettings*, "UnityEngine", "RenderSettings");
+NEED_NO_BOX(::UnityEngine::RenderSettings);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::RenderSettings*, "UnityEngine", "RenderSettings");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -33,20 +33,20 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: 11A46F0
   // [NativeHeaderAttribute] Offset: 11A46F0
   // [StaticAccessorAttribute] Offset: 11A46F0
-  class RenderSettings : public UnityEngine::Object {
+  class RenderSettings : public ::UnityEngine::Object {
     public:
     // static public UnityEngine.Color get_fogColor()
     // Offset: 0x20CB028
-    static UnityEngine::Color get_fogColor();
+    static ::UnityEngine::Color get_fogColor();
     // static public System.Void set_fogColor(UnityEngine.Color value)
     // Offset: 0x20CB0BC
-    static void set_fogColor(UnityEngine::Color value);
+    static void set_fogColor(::UnityEngine::Color value);
     // static private System.Void get_fogColor_Injected(out UnityEngine.Color ret)
     // Offset: 0x20CB07C
-    static void get_fogColor_Injected(ByRef<UnityEngine::Color> ret);
+    static void get_fogColor_Injected(ByRef<::UnityEngine::Color> ret);
     // static private System.Void set_fogColor_Injected(ref UnityEngine.Color value)
     // Offset: 0x20CB10C
-    static void set_fogColor_Injected(ByRef<UnityEngine::Color> value);
+    static void set_fogColor_Injected(ByRef<::UnityEngine::Color> value);
   }; // UnityEngine.RenderSettings
   #pragma pack(pop)
 }
@@ -54,7 +54,7 @@ namespace UnityEngine {
 // Writing MetadataGetter for method: UnityEngine::RenderSettings::get_fogColor
 // Il2CppName: get_fogColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)()>(&UnityEngine::RenderSettings::get_fogColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)()>(&UnityEngine::RenderSettings::get_fogColor)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderSettings*), "get_fogColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -62,7 +62,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::RenderSettings::set_fogColor
 // Il2CppName: set_fogColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Color)>(&UnityEngine::RenderSettings::set_fogColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Color)>(&UnityEngine::RenderSettings::set_fogColor)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderSettings*), "set_fogColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -71,7 +71,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::RenderSettings::get_fogColor_Injected
 // Il2CppName: get_fogColor_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<UnityEngine::Color>)>(&UnityEngine::RenderSettings::get_fogColor_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::Color>)>(&UnityEngine::RenderSettings::get_fogColor_Injected)> {
   static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderSettings*), "get_fogColor_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
@@ -80,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(By
 // Writing MetadataGetter for method: UnityEngine::RenderSettings::set_fogColor_Injected
 // Il2CppName: set_fogColor_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<UnityEngine::Color>)>(&UnityEngine::RenderSettings::set_fogColor_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::Color>)>(&UnityEngine::RenderSettings::set_fogColor_Injected)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderSettings*), "set_fogColor_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

@@ -21,8 +21,8 @@ namespace BGNet::Core::GameLift {
   class PlayerSessionInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(BGNet::Core::GameLift::PlayerSessionInfo);
-DEFINE_IL2CPP_ARG_TYPE(BGNet::Core::GameLift::PlayerSessionInfo*, "BGNet.Core.GameLift", "PlayerSessionInfo");
+NEED_NO_BOX(::BGNet::Core::GameLift::PlayerSessionInfo);
+DEFINE_IL2CPP_ARG_TYPE(::BGNet::Core::GameLift::PlayerSessionInfo*, "BGNet.Core.GameLift", "PlayerSessionInfo");
 // Type namespace: BGNet.Core.GameLift
 namespace BGNet::Core::GameLift {
   // Size: 0x70
@@ -75,16 +75,16 @@ namespace BGNet::Core::GameLift {
     // public BeatmapLevelSelectionMask beatmapLevelSelectionMask
     // Size: 0x18
     // Offset: 0x30
-    GlobalNamespace::BeatmapLevelSelectionMask beatmapLevelSelectionMask;
+    ::GlobalNamespace::BeatmapLevelSelectionMask beatmapLevelSelectionMask;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::BeatmapLevelSelectionMask) == 0x18);
+    static_assert(sizeof(::GlobalNamespace::BeatmapLevelSelectionMask) == 0x18);
     // [JsonPropertyAttribute] Offset: 0x1222BC0
     // public GameplayServerConfiguration gameplayServerConfiguration
     // Size: 0x18
     // Offset: 0x48
-    GlobalNamespace::GameplayServerConfiguration gameplayServerConfiguration;
+    ::GlobalNamespace::GameplayServerConfiguration gameplayServerConfiguration;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::GameplayServerConfiguration) == 0x18);
+    static_assert(sizeof(::GlobalNamespace::GameplayServerConfiguration) == 0x18);
     // [JsonPropertyAttribute] Offset: 0x1222BF8
     // public System.String privateGameSecret
     // Size: 0x8
@@ -109,9 +109,9 @@ namespace BGNet::Core::GameLift {
     // Get instance field reference: public System.Int32 port
     int& dyn_port();
     // Get instance field reference: public BeatmapLevelSelectionMask beatmapLevelSelectionMask
-    GlobalNamespace::BeatmapLevelSelectionMask& dyn_beatmapLevelSelectionMask();
+    ::GlobalNamespace::BeatmapLevelSelectionMask& dyn_beatmapLevelSelectionMask();
     // Get instance field reference: public GameplayServerConfiguration gameplayServerConfiguration
-    GlobalNamespace::GameplayServerConfiguration& dyn_gameplayServerConfiguration();
+    ::GlobalNamespace::GameplayServerConfiguration& dyn_gameplayServerConfiguration();
     // Get instance field reference: public System.String privateGameSecret
     ::StringW& dyn_privateGameSecret();
     // Get instance field reference: public System.String privateGameCode
@@ -122,7 +122,7 @@ namespace BGNet::Core::GameLift {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSessionInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("BGNet::Core::GameLift::PlayerSessionInfo::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::GameLift::PlayerSessionInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerSessionInfo*, creationType>()));
     }
   }; // BGNet.Core.GameLift.PlayerSessionInfo

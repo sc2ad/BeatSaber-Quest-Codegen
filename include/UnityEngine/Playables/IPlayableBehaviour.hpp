@@ -23,8 +23,8 @@ namespace UnityEngine::Playables {
   class IPlayableBehaviour;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Playables::IPlayableBehaviour);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::IPlayableBehaviour*, "UnityEngine.Playables", "IPlayableBehaviour");
+NEED_NO_BOX(::UnityEngine::Playables::IPlayableBehaviour);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Playables::IPlayableBehaviour*, "UnityEngine.Playables", "IPlayableBehaviour");
 // Type namespace: UnityEngine.Playables
 namespace UnityEngine::Playables {
   // Size: 0x10
@@ -35,28 +35,28 @@ namespace UnityEngine::Playables {
     public:
     // public System.Void OnGraphStart(UnityEngine.Playables.Playable playable)
     // Offset: 0xFFFFFFFF
-    void OnGraphStart(UnityEngine::Playables::Playable playable);
+    void OnGraphStart(::UnityEngine::Playables::Playable playable);
     // public System.Void OnGraphStop(UnityEngine.Playables.Playable playable)
     // Offset: 0xFFFFFFFF
-    void OnGraphStop(UnityEngine::Playables::Playable playable);
+    void OnGraphStop(::UnityEngine::Playables::Playable playable);
     // public System.Void OnPlayableCreate(UnityEngine.Playables.Playable playable)
     // Offset: 0xFFFFFFFF
-    void OnPlayableCreate(UnityEngine::Playables::Playable playable);
+    void OnPlayableCreate(::UnityEngine::Playables::Playable playable);
     // public System.Void OnPlayableDestroy(UnityEngine.Playables.Playable playable)
     // Offset: 0xFFFFFFFF
-    void OnPlayableDestroy(UnityEngine::Playables::Playable playable);
+    void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
     // public System.Void OnBehaviourPlay(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
     // Offset: 0xFFFFFFFF
-    void OnBehaviourPlay(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info);
+    void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
     // public System.Void OnBehaviourPause(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
     // Offset: 0xFFFFFFFF
-    void OnBehaviourPause(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info);
+    void OnBehaviourPause(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
     // public System.Void PrepareFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
     // Offset: 0xFFFFFFFF
-    void PrepareFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info);
+    void PrepareFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
     // public System.Void ProcessFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info, System.Object playerData)
     // Offset: 0xFFFFFFFF
-    void ProcessFrame(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info, ::Il2CppObject* playerData);
+    void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::Il2CppObject* playerData);
   }; // UnityEngine.Playables.IPlayableBehaviour
   #pragma pack(pop)
 }
@@ -64,7 +64,7 @@ namespace UnityEngine::Playables {
 // Writing MetadataGetter for method: UnityEngine::Playables::IPlayableBehaviour::OnGraphStart
 // Il2CppName: OnGraphStart
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::IPlayableBehaviour::*)(UnityEngine::Playables::Playable)>(&UnityEngine::Playables::IPlayableBehaviour::OnGraphStart)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::IPlayableBehaviour::*)(::UnityEngine::Playables::Playable)>(&UnityEngine::Playables::IPlayableBehaviour::OnGraphStart)> {
   static const MethodInfo* get() {
     static auto* playable = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "Playable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::IPlayableBehaviour*), "OnGraphStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{playable});
@@ -73,7 +73,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Playables::IPlayableBehaviour::OnGraphStop
 // Il2CppName: OnGraphStop
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::IPlayableBehaviour::*)(UnityEngine::Playables::Playable)>(&UnityEngine::Playables::IPlayableBehaviour::OnGraphStop)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::IPlayableBehaviour::*)(::UnityEngine::Playables::Playable)>(&UnityEngine::Playables::IPlayableBehaviour::OnGraphStop)> {
   static const MethodInfo* get() {
     static auto* playable = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "Playable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::IPlayableBehaviour*), "OnGraphStop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{playable});
@@ -82,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Playables::IPlayableBehaviour::OnPlayableCreate
 // Il2CppName: OnPlayableCreate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::IPlayableBehaviour::*)(UnityEngine::Playables::Playable)>(&UnityEngine::Playables::IPlayableBehaviour::OnPlayableCreate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::IPlayableBehaviour::*)(::UnityEngine::Playables::Playable)>(&UnityEngine::Playables::IPlayableBehaviour::OnPlayableCreate)> {
   static const MethodInfo* get() {
     static auto* playable = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "Playable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::IPlayableBehaviour*), "OnPlayableCreate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{playable});
@@ -91,7 +91,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Playables::IPlayableBehaviour::OnPlayableDestroy
 // Il2CppName: OnPlayableDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::IPlayableBehaviour::*)(UnityEngine::Playables::Playable)>(&UnityEngine::Playables::IPlayableBehaviour::OnPlayableDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::IPlayableBehaviour::*)(::UnityEngine::Playables::Playable)>(&UnityEngine::Playables::IPlayableBehaviour::OnPlayableDestroy)> {
   static const MethodInfo* get() {
     static auto* playable = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "Playable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::IPlayableBehaviour*), "OnPlayableDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{playable});
@@ -100,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Playables::IPlayableBehaviour::OnBehaviourPlay
 // Il2CppName: OnBehaviourPlay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::IPlayableBehaviour::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData)>(&UnityEngine::Playables::IPlayableBehaviour::OnBehaviourPlay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::IPlayableBehaviour::*)(::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData)>(&UnityEngine::Playables::IPlayableBehaviour::OnBehaviourPlay)> {
   static const MethodInfo* get() {
     static auto* playable = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "Playable")->byval_arg;
     static auto* info = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "FrameData")->byval_arg;
@@ -110,7 +110,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Playables::IPlayableBehaviour::OnBehaviourPause
 // Il2CppName: OnBehaviourPause
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::IPlayableBehaviour::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData)>(&UnityEngine::Playables::IPlayableBehaviour::OnBehaviourPause)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::IPlayableBehaviour::*)(::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData)>(&UnityEngine::Playables::IPlayableBehaviour::OnBehaviourPause)> {
   static const MethodInfo* get() {
     static auto* playable = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "Playable")->byval_arg;
     static auto* info = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "FrameData")->byval_arg;
@@ -120,7 +120,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Playables::IPlayableBehaviour::PrepareFrame
 // Il2CppName: PrepareFrame
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::IPlayableBehaviour::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData)>(&UnityEngine::Playables::IPlayableBehaviour::PrepareFrame)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::IPlayableBehaviour::*)(::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData)>(&UnityEngine::Playables::IPlayableBehaviour::PrepareFrame)> {
   static const MethodInfo* get() {
     static auto* playable = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "Playable")->byval_arg;
     static auto* info = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "FrameData")->byval_arg;
@@ -130,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Playables::IPlayableBehaviour::ProcessFrame
 // Il2CppName: ProcessFrame
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::IPlayableBehaviour::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData, ::Il2CppObject*)>(&UnityEngine::Playables::IPlayableBehaviour::ProcessFrame)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::IPlayableBehaviour::*)(::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::Il2CppObject*)>(&UnityEngine::Playables::IPlayableBehaviour::ProcessFrame)> {
   static const MethodInfo* get() {
     static auto* playable = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "Playable")->byval_arg;
     static auto* info = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "FrameData")->byval_arg;

@@ -26,8 +26,8 @@ namespace UnityEngine {
   class RectOffset;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::RectOffset);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RectOffset*, "UnityEngine", "RectOffset");
+NEED_NO_BOX(::UnityEngine::RectOffset);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::RectOffset*, "UnityEngine", "RectOffset");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x20
@@ -51,9 +51,9 @@ namespace UnityEngine {
     // System.IntPtr m_Ptr
     // Size: 0x8
     // Offset: 0x10
-    System::IntPtr m_Ptr;
+    ::System::IntPtr m_Ptr;
     // Field size check
-    static_assert(sizeof(System::IntPtr) == 0x8);
+    static_assert(sizeof(::System::IntPtr) == 0x8);
     // private readonly System.Object m_SourceStyle
     // Size: 0x8
     // Offset: 0x18
@@ -62,7 +62,7 @@ namespace UnityEngine {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     public:
     // Get instance field reference: System.IntPtr m_Ptr
-    System::IntPtr& dyn_m_Ptr();
+    ::System::IntPtr& dyn_m_Ptr();
     // Get instance field reference: private readonly System.Object m_SourceStyle
     ::Il2CppObject*& dyn_m_SourceStyle();
     // public System.Int32 get_left()
@@ -98,15 +98,15 @@ namespace UnityEngine {
     // System.Void .ctor(System.Object sourceStyle, System.IntPtr source)
     // Offset: 0x20C91A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static RectOffset* New_ctor(::Il2CppObject* sourceStyle, System::IntPtr source) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::RectOffset::.ctor");
+    static RectOffset* New_ctor(::Il2CppObject* sourceStyle, ::System::IntPtr source) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::RectOffset::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RectOffset*, creationType>(sourceStyle, source)));
     }
     // public System.Void .ctor(System.Int32 left, System.Int32 right, System.Int32 top, System.Int32 bottom)
     // Offset: 0x20C92D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RectOffset* New_ctor(int left, int right, int top, int bottom) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::RectOffset::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::RectOffset::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RectOffset*, creationType>(left, right, top, bottom)));
     }
     // private System.Void Destroy()
@@ -114,23 +114,23 @@ namespace UnityEngine {
     void Destroy();
     // static private System.IntPtr InternalCreate()
     // Offset: 0x20C916C
-    static System::IntPtr InternalCreate();
+    static ::System::IntPtr InternalCreate();
     // static private System.Void InternalDestroy(System.IntPtr ptr)
     // Offset: 0x20C9874
-    static void InternalDestroy(System::IntPtr ptr);
+    static void InternalDestroy(::System::IntPtr ptr);
     // public UnityEngine.Rect Remove(UnityEngine.Rect rect)
     // Offset: 0x20C9934
-    UnityEngine::Rect Remove(UnityEngine::Rect rect);
+    ::UnityEngine::Rect Remove(::UnityEngine::Rect rect);
     // private System.Void Remove_Injected(ref UnityEngine.Rect rect, out UnityEngine.Rect ret)
     // Offset: 0x20C999C
-    void Remove_Injected(ByRef<UnityEngine::Rect> rect, ByRef<UnityEngine::Rect> ret);
+    void Remove_Injected(ByRef<::UnityEngine::Rect> rect, ByRef<::UnityEngine::Rect> ret);
     // public System.Void .ctor()
     // Offset: 0x20C9120
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RectOffset* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::RectOffset::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::RectOffset::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RectOffset*, creationType>()));
     }
     // protected override System.Void Finalize()
@@ -252,7 +252,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::RectOffset::InternalCreate
 // Il2CppName: InternalCreate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&UnityEngine::RectOffset::InternalCreate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&UnityEngine::RectOffset::InternalCreate)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectOffset*), "InternalCreate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -260,7 +260,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::RectOffset::InternalDestroy
 // Il2CppName: InternalDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&UnityEngine::RectOffset::InternalDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&UnityEngine::RectOffset::InternalDestroy)> {
   static const MethodInfo* get() {
     static auto* ptr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectOffset*), "InternalDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ptr});
@@ -269,7 +269,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::RectOffset::Remove
 // Il2CppName: Remove
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (UnityEngine::RectOffset::*)(UnityEngine::Rect)>(&UnityEngine::RectOffset::Remove)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rect (UnityEngine::RectOffset::*)(::UnityEngine::Rect)>(&UnityEngine::RectOffset::Remove)> {
   static const MethodInfo* get() {
     static auto* rect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectOffset*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rect});
@@ -278,7 +278,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::RectOffset::Remove_Injected
 // Il2CppName: Remove_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RectOffset::*)(ByRef<UnityEngine::Rect>, ByRef<UnityEngine::Rect>)>(&UnityEngine::RectOffset::Remove_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RectOffset::*)(ByRef<::UnityEngine::Rect>, ByRef<::UnityEngine::Rect>)>(&UnityEngine::RectOffset::Remove_Injected)> {
   static const MethodInfo* get() {
     static auto* rect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->this_arg;
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->this_arg;

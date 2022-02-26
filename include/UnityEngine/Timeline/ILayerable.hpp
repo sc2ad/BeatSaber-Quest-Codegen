@@ -25,8 +25,8 @@ namespace UnityEngine::Timeline {
   class ILayerable;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Timeline::ILayerable);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ILayerable*, "UnityEngine.Timeline", "ILayerable");
+NEED_NO_BOX(::UnityEngine::Timeline::ILayerable);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::ILayerable*, "UnityEngine.Timeline", "ILayerable");
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
   // Size: 0x10
@@ -37,7 +37,7 @@ namespace UnityEngine::Timeline {
     public:
     // public UnityEngine.Playables.Playable CreateLayerMixer(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go, System.Int32 inputCount)
     // Offset: 0xFFFFFFFF
-    UnityEngine::Playables::Playable CreateLayerMixer(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* go, int inputCount);
+    ::UnityEngine::Playables::Playable CreateLayerMixer(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go, int inputCount);
   }; // UnityEngine.Timeline.ILayerable
   #pragma pack(pop)
 }
@@ -45,7 +45,7 @@ namespace UnityEngine::Timeline {
 // Writing MetadataGetter for method: UnityEngine::Timeline::ILayerable::CreateLayerMixer
 // Il2CppName: CreateLayerMixer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (UnityEngine::Timeline::ILayerable::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*, int)>(&UnityEngine::Timeline::ILayerable::CreateLayerMixer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::Playable (UnityEngine::Timeline::ILayerable::*)(::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, int)>(&UnityEngine::Timeline::ILayerable::CreateLayerMixer)> {
   static const MethodInfo* get() {
     static auto* graph = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableGraph")->byval_arg;
     static auto* go = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;

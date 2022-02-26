@@ -19,8 +19,8 @@ namespace Org::BouncyCastle::Asn1::Eac {
   class EacObjectIdentifiers;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Asn1::Eac::EacObjectIdentifiers);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Eac::EacObjectIdentifiers*, "Org.BouncyCastle.Asn1.Eac", "EacObjectIdentifiers");
+NEED_NO_BOX(::Org::BouncyCastle::Asn1::Eac::EacObjectIdentifiers);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Eac::EacObjectIdentifiers*, "Org.BouncyCastle.Asn1.Eac", "EacObjectIdentifiers");
 // Type namespace: Org.BouncyCastle.Asn1.Eac
 namespace Org::BouncyCastle::Asn1::Eac {
   // Size: 0x10
@@ -30,89 +30,89 @@ namespace Org::BouncyCastle::Asn1::Eac {
   class EacObjectIdentifiers : public ::Il2CppObject {
     public:
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier bsi_de
-    static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_bsi_de();
+    static ::Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_bsi_de();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier bsi_de
-    static void _set_bsi_de(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+    static void _set_bsi_de(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_PK
-    static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_PK();
+    static ::Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_PK();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_PK
-    static void _set_id_PK(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+    static void _set_id_PK(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_PK_DH
-    static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_PK_DH();
+    static ::Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_PK_DH();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_PK_DH
-    static void _set_id_PK_DH(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+    static void _set_id_PK_DH(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_PK_ECDH
-    static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_PK_ECDH();
+    static ::Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_PK_ECDH();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_PK_ECDH
-    static void _set_id_PK_ECDH(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+    static void _set_id_PK_ECDH(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_CA
-    static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_CA();
+    static ::Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_CA();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_CA
-    static void _set_id_CA(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+    static void _set_id_CA(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_CA_DH
-    static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_CA_DH();
+    static ::Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_CA_DH();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_CA_DH
-    static void _set_id_CA_DH(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+    static void _set_id_CA_DH(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_CA_DH_3DES_CBC_CBC
-    static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_CA_DH_3DES_CBC_CBC();
+    static ::Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_CA_DH_3DES_CBC_CBC();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_CA_DH_3DES_CBC_CBC
-    static void _set_id_CA_DH_3DES_CBC_CBC(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+    static void _set_id_CA_DH_3DES_CBC_CBC(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_CA_ECDH
-    static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_CA_ECDH();
+    static ::Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_CA_ECDH();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_CA_ECDH
-    static void _set_id_CA_ECDH(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+    static void _set_id_CA_ECDH(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_CA_ECDH_3DES_CBC_CBC
-    static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_CA_ECDH_3DES_CBC_CBC();
+    static ::Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_CA_ECDH_3DES_CBC_CBC();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_CA_ECDH_3DES_CBC_CBC
-    static void _set_id_CA_ECDH_3DES_CBC_CBC(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+    static void _set_id_CA_ECDH_3DES_CBC_CBC(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_TA
-    static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_TA();
+    static ::Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_TA();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_TA
-    static void _set_id_TA(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+    static void _set_id_TA(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_TA_RSA
-    static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_TA_RSA();
+    static ::Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_TA_RSA();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_TA_RSA
-    static void _set_id_TA_RSA(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+    static void _set_id_TA_RSA(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_TA_RSA_v1_5_SHA_1
-    static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_TA_RSA_v1_5_SHA_1();
+    static ::Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_TA_RSA_v1_5_SHA_1();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_TA_RSA_v1_5_SHA_1
-    static void _set_id_TA_RSA_v1_5_SHA_1(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+    static void _set_id_TA_RSA_v1_5_SHA_1(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_TA_RSA_v1_5_SHA_256
-    static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_TA_RSA_v1_5_SHA_256();
+    static ::Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_TA_RSA_v1_5_SHA_256();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_TA_RSA_v1_5_SHA_256
-    static void _set_id_TA_RSA_v1_5_SHA_256(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+    static void _set_id_TA_RSA_v1_5_SHA_256(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_TA_RSA_PSS_SHA_1
-    static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_TA_RSA_PSS_SHA_1();
+    static ::Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_TA_RSA_PSS_SHA_1();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_TA_RSA_PSS_SHA_1
-    static void _set_id_TA_RSA_PSS_SHA_1(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+    static void _set_id_TA_RSA_PSS_SHA_1(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_TA_RSA_PSS_SHA_256
-    static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_TA_RSA_PSS_SHA_256();
+    static ::Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_TA_RSA_PSS_SHA_256();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_TA_RSA_PSS_SHA_256
-    static void _set_id_TA_RSA_PSS_SHA_256(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+    static void _set_id_TA_RSA_PSS_SHA_256(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_TA_ECDSA
-    static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_TA_ECDSA();
+    static ::Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_TA_ECDSA();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_TA_ECDSA
-    static void _set_id_TA_ECDSA(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+    static void _set_id_TA_ECDSA(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_TA_ECDSA_SHA_1
-    static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_TA_ECDSA_SHA_1();
+    static ::Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_TA_ECDSA_SHA_1();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_TA_ECDSA_SHA_1
-    static void _set_id_TA_ECDSA_SHA_1(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+    static void _set_id_TA_ECDSA_SHA_1(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_TA_ECDSA_SHA_224
-    static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_TA_ECDSA_SHA_224();
+    static ::Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_TA_ECDSA_SHA_224();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_TA_ECDSA_SHA_224
-    static void _set_id_TA_ECDSA_SHA_224(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+    static void _set_id_TA_ECDSA_SHA_224(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_TA_ECDSA_SHA_256
-    static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_TA_ECDSA_SHA_256();
+    static ::Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_TA_ECDSA_SHA_256();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_TA_ECDSA_SHA_256
-    static void _set_id_TA_ECDSA_SHA_256(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+    static void _set_id_TA_ECDSA_SHA_256(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_TA_ECDSA_SHA_384
-    static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_TA_ECDSA_SHA_384();
+    static ::Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_TA_ECDSA_SHA_384();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_TA_ECDSA_SHA_384
-    static void _set_id_TA_ECDSA_SHA_384(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+    static void _set_id_TA_ECDSA_SHA_384(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_TA_ECDSA_SHA_512
-    static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_TA_ECDSA_SHA_512();
+    static ::Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_id_TA_ECDSA_SHA_512();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id_TA_ECDSA_SHA_512
-    static void _set_id_TA_ECDSA_SHA_512(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+    static void _set_id_TA_ECDSA_SHA_512(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // static private System.Void .cctor()
     // Offset: 0x1B2F978
     static void _cctor();

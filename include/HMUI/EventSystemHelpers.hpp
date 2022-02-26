@@ -12,8 +12,8 @@ namespace HMUI {
   class EventSystemHelpers;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HMUI::EventSystemHelpers);
-DEFINE_IL2CPP_ARG_TYPE(HMUI::EventSystemHelpers*, "HMUI", "EventSystemHelpers");
+NEED_NO_BOX(::HMUI::EventSystemHelpers);
+DEFINE_IL2CPP_ARG_TYPE(::HMUI::EventSystemHelpers*, "HMUI", "EventSystemHelpers");
 // Type namespace: HMUI
 namespace HMUI {
   // Size: 0x10

@@ -38,8 +38,8 @@ namespace UnityEngine::UI {
   class MaskUtilities;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::UI::MaskUtilities);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::MaskUtilities*, "UnityEngine.UI", "MaskUtilities");
+NEED_NO_BOX(::UnityEngine::UI::MaskUtilities);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::MaskUtilities*, "UnityEngine.UI", "MaskUtilities");
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {
   // Size: 0x10
@@ -50,32 +50,32 @@ namespace UnityEngine::UI {
     public:
     // static public System.Void Notify2DMaskStateChanged(UnityEngine.Component mask)
     // Offset: 0x1DD51D0
-    static void Notify2DMaskStateChanged(UnityEngine::Component* mask);
+    static void Notify2DMaskStateChanged(::UnityEngine::Component* mask);
     // static public System.Void NotifyStencilStateChanged(UnityEngine.Component mask)
     // Offset: 0x1DD4640
-    static void NotifyStencilStateChanged(UnityEngine::Component* mask);
+    static void NotifyStencilStateChanged(::UnityEngine::Component* mask);
     // static public UnityEngine.Transform FindRootSortOverrideCanvas(UnityEngine.Transform start)
     // Offset: 0x1DD4DC4
-    static UnityEngine::Transform* FindRootSortOverrideCanvas(UnityEngine::Transform* start);
+    static ::UnityEngine::Transform* FindRootSortOverrideCanvas(::UnityEngine::Transform* start);
     // static public System.Int32 GetStencilDepth(UnityEngine.Transform transform, UnityEngine.Transform stopAfter)
     // Offset: 0x1DD4F40
-    static int GetStencilDepth(UnityEngine::Transform* transform, UnityEngine::Transform* stopAfter);
+    static int GetStencilDepth(::UnityEngine::Transform* transform, ::UnityEngine::Transform* stopAfter);
     // static public System.Boolean IsDescendantOrSelf(UnityEngine.Transform father, UnityEngine.Transform child)
     // Offset: 0x1DD5424
-    static bool IsDescendantOrSelf(UnityEngine::Transform* father, UnityEngine::Transform* child);
+    static bool IsDescendantOrSelf(::UnityEngine::Transform* father, ::UnityEngine::Transform* child);
     // static public UnityEngine.UI.RectMask2D GetRectMaskForClippable(UnityEngine.UI.IClippable clippable)
     // Offset: 0x1DD55A4
-    static UnityEngine::UI::RectMask2D* GetRectMaskForClippable(UnityEngine::UI::IClippable* clippable);
+    static ::UnityEngine::UI::RectMask2D* GetRectMaskForClippable(::UnityEngine::UI::IClippable* clippable);
     // static public System.Void GetRectMasksForClip(UnityEngine.UI.RectMask2D clipper, System.Collections.Generic.List`1<UnityEngine.UI.RectMask2D> masks)
     // Offset: 0x1DD5988
-    static void GetRectMasksForClip(UnityEngine::UI::RectMask2D* clipper, System::Collections::Generic::List_1<UnityEngine::UI::RectMask2D*>* masks);
+    static void GetRectMasksForClip(::UnityEngine::UI::RectMask2D* clipper, ::System::Collections::Generic::List_1<::UnityEngine::UI::RectMask2D*>* masks);
     // public System.Void .ctor()
     // Offset: 0x1DD5C7C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MaskUtilities* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::MaskUtilities::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::MaskUtilities::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MaskUtilities*, creationType>()));
     }
   }; // UnityEngine.UI.MaskUtilities
@@ -85,7 +85,7 @@ namespace UnityEngine::UI {
 // Writing MetadataGetter for method: UnityEngine::UI::MaskUtilities::Notify2DMaskStateChanged
 // Il2CppName: Notify2DMaskStateChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Component*)>(&UnityEngine::UI::MaskUtilities::Notify2DMaskStateChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Component*)>(&UnityEngine::UI::MaskUtilities::Notify2DMaskStateChanged)> {
   static const MethodInfo* get() {
     static auto* mask = &::il2cpp_utils::GetClassFromName("UnityEngine", "Component")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::MaskUtilities*), "Notify2DMaskStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mask});
@@ -94,7 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::UI::MaskUtilities::NotifyStencilStateChanged
 // Il2CppName: NotifyStencilStateChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Component*)>(&UnityEngine::UI::MaskUtilities::NotifyStencilStateChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Component*)>(&UnityEngine::UI::MaskUtilities::NotifyStencilStateChanged)> {
   static const MethodInfo* get() {
     static auto* mask = &::il2cpp_utils::GetClassFromName("UnityEngine", "Component")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::MaskUtilities*), "NotifyStencilStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mask});
@@ -103,7 +103,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::UI::MaskUtilities::FindRootSortOverrideCanvas
 // Il2CppName: FindRootSortOverrideCanvas
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(UnityEngine::Transform*)>(&UnityEngine::UI::MaskUtilities::FindRootSortOverrideCanvas)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Transform* (*)(::UnityEngine::Transform*)>(&UnityEngine::UI::MaskUtilities::FindRootSortOverrideCanvas)> {
   static const MethodInfo* get() {
     static auto* start = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::MaskUtilities*), "FindRootSortOverrideCanvas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{start});
@@ -112,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::UI::MaskUtilities::GetStencilDepth
 // Il2CppName: GetStencilDepth
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Transform*, UnityEngine::Transform*)>(&UnityEngine::UI::MaskUtilities::GetStencilDepth)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::UnityEngine::Transform*, ::UnityEngine::Transform*)>(&UnityEngine::UI::MaskUtilities::GetStencilDepth)> {
   static const MethodInfo* get() {
     static auto* transform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* stopAfter = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
 // Writing MetadataGetter for method: UnityEngine::UI::MaskUtilities::IsDescendantOrSelf
 // Il2CppName: IsDescendantOrSelf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Transform*, UnityEngine::Transform*)>(&UnityEngine::UI::MaskUtilities::IsDescendantOrSelf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Transform*, ::UnityEngine::Transform*)>(&UnityEngine::UI::MaskUtilities::IsDescendantOrSelf)> {
   static const MethodInfo* get() {
     static auto* father = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* child = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
@@ -132,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: UnityEngine::UI::MaskUtilities::GetRectMaskForClippable
 // Il2CppName: GetRectMaskForClippable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::RectMask2D* (*)(UnityEngine::UI::IClippable*)>(&UnityEngine::UI::MaskUtilities::GetRectMaskForClippable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::RectMask2D* (*)(::UnityEngine::UI::IClippable*)>(&UnityEngine::UI::MaskUtilities::GetRectMaskForClippable)> {
   static const MethodInfo* get() {
     static auto* clippable = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "IClippable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::MaskUtilities*), "GetRectMaskForClippable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clippable});
@@ -141,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::UI::MaskUtilities::GetRectMasksForClip
 // Il2CppName: GetRectMasksForClip
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::RectMask2D*, System::Collections::Generic::List_1<UnityEngine::UI::RectMask2D*>*)>(&UnityEngine::UI::MaskUtilities::GetRectMasksForClip)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UI::RectMask2D*, ::System::Collections::Generic::List_1<::UnityEngine::UI::RectMask2D*>*)>(&UnityEngine::UI::MaskUtilities::GetRectMasksForClip)> {
   static const MethodInfo* get() {
     static auto* clipper = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "RectMask2D")->byval_arg;
     static auto* masks = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.UI", "RectMask2D")})->byval_arg;

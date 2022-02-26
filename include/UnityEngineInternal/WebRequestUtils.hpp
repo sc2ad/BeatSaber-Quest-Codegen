@@ -25,8 +25,8 @@ namespace UnityEngineInternal {
   class WebRequestUtils;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngineInternal::WebRequestUtils);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngineInternal::WebRequestUtils*, "UnityEngineInternal", "WebRequestUtils");
+NEED_NO_BOX(::UnityEngineInternal::WebRequestUtils);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngineInternal::WebRequestUtils*, "UnityEngineInternal", "WebRequestUtils");
 // Type namespace: UnityEngineInternal
 namespace UnityEngineInternal {
   // Size: 0x10
@@ -36,9 +36,9 @@ namespace UnityEngineInternal {
   class WebRequestUtils : public ::Il2CppObject {
     public:
     // Get static field: static private System.Text.RegularExpressions.Regex domainRegex
-    static System::Text::RegularExpressions::Regex* _get_domainRegex();
+    static ::System::Text::RegularExpressions::Regex* _get_domainRegex();
     // Set static field: static private System.Text.RegularExpressions.Regex domainRegex
-    static void _set_domainRegex(System::Text::RegularExpressions::Regex* value);
+    static void _set_domainRegex(::System::Text::RegularExpressions::Regex* value);
     // static private System.Void .cctor()
     // Offset: 0x2A339B0
     static void _cctor();
@@ -50,7 +50,7 @@ namespace UnityEngineInternal {
     static ::StringW MakeInitialUrl(::StringW targetUrl, ::StringW localUrl);
     // static System.String MakeUriString(System.Uri targetUri, System.String targetUrl, System.Boolean prependProtocol)
     // Offset: 0x2A335AC
-    static ::StringW MakeUriString(System::Uri* targetUri, ::StringW targetUrl, bool prependProtocol);
+    static ::StringW MakeUriString(::System::Uri* targetUri, ::StringW targetUrl, bool prependProtocol);
     // static private System.String URLDecode(System.String encoded)
     // Offset: 0x2A338FC
     static ::StringW URLDecode(::StringW encoded);
@@ -89,7 +89,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: UnityEngineInternal::WebRequestUtils::MakeUriString
 // Il2CppName: MakeUriString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Uri*, ::StringW, bool)>(&UnityEngineInternal::WebRequestUtils::MakeUriString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Uri*, ::StringW, bool)>(&UnityEngineInternal::WebRequestUtils::MakeUriString)> {
   static const MethodInfo* get() {
     static auto* targetUri = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
     static auto* targetUrl = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

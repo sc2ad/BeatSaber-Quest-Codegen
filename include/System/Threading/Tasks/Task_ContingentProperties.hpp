@@ -40,8 +40,8 @@ namespace System::Collections::Generic {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Threading::Tasks::Task::ContingentProperties);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::Task::ContingentProperties*, "System.Threading.Tasks", "Task/ContingentProperties");
+NEED_NO_BOX(::System::Threading::Tasks::Task::ContingentProperties);
+DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Tasks::Task::ContingentProperties*, "System.Threading.Tasks", "Task/ContingentProperties");
 // Type namespace: System.Threading.Tasks
 namespace System::Threading::Tasks {
   // Size: 0x48
@@ -62,33 +62,33 @@ namespace System::Threading::Tasks {
     // System.Threading.ExecutionContext m_capturedContext
     // Size: 0x8
     // Offset: 0x10
-    System::Threading::ExecutionContext* m_capturedContext;
+    ::System::Threading::ExecutionContext* m_capturedContext;
     // Field size check
-    static_assert(sizeof(System::Threading::ExecutionContext*) == 0x8);
+    static_assert(sizeof(::System::Threading::ExecutionContext*) == 0x8);
     // System.Threading.ManualResetEventSlim m_completionEvent
     // Size: 0x8
     // Offset: 0x18
-    System::Threading::ManualResetEventSlim* m_completionEvent;
+    ::System::Threading::ManualResetEventSlim* m_completionEvent;
     // Field size check
-    static_assert(sizeof(System::Threading::ManualResetEventSlim*) == 0x8);
+    static_assert(sizeof(::System::Threading::ManualResetEventSlim*) == 0x8);
     // System.Threading.Tasks.TaskExceptionHolder m_exceptionsHolder
     // Size: 0x8
     // Offset: 0x20
-    System::Threading::Tasks::TaskExceptionHolder* m_exceptionsHolder;
+    ::System::Threading::Tasks::TaskExceptionHolder* m_exceptionsHolder;
     // Field size check
-    static_assert(sizeof(System::Threading::Tasks::TaskExceptionHolder*) == 0x8);
+    static_assert(sizeof(::System::Threading::Tasks::TaskExceptionHolder*) == 0x8);
     // System.Threading.CancellationToken m_cancellationToken
     // Size: 0x8
     // Offset: 0x28
-    System::Threading::CancellationToken m_cancellationToken;
+    ::System::Threading::CancellationToken m_cancellationToken;
     // Field size check
-    static_assert(sizeof(System::Threading::CancellationToken) == 0x8);
+    static_assert(sizeof(::System::Threading::CancellationToken) == 0x8);
     // System.Threading.Tasks.Shared`1<System.Threading.CancellationTokenRegistration> m_cancellationRegistration
     // Size: 0x8
     // Offset: 0x30
-    System::Threading::Tasks::Shared_1<System::Threading::CancellationTokenRegistration>* m_cancellationRegistration;
+    ::System::Threading::Tasks::Shared_1<::System::Threading::CancellationTokenRegistration>* m_cancellationRegistration;
     // Field size check
-    static_assert(sizeof(System::Threading::Tasks::Shared_1<System::Threading::CancellationTokenRegistration>*) == 0x8);
+    static_assert(sizeof(::System::Threading::Tasks::Shared_1<::System::Threading::CancellationTokenRegistration>*) == 0x8);
     // System.Int32 m_internalCancellationRequested
     // Size: 0x4
     // Offset: 0x38
@@ -104,26 +104,26 @@ namespace System::Threading::Tasks {
     // System.Collections.Generic.List`1<System.Threading.Tasks.Task> m_exceptionalChildren
     // Size: 0x8
     // Offset: 0x40
-    System::Collections::Generic::List_1<System::Threading::Tasks::Task*>* m_exceptionalChildren;
+    ::System::Collections::Generic::List_1<::System::Threading::Tasks::Task*>* m_exceptionalChildren;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<System::Threading::Tasks::Task*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::System::Threading::Tasks::Task*>*) == 0x8);
     public:
     // Get instance field reference: System.Threading.ExecutionContext m_capturedContext
-    System::Threading::ExecutionContext*& dyn_m_capturedContext();
+    ::System::Threading::ExecutionContext*& dyn_m_capturedContext();
     // Get instance field reference: System.Threading.ManualResetEventSlim m_completionEvent
-    System::Threading::ManualResetEventSlim*& dyn_m_completionEvent();
+    ::System::Threading::ManualResetEventSlim*& dyn_m_completionEvent();
     // Get instance field reference: System.Threading.Tasks.TaskExceptionHolder m_exceptionsHolder
-    System::Threading::Tasks::TaskExceptionHolder*& dyn_m_exceptionsHolder();
+    ::System::Threading::Tasks::TaskExceptionHolder*& dyn_m_exceptionsHolder();
     // Get instance field reference: System.Threading.CancellationToken m_cancellationToken
-    System::Threading::CancellationToken& dyn_m_cancellationToken();
+    ::System::Threading::CancellationToken& dyn_m_cancellationToken();
     // Get instance field reference: System.Threading.Tasks.Shared`1<System.Threading.CancellationTokenRegistration> m_cancellationRegistration
-    System::Threading::Tasks::Shared_1<System::Threading::CancellationTokenRegistration>*& dyn_m_cancellationRegistration();
+    ::System::Threading::Tasks::Shared_1<::System::Threading::CancellationTokenRegistration>*& dyn_m_cancellationRegistration();
     // Get instance field reference: System.Int32 m_internalCancellationRequested
     int& dyn_m_internalCancellationRequested();
     // Get instance field reference: System.Int32 m_completionCountdown
     int& dyn_m_completionCountdown();
     // Get instance field reference: System.Collections.Generic.List`1<System.Threading.Tasks.Task> m_exceptionalChildren
-    System::Collections::Generic::List_1<System::Threading::Tasks::Task*>*& dyn_m_exceptionalChildren();
+    ::System::Collections::Generic::List_1<::System::Threading::Tasks::Task*>*& dyn_m_exceptionalChildren();
     // System.Void SetCompleted()
     // Offset: 0x1CD939C
     void SetCompleted();
@@ -136,12 +136,12 @@ namespace System::Threading::Tasks {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Task::ContingentProperties* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::Task::ContingentProperties::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::Tasks::Task::ContingentProperties::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Task::ContingentProperties*, creationType>()));
     }
   }; // System.Threading.Tasks.Task/System.Threading.Tasks.ContingentProperties
   #pragma pack(pop)
-  static check_size<sizeof(Task::ContingentProperties), 64 + sizeof(System::Collections::Generic::List_1<System::Threading::Tasks::Task*>*)> __System_Threading_Tasks_Task_ContingentPropertiesSizeCheck;
+  static check_size<sizeof(Task::ContingentProperties), 64 + sizeof(::System::Collections::Generic::List_1<::System::Threading::Tasks::Task*>*)> __System_Threading_Tasks_Task_ContingentPropertiesSizeCheck;
   static_assert(sizeof(Task::ContingentProperties) == 0x48);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

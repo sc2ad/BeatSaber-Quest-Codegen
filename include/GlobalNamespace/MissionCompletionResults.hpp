@@ -26,8 +26,8 @@ namespace GlobalNamespace {
   class MissionCompletionResults;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MissionCompletionResults);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionCompletionResults*, "", "MissionCompletionResults");
+NEED_NO_BOX(::GlobalNamespace::MissionCompletionResults);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MissionCompletionResults*, "", "MissionCompletionResults");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -48,33 +48,33 @@ namespace GlobalNamespace {
     // public readonly LevelCompletionResults levelCompletionResults
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::LevelCompletionResults* levelCompletionResults;
+    ::GlobalNamespace::LevelCompletionResults* levelCompletionResults;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::LevelCompletionResults*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::LevelCompletionResults*) == 0x8);
     // public readonly MissionObjectiveResult[] missionObjectiveResults
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayW<GlobalNamespace::MissionObjectiveResult*> missionObjectiveResults;
+    ::ArrayW<::GlobalNamespace::MissionObjectiveResult*> missionObjectiveResults;
     // Field size check
-    static_assert(sizeof(::ArrayW<GlobalNamespace::MissionObjectiveResult*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::GlobalNamespace::MissionObjectiveResult*>) == 0x8);
     public:
     // Get instance field reference: public readonly LevelCompletionResults levelCompletionResults
-    GlobalNamespace::LevelCompletionResults*& dyn_levelCompletionResults();
+    ::GlobalNamespace::LevelCompletionResults*& dyn_levelCompletionResults();
     // Get instance field reference: public readonly MissionObjectiveResult[] missionObjectiveResults
-    ::ArrayW<GlobalNamespace::MissionObjectiveResult*>& dyn_missionObjectiveResults();
+    ::ArrayW<::GlobalNamespace::MissionObjectiveResult*>& dyn_missionObjectiveResults();
     // public System.Boolean get_IsMissionComplete()
     // Offset: 0x2A6C128
     bool get_IsMissionComplete();
     // public System.Void .ctor(LevelCompletionResults levelCompletionResults, MissionObjectiveResult[] missionObjectiveResults)
     // Offset: 0x2A6C1A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MissionCompletionResults* New_ctor(GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::ArrayW<GlobalNamespace::MissionObjectiveResult*> missionObjectiveResults) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MissionCompletionResults::.ctor");
+    static MissionCompletionResults* New_ctor(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::ArrayW<::GlobalNamespace::MissionObjectiveResult*> missionObjectiveResults) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionCompletionResults::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionCompletionResults*, creationType>(levelCompletionResults, missionObjectiveResults)));
     }
   }; // MissionCompletionResults
   #pragma pack(pop)
-  static check_size<sizeof(MissionCompletionResults), 24 + sizeof(::ArrayW<GlobalNamespace::MissionObjectiveResult*>)> __GlobalNamespace_MissionCompletionResultsSizeCheck;
+  static check_size<sizeof(MissionCompletionResults), 24 + sizeof(::ArrayW<::GlobalNamespace::MissionObjectiveResult*>)> __GlobalNamespace_MissionCompletionResultsSizeCheck;
   static_assert(sizeof(MissionCompletionResults) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -19,8 +19,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRPlugin::OVRP_1_44_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_44_0*, "", "OVRPlugin/OVRP_1_44_0");
+NEED_NO_BOX(::GlobalNamespace::OVRPlugin::OVRP_1_44_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRPlugin::OVRP_1_44_0*, "", "OVRPlugin/OVRP_1_44_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -30,45 +30,45 @@ namespace GlobalNamespace {
   class OVRPlugin::OVRP_1_44_0 : public ::Il2CppObject {
     public:
     // Get static field: static public readonly System.Version version
-    static System::Version* _get_version();
+    static ::System::Version* _get_version();
     // Set static field: static public readonly System.Version version
-    static void _set_version(System::Version* value);
+    static void _set_version(::System::Version* value);
     // static private System.Void .cctor()
     // Offset: 0x1A74BE0
     static void _cctor();
     // static public OVRPlugin/Result ovrp_GetHandTrackingEnabled(ref OVRPlugin/Bool handTrackingEnabled)
     // Offset: 0x1A7457C
-    static GlobalNamespace::OVRPlugin::Result ovrp_GetHandTrackingEnabled(ByRef<GlobalNamespace::OVRPlugin::Bool> handTrackingEnabled);
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_GetHandTrackingEnabled(ByRef<::GlobalNamespace::OVRPlugin::Bool> handTrackingEnabled);
     // static public OVRPlugin/Result ovrp_GetHandState(OVRPlugin/Step stepId, OVRPlugin/Hand hand, out OVRPlugin/HandStateInternal handState)
     // Offset: 0x1A745FC
-    static GlobalNamespace::OVRPlugin::Result ovrp_GetHandState(GlobalNamespace::OVRPlugin::Step stepId, GlobalNamespace::OVRPlugin::Hand hand, ByRef<GlobalNamespace::OVRPlugin::HandStateInternal> handState);
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_GetHandState(::GlobalNamespace::OVRPlugin::Step stepId, ::GlobalNamespace::OVRPlugin::Hand hand, ByRef<::GlobalNamespace::OVRPlugin::HandStateInternal> handState);
     // static public OVRPlugin/Result ovrp_GetSkeleton(OVRPlugin/SkeletonType skeletonType, out OVRPlugin/Skeleton skeleton)
     // Offset: 0x1A74694
-    static GlobalNamespace::OVRPlugin::Result ovrp_GetSkeleton(GlobalNamespace::OVRPlugin::SkeletonType skeletonType, ByRef<GlobalNamespace::OVRPlugin::Skeleton> skeleton);
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_GetSkeleton(::GlobalNamespace::OVRPlugin::SkeletonType skeletonType, ByRef<::GlobalNamespace::OVRPlugin::Skeleton> skeleton);
     // static public OVRPlugin/Result ovrp_GetMesh(OVRPlugin/MeshType meshType, System.IntPtr meshPtr)
     // Offset: 0x1A74760
-    static GlobalNamespace::OVRPlugin::Result ovrp_GetMesh(GlobalNamespace::OVRPlugin::MeshType meshType, System::IntPtr meshPtr);
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_GetMesh(::GlobalNamespace::OVRPlugin::MeshType meshType, ::System::IntPtr meshPtr);
     // static public OVRPlugin/Result ovrp_OverrideExternalCameraFov(System.Int32 cameraId, OVRPlugin/Bool useOverriddenFov, ref OVRPlugin/Fovf fov)
     // Offset: 0x1A747EC
-    static GlobalNamespace::OVRPlugin::Result ovrp_OverrideExternalCameraFov(int cameraId, GlobalNamespace::OVRPlugin::Bool useOverriddenFov, ByRef<GlobalNamespace::OVRPlugin::Fovf> fov);
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_OverrideExternalCameraFov(int cameraId, ::GlobalNamespace::OVRPlugin::Bool useOverriddenFov, ByRef<::GlobalNamespace::OVRPlugin::Fovf> fov);
     // static public OVRPlugin/Result ovrp_GetUseOverriddenExternalCameraFov(System.Int32 cameraId, out OVRPlugin/Bool useOverriddenFov)
     // Offset: 0x1A74884
-    static GlobalNamespace::OVRPlugin::Result ovrp_GetUseOverriddenExternalCameraFov(int cameraId, ByRef<GlobalNamespace::OVRPlugin::Bool> useOverriddenFov);
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_GetUseOverriddenExternalCameraFov(int cameraId, ByRef<::GlobalNamespace::OVRPlugin::Bool> useOverriddenFov);
     // static public OVRPlugin/Result ovrp_OverrideExternalCameraStaticPose(System.Int32 cameraId, OVRPlugin/Bool useOverriddenPose, ref OVRPlugin/Posef poseInStageOrigin)
     // Offset: 0x1A74914
-    static GlobalNamespace::OVRPlugin::Result ovrp_OverrideExternalCameraStaticPose(int cameraId, GlobalNamespace::OVRPlugin::Bool useOverriddenPose, ByRef<GlobalNamespace::OVRPlugin::Posef> poseInStageOrigin);
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_OverrideExternalCameraStaticPose(int cameraId, ::GlobalNamespace::OVRPlugin::Bool useOverriddenPose, ByRef<::GlobalNamespace::OVRPlugin::Posef> poseInStageOrigin);
     // static public OVRPlugin/Result ovrp_GetUseOverriddenExternalCameraStaticPose(System.Int32 cameraId, out OVRPlugin/Bool useOverriddenStaticPose)
     // Offset: 0x1A749AC
-    static GlobalNamespace::OVRPlugin::Result ovrp_GetUseOverriddenExternalCameraStaticPose(int cameraId, ByRef<GlobalNamespace::OVRPlugin::Bool> useOverriddenStaticPose);
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_GetUseOverriddenExternalCameraStaticPose(int cameraId, ByRef<::GlobalNamespace::OVRPlugin::Bool> useOverriddenStaticPose);
     // static public OVRPlugin/Result ovrp_ResetDefaultExternalCamera()
     // Offset: 0x1A74A3C
-    static GlobalNamespace::OVRPlugin::Result ovrp_ResetDefaultExternalCamera();
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_ResetDefaultExternalCamera();
     // static public OVRPlugin/Result ovrp_SetDefaultExternalCamera(System.String cameraName, ref OVRPlugin/CameraIntrinsics cameraIntrinsics, ref OVRPlugin/CameraExtrinsics cameraExtrinsics)
     // Offset: 0x1A74AB0
-    static GlobalNamespace::OVRPlugin::Result ovrp_SetDefaultExternalCamera(::StringW cameraName, ByRef<GlobalNamespace::OVRPlugin::CameraIntrinsics> cameraIntrinsics, ByRef<GlobalNamespace::OVRPlugin::CameraExtrinsics> cameraExtrinsics);
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_SetDefaultExternalCamera(::StringW cameraName, ByRef<::GlobalNamespace::OVRPlugin::CameraIntrinsics> cameraIntrinsics, ByRef<::GlobalNamespace::OVRPlugin::CameraExtrinsics> cameraExtrinsics);
     // static public OVRPlugin/Result ovrp_GetLocalTrackingSpaceRecenterCount(ref System.Int32 recenterCount)
     // Offset: 0x1A74B60
-    static GlobalNamespace::OVRPlugin::Result ovrp_GetLocalTrackingSpaceRecenterCount(ByRef<int> recenterCount);
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_GetLocalTrackingSpaceRecenterCount(ByRef<int> recenterCount);
   }; // OVRPlugin/OVRP_1_44_0
   #pragma pack(pop)
 }
@@ -84,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_GetHandTrackingEnabled
 // Il2CppName: ovrp_GetHandTrackingEnabled
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(ByRef<GlobalNamespace::OVRPlugin::Bool>)>(&GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_GetHandTrackingEnabled)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)(ByRef<::GlobalNamespace::OVRPlugin::Bool>)>(&GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_GetHandTrackingEnabled)> {
   static const MethodInfo* get() {
     static auto* handTrackingEnabled = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Bool")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_44_0*), "ovrp_GetHandTrackingEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{handTrackingEnabled});
@@ -93,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_GetHandState
 // Il2CppName: ovrp_GetHandState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::Step, GlobalNamespace::OVRPlugin::Hand, ByRef<GlobalNamespace::OVRPlugin::HandStateInternal>)>(&GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_GetHandState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)(::GlobalNamespace::OVRPlugin::Step, ::GlobalNamespace::OVRPlugin::Hand, ByRef<::GlobalNamespace::OVRPlugin::HandStateInternal>)>(&GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_GetHandState)> {
   static const MethodInfo* get() {
     static auto* stepId = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Step")->byval_arg;
     static auto* hand = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Hand")->byval_arg;
@@ -104,7 +104,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_GetSkeleton
 // Il2CppName: ovrp_GetSkeleton
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::SkeletonType, ByRef<GlobalNamespace::OVRPlugin::Skeleton>)>(&GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_GetSkeleton)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)(::GlobalNamespace::OVRPlugin::SkeletonType, ByRef<::GlobalNamespace::OVRPlugin::Skeleton>)>(&GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_GetSkeleton)> {
   static const MethodInfo* get() {
     static auto* skeletonType = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/SkeletonType")->byval_arg;
     static auto* skeleton = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Skeleton")->this_arg;
@@ -114,7 +114,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_GetMesh
 // Il2CppName: ovrp_GetMesh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::MeshType, System::IntPtr)>(&GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_GetMesh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)(::GlobalNamespace::OVRPlugin::MeshType, ::System::IntPtr)>(&GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_GetMesh)> {
   static const MethodInfo* get() {
     static auto* meshType = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/MeshType")->byval_arg;
     static auto* meshPtr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -124,7 +124,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_OverrideExternalCameraFov
 // Il2CppName: ovrp_OverrideExternalCameraFov
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(int, GlobalNamespace::OVRPlugin::Bool, ByRef<GlobalNamespace::OVRPlugin::Fovf>)>(&GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_OverrideExternalCameraFov)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)(int, ::GlobalNamespace::OVRPlugin::Bool, ByRef<::GlobalNamespace::OVRPlugin::Fovf>)>(&GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_OverrideExternalCameraFov)> {
   static const MethodInfo* get() {
     static auto* cameraId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* useOverriddenFov = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Bool")->byval_arg;
@@ -135,7 +135,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_GetUseOverriddenExternalCameraFov
 // Il2CppName: ovrp_GetUseOverriddenExternalCameraFov
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(int, ByRef<GlobalNamespace::OVRPlugin::Bool>)>(&GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_GetUseOverriddenExternalCameraFov)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)(int, ByRef<::GlobalNamespace::OVRPlugin::Bool>)>(&GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_GetUseOverriddenExternalCameraFov)> {
   static const MethodInfo* get() {
     static auto* cameraId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* useOverriddenFov = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Bool")->this_arg;
@@ -145,7 +145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_OverrideExternalCameraStaticPose
 // Il2CppName: ovrp_OverrideExternalCameraStaticPose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(int, GlobalNamespace::OVRPlugin::Bool, ByRef<GlobalNamespace::OVRPlugin::Posef>)>(&GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_OverrideExternalCameraStaticPose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)(int, ::GlobalNamespace::OVRPlugin::Bool, ByRef<::GlobalNamespace::OVRPlugin::Posef>)>(&GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_OverrideExternalCameraStaticPose)> {
   static const MethodInfo* get() {
     static auto* cameraId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* useOverriddenPose = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Bool")->byval_arg;
@@ -156,7 +156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_GetUseOverriddenExternalCameraStaticPose
 // Il2CppName: ovrp_GetUseOverriddenExternalCameraStaticPose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(int, ByRef<GlobalNamespace::OVRPlugin::Bool>)>(&GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_GetUseOverriddenExternalCameraStaticPose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)(int, ByRef<::GlobalNamespace::OVRPlugin::Bool>)>(&GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_GetUseOverriddenExternalCameraStaticPose)> {
   static const MethodInfo* get() {
     static auto* cameraId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* useOverriddenStaticPose = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Bool")->this_arg;
@@ -166,7 +166,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_ResetDefaultExternalCamera
 // Il2CppName: ovrp_ResetDefaultExternalCamera
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_ResetDefaultExternalCamera)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_ResetDefaultExternalCamera)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_44_0*), "ovrp_ResetDefaultExternalCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -174,7 +174,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_SetDefaultExternalCamera
 // Il2CppName: ovrp_SetDefaultExternalCamera
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(::StringW, ByRef<GlobalNamespace::OVRPlugin::CameraIntrinsics>, ByRef<GlobalNamespace::OVRPlugin::CameraExtrinsics>)>(&GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_SetDefaultExternalCamera)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)(::StringW, ByRef<::GlobalNamespace::OVRPlugin::CameraIntrinsics>, ByRef<::GlobalNamespace::OVRPlugin::CameraExtrinsics>)>(&GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_SetDefaultExternalCamera)> {
   static const MethodInfo* get() {
     static auto* cameraName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* cameraIntrinsics = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/CameraIntrinsics")->this_arg;
@@ -185,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_GetLocalTrackingSpaceRecenterCount
 // Il2CppName: ovrp_GetLocalTrackingSpaceRecenterCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(ByRef<int>)>(&GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_GetLocalTrackingSpaceRecenterCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)(ByRef<int>)>(&GlobalNamespace::OVRPlugin::OVRP_1_44_0::ovrp_GetLocalTrackingSpaceRecenterCount)> {
   static const MethodInfo* get() {
     static auto* recenterCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_44_0*), "ovrp_GetLocalTrackingSpaceRecenterCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{recenterCount});

@@ -28,8 +28,8 @@ namespace Oculus::Platform::Models {
   class LaunchDetails;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::LaunchDetails);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LaunchDetails*, "Oculus.Platform.Models", "LaunchDetails");
+NEED_NO_BOX(::Oculus::Platform::Models::LaunchDetails);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::LaunchDetails*, "Oculus.Platform.Models", "LaunchDetails");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x50
@@ -68,9 +68,9 @@ namespace Oculus::Platform::Models {
     // public readonly Oculus.Platform.LaunchType LaunchType
     // Size: 0x4
     // Offset: 0x28
-    Oculus::Platform::LaunchType LaunchType;
+    ::Oculus::Platform::LaunchType LaunchType;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::LaunchType) == 0x4);
+    static_assert(sizeof(::Oculus::Platform::LaunchType) == 0x4);
     // Padding between fields: LaunchType and: RoomID
     char __padding3[0x4] = {};
     // public readonly System.UInt64 RoomID
@@ -88,16 +88,16 @@ namespace Oculus::Platform::Models {
     // public readonly Oculus.Platform.Models.UserList UsersOptional
     // Size: 0x8
     // Offset: 0x40
-    Oculus::Platform::Models::UserList* UsersOptional;
+    ::Oculus::Platform::Models::UserList* UsersOptional;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::Models::UserList*) == 0x8);
+    static_assert(sizeof(::Oculus::Platform::Models::UserList*) == 0x8);
     // [ObsoleteAttribute] Offset: 0x1232548
     // public readonly Oculus.Platform.Models.UserList Users
     // Size: 0x8
     // Offset: 0x48
-    Oculus::Platform::Models::UserList* Users;
+    ::Oculus::Platform::Models::UserList* Users;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::Models::UserList*) == 0x8);
+    static_assert(sizeof(::Oculus::Platform::Models::UserList*) == 0x8);
     public:
     // Get instance field reference: public readonly System.String DeeplinkMessage
     ::StringW& dyn_DeeplinkMessage();
@@ -106,25 +106,25 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.String LaunchSource
     ::StringW& dyn_LaunchSource();
     // Get instance field reference: public readonly Oculus.Platform.LaunchType LaunchType
-    Oculus::Platform::LaunchType& dyn_LaunchType();
+    ::Oculus::Platform::LaunchType& dyn_LaunchType();
     // Get instance field reference: public readonly System.UInt64 RoomID
     uint64_t& dyn_RoomID();
     // Get instance field reference: public readonly System.String TrackingID
     ::StringW& dyn_TrackingID();
     // Get instance field reference: public readonly Oculus.Platform.Models.UserList UsersOptional
-    Oculus::Platform::Models::UserList*& dyn_UsersOptional();
+    ::Oculus::Platform::Models::UserList*& dyn_UsersOptional();
     // Get instance field reference: public readonly Oculus.Platform.Models.UserList Users
-    Oculus::Platform::Models::UserList*& dyn_Users();
+    ::Oculus::Platform::Models::UserList*& dyn_Users();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x196D3DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static LaunchDetails* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::LaunchDetails::.ctor");
+    static LaunchDetails* New_ctor(::System::IntPtr o) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::LaunchDetails::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LaunchDetails*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.LaunchDetails
   #pragma pack(pop)
-  static check_size<sizeof(LaunchDetails), 72 + sizeof(Oculus::Platform::Models::UserList*)> __Oculus_Platform_Models_LaunchDetailsSizeCheck;
+  static check_size<sizeof(LaunchDetails), 72 + sizeof(::Oculus::Platform::Models::UserList*)> __Oculus_Platform_Models_LaunchDetailsSizeCheck;
   static_assert(sizeof(LaunchDetails) == 0x50);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

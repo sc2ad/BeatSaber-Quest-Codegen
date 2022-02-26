@@ -61,8 +61,8 @@ namespace System::Xml {
   class XmlReaderSettings;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::XmlReaderSettings);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlReaderSettings*, "System.Xml", "XmlReaderSettings");
+NEED_NO_BOX(::System::Xml::XmlReaderSettings);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlReaderSettings*, "System.Xml", "XmlReaderSettings");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x6B
@@ -91,15 +91,15 @@ namespace System::Xml {
     // private System.Xml.XmlNameTable nameTable
     // Size: 0x8
     // Offset: 0x18
-    System::Xml::XmlNameTable* nameTable;
+    ::System::Xml::XmlNameTable* nameTable;
     // Field size check
-    static_assert(sizeof(System::Xml::XmlNameTable*) == 0x8);
+    static_assert(sizeof(::System::Xml::XmlNameTable*) == 0x8);
     // private System.Xml.XmlResolver xmlResolver
     // Size: 0x8
     // Offset: 0x20
-    System::Xml::XmlResolver* xmlResolver;
+    ::System::Xml::XmlResolver* xmlResolver;
     // Field size check
-    static_assert(sizeof(System::Xml::XmlResolver*) == 0x8);
+    static_assert(sizeof(::System::Xml::XmlResolver*) == 0x8);
     // private System.Int32 lineNumberOffset
     // Size: 0x4
     // Offset: 0x28
@@ -115,9 +115,9 @@ namespace System::Xml {
     // private System.Xml.ConformanceLevel conformanceLevel
     // Size: 0x4
     // Offset: 0x30
-    System::Xml::ConformanceLevel conformanceLevel;
+    ::System::Xml::ConformanceLevel conformanceLevel;
     // Field size check
-    static_assert(sizeof(System::Xml::ConformanceLevel) == 0x4);
+    static_assert(sizeof(::System::Xml::ConformanceLevel) == 0x4);
     // private System.Boolean checkCharacters
     // Size: 0x1
     // Offset: 0x34
@@ -161,33 +161,33 @@ namespace System::Xml {
     // private System.Xml.DtdProcessing dtdProcessing
     // Size: 0x4
     // Offset: 0x4C
-    System::Xml::DtdProcessing dtdProcessing;
+    ::System::Xml::DtdProcessing dtdProcessing;
     // Field size check
-    static_assert(sizeof(System::Xml::DtdProcessing) == 0x4);
+    static_assert(sizeof(::System::Xml::DtdProcessing) == 0x4);
     // private System.Xml.ValidationType validationType
     // Size: 0x4
     // Offset: 0x50
-    System::Xml::ValidationType validationType;
+    ::System::Xml::ValidationType validationType;
     // Field size check
-    static_assert(sizeof(System::Xml::ValidationType) == 0x4);
+    static_assert(sizeof(::System::Xml::ValidationType) == 0x4);
     // private System.Xml.Schema.XmlSchemaValidationFlags validationFlags
     // Size: 0x4
     // Offset: 0x54
-    System::Xml::Schema::XmlSchemaValidationFlags validationFlags;
+    ::System::Xml::Schema::XmlSchemaValidationFlags validationFlags;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::XmlSchemaValidationFlags) == 0x4);
+    static_assert(sizeof(::System::Xml::Schema::XmlSchemaValidationFlags) == 0x4);
     // private System.Xml.Schema.XmlSchemaSet schemas
     // Size: 0x8
     // Offset: 0x58
-    System::Xml::Schema::XmlSchemaSet* schemas;
+    ::System::Xml::Schema::XmlSchemaSet* schemas;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::XmlSchemaSet*) == 0x8);
+    static_assert(sizeof(::System::Xml::Schema::XmlSchemaSet*) == 0x8);
     // private System.Xml.Schema.ValidationEventHandler valEventHandler
     // Size: 0x8
     // Offset: 0x60
-    System::Xml::Schema::ValidationEventHandler* valEventHandler;
+    ::System::Xml::Schema::ValidationEventHandler* valEventHandler;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::ValidationEventHandler*) == 0x8);
+    static_assert(sizeof(::System::Xml::Schema::ValidationEventHandler*) == 0x8);
     // private System.Boolean closeInput
     // Size: 0x1
     // Offset: 0x68
@@ -208,21 +208,21 @@ namespace System::Xml {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get static field: static private System.Nullable`1<System.Boolean> s_enableLegacyXmlSettings
-    static System::Nullable_1<bool> _get_s_enableLegacyXmlSettings();
+    static ::System::Nullable_1<bool> _get_s_enableLegacyXmlSettings();
     // Set static field: static private System.Nullable`1<System.Boolean> s_enableLegacyXmlSettings
-    static void _set_s_enableLegacyXmlSettings(System::Nullable_1<bool> value);
+    static void _set_s_enableLegacyXmlSettings(::System::Nullable_1<bool> value);
     // Get instance field reference: private System.Boolean useAsync
     bool& dyn_useAsync();
     // Get instance field reference: private System.Xml.XmlNameTable nameTable
-    System::Xml::XmlNameTable*& dyn_nameTable();
+    ::System::Xml::XmlNameTable*& dyn_nameTable();
     // Get instance field reference: private System.Xml.XmlResolver xmlResolver
-    System::Xml::XmlResolver*& dyn_xmlResolver();
+    ::System::Xml::XmlResolver*& dyn_xmlResolver();
     // Get instance field reference: private System.Int32 lineNumberOffset
     int& dyn_lineNumberOffset();
     // Get instance field reference: private System.Int32 linePositionOffset
     int& dyn_linePositionOffset();
     // Get instance field reference: private System.Xml.ConformanceLevel conformanceLevel
-    System::Xml::ConformanceLevel& dyn_conformanceLevel();
+    ::System::Xml::ConformanceLevel& dyn_conformanceLevel();
     // Get instance field reference: private System.Boolean checkCharacters
     bool& dyn_checkCharacters();
     // Get instance field reference: private System.Int64 maxCharactersInDocument
@@ -236,15 +236,15 @@ namespace System::Xml {
     // Get instance field reference: private System.Boolean ignoreComments
     bool& dyn_ignoreComments();
     // Get instance field reference: private System.Xml.DtdProcessing dtdProcessing
-    System::Xml::DtdProcessing& dyn_dtdProcessing();
+    ::System::Xml::DtdProcessing& dyn_dtdProcessing();
     // Get instance field reference: private System.Xml.ValidationType validationType
-    System::Xml::ValidationType& dyn_validationType();
+    ::System::Xml::ValidationType& dyn_validationType();
     // Get instance field reference: private System.Xml.Schema.XmlSchemaValidationFlags validationFlags
-    System::Xml::Schema::XmlSchemaValidationFlags& dyn_validationFlags();
+    ::System::Xml::Schema::XmlSchemaValidationFlags& dyn_validationFlags();
     // Get instance field reference: private System.Xml.Schema.XmlSchemaSet schemas
-    System::Xml::Schema::XmlSchemaSet*& dyn_schemas();
+    ::System::Xml::Schema::XmlSchemaSet*& dyn_schemas();
     // Get instance field reference: private System.Xml.Schema.ValidationEventHandler valEventHandler
-    System::Xml::Schema::ValidationEventHandler*& dyn_valEventHandler();
+    ::System::Xml::Schema::ValidationEventHandler*& dyn_valEventHandler();
     // Get instance field reference: private System.Boolean closeInput
     bool& dyn_closeInput();
     // Get instance field reference: private System.Boolean isReadOnly
@@ -259,10 +259,10 @@ namespace System::Xml {
     void set_Async(bool value);
     // public System.Xml.XmlNameTable get_NameTable()
     // Offset: 0x14DA338
-    System::Xml::XmlNameTable* get_NameTable();
+    ::System::Xml::XmlNameTable* get_NameTable();
     // public System.Void set_NameTable(System.Xml.XmlNameTable value)
     // Offset: 0x14DA340
-    void set_NameTable(System::Xml::XmlNameTable* value);
+    void set_NameTable(::System::Xml::XmlNameTable* value);
     // System.Boolean get_IsXmlResolverSet()
     // Offset: 0x14DA3A4
     bool get_IsXmlResolverSet();
@@ -271,7 +271,7 @@ namespace System::Xml {
     void set_IsXmlResolverSet(bool value);
     // public System.Void set_XmlResolver(System.Xml.XmlResolver value)
     // Offset: 0x14DA3B8
-    void set_XmlResolver(System::Xml::XmlResolver* value);
+    void set_XmlResolver(::System::Xml::XmlResolver* value);
     // public System.Int32 get_LineNumberOffset()
     // Offset: 0x14DA468
     int get_LineNumberOffset();
@@ -286,10 +286,10 @@ namespace System::Xml {
     void set_LinePositionOffset(int value);
     // public System.Xml.ConformanceLevel get_ConformanceLevel()
     // Offset: 0x14DA540
-    System::Xml::ConformanceLevel get_ConformanceLevel();
+    ::System::Xml::ConformanceLevel get_ConformanceLevel();
     // public System.Void set_ConformanceLevel(System.Xml.ConformanceLevel value)
     // Offset: 0x14DA548
-    void set_ConformanceLevel(System::Xml::ConformanceLevel value);
+    void set_ConformanceLevel(::System::Xml::ConformanceLevel value);
     // public System.Boolean get_CheckCharacters()
     // Offset: 0x14DA5F0
     bool get_CheckCharacters();
@@ -328,10 +328,10 @@ namespace System::Xml {
     void set_IgnoreComments(bool value);
     // public System.Xml.DtdProcessing get_DtdProcessing()
     // Offset: 0x14DA908
-    System::Xml::DtdProcessing get_DtdProcessing();
+    ::System::Xml::DtdProcessing get_DtdProcessing();
     // public System.Void set_DtdProcessing(System.Xml.DtdProcessing value)
     // Offset: 0x14DA910
-    void set_DtdProcessing(System::Xml::DtdProcessing value);
+    void set_DtdProcessing(::System::Xml::DtdProcessing value);
     // public System.Boolean get_CloseInput()
     // Offset: 0x14DA9B8
     bool get_CloseInput();
@@ -340,43 +340,43 @@ namespace System::Xml {
     void set_CloseInput(bool value);
     // public System.Xml.ValidationType get_ValidationType()
     // Offset: 0x14DAA28
-    System::Xml::ValidationType get_ValidationType();
+    ::System::Xml::ValidationType get_ValidationType();
     // public System.Void set_ValidationType(System.Xml.ValidationType value)
     // Offset: 0x14DAA30
-    void set_ValidationType(System::Xml::ValidationType value);
+    void set_ValidationType(::System::Xml::ValidationType value);
     // public System.Xml.Schema.XmlSchemaValidationFlags get_ValidationFlags()
     // Offset: 0x14DAAD8
-    System::Xml::Schema::XmlSchemaValidationFlags get_ValidationFlags();
+    ::System::Xml::Schema::XmlSchemaValidationFlags get_ValidationFlags();
     // public System.Void set_ValidationFlags(System.Xml.Schema.XmlSchemaValidationFlags value)
     // Offset: 0x14DAAE0
-    void set_ValidationFlags(System::Xml::Schema::XmlSchemaValidationFlags value);
+    void set_ValidationFlags(::System::Xml::Schema::XmlSchemaValidationFlags value);
     // public System.Xml.Schema.XmlSchemaSet get_Schemas()
     // Offset: 0x14DAB88
-    System::Xml::Schema::XmlSchemaSet* get_Schemas();
+    ::System::Xml::Schema::XmlSchemaSet* get_Schemas();
     // public System.Void set_Schemas(System.Xml.Schema.XmlSchemaSet value)
     // Offset: 0x14DABF4
-    void set_Schemas(System::Xml::Schema::XmlSchemaSet* value);
+    void set_Schemas(::System::Xml::Schema::XmlSchemaSet* value);
     // System.Void set_ReadOnly(System.Boolean value)
     // Offset: 0x14DADDC
     void set_ReadOnly(bool value);
     // System.Xml.XmlResolver GetXmlResolver()
     // Offset: 0x14DA424
-    System::Xml::XmlResolver* GetXmlResolver();
+    ::System::Xml::XmlResolver* GetXmlResolver();
     // System.Xml.XmlResolver GetXmlResolver_CheckConfig()
     // Offset: 0x14DA42C
-    System::Xml::XmlResolver* GetXmlResolver_CheckConfig();
+    ::System::Xml::XmlResolver* GetXmlResolver_CheckConfig();
     // public System.Xml.XmlReaderSettings Clone()
     // Offset: 0x14DAC58
-    System::Xml::XmlReaderSettings* Clone();
+    ::System::Xml::XmlReaderSettings* Clone();
     // System.Xml.Schema.ValidationEventHandler GetEventHandler()
     // Offset: 0x14DACC8
-    System::Xml::Schema::ValidationEventHandler* GetEventHandler();
+    ::System::Xml::Schema::ValidationEventHandler* GetEventHandler();
     // System.Xml.XmlReader CreateReader(System.IO.Stream input, System.Uri baseUri, System.String baseUriString, System.Xml.XmlParserContext inputContext)
     // Offset: 0x14D9438
-    System::Xml::XmlReader* CreateReader(System::IO::Stream* input, System::Uri* baseUri, ::StringW baseUriString, System::Xml::XmlParserContext* inputContext);
+    ::System::Xml::XmlReader* CreateReader(::System::IO::Stream* input, ::System::Uri* baseUri, ::StringW baseUriString, ::System::Xml::XmlParserContext* inputContext);
     // System.Xml.XmlReader CreateReader(System.IO.TextReader input, System.String baseUriString, System.Xml.XmlParserContext inputContext)
     // Offset: 0x14D9658
-    System::Xml::XmlReader* CreateReader(System::IO::TextReader* input, ::StringW baseUriString, System::Xml::XmlParserContext* inputContext);
+    ::System::Xml::XmlReader* CreateReader(::System::IO::TextReader* input, ::StringW baseUriString, ::System::Xml::XmlParserContext* inputContext);
     // private System.Void CheckReadOnly(System.String propertyName)
     // Offset: 0x14DA260
     void CheckReadOnly(::StringW propertyName);
@@ -385,16 +385,16 @@ namespace System::Xml {
     void Initialize();
     // private System.Void Initialize(System.Xml.XmlResolver resolver)
     // Offset: 0x14DADE8
-    void Initialize(System::Xml::XmlResolver* resolver);
+    void Initialize(::System::Xml::XmlResolver* resolver);
     // static private System.Xml.XmlResolver CreateDefaultResolver()
     // Offset: 0x14DAE58
-    static System::Xml::XmlResolver* CreateDefaultResolver();
+    static ::System::Xml::XmlResolver* CreateDefaultResolver();
     // System.Xml.XmlReader AddValidation(System.Xml.XmlReader reader)
     // Offset: 0x14DA070
-    System::Xml::XmlReader* AddValidation(System::Xml::XmlReader* reader);
+    ::System::Xml::XmlReader* AddValidation(::System::Xml::XmlReader* reader);
     // private System.Xml.XmlValidatingReaderImpl CreateDtdValidatingReader(System.Xml.XmlReader baseReader)
     // Offset: 0x14DB008
-    System::Xml::XmlValidatingReaderImpl* CreateDtdValidatingReader(System::Xml::XmlReader* baseReader);
+    ::System::Xml::XmlValidatingReaderImpl* CreateDtdValidatingReader(::System::Xml::XmlReader* baseReader);
     // static System.Boolean EnableLegacyXmlSettings()
     // Offset: 0x14DAEB4
     static bool EnableLegacyXmlSettings();
@@ -404,7 +404,7 @@ namespace System::Xml {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlReaderSettings* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlReaderSettings::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlReaderSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlReaderSettings*, creationType>()));
     }
   }; // System.Xml.XmlReaderSettings
@@ -433,7 +433,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlReaderSettings::get_NameTable
 // Il2CppName: get_NameTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlNameTable* (System::Xml::XmlReaderSettings::*)()>(&System::Xml::XmlReaderSettings::get_NameTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNameTable* (System::Xml::XmlReaderSettings::*)()>(&System::Xml::XmlReaderSettings::get_NameTable)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlReaderSettings*), "get_NameTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -441,7 +441,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlReaderSettings::set_NameTable
 // Il2CppName: set_NameTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlReaderSettings::*)(System::Xml::XmlNameTable*)>(&System::Xml::XmlReaderSettings::set_NameTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlReaderSettings::*)(::System::Xml::XmlNameTable*)>(&System::Xml::XmlReaderSettings::set_NameTable)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNameTable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlReaderSettings*), "set_NameTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -467,7 +467,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlReaderSettings::set_XmlResolver
 // Il2CppName: set_XmlResolver
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlReaderSettings::*)(System::Xml::XmlResolver*)>(&System::Xml::XmlReaderSettings::set_XmlResolver)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlReaderSettings::*)(::System::Xml::XmlResolver*)>(&System::Xml::XmlReaderSettings::set_XmlResolver)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlResolver")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlReaderSettings*), "set_XmlResolver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -510,7 +510,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlReaderSettings::get_ConformanceLevel
 // Il2CppName: get_ConformanceLevel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::ConformanceLevel (System::Xml::XmlReaderSettings::*)()>(&System::Xml::XmlReaderSettings::get_ConformanceLevel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::ConformanceLevel (System::Xml::XmlReaderSettings::*)()>(&System::Xml::XmlReaderSettings::get_ConformanceLevel)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlReaderSettings*), "get_ConformanceLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -518,7 +518,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlReaderSettings::set_ConformanceLevel
 // Il2CppName: set_ConformanceLevel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlReaderSettings::*)(System::Xml::ConformanceLevel)>(&System::Xml::XmlReaderSettings::set_ConformanceLevel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlReaderSettings::*)(::System::Xml::ConformanceLevel)>(&System::Xml::XmlReaderSettings::set_ConformanceLevel)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Xml", "ConformanceLevel")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlReaderSettings*), "set_ConformanceLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -629,7 +629,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlReaderSettings::get_DtdProcessing
 // Il2CppName: get_DtdProcessing
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::DtdProcessing (System::Xml::XmlReaderSettings::*)()>(&System::Xml::XmlReaderSettings::get_DtdProcessing)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::DtdProcessing (System::Xml::XmlReaderSettings::*)()>(&System::Xml::XmlReaderSettings::get_DtdProcessing)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlReaderSettings*), "get_DtdProcessing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -637,7 +637,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlReaderSettings::set_DtdProcessing
 // Il2CppName: set_DtdProcessing
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlReaderSettings::*)(System::Xml::DtdProcessing)>(&System::Xml::XmlReaderSettings::set_DtdProcessing)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlReaderSettings::*)(::System::Xml::DtdProcessing)>(&System::Xml::XmlReaderSettings::set_DtdProcessing)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Xml", "DtdProcessing")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlReaderSettings*), "set_DtdProcessing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -663,7 +663,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlReaderSettings::get_ValidationType
 // Il2CppName: get_ValidationType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::ValidationType (System::Xml::XmlReaderSettings::*)()>(&System::Xml::XmlReaderSettings::get_ValidationType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::ValidationType (System::Xml::XmlReaderSettings::*)()>(&System::Xml::XmlReaderSettings::get_ValidationType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlReaderSettings*), "get_ValidationType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -671,7 +671,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlReaderSettings::set_ValidationType
 // Il2CppName: set_ValidationType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlReaderSettings::*)(System::Xml::ValidationType)>(&System::Xml::XmlReaderSettings::set_ValidationType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlReaderSettings::*)(::System::Xml::ValidationType)>(&System::Xml::XmlReaderSettings::set_ValidationType)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Xml", "ValidationType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlReaderSettings*), "set_ValidationType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -680,7 +680,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlReaderSettings::get_ValidationFlags
 // Il2CppName: get_ValidationFlags
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Schema::XmlSchemaValidationFlags (System::Xml::XmlReaderSettings::*)()>(&System::Xml::XmlReaderSettings::get_ValidationFlags)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaValidationFlags (System::Xml::XmlReaderSettings::*)()>(&System::Xml::XmlReaderSettings::get_ValidationFlags)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlReaderSettings*), "get_ValidationFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -688,7 +688,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlReaderSettings::set_ValidationFlags
 // Il2CppName: set_ValidationFlags
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlReaderSettings::*)(System::Xml::Schema::XmlSchemaValidationFlags)>(&System::Xml::XmlReaderSettings::set_ValidationFlags)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlReaderSettings::*)(::System::Xml::Schema::XmlSchemaValidationFlags)>(&System::Xml::XmlReaderSettings::set_ValidationFlags)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaValidationFlags")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlReaderSettings*), "set_ValidationFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -697,7 +697,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlReaderSettings::get_Schemas
 // Il2CppName: get_Schemas
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Schema::XmlSchemaSet* (System::Xml::XmlReaderSettings::*)()>(&System::Xml::XmlReaderSettings::get_Schemas)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaSet* (System::Xml::XmlReaderSettings::*)()>(&System::Xml::XmlReaderSettings::get_Schemas)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlReaderSettings*), "get_Schemas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -705,7 +705,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlReaderSettings::set_Schemas
 // Il2CppName: set_Schemas
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlReaderSettings::*)(System::Xml::Schema::XmlSchemaSet*)>(&System::Xml::XmlReaderSettings::set_Schemas)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlReaderSettings::*)(::System::Xml::Schema::XmlSchemaSet*)>(&System::Xml::XmlReaderSettings::set_Schemas)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XmlSchemaSet")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlReaderSettings*), "set_Schemas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -723,7 +723,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlReaderSettings::GetXmlResolver
 // Il2CppName: GetXmlResolver
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlResolver* (System::Xml::XmlReaderSettings::*)()>(&System::Xml::XmlReaderSettings::GetXmlResolver)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlResolver* (System::Xml::XmlReaderSettings::*)()>(&System::Xml::XmlReaderSettings::GetXmlResolver)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlReaderSettings*), "GetXmlResolver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -731,7 +731,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlReaderSettings::GetXmlResolver_CheckConfig
 // Il2CppName: GetXmlResolver_CheckConfig
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlResolver* (System::Xml::XmlReaderSettings::*)()>(&System::Xml::XmlReaderSettings::GetXmlResolver_CheckConfig)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlResolver* (System::Xml::XmlReaderSettings::*)()>(&System::Xml::XmlReaderSettings::GetXmlResolver_CheckConfig)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlReaderSettings*), "GetXmlResolver_CheckConfig", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -739,7 +739,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlReaderSettings::Clone
 // Il2CppName: Clone
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlReaderSettings* (System::Xml::XmlReaderSettings::*)()>(&System::Xml::XmlReaderSettings::Clone)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlReaderSettings* (System::Xml::XmlReaderSettings::*)()>(&System::Xml::XmlReaderSettings::Clone)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlReaderSettings*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -747,7 +747,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlReaderSettings::GetEventHandler
 // Il2CppName: GetEventHandler
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Schema::ValidationEventHandler* (System::Xml::XmlReaderSettings::*)()>(&System::Xml::XmlReaderSettings::GetEventHandler)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::ValidationEventHandler* (System::Xml::XmlReaderSettings::*)()>(&System::Xml::XmlReaderSettings::GetEventHandler)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlReaderSettings*), "GetEventHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -755,7 +755,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlReaderSettings::CreateReader
 // Il2CppName: CreateReader
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlReader* (System::Xml::XmlReaderSettings::*)(System::IO::Stream*, System::Uri*, ::StringW, System::Xml::XmlParserContext*)>(&System::Xml::XmlReaderSettings::CreateReader)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlReader* (System::Xml::XmlReaderSettings::*)(::System::IO::Stream*, ::System::Uri*, ::StringW, ::System::Xml::XmlParserContext*)>(&System::Xml::XmlReaderSettings::CreateReader)> {
   static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
     static auto* baseUri = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
@@ -767,7 +767,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlReaderSettings::CreateReader
 // Il2CppName: CreateReader
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlReader* (System::Xml::XmlReaderSettings::*)(System::IO::TextReader*, ::StringW, System::Xml::XmlParserContext*)>(&System::Xml::XmlReaderSettings::CreateReader)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlReader* (System::Xml::XmlReaderSettings::*)(::System::IO::TextReader*, ::StringW, ::System::Xml::XmlParserContext*)>(&System::Xml::XmlReaderSettings::CreateReader)> {
   static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System.IO", "TextReader")->byval_arg;
     static auto* baseUriString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -795,7 +795,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlReaderSettings::Initialize
 // Il2CppName: Initialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlReaderSettings::*)(System::Xml::XmlResolver*)>(&System::Xml::XmlReaderSettings::Initialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlReaderSettings::*)(::System::Xml::XmlResolver*)>(&System::Xml::XmlReaderSettings::Initialize)> {
   static const MethodInfo* get() {
     static auto* resolver = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlResolver")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlReaderSettings*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resolver});
@@ -804,7 +804,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlReaderSettings::CreateDefaultResolver
 // Il2CppName: CreateDefaultResolver
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlResolver* (*)()>(&System::Xml::XmlReaderSettings::CreateDefaultResolver)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlResolver* (*)()>(&System::Xml::XmlReaderSettings::CreateDefaultResolver)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlReaderSettings*), "CreateDefaultResolver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -812,7 +812,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlReaderSettings::AddValidation
 // Il2CppName: AddValidation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlReader* (System::Xml::XmlReaderSettings::*)(System::Xml::XmlReader*)>(&System::Xml::XmlReaderSettings::AddValidation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlReader* (System::Xml::XmlReaderSettings::*)(::System::Xml::XmlReader*)>(&System::Xml::XmlReaderSettings::AddValidation)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlReader")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlReaderSettings*), "AddValidation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader});
@@ -821,7 +821,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlReaderSettings::CreateDtdValidatingReader
 // Il2CppName: CreateDtdValidatingReader
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlValidatingReaderImpl* (System::Xml::XmlReaderSettings::*)(System::Xml::XmlReader*)>(&System::Xml::XmlReaderSettings::CreateDtdValidatingReader)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlValidatingReaderImpl* (System::Xml::XmlReaderSettings::*)(::System::Xml::XmlReader*)>(&System::Xml::XmlReaderSettings::CreateDtdValidatingReader)> {
   static const MethodInfo* get() {
     static auto* baseReader = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlReader")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlReaderSettings*), "CreateDtdValidatingReader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{baseReader});

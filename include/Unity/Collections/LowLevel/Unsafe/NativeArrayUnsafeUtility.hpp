@@ -24,8 +24,8 @@ namespace Unity::Collections::LowLevel::Unsafe {
   class NativeArrayUnsafeUtility;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Unity::Collections::LowLevel::Unsafe::NativeArrayUnsafeUtility);
-DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::LowLevel::Unsafe::NativeArrayUnsafeUtility*, "Unity.Collections.LowLevel.Unsafe", "NativeArrayUnsafeUtility");
+NEED_NO_BOX(::Unity::Collections::LowLevel::Unsafe::NativeArrayUnsafeUtility);
+DEFINE_IL2CPP_ARG_TYPE(::Unity::Collections::LowLevel::Unsafe::NativeArrayUnsafeUtility*, "Unity.Collections.LowLevel.Unsafe", "NativeArrayUnsafeUtility");
 // Type namespace: Unity.Collections.LowLevel.Unsafe
 namespace Unity::Collections::LowLevel::Unsafe {
   // Size: 0x10
@@ -38,19 +38,19 @@ namespace Unity::Collections::LowLevel::Unsafe {
     // static public Unity.Collections.NativeArray`1<T> ConvertExistingDataToNativeArray(System.Void* dataPointer, System.Int32 length, Unity.Collections.Allocator allocator)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static Unity::Collections::NativeArray_1<T> ConvertExistingDataToNativeArray(void* dataPointer, int length, Unity::Collections::Allocator allocator) {
-      static_assert(is_value_type_v<T>);
-      static auto ___internal__logger = ::Logger::get().WithContext("Unity::Collections::LowLevel::Unsafe::NativeArrayUnsafeUtility::ConvertExistingDataToNativeArray");
+    static ::Unity::Collections::NativeArray_1<T> ConvertExistingDataToNativeArray(void* dataPointer, int length, ::Unity::Collections::Allocator allocator) {
+      static_assert(std::is_convertible_v<T, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::Unity::Collections::LowLevel::Unsafe::NativeArrayUnsafeUtility::ConvertExistingDataToNativeArray");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Unity.Collections.LowLevel.Unsafe", "NativeArrayUnsafeUtility", "ConvertExistingDataToNativeArray", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(dataPointer), ::il2cpp_utils::ExtractType(length), ::il2cpp_utils::ExtractType(allocator)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodRethrow<Unity::Collections::NativeArray_1<T>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, dataPointer, length, allocator);
+      return ::il2cpp_utils::RunMethodRethrow<::Unity::Collections::NativeArray_1<T>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, dataPointer, length, allocator);
     }
     // static public System.Void* GetUnsafeReadOnlyPtr(Unity.Collections.NativeArray`1<T> nativeArray)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static void* GetUnsafeReadOnlyPtr(Unity::Collections::NativeArray_1<T> nativeArray) {
-      static_assert(is_value_type_v<T>);
-      static auto ___internal__logger = ::Logger::get().WithContext("Unity::Collections::LowLevel::Unsafe::NativeArrayUnsafeUtility::GetUnsafeReadOnlyPtr");
+    static void* GetUnsafeReadOnlyPtr(::Unity::Collections::NativeArray_1<T> nativeArray) {
+      static_assert(std::is_convertible_v<T, ::System::ValueType*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::Unity::Collections::LowLevel::Unsafe::NativeArrayUnsafeUtility::GetUnsafeReadOnlyPtr");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Unity.Collections.LowLevel.Unsafe", "NativeArrayUnsafeUtility", "GetUnsafeReadOnlyPtr", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(nativeArray)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<void*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, nativeArray);

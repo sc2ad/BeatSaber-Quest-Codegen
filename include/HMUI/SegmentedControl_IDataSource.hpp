@@ -15,8 +15,8 @@ namespace HMUI {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HMUI::SegmentedControl::IDataSource);
-DEFINE_IL2CPP_ARG_TYPE(HMUI::SegmentedControl::IDataSource*, "HMUI", "SegmentedControl/IDataSource");
+NEED_NO_BOX(::HMUI::SegmentedControl::IDataSource);
+DEFINE_IL2CPP_ARG_TYPE(::HMUI::SegmentedControl::IDataSource*, "HMUI", "SegmentedControl/IDataSource");
 // Type namespace: HMUI
 namespace HMUI {
   // Size: 0x10
@@ -30,7 +30,7 @@ namespace HMUI {
     int NumberOfCells();
     // public HMUI.SegmentedControlCell CellForCellNumber(System.Int32 cellNumber)
     // Offset: 0xFFFFFFFF
-    HMUI::SegmentedControlCell* CellForCellNumber(int cellNumber);
+    ::HMUI::SegmentedControlCell* CellForCellNumber(int cellNumber);
   }; // HMUI.SegmentedControl/HMUI.IDataSource
   #pragma pack(pop)
 }
@@ -46,7 +46,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (HMUI::
 // Writing MetadataGetter for method: HMUI::SegmentedControl::IDataSource::CellForCellNumber
 // Il2CppName: CellForCellNumber
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::SegmentedControlCell* (HMUI::SegmentedControl::IDataSource::*)(int)>(&HMUI::SegmentedControl::IDataSource::CellForCellNumber)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HMUI::SegmentedControlCell* (HMUI::SegmentedControl::IDataSource::*)(int)>(&HMUI::SegmentedControl::IDataSource::CellForCellNumber)> {
   static const MethodInfo* get() {
     static auto* cellNumber = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::SegmentedControl::IDataSource*), "CellForCellNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cellNumber});

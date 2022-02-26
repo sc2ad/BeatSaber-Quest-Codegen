@@ -19,8 +19,8 @@ namespace System {
   class IFormattable;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::IFormattable);
-DEFINE_IL2CPP_ARG_TYPE(System::IFormattable*, "System", "IFormattable");
+NEED_NO_BOX(::System::IFormattable);
+DEFINE_IL2CPP_ARG_TYPE(::System::IFormattable*, "System", "IFormattable");
 // Type namespace: System
 namespace System {
   // Size: 0x10
@@ -32,7 +32,7 @@ namespace System {
     public:
     // public System.String ToString(System.String format, System.IFormatProvider formatProvider)
     // Offset: 0xFFFFFFFF
-    ::StringW ToString(::StringW format, System::IFormatProvider* formatProvider);
+    ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
   }; // System.IFormattable
   #pragma pack(pop)
 }
@@ -40,7 +40,7 @@ namespace System {
 // Writing MetadataGetter for method: System::IFormattable::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::IFormattable::*)(::StringW, System::IFormatProvider*)>(&System::IFormattable::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::IFormattable::*)(::StringW, ::System::IFormatProvider*)>(&System::IFormattable::ToString)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* formatProvider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;

@@ -14,8 +14,8 @@ namespace Org::BouncyCastle::Utilities::Date {
   class DateTimeUtilities;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Utilities::Date::DateTimeUtilities);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Date::DateTimeUtilities*, "Org.BouncyCastle.Utilities.Date", "DateTimeUtilities");
+NEED_NO_BOX(::Org::BouncyCastle::Utilities::Date::DateTimeUtilities);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Date::DateTimeUtilities*, "Org.BouncyCastle.Utilities.Date", "DateTimeUtilities");
 // Type namespace: Org.BouncyCastle.Utilities.Date
 namespace Org::BouncyCastle::Utilities::Date {
   // Size: 0x10
@@ -25,15 +25,15 @@ namespace Org::BouncyCastle::Utilities::Date {
   class DateTimeUtilities : public ::Il2CppObject {
     public:
     // Get static field: static public readonly System.DateTime UnixEpoch
-    static System::DateTime _get_UnixEpoch();
+    static ::System::DateTime _get_UnixEpoch();
     // Set static field: static public readonly System.DateTime UnixEpoch
-    static void _set_UnixEpoch(System::DateTime value);
+    static void _set_UnixEpoch(::System::DateTime value);
     // static private System.Void .cctor()
     // Offset: 0x25A538C
     static void _cctor();
     // static public System.Int64 DateTimeToUnixMs(System.DateTime dateTime)
     // Offset: 0x25A51A8
-    static int64_t DateTimeToUnixMs(System::DateTime dateTime);
+    static int64_t DateTimeToUnixMs(::System::DateTime dateTime);
     // static public System.Int64 CurrentUnixMs()
     // Offset: 0x25A52FC
     static int64_t CurrentUnixMs();
@@ -52,7 +52,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Date::DateTimeUtilities::DateTimeToUnixMs
 // Il2CppName: DateTimeToUnixMs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(System::DateTime)>(&Org::BouncyCastle::Utilities::Date::DateTimeUtilities::DateTimeToUnixMs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::System::DateTime)>(&Org::BouncyCastle::Utilities::Date::DateTimeUtilities::DateTimeToUnixMs)> {
   static const MethodInfo* get() {
     static auto* dateTime = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Date::DateTimeUtilities*), "DateTimeToUnixMs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dateTime});

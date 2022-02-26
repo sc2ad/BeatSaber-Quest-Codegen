@@ -22,8 +22,8 @@ namespace UnityEngine::ProBuilder {
   class Normals;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::Normals);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Normals*, "UnityEngine.ProBuilder", "Normals");
+NEED_NO_BOX(::UnityEngine::ProBuilder::Normals);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Normals*, "UnityEngine.ProBuilder", "Normals");
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
   // Size: 0x10
@@ -33,9 +33,9 @@ namespace UnityEngine::ProBuilder {
   class Normals : public ::Il2CppObject {
     public:
     // Get static field: static private UnityEngine.Vector3[] s_SmoothAvg
-    static ::ArrayW<UnityEngine::Vector3> _get_s_SmoothAvg();
+    static ::ArrayW<::UnityEngine::Vector3> _get_s_SmoothAvg();
     // Set static field: static private UnityEngine.Vector3[] s_SmoothAvg
-    static void _set_s_SmoothAvg(::ArrayW<UnityEngine::Vector3> value);
+    static void _set_s_SmoothAvg(::ArrayW<::UnityEngine::Vector3> value);
     // Get static field: static private System.Single[] s_SmoothAvgCount
     static ::ArrayW<float> _get_s_SmoothAvgCount();
     // Set static field: static private System.Single[] s_SmoothAvgCount
@@ -52,13 +52,13 @@ namespace UnityEngine::ProBuilder {
     static void ClearIntArray(int count);
     // static public System.Void CalculateTangents(UnityEngine.ProBuilder.ProBuilderMesh mesh)
     // Offset: 0x1B459D4
-    static void CalculateTangents(UnityEngine::ProBuilder::ProBuilderMesh* mesh);
+    static void CalculateTangents(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
     // static private System.Void CalculateHardNormals(UnityEngine.ProBuilder.ProBuilderMesh mesh)
     // Offset: 0x1B46028
-    static void CalculateHardNormals(UnityEngine::ProBuilder::ProBuilderMesh* mesh);
+    static void CalculateHardNormals(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
     // static public System.Void CalculateNormals(UnityEngine.ProBuilder.ProBuilderMesh mesh)
     // Offset: 0x1B46554
-    static void CalculateNormals(UnityEngine::ProBuilder::ProBuilderMesh* mesh);
+    static void CalculateNormals(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
   }; // UnityEngine.ProBuilder.Normals
   #pragma pack(pop)
 }
@@ -83,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Normals::CalculateTangents
 // Il2CppName: CalculateTangents
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*)>(&UnityEngine::ProBuilder::Normals::CalculateTangents)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*)>(&UnityEngine::ProBuilder::Normals::CalculateTangents)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Normals*), "CalculateTangents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mesh});
@@ -92,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Normals::CalculateHardNormals
 // Il2CppName: CalculateHardNormals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*)>(&UnityEngine::ProBuilder::Normals::CalculateHardNormals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*)>(&UnityEngine::ProBuilder::Normals::CalculateHardNormals)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Normals*), "CalculateHardNormals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mesh});
@@ -101,7 +101,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Normals::CalculateNormals
 // Il2CppName: CalculateNormals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*)>(&UnityEngine::ProBuilder::Normals::CalculateNormals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*)>(&UnityEngine::ProBuilder::Normals::CalculateNormals)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Normals*), "CalculateNormals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mesh});

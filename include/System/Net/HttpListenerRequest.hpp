@@ -48,8 +48,8 @@ namespace System::Net {
   class HttpListenerRequest;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::HttpListenerRequest);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpListenerRequest*, "System.Net", "HttpListenerRequest");
+NEED_NO_BOX(::System::Net::HttpListenerRequest);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::HttpListenerRequest*, "System.Net", "HttpListenerRequest");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x83
@@ -90,15 +90,15 @@ namespace System::Net {
     // private System.Net.CookieCollection cookies
     // Size: 0x8
     // Offset: 0x28
-    System::Net::CookieCollection* cookies;
+    ::System::Net::CookieCollection* cookies;
     // Field size check
-    static_assert(sizeof(System::Net::CookieCollection*) == 0x8);
+    static_assert(sizeof(::System::Net::CookieCollection*) == 0x8);
     // private System.Net.WebHeaderCollection headers
     // Size: 0x8
     // Offset: 0x30
-    System::Net::WebHeaderCollection* headers;
+    ::System::Net::WebHeaderCollection* headers;
     // Field size check
-    static_assert(sizeof(System::Net::WebHeaderCollection*) == 0x8);
+    static_assert(sizeof(::System::Net::WebHeaderCollection*) == 0x8);
     // private System.String method
     // Size: 0x8
     // Offset: 0x38
@@ -108,21 +108,21 @@ namespace System::Net {
     // private System.IO.Stream input_stream
     // Size: 0x8
     // Offset: 0x40
-    System::IO::Stream* input_stream;
+    ::System::IO::Stream* input_stream;
     // Field size check
-    static_assert(sizeof(System::IO::Stream*) == 0x8);
+    static_assert(sizeof(::System::IO::Stream*) == 0x8);
     // private System.Version version
     // Size: 0x8
     // Offset: 0x48
-    System::Version* version;
+    ::System::Version* version;
     // Field size check
-    static_assert(sizeof(System::Version*) == 0x8);
+    static_assert(sizeof(::System::Version*) == 0x8);
     // private System.Collections.Specialized.NameValueCollection query_string
     // Size: 0x8
     // Offset: 0x50
-    System::Collections::Specialized::NameValueCollection* query_string;
+    ::System::Collections::Specialized::NameValueCollection* query_string;
     // Field size check
-    static_assert(sizeof(System::Collections::Specialized::NameValueCollection*) == 0x8);
+    static_assert(sizeof(::System::Collections::Specialized::NameValueCollection*) == 0x8);
     // private System.String raw_url
     // Size: 0x8
     // Offset: 0x58
@@ -132,15 +132,15 @@ namespace System::Net {
     // private System.Uri url
     // Size: 0x8
     // Offset: 0x60
-    System::Uri* url;
+    ::System::Uri* url;
     // Field size check
-    static_assert(sizeof(System::Uri*) == 0x8);
+    static_assert(sizeof(::System::Uri*) == 0x8);
     // private System.Uri referrer
     // Size: 0x8
     // Offset: 0x68
-    System::Uri* referrer;
+    ::System::Uri* referrer;
     // Field size check
-    static_assert(sizeof(System::Uri*) == 0x8);
+    static_assert(sizeof(::System::Uri*) == 0x8);
     // private System.String[] user_languages
     // Size: 0x8
     // Offset: 0x70
@@ -150,9 +150,9 @@ namespace System::Net {
     // private System.Net.HttpListenerContext context
     // Size: 0x8
     // Offset: 0x78
-    System::Net::HttpListenerContext* context;
+    ::System::Net::HttpListenerContext* context;
     // Field size check
-    static_assert(sizeof(System::Net::HttpListenerContext*) == 0x8);
+    static_assert(sizeof(::System::Net::HttpListenerContext*) == 0x8);
     // private System.Boolean is_chunked
     // Size: 0x1
     // Offset: 0x80
@@ -187,27 +187,27 @@ namespace System::Net {
     // Get instance field reference: private System.Boolean cl_set
     bool& dyn_cl_set();
     // Get instance field reference: private System.Net.CookieCollection cookies
-    System::Net::CookieCollection*& dyn_cookies();
+    ::System::Net::CookieCollection*& dyn_cookies();
     // Get instance field reference: private System.Net.WebHeaderCollection headers
-    System::Net::WebHeaderCollection*& dyn_headers();
+    ::System::Net::WebHeaderCollection*& dyn_headers();
     // Get instance field reference: private System.String method
     ::StringW& dyn_method();
     // Get instance field reference: private System.IO.Stream input_stream
-    System::IO::Stream*& dyn_input_stream();
+    ::System::IO::Stream*& dyn_input_stream();
     // Get instance field reference: private System.Version version
-    System::Version*& dyn_version();
+    ::System::Version*& dyn_version();
     // Get instance field reference: private System.Collections.Specialized.NameValueCollection query_string
-    System::Collections::Specialized::NameValueCollection*& dyn_query_string();
+    ::System::Collections::Specialized::NameValueCollection*& dyn_query_string();
     // Get instance field reference: private System.String raw_url
     ::StringW& dyn_raw_url();
     // Get instance field reference: private System.Uri url
-    System::Uri*& dyn_url();
+    ::System::Uri*& dyn_url();
     // Get instance field reference: private System.Uri referrer
-    System::Uri*& dyn_referrer();
+    ::System::Uri*& dyn_referrer();
     // Get instance field reference: private System.String[] user_languages
     ::ArrayW<::StringW>& dyn_user_languages();
     // Get instance field reference: private System.Net.HttpListenerContext context
-    System::Net::HttpListenerContext*& dyn_context();
+    ::System::Net::HttpListenerContext*& dyn_context();
     // Get instance field reference: private System.Boolean is_chunked
     bool& dyn_is_chunked();
     // Get instance field reference: private System.Boolean ka_set
@@ -219,10 +219,10 @@ namespace System::Net {
     bool get_HasEntityBody();
     // public System.Collections.Specialized.NameValueCollection get_Headers()
     // Offset: 0x175BE34
-    System::Collections::Specialized::NameValueCollection* get_Headers();
+    ::System::Collections::Specialized::NameValueCollection* get_Headers();
     // public System.IO.Stream get_InputStream()
     // Offset: 0x175BD80
-    System::IO::Stream* get_InputStream();
+    ::System::IO::Stream* get_InputStream();
     // public System.Boolean get_IsSecureConnection()
     // Offset: 0x175BC08
     bool get_IsSecureConnection();
@@ -231,13 +231,13 @@ namespace System::Net {
     bool get_KeepAlive();
     // public System.Net.IPEndPoint get_LocalEndPoint()
     // Offset: 0x175BC30
-    System::Net::IPEndPoint* get_LocalEndPoint();
+    ::System::Net::IPEndPoint* get_LocalEndPoint();
     // public System.Version get_ProtocolVersion()
     // Offset: 0x175BE3C
-    System::Version* get_ProtocolVersion();
+    ::System::Version* get_ProtocolVersion();
     // public System.Uri get_Url()
     // Offset: 0x175BE44
-    System::Uri* get_Url();
+    ::System::Uri* get_Url();
     // public System.String get_UserHostAddress()
     // Offset: 0x175BBE4
     ::StringW get_UserHostAddress();
@@ -247,8 +247,8 @@ namespace System::Net {
     // System.Void .ctor(System.Net.HttpListenerContext context)
     // Offset: 0x175ADB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static HttpListenerRequest* New_ctor(System::Net::HttpListenerContext* context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::HttpListenerRequest::.ctor");
+    static HttpListenerRequest* New_ctor(::System::Net::HttpListenerContext* context) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::HttpListenerRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpListenerRequest*, creationType>(context)));
     }
     // static private System.Void .cctor()
@@ -295,7 +295,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Net::HttpListenerRequest::get_Headers
 // Il2CppName: get_Headers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Specialized::NameValueCollection* (System::Net::HttpListenerRequest::*)()>(&System::Net::HttpListenerRequest::get_Headers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Specialized::NameValueCollection* (System::Net::HttpListenerRequest::*)()>(&System::Net::HttpListenerRequest::get_Headers)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerRequest*), "get_Headers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -303,7 +303,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::Net::HttpListenerRequest::get_InputStream
 // Il2CppName: get_InputStream
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::Stream* (System::Net::HttpListenerRequest::*)()>(&System::Net::HttpListenerRequest::get_InputStream)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (System::Net::HttpListenerRequest::*)()>(&System::Net::HttpListenerRequest::get_InputStream)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerRequest*), "get_InputStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -327,7 +327,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Net::HttpListenerRequest::get_LocalEndPoint
 // Il2CppName: get_LocalEndPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPEndPoint* (System::Net::HttpListenerRequest::*)()>(&System::Net::HttpListenerRequest::get_LocalEndPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::IPEndPoint* (System::Net::HttpListenerRequest::*)()>(&System::Net::HttpListenerRequest::get_LocalEndPoint)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerRequest*), "get_LocalEndPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -335,7 +335,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Writing MetadataGetter for method: System::Net::HttpListenerRequest::get_ProtocolVersion
 // Il2CppName: get_ProtocolVersion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Version* (System::Net::HttpListenerRequest::*)()>(&System::Net::HttpListenerRequest::get_ProtocolVersion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Version* (System::Net::HttpListenerRequest::*)()>(&System::Net::HttpListenerRequest::get_ProtocolVersion)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerRequest*), "get_ProtocolVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -343,7 +343,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ver
 // Writing MetadataGetter for method: System::Net::HttpListenerRequest::get_Url
 // Il2CppName: get_Url
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (System::Net::HttpListenerRequest::*)()>(&System::Net::HttpListenerRequest::get_Url)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Uri* (System::Net::HttpListenerRequest::*)()>(&System::Net::HttpListenerRequest::get_Url)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerRequest*), "get_Url", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

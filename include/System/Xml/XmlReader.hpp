@@ -64,8 +64,8 @@ namespace System::Xml {
   class XmlReader;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::XmlReader);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlReader*, "System.Xml", "XmlReader");
+NEED_NO_BOX(::System::Xml::XmlReader);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlReader*, "System.Xml", "XmlReader");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x10
@@ -75,11 +75,11 @@ namespace System::Xml {
   // [DebuggerDisplayAttribute] Offset: 1193FD4
   // [DefaultMemberAttribute] Offset: 1193FD4
   // [DebuggerDisplayAttribute] Offset: 1193FD4
-  class XmlReader : public ::Il2CppObject/*, public System::IDisposable*/ {
+  class XmlReader : public ::Il2CppObject/*, public ::System::IDisposable*/ {
     public:
-    // Creating interface conversion operator: operator System::IDisposable
-    operator System::IDisposable() noexcept {
-      return *reinterpret_cast<System::IDisposable*>(this);
+    // Creating interface conversion operator: operator ::System::IDisposable
+    operator ::System::IDisposable() noexcept {
+      return *reinterpret_cast<::System::IDisposable*>(this);
     }
     // Get static field: static private System.UInt32 IsTextualNodeBitmap
     static uint _get_IsTextualNodeBitmap();
@@ -95,10 +95,10 @@ namespace System::Xml {
     static void _set_HasValueBitmap(uint value);
     // public System.Xml.XmlReaderSettings get_Settings()
     // Offset: 0x14D7B04
-    System::Xml::XmlReaderSettings* get_Settings();
+    ::System::Xml::XmlReaderSettings* get_Settings();
     // public System.Xml.XmlNodeType get_NodeType()
     // Offset: 0xFFFFFFFF
-    System::Xml::XmlNodeType get_NodeType();
+    ::System::Xml::XmlNodeType get_NodeType();
     // public System.String get_Name()
     // Offset: 0x14D7B0C
     ::StringW get_Name();
@@ -131,16 +131,16 @@ namespace System::Xml {
     ::Il2CppChar get_QuoteChar();
     // public System.Xml.XmlSpace get_XmlSpace()
     // Offset: 0x14D7C08
-    System::Xml::XmlSpace get_XmlSpace();
+    ::System::Xml::XmlSpace get_XmlSpace();
     // public System.String get_XmlLang()
     // Offset: 0x14D7C10
     ::StringW get_XmlLang();
     // public System.Xml.Schema.IXmlSchemaInfo get_SchemaInfo()
     // Offset: 0x14D7C60
-    System::Xml::Schema::IXmlSchemaInfo* get_SchemaInfo();
+    ::System::Xml::Schema::IXmlSchemaInfo* get_SchemaInfo();
     // public System.Type get_ValueType()
     // Offset: 0x14D7CB0
-    System::Type* get_ValueType();
+    ::System::Type* get_ValueType();
     // public System.Int32 get_AttributeCount()
     // Offset: 0xFFFFFFFF
     int get_AttributeCount();
@@ -149,10 +149,10 @@ namespace System::Xml {
     bool get_EOF();
     // public System.Xml.ReadState get_ReadState()
     // Offset: 0xFFFFFFFF
-    System::Xml::ReadState get_ReadState();
+    ::System::Xml::ReadState get_ReadState();
     // public System.Xml.XmlNameTable get_NameTable()
     // Offset: 0xFFFFFFFF
-    System::Xml::XmlNameTable* get_NameTable();
+    ::System::Xml::XmlNameTable* get_NameTable();
     // public System.Boolean get_CanResolveEntity()
     // Offset: 0x14D7F34
     bool get_CanResolveEntity();
@@ -164,13 +164,13 @@ namespace System::Xml {
     bool get_HasAttributes();
     // System.Xml.XmlNamespaceManager get_NamespaceManager()
     // Offset: 0x14D91F4
-    System::Xml::XmlNamespaceManager* get_NamespaceManager();
+    ::System::Xml::XmlNamespaceManager* get_NamespaceManager();
     // System.Boolean get_IsDefaultInternal()
     // Offset: 0x14D927C
     bool get_IsDefaultInternal();
     // System.Xml.IDtdInfo get_DtdInfo()
     // Offset: 0x14D936C
-    System::Xml::IDtdInfo* get_DtdInfo();
+    ::System::Xml::IDtdInfo* get_DtdInfo();
     // static private System.Void .cctor()
     // Offset: 0x14DA16C
     static void _cctor();
@@ -224,7 +224,7 @@ namespace System::Xml {
     ::StringW ReadString();
     // public System.Xml.XmlNodeType MoveToContent()
     // Offset: 0x14D821C
-    System::Xml::XmlNodeType MoveToContent();
+    ::System::Xml::XmlNodeType MoveToContent();
     // public System.Void ReadStartElement()
     // Offset: 0x14D82AC
     void ReadStartElement();
@@ -242,16 +242,16 @@ namespace System::Xml {
     ::StringW ReadInnerXml();
     // private System.Void WriteNode(System.Xml.XmlWriter xtw, System.Boolean defattr)
     // Offset: 0x14D8C1C
-    void WriteNode(System::Xml::XmlWriter* xtw, bool defattr);
+    void WriteNode(::System::Xml::XmlWriter* xtw, bool defattr);
     // private System.Void WriteAttributeValue(System.Xml.XmlWriter xtw)
     // Offset: 0x14D8B3C
-    void WriteAttributeValue(System::Xml::XmlWriter* xtw);
+    void WriteAttributeValue(::System::Xml::XmlWriter* xtw);
     // private System.Xml.XmlWriter CreateWriterForInnerOuterXml(System.IO.StringWriter sw)
     // Offset: 0x14D8AC0
-    System::Xml::XmlWriter* CreateWriterForInnerOuterXml(System::IO::StringWriter* sw);
+    ::System::Xml::XmlWriter* CreateWriterForInnerOuterXml(::System::IO::StringWriter* sw);
     // private System.Void SetNamespacesFlag(System.Xml.XmlTextWriter xtw)
     // Offset: 0x14D9050
-    void SetNamespacesFlag(System::Xml::XmlTextWriter* xtw);
+    void SetNamespacesFlag(::System::Xml::XmlTextWriter* xtw);
     // public System.Void Dispose()
     // Offset: 0x14D918C
     void Dispose();
@@ -260,32 +260,32 @@ namespace System::Xml {
     void Dispose(bool disposing);
     // static System.Boolean IsTextualNode(System.Xml.XmlNodeType nodeType)
     // Offset: 0x14D819C
-    static bool IsTextualNode(System::Xml::XmlNodeType nodeType);
+    static bool IsTextualNode(::System::Xml::XmlNodeType nodeType);
     // static System.Boolean HasValueInternal(System.Xml.XmlNodeType nodeType)
     // Offset: 0x14D91FC
-    static bool HasValueInternal(System::Xml::XmlNodeType nodeType);
+    static bool HasValueInternal(::System::Xml::XmlNodeType nodeType);
     // private System.Boolean SkipSubtree()
     // Offset: 0x14D7E5C
     bool SkipSubtree();
     // static public System.Xml.XmlReader Create(System.IO.Stream input, System.Xml.XmlReaderSettings settings, System.String baseUri)
     // Offset: 0x14D9374
-    static System::Xml::XmlReader* Create(System::IO::Stream* input, System::Xml::XmlReaderSettings* settings, ::StringW baseUri);
+    static ::System::Xml::XmlReader* Create(::System::IO::Stream* input, ::System::Xml::XmlReaderSettings* settings, ::StringW baseUri);
     // static public System.Xml.XmlReader Create(System.IO.TextReader input, System.Xml.XmlReaderSettings settings, System.String baseUri)
     // Offset: 0x14D95C4
-    static System::Xml::XmlReader* Create(System::IO::TextReader* input, System::Xml::XmlReaderSettings* settings, ::StringW baseUri);
+    static ::System::Xml::XmlReader* Create(::System::IO::TextReader* input, ::System::Xml::XmlReaderSettings* settings, ::StringW baseUri);
     // static System.Xml.XmlReader CreateSqlReader(System.IO.Stream input, System.Xml.XmlReaderSettings settings, System.Xml.XmlParserContext inputContext)
     // Offset: 0x14D9768
-    static System::Xml::XmlReader* CreateSqlReader(System::IO::Stream* input, System::Xml::XmlReaderSettings* settings, System::Xml::XmlParserContext* inputContext);
+    static ::System::Xml::XmlReader* CreateSqlReader(::System::IO::Stream* input, ::System::Xml::XmlReaderSettings* settings, ::System::Xml::XmlParserContext* inputContext);
     // static System.Int32 CalcBufferSize(System.IO.Stream input)
     // Offset: 0x14D9A38
-    static int CalcBufferSize(System::IO::Stream* input);
+    static int CalcBufferSize(::System::IO::Stream* input);
     // protected System.Void .ctor()
     // Offset: 0x14DA164
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlReader* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlReader::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlReader*, creationType>()));
     }
   }; // System.Xml.XmlReader
@@ -295,7 +295,7 @@ namespace System::Xml {
 // Writing MetadataGetter for method: System::Xml::XmlReader::get_Settings
 // Il2CppName: get_Settings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlReaderSettings* (System::Xml::XmlReader::*)()>(&System::Xml::XmlReader::get_Settings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlReaderSettings* (System::Xml::XmlReader::*)()>(&System::Xml::XmlReader::get_Settings)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlReader*), "get_Settings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -303,7 +303,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlReader::get_NodeType
 // Il2CppName: get_NodeType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlNodeType (System::Xml::XmlReader::*)()>(&System::Xml::XmlReader::get_NodeType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNodeType (System::Xml::XmlReader::*)()>(&System::Xml::XmlReader::get_NodeType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlReader*), "get_NodeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -391,7 +391,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppCha
 // Writing MetadataGetter for method: System::Xml::XmlReader::get_XmlSpace
 // Il2CppName: get_XmlSpace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlSpace (System::Xml::XmlReader::*)()>(&System::Xml::XmlReader::get_XmlSpace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlSpace (System::Xml::XmlReader::*)()>(&System::Xml::XmlReader::get_XmlSpace)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlReader*), "get_XmlSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -407,7 +407,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Xml::XmlReader::get_SchemaInfo
 // Il2CppName: get_SchemaInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Schema::IXmlSchemaInfo* (System::Xml::XmlReader::*)()>(&System::Xml::XmlReader::get_SchemaInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::IXmlSchemaInfo* (System::Xml::XmlReader::*)()>(&System::Xml::XmlReader::get_SchemaInfo)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlReader*), "get_SchemaInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -415,7 +415,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlReader::get_ValueType
 // Il2CppName: get_ValueType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Xml::XmlReader::*)()>(&System::Xml::XmlReader::get_ValueType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (System::Xml::XmlReader::*)()>(&System::Xml::XmlReader::get_ValueType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlReader*), "get_ValueType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -439,7 +439,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Xml::XmlReader::get_ReadState
 // Il2CppName: get_ReadState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::ReadState (System::Xml::XmlReader::*)()>(&System::Xml::XmlReader::get_ReadState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::ReadState (System::Xml::XmlReader::*)()>(&System::Xml::XmlReader::get_ReadState)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlReader*), "get_ReadState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -447,7 +447,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlReader::get_NameTable
 // Il2CppName: get_NameTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlNameTable* (System::Xml::XmlReader::*)()>(&System::Xml::XmlReader::get_NameTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNameTable* (System::Xml::XmlReader::*)()>(&System::Xml::XmlReader::get_NameTable)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlReader*), "get_NameTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -479,7 +479,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Xml::XmlReader::get_NamespaceManager
 // Il2CppName: get_NamespaceManager
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlNamespaceManager* (System::Xml::XmlReader::*)()>(&System::Xml::XmlReader::get_NamespaceManager)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNamespaceManager* (System::Xml::XmlReader::*)()>(&System::Xml::XmlReader::get_NamespaceManager)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlReader*), "get_NamespaceManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -495,7 +495,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Xml::XmlReader::get_DtdInfo
 // Il2CppName: get_DtdInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::IDtdInfo* (System::Xml::XmlReader::*)()>(&System::Xml::XmlReader::get_DtdInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::IDtdInfo* (System::Xml::XmlReader::*)()>(&System::Xml::XmlReader::get_DtdInfo)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlReader*), "get_DtdInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -649,7 +649,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Xml::XmlReader::MoveToContent
 // Il2CppName: MoveToContent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlNodeType (System::Xml::XmlReader::*)()>(&System::Xml::XmlReader::MoveToContent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNodeType (System::Xml::XmlReader::*)()>(&System::Xml::XmlReader::MoveToContent)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlReader*), "MoveToContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -699,7 +699,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Xml::XmlReader::WriteNode
 // Il2CppName: WriteNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlReader::*)(System::Xml::XmlWriter*, bool)>(&System::Xml::XmlReader::WriteNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlReader::*)(::System::Xml::XmlWriter*, bool)>(&System::Xml::XmlReader::WriteNode)> {
   static const MethodInfo* get() {
     static auto* xtw = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlWriter")->byval_arg;
     static auto* defattr = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -709,7 +709,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlReader::WriteAttributeValue
 // Il2CppName: WriteAttributeValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlReader::*)(System::Xml::XmlWriter*)>(&System::Xml::XmlReader::WriteAttributeValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlReader::*)(::System::Xml::XmlWriter*)>(&System::Xml::XmlReader::WriteAttributeValue)> {
   static const MethodInfo* get() {
     static auto* xtw = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlWriter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlReader*), "WriteAttributeValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{xtw});
@@ -718,7 +718,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlReader::CreateWriterForInnerOuterXml
 // Il2CppName: CreateWriterForInnerOuterXml
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlWriter* (System::Xml::XmlReader::*)(System::IO::StringWriter*)>(&System::Xml::XmlReader::CreateWriterForInnerOuterXml)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlWriter* (System::Xml::XmlReader::*)(::System::IO::StringWriter*)>(&System::Xml::XmlReader::CreateWriterForInnerOuterXml)> {
   static const MethodInfo* get() {
     static auto* sw = &::il2cpp_utils::GetClassFromName("System.IO", "StringWriter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlReader*), "CreateWriterForInnerOuterXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sw});
@@ -727,7 +727,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlReader::SetNamespacesFlag
 // Il2CppName: SetNamespacesFlag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlReader::*)(System::Xml::XmlTextWriter*)>(&System::Xml::XmlReader::SetNamespacesFlag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlReader::*)(::System::Xml::XmlTextWriter*)>(&System::Xml::XmlReader::SetNamespacesFlag)> {
   static const MethodInfo* get() {
     static auto* xtw = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlTextWriter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlReader*), "SetNamespacesFlag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{xtw});
@@ -753,7 +753,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlReader::IsTextualNode
 // Il2CppName: IsTextualNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Xml::XmlNodeType)>(&System::Xml::XmlReader::IsTextualNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Xml::XmlNodeType)>(&System::Xml::XmlReader::IsTextualNode)> {
   static const MethodInfo* get() {
     static auto* nodeType = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNodeType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlReader*), "IsTextualNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeType});
@@ -762,7 +762,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Xml::XmlReader::HasValueInternal
 // Il2CppName: HasValueInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Xml::XmlNodeType)>(&System::Xml::XmlReader::HasValueInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Xml::XmlNodeType)>(&System::Xml::XmlReader::HasValueInternal)> {
   static const MethodInfo* get() {
     static auto* nodeType = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNodeType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlReader*), "HasValueInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeType});
@@ -779,7 +779,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Xml::XmlReader::Create
 // Il2CppName: Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlReader* (*)(System::IO::Stream*, System::Xml::XmlReaderSettings*, ::StringW)>(&System::Xml::XmlReader::Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlReader* (*)(::System::IO::Stream*, ::System::Xml::XmlReaderSettings*, ::StringW)>(&System::Xml::XmlReader::Create)> {
   static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
     static auto* settings = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlReaderSettings")->byval_arg;
@@ -790,7 +790,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlReader::Create
 // Il2CppName: Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlReader* (*)(System::IO::TextReader*, System::Xml::XmlReaderSettings*, ::StringW)>(&System::Xml::XmlReader::Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlReader* (*)(::System::IO::TextReader*, ::System::Xml::XmlReaderSettings*, ::StringW)>(&System::Xml::XmlReader::Create)> {
   static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System.IO", "TextReader")->byval_arg;
     static auto* settings = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlReaderSettings")->byval_arg;
@@ -801,7 +801,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlReader::CreateSqlReader
 // Il2CppName: CreateSqlReader
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlReader* (*)(System::IO::Stream*, System::Xml::XmlReaderSettings*, System::Xml::XmlParserContext*)>(&System::Xml::XmlReader::CreateSqlReader)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlReader* (*)(::System::IO::Stream*, ::System::Xml::XmlReaderSettings*, ::System::Xml::XmlParserContext*)>(&System::Xml::XmlReader::CreateSqlReader)> {
   static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
     static auto* settings = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlReaderSettings")->byval_arg;
@@ -812,7 +812,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlReader::CalcBufferSize
 // Il2CppName: CalcBufferSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IO::Stream*)>(&System::Xml::XmlReader::CalcBufferSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::System::IO::Stream*)>(&System::Xml::XmlReader::CalcBufferSize)> {
   static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlReader*), "CalcBufferSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input});

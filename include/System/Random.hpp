@@ -19,8 +19,8 @@ namespace System {
   class Random;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Random);
-DEFINE_IL2CPP_ARG_TYPE(System::Random*, "System", "Random");
+NEED_NO_BOX(::System::Random);
+DEFINE_IL2CPP_ARG_TYPE(::System::Random*, "System", "Random");
 // Type namespace: System
 namespace System {
   // Size: 0x20
@@ -86,7 +86,7 @@ namespace System {
     // Offset: 0x215F340
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Random* New_ctor(int Seed) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Random::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Random::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Random*, creationType>(Seed)));
     }
     // protected System.Double Sample()
@@ -119,7 +119,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Random* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Random::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Random::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Random*, creationType>()));
     }
   }; // System.Random

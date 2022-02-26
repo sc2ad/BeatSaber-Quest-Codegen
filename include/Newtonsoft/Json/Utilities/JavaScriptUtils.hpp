@@ -39,8 +39,8 @@ namespace Newtonsoft::Json::Utilities {
   class JavaScriptUtils;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Utilities::JavaScriptUtils);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::JavaScriptUtils*, "Newtonsoft.Json.Utilities", "JavaScriptUtils");
+NEED_NO_BOX(::Newtonsoft::Json::Utilities::JavaScriptUtils);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::JavaScriptUtils*, "Newtonsoft.Json.Utilities", "JavaScriptUtils");
 // Type namespace: Newtonsoft.Json.Utilities
 namespace Newtonsoft::Json::Utilities {
   // Size: 0x10
@@ -68,25 +68,25 @@ namespace Newtonsoft::Json::Utilities {
     static void _cctor();
     // static public System.Boolean[] GetCharEscapeFlags(Newtonsoft.Json.StringEscapeHandling stringEscapeHandling, System.Char quoteChar)
     // Offset: 0x19E6B90
-    static ::ArrayW<bool> GetCharEscapeFlags(Newtonsoft::Json::StringEscapeHandling stringEscapeHandling, ::Il2CppChar quoteChar);
+    static ::ArrayW<bool> GetCharEscapeFlags(::Newtonsoft::Json::StringEscapeHandling stringEscapeHandling, ::Il2CppChar quoteChar);
     // static public System.Boolean ShouldEscapeJavaScriptString(System.String s, System.Boolean[] charEscapeFlags)
     // Offset: 0x19E6C6C
     static bool ShouldEscapeJavaScriptString(::StringW s, ::ArrayW<bool> charEscapeFlags);
     // static public System.Void WriteEscapedJavaScriptString(System.IO.TextWriter writer, System.String s, System.Char delimiter, System.Boolean appendDelimiters, System.Boolean[] charEscapeFlags, Newtonsoft.Json.StringEscapeHandling stringEscapeHandling, Newtonsoft.Json.IArrayPool`1<System.Char> bufferPool, ref System.Char[] writeBuffer)
     // Offset: 0x19E6D08
-    static void WriteEscapedJavaScriptString(System::IO::TextWriter* writer, ::StringW s, ::Il2CppChar delimiter, bool appendDelimiters, ::ArrayW<bool> charEscapeFlags, Newtonsoft::Json::StringEscapeHandling stringEscapeHandling, Newtonsoft::Json::IArrayPool_1<::Il2CppChar>* bufferPool, ByRef<::ArrayW<::Il2CppChar>> writeBuffer);
+    static void WriteEscapedJavaScriptString(::System::IO::TextWriter* writer, ::StringW s, ::Il2CppChar delimiter, bool appendDelimiters, ::ArrayW<bool> charEscapeFlags, ::Newtonsoft::Json::StringEscapeHandling stringEscapeHandling, ::Newtonsoft::Json::IArrayPool_1<::Il2CppChar>* bufferPool, ByRef<::ArrayW<::Il2CppChar>> writeBuffer);
     // static public System.String ToEscapedJavaScriptString(System.String value, System.Char delimiter, System.Boolean appendDelimiters, Newtonsoft.Json.StringEscapeHandling stringEscapeHandling)
     // Offset: 0x19E7328
-    static ::StringW ToEscapedJavaScriptString(::StringW value, ::Il2CppChar delimiter, bool appendDelimiters, Newtonsoft::Json::StringEscapeHandling stringEscapeHandling);
+    static ::StringW ToEscapedJavaScriptString(::StringW value, ::Il2CppChar delimiter, bool appendDelimiters, ::Newtonsoft::Json::StringEscapeHandling stringEscapeHandling);
     // static private System.Int32 FirstCharToEscape(System.String s, System.Boolean[] charEscapeFlags, Newtonsoft.Json.StringEscapeHandling stringEscapeHandling)
     // Offset: 0x19E7260
-    static int FirstCharToEscape(::StringW s, ::ArrayW<bool> charEscapeFlags, Newtonsoft::Json::StringEscapeHandling stringEscapeHandling);
+    static int FirstCharToEscape(::StringW s, ::ArrayW<bool> charEscapeFlags, ::Newtonsoft::Json::StringEscapeHandling stringEscapeHandling);
     // static public System.Boolean TryGetDateFromConstructorJson(Newtonsoft.Json.JsonReader reader, out System.DateTime dateTime, out System.String errorMessage)
     // Offset: 0x19E74E8
-    static bool TryGetDateFromConstructorJson(Newtonsoft::Json::JsonReader* reader, ByRef<System::DateTime> dateTime, ByRef<::StringW> errorMessage);
+    static bool TryGetDateFromConstructorJson(::Newtonsoft::Json::JsonReader* reader, ByRef<::System::DateTime> dateTime, ByRef<::StringW> errorMessage);
     // static private System.Boolean TryGetDateConstructorValue(Newtonsoft.Json.JsonReader reader, out System.Nullable`1<System.Int64> integer, out System.String errorMessage)
     // Offset: 0x19E781C
-    static bool TryGetDateConstructorValue(Newtonsoft::Json::JsonReader* reader, ByRef<System::Nullable_1<int64_t>> integer, ByRef<::StringW> errorMessage);
+    static bool TryGetDateConstructorValue(::Newtonsoft::Json::JsonReader* reader, ByRef<::System::Nullable_1<int64_t>> integer, ByRef<::StringW> errorMessage);
   }; // Newtonsoft.Json.Utilities.JavaScriptUtils
   #pragma pack(pop)
 }
@@ -102,7 +102,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::JavaScriptUtils::GetCharEscapeFlags
 // Il2CppName: GetCharEscapeFlags
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<bool> (*)(Newtonsoft::Json::StringEscapeHandling, ::Il2CppChar)>(&Newtonsoft::Json::Utilities::JavaScriptUtils::GetCharEscapeFlags)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<bool> (*)(::Newtonsoft::Json::StringEscapeHandling, ::Il2CppChar)>(&Newtonsoft::Json::Utilities::JavaScriptUtils::GetCharEscapeFlags)> {
   static const MethodInfo* get() {
     static auto* stringEscapeHandling = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "StringEscapeHandling")->byval_arg;
     static auto* quoteChar = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::JavaScriptUtils::WriteEscapedJavaScriptString
 // Il2CppName: WriteEscapedJavaScriptString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IO::TextWriter*, ::StringW, ::Il2CppChar, bool, ::ArrayW<bool>, Newtonsoft::Json::StringEscapeHandling, Newtonsoft::Json::IArrayPool_1<::Il2CppChar>*, ByRef<::ArrayW<::Il2CppChar>>)>(&Newtonsoft::Json::Utilities::JavaScriptUtils::WriteEscapedJavaScriptString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IO::TextWriter*, ::StringW, ::Il2CppChar, bool, ::ArrayW<bool>, ::Newtonsoft::Json::StringEscapeHandling, ::Newtonsoft::Json::IArrayPool_1<::Il2CppChar>*, ByRef<::ArrayW<::Il2CppChar>>)>(&Newtonsoft::Json::Utilities::JavaScriptUtils::WriteEscapedJavaScriptString)> {
   static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("System.IO", "TextWriter")->byval_arg;
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -138,7 +138,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::JavaScriptUtils::ToEscapedJavaScriptString
 // Il2CppName: ToEscapedJavaScriptString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::Il2CppChar, bool, Newtonsoft::Json::StringEscapeHandling)>(&Newtonsoft::Json::Utilities::JavaScriptUtils::ToEscapedJavaScriptString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::Il2CppChar, bool, ::Newtonsoft::Json::StringEscapeHandling)>(&Newtonsoft::Json::Utilities::JavaScriptUtils::ToEscapedJavaScriptString)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* delimiter = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
@@ -150,7 +150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::JavaScriptUtils::FirstCharToEscape
 // Il2CppName: FirstCharToEscape
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::StringW, ::ArrayW<bool>, Newtonsoft::Json::StringEscapeHandling)>(&Newtonsoft::Json::Utilities::JavaScriptUtils::FirstCharToEscape)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::StringW, ::ArrayW<bool>, ::Newtonsoft::Json::StringEscapeHandling)>(&Newtonsoft::Json::Utilities::JavaScriptUtils::FirstCharToEscape)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* charEscapeFlags = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Boolean"), 1)->byval_arg;
@@ -161,7 +161,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::S
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::JavaScriptUtils::TryGetDateFromConstructorJson
 // Il2CppName: TryGetDateFromConstructorJson
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Newtonsoft::Json::JsonReader*, ByRef<System::DateTime>, ByRef<::StringW>)>(&Newtonsoft::Json::Utilities::JavaScriptUtils::TryGetDateFromConstructorJson)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Newtonsoft::Json::JsonReader*, ByRef<::System::DateTime>, ByRef<::StringW>)>(&Newtonsoft::Json::Utilities::JavaScriptUtils::TryGetDateFromConstructorJson)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonReader")->byval_arg;
     static auto* dateTime = &::il2cpp_utils::GetClassFromName("System", "DateTime")->this_arg;
@@ -172,7 +172,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ne
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::JavaScriptUtils::TryGetDateConstructorValue
 // Il2CppName: TryGetDateConstructorValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Newtonsoft::Json::JsonReader*, ByRef<System::Nullable_1<int64_t>>, ByRef<::StringW>)>(&Newtonsoft::Json::Utilities::JavaScriptUtils::TryGetDateConstructorValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Newtonsoft::Json::JsonReader*, ByRef<::System::Nullable_1<int64_t>>, ByRef<::StringW>)>(&Newtonsoft::Json::Utilities::JavaScriptUtils::TryGetDateConstructorValue)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonReader")->byval_arg;
     static auto* integer = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int64")})->this_arg;

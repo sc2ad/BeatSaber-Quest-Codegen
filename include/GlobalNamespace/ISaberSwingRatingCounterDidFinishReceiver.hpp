@@ -18,8 +18,8 @@ namespace GlobalNamespace {
   class ISaberSwingRatingCounterDidFinishReceiver;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*, "", "ISaberSwingRatingCounterDidFinishReceiver");
+NEED_NO_BOX(::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*, "", "ISaberSwingRatingCounterDidFinishReceiver");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -30,7 +30,7 @@ namespace GlobalNamespace {
     public:
     // public System.Void HandleSaberSwingRatingCounterDidFinish(ISaberSwingRatingCounter saberSwingRatingCounter)
     // Offset: 0xFFFFFFFF
-    void HandleSaberSwingRatingCounterDidFinish(GlobalNamespace::ISaberSwingRatingCounter* saberSwingRatingCounter);
+    void HandleSaberSwingRatingCounterDidFinish(::GlobalNamespace::ISaberSwingRatingCounter* saberSwingRatingCounter);
   }; // ISaberSwingRatingCounterDidFinishReceiver
   #pragma pack(pop)
 }
@@ -38,7 +38,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver::HandleSaberSwingRatingCounterDidFinish
 // Il2CppName: HandleSaberSwingRatingCounterDidFinish
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver::*)(GlobalNamespace::ISaberSwingRatingCounter*)>(&GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver::HandleSaberSwingRatingCounterDidFinish)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver::*)(::GlobalNamespace::ISaberSwingRatingCounter*)>(&GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver::HandleSaberSwingRatingCounterDidFinish)> {
   static const MethodInfo* get() {
     static auto* saberSwingRatingCounter = &::il2cpp_utils::GetClassFromName("", "ISaberSwingRatingCounter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*), "HandleSaberSwingRatingCounterDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{saberSwingRatingCounter});

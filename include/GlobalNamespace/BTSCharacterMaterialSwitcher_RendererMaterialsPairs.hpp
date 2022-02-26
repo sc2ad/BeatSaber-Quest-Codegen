@@ -26,8 +26,8 @@ namespace System::Collections::Generic {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*, "", "BTSCharacterMaterialSwitcher/RendererMaterialsPairs");
+NEED_NO_BOX(::GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*, "", "BTSCharacterMaterialSwitcher/RendererMaterialsPairs");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -48,43 +48,43 @@ namespace GlobalNamespace {
     // private UnityEngine.Renderer _renderer
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::Renderer* renderer;
+    ::UnityEngine::Renderer* renderer;
     // Field size check
-    static_assert(sizeof(UnityEngine::Renderer*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Renderer*) == 0x8);
     // private System.Collections.Generic.List`1<BTSCharacterMaterialSwitcher/MaterialPairs> _materialPairs
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::Generic::List_1<GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs*>* materialPairs;
+    ::System::Collections::Generic::List_1<::GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs*>* materialPairs;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs*>*) == 0x8);
     public:
     // Get instance field reference: private UnityEngine.Renderer _renderer
-    UnityEngine::Renderer*& dyn__renderer();
+    ::UnityEngine::Renderer*& dyn__renderer();
     // Get instance field reference: private System.Collections.Generic.List`1<BTSCharacterMaterialSwitcher/MaterialPairs> _materialPairs
-    System::Collections::Generic::List_1<GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs*>*& dyn__materialPairs();
+    ::System::Collections::Generic::List_1<::GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs*>*& dyn__materialPairs();
     // public UnityEngine.Renderer get_renderer()
     // Offset: 0x2B37090
-    UnityEngine::Renderer* get_renderer();
+    ::UnityEngine::Renderer* get_renderer();
     // public System.Collections.Generic.List`1<BTSCharacterMaterialSwitcher/MaterialPairs> get_materialPairs()
     // Offset: 0x2B37098
-    System::Collections::Generic::List_1<GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs*>* get_materialPairs();
+    ::System::Collections::Generic::List_1<::GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs*>* get_materialPairs();
     // public System.Void .ctor(UnityEngine.Renderer renderer)
     // Offset: 0x2B370A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BTSCharacterMaterialSwitcher::RendererMaterialsPairs* New_ctor(UnityEngine::Renderer* renderer) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs::.ctor");
+    static BTSCharacterMaterialSwitcher::RendererMaterialsPairs* New_ctor(::UnityEngine::Renderer* renderer) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BTSCharacterMaterialSwitcher::RendererMaterialsPairs*, creationType>(renderer)));
     }
   }; // BTSCharacterMaterialSwitcher/RendererMaterialsPairs
   #pragma pack(pop)
-  static check_size<sizeof(BTSCharacterMaterialSwitcher::RendererMaterialsPairs), 24 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs*>*)> __GlobalNamespace_BTSCharacterMaterialSwitcher_RendererMaterialsPairsSizeCheck;
+  static check_size<sizeof(BTSCharacterMaterialSwitcher::RendererMaterialsPairs), 24 + sizeof(::System::Collections::Generic::List_1<::GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs*>*)> __GlobalNamespace_BTSCharacterMaterialSwitcher_RendererMaterialsPairsSizeCheck;
   static_assert(sizeof(BTSCharacterMaterialSwitcher::RendererMaterialsPairs) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs::get_renderer
 // Il2CppName: get_renderer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Renderer* (GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs::*)()>(&GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs::get_renderer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Renderer* (GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs::*)()>(&GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs::get_renderer)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*), "get_renderer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -92,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs::get_materialPairs
 // Il2CppName: get_materialPairs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs*>* (GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs::*)()>(&GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs::get_materialPairs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs*>* (GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs::*)()>(&GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs::get_materialPairs)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*), "get_materialPairs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

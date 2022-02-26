@@ -41,8 +41,8 @@ namespace Zenject {
   class FactoryBindInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::FactoryBindInfo);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::FactoryBindInfo*, "Zenject", "FactoryBindInfo");
+NEED_NO_BOX(::Zenject::FactoryBindInfo);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::FactoryBindInfo*, "Zenject", "FactoryBindInfo");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x28
@@ -64,63 +64,63 @@ namespace Zenject {
     // private System.Type <FactoryType>k__BackingField
     // Size: 0x8
     // Offset: 0x10
-    System::Type* FactoryType;
+    ::System::Type* FactoryType;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     // private System.Func`2<Zenject.DiContainer,Zenject.IProvider> <ProviderFunc>k__BackingField
     // Size: 0x8
     // Offset: 0x18
-    System::Func_2<Zenject::DiContainer*, Zenject::IProvider*>* ProviderFunc;
+    ::System::Func_2<::Zenject::DiContainer*, ::Zenject::IProvider*>* ProviderFunc;
     // Field size check
-    static_assert(sizeof(System::Func_2<Zenject::DiContainer*, Zenject::IProvider*>*) == 0x8);
+    static_assert(sizeof(::System::Func_2<::Zenject::DiContainer*, ::Zenject::IProvider*>*) == 0x8);
     // private System.Collections.Generic.List`1<Zenject.TypeValuePair> <Arguments>k__BackingField
     // Size: 0x8
     // Offset: 0x20
-    System::Collections::Generic::List_1<Zenject::TypeValuePair>* Arguments;
+    ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* Arguments;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<Zenject::TypeValuePair>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*) == 0x8);
     public:
     // Get instance field reference: private System.Type <FactoryType>k__BackingField
-    System::Type*& dyn_$FactoryType$k__BackingField();
+    ::System::Type*& dyn_$FactoryType$k__BackingField();
     // Get instance field reference: private System.Func`2<Zenject.DiContainer,Zenject.IProvider> <ProviderFunc>k__BackingField
-    System::Func_2<Zenject::DiContainer*, Zenject::IProvider*>*& dyn_$ProviderFunc$k__BackingField();
+    ::System::Func_2<::Zenject::DiContainer*, ::Zenject::IProvider*>*& dyn_$ProviderFunc$k__BackingField();
     // Get instance field reference: private System.Collections.Generic.List`1<Zenject.TypeValuePair> <Arguments>k__BackingField
-    System::Collections::Generic::List_1<Zenject::TypeValuePair>*& dyn_$Arguments$k__BackingField();
+    ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& dyn_$Arguments$k__BackingField();
     // public System.Type get_FactoryType()
     // Offset: 0x1D2A6A4
-    System::Type* get_FactoryType();
+    ::System::Type* get_FactoryType();
     // private System.Void set_FactoryType(System.Type value)
     // Offset: 0x1D2A6AC
-    void set_FactoryType(System::Type* value);
+    void set_FactoryType(::System::Type* value);
     // public System.Func`2<Zenject.DiContainer,Zenject.IProvider> get_ProviderFunc()
     // Offset: 0x1D2A6B4
-    System::Func_2<Zenject::DiContainer*, Zenject::IProvider*>* get_ProviderFunc();
+    ::System::Func_2<::Zenject::DiContainer*, ::Zenject::IProvider*>* get_ProviderFunc();
     // public System.Void set_ProviderFunc(System.Func`2<Zenject.DiContainer,Zenject.IProvider> value)
     // Offset: 0x1D2A6BC
-    void set_ProviderFunc(System::Func_2<Zenject::DiContainer*, Zenject::IProvider*>* value);
+    void set_ProviderFunc(::System::Func_2<::Zenject::DiContainer*, ::Zenject::IProvider*>* value);
     // public System.Collections.Generic.List`1<Zenject.TypeValuePair> get_Arguments()
     // Offset: 0x1D2A6C4
-    System::Collections::Generic::List_1<Zenject::TypeValuePair>* get_Arguments();
+    ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* get_Arguments();
     // public System.Void set_Arguments(System.Collections.Generic.List`1<Zenject.TypeValuePair> value)
     // Offset: 0x1D2A6CC
-    void set_Arguments(System::Collections::Generic::List_1<Zenject::TypeValuePair>* value);
+    void set_Arguments(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* value);
     // public System.Void .ctor(System.Type factoryType)
     // Offset: 0x1D2A620
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static FactoryBindInfo* New_ctor(System::Type* factoryType) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryBindInfo::.ctor");
+    static FactoryBindInfo* New_ctor(::System::Type* factoryType) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactoryBindInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FactoryBindInfo*, creationType>(factoryType)));
     }
   }; // Zenject.FactoryBindInfo
   #pragma pack(pop)
-  static check_size<sizeof(FactoryBindInfo), 32 + sizeof(System::Collections::Generic::List_1<Zenject::TypeValuePair>*)> __Zenject_FactoryBindInfoSizeCheck;
+  static check_size<sizeof(FactoryBindInfo), 32 + sizeof(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*)> __Zenject_FactoryBindInfoSizeCheck;
   static_assert(sizeof(FactoryBindInfo) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::FactoryBindInfo::get_FactoryType
 // Il2CppName: get_FactoryType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (Zenject::FactoryBindInfo::*)()>(&Zenject::FactoryBindInfo::get_FactoryType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (Zenject::FactoryBindInfo::*)()>(&Zenject::FactoryBindInfo::get_FactoryType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::FactoryBindInfo*), "get_FactoryType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -128,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: Zenject::FactoryBindInfo::set_FactoryType
 // Il2CppName: set_FactoryType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::FactoryBindInfo::*)(System::Type*)>(&Zenject::FactoryBindInfo::set_FactoryType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::FactoryBindInfo::*)(::System::Type*)>(&Zenject::FactoryBindInfo::set_FactoryType)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FactoryBindInfo*), "set_FactoryType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -137,7 +137,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Writing MetadataGetter for method: Zenject::FactoryBindInfo::get_ProviderFunc
 // Il2CppName: get_ProviderFunc
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Func_2<Zenject::DiContainer*, Zenject::IProvider*>* (Zenject::FactoryBindInfo::*)()>(&Zenject::FactoryBindInfo::get_ProviderFunc)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Func_2<::Zenject::DiContainer*, ::Zenject::IProvider*>* (Zenject::FactoryBindInfo::*)()>(&Zenject::FactoryBindInfo::get_ProviderFunc)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::FactoryBindInfo*), "get_ProviderFunc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -145,7 +145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Fun
 // Writing MetadataGetter for method: Zenject::FactoryBindInfo::set_ProviderFunc
 // Il2CppName: set_ProviderFunc
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::FactoryBindInfo::*)(System::Func_2<Zenject::DiContainer*, Zenject::IProvider*>*)>(&Zenject::FactoryBindInfo::set_ProviderFunc)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::FactoryBindInfo::*)(::System::Func_2<::Zenject::DiContainer*, ::Zenject::IProvider*>*)>(&Zenject::FactoryBindInfo::set_ProviderFunc)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "DiContainer"), ::il2cpp_utils::GetClassFromName("Zenject", "IProvider")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FactoryBindInfo*), "set_ProviderFunc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -154,7 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Writing MetadataGetter for method: Zenject::FactoryBindInfo::get_Arguments
 // Il2CppName: get_Arguments
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<Zenject::TypeValuePair>* (Zenject::FactoryBindInfo::*)()>(&Zenject::FactoryBindInfo::get_Arguments)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* (Zenject::FactoryBindInfo::*)()>(&Zenject::FactoryBindInfo::get_Arguments)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::FactoryBindInfo*), "get_Arguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -162,7 +162,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: Zenject::FactoryBindInfo::set_Arguments
 // Il2CppName: set_Arguments
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::FactoryBindInfo::*)(System::Collections::Generic::List_1<Zenject::TypeValuePair>*)>(&Zenject::FactoryBindInfo::set_Arguments)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::FactoryBindInfo::*)(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*)>(&Zenject::FactoryBindInfo::set_Arguments)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "TypeValuePair")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FactoryBindInfo*), "set_Arguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

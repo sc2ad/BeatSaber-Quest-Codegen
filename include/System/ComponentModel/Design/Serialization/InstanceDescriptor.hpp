@@ -28,8 +28,8 @@ namespace System::ComponentModel::Design::Serialization {
   class InstanceDescriptor;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::ComponentModel::Design::Serialization::InstanceDescriptor);
-DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::Design::Serialization::InstanceDescriptor*, "System.ComponentModel.Design.Serialization", "InstanceDescriptor");
+NEED_NO_BOX(::System::ComponentModel::Design::Serialization::InstanceDescriptor);
+DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::Design::Serialization::InstanceDescriptor*, "System.ComponentModel.Design.Serialization", "InstanceDescriptor");
 // Type namespace: System.ComponentModel.Design.Serialization
 namespace System::ComponentModel::Design::Serialization {
   // Size: 0x21
@@ -50,15 +50,15 @@ namespace System::ComponentModel::Design::Serialization {
     // private System.Reflection.MemberInfo member
     // Size: 0x8
     // Offset: 0x10
-    System::Reflection::MemberInfo* member;
+    ::System::Reflection::MemberInfo* member;
     // Field size check
-    static_assert(sizeof(System::Reflection::MemberInfo*) == 0x8);
+    static_assert(sizeof(::System::Reflection::MemberInfo*) == 0x8);
     // private System.Collections.ICollection arguments
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::ICollection* arguments;
+    ::System::Collections::ICollection* arguments;
     // Field size check
-    static_assert(sizeof(System::Collections::ICollection*) == 0x8);
+    static_assert(sizeof(::System::Collections::ICollection*) == 0x8);
     // private System.Boolean isComplete
     // Size: 0x1
     // Offset: 0x20
@@ -67,23 +67,23 @@ namespace System::ComponentModel::Design::Serialization {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.Reflection.MemberInfo member
-    System::Reflection::MemberInfo*& dyn_member();
+    ::System::Reflection::MemberInfo*& dyn_member();
     // Get instance field reference: private System.Collections.ICollection arguments
-    System::Collections::ICollection*& dyn_arguments();
+    ::System::Collections::ICollection*& dyn_arguments();
     // Get instance field reference: private System.Boolean isComplete
     bool& dyn_isComplete();
     // public System.Void .ctor(System.Reflection.MemberInfo member, System.Collections.ICollection arguments)
     // Offset: 0x1DF3420
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static InstanceDescriptor* New_ctor(System::Reflection::MemberInfo* member, System::Collections::ICollection* arguments) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::Design::Serialization::InstanceDescriptor::.ctor");
+    static InstanceDescriptor* New_ctor(::System::Reflection::MemberInfo* member, ::System::Collections::ICollection* arguments) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::Design::Serialization::InstanceDescriptor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InstanceDescriptor*, creationType>(member, arguments)));
     }
     // public System.Void .ctor(System.Reflection.MemberInfo member, System.Collections.ICollection arguments, System.Boolean isComplete)
     // Offset: 0x1DF417C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static InstanceDescriptor* New_ctor(System::Reflection::MemberInfo* member, System::Collections::ICollection* arguments, bool isComplete) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::Design::Serialization::InstanceDescriptor::.ctor");
+    static InstanceDescriptor* New_ctor(::System::Reflection::MemberInfo* member, ::System::Collections::ICollection* arguments, bool isComplete) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::Design::Serialization::InstanceDescriptor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InstanceDescriptor*, creationType>(member, arguments, isComplete)));
     }
     // public System.Object Invoke()

@@ -25,8 +25,8 @@ namespace Oculus::Platform::Models {
   class CloudStorageConflictMetadata;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::CloudStorageConflictMetadata);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::CloudStorageConflictMetadata*, "Oculus.Platform.Models", "CloudStorageConflictMetadata");
+NEED_NO_BOX(::Oculus::Platform::Models::CloudStorageConflictMetadata);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::CloudStorageConflictMetadata*, "Oculus.Platform.Models", "CloudStorageConflictMetadata");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x20
@@ -47,30 +47,30 @@ namespace Oculus::Platform::Models {
     // public readonly Oculus.Platform.Models.CloudStorageMetadata Local
     // Size: 0x8
     // Offset: 0x10
-    Oculus::Platform::Models::CloudStorageMetadata* Local;
+    ::Oculus::Platform::Models::CloudStorageMetadata* Local;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::Models::CloudStorageMetadata*) == 0x8);
+    static_assert(sizeof(::Oculus::Platform::Models::CloudStorageMetadata*) == 0x8);
     // public readonly Oculus.Platform.Models.CloudStorageMetadata Remote
     // Size: 0x8
     // Offset: 0x18
-    Oculus::Platform::Models::CloudStorageMetadata* Remote;
+    ::Oculus::Platform::Models::CloudStorageMetadata* Remote;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::Models::CloudStorageMetadata*) == 0x8);
+    static_assert(sizeof(::Oculus::Platform::Models::CloudStorageMetadata*) == 0x8);
     public:
     // Get instance field reference: public readonly Oculus.Platform.Models.CloudStorageMetadata Local
-    Oculus::Platform::Models::CloudStorageMetadata*& dyn_Local();
+    ::Oculus::Platform::Models::CloudStorageMetadata*& dyn_Local();
     // Get instance field reference: public readonly Oculus.Platform.Models.CloudStorageMetadata Remote
-    Oculus::Platform::Models::CloudStorageMetadata*& dyn_Remote();
+    ::Oculus::Platform::Models::CloudStorageMetadata*& dyn_Remote();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x1965228
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CloudStorageConflictMetadata* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::CloudStorageConflictMetadata::.ctor");
+    static CloudStorageConflictMetadata* New_ctor(::System::IntPtr o) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::CloudStorageConflictMetadata::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CloudStorageConflictMetadata*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.CloudStorageConflictMetadata
   #pragma pack(pop)
-  static check_size<sizeof(CloudStorageConflictMetadata), 24 + sizeof(Oculus::Platform::Models::CloudStorageMetadata*)> __Oculus_Platform_Models_CloudStorageConflictMetadataSizeCheck;
+  static check_size<sizeof(CloudStorageConflictMetadata), 24 + sizeof(::Oculus::Platform::Models::CloudStorageMetadata*)> __Oculus_Platform_Models_CloudStorageConflictMetadataSizeCheck;
   static_assert(sizeof(CloudStorageConflictMetadata) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

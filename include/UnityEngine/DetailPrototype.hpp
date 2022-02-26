@@ -29,8 +29,8 @@ namespace UnityEngine {
   class DetailPrototype;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::DetailPrototype);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::DetailPrototype*, "UnityEngine", "DetailPrototype");
+NEED_NO_BOX(::UnityEngine::DetailPrototype);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::DetailPrototype*, "UnityEngine", "DetailPrototype");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x60
@@ -53,27 +53,27 @@ namespace UnityEngine {
     // UnityEngine.GameObject m_Prototype
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::GameObject* m_Prototype;
+    ::UnityEngine::GameObject* m_Prototype;
     // Field size check
-    static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
+    static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
     // UnityEngine.Texture2D m_PrototypeTexture
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::Texture2D* m_PrototypeTexture;
+    ::UnityEngine::Texture2D* m_PrototypeTexture;
     // Field size check
-    static_assert(sizeof(UnityEngine::Texture2D*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Texture2D*) == 0x8);
     // UnityEngine.Color m_HealthyColor
     // Size: 0x10
     // Offset: 0x20
-    UnityEngine::Color m_HealthyColor;
+    ::UnityEngine::Color m_HealthyColor;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     // UnityEngine.Color m_DryColor
     // Size: 0x10
     // Offset: 0x30
-    UnityEngine::Color m_DryColor;
+    ::UnityEngine::Color m_DryColor;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     // System.Single m_MinWidth
     // Size: 0x4
     // Offset: 0x40
@@ -124,13 +124,13 @@ namespace UnityEngine {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: UnityEngine.GameObject m_Prototype
-    UnityEngine::GameObject*& dyn_m_Prototype();
+    ::UnityEngine::GameObject*& dyn_m_Prototype();
     // Get instance field reference: UnityEngine.Texture2D m_PrototypeTexture
-    UnityEngine::Texture2D*& dyn_m_PrototypeTexture();
+    ::UnityEngine::Texture2D*& dyn_m_PrototypeTexture();
     // Get instance field reference: UnityEngine.Color m_HealthyColor
-    UnityEngine::Color& dyn_m_HealthyColor();
+    ::UnityEngine::Color& dyn_m_HealthyColor();
     // Get instance field reference: UnityEngine.Color m_DryColor
-    UnityEngine::Color& dyn_m_DryColor();
+    ::UnityEngine::Color& dyn_m_DryColor();
     // Get instance field reference: System.Single m_MinWidth
     float& dyn_m_MinWidth();
     // Get instance field reference: System.Single m_MaxWidth
@@ -149,10 +149,10 @@ namespace UnityEngine {
     int& dyn_m_UsePrototypeMesh();
     // public System.Void set_prototype(UnityEngine.GameObject value)
     // Offset: 0x2A27260
-    void set_prototype(UnityEngine::GameObject* value);
+    void set_prototype(::UnityEngine::GameObject* value);
     // public System.Void set_prototypeTexture(UnityEngine.Texture2D value)
     // Offset: 0x2A27268
-    void set_prototypeTexture(UnityEngine::Texture2D* value);
+    void set_prototypeTexture(::UnityEngine::Texture2D* value);
     // public System.Single get_minWidth()
     // Offset: 0x2A27270
     float get_minWidth();
@@ -191,35 +191,35 @@ namespace UnityEngine {
     void set_bendFactor(float value);
     // public UnityEngine.Color get_healthyColor()
     // Offset: 0x2A272D0
-    UnityEngine::Color get_healthyColor();
+    ::UnityEngine::Color get_healthyColor();
     // public System.Void set_healthyColor(UnityEngine.Color value)
     // Offset: 0x2A272DC
-    void set_healthyColor(UnityEngine::Color value);
+    void set_healthyColor(::UnityEngine::Color value);
     // public UnityEngine.Color get_dryColor()
     // Offset: 0x2A272E8
-    UnityEngine::Color get_dryColor();
+    ::UnityEngine::Color get_dryColor();
     // public System.Void set_dryColor(UnityEngine.Color value)
     // Offset: 0x2A272F4
-    void set_dryColor(UnityEngine::Color value);
+    void set_dryColor(::UnityEngine::Color value);
     // public UnityEngine.DetailRenderMode get_renderMode()
     // Offset: 0x2A27300
-    UnityEngine::DetailRenderMode get_renderMode();
+    ::UnityEngine::DetailRenderMode get_renderMode();
     // public System.Void set_renderMode(UnityEngine.DetailRenderMode value)
     // Offset: 0x2A27308
-    void set_renderMode(UnityEngine::DetailRenderMode value);
+    void set_renderMode(::UnityEngine::DetailRenderMode value);
     // public System.Void set_usePrototypeMesh(System.Boolean value)
     // Offset: 0x2A27310
     void set_usePrototypeMesh(bool value);
     // private System.Boolean Equals(UnityEngine.DetailPrototype other)
     // Offset: 0x2A27470
-    bool Equals(UnityEngine::DetailPrototype* other);
+    bool Equals(::UnityEngine::DetailPrototype* other);
     // public System.Void .ctor()
     // Offset: 0x2A2732C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DetailPrototype* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::DetailPrototype::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::DetailPrototype::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DetailPrototype*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object obj)
@@ -241,7 +241,7 @@ namespace UnityEngine {
 // Writing MetadataGetter for method: UnityEngine::DetailPrototype::set_prototype
 // Il2CppName: set_prototype
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::DetailPrototype::*)(UnityEngine::GameObject*)>(&UnityEngine::DetailPrototype::set_prototype)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::DetailPrototype::*)(::UnityEngine::GameObject*)>(&UnityEngine::DetailPrototype::set_prototype)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::DetailPrototype*), "set_prototype", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -250,7 +250,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::DetailPrototype::set_prototypeTexture
 // Il2CppName: set_prototypeTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::DetailPrototype::*)(UnityEngine::Texture2D*)>(&UnityEngine::DetailPrototype::set_prototypeTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::DetailPrototype::*)(::UnityEngine::Texture2D*)>(&UnityEngine::DetailPrototype::set_prototypeTexture)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture2D")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::DetailPrototype*), "set_prototypeTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -361,7 +361,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::DetailPrototype::get_healthyColor
 // Il2CppName: get_healthyColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (UnityEngine::DetailPrototype::*)()>(&UnityEngine::DetailPrototype::get_healthyColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (UnityEngine::DetailPrototype::*)()>(&UnityEngine::DetailPrototype::get_healthyColor)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::DetailPrototype*), "get_healthyColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -369,7 +369,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::DetailPrototype::set_healthyColor
 // Il2CppName: set_healthyColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::DetailPrototype::*)(UnityEngine::Color)>(&UnityEngine::DetailPrototype::set_healthyColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::DetailPrototype::*)(::UnityEngine::Color)>(&UnityEngine::DetailPrototype::set_healthyColor)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::DetailPrototype*), "set_healthyColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -378,7 +378,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::DetailPrototype::get_dryColor
 // Il2CppName: get_dryColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (UnityEngine::DetailPrototype::*)()>(&UnityEngine::DetailPrototype::get_dryColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (UnityEngine::DetailPrototype::*)()>(&UnityEngine::DetailPrototype::get_dryColor)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::DetailPrototype*), "get_dryColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -386,7 +386,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::DetailPrototype::set_dryColor
 // Il2CppName: set_dryColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::DetailPrototype::*)(UnityEngine::Color)>(&UnityEngine::DetailPrototype::set_dryColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::DetailPrototype::*)(::UnityEngine::Color)>(&UnityEngine::DetailPrototype::set_dryColor)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::DetailPrototype*), "set_dryColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -395,7 +395,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::DetailPrototype::get_renderMode
 // Il2CppName: get_renderMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::DetailRenderMode (UnityEngine::DetailPrototype::*)()>(&UnityEngine::DetailPrototype::get_renderMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::DetailRenderMode (UnityEngine::DetailPrototype::*)()>(&UnityEngine::DetailPrototype::get_renderMode)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::DetailPrototype*), "get_renderMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -403,7 +403,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::DetailPrototype::set_renderMode
 // Il2CppName: set_renderMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::DetailPrototype::*)(UnityEngine::DetailRenderMode)>(&UnityEngine::DetailPrototype::set_renderMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::DetailPrototype::*)(::UnityEngine::DetailRenderMode)>(&UnityEngine::DetailPrototype::set_renderMode)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "DetailRenderMode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::DetailPrototype*), "set_renderMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -421,7 +421,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::DetailPrototype::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::DetailPrototype::*)(UnityEngine::DetailPrototype*)>(&UnityEngine::DetailPrototype::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::DetailPrototype::*)(::UnityEngine::DetailPrototype*)>(&UnityEngine::DetailPrototype::Equals)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("UnityEngine", "DetailPrototype")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::DetailPrototype*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});

@@ -26,8 +26,8 @@ namespace System::Collections {
   class HashHelpers;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Collections::HashHelpers);
-DEFINE_IL2CPP_ARG_TYPE(System::Collections::HashHelpers*, "System.Collections", "HashHelpers");
+NEED_NO_BOX(::System::Collections::HashHelpers);
+DEFINE_IL2CPP_ARG_TYPE(::System::Collections::HashHelpers*, "System.Collections", "HashHelpers");
 // Type namespace: System.Collections
 namespace System::Collections {
   // Size: 0x10
@@ -42,12 +42,12 @@ namespace System::Collections {
     // Set static field: static public readonly System.Int32[] primes
     static void _set_primes(::ArrayW<int> value);
     // Get static field: static private System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Object,System.Runtime.Serialization.SerializationInfo> s_SerializationInfoTable
-    static System::Runtime::CompilerServices::ConditionalWeakTable_2<::Il2CppObject*, System::Runtime::Serialization::SerializationInfo*>* _get_s_SerializationInfoTable();
+    static ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::Il2CppObject*, ::System::Runtime::Serialization::SerializationInfo*>* _get_s_SerializationInfoTable();
     // Set static field: static private System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Object,System.Runtime.Serialization.SerializationInfo> s_SerializationInfoTable
-    static void _set_s_SerializationInfoTable(System::Runtime::CompilerServices::ConditionalWeakTable_2<::Il2CppObject*, System::Runtime::Serialization::SerializationInfo*>* value);
+    static void _set_s_SerializationInfoTable(::System::Runtime::CompilerServices::ConditionalWeakTable_2<::Il2CppObject*, ::System::Runtime::Serialization::SerializationInfo*>* value);
     // static System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Object,System.Runtime.Serialization.SerializationInfo> get_SerializationInfoTable()
     // Offset: 0x1ACE838
-    static System::Runtime::CompilerServices::ConditionalWeakTable_2<::Il2CppObject*, System::Runtime::Serialization::SerializationInfo*>* get_SerializationInfoTable();
+    static ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::Il2CppObject*, ::System::Runtime::Serialization::SerializationInfo*>* get_SerializationInfoTable();
     // static private System.Void .cctor()
     // Offset: 0x1ACEC40
     static void _cctor();
@@ -67,7 +67,7 @@ namespace System::Collections {
 // Writing MetadataGetter for method: System::Collections::HashHelpers::get_SerializationInfoTable
 // Il2CppName: get_SerializationInfoTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::CompilerServices::ConditionalWeakTable_2<::Il2CppObject*, System::Runtime::Serialization::SerializationInfo*>* (*)()>(&System::Collections::HashHelpers::get_SerializationInfoTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::CompilerServices::ConditionalWeakTable_2<::Il2CppObject*, ::System::Runtime::Serialization::SerializationInfo*>* (*)()>(&System::Collections::HashHelpers::get_SerializationInfoTable)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Collections::HashHelpers*), "get_SerializationInfoTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

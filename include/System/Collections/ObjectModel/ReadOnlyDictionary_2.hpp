@@ -13,7 +13,7 @@ namespace System::Collections::ObjectModel {
   class ReadOnlyDictionary_2;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Collections::ObjectModel::ReadOnlyDictionary_2, "System.Collections.ObjectModel", "ReadOnlyDictionary`2");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Collections::ObjectModel::ReadOnlyDictionary_2, "System.Collections.ObjectModel", "ReadOnlyDictionary`2");
 // Type namespace: System.Collections.ObjectModel
 namespace System::Collections::ObjectModel {
   // WARNING Size may be invalid!

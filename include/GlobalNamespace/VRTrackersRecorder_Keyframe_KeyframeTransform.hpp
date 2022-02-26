@@ -17,8 +17,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::VRTrackersRecorder::Keyframe::KeyframeTransform);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRTrackersRecorder::Keyframe::KeyframeTransform*, "", "VRTrackersRecorder/Keyframe/KeyframeTransform");
+NEED_NO_BOX(::GlobalNamespace::VRTrackersRecorder::Keyframe::KeyframeTransform);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::VRTrackersRecorder::Keyframe::KeyframeTransform*, "", "VRTrackersRecorder/Keyframe/KeyframeTransform");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x2D
@@ -39,15 +39,15 @@ namespace GlobalNamespace {
     // public UnityEngine.Vector3 _pos
     // Size: 0xC
     // Offset: 0x10
-    UnityEngine::Vector3 pos;
+    ::UnityEngine::Vector3 pos;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // public UnityEngine.Quaternion _rot
     // Size: 0x10
     // Offset: 0x1C
-    UnityEngine::Quaternion rot;
+    ::UnityEngine::Quaternion rot;
     // Field size check
-    static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    static_assert(sizeof(::UnityEngine::Quaternion) == 0x10);
     // public System.Boolean _valid
     // Size: 0x1
     // Offset: 0x2C
@@ -56,9 +56,9 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public UnityEngine.Vector3 _pos
-    UnityEngine::Vector3& dyn__pos();
+    ::UnityEngine::Vector3& dyn__pos();
     // Get instance field reference: public UnityEngine.Quaternion _rot
-    UnityEngine::Quaternion& dyn__rot();
+    ::UnityEngine::Quaternion& dyn__rot();
     // Get instance field reference: public System.Boolean _valid
     bool& dyn__valid();
     // public System.Void .ctor()
@@ -67,7 +67,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRTrackersRecorder::Keyframe::KeyframeTransform* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::VRTrackersRecorder::Keyframe::KeyframeTransform::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VRTrackersRecorder::Keyframe::KeyframeTransform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRTrackersRecorder::Keyframe::KeyframeTransform*, creationType>()));
     }
   }; // VRTrackersRecorder/Keyframe/KeyframeTransform

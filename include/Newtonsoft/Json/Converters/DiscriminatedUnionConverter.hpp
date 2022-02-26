@@ -43,8 +43,8 @@ namespace Newtonsoft::Json::Converters {
   class DiscriminatedUnionConverter;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Converters::DiscriminatedUnionConverter);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Converters::DiscriminatedUnionConverter*, "Newtonsoft.Json.Converters", "DiscriminatedUnionConverter");
+NEED_NO_BOX(::Newtonsoft::Json::Converters::DiscriminatedUnionConverter);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Converters::DiscriminatedUnionConverter*, "Newtonsoft.Json.Converters", "DiscriminatedUnionConverter");
 // Type namespace: Newtonsoft.Json.Converters
 namespace Newtonsoft::Json::Converters {
   // Size: 0x10
@@ -53,33 +53,33 @@ namespace Newtonsoft::Json::Converters {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NullableAttribute] Offset: 1203598
   // [NullableContextAttribute] Offset: 1203598
-  class DiscriminatedUnionConverter : public Newtonsoft::Json::JsonConverter {
+  class DiscriminatedUnionConverter : public ::Newtonsoft::Json::JsonConverter {
     public:
-    // Nested type: Newtonsoft::Json::Converters::DiscriminatedUnionConverter::Union
+    // Nested type: ::Newtonsoft::Json::Converters::DiscriminatedUnionConverter::Union
     class Union;
-    // Nested type: Newtonsoft::Json::Converters::DiscriminatedUnionConverter::UnionCase
+    // Nested type: ::Newtonsoft::Json::Converters::DiscriminatedUnionConverter::UnionCase
     class UnionCase;
-    // Nested type: Newtonsoft::Json::Converters::DiscriminatedUnionConverter::$$c__DisplayClass8_0
+    // Nested type: ::Newtonsoft::Json::Converters::DiscriminatedUnionConverter::$$c__DisplayClass8_0
     class $$c__DisplayClass8_0;
-    // Nested type: Newtonsoft::Json::Converters::DiscriminatedUnionConverter::$$c__DisplayClass9_0
+    // Nested type: ::Newtonsoft::Json::Converters::DiscriminatedUnionConverter::$$c__DisplayClass9_0
     class $$c__DisplayClass9_0;
     // Get static field: static private readonly Newtonsoft.Json.Utilities.ThreadSafeStore`2<System.Type,Newtonsoft.Json.Converters.DiscriminatedUnionConverter/Newtonsoft.Json.Converters.Union> UnionCache
-    static Newtonsoft::Json::Utilities::ThreadSafeStore_2<System::Type*, Newtonsoft::Json::Converters::DiscriminatedUnionConverter::Union*>* _get_UnionCache();
+    static ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Type*, ::Newtonsoft::Json::Converters::DiscriminatedUnionConverter::Union*>* _get_UnionCache();
     // Set static field: static private readonly Newtonsoft.Json.Utilities.ThreadSafeStore`2<System.Type,Newtonsoft.Json.Converters.DiscriminatedUnionConverter/Newtonsoft.Json.Converters.Union> UnionCache
-    static void _set_UnionCache(Newtonsoft::Json::Utilities::ThreadSafeStore_2<System::Type*, Newtonsoft::Json::Converters::DiscriminatedUnionConverter::Union*>* value);
+    static void _set_UnionCache(::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Type*, ::Newtonsoft::Json::Converters::DiscriminatedUnionConverter::Union*>* value);
     // Get static field: static private readonly Newtonsoft.Json.Utilities.ThreadSafeStore`2<System.Type,System.Type> UnionTypeLookupCache
-    static Newtonsoft::Json::Utilities::ThreadSafeStore_2<System::Type*, System::Type*>* _get_UnionTypeLookupCache();
+    static ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Type*, ::System::Type*>* _get_UnionTypeLookupCache();
     // Set static field: static private readonly Newtonsoft.Json.Utilities.ThreadSafeStore`2<System.Type,System.Type> UnionTypeLookupCache
-    static void _set_UnionTypeLookupCache(Newtonsoft::Json::Utilities::ThreadSafeStore_2<System::Type*, System::Type*>* value);
+    static void _set_UnionTypeLookupCache(::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Type*, ::System::Type*>* value);
     // static private System.Void .cctor()
     // Offset: 0x181FDB4
     static void _cctor();
     // static private System.Type CreateUnionTypeLookup(System.Type t)
     // Offset: 0x181E694
-    static System::Type* CreateUnionTypeLookup(System::Type* t);
+    static ::System::Type* CreateUnionTypeLookup(::System::Type* t);
     // static private Newtonsoft.Json.Converters.DiscriminatedUnionConverter/Newtonsoft.Json.Converters.Union CreateUnion(System.Type t)
     // Offset: 0x181E8A4
-    static Newtonsoft::Json::Converters::DiscriminatedUnionConverter::Union* CreateUnion(System::Type* t);
+    static ::Newtonsoft::Json::Converters::DiscriminatedUnionConverter::Union* CreateUnion(::System::Type* t);
     // public System.Void .ctor()
     // Offset: 0x181FDAC
     // Implemented from: Newtonsoft.Json.JsonConverter
@@ -87,24 +87,24 @@ namespace Newtonsoft::Json::Converters {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DiscriminatedUnionConverter* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Converters::DiscriminatedUnionConverter::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Converters::DiscriminatedUnionConverter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DiscriminatedUnionConverter*, creationType>()));
     }
     // public override System.Void WriteJson(Newtonsoft.Json.JsonWriter writer, System.Object value, Newtonsoft.Json.JsonSerializer serializer)
     // Offset: 0x181F0C8
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Void JsonConverter::WriteJson(Newtonsoft.Json.JsonWriter writer, System.Object value, Newtonsoft.Json.JsonSerializer serializer)
-    void WriteJson(Newtonsoft::Json::JsonWriter* writer, ::Il2CppObject* value, Newtonsoft::Json::JsonSerializer* serializer);
+    void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::Il2CppObject* value, ::Newtonsoft::Json::JsonSerializer* serializer);
     // public override System.Object ReadJson(Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue, Newtonsoft.Json.JsonSerializer serializer)
     // Offset: 0x181F51C
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Object JsonConverter::ReadJson(Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue, Newtonsoft.Json.JsonSerializer serializer)
-    ::Il2CppObject* ReadJson(Newtonsoft::Json::JsonReader* reader, System::Type* objectType, ::Il2CppObject* existingValue, Newtonsoft::Json::JsonSerializer* serializer);
+    ::Il2CppObject* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::Il2CppObject* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
     // public override System.Boolean CanConvert(System.Type objectType)
     // Offset: 0x181FB1C
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Boolean JsonConverter::CanConvert(System.Type objectType)
-    bool CanConvert(System::Type* objectType);
+    bool CanConvert(::System::Type* objectType);
   }; // Newtonsoft.Json.Converters.DiscriminatedUnionConverter
   #pragma pack(pop)
 }
@@ -120,7 +120,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::DiscriminatedUnionConverter::CreateUnionTypeLookup
 // Il2CppName: CreateUnionTypeLookup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(System::Type*)>(&Newtonsoft::Json::Converters::DiscriminatedUnionConverter::CreateUnionTypeLookup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Type*)>(&Newtonsoft::Json::Converters::DiscriminatedUnionConverter::CreateUnionTypeLookup)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Converters::DiscriminatedUnionConverter*), "CreateUnionTypeLookup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
@@ -129,7 +129,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::DiscriminatedUnionConverter::CreateUnion
 // Il2CppName: CreateUnion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Converters::DiscriminatedUnionConverter::Union* (*)(System::Type*)>(&Newtonsoft::Json::Converters::DiscriminatedUnionConverter::CreateUnion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Converters::DiscriminatedUnionConverter::Union* (*)(::System::Type*)>(&Newtonsoft::Json::Converters::DiscriminatedUnionConverter::CreateUnion)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Converters::DiscriminatedUnionConverter*), "CreateUnion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
@@ -142,7 +142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft:
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::DiscriminatedUnionConverter::WriteJson
 // Il2CppName: WriteJson
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Converters::DiscriminatedUnionConverter::*)(Newtonsoft::Json::JsonWriter*, ::Il2CppObject*, Newtonsoft::Json::JsonSerializer*)>(&Newtonsoft::Json::Converters::DiscriminatedUnionConverter::WriteJson)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Converters::DiscriminatedUnionConverter::*)(::Newtonsoft::Json::JsonWriter*, ::Il2CppObject*, ::Newtonsoft::Json::JsonSerializer*)>(&Newtonsoft::Json::Converters::DiscriminatedUnionConverter::WriteJson)> {
   static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonWriter")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -153,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::DiscriminatedUnionConverter::ReadJson
 // Il2CppName: ReadJson
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Newtonsoft::Json::Converters::DiscriminatedUnionConverter::*)(Newtonsoft::Json::JsonReader*, System::Type*, ::Il2CppObject*, Newtonsoft::Json::JsonSerializer*)>(&Newtonsoft::Json::Converters::DiscriminatedUnionConverter::ReadJson)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Newtonsoft::Json::Converters::DiscriminatedUnionConverter::*)(::Newtonsoft::Json::JsonReader*, ::System::Type*, ::Il2CppObject*, ::Newtonsoft::Json::JsonSerializer*)>(&Newtonsoft::Json::Converters::DiscriminatedUnionConverter::ReadJson)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonReader")->byval_arg;
     static auto* objectType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -165,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::DiscriminatedUnionConverter::CanConvert
 // Il2CppName: CanConvert
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Converters::DiscriminatedUnionConverter::*)(System::Type*)>(&Newtonsoft::Json::Converters::DiscriminatedUnionConverter::CanConvert)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Converters::DiscriminatedUnionConverter::*)(::System::Type*)>(&Newtonsoft::Json::Converters::DiscriminatedUnionConverter::CanConvert)> {
   static const MethodInfo* get() {
     static auto* objectType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Converters::DiscriminatedUnionConverter*), "CanConvert", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{objectType});

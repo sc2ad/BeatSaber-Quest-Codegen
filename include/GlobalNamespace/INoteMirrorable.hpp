@@ -28,8 +28,8 @@ namespace GlobalNamespace {
   class INoteMirrorable;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::INoteMirrorable);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::INoteMirrorable*, "", "INoteMirrorable");
+NEED_NO_BOX(::GlobalNamespace::INoteMirrorable);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::INoteMirrorable*, "", "INoteMirrorable");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -40,16 +40,16 @@ namespace GlobalNamespace {
     public:
     // public UnityEngine.Transform get_transform()
     // Offset: 0xFFFFFFFF
-    UnityEngine::Transform* get_transform();
+    ::UnityEngine::Transform* get_transform();
     // public UnityEngine.Transform get_noteTransform()
     // Offset: 0xFFFFFFFF
-    UnityEngine::Transform* get_noteTransform();
+    ::UnityEngine::Transform* get_noteTransform();
     // public NoteData get_noteData()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::NoteData* get_noteData();
+    ::GlobalNamespace::NoteData* get_noteData();
     // public ILazyCopyHashSet`1<INoteControllerNoteDidStartDissolvingEvent> get_noteDidStartDissolvingEvent()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>* get_noteDidStartDissolvingEvent();
+    ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>* get_noteDidStartDissolvingEvent();
   }; // INoteMirrorable
   #pragma pack(pop)
 }
@@ -57,7 +57,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::INoteMirrorable::get_transform
 // Il2CppName: get_transform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (GlobalNamespace::INoteMirrorable::*)()>(&GlobalNamespace::INoteMirrorable::get_transform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Transform* (GlobalNamespace::INoteMirrorable::*)()>(&GlobalNamespace::INoteMirrorable::get_transform)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INoteMirrorable*), "get_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -65,7 +65,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::INoteMirrorable::get_noteTransform
 // Il2CppName: get_noteTransform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (GlobalNamespace::INoteMirrorable::*)()>(&GlobalNamespace::INoteMirrorable::get_noteTransform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Transform* (GlobalNamespace::INoteMirrorable::*)()>(&GlobalNamespace::INoteMirrorable::get_noteTransform)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INoteMirrorable*), "get_noteTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -73,7 +73,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::INoteMirrorable::get_noteData
 // Il2CppName: get_noteData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteData* (GlobalNamespace::INoteMirrorable::*)()>(&GlobalNamespace::INoteMirrorable::get_noteData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NoteData* (GlobalNamespace::INoteMirrorable::*)()>(&GlobalNamespace::INoteMirrorable::get_noteData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INoteMirrorable*), "get_noteData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -81,7 +81,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::INoteMirrorable::get_noteDidStartDissolvingEvent
 // Il2CppName: get_noteDidStartDissolvingEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>* (GlobalNamespace::INoteMirrorable::*)()>(&GlobalNamespace::INoteMirrorable::get_noteDidStartDissolvingEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>* (GlobalNamespace::INoteMirrorable::*)()>(&GlobalNamespace::INoteMirrorable::get_noteDidStartDissolvingEvent)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INoteMirrorable*), "get_noteDidStartDissolvingEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

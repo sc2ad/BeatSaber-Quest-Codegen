@@ -39,8 +39,8 @@ namespace System::Xml::Serialization {
   class XmlSerializerFactory;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Serialization::XmlSerializerFactory);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Serialization::XmlSerializerFactory*, "System.Xml.Serialization", "XmlSerializerFactory");
+NEED_NO_BOX(::System::Xml::Serialization::XmlSerializerFactory);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::XmlSerializerFactory*, "System.Xml.Serialization", "XmlSerializerFactory");
 // Type namespace: System.Xml.Serialization
 namespace System::Xml::Serialization {
   // Size: 0x10
@@ -50,28 +50,28 @@ namespace System::Xml::Serialization {
   class XmlSerializerFactory : public ::Il2CppObject {
     public:
     // Get static field: static private System.Collections.Hashtable serializersBySource
-    static System::Collections::Hashtable* _get_serializersBySource();
+    static ::System::Collections::Hashtable* _get_serializersBySource();
     // Set static field: static private System.Collections.Hashtable serializersBySource
-    static void _set_serializersBySource(System::Collections::Hashtable* value);
+    static void _set_serializersBySource(::System::Collections::Hashtable* value);
     // static private System.Void .cctor()
     // Offset: 0x1613C44
     static void _cctor();
     // public System.Xml.Serialization.XmlSerializer CreateSerializer(System.Type type)
     // Offset: 0x16138C0
-    System::Xml::Serialization::XmlSerializer* CreateSerializer(System::Type* type);
+    ::System::Xml::Serialization::XmlSerializer* CreateSerializer(::System::Type* type);
     // public System.Xml.Serialization.XmlSerializer CreateSerializer(System.Type type, System.Xml.Serialization.XmlRootAttribute root)
     // Offset: 0x1613B18
-    System::Xml::Serialization::XmlSerializer* CreateSerializer(System::Type* type, System::Xml::Serialization::XmlRootAttribute* root);
+    ::System::Xml::Serialization::XmlSerializer* CreateSerializer(::System::Type* type, ::System::Xml::Serialization::XmlRootAttribute* root);
     // public System.Xml.Serialization.XmlSerializer CreateSerializer(System.Type type, System.Xml.Serialization.XmlAttributeOverrides overrides, System.Type[] extraTypes, System.Xml.Serialization.XmlRootAttribute root, System.String defaultNamespace)
     // Offset: 0x16138D4
-    System::Xml::Serialization::XmlSerializer* CreateSerializer(System::Type* type, System::Xml::Serialization::XmlAttributeOverrides* overrides, ::ArrayW<System::Type*> extraTypes, System::Xml::Serialization::XmlRootAttribute* root, ::StringW defaultNamespace);
+    ::System::Xml::Serialization::XmlSerializer* CreateSerializer(::System::Type* type, ::System::Xml::Serialization::XmlAttributeOverrides* overrides, ::ArrayW<::System::Type*> extraTypes, ::System::Xml::Serialization::XmlRootAttribute* root, ::StringW defaultNamespace);
     // public System.Void .ctor()
     // Offset: 0x16138B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlSerializerFactory* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Serialization::XmlSerializerFactory::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Serialization::XmlSerializerFactory::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlSerializerFactory*, creationType>()));
     }
   }; // System.Xml.Serialization.XmlSerializerFactory
@@ -89,7 +89,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlSerializerFactory::CreateSerializer
 // Il2CppName: CreateSerializer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Serialization::XmlSerializer* (System::Xml::Serialization::XmlSerializerFactory::*)(System::Type*)>(&System::Xml::Serialization::XmlSerializerFactory::CreateSerializer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlSerializer* (System::Xml::Serialization::XmlSerializerFactory::*)(::System::Type*)>(&System::Xml::Serialization::XmlSerializerFactory::CreateSerializer)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::XmlSerializerFactory*), "CreateSerializer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -98,7 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlSerializerFactory::CreateSerializer
 // Il2CppName: CreateSerializer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Serialization::XmlSerializer* (System::Xml::Serialization::XmlSerializerFactory::*)(System::Type*, System::Xml::Serialization::XmlRootAttribute*)>(&System::Xml::Serialization::XmlSerializerFactory::CreateSerializer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlSerializer* (System::Xml::Serialization::XmlSerializerFactory::*)(::System::Type*, ::System::Xml::Serialization::XmlRootAttribute*)>(&System::Xml::Serialization::XmlSerializerFactory::CreateSerializer)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* root = &::il2cpp_utils::GetClassFromName("System.Xml.Serialization", "XmlRootAttribute")->byval_arg;
@@ -108,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlSerializerFactory::CreateSerializer
 // Il2CppName: CreateSerializer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Serialization::XmlSerializer* (System::Xml::Serialization::XmlSerializerFactory::*)(System::Type*, System::Xml::Serialization::XmlAttributeOverrides*, ::ArrayW<System::Type*>, System::Xml::Serialization::XmlRootAttribute*, ::StringW)>(&System::Xml::Serialization::XmlSerializerFactory::CreateSerializer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlSerializer* (System::Xml::Serialization::XmlSerializerFactory::*)(::System::Type*, ::System::Xml::Serialization::XmlAttributeOverrides*, ::ArrayW<::System::Type*>, ::System::Xml::Serialization::XmlRootAttribute*, ::StringW)>(&System::Xml::Serialization::XmlSerializerFactory::CreateSerializer)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* overrides = &::il2cpp_utils::GetClassFromName("System.Xml.Serialization", "XmlAttributeOverrides")->byval_arg;

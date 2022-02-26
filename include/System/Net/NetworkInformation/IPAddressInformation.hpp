@@ -23,8 +23,8 @@ namespace System::Net::NetworkInformation {
   class IPAddressInformation;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::NetworkInformation::IPAddressInformation);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::IPAddressInformation*, "System.Net.NetworkInformation", "IPAddressInformation");
+NEED_NO_BOX(::System::Net::NetworkInformation::IPAddressInformation);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::IPAddressInformation*, "System.Net.NetworkInformation", "IPAddressInformation");
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {
   // Size: 0x10
@@ -35,14 +35,14 @@ namespace System::Net::NetworkInformation {
     public:
     // public System.Net.IPAddress get_Address()
     // Offset: 0xFFFFFFFF
-    System::Net::IPAddress* get_Address();
+    ::System::Net::IPAddress* get_Address();
     // protected System.Void .ctor()
     // Offset: 0x17A9E2C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IPAddressInformation* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::IPAddressInformation::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::NetworkInformation::IPAddressInformation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IPAddressInformation*, creationType>()));
     }
   }; // System.Net.NetworkInformation.IPAddressInformation
@@ -52,7 +52,7 @@ namespace System::Net::NetworkInformation {
 // Writing MetadataGetter for method: System::Net::NetworkInformation::IPAddressInformation::get_Address
 // Il2CppName: get_Address
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPAddress* (System::Net::NetworkInformation::IPAddressInformation::*)()>(&System::Net::NetworkInformation::IPAddressInformation::get_Address)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::IPAddress* (System::Net::NetworkInformation::IPAddressInformation::*)()>(&System::Net::NetworkInformation::IPAddressInformation::get_Address)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::IPAddressInformation*), "get_Address", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

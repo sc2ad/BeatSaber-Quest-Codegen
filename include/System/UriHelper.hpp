@@ -23,8 +23,8 @@ namespace System {
   class UriHelper;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::UriHelper);
-DEFINE_IL2CPP_ARG_TYPE(System::UriHelper*, "System", "UriHelper");
+NEED_NO_BOX(::System::UriHelper);
+DEFINE_IL2CPP_ARG_TYPE(::System::UriHelper*, "System", "UriHelper");
 // Type namespace: System
 namespace System {
   // Size: 0x10
@@ -48,10 +48,10 @@ namespace System {
     static ::ArrayW<::Il2CppChar> EnsureDestinationSize(::Il2CppChar* pStr, ::ArrayW<::Il2CppChar> dest, int currentInputPos, int16_t charsToAdd, int16_t minReallocateChars, ByRef<int> destPos, int prevInputPos);
     // static System.Char[] UnescapeString(System.String input, System.Int32 start, System.Int32 end, System.Char[] dest, ref System.Int32 destPosition, System.Char rsvd1, System.Char rsvd2, System.Char rsvd3, System.UnescapeMode unescapeMode, System.UriParser syntax, System.Boolean isQuery)
     // Offset: 0x242CC08
-    static ::ArrayW<::Il2CppChar> UnescapeString(::StringW input, int start, int end, ::ArrayW<::Il2CppChar> dest, ByRef<int> destPosition, ::Il2CppChar rsvd1, ::Il2CppChar rsvd2, ::Il2CppChar rsvd3, System::UnescapeMode unescapeMode, System::UriParser* syntax, bool isQuery);
+    static ::ArrayW<::Il2CppChar> UnescapeString(::StringW input, int start, int end, ::ArrayW<::Il2CppChar> dest, ByRef<int> destPosition, ::Il2CppChar rsvd1, ::Il2CppChar rsvd2, ::Il2CppChar rsvd3, ::System::UnescapeMode unescapeMode, ::System::UriParser* syntax, bool isQuery);
     // static System.Char[] UnescapeString(System.Char* pStr, System.Int32 start, System.Int32 end, System.Char[] dest, ref System.Int32 destPosition, System.Char rsvd1, System.Char rsvd2, System.Char rsvd3, System.UnescapeMode unescapeMode, System.UriParser syntax, System.Boolean isQuery)
     // Offset: 0x2434774
-    static ::ArrayW<::Il2CppChar> UnescapeString(::Il2CppChar* pStr, int start, int end, ::ArrayW<::Il2CppChar> dest, ByRef<int> destPosition, ::Il2CppChar rsvd1, ::Il2CppChar rsvd2, ::Il2CppChar rsvd3, System::UnescapeMode unescapeMode, System::UriParser* syntax, bool isQuery);
+    static ::ArrayW<::Il2CppChar> UnescapeString(::Il2CppChar* pStr, int start, int end, ::ArrayW<::Il2CppChar> dest, ByRef<int> destPosition, ::Il2CppChar rsvd1, ::Il2CppChar rsvd2, ::Il2CppChar rsvd3, ::System::UnescapeMode unescapeMode, ::System::UriParser* syntax, bool isQuery);
     // static System.Void MatchUTF8Sequence(System.Char* pDest, System.Char[] dest, ref System.Int32 destOffset, System.Char[] unescapedChars, System.Int32 charCount, System.Byte[] bytes, System.Int32 byteCount, System.Boolean isQuery, System.Boolean iriParsing)
     // Offset: 0x24381A8
     static void MatchUTF8Sequence(::Il2CppChar* pDest, ::ArrayW<::Il2CppChar> dest, ByRef<int> destOffset, ::ArrayW<::Il2CppChar> unescapedChars, int charCount, ::ArrayW<uint8_t> bytes, int byteCount, bool isQuery, bool iriParsing);
@@ -120,7 +120,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: System::UriHelper::UnescapeString
 // Il2CppName: UnescapeString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppChar> (*)(::StringW, int, int, ::ArrayW<::Il2CppChar>, ByRef<int>, ::Il2CppChar, ::Il2CppChar, ::Il2CppChar, System::UnescapeMode, System::UriParser*, bool)>(&System::UriHelper::UnescapeString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppChar> (*)(::StringW, int, int, ::ArrayW<::Il2CppChar>, ByRef<int>, ::Il2CppChar, ::Il2CppChar, ::Il2CppChar, ::System::UnescapeMode, ::System::UriParser*, bool)>(&System::UriHelper::UnescapeString)> {
   static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -139,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: System::UriHelper::UnescapeString
 // Il2CppName: UnescapeString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppChar> (*)(::Il2CppChar*, int, int, ::ArrayW<::Il2CppChar>, ByRef<int>, ::Il2CppChar, ::Il2CppChar, ::Il2CppChar, System::UnescapeMode, System::UriParser*, bool)>(&System::UriHelper::UnescapeString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppChar> (*)(::Il2CppChar*, int, int, ::ArrayW<::Il2CppChar>, ByRef<int>, ::Il2CppChar, ::Il2CppChar, ::Il2CppChar, ::System::UnescapeMode, ::System::UriParser*, bool)>(&System::UriHelper::UnescapeString)> {
   static const MethodInfo* get() {
     static auto* pStr = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

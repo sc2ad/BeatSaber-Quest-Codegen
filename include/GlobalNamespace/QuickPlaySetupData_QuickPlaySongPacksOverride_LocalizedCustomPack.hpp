@@ -23,8 +23,8 @@ namespace System::Collections::Generic {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPack);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPack*, "", "QuickPlaySetupData/QuickPlaySongPacksOverride/LocalizedCustomPack");
+NEED_NO_BOX(::GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPack);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPack*, "", "QuickPlaySetupData/QuickPlaySongPacksOverride/LocalizedCustomPack");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x30
@@ -59,36 +59,36 @@ namespace GlobalNamespace {
     // public QuickPlaySetupData/QuickPlaySongPacksOverride/LocalizedCustomPackName[] localizedNames
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayW<GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName*> localizedNames;
+    ::ArrayW<::GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName*> localizedNames;
     // Field size check
-    static_assert(sizeof(::ArrayW<GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName*>) == 0x8);
     // public System.Collections.Generic.List`1<System.String> packIds
     // Size: 0x8
     // Offset: 0x28
-    System::Collections::Generic::List_1<::StringW>* packIds;
+    ::System::Collections::Generic::List_1<::StringW>* packIds;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<::StringW>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::StringW>*) == 0x8);
     public:
     // Get instance field reference: public System.String serializedName
     ::StringW& dyn_serializedName();
     // Get instance field reference: public System.Int32 order
     int& dyn_order();
     // Get instance field reference: public QuickPlaySetupData/QuickPlaySongPacksOverride/LocalizedCustomPackName[] localizedNames
-    ::ArrayW<GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName*>& dyn_localizedNames();
+    ::ArrayW<::GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPackName*>& dyn_localizedNames();
     // Get instance field reference: public System.Collections.Generic.List`1<System.String> packIds
-    System::Collections::Generic::List_1<::StringW>*& dyn_packIds();
+    ::System::Collections::Generic::List_1<::StringW>*& dyn_packIds();
     // public System.Void .ctor()
     // Offset: 0x13EB79C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static QuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPack* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPack::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPack::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<QuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPack*, creationType>()));
     }
   }; // QuickPlaySetupData/QuickPlaySongPacksOverride/LocalizedCustomPack
   #pragma pack(pop)
-  static check_size<sizeof(QuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPack), 40 + sizeof(System::Collections::Generic::List_1<::StringW>*)> __GlobalNamespace_QuickPlaySetupData_QuickPlaySongPacksOverride_LocalizedCustomPackSizeCheck;
+  static check_size<sizeof(QuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPack), 40 + sizeof(::System::Collections::Generic::List_1<::StringW>*)> __GlobalNamespace_QuickPlaySetupData_QuickPlaySongPacksOverride_LocalizedCustomPackSizeCheck;
   static_assert(sizeof(QuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPack) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

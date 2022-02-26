@@ -27,7 +27,7 @@ namespace Zenject {
   class StaticMemoryPoolBase_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::StaticMemoryPoolBase_1, "Zenject", "StaticMemoryPoolBase`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Zenject::StaticMemoryPoolBase_1, "Zenject", "StaticMemoryPoolBase`1");
 // Type namespace: Zenject
 namespace Zenject {
   // WARNING Size may be invalid!
@@ -35,15 +35,15 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   template<typename TValue>
-  class StaticMemoryPoolBase_1 : public Zenject::StaticMemoryPoolBaseBase_1<TValue> {
+  class StaticMemoryPoolBase_1 : public ::Zenject::StaticMemoryPoolBaseBase_1<TValue> {
     public:
     // public System.Void .ctor(System.Action`1<TValue> onDespawnedMethod)
     // Offset: 0xFFFFFFFF
     // Implemented from: Zenject.StaticMemoryPoolBaseBase`1
     // Base method: System.Void StaticMemoryPoolBaseBase_1::.ctor(System.Action`1<TValue> onDespawnedMethod)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static StaticMemoryPoolBase_1<TValue>* New_ctor(System::Action_1<TValue>* onDespawnedMethod) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::StaticMemoryPoolBase_1::.ctor");
+    static StaticMemoryPoolBase_1<TValue>* New_ctor(::System::Action_1<TValue>* onDespawnedMethod) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::StaticMemoryPoolBase_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StaticMemoryPoolBase_1<TValue>*, creationType>(onDespawnedMethod)));
     }
     // protected override TValue Alloc()
@@ -51,7 +51,7 @@ namespace Zenject {
     // Implemented from: Zenject.StaticMemoryPoolBaseBase`1
     // Base method: TValue StaticMemoryPoolBaseBase_1::Alloc()
     TValue Alloc() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::StaticMemoryPoolBase_1::Alloc");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::StaticMemoryPoolBase_1::Alloc");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Alloc", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       return ::il2cpp_utils::RunMethodRethrow<TValue, false>(this, ___internal__method);
     }

@@ -22,8 +22,8 @@ namespace UnityEngine::UI {
   class IVertexModifier;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::UI::IVertexModifier);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::IVertexModifier*, "UnityEngine.UI", "IVertexModifier");
+NEED_NO_BOX(::UnityEngine::UI::IVertexModifier);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::IVertexModifier*, "UnityEngine.UI", "IVertexModifier");
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {
   // Size: 0x10
@@ -36,7 +36,7 @@ namespace UnityEngine::UI {
     public:
     // public System.Void ModifyVertices(System.Collections.Generic.List`1<UnityEngine.UIVertex> verts)
     // Offset: 0xFFFFFFFF
-    void ModifyVertices(System::Collections::Generic::List_1<UnityEngine::UIVertex>* verts);
+    void ModifyVertices(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* verts);
   }; // UnityEngine.UI.IVertexModifier
   #pragma pack(pop)
 }
@@ -44,7 +44,7 @@ namespace UnityEngine::UI {
 // Writing MetadataGetter for method: UnityEngine::UI::IVertexModifier::ModifyVertices
 // Il2CppName: ModifyVertices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::IVertexModifier::*)(System::Collections::Generic::List_1<UnityEngine::UIVertex>*)>(&UnityEngine::UI::IVertexModifier::ModifyVertices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::IVertexModifier::*)(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>*)>(&UnityEngine::UI::IVertexModifier::ModifyVertices)> {
   static const MethodInfo* get() {
     static auto* verts = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "UIVertex")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::IVertexModifier*), "ModifyVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{verts});

@@ -32,8 +32,8 @@ namespace Polyglot {
   class LocalizedTextMeshPro;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Polyglot::LocalizedTextMeshPro);
-DEFINE_IL2CPP_ARG_TYPE(Polyglot::LocalizedTextMeshPro*, "Polyglot", "LocalizedTextMeshPro");
+NEED_NO_BOX(::Polyglot::LocalizedTextMeshPro);
+DEFINE_IL2CPP_ARG_TYPE(::Polyglot::LocalizedTextMeshPro*, "Polyglot", "LocalizedTextMeshPro");
 // Type namespace: Polyglot
 namespace Polyglot {
   // WARNING Size may be invalid!
@@ -41,23 +41,23 @@ namespace Polyglot {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AddComponentMenu] Offset: 1210E1C
   // [RequireComponent] Offset: 1210E1C
-  class LocalizedTextMeshPro : public Polyglot::LocalizedTextComponent_1<TMPro::TextMeshPro*> {
+  class LocalizedTextMeshPro : public ::Polyglot::LocalizedTextComponent_1<::TMPro::TextMeshPro*> {
     public:
     // protected System.Void SetText(TMPro.TextMeshPro text, System.String value)
     // Offset: 0x2999AE4
-    void SetText(TMPro::TextMeshPro* text, ::StringW value);
+    void SetText(::TMPro::TextMeshPro* text, ::StringW value);
     // protected System.Void UpdateAlignment(TMPro.TextMeshPro text, Polyglot.LanguageDirection direction)
     // Offset: 0x2999B04
-    void UpdateAlignment(TMPro::TextMeshPro* text, Polyglot::LanguageDirection direction);
+    void UpdateAlignment(::TMPro::TextMeshPro* text, ::Polyglot::LanguageDirection direction);
     // private System.Boolean IsOppositeDirection(TMPro.TextAlignmentOptions alignment, Polyglot.LanguageDirection direction)
     // Offset: 0x2999BDC
-    bool IsOppositeDirection(TMPro::TextAlignmentOptions alignment, Polyglot::LanguageDirection direction);
+    bool IsOppositeDirection(::TMPro::TextAlignmentOptions alignment, ::Polyglot::LanguageDirection direction);
     // private System.Boolean IsAlignmentRight(TMPro.TextAlignmentOptions alignment)
     // Offset: 0x2999C34
-    bool IsAlignmentRight(TMPro::TextAlignmentOptions alignment);
+    bool IsAlignmentRight(::TMPro::TextAlignmentOptions alignment);
     // private System.Boolean IsAlignmentLeft(TMPro.TextAlignmentOptions alignment)
     // Offset: 0x2999C5C
-    bool IsAlignmentLeft(TMPro::TextAlignmentOptions alignment);
+    bool IsAlignmentLeft(::TMPro::TextAlignmentOptions alignment);
     // public System.Void .ctor()
     // Offset: 0x2999C84
     // Implemented from: Polyglot.LocalizedTextComponent`1
@@ -69,7 +69,7 @@ namespace Polyglot {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalizedTextMeshPro* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Polyglot::LocalizedTextMeshPro::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Polyglot::LocalizedTextMeshPro::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalizedTextMeshPro*, creationType>()));
     }
   }; // Polyglot.LocalizedTextMeshPro
@@ -78,7 +78,7 @@ namespace Polyglot {
 // Writing MetadataGetter for method: Polyglot::LocalizedTextMeshPro::SetText
 // Il2CppName: SetText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyglot::LocalizedTextMeshPro::*)(TMPro::TextMeshPro*, ::StringW)>(&Polyglot::LocalizedTextMeshPro::SetText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyglot::LocalizedTextMeshPro::*)(::TMPro::TextMeshPro*, ::StringW)>(&Polyglot::LocalizedTextMeshPro::SetText)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("TMPro", "TextMeshPro")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -88,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyg
 // Writing MetadataGetter for method: Polyglot::LocalizedTextMeshPro::UpdateAlignment
 // Il2CppName: UpdateAlignment
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyglot::LocalizedTextMeshPro::*)(TMPro::TextMeshPro*, Polyglot::LanguageDirection)>(&Polyglot::LocalizedTextMeshPro::UpdateAlignment)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyglot::LocalizedTextMeshPro::*)(::TMPro::TextMeshPro*, ::Polyglot::LanguageDirection)>(&Polyglot::LocalizedTextMeshPro::UpdateAlignment)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("TMPro", "TextMeshPro")->byval_arg;
     static auto* direction = &::il2cpp_utils::GetClassFromName("Polyglot", "LanguageDirection")->byval_arg;
@@ -98,7 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyg
 // Writing MetadataGetter for method: Polyglot::LocalizedTextMeshPro::IsOppositeDirection
 // Il2CppName: IsOppositeDirection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Polyglot::LocalizedTextMeshPro::*)(TMPro::TextAlignmentOptions, Polyglot::LanguageDirection)>(&Polyglot::LocalizedTextMeshPro::IsOppositeDirection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Polyglot::LocalizedTextMeshPro::*)(::TMPro::TextAlignmentOptions, ::Polyglot::LanguageDirection)>(&Polyglot::LocalizedTextMeshPro::IsOppositeDirection)> {
   static const MethodInfo* get() {
     static auto* alignment = &::il2cpp_utils::GetClassFromName("TMPro", "TextAlignmentOptions")->byval_arg;
     static auto* direction = &::il2cpp_utils::GetClassFromName("Polyglot", "LanguageDirection")->byval_arg;
@@ -108,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Polyg
 // Writing MetadataGetter for method: Polyglot::LocalizedTextMeshPro::IsAlignmentRight
 // Il2CppName: IsAlignmentRight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Polyglot::LocalizedTextMeshPro::*)(TMPro::TextAlignmentOptions)>(&Polyglot::LocalizedTextMeshPro::IsAlignmentRight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Polyglot::LocalizedTextMeshPro::*)(::TMPro::TextAlignmentOptions)>(&Polyglot::LocalizedTextMeshPro::IsAlignmentRight)> {
   static const MethodInfo* get() {
     static auto* alignment = &::il2cpp_utils::GetClassFromName("TMPro", "TextAlignmentOptions")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizedTextMeshPro*), "IsAlignmentRight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{alignment});
@@ -117,7 +117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Polyg
 // Writing MetadataGetter for method: Polyglot::LocalizedTextMeshPro::IsAlignmentLeft
 // Il2CppName: IsAlignmentLeft
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Polyglot::LocalizedTextMeshPro::*)(TMPro::TextAlignmentOptions)>(&Polyglot::LocalizedTextMeshPro::IsAlignmentLeft)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Polyglot::LocalizedTextMeshPro::*)(::TMPro::TextAlignmentOptions)>(&Polyglot::LocalizedTextMeshPro::IsAlignmentLeft)> {
   static const MethodInfo* get() {
     static auto* alignment = &::il2cpp_utils::GetClassFromName("TMPro", "TextAlignmentOptions")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizedTextMeshPro*), "IsAlignmentLeft", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{alignment});

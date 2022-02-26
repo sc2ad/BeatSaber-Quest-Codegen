@@ -23,8 +23,8 @@ namespace Zenject {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::DisposableManager::LateDisposableInfo);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposableManager::LateDisposableInfo*, "Zenject", "DisposableManager/LateDisposableInfo");
+NEED_NO_BOX(::Zenject::DisposableManager::LateDisposableInfo);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::DisposableManager::LateDisposableInfo*, "Zenject", "DisposableManager/LateDisposableInfo");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x1C
@@ -45,9 +45,9 @@ namespace Zenject {
     // public Zenject.ILateDisposable LateDisposable
     // Size: 0x8
     // Offset: 0x10
-    Zenject::ILateDisposable* LateDisposable;
+    ::Zenject::ILateDisposable* LateDisposable;
     // Field size check
-    static_assert(sizeof(Zenject::ILateDisposable*) == 0x8);
+    static_assert(sizeof(::Zenject::ILateDisposable*) == 0x8);
     // public System.Int32 Priority
     // Size: 0x4
     // Offset: 0x18
@@ -56,14 +56,14 @@ namespace Zenject {
     static_assert(sizeof(int) == 0x4);
     public:
     // Get instance field reference: public Zenject.ILateDisposable LateDisposable
-    Zenject::ILateDisposable*& dyn_LateDisposable();
+    ::Zenject::ILateDisposable*& dyn_LateDisposable();
     // Get instance field reference: public System.Int32 Priority
     int& dyn_Priority();
     // public System.Void .ctor(Zenject.ILateDisposable lateDisposable, System.Int32 priority)
     // Offset: 0x1D27E58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DisposableManager::LateDisposableInfo* New_ctor(Zenject::ILateDisposable* lateDisposable, int priority) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DisposableManager::LateDisposableInfo::.ctor");
+    static DisposableManager::LateDisposableInfo* New_ctor(::Zenject::ILateDisposable* lateDisposable, int priority) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposableManager::LateDisposableInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DisposableManager::LateDisposableInfo*, creationType>(lateDisposable, priority)));
     }
     // static private System.Object __zenCreate(System.Object[] P_0)
@@ -71,7 +71,7 @@ namespace Zenject {
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
     // Offset: 0x1D297F0
-    static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.DisposableManager/Zenject.LateDisposableInfo
   #pragma pack(pop)
   static check_size<sizeof(DisposableManager::LateDisposableInfo), 24 + sizeof(int)> __Zenject_DisposableManager_LateDisposableInfoSizeCheck;
@@ -94,7 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: Zenject::DisposableManager::LateDisposableInfo::__zenCreateInjectTypeInfo
 // Il2CppName: __zenCreateInjectTypeInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (*)()>(&Zenject::DisposableManager::LateDisposableInfo::__zenCreateInjectTypeInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&Zenject::DisposableManager::LateDisposableInfo::__zenCreateInjectTypeInfo)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::DisposableManager::LateDisposableInfo*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -34,8 +34,8 @@ namespace Tweening {
   class Tween;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Tweening::Tween);
-DEFINE_IL2CPP_ARG_TYPE(Tweening::Tween*, "Tweening", "Tween");
+NEED_NO_BOX(::Tweening::Tween);
+DEFINE_IL2CPP_ARG_TYPE(::Tweening::Tween*, "Tweening", "Tween");
 // Type namespace: Tweening
 namespace Tweening {
   // Size: 0x58
@@ -90,21 +90,21 @@ namespace Tweening {
     // public System.Action onStart
     // Size: 0x8
     // Offset: 0x28
-    System::Action* onStart;
+    ::System::Action* onStart;
     // Field size check
-    static_assert(sizeof(System::Action*) == 0x8);
+    static_assert(sizeof(::System::Action*) == 0x8);
     // public System.Action onCompleted
     // Size: 0x8
     // Offset: 0x30
-    System::Action* onCompleted;
+    ::System::Action* onCompleted;
     // Field size check
-    static_assert(sizeof(System::Action*) == 0x8);
+    static_assert(sizeof(::System::Action*) == 0x8);
     // public System.Action onKilled
     // Size: 0x8
     // Offset: 0x38
-    System::Action* onKilled;
+    ::System::Action* onKilled;
     // Field size check
-    static_assert(sizeof(System::Action*) == 0x8);
+    static_assert(sizeof(::System::Action*) == 0x8);
     // private System.Boolean <isStarted>k__BackingField
     // Size: 0x1
     // Offset: 0x40
@@ -122,23 +122,23 @@ namespace Tweening {
     // private Tweening.InterpolationType <interpolationType>k__BackingField
     // Size: 0x4
     // Offset: 0x44
-    Tweening::InterpolationType interpolationType;
+    ::Tweening::InterpolationType interpolationType;
     // Field size check
-    static_assert(sizeof(Tweening::InterpolationType) == 0x4);
+    static_assert(sizeof(::Tweening::InterpolationType) == 0x4);
     // private Tweening.EaseType <easeType>k__BackingField
     // Size: 0x4
     // Offset: 0x48
-    Tweening::EaseType easeType;
+    ::Tweening::EaseType easeType;
     // Field size check
-    static_assert(sizeof(Tweening::EaseType) == 0x4);
+    static_assert(sizeof(::Tweening::EaseType) == 0x4);
     // Padding between fields: easeType and: animationCurve
     char __padding11[0x4] = {};
     // private UnityEngine.AnimationCurve <animationCurve>k__BackingField
     // Size: 0x8
     // Offset: 0x50
-    UnityEngine::AnimationCurve* animationCurve;
+    ::UnityEngine::AnimationCurve* animationCurve;
     // Field size check
-    static_assert(sizeof(UnityEngine::AnimationCurve*) == 0x8);
+    static_assert(sizeof(::UnityEngine::AnimationCurve*) == 0x8);
     public:
     // static field const value: static protected System.Single kEpsilon
     static constexpr const float kEpsilon = 0.001;
@@ -157,21 +157,21 @@ namespace Tweening {
     // Get instance field reference: private System.Single <delay>k__BackingField
     float& dyn_$delay$k__BackingField();
     // Get instance field reference: public System.Action onStart
-    System::Action*& dyn_onStart();
+    ::System::Action*& dyn_onStart();
     // Get instance field reference: public System.Action onCompleted
-    System::Action*& dyn_onCompleted();
+    ::System::Action*& dyn_onCompleted();
     // Get instance field reference: public System.Action onKilled
-    System::Action*& dyn_onKilled();
+    ::System::Action*& dyn_onKilled();
     // Get instance field reference: private System.Boolean <isStarted>k__BackingField
     bool& dyn_$isStarted$k__BackingField();
     // Get instance field reference: private System.Boolean <isKilled>k__BackingField
     bool& dyn_$isKilled$k__BackingField();
     // Get instance field reference: private Tweening.InterpolationType <interpolationType>k__BackingField
-    Tweening::InterpolationType& dyn_$interpolationType$k__BackingField();
+    ::Tweening::InterpolationType& dyn_$interpolationType$k__BackingField();
     // Get instance field reference: private Tweening.EaseType <easeType>k__BackingField
-    Tweening::EaseType& dyn_$easeType$k__BackingField();
+    ::Tweening::EaseType& dyn_$easeType$k__BackingField();
     // Get instance field reference: private UnityEngine.AnimationCurve <animationCurve>k__BackingField
-    UnityEngine::AnimationCurve*& dyn_$animationCurve$k__BackingField();
+    ::UnityEngine::AnimationCurve*& dyn_$animationCurve$k__BackingField();
     // public System.Single get_progress()
     // Offset: 0x2AEF684
     float get_progress();
@@ -222,22 +222,22 @@ namespace Tweening {
     void set_isKilled(bool value);
     // public Tweening.InterpolationType get_interpolationType()
     // Offset: 0x2AEF738
-    Tweening::InterpolationType get_interpolationType();
+    ::Tweening::InterpolationType get_interpolationType();
     // protected System.Void set_interpolationType(Tweening.InterpolationType value)
     // Offset: 0x2AEF740
-    void set_interpolationType(Tweening::InterpolationType value);
+    void set_interpolationType(::Tweening::InterpolationType value);
     // public Tweening.EaseType get_easeType()
     // Offset: 0x2AEF748
-    Tweening::EaseType get_easeType();
+    ::Tweening::EaseType get_easeType();
     // public System.Void set_easeType(Tweening.EaseType value)
     // Offset: 0x2AEF750
-    void set_easeType(Tweening::EaseType value);
+    void set_easeType(::Tweening::EaseType value);
     // public UnityEngine.AnimationCurve get_animationCurve()
     // Offset: 0x2AEF758
-    UnityEngine::AnimationCurve* get_animationCurve();
+    ::UnityEngine::AnimationCurve* get_animationCurve();
     // protected System.Void set_animationCurve(UnityEngine.AnimationCurve value)
     // Offset: 0x2AEF760
-    void set_animationCurve(UnityEngine::AnimationCurve* value);
+    void set_animationCurve(::UnityEngine::AnimationCurve* value);
     // public System.Void Kill()
     // Offset: 0x2AEF768
     void Kill();
@@ -265,12 +265,12 @@ namespace Tweening {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Tween* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Tweening::Tween::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Tweening::Tween::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Tween*, creationType>()));
     }
   }; // Tweening.Tween
   #pragma pack(pop)
-  static check_size<sizeof(Tween), 80 + sizeof(UnityEngine::AnimationCurve*)> __Tweening_TweenSizeCheck;
+  static check_size<sizeof(Tween), 80 + sizeof(::UnityEngine::AnimationCurve*)> __Tweening_TweenSizeCheck;
   static_assert(sizeof(Tween) == 0x58);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -412,7 +412,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tween
 // Writing MetadataGetter for method: Tweening::Tween::get_interpolationType
 // Il2CppName: get_interpolationType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Tweening::InterpolationType (Tweening::Tween::*)()>(&Tweening::Tween::get_interpolationType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Tweening::InterpolationType (Tweening::Tween::*)()>(&Tweening::Tween::get_interpolationType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Tweening::Tween*), "get_interpolationType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -420,7 +420,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Tweening::I
 // Writing MetadataGetter for method: Tweening::Tween::set_interpolationType
 // Il2CppName: set_interpolationType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tweening::Tween::*)(Tweening::InterpolationType)>(&Tweening::Tween::set_interpolationType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tweening::Tween::*)(::Tweening::InterpolationType)>(&Tweening::Tween::set_interpolationType)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("Tweening", "InterpolationType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Tweening::Tween*), "set_interpolationType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -429,7 +429,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tween
 // Writing MetadataGetter for method: Tweening::Tween::get_easeType
 // Il2CppName: get_easeType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Tweening::EaseType (Tweening::Tween::*)()>(&Tweening::Tween::get_easeType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Tweening::EaseType (Tweening::Tween::*)()>(&Tweening::Tween::get_easeType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Tweening::Tween*), "get_easeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -437,7 +437,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Tweening::E
 // Writing MetadataGetter for method: Tweening::Tween::set_easeType
 // Il2CppName: set_easeType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tweening::Tween::*)(Tweening::EaseType)>(&Tweening::Tween::set_easeType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tweening::Tween::*)(::Tweening::EaseType)>(&Tweening::Tween::set_easeType)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("Tweening", "EaseType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Tweening::Tween*), "set_easeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -446,7 +446,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tween
 // Writing MetadataGetter for method: Tweening::Tween::get_animationCurve
 // Il2CppName: get_animationCurve
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimationCurve* (Tweening::Tween::*)()>(&Tweening::Tween::get_animationCurve)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AnimationCurve* (Tweening::Tween::*)()>(&Tweening::Tween::get_animationCurve)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Tweening::Tween*), "get_animationCurve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -454,7 +454,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: Tweening::Tween::set_animationCurve
 // Il2CppName: set_animationCurve
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tweening::Tween::*)(UnityEngine::AnimationCurve*)>(&Tweening::Tween::set_animationCurve)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tweening::Tween::*)(::UnityEngine::AnimationCurve*)>(&Tweening::Tween::set_animationCurve)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationCurve")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Tweening::Tween*), "set_animationCurve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

@@ -31,8 +31,8 @@ namespace UnityEngine::TestTools {
   class TestEnumerator;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::TestTools::TestEnumerator);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestEnumerator*, "UnityEngine.TestTools", "TestEnumerator");
+NEED_NO_BOX(::UnityEngine::TestTools::TestEnumerator);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TestTools::TestEnumerator*, "UnityEngine.TestTools", "TestEnumerator");
 // Type namespace: UnityEngine.TestTools
 namespace UnityEngine::TestTools {
   // Size: 0x18
@@ -41,7 +41,7 @@ namespace UnityEngine::TestTools {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestEnumerator : public ::Il2CppObject {
     public:
-    // Nested type: UnityEngine::TestTools::TestEnumerator::$Execute$d__6
+    // Nested type: ::UnityEngine::TestTools::TestEnumerator::$Execute$d__6
     class $Execute$d__6;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -55,33 +55,33 @@ namespace UnityEngine::TestTools {
     // private readonly NUnit.Framework.Internal.ITestExecutionContext m_Context
     // Size: 0x8
     // Offset: 0x10
-    NUnit::Framework::Internal::ITestExecutionContext* m_Context;
+    ::NUnit::Framework::Internal::ITestExecutionContext* m_Context;
     // Field size check
-    static_assert(sizeof(NUnit::Framework::Internal::ITestExecutionContext*) == 0x8);
+    static_assert(sizeof(::NUnit::Framework::Internal::ITestExecutionContext*) == 0x8);
     public:
-    // Creating conversion operator: operator NUnit::Framework::Internal::ITestExecutionContext*
-    constexpr operator NUnit::Framework::Internal::ITestExecutionContext*() const noexcept {
+    // Creating conversion operator: operator ::NUnit::Framework::Internal::ITestExecutionContext*
+    constexpr operator ::NUnit::Framework::Internal::ITestExecutionContext*() const noexcept {
       return m_Context;
     }
     // Get static field: static private System.Collections.IEnumerator m_TestEnumerator
-    static System::Collections::IEnumerator* _get_m_TestEnumerator();
+    static ::System::Collections::IEnumerator* _get_m_TestEnumerator();
     // Set static field: static private System.Collections.IEnumerator m_TestEnumerator
-    static void _set_m_TestEnumerator(System::Collections::IEnumerator* value);
+    static void _set_m_TestEnumerator(::System::Collections::IEnumerator* value);
     // Get instance field reference: private readonly NUnit.Framework.Internal.ITestExecutionContext m_Context
-    NUnit::Framework::Internal::ITestExecutionContext*& dyn_m_Context();
+    ::NUnit::Framework::Internal::ITestExecutionContext*& dyn_m_Context();
     // public System.Void .ctor(NUnit.Framework.Internal.ITestExecutionContext context, System.Collections.IEnumerator testEnumerator)
     // Offset: 0x18D8278
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TestEnumerator* New_ctor(NUnit::Framework::Internal::ITestExecutionContext* context, System::Collections::IEnumerator* testEnumerator) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::TestEnumerator::.ctor");
+    static TestEnumerator* New_ctor(::NUnit::Framework::Internal::ITestExecutionContext* context, ::System::Collections::IEnumerator* testEnumerator) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::TestEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestEnumerator*, creationType>(context, testEnumerator)));
     }
     // public System.Collections.IEnumerator Execute()
     // Offset: 0x18D82EC
-    System::Collections::IEnumerator* Execute();
+    ::System::Collections::IEnumerator* Execute();
   }; // UnityEngine.TestTools.TestEnumerator
   #pragma pack(pop)
-  static check_size<sizeof(TestEnumerator), 16 + sizeof(NUnit::Framework::Internal::ITestExecutionContext*)> __UnityEngine_TestTools_TestEnumeratorSizeCheck;
+  static check_size<sizeof(TestEnumerator), 16 + sizeof(::NUnit::Framework::Internal::ITestExecutionContext*)> __UnityEngine_TestTools_TestEnumeratorSizeCheck;
   static_assert(sizeof(TestEnumerator) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -92,7 +92,7 @@ namespace UnityEngine::TestTools {
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestEnumerator::Execute
 // Il2CppName: Execute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (UnityEngine::TestTools::TestEnumerator::*)()>(&UnityEngine::TestTools::TestEnumerator::Execute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (UnityEngine::TestTools::TestEnumerator::*)()>(&UnityEngine::TestTools::TestEnumerator::Execute)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestEnumerator*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

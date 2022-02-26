@@ -23,8 +23,8 @@ namespace UnityEngine::Sprites {
   class DataUtility;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Sprites::DataUtility);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Sprites::DataUtility*, "UnityEngine.Sprites", "DataUtility");
+NEED_NO_BOX(::UnityEngine::Sprites::DataUtility);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Sprites::DataUtility*, "UnityEngine.Sprites", "DataUtility");
 // Type namespace: UnityEngine.Sprites
 namespace UnityEngine::Sprites {
   // Size: 0x10
@@ -35,16 +35,16 @@ namespace UnityEngine::Sprites {
     public:
     // static public UnityEngine.Vector4 GetInnerUV(UnityEngine.Sprite sprite)
     // Offset: 0x26F6828
-    static UnityEngine::Vector4 GetInnerUV(UnityEngine::Sprite* sprite);
+    static ::UnityEngine::Vector4 GetInnerUV(::UnityEngine::Sprite* sprite);
     // static public UnityEngine.Vector4 GetOuterUV(UnityEngine.Sprite sprite)
     // Offset: 0x26F683C
-    static UnityEngine::Vector4 GetOuterUV(UnityEngine::Sprite* sprite);
+    static ::UnityEngine::Vector4 GetOuterUV(::UnityEngine::Sprite* sprite);
     // static public UnityEngine.Vector4 GetPadding(UnityEngine.Sprite sprite)
     // Offset: 0x26F6850
-    static UnityEngine::Vector4 GetPadding(UnityEngine::Sprite* sprite);
+    static ::UnityEngine::Vector4 GetPadding(::UnityEngine::Sprite* sprite);
     // static public UnityEngine.Vector2 GetMinSize(UnityEngine.Sprite sprite)
     // Offset: 0x26F6864
-    static UnityEngine::Vector2 GetMinSize(UnityEngine::Sprite* sprite);
+    static ::UnityEngine::Vector2 GetMinSize(::UnityEngine::Sprite* sprite);
   }; // UnityEngine.Sprites.DataUtility
   #pragma pack(pop)
 }
@@ -52,7 +52,7 @@ namespace UnityEngine::Sprites {
 // Writing MetadataGetter for method: UnityEngine::Sprites::DataUtility::GetInnerUV
 // Il2CppName: GetInnerUV
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (*)(UnityEngine::Sprite*)>(&UnityEngine::Sprites::DataUtility::GetInnerUV)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (*)(::UnityEngine::Sprite*)>(&UnityEngine::Sprites::DataUtility::GetInnerUV)> {
   static const MethodInfo* get() {
     static auto* sprite = &::il2cpp_utils::GetClassFromName("UnityEngine", "Sprite")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Sprites::DataUtility*), "GetInnerUV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sprite});
@@ -61,7 +61,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Sprites::DataUtility::GetOuterUV
 // Il2CppName: GetOuterUV
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (*)(UnityEngine::Sprite*)>(&UnityEngine::Sprites::DataUtility::GetOuterUV)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (*)(::UnityEngine::Sprite*)>(&UnityEngine::Sprites::DataUtility::GetOuterUV)> {
   static const MethodInfo* get() {
     static auto* sprite = &::il2cpp_utils::GetClassFromName("UnityEngine", "Sprite")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Sprites::DataUtility*), "GetOuterUV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sprite});
@@ -70,7 +70,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Sprites::DataUtility::GetPadding
 // Il2CppName: GetPadding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (*)(UnityEngine::Sprite*)>(&UnityEngine::Sprites::DataUtility::GetPadding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (*)(::UnityEngine::Sprite*)>(&UnityEngine::Sprites::DataUtility::GetPadding)> {
   static const MethodInfo* get() {
     static auto* sprite = &::il2cpp_utils::GetClassFromName("UnityEngine", "Sprite")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Sprites::DataUtility*), "GetPadding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sprite});
@@ -79,7 +79,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Sprites::DataUtility::GetMinSize
 // Il2CppName: GetMinSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(UnityEngine::Sprite*)>(&UnityEngine::Sprites::DataUtility::GetMinSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::Sprite*)>(&UnityEngine::Sprites::DataUtility::GetMinSize)> {
   static const MethodInfo* get() {
     static auto* sprite = &::il2cpp_utils::GetClassFromName("UnityEngine", "Sprite")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Sprites::DataUtility*), "GetMinSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sprite});

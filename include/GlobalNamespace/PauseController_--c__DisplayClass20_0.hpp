@@ -13,8 +13,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PauseController::$$c__DisplayClass20_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PauseController::$$c__DisplayClass20_0*, "", "PauseController/<>c__DisplayClass20_0");
+NEED_NO_BOX(::GlobalNamespace::PauseController::$$c__DisplayClass20_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PauseController::$$c__DisplayClass20_0*, "", "PauseController/<>c__DisplayClass20_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x11
@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PauseController::$$c__DisplayClass20_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PauseController::$$c__DisplayClass20_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PauseController::$$c__DisplayClass20_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PauseController::$$c__DisplayClass20_0*, creationType>()));
     }
   }; // PauseController/<>c__DisplayClass20_0

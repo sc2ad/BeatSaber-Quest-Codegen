@@ -30,8 +30,8 @@ namespace System::Xml::XPath {
   class XPathDocument;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::XPath::XPathDocument);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::XPath::XPathDocument*, "System.Xml.XPath", "XPathDocument");
+NEED_NO_BOX(::System::Xml::XPath::XPathDocument);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XPath::XPathDocument*, "System.Xml.XPath", "XPathDocument");
 // Type namespace: System.Xml.XPath
 namespace System::Xml::XPath {
   // Size: 0x38
@@ -52,9 +52,9 @@ namespace System::Xml::XPath {
     // private MS.Internal.Xml.Cache.XPathNode[] pageXmlNmsp
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<MS::Internal::Xml::Cache::XPathNode> pageXmlNmsp;
+    ::ArrayW<::MS::Internal::Xml::Cache::XPathNode> pageXmlNmsp;
     // Field size check
-    static_assert(sizeof(::ArrayW<MS::Internal::Xml::Cache::XPathNode>) == 0x8);
+    static_assert(sizeof(::ArrayW<::MS::Internal::Xml::Cache::XPathNode>) == 0x8);
     // private System.Int32 idxXmlNmsp
     // Size: 0x4
     // Offset: 0x18
@@ -66,9 +66,9 @@ namespace System::Xml::XPath {
     // private System.Xml.XmlNameTable nameTable
     // Size: 0x8
     // Offset: 0x20
-    System::Xml::XmlNameTable* nameTable;
+    ::System::Xml::XmlNameTable* nameTable;
     // Field size check
-    static_assert(sizeof(System::Xml::XmlNameTable*) == 0x8);
+    static_assert(sizeof(::System::Xml::XmlNameTable*) == 0x8);
     // private System.Boolean hasLineInfo
     // Size: 0x1
     // Offset: 0x28
@@ -80,42 +80,42 @@ namespace System::Xml::XPath {
     // private System.Collections.Generic.Dictionary`2<MS.Internal.Xml.Cache.XPathNodeRef,MS.Internal.Xml.Cache.XPathNodeRef> mapNmsp
     // Size: 0x8
     // Offset: 0x30
-    System::Collections::Generic::Dictionary_2<MS::Internal::Xml::Cache::XPathNodeRef, MS::Internal::Xml::Cache::XPathNodeRef>* mapNmsp;
+    ::System::Collections::Generic::Dictionary_2<::MS::Internal::Xml::Cache::XPathNodeRef, ::MS::Internal::Xml::Cache::XPathNodeRef>* mapNmsp;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<MS::Internal::Xml::Cache::XPathNodeRef, MS::Internal::Xml::Cache::XPathNodeRef>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::Dictionary_2<::MS::Internal::Xml::Cache::XPathNodeRef, ::MS::Internal::Xml::Cache::XPathNodeRef>*) == 0x8);
     public:
     // Get instance field reference: private MS.Internal.Xml.Cache.XPathNode[] pageXmlNmsp
-    ::ArrayW<MS::Internal::Xml::Cache::XPathNode>& dyn_pageXmlNmsp();
+    ::ArrayW<::MS::Internal::Xml::Cache::XPathNode>& dyn_pageXmlNmsp();
     // Get instance field reference: private System.Int32 idxXmlNmsp
     int& dyn_idxXmlNmsp();
     // Get instance field reference: private System.Xml.XmlNameTable nameTable
-    System::Xml::XmlNameTable*& dyn_nameTable();
+    ::System::Xml::XmlNameTable*& dyn_nameTable();
     // Get instance field reference: private System.Boolean hasLineInfo
     bool& dyn_hasLineInfo();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<MS.Internal.Xml.Cache.XPathNodeRef,MS.Internal.Xml.Cache.XPathNodeRef> mapNmsp
-    System::Collections::Generic::Dictionary_2<MS::Internal::Xml::Cache::XPathNodeRef, MS::Internal::Xml::Cache::XPathNodeRef>*& dyn_mapNmsp();
+    ::System::Collections::Generic::Dictionary_2<::MS::Internal::Xml::Cache::XPathNodeRef, ::MS::Internal::Xml::Cache::XPathNodeRef>*& dyn_mapNmsp();
     // System.Xml.XmlNameTable get_NameTable()
     // Offset: 0x161A244
-    System::Xml::XmlNameTable* get_NameTable();
+    ::System::Xml::XmlNameTable* get_NameTable();
     // System.Boolean get_HasLineInfo()
     // Offset: 0x161A24C
     bool get_HasLineInfo();
     // System.Int32 GetXmlNamespaceNode(out MS.Internal.Xml.Cache.XPathNode[] pageXmlNmsp)
     // Offset: 0x161A254
-    int GetXmlNamespaceNode(ByRef<::ArrayW<MS::Internal::Xml::Cache::XPathNode>> pageXmlNmsp);
+    int GetXmlNamespaceNode(ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode>> pageXmlNmsp);
     // System.Int32 LookupNamespaces(MS.Internal.Xml.Cache.XPathNode[] pageElem, System.Int32 idxElem, out MS.Internal.Xml.Cache.XPathNode[] pageNmsp)
     // Offset: 0x161A264
-    int LookupNamespaces(::ArrayW<MS::Internal::Xml::Cache::XPathNode> pageElem, int idxElem, ByRef<::ArrayW<MS::Internal::Xml::Cache::XPathNode>> pageNmsp);
+    int LookupNamespaces(::ArrayW<::MS::Internal::Xml::Cache::XPathNode> pageElem, int idxElem, ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode>> pageNmsp);
   }; // System.Xml.XPath.XPathDocument
   #pragma pack(pop)
-  static check_size<sizeof(XPathDocument), 48 + sizeof(System::Collections::Generic::Dictionary_2<MS::Internal::Xml::Cache::XPathNodeRef, MS::Internal::Xml::Cache::XPathNodeRef>*)> __System_Xml_XPath_XPathDocumentSizeCheck;
+  static check_size<sizeof(XPathDocument), 48 + sizeof(::System::Collections::Generic::Dictionary_2<::MS::Internal::Xml::Cache::XPathNodeRef, ::MS::Internal::Xml::Cache::XPathNodeRef>*)> __System_Xml_XPath_XPathDocumentSizeCheck;
   static_assert(sizeof(XPathDocument) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::XPath::XPathDocument::get_NameTable
 // Il2CppName: get_NameTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlNameTable* (System::Xml::XPath::XPathDocument::*)()>(&System::Xml::XPath::XPathDocument::get_NameTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNameTable* (System::Xml::XPath::XPathDocument::*)()>(&System::Xml::XPath::XPathDocument::get_NameTable)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XPath::XPathDocument*), "get_NameTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -131,7 +131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Xml::XPath::XPathDocument::GetXmlNamespaceNode
 // Il2CppName: GetXmlNamespaceNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Xml::XPath::XPathDocument::*)(ByRef<::ArrayW<MS::Internal::Xml::Cache::XPathNode>>)>(&System::Xml::XPath::XPathDocument::GetXmlNamespaceNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Xml::XPath::XPathDocument::*)(ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode>>)>(&System::Xml::XPath::XPathDocument::GetXmlNamespaceNode)> {
   static const MethodInfo* get() {
     static auto* pageXmlNmsp = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("MS.Internal.Xml.Cache", "XPathNode"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XPath::XPathDocument*), "GetXmlNamespaceNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pageXmlNmsp});
@@ -140,7 +140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Xml::XPath::XPathDocument::LookupNamespaces
 // Il2CppName: LookupNamespaces
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Xml::XPath::XPathDocument::*)(::ArrayW<MS::Internal::Xml::Cache::XPathNode>, int, ByRef<::ArrayW<MS::Internal::Xml::Cache::XPathNode>>)>(&System::Xml::XPath::XPathDocument::LookupNamespaces)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Xml::XPath::XPathDocument::*)(::ArrayW<::MS::Internal::Xml::Cache::XPathNode>, int, ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode>>)>(&System::Xml::XPath::XPathDocument::LookupNamespaces)> {
   static const MethodInfo* get() {
     static auto* pageElem = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("MS.Internal.Xml.Cache", "XPathNode"), 1)->byval_arg;
     static auto* idxElem = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

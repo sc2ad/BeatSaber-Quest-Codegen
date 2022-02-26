@@ -21,8 +21,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::LocalizedTextAsset::$$c);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalizedTextAsset::$$c*, "", "LocalizedTextAsset/<>c");
+NEED_NO_BOX(::GlobalNamespace::LocalizedTextAsset::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LocalizedTextAsset::$$c*, "", "LocalizedTextAsset/<>c");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -33,26 +33,26 @@ namespace GlobalNamespace {
   class LocalizedTextAsset::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly LocalizedTextAsset/<>c <>9
-    static GlobalNamespace::LocalizedTextAsset::$$c* _get_$$9();
+    static ::GlobalNamespace::LocalizedTextAsset::$$c* _get_$$9();
     // Set static field: static public readonly LocalizedTextAsset/<>c <>9
-    static void _set_$$9(GlobalNamespace::LocalizedTextAsset::$$c* value);
+    static void _set_$$9(::GlobalNamespace::LocalizedTextAsset::$$c* value);
     // Get static field: static public System.Func`2<LocalizedTextAsset/TextInfo,System.Boolean> <>9__6_0
-    static System::Func_2<GlobalNamespace::LocalizedTextAsset::TextInfo*, bool>* _get_$$9__6_0();
+    static ::System::Func_2<::GlobalNamespace::LocalizedTextAsset::TextInfo*, bool>* _get_$$9__6_0();
     // Set static field: static public System.Func`2<LocalizedTextAsset/TextInfo,System.Boolean> <>9__6_0
-    static void _set_$$9__6_0(System::Func_2<GlobalNamespace::LocalizedTextAsset::TextInfo*, bool>* value);
+    static void _set_$$9__6_0(::System::Func_2<::GlobalNamespace::LocalizedTextAsset::TextInfo*, bool>* value);
     // static private System.Void .cctor()
     // Offset: 0x2BA603C
     static void _cctor();
     // System.Boolean <get_localizedText>b__6_0(LocalizedTextAsset/TextInfo t)
     // Offset: 0x2BA60A8
-    bool $get_localizedText$b__6_0(GlobalNamespace::LocalizedTextAsset::TextInfo* t);
+    bool $get_localizedText$b__6_0(::GlobalNamespace::LocalizedTextAsset::TextInfo* t);
     // public System.Void .ctor()
     // Offset: 0x2BA60A0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalizedTextAsset::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LocalizedTextAsset::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LocalizedTextAsset::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalizedTextAsset::$$c*, creationType>()));
     }
   }; // LocalizedTextAsset/<>c
@@ -70,7 +70,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::LocalizedTextAsset::$$c::$get_localizedText$b__6_0
 // Il2CppName: <get_localizedText>b__6_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LocalizedTextAsset::$$c::*)(GlobalNamespace::LocalizedTextAsset::TextInfo*)>(&GlobalNamespace::LocalizedTextAsset::$$c::$get_localizedText$b__6_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LocalizedTextAsset::$$c::*)(::GlobalNamespace::LocalizedTextAsset::TextInfo*)>(&GlobalNamespace::LocalizedTextAsset::$$c::$get_localizedText$b__6_0)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("", "LocalizedTextAsset/TextInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalizedTextAsset::$$c*), "<get_localizedText>b__6_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});

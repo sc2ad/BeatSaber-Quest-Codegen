@@ -21,8 +21,8 @@ namespace Oculus::Platform::Models {
   class AchievementProgress;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::AchievementProgress);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::AchievementProgress*, "Oculus.Platform.Models", "AchievementProgress");
+NEED_NO_BOX(::Oculus::Platform::Models::AchievementProgress);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::AchievementProgress*, "Oculus.Platform.Models", "AchievementProgress");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x38
@@ -69,9 +69,9 @@ namespace Oculus::Platform::Models {
     // public readonly System.DateTime UnlockTime
     // Size: 0x8
     // Offset: 0x30
-    System::DateTime UnlockTime;
+    ::System::DateTime UnlockTime;
     // Field size check
-    static_assert(sizeof(System::DateTime) == 0x8);
+    static_assert(sizeof(::System::DateTime) == 0x8);
     public:
     // Get instance field reference: public readonly System.String Bitfield
     ::StringW& dyn_Bitfield();
@@ -82,17 +82,17 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.String Name
     ::StringW& dyn_Name();
     // Get instance field reference: public readonly System.DateTime UnlockTime
-    System::DateTime& dyn_UnlockTime();
+    ::System::DateTime& dyn_UnlockTime();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x196CE54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AchievementProgress* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::AchievementProgress::.ctor");
+    static AchievementProgress* New_ctor(::System::IntPtr o) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::AchievementProgress::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AchievementProgress*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.AchievementProgress
   #pragma pack(pop)
-  static check_size<sizeof(AchievementProgress), 48 + sizeof(System::DateTime)> __Oculus_Platform_Models_AchievementProgressSizeCheck;
+  static check_size<sizeof(AchievementProgress), 48 + sizeof(::System::DateTime)> __Oculus_Platform_Models_AchievementProgressSizeCheck;
   static_assert(sizeof(AchievementProgress) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

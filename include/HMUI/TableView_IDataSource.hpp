@@ -15,8 +15,8 @@ namespace HMUI {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HMUI::TableView::IDataSource);
-DEFINE_IL2CPP_ARG_TYPE(HMUI::TableView::IDataSource*, "HMUI", "TableView/IDataSource");
+NEED_NO_BOX(::HMUI::TableView::IDataSource);
+DEFINE_IL2CPP_ARG_TYPE(::HMUI::TableView::IDataSource*, "HMUI", "TableView/IDataSource");
 // Type namespace: HMUI
 namespace HMUI {
   // Size: 0x10
@@ -33,7 +33,7 @@ namespace HMUI {
     int NumberOfCells();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 idx)
     // Offset: 0xFFFFFFFF
-    HMUI::TableCell* CellForIdx(HMUI::TableView* tableView, int idx);
+    ::HMUI::TableCell* CellForIdx(::HMUI::TableView* tableView, int idx);
   }; // HMUI.TableView/HMUI.IDataSource
   #pragma pack(pop)
 }
@@ -57,7 +57,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (HMUI::
 // Writing MetadataGetter for method: HMUI::TableView::IDataSource::CellForIdx
 // Il2CppName: CellForIdx
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableCell* (HMUI::TableView::IDataSource::*)(HMUI::TableView*, int)>(&HMUI::TableView::IDataSource::CellForIdx)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HMUI::TableCell* (HMUI::TableView::IDataSource::*)(::HMUI::TableView*, int)>(&HMUI::TableView::IDataSource::CellForIdx)> {
   static const MethodInfo* get() {
     static auto* tableView = &::il2cpp_utils::GetClassFromName("HMUI", "TableView")->byval_arg;
     static auto* idx = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

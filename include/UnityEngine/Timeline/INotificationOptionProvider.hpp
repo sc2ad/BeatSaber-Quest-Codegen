@@ -18,8 +18,8 @@ namespace UnityEngine::Timeline {
   class INotificationOptionProvider;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Timeline::INotificationOptionProvider);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::INotificationOptionProvider*, "UnityEngine.Timeline", "INotificationOptionProvider");
+NEED_NO_BOX(::UnityEngine::Timeline::INotificationOptionProvider);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::INotificationOptionProvider*, "UnityEngine.Timeline", "INotificationOptionProvider");
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
   // Size: 0x10
@@ -30,7 +30,7 @@ namespace UnityEngine::Timeline {
     public:
     // public UnityEngine.Timeline.NotificationFlags get_flags()
     // Offset: 0xFFFFFFFF
-    UnityEngine::Timeline::NotificationFlags get_flags();
+    ::UnityEngine::Timeline::NotificationFlags get_flags();
   }; // UnityEngine.Timeline.INotificationOptionProvider
   #pragma pack(pop)
 }
@@ -38,7 +38,7 @@ namespace UnityEngine::Timeline {
 // Writing MetadataGetter for method: UnityEngine::Timeline::INotificationOptionProvider::get_flags
 // Il2CppName: get_flags
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::NotificationFlags (UnityEngine::Timeline::INotificationOptionProvider::*)()>(&UnityEngine::Timeline::INotificationOptionProvider::get_flags)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Timeline::NotificationFlags (UnityEngine::Timeline::INotificationOptionProvider::*)()>(&UnityEngine::Timeline::INotificationOptionProvider::get_flags)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::INotificationOptionProvider*), "get_flags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

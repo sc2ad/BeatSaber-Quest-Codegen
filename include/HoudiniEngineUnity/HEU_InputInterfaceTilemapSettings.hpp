@@ -16,8 +16,8 @@ namespace HoudiniEngineUnity {
   class HEU_InputInterfaceTilemapSettings;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings*, "HoudiniEngineUnity", "HEU_InputInterfaceTilemapSettings");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings*, "HoudiniEngineUnity", "HEU_InputInterfaceTilemapSettings");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x14
@@ -74,7 +74,7 @@ namespace HoudiniEngineUnity {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_InputInterfaceTilemapSettings* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_InputInterfaceTilemapSettings*, creationType>()));
     }
   }; // HoudiniEngineUnity.HEU_InputInterfaceTilemapSettings

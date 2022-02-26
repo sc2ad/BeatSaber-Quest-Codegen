@@ -35,8 +35,8 @@ namespace TMPro {
   class FastAction;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(TMPro::FastAction);
-DEFINE_IL2CPP_ARG_TYPE(TMPro::FastAction*, "TMPro", "FastAction");
+NEED_NO_BOX(::TMPro::FastAction);
+DEFINE_IL2CPP_ARG_TYPE(::TMPro::FastAction*, "TMPro", "FastAction");
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0x20
@@ -57,26 +57,26 @@ namespace TMPro {
     // private System.Collections.Generic.LinkedList`1<System.Action> delegates
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::LinkedList_1<System::Action*>* delegates;
+    ::System::Collections::Generic::LinkedList_1<::System::Action*>* delegates;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::LinkedList_1<System::Action*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::LinkedList_1<::System::Action*>*) == 0x8);
     // private System.Collections.Generic.Dictionary`2<System.Action,System.Collections.Generic.LinkedListNode`1<System.Action>> lookup
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::Generic::Dictionary_2<System::Action*, System::Collections::Generic::LinkedListNode_1<System::Action*>*>* lookup;
+    ::System::Collections::Generic::Dictionary_2<::System::Action*, ::System::Collections::Generic::LinkedListNode_1<::System::Action*>*>* lookup;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<System::Action*, System::Collections::Generic::LinkedListNode_1<System::Action*>*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::Dictionary_2<::System::Action*, ::System::Collections::Generic::LinkedListNode_1<::System::Action*>*>*) == 0x8);
     public:
     // Get instance field reference: private System.Collections.Generic.LinkedList`1<System.Action> delegates
-    System::Collections::Generic::LinkedList_1<System::Action*>*& dyn_delegates();
+    ::System::Collections::Generic::LinkedList_1<::System::Action*>*& dyn_delegates();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Action,System.Collections.Generic.LinkedListNode`1<System.Action>> lookup
-    System::Collections::Generic::Dictionary_2<System::Action*, System::Collections::Generic::LinkedListNode_1<System::Action*>*>*& dyn_lookup();
+    ::System::Collections::Generic::Dictionary_2<::System::Action*, ::System::Collections::Generic::LinkedListNode_1<::System::Action*>*>*& dyn_lookup();
     // public System.Void Add(System.Action rhs)
     // Offset: 0x14037F8
-    void Add(System::Action* rhs);
+    void Add(::System::Action* rhs);
     // public System.Void Remove(System.Action rhs)
     // Offset: 0x14038B4
-    void Remove(System::Action* rhs);
+    void Remove(::System::Action* rhs);
     // public System.Void Call()
     // Offset: 0x1403964
     void Call();
@@ -86,19 +86,19 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FastAction* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::FastAction::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::FastAction::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FastAction*, creationType>()));
     }
   }; // TMPro.FastAction
   #pragma pack(pop)
-  static check_size<sizeof(FastAction), 24 + sizeof(System::Collections::Generic::Dictionary_2<System::Action*, System::Collections::Generic::LinkedListNode_1<System::Action*>*>*)> __TMPro_FastActionSizeCheck;
+  static check_size<sizeof(FastAction), 24 + sizeof(::System::Collections::Generic::Dictionary_2<::System::Action*, ::System::Collections::Generic::LinkedListNode_1<::System::Action*>*>*)> __TMPro_FastActionSizeCheck;
   static_assert(sizeof(FastAction) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::FastAction::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::FastAction::*)(System::Action*)>(&TMPro::FastAction::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::FastAction::*)(::System::Action*)>(&TMPro::FastAction::Add)> {
   static const MethodInfo* get() {
     static auto* rhs = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::FastAction*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rhs});
@@ -107,7 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::FastAction::Remove
 // Il2CppName: Remove
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::FastAction::*)(System::Action*)>(&TMPro::FastAction::Remove)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::FastAction::*)(::System::Action*)>(&TMPro::FastAction::Remove)> {
   static const MethodInfo* get() {
     static auto* rhs = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::FastAction*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rhs});

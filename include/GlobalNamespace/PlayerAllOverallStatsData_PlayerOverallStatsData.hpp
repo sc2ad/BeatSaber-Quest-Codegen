@@ -20,8 +20,8 @@ namespace GlobalNamespace {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*, "", "PlayerAllOverallStatsData/PlayerOverallStatsData");
+NEED_NO_BOX(::GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*, "", "PlayerAllOverallStatsData/PlayerOverallStatsData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x48
@@ -203,19 +203,19 @@ namespace GlobalNamespace {
     // Offset: 0x2AC3248
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerAllOverallStatsData::PlayerOverallStatsData* New_ctor(int goodCutsCount, int badCutsCount, int missedCutsCount, int64_t totalScore, int playedLevelsCount, int cleardLevelsCount, int failedLevelsCount, int fullComboCount, float timePlayed, int handDistanceTravelled, int64_t cummulativeCutScoreWithoutMultiplier) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerAllOverallStatsData::PlayerOverallStatsData*, creationType>(goodCutsCount, badCutsCount, missedCutsCount, totalScore, playedLevelsCount, cleardLevelsCount, failedLevelsCount, fullComboCount, timePlayed, handDistanceTravelled, cummulativeCutScoreWithoutMultiplier)));
     }
     // public System.Void UpdateWithLevelCompletionResults(LevelCompletionResults levelCompletionResults)
     // Offset: 0x2AC2FA4
-    void UpdateWithLevelCompletionResults(GlobalNamespace::LevelCompletionResults* levelCompletionResults);
+    void UpdateWithLevelCompletionResults(::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
     // public System.Void .ctor()
     // Offset: 0x2AC2EC0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerAllOverallStatsData::PlayerOverallStatsData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerAllOverallStatsData::PlayerOverallStatsData*, creationType>()));
     }
   }; // PlayerAllOverallStatsData/PlayerOverallStatsData
@@ -224,7 +224,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(PlayerAllOverallStatsData::PlayerOverallStatsData) == 0x48);
   // static public PlayerAllOverallStatsData/PlayerOverallStatsData op_Addition(PlayerAllOverallStatsData/PlayerOverallStatsData a, PlayerAllOverallStatsData/PlayerOverallStatsData b)
   // Offset: 0x2AC28C0
-  GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* operator+(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* a, GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData& b);
+  ::GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* operator+(::GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* a, ::GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData& b);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::get_goodCutsCount
@@ -429,7 +429,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Writing MetadataGetter for method: GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::UpdateWithLevelCompletionResults
 // Il2CppName: UpdateWithLevelCompletionResults
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::*)(GlobalNamespace::LevelCompletionResults*)>(&GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::UpdateWithLevelCompletionResults)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::*)(::GlobalNamespace::LevelCompletionResults*)>(&GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::UpdateWithLevelCompletionResults)> {
   static const MethodInfo* get() {
     static auto* levelCompletionResults = &::il2cpp_utils::GetClassFromName("", "LevelCompletionResults")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*), "UpdateWithLevelCompletionResults", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{levelCompletionResults});

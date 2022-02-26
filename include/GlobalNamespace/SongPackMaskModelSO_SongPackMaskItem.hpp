@@ -35,8 +35,8 @@ namespace System::Collections::Generic {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem*, "", "SongPackMaskModelSO/SongPackMaskItem");
+NEED_NO_BOX(::GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem*, "", "SongPackMaskModelSO/SongPackMaskItem");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x50
@@ -45,7 +45,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SongPackMaskModelSO::SongPackMaskItem : public ::Il2CppObject {
     public:
-    // Nested type: GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c
+    // Nested type: ::GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c
     class $$c;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -59,25 +59,25 @@ namespace GlobalNamespace {
     // public SongPackMaskModelSO/SongPackDataType _type
     // Size: 0x4
     // Offset: 0x10
-    GlobalNamespace::SongPackMaskModelSO::SongPackDataType type;
+    ::GlobalNamespace::SongPackMaskModelSO::SongPackDataType type;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::SongPackMaskModelSO::SongPackDataType) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::SongPackMaskModelSO::SongPackDataType) == 0x4);
     // Padding between fields: type and: beatmapLevelPack
     char __padding0[0x4] = {};
     // [NullAllowed] Offset: 0x1251D9C
     // public BeatmapLevelPackSO _beatmapLevelPack
     // Size: 0x8
     // Offset: 0x18
-    GlobalNamespace::BeatmapLevelPackSO* beatmapLevelPack;
+    ::GlobalNamespace::BeatmapLevelPackSO* beatmapLevelPack;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::BeatmapLevelPackSO*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::BeatmapLevelPackSO*) == 0x8);
     // [NullAllowed] Offset: 0x1251DAC
     // public PreviewBeatmapLevelPackSO _previewBeatmapLevelPack
     // Size: 0x8
     // Offset: 0x20
-    GlobalNamespace::PreviewBeatmapLevelPackSO* previewBeatmapLevelPack;
+    ::GlobalNamespace::PreviewBeatmapLevelPackSO* previewBeatmapLevelPack;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::PreviewBeatmapLevelPackSO*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::PreviewBeatmapLevelPackSO*) == 0x8);
     // public System.String _serializedName
     // Size: 0x8
     // Offset: 0x28
@@ -88,50 +88,50 @@ namespace GlobalNamespace {
     // public BeatmapLevelPackCollectionSO _levelPackCollection
     // Size: 0x8
     // Offset: 0x30
-    GlobalNamespace::BeatmapLevelPackCollectionSO* levelPackCollection;
+    ::GlobalNamespace::BeatmapLevelPackCollectionSO* levelPackCollection;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::BeatmapLevelPackCollectionSO*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::BeatmapLevelPackCollectionSO*) == 0x8);
     // public System.Collections.Generic.List`1<BeatmapLevelPackSO> _beatmapLevelPacks
     // Size: 0x8
     // Offset: 0x38
-    System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelPackSO*>* beatmapLevelPacks;
+    ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevelPackSO*>* beatmapLevelPacks;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelPackSO*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevelPackSO*>*) == 0x8);
     // public System.Collections.Generic.List`1<PreviewBeatmapLevelPackSO> _previewBeatmapLevelPacks
     // Size: 0x8
     // Offset: 0x40
-    System::Collections::Generic::List_1<GlobalNamespace::PreviewBeatmapLevelPackSO*>* previewBeatmapLevelPacks;
+    ::System::Collections::Generic::List_1<::GlobalNamespace::PreviewBeatmapLevelPackSO*>* previewBeatmapLevelPacks;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::PreviewBeatmapLevelPackSO*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::GlobalNamespace::PreviewBeatmapLevelPackSO*>*) == 0x8);
     // public System.Collections.Generic.List`1<BeatmapLevelPackCollectionSO> _levelPackCollections
     // Size: 0x8
     // Offset: 0x48
-    System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelPackCollectionSO*>* levelPackCollections;
+    ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevelPackCollectionSO*>* levelPackCollections;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelPackCollectionSO*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevelPackCollectionSO*>*) == 0x8);
     public:
     // Get instance field reference: public SongPackMaskModelSO/SongPackDataType _type
-    GlobalNamespace::SongPackMaskModelSO::SongPackDataType& dyn__type();
+    ::GlobalNamespace::SongPackMaskModelSO::SongPackDataType& dyn__type();
     // Get instance field reference: public BeatmapLevelPackSO _beatmapLevelPack
-    GlobalNamespace::BeatmapLevelPackSO*& dyn__beatmapLevelPack();
+    ::GlobalNamespace::BeatmapLevelPackSO*& dyn__beatmapLevelPack();
     // Get instance field reference: public PreviewBeatmapLevelPackSO _previewBeatmapLevelPack
-    GlobalNamespace::PreviewBeatmapLevelPackSO*& dyn__previewBeatmapLevelPack();
+    ::GlobalNamespace::PreviewBeatmapLevelPackSO*& dyn__previewBeatmapLevelPack();
     // Get instance field reference: public System.String _serializedName
     ::StringW& dyn__serializedName();
     // Get instance field reference: public BeatmapLevelPackCollectionSO _levelPackCollection
-    GlobalNamespace::BeatmapLevelPackCollectionSO*& dyn__levelPackCollection();
+    ::GlobalNamespace::BeatmapLevelPackCollectionSO*& dyn__levelPackCollection();
     // Get instance field reference: public System.Collections.Generic.List`1<BeatmapLevelPackSO> _beatmapLevelPacks
-    System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelPackSO*>*& dyn__beatmapLevelPacks();
+    ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevelPackSO*>*& dyn__beatmapLevelPacks();
     // Get instance field reference: public System.Collections.Generic.List`1<PreviewBeatmapLevelPackSO> _previewBeatmapLevelPacks
-    System::Collections::Generic::List_1<GlobalNamespace::PreviewBeatmapLevelPackSO*>*& dyn__previewBeatmapLevelPacks();
+    ::System::Collections::Generic::List_1<::GlobalNamespace::PreviewBeatmapLevelPackSO*>*& dyn__previewBeatmapLevelPacks();
     // Get instance field reference: public System.Collections.Generic.List`1<BeatmapLevelPackCollectionSO> _levelPackCollections
-    System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelPackCollectionSO*>*& dyn__levelPackCollections();
+    ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevelPackCollectionSO*>*& dyn__levelPackCollections();
     // public System.String get_serializedName()
     // Offset: 0x13D1AC8
     ::StringW get_serializedName();
     // public SongPackMask get_songPackMask()
     // Offset: 0x13D1B0C
-    GlobalNamespace::SongPackMask get_songPackMask();
+    ::GlobalNamespace::SongPackMask get_songPackMask();
     // public System.Boolean get_containsMultiplePacks()
     // Offset: 0x13D1E88
     bool get_containsMultiplePacks();
@@ -141,12 +141,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongPackMaskModelSO::SongPackMaskItem* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SongPackMaskModelSO::SongPackMaskItem*, creationType>()));
     }
   }; // SongPackMaskModelSO/SongPackMaskItem
   #pragma pack(pop)
-  static check_size<sizeof(SongPackMaskModelSO::SongPackMaskItem), 72 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelPackCollectionSO*>*)> __GlobalNamespace_SongPackMaskModelSO_SongPackMaskItemSizeCheck;
+  static check_size<sizeof(SongPackMaskModelSO::SongPackMaskItem), 72 + sizeof(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevelPackCollectionSO*>*)> __GlobalNamespace_SongPackMaskModelSO_SongPackMaskItemSizeCheck;
   static_assert(sizeof(SongPackMaskModelSO::SongPackMaskItem) == 0x50);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -161,7 +161,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::get_songPackMask
 // Il2CppName: get_songPackMask
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SongPackMask (GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::*)()>(&GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::get_songPackMask)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SongPackMask (GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::*)()>(&GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::get_songPackMask)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem*), "get_songPackMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

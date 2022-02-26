@@ -56,8 +56,8 @@ namespace GlobalNamespace {
   class AudioClipAsyncLoader;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::AudioClipAsyncLoader);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioClipAsyncLoader*, "", "AudioClipAsyncLoader");
+NEED_NO_BOX(::GlobalNamespace::AudioClipAsyncLoader);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AudioClipAsyncLoader*, "", "AudioClipAsyncLoader");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -66,15 +66,15 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AudioClipAsyncLoader : public ::Il2CppObject {
     public:
-    // Nested type: GlobalNamespace::AudioClipAsyncLoader::LoadMethodDelegate
+    // Nested type: ::GlobalNamespace::AudioClipAsyncLoader::LoadMethodDelegate
     class LoadMethodDelegate;
-    // Nested type: GlobalNamespace::AudioClipAsyncLoader::$$c__DisplayClass16_0
+    // Nested type: ::GlobalNamespace::AudioClipAsyncLoader::$$c__DisplayClass16_0
     class $$c__DisplayClass16_0;
-    // Nested type: GlobalNamespace::AudioClipAsyncLoader::$$c__DisplayClass17_0
+    // Nested type: ::GlobalNamespace::AudioClipAsyncLoader::$$c__DisplayClass17_0
     class $$c__DisplayClass17_0;
-    // Nested type: GlobalNamespace::AudioClipAsyncLoader::$$c
+    // Nested type: ::GlobalNamespace::AudioClipAsyncLoader::$$c
     class $$c;
-    // Nested type: GlobalNamespace::AudioClipAsyncLoader::$Unload$d__21
+    // Nested type: ::GlobalNamespace::AudioClipAsyncLoader::$Unload$d__21
     struct $Unload$d__21;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -88,84 +88,84 @@ namespace GlobalNamespace {
     // private readonly IReferenceCountingCache`2<System.Int32,System.Threading.Tasks.Task`1<UnityEngine.AudioClip>> _cache
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::IReferenceCountingCache_2<int, System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>*>* cache;
+    ::GlobalNamespace::IReferenceCountingCache_2<int, ::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>*>* cache;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::IReferenceCountingCache_2<int, System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>*>*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::IReferenceCountingCache_2<int, ::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>*>*) == 0x8);
     // private readonly IMediaAsyncLoader _mediaAsyncLoader
     // Size: 0x8
     // Offset: 0x18
-    GlobalNamespace::IMediaAsyncLoader* mediaAsyncLoader;
+    ::GlobalNamespace::IMediaAsyncLoader* mediaAsyncLoader;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::IMediaAsyncLoader*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::IMediaAsyncLoader*) == 0x8);
     public:
     // Get instance field reference: private readonly IReferenceCountingCache`2<System.Int32,System.Threading.Tasks.Task`1<UnityEngine.AudioClip>> _cache
-    GlobalNamespace::IReferenceCountingCache_2<int, System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>*>*& dyn__cache();
+    ::GlobalNamespace::IReferenceCountingCache_2<int, ::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>*>*& dyn__cache();
     // Get instance field reference: private readonly IMediaAsyncLoader _mediaAsyncLoader
-    GlobalNamespace::IMediaAsyncLoader*& dyn__mediaAsyncLoader();
+    ::GlobalNamespace::IMediaAsyncLoader*& dyn__mediaAsyncLoader();
     // public System.Void .ctor(IReferenceCountingCache`2<System.Int32,System.Threading.Tasks.Task`1<UnityEngine.AudioClip>> cache, IMediaAsyncLoader mediaAsyncLoader)
     // Offset: 0x148D7BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AudioClipAsyncLoader* New_ctor(GlobalNamespace::IReferenceCountingCache_2<int, System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>*>* cache, GlobalNamespace::IMediaAsyncLoader* mediaAsyncLoader) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AudioClipAsyncLoader::.ctor");
+    static AudioClipAsyncLoader* New_ctor(::GlobalNamespace::IReferenceCountingCache_2<int, ::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>*>* cache, ::GlobalNamespace::IMediaAsyncLoader* mediaAsyncLoader) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AudioClipAsyncLoader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AudioClipAsyncLoader*, creationType>(cache, mediaAsyncLoader)));
     }
     // public System.Threading.Tasks.Task`1<UnityEngine.AudioClip> LoadPreview(IPreviewBeatmapLevel beatmapLevel)
     // Offset: 0x148D7F4
-    System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* LoadPreview(GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel);
+    ::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>* LoadPreview(::GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel);
     // public System.Threading.Tasks.Task`1<UnityEngine.AudioClip> LoadSong(IBeatmapLevel beatmapLevel)
     // Offset: 0x148DB68
-    System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* LoadSong(GlobalNamespace::IBeatmapLevel* beatmapLevel);
+    ::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>* LoadSong(::GlobalNamespace::IBeatmapLevel* beatmapLevel);
     // public System.Void UnloadPreview(IPreviewBeatmapLevel beatmapLevel)
     // Offset: 0x148DEDC
-    void UnloadPreview(GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel);
+    void UnloadPreview(::GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel);
     // public System.Void UnloadSong(IBeatmapLevel beatmapLevel)
     // Offset: 0x148E220
-    void UnloadSong(GlobalNamespace::IBeatmapLevel* beatmapLevel);
+    void UnloadSong(::GlobalNamespace::IBeatmapLevel* beatmapLevel);
     // public System.Threading.Tasks.Task`1<UnityEngine.AudioClip> Load(IAssetSongPreviewAudioClipProvider source)
     // Offset: 0x148D9E0
-    System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* Load(GlobalNamespace::IAssetSongPreviewAudioClipProvider* source);
+    ::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>* Load(::GlobalNamespace::IAssetSongPreviewAudioClipProvider* source);
     // public System.Threading.Tasks.Task`1<UnityEngine.AudioClip> Load(IAssetSongAudioClipProvider source)
     // Offset: 0x148DD54
-    System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* Load(GlobalNamespace::IAssetSongAudioClipProvider* source);
+    ::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>* Load(::GlobalNamespace::IAssetSongAudioClipProvider* source);
     // public System.Threading.Tasks.Task`1<UnityEngine.AudioClip> Load(IFilePathSongPreviewAudioClipProvider source)
     // Offset: 0x148DAA4
-    System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* Load(GlobalNamespace::IFilePathSongPreviewAudioClipProvider* source);
+    ::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>* Load(::GlobalNamespace::IFilePathSongPreviewAudioClipProvider* source);
     // public System.Threading.Tasks.Task`1<UnityEngine.AudioClip> Load(IFilePathSongAudioClipProvider source)
     // Offset: 0x148DE18
-    System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* Load(GlobalNamespace::IFilePathSongAudioClipProvider* source);
+    ::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>* Load(::GlobalNamespace::IFilePathSongAudioClipProvider* source);
     // public System.Void Unload(IAssetSongPreviewAudioClipProvider source)
     // Offset: 0x148E098
-    void Unload(GlobalNamespace::IAssetSongPreviewAudioClipProvider* source);
+    void Unload(::GlobalNamespace::IAssetSongPreviewAudioClipProvider* source);
     // public System.Void Unload(IAssetSongAudioClipProvider source)
     // Offset: 0x148E3DC
-    void Unload(GlobalNamespace::IAssetSongAudioClipProvider* source);
+    void Unload(::GlobalNamespace::IAssetSongAudioClipProvider* source);
     // public System.Void Unload(IFilePathSongPreviewAudioClipProvider source)
     // Offset: 0x148E15C
-    void Unload(GlobalNamespace::IFilePathSongPreviewAudioClipProvider* source);
+    void Unload(::GlobalNamespace::IFilePathSongPreviewAudioClipProvider* source);
     // public System.Void Unload(IFilePathSongAudioClipProvider source)
     // Offset: 0x148E4A0
-    void Unload(GlobalNamespace::IFilePathSongAudioClipProvider* source);
+    void Unload(::GlobalNamespace::IFilePathSongAudioClipProvider* source);
     // private System.Threading.Tasks.Task`1<UnityEngine.AudioClip> Load(UnityEngine.AudioClip audioClip)
     // Offset: 0x148E564
-    System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* Load(UnityEngine::AudioClip* audioClip);
+    ::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>* Load(::UnityEngine::AudioClip* audioClip);
     // private System.Threading.Tasks.Task`1<UnityEngine.AudioClip> Load(System.String audioClipFilePath)
     // Offset: 0x148E628
-    System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* Load(::StringW audioClipFilePath);
+    ::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>* Load(::StringW audioClipFilePath);
     // private System.Threading.Tasks.Task`1<UnityEngine.AudioClip> Load(System.Int32 cacheKey, AudioClipAsyncLoader/LoadMethodDelegate loadMethodDelegate)
     // Offset: 0x148E8E8
-    System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* Load(int cacheKey, GlobalNamespace::AudioClipAsyncLoader::LoadMethodDelegate* loadMethodDelegate);
+    ::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>* Load(int cacheKey, ::GlobalNamespace::AudioClipAsyncLoader::LoadMethodDelegate* loadMethodDelegate);
     // private System.Void Unload(UnityEngine.AudioClip audioClip)
     // Offset: 0x148E6EC
-    void Unload(UnityEngine::AudioClip* audioClip);
+    void Unload(::UnityEngine::AudioClip* audioClip);
     // private System.Void Unload(System.String audioClipFilePath)
     // Offset: 0x148E804
     void Unload(::StringW audioClipFilePath);
     // public System.Void Unload(System.Int32 cacheKey, System.Action`1<UnityEngine.AudioClip> onDelete)
     // Offset: 0x148ED00
-    void Unload(int cacheKey, System::Action_1<UnityEngine::AudioClip*>* onDelete);
+    void Unload(int cacheKey, ::System::Action_1<::UnityEngine::AudioClip*>* onDelete);
     // public System.Int32 GetCacheKey(UnityEngine.AudioClip audioClip)
     // Offset: 0x148E8B8
-    int GetCacheKey(UnityEngine::AudioClip* audioClip);
+    int GetCacheKey(::UnityEngine::AudioClip* audioClip);
     // public System.Int32 GetCacheKey(System.String audioClipFilePath)
     // Offset: 0x148EACC
     int GetCacheKey(::StringW audioClipFilePath);
@@ -174,7 +174,7 @@ namespace GlobalNamespace {
     static void LogError(::StringW message);
   }; // AudioClipAsyncLoader
   #pragma pack(pop)
-  static check_size<sizeof(AudioClipAsyncLoader), 24 + sizeof(GlobalNamespace::IMediaAsyncLoader*)> __GlobalNamespace_AudioClipAsyncLoaderSizeCheck;
+  static check_size<sizeof(AudioClipAsyncLoader), 24 + sizeof(::GlobalNamespace::IMediaAsyncLoader*)> __GlobalNamespace_AudioClipAsyncLoaderSizeCheck;
   static_assert(sizeof(AudioClipAsyncLoader) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -185,7 +185,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::AudioClipAsyncLoader::LoadPreview
 // Il2CppName: LoadPreview
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* (GlobalNamespace::AudioClipAsyncLoader::*)(GlobalNamespace::IPreviewBeatmapLevel*)>(&GlobalNamespace::AudioClipAsyncLoader::LoadPreview)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>* (GlobalNamespace::AudioClipAsyncLoader::*)(::GlobalNamespace::IPreviewBeatmapLevel*)>(&GlobalNamespace::AudioClipAsyncLoader::LoadPreview)> {
   static const MethodInfo* get() {
     static auto* beatmapLevel = &::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioClipAsyncLoader*), "LoadPreview", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapLevel});
@@ -194,7 +194,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: GlobalNamespace::AudioClipAsyncLoader::LoadSong
 // Il2CppName: LoadSong
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* (GlobalNamespace::AudioClipAsyncLoader::*)(GlobalNamespace::IBeatmapLevel*)>(&GlobalNamespace::AudioClipAsyncLoader::LoadSong)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>* (GlobalNamespace::AudioClipAsyncLoader::*)(::GlobalNamespace::IBeatmapLevel*)>(&GlobalNamespace::AudioClipAsyncLoader::LoadSong)> {
   static const MethodInfo* get() {
     static auto* beatmapLevel = &::il2cpp_utils::GetClassFromName("", "IBeatmapLevel")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioClipAsyncLoader*), "LoadSong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapLevel});
@@ -203,7 +203,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: GlobalNamespace::AudioClipAsyncLoader::UnloadPreview
 // Il2CppName: UnloadPreview
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AudioClipAsyncLoader::*)(GlobalNamespace::IPreviewBeatmapLevel*)>(&GlobalNamespace::AudioClipAsyncLoader::UnloadPreview)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AudioClipAsyncLoader::*)(::GlobalNamespace::IPreviewBeatmapLevel*)>(&GlobalNamespace::AudioClipAsyncLoader::UnloadPreview)> {
   static const MethodInfo* get() {
     static auto* beatmapLevel = &::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioClipAsyncLoader*), "UnloadPreview", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapLevel});
@@ -212,7 +212,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::AudioClipAsyncLoader::UnloadSong
 // Il2CppName: UnloadSong
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AudioClipAsyncLoader::*)(GlobalNamespace::IBeatmapLevel*)>(&GlobalNamespace::AudioClipAsyncLoader::UnloadSong)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AudioClipAsyncLoader::*)(::GlobalNamespace::IBeatmapLevel*)>(&GlobalNamespace::AudioClipAsyncLoader::UnloadSong)> {
   static const MethodInfo* get() {
     static auto* beatmapLevel = &::il2cpp_utils::GetClassFromName("", "IBeatmapLevel")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioClipAsyncLoader*), "UnloadSong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapLevel});
@@ -221,7 +221,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::AudioClipAsyncLoader::Load
 // Il2CppName: Load
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* (GlobalNamespace::AudioClipAsyncLoader::*)(GlobalNamespace::IAssetSongPreviewAudioClipProvider*)>(&GlobalNamespace::AudioClipAsyncLoader::Load)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>* (GlobalNamespace::AudioClipAsyncLoader::*)(::GlobalNamespace::IAssetSongPreviewAudioClipProvider*)>(&GlobalNamespace::AudioClipAsyncLoader::Load)> {
   static const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("", "IAssetSongPreviewAudioClipProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioClipAsyncLoader*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{source});
@@ -230,7 +230,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: GlobalNamespace::AudioClipAsyncLoader::Load
 // Il2CppName: Load
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* (GlobalNamespace::AudioClipAsyncLoader::*)(GlobalNamespace::IAssetSongAudioClipProvider*)>(&GlobalNamespace::AudioClipAsyncLoader::Load)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>* (GlobalNamespace::AudioClipAsyncLoader::*)(::GlobalNamespace::IAssetSongAudioClipProvider*)>(&GlobalNamespace::AudioClipAsyncLoader::Load)> {
   static const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("", "IAssetSongAudioClipProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioClipAsyncLoader*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{source});
@@ -239,7 +239,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: GlobalNamespace::AudioClipAsyncLoader::Load
 // Il2CppName: Load
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* (GlobalNamespace::AudioClipAsyncLoader::*)(GlobalNamespace::IFilePathSongPreviewAudioClipProvider*)>(&GlobalNamespace::AudioClipAsyncLoader::Load)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>* (GlobalNamespace::AudioClipAsyncLoader::*)(::GlobalNamespace::IFilePathSongPreviewAudioClipProvider*)>(&GlobalNamespace::AudioClipAsyncLoader::Load)> {
   static const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("", "IFilePathSongPreviewAudioClipProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioClipAsyncLoader*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{source});
@@ -248,7 +248,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: GlobalNamespace::AudioClipAsyncLoader::Load
 // Il2CppName: Load
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* (GlobalNamespace::AudioClipAsyncLoader::*)(GlobalNamespace::IFilePathSongAudioClipProvider*)>(&GlobalNamespace::AudioClipAsyncLoader::Load)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>* (GlobalNamespace::AudioClipAsyncLoader::*)(::GlobalNamespace::IFilePathSongAudioClipProvider*)>(&GlobalNamespace::AudioClipAsyncLoader::Load)> {
   static const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("", "IFilePathSongAudioClipProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioClipAsyncLoader*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{source});
@@ -257,7 +257,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: GlobalNamespace::AudioClipAsyncLoader::Unload
 // Il2CppName: Unload
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AudioClipAsyncLoader::*)(GlobalNamespace::IAssetSongPreviewAudioClipProvider*)>(&GlobalNamespace::AudioClipAsyncLoader::Unload)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AudioClipAsyncLoader::*)(::GlobalNamespace::IAssetSongPreviewAudioClipProvider*)>(&GlobalNamespace::AudioClipAsyncLoader::Unload)> {
   static const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("", "IAssetSongPreviewAudioClipProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioClipAsyncLoader*), "Unload", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{source});
@@ -266,7 +266,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::AudioClipAsyncLoader::Unload
 // Il2CppName: Unload
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AudioClipAsyncLoader::*)(GlobalNamespace::IAssetSongAudioClipProvider*)>(&GlobalNamespace::AudioClipAsyncLoader::Unload)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AudioClipAsyncLoader::*)(::GlobalNamespace::IAssetSongAudioClipProvider*)>(&GlobalNamespace::AudioClipAsyncLoader::Unload)> {
   static const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("", "IAssetSongAudioClipProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioClipAsyncLoader*), "Unload", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{source});
@@ -275,7 +275,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::AudioClipAsyncLoader::Unload
 // Il2CppName: Unload
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AudioClipAsyncLoader::*)(GlobalNamespace::IFilePathSongPreviewAudioClipProvider*)>(&GlobalNamespace::AudioClipAsyncLoader::Unload)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AudioClipAsyncLoader::*)(::GlobalNamespace::IFilePathSongPreviewAudioClipProvider*)>(&GlobalNamespace::AudioClipAsyncLoader::Unload)> {
   static const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("", "IFilePathSongPreviewAudioClipProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioClipAsyncLoader*), "Unload", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{source});
@@ -284,7 +284,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::AudioClipAsyncLoader::Unload
 // Il2CppName: Unload
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AudioClipAsyncLoader::*)(GlobalNamespace::IFilePathSongAudioClipProvider*)>(&GlobalNamespace::AudioClipAsyncLoader::Unload)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AudioClipAsyncLoader::*)(::GlobalNamespace::IFilePathSongAudioClipProvider*)>(&GlobalNamespace::AudioClipAsyncLoader::Unload)> {
   static const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("", "IFilePathSongAudioClipProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioClipAsyncLoader*), "Unload", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{source});
@@ -293,7 +293,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::AudioClipAsyncLoader::Load
 // Il2CppName: Load
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* (GlobalNamespace::AudioClipAsyncLoader::*)(UnityEngine::AudioClip*)>(&GlobalNamespace::AudioClipAsyncLoader::Load)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>* (GlobalNamespace::AudioClipAsyncLoader::*)(::UnityEngine::AudioClip*)>(&GlobalNamespace::AudioClipAsyncLoader::Load)> {
   static const MethodInfo* get() {
     static auto* audioClip = &::il2cpp_utils::GetClassFromName("UnityEngine", "AudioClip")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioClipAsyncLoader*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{audioClip});
@@ -302,7 +302,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: GlobalNamespace::AudioClipAsyncLoader::Load
 // Il2CppName: Load
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* (GlobalNamespace::AudioClipAsyncLoader::*)(::StringW)>(&GlobalNamespace::AudioClipAsyncLoader::Load)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>* (GlobalNamespace::AudioClipAsyncLoader::*)(::StringW)>(&GlobalNamespace::AudioClipAsyncLoader::Load)> {
   static const MethodInfo* get() {
     static auto* audioClipFilePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioClipAsyncLoader*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{audioClipFilePath});
@@ -311,7 +311,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: GlobalNamespace::AudioClipAsyncLoader::Load
 // Il2CppName: Load
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* (GlobalNamespace::AudioClipAsyncLoader::*)(int, GlobalNamespace::AudioClipAsyncLoader::LoadMethodDelegate*)>(&GlobalNamespace::AudioClipAsyncLoader::Load)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>* (GlobalNamespace::AudioClipAsyncLoader::*)(int, ::GlobalNamespace::AudioClipAsyncLoader::LoadMethodDelegate*)>(&GlobalNamespace::AudioClipAsyncLoader::Load)> {
   static const MethodInfo* get() {
     static auto* cacheKey = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* loadMethodDelegate = &::il2cpp_utils::GetClassFromName("", "AudioClipAsyncLoader/LoadMethodDelegate")->byval_arg;
@@ -321,7 +321,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: GlobalNamespace::AudioClipAsyncLoader::Unload
 // Il2CppName: Unload
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AudioClipAsyncLoader::*)(UnityEngine::AudioClip*)>(&GlobalNamespace::AudioClipAsyncLoader::Unload)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AudioClipAsyncLoader::*)(::UnityEngine::AudioClip*)>(&GlobalNamespace::AudioClipAsyncLoader::Unload)> {
   static const MethodInfo* get() {
     static auto* audioClip = &::il2cpp_utils::GetClassFromName("UnityEngine", "AudioClip")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioClipAsyncLoader*), "Unload", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{audioClip});
@@ -339,7 +339,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::AudioClipAsyncLoader::Unload
 // Il2CppName: Unload
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AudioClipAsyncLoader::*)(int, System::Action_1<UnityEngine::AudioClip*>*)>(&GlobalNamespace::AudioClipAsyncLoader::Unload)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AudioClipAsyncLoader::*)(int, ::System::Action_1<::UnityEngine::AudioClip*>*)>(&GlobalNamespace::AudioClipAsyncLoader::Unload)> {
   static const MethodInfo* get() {
     static auto* cacheKey = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* onDelete = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "AudioClip")})->byval_arg;
@@ -349,7 +349,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::AudioClipAsyncLoader::GetCacheKey
 // Il2CppName: GetCacheKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::AudioClipAsyncLoader::*)(UnityEngine::AudioClip*)>(&GlobalNamespace::AudioClipAsyncLoader::GetCacheKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::AudioClipAsyncLoader::*)(::UnityEngine::AudioClip*)>(&GlobalNamespace::AudioClipAsyncLoader::GetCacheKey)> {
   static const MethodInfo* get() {
     static auto* audioClip = &::il2cpp_utils::GetClassFromName("UnityEngine", "AudioClip")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioClipAsyncLoader*), "GetCacheKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{audioClip});

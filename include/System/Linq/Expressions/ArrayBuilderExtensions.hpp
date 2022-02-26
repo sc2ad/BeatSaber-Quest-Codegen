@@ -26,8 +26,8 @@ namespace System::Linq::Expressions {
   class ArrayBuilderExtensions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Linq::Expressions::ArrayBuilderExtensions);
-DEFINE_IL2CPP_ARG_TYPE(System::Linq::Expressions::ArrayBuilderExtensions*, "System.Linq.Expressions", "ArrayBuilderExtensions");
+NEED_NO_BOX(::System::Linq::Expressions::ArrayBuilderExtensions);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::ArrayBuilderExtensions*, "System.Linq.Expressions", "ArrayBuilderExtensions");
 // Type namespace: System.Linq.Expressions
 namespace System::Linq::Expressions {
   // Size: 0x10
@@ -40,11 +40,11 @@ namespace System::Linq::Expressions {
     // static public System.Collections.ObjectModel.ReadOnlyCollection`1<T> ToReadOnly(System.Collections.Generic.ArrayBuilder`1<T> builder)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static System::Collections::ObjectModel::ReadOnlyCollection_1<T>* ToReadOnly(System::Collections::Generic::ArrayBuilder_1<T> builder) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Expressions::ArrayBuilderExtensions::ToReadOnly");
+    static ::System::Collections::ObjectModel::ReadOnlyCollection_1<T>* ToReadOnly(::System::Collections::Generic::ArrayBuilder_1<T> builder) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Expressions::ArrayBuilderExtensions::ToReadOnly");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Linq.Expressions", "ArrayBuilderExtensions", "ToReadOnly", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(builder)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodRethrow<System::Collections::ObjectModel::ReadOnlyCollection_1<T>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, builder);
+      return ::il2cpp_utils::RunMethodRethrow<::System::Collections::ObjectModel::ReadOnlyCollection_1<T>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, builder);
     }
   }; // System.Linq.Expressions.ArrayBuilderExtensions
   #pragma pack(pop)

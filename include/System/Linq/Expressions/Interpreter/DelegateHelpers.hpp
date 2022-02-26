@@ -23,8 +23,8 @@ namespace System::Linq::Expressions::Interpreter {
   class DelegateHelpers;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Linq::Expressions::Interpreter::DelegateHelpers);
-DEFINE_IL2CPP_ARG_TYPE(System::Linq::Expressions::Interpreter::DelegateHelpers*, "System.Linq.Expressions.Interpreter", "DelegateHelpers");
+NEED_NO_BOX(::System::Linq::Expressions::Interpreter::DelegateHelpers);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::DelegateHelpers*, "System.Linq.Expressions.Interpreter", "DelegateHelpers");
 // Type namespace: System.Linq.Expressions.Interpreter
 namespace System::Linq::Expressions::Interpreter {
   // Size: 0x10
@@ -33,11 +33,11 @@ namespace System::Linq::Expressions::Interpreter {
   // [TokenAttribute] Offset: FFFFFFFF
   class DelegateHelpers : public ::Il2CppObject {
     public:
-    // Nested type: System::Linq::Expressions::Interpreter::DelegateHelpers::$$c
+    // Nested type: ::System::Linq::Expressions::Interpreter::DelegateHelpers::$$c
     class $$c;
     // static System.Type MakeDelegate(System.Type[] types)
     // Offset: 0x1EE9058
-    static System::Type* MakeDelegate(::ArrayW<System::Type*> types);
+    static ::System::Type* MakeDelegate(::ArrayW<::System::Type*> types);
   }; // System.Linq.Expressions.Interpreter.DelegateHelpers
   #pragma pack(pop)
 }
@@ -45,7 +45,7 @@ namespace System::Linq::Expressions::Interpreter {
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::DelegateHelpers::MakeDelegate
 // Il2CppName: MakeDelegate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(::ArrayW<System::Type*>)>(&System::Linq::Expressions::Interpreter::DelegateHelpers::MakeDelegate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::ArrayW<::System::Type*>)>(&System::Linq::Expressions::Interpreter::DelegateHelpers::MakeDelegate)> {
   static const MethodInfo* get() {
     static auto* types = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::DelegateHelpers*), "MakeDelegate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{types});

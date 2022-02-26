@@ -59,8 +59,8 @@ namespace System::Xml {
   class XmlNode;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::XmlNode);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlNode*, "System.Xml", "XmlNode");
+NEED_NO_BOX(::System::Xml::XmlNode);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlNode*, "System.Xml", "XmlNode");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x18
@@ -69,7 +69,7 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   // [DefaultMemberAttribute] Offset: 1194168
   // [DebuggerDisplayAttribute] Offset: 1194168
-  class XmlNode : public ::Il2CppObject/*, public System::Collections::IEnumerable, public System::ICloneable*/ {
+  class XmlNode : public ::Il2CppObject/*, public ::System::Collections::IEnumerable, public ::System::ICloneable*/ {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -83,24 +83,24 @@ namespace System::Xml {
     // System.Xml.XmlNode parentNode
     // Size: 0x8
     // Offset: 0x10
-    System::Xml::XmlNode* parentNode;
+    ::System::Xml::XmlNode* parentNode;
     // Field size check
-    static_assert(sizeof(System::Xml::XmlNode*) == 0x8);
+    static_assert(sizeof(::System::Xml::XmlNode*) == 0x8);
     public:
-    // Creating interface conversion operator: operator System::Collections::IEnumerable
-    operator System::Collections::IEnumerable() noexcept {
-      return *reinterpret_cast<System::Collections::IEnumerable*>(this);
+    // Creating interface conversion operator: operator ::System::Collections::IEnumerable
+    operator ::System::Collections::IEnumerable() noexcept {
+      return *reinterpret_cast<::System::Collections::IEnumerable*>(this);
     }
-    // Creating interface conversion operator: operator System::ICloneable
-    operator System::ICloneable() noexcept {
-      return *reinterpret_cast<System::ICloneable*>(this);
+    // Creating interface conversion operator: operator ::System::ICloneable
+    operator ::System::ICloneable() noexcept {
+      return *reinterpret_cast<::System::ICloneable*>(this);
     }
-    // Creating conversion operator: operator System::Xml::XmlNode*
-    constexpr operator System::Xml::XmlNode*() const noexcept {
+    // Creating conversion operator: operator ::System::Xml::XmlNode*
+    constexpr operator ::System::Xml::XmlNode*() const noexcept {
       return parentNode;
     }
     // Get instance field reference: System.Xml.XmlNode parentNode
-    System::Xml::XmlNode*& dyn_parentNode();
+    ::System::Xml::XmlNode*& dyn_parentNode();
     // public System.String get_Name()
     // Offset: 0xFFFFFFFF
     ::StringW get_Name();
@@ -112,40 +112,40 @@ namespace System::Xml {
     void set_Value(::StringW value);
     // public System.Xml.XmlNodeType get_NodeType()
     // Offset: 0xFFFFFFFF
-    System::Xml::XmlNodeType get_NodeType();
+    ::System::Xml::XmlNodeType get_NodeType();
     // public System.Xml.XmlNode get_ParentNode()
     // Offset: 0x1A24874
-    System::Xml::XmlNode* get_ParentNode();
+    ::System::Xml::XmlNode* get_ParentNode();
     // public System.Xml.XmlNodeList get_ChildNodes()
     // Offset: 0x1A24968
-    System::Xml::XmlNodeList* get_ChildNodes();
+    ::System::Xml::XmlNodeList* get_ChildNodes();
     // public System.Xml.XmlNode get_PreviousSibling()
     // Offset: 0x1A249CC
-    System::Xml::XmlNode* get_PreviousSibling();
+    ::System::Xml::XmlNode* get_PreviousSibling();
     // public System.Xml.XmlNode get_NextSibling()
     // Offset: 0x1A249D4
-    System::Xml::XmlNode* get_NextSibling();
+    ::System::Xml::XmlNode* get_NextSibling();
     // public System.Xml.XmlAttributeCollection get_Attributes()
     // Offset: 0x1A249DC
-    System::Xml::XmlAttributeCollection* get_Attributes();
+    ::System::Xml::XmlAttributeCollection* get_Attributes();
     // public System.Xml.XmlDocument get_OwnerDocument()
     // Offset: 0x1A249E4
-    System::Xml::XmlDocument* get_OwnerDocument();
+    ::System::Xml::XmlDocument* get_OwnerDocument();
     // public System.Xml.XmlNode get_FirstChild()
     // Offset: 0x1A24AAC
-    System::Xml::XmlNode* get_FirstChild();
+    ::System::Xml::XmlNode* get_FirstChild();
     // public System.Xml.XmlNode get_LastChild()
     // Offset: 0x1A24AD4
-    System::Xml::XmlNode* get_LastChild();
+    ::System::Xml::XmlNode* get_LastChild();
     // System.Boolean get_IsContainer()
     // Offset: 0x1A24AE4
     bool get_IsContainer();
     // System.Xml.XmlLinkedNode get_LastNode()
     // Offset: 0x1A24AEC
-    System::Xml::XmlLinkedNode* get_LastNode();
+    ::System::Xml::XmlLinkedNode* get_LastNode();
     // System.Void set_LastNode(System.Xml.XmlLinkedNode value)
     // Offset: 0x1A24AF4
-    void set_LastNode(System::Xml::XmlLinkedNode* value);
+    void set_LastNode(::System::Xml::XmlLinkedNode* value);
     // public System.Boolean get_HasChildNodes()
     // Offset: 0x1A2608C
     bool get_HasChildNodes();
@@ -175,16 +175,16 @@ namespace System::Xml {
     void set_InnerXml(::StringW value);
     // public System.Xml.Schema.IXmlSchemaInfo get_SchemaInfo()
     // Offset: 0x1A265DC
-    System::Xml::Schema::IXmlSchemaInfo* get_SchemaInfo();
+    ::System::Xml::Schema::IXmlSchemaInfo* get_SchemaInfo();
     // public System.String get_BaseURI()
     // Offset: 0x1A26644
     ::StringW get_BaseURI();
     // System.Xml.XmlDocument get_Document()
     // Offset: 0x1A26760
-    System::Xml::XmlDocument* get_Document();
+    ::System::Xml::XmlDocument* get_Document();
     // System.Xml.XmlSpace get_XmlSpace()
     // Offset: 0x1A26F30
-    System::Xml::XmlSpace get_XmlSpace();
+    ::System::Xml::XmlSpace get_XmlSpace();
     // System.String get_XmlLang()
     // Offset: 0x1A27090
     ::StringW get_XmlLang();
@@ -194,67 +194,67 @@ namespace System::Xml {
     // System.Void .ctor(System.Xml.XmlDocument doc)
     // Offset: 0x1A1AC20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlNode* New_ctor(System::Xml::XmlDocument* doc) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlNode::.ctor");
+    static XmlNode* New_ctor(::System::Xml::XmlDocument* doc) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlNode*, creationType>(doc)));
     }
     // System.Boolean AncestorNode(System.Xml.XmlNode node)
     // Offset: 0x1A24AF8
-    bool AncestorNode(System::Xml::XmlNode* node);
+    bool AncestorNode(::System::Xml::XmlNode* node);
     // public System.Xml.XmlNode InsertBefore(System.Xml.XmlNode newChild, System.Xml.XmlNode refChild)
     // Offset: 0x1A24B58
-    System::Xml::XmlNode* InsertBefore(System::Xml::XmlNode* newChild, System::Xml::XmlNode* refChild);
+    ::System::Xml::XmlNode* InsertBefore(::System::Xml::XmlNode* newChild, ::System::Xml::XmlNode* refChild);
     // public System.Xml.XmlNode InsertAfter(System.Xml.XmlNode newChild, System.Xml.XmlNode refChild)
     // Offset: 0x1A25100
-    System::Xml::XmlNode* InsertAfter(System::Xml::XmlNode* newChild, System::Xml::XmlNode* refChild);
+    ::System::Xml::XmlNode* InsertAfter(::System::Xml::XmlNode* newChild, ::System::Xml::XmlNode* refChild);
     // public System.Xml.XmlNode RemoveChild(System.Xml.XmlNode oldChild)
     // Offset: 0x1A25658
-    System::Xml::XmlNode* RemoveChild(System::Xml::XmlNode* oldChild);
+    ::System::Xml::XmlNode* RemoveChild(::System::Xml::XmlNode* oldChild);
     // public System.Xml.XmlNode PrependChild(System.Xml.XmlNode newChild)
     // Offset: 0x1A259CC
-    System::Xml::XmlNode* PrependChild(System::Xml::XmlNode* newChild);
+    ::System::Xml::XmlNode* PrependChild(::System::Xml::XmlNode* newChild);
     // public System.Xml.XmlNode AppendChild(System.Xml.XmlNode newChild)
     // Offset: 0x1A25A18
-    System::Xml::XmlNode* AppendChild(System::Xml::XmlNode* newChild);
+    ::System::Xml::XmlNode* AppendChild(::System::Xml::XmlNode* newChild);
     // System.Xml.XmlNode AppendChildForLoad(System.Xml.XmlNode newChild, System.Xml.XmlDocument doc)
     // Offset: 0x1A25EC8
-    System::Xml::XmlNode* AppendChildForLoad(System::Xml::XmlNode* newChild, System::Xml::XmlDocument* doc);
+    ::System::Xml::XmlNode* AppendChildForLoad(::System::Xml::XmlNode* newChild, ::System::Xml::XmlDocument* doc);
     // System.Boolean IsValidChildType(System.Xml.XmlNodeType type)
     // Offset: 0x1A26074
-    bool IsValidChildType(System::Xml::XmlNodeType type);
+    bool IsValidChildType(::System::Xml::XmlNodeType type);
     // System.Boolean CanInsertBefore(System.Xml.XmlNode newChild, System.Xml.XmlNode refChild)
     // Offset: 0x1A2607C
-    bool CanInsertBefore(System::Xml::XmlNode* newChild, System::Xml::XmlNode* refChild);
+    bool CanInsertBefore(::System::Xml::XmlNode* newChild, ::System::Xml::XmlNode* refChild);
     // System.Boolean CanInsertAfter(System.Xml.XmlNode newChild, System.Xml.XmlNode refChild)
     // Offset: 0x1A26084
-    bool CanInsertAfter(System::Xml::XmlNode* newChild, System::Xml::XmlNode* refChild);
+    bool CanInsertAfter(::System::Xml::XmlNode* newChild, ::System::Xml::XmlNode* refChild);
     // public System.Xml.XmlNode CloneNode(System.Boolean deep)
     // Offset: 0xFFFFFFFF
-    System::Xml::XmlNode* CloneNode(bool deep);
+    ::System::Xml::XmlNode* CloneNode(bool deep);
     // System.Void CopyChildren(System.Xml.XmlDocument doc, System.Xml.XmlNode container, System.Boolean deep)
     // Offset: 0x1A260B4
-    void CopyChildren(System::Xml::XmlDocument* doc, System::Xml::XmlNode* container, bool deep);
+    void CopyChildren(::System::Xml::XmlDocument* doc, ::System::Xml::XmlNode* container, bool deep);
     // static System.Boolean HasReadOnlyParent(System.Xml.XmlNode n)
     // Offset: 0x1A2622C
-    static bool HasReadOnlyParent(System::Xml::XmlNode* n);
+    static bool HasReadOnlyParent(::System::Xml::XmlNode* n);
     // private System.Object System.ICloneable.Clone()
     // Offset: 0x1A26300
     ::Il2CppObject* System_ICloneable_Clone();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
     // Offset: 0x1A26314
-    System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
+    ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
     // public System.Collections.IEnumerator GetEnumerator()
     // Offset: 0x1A139E8
-    System::Collections::IEnumerator* GetEnumerator();
+    ::System::Collections::IEnumerator* GetEnumerator();
     // private System.Void AppendChildText(System.Text.StringBuilder builder)
     // Offset: 0x1A26378
-    void AppendChildText(System::Text::StringBuilder* builder);
+    void AppendChildText(::System::Text::StringBuilder* builder);
     // public System.Void WriteTo(System.Xml.XmlWriter w)
     // Offset: 0xFFFFFFFF
-    void WriteTo(System::Xml::XmlWriter* w);
+    void WriteTo(::System::Xml::XmlWriter* w);
     // public System.Void WriteContentTo(System.Xml.XmlWriter w)
     // Offset: 0xFFFFFFFF
-    void WriteContentTo(System::Xml::XmlWriter* w);
+    void WriteContentTo(::System::Xml::XmlWriter* w);
     // public System.Void RemoveAll()
     // Offset: 0x1A165BC
     void RemoveAll();
@@ -266,43 +266,43 @@ namespace System::Xml {
     ::StringW GetPrefixOfNamespaceStrict(::StringW namespaceURI);
     // System.Void SetParent(System.Xml.XmlNode node)
     // Offset: 0x1A1B2B4
-    void SetParent(System::Xml::XmlNode* node);
+    void SetParent(::System::Xml::XmlNode* node);
     // System.Void SetParentForLoad(System.Xml.XmlNode node)
     // Offset: 0x1A26BE8
-    void SetParentForLoad(System::Xml::XmlNode* node);
+    void SetParentForLoad(::System::Xml::XmlNode* node);
     // static System.Void SplitName(System.String name, out System.String prefix, out System.String localName)
     // Offset: 0x1A26BF0
     static void SplitName(::StringW name, ByRef<::StringW> prefix, ByRef<::StringW> localName);
     // System.Xml.XmlNode FindChild(System.Xml.XmlNodeType type)
     // Offset: 0x1A26CC4
-    System::Xml::XmlNode* FindChild(System::Xml::XmlNodeType type);
+    ::System::Xml::XmlNode* FindChild(::System::Xml::XmlNodeType type);
     // System.Xml.XmlNodeChangedEventArgs GetEventArgs(System.Xml.XmlNode node, System.Xml.XmlNode oldParent, System.Xml.XmlNode newParent, System.String oldValue, System.String newValue, System.Xml.XmlNodeChangedAction action)
     // Offset: 0x1A26D2C
-    System::Xml::XmlNodeChangedEventArgs* GetEventArgs(System::Xml::XmlNode* node, System::Xml::XmlNode* oldParent, System::Xml::XmlNode* newParent, ::StringW oldValue, ::StringW newValue, System::Xml::XmlNodeChangedAction action);
+    ::System::Xml::XmlNodeChangedEventArgs* GetEventArgs(::System::Xml::XmlNode* node, ::System::Xml::XmlNode* oldParent, ::System::Xml::XmlNode* newParent, ::StringW oldValue, ::StringW newValue, ::System::Xml::XmlNodeChangedAction action);
     // System.Void BeforeEvent(System.Xml.XmlNodeChangedEventArgs args)
     // Offset: 0x1A26E88
-    void BeforeEvent(System::Xml::XmlNodeChangedEventArgs* args);
+    void BeforeEvent(::System::Xml::XmlNodeChangedEventArgs* args);
     // System.Void AfterEvent(System.Xml.XmlNodeChangedEventArgs args)
     // Offset: 0x1A26EDC
-    void AfterEvent(System::Xml::XmlNodeChangedEventArgs* args);
+    void AfterEvent(::System::Xml::XmlNodeChangedEventArgs* args);
     // static System.Void NestTextNodes(System.Xml.XmlNode prevNode, System.Xml.XmlNode nextNode)
     // Offset: 0x1A15904
-    static void NestTextNodes(System::Xml::XmlNode* prevNode, System::Xml::XmlNode* nextNode);
+    static void NestTextNodes(::System::Xml::XmlNode* prevNode, ::System::Xml::XmlNode* nextNode);
     // static System.Void UnnestTextNodes(System.Xml.XmlNode prevNode, System.Xml.XmlNode nextNode)
     // Offset: 0x1A250C8
-    static void UnnestTextNodes(System::Xml::XmlNode* prevNode, System::Xml::XmlNode* nextNode);
+    static void UnnestTextNodes(::System::Xml::XmlNode* prevNode, ::System::Xml::XmlNode* nextNode);
     // System.Void .ctor()
     // Offset: 0x1A1322C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlNode* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlNode::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlNode*, creationType>()));
     }
   }; // System.Xml.XmlNode
   #pragma pack(pop)
-  static check_size<sizeof(XmlNode), 16 + sizeof(System::Xml::XmlNode*)> __System_Xml_XmlNodeSizeCheck;
+  static check_size<sizeof(XmlNode), 16 + sizeof(::System::Xml::XmlNode*)> __System_Xml_XmlNodeSizeCheck;
   static_assert(sizeof(XmlNode) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -334,7 +334,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlNode::get_NodeType
 // Il2CppName: get_NodeType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlNodeType (System::Xml::XmlNode::*)()>(&System::Xml::XmlNode::get_NodeType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNodeType (System::Xml::XmlNode::*)()>(&System::Xml::XmlNode::get_NodeType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlNode*), "get_NodeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -342,7 +342,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlNode::get_ParentNode
 // Il2CppName: get_ParentNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlNode* (System::Xml::XmlNode::*)()>(&System::Xml::XmlNode::get_ParentNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (System::Xml::XmlNode::*)()>(&System::Xml::XmlNode::get_ParentNode)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlNode*), "get_ParentNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -350,7 +350,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlNode::get_ChildNodes
 // Il2CppName: get_ChildNodes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlNodeList* (System::Xml::XmlNode::*)()>(&System::Xml::XmlNode::get_ChildNodes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNodeList* (System::Xml::XmlNode::*)()>(&System::Xml::XmlNode::get_ChildNodes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlNode*), "get_ChildNodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -358,7 +358,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlNode::get_PreviousSibling
 // Il2CppName: get_PreviousSibling
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlNode* (System::Xml::XmlNode::*)()>(&System::Xml::XmlNode::get_PreviousSibling)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (System::Xml::XmlNode::*)()>(&System::Xml::XmlNode::get_PreviousSibling)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlNode*), "get_PreviousSibling", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -366,7 +366,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlNode::get_NextSibling
 // Il2CppName: get_NextSibling
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlNode* (System::Xml::XmlNode::*)()>(&System::Xml::XmlNode::get_NextSibling)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (System::Xml::XmlNode::*)()>(&System::Xml::XmlNode::get_NextSibling)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlNode*), "get_NextSibling", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -374,7 +374,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlNode::get_Attributes
 // Il2CppName: get_Attributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlAttributeCollection* (System::Xml::XmlNode::*)()>(&System::Xml::XmlNode::get_Attributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlAttributeCollection* (System::Xml::XmlNode::*)()>(&System::Xml::XmlNode::get_Attributes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlNode*), "get_Attributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -382,7 +382,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlNode::get_OwnerDocument
 // Il2CppName: get_OwnerDocument
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlDocument* (System::Xml::XmlNode::*)()>(&System::Xml::XmlNode::get_OwnerDocument)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlDocument* (System::Xml::XmlNode::*)()>(&System::Xml::XmlNode::get_OwnerDocument)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlNode*), "get_OwnerDocument", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -390,7 +390,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlNode::get_FirstChild
 // Il2CppName: get_FirstChild
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlNode* (System::Xml::XmlNode::*)()>(&System::Xml::XmlNode::get_FirstChild)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (System::Xml::XmlNode::*)()>(&System::Xml::XmlNode::get_FirstChild)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlNode*), "get_FirstChild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -398,7 +398,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlNode::get_LastChild
 // Il2CppName: get_LastChild
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlNode* (System::Xml::XmlNode::*)()>(&System::Xml::XmlNode::get_LastChild)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (System::Xml::XmlNode::*)()>(&System::Xml::XmlNode::get_LastChild)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlNode*), "get_LastChild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -414,7 +414,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Xml::XmlNode::get_LastNode
 // Il2CppName: get_LastNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlLinkedNode* (System::Xml::XmlNode::*)()>(&System::Xml::XmlNode::get_LastNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlLinkedNode* (System::Xml::XmlNode::*)()>(&System::Xml::XmlNode::get_LastNode)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlNode*), "get_LastNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -422,7 +422,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlNode::set_LastNode
 // Il2CppName: set_LastNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlNode::*)(System::Xml::XmlLinkedNode*)>(&System::Xml::XmlNode::set_LastNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlNode::*)(::System::Xml::XmlLinkedNode*)>(&System::Xml::XmlNode::set_LastNode)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlLinkedNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlNode*), "set_LastNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -506,7 +506,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlNode::get_SchemaInfo
 // Il2CppName: get_SchemaInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Schema::IXmlSchemaInfo* (System::Xml::XmlNode::*)()>(&System::Xml::XmlNode::get_SchemaInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::IXmlSchemaInfo* (System::Xml::XmlNode::*)()>(&System::Xml::XmlNode::get_SchemaInfo)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlNode*), "get_SchemaInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -522,7 +522,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Xml::XmlNode::get_Document
 // Il2CppName: get_Document
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlDocument* (System::Xml::XmlNode::*)()>(&System::Xml::XmlNode::get_Document)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlDocument* (System::Xml::XmlNode::*)()>(&System::Xml::XmlNode::get_Document)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlNode*), "get_Document", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -530,7 +530,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlNode::get_XmlSpace
 // Il2CppName: get_XmlSpace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlSpace (System::Xml::XmlNode::*)()>(&System::Xml::XmlNode::get_XmlSpace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlSpace (System::Xml::XmlNode::*)()>(&System::Xml::XmlNode::get_XmlSpace)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlNode*), "get_XmlSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -558,7 +558,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Xml::XmlNode::AncestorNode
 // Il2CppName: AncestorNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::XmlNode::*)(System::Xml::XmlNode*)>(&System::Xml::XmlNode::AncestorNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::XmlNode::*)(::System::Xml::XmlNode*)>(&System::Xml::XmlNode::AncestorNode)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlNode*), "AncestorNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node});
@@ -567,7 +567,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Xml::XmlNode::InsertBefore
 // Il2CppName: InsertBefore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlNode* (System::Xml::XmlNode::*)(System::Xml::XmlNode*, System::Xml::XmlNode*)>(&System::Xml::XmlNode::InsertBefore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (System::Xml::XmlNode::*)(::System::Xml::XmlNode*, ::System::Xml::XmlNode*)>(&System::Xml::XmlNode::InsertBefore)> {
   static const MethodInfo* get() {
     static auto* newChild = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNode")->byval_arg;
     static auto* refChild = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNode")->byval_arg;
@@ -577,7 +577,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlNode::InsertAfter
 // Il2CppName: InsertAfter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlNode* (System::Xml::XmlNode::*)(System::Xml::XmlNode*, System::Xml::XmlNode*)>(&System::Xml::XmlNode::InsertAfter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (System::Xml::XmlNode::*)(::System::Xml::XmlNode*, ::System::Xml::XmlNode*)>(&System::Xml::XmlNode::InsertAfter)> {
   static const MethodInfo* get() {
     static auto* newChild = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNode")->byval_arg;
     static auto* refChild = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNode")->byval_arg;
@@ -587,7 +587,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlNode::RemoveChild
 // Il2CppName: RemoveChild
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlNode* (System::Xml::XmlNode::*)(System::Xml::XmlNode*)>(&System::Xml::XmlNode::RemoveChild)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (System::Xml::XmlNode::*)(::System::Xml::XmlNode*)>(&System::Xml::XmlNode::RemoveChild)> {
   static const MethodInfo* get() {
     static auto* oldChild = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlNode*), "RemoveChild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{oldChild});
@@ -596,7 +596,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlNode::PrependChild
 // Il2CppName: PrependChild
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlNode* (System::Xml::XmlNode::*)(System::Xml::XmlNode*)>(&System::Xml::XmlNode::PrependChild)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (System::Xml::XmlNode::*)(::System::Xml::XmlNode*)>(&System::Xml::XmlNode::PrependChild)> {
   static const MethodInfo* get() {
     static auto* newChild = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlNode*), "PrependChild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newChild});
@@ -605,7 +605,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlNode::AppendChild
 // Il2CppName: AppendChild
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlNode* (System::Xml::XmlNode::*)(System::Xml::XmlNode*)>(&System::Xml::XmlNode::AppendChild)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (System::Xml::XmlNode::*)(::System::Xml::XmlNode*)>(&System::Xml::XmlNode::AppendChild)> {
   static const MethodInfo* get() {
     static auto* newChild = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlNode*), "AppendChild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newChild});
@@ -614,7 +614,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlNode::AppendChildForLoad
 // Il2CppName: AppendChildForLoad
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlNode* (System::Xml::XmlNode::*)(System::Xml::XmlNode*, System::Xml::XmlDocument*)>(&System::Xml::XmlNode::AppendChildForLoad)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (System::Xml::XmlNode::*)(::System::Xml::XmlNode*, ::System::Xml::XmlDocument*)>(&System::Xml::XmlNode::AppendChildForLoad)> {
   static const MethodInfo* get() {
     static auto* newChild = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNode")->byval_arg;
     static auto* doc = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlDocument")->byval_arg;
@@ -624,7 +624,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlNode::IsValidChildType
 // Il2CppName: IsValidChildType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::XmlNode::*)(System::Xml::XmlNodeType)>(&System::Xml::XmlNode::IsValidChildType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::XmlNode::*)(::System::Xml::XmlNodeType)>(&System::Xml::XmlNode::IsValidChildType)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNodeType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlNode*), "IsValidChildType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -633,7 +633,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Xml::XmlNode::CanInsertBefore
 // Il2CppName: CanInsertBefore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::XmlNode::*)(System::Xml::XmlNode*, System::Xml::XmlNode*)>(&System::Xml::XmlNode::CanInsertBefore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::XmlNode::*)(::System::Xml::XmlNode*, ::System::Xml::XmlNode*)>(&System::Xml::XmlNode::CanInsertBefore)> {
   static const MethodInfo* get() {
     static auto* newChild = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNode")->byval_arg;
     static auto* refChild = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNode")->byval_arg;
@@ -643,7 +643,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Xml::XmlNode::CanInsertAfter
 // Il2CppName: CanInsertAfter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::XmlNode::*)(System::Xml::XmlNode*, System::Xml::XmlNode*)>(&System::Xml::XmlNode::CanInsertAfter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::XmlNode::*)(::System::Xml::XmlNode*, ::System::Xml::XmlNode*)>(&System::Xml::XmlNode::CanInsertAfter)> {
   static const MethodInfo* get() {
     static auto* newChild = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNode")->byval_arg;
     static auto* refChild = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNode")->byval_arg;
@@ -653,7 +653,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Xml::XmlNode::CloneNode
 // Il2CppName: CloneNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlNode* (System::Xml::XmlNode::*)(bool)>(&System::Xml::XmlNode::CloneNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (System::Xml::XmlNode::*)(bool)>(&System::Xml::XmlNode::CloneNode)> {
   static const MethodInfo* get() {
     static auto* deep = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlNode*), "CloneNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{deep});
@@ -662,7 +662,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlNode::CopyChildren
 // Il2CppName: CopyChildren
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlNode::*)(System::Xml::XmlDocument*, System::Xml::XmlNode*, bool)>(&System::Xml::XmlNode::CopyChildren)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlNode::*)(::System::Xml::XmlDocument*, ::System::Xml::XmlNode*, bool)>(&System::Xml::XmlNode::CopyChildren)> {
   static const MethodInfo* get() {
     static auto* doc = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlDocument")->byval_arg;
     static auto* container = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNode")->byval_arg;
@@ -673,7 +673,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlNode::HasReadOnlyParent
 // Il2CppName: HasReadOnlyParent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Xml::XmlNode*)>(&System::Xml::XmlNode::HasReadOnlyParent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Xml::XmlNode*)>(&System::Xml::XmlNode::HasReadOnlyParent)> {
   static const MethodInfo* get() {
     static auto* n = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlNode*), "HasReadOnlyParent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{n});
@@ -690,7 +690,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Xml::XmlNode::System_Collections_IEnumerable_GetEnumerator
 // Il2CppName: System.Collections.IEnumerable.GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (System::Xml::XmlNode::*)()>(&System::Xml::XmlNode::System_Collections_IEnumerable_GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (System::Xml::XmlNode::*)()>(&System::Xml::XmlNode::System_Collections_IEnumerable_GetEnumerator)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlNode*), "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -698,7 +698,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::Xml::XmlNode::GetEnumerator
 // Il2CppName: GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (System::Xml::XmlNode::*)()>(&System::Xml::XmlNode::GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (System::Xml::XmlNode::*)()>(&System::Xml::XmlNode::GetEnumerator)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlNode*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -706,7 +706,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::Xml::XmlNode::AppendChildText
 // Il2CppName: AppendChildText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlNode::*)(System::Text::StringBuilder*)>(&System::Xml::XmlNode::AppendChildText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlNode::*)(::System::Text::StringBuilder*)>(&System::Xml::XmlNode::AppendChildText)> {
   static const MethodInfo* get() {
     static auto* builder = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlNode*), "AppendChildText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{builder});
@@ -715,7 +715,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlNode::WriteTo
 // Il2CppName: WriteTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlNode::*)(System::Xml::XmlWriter*)>(&System::Xml::XmlNode::WriteTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlNode::*)(::System::Xml::XmlWriter*)>(&System::Xml::XmlNode::WriteTo)> {
   static const MethodInfo* get() {
     static auto* w = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlWriter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlNode*), "WriteTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{w});
@@ -724,7 +724,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlNode::WriteContentTo
 // Il2CppName: WriteContentTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlNode::*)(System::Xml::XmlWriter*)>(&System::Xml::XmlNode::WriteContentTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlNode::*)(::System::Xml::XmlWriter*)>(&System::Xml::XmlNode::WriteContentTo)> {
   static const MethodInfo* get() {
     static auto* w = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlWriter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlNode*), "WriteContentTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{w});
@@ -759,7 +759,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Xml::XmlNode::SetParent
 // Il2CppName: SetParent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlNode::*)(System::Xml::XmlNode*)>(&System::Xml::XmlNode::SetParent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlNode::*)(::System::Xml::XmlNode*)>(&System::Xml::XmlNode::SetParent)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlNode*), "SetParent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node});
@@ -768,7 +768,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlNode::SetParentForLoad
 // Il2CppName: SetParentForLoad
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlNode::*)(System::Xml::XmlNode*)>(&System::Xml::XmlNode::SetParentForLoad)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlNode::*)(::System::Xml::XmlNode*)>(&System::Xml::XmlNode::SetParentForLoad)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlNode*), "SetParentForLoad", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node});
@@ -788,7 +788,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::Xml::XmlNode::FindChild
 // Il2CppName: FindChild
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlNode* (System::Xml::XmlNode::*)(System::Xml::XmlNodeType)>(&System::Xml::XmlNode::FindChild)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (System::Xml::XmlNode::*)(::System::Xml::XmlNodeType)>(&System::Xml::XmlNode::FindChild)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNodeType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlNode*), "FindChild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -797,7 +797,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlNode::GetEventArgs
 // Il2CppName: GetEventArgs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlNodeChangedEventArgs* (System::Xml::XmlNode::*)(System::Xml::XmlNode*, System::Xml::XmlNode*, System::Xml::XmlNode*, ::StringW, ::StringW, System::Xml::XmlNodeChangedAction)>(&System::Xml::XmlNode::GetEventArgs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNodeChangedEventArgs* (System::Xml::XmlNode::*)(::System::Xml::XmlNode*, ::System::Xml::XmlNode*, ::System::Xml::XmlNode*, ::StringW, ::StringW, ::System::Xml::XmlNodeChangedAction)>(&System::Xml::XmlNode::GetEventArgs)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNode")->byval_arg;
     static auto* oldParent = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNode")->byval_arg;
@@ -811,7 +811,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::XmlNode::BeforeEvent
 // Il2CppName: BeforeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlNode::*)(System::Xml::XmlNodeChangedEventArgs*)>(&System::Xml::XmlNode::BeforeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlNode::*)(::System::Xml::XmlNodeChangedEventArgs*)>(&System::Xml::XmlNode::BeforeEvent)> {
   static const MethodInfo* get() {
     static auto* args = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNodeChangedEventArgs")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlNode*), "BeforeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{args});
@@ -820,7 +820,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlNode::AfterEvent
 // Il2CppName: AfterEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlNode::*)(System::Xml::XmlNodeChangedEventArgs*)>(&System::Xml::XmlNode::AfterEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlNode::*)(::System::Xml::XmlNodeChangedEventArgs*)>(&System::Xml::XmlNode::AfterEvent)> {
   static const MethodInfo* get() {
     static auto* args = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNodeChangedEventArgs")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlNode*), "AfterEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{args});
@@ -829,7 +829,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlNode::NestTextNodes
 // Il2CppName: NestTextNodes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Xml::XmlNode*, System::Xml::XmlNode*)>(&System::Xml::XmlNode::NestTextNodes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::XmlNode*, ::System::Xml::XmlNode*)>(&System::Xml::XmlNode::NestTextNodes)> {
   static const MethodInfo* get() {
     static auto* prevNode = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNode")->byval_arg;
     static auto* nextNode = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNode")->byval_arg;
@@ -839,7 +839,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Xml::XmlNode::UnnestTextNodes
 // Il2CppName: UnnestTextNodes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Xml::XmlNode*, System::Xml::XmlNode*)>(&System::Xml::XmlNode::UnnestTextNodes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::XmlNode*, ::System::Xml::XmlNode*)>(&System::Xml::XmlNode::UnnestTextNodes)> {
   static const MethodInfo* get() {
     static auto* prevNode = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNode")->byval_arg;
     static auto* nextNode = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNode")->byval_arg;

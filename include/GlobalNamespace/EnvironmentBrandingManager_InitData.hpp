@@ -13,8 +13,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::EnvironmentBrandingManager::InitData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentBrandingManager::InitData*, "", "EnvironmentBrandingManager/InitData");
+NEED_NO_BOX(::GlobalNamespace::EnvironmentBrandingManager::InitData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EnvironmentBrandingManager::InitData*, "", "EnvironmentBrandingManager/InitData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x11
@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     // Offset: 0x13F9F8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentBrandingManager::InitData* New_ctor(bool hideBranding) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EnvironmentBrandingManager::InitData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnvironmentBrandingManager::InitData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnvironmentBrandingManager::InitData*, creationType>(hideBranding)));
     }
   }; // EnvironmentBrandingManager/InitData

@@ -26,8 +26,8 @@ namespace System::Diagnostics {
   class DebuggerTypeProxyAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Diagnostics::DebuggerTypeProxyAttribute);
-DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DebuggerTypeProxyAttribute*, "System.Diagnostics", "DebuggerTypeProxyAttribute");
+NEED_NO_BOX(::System::Diagnostics::DebuggerTypeProxyAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::DebuggerTypeProxyAttribute*, "System.Diagnostics", "DebuggerTypeProxyAttribute");
 // Type namespace: System.Diagnostics
 namespace System::Diagnostics {
   // Size: 0x18
@@ -36,7 +36,7 @@ namespace System::Diagnostics {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AttributeUsageAttribute] Offset: 118D77C
   // [ComVisibleAttribute] Offset: 118D77C
-  class DebuggerTypeProxyAttribute : public System::Attribute {
+  class DebuggerTypeProxyAttribute : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -63,8 +63,8 @@ namespace System::Diagnostics {
     // public System.Void .ctor(System.Type type)
     // Offset: 0x188002C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DebuggerTypeProxyAttribute* New_ctor(System::Type* type) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::DebuggerTypeProxyAttribute::.ctor");
+    static DebuggerTypeProxyAttribute* New_ctor(::System::Type* type) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Diagnostics::DebuggerTypeProxyAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DebuggerTypeProxyAttribute*, creationType>(type)));
     }
   }; // System.Diagnostics.DebuggerTypeProxyAttribute

@@ -14,7 +14,7 @@ namespace UnityEngine {
   struct LayerMask;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::LayerMask, "UnityEngine", "LayerMask");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::LayerMask, "UnityEngine", "LayerMask");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x4
@@ -26,7 +26,7 @@ namespace UnityEngine {
   // [NativeClassAttribute] Offset: 11A5EC4
   // [NativeHeaderAttribute] Offset: 11A5EC4
   // [NativeHeaderAttribute] Offset: 11A5EC4
-  struct LayerMask/*, public System::ValueType*/ {
+  struct LayerMask/*, public ::System::ValueType*/ {
     public:
     public:
     // [NativeNameAttribute] Offset: 0x11A97D8
@@ -39,9 +39,9 @@ namespace UnityEngine {
     public:
     // Creating value type constructor for type: LayerMask
     constexpr LayerMask(int m_Mask_ = {}) noexcept : m_Mask{m_Mask_} {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {

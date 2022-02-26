@@ -50,8 +50,8 @@ namespace System::Linq::Expressions::Interpreter {
   class LightLambda;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Linq::Expressions::Interpreter::LightLambda);
-DEFINE_IL2CPP_ARG_TYPE(System::Linq::Expressions::Interpreter::LightLambda*, "System.Linq.Expressions.Interpreter", "LightLambda");
+NEED_NO_BOX(::System::Linq::Expressions::Interpreter::LightLambda);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::LightLambda*, "System.Linq.Expressions.Interpreter", "LightLambda");
 // Type namespace: System.Linq.Expressions.Interpreter
 namespace System::Linq::Expressions::Interpreter {
   // Size: 0x28
@@ -60,7 +60,7 @@ namespace System::Linq::Expressions::Interpreter {
   // [TokenAttribute] Offset: FFFFFFFF
   class LightLambda : public ::Il2CppObject {
     public:
-    // Nested type: System::Linq::Expressions::Interpreter::LightLambda::$$c__DisplayClass74_0
+    // Nested type: ::System::Linq::Expressions::Interpreter::LightLambda::$$c__DisplayClass74_0
     class $$c__DisplayClass74_0;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -74,37 +74,37 @@ namespace System::Linq::Expressions::Interpreter {
     // private readonly System.Runtime.CompilerServices.IStrongBox[] _closure
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<System::Runtime::CompilerServices::IStrongBox*> closure;
+    ::ArrayW<::System::Runtime::CompilerServices::IStrongBox*> closure;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::Runtime::CompilerServices::IStrongBox*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::System::Runtime::CompilerServices::IStrongBox*>) == 0x8);
     // private readonly System.Linq.Expressions.Interpreter.Interpreter _interpreter
     // Size: 0x8
     // Offset: 0x18
-    System::Linq::Expressions::Interpreter::Interpreter* interpreter;
+    ::System::Linq::Expressions::Interpreter::Interpreter* interpreter;
     // Field size check
-    static_assert(sizeof(System::Linq::Expressions::Interpreter::Interpreter*) == 0x8);
+    static_assert(sizeof(::System::Linq::Expressions::Interpreter::Interpreter*) == 0x8);
     // private readonly System.Linq.Expressions.Interpreter.LightDelegateCreator _delegateCreator
     // Size: 0x8
     // Offset: 0x20
-    System::Linq::Expressions::Interpreter::LightDelegateCreator* delegateCreator;
+    ::System::Linq::Expressions::Interpreter::LightDelegateCreator* delegateCreator;
     // Field size check
-    static_assert(sizeof(System::Linq::Expressions::Interpreter::LightDelegateCreator*) == 0x8);
+    static_assert(sizeof(::System::Linq::Expressions::Interpreter::LightDelegateCreator*) == 0x8);
     public:
     // Get static field: static private readonly System.Dynamic.Utils.CacheDict`2<System.Type,System.Func`2<System.Linq.Expressions.Interpreter.LightLambda,System.Delegate>> _runCache
-    static System::Dynamic::Utils::CacheDict_2<System::Type*, System::Func_2<System::Linq::Expressions::Interpreter::LightLambda*, System::Delegate*>*>* _get__runCache();
+    static ::System::Dynamic::Utils::CacheDict_2<::System::Type*, ::System::Func_2<::System::Linq::Expressions::Interpreter::LightLambda*, ::System::Delegate*>*>* _get__runCache();
     // Set static field: static private readonly System.Dynamic.Utils.CacheDict`2<System.Type,System.Func`2<System.Linq.Expressions.Interpreter.LightLambda,System.Delegate>> _runCache
-    static void _set__runCache(System::Dynamic::Utils::CacheDict_2<System::Type*, System::Func_2<System::Linq::Expressions::Interpreter::LightLambda*, System::Delegate*>*>* value);
+    static void _set__runCache(::System::Dynamic::Utils::CacheDict_2<::System::Type*, ::System::Func_2<::System::Linq::Expressions::Interpreter::LightLambda*, ::System::Delegate*>*>* value);
     // Get instance field reference: private readonly System.Runtime.CompilerServices.IStrongBox[] _closure
-    ::ArrayW<System::Runtime::CompilerServices::IStrongBox*>& dyn__closure();
+    ::ArrayW<::System::Runtime::CompilerServices::IStrongBox*>& dyn__closure();
     // Get instance field reference: private readonly System.Linq.Expressions.Interpreter.Interpreter _interpreter
-    System::Linq::Expressions::Interpreter::Interpreter*& dyn__interpreter();
+    ::System::Linq::Expressions::Interpreter::Interpreter*& dyn__interpreter();
     // Get instance field reference: private readonly System.Linq.Expressions.Interpreter.LightDelegateCreator _delegateCreator
-    System::Linq::Expressions::Interpreter::LightDelegateCreator*& dyn__delegateCreator();
+    ::System::Linq::Expressions::Interpreter::LightDelegateCreator*& dyn__delegateCreator();
     // System.Void .ctor(System.Linq.Expressions.Interpreter.LightDelegateCreator delegateCreator, System.Runtime.CompilerServices.IStrongBox[] closure)
     // Offset: 0x1EF4460
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static LightLambda* New_ctor(System::Linq::Expressions::Interpreter::LightDelegateCreator* delegateCreator, ::ArrayW<System::Runtime::CompilerServices::IStrongBox*> closure) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Expressions::Interpreter::LightLambda::.ctor");
+    static LightLambda* New_ctor(::System::Linq::Expressions::Interpreter::LightDelegateCreator* delegateCreator, ::ArrayW<::System::Runtime::CompilerServices::IStrongBox*> closure) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Expressions::Interpreter::LightLambda::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightLambda*, creationType>(delegateCreator, closure)));
     }
     // static private System.Void .cctor()
@@ -115,24 +115,24 @@ namespace System::Linq::Expressions::Interpreter {
     void RunVoid0();
     // static private System.Func`2<System.Linq.Expressions.Interpreter.LightLambda,System.Delegate> GetRunDelegateCtor(System.Type delegateType)
     // Offset: 0x1EF4664
-    static System::Func_2<System::Linq::Expressions::Interpreter::LightLambda*, System::Delegate*>* GetRunDelegateCtor(System::Type* delegateType);
+    static ::System::Func_2<::System::Linq::Expressions::Interpreter::LightLambda*, ::System::Delegate*>* GetRunDelegateCtor(::System::Type* delegateType);
     // static private System.Func`2<System.Linq.Expressions.Interpreter.LightLambda,System.Delegate> MakeRunDelegateCtor(System.Type delegateType)
     // Offset: 0x1EF47CC
-    static System::Func_2<System::Linq::Expressions::Interpreter::LightLambda*, System::Delegate*>* MakeRunDelegateCtor(System::Type* delegateType);
+    static ::System::Func_2<::System::Linq::Expressions::Interpreter::LightLambda*, ::System::Delegate*>* MakeRunDelegateCtor(::System::Type* delegateType);
     // private System.Delegate CreateCustomDelegate(System.Type delegateType)
     // Offset: 0x1EF4FCC
-    System::Delegate* CreateCustomDelegate(System::Type* delegateType);
+    ::System::Delegate* CreateCustomDelegate(::System::Type* delegateType);
     // System.Delegate MakeDelegate(System.Type delegateType)
     // Offset: 0x1EF44AC
-    System::Delegate* MakeDelegate(System::Type* delegateType);
+    ::System::Delegate* MakeDelegate(::System::Type* delegateType);
     // private System.Linq.Expressions.Interpreter.InterpretedFrame MakeFrame()
     // Offset: 0x1EF45F0
-    System::Linq::Expressions::Interpreter::InterpretedFrame* MakeFrame();
+    ::System::Linq::Expressions::Interpreter::InterpretedFrame* MakeFrame();
     // System.Void RunVoidRef2(ref T0 arg0, ref T1 arg1)
     // Offset: 0xFFFFFFFF
     template<class T0, class T1>
     void RunVoidRef2(ByRef<T0> arg0, ByRef<T1> arg1) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Expressions::Interpreter::LightLambda::RunVoidRef2");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Expressions::Interpreter::LightLambda::RunVoidRef2");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "RunVoidRef2", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T0>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg0), ::il2cpp_utils::ExtractType(arg1)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T0>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get()})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, byref(arg0), byref(arg1));
@@ -145,7 +145,7 @@ namespace System::Linq::Expressions::Interpreter {
     ::Il2CppObject* RunVoid(::ArrayW<::Il2CppObject*> arguments);
   }; // System.Linq.Expressions.Interpreter.LightLambda
   #pragma pack(pop)
-  static check_size<sizeof(LightLambda), 32 + sizeof(System::Linq::Expressions::Interpreter::LightDelegateCreator*)> __System_Linq_Expressions_Interpreter_LightLambdaSizeCheck;
+  static check_size<sizeof(LightLambda), 32 + sizeof(::System::Linq::Expressions::Interpreter::LightDelegateCreator*)> __System_Linq_Expressions_Interpreter_LightLambdaSizeCheck;
   static_assert(sizeof(LightLambda) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -172,7 +172,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightLambda::GetRunDelegateCtor
 // Il2CppName: GetRunDelegateCtor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Func_2<System::Linq::Expressions::Interpreter::LightLambda*, System::Delegate*>* (*)(System::Type*)>(&System::Linq::Expressions::Interpreter::LightLambda::GetRunDelegateCtor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Func_2<::System::Linq::Expressions::Interpreter::LightLambda*, ::System::Delegate*>* (*)(::System::Type*)>(&System::Linq::Expressions::Interpreter::LightLambda::GetRunDelegateCtor)> {
   static const MethodInfo* get() {
     static auto* delegateType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightLambda*), "GetRunDelegateCtor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{delegateType});
@@ -181,7 +181,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Fun
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightLambda::MakeRunDelegateCtor
 // Il2CppName: MakeRunDelegateCtor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Func_2<System::Linq::Expressions::Interpreter::LightLambda*, System::Delegate*>* (*)(System::Type*)>(&System::Linq::Expressions::Interpreter::LightLambda::MakeRunDelegateCtor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Func_2<::System::Linq::Expressions::Interpreter::LightLambda*, ::System::Delegate*>* (*)(::System::Type*)>(&System::Linq::Expressions::Interpreter::LightLambda::MakeRunDelegateCtor)> {
   static const MethodInfo* get() {
     static auto* delegateType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightLambda*), "MakeRunDelegateCtor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{delegateType});
@@ -190,7 +190,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Fun
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightLambda::CreateCustomDelegate
 // Il2CppName: CreateCustomDelegate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Delegate* (System::Linq::Expressions::Interpreter::LightLambda::*)(System::Type*)>(&System::Linq::Expressions::Interpreter::LightLambda::CreateCustomDelegate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Delegate* (System::Linq::Expressions::Interpreter::LightLambda::*)(::System::Type*)>(&System::Linq::Expressions::Interpreter::LightLambda::CreateCustomDelegate)> {
   static const MethodInfo* get() {
     static auto* delegateType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightLambda*), "CreateCustomDelegate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{delegateType});
@@ -199,7 +199,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Del
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightLambda::MakeDelegate
 // Il2CppName: MakeDelegate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Delegate* (System::Linq::Expressions::Interpreter::LightLambda::*)(System::Type*)>(&System::Linq::Expressions::Interpreter::LightLambda::MakeDelegate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Delegate* (System::Linq::Expressions::Interpreter::LightLambda::*)(::System::Type*)>(&System::Linq::Expressions::Interpreter::LightLambda::MakeDelegate)> {
   static const MethodInfo* get() {
     static auto* delegateType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightLambda*), "MakeDelegate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{delegateType});
@@ -208,7 +208,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Del
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::LightLambda::MakeFrame
 // Il2CppName: MakeFrame
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Linq::Expressions::Interpreter::InterpretedFrame* (System::Linq::Expressions::Interpreter::LightLambda::*)()>(&System::Linq::Expressions::Interpreter::LightLambda::MakeFrame)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Interpreter::InterpretedFrame* (System::Linq::Expressions::Interpreter::LightLambda::*)()>(&System::Linq::Expressions::Interpreter::LightLambda::MakeFrame)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::LightLambda*), "MakeFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

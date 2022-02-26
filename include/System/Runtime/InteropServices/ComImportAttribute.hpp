@@ -18,8 +18,8 @@ namespace System::Runtime::InteropServices {
   class ComImportAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::InteropServices::ComImportAttribute);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::ComImportAttribute*, "System.Runtime.InteropServices", "ComImportAttribute");
+NEED_NO_BOX(::System::Runtime::InteropServices::ComImportAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::InteropServices::ComImportAttribute*, "System.Runtime.InteropServices", "ComImportAttribute");
 // Type namespace: System.Runtime.InteropServices
 namespace System::Runtime::InteropServices {
   // Size: 0x10
@@ -28,7 +28,7 @@ namespace System::Runtime::InteropServices {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: 118B814
   // [AttributeUsageAttribute] Offset: 118B814
-  class ComImportAttribute : public System::Attribute {
+  class ComImportAttribute : public ::System::Attribute {
     public:
     // public System.Void .ctor()
     // Offset: 0x1C6BB68
@@ -37,7 +37,7 @@ namespace System::Runtime::InteropServices {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ComImportAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::ComImportAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::InteropServices::ComImportAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ComImportAttribute*, creationType>()));
     }
   }; // System.Runtime.InteropServices.ComImportAttribute

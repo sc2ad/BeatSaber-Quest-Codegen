@@ -58,8 +58,8 @@ namespace System::Xml::Serialization {
   class XmlReflectionImporter;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Serialization::XmlReflectionImporter);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Serialization::XmlReflectionImporter*, "System.Xml.Serialization", "XmlReflectionImporter");
+NEED_NO_BOX(::System::Xml::Serialization::XmlReflectionImporter);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::XmlReflectionImporter*, "System.Xml.Serialization", "XmlReflectionImporter");
 // Type namespace: System.Xml.Serialization
 namespace System::Xml::Serialization {
   // Size: 0x41
@@ -68,7 +68,7 @@ namespace System::Xml::Serialization {
   // [TokenAttribute] Offset: FFFFFFFF
   class XmlReflectionImporter : public ::Il2CppObject {
     public:
-    // Nested type: System::Xml::Serialization::XmlReflectionImporter::$$c
+    // Nested type: ::System::Xml::Serialization::XmlReflectionImporter::$$c
     class $$c;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -88,21 +88,21 @@ namespace System::Xml::Serialization {
     // private System.Xml.Serialization.XmlAttributeOverrides attributeOverrides
     // Size: 0x8
     // Offset: 0x18
-    System::Xml::Serialization::XmlAttributeOverrides* attributeOverrides;
+    ::System::Xml::Serialization::XmlAttributeOverrides* attributeOverrides;
     // Field size check
-    static_assert(sizeof(System::Xml::Serialization::XmlAttributeOverrides*) == 0x8);
+    static_assert(sizeof(::System::Xml::Serialization::XmlAttributeOverrides*) == 0x8);
     // private System.Collections.ArrayList includedTypes
     // Size: 0x8
     // Offset: 0x20
-    System::Collections::ArrayList* includedTypes;
+    ::System::Collections::ArrayList* includedTypes;
     // Field size check
-    static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
+    static_assert(sizeof(::System::Collections::ArrayList*) == 0x8);
     // private System.Xml.Serialization.ReflectionHelper helper
     // Size: 0x8
     // Offset: 0x28
-    System::Xml::Serialization::ReflectionHelper* helper;
+    ::System::Xml::Serialization::ReflectionHelper* helper;
     // Field size check
-    static_assert(sizeof(System::Xml::Serialization::ReflectionHelper*) == 0x8);
+    static_assert(sizeof(::System::Xml::Serialization::ReflectionHelper*) == 0x8);
     // private System.Int32 arrayChoiceCount
     // Size: 0x4
     // Offset: 0x30
@@ -114,9 +114,9 @@ namespace System::Xml::Serialization {
     // private System.Collections.ArrayList relatedMaps
     // Size: 0x8
     // Offset: 0x38
-    System::Collections::ArrayList* relatedMaps;
+    ::System::Collections::ArrayList* relatedMaps;
     // Field size check
-    static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
+    static_assert(sizeof(::System::Collections::ArrayList*) == 0x8);
     // private System.Boolean allowPrivateTypes
     // Size: 0x1
     // Offset: 0x40
@@ -135,22 +135,22 @@ namespace System::Xml::Serialization {
     // Get instance field reference: private System.String initialDefaultNamespace
     ::StringW& dyn_initialDefaultNamespace();
     // Get instance field reference: private System.Xml.Serialization.XmlAttributeOverrides attributeOverrides
-    System::Xml::Serialization::XmlAttributeOverrides*& dyn_attributeOverrides();
+    ::System::Xml::Serialization::XmlAttributeOverrides*& dyn_attributeOverrides();
     // Get instance field reference: private System.Collections.ArrayList includedTypes
-    System::Collections::ArrayList*& dyn_includedTypes();
+    ::System::Collections::ArrayList*& dyn_includedTypes();
     // Get instance field reference: private System.Xml.Serialization.ReflectionHelper helper
-    System::Xml::Serialization::ReflectionHelper*& dyn_helper();
+    ::System::Xml::Serialization::ReflectionHelper*& dyn_helper();
     // Get instance field reference: private System.Int32 arrayChoiceCount
     int& dyn_arrayChoiceCount();
     // Get instance field reference: private System.Collections.ArrayList relatedMaps
-    System::Collections::ArrayList*& dyn_relatedMaps();
+    ::System::Collections::ArrayList*& dyn_relatedMaps();
     // Get instance field reference: private System.Boolean allowPrivateTypes
     bool& dyn_allowPrivateTypes();
     // public System.Void .ctor(System.Xml.Serialization.XmlAttributeOverrides attributeOverrides, System.String defaultNamespace)
     // Offset: 0x1E04408
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlReflectionImporter* New_ctor(System::Xml::Serialization::XmlAttributeOverrides* attributeOverrides, ::StringW defaultNamespace) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Serialization::XmlReflectionImporter::.ctor");
+    static XmlReflectionImporter* New_ctor(::System::Xml::Serialization::XmlAttributeOverrides* attributeOverrides, ::StringW defaultNamespace) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Serialization::XmlReflectionImporter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlReflectionImporter*, creationType>(attributeOverrides, defaultNamespace)));
     }
     // static private System.Void .cctor()
@@ -158,76 +158,76 @@ namespace System::Xml::Serialization {
     static void _cctor();
     // public System.Xml.Serialization.XmlTypeMapping ImportTypeMapping(System.Type type)
     // Offset: 0x1E044F8
-    System::Xml::Serialization::XmlTypeMapping* ImportTypeMapping(System::Type* type);
+    ::System::Xml::Serialization::XmlTypeMapping* ImportTypeMapping(::System::Type* type);
     // public System.Xml.Serialization.XmlTypeMapping ImportTypeMapping(System.Type type, System.String defaultNamespace)
     // Offset: 0x1E046D0
-    System::Xml::Serialization::XmlTypeMapping* ImportTypeMapping(System::Type* type, ::StringW defaultNamespace);
+    ::System::Xml::Serialization::XmlTypeMapping* ImportTypeMapping(::System::Type* type, ::StringW defaultNamespace);
     // public System.Xml.Serialization.XmlTypeMapping ImportTypeMapping(System.Type type, System.Xml.Serialization.XmlRootAttribute root, System.String defaultNamespace)
     // Offset: 0x1E04504
-    System::Xml::Serialization::XmlTypeMapping* ImportTypeMapping(System::Type* type, System::Xml::Serialization::XmlRootAttribute* root, ::StringW defaultNamespace);
+    ::System::Xml::Serialization::XmlTypeMapping* ImportTypeMapping(::System::Type* type, ::System::Xml::Serialization::XmlRootAttribute* root, ::StringW defaultNamespace);
     // private System.Xml.Serialization.XmlTypeMapping ImportTypeMapping(System.Xml.Serialization.TypeData typeData, System.Xml.Serialization.XmlRootAttribute root, System.String defaultNamespace)
     // Offset: 0x1E046DC
-    System::Xml::Serialization::XmlTypeMapping* ImportTypeMapping(System::Xml::Serialization::TypeData* typeData, System::Xml::Serialization::XmlRootAttribute* root, ::StringW defaultNamespace);
+    ::System::Xml::Serialization::XmlTypeMapping* ImportTypeMapping(::System::Xml::Serialization::TypeData* typeData, ::System::Xml::Serialization::XmlRootAttribute* root, ::StringW defaultNamespace);
     // private System.Xml.Serialization.XmlTypeMapping CreateTypeMapping(System.Xml.Serialization.TypeData typeData, System.Xml.Serialization.XmlRootAttribute root, System.String defaultXmlType, System.String defaultNamespace)
     // Offset: 0x1E06E8C
-    System::Xml::Serialization::XmlTypeMapping* CreateTypeMapping(System::Xml::Serialization::TypeData* typeData, System::Xml::Serialization::XmlRootAttribute* root, ::StringW defaultXmlType, ::StringW defaultNamespace);
+    ::System::Xml::Serialization::XmlTypeMapping* CreateTypeMapping(::System::Xml::Serialization::TypeData* typeData, ::System::Xml::Serialization::XmlRootAttribute* root, ::StringW defaultXmlType, ::StringW defaultNamespace);
     // private System.Xml.Serialization.XmlTypeMapping ImportClassMapping(System.Type type, System.Xml.Serialization.XmlRootAttribute root, System.String defaultNamespace, System.Boolean isBaseType)
     // Offset: 0x1E07A7C
-    System::Xml::Serialization::XmlTypeMapping* ImportClassMapping(System::Type* type, System::Xml::Serialization::XmlRootAttribute* root, ::StringW defaultNamespace, bool isBaseType);
+    ::System::Xml::Serialization::XmlTypeMapping* ImportClassMapping(::System::Type* type, ::System::Xml::Serialization::XmlRootAttribute* root, ::StringW defaultNamespace, bool isBaseType);
     // private System.Xml.Serialization.XmlTypeMapping ImportClassMapping(System.Xml.Serialization.TypeData typeData, System.Xml.Serialization.XmlRootAttribute root, System.String defaultNamespace, System.Boolean isBaseType)
     // Offset: 0x1E04B08
-    System::Xml::Serialization::XmlTypeMapping* ImportClassMapping(System::Xml::Serialization::TypeData* typeData, System::Xml::Serialization::XmlRootAttribute* root, ::StringW defaultNamespace, bool isBaseType);
+    ::System::Xml::Serialization::XmlTypeMapping* ImportClassMapping(::System::Xml::Serialization::TypeData* typeData, ::System::Xml::Serialization::XmlRootAttribute* root, ::StringW defaultNamespace, bool isBaseType);
     // private System.Void RegisterDerivedMap(System.Xml.Serialization.XmlTypeMapping map, System.Xml.Serialization.XmlTypeMapping derivedMap)
     // Offset: 0x1E09138
-    void RegisterDerivedMap(System::Xml::Serialization::XmlTypeMapping* map, System::Xml::Serialization::XmlTypeMapping* derivedMap);
+    void RegisterDerivedMap(::System::Xml::Serialization::XmlTypeMapping* map, ::System::Xml::Serialization::XmlTypeMapping* derivedMap);
     // private System.String GetTypeNamespace(System.Xml.Serialization.TypeData typeData, System.Xml.Serialization.XmlRootAttribute root, System.String defaultNamespace)
     // Offset: 0x1E07B1C
-    ::StringW GetTypeNamespace(System::Xml::Serialization::TypeData* typeData, System::Xml::Serialization::XmlRootAttribute* root, ::StringW defaultNamespace);
+    ::StringW GetTypeNamespace(::System::Xml::Serialization::TypeData* typeData, ::System::Xml::Serialization::XmlRootAttribute* root, ::StringW defaultNamespace);
     // private System.Xml.Serialization.XmlTypeMapping ImportListMapping(System.Type type, System.Xml.Serialization.XmlRootAttribute root, System.String defaultNamespace, System.Xml.Serialization.XmlAttributes atts, System.Int32 nestingLevel)
     // Offset: 0x1E09398
-    System::Xml::Serialization::XmlTypeMapping* ImportListMapping(System::Type* type, System::Xml::Serialization::XmlRootAttribute* root, ::StringW defaultNamespace, System::Xml::Serialization::XmlAttributes* atts, int nestingLevel);
+    ::System::Xml::Serialization::XmlTypeMapping* ImportListMapping(::System::Type* type, ::System::Xml::Serialization::XmlRootAttribute* root, ::StringW defaultNamespace, ::System::Xml::Serialization::XmlAttributes* atts, int nestingLevel);
     // private System.Xml.Serialization.XmlTypeMapping ImportListMapping(System.Xml.Serialization.TypeData typeData, System.Xml.Serialization.XmlRootAttribute root, System.String defaultNamespace, System.Xml.Serialization.XmlAttributes atts, System.Int32 nestingLevel)
     // Offset: 0x1E05948
-    System::Xml::Serialization::XmlTypeMapping* ImportListMapping(System::Xml::Serialization::TypeData* typeData, System::Xml::Serialization::XmlRootAttribute* root, ::StringW defaultNamespace, System::Xml::Serialization::XmlAttributes* atts, int nestingLevel);
+    ::System::Xml::Serialization::XmlTypeMapping* ImportListMapping(::System::Xml::Serialization::TypeData* typeData, ::System::Xml::Serialization::XmlRootAttribute* root, ::StringW defaultNamespace, ::System::Xml::Serialization::XmlAttributes* atts, int nestingLevel);
     // private System.Xml.Serialization.XmlTypeMapping ImportXmlNodeMapping(System.Xml.Serialization.TypeData typeData, System.Xml.Serialization.XmlRootAttribute root, System.String defaultNamespace)
     // Offset: 0x1E0651C
-    System::Xml::Serialization::XmlTypeMapping* ImportXmlNodeMapping(System::Xml::Serialization::TypeData* typeData, System::Xml::Serialization::XmlRootAttribute* root, ::StringW defaultNamespace);
+    ::System::Xml::Serialization::XmlTypeMapping* ImportXmlNodeMapping(::System::Xml::Serialization::TypeData* typeData, ::System::Xml::Serialization::XmlRootAttribute* root, ::StringW defaultNamespace);
     // private System.Xml.Serialization.XmlTypeMapping ImportPrimitiveMapping(System.Xml.Serialization.TypeData typeData, System.Xml.Serialization.XmlRootAttribute root, System.String defaultNamespace)
     // Offset: 0x1E06704
-    System::Xml::Serialization::XmlTypeMapping* ImportPrimitiveMapping(System::Xml::Serialization::TypeData* typeData, System::Xml::Serialization::XmlRootAttribute* root, ::StringW defaultNamespace);
+    ::System::Xml::Serialization::XmlTypeMapping* ImportPrimitiveMapping(::System::Xml::Serialization::TypeData* typeData, ::System::Xml::Serialization::XmlRootAttribute* root, ::StringW defaultNamespace);
     // private System.Xml.Serialization.XmlTypeMapping ImportEnumMapping(System.Xml.Serialization.TypeData typeData, System.Xml.Serialization.XmlRootAttribute root, System.String defaultNamespace)
     // Offset: 0x1E067BC
-    System::Xml::Serialization::XmlTypeMapping* ImportEnumMapping(System::Xml::Serialization::TypeData* typeData, System::Xml::Serialization::XmlRootAttribute* root, ::StringW defaultNamespace);
+    ::System::Xml::Serialization::XmlTypeMapping* ImportEnumMapping(::System::Xml::Serialization::TypeData* typeData, ::System::Xml::Serialization::XmlRootAttribute* root, ::StringW defaultNamespace);
     // private System.Xml.Serialization.XmlTypeMapping ImportXmlSerializableMapping(System.Xml.Serialization.TypeData typeData, System.Xml.Serialization.XmlRootAttribute root, System.String defaultNamespace)
     // Offset: 0x1E06D68
-    System::Xml::Serialization::XmlTypeMapping* ImportXmlSerializableMapping(System::Xml::Serialization::TypeData* typeData, System::Xml::Serialization::XmlRootAttribute* root, ::StringW defaultNamespace);
+    ::System::Xml::Serialization::XmlTypeMapping* ImportXmlSerializableMapping(::System::Xml::Serialization::TypeData* typeData, ::System::Xml::Serialization::XmlRootAttribute* root, ::StringW defaultNamespace);
     // private System.Void ImportIncludedTypes(System.Type type, System.String defaultNamespace)
     // Offset: 0x1E09264
-    void ImportIncludedTypes(System::Type* type, ::StringW defaultNamespace);
+    void ImportIncludedTypes(::System::Type* type, ::StringW defaultNamespace);
     // private System.Collections.Generic.List`1<System.Xml.Serialization.XmlReflectionMember> GetReflectionMembers(System.Type type)
     // Offset: 0x1E07C34
-    System::Collections::Generic::List_1<System::Xml::Serialization::XmlReflectionMember*>* GetReflectionMembers(System::Type* type);
+    ::System::Collections::Generic::List_1<::System::Xml::Serialization::XmlReflectionMember*>* GetReflectionMembers(::System::Type* type);
     // private System.Xml.Serialization.XmlTypeMapMember CreateMapMember(System.Type declaringType, System.Xml.Serialization.XmlReflectionMember rmember, System.String defaultNamespace)
     // Offset: 0x1E088C0
-    System::Xml::Serialization::XmlTypeMapMember* CreateMapMember(System::Type* declaringType, System::Xml::Serialization::XmlReflectionMember* rmember, ::StringW defaultNamespace);
+    ::System::Xml::Serialization::XmlTypeMapMember* CreateMapMember(::System::Type* declaringType, ::System::Xml::Serialization::XmlReflectionMember* rmember, ::StringW defaultNamespace);
     // private System.Xml.Serialization.XmlTypeMapElementInfoList ImportElementInfo(System.Type cls, System.String defaultName, System.String defaultNamespace, System.Type defaultType, System.Xml.Serialization.XmlTypeMapMemberElement member, System.Xml.Serialization.XmlAttributes atts)
     // Offset: 0x1E09ACC
-    System::Xml::Serialization::XmlTypeMapElementInfoList* ImportElementInfo(System::Type* cls, ::StringW defaultName, ::StringW defaultNamespace, System::Type* defaultType, System::Xml::Serialization::XmlTypeMapMemberElement* member, System::Xml::Serialization::XmlAttributes* atts);
+    ::System::Xml::Serialization::XmlTypeMapElementInfoList* ImportElementInfo(::System::Type* cls, ::StringW defaultName, ::StringW defaultNamespace, ::System::Type* defaultType, ::System::Xml::Serialization::XmlTypeMapMemberElement* member, ::System::Xml::Serialization::XmlAttributes* atts);
     // private System.Xml.Serialization.XmlTypeMapElementInfoList ImportAnyElementInfo(System.String defaultNamespace, System.Xml.Serialization.XmlReflectionMember rmember, System.Xml.Serialization.XmlTypeMapMemberElement member, System.Xml.Serialization.XmlAttributes atts)
     // Offset: 0x1E09488
-    System::Xml::Serialization::XmlTypeMapElementInfoList* ImportAnyElementInfo(::StringW defaultNamespace, System::Xml::Serialization::XmlReflectionMember* rmember, System::Xml::Serialization::XmlTypeMapMemberElement* member, System::Xml::Serialization::XmlAttributes* atts);
+    ::System::Xml::Serialization::XmlTypeMapElementInfoList* ImportAnyElementInfo(::StringW defaultNamespace, ::System::Xml::Serialization::XmlReflectionMember* rmember, ::System::Xml::Serialization::XmlTypeMapMemberElement* member, ::System::Xml::Serialization::XmlAttributes* atts);
     // private System.Void ImportTextElementInfo(System.Xml.Serialization.XmlTypeMapElementInfoList list, System.Type defaultType, System.Xml.Serialization.XmlTypeMapMemberElement member, System.Xml.Serialization.XmlAttributes atts, System.String defaultNamespace)
     // Offset: 0x1E0AC8C
-    void ImportTextElementInfo(System::Xml::Serialization::XmlTypeMapElementInfoList* list, System::Type* defaultType, System::Xml::Serialization::XmlTypeMapMemberElement* member, System::Xml::Serialization::XmlAttributes* atts, ::StringW defaultNamespace);
+    void ImportTextElementInfo(::System::Xml::Serialization::XmlTypeMapElementInfoList* list, ::System::Type* defaultType, ::System::Xml::Serialization::XmlTypeMapMemberElement* member, ::System::Xml::Serialization::XmlAttributes* atts, ::StringW defaultNamespace);
     // private System.Boolean CanBeNull(System.Xml.Serialization.TypeData type)
     // Offset: 0x1E072C8
-    bool CanBeNull(System::Xml::Serialization::TypeData* type);
+    bool CanBeNull(::System::Xml::Serialization::TypeData* type);
     // public System.Void IncludeType(System.Type type)
     // Offset: 0x1E0AFD4
-    void IncludeType(System::Type* type);
+    void IncludeType(::System::Type* type);
     // private System.Object GetDefaultValue(System.Xml.Serialization.TypeData typeData, System.Object defaultValue)
     // Offset: 0x1E0AAC4
-    ::Il2CppObject* GetDefaultValue(System::Xml::Serialization::TypeData* typeData, ::Il2CppObject* defaultValue);
+    ::Il2CppObject* GetDefaultValue(::System::Xml::Serialization::TypeData* typeData, ::Il2CppObject* defaultValue);
   }; // System.Xml.Serialization.XmlReflectionImporter
   #pragma pack(pop)
   static check_size<sizeof(XmlReflectionImporter), 64 + sizeof(bool)> __System_Xml_Serialization_XmlReflectionImporterSizeCheck;
@@ -249,7 +249,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlReflectionImporter::ImportTypeMapping
 // Il2CppName: ImportTypeMapping
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Serialization::XmlTypeMapping* (System::Xml::Serialization::XmlReflectionImporter::*)(System::Type*)>(&System::Xml::Serialization::XmlReflectionImporter::ImportTypeMapping)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlTypeMapping* (System::Xml::Serialization::XmlReflectionImporter::*)(::System::Type*)>(&System::Xml::Serialization::XmlReflectionImporter::ImportTypeMapping)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::XmlReflectionImporter*), "ImportTypeMapping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -258,7 +258,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlReflectionImporter::ImportTypeMapping
 // Il2CppName: ImportTypeMapping
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Serialization::XmlTypeMapping* (System::Xml::Serialization::XmlReflectionImporter::*)(System::Type*, ::StringW)>(&System::Xml::Serialization::XmlReflectionImporter::ImportTypeMapping)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlTypeMapping* (System::Xml::Serialization::XmlReflectionImporter::*)(::System::Type*, ::StringW)>(&System::Xml::Serialization::XmlReflectionImporter::ImportTypeMapping)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* defaultNamespace = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -268,7 +268,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlReflectionImporter::ImportTypeMapping
 // Il2CppName: ImportTypeMapping
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Serialization::XmlTypeMapping* (System::Xml::Serialization::XmlReflectionImporter::*)(System::Type*, System::Xml::Serialization::XmlRootAttribute*, ::StringW)>(&System::Xml::Serialization::XmlReflectionImporter::ImportTypeMapping)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlTypeMapping* (System::Xml::Serialization::XmlReflectionImporter::*)(::System::Type*, ::System::Xml::Serialization::XmlRootAttribute*, ::StringW)>(&System::Xml::Serialization::XmlReflectionImporter::ImportTypeMapping)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* root = &::il2cpp_utils::GetClassFromName("System.Xml.Serialization", "XmlRootAttribute")->byval_arg;
@@ -279,7 +279,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlReflectionImporter::ImportTypeMapping
 // Il2CppName: ImportTypeMapping
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Serialization::XmlTypeMapping* (System::Xml::Serialization::XmlReflectionImporter::*)(System::Xml::Serialization::TypeData*, System::Xml::Serialization::XmlRootAttribute*, ::StringW)>(&System::Xml::Serialization::XmlReflectionImporter::ImportTypeMapping)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlTypeMapping* (System::Xml::Serialization::XmlReflectionImporter::*)(::System::Xml::Serialization::TypeData*, ::System::Xml::Serialization::XmlRootAttribute*, ::StringW)>(&System::Xml::Serialization::XmlReflectionImporter::ImportTypeMapping)> {
   static const MethodInfo* get() {
     static auto* typeData = &::il2cpp_utils::GetClassFromName("System.Xml.Serialization", "TypeData")->byval_arg;
     static auto* root = &::il2cpp_utils::GetClassFromName("System.Xml.Serialization", "XmlRootAttribute")->byval_arg;
@@ -290,7 +290,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlReflectionImporter::CreateTypeMapping
 // Il2CppName: CreateTypeMapping
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Serialization::XmlTypeMapping* (System::Xml::Serialization::XmlReflectionImporter::*)(System::Xml::Serialization::TypeData*, System::Xml::Serialization::XmlRootAttribute*, ::StringW, ::StringW)>(&System::Xml::Serialization::XmlReflectionImporter::CreateTypeMapping)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlTypeMapping* (System::Xml::Serialization::XmlReflectionImporter::*)(::System::Xml::Serialization::TypeData*, ::System::Xml::Serialization::XmlRootAttribute*, ::StringW, ::StringW)>(&System::Xml::Serialization::XmlReflectionImporter::CreateTypeMapping)> {
   static const MethodInfo* get() {
     static auto* typeData = &::il2cpp_utils::GetClassFromName("System.Xml.Serialization", "TypeData")->byval_arg;
     static auto* root = &::il2cpp_utils::GetClassFromName("System.Xml.Serialization", "XmlRootAttribute")->byval_arg;
@@ -302,7 +302,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlReflectionImporter::ImportClassMapping
 // Il2CppName: ImportClassMapping
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Serialization::XmlTypeMapping* (System::Xml::Serialization::XmlReflectionImporter::*)(System::Type*, System::Xml::Serialization::XmlRootAttribute*, ::StringW, bool)>(&System::Xml::Serialization::XmlReflectionImporter::ImportClassMapping)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlTypeMapping* (System::Xml::Serialization::XmlReflectionImporter::*)(::System::Type*, ::System::Xml::Serialization::XmlRootAttribute*, ::StringW, bool)>(&System::Xml::Serialization::XmlReflectionImporter::ImportClassMapping)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* root = &::il2cpp_utils::GetClassFromName("System.Xml.Serialization", "XmlRootAttribute")->byval_arg;
@@ -314,7 +314,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlReflectionImporter::ImportClassMapping
 // Il2CppName: ImportClassMapping
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Serialization::XmlTypeMapping* (System::Xml::Serialization::XmlReflectionImporter::*)(System::Xml::Serialization::TypeData*, System::Xml::Serialization::XmlRootAttribute*, ::StringW, bool)>(&System::Xml::Serialization::XmlReflectionImporter::ImportClassMapping)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlTypeMapping* (System::Xml::Serialization::XmlReflectionImporter::*)(::System::Xml::Serialization::TypeData*, ::System::Xml::Serialization::XmlRootAttribute*, ::StringW, bool)>(&System::Xml::Serialization::XmlReflectionImporter::ImportClassMapping)> {
   static const MethodInfo* get() {
     static auto* typeData = &::il2cpp_utils::GetClassFromName("System.Xml.Serialization", "TypeData")->byval_arg;
     static auto* root = &::il2cpp_utils::GetClassFromName("System.Xml.Serialization", "XmlRootAttribute")->byval_arg;
@@ -326,7 +326,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlReflectionImporter::RegisterDerivedMap
 // Il2CppName: RegisterDerivedMap
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Serialization::XmlReflectionImporter::*)(System::Xml::Serialization::XmlTypeMapping*, System::Xml::Serialization::XmlTypeMapping*)>(&System::Xml::Serialization::XmlReflectionImporter::RegisterDerivedMap)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Serialization::XmlReflectionImporter::*)(::System::Xml::Serialization::XmlTypeMapping*, ::System::Xml::Serialization::XmlTypeMapping*)>(&System::Xml::Serialization::XmlReflectionImporter::RegisterDerivedMap)> {
   static const MethodInfo* get() {
     static auto* map = &::il2cpp_utils::GetClassFromName("System.Xml.Serialization", "XmlTypeMapping")->byval_arg;
     static auto* derivedMap = &::il2cpp_utils::GetClassFromName("System.Xml.Serialization", "XmlTypeMapping")->byval_arg;
@@ -336,7 +336,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlReflectionImporter::GetTypeNamespace
 // Il2CppName: GetTypeNamespace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Xml::Serialization::XmlReflectionImporter::*)(System::Xml::Serialization::TypeData*, System::Xml::Serialization::XmlRootAttribute*, ::StringW)>(&System::Xml::Serialization::XmlReflectionImporter::GetTypeNamespace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Xml::Serialization::XmlReflectionImporter::*)(::System::Xml::Serialization::TypeData*, ::System::Xml::Serialization::XmlRootAttribute*, ::StringW)>(&System::Xml::Serialization::XmlReflectionImporter::GetTypeNamespace)> {
   static const MethodInfo* get() {
     static auto* typeData = &::il2cpp_utils::GetClassFromName("System.Xml.Serialization", "TypeData")->byval_arg;
     static auto* root = &::il2cpp_utils::GetClassFromName("System.Xml.Serialization", "XmlRootAttribute")->byval_arg;
@@ -347,7 +347,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlReflectionImporter::ImportListMapping
 // Il2CppName: ImportListMapping
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Serialization::XmlTypeMapping* (System::Xml::Serialization::XmlReflectionImporter::*)(System::Type*, System::Xml::Serialization::XmlRootAttribute*, ::StringW, System::Xml::Serialization::XmlAttributes*, int)>(&System::Xml::Serialization::XmlReflectionImporter::ImportListMapping)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlTypeMapping* (System::Xml::Serialization::XmlReflectionImporter::*)(::System::Type*, ::System::Xml::Serialization::XmlRootAttribute*, ::StringW, ::System::Xml::Serialization::XmlAttributes*, int)>(&System::Xml::Serialization::XmlReflectionImporter::ImportListMapping)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* root = &::il2cpp_utils::GetClassFromName("System.Xml.Serialization", "XmlRootAttribute")->byval_arg;
@@ -360,7 +360,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlReflectionImporter::ImportListMapping
 // Il2CppName: ImportListMapping
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Serialization::XmlTypeMapping* (System::Xml::Serialization::XmlReflectionImporter::*)(System::Xml::Serialization::TypeData*, System::Xml::Serialization::XmlRootAttribute*, ::StringW, System::Xml::Serialization::XmlAttributes*, int)>(&System::Xml::Serialization::XmlReflectionImporter::ImportListMapping)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlTypeMapping* (System::Xml::Serialization::XmlReflectionImporter::*)(::System::Xml::Serialization::TypeData*, ::System::Xml::Serialization::XmlRootAttribute*, ::StringW, ::System::Xml::Serialization::XmlAttributes*, int)>(&System::Xml::Serialization::XmlReflectionImporter::ImportListMapping)> {
   static const MethodInfo* get() {
     static auto* typeData = &::il2cpp_utils::GetClassFromName("System.Xml.Serialization", "TypeData")->byval_arg;
     static auto* root = &::il2cpp_utils::GetClassFromName("System.Xml.Serialization", "XmlRootAttribute")->byval_arg;
@@ -373,7 +373,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlReflectionImporter::ImportXmlNodeMapping
 // Il2CppName: ImportXmlNodeMapping
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Serialization::XmlTypeMapping* (System::Xml::Serialization::XmlReflectionImporter::*)(System::Xml::Serialization::TypeData*, System::Xml::Serialization::XmlRootAttribute*, ::StringW)>(&System::Xml::Serialization::XmlReflectionImporter::ImportXmlNodeMapping)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlTypeMapping* (System::Xml::Serialization::XmlReflectionImporter::*)(::System::Xml::Serialization::TypeData*, ::System::Xml::Serialization::XmlRootAttribute*, ::StringW)>(&System::Xml::Serialization::XmlReflectionImporter::ImportXmlNodeMapping)> {
   static const MethodInfo* get() {
     static auto* typeData = &::il2cpp_utils::GetClassFromName("System.Xml.Serialization", "TypeData")->byval_arg;
     static auto* root = &::il2cpp_utils::GetClassFromName("System.Xml.Serialization", "XmlRootAttribute")->byval_arg;
@@ -384,7 +384,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlReflectionImporter::ImportPrimitiveMapping
 // Il2CppName: ImportPrimitiveMapping
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Serialization::XmlTypeMapping* (System::Xml::Serialization::XmlReflectionImporter::*)(System::Xml::Serialization::TypeData*, System::Xml::Serialization::XmlRootAttribute*, ::StringW)>(&System::Xml::Serialization::XmlReflectionImporter::ImportPrimitiveMapping)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlTypeMapping* (System::Xml::Serialization::XmlReflectionImporter::*)(::System::Xml::Serialization::TypeData*, ::System::Xml::Serialization::XmlRootAttribute*, ::StringW)>(&System::Xml::Serialization::XmlReflectionImporter::ImportPrimitiveMapping)> {
   static const MethodInfo* get() {
     static auto* typeData = &::il2cpp_utils::GetClassFromName("System.Xml.Serialization", "TypeData")->byval_arg;
     static auto* root = &::il2cpp_utils::GetClassFromName("System.Xml.Serialization", "XmlRootAttribute")->byval_arg;
@@ -395,7 +395,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlReflectionImporter::ImportEnumMapping
 // Il2CppName: ImportEnumMapping
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Serialization::XmlTypeMapping* (System::Xml::Serialization::XmlReflectionImporter::*)(System::Xml::Serialization::TypeData*, System::Xml::Serialization::XmlRootAttribute*, ::StringW)>(&System::Xml::Serialization::XmlReflectionImporter::ImportEnumMapping)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlTypeMapping* (System::Xml::Serialization::XmlReflectionImporter::*)(::System::Xml::Serialization::TypeData*, ::System::Xml::Serialization::XmlRootAttribute*, ::StringW)>(&System::Xml::Serialization::XmlReflectionImporter::ImportEnumMapping)> {
   static const MethodInfo* get() {
     static auto* typeData = &::il2cpp_utils::GetClassFromName("System.Xml.Serialization", "TypeData")->byval_arg;
     static auto* root = &::il2cpp_utils::GetClassFromName("System.Xml.Serialization", "XmlRootAttribute")->byval_arg;
@@ -406,7 +406,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlReflectionImporter::ImportXmlSerializableMapping
 // Il2CppName: ImportXmlSerializableMapping
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Serialization::XmlTypeMapping* (System::Xml::Serialization::XmlReflectionImporter::*)(System::Xml::Serialization::TypeData*, System::Xml::Serialization::XmlRootAttribute*, ::StringW)>(&System::Xml::Serialization::XmlReflectionImporter::ImportXmlSerializableMapping)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlTypeMapping* (System::Xml::Serialization::XmlReflectionImporter::*)(::System::Xml::Serialization::TypeData*, ::System::Xml::Serialization::XmlRootAttribute*, ::StringW)>(&System::Xml::Serialization::XmlReflectionImporter::ImportXmlSerializableMapping)> {
   static const MethodInfo* get() {
     static auto* typeData = &::il2cpp_utils::GetClassFromName("System.Xml.Serialization", "TypeData")->byval_arg;
     static auto* root = &::il2cpp_utils::GetClassFromName("System.Xml.Serialization", "XmlRootAttribute")->byval_arg;
@@ -417,7 +417,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlReflectionImporter::ImportIncludedTypes
 // Il2CppName: ImportIncludedTypes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Serialization::XmlReflectionImporter::*)(System::Type*, ::StringW)>(&System::Xml::Serialization::XmlReflectionImporter::ImportIncludedTypes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Serialization::XmlReflectionImporter::*)(::System::Type*, ::StringW)>(&System::Xml::Serialization::XmlReflectionImporter::ImportIncludedTypes)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* defaultNamespace = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -427,7 +427,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlReflectionImporter::GetReflectionMembers
 // Il2CppName: GetReflectionMembers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<System::Xml::Serialization::XmlReflectionMember*>* (System::Xml::Serialization::XmlReflectionImporter::*)(System::Type*)>(&System::Xml::Serialization::XmlReflectionImporter::GetReflectionMembers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::System::Xml::Serialization::XmlReflectionMember*>* (System::Xml::Serialization::XmlReflectionImporter::*)(::System::Type*)>(&System::Xml::Serialization::XmlReflectionImporter::GetReflectionMembers)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::XmlReflectionImporter*), "GetReflectionMembers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -436,7 +436,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlReflectionImporter::CreateMapMember
 // Il2CppName: CreateMapMember
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Serialization::XmlTypeMapMember* (System::Xml::Serialization::XmlReflectionImporter::*)(System::Type*, System::Xml::Serialization::XmlReflectionMember*, ::StringW)>(&System::Xml::Serialization::XmlReflectionImporter::CreateMapMember)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlTypeMapMember* (System::Xml::Serialization::XmlReflectionImporter::*)(::System::Type*, ::System::Xml::Serialization::XmlReflectionMember*, ::StringW)>(&System::Xml::Serialization::XmlReflectionImporter::CreateMapMember)> {
   static const MethodInfo* get() {
     static auto* declaringType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* rmember = &::il2cpp_utils::GetClassFromName("System.Xml.Serialization", "XmlReflectionMember")->byval_arg;
@@ -447,7 +447,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlReflectionImporter::ImportElementInfo
 // Il2CppName: ImportElementInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Serialization::XmlTypeMapElementInfoList* (System::Xml::Serialization::XmlReflectionImporter::*)(System::Type*, ::StringW, ::StringW, System::Type*, System::Xml::Serialization::XmlTypeMapMemberElement*, System::Xml::Serialization::XmlAttributes*)>(&System::Xml::Serialization::XmlReflectionImporter::ImportElementInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlTypeMapElementInfoList* (System::Xml::Serialization::XmlReflectionImporter::*)(::System::Type*, ::StringW, ::StringW, ::System::Type*, ::System::Xml::Serialization::XmlTypeMapMemberElement*, ::System::Xml::Serialization::XmlAttributes*)>(&System::Xml::Serialization::XmlReflectionImporter::ImportElementInfo)> {
   static const MethodInfo* get() {
     static auto* cls = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* defaultName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -461,7 +461,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlReflectionImporter::ImportAnyElementInfo
 // Il2CppName: ImportAnyElementInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Serialization::XmlTypeMapElementInfoList* (System::Xml::Serialization::XmlReflectionImporter::*)(::StringW, System::Xml::Serialization::XmlReflectionMember*, System::Xml::Serialization::XmlTypeMapMemberElement*, System::Xml::Serialization::XmlAttributes*)>(&System::Xml::Serialization::XmlReflectionImporter::ImportAnyElementInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlTypeMapElementInfoList* (System::Xml::Serialization::XmlReflectionImporter::*)(::StringW, ::System::Xml::Serialization::XmlReflectionMember*, ::System::Xml::Serialization::XmlTypeMapMemberElement*, ::System::Xml::Serialization::XmlAttributes*)>(&System::Xml::Serialization::XmlReflectionImporter::ImportAnyElementInfo)> {
   static const MethodInfo* get() {
     static auto* defaultNamespace = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* rmember = &::il2cpp_utils::GetClassFromName("System.Xml.Serialization", "XmlReflectionMember")->byval_arg;
@@ -473,7 +473,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlReflectionImporter::ImportTextElementInfo
 // Il2CppName: ImportTextElementInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Serialization::XmlReflectionImporter::*)(System::Xml::Serialization::XmlTypeMapElementInfoList*, System::Type*, System::Xml::Serialization::XmlTypeMapMemberElement*, System::Xml::Serialization::XmlAttributes*, ::StringW)>(&System::Xml::Serialization::XmlReflectionImporter::ImportTextElementInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Serialization::XmlReflectionImporter::*)(::System::Xml::Serialization::XmlTypeMapElementInfoList*, ::System::Type*, ::System::Xml::Serialization::XmlTypeMapMemberElement*, ::System::Xml::Serialization::XmlAttributes*, ::StringW)>(&System::Xml::Serialization::XmlReflectionImporter::ImportTextElementInfo)> {
   static const MethodInfo* get() {
     static auto* list = &::il2cpp_utils::GetClassFromName("System.Xml.Serialization", "XmlTypeMapElementInfoList")->byval_arg;
     static auto* defaultType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -486,7 +486,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlReflectionImporter::CanBeNull
 // Il2CppName: CanBeNull
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::Serialization::XmlReflectionImporter::*)(System::Xml::Serialization::TypeData*)>(&System::Xml::Serialization::XmlReflectionImporter::CanBeNull)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::Serialization::XmlReflectionImporter::*)(::System::Xml::Serialization::TypeData*)>(&System::Xml::Serialization::XmlReflectionImporter::CanBeNull)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System.Xml.Serialization", "TypeData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::XmlReflectionImporter*), "CanBeNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -495,7 +495,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlReflectionImporter::IncludeType
 // Il2CppName: IncludeType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Serialization::XmlReflectionImporter::*)(System::Type*)>(&System::Xml::Serialization::XmlReflectionImporter::IncludeType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Serialization::XmlReflectionImporter::*)(::System::Type*)>(&System::Xml::Serialization::XmlReflectionImporter::IncludeType)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::XmlReflectionImporter*), "IncludeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -504,7 +504,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlReflectionImporter::GetDefaultValue
 // Il2CppName: GetDefaultValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::Serialization::XmlReflectionImporter::*)(System::Xml::Serialization::TypeData*, ::Il2CppObject*)>(&System::Xml::Serialization::XmlReflectionImporter::GetDefaultValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Xml::Serialization::XmlReflectionImporter::*)(::System::Xml::Serialization::TypeData*, ::Il2CppObject*)>(&System::Xml::Serialization::XmlReflectionImporter::GetDefaultValue)> {
   static const MethodInfo* get() {
     static auto* typeData = &::il2cpp_utils::GetClassFromName("System.Xml.Serialization", "TypeData")->byval_arg;
     static auto* defaultValue = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;

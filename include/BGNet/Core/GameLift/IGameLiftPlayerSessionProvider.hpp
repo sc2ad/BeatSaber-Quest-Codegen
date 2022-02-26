@@ -39,8 +39,8 @@ namespace BGNet::Core::GameLift {
   class IGameLiftPlayerSessionProvider;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(BGNet::Core::GameLift::IGameLiftPlayerSessionProvider);
-DEFINE_IL2CPP_ARG_TYPE(BGNet::Core::GameLift::IGameLiftPlayerSessionProvider*, "BGNet.Core.GameLift", "IGameLiftPlayerSessionProvider");
+NEED_NO_BOX(::BGNet::Core::GameLift::IGameLiftPlayerSessionProvider);
+DEFINE_IL2CPP_ARG_TYPE(::BGNet::Core::GameLift::IGameLiftPlayerSessionProvider*, "BGNet.Core.GameLift", "IGameLiftPlayerSessionProvider");
 // Type namespace: BGNet.Core.GameLift
 namespace BGNet::Core::GameLift {
   // Size: 0x10
@@ -54,7 +54,7 @@ namespace BGNet::Core::GameLift {
     void PollUpdate();
     // public System.Threading.Tasks.Task`1<BGNet.Core.GameLift.PlayerSessionInfo> GetGameLiftPlayerSessionInfo(IAuthenticationTokenProvider authenticationTokenProvider, System.String userId, BeatmapLevelSelectionMask beatmapLevelSelectionMask, GameplayServerConfiguration gameplayServerConfiguration, System.String secret, System.String code, System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF
-    System::Threading::Tasks::Task_1<BGNet::Core::GameLift::PlayerSessionInfo*>* GetGameLiftPlayerSessionInfo(GlobalNamespace::IAuthenticationTokenProvider* authenticationTokenProvider, ::StringW userId, GlobalNamespace::BeatmapLevelSelectionMask beatmapLevelSelectionMask, GlobalNamespace::GameplayServerConfiguration gameplayServerConfiguration, ::StringW secret, ::StringW code, System::Threading::CancellationToken cancellationToken);
+    ::System::Threading::Tasks::Task_1<::BGNet::Core::GameLift::PlayerSessionInfo*>* GetGameLiftPlayerSessionInfo(::GlobalNamespace::IAuthenticationTokenProvider* authenticationTokenProvider, ::StringW userId, ::GlobalNamespace::BeatmapLevelSelectionMask beatmapLevelSelectionMask, ::GlobalNamespace::GameplayServerConfiguration gameplayServerConfiguration, ::StringW secret, ::StringW code, ::System::Threading::CancellationToken cancellationToken);
   }; // BGNet.Core.GameLift.IGameLiftPlayerSessionProvider
   #pragma pack(pop)
 }
@@ -70,7 +70,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BGNet
 // Writing MetadataGetter for method: BGNet::Core::GameLift::IGameLiftPlayerSessionProvider::GetGameLiftPlayerSessionInfo
 // Il2CppName: GetGameLiftPlayerSessionInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<BGNet::Core::GameLift::PlayerSessionInfo*>* (BGNet::Core::GameLift::IGameLiftPlayerSessionProvider::*)(GlobalNamespace::IAuthenticationTokenProvider*, ::StringW, GlobalNamespace::BeatmapLevelSelectionMask, GlobalNamespace::GameplayServerConfiguration, ::StringW, ::StringW, System::Threading::CancellationToken)>(&BGNet::Core::GameLift::IGameLiftPlayerSessionProvider::GetGameLiftPlayerSessionInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::BGNet::Core::GameLift::PlayerSessionInfo*>* (BGNet::Core::GameLift::IGameLiftPlayerSessionProvider::*)(::GlobalNamespace::IAuthenticationTokenProvider*, ::StringW, ::GlobalNamespace::BeatmapLevelSelectionMask, ::GlobalNamespace::GameplayServerConfiguration, ::StringW, ::StringW, ::System::Threading::CancellationToken)>(&BGNet::Core::GameLift::IGameLiftPlayerSessionProvider::GetGameLiftPlayerSessionInfo)> {
   static const MethodInfo* get() {
     static auto* authenticationTokenProvider = &::il2cpp_utils::GetClassFromName("", "IAuthenticationTokenProvider")->byval_arg;
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

@@ -18,8 +18,8 @@ namespace System {
   class ContextStaticAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::ContextStaticAttribute);
-DEFINE_IL2CPP_ARG_TYPE(System::ContextStaticAttribute*, "System", "ContextStaticAttribute");
+NEED_NO_BOX(::System::ContextStaticAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::ContextStaticAttribute*, "System", "ContextStaticAttribute");
 // Type namespace: System
 namespace System {
   // Size: 0x10
@@ -28,7 +28,7 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AttributeUsageAttribute] Offset: 1186BA4
   // [ComVisibleAttribute] Offset: 1186BA4
-  class ContextStaticAttribute : public System::Attribute {
+  class ContextStaticAttribute : public ::System::Attribute {
     public:
     // public System.Void .ctor()
     // Offset: 0x1ADBA04
@@ -37,7 +37,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContextStaticAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::ContextStaticAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::ContextStaticAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ContextStaticAttribute*, creationType>()));
     }
   }; // System.ContextStaticAttribute

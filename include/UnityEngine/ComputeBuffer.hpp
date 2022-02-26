@@ -14,8 +14,8 @@ namespace UnityEngine {
   class ComputeBuffer;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ComputeBuffer);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ComputeBuffer*, "UnityEngine", "ComputeBuffer");
+NEED_NO_BOX(::UnityEngine::ComputeBuffer);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ComputeBuffer*, "UnityEngine", "ComputeBuffer");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -39,19 +39,19 @@ namespace UnityEngine {
     // System.IntPtr m_Ptr
     // Size: 0x8
     // Offset: 0x10
-    System::IntPtr m_Ptr;
+    ::System::IntPtr m_Ptr;
     // Field size check
-    static_assert(sizeof(System::IntPtr) == 0x8);
+    static_assert(sizeof(::System::IntPtr) == 0x8);
     public:
-    // Creating conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const noexcept {
+    // Creating conversion operator: operator ::System::IntPtr
+    constexpr operator ::System::IntPtr() const noexcept {
       return m_Ptr;
     }
     // Get instance field reference: System.IntPtr m_Ptr
-    System::IntPtr& dyn_m_Ptr();
+    ::System::IntPtr& dyn_m_Ptr();
   }; // UnityEngine.ComputeBuffer
   #pragma pack(pop)
-  static check_size<sizeof(ComputeBuffer), 16 + sizeof(System::IntPtr)> __UnityEngine_ComputeBufferSizeCheck;
+  static check_size<sizeof(ComputeBuffer), 16 + sizeof(::System::IntPtr)> __UnityEngine_ComputeBufferSizeCheck;
   static_assert(sizeof(ComputeBuffer) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

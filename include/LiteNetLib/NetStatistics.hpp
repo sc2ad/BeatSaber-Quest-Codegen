@@ -17,8 +17,8 @@ namespace LiteNetLib {
   class NetStatistics;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(LiteNetLib::NetStatistics);
-DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetStatistics*, "LiteNetLib", "NetStatistics");
+NEED_NO_BOX(::LiteNetLib::NetStatistics);
+DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::NetStatistics*, "LiteNetLib", "NetStatistics");
 // Type namespace: LiteNetLib
 namespace LiteNetLib {
   // Size: 0x38
@@ -122,7 +122,7 @@ namespace LiteNetLib {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetStatistics* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::NetStatistics::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::NetStatistics::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetStatistics*, creationType>()));
     }
     // public override System.String ToString()

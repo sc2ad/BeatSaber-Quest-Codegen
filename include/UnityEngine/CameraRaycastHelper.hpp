@@ -23,8 +23,8 @@ namespace UnityEngine {
   class CameraRaycastHelper;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::CameraRaycastHelper);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CameraRaycastHelper*, "UnityEngine", "CameraRaycastHelper");
+NEED_NO_BOX(::UnityEngine::CameraRaycastHelper);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::CameraRaycastHelper*, "UnityEngine", "CameraRaycastHelper");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -36,16 +36,16 @@ namespace UnityEngine {
     public:
     // static UnityEngine.GameObject RaycastTry(UnityEngine.Camera cam, UnityEngine.Ray ray, System.Single distance, System.Int32 layerMask)
     // Offset: 0x2A58634
-    static UnityEngine::GameObject* RaycastTry(UnityEngine::Camera* cam, UnityEngine::Ray ray, float distance, int layerMask);
+    static ::UnityEngine::GameObject* RaycastTry(::UnityEngine::Camera* cam, ::UnityEngine::Ray ray, float distance, int layerMask);
     // static UnityEngine.GameObject RaycastTry2D(UnityEngine.Camera cam, UnityEngine.Ray ray, System.Single distance, System.Int32 layerMask)
     // Offset: 0x2A58704
-    static UnityEngine::GameObject* RaycastTry2D(UnityEngine::Camera* cam, UnityEngine::Ray ray, float distance, int layerMask);
+    static ::UnityEngine::GameObject* RaycastTry2D(::UnityEngine::Camera* cam, ::UnityEngine::Ray ray, float distance, int layerMask);
     // static private UnityEngine.GameObject RaycastTry_Injected(UnityEngine.Camera cam, ref UnityEngine.Ray ray, System.Single distance, System.Int32 layerMask)
     // Offset: 0x2A5869C
-    static UnityEngine::GameObject* RaycastTry_Injected(UnityEngine::Camera* cam, ByRef<UnityEngine::Ray> ray, float distance, int layerMask);
+    static ::UnityEngine::GameObject* RaycastTry_Injected(::UnityEngine::Camera* cam, ByRef<::UnityEngine::Ray> ray, float distance, int layerMask);
     // static private UnityEngine.GameObject RaycastTry2D_Injected(UnityEngine.Camera cam, ref UnityEngine.Ray ray, System.Single distance, System.Int32 layerMask)
     // Offset: 0x2A5876C
-    static UnityEngine::GameObject* RaycastTry2D_Injected(UnityEngine::Camera* cam, ByRef<UnityEngine::Ray> ray, float distance, int layerMask);
+    static ::UnityEngine::GameObject* RaycastTry2D_Injected(::UnityEngine::Camera* cam, ByRef<::UnityEngine::Ray> ray, float distance, int layerMask);
   }; // UnityEngine.CameraRaycastHelper
   #pragma pack(pop)
 }
@@ -53,7 +53,7 @@ namespace UnityEngine {
 // Writing MetadataGetter for method: UnityEngine::CameraRaycastHelper::RaycastTry
 // Il2CppName: RaycastTry
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::Camera*, UnityEngine::Ray, float, int)>(&UnityEngine::CameraRaycastHelper::RaycastTry)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GameObject* (*)(::UnityEngine::Camera*, ::UnityEngine::Ray, float, int)>(&UnityEngine::CameraRaycastHelper::RaycastTry)> {
   static const MethodInfo* get() {
     static auto* cam = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
     static auto* ray = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->byval_arg;
@@ -65,7 +65,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::CameraRaycastHelper::RaycastTry2D
 // Il2CppName: RaycastTry2D
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::Camera*, UnityEngine::Ray, float, int)>(&UnityEngine::CameraRaycastHelper::RaycastTry2D)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GameObject* (*)(::UnityEngine::Camera*, ::UnityEngine::Ray, float, int)>(&UnityEngine::CameraRaycastHelper::RaycastTry2D)> {
   static const MethodInfo* get() {
     static auto* cam = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
     static auto* ray = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->byval_arg;
@@ -77,7 +77,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::CameraRaycastHelper::RaycastTry_Injected
 // Il2CppName: RaycastTry_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::Camera*, ByRef<UnityEngine::Ray>, float, int)>(&UnityEngine::CameraRaycastHelper::RaycastTry_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GameObject* (*)(::UnityEngine::Camera*, ByRef<::UnityEngine::Ray>, float, int)>(&UnityEngine::CameraRaycastHelper::RaycastTry_Injected)> {
   static const MethodInfo* get() {
     static auto* cam = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
     static auto* ray = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->this_arg;
@@ -89,7 +89,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::CameraRaycastHelper::RaycastTry2D_Injected
 // Il2CppName: RaycastTry2D_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::Camera*, ByRef<UnityEngine::Ray>, float, int)>(&UnityEngine::CameraRaycastHelper::RaycastTry2D_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GameObject* (*)(::UnityEngine::Camera*, ByRef<::UnityEngine::Ray>, float, int)>(&UnityEngine::CameraRaycastHelper::RaycastTry2D_Injected)> {
   static const MethodInfo* get() {
     static auto* cam = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
     static auto* ray = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->this_arg;

@@ -36,8 +36,8 @@ namespace UnityEngine {
   class _AndroidJNIHelper;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::_AndroidJNIHelper);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::_AndroidJNIHelper*, "UnityEngine", "_AndroidJNIHelper");
+NEED_NO_BOX(::UnityEngine::_AndroidJNIHelper);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::_AndroidJNIHelper*, "UnityEngine", "_AndroidJNIHelper");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -49,76 +49,76 @@ namespace UnityEngine {
     public:
     // static public System.IntPtr CreateJavaProxy(System.IntPtr delegateHandle, UnityEngine.AndroidJavaProxy proxy)
     // Offset: 0x29D37DC
-    static System::IntPtr CreateJavaProxy(System::IntPtr delegateHandle, UnityEngine::AndroidJavaProxy* proxy);
+    static ::System::IntPtr CreateJavaProxy(::System::IntPtr delegateHandle, ::UnityEngine::AndroidJavaProxy* proxy);
     // static public System.IntPtr CreateJavaRunnable(UnityEngine.AndroidJavaRunnable jrunnable)
     // Offset: 0x29D3680
-    static System::IntPtr CreateJavaRunnable(UnityEngine::AndroidJavaRunnable* jrunnable);
+    static ::System::IntPtr CreateJavaRunnable(::UnityEngine::AndroidJavaRunnable* jrunnable);
     // static public System.IntPtr InvokeJavaProxyMethod(UnityEngine.AndroidJavaProxy proxy, System.IntPtr jmethodName, System.IntPtr jargs)
     // Offset: 0x29DCB08
-    static System::IntPtr InvokeJavaProxyMethod(UnityEngine::AndroidJavaProxy* proxy, System::IntPtr jmethodName, System::IntPtr jargs);
+    static ::System::IntPtr InvokeJavaProxyMethod(::UnityEngine::AndroidJavaProxy* proxy, ::System::IntPtr jmethodName, ::System::IntPtr jargs);
     // static public UnityEngine.jvalue[] CreateJNIArgArray(System.Object[] args)
     // Offset: 0x29D40AC
-    static ::ArrayW<UnityEngine::jvalue> CreateJNIArgArray(::ArrayW<::Il2CppObject*> args);
+    static ::ArrayW<::UnityEngine::jvalue> CreateJNIArgArray(::ArrayW<::Il2CppObject*> args);
     // static public System.Object UnboxArray(UnityEngine.AndroidJavaObject obj)
     // Offset: 0x29DCED8
-    static ::Il2CppObject* UnboxArray(UnityEngine::AndroidJavaObject* obj);
+    static ::Il2CppObject* UnboxArray(::UnityEngine::AndroidJavaObject* obj);
     // static public System.Object Unbox(UnityEngine.AndroidJavaObject obj)
     // Offset: 0x29DB474
-    static ::Il2CppObject* Unbox(UnityEngine::AndroidJavaObject* obj);
+    static ::Il2CppObject* Unbox(::UnityEngine::AndroidJavaObject* obj);
     // static public UnityEngine.AndroidJavaObject Box(System.Object obj)
     // Offset: 0x29DA820
-    static UnityEngine::AndroidJavaObject* Box(::Il2CppObject* obj);
+    static ::UnityEngine::AndroidJavaObject* Box(::Il2CppObject* obj);
     // static public System.Void DeleteJNIArgArray(System.Object[] args, UnityEngine.jvalue[] jniArgs)
     // Offset: 0x29D4584
-    static void DeleteJNIArgArray(::ArrayW<::Il2CppObject*> args, ::ArrayW<UnityEngine::jvalue> jniArgs);
+    static void DeleteJNIArgArray(::ArrayW<::Il2CppObject*> args, ::ArrayW<::UnityEngine::jvalue> jniArgs);
     // static public System.IntPtr ConvertToJNIArray(System.Array array)
     // Offset: 0x29D3870
-    static System::IntPtr ConvertToJNIArray(System::Array* array);
+    static ::System::IntPtr ConvertToJNIArray(::System::Array* array);
     // static public ArrayType ConvertFromJNIArray(System.IntPtr array)
     // Offset: 0xFFFFFFFF
     template<class ArrayType>
-    static ArrayType ConvertFromJNIArray(System::IntPtr array) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::_AndroidJNIHelper::ConvertFromJNIArray");
+    static ArrayType ConvertFromJNIArray(::System::IntPtr array) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::_AndroidJNIHelper::ConvertFromJNIArray");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine", "_AndroidJNIHelper", "ConvertFromJNIArray", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ArrayType>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ArrayType>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<ArrayType, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, array);
     }
     // static public System.IntPtr GetConstructorID(System.IntPtr jclass, System.Object[] args)
     // Offset: 0x29D46D0
-    static System::IntPtr GetConstructorID(System::IntPtr jclass, ::ArrayW<::Il2CppObject*> args);
+    static ::System::IntPtr GetConstructorID(::System::IntPtr jclass, ::ArrayW<::Il2CppObject*> args);
     // static public System.IntPtr GetMethodID(System.IntPtr jclass, System.String methodName, System.Object[] args, System.Boolean isStatic)
     // Offset: 0x29D4740
-    static System::IntPtr GetMethodID(System::IntPtr jclass, ::StringW methodName, ::ArrayW<::Il2CppObject*> args, bool isStatic);
+    static ::System::IntPtr GetMethodID(::System::IntPtr jclass, ::StringW methodName, ::ArrayW<::Il2CppObject*> args, bool isStatic);
     // static public System.IntPtr GetMethodID(System.IntPtr jclass, System.String methodName, System.Object[] args, System.Boolean isStatic)
     // Offset: 0xFFFFFFFF
     template<class ReturnType>
-    static System::IntPtr GetMethodID(System::IntPtr jclass, ::StringW methodName, ::ArrayW<::Il2CppObject*> args, bool isStatic) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::_AndroidJNIHelper::GetMethodID");
+    static ::System::IntPtr GetMethodID(::System::IntPtr jclass, ::StringW methodName, ::ArrayW<::Il2CppObject*> args, bool isStatic) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::_AndroidJNIHelper::GetMethodID");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine", "_AndroidJNIHelper", "GetMethodID", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(jclass), ::il2cpp_utils::ExtractType(methodName), ::il2cpp_utils::ExtractType(args), ::il2cpp_utils::ExtractType(isStatic)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get()}));
-      return ::il2cpp_utils::RunMethodRethrow<System::IntPtr, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, jclass, methodName, args, isStatic);
+      return ::il2cpp_utils::RunMethodRethrow<::System::IntPtr, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, jclass, methodName, args, isStatic);
     }
     // static public System.IntPtr GetFieldID(System.IntPtr jclass, System.String fieldName, System.Boolean isStatic)
     // Offset: 0xFFFFFFFF
     template<class ReturnType>
-    static System::IntPtr GetFieldID(System::IntPtr jclass, ::StringW fieldName, bool isStatic) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::_AndroidJNIHelper::GetFieldID");
+    static ::System::IntPtr GetFieldID(::System::IntPtr jclass, ::StringW fieldName, bool isStatic) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::_AndroidJNIHelper::GetFieldID");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine", "_AndroidJNIHelper", "GetFieldID", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(jclass), ::il2cpp_utils::ExtractType(fieldName), ::il2cpp_utils::ExtractType(isStatic)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get()}));
-      return ::il2cpp_utils::RunMethodRethrow<System::IntPtr, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, jclass, fieldName, isStatic);
+      return ::il2cpp_utils::RunMethodRethrow<::System::IntPtr, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, jclass, fieldName, isStatic);
     }
     // static public System.IntPtr GetConstructorID(System.IntPtr jclass, System.String signature)
     // Offset: 0x29D2F70
-    static System::IntPtr GetConstructorID(System::IntPtr jclass, ::StringW signature);
+    static ::System::IntPtr GetConstructorID(::System::IntPtr jclass, ::StringW signature);
     // static public System.IntPtr GetMethodID(System.IntPtr jclass, System.String methodName, System.String signature, System.Boolean isStatic)
     // Offset: 0x29D3194
-    static System::IntPtr GetMethodID(System::IntPtr jclass, ::StringW methodName, ::StringW signature, bool isStatic);
+    static ::System::IntPtr GetMethodID(::System::IntPtr jclass, ::StringW methodName, ::StringW signature, bool isStatic);
     // static private System.IntPtr GetMethodIDFallback(System.IntPtr jclass, System.String methodName, System.String signature, System.Boolean isStatic)
     // Offset: 0x29DD3D4
-    static System::IntPtr GetMethodIDFallback(System::IntPtr jclass, ::StringW methodName, ::StringW signature, bool isStatic);
+    static ::System::IntPtr GetMethodIDFallback(::System::IntPtr jclass, ::StringW methodName, ::StringW signature, bool isStatic);
     // static public System.IntPtr GetFieldID(System.IntPtr jclass, System.String fieldName, System.String signature, System.Boolean isStatic)
     // Offset: 0x29D33CC
-    static System::IntPtr GetFieldID(System::IntPtr jclass, ::StringW fieldName, ::StringW signature, bool isStatic);
+    static ::System::IntPtr GetFieldID(::System::IntPtr jclass, ::StringW fieldName, ::StringW signature, bool isStatic);
     // static public System.String GetSignature(System.Object obj)
     // Offset: 0x29D4788
     static ::StringW GetSignature(::Il2CppObject* obj);
@@ -129,7 +129,7 @@ namespace UnityEngine {
     // Offset: 0xFFFFFFFF
     template<class ReturnType>
     static ::StringW GetSignature(::ArrayW<::Il2CppObject*> args) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::_AndroidJNIHelper::GetSignature");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::_AndroidJNIHelper::GetSignature");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine", "_AndroidJNIHelper", "GetSignature", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(args)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ReturnType>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<::StringW, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, args);
@@ -140,7 +140,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static _AndroidJNIHelper* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::_AndroidJNIHelper::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::_AndroidJNIHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<_AndroidJNIHelper*, creationType>()));
     }
   }; // UnityEngine._AndroidJNIHelper
@@ -150,7 +150,7 @@ namespace UnityEngine {
 // Writing MetadataGetter for method: UnityEngine::_AndroidJNIHelper::CreateJavaProxy
 // Il2CppName: CreateJavaProxy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, UnityEngine::AndroidJavaProxy*)>(&UnityEngine::_AndroidJNIHelper::CreateJavaProxy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::UnityEngine::AndroidJavaProxy*)>(&UnityEngine::_AndroidJNIHelper::CreateJavaProxy)> {
   static const MethodInfo* get() {
     static auto* delegateHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* proxy = &::il2cpp_utils::GetClassFromName("UnityEngine", "AndroidJavaProxy")->byval_arg;
@@ -160,7 +160,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::_AndroidJNIHelper::CreateJavaRunnable
 // Il2CppName: CreateJavaRunnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(UnityEngine::AndroidJavaRunnable*)>(&UnityEngine::_AndroidJNIHelper::CreateJavaRunnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::UnityEngine::AndroidJavaRunnable*)>(&UnityEngine::_AndroidJNIHelper::CreateJavaRunnable)> {
   static const MethodInfo* get() {
     static auto* jrunnable = &::il2cpp_utils::GetClassFromName("UnityEngine", "AndroidJavaRunnable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::_AndroidJNIHelper*), "CreateJavaRunnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{jrunnable});
@@ -169,7 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::_AndroidJNIHelper::InvokeJavaProxyMethod
 // Il2CppName: InvokeJavaProxyMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(UnityEngine::AndroidJavaProxy*, System::IntPtr, System::IntPtr)>(&UnityEngine::_AndroidJNIHelper::InvokeJavaProxyMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::UnityEngine::AndroidJavaProxy*, ::System::IntPtr, ::System::IntPtr)>(&UnityEngine::_AndroidJNIHelper::InvokeJavaProxyMethod)> {
   static const MethodInfo* get() {
     static auto* proxy = &::il2cpp_utils::GetClassFromName("UnityEngine", "AndroidJavaProxy")->byval_arg;
     static auto* jmethodName = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -180,7 +180,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::_AndroidJNIHelper::CreateJNIArgArray
 // Il2CppName: CreateJNIArgArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::jvalue> (*)(::ArrayW<::Il2CppObject*>)>(&UnityEngine::_AndroidJNIHelper::CreateJNIArgArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::jvalue> (*)(::ArrayW<::Il2CppObject*>)>(&UnityEngine::_AndroidJNIHelper::CreateJNIArgArray)> {
   static const MethodInfo* get() {
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::_AndroidJNIHelper*), "CreateJNIArgArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{args});
@@ -189,7 +189,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: UnityEngine::_AndroidJNIHelper::UnboxArray
 // Il2CppName: UnboxArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(UnityEngine::AndroidJavaObject*)>(&UnityEngine::_AndroidJNIHelper::UnboxArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::UnityEngine::AndroidJavaObject*)>(&UnityEngine::_AndroidJNIHelper::UnboxArray)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("UnityEngine", "AndroidJavaObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::_AndroidJNIHelper*), "UnboxArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -198,7 +198,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: UnityEngine::_AndroidJNIHelper::Unbox
 // Il2CppName: Unbox
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(UnityEngine::AndroidJavaObject*)>(&UnityEngine::_AndroidJNIHelper::Unbox)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::UnityEngine::AndroidJavaObject*)>(&UnityEngine::_AndroidJNIHelper::Unbox)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("UnityEngine", "AndroidJavaObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::_AndroidJNIHelper*), "Unbox", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -207,7 +207,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: UnityEngine::_AndroidJNIHelper::Box
 // Il2CppName: Box
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AndroidJavaObject* (*)(::Il2CppObject*)>(&UnityEngine::_AndroidJNIHelper::Box)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AndroidJavaObject* (*)(::Il2CppObject*)>(&UnityEngine::_AndroidJNIHelper::Box)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::_AndroidJNIHelper*), "Box", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -216,7 +216,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::_AndroidJNIHelper::DeleteJNIArgArray
 // Il2CppName: DeleteJNIArgArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<::Il2CppObject*>, ::ArrayW<UnityEngine::jvalue>)>(&UnityEngine::_AndroidJNIHelper::DeleteJNIArgArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<::Il2CppObject*>, ::ArrayW<::UnityEngine::jvalue>)>(&UnityEngine::_AndroidJNIHelper::DeleteJNIArgArray)> {
   static const MethodInfo* get() {
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     static auto* jniArgs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "jvalue"), 1)->byval_arg;
@@ -226,7 +226,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::_AndroidJNIHelper::ConvertToJNIArray
 // Il2CppName: ConvertToJNIArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::Array*)>(&UnityEngine::_AndroidJNIHelper::ConvertToJNIArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::Array*)>(&UnityEngine::_AndroidJNIHelper::ConvertToJNIArray)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "Array")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::_AndroidJNIHelper*), "ConvertToJNIArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});
@@ -238,7 +238,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::_AndroidJNIHelper::GetConstructorID
 // Il2CppName: GetConstructorID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, ::ArrayW<::Il2CppObject*>)>(&UnityEngine::_AndroidJNIHelper::GetConstructorID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::ArrayW<::Il2CppObject*>)>(&UnityEngine::_AndroidJNIHelper::GetConstructorID)> {
   static const MethodInfo* get() {
     static auto* jclass = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
@@ -248,7 +248,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::_AndroidJNIHelper::GetMethodID
 // Il2CppName: GetMethodID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, ::StringW, ::ArrayW<::Il2CppObject*>, bool)>(&UnityEngine::_AndroidJNIHelper::GetMethodID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::StringW, ::ArrayW<::Il2CppObject*>, bool)>(&UnityEngine::_AndroidJNIHelper::GetMethodID)> {
   static const MethodInfo* get() {
     static auto* jclass = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -266,7 +266,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::_AndroidJNIHelper::GetConstructorID
 // Il2CppName: GetConstructorID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, ::StringW)>(&UnityEngine::_AndroidJNIHelper::GetConstructorID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::StringW)>(&UnityEngine::_AndroidJNIHelper::GetConstructorID)> {
   static const MethodInfo* get() {
     static auto* jclass = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* signature = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -276,7 +276,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::_AndroidJNIHelper::GetMethodID
 // Il2CppName: GetMethodID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, ::StringW, ::StringW, bool)>(&UnityEngine::_AndroidJNIHelper::GetMethodID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::StringW, ::StringW, bool)>(&UnityEngine::_AndroidJNIHelper::GetMethodID)> {
   static const MethodInfo* get() {
     static auto* jclass = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -288,7 +288,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::_AndroidJNIHelper::GetMethodIDFallback
 // Il2CppName: GetMethodIDFallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, ::StringW, ::StringW, bool)>(&UnityEngine::_AndroidJNIHelper::GetMethodIDFallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::StringW, ::StringW, bool)>(&UnityEngine::_AndroidJNIHelper::GetMethodIDFallback)> {
   static const MethodInfo* get() {
     static auto* jclass = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -300,7 +300,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::_AndroidJNIHelper::GetFieldID
 // Il2CppName: GetFieldID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, ::StringW, ::StringW, bool)>(&UnityEngine::_AndroidJNIHelper::GetFieldID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::StringW, ::StringW, bool)>(&UnityEngine::_AndroidJNIHelper::GetFieldID)> {
   static const MethodInfo* get() {
     static auto* jclass = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fieldName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

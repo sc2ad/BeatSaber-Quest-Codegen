@@ -20,8 +20,8 @@ namespace LiteNetLib::Utils {
   class INetSerializable;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(LiteNetLib::Utils::INetSerializable);
-DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::INetSerializable*, "LiteNetLib.Utils", "INetSerializable");
+NEED_NO_BOX(::LiteNetLib::Utils::INetSerializable);
+DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::Utils::INetSerializable*, "LiteNetLib.Utils", "INetSerializable");
 // Type namespace: LiteNetLib.Utils
 namespace LiteNetLib::Utils {
   // Size: 0x10
@@ -32,10 +32,10 @@ namespace LiteNetLib::Utils {
     public:
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
     // Offset: 0xFFFFFFFF
-    void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
+    void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
     // Offset: 0xFFFFFFFF
-    void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
+    void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
   }; // LiteNetLib.Utils.INetSerializable
   #pragma pack(pop)
 }
@@ -43,7 +43,7 @@ namespace LiteNetLib::Utils {
 // Writing MetadataGetter for method: LiteNetLib::Utils::INetSerializable::Serialize
 // Il2CppName: Serialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::INetSerializable::*)(LiteNetLib::Utils::NetDataWriter*)>(&LiteNetLib::Utils::INetSerializable::Serialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::INetSerializable::*)(::LiteNetLib::Utils::NetDataWriter*)>(&LiteNetLib::Utils::INetSerializable::Serialize)> {
   static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataWriter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::INetSerializable*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{writer});
@@ -52,7 +52,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::Utils::INetSerializable::Deserialize
 // Il2CppName: Deserialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::INetSerializable::*)(LiteNetLib::Utils::NetDataReader*)>(&LiteNetLib::Utils::INetSerializable::Deserialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::INetSerializable::*)(::LiteNetLib::Utils::NetDataReader*)>(&LiteNetLib::Utils::INetSerializable::Deserialize)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataReader")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::INetSerializable*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader});

@@ -13,8 +13,8 @@ namespace System::Xml {
   class XmlComplianceUtil;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::XmlComplianceUtil);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlComplianceUtil*, "System.Xml", "XmlComplianceUtil");
+NEED_NO_BOX(::System::Xml::XmlComplianceUtil);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlComplianceUtil*, "System.Xml", "XmlComplianceUtil");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x10

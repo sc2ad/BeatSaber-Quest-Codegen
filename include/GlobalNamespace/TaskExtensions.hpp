@@ -32,8 +32,8 @@ namespace GlobalNamespace {
   class TaskExtensions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::TaskExtensions);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TaskExtensions*, "", "TaskExtensions");
+NEED_NO_BOX(::GlobalNamespace::TaskExtensions);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TaskExtensions*, "", "TaskExtensions");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -43,26 +43,26 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class TaskExtensions : public ::Il2CppObject {
     public:
-    // Nested type: GlobalNamespace::TaskExtensions::$$c__DisplayClass0_0_1<T>
+    // Nested type: ::GlobalNamespace::TaskExtensions::$$c__DisplayClass0_0_1<T>
     template<typename T>
     class $$c__DisplayClass0_0_1;
-    // Nested type: GlobalNamespace::TaskExtensions::$WaitForTask$d__1_1<T>
+    // Nested type: ::GlobalNamespace::TaskExtensions::$WaitForTask$d__1_1<T>
     template<typename T>
     struct $WaitForTask$d__1_1;
     // static public System.Threading.Tasks.Task`1<T> WithCancellation(System.Threading.Tasks.Task`1<T> task, System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static System::Threading::Tasks::Task_1<T>* WithCancellation(System::Threading::Tasks::Task_1<T>* task, System::Threading::CancellationToken cancellationToken) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TaskExtensions::WithCancellation");
+    static ::System::Threading::Tasks::Task_1<T>* WithCancellation(::System::Threading::Tasks::Task_1<T>* task, ::System::Threading::CancellationToken cancellationToken) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TaskExtensions::WithCancellation");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "TaskExtensions", "WithCancellation", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(task), ::il2cpp_utils::ExtractType(cancellationToken)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodRethrow<System::Threading::Tasks::Task_1<T>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, task, cancellationToken);
+      return ::il2cpp_utils::RunMethodRethrow<::System::Threading::Tasks::Task_1<T>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, task, cancellationToken);
     }
     // static private System.Void WaitForTask(System.Threading.Tasks.Task`1<T> task, System.Threading.Tasks.TaskCompletionSource`1<T> tcs)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static void WaitForTask(System::Threading::Tasks::Task_1<T>* task, System::Threading::Tasks::TaskCompletionSource_1<T>* tcs) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::TaskExtensions::WaitForTask");
+    static void WaitForTask(::System::Threading::Tasks::Task_1<T>* task, ::System::Threading::Tasks::TaskCompletionSource_1<T>* tcs) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TaskExtensions::WaitForTask");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "TaskExtensions", "WaitForTask", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(task), ::il2cpp_utils::ExtractType(tcs)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, task, tcs);

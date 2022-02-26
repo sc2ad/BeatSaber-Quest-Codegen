@@ -18,8 +18,8 @@ namespace System {
   class SharedStatics;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::SharedStatics);
-DEFINE_IL2CPP_ARG_TYPE(System::SharedStatics*, "System", "SharedStatics");
+NEED_NO_BOX(::System::SharedStatics);
+DEFINE_IL2CPP_ARG_TYPE(::System::SharedStatics*, "System", "SharedStatics");
 // Type namespace: System
 namespace System {
   // Size: 0x18
@@ -40,41 +40,41 @@ namespace System {
     // private System.Security.Util.Tokenizer/System.Security.Util.StringMaker _maker
     // Size: 0x8
     // Offset: 0x10
-    System::Security::Util::Tokenizer::StringMaker* maker;
+    ::System::Security::Util::Tokenizer::StringMaker* maker;
     // Field size check
-    static_assert(sizeof(System::Security::Util::Tokenizer::StringMaker*) == 0x8);
+    static_assert(sizeof(::System::Security::Util::Tokenizer::StringMaker*) == 0x8);
     public:
-    // Creating conversion operator: operator System::Security::Util::Tokenizer::StringMaker*
-    constexpr operator System::Security::Util::Tokenizer::StringMaker*() const noexcept {
+    // Creating conversion operator: operator ::System::Security::Util::Tokenizer::StringMaker*
+    constexpr operator ::System::Security::Util::Tokenizer::StringMaker*() const noexcept {
       return maker;
     }
     // Get static field: static private readonly System.SharedStatics _sharedStatics
-    static System::SharedStatics* _get__sharedStatics();
+    static ::System::SharedStatics* _get__sharedStatics();
     // Set static field: static private readonly System.SharedStatics _sharedStatics
-    static void _set__sharedStatics(System::SharedStatics* value);
+    static void _set__sharedStatics(::System::SharedStatics* value);
     // Get instance field reference: private System.Security.Util.Tokenizer/System.Security.Util.StringMaker _maker
-    System::Security::Util::Tokenizer::StringMaker*& dyn__maker();
+    ::System::Security::Util::Tokenizer::StringMaker*& dyn__maker();
     // static private System.Void .cctor()
     // Offset: 0x1FFAC30
     static void _cctor();
     // static public System.Security.Util.Tokenizer/System.Security.Util.StringMaker GetSharedStringMaker()
     // Offset: 0x1FF9ADC
-    static System::Security::Util::Tokenizer::StringMaker* GetSharedStringMaker();
+    static ::System::Security::Util::Tokenizer::StringMaker* GetSharedStringMaker();
     // static public System.Void ReleaseSharedStringMaker(ref System.Security.Util.Tokenizer/System.Security.Util.StringMaker maker)
     // Offset: 0x1FF9C4C
-    static void ReleaseSharedStringMaker(ByRef<System::Security::Util::Tokenizer::StringMaker*> maker);
+    static void ReleaseSharedStringMaker(ByRef<::System::Security::Util::Tokenizer::StringMaker*> maker);
     // private System.Void .ctor()
     // Offset: 0x1FFAC28
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SharedStatics* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::SharedStatics::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::SharedStatics::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SharedStatics*, creationType>()));
     }
   }; // System.SharedStatics
   #pragma pack(pop)
-  static check_size<sizeof(SharedStatics), 16 + sizeof(System::Security::Util::Tokenizer::StringMaker*)> __System_SharedStaticsSizeCheck;
+  static check_size<sizeof(SharedStatics), 16 + sizeof(::System::Security::Util::Tokenizer::StringMaker*)> __System_SharedStaticsSizeCheck;
   static_assert(sizeof(SharedStatics) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -89,7 +89,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::SharedStatics::GetSharedStringMaker
 // Il2CppName: GetSharedStringMaker
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Util::Tokenizer::StringMaker* (*)()>(&System::SharedStatics::GetSharedStringMaker)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Util::Tokenizer::StringMaker* (*)()>(&System::SharedStatics::GetSharedStringMaker)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::SharedStatics*), "GetSharedStringMaker", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -97,7 +97,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Writing MetadataGetter for method: System::SharedStatics::ReleaseSharedStringMaker
 // Il2CppName: ReleaseSharedStringMaker
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<System::Security::Util::Tokenizer::StringMaker*>)>(&System::SharedStatics::ReleaseSharedStringMaker)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::System::Security::Util::Tokenizer::StringMaker*>)>(&System::SharedStatics::ReleaseSharedStringMaker)> {
   static const MethodInfo* get() {
     static auto* maker = &::il2cpp_utils::GetClassFromName("System.Security.Util", "Tokenizer/StringMaker")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::SharedStatics*), "ReleaseSharedStringMaker", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{maker});

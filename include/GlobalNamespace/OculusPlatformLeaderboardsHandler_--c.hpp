@@ -22,8 +22,8 @@ namespace Oculus::Platform::Models {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c*, "", "OculusPlatformLeaderboardsHandler/<>c");
+NEED_NO_BOX(::GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c*, "", "OculusPlatformLeaderboardsHandler/<>c");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -34,26 +34,26 @@ namespace GlobalNamespace {
   class OculusPlatformLeaderboardsHandler::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly OculusPlatformLeaderboardsHandler/<>c <>9
-    static GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c* _get_$$9();
+    static ::GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c* _get_$$9();
     // Set static field: static public readonly OculusPlatformLeaderboardsHandler/<>c <>9
-    static void _set_$$9(GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c* value);
+    static void _set_$$9(::GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c* value);
     // Get static field: static public Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.LeaderboardEntryList> <>9__2_0
-    static typename Oculus::Platform::Message_1<Oculus::Platform::Models::LeaderboardEntryList*>::Callback* _get_$$9__2_0();
+    static typename ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LeaderboardEntryList*>::Callback* _get_$$9__2_0();
     // Set static field: static public Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.LeaderboardEntryList> <>9__2_0
-    static void _set_$$9__2_0(typename Oculus::Platform::Message_1<Oculus::Platform::Models::LeaderboardEntryList*>::Callback* value);
+    static void _set_$$9__2_0(typename ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LeaderboardEntryList*>::Callback* value);
     // static private System.Void .cctor()
     // Offset: 0x2BB89A4
     static void _cctor();
     // System.Void <.ctor>b__2_0(Oculus.Platform.Message`1<Oculus.Platform.Models.LeaderboardEntryList> message)
     // Offset: 0x2BB8A10
-    void $_ctor$b__2_0(Oculus::Platform::Message_1<Oculus::Platform::Models::LeaderboardEntryList*>* message);
+    void $_ctor$b__2_0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::LeaderboardEntryList*>* message);
     // public System.Void .ctor()
     // Offset: 0x2BB8A08
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusPlatformLeaderboardsHandler::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusPlatformLeaderboardsHandler::$$c*, creationType>()));
     }
   }; // OculusPlatformLeaderboardsHandler/<>c
@@ -71,7 +71,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c::$_ctor$b__2_0
 // Il2CppName: <.ctor>b__2_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c::*)(Oculus::Platform::Message_1<Oculus::Platform::Models::LeaderboardEntryList*>*)>(&GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c::$_ctor$b__2_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c::*)(::Oculus::Platform::Message_1<::Oculus::Platform::Models::LeaderboardEntryList*>*)>(&GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c::$_ctor$b__2_0)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("Oculus.Platform", "Message`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Oculus.Platform.Models", "LeaderboardEntryList")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c*), "<.ctor>b__2_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});

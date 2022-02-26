@@ -13,8 +13,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SteamVR_Events::Action);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Events::Action*, "", "SteamVR_Events/Action");
+NEED_NO_BOX(::GlobalNamespace::SteamVR_Events::Action);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SteamVR_Events::Action*, "", "SteamVR_Events/Action");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_Events::Action* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_Events::Action::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_Events::Action::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_Events::Action*, creationType>()));
     }
   }; // SteamVR_Events/Action

@@ -35,8 +35,8 @@ namespace System::Threading::Tasks {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(MasterServer::UserMasterServerMessageHandler::$$c__DisplayClass21_0);
-DEFINE_IL2CPP_ARG_TYPE(MasterServer::UserMasterServerMessageHandler::$$c__DisplayClass21_0*, "MasterServer", "UserMasterServerMessageHandler/<>c__DisplayClass21_0");
+NEED_NO_BOX(::MasterServer::UserMasterServerMessageHandler::$$c__DisplayClass21_0);
+DEFINE_IL2CPP_ARG_TYPE(::MasterServer::UserMasterServerMessageHandler::$$c__DisplayClass21_0*, "MasterServer", "UserMasterServerMessageHandler/<>c__DisplayClass21_0");
 // Type namespace: MasterServer
 namespace MasterServer {
   // Size: 0x38
@@ -46,7 +46,7 @@ namespace MasterServer {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class UserMasterServerMessageHandler::$$c__DisplayClass21_0 : public ::Il2CppObject {
     public:
-    // Nested type: MasterServer::UserMasterServerMessageHandler::$$c__DisplayClass21_0::$$SendConnectToServerRequest$b__0$d
+    // Nested type: ::MasterServer::UserMasterServerMessageHandler::$$c__DisplayClass21_0::$$SendConnectToServerRequest$b__0$d
     struct $$SendConnectToServerRequest$b__0$d;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -60,66 +60,66 @@ namespace MasterServer {
     // public System.Threading.CancellationToken cancellationToken
     // Size: 0x8
     // Offset: 0x10
-    System::Threading::CancellationToken cancellationToken;
+    ::System::Threading::CancellationToken cancellationToken;
     // Field size check
-    static_assert(sizeof(System::Threading::CancellationToken) == 0x8);
+    static_assert(sizeof(::System::Threading::CancellationToken) == 0x8);
     // public MasterServer.UserMasterServerMessageHandler <>4__this
     // Size: 0x8
     // Offset: 0x18
-    MasterServer::UserMasterServerMessageHandler* $$4__this;
+    ::MasterServer::UserMasterServerMessageHandler* $$4__this;
     // Field size check
-    static_assert(sizeof(MasterServer::UserMasterServerMessageHandler*) == 0x8);
+    static_assert(sizeof(::MasterServer::UserMasterServerMessageHandler*) == 0x8);
     // public MasterServer.BaseConnectToServerRequest request
     // Size: 0x8
     // Offset: 0x20
-    MasterServer::BaseConnectToServerRequest* request;
+    ::MasterServer::BaseConnectToServerRequest* request;
     // Field size check
-    static_assert(sizeof(MasterServer::BaseConnectToServerRequest*) == 0x8);
+    static_assert(sizeof(::MasterServer::BaseConnectToServerRequest*) == 0x8);
     // public MasterServer.UserMasterServerMessageHandler/MasterServer.ConnectToServerDelegate onSuccess
     // Size: 0x8
     // Offset: 0x28
-    MasterServer::UserMasterServerMessageHandler::ConnectToServerDelegate* onSuccess;
+    ::MasterServer::UserMasterServerMessageHandler::ConnectToServerDelegate* onSuccess;
     // Field size check
-    static_assert(sizeof(MasterServer::UserMasterServerMessageHandler::ConnectToServerDelegate*) == 0x8);
+    static_assert(sizeof(::MasterServer::UserMasterServerMessageHandler::ConnectToServerDelegate*) == 0x8);
     // public System.Action`1<ConnectionFailedReason> onConnectionFailed
     // Size: 0x8
     // Offset: 0x30
-    System::Action_1<GlobalNamespace::ConnectionFailedReason>* onConnectionFailed;
+    ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* onConnectionFailed;
     // Field size check
-    static_assert(sizeof(System::Action_1<GlobalNamespace::ConnectionFailedReason>*) == 0x8);
+    static_assert(sizeof(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*) == 0x8);
     public:
     // Get instance field reference: public System.Threading.CancellationToken cancellationToken
-    System::Threading::CancellationToken& dyn_cancellationToken();
+    ::System::Threading::CancellationToken& dyn_cancellationToken();
     // Get instance field reference: public MasterServer.UserMasterServerMessageHandler <>4__this
-    MasterServer::UserMasterServerMessageHandler*& dyn_$$4__this();
+    ::MasterServer::UserMasterServerMessageHandler*& dyn_$$4__this();
     // Get instance field reference: public MasterServer.BaseConnectToServerRequest request
-    MasterServer::BaseConnectToServerRequest*& dyn_request();
+    ::MasterServer::BaseConnectToServerRequest*& dyn_request();
     // Get instance field reference: public MasterServer.UserMasterServerMessageHandler/MasterServer.ConnectToServerDelegate onSuccess
-    MasterServer::UserMasterServerMessageHandler::ConnectToServerDelegate*& dyn_onSuccess();
+    ::MasterServer::UserMasterServerMessageHandler::ConnectToServerDelegate*& dyn_onSuccess();
     // Get instance field reference: public System.Action`1<ConnectionFailedReason> onConnectionFailed
-    System::Action_1<GlobalNamespace::ConnectionFailedReason>*& dyn_onConnectionFailed();
+    ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*& dyn_onConnectionFailed();
     // System.Threading.Tasks.Task <SendConnectToServerRequest>b__0()
     // Offset: 0x2C9A60C
-    System::Threading::Tasks::Task* $SendConnectToServerRequest$b__0();
+    ::System::Threading::Tasks::Task* $SendConnectToServerRequest$b__0();
     // public System.Void .ctor()
     // Offset: 0x2C9A3A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UserMasterServerMessageHandler::$$c__DisplayClass21_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("MasterServer::UserMasterServerMessageHandler::$$c__DisplayClass21_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::MasterServer::UserMasterServerMessageHandler::$$c__DisplayClass21_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UserMasterServerMessageHandler::$$c__DisplayClass21_0*, creationType>()));
     }
   }; // MasterServer.UserMasterServerMessageHandler/MasterServer.<>c__DisplayClass21_0
   #pragma pack(pop)
-  static check_size<sizeof(UserMasterServerMessageHandler::$$c__DisplayClass21_0), 48 + sizeof(System::Action_1<GlobalNamespace::ConnectionFailedReason>*)> __MasterServer_UserMasterServerMessageHandler_$$c__DisplayClass21_0SizeCheck;
+  static check_size<sizeof(UserMasterServerMessageHandler::$$c__DisplayClass21_0), 48 + sizeof(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*)> __MasterServer_UserMasterServerMessageHandler_$$c__DisplayClass21_0SizeCheck;
   static_assert(sizeof(UserMasterServerMessageHandler::$$c__DisplayClass21_0) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::UserMasterServerMessageHandler::$$c__DisplayClass21_0::$SendConnectToServerRequest$b__0
 // Il2CppName: <SendConnectToServerRequest>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (MasterServer::UserMasterServerMessageHandler::$$c__DisplayClass21_0::*)()>(&MasterServer::UserMasterServerMessageHandler::$$c__DisplayClass21_0::$SendConnectToServerRequest$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (MasterServer::UserMasterServerMessageHandler::$$c__DisplayClass21_0::*)()>(&MasterServer::UserMasterServerMessageHandler::$$c__DisplayClass21_0::$SendConnectToServerRequest$b__0)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::UserMasterServerMessageHandler::$$c__DisplayClass21_0*), "<SendConnectToServerRequest>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

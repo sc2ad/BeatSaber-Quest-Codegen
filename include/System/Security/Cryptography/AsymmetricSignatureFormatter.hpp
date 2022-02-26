@@ -16,8 +16,8 @@ namespace System::Security::Cryptography {
   class AsymmetricSignatureFormatter;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Security::Cryptography::AsymmetricSignatureFormatter);
-DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::AsymmetricSignatureFormatter*, "System.Security.Cryptography", "AsymmetricSignatureFormatter");
+NEED_NO_BOX(::System::Security::Cryptography::AsymmetricSignatureFormatter);
+DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::AsymmetricSignatureFormatter*, "System.Security.Cryptography", "AsymmetricSignatureFormatter");
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {
   // Size: 0x10
@@ -33,7 +33,7 @@ namespace System::Security::Cryptography {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsymmetricSignatureFormatter* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::AsymmetricSignatureFormatter::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::AsymmetricSignatureFormatter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsymmetricSignatureFormatter*, creationType>()));
     }
   }; // System.Security.Cryptography.AsymmetricSignatureFormatter

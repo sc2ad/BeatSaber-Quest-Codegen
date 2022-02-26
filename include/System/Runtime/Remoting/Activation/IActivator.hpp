@@ -20,8 +20,8 @@ namespace System::Runtime::Remoting::Activation {
   class IActivator;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Remoting::Activation::IActivator);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Activation::IActivator*, "System.Runtime.Remoting.Activation", "IActivator");
+NEED_NO_BOX(::System::Runtime::Remoting::Activation::IActivator);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Activation::IActivator*, "System.Runtime.Remoting.Activation", "IActivator");
 // Type namespace: System.Runtime.Remoting.Activation
 namespace System::Runtime::Remoting::Activation {
   // Size: 0x10
@@ -33,10 +33,10 @@ namespace System::Runtime::Remoting::Activation {
     public:
     // public System.Runtime.Remoting.Activation.IActivator get_NextActivator()
     // Offset: 0xFFFFFFFF
-    System::Runtime::Remoting::Activation::IActivator* get_NextActivator();
+    ::System::Runtime::Remoting::Activation::IActivator* get_NextActivator();
     // public System.Runtime.Remoting.Activation.IConstructionReturnMessage Activate(System.Runtime.Remoting.Activation.IConstructionCallMessage msg)
     // Offset: 0xFFFFFFFF
-    System::Runtime::Remoting::Activation::IConstructionReturnMessage* Activate(System::Runtime::Remoting::Activation::IConstructionCallMessage* msg);
+    ::System::Runtime::Remoting::Activation::IConstructionReturnMessage* Activate(::System::Runtime::Remoting::Activation::IConstructionCallMessage* msg);
   }; // System.Runtime.Remoting.Activation.IActivator
   #pragma pack(pop)
 }
@@ -44,7 +44,7 @@ namespace System::Runtime::Remoting::Activation {
 // Writing MetadataGetter for method: System::Runtime::Remoting::Activation::IActivator::get_NextActivator
 // Il2CppName: get_NextActivator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Activation::IActivator* (System::Runtime::Remoting::Activation::IActivator::*)()>(&System::Runtime::Remoting::Activation::IActivator::get_NextActivator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Activation::IActivator* (System::Runtime::Remoting::Activation::IActivator::*)()>(&System::Runtime::Remoting::Activation::IActivator::get_NextActivator)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Activation::IActivator*), "get_NextActivator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -52,7 +52,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: System::Runtime::Remoting::Activation::IActivator::Activate
 // Il2CppName: Activate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Activation::IConstructionReturnMessage* (System::Runtime::Remoting::Activation::IActivator::*)(System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(&System::Runtime::Remoting::Activation::IActivator::Activate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Activation::IConstructionReturnMessage* (System::Runtime::Remoting::Activation::IActivator::*)(::System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(&System::Runtime::Remoting::Activation::IActivator::Activate)> {
   static const MethodInfo* get() {
     static auto* msg = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Activation", "IConstructionCallMessage")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Activation::IActivator*), "Activate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{msg});

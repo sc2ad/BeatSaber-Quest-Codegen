@@ -24,8 +24,8 @@ namespace Newtonsoft::Json::Utilities {
   class Base64Encoder;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Utilities::Base64Encoder);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::Base64Encoder*, "Newtonsoft.Json.Utilities", "Base64Encoder");
+NEED_NO_BOX(::Newtonsoft::Json::Utilities::Base64Encoder);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::Base64Encoder*, "Newtonsoft.Json.Utilities", "Base64Encoder");
 // Type namespace: Newtonsoft.Json.Utilities
 namespace Newtonsoft::Json::Utilities {
   // Size: 0x2C
@@ -54,9 +54,9 @@ namespace Newtonsoft::Json::Utilities {
     // private readonly System.IO.TextWriter _writer
     // Size: 0x8
     // Offset: 0x18
-    System::IO::TextWriter* writer;
+    ::System::IO::TextWriter* writer;
     // Field size check
-    static_assert(sizeof(System::IO::TextWriter*) == 0x8);
+    static_assert(sizeof(::System::IO::TextWriter*) == 0x8);
     // [NullableAttribute] Offset: 0x12043A4
     // private System.Byte[] _leftOverBytes
     // Size: 0x8
@@ -74,7 +74,7 @@ namespace Newtonsoft::Json::Utilities {
     // Get instance field reference: private readonly System.Char[] _charsLine
     ::ArrayW<::Il2CppChar>& dyn__charsLine();
     // Get instance field reference: private readonly System.IO.TextWriter _writer
-    System::IO::TextWriter*& dyn__writer();
+    ::System::IO::TextWriter*& dyn__writer();
     // Get instance field reference: private System.Byte[] _leftOverBytes
     ::ArrayW<uint8_t>& dyn__leftOverBytes();
     // Get instance field reference: private System.Int32 _leftOverBytesCount
@@ -82,8 +82,8 @@ namespace Newtonsoft::Json::Utilities {
     // public System.Void .ctor(System.IO.TextWriter writer)
     // Offset: 0x19D9D84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Base64Encoder* New_ctor(System::IO::TextWriter* writer) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Utilities::Base64Encoder::.ctor");
+    static Base64Encoder* New_ctor(::System::IO::TextWriter* writer) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Utilities::Base64Encoder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Base64Encoder*, creationType>(writer)));
     }
     // private System.Void ValidateEncode(System.Byte[] buffer, System.Int32 index, System.Int32 count)

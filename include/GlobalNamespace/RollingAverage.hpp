@@ -19,8 +19,8 @@ namespace GlobalNamespace {
   class RollingAverage;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::RollingAverage);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RollingAverage*, "", "RollingAverage");
+NEED_NO_BOX(::GlobalNamespace::RollingAverage);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::RollingAverage*, "", "RollingAverage");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x30
@@ -97,7 +97,7 @@ namespace GlobalNamespace {
     // Offset: 0x2E01F60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RollingAverage* New_ctor(int window) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::RollingAverage::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RollingAverage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RollingAverage*, creationType>(window)));
     }
     // public System.Void Update(System.Single value)

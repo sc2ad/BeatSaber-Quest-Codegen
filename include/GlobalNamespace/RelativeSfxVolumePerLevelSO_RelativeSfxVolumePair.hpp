@@ -21,8 +21,8 @@ namespace GlobalNamespace {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::RelativeSfxVolumePerLevelSO::RelativeSfxVolumePair);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RelativeSfxVolumePerLevelSO::RelativeSfxVolumePair*, "", "RelativeSfxVolumePerLevelSO/RelativeSfxVolumePair");
+NEED_NO_BOX(::GlobalNamespace::RelativeSfxVolumePerLevelSO::RelativeSfxVolumePair);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::RelativeSfxVolumePerLevelSO::RelativeSfxVolumePair*, "", "RelativeSfxVolumePerLevelSO/RelativeSfxVolumePair");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x1C
@@ -43,9 +43,9 @@ namespace GlobalNamespace {
     // private PreviewBeatmapLevelSO _previewLevel
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::PreviewBeatmapLevelSO* previewLevel;
+    ::GlobalNamespace::PreviewBeatmapLevelSO* previewLevel;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::PreviewBeatmapLevelSO*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::PreviewBeatmapLevelSO*) == 0x8);
     // private System.Single _relativeSfxVolume
     // Size: 0x4
     // Offset: 0x18
@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: private PreviewBeatmapLevelSO _previewLevel
-    GlobalNamespace::PreviewBeatmapLevelSO*& dyn__previewLevel();
+    ::GlobalNamespace::PreviewBeatmapLevelSO*& dyn__previewLevel();
     // Get instance field reference: private System.Single _relativeSfxVolume
     float& dyn__relativeSfxVolume();
     // public System.String get_levelId()
@@ -69,7 +69,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RelativeSfxVolumePerLevelSO::RelativeSfxVolumePair* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::RelativeSfxVolumePerLevelSO::RelativeSfxVolumePair::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RelativeSfxVolumePerLevelSO::RelativeSfxVolumePair::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RelativeSfxVolumePerLevelSO::RelativeSfxVolumePair*, creationType>()));
     }
   }; // RelativeSfxVolumePerLevelSO/RelativeSfxVolumePair

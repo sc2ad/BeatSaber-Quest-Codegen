@@ -46,8 +46,8 @@ namespace GlobalNamespace {
   class DlcPromoPanelModel;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::DlcPromoPanelModel);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DlcPromoPanelModel*, "", "DlcPromoPanelModel");
+NEED_NO_BOX(::GlobalNamespace::DlcPromoPanelModel);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DlcPromoPanelModel*, "", "DlcPromoPanelModel");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x48
@@ -56,7 +56,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class DlcPromoPanelModel : public ::Il2CppObject {
     public:
-    // Nested type: GlobalNamespace::DlcPromoPanelModel::$UpdateNotOwnedPacksAsync$d__17
+    // Nested type: ::GlobalNamespace::DlcPromoPanelModel::$UpdateNotOwnedPacksAsync$d__17
     struct $UpdateNotOwnedPacksAsync$d__17;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -71,36 +71,36 @@ namespace GlobalNamespace {
     // private readonly AdditionalContentModel _additionalContentModel
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::AdditionalContentModel* additionalContentModel;
+    ::GlobalNamespace::AdditionalContentModel* additionalContentModel;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::AdditionalContentModel*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::AdditionalContentModel*) == 0x8);
     // [InjectAttribute] Offset: 0x123CD24
     // private readonly IAnalyticsModel _analyticsModel
     // Size: 0x8
     // Offset: 0x18
-    GlobalNamespace::IAnalyticsModel* analyticsModel;
+    ::GlobalNamespace::IAnalyticsModel* analyticsModel;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::IAnalyticsModel*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::IAnalyticsModel*) == 0x8);
     // [InjectAttribute] Offset: 0x123CD34
     // private readonly DlcPromoPanelDataSO _dlcPromoPanelData
     // Size: 0x8
     // Offset: 0x20
-    GlobalNamespace::DlcPromoPanelDataSO* dlcPromoPanelData;
+    ::GlobalNamespace::DlcPromoPanelDataSO* dlcPromoPanelData;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::DlcPromoPanelDataSO*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::DlcPromoPanelDataSO*) == 0x8);
     // [InjectAttribute] Offset: 0x123CD44
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x28
-    GlobalNamespace::PlayerDataModel* playerDataModel;
+    ::GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::PlayerDataModel*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::PlayerDataModel*) == 0x8);
     // private DlcPromoPanelDataSO/MusicPackPromoInfo[] _notOwnedMusicPackPromoInfos
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayW<GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo*> notOwnedMusicPackPromoInfos;
+    ::ArrayW<::GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo*> notOwnedMusicPackPromoInfos;
     // Field size check
-    static_assert(sizeof(::ArrayW<GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo*>) == 0x8);
     // private System.Boolean _updatingNotOwnedPacks
     // Size: 0x1
     // Offset: 0x38
@@ -118,53 +118,53 @@ namespace GlobalNamespace {
     // private System.Random _random
     // Size: 0x8
     // Offset: 0x40
-    System::Random* random;
+    ::System::Random* random;
     // Field size check
-    static_assert(sizeof(System::Random*) == 0x8);
+    static_assert(sizeof(::System::Random*) == 0x8);
     public:
     // Get instance field reference: private readonly AdditionalContentModel _additionalContentModel
-    GlobalNamespace::AdditionalContentModel*& dyn__additionalContentModel();
+    ::GlobalNamespace::AdditionalContentModel*& dyn__additionalContentModel();
     // Get instance field reference: private readonly IAnalyticsModel _analyticsModel
-    GlobalNamespace::IAnalyticsModel*& dyn__analyticsModel();
+    ::GlobalNamespace::IAnalyticsModel*& dyn__analyticsModel();
     // Get instance field reference: private readonly DlcPromoPanelDataSO _dlcPromoPanelData
-    GlobalNamespace::DlcPromoPanelDataSO*& dyn__dlcPromoPanelData();
+    ::GlobalNamespace::DlcPromoPanelDataSO*& dyn__dlcPromoPanelData();
     // Get instance field reference: private readonly PlayerDataModel _playerDataModel
-    GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
+    ::GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
     // Get instance field reference: private DlcPromoPanelDataSO/MusicPackPromoInfo[] _notOwnedMusicPackPromoInfos
-    ::ArrayW<GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo*>& dyn__notOwnedMusicPackPromoInfos();
+    ::ArrayW<::GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo*>& dyn__notOwnedMusicPackPromoInfos();
     // Get instance field reference: private System.Boolean _updatingNotOwnedPacks
     bool& dyn__updatingNotOwnedPacks();
     // Get instance field reference: private System.Boolean _initialized
     bool& dyn__initialized();
     // Get instance field reference: private System.Random _random
-    System::Random*& dyn__random();
+    ::System::Random*& dyn__random();
     // public System.Void InitAfterPlatformWasInitialized(System.Boolean force)
     // Offset: 0x13F26D4
     void InitAfterPlatformWasInitialized(bool force);
     // public DlcPromoPanelDataSO/MusicPackPromoInfo GetPackDataForMainMenuPromoBanner(out System.Boolean owned)
     // Offset: 0x13F2874
-    GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo* GetPackDataForMainMenuPromoBanner(ByRef<bool> owned);
+    ::GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo* GetPackDataForMainMenuPromoBanner(ByRef<bool> owned);
     // public System.Void MainMenuDlcPromoBannerWasShown(IBeatmapLevelPack promoPack, System.String customText)
     // Offset: 0x13F2ADC
-    void MainMenuDlcPromoBannerWasShown(GlobalNamespace::IBeatmapLevelPack* promoPack, ::StringW customText);
+    void MainMenuDlcPromoBannerWasShown(::GlobalNamespace::IBeatmapLevelPack* promoPack, ::StringW customText);
     // public System.Void MainMenuDlcPromoBannerWasPressed(IBeatmapLevelPack promoPack, System.String customText)
     // Offset: 0x13F2D38
-    void MainMenuDlcPromoBannerWasPressed(GlobalNamespace::IBeatmapLevelPack* promoPack, ::StringW customText);
+    void MainMenuDlcPromoBannerWasPressed(::GlobalNamespace::IBeatmapLevelPack* promoPack, ::StringW customText);
     // public System.Void BuyLevelButtonWasPressed(IPreviewBeatmapLevel level, System.String page, System.String customText)
     // Offset: 0x13F2E98
-    void BuyLevelButtonWasPressed(GlobalNamespace::IPreviewBeatmapLevel* level, ::StringW page, ::StringW customText);
+    void BuyLevelButtonWasPressed(::GlobalNamespace::IPreviewBeatmapLevel* level, ::StringW page, ::StringW customText);
     // public System.Void BuyLevelButtonWasShown(IPreviewBeatmapLevel level, System.String page, System.String customText)
     // Offset: 0x13F2FFC
-    void BuyLevelButtonWasShown(GlobalNamespace::IPreviewBeatmapLevel* level, ::StringW page, ::StringW customText);
+    void BuyLevelButtonWasShown(::GlobalNamespace::IPreviewBeatmapLevel* level, ::StringW page, ::StringW customText);
     // public System.Void BuyPackButtonWasPressed(IBeatmapLevelPack pack, System.String page, System.String customText)
     // Offset: 0x13F3160
-    void BuyPackButtonWasPressed(GlobalNamespace::IBeatmapLevelPack* pack, ::StringW page, ::StringW customText);
+    void BuyPackButtonWasPressed(::GlobalNamespace::IBeatmapLevelPack* pack, ::StringW page, ::StringW customText);
     // public System.Void BuyPackButtonWasShown(IBeatmapLevelPack pack, System.String page, System.String customText)
     // Offset: 0x13F32C4
-    void BuyPackButtonWasShown(GlobalNamespace::IBeatmapLevelPack* pack, ::StringW page, ::StringW customText);
+    void BuyPackButtonWasShown(::GlobalNamespace::IBeatmapLevelPack* pack, ::StringW page, ::StringW customText);
     // private System.Collections.Generic.Dictionary`2<System.String,System.String> GetExperimentEventData(System.String itemId, System.String page, System.String customText)
     // Offset: 0x13F2C54
-    System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* GetExperimentEventData(::StringW itemId, ::StringW page, ::StringW customText);
+    ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* GetExperimentEventData(::StringW itemId, ::StringW page, ::StringW customText);
     // private System.Void UpdateNotOwnedPacksAsync()
     // Offset: 0x13F27BC
     void UpdateNotOwnedPacksAsync();
@@ -177,12 +177,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DlcPromoPanelModel* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DlcPromoPanelModel::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DlcPromoPanelModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DlcPromoPanelModel*, creationType>()));
     }
   }; // DlcPromoPanelModel
   #pragma pack(pop)
-  static check_size<sizeof(DlcPromoPanelModel), 64 + sizeof(System::Random*)> __GlobalNamespace_DlcPromoPanelModelSizeCheck;
+  static check_size<sizeof(DlcPromoPanelModel), 64 + sizeof(::System::Random*)> __GlobalNamespace_DlcPromoPanelModelSizeCheck;
   static_assert(sizeof(DlcPromoPanelModel) == 0x48);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -198,7 +198,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::DlcPromoPanelModel::GetPackDataForMainMenuPromoBanner
 // Il2CppName: GetPackDataForMainMenuPromoBanner
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo* (GlobalNamespace::DlcPromoPanelModel::*)(ByRef<bool>)>(&GlobalNamespace::DlcPromoPanelModel::GetPackDataForMainMenuPromoBanner)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo* (GlobalNamespace::DlcPromoPanelModel::*)(ByRef<bool>)>(&GlobalNamespace::DlcPromoPanelModel::GetPackDataForMainMenuPromoBanner)> {
   static const MethodInfo* get() {
     static auto* owned = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DlcPromoPanelModel*), "GetPackDataForMainMenuPromoBanner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{owned});
@@ -207,7 +207,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::DlcPromoPanelModel::MainMenuDlcPromoBannerWasShown
 // Il2CppName: MainMenuDlcPromoBannerWasShown
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DlcPromoPanelModel::*)(GlobalNamespace::IBeatmapLevelPack*, ::StringW)>(&GlobalNamespace::DlcPromoPanelModel::MainMenuDlcPromoBannerWasShown)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DlcPromoPanelModel::*)(::GlobalNamespace::IBeatmapLevelPack*, ::StringW)>(&GlobalNamespace::DlcPromoPanelModel::MainMenuDlcPromoBannerWasShown)> {
   static const MethodInfo* get() {
     static auto* promoPack = &::il2cpp_utils::GetClassFromName("", "IBeatmapLevelPack")->byval_arg;
     static auto* customText = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -217,7 +217,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::DlcPromoPanelModel::MainMenuDlcPromoBannerWasPressed
 // Il2CppName: MainMenuDlcPromoBannerWasPressed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DlcPromoPanelModel::*)(GlobalNamespace::IBeatmapLevelPack*, ::StringW)>(&GlobalNamespace::DlcPromoPanelModel::MainMenuDlcPromoBannerWasPressed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DlcPromoPanelModel::*)(::GlobalNamespace::IBeatmapLevelPack*, ::StringW)>(&GlobalNamespace::DlcPromoPanelModel::MainMenuDlcPromoBannerWasPressed)> {
   static const MethodInfo* get() {
     static auto* promoPack = &::il2cpp_utils::GetClassFromName("", "IBeatmapLevelPack")->byval_arg;
     static auto* customText = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -227,7 +227,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::DlcPromoPanelModel::BuyLevelButtonWasPressed
 // Il2CppName: BuyLevelButtonWasPressed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DlcPromoPanelModel::*)(GlobalNamespace::IPreviewBeatmapLevel*, ::StringW, ::StringW)>(&GlobalNamespace::DlcPromoPanelModel::BuyLevelButtonWasPressed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DlcPromoPanelModel::*)(::GlobalNamespace::IPreviewBeatmapLevel*, ::StringW, ::StringW)>(&GlobalNamespace::DlcPromoPanelModel::BuyLevelButtonWasPressed)> {
   static const MethodInfo* get() {
     static auto* level = &::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel")->byval_arg;
     static auto* page = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -238,7 +238,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::DlcPromoPanelModel::BuyLevelButtonWasShown
 // Il2CppName: BuyLevelButtonWasShown
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DlcPromoPanelModel::*)(GlobalNamespace::IPreviewBeatmapLevel*, ::StringW, ::StringW)>(&GlobalNamespace::DlcPromoPanelModel::BuyLevelButtonWasShown)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DlcPromoPanelModel::*)(::GlobalNamespace::IPreviewBeatmapLevel*, ::StringW, ::StringW)>(&GlobalNamespace::DlcPromoPanelModel::BuyLevelButtonWasShown)> {
   static const MethodInfo* get() {
     static auto* level = &::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel")->byval_arg;
     static auto* page = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -249,7 +249,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::DlcPromoPanelModel::BuyPackButtonWasPressed
 // Il2CppName: BuyPackButtonWasPressed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DlcPromoPanelModel::*)(GlobalNamespace::IBeatmapLevelPack*, ::StringW, ::StringW)>(&GlobalNamespace::DlcPromoPanelModel::BuyPackButtonWasPressed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DlcPromoPanelModel::*)(::GlobalNamespace::IBeatmapLevelPack*, ::StringW, ::StringW)>(&GlobalNamespace::DlcPromoPanelModel::BuyPackButtonWasPressed)> {
   static const MethodInfo* get() {
     static auto* pack = &::il2cpp_utils::GetClassFromName("", "IBeatmapLevelPack")->byval_arg;
     static auto* page = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -260,7 +260,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::DlcPromoPanelModel::BuyPackButtonWasShown
 // Il2CppName: BuyPackButtonWasShown
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DlcPromoPanelModel::*)(GlobalNamespace::IBeatmapLevelPack*, ::StringW, ::StringW)>(&GlobalNamespace::DlcPromoPanelModel::BuyPackButtonWasShown)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DlcPromoPanelModel::*)(::GlobalNamespace::IBeatmapLevelPack*, ::StringW, ::StringW)>(&GlobalNamespace::DlcPromoPanelModel::BuyPackButtonWasShown)> {
   static const MethodInfo* get() {
     static auto* pack = &::il2cpp_utils::GetClassFromName("", "IBeatmapLevelPack")->byval_arg;
     static auto* page = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -271,7 +271,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::DlcPromoPanelModel::GetExperimentEventData
 // Il2CppName: GetExperimentEventData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* (GlobalNamespace::DlcPromoPanelModel::*)(::StringW, ::StringW, ::StringW)>(&GlobalNamespace::DlcPromoPanelModel::GetExperimentEventData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* (GlobalNamespace::DlcPromoPanelModel::*)(::StringW, ::StringW, ::StringW)>(&GlobalNamespace::DlcPromoPanelModel::GetExperimentEventData)> {
   static const MethodInfo* get() {
     static auto* itemId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* page = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

@@ -16,8 +16,8 @@ namespace System {
   class MonoListItem;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::MonoListItem);
-DEFINE_IL2CPP_ARG_TYPE(System::MonoListItem*, "System", "MonoListItem");
+NEED_NO_BOX(::System::MonoListItem);
+DEFINE_IL2CPP_ARG_TYPE(::System::MonoListItem*, "System", "MonoListItem");
 // Type namespace: System
 namespace System {
   // Size: 0x20
@@ -38,9 +38,9 @@ namespace System {
     // private System.MonoListItem next
     // Size: 0x8
     // Offset: 0x10
-    System::MonoListItem* next;
+    ::System::MonoListItem* next;
     // Field size check
-    static_assert(sizeof(System::MonoListItem*) == 0x8);
+    static_assert(sizeof(::System::MonoListItem*) == 0x8);
     // private System.Object data
     // Size: 0x8
     // Offset: 0x18
@@ -49,7 +49,7 @@ namespace System {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     public:
     // Get instance field reference: private System.MonoListItem next
-    System::MonoListItem*& dyn_next();
+    ::System::MonoListItem*& dyn_next();
     // Get instance field reference: private System.Object data
     ::Il2CppObject*& dyn_data();
     // public System.Void .ctor()
@@ -58,7 +58,7 @@ namespace System {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoListItem* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::MonoListItem::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::MonoListItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoListItem*, creationType>()));
     }
   }; // System.MonoListItem

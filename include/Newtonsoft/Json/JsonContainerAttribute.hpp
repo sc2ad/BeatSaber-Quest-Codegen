@@ -33,8 +33,8 @@ namespace Newtonsoft::Json {
   class JsonContainerAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::JsonContainerAttribute);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::JsonContainerAttribute*, "Newtonsoft.Json", "JsonContainerAttribute");
+NEED_NO_BOX(::Newtonsoft::Json::JsonContainerAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::JsonContainerAttribute*, "Newtonsoft.Json", "JsonContainerAttribute");
 // Type namespace: Newtonsoft.Json
 namespace Newtonsoft::Json {
   // WARNING Size may be invalid!
@@ -43,7 +43,7 @@ namespace Newtonsoft::Json {
   // [NullableAttribute] Offset: 1201420
   // [NullableContextAttribute] Offset: 1201420
   // [AttributeUsageAttribute] Offset: 1201420
-  class JsonContainerAttribute : public System::Attribute {
+  class JsonContainerAttribute : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -57,9 +57,9 @@ namespace Newtonsoft::Json {
     // private System.Type <ItemConverterType>k__BackingField
     // Size: 0x8
     // Offset: 0x10
-    System::Type* ItemConverterType;
+    ::System::Type* ItemConverterType;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     // [NullableAttribute] Offset: 0x1203C24
     // private System.Object[] <ItemConverterParameters>k__BackingField
     // Size: 0x8
@@ -70,31 +70,31 @@ namespace Newtonsoft::Json {
     // private Newtonsoft.Json.Serialization.NamingStrategy <NamingStrategyInstance>k__BackingField
     // Size: 0x8
     // Offset: 0x20
-    Newtonsoft::Json::Serialization::NamingStrategy* NamingStrategyInstance;
+    ::Newtonsoft::Json::Serialization::NamingStrategy* NamingStrategyInstance;
     // Field size check
-    static_assert(sizeof(Newtonsoft::Json::Serialization::NamingStrategy*) == 0x8);
+    static_assert(sizeof(::Newtonsoft::Json::Serialization::NamingStrategy*) == 0x8);
     // System.Nullable`1<System.Boolean> _isReference
     // Size: 0xFFFFFFFF
     // Offset: 0x28
-    System::Nullable_1<bool> isReference;
+    ::System::Nullable_1<bool> isReference;
     // System.Nullable`1<System.Boolean> _itemIsReference
     // Size: 0xFFFFFFFF
     // Offset: 0x2A
-    System::Nullable_1<bool> itemIsReference;
+    ::System::Nullable_1<bool> itemIsReference;
     // System.Nullable`1<Newtonsoft.Json.ReferenceLoopHandling> _itemReferenceLoopHandling
     // Size: 0xFFFFFFFF
     // Offset: 0x2C
-    System::Nullable_1<Newtonsoft::Json::ReferenceLoopHandling> itemReferenceLoopHandling;
+    ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> itemReferenceLoopHandling;
     // System.Nullable`1<Newtonsoft.Json.TypeNameHandling> _itemTypeNameHandling
     // Size: 0xFFFFFFFF
     // Offset: 0x34
-    System::Nullable_1<Newtonsoft::Json::TypeNameHandling> itemTypeNameHandling;
+    ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> itemTypeNameHandling;
     // private System.Type _namingStrategyType
     // Size: 0x8
     // Offset: 0x40
-    System::Type* namingStrategyType;
+    ::System::Type* namingStrategyType;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     // [NullableAttribute] Offset: 0x1203CB0
     // private System.Object[] _namingStrategyParameters
     // Size: 0x8
@@ -104,41 +104,41 @@ namespace Newtonsoft::Json {
     static_assert(sizeof(::ArrayW<::Il2CppObject*>) == 0x8);
     public:
     // Get instance field reference: private System.Type <ItemConverterType>k__BackingField
-    System::Type*& dyn_$ItemConverterType$k__BackingField();
+    ::System::Type*& dyn_$ItemConverterType$k__BackingField();
     // Get instance field reference: private System.Object[] <ItemConverterParameters>k__BackingField
     ::ArrayW<::Il2CppObject*>& dyn_$ItemConverterParameters$k__BackingField();
     // Get instance field reference: private Newtonsoft.Json.Serialization.NamingStrategy <NamingStrategyInstance>k__BackingField
-    Newtonsoft::Json::Serialization::NamingStrategy*& dyn_$NamingStrategyInstance$k__BackingField();
+    ::Newtonsoft::Json::Serialization::NamingStrategy*& dyn_$NamingStrategyInstance$k__BackingField();
     // Get instance field reference: System.Nullable`1<System.Boolean> _isReference
-    System::Nullable_1<bool>& dyn__isReference();
+    ::System::Nullable_1<bool>& dyn__isReference();
     // Get instance field reference: System.Nullable`1<System.Boolean> _itemIsReference
-    System::Nullable_1<bool>& dyn__itemIsReference();
+    ::System::Nullable_1<bool>& dyn__itemIsReference();
     // Get instance field reference: System.Nullable`1<Newtonsoft.Json.ReferenceLoopHandling> _itemReferenceLoopHandling
-    System::Nullable_1<Newtonsoft::Json::ReferenceLoopHandling>& dyn__itemReferenceLoopHandling();
+    ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling>& dyn__itemReferenceLoopHandling();
     // Get instance field reference: System.Nullable`1<Newtonsoft.Json.TypeNameHandling> _itemTypeNameHandling
-    System::Nullable_1<Newtonsoft::Json::TypeNameHandling>& dyn__itemTypeNameHandling();
+    ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling>& dyn__itemTypeNameHandling();
     // Get instance field reference: private System.Type _namingStrategyType
-    System::Type*& dyn__namingStrategyType();
+    ::System::Type*& dyn__namingStrategyType();
     // Get instance field reference: private System.Object[] _namingStrategyParameters
     ::ArrayW<::Il2CppObject*>& dyn__namingStrategyParameters();
     // public System.Type get_ItemConverterType()
     // Offset: 0x182DFB4
-    System::Type* get_ItemConverterType();
+    ::System::Type* get_ItemConverterType();
     // public System.Object[] get_ItemConverterParameters()
     // Offset: 0x182DFBC
     ::ArrayW<::Il2CppObject*> get_ItemConverterParameters();
     // public System.Type get_NamingStrategyType()
     // Offset: 0x182DFC4
-    System::Type* get_NamingStrategyType();
+    ::System::Type* get_NamingStrategyType();
     // public System.Object[] get_NamingStrategyParameters()
     // Offset: 0x182DFCC
     ::ArrayW<::Il2CppObject*> get_NamingStrategyParameters();
     // Newtonsoft.Json.Serialization.NamingStrategy get_NamingStrategyInstance()
     // Offset: 0x182DFD4
-    Newtonsoft::Json::Serialization::NamingStrategy* get_NamingStrategyInstance();
+    ::Newtonsoft::Json::Serialization::NamingStrategy* get_NamingStrategyInstance();
     // System.Void set_NamingStrategyInstance(Newtonsoft.Json.Serialization.NamingStrategy value)
     // Offset: 0x182DFDC
-    void set_NamingStrategyInstance(Newtonsoft::Json::Serialization::NamingStrategy* value);
+    void set_NamingStrategyInstance(::Newtonsoft::Json::Serialization::NamingStrategy* value);
   }; // Newtonsoft.Json.JsonContainerAttribute
   // WARNING Not writing size check since size may be invalid!
 }
@@ -146,7 +146,7 @@ namespace Newtonsoft::Json {
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonContainerAttribute::get_ItemConverterType
 // Il2CppName: get_ItemConverterType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (Newtonsoft::Json::JsonContainerAttribute::*)()>(&Newtonsoft::Json::JsonContainerAttribute::get_ItemConverterType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (Newtonsoft::Json::JsonContainerAttribute::*)()>(&Newtonsoft::Json::JsonContainerAttribute::get_ItemConverterType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::JsonContainerAttribute*), "get_ItemConverterType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -162,7 +162,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonContainerAttribute::get_NamingStrategyType
 // Il2CppName: get_NamingStrategyType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (Newtonsoft::Json::JsonContainerAttribute::*)()>(&Newtonsoft::Json::JsonContainerAttribute::get_NamingStrategyType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (Newtonsoft::Json::JsonContainerAttribute::*)()>(&Newtonsoft::Json::JsonContainerAttribute::get_NamingStrategyType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::JsonContainerAttribute*), "get_NamingStrategyType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -178,7 +178,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonContainerAttribute::get_NamingStrategyInstance
 // Il2CppName: get_NamingStrategyInstance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Serialization::NamingStrategy* (Newtonsoft::Json::JsonContainerAttribute::*)()>(&Newtonsoft::Json::JsonContainerAttribute::get_NamingStrategyInstance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Serialization::NamingStrategy* (Newtonsoft::Json::JsonContainerAttribute::*)()>(&Newtonsoft::Json::JsonContainerAttribute::get_NamingStrategyInstance)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::JsonContainerAttribute*), "get_NamingStrategyInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -186,7 +186,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft:
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonContainerAttribute::set_NamingStrategyInstance
 // Il2CppName: set_NamingStrategyInstance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::JsonContainerAttribute::*)(Newtonsoft::Json::Serialization::NamingStrategy*)>(&Newtonsoft::Json::JsonContainerAttribute::set_NamingStrategyInstance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::JsonContainerAttribute::*)(::Newtonsoft::Json::Serialization::NamingStrategy*)>(&Newtonsoft::Json::JsonContainerAttribute::set_NamingStrategyInstance)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Serialization", "NamingStrategy")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::JsonContainerAttribute*), "set_NamingStrategyInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

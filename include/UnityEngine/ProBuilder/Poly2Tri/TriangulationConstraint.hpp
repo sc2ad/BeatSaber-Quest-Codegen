@@ -23,8 +23,8 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   class TriangulationConstraint;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint*, "UnityEngine.ProBuilder.Poly2Tri", "TriangulationConstraint");
+NEED_NO_BOX(::UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint*, "UnityEngine.ProBuilder.Poly2Tri", "TriangulationConstraint");
 // Type namespace: UnityEngine.ProBuilder.Poly2Tri
 namespace UnityEngine::ProBuilder::Poly2Tri {
   // Size: 0x20
@@ -45,32 +45,32 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // public UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint P
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* P;
+    ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* P;
     // Field size check
-    static_assert(sizeof(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*) == 0x8);
+    static_assert(sizeof(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*) == 0x8);
     // public UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint Q
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* Q;
+    ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* Q;
     // Field size check
-    static_assert(sizeof(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*) == 0x8);
+    static_assert(sizeof(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint P
-    UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*& dyn_P();
+    ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*& dyn_P();
     // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint Q
-    UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*& dyn_Q();
+    ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*& dyn_Q();
     // public System.Void .ctor()
     // Offset: 0x2A097A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TriangulationConstraint* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TriangulationConstraint*, creationType>()));
     }
   }; // UnityEngine.ProBuilder.Poly2Tri.TriangulationConstraint
   #pragma pack(pop)
-  static check_size<sizeof(TriangulationConstraint), 24 + sizeof(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)> __UnityEngine_ProBuilder_Poly2Tri_TriangulationConstraintSizeCheck;
+  static check_size<sizeof(TriangulationConstraint), 24 + sizeof(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)> __UnityEngine_ProBuilder_Poly2Tri_TriangulationConstraintSizeCheck;
   static_assert(sizeof(TriangulationConstraint) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

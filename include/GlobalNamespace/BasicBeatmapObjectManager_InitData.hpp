@@ -13,8 +13,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BasicBeatmapObjectManager::InitData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BasicBeatmapObjectManager::InitData*, "", "BasicBeatmapObjectManager/InitData");
+NEED_NO_BOX(::GlobalNamespace::BasicBeatmapObjectManager::InitData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BasicBeatmapObjectManager::InitData*, "", "BasicBeatmapObjectManager/InitData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x1C
@@ -71,7 +71,7 @@ namespace GlobalNamespace {
     // Offset: 0x2B3E5A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BasicBeatmapObjectManager::InitData* New_ctor(bool disappearingArrows, bool ghostNotes, float cutAngleTolerance, float notesUniformScale) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BasicBeatmapObjectManager::InitData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BasicBeatmapObjectManager::InitData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BasicBeatmapObjectManager::InitData*, creationType>(disappearingArrows, ghostNotes, cutAngleTolerance, notesUniformScale)));
     }
   }; // BasicBeatmapObjectManager/InitData

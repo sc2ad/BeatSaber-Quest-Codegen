@@ -13,8 +13,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HMUI::ScrollView::$$c__DisplayClass56_1);
-DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollView::$$c__DisplayClass56_1*, "HMUI", "ScrollView/<>c__DisplayClass56_1");
+NEED_NO_BOX(::HMUI::ScrollView::$$c__DisplayClass56_1);
+DEFINE_IL2CPP_ARG_TYPE(::HMUI::ScrollView::$$c__DisplayClass56_1*, "HMUI", "ScrollView/<>c__DisplayClass56_1");
 // Type namespace: HMUI
 namespace HMUI {
   // Size: 0x14
@@ -55,7 +55,7 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScrollView::$$c__DisplayClass56_1* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::ScrollView::$$c__DisplayClass56_1::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ScrollView::$$c__DisplayClass56_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScrollView::$$c__DisplayClass56_1*, creationType>()));
     }
   }; // HMUI.ScrollView/HMUI.<>c__DisplayClass56_1

@@ -19,8 +19,8 @@ namespace UnityEngine::Bindings {
   class NativeNameAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Bindings::NativeNameAttribute);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativeNameAttribute*, "UnityEngine.Bindings", "NativeNameAttribute");
+NEED_NO_BOX(::UnityEngine::Bindings::NativeNameAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Bindings::NativeNameAttribute*, "UnityEngine.Bindings", "NativeNameAttribute");
 // Type namespace: UnityEngine.Bindings
 namespace UnityEngine::Bindings {
   // Size: 0x18
@@ -29,7 +29,7 @@ namespace UnityEngine::Bindings {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AttributeUsageAttribute] Offset: 11A116C
   // [VisibleToOtherModulesAttribute] Offset: FFFFFFFF
-  class NativeNameAttribute : public System::Attribute {
+  class NativeNameAttribute : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -61,7 +61,7 @@ namespace UnityEngine::Bindings {
     // Offset: 0x2A571D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NativeNameAttribute* New_ctor(::StringW name) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::NativeNameAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Bindings::NativeNameAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativeNameAttribute*, creationType>(name)));
     }
   }; // UnityEngine.Bindings.NativeNameAttribute

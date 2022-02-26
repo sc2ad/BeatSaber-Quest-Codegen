@@ -14,8 +14,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::XmlWellFormedWriter::AttributeValueCache::BufferChunk);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::AttributeValueCache::BufferChunk*, "System.Xml", "XmlWellFormedWriter/AttributeValueCache/BufferChunk");
+NEED_NO_BOX(::System::Xml::XmlWellFormedWriter::AttributeValueCache::BufferChunk);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlWellFormedWriter::AttributeValueCache::BufferChunk*, "System.Xml", "XmlWellFormedWriter/AttributeValueCache/BufferChunk");
 // Type namespace: System.Xml
 namespace System::Xml {
   // Size: 0x20
@@ -62,7 +62,7 @@ namespace System::Xml {
     // Offset: 0x1BC1820
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlWellFormedWriter::AttributeValueCache::BufferChunk* New_ctor(::ArrayW<::Il2CppChar> buffer, int index, int count) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlWellFormedWriter::AttributeValueCache::BufferChunk::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlWellFormedWriter::AttributeValueCache::BufferChunk::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlWellFormedWriter::AttributeValueCache::BufferChunk*, creationType>(buffer, index, count)));
     }
   }; // System.Xml.XmlWellFormedWriter/System.Xml.AttributeValueCache/System.Xml.BufferChunk

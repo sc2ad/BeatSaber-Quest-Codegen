@@ -21,8 +21,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Timeline::TimeNotificationBehaviour::$$c);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeNotificationBehaviour::$$c*, "UnityEngine.Timeline", "TimeNotificationBehaviour/<>c");
+NEED_NO_BOX(::UnityEngine::Timeline::TimeNotificationBehaviour::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::TimeNotificationBehaviour::$$c*, "UnityEngine.Timeline", "TimeNotificationBehaviour/<>c");
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
   // Size: 0x10
@@ -33,26 +33,26 @@ namespace UnityEngine::Timeline {
   class TimeNotificationBehaviour::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly UnityEngine.Timeline.TimeNotificationBehaviour/UnityEngine.Timeline.<>c <>9
-    static UnityEngine::Timeline::TimeNotificationBehaviour::$$c* _get_$$9();
+    static ::UnityEngine::Timeline::TimeNotificationBehaviour::$$c* _get_$$9();
     // Set static field: static public readonly UnityEngine.Timeline.TimeNotificationBehaviour/UnityEngine.Timeline.<>c <>9
-    static void _set_$$9(UnityEngine::Timeline::TimeNotificationBehaviour::$$c* value);
+    static void _set_$$9(::UnityEngine::Timeline::TimeNotificationBehaviour::$$c* value);
     // Get static field: static public System.Comparison`1<UnityEngine.Timeline.TimeNotificationBehaviour/UnityEngine.Timeline.NotificationEntry> <>9__12_0
-    static System::Comparison_1<UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry>* _get_$$9__12_0();
+    static ::System::Comparison_1<::UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry>* _get_$$9__12_0();
     // Set static field: static public System.Comparison`1<UnityEngine.Timeline.TimeNotificationBehaviour/UnityEngine.Timeline.NotificationEntry> <>9__12_0
-    static void _set_$$9__12_0(System::Comparison_1<UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry>* value);
+    static void _set_$$9__12_0(::System::Comparison_1<::UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry>* value);
     // static private System.Void .cctor()
     // Offset: 0x1CA1E8C
     static void _cctor();
     // System.Int32 <SortNotifications>b__12_0(UnityEngine.Timeline.TimeNotificationBehaviour/UnityEngine.Timeline.NotificationEntry x, UnityEngine.Timeline.TimeNotificationBehaviour/UnityEngine.Timeline.NotificationEntry y)
     // Offset: 0x1CA1EF8
-    int $SortNotifications$b__12_0(UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry x, UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry y);
+    int $SortNotifications$b__12_0(::UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry x, ::UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry y);
     // public System.Void .ctor()
     // Offset: 0x1CA1EF0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimeNotificationBehaviour::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::TimeNotificationBehaviour::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Timeline::TimeNotificationBehaviour::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimeNotificationBehaviour::$$c*, creationType>()));
     }
   }; // UnityEngine.Timeline.TimeNotificationBehaviour/UnityEngine.Timeline.<>c
@@ -70,7 +70,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimeNotificationBehaviour::$$c::$SortNotifications$b__12_0
 // Il2CppName: <SortNotifications>b__12_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Timeline::TimeNotificationBehaviour::$$c::*)(UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry, UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry)>(&UnityEngine::Timeline::TimeNotificationBehaviour::$$c::$SortNotifications$b__12_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Timeline::TimeNotificationBehaviour::$$c::*)(::UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry, ::UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry)>(&UnityEngine::Timeline::TimeNotificationBehaviour::$$c::$SortNotifications$b__12_0)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "TimeNotificationBehaviour/NotificationEntry")->byval_arg;
     static auto* y = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "TimeNotificationBehaviour/NotificationEntry")->byval_arg;

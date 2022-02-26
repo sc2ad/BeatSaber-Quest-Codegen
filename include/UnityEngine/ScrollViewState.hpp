@@ -20,8 +20,8 @@ namespace UnityEngine {
   class ScrollViewState;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ScrollViewState);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ScrollViewState*, "UnityEngine", "ScrollViewState");
+NEED_NO_BOX(::UnityEngine::ScrollViewState);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ScrollViewState*, "UnityEngine", "ScrollViewState");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x49
@@ -42,27 +42,27 @@ namespace UnityEngine {
     // public UnityEngine.Rect position
     // Size: 0x10
     // Offset: 0x10
-    UnityEngine::Rect position;
+    ::UnityEngine::Rect position;
     // Field size check
-    static_assert(sizeof(UnityEngine::Rect) == 0x10);
+    static_assert(sizeof(::UnityEngine::Rect) == 0x10);
     // public UnityEngine.Rect visibleRect
     // Size: 0x10
     // Offset: 0x20
-    UnityEngine::Rect visibleRect;
+    ::UnityEngine::Rect visibleRect;
     // Field size check
-    static_assert(sizeof(UnityEngine::Rect) == 0x10);
+    static_assert(sizeof(::UnityEngine::Rect) == 0x10);
     // public UnityEngine.Rect viewRect
     // Size: 0x10
     // Offset: 0x30
-    UnityEngine::Rect viewRect;
+    ::UnityEngine::Rect viewRect;
     // Field size check
-    static_assert(sizeof(UnityEngine::Rect) == 0x10);
+    static_assert(sizeof(::UnityEngine::Rect) == 0x10);
     // public UnityEngine.Vector2 scrollPosition
     // Size: 0x8
     // Offset: 0x40
-    UnityEngine::Vector2 scrollPosition;
+    ::UnityEngine::Vector2 scrollPosition;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector2) == 0x8);
+    static_assert(sizeof(::UnityEngine::Vector2) == 0x8);
     // public System.Boolean apply
     // Size: 0x1
     // Offset: 0x48
@@ -71,13 +71,13 @@ namespace UnityEngine {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public UnityEngine.Rect position
-    UnityEngine::Rect& dyn_position();
+    ::UnityEngine::Rect& dyn_position();
     // Get instance field reference: public UnityEngine.Rect visibleRect
-    UnityEngine::Rect& dyn_visibleRect();
+    ::UnityEngine::Rect& dyn_visibleRect();
     // Get instance field reference: public UnityEngine.Rect viewRect
-    UnityEngine::Rect& dyn_viewRect();
+    ::UnityEngine::Rect& dyn_viewRect();
     // Get instance field reference: public UnityEngine.Vector2 scrollPosition
-    UnityEngine::Vector2& dyn_scrollPosition();
+    ::UnityEngine::Vector2& dyn_scrollPosition();
     // Get instance field reference: public System.Boolean apply
     bool& dyn_apply();
     // public System.Void .ctor()
@@ -86,7 +86,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScrollViewState* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ScrollViewState::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ScrollViewState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScrollViewState*, creationType>()));
     }
   }; // UnityEngine.ScrollViewState

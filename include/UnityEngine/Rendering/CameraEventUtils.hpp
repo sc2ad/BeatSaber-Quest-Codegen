@@ -19,8 +19,8 @@ namespace UnityEngine::Rendering {
   class CameraEventUtils;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Rendering::CameraEventUtils);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::CameraEventUtils*, "UnityEngine.Rendering", "CameraEventUtils");
+NEED_NO_BOX(::UnityEngine::Rendering::CameraEventUtils);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::CameraEventUtils*, "UnityEngine.Rendering", "CameraEventUtils");
 // Type namespace: UnityEngine.Rendering
 namespace UnityEngine::Rendering {
   // Size: 0x10
@@ -31,7 +31,7 @@ namespace UnityEngine::Rendering {
     public:
     // static public System.Boolean IsValid(UnityEngine.Rendering.CameraEvent value)
     // Offset: 0x20CE408
-    static bool IsValid(UnityEngine::Rendering::CameraEvent value);
+    static bool IsValid(::UnityEngine::Rendering::CameraEvent value);
   }; // UnityEngine.Rendering.CameraEventUtils
   #pragma pack(pop)
 }
@@ -39,7 +39,7 @@ namespace UnityEngine::Rendering {
 // Writing MetadataGetter for method: UnityEngine::Rendering::CameraEventUtils::IsValid
 // Il2CppName: IsValid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Rendering::CameraEvent)>(&UnityEngine::Rendering::CameraEventUtils::IsValid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Rendering::CameraEvent)>(&UnityEngine::Rendering::CameraEventUtils::IsValid)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "CameraEvent")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::CameraEventUtils*), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

@@ -50,8 +50,8 @@ namespace System::Data {
   class DataRow;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Data::DataRow);
-DEFINE_IL2CPP_ARG_TYPE(System::Data::DataRow*, "System.Data", "DataRow");
+NEED_NO_BOX(::System::Data::DataRow);
+DEFINE_IL2CPP_ARG_TYPE(::System::Data::DataRow*, "System.Data", "DataRow");
 // Type namespace: System.Data
 namespace System::Data {
   // Size: 0x60
@@ -73,15 +73,15 @@ namespace System::Data {
     // private readonly System.Data.DataTable _table
     // Size: 0x8
     // Offset: 0x10
-    System::Data::DataTable* table;
+    ::System::Data::DataTable* table;
     // Field size check
-    static_assert(sizeof(System::Data::DataTable*) == 0x8);
+    static_assert(sizeof(::System::Data::DataTable*) == 0x8);
     // private readonly System.Data.DataColumnCollection _columns
     // Size: 0x8
     // Offset: 0x18
-    System::Data::DataColumnCollection* columns;
+    ::System::Data::DataColumnCollection* columns;
     // Field size check
-    static_assert(sizeof(System::Data::DataColumnCollection*) == 0x8);
+    static_assert(sizeof(::System::Data::DataColumnCollection*) == 0x8);
     // System.Int32 _oldRecord
     // Size: 0x4
     // Offset: 0x20
@@ -111,9 +111,9 @@ namespace System::Data {
     // System.Data.DataRowAction _action
     // Size: 0x4
     // Offset: 0x38
-    System::Data::DataRowAction action;
+    ::System::Data::DataRowAction action;
     // Field size check
-    static_assert(sizeof(System::Data::DataRowAction) == 0x4);
+    static_assert(sizeof(::System::Data::DataRowAction) == 0x4);
     // System.Boolean _inChangingEvent
     // Size: 0x1
     // Offset: 0x3C
@@ -137,9 +137,9 @@ namespace System::Data {
     // private System.Data.DataColumn _lastChangedColumn
     // Size: 0x8
     // Offset: 0x40
-    System::Data::DataColumn* lastChangedColumn;
+    ::System::Data::DataColumn* lastChangedColumn;
     // Field size check
-    static_assert(sizeof(System::Data::DataColumn*) == 0x8);
+    static_assert(sizeof(::System::Data::DataColumn*) == 0x8);
     // private System.Int32 _countColumnChange
     // Size: 0x4
     // Offset: 0x48
@@ -151,9 +151,9 @@ namespace System::Data {
     // private System.Data.DataError _error
     // Size: 0x8
     // Offset: 0x50
-    System::Data::DataError* error;
+    ::System::Data::DataError* error;
     // Field size check
-    static_assert(sizeof(System::Data::DataError*) == 0x8);
+    static_assert(sizeof(::System::Data::DataError*) == 0x8);
     // private System.Int32 _rbTreeNodeId
     // Size: 0x4
     // Offset: 0x58
@@ -172,9 +172,9 @@ namespace System::Data {
     // Set static field: static private System.Int32 s_objectTypeCount
     static void _set_s_objectTypeCount(int value);
     // Get instance field reference: private readonly System.Data.DataTable _table
-    System::Data::DataTable*& dyn__table();
+    ::System::Data::DataTable*& dyn__table();
     // Get instance field reference: private readonly System.Data.DataColumnCollection _columns
-    System::Data::DataColumnCollection*& dyn__columns();
+    ::System::Data::DataColumnCollection*& dyn__columns();
     // Get instance field reference: System.Int32 _oldRecord
     int& dyn__oldRecord();
     // Get instance field reference: System.Int32 _newRecord
@@ -184,7 +184,7 @@ namespace System::Data {
     // Get instance field reference: System.Int64 _rowID
     int64_t& dyn__rowID();
     // Get instance field reference: System.Data.DataRowAction _action
-    System::Data::DataRowAction& dyn__action();
+    ::System::Data::DataRowAction& dyn__action();
     // Get instance field reference: System.Boolean _inChangingEvent
     bool& dyn__inChangingEvent();
     // Get instance field reference: System.Boolean _inDeletingEvent
@@ -192,21 +192,21 @@ namespace System::Data {
     // Get instance field reference: System.Boolean _inCascade
     bool& dyn__inCascade();
     // Get instance field reference: private System.Data.DataColumn _lastChangedColumn
-    System::Data::DataColumn*& dyn__lastChangedColumn();
+    ::System::Data::DataColumn*& dyn__lastChangedColumn();
     // Get instance field reference: private System.Int32 _countColumnChange
     int& dyn__countColumnChange();
     // Get instance field reference: private System.Data.DataError _error
-    System::Data::DataError*& dyn__error();
+    ::System::Data::DataError*& dyn__error();
     // Get instance field reference: private System.Int32 _rbTreeNodeId
     int& dyn__rbTreeNodeId();
     // Get instance field reference: readonly System.Int32 _objectID
     int& dyn__objectID();
     // System.Data.DataColumn get_LastChangedColumn()
     // Offset: 0x1E5BB38
-    System::Data::DataColumn* get_LastChangedColumn();
+    ::System::Data::DataColumn* get_LastChangedColumn();
     // System.Void set_LastChangedColumn(System.Data.DataColumn value)
     // Offset: 0x1E4F4F4
-    void set_LastChangedColumn(System::Data::DataColumn* value);
+    void set_LastChangedColumn(::System::Data::DataColumn* value);
     // System.Boolean get_HasPropertyChanged()
     // Offset: 0x1E5BB54
     bool get_HasPropertyChanged();
@@ -230,22 +230,22 @@ namespace System::Data {
     void set_rowID(int64_t value);
     // public System.Data.DataRowState get_RowState()
     // Offset: 0x1E50068
-    System::Data::DataRowState get_RowState();
+    ::System::Data::DataRowState get_RowState();
     // public System.Data.DataTable get_Table()
     // Offset: 0x1E5BCFC
-    System::Data::DataTable* get_Table();
+    ::System::Data::DataTable* get_Table();
     // public System.Void set_Item(System.String columnName, System.Object value)
     // Offset: 0x1E5BDD8
     void set_Item(::StringW columnName, ::Il2CppObject* value);
     // public System.Object get_Item(System.Data.DataColumn column)
     // Offset: 0x1E50264
-    ::Il2CppObject* get_Item(System::Data::DataColumn* column);
+    ::Il2CppObject* get_Item(::System::Data::DataColumn* column);
     // public System.Void set_Item(System.Data.DataColumn column, System.Object value)
     // Offset: 0x1E5BE98
-    void set_Item(System::Data::DataColumn* column, ::Il2CppObject* value);
+    void set_Item(::System::Data::DataColumn* column, ::Il2CppObject* value);
     // public System.Object get_Item(System.Data.DataColumn column, System.Data.DataRowVersion version)
     // Offset: 0x1E5C4D4
-    ::Il2CppObject* get_Item(System::Data::DataColumn* column, System::Data::DataRowVersion version);
+    ::Il2CppObject* get_Item(::System::Data::DataColumn* column, ::System::Data::DataRowVersion version);
     // public System.Void set_ItemArray(System.Object[] value)
     // Offset: 0x1E5C52C
     void set_ItemArray(::ArrayW<::Il2CppObject*> value);
@@ -255,8 +255,8 @@ namespace System::Data {
     // protected internal System.Void .ctor(System.Data.DataRowBuilder builder)
     // Offset: 0x1E5BA90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DataRow* New_ctor(System::Data::DataRowBuilder* builder) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Data::DataRow::.ctor");
+    static DataRow* New_ctor(::System::Data::DataRowBuilder* builder) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Data::DataRow::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DataRow*, creationType>(builder)));
     }
     // private System.Void RowErrorChanged()
@@ -264,7 +264,7 @@ namespace System::Data {
     void RowErrorChanged();
     // System.Void CheckForLoops(System.Data.DataRelation rel)
     // Offset: 0x1E58684
-    void CheckForLoops(System::Data::DataRelation* rel);
+    void CheckForLoops(::System::Data::DataRelation* rel);
     // System.Int32 GetNestedParentCount()
     // Offset: 0x1E5BD04
     int GetNestedParentCount();
@@ -282,7 +282,7 @@ namespace System::Data {
     void CancelEdit();
     // private System.Void CheckColumn(System.Data.DataColumn column)
     // Offset: 0x1E5C184
-    void CheckColumn(System::Data::DataColumn* column);
+    void CheckColumn(::System::Data::DataColumn* column);
     // System.Void CheckInTable()
     // Offset: 0x1E5CBF0
     void CheckInTable();
@@ -297,55 +297,55 @@ namespace System::Data {
     void SetColumnError(int columnIndex, ::StringW error);
     // public System.Void SetColumnError(System.Data.DataColumn column, System.String error)
     // Offset: 0x1E512E0
-    void SetColumnError(System::Data::DataColumn* column, ::StringW error);
+    void SetColumnError(::System::Data::DataColumn* column, ::StringW error);
     // public System.String GetColumnError(System.Data.DataColumn column)
     // Offset: 0x1E5CD6C
-    ::StringW GetColumnError(System::Data::DataColumn* column);
+    ::StringW GetColumnError(::System::Data::DataColumn* column);
     // public System.Void ClearErrors()
     // Offset: 0x1E5CDF8
     void ClearErrors();
     // System.Void ClearError(System.Data.DataColumn column)
     // Offset: 0x1E53B0C
-    void ClearError(System::Data::DataColumn* column);
+    void ClearError(::System::Data::DataColumn* column);
     // public System.Data.DataColumn[] GetColumnsInError()
     // Offset: 0x1E5CE74
-    ::ArrayW<System::Data::DataColumn*> GetColumnsInError();
+    ::ArrayW<::System::Data::DataColumn*> GetColumnsInError();
     // public System.Data.DataRow[] GetChildRows(System.Data.DataRelation relation)
     // Offset: 0x1E5CF54
-    ::ArrayW<System::Data::DataRow*> GetChildRows(System::Data::DataRelation* relation);
+    ::ArrayW<::System::Data::DataRow*> GetChildRows(::System::Data::DataRelation* relation);
     // public System.Data.DataRow[] GetChildRows(System.Data.DataRelation relation, System.Data.DataRowVersion version)
     // Offset: 0x1E5CF5C
-    ::ArrayW<System::Data::DataRow*> GetChildRows(System::Data::DataRelation* relation, System::Data::DataRowVersion version);
+    ::ArrayW<::System::Data::DataRow*> GetChildRows(::System::Data::DataRelation* relation, ::System::Data::DataRowVersion version);
     // System.Data.DataColumn GetDataColumn(System.String columnName)
     // Offset: 0x1E5BE08
-    System::Data::DataColumn* GetDataColumn(::StringW columnName);
+    ::System::Data::DataColumn* GetDataColumn(::StringW columnName);
     // public System.Data.DataRow GetParentRow(System.Data.DataRelation relation)
     // Offset: 0x1E58774
-    System::Data::DataRow* GetParentRow(System::Data::DataRelation* relation);
+    ::System::Data::DataRow* GetParentRow(::System::Data::DataRelation* relation);
     // public System.Data.DataRow GetParentRow(System.Data.DataRelation relation, System.Data.DataRowVersion version)
     // Offset: 0x1E5D09C
-    System::Data::DataRow* GetParentRow(System::Data::DataRelation* relation, System::Data::DataRowVersion version);
+    ::System::Data::DataRow* GetParentRow(::System::Data::DataRelation* relation, ::System::Data::DataRowVersion version);
     // System.Data.DataRow GetNestedParentRow(System.Data.DataRowVersion version)
     // Offset: 0x1E5D1CC
-    System::Data::DataRow* GetNestedParentRow(System::Data::DataRowVersion version);
+    ::System::Data::DataRow* GetNestedParentRow(::System::Data::DataRowVersion version);
     // public System.Data.DataRow[] GetParentRows(System.Data.DataRelation relation)
     // Offset: 0x1E5D294
-    ::ArrayW<System::Data::DataRow*> GetParentRows(System::Data::DataRelation* relation);
+    ::ArrayW<::System::Data::DataRow*> GetParentRows(::System::Data::DataRelation* relation);
     // public System.Data.DataRow[] GetParentRows(System.Data.DataRelation relation, System.Data.DataRowVersion version)
     // Offset: 0x1E5D29C
-    ::ArrayW<System::Data::DataRow*> GetParentRows(System::Data::DataRelation* relation, System::Data::DataRowVersion version);
+    ::ArrayW<::System::Data::DataRow*> GetParentRows(::System::Data::DataRelation* relation, ::System::Data::DataRowVersion version);
     // System.Object[] GetColumnValues(System.Data.DataColumn[] columns)
     // Offset: 0x1E5D3DC
-    ::ArrayW<::Il2CppObject*> GetColumnValues(::ArrayW<System::Data::DataColumn*> columns);
+    ::ArrayW<::Il2CppObject*> GetColumnValues(::ArrayW<::System::Data::DataColumn*> columns);
     // System.Object[] GetColumnValues(System.Data.DataColumn[] columns, System.Data.DataRowVersion version)
     // Offset: 0x1E5D3E4
-    ::ArrayW<::Il2CppObject*> GetColumnValues(::ArrayW<System::Data::DataColumn*> columns, System::Data::DataRowVersion version);
+    ::ArrayW<::Il2CppObject*> GetColumnValues(::ArrayW<::System::Data::DataColumn*> columns, ::System::Data::DataRowVersion version);
     // System.Object[] GetKeyValues(System.Data.DataKey key)
     // Offset: 0x1E5D43C
-    ::ArrayW<::Il2CppObject*> GetKeyValues(System::Data::DataKey key);
+    ::ArrayW<::Il2CppObject*> GetKeyValues(::System::Data::DataKey key);
     // System.Object[] GetKeyValues(System.Data.DataKey key, System.Data.DataRowVersion version)
     // Offset: 0x1E569A4
-    ::ArrayW<::Il2CppObject*> GetKeyValues(System::Data::DataKey key, System::Data::DataRowVersion version);
+    ::ArrayW<::Il2CppObject*> GetKeyValues(::System::Data::DataKey key, ::System::Data::DataRowVersion version);
     // System.Int32 GetCurrentRecordNo()
     // Offset: 0x1E4FF5C
     int GetCurrentRecordNo();
@@ -360,28 +360,28 @@ namespace System::Data {
     int GetProposedRecordNo();
     // System.Int32 GetRecordFromVersion(System.Data.DataRowVersion version)
     // Offset: 0x1E4D954
-    int GetRecordFromVersion(System::Data::DataRowVersion version);
+    int GetRecordFromVersion(::System::Data::DataRowVersion version);
     // System.Data.DataRowVersion GetDefaultRowVersion(System.Data.DataViewRowState viewState)
     // Offset: 0x1E5D4CC
-    System::Data::DataRowVersion GetDefaultRowVersion(System::Data::DataViewRowState viewState);
+    ::System::Data::DataRowVersion GetDefaultRowVersion(::System::Data::DataViewRowState viewState);
     // System.Data.DataViewRowState GetRecordState(System.Int32 record)
     // Offset: 0x1E5D508
-    System::Data::DataViewRowState GetRecordState(int record);
+    ::System::Data::DataViewRowState GetRecordState(int record);
     // System.Boolean HasKeyChanged(System.Data.DataKey key)
     // Offset: 0x1E5D564
-    bool HasKeyChanged(System::Data::DataKey key);
+    bool HasKeyChanged(::System::Data::DataKey key);
     // System.Boolean HasKeyChanged(System.Data.DataKey key, System.Data.DataRowVersion version1, System.Data.DataRowVersion version2)
     // Offset: 0x1E5D570
-    bool HasKeyChanged(System::Data::DataKey key, System::Data::DataRowVersion version1, System::Data::DataRowVersion version2);
+    bool HasKeyChanged(::System::Data::DataKey key, ::System::Data::DataRowVersion version1, ::System::Data::DataRowVersion version2);
     // public System.Boolean HasVersion(System.Data.DataRowVersion version)
     // Offset: 0x1E4FE9C
-    bool HasVersion(System::Data::DataRowVersion version);
+    bool HasVersion(::System::Data::DataRowVersion version);
     // System.Boolean HaveValuesChanged(System.Data.DataColumn[] columns)
     // Offset: 0x1E5D5F8
-    bool HaveValuesChanged(::ArrayW<System::Data::DataColumn*> columns);
+    bool HaveValuesChanged(::ArrayW<::System::Data::DataColumn*> columns);
     // System.Boolean HaveValuesChanged(System.Data.DataColumn[] columns, System.Data.DataRowVersion version1, System.Data.DataRowVersion version2)
     // Offset: 0x1E5D604
-    bool HaveValuesChanged(::ArrayW<System::Data::DataColumn*> columns, System::Data::DataRowVersion version1, System::Data::DataRowVersion version2);
+    bool HaveValuesChanged(::ArrayW<::System::Data::DataColumn*> columns, ::System::Data::DataRowVersion version1, ::System::Data::DataRowVersion version2);
     // public System.Void RejectChanges()
     // Offset: 0x1E5D6C0
     void RejectChanges();
@@ -390,19 +390,19 @@ namespace System::Data {
     void ResetLastChangedColumn();
     // System.Void SetKeyValues(System.Data.DataKey key, System.Object[] keyValues)
     // Offset: 0x1E5DC58
-    void SetKeyValues(System::Data::DataKey key, ::ArrayW<::Il2CppObject*> keyValues);
+    void SetKeyValues(::System::Data::DataKey key, ::ArrayW<::Il2CppObject*> keyValues);
     // System.Void SetNestedParentRow(System.Data.DataRow parentRow, System.Boolean setNonNested)
     // Offset: 0x1E5DD7C
-    void SetNestedParentRow(System::Data::DataRow* parentRow, bool setNonNested);
+    void SetNestedParentRow(::System::Data::DataRow* parentRow, bool setNonNested);
     // System.Void SetParentRowToDBNull()
     // Offset: 0x1E5E0E8
     void SetParentRowToDBNull();
     // System.Void SetParentRowToDBNull(System.Data.DataRelation relation)
     // Offset: 0x1E5E340
-    void SetParentRowToDBNull(System::Data::DataRelation* relation);
+    void SetParentRowToDBNull(::System::Data::DataRelation* relation);
     // System.Int32 CopyValuesIntoStore(System.Collections.ArrayList storeList, System.Collections.ArrayList nullbitList, System.Int32 storeIndex)
     // Offset: 0x1E5E4B8
-    int CopyValuesIntoStore(System::Collections::ArrayList* storeList, System::Collections::ArrayList* nullbitList, int storeIndex);
+    int CopyValuesIntoStore(::System::Collections::ArrayList* storeList, ::System::Collections::ArrayList* nullbitList, int storeIndex);
   }; // System.Data.DataRow
   #pragma pack(pop)
   static check_size<sizeof(DataRow), 92 + sizeof(int)> __System_Data_DataRowSizeCheck;
@@ -412,7 +412,7 @@ namespace System::Data {
 // Writing MetadataGetter for method: System::Data::DataRow::get_LastChangedColumn
 // Il2CppName: get_LastChangedColumn
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::DataColumn* (System::Data::DataRow::*)()>(&System::Data::DataRow::get_LastChangedColumn)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataColumn* (System::Data::DataRow::*)()>(&System::Data::DataRow::get_LastChangedColumn)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataRow*), "get_LastChangedColumn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -420,7 +420,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::DataRow::set_LastChangedColumn
 // Il2CppName: set_LastChangedColumn
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataRow::*)(System::Data::DataColumn*)>(&System::Data::DataRow::set_LastChangedColumn)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataRow::*)(::System::Data::DataColumn*)>(&System::Data::DataRow::set_LastChangedColumn)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Data", "DataColumn")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataRow*), "set_LastChangedColumn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -488,7 +488,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataRow::get_RowState
 // Il2CppName: get_RowState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::DataRowState (System::Data::DataRow::*)()>(&System::Data::DataRow::get_RowState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataRowState (System::Data::DataRow::*)()>(&System::Data::DataRow::get_RowState)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataRow*), "get_RowState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -496,7 +496,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::DataRow::get_Table
 // Il2CppName: get_Table
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::DataTable* (System::Data::DataRow::*)()>(&System::Data::DataRow::get_Table)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataTable* (System::Data::DataRow::*)()>(&System::Data::DataRow::get_Table)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataRow*), "get_Table", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -514,7 +514,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataRow::get_Item
 // Il2CppName: get_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Data::DataRow::*)(System::Data::DataColumn*)>(&System::Data::DataRow::get_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Data::DataRow::*)(::System::Data::DataColumn*)>(&System::Data::DataRow::get_Item)> {
   static const MethodInfo* get() {
     static auto* column = &::il2cpp_utils::GetClassFromName("System.Data", "DataColumn")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataRow*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{column});
@@ -523,7 +523,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Data::DataRow::set_Item
 // Il2CppName: set_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataRow::*)(System::Data::DataColumn*, ::Il2CppObject*)>(&System::Data::DataRow::set_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataRow::*)(::System::Data::DataColumn*, ::Il2CppObject*)>(&System::Data::DataRow::set_Item)> {
   static const MethodInfo* get() {
     static auto* column = &::il2cpp_utils::GetClassFromName("System.Data", "DataColumn")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -533,7 +533,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataRow::get_Item
 // Il2CppName: get_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Data::DataRow::*)(System::Data::DataColumn*, System::Data::DataRowVersion)>(&System::Data::DataRow::get_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Data::DataRow::*)(::System::Data::DataColumn*, ::System::Data::DataRowVersion)>(&System::Data::DataRow::get_Item)> {
   static const MethodInfo* get() {
     static auto* column = &::il2cpp_utils::GetClassFromName("System.Data", "DataColumn")->byval_arg;
     static auto* version = &::il2cpp_utils::GetClassFromName("System.Data", "DataRowVersion")->byval_arg;
@@ -572,7 +572,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataRow::CheckForLoops
 // Il2CppName: CheckForLoops
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataRow::*)(System::Data::DataRelation*)>(&System::Data::DataRow::CheckForLoops)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataRow::*)(::System::Data::DataRelation*)>(&System::Data::DataRow::CheckForLoops)> {
   static const MethodInfo* get() {
     static auto* rel = &::il2cpp_utils::GetClassFromName("System.Data", "DataRelation")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataRow*), "CheckForLoops", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rel});
@@ -621,7 +621,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataRow::CheckColumn
 // Il2CppName: CheckColumn
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataRow::*)(System::Data::DataColumn*)>(&System::Data::DataRow::CheckColumn)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataRow::*)(::System::Data::DataColumn*)>(&System::Data::DataRow::CheckColumn)> {
   static const MethodInfo* get() {
     static auto* column = &::il2cpp_utils::GetClassFromName("System.Data", "DataColumn")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataRow*), "CheckColumn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{column});
@@ -664,7 +664,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataRow::SetColumnError
 // Il2CppName: SetColumnError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataRow::*)(System::Data::DataColumn*, ::StringW)>(&System::Data::DataRow::SetColumnError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataRow::*)(::System::Data::DataColumn*, ::StringW)>(&System::Data::DataRow::SetColumnError)> {
   static const MethodInfo* get() {
     static auto* column = &::il2cpp_utils::GetClassFromName("System.Data", "DataColumn")->byval_arg;
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -674,7 +674,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataRow::GetColumnError
 // Il2CppName: GetColumnError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Data::DataRow::*)(System::Data::DataColumn*)>(&System::Data::DataRow::GetColumnError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Data::DataRow::*)(::System::Data::DataColumn*)>(&System::Data::DataRow::GetColumnError)> {
   static const MethodInfo* get() {
     static auto* column = &::il2cpp_utils::GetClassFromName("System.Data", "DataColumn")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataRow*), "GetColumnError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{column});
@@ -691,7 +691,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataRow::ClearError
 // Il2CppName: ClearError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataRow::*)(System::Data::DataColumn*)>(&System::Data::DataRow::ClearError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataRow::*)(::System::Data::DataColumn*)>(&System::Data::DataRow::ClearError)> {
   static const MethodInfo* get() {
     static auto* column = &::il2cpp_utils::GetClassFromName("System.Data", "DataColumn")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataRow*), "ClearError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{column});
@@ -700,7 +700,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataRow::GetColumnsInError
 // Il2CppName: GetColumnsInError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Data::DataColumn*> (System::Data::DataRow::*)()>(&System::Data::DataRow::GetColumnsInError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Data::DataColumn*> (System::Data::DataRow::*)()>(&System::Data::DataRow::GetColumnsInError)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataRow*), "GetColumnsInError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -708,7 +708,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Sy
 // Writing MetadataGetter for method: System::Data::DataRow::GetChildRows
 // Il2CppName: GetChildRows
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Data::DataRow*> (System::Data::DataRow::*)(System::Data::DataRelation*)>(&System::Data::DataRow::GetChildRows)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Data::DataRow*> (System::Data::DataRow::*)(::System::Data::DataRelation*)>(&System::Data::DataRow::GetChildRows)> {
   static const MethodInfo* get() {
     static auto* relation = &::il2cpp_utils::GetClassFromName("System.Data", "DataRelation")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataRow*), "GetChildRows", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{relation});
@@ -717,7 +717,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Sy
 // Writing MetadataGetter for method: System::Data::DataRow::GetChildRows
 // Il2CppName: GetChildRows
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Data::DataRow*> (System::Data::DataRow::*)(System::Data::DataRelation*, System::Data::DataRowVersion)>(&System::Data::DataRow::GetChildRows)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Data::DataRow*> (System::Data::DataRow::*)(::System::Data::DataRelation*, ::System::Data::DataRowVersion)>(&System::Data::DataRow::GetChildRows)> {
   static const MethodInfo* get() {
     static auto* relation = &::il2cpp_utils::GetClassFromName("System.Data", "DataRelation")->byval_arg;
     static auto* version = &::il2cpp_utils::GetClassFromName("System.Data", "DataRowVersion")->byval_arg;
@@ -727,7 +727,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Sy
 // Writing MetadataGetter for method: System::Data::DataRow::GetDataColumn
 // Il2CppName: GetDataColumn
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::DataColumn* (System::Data::DataRow::*)(::StringW)>(&System::Data::DataRow::GetDataColumn)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataColumn* (System::Data::DataRow::*)(::StringW)>(&System::Data::DataRow::GetDataColumn)> {
   static const MethodInfo* get() {
     static auto* columnName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataRow*), "GetDataColumn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{columnName});
@@ -736,7 +736,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::DataRow::GetParentRow
 // Il2CppName: GetParentRow
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::DataRow* (System::Data::DataRow::*)(System::Data::DataRelation*)>(&System::Data::DataRow::GetParentRow)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataRow* (System::Data::DataRow::*)(::System::Data::DataRelation*)>(&System::Data::DataRow::GetParentRow)> {
   static const MethodInfo* get() {
     static auto* relation = &::il2cpp_utils::GetClassFromName("System.Data", "DataRelation")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataRow*), "GetParentRow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{relation});
@@ -745,7 +745,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::DataRow::GetParentRow
 // Il2CppName: GetParentRow
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::DataRow* (System::Data::DataRow::*)(System::Data::DataRelation*, System::Data::DataRowVersion)>(&System::Data::DataRow::GetParentRow)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataRow* (System::Data::DataRow::*)(::System::Data::DataRelation*, ::System::Data::DataRowVersion)>(&System::Data::DataRow::GetParentRow)> {
   static const MethodInfo* get() {
     static auto* relation = &::il2cpp_utils::GetClassFromName("System.Data", "DataRelation")->byval_arg;
     static auto* version = &::il2cpp_utils::GetClassFromName("System.Data", "DataRowVersion")->byval_arg;
@@ -755,7 +755,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::DataRow::GetNestedParentRow
 // Il2CppName: GetNestedParentRow
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::DataRow* (System::Data::DataRow::*)(System::Data::DataRowVersion)>(&System::Data::DataRow::GetNestedParentRow)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataRow* (System::Data::DataRow::*)(::System::Data::DataRowVersion)>(&System::Data::DataRow::GetNestedParentRow)> {
   static const MethodInfo* get() {
     static auto* version = &::il2cpp_utils::GetClassFromName("System.Data", "DataRowVersion")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataRow*), "GetNestedParentRow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{version});
@@ -764,7 +764,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::DataRow::GetParentRows
 // Il2CppName: GetParentRows
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Data::DataRow*> (System::Data::DataRow::*)(System::Data::DataRelation*)>(&System::Data::DataRow::GetParentRows)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Data::DataRow*> (System::Data::DataRow::*)(::System::Data::DataRelation*)>(&System::Data::DataRow::GetParentRows)> {
   static const MethodInfo* get() {
     static auto* relation = &::il2cpp_utils::GetClassFromName("System.Data", "DataRelation")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataRow*), "GetParentRows", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{relation});
@@ -773,7 +773,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Sy
 // Writing MetadataGetter for method: System::Data::DataRow::GetParentRows
 // Il2CppName: GetParentRows
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Data::DataRow*> (System::Data::DataRow::*)(System::Data::DataRelation*, System::Data::DataRowVersion)>(&System::Data::DataRow::GetParentRows)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Data::DataRow*> (System::Data::DataRow::*)(::System::Data::DataRelation*, ::System::Data::DataRowVersion)>(&System::Data::DataRow::GetParentRows)> {
   static const MethodInfo* get() {
     static auto* relation = &::il2cpp_utils::GetClassFromName("System.Data", "DataRelation")->byval_arg;
     static auto* version = &::il2cpp_utils::GetClassFromName("System.Data", "DataRowVersion")->byval_arg;
@@ -783,7 +783,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Sy
 // Writing MetadataGetter for method: System::Data::DataRow::GetColumnValues
 // Il2CppName: GetColumnValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (System::Data::DataRow::*)(::ArrayW<System::Data::DataColumn*>)>(&System::Data::DataRow::GetColumnValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (System::Data::DataRow::*)(::ArrayW<::System::Data::DataColumn*>)>(&System::Data::DataRow::GetColumnValues)> {
   static const MethodInfo* get() {
     static auto* columns = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Data", "DataColumn"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataRow*), "GetColumnValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{columns});
@@ -792,7 +792,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: System::Data::DataRow::GetColumnValues
 // Il2CppName: GetColumnValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (System::Data::DataRow::*)(::ArrayW<System::Data::DataColumn*>, System::Data::DataRowVersion)>(&System::Data::DataRow::GetColumnValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (System::Data::DataRow::*)(::ArrayW<::System::Data::DataColumn*>, ::System::Data::DataRowVersion)>(&System::Data::DataRow::GetColumnValues)> {
   static const MethodInfo* get() {
     static auto* columns = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Data", "DataColumn"), 1)->byval_arg;
     static auto* version = &::il2cpp_utils::GetClassFromName("System.Data", "DataRowVersion")->byval_arg;
@@ -802,7 +802,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: System::Data::DataRow::GetKeyValues
 // Il2CppName: GetKeyValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (System::Data::DataRow::*)(System::Data::DataKey)>(&System::Data::DataRow::GetKeyValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (System::Data::DataRow::*)(::System::Data::DataKey)>(&System::Data::DataRow::GetKeyValues)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System.Data", "DataKey")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataRow*), "GetKeyValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});
@@ -811,7 +811,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: System::Data::DataRow::GetKeyValues
 // Il2CppName: GetKeyValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (System::Data::DataRow::*)(System::Data::DataKey, System::Data::DataRowVersion)>(&System::Data::DataRow::GetKeyValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (System::Data::DataRow::*)(::System::Data::DataKey, ::System::Data::DataRowVersion)>(&System::Data::DataRow::GetKeyValues)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System.Data", "DataKey")->byval_arg;
     static auto* version = &::il2cpp_utils::GetClassFromName("System.Data", "DataRowVersion")->byval_arg;
@@ -853,7 +853,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Data::DataRow::GetRecordFromVersion
 // Il2CppName: GetRecordFromVersion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Data::DataRow::*)(System::Data::DataRowVersion)>(&System::Data::DataRow::GetRecordFromVersion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Data::DataRow::*)(::System::Data::DataRowVersion)>(&System::Data::DataRow::GetRecordFromVersion)> {
   static const MethodInfo* get() {
     static auto* version = &::il2cpp_utils::GetClassFromName("System.Data", "DataRowVersion")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataRow*), "GetRecordFromVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{version});
@@ -862,7 +862,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Data::DataRow::GetDefaultRowVersion
 // Il2CppName: GetDefaultRowVersion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::DataRowVersion (System::Data::DataRow::*)(System::Data::DataViewRowState)>(&System::Data::DataRow::GetDefaultRowVersion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataRowVersion (System::Data::DataRow::*)(::System::Data::DataViewRowState)>(&System::Data::DataRow::GetDefaultRowVersion)> {
   static const MethodInfo* get() {
     static auto* viewState = &::il2cpp_utils::GetClassFromName("System.Data", "DataViewRowState")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataRow*), "GetDefaultRowVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{viewState});
@@ -871,7 +871,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::DataRow::GetRecordState
 // Il2CppName: GetRecordState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Data::DataViewRowState (System::Data::DataRow::*)(int)>(&System::Data::DataRow::GetRecordState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataViewRowState (System::Data::DataRow::*)(int)>(&System::Data::DataRow::GetRecordState)> {
   static const MethodInfo* get() {
     static auto* record = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataRow*), "GetRecordState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{record});
@@ -880,7 +880,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: System::Data::DataRow::HasKeyChanged
 // Il2CppName: HasKeyChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Data::DataRow::*)(System::Data::DataKey)>(&System::Data::DataRow::HasKeyChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Data::DataRow::*)(::System::Data::DataKey)>(&System::Data::DataRow::HasKeyChanged)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System.Data", "DataKey")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataRow*), "HasKeyChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});
@@ -889,7 +889,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Data::DataRow::HasKeyChanged
 // Il2CppName: HasKeyChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Data::DataRow::*)(System::Data::DataKey, System::Data::DataRowVersion, System::Data::DataRowVersion)>(&System::Data::DataRow::HasKeyChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Data::DataRow::*)(::System::Data::DataKey, ::System::Data::DataRowVersion, ::System::Data::DataRowVersion)>(&System::Data::DataRow::HasKeyChanged)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System.Data", "DataKey")->byval_arg;
     static auto* version1 = &::il2cpp_utils::GetClassFromName("System.Data", "DataRowVersion")->byval_arg;
@@ -900,7 +900,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Data::DataRow::HasVersion
 // Il2CppName: HasVersion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Data::DataRow::*)(System::Data::DataRowVersion)>(&System::Data::DataRow::HasVersion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Data::DataRow::*)(::System::Data::DataRowVersion)>(&System::Data::DataRow::HasVersion)> {
   static const MethodInfo* get() {
     static auto* version = &::il2cpp_utils::GetClassFromName("System.Data", "DataRowVersion")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataRow*), "HasVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{version});
@@ -909,7 +909,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Data::DataRow::HaveValuesChanged
 // Il2CppName: HaveValuesChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Data::DataRow::*)(::ArrayW<System::Data::DataColumn*>)>(&System::Data::DataRow::HaveValuesChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Data::DataRow::*)(::ArrayW<::System::Data::DataColumn*>)>(&System::Data::DataRow::HaveValuesChanged)> {
   static const MethodInfo* get() {
     static auto* columns = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Data", "DataColumn"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataRow*), "HaveValuesChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{columns});
@@ -918,7 +918,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Data::DataRow::HaveValuesChanged
 // Il2CppName: HaveValuesChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Data::DataRow::*)(::ArrayW<System::Data::DataColumn*>, System::Data::DataRowVersion, System::Data::DataRowVersion)>(&System::Data::DataRow::HaveValuesChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Data::DataRow::*)(::ArrayW<::System::Data::DataColumn*>, ::System::Data::DataRowVersion, ::System::Data::DataRowVersion)>(&System::Data::DataRow::HaveValuesChanged)> {
   static const MethodInfo* get() {
     static auto* columns = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Data", "DataColumn"), 1)->byval_arg;
     static auto* version1 = &::il2cpp_utils::GetClassFromName("System.Data", "DataRowVersion")->byval_arg;
@@ -945,7 +945,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataRow::SetKeyValues
 // Il2CppName: SetKeyValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataRow::*)(System::Data::DataKey, ::ArrayW<::Il2CppObject*>)>(&System::Data::DataRow::SetKeyValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataRow::*)(::System::Data::DataKey, ::ArrayW<::Il2CppObject*>)>(&System::Data::DataRow::SetKeyValues)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System.Data", "DataKey")->byval_arg;
     static auto* keyValues = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
@@ -955,7 +955,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataRow::SetNestedParentRow
 // Il2CppName: SetNestedParentRow
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataRow::*)(System::Data::DataRow*, bool)>(&System::Data::DataRow::SetNestedParentRow)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataRow::*)(::System::Data::DataRow*, bool)>(&System::Data::DataRow::SetNestedParentRow)> {
   static const MethodInfo* get() {
     static auto* parentRow = &::il2cpp_utils::GetClassFromName("System.Data", "DataRow")->byval_arg;
     static auto* setNonNested = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -973,7 +973,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataRow::SetParentRowToDBNull
 // Il2CppName: SetParentRowToDBNull
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataRow::*)(System::Data::DataRelation*)>(&System::Data::DataRow::SetParentRowToDBNull)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Data::DataRow::*)(::System::Data::DataRelation*)>(&System::Data::DataRow::SetParentRowToDBNull)> {
   static const MethodInfo* get() {
     static auto* relation = &::il2cpp_utils::GetClassFromName("System.Data", "DataRelation")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Data::DataRow*), "SetParentRowToDBNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{relation});
@@ -982,7 +982,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Data::DataRow::CopyValuesIntoStore
 // Il2CppName: CopyValuesIntoStore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Data::DataRow::*)(System::Collections::ArrayList*, System::Collections::ArrayList*, int)>(&System::Data::DataRow::CopyValuesIntoStore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Data::DataRow::*)(::System::Collections::ArrayList*, ::System::Collections::ArrayList*, int)>(&System::Data::DataRow::CopyValuesIntoStore)> {
   static const MethodInfo* get() {
     static auto* storeList = &::il2cpp_utils::GetClassFromName("System.Collections", "ArrayList")->byval_arg;
     static auto* nullbitList = &::il2cpp_utils::GetClassFromName("System.Collections", "ArrayList")->byval_arg;

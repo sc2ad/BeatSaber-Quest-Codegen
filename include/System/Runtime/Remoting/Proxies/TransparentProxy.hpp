@@ -37,8 +37,8 @@ namespace System::Runtime::Remoting::Proxies {
   class TransparentProxy;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Remoting::Proxies::TransparentProxy);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Proxies::TransparentProxy*, "System.Runtime.Remoting.Proxies", "TransparentProxy");
+NEED_NO_BOX(::System::Runtime::Remoting::Proxies::TransparentProxy);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Proxies::TransparentProxy*, "System.Runtime.Remoting.Proxies", "TransparentProxy");
 // Type namespace: System.Runtime.Remoting.Proxies
 namespace System::Runtime::Remoting::Proxies {
   // Size: 0x21
@@ -60,15 +60,15 @@ namespace System::Runtime::Remoting::Proxies {
     // public System.Runtime.Remoting.Proxies.RealProxy _rp
     // Size: 0x8
     // Offset: 0x10
-    System::Runtime::Remoting::Proxies::RealProxy* rp;
+    ::System::Runtime::Remoting::Proxies::RealProxy* rp;
     // Field size check
-    static_assert(sizeof(System::Runtime::Remoting::Proxies::RealProxy*) == 0x8);
+    static_assert(sizeof(::System::Runtime::Remoting::Proxies::RealProxy*) == 0x8);
     // private Mono.RuntimeRemoteClassHandle _class
     // Size: 0x8
     // Offset: 0x18
-    Mono::RuntimeRemoteClassHandle _class;
+    ::Mono::RuntimeRemoteClassHandle _class;
     // Field size check
-    static_assert(sizeof(Mono::RuntimeRemoteClassHandle) == 0x8);
+    static_assert(sizeof(::Mono::RuntimeRemoteClassHandle) == 0x8);
     // private System.Boolean _custom_type_info
     // Size: 0x1
     // Offset: 0x20
@@ -77,9 +77,9 @@ namespace System::Runtime::Remoting::Proxies {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public System.Runtime.Remoting.Proxies.RealProxy _rp
-    System::Runtime::Remoting::Proxies::RealProxy*& dyn__rp();
+    ::System::Runtime::Remoting::Proxies::RealProxy*& dyn__rp();
     // Get instance field reference: private Mono.RuntimeRemoteClassHandle _class
-    Mono::RuntimeRemoteClassHandle& dyn__class();
+    ::Mono::RuntimeRemoteClassHandle& dyn__class();
     // Get instance field reference: private System.Boolean _custom_type_info
     bool& dyn__custom_type_info();
     // private System.Boolean get_IsContextBoundObject()
@@ -87,26 +87,26 @@ namespace System::Runtime::Remoting::Proxies {
     bool get_IsContextBoundObject();
     // private System.Runtime.Remoting.Contexts.Context get_TargetContext()
     // Offset: 0x18030AC
-    System::Runtime::Remoting::Contexts::Context* get_TargetContext();
+    ::System::Runtime::Remoting::Contexts::Context* get_TargetContext();
     // System.RuntimeType GetProxyType()
     // Offset: 0x1802FB8
-    System::RuntimeType* GetProxyType();
+    ::System::RuntimeType* GetProxyType();
     // private System.Boolean InCurrentContext()
     // Offset: 0x18030C8
     bool InCurrentContext();
     // System.Object LoadRemoteFieldNew(System.IntPtr classPtr, System.IntPtr fieldPtr)
     // Offset: 0x1803114
-    ::Il2CppObject* LoadRemoteFieldNew(System::IntPtr classPtr, System::IntPtr fieldPtr);
+    ::Il2CppObject* LoadRemoteFieldNew(::System::IntPtr classPtr, ::System::IntPtr fieldPtr);
     // System.Void StoreRemoteField(System.IntPtr classPtr, System.IntPtr fieldPtr, System.Object arg)
     // Offset: 0x18033C4
-    void StoreRemoteField(System::IntPtr classPtr, System::IntPtr fieldPtr, ::Il2CppObject* arg);
+    void StoreRemoteField(::System::IntPtr classPtr, ::System::IntPtr fieldPtr, ::Il2CppObject* arg);
     // public System.Void .ctor()
     // Offset: 0x1803674
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TransparentProxy* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Proxies::TransparentProxy::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::Proxies::TransparentProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TransparentProxy*, creationType>()));
     }
   }; // System.Runtime.Remoting.Proxies.TransparentProxy
@@ -126,7 +126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Runtime::Remoting::Proxies::TransparentProxy::get_TargetContext
 // Il2CppName: get_TargetContext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Contexts::Context* (System::Runtime::Remoting::Proxies::TransparentProxy::*)()>(&System::Runtime::Remoting::Proxies::TransparentProxy::get_TargetContext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Contexts::Context* (System::Runtime::Remoting::Proxies::TransparentProxy::*)()>(&System::Runtime::Remoting::Proxies::TransparentProxy::get_TargetContext)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Proxies::TransparentProxy*), "get_TargetContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -134,7 +134,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: System::Runtime::Remoting::Proxies::TransparentProxy::GetProxyType
 // Il2CppName: GetProxyType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::RuntimeType* (System::Runtime::Remoting::Proxies::TransparentProxy::*)()>(&System::Runtime::Remoting::Proxies::TransparentProxy::GetProxyType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::RuntimeType* (System::Runtime::Remoting::Proxies::TransparentProxy::*)()>(&System::Runtime::Remoting::Proxies::TransparentProxy::GetProxyType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Proxies::TransparentProxy*), "GetProxyType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -150,7 +150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Runtime::Remoting::Proxies::TransparentProxy::LoadRemoteFieldNew
 // Il2CppName: LoadRemoteFieldNew
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Remoting::Proxies::TransparentProxy::*)(System::IntPtr, System::IntPtr)>(&System::Runtime::Remoting::Proxies::TransparentProxy::LoadRemoteFieldNew)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Remoting::Proxies::TransparentProxy::*)(::System::IntPtr, ::System::IntPtr)>(&System::Runtime::Remoting::Proxies::TransparentProxy::LoadRemoteFieldNew)> {
   static const MethodInfo* get() {
     static auto* classPtr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fieldPtr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -160,7 +160,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Runtime::Remoting::Proxies::TransparentProxy::StoreRemoteField
 // Il2CppName: StoreRemoteField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Proxies::TransparentProxy::*)(System::IntPtr, System::IntPtr, ::Il2CppObject*)>(&System::Runtime::Remoting::Proxies::TransparentProxy::StoreRemoteField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Proxies::TransparentProxy::*)(::System::IntPtr, ::System::IntPtr, ::Il2CppObject*)>(&System::Runtime::Remoting::Proxies::TransparentProxy::StoreRemoteField)> {
   static const MethodInfo* get() {
     static auto* classPtr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fieldPtr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;

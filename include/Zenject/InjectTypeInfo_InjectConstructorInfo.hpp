@@ -23,8 +23,8 @@ namespace Zenject {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::InjectTypeInfo::InjectConstructorInfo);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectTypeInfo::InjectConstructorInfo*, "Zenject", "InjectTypeInfo/InjectConstructorInfo");
+NEED_NO_BOX(::Zenject::InjectTypeInfo::InjectConstructorInfo);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::InjectTypeInfo::InjectConstructorInfo*, "Zenject", "InjectTypeInfo/InjectConstructorInfo");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x20
@@ -46,30 +46,30 @@ namespace Zenject {
     // public readonly Zenject.ZenFactoryMethod Factory
     // Size: 0x8
     // Offset: 0x10
-    Zenject::ZenFactoryMethod* Factory;
+    ::Zenject::ZenFactoryMethod* Factory;
     // Field size check
-    static_assert(sizeof(Zenject::ZenFactoryMethod*) == 0x8);
+    static_assert(sizeof(::Zenject::ZenFactoryMethod*) == 0x8);
     // public readonly Zenject.InjectableInfo[] Parameters
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayW<Zenject::InjectableInfo*> Parameters;
+    ::ArrayW<::Zenject::InjectableInfo*> Parameters;
     // Field size check
-    static_assert(sizeof(::ArrayW<Zenject::InjectableInfo*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Zenject::InjectableInfo*>) == 0x8);
     public:
     // Get instance field reference: public readonly Zenject.ZenFactoryMethod Factory
-    Zenject::ZenFactoryMethod*& dyn_Factory();
+    ::Zenject::ZenFactoryMethod*& dyn_Factory();
     // Get instance field reference: public readonly Zenject.InjectableInfo[] Parameters
-    ::ArrayW<Zenject::InjectableInfo*>& dyn_Parameters();
+    ::ArrayW<::Zenject::InjectableInfo*>& dyn_Parameters();
     // public System.Void .ctor(Zenject.ZenFactoryMethod factory, Zenject.InjectableInfo[] parameters)
     // Offset: 0x2A47970
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static InjectTypeInfo::InjectConstructorInfo* New_ctor(Zenject::ZenFactoryMethod* factory, ::ArrayW<Zenject::InjectableInfo*> parameters) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::InjectTypeInfo::InjectConstructorInfo::.ctor");
+    static InjectTypeInfo::InjectConstructorInfo* New_ctor(::Zenject::ZenFactoryMethod* factory, ::ArrayW<::Zenject::InjectableInfo*> parameters) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InjectTypeInfo::InjectConstructorInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InjectTypeInfo::InjectConstructorInfo*, creationType>(factory, parameters)));
     }
   }; // Zenject.InjectTypeInfo/Zenject.InjectConstructorInfo
   #pragma pack(pop)
-  static check_size<sizeof(InjectTypeInfo::InjectConstructorInfo), 24 + sizeof(::ArrayW<Zenject::InjectableInfo*>)> __Zenject_InjectTypeInfo_InjectConstructorInfoSizeCheck;
+  static check_size<sizeof(InjectTypeInfo::InjectConstructorInfo), 24 + sizeof(::ArrayW<::Zenject::InjectableInfo*>)> __Zenject_InjectTypeInfo_InjectConstructorInfoSizeCheck;
   static_assert(sizeof(InjectTypeInfo::InjectConstructorInfo) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

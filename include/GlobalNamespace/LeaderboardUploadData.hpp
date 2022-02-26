@@ -25,8 +25,8 @@ namespace GlobalNamespace {
   class LeaderboardUploadData;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::LeaderboardUploadData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardUploadData*, "", "LeaderboardUploadData");
+NEED_NO_BOX(::GlobalNamespace::LeaderboardUploadData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LeaderboardUploadData*, "", "LeaderboardUploadData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x68
@@ -107,9 +107,9 @@ namespace GlobalNamespace {
     // public System.Collections.Generic.List`1<System.String> modifiers
     // Size: 0x8
     // Offset: 0x60
-    System::Collections::Generic::List_1<::StringW>* modifiers;
+    ::System::Collections::Generic::List_1<::StringW>* modifiers;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<::StringW>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::StringW>*) == 0x8);
     public:
     // Get instance field reference: public System.String playerName
     ::StringW& dyn_playerName();
@@ -132,17 +132,17 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String infoHash
     ::StringW& dyn_infoHash();
     // Get instance field reference: public System.Collections.Generic.List`1<System.String> modifiers
-    System::Collections::Generic::List_1<::StringW>*& dyn_modifiers();
+    ::System::Collections::Generic::List_1<::StringW>*& dyn_modifiers();
     // public System.Void .ctor(System.String playerName, System.String playerId, System.String score, System.String leaderboardId, System.String songName, System.String songSubName, System.String authorName, System.String bpm, System.String difficulty, System.String infoHash, System.Collections.Generic.List`1<System.String> modifiers)
     // Offset: 0x13B156C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static LeaderboardUploadData* New_ctor(::StringW playerName, ::StringW playerId, ::StringW score, ::StringW leaderboardId, ::StringW songName, ::StringW songSubName, ::StringW authorName, ::StringW bpm, ::StringW difficulty, ::StringW infoHash, System::Collections::Generic::List_1<::StringW>* modifiers) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LeaderboardUploadData::.ctor");
+    static LeaderboardUploadData* New_ctor(::StringW playerName, ::StringW playerId, ::StringW score, ::StringW leaderboardId, ::StringW songName, ::StringW songSubName, ::StringW authorName, ::StringW bpm, ::StringW difficulty, ::StringW infoHash, ::System::Collections::Generic::List_1<::StringW>* modifiers) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LeaderboardUploadData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardUploadData*, creationType>(playerName, playerId, score, leaderboardId, songName, songSubName, authorName, bpm, difficulty, infoHash, modifiers)));
     }
   }; // LeaderboardUploadData
   #pragma pack(pop)
-  static check_size<sizeof(LeaderboardUploadData), 96 + sizeof(System::Collections::Generic::List_1<::StringW>*)> __GlobalNamespace_LeaderboardUploadDataSizeCheck;
+  static check_size<sizeof(LeaderboardUploadData), 96 + sizeof(::System::Collections::Generic::List_1<::StringW>*)> __GlobalNamespace_LeaderboardUploadDataSizeCheck;
   static_assert(sizeof(LeaderboardUploadData) == 0x68);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

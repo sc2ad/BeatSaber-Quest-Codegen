@@ -11,8 +11,8 @@ namespace UnityEngine::UI {
   class ILayoutElement;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::UI::ILayoutElement);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ILayoutElement*, "UnityEngine.UI", "ILayoutElement");
+NEED_NO_BOX(::UnityEngine::UI::ILayoutElement);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::ILayoutElement*, "UnityEngine.UI", "ILayoutElement");
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {
   // Size: 0x10

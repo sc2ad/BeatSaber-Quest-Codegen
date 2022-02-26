@@ -19,8 +19,8 @@ namespace UnityEngine::TestTools::Logging {
   class LogEvent;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::TestTools::Logging::LogEvent);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Logging::LogEvent*, "UnityEngine.TestTools.Logging", "LogEvent");
+NEED_NO_BOX(::UnityEngine::TestTools::Logging::LogEvent);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TestTools::Logging::LogEvent*, "UnityEngine.TestTools.Logging", "LogEvent");
 // Type namespace: UnityEngine.TestTools.Logging
 namespace UnityEngine::TestTools::Logging {
   // Size: 0x25
@@ -53,9 +53,9 @@ namespace UnityEngine::TestTools::Logging {
     // private UnityEngine.LogType <LogType>k__BackingField
     // Size: 0x4
     // Offset: 0x20
-    UnityEngine::LogType LogType;
+    ::UnityEngine::LogType LogType;
     // Field size check
-    static_assert(sizeof(UnityEngine::LogType) == 0x4);
+    static_assert(sizeof(::UnityEngine::LogType) == 0x4);
     // private System.Boolean <IsHandled>k__BackingField
     // Size: 0x1
     // Offset: 0x24
@@ -68,7 +68,7 @@ namespace UnityEngine::TestTools::Logging {
     // Get instance field reference: private System.String <StackTrace>k__BackingField
     ::StringW& dyn_$StackTrace$k__BackingField();
     // Get instance field reference: private UnityEngine.LogType <LogType>k__BackingField
-    UnityEngine::LogType& dyn_$LogType$k__BackingField();
+    ::UnityEngine::LogType& dyn_$LogType$k__BackingField();
     // Get instance field reference: private System.Boolean <IsHandled>k__BackingField
     bool& dyn_$IsHandled$k__BackingField();
     // public System.String get_Message()
@@ -85,10 +85,10 @@ namespace UnityEngine::TestTools::Logging {
     void set_StackTrace(::StringW value);
     // public UnityEngine.LogType get_LogType()
     // Offset: 0x18D8C14
-    UnityEngine::LogType get_LogType();
+    ::UnityEngine::LogType get_LogType();
     // public System.Void set_LogType(UnityEngine.LogType value)
     // Offset: 0x18D8C1C
-    void set_LogType(UnityEngine::LogType value);
+    void set_LogType(::UnityEngine::LogType value);
     // public System.Boolean get_IsHandled()
     // Offset: 0x18D8C24
     bool get_IsHandled();
@@ -101,7 +101,7 @@ namespace UnityEngine::TestTools::Logging {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LogEvent* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::Logging::LogEvent::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::Logging::LogEvent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LogEvent*, creationType>()));
     }
     // public override System.String ToString()
@@ -152,7 +152,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogEvent::get_LogType
 // Il2CppName: get_LogType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LogType (UnityEngine::TestTools::Logging::LogEvent::*)()>(&UnityEngine::TestTools::Logging::LogEvent::get_LogType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::LogType (UnityEngine::TestTools::Logging::LogEvent::*)()>(&UnityEngine::TestTools::Logging::LogEvent::get_LogType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogEvent*), "get_LogType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -160,7 +160,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogEvent::set_LogType
 // Il2CppName: set_LogType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Logging::LogEvent::*)(UnityEngine::LogType)>(&UnityEngine::TestTools::Logging::LogEvent::set_LogType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Logging::LogEvent::*)(::UnityEngine::LogType)>(&UnityEngine::TestTools::Logging::LogEvent::set_LogType)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "LogType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogEvent*), "set_LogType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

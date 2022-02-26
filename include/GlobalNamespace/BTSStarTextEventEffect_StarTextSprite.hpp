@@ -20,8 +20,8 @@ namespace UnityEngine {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BTSStarTextEventEffect::StarTextSprite);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSStarTextEventEffect::StarTextSprite*, "", "BTSStarTextEventEffect/StarTextSprite");
+NEED_NO_BOX(::GlobalNamespace::BTSStarTextEventEffect::StarTextSprite);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BTSStarTextEventEffect::StarTextSprite*, "", "BTSStarTextEventEffect/StarTextSprite");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x24
@@ -50,9 +50,9 @@ namespace GlobalNamespace {
     // private UnityEngine.Sprite _starTextSprite
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::Sprite* starTextSprite;
+    ::UnityEngine::Sprite* starTextSprite;
     // Field size check
-    static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Sprite*) == 0x8);
     // private System.Single _animationLength
     // Size: 0x4
     // Offset: 0x20
@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _id
     int& dyn__id();
     // Get instance field reference: private UnityEngine.Sprite _starTextSprite
-    UnityEngine::Sprite*& dyn__starTextSprite();
+    ::UnityEngine::Sprite*& dyn__starTextSprite();
     // Get instance field reference: private System.Single _animationLength
     float& dyn__animationLength();
     // public System.Int32 get_id()
@@ -71,7 +71,7 @@ namespace GlobalNamespace {
     int get_id();
     // public UnityEngine.Sprite get_starTextSprite()
     // Offset: 0x2B3A124
-    UnityEngine::Sprite* get_starTextSprite();
+    ::UnityEngine::Sprite* get_starTextSprite();
     // public System.Single get_animationLength()
     // Offset: 0x2B3A12C
     float get_animationLength();
@@ -81,7 +81,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BTSStarTextEventEffect::StarTextSprite* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BTSStarTextEventEffect::StarTextSprite::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BTSStarTextEventEffect::StarTextSprite::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BTSStarTextEventEffect::StarTextSprite*, creationType>()));
     }
   }; // BTSStarTextEventEffect/StarTextSprite
@@ -101,7 +101,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Writing MetadataGetter for method: GlobalNamespace::BTSStarTextEventEffect::StarTextSprite::get_starTextSprite
 // Il2CppName: get_starTextSprite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (GlobalNamespace::BTSStarTextEventEffect::StarTextSprite::*)()>(&GlobalNamespace::BTSStarTextEventEffect::StarTextSprite::get_starTextSprite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Sprite* (GlobalNamespace::BTSStarTextEventEffect::StarTextSprite::*)()>(&GlobalNamespace::BTSStarTextEventEffect::StarTextSprite::get_starTextSprite)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSStarTextEventEffect::StarTextSprite*), "get_starTextSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

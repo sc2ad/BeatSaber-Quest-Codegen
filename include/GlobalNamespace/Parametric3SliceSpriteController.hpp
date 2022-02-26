@@ -33,8 +33,8 @@ namespace GlobalNamespace {
   class Parametric3SliceSpriteController;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::Parametric3SliceSpriteController);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Parametric3SliceSpriteController*, "", "Parametric3SliceSpriteController");
+NEED_NO_BOX(::GlobalNamespace::Parametric3SliceSpriteController);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::Parametric3SliceSpriteController*, "", "Parametric3SliceSpriteController");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x59
@@ -44,7 +44,7 @@ namespace GlobalNamespace {
   // [RequireComponent] Offset: 1228328
   // [RequireComponent] Offset: 1228328
   // [ExecuteInEditMode] Offset: FFFFFFFF
-  class Parametric3SliceSpriteController : public UnityEngine::MonoBehaviour {
+  class Parametric3SliceSpriteController : public ::UnityEngine::MonoBehaviour {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -82,9 +82,9 @@ namespace GlobalNamespace {
     // public UnityEngine.Color color
     // Size: 0x10
     // Offset: 0x28
-    UnityEngine::Color color;
+    ::UnityEngine::Color color;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     // public System.Single alphaMultiplier
     // Size: 0x4
     // Offset: 0x38
@@ -115,15 +115,15 @@ namespace GlobalNamespace {
     // private UnityEngine.MeshRenderer _meshRenderer
     // Size: 0x8
     // Offset: 0x48
-    UnityEngine::MeshRenderer* meshRenderer;
+    ::UnityEngine::MeshRenderer* meshRenderer;
     // Field size check
-    static_assert(sizeof(UnityEngine::MeshRenderer*) == 0x8);
+    static_assert(sizeof(::UnityEngine::MeshRenderer*) == 0x8);
     // private UnityEngine.MeshFilter _meshFilter
     // Size: 0x8
     // Offset: 0x50
-    UnityEngine::MeshFilter* meshFilter;
+    ::UnityEngine::MeshFilter* meshFilter;
     // Field size check
-    static_assert(sizeof(UnityEngine::MeshFilter*) == 0x8);
+    static_assert(sizeof(::UnityEngine::MeshFilter*) == 0x8);
     // private System.Boolean _isInitialized
     // Size: 0x1
     // Offset: 0x58
@@ -131,8 +131,8 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     public:
-    // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const noexcept = delete;
+    // Deleting conversion operator: operator ::System::IntPtr
+    constexpr operator ::System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kMaxWidth
     static constexpr const float kMaxWidth = 10;
     // Get static field: static private System.Single kMaxWidth
@@ -166,13 +166,13 @@ namespace GlobalNamespace {
     // Set static field: static private readonly System.Int32 _alphaEndID
     static void _set__alphaEndID(int value);
     // Get static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
-    static UnityEngine::MaterialPropertyBlock* _get__materialPropertyBlock();
+    static ::UnityEngine::MaterialPropertyBlock* _get__materialPropertyBlock();
     // Set static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
-    static void _set__materialPropertyBlock(UnityEngine::MaterialPropertyBlock* value);
+    static void _set__materialPropertyBlock(::UnityEngine::MaterialPropertyBlock* value);
     // Get static field: static private UnityEngine.Mesh _mesh
-    static UnityEngine::Mesh* _get__mesh();
+    static ::UnityEngine::Mesh* _get__mesh();
     // Set static field: static private UnityEngine.Mesh _mesh
-    static void _set__mesh(UnityEngine::Mesh* value);
+    static void _set__mesh(::UnityEngine::Mesh* value);
     // Get static field: static private System.Int32 _instanceCount
     static int _get__instanceCount();
     // Set static field: static private System.Int32 _instanceCount
@@ -186,7 +186,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single center
     float& dyn_center();
     // Get instance field reference: public UnityEngine.Color color
-    UnityEngine::Color& dyn_color();
+    ::UnityEngine::Color& dyn_color();
     // Get instance field reference: public System.Single alphaMultiplier
     float& dyn_alphaMultiplier();
     // Get instance field reference: public System.Single minAlpha
@@ -196,9 +196,9 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single alphaEnd
     float& dyn_alphaEnd();
     // Get instance field reference: private UnityEngine.MeshRenderer _meshRenderer
-    UnityEngine::MeshRenderer*& dyn__meshRenderer();
+    ::UnityEngine::MeshRenderer*& dyn__meshRenderer();
     // Get instance field reference: private UnityEngine.MeshFilter _meshFilter
-    UnityEngine::MeshFilter*& dyn__meshFilter();
+    ::UnityEngine::MeshFilter*& dyn__meshFilter();
     // Get instance field reference: private System.Boolean _isInitialized
     bool& dyn__isInitialized();
     // protected System.Void Awake()
@@ -221,7 +221,7 @@ namespace GlobalNamespace {
     void Init();
     // private UnityEngine.Mesh CreateMesh()
     // Offset: 0x208F390
-    UnityEngine::Mesh* CreateMesh();
+    ::UnityEngine::Mesh* CreateMesh();
     // public System.Void Refresh()
     // Offset: 0x208F950
     void Refresh();
@@ -235,7 +235,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Parametric3SliceSpriteController* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::Parametric3SliceSpriteController::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::Parametric3SliceSpriteController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Parametric3SliceSpriteController*, creationType>()));
     }
     // static private System.Void .cctor()
@@ -300,7 +300,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::Parametric3SliceSpriteController::CreateMesh
 // Il2CppName: CreateMesh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Mesh* (GlobalNamespace::Parametric3SliceSpriteController::*)()>(&GlobalNamespace::Parametric3SliceSpriteController::CreateMesh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Mesh* (GlobalNamespace::Parametric3SliceSpriteController::*)()>(&GlobalNamespace::Parametric3SliceSpriteController::CreateMesh)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::Parametric3SliceSpriteController*), "CreateMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

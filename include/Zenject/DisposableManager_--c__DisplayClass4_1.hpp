@@ -34,8 +34,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::DisposableManager::$$c__DisplayClass4_1);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposableManager::$$c__DisplayClass4_1*, "Zenject", "DisposableManager/<>c__DisplayClass4_1");
+NEED_NO_BOX(::Zenject::DisposableManager::$$c__DisplayClass4_1);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::DisposableManager::$$c__DisplayClass4_1*, "Zenject", "DisposableManager/<>c__DisplayClass4_1");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x18
@@ -57,44 +57,44 @@ namespace Zenject {
     // public Zenject.ILateDisposable lateDisposable
     // Size: 0x8
     // Offset: 0x10
-    Zenject::ILateDisposable* lateDisposable;
+    ::Zenject::ILateDisposable* lateDisposable;
     // Field size check
-    static_assert(sizeof(Zenject::ILateDisposable*) == 0x8);
+    static_assert(sizeof(::Zenject::ILateDisposable*) == 0x8);
     public:
-    // Creating conversion operator: operator Zenject::ILateDisposable*
-    constexpr operator Zenject::ILateDisposable*() const noexcept {
+    // Creating conversion operator: operator ::Zenject::ILateDisposable*
+    constexpr operator ::Zenject::ILateDisposable*() const noexcept {
       return lateDisposable;
     }
     // Get instance field reference: public Zenject.ILateDisposable lateDisposable
-    Zenject::ILateDisposable*& dyn_lateDisposable();
+    ::Zenject::ILateDisposable*& dyn_lateDisposable();
     // System.Boolean <.ctor>b__2(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
     // Offset: 0x1D292C4
-    bool $_ctor$b__2(ModestTree::Util::ValuePair_2<System::Type*, int>* x);
+    bool $_ctor$b__2(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
     // static private System.Object __zenCreate(System.Object[] P_0)
     // Offset: 0x1D2935C
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
     // Offset: 0x1D293B8
-    static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
     // Offset: 0x1D27E50
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DisposableManager::$$c__DisplayClass4_1* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DisposableManager::$$c__DisplayClass4_1::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::DisposableManager::$$c__DisplayClass4_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DisposableManager::$$c__DisplayClass4_1*, creationType>()));
     }
   }; // Zenject.DisposableManager/Zenject.<>c__DisplayClass4_1
   #pragma pack(pop)
-  static check_size<sizeof(DisposableManager::$$c__DisplayClass4_1), 16 + sizeof(Zenject::ILateDisposable*)> __Zenject_DisposableManager_$$c__DisplayClass4_1SizeCheck;
+  static check_size<sizeof(DisposableManager::$$c__DisplayClass4_1), 16 + sizeof(::Zenject::ILateDisposable*)> __Zenject_DisposableManager_$$c__DisplayClass4_1SizeCheck;
   static_assert(sizeof(DisposableManager::$$c__DisplayClass4_1) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::DisposableManager::$$c__DisplayClass4_1::$_ctor$b__2
 // Il2CppName: <.ctor>b__2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::DisposableManager::$$c__DisplayClass4_1::*)(ModestTree::Util::ValuePair_2<System::Type*, int>*)>(&Zenject::DisposableManager::$$c__DisplayClass4_1::$_ctor$b__2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::DisposableManager::$$c__DisplayClass4_1::*)(::ModestTree::Util::ValuePair_2<::System::Type*, int>*)>(&Zenject::DisposableManager::$$c__DisplayClass4_1::$_ctor$b__2)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("ModestTree.Util", "ValuePair`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Type"), ::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DisposableManager::$$c__DisplayClass4_1*), "<.ctor>b__2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -112,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: Zenject::DisposableManager::$$c__DisplayClass4_1::__zenCreateInjectTypeInfo
 // Il2CppName: __zenCreateInjectTypeInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (*)()>(&Zenject::DisposableManager::$$c__DisplayClass4_1::__zenCreateInjectTypeInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&Zenject::DisposableManager::$$c__DisplayClass4_1::__zenCreateInjectTypeInfo)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::DisposableManager::$$c__DisplayClass4_1*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

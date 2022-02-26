@@ -14,8 +14,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::VRControllersRecorderSaveData::Keyframe);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorderSaveData::Keyframe*, "", "VRControllersRecorderSaveData/Keyframe");
+NEED_NO_BOX(::GlobalNamespace::VRControllersRecorderSaveData::Keyframe);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::VRControllersRecorderSaveData::Keyframe*, "", "VRControllersRecorderSaveData/Keyframe");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x1C
@@ -36,9 +36,9 @@ namespace GlobalNamespace {
     // public VRControllersRecorderSaveData/PositionAndRotation[] positionsAndRotations
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<GlobalNamespace::VRControllersRecorderSaveData::PositionAndRotation*> positionsAndRotations;
+    ::ArrayW<::GlobalNamespace::VRControllersRecorderSaveData::PositionAndRotation*> positionsAndRotations;
     // Field size check
-    static_assert(sizeof(::ArrayW<GlobalNamespace::VRControllersRecorderSaveData::PositionAndRotation*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::GlobalNamespace::VRControllersRecorderSaveData::PositionAndRotation*>) == 0x8);
     // public System.Single time
     // Size: 0x4
     // Offset: 0x18
@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public VRControllersRecorderSaveData/PositionAndRotation[] positionsAndRotations
-    ::ArrayW<GlobalNamespace::VRControllersRecorderSaveData::PositionAndRotation*>& dyn_positionsAndRotations();
+    ::ArrayW<::GlobalNamespace::VRControllersRecorderSaveData::PositionAndRotation*>& dyn_positionsAndRotations();
     // Get instance field reference: public System.Single time
     float& dyn_time();
     // public System.Void .ctor()
@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRControllersRecorderSaveData::Keyframe* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::VRControllersRecorderSaveData::Keyframe::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VRControllersRecorderSaveData::Keyframe::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRControllersRecorderSaveData::Keyframe*, creationType>()));
     }
   }; // VRControllersRecorderSaveData/Keyframe

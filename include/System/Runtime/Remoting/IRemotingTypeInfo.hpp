@@ -22,8 +22,8 @@ namespace System::Runtime::Remoting {
   class IRemotingTypeInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Remoting::IRemotingTypeInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::IRemotingTypeInfo*, "System.Runtime.Remoting", "IRemotingTypeInfo");
+NEED_NO_BOX(::System::Runtime::Remoting::IRemotingTypeInfo);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::IRemotingTypeInfo*, "System.Runtime.Remoting", "IRemotingTypeInfo");
 // Type namespace: System.Runtime.Remoting
 namespace System::Runtime::Remoting {
   // Size: 0x10
@@ -38,7 +38,7 @@ namespace System::Runtime::Remoting {
     ::StringW get_TypeName();
     // public System.Boolean CanCastTo(System.Type fromType, System.Object o)
     // Offset: 0xFFFFFFFF
-    bool CanCastTo(System::Type* fromType, ::Il2CppObject* o);
+    bool CanCastTo(::System::Type* fromType, ::Il2CppObject* o);
   }; // System.Runtime.Remoting.IRemotingTypeInfo
   #pragma pack(pop)
 }
@@ -54,7 +54,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Runtime::Remoting::IRemotingTypeInfo::CanCastTo
 // Il2CppName: CanCastTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Remoting::IRemotingTypeInfo::*)(System::Type*, ::Il2CppObject*)>(&System::Runtime::Remoting::IRemotingTypeInfo::CanCastTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Remoting::IRemotingTypeInfo::*)(::System::Type*, ::Il2CppObject*)>(&System::Runtime::Remoting::IRemotingTypeInfo::CanCastTo)> {
   static const MethodInfo* get() {
     static auto* fromType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* o = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;

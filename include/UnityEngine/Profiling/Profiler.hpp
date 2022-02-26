@@ -12,8 +12,8 @@ namespace UnityEngine::Profiling {
   class Profiler;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Profiling::Profiler);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Profiling::Profiler*, "UnityEngine.Profiling", "Profiler");
+NEED_NO_BOX(::UnityEngine::Profiling::Profiler);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Profiling::Profiler*, "UnityEngine.Profiling", "Profiler");
 // Type namespace: UnityEngine.Profiling
 namespace UnityEngine::Profiling {
   // Size: 0x10

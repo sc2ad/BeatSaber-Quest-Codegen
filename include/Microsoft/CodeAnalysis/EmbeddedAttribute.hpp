@@ -18,8 +18,8 @@ namespace Microsoft::CodeAnalysis {
   class EmbeddedAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Microsoft::CodeAnalysis::EmbeddedAttribute);
-DEFINE_IL2CPP_ARG_TYPE(Microsoft::CodeAnalysis::EmbeddedAttribute*, "Microsoft.CodeAnalysis", "EmbeddedAttribute");
+NEED_NO_BOX(::Microsoft::CodeAnalysis::EmbeddedAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::Microsoft::CodeAnalysis::EmbeddedAttribute*, "Microsoft.CodeAnalysis", "EmbeddedAttribute");
 // Type namespace: Microsoft.CodeAnalysis
 namespace Microsoft::CodeAnalysis {
   // Size: 0x10
@@ -28,7 +28,7 @@ namespace Microsoft::CodeAnalysis {
   // [TokenAttribute] Offset: FFFFFFFF
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   // [EmbeddedAttribute] Offset: 1201150
-  class EmbeddedAttribute : public System::Attribute {
+  class EmbeddedAttribute : public ::System::Attribute {
     public:
     // public System.Void .ctor()
     // Offset: 0x181B8D8
@@ -37,7 +37,7 @@ namespace Microsoft::CodeAnalysis {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EmbeddedAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Microsoft::CodeAnalysis::EmbeddedAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Microsoft::CodeAnalysis::EmbeddedAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EmbeddedAttribute*, creationType>()));
     }
   }; // Microsoft.CodeAnalysis.EmbeddedAttribute

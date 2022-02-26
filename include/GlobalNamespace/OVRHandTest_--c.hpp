@@ -15,8 +15,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRHandTest::$$c);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHandTest::$$c*, "", "OVRHandTest/<>c");
+NEED_NO_BOX(::GlobalNamespace::OVRHandTest::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRHandTest::$$c*, "", "OVRHandTest/<>c");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -27,13 +27,13 @@ namespace GlobalNamespace {
   class OVRHandTest::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly OVRHandTest/<>c <>9
-    static GlobalNamespace::OVRHandTest::$$c* _get_$$9();
+    static ::GlobalNamespace::OVRHandTest::$$c* _get_$$9();
     // Set static field: static public readonly OVRHandTest/<>c <>9
-    static void _set_$$9(GlobalNamespace::OVRHandTest::$$c* value);
+    static void _set_$$9(::GlobalNamespace::OVRHandTest::$$c* value);
     // Get static field: static public OVRHandTest/BoolMonitor/BoolGenerator <>9__14_0
-    static GlobalNamespace::OVRHandTest::BoolMonitor::BoolGenerator* _get_$$9__14_0();
+    static ::GlobalNamespace::OVRHandTest::BoolMonitor::BoolGenerator* _get_$$9__14_0();
     // Set static field: static public OVRHandTest/BoolMonitor/BoolGenerator <>9__14_0
-    static void _set_$$9__14_0(GlobalNamespace::OVRHandTest::BoolMonitor::BoolGenerator* value);
+    static void _set_$$9__14_0(::GlobalNamespace::OVRHandTest::BoolMonitor::BoolGenerator* value);
     // static private System.Void .cctor()
     // Offset: 0x1973E14
     static void _cctor();
@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRHandTest::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRHandTest::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRHandTest::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRHandTest::$$c*, creationType>()));
     }
   }; // OVRHandTest/<>c

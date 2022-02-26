@@ -25,8 +25,8 @@ namespace Org::BouncyCastle::Crypto {
   class PbeParametersGenerator;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Crypto::PbeParametersGenerator);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::PbeParametersGenerator*, "Org.BouncyCastle.Crypto", "PbeParametersGenerator");
+NEED_NO_BOX(::Org::BouncyCastle::Crypto::PbeParametersGenerator);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::PbeParametersGenerator*, "Org.BouncyCastle.Crypto", "PbeParametersGenerator");
 // Type namespace: Org.BouncyCastle.Crypto
 namespace Org::BouncyCastle::Crypto {
   // Size: 0x24
@@ -74,13 +74,13 @@ namespace Org::BouncyCastle::Crypto {
     void Init(::ArrayW<uint8_t> password, ::ArrayW<uint8_t> salt, int iterationCount);
     // public Org.BouncyCastle.Crypto.ICipherParameters GenerateDerivedParameters(System.String algorithm, System.Int32 keySize)
     // Offset: 0xFFFFFFFF
-    Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(::StringW algorithm, int keySize);
+    ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(::StringW algorithm, int keySize);
     // public Org.BouncyCastle.Crypto.ICipherParameters GenerateDerivedParameters(System.String algorithm, System.Int32 keySize, System.Int32 ivSize)
     // Offset: 0xFFFFFFFF
-    Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(::StringW algorithm, int keySize, int ivSize);
+    ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(::StringW algorithm, int keySize, int ivSize);
     // public Org.BouncyCastle.Crypto.ICipherParameters GenerateDerivedMacParameters(System.Int32 keySize)
     // Offset: 0xFFFFFFFF
-    Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedMacParameters(int keySize);
+    ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedMacParameters(int keySize);
     // static public System.Byte[] Pkcs5PasswordToBytes(System.Char[] password)
     // Offset: 0x1566C90
     static ::ArrayW<uint8_t> Pkcs5PasswordToBytes(::ArrayW<::Il2CppChar> password);
@@ -93,7 +93,7 @@ namespace Org::BouncyCastle::Crypto {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PbeParametersGenerator* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::PbeParametersGenerator::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::PbeParametersGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PbeParametersGenerator*, creationType>()));
     }
   }; // Org.BouncyCastle.Crypto.PbeParametersGenerator
@@ -116,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::PbeParametersGenerator::GenerateDerivedParameters
 // Il2CppName: GenerateDerivedParameters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::ICipherParameters* (Org::BouncyCastle::Crypto::PbeParametersGenerator::*)(::StringW, int)>(&Org::BouncyCastle::Crypto::PbeParametersGenerator::GenerateDerivedParameters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::ICipherParameters* (Org::BouncyCastle::Crypto::PbeParametersGenerator::*)(::StringW, int)>(&Org::BouncyCastle::Crypto::PbeParametersGenerator::GenerateDerivedParameters)> {
   static const MethodInfo* get() {
     static auto* algorithm = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* keySize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -126,7 +126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::PbeParametersGenerator::GenerateDerivedParameters
 // Il2CppName: GenerateDerivedParameters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::ICipherParameters* (Org::BouncyCastle::Crypto::PbeParametersGenerator::*)(::StringW, int, int)>(&Org::BouncyCastle::Crypto::PbeParametersGenerator::GenerateDerivedParameters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::ICipherParameters* (Org::BouncyCastle::Crypto::PbeParametersGenerator::*)(::StringW, int, int)>(&Org::BouncyCastle::Crypto::PbeParametersGenerator::GenerateDerivedParameters)> {
   static const MethodInfo* get() {
     static auto* algorithm = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* keySize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -137,7 +137,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::PbeParametersGenerator::GenerateDerivedMacParameters
 // Il2CppName: GenerateDerivedMacParameters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::ICipherParameters* (Org::BouncyCastle::Crypto::PbeParametersGenerator::*)(int)>(&Org::BouncyCastle::Crypto::PbeParametersGenerator::GenerateDerivedMacParameters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::ICipherParameters* (Org::BouncyCastle::Crypto::PbeParametersGenerator::*)(int)>(&Org::BouncyCastle::Crypto::PbeParametersGenerator::GenerateDerivedMacParameters)> {
   static const MethodInfo* get() {
     static auto* keySize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::PbeParametersGenerator*), "GenerateDerivedMacParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{keySize});

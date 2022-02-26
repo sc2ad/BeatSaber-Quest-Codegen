@@ -25,8 +25,8 @@ namespace System::Xml::Schema {
   class SchemaBuilder;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Schema::SchemaBuilder);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::SchemaBuilder*, "System.Xml.Schema", "SchemaBuilder");
+NEED_NO_BOX(::System::Xml::Schema::SchemaBuilder);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::SchemaBuilder*, "System.Xml.Schema", "SchemaBuilder");
 // Type namespace: System.Xml.Schema
 namespace System::Xml::Schema {
   // Size: 0x10
@@ -46,7 +46,7 @@ namespace System::Xml::Schema {
     bool IsContentParsed();
     // System.Void ProcessMarkup(System.Xml.XmlNode[] markup)
     // Offset: 0xFFFFFFFF
-    void ProcessMarkup(::ArrayW<System::Xml::XmlNode*> markup);
+    void ProcessMarkup(::ArrayW<::System::Xml::XmlNode*> markup);
     // System.Void ProcessCData(System.String value)
     // Offset: 0xFFFFFFFF
     void ProcessCData(::StringW value);
@@ -62,7 +62,7 @@ namespace System::Xml::Schema {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SchemaBuilder* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Schema::SchemaBuilder::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::SchemaBuilder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SchemaBuilder*, creationType>()));
     }
   }; // System.Xml.Schema.SchemaBuilder
@@ -103,7 +103,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Xml::Schema::SchemaBuilder::ProcessMarkup
 // Il2CppName: ProcessMarkup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::SchemaBuilder::*)(::ArrayW<System::Xml::XmlNode*>)>(&System::Xml::Schema::SchemaBuilder::ProcessMarkup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::SchemaBuilder::*)(::ArrayW<::System::Xml::XmlNode*>)>(&System::Xml::Schema::SchemaBuilder::ProcessMarkup)> {
   static const MethodInfo* get() {
     static auto* markup = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Xml", "XmlNode"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::SchemaBuilder*), "ProcessMarkup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{markup});

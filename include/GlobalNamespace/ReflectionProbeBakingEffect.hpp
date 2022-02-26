@@ -27,8 +27,8 @@ namespace GlobalNamespace {
   class ReflectionProbeBakingEffect;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::ReflectionProbeBakingEffect);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ReflectionProbeBakingEffect*, "", "ReflectionProbeBakingEffect");
+NEED_NO_BOX(::GlobalNamespace::ReflectionProbeBakingEffect);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ReflectionProbeBakingEffect*, "", "ReflectionProbeBakingEffect");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -37,7 +37,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ExecuteAlways] Offset: FFFFFFFF
   // [ImageEffectAllowedInSceneView] Offset: FFFFFFFF
-  class ReflectionProbeBakingEffect : public UnityEngine::MonoBehaviour {
+  class ReflectionProbeBakingEffect : public ::UnityEngine::MonoBehaviour {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -51,17 +51,17 @@ namespace GlobalNamespace {
     // private UnityEngine.Material _material
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::Material* material;
+    ::UnityEngine::Material* material;
     // Field size check
-    static_assert(sizeof(UnityEngine::Material*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Material*) == 0x8);
     public:
-    // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const noexcept = delete;
+    // Deleting conversion operator: operator ::System::IntPtr
+    constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Material _material
-    UnityEngine::Material*& dyn__material();
+    ::UnityEngine::Material*& dyn__material();
     // protected System.Void OnRenderImage(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
     // Offset: 0x2091B3C
-    void OnRenderImage(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest);
+    void OnRenderImage(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
     // public System.Void .ctor()
     // Offset: 0x2091BC0
     // Implemented from: UnityEngine.MonoBehaviour
@@ -72,19 +72,19 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReflectionProbeBakingEffect* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ReflectionProbeBakingEffect::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ReflectionProbeBakingEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReflectionProbeBakingEffect*, creationType>()));
     }
   }; // ReflectionProbeBakingEffect
   #pragma pack(pop)
-  static check_size<sizeof(ReflectionProbeBakingEffect), 24 + sizeof(UnityEngine::Material*)> __GlobalNamespace_ReflectionProbeBakingEffectSizeCheck;
+  static check_size<sizeof(ReflectionProbeBakingEffect), 24 + sizeof(::UnityEngine::Material*)> __GlobalNamespace_ReflectionProbeBakingEffectSizeCheck;
   static_assert(sizeof(ReflectionProbeBakingEffect) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ReflectionProbeBakingEffect::OnRenderImage
 // Il2CppName: OnRenderImage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ReflectionProbeBakingEffect::*)(UnityEngine::RenderTexture*, UnityEngine::RenderTexture*)>(&GlobalNamespace::ReflectionProbeBakingEffect::OnRenderImage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ReflectionProbeBakingEffect::*)(::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*)>(&GlobalNamespace::ReflectionProbeBakingEffect::OnRenderImage)> {
   static const MethodInfo* get() {
     static auto* src = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
     static auto* dest = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;

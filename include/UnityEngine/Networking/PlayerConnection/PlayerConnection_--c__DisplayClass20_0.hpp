@@ -20,8 +20,8 @@ namespace UnityEngine::Networking::PlayerConnection {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Networking::PlayerConnection::PlayerConnection::$$c__DisplayClass20_0);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::PlayerConnection::PlayerConnection::$$c__DisplayClass20_0*, "UnityEngine.Networking.PlayerConnection", "PlayerConnection/<>c__DisplayClass20_0");
+NEED_NO_BOX(::UnityEngine::Networking::PlayerConnection::PlayerConnection::$$c__DisplayClass20_0);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Networking::PlayerConnection::PlayerConnection::$$c__DisplayClass20_0*, "UnityEngine.Networking.PlayerConnection", "PlayerConnection/<>c__DisplayClass20_0");
 // Type namespace: UnityEngine.Networking.PlayerConnection
 namespace UnityEngine::Networking::PlayerConnection {
   // Size: 0x11
@@ -55,14 +55,14 @@ namespace UnityEngine::Networking::PlayerConnection {
     bool& dyn_msgReceived();
     // System.Void <BlockUntilRecvMsg>b__0(UnityEngine.Networking.PlayerConnection.MessageEventArgs args)
     // Offset: 0x203C1B0
-    void $BlockUntilRecvMsg$b__0(UnityEngine::Networking::PlayerConnection::MessageEventArgs* args);
+    void $BlockUntilRecvMsg$b__0(::UnityEngine::Networking::PlayerConnection::MessageEventArgs* args);
     // public System.Void .ctor()
     // Offset: 0x203B834
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerConnection::$$c__DisplayClass20_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Networking::PlayerConnection::PlayerConnection::$$c__DisplayClass20_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Networking::PlayerConnection::PlayerConnection::$$c__DisplayClass20_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerConnection::$$c__DisplayClass20_0*, creationType>()));
     }
   }; // UnityEngine.Networking.PlayerConnection.PlayerConnection/UnityEngine.Networking.PlayerConnection.<>c__DisplayClass20_0
@@ -74,7 +74,7 @@ namespace UnityEngine::Networking::PlayerConnection {
 // Writing MetadataGetter for method: UnityEngine::Networking::PlayerConnection::PlayerConnection::$$c__DisplayClass20_0::$BlockUntilRecvMsg$b__0
 // Il2CppName: <BlockUntilRecvMsg>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::PlayerConnection::PlayerConnection::$$c__DisplayClass20_0::*)(UnityEngine::Networking::PlayerConnection::MessageEventArgs*)>(&UnityEngine::Networking::PlayerConnection::PlayerConnection::$$c__DisplayClass20_0::$BlockUntilRecvMsg$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::PlayerConnection::PlayerConnection::$$c__DisplayClass20_0::*)(::UnityEngine::Networking::PlayerConnection::MessageEventArgs*)>(&UnityEngine::Networking::PlayerConnection::PlayerConnection::$$c__DisplayClass20_0::$BlockUntilRecvMsg$b__0)> {
   static const MethodInfo* get() {
     static auto* args = &::il2cpp_utils::GetClassFromName("UnityEngine.Networking.PlayerConnection", "MessageEventArgs")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::PlayerConnection::PlayerConnection::$$c__DisplayClass20_0*), "<BlockUntilRecvMsg>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{args});

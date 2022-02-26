@@ -19,8 +19,8 @@ namespace UnityEngine::XR::WSA {
   class WorldAnchor;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::XR::WSA::WorldAnchor);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::WSA::WorldAnchor*, "UnityEngine.XR.WSA", "WorldAnchor");
+NEED_NO_BOX(::UnityEngine::XR::WSA::WorldAnchor);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::WSA::WorldAnchor*, "UnityEngine.XR.WSA", "WorldAnchor");
 // Type namespace: UnityEngine.XR.WSA
 namespace UnityEngine::XR::WSA {
   // Size: 0x20
@@ -31,9 +31,9 @@ namespace UnityEngine::XR::WSA {
   // [UsedByNativeCodeAttribute] Offset: 11E467C
   // [MovedFromAttribute] Offset: 11E467C
   // [NativeHeaderAttribute] Offset: 11E467C
-  class WorldAnchor : public UnityEngine::Component {
+  class WorldAnchor : public ::UnityEngine::Component {
     public:
-    // Nested type: UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate
+    // Nested type: ::UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate
     class OnTrackingChangedDelegate;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -48,27 +48,27 @@ namespace UnityEngine::XR::WSA {
     // private UnityEngine.XR.WSA.WorldAnchor/UnityEngine.XR.WSA.OnTrackingChangedDelegate OnTrackingChanged
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate* OnTrackingChanged;
+    ::UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate* OnTrackingChanged;
     // Field size check
-    static_assert(sizeof(UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate*) == 0x8);
+    static_assert(sizeof(::UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate*) == 0x8);
     public:
-    // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const noexcept = delete;
+    // Deleting conversion operator: operator ::System::IntPtr
+    constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.XR.WSA.WorldAnchor/UnityEngine.XR.WSA.OnTrackingChangedDelegate OnTrackingChanged
-    UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate*& dyn_OnTrackingChanged();
+    ::UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate*& dyn_OnTrackingChanged();
     // static private System.Void Internal_TriggerEventOnTrackingLost(UnityEngine.XR.WSA.WorldAnchor worldAnchor, System.Boolean located)
     // Offset: 0x2A5EF48
-    static void Internal_TriggerEventOnTrackingLost(UnityEngine::XR::WSA::WorldAnchor* worldAnchor, bool located);
+    static void Internal_TriggerEventOnTrackingLost(::UnityEngine::XR::WSA::WorldAnchor* worldAnchor, bool located);
   }; // UnityEngine.XR.WSA.WorldAnchor
   #pragma pack(pop)
-  static check_size<sizeof(WorldAnchor), 24 + sizeof(UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate*)> __UnityEngine_XR_WSA_WorldAnchorSizeCheck;
+  static check_size<sizeof(WorldAnchor), 24 + sizeof(::UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate*)> __UnityEngine_XR_WSA_WorldAnchorSizeCheck;
   static_assert(sizeof(WorldAnchor) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::XR::WSA::WorldAnchor::Internal_TriggerEventOnTrackingLost
 // Il2CppName: Internal_TriggerEventOnTrackingLost
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::XR::WSA::WorldAnchor*, bool)>(&UnityEngine::XR::WSA::WorldAnchor::Internal_TriggerEventOnTrackingLost)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::XR::WSA::WorldAnchor*, bool)>(&UnityEngine::XR::WSA::WorldAnchor::Internal_TriggerEventOnTrackingLost)> {
   static const MethodInfo* get() {
     static auto* worldAnchor = &::il2cpp_utils::GetClassFromName("UnityEngine.XR.WSA", "WorldAnchor")->byval_arg;
     static auto* located = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

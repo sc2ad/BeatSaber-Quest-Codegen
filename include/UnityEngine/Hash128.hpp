@@ -23,7 +23,7 @@ namespace UnityEngine {
   struct Hash128;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Hash128, "UnityEngine", "Hash128");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Hash128, "UnityEngine", "Hash128");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -33,7 +33,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [UsedByNativeCodeAttribute] Offset: 11A4F54
   // [NativeHeaderAttribute] Offset: 11A4F54
-  struct Hash128/*, public System::ValueType, public System::IComparable_1<UnityEngine::Hash128>, public System::IEquatable_1<UnityEngine::Hash128>, public System::IComparable*/ {
+  struct Hash128/*, public ::System::ValueType, public ::System::IComparable_1<::UnityEngine::Hash128>, public ::System::IEquatable_1<::UnityEngine::Hash128>, public ::System::IComparable*/ {
     public:
     public:
     // private System.UInt32 m_u32_0
@@ -63,21 +63,21 @@ namespace UnityEngine {
     public:
     // Creating value type constructor for type: Hash128
     constexpr Hash128(uint m_u32_0_ = {}, uint m_u32_1_ = {}, uint m_u32_2_ = {}, uint m_u32_3_ = {}) noexcept : m_u32_0{m_u32_0_}, m_u32_1{m_u32_1_}, m_u32_2{m_u32_2_}, m_u32_3{m_u32_3_} {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
-    // Creating interface conversion operator: operator System::IComparable_1<UnityEngine::Hash128>
-    operator System::IComparable_1<UnityEngine::Hash128>() noexcept {
-      return *reinterpret_cast<System::IComparable_1<UnityEngine::Hash128>*>(this);
+    // Creating interface conversion operator: operator ::System::IComparable_1<::UnityEngine::Hash128>
+    operator ::System::IComparable_1<::UnityEngine::Hash128>() noexcept {
+      return *reinterpret_cast<::System::IComparable_1<::UnityEngine::Hash128>*>(this);
     }
-    // Creating interface conversion operator: operator System::IEquatable_1<UnityEngine::Hash128>
-    operator System::IEquatable_1<UnityEngine::Hash128>() noexcept {
-      return *reinterpret_cast<System::IEquatable_1<UnityEngine::Hash128>*>(this);
+    // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::Hash128>
+    operator ::System::IEquatable_1<::UnityEngine::Hash128>() noexcept {
+      return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::Hash128>*>(this);
     }
-    // Creating interface conversion operator: operator System::IComparable
-    operator System::IComparable() noexcept {
-      return *reinterpret_cast<System::IComparable*>(this);
+    // Creating interface conversion operator: operator ::System::IComparable
+    operator ::System::IComparable() noexcept {
+      return *reinterpret_cast<::System::IComparable*>(this);
     }
     // Get instance field reference: private System.UInt32 m_u32_0
     uint& dyn_m_u32_0();
@@ -92,31 +92,31 @@ namespace UnityEngine {
     bool get_isValid();
     // public System.Int32 CompareTo(UnityEngine.Hash128 rhs)
     // Offset: 0x2028D54
-    int CompareTo(UnityEngine::Hash128 rhs);
+    int CompareTo(::UnityEngine::Hash128 rhs);
     // static public UnityEngine.Hash128 Parse(System.String hashString)
     // Offset: 0x2028EB0
-    static UnityEngine::Hash128 Parse(::StringW hashString);
+    static ::UnityEngine::Hash128 Parse(::StringW hashString);
     // static System.String Internal_Hash128ToString(UnityEngine.Hash128 hash128)
     // Offset: 0x2028E64
-    static ::StringW Internal_Hash128ToString(UnityEngine::Hash128 hash128);
+    static ::StringW Internal_Hash128ToString(::UnityEngine::Hash128 hash128);
     // static public UnityEngine.Hash128 Compute(System.String hashString)
     // Offset: 0x2028F98
-    static UnityEngine::Hash128 Compute(::StringW hashString);
+    static ::UnityEngine::Hash128 Compute(::StringW hashString);
     // public System.Boolean Equals(UnityEngine.Hash128 obj)
     // Offset: 0x2029130
-    bool Equals(UnityEngine::Hash128 obj);
+    bool Equals(::UnityEngine::Hash128 obj);
     // public System.Int32 CompareTo(System.Object obj)
     // Offset: 0x20291DC
     int CompareTo(::Il2CppObject* obj);
     // static private System.Void Parse_Injected(System.String hashString, out UnityEngine.Hash128 ret)
     // Offset: 0x2028F08
-    static void Parse_Injected(::StringW hashString, ByRef<UnityEngine::Hash128> ret);
+    static void Parse_Injected(::StringW hashString, ByRef<::UnityEngine::Hash128> ret);
     // static private System.String Internal_Hash128ToString_Injected(ref UnityEngine.Hash128 hash128)
     // Offset: 0x2028F58
-    static ::StringW Internal_Hash128ToString_Injected(ByRef<UnityEngine::Hash128> hash128);
+    static ::StringW Internal_Hash128ToString_Injected(ByRef<::UnityEngine::Hash128> hash128);
     // static private System.Void Compute_Injected(System.String hashString, out UnityEngine.Hash128 ret)
     // Offset: 0x2028FF0
-    static void Compute_Injected(::StringW hashString, ByRef<UnityEngine::Hash128> ret);
+    static void Compute_Injected(::StringW hashString, ByRef<::UnityEngine::Hash128> ret);
     // public override System.String ToString()
     // Offset: 0x2028E58
     // Implemented from: System.ValueType
@@ -138,13 +138,13 @@ namespace UnityEngine {
   static_assert(sizeof(Hash128) == 0x10);
   // static public System.Boolean op_Equality(UnityEngine.Hash128 hash1, UnityEngine.Hash128 hash2)
   // Offset: 0x20290F4
-  bool operator ==(const UnityEngine::Hash128& hash1, const UnityEngine::Hash128& hash2);
+  bool operator ==(const ::UnityEngine::Hash128& hash1, const ::UnityEngine::Hash128& hash2);
   // static public System.Boolean op_LessThan(UnityEngine.Hash128 x, UnityEngine.Hash128 y)
   // Offset: 0x2028DC0
-  bool operator <(const UnityEngine::Hash128& x, const UnityEngine::Hash128& y);
+  bool operator <(const ::UnityEngine::Hash128& x, const ::UnityEngine::Hash128& y);
   // static public System.Boolean op_GreaterThan(UnityEngine.Hash128 x, UnityEngine.Hash128 y)
   // Offset: 0x2028DF4
-  bool operator >(const UnityEngine::Hash128& x, const UnityEngine::Hash128& y);
+  bool operator >(const ::UnityEngine::Hash128& x, const ::UnityEngine::Hash128& y);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Hash128::get_isValid
@@ -158,7 +158,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::Hash128::CompareTo
 // Il2CppName: CompareTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Hash128::*)(UnityEngine::Hash128)>(&UnityEngine::Hash128::CompareTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Hash128::*)(::UnityEngine::Hash128)>(&UnityEngine::Hash128::CompareTo)> {
   static const MethodInfo* get() {
     static auto* rhs = &::il2cpp_utils::GetClassFromName("UnityEngine", "Hash128")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Hash128), "CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rhs});
@@ -167,7 +167,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::Hash128::Parse
 // Il2CppName: Parse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Hash128 (*)(::StringW)>(&UnityEngine::Hash128::Parse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Hash128 (*)(::StringW)>(&UnityEngine::Hash128::Parse)> {
   static const MethodInfo* get() {
     static auto* hashString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Hash128), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hashString});
@@ -176,7 +176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Hash128::Internal_Hash128ToString
 // Il2CppName: Internal_Hash128ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(UnityEngine::Hash128)>(&UnityEngine::Hash128::Internal_Hash128ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::UnityEngine::Hash128)>(&UnityEngine::Hash128::Internal_Hash128ToString)> {
   static const MethodInfo* get() {
     static auto* hash128 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Hash128")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Hash128), "Internal_Hash128ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hash128});
@@ -185,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: UnityEngine::Hash128::Compute
 // Il2CppName: Compute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Hash128 (*)(::StringW)>(&UnityEngine::Hash128::Compute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Hash128 (*)(::StringW)>(&UnityEngine::Hash128::Compute)> {
   static const MethodInfo* get() {
     static auto* hashString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Hash128), "Compute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hashString});
@@ -194,7 +194,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Hash128::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Hash128::*)(UnityEngine::Hash128)>(&UnityEngine::Hash128::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Hash128::*)(::UnityEngine::Hash128)>(&UnityEngine::Hash128::Equals)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("UnityEngine", "Hash128")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Hash128), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -212,7 +212,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::Hash128::Parse_Injected
 // Il2CppName: Parse_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ByRef<UnityEngine::Hash128>)>(&UnityEngine::Hash128::Parse_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ByRef<::UnityEngine::Hash128>)>(&UnityEngine::Hash128::Parse_Injected)> {
   static const MethodInfo* get() {
     static auto* hashString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Hash128")->this_arg;
@@ -222,7 +222,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::Hash128::Internal_Hash128ToString_Injected
 // Il2CppName: Internal_Hash128ToString_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(ByRef<UnityEngine::Hash128>)>(&UnityEngine::Hash128::Internal_Hash128ToString_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(ByRef<::UnityEngine::Hash128>)>(&UnityEngine::Hash128::Internal_Hash128ToString_Injected)> {
   static const MethodInfo* get() {
     static auto* hash128 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Hash128")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Hash128), "Internal_Hash128ToString_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hash128});
@@ -231,7 +231,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: UnityEngine::Hash128::Compute_Injected
 // Il2CppName: Compute_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ByRef<UnityEngine::Hash128>)>(&UnityEngine::Hash128::Compute_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ByRef<::UnityEngine::Hash128>)>(&UnityEngine::Hash128::Compute_Injected)> {
   static const MethodInfo* get() {
     static auto* hashString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Hash128")->this_arg;

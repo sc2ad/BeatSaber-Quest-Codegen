@@ -20,8 +20,8 @@ namespace UnityEngine {
   class RuntimeInitializeOnLoadMethodAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::RuntimeInitializeOnLoadMethodAttribute);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RuntimeInitializeOnLoadMethodAttribute*, "UnityEngine", "RuntimeInitializeOnLoadMethodAttribute");
+NEED_NO_BOX(::UnityEngine::RuntimeInitializeOnLoadMethodAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::RuntimeInitializeOnLoadMethodAttribute*, "UnityEngine", "RuntimeInitializeOnLoadMethodAttribute");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x14
@@ -30,7 +30,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [RequiredByNativeCodeAttribute] Offset: 11A6038
   // [AttributeUsageAttribute] Offset: 11A6038
-  class RuntimeInitializeOnLoadMethodAttribute : public UnityEngine::Scripting::PreserveAttribute {
+  class RuntimeInitializeOnLoadMethodAttribute : public ::UnityEngine::Scripting::PreserveAttribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -44,24 +44,24 @@ namespace UnityEngine {
     // private UnityEngine.RuntimeInitializeLoadType m_LoadType
     // Size: 0x4
     // Offset: 0x10
-    UnityEngine::RuntimeInitializeLoadType m_LoadType;
+    ::UnityEngine::RuntimeInitializeLoadType m_LoadType;
     // Field size check
-    static_assert(sizeof(UnityEngine::RuntimeInitializeLoadType) == 0x4);
+    static_assert(sizeof(::UnityEngine::RuntimeInitializeLoadType) == 0x4);
     public:
-    // Creating conversion operator: operator UnityEngine::RuntimeInitializeLoadType
-    constexpr operator UnityEngine::RuntimeInitializeLoadType() const noexcept {
+    // Creating conversion operator: operator ::UnityEngine::RuntimeInitializeLoadType
+    constexpr operator ::UnityEngine::RuntimeInitializeLoadType() const noexcept {
       return m_LoadType;
     }
     // Get instance field reference: private UnityEngine.RuntimeInitializeLoadType m_LoadType
-    UnityEngine::RuntimeInitializeLoadType& dyn_m_LoadType();
+    ::UnityEngine::RuntimeInitializeLoadType& dyn_m_LoadType();
     // private System.Void set_loadType(UnityEngine.RuntimeInitializeLoadType value)
     // Offset: 0x20D3370
-    void set_loadType(UnityEngine::RuntimeInitializeLoadType value);
+    void set_loadType(::UnityEngine::RuntimeInitializeLoadType value);
     // public System.Void .ctor(UnityEngine.RuntimeInitializeLoadType loadType)
     // Offset: 0x20D3378
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static RuntimeInitializeOnLoadMethodAttribute* New_ctor(UnityEngine::RuntimeInitializeLoadType loadType) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::RuntimeInitializeOnLoadMethodAttribute::.ctor");
+    static RuntimeInitializeOnLoadMethodAttribute* New_ctor(::UnityEngine::RuntimeInitializeLoadType loadType) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::RuntimeInitializeOnLoadMethodAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeInitializeOnLoadMethodAttribute*, creationType>(loadType)));
     }
     // public System.Void .ctor()
@@ -72,19 +72,19 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RuntimeInitializeOnLoadMethodAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::RuntimeInitializeOnLoadMethodAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::RuntimeInitializeOnLoadMethodAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeInitializeOnLoadMethodAttribute*, creationType>()));
     }
   }; // UnityEngine.RuntimeInitializeOnLoadMethodAttribute
   #pragma pack(pop)
-  static check_size<sizeof(RuntimeInitializeOnLoadMethodAttribute), 16 + sizeof(UnityEngine::RuntimeInitializeLoadType)> __UnityEngine_RuntimeInitializeOnLoadMethodAttributeSizeCheck;
+  static check_size<sizeof(RuntimeInitializeOnLoadMethodAttribute), 16 + sizeof(::UnityEngine::RuntimeInitializeLoadType)> __UnityEngine_RuntimeInitializeOnLoadMethodAttributeSizeCheck;
   static_assert(sizeof(RuntimeInitializeOnLoadMethodAttribute) == 0x14);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::RuntimeInitializeOnLoadMethodAttribute::set_loadType
 // Il2CppName: set_loadType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RuntimeInitializeOnLoadMethodAttribute::*)(UnityEngine::RuntimeInitializeLoadType)>(&UnityEngine::RuntimeInitializeOnLoadMethodAttribute::set_loadType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RuntimeInitializeOnLoadMethodAttribute::*)(::UnityEngine::RuntimeInitializeLoadType)>(&UnityEngine::RuntimeInitializeOnLoadMethodAttribute::set_loadType)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "RuntimeInitializeLoadType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RuntimeInitializeOnLoadMethodAttribute*), "set_loadType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

@@ -40,8 +40,8 @@ namespace Newtonsoft::Json::Serialization {
   class TraceJsonWriter;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Serialization::TraceJsonWriter);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Serialization::TraceJsonWriter*, "Newtonsoft.Json.Serialization", "TraceJsonWriter");
+NEED_NO_BOX(::Newtonsoft::Json::Serialization::TraceJsonWriter);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Serialization::TraceJsonWriter*, "Newtonsoft.Json.Serialization", "TraceJsonWriter");
 // Type namespace: Newtonsoft.Json.Serialization
 namespace Newtonsoft::Json::Serialization {
   // Size: 0x78
@@ -50,7 +50,7 @@ namespace Newtonsoft::Json::Serialization {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NullableContextAttribute] Offset: 1202E8C
   // [NullableAttribute] Offset: 1202E8C
-  class TraceJsonWriter : public Newtonsoft::Json::JsonWriter {
+  class TraceJsonWriter : public ::Newtonsoft::Json::JsonWriter {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -64,33 +64,33 @@ namespace Newtonsoft::Json::Serialization {
     // private readonly Newtonsoft.Json.JsonWriter _innerWriter
     // Size: 0x8
     // Offset: 0x60
-    Newtonsoft::Json::JsonWriter* innerWriter;
+    ::Newtonsoft::Json::JsonWriter* innerWriter;
     // Field size check
-    static_assert(sizeof(Newtonsoft::Json::JsonWriter*) == 0x8);
+    static_assert(sizeof(::Newtonsoft::Json::JsonWriter*) == 0x8);
     // private readonly Newtonsoft.Json.JsonTextWriter _textWriter
     // Size: 0x8
     // Offset: 0x68
-    Newtonsoft::Json::JsonTextWriter* textWriter;
+    ::Newtonsoft::Json::JsonTextWriter* textWriter;
     // Field size check
-    static_assert(sizeof(Newtonsoft::Json::JsonTextWriter*) == 0x8);
+    static_assert(sizeof(::Newtonsoft::Json::JsonTextWriter*) == 0x8);
     // private readonly System.IO.StringWriter _sw
     // Size: 0x8
     // Offset: 0x70
-    System::IO::StringWriter* sw;
+    ::System::IO::StringWriter* sw;
     // Field size check
-    static_assert(sizeof(System::IO::StringWriter*) == 0x8);
+    static_assert(sizeof(::System::IO::StringWriter*) == 0x8);
     public:
     // Get instance field reference: private readonly Newtonsoft.Json.JsonWriter _innerWriter
-    Newtonsoft::Json::JsonWriter*& dyn__innerWriter();
+    ::Newtonsoft::Json::JsonWriter*& dyn__innerWriter();
     // Get instance field reference: private readonly Newtonsoft.Json.JsonTextWriter _textWriter
-    Newtonsoft::Json::JsonTextWriter*& dyn__textWriter();
+    ::Newtonsoft::Json::JsonTextWriter*& dyn__textWriter();
     // Get instance field reference: private readonly System.IO.StringWriter _sw
-    System::IO::StringWriter*& dyn__sw();
+    ::System::IO::StringWriter*& dyn__sw();
     // public System.Void .ctor(Newtonsoft.Json.JsonWriter innerWriter)
     // Offset: 0x19D8040
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TraceJsonWriter* New_ctor(Newtonsoft::Json::JsonWriter* innerWriter) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Serialization::TraceJsonWriter::.ctor");
+    static TraceJsonWriter* New_ctor(::Newtonsoft::Json::JsonWriter* innerWriter) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::TraceJsonWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TraceJsonWriter*, creationType>(innerWriter)));
     }
     // public System.String GetSerializedJsonMessage()
@@ -100,12 +100,12 @@ namespace Newtonsoft::Json::Serialization {
     // Offset: 0x19D8214
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.Decimal value)
-    void WriteValue(System::Decimal value);
+    void WriteValue(::System::Decimal value);
     // public override System.Void WriteValue(System.Nullable`1<System.Decimal> value)
     // Offset: 0x19D828C
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.Nullable`1<System.Decimal> value)
-    void WriteValue(System::Nullable_1<System::Decimal> value);
+    void WriteValue(::System::Nullable_1<::System::Decimal> value);
     // public override System.Void WriteValue(System.Boolean value)
     // Offset: 0x19D8384
     // Implemented from: Newtonsoft.Json.JsonWriter
@@ -115,7 +115,7 @@ namespace Newtonsoft::Json::Serialization {
     // Offset: 0x19D83EC
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.Nullable`1<System.Boolean> value)
-    void WriteValue(System::Nullable_1<bool> value);
+    void WriteValue(::System::Nullable_1<bool> value);
     // public override System.Void WriteValue(System.Byte value)
     // Offset: 0x19D84A8
     // Implemented from: Newtonsoft.Json.JsonWriter
@@ -125,7 +125,7 @@ namespace Newtonsoft::Json::Serialization {
     // Offset: 0x19D850C
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.Nullable`1<System.Byte> value)
-    void WriteValue(System::Nullable_1<uint8_t> value);
+    void WriteValue(::System::Nullable_1<uint8_t> value);
     // public override System.Void WriteValue(System.Char value)
     // Offset: 0x19D85C0
     // Implemented from: Newtonsoft.Json.JsonWriter
@@ -135,7 +135,7 @@ namespace Newtonsoft::Json::Serialization {
     // Offset: 0x19D8624
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.Nullable`1<System.Char> value)
-    void WriteValue(System::Nullable_1<::Il2CppChar> value);
+    void WriteValue(::System::Nullable_1<::Il2CppChar> value);
     // public override System.Void WriteValue(System.Byte[] value)
     // Offset: 0x19D86D8
     // Implemented from: Newtonsoft.Json.JsonWriter
@@ -145,22 +145,22 @@ namespace Newtonsoft::Json::Serialization {
     // Offset: 0x19D8750
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.DateTime value)
-    void WriteValue(System::DateTime value);
+    void WriteValue(::System::DateTime value);
     // public override System.Void WriteValue(System.Nullable`1<System.DateTime> value)
     // Offset: 0x19D87B4
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.Nullable`1<System.DateTime> value)
-    void WriteValue(System::Nullable_1<System::DateTime> value);
+    void WriteValue(::System::Nullable_1<::System::DateTime> value);
     // public override System.Void WriteValue(System.DateTimeOffset value)
     // Offset: 0x19D8870
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.DateTimeOffset value)
-    void WriteValue(System::DateTimeOffset value);
+    void WriteValue(::System::DateTimeOffset value);
     // public override System.Void WriteValue(System.Nullable`1<System.DateTimeOffset> value)
     // Offset: 0x19D88E8
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.Nullable`1<System.DateTimeOffset> value)
-    void WriteValue(System::Nullable_1<System::DateTimeOffset> value);
+    void WriteValue(::System::Nullable_1<::System::DateTimeOffset> value);
     // public override System.Void WriteValue(System.Double value)
     // Offset: 0x19D89E0
     // Implemented from: Newtonsoft.Json.JsonWriter
@@ -170,7 +170,7 @@ namespace Newtonsoft::Json::Serialization {
     // Offset: 0x19D8A4C
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.Nullable`1<System.Double> value)
-    void WriteValue(System::Nullable_1<double> value);
+    void WriteValue(::System::Nullable_1<double> value);
     // public override System.Void WriteUndefined()
     // Offset: 0x19D8B0C
     // Implemented from: Newtonsoft.Json.JsonWriter
@@ -190,17 +190,17 @@ namespace Newtonsoft::Json::Serialization {
     // Offset: 0x19D8C28
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.Nullable`1<System.Single> value)
-    void WriteValue(System::Nullable_1<float> value);
+    void WriteValue(::System::Nullable_1<float> value);
     // public override System.Void WriteValue(System.Guid value)
     // Offset: 0x19D8CDC
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.Guid value)
-    void WriteValue(System::Guid value);
+    void WriteValue(::System::Guid value);
     // public override System.Void WriteValue(System.Nullable`1<System.Guid> value)
     // Offset: 0x19D8D54
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.Nullable`1<System.Guid> value)
-    void WriteValue(System::Nullable_1<System::Guid> value);
+    void WriteValue(::System::Nullable_1<::System::Guid> value);
     // public override System.Void WriteValue(System.Int32 value)
     // Offset: 0x19D8E4C
     // Implemented from: Newtonsoft.Json.JsonWriter
@@ -210,7 +210,7 @@ namespace Newtonsoft::Json::Serialization {
     // Offset: 0x19D8EB0
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.Nullable`1<System.Int32> value)
-    void WriteValue(System::Nullable_1<int> value);
+    void WriteValue(::System::Nullable_1<int> value);
     // public override System.Void WriteValue(System.Int64 value)
     // Offset: 0x19D8F60
     // Implemented from: Newtonsoft.Json.JsonWriter
@@ -220,7 +220,7 @@ namespace Newtonsoft::Json::Serialization {
     // Offset: 0x19D8FC4
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.Nullable`1<System.Int64> value)
-    void WriteValue(System::Nullable_1<int64_t> value);
+    void WriteValue(::System::Nullable_1<int64_t> value);
     // public override System.Void WriteValue(System.Object value)
     // Offset: 0x19D9080
     // Implemented from: Newtonsoft.Json.JsonWriter
@@ -235,7 +235,7 @@ namespace Newtonsoft::Json::Serialization {
     // Offset: 0x19D91C4
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.Nullable`1<System.SByte> value)
-    void WriteValue(System::Nullable_1<int8_t> value);
+    void WriteValue(::System::Nullable_1<int8_t> value);
     // public override System.Void WriteValue(System.Int16 value)
     // Offset: 0x19D9278
     // Implemented from: Newtonsoft.Json.JsonWriter
@@ -245,7 +245,7 @@ namespace Newtonsoft::Json::Serialization {
     // Offset: 0x19D92DC
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.Nullable`1<System.Int16> value)
-    void WriteValue(System::Nullable_1<int16_t> value);
+    void WriteValue(::System::Nullable_1<int16_t> value);
     // public override System.Void WriteValue(System.String value)
     // Offset: 0x19D9390
     // Implemented from: Newtonsoft.Json.JsonWriter
@@ -255,12 +255,12 @@ namespace Newtonsoft::Json::Serialization {
     // Offset: 0x19D93F4
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.TimeSpan value)
-    void WriteValue(System::TimeSpan value);
+    void WriteValue(::System::TimeSpan value);
     // public override System.Void WriteValue(System.Nullable`1<System.TimeSpan> value)
     // Offset: 0x19D9458
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.Nullable`1<System.TimeSpan> value)
-    void WriteValue(System::Nullable_1<System::TimeSpan> value);
+    void WriteValue(::System::Nullable_1<::System::TimeSpan> value);
     // public override System.Void WriteValue(System.UInt32 value)
     // Offset: 0x19D9514
     // Implemented from: Newtonsoft.Json.JsonWriter
@@ -270,7 +270,7 @@ namespace Newtonsoft::Json::Serialization {
     // Offset: 0x19D9578
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.Nullable`1<System.UInt32> value)
-    void WriteValue(System::Nullable_1<uint> value);
+    void WriteValue(::System::Nullable_1<uint> value);
     // public override System.Void WriteValue(System.UInt64 value)
     // Offset: 0x19D9628
     // Implemented from: Newtonsoft.Json.JsonWriter
@@ -280,12 +280,12 @@ namespace Newtonsoft::Json::Serialization {
     // Offset: 0x19D968C
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.Nullable`1<System.UInt64> value)
-    void WriteValue(System::Nullable_1<uint64_t> value);
+    void WriteValue(::System::Nullable_1<uint64_t> value);
     // public override System.Void WriteValue(System.Uri value)
     // Offset: 0x19D9748
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.Uri value)
-    void WriteValue(System::Uri* value);
+    void WriteValue(::System::Uri* value);
     // public override System.Void WriteValue(System.UInt16 value)
     // Offset: 0x19D9828
     // Implemented from: Newtonsoft.Json.JsonWriter
@@ -295,7 +295,7 @@ namespace Newtonsoft::Json::Serialization {
     // Offset: 0x19D988C
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.Nullable`1<System.UInt16> value)
-    void WriteValue(System::Nullable_1<uint16_t> value);
+    void WriteValue(::System::Nullable_1<uint16_t> value);
     // public override System.Void WriteComment(System.String text)
     // Offset: 0x19D9940
     // Implemented from: Newtonsoft.Json.JsonWriter
@@ -358,7 +358,7 @@ namespace Newtonsoft::Json::Serialization {
     void Close();
   }; // Newtonsoft.Json.Serialization.TraceJsonWriter
   #pragma pack(pop)
-  static check_size<sizeof(TraceJsonWriter), 112 + sizeof(System::IO::StringWriter*)> __Newtonsoft_Json_Serialization_TraceJsonWriterSizeCheck;
+  static check_size<sizeof(TraceJsonWriter), 112 + sizeof(::System::IO::StringWriter*)> __Newtonsoft_Json_Serialization_TraceJsonWriterSizeCheck;
   static_assert(sizeof(TraceJsonWriter) == 0x78);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -377,7 +377,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue
 // Il2CppName: WriteValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::TraceJsonWriter::*)(System::Decimal)>(&Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::System::Decimal)>(&Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Decimal")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::TraceJsonWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -386,7 +386,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue
 // Il2CppName: WriteValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::TraceJsonWriter::*)(System::Nullable_1<System::Decimal>)>(&Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::System::Nullable_1<::System::Decimal>)>(&Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Decimal")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::TraceJsonWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -404,7 +404,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue
 // Il2CppName: WriteValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::TraceJsonWriter::*)(System::Nullable_1<bool>)>(&Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::System::Nullable_1<bool>)>(&Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::TraceJsonWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -422,7 +422,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue
 // Il2CppName: WriteValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::TraceJsonWriter::*)(System::Nullable_1<uint8_t>)>(&Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::System::Nullable_1<uint8_t>)>(&Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Byte")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::TraceJsonWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -440,7 +440,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue
 // Il2CppName: WriteValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::TraceJsonWriter::*)(System::Nullable_1<::Il2CppChar>)>(&Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::System::Nullable_1<::Il2CppChar>)>(&Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Char")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::TraceJsonWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -458,7 +458,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue
 // Il2CppName: WriteValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::TraceJsonWriter::*)(System::DateTime)>(&Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::System::DateTime)>(&Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::TraceJsonWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -467,7 +467,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue
 // Il2CppName: WriteValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::TraceJsonWriter::*)(System::Nullable_1<System::DateTime>)>(&Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::System::Nullable_1<::System::DateTime>)>(&Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "DateTime")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::TraceJsonWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -476,7 +476,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue
 // Il2CppName: WriteValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::TraceJsonWriter::*)(System::DateTimeOffset)>(&Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::System::DateTimeOffset)>(&Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "DateTimeOffset")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::TraceJsonWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -485,7 +485,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue
 // Il2CppName: WriteValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::TraceJsonWriter::*)(System::Nullable_1<System::DateTimeOffset>)>(&Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::System::Nullable_1<::System::DateTimeOffset>)>(&Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "DateTimeOffset")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::TraceJsonWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -503,7 +503,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue
 // Il2CppName: WriteValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::TraceJsonWriter::*)(System::Nullable_1<double>)>(&Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::System::Nullable_1<double>)>(&Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Double")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::TraceJsonWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -537,7 +537,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue
 // Il2CppName: WriteValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::TraceJsonWriter::*)(System::Nullable_1<float>)>(&Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::System::Nullable_1<float>)>(&Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::TraceJsonWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -546,7 +546,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue
 // Il2CppName: WriteValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::TraceJsonWriter::*)(System::Guid)>(&Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::System::Guid)>(&Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Guid")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::TraceJsonWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -555,7 +555,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue
 // Il2CppName: WriteValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::TraceJsonWriter::*)(System::Nullable_1<System::Guid>)>(&Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::System::Nullable_1<::System::Guid>)>(&Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Guid")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::TraceJsonWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -573,7 +573,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue
 // Il2CppName: WriteValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::TraceJsonWriter::*)(System::Nullable_1<int>)>(&Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::System::Nullable_1<int>)>(&Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::TraceJsonWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -591,7 +591,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue
 // Il2CppName: WriteValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::TraceJsonWriter::*)(System::Nullable_1<int64_t>)>(&Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::System::Nullable_1<int64_t>)>(&Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int64")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::TraceJsonWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -618,7 +618,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue
 // Il2CppName: WriteValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::TraceJsonWriter::*)(System::Nullable_1<int8_t>)>(&Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::System::Nullable_1<int8_t>)>(&Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "SByte")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::TraceJsonWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -636,7 +636,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue
 // Il2CppName: WriteValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::TraceJsonWriter::*)(System::Nullable_1<int16_t>)>(&Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::System::Nullable_1<int16_t>)>(&Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int16")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::TraceJsonWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -654,7 +654,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue
 // Il2CppName: WriteValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::TraceJsonWriter::*)(System::TimeSpan)>(&Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::System::TimeSpan)>(&Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "TimeSpan")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::TraceJsonWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -663,7 +663,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue
 // Il2CppName: WriteValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::TraceJsonWriter::*)(System::Nullable_1<System::TimeSpan>)>(&Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::System::Nullable_1<::System::TimeSpan>)>(&Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "TimeSpan")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::TraceJsonWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -681,7 +681,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue
 // Il2CppName: WriteValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::TraceJsonWriter::*)(System::Nullable_1<uint>)>(&Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::System::Nullable_1<uint>)>(&Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "UInt32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::TraceJsonWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -699,7 +699,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue
 // Il2CppName: WriteValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::TraceJsonWriter::*)(System::Nullable_1<uint64_t>)>(&Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::System::Nullable_1<uint64_t>)>(&Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "UInt64")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::TraceJsonWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -708,7 +708,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue
 // Il2CppName: WriteValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::TraceJsonWriter::*)(System::Uri*)>(&Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::System::Uri*)>(&Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::TraceJsonWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -726,7 +726,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue
 // Il2CppName: WriteValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::TraceJsonWriter::*)(System::Nullable_1<uint16_t>)>(&Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::System::Nullable_1<uint16_t>)>(&Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "UInt16")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::TraceJsonWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

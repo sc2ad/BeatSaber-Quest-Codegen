@@ -20,8 +20,8 @@ namespace Org::BouncyCastle::Crypto {
   class ISigner;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Crypto::ISigner);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::ISigner*, "Org.BouncyCastle.Crypto", "ISigner");
+NEED_NO_BOX(::Org::BouncyCastle::Crypto::ISigner);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::ISigner*, "Org.BouncyCastle.Crypto", "ISigner");
 // Type namespace: Org.BouncyCastle.Crypto
 namespace Org::BouncyCastle::Crypto {
   // Size: 0x10
@@ -32,7 +32,7 @@ namespace Org::BouncyCastle::Crypto {
     public:
     // public System.Void Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     // Offset: 0xFFFFFFFF
-    void Init(bool forSigning, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+    void Init(bool forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 length)
     // Offset: 0xFFFFFFFF
     void BlockUpdate(::ArrayW<uint8_t> input, int inOff, int length);
@@ -49,7 +49,7 @@ namespace Org::BouncyCastle::Crypto {
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::ISigner::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::ISigner::*)(bool, Org::BouncyCastle::Crypto::ICipherParameters*)>(&Org::BouncyCastle::Crypto::ISigner::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::ISigner::*)(bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(&Org::BouncyCastle::Crypto::ISigner::Init)> {
   static const MethodInfo* get() {
     static auto* forSigning = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* parameters = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Crypto", "ICipherParameters")->byval_arg;

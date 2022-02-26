@@ -14,8 +14,8 @@ namespace Org::BouncyCastle::Utilities::Encoders {
   class Base64;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Utilities::Encoders::Base64);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Encoders::Base64*, "Org.BouncyCastle.Utilities.Encoders", "Base64");
+NEED_NO_BOX(::Org::BouncyCastle::Utilities::Encoders::Base64);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Encoders::Base64*, "Org.BouncyCastle.Utilities.Encoders", "Base64");
 // Type namespace: Org.BouncyCastle.Utilities.Encoders
 namespace Org::BouncyCastle::Utilities::Encoders {
   // Size: 0x10

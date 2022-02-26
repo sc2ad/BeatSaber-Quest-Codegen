@@ -33,8 +33,8 @@ namespace Newtonsoft::Json::Serialization {
   class JsonPrimitiveContract;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Serialization::JsonPrimitiveContract);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Serialization::JsonPrimitiveContract*, "Newtonsoft.Json.Serialization", "JsonPrimitiveContract");
+NEED_NO_BOX(::Newtonsoft::Json::Serialization::JsonPrimitiveContract);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Serialization::JsonPrimitiveContract*, "Newtonsoft.Json.Serialization", "JsonPrimitiveContract");
 // Type namespace: Newtonsoft.Json.Serialization
 namespace Newtonsoft::Json::Serialization {
   // WARNING Size may be invalid!
@@ -42,7 +42,7 @@ namespace Newtonsoft::Json::Serialization {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NullableContextAttribute] Offset: 1202A68
   // [NullableAttribute] Offset: 1202A68
-  class JsonPrimitiveContract : public Newtonsoft::Json::Serialization::JsonContract {
+  class JsonPrimitiveContract : public ::Newtonsoft::Json::Serialization::JsonContract {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -56,26 +56,26 @@ namespace Newtonsoft::Json::Serialization {
     // private Newtonsoft.Json.Utilities.PrimitiveTypeCode <TypeCode>k__BackingField
     // Size: 0x4
     // Offset: 0x8C
-    Newtonsoft::Json::Utilities::PrimitiveTypeCode TypeCode;
+    ::Newtonsoft::Json::Utilities::PrimitiveTypeCode TypeCode;
     // Field size check
-    static_assert(sizeof(Newtonsoft::Json::Utilities::PrimitiveTypeCode) == 0x4);
+    static_assert(sizeof(::Newtonsoft::Json::Utilities::PrimitiveTypeCode) == 0x4);
     public:
-    // Creating conversion operator: operator Newtonsoft::Json::Utilities::PrimitiveTypeCode
-    constexpr operator Newtonsoft::Json::Utilities::PrimitiveTypeCode() const noexcept {
+    // Creating conversion operator: operator ::Newtonsoft::Json::Utilities::PrimitiveTypeCode
+    constexpr operator ::Newtonsoft::Json::Utilities::PrimitiveTypeCode() const noexcept {
       return TypeCode;
     }
     // Get static field: static private readonly System.Collections.Generic.Dictionary`2<System.Type,Newtonsoft.Json.ReadType> ReadTypeMap
-    static System::Collections::Generic::Dictionary_2<System::Type*, Newtonsoft::Json::ReadType>* _get_ReadTypeMap();
+    static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Newtonsoft::Json::ReadType>* _get_ReadTypeMap();
     // Set static field: static private readonly System.Collections.Generic.Dictionary`2<System.Type,Newtonsoft.Json.ReadType> ReadTypeMap
-    static void _set_ReadTypeMap(System::Collections::Generic::Dictionary_2<System::Type*, Newtonsoft::Json::ReadType>* value);
+    static void _set_ReadTypeMap(::System::Collections::Generic::Dictionary_2<::System::Type*, ::Newtonsoft::Json::ReadType>* value);
     // Get instance field reference: private Newtonsoft.Json.Utilities.PrimitiveTypeCode <TypeCode>k__BackingField
-    Newtonsoft::Json::Utilities::PrimitiveTypeCode& dyn_$TypeCode$k__BackingField();
+    ::Newtonsoft::Json::Utilities::PrimitiveTypeCode& dyn_$TypeCode$k__BackingField();
     // Newtonsoft.Json.Utilities.PrimitiveTypeCode get_TypeCode()
     // Offset: 0x153029C
-    Newtonsoft::Json::Utilities::PrimitiveTypeCode get_TypeCode();
+    ::Newtonsoft::Json::Utilities::PrimitiveTypeCode get_TypeCode();
     // System.Void set_TypeCode(Newtonsoft.Json.Utilities.PrimitiveTypeCode value)
     // Offset: 0x15302A4
-    void set_TypeCode(Newtonsoft::Json::Utilities::PrimitiveTypeCode value);
+    void set_TypeCode(::Newtonsoft::Json::Utilities::PrimitiveTypeCode value);
     // static private System.Void .cctor()
     // Offset: 0x15302AC
     static void _cctor();
@@ -84,8 +84,8 @@ namespace Newtonsoft::Json::Serialization {
     // Implemented from: Newtonsoft.Json.Serialization.JsonContract
     // Base method: System.Void JsonContract::.ctor(System.Type underlyingType)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static JsonPrimitiveContract* New_ctor(System::Type* underlyingType) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Serialization::JsonPrimitiveContract::.ctor");
+    static JsonPrimitiveContract* New_ctor(::System::Type* underlyingType) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::JsonPrimitiveContract::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JsonPrimitiveContract*, creationType>(underlyingType)));
     }
   }; // Newtonsoft.Json.Serialization.JsonPrimitiveContract
@@ -95,7 +95,7 @@ namespace Newtonsoft::Json::Serialization {
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::JsonPrimitiveContract::get_TypeCode
 // Il2CppName: get_TypeCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Utilities::PrimitiveTypeCode (Newtonsoft::Json::Serialization::JsonPrimitiveContract::*)()>(&Newtonsoft::Json::Serialization::JsonPrimitiveContract::get_TypeCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Utilities::PrimitiveTypeCode (Newtonsoft::Json::Serialization::JsonPrimitiveContract::*)()>(&Newtonsoft::Json::Serialization::JsonPrimitiveContract::get_TypeCode)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::JsonPrimitiveContract*), "get_TypeCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -103,7 +103,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft:
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::JsonPrimitiveContract::set_TypeCode
 // Il2CppName: set_TypeCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::JsonPrimitiveContract::*)(Newtonsoft::Json::Utilities::PrimitiveTypeCode)>(&Newtonsoft::Json::Serialization::JsonPrimitiveContract::set_TypeCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Serialization::JsonPrimitiveContract::*)(::Newtonsoft::Json::Utilities::PrimitiveTypeCode)>(&Newtonsoft::Json::Serialization::JsonPrimitiveContract::set_TypeCode)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Utilities", "PrimitiveTypeCode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::JsonPrimitiveContract*), "set_TypeCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

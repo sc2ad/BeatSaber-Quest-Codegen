@@ -11,8 +11,8 @@ namespace UnityEngine::Timeline {
   class ITimeControl;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Timeline::ITimeControl);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ITimeControl*, "UnityEngine.Timeline", "ITimeControl");
+NEED_NO_BOX(::UnityEngine::Timeline::ITimeControl);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::ITimeControl*, "UnityEngine.Timeline", "ITimeControl");
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
   // Size: 0x10

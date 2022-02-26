@@ -23,8 +23,8 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   class IEnumerableTestMethodCommand;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "IEnumerableTestMethodCommand");
+NEED_NO_BOX(::UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "IEnumerableTestMethodCommand");
 // Type namespace: UnityEngine.TestRunner.NUnitExtensions.Runner
 namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   // Size: 0x10
@@ -35,7 +35,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     public:
     // public System.Collections.IEnumerable ExecuteEnumerable(NUnit.Framework.Internal.ITestExecutionContext context)
     // Offset: 0xFFFFFFFF
-    System::Collections::IEnumerable* ExecuteEnumerable(NUnit::Framework::Internal::ITestExecutionContext* context);
+    ::System::Collections::IEnumerable* ExecuteEnumerable(::NUnit::Framework::Internal::ITestExecutionContext* context);
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.IEnumerableTestMethodCommand
   #pragma pack(pop)
 }
@@ -43,7 +43,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand::ExecuteEnumerable
 // Il2CppName: ExecuteEnumerable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerable* (UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand::ExecuteEnumerable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerable* (UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand::*)(::NUnit::Framework::Internal::ITestExecutionContext*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand::ExecuteEnumerable)> {
   static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "ITestExecutionContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand*), "ExecuteEnumerable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});

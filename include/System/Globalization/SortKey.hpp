@@ -20,8 +20,8 @@ namespace System::Globalization {
   class SortKey;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Globalization::SortKey);
-DEFINE_IL2CPP_ARG_TYPE(System::Globalization::SortKey*, "System.Globalization", "SortKey");
+NEED_NO_BOX(::System::Globalization::SortKey);
+DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::SortKey*, "System.Globalization", "SortKey");
 // Type namespace: System.Globalization
 namespace System::Globalization {
   // Size: 0x28
@@ -56,9 +56,9 @@ namespace System::Globalization {
     // private readonly System.Globalization.CompareOptions options
     // Size: 0x4
     // Offset: 0x20
-    System::Globalization::CompareOptions options;
+    ::System::Globalization::CompareOptions options;
     // Field size check
-    static_assert(sizeof(System::Globalization::CompareOptions) == 0x4);
+    static_assert(sizeof(::System::Globalization::CompareOptions) == 0x4);
     // private readonly System.Int32 lcid
     // Size: 0x4
     // Offset: 0x24
@@ -71,7 +71,7 @@ namespace System::Globalization {
     // Get instance field reference: private readonly System.Byte[] key
     ::ArrayW<uint8_t>& dyn_key();
     // Get instance field reference: private readonly System.Globalization.CompareOptions options
-    System::Globalization::CompareOptions& dyn_options();
+    ::System::Globalization::CompareOptions& dyn_options();
     // Get instance field reference: private readonly System.Int32 lcid
     int& dyn_lcid();
     // public System.String get_OriginalString()
@@ -83,27 +83,27 @@ namespace System::Globalization {
     // System.Void .ctor(System.Int32 lcid, System.String source, System.Globalization.CompareOptions opt)
     // Offset: 0x20B9EEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SortKey* New_ctor(int lcid, ::StringW source, System::Globalization::CompareOptions opt) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::SortKey::.ctor");
+    static SortKey* New_ctor(int lcid, ::StringW source, ::System::Globalization::CompareOptions opt) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Globalization::SortKey::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SortKey*, creationType>(lcid, source, opt)));
     }
     // System.Void .ctor(System.Int32 lcid, System.String source, System.Byte[] buffer, System.Globalization.CompareOptions opt, System.Int32 lv1Length, System.Int32 lv2Length, System.Int32 lv3Length, System.Int32 kanaSmallLength, System.Int32 markTypeLength, System.Int32 katakanaLength, System.Int32 kanaWidthLength, System.Int32 identLength)
     // Offset: 0x20B9F2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SortKey* New_ctor(int lcid, ::StringW source, ::ArrayW<uint8_t> buffer, System::Globalization::CompareOptions opt, int lv1Length, int lv2Length, int lv3Length, int kanaSmallLength, int markTypeLength, int katakanaLength, int kanaWidthLength, int identLength) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::SortKey::.ctor");
+    static SortKey* New_ctor(int lcid, ::StringW source, ::ArrayW<uint8_t> buffer, ::System::Globalization::CompareOptions opt, int lv1Length, int lv2Length, int lv3Length, int kanaSmallLength, int markTypeLength, int katakanaLength, int kanaWidthLength, int identLength) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Globalization::SortKey::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SortKey*, creationType>(lcid, source, buffer, opt, lv1Length, lv2Length, lv3Length, kanaSmallLength, markTypeLength, katakanaLength, kanaWidthLength, identLength)));
     }
     // static public System.Int32 Compare(System.Globalization.SortKey sortkey1, System.Globalization.SortKey sortkey2)
     // Offset: 0x20B9D5C
-    static int Compare(System::Globalization::SortKey* sortkey1, System::Globalization::SortKey* sortkey2);
+    static int Compare(::System::Globalization::SortKey* sortkey1, ::System::Globalization::SortKey* sortkey2);
     // System.Void .ctor()
     // Offset: 0x20BA29C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SortKey* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::SortKey::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Globalization::SortKey::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SortKey*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object value)
@@ -154,7 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
 // Writing MetadataGetter for method: System::Globalization::SortKey::Compare
 // Il2CppName: Compare
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Globalization::SortKey*, System::Globalization::SortKey*)>(&System::Globalization::SortKey::Compare)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::System::Globalization::SortKey*, ::System::Globalization::SortKey*)>(&System::Globalization::SortKey::Compare)> {
   static const MethodInfo* get() {
     static auto* sortkey1 = &::il2cpp_utils::GetClassFromName("System.Globalization", "SortKey")->byval_arg;
     static auto* sortkey2 = &::il2cpp_utils::GetClassFromName("System.Globalization", "SortKey")->byval_arg;

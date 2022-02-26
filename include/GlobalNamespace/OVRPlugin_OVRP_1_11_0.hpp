@@ -16,8 +16,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRPlugin::OVRP_1_11_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_11_0*, "", "OVRPlugin/OVRP_1_11_0");
+NEED_NO_BOX(::GlobalNamespace::OVRPlugin::OVRP_1_11_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRPlugin::OVRP_1_11_0*, "", "OVRPlugin/OVRP_1_11_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -27,18 +27,18 @@ namespace GlobalNamespace {
   class OVRPlugin::OVRP_1_11_0 : public ::Il2CppObject {
     public:
     // Get static field: static public readonly System.Version version
-    static System::Version* _get_version();
+    static ::System::Version* _get_version();
     // Set static field: static public readonly System.Version version
-    static void _set_version(System::Version* value);
+    static void _set_version(::System::Version* value);
     // static private System.Void .cctor()
     // Offset: 0x1A6FAFC
     static void _cctor();
     // static public OVRPlugin/Bool ovrp_SetDesiredEyeTextureFormat(OVRPlugin/EyeTextureFormat value)
     // Offset: 0x1A6FA08
-    static GlobalNamespace::OVRPlugin::Bool ovrp_SetDesiredEyeTextureFormat(GlobalNamespace::OVRPlugin::EyeTextureFormat value);
+    static ::GlobalNamespace::OVRPlugin::Bool ovrp_SetDesiredEyeTextureFormat(::GlobalNamespace::OVRPlugin::EyeTextureFormat value);
     // static public OVRPlugin/EyeTextureFormat ovrp_GetDesiredEyeTextureFormat()
     // Offset: 0x1A6FA88
-    static GlobalNamespace::OVRPlugin::EyeTextureFormat ovrp_GetDesiredEyeTextureFormat();
+    static ::GlobalNamespace::OVRPlugin::EyeTextureFormat ovrp_GetDesiredEyeTextureFormat();
   }; // OVRPlugin/OVRP_1_11_0
   #pragma pack(pop)
 }
@@ -54,7 +54,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_11_0::ovrp_SetDesiredEyeTextureFormat
 // Il2CppName: ovrp_SetDesiredEyeTextureFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(GlobalNamespace::OVRPlugin::EyeTextureFormat)>(&GlobalNamespace::OVRPlugin::OVRP_1_11_0::ovrp_SetDesiredEyeTextureFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Bool (*)(::GlobalNamespace::OVRPlugin::EyeTextureFormat)>(&GlobalNamespace::OVRPlugin::OVRP_1_11_0::ovrp_SetDesiredEyeTextureFormat)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/EyeTextureFormat")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_11_0*), "ovrp_SetDesiredEyeTextureFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -63,7 +63,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_11_0::ovrp_GetDesiredEyeTextureFormat
 // Il2CppName: ovrp_GetDesiredEyeTextureFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::EyeTextureFormat (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_11_0::ovrp_GetDesiredEyeTextureFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::EyeTextureFormat (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_11_0::ovrp_GetDesiredEyeTextureFormat)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_11_0*), "ovrp_GetDesiredEyeTextureFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

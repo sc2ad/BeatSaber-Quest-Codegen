@@ -21,8 +21,8 @@ namespace GlobalNamespace {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BeatmapLevelsModel::$$c__DisplayClass35_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelsModel::$$c__DisplayClass35_0*, "", "BeatmapLevelsModel/<>c__DisplayClass35_0");
+NEED_NO_BOX(::GlobalNamespace::BeatmapLevelsModel::$$c__DisplayClass35_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapLevelsModel::$$c__DisplayClass35_0*, "", "BeatmapLevelsModel/<>c__DisplayClass35_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -56,14 +56,14 @@ namespace GlobalNamespace {
     ::StringW& dyn_levelId();
     // System.Boolean <GetLevelPreviewForLevelId>b__1(IPreviewBeatmapLevel beatmapLevel)
     // Offset: 0x14C6344
-    bool $GetLevelPreviewForLevelId$b__1(GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel);
+    bool $GetLevelPreviewForLevelId$b__1(::GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel);
     // public System.Void .ctor()
     // Offset: 0x14C5C58
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLevelsModel::$$c__DisplayClass35_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapLevelsModel::$$c__DisplayClass35_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapLevelsModel::$$c__DisplayClass35_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelsModel::$$c__DisplayClass35_0*, creationType>()));
     }
   }; // BeatmapLevelsModel/<>c__DisplayClass35_0
@@ -75,7 +75,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::$$c__DisplayClass35_0::$GetLevelPreviewForLevelId$b__1
 // Il2CppName: <GetLevelPreviewForLevelId>b__1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::BeatmapLevelsModel::$$c__DisplayClass35_0::*)(GlobalNamespace::IPreviewBeatmapLevel*)>(&GlobalNamespace::BeatmapLevelsModel::$$c__DisplayClass35_0::$GetLevelPreviewForLevelId$b__1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::BeatmapLevelsModel::$$c__DisplayClass35_0::*)(::GlobalNamespace::IPreviewBeatmapLevel*)>(&GlobalNamespace::BeatmapLevelsModel::$$c__DisplayClass35_0::$GetLevelPreviewForLevelId$b__1)> {
   static const MethodInfo* get() {
     static auto* beatmapLevel = &::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel::$$c__DisplayClass35_0*), "<GetLevelPreviewForLevelId>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapLevel});

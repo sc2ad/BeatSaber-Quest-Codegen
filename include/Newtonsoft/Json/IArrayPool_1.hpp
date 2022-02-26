@@ -17,7 +17,7 @@ namespace Newtonsoft::Json {
   class IArrayPool_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Newtonsoft::Json::IArrayPool_1, "Newtonsoft.Json", "IArrayPool`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Newtonsoft::Json::IArrayPool_1, "Newtonsoft.Json", "IArrayPool`1");
 // Type namespace: Newtonsoft.Json
 namespace Newtonsoft::Json {
   // WARNING Size may be invalid!
@@ -30,14 +30,14 @@ namespace Newtonsoft::Json {
     // public T[] Rent(System.Int32 minimumLength)
     // Offset: 0xFFFFFFFF
     ::ArrayW<T> Rent(int minimumLength) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::IArrayPool_1::Rent");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::IArrayPool_1::Rent");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Rent", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(minimumLength)})));
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<T>, false>(this, ___internal__method, minimumLength);
     }
     // public System.Void Return(T[] array)
     // Offset: 0xFFFFFFFF
     void Return(::ArrayW<T> array) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::IArrayPool_1::Return");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::IArrayPool_1::Return");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Return", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, array);
     }

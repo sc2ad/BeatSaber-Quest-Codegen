@@ -28,8 +28,8 @@ namespace UnityEngine {
   class GL;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::GL);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GL*, "UnityEngine", "GL");
+NEED_NO_BOX(::UnityEngine::GL);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::GL*, "UnityEngine", "GL");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -63,7 +63,7 @@ namespace UnityEngine {
     static void TexCoord3(float x, float y, float z);
     // static public System.Void TexCoord(UnityEngine.Vector3 v)
     // Offset: 0x1EBC6EC
-    static void TexCoord(UnityEngine::Vector3 v);
+    static void TexCoord(::UnityEngine::Vector3 v);
     // static public System.Void TexCoord2(System.Single x, System.Single y)
     // Offset: 0x1EBC748
     static void TexCoord2(float x, float y);
@@ -87,10 +87,10 @@ namespace UnityEngine {
     static void LoadPixelMatrix(float left, float right, float bottom, float top);
     // static private System.Void GLIssuePluginEvent(System.IntPtr callback, System.Int32 eventID)
     // Offset: 0x1EBCA18
-    static void GLIssuePluginEvent(System::IntPtr callback, int eventID);
+    static void GLIssuePluginEvent(::System::IntPtr callback, int eventID);
     // static public System.Void IssuePluginEvent(System.IntPtr callback, System.Int32 eventID)
     // Offset: 0x1EBCA68
-    static void IssuePluginEvent(System::IntPtr callback, int eventID);
+    static void IssuePluginEvent(::System::IntPtr callback, int eventID);
     // static public System.Void Begin(System.Int32 mode)
     // Offset: 0x1EBCB38
     static void Begin(int mode);
@@ -99,19 +99,19 @@ namespace UnityEngine {
     static void End();
     // static private System.Void GLClear(System.Boolean clearDepth, System.Boolean clearColor, UnityEngine.Color backgroundColor, System.Single depth)
     // Offset: 0x1EBCBAC
-    static void GLClear(bool clearDepth, bool clearColor, UnityEngine::Color backgroundColor, float depth);
+    static void GLClear(bool clearDepth, bool clearColor, ::UnityEngine::Color backgroundColor, float depth);
     // static public System.Void Clear(System.Boolean clearDepth, System.Boolean clearColor, UnityEngine.Color backgroundColor)
     // Offset: 0x1EBCC8C
-    static void Clear(bool clearDepth, bool clearColor, UnityEngine::Color backgroundColor);
+    static void Clear(bool clearDepth, bool clearColor, ::UnityEngine::Color backgroundColor);
     // static public System.Void Viewport(UnityEngine.Rect pixelRect)
     // Offset: 0x1EBCC9C
-    static void Viewport(UnityEngine::Rect pixelRect);
+    static void Viewport(::UnityEngine::Rect pixelRect);
     // static private System.Void GLClear_Injected(System.Boolean clearDepth, System.Boolean clearColor, ref UnityEngine.Color backgroundColor, System.Single depth)
     // Offset: 0x1EBCC24
-    static void GLClear_Injected(bool clearDepth, bool clearColor, ByRef<UnityEngine::Color> backgroundColor, float depth);
+    static void GLClear_Injected(bool clearDepth, bool clearColor, ByRef<::UnityEngine::Color> backgroundColor, float depth);
     // static private System.Void Viewport_Injected(ref UnityEngine.Rect pixelRect)
     // Offset: 0x1EBCCEC
-    static void Viewport_Injected(ByRef<UnityEngine::Rect> pixelRect);
+    static void Viewport_Injected(ByRef<::UnityEngine::Rect> pixelRect);
   }; // UnityEngine.GL
   #pragma pack(pop)
 }
@@ -175,7 +175,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(fl
 // Writing MetadataGetter for method: UnityEngine::GL::TexCoord
 // Il2CppName: TexCoord
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector3)>(&UnityEngine::GL::TexCoord)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Vector3)>(&UnityEngine::GL::TexCoord)> {
   static const MethodInfo* get() {
     static auto* v = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GL*), "TexCoord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{v});
@@ -250,7 +250,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(fl
 // Writing MetadataGetter for method: UnityEngine::GL::GLIssuePluginEvent
 // Il2CppName: GLIssuePluginEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, int)>(&UnityEngine::GL::GLIssuePluginEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, int)>(&UnityEngine::GL::GLIssuePluginEvent)> {
   static const MethodInfo* get() {
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* eventID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -260,7 +260,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::GL::IssuePluginEvent
 // Il2CppName: IssuePluginEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, int)>(&UnityEngine::GL::IssuePluginEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, int)>(&UnityEngine::GL::IssuePluginEvent)> {
   static const MethodInfo* get() {
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* eventID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -287,7 +287,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::GL::GLClear
 // Il2CppName: GLClear
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, bool, UnityEngine::Color, float)>(&UnityEngine::GL::GLClear)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, bool, ::UnityEngine::Color, float)>(&UnityEngine::GL::GLClear)> {
   static const MethodInfo* get() {
     static auto* clearDepth = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* clearColor = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -299,7 +299,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bo
 // Writing MetadataGetter for method: UnityEngine::GL::Clear
 // Il2CppName: Clear
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, bool, UnityEngine::Color)>(&UnityEngine::GL::Clear)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, bool, ::UnityEngine::Color)>(&UnityEngine::GL::Clear)> {
   static const MethodInfo* get() {
     static auto* clearDepth = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* clearColor = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -310,7 +310,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bo
 // Writing MetadataGetter for method: UnityEngine::GL::Viewport
 // Il2CppName: Viewport
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rect)>(&UnityEngine::GL::Viewport)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Rect)>(&UnityEngine::GL::Viewport)> {
   static const MethodInfo* get() {
     static auto* pixelRect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GL*), "Viewport", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pixelRect});
@@ -319,7 +319,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::GL::GLClear_Injected
 // Il2CppName: GLClear_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, bool, ByRef<UnityEngine::Color>, float)>(&UnityEngine::GL::GLClear_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, bool, ByRef<::UnityEngine::Color>, float)>(&UnityEngine::GL::GLClear_Injected)> {
   static const MethodInfo* get() {
     static auto* clearDepth = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* clearColor = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -331,7 +331,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bo
 // Writing MetadataGetter for method: UnityEngine::GL::Viewport_Injected
 // Il2CppName: Viewport_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<UnityEngine::Rect>)>(&UnityEngine::GL::Viewport_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::Rect>)>(&UnityEngine::GL::Viewport_Injected)> {
   static const MethodInfo* get() {
     static auto* pixelRect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GL*), "Viewport_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pixelRect});

@@ -21,8 +21,8 @@ namespace Oculus::Platform::Models {
   class LinkedAccount;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::LinkedAccount);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LinkedAccount*, "Oculus.Platform.Models", "LinkedAccount");
+NEED_NO_BOX(::Oculus::Platform::Models::LinkedAccount);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::LinkedAccount*, "Oculus.Platform.Models", "LinkedAccount");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x28
@@ -49,9 +49,9 @@ namespace Oculus::Platform::Models {
     // public readonly Oculus.Platform.ServiceProvider ServiceProvider
     // Size: 0x4
     // Offset: 0x18
-    Oculus::Platform::ServiceProvider ServiceProvider;
+    ::Oculus::Platform::ServiceProvider ServiceProvider;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::ServiceProvider) == 0x4);
+    static_assert(sizeof(::Oculus::Platform::ServiceProvider) == 0x4);
     // Padding between fields: ServiceProvider and: UserId
     char __padding1[0x4] = {};
     // public readonly System.String UserId
@@ -64,14 +64,14 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.String AccessToken
     ::StringW& dyn_AccessToken();
     // Get instance field reference: public readonly Oculus.Platform.ServiceProvider ServiceProvider
-    Oculus::Platform::ServiceProvider& dyn_ServiceProvider();
+    ::Oculus::Platform::ServiceProvider& dyn_ServiceProvider();
     // Get instance field reference: public readonly System.String UserId
     ::StringW& dyn_UserId();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x196D71C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static LinkedAccount* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::LinkedAccount::.ctor");
+    static LinkedAccount* New_ctor(::System::IntPtr o) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::LinkedAccount::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LinkedAccount*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.LinkedAccount

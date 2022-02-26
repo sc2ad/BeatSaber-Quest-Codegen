@@ -23,8 +23,8 @@ namespace System {
   class ModifierSpec;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::ModifierSpec);
-DEFINE_IL2CPP_ARG_TYPE(System::ModifierSpec*, "System", "ModifierSpec");
+NEED_NO_BOX(::System::ModifierSpec);
+DEFINE_IL2CPP_ARG_TYPE(::System::ModifierSpec*, "System", "ModifierSpec");
 // Type namespace: System
 namespace System {
   // Size: 0x10
@@ -35,10 +35,10 @@ namespace System {
     public:
     // public System.Type Resolve(System.Type type)
     // Offset: 0xFFFFFFFF
-    System::Type* Resolve(System::Type* type);
+    ::System::Type* Resolve(::System::Type* type);
     // public System.Text.StringBuilder Append(System.Text.StringBuilder sb)
     // Offset: 0xFFFFFFFF
-    System::Text::StringBuilder* Append(System::Text::StringBuilder* sb);
+    ::System::Text::StringBuilder* Append(::System::Text::StringBuilder* sb);
   }; // System.ModifierSpec
   #pragma pack(pop)
 }
@@ -46,7 +46,7 @@ namespace System {
 // Writing MetadataGetter for method: System::ModifierSpec::Resolve
 // Il2CppName: Resolve
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::ModifierSpec::*)(System::Type*)>(&System::ModifierSpec::Resolve)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (System::ModifierSpec::*)(::System::Type*)>(&System::ModifierSpec::Resolve)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ModifierSpec*), "Resolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -55,7 +55,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: System::ModifierSpec::Append
 // Il2CppName: Append
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::ModifierSpec::*)(System::Text::StringBuilder*)>(&System::ModifierSpec::Append)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::StringBuilder* (System::ModifierSpec::*)(::System::Text::StringBuilder*)>(&System::ModifierSpec::Append)> {
   static const MethodInfo* get() {
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ModifierSpec*), "Append", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sb});

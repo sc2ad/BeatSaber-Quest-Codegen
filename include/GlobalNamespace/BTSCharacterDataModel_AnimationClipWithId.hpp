@@ -20,8 +20,8 @@ namespace UnityEngine::AddressableAssets {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId*, "", "BTSCharacterDataModel/AnimationClipWithId");
+NEED_NO_BOX(::GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId*, "", "BTSCharacterDataModel/AnimationClipWithId");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -50,32 +50,32 @@ namespace GlobalNamespace {
     // private UnityEngine.AddressableAssets.AssetReference _animationClipAssetReference
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::AddressableAssets::AssetReference* animationClipAssetReference;
+    ::UnityEngine::AddressableAssets::AssetReference* animationClipAssetReference;
     // Field size check
-    static_assert(sizeof(UnityEngine::AddressableAssets::AssetReference*) == 0x8);
+    static_assert(sizeof(::UnityEngine::AddressableAssets::AssetReference*) == 0x8);
     public:
     // Get instance field reference: private System.Int32 _id
     int& dyn__id();
     // Get instance field reference: private UnityEngine.AddressableAssets.AssetReference _animationClipAssetReference
-    UnityEngine::AddressableAssets::AssetReference*& dyn__animationClipAssetReference();
+    ::UnityEngine::AddressableAssets::AssetReference*& dyn__animationClipAssetReference();
     // public System.Int32 get_id()
     // Offset: 0x2B36E18
     int get_id();
     // public UnityEngine.AddressableAssets.AssetReference get_animationClipAssetReference()
     // Offset: 0x2B36E20
-    UnityEngine::AddressableAssets::AssetReference* get_animationClipAssetReference();
+    ::UnityEngine::AddressableAssets::AssetReference* get_animationClipAssetReference();
     // public System.Void .ctor()
     // Offset: 0x2B36E28
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BTSCharacterDataModel::AnimationClipWithId* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BTSCharacterDataModel::AnimationClipWithId*, creationType>()));
     }
   }; // BTSCharacterDataModel/AnimationClipWithId
   #pragma pack(pop)
-  static check_size<sizeof(BTSCharacterDataModel::AnimationClipWithId), 24 + sizeof(UnityEngine::AddressableAssets::AssetReference*)> __GlobalNamespace_BTSCharacterDataModel_AnimationClipWithIdSizeCheck;
+  static check_size<sizeof(BTSCharacterDataModel::AnimationClipWithId), 24 + sizeof(::UnityEngine::AddressableAssets::AssetReference*)> __GlobalNamespace_BTSCharacterDataModel_AnimationClipWithIdSizeCheck;
   static_assert(sizeof(BTSCharacterDataModel::AnimationClipWithId) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -90,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId::get_animationClipAssetReference
 // Il2CppName: get_animationClipAssetReference
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AddressableAssets::AssetReference* (GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId::*)()>(&GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId::get_animationClipAssetReference)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AddressableAssets::AssetReference* (GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId::*)()>(&GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId::get_animationClipAssetReference)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId*), "get_animationClipAssetReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

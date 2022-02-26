@@ -19,8 +19,8 @@ namespace System::Net {
   class HttpVersion;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::HttpVersion);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpVersion*, "System.Net", "HttpVersion");
+NEED_NO_BOX(::System::Net::HttpVersion);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::HttpVersion*, "System.Net", "HttpVersion");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x10
@@ -30,13 +30,13 @@ namespace System::Net {
   class HttpVersion : public ::Il2CppObject {
     public:
     // Get static field: static public readonly System.Version Version10
-    static System::Version* _get_Version10();
+    static ::System::Version* _get_Version10();
     // Set static field: static public readonly System.Version Version10
-    static void _set_Version10(System::Version* value);
+    static void _set_Version10(::System::Version* value);
     // Get static field: static public readonly System.Version Version11
-    static System::Version* _get_Version11();
+    static ::System::Version* _get_Version11();
     // Set static field: static public readonly System.Version Version11
-    static void _set_Version11(System::Version* value);
+    static void _set_Version11(::System::Version* value);
     // static private System.Void .cctor()
     // Offset: 0x175F1EC
     static void _cctor();

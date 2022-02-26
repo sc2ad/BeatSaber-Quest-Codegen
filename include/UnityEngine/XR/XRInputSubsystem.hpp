@@ -32,8 +32,8 @@ namespace UnityEngine::XR {
   class XRInputSubsystem;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::XR::XRInputSubsystem);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRInputSubsystem*, "UnityEngine.XR", "XRInputSubsystem");
+NEED_NO_BOX(::UnityEngine::XR::XRInputSubsystem);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::XRInputSubsystem*, "UnityEngine.XR", "XRInputSubsystem");
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {
   // WARNING Size may be invalid!
@@ -42,7 +42,7 @@ namespace UnityEngine::XR {
   // [NativeConditionalAttribute] Offset: 11CE530
   // [NativeTypeAttribute] Offset: 11CE530
   // [UsedByNativeCodeAttribute] Offset: 11CE530
-  class XRInputSubsystem : public UnityEngine::IntegratedSubsystem_1<UnityEngine::XR::XRInputSubsystemDescriptor*> {
+  class XRInputSubsystem : public ::UnityEngine::IntegratedSubsystem_1<::UnityEngine::XR::XRInputSubsystemDescriptor*> {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -57,27 +57,27 @@ namespace UnityEngine::XR {
     // private System.Action`1<UnityEngine.XR.XRInputSubsystem> trackingOriginUpdated
     // Size: 0x8
     // Offset: 0x20
-    System::Action_1<UnityEngine::XR::XRInputSubsystem*>* trackingOriginUpdated;
+    ::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>* trackingOriginUpdated;
     // Field size check
-    static_assert(sizeof(System::Action_1<UnityEngine::XR::XRInputSubsystem*>*) == 0x8);
+    static_assert(sizeof(::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>*) == 0x8);
     // [DebuggerBrowsableAttribute] Offset: 0x11CEAD0
     // private System.Action`1<UnityEngine.XR.XRInputSubsystem> boundaryChanged
     // Size: 0x8
     // Offset: 0x28
-    System::Action_1<UnityEngine::XR::XRInputSubsystem*>* boundaryChanged;
+    ::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>* boundaryChanged;
     // Field size check
-    static_assert(sizeof(System::Action_1<UnityEngine::XR::XRInputSubsystem*>*) == 0x8);
+    static_assert(sizeof(::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>*) == 0x8);
     public:
     // Get instance field reference: private System.Action`1<UnityEngine.XR.XRInputSubsystem> trackingOriginUpdated
-    System::Action_1<UnityEngine::XR::XRInputSubsystem*>*& dyn_trackingOriginUpdated();
+    ::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>*& dyn_trackingOriginUpdated();
     // Get instance field reference: private System.Action`1<UnityEngine.XR.XRInputSubsystem> boundaryChanged
-    System::Action_1<UnityEngine::XR::XRInputSubsystem*>*& dyn_boundaryChanged();
+    ::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>*& dyn_boundaryChanged();
     // static private System.Void InvokeTrackingOriginUpdatedEvent(System.IntPtr internalPtr)
     // Offset: 0x2A49794
-    static void InvokeTrackingOriginUpdatedEvent(System::IntPtr internalPtr);
+    static void InvokeTrackingOriginUpdatedEvent(::System::IntPtr internalPtr);
     // static private System.Void InvokeBoundaryChangedEvent(System.IntPtr internalPtr)
     // Offset: 0x2A4985C
-    static void InvokeBoundaryChangedEvent(System::IntPtr internalPtr);
+    static void InvokeBoundaryChangedEvent(::System::IntPtr internalPtr);
     // public System.Void .ctor()
     // Offset: 0x2A49924
     // Implemented from: UnityEngine.IntegratedSubsystem`1
@@ -86,7 +86,7 @@ namespace UnityEngine::XR {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XRInputSubsystem* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::XR::XRInputSubsystem::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::XR::XRInputSubsystem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XRInputSubsystem*, creationType>()));
     }
   }; // UnityEngine.XR.XRInputSubsystem
@@ -96,7 +96,7 @@ namespace UnityEngine::XR {
 // Writing MetadataGetter for method: UnityEngine::XR::XRInputSubsystem::InvokeTrackingOriginUpdatedEvent
 // Il2CppName: InvokeTrackingOriginUpdatedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&UnityEngine::XR::XRInputSubsystem::InvokeTrackingOriginUpdatedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&UnityEngine::XR::XRInputSubsystem::InvokeTrackingOriginUpdatedEvent)> {
   static const MethodInfo* get() {
     static auto* internalPtr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRInputSubsystem*), "InvokeTrackingOriginUpdatedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{internalPtr});
@@ -105,7 +105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::XR::XRInputSubsystem::InvokeBoundaryChangedEvent
 // Il2CppName: InvokeBoundaryChangedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&UnityEngine::XR::XRInputSubsystem::InvokeBoundaryChangedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&UnityEngine::XR::XRInputSubsystem::InvokeBoundaryChangedEvent)> {
   static const MethodInfo* get() {
     static auto* internalPtr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRInputSubsystem*), "InvokeBoundaryChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{internalPtr});

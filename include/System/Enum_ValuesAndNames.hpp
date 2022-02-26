@@ -15,8 +15,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Enum::ValuesAndNames);
-DEFINE_IL2CPP_ARG_TYPE(System::Enum::ValuesAndNames*, "System", "Enum/ValuesAndNames");
+NEED_NO_BOX(::System::Enum::ValuesAndNames);
+DEFINE_IL2CPP_ARG_TYPE(::System::Enum::ValuesAndNames*, "System", "Enum/ValuesAndNames");
 // Type namespace: System
 namespace System {
   // Size: 0x20
@@ -55,7 +55,7 @@ namespace System {
     // Offset: 0x1882B10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Enum::ValuesAndNames* New_ctor(::ArrayW<uint64_t> values, ::ArrayW<::StringW> names) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Enum::ValuesAndNames::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Enum::ValuesAndNames::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Enum::ValuesAndNames*, creationType>(values, names)));
     }
   }; // System.Enum/System.ValuesAndNames

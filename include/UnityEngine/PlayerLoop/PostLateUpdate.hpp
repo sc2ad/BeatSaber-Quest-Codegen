@@ -18,7 +18,7 @@ namespace UnityEngine::PlayerLoop {
   struct PostLateUpdate;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PlayerLoop::PostLateUpdate, "UnityEngine.PlayerLoop", "PostLateUpdate");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::PostLateUpdate, "UnityEngine.PlayerLoop", "PostLateUpdate");
 // Type namespace: UnityEngine.PlayerLoop
 namespace UnityEngine::PlayerLoop {
   // Size: 0x0
@@ -28,97 +28,97 @@ namespace UnityEngine::PlayerLoop {
   // [TokenAttribute] Offset: FFFFFFFF
   // [MovedFromAttribute] Offset: 11A74AC
   // [RequiredByNativeCodeAttribute] Offset: 11A74AC
-  struct PostLateUpdate/*, public System::ValueType*/ {
+  struct PostLateUpdate/*, public ::System::ValueType*/ {
     public:
-    // Nested type: UnityEngine::PlayerLoop::PostLateUpdate::PlayerSendFrameStarted
+    // Nested type: ::UnityEngine::PlayerLoop::PostLateUpdate::PlayerSendFrameStarted
     struct PlayerSendFrameStarted;
-    // Nested type: UnityEngine::PlayerLoop::PostLateUpdate::UpdateRectTransform
+    // Nested type: ::UnityEngine::PlayerLoop::PostLateUpdate::UpdateRectTransform
     struct UpdateRectTransform;
-    // Nested type: UnityEngine::PlayerLoop::PostLateUpdate::UpdateCanvasRectTransform
+    // Nested type: ::UnityEngine::PlayerLoop::PostLateUpdate::UpdateCanvasRectTransform
     struct UpdateCanvasRectTransform;
-    // Nested type: UnityEngine::PlayerLoop::PostLateUpdate::PlayerUpdateCanvases
+    // Nested type: ::UnityEngine::PlayerLoop::PostLateUpdate::PlayerUpdateCanvases
     struct PlayerUpdateCanvases;
-    // Nested type: UnityEngine::PlayerLoop::PostLateUpdate::UpdateAudio
+    // Nested type: ::UnityEngine::PlayerLoop::PostLateUpdate::UpdateAudio
     struct UpdateAudio;
-    // Nested type: UnityEngine::PlayerLoop::PostLateUpdate::UpdateVideo
+    // Nested type: ::UnityEngine::PlayerLoop::PostLateUpdate::UpdateVideo
     struct UpdateVideo;
-    // Nested type: UnityEngine::PlayerLoop::PostLateUpdate::DirectorLateUpdate
+    // Nested type: ::UnityEngine::PlayerLoop::PostLateUpdate::DirectorLateUpdate
     struct DirectorLateUpdate;
-    // Nested type: UnityEngine::PlayerLoop::PostLateUpdate::ScriptRunDelayedDynamicFrameRate
+    // Nested type: ::UnityEngine::PlayerLoop::PostLateUpdate::ScriptRunDelayedDynamicFrameRate
     struct ScriptRunDelayedDynamicFrameRate;
-    // Nested type: UnityEngine::PlayerLoop::PostLateUpdate::VFXUpdate
+    // Nested type: ::UnityEngine::PlayerLoop::PostLateUpdate::VFXUpdate
     struct VFXUpdate;
-    // Nested type: UnityEngine::PlayerLoop::PostLateUpdate::ParticleSystemEndUpdateAll
+    // Nested type: ::UnityEngine::PlayerLoop::PostLateUpdate::ParticleSystemEndUpdateAll
     struct ParticleSystemEndUpdateAll;
-    // Nested type: UnityEngine::PlayerLoop::PostLateUpdate::EndGraphicsJobsAfterScriptLateUpdate
+    // Nested type: ::UnityEngine::PlayerLoop::PostLateUpdate::EndGraphicsJobsAfterScriptLateUpdate
     struct EndGraphicsJobsAfterScriptLateUpdate;
-    // Nested type: UnityEngine::PlayerLoop::PostLateUpdate::UpdateSubstance
+    // Nested type: ::UnityEngine::PlayerLoop::PostLateUpdate::UpdateSubstance
     struct UpdateSubstance;
-    // Nested type: UnityEngine::PlayerLoop::PostLateUpdate::UpdateCustomRenderTextures
+    // Nested type: ::UnityEngine::PlayerLoop::PostLateUpdate::UpdateCustomRenderTextures
     struct UpdateCustomRenderTextures;
-    // Nested type: UnityEngine::PlayerLoop::PostLateUpdate::UpdateAllRenderers
+    // Nested type: ::UnityEngine::PlayerLoop::PostLateUpdate::UpdateAllRenderers
     struct UpdateAllRenderers;
-    // Nested type: UnityEngine::PlayerLoop::PostLateUpdate::EnlightenRuntimeUpdate
+    // Nested type: ::UnityEngine::PlayerLoop::PostLateUpdate::EnlightenRuntimeUpdate
     struct EnlightenRuntimeUpdate;
-    // Nested type: UnityEngine::PlayerLoop::PostLateUpdate::UpdateAllSkinnedMeshes
+    // Nested type: ::UnityEngine::PlayerLoop::PostLateUpdate::UpdateAllSkinnedMeshes
     struct UpdateAllSkinnedMeshes;
-    // Nested type: UnityEngine::PlayerLoop::PostLateUpdate::ProcessWebSendMessages
+    // Nested type: ::UnityEngine::PlayerLoop::PostLateUpdate::ProcessWebSendMessages
     struct ProcessWebSendMessages;
-    // Nested type: UnityEngine::PlayerLoop::PostLateUpdate::SortingGroupsUpdate
+    // Nested type: ::UnityEngine::PlayerLoop::PostLateUpdate::SortingGroupsUpdate
     struct SortingGroupsUpdate;
-    // Nested type: UnityEngine::PlayerLoop::PostLateUpdate::UpdateVideoTextures
+    // Nested type: ::UnityEngine::PlayerLoop::PostLateUpdate::UpdateVideoTextures
     struct UpdateVideoTextures;
-    // Nested type: UnityEngine::PlayerLoop::PostLateUpdate::DirectorRenderImage
+    // Nested type: ::UnityEngine::PlayerLoop::PostLateUpdate::DirectorRenderImage
     struct DirectorRenderImage;
-    // Nested type: UnityEngine::PlayerLoop::PostLateUpdate::PlayerEmitCanvasGeometry
+    // Nested type: ::UnityEngine::PlayerLoop::PostLateUpdate::PlayerEmitCanvasGeometry
     struct PlayerEmitCanvasGeometry;
-    // Nested type: UnityEngine::PlayerLoop::PostLateUpdate::FinishFrameRendering
+    // Nested type: ::UnityEngine::PlayerLoop::PostLateUpdate::FinishFrameRendering
     struct FinishFrameRendering;
-    // Nested type: UnityEngine::PlayerLoop::PostLateUpdate::BatchModeUpdate
+    // Nested type: ::UnityEngine::PlayerLoop::PostLateUpdate::BatchModeUpdate
     struct BatchModeUpdate;
-    // Nested type: UnityEngine::PlayerLoop::PostLateUpdate::PlayerSendFrameComplete
+    // Nested type: ::UnityEngine::PlayerLoop::PostLateUpdate::PlayerSendFrameComplete
     struct PlayerSendFrameComplete;
-    // Nested type: UnityEngine::PlayerLoop::PostLateUpdate::UpdateCaptureScreenshot
+    // Nested type: ::UnityEngine::PlayerLoop::PostLateUpdate::UpdateCaptureScreenshot
     struct UpdateCaptureScreenshot;
-    // Nested type: UnityEngine::PlayerLoop::PostLateUpdate::PresentAfterDraw
+    // Nested type: ::UnityEngine::PlayerLoop::PostLateUpdate::PresentAfterDraw
     struct PresentAfterDraw;
-    // Nested type: UnityEngine::PlayerLoop::PostLateUpdate::ClearImmediateRenderers
+    // Nested type: ::UnityEngine::PlayerLoop::PostLateUpdate::ClearImmediateRenderers
     struct ClearImmediateRenderers;
-    // Nested type: UnityEngine::PlayerLoop::PostLateUpdate::XRPostPresent
+    // Nested type: ::UnityEngine::PlayerLoop::PostLateUpdate::XRPostPresent
     struct XRPostPresent;
-    // Nested type: UnityEngine::PlayerLoop::PostLateUpdate::UpdateResolution
+    // Nested type: ::UnityEngine::PlayerLoop::PostLateUpdate::UpdateResolution
     struct UpdateResolution;
-    // Nested type: UnityEngine::PlayerLoop::PostLateUpdate::InputEndFrame
+    // Nested type: ::UnityEngine::PlayerLoop::PostLateUpdate::InputEndFrame
     struct InputEndFrame;
-    // Nested type: UnityEngine::PlayerLoop::PostLateUpdate::GUIClearEvents
+    // Nested type: ::UnityEngine::PlayerLoop::PostLateUpdate::GUIClearEvents
     struct GUIClearEvents;
-    // Nested type: UnityEngine::PlayerLoop::PostLateUpdate::ShaderHandleErrors
+    // Nested type: ::UnityEngine::PlayerLoop::PostLateUpdate::ShaderHandleErrors
     struct ShaderHandleErrors;
-    // Nested type: UnityEngine::PlayerLoop::PostLateUpdate::ResetInputAxis
+    // Nested type: ::UnityEngine::PlayerLoop::PostLateUpdate::ResetInputAxis
     struct ResetInputAxis;
-    // Nested type: UnityEngine::PlayerLoop::PostLateUpdate::ThreadedLoadingDebug
+    // Nested type: ::UnityEngine::PlayerLoop::PostLateUpdate::ThreadedLoadingDebug
     struct ThreadedLoadingDebug;
-    // Nested type: UnityEngine::PlayerLoop::PostLateUpdate::ProfilerSynchronizeStats
+    // Nested type: ::UnityEngine::PlayerLoop::PostLateUpdate::ProfilerSynchronizeStats
     struct ProfilerSynchronizeStats;
-    // Nested type: UnityEngine::PlayerLoop::PostLateUpdate::MemoryFrameMaintenance
+    // Nested type: ::UnityEngine::PlayerLoop::PostLateUpdate::MemoryFrameMaintenance
     struct MemoryFrameMaintenance;
-    // Nested type: UnityEngine::PlayerLoop::PostLateUpdate::ExecuteGameCenterCallbacks
+    // Nested type: ::UnityEngine::PlayerLoop::PostLateUpdate::ExecuteGameCenterCallbacks
     struct ExecuteGameCenterCallbacks;
-    // Nested type: UnityEngine::PlayerLoop::PostLateUpdate::ProfilerEndFrame
+    // Nested type: ::UnityEngine::PlayerLoop::PostLateUpdate::ProfilerEndFrame
     struct ProfilerEndFrame;
-    // Nested type: UnityEngine::PlayerLoop::PostLateUpdate::PlayerSendFramePostPresent
+    // Nested type: ::UnityEngine::PlayerLoop::PostLateUpdate::PlayerSendFramePostPresent
     struct PlayerSendFramePostPresent;
-    // Nested type: UnityEngine::PlayerLoop::PostLateUpdate::PhysicsSkinnedClothBeginUpdate
+    // Nested type: ::UnityEngine::PlayerLoop::PostLateUpdate::PhysicsSkinnedClothBeginUpdate
     struct PhysicsSkinnedClothBeginUpdate;
-    // Nested type: UnityEngine::PlayerLoop::PostLateUpdate::PhysicsSkinnedClothFinishUpdate
+    // Nested type: ::UnityEngine::PlayerLoop::PostLateUpdate::PhysicsSkinnedClothFinishUpdate
     struct PhysicsSkinnedClothFinishUpdate;
-    // Nested type: UnityEngine::PlayerLoop::PostLateUpdate::TriggerEndOfFrameCallbacks
+    // Nested type: ::UnityEngine::PlayerLoop::PostLateUpdate::TriggerEndOfFrameCallbacks
     struct TriggerEndOfFrameCallbacks;
     // Creating value type constructor for type: PostLateUpdate
     constexpr PostLateUpdate() noexcept {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
   }; // UnityEngine.PlayerLoop.PostLateUpdate
   #pragma pack(pop)

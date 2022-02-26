@@ -51,8 +51,8 @@ namespace System::Threading::Tasks {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::IO::Stream::$$c);
-DEFINE_IL2CPP_ARG_TYPE(System::IO::Stream::$$c*, "System.IO", "Stream/<>c");
+NEED_NO_BOX(::System::IO::Stream::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::System::IO::Stream::$$c*, "System.IO", "Stream/<>c");
 // Type namespace: System.IO
 namespace System::IO {
   // Size: 0x10
@@ -63,75 +63,75 @@ namespace System::IO {
   class Stream::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly System.IO.Stream/System.IO.<>c <>9
-    static System::IO::Stream::$$c* _get_$$9();
+    static ::System::IO::Stream::$$c* _get_$$9();
     // Set static field: static public readonly System.IO.Stream/System.IO.<>c <>9
-    static void _set_$$9(System::IO::Stream::$$c* value);
+    static void _set_$$9(::System::IO::Stream::$$c* value);
     // Get static field: static public System.Func`1<System.Threading.SemaphoreSlim> <>9__4_0
-    static System::Func_1<System::Threading::SemaphoreSlim*>* _get_$$9__4_0();
+    static ::System::Func_1<::System::Threading::SemaphoreSlim*>* _get_$$9__4_0();
     // Set static field: static public System.Func`1<System.Threading.SemaphoreSlim> <>9__4_0
-    static void _set_$$9__4_0(System::Func_1<System::Threading::SemaphoreSlim*>* value);
+    static void _set_$$9__4_0(::System::Func_1<::System::Threading::SemaphoreSlim*>* value);
     // Get static field: static public System.Func`2<System.Object,System.Int32> <>9__39_0
-    static System::Func_2<::Il2CppObject*, int>* _get_$$9__39_0();
+    static ::System::Func_2<::Il2CppObject*, int>* _get_$$9__39_0();
     // Set static field: static public System.Func`2<System.Object,System.Int32> <>9__39_0
-    static void _set_$$9__39_0(System::Func_2<::Il2CppObject*, int>* value);
+    static void _set_$$9__39_0(::System::Func_2<::Il2CppObject*, int>* value);
     // Get static field: static public System.Func`5<System.IO.Stream,System.IO.Stream/System.IO.ReadWriteParameters,System.AsyncCallback,System.Object,System.IAsyncResult> <>9__43_0
-    static System::Func_5<System::IO::Stream*, System::IO::Stream::ReadWriteParameters, System::AsyncCallback*, ::Il2CppObject*, System::IAsyncResult*>* _get_$$9__43_0();
+    static ::System::Func_5<::System::IO::Stream*, ::System::IO::Stream::ReadWriteParameters, ::System::AsyncCallback*, ::Il2CppObject*, ::System::IAsyncResult*>* _get_$$9__43_0();
     // Set static field: static public System.Func`5<System.IO.Stream,System.IO.Stream/System.IO.ReadWriteParameters,System.AsyncCallback,System.Object,System.IAsyncResult> <>9__43_0
-    static void _set_$$9__43_0(System::Func_5<System::IO::Stream*, System::IO::Stream::ReadWriteParameters, System::AsyncCallback*, ::Il2CppObject*, System::IAsyncResult*>* value);
+    static void _set_$$9__43_0(::System::Func_5<::System::IO::Stream*, ::System::IO::Stream::ReadWriteParameters, ::System::AsyncCallback*, ::Il2CppObject*, ::System::IAsyncResult*>* value);
     // Get static field: static public System.Func`3<System.IO.Stream,System.IAsyncResult,System.Int32> <>9__43_1
-    static System::Func_3<System::IO::Stream*, System::IAsyncResult*, int>* _get_$$9__43_1();
+    static ::System::Func_3<::System::IO::Stream*, ::System::IAsyncResult*, int>* _get_$$9__43_1();
     // Set static field: static public System.Func`3<System.IO.Stream,System.IAsyncResult,System.Int32> <>9__43_1
-    static void _set_$$9__43_1(System::Func_3<System::IO::Stream*, System::IAsyncResult*, int>* value);
+    static void _set_$$9__43_1(::System::Func_3<::System::IO::Stream*, ::System::IAsyncResult*, int>* value);
     // Get static field: static public System.Func`2<System.Object,System.Int32> <>9__46_0
-    static System::Func_2<::Il2CppObject*, int>* _get_$$9__46_0();
+    static ::System::Func_2<::Il2CppObject*, int>* _get_$$9__46_0();
     // Set static field: static public System.Func`2<System.Object,System.Int32> <>9__46_0
-    static void _set_$$9__46_0(System::Func_2<::Il2CppObject*, int>* value);
+    static void _set_$$9__46_0(::System::Func_2<::Il2CppObject*, int>* value);
     // Get static field: static public System.Action`2<System.Threading.Tasks.Task,System.Object> <>9__47_0
-    static System::Action_2<System::Threading::Tasks::Task*, ::Il2CppObject*>* _get_$$9__47_0();
+    static ::System::Action_2<::System::Threading::Tasks::Task*, ::Il2CppObject*>* _get_$$9__47_0();
     // Set static field: static public System.Action`2<System.Threading.Tasks.Task,System.Object> <>9__47_0
-    static void _set_$$9__47_0(System::Action_2<System::Threading::Tasks::Task*, ::Il2CppObject*>* value);
+    static void _set_$$9__47_0(::System::Action_2<::System::Threading::Tasks::Task*, ::Il2CppObject*>* value);
     // Get static field: static public System.Func`5<System.IO.Stream,System.IO.Stream/System.IO.ReadWriteParameters,System.AsyncCallback,System.Object,System.IAsyncResult> <>9__53_0
-    static System::Func_5<System::IO::Stream*, System::IO::Stream::ReadWriteParameters, System::AsyncCallback*, ::Il2CppObject*, System::IAsyncResult*>* _get_$$9__53_0();
+    static ::System::Func_5<::System::IO::Stream*, ::System::IO::Stream::ReadWriteParameters, ::System::AsyncCallback*, ::Il2CppObject*, ::System::IAsyncResult*>* _get_$$9__53_0();
     // Set static field: static public System.Func`5<System.IO.Stream,System.IO.Stream/System.IO.ReadWriteParameters,System.AsyncCallback,System.Object,System.IAsyncResult> <>9__53_0
-    static void _set_$$9__53_0(System::Func_5<System::IO::Stream*, System::IO::Stream::ReadWriteParameters, System::AsyncCallback*, ::Il2CppObject*, System::IAsyncResult*>* value);
+    static void _set_$$9__53_0(::System::Func_5<::System::IO::Stream*, ::System::IO::Stream::ReadWriteParameters, ::System::AsyncCallback*, ::Il2CppObject*, ::System::IAsyncResult*>* value);
     // Get static field: static public System.Func`3<System.IO.Stream,System.IAsyncResult,System.Threading.Tasks.VoidTaskResult> <>9__53_1
-    static System::Func_3<System::IO::Stream*, System::IAsyncResult*, System::Threading::Tasks::VoidTaskResult>* _get_$$9__53_1();
+    static ::System::Func_3<::System::IO::Stream*, ::System::IAsyncResult*, ::System::Threading::Tasks::VoidTaskResult>* _get_$$9__53_1();
     // Set static field: static public System.Func`3<System.IO.Stream,System.IAsyncResult,System.Threading.Tasks.VoidTaskResult> <>9__53_1
-    static void _set_$$9__53_1(System::Func_3<System::IO::Stream*, System::IAsyncResult*, System::Threading::Tasks::VoidTaskResult>* value);
+    static void _set_$$9__53_1(::System::Func_3<::System::IO::Stream*, ::System::IAsyncResult*, ::System::Threading::Tasks::VoidTaskResult>* value);
     // static private System.Void .cctor()
     // Offset: 0x1A86200
     static void _cctor();
     // System.Threading.SemaphoreSlim <EnsureAsyncActiveSemaphoreInitialized>b__4_0()
     // Offset: 0x1A8626C
-    System::Threading::SemaphoreSlim* $EnsureAsyncActiveSemaphoreInitialized$b__4_0();
+    ::System::Threading::SemaphoreSlim* $EnsureAsyncActiveSemaphoreInitialized$b__4_0();
     // System.Int32 <BeginReadInternal>b__39_0(System.Object <p0>)
     // Offset: 0x1A862D0
     int $BeginReadInternal$b__39_0(::Il2CppObject* $p0$);
     // System.IAsyncResult <BeginEndReadAsync>b__43_0(System.IO.Stream stream, System.IO.Stream/System.IO.ReadWriteParameters args, System.AsyncCallback callback, System.Object state)
     // Offset: 0x1A863C4
-    System::IAsyncResult* $BeginEndReadAsync$b__43_0(System::IO::Stream* stream, System::IO::Stream::ReadWriteParameters args, System::AsyncCallback* callback, ::Il2CppObject* state);
+    ::System::IAsyncResult* $BeginEndReadAsync$b__43_0(::System::IO::Stream* stream, ::System::IO::Stream::ReadWriteParameters args, ::System::AsyncCallback* callback, ::Il2CppObject* state);
     // System.Int32 <BeginEndReadAsync>b__43_1(System.IO.Stream stream, System.IAsyncResult asyncResult)
     // Offset: 0x1A863F8
-    int $BeginEndReadAsync$b__43_1(System::IO::Stream* stream, System::IAsyncResult* asyncResult);
+    int $BeginEndReadAsync$b__43_1(::System::IO::Stream* stream, ::System::IAsyncResult* asyncResult);
     // System.Int32 <BeginWriteInternal>b__46_0(System.Object <p0>)
     // Offset: 0x1A86424
     int $BeginWriteInternal$b__46_0(::Il2CppObject* $p0$);
     // System.Void <RunReadWriteTaskWhenReady>b__47_0(System.Threading.Tasks.Task t, System.Object state)
     // Offset: 0x1A86514
-    void $RunReadWriteTaskWhenReady$b__47_0(System::Threading::Tasks::Task* t, ::Il2CppObject* state);
+    void $RunReadWriteTaskWhenReady$b__47_0(::System::Threading::Tasks::Task* t, ::Il2CppObject* state);
     // System.IAsyncResult <BeginEndWriteAsync>b__53_0(System.IO.Stream stream, System.IO.Stream/System.IO.ReadWriteParameters args, System.AsyncCallback callback, System.Object state)
     // Offset: 0x1A865A4
-    System::IAsyncResult* $BeginEndWriteAsync$b__53_0(System::IO::Stream* stream, System::IO::Stream::ReadWriteParameters args, System::AsyncCallback* callback, ::Il2CppObject* state);
+    ::System::IAsyncResult* $BeginEndWriteAsync$b__53_0(::System::IO::Stream* stream, ::System::IO::Stream::ReadWriteParameters args, ::System::AsyncCallback* callback, ::Il2CppObject* state);
     // System.Threading.Tasks.VoidTaskResult <BeginEndWriteAsync>b__53_1(System.IO.Stream stream, System.IAsyncResult asyncResult)
     // Offset: 0x1A865D8
-    System::Threading::Tasks::VoidTaskResult $BeginEndWriteAsync$b__53_1(System::IO::Stream* stream, System::IAsyncResult* asyncResult);
+    ::System::Threading::Tasks::VoidTaskResult $BeginEndWriteAsync$b__53_1(::System::IO::Stream* stream, ::System::IAsyncResult* asyncResult);
     // public System.Void .ctor()
     // Offset: 0x1A86264
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Stream::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::Stream::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::IO::Stream::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Stream::$$c*, creationType>()));
     }
   }; // System.IO.Stream/System.IO.<>c
@@ -149,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::IO::Stream::$$c::$EnsureAsyncActiveSemaphoreInitialized$b__4_0
 // Il2CppName: <EnsureAsyncActiveSemaphoreInitialized>b__4_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::SemaphoreSlim* (System::IO::Stream::$$c::*)()>(&System::IO::Stream::$$c::$EnsureAsyncActiveSemaphoreInitialized$b__4_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::SemaphoreSlim* (System::IO::Stream::$$c::*)()>(&System::IO::Stream::$$c::$EnsureAsyncActiveSemaphoreInitialized$b__4_0)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::IO::Stream::$$c*), "<EnsureAsyncActiveSemaphoreInitialized>b__4_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -166,7 +166,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::IO::Stream::$$c::$BeginEndReadAsync$b__43_0
 // Il2CppName: <BeginEndReadAsync>b__43_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::IO::Stream::$$c::*)(System::IO::Stream*, System::IO::Stream::ReadWriteParameters, System::AsyncCallback*, ::Il2CppObject*)>(&System::IO::Stream::$$c::$BeginEndReadAsync$b__43_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (System::IO::Stream::$$c::*)(::System::IO::Stream*, ::System::IO::Stream::ReadWriteParameters, ::System::AsyncCallback*, ::Il2CppObject*)>(&System::IO::Stream::$$c::$BeginEndReadAsync$b__43_0)> {
   static const MethodInfo* get() {
     static auto* stream = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
     static auto* args = &::il2cpp_utils::GetClassFromName("System.IO", "Stream/ReadWriteParameters")->byval_arg;
@@ -178,7 +178,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Writing MetadataGetter for method: System::IO::Stream::$$c::$BeginEndReadAsync$b__43_1
 // Il2CppName: <BeginEndReadAsync>b__43_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::Stream::$$c::*)(System::IO::Stream*, System::IAsyncResult*)>(&System::IO::Stream::$$c::$BeginEndReadAsync$b__43_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::Stream::$$c::*)(::System::IO::Stream*, ::System::IAsyncResult*)>(&System::IO::Stream::$$c::$BeginEndReadAsync$b__43_1)> {
   static const MethodInfo* get() {
     static auto* stream = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
     static auto* asyncResult = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
@@ -197,7 +197,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::IO::Stream::$$c::$RunReadWriteTaskWhenReady$b__47_0
 // Il2CppName: <RunReadWriteTaskWhenReady>b__47_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Stream::$$c::*)(System::Threading::Tasks::Task*, ::Il2CppObject*)>(&System::IO::Stream::$$c::$RunReadWriteTaskWhenReady$b__47_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Stream::$$c::*)(::System::Threading::Tasks::Task*, ::Il2CppObject*)>(&System::IO::Stream::$$c::$RunReadWriteTaskWhenReady$b__47_0)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")->byval_arg;
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -207,7 +207,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::Stream::$$c::$BeginEndWriteAsync$b__53_0
 // Il2CppName: <BeginEndWriteAsync>b__53_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::IO::Stream::$$c::*)(System::IO::Stream*, System::IO::Stream::ReadWriteParameters, System::AsyncCallback*, ::Il2CppObject*)>(&System::IO::Stream::$$c::$BeginEndWriteAsync$b__53_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (System::IO::Stream::$$c::*)(::System::IO::Stream*, ::System::IO::Stream::ReadWriteParameters, ::System::AsyncCallback*, ::Il2CppObject*)>(&System::IO::Stream::$$c::$BeginEndWriteAsync$b__53_0)> {
   static const MethodInfo* get() {
     static auto* stream = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
     static auto* args = &::il2cpp_utils::GetClassFromName("System.IO", "Stream/ReadWriteParameters")->byval_arg;
@@ -219,7 +219,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Writing MetadataGetter for method: System::IO::Stream::$$c::$BeginEndWriteAsync$b__53_1
 // Il2CppName: <BeginEndWriteAsync>b__53_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::VoidTaskResult (System::IO::Stream::$$c::*)(System::IO::Stream*, System::IAsyncResult*)>(&System::IO::Stream::$$c::$BeginEndWriteAsync$b__53_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::VoidTaskResult (System::IO::Stream::$$c::*)(::System::IO::Stream*, ::System::IAsyncResult*)>(&System::IO::Stream::$$c::$BeginEndWriteAsync$b__53_1)> {
   static const MethodInfo* get() {
     static auto* stream = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
     static auto* asyncResult = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;

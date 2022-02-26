@@ -17,8 +17,8 @@ namespace System::Globalization {
   class Bootstring;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Globalization::Bootstring);
-DEFINE_IL2CPP_ARG_TYPE(System::Globalization::Bootstring*, "System.Globalization", "Bootstring");
+NEED_NO_BOX(::System::Globalization::Bootstring);
+DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::Bootstring*, "System.Globalization", "Bootstring");
 // Type namespace: System.Globalization
 namespace System::Globalization {
   // Size: 0x30
@@ -107,7 +107,7 @@ namespace System::Globalization {
     // Offset: 0x188A588
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Bootstring* New_ctor(::Il2CppChar delimiter, int baseNum, int tmin, int tmax, int skew, int damp, int initialBias, int initialN) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::Bootstring::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Globalization::Bootstring::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Bootstring*, creationType>(delimiter, baseNum, tmin, tmax, skew, damp, initialBias, initialN)));
     }
     // public System.String Encode(System.String s, System.Int32 offset)

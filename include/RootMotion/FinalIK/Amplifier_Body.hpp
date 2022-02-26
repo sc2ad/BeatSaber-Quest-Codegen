@@ -28,8 +28,8 @@ namespace UnityEngine {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::Amplifier::Body);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Amplifier::Body*, "RootMotion.FinalIK", "Amplifier/Body");
+NEED_NO_BOX(::RootMotion::FinalIK::Amplifier::Body);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::Amplifier::Body*, "RootMotion.FinalIK", "Amplifier/Body");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x4D
@@ -38,7 +38,7 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class Amplifier::Body : public ::Il2CppObject {
     public:
-    // Nested type: RootMotion::FinalIK::Amplifier::Body::EffectorLink
+    // Nested type: ::RootMotion::FinalIK::Amplifier::Body::EffectorLink
     class EffectorLink;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -53,23 +53,23 @@ namespace RootMotion::FinalIK {
     // public UnityEngine.Transform transform
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::Transform* transform;
+    ::UnityEngine::Transform* transform;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // [TooltipAttribute] Offset: 0x1268D58
     // public UnityEngine.Transform relativeTo
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::Transform* relativeTo;
+    ::UnityEngine::Transform* relativeTo;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // [TooltipAttribute] Offset: 0x1268D90
     // public RootMotion.FinalIK.Amplifier/RootMotion.FinalIK.Body/RootMotion.FinalIK.EffectorLink[] effectorLinks
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayW<RootMotion::FinalIK::Amplifier::Body::EffectorLink*> effectorLinks;
+    ::ArrayW<::RootMotion::FinalIK::Amplifier::Body::EffectorLink*> effectorLinks;
     // Field size check
-    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::Amplifier::Body::EffectorLink*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::RootMotion::FinalIK::Amplifier::Body::EffectorLink*>) == 0x8);
     // [TooltipAttribute] Offset: 0x1268DC8
     // public System.Single verticalWeight
     // Size: 0x4
@@ -94,15 +94,15 @@ namespace RootMotion::FinalIK {
     // private UnityEngine.Vector3 lastRelativePos
     // Size: 0xC
     // Offset: 0x34
-    UnityEngine::Vector3 lastRelativePos;
+    ::UnityEngine::Vector3 lastRelativePos;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // private UnityEngine.Vector3 smoothDelta
     // Size: 0xC
     // Offset: 0x40
-    UnityEngine::Vector3 smoothDelta;
+    ::UnityEngine::Vector3 smoothDelta;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // private System.Boolean firstUpdate
     // Size: 0x1
     // Offset: 0x4C
@@ -111,11 +111,11 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: public UnityEngine.Transform transform
-    UnityEngine::Transform*& dyn_transform();
+    ::UnityEngine::Transform*& dyn_transform();
     // Get instance field reference: public UnityEngine.Transform relativeTo
-    UnityEngine::Transform*& dyn_relativeTo();
+    ::UnityEngine::Transform*& dyn_relativeTo();
     // Get instance field reference: public RootMotion.FinalIK.Amplifier/RootMotion.FinalIK.Body/RootMotion.FinalIK.EffectorLink[] effectorLinks
-    ::ArrayW<RootMotion::FinalIK::Amplifier::Body::EffectorLink*>& dyn_effectorLinks();
+    ::ArrayW<::RootMotion::FinalIK::Amplifier::Body::EffectorLink*>& dyn_effectorLinks();
     // Get instance field reference: public System.Single verticalWeight
     float& dyn_verticalWeight();
     // Get instance field reference: public System.Single horizontalWeight
@@ -123,24 +123,24 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Single speed
     float& dyn_speed();
     // Get instance field reference: private UnityEngine.Vector3 lastRelativePos
-    UnityEngine::Vector3& dyn_lastRelativePos();
+    ::UnityEngine::Vector3& dyn_lastRelativePos();
     // Get instance field reference: private UnityEngine.Vector3 smoothDelta
-    UnityEngine::Vector3& dyn_smoothDelta();
+    ::UnityEngine::Vector3& dyn_smoothDelta();
     // Get instance field reference: private System.Boolean firstUpdate
     bool& dyn_firstUpdate();
     // public System.Void Update(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single w, System.Single deltaTime)
     // Offset: 0x2229348
-    void Update(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float w, float deltaTime);
+    void Update(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float w, float deltaTime);
     // static private UnityEngine.Vector3 Multiply(UnityEngine.Vector3 v1, UnityEngine.Vector3 v2)
     // Offset: 0x22297B4
-    static UnityEngine::Vector3 Multiply(UnityEngine::Vector3 v1, UnityEngine::Vector3 v2);
+    static ::UnityEngine::Vector3 Multiply(::UnityEngine::Vector3 v1, ::UnityEngine::Vector3 v2);
     // public System.Void .ctor()
     // Offset: 0x22297C4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Amplifier::Body* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::Amplifier::Body::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::Amplifier::Body::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Amplifier::Body*, creationType>()));
     }
   }; // RootMotion.FinalIK.Amplifier/RootMotion.FinalIK.Body
@@ -152,7 +152,7 @@ namespace RootMotion::FinalIK {
 // Writing MetadataGetter for method: RootMotion::FinalIK::Amplifier::Body::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Amplifier::Body::*)(RootMotion::FinalIK::IKSolverFullBodyBiped*, float, float)>(&RootMotion::FinalIK::Amplifier::Body::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Amplifier::Body::*)(::RootMotion::FinalIK::IKSolverFullBodyBiped*, float, float)>(&RootMotion::FinalIK::Amplifier::Body::Update)> {
   static const MethodInfo* get() {
     static auto* solver = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverFullBodyBiped")->byval_arg;
     static auto* w = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -163,7 +163,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::Amplifier::Body::Multiply
 // Il2CppName: Multiply
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&RootMotion::FinalIK::Amplifier::Body::Multiply)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&RootMotion::FinalIK::Amplifier::Body::Multiply)> {
   static const MethodInfo* get() {
     static auto* v1 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* v2 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;

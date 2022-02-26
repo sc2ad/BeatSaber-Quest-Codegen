@@ -20,8 +20,8 @@ namespace UnityEngine {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController*, "", "SongPreviewPlayer/AudioSourceVolumeController");
+NEED_NO_BOX(::GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController*, "", "SongPreviewPlayer/AudioSourceVolumeController");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -42,9 +42,9 @@ namespace GlobalNamespace {
     // public readonly UnityEngine.AudioSource audioSource
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::AudioSource* audioSource;
+    ::UnityEngine::AudioSource* audioSource;
     // Field size check
-    static_assert(sizeof(UnityEngine::AudioSource*) == 0x8);
+    static_assert(sizeof(::UnityEngine::AudioSource*) == 0x8);
     // private System.Single <maxVolume>k__BackingField
     // Size: 0x4
     // Offset: 0x18
@@ -59,7 +59,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: public readonly UnityEngine.AudioSource audioSource
-    UnityEngine::AudioSource*& dyn_audioSource();
+    ::UnityEngine::AudioSource*& dyn_audioSource();
     // Get instance field reference: private System.Single <maxVolume>k__BackingField
     float& dyn_$maxVolume$k__BackingField();
     // Get instance field reference: private System.Single _volume
@@ -79,8 +79,8 @@ namespace GlobalNamespace {
     // public System.Void .ctor(UnityEngine.AudioSource audioSource)
     // Offset: 0x13D2C7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SongPreviewPlayer::AudioSourceVolumeController* New_ctor(UnityEngine::AudioSource* audioSource) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::.ctor");
+    static SongPreviewPlayer::AudioSourceVolumeController* New_ctor(::UnityEngine::AudioSource* audioSource) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SongPreviewPlayer::AudioSourceVolumeController*, creationType>(audioSource)));
     }
   }; // SongPreviewPlayer/AudioSourceVolumeController

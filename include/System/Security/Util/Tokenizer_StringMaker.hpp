@@ -22,8 +22,8 @@ namespace System::Text {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Security::Util::Tokenizer::StringMaker);
-DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::Tokenizer::StringMaker*, "System.Security.Util", "Tokenizer/StringMaker");
+NEED_NO_BOX(::System::Security::Util::Tokenizer::StringMaker);
+DEFINE_IL2CPP_ARG_TYPE(::System::Security::Util::Tokenizer::StringMaker*, "System.Security.Util", "Tokenizer/StringMaker");
 // Type namespace: System.Security.Util
 namespace System::Security::Util {
   // Size: 0x34
@@ -62,9 +62,9 @@ namespace System::Security::Util {
     // public System.Text.StringBuilder _outStringBuilder
     // Size: 0x8
     // Offset: 0x20
-    System::Text::StringBuilder* outStringBuilder;
+    ::System::Text::StringBuilder* outStringBuilder;
     // Field size check
-    static_assert(sizeof(System::Text::StringBuilder*) == 0x8);
+    static_assert(sizeof(::System::Text::StringBuilder*) == 0x8);
     // public System.Char[] _outChars
     // Size: 0x8
     // Offset: 0x28
@@ -85,7 +85,7 @@ namespace System::Security::Util {
     // Get instance field reference: private System.UInt32 cStringsUsed
     uint& dyn_cStringsUsed();
     // Get instance field reference: public System.Text.StringBuilder _outStringBuilder
-    System::Text::StringBuilder*& dyn__outStringBuilder();
+    ::System::Text::StringBuilder*& dyn__outStringBuilder();
     // Get instance field reference: public System.Char[] _outChars
     ::ArrayW<::Il2CppChar>& dyn__outChars();
     // Get instance field reference: public System.Int32 _outIndex
@@ -108,7 +108,7 @@ namespace System::Security::Util {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Tokenizer::StringMaker* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Util::Tokenizer::StringMaker::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Util::Tokenizer::StringMaker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Tokenizer::StringMaker*, creationType>()));
     }
   }; // System.Security.Util.Tokenizer/System.Security.Util.StringMaker

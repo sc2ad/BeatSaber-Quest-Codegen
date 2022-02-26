@@ -13,8 +13,8 @@ namespace System::IO {
   class __Error;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::IO::__Error);
-DEFINE_IL2CPP_ARG_TYPE(System::IO::__Error*, "System.IO", "__Error");
+NEED_NO_BOX(::System::IO::__Error);
+DEFINE_IL2CPP_ARG_TYPE(::System::IO::__Error*, "System.IO", "__Error");
 // Type namespace: System.IO
 namespace System::IO {
   // Size: 0x10

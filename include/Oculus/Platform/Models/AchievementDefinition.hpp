@@ -21,8 +21,8 @@ namespace Oculus::Platform::Models {
   class AchievementDefinition;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::AchievementDefinition);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::AchievementDefinition*, "Oculus.Platform.Models", "AchievementDefinition");
+NEED_NO_BOX(::Oculus::Platform::Models::AchievementDefinition);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::AchievementDefinition*, "Oculus.Platform.Models", "AchievementDefinition");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x30
@@ -43,9 +43,9 @@ namespace Oculus::Platform::Models {
     // public readonly Oculus.Platform.AchievementType Type
     // Size: 0x4
     // Offset: 0x10
-    Oculus::Platform::AchievementType Type;
+    ::Oculus::Platform::AchievementType Type;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::AchievementType) == 0x4);
+    static_assert(sizeof(::Oculus::Platform::AchievementType) == 0x4);
     // Padding between fields: Type and: Name
     char __padding0[0x4] = {};
     // public readonly System.String Name
@@ -70,7 +70,7 @@ namespace Oculus::Platform::Models {
     static_assert(sizeof(uint64_t) == 0x8);
     public:
     // Get instance field reference: public readonly Oculus.Platform.AchievementType Type
-    Oculus::Platform::AchievementType& dyn_Type();
+    ::Oculus::Platform::AchievementType& dyn_Type();
     // Get instance field reference: public readonly System.String Name
     ::StringW& dyn_Name();
     // Get instance field reference: public readonly System.UInt32 BitfieldLength
@@ -80,8 +80,8 @@ namespace Oculus::Platform::Models {
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x196CD9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AchievementDefinition* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::AchievementDefinition::.ctor");
+    static AchievementDefinition* New_ctor(::System::IntPtr o) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::AchievementDefinition::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AchievementDefinition*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.AchievementDefinition

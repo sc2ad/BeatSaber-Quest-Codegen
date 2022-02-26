@@ -18,8 +18,8 @@ namespace System::IO {
   class IFileWatcher;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::IO::IFileWatcher);
-DEFINE_IL2CPP_ARG_TYPE(System::IO::IFileWatcher*, "System.IO", "IFileWatcher");
+NEED_NO_BOX(::System::IO::IFileWatcher);
+DEFINE_IL2CPP_ARG_TYPE(::System::IO::IFileWatcher*, "System.IO", "IFileWatcher");
 // Type namespace: System.IO
 namespace System::IO {
   // Size: 0x10
@@ -30,10 +30,10 @@ namespace System::IO {
     public:
     // public System.Void StartDispatching(System.IO.FileSystemWatcher fsw)
     // Offset: 0xFFFFFFFF
-    void StartDispatching(System::IO::FileSystemWatcher* fsw);
+    void StartDispatching(::System::IO::FileSystemWatcher* fsw);
     // public System.Void StopDispatching(System.IO.FileSystemWatcher fsw)
     // Offset: 0xFFFFFFFF
-    void StopDispatching(System::IO::FileSystemWatcher* fsw);
+    void StopDispatching(::System::IO::FileSystemWatcher* fsw);
   }; // System.IO.IFileWatcher
   #pragma pack(pop)
 }
@@ -41,7 +41,7 @@ namespace System::IO {
 // Writing MetadataGetter for method: System::IO::IFileWatcher::StartDispatching
 // Il2CppName: StartDispatching
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::IFileWatcher::*)(System::IO::FileSystemWatcher*)>(&System::IO::IFileWatcher::StartDispatching)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::IFileWatcher::*)(::System::IO::FileSystemWatcher*)>(&System::IO::IFileWatcher::StartDispatching)> {
   static const MethodInfo* get() {
     static auto* fsw = &::il2cpp_utils::GetClassFromName("System.IO", "FileSystemWatcher")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::IFileWatcher*), "StartDispatching", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fsw});
@@ -50,7 +50,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::IFileWatcher::StopDispatching
 // Il2CppName: StopDispatching
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::IFileWatcher::*)(System::IO::FileSystemWatcher*)>(&System::IO::IFileWatcher::StopDispatching)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::IFileWatcher::*)(::System::IO::FileSystemWatcher*)>(&System::IO::IFileWatcher::StopDispatching)> {
   static const MethodInfo* get() {
     static auto* fsw = &::il2cpp_utils::GetClassFromName("System.IO", "FileSystemWatcher")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::IFileWatcher*), "StopDispatching", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fsw});

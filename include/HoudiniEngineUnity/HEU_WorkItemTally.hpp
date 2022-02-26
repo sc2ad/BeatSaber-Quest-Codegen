@@ -17,8 +17,8 @@ namespace HoudiniEngineUnity {
   class HEU_WorkItemTally;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_WorkItemTally);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_WorkItemTally*, "HoudiniEngineUnity", "HEU_WorkItemTally");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_WorkItemTally);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_WorkItemTally*, "HoudiniEngineUnity", "HEU_WorkItemTally");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x28
@@ -106,7 +106,7 @@ namespace HoudiniEngineUnity {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_WorkItemTally* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_WorkItemTally::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_WorkItemTally::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_WorkItemTally*, creationType>()));
     }
   }; // HoudiniEngineUnity.HEU_WorkItemTally

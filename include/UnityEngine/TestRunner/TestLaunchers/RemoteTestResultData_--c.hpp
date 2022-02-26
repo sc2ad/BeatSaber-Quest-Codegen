@@ -27,8 +27,8 @@ namespace NUnit::Framework::Interfaces {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData::$$c);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData::$$c*, "UnityEngine.TestRunner.TestLaunchers", "RemoteTestResultData/<>c");
+NEED_NO_BOX(::UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData::$$c*, "UnityEngine.TestRunner.TestLaunchers", "RemoteTestResultData/<>c");
 // Type namespace: UnityEngine.TestRunner.TestLaunchers
 namespace UnityEngine::TestRunner::TestLaunchers {
   // Size: 0x10
@@ -39,26 +39,26 @@ namespace UnityEngine::TestRunner::TestLaunchers {
   class RemoteTestResultData::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly UnityEngine.TestRunner.TestLaunchers.RemoteTestResultData/UnityEngine.TestRunner.TestLaunchers.<>c <>9
-    static UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData::$$c* _get_$$9();
+    static ::UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData::$$c* _get_$$9();
     // Set static field: static public readonly UnityEngine.TestRunner.TestLaunchers.RemoteTestResultData/UnityEngine.TestRunner.TestLaunchers.<>c <>9
-    static void _set_$$9(UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData::$$c* value);
+    static void _set_$$9(::UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData::$$c* value);
     // Get static field: static public System.Func`2<NUnit.Framework.Interfaces.ITestResult,System.String> <>9__19_0
-    static System::Func_2<NUnit::Framework::Interfaces::ITestResult*, ::StringW>* _get_$$9__19_0();
+    static ::System::Func_2<::NUnit::Framework::Interfaces::ITestResult*, ::StringW>* _get_$$9__19_0();
     // Set static field: static public System.Func`2<NUnit.Framework.Interfaces.ITestResult,System.String> <>9__19_0
-    static void _set_$$9__19_0(System::Func_2<NUnit::Framework::Interfaces::ITestResult*, ::StringW>* value);
+    static void _set_$$9__19_0(::System::Func_2<::NUnit::Framework::Interfaces::ITestResult*, ::StringW>* value);
     // static private System.Void .cctor()
     // Offset: 0x18D4360
     static void _cctor();
     // System.String <.ctor>b__19_0(NUnit.Framework.Interfaces.ITestResult child)
     // Offset: 0x18D43CC
-    ::StringW $_ctor$b__19_0(NUnit::Framework::Interfaces::ITestResult* child);
+    ::StringW $_ctor$b__19_0(::NUnit::Framework::Interfaces::ITestResult* child);
     // public System.Void .ctor()
     // Offset: 0x18D43C4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RemoteTestResultData::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RemoteTestResultData::$$c*, creationType>()));
     }
   }; // UnityEngine.TestRunner.TestLaunchers.RemoteTestResultData/UnityEngine.TestRunner.TestLaunchers.<>c
@@ -76,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData::$$c::$_ctor$b__19_0
 // Il2CppName: <.ctor>b__19_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData::$$c::*)(NUnit::Framework::Interfaces::ITestResult*)>(&UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData::$$c::$_ctor$b__19_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData::$$c::*)(::NUnit::Framework::Interfaces::ITestResult*)>(&UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData::$$c::$_ctor$b__19_0)> {
   static const MethodInfo* get() {
     static auto* child = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ITestResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData::$$c*), "<.ctor>b__19_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{child});

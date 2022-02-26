@@ -15,8 +15,8 @@ namespace Newtonsoft::Json::Serialization {
   class IReferenceResolver;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Serialization::IReferenceResolver);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Serialization::IReferenceResolver*, "Newtonsoft.Json.Serialization", "IReferenceResolver");
+NEED_NO_BOX(::Newtonsoft::Json::Serialization::IReferenceResolver);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Serialization::IReferenceResolver*, "Newtonsoft.Json.Serialization", "IReferenceResolver");
 // Type namespace: Newtonsoft.Json.Serialization
 namespace Newtonsoft::Json::Serialization {
   // Size: 0x10

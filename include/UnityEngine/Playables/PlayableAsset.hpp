@@ -46,8 +46,8 @@ namespace UnityEngine::Playables {
   class PlayableAsset;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Playables::PlayableAsset);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableAsset*, "UnityEngine.Playables", "PlayableAsset");
+NEED_NO_BOX(::UnityEngine::Playables::PlayableAsset);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Playables::PlayableAsset*, "UnityEngine.Playables", "PlayableAsset");
 // Type namespace: UnityEngine.Playables
 namespace UnityEngine::Playables {
   // Size: 0x18
@@ -56,27 +56,27 @@ namespace UnityEngine::Playables {
   // [TokenAttribute] Offset: FFFFFFFF
   // [RequiredByNativeCodeAttribute] Offset: 11A7D08
   // [AssetFileNameExtensionAttribute] Offset: 11A7D08
-  class PlayableAsset : public UnityEngine::ScriptableObject/*, public UnityEngine::Playables::IPlayableAsset*/ {
+  class PlayableAsset : public ::UnityEngine::ScriptableObject/*, public ::UnityEngine::Playables::IPlayableAsset*/ {
     public:
-    // Creating interface conversion operator: operator UnityEngine::Playables::IPlayableAsset
-    operator UnityEngine::Playables::IPlayableAsset() noexcept {
-      return *reinterpret_cast<UnityEngine::Playables::IPlayableAsset*>(this);
+    // Creating interface conversion operator: operator ::UnityEngine::Playables::IPlayableAsset
+    operator ::UnityEngine::Playables::IPlayableAsset() noexcept {
+      return *reinterpret_cast<::UnityEngine::Playables::IPlayableAsset*>(this);
     }
     // public System.Double get_duration()
     // Offset: 0x203E7C8
     double get_duration();
     // public System.Collections.Generic.IEnumerable`1<UnityEngine.Playables.PlayableBinding> get_outputs()
     // Offset: 0x203E830
-    System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>* get_outputs();
+    ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* get_outputs();
     // public UnityEngine.Playables.Playable CreatePlayable(UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject owner)
     // Offset: 0xFFFFFFFF
-    UnityEngine::Playables::Playable CreatePlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* owner);
+    ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* owner);
     // static System.Void Internal_CreatePlayable(UnityEngine.Playables.PlayableAsset asset, UnityEngine.Playables.PlayableGraph graph, UnityEngine.GameObject go, System.IntPtr ptr)
     // Offset: 0x203E898
-    static void Internal_CreatePlayable(UnityEngine::Playables::PlayableAsset* asset, UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject* go, System::IntPtr ptr);
+    static void Internal_CreatePlayable(::UnityEngine::Playables::PlayableAsset* asset, ::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go, ::System::IntPtr ptr);
     // static System.Void Internal_GetPlayableAssetDuration(UnityEngine.Playables.PlayableAsset asset, System.IntPtr ptrToDouble)
     // Offset: 0x203E978
-    static void Internal_GetPlayableAssetDuration(UnityEngine::Playables::PlayableAsset* asset, System::IntPtr ptrToDouble);
+    static void Internal_GetPlayableAssetDuration(::UnityEngine::Playables::PlayableAsset* asset, ::System::IntPtr ptrToDouble);
     // protected System.Void .ctor()
     // Offset: 0x203E9AC
     // Implemented from: UnityEngine.ScriptableObject
@@ -85,7 +85,7 @@ namespace UnityEngine::Playables {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayableAsset* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Playables::PlayableAsset::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Playables::PlayableAsset::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayableAsset*, creationType>()));
     }
   }; // UnityEngine.Playables.PlayableAsset
@@ -103,7 +103,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (Uni
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableAsset::get_outputs
 // Il2CppName: get_outputs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>* (UnityEngine::Playables::PlayableAsset::*)()>(&UnityEngine::Playables::PlayableAsset::get_outputs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* (UnityEngine::Playables::PlayableAsset::*)()>(&UnityEngine::Playables::PlayableAsset::get_outputs)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableAsset*), "get_outputs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -111,7 +111,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableAsset::CreatePlayable
 // Il2CppName: CreatePlayable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (UnityEngine::Playables::PlayableAsset::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*)>(&UnityEngine::Playables::PlayableAsset::CreatePlayable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::Playable (UnityEngine::Playables::PlayableAsset::*)(::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*)>(&UnityEngine::Playables::PlayableAsset::CreatePlayable)> {
   static const MethodInfo* get() {
     static auto* graph = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableGraph")->byval_arg;
     static auto* owner = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
@@ -121,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableAsset::Internal_CreatePlayable
 // Il2CppName: Internal_CreatePlayable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableAsset*, UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*, System::IntPtr)>(&UnityEngine::Playables::PlayableAsset::Internal_CreatePlayable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Playables::PlayableAsset*, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::IntPtr)>(&UnityEngine::Playables::PlayableAsset::Internal_CreatePlayable)> {
   static const MethodInfo* get() {
     static auto* asset = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableAsset")->byval_arg;
     static auto* graph = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableGraph")->byval_arg;
@@ -133,7 +133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableAsset::Internal_GetPlayableAssetDuration
 // Il2CppName: Internal_GetPlayableAssetDuration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableAsset*, System::IntPtr)>(&UnityEngine::Playables::PlayableAsset::Internal_GetPlayableAssetDuration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Playables::PlayableAsset*, ::System::IntPtr)>(&UnityEngine::Playables::PlayableAsset::Internal_GetPlayableAssetDuration)> {
   static const MethodInfo* get() {
     static auto* asset = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableAsset")->byval_arg;
     static auto* ptrToDouble = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;

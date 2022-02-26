@@ -13,8 +13,8 @@ namespace GlobalNamespace {
   class IntToRoman;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::IntToRoman);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IntToRoman*, "", "IntToRoman");
+NEED_NO_BOX(::GlobalNamespace::IntToRoman);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IntToRoman*, "", "IntToRoman");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10

@@ -19,8 +19,8 @@ namespace Org::BouncyCastle::Asn1::Kisa {
   class KisaObjectIdentifiers;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers*, "Org.BouncyCastle.Asn1.Kisa", "KisaObjectIdentifiers");
+NEED_NO_BOX(::Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers*, "Org.BouncyCastle.Asn1.Kisa", "KisaObjectIdentifiers");
 // Type namespace: Org.BouncyCastle.Asn1.Kisa
 namespace Org::BouncyCastle::Asn1::Kisa {
   // Size: 0x10
@@ -30,13 +30,13 @@ namespace Org::BouncyCastle::Asn1::Kisa {
   class KisaObjectIdentifiers : public ::Il2CppObject {
     public:
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier IdSeedCbc
-    static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_IdSeedCbc();
+    static ::Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_IdSeedCbc();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier IdSeedCbc
-    static void _set_IdSeedCbc(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+    static void _set_IdSeedCbc(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier IdNpkiAppCmsSeedWrap
-    static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_IdNpkiAppCmsSeedWrap();
+    static ::Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_IdNpkiAppCmsSeedWrap();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier IdNpkiAppCmsSeedWrap
-    static void _set_IdNpkiAppCmsSeedWrap(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+    static void _set_IdNpkiAppCmsSeedWrap(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // static private System.Void .cctor()
     // Offset: 0x1BC6004
     static void _cctor();

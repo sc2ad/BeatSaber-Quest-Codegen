@@ -25,8 +25,8 @@ namespace TMPro {
   class TMP_TextElement;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(TMPro::TMP_TextElement);
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_TextElement*, "TMPro", "TMP_TextElement");
+NEED_NO_BOX(::TMPro::TMP_TextElement);
+DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_TextElement*, "TMPro", "TMP_TextElement");
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0x28
@@ -47,9 +47,9 @@ namespace TMPro {
     // protected TMPro.TextElementType m_ElementType
     // Size: 0x1
     // Offset: 0x10
-    TMPro::TextElementType m_ElementType;
+    ::TMPro::TextElementType m_ElementType;
     // Field size check
-    static_assert(sizeof(TMPro::TextElementType) == 0x1);
+    static_assert(sizeof(::TMPro::TextElementType) == 0x1);
     // Padding between fields: m_ElementType and: m_Unicode
     char __padding0[0x3] = {};
     // private System.UInt32 m_Unicode
@@ -61,9 +61,9 @@ namespace TMPro {
     // private UnityEngine.TextCore.Glyph m_Glyph
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::TextCore::Glyph* m_Glyph;
+    ::UnityEngine::TextCore::Glyph* m_Glyph;
     // Field size check
-    static_assert(sizeof(UnityEngine::TextCore::Glyph*) == 0x8);
+    static_assert(sizeof(::UnityEngine::TextCore::Glyph*) == 0x8);
     // private System.UInt32 m_GlyphIndex
     // Size: 0x4
     // Offset: 0x20
@@ -78,18 +78,18 @@ namespace TMPro {
     static_assert(sizeof(float) == 0x4);
     public:
     // Get instance field reference: protected TMPro.TextElementType m_ElementType
-    TMPro::TextElementType& dyn_m_ElementType();
+    ::TMPro::TextElementType& dyn_m_ElementType();
     // Get instance field reference: private System.UInt32 m_Unicode
     uint& dyn_m_Unicode();
     // Get instance field reference: private UnityEngine.TextCore.Glyph m_Glyph
-    UnityEngine::TextCore::Glyph*& dyn_m_Glyph();
+    ::UnityEngine::TextCore::Glyph*& dyn_m_Glyph();
     // Get instance field reference: private System.UInt32 m_GlyphIndex
     uint& dyn_m_GlyphIndex();
     // Get instance field reference: private System.Single m_Scale
     float& dyn_m_Scale();
     // public TMPro.TextElementType get_elementType()
     // Offset: 0x1837130
-    TMPro::TextElementType get_elementType();
+    ::TMPro::TextElementType get_elementType();
     // public System.UInt32 get_unicode()
     // Offset: 0x1837138
     uint get_unicode();
@@ -98,10 +98,10 @@ namespace TMPro {
     void set_unicode(uint value);
     // public UnityEngine.TextCore.Glyph get_glyph()
     // Offset: 0x1837148
-    UnityEngine::TextCore::Glyph* get_glyph();
+    ::UnityEngine::TextCore::Glyph* get_glyph();
     // public System.Void set_glyph(UnityEngine.TextCore.Glyph value)
     // Offset: 0x1837150
-    void set_glyph(UnityEngine::TextCore::Glyph* value);
+    void set_glyph(::UnityEngine::TextCore::Glyph* value);
     // public System.UInt32 get_glyphIndex()
     // Offset: 0x1837158
     uint get_glyphIndex();
@@ -120,7 +120,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_TextElement* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_TextElement::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_TextElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_TextElement*, creationType>()));
     }
   }; // TMPro.TMP_TextElement
@@ -132,7 +132,7 @@ namespace TMPro {
 // Writing MetadataGetter for method: TMPro::TMP_TextElement::get_elementType
 // Il2CppName: get_elementType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TextElementType (TMPro::TMP_TextElement::*)()>(&TMPro::TMP_TextElement::get_elementType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TextElementType (TMPro::TMP_TextElement::*)()>(&TMPro::TMP_TextElement::get_elementType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextElement*), "get_elementType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -157,7 +157,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_TextElement::get_glyph
 // Il2CppName: get_glyph
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextCore::Glyph* (TMPro::TMP_TextElement::*)()>(&TMPro::TMP_TextElement::get_glyph)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::Glyph* (TMPro::TMP_TextElement::*)()>(&TMPro::TMP_TextElement::get_glyph)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextElement*), "get_glyph", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -165,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: TMPro::TMP_TextElement::set_glyph
 // Il2CppName: set_glyph
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_TextElement::*)(UnityEngine::TextCore::Glyph*)>(&TMPro::TMP_TextElement::set_glyph)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_TextElement::*)(::UnityEngine::TextCore::Glyph*)>(&TMPro::TMP_TextElement::set_glyph)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.TextCore", "Glyph")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextElement*), "set_glyph", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

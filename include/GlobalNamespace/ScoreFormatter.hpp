@@ -24,8 +24,8 @@ namespace GlobalNamespace {
   class ScoreFormatter;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::ScoreFormatter);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScoreFormatter*, "", "ScoreFormatter");
+NEED_NO_BOX(::GlobalNamespace::ScoreFormatter);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ScoreFormatter*, "", "ScoreFormatter");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -36,9 +36,9 @@ namespace GlobalNamespace {
     public:
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x123D09C
     // Get static field: static private readonly System.Globalization.NumberFormatInfo _numberFormatInfo
-    static System::Globalization::NumberFormatInfo* _get__numberFormatInfo();
+    static ::System::Globalization::NumberFormatInfo* _get__numberFormatInfo();
     // Set static field: static private readonly System.Globalization.NumberFormatInfo _numberFormatInfo
-    static void _set__numberFormatInfo(System::Globalization::NumberFormatInfo* value);
+    static void _set__numberFormatInfo(::System::Globalization::NumberFormatInfo* value);
     // static private System.Void .cctor()
     // Offset: 0x2B5CF54
     static void _cctor();
@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScoreFormatter* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ScoreFormatter::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ScoreFormatter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScoreFormatter*, creationType>()));
     }
   }; // ScoreFormatter

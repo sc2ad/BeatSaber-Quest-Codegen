@@ -56,8 +56,8 @@ namespace RootMotion::FinalIK {
   class InteractionSystem;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::InteractionSystem);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionSystem*, "RootMotion.FinalIK", "InteractionSystem");
+NEED_NO_BOX(::RootMotion::FinalIK::InteractionSystem);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::InteractionSystem*, "RootMotion.FinalIK", "InteractionSystem");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0xF0
@@ -66,11 +66,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   // [HelpURLAttribute] Offset: 1262E78
   // [AddComponentMenu] Offset: 1262E78
-  class InteractionSystem : public UnityEngine::MonoBehaviour {
+  class InteractionSystem : public ::UnityEngine::MonoBehaviour {
     public:
-    // Nested type: RootMotion::FinalIK::InteractionSystem::InteractionDelegate
+    // Nested type: ::RootMotion::FinalIK::InteractionSystem::InteractionDelegate
     class InteractionDelegate;
-    // Nested type: RootMotion::FinalIK::InteractionSystem::InteractionEventDelegate
+    // Nested type: ::RootMotion::FinalIK::InteractionSystem::InteractionEventDelegate
     class InteractionEventDelegate;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -117,24 +117,24 @@ namespace RootMotion::FinalIK {
     // public UnityEngine.Collider characterCollider
     // Size: 0x8
     // Offset: 0x30
-    UnityEngine::Collider* characterCollider;
+    ::UnityEngine::Collider* characterCollider;
     // Field size check
-    static_assert(sizeof(UnityEngine::Collider*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Collider*) == 0x8);
     // [TooltipAttribute] Offset: 0x1265844
     // [FormerlySerializedAsAttribute] Offset: 0x1265844
     // public UnityEngine.Transform FPSCamera
     // Size: 0x8
     // Offset: 0x38
-    UnityEngine::Transform* FPSCamera;
+    ::UnityEngine::Transform* FPSCamera;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // [TooltipAttribute] Offset: 0x12658A4
     // public UnityEngine.LayerMask camRaycastLayers
     // Size: 0x4
     // Offset: 0x40
-    UnityEngine::LayerMask camRaycastLayers;
+    ::UnityEngine::LayerMask camRaycastLayers;
     // Field size check
-    static_assert(sizeof(UnityEngine::LayerMask) == 0x4);
+    static_assert(sizeof(::UnityEngine::LayerMask) == 0x4);
     // [TooltipAttribute] Offset: 0x12658DC
     // public System.Single camRaycastDistance
     // Size: 0x4
@@ -145,63 +145,63 @@ namespace RootMotion::FinalIK {
     // private System.Collections.Generic.List`1<RootMotion.FinalIK.InteractionTrigger> <triggersInRange>k__BackingField
     // Size: 0x8
     // Offset: 0x48
-    System::Collections::Generic::List_1<RootMotion::FinalIK::InteractionTrigger*>* triggersInRange;
+    ::System::Collections::Generic::List_1<::RootMotion::FinalIK::InteractionTrigger*>* triggersInRange;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<RootMotion::FinalIK::InteractionTrigger*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::RootMotion::FinalIK::InteractionTrigger*>*) == 0x8);
     // private System.Collections.Generic.List`1<RootMotion.FinalIK.InteractionTrigger> inContact
     // Size: 0x8
     // Offset: 0x50
-    System::Collections::Generic::List_1<RootMotion::FinalIK::InteractionTrigger*>* inContact;
+    ::System::Collections::Generic::List_1<::RootMotion::FinalIK::InteractionTrigger*>* inContact;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<RootMotion::FinalIK::InteractionTrigger*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::RootMotion::FinalIK::InteractionTrigger*>*) == 0x8);
     // private System.Collections.Generic.List`1<System.Int32> bestRangeIndexes
     // Size: 0x8
     // Offset: 0x58
-    System::Collections::Generic::List_1<int>* bestRangeIndexes;
+    ::System::Collections::Generic::List_1<int>* bestRangeIndexes;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<int>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<int>*) == 0x8);
     // public RootMotion.FinalIK.InteractionSystem/RootMotion.FinalIK.InteractionDelegate OnInteractionStart
     // Size: 0x8
     // Offset: 0x60
-    RootMotion::FinalIK::InteractionSystem::InteractionDelegate* OnInteractionStart;
+    ::RootMotion::FinalIK::InteractionSystem::InteractionDelegate* OnInteractionStart;
     // Field size check
-    static_assert(sizeof(RootMotion::FinalIK::InteractionSystem::InteractionDelegate*) == 0x8);
+    static_assert(sizeof(::RootMotion::FinalIK::InteractionSystem::InteractionDelegate*) == 0x8);
     // public RootMotion.FinalIK.InteractionSystem/RootMotion.FinalIK.InteractionDelegate OnInteractionPause
     // Size: 0x8
     // Offset: 0x68
-    RootMotion::FinalIK::InteractionSystem::InteractionDelegate* OnInteractionPause;
+    ::RootMotion::FinalIK::InteractionSystem::InteractionDelegate* OnInteractionPause;
     // Field size check
-    static_assert(sizeof(RootMotion::FinalIK::InteractionSystem::InteractionDelegate*) == 0x8);
+    static_assert(sizeof(::RootMotion::FinalIK::InteractionSystem::InteractionDelegate*) == 0x8);
     // public RootMotion.FinalIK.InteractionSystem/RootMotion.FinalIK.InteractionDelegate OnInteractionPickUp
     // Size: 0x8
     // Offset: 0x70
-    RootMotion::FinalIK::InteractionSystem::InteractionDelegate* OnInteractionPickUp;
+    ::RootMotion::FinalIK::InteractionSystem::InteractionDelegate* OnInteractionPickUp;
     // Field size check
-    static_assert(sizeof(RootMotion::FinalIK::InteractionSystem::InteractionDelegate*) == 0x8);
+    static_assert(sizeof(::RootMotion::FinalIK::InteractionSystem::InteractionDelegate*) == 0x8);
     // public RootMotion.FinalIK.InteractionSystem/RootMotion.FinalIK.InteractionDelegate OnInteractionResume
     // Size: 0x8
     // Offset: 0x78
-    RootMotion::FinalIK::InteractionSystem::InteractionDelegate* OnInteractionResume;
+    ::RootMotion::FinalIK::InteractionSystem::InteractionDelegate* OnInteractionResume;
     // Field size check
-    static_assert(sizeof(RootMotion::FinalIK::InteractionSystem::InteractionDelegate*) == 0x8);
+    static_assert(sizeof(::RootMotion::FinalIK::InteractionSystem::InteractionDelegate*) == 0x8);
     // public RootMotion.FinalIK.InteractionSystem/RootMotion.FinalIK.InteractionDelegate OnInteractionStop
     // Size: 0x8
     // Offset: 0x80
-    RootMotion::FinalIK::InteractionSystem::InteractionDelegate* OnInteractionStop;
+    ::RootMotion::FinalIK::InteractionSystem::InteractionDelegate* OnInteractionStop;
     // Field size check
-    static_assert(sizeof(RootMotion::FinalIK::InteractionSystem::InteractionDelegate*) == 0x8);
+    static_assert(sizeof(::RootMotion::FinalIK::InteractionSystem::InteractionDelegate*) == 0x8);
     // public RootMotion.FinalIK.InteractionSystem/RootMotion.FinalIK.InteractionEventDelegate OnInteractionEvent
     // Size: 0x8
     // Offset: 0x88
-    RootMotion::FinalIK::InteractionSystem::InteractionEventDelegate* OnInteractionEvent;
+    ::RootMotion::FinalIK::InteractionSystem::InteractionEventDelegate* OnInteractionEvent;
     // Field size check
-    static_assert(sizeof(RootMotion::FinalIK::InteractionSystem::InteractionEventDelegate*) == 0x8);
+    static_assert(sizeof(::RootMotion::FinalIK::InteractionSystem::InteractionEventDelegate*) == 0x8);
     // public UnityEngine.RaycastHit raycastHit
     // Size: 0x2C
     // Offset: 0x90
-    UnityEngine::RaycastHit raycastHit;
+    ::UnityEngine::RaycastHit raycastHit;
     // Field size check
-    static_assert(sizeof(UnityEngine::RaycastHit) == 0x2C);
+    static_assert(sizeof(::UnityEngine::RaycastHit) == 0x2C);
     // Padding between fields: raycastHit and: fullBody
     char __padding17[0x4] = {};
     // [SpaceAttribute] Offset: 0x1265924
@@ -209,22 +209,22 @@ namespace RootMotion::FinalIK {
     // private RootMotion.FinalIK.FullBodyBipedIK fullBody
     // Size: 0x8
     // Offset: 0xC0
-    RootMotion::FinalIK::FullBodyBipedIK* fullBody;
+    ::RootMotion::FinalIK::FullBodyBipedIK* fullBody;
     // Field size check
-    static_assert(sizeof(RootMotion::FinalIK::FullBodyBipedIK*) == 0x8);
+    static_assert(sizeof(::RootMotion::FinalIK::FullBodyBipedIK*) == 0x8);
     // [TooltipAttribute] Offset: 0x1265984
     // public RootMotion.FinalIK.InteractionLookAt lookAt
     // Size: 0x8
     // Offset: 0xC8
-    RootMotion::FinalIK::InteractionLookAt* lookAt;
+    ::RootMotion::FinalIK::InteractionLookAt* lookAt;
     // Field size check
-    static_assert(sizeof(RootMotion::FinalIK::InteractionLookAt*) == 0x8);
+    static_assert(sizeof(::RootMotion::FinalIK::InteractionLookAt*) == 0x8);
     // private RootMotion.FinalIK.InteractionEffector[] interactionEffectors
     // Size: 0x8
     // Offset: 0xD0
-    ::ArrayW<RootMotion::FinalIK::InteractionEffector*> interactionEffectors;
+    ::ArrayW<::RootMotion::FinalIK::InteractionEffector*> interactionEffectors;
     // Field size check
-    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::InteractionEffector*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::RootMotion::FinalIK::InteractionEffector*>) == 0x8);
     // private System.Boolean initiated
     // Size: 0x1
     // Offset: 0xD8
@@ -236,18 +236,18 @@ namespace RootMotion::FinalIK {
     // private UnityEngine.Collider lastCollider
     // Size: 0x8
     // Offset: 0xE0
-    UnityEngine::Collider* lastCollider;
+    ::UnityEngine::Collider* lastCollider;
     // Field size check
-    static_assert(sizeof(UnityEngine::Collider*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Collider*) == 0x8);
     // private UnityEngine.Collider c
     // Size: 0x8
     // Offset: 0xE8
-    UnityEngine::Collider* c;
+    ::UnityEngine::Collider* c;
     // Field size check
-    static_assert(sizeof(UnityEngine::Collider*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Collider*) == 0x8);
     public:
-    // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const noexcept = delete;
+    // Deleting conversion operator: operator ::System::IntPtr
+    constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.String targetTag
     ::StringW& dyn_targetTag();
     // Get instance field reference: public System.Single fadeInTime
@@ -257,60 +257,60 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Single resetToDefaultsSpeed
     float& dyn_resetToDefaultsSpeed();
     // Get instance field reference: public UnityEngine.Collider characterCollider
-    UnityEngine::Collider*& dyn_characterCollider();
+    ::UnityEngine::Collider*& dyn_characterCollider();
     // Get instance field reference: public UnityEngine.Transform FPSCamera
-    UnityEngine::Transform*& dyn_FPSCamera();
+    ::UnityEngine::Transform*& dyn_FPSCamera();
     // Get instance field reference: public UnityEngine.LayerMask camRaycastLayers
-    UnityEngine::LayerMask& dyn_camRaycastLayers();
+    ::UnityEngine::LayerMask& dyn_camRaycastLayers();
     // Get instance field reference: public System.Single camRaycastDistance
     float& dyn_camRaycastDistance();
     // Get instance field reference: private System.Collections.Generic.List`1<RootMotion.FinalIK.InteractionTrigger> <triggersInRange>k__BackingField
-    System::Collections::Generic::List_1<RootMotion::FinalIK::InteractionTrigger*>*& dyn_$triggersInRange$k__BackingField();
+    ::System::Collections::Generic::List_1<::RootMotion::FinalIK::InteractionTrigger*>*& dyn_$triggersInRange$k__BackingField();
     // Get instance field reference: private System.Collections.Generic.List`1<RootMotion.FinalIK.InteractionTrigger> inContact
-    System::Collections::Generic::List_1<RootMotion::FinalIK::InteractionTrigger*>*& dyn_inContact();
+    ::System::Collections::Generic::List_1<::RootMotion::FinalIK::InteractionTrigger*>*& dyn_inContact();
     // Get instance field reference: private System.Collections.Generic.List`1<System.Int32> bestRangeIndexes
-    System::Collections::Generic::List_1<int>*& dyn_bestRangeIndexes();
+    ::System::Collections::Generic::List_1<int>*& dyn_bestRangeIndexes();
     // Get instance field reference: public RootMotion.FinalIK.InteractionSystem/RootMotion.FinalIK.InteractionDelegate OnInteractionStart
-    RootMotion::FinalIK::InteractionSystem::InteractionDelegate*& dyn_OnInteractionStart();
+    ::RootMotion::FinalIK::InteractionSystem::InteractionDelegate*& dyn_OnInteractionStart();
     // Get instance field reference: public RootMotion.FinalIK.InteractionSystem/RootMotion.FinalIK.InteractionDelegate OnInteractionPause
-    RootMotion::FinalIK::InteractionSystem::InteractionDelegate*& dyn_OnInteractionPause();
+    ::RootMotion::FinalIK::InteractionSystem::InteractionDelegate*& dyn_OnInteractionPause();
     // Get instance field reference: public RootMotion.FinalIK.InteractionSystem/RootMotion.FinalIK.InteractionDelegate OnInteractionPickUp
-    RootMotion::FinalIK::InteractionSystem::InteractionDelegate*& dyn_OnInteractionPickUp();
+    ::RootMotion::FinalIK::InteractionSystem::InteractionDelegate*& dyn_OnInteractionPickUp();
     // Get instance field reference: public RootMotion.FinalIK.InteractionSystem/RootMotion.FinalIK.InteractionDelegate OnInteractionResume
-    RootMotion::FinalIK::InteractionSystem::InteractionDelegate*& dyn_OnInteractionResume();
+    ::RootMotion::FinalIK::InteractionSystem::InteractionDelegate*& dyn_OnInteractionResume();
     // Get instance field reference: public RootMotion.FinalIK.InteractionSystem/RootMotion.FinalIK.InteractionDelegate OnInteractionStop
-    RootMotion::FinalIK::InteractionSystem::InteractionDelegate*& dyn_OnInteractionStop();
+    ::RootMotion::FinalIK::InteractionSystem::InteractionDelegate*& dyn_OnInteractionStop();
     // Get instance field reference: public RootMotion.FinalIK.InteractionSystem/RootMotion.FinalIK.InteractionEventDelegate OnInteractionEvent
-    RootMotion::FinalIK::InteractionSystem::InteractionEventDelegate*& dyn_OnInteractionEvent();
+    ::RootMotion::FinalIK::InteractionSystem::InteractionEventDelegate*& dyn_OnInteractionEvent();
     // Get instance field reference: public UnityEngine.RaycastHit raycastHit
-    UnityEngine::RaycastHit& dyn_raycastHit();
+    ::UnityEngine::RaycastHit& dyn_raycastHit();
     // Get instance field reference: private RootMotion.FinalIK.FullBodyBipedIK fullBody
-    RootMotion::FinalIK::FullBodyBipedIK*& dyn_fullBody();
+    ::RootMotion::FinalIK::FullBodyBipedIK*& dyn_fullBody();
     // Get instance field reference: public RootMotion.FinalIK.InteractionLookAt lookAt
-    RootMotion::FinalIK::InteractionLookAt*& dyn_lookAt();
+    ::RootMotion::FinalIK::InteractionLookAt*& dyn_lookAt();
     // Get instance field reference: private RootMotion.FinalIK.InteractionEffector[] interactionEffectors
-    ::ArrayW<RootMotion::FinalIK::InteractionEffector*>& dyn_interactionEffectors();
+    ::ArrayW<::RootMotion::FinalIK::InteractionEffector*>& dyn_interactionEffectors();
     // Get instance field reference: private System.Boolean initiated
     bool& dyn_initiated();
     // Get instance field reference: private UnityEngine.Collider lastCollider
-    UnityEngine::Collider*& dyn_lastCollider();
+    ::UnityEngine::Collider*& dyn_lastCollider();
     // Get instance field reference: private UnityEngine.Collider c
-    UnityEngine::Collider*& dyn_c();
+    ::UnityEngine::Collider*& dyn_c();
     // public System.Boolean get_inInteraction()
     // Offset: 0x233B0C4
     bool get_inInteraction();
     // public RootMotion.FinalIK.FullBodyBipedIK get_ik()
     // Offset: 0x233CCDC
-    RootMotion::FinalIK::FullBodyBipedIK* get_ik();
+    ::RootMotion::FinalIK::FullBodyBipedIK* get_ik();
     // public System.Void set_ik(RootMotion.FinalIK.FullBodyBipedIK value)
     // Offset: 0x233CCE4
-    void set_ik(RootMotion::FinalIK::FullBodyBipedIK* value);
+    void set_ik(::RootMotion::FinalIK::FullBodyBipedIK* value);
     // public System.Collections.Generic.List`1<RootMotion.FinalIK.InteractionTrigger> get_triggersInRange()
     // Offset: 0x233CCEC
-    System::Collections::Generic::List_1<RootMotion::FinalIK::InteractionTrigger*>* get_triggersInRange();
+    ::System::Collections::Generic::List_1<::RootMotion::FinalIK::InteractionTrigger*>* get_triggersInRange();
     // private System.Void set_triggersInRange(System.Collections.Generic.List`1<RootMotion.FinalIK.InteractionTrigger> value)
     // Offset: 0x233CCF4
-    void set_triggersInRange(System::Collections::Generic::List_1<RootMotion::FinalIK::InteractionTrigger*>* value);
+    void set_triggersInRange(::System::Collections::Generic::List_1<::RootMotion::FinalIK::InteractionTrigger*>* value);
     // private System.Void OpenUserManual()
     // Offset: 0x233AE64
     void OpenUserManual();
@@ -337,10 +337,10 @@ namespace RootMotion::FinalIK {
     void ASThread();
     // public System.Boolean IsInInteraction(RootMotion.FinalIK.FullBodyBipedEffector effectorType)
     // Offset: 0x233B254
-    bool IsInInteraction(RootMotion::FinalIK::FullBodyBipedEffector effectorType);
+    bool IsInInteraction(::RootMotion::FinalIK::FullBodyBipedEffector effectorType);
     // public System.Boolean IsPaused(RootMotion.FinalIK.FullBodyBipedEffector effectorType)
     // Offset: 0x233B320
-    bool IsPaused(RootMotion::FinalIK::FullBodyBipedEffector effectorType);
+    bool IsPaused(::RootMotion::FinalIK::FullBodyBipedEffector effectorType);
     // public System.Boolean IsPaused()
     // Offset: 0x233B3EC
     bool IsPaused();
@@ -349,16 +349,16 @@ namespace RootMotion::FinalIK {
     bool IsInSync();
     // public System.Boolean StartInteraction(RootMotion.FinalIK.FullBodyBipedEffector effectorType, RootMotion.FinalIK.InteractionObject interactionObject, System.Boolean interrupt)
     // Offset: 0x233B590
-    bool StartInteraction(RootMotion::FinalIK::FullBodyBipedEffector effectorType, RootMotion::FinalIK::InteractionObject* interactionObject, bool interrupt);
+    bool StartInteraction(::RootMotion::FinalIK::FullBodyBipedEffector effectorType, ::RootMotion::FinalIK::InteractionObject* interactionObject, bool interrupt);
     // public System.Boolean PauseInteraction(RootMotion.FinalIK.FullBodyBipedEffector effectorType)
     // Offset: 0x233B6AC
-    bool PauseInteraction(RootMotion::FinalIK::FullBodyBipedEffector effectorType);
+    bool PauseInteraction(::RootMotion::FinalIK::FullBodyBipedEffector effectorType);
     // public System.Boolean ResumeInteraction(RootMotion.FinalIK.FullBodyBipedEffector effectorType)
     // Offset: 0x233B73C
-    bool ResumeInteraction(RootMotion::FinalIK::FullBodyBipedEffector effectorType);
+    bool ResumeInteraction(::RootMotion::FinalIK::FullBodyBipedEffector effectorType);
     // public System.Boolean StopInteraction(RootMotion.FinalIK.FullBodyBipedEffector effectorType)
     // Offset: 0x233B7CC
-    bool StopInteraction(RootMotion::FinalIK::FullBodyBipedEffector effectorType);
+    bool StopInteraction(::RootMotion::FinalIK::FullBodyBipedEffector effectorType);
     // public System.Void PauseAll()
     // Offset: 0x233B85C
     void PauseAll();
@@ -370,10 +370,10 @@ namespace RootMotion::FinalIK {
     void StopAll();
     // public RootMotion.FinalIK.InteractionObject GetInteractionObject(RootMotion.FinalIK.FullBodyBipedEffector effectorType)
     // Offset: 0x233B9AC
-    RootMotion::FinalIK::InteractionObject* GetInteractionObject(RootMotion::FinalIK::FullBodyBipedEffector effectorType);
+    ::RootMotion::FinalIK::InteractionObject* GetInteractionObject(::RootMotion::FinalIK::FullBodyBipedEffector effectorType);
     // public System.Single GetProgress(RootMotion.FinalIK.FullBodyBipedEffector effectorType)
     // Offset: 0x233BA38
-    float GetProgress(RootMotion::FinalIK::FullBodyBipedEffector effectorType);
+    float GetProgress(::RootMotion::FinalIK::FullBodyBipedEffector effectorType);
     // public System.Single GetMinActiveProgress()
     // Offset: 0x233BAEC
     float GetMinActiveProgress();
@@ -382,31 +382,31 @@ namespace RootMotion::FinalIK {
     bool TriggerInteraction(int index, bool interrupt);
     // public System.Boolean TriggerInteraction(System.Int32 index, System.Boolean interrupt, out RootMotion.FinalIK.InteractionObject interactionObject)
     // Offset: 0x233BE74
-    bool TriggerInteraction(int index, bool interrupt, ByRef<RootMotion::FinalIK::InteractionObject*> interactionObject);
+    bool TriggerInteraction(int index, bool interrupt, ByRef<::RootMotion::FinalIK::InteractionObject*> interactionObject);
     // public System.Boolean TriggerInteraction(System.Int32 index, System.Boolean interrupt, out RootMotion.FinalIK.InteractionTarget interactionTarget)
     // Offset: 0x233C04C
-    bool TriggerInteraction(int index, bool interrupt, ByRef<RootMotion::FinalIK::InteractionTarget*> interactionTarget);
+    bool TriggerInteraction(int index, bool interrupt, ByRef<::RootMotion::FinalIK::InteractionTarget*> interactionTarget);
     // public RootMotion.FinalIK.InteractionTrigger/RootMotion.FinalIK.Range GetClosestInteractionRange()
     // Offset: 0x233C2C0
-    RootMotion::FinalIK::InteractionTrigger::Range* GetClosestInteractionRange();
+    ::RootMotion::FinalIK::InteractionTrigger::Range* GetClosestInteractionRange();
     // public RootMotion.FinalIK.InteractionObject GetClosestInteractionObjectInRange()
     // Offset: 0x233C5B4
-    RootMotion::FinalIK::InteractionObject* GetClosestInteractionObjectInRange();
+    ::RootMotion::FinalIK::InteractionObject* GetClosestInteractionObjectInRange();
     // public RootMotion.FinalIK.InteractionTarget GetClosestInteractionTargetInRange()
     // Offset: 0x233C5F8
-    RootMotion::FinalIK::InteractionTarget* GetClosestInteractionTargetInRange();
+    ::RootMotion::FinalIK::InteractionTarget* GetClosestInteractionTargetInRange();
     // public RootMotion.FinalIK.InteractionObject[] GetClosestInteractionObjectsInRange()
     // Offset: 0x233C670
-    ::ArrayW<RootMotion::FinalIK::InteractionObject*> GetClosestInteractionObjectsInRange();
+    ::ArrayW<::RootMotion::FinalIK::InteractionObject*> GetClosestInteractionObjectsInRange();
     // public RootMotion.FinalIK.InteractionTarget[] GetClosestInteractionTargetsInRange()
     // Offset: 0x233C790
-    ::ArrayW<RootMotion::FinalIK::InteractionTarget*> GetClosestInteractionTargetsInRange();
+    ::ArrayW<::RootMotion::FinalIK::InteractionTarget*> GetClosestInteractionTargetsInRange();
     // public System.Boolean TriggerEffectorsReady(System.Int32 index)
     // Offset: 0x233C908
     bool TriggerEffectorsReady(int index);
     // public RootMotion.FinalIK.InteractionTrigger/RootMotion.FinalIK.Range GetTriggerRange(System.Int32 index)
     // Offset: 0x233CBB0
-    RootMotion::FinalIK::InteractionTrigger::Range* GetTriggerRange(int index);
+    ::RootMotion::FinalIK::InteractionTrigger::Range* GetTriggerRange(int index);
     // public System.Int32 GetClosestTriggerIndex()
     // Offset: 0x233C3C0
     int GetClosestTriggerIndex();
@@ -415,22 +415,22 @@ namespace RootMotion::FinalIK {
     void Start();
     // private System.Void InteractionPause(RootMotion.FinalIK.FullBodyBipedEffector effector, RootMotion.FinalIK.InteractionObject interactionObject)
     // Offset: 0x233D3B0
-    void InteractionPause(RootMotion::FinalIK::FullBodyBipedEffector effector, RootMotion::FinalIK::InteractionObject* interactionObject);
+    void InteractionPause(::RootMotion::FinalIK::FullBodyBipedEffector effector, ::RootMotion::FinalIK::InteractionObject* interactionObject);
     // private System.Void InteractionResume(RootMotion.FinalIK.FullBodyBipedEffector effector, RootMotion.FinalIK.InteractionObject interactionObject)
     // Offset: 0x233D3D0
-    void InteractionResume(RootMotion::FinalIK::FullBodyBipedEffector effector, RootMotion::FinalIK::InteractionObject* interactionObject);
+    void InteractionResume(::RootMotion::FinalIK::FullBodyBipedEffector effector, ::RootMotion::FinalIK::InteractionObject* interactionObject);
     // private System.Void InteractionStop(RootMotion.FinalIK.FullBodyBipedEffector effector, RootMotion.FinalIK.InteractionObject interactionObject)
     // Offset: 0x233D3EC
-    void InteractionStop(RootMotion::FinalIK::FullBodyBipedEffector effector, RootMotion::FinalIK::InteractionObject* interactionObject);
+    void InteractionStop(::RootMotion::FinalIK::FullBodyBipedEffector effector, ::RootMotion::FinalIK::InteractionObject* interactionObject);
     // private System.Void LookAtInteraction(RootMotion.FinalIK.FullBodyBipedEffector effector, RootMotion.FinalIK.InteractionObject interactionObject)
     // Offset: 0x233D408
-    void LookAtInteraction(RootMotion::FinalIK::FullBodyBipedEffector effector, RootMotion::FinalIK::InteractionObject* interactionObject);
+    void LookAtInteraction(::RootMotion::FinalIK::FullBodyBipedEffector effector, ::RootMotion::FinalIK::InteractionObject* interactionObject);
     // public System.Void OnTriggerEnter(UnityEngine.Collider c)
     // Offset: 0x233D468
-    void OnTriggerEnter(UnityEngine::Collider* c);
+    void OnTriggerEnter(::UnityEngine::Collider* c);
     // public System.Void OnTriggerExit(UnityEngine.Collider c)
     // Offset: 0x233D584
-    void OnTriggerExit(UnityEngine::Collider* c);
+    void OnTriggerExit(::UnityEngine::Collider* c);
     // private System.Boolean ContactIsInRange(System.Int32 index, out System.Int32 bestRangeIndex)
     // Offset: 0x233D680
     bool ContactIsInRange(int index, ByRef<int> bestRangeIndex);
@@ -477,12 +477,12 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InteractionSystem* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::InteractionSystem::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::InteractionSystem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InteractionSystem*, creationType>()));
     }
   }; // RootMotion.FinalIK.InteractionSystem
   #pragma pack(pop)
-  static check_size<sizeof(InteractionSystem), 232 + sizeof(UnityEngine::Collider*)> __RootMotion_FinalIK_InteractionSystemSizeCheck;
+  static check_size<sizeof(InteractionSystem), 232 + sizeof(::UnityEngine::Collider*)> __RootMotion_FinalIK_InteractionSystemSizeCheck;
   static_assert(sizeof(InteractionSystem) == 0xF0);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -497,7 +497,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionSystem::get_ik
 // Il2CppName: get_ik
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::FullBodyBipedIK* (RootMotion::FinalIK::InteractionSystem::*)()>(&RootMotion::FinalIK::InteractionSystem::get_ik)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::FinalIK::FullBodyBipedIK* (RootMotion::FinalIK::InteractionSystem::*)()>(&RootMotion::FinalIK::InteractionSystem::get_ik)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionSystem*), "get_ik", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -505,7 +505,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion:
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionSystem::set_ik
 // Il2CppName: set_ik
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionSystem::*)(RootMotion::FinalIK::FullBodyBipedIK*)>(&RootMotion::FinalIK::InteractionSystem::set_ik)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionSystem::*)(::RootMotion::FinalIK::FullBodyBipedIK*)>(&RootMotion::FinalIK::InteractionSystem::set_ik)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "FullBodyBipedIK")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionSystem*), "set_ik", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -514,7 +514,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionSystem::get_triggersInRange
 // Il2CppName: get_triggersInRange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<RootMotion::FinalIK::InteractionTrigger*>* (RootMotion::FinalIK::InteractionSystem::*)()>(&RootMotion::FinalIK::InteractionSystem::get_triggersInRange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::RootMotion::FinalIK::InteractionTrigger*>* (RootMotion::FinalIK::InteractionSystem::*)()>(&RootMotion::FinalIK::InteractionSystem::get_triggersInRange)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionSystem*), "get_triggersInRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -522,7 +522,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionSystem::set_triggersInRange
 // Il2CppName: set_triggersInRange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionSystem::*)(System::Collections::Generic::List_1<RootMotion::FinalIK::InteractionTrigger*>*)>(&RootMotion::FinalIK::InteractionSystem::set_triggersInRange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionSystem::*)(::System::Collections::Generic::List_1<::RootMotion::FinalIK::InteractionTrigger*>*)>(&RootMotion::FinalIK::InteractionSystem::set_triggersInRange)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "InteractionTrigger")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionSystem*), "set_triggersInRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -595,7 +595,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionSystem::IsInInteraction
 // Il2CppName: IsInInteraction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::InteractionSystem::*)(RootMotion::FinalIK::FullBodyBipedEffector)>(&RootMotion::FinalIK::InteractionSystem::IsInInteraction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::InteractionSystem::*)(::RootMotion::FinalIK::FullBodyBipedEffector)>(&RootMotion::FinalIK::InteractionSystem::IsInInteraction)> {
   static const MethodInfo* get() {
     static auto* effectorType = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "FullBodyBipedEffector")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionSystem*), "IsInInteraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{effectorType});
@@ -604,7 +604,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionSystem::IsPaused
 // Il2CppName: IsPaused
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::InteractionSystem::*)(RootMotion::FinalIK::FullBodyBipedEffector)>(&RootMotion::FinalIK::InteractionSystem::IsPaused)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::InteractionSystem::*)(::RootMotion::FinalIK::FullBodyBipedEffector)>(&RootMotion::FinalIK::InteractionSystem::IsPaused)> {
   static const MethodInfo* get() {
     static auto* effectorType = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "FullBodyBipedEffector")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionSystem*), "IsPaused", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{effectorType});
@@ -629,7 +629,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionSystem::StartInteraction
 // Il2CppName: StartInteraction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::InteractionSystem::*)(RootMotion::FinalIK::FullBodyBipedEffector, RootMotion::FinalIK::InteractionObject*, bool)>(&RootMotion::FinalIK::InteractionSystem::StartInteraction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::InteractionSystem::*)(::RootMotion::FinalIK::FullBodyBipedEffector, ::RootMotion::FinalIK::InteractionObject*, bool)>(&RootMotion::FinalIK::InteractionSystem::StartInteraction)> {
   static const MethodInfo* get() {
     static auto* effectorType = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "FullBodyBipedEffector")->byval_arg;
     static auto* interactionObject = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "InteractionObject")->byval_arg;
@@ -640,7 +640,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionSystem::PauseInteraction
 // Il2CppName: PauseInteraction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::InteractionSystem::*)(RootMotion::FinalIK::FullBodyBipedEffector)>(&RootMotion::FinalIK::InteractionSystem::PauseInteraction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::InteractionSystem::*)(::RootMotion::FinalIK::FullBodyBipedEffector)>(&RootMotion::FinalIK::InteractionSystem::PauseInteraction)> {
   static const MethodInfo* get() {
     static auto* effectorType = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "FullBodyBipedEffector")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionSystem*), "PauseInteraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{effectorType});
@@ -649,7 +649,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionSystem::ResumeInteraction
 // Il2CppName: ResumeInteraction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::InteractionSystem::*)(RootMotion::FinalIK::FullBodyBipedEffector)>(&RootMotion::FinalIK::InteractionSystem::ResumeInteraction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::InteractionSystem::*)(::RootMotion::FinalIK::FullBodyBipedEffector)>(&RootMotion::FinalIK::InteractionSystem::ResumeInteraction)> {
   static const MethodInfo* get() {
     static auto* effectorType = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "FullBodyBipedEffector")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionSystem*), "ResumeInteraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{effectorType});
@@ -658,7 +658,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionSystem::StopInteraction
 // Il2CppName: StopInteraction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::InteractionSystem::*)(RootMotion::FinalIK::FullBodyBipedEffector)>(&RootMotion::FinalIK::InteractionSystem::StopInteraction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::InteractionSystem::*)(::RootMotion::FinalIK::FullBodyBipedEffector)>(&RootMotion::FinalIK::InteractionSystem::StopInteraction)> {
   static const MethodInfo* get() {
     static auto* effectorType = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "FullBodyBipedEffector")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionSystem*), "StopInteraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{effectorType});
@@ -691,7 +691,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionSystem::GetInteractionObject
 // Il2CppName: GetInteractionObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::InteractionObject* (RootMotion::FinalIK::InteractionSystem::*)(RootMotion::FinalIK::FullBodyBipedEffector)>(&RootMotion::FinalIK::InteractionSystem::GetInteractionObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::FinalIK::InteractionObject* (RootMotion::FinalIK::InteractionSystem::*)(::RootMotion::FinalIK::FullBodyBipedEffector)>(&RootMotion::FinalIK::InteractionSystem::GetInteractionObject)> {
   static const MethodInfo* get() {
     static auto* effectorType = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "FullBodyBipedEffector")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionSystem*), "GetInteractionObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{effectorType});
@@ -700,7 +700,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion:
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionSystem::GetProgress
 // Il2CppName: GetProgress
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (RootMotion::FinalIK::InteractionSystem::*)(RootMotion::FinalIK::FullBodyBipedEffector)>(&RootMotion::FinalIK::InteractionSystem::GetProgress)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (RootMotion::FinalIK::InteractionSystem::*)(::RootMotion::FinalIK::FullBodyBipedEffector)>(&RootMotion::FinalIK::InteractionSystem::GetProgress)> {
   static const MethodInfo* get() {
     static auto* effectorType = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "FullBodyBipedEffector")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionSystem*), "GetProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{effectorType});
@@ -727,7 +727,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionSystem::TriggerInteraction
 // Il2CppName: TriggerInteraction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::InteractionSystem::*)(int, bool, ByRef<RootMotion::FinalIK::InteractionObject*>)>(&RootMotion::FinalIK::InteractionSystem::TriggerInteraction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::InteractionSystem::*)(int, bool, ByRef<::RootMotion::FinalIK::InteractionObject*>)>(&RootMotion::FinalIK::InteractionSystem::TriggerInteraction)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* interrupt = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -738,7 +738,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionSystem::TriggerInteraction
 // Il2CppName: TriggerInteraction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::InteractionSystem::*)(int, bool, ByRef<RootMotion::FinalIK::InteractionTarget*>)>(&RootMotion::FinalIK::InteractionSystem::TriggerInteraction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::InteractionSystem::*)(int, bool, ByRef<::RootMotion::FinalIK::InteractionTarget*>)>(&RootMotion::FinalIK::InteractionSystem::TriggerInteraction)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* interrupt = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -749,7 +749,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionSystem::GetClosestInteractionRange
 // Il2CppName: GetClosestInteractionRange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::InteractionTrigger::Range* (RootMotion::FinalIK::InteractionSystem::*)()>(&RootMotion::FinalIK::InteractionSystem::GetClosestInteractionRange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::FinalIK::InteractionTrigger::Range* (RootMotion::FinalIK::InteractionSystem::*)()>(&RootMotion::FinalIK::InteractionSystem::GetClosestInteractionRange)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionSystem*), "GetClosestInteractionRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -757,7 +757,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion:
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionSystem::GetClosestInteractionObjectInRange
 // Il2CppName: GetClosestInteractionObjectInRange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::InteractionObject* (RootMotion::FinalIK::InteractionSystem::*)()>(&RootMotion::FinalIK::InteractionSystem::GetClosestInteractionObjectInRange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::FinalIK::InteractionObject* (RootMotion::FinalIK::InteractionSystem::*)()>(&RootMotion::FinalIK::InteractionSystem::GetClosestInteractionObjectInRange)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionSystem*), "GetClosestInteractionObjectInRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -765,7 +765,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion:
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionSystem::GetClosestInteractionTargetInRange
 // Il2CppName: GetClosestInteractionTargetInRange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::InteractionTarget* (RootMotion::FinalIK::InteractionSystem::*)()>(&RootMotion::FinalIK::InteractionSystem::GetClosestInteractionTargetInRange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::FinalIK::InteractionTarget* (RootMotion::FinalIK::InteractionSystem::*)()>(&RootMotion::FinalIK::InteractionSystem::GetClosestInteractionTargetInRange)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionSystem*), "GetClosestInteractionTargetInRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -773,7 +773,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion:
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionSystem::GetClosestInteractionObjectsInRange
 // Il2CppName: GetClosestInteractionObjectsInRange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<RootMotion::FinalIK::InteractionObject*> (RootMotion::FinalIK::InteractionSystem::*)()>(&RootMotion::FinalIK::InteractionSystem::GetClosestInteractionObjectsInRange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::RootMotion::FinalIK::InteractionObject*> (RootMotion::FinalIK::InteractionSystem::*)()>(&RootMotion::FinalIK::InteractionSystem::GetClosestInteractionObjectsInRange)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionSystem*), "GetClosestInteractionObjectsInRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -781,7 +781,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Ro
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionSystem::GetClosestInteractionTargetsInRange
 // Il2CppName: GetClosestInteractionTargetsInRange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<RootMotion::FinalIK::InteractionTarget*> (RootMotion::FinalIK::InteractionSystem::*)()>(&RootMotion::FinalIK::InteractionSystem::GetClosestInteractionTargetsInRange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::RootMotion::FinalIK::InteractionTarget*> (RootMotion::FinalIK::InteractionSystem::*)()>(&RootMotion::FinalIK::InteractionSystem::GetClosestInteractionTargetsInRange)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionSystem*), "GetClosestInteractionTargetsInRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -798,7 +798,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionSystem::GetTriggerRange
 // Il2CppName: GetTriggerRange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::InteractionTrigger::Range* (RootMotion::FinalIK::InteractionSystem::*)(int)>(&RootMotion::FinalIK::InteractionSystem::GetTriggerRange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::FinalIK::InteractionTrigger::Range* (RootMotion::FinalIK::InteractionSystem::*)(int)>(&RootMotion::FinalIK::InteractionSystem::GetTriggerRange)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionSystem*), "GetTriggerRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
@@ -823,7 +823,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionSystem::InteractionPause
 // Il2CppName: InteractionPause
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionSystem::*)(RootMotion::FinalIK::FullBodyBipedEffector, RootMotion::FinalIK::InteractionObject*)>(&RootMotion::FinalIK::InteractionSystem::InteractionPause)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionSystem::*)(::RootMotion::FinalIK::FullBodyBipedEffector, ::RootMotion::FinalIK::InteractionObject*)>(&RootMotion::FinalIK::InteractionSystem::InteractionPause)> {
   static const MethodInfo* get() {
     static auto* effector = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "FullBodyBipedEffector")->byval_arg;
     static auto* interactionObject = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "InteractionObject")->byval_arg;
@@ -833,7 +833,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionSystem::InteractionResume
 // Il2CppName: InteractionResume
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionSystem::*)(RootMotion::FinalIK::FullBodyBipedEffector, RootMotion::FinalIK::InteractionObject*)>(&RootMotion::FinalIK::InteractionSystem::InteractionResume)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionSystem::*)(::RootMotion::FinalIK::FullBodyBipedEffector, ::RootMotion::FinalIK::InteractionObject*)>(&RootMotion::FinalIK::InteractionSystem::InteractionResume)> {
   static const MethodInfo* get() {
     static auto* effector = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "FullBodyBipedEffector")->byval_arg;
     static auto* interactionObject = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "InteractionObject")->byval_arg;
@@ -843,7 +843,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionSystem::InteractionStop
 // Il2CppName: InteractionStop
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionSystem::*)(RootMotion::FinalIK::FullBodyBipedEffector, RootMotion::FinalIK::InteractionObject*)>(&RootMotion::FinalIK::InteractionSystem::InteractionStop)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionSystem::*)(::RootMotion::FinalIK::FullBodyBipedEffector, ::RootMotion::FinalIK::InteractionObject*)>(&RootMotion::FinalIK::InteractionSystem::InteractionStop)> {
   static const MethodInfo* get() {
     static auto* effector = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "FullBodyBipedEffector")->byval_arg;
     static auto* interactionObject = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "InteractionObject")->byval_arg;
@@ -853,7 +853,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionSystem::LookAtInteraction
 // Il2CppName: LookAtInteraction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionSystem::*)(RootMotion::FinalIK::FullBodyBipedEffector, RootMotion::FinalIK::InteractionObject*)>(&RootMotion::FinalIK::InteractionSystem::LookAtInteraction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionSystem::*)(::RootMotion::FinalIK::FullBodyBipedEffector, ::RootMotion::FinalIK::InteractionObject*)>(&RootMotion::FinalIK::InteractionSystem::LookAtInteraction)> {
   static const MethodInfo* get() {
     static auto* effector = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "FullBodyBipedEffector")->byval_arg;
     static auto* interactionObject = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "InteractionObject")->byval_arg;
@@ -863,7 +863,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionSystem::OnTriggerEnter
 // Il2CppName: OnTriggerEnter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionSystem::*)(UnityEngine::Collider*)>(&RootMotion::FinalIK::InteractionSystem::OnTriggerEnter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionSystem::*)(::UnityEngine::Collider*)>(&RootMotion::FinalIK::InteractionSystem::OnTriggerEnter)> {
   static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("UnityEngine", "Collider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionSystem*), "OnTriggerEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
@@ -872,7 +872,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionSystem::OnTriggerExit
 // Il2CppName: OnTriggerExit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionSystem::*)(UnityEngine::Collider*)>(&RootMotion::FinalIK::InteractionSystem::OnTriggerExit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionSystem::*)(::UnityEngine::Collider*)>(&RootMotion::FinalIK::InteractionSystem::OnTriggerExit)> {
   static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("UnityEngine", "Collider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionSystem*), "OnTriggerExit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});

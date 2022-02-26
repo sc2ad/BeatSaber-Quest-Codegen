@@ -24,8 +24,8 @@ namespace VRUIControls {
   class MouseButtonEventData;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(VRUIControls::MouseButtonEventData);
-DEFINE_IL2CPP_ARG_TYPE(VRUIControls::MouseButtonEventData*, "VRUIControls", "MouseButtonEventData");
+NEED_NO_BOX(::VRUIControls::MouseButtonEventData);
+DEFINE_IL2CPP_ARG_TYPE(::VRUIControls::MouseButtonEventData*, "VRUIControls", "MouseButtonEventData");
 // Type namespace: VRUIControls
 namespace VRUIControls {
   // Size: 0x20
@@ -46,22 +46,22 @@ namespace VRUIControls {
     // public UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.FramePressState buttonState
     // Size: 0x4
     // Offset: 0x10
-    UnityEngine::EventSystems::PointerEventData::FramePressState buttonState;
+    ::UnityEngine::EventSystems::PointerEventData::FramePressState buttonState;
     // Field size check
-    static_assert(sizeof(UnityEngine::EventSystems::PointerEventData::FramePressState) == 0x4);
+    static_assert(sizeof(::UnityEngine::EventSystems::PointerEventData::FramePressState) == 0x4);
     // Padding between fields: buttonState and: buttonData
     char __padding0[0x4] = {};
     // public UnityEngine.EventSystems.PointerEventData buttonData
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::EventSystems::PointerEventData* buttonData;
+    ::UnityEngine::EventSystems::PointerEventData* buttonData;
     // Field size check
-    static_assert(sizeof(UnityEngine::EventSystems::PointerEventData*) == 0x8);
+    static_assert(sizeof(::UnityEngine::EventSystems::PointerEventData*) == 0x8);
     public:
     // Get instance field reference: public UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.FramePressState buttonState
-    UnityEngine::EventSystems::PointerEventData::FramePressState& dyn_buttonState();
+    ::UnityEngine::EventSystems::PointerEventData::FramePressState& dyn_buttonState();
     // Get instance field reference: public UnityEngine.EventSystems.PointerEventData buttonData
-    UnityEngine::EventSystems::PointerEventData*& dyn_buttonData();
+    ::UnityEngine::EventSystems::PointerEventData*& dyn_buttonData();
     // public System.Boolean PressedThisFrame()
     // Offset: 0x29B7AE4
     bool PressedThisFrame();
@@ -74,12 +74,12 @@ namespace VRUIControls {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MouseButtonEventData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("VRUIControls::MouseButtonEventData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::VRUIControls::MouseButtonEventData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MouseButtonEventData*, creationType>()));
     }
   }; // VRUIControls.MouseButtonEventData
   #pragma pack(pop)
-  static check_size<sizeof(MouseButtonEventData), 24 + sizeof(UnityEngine::EventSystems::PointerEventData*)> __VRUIControls_MouseButtonEventDataSizeCheck;
+  static check_size<sizeof(MouseButtonEventData), 24 + sizeof(::UnityEngine::EventSystems::PointerEventData*)> __VRUIControls_MouseButtonEventDataSizeCheck;
   static_assert(sizeof(MouseButtonEventData) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

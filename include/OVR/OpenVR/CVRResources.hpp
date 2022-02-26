@@ -28,8 +28,8 @@ namespace OVR::OpenVR {
   class CVRResources;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(OVR::OpenVR::CVRResources);
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRResources*, "OVR.OpenVR", "CVRResources");
+NEED_NO_BOX(::OVR::OpenVR::CVRResources);
+DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::CVRResources*, "OVR.OpenVR", "CVRResources");
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
   // Size: 0x20
@@ -50,21 +50,21 @@ namespace OVR::OpenVR {
     // private OVR.OpenVR.IVRResources FnTable
     // Size: 0x10
     // Offset: 0x10
-    OVR::OpenVR::IVRResources FnTable;
+    ::OVR::OpenVR::IVRResources FnTable;
     // Field size check
-    static_assert(sizeof(OVR::OpenVR::IVRResources) == 0x10);
+    static_assert(sizeof(::OVR::OpenVR::IVRResources) == 0x10);
     public:
-    // Creating conversion operator: operator OVR::OpenVR::IVRResources
-    constexpr operator OVR::OpenVR::IVRResources() const noexcept {
+    // Creating conversion operator: operator ::OVR::OpenVR::IVRResources
+    constexpr operator ::OVR::OpenVR::IVRResources() const noexcept {
       return FnTable;
     }
     // Get instance field reference: private OVR.OpenVR.IVRResources FnTable
-    OVR::OpenVR::IVRResources& dyn_FnTable();
+    ::OVR::OpenVR::IVRResources& dyn_FnTable();
     // System.Void .ctor(System.IntPtr pInterface)
     // Offset: 0x1A0E534
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CVRResources* New_ctor(System::IntPtr pInterface) {
-      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::CVRResources::.ctor");
+    static CVRResources* New_ctor(::System::IntPtr pInterface) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::OVR::OpenVR::CVRResources::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRResources*, creationType>(pInterface)));
     }
     // public System.UInt32 LoadSharedResource(System.String pchResourceName, System.String pchBuffer, System.UInt32 unBufferLen)
@@ -72,10 +72,10 @@ namespace OVR::OpenVR {
     uint LoadSharedResource(::StringW pchResourceName, ::StringW pchBuffer, uint unBufferLen);
     // public System.UInt32 GetResourceFullPath(System.String pchResourceName, System.String pchResourceTypeDirectory, System.Text.StringBuilder pchPathBuffer, System.UInt32 unBufferLen)
     // Offset: 0x1A0E650
-    uint GetResourceFullPath(::StringW pchResourceName, ::StringW pchResourceTypeDirectory, System::Text::StringBuilder* pchPathBuffer, uint unBufferLen);
+    uint GetResourceFullPath(::StringW pchResourceName, ::StringW pchResourceTypeDirectory, ::System::Text::StringBuilder* pchPathBuffer, uint unBufferLen);
   }; // OVR.OpenVR.CVRResources
   #pragma pack(pop)
-  static check_size<sizeof(CVRResources), 16 + sizeof(OVR::OpenVR::IVRResources)> __OVR_OpenVR_CVRResourcesSizeCheck;
+  static check_size<sizeof(CVRResources), 16 + sizeof(::OVR::OpenVR::IVRResources)> __OVR_OpenVR_CVRResourcesSizeCheck;
   static_assert(sizeof(CVRResources) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -97,7 +97,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVRResources::GetResourceFullPath
 // Il2CppName: GetResourceFullPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRResources::*)(::StringW, ::StringW, System::Text::StringBuilder*, uint)>(&OVR::OpenVR::CVRResources::GetResourceFullPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRResources::*)(::StringW, ::StringW, ::System::Text::StringBuilder*, uint)>(&OVR::OpenVR::CVRResources::GetResourceFullPath)> {
   static const MethodInfo* get() {
     static auto* pchResourceName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchResourceTypeDirectory = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

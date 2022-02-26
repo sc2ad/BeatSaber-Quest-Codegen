@@ -18,8 +18,8 @@ namespace RootMotion::FinalIK {
   class RotationLimitHinge;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::RotationLimitHinge);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RotationLimitHinge*, "RootMotion.FinalIK", "RotationLimitHinge");
+NEED_NO_BOX(::RootMotion::FinalIK::RotationLimitHinge);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::RotationLimitHinge*, "RootMotion.FinalIK", "RotationLimitHinge");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x5C
@@ -28,7 +28,7 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   // [HelpURLAttribute] Offset: 126305C
   // [AddComponentMenu] Offset: 126305C
-  class RotationLimitHinge : public RootMotion::FinalIK::RotationLimit {
+  class RotationLimitHinge : public ::RootMotion::FinalIK::RotationLimit {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -68,9 +68,9 @@ namespace RootMotion::FinalIK {
     // private UnityEngine.Quaternion lastRotation
     // Size: 0x10
     // Offset: 0x48
-    UnityEngine::Quaternion lastRotation;
+    ::UnityEngine::Quaternion lastRotation;
     // Field size check
-    static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    static_assert(sizeof(::UnityEngine::Quaternion) == 0x10);
     // private System.Single lastAngle
     // Size: 0x4
     // Offset: 0x58
@@ -87,7 +87,7 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Single zeroAxisDisplayOffset
     float& dyn_zeroAxisDisplayOffset();
     // Get instance field reference: private UnityEngine.Quaternion lastRotation
-    UnityEngine::Quaternion& dyn_lastRotation();
+    ::UnityEngine::Quaternion& dyn_lastRotation();
     // Get instance field reference: private System.Single lastAngle
     float& dyn_lastAngle();
     // private System.Void OpenUserManual()
@@ -104,7 +104,7 @@ namespace RootMotion::FinalIK {
     void ASThread();
     // private UnityEngine.Quaternion LimitHinge(UnityEngine.Quaternion rotation)
     // Offset: 0x1F10EBC
-    UnityEngine::Quaternion LimitHinge(UnityEngine::Quaternion rotation);
+    ::UnityEngine::Quaternion LimitHinge(::UnityEngine::Quaternion rotation);
     // public System.Void .ctor()
     // Offset: 0x1F111BC
     // Implemented from: RootMotion.FinalIK.RotationLimit
@@ -116,14 +116,14 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RotationLimitHinge* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::RotationLimitHinge::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::RotationLimitHinge::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RotationLimitHinge*, creationType>()));
     }
     // protected override UnityEngine.Quaternion LimitRotation(UnityEngine.Quaternion rotation)
     // Offset: 0x1F10E94
     // Implemented from: RootMotion.FinalIK.RotationLimit
     // Base method: UnityEngine.Quaternion RotationLimit::LimitRotation(UnityEngine.Quaternion rotation)
-    UnityEngine::Quaternion LimitRotation(UnityEngine::Quaternion rotation);
+    ::UnityEngine::Quaternion LimitRotation(::UnityEngine::Quaternion rotation);
   }; // RootMotion.FinalIK.RotationLimitHinge
   #pragma pack(pop)
   static check_size<sizeof(RotationLimitHinge), 88 + sizeof(float)> __RootMotion_FinalIK_RotationLimitHingeSizeCheck;
@@ -165,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::RotationLimitHinge::LimitHinge
 // Il2CppName: LimitHinge
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (RootMotion::FinalIK::RotationLimitHinge::*)(UnityEngine::Quaternion)>(&RootMotion::FinalIK::RotationLimitHinge::LimitHinge)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (RootMotion::FinalIK::RotationLimitHinge::*)(::UnityEngine::Quaternion)>(&RootMotion::FinalIK::RotationLimitHinge::LimitHinge)> {
   static const MethodInfo* get() {
     static auto* rotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RotationLimitHinge*), "LimitHinge", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rotation});
@@ -178,7 +178,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: RootMotion::FinalIK::RotationLimitHinge::LimitRotation
 // Il2CppName: LimitRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (RootMotion::FinalIK::RotationLimitHinge::*)(UnityEngine::Quaternion)>(&RootMotion::FinalIK::RotationLimitHinge::LimitRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (RootMotion::FinalIK::RotationLimitHinge::*)(::UnityEngine::Quaternion)>(&RootMotion::FinalIK::RotationLimitHinge::LimitRotation)> {
   static const MethodInfo* get() {
     static auto* rotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RotationLimitHinge*), "LimitRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rotation});

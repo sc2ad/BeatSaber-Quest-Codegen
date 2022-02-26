@@ -19,8 +19,8 @@ namespace Microsoft::Win32 {
   class Registry;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Microsoft::Win32::Registry);
-DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::Registry*, "Microsoft.Win32", "Registry");
+NEED_NO_BOX(::Microsoft::Win32::Registry);
+DEFINE_IL2CPP_ARG_TYPE(::Microsoft::Win32::Registry*, "Microsoft.Win32", "Registry");
 // Type namespace: Microsoft.Win32
 namespace Microsoft::Win32 {
   // Size: 0x10
@@ -31,34 +31,34 @@ namespace Microsoft::Win32 {
   class Registry : public ::Il2CppObject {
     public:
     // Get static field: static public readonly Microsoft.Win32.RegistryKey ClassesRoot
-    static Microsoft::Win32::RegistryKey* _get_ClassesRoot();
+    static ::Microsoft::Win32::RegistryKey* _get_ClassesRoot();
     // Set static field: static public readonly Microsoft.Win32.RegistryKey ClassesRoot
-    static void _set_ClassesRoot(Microsoft::Win32::RegistryKey* value);
+    static void _set_ClassesRoot(::Microsoft::Win32::RegistryKey* value);
     // Get static field: static public readonly Microsoft.Win32.RegistryKey CurrentConfig
-    static Microsoft::Win32::RegistryKey* _get_CurrentConfig();
+    static ::Microsoft::Win32::RegistryKey* _get_CurrentConfig();
     // Set static field: static public readonly Microsoft.Win32.RegistryKey CurrentConfig
-    static void _set_CurrentConfig(Microsoft::Win32::RegistryKey* value);
+    static void _set_CurrentConfig(::Microsoft::Win32::RegistryKey* value);
     // Get static field: static public readonly Microsoft.Win32.RegistryKey CurrentUser
-    static Microsoft::Win32::RegistryKey* _get_CurrentUser();
+    static ::Microsoft::Win32::RegistryKey* _get_CurrentUser();
     // Set static field: static public readonly Microsoft.Win32.RegistryKey CurrentUser
-    static void _set_CurrentUser(Microsoft::Win32::RegistryKey* value);
+    static void _set_CurrentUser(::Microsoft::Win32::RegistryKey* value);
     // [ObsoleteAttribute] Offset: 0x118DA04
     // Get static field: static public readonly Microsoft.Win32.RegistryKey DynData
-    static Microsoft::Win32::RegistryKey* _get_DynData();
+    static ::Microsoft::Win32::RegistryKey* _get_DynData();
     // Set static field: static public readonly Microsoft.Win32.RegistryKey DynData
-    static void _set_DynData(Microsoft::Win32::RegistryKey* value);
+    static void _set_DynData(::Microsoft::Win32::RegistryKey* value);
     // Get static field: static public readonly Microsoft.Win32.RegistryKey LocalMachine
-    static Microsoft::Win32::RegistryKey* _get_LocalMachine();
+    static ::Microsoft::Win32::RegistryKey* _get_LocalMachine();
     // Set static field: static public readonly Microsoft.Win32.RegistryKey LocalMachine
-    static void _set_LocalMachine(Microsoft::Win32::RegistryKey* value);
+    static void _set_LocalMachine(::Microsoft::Win32::RegistryKey* value);
     // Get static field: static public readonly Microsoft.Win32.RegistryKey PerformanceData
-    static Microsoft::Win32::RegistryKey* _get_PerformanceData();
+    static ::Microsoft::Win32::RegistryKey* _get_PerformanceData();
     // Set static field: static public readonly Microsoft.Win32.RegistryKey PerformanceData
-    static void _set_PerformanceData(Microsoft::Win32::RegistryKey* value);
+    static void _set_PerformanceData(::Microsoft::Win32::RegistryKey* value);
     // Get static field: static public readonly Microsoft.Win32.RegistryKey Users
-    static Microsoft::Win32::RegistryKey* _get_Users();
+    static ::Microsoft::Win32::RegistryKey* _get_Users();
     // Set static field: static public readonly Microsoft.Win32.RegistryKey Users
-    static void _set_Users(Microsoft::Win32::RegistryKey* value);
+    static void _set_Users(::Microsoft::Win32::RegistryKey* value);
     // static private System.Void .cctor()
     // Offset: 0x1E63DC4
     static void _cctor();

@@ -27,8 +27,8 @@ namespace Polyglot {
   class LanguageDropdown;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Polyglot::LanguageDropdown);
-DEFINE_IL2CPP_ARG_TYPE(Polyglot::LanguageDropdown*, "Polyglot", "LanguageDropdown");
+NEED_NO_BOX(::Polyglot::LanguageDropdown);
+DEFINE_IL2CPP_ARG_TYPE(::Polyglot::LanguageDropdown*, "Polyglot", "LanguageDropdown");
 // Type namespace: Polyglot
 namespace Polyglot {
   // Size: 0x20
@@ -37,7 +37,7 @@ namespace Polyglot {
   // [TokenAttribute] Offset: FFFFFFFF
   // [RequireComponent] Offset: 1210C7C
   // [AddComponentMenu] Offset: 1210C7C
-  class LanguageDropdown : public UnityEngine::MonoBehaviour/*, public Polyglot::ILocalize*/ {
+  class LanguageDropdown : public ::UnityEngine::MonoBehaviour/*, public ::Polyglot::ILocalize*/ {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -52,18 +52,18 @@ namespace Polyglot {
     // private UnityEngine.UI.Dropdown dropdown
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::UI::Dropdown* dropdown;
+    ::UnityEngine::UI::Dropdown* dropdown;
     // Field size check
-    static_assert(sizeof(UnityEngine::UI::Dropdown*) == 0x8);
+    static_assert(sizeof(::UnityEngine::UI::Dropdown*) == 0x8);
     public:
-    // Creating interface conversion operator: operator Polyglot::ILocalize
-    operator Polyglot::ILocalize() noexcept {
-      return *reinterpret_cast<Polyglot::ILocalize*>(this);
+    // Creating interface conversion operator: operator ::Polyglot::ILocalize
+    operator ::Polyglot::ILocalize() noexcept {
+      return *reinterpret_cast<::Polyglot::ILocalize*>(this);
     }
-    // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const noexcept = delete;
+    // Deleting conversion operator: operator ::System::IntPtr
+    constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.UI.Dropdown dropdown
-    UnityEngine::UI::Dropdown*& dyn_dropdown();
+    ::UnityEngine::UI::Dropdown*& dyn_dropdown();
     // public System.Void Reset()
     // Offset: 0x2996210
     void Reset();
@@ -86,12 +86,12 @@ namespace Polyglot {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LanguageDropdown* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Polyglot::LanguageDropdown::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Polyglot::LanguageDropdown::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LanguageDropdown*, creationType>()));
     }
   }; // Polyglot.LanguageDropdown
   #pragma pack(pop)
-  static check_size<sizeof(LanguageDropdown), 24 + sizeof(UnityEngine::UI::Dropdown*)> __Polyglot_LanguageDropdownSizeCheck;
+  static check_size<sizeof(LanguageDropdown), 24 + sizeof(::UnityEngine::UI::Dropdown*)> __Polyglot_LanguageDropdownSizeCheck;
   static_assert(sizeof(LanguageDropdown) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

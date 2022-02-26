@@ -12,8 +12,8 @@ namespace System {
   class __Il2CppComObject;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::__Il2CppComObject);
-DEFINE_IL2CPP_ARG_TYPE(System::__Il2CppComObject*, "System", "__Il2CppComObject");
+NEED_NO_BOX(::System::__Il2CppComObject);
+DEFINE_IL2CPP_ARG_TYPE(::System::__Il2CppComObject*, "System", "__Il2CppComObject");
 // Type namespace: System
 namespace System {
   // Size: 0x10

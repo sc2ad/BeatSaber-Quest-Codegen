@@ -30,8 +30,8 @@ namespace Org::BouncyCastle::Asn1::Utilities {
   class Asn1Dump;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Asn1::Utilities::Asn1Dump);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Utilities::Asn1Dump*, "Org.BouncyCastle.Asn1.Utilities", "Asn1Dump");
+NEED_NO_BOX(::Org::BouncyCastle::Asn1::Utilities::Asn1Dump);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Utilities::Asn1Dump*, "Org.BouncyCastle.Asn1.Utilities", "Asn1Dump");
 // Type namespace: Org.BouncyCastle.Asn1.Utilities
 namespace Org::BouncyCastle::Asn1::Utilities {
   // Size: 0x10
@@ -49,16 +49,16 @@ namespace Org::BouncyCastle::Asn1::Utilities {
     static void _cctor();
     // static private System.Void AsString(System.String indent, System.Boolean verbose, Org.BouncyCastle.Asn1.Asn1Object obj, System.Text.StringBuilder buf)
     // Offset: 0x1BDA224
-    static void AsString(::StringW indent, bool verbose, Org::BouncyCastle::Asn1::Asn1Object* obj, System::Text::StringBuilder* buf);
+    static void AsString(::StringW indent, bool verbose, ::Org::BouncyCastle::Asn1::Asn1Object* obj, ::System::Text::StringBuilder* buf);
     // static private System.String outputApplicationSpecific(System.String type, System.String indent, System.Boolean verbose, Org.BouncyCastle.Asn1.DerApplicationSpecific app)
     // Offset: 0x1BDC9D8
-    static ::StringW outputApplicationSpecific(::StringW type, ::StringW indent, bool verbose, Org::BouncyCastle::Asn1::DerApplicationSpecific* app);
+    static ::StringW outputApplicationSpecific(::StringW type, ::StringW indent, bool verbose, ::Org::BouncyCastle::Asn1::DerApplicationSpecific* app);
     // static public System.String DumpAsString(Org.BouncyCastle.Asn1.Asn1Encodable obj)
     // Offset: 0x1BDD220
-    static ::StringW DumpAsString(Org::BouncyCastle::Asn1::Asn1Encodable* obj);
+    static ::StringW DumpAsString(::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
     // static public System.String DumpAsString(Org.BouncyCastle.Asn1.Asn1Encodable obj, System.Boolean verbose)
     // Offset: 0x1BDD288
-    static ::StringW DumpAsString(Org::BouncyCastle::Asn1::Asn1Encodable* obj, bool verbose);
+    static ::StringW DumpAsString(::Org::BouncyCastle::Asn1::Asn1Encodable* obj, bool verbose);
     // static private System.String dumpBinaryDataAsString(System.String indent, System.Byte[] bytes)
     // Offset: 0x1BDC768
     static ::StringW dumpBinaryDataAsString(::StringW indent, ::ArrayW<uint8_t> bytes);
@@ -80,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Utilities::Asn1Dump::AsString
 // Il2CppName: AsString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, bool, Org::BouncyCastle::Asn1::Asn1Object*, System::Text::StringBuilder*)>(&Org::BouncyCastle::Asn1::Utilities::Asn1Dump::AsString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, bool, ::Org::BouncyCastle::Asn1::Asn1Object*, ::System::Text::StringBuilder*)>(&Org::BouncyCastle::Asn1::Utilities::Asn1Dump::AsString)> {
   static const MethodInfo* get() {
     static auto* indent = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* verbose = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -92,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Utilities::Asn1Dump::outputApplicationSpecific
 // Il2CppName: outputApplicationSpecific
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW, bool, Org::BouncyCastle::Asn1::DerApplicationSpecific*)>(&Org::BouncyCastle::Asn1::Utilities::Asn1Dump::outputApplicationSpecific)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW, bool, ::Org::BouncyCastle::Asn1::DerApplicationSpecific*)>(&Org::BouncyCastle::Asn1::Utilities::Asn1Dump::outputApplicationSpecific)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* indent = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -104,7 +104,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Utilities::Asn1Dump::DumpAsString
 // Il2CppName: DumpAsString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(Org::BouncyCastle::Asn1::Asn1Encodable*)>(&Org::BouncyCastle::Asn1::Utilities::Asn1Dump::DumpAsString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::Org::BouncyCastle::Asn1::Asn1Encodable*)>(&Org::BouncyCastle::Asn1::Utilities::Asn1Dump::DumpAsString)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1", "Asn1Encodable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Utilities::Asn1Dump*), "DumpAsString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -113,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Utilities::Asn1Dump::DumpAsString
 // Il2CppName: DumpAsString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(Org::BouncyCastle::Asn1::Asn1Encodable*, bool)>(&Org::BouncyCastle::Asn1::Utilities::Asn1Dump::DumpAsString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::Org::BouncyCastle::Asn1::Asn1Encodable*, bool)>(&Org::BouncyCastle::Asn1::Utilities::Asn1Dump::DumpAsString)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1", "Asn1Encodable")->byval_arg;
     static auto* verbose = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

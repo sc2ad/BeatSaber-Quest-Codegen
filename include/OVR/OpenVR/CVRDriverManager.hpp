@@ -28,8 +28,8 @@ namespace OVR::OpenVR {
   class CVRDriverManager;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(OVR::OpenVR::CVRDriverManager);
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRDriverManager*, "OVR.OpenVR", "CVRDriverManager");
+NEED_NO_BOX(::OVR::OpenVR::CVRDriverManager);
+DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::CVRDriverManager*, "OVR.OpenVR", "CVRDriverManager");
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
   // Size: 0x28
@@ -50,21 +50,21 @@ namespace OVR::OpenVR {
     // private OVR.OpenVR.IVRDriverManager FnTable
     // Size: 0x18
     // Offset: 0x10
-    OVR::OpenVR::IVRDriverManager FnTable;
+    ::OVR::OpenVR::IVRDriverManager FnTable;
     // Field size check
-    static_assert(sizeof(OVR::OpenVR::IVRDriverManager) == 0x18);
+    static_assert(sizeof(::OVR::OpenVR::IVRDriverManager) == 0x18);
     public:
-    // Creating conversion operator: operator OVR::OpenVR::IVRDriverManager
-    constexpr operator OVR::OpenVR::IVRDriverManager() const noexcept {
+    // Creating conversion operator: operator ::OVR::OpenVR::IVRDriverManager
+    constexpr operator ::OVR::OpenVR::IVRDriverManager() const noexcept {
       return FnTable;
     }
     // Get instance field reference: private OVR.OpenVR.IVRDriverManager FnTable
-    OVR::OpenVR::IVRDriverManager& dyn_FnTable();
+    ::OVR::OpenVR::IVRDriverManager& dyn_FnTable();
     // System.Void .ctor(System.IntPtr pInterface)
     // Offset: 0x1A0C1BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CVRDriverManager* New_ctor(System::IntPtr pInterface) {
-      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::CVRDriverManager::.ctor");
+    static CVRDriverManager* New_ctor(::System::IntPtr pInterface) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::OVR::OpenVR::CVRDriverManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRDriverManager*, creationType>(pInterface)));
     }
     // public System.UInt32 GetDriverCount()
@@ -72,13 +72,13 @@ namespace OVR::OpenVR {
     uint GetDriverCount();
     // public System.UInt32 GetDriverName(System.UInt32 nDriver, System.Text.StringBuilder pchValue, System.UInt32 unBufferSize)
     // Offset: 0x1A0C2E0
-    uint GetDriverName(uint nDriver, System::Text::StringBuilder* pchValue, uint unBufferSize);
+    uint GetDriverName(uint nDriver, ::System::Text::StringBuilder* pchValue, uint unBufferSize);
     // public System.UInt64 GetDriverHandle(System.String pchDriverName)
     // Offset: 0x1A0C2FC
     uint64_t GetDriverHandle(::StringW pchDriverName);
   }; // OVR.OpenVR.CVRDriverManager
   #pragma pack(pop)
-  static check_size<sizeof(CVRDriverManager), 16 + sizeof(OVR::OpenVR::IVRDriverManager)> __OVR_OpenVR_CVRDriverManagerSizeCheck;
+  static check_size<sizeof(CVRDriverManager), 16 + sizeof(::OVR::OpenVR::IVRDriverManager)> __OVR_OpenVR_CVRDriverManagerSizeCheck;
   static_assert(sizeof(CVRDriverManager) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -97,7 +97,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVRDriverManager::GetDriverName
 // Il2CppName: GetDriverName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRDriverManager::*)(uint, System::Text::StringBuilder*, uint)>(&OVR::OpenVR::CVRDriverManager::GetDriverName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRDriverManager::*)(uint, ::System::Text::StringBuilder*, uint)>(&OVR::OpenVR::CVRDriverManager::GetDriverName)> {
   static const MethodInfo* get() {
     static auto* nDriver = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* pchValue = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;

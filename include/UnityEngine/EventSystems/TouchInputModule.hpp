@@ -25,8 +25,8 @@ namespace UnityEngine::EventSystems {
   class TouchInputModule;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::EventSystems::TouchInputModule);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::TouchInputModule*, "UnityEngine.EventSystems", "TouchInputModule");
+NEED_NO_BOX(::UnityEngine::EventSystems::TouchInputModule);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::EventSystems::TouchInputModule*, "UnityEngine.EventSystems", "TouchInputModule");
 // Type namespace: UnityEngine.EventSystems
 namespace UnityEngine::EventSystems {
   // Size: 0x71
@@ -35,7 +35,7 @@ namespace UnityEngine::EventSystems {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ObsoleteAttribute] Offset: 11E13F8
   // [AddComponentMenu] Offset: 11E13F8
-  class TouchInputModule : public UnityEngine::EventSystems::PointerInputModule {
+  class TouchInputModule : public ::UnityEngine::EventSystems::PointerInputModule {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -49,21 +49,21 @@ namespace UnityEngine::EventSystems {
     // private UnityEngine.Vector2 m_LastMousePosition
     // Size: 0x8
     // Offset: 0x58
-    UnityEngine::Vector2 m_LastMousePosition;
+    ::UnityEngine::Vector2 m_LastMousePosition;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector2) == 0x8);
+    static_assert(sizeof(::UnityEngine::Vector2) == 0x8);
     // private UnityEngine.Vector2 m_MousePosition
     // Size: 0x8
     // Offset: 0x60
-    UnityEngine::Vector2 m_MousePosition;
+    ::UnityEngine::Vector2 m_MousePosition;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector2) == 0x8);
+    static_assert(sizeof(::UnityEngine::Vector2) == 0x8);
     // private UnityEngine.EventSystems.PointerEventData m_InputPointerEvent
     // Size: 0x8
     // Offset: 0x68
-    UnityEngine::EventSystems::PointerEventData* m_InputPointerEvent;
+    ::UnityEngine::EventSystems::PointerEventData* m_InputPointerEvent;
     // Field size check
-    static_assert(sizeof(UnityEngine::EventSystems::PointerEventData*) == 0x8);
+    static_assert(sizeof(::UnityEngine::EventSystems::PointerEventData*) == 0x8);
     // [FormerlySerializedAsAttribute] Offset: 0x11E3480
     // private System.Boolean m_ForceModuleActive
     // Size: 0x1
@@ -73,11 +73,11 @@ namespace UnityEngine::EventSystems {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private UnityEngine.Vector2 m_LastMousePosition
-    UnityEngine::Vector2& dyn_m_LastMousePosition();
+    ::UnityEngine::Vector2& dyn_m_LastMousePosition();
     // Get instance field reference: private UnityEngine.Vector2 m_MousePosition
-    UnityEngine::Vector2& dyn_m_MousePosition();
+    ::UnityEngine::Vector2& dyn_m_MousePosition();
     // Get instance field reference: private UnityEngine.EventSystems.PointerEventData m_InputPointerEvent
-    UnityEngine::EventSystems::PointerEventData*& dyn_m_InputPointerEvent();
+    ::UnityEngine::EventSystems::PointerEventData*& dyn_m_InputPointerEvent();
     // Get instance field reference: private System.Boolean m_ForceModuleActive
     bool& dyn_m_ForceModuleActive();
     // public System.Boolean get_allowActivationOnStandalone()
@@ -103,7 +103,7 @@ namespace UnityEngine::EventSystems {
     void ProcessTouchEvents();
     // protected System.Void ProcessTouchPress(UnityEngine.EventSystems.PointerEventData pointerEvent, System.Boolean pressed, System.Boolean released)
     // Offset: 0x1870948
-    void ProcessTouchPress(UnityEngine::EventSystems::PointerEventData* pointerEvent, bool pressed, bool released);
+    void ProcessTouchPress(::UnityEngine::EventSystems::PointerEventData* pointerEvent, bool pressed, bool released);
     // protected System.Void .ctor()
     // Offset: 0x1870340
     // Implemented from: UnityEngine.EventSystems.PointerInputModule
@@ -117,7 +117,7 @@ namespace UnityEngine::EventSystems {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TouchInputModule* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::EventSystems::TouchInputModule::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::EventSystems::TouchInputModule::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TouchInputModule*, creationType>()));
     }
     // public override System.Void UpdateModule()
@@ -217,7 +217,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::EventSystems::TouchInputModule::ProcessTouchPress
 // Il2CppName: ProcessTouchPress
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::TouchInputModule::*)(UnityEngine::EventSystems::PointerEventData*, bool, bool)>(&UnityEngine::EventSystems::TouchInputModule::ProcessTouchPress)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::TouchInputModule::*)(::UnityEngine::EventSystems::PointerEventData*, bool, bool)>(&UnityEngine::EventSystems::TouchInputModule::ProcessTouchPress)> {
   static const MethodInfo* get() {
     static auto* pointerEvent = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "PointerEventData")->byval_arg;
     static auto* pressed = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

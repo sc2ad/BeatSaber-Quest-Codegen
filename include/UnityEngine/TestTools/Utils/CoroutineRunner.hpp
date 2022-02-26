@@ -43,8 +43,8 @@ namespace UnityEngine::TestTools::Utils {
   class CoroutineRunner;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::TestTools::Utils::CoroutineRunner);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Utils::CoroutineRunner*, "UnityEngine.TestTools.Utils", "CoroutineRunner");
+NEED_NO_BOX(::UnityEngine::TestTools::Utils::CoroutineRunner);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TestTools::Utils::CoroutineRunner*, "UnityEngine.TestTools.Utils", "CoroutineRunner");
 // Type namespace: UnityEngine.TestTools.Utils
 namespace UnityEngine::TestTools::Utils {
   // Size: 0x38
@@ -53,11 +53,11 @@ namespace UnityEngine::TestTools::Utils {
   // [TokenAttribute] Offset: FFFFFFFF
   class CoroutineRunner : public ::Il2CppObject {
     public:
-    // Nested type: UnityEngine::TestTools::Utils::CoroutineRunner::$HandleEnumerableTest$d__8
+    // Nested type: ::UnityEngine::TestTools::Utils::CoroutineRunner::$HandleEnumerableTest$d__8
     class $HandleEnumerableTest$d__8;
-    // Nested type: UnityEngine::TestTools::Utils::CoroutineRunner::$ExMethod$d__10
+    // Nested type: ::UnityEngine::TestTools::Utils::CoroutineRunner::$ExMethod$d__10
     class $ExMethod$d__10;
-    // Nested type: UnityEngine::TestTools::Utils::CoroutineRunner::$StartTimer$d__11
+    // Nested type: ::UnityEngine::TestTools::Utils::CoroutineRunner::$StartTimer$d__11
     class $StartTimer$d__11;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -85,59 +85,59 @@ namespace UnityEngine::TestTools::Utils {
     // private readonly UnityEngine.MonoBehaviour m_Controller
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::MonoBehaviour* m_Controller;
+    ::UnityEngine::MonoBehaviour* m_Controller;
     // Field size check
-    static_assert(sizeof(UnityEngine::MonoBehaviour*) == 0x8);
+    static_assert(sizeof(::UnityEngine::MonoBehaviour*) == 0x8);
     // private readonly UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext m_Context
     // Size: 0x8
     // Offset: 0x20
-    UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* m_Context;
+    ::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* m_Context;
     // Field size check
-    static_assert(sizeof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*) == 0x8);
+    static_assert(sizeof(::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*) == 0x8);
     // private UnityEngine.Coroutine m_TimeOutCoroutine
     // Size: 0x8
     // Offset: 0x28
-    UnityEngine::Coroutine* m_TimeOutCoroutine;
+    ::UnityEngine::Coroutine* m_TimeOutCoroutine;
     // Field size check
-    static_assert(sizeof(UnityEngine::Coroutine*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Coroutine*) == 0x8);
     // private System.Collections.IEnumerator m_TestCoroutine
     // Size: 0x8
     // Offset: 0x30
-    System::Collections::IEnumerator* m_TestCoroutine;
+    ::System::Collections::IEnumerator* m_TestCoroutine;
     // Field size check
-    static_assert(sizeof(System::Collections::IEnumerator*) == 0x8);
+    static_assert(sizeof(::System::Collections::IEnumerator*) == 0x8);
     public:
     // Get instance field reference: private System.Boolean m_Running
     bool& dyn_m_Running();
     // Get instance field reference: private System.Boolean m_Timeout
     bool& dyn_m_Timeout();
     // Get instance field reference: private readonly UnityEngine.MonoBehaviour m_Controller
-    UnityEngine::MonoBehaviour*& dyn_m_Controller();
+    ::UnityEngine::MonoBehaviour*& dyn_m_Controller();
     // Get instance field reference: private readonly UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext m_Context
-    UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*& dyn_m_Context();
+    ::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*& dyn_m_Context();
     // Get instance field reference: private UnityEngine.Coroutine m_TimeOutCoroutine
-    UnityEngine::Coroutine*& dyn_m_TimeOutCoroutine();
+    ::UnityEngine::Coroutine*& dyn_m_TimeOutCoroutine();
     // Get instance field reference: private System.Collections.IEnumerator m_TestCoroutine
-    System::Collections::IEnumerator*& dyn_m_TestCoroutine();
+    ::System::Collections::IEnumerator*& dyn_m_TestCoroutine();
     // public System.Void .ctor(UnityEngine.MonoBehaviour playmodeTestsController, UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
     // Offset: 0x2A41420
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CoroutineRunner* New_ctor(UnityEngine::MonoBehaviour* playmodeTestsController, UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* context) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::Utils::CoroutineRunner::.ctor");
+    static CoroutineRunner* New_ctor(::UnityEngine::MonoBehaviour* playmodeTestsController, ::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* context) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::Utils::CoroutineRunner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CoroutineRunner*, creationType>(playmodeTestsController, context)));
     }
     // public System.Collections.IEnumerator HandleEnumerableTest(System.Collections.IEnumerator testEnumerator)
     // Offset: 0x2A41458
-    System::Collections::IEnumerator* HandleEnumerableTest(System::Collections::IEnumerator* testEnumerator);
+    ::System::Collections::IEnumerator* HandleEnumerableTest(::System::Collections::IEnumerator* testEnumerator);
     // private System.Void StopAllRunningCoroutines()
     // Offset: 0x2A41500
     void StopAllRunningCoroutines();
     // private System.Collections.IEnumerator ExMethod(System.Collections.IEnumerator e, System.Int32 timeout)
     // Offset: 0x2A41558
-    System::Collections::IEnumerator* ExMethod(System::Collections::IEnumerator* e, int timeout);
+    ::System::Collections::IEnumerator* ExMethod(::System::Collections::IEnumerator* e, int timeout);
     // private System.Collections.IEnumerator StartTimer(System.Collections.IEnumerator coroutineToBeKilled, System.Int32 timeout, System.Action onTimeout)
     // Offset: 0x2A41608
-    System::Collections::IEnumerator* StartTimer(System::Collections::IEnumerator* coroutineToBeKilled, int timeout, System::Action* onTimeout);
+    ::System::Collections::IEnumerator* StartTimer(::System::Collections::IEnumerator* coroutineToBeKilled, int timeout, ::System::Action* onTimeout);
     // public System.Boolean HasFailedWithTimeout()
     // Offset: 0x2A416C8
     bool HasFailedWithTimeout();
@@ -146,7 +146,7 @@ namespace UnityEngine::TestTools::Utils {
     void $ExMethod$b__10_0();
   }; // UnityEngine.TestTools.Utils.CoroutineRunner
   #pragma pack(pop)
-  static check_size<sizeof(CoroutineRunner), 48 + sizeof(System::Collections::IEnumerator*)> __UnityEngine_TestTools_Utils_CoroutineRunnerSizeCheck;
+  static check_size<sizeof(CoroutineRunner), 48 + sizeof(::System::Collections::IEnumerator*)> __UnityEngine_TestTools_Utils_CoroutineRunnerSizeCheck;
   static_assert(sizeof(CoroutineRunner) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -157,7 +157,7 @@ namespace UnityEngine::TestTools::Utils {
 // Writing MetadataGetter for method: UnityEngine::TestTools::Utils::CoroutineRunner::HandleEnumerableTest
 // Il2CppName: HandleEnumerableTest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (UnityEngine::TestTools::Utils::CoroutineRunner::*)(System::Collections::IEnumerator*)>(&UnityEngine::TestTools::Utils::CoroutineRunner::HandleEnumerableTest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (UnityEngine::TestTools::Utils::CoroutineRunner::*)(::System::Collections::IEnumerator*)>(&UnityEngine::TestTools::Utils::CoroutineRunner::HandleEnumerableTest)> {
   static const MethodInfo* get() {
     static auto* testEnumerator = &::il2cpp_utils::GetClassFromName("System.Collections", "IEnumerator")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Utils::CoroutineRunner*), "HandleEnumerableTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{testEnumerator});
@@ -174,7 +174,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TestTools::Utils::CoroutineRunner::ExMethod
 // Il2CppName: ExMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (UnityEngine::TestTools::Utils::CoroutineRunner::*)(System::Collections::IEnumerator*, int)>(&UnityEngine::TestTools::Utils::CoroutineRunner::ExMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (UnityEngine::TestTools::Utils::CoroutineRunner::*)(::System::Collections::IEnumerator*, int)>(&UnityEngine::TestTools::Utils::CoroutineRunner::ExMethod)> {
   static const MethodInfo* get() {
     static auto* e = &::il2cpp_utils::GetClassFromName("System.Collections", "IEnumerator")->byval_arg;
     static auto* timeout = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -184,7 +184,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::TestTools::Utils::CoroutineRunner::StartTimer
 // Il2CppName: StartTimer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (UnityEngine::TestTools::Utils::CoroutineRunner::*)(System::Collections::IEnumerator*, int, System::Action*)>(&UnityEngine::TestTools::Utils::CoroutineRunner::StartTimer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (UnityEngine::TestTools::Utils::CoroutineRunner::*)(::System::Collections::IEnumerator*, int, ::System::Action*)>(&UnityEngine::TestTools::Utils::CoroutineRunner::StartTimer)> {
   static const MethodInfo* get() {
     static auto* coroutineToBeKilled = &::il2cpp_utils::GetClassFromName("System.Collections", "IEnumerator")->byval_arg;
     static auto* timeout = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

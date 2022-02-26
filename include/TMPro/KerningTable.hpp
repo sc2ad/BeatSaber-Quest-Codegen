@@ -31,8 +31,8 @@ namespace TMPro {
   class KerningTable;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(TMPro::KerningTable);
-DEFINE_IL2CPP_ARG_TYPE(TMPro::KerningTable*, "TMPro", "KerningTable");
+NEED_NO_BOX(::TMPro::KerningTable);
+DEFINE_IL2CPP_ARG_TYPE(::TMPro::KerningTable*, "TMPro", "KerningTable");
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0x18
@@ -41,13 +41,13 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class KerningTable : public ::Il2CppObject {
     public:
-    // Nested type: TMPro::KerningTable::$$c__DisplayClass3_0
+    // Nested type: ::TMPro::KerningTable::$$c__DisplayClass3_0
     class $$c__DisplayClass3_0;
-    // Nested type: TMPro::KerningTable::$$c__DisplayClass4_0
+    // Nested type: ::TMPro::KerningTable::$$c__DisplayClass4_0
     class $$c__DisplayClass4_0;
-    // Nested type: TMPro::KerningTable::$$c__DisplayClass5_0
+    // Nested type: ::TMPro::KerningTable::$$c__DisplayClass5_0
     class $$c__DisplayClass5_0;
-    // Nested type: TMPro::KerningTable::$$c
+    // Nested type: ::TMPro::KerningTable::$$c
     class $$c;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -61,16 +61,16 @@ namespace TMPro {
     // public System.Collections.Generic.List`1<TMPro.KerningPair> kerningPairs
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::List_1<TMPro::KerningPair*>* kerningPairs;
+    ::System::Collections::Generic::List_1<::TMPro::KerningPair*>* kerningPairs;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<TMPro::KerningPair*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::TMPro::KerningPair*>*) == 0x8);
     public:
-    // Creating conversion operator: operator System::Collections::Generic::List_1<TMPro::KerningPair*>*
-    constexpr operator System::Collections::Generic::List_1<TMPro::KerningPair*>*() const noexcept {
+    // Creating conversion operator: operator ::System::Collections::Generic::List_1<::TMPro::KerningPair*>*
+    constexpr operator ::System::Collections::Generic::List_1<::TMPro::KerningPair*>*() const noexcept {
       return kerningPairs;
     }
     // Get instance field reference: public System.Collections.Generic.List`1<TMPro.KerningPair> kerningPairs
-    System::Collections::Generic::List_1<TMPro::KerningPair*>*& dyn_kerningPairs();
+    ::System::Collections::Generic::List_1<::TMPro::KerningPair*>*& dyn_kerningPairs();
     // public System.Void AddKerningPair()
     // Offset: 0x1404074
     void AddKerningPair();
@@ -79,7 +79,7 @@ namespace TMPro {
     int AddKerningPair(uint first, uint second, float offset);
     // public System.Int32 AddGlyphPairAdjustmentRecord(System.UInt32 first, TMPro.GlyphValueRecord_Legacy firstAdjustments, System.UInt32 second, TMPro.GlyphValueRecord_Legacy secondAdjustments)
     // Offset: 0x14042DC
-    int AddGlyphPairAdjustmentRecord(uint first, TMPro::GlyphValueRecord_Legacy firstAdjustments, uint second, TMPro::GlyphValueRecord_Legacy secondAdjustments);
+    int AddGlyphPairAdjustmentRecord(uint first, ::TMPro::GlyphValueRecord_Legacy firstAdjustments, uint second, ::TMPro::GlyphValueRecord_Legacy secondAdjustments);
     // public System.Void RemoveKerningPair(System.Int32 left, System.Int32 right)
     // Offset: 0x140445C
     void RemoveKerningPair(int left, int right);
@@ -95,12 +95,12 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KerningTable* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::KerningTable::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::KerningTable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KerningTable*, creationType>()));
     }
   }; // TMPro.KerningTable
   #pragma pack(pop)
-  static check_size<sizeof(KerningTable), 16 + sizeof(System::Collections::Generic::List_1<TMPro::KerningPair*>*)> __TMPro_KerningTableSizeCheck;
+  static check_size<sizeof(KerningTable), 16 + sizeof(::System::Collections::Generic::List_1<::TMPro::KerningPair*>*)> __TMPro_KerningTableSizeCheck;
   static_assert(sizeof(KerningTable) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -126,7 +126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro:
 // Writing MetadataGetter for method: TMPro::KerningTable::AddGlyphPairAdjustmentRecord
 // Il2CppName: AddGlyphPairAdjustmentRecord
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro::KerningTable::*)(uint, TMPro::GlyphValueRecord_Legacy, uint, TMPro::GlyphValueRecord_Legacy)>(&TMPro::KerningTable::AddGlyphPairAdjustmentRecord)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro::KerningTable::*)(uint, ::TMPro::GlyphValueRecord_Legacy, uint, ::TMPro::GlyphValueRecord_Legacy)>(&TMPro::KerningTable::AddGlyphPairAdjustmentRecord)> {
   static const MethodInfo* get() {
     static auto* first = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* firstAdjustments = &::il2cpp_utils::GetClassFromName("TMPro", "GlyphValueRecord_Legacy")->byval_arg;

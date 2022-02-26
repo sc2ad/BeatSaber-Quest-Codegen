@@ -37,8 +37,8 @@ namespace System::Dynamic::Utils {
   class CollectionExtensions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Dynamic::Utils::CollectionExtensions);
-DEFINE_IL2CPP_ARG_TYPE(System::Dynamic::Utils::CollectionExtensions*, "System.Dynamic.Utils", "CollectionExtensions");
+NEED_NO_BOX(::System::Dynamic::Utils::CollectionExtensions);
+DEFINE_IL2CPP_ARG_TYPE(::System::Dynamic::Utils::CollectionExtensions*, "System.Dynamic.Utils", "CollectionExtensions");
 // Type namespace: System.Dynamic.Utils
 namespace System::Dynamic::Utils {
   // Size: 0x10
@@ -51,17 +51,17 @@ namespace System::Dynamic::Utils {
     // static public System.Runtime.CompilerServices.TrueReadOnlyCollection`1<T> AddFirst(System.Collections.ObjectModel.ReadOnlyCollection`1<T> list, T item)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static System::Runtime::CompilerServices::TrueReadOnlyCollection_1<T>* AddFirst(System::Collections::ObjectModel::ReadOnlyCollection_1<T>* list, T item) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Dynamic::Utils::CollectionExtensions::AddFirst");
+    static ::System::Runtime::CompilerServices::TrueReadOnlyCollection_1<T>* AddFirst(::System::Collections::ObjectModel::ReadOnlyCollection_1<T>* list, T item) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Dynamic::Utils::CollectionExtensions::AddFirst");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Dynamic.Utils", "CollectionExtensions", "AddFirst", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(list), ::il2cpp_utils::ExtractType(item)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodRethrow<System::Runtime::CompilerServices::TrueReadOnlyCollection_1<T>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, list, item);
+      return ::il2cpp_utils::RunMethodRethrow<::System::Runtime::CompilerServices::TrueReadOnlyCollection_1<T>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, list, item);
     }
     // static public T[] AddLast(T[] array, T item)
     // Offset: 0xFFFFFFFF
     template<class T>
     static ::ArrayW<T> AddLast(::ArrayW<T> array, T item) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Dynamic::Utils::CollectionExtensions::AddLast");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Dynamic::Utils::CollectionExtensions::AddLast");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Dynamic.Utils", "CollectionExtensions", "AddLast", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(item)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<T>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, array, item);
@@ -70,7 +70,7 @@ namespace System::Dynamic::Utils {
     // Offset: 0xFFFFFFFF
     template<class T>
     static ::ArrayW<T> RemoveFirst(::ArrayW<T> array) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Dynamic::Utils::CollectionExtensions::RemoveFirst");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Dynamic::Utils::CollectionExtensions::RemoveFirst");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Dynamic.Utils", "CollectionExtensions", "RemoveFirst", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<T>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, array);
@@ -79,7 +79,7 @@ namespace System::Dynamic::Utils {
     // Offset: 0xFFFFFFFF
     template<class T>
     static ::ArrayW<T> RemoveLast(::ArrayW<T> array) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Dynamic::Utils::CollectionExtensions::RemoveLast");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Dynamic::Utils::CollectionExtensions::RemoveLast");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Dynamic.Utils", "CollectionExtensions", "RemoveLast", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<T>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, array);
@@ -87,11 +87,11 @@ namespace System::Dynamic::Utils {
     // static public System.Collections.ObjectModel.ReadOnlyCollection`1<T> ToReadOnly(System.Collections.Generic.IEnumerable`1<T> enumerable)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static System::Collections::ObjectModel::ReadOnlyCollection_1<T>* ToReadOnly(System::Collections::Generic::IEnumerable_1<T>* enumerable) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Dynamic::Utils::CollectionExtensions::ToReadOnly");
+    static ::System::Collections::ObjectModel::ReadOnlyCollection_1<T>* ToReadOnly(::System::Collections::Generic::IEnumerable_1<T>* enumerable) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Dynamic::Utils::CollectionExtensions::ToReadOnly");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Dynamic.Utils", "CollectionExtensions", "ToReadOnly", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(enumerable)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodRethrow<System::Collections::ObjectModel::ReadOnlyCollection_1<T>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, enumerable);
+      return ::il2cpp_utils::RunMethodRethrow<::System::Collections::ObjectModel::ReadOnlyCollection_1<T>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, enumerable);
     }
   }; // System.Dynamic.Utils.CollectionExtensions
   #pragma pack(pop)

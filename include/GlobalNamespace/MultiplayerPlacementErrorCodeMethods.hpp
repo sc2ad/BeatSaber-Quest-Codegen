@@ -21,8 +21,8 @@ namespace GlobalNamespace {
   class MultiplayerPlacementErrorCodeMethods;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MultiplayerPlacementErrorCodeMethods);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerPlacementErrorCodeMethods*, "", "MultiplayerPlacementErrorCodeMethods");
+NEED_NO_BOX(::GlobalNamespace::MultiplayerPlacementErrorCodeMethods);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerPlacementErrorCodeMethods*, "", "MultiplayerPlacementErrorCodeMethods");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     public:
     // static public ConnectionFailedReason ToConnectionFailedReason(MultiplayerPlacementErrorCode errorCode)
     // Offset: 0x2CA7474
-    static GlobalNamespace::ConnectionFailedReason ToConnectionFailedReason(GlobalNamespace::MultiplayerPlacementErrorCode errorCode);
+    static ::GlobalNamespace::ConnectionFailedReason ToConnectionFailedReason(::GlobalNamespace::MultiplayerPlacementErrorCode errorCode);
   }; // MultiplayerPlacementErrorCodeMethods
   #pragma pack(pop)
 }
@@ -42,7 +42,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerPlacementErrorCodeMethods::ToConnectionFailedReason
 // Il2CppName: ToConnectionFailedReason
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ConnectionFailedReason (*)(GlobalNamespace::MultiplayerPlacementErrorCode)>(&GlobalNamespace::MultiplayerPlacementErrorCodeMethods::ToConnectionFailedReason)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ConnectionFailedReason (*)(::GlobalNamespace::MultiplayerPlacementErrorCode)>(&GlobalNamespace::MultiplayerPlacementErrorCodeMethods::ToConnectionFailedReason)> {
   static const MethodInfo* get() {
     static auto* errorCode = &::il2cpp_utils::GetClassFromName("", "MultiplayerPlacementErrorCode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerPlacementErrorCodeMethods*), "ToConnectionFailedReason", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{errorCode});

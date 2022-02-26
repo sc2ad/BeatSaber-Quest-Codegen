@@ -18,8 +18,8 @@ namespace GlobalNamespace {
   class ICubeNoteTypeProvider;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::ICubeNoteTypeProvider);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ICubeNoteTypeProvider*, "", "ICubeNoteTypeProvider");
+NEED_NO_BOX(::GlobalNamespace::ICubeNoteTypeProvider);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ICubeNoteTypeProvider*, "", "ICubeNoteTypeProvider");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -30,7 +30,7 @@ namespace GlobalNamespace {
     public:
     // public GameNoteController/GameNoteType get_gameNoteType()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::GameNoteController_GameNoteType get_gameNoteType();
+    ::GlobalNamespace::GameNoteController_GameNoteType get_gameNoteType();
   }; // ICubeNoteTypeProvider
   #pragma pack(pop)
 }
@@ -38,7 +38,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::ICubeNoteTypeProvider::get_gameNoteType
 // Il2CppName: get_gameNoteType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameNoteController_GameNoteType (GlobalNamespace::ICubeNoteTypeProvider::*)()>(&GlobalNamespace::ICubeNoteTypeProvider::get_gameNoteType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::GameNoteController_GameNoteType (GlobalNamespace::ICubeNoteTypeProvider::*)()>(&GlobalNamespace::ICubeNoteTypeProvider::get_gameNoteType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ICubeNoteTypeProvider*), "get_gameNoteType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

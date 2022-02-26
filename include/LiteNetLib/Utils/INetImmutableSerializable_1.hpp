@@ -25,7 +25,7 @@ namespace LiteNetLib::Utils {
   class INetImmutableSerializable_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(LiteNetLib::Utils::INetImmutableSerializable_1, "LiteNetLib.Utils", "INetImmutableSerializable`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::LiteNetLib::Utils::INetImmutableSerializable_1, "LiteNetLib.Utils", "INetImmutableSerializable`1");
 // Type namespace: LiteNetLib.Utils
 namespace LiteNetLib::Utils {
   // WARNING Size may be invalid!
@@ -36,15 +36,15 @@ namespace LiteNetLib::Utils {
     public:
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
     // Offset: 0xFFFFFFFF
-    void Serialize(LiteNetLib::Utils::NetDataWriter* writer) {
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::INetImmutableSerializable_1::Serialize");
+    void Serialize(::LiteNetLib::Utils::NetDataWriter* writer) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::INetImmutableSerializable_1::Serialize");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Serialize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(writer)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, writer);
     }
     // public T CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
     // Offset: 0xFFFFFFFF
-    T CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader) {
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::INetImmutableSerializable_1::CreateFromSerializedData");
+    T CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::INetImmutableSerializable_1::CreateFromSerializedData");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CreateFromSerializedData", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(reader)})));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___internal__method, reader);
     }

@@ -17,8 +17,8 @@ namespace System::Net {
   class UnsafeNclNativeMethods;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::UnsafeNclNativeMethods);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::UnsafeNclNativeMethods*, "System.Net", "UnsafeNclNativeMethods");
+NEED_NO_BOX(::System::Net::UnsafeNclNativeMethods);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::UnsafeNclNativeMethods*, "System.Net", "UnsafeNclNativeMethods");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x10
@@ -27,9 +27,9 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnsafeNclNativeMethods : public ::Il2CppObject {
     public:
-    // Nested type: System::Net::UnsafeNclNativeMethods::HttpApi
+    // Nested type: ::System::Net::UnsafeNclNativeMethods::HttpApi
     class HttpApi;
-    // Nested type: System::Net::UnsafeNclNativeMethods::SecureStringHelper
+    // Nested type: ::System::Net::UnsafeNclNativeMethods::SecureStringHelper
     class SecureStringHelper;
   }; // System.Net.UnsafeNclNativeMethods
   #pragma pack(pop)

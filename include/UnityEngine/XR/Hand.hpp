@@ -19,7 +19,7 @@ namespace UnityEngine::XR {
   struct Hand;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::Hand, "UnityEngine.XR", "Hand");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::Hand, "UnityEngine.XR", "Hand");
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {
   // Size: 0xC
@@ -33,7 +33,7 @@ namespace UnityEngine::XR {
   // [NativeHeaderAttribute] Offset: 11CE058
   // [NativeHeaderAttribute] Offset: 11CE058
   // [StaticAccessorAttribute] Offset: 11CE058
-  struct Hand/*, public System::ValueType, public System::IEquatable_1<UnityEngine::XR::Hand>*/ {
+  struct Hand/*, public ::System::ValueType, public ::System::IEquatable_1<::UnityEngine::XR::Hand>*/ {
     public:
     public:
     // private System.UInt64 m_DeviceId
@@ -51,13 +51,13 @@ namespace UnityEngine::XR {
     public:
     // Creating value type constructor for type: Hand
     constexpr Hand(uint64_t m_DeviceId_ = {}, uint m_FeatureIndex_ = {}) noexcept : m_DeviceId{m_DeviceId_}, m_FeatureIndex{m_FeatureIndex_} {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
-    // Creating interface conversion operator: operator System::IEquatable_1<UnityEngine::XR::Hand>
-    operator System::IEquatable_1<UnityEngine::XR::Hand>() noexcept {
-      return *reinterpret_cast<System::IEquatable_1<UnityEngine::XR::Hand>*>(this);
+    // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::XR::Hand>
+    operator ::System::IEquatable_1<::UnityEngine::XR::Hand>() noexcept {
+      return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::XR::Hand>*>(this);
     }
     // Get instance field reference: private System.UInt64 m_DeviceId
     uint64_t& dyn_m_DeviceId();
@@ -71,7 +71,7 @@ namespace UnityEngine::XR {
     uint get_featureIndex();
     // public System.Boolean Equals(UnityEngine.XR.Hand other)
     // Offset: 0x2A489C8
-    bool Equals(UnityEngine::XR::Hand other);
+    bool Equals(::UnityEngine::XR::Hand other);
     // public override System.Boolean Equals(System.Object obj)
     // Offset: 0x2A48930
     // Implemented from: System.ValueType
@@ -107,7 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Unity
 // Writing MetadataGetter for method: UnityEngine::XR::Hand::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::XR::Hand::*)(UnityEngine::XR::Hand)>(&UnityEngine::XR::Hand::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::XR::Hand::*)(::UnityEngine::XR::Hand)>(&UnityEngine::XR::Hand::Equals)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("UnityEngine.XR", "Hand")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::Hand), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});

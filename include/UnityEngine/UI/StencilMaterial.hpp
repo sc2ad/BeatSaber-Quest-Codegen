@@ -37,8 +37,8 @@ namespace UnityEngine::UI {
   class StencilMaterial;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::UI::StencilMaterial);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::StencilMaterial*, "UnityEngine.UI", "StencilMaterial");
+NEED_NO_BOX(::UnityEngine::UI::StencilMaterial);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::StencilMaterial*, "UnityEngine.UI", "StencilMaterial");
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {
   // Size: 0x10
@@ -47,27 +47,27 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class StencilMaterial : public ::Il2CppObject {
     public:
-    // Nested type: UnityEngine::UI::StencilMaterial::MatEntry
+    // Nested type: ::UnityEngine::UI::StencilMaterial::MatEntry
     class MatEntry;
     // Get static field: static private System.Collections.Generic.List`1<UnityEngine.UI.StencilMaterial/UnityEngine.UI.MatEntry> m_List
-    static System::Collections::Generic::List_1<UnityEngine::UI::StencilMaterial::MatEntry*>* _get_m_List();
+    static ::System::Collections::Generic::List_1<::UnityEngine::UI::StencilMaterial::MatEntry*>* _get_m_List();
     // Set static field: static private System.Collections.Generic.List`1<UnityEngine.UI.StencilMaterial/UnityEngine.UI.MatEntry> m_List
-    static void _set_m_List(System::Collections::Generic::List_1<UnityEngine::UI::StencilMaterial::MatEntry*>* value);
+    static void _set_m_List(::System::Collections::Generic::List_1<::UnityEngine::UI::StencilMaterial::MatEntry*>* value);
     // static private System.Void .cctor()
     // Offset: 0x2A12470
     static void _cctor();
     // static public UnityEngine.Material Add(UnityEngine.Material baseMat, System.Int32 stencilID)
     // Offset: 0x2A118C8
-    static UnityEngine::Material* Add(UnityEngine::Material* baseMat, int stencilID);
+    static ::UnityEngine::Material* Add(::UnityEngine::Material* baseMat, int stencilID);
     // static public UnityEngine.Material Add(UnityEngine.Material baseMat, System.Int32 stencilID, UnityEngine.Rendering.StencilOp operation, UnityEngine.Rendering.CompareFunction compareFunction, UnityEngine.Rendering.ColorWriteMask colorWriteMask)
     // Offset: 0x2A118D0
-    static UnityEngine::Material* Add(UnityEngine::Material* baseMat, int stencilID, UnityEngine::Rendering::StencilOp operation, UnityEngine::Rendering::CompareFunction compareFunction, UnityEngine::Rendering::ColorWriteMask colorWriteMask);
+    static ::UnityEngine::Material* Add(::UnityEngine::Material* baseMat, int stencilID, ::UnityEngine::Rendering::StencilOp operation, ::UnityEngine::Rendering::CompareFunction compareFunction, ::UnityEngine::Rendering::ColorWriteMask colorWriteMask);
     // static public UnityEngine.Material Add(UnityEngine.Material baseMat, System.Int32 stencilID, UnityEngine.Rendering.StencilOp operation, UnityEngine.Rendering.CompareFunction compareFunction, UnityEngine.Rendering.ColorWriteMask colorWriteMask, System.Int32 readMask, System.Int32 writeMask)
     // Offset: 0x2A1196C
-    static UnityEngine::Material* Add(UnityEngine::Material* baseMat, int stencilID, UnityEngine::Rendering::StencilOp operation, UnityEngine::Rendering::CompareFunction compareFunction, UnityEngine::Rendering::ColorWriteMask colorWriteMask, int readMask, int writeMask);
+    static ::UnityEngine::Material* Add(::UnityEngine::Material* baseMat, int stencilID, ::UnityEngine::Rendering::StencilOp operation, ::UnityEngine::Rendering::CompareFunction compareFunction, ::UnityEngine::Rendering::ColorWriteMask colorWriteMask, int readMask, int writeMask);
     // static public System.Void Remove(UnityEngine.Material customMat)
     // Offset: 0x2A121A0
-    static void Remove(UnityEngine::Material* customMat);
+    static void Remove(::UnityEngine::Material* customMat);
     // static public System.Void ClearAll()
     // Offset: 0x2A12358
     static void ClearAll();
@@ -86,7 +86,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::UI::StencilMaterial::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)(UnityEngine::Material*, int)>(&UnityEngine::UI::StencilMaterial::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Material* (*)(::UnityEngine::Material*, int)>(&UnityEngine::UI::StencilMaterial::Add)> {
   static const MethodInfo* get() {
     static auto* baseMat = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
     static auto* stencilID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -96,7 +96,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::UI::StencilMaterial::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)(UnityEngine::Material*, int, UnityEngine::Rendering::StencilOp, UnityEngine::Rendering::CompareFunction, UnityEngine::Rendering::ColorWriteMask)>(&UnityEngine::UI::StencilMaterial::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Material* (*)(::UnityEngine::Material*, int, ::UnityEngine::Rendering::StencilOp, ::UnityEngine::Rendering::CompareFunction, ::UnityEngine::Rendering::ColorWriteMask)>(&UnityEngine::UI::StencilMaterial::Add)> {
   static const MethodInfo* get() {
     static auto* baseMat = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
     static auto* stencilID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -109,7 +109,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::UI::StencilMaterial::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)(UnityEngine::Material*, int, UnityEngine::Rendering::StencilOp, UnityEngine::Rendering::CompareFunction, UnityEngine::Rendering::ColorWriteMask, int, int)>(&UnityEngine::UI::StencilMaterial::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Material* (*)(::UnityEngine::Material*, int, ::UnityEngine::Rendering::StencilOp, ::UnityEngine::Rendering::CompareFunction, ::UnityEngine::Rendering::ColorWriteMask, int, int)>(&UnityEngine::UI::StencilMaterial::Add)> {
   static const MethodInfo* get() {
     static auto* baseMat = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
     static auto* stencilID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -124,7 +124,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::UI::StencilMaterial::Remove
 // Il2CppName: Remove
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Material*)>(&UnityEngine::UI::StencilMaterial::Remove)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Material*)>(&UnityEngine::UI::StencilMaterial::Remove)> {
   static const MethodInfo* get() {
     static auto* customMat = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::StencilMaterial*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{customMat});

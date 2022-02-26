@@ -43,8 +43,8 @@ namespace Zenject {
   class GuiRenderableManager;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::GuiRenderableManager);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::GuiRenderableManager*, "Zenject", "GuiRenderableManager");
+NEED_NO_BOX(::Zenject::GuiRenderableManager);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::GuiRenderableManager*, "Zenject", "GuiRenderableManager");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x18
@@ -53,11 +53,11 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class GuiRenderableManager : public ::Il2CppObject {
     public:
-    // Nested type: Zenject::GuiRenderableManager::RenderableInfo
+    // Nested type: ::Zenject::GuiRenderableManager::RenderableInfo
     class RenderableInfo;
-    // Nested type: Zenject::GuiRenderableManager::$$c__DisplayClass1_0
+    // Nested type: ::Zenject::GuiRenderableManager::$$c__DisplayClass1_0
     class $$c__DisplayClass1_0;
-    // Nested type: Zenject::GuiRenderableManager::$$c
+    // Nested type: ::Zenject::GuiRenderableManager::$$c
     class $$c;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -71,21 +71,21 @@ namespace Zenject {
     // private System.Collections.Generic.List`1<Zenject.GuiRenderableManager/Zenject.RenderableInfo> _renderables
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::List_1<Zenject::GuiRenderableManager::RenderableInfo*>* renderables;
+    ::System::Collections::Generic::List_1<::Zenject::GuiRenderableManager::RenderableInfo*>* renderables;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<Zenject::GuiRenderableManager::RenderableInfo*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::Zenject::GuiRenderableManager::RenderableInfo*>*) == 0x8);
     public:
-    // Creating conversion operator: operator System::Collections::Generic::List_1<Zenject::GuiRenderableManager::RenderableInfo*>*
-    constexpr operator System::Collections::Generic::List_1<Zenject::GuiRenderableManager::RenderableInfo*>*() const noexcept {
+    // Creating conversion operator: operator ::System::Collections::Generic::List_1<::Zenject::GuiRenderableManager::RenderableInfo*>*
+    constexpr operator ::System::Collections::Generic::List_1<::Zenject::GuiRenderableManager::RenderableInfo*>*() const noexcept {
       return renderables;
     }
     // Get instance field reference: private System.Collections.Generic.List`1<Zenject.GuiRenderableManager/Zenject.RenderableInfo> _renderables
-    System::Collections::Generic::List_1<Zenject::GuiRenderableManager::RenderableInfo*>*& dyn__renderables();
+    ::System::Collections::Generic::List_1<::Zenject::GuiRenderableManager::RenderableInfo*>*& dyn__renderables();
     // public System.Void .ctor(System.Collections.Generic.List`1<Zenject.IGuiRenderable> renderables, System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> priorities)
     // Offset: 0x1D391C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static GuiRenderableManager* New_ctor(System::Collections::Generic::List_1<Zenject::IGuiRenderable*>* renderables, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>* priorities) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::GuiRenderableManager::.ctor");
+    static GuiRenderableManager* New_ctor(::System::Collections::Generic::List_1<::Zenject::IGuiRenderable*>* renderables, ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int>*>* priorities) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::GuiRenderableManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GuiRenderableManager*, creationType>(renderables, priorities)));
     }
     // public System.Void OnGui()
@@ -96,10 +96,10 @@ namespace Zenject {
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
     // Offset: 0x1D39A34
-    static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.GuiRenderableManager
   #pragma pack(pop)
-  static check_size<sizeof(GuiRenderableManager), 16 + sizeof(System::Collections::Generic::List_1<Zenject::GuiRenderableManager::RenderableInfo*>*)> __Zenject_GuiRenderableManagerSizeCheck;
+  static check_size<sizeof(GuiRenderableManager), 16 + sizeof(::System::Collections::Generic::List_1<::Zenject::GuiRenderableManager::RenderableInfo*>*)> __Zenject_GuiRenderableManagerSizeCheck;
   static_assert(sizeof(GuiRenderableManager) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -127,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: Zenject::GuiRenderableManager::__zenCreateInjectTypeInfo
 // Il2CppName: __zenCreateInjectTypeInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (*)()>(&Zenject::GuiRenderableManager::__zenCreateInjectTypeInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&Zenject::GuiRenderableManager::__zenCreateInjectTypeInfo)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::GuiRenderableManager*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

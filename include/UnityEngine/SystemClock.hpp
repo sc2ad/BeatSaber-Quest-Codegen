@@ -14,8 +14,8 @@ namespace UnityEngine {
   class SystemClock;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::SystemClock);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SystemClock*, "UnityEngine", "SystemClock");
+NEED_NO_BOX(::UnityEngine::SystemClock);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::SystemClock*, "UnityEngine", "SystemClock");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -26,12 +26,12 @@ namespace UnityEngine {
   class SystemClock : public ::Il2CppObject {
     public:
     // Get static field: static private readonly System.DateTime s_Epoch
-    static System::DateTime _get_s_Epoch();
+    static ::System::DateTime _get_s_Epoch();
     // Set static field: static private readonly System.DateTime s_Epoch
-    static void _set_s_Epoch(System::DateTime value);
+    static void _set_s_Epoch(::System::DateTime value);
     // static public System.DateTime get_now()
     // Offset: 0x26F7464
-    static System::DateTime get_now();
+    static ::System::DateTime get_now();
     // static private System.Void .cctor()
     // Offset: 0x26F74C4
     static void _cctor();
@@ -42,7 +42,7 @@ namespace UnityEngine {
 // Writing MetadataGetter for method: UnityEngine::SystemClock::get_now
 // Il2CppName: get_now
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)()>(&UnityEngine::SystemClock::get_now)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (*)()>(&UnityEngine::SystemClock::get_now)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::SystemClock*), "get_now", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

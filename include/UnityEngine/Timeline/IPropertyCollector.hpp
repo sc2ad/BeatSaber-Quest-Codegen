@@ -35,8 +35,8 @@ namespace UnityEngine::Timeline {
   class IPropertyCollector;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Timeline::IPropertyCollector);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::IPropertyCollector*, "UnityEngine.Timeline", "IPropertyCollector");
+NEED_NO_BOX(::UnityEngine::Timeline::IPropertyCollector);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::IPropertyCollector*, "UnityEngine.Timeline", "IPropertyCollector");
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
   // Size: 0x10
@@ -47,22 +47,22 @@ namespace UnityEngine::Timeline {
     public:
     // public System.Void PushActiveGameObject(UnityEngine.GameObject gameObject)
     // Offset: 0xFFFFFFFF
-    void PushActiveGameObject(UnityEngine::GameObject* gameObject);
+    void PushActiveGameObject(::UnityEngine::GameObject* gameObject);
     // public System.Void PopActiveGameObject()
     // Offset: 0xFFFFFFFF
     void PopActiveGameObject();
     // public System.Void AddFromClip(UnityEngine.AnimationClip clip)
     // Offset: 0xFFFFFFFF
-    void AddFromClip(UnityEngine::AnimationClip* clip);
+    void AddFromClip(::UnityEngine::AnimationClip* clip);
     // public System.Void AddFromClips(System.Collections.Generic.IEnumerable`1<UnityEngine.AnimationClip> clips)
     // Offset: 0xFFFFFFFF
-    void AddFromClips(System::Collections::Generic::IEnumerable_1<UnityEngine::AnimationClip*>* clips);
+    void AddFromClips(::System::Collections::Generic::IEnumerable_1<::UnityEngine::AnimationClip*>* clips);
     // public System.Void AddFromName(System.String name)
     // Offset: 0xFFFFFFFF
     template<class T>
     void AddFromName(::StringW name) {
-      static_assert(std::is_convertible_v<T, UnityEngine::Component*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::IPropertyCollector::AddFromName");
+      static_assert(std::is_convertible_v<T, ::UnityEngine::Component*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Timeline::IPropertyCollector::AddFromName");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "AddFromName", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(name)})));
       auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, name);
@@ -72,32 +72,32 @@ namespace UnityEngine::Timeline {
     void AddFromName(::StringW name);
     // public System.Void AddFromClip(UnityEngine.GameObject obj, UnityEngine.AnimationClip clip)
     // Offset: 0xFFFFFFFF
-    void AddFromClip(UnityEngine::GameObject* obj, UnityEngine::AnimationClip* clip);
+    void AddFromClip(::UnityEngine::GameObject* obj, ::UnityEngine::AnimationClip* clip);
     // public System.Void AddFromClips(UnityEngine.GameObject obj, System.Collections.Generic.IEnumerable`1<UnityEngine.AnimationClip> clips)
     // Offset: 0xFFFFFFFF
-    void AddFromClips(UnityEngine::GameObject* obj, System::Collections::Generic::IEnumerable_1<UnityEngine::AnimationClip*>* clips);
+    void AddFromClips(::UnityEngine::GameObject* obj, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::AnimationClip*>* clips);
     // public System.Void AddFromName(UnityEngine.GameObject obj, System.String name)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void AddFromName(UnityEngine::GameObject* obj, ::StringW name) {
-      static_assert(std::is_convertible_v<T, UnityEngine::Component*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::IPropertyCollector::AddFromName");
+    void AddFromName(::UnityEngine::GameObject* obj, ::StringW name) {
+      static_assert(std::is_convertible_v<T, ::UnityEngine::Component*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Timeline::IPropertyCollector::AddFromName");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "AddFromName", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(obj), ::il2cpp_utils::ExtractType(name)})));
       auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, obj, name);
     }
     // public System.Void AddFromName(UnityEngine.GameObject obj, System.String name)
     // Offset: 0xFFFFFFFF
-    void AddFromName(UnityEngine::GameObject* obj, ::StringW name);
+    void AddFromName(::UnityEngine::GameObject* obj, ::StringW name);
     // public System.Void AddFromName(UnityEngine.Component component, System.String name)
     // Offset: 0xFFFFFFFF
-    void AddFromName(UnityEngine::Component* component, ::StringW name);
+    void AddFromName(::UnityEngine::Component* component, ::StringW name);
     // public System.Void AddFromComponent(UnityEngine.GameObject obj, UnityEngine.Component component)
     // Offset: 0xFFFFFFFF
-    void AddFromComponent(UnityEngine::GameObject* obj, UnityEngine::Component* component);
+    void AddFromComponent(::UnityEngine::GameObject* obj, ::UnityEngine::Component* component);
     // public System.Void AddObjectProperties(UnityEngine.Object obj, UnityEngine.AnimationClip clip)
     // Offset: 0xFFFFFFFF
-    void AddObjectProperties(UnityEngine::Object* obj, UnityEngine::AnimationClip* clip);
+    void AddObjectProperties(::UnityEngine::Object* obj, ::UnityEngine::AnimationClip* clip);
   }; // UnityEngine.Timeline.IPropertyCollector
   #pragma pack(pop)
 }
@@ -105,7 +105,7 @@ namespace UnityEngine::Timeline {
 // Writing MetadataGetter for method: UnityEngine::Timeline::IPropertyCollector::PushActiveGameObject
 // Il2CppName: PushActiveGameObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::IPropertyCollector::*)(UnityEngine::GameObject*)>(&UnityEngine::Timeline::IPropertyCollector::PushActiveGameObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::IPropertyCollector::*)(::UnityEngine::GameObject*)>(&UnityEngine::Timeline::IPropertyCollector::PushActiveGameObject)> {
   static const MethodInfo* get() {
     static auto* gameObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::IPropertyCollector*), "PushActiveGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameObject});
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Timeline::IPropertyCollector::AddFromClip
 // Il2CppName: AddFromClip
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::IPropertyCollector::*)(UnityEngine::AnimationClip*)>(&UnityEngine::Timeline::IPropertyCollector::AddFromClip)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::IPropertyCollector::*)(::UnityEngine::AnimationClip*)>(&UnityEngine::Timeline::IPropertyCollector::AddFromClip)> {
   static const MethodInfo* get() {
     static auto* clip = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationClip")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::IPropertyCollector*), "AddFromClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clip});
@@ -131,7 +131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Timeline::IPropertyCollector::AddFromClips
 // Il2CppName: AddFromClips
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::IPropertyCollector::*)(System::Collections::Generic::IEnumerable_1<UnityEngine::AnimationClip*>*)>(&UnityEngine::Timeline::IPropertyCollector::AddFromClips)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::IPropertyCollector::*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::AnimationClip*>*)>(&UnityEngine::Timeline::IPropertyCollector::AddFromClips)> {
   static const MethodInfo* get() {
     static auto* clips = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationClip")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::IPropertyCollector*), "AddFromClips", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clips});
@@ -152,7 +152,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Timeline::IPropertyCollector::AddFromClip
 // Il2CppName: AddFromClip
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::IPropertyCollector::*)(UnityEngine::GameObject*, UnityEngine::AnimationClip*)>(&UnityEngine::Timeline::IPropertyCollector::AddFromClip)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::IPropertyCollector::*)(::UnityEngine::GameObject*, ::UnityEngine::AnimationClip*)>(&UnityEngine::Timeline::IPropertyCollector::AddFromClip)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* clip = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationClip")->byval_arg;
@@ -162,7 +162,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Timeline::IPropertyCollector::AddFromClips
 // Il2CppName: AddFromClips
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::IPropertyCollector::*)(UnityEngine::GameObject*, System::Collections::Generic::IEnumerable_1<UnityEngine::AnimationClip*>*)>(&UnityEngine::Timeline::IPropertyCollector::AddFromClips)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::IPropertyCollector::*)(::UnityEngine::GameObject*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::AnimationClip*>*)>(&UnityEngine::Timeline::IPropertyCollector::AddFromClips)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* clips = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationClip")})->byval_arg;
@@ -175,7 +175,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Timeline::IPropertyCollector::AddFromName
 // Il2CppName: AddFromName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::IPropertyCollector::*)(UnityEngine::GameObject*, ::StringW)>(&UnityEngine::Timeline::IPropertyCollector::AddFromName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::IPropertyCollector::*)(::UnityEngine::GameObject*, ::StringW)>(&UnityEngine::Timeline::IPropertyCollector::AddFromName)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -185,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Timeline::IPropertyCollector::AddFromName
 // Il2CppName: AddFromName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::IPropertyCollector::*)(UnityEngine::Component*, ::StringW)>(&UnityEngine::Timeline::IPropertyCollector::AddFromName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::IPropertyCollector::*)(::UnityEngine::Component*, ::StringW)>(&UnityEngine::Timeline::IPropertyCollector::AddFromName)> {
   static const MethodInfo* get() {
     static auto* component = &::il2cpp_utils::GetClassFromName("UnityEngine", "Component")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -195,7 +195,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Timeline::IPropertyCollector::AddFromComponent
 // Il2CppName: AddFromComponent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::IPropertyCollector::*)(UnityEngine::GameObject*, UnityEngine::Component*)>(&UnityEngine::Timeline::IPropertyCollector::AddFromComponent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::IPropertyCollector::*)(::UnityEngine::GameObject*, ::UnityEngine::Component*)>(&UnityEngine::Timeline::IPropertyCollector::AddFromComponent)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* component = &::il2cpp_utils::GetClassFromName("UnityEngine", "Component")->byval_arg;
@@ -205,7 +205,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Timeline::IPropertyCollector::AddObjectProperties
 // Il2CppName: AddObjectProperties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::IPropertyCollector::*)(UnityEngine::Object*, UnityEngine::AnimationClip*)>(&UnityEngine::Timeline::IPropertyCollector::AddObjectProperties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::IPropertyCollector::*)(::UnityEngine::Object*, ::UnityEngine::AnimationClip*)>(&UnityEngine::Timeline::IPropertyCollector::AddObjectProperties)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* clip = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationClip")->byval_arg;

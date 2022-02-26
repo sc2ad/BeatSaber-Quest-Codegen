@@ -16,8 +16,8 @@ namespace HoudiniEngineUnity {
   class HEU_VertexEntry;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_VertexEntry);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_VertexEntry*, "HoudiniEngineUnity", "HEU_VertexEntry");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_VertexEntry);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_VertexEntry*, "HoudiniEngineUnity", "HEU_VertexEntry");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x1C
@@ -64,7 +64,7 @@ namespace HoudiniEngineUnity {
     // Offset: 0x19A8BB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_VertexEntry* New_ctor(int meshKey, int vertexIndex, int normalIndex) {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_VertexEntry::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_VertexEntry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_VertexEntry*, creationType>(meshKey, vertexIndex, normalIndex)));
     }
   }; // HoudiniEngineUnity.HEU_VertexEntry

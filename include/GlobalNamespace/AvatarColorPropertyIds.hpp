@@ -12,8 +12,8 @@ namespace GlobalNamespace {
   class AvatarColorPropertyIds;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::AvatarColorPropertyIds);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarColorPropertyIds*, "", "AvatarColorPropertyIds");
+NEED_NO_BOX(::GlobalNamespace::AvatarColorPropertyIds);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AvatarColorPropertyIds*, "", "AvatarColorPropertyIds");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10

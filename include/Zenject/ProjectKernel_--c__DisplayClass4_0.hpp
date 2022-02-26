@@ -37,8 +37,8 @@ namespace Zenject {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::ProjectKernel::$$c__DisplayClass4_0);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::ProjectKernel::$$c__DisplayClass4_0*, "Zenject", "ProjectKernel/<>c__DisplayClass4_0");
+NEED_NO_BOX(::Zenject::ProjectKernel::$$c__DisplayClass4_0);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::ProjectKernel::$$c__DisplayClass4_0*, "Zenject", "ProjectKernel/<>c__DisplayClass4_0");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x20
@@ -60,48 +60,48 @@ namespace Zenject {
     // public System.Collections.Generic.List`1<UnityEngine.SceneManagement.Scene> sceneOrder
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::List_1<UnityEngine::SceneManagement::Scene>* sceneOrder;
+    ::System::Collections::Generic::List_1<::UnityEngine::SceneManagement::Scene>* sceneOrder;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::SceneManagement::Scene>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::UnityEngine::SceneManagement::Scene>*) == 0x8);
     // public System.Func`2<Zenject.SceneContext,System.Int32> <>9__0
     // Size: 0x8
     // Offset: 0x18
-    System::Func_2<Zenject::SceneContext*, int>* $$9__0;
+    ::System::Func_2<::Zenject::SceneContext*, int>* $$9__0;
     // Field size check
-    static_assert(sizeof(System::Func_2<Zenject::SceneContext*, int>*) == 0x8);
+    static_assert(sizeof(::System::Func_2<::Zenject::SceneContext*, int>*) == 0x8);
     public:
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.SceneManagement.Scene> sceneOrder
-    System::Collections::Generic::List_1<UnityEngine::SceneManagement::Scene>*& dyn_sceneOrder();
+    ::System::Collections::Generic::List_1<::UnityEngine::SceneManagement::Scene>*& dyn_sceneOrder();
     // Get instance field reference: public System.Func`2<Zenject.SceneContext,System.Int32> <>9__0
-    System::Func_2<Zenject::SceneContext*, int>*& dyn_$$9__0();
+    ::System::Func_2<::Zenject::SceneContext*, int>*& dyn_$$9__0();
     // System.Int32 <ForceUnloadAllScenes>b__0(Zenject.SceneContext x)
     // Offset: 0x1B13B50
-    int $ForceUnloadAllScenes$b__0(Zenject::SceneContext* x);
+    int $ForceUnloadAllScenes$b__0(::Zenject::SceneContext* x);
     // static private System.Object __zenCreate(System.Object[] P_0)
     // Offset: 0x1B13BD8
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
     // Offset: 0x1B13C34
-    static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
     // Offset: 0x1B13658
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProjectKernel::$$c__DisplayClass4_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ProjectKernel::$$c__DisplayClass4_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ProjectKernel::$$c__DisplayClass4_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProjectKernel::$$c__DisplayClass4_0*, creationType>()));
     }
   }; // Zenject.ProjectKernel/Zenject.<>c__DisplayClass4_0
   #pragma pack(pop)
-  static check_size<sizeof(ProjectKernel::$$c__DisplayClass4_0), 24 + sizeof(System::Func_2<Zenject::SceneContext*, int>*)> __Zenject_ProjectKernel_$$c__DisplayClass4_0SizeCheck;
+  static check_size<sizeof(ProjectKernel::$$c__DisplayClass4_0), 24 + sizeof(::System::Func_2<::Zenject::SceneContext*, int>*)> __Zenject_ProjectKernel_$$c__DisplayClass4_0SizeCheck;
   static_assert(sizeof(ProjectKernel::$$c__DisplayClass4_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ProjectKernel::$$c__DisplayClass4_0::$ForceUnloadAllScenes$b__0
 // Il2CppName: <ForceUnloadAllScenes>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Zenject::ProjectKernel::$$c__DisplayClass4_0::*)(Zenject::SceneContext*)>(&Zenject::ProjectKernel::$$c__DisplayClass4_0::$ForceUnloadAllScenes$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Zenject::ProjectKernel::$$c__DisplayClass4_0::*)(::Zenject::SceneContext*)>(&Zenject::ProjectKernel::$$c__DisplayClass4_0::$ForceUnloadAllScenes$b__0)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("Zenject", "SceneContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ProjectKernel::$$c__DisplayClass4_0*), "<ForceUnloadAllScenes>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -119,7 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: Zenject::ProjectKernel::$$c__DisplayClass4_0::__zenCreateInjectTypeInfo
 // Il2CppName: __zenCreateInjectTypeInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (*)()>(&Zenject::ProjectKernel::$$c__DisplayClass4_0::__zenCreateInjectTypeInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&Zenject::ProjectKernel::$$c__DisplayClass4_0::__zenCreateInjectTypeInfo)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::ProjectKernel::$$c__DisplayClass4_0*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -30,8 +30,8 @@ namespace System::Dynamic::Utils {
   class TypeUtils;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Dynamic::Utils::TypeUtils);
-DEFINE_IL2CPP_ARG_TYPE(System::Dynamic::Utils::TypeUtils*, "System.Dynamic.Utils", "TypeUtils");
+NEED_NO_BOX(::System::Dynamic::Utils::TypeUtils);
+DEFINE_IL2CPP_ARG_TYPE(::System::Dynamic::Utils::TypeUtils*, "System.Dynamic.Utils", "TypeUtils");
 // Type namespace: System.Dynamic.Utils
 namespace System::Dynamic::Utils {
   // Size: 0x10
@@ -42,132 +42,132 @@ namespace System::Dynamic::Utils {
   class TypeUtils : public ::Il2CppObject {
     public:
     // Get static field: static private System.Reflection.Assembly s_mscorlib
-    static System::Reflection::Assembly* _get_s_mscorlib();
+    static ::System::Reflection::Assembly* _get_s_mscorlib();
     // Set static field: static private System.Reflection.Assembly s_mscorlib
-    static void _set_s_mscorlib(System::Reflection::Assembly* value);
+    static void _set_s_mscorlib(::System::Reflection::Assembly* value);
     // static private System.Reflection.Assembly get_MsCorLib()
     // Offset: 0x15F4BC0
-    static System::Reflection::Assembly* get_MsCorLib();
+    static ::System::Reflection::Assembly* get_MsCorLib();
     // static public System.Type GetNonNullableType(System.Type type)
     // Offset: 0x15F277C
-    static System::Type* GetNonNullableType(System::Type* type);
+    static ::System::Type* GetNonNullableType(::System::Type* type);
     // static public System.Type GetNullableType(System.Type type)
     // Offset: 0x15F28AC
-    static System::Type* GetNullableType(System::Type* type);
+    static ::System::Type* GetNullableType(::System::Type* type);
     // static public System.Boolean IsNullableType(System.Type type)
     // Offset: 0x15F27DC
-    static bool IsNullableType(System::Type* type);
+    static bool IsNullableType(::System::Type* type);
     // static public System.Boolean IsNullableOrReferenceType(System.Type type)
     // Offset: 0x15F29D8
-    static bool IsNullableOrReferenceType(System::Type* type);
+    static bool IsNullableOrReferenceType(::System::Type* type);
     // static public System.Boolean IsBool(System.Type type)
     // Offset: 0x15F2A1C
-    static bool IsBool(System::Type* type);
+    static bool IsBool(::System::Type* type);
     // static public System.Boolean IsNumeric(System.Type type)
     // Offset: 0x15F2AB0
-    static bool IsNumeric(System::Type* type);
+    static bool IsNumeric(::System::Type* type);
     // static public System.Boolean IsInteger(System.Type type)
     // Offset: 0x15F2B58
-    static bool IsInteger(System::Type* type);
+    static bool IsInteger(::System::Type* type);
     // static public System.Boolean IsArithmetic(System.Type type)
     // Offset: 0x15F2C00
-    static bool IsArithmetic(System::Type* type);
+    static bool IsArithmetic(::System::Type* type);
     // static public System.Boolean IsUnsignedInt(System.Type type)
     // Offset: 0x15F2CA8
-    static bool IsUnsignedInt(System::Type* type);
+    static bool IsUnsignedInt(::System::Type* type);
     // static public System.Boolean IsIntegerOrBool(System.Type type)
     // Offset: 0x15F2D54
-    static bool IsIntegerOrBool(System::Type* type);
+    static bool IsIntegerOrBool(::System::Type* type);
     // static public System.Boolean IsNumericOrBool(System.Type type)
     // Offset: 0x15F2E04
-    static bool IsNumericOrBool(System::Type* type);
+    static bool IsNumericOrBool(::System::Type* type);
     // static public System.Boolean IsValidInstanceType(System.Reflection.MemberInfo member, System.Type instanceType)
     // Offset: 0x15F2E3C
-    static bool IsValidInstanceType(System::Reflection::MemberInfo* member, System::Type* instanceType);
+    static bool IsValidInstanceType(::System::Reflection::MemberInfo* member, ::System::Type* instanceType);
     // static public System.Boolean HasIdentityPrimitiveOrNullableConversionTo(System.Type source, System.Type dest)
     // Offset: 0x15F3280
-    static bool HasIdentityPrimitiveOrNullableConversionTo(System::Type* source, System::Type* dest);
+    static bool HasIdentityPrimitiveOrNullableConversionTo(::System::Type* source, ::System::Type* dest);
     // static public System.Boolean HasReferenceConversionTo(System.Type source, System.Type dest)
     // Offset: 0x15F34D4
-    static bool HasReferenceConversionTo(System::Type* source, System::Type* dest);
+    static bool HasReferenceConversionTo(::System::Type* source, ::System::Type* dest);
     // static private System.Boolean IsCovariant(System.Type t)
     // Offset: 0x15F396C
-    static bool IsCovariant(System::Type* t);
+    static bool IsCovariant(::System::Type* t);
     // static private System.Boolean IsContravariant(System.Type t)
     // Offset: 0x15F3998
-    static bool IsContravariant(System::Type* t);
+    static bool IsContravariant(::System::Type* t);
     // static private System.Boolean IsInvariant(System.Type t)
     // Offset: 0x15F39C4
-    static bool IsInvariant(System::Type* t);
+    static bool IsInvariant(::System::Type* t);
     // static private System.Boolean IsDelegate(System.Type t)
     // Offset: 0x15F39F4
-    static bool IsDelegate(System::Type* t);
+    static bool IsDelegate(::System::Type* t);
     // static public System.Boolean IsLegalExplicitVariantDelegateConversion(System.Type source, System.Type dest)
     // Offset: 0x15F36DC
-    static bool IsLegalExplicitVariantDelegateConversion(System::Type* source, System::Type* dest);
+    static bool IsLegalExplicitVariantDelegateConversion(::System::Type* source, ::System::Type* dest);
     // static public System.Boolean IsConvertible(System.Type type)
     // Offset: 0x15F3430
-    static bool IsConvertible(System::Type* type);
+    static bool IsConvertible(::System::Type* type);
     // static public System.Boolean HasReferenceEquality(System.Type left, System.Type right)
     // Offset: 0x15F3A88
-    static bool HasReferenceEquality(System::Type* left, System::Type* right);
+    static bool HasReferenceEquality(::System::Type* left, ::System::Type* right);
     // static public System.Boolean HasBuiltInEqualityOperator(System.Type left, System.Type right)
     // Offset: 0x15F3B20
-    static bool HasBuiltInEqualityOperator(System::Type* left, System::Type* right);
+    static bool HasBuiltInEqualityOperator(::System::Type* left, ::System::Type* right);
     // static public System.Boolean IsImplicitlyConvertibleTo(System.Type source, System.Type destination)
     // Offset: 0x15F3CA8
-    static bool IsImplicitlyConvertibleTo(System::Type* source, System::Type* destination);
+    static bool IsImplicitlyConvertibleTo(::System::Type* source, ::System::Type* destination);
     // static public System.Reflection.MethodInfo GetUserDefinedCoercionMethod(System.Type convertFrom, System.Type convertToType)
     // Offset: 0x15F4064
-    static System::Reflection::MethodInfo* GetUserDefinedCoercionMethod(System::Type* convertFrom, System::Type* convertToType);
+    static ::System::Reflection::MethodInfo* GetUserDefinedCoercionMethod(::System::Type* convertFrom, ::System::Type* convertToType);
     // static private System.Reflection.MethodInfo FindConversionOperator(System.Reflection.MethodInfo[] methods, System.Type typeFrom, System.Type typeTo)
     // Offset: 0x15F41CC
-    static System::Reflection::MethodInfo* FindConversionOperator(::ArrayW<System::Reflection::MethodInfo*> methods, System::Type* typeFrom, System::Type* typeTo);
+    static ::System::Reflection::MethodInfo* FindConversionOperator(::ArrayW<::System::Reflection::MethodInfo*> methods, ::System::Type* typeFrom, ::System::Type* typeTo);
     // static private System.Boolean IsImplicitNumericConversion(System.Type source, System.Type destination)
     // Offset: 0x15F3D2C
-    static bool IsImplicitNumericConversion(System::Type* source, System::Type* destination);
+    static bool IsImplicitNumericConversion(::System::Type* source, ::System::Type* destination);
     // static private System.Boolean IsImplicitReferenceConversion(System.Type source, System.Type destination)
     // Offset: 0x15F3E74
-    static bool IsImplicitReferenceConversion(System::Type* source, System::Type* destination);
+    static bool IsImplicitReferenceConversion(::System::Type* source, ::System::Type* destination);
     // static private System.Boolean IsImplicitBoxingConversion(System.Type source, System.Type destination)
     // Offset: 0x15F3EA0
-    static bool IsImplicitBoxingConversion(System::Type* source, System::Type* destination);
+    static bool IsImplicitBoxingConversion(::System::Type* source, ::System::Type* destination);
     // static private System.Boolean IsImplicitNullableConversion(System.Type source, System.Type destination)
     // Offset: 0x15F400C
-    static bool IsImplicitNullableConversion(System::Type* source, System::Type* destination);
+    static bool IsImplicitNullableConversion(::System::Type* source, ::System::Type* destination);
     // static public System.Type FindGenericType(System.Type definition, System.Type type)
     // Offset: 0x15F4344
-    static System::Type* FindGenericType(System::Type* definition, System::Type* type);
+    static ::System::Type* FindGenericType(::System::Type* definition, ::System::Type* type);
     // static public System.Reflection.MethodInfo GetBooleanOperator(System.Type type, System.String name)
     // Offset: 0x15F4774
-    static System::Reflection::MethodInfo* GetBooleanOperator(System::Type* type, ::StringW name);
+    static ::System::Reflection::MethodInfo* GetBooleanOperator(::System::Type* type, ::StringW name);
     // static public System.Type GetNonRefType(System.Type type)
     // Offset: 0x15F48F0
-    static System::Type* GetNonRefType(System::Type* type);
+    static ::System::Type* GetNonRefType(::System::Type* type);
     // static public System.Boolean AreEquivalent(System.Type t1, System.Type t2)
     // Offset: 0x15E9D84
-    static bool AreEquivalent(System::Type* t1, System::Type* t2);
+    static bool AreEquivalent(::System::Type* t1, ::System::Type* t2);
     // static public System.Boolean AreReferenceAssignable(System.Type dest, System.Type src)
     // Offset: 0x15EAC78
-    static bool AreReferenceAssignable(System::Type* dest, System::Type* src);
+    static bool AreReferenceAssignable(::System::Type* dest, ::System::Type* src);
     // static public System.Boolean IsSameOrSubclass(System.Type type, System.Type subType)
     // Offset: 0x15F1994
-    static bool IsSameOrSubclass(System::Type* type, System::Type* subType);
+    static bool IsSameOrSubclass(::System::Type* type, ::System::Type* subType);
     // static public System.Void ValidateType(System.Type type, System.String paramName)
     // Offset: 0x15F4940
-    static void ValidateType(System::Type* type, ::StringW paramName);
+    static void ValidateType(::System::Type* type, ::StringW paramName);
     // static public System.Void ValidateType(System.Type type, System.String paramName, System.Boolean allowByRef, System.Boolean allowPointer)
     // Offset: 0x15F1708
-    static void ValidateType(System::Type* type, ::StringW paramName, bool allowByRef, bool allowPointer);
+    static void ValidateType(::System::Type* type, ::StringW paramName, bool allowByRef, bool allowPointer);
     // static public System.Boolean ValidateType(System.Type type, System.String paramName, System.Int32 index)
     // Offset: 0x15F494C
-    static bool ValidateType(System::Type* type, ::StringW paramName, int index);
+    static bool ValidateType(::System::Type* type, ::StringW paramName, int index);
     // static public System.Boolean CanCache(System.Type t)
     // Offset: 0x15F2624
-    static bool CanCache(System::Type* t);
+    static bool CanCache(::System::Type* t);
     // static public System.Reflection.MethodInfo GetInvokeMethod(System.Type delegateType)
     // Offset: 0x15F4C70
-    static System::Reflection::MethodInfo* GetInvokeMethod(System::Type* delegateType);
+    static ::System::Reflection::MethodInfo* GetInvokeMethod(::System::Type* delegateType);
   }; // System.Dynamic.Utils.TypeUtils
   #pragma pack(pop)
 }
@@ -175,7 +175,7 @@ namespace System::Dynamic::Utils {
 // Writing MetadataGetter for method: System::Dynamic::Utils::TypeUtils::get_MsCorLib
 // Il2CppName: get_MsCorLib
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (*)()>(&System::Dynamic::Utils::TypeUtils::get_MsCorLib)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::Assembly* (*)()>(&System::Dynamic::Utils::TypeUtils::get_MsCorLib)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Dynamic::Utils::TypeUtils*), "get_MsCorLib", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -183,7 +183,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Dynamic::Utils::TypeUtils::GetNonNullableType
 // Il2CppName: GetNonNullableType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(System::Type*)>(&System::Dynamic::Utils::TypeUtils::GetNonNullableType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Type*)>(&System::Dynamic::Utils::TypeUtils::GetNonNullableType)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Dynamic::Utils::TypeUtils*), "GetNonNullableType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -192,7 +192,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: System::Dynamic::Utils::TypeUtils::GetNullableType
 // Il2CppName: GetNullableType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(System::Type*)>(&System::Dynamic::Utils::TypeUtils::GetNullableType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Type*)>(&System::Dynamic::Utils::TypeUtils::GetNullableType)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Dynamic::Utils::TypeUtils*), "GetNullableType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -201,7 +201,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: System::Dynamic::Utils::TypeUtils::IsNullableType
 // Il2CppName: IsNullableType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&System::Dynamic::Utils::TypeUtils::IsNullableType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&System::Dynamic::Utils::TypeUtils::IsNullableType)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Dynamic::Utils::TypeUtils*), "IsNullableType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -210,7 +210,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Dynamic::Utils::TypeUtils::IsNullableOrReferenceType
 // Il2CppName: IsNullableOrReferenceType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&System::Dynamic::Utils::TypeUtils::IsNullableOrReferenceType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&System::Dynamic::Utils::TypeUtils::IsNullableOrReferenceType)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Dynamic::Utils::TypeUtils*), "IsNullableOrReferenceType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -219,7 +219,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Dynamic::Utils::TypeUtils::IsBool
 // Il2CppName: IsBool
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&System::Dynamic::Utils::TypeUtils::IsBool)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&System::Dynamic::Utils::TypeUtils::IsBool)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Dynamic::Utils::TypeUtils*), "IsBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -228,7 +228,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Dynamic::Utils::TypeUtils::IsNumeric
 // Il2CppName: IsNumeric
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&System::Dynamic::Utils::TypeUtils::IsNumeric)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&System::Dynamic::Utils::TypeUtils::IsNumeric)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Dynamic::Utils::TypeUtils*), "IsNumeric", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -237,7 +237,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Dynamic::Utils::TypeUtils::IsInteger
 // Il2CppName: IsInteger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&System::Dynamic::Utils::TypeUtils::IsInteger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&System::Dynamic::Utils::TypeUtils::IsInteger)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Dynamic::Utils::TypeUtils*), "IsInteger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -246,7 +246,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Dynamic::Utils::TypeUtils::IsArithmetic
 // Il2CppName: IsArithmetic
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&System::Dynamic::Utils::TypeUtils::IsArithmetic)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&System::Dynamic::Utils::TypeUtils::IsArithmetic)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Dynamic::Utils::TypeUtils*), "IsArithmetic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -255,7 +255,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Dynamic::Utils::TypeUtils::IsUnsignedInt
 // Il2CppName: IsUnsignedInt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&System::Dynamic::Utils::TypeUtils::IsUnsignedInt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&System::Dynamic::Utils::TypeUtils::IsUnsignedInt)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Dynamic::Utils::TypeUtils*), "IsUnsignedInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -264,7 +264,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Dynamic::Utils::TypeUtils::IsIntegerOrBool
 // Il2CppName: IsIntegerOrBool
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&System::Dynamic::Utils::TypeUtils::IsIntegerOrBool)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&System::Dynamic::Utils::TypeUtils::IsIntegerOrBool)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Dynamic::Utils::TypeUtils*), "IsIntegerOrBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -273,7 +273,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Dynamic::Utils::TypeUtils::IsNumericOrBool
 // Il2CppName: IsNumericOrBool
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&System::Dynamic::Utils::TypeUtils::IsNumericOrBool)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&System::Dynamic::Utils::TypeUtils::IsNumericOrBool)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Dynamic::Utils::TypeUtils*), "IsNumericOrBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -282,7 +282,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Dynamic::Utils::TypeUtils::IsValidInstanceType
 // Il2CppName: IsValidInstanceType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::MemberInfo*, System::Type*)>(&System::Dynamic::Utils::TypeUtils::IsValidInstanceType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::MemberInfo*, ::System::Type*)>(&System::Dynamic::Utils::TypeUtils::IsValidInstanceType)> {
   static const MethodInfo* get() {
     static auto* member = &::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo")->byval_arg;
     static auto* instanceType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -292,7 +292,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Dynamic::Utils::TypeUtils::HasIdentityPrimitiveOrNullableConversionTo
 // Il2CppName: HasIdentityPrimitiveOrNullableConversionTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, System::Type*)>(&System::Dynamic::Utils::TypeUtils::HasIdentityPrimitiveOrNullableConversionTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&System::Dynamic::Utils::TypeUtils::HasIdentityPrimitiveOrNullableConversionTo)> {
   static const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* dest = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -302,7 +302,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Dynamic::Utils::TypeUtils::HasReferenceConversionTo
 // Il2CppName: HasReferenceConversionTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, System::Type*)>(&System::Dynamic::Utils::TypeUtils::HasReferenceConversionTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&System::Dynamic::Utils::TypeUtils::HasReferenceConversionTo)> {
   static const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* dest = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -312,7 +312,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Dynamic::Utils::TypeUtils::IsCovariant
 // Il2CppName: IsCovariant
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&System::Dynamic::Utils::TypeUtils::IsCovariant)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&System::Dynamic::Utils::TypeUtils::IsCovariant)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Dynamic::Utils::TypeUtils*), "IsCovariant", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
@@ -321,7 +321,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Dynamic::Utils::TypeUtils::IsContravariant
 // Il2CppName: IsContravariant
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&System::Dynamic::Utils::TypeUtils::IsContravariant)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&System::Dynamic::Utils::TypeUtils::IsContravariant)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Dynamic::Utils::TypeUtils*), "IsContravariant", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
@@ -330,7 +330,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Dynamic::Utils::TypeUtils::IsInvariant
 // Il2CppName: IsInvariant
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&System::Dynamic::Utils::TypeUtils::IsInvariant)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&System::Dynamic::Utils::TypeUtils::IsInvariant)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Dynamic::Utils::TypeUtils*), "IsInvariant", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
@@ -339,7 +339,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Dynamic::Utils::TypeUtils::IsDelegate
 // Il2CppName: IsDelegate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&System::Dynamic::Utils::TypeUtils::IsDelegate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&System::Dynamic::Utils::TypeUtils::IsDelegate)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Dynamic::Utils::TypeUtils*), "IsDelegate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
@@ -348,7 +348,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Dynamic::Utils::TypeUtils::IsLegalExplicitVariantDelegateConversion
 // Il2CppName: IsLegalExplicitVariantDelegateConversion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, System::Type*)>(&System::Dynamic::Utils::TypeUtils::IsLegalExplicitVariantDelegateConversion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&System::Dynamic::Utils::TypeUtils::IsLegalExplicitVariantDelegateConversion)> {
   static const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* dest = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -358,7 +358,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Dynamic::Utils::TypeUtils::IsConvertible
 // Il2CppName: IsConvertible
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&System::Dynamic::Utils::TypeUtils::IsConvertible)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&System::Dynamic::Utils::TypeUtils::IsConvertible)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Dynamic::Utils::TypeUtils*), "IsConvertible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -367,7 +367,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Dynamic::Utils::TypeUtils::HasReferenceEquality
 // Il2CppName: HasReferenceEquality
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, System::Type*)>(&System::Dynamic::Utils::TypeUtils::HasReferenceEquality)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&System::Dynamic::Utils::TypeUtils::HasReferenceEquality)> {
   static const MethodInfo* get() {
     static auto* left = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* right = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -377,7 +377,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Dynamic::Utils::TypeUtils::HasBuiltInEqualityOperator
 // Il2CppName: HasBuiltInEqualityOperator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, System::Type*)>(&System::Dynamic::Utils::TypeUtils::HasBuiltInEqualityOperator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&System::Dynamic::Utils::TypeUtils::HasBuiltInEqualityOperator)> {
   static const MethodInfo* get() {
     static auto* left = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* right = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -387,7 +387,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Dynamic::Utils::TypeUtils::IsImplicitlyConvertibleTo
 // Il2CppName: IsImplicitlyConvertibleTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, System::Type*)>(&System::Dynamic::Utils::TypeUtils::IsImplicitlyConvertibleTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&System::Dynamic::Utils::TypeUtils::IsImplicitlyConvertibleTo)> {
   static const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* destination = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -397,7 +397,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Dynamic::Utils::TypeUtils::GetUserDefinedCoercionMethod
 // Il2CppName: GetUserDefinedCoercionMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (*)(System::Type*, System::Type*)>(&System::Dynamic::Utils::TypeUtils::GetUserDefinedCoercionMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (*)(::System::Type*, ::System::Type*)>(&System::Dynamic::Utils::TypeUtils::GetUserDefinedCoercionMethod)> {
   static const MethodInfo* get() {
     static auto* convertFrom = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* convertToType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -407,7 +407,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Dynamic::Utils::TypeUtils::FindConversionOperator
 // Il2CppName: FindConversionOperator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (*)(::ArrayW<System::Reflection::MethodInfo*>, System::Type*, System::Type*)>(&System::Dynamic::Utils::TypeUtils::FindConversionOperator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (*)(::ArrayW<::System::Reflection::MethodInfo*>, ::System::Type*, ::System::Type*)>(&System::Dynamic::Utils::TypeUtils::FindConversionOperator)> {
   static const MethodInfo* get() {
     static auto* methods = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Reflection", "MethodInfo"), 1)->byval_arg;
     static auto* typeFrom = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -418,7 +418,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Dynamic::Utils::TypeUtils::IsImplicitNumericConversion
 // Il2CppName: IsImplicitNumericConversion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, System::Type*)>(&System::Dynamic::Utils::TypeUtils::IsImplicitNumericConversion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&System::Dynamic::Utils::TypeUtils::IsImplicitNumericConversion)> {
   static const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* destination = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -428,7 +428,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Dynamic::Utils::TypeUtils::IsImplicitReferenceConversion
 // Il2CppName: IsImplicitReferenceConversion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, System::Type*)>(&System::Dynamic::Utils::TypeUtils::IsImplicitReferenceConversion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&System::Dynamic::Utils::TypeUtils::IsImplicitReferenceConversion)> {
   static const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* destination = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -438,7 +438,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Dynamic::Utils::TypeUtils::IsImplicitBoxingConversion
 // Il2CppName: IsImplicitBoxingConversion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, System::Type*)>(&System::Dynamic::Utils::TypeUtils::IsImplicitBoxingConversion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&System::Dynamic::Utils::TypeUtils::IsImplicitBoxingConversion)> {
   static const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* destination = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -448,7 +448,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Dynamic::Utils::TypeUtils::IsImplicitNullableConversion
 // Il2CppName: IsImplicitNullableConversion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, System::Type*)>(&System::Dynamic::Utils::TypeUtils::IsImplicitNullableConversion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&System::Dynamic::Utils::TypeUtils::IsImplicitNullableConversion)> {
   static const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* destination = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -458,7 +458,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Dynamic::Utils::TypeUtils::FindGenericType
 // Il2CppName: FindGenericType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(System::Type*, System::Type*)>(&System::Dynamic::Utils::TypeUtils::FindGenericType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Type*, ::System::Type*)>(&System::Dynamic::Utils::TypeUtils::FindGenericType)> {
   static const MethodInfo* get() {
     static auto* definition = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -468,7 +468,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: System::Dynamic::Utils::TypeUtils::GetBooleanOperator
 // Il2CppName: GetBooleanOperator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (*)(System::Type*, ::StringW)>(&System::Dynamic::Utils::TypeUtils::GetBooleanOperator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (*)(::System::Type*, ::StringW)>(&System::Dynamic::Utils::TypeUtils::GetBooleanOperator)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -478,7 +478,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Dynamic::Utils::TypeUtils::GetNonRefType
 // Il2CppName: GetNonRefType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(System::Type*)>(&System::Dynamic::Utils::TypeUtils::GetNonRefType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Type*)>(&System::Dynamic::Utils::TypeUtils::GetNonRefType)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Dynamic::Utils::TypeUtils*), "GetNonRefType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -487,7 +487,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: System::Dynamic::Utils::TypeUtils::AreEquivalent
 // Il2CppName: AreEquivalent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, System::Type*)>(&System::Dynamic::Utils::TypeUtils::AreEquivalent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&System::Dynamic::Utils::TypeUtils::AreEquivalent)> {
   static const MethodInfo* get() {
     static auto* t1 = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* t2 = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -497,7 +497,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Dynamic::Utils::TypeUtils::AreReferenceAssignable
 // Il2CppName: AreReferenceAssignable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, System::Type*)>(&System::Dynamic::Utils::TypeUtils::AreReferenceAssignable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&System::Dynamic::Utils::TypeUtils::AreReferenceAssignable)> {
   static const MethodInfo* get() {
     static auto* dest = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* src = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -507,7 +507,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Dynamic::Utils::TypeUtils::IsSameOrSubclass
 // Il2CppName: IsSameOrSubclass
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, System::Type*)>(&System::Dynamic::Utils::TypeUtils::IsSameOrSubclass)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&System::Dynamic::Utils::TypeUtils::IsSameOrSubclass)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* subType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -517,7 +517,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Dynamic::Utils::TypeUtils::ValidateType
 // Il2CppName: ValidateType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Type*, ::StringW)>(&System::Dynamic::Utils::TypeUtils::ValidateType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*, ::StringW)>(&System::Dynamic::Utils::TypeUtils::ValidateType)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* paramName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -527,7 +527,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Dynamic::Utils::TypeUtils::ValidateType
 // Il2CppName: ValidateType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Type*, ::StringW, bool, bool)>(&System::Dynamic::Utils::TypeUtils::ValidateType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*, ::StringW, bool, bool)>(&System::Dynamic::Utils::TypeUtils::ValidateType)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* paramName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -539,7 +539,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Dynamic::Utils::TypeUtils::ValidateType
 // Il2CppName: ValidateType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, ::StringW, int)>(&System::Dynamic::Utils::TypeUtils::ValidateType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::StringW, int)>(&System::Dynamic::Utils::TypeUtils::ValidateType)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* paramName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -550,7 +550,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Dynamic::Utils::TypeUtils::CanCache
 // Il2CppName: CanCache
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&System::Dynamic::Utils::TypeUtils::CanCache)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&System::Dynamic::Utils::TypeUtils::CanCache)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Dynamic::Utils::TypeUtils*), "CanCache", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
@@ -559,7 +559,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Dynamic::Utils::TypeUtils::GetInvokeMethod
 // Il2CppName: GetInvokeMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (*)(System::Type*)>(&System::Dynamic::Utils::TypeUtils::GetInvokeMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (*)(::System::Type*)>(&System::Dynamic::Utils::TypeUtils::GetInvokeMethod)> {
   static const MethodInfo* get() {
     static auto* delegateType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Dynamic::Utils::TypeUtils*), "GetInvokeMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{delegateType});

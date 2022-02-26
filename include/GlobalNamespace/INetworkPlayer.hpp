@@ -23,8 +23,8 @@ namespace GlobalNamespace {
   class INetworkPlayer;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::INetworkPlayer);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::INetworkPlayer*, "", "INetworkPlayer");
+NEED_NO_BOX(::GlobalNamespace::INetworkPlayer);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::INetworkPlayer*, "", "INetworkPlayer");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -50,13 +50,13 @@ namespace GlobalNamespace {
     bool get_isMyPartyOwner();
     // public IConnectedPlayer get_connectedPlayer()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::IConnectedPlayer* get_connectedPlayer();
+    ::GlobalNamespace::IConnectedPlayer* get_connectedPlayer();
     // public GameplayServerConfiguration get_configuration()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::GameplayServerConfiguration get_configuration();
+    ::GlobalNamespace::GameplayServerConfiguration get_configuration();
     // public BeatmapLevelSelectionMask get_selectionMask()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::BeatmapLevelSelectionMask get_selectionMask();
+    ::GlobalNamespace::BeatmapLevelSelectionMask get_selectionMask();
     // public System.Boolean get_canJoin()
     // Offset: 0xFFFFFFFF
     bool get_canJoin();
@@ -158,7 +158,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::INetworkPlayer::get_connectedPlayer
 // Il2CppName: get_connectedPlayer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IConnectedPlayer* (GlobalNamespace::INetworkPlayer::*)()>(&GlobalNamespace::INetworkPlayer::get_connectedPlayer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IConnectedPlayer* (GlobalNamespace::INetworkPlayer::*)()>(&GlobalNamespace::INetworkPlayer::get_connectedPlayer)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INetworkPlayer*), "get_connectedPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -166,7 +166,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::INetworkPlayer::get_configuration
 // Il2CppName: get_configuration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayServerConfiguration (GlobalNamespace::INetworkPlayer::*)()>(&GlobalNamespace::INetworkPlayer::get_configuration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::GameplayServerConfiguration (GlobalNamespace::INetworkPlayer::*)()>(&GlobalNamespace::INetworkPlayer::get_configuration)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INetworkPlayer*), "get_configuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -174,7 +174,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::INetworkPlayer::get_selectionMask
 // Il2CppName: get_selectionMask
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapLevelSelectionMask (GlobalNamespace::INetworkPlayer::*)()>(&GlobalNamespace::INetworkPlayer::get_selectionMask)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapLevelSelectionMask (GlobalNamespace::INetworkPlayer::*)()>(&GlobalNamespace::INetworkPlayer::get_selectionMask)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INetworkPlayer*), "get_selectionMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

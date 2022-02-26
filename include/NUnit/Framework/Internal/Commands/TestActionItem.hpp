@@ -28,8 +28,8 @@ namespace NUnit::Framework::Internal::Commands {
   class TestActionItem;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Internal::Commands::TestActionItem);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::TestActionItem*, "NUnit.Framework.Internal.Commands", "TestActionItem");
+NEED_NO_BOX(::NUnit::Framework::Internal::Commands::TestActionItem);
+DEFINE_IL2CPP_ARG_TYPE(::NUnit::Framework::Internal::Commands::TestActionItem*, "NUnit.Framework.Internal.Commands", "TestActionItem");
 // Type namespace: NUnit.Framework.Internal.Commands
 namespace NUnit::Framework::Internal::Commands {
   // Size: 0x19
@@ -50,9 +50,9 @@ namespace NUnit::Framework::Internal::Commands {
     // private readonly NUnit.Framework.ITestAction _action
     // Size: 0x8
     // Offset: 0x10
-    NUnit::Framework::ITestAction* action;
+    ::NUnit::Framework::ITestAction* action;
     // Field size check
-    static_assert(sizeof(NUnit::Framework::ITestAction*) == 0x8);
+    static_assert(sizeof(::NUnit::Framework::ITestAction*) == 0x8);
     // private System.Boolean _beforeTestWasRun
     // Size: 0x1
     // Offset: 0x18
@@ -61,22 +61,22 @@ namespace NUnit::Framework::Internal::Commands {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private readonly NUnit.Framework.ITestAction _action
-    NUnit::Framework::ITestAction*& dyn__action();
+    ::NUnit::Framework::ITestAction*& dyn__action();
     // Get instance field reference: private System.Boolean _beforeTestWasRun
     bool& dyn__beforeTestWasRun();
     // public System.Void .ctor(NUnit.Framework.ITestAction action)
     // Offset: 0x1B61F48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TestActionItem* New_ctor(NUnit::Framework::ITestAction* action) {
-      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Commands::TestActionItem::.ctor");
+    static TestActionItem* New_ctor(::NUnit::Framework::ITestAction* action) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::Commands::TestActionItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestActionItem*, creationType>(action)));
     }
     // public System.Void BeforeTest(NUnit.Framework.Interfaces.ITest test)
     // Offset: 0x1B60ECC
-    void BeforeTest(NUnit::Framework::Interfaces::ITest* test);
+    void BeforeTest(::NUnit::Framework::Interfaces::ITest* test);
     // public System.Void AfterTest(NUnit.Framework.Interfaces.ITest test)
     // Offset: 0x1B614D0
-    void AfterTest(NUnit::Framework::Interfaces::ITest* test);
+    void AfterTest(::NUnit::Framework::Interfaces::ITest* test);
   }; // NUnit.Framework.Internal.Commands.TestActionItem
   #pragma pack(pop)
   static check_size<sizeof(TestActionItem), 24 + sizeof(bool)> __NUnit_Framework_Internal_Commands_TestActionItemSizeCheck;
@@ -90,7 +90,7 @@ namespace NUnit::Framework::Internal::Commands {
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::TestActionItem::BeforeTest
 // Il2CppName: BeforeTest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Commands::TestActionItem::*)(NUnit::Framework::Interfaces::ITest*)>(&NUnit::Framework::Internal::Commands::TestActionItem::BeforeTest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Commands::TestActionItem::*)(::NUnit::Framework::Interfaces::ITest*)>(&NUnit::Framework::Internal::Commands::TestActionItem::BeforeTest)> {
   static const MethodInfo* get() {
     static auto* test = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ITest")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Commands::TestActionItem*), "BeforeTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{test});
@@ -99,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::TestActionItem::AfterTest
 // Il2CppName: AfterTest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Commands::TestActionItem::*)(NUnit::Framework::Interfaces::ITest*)>(&NUnit::Framework::Internal::Commands::TestActionItem::AfterTest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Commands::TestActionItem::*)(::NUnit::Framework::Interfaces::ITest*)>(&NUnit::Framework::Internal::Commands::TestActionItem::AfterTest)> {
   static const MethodInfo* get() {
     static auto* test = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ITest")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Commands::TestActionItem*), "AfterTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{test});

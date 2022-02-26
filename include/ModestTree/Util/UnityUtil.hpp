@@ -37,8 +37,8 @@ namespace ModestTree::Util {
   class UnityUtil;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(ModestTree::Util::UnityUtil);
-DEFINE_IL2CPP_ARG_TYPE(ModestTree::Util::UnityUtil*, "ModestTree.Util", "UnityUtil");
+NEED_NO_BOX(::ModestTree::Util::UnityUtil);
+DEFINE_IL2CPP_ARG_TYPE(::ModestTree::Util::UnityUtil*, "ModestTree.Util", "UnityUtil");
 // Type namespace: ModestTree.Util
 namespace ModestTree::Util {
   // Size: 0x10
@@ -47,24 +47,24 @@ namespace ModestTree::Util {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnityUtil : public ::Il2CppObject {
     public:
-    // Nested type: ModestTree::Util::UnityUtil::$get_AllScenes$d__1
+    // Nested type: ::ModestTree::Util::UnityUtil::$get_AllScenes$d__1
     class $get_AllScenes$d__1;
-    // Nested type: ModestTree::Util::UnityUtil::$$c
+    // Nested type: ::ModestTree::Util::UnityUtil::$$c
     class $$c;
-    // Nested type: ModestTree::Util::UnityUtil::$GetParents$d__16
+    // Nested type: ::ModestTree::Util::UnityUtil::$GetParents$d__16
     class $GetParents$d__16;
-    // Nested type: ModestTree::Util::UnityUtil::$GetParentsAndSelf$d__17
+    // Nested type: ::ModestTree::Util::UnityUtil::$GetParentsAndSelf$d__17
     class $GetParentsAndSelf$d__17;
-    // Nested type: ModestTree::Util::UnityUtil::$GetDirectChildrenAndSelf$d__20
+    // Nested type: ::ModestTree::Util::UnityUtil::$GetDirectChildrenAndSelf$d__20
     class $GetDirectChildrenAndSelf$d__20;
-    // Nested type: ModestTree::Util::UnityUtil::$GetDirectChildren$d__21
+    // Nested type: ::ModestTree::Util::UnityUtil::$GetDirectChildren$d__21
     class $GetDirectChildren$d__21;
     // static public System.Collections.Generic.IEnumerable`1<UnityEngine.SceneManagement.Scene> get_AllScenes()
     // Offset: 0x16D383C
-    static System::Collections::Generic::IEnumerable_1<UnityEngine::SceneManagement::Scene>* get_AllScenes();
+    static ::System::Collections::Generic::IEnumerable_1<::UnityEngine::SceneManagement::Scene>* get_AllScenes();
     // static public System.Collections.Generic.IEnumerable`1<UnityEngine.SceneManagement.Scene> get_AllLoadedScenes()
     // Offset: 0x16D38E4
-    static System::Collections::Generic::IEnumerable_1<UnityEngine::SceneManagement::Scene>* get_AllLoadedScenes();
+    static ::System::Collections::Generic::IEnumerable_1<::UnityEngine::SceneManagement::Scene>* get_AllLoadedScenes();
     // static public System.Boolean get_IsAltKeyDown()
     // Offset: 0x16D39DC
     static bool get_IsAltKeyDown();
@@ -82,34 +82,34 @@ namespace ModestTree::Util {
     static bool get_WasAltKeyJustPressed();
     // static public System.Int32 GetDepthLevel(UnityEngine.Transform transform)
     // Offset: 0x16D3AE0
-    static int GetDepthLevel(UnityEngine::Transform* transform);
+    static int GetDepthLevel(::UnityEngine::Transform* transform);
     // static public UnityEngine.GameObject GetRootParentOrSelf(UnityEngine.GameObject gameObject)
     // Offset: 0x16D3B90
-    static UnityEngine::GameObject* GetRootParentOrSelf(UnityEngine::GameObject* gameObject);
+    static ::UnityEngine::GameObject* GetRootParentOrSelf(::UnityEngine::GameObject* gameObject);
     // static public System.Collections.Generic.IEnumerable`1<UnityEngine.Transform> GetParents(UnityEngine.Transform transform)
     // Offset: 0x16D3D30
-    static System::Collections::Generic::IEnumerable_1<UnityEngine::Transform*>* GetParents(UnityEngine::Transform* transform);
+    static ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Transform*>* GetParents(::UnityEngine::Transform* transform);
     // static public System.Collections.Generic.IEnumerable`1<UnityEngine.Transform> GetParentsAndSelf(UnityEngine.Transform transform)
     // Offset: 0x16D3CB0
-    static System::Collections::Generic::IEnumerable_1<UnityEngine::Transform*>* GetParentsAndSelf(UnityEngine::Transform* transform);
+    static ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Transform*>* GetParentsAndSelf(::UnityEngine::Transform* transform);
     // static public System.Collections.Generic.IEnumerable`1<UnityEngine.Component> GetComponentsInChildrenTopDown(UnityEngine.GameObject gameObject, System.Boolean includeInactive)
     // Offset: 0x16D3E20
-    static System::Collections::Generic::IEnumerable_1<UnityEngine::Component*>* GetComponentsInChildrenTopDown(UnityEngine::GameObject* gameObject, bool includeInactive);
+    static ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Component*>* GetComponentsInChildrenTopDown(::UnityEngine::GameObject* gameObject, bool includeInactive);
     // static public System.Collections.Generic.IEnumerable`1<UnityEngine.Component> GetComponentsInChildrenBottomUp(UnityEngine.GameObject gameObject, System.Boolean includeInactive)
     // Offset: 0x16D3F3C
-    static System::Collections::Generic::IEnumerable_1<UnityEngine::Component*>* GetComponentsInChildrenBottomUp(UnityEngine::GameObject* gameObject, bool includeInactive);
+    static ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Component*>* GetComponentsInChildrenBottomUp(::UnityEngine::GameObject* gameObject, bool includeInactive);
     // static public System.Collections.Generic.IEnumerable`1<UnityEngine.GameObject> GetDirectChildrenAndSelf(UnityEngine.GameObject obj)
     // Offset: 0x16D4058
-    static System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* GetDirectChildrenAndSelf(UnityEngine::GameObject* obj);
+    static ::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>* GetDirectChildrenAndSelf(::UnityEngine::GameObject* obj);
     // static public System.Collections.Generic.IEnumerable`1<UnityEngine.GameObject> GetDirectChildren(UnityEngine.GameObject obj)
     // Offset: 0x16D4110
-    static System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* GetDirectChildren(UnityEngine::GameObject* obj);
+    static ::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>* GetDirectChildren(::UnityEngine::GameObject* obj);
     // static public System.Collections.Generic.IEnumerable`1<UnityEngine.GameObject> GetAllGameObjects()
     // Offset: 0x16D41C8
-    static System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* GetAllGameObjects();
+    static ::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>* GetAllGameObjects();
     // static public System.Collections.Generic.List`1<UnityEngine.GameObject> GetAllRootGameObjects()
     // Offset: 0x16D42EC
-    static System::Collections::Generic::List_1<UnityEngine::GameObject*>* GetAllRootGameObjects();
+    static ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* GetAllRootGameObjects();
   }; // ModestTree.Util.UnityUtil
   #pragma pack(pop)
 }
@@ -117,7 +117,7 @@ namespace ModestTree::Util {
 // Writing MetadataGetter for method: ModestTree::Util::UnityUtil::get_AllScenes
 // Il2CppName: get_AllScenes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::SceneManagement::Scene>* (*)()>(&ModestTree::Util::UnityUtil::get_AllScenes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::SceneManagement::Scene>* (*)()>(&ModestTree::Util::UnityUtil::get_AllScenes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(ModestTree::Util::UnityUtil*), "get_AllScenes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -125,7 +125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: ModestTree::Util::UnityUtil::get_AllLoadedScenes
 // Il2CppName: get_AllLoadedScenes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::SceneManagement::Scene>* (*)()>(&ModestTree::Util::UnityUtil::get_AllLoadedScenes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::SceneManagement::Scene>* (*)()>(&ModestTree::Util::UnityUtil::get_AllLoadedScenes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(ModestTree::Util::UnityUtil*), "get_AllLoadedScenes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -173,7 +173,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Writing MetadataGetter for method: ModestTree::Util::UnityUtil::GetDepthLevel
 // Il2CppName: GetDepthLevel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Transform*)>(&ModestTree::Util::UnityUtil::GetDepthLevel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::UnityEngine::Transform*)>(&ModestTree::Util::UnityUtil::GetDepthLevel)> {
   static const MethodInfo* get() {
     static auto* transform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(ModestTree::Util::UnityUtil*), "GetDepthLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{transform});
@@ -182,7 +182,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
 // Writing MetadataGetter for method: ModestTree::Util::UnityUtil::GetRootParentOrSelf
 // Il2CppName: GetRootParentOrSelf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::GameObject*)>(&ModestTree::Util::UnityUtil::GetRootParentOrSelf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GameObject* (*)(::UnityEngine::GameObject*)>(&ModestTree::Util::UnityUtil::GetRootParentOrSelf)> {
   static const MethodInfo* get() {
     static auto* gameObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(ModestTree::Util::UnityUtil*), "GetRootParentOrSelf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameObject});
@@ -191,7 +191,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: ModestTree::Util::UnityUtil::GetParents
 // Il2CppName: GetParents
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Transform*>* (*)(UnityEngine::Transform*)>(&ModestTree::Util::UnityUtil::GetParents)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Transform*>* (*)(::UnityEngine::Transform*)>(&ModestTree::Util::UnityUtil::GetParents)> {
   static const MethodInfo* get() {
     static auto* transform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(ModestTree::Util::UnityUtil*), "GetParents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{transform});
@@ -200,7 +200,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: ModestTree::Util::UnityUtil::GetParentsAndSelf
 // Il2CppName: GetParentsAndSelf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Transform*>* (*)(UnityEngine::Transform*)>(&ModestTree::Util::UnityUtil::GetParentsAndSelf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Transform*>* (*)(::UnityEngine::Transform*)>(&ModestTree::Util::UnityUtil::GetParentsAndSelf)> {
   static const MethodInfo* get() {
     static auto* transform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(ModestTree::Util::UnityUtil*), "GetParentsAndSelf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{transform});
@@ -209,7 +209,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: ModestTree::Util::UnityUtil::GetComponentsInChildrenTopDown
 // Il2CppName: GetComponentsInChildrenTopDown
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Component*>* (*)(UnityEngine::GameObject*, bool)>(&ModestTree::Util::UnityUtil::GetComponentsInChildrenTopDown)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Component*>* (*)(::UnityEngine::GameObject*, bool)>(&ModestTree::Util::UnityUtil::GetComponentsInChildrenTopDown)> {
   static const MethodInfo* get() {
     static auto* gameObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* includeInactive = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -219,7 +219,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: ModestTree::Util::UnityUtil::GetComponentsInChildrenBottomUp
 // Il2CppName: GetComponentsInChildrenBottomUp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Component*>* (*)(UnityEngine::GameObject*, bool)>(&ModestTree::Util::UnityUtil::GetComponentsInChildrenBottomUp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Component*>* (*)(::UnityEngine::GameObject*, bool)>(&ModestTree::Util::UnityUtil::GetComponentsInChildrenBottomUp)> {
   static const MethodInfo* get() {
     static auto* gameObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* includeInactive = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -229,7 +229,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: ModestTree::Util::UnityUtil::GetDirectChildrenAndSelf
 // Il2CppName: GetDirectChildrenAndSelf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* (*)(UnityEngine::GameObject*)>(&ModestTree::Util::UnityUtil::GetDirectChildrenAndSelf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>* (*)(::UnityEngine::GameObject*)>(&ModestTree::Util::UnityUtil::GetDirectChildrenAndSelf)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(ModestTree::Util::UnityUtil*), "GetDirectChildrenAndSelf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -238,7 +238,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: ModestTree::Util::UnityUtil::GetDirectChildren
 // Il2CppName: GetDirectChildren
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* (*)(UnityEngine::GameObject*)>(&ModestTree::Util::UnityUtil::GetDirectChildren)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>* (*)(::UnityEngine::GameObject*)>(&ModestTree::Util::UnityUtil::GetDirectChildren)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(ModestTree::Util::UnityUtil*), "GetDirectChildren", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -247,7 +247,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: ModestTree::Util::UnityUtil::GetAllGameObjects
 // Il2CppName: GetAllGameObjects
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* (*)()>(&ModestTree::Util::UnityUtil::GetAllGameObjects)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>* (*)()>(&ModestTree::Util::UnityUtil::GetAllGameObjects)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(ModestTree::Util::UnityUtil*), "GetAllGameObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -255,7 +255,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: ModestTree::Util::UnityUtil::GetAllRootGameObjects
 // Il2CppName: GetAllRootGameObjects
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::GameObject*>* (*)()>(&ModestTree::Util::UnityUtil::GetAllRootGameObjects)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* (*)()>(&ModestTree::Util::UnityUtil::GetAllRootGameObjects)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(ModestTree::Util::UnityUtil*), "GetAllRootGameObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

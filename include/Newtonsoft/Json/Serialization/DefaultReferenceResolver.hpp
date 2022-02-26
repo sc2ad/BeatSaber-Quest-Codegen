@@ -27,8 +27,8 @@ namespace Newtonsoft::Json::Serialization {
   class DefaultReferenceResolver;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Serialization::DefaultReferenceResolver);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Serialization::DefaultReferenceResolver*, "Newtonsoft.Json.Serialization", "DefaultReferenceResolver");
+NEED_NO_BOX(::Newtonsoft::Json::Serialization::DefaultReferenceResolver);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Serialization::DefaultReferenceResolver*, "Newtonsoft.Json.Serialization", "DefaultReferenceResolver");
 // Type namespace: Newtonsoft.Json.Serialization
 namespace Newtonsoft::Json::Serialization {
   // Size: 0x14
@@ -37,7 +37,7 @@ namespace Newtonsoft::Json::Serialization {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NullableContextAttribute] Offset: 1202710
   // [NullableAttribute] Offset: 1202710
-  class DefaultReferenceResolver : public ::Il2CppObject/*, public Newtonsoft::Json::Serialization::IReferenceResolver*/ {
+  class DefaultReferenceResolver : public ::Il2CppObject/*, public ::Newtonsoft::Json::Serialization::IReferenceResolver*/ {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -55,9 +55,9 @@ namespace Newtonsoft::Json::Serialization {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     public:
-    // Creating interface conversion operator: operator Newtonsoft::Json::Serialization::IReferenceResolver
-    operator Newtonsoft::Json::Serialization::IReferenceResolver() noexcept {
-      return *reinterpret_cast<Newtonsoft::Json::Serialization::IReferenceResolver*>(this);
+    // Creating interface conversion operator: operator ::Newtonsoft::Json::Serialization::IReferenceResolver
+    operator ::Newtonsoft::Json::Serialization::IReferenceResolver() noexcept {
+      return *reinterpret_cast<::Newtonsoft::Json::Serialization::IReferenceResolver*>(this);
     }
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
@@ -67,7 +67,7 @@ namespace Newtonsoft::Json::Serialization {
     int& dyn__referenceCount();
     // private Newtonsoft.Json.Utilities.BidirectionalDictionary`2<System.String,System.Object> GetMappings(System.Object context)
     // Offset: 0x152C35C
-    Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::Il2CppObject*>* GetMappings(::Il2CppObject* context);
+    ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::Il2CppObject*>* GetMappings(::Il2CppObject* context);
     // public System.Object ResolveReference(System.Object context, System.String reference)
     // Offset: 0x152C528
     ::Il2CppObject* ResolveReference(::Il2CppObject* context, ::StringW reference);
@@ -86,7 +86,7 @@ namespace Newtonsoft::Json::Serialization {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultReferenceResolver* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Serialization::DefaultReferenceResolver::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::DefaultReferenceResolver::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultReferenceResolver*, creationType>()));
     }
   }; // Newtonsoft.Json.Serialization.DefaultReferenceResolver
@@ -98,7 +98,7 @@ namespace Newtonsoft::Json::Serialization {
 // Writing MetadataGetter for method: Newtonsoft::Json::Serialization::DefaultReferenceResolver::GetMappings
 // Il2CppName: GetMappings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::Il2CppObject*>* (Newtonsoft::Json::Serialization::DefaultReferenceResolver::*)(::Il2CppObject*)>(&Newtonsoft::Json::Serialization::DefaultReferenceResolver::GetMappings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::Il2CppObject*>* (Newtonsoft::Json::Serialization::DefaultReferenceResolver::*)(::Il2CppObject*)>(&Newtonsoft::Json::Serialization::DefaultReferenceResolver::GetMappings)> {
   static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Serialization::DefaultReferenceResolver*), "GetMappings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});

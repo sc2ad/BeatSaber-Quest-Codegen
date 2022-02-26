@@ -25,8 +25,8 @@ namespace UnityEngineInternal {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::GUILayoutUtility::LayoutCache);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUILayoutUtility::LayoutCache*, "UnityEngine", "GUILayoutUtility/LayoutCache");
+NEED_NO_BOX(::UnityEngine::GUILayoutUtility::LayoutCache);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::GUILayoutUtility::LayoutCache*, "UnityEngine", "GUILayoutUtility/LayoutCache");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x28
@@ -48,40 +48,40 @@ namespace UnityEngine {
     // UnityEngine.GUILayoutGroup topLevel
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::GUILayoutGroup* topLevel;
+    ::UnityEngine::GUILayoutGroup* topLevel;
     // Field size check
-    static_assert(sizeof(UnityEngine::GUILayoutGroup*) == 0x8);
+    static_assert(sizeof(::UnityEngine::GUILayoutGroup*) == 0x8);
     // UnityEngineInternal.GenericStack layoutGroups
     // Size: 0x8
     // Offset: 0x18
-    UnityEngineInternal::GenericStack* layoutGroups;
+    ::UnityEngineInternal::GenericStack* layoutGroups;
     // Field size check
-    static_assert(sizeof(UnityEngineInternal::GenericStack*) == 0x8);
+    static_assert(sizeof(::UnityEngineInternal::GenericStack*) == 0x8);
     // UnityEngine.GUILayoutGroup windows
     // Size: 0x8
     // Offset: 0x20
-    UnityEngine::GUILayoutGroup* windows;
+    ::UnityEngine::GUILayoutGroup* windows;
     // Field size check
-    static_assert(sizeof(UnityEngine::GUILayoutGroup*) == 0x8);
+    static_assert(sizeof(::UnityEngine::GUILayoutGroup*) == 0x8);
     public:
     // Get instance field reference: UnityEngine.GUILayoutGroup topLevel
-    UnityEngine::GUILayoutGroup*& dyn_topLevel();
+    ::UnityEngine::GUILayoutGroup*& dyn_topLevel();
     // Get instance field reference: UnityEngineInternal.GenericStack layoutGroups
-    UnityEngineInternal::GenericStack*& dyn_layoutGroups();
+    ::UnityEngineInternal::GenericStack*& dyn_layoutGroups();
     // Get instance field reference: UnityEngine.GUILayoutGroup windows
-    UnityEngine::GUILayoutGroup*& dyn_windows();
+    ::UnityEngine::GUILayoutGroup*& dyn_windows();
     // System.Void .ctor()
     // Offset: 0x1F62A54
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GUILayoutUtility::LayoutCache* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::GUILayoutUtility::LayoutCache::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::GUILayoutUtility::LayoutCache::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GUILayoutUtility::LayoutCache*, creationType>()));
     }
   }; // UnityEngine.GUILayoutUtility/UnityEngine.LayoutCache
   #pragma pack(pop)
-  static check_size<sizeof(GUILayoutUtility::LayoutCache), 32 + sizeof(UnityEngine::GUILayoutGroup*)> __UnityEngine_GUILayoutUtility_LayoutCacheSizeCheck;
+  static check_size<sizeof(GUILayoutUtility::LayoutCache), 32 + sizeof(::UnityEngine::GUILayoutGroup*)> __UnityEngine_GUILayoutUtility_LayoutCacheSizeCheck;
   static_assert(sizeof(GUILayoutUtility::LayoutCache) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

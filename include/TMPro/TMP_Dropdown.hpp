@@ -74,8 +74,8 @@ namespace TMPro {
   class TMP_Dropdown;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(TMPro::TMP_Dropdown);
-DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Dropdown*, "TMPro", "TMP_Dropdown");
+NEED_NO_BOX(::TMPro::TMP_Dropdown);
+DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_Dropdown*, "TMPro", "TMP_Dropdown");
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0x159
@@ -84,19 +84,19 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AddComponentMenu] Offset: 11EF108
   // [RequireComponent] Offset: 11EF108
-  class TMP_Dropdown : public UnityEngine::UI::Selectable/*, public UnityEngine::EventSystems::IPointerClickHandler, public UnityEngine::EventSystems::ISubmitHandler, public UnityEngine::EventSystems::ICancelHandler*/ {
+  class TMP_Dropdown : public ::UnityEngine::UI::Selectable/*, public ::UnityEngine::EventSystems::IPointerClickHandler, public ::UnityEngine::EventSystems::ISubmitHandler, public ::UnityEngine::EventSystems::ICancelHandler*/ {
     public:
-    // Nested type: TMPro::TMP_Dropdown::DropdownItem
+    // Nested type: ::TMPro::TMP_Dropdown::DropdownItem
     class DropdownItem;
-    // Nested type: TMPro::TMP_Dropdown::OptionData
+    // Nested type: ::TMPro::TMP_Dropdown::OptionData
     class OptionData;
-    // Nested type: TMPro::TMP_Dropdown::OptionDataList
+    // Nested type: ::TMPro::TMP_Dropdown::OptionDataList
     class OptionDataList;
-    // Nested type: TMPro::TMP_Dropdown::DropdownEvent
+    // Nested type: ::TMPro::TMP_Dropdown::DropdownEvent
     class DropdownEvent;
-    // Nested type: TMPro::TMP_Dropdown::$$c__DisplayClass60_0
+    // Nested type: ::TMPro::TMP_Dropdown::$$c__DisplayClass60_0
     class $$c__DisplayClass60_0;
-    // Nested type: TMPro::TMP_Dropdown::$DelayedDestroyDropdownList$d__72
+    // Nested type: ::TMPro::TMP_Dropdown::$DelayedDestroyDropdownList$d__72
     class $DelayedDestroyDropdownList$d__72;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -110,34 +110,34 @@ namespace TMPro {
     // private UnityEngine.RectTransform m_Template
     // Size: 0x8
     // Offset: 0xF8
-    UnityEngine::RectTransform* m_Template;
+    ::UnityEngine::RectTransform* m_Template;
     // Field size check
-    static_assert(sizeof(UnityEngine::RectTransform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::RectTransform*) == 0x8);
     // private TMPro.TMP_Text m_CaptionText
     // Size: 0x8
     // Offset: 0x100
-    TMPro::TMP_Text* m_CaptionText;
+    ::TMPro::TMP_Text* m_CaptionText;
     // Field size check
-    static_assert(sizeof(TMPro::TMP_Text*) == 0x8);
+    static_assert(sizeof(::TMPro::TMP_Text*) == 0x8);
     // private UnityEngine.UI.Image m_CaptionImage
     // Size: 0x8
     // Offset: 0x108
-    UnityEngine::UI::Image* m_CaptionImage;
+    ::UnityEngine::UI::Image* m_CaptionImage;
     // Field size check
-    static_assert(sizeof(UnityEngine::UI::Image*) == 0x8);
+    static_assert(sizeof(::UnityEngine::UI::Image*) == 0x8);
     // [SpaceAttribute] Offset: 0x11EF628
     // private TMPro.TMP_Text m_ItemText
     // Size: 0x8
     // Offset: 0x110
-    TMPro::TMP_Text* m_ItemText;
+    ::TMPro::TMP_Text* m_ItemText;
     // Field size check
-    static_assert(sizeof(TMPro::TMP_Text*) == 0x8);
+    static_assert(sizeof(::TMPro::TMP_Text*) == 0x8);
     // private UnityEngine.UI.Image m_ItemImage
     // Size: 0x8
     // Offset: 0x118
-    UnityEngine::UI::Image* m_ItemImage;
+    ::UnityEngine::UI::Image* m_ItemImage;
     // Field size check
-    static_assert(sizeof(UnityEngine::UI::Image*) == 0x8);
+    static_assert(sizeof(::UnityEngine::UI::Image*) == 0x8);
     // [SpaceAttribute] Offset: 0x11EF670
     // private System.Int32 m_Value
     // Size: 0x4
@@ -151,40 +151,40 @@ namespace TMPro {
     // private TMPro.TMP_Dropdown/TMPro.OptionDataList m_Options
     // Size: 0x8
     // Offset: 0x128
-    TMPro::TMP_Dropdown::OptionDataList* m_Options;
+    ::TMPro::TMP_Dropdown::OptionDataList* m_Options;
     // Field size check
-    static_assert(sizeof(TMPro::TMP_Dropdown::OptionDataList*) == 0x8);
+    static_assert(sizeof(::TMPro::TMP_Dropdown::OptionDataList*) == 0x8);
     // [SpaceAttribute] Offset: 0x11EF6E0
     // private TMPro.TMP_Dropdown/TMPro.DropdownEvent m_OnValueChanged
     // Size: 0x8
     // Offset: 0x130
-    TMPro::TMP_Dropdown::DropdownEvent* m_OnValueChanged;
+    ::TMPro::TMP_Dropdown::DropdownEvent* m_OnValueChanged;
     // Field size check
-    static_assert(sizeof(TMPro::TMP_Dropdown::DropdownEvent*) == 0x8);
+    static_assert(sizeof(::TMPro::TMP_Dropdown::DropdownEvent*) == 0x8);
     // private UnityEngine.GameObject m_Dropdown
     // Size: 0x8
     // Offset: 0x138
-    UnityEngine::GameObject* m_Dropdown;
+    ::UnityEngine::GameObject* m_Dropdown;
     // Field size check
-    static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
+    static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
     // private UnityEngine.GameObject m_Blocker
     // Size: 0x8
     // Offset: 0x140
-    UnityEngine::GameObject* m_Blocker;
+    ::UnityEngine::GameObject* m_Blocker;
     // Field size check
-    static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
+    static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
     // private System.Collections.Generic.List`1<TMPro.TMP_Dropdown/TMPro.DropdownItem> m_Items
     // Size: 0x8
     // Offset: 0x148
-    System::Collections::Generic::List_1<TMPro::TMP_Dropdown::DropdownItem*>* m_Items;
+    ::System::Collections::Generic::List_1<::TMPro::TMP_Dropdown::DropdownItem*>* m_Items;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<TMPro::TMP_Dropdown::DropdownItem*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::TMPro::TMP_Dropdown::DropdownItem*>*) == 0x8);
     // private TMPro.TweenRunner`1<TMPro.FloatTween> m_AlphaTweenRunner
     // Size: 0x8
     // Offset: 0x150
-    TMPro::TweenRunner_1<TMPro::FloatTween>* m_AlphaTweenRunner;
+    ::TMPro::TweenRunner_1<::TMPro::FloatTween>* m_AlphaTweenRunner;
     // Field size check
-    static_assert(sizeof(TMPro::TweenRunner_1<TMPro::FloatTween>*) == 0x8);
+    static_assert(sizeof(::TMPro::TweenRunner_1<::TMPro::FloatTween>*) == 0x8);
     // private System.Boolean validTemplate
     // Size: 0x1
     // Offset: 0x158
@@ -192,90 +192,90 @@ namespace TMPro {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     public:
-    // Creating interface conversion operator: operator UnityEngine::EventSystems::IPointerClickHandler
-    operator UnityEngine::EventSystems::IPointerClickHandler() noexcept {
-      return *reinterpret_cast<UnityEngine::EventSystems::IPointerClickHandler*>(this);
+    // Creating interface conversion operator: operator ::UnityEngine::EventSystems::IPointerClickHandler
+    operator ::UnityEngine::EventSystems::IPointerClickHandler() noexcept {
+      return *reinterpret_cast<::UnityEngine::EventSystems::IPointerClickHandler*>(this);
     }
-    // Creating interface conversion operator: operator UnityEngine::EventSystems::ISubmitHandler
-    operator UnityEngine::EventSystems::ISubmitHandler() noexcept {
-      return *reinterpret_cast<UnityEngine::EventSystems::ISubmitHandler*>(this);
+    // Creating interface conversion operator: operator ::UnityEngine::EventSystems::ISubmitHandler
+    operator ::UnityEngine::EventSystems::ISubmitHandler() noexcept {
+      return *reinterpret_cast<::UnityEngine::EventSystems::ISubmitHandler*>(this);
     }
-    // Creating interface conversion operator: operator UnityEngine::EventSystems::ICancelHandler
-    operator UnityEngine::EventSystems::ICancelHandler() noexcept {
-      return *reinterpret_cast<UnityEngine::EventSystems::ICancelHandler*>(this);
+    // Creating interface conversion operator: operator ::UnityEngine::EventSystems::ICancelHandler
+    operator ::UnityEngine::EventSystems::ICancelHandler() noexcept {
+      return *reinterpret_cast<::UnityEngine::EventSystems::ICancelHandler*>(this);
     }
     // Get static field: static private TMPro.TMP_Dropdown/TMPro.OptionData s_NoOptionData
-    static TMPro::TMP_Dropdown::OptionData* _get_s_NoOptionData();
+    static ::TMPro::TMP_Dropdown::OptionData* _get_s_NoOptionData();
     // Set static field: static private TMPro.TMP_Dropdown/TMPro.OptionData s_NoOptionData
-    static void _set_s_NoOptionData(TMPro::TMP_Dropdown::OptionData* value);
+    static void _set_s_NoOptionData(::TMPro::TMP_Dropdown::OptionData* value);
     // Get instance field reference: private UnityEngine.RectTransform m_Template
-    UnityEngine::RectTransform*& dyn_m_Template();
+    ::UnityEngine::RectTransform*& dyn_m_Template();
     // Get instance field reference: private TMPro.TMP_Text m_CaptionText
-    TMPro::TMP_Text*& dyn_m_CaptionText();
+    ::TMPro::TMP_Text*& dyn_m_CaptionText();
     // Get instance field reference: private UnityEngine.UI.Image m_CaptionImage
-    UnityEngine::UI::Image*& dyn_m_CaptionImage();
+    ::UnityEngine::UI::Image*& dyn_m_CaptionImage();
     // Get instance field reference: private TMPro.TMP_Text m_ItemText
-    TMPro::TMP_Text*& dyn_m_ItemText();
+    ::TMPro::TMP_Text*& dyn_m_ItemText();
     // Get instance field reference: private UnityEngine.UI.Image m_ItemImage
-    UnityEngine::UI::Image*& dyn_m_ItemImage();
+    ::UnityEngine::UI::Image*& dyn_m_ItemImage();
     // Get instance field reference: private System.Int32 m_Value
     int& dyn_m_Value();
     // Get instance field reference: private TMPro.TMP_Dropdown/TMPro.OptionDataList m_Options
-    TMPro::TMP_Dropdown::OptionDataList*& dyn_m_Options();
+    ::TMPro::TMP_Dropdown::OptionDataList*& dyn_m_Options();
     // Get instance field reference: private TMPro.TMP_Dropdown/TMPro.DropdownEvent m_OnValueChanged
-    TMPro::TMP_Dropdown::DropdownEvent*& dyn_m_OnValueChanged();
+    ::TMPro::TMP_Dropdown::DropdownEvent*& dyn_m_OnValueChanged();
     // Get instance field reference: private UnityEngine.GameObject m_Dropdown
-    UnityEngine::GameObject*& dyn_m_Dropdown();
+    ::UnityEngine::GameObject*& dyn_m_Dropdown();
     // Get instance field reference: private UnityEngine.GameObject m_Blocker
-    UnityEngine::GameObject*& dyn_m_Blocker();
+    ::UnityEngine::GameObject*& dyn_m_Blocker();
     // Get instance field reference: private System.Collections.Generic.List`1<TMPro.TMP_Dropdown/TMPro.DropdownItem> m_Items
-    System::Collections::Generic::List_1<TMPro::TMP_Dropdown::DropdownItem*>*& dyn_m_Items();
+    ::System::Collections::Generic::List_1<::TMPro::TMP_Dropdown::DropdownItem*>*& dyn_m_Items();
     // Get instance field reference: private TMPro.TweenRunner`1<TMPro.FloatTween> m_AlphaTweenRunner
-    TMPro::TweenRunner_1<TMPro::FloatTween>*& dyn_m_AlphaTweenRunner();
+    ::TMPro::TweenRunner_1<::TMPro::FloatTween>*& dyn_m_AlphaTweenRunner();
     // Get instance field reference: private System.Boolean validTemplate
     bool& dyn_validTemplate();
     // public UnityEngine.RectTransform get_template()
     // Offset: 0x140A6D8
-    UnityEngine::RectTransform* get_template();
+    ::UnityEngine::RectTransform* get_template();
     // public System.Void set_template(UnityEngine.RectTransform value)
     // Offset: 0x140A38C
-    void set_template(UnityEngine::RectTransform* value);
+    void set_template(::UnityEngine::RectTransform* value);
     // public TMPro.TMP_Text get_captionText()
     // Offset: 0x140A6E0
-    TMPro::TMP_Text* get_captionText();
+    ::TMPro::TMP_Text* get_captionText();
     // public System.Void set_captionText(TMPro.TMP_Text value)
     // Offset: 0x140A394
-    void set_captionText(TMPro::TMP_Text* value);
+    void set_captionText(::TMPro::TMP_Text* value);
     // public UnityEngine.UI.Image get_captionImage()
     // Offset: 0x140A6E8
-    UnityEngine::UI::Image* get_captionImage();
+    ::UnityEngine::UI::Image* get_captionImage();
     // public System.Void set_captionImage(UnityEngine.UI.Image value)
     // Offset: 0x140A6F0
-    void set_captionImage(UnityEngine::UI::Image* value);
+    void set_captionImage(::UnityEngine::UI::Image* value);
     // public TMPro.TMP_Text get_itemText()
     // Offset: 0x140A6F8
-    TMPro::TMP_Text* get_itemText();
+    ::TMPro::TMP_Text* get_itemText();
     // public System.Void set_itemText(TMPro.TMP_Text value)
     // Offset: 0x140A39C
-    void set_itemText(TMPro::TMP_Text* value);
+    void set_itemText(::TMPro::TMP_Text* value);
     // public UnityEngine.UI.Image get_itemImage()
     // Offset: 0x140A700
-    UnityEngine::UI::Image* get_itemImage();
+    ::UnityEngine::UI::Image* get_itemImage();
     // public System.Void set_itemImage(UnityEngine.UI.Image value)
     // Offset: 0x140A708
-    void set_itemImage(UnityEngine::UI::Image* value);
+    void set_itemImage(::UnityEngine::UI::Image* value);
     // public System.Collections.Generic.List`1<TMPro.TMP_Dropdown/TMPro.OptionData> get_options()
     // Offset: 0x140A3A4
-    System::Collections::Generic::List_1<TMPro::TMP_Dropdown::OptionData*>* get_options();
+    ::System::Collections::Generic::List_1<::TMPro::TMP_Dropdown::OptionData*>* get_options();
     // public System.Void set_options(System.Collections.Generic.List`1<TMPro.TMP_Dropdown/TMPro.OptionData> value)
     // Offset: 0x140A710
-    void set_options(System::Collections::Generic::List_1<TMPro::TMP_Dropdown::OptionData*>* value);
+    void set_options(::System::Collections::Generic::List_1<::TMPro::TMP_Dropdown::OptionData*>* value);
     // public TMPro.TMP_Dropdown/TMPro.DropdownEvent get_onValueChanged()
     // Offset: 0x140A72C
-    TMPro::TMP_Dropdown::DropdownEvent* get_onValueChanged();
+    ::TMPro::TMP_Dropdown::DropdownEvent* get_onValueChanged();
     // public System.Void set_onValueChanged(TMPro.TMP_Dropdown/TMPro.DropdownEvent value)
     // Offset: 0x140A734
-    void set_onValueChanged(TMPro::TMP_Dropdown::DropdownEvent* value);
+    void set_onValueChanged(::TMPro::TMP_Dropdown::DropdownEvent* value);
     // public System.Int32 get_value()
     // Offset: 0x140A73C
     int get_value();
@@ -296,13 +296,13 @@ namespace TMPro {
     void RefreshShownValue();
     // public System.Void AddOptions(System.Collections.Generic.List`1<TMPro.TMP_Dropdown/TMPro.OptionData> options)
     // Offset: 0x140ADE4
-    void AddOptions(System::Collections::Generic::List_1<TMPro::TMP_Dropdown::OptionData*>* options);
+    void AddOptions(::System::Collections::Generic::List_1<::TMPro::TMP_Dropdown::OptionData*>* options);
     // public System.Void AddOptions(System.Collections.Generic.List`1<System.String> options)
     // Offset: 0x140AE5C
-    void AddOptions(System::Collections::Generic::List_1<::StringW>* options);
+    void AddOptions(::System::Collections::Generic::List_1<::StringW>* options);
     // public System.Void AddOptions(System.Collections.Generic.List`1<UnityEngine.Sprite> options)
     // Offset: 0x140AF74
-    void AddOptions(System::Collections::Generic::List_1<UnityEngine::Sprite*>* options);
+    void AddOptions(::System::Collections::Generic::List_1<::UnityEngine::Sprite*>* options);
     // public System.Void ClearOptions()
     // Offset: 0x140B08C
     void ClearOptions();
@@ -312,46 +312,46 @@ namespace TMPro {
     // static private T GetOrAddComponent(UnityEngine.GameObject go)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static T GetOrAddComponent(UnityEngine::GameObject* go) {
-      static_assert(std::is_convertible_v<T, UnityEngine::Component*>);
-      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_Dropdown::GetOrAddComponent");
+    static T GetOrAddComponent(::UnityEngine::GameObject* go) {
+      static_assert(std::is_convertible_v<T, ::UnityEngine::Component*>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_Dropdown::GetOrAddComponent");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("TMPro", "TMP_Dropdown", "GetOrAddComponent", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(go)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, go);
     }
     // public System.Void OnPointerClick(UnityEngine.EventSystems.PointerEventData eventData)
     // Offset: 0x140B598
-    void OnPointerClick(UnityEngine::EventSystems::PointerEventData* eventData);
+    void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* eventData);
     // public System.Void OnSubmit(UnityEngine.EventSystems.BaseEventData eventData)
     // Offset: 0x140C258
-    void OnSubmit(UnityEngine::EventSystems::BaseEventData* eventData);
+    void OnSubmit(::UnityEngine::EventSystems::BaseEventData* eventData);
     // public System.Void OnCancel(UnityEngine.EventSystems.BaseEventData eventData)
     // Offset: 0x140C25C
-    void OnCancel(UnityEngine::EventSystems::BaseEventData* eventData);
+    void OnCancel(::UnityEngine::EventSystems::BaseEventData* eventData);
     // public System.Void Show()
     // Offset: 0x140B59C
     void Show();
     // protected UnityEngine.GameObject CreateBlocker(UnityEngine.Canvas rootCanvas)
     // Offset: 0x140C744
-    UnityEngine::GameObject* CreateBlocker(UnityEngine::Canvas* rootCanvas);
+    ::UnityEngine::GameObject* CreateBlocker(::UnityEngine::Canvas* rootCanvas);
     // protected System.Void DestroyBlocker(UnityEngine.GameObject blocker)
     // Offset: 0x140C9DC
-    void DestroyBlocker(UnityEngine::GameObject* blocker);
+    void DestroyBlocker(::UnityEngine::GameObject* blocker);
     // protected UnityEngine.GameObject CreateDropdownList(UnityEngine.GameObject template)
     // Offset: 0x140CA44
-    UnityEngine::GameObject* CreateDropdownList(UnityEngine::GameObject* _template);
+    ::UnityEngine::GameObject* CreateDropdownList(::UnityEngine::GameObject* _template);
     // protected System.Void DestroyDropdownList(UnityEngine.GameObject dropdownList)
     // Offset: 0x140CAB4
-    void DestroyDropdownList(UnityEngine::GameObject* dropdownList);
+    void DestroyDropdownList(::UnityEngine::GameObject* dropdownList);
     // protected TMPro.TMP_Dropdown/TMPro.DropdownItem CreateItem(TMPro.TMP_Dropdown/TMPro.DropdownItem itemTemplate)
     // Offset: 0x140CB1C
-    TMPro::TMP_Dropdown::DropdownItem* CreateItem(TMPro::TMP_Dropdown::DropdownItem* itemTemplate);
+    ::TMPro::TMP_Dropdown::DropdownItem* CreateItem(::TMPro::TMP_Dropdown::DropdownItem* itemTemplate);
     // protected System.Void DestroyItem(TMPro.TMP_Dropdown/TMPro.DropdownItem item)
     // Offset: 0x140CB8C
-    void DestroyItem(TMPro::TMP_Dropdown::DropdownItem* item);
+    void DestroyItem(::TMPro::TMP_Dropdown::DropdownItem* item);
     // private TMPro.TMP_Dropdown/TMPro.DropdownItem AddItem(TMPro.TMP_Dropdown/TMPro.OptionData data, System.Boolean selected, TMPro.TMP_Dropdown/TMPro.DropdownItem itemTemplate, System.Collections.Generic.List`1<TMPro.TMP_Dropdown/TMPro.DropdownItem> items)
     // Offset: 0x140C394
-    TMPro::TMP_Dropdown::DropdownItem* AddItem(TMPro::TMP_Dropdown::OptionData* data, bool selected, TMPro::TMP_Dropdown::DropdownItem* itemTemplate, System::Collections::Generic::List_1<TMPro::TMP_Dropdown::DropdownItem*>* items);
+    ::TMPro::TMP_Dropdown::DropdownItem* AddItem(::TMPro::TMP_Dropdown::OptionData* data, bool selected, ::TMPro::TMP_Dropdown::DropdownItem* itemTemplate, ::System::Collections::Generic::List_1<::TMPro::TMP_Dropdown::DropdownItem*>* items);
     // private System.Void AlphaFadeList(System.Single duration, System.Single alpha)
     // Offset: 0x140CB90
     void AlphaFadeList(float duration, float alpha);
@@ -366,13 +366,13 @@ namespace TMPro {
     void Hide();
     // private System.Collections.IEnumerator DelayedDestroyDropdownList(System.Single delay)
     // Offset: 0x140CCD0
-    System::Collections::IEnumerator* DelayedDestroyDropdownList(float delay);
+    ::System::Collections::IEnumerator* DelayedDestroyDropdownList(float delay);
     // private System.Void ImmediateDestroyDropdownList()
     // Offset: 0x140AC80
     void ImmediateDestroyDropdownList();
     // private System.Void OnSelectItem(UnityEngine.UI.Toggle toggle)
     // Offset: 0x140CD7C
-    void OnSelectItem(UnityEngine::UI::Toggle* toggle);
+    void OnSelectItem(::UnityEngine::UI::Toggle* toggle);
     // protected System.Void .ctor()
     // Offset: 0x140A8E4
     // Implemented from: UnityEngine.UI.Selectable
@@ -385,7 +385,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_Dropdown* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_Dropdown::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_Dropdown::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_Dropdown*, creationType>()));
     }
     // static private System.Void .cctor()
@@ -418,7 +418,7 @@ namespace TMPro {
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::get_template
 // Il2CppName: get_template
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::get_template)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RectTransform* (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::get_template)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "get_template", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -426,7 +426,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::set_template
 // Il2CppName: set_template
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(UnityEngine::RectTransform*)>(&TMPro::TMP_Dropdown::set_template)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(::UnityEngine::RectTransform*)>(&TMPro::TMP_Dropdown::set_template)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "RectTransform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "set_template", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -435,7 +435,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::get_captionText
 // Il2CppName: get_captionText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_Text* (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::get_captionText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_Text* (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::get_captionText)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "get_captionText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -443,7 +443,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::set_captionText
 // Il2CppName: set_captionText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(TMPro::TMP_Text*)>(&TMPro::TMP_Dropdown::set_captionText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(::TMPro::TMP_Text*)>(&TMPro::TMP_Dropdown::set_captionText)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "set_captionText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -452,7 +452,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::get_captionImage
 // Il2CppName: get_captionImage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Image* (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::get_captionImage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::Image* (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::get_captionImage)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "get_captionImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -460,7 +460,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::set_captionImage
 // Il2CppName: set_captionImage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(UnityEngine::UI::Image*)>(&TMPro::TMP_Dropdown::set_captionImage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(::UnityEngine::UI::Image*)>(&TMPro::TMP_Dropdown::set_captionImage)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Image")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "set_captionImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -469,7 +469,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::get_itemText
 // Il2CppName: get_itemText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_Text* (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::get_itemText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_Text* (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::get_itemText)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "get_itemText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -477,7 +477,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::set_itemText
 // Il2CppName: set_itemText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(TMPro::TMP_Text*)>(&TMPro::TMP_Dropdown::set_itemText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(::TMPro::TMP_Text*)>(&TMPro::TMP_Dropdown::set_itemText)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "set_itemText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -486,7 +486,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::get_itemImage
 // Il2CppName: get_itemImage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Image* (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::get_itemImage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::Image* (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::get_itemImage)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "get_itemImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -494,7 +494,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::set_itemImage
 // Il2CppName: set_itemImage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(UnityEngine::UI::Image*)>(&TMPro::TMP_Dropdown::set_itemImage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(::UnityEngine::UI::Image*)>(&TMPro::TMP_Dropdown::set_itemImage)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Image")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "set_itemImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -503,7 +503,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::get_options
 // Il2CppName: get_options
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<TMPro::TMP_Dropdown::OptionData*>* (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::get_options)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::TMPro::TMP_Dropdown::OptionData*>* (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::get_options)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "get_options", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -511,7 +511,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::set_options
 // Il2CppName: set_options
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(System::Collections::Generic::List_1<TMPro::TMP_Dropdown::OptionData*>*)>(&TMPro::TMP_Dropdown::set_options)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(::System::Collections::Generic::List_1<::TMPro::TMP_Dropdown::OptionData*>*)>(&TMPro::TMP_Dropdown::set_options)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("TMPro", "TMP_Dropdown/OptionData")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "set_options", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -520,7 +520,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::get_onValueChanged
 // Il2CppName: get_onValueChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_Dropdown::DropdownEvent* (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::get_onValueChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_Dropdown::DropdownEvent* (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::get_onValueChanged)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "get_onValueChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -528,7 +528,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::set_onValueChanged
 // Il2CppName: set_onValueChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(TMPro::TMP_Dropdown::DropdownEvent*)>(&TMPro::TMP_Dropdown::set_onValueChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(::TMPro::TMP_Dropdown::DropdownEvent*)>(&TMPro::TMP_Dropdown::set_onValueChanged)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_Dropdown/DropdownEvent")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "set_onValueChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -589,7 +589,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::AddOptions
 // Il2CppName: AddOptions
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(System::Collections::Generic::List_1<TMPro::TMP_Dropdown::OptionData*>*)>(&TMPro::TMP_Dropdown::AddOptions)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(::System::Collections::Generic::List_1<::TMPro::TMP_Dropdown::OptionData*>*)>(&TMPro::TMP_Dropdown::AddOptions)> {
   static const MethodInfo* get() {
     static auto* options = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("TMPro", "TMP_Dropdown/OptionData")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "AddOptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{options});
@@ -598,7 +598,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::AddOptions
 // Il2CppName: AddOptions
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(System::Collections::Generic::List_1<::StringW>*)>(&TMPro::TMP_Dropdown::AddOptions)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(::System::Collections::Generic::List_1<::StringW>*)>(&TMPro::TMP_Dropdown::AddOptions)> {
   static const MethodInfo* get() {
     static auto* options = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "AddOptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{options});
@@ -607,7 +607,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::AddOptions
 // Il2CppName: AddOptions
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(System::Collections::Generic::List_1<UnityEngine::Sprite*>*)>(&TMPro::TMP_Dropdown::AddOptions)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(::System::Collections::Generic::List_1<::UnityEngine::Sprite*>*)>(&TMPro::TMP_Dropdown::AddOptions)> {
   static const MethodInfo* get() {
     static auto* options = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Sprite")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "AddOptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{options});
@@ -635,7 +635,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::OnPointerClick
 // Il2CppName: OnPointerClick
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(UnityEngine::EventSystems::PointerEventData*)>(&TMPro::TMP_Dropdown::OnPointerClick)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(::UnityEngine::EventSystems::PointerEventData*)>(&TMPro::TMP_Dropdown::OnPointerClick)> {
   static const MethodInfo* get() {
     static auto* eventData = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "PointerEventData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "OnPointerClick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eventData});
@@ -644,7 +644,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::OnSubmit
 // Il2CppName: OnSubmit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(UnityEngine::EventSystems::BaseEventData*)>(&TMPro::TMP_Dropdown::OnSubmit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(::UnityEngine::EventSystems::BaseEventData*)>(&TMPro::TMP_Dropdown::OnSubmit)> {
   static const MethodInfo* get() {
     static auto* eventData = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "BaseEventData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "OnSubmit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eventData});
@@ -653,7 +653,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::OnCancel
 // Il2CppName: OnCancel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(UnityEngine::EventSystems::BaseEventData*)>(&TMPro::TMP_Dropdown::OnCancel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(::UnityEngine::EventSystems::BaseEventData*)>(&TMPro::TMP_Dropdown::OnCancel)> {
   static const MethodInfo* get() {
     static auto* eventData = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "BaseEventData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "OnCancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eventData});
@@ -670,7 +670,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::CreateBlocker
 // Il2CppName: CreateBlocker
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (TMPro::TMP_Dropdown::*)(UnityEngine::Canvas*)>(&TMPro::TMP_Dropdown::CreateBlocker)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GameObject* (TMPro::TMP_Dropdown::*)(::UnityEngine::Canvas*)>(&TMPro::TMP_Dropdown::CreateBlocker)> {
   static const MethodInfo* get() {
     static auto* rootCanvas = &::il2cpp_utils::GetClassFromName("UnityEngine", "Canvas")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "CreateBlocker", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rootCanvas});
@@ -679,7 +679,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::DestroyBlocker
 // Il2CppName: DestroyBlocker
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(UnityEngine::GameObject*)>(&TMPro::TMP_Dropdown::DestroyBlocker)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(::UnityEngine::GameObject*)>(&TMPro::TMP_Dropdown::DestroyBlocker)> {
   static const MethodInfo* get() {
     static auto* blocker = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "DestroyBlocker", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{blocker});
@@ -688,7 +688,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::CreateDropdownList
 // Il2CppName: CreateDropdownList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (TMPro::TMP_Dropdown::*)(UnityEngine::GameObject*)>(&TMPro::TMP_Dropdown::CreateDropdownList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GameObject* (TMPro::TMP_Dropdown::*)(::UnityEngine::GameObject*)>(&TMPro::TMP_Dropdown::CreateDropdownList)> {
   static const MethodInfo* get() {
     static auto* _template = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "CreateDropdownList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{_template});
@@ -697,7 +697,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::DestroyDropdownList
 // Il2CppName: DestroyDropdownList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(UnityEngine::GameObject*)>(&TMPro::TMP_Dropdown::DestroyDropdownList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(::UnityEngine::GameObject*)>(&TMPro::TMP_Dropdown::DestroyDropdownList)> {
   static const MethodInfo* get() {
     static auto* dropdownList = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "DestroyDropdownList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dropdownList});
@@ -706,7 +706,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::CreateItem
 // Il2CppName: CreateItem
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_Dropdown::DropdownItem* (TMPro::TMP_Dropdown::*)(TMPro::TMP_Dropdown::DropdownItem*)>(&TMPro::TMP_Dropdown::CreateItem)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_Dropdown::DropdownItem* (TMPro::TMP_Dropdown::*)(::TMPro::TMP_Dropdown::DropdownItem*)>(&TMPro::TMP_Dropdown::CreateItem)> {
   static const MethodInfo* get() {
     static auto* itemTemplate = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_Dropdown/DropdownItem")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "CreateItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{itemTemplate});
@@ -715,7 +715,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::DestroyItem
 // Il2CppName: DestroyItem
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(TMPro::TMP_Dropdown::DropdownItem*)>(&TMPro::TMP_Dropdown::DestroyItem)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(::TMPro::TMP_Dropdown::DropdownItem*)>(&TMPro::TMP_Dropdown::DestroyItem)> {
   static const MethodInfo* get() {
     static auto* item = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_Dropdown/DropdownItem")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "DestroyItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{item});
@@ -724,7 +724,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::AddItem
 // Il2CppName: AddItem
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_Dropdown::DropdownItem* (TMPro::TMP_Dropdown::*)(TMPro::TMP_Dropdown::OptionData*, bool, TMPro::TMP_Dropdown::DropdownItem*, System::Collections::Generic::List_1<TMPro::TMP_Dropdown::DropdownItem*>*)>(&TMPro::TMP_Dropdown::AddItem)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_Dropdown::DropdownItem* (TMPro::TMP_Dropdown::*)(::TMPro::TMP_Dropdown::OptionData*, bool, ::TMPro::TMP_Dropdown::DropdownItem*, ::System::Collections::Generic::List_1<::TMPro::TMP_Dropdown::DropdownItem*>*)>(&TMPro::TMP_Dropdown::AddItem)> {
   static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_Dropdown/OptionData")->byval_arg;
     static auto* selected = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -774,7 +774,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::DelayedDestroyDropdownList
 // Il2CppName: DelayedDestroyDropdownList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (TMPro::TMP_Dropdown::*)(float)>(&TMPro::TMP_Dropdown::DelayedDestroyDropdownList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (TMPro::TMP_Dropdown::*)(float)>(&TMPro::TMP_Dropdown::DelayedDestroyDropdownList)> {
   static const MethodInfo* get() {
     static auto* delay = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "DelayedDestroyDropdownList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{delay});
@@ -791,7 +791,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::OnSelectItem
 // Il2CppName: OnSelectItem
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(UnityEngine::UI::Toggle*)>(&TMPro::TMP_Dropdown::OnSelectItem)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(::UnityEngine::UI::Toggle*)>(&TMPro::TMP_Dropdown::OnSelectItem)> {
   static const MethodInfo* get() {
     static auto* toggle = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Toggle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "OnSelectItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{toggle});

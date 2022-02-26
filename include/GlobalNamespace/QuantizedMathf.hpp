@@ -28,8 +28,8 @@ namespace GlobalNamespace {
   class QuantizedMathf;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::QuantizedMathf);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuantizedMathf*, "", "QuantizedMathf");
+NEED_NO_BOX(::GlobalNamespace::QuantizedMathf);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::QuantizedMathf*, "", "QuantizedMathf");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -70,7 +70,7 @@ namespace GlobalNamespace {
     static void _set_kVectorSerializableEpsilon(float value);
     // static public System.Boolean Approximately(UnityEngine.Quaternion a, UnityEngine.Quaternion b)
     // Offset: 0x2976C70
-    static bool Approximately(UnityEngine::Quaternion a, UnityEngine::Quaternion b);
+    static bool Approximately(::UnityEngine::Quaternion a, ::UnityEngine::Quaternion b);
     // static public System.Boolean Approximately(System.Single a, System.Single b, System.Single epsilon)
     // Offset: 0x2976E28
     static bool Approximately(float a, float b, float epsilon);
@@ -79,10 +79,10 @@ namespace GlobalNamespace {
     static bool Approximately(int a, int b, int epsilon);
     // static public System.Boolean Approximately(UnityEngine.Vector3 a, UnityEngine.Vector3 b)
     // Offset: 0x2976F30
-    static bool Approximately(UnityEngine::Vector3 a, UnityEngine::Vector3 b);
+    static bool Approximately(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b);
     // static public System.Boolean Approximately(UnityEngine.Pose a, UnityEngine.Pose b)
     // Offset: 0x2976FB8
-    static bool Approximately(UnityEngine::Pose a, UnityEngine::Pose b);
+    static bool Approximately(::UnityEngine::Pose a, ::UnityEngine::Pose b);
     // static public System.String QuantizedVectorComponentToString(System.Int32 v)
     // Offset: 0x2977010
     static ::StringW QuantizedVectorComponentToString(int v);
@@ -93,7 +93,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::QuantizedMathf::Approximately
 // Il2CppName: Approximately
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Quaternion, UnityEngine::Quaternion)>(&GlobalNamespace::QuantizedMathf::Approximately)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Quaternion, ::UnityEngine::Quaternion)>(&GlobalNamespace::QuantizedMathf::Approximately)> {
   static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
@@ -125,7 +125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(in
 // Writing MetadataGetter for method: GlobalNamespace::QuantizedMathf::Approximately
 // Il2CppName: Approximately
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&GlobalNamespace::QuantizedMathf::Approximately)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&GlobalNamespace::QuantizedMathf::Approximately)> {
   static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -135,7 +135,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: GlobalNamespace::QuantizedMathf::Approximately
 // Il2CppName: Approximately
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Pose, UnityEngine::Pose)>(&GlobalNamespace::QuantizedMathf::Approximately)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Pose, ::UnityEngine::Pose)>(&GlobalNamespace::QuantizedMathf::Approximately)> {
   static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("UnityEngine", "Pose")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("UnityEngine", "Pose")->byval_arg;

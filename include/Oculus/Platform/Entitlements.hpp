@@ -19,8 +19,8 @@ namespace Oculus::Platform {
   class Entitlements;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Entitlements);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Entitlements*, "Oculus.Platform", "Entitlements");
+NEED_NO_BOX(::Oculus::Platform::Entitlements);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Entitlements*, "Oculus.Platform", "Entitlements");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x10
@@ -31,7 +31,7 @@ namespace Oculus::Platform {
     public:
     // static public Oculus.Platform.Request IsUserEntitledToApplication()
     // Offset: 0x195A280
-    static Oculus::Platform::Request* IsUserEntitledToApplication();
+    static ::Oculus::Platform::Request* IsUserEntitledToApplication();
   }; // Oculus.Platform.Entitlements
   #pragma pack(pop)
 }
@@ -39,7 +39,7 @@ namespace Oculus::Platform {
 // Writing MetadataGetter for method: Oculus::Platform::Entitlements::IsUserEntitledToApplication
 // Il2CppName: IsUserEntitledToApplication
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request* (*)()>(&Oculus::Platform::Entitlements::IsUserEntitledToApplication)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request* (*)()>(&Oculus::Platform::Entitlements::IsUserEntitledToApplication)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Entitlements*), "IsUserEntitledToApplication", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -24,8 +24,8 @@ namespace System::Runtime::Remoting::Services {
   class TrackingServices;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Remoting::Services::TrackingServices);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Services::TrackingServices*, "System.Runtime.Remoting.Services", "TrackingServices");
+NEED_NO_BOX(::System::Runtime::Remoting::Services::TrackingServices);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Services::TrackingServices*, "System.Runtime.Remoting.Services", "TrackingServices");
 // Type namespace: System.Runtime.Remoting.Services
 namespace System::Runtime::Remoting::Services {
   // Size: 0x10
@@ -36,18 +36,18 @@ namespace System::Runtime::Remoting::Services {
   class TrackingServices : public ::Il2CppObject {
     public:
     // Get static field: static private System.Collections.ArrayList _handlers
-    static System::Collections::ArrayList* _get__handlers();
+    static ::System::Collections::ArrayList* _get__handlers();
     // Set static field: static private System.Collections.ArrayList _handlers
-    static void _set__handlers(System::Collections::ArrayList* value);
+    static void _set__handlers(::System::Collections::ArrayList* value);
     // static private System.Void .cctor()
     // Offset: 0x180A2A4
     static void _cctor();
     // static System.Void NotifyMarshaledObject(System.Object obj, System.Runtime.Remoting.ObjRef or)
     // Offset: 0x18079B8
-    static void NotifyMarshaledObject(::Il2CppObject* obj, System::Runtime::Remoting::ObjRef* _or);
+    static void NotifyMarshaledObject(::Il2CppObject* obj, ::System::Runtime::Remoting::ObjRef* _or);
     // static System.Void NotifyUnmarshaledObject(System.Object obj, System.Runtime.Remoting.ObjRef or)
     // Offset: 0x1806F28
-    static void NotifyUnmarshaledObject(::Il2CppObject* obj, System::Runtime::Remoting::ObjRef* _or);
+    static void NotifyUnmarshaledObject(::Il2CppObject* obj, ::System::Runtime::Remoting::ObjRef* _or);
     // static System.Void NotifyDisconnectedObject(System.Object obj)
     // Offset: 0x1809FAC
     static void NotifyDisconnectedObject(::Il2CppObject* obj);
@@ -66,7 +66,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Runtime::Remoting::Services::TrackingServices::NotifyMarshaledObject
 // Il2CppName: NotifyMarshaledObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, System::Runtime::Remoting::ObjRef*)>(&System::Runtime::Remoting::Services::TrackingServices::NotifyMarshaledObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::System::Runtime::Remoting::ObjRef*)>(&System::Runtime::Remoting::Services::TrackingServices::NotifyMarshaledObject)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* _or = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting", "ObjRef")->byval_arg;
@@ -76,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::Runtime::Remoting::Services::TrackingServices::NotifyUnmarshaledObject
 // Il2CppName: NotifyUnmarshaledObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, System::Runtime::Remoting::ObjRef*)>(&System::Runtime::Remoting::Services::TrackingServices::NotifyUnmarshaledObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::System::Runtime::Remoting::ObjRef*)>(&System::Runtime::Remoting::Services::TrackingServices::NotifyUnmarshaledObject)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* _or = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting", "ObjRef")->byval_arg;

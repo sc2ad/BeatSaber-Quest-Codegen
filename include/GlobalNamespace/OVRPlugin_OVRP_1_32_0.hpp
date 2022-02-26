@@ -17,8 +17,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRPlugin::OVRP_1_32_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_32_0*, "", "OVRPlugin/OVRP_1_32_0");
+NEED_NO_BOX(::GlobalNamespace::OVRPlugin::OVRP_1_32_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRPlugin::OVRP_1_32_0*, "", "OVRPlugin/OVRP_1_32_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -28,15 +28,15 @@ namespace GlobalNamespace {
   class OVRPlugin::OVRP_1_32_0 : public ::Il2CppObject {
     public:
     // Get static field: static public readonly System.Version version
-    static System::Version* _get_version();
+    static ::System::Version* _get_version();
     // Set static field: static public readonly System.Version version
-    static void _set_version(System::Version* value);
+    static void _set_version(::System::Version* value);
     // static private System.Void .cctor()
     // Offset: 0x1A73AC4
     static void _cctor();
     // static public OVRPlugin/Result ovrp_AddCustomMetadata(System.String name, System.String param)
     // Offset: 0x1A73A04
-    static GlobalNamespace::OVRPlugin::Result ovrp_AddCustomMetadata(::StringW name, ::StringW param);
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_AddCustomMetadata(::StringW name, ::StringW param);
   }; // OVRPlugin/OVRP_1_32_0
   #pragma pack(pop)
 }
@@ -52,7 +52,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_32_0::ovrp_AddCustomMetadata
 // Il2CppName: ovrp_AddCustomMetadata
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(::StringW, ::StringW)>(&GlobalNamespace::OVRPlugin::OVRP_1_32_0::ovrp_AddCustomMetadata)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)(::StringW, ::StringW)>(&GlobalNamespace::OVRPlugin::OVRP_1_32_0::ovrp_AddCustomMetadata)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* param = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

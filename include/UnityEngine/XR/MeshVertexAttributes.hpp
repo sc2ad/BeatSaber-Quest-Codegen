@@ -14,7 +14,7 @@ namespace UnityEngine::XR {
   struct MeshVertexAttributes;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::MeshVertexAttributes, "UnityEngine.XR", "MeshVertexAttributes");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::MeshVertexAttributes, "UnityEngine.XR", "MeshVertexAttributes");
 // Type namespace: UnityEngine.XR
 namespace UnityEngine::XR {
   // Size: 0x4
@@ -24,7 +24,7 @@ namespace UnityEngine::XR {
   // [FlagsAttribute] Offset: FFFFFFFF
   // [NativeHeaderAttribute] Offset: 11CE71C
   // [UsedByNativeCodeAttribute] Offset: 11CE71C
-  struct MeshVertexAttributes/*, public System::Enum*/ {
+  struct MeshVertexAttributes/*, public ::System::Enum*/ {
     public:
     public:
     // public System.Int32 value__
@@ -36,9 +36,9 @@ namespace UnityEngine::XR {
     public:
     // Creating value type constructor for type: MeshVertexAttributes
     constexpr MeshVertexAttributes(int value_ = {}) noexcept : value{value_} {}
-    // Creating interface conversion operator: operator System::Enum
-    operator System::Enum() noexcept {
-      return *reinterpret_cast<System::Enum*>(this);
+    // Creating interface conversion operator: operator ::System::Enum
+    operator ::System::Enum() noexcept {
+      return *reinterpret_cast<::System::Enum*>(this);
     }
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
@@ -47,33 +47,33 @@ namespace UnityEngine::XR {
     // static field const value: static public UnityEngine.XR.MeshVertexAttributes None
     static constexpr const int None = 0;
     // Get static field: static public UnityEngine.XR.MeshVertexAttributes None
-    static UnityEngine::XR::MeshVertexAttributes _get_None();
+    static ::UnityEngine::XR::MeshVertexAttributes _get_None();
     // Set static field: static public UnityEngine.XR.MeshVertexAttributes None
-    static void _set_None(UnityEngine::XR::MeshVertexAttributes value);
+    static void _set_None(::UnityEngine::XR::MeshVertexAttributes value);
     // static field const value: static public UnityEngine.XR.MeshVertexAttributes Normals
     static constexpr const int Normals = 1;
     // Get static field: static public UnityEngine.XR.MeshVertexAttributes Normals
-    static UnityEngine::XR::MeshVertexAttributes _get_Normals();
+    static ::UnityEngine::XR::MeshVertexAttributes _get_Normals();
     // Set static field: static public UnityEngine.XR.MeshVertexAttributes Normals
-    static void _set_Normals(UnityEngine::XR::MeshVertexAttributes value);
+    static void _set_Normals(::UnityEngine::XR::MeshVertexAttributes value);
     // static field const value: static public UnityEngine.XR.MeshVertexAttributes Tangents
     static constexpr const int Tangents = 2;
     // Get static field: static public UnityEngine.XR.MeshVertexAttributes Tangents
-    static UnityEngine::XR::MeshVertexAttributes _get_Tangents();
+    static ::UnityEngine::XR::MeshVertexAttributes _get_Tangents();
     // Set static field: static public UnityEngine.XR.MeshVertexAttributes Tangents
-    static void _set_Tangents(UnityEngine::XR::MeshVertexAttributes value);
+    static void _set_Tangents(::UnityEngine::XR::MeshVertexAttributes value);
     // static field const value: static public UnityEngine.XR.MeshVertexAttributes UVs
     static constexpr const int UVs = 4;
     // Get static field: static public UnityEngine.XR.MeshVertexAttributes UVs
-    static UnityEngine::XR::MeshVertexAttributes _get_UVs();
+    static ::UnityEngine::XR::MeshVertexAttributes _get_UVs();
     // Set static field: static public UnityEngine.XR.MeshVertexAttributes UVs
-    static void _set_UVs(UnityEngine::XR::MeshVertexAttributes value);
+    static void _set_UVs(::UnityEngine::XR::MeshVertexAttributes value);
     // static field const value: static public UnityEngine.XR.MeshVertexAttributes Colors
     static constexpr const int Colors = 8;
     // Get static field: static public UnityEngine.XR.MeshVertexAttributes Colors
-    static UnityEngine::XR::MeshVertexAttributes _get_Colors();
+    static ::UnityEngine::XR::MeshVertexAttributes _get_Colors();
     // Set static field: static public UnityEngine.XR.MeshVertexAttributes Colors
-    static void _set_Colors(UnityEngine::XR::MeshVertexAttributes value);
+    static void _set_Colors(::UnityEngine::XR::MeshVertexAttributes value);
     // Get instance field reference: public System.Int32 value__
     int& dyn_value__();
   }; // UnityEngine.XR.MeshVertexAttributes

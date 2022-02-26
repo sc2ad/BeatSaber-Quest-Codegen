@@ -45,8 +45,8 @@ namespace System::Dynamic {
   class DynamicMetaObject;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Dynamic::DynamicMetaObject);
-DEFINE_IL2CPP_ARG_TYPE(System::Dynamic::DynamicMetaObject*, "System.Dynamic", "DynamicMetaObject");
+NEED_NO_BOX(::System::Dynamic::DynamicMetaObject);
+DEFINE_IL2CPP_ARG_TYPE(::System::Dynamic::DynamicMetaObject*, "System.Dynamic", "DynamicMetaObject");
 // Type namespace: System.Dynamic
 namespace System::Dynamic {
   // Size: 0x29
@@ -67,15 +67,15 @@ namespace System::Dynamic {
     // private readonly System.Linq.Expressions.Expression <Expression>k__BackingField
     // Size: 0x8
     // Offset: 0x10
-    System::Linq::Expressions::Expression* Expression;
+    ::System::Linq::Expressions::Expression* Expression;
     // Field size check
-    static_assert(sizeof(System::Linq::Expressions::Expression*) == 0x8);
+    static_assert(sizeof(::System::Linq::Expressions::Expression*) == 0x8);
     // private readonly System.Dynamic.BindingRestrictions <Restrictions>k__BackingField
     // Size: 0x8
     // Offset: 0x18
-    System::Dynamic::BindingRestrictions* Restrictions;
+    ::System::Dynamic::BindingRestrictions* Restrictions;
     // Field size check
-    static_assert(sizeof(System::Dynamic::BindingRestrictions*) == 0x8);
+    static_assert(sizeof(::System::Dynamic::BindingRestrictions*) == 0x8);
     // private readonly System.Object <Value>k__BackingField
     // Size: 0x8
     // Offset: 0x20
@@ -90,23 +90,23 @@ namespace System::Dynamic {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get static field: static public readonly System.Dynamic.DynamicMetaObject[] EmptyMetaObjects
-    static ::ArrayW<System::Dynamic::DynamicMetaObject*> _get_EmptyMetaObjects();
+    static ::ArrayW<::System::Dynamic::DynamicMetaObject*> _get_EmptyMetaObjects();
     // Set static field: static public readonly System.Dynamic.DynamicMetaObject[] EmptyMetaObjects
-    static void _set_EmptyMetaObjects(::ArrayW<System::Dynamic::DynamicMetaObject*> value);
+    static void _set_EmptyMetaObjects(::ArrayW<::System::Dynamic::DynamicMetaObject*> value);
     // Get instance field reference: private readonly System.Linq.Expressions.Expression <Expression>k__BackingField
-    System::Linq::Expressions::Expression*& dyn_$Expression$k__BackingField();
+    ::System::Linq::Expressions::Expression*& dyn_$Expression$k__BackingField();
     // Get instance field reference: private readonly System.Dynamic.BindingRestrictions <Restrictions>k__BackingField
-    System::Dynamic::BindingRestrictions*& dyn_$Restrictions$k__BackingField();
+    ::System::Dynamic::BindingRestrictions*& dyn_$Restrictions$k__BackingField();
     // Get instance field reference: private readonly System.Object <Value>k__BackingField
     ::Il2CppObject*& dyn_$Value$k__BackingField();
     // Get instance field reference: private readonly System.Boolean <HasValue>k__BackingField
     bool& dyn_$HasValue$k__BackingField();
     // public System.Linq.Expressions.Expression get_Expression()
     // Offset: 0x15EA08C
-    System::Linq::Expressions::Expression* get_Expression();
+    ::System::Linq::Expressions::Expression* get_Expression();
     // public System.Dynamic.BindingRestrictions get_Restrictions()
     // Offset: 0x15EA094
-    System::Dynamic::BindingRestrictions* get_Restrictions();
+    ::System::Dynamic::BindingRestrictions* get_Restrictions();
     // public System.Object get_Value()
     // Offset: 0x15EA09C
     ::Il2CppObject* get_Value();
@@ -115,22 +115,22 @@ namespace System::Dynamic {
     bool get_HasValue();
     // public System.Type get_RuntimeType()
     // Offset: 0x15EA0AC
-    System::Type* get_RuntimeType();
+    ::System::Type* get_RuntimeType();
     // public System.Type get_LimitType()
     // Offset: 0x15E8A68
-    System::Type* get_LimitType();
+    ::System::Type* get_LimitType();
     // public System.Void .ctor(System.Linq.Expressions.Expression expression, System.Dynamic.BindingRestrictions restrictions)
     // Offset: 0x15E9FD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DynamicMetaObject* New_ctor(System::Linq::Expressions::Expression* expression, System::Dynamic::BindingRestrictions* restrictions) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Dynamic::DynamicMetaObject::.ctor");
+    static DynamicMetaObject* New_ctor(::System::Linq::Expressions::Expression* expression, ::System::Dynamic::BindingRestrictions* restrictions) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Dynamic::DynamicMetaObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DynamicMetaObject*, creationType>(expression, restrictions)));
     }
     // public System.Void .ctor(System.Linq.Expressions.Expression expression, System.Dynamic.BindingRestrictions restrictions, System.Object value)
     // Offset: 0x15EA05C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DynamicMetaObject* New_ctor(System::Linq::Expressions::Expression* expression, System::Dynamic::BindingRestrictions* restrictions, ::Il2CppObject* value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Dynamic::DynamicMetaObject::.ctor");
+    static DynamicMetaObject* New_ctor(::System::Linq::Expressions::Expression* expression, ::System::Dynamic::BindingRestrictions* restrictions, ::Il2CppObject* value) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Dynamic::DynamicMetaObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DynamicMetaObject*, creationType>(expression, restrictions, value)));
     }
     // static private System.Void .cctor()
@@ -138,16 +138,16 @@ namespace System::Dynamic {
     static void _cctor();
     // public System.Dynamic.DynamicMetaObject BindGetMember(System.Dynamic.GetMemberBinder binder)
     // Offset: 0x15EA11C
-    System::Dynamic::DynamicMetaObject* BindGetMember(System::Dynamic::GetMemberBinder* binder);
+    ::System::Dynamic::DynamicMetaObject* BindGetMember(::System::Dynamic::GetMemberBinder* binder);
     // public System.Dynamic.DynamicMetaObject BindSetMember(System.Dynamic.SetMemberBinder binder, System.Dynamic.DynamicMetaObject value)
     // Offset: 0x15EA1A8
-    System::Dynamic::DynamicMetaObject* BindSetMember(System::Dynamic::SetMemberBinder* binder, System::Dynamic::DynamicMetaObject* value);
+    ::System::Dynamic::DynamicMetaObject* BindSetMember(::System::Dynamic::SetMemberBinder* binder, ::System::Dynamic::DynamicMetaObject* value);
     // public System.Collections.Generic.IEnumerable`1<System.String> GetDynamicMemberNames()
     // Offset: 0x15EA23C
-    System::Collections::Generic::IEnumerable_1<::StringW>* GetDynamicMemberNames();
+    ::System::Collections::Generic::IEnumerable_1<::StringW>* GetDynamicMemberNames();
     // static public System.Dynamic.DynamicMetaObject Create(System.Object value, System.Linq.Expressions.Expression expression)
     // Offset: 0x15EA304
-    static System::Dynamic::DynamicMetaObject* Create(::Il2CppObject* value, System::Linq::Expressions::Expression* expression);
+    static ::System::Dynamic::DynamicMetaObject* Create(::Il2CppObject* value, ::System::Linq::Expressions::Expression* expression);
   }; // System.Dynamic.DynamicMetaObject
   #pragma pack(pop)
   static check_size<sizeof(DynamicMetaObject), 40 + sizeof(bool)> __System_Dynamic_DynamicMetaObjectSizeCheck;
@@ -157,7 +157,7 @@ namespace System::Dynamic {
 // Writing MetadataGetter for method: System::Dynamic::DynamicMetaObject::get_Expression
 // Il2CppName: get_Expression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Linq::Expressions::Expression* (System::Dynamic::DynamicMetaObject::*)()>(&System::Dynamic::DynamicMetaObject::get_Expression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (System::Dynamic::DynamicMetaObject::*)()>(&System::Dynamic::DynamicMetaObject::get_Expression)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Dynamic::DynamicMetaObject*), "get_Expression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -165,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Lin
 // Writing MetadataGetter for method: System::Dynamic::DynamicMetaObject::get_Restrictions
 // Il2CppName: get_Restrictions
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dynamic::BindingRestrictions* (System::Dynamic::DynamicMetaObject::*)()>(&System::Dynamic::DynamicMetaObject::get_Restrictions)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::BindingRestrictions* (System::Dynamic::DynamicMetaObject::*)()>(&System::Dynamic::DynamicMetaObject::get_Restrictions)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Dynamic::DynamicMetaObject*), "get_Restrictions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -189,7 +189,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Dynamic::DynamicMetaObject::get_RuntimeType
 // Il2CppName: get_RuntimeType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Dynamic::DynamicMetaObject::*)()>(&System::Dynamic::DynamicMetaObject::get_RuntimeType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (System::Dynamic::DynamicMetaObject::*)()>(&System::Dynamic::DynamicMetaObject::get_RuntimeType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Dynamic::DynamicMetaObject*), "get_RuntimeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -197,7 +197,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: System::Dynamic::DynamicMetaObject::get_LimitType
 // Il2CppName: get_LimitType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Dynamic::DynamicMetaObject::*)()>(&System::Dynamic::DynamicMetaObject::get_LimitType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (System::Dynamic::DynamicMetaObject::*)()>(&System::Dynamic::DynamicMetaObject::get_LimitType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Dynamic::DynamicMetaObject*), "get_LimitType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -221,7 +221,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Dynamic::DynamicMetaObject::BindGetMember
 // Il2CppName: BindGetMember
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dynamic::DynamicMetaObject* (System::Dynamic::DynamicMetaObject::*)(System::Dynamic::GetMemberBinder*)>(&System::Dynamic::DynamicMetaObject::BindGetMember)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::DynamicMetaObject* (System::Dynamic::DynamicMetaObject::*)(::System::Dynamic::GetMemberBinder*)>(&System::Dynamic::DynamicMetaObject::BindGetMember)> {
   static const MethodInfo* get() {
     static auto* binder = &::il2cpp_utils::GetClassFromName("System.Dynamic", "GetMemberBinder")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Dynamic::DynamicMetaObject*), "BindGetMember", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{binder});
@@ -230,7 +230,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dyn
 // Writing MetadataGetter for method: System::Dynamic::DynamicMetaObject::BindSetMember
 // Il2CppName: BindSetMember
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dynamic::DynamicMetaObject* (System::Dynamic::DynamicMetaObject::*)(System::Dynamic::SetMemberBinder*, System::Dynamic::DynamicMetaObject*)>(&System::Dynamic::DynamicMetaObject::BindSetMember)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::DynamicMetaObject* (System::Dynamic::DynamicMetaObject::*)(::System::Dynamic::SetMemberBinder*, ::System::Dynamic::DynamicMetaObject*)>(&System::Dynamic::DynamicMetaObject::BindSetMember)> {
   static const MethodInfo* get() {
     static auto* binder = &::il2cpp_utils::GetClassFromName("System.Dynamic", "SetMemberBinder")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Dynamic", "DynamicMetaObject")->byval_arg;
@@ -240,7 +240,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dyn
 // Writing MetadataGetter for method: System::Dynamic::DynamicMetaObject::GetDynamicMemberNames
 // Il2CppName: GetDynamicMemberNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::StringW>* (System::Dynamic::DynamicMetaObject::*)()>(&System::Dynamic::DynamicMetaObject::GetDynamicMemberNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>* (System::Dynamic::DynamicMetaObject::*)()>(&System::Dynamic::DynamicMetaObject::GetDynamicMemberNames)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Dynamic::DynamicMetaObject*), "GetDynamicMemberNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -248,7 +248,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::Dynamic::DynamicMetaObject::Create
 // Il2CppName: Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dynamic::DynamicMetaObject* (*)(::Il2CppObject*, System::Linq::Expressions::Expression*)>(&System::Dynamic::DynamicMetaObject::Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::DynamicMetaObject* (*)(::Il2CppObject*, ::System::Linq::Expressions::Expression*)>(&System::Dynamic::DynamicMetaObject::Create)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* expression = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions", "Expression")->byval_arg;

@@ -26,7 +26,7 @@ namespace UnityEngine {
   struct Color;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Color, "UnityEngine", "Color");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Color, "UnityEngine", "Color");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -38,7 +38,7 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: 11A5010
   // [RequiredByNativeCodeAttribute] Offset: 11A5010
   // [DefaultMemberAttribute] Offset: 11A5010
-  struct Color/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Color>*/ {
+  struct Color/*, public ::System::ValueType, public ::System::IEquatable_1<::UnityEngine::Color>*/ {
     public:
     public:
     // public System.Single r
@@ -68,13 +68,13 @@ namespace UnityEngine {
     public:
     // Creating value type constructor for type: Color
     constexpr Color(float r_ = {}, float g_ = {}, float b_ = {}, float a_ = {}) noexcept : r{r_}, g{g_}, b{b_}, a{a_} {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
-    // Creating interface conversion operator: operator System::IEquatable_1<UnityEngine::Color>
-    operator System::IEquatable_1<UnityEngine::Color>() noexcept {
-      return *reinterpret_cast<System::IEquatable_1<UnityEngine::Color>*>(this);
+    // Creating interface conversion operator: operator ::System::IEquatable_1<::UnityEngine::Color>
+    operator ::System::IEquatable_1<::UnityEngine::Color>() noexcept {
+      return *reinterpret_cast<::System::IEquatable_1<::UnityEngine::Color>*>(this);
     }
     // Get instance field reference: public System.Single r
     float& dyn_r();
@@ -86,40 +86,40 @@ namespace UnityEngine {
     float& dyn_a();
     // static public UnityEngine.Color get_red()
     // Offset: 0x1EB31C8
-    static UnityEngine::Color get_red();
+    static ::UnityEngine::Color get_red();
     // static public UnityEngine.Color get_green()
     // Offset: 0x1EB31DC
-    static UnityEngine::Color get_green();
+    static ::UnityEngine::Color get_green();
     // static public UnityEngine.Color get_blue()
     // Offset: 0x1EB31F0
-    static UnityEngine::Color get_blue();
+    static ::UnityEngine::Color get_blue();
     // static public UnityEngine.Color get_white()
     // Offset: 0x1EB3204
-    static UnityEngine::Color get_white();
+    static ::UnityEngine::Color get_white();
     // static public UnityEngine.Color get_black()
     // Offset: 0x1EB3218
-    static UnityEngine::Color get_black();
+    static ::UnityEngine::Color get_black();
     // static public UnityEngine.Color get_yellow()
     // Offset: 0x1EB322C
-    static UnityEngine::Color get_yellow();
+    static ::UnityEngine::Color get_yellow();
     // static public UnityEngine.Color get_cyan()
     // Offset: 0x1EB3248
-    static UnityEngine::Color get_cyan();
+    static ::UnityEngine::Color get_cyan();
     // static public UnityEngine.Color get_magenta()
     // Offset: 0x1EB325C
-    static UnityEngine::Color get_magenta();
+    static ::UnityEngine::Color get_magenta();
     // static public UnityEngine.Color get_gray()
     // Offset: 0x1EB3270
-    static UnityEngine::Color get_gray();
+    static ::UnityEngine::Color get_gray();
     // static public UnityEngine.Color get_clear()
     // Offset: 0x1EB3284
-    static UnityEngine::Color get_clear();
+    static ::UnityEngine::Color get_clear();
     // public System.Single get_grayscale()
     // Offset: 0x1EB3298
     float get_grayscale();
     // public UnityEngine.Color get_linear()
     // Offset: 0x1EB32D0
-    UnityEngine::Color get_linear();
+    ::UnityEngine::Color get_linear();
     // public System.Single get_maxColorComponent()
     // Offset: 0x1EB3380
     float get_maxColorComponent();
@@ -140,28 +140,28 @@ namespace UnityEngine {
     ::StringW ToString(::StringW format);
     // public System.Boolean Equals(UnityEngine.Color other)
     // Offset: 0x1EB2E64
-    bool Equals(UnityEngine::Color other);
+    bool Equals(::UnityEngine::Color other);
     // static public UnityEngine.Color Lerp(UnityEngine.Color a, UnityEngine.Color b, System.Single t)
     // Offset: 0x1EB3094
-    static UnityEngine::Color Lerp(UnityEngine::Color a, UnityEngine::Color b, float t);
+    static ::UnityEngine::Color Lerp(::UnityEngine::Color a, ::UnityEngine::Color b, float t);
     // static public UnityEngine.Color LerpUnclamped(UnityEngine.Color a, UnityEngine.Color b, System.Single t)
     // Offset: 0x1EB3174
-    static UnityEngine::Color LerpUnclamped(UnityEngine::Color a, UnityEngine::Color b, float t);
+    static ::UnityEngine::Color LerpUnclamped(::UnityEngine::Color a, ::UnityEngine::Color b, float t);
     // UnityEngine.Color RGBMultiplied(System.Single multiplier)
     // Offset: 0x1EB31AC
-    UnityEngine::Color RGBMultiplied(float multiplier);
+    ::UnityEngine::Color RGBMultiplied(float multiplier);
     // static public System.Void RGBToHSV(UnityEngine.Color rgbColor, out System.Single H, out System.Single S, out System.Single V)
     // Offset: 0x1EB361C
-    static void RGBToHSV(UnityEngine::Color rgbColor, ByRef<float> H, ByRef<float> S, ByRef<float> V);
+    static void RGBToHSV(::UnityEngine::Color rgbColor, ByRef<float> H, ByRef<float> S, ByRef<float> V);
     // static private System.Void RGBToHSVHelper(System.Single offset, System.Single dominantcolor, System.Single colorone, System.Single colortwo, out System.Single H, out System.Single S, out System.Single V)
     // Offset: 0x1EB3734
     static void RGBToHSVHelper(float offset, float dominantcolor, float colorone, float colortwo, ByRef<float> H, ByRef<float> S, ByRef<float> V);
     // static public UnityEngine.Color HSVToRGB(System.Single H, System.Single S, System.Single V)
     // Offset: 0x1EB37A4
-    static UnityEngine::Color HSVToRGB(float H, float S, float V);
+    static ::UnityEngine::Color HSVToRGB(float H, float S, float V);
     // static public UnityEngine.Color HSVToRGB(System.Single H, System.Single S, System.Single V, System.Boolean hdr)
     // Offset: 0x1EB37AC
-    static UnityEngine::Color HSVToRGB(float H, float S, float V, bool hdr);
+    static ::UnityEngine::Color HSVToRGB(float H, float S, float V, bool hdr);
     // public override System.String ToString()
     // Offset: 0x1EB2994
     // Implemented from: System.ValueType
@@ -183,34 +183,34 @@ namespace UnityEngine {
   static_assert(sizeof(Color) == 0x10);
   // static public UnityEngine.Color op_Addition(UnityEngine.Color a, UnityEngine.Color b)
   // Offset: 0x1EB2EF4
-  UnityEngine::Color operator+(const UnityEngine::Color& a, const UnityEngine::Color& b);
+  ::UnityEngine::Color operator+(const ::UnityEngine::Color& a, const ::UnityEngine::Color& b);
   // static public UnityEngine.Color op_Subtraction(UnityEngine.Color a, UnityEngine.Color b)
   // Offset: 0x1EB2F08
-  UnityEngine::Color operator-(const UnityEngine::Color& a, const UnityEngine::Color& b);
+  ::UnityEngine::Color operator-(const ::UnityEngine::Color& a, const ::UnityEngine::Color& b);
   // static public UnityEngine.Color op_Multiply(UnityEngine.Color a, UnityEngine.Color b)
   // Offset: 0x1EB2F1C
-  UnityEngine::Color operator*(const UnityEngine::Color& a, const UnityEngine::Color& b);
+  ::UnityEngine::Color operator*(const ::UnityEngine::Color& a, const ::UnityEngine::Color& b);
   // static public UnityEngine.Color op_Multiply(UnityEngine.Color a, System.Single b)
   // Offset: 0x1EB2F30
-  UnityEngine::Color operator*(const UnityEngine::Color& a, const float& b);
+  ::UnityEngine::Color operator*(const ::UnityEngine::Color& a, const float& b);
   // static public UnityEngine.Color op_Multiply(System.Single b, UnityEngine.Color a)
   // Offset: 0x1EB2F44
-  UnityEngine::Color operator*(const float& b, const UnityEngine::Color& a);
+  ::UnityEngine::Color operator*(const float& b, const ::UnityEngine::Color& a);
   // static public UnityEngine.Color op_Division(UnityEngine.Color a, System.Single b)
   // Offset: 0x1EB2F5C
-  UnityEngine::Color operator/(const UnityEngine::Color& a, const float& b);
+  ::UnityEngine::Color operator/(const ::UnityEngine::Color& a, const float& b);
   // static public System.Boolean op_Equality(UnityEngine.Color lhs, UnityEngine.Color rhs)
   // Offset: 0x1EB2F70
-  bool operator ==(const UnityEngine::Color& lhs, const UnityEngine::Color& rhs);
+  bool operator ==(const ::UnityEngine::Color& lhs, const ::UnityEngine::Color& rhs);
   // static public System.Boolean op_Inequality(UnityEngine.Color lhs, UnityEngine.Color rhs)
   // Offset: 0x1EB3078
-  bool operator !=(const UnityEngine::Color& lhs, const UnityEngine::Color& rhs);
+  bool operator !=(const ::UnityEngine::Color& lhs, const ::UnityEngine::Color& rhs);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Color::get_red
 // Il2CppName: get_red
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)()>(&UnityEngine::Color::get_red)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)()>(&UnityEngine::Color::get_red)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Color), "get_red", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -218,7 +218,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Color::get_green
 // Il2CppName: get_green
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)()>(&UnityEngine::Color::get_green)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)()>(&UnityEngine::Color::get_green)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Color), "get_green", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -226,7 +226,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Color::get_blue
 // Il2CppName: get_blue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)()>(&UnityEngine::Color::get_blue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)()>(&UnityEngine::Color::get_blue)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Color), "get_blue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -234,7 +234,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Color::get_white
 // Il2CppName: get_white
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)()>(&UnityEngine::Color::get_white)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)()>(&UnityEngine::Color::get_white)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Color), "get_white", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -242,7 +242,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Color::get_black
 // Il2CppName: get_black
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)()>(&UnityEngine::Color::get_black)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)()>(&UnityEngine::Color::get_black)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Color), "get_black", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -250,7 +250,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Color::get_yellow
 // Il2CppName: get_yellow
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)()>(&UnityEngine::Color::get_yellow)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)()>(&UnityEngine::Color::get_yellow)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Color), "get_yellow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -258,7 +258,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Color::get_cyan
 // Il2CppName: get_cyan
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)()>(&UnityEngine::Color::get_cyan)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)()>(&UnityEngine::Color::get_cyan)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Color), "get_cyan", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -266,7 +266,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Color::get_magenta
 // Il2CppName: get_magenta
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)()>(&UnityEngine::Color::get_magenta)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)()>(&UnityEngine::Color::get_magenta)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Color), "get_magenta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -274,7 +274,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Color::get_gray
 // Il2CppName: get_gray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)()>(&UnityEngine::Color::get_gray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)()>(&UnityEngine::Color::get_gray)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Color), "get_gray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -282,7 +282,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Color::get_clear
 // Il2CppName: get_clear
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)()>(&UnityEngine::Color::get_clear)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)()>(&UnityEngine::Color::get_clear)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Color), "get_clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -298,7 +298,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Writing MetadataGetter for method: UnityEngine::Color::get_linear
 // Il2CppName: get_linear
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (UnityEngine::Color::*)()>(&UnityEngine::Color::get_linear)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (UnityEngine::Color::*)()>(&UnityEngine::Color::get_linear)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Color), "get_linear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -350,7 +350,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: UnityEngine::Color::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Color::*)(UnityEngine::Color)>(&UnityEngine::Color::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Color::*)(::UnityEngine::Color)>(&UnityEngine::Color::Equals)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Color), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
@@ -359,7 +359,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::Color::Lerp
 // Il2CppName: Lerp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(UnityEngine::Color, UnityEngine::Color, float)>(&UnityEngine::Color::Lerp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)(::UnityEngine::Color, ::UnityEngine::Color, float)>(&UnityEngine::Color::Lerp)> {
   static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
@@ -370,7 +370,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Color::LerpUnclamped
 // Il2CppName: LerpUnclamped
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(UnityEngine::Color, UnityEngine::Color, float)>(&UnityEngine::Color::LerpUnclamped)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)(::UnityEngine::Color, ::UnityEngine::Color, float)>(&UnityEngine::Color::LerpUnclamped)> {
   static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
@@ -381,7 +381,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Color::RGBMultiplied
 // Il2CppName: RGBMultiplied
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (UnityEngine::Color::*)(float)>(&UnityEngine::Color::RGBMultiplied)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (UnityEngine::Color::*)(float)>(&UnityEngine::Color::RGBMultiplied)> {
   static const MethodInfo* get() {
     static auto* multiplier = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Color), "RGBMultiplied", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{multiplier});
@@ -390,7 +390,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Color::RGBToHSV
 // Il2CppName: RGBToHSV
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Color, ByRef<float>, ByRef<float>, ByRef<float>)>(&UnityEngine::Color::RGBToHSV)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Color, ByRef<float>, ByRef<float>, ByRef<float>)>(&UnityEngine::Color::RGBToHSV)> {
   static const MethodInfo* get() {
     static auto* rgbColor = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     static auto* H = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
@@ -417,7 +417,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(fl
 // Writing MetadataGetter for method: UnityEngine::Color::HSVToRGB
 // Il2CppName: HSVToRGB
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(float, float, float)>(&UnityEngine::Color::HSVToRGB)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)(float, float, float)>(&UnityEngine::Color::HSVToRGB)> {
   static const MethodInfo* get() {
     static auto* H = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* S = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -428,7 +428,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Color::HSVToRGB
 // Il2CppName: HSVToRGB
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(float, float, float, bool)>(&UnityEngine::Color::HSVToRGB)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)(float, float, float, bool)>(&UnityEngine::Color::HSVToRGB)> {
   static const MethodInfo* get() {
     static auto* H = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* S = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

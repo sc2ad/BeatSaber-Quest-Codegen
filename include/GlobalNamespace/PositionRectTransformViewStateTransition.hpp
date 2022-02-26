@@ -38,8 +38,8 @@ namespace GlobalNamespace {
   class PositionRectTransformViewStateTransition;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PositionRectTransformViewStateTransition);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PositionRectTransformViewStateTransition*, "", "PositionRectTransformViewStateTransition");
+NEED_NO_BOX(::GlobalNamespace::PositionRectTransformViewStateTransition);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PositionRectTransformViewStateTransition*, "", "PositionRectTransformViewStateTransition");
 // Type namespace: 
 namespace GlobalNamespace {
   // WARNING Size may be invalid!
@@ -47,7 +47,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AddComponentMenu] Offset: 1238084
   // [RequireComponent] Offset: 1238084
-  class PositionRectTransformViewStateTransition : public GlobalNamespace::BaseStateTransition_1<UnityEngine::RectTransform*> {
+  class PositionRectTransformViewStateTransition : public ::GlobalNamespace::BaseStateTransition_1<::UnityEngine::RectTransform*> {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -62,26 +62,26 @@ namespace GlobalNamespace {
     // private Vector3TransitionSO _transition
     // Size: 0x8
     // Offset: 0x28
-    GlobalNamespace::Vector3TransitionSO* transition;
+    ::GlobalNamespace::Vector3TransitionSO* transition;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::Vector3TransitionSO*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::Vector3TransitionSO*) == 0x8);
     // private Tweening.Vector3Tween _vectorTween
     // Size: 0x8
     // Offset: 0x30
-    Tweening::Vector3Tween* vectorTween;
+    ::Tweening::Vector3Tween* vectorTween;
     // Field size check
-    static_assert(sizeof(Tweening::Vector3Tween*) == 0x8);
+    static_assert(sizeof(::Tweening::Vector3Tween*) == 0x8);
     public:
     // Get instance field reference: private Vector3TransitionSO _transition
-    GlobalNamespace::Vector3TransitionSO*& dyn__transition();
+    ::GlobalNamespace::Vector3TransitionSO*& dyn__transition();
     // Get instance field reference: private Tweening.Vector3Tween _vectorTween
-    Tweening::Vector3Tween*& dyn__vectorTween();
+    ::Tweening::Vector3Tween*& dyn__vectorTween();
     // private System.Void StartTween(UnityEngine.Vector3 endPosition)
     // Offset: 0x13E7D9C
-    void StartTween(UnityEngine::Vector3 endPosition);
+    void StartTween(::UnityEngine::Vector3 endPosition);
     // private System.Void <StartTween>b__16_0(UnityEngine.Vector3 pos)
     // Offset: 0x13E84B8
-    void $StartTween$b__16_0(UnityEngine::Vector3 pos);
+    void $StartTween$b__16_0(::UnityEngine::Vector3 pos);
     // private System.Void <StartTween>b__16_1()
     // Offset: 0x13E855C
     void $StartTween$b__16_1();
@@ -89,7 +89,7 @@ namespace GlobalNamespace {
     // Offset: 0x13E7D74
     // Implemented from: BaseStateTransition
     // Base method: BaseTransitionSO BaseStateTransition::get_transition()
-    GlobalNamespace::BaseTransitionSO* get_transition();
+    ::GlobalNamespace::BaseTransitionSO* get_transition();
     // public System.Void .ctor()
     // Offset: 0x13E8468
     // Implemented from: BaseStateTransition`1
@@ -102,7 +102,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PositionRectTransformViewStateTransition* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PositionRectTransformViewStateTransition::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PositionRectTransformViewStateTransition::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PositionRectTransformViewStateTransition*, creationType>()));
     }
     // protected override System.Void TransitionToNormalState()
@@ -172,7 +172,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::PositionRectTransformViewStateTransition::StartTween
 // Il2CppName: StartTween
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PositionRectTransformViewStateTransition::*)(UnityEngine::Vector3)>(&GlobalNamespace::PositionRectTransformViewStateTransition::StartTween)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PositionRectTransformViewStateTransition::*)(::UnityEngine::Vector3)>(&GlobalNamespace::PositionRectTransformViewStateTransition::StartTween)> {
   static const MethodInfo* get() {
     static auto* endPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PositionRectTransformViewStateTransition*), "StartTween", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{endPosition});
@@ -181,7 +181,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PositionRectTransformViewStateTransition::$StartTween$b__16_0
 // Il2CppName: <StartTween>b__16_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PositionRectTransformViewStateTransition::*)(UnityEngine::Vector3)>(&GlobalNamespace::PositionRectTransformViewStateTransition::$StartTween$b__16_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PositionRectTransformViewStateTransition::*)(::UnityEngine::Vector3)>(&GlobalNamespace::PositionRectTransformViewStateTransition::$StartTween$b__16_0)> {
   static const MethodInfo* get() {
     static auto* pos = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PositionRectTransformViewStateTransition*), "<StartTween>b__16_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pos});
@@ -198,7 +198,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PositionRectTransformViewStateTransition::get_transition
 // Il2CppName: get_transition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BaseTransitionSO* (GlobalNamespace::PositionRectTransformViewStateTransition::*)()>(&GlobalNamespace::PositionRectTransformViewStateTransition::get_transition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BaseTransitionSO* (GlobalNamespace::PositionRectTransformViewStateTransition::*)()>(&GlobalNamespace::PositionRectTransformViewStateTransition::get_transition)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PositionRectTransformViewStateTransition*), "get_transition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

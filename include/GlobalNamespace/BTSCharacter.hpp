@@ -37,8 +37,8 @@ namespace GlobalNamespace {
   class BTSCharacter;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BTSCharacter);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacter*, "", "BTSCharacter");
+NEED_NO_BOX(::GlobalNamespace::BTSCharacter);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BTSCharacter*, "", "BTSCharacter");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x40
@@ -47,7 +47,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   // [RequireComponent] Offset: 1237AB0
   // [RequireComponent] Offset: 1237AB0
-  class BTSCharacter : public UnityEngine::MonoBehaviour {
+  class BTSCharacter : public ::UnityEngine::MonoBehaviour {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -68,55 +68,55 @@ namespace GlobalNamespace {
     // private UnityEngine.Animator _animator
     // Size: 0x8
     // Offset: 0x20
-    UnityEngine::Animator* animator;
+    ::UnityEngine::Animator* animator;
     // Field size check
-    static_assert(sizeof(UnityEngine::Animator*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Animator*) == 0x8);
     // private BTSCharacterMaterialSwitcher _btsCharacterMaterialSwitcher
     // Size: 0x8
     // Offset: 0x28
-    GlobalNamespace::BTSCharacterMaterialSwitcher* btsCharacterMaterialSwitcher;
+    ::GlobalNamespace::BTSCharacterMaterialSwitcher* btsCharacterMaterialSwitcher;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::BTSCharacterMaterialSwitcher*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::BTSCharacterMaterialSwitcher*) == 0x8);
     // private MaterialPropertyBlockController _materialPropertyBlockController
     // Size: 0x8
     // Offset: 0x30
-    GlobalNamespace::MaterialPropertyBlockController* materialPropertyBlockController;
+    ::GlobalNamespace::MaterialPropertyBlockController* materialPropertyBlockController;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::MaterialPropertyBlockController*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::MaterialPropertyBlockController*) == 0x8);
     // private UnityEngine.Transform _headTransform
     // Size: 0x8
     // Offset: 0x38
-    UnityEngine::Transform* headTransform;
+    ::UnityEngine::Transform* headTransform;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     public:
-    // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const noexcept = delete;
+    // Deleting conversion operator: operator ::System::IntPtr
+    constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _characterName
     ::StringW& dyn__characterName();
     // Get instance field reference: private UnityEngine.Animator _animator
-    UnityEngine::Animator*& dyn__animator();
+    ::UnityEngine::Animator*& dyn__animator();
     // Get instance field reference: private BTSCharacterMaterialSwitcher _btsCharacterMaterialSwitcher
-    GlobalNamespace::BTSCharacterMaterialSwitcher*& dyn__btsCharacterMaterialSwitcher();
+    ::GlobalNamespace::BTSCharacterMaterialSwitcher*& dyn__btsCharacterMaterialSwitcher();
     // Get instance field reference: private MaterialPropertyBlockController _materialPropertyBlockController
-    GlobalNamespace::MaterialPropertyBlockController*& dyn__materialPropertyBlockController();
+    ::GlobalNamespace::MaterialPropertyBlockController*& dyn__materialPropertyBlockController();
     // Get instance field reference: private UnityEngine.Transform _headTransform
-    UnityEngine::Transform*& dyn__headTransform();
+    ::UnityEngine::Transform*& dyn__headTransform();
     // public System.String get_characterName()
     // Offset: 0x1498BE4
     ::StringW get_characterName();
     // public MaterialPropertyBlockController get_materialPropertyBlockController()
     // Offset: 0x1498BEC
-    GlobalNamespace::MaterialPropertyBlockController* get_materialPropertyBlockController();
+    ::GlobalNamespace::MaterialPropertyBlockController* get_materialPropertyBlockController();
     // public UnityEngine.Animator get_animator()
     // Offset: 0x1498BF4
-    UnityEngine::Animator* get_animator();
+    ::UnityEngine::Animator* get_animator();
     // public UnityEngine.Transform get_headTransform()
     // Offset: 0x1498BFC
-    UnityEngine::Transform* get_headTransform();
+    ::UnityEngine::Transform* get_headTransform();
     // public System.Void SetAlternativeAnimationAndMaterial(UnityEngine.AnimationClip animation, System.Boolean alternativeMaterialOn)
     // Offset: 0x1498C04
-    void SetAlternativeAnimationAndMaterial(UnityEngine::AnimationClip* animation, bool alternativeMaterialOn);
+    void SetAlternativeAnimationAndMaterial(::UnityEngine::AnimationClip* animation, bool alternativeMaterialOn);
     // public System.Void .ctor()
     // Offset: 0x1498D9C
     // Implemented from: UnityEngine.MonoBehaviour
@@ -127,12 +127,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BTSCharacter* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BTSCharacter::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BTSCharacter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BTSCharacter*, creationType>()));
     }
   }; // BTSCharacter
   #pragma pack(pop)
-  static check_size<sizeof(BTSCharacter), 56 + sizeof(UnityEngine::Transform*)> __GlobalNamespace_BTSCharacterSizeCheck;
+  static check_size<sizeof(BTSCharacter), 56 + sizeof(::UnityEngine::Transform*)> __GlobalNamespace_BTSCharacterSizeCheck;
   static_assert(sizeof(BTSCharacter) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -147,7 +147,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacter::get_materialPropertyBlockController
 // Il2CppName: get_materialPropertyBlockController
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MaterialPropertyBlockController* (GlobalNamespace::BTSCharacter::*)()>(&GlobalNamespace::BTSCharacter::get_materialPropertyBlockController)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MaterialPropertyBlockController* (GlobalNamespace::BTSCharacter::*)()>(&GlobalNamespace::BTSCharacter::get_materialPropertyBlockController)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacter*), "get_materialPropertyBlockController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -155,7 +155,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacter::get_animator
 // Il2CppName: get_animator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Animator* (GlobalNamespace::BTSCharacter::*)()>(&GlobalNamespace::BTSCharacter::get_animator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Animator* (GlobalNamespace::BTSCharacter::*)()>(&GlobalNamespace::BTSCharacter::get_animator)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacter*), "get_animator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -163,7 +163,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacter::get_headTransform
 // Il2CppName: get_headTransform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (GlobalNamespace::BTSCharacter::*)()>(&GlobalNamespace::BTSCharacter::get_headTransform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Transform* (GlobalNamespace::BTSCharacter::*)()>(&GlobalNamespace::BTSCharacter::get_headTransform)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacter*), "get_headTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -171,7 +171,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacter::SetAlternativeAnimationAndMaterial
 // Il2CppName: SetAlternativeAnimationAndMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSCharacter::*)(UnityEngine::AnimationClip*, bool)>(&GlobalNamespace::BTSCharacter::SetAlternativeAnimationAndMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSCharacter::*)(::UnityEngine::AnimationClip*, bool)>(&GlobalNamespace::BTSCharacter::SetAlternativeAnimationAndMaterial)> {
   static const MethodInfo* get() {
     static auto* animation = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationClip")->byval_arg;
     static auto* alternativeMaterialOn = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

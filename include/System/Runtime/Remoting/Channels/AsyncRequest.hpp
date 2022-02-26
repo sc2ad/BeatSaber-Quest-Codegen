@@ -25,8 +25,8 @@ namespace System::Runtime::Remoting::Channels {
   class AsyncRequest;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Remoting::Channels::AsyncRequest);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::AsyncRequest*, "System.Runtime.Remoting.Channels", "AsyncRequest");
+NEED_NO_BOX(::System::Runtime::Remoting::Channels::AsyncRequest);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Channels::AsyncRequest*, "System.Runtime.Remoting.Channels", "AsyncRequest");
 // Type namespace: System.Runtime.Remoting.Channels
 namespace System::Runtime::Remoting::Channels {
   // Size: 0x20
@@ -47,30 +47,30 @@ namespace System::Runtime::Remoting::Channels {
     // System.Runtime.Remoting.Messaging.IMessageSink ReplySink
     // Size: 0x8
     // Offset: 0x10
-    System::Runtime::Remoting::Messaging::IMessageSink* ReplySink;
+    ::System::Runtime::Remoting::Messaging::IMessageSink* ReplySink;
     // Field size check
-    static_assert(sizeof(System::Runtime::Remoting::Messaging::IMessageSink*) == 0x8);
+    static_assert(sizeof(::System::Runtime::Remoting::Messaging::IMessageSink*) == 0x8);
     // System.Runtime.Remoting.Messaging.IMessage MsgRequest
     // Size: 0x8
     // Offset: 0x18
-    System::Runtime::Remoting::Messaging::IMessage* MsgRequest;
+    ::System::Runtime::Remoting::Messaging::IMessage* MsgRequest;
     // Field size check
-    static_assert(sizeof(System::Runtime::Remoting::Messaging::IMessage*) == 0x8);
+    static_assert(sizeof(::System::Runtime::Remoting::Messaging::IMessage*) == 0x8);
     public:
     // Get instance field reference: System.Runtime.Remoting.Messaging.IMessageSink ReplySink
-    System::Runtime::Remoting::Messaging::IMessageSink*& dyn_ReplySink();
+    ::System::Runtime::Remoting::Messaging::IMessageSink*& dyn_ReplySink();
     // Get instance field reference: System.Runtime.Remoting.Messaging.IMessage MsgRequest
-    System::Runtime::Remoting::Messaging::IMessage*& dyn_MsgRequest();
+    ::System::Runtime::Remoting::Messaging::IMessage*& dyn_MsgRequest();
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IMessage msgRequest, System.Runtime.Remoting.Messaging.IMessageSink replySink)
     // Offset: 0x1B76DC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AsyncRequest* New_ctor(System::Runtime::Remoting::Messaging::IMessage* msgRequest, System::Runtime::Remoting::Messaging::IMessageSink* replySink) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Channels::AsyncRequest::.ctor");
+    static AsyncRequest* New_ctor(::System::Runtime::Remoting::Messaging::IMessage* msgRequest, ::System::Runtime::Remoting::Messaging::IMessageSink* replySink) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::Channels::AsyncRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsyncRequest*, creationType>(msgRequest, replySink)));
     }
   }; // System.Runtime.Remoting.Channels.AsyncRequest
   #pragma pack(pop)
-  static check_size<sizeof(AsyncRequest), 24 + sizeof(System::Runtime::Remoting::Messaging::IMessage*)> __System_Runtime_Remoting_Channels_AsyncRequestSizeCheck;
+  static check_size<sizeof(AsyncRequest), 24 + sizeof(::System::Runtime::Remoting::Messaging::IMessage*)> __System_Runtime_Remoting_Channels_AsyncRequestSizeCheck;
   static_assert(sizeof(AsyncRequest) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

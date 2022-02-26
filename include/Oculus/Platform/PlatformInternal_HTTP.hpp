@@ -18,8 +18,8 @@ namespace Oculus::Platform::Models {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::PlatformInternal::HTTP);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::PlatformInternal::HTTP*, "Oculus.Platform", "PlatformInternal/HTTP");
+NEED_NO_BOX(::Oculus::Platform::PlatformInternal::HTTP);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::PlatformInternal::HTTP*, "Oculus.Platform", "PlatformInternal/HTTP");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x10
@@ -30,7 +30,7 @@ namespace Oculus::Platform {
     public:
     // static public System.Void SetHttpTransferUpdateCallback(Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.HttpTransferUpdate> callback)
     // Offset: 0x29FD518
-    static void SetHttpTransferUpdateCallback(typename Oculus::Platform::Message_1<Oculus::Platform::Models::HttpTransferUpdate*>::Callback* callback);
+    static void SetHttpTransferUpdateCallback(typename ::Oculus::Platform::Message_1<::Oculus::Platform::Models::HttpTransferUpdate*>::Callback* callback);
   }; // Oculus.Platform.PlatformInternal/Oculus.Platform.HTTP
   #pragma pack(pop)
 }

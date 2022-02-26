@@ -16,8 +16,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_PluginStorage::StoreData);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_PluginStorage::StoreData*, "HoudiniEngineUnity", "HEU_PluginStorage/StoreData");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_PluginStorage::StoreData);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_PluginStorage::StoreData*, "HoudiniEngineUnity", "HEU_PluginStorage/StoreData");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x20
@@ -38,9 +38,9 @@ namespace HoudiniEngineUnity {
     // public HoudiniEngineUnity.HEU_PluginStorage/HoudiniEngineUnity.DataType _type
     // Size: 0x4
     // Offset: 0x10
-    HoudiniEngineUnity::HEU_PluginStorage::DataType type;
+    ::HoudiniEngineUnity::HEU_PluginStorage::DataType type;
     // Field size check
-    static_assert(sizeof(HoudiniEngineUnity::HEU_PluginStorage::DataType) == 0x4);
+    static_assert(sizeof(::HoudiniEngineUnity::HEU_PluginStorage::DataType) == 0x4);
     // Padding between fields: type and: valueStr
     char __padding0[0x4] = {};
     // public System.String _valueStr
@@ -51,7 +51,7 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: public HoudiniEngineUnity.HEU_PluginStorage/HoudiniEngineUnity.DataType _type
-    HoudiniEngineUnity::HEU_PluginStorage::DataType& dyn__type();
+    ::HoudiniEngineUnity::HEU_PluginStorage::DataType& dyn__type();
     // Get instance field reference: public System.String _valueStr
     ::StringW& dyn__valueStr();
     // public System.Void .ctor()
@@ -60,7 +60,7 @@ namespace HoudiniEngineUnity {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_PluginStorage::StoreData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_PluginStorage::StoreData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_PluginStorage::StoreData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_PluginStorage::StoreData*, creationType>()));
     }
   }; // HoudiniEngineUnity.HEU_PluginStorage/HoudiniEngineUnity.StoreData

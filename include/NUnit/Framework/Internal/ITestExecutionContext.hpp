@@ -31,8 +31,8 @@ namespace NUnit::Framework::Internal {
   class ITestExecutionContext;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Internal::ITestExecutionContext);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::ITestExecutionContext*, "NUnit.Framework.Internal", "ITestExecutionContext");
+NEED_NO_BOX(::NUnit::Framework::Internal::ITestExecutionContext);
+DEFINE_IL2CPP_ARG_TYPE(::NUnit::Framework::Internal::ITestExecutionContext*, "NUnit.Framework.Internal", "ITestExecutionContext");
 // Type namespace: NUnit.Framework.Internal
 namespace NUnit::Framework::Internal {
   // Size: 0x10
@@ -43,13 +43,13 @@ namespace NUnit::Framework::Internal {
     public:
     // public NUnit.Framework.Internal.TestResult get_CurrentResult()
     // Offset: 0xFFFFFFFF
-    NUnit::Framework::Internal::TestResult* get_CurrentResult();
+    ::NUnit::Framework::Internal::TestResult* get_CurrentResult();
     // public System.Void set_CurrentResult(NUnit.Framework.Internal.TestResult value)
     // Offset: 0xFFFFFFFF
-    void set_CurrentResult(NUnit::Framework::Internal::TestResult* value);
+    void set_CurrentResult(::NUnit::Framework::Internal::TestResult* value);
     // public System.IO.TextWriter get_OutWriter()
     // Offset: 0xFFFFFFFF
-    System::IO::TextWriter* get_OutWriter();
+    ::System::IO::TextWriter* get_OutWriter();
     // public System.Object get_TestObject()
     // Offset: 0xFFFFFFFF
     ::Il2CppObject* get_TestObject();
@@ -61,7 +61,7 @@ namespace NUnit::Framework::Internal {
     int get_TestCaseTimeout();
     // public NUnit.Framework.Constraints.ValueFormatter get_CurrentValueFormatter()
     // Offset: 0xFFFFFFFF
-    NUnit::Framework::Constraints::ValueFormatter* get_CurrentValueFormatter();
+    ::NUnit::Framework::Constraints::ValueFormatter* get_CurrentValueFormatter();
     // public System.Void IncrementAssertCount()
     // Offset: 0xFFFFFFFF
     void IncrementAssertCount();
@@ -72,7 +72,7 @@ namespace NUnit::Framework::Internal {
 // Writing MetadataGetter for method: NUnit::Framework::Internal::ITestExecutionContext::get_CurrentResult
 // Il2CppName: get_CurrentResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestResult* (NUnit::Framework::Internal::ITestExecutionContext::*)()>(&NUnit::Framework::Internal::ITestExecutionContext::get_CurrentResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Framework::Internal::TestResult* (NUnit::Framework::Internal::ITestExecutionContext::*)()>(&NUnit::Framework::Internal::ITestExecutionContext::get_CurrentResult)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::ITestExecutionContext*), "get_CurrentResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -80,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Writing MetadataGetter for method: NUnit::Framework::Internal::ITestExecutionContext::set_CurrentResult
 // Il2CppName: set_CurrentResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::ITestExecutionContext::*)(NUnit::Framework::Internal::TestResult*)>(&NUnit::Framework::Internal::ITestExecutionContext::set_CurrentResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::ITestExecutionContext::*)(::NUnit::Framework::Internal::TestResult*)>(&NUnit::Framework::Internal::ITestExecutionContext::set_CurrentResult)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "TestResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::ITestExecutionContext*), "set_CurrentResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -89,7 +89,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Writing MetadataGetter for method: NUnit::Framework::Internal::ITestExecutionContext::get_OutWriter
 // Il2CppName: get_OutWriter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::TextWriter* (NUnit::Framework::Internal::ITestExecutionContext::*)()>(&NUnit::Framework::Internal::ITestExecutionContext::get_OutWriter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::TextWriter* (NUnit::Framework::Internal::ITestExecutionContext::*)()>(&NUnit::Framework::Internal::ITestExecutionContext::get_OutWriter)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::ITestExecutionContext*), "get_OutWriter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NUnit:
 // Writing MetadataGetter for method: NUnit::Framework::Internal::ITestExecutionContext::get_CurrentValueFormatter
 // Il2CppName: get_CurrentValueFormatter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::ValueFormatter* (NUnit::Framework::Internal::ITestExecutionContext::*)()>(&NUnit::Framework::Internal::ITestExecutionContext::get_CurrentValueFormatter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Framework::Constraints::ValueFormatter* (NUnit::Framework::Internal::ITestExecutionContext::*)()>(&NUnit::Framework::Internal::ITestExecutionContext::get_CurrentValueFormatter)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::ITestExecutionContext*), "get_CurrentValueFormatter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

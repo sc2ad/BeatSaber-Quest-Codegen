@@ -19,8 +19,8 @@ namespace UnityEngine::Bindings {
   class FreeFunctionAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Bindings::FreeFunctionAttribute);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::FreeFunctionAttribute*, "UnityEngine.Bindings", "FreeFunctionAttribute");
+NEED_NO_BOX(::UnityEngine::Bindings::FreeFunctionAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Bindings::FreeFunctionAttribute*, "UnityEngine.Bindings", "FreeFunctionAttribute");
 // Type namespace: UnityEngine.Bindings
 namespace UnityEngine::Bindings {
   // Size: 0x1C
@@ -29,7 +29,7 @@ namespace UnityEngine::Bindings {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AttributeUsageAttribute] Offset: 11A136C
   // [VisibleToOtherModulesAttribute] Offset: FFFFFFFF
-  class FreeFunctionAttribute : public UnityEngine::Bindings::NativeMethodAttribute {
+  class FreeFunctionAttribute : public ::UnityEngine::Bindings::NativeMethodAttribute {
     public:
     // public System.Void .ctor()
     // Offset: 0x2A56E48
@@ -39,7 +39,7 @@ namespace UnityEngine::Bindings {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FreeFunctionAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::FreeFunctionAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Bindings::FreeFunctionAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FreeFunctionAttribute*, creationType>()));
     }
     // public System.Void .ctor(System.String name)
@@ -48,7 +48,7 @@ namespace UnityEngine::Bindings {
     // Base method: System.Void NativeMethodAttribute::.ctor(System.String name)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FreeFunctionAttribute* New_ctor(::StringW name) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::FreeFunctionAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Bindings::FreeFunctionAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FreeFunctionAttribute*, creationType>(name)));
     }
     // public System.Void .ctor(System.String name, System.Boolean isThreadSafe)
@@ -57,7 +57,7 @@ namespace UnityEngine::Bindings {
     // Base method: System.Void NativeMethodAttribute::.ctor(System.String name, System.Boolean isThreadSafe)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FreeFunctionAttribute* New_ctor(::StringW name, bool isThreadSafe) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::FreeFunctionAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Bindings::FreeFunctionAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FreeFunctionAttribute*, creationType>(name, isThreadSafe)));
     }
   }; // UnityEngine.Bindings.FreeFunctionAttribute

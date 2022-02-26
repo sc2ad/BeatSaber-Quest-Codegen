@@ -15,8 +15,8 @@ namespace Org::BouncyCastle::Utilities {
   class Strings;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Utilities::Strings);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Strings*, "Org.BouncyCastle.Utilities", "Strings");
+NEED_NO_BOX(::Org::BouncyCastle::Utilities::Strings);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Strings*, "Org.BouncyCastle.Utilities", "Strings");
 // Type namespace: Org.BouncyCastle.Utilities
 namespace Org::BouncyCastle::Utilities {
   // Size: 0x10

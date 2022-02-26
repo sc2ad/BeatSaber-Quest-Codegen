@@ -23,8 +23,8 @@ namespace GlobalNamespace {
   class PlayerSaveDataConvertor;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PlayerSaveDataConvertor);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveDataConvertor*, "", "PlayerSaveDataConvertor");
+NEED_NO_BOX(::GlobalNamespace::PlayerSaveDataConvertor);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlayerSaveDataConvertor*, "", "PlayerSaveDataConvertor");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -36,16 +36,16 @@ namespace GlobalNamespace {
     public:
     // static public EnvironmentEffectsFilterPreset GetRuntimeData(PlayerSaveData/PlayerSpecificSettings/EnvironmentEffectsFilterPresetSaveData saveData)
     // Offset: 0x13E10C0
-    static GlobalNamespace::EnvironmentEffectsFilterPreset GetRuntimeData(GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::EnvironmentEffectsFilterPresetSaveData saveData);
+    static ::GlobalNamespace::EnvironmentEffectsFilterPreset GetRuntimeData(::GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::EnvironmentEffectsFilterPresetSaveData saveData);
     // static public PlayerSaveData/PlayerSpecificSettings/EnvironmentEffectsFilterPresetSaveData GetSaveData(EnvironmentEffectsFilterPreset data)
     // Offset: 0x13DF690
-    static GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::EnvironmentEffectsFilterPresetSaveData GetSaveData(GlobalNamespace::EnvironmentEffectsFilterPreset data);
+    static ::GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::EnvironmentEffectsFilterPresetSaveData GetSaveData(::GlobalNamespace::EnvironmentEffectsFilterPreset data);
     // static public NoteJumpDurationTypeSettings GetRuntimeData(PlayerSaveData/PlayerSpecificSettings/NoteJumpDurationTypeSettingsSaveData saveData)
     // Offset: 0x13E10B4
-    static GlobalNamespace::NoteJumpDurationTypeSettings GetRuntimeData(GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::NoteJumpDurationTypeSettingsSaveData saveData);
+    static ::GlobalNamespace::NoteJumpDurationTypeSettings GetRuntimeData(::GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::NoteJumpDurationTypeSettingsSaveData saveData);
     // static public PlayerSaveData/PlayerSpecificSettings/NoteJumpDurationTypeSettingsSaveData GetSaveData(NoteJumpDurationTypeSettings data)
     // Offset: 0x13DF684
-    static GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::NoteJumpDurationTypeSettingsSaveData GetSaveData(GlobalNamespace::NoteJumpDurationTypeSettings data);
+    static ::GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::NoteJumpDurationTypeSettingsSaveData GetSaveData(::GlobalNamespace::NoteJumpDurationTypeSettings data);
   }; // PlayerSaveDataConvertor
   #pragma pack(pop)
 }
@@ -53,7 +53,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSaveDataConvertor::GetRuntimeData
 // Il2CppName: GetRuntimeData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EnvironmentEffectsFilterPreset (*)(GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::EnvironmentEffectsFilterPresetSaveData)>(&GlobalNamespace::PlayerSaveDataConvertor::GetRuntimeData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::EnvironmentEffectsFilterPreset (*)(::GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::EnvironmentEffectsFilterPresetSaveData)>(&GlobalNamespace::PlayerSaveDataConvertor::GetRuntimeData)> {
   static const MethodInfo* get() {
     static auto* saveData = &::il2cpp_utils::GetClassFromName("", "PlayerSaveData/PlayerSpecificSettings/EnvironmentEffectsFilterPresetSaveData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSaveDataConvertor*), "GetRuntimeData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{saveData});
@@ -62,7 +62,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSaveDataConvertor::GetSaveData
 // Il2CppName: GetSaveData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::EnvironmentEffectsFilterPresetSaveData (*)(GlobalNamespace::EnvironmentEffectsFilterPreset)>(&GlobalNamespace::PlayerSaveDataConvertor::GetSaveData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::EnvironmentEffectsFilterPresetSaveData (*)(::GlobalNamespace::EnvironmentEffectsFilterPreset)>(&GlobalNamespace::PlayerSaveDataConvertor::GetSaveData)> {
   static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("", "EnvironmentEffectsFilterPreset")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSaveDataConvertor*), "GetSaveData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});
@@ -71,7 +71,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSaveDataConvertor::GetRuntimeData
 // Il2CppName: GetRuntimeData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteJumpDurationTypeSettings (*)(GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::NoteJumpDurationTypeSettingsSaveData)>(&GlobalNamespace::PlayerSaveDataConvertor::GetRuntimeData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NoteJumpDurationTypeSettings (*)(::GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::NoteJumpDurationTypeSettingsSaveData)>(&GlobalNamespace::PlayerSaveDataConvertor::GetRuntimeData)> {
   static const MethodInfo* get() {
     static auto* saveData = &::il2cpp_utils::GetClassFromName("", "PlayerSaveData/PlayerSpecificSettings/NoteJumpDurationTypeSettingsSaveData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSaveDataConvertor*), "GetRuntimeData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{saveData});
@@ -80,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSaveDataConvertor::GetSaveData
 // Il2CppName: GetSaveData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::NoteJumpDurationTypeSettingsSaveData (*)(GlobalNamespace::NoteJumpDurationTypeSettings)>(&GlobalNamespace::PlayerSaveDataConvertor::GetSaveData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::NoteJumpDurationTypeSettingsSaveData (*)(::GlobalNamespace::NoteJumpDurationTypeSettings)>(&GlobalNamespace::PlayerSaveDataConvertor::GetSaveData)> {
   static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("", "NoteJumpDurationTypeSettings")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSaveDataConvertor*), "GetSaveData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});

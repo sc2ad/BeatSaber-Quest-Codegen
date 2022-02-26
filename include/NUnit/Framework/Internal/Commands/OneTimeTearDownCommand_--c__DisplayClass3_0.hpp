@@ -20,8 +20,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Internal::Commands::OneTimeTearDownCommand::$$c__DisplayClass3_0);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::OneTimeTearDownCommand::$$c__DisplayClass3_0*, "NUnit.Framework.Internal.Commands", "OneTimeTearDownCommand/<>c__DisplayClass3_0");
+NEED_NO_BOX(::NUnit::Framework::Internal::Commands::OneTimeTearDownCommand::$$c__DisplayClass3_0);
+DEFINE_IL2CPP_ARG_TYPE(::NUnit::Framework::Internal::Commands::OneTimeTearDownCommand::$$c__DisplayClass3_0*, "NUnit.Framework.Internal.Commands", "OneTimeTearDownCommand/<>c__DisplayClass3_0");
 // Type namespace: NUnit.Framework.Internal.Commands
 namespace NUnit::Framework::Internal::Commands {
   // Size: 0x18
@@ -43,16 +43,16 @@ namespace NUnit::Framework::Internal::Commands {
     // public System.IDisposable disposable
     // Size: 0x8
     // Offset: 0x10
-    System::IDisposable* disposable;
+    ::System::IDisposable* disposable;
     // Field size check
-    static_assert(sizeof(System::IDisposable*) == 0x8);
+    static_assert(sizeof(::System::IDisposable*) == 0x8);
     public:
-    // Creating conversion operator: operator System::IDisposable*
-    constexpr operator System::IDisposable*() const noexcept {
+    // Creating conversion operator: operator ::System::IDisposable*
+    constexpr operator ::System::IDisposable*() const noexcept {
       return disposable;
     }
     // Get instance field reference: public System.IDisposable disposable
-    System::IDisposable*& dyn_disposable();
+    ::System::IDisposable*& dyn_disposable();
     // System.Object <Execute>b__0()
     // Offset: 0x1B61818
     ::Il2CppObject* $Execute$b__0();
@@ -62,12 +62,12 @@ namespace NUnit::Framework::Internal::Commands {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OneTimeTearDownCommand::$$c__DisplayClass3_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Commands::OneTimeTearDownCommand::$$c__DisplayClass3_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::Commands::OneTimeTearDownCommand::$$c__DisplayClass3_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OneTimeTearDownCommand::$$c__DisplayClass3_0*, creationType>()));
     }
   }; // NUnit.Framework.Internal.Commands.OneTimeTearDownCommand/NUnit.Framework.Internal.Commands.<>c__DisplayClass3_0
   #pragma pack(pop)
-  static check_size<sizeof(OneTimeTearDownCommand::$$c__DisplayClass3_0), 16 + sizeof(System::IDisposable*)> __NUnit_Framework_Internal_Commands_OneTimeTearDownCommand_$$c__DisplayClass3_0SizeCheck;
+  static check_size<sizeof(OneTimeTearDownCommand::$$c__DisplayClass3_0), 16 + sizeof(::System::IDisposable*)> __NUnit_Framework_Internal_Commands_OneTimeTearDownCommand_$$c__DisplayClass3_0SizeCheck;
   static_assert(sizeof(OneTimeTearDownCommand::$$c__DisplayClass3_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

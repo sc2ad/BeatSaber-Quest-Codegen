@@ -31,8 +31,8 @@ namespace System::Xml::Schema {
   class AxisStack;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Schema::AxisStack);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::AxisStack*, "System.Xml.Schema", "AxisStack");
+NEED_NO_BOX(::System::Xml::Schema::AxisStack);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::AxisStack*, "System.Xml.Schema", "AxisStack");
 // Type namespace: System.Xml.Schema
 namespace System::Xml::Schema {
   // Size: 0x28
@@ -53,39 +53,39 @@ namespace System::Xml::Schema {
     // private System.Collections.ArrayList stack
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::ArrayList* stack;
+    ::System::Collections::ArrayList* stack;
     // Field size check
-    static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
+    static_assert(sizeof(::System::Collections::ArrayList*) == 0x8);
     // private System.Xml.Schema.ForwardAxis subtree
     // Size: 0x8
     // Offset: 0x18
-    System::Xml::Schema::ForwardAxis* subtree;
+    ::System::Xml::Schema::ForwardAxis* subtree;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::ForwardAxis*) == 0x8);
+    static_assert(sizeof(::System::Xml::Schema::ForwardAxis*) == 0x8);
     // private System.Xml.Schema.ActiveAxis parent
     // Size: 0x8
     // Offset: 0x20
-    System::Xml::Schema::ActiveAxis* parent;
+    ::System::Xml::Schema::ActiveAxis* parent;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::ActiveAxis*) == 0x8);
+    static_assert(sizeof(::System::Xml::Schema::ActiveAxis*) == 0x8);
     public:
     // Get instance field reference: private System.Collections.ArrayList stack
-    System::Collections::ArrayList*& dyn_stack();
+    ::System::Collections::ArrayList*& dyn_stack();
     // Get instance field reference: private System.Xml.Schema.ForwardAxis subtree
-    System::Xml::Schema::ForwardAxis*& dyn_subtree();
+    ::System::Xml::Schema::ForwardAxis*& dyn_subtree();
     // Get instance field reference: private System.Xml.Schema.ActiveAxis parent
-    System::Xml::Schema::ActiveAxis*& dyn_parent();
+    ::System::Xml::Schema::ActiveAxis*& dyn_parent();
     // System.Xml.Schema.ForwardAxis get_Subtree()
     // Offset: 0x16F3528
-    System::Xml::Schema::ForwardAxis* get_Subtree();
+    ::System::Xml::Schema::ForwardAxis* get_Subtree();
     // System.Int32 get_Length()
     // Offset: 0x16F3530
     int get_Length();
     // public System.Void .ctor(System.Xml.Schema.ForwardAxis faxis, System.Xml.Schema.ActiveAxis parent)
     // Offset: 0x16F0C14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AxisStack* New_ctor(System::Xml::Schema::ForwardAxis* faxis, System::Xml::Schema::ActiveAxis* parent) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Schema::AxisStack::.ctor");
+    static AxisStack* New_ctor(::System::Xml::Schema::ForwardAxis* faxis, ::System::Xml::Schema::ActiveAxis* parent) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::AxisStack::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AxisStack*, creationType>(faxis, parent)));
     }
     // System.Void Push(System.Int32 depth)
@@ -108,14 +108,14 @@ namespace System::Xml::Schema {
     bool MoveToAttribute(::StringW name, ::StringW URN, int depth);
   }; // System.Xml.Schema.AxisStack
   #pragma pack(pop)
-  static check_size<sizeof(AxisStack), 32 + sizeof(System::Xml::Schema::ActiveAxis*)> __System_Xml_Schema_AxisStackSizeCheck;
+  static check_size<sizeof(AxisStack), 32 + sizeof(::System::Xml::Schema::ActiveAxis*)> __System_Xml_Schema_AxisStackSizeCheck;
   static_assert(sizeof(AxisStack) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::Schema::AxisStack::get_Subtree
 // Il2CppName: get_Subtree
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Schema::ForwardAxis* (System::Xml::Schema::AxisStack::*)()>(&System::Xml::Schema::AxisStack::get_Subtree)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::ForwardAxis* (System::Xml::Schema::AxisStack::*)()>(&System::Xml::Schema::AxisStack::get_Subtree)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::AxisStack*), "get_Subtree", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

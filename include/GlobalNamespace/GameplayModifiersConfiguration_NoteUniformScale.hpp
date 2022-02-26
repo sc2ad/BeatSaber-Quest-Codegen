@@ -11,8 +11,8 @@
 #include "System/Single.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::GameplayModifiersConfiguration::NoteUniformScale);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiersConfiguration::NoteUniformScale*, "", "GameplayModifiersConfiguration/NoteUniformScale");
+NEED_NO_BOX(::GlobalNamespace::GameplayModifiersConfiguration::NoteUniformScale);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameplayModifiersConfiguration::NoteUniformScale*, "", "GameplayModifiersConfiguration/NoteUniformScale");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10

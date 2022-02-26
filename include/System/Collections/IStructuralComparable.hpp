@@ -21,8 +21,8 @@ namespace System::Collections {
   class IStructuralComparable;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Collections::IStructuralComparable);
-DEFINE_IL2CPP_ARG_TYPE(System::Collections::IStructuralComparable*, "System.Collections", "IStructuralComparable");
+NEED_NO_BOX(::System::Collections::IStructuralComparable);
+DEFINE_IL2CPP_ARG_TYPE(::System::Collections::IStructuralComparable*, "System.Collections", "IStructuralComparable");
 // Type namespace: System.Collections
 namespace System::Collections {
   // Size: 0x10
@@ -33,7 +33,7 @@ namespace System::Collections {
     public:
     // public System.Int32 CompareTo(System.Object other, System.Collections.IComparer comparer)
     // Offset: 0xFFFFFFFF
-    int CompareTo(::Il2CppObject* other, System::Collections::IComparer* comparer);
+    int CompareTo(::Il2CppObject* other, ::System::Collections::IComparer* comparer);
   }; // System.Collections.IStructuralComparable
   #pragma pack(pop)
 }
@@ -41,7 +41,7 @@ namespace System::Collections {
 // Writing MetadataGetter for method: System::Collections::IStructuralComparable::CompareTo
 // Il2CppName: CompareTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::IStructuralComparable::*)(::Il2CppObject*, System::Collections::IComparer*)>(&System::Collections::IStructuralComparable::CompareTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::IStructuralComparable::*)(::Il2CppObject*, ::System::Collections::IComparer*)>(&System::Collections::IStructuralComparable::CompareTo)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* comparer = &::il2cpp_utils::GetClassFromName("System.Collections", "IComparer")->byval_arg;

@@ -20,8 +20,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::Sockets::Socket::$$c__DisplayClass242_0);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::Socket::$$c__DisplayClass242_0*, "System.Net.Sockets", "Socket/<>c__DisplayClass242_0");
+NEED_NO_BOX(::System::Net::Sockets::Socket::$$c__DisplayClass242_0);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::Sockets::Socket::$$c__DisplayClass242_0*, "System.Net.Sockets", "Socket/<>c__DisplayClass242_0");
 // Type namespace: System.Net.Sockets
 namespace System::Net::Sockets {
   // Size: 0x14
@@ -55,14 +55,14 @@ namespace System::Net::Sockets {
     int& dyn_sent_so_far();
     // System.Void <BeginSendCallback>b__0(System.IOAsyncResult s)
     // Offset: 0x1CB1650
-    void $BeginSendCallback$b__0(System::IOAsyncResult* s);
+    void $BeginSendCallback$b__0(::System::IOAsyncResult* s);
     // public System.Void .ctor()
     // Offset: 0x1CAE5E8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Socket::$$c__DisplayClass242_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Sockets::Socket::$$c__DisplayClass242_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Sockets::Socket::$$c__DisplayClass242_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Socket::$$c__DisplayClass242_0*, creationType>()));
     }
   }; // System.Net.Sockets.Socket/System.Net.Sockets.<>c__DisplayClass242_0
@@ -74,7 +74,7 @@ namespace System::Net::Sockets {
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::$$c__DisplayClass242_0::$BeginSendCallback$b__0
 // Il2CppName: <BeginSendCallback>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::$$c__DisplayClass242_0::*)(System::IOAsyncResult*)>(&System::Net::Sockets::Socket::$$c__DisplayClass242_0::$BeginSendCallback$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::$$c__DisplayClass242_0::*)(::System::IOAsyncResult*)>(&System::Net::Sockets::Socket::$$c__DisplayClass242_0::$BeginSendCallback$b__0)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "IOAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket::$$c__DisplayClass242_0*), "<BeginSendCallback>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});

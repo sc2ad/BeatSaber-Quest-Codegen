@@ -67,8 +67,8 @@ namespace UnityEngine::ProBuilder {
   class SelectionPickerRenderer;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::SelectionPickerRenderer);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SelectionPickerRenderer*, "UnityEngine.ProBuilder", "SelectionPickerRenderer");
+NEED_NO_BOX(::UnityEngine::ProBuilder::SelectionPickerRenderer);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::SelectionPickerRenderer*, "UnityEngine.ProBuilder", "SelectionPickerRenderer");
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
   // Size: 0x10
@@ -77,15 +77,15 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   class SelectionPickerRenderer : public ::Il2CppObject {
     public:
-    // Nested type: UnityEngine::ProBuilder::SelectionPickerRenderer::ISelectionPickerRenderer
+    // Nested type: ::UnityEngine::ProBuilder::SelectionPickerRenderer::ISelectionPickerRenderer
     class ISelectionPickerRenderer;
-    // Nested type: UnityEngine::ProBuilder::SelectionPickerRenderer::SelectionPickerRendererHDRP
+    // Nested type: ::UnityEngine::ProBuilder::SelectionPickerRenderer::SelectionPickerRendererHDRP
     class SelectionPickerRendererHDRP;
-    // Nested type: UnityEngine::ProBuilder::SelectionPickerRenderer::SelectionPickerRendererStandard
+    // Nested type: ::UnityEngine::ProBuilder::SelectionPickerRenderer::SelectionPickerRendererStandard
     class SelectionPickerRendererStandard;
-    // Nested type: UnityEngine::ProBuilder::SelectionPickerRenderer::$$c__DisplayClass19_0
+    // Nested type: ::UnityEngine::ProBuilder::SelectionPickerRenderer::$$c__DisplayClass19_0
     class $$c__DisplayClass19_0;
-    // Nested type: UnityEngine::ProBuilder::SelectionPickerRenderer::$$c
+    // Nested type: ::UnityEngine::ProBuilder::SelectionPickerRenderer::$$c
     class $$c;
     // static field const value: static private System.String k_FacePickerOcclusionTintUniform
     static constexpr const char* k_FacePickerOcclusionTintUniform = "_Tint";
@@ -94,13 +94,13 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static private System.String k_FacePickerOcclusionTintUniform
     static void _set_k_FacePickerOcclusionTintUniform(::StringW value);
     // Get static field: static private readonly UnityEngine.Color k_Blackf
-    static UnityEngine::Color _get_k_Blackf();
+    static ::UnityEngine::Color _get_k_Blackf();
     // Set static field: static private readonly UnityEngine.Color k_Blackf
-    static void _set_k_Blackf(UnityEngine::Color value);
+    static void _set_k_Blackf(::UnityEngine::Color value);
     // Get static field: static private readonly UnityEngine.Color k_Whitef
-    static UnityEngine::Color _get_k_Whitef();
+    static ::UnityEngine::Color _get_k_Whitef();
     // Set static field: static private readonly UnityEngine.Color k_Whitef
-    static void _set_k_Whitef(UnityEngine::Color value);
+    static void _set_k_Whitef(::UnityEngine::Color value);
     // static field const value: static private System.UInt32 k_PickerHashNone
     static constexpr const uint k_PickerHashNone = 0u;
     // Get static field: static private System.UInt32 k_PickerHashNone
@@ -130,68 +130,68 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static private System.Boolean s_Initialized
     static void _set_s_Initialized(bool value);
     // Get static field: static private UnityEngine.ProBuilder.SelectionPickerRenderer/UnityEngine.ProBuilder.ISelectionPickerRenderer s_PickerRenderer
-    static UnityEngine::ProBuilder::SelectionPickerRenderer::ISelectionPickerRenderer* _get_s_PickerRenderer();
+    static ::UnityEngine::ProBuilder::SelectionPickerRenderer::ISelectionPickerRenderer* _get_s_PickerRenderer();
     // Set static field: static private UnityEngine.ProBuilder.SelectionPickerRenderer/UnityEngine.ProBuilder.ISelectionPickerRenderer s_PickerRenderer
-    static void _set_s_PickerRenderer(UnityEngine::ProBuilder::SelectionPickerRenderer::ISelectionPickerRenderer* value);
+    static void _set_s_PickerRenderer(::UnityEngine::ProBuilder::SelectionPickerRenderer::ISelectionPickerRenderer* value);
     // Get static field: static private UnityEngine.RenderTextureFormat s_RenderTextureFormat
-    static UnityEngine::RenderTextureFormat _get_s_RenderTextureFormat();
+    static ::UnityEngine::RenderTextureFormat _get_s_RenderTextureFormat();
     // Set static field: static private UnityEngine.RenderTextureFormat s_RenderTextureFormat
-    static void _set_s_RenderTextureFormat(UnityEngine::RenderTextureFormat value);
+    static void _set_s_RenderTextureFormat(::UnityEngine::RenderTextureFormat value);
     // Get static field: static private UnityEngine.RenderTextureFormat[] s_PreferredFormats
-    static ::ArrayW<UnityEngine::RenderTextureFormat> _get_s_PreferredFormats();
+    static ::ArrayW<::UnityEngine::RenderTextureFormat> _get_s_PreferredFormats();
     // Set static field: static private UnityEngine.RenderTextureFormat[] s_PreferredFormats
-    static void _set_s_PreferredFormats(::ArrayW<UnityEngine::RenderTextureFormat> value);
+    static void _set_s_PreferredFormats(::ArrayW<::UnityEngine::RenderTextureFormat> value);
     // static private UnityEngine.RenderTextureFormat get_renderTextureFormat()
     // Offset: 0x19194C8
-    static UnityEngine::RenderTextureFormat get_renderTextureFormat();
+    static ::UnityEngine::RenderTextureFormat get_renderTextureFormat();
     // static private UnityEngine.TextureFormat get_textureFormat()
     // Offset: 0x1919668
-    static UnityEngine::TextureFormat get_textureFormat();
+    static ::UnityEngine::TextureFormat get_textureFormat();
     // static private UnityEngine.ProBuilder.SelectionPickerRenderer/UnityEngine.ProBuilder.ISelectionPickerRenderer get_pickerRenderer()
     // Offset: 0x1919670
-    static UnityEngine::ProBuilder::SelectionPickerRenderer::ISelectionPickerRenderer* get_pickerRenderer();
+    static ::UnityEngine::ProBuilder::SelectionPickerRenderer::ISelectionPickerRenderer* get_pickerRenderer();
     // static private System.Void .cctor()
     // Offset: 0x191BC38
     static void _cctor();
     // static public System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face>> PickFacesInRect(UnityEngine.Camera camera, UnityEngine.Rect pickerRect, System.Collections.Generic.IList`1<UnityEngine.ProBuilder.ProBuilderMesh> selection, System.Int32 renderTextureWidth, System.Int32 renderTextureHeight)
     // Offset: 0x1918244
-    static System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>*>* PickFacesInRect(UnityEngine::Camera* camera, UnityEngine::Rect pickerRect, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::ProBuilderMesh*>* selection, int renderTextureWidth, int renderTextureHeight);
+    static ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*>* PickFacesInRect(::UnityEngine::Camera* camera, ::UnityEngine::Rect pickerRect, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* selection, int renderTextureWidth, int renderTextureHeight);
     // static public System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.HashSet`1<System.Int32>> PickVerticesInRect(UnityEngine.Camera camera, UnityEngine.Rect pickerRect, System.Collections.Generic.IList`1<UnityEngine.ProBuilder.ProBuilderMesh> selection, System.Boolean doDepthTest, System.Int32 renderTextureWidth, System.Int32 renderTextureHeight)
     // Offset: 0x191699C
-    static System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::HashSet_1<int>*>* PickVerticesInRect(UnityEngine::Camera* camera, UnityEngine::Rect pickerRect, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::ProBuilderMesh*>* selection, bool doDepthTest, int renderTextureWidth, int renderTextureHeight);
+    static ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::HashSet_1<int>*>* PickVerticesInRect(::UnityEngine::Camera* camera, ::UnityEngine::Rect pickerRect, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* selection, bool doDepthTest, int renderTextureWidth, int renderTextureHeight);
     // static public System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.ProBuilderMesh,System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Edge>> PickEdgesInRect(UnityEngine.Camera camera, UnityEngine.Rect pickerRect, System.Collections.Generic.IList`1<UnityEngine.ProBuilder.ProBuilderMesh> selection, System.Boolean doDepthTest, System.Int32 renderTextureWidth, System.Int32 renderTextureHeight)
     // Offset: 0x1918E88
-    static System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Edge>*>* PickEdgesInRect(UnityEngine::Camera* camera, UnityEngine::Rect pickerRect, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::ProBuilderMesh*>* selection, bool doDepthTest, int renderTextureWidth, int renderTextureHeight);
+    static ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Edge>*>* PickEdgesInRect(::UnityEngine::Camera* camera, ::UnityEngine::Rect pickerRect, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* selection, bool doDepthTest, int renderTextureWidth, int renderTextureHeight);
     // static UnityEngine.Texture2D RenderSelectionPickerTexture(UnityEngine.Camera camera, System.Collections.Generic.IList`1<UnityEngine.ProBuilder.ProBuilderMesh> selection, out System.Collections.Generic.Dictionary`2<System.UInt32,UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face>> map, System.Int32 width, System.Int32 height)
     // Offset: 0x1919768
-    static UnityEngine::Texture2D* RenderSelectionPickerTexture(UnityEngine::Camera* camera, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::ProBuilderMesh*>* selection, ByRef<System::Collections::Generic::Dictionary_2<uint, UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::ProBuilder::Face*>>*> map, int width, int height);
+    static ::UnityEngine::Texture2D* RenderSelectionPickerTexture(::UnityEngine::Camera* camera, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* selection, ByRef<::System::Collections::Generic::Dictionary_2<uint, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Face*>>*> map, int width, int height);
     // static UnityEngine.Texture2D RenderSelectionPickerTexture(UnityEngine.Camera camera, System.Collections.Generic.IList`1<UnityEngine.ProBuilder.ProBuilderMesh> selection, System.Boolean doDepthTest, out System.Collections.Generic.Dictionary`2<System.UInt32,UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.ProBuilderMesh,System.Int32>> map, System.Int32 width, System.Int32 height)
     // Offset: 0x1919A3C
-    static UnityEngine::Texture2D* RenderSelectionPickerTexture(UnityEngine::Camera* camera, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::ProBuilderMesh*>* selection, bool doDepthTest, ByRef<System::Collections::Generic::Dictionary_2<uint, UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::ProBuilderMesh*, int>>*> map, int width, int height);
+    static ::UnityEngine::Texture2D* RenderSelectionPickerTexture(::UnityEngine::Camera* camera, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* selection, bool doDepthTest, ByRef<::System::Collections::Generic::Dictionary_2<uint, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, int>>*> map, int width, int height);
     // static UnityEngine.Texture2D RenderSelectionPickerTexture(UnityEngine.Camera camera, System.Collections.Generic.IList`1<UnityEngine.ProBuilder.ProBuilderMesh> selection, System.Boolean doDepthTest, out System.Collections.Generic.Dictionary`2<System.UInt32,UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Edge>> map, System.Int32 width, System.Int32 height)
     // Offset: 0x1919D28
-    static UnityEngine::Texture2D* RenderSelectionPickerTexture(UnityEngine::Camera* camera, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::ProBuilderMesh*>* selection, bool doDepthTest, ByRef<System::Collections::Generic::Dictionary_2<uint, UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::ProBuilder::Edge>>*> map, int width, int height);
+    static ::UnityEngine::Texture2D* RenderSelectionPickerTexture(::UnityEngine::Camera* camera, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* selection, bool doDepthTest, ByRef<::System::Collections::Generic::Dictionary_2<uint, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge>>*> map, int width, int height);
     // static private UnityEngine.GameObject[] GenerateFacePickingObjects(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.ProBuilderMesh> selection, out System.Collections.Generic.Dictionary`2<System.UInt32,UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Face>> map)
     // Offset: 0x191A00C
-    static ::ArrayW<UnityEngine::GameObject*> GenerateFacePickingObjects(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::ProBuilderMesh*>* selection, ByRef<System::Collections::Generic::Dictionary_2<uint, UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::ProBuilder::Face*>>*> map);
+    static ::ArrayW<::UnityEngine::GameObject*> GenerateFacePickingObjects(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* selection, ByRef<::System::Collections::Generic::Dictionary_2<uint, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Face*>>*> map);
     // static private System.Void GenerateVertexPickingObjects(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.ProBuilderMesh> selection, System.Boolean doDepthTest, out System.Collections.Generic.Dictionary`2<System.UInt32,UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.ProBuilderMesh,System.Int32>> map, out UnityEngine.GameObject[] depthObjects, out UnityEngine.GameObject[] pickerObjects)
     // Offset: 0x191A578
-    static void GenerateVertexPickingObjects(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::ProBuilderMesh*>* selection, bool doDepthTest, ByRef<System::Collections::Generic::Dictionary_2<uint, UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::ProBuilderMesh*, int>>*> map, ByRef<::ArrayW<UnityEngine::GameObject*>> depthObjects, ByRef<::ArrayW<UnityEngine::GameObject*>> pickerObjects);
+    static void GenerateVertexPickingObjects(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* selection, bool doDepthTest, ByRef<::System::Collections::Generic::Dictionary_2<uint, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, int>>*> map, ByRef<::ArrayW<::UnityEngine::GameObject*>> depthObjects, ByRef<::ArrayW<::UnityEngine::GameObject*>> pickerObjects);
     // static private System.Void GenerateEdgePickingObjects(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.ProBuilderMesh> selection, System.Boolean doDepthTest, out System.Collections.Generic.Dictionary`2<System.UInt32,UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Edge>> map, out UnityEngine.GameObject[] depthObjects, out UnityEngine.GameObject[] pickerObjects)
     // Offset: 0x191AA60
-    static void GenerateEdgePickingObjects(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::ProBuilderMesh*>* selection, bool doDepthTest, ByRef<System::Collections::Generic::Dictionary_2<uint, UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::ProBuilder::Edge>>*> map, ByRef<::ArrayW<UnityEngine::GameObject*>> depthObjects, ByRef<::ArrayW<UnityEngine::GameObject*>> pickerObjects);
+    static void GenerateEdgePickingObjects(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* selection, bool doDepthTest, ByRef<::System::Collections::Generic::Dictionary_2<uint, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge>>*> map, ByRef<::ArrayW<::UnityEngine::GameObject*>> depthObjects, ByRef<::ArrayW<::UnityEngine::GameObject*>> pickerObjects);
     // static private UnityEngine.Mesh BuildVertexMesh(UnityEngine.ProBuilder.ProBuilderMesh pb, System.Collections.Generic.Dictionary`2<System.UInt32,UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.ProBuilderMesh,System.Int32>> map, ref System.UInt32 index)
     // Offset: 0x191AFFC
-    static UnityEngine::Mesh* BuildVertexMesh(UnityEngine::ProBuilder::ProBuilderMesh* pb, System::Collections::Generic::Dictionary_2<uint, UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::ProBuilderMesh*, int>>* map, ByRef<uint> index);
+    static ::UnityEngine::Mesh* BuildVertexMesh(::UnityEngine::ProBuilder::ProBuilderMesh* pb, ::System::Collections::Generic::Dictionary_2<uint, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, int>>* map, ByRef<uint> index);
     // static private UnityEngine.Mesh BuildEdgeMesh(UnityEngine.ProBuilder.ProBuilderMesh pb, System.Collections.Generic.Dictionary`2<System.UInt32,UnityEngine.ProBuilder.SimpleTuple`2<UnityEngine.ProBuilder.ProBuilderMesh,UnityEngine.ProBuilder.Edge>> map, ref System.UInt32 index)
     // Offset: 0x191B7A4
-    static UnityEngine::Mesh* BuildEdgeMesh(UnityEngine::ProBuilder::ProBuilderMesh* pb, System::Collections::Generic::Dictionary_2<uint, UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::ProBuilder::Edge>>* map, ByRef<uint> index);
+    static ::UnityEngine::Mesh* BuildEdgeMesh(::UnityEngine::ProBuilder::ProBuilderMesh* pb, ::System::Collections::Generic::Dictionary_2<uint, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge>>* map, ByRef<uint> index);
     // static public System.UInt32 DecodeRGBA(UnityEngine.Color32 color)
     // Offset: 0x19199A4
-    static uint DecodeRGBA(UnityEngine::Color32 color);
+    static uint DecodeRGBA(::UnityEngine::Color32 color);
     // static public UnityEngine.Color32 EncodeRGBA(System.UInt32 hash)
     // Offset: 0x191AF48
-    static UnityEngine::Color32 EncodeRGBA(uint hash);
+    static ::UnityEngine::Color32 EncodeRGBA(uint hash);
     // static private System.Boolean ShouldUseHDRP()
     // Offset: 0x1919750
     static bool ShouldUseHDRP();
@@ -202,7 +202,7 @@ namespace UnityEngine::ProBuilder {
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SelectionPickerRenderer::get_renderTextureFormat
 // Il2CppName: get_renderTextureFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderTextureFormat (*)()>(&UnityEngine::ProBuilder::SelectionPickerRenderer::get_renderTextureFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RenderTextureFormat (*)()>(&UnityEngine::ProBuilder::SelectionPickerRenderer::get_renderTextureFormat)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SelectionPickerRenderer*), "get_renderTextureFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -210,7 +210,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SelectionPickerRenderer::get_textureFormat
 // Il2CppName: get_textureFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextureFormat (*)()>(&UnityEngine::ProBuilder::SelectionPickerRenderer::get_textureFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextureFormat (*)()>(&UnityEngine::ProBuilder::SelectionPickerRenderer::get_textureFormat)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SelectionPickerRenderer*), "get_textureFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -218,7 +218,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SelectionPickerRenderer::get_pickerRenderer
 // Il2CppName: get_pickerRenderer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::SelectionPickerRenderer::ISelectionPickerRenderer* (*)()>(&UnityEngine::ProBuilder::SelectionPickerRenderer::get_pickerRenderer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::SelectionPickerRenderer::ISelectionPickerRenderer* (*)()>(&UnityEngine::ProBuilder::SelectionPickerRenderer::get_pickerRenderer)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SelectionPickerRenderer*), "get_pickerRenderer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -234,7 +234,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SelectionPickerRenderer::PickFacesInRect
 // Il2CppName: PickFacesInRect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>*>* (*)(UnityEngine::Camera*, UnityEngine::Rect, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::ProBuilderMesh*>*, int, int)>(&UnityEngine::ProBuilder::SelectionPickerRenderer::PickFacesInRect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*>* (*)(::UnityEngine::Camera*, ::UnityEngine::Rect, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*, int, int)>(&UnityEngine::ProBuilder::SelectionPickerRenderer::PickFacesInRect)> {
   static const MethodInfo* get() {
     static auto* camera = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
     static auto* pickerRect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
@@ -247,7 +247,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SelectionPickerRenderer::PickVerticesInRect
 // Il2CppName: PickVerticesInRect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::HashSet_1<int>*>* (*)(UnityEngine::Camera*, UnityEngine::Rect, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::ProBuilderMesh*>*, bool, int, int)>(&UnityEngine::ProBuilder::SelectionPickerRenderer::PickVerticesInRect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::HashSet_1<int>*>* (*)(::UnityEngine::Camera*, ::UnityEngine::Rect, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*, bool, int, int)>(&UnityEngine::ProBuilder::SelectionPickerRenderer::PickVerticesInRect)> {
   static const MethodInfo* get() {
     static auto* camera = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
     static auto* pickerRect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
@@ -261,7 +261,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SelectionPickerRenderer::PickEdgesInRect
 // Il2CppName: PickEdgesInRect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Edge>*>* (*)(UnityEngine::Camera*, UnityEngine::Rect, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::ProBuilderMesh*>*, bool, int, int)>(&UnityEngine::ProBuilder::SelectionPickerRenderer::PickEdgesInRect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Edge>*>* (*)(::UnityEngine::Camera*, ::UnityEngine::Rect, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*, bool, int, int)>(&UnityEngine::ProBuilder::SelectionPickerRenderer::PickEdgesInRect)> {
   static const MethodInfo* get() {
     static auto* camera = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
     static auto* pickerRect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
@@ -275,7 +275,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SelectionPickerRenderer::RenderSelectionPickerTexture
 // Il2CppName: RenderSelectionPickerTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (*)(UnityEngine::Camera*, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::ProBuilderMesh*>*, ByRef<System::Collections::Generic::Dictionary_2<uint, UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::ProBuilder::Face*>>*>, int, int)>(&UnityEngine::ProBuilder::SelectionPickerRenderer::RenderSelectionPickerTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Texture2D* (*)(::UnityEngine::Camera*, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*, ByRef<::System::Collections::Generic::Dictionary_2<uint, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Face*>>*>, int, int)>(&UnityEngine::ProBuilder::SelectionPickerRenderer::RenderSelectionPickerTexture)> {
   static const MethodInfo* get() {
     static auto* camera = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
     static auto* selection = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")})->byval_arg;
@@ -288,7 +288,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SelectionPickerRenderer::RenderSelectionPickerTexture
 // Il2CppName: RenderSelectionPickerTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (*)(UnityEngine::Camera*, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::ProBuilderMesh*>*, bool, ByRef<System::Collections::Generic::Dictionary_2<uint, UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::ProBuilderMesh*, int>>*>, int, int)>(&UnityEngine::ProBuilder::SelectionPickerRenderer::RenderSelectionPickerTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Texture2D* (*)(::UnityEngine::Camera*, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*, bool, ByRef<::System::Collections::Generic::Dictionary_2<uint, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, int>>*>, int, int)>(&UnityEngine::ProBuilder::SelectionPickerRenderer::RenderSelectionPickerTexture)> {
   static const MethodInfo* get() {
     static auto* camera = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
     static auto* selection = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")})->byval_arg;
@@ -302,7 +302,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SelectionPickerRenderer::RenderSelectionPickerTexture
 // Il2CppName: RenderSelectionPickerTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (*)(UnityEngine::Camera*, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::ProBuilderMesh*>*, bool, ByRef<System::Collections::Generic::Dictionary_2<uint, UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::ProBuilder::Edge>>*>, int, int)>(&UnityEngine::ProBuilder::SelectionPickerRenderer::RenderSelectionPickerTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Texture2D* (*)(::UnityEngine::Camera*, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*, bool, ByRef<::System::Collections::Generic::Dictionary_2<uint, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge>>*>, int, int)>(&UnityEngine::ProBuilder::SelectionPickerRenderer::RenderSelectionPickerTexture)> {
   static const MethodInfo* get() {
     static auto* camera = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
     static auto* selection = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")})->byval_arg;
@@ -316,7 +316,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SelectionPickerRenderer::GenerateFacePickingObjects
 // Il2CppName: GenerateFacePickingObjects
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::GameObject*> (*)(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::ProBuilderMesh*>*, ByRef<System::Collections::Generic::Dictionary_2<uint, UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::ProBuilder::Face*>>*>)>(&UnityEngine::ProBuilder::SelectionPickerRenderer::GenerateFacePickingObjects)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::GameObject*> (*)(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*, ByRef<::System::Collections::Generic::Dictionary_2<uint, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Face*>>*>)>(&UnityEngine::ProBuilder::SelectionPickerRenderer::GenerateFacePickingObjects)> {
   static const MethodInfo* get() {
     static auto* selection = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")})->byval_arg;
     static auto* map = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "Dictionary`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "UInt32"), ::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "SimpleTuple`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh"), ::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face")})})->this_arg;
@@ -326,7 +326,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SelectionPickerRenderer::GenerateVertexPickingObjects
 // Il2CppName: GenerateVertexPickingObjects
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::ProBuilderMesh*>*, bool, ByRef<System::Collections::Generic::Dictionary_2<uint, UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::ProBuilderMesh*, int>>*>, ByRef<::ArrayW<UnityEngine::GameObject*>>, ByRef<::ArrayW<UnityEngine::GameObject*>>)>(&UnityEngine::ProBuilder::SelectionPickerRenderer::GenerateVertexPickingObjects)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*, bool, ByRef<::System::Collections::Generic::Dictionary_2<uint, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, int>>*>, ByRef<::ArrayW<::UnityEngine::GameObject*>>, ByRef<::ArrayW<::UnityEngine::GameObject*>>)>(&UnityEngine::ProBuilder::SelectionPickerRenderer::GenerateVertexPickingObjects)> {
   static const MethodInfo* get() {
     static auto* selection = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")})->byval_arg;
     static auto* doDepthTest = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -339,7 +339,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SelectionPickerRenderer::GenerateEdgePickingObjects
 // Il2CppName: GenerateEdgePickingObjects
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::ProBuilderMesh*>*, bool, ByRef<System::Collections::Generic::Dictionary_2<uint, UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::ProBuilder::Edge>>*>, ByRef<::ArrayW<UnityEngine::GameObject*>>, ByRef<::ArrayW<UnityEngine::GameObject*>>)>(&UnityEngine::ProBuilder::SelectionPickerRenderer::GenerateEdgePickingObjects)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*, bool, ByRef<::System::Collections::Generic::Dictionary_2<uint, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge>>*>, ByRef<::ArrayW<::UnityEngine::GameObject*>>, ByRef<::ArrayW<::UnityEngine::GameObject*>>)>(&UnityEngine::ProBuilder::SelectionPickerRenderer::GenerateEdgePickingObjects)> {
   static const MethodInfo* get() {
     static auto* selection = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")})->byval_arg;
     static auto* doDepthTest = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -352,7 +352,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SelectionPickerRenderer::BuildVertexMesh
 // Il2CppName: BuildVertexMesh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Mesh* (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::Dictionary_2<uint, UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::ProBuilderMesh*, int>>*, ByRef<uint>)>(&UnityEngine::ProBuilder::SelectionPickerRenderer::BuildVertexMesh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Mesh* (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::Dictionary_2<uint, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, int>>*, ByRef<uint>)>(&UnityEngine::ProBuilder::SelectionPickerRenderer::BuildVertexMesh)> {
   static const MethodInfo* get() {
     static auto* pb = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* map = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "Dictionary`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "UInt32"), ::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "SimpleTuple`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh"), ::il2cpp_utils::GetClassFromName("System", "Int32")})})->byval_arg;
@@ -363,7 +363,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SelectionPickerRenderer::BuildEdgeMesh
 // Il2CppName: BuildEdgeMesh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Mesh* (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::Dictionary_2<uint, UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::ProBuilder::Edge>>*, ByRef<uint>)>(&UnityEngine::ProBuilder::SelectionPickerRenderer::BuildEdgeMesh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Mesh* (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::Dictionary_2<uint, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge>>*, ByRef<uint>)>(&UnityEngine::ProBuilder::SelectionPickerRenderer::BuildEdgeMesh)> {
   static const MethodInfo* get() {
     static auto* pb = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* map = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "Dictionary`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "UInt32"), ::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "SimpleTuple`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh"), ::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Edge")})})->byval_arg;
@@ -374,7 +374,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SelectionPickerRenderer::DecodeRGBA
 // Il2CppName: DecodeRGBA
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(UnityEngine::Color32)>(&UnityEngine::ProBuilder::SelectionPickerRenderer::DecodeRGBA)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::UnityEngine::Color32)>(&UnityEngine::ProBuilder::SelectionPickerRenderer::DecodeRGBA)> {
   static const MethodInfo* get() {
     static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SelectionPickerRenderer*), "DecodeRGBA", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{color});
@@ -383,7 +383,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SelectionPickerRenderer::EncodeRGBA
 // Il2CppName: EncodeRGBA
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color32 (*)(uint)>(&UnityEngine::ProBuilder::SelectionPickerRenderer::EncodeRGBA)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color32 (*)(uint)>(&UnityEngine::ProBuilder::SelectionPickerRenderer::EncodeRGBA)> {
   static const MethodInfo* get() {
     static auto* hash = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SelectionPickerRenderer*), "EncodeRGBA", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hash});

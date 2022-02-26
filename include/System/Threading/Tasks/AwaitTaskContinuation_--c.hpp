@@ -20,8 +20,8 @@ namespace System::Threading {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Threading::Tasks::AwaitTaskContinuation::$$c);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::AwaitTaskContinuation::$$c*, "System.Threading.Tasks", "AwaitTaskContinuation/<>c");
+NEED_NO_BOX(::System::Threading::Tasks::AwaitTaskContinuation::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Tasks::AwaitTaskContinuation::$$c*, "System.Threading.Tasks", "AwaitTaskContinuation/<>c");
 // Type namespace: System.Threading.Tasks
 namespace System::Threading::Tasks {
   // Size: 0x10
@@ -32,13 +32,13 @@ namespace System::Threading::Tasks {
   class AwaitTaskContinuation::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly System.Threading.Tasks.AwaitTaskContinuation/System.Threading.Tasks.<>c <>9
-    static System::Threading::Tasks::AwaitTaskContinuation::$$c* _get_$$9();
+    static ::System::Threading::Tasks::AwaitTaskContinuation::$$c* _get_$$9();
     // Set static field: static public readonly System.Threading.Tasks.AwaitTaskContinuation/System.Threading.Tasks.<>c <>9
-    static void _set_$$9(System::Threading::Tasks::AwaitTaskContinuation::$$c* value);
+    static void _set_$$9(::System::Threading::Tasks::AwaitTaskContinuation::$$c* value);
     // Get static field: static public System.Threading.WaitCallback <>9__17_0
-    static System::Threading::WaitCallback* _get_$$9__17_0();
+    static ::System::Threading::WaitCallback* _get_$$9__17_0();
     // Set static field: static public System.Threading.WaitCallback <>9__17_0
-    static void _set_$$9__17_0(System::Threading::WaitCallback* value);
+    static void _set_$$9__17_0(::System::Threading::WaitCallback* value);
     // static private System.Void .cctor()
     // Offset: 0x1C350C0
     static void _cctor();
@@ -51,7 +51,7 @@ namespace System::Threading::Tasks {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AwaitTaskContinuation::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::AwaitTaskContinuation::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::Tasks::AwaitTaskContinuation::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AwaitTaskContinuation::$$c*, creationType>()));
     }
   }; // System.Threading.Tasks.AwaitTaskContinuation/System.Threading.Tasks.<>c

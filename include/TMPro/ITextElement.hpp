@@ -23,8 +23,8 @@ namespace TMPro {
   class ITextElement;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(TMPro::ITextElement);
-DEFINE_IL2CPP_ARG_TYPE(TMPro::ITextElement*, "TMPro", "ITextElement");
+NEED_NO_BOX(::TMPro::ITextElement);
+DEFINE_IL2CPP_ARG_TYPE(::TMPro::ITextElement*, "TMPro", "ITextElement");
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0x10
@@ -35,10 +35,10 @@ namespace TMPro {
     public:
     // public UnityEngine.Material get_sharedMaterial()
     // Offset: 0xFFFFFFFF
-    UnityEngine::Material* get_sharedMaterial();
+    ::UnityEngine::Material* get_sharedMaterial();
     // public System.Void Rebuild(UnityEngine.UI.CanvasUpdate update)
     // Offset: 0xFFFFFFFF
-    void Rebuild(UnityEngine::UI::CanvasUpdate update);
+    void Rebuild(::UnityEngine::UI::CanvasUpdate update);
     // public System.Int32 GetInstanceID()
     // Offset: 0xFFFFFFFF
     int GetInstanceID();
@@ -49,7 +49,7 @@ namespace TMPro {
 // Writing MetadataGetter for method: TMPro::ITextElement::get_sharedMaterial
 // Il2CppName: get_sharedMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMPro::ITextElement::*)()>(&TMPro::ITextElement::get_sharedMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Material* (TMPro::ITextElement::*)()>(&TMPro::ITextElement::get_sharedMaterial)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::ITextElement*), "get_sharedMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -57,7 +57,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: TMPro::ITextElement::Rebuild
 // Il2CppName: Rebuild
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::ITextElement::*)(UnityEngine::UI::CanvasUpdate)>(&TMPro::ITextElement::Rebuild)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::ITextElement::*)(::UnityEngine::UI::CanvasUpdate)>(&TMPro::ITextElement::Rebuild)> {
   static const MethodInfo* get() {
     static auto* update = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "CanvasUpdate")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::ITextElement*), "Rebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{update});

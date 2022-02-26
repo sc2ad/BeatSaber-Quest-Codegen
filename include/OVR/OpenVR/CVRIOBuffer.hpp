@@ -30,8 +30,8 @@ namespace OVR::OpenVR {
   class CVRIOBuffer;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(OVR::OpenVR::CVRIOBuffer);
-DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRIOBuffer*, "OVR.OpenVR", "CVRIOBuffer");
+NEED_NO_BOX(::OVR::OpenVR::CVRIOBuffer);
+DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::CVRIOBuffer*, "OVR.OpenVR", "CVRIOBuffer");
 // Type namespace: OVR.OpenVR
 namespace OVR::OpenVR {
   // Size: 0x38
@@ -52,41 +52,41 @@ namespace OVR::OpenVR {
     // private OVR.OpenVR.IVRIOBuffer FnTable
     // Size: 0x28
     // Offset: 0x10
-    OVR::OpenVR::IVRIOBuffer FnTable;
+    ::OVR::OpenVR::IVRIOBuffer FnTable;
     // Field size check
-    static_assert(sizeof(OVR::OpenVR::IVRIOBuffer) == 0x28);
+    static_assert(sizeof(::OVR::OpenVR::IVRIOBuffer) == 0x28);
     public:
-    // Creating conversion operator: operator OVR::OpenVR::IVRIOBuffer
-    constexpr operator OVR::OpenVR::IVRIOBuffer() const noexcept {
+    // Creating conversion operator: operator ::OVR::OpenVR::IVRIOBuffer
+    constexpr operator ::OVR::OpenVR::IVRIOBuffer() const noexcept {
       return FnTable;
     }
     // Get instance field reference: private OVR.OpenVR.IVRIOBuffer FnTable
-    OVR::OpenVR::IVRIOBuffer& dyn_FnTable();
+    ::OVR::OpenVR::IVRIOBuffer& dyn_FnTable();
     // System.Void .ctor(System.IntPtr pInterface)
     // Offset: 0x1A0C49C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CVRIOBuffer* New_ctor(System::IntPtr pInterface) {
-      static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::CVRIOBuffer::.ctor");
+    static CVRIOBuffer* New_ctor(::System::IntPtr pInterface) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::OVR::OpenVR::CVRIOBuffer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRIOBuffer*, creationType>(pInterface)));
     }
     // public OVR.OpenVR.EIOBufferError Open(System.String pchPath, OVR.OpenVR.EIOBufferMode mode, System.UInt32 unElementSize, System.UInt32 unElements, ref System.UInt64 pulBuffer)
     // Offset: 0x1A0C5A4
-    OVR::OpenVR::EIOBufferError Open(::StringW pchPath, OVR::OpenVR::EIOBufferMode mode, uint unElementSize, uint unElements, ByRef<uint64_t> pulBuffer);
+    ::OVR::OpenVR::EIOBufferError Open(::StringW pchPath, ::OVR::OpenVR::EIOBufferMode mode, uint unElementSize, uint unElements, ByRef<uint64_t> pulBuffer);
     // public OVR.OpenVR.EIOBufferError Close(System.UInt64 ulBuffer)
     // Offset: 0x1A0C5C4
-    OVR::OpenVR::EIOBufferError Close(uint64_t ulBuffer);
+    ::OVR::OpenVR::EIOBufferError Close(uint64_t ulBuffer);
     // public OVR.OpenVR.EIOBufferError Read(System.UInt64 ulBuffer, System.IntPtr pDst, System.UInt32 unBytes, ref System.UInt32 punRead)
     // Offset: 0x1A0C5E0
-    OVR::OpenVR::EIOBufferError Read(uint64_t ulBuffer, System::IntPtr pDst, uint unBytes, ByRef<uint> punRead);
+    ::OVR::OpenVR::EIOBufferError Read(uint64_t ulBuffer, ::System::IntPtr pDst, uint unBytes, ByRef<uint> punRead);
     // public OVR.OpenVR.EIOBufferError Write(System.UInt64 ulBuffer, System.IntPtr pSrc, System.UInt32 unBytes)
     // Offset: 0x1A0C600
-    OVR::OpenVR::EIOBufferError Write(uint64_t ulBuffer, System::IntPtr pSrc, uint unBytes);
+    ::OVR::OpenVR::EIOBufferError Write(uint64_t ulBuffer, ::System::IntPtr pSrc, uint unBytes);
     // public System.UInt64 PropertyContainer(System.UInt64 ulBuffer)
     // Offset: 0x1A0C61C
     uint64_t PropertyContainer(uint64_t ulBuffer);
   }; // OVR.OpenVR.CVRIOBuffer
   #pragma pack(pop)
-  static check_size<sizeof(CVRIOBuffer), 16 + sizeof(OVR::OpenVR::IVRIOBuffer)> __OVR_OpenVR_CVRIOBufferSizeCheck;
+  static check_size<sizeof(CVRIOBuffer), 16 + sizeof(::OVR::OpenVR::IVRIOBuffer)> __OVR_OpenVR_CVRIOBufferSizeCheck;
   static_assert(sizeof(CVRIOBuffer) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -97,7 +97,7 @@ namespace OVR::OpenVR {
 // Writing MetadataGetter for method: OVR::OpenVR::CVRIOBuffer::Open
 // Il2CppName: Open
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EIOBufferError (OVR::OpenVR::CVRIOBuffer::*)(::StringW, OVR::OpenVR::EIOBufferMode, uint, uint, ByRef<uint64_t>)>(&OVR::OpenVR::CVRIOBuffer::Open)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EIOBufferError (OVR::OpenVR::CVRIOBuffer::*)(::StringW, ::OVR::OpenVR::EIOBufferMode, uint, uint, ByRef<uint64_t>)>(&OVR::OpenVR::CVRIOBuffer::Open)> {
   static const MethodInfo* get() {
     static auto* pchPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* mode = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EIOBufferMode")->byval_arg;
@@ -110,7 +110,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVRIOBuffer::Close
 // Il2CppName: Close
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EIOBufferError (OVR::OpenVR::CVRIOBuffer::*)(uint64_t)>(&OVR::OpenVR::CVRIOBuffer::Close)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EIOBufferError (OVR::OpenVR::CVRIOBuffer::*)(uint64_t)>(&OVR::OpenVR::CVRIOBuffer::Close)> {
   static const MethodInfo* get() {
     static auto* ulBuffer = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRIOBuffer*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ulBuffer});
@@ -119,7 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVRIOBuffer::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EIOBufferError (OVR::OpenVR::CVRIOBuffer::*)(uint64_t, System::IntPtr, uint, ByRef<uint>)>(&OVR::OpenVR::CVRIOBuffer::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EIOBufferError (OVR::OpenVR::CVRIOBuffer::*)(uint64_t, ::System::IntPtr, uint, ByRef<uint>)>(&OVR::OpenVR::CVRIOBuffer::Read)> {
   static const MethodInfo* get() {
     static auto* ulBuffer = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pDst = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -131,7 +131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVRIOBuffer::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EIOBufferError (OVR::OpenVR::CVRIOBuffer::*)(uint64_t, System::IntPtr, uint)>(&OVR::OpenVR::CVRIOBuffer::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EIOBufferError (OVR::OpenVR::CVRIOBuffer::*)(uint64_t, ::System::IntPtr, uint)>(&OVR::OpenVR::CVRIOBuffer::Write)> {
   static const MethodInfo* get() {
     static auto* ulBuffer = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pSrc = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;

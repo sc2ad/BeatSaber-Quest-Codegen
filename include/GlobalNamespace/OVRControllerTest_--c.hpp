@@ -15,8 +15,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRControllerTest::$$c);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRControllerTest::$$c*, "", "OVRControllerTest/<>c");
+NEED_NO_BOX(::GlobalNamespace::OVRControllerTest::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRControllerTest::$$c*, "", "OVRControllerTest/<>c");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -27,133 +27,133 @@ namespace GlobalNamespace {
   class OVRControllerTest::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly OVRControllerTest/<>c <>9
-    static GlobalNamespace::OVRControllerTest::$$c* _get_$$9();
+    static ::GlobalNamespace::OVRControllerTest::$$c* _get_$$9();
     // Set static field: static public readonly OVRControllerTest/<>c <>9
-    static void _set_$$9(GlobalNamespace::OVRControllerTest::$$c* value);
+    static void _set_$$9(::GlobalNamespace::OVRControllerTest::$$c* value);
     // Get static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_0
-    static GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_0();
+    static ::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_0();
     // Set static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_0
-    static void _set_$$9__4_0(GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
+    static void _set_$$9__4_0(::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
     // Get static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_1
-    static GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_1();
+    static ::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_1();
     // Set static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_1
-    static void _set_$$9__4_1(GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
+    static void _set_$$9__4_1(::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
     // Get static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_2
-    static GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_2();
+    static ::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_2();
     // Set static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_2
-    static void _set_$$9__4_2(GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
+    static void _set_$$9__4_2(::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
     // Get static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_3
-    static GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_3();
+    static ::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_3();
     // Set static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_3
-    static void _set_$$9__4_3(GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
+    static void _set_$$9__4_3(::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
     // Get static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_4
-    static GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_4();
+    static ::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_4();
     // Set static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_4
-    static void _set_$$9__4_4(GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
+    static void _set_$$9__4_4(::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
     // Get static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_5
-    static GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_5();
+    static ::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_5();
     // Set static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_5
-    static void _set_$$9__4_5(GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
+    static void _set_$$9__4_5(::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
     // Get static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_6
-    static GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_6();
+    static ::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_6();
     // Set static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_6
-    static void _set_$$9__4_6(GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
+    static void _set_$$9__4_6(::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
     // Get static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_7
-    static GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_7();
+    static ::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_7();
     // Set static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_7
-    static void _set_$$9__4_7(GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
+    static void _set_$$9__4_7(::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
     // Get static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_8
-    static GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_8();
+    static ::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_8();
     // Set static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_8
-    static void _set_$$9__4_8(GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
+    static void _set_$$9__4_8(::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
     // Get static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_9
-    static GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_9();
+    static ::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_9();
     // Set static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_9
-    static void _set_$$9__4_9(GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
+    static void _set_$$9__4_9(::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
     // Get static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_10
-    static GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_10();
+    static ::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_10();
     // Set static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_10
-    static void _set_$$9__4_10(GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
+    static void _set_$$9__4_10(::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
     // Get static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_11
-    static GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_11();
+    static ::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_11();
     // Set static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_11
-    static void _set_$$9__4_11(GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
+    static void _set_$$9__4_11(::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
     // Get static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_12
-    static GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_12();
+    static ::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_12();
     // Set static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_12
-    static void _set_$$9__4_12(GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
+    static void _set_$$9__4_12(::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
     // Get static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_13
-    static GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_13();
+    static ::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_13();
     // Set static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_13
-    static void _set_$$9__4_13(GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
+    static void _set_$$9__4_13(::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
     // Get static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_14
-    static GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_14();
+    static ::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_14();
     // Set static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_14
-    static void _set_$$9__4_14(GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
+    static void _set_$$9__4_14(::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
     // Get static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_15
-    static GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_15();
+    static ::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_15();
     // Set static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_15
-    static void _set_$$9__4_15(GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
+    static void _set_$$9__4_15(::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
     // Get static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_16
-    static GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_16();
+    static ::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_16();
     // Set static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_16
-    static void _set_$$9__4_16(GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
+    static void _set_$$9__4_16(::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
     // Get static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_17
-    static GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_17();
+    static ::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_17();
     // Set static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_17
-    static void _set_$$9__4_17(GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
+    static void _set_$$9__4_17(::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
     // Get static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_18
-    static GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_18();
+    static ::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_18();
     // Set static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_18
-    static void _set_$$9__4_18(GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
+    static void _set_$$9__4_18(::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
     // Get static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_19
-    static GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_19();
+    static ::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_19();
     // Set static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_19
-    static void _set_$$9__4_19(GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
+    static void _set_$$9__4_19(::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
     // Get static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_20
-    static GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_20();
+    static ::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_20();
     // Set static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_20
-    static void _set_$$9__4_20(GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
+    static void _set_$$9__4_20(::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
     // Get static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_21
-    static GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_21();
+    static ::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_21();
     // Set static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_21
-    static void _set_$$9__4_21(GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
+    static void _set_$$9__4_21(::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
     // Get static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_22
-    static GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_22();
+    static ::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_22();
     // Set static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_22
-    static void _set_$$9__4_22(GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
+    static void _set_$$9__4_22(::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
     // Get static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_23
-    static GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_23();
+    static ::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_23();
     // Set static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_23
-    static void _set_$$9__4_23(GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
+    static void _set_$$9__4_23(::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
     // Get static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_24
-    static GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_24();
+    static ::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_24();
     // Set static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_24
-    static void _set_$$9__4_24(GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
+    static void _set_$$9__4_24(::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
     // Get static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_25
-    static GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_25();
+    static ::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_25();
     // Set static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_25
-    static void _set_$$9__4_25(GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
+    static void _set_$$9__4_25(::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
     // Get static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_26
-    static GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_26();
+    static ::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_26();
     // Set static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_26
-    static void _set_$$9__4_26(GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
+    static void _set_$$9__4_26(::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
     // Get static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_27
-    static GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_27();
+    static ::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_27();
     // Set static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_27
-    static void _set_$$9__4_27(GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
+    static void _set_$$9__4_27(::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
     // Get static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_28
-    static GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_28();
+    static ::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_28();
     // Set static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_28
-    static void _set_$$9__4_28(GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
+    static void _set_$$9__4_28(::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
     // Get static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_29
-    static GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_29();
+    static ::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_29();
     // Set static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_29
-    static void _set_$$9__4_29(GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
+    static void _set_$$9__4_29(::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
     // Get static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_30
-    static GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_30();
+    static ::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* _get_$$9__4_30();
     // Set static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_30
-    static void _set_$$9__4_30(GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
+    static void _set_$$9__4_30(::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
     // static private System.Void .cctor()
     // Offset: 0x15A8250
     static void _cctor();
@@ -259,7 +259,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRControllerTest::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRControllerTest::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRControllerTest::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRControllerTest::$$c*, creationType>()));
     }
   }; // OVRControllerTest/<>c

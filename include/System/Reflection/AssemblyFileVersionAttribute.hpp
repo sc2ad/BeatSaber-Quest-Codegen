@@ -19,8 +19,8 @@ namespace System::Reflection {
   class AssemblyFileVersionAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Reflection::AssemblyFileVersionAttribute);
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyFileVersionAttribute*, "System.Reflection", "AssemblyFileVersionAttribute");
+NEED_NO_BOX(::System::Reflection::AssemblyFileVersionAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::AssemblyFileVersionAttribute*, "System.Reflection", "AssemblyFileVersionAttribute");
 // Type namespace: System.Reflection
 namespace System::Reflection {
   // Size: 0x18
@@ -29,7 +29,7 @@ namespace System::Reflection {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AttributeUsageAttribute] Offset: 1188040
   // [ComVisibleAttribute] Offset: 1188040
-  class AssemblyFileVersionAttribute : public System::Attribute {
+  class AssemblyFileVersionAttribute : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -57,7 +57,7 @@ namespace System::Reflection {
     // Offset: 0x2160A40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AssemblyFileVersionAttribute* New_ctor(::StringW version) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::AssemblyFileVersionAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Reflection::AssemblyFileVersionAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssemblyFileVersionAttribute*, creationType>(version)));
     }
   }; // System.Reflection.AssemblyFileVersionAttribute

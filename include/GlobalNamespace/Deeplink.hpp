@@ -17,8 +17,8 @@ namespace GlobalNamespace {
   class Deeplink;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::Deeplink);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Deeplink*, "", "Deeplink");
+NEED_NO_BOX(::GlobalNamespace::Deeplink);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::Deeplink*, "", "Deeplink");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x50
@@ -107,7 +107,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Deeplink* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::Deeplink::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::Deeplink::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Deeplink*, creationType>()));
     }
   }; // Deeplink

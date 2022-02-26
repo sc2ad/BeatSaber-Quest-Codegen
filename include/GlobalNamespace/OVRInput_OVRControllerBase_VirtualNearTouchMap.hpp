@@ -15,8 +15,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRInput::OVRControllerBase::VirtualNearTouchMap);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerBase::VirtualNearTouchMap*, "", "OVRInput/OVRControllerBase/VirtualNearTouchMap");
+NEED_NO_BOX(::GlobalNamespace::OVRInput::OVRControllerBase::VirtualNearTouchMap);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRInput::OVRControllerBase::VirtualNearTouchMap*, "", "OVRInput/OVRControllerBase/VirtualNearTouchMap");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x24
@@ -37,66 +37,66 @@ namespace GlobalNamespace {
     // public OVRInput/RawNearTouch None
     // Size: 0x4
     // Offset: 0x10
-    GlobalNamespace::OVRInput::RawNearTouch None;
+    ::GlobalNamespace::OVRInput::RawNearTouch None;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::OVRInput::RawNearTouch) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::OVRInput::RawNearTouch) == 0x4);
     // public OVRInput/RawNearTouch PrimaryIndexTrigger
     // Size: 0x4
     // Offset: 0x14
-    GlobalNamespace::OVRInput::RawNearTouch PrimaryIndexTrigger;
+    ::GlobalNamespace::OVRInput::RawNearTouch PrimaryIndexTrigger;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::OVRInput::RawNearTouch) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::OVRInput::RawNearTouch) == 0x4);
     // public OVRInput/RawNearTouch PrimaryThumbButtons
     // Size: 0x4
     // Offset: 0x18
-    GlobalNamespace::OVRInput::RawNearTouch PrimaryThumbButtons;
+    ::GlobalNamespace::OVRInput::RawNearTouch PrimaryThumbButtons;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::OVRInput::RawNearTouch) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::OVRInput::RawNearTouch) == 0x4);
     // public OVRInput/RawNearTouch SecondaryIndexTrigger
     // Size: 0x4
     // Offset: 0x1C
-    GlobalNamespace::OVRInput::RawNearTouch SecondaryIndexTrigger;
+    ::GlobalNamespace::OVRInput::RawNearTouch SecondaryIndexTrigger;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::OVRInput::RawNearTouch) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::OVRInput::RawNearTouch) == 0x4);
     // public OVRInput/RawNearTouch SecondaryThumbButtons
     // Size: 0x4
     // Offset: 0x20
-    GlobalNamespace::OVRInput::RawNearTouch SecondaryThumbButtons;
+    ::GlobalNamespace::OVRInput::RawNearTouch SecondaryThumbButtons;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::OVRInput::RawNearTouch) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::OVRInput::RawNearTouch) == 0x4);
     public:
     // Get instance field reference: public OVRInput/RawNearTouch None
-    GlobalNamespace::OVRInput::RawNearTouch& dyn_None();
+    ::GlobalNamespace::OVRInput::RawNearTouch& dyn_None();
     // Get instance field reference: public OVRInput/RawNearTouch PrimaryIndexTrigger
-    GlobalNamespace::OVRInput::RawNearTouch& dyn_PrimaryIndexTrigger();
+    ::GlobalNamespace::OVRInput::RawNearTouch& dyn_PrimaryIndexTrigger();
     // Get instance field reference: public OVRInput/RawNearTouch PrimaryThumbButtons
-    GlobalNamespace::OVRInput::RawNearTouch& dyn_PrimaryThumbButtons();
+    ::GlobalNamespace::OVRInput::RawNearTouch& dyn_PrimaryThumbButtons();
     // Get instance field reference: public OVRInput/RawNearTouch SecondaryIndexTrigger
-    GlobalNamespace::OVRInput::RawNearTouch& dyn_SecondaryIndexTrigger();
+    ::GlobalNamespace::OVRInput::RawNearTouch& dyn_SecondaryIndexTrigger();
     // Get instance field reference: public OVRInput/RawNearTouch SecondaryThumbButtons
-    GlobalNamespace::OVRInput::RawNearTouch& dyn_SecondaryThumbButtons();
+    ::GlobalNamespace::OVRInput::RawNearTouch& dyn_SecondaryThumbButtons();
     // public OVRInput/RawNearTouch ToRawMask(OVRInput/NearTouch virtualMask)
     // Offset: 0x197C828
-    GlobalNamespace::OVRInput::RawNearTouch ToRawMask(GlobalNamespace::OVRInput::NearTouch virtualMask);
+    ::GlobalNamespace::OVRInput::RawNearTouch ToRawMask(::GlobalNamespace::OVRInput::NearTouch virtualMask);
     // public System.Void .ctor()
     // Offset: 0x197BA8C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRInput::OVRControllerBase::VirtualNearTouchMap* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRInput::OVRControllerBase::VirtualNearTouchMap::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRInput::OVRControllerBase::VirtualNearTouchMap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRInput::OVRControllerBase::VirtualNearTouchMap*, creationType>()));
     }
   }; // OVRInput/OVRControllerBase/VirtualNearTouchMap
   #pragma pack(pop)
-  static check_size<sizeof(OVRInput::OVRControllerBase::VirtualNearTouchMap), 32 + sizeof(GlobalNamespace::OVRInput::RawNearTouch)> __GlobalNamespace_OVRInput_OVRControllerBase_VirtualNearTouchMapSizeCheck;
+  static check_size<sizeof(OVRInput::OVRControllerBase::VirtualNearTouchMap), 32 + sizeof(::GlobalNamespace::OVRInput::RawNearTouch)> __GlobalNamespace_OVRInput_OVRControllerBase_VirtualNearTouchMapSizeCheck;
   static_assert(sizeof(OVRInput::OVRControllerBase::VirtualNearTouchMap) == 0x24);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::OVRControllerBase::VirtualNearTouchMap::ToRawMask
 // Il2CppName: ToRawMask
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRInput::RawNearTouch (GlobalNamespace::OVRInput::OVRControllerBase::VirtualNearTouchMap::*)(GlobalNamespace::OVRInput::NearTouch)>(&GlobalNamespace::OVRInput::OVRControllerBase::VirtualNearTouchMap::ToRawMask)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRInput::RawNearTouch (GlobalNamespace::OVRInput::OVRControllerBase::VirtualNearTouchMap::*)(::GlobalNamespace::OVRInput::NearTouch)>(&GlobalNamespace::OVRInput::OVRControllerBase::VirtualNearTouchMap::ToRawMask)> {
   static const MethodInfo* get() {
     static auto* virtualMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/NearTouch")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput::OVRControllerBase::VirtualNearTouchMap*), "ToRawMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{virtualMask});

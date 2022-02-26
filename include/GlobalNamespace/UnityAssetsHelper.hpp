@@ -12,8 +12,8 @@ namespace GlobalNamespace {
   class UnityAssetsHelper;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::UnityAssetsHelper);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UnityAssetsHelper*, "", "UnityAssetsHelper");
+NEED_NO_BOX(::GlobalNamespace::UnityAssetsHelper);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::UnityAssetsHelper*, "", "UnityAssetsHelper");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10

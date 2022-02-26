@@ -33,8 +33,8 @@ namespace UnityEngine {
   class AnimatorOverrideController;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::AnimatorOverrideController);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimatorOverrideController*, "UnityEngine", "AnimatorOverrideController");
+NEED_NO_BOX(::UnityEngine::AnimatorOverrideController);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AnimatorOverrideController*, "UnityEngine", "AnimatorOverrideController");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x20
@@ -45,9 +45,9 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: 11BF654
   // [UsedByNativeCodeAttribute] Offset: 11BF654
   // [NativeHeaderAttribute] Offset: 11BF654
-  class AnimatorOverrideController : public UnityEngine::RuntimeAnimatorController {
+  class AnimatorOverrideController : public ::UnityEngine::RuntimeAnimatorController {
     public:
-    // Nested type: UnityEngine::AnimatorOverrideController::OnOverrideControllerDirtyCallback
+    // Nested type: ::UnityEngine::AnimatorOverrideController::OnOverrideControllerDirtyCallback
     class OnOverrideControllerDirtyCallback;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -61,39 +61,39 @@ namespace UnityEngine {
     // UnityEngine.AnimatorOverrideController/UnityEngine.OnOverrideControllerDirtyCallback OnOverrideControllerDirty
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::AnimatorOverrideController::OnOverrideControllerDirtyCallback* OnOverrideControllerDirty;
+    ::UnityEngine::AnimatorOverrideController::OnOverrideControllerDirtyCallback* OnOverrideControllerDirty;
     // Field size check
-    static_assert(sizeof(UnityEngine::AnimatorOverrideController::OnOverrideControllerDirtyCallback*) == 0x8);
+    static_assert(sizeof(::UnityEngine::AnimatorOverrideController::OnOverrideControllerDirtyCallback*) == 0x8);
     public:
-    // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const noexcept = delete;
+    // Deleting conversion operator: operator ::System::IntPtr
+    constexpr operator ::System::IntPtr() const noexcept = delete;
     // Get instance field reference: UnityEngine.AnimatorOverrideController/UnityEngine.OnOverrideControllerDirtyCallback OnOverrideControllerDirty
-    UnityEngine::AnimatorOverrideController::OnOverrideControllerDirtyCallback*& dyn_OnOverrideControllerDirty();
+    ::UnityEngine::AnimatorOverrideController::OnOverrideControllerDirtyCallback*& dyn_OnOverrideControllerDirty();
     // public System.Void .ctor(UnityEngine.RuntimeAnimatorController controller)
     // Offset: 0x29ACB20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AnimatorOverrideController* New_ctor(UnityEngine::RuntimeAnimatorController* controller) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AnimatorOverrideController::.ctor");
+    static AnimatorOverrideController* New_ctor(::UnityEngine::RuntimeAnimatorController* controller) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AnimatorOverrideController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnimatorOverrideController*, creationType>(controller)));
     }
     // static private System.Void Internal_Create(UnityEngine.AnimatorOverrideController self, UnityEngine.RuntimeAnimatorController controller)
     // Offset: 0x29ACBE4
-    static void Internal_Create(UnityEngine::AnimatorOverrideController* self, UnityEngine::RuntimeAnimatorController* controller);
+    static void Internal_Create(::UnityEngine::AnimatorOverrideController* self, ::UnityEngine::RuntimeAnimatorController* controller);
     // private System.Void SetClip(UnityEngine.AnimationClip originalClip, UnityEngine.AnimationClip overrideClip, System.Boolean notify)
     // Offset: 0x29ACC34
-    void SetClip(UnityEngine::AnimationClip* originalClip, UnityEngine::AnimationClip* overrideClip, bool notify);
+    void SetClip(::UnityEngine::AnimationClip* originalClip, ::UnityEngine::AnimationClip* overrideClip, bool notify);
     // private System.Void SendNotification()
     // Offset: 0x29ACC9C
     void SendNotification();
     // public System.Void ApplyOverrides(System.Collections.Generic.IList`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.AnimationClip,UnityEngine.AnimationClip>> overrides)
     // Offset: 0x29ACCDC
-    void ApplyOverrides(System::Collections::Generic::IList_1<System::Collections::Generic::KeyValuePair_2<UnityEngine::AnimationClip*, UnityEngine::AnimationClip*>>* overrides);
+    void ApplyOverrides(::System::Collections::Generic::IList_1<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::AnimationClip*, ::UnityEngine::AnimationClip*>>* overrides);
     // static System.Void OnInvalidateOverrideController(UnityEngine.AnimatorOverrideController controller)
     // Offset: 0x29ACF30
-    static void OnInvalidateOverrideController(UnityEngine::AnimatorOverrideController* controller);
+    static void OnInvalidateOverrideController(::UnityEngine::AnimatorOverrideController* controller);
   }; // UnityEngine.AnimatorOverrideController
   #pragma pack(pop)
-  static check_size<sizeof(AnimatorOverrideController), 24 + sizeof(UnityEngine::AnimatorOverrideController::OnOverrideControllerDirtyCallback*)> __UnityEngine_AnimatorOverrideControllerSizeCheck;
+  static check_size<sizeof(AnimatorOverrideController), 24 + sizeof(::UnityEngine::AnimatorOverrideController::OnOverrideControllerDirtyCallback*)> __UnityEngine_AnimatorOverrideControllerSizeCheck;
   static_assert(sizeof(AnimatorOverrideController) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -104,7 +104,7 @@ namespace UnityEngine {
 // Writing MetadataGetter for method: UnityEngine::AnimatorOverrideController::Internal_Create
 // Il2CppName: Internal_Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::AnimatorOverrideController*, UnityEngine::RuntimeAnimatorController*)>(&UnityEngine::AnimatorOverrideController::Internal_Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::AnimatorOverrideController*, ::UnityEngine::RuntimeAnimatorController*)>(&UnityEngine::AnimatorOverrideController::Internal_Create)> {
   static const MethodInfo* get() {
     static auto* self = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimatorOverrideController")->byval_arg;
     static auto* controller = &::il2cpp_utils::GetClassFromName("UnityEngine", "RuntimeAnimatorController")->byval_arg;
@@ -114,7 +114,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::AnimatorOverrideController::SetClip
 // Il2CppName: SetClip
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AnimatorOverrideController::*)(UnityEngine::AnimationClip*, UnityEngine::AnimationClip*, bool)>(&UnityEngine::AnimatorOverrideController::SetClip)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AnimatorOverrideController::*)(::UnityEngine::AnimationClip*, ::UnityEngine::AnimationClip*, bool)>(&UnityEngine::AnimatorOverrideController::SetClip)> {
   static const MethodInfo* get() {
     static auto* originalClip = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationClip")->byval_arg;
     static auto* overrideClip = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationClip")->byval_arg;
@@ -133,7 +133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AnimatorOverrideController::ApplyOverrides
 // Il2CppName: ApplyOverrides
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AnimatorOverrideController::*)(System::Collections::Generic::IList_1<System::Collections::Generic::KeyValuePair_2<UnityEngine::AnimationClip*, UnityEngine::AnimationClip*>>*)>(&UnityEngine::AnimatorOverrideController::ApplyOverrides)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AnimatorOverrideController::*)(::System::Collections::Generic::IList_1<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::AnimationClip*, ::UnityEngine::AnimationClip*>>*)>(&UnityEngine::AnimatorOverrideController::ApplyOverrides)> {
   static const MethodInfo* get() {
     static auto* overrides = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "KeyValuePair`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationClip"), ::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationClip")})})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimatorOverrideController*), "ApplyOverrides", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{overrides});
@@ -142,7 +142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AnimatorOverrideController::OnInvalidateOverrideController
 // Il2CppName: OnInvalidateOverrideController
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::AnimatorOverrideController*)>(&UnityEngine::AnimatorOverrideController::OnInvalidateOverrideController)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::AnimatorOverrideController*)>(&UnityEngine::AnimatorOverrideController::OnInvalidateOverrideController)> {
   static const MethodInfo* get() {
     static auto* controller = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimatorOverrideController")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimatorOverrideController*), "OnInvalidateOverrideController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{controller});

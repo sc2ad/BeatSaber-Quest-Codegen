@@ -21,8 +21,8 @@ namespace System::ComponentModel::Design {
   class IComponentChangeService;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::ComponentModel::Design::IComponentChangeService);
-DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::Design::IComponentChangeService*, "System.ComponentModel.Design", "IComponentChangeService");
+NEED_NO_BOX(::System::ComponentModel::Design::IComponentChangeService);
+DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::Design::IComponentChangeService*, "System.ComponentModel.Design", "IComponentChangeService");
 // Type namespace: System.ComponentModel.Design
 namespace System::ComponentModel::Design {
   // Size: 0x10
@@ -34,10 +34,10 @@ namespace System::ComponentModel::Design {
     public:
     // public System.Void OnComponentChanged(System.Object component, System.ComponentModel.MemberDescriptor member, System.Object oldValue, System.Object newValue)
     // Offset: 0xFFFFFFFF
-    void OnComponentChanged(::Il2CppObject* component, System::ComponentModel::MemberDescriptor* member, ::Il2CppObject* oldValue, ::Il2CppObject* newValue);
+    void OnComponentChanged(::Il2CppObject* component, ::System::ComponentModel::MemberDescriptor* member, ::Il2CppObject* oldValue, ::Il2CppObject* newValue);
     // public System.Void OnComponentChanging(System.Object component, System.ComponentModel.MemberDescriptor member)
     // Offset: 0xFFFFFFFF
-    void OnComponentChanging(::Il2CppObject* component, System::ComponentModel::MemberDescriptor* member);
+    void OnComponentChanging(::Il2CppObject* component, ::System::ComponentModel::MemberDescriptor* member);
   }; // System.ComponentModel.Design.IComponentChangeService
   #pragma pack(pop)
 }
@@ -45,7 +45,7 @@ namespace System::ComponentModel::Design {
 // Writing MetadataGetter for method: System::ComponentModel::Design::IComponentChangeService::OnComponentChanged
 // Il2CppName: OnComponentChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::ComponentModel::Design::IComponentChangeService::*)(::Il2CppObject*, System::ComponentModel::MemberDescriptor*, ::Il2CppObject*, ::Il2CppObject*)>(&System::ComponentModel::Design::IComponentChangeService::OnComponentChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::ComponentModel::Design::IComponentChangeService::*)(::Il2CppObject*, ::System::ComponentModel::MemberDescriptor*, ::Il2CppObject*, ::Il2CppObject*)>(&System::ComponentModel::Design::IComponentChangeService::OnComponentChanged)> {
   static const MethodInfo* get() {
     static auto* component = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* member = &::il2cpp_utils::GetClassFromName("System.ComponentModel", "MemberDescriptor")->byval_arg;
@@ -57,7 +57,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::ComponentModel::Design::IComponentChangeService::OnComponentChanging
 // Il2CppName: OnComponentChanging
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::ComponentModel::Design::IComponentChangeService::*)(::Il2CppObject*, System::ComponentModel::MemberDescriptor*)>(&System::ComponentModel::Design::IComponentChangeService::OnComponentChanging)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::ComponentModel::Design::IComponentChangeService::*)(::Il2CppObject*, ::System::ComponentModel::MemberDescriptor*)>(&System::ComponentModel::Design::IComponentChangeService::OnComponentChanging)> {
   static const MethodInfo* get() {
     static auto* component = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* member = &::il2cpp_utils::GetClassFromName("System.ComponentModel", "MemberDescriptor")->byval_arg;

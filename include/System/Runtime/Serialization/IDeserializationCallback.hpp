@@ -14,8 +14,8 @@ namespace System::Runtime::Serialization {
   class IDeserializationCallback;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Serialization::IDeserializationCallback);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::IDeserializationCallback*, "System.Runtime.Serialization", "IDeserializationCallback");
+NEED_NO_BOX(::System::Runtime::Serialization::IDeserializationCallback);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::IDeserializationCallback*, "System.Runtime.Serialization", "IDeserializationCallback");
 // Type namespace: System.Runtime.Serialization
 namespace System::Runtime::Serialization {
   // Size: 0x10

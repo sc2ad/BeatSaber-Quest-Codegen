@@ -29,8 +29,8 @@ namespace System::Net::NetworkInformation {
   class NetworkInterface;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::NetworkInformation::NetworkInterface);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::NetworkInterface*, "System.Net.NetworkInformation", "NetworkInterface");
+NEED_NO_BOX(::System::Net::NetworkInformation::NetworkInterface);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::NetworkInterface*, "System.Net.NetworkInformation", "NetworkInterface");
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {
   // Size: 0x10
@@ -44,23 +44,23 @@ namespace System::Net::NetworkInformation {
     ::StringW get_Name();
     // public System.Net.NetworkInformation.OperationalStatus get_OperationalStatus()
     // Offset: 0x17AB74C
-    System::Net::NetworkInformation::OperationalStatus get_OperationalStatus();
+    ::System::Net::NetworkInformation::OperationalStatus get_OperationalStatus();
     // public System.Net.NetworkInformation.NetworkInterfaceType get_NetworkInterfaceType()
     // Offset: 0x17AB7AC
-    System::Net::NetworkInformation::NetworkInterfaceType get_NetworkInterfaceType();
+    ::System::Net::NetworkInformation::NetworkInterfaceType get_NetworkInterfaceType();
     // static public System.Net.NetworkInformation.NetworkInterface[] GetAllNetworkInterfaces()
     // Offset: 0x17AB528
-    static ::ArrayW<System::Net::NetworkInformation::NetworkInterface*> GetAllNetworkInterfaces();
+    static ::ArrayW<::System::Net::NetworkInformation::NetworkInterface*> GetAllNetworkInterfaces();
     // public System.Net.NetworkInformation.IPInterfaceProperties GetIPProperties()
     // Offset: 0x17AB6EC
-    System::Net::NetworkInformation::IPInterfaceProperties* GetIPProperties();
+    ::System::Net::NetworkInformation::IPInterfaceProperties* GetIPProperties();
     // protected System.Void .ctor()
     // Offset: 0x17AB80C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetworkInterface* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::NetworkInterface::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::NetworkInformation::NetworkInterface::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetworkInterface*, creationType>()));
     }
   }; // System.Net.NetworkInformation.NetworkInterface
@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Net::NetworkInformation::NetworkInterface::get_OperationalStatus
 // Il2CppName: get_OperationalStatus
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::OperationalStatus (System::Net::NetworkInformation::NetworkInterface::*)()>(&System::Net::NetworkInformation::NetworkInterface::get_OperationalStatus)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::NetworkInformation::OperationalStatus (System::Net::NetworkInformation::NetworkInterface::*)()>(&System::Net::NetworkInformation::NetworkInterface::get_OperationalStatus)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::NetworkInterface*), "get_OperationalStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -86,7 +86,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Writing MetadataGetter for method: System::Net::NetworkInformation::NetworkInterface::get_NetworkInterfaceType
 // Il2CppName: get_NetworkInterfaceType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::NetworkInterfaceType (System::Net::NetworkInformation::NetworkInterface::*)()>(&System::Net::NetworkInformation::NetworkInterface::get_NetworkInterfaceType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::NetworkInformation::NetworkInterfaceType (System::Net::NetworkInformation::NetworkInterface::*)()>(&System::Net::NetworkInformation::NetworkInterface::get_NetworkInterfaceType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::NetworkInterface*), "get_NetworkInterfaceType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -94,7 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Writing MetadataGetter for method: System::Net::NetworkInformation::NetworkInterface::GetAllNetworkInterfaces
 // Il2CppName: GetAllNetworkInterfaces
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Net::NetworkInformation::NetworkInterface*> (*)()>(&System::Net::NetworkInformation::NetworkInterface::GetAllNetworkInterfaces)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Net::NetworkInformation::NetworkInterface*> (*)()>(&System::Net::NetworkInformation::NetworkInterface::GetAllNetworkInterfaces)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::NetworkInterface*), "GetAllNetworkInterfaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -102,7 +102,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Sy
 // Writing MetadataGetter for method: System::Net::NetworkInformation::NetworkInterface::GetIPProperties
 // Il2CppName: GetIPProperties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::IPInterfaceProperties* (System::Net::NetworkInformation::NetworkInterface::*)()>(&System::Net::NetworkInformation::NetworkInterface::GetIPProperties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::NetworkInformation::IPInterfaceProperties* (System::Net::NetworkInformation::NetworkInterface::*)()>(&System::Net::NetworkInformation::NetworkInterface::GetIPProperties)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::NetworkInterface*), "GetIPProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

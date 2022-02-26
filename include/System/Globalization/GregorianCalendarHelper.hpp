@@ -33,8 +33,8 @@ namespace System::Globalization {
   class GregorianCalendarHelper;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Globalization::GregorianCalendarHelper);
-DEFINE_IL2CPP_ARG_TYPE(System::Globalization::GregorianCalendarHelper*, "System.Globalization", "GregorianCalendarHelper");
+NEED_NO_BOX(::System::Globalization::GregorianCalendarHelper);
+DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::GregorianCalendarHelper*, "System.Globalization", "GregorianCalendarHelper");
 // Type namespace: System.Globalization
 namespace System::Globalization {
   // Size: 0x38
@@ -69,16 +69,16 @@ namespace System::Globalization {
     // System.Globalization.Calendar m_Cal
     // Size: 0x8
     // Offset: 0x18
-    System::Globalization::Calendar* m_Cal;
+    ::System::Globalization::Calendar* m_Cal;
     // Field size check
-    static_assert(sizeof(System::Globalization::Calendar*) == 0x8);
+    static_assert(sizeof(::System::Globalization::Calendar*) == 0x8);
     // [OptionalFieldAttribute] Offset: 0x118E5B8
     // System.Globalization.EraInfo[] m_EraInfo
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayW<System::Globalization::EraInfo*> m_EraInfo;
+    ::ArrayW<::System::Globalization::EraInfo*> m_EraInfo;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::Globalization::EraInfo*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::System::Globalization::EraInfo*>) == 0x8);
     // [OptionalFieldAttribute] Offset: 0x118E5F0
     // System.Int32[] m_eras
     // Size: 0x8
@@ -90,9 +90,9 @@ namespace System::Globalization {
     // System.DateTime m_minDate
     // Size: 0x8
     // Offset: 0x30
-    System::DateTime m_minDate;
+    ::System::DateTime m_minDate;
     // Field size check
-    static_assert(sizeof(System::DateTime) == 0x8);
+    static_assert(sizeof(::System::DateTime) == 0x8);
     public:
     // Get static field: static readonly System.Int32[] DaysToMonth365
     static ::ArrayW<int> _get_DaysToMonth365();
@@ -107,13 +107,13 @@ namespace System::Globalization {
     // Get instance field reference: System.Int32 m_minYear
     int& dyn_m_minYear();
     // Get instance field reference: System.Globalization.Calendar m_Cal
-    System::Globalization::Calendar*& dyn_m_Cal();
+    ::System::Globalization::Calendar*& dyn_m_Cal();
     // Get instance field reference: System.Globalization.EraInfo[] m_EraInfo
-    ::ArrayW<System::Globalization::EraInfo*>& dyn_m_EraInfo();
+    ::ArrayW<::System::Globalization::EraInfo*>& dyn_m_EraInfo();
     // Get instance field reference: System.Int32[] m_eras
     ::ArrayW<int>& dyn_m_eras();
     // Get instance field reference: System.DateTime m_minDate
-    System::DateTime& dyn_m_minDate();
+    ::System::DateTime& dyn_m_minDate();
     // System.Int32 get_MaxYear()
     // Offset: 0x20B3E1C
     int get_MaxYear();
@@ -123,8 +123,8 @@ namespace System::Globalization {
     // System.Void .ctor(System.Globalization.Calendar cal, System.Globalization.EraInfo[] eraInfo)
     // Offset: 0x20B3E24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static GregorianCalendarHelper* New_ctor(System::Globalization::Calendar* cal, ::ArrayW<System::Globalization::EraInfo*> eraInfo) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::GregorianCalendarHelper::.ctor");
+    static GregorianCalendarHelper* New_ctor(::System::Globalization::Calendar* cal, ::ArrayW<::System::Globalization::EraInfo*> eraInfo) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Globalization::GregorianCalendarHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GregorianCalendarHelper*, creationType>(cal, eraInfo)));
     }
     // static private System.Void .cctor()
@@ -153,34 +153,34 @@ namespace System::Globalization {
     void CheckTicksRange(int64_t ticks);
     // public System.Int32 GetDayOfMonth(System.DateTime time)
     // Offset: 0x20B4A50
-    int GetDayOfMonth(System::DateTime time);
+    int GetDayOfMonth(::System::DateTime time);
     // public System.DayOfWeek GetDayOfWeek(System.DateTime time)
     // Offset: 0x20B4A94
-    System::DayOfWeek GetDayOfWeek(System::DateTime time);
+    ::System::DayOfWeek GetDayOfWeek(::System::DateTime time);
     // public System.Int32 GetDaysInMonth(System.Int32 year, System.Int32 month, System.Int32 era)
     // Offset: 0x20B4B24
     int GetDaysInMonth(int year, int month, int era);
     // public System.Int32 GetEra(System.DateTime time)
     // Offset: 0x20B4CCC
-    int GetEra(System::DateTime time);
+    int GetEra(::System::DateTime time);
     // public System.Int32 GetMonth(System.DateTime time)
     // Offset: 0x20B4ED4
-    int GetMonth(System::DateTime time);
+    int GetMonth(::System::DateTime time);
     // public System.Int32 GetMonthsInYear(System.Int32 year, System.Int32 era)
     // Offset: 0x20B4F18
     int GetMonthsInYear(int year, int era);
     // public System.Int32 GetYear(System.DateTime time)
     // Offset: 0x20B4F30
-    int GetYear(System::DateTime time);
+    int GetYear(::System::DateTime time);
     // public System.Boolean IsLeapYear(System.Int32 year, System.Int32 era)
     // Offset: 0x20B5050
     bool IsLeapYear(int year, int era);
     // public System.DateTime ToDateTime(System.Int32 year, System.Int32 month, System.Int32 day, System.Int32 hour, System.Int32 minute, System.Int32 second, System.Int32 millisecond, System.Int32 era)
     // Offset: 0x20B50B8
-    System::DateTime ToDateTime(int year, int month, int day, int hour, int minute, int second, int millisecond, int era);
+    ::System::DateTime ToDateTime(int year, int month, int day, int hour, int minute, int second, int millisecond, int era);
   }; // System.Globalization.GregorianCalendarHelper
   #pragma pack(pop)
-  static check_size<sizeof(GregorianCalendarHelper), 48 + sizeof(System::DateTime)> __System_Globalization_GregorianCalendarHelperSizeCheck;
+  static check_size<sizeof(GregorianCalendarHelper), 48 + sizeof(::System::DateTime)> __System_Globalization_GregorianCalendarHelperSizeCheck;
   static_assert(sizeof(GregorianCalendarHelper) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -288,7 +288,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Globalization::GregorianCalendarHelper::GetDayOfMonth
 // Il2CppName: GetDayOfMonth
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Globalization::GregorianCalendarHelper::*)(System::DateTime)>(&System::Globalization::GregorianCalendarHelper::GetDayOfMonth)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Globalization::GregorianCalendarHelper::*)(::System::DateTime)>(&System::Globalization::GregorianCalendarHelper::GetDayOfMonth)> {
   static const MethodInfo* get() {
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::GregorianCalendarHelper*), "GetDayOfMonth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time});
@@ -297,7 +297,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Globalization::GregorianCalendarHelper::GetDayOfWeek
 // Il2CppName: GetDayOfWeek
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DayOfWeek (System::Globalization::GregorianCalendarHelper::*)(System::DateTime)>(&System::Globalization::GregorianCalendarHelper::GetDayOfWeek)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DayOfWeek (System::Globalization::GregorianCalendarHelper::*)(::System::DateTime)>(&System::Globalization::GregorianCalendarHelper::GetDayOfWeek)> {
   static const MethodInfo* get() {
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::GregorianCalendarHelper*), "GetDayOfWeek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time});
@@ -317,7 +317,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Globalization::GregorianCalendarHelper::GetEra
 // Il2CppName: GetEra
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Globalization::GregorianCalendarHelper::*)(System::DateTime)>(&System::Globalization::GregorianCalendarHelper::GetEra)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Globalization::GregorianCalendarHelper::*)(::System::DateTime)>(&System::Globalization::GregorianCalendarHelper::GetEra)> {
   static const MethodInfo* get() {
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::GregorianCalendarHelper*), "GetEra", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time});
@@ -326,7 +326,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Globalization::GregorianCalendarHelper::GetMonth
 // Il2CppName: GetMonth
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Globalization::GregorianCalendarHelper::*)(System::DateTime)>(&System::Globalization::GregorianCalendarHelper::GetMonth)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Globalization::GregorianCalendarHelper::*)(::System::DateTime)>(&System::Globalization::GregorianCalendarHelper::GetMonth)> {
   static const MethodInfo* get() {
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::GregorianCalendarHelper*), "GetMonth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time});
@@ -345,7 +345,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Globalization::GregorianCalendarHelper::GetYear
 // Il2CppName: GetYear
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Globalization::GregorianCalendarHelper::*)(System::DateTime)>(&System::Globalization::GregorianCalendarHelper::GetYear)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Globalization::GregorianCalendarHelper::*)(::System::DateTime)>(&System::Globalization::GregorianCalendarHelper::GetYear)> {
   static const MethodInfo* get() {
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::GregorianCalendarHelper*), "GetYear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time});
@@ -364,7 +364,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Globalization::GregorianCalendarHelper::ToDateTime
 // Il2CppName: ToDateTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (System::Globalization::GregorianCalendarHelper::*)(int, int, int, int, int, int, int, int)>(&System::Globalization::GregorianCalendarHelper::ToDateTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (System::Globalization::GregorianCalendarHelper::*)(int, int, int, int, int, int, int, int)>(&System::Globalization::GregorianCalendarHelper::ToDateTime)> {
   static const MethodInfo* get() {
     static auto* year = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* month = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

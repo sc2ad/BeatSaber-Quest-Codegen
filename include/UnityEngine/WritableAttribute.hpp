@@ -18,8 +18,8 @@ namespace UnityEngine {
   class WritableAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::WritableAttribute);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::WritableAttribute*, "UnityEngine", "WritableAttribute");
+NEED_NO_BOX(::UnityEngine::WritableAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::WritableAttribute*, "UnityEngine", "WritableAttribute");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -28,7 +28,7 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AttributeUsageAttribute] Offset: 11A0FC8
   // [VisibleToOtherModulesAttribute] Offset: 11A0FC8
-  class WritableAttribute : public System::Attribute {
+  class WritableAttribute : public ::System::Attribute {
     public:
     // public System.Void .ctor()
     // Offset: 0x2A577E0
@@ -37,7 +37,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WritableAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::WritableAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::WritableAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WritableAttribute*, creationType>()));
     }
   }; // UnityEngine.WritableAttribute

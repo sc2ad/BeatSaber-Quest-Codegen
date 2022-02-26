@@ -23,8 +23,8 @@ namespace Mono::Net::Security {
   class AsyncProtocolResult;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Net::Security::AsyncProtocolResult);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::AsyncProtocolResult*, "Mono.Net.Security", "AsyncProtocolResult");
+NEED_NO_BOX(::Mono::Net::Security::AsyncProtocolResult);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Net::Security::AsyncProtocolResult*, "Mono.Net.Security", "AsyncProtocolResult");
 // Type namespace: Mono.Net.Security
 namespace Mono::Net::Security {
   // Size: 0x20
@@ -53,37 +53,37 @@ namespace Mono::Net::Security {
     // private readonly System.Runtime.ExceptionServices.ExceptionDispatchInfo <Error>k__BackingField
     // Size: 0x8
     // Offset: 0x18
-    System::Runtime::ExceptionServices::ExceptionDispatchInfo* Error;
+    ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* Error;
     // Field size check
-    static_assert(sizeof(System::Runtime::ExceptionServices::ExceptionDispatchInfo*) == 0x8);
+    static_assert(sizeof(::System::Runtime::ExceptionServices::ExceptionDispatchInfo*) == 0x8);
     public:
     // Get instance field reference: private readonly System.Int32 <UserResult>k__BackingField
     int& dyn_$UserResult$k__BackingField();
     // Get instance field reference: private readonly System.Runtime.ExceptionServices.ExceptionDispatchInfo <Error>k__BackingField
-    System::Runtime::ExceptionServices::ExceptionDispatchInfo*& dyn_$Error$k__BackingField();
+    ::System::Runtime::ExceptionServices::ExceptionDispatchInfo*& dyn_$Error$k__BackingField();
     // public System.Int32 get_UserResult()
     // Offset: 0x1A302A0
     int get_UserResult();
     // public System.Runtime.ExceptionServices.ExceptionDispatchInfo get_Error()
     // Offset: 0x1A302A8
-    System::Runtime::ExceptionServices::ExceptionDispatchInfo* get_Error();
+    ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* get_Error();
     // public System.Void .ctor(System.Int32 result)
     // Offset: 0x1A30070
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsyncProtocolResult* New_ctor(int result) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::Security::AsyncProtocolResult::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Net::Security::AsyncProtocolResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsyncProtocolResult*, creationType>(result)));
     }
     // public System.Void .ctor(System.Runtime.ExceptionServices.ExceptionDispatchInfo error)
     // Offset: 0x1A30214
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AsyncProtocolResult* New_ctor(System::Runtime::ExceptionServices::ExceptionDispatchInfo* error) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::Security::AsyncProtocolResult::.ctor");
+    static AsyncProtocolResult* New_ctor(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* error) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Net::Security::AsyncProtocolResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsyncProtocolResult*, creationType>(error)));
     }
   }; // Mono.Net.Security.AsyncProtocolResult
   #pragma pack(pop)
-  static check_size<sizeof(AsyncProtocolResult), 24 + sizeof(System::Runtime::ExceptionServices::ExceptionDispatchInfo*)> __Mono_Net_Security_AsyncProtocolResultSizeCheck;
+  static check_size<sizeof(AsyncProtocolResult), 24 + sizeof(::System::Runtime::ExceptionServices::ExceptionDispatchInfo*)> __Mono_Net_Security_AsyncProtocolResultSizeCheck;
   static_assert(sizeof(AsyncProtocolResult) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -98,7 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Writing MetadataGetter for method: Mono::Net::Security::AsyncProtocolResult::get_Error
 // Il2CppName: get_Error
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::ExceptionServices::ExceptionDispatchInfo* (Mono::Net::Security::AsyncProtocolResult::*)()>(&Mono::Net::Security::AsyncProtocolResult::get_Error)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::ExceptionServices::ExceptionDispatchInfo* (Mono::Net::Security::AsyncProtocolResult::*)()>(&Mono::Net::Security::AsyncProtocolResult::get_Error)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::AsyncProtocolResult*), "get_Error", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

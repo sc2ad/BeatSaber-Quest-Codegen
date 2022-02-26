@@ -16,8 +16,8 @@ namespace NUnit::Framework::Interfaces {
   class IReflectionInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Interfaces::IReflectionInfo);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::IReflectionInfo*, "NUnit.Framework.Interfaces", "IReflectionInfo");
+NEED_NO_BOX(::NUnit::Framework::Interfaces::IReflectionInfo);
+DEFINE_IL2CPP_ARG_TYPE(::NUnit::Framework::Interfaces::IReflectionInfo*, "NUnit.Framework.Interfaces", "IReflectionInfo");
 // Type namespace: NUnit.Framework.Interfaces
 namespace NUnit::Framework::Interfaces {
   // Size: 0x10
@@ -30,7 +30,7 @@ namespace NUnit::Framework::Interfaces {
     // Offset: 0xFFFFFFFF
     template<class T>
     ::ArrayW<T> GetCustomAttributes(bool inherit) {
-      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Interfaces::IReflectionInfo::GetCustomAttributes");
+      static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Interfaces::IReflectionInfo::GetCustomAttributes");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetCustomAttributes", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(inherit)})));
       auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<T>, false>(this, ___generic__method, inherit);
@@ -39,7 +39,7 @@ namespace NUnit::Framework::Interfaces {
     // Offset: 0xFFFFFFFF
     template<class T>
     bool IsDefined(bool inherit) {
-      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Interfaces::IReflectionInfo::IsDefined");
+      static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Interfaces::IReflectionInfo::IsDefined");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "IsDefined", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(inherit)})));
       auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___generic__method, inherit);

@@ -38,8 +38,8 @@ namespace System::Dynamic::Utils {
   class TypeExtensions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Dynamic::Utils::TypeExtensions);
-DEFINE_IL2CPP_ARG_TYPE(System::Dynamic::Utils::TypeExtensions*, "System.Dynamic.Utils", "TypeExtensions");
+NEED_NO_BOX(::System::Dynamic::Utils::TypeExtensions);
+DEFINE_IL2CPP_ARG_TYPE(::System::Dynamic::Utils::TypeExtensions*, "System.Dynamic.Utils", "TypeExtensions");
 // Type namespace: System.Dynamic.Utils
 namespace System::Dynamic::Utils {
   // Size: 0x10
@@ -50,27 +50,27 @@ namespace System::Dynamic::Utils {
   class TypeExtensions : public ::Il2CppObject {
     public:
     // Get static field: static private readonly System.Dynamic.Utils.CacheDict`2<System.Reflection.MethodBase,System.Reflection.ParameterInfo[]> s_paramInfoCache
-    static System::Dynamic::Utils::CacheDict_2<System::Reflection::MethodBase*, ::ArrayW<System::Reflection::ParameterInfo*>>* _get_s_paramInfoCache();
+    static ::System::Dynamic::Utils::CacheDict_2<::System::Reflection::MethodBase*, ::ArrayW<::System::Reflection::ParameterInfo*>>* _get_s_paramInfoCache();
     // Set static field: static private readonly System.Dynamic.Utils.CacheDict`2<System.Reflection.MethodBase,System.Reflection.ParameterInfo[]> s_paramInfoCache
-    static void _set_s_paramInfoCache(System::Dynamic::Utils::CacheDict_2<System::Reflection::MethodBase*, ::ArrayW<System::Reflection::ParameterInfo*>>* value);
+    static void _set_s_paramInfoCache(::System::Dynamic::Utils::CacheDict_2<::System::Reflection::MethodBase*, ::ArrayW<::System::Reflection::ParameterInfo*>>* value);
     // static private System.Void .cctor()
     // Offset: 0x15F2704
     static void _cctor();
     // static public System.Reflection.MethodInfo GetAnyStaticMethodValidated(System.Type type, System.String name, System.Type[] types)
     // Offset: 0x15F233C
-    static System::Reflection::MethodInfo* GetAnyStaticMethodValidated(System::Type* type, ::StringW name, ::ArrayW<System::Type*> types);
+    static ::System::Reflection::MethodInfo* GetAnyStaticMethodValidated(::System::Type* type, ::StringW name, ::ArrayW<::System::Type*> types);
     // static private System.Boolean MatchesArgumentTypes(System.Reflection.MethodInfo mi, System.Type[] argTypes)
     // Offset: 0x15F23F0
-    static bool MatchesArgumentTypes(System::Reflection::MethodInfo* mi, ::ArrayW<System::Type*> argTypes);
+    static bool MatchesArgumentTypes(::System::Reflection::MethodInfo* mi, ::ArrayW<::System::Type*> argTypes);
     // static public System.Type GetReturnType(System.Reflection.MethodBase mi)
     // Offset: 0x15F2510
-    static System::Type* GetReturnType(System::Reflection::MethodBase* mi);
+    static ::System::Type* GetReturnType(::System::Reflection::MethodBase* mi);
     // static public System.TypeCode GetTypeCode(System.Type type)
     // Offset: 0x15F25BC
-    static System::TypeCode GetTypeCode(System::Type* type);
+    static ::System::TypeCode GetTypeCode(::System::Type* type);
     // static System.Reflection.ParameterInfo[] GetParametersCached(System.Reflection.MethodBase method)
     // Offset: 0x15F1AE0
-    static ::ArrayW<System::Reflection::ParameterInfo*> GetParametersCached(System::Reflection::MethodBase* method);
+    static ::ArrayW<::System::Reflection::ParameterInfo*> GetParametersCached(::System::Reflection::MethodBase* method);
   }; // System.Dynamic.Utils.TypeExtensions
   #pragma pack(pop)
 }
@@ -86,7 +86,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Dynamic::Utils::TypeExtensions::GetAnyStaticMethodValidated
 // Il2CppName: GetAnyStaticMethodValidated
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (*)(System::Type*, ::StringW, ::ArrayW<System::Type*>)>(&System::Dynamic::Utils::TypeExtensions::GetAnyStaticMethodValidated)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (*)(::System::Type*, ::StringW, ::ArrayW<::System::Type*>)>(&System::Dynamic::Utils::TypeExtensions::GetAnyStaticMethodValidated)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -97,7 +97,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Dynamic::Utils::TypeExtensions::MatchesArgumentTypes
 // Il2CppName: MatchesArgumentTypes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::MethodInfo*, ::ArrayW<System::Type*>)>(&System::Dynamic::Utils::TypeExtensions::MatchesArgumentTypes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::MethodInfo*, ::ArrayW<::System::Type*>)>(&System::Dynamic::Utils::TypeExtensions::MatchesArgumentTypes)> {
   static const MethodInfo* get() {
     static auto* mi = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodInfo")->byval_arg;
     static auto* argTypes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
@@ -107,7 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Dynamic::Utils::TypeExtensions::GetReturnType
 // Il2CppName: GetReturnType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(System::Reflection::MethodBase*)>(&System::Dynamic::Utils::TypeExtensions::GetReturnType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Reflection::MethodBase*)>(&System::Dynamic::Utils::TypeExtensions::GetReturnType)> {
   static const MethodInfo* get() {
     static auto* mi = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodBase")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Dynamic::Utils::TypeExtensions*), "GetReturnType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mi});
@@ -116,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: System::Dynamic::Utils::TypeExtensions::GetTypeCode
 // Il2CppName: GetTypeCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TypeCode (*)(System::Type*)>(&System::Dynamic::Utils::TypeExtensions::GetTypeCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TypeCode (*)(::System::Type*)>(&System::Dynamic::Utils::TypeExtensions::GetTypeCode)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Dynamic::Utils::TypeExtensions*), "GetTypeCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -125,7 +125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: System::Dynamic::Utils::TypeExtensions::GetParametersCached
 // Il2CppName: GetParametersCached
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Reflection::ParameterInfo*> (*)(System::Reflection::MethodBase*)>(&System::Dynamic::Utils::TypeExtensions::GetParametersCached)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::ParameterInfo*> (*)(::System::Reflection::MethodBase*)>(&System::Dynamic::Utils::TypeExtensions::GetParametersCached)> {
   static const MethodInfo* get() {
     static auto* method = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodBase")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Dynamic::Utils::TypeExtensions*), "GetParametersCached", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{method});

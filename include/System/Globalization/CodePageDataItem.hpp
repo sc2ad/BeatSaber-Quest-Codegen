@@ -18,8 +18,8 @@ namespace System::Globalization {
   class CodePageDataItem;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Globalization::CodePageDataItem);
-DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CodePageDataItem*, "System.Globalization", "CodePageDataItem");
+NEED_NO_BOX(::System::Globalization::CodePageDataItem);
+DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::CodePageDataItem*, "System.Globalization", "CodePageDataItem");
 // Type namespace: System.Globalization
 namespace System::Globalization {
   // Size: 0x24
@@ -81,7 +81,7 @@ namespace System::Globalization {
     // Offset: 0x188D664
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CodePageDataItem* New_ctor(int dataIndex) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::CodePageDataItem::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Globalization::CodePageDataItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CodePageDataItem*, creationType>(dataIndex)));
     }
     // static private System.Void .cctor()

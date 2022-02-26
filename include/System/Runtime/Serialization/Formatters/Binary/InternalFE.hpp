@@ -24,8 +24,8 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   class InternalFE;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::InternalFE);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::InternalFE*, "System.Runtime.Serialization.Formatters.Binary", "InternalFE");
+NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::InternalFE);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::InternalFE*, "System.Runtime.Serialization.Formatters.Binary", "InternalFE");
 // Type namespace: System.Runtime.Serialization.Formatters.Binary
 namespace System::Runtime::Serialization::Formatters::Binary {
   // Size: 0x20
@@ -46,48 +46,48 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.Runtime.Serialization.Formatters.FormatterTypeStyle FEtypeFormat
     // Size: 0x4
     // Offset: 0x10
-    System::Runtime::Serialization::Formatters::FormatterTypeStyle FEtypeFormat;
+    ::System::Runtime::Serialization::Formatters::FormatterTypeStyle FEtypeFormat;
     // Field size check
-    static_assert(sizeof(System::Runtime::Serialization::Formatters::FormatterTypeStyle) == 0x4);
+    static_assert(sizeof(::System::Runtime::Serialization::Formatters::FormatterTypeStyle) == 0x4);
     // System.Runtime.Serialization.Formatters.FormatterAssemblyStyle FEassemblyFormat
     // Size: 0x4
     // Offset: 0x14
-    System::Runtime::Serialization::Formatters::FormatterAssemblyStyle FEassemblyFormat;
+    ::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle FEassemblyFormat;
     // Field size check
-    static_assert(sizeof(System::Runtime::Serialization::Formatters::FormatterAssemblyStyle) == 0x4);
+    static_assert(sizeof(::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle) == 0x4);
     // System.Runtime.Serialization.Formatters.TypeFilterLevel FEsecurityLevel
     // Size: 0x4
     // Offset: 0x18
-    System::Runtime::Serialization::Formatters::TypeFilterLevel FEsecurityLevel;
+    ::System::Runtime::Serialization::Formatters::TypeFilterLevel FEsecurityLevel;
     // Field size check
-    static_assert(sizeof(System::Runtime::Serialization::Formatters::TypeFilterLevel) == 0x4);
+    static_assert(sizeof(::System::Runtime::Serialization::Formatters::TypeFilterLevel) == 0x4);
     // System.Runtime.Serialization.Formatters.Binary.InternalSerializerTypeE FEserializerTypeEnum
     // Size: 0x4
     // Offset: 0x1C
-    System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE FEserializerTypeEnum;
+    ::System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE FEserializerTypeEnum;
     // Field size check
-    static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE) == 0x4);
+    static_assert(sizeof(::System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE) == 0x4);
     public:
     // Get instance field reference: System.Runtime.Serialization.Formatters.FormatterTypeStyle FEtypeFormat
-    System::Runtime::Serialization::Formatters::FormatterTypeStyle& dyn_FEtypeFormat();
+    ::System::Runtime::Serialization::Formatters::FormatterTypeStyle& dyn_FEtypeFormat();
     // Get instance field reference: System.Runtime.Serialization.Formatters.FormatterAssemblyStyle FEassemblyFormat
-    System::Runtime::Serialization::Formatters::FormatterAssemblyStyle& dyn_FEassemblyFormat();
+    ::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle& dyn_FEassemblyFormat();
     // Get instance field reference: System.Runtime.Serialization.Formatters.TypeFilterLevel FEsecurityLevel
-    System::Runtime::Serialization::Formatters::TypeFilterLevel& dyn_FEsecurityLevel();
+    ::System::Runtime::Serialization::Formatters::TypeFilterLevel& dyn_FEsecurityLevel();
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.InternalSerializerTypeE FEserializerTypeEnum
-    System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE& dyn_FEserializerTypeEnum();
+    ::System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE& dyn_FEserializerTypeEnum();
     // public System.Void .ctor()
     // Offset: 0x1811240
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InternalFE* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::InternalFE::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::Formatters::Binary::InternalFE::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InternalFE*, creationType>()));
     }
   }; // System.Runtime.Serialization.Formatters.Binary.InternalFE
   #pragma pack(pop)
-  static check_size<sizeof(InternalFE), 28 + sizeof(System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE)> __System_Runtime_Serialization_Formatters_Binary_InternalFESizeCheck;
+  static check_size<sizeof(InternalFE), 28 + sizeof(::System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE)> __System_Runtime_Serialization_Formatters_Binary_InternalFESizeCheck;
   static_assert(sizeof(InternalFE) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -29,8 +29,8 @@ namespace UnityEngine::Timeline {
   class TimeUtility;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Timeline::TimeUtility);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeUtility*, "UnityEngine.Timeline", "TimeUtility");
+NEED_NO_BOX(::UnityEngine::Timeline::TimeUtility);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::TimeUtility*, "UnityEngine.Timeline", "TimeUtility");
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
   // Size: 0x10
@@ -39,7 +39,7 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   class TimeUtility : public ::Il2CppObject {
     public:
-    // Nested type: UnityEngine::Timeline::TimeUtility::$$c
+    // Nested type: ::UnityEngine::Timeline::TimeUtility::$$c
     class $$c;
     // Get static field: static public readonly System.Double kTimeEpsilon
     static double _get_kTimeEpsilon();
@@ -94,10 +94,10 @@ namespace UnityEngine::Timeline {
     static double ParseTimeCode(::StringW timeCode, double frameRate, double defaultValue);
     // static public System.Double GetAnimationClipLength(UnityEngine.AnimationClip clip)
     // Offset: 0x1C90828
-    static double GetAnimationClipLength(UnityEngine::AnimationClip* clip);
+    static double GetAnimationClipLength(::UnityEngine::AnimationClip* clip);
     // static private System.String RemoveChar(System.String str, System.Func`2<System.Char,System.Boolean> charToRemoveFunc)
     // Offset: 0x1CA30F0
-    static ::StringW RemoveChar(::StringW str, System::Func_2<::Il2CppChar, bool>* charToRemoveFunc);
+    static ::StringW RemoveChar(::StringW str, ::System::Func_2<::Il2CppChar, bool>* charToRemoveFunc);
   }; // UnityEngine.Timeline.TimeUtility
   #pragma pack(pop)
 }
@@ -236,7 +236,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimeUtility::GetAnimationClipLength
 // Il2CppName: GetAnimationClipLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(UnityEngine::AnimationClip*)>(&UnityEngine::Timeline::TimeUtility::GetAnimationClipLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(::UnityEngine::AnimationClip*)>(&UnityEngine::Timeline::TimeUtility::GetAnimationClipLength)> {
   static const MethodInfo* get() {
     static auto* clip = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationClip")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimeUtility*), "GetAnimationClipLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clip});
@@ -245,7 +245,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimeUtility::RemoveChar
 // Il2CppName: RemoveChar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, System::Func_2<::Il2CppChar, bool>*)>(&UnityEngine::Timeline::TimeUtility::RemoveChar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::System::Func_2<::Il2CppChar, bool>*)>(&UnityEngine::Timeline::TimeUtility::RemoveChar)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* charToRemoveFunc = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Char"), ::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;

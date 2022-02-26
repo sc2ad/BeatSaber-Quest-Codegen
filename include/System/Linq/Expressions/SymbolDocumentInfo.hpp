@@ -15,8 +15,8 @@ namespace System::Linq::Expressions {
   class SymbolDocumentInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Linq::Expressions::SymbolDocumentInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::Linq::Expressions::SymbolDocumentInfo*, "System.Linq.Expressions", "SymbolDocumentInfo");
+NEED_NO_BOX(::System::Linq::Expressions::SymbolDocumentInfo);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::SymbolDocumentInfo*, "System.Linq.Expressions", "SymbolDocumentInfo");
 // Type namespace: System.Linq.Expressions
 namespace System::Linq::Expressions {
   // Size: 0x18
@@ -46,9 +46,9 @@ namespace System::Linq::Expressions {
       return FileName;
     }
     // Get static field: static readonly System.Guid DocumentType_Text
-    static System::Guid _get_DocumentType_Text();
+    static ::System::Guid _get_DocumentType_Text();
     // Set static field: static readonly System.Guid DocumentType_Text
-    static void _set_DocumentType_Text(System::Guid value);
+    static void _set_DocumentType_Text(::System::Guid value);
     // Get instance field reference: private readonly System.String <FileName>k__BackingField
     ::StringW& dyn_$FileName$k__BackingField();
     // public System.String get_FileName()

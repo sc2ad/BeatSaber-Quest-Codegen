@@ -24,8 +24,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Serialization::JsonTypeReflector::$$c__DisplayClass22_0);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Serialization::JsonTypeReflector::$$c__DisplayClass22_0*, "Newtonsoft.Json.Serialization", "JsonTypeReflector/<>c__DisplayClass22_0");
+NEED_NO_BOX(::Newtonsoft::Json::Serialization::JsonTypeReflector::$$c__DisplayClass22_0);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Serialization::JsonTypeReflector::$$c__DisplayClass22_0*, "Newtonsoft.Json.Serialization", "JsonTypeReflector/<>c__DisplayClass22_0");
 // Type namespace: Newtonsoft.Json.Serialization
 namespace Newtonsoft::Json::Serialization {
   // Size: 0x20
@@ -48,21 +48,21 @@ namespace Newtonsoft::Json::Serialization {
     // public System.Type type
     // Size: 0x8
     // Offset: 0x10
-    System::Type* type;
+    ::System::Type* type;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     // [NullableAttribute] Offset: 0x1206C6C
     // public System.Func`1<System.Object> defaultConstructor
     // Size: 0x8
     // Offset: 0x18
-    System::Func_1<::Il2CppObject*>* defaultConstructor;
+    ::System::Func_1<::Il2CppObject*>* defaultConstructor;
     // Field size check
-    static_assert(sizeof(System::Func_1<::Il2CppObject*>*) == 0x8);
+    static_assert(sizeof(::System::Func_1<::Il2CppObject*>*) == 0x8);
     public:
     // Get instance field reference: public System.Type type
-    System::Type*& dyn_type();
+    ::System::Type*& dyn_type();
     // Get instance field reference: public System.Func`1<System.Object> defaultConstructor
-    System::Func_1<::Il2CppObject*>*& dyn_defaultConstructor();
+    ::System::Func_1<::Il2CppObject*>*& dyn_defaultConstructor();
     // System.Object <GetCreator>b__0(System.Object[] parameters)
     // Offset: 0x19D6324
     ::Il2CppObject* $GetCreator$b__0(::ArrayW<::Il2CppObject*> parameters);
@@ -72,12 +72,12 @@ namespace Newtonsoft::Json::Serialization {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JsonTypeReflector::$$c__DisplayClass22_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Serialization::JsonTypeReflector::$$c__DisplayClass22_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::JsonTypeReflector::$$c__DisplayClass22_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JsonTypeReflector::$$c__DisplayClass22_0*, creationType>()));
     }
   }; // Newtonsoft.Json.Serialization.JsonTypeReflector/Newtonsoft.Json.Serialization.<>c__DisplayClass22_0
   #pragma pack(pop)
-  static check_size<sizeof(JsonTypeReflector::$$c__DisplayClass22_0), 24 + sizeof(System::Func_1<::Il2CppObject*>*)> __Newtonsoft_Json_Serialization_JsonTypeReflector_$$c__DisplayClass22_0SizeCheck;
+  static check_size<sizeof(JsonTypeReflector::$$c__DisplayClass22_0), 24 + sizeof(::System::Func_1<::Il2CppObject*>*)> __Newtonsoft_Json_Serialization_JsonTypeReflector_$$c__DisplayClass22_0SizeCheck;
   static_assert(sizeof(JsonTypeReflector::$$c__DisplayClass22_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

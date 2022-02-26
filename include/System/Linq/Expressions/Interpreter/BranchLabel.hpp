@@ -31,8 +31,8 @@ namespace System::Linq::Expressions::Interpreter {
   class BranchLabel;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Linq::Expressions::Interpreter::BranchLabel);
-DEFINE_IL2CPP_ARG_TYPE(System::Linq::Expressions::Interpreter::BranchLabel*, "System.Linq.Expressions.Interpreter", "BranchLabel");
+NEED_NO_BOX(::System::Linq::Expressions::Interpreter::BranchLabel);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::BranchLabel*, "System.Linq.Expressions.Interpreter", "BranchLabel");
 // Type namespace: System.Linq.Expressions.Interpreter
 namespace System::Linq::Expressions::Interpreter {
   // Size: 0x2C
@@ -73,9 +73,9 @@ namespace System::Linq::Expressions::Interpreter {
     // private System.Collections.Generic.List`1<System.Int32> _forwardBranchFixups
     // Size: 0x8
     // Offset: 0x20
-    System::Collections::Generic::List_1<int>* forwardBranchFixups;
+    ::System::Collections::Generic::List_1<int>* forwardBranchFixups;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<int>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<int>*) == 0x8);
     // private System.Int32 <LabelIndex>k__BackingField
     // Size: 0x4
     // Offset: 0x28
@@ -90,7 +90,7 @@ namespace System::Linq::Expressions::Interpreter {
     // Get instance field reference: private System.Int32 _continuationStackDepth
     int& dyn__continuationStackDepth();
     // Get instance field reference: private System.Collections.Generic.List`1<System.Int32> _forwardBranchFixups
-    System::Collections::Generic::List_1<int>*& dyn__forwardBranchFixups();
+    ::System::Collections::Generic::List_1<int>*& dyn__forwardBranchFixups();
     // Get instance field reference: private System.Int32 <LabelIndex>k__BackingField
     int& dyn_$LabelIndex$k__BackingField();
     // System.Int32 get_LabelIndex()
@@ -107,23 +107,23 @@ namespace System::Linq::Expressions::Interpreter {
     int get_TargetIndex();
     // System.Linq.Expressions.Interpreter.RuntimeLabel ToRuntimeLabel()
     // Offset: 0x1EE5B3C
-    System::Linq::Expressions::Interpreter::RuntimeLabel ToRuntimeLabel();
+    ::System::Linq::Expressions::Interpreter::RuntimeLabel ToRuntimeLabel();
     // System.Void Mark(System.Linq.Expressions.Interpreter.InstructionList instructions)
     // Offset: 0x1EE5B78
-    void Mark(System::Linq::Expressions::Interpreter::InstructionList* instructions);
+    void Mark(::System::Linq::Expressions::Interpreter::InstructionList* instructions);
     // System.Void AddBranch(System.Linq.Expressions.Interpreter.InstructionList instructions, System.Int32 branchIndex)
     // Offset: 0x1EE5CDC
-    void AddBranch(System::Linq::Expressions::Interpreter::InstructionList* instructions, int branchIndex);
+    void AddBranch(::System::Linq::Expressions::Interpreter::InstructionList* instructions, int branchIndex);
     // System.Void FixupBranch(System.Linq.Expressions.Interpreter.InstructionList instructions, System.Int32 branchIndex)
     // Offset: 0x1EE5CB0
-    void FixupBranch(System::Linq::Expressions::Interpreter::InstructionList* instructions, int branchIndex);
+    void FixupBranch(::System::Linq::Expressions::Interpreter::InstructionList* instructions, int branchIndex);
     // public System.Void .ctor()
     // Offset: 0x1EE5DA4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BranchLabel* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Expressions::Interpreter::BranchLabel::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Expressions::Interpreter::BranchLabel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BranchLabel*, creationType>()));
     }
   }; // System.Linq.Expressions.Interpreter.BranchLabel
@@ -168,7 +168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::BranchLabel::ToRuntimeLabel
 // Il2CppName: ToRuntimeLabel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Linq::Expressions::Interpreter::RuntimeLabel (System::Linq::Expressions::Interpreter::BranchLabel::*)()>(&System::Linq::Expressions::Interpreter::BranchLabel::ToRuntimeLabel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Interpreter::RuntimeLabel (System::Linq::Expressions::Interpreter::BranchLabel::*)()>(&System::Linq::Expressions::Interpreter::BranchLabel::ToRuntimeLabel)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::BranchLabel*), "ToRuntimeLabel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -176,7 +176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Lin
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::BranchLabel::Mark
 // Il2CppName: Mark
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::BranchLabel::*)(System::Linq::Expressions::Interpreter::InstructionList*)>(&System::Linq::Expressions::Interpreter::BranchLabel::Mark)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::BranchLabel::*)(::System::Linq::Expressions::Interpreter::InstructionList*)>(&System::Linq::Expressions::Interpreter::BranchLabel::Mark)> {
   static const MethodInfo* get() {
     static auto* instructions = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions.Interpreter", "InstructionList")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Linq::Expressions::Interpreter::BranchLabel*), "Mark", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{instructions});
@@ -185,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::BranchLabel::AddBranch
 // Il2CppName: AddBranch
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::BranchLabel::*)(System::Linq::Expressions::Interpreter::InstructionList*, int)>(&System::Linq::Expressions::Interpreter::BranchLabel::AddBranch)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::BranchLabel::*)(::System::Linq::Expressions::Interpreter::InstructionList*, int)>(&System::Linq::Expressions::Interpreter::BranchLabel::AddBranch)> {
   static const MethodInfo* get() {
     static auto* instructions = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions.Interpreter", "InstructionList")->byval_arg;
     static auto* branchIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -195,7 +195,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::BranchLabel::FixupBranch
 // Il2CppName: FixupBranch
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::BranchLabel::*)(System::Linq::Expressions::Interpreter::InstructionList*, int)>(&System::Linq::Expressions::Interpreter::BranchLabel::FixupBranch)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Linq::Expressions::Interpreter::BranchLabel::*)(::System::Linq::Expressions::Interpreter::InstructionList*, int)>(&System::Linq::Expressions::Interpreter::BranchLabel::FixupBranch)> {
   static const MethodInfo* get() {
     static auto* instructions = &::il2cpp_utils::GetClassFromName("System.Linq.Expressions.Interpreter", "InstructionList")->byval_arg;
     static auto* branchIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

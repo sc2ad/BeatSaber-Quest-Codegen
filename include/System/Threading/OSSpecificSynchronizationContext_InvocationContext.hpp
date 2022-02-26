@@ -20,8 +20,8 @@ namespace System::Threading {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Threading::OSSpecificSynchronizationContext::InvocationContext);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::OSSpecificSynchronizationContext::InvocationContext*, "System.Threading", "OSSpecificSynchronizationContext/InvocationContext");
+NEED_NO_BOX(::System::Threading::OSSpecificSynchronizationContext::InvocationContext);
+DEFINE_IL2CPP_ARG_TYPE(::System::Threading::OSSpecificSynchronizationContext::InvocationContext*, "System.Threading", "OSSpecificSynchronizationContext/InvocationContext");
 // Type namespace: System.Threading
 namespace System::Threading {
   // Size: 0x20
@@ -42,9 +42,9 @@ namespace System::Threading {
     // private System.Threading.SendOrPostCallback m_Delegate
     // Size: 0x8
     // Offset: 0x10
-    System::Threading::SendOrPostCallback* m_Delegate;
+    ::System::Threading::SendOrPostCallback* m_Delegate;
     // Field size check
-    static_assert(sizeof(System::Threading::SendOrPostCallback*) == 0x8);
+    static_assert(sizeof(::System::Threading::SendOrPostCallback*) == 0x8);
     // private System.Object m_State
     // Size: 0x8
     // Offset: 0x18
@@ -53,14 +53,14 @@ namespace System::Threading {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     public:
     // Get instance field reference: private System.Threading.SendOrPostCallback m_Delegate
-    System::Threading::SendOrPostCallback*& dyn_m_Delegate();
+    ::System::Threading::SendOrPostCallback*& dyn_m_Delegate();
     // Get instance field reference: private System.Object m_State
     ::Il2CppObject*& dyn_m_State();
     // public System.Void .ctor(System.Threading.SendOrPostCallback d, System.Object state)
     // Offset: 0x1C2FD10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static OSSpecificSynchronizationContext::InvocationContext* New_ctor(System::Threading::SendOrPostCallback* d, ::Il2CppObject* state) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::OSSpecificSynchronizationContext::InvocationContext::.ctor");
+    static OSSpecificSynchronizationContext::InvocationContext* New_ctor(::System::Threading::SendOrPostCallback* d, ::Il2CppObject* state) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::OSSpecificSynchronizationContext::InvocationContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OSSpecificSynchronizationContext::InvocationContext*, creationType>(d, state)));
     }
     // public System.Void Invoke()

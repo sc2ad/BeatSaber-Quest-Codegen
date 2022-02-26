@@ -15,8 +15,8 @@ namespace UnityEngine::Networking {
   class CertificateHandler;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Networking::CertificateHandler);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::CertificateHandler*, "UnityEngine.Networking", "CertificateHandler");
+NEED_NO_BOX(::UnityEngine::Networking::CertificateHandler);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Networking::CertificateHandler*, "UnityEngine.Networking", "CertificateHandler");
 // Type namespace: UnityEngine.Networking
 namespace UnityEngine::Networking {
   // Size: 0x18
@@ -39,16 +39,16 @@ namespace UnityEngine::Networking {
     // System.IntPtr m_Ptr
     // Size: 0x8
     // Offset: 0x10
-    System::IntPtr m_Ptr;
+    ::System::IntPtr m_Ptr;
     // Field size check
-    static_assert(sizeof(System::IntPtr) == 0x8);
+    static_assert(sizeof(::System::IntPtr) == 0x8);
     public:
-    // Creating conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const noexcept {
+    // Creating conversion operator: operator ::System::IntPtr
+    constexpr operator ::System::IntPtr() const noexcept {
       return m_Ptr;
     }
     // Get instance field reference: System.IntPtr m_Ptr
-    System::IntPtr& dyn_m_Ptr();
+    ::System::IntPtr& dyn_m_Ptr();
     // private System.Void Release()
     // Offset: 0x2A3014C
     void Release();
@@ -63,7 +63,7 @@ namespace UnityEngine::Networking {
     void Dispose();
   }; // UnityEngine.Networking.CertificateHandler
   #pragma pack(pop)
-  static check_size<sizeof(CertificateHandler), 16 + sizeof(System::IntPtr)> __UnityEngine_Networking_CertificateHandlerSizeCheck;
+  static check_size<sizeof(CertificateHandler), 16 + sizeof(::System::IntPtr)> __UnityEngine_Networking_CertificateHandlerSizeCheck;
   static_assert(sizeof(CertificateHandler) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

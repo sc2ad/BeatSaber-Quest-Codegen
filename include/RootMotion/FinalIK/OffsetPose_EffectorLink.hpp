@@ -29,8 +29,8 @@ namespace UnityEngine {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::OffsetPose::EffectorLink);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::OffsetPose::EffectorLink*, "RootMotion.FinalIK", "OffsetPose/EffectorLink");
+NEED_NO_BOX(::RootMotion::FinalIK::OffsetPose::EffectorLink);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::OffsetPose::EffectorLink*, "RootMotion.FinalIK", "OffsetPose/EffectorLink");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x38
@@ -51,58 +51,58 @@ namespace RootMotion::FinalIK {
     // public RootMotion.FinalIK.FullBodyBipedEffector effector
     // Size: 0x4
     // Offset: 0x10
-    RootMotion::FinalIK::FullBodyBipedEffector effector;
+    ::RootMotion::FinalIK::FullBodyBipedEffector effector;
     // Field size check
-    static_assert(sizeof(RootMotion::FinalIK::FullBodyBipedEffector) == 0x4);
+    static_assert(sizeof(::RootMotion::FinalIK::FullBodyBipedEffector) == 0x4);
     // public UnityEngine.Vector3 offset
     // Size: 0xC
     // Offset: 0x14
-    UnityEngine::Vector3 offset;
+    ::UnityEngine::Vector3 offset;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // public UnityEngine.Vector3 pin
     // Size: 0xC
     // Offset: 0x20
-    UnityEngine::Vector3 pin;
+    ::UnityEngine::Vector3 pin;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // public UnityEngine.Vector3 pinWeight
     // Size: 0xC
     // Offset: 0x2C
-    UnityEngine::Vector3 pinWeight;
+    ::UnityEngine::Vector3 pinWeight;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     public:
     // Get instance field reference: public RootMotion.FinalIK.FullBodyBipedEffector effector
-    RootMotion::FinalIK::FullBodyBipedEffector& dyn_effector();
+    ::RootMotion::FinalIK::FullBodyBipedEffector& dyn_effector();
     // Get instance field reference: public UnityEngine.Vector3 offset
-    UnityEngine::Vector3& dyn_offset();
+    ::UnityEngine::Vector3& dyn_offset();
     // Get instance field reference: public UnityEngine.Vector3 pin
-    UnityEngine::Vector3& dyn_pin();
+    ::UnityEngine::Vector3& dyn_pin();
     // Get instance field reference: public UnityEngine.Vector3 pinWeight
-    UnityEngine::Vector3& dyn_pinWeight();
+    ::UnityEngine::Vector3& dyn_pinWeight();
     // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight, UnityEngine.Quaternion rotation)
     // Offset: 0x1F0C410
-    void Apply(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight, UnityEngine::Quaternion rotation);
+    void Apply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight, ::UnityEngine::Quaternion rotation);
     // public System.Void .ctor()
     // Offset: 0x1F0C860
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OffsetPose::EffectorLink* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::OffsetPose::EffectorLink::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::OffsetPose::EffectorLink::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OffsetPose::EffectorLink*, creationType>()));
     }
   }; // RootMotion.FinalIK.OffsetPose/RootMotion.FinalIK.EffectorLink
   #pragma pack(pop)
-  static check_size<sizeof(OffsetPose::EffectorLink), 44 + sizeof(UnityEngine::Vector3)> __RootMotion_FinalIK_OffsetPose_EffectorLinkSizeCheck;
+  static check_size<sizeof(OffsetPose::EffectorLink), 44 + sizeof(::UnityEngine::Vector3)> __RootMotion_FinalIK_OffsetPose_EffectorLinkSizeCheck;
   static_assert(sizeof(OffsetPose::EffectorLink) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::OffsetPose::EffectorLink::Apply
 // Il2CppName: Apply
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::OffsetPose::EffectorLink::*)(RootMotion::FinalIK::IKSolverFullBodyBiped*, float, UnityEngine::Quaternion)>(&RootMotion::FinalIK::OffsetPose::EffectorLink::Apply)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::OffsetPose::EffectorLink::*)(::RootMotion::FinalIK::IKSolverFullBodyBiped*, float, ::UnityEngine::Quaternion)>(&RootMotion::FinalIK::OffsetPose::EffectorLink::Apply)> {
   static const MethodInfo* get() {
     static auto* solver = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverFullBodyBiped")->byval_arg;
     static auto* weight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

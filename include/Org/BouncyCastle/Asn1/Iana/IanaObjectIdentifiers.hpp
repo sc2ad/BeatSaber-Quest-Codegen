@@ -19,8 +19,8 @@ namespace Org::BouncyCastle::Asn1::Iana {
   class IanaObjectIdentifiers;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Asn1::Iana::IanaObjectIdentifiers);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Iana::IanaObjectIdentifiers*, "Org.BouncyCastle.Asn1.Iana", "IanaObjectIdentifiers");
+NEED_NO_BOX(::Org::BouncyCastle::Asn1::Iana::IanaObjectIdentifiers);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Iana::IanaObjectIdentifiers*, "Org.BouncyCastle.Asn1.Iana", "IanaObjectIdentifiers");
 // Type namespace: Org.BouncyCastle.Asn1.Iana
 namespace Org::BouncyCastle::Asn1::Iana {
   // Size: 0x10
@@ -30,25 +30,25 @@ namespace Org::BouncyCastle::Asn1::Iana {
   class IanaObjectIdentifiers : public ::Il2CppObject {
     public:
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier IsakmpOakley
-    static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_IsakmpOakley();
+    static ::Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_IsakmpOakley();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier IsakmpOakley
-    static void _set_IsakmpOakley(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+    static void _set_IsakmpOakley(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier HmacMD5
-    static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_HmacMD5();
+    static ::Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_HmacMD5();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier HmacMD5
-    static void _set_HmacMD5(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+    static void _set_HmacMD5(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier HmacSha1
-    static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_HmacSha1();
+    static ::Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_HmacSha1();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier HmacSha1
-    static void _set_HmacSha1(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+    static void _set_HmacSha1(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier HmacTiger
-    static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_HmacTiger();
+    static ::Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_HmacTiger();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier HmacTiger
-    static void _set_HmacTiger(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+    static void _set_HmacTiger(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier HmacRipeMD160
-    static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_HmacRipeMD160();
+    static ::Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_HmacRipeMD160();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier HmacRipeMD160
-    static void _set_HmacRipeMD160(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+    static void _set_HmacRipeMD160(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // static private System.Void .cctor()
     // Offset: 0x1BC5AE0
     static void _cctor();

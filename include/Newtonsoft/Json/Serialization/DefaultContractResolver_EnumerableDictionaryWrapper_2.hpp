@@ -9,7 +9,7 @@
 #include "Newtonsoft/Json/Serialization/DefaultContractResolver.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Newtonsoft::Json::Serialization::DefaultContractResolver::EnumerableDictionaryWrapper_2, "Newtonsoft.Json.Serialization", "DefaultContractResolver/EnumerableDictionaryWrapper`2");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Newtonsoft::Json::Serialization::DefaultContractResolver::EnumerableDictionaryWrapper_2, "Newtonsoft.Json.Serialization", "DefaultContractResolver/EnumerableDictionaryWrapper`2");
 // Type namespace: Newtonsoft.Json.Serialization
 namespace Newtonsoft::Json::Serialization {
   // WARNING Size may be invalid!

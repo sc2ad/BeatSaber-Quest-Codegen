@@ -28,8 +28,8 @@ namespace System::Data {
   class ConstraintTable;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Data::ConstraintTable);
-DEFINE_IL2CPP_ARG_TYPE(System::Data::ConstraintTable*, "System.Data", "ConstraintTable");
+NEED_NO_BOX(::System::Data::ConstraintTable);
+DEFINE_IL2CPP_ARG_TYPE(::System::Data::ConstraintTable*, "System.Data", "ConstraintTable");
 // Type namespace: System.Data
 namespace System::Data {
   // Size: 0x20
@@ -50,30 +50,30 @@ namespace System::Data {
     // public System.Data.DataTable table
     // Size: 0x8
     // Offset: 0x10
-    System::Data::DataTable* table;
+    ::System::Data::DataTable* table;
     // Field size check
-    static_assert(sizeof(System::Data::DataTable*) == 0x8);
+    static_assert(sizeof(::System::Data::DataTable*) == 0x8);
     // public System.Xml.Schema.XmlSchemaIdentityConstraint constraint
     // Size: 0x8
     // Offset: 0x18
-    System::Xml::Schema::XmlSchemaIdentityConstraint* constraint;
+    ::System::Xml::Schema::XmlSchemaIdentityConstraint* constraint;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::XmlSchemaIdentityConstraint*) == 0x8);
+    static_assert(sizeof(::System::Xml::Schema::XmlSchemaIdentityConstraint*) == 0x8);
     public:
     // Get instance field reference: public System.Data.DataTable table
-    System::Data::DataTable*& dyn_table();
+    ::System::Data::DataTable*& dyn_table();
     // Get instance field reference: public System.Xml.Schema.XmlSchemaIdentityConstraint constraint
-    System::Xml::Schema::XmlSchemaIdentityConstraint*& dyn_constraint();
+    ::System::Xml::Schema::XmlSchemaIdentityConstraint*& dyn_constraint();
     // public System.Void .ctor(System.Data.DataTable t, System.Xml.Schema.XmlSchemaIdentityConstraint c)
     // Offset: 0x1E4ACD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ConstraintTable* New_ctor(System::Data::DataTable* t, System::Xml::Schema::XmlSchemaIdentityConstraint* c) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Data::ConstraintTable::.ctor");
+    static ConstraintTable* New_ctor(::System::Data::DataTable* t, ::System::Xml::Schema::XmlSchemaIdentityConstraint* c) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Data::ConstraintTable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConstraintTable*, creationType>(t, c)));
     }
   }; // System.Data.ConstraintTable
   #pragma pack(pop)
-  static check_size<sizeof(ConstraintTable), 24 + sizeof(System::Xml::Schema::XmlSchemaIdentityConstraint*)> __System_Data_ConstraintTableSizeCheck;
+  static check_size<sizeof(ConstraintTable), 24 + sizeof(::System::Xml::Schema::XmlSchemaIdentityConstraint*)> __System_Data_ConstraintTableSizeCheck;
   static_assert(sizeof(ConstraintTable) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

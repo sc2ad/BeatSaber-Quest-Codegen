@@ -9,8 +9,8 @@
 #include "UnityEngine/Timeline/TimelineAsset.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Timeline::TimelineAsset::TimelineAssetUpgrade);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineAsset::TimelineAssetUpgrade*, "UnityEngine.Timeline", "TimelineAsset/TimelineAssetUpgrade");
+NEED_NO_BOX(::UnityEngine::Timeline::TimelineAsset::TimelineAssetUpgrade);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::TimelineAsset::TimelineAssetUpgrade*, "UnityEngine.Timeline", "TimelineAsset/TimelineAssetUpgrade");
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
   // Size: 0x10

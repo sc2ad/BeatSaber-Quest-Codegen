@@ -11,8 +11,8 @@ namespace UnityEngine::UI::CoroutineTween {
   class ITweenValue;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::UI::CoroutineTween::ITweenValue);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CoroutineTween::ITweenValue*, "UnityEngine.UI.CoroutineTween", "ITweenValue");
+NEED_NO_BOX(::UnityEngine::UI::CoroutineTween::ITweenValue);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::CoroutineTween::ITweenValue*, "UnityEngine.UI.CoroutineTween", "ITweenValue");
 // Type namespace: UnityEngine.UI.CoroutineTween
 namespace UnityEngine::UI::CoroutineTween {
   // Size: 0x10

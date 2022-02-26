@@ -29,8 +29,8 @@ namespace GlobalNamespace {
   class IQuickPlaySetupModel;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::IQuickPlaySetupModel);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IQuickPlaySetupModel*, "", "IQuickPlaySetupModel");
+NEED_NO_BOX(::GlobalNamespace::IQuickPlaySetupModel);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IQuickPlaySetupModel*, "", "IQuickPlaySetupModel");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     public:
     // public System.Threading.Tasks.Task`1<QuickPlaySetupData> GetQuickPlaySetupAsync(System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF
-    System::Threading::Tasks::Task_1<GlobalNamespace::QuickPlaySetupData*>* GetQuickPlaySetupAsync(System::Threading::CancellationToken cancellationToken);
+    ::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>* GetQuickPlaySetupAsync(::System::Threading::CancellationToken cancellationToken);
   }; // IQuickPlaySetupModel
   #pragma pack(pop)
 }
@@ -49,7 +49,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::IQuickPlaySetupModel::GetQuickPlaySetupAsync
 // Il2CppName: GetQuickPlaySetupAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::QuickPlaySetupData*>* (GlobalNamespace::IQuickPlaySetupModel::*)(System::Threading::CancellationToken)>(&GlobalNamespace::IQuickPlaySetupModel::GetQuickPlaySetupAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>* (GlobalNamespace::IQuickPlaySetupModel::*)(::System::Threading::CancellationToken)>(&GlobalNamespace::IQuickPlaySetupModel::GetQuickPlaySetupAsync)> {
   static const MethodInfo* get() {
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IQuickPlaySetupModel*), "GetQuickPlaySetupAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cancellationToken});

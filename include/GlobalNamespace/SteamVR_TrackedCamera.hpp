@@ -22,8 +22,8 @@ namespace GlobalNamespace {
   class SteamVR_TrackedCamera;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::SteamVR_TrackedCamera);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_TrackedCamera*, "", "SteamVR_TrackedCamera");
+NEED_NO_BOX(::GlobalNamespace::SteamVR_TrackedCamera);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SteamVR_TrackedCamera*, "", "SteamVR_TrackedCamera");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -32,41 +32,41 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SteamVR_TrackedCamera : public ::Il2CppObject {
     public:
-    // Nested type: GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture
+    // Nested type: ::GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture
     class VideoStreamTexture;
-    // Nested type: GlobalNamespace::SteamVR_TrackedCamera::VideoStream
+    // Nested type: ::GlobalNamespace::SteamVR_TrackedCamera::VideoStream
     class VideoStream;
     // Get static field: static private SteamVR_TrackedCamera/VideoStreamTexture[] distorted
-    static ::ArrayW<GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture*> _get_distorted();
+    static ::ArrayW<::GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture*> _get_distorted();
     // Set static field: static private SteamVR_TrackedCamera/VideoStreamTexture[] distorted
-    static void _set_distorted(::ArrayW<GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture*> value);
+    static void _set_distorted(::ArrayW<::GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture*> value);
     // Get static field: static private SteamVR_TrackedCamera/VideoStreamTexture[] undistorted
-    static ::ArrayW<GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture*> _get_undistorted();
+    static ::ArrayW<::GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture*> _get_undistorted();
     // Set static field: static private SteamVR_TrackedCamera/VideoStreamTexture[] undistorted
-    static void _set_undistorted(::ArrayW<GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture*> value);
+    static void _set_undistorted(::ArrayW<::GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture*> value);
     // Get static field: static private SteamVR_TrackedCamera/VideoStream[] videostreams
-    static ::ArrayW<GlobalNamespace::SteamVR_TrackedCamera::VideoStream*> _get_videostreams();
+    static ::ArrayW<::GlobalNamespace::SteamVR_TrackedCamera::VideoStream*> _get_videostreams();
     // Set static field: static private SteamVR_TrackedCamera/VideoStream[] videostreams
-    static void _set_videostreams(::ArrayW<GlobalNamespace::SteamVR_TrackedCamera::VideoStream*> value);
+    static void _set_videostreams(::ArrayW<::GlobalNamespace::SteamVR_TrackedCamera::VideoStream*> value);
     // static public SteamVR_TrackedCamera/VideoStreamTexture Distorted(System.Int32 deviceIndex)
     // Offset: 0x1AEBE94
-    static GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture* Distorted(int deviceIndex);
+    static ::GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture* Distorted(int deviceIndex);
     // static public SteamVR_TrackedCamera/VideoStreamTexture Undistorted(System.Int32 deviceIndex)
     // Offset: 0x1AEC034
-    static GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture* Undistorted(int deviceIndex);
+    static ::GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture* Undistorted(int deviceIndex);
     // static public SteamVR_TrackedCamera/VideoStreamTexture Source(System.Boolean undistorted, System.Int32 deviceIndex)
     // Offset: 0x1AEC184
-    static GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture* Source(bool undistorted, int deviceIndex);
+    static ::GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture* Source(bool undistorted, int deviceIndex);
     // static private SteamVR_TrackedCamera/VideoStream Stream(System.UInt32 deviceIndex)
     // Offset: 0x1AEC198
-    static GlobalNamespace::SteamVR_TrackedCamera::VideoStream* Stream(uint deviceIndex);
+    static ::GlobalNamespace::SteamVR_TrackedCamera::VideoStream* Stream(uint deviceIndex);
     // public System.Void .ctor()
     // Offset: 0x1AEC36C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_TrackedCamera* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_TrackedCamera::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_TrackedCamera::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_TrackedCamera*, creationType>()));
     }
   }; // SteamVR_TrackedCamera
@@ -76,7 +76,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_TrackedCamera::Distorted
 // Il2CppName: Distorted
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture* (*)(int)>(&GlobalNamespace::SteamVR_TrackedCamera::Distorted)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture* (*)(int)>(&GlobalNamespace::SteamVR_TrackedCamera::Distorted)> {
   static const MethodInfo* get() {
     static auto* deviceIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_TrackedCamera*), "Distorted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{deviceIndex});
@@ -85,7 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_TrackedCamera::Undistorted
 // Il2CppName: Undistorted
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture* (*)(int)>(&GlobalNamespace::SteamVR_TrackedCamera::Undistorted)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture* (*)(int)>(&GlobalNamespace::SteamVR_TrackedCamera::Undistorted)> {
   static const MethodInfo* get() {
     static auto* deviceIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_TrackedCamera*), "Undistorted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{deviceIndex});
@@ -94,7 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_TrackedCamera::Source
 // Il2CppName: Source
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture* (*)(bool, int)>(&GlobalNamespace::SteamVR_TrackedCamera::Source)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture* (*)(bool, int)>(&GlobalNamespace::SteamVR_TrackedCamera::Source)> {
   static const MethodInfo* get() {
     static auto* undistorted = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* deviceIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -104,7 +104,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_TrackedCamera::Stream
 // Il2CppName: Stream
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_TrackedCamera::VideoStream* (*)(uint)>(&GlobalNamespace::SteamVR_TrackedCamera::Stream)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SteamVR_TrackedCamera::VideoStream* (*)(uint)>(&GlobalNamespace::SteamVR_TrackedCamera::Stream)> {
   static const MethodInfo* get() {
     static auto* deviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_TrackedCamera*), "Stream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{deviceIndex});

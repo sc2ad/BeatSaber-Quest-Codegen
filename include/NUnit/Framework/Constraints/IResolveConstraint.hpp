@@ -18,8 +18,8 @@ namespace NUnit::Framework::Constraints {
   class IResolveConstraint;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Constraints::IResolveConstraint);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::IResolveConstraint*, "NUnit.Framework.Constraints", "IResolveConstraint");
+NEED_NO_BOX(::NUnit::Framework::Constraints::IResolveConstraint);
+DEFINE_IL2CPP_ARG_TYPE(::NUnit::Framework::Constraints::IResolveConstraint*, "NUnit.Framework.Constraints", "IResolveConstraint");
 // Type namespace: NUnit.Framework.Constraints
 namespace NUnit::Framework::Constraints {
   // Size: 0x10
@@ -30,7 +30,7 @@ namespace NUnit::Framework::Constraints {
     public:
     // public NUnit.Framework.Constraints.IConstraint Resolve()
     // Offset: 0xFFFFFFFF
-    NUnit::Framework::Constraints::IConstraint* Resolve();
+    ::NUnit::Framework::Constraints::IConstraint* Resolve();
   }; // NUnit.Framework.Constraints.IResolveConstraint
   #pragma pack(pop)
 }
@@ -38,7 +38,7 @@ namespace NUnit::Framework::Constraints {
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::IResolveConstraint::Resolve
 // Il2CppName: Resolve
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::IConstraint* (NUnit::Framework::Constraints::IResolveConstraint::*)()>(&NUnit::Framework::Constraints::IResolveConstraint::Resolve)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::NUnit::Framework::Constraints::IConstraint* (NUnit::Framework::Constraints::IResolveConstraint::*)()>(&NUnit::Framework::Constraints::IResolveConstraint::Resolve)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::IResolveConstraint*), "Resolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

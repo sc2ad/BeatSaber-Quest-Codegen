@@ -24,8 +24,8 @@ namespace GlobalNamespace {
   class IReadonlyBeatmapLineData;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::IReadonlyBeatmapLineData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IReadonlyBeatmapLineData*, "", "IReadonlyBeatmapLineData");
+NEED_NO_BOX(::GlobalNamespace::IReadonlyBeatmapLineData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IReadonlyBeatmapLineData*, "", "IReadonlyBeatmapLineData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -36,7 +36,7 @@ namespace GlobalNamespace {
     public:
     // public System.Collections.Generic.IReadOnlyList`1<BeatmapObjectData> get_beatmapObjectsData()
     // Offset: 0xFFFFFFFF
-    System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::BeatmapObjectData*>* get_beatmapObjectsData();
+    ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapObjectData*>* get_beatmapObjectsData();
   }; // IReadonlyBeatmapLineData
   #pragma pack(pop)
 }
@@ -44,7 +44,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::IReadonlyBeatmapLineData::get_beatmapObjectsData
 // Il2CppName: get_beatmapObjectsData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::BeatmapObjectData*>* (GlobalNamespace::IReadonlyBeatmapLineData::*)()>(&GlobalNamespace::IReadonlyBeatmapLineData::get_beatmapObjectsData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapObjectData*>* (GlobalNamespace::IReadonlyBeatmapLineData::*)()>(&GlobalNamespace::IReadonlyBeatmapLineData::get_beatmapObjectsData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IReadonlyBeatmapLineData*), "get_beatmapObjectsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

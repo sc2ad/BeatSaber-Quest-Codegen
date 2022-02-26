@@ -28,8 +28,8 @@ namespace GlobalNamespace {
   class PlayerLevelStatsData;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PlayerLevelStatsData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerLevelStatsData*, "", "PlayerLevelStatsData");
+NEED_NO_BOX(::GlobalNamespace::PlayerLevelStatsData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlayerLevelStatsData*, "", "PlayerLevelStatsData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x40
@@ -70,9 +70,9 @@ namespace GlobalNamespace {
     // private RankModel/Rank _maxRank
     // Size: 0x4
     // Offset: 0x1C
-    GlobalNamespace::RankModel::Rank maxRank;
+    ::GlobalNamespace::RankModel::Rank maxRank;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::RankModel::Rank) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::RankModel::Rank) == 0x4);
     // private System.Boolean _validScore
     // Size: 0x1
     // Offset: 0x20
@@ -96,17 +96,17 @@ namespace GlobalNamespace {
     // private BeatmapDifficulty _difficulty
     // Size: 0x4
     // Offset: 0x30
-    GlobalNamespace::BeatmapDifficulty difficulty;
+    ::GlobalNamespace::BeatmapDifficulty difficulty;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::BeatmapDifficulty) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::BeatmapDifficulty) == 0x4);
     // Padding between fields: difficulty and: beatmapCharacteristic
     char __padding7[0x4] = {};
     // private BeatmapCharacteristicSO _beatmapCharacteristic
     // Size: 0x8
     // Offset: 0x38
-    GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic;
+    ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::BeatmapCharacteristicSO*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::BeatmapCharacteristicSO*) == 0x8);
     public:
     // Get instance field reference: private System.Int32 _highScore
     int& dyn__highScore();
@@ -115,7 +115,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _fullCombo
     bool& dyn__fullCombo();
     // Get instance field reference: private RankModel/Rank _maxRank
-    GlobalNamespace::RankModel::Rank& dyn__maxRank();
+    ::GlobalNamespace::RankModel::Rank& dyn__maxRank();
     // Get instance field reference: private System.Boolean _validScore
     bool& dyn__validScore();
     // Get instance field reference: private System.Int32 _playCount
@@ -123,18 +123,18 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _levelID
     ::StringW& dyn__levelID();
     // Get instance field reference: private BeatmapDifficulty _difficulty
-    GlobalNamespace::BeatmapDifficulty& dyn__difficulty();
+    ::GlobalNamespace::BeatmapDifficulty& dyn__difficulty();
     // Get instance field reference: private BeatmapCharacteristicSO _beatmapCharacteristic
-    GlobalNamespace::BeatmapCharacteristicSO*& dyn__beatmapCharacteristic();
+    ::GlobalNamespace::BeatmapCharacteristicSO*& dyn__beatmapCharacteristic();
     // public System.String get_levelID()
     // Offset: 0x13E2E88
     ::StringW get_levelID();
     // public BeatmapDifficulty get_difficulty()
     // Offset: 0x13E2E90
-    GlobalNamespace::BeatmapDifficulty get_difficulty();
+    ::GlobalNamespace::BeatmapDifficulty get_difficulty();
     // public BeatmapCharacteristicSO get_beatmapCharacteristic()
     // Offset: 0x13E2E98
-    GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
+    ::GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
     // public System.Int32 get_highScore()
     // Offset: 0x13E2EA0
     int get_highScore();
@@ -146,7 +146,7 @@ namespace GlobalNamespace {
     bool get_fullCombo();
     // public RankModel/Rank get_maxRank()
     // Offset: 0x13E2EB8
-    GlobalNamespace::RankModel::Rank get_maxRank();
+    ::GlobalNamespace::RankModel::Rank get_maxRank();
     // public System.Boolean get_validScore()
     // Offset: 0x13E2EC0
     bool get_validScore();
@@ -156,26 +156,26 @@ namespace GlobalNamespace {
     // public System.Void .ctor(System.String levelID, BeatmapDifficulty difficulty, BeatmapCharacteristicSO beatmapCharacteristic)
     // Offset: 0x13E2ED0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PlayerLevelStatsData* New_ctor(::StringW levelID, GlobalNamespace::BeatmapDifficulty difficulty, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerLevelStatsData::.ctor");
+    static PlayerLevelStatsData* New_ctor(::StringW levelID, ::GlobalNamespace::BeatmapDifficulty difficulty, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerLevelStatsData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerLevelStatsData*, creationType>(levelID, difficulty, beatmapCharacteristic)));
     }
     // public System.Void .ctor(System.String levelID, BeatmapDifficulty difficulty, BeatmapCharacteristicSO beatmapCharacteristic, System.Int32 highScore, System.Int32 maxCombo, System.Boolean fullCombo, RankModel/Rank maxRank, System.Boolean validScore, System.Int32 playCount)
     // Offset: 0x13E12E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PlayerLevelStatsData* New_ctor(::StringW levelID, GlobalNamespace::BeatmapDifficulty difficulty, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, int highScore, int maxCombo, bool fullCombo, GlobalNamespace::RankModel::Rank maxRank, bool validScore, int playCount) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerLevelStatsData::.ctor");
+    static PlayerLevelStatsData* New_ctor(::StringW levelID, ::GlobalNamespace::BeatmapDifficulty difficulty, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, int highScore, int maxCombo, bool fullCombo, ::GlobalNamespace::RankModel::Rank maxRank, bool validScore, int playCount) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerLevelStatsData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerLevelStatsData*, creationType>(levelID, difficulty, beatmapCharacteristic, highScore, maxCombo, fullCombo, maxRank, validScore, playCount)));
     }
     // public System.Void UpdateScoreData(System.Int32 score, System.Int32 maxCombo, System.Boolean fullCombo, RankModel/Rank rank)
     // Offset: 0x13E2F14
-    void UpdateScoreData(int score, int maxCombo, bool fullCombo, GlobalNamespace::RankModel::Rank rank);
+    void UpdateScoreData(int score, int maxCombo, bool fullCombo, ::GlobalNamespace::RankModel::Rank rank);
     // public System.Void IncreaseNumberOfGameplays()
     // Offset: 0x13E2FF8
     void IncreaseNumberOfGameplays();
   }; // PlayerLevelStatsData
   #pragma pack(pop)
-  static check_size<sizeof(PlayerLevelStatsData), 56 + sizeof(GlobalNamespace::BeatmapCharacteristicSO*)> __GlobalNamespace_PlayerLevelStatsDataSizeCheck;
+  static check_size<sizeof(PlayerLevelStatsData), 56 + sizeof(::GlobalNamespace::BeatmapCharacteristicSO*)> __GlobalNamespace_PlayerLevelStatsDataSizeCheck;
   static_assert(sizeof(PlayerLevelStatsData) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -190,7 +190,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: GlobalNamespace::PlayerLevelStatsData::get_difficulty
 // Il2CppName: get_difficulty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapDifficulty (GlobalNamespace::PlayerLevelStatsData::*)()>(&GlobalNamespace::PlayerLevelStatsData::get_difficulty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapDifficulty (GlobalNamespace::PlayerLevelStatsData::*)()>(&GlobalNamespace::PlayerLevelStatsData::get_difficulty)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerLevelStatsData*), "get_difficulty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -198,7 +198,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::PlayerLevelStatsData::get_beatmapCharacteristic
 // Il2CppName: get_beatmapCharacteristic
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapCharacteristicSO* (GlobalNamespace::PlayerLevelStatsData::*)()>(&GlobalNamespace::PlayerLevelStatsData::get_beatmapCharacteristic)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapCharacteristicSO* (GlobalNamespace::PlayerLevelStatsData::*)()>(&GlobalNamespace::PlayerLevelStatsData::get_beatmapCharacteristic)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerLevelStatsData*), "get_beatmapCharacteristic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -230,7 +230,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PlayerLevelStatsData::get_maxRank
 // Il2CppName: get_maxRank
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::RankModel::Rank (GlobalNamespace::PlayerLevelStatsData::*)()>(&GlobalNamespace::PlayerLevelStatsData::get_maxRank)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::RankModel::Rank (GlobalNamespace::PlayerLevelStatsData::*)()>(&GlobalNamespace::PlayerLevelStatsData::get_maxRank)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerLevelStatsData*), "get_maxRank", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -262,7 +262,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Writing MetadataGetter for method: GlobalNamespace::PlayerLevelStatsData::UpdateScoreData
 // Il2CppName: UpdateScoreData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerLevelStatsData::*)(int, int, bool, GlobalNamespace::RankModel::Rank)>(&GlobalNamespace::PlayerLevelStatsData::UpdateScoreData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerLevelStatsData::*)(int, int, bool, ::GlobalNamespace::RankModel::Rank)>(&GlobalNamespace::PlayerLevelStatsData::UpdateScoreData)> {
   static const MethodInfo* get() {
     static auto* score = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* maxCombo = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

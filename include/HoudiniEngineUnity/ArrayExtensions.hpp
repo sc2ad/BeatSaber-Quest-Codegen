@@ -25,8 +25,8 @@ namespace HoudiniEngineUnity {
   class ArrayExtensions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::ArrayExtensions);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::ArrayExtensions*, "HoudiniEngineUnity", "ArrayExtensions");
+NEED_NO_BOX(::HoudiniEngineUnity::ArrayExtensions);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::ArrayExtensions*, "HoudiniEngineUnity", "ArrayExtensions");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x10
@@ -40,7 +40,7 @@ namespace HoudiniEngineUnity {
     // Offset: 0xFFFFFFFF
     template<class T>
     static void Init(::ArrayW<T> array, T defaultValue) {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::ArrayExtensions::Init");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::ArrayExtensions::Init");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "ArrayExtensions", "Init", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(defaultValue)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, array, defaultValue);
@@ -48,8 +48,8 @@ namespace HoudiniEngineUnity {
     // static public System.Void Init(System.Collections.Generic.List`1<T> array, T defaultValue)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static void Init(System::Collections::Generic::List_1<T>* array, T defaultValue) {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::ArrayExtensions::Init");
+    static void Init(::System::Collections::Generic::List_1<T>* array, T defaultValue) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::ArrayExtensions::Init");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "ArrayExtensions", "Init", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(defaultValue)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, array, defaultValue);
@@ -58,7 +58,7 @@ namespace HoudiniEngineUnity {
     // Offset: 0xFFFFFFFF
     template<class T>
     static void CopyToWithResize(::ArrayW<T> srcArray, ByRef<::ArrayW<T>> destArray) {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::ArrayExtensions::CopyToWithResize");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::ArrayExtensions::CopyToWithResize");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "ArrayExtensions", "CopyToWithResize", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(srcArray), ::il2cpp_utils::ExtractType(destArray)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, srcArray, byref(destArray));
@@ -67,7 +67,7 @@ namespace HoudiniEngineUnity {
     // Offset: 0xFFFFFFFF
     template<class T>
     static bool IsEquivalentArray(::ArrayW<T> arr, ::ArrayW<T> other) {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::ArrayExtensions::IsEquivalentArray");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::ArrayExtensions::IsEquivalentArray");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "ArrayExtensions", "IsEquivalentArray", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arr), ::il2cpp_utils::ExtractType(other)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, arr, other);
@@ -76,7 +76,7 @@ namespace HoudiniEngineUnity {
     // Offset: 0xFFFFFFFF
     template<class T>
     static bool IsNull(::ArrayW<T> arr) {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::ArrayExtensions::IsNull");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::ArrayExtensions::IsNull");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "ArrayExtensions", "IsNull", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arr)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, arr);

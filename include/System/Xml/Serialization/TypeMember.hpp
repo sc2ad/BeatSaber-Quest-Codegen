@@ -24,8 +24,8 @@ namespace System::Xml::Serialization {
   class TypeMember;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Serialization::TypeMember);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Serialization::TypeMember*, "System.Xml.Serialization", "TypeMember");
+NEED_NO_BOX(::System::Xml::Serialization::TypeMember);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::TypeMember*, "System.Xml.Serialization", "TypeMember");
 // Type namespace: System.Xml.Serialization
 namespace System::Xml::Serialization {
   // Size: 0x20
@@ -46,9 +46,9 @@ namespace System::Xml::Serialization {
     // private System.Type type
     // Size: 0x8
     // Offset: 0x10
-    System::Type* type;
+    ::System::Type* type;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     // private System.String member
     // Size: 0x8
     // Offset: 0x18
@@ -57,19 +57,19 @@ namespace System::Xml::Serialization {
     static_assert(sizeof(::StringW) == 0x8);
     public:
     // Get instance field reference: private System.Type type
-    System::Type*& dyn_type();
+    ::System::Type*& dyn_type();
     // Get instance field reference: private System.String member
     ::StringW& dyn_member();
     // System.Void .ctor(System.Type type, System.String member)
     // Offset: 0x194D0E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TypeMember* New_ctor(System::Type* type, ::StringW member) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Serialization::TypeMember::.ctor");
+    static TypeMember* New_ctor(::System::Type* type, ::StringW member) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Serialization::TypeMember::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeMember*, creationType>(type, member)));
     }
     // static public System.Boolean Equals(System.Xml.Serialization.TypeMember tm1, System.Xml.Serialization.TypeMember tm2)
     // Offset: 0x194D1F4
-    static bool Equals(System::Xml::Serialization::TypeMember* tm1, System::Xml::Serialization::TypeMember* tm2);
+    static bool Equals(::System::Xml::Serialization::TypeMember* tm1, ::System::Xml::Serialization::TypeMember* tm2);
     // public override System.Int32 GetHashCode()
     // Offset: 0x194D11C
     // Implemented from: System.Object
@@ -98,7 +98,7 @@ namespace System::Xml::Serialization {
 // Writing MetadataGetter for method: System::Xml::Serialization::TypeMember::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Xml::Serialization::TypeMember*, System::Xml::Serialization::TypeMember*)>(&System::Xml::Serialization::TypeMember::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Xml::Serialization::TypeMember*, ::System::Xml::Serialization::TypeMember*)>(&System::Xml::Serialization::TypeMember::Equals)> {
   static const MethodInfo* get() {
     static auto* tm1 = &::il2cpp_utils::GetClassFromName("System.Xml.Serialization", "TypeMember")->byval_arg;
     static auto* tm2 = &::il2cpp_utils::GetClassFromName("System.Xml.Serialization", "TypeMember")->byval_arg;

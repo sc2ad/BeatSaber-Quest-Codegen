@@ -23,8 +23,8 @@ namespace System::Xml::Schema {
   class XsdSimpleValue;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Schema::XsdSimpleValue);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::XsdSimpleValue*, "System.Xml.Schema", "XsdSimpleValue");
+NEED_NO_BOX(::System::Xml::Schema::XsdSimpleValue);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XsdSimpleValue*, "System.Xml.Schema", "XsdSimpleValue");
 // Type namespace: System.Xml.Schema
 namespace System::Xml::Schema {
   // Size: 0x20
@@ -45,9 +45,9 @@ namespace System::Xml::Schema {
     // private System.Xml.Schema.XmlSchemaSimpleType xmlType
     // Size: 0x8
     // Offset: 0x10
-    System::Xml::Schema::XmlSchemaSimpleType* xmlType;
+    ::System::Xml::Schema::XmlSchemaSimpleType* xmlType;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::XmlSchemaSimpleType*) == 0x8);
+    static_assert(sizeof(::System::Xml::Schema::XmlSchemaSimpleType*) == 0x8);
     // private System.Object typedValue
     // Size: 0x8
     // Offset: 0x18
@@ -56,20 +56,20 @@ namespace System::Xml::Schema {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     public:
     // Get instance field reference: private System.Xml.Schema.XmlSchemaSimpleType xmlType
-    System::Xml::Schema::XmlSchemaSimpleType*& dyn_xmlType();
+    ::System::Xml::Schema::XmlSchemaSimpleType*& dyn_xmlType();
     // Get instance field reference: private System.Object typedValue
     ::Il2CppObject*& dyn_typedValue();
     // public System.Xml.Schema.XmlSchemaSimpleType get_XmlType()
     // Offset: 0x1940A4C
-    System::Xml::Schema::XmlSchemaSimpleType* get_XmlType();
+    ::System::Xml::Schema::XmlSchemaSimpleType* get_XmlType();
     // public System.Object get_TypedValue()
     // Offset: 0x1940A54
     ::Il2CppObject* get_TypedValue();
     // public System.Void .ctor(System.Xml.Schema.XmlSchemaSimpleType st, System.Object value)
     // Offset: 0x1940A14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XsdSimpleValue* New_ctor(System::Xml::Schema::XmlSchemaSimpleType* st, ::Il2CppObject* value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Schema::XsdSimpleValue::.ctor");
+    static XsdSimpleValue* New_ctor(::System::Xml::Schema::XmlSchemaSimpleType* st, ::Il2CppObject* value) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XsdSimpleValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XsdSimpleValue*, creationType>(st, value)));
     }
   }; // System.Xml.Schema.XsdSimpleValue
@@ -81,7 +81,7 @@ namespace System::Xml::Schema {
 // Writing MetadataGetter for method: System::Xml::Schema::XsdSimpleValue::get_XmlType
 // Il2CppName: get_XmlType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Schema::XmlSchemaSimpleType* (System::Xml::Schema::XsdSimpleValue::*)()>(&System::Xml::Schema::XsdSimpleValue::get_XmlType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaSimpleType* (System::Xml::Schema::XsdSimpleValue::*)()>(&System::Xml::Schema::XsdSimpleValue::get_XmlType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XsdSimpleValue*), "get_XmlType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

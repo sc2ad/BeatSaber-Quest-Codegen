@@ -29,8 +29,8 @@ namespace GlobalNamespace {
   class OculusTestExperiment;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OculusTestExperiment);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusTestExperiment*, "", "OculusTestExperiment");
+NEED_NO_BOX(::GlobalNamespace::OculusTestExperiment);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OculusTestExperiment*, "", "OculusTestExperiment");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -39,9 +39,9 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OculusTestExperiment : public ::Il2CppObject {
     public:
-    // Nested type: GlobalNamespace::OculusTestExperiment::ExperimentData
+    // Nested type: ::GlobalNamespace::OculusTestExperiment::ExperimentData
     class ExperimentData;
-    // Nested type: GlobalNamespace::OculusTestExperiment::$Init$d__3
+    // Nested type: ::GlobalNamespace::OculusTestExperiment::$Init$d__3
     struct $Init$d__3;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -56,12 +56,12 @@ namespace GlobalNamespace {
     // private readonly IExperimentModel _experimentModel
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::IExperimentModel* experimentModel;
+    ::GlobalNamespace::IExperimentModel* experimentModel;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::IExperimentModel*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::IExperimentModel*) == 0x8);
     public:
-    // Creating conversion operator: operator GlobalNamespace::IExperimentModel*
-    constexpr operator GlobalNamespace::IExperimentModel*() const noexcept {
+    // Creating conversion operator: operator ::GlobalNamespace::IExperimentModel*
+    constexpr operator ::GlobalNamespace::IExperimentModel*() const noexcept {
       return experimentModel;
     }
     // static field const value: static private System.String kIsInTest1Key
@@ -71,7 +71,7 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kIsInTest1Key
     static void _set_kIsInTest1Key(::StringW value);
     // Get instance field reference: private readonly IExperimentModel _experimentModel
-    GlobalNamespace::IExperimentModel*& dyn__experimentModel();
+    ::GlobalNamespace::IExperimentModel*& dyn__experimentModel();
     // public System.Void Init()
     // Offset: 0x2BBAA14
     void Init();
@@ -81,12 +81,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusTestExperiment* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OculusTestExperiment::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusTestExperiment::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusTestExperiment*, creationType>()));
     }
   }; // OculusTestExperiment
   #pragma pack(pop)
-  static check_size<sizeof(OculusTestExperiment), 16 + sizeof(GlobalNamespace::IExperimentModel*)> __GlobalNamespace_OculusTestExperimentSizeCheck;
+  static check_size<sizeof(OculusTestExperiment), 16 + sizeof(::GlobalNamespace::IExperimentModel*)> __GlobalNamespace_OculusTestExperimentSizeCheck;
   static_assert(sizeof(OculusTestExperiment) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

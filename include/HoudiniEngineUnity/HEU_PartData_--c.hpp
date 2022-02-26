@@ -23,8 +23,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_PartData::$$c);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_PartData::$$c*, "HoudiniEngineUnity", "HEU_PartData/<>c");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_PartData::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_PartData::$$c*, "HoudiniEngineUnity", "HEU_PartData/<>c");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x10
@@ -35,26 +35,26 @@ namespace HoudiniEngineUnity {
   class HEU_PartData::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly HoudiniEngineUnity.HEU_PartData/HoudiniEngineUnity.<>c <>9
-    static HoudiniEngineUnity::HEU_PartData::$$c* _get_$$9();
+    static ::HoudiniEngineUnity::HEU_PartData::$$c* _get_$$9();
     // Set static field: static public readonly HoudiniEngineUnity.HEU_PartData/HoudiniEngineUnity.<>c <>9
-    static void _set_$$9(HoudiniEngineUnity::HEU_PartData::$$c* value);
+    static void _set_$$9(::HoudiniEngineUnity::HEU_PartData::$$c* value);
     // Get static field: static public System.Comparison`1<UnityEngine.LOD> <>9__85_0
-    static System::Comparison_1<UnityEngine::LOD>* _get_$$9__85_0();
+    static ::System::Comparison_1<::UnityEngine::LOD>* _get_$$9__85_0();
     // Set static field: static public System.Comparison`1<UnityEngine.LOD> <>9__85_0
-    static void _set_$$9__85_0(System::Comparison_1<UnityEngine::LOD>* value);
+    static void _set_$$9__85_0(::System::Comparison_1<::UnityEngine::LOD>* value);
     // static private System.Void .cctor()
     // Offset: 0x1A53EB8
     static void _cctor();
     // System.Int32 <CopyGameObjectComponents>b__85_0(UnityEngine.LOD a, UnityEngine.LOD b)
     // Offset: 0x1A53F24
-    int $CopyGameObjectComponents$b__85_0(UnityEngine::LOD a, UnityEngine::LOD b);
+    int $CopyGameObjectComponents$b__85_0(::UnityEngine::LOD a, ::UnityEngine::LOD b);
     // public System.Void .ctor()
     // Offset: 0x1A53F1C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_PartData::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_PartData::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_PartData::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_PartData::$$c*, creationType>()));
     }
   }; // HoudiniEngineUnity.HEU_PartData/HoudiniEngineUnity.<>c
@@ -72,7 +72,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PartData::$$c::$CopyGameObjectComponents$b__85_0
 // Il2CppName: <CopyGameObjectComponents>b__85_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (HoudiniEngineUnity::HEU_PartData::$$c::*)(UnityEngine::LOD, UnityEngine::LOD)>(&HoudiniEngineUnity::HEU_PartData::$$c::$CopyGameObjectComponents$b__85_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (HoudiniEngineUnity::HEU_PartData::$$c::*)(::UnityEngine::LOD, ::UnityEngine::LOD)>(&HoudiniEngineUnity::HEU_PartData::$$c::$CopyGameObjectComponents$b__85_0)> {
   static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("UnityEngine", "LOD")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("UnityEngine", "LOD")->byval_arg;

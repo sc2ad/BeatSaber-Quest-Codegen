@@ -16,8 +16,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::QueueData);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::QueueData*, "UnityEngine.TestTools.TestRunner.Callbacks", "RemoteTestResultSender/QueueData");
+NEED_NO_BOX(::UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::QueueData);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::QueueData*, "UnityEngine.TestTools.TestRunner.Callbacks", "RemoteTestResultSender/QueueData");
 // Type namespace: UnityEngine.TestTools.TestRunner.Callbacks
 namespace UnityEngine::TestTools::TestRunner::Callbacks {
   // Size: 0x28
@@ -38,9 +38,9 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // private System.Guid <id>k__BackingField
     // Size: 0x10
     // Offset: 0x10
-    System::Guid id;
+    ::System::Guid id;
     // Field size check
-    static_assert(sizeof(System::Guid) == 0x10);
+    static_assert(sizeof(::System::Guid) == 0x10);
     // private System.Byte[] <data>k__BackingField
     // Size: 0x8
     // Offset: 0x20
@@ -49,15 +49,15 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     public:
     // Get instance field reference: private System.Guid <id>k__BackingField
-    System::Guid& dyn_$id$k__BackingField();
+    ::System::Guid& dyn_$id$k__BackingField();
     // Get instance field reference: private System.Byte[] <data>k__BackingField
     ::ArrayW<uint8_t>& dyn_$data$k__BackingField();
     // public System.Guid get_id()
     // Offset: 0x18DCD3C
-    System::Guid get_id();
+    ::System::Guid get_id();
     // public System.Void set_id(System.Guid value)
     // Offset: 0x18DCD48
-    void set_id(System::Guid value);
+    void set_id(::System::Guid value);
     // public System.Byte[] get_data()
     // Offset: 0x18DCD50
     ::ArrayW<uint8_t> get_data();
@@ -70,7 +70,7 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RemoteTestResultSender::QueueData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::QueueData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::QueueData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RemoteTestResultSender::QueueData*, creationType>()));
     }
   }; // UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender/UnityEngine.TestTools.TestRunner.Callbacks.QueueData
@@ -82,7 +82,7 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::QueueData::get_id
 // Il2CppName: get_id
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Guid (UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::QueueData::*)()>(&UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::QueueData::get_id)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Guid (UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::QueueData::*)()>(&UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::QueueData::get_id)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::QueueData*), "get_id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -90,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Gui
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::QueueData::set_id
 // Il2CppName: set_id
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::QueueData::*)(System::Guid)>(&UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::QueueData::set_id)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::QueueData::*)(::System::Guid)>(&UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::QueueData::set_id)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Guid")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::QueueData*), "set_id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

@@ -21,7 +21,7 @@ namespace UnityEngine::Tilemaps {
   struct TileAnimationData;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Tilemaps::TileAnimationData, "UnityEngine.Tilemaps", "TileAnimationData");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Tilemaps::TileAnimationData, "UnityEngine.Tilemaps", "TileAnimationData");
 // Type namespace: UnityEngine.Tilemaps
 namespace UnityEngine::Tilemaps {
   // Size: 0x10
@@ -31,15 +31,15 @@ namespace UnityEngine::Tilemaps {
   // [TokenAttribute] Offset: FFFFFFFF
   // [RequiredByNativeCodeAttribute] Offset: 121AB70
   // [NativeTypeAttribute] Offset: 121AB70
-  struct TileAnimationData/*, public System::ValueType*/ {
+  struct TileAnimationData/*, public ::System::ValueType*/ {
     public:
     public:
     // private UnityEngine.Sprite[] m_AnimatedSprites
     // Size: 0x8
     // Offset: 0x0
-    ::ArrayW<UnityEngine::Sprite*> m_AnimatedSprites;
+    ::ArrayW<::UnityEngine::Sprite*> m_AnimatedSprites;
     // Field size check
-    static_assert(sizeof(::ArrayW<UnityEngine::Sprite*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::UnityEngine::Sprite*>) == 0x8);
     // private System.Single m_AnimationSpeed
     // Size: 0x4
     // Offset: 0x8
@@ -54,13 +54,13 @@ namespace UnityEngine::Tilemaps {
     static_assert(sizeof(float) == 0x4);
     public:
     // Creating value type constructor for type: TileAnimationData
-    constexpr TileAnimationData(::ArrayW<UnityEngine::Sprite*> m_AnimatedSprites_ = ::ArrayW<UnityEngine::Sprite*>(static_cast<void*>(nullptr)), float m_AnimationSpeed_ = {}, float m_AnimationStartTime_ = {}) noexcept : m_AnimatedSprites{m_AnimatedSprites_}, m_AnimationSpeed{m_AnimationSpeed_}, m_AnimationStartTime{m_AnimationStartTime_} {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    constexpr TileAnimationData(::ArrayW<::UnityEngine::Sprite*> m_AnimatedSprites_ = ::ArrayW<::UnityEngine::Sprite*>(static_cast<void*>(nullptr)), float m_AnimationSpeed_ = {}, float m_AnimationStartTime_ = {}) noexcept : m_AnimatedSprites{m_AnimatedSprites_}, m_AnimationSpeed{m_AnimationSpeed_}, m_AnimationStartTime{m_AnimationStartTime_} {}
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: private UnityEngine.Sprite[] m_AnimatedSprites
-    ::ArrayW<UnityEngine::Sprite*>& dyn_m_AnimatedSprites();
+    ::ArrayW<::UnityEngine::Sprite*>& dyn_m_AnimatedSprites();
     // Get instance field reference: private System.Single m_AnimationSpeed
     float& dyn_m_AnimationSpeed();
     // Get instance field reference: private System.Single m_AnimationStartTime

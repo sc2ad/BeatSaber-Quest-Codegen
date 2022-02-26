@@ -18,8 +18,8 @@ namespace GlobalNamespace {
   class IStartSeekSongController;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::IStartSeekSongController);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IStartSeekSongController*, "", "IStartSeekSongController");
+NEED_NO_BOX(::GlobalNamespace::IStartSeekSongController);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IStartSeekSongController*, "", "IStartSeekSongController");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -30,7 +30,7 @@ namespace GlobalNamespace {
     public:
     // public UnityEngine.WaitUntil get_waitUntilIsReadyToStartTheSong()
     // Offset: 0xFFFFFFFF
-    UnityEngine::WaitUntil* get_waitUntilIsReadyToStartTheSong();
+    ::UnityEngine::WaitUntil* get_waitUntilIsReadyToStartTheSong();
     // public System.Void StartSong(System.Single offsetTime)
     // Offset: 0xFFFFFFFF
     void StartSong(float offsetTime);
@@ -44,7 +44,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::IStartSeekSongController::get_waitUntilIsReadyToStartTheSong
 // Il2CppName: get_waitUntilIsReadyToStartTheSong
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::WaitUntil* (GlobalNamespace::IStartSeekSongController::*)()>(&GlobalNamespace::IStartSeekSongController::get_waitUntilIsReadyToStartTheSong)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::WaitUntil* (GlobalNamespace::IStartSeekSongController::*)()>(&GlobalNamespace::IStartSeekSongController::get_waitUntilIsReadyToStartTheSong)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IStartSeekSongController*), "get_waitUntilIsReadyToStartTheSong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

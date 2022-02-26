@@ -36,8 +36,8 @@ namespace HoudiniEngineUnity {
   class HEU_MeshData;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_MeshData);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_MeshData*, "HoudiniEngineUnity", "HEU_MeshData");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_MeshData);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_MeshData*, "HoudiniEngineUnity", "HEU_MeshData");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x54
@@ -58,88 +58,88 @@ namespace HoudiniEngineUnity {
     // public System.Collections.Generic.List`1<System.Int32> _indices
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::List_1<int>* indices;
+    ::System::Collections::Generic::List_1<int>* indices;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<int>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<int>*) == 0x8);
     // public System.Collections.Generic.List`1<UnityEngine.Vector3> _vertices
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::Generic::List_1<UnityEngine::Vector3>* vertices;
+    ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* vertices;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::Vector3>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*) == 0x8);
     // public System.Collections.Generic.List`1<UnityEngine.Color32> _colors
     // Size: 0x8
     // Offset: 0x20
-    System::Collections::Generic::List_1<UnityEngine::Color32>* colors;
+    ::System::Collections::Generic::List_1<::UnityEngine::Color32>* colors;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::Color32>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::UnityEngine::Color32>*) == 0x8);
     // public System.Collections.Generic.List`1<UnityEngine.Vector3> _normals
     // Size: 0x8
     // Offset: 0x28
-    System::Collections::Generic::List_1<UnityEngine::Vector3>* normals;
+    ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* normals;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::Vector3>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*) == 0x8);
     // public System.Collections.Generic.List`1<UnityEngine.Vector4> _tangents
     // Size: 0x8
     // Offset: 0x30
-    System::Collections::Generic::List_1<UnityEngine::Vector4>* tangents;
+    ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* tangents;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::Vector4>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::UnityEngine::Vector4>*) == 0x8);
     // public System.Collections.Generic.List`1<UnityEngine.Vector4>[] _uvs
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayW<System::Collections::Generic::List_1<UnityEngine::Vector4>*> uvs;
+    ::ArrayW<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*> uvs;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::Collections::Generic::List_1<UnityEngine::Vector4>*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*>) == 0x8);
     // public System.Collections.Generic.List`1<UnityEngine.Vector3> _triangleNormals
     // Size: 0x8
     // Offset: 0x40
-    System::Collections::Generic::List_1<UnityEngine::Vector3>* triangleNormals;
+    ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* triangleNormals;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::Vector3>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*) == 0x8);
     // public System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> _pointIndexToMeshIndexMap
     // Size: 0x8
     // Offset: 0x48
-    System::Collections::Generic::Dictionary_2<int, int>* pointIndexToMeshIndexMap;
+    ::System::Collections::Generic::Dictionary_2<int, int>* pointIndexToMeshIndexMap;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::Dictionary_2<int, int>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::Dictionary_2<int, int>*) == 0x8);
     // public UnityEngine.MeshTopology _meshTopology
     // Size: 0x4
     // Offset: 0x50
-    UnityEngine::MeshTopology meshTopology;
+    ::UnityEngine::MeshTopology meshTopology;
     // Field size check
-    static_assert(sizeof(UnityEngine::MeshTopology) == 0x4);
+    static_assert(sizeof(::UnityEngine::MeshTopology) == 0x4);
     public:
     // Get instance field reference: public System.Collections.Generic.List`1<System.Int32> _indices
-    System::Collections::Generic::List_1<int>*& dyn__indices();
+    ::System::Collections::Generic::List_1<int>*& dyn__indices();
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.Vector3> _vertices
-    System::Collections::Generic::List_1<UnityEngine::Vector3>*& dyn__vertices();
+    ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& dyn__vertices();
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.Color32> _colors
-    System::Collections::Generic::List_1<UnityEngine::Color32>*& dyn__colors();
+    ::System::Collections::Generic::List_1<::UnityEngine::Color32>*& dyn__colors();
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.Vector3> _normals
-    System::Collections::Generic::List_1<UnityEngine::Vector3>*& dyn__normals();
+    ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& dyn__normals();
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.Vector4> _tangents
-    System::Collections::Generic::List_1<UnityEngine::Vector4>*& dyn__tangents();
+    ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& dyn__tangents();
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.Vector4>[] _uvs
-    ::ArrayW<System::Collections::Generic::List_1<UnityEngine::Vector4>*>& dyn__uvs();
+    ::ArrayW<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*>& dyn__uvs();
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.Vector3> _triangleNormals
-    System::Collections::Generic::List_1<UnityEngine::Vector3>*& dyn__triangleNormals();
+    ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& dyn__triangleNormals();
     // Get instance field reference: public System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> _pointIndexToMeshIndexMap
-    System::Collections::Generic::Dictionary_2<int, int>*& dyn__pointIndexToMeshIndexMap();
+    ::System::Collections::Generic::Dictionary_2<int, int>*& dyn__pointIndexToMeshIndexMap();
     // Get instance field reference: public UnityEngine.MeshTopology _meshTopology
-    UnityEngine::MeshTopology& dyn__meshTopology();
+    ::UnityEngine::MeshTopology& dyn__meshTopology();
     // public System.Void .ctor()
     // Offset: 0x178BBC0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_MeshData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_MeshData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_MeshData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_MeshData*, creationType>()));
     }
   }; // HoudiniEngineUnity.HEU_MeshData
   #pragma pack(pop)
-  static check_size<sizeof(HEU_MeshData), 80 + sizeof(UnityEngine::MeshTopology)> __HoudiniEngineUnity_HEU_MeshDataSizeCheck;
+  static check_size<sizeof(HEU_MeshData), 80 + sizeof(::UnityEngine::MeshTopology)> __HoudiniEngineUnity_HEU_MeshDataSizeCheck;
   static_assert(sizeof(HEU_MeshData) == 0x54);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

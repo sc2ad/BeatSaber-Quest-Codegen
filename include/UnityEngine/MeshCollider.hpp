@@ -21,8 +21,8 @@ namespace UnityEngine {
   class MeshCollider;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::MeshCollider);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::MeshCollider*, "UnityEngine", "MeshCollider");
+NEED_NO_BOX(::UnityEngine::MeshCollider);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::MeshCollider*, "UnityEngine", "MeshCollider");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -32,14 +32,14 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: 11B9550
   // [RequiredByNativeCodeAttribute] Offset: 11B9550
   // [NativeHeaderAttribute] Offset: 11B9550
-  class MeshCollider : public UnityEngine::Collider {
+  class MeshCollider : public ::UnityEngine::Collider {
     public:
     // public UnityEngine.Mesh get_sharedMesh()
     // Offset: 0x2A42C5C
-    UnityEngine::Mesh* get_sharedMesh();
+    ::UnityEngine::Mesh* get_sharedMesh();
     // public System.Void set_sharedMesh(UnityEngine.Mesh value)
     // Offset: 0x2A42C9C
-    void set_sharedMesh(UnityEngine::Mesh* value);
+    void set_sharedMesh(::UnityEngine::Mesh* value);
     // public System.Void set_convex(System.Boolean value)
     // Offset: 0x2A42CEC
     void set_convex(bool value);
@@ -50,7 +50,7 @@ namespace UnityEngine {
 // Writing MetadataGetter for method: UnityEngine::MeshCollider::get_sharedMesh
 // Il2CppName: get_sharedMesh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Mesh* (UnityEngine::MeshCollider::*)()>(&UnityEngine::MeshCollider::get_sharedMesh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Mesh* (UnityEngine::MeshCollider::*)()>(&UnityEngine::MeshCollider::get_sharedMesh)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::MeshCollider*), "get_sharedMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -58,7 +58,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::MeshCollider::set_sharedMesh
 // Il2CppName: set_sharedMesh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::MeshCollider::*)(UnityEngine::Mesh*)>(&UnityEngine::MeshCollider::set_sharedMesh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::MeshCollider::*)(::UnityEngine::Mesh*)>(&UnityEngine::MeshCollider::set_sharedMesh)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::MeshCollider*), "set_sharedMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

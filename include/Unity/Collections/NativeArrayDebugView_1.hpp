@@ -20,7 +20,7 @@ namespace Unity::Collections {
   class NativeArrayDebugView_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Unity::Collections::NativeArrayDebugView_1, "Unity.Collections", "NativeArrayDebugView`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Unity::Collections::NativeArrayDebugView_1, "Unity.Collections", "NativeArrayDebugView`1");
 // Type namespace: Unity.Collections
 namespace Unity::Collections {
   // WARNING Size may be invalid!

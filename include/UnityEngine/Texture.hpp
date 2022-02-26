@@ -49,8 +49,8 @@ namespace UnityEngine {
   class Texture;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Texture);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Texture*, "UnityEngine", "Texture");
+NEED_NO_BOX(::UnityEngine::Texture);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Texture*, "UnityEngine", "Texture");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -60,7 +60,7 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: 11A4CA4
   // [NativeHeaderAttribute] Offset: 11A4CA4
   // [NativeHeaderAttribute] Offset: 11A4CA4
-  class Texture : public UnityEngine::Object {
+  class Texture : public ::UnityEngine::Object {
     public:
     // Get static field: static public readonly System.Int32 GenerateAllMips
     static int _get_GenerateAllMips();
@@ -83,19 +83,19 @@ namespace UnityEngine {
     void set_height(int value);
     // public System.Void set_dimension(UnityEngine.Rendering.TextureDimension value)
     // Offset: 0x26F7EA4
-    void set_dimension(UnityEngine::Rendering::TextureDimension value);
+    void set_dimension(::UnityEngine::Rendering::TextureDimension value);
     // public System.Boolean get_isReadable()
     // Offset: 0x26F7F04
     bool get_isReadable();
     // public UnityEngine.TextureWrapMode get_wrapMode()
     // Offset: 0x26F7F44
-    UnityEngine::TextureWrapMode get_wrapMode();
+    ::UnityEngine::TextureWrapMode get_wrapMode();
     // public System.Void set_wrapMode(UnityEngine.TextureWrapMode value)
     // Offset: 0x26F7F84
-    void set_wrapMode(UnityEngine::TextureWrapMode value);
+    void set_wrapMode(::UnityEngine::TextureWrapMode value);
     // public System.Void set_filterMode(UnityEngine.FilterMode value)
     // Offset: 0x26F7FD4
-    void set_filterMode(UnityEngine::FilterMode value);
+    void set_filterMode(::UnityEngine::FilterMode value);
     // public System.Void set_anisoLevel(System.Int32 value)
     // Offset: 0x26F8024
     void set_anisoLevel(int value);
@@ -104,7 +104,7 @@ namespace UnityEngine {
     void set_mipMapBias(float value);
     // public UnityEngine.Vector2 get_texelSize()
     // Offset: 0x26F80C4
-    UnityEngine::Vector2 get_texelSize();
+    ::UnityEngine::Vector2 get_texelSize();
     // private System.Int32 GetDataWidth()
     // Offset: 0x26F7CE4
     int GetDataWidth();
@@ -113,19 +113,19 @@ namespace UnityEngine {
     int GetDataHeight();
     // public System.IntPtr GetNativeTexturePtr()
     // Offset: 0x26F816C
-    System::IntPtr GetNativeTexturePtr();
+    ::System::IntPtr GetNativeTexturePtr();
     // System.Boolean ValidateFormat(UnityEngine.TextureFormat format)
     // Offset: 0x26F81AC
-    bool ValidateFormat(UnityEngine::TextureFormat format);
+    bool ValidateFormat(::UnityEngine::TextureFormat format);
     // System.Boolean ValidateFormat(UnityEngine.Experimental.Rendering.GraphicsFormat format, UnityEngine.Experimental.Rendering.FormatUsage usage)
     // Offset: 0x26F8314
-    bool ValidateFormat(UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::FormatUsage usage);
+    bool ValidateFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::Experimental::Rendering::FormatUsage usage);
     // UnityEngine.UnityException CreateNonReadableException(UnityEngine.Texture t)
     // Offset: 0x26F847C
-    UnityEngine::UnityException* CreateNonReadableException(UnityEngine::Texture* t);
+    ::UnityEngine::UnityException* CreateNonReadableException(::UnityEngine::Texture* t);
     // private System.Void get_texelSize_Injected(out UnityEngine.Vector2 ret)
     // Offset: 0x26F811C
-    void get_texelSize_Injected(ByRef<UnityEngine::Vector2> ret);
+    void get_texelSize_Injected(ByRef<::UnityEngine::Vector2> ret);
     // protected System.Void .ctor()
     // Offset: 0x26F7C3C
     // Implemented from: UnityEngine.Object
@@ -133,7 +133,7 @@ namespace UnityEngine {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Texture* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Texture::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Texture::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Texture*, creationType>()));
     }
     // static private System.Void .cctor()
@@ -190,7 +190,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Texture::set_dimension
 // Il2CppName: set_dimension
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Texture::*)(UnityEngine::Rendering::TextureDimension)>(&UnityEngine::Texture::set_dimension)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Texture::*)(::UnityEngine::Rendering::TextureDimension)>(&UnityEngine::Texture::set_dimension)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "TextureDimension")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Texture*), "set_dimension", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -207,7 +207,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::Texture::get_wrapMode
 // Il2CppName: get_wrapMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextureWrapMode (UnityEngine::Texture::*)()>(&UnityEngine::Texture::get_wrapMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextureWrapMode (UnityEngine::Texture::*)()>(&UnityEngine::Texture::get_wrapMode)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Texture*), "get_wrapMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -215,7 +215,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Texture::set_wrapMode
 // Il2CppName: set_wrapMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Texture::*)(UnityEngine::TextureWrapMode)>(&UnityEngine::Texture::set_wrapMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Texture::*)(::UnityEngine::TextureWrapMode)>(&UnityEngine::Texture::set_wrapMode)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "TextureWrapMode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Texture*), "set_wrapMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -224,7 +224,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Texture::set_filterMode
 // Il2CppName: set_filterMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Texture::*)(UnityEngine::FilterMode)>(&UnityEngine::Texture::set_filterMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Texture::*)(::UnityEngine::FilterMode)>(&UnityEngine::Texture::set_filterMode)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "FilterMode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Texture*), "set_filterMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -251,7 +251,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Texture::get_texelSize
 // Il2CppName: get_texelSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::Texture::*)()>(&UnityEngine::Texture::get_texelSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (UnityEngine::Texture::*)()>(&UnityEngine::Texture::get_texelSize)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Texture*), "get_texelSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -275,7 +275,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::Texture::GetNativeTexturePtr
 // Il2CppName: GetNativeTexturePtr
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (UnityEngine::Texture::*)()>(&UnityEngine::Texture::GetNativeTexturePtr)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (UnityEngine::Texture::*)()>(&UnityEngine::Texture::GetNativeTexturePtr)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Texture*), "GetNativeTexturePtr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -283,7 +283,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::Texture::ValidateFormat
 // Il2CppName: ValidateFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Texture::*)(UnityEngine::TextureFormat)>(&UnityEngine::Texture::ValidateFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Texture::*)(::UnityEngine::TextureFormat)>(&UnityEngine::Texture::ValidateFormat)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("UnityEngine", "TextureFormat")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Texture*), "ValidateFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{format});
@@ -292,7 +292,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::Texture::ValidateFormat
 // Il2CppName: ValidateFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Texture::*)(UnityEngine::Experimental::Rendering::GraphicsFormat, UnityEngine::Experimental::Rendering::FormatUsage)>(&UnityEngine::Texture::ValidateFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Texture::*)(::UnityEngine::Experimental::Rendering::GraphicsFormat, ::UnityEngine::Experimental::Rendering::FormatUsage)>(&UnityEngine::Texture::ValidateFormat)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("UnityEngine.Experimental.Rendering", "GraphicsFormat")->byval_arg;
     static auto* usage = &::il2cpp_utils::GetClassFromName("UnityEngine.Experimental.Rendering", "FormatUsage")->byval_arg;
@@ -302,7 +302,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::Texture::CreateNonReadableException
 // Il2CppName: CreateNonReadableException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UnityException* (UnityEngine::Texture::*)(UnityEngine::Texture*)>(&UnityEngine::Texture::CreateNonReadableException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UnityException* (UnityEngine::Texture::*)(::UnityEngine::Texture*)>(&UnityEngine::Texture::CreateNonReadableException)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Texture*), "CreateNonReadableException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
@@ -311,7 +311,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Texture::get_texelSize_Injected
 // Il2CppName: get_texelSize_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Texture::*)(ByRef<UnityEngine::Vector2>)>(&UnityEngine::Texture::get_texelSize_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Texture::*)(ByRef<::UnityEngine::Vector2>)>(&UnityEngine::Texture::get_texelSize_Injected)> {
   static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Texture*), "get_texelSize_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});

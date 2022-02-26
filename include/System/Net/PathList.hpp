@@ -31,8 +31,8 @@ namespace System::Net {
   class PathList;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::PathList);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::PathList*, "System.Net", "PathList");
+NEED_NO_BOX(::System::Net::PathList);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::PathList*, "System.Net", "PathList");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x18
@@ -42,7 +42,7 @@ namespace System::Net {
   // [DefaultMemberAttribute] Offset: 119A65C
   class PathList : public ::Il2CppObject {
     public:
-    // Nested type: System::Net::PathList::PathListComparer
+    // Nested type: ::System::Net::PathList::PathListComparer
     class PathListComparer;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -56,22 +56,22 @@ namespace System::Net {
     // private System.Collections.SortedList m_list
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::SortedList* m_list;
+    ::System::Collections::SortedList* m_list;
     // Field size check
-    static_assert(sizeof(System::Collections::SortedList*) == 0x8);
+    static_assert(sizeof(::System::Collections::SortedList*) == 0x8);
     public:
-    // Creating conversion operator: operator System::Collections::SortedList*
-    constexpr operator System::Collections::SortedList*() const noexcept {
+    // Creating conversion operator: operator ::System::Collections::SortedList*
+    constexpr operator ::System::Collections::SortedList*() const noexcept {
       return m_list;
     }
     // Get instance field reference: private System.Collections.SortedList m_list
-    System::Collections::SortedList*& dyn_m_list();
+    ::System::Collections::SortedList*& dyn_m_list();
     // public System.Int32 get_Count()
     // Offset: 0x17AE770
     int get_Count();
     // public System.Collections.ICollection get_Values()
     // Offset: 0x17AEB24
-    System::Collections::ICollection* get_Values();
+    ::System::Collections::ICollection* get_Values();
     // public System.Object get_Item(System.String s)
     // Offset: 0x17AEB48
     ::Il2CppObject* get_Item(::StringW s);
@@ -86,19 +86,19 @@ namespace System::Net {
     int GetCookiesCount();
     // public System.Collections.IEnumerator GetEnumerator()
     // Offset: 0x17AEC40
-    System::Collections::IEnumerator* GetEnumerator();
+    ::System::Collections::IEnumerator* GetEnumerator();
     // public System.Void .ctor()
     // Offset: 0x17AE6AC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PathList* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::PathList::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::PathList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PathList*, creationType>()));
     }
   }; // System.Net.PathList
   #pragma pack(pop)
-  static check_size<sizeof(PathList), 16 + sizeof(System::Collections::SortedList*)> __System_Net_PathListSizeCheck;
+  static check_size<sizeof(PathList), 16 + sizeof(::System::Collections::SortedList*)> __System_Net_PathListSizeCheck;
   static_assert(sizeof(PathList) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -113,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Net::PathList::get_Values
 // Il2CppName: get_Values
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ICollection* (System::Net::PathList::*)()>(&System::Net::PathList::get_Values)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (System::Net::PathList::*)()>(&System::Net::PathList::get_Values)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::PathList*), "get_Values", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -156,7 +156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Net::PathList::GetEnumerator
 // Il2CppName: GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (System::Net::PathList::*)()>(&System::Net::PathList::GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (System::Net::PathList::*)()>(&System::Net::PathList::GetEnumerator)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::PathList*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

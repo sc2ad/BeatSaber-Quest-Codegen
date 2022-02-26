@@ -12,8 +12,8 @@ namespace UnityEngine::Analytics {
   class ContinuousEvent;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Analytics::ContinuousEvent);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Analytics::ContinuousEvent*, "UnityEngine.Analytics", "ContinuousEvent");
+NEED_NO_BOX(::UnityEngine::Analytics::ContinuousEvent);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Analytics::ContinuousEvent*, "UnityEngine.Analytics", "ContinuousEvent");
 // Type namespace: UnityEngine.Analytics
 namespace UnityEngine::Analytics {
   // Size: 0x10

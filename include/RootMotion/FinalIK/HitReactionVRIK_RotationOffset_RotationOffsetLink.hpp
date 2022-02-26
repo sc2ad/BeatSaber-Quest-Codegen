@@ -24,8 +24,8 @@ namespace RootMotion::FinalIK {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::HitReactionVRIK::RotationOffset::RotationOffsetLink);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HitReactionVRIK::RotationOffset::RotationOffsetLink*, "RootMotion.FinalIK", "HitReactionVRIK/RotationOffset/RotationOffsetLink");
+NEED_NO_BOX(::RootMotion::FinalIK::HitReactionVRIK::RotationOffset::RotationOffsetLink);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::HitReactionVRIK::RotationOffset::RotationOffsetLink*, "RootMotion.FinalIK", "HitReactionVRIK/RotationOffset/RotationOffsetLink");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x38
@@ -47,9 +47,9 @@ namespace RootMotion::FinalIK {
     // public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.RotationOffset rotationOffset
     // Size: 0x4
     // Offset: 0x10
-    RootMotion::FinalIK::IKSolverVR::RotationOffset rotationOffset;
+    ::RootMotion::FinalIK::IKSolverVR::RotationOffset rotationOffset;
     // Field size check
-    static_assert(sizeof(RootMotion::FinalIK::IKSolverVR::RotationOffset) == 0x4);
+    static_assert(sizeof(::RootMotion::FinalIK::IKSolverVR::RotationOffset) == 0x4);
     // [TooltipAttribute] Offset: 0x1269F0C
     // [RangeAttribute] Offset: 0x1269F0C
     // public System.Single weight
@@ -61,27 +61,27 @@ namespace RootMotion::FinalIK {
     // private UnityEngine.Quaternion lastValue
     // Size: 0x10
     // Offset: 0x18
-    UnityEngine::Quaternion lastValue;
+    ::UnityEngine::Quaternion lastValue;
     // Field size check
-    static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    static_assert(sizeof(::UnityEngine::Quaternion) == 0x10);
     // private UnityEngine.Quaternion current
     // Size: 0x10
     // Offset: 0x28
-    UnityEngine::Quaternion current;
+    ::UnityEngine::Quaternion current;
     // Field size check
-    static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    static_assert(sizeof(::UnityEngine::Quaternion) == 0x10);
     public:
     // Get instance field reference: public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.RotationOffset rotationOffset
-    RootMotion::FinalIK::IKSolverVR::RotationOffset& dyn_rotationOffset();
+    ::RootMotion::FinalIK::IKSolverVR::RotationOffset& dyn_rotationOffset();
     // Get instance field reference: public System.Single weight
     float& dyn_weight();
     // Get instance field reference: private UnityEngine.Quaternion lastValue
-    UnityEngine::Quaternion& dyn_lastValue();
+    ::UnityEngine::Quaternion& dyn_lastValue();
     // Get instance field reference: private UnityEngine.Quaternion current
-    UnityEngine::Quaternion& dyn_current();
+    ::UnityEngine::Quaternion& dyn_current();
     // public System.Void Apply(RootMotion.FinalIK.VRIK ik, UnityEngine.Quaternion offset, System.Single crossFader)
     // Offset: 0x21CB718
-    void Apply(RootMotion::FinalIK::VRIK* ik, UnityEngine::Quaternion offset, float crossFader);
+    void Apply(::RootMotion::FinalIK::VRIK* ik, ::UnityEngine::Quaternion offset, float crossFader);
     // public System.Void CrossFadeStart()
     // Offset: 0x21CB400
     void CrossFadeStart();
@@ -91,19 +91,19 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HitReactionVRIK::RotationOffset::RotationOffsetLink* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::HitReactionVRIK::RotationOffset::RotationOffsetLink::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::HitReactionVRIK::RotationOffset::RotationOffsetLink::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HitReactionVRIK::RotationOffset::RotationOffsetLink*, creationType>()));
     }
   }; // RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.RotationOffset/RootMotion.FinalIK.RotationOffsetLink
   #pragma pack(pop)
-  static check_size<sizeof(HitReactionVRIK::RotationOffset::RotationOffsetLink), 40 + sizeof(UnityEngine::Quaternion)> __RootMotion_FinalIK_HitReactionVRIK_RotationOffset_RotationOffsetLinkSizeCheck;
+  static check_size<sizeof(HitReactionVRIK::RotationOffset::RotationOffsetLink), 40 + sizeof(::UnityEngine::Quaternion)> __RootMotion_FinalIK_HitReactionVRIK_RotationOffset_RotationOffsetLinkSizeCheck;
   static_assert(sizeof(HitReactionVRIK::RotationOffset::RotationOffsetLink) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::HitReactionVRIK::RotationOffset::RotationOffsetLink::Apply
 // Il2CppName: Apply
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::HitReactionVRIK::RotationOffset::RotationOffsetLink::*)(RootMotion::FinalIK::VRIK*, UnityEngine::Quaternion, float)>(&RootMotion::FinalIK::HitReactionVRIK::RotationOffset::RotationOffsetLink::Apply)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::HitReactionVRIK::RotationOffset::RotationOffsetLink::*)(::RootMotion::FinalIK::VRIK*, ::UnityEngine::Quaternion, float)>(&RootMotion::FinalIK::HitReactionVRIK::RotationOffset::RotationOffsetLink::Apply)> {
   static const MethodInfo* get() {
     static auto* ik = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "VRIK")->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;

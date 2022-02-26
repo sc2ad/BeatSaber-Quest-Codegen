@@ -32,8 +32,8 @@ namespace GlobalNamespace {
   class OVRBoundary;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRBoundary);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRBoundary*, "", "OVRBoundary");
+NEED_NO_BOX(::GlobalNamespace::OVRBoundary);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRBoundary*, "", "OVRBoundary");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x18
@@ -42,11 +42,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRBoundary : public ::Il2CppObject {
     public:
-    // Nested type: GlobalNamespace::OVRBoundary::Node
+    // Nested type: ::GlobalNamespace::OVRBoundary::Node
     struct Node;
-    // Nested type: GlobalNamespace::OVRBoundary::BoundaryType
+    // Nested type: ::GlobalNamespace::OVRBoundary::BoundaryType
     struct BoundaryType;
-    // Nested type: GlobalNamespace::OVRBoundary::BoundaryTestResult
+    // Nested type: ::GlobalNamespace::OVRBoundary::BoundaryTestResult
     struct BoundaryTestResult;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -60,12 +60,12 @@ namespace GlobalNamespace {
     // private System.Collections.Generic.List`1<UnityEngine.Vector3> cachedGeometryList
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::List_1<UnityEngine::Vector3>* cachedGeometryList;
+    ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* cachedGeometryList;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::Vector3>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*) == 0x8);
     public:
-    // Creating conversion operator: operator System::Collections::Generic::List_1<UnityEngine::Vector3>*
-    constexpr operator System::Collections::Generic::List_1<UnityEngine::Vector3>*() const noexcept {
+    // Creating conversion operator: operator ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*
+    constexpr operator ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*() const noexcept {
       return cachedGeometryList;
     }
     // Get static field: static private System.Int32 cachedVector3fSize
@@ -73,15 +73,15 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 cachedVector3fSize
     static void _set_cachedVector3fSize(int value);
     // Get static field: static private OVRNativeBuffer cachedGeometryNativeBuffer
-    static GlobalNamespace::OVRNativeBuffer* _get_cachedGeometryNativeBuffer();
+    static ::GlobalNamespace::OVRNativeBuffer* _get_cachedGeometryNativeBuffer();
     // Set static field: static private OVRNativeBuffer cachedGeometryNativeBuffer
-    static void _set_cachedGeometryNativeBuffer(GlobalNamespace::OVRNativeBuffer* value);
+    static void _set_cachedGeometryNativeBuffer(::GlobalNamespace::OVRNativeBuffer* value);
     // Get static field: static private System.Single[] cachedGeometryManagedBuffer
     static ::ArrayW<float> _get_cachedGeometryManagedBuffer();
     // Set static field: static private System.Single[] cachedGeometryManagedBuffer
     static void _set_cachedGeometryManagedBuffer(::ArrayW<float> value);
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.Vector3> cachedGeometryList
-    System::Collections::Generic::List_1<UnityEngine::Vector3>*& dyn_cachedGeometryList();
+    ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& dyn_cachedGeometryList();
     // static private System.Void .cctor()
     // Offset: 0x15A2218
     static void _cctor();
@@ -90,16 +90,16 @@ namespace GlobalNamespace {
     bool GetConfigured();
     // public OVRBoundary/BoundaryTestResult TestNode(OVRBoundary/Node node, OVRBoundary/BoundaryType boundaryType)
     // Offset: 0x15A1954
-    GlobalNamespace::OVRBoundary::BoundaryTestResult TestNode(GlobalNamespace::OVRBoundary::Node node, GlobalNamespace::OVRBoundary::BoundaryType boundaryType);
+    ::GlobalNamespace::OVRBoundary::BoundaryTestResult TestNode(::GlobalNamespace::OVRBoundary::Node node, ::GlobalNamespace::OVRBoundary::BoundaryType boundaryType);
     // public OVRBoundary/BoundaryTestResult TestPoint(UnityEngine.Vector3 point, OVRBoundary/BoundaryType boundaryType)
     // Offset: 0x15A1A30
-    GlobalNamespace::OVRBoundary::BoundaryTestResult TestPoint(UnityEngine::Vector3 point, GlobalNamespace::OVRBoundary::BoundaryType boundaryType);
+    ::GlobalNamespace::OVRBoundary::BoundaryTestResult TestPoint(::UnityEngine::Vector3 point, ::GlobalNamespace::OVRBoundary::BoundaryType boundaryType);
     // public UnityEngine.Vector3[] GetGeometry(OVRBoundary/BoundaryType boundaryType)
     // Offset: 0x15A1B30
-    ::ArrayW<UnityEngine::Vector3> GetGeometry(GlobalNamespace::OVRBoundary::BoundaryType boundaryType);
+    ::ArrayW<::UnityEngine::Vector3> GetGeometry(::GlobalNamespace::OVRBoundary::BoundaryType boundaryType);
     // public UnityEngine.Vector3 GetDimensions(OVRBoundary/BoundaryType boundaryType)
     // Offset: 0x15A1F50
-    UnityEngine::Vector3 GetDimensions(GlobalNamespace::OVRBoundary::BoundaryType boundaryType);
+    ::UnityEngine::Vector3 GetDimensions(::GlobalNamespace::OVRBoundary::BoundaryType boundaryType);
     // public System.Boolean GetVisible()
     // Offset: 0x15A2054
     bool GetVisible();
@@ -112,12 +112,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRBoundary* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRBoundary::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRBoundary::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRBoundary*, creationType>()));
     }
   }; // OVRBoundary
   #pragma pack(pop)
-  static check_size<sizeof(OVRBoundary), 16 + sizeof(System::Collections::Generic::List_1<UnityEngine::Vector3>*)> __GlobalNamespace_OVRBoundarySizeCheck;
+  static check_size<sizeof(OVRBoundary), 16 + sizeof(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*)> __GlobalNamespace_OVRBoundarySizeCheck;
   static_assert(sizeof(OVRBoundary) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -140,7 +140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::OVRBoundary::TestNode
 // Il2CppName: TestNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRBoundary::BoundaryTestResult (GlobalNamespace::OVRBoundary::*)(GlobalNamespace::OVRBoundary::Node, GlobalNamespace::OVRBoundary::BoundaryType)>(&GlobalNamespace::OVRBoundary::TestNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRBoundary::BoundaryTestResult (GlobalNamespace::OVRBoundary::*)(::GlobalNamespace::OVRBoundary::Node, ::GlobalNamespace::OVRBoundary::BoundaryType)>(&GlobalNamespace::OVRBoundary::TestNode)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("", "OVRBoundary/Node")->byval_arg;
     static auto* boundaryType = &::il2cpp_utils::GetClassFromName("", "OVRBoundary/BoundaryType")->byval_arg;
@@ -150,7 +150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRBoundary::TestPoint
 // Il2CppName: TestPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRBoundary::BoundaryTestResult (GlobalNamespace::OVRBoundary::*)(UnityEngine::Vector3, GlobalNamespace::OVRBoundary::BoundaryType)>(&GlobalNamespace::OVRBoundary::TestPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRBoundary::BoundaryTestResult (GlobalNamespace::OVRBoundary::*)(::UnityEngine::Vector3, ::GlobalNamespace::OVRBoundary::BoundaryType)>(&GlobalNamespace::OVRBoundary::TestPoint)> {
   static const MethodInfo* get() {
     static auto* point = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* boundaryType = &::il2cpp_utils::GetClassFromName("", "OVRBoundary/BoundaryType")->byval_arg;
@@ -160,7 +160,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRBoundary::GetGeometry
 // Il2CppName: GetGeometry
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector3> (GlobalNamespace::OVRBoundary::*)(GlobalNamespace::OVRBoundary::BoundaryType)>(&GlobalNamespace::OVRBoundary::GetGeometry)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Vector3> (GlobalNamespace::OVRBoundary::*)(::GlobalNamespace::OVRBoundary::BoundaryType)>(&GlobalNamespace::OVRBoundary::GetGeometry)> {
   static const MethodInfo* get() {
     static auto* boundaryType = &::il2cpp_utils::GetClassFromName("", "OVRBoundary/BoundaryType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRBoundary*), "GetGeometry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{boundaryType});
@@ -169,7 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
 // Writing MetadataGetter for method: GlobalNamespace::OVRBoundary::GetDimensions
 // Il2CppName: GetDimensions
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::OVRBoundary::*)(GlobalNamespace::OVRBoundary::BoundaryType)>(&GlobalNamespace::OVRBoundary::GetDimensions)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (GlobalNamespace::OVRBoundary::*)(::GlobalNamespace::OVRBoundary::BoundaryType)>(&GlobalNamespace::OVRBoundary::GetDimensions)> {
   static const MethodInfo* get() {
     static auto* boundaryType = &::il2cpp_utils::GetClassFromName("", "OVRBoundary/BoundaryType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRBoundary*), "GetDimensions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{boundaryType});

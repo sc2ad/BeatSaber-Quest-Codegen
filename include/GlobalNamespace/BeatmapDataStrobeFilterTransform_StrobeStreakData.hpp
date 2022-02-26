@@ -22,8 +22,8 @@ namespace GlobalNamespace {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BeatmapDataStrobeFilterTransform::StrobeStreakData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataStrobeFilterTransform::StrobeStreakData*, "", "BeatmapDataStrobeFilterTransform/StrobeStreakData");
+NEED_NO_BOX(::GlobalNamespace::BeatmapDataStrobeFilterTransform::StrobeStreakData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapDataStrobeFilterTransform::StrobeStreakData*, "", "BeatmapDataStrobeFilterTransform/StrobeStreakData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x3D
@@ -58,9 +58,9 @@ namespace GlobalNamespace {
     // public ColorType startColorType
     // Size: 0x4
     // Offset: 0x18
-    GlobalNamespace::ColorType startColorType;
+    ::GlobalNamespace::ColorType startColorType;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::ColorType) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::ColorType) == 0x4);
     // public System.Single lastSwitchTime
     // Size: 0x4
     // Offset: 0x1C
@@ -70,9 +70,9 @@ namespace GlobalNamespace {
     // public ColorType lastColorType
     // Size: 0x4
     // Offset: 0x20
-    GlobalNamespace::ColorType lastColorType;
+    ::GlobalNamespace::ColorType lastColorType;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::ColorType) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::ColorType) == 0x4);
     // public System.Boolean lastIsOn
     // Size: 0x1
     // Offset: 0x24
@@ -92,9 +92,9 @@ namespace GlobalNamespace {
     // public BeatmapEventData originalBeatmapEventData
     // Size: 0x8
     // Offset: 0x30
-    GlobalNamespace::BeatmapEventData* originalBeatmapEventData;
+    ::GlobalNamespace::BeatmapEventData* originalBeatmapEventData;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::BeatmapEventData*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::BeatmapEventData*) == 0x8);
     // public System.Int32 originalBeatmapDataIndex
     // Size: 0x4
     // Offset: 0x38
@@ -113,34 +113,34 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single strobeStartTime
     float& dyn_strobeStartTime();
     // Get instance field reference: public ColorType startColorType
-    GlobalNamespace::ColorType& dyn_startColorType();
+    ::GlobalNamespace::ColorType& dyn_startColorType();
     // Get instance field reference: public System.Single lastSwitchTime
     float& dyn_lastSwitchTime();
     // Get instance field reference: public ColorType lastColorType
-    GlobalNamespace::ColorType& dyn_lastColorType();
+    ::GlobalNamespace::ColorType& dyn_lastColorType();
     // Get instance field reference: public System.Boolean lastIsOn
     bool& dyn_lastIsOn();
     // Get instance field reference: public System.Int32 lastSwitchBeatmapIndex
     int& dyn_lastSwitchBeatmapIndex();
     // Get instance field reference: public BeatmapEventData originalBeatmapEventData
-    GlobalNamespace::BeatmapEventData*& dyn_originalBeatmapEventData();
+    ::GlobalNamespace::BeatmapEventData*& dyn_originalBeatmapEventData();
     // Get instance field reference: public System.Int32 originalBeatmapDataIndex
     int& dyn_originalBeatmapDataIndex();
     // Get instance field reference: private System.Boolean _foundFirstColoredEventData
     bool& dyn__foundFirstColoredEventData();
     // public System.Void StartPotentialStrobe(BeatmapEventData startEventData, System.Int32 originalIndex)
     // Offset: 0x2B4B6DC
-    void StartPotentialStrobe(GlobalNamespace::BeatmapEventData* startEventData, int originalIndex);
+    void StartPotentialStrobe(::GlobalNamespace::BeatmapEventData* startEventData, int originalIndex);
     // public System.Void AddStrobeData(BeatmapEventData eventData, System.Int32 beatmapIndex)
     // Offset: 0x2B4B50C
-    void AddStrobeData(GlobalNamespace::BeatmapEventData* eventData, int beatmapIndex);
+    void AddStrobeData(::GlobalNamespace::BeatmapEventData* eventData, int beatmapIndex);
     // public System.Void .ctor()
     // Offset: 0x2B4B504
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapDataStrobeFilterTransform::StrobeStreakData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapDataStrobeFilterTransform::StrobeStreakData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapDataStrobeFilterTransform::StrobeStreakData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapDataStrobeFilterTransform::StrobeStreakData*, creationType>()));
     }
   }; // BeatmapDataStrobeFilterTransform/StrobeStreakData
@@ -152,7 +152,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataStrobeFilterTransform::StrobeStreakData::StartPotentialStrobe
 // Il2CppName: StartPotentialStrobe
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapDataStrobeFilterTransform::StrobeStreakData::*)(GlobalNamespace::BeatmapEventData*, int)>(&GlobalNamespace::BeatmapDataStrobeFilterTransform::StrobeStreakData::StartPotentialStrobe)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapDataStrobeFilterTransform::StrobeStreakData::*)(::GlobalNamespace::BeatmapEventData*, int)>(&GlobalNamespace::BeatmapDataStrobeFilterTransform::StrobeStreakData::StartPotentialStrobe)> {
   static const MethodInfo* get() {
     static auto* startEventData = &::il2cpp_utils::GetClassFromName("", "BeatmapEventData")->byval_arg;
     static auto* originalIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -162,7 +162,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataStrobeFilterTransform::StrobeStreakData::AddStrobeData
 // Il2CppName: AddStrobeData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapDataStrobeFilterTransform::StrobeStreakData::*)(GlobalNamespace::BeatmapEventData*, int)>(&GlobalNamespace::BeatmapDataStrobeFilterTransform::StrobeStreakData::AddStrobeData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapDataStrobeFilterTransform::StrobeStreakData::*)(::GlobalNamespace::BeatmapEventData*, int)>(&GlobalNamespace::BeatmapDataStrobeFilterTransform::StrobeStreakData::AddStrobeData)> {
   static const MethodInfo* get() {
     static auto* eventData = &::il2cpp_utils::GetClassFromName("", "BeatmapEventData")->byval_arg;
     static auto* beatmapIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

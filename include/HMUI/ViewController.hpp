@@ -52,8 +52,8 @@ namespace HMUI {
   class ViewController;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HMUI::ViewController);
-DEFINE_IL2CPP_ARG_TYPE(HMUI::ViewController*, "HMUI", "ViewController");
+NEED_NO_BOX(::HMUI::ViewController);
+DEFINE_IL2CPP_ARG_TYPE(::HMUI::ViewController*, "HMUI", "ViewController");
 // Type namespace: HMUI
 namespace HMUI {
   // Size: 0x70
@@ -63,21 +63,21 @@ namespace HMUI {
   // [RequireComponent] Offset: 122ACD4
   // [RequireComponent] Offset: 122ACD4
   // [RequireComponent] Offset: 122ACD4
-  class ViewController : public UnityEngine::MonoBehaviour {
+  class ViewController : public ::UnityEngine::MonoBehaviour {
     public:
-    // Nested type: HMUI::ViewController::DidActivateDelegate
+    // Nested type: ::HMUI::ViewController::DidActivateDelegate
     class DidActivateDelegate;
-    // Nested type: HMUI::ViewController::DidDeactivateDelegate
+    // Nested type: ::HMUI::ViewController::DidDeactivateDelegate
     class DidDeactivateDelegate;
-    // Nested type: HMUI::ViewController::AnimationType
+    // Nested type: ::HMUI::ViewController::AnimationType
     struct AnimationType;
-    // Nested type: HMUI::ViewController::AnimationDirection
+    // Nested type: ::HMUI::ViewController::AnimationDirection
     struct AnimationDirection;
-    // Nested type: HMUI::ViewController::$PresentViewControllerCoroutine$d__58
+    // Nested type: ::HMUI::ViewController::$PresentViewControllerCoroutine$d__58
     class $PresentViewControllerCoroutine$d__58;
-    // Nested type: HMUI::ViewController::$ReplaceViewControllerCoroutine$d__60
+    // Nested type: ::HMUI::ViewController::$ReplaceViewControllerCoroutine$d__60
     class $ReplaceViewControllerCoroutine$d__60;
-    // Nested type: HMUI::ViewController::$DismissViewControllerCoroutine$d__62
+    // Nested type: ::HMUI::ViewController::$DismissViewControllerCoroutine$d__62
     class $DismissViewControllerCoroutine$d__62;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -91,57 +91,57 @@ namespace HMUI {
     // private HMUI.ViewController/HMUI.DidActivateDelegate didActivateEvent
     // Size: 0x8
     // Offset: 0x18
-    HMUI::ViewController::DidActivateDelegate* didActivateEvent;
+    ::HMUI::ViewController::DidActivateDelegate* didActivateEvent;
     // Field size check
-    static_assert(sizeof(HMUI::ViewController::DidActivateDelegate*) == 0x8);
+    static_assert(sizeof(::HMUI::ViewController::DidActivateDelegate*) == 0x8);
     // private HMUI.ViewController/HMUI.DidDeactivateDelegate didDeactivateEvent
     // Size: 0x8
     // Offset: 0x20
-    HMUI::ViewController::DidDeactivateDelegate* didDeactivateEvent;
+    ::HMUI::ViewController::DidDeactivateDelegate* didDeactivateEvent;
     // Field size check
-    static_assert(sizeof(HMUI::ViewController::DidDeactivateDelegate*) == 0x8);
+    static_assert(sizeof(::HMUI::ViewController::DidDeactivateDelegate*) == 0x8);
     // private HMUI.ButtonBinder <buttonBinder>k__BackingField
     // Size: 0x8
     // Offset: 0x28
-    HMUI::ButtonBinder* buttonBinder;
+    ::HMUI::ButtonBinder* buttonBinder;
     // Field size check
-    static_assert(sizeof(HMUI::ButtonBinder*) == 0x8);
+    static_assert(sizeof(::HMUI::ButtonBinder*) == 0x8);
     // private HMUI.ContainerViewController _containerViewController
     // Size: 0x8
     // Offset: 0x30
-    HMUI::ContainerViewController* containerViewController;
+    ::HMUI::ContainerViewController* containerViewController;
     // Field size check
-    static_assert(sizeof(HMUI::ContainerViewController*) == 0x8);
+    static_assert(sizeof(::HMUI::ContainerViewController*) == 0x8);
     // private HMUI.ViewController _parentViewController
     // Size: 0x8
     // Offset: 0x38
-    HMUI::ViewController* parentViewController;
+    ::HMUI::ViewController* parentViewController;
     // Field size check
-    static_assert(sizeof(HMUI::ViewController*) == 0x8);
+    static_assert(sizeof(::HMUI::ViewController*) == 0x8);
     // private HMUI.ViewController _childViewController
     // Size: 0x8
     // Offset: 0x40
-    HMUI::ViewController* childViewController;
+    ::HMUI::ViewController* childViewController;
     // Field size check
-    static_assert(sizeof(HMUI::ViewController*) == 0x8);
+    static_assert(sizeof(::HMUI::ViewController*) == 0x8);
     // private HMUI.Screen _screen
     // Size: 0x8
     // Offset: 0x48
-    HMUI::Screen* screen;
+    ::HMUI::Screen* screen;
     // Field size check
-    static_assert(sizeof(HMUI::Screen*) == 0x8);
+    static_assert(sizeof(::HMUI::Screen*) == 0x8);
     // private UnityEngine.RectTransform _rectTransform
     // Size: 0x8
     // Offset: 0x50
-    UnityEngine::RectTransform* rectTransform;
+    ::UnityEngine::RectTransform* rectTransform;
     // Field size check
-    static_assert(sizeof(UnityEngine::RectTransform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::RectTransform*) == 0x8);
     // private UnityEngine.CanvasGroup _canvasGroup
     // Size: 0x8
     // Offset: 0x58
-    UnityEngine::CanvasGroup* canvasGroup;
+    ::UnityEngine::CanvasGroup* canvasGroup;
     // Field size check
-    static_assert(sizeof(UnityEngine::CanvasGroup*) == 0x8);
+    static_assert(sizeof(::UnityEngine::CanvasGroup*) == 0x8);
     // private System.Boolean _wasActivatedBefore
     // Size: 0x1
     // Offset: 0x60
@@ -165,12 +165,12 @@ namespace HMUI {
     // private UnityEngine.EventSystems.BaseRaycaster _graphicRaycaster
     // Size: 0x8
     // Offset: 0x68
-    UnityEngine::EventSystems::BaseRaycaster* graphicRaycaster;
+    ::UnityEngine::EventSystems::BaseRaycaster* graphicRaycaster;
     // Field size check
-    static_assert(sizeof(UnityEngine::EventSystems::BaseRaycaster*) == 0x8);
+    static_assert(sizeof(::UnityEngine::EventSystems::BaseRaycaster*) == 0x8);
     public:
-    // Deleting conversion operator: operator System::IntPtr
-    constexpr operator System::IntPtr() const noexcept = delete;
+    // Deleting conversion operator: operator ::System::IntPtr
+    constexpr operator ::System::IntPtr() const noexcept = delete;
     // static field const value: static public System.Single kTransitionDuration
     static constexpr const float kTransitionDuration = 0.4;
     // Get static field: static public System.Single kTransitionDuration
@@ -184,23 +184,23 @@ namespace HMUI {
     // Set static field: static private System.Single kTransitionMoveOffset
     static void _set_kTransitionMoveOffset(float value);
     // Get instance field reference: private HMUI.ViewController/HMUI.DidActivateDelegate didActivateEvent
-    HMUI::ViewController::DidActivateDelegate*& dyn_didActivateEvent();
+    ::HMUI::ViewController::DidActivateDelegate*& dyn_didActivateEvent();
     // Get instance field reference: private HMUI.ViewController/HMUI.DidDeactivateDelegate didDeactivateEvent
-    HMUI::ViewController::DidDeactivateDelegate*& dyn_didDeactivateEvent();
+    ::HMUI::ViewController::DidDeactivateDelegate*& dyn_didDeactivateEvent();
     // Get instance field reference: private HMUI.ButtonBinder <buttonBinder>k__BackingField
-    HMUI::ButtonBinder*& dyn_$buttonBinder$k__BackingField();
+    ::HMUI::ButtonBinder*& dyn_$buttonBinder$k__BackingField();
     // Get instance field reference: private HMUI.ContainerViewController _containerViewController
-    HMUI::ContainerViewController*& dyn__containerViewController();
+    ::HMUI::ContainerViewController*& dyn__containerViewController();
     // Get instance field reference: private HMUI.ViewController _parentViewController
-    HMUI::ViewController*& dyn__parentViewController();
+    ::HMUI::ViewController*& dyn__parentViewController();
     // Get instance field reference: private HMUI.ViewController _childViewController
-    HMUI::ViewController*& dyn__childViewController();
+    ::HMUI::ViewController*& dyn__childViewController();
     // Get instance field reference: private HMUI.Screen _screen
-    HMUI::Screen*& dyn__screen();
+    ::HMUI::Screen*& dyn__screen();
     // Get instance field reference: private UnityEngine.RectTransform _rectTransform
-    UnityEngine::RectTransform*& dyn__rectTransform();
+    ::UnityEngine::RectTransform*& dyn__rectTransform();
     // Get instance field reference: private UnityEngine.CanvasGroup _canvasGroup
-    UnityEngine::CanvasGroup*& dyn__canvasGroup();
+    ::UnityEngine::CanvasGroup*& dyn__canvasGroup();
     // Get instance field reference: private System.Boolean _wasActivatedBefore
     bool& dyn__wasActivatedBefore();
     // Get instance field reference: private System.Boolean _isActivated
@@ -208,19 +208,19 @@ namespace HMUI {
     // Get instance field reference: private System.Boolean _isInTransition
     bool& dyn__isInTransition();
     // Get instance field reference: private UnityEngine.EventSystems.BaseRaycaster _graphicRaycaster
-    UnityEngine::EventSystems::BaseRaycaster*& dyn__graphicRaycaster();
+    ::UnityEngine::EventSystems::BaseRaycaster*& dyn__graphicRaycaster();
     // public HMUI.ContainerViewController get_containerViewController()
     // Offset: 0x29CB2B0
-    HMUI::ContainerViewController* get_containerViewController();
+    ::HMUI::ContainerViewController* get_containerViewController();
     // public HMUI.Screen get_screen()
     // Offset: 0x29CB2B8
-    HMUI::Screen* get_screen();
+    ::HMUI::Screen* get_screen();
     // public HMUI.ViewController get_parentViewController()
     // Offset: 0x29CB2C0
-    HMUI::ViewController* get_parentViewController();
+    ::HMUI::ViewController* get_parentViewController();
     // public HMUI.ViewController get_childViewController()
     // Offset: 0x29CB2C8
-    HMUI::ViewController* get_childViewController();
+    ::HMUI::ViewController* get_childViewController();
     // public System.Boolean get_isInViewControllerHierarchy()
     // Offset: 0x29CB2D0
     bool get_isInViewControllerHierarchy();
@@ -244,31 +244,31 @@ namespace HMUI {
     void set_enableUserInteractions(bool value);
     // protected HMUI.ButtonBinder get_buttonBinder()
     // Offset: 0x29CB6DC
-    HMUI::ButtonBinder* get_buttonBinder();
+    ::HMUI::ButtonBinder* get_buttonBinder();
     // private System.Void set_buttonBinder(HMUI.ButtonBinder value)
     // Offset: 0x29CB6E4
-    void set_buttonBinder(HMUI::ButtonBinder* value);
+    void set_buttonBinder(::HMUI::ButtonBinder* value);
     // public UnityEngine.RectTransform get_rectTransform()
     // Offset: 0x29CB6EC
-    UnityEngine::RectTransform* get_rectTransform();
+    ::UnityEngine::RectTransform* get_rectTransform();
     // public UnityEngine.CanvasGroup get_canvasGroup()
     // Offset: 0x29CB784
-    UnityEngine::CanvasGroup* get_canvasGroup();
+    ::UnityEngine::CanvasGroup* get_canvasGroup();
     // private UnityEngine.EventSystems.BaseRaycaster get_graphicRaycaster()
     // Offset: 0x29CB384
-    UnityEngine::EventSystems::BaseRaycaster* get_graphicRaycaster();
+    ::UnityEngine::EventSystems::BaseRaycaster* get_graphicRaycaster();
     // public System.Void add_didActivateEvent(HMUI.ViewController/HMUI.DidActivateDelegate value)
     // Offset: 0x29CB44C
-    void add_didActivateEvent(HMUI::ViewController::DidActivateDelegate* value);
+    void add_didActivateEvent(::HMUI::ViewController::DidActivateDelegate* value);
     // public System.Void remove_didActivateEvent(HMUI.ViewController/HMUI.DidActivateDelegate value)
     // Offset: 0x29CB4F0
-    void remove_didActivateEvent(HMUI::ViewController::DidActivateDelegate* value);
+    void remove_didActivateEvent(::HMUI::ViewController::DidActivateDelegate* value);
     // public System.Void add_didDeactivateEvent(HMUI.ViewController/HMUI.DidDeactivateDelegate value)
     // Offset: 0x29CB594
-    void add_didDeactivateEvent(HMUI::ViewController::DidDeactivateDelegate* value);
+    void add_didDeactivateEvent(::HMUI::ViewController::DidDeactivateDelegate* value);
     // public System.Void remove_didDeactivateEvent(HMUI.ViewController/HMUI.DidDeactivateDelegate value)
     // Offset: 0x29CB638
-    void remove_didDeactivateEvent(HMUI::ViewController::DidDeactivateDelegate* value);
+    void remove_didDeactivateEvent(::HMUI::ViewController::DidDeactivateDelegate* value);
     // protected System.Void OnDestroy()
     // Offset: 0x29CB81C
     void OnDestroy();
@@ -280,28 +280,28 @@ namespace HMUI {
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // public System.Void __Init(HMUI.Screen screen, HMUI.ViewController parentViewController, HMUI.ContainerViewController containerViewController)
     // Offset: 0x29CB87C
-    void __Init(HMUI::Screen* screen, HMUI::ViewController* parentViewController, HMUI::ContainerViewController* containerViewController);
+    void __Init(::HMUI::Screen* screen, ::HMUI::ViewController* parentViewController, ::HMUI::ContainerViewController* containerViewController);
     // public System.Void __ResetViewController()
     // Offset: 0x29CB998
     void __ResetViewController();
     // public System.Void __PresentViewController(HMUI.ViewController viewController, System.Action finishedCallback, HMUI.ViewController/HMUI.AnimationDirection animationDirection, System.Boolean immediately)
     // Offset: 0x29CBA68
-    void __PresentViewController(HMUI::ViewController* viewController, System::Action* finishedCallback, HMUI::ViewController::AnimationDirection animationDirection, bool immediately);
+    void __PresentViewController(::HMUI::ViewController* viewController, ::System::Action* finishedCallback, ::HMUI::ViewController::AnimationDirection animationDirection, bool immediately);
     // private System.Collections.IEnumerator PresentViewControllerCoroutine(HMUI.ViewController newViewController, System.Action finishedCallback, HMUI.ViewController/HMUI.AnimationDirection animationDirection, System.Boolean immediately)
     // Offset: 0x29CBA98
-    System::Collections::IEnumerator* PresentViewControllerCoroutine(HMUI::ViewController* newViewController, System::Action* finishedCallback, HMUI::ViewController::AnimationDirection animationDirection, bool immediately);
+    ::System::Collections::IEnumerator* PresentViewControllerCoroutine(::HMUI::ViewController* newViewController, ::System::Action* finishedCallback, ::HMUI::ViewController::AnimationDirection animationDirection, bool immediately);
     // public System.Void __ReplaceViewController(HMUI.ViewController viewController, System.Action finishedCallback, HMUI.ViewController/HMUI.AnimationType animationType, HMUI.ViewController/HMUI.AnimationDirection animationDirection)
     // Offset: 0x29CBB64
-    void __ReplaceViewController(HMUI::ViewController* viewController, System::Action* finishedCallback, HMUI::ViewController::AnimationType animationType, HMUI::ViewController::AnimationDirection animationDirection);
+    void __ReplaceViewController(::HMUI::ViewController* viewController, ::System::Action* finishedCallback, ::HMUI::ViewController::AnimationType animationType, ::HMUI::ViewController::AnimationDirection animationDirection);
     // private System.Collections.IEnumerator ReplaceViewControllerCoroutine(HMUI.ViewController newViewController, System.Action finishedCallback, HMUI.ViewController/HMUI.AnimationType animationType, HMUI.ViewController/HMUI.AnimationDirection animationDirection)
     // Offset: 0x29CBB90
-    System::Collections::IEnumerator* ReplaceViewControllerCoroutine(HMUI::ViewController* newViewController, System::Action* finishedCallback, HMUI::ViewController::AnimationType animationType, HMUI::ViewController::AnimationDirection animationDirection);
+    ::System::Collections::IEnumerator* ReplaceViewControllerCoroutine(::HMUI::ViewController* newViewController, ::System::Action* finishedCallback, ::HMUI::ViewController::AnimationType animationType, ::HMUI::ViewController::AnimationDirection animationDirection);
     // public System.Void __DismissViewController(System.Action finishedCallback, HMUI.ViewController/HMUI.AnimationDirection animationDirection, System.Boolean immediately)
     // Offset: 0x29CBC54
-    void __DismissViewController(System::Action* finishedCallback, HMUI::ViewController::AnimationDirection animationDirection, bool immediately);
+    void __DismissViewController(::System::Action* finishedCallback, ::HMUI::ViewController::AnimationDirection animationDirection, bool immediately);
     // private System.Collections.IEnumerator DismissViewControllerCoroutine(System.Action finishedCallback, HMUI.ViewController/HMUI.AnimationDirection animationDirection, System.Boolean immediately)
     // Offset: 0x29CBC84
-    System::Collections::IEnumerator* DismissViewControllerCoroutine(System::Action* finishedCallback, HMUI::ViewController::AnimationDirection animationDirection, bool immediately);
+    ::System::Collections::IEnumerator* DismissViewControllerCoroutine(::System::Action* finishedCallback, ::HMUI::ViewController::AnimationDirection animationDirection, bool immediately);
     // public System.Void __Activate(System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     // Offset: 0x29CBD4C
     void __Activate(bool addedToHierarchy, bool screenSystemEnabling);
@@ -313,7 +313,7 @@ namespace HMUI {
     void DeactivateGameObject();
     // public System.Boolean IsViewControllerInHierarchy(HMUI.ViewController viewController)
     // Offset: 0x29CC460
-    bool IsViewControllerInHierarchy(HMUI::ViewController* viewController);
+    bool IsViewControllerInHierarchy(::HMUI::ViewController* viewController);
     // static public System.Void Log(System.String message)
     // Offset: 0x29CC5E8
     static void Log(::StringW message);
@@ -327,19 +327,19 @@ namespace HMUI {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ViewController* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HMUI::ViewController::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ViewController*, creationType>()));
     }
   }; // HMUI.ViewController
   #pragma pack(pop)
-  static check_size<sizeof(ViewController), 104 + sizeof(UnityEngine::EventSystems::BaseRaycaster*)> __HMUI_ViewControllerSizeCheck;
+  static check_size<sizeof(ViewController), 104 + sizeof(::UnityEngine::EventSystems::BaseRaycaster*)> __HMUI_ViewControllerSizeCheck;
   static_assert(sizeof(ViewController) == 0x70);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::ViewController::get_containerViewController
 // Il2CppName: get_containerViewController
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ContainerViewController* (HMUI::ViewController::*)()>(&HMUI::ViewController::get_containerViewController)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HMUI::ContainerViewController* (HMUI::ViewController::*)()>(&HMUI::ViewController::get_containerViewController)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::ViewController*), "get_containerViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -347,7 +347,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::Conta
 // Writing MetadataGetter for method: HMUI::ViewController::get_screen
 // Il2CppName: get_screen
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::Screen* (HMUI::ViewController::*)()>(&HMUI::ViewController::get_screen)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HMUI::Screen* (HMUI::ViewController::*)()>(&HMUI::ViewController::get_screen)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::ViewController*), "get_screen", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -355,7 +355,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::Scree
 // Writing MetadataGetter for method: HMUI::ViewController::get_parentViewController
 // Il2CppName: get_parentViewController
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ViewController* (HMUI::ViewController::*)()>(&HMUI::ViewController::get_parentViewController)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HMUI::ViewController* (HMUI::ViewController::*)()>(&HMUI::ViewController::get_parentViewController)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::ViewController*), "get_parentViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -363,7 +363,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ViewC
 // Writing MetadataGetter for method: HMUI::ViewController::get_childViewController
 // Il2CppName: get_childViewController
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ViewController* (HMUI::ViewController::*)()>(&HMUI::ViewController::get_childViewController)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HMUI::ViewController* (HMUI::ViewController::*)()>(&HMUI::ViewController::get_childViewController)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::ViewController*), "get_childViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -429,7 +429,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Writing MetadataGetter for method: HMUI::ViewController::get_buttonBinder
 // Il2CppName: get_buttonBinder
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ButtonBinder* (HMUI::ViewController::*)()>(&HMUI::ViewController::get_buttonBinder)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HMUI::ButtonBinder* (HMUI::ViewController::*)()>(&HMUI::ViewController::get_buttonBinder)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::ViewController*), "get_buttonBinder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -437,7 +437,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::Butto
 // Writing MetadataGetter for method: HMUI::ViewController::set_buttonBinder
 // Il2CppName: set_buttonBinder
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ViewController::*)(HMUI::ButtonBinder*)>(&HMUI::ViewController::set_buttonBinder)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ViewController::*)(::HMUI::ButtonBinder*)>(&HMUI::ViewController::set_buttonBinder)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("HMUI", "ButtonBinder")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::ViewController*), "set_buttonBinder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -446,7 +446,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Writing MetadataGetter for method: HMUI::ViewController::get_rectTransform
 // Il2CppName: get_rectTransform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (HMUI::ViewController::*)()>(&HMUI::ViewController::get_rectTransform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RectTransform* (HMUI::ViewController::*)()>(&HMUI::ViewController::get_rectTransform)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::ViewController*), "get_rectTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -454,7 +454,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HMUI::ViewController::get_canvasGroup
 // Il2CppName: get_canvasGroup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::CanvasGroup* (HMUI::ViewController::*)()>(&HMUI::ViewController::get_canvasGroup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::CanvasGroup* (HMUI::ViewController::*)()>(&HMUI::ViewController::get_canvasGroup)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::ViewController*), "get_canvasGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -462,7 +462,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HMUI::ViewController::get_graphicRaycaster
 // Il2CppName: get_graphicRaycaster
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::BaseRaycaster* (HMUI::ViewController::*)()>(&HMUI::ViewController::get_graphicRaycaster)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::EventSystems::BaseRaycaster* (HMUI::ViewController::*)()>(&HMUI::ViewController::get_graphicRaycaster)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::ViewController*), "get_graphicRaycaster", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -470,7 +470,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HMUI::ViewController::add_didActivateEvent
 // Il2CppName: add_didActivateEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ViewController::*)(HMUI::ViewController::DidActivateDelegate*)>(&HMUI::ViewController::add_didActivateEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ViewController::*)(::HMUI::ViewController::DidActivateDelegate*)>(&HMUI::ViewController::add_didActivateEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController/DidActivateDelegate")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::ViewController*), "add_didActivateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -479,7 +479,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Writing MetadataGetter for method: HMUI::ViewController::remove_didActivateEvent
 // Il2CppName: remove_didActivateEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ViewController::*)(HMUI::ViewController::DidActivateDelegate*)>(&HMUI::ViewController::remove_didActivateEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ViewController::*)(::HMUI::ViewController::DidActivateDelegate*)>(&HMUI::ViewController::remove_didActivateEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController/DidActivateDelegate")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::ViewController*), "remove_didActivateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -488,7 +488,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Writing MetadataGetter for method: HMUI::ViewController::add_didDeactivateEvent
 // Il2CppName: add_didDeactivateEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ViewController::*)(HMUI::ViewController::DidDeactivateDelegate*)>(&HMUI::ViewController::add_didDeactivateEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ViewController::*)(::HMUI::ViewController::DidDeactivateDelegate*)>(&HMUI::ViewController::add_didDeactivateEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController/DidDeactivateDelegate")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::ViewController*), "add_didDeactivateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -497,7 +497,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Writing MetadataGetter for method: HMUI::ViewController::remove_didDeactivateEvent
 // Il2CppName: remove_didDeactivateEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ViewController::*)(HMUI::ViewController::DidDeactivateDelegate*)>(&HMUI::ViewController::remove_didDeactivateEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ViewController::*)(::HMUI::ViewController::DidDeactivateDelegate*)>(&HMUI::ViewController::remove_didDeactivateEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController/DidDeactivateDelegate")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::ViewController*), "remove_didDeactivateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -535,7 +535,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Writing MetadataGetter for method: HMUI::ViewController::__Init
 // Il2CppName: __Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ViewController::*)(HMUI::Screen*, HMUI::ViewController*, HMUI::ContainerViewController*)>(&HMUI::ViewController::__Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ViewController::*)(::HMUI::Screen*, ::HMUI::ViewController*, ::HMUI::ContainerViewController*)>(&HMUI::ViewController::__Init)> {
   static const MethodInfo* get() {
     static auto* screen = &::il2cpp_utils::GetClassFromName("HMUI", "Screen")->byval_arg;
     static auto* parentViewController = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController")->byval_arg;
@@ -554,7 +554,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Writing MetadataGetter for method: HMUI::ViewController::__PresentViewController
 // Il2CppName: __PresentViewController
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ViewController::*)(HMUI::ViewController*, System::Action*, HMUI::ViewController::AnimationDirection, bool)>(&HMUI::ViewController::__PresentViewController)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ViewController::*)(::HMUI::ViewController*, ::System::Action*, ::HMUI::ViewController::AnimationDirection, bool)>(&HMUI::ViewController::__PresentViewController)> {
   static const MethodInfo* get() {
     static auto* viewController = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController")->byval_arg;
     static auto* finishedCallback = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
@@ -566,7 +566,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Writing MetadataGetter for method: HMUI::ViewController::PresentViewControllerCoroutine
 // Il2CppName: PresentViewControllerCoroutine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (HMUI::ViewController::*)(HMUI::ViewController*, System::Action*, HMUI::ViewController::AnimationDirection, bool)>(&HMUI::ViewController::PresentViewControllerCoroutine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (HMUI::ViewController::*)(::HMUI::ViewController*, ::System::Action*, ::HMUI::ViewController::AnimationDirection, bool)>(&HMUI::ViewController::PresentViewControllerCoroutine)> {
   static const MethodInfo* get() {
     static auto* newViewController = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController")->byval_arg;
     static auto* finishedCallback = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
@@ -578,7 +578,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: HMUI::ViewController::__ReplaceViewController
 // Il2CppName: __ReplaceViewController
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ViewController::*)(HMUI::ViewController*, System::Action*, HMUI::ViewController::AnimationType, HMUI::ViewController::AnimationDirection)>(&HMUI::ViewController::__ReplaceViewController)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ViewController::*)(::HMUI::ViewController*, ::System::Action*, ::HMUI::ViewController::AnimationType, ::HMUI::ViewController::AnimationDirection)>(&HMUI::ViewController::__ReplaceViewController)> {
   static const MethodInfo* get() {
     static auto* viewController = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController")->byval_arg;
     static auto* finishedCallback = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
@@ -590,7 +590,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Writing MetadataGetter for method: HMUI::ViewController::ReplaceViewControllerCoroutine
 // Il2CppName: ReplaceViewControllerCoroutine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (HMUI::ViewController::*)(HMUI::ViewController*, System::Action*, HMUI::ViewController::AnimationType, HMUI::ViewController::AnimationDirection)>(&HMUI::ViewController::ReplaceViewControllerCoroutine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (HMUI::ViewController::*)(::HMUI::ViewController*, ::System::Action*, ::HMUI::ViewController::AnimationType, ::HMUI::ViewController::AnimationDirection)>(&HMUI::ViewController::ReplaceViewControllerCoroutine)> {
   static const MethodInfo* get() {
     static auto* newViewController = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController")->byval_arg;
     static auto* finishedCallback = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
@@ -602,7 +602,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: HMUI::ViewController::__DismissViewController
 // Il2CppName: __DismissViewController
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ViewController::*)(System::Action*, HMUI::ViewController::AnimationDirection, bool)>(&HMUI::ViewController::__DismissViewController)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ViewController::*)(::System::Action*, ::HMUI::ViewController::AnimationDirection, bool)>(&HMUI::ViewController::__DismissViewController)> {
   static const MethodInfo* get() {
     static auto* finishedCallback = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     static auto* animationDirection = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController/AnimationDirection")->byval_arg;
@@ -613,7 +613,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Writing MetadataGetter for method: HMUI::ViewController::DismissViewControllerCoroutine
 // Il2CppName: DismissViewControllerCoroutine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (HMUI::ViewController::*)(System::Action*, HMUI::ViewController::AnimationDirection, bool)>(&HMUI::ViewController::DismissViewControllerCoroutine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (HMUI::ViewController::*)(::System::Action*, ::HMUI::ViewController::AnimationDirection, bool)>(&HMUI::ViewController::DismissViewControllerCoroutine)> {
   static const MethodInfo* get() {
     static auto* finishedCallback = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     static auto* animationDirection = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController/AnimationDirection")->byval_arg;
@@ -653,7 +653,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Writing MetadataGetter for method: HMUI::ViewController::IsViewControllerInHierarchy
 // Il2CppName: IsViewControllerInHierarchy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HMUI::ViewController::*)(HMUI::ViewController*)>(&HMUI::ViewController::IsViewControllerInHierarchy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HMUI::ViewController::*)(::HMUI::ViewController*)>(&HMUI::ViewController::IsViewControllerInHierarchy)> {
   static const MethodInfo* get() {
     static auto* viewController = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::ViewController*), "IsViewControllerInHierarchy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{viewController});

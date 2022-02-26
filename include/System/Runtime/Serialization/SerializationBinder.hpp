@@ -24,8 +24,8 @@ namespace System::Runtime::Serialization {
   class SerializationBinder;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Serialization::SerializationBinder);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationBinder*, "System.Runtime.Serialization", "SerializationBinder");
+NEED_NO_BOX(::System::Runtime::Serialization::SerializationBinder);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::SerializationBinder*, "System.Runtime.Serialization", "SerializationBinder");
 // Type namespace: System.Runtime.Serialization
 namespace System::Runtime::Serialization {
   // Size: 0x10
@@ -37,17 +37,17 @@ namespace System::Runtime::Serialization {
     public:
     // public System.Void BindToName(System.Type serializedType, out System.String assemblyName, out System.String typeName)
     // Offset: 0x158ED4C
-    void BindToName(System::Type* serializedType, ByRef<::StringW> assemblyName, ByRef<::StringW> typeName);
+    void BindToName(::System::Type* serializedType, ByRef<::StringW> assemblyName, ByRef<::StringW> typeName);
     // public System.Type BindToType(System.String assemblyName, System.String typeName)
     // Offset: 0xFFFFFFFF
-    System::Type* BindToType(::StringW assemblyName, ::StringW typeName);
+    ::System::Type* BindToType(::StringW assemblyName, ::StringW typeName);
     // protected System.Void .ctor()
     // Offset: 0x158ED58
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SerializationBinder* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::SerializationBinder::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::SerializationBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SerializationBinder*, creationType>()));
     }
   }; // System.Runtime.Serialization.SerializationBinder
@@ -57,7 +57,7 @@ namespace System::Runtime::Serialization {
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationBinder::BindToName
 // Il2CppName: BindToName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::SerializationBinder::*)(System::Type*, ByRef<::StringW>, ByRef<::StringW>)>(&System::Runtime::Serialization::SerializationBinder::BindToName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::SerializationBinder::*)(::System::Type*, ByRef<::StringW>, ByRef<::StringW>)>(&System::Runtime::Serialization::SerializationBinder::BindToName)> {
   static const MethodInfo* get() {
     static auto* serializedType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* assemblyName = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
@@ -68,7 +68,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationBinder::BindToType
 // Il2CppName: BindToType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Runtime::Serialization::SerializationBinder::*)(::StringW, ::StringW)>(&System::Runtime::Serialization::SerializationBinder::BindToType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (System::Runtime::Serialization::SerializationBinder::*)(::StringW, ::StringW)>(&System::Runtime::Serialization::SerializationBinder::BindToType)> {
   static const MethodInfo* get() {
     static auto* assemblyName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* typeName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

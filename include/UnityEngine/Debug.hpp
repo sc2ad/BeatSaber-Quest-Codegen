@@ -33,8 +33,8 @@ namespace UnityEngine {
   class Debug;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Debug);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Debug*, "UnityEngine", "Debug");
+NEED_NO_BOX(::UnityEngine::Debug);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Debug*, "UnityEngine", "Debug");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -45,16 +45,16 @@ namespace UnityEngine {
   class Debug : public ::Il2CppObject {
     public:
     // Get static field: static readonly UnityEngine.ILogger s_DefaultLogger
-    static UnityEngine::ILogger* _get_s_DefaultLogger();
+    static ::UnityEngine::ILogger* _get_s_DefaultLogger();
     // Set static field: static readonly UnityEngine.ILogger s_DefaultLogger
-    static void _set_s_DefaultLogger(UnityEngine::ILogger* value);
+    static void _set_s_DefaultLogger(::UnityEngine::ILogger* value);
     // Get static field: static UnityEngine.ILogger s_Logger
-    static UnityEngine::ILogger* _get_s_Logger();
+    static ::UnityEngine::ILogger* _get_s_Logger();
     // Set static field: static UnityEngine.ILogger s_Logger
-    static void _set_s_Logger(UnityEngine::ILogger* value);
+    static void _set_s_Logger(::UnityEngine::ILogger* value);
     // static public UnityEngine.ILogger get_unityLogger()
     // Offset: 0x1EB614C
-    static UnityEngine::ILogger* get_unityLogger();
+    static ::UnityEngine::ILogger* get_unityLogger();
     // static public System.Boolean get_isDebugBuild()
     // Offset: 0x1EB725C
     static bool get_isDebugBuild();
@@ -63,10 +63,10 @@ namespace UnityEngine {
     static void _cctor();
     // static public System.Void DrawLine(UnityEngine.Vector3 start, UnityEngine.Vector3 end, UnityEngine.Color color)
     // Offset: 0x1EB61B4
-    static void DrawLine(UnityEngine::Vector3 start, UnityEngine::Vector3 end, UnityEngine::Color color);
+    static void DrawLine(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, ::UnityEngine::Color color);
     // static public System.Void DrawLine(UnityEngine.Vector3 start, UnityEngine.Vector3 end, UnityEngine.Color color, System.Single duration, System.Boolean depthTest)
     // Offset: 0x1EB628C
-    static void DrawLine(UnityEngine::Vector3 start, UnityEngine::Vector3 end, UnityEngine::Color color, float duration, bool depthTest);
+    static void DrawLine(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, ::UnityEngine::Color color, float duration, bool depthTest);
     // static public System.Int32 ExtractStackTraceNoAlloc(System.Byte* buffer, System.Int32 bufferMax, System.String projectFolder)
     // Offset: 0x1EB63C8
     static int ExtractStackTraceNoAlloc(uint8_t* buffer, int bufferMax, ::StringW projectFolder);
@@ -75,7 +75,7 @@ namespace UnityEngine {
     static void Log(::Il2CppObject* message);
     // static public System.Void Log(System.Object message, UnityEngine.Object context)
     // Offset: 0x1EB6548
-    static void Log(::Il2CppObject* message, UnityEngine::Object* context);
+    static void Log(::Il2CppObject* message, ::UnityEngine::Object* context);
     // static public System.Void LogFormat(System.String format, params System.Object[] args)
     // Offset: 0x1EB6678
     static void LogFormat(::StringW format, ::ArrayW<::Il2CppObject*> args);
@@ -84,43 +84,43 @@ namespace UnityEngine {
     static void LogError(::Il2CppObject* message);
     // static public System.Void LogError(System.Object message, UnityEngine.Object context)
     // Offset: 0x1EB68D0
-    static void LogError(::Il2CppObject* message, UnityEngine::Object* context);
+    static void LogError(::Il2CppObject* message, ::UnityEngine::Object* context);
     // static public System.Void LogErrorFormat(System.String format, params System.Object[] args)
     // Offset: 0x1EB6A00
     static void LogErrorFormat(::StringW format, ::ArrayW<::Il2CppObject*> args);
     // static public System.Void LogErrorFormat(UnityEngine.Object context, System.String format, params System.Object[] args)
     // Offset: 0x1EB6B30
-    static void LogErrorFormat(UnityEngine::Object* context, ::StringW format, ::ArrayW<::Il2CppObject*> args);
+    static void LogErrorFormat(::UnityEngine::Object* context, ::StringW format, ::ArrayW<::Il2CppObject*> args);
     // static public System.Void LogException(System.Exception exception)
     // Offset: 0x1EABAE8
-    static void LogException(System::Exception* exception);
+    static void LogException(::System::Exception* exception);
     // static public System.Void LogException(System.Exception exception, UnityEngine.Object context)
     // Offset: 0x1EB6C6C
-    static void LogException(System::Exception* exception, UnityEngine::Object* context);
+    static void LogException(::System::Exception* exception, ::UnityEngine::Object* context);
     // static public System.Void LogWarning(System.Object message)
     // Offset: 0x1EB6D98
     static void LogWarning(::Il2CppObject* message);
     // static public System.Void LogWarning(System.Object message, UnityEngine.Object context)
     // Offset: 0x1EB6EC0
-    static void LogWarning(::Il2CppObject* message, UnityEngine::Object* context);
+    static void LogWarning(::Il2CppObject* message, ::UnityEngine::Object* context);
     // static public System.Void LogWarningFormat(System.String format, params System.Object[] args)
     // Offset: 0x1EB6FF0
     static void LogWarningFormat(::StringW format, ::ArrayW<::Il2CppObject*> args);
     // static public System.Void LogWarningFormat(UnityEngine.Object context, System.String format, params System.Object[] args)
     // Offset: 0x1EB7120
-    static void LogWarningFormat(UnityEngine::Object* context, ::StringW format, ::ArrayW<::Il2CppObject*> args);
+    static void LogWarningFormat(::UnityEngine::Object* context, ::StringW format, ::ArrayW<::Il2CppObject*> args);
     // static public System.Void LogAssertion(System.Object message)
     // Offset: 0x1EAC158
     static void LogAssertion(::Il2CppObject* message);
     // static System.Boolean CallOverridenDebugHandler(System.Exception exception, UnityEngine.Object obj)
     // Offset: 0x1EB7290
-    static bool CallOverridenDebugHandler(System::Exception* exception, UnityEngine::Object* obj);
+    static bool CallOverridenDebugHandler(::System::Exception* exception, ::UnityEngine::Object* obj);
     // static System.Boolean IsLoggingEnabled()
     // Offset: 0x1EB769C
     static bool IsLoggingEnabled();
     // static private System.Void DrawLine_Injected(ref UnityEngine.Vector3 start, ref UnityEngine.Vector3 end, ref UnityEngine.Color color, System.Single duration, System.Boolean depthTest)
     // Offset: 0x1EB6350
-    static void DrawLine_Injected(ByRef<UnityEngine::Vector3> start, ByRef<UnityEngine::Vector3> end, ByRef<UnityEngine::Color> color, float duration, bool depthTest);
+    static void DrawLine_Injected(ByRef<::UnityEngine::Vector3> start, ByRef<::UnityEngine::Vector3> end, ByRef<::UnityEngine::Color> color, float duration, bool depthTest);
   }; // UnityEngine.Debug
   #pragma pack(pop)
 }
@@ -128,7 +128,7 @@ namespace UnityEngine {
 // Writing MetadataGetter for method: UnityEngine::Debug::get_unityLogger
 // Il2CppName: get_unityLogger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ILogger* (*)()>(&UnityEngine::Debug::get_unityLogger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ILogger* (*)()>(&UnityEngine::Debug::get_unityLogger)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Debug*), "get_unityLogger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -152,7 +152,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::Debug::DrawLine
 // Il2CppName: DrawLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Color)>(&UnityEngine::Debug::DrawLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Color)>(&UnityEngine::Debug::DrawLine)> {
   static const MethodInfo* get() {
     static auto* start = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* end = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -163,7 +163,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Debug::DrawLine
 // Il2CppName: DrawLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Color, float, bool)>(&UnityEngine::Debug::DrawLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Color, float, bool)>(&UnityEngine::Debug::DrawLine)> {
   static const MethodInfo* get() {
     static auto* start = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* end = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -196,7 +196,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::Debug::Log
 // Il2CppName: Log
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, UnityEngine::Object*)>(&UnityEngine::Debug::Log)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::UnityEngine::Object*)>(&UnityEngine::Debug::Log)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
@@ -225,7 +225,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::Debug::LogError
 // Il2CppName: LogError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, UnityEngine::Object*)>(&UnityEngine::Debug::LogError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::UnityEngine::Object*)>(&UnityEngine::Debug::LogError)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
@@ -245,7 +245,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::Debug::LogErrorFormat
 // Il2CppName: LogErrorFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*, ::StringW, ::ArrayW<::Il2CppObject*>)>(&UnityEngine::Debug::LogErrorFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Object*, ::StringW, ::ArrayW<::Il2CppObject*>)>(&UnityEngine::Debug::LogErrorFormat)> {
   static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -256,7 +256,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Debug::LogException
 // Il2CppName: LogException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Exception*)>(&UnityEngine::Debug::LogException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Exception*)>(&UnityEngine::Debug::LogException)> {
   static const MethodInfo* get() {
     static auto* exception = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Debug*), "LogException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{exception});
@@ -265,7 +265,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::Debug::LogException
 // Il2CppName: LogException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Exception*, UnityEngine::Object*)>(&UnityEngine::Debug::LogException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Exception*, ::UnityEngine::Object*)>(&UnityEngine::Debug::LogException)> {
   static const MethodInfo* get() {
     static auto* exception = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
@@ -284,7 +284,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::Debug::LogWarning
 // Il2CppName: LogWarning
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, UnityEngine::Object*)>(&UnityEngine::Debug::LogWarning)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::UnityEngine::Object*)>(&UnityEngine::Debug::LogWarning)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
@@ -304,7 +304,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::Debug::LogWarningFormat
 // Il2CppName: LogWarningFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*, ::StringW, ::ArrayW<::Il2CppObject*>)>(&UnityEngine::Debug::LogWarningFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Object*, ::StringW, ::ArrayW<::Il2CppObject*>)>(&UnityEngine::Debug::LogWarningFormat)> {
   static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -324,7 +324,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::Debug::CallOverridenDebugHandler
 // Il2CppName: CallOverridenDebugHandler
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Exception*, UnityEngine::Object*)>(&UnityEngine::Debug::CallOverridenDebugHandler)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Exception*, ::UnityEngine::Object*)>(&UnityEngine::Debug::CallOverridenDebugHandler)> {
   static const MethodInfo* get() {
     static auto* exception = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
     static auto* obj = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
@@ -342,7 +342,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Writing MetadataGetter for method: UnityEngine::Debug::DrawLine_Injected
 // Il2CppName: DrawLine_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<UnityEngine::Vector3>, ByRef<UnityEngine::Vector3>, ByRef<UnityEngine::Color>, float, bool)>(&UnityEngine::Debug::DrawLine_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::Vector3>, ByRef<::UnityEngine::Vector3>, ByRef<::UnityEngine::Color>, float, bool)>(&UnityEngine::Debug::DrawLine_Injected)> {
   static const MethodInfo* get() {
     static auto* start = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     static auto* end = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;

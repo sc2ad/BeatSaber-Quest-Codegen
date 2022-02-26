@@ -22,8 +22,8 @@ namespace UnityEngine {
   class AvatarMask;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::AvatarMask);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AvatarMask*, "UnityEngine", "AvatarMask");
+NEED_NO_BOX(::UnityEngine::AvatarMask);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AvatarMask*, "UnityEngine", "AvatarMask");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x18
@@ -34,14 +34,14 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: 11BF958
   // [NativeHeaderAttribute] Offset: 11BF958
   // [MovedFromAttribute] Offset: 11BF958
-  class AvatarMask : public UnityEngine::Object {
+  class AvatarMask : public ::UnityEngine::Object {
     public:
     // public System.Int32 get_transformCount()
     // Offset: 0x29ADBA4
     int get_transformCount();
     // public System.Boolean GetHumanoidBodyPartActive(UnityEngine.AvatarMaskBodyPart index)
     // Offset: 0x29ADB54
-    bool GetHumanoidBodyPartActive(UnityEngine::AvatarMaskBodyPart index);
+    bool GetHumanoidBodyPartActive(::UnityEngine::AvatarMaskBodyPart index);
     // public System.String GetTransformPath(System.Int32 index)
     // Offset: 0x29ADBE4
     ::StringW GetTransformPath(int index);
@@ -66,7 +66,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::AvatarMask::GetHumanoidBodyPartActive
 // Il2CppName: GetHumanoidBodyPartActive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AvatarMask::*)(UnityEngine::AvatarMaskBodyPart)>(&UnityEngine::AvatarMask::GetHumanoidBodyPartActive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AvatarMask::*)(::UnityEngine::AvatarMaskBodyPart)>(&UnityEngine::AvatarMask::GetHumanoidBodyPartActive)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("UnityEngine", "AvatarMaskBodyPart")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AvatarMask*), "GetHumanoidBodyPartActive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});

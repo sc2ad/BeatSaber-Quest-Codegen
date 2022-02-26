@@ -26,8 +26,8 @@ namespace Newtonsoft::Json::Utilities {
   class MiscellaneousUtils;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Utilities::MiscellaneousUtils);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::MiscellaneousUtils*, "Newtonsoft.Json.Utilities", "MiscellaneousUtils");
+NEED_NO_BOX(::Newtonsoft::Json::Utilities::MiscellaneousUtils);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::MiscellaneousUtils*, "Newtonsoft.Json.Utilities", "MiscellaneousUtils");
 // Type namespace: Newtonsoft.Json.Utilities
 namespace Newtonsoft::Json::Utilities {
   // Size: 0x10
@@ -43,7 +43,7 @@ namespace Newtonsoft::Json::Utilities {
     static bool ValueEquals(::Il2CppObject* objA, ::Il2CppObject* objB);
     // static public System.ArgumentOutOfRangeException CreateArgumentOutOfRangeException(System.String paramName, System.Object actualValue, System.String message)
     // Offset: 0x29F2360
-    static System::ArgumentOutOfRangeException* CreateArgumentOutOfRangeException(::StringW paramName, ::Il2CppObject* actualValue, ::StringW message);
+    static ::System::ArgumentOutOfRangeException* CreateArgumentOutOfRangeException(::StringW paramName, ::Il2CppObject* actualValue, ::StringW message);
     // static public System.String ToString(System.Object value)
     // Offset: 0x29F2500
     static ::StringW ToString(::Il2CppObject* value);
@@ -61,7 +61,7 @@ namespace Newtonsoft::Json::Utilities {
     static void GetQualifiedNameParts(::StringW qualifiedName, ByRef<::StringW> prefix, ByRef<::StringW> localName);
     // static System.Text.RegularExpressions.RegexOptions GetRegexOptions(System.String optionsText)
     // Offset: 0x29F2750
-    static System::Text::RegularExpressions::RegexOptions GetRegexOptions(::StringW optionsText);
+    static ::System::Text::RegularExpressions::RegexOptions GetRegexOptions(::StringW optionsText);
   }; // Newtonsoft.Json.Utilities.MiscellaneousUtils
   #pragma pack(pop)
 }
@@ -79,7 +79,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::MiscellaneousUtils::CreateArgumentOutOfRangeException
 // Il2CppName: CreateArgumentOutOfRangeException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ArgumentOutOfRangeException* (*)(::StringW, ::Il2CppObject*, ::StringW)>(&Newtonsoft::Json::Utilities::MiscellaneousUtils::CreateArgumentOutOfRangeException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ArgumentOutOfRangeException* (*)(::StringW, ::Il2CppObject*, ::StringW)>(&Newtonsoft::Json::Utilities::MiscellaneousUtils::CreateArgumentOutOfRangeException)> {
   static const MethodInfo* get() {
     static auto* paramName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* actualValue = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -138,7 +138,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::MiscellaneousUtils::GetRegexOptions
 // Il2CppName: GetRegexOptions
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexOptions (*)(::StringW)>(&Newtonsoft::Json::Utilities::MiscellaneousUtils::GetRegexOptions)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::RegexOptions (*)(::StringW)>(&Newtonsoft::Json::Utilities::MiscellaneousUtils::GetRegexOptions)> {
   static const MethodInfo* get() {
     static auto* optionsText = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::MiscellaneousUtils*), "GetRegexOptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{optionsText});

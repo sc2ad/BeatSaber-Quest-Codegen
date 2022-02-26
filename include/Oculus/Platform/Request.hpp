@@ -18,8 +18,8 @@ namespace Oculus::Platform {
   class Request;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Request);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Request*, "Oculus.Platform", "Request");
+NEED_NO_BOX(::Oculus::Platform::Request);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Request*, "Oculus.Platform", "Request");
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Size: 0x20
@@ -40,9 +40,9 @@ namespace Oculus::Platform {
     // private Oculus.Platform.Message/Oculus.Platform.Callback callback_
     // Size: 0x8
     // Offset: 0x10
-    Oculus::Platform::Message::Callback* callback;
+    ::Oculus::Platform::Message::Callback* callback;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::Message::Callback*) == 0x8);
+    static_assert(sizeof(::Oculus::Platform::Message::Callback*) == 0x8);
     // private System.UInt64 <RequestID>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -51,7 +51,7 @@ namespace Oculus::Platform {
     static_assert(sizeof(uint64_t) == 0x8);
     public:
     // Get instance field reference: private Oculus.Platform.Message/Oculus.Platform.Callback callback_
-    Oculus::Platform::Message::Callback*& dyn_callback_();
+    ::Oculus::Platform::Message::Callback*& dyn_callback_();
     // Get instance field reference: private System.UInt64 <RequestID>k__BackingField
     uint64_t& dyn_$RequestID$k__BackingField();
     // public System.UInt64 get_RequestID()
@@ -64,15 +64,15 @@ namespace Oculus::Platform {
     // Offset: 0x29FC2A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Request* New_ctor(uint64_t requestID) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Request::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Request::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Request*, creationType>(requestID)));
     }
     // public Oculus.Platform.Request OnComplete(Oculus.Platform.Message/Oculus.Platform.Callback callback)
     // Offset: 0x29FDB50
-    Oculus::Platform::Request* OnComplete(Oculus::Platform::Message::Callback* callback);
+    ::Oculus::Platform::Request* OnComplete(::Oculus::Platform::Message::Callback* callback);
     // public System.Void HandleMessage(Oculus.Platform.Message msg)
     // Offset: 0x29FDBD0
-    void HandleMessage(Oculus::Platform::Message* msg);
+    void HandleMessage(::Oculus::Platform::Message* msg);
     // static public System.Void RunCallbacks(System.UInt32 limit)
     // Offset: 0x29FDC68
     static void RunCallbacks(uint limit);
@@ -106,7 +106,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 // Writing MetadataGetter for method: Oculus::Platform::Request::OnComplete
 // Il2CppName: OnComplete
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request* (Oculus::Platform::Request::*)(Oculus::Platform::Message::Callback*)>(&Oculus::Platform::Request::OnComplete)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request* (Oculus::Platform::Request::*)(::Oculus::Platform::Message::Callback*)>(&Oculus::Platform::Request::OnComplete)> {
   static const MethodInfo* get() {
     static auto* callback = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "Message/Callback")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Request*), "OnComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{callback});
@@ -115,7 +115,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Writing MetadataGetter for method: Oculus::Platform::Request::HandleMessage
 // Il2CppName: HandleMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::Request::*)(Oculus::Platform::Message*)>(&Oculus::Platform::Request::HandleMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::Request::*)(::Oculus::Platform::Message*)>(&Oculus::Platform::Request::HandleMessage)> {
   static const MethodInfo* get() {
     static auto* msg = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "Message")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Request*), "HandleMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{msg});

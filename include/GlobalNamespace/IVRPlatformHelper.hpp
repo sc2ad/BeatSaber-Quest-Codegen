@@ -45,8 +45,8 @@ namespace GlobalNamespace {
   class IVRPlatformHelper;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::IVRPlatformHelper);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IVRPlatformHelper*, "", "IVRPlatformHelper");
+NEED_NO_BOX(::GlobalNamespace::IVRPlatformHelper);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IVRPlatformHelper*, "", "IVRPlatformHelper");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -66,70 +66,70 @@ namespace GlobalNamespace {
     bool get_isAlwaysWireless();
     // public VRPlatformSDK get_vrPlatformSDK()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::VRPlatformSDK get_vrPlatformSDK();
+    ::GlobalNamespace::VRPlatformSDK get_vrPlatformSDK();
     // public XRDeviceModel get_currentXRDeviceModel()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::XRDeviceModel get_currentXRDeviceModel();
+    ::GlobalNamespace::XRDeviceModel get_currentXRDeviceModel();
     // public System.Void add_inputFocusWasCapturedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void add_inputFocusWasCapturedEvent(System::Action* value);
+    void add_inputFocusWasCapturedEvent(::System::Action* value);
     // public System.Void remove_inputFocusWasCapturedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void remove_inputFocusWasCapturedEvent(System::Action* value);
+    void remove_inputFocusWasCapturedEvent(::System::Action* value);
     // public System.Void add_inputFocusWasReleasedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void add_inputFocusWasReleasedEvent(System::Action* value);
+    void add_inputFocusWasReleasedEvent(::System::Action* value);
     // public System.Void remove_inputFocusWasReleasedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void remove_inputFocusWasReleasedEvent(System::Action* value);
+    void remove_inputFocusWasReleasedEvent(::System::Action* value);
     // public System.Void add_vrFocusWasCapturedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void add_vrFocusWasCapturedEvent(System::Action* value);
+    void add_vrFocusWasCapturedEvent(::System::Action* value);
     // public System.Void remove_vrFocusWasCapturedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void remove_vrFocusWasCapturedEvent(System::Action* value);
+    void remove_vrFocusWasCapturedEvent(::System::Action* value);
     // public System.Void add_vrFocusWasReleasedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void add_vrFocusWasReleasedEvent(System::Action* value);
+    void add_vrFocusWasReleasedEvent(::System::Action* value);
     // public System.Void remove_vrFocusWasReleasedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void remove_vrFocusWasReleasedEvent(System::Action* value);
+    void remove_vrFocusWasReleasedEvent(::System::Action* value);
     // public System.Void add_hmdUnmountedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void add_hmdUnmountedEvent(System::Action* value);
+    void add_hmdUnmountedEvent(::System::Action* value);
     // public System.Void remove_hmdUnmountedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void remove_hmdUnmountedEvent(System::Action* value);
+    void remove_hmdUnmountedEvent(::System::Action* value);
     // public System.Void add_hmdMountedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void add_hmdMountedEvent(System::Action* value);
+    void add_hmdMountedEvent(::System::Action* value);
     // public System.Void remove_hmdMountedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void remove_hmdMountedEvent(System::Action* value);
+    void remove_hmdMountedEvent(::System::Action* value);
     // public System.Void add_joystickWasCenteredThisFrameEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void add_joystickWasCenteredThisFrameEvent(System::Action* value);
+    void add_joystickWasCenteredThisFrameEvent(::System::Action* value);
     // public System.Void remove_joystickWasCenteredThisFrameEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void remove_joystickWasCenteredThisFrameEvent(System::Action* value);
+    void remove_joystickWasCenteredThisFrameEvent(::System::Action* value);
     // public System.Void add_joystickWasNotCenteredThisFrameEvent(System.Action`1<UnityEngine.Vector2> value)
     // Offset: 0xFFFFFFFF
-    void add_joystickWasNotCenteredThisFrameEvent(System::Action_1<UnityEngine::Vector2>* value);
+    void add_joystickWasNotCenteredThisFrameEvent(::System::Action_1<::UnityEngine::Vector2>* value);
     // public System.Void remove_joystickWasNotCenteredThisFrameEvent(System.Action`1<UnityEngine.Vector2> value)
     // Offset: 0xFFFFFFFF
-    void remove_joystickWasNotCenteredThisFrameEvent(System::Action_1<UnityEngine::Vector2>* value);
+    void remove_joystickWasNotCenteredThisFrameEvent(::System::Action_1<::UnityEngine::Vector2>* value);
     // public System.Void TriggerHapticPulse(UnityEngine.XR.XRNode node, System.Single duration, System.Single strength, System.Single frequency)
     // Offset: 0xFFFFFFFF
-    void TriggerHapticPulse(UnityEngine::XR::XRNode node, float duration, float strength, float frequency);
+    void TriggerHapticPulse(::UnityEngine::XR::XRNode node, float duration, float strength, float frequency);
     // public System.Void StopHaptics(UnityEngine.XR.XRNode node)
     // Offset: 0xFFFFFFFF
-    void StopHaptics(UnityEngine::XR::XRNode node);
+    void StopHaptics(::UnityEngine::XR::XRNode node);
     // public System.Void AdjustControllerTransform(UnityEngine.XR.XRNode node, UnityEngine.Transform transform, UnityEngine.Vector3 position, UnityEngine.Vector3 rotation)
     // Offset: 0xFFFFFFFF
-    void AdjustControllerTransform(UnityEngine::XR::XRNode node, UnityEngine::Transform* transform, UnityEngine::Vector3 position, UnityEngine::Vector3 rotation);
+    void AdjustControllerTransform(::UnityEngine::XR::XRNode node, ::UnityEngine::Transform* transform, ::UnityEngine::Vector3 position, ::UnityEngine::Vector3 rotation);
     // public System.Boolean GetNodePose(UnityEngine.XR.XRNode nodeType, System.Int32 idx, out UnityEngine.Vector3 pos, out UnityEngine.Quaternion rot)
     // Offset: 0xFFFFFFFF
-    bool GetNodePose(UnityEngine::XR::XRNode nodeType, int idx, ByRef<UnityEngine::Vector3> pos, ByRef<UnityEngine::Quaternion> rot);
+    bool GetNodePose(::UnityEngine::XR::XRNode nodeType, int idx, ByRef<::UnityEngine::Vector3> pos, ByRef<::UnityEngine::Quaternion> rot);
   }; // IVRPlatformHelper
   #pragma pack(pop)
 }
@@ -161,7 +161,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IVRPlatformHelper::get_vrPlatformSDK
 // Il2CppName: get_vrPlatformSDK
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::VRPlatformSDK (GlobalNamespace::IVRPlatformHelper::*)()>(&GlobalNamespace::IVRPlatformHelper::get_vrPlatformSDK)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::VRPlatformSDK (GlobalNamespace::IVRPlatformHelper::*)()>(&GlobalNamespace::IVRPlatformHelper::get_vrPlatformSDK)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IVRPlatformHelper*), "get_vrPlatformSDK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -169,7 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::IVRPlatformHelper::get_currentXRDeviceModel
 // Il2CppName: get_currentXRDeviceModel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::XRDeviceModel (GlobalNamespace::IVRPlatformHelper::*)()>(&GlobalNamespace::IVRPlatformHelper::get_currentXRDeviceModel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::XRDeviceModel (GlobalNamespace::IVRPlatformHelper::*)()>(&GlobalNamespace::IVRPlatformHelper::get_currentXRDeviceModel)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IVRPlatformHelper*), "get_currentXRDeviceModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -177,7 +177,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::IVRPlatformHelper::add_inputFocusWasCapturedEvent
 // Il2CppName: add_inputFocusWasCapturedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(System::Action*)>(&GlobalNamespace::IVRPlatformHelper::add_inputFocusWasCapturedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(::System::Action*)>(&GlobalNamespace::IVRPlatformHelper::add_inputFocusWasCapturedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IVRPlatformHelper*), "add_inputFocusWasCapturedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -186,7 +186,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IVRPlatformHelper::remove_inputFocusWasCapturedEvent
 // Il2CppName: remove_inputFocusWasCapturedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(System::Action*)>(&GlobalNamespace::IVRPlatformHelper::remove_inputFocusWasCapturedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(::System::Action*)>(&GlobalNamespace::IVRPlatformHelper::remove_inputFocusWasCapturedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IVRPlatformHelper*), "remove_inputFocusWasCapturedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -195,7 +195,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IVRPlatformHelper::add_inputFocusWasReleasedEvent
 // Il2CppName: add_inputFocusWasReleasedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(System::Action*)>(&GlobalNamespace::IVRPlatformHelper::add_inputFocusWasReleasedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(::System::Action*)>(&GlobalNamespace::IVRPlatformHelper::add_inputFocusWasReleasedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IVRPlatformHelper*), "add_inputFocusWasReleasedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -204,7 +204,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IVRPlatformHelper::remove_inputFocusWasReleasedEvent
 // Il2CppName: remove_inputFocusWasReleasedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(System::Action*)>(&GlobalNamespace::IVRPlatformHelper::remove_inputFocusWasReleasedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(::System::Action*)>(&GlobalNamespace::IVRPlatformHelper::remove_inputFocusWasReleasedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IVRPlatformHelper*), "remove_inputFocusWasReleasedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -213,7 +213,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IVRPlatformHelper::add_vrFocusWasCapturedEvent
 // Il2CppName: add_vrFocusWasCapturedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(System::Action*)>(&GlobalNamespace::IVRPlatformHelper::add_vrFocusWasCapturedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(::System::Action*)>(&GlobalNamespace::IVRPlatformHelper::add_vrFocusWasCapturedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IVRPlatformHelper*), "add_vrFocusWasCapturedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -222,7 +222,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IVRPlatformHelper::remove_vrFocusWasCapturedEvent
 // Il2CppName: remove_vrFocusWasCapturedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(System::Action*)>(&GlobalNamespace::IVRPlatformHelper::remove_vrFocusWasCapturedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(::System::Action*)>(&GlobalNamespace::IVRPlatformHelper::remove_vrFocusWasCapturedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IVRPlatformHelper*), "remove_vrFocusWasCapturedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -231,7 +231,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IVRPlatformHelper::add_vrFocusWasReleasedEvent
 // Il2CppName: add_vrFocusWasReleasedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(System::Action*)>(&GlobalNamespace::IVRPlatformHelper::add_vrFocusWasReleasedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(::System::Action*)>(&GlobalNamespace::IVRPlatformHelper::add_vrFocusWasReleasedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IVRPlatformHelper*), "add_vrFocusWasReleasedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -240,7 +240,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IVRPlatformHelper::remove_vrFocusWasReleasedEvent
 // Il2CppName: remove_vrFocusWasReleasedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(System::Action*)>(&GlobalNamespace::IVRPlatformHelper::remove_vrFocusWasReleasedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(::System::Action*)>(&GlobalNamespace::IVRPlatformHelper::remove_vrFocusWasReleasedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IVRPlatformHelper*), "remove_vrFocusWasReleasedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -249,7 +249,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IVRPlatformHelper::add_hmdUnmountedEvent
 // Il2CppName: add_hmdUnmountedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(System::Action*)>(&GlobalNamespace::IVRPlatformHelper::add_hmdUnmountedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(::System::Action*)>(&GlobalNamespace::IVRPlatformHelper::add_hmdUnmountedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IVRPlatformHelper*), "add_hmdUnmountedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -258,7 +258,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IVRPlatformHelper::remove_hmdUnmountedEvent
 // Il2CppName: remove_hmdUnmountedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(System::Action*)>(&GlobalNamespace::IVRPlatformHelper::remove_hmdUnmountedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(::System::Action*)>(&GlobalNamespace::IVRPlatformHelper::remove_hmdUnmountedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IVRPlatformHelper*), "remove_hmdUnmountedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -267,7 +267,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IVRPlatformHelper::add_hmdMountedEvent
 // Il2CppName: add_hmdMountedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(System::Action*)>(&GlobalNamespace::IVRPlatformHelper::add_hmdMountedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(::System::Action*)>(&GlobalNamespace::IVRPlatformHelper::add_hmdMountedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IVRPlatformHelper*), "add_hmdMountedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -276,7 +276,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IVRPlatformHelper::remove_hmdMountedEvent
 // Il2CppName: remove_hmdMountedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(System::Action*)>(&GlobalNamespace::IVRPlatformHelper::remove_hmdMountedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(::System::Action*)>(&GlobalNamespace::IVRPlatformHelper::remove_hmdMountedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IVRPlatformHelper*), "remove_hmdMountedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -285,7 +285,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IVRPlatformHelper::add_joystickWasCenteredThisFrameEvent
 // Il2CppName: add_joystickWasCenteredThisFrameEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(System::Action*)>(&GlobalNamespace::IVRPlatformHelper::add_joystickWasCenteredThisFrameEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(::System::Action*)>(&GlobalNamespace::IVRPlatformHelper::add_joystickWasCenteredThisFrameEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IVRPlatformHelper*), "add_joystickWasCenteredThisFrameEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -294,7 +294,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IVRPlatformHelper::remove_joystickWasCenteredThisFrameEvent
 // Il2CppName: remove_joystickWasCenteredThisFrameEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(System::Action*)>(&GlobalNamespace::IVRPlatformHelper::remove_joystickWasCenteredThisFrameEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(::System::Action*)>(&GlobalNamespace::IVRPlatformHelper::remove_joystickWasCenteredThisFrameEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IVRPlatformHelper*), "remove_joystickWasCenteredThisFrameEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -303,7 +303,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IVRPlatformHelper::add_joystickWasNotCenteredThisFrameEvent
 // Il2CppName: add_joystickWasNotCenteredThisFrameEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(System::Action_1<UnityEngine::Vector2>*)>(&GlobalNamespace::IVRPlatformHelper::add_joystickWasNotCenteredThisFrameEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(::System::Action_1<::UnityEngine::Vector2>*)>(&GlobalNamespace::IVRPlatformHelper::add_joystickWasNotCenteredThisFrameEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IVRPlatformHelper*), "add_joystickWasNotCenteredThisFrameEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -312,7 +312,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IVRPlatformHelper::remove_joystickWasNotCenteredThisFrameEvent
 // Il2CppName: remove_joystickWasNotCenteredThisFrameEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(System::Action_1<UnityEngine::Vector2>*)>(&GlobalNamespace::IVRPlatformHelper::remove_joystickWasNotCenteredThisFrameEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(::System::Action_1<::UnityEngine::Vector2>*)>(&GlobalNamespace::IVRPlatformHelper::remove_joystickWasNotCenteredThisFrameEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IVRPlatformHelper*), "remove_joystickWasNotCenteredThisFrameEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -321,7 +321,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IVRPlatformHelper::TriggerHapticPulse
 // Il2CppName: TriggerHapticPulse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(UnityEngine::XR::XRNode, float, float, float)>(&GlobalNamespace::IVRPlatformHelper::TriggerHapticPulse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(::UnityEngine::XR::XRNode, float, float, float)>(&GlobalNamespace::IVRPlatformHelper::TriggerHapticPulse)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("UnityEngine.XR", "XRNode")->byval_arg;
     static auto* duration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -333,7 +333,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IVRPlatformHelper::StopHaptics
 // Il2CppName: StopHaptics
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(UnityEngine::XR::XRNode)>(&GlobalNamespace::IVRPlatformHelper::StopHaptics)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(::UnityEngine::XR::XRNode)>(&GlobalNamespace::IVRPlatformHelper::StopHaptics)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("UnityEngine.XR", "XRNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IVRPlatformHelper*), "StopHaptics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node});
@@ -342,7 +342,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IVRPlatformHelper::AdjustControllerTransform
 // Il2CppName: AdjustControllerTransform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(UnityEngine::XR::XRNode, UnityEngine::Transform*, UnityEngine::Vector3, UnityEngine::Vector3)>(&GlobalNamespace::IVRPlatformHelper::AdjustControllerTransform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IVRPlatformHelper::*)(::UnityEngine::XR::XRNode, ::UnityEngine::Transform*, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&GlobalNamespace::IVRPlatformHelper::AdjustControllerTransform)> {
   static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("UnityEngine.XR", "XRNode")->byval_arg;
     static auto* transform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
@@ -354,7 +354,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IVRPlatformHelper::GetNodePose
 // Il2CppName: GetNodePose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::IVRPlatformHelper::*)(UnityEngine::XR::XRNode, int, ByRef<UnityEngine::Vector3>, ByRef<UnityEngine::Quaternion>)>(&GlobalNamespace::IVRPlatformHelper::GetNodePose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::IVRPlatformHelper::*)(::UnityEngine::XR::XRNode, int, ByRef<::UnityEngine::Vector3>, ByRef<::UnityEngine::Quaternion>)>(&GlobalNamespace::IVRPlatformHelper::GetNodePose)> {
   static const MethodInfo* get() {
     static auto* nodeType = &::il2cpp_utils::GetClassFromName("UnityEngine.XR", "XRNode")->byval_arg;
     static auto* idx = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

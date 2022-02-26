@@ -15,8 +15,8 @@ namespace System::Xml::Linq {
   class Res;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Linq::Res);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Linq::Res*, "System.Xml.Linq", "Res");
+NEED_NO_BOX(::System::Xml::Linq::Res);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Linq::Res*, "System.Xml.Linq", "Res");
 // Type namespace: System.Xml.Linq
 namespace System::Xml::Linq {
   // Size: 0x10

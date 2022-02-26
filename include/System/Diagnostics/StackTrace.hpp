@@ -42,8 +42,8 @@ namespace System::Diagnostics {
   class StackTrace;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Diagnostics::StackTrace);
-DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::StackTrace*, "System.Diagnostics", "StackTrace");
+NEED_NO_BOX(::System::Diagnostics::StackTrace);
+DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::StackTrace*, "System.Diagnostics", "StackTrace");
 // Type namespace: System.Diagnostics
 namespace System::Diagnostics {
   // Size: 0x21
@@ -54,7 +54,7 @@ namespace System::Diagnostics {
   // [ComVisibleAttribute] Offset: 118D8B8
   class StackTrace : public ::Il2CppObject {
     public:
-    // Nested type: System::Diagnostics::StackTrace::TraceFormat
+    // Nested type: ::System::Diagnostics::StackTrace::TraceFormat
     struct TraceFormat;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -68,15 +68,15 @@ namespace System::Diagnostics {
     // private System.Diagnostics.StackFrame[] frames
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<System::Diagnostics::StackFrame*> frames;
+    ::ArrayW<::System::Diagnostics::StackFrame*> frames;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::Diagnostics::StackFrame*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::System::Diagnostics::StackFrame*>) == 0x8);
     // private readonly System.Diagnostics.StackTrace[] captured_traces
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayW<System::Diagnostics::StackTrace*> captured_traces;
+    ::ArrayW<::System::Diagnostics::StackTrace*> captured_traces;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::Diagnostics::StackTrace*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::System::Diagnostics::StackTrace*>) == 0x8);
     // private System.Boolean debug_info
     // Size: 0x1
     // Offset: 0x20
@@ -99,9 +99,9 @@ namespace System::Diagnostics {
     // Set static field: static private System.String aotid
     static void _set_aotid(::StringW value);
     // Get instance field reference: private System.Diagnostics.StackFrame[] frames
-    ::ArrayW<System::Diagnostics::StackFrame*>& dyn_frames();
+    ::ArrayW<::System::Diagnostics::StackFrame*>& dyn_frames();
     // Get instance field reference: private readonly System.Diagnostics.StackTrace[] captured_traces
-    ::ArrayW<System::Diagnostics::StackTrace*>& dyn_captured_traces();
+    ::ArrayW<::System::Diagnostics::StackTrace*>& dyn_captured_traces();
     // Get instance field reference: private System.Boolean debug_info
     bool& dyn_debug_info();
     // public System.Int32 get_FrameCount()
@@ -111,28 +111,28 @@ namespace System::Diagnostics {
     // Offset: 0x18806B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StackTrace* New_ctor(bool fNeedFileInfo) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::StackTrace::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Diagnostics::StackTrace::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StackTrace*, creationType>(fNeedFileInfo)));
     }
     // public System.Void .ctor(System.Int32 skipFrames, System.Boolean fNeedFileInfo)
     // Offset: 0x18806EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StackTrace* New_ctor(int skipFrames, bool fNeedFileInfo) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::StackTrace::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Diagnostics::StackTrace::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StackTrace*, creationType>(skipFrames, fNeedFileInfo)));
     }
     // public System.Void .ctor(System.Exception e, System.Boolean fNeedFileInfo)
     // Offset: 0x1880734
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static StackTrace* New_ctor(System::Exception* e, bool fNeedFileInfo) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::StackTrace::.ctor");
+    static StackTrace* New_ctor(::System::Exception* e, bool fNeedFileInfo) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Diagnostics::StackTrace::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StackTrace*, creationType>(e, fNeedFileInfo)));
     }
     // public System.Void .ctor(System.Exception e, System.Int32 skipFrames, System.Boolean fNeedFileInfo)
     // Offset: 0x1880740
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static StackTrace* New_ctor(System::Exception* e, int skipFrames, bool fNeedFileInfo) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::StackTrace::.ctor");
+    static StackTrace* New_ctor(::System::Exception* e, int skipFrames, bool fNeedFileInfo) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Diagnostics::StackTrace::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StackTrace*, creationType>(e, skipFrames, fNeedFileInfo)));
     }
     // private System.Void init_frames(System.Int32 skipFrames, System.Boolean fNeedFileInfo)
@@ -140,29 +140,29 @@ namespace System::Diagnostics {
     void init_frames(int skipFrames, bool fNeedFileInfo);
     // static private System.Diagnostics.StackFrame[] get_trace(System.Exception e, System.Int32 skipFrames, System.Boolean fNeedFileInfo)
     // Offset: 0x188072C
-    static ::ArrayW<System::Diagnostics::StackFrame*> get_trace(System::Exception* e, int skipFrames, bool fNeedFileInfo);
+    static ::ArrayW<::System::Diagnostics::StackFrame*> get_trace(::System::Exception* e, int skipFrames, bool fNeedFileInfo);
     // public System.Diagnostics.StackFrame GetFrame(System.Int32 index)
     // Offset: 0x1880858
-    System::Diagnostics::StackFrame* GetFrame(int index);
+    ::System::Diagnostics::StackFrame* GetFrame(int index);
     // static private System.String GetAotId()
     // Offset: 0x18808C4
     static ::StringW GetAotId();
     // private System.Boolean AddFrames(System.Text.StringBuilder sb)
     // Offset: 0x1880998
-    bool AddFrames(System::Text::StringBuilder* sb);
+    bool AddFrames(::System::Text::StringBuilder* sb);
     // System.Void GetFullNameForStackTrace(System.Text.StringBuilder sb, System.Reflection.MethodBase mi)
     // Offset: 0x1880E90
-    void GetFullNameForStackTrace(System::Text::StringBuilder* sb, System::Reflection::MethodBase* mi);
+    void GetFullNameForStackTrace(::System::Text::StringBuilder* sb, ::System::Reflection::MethodBase* mi);
     // System.String ToString(System.Diagnostics.StackTrace/System.Diagnostics.TraceFormat traceFormat)
     // Offset: 0x18813CC
-    ::StringW ToString(System::Diagnostics::StackTrace::TraceFormat traceFormat);
+    ::StringW ToString(::System::Diagnostics::StackTrace::TraceFormat traceFormat);
     // public System.Void .ctor()
     // Offset: 0x18804F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StackTrace* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::StackTrace::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Diagnostics::StackTrace::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StackTrace*, creationType>()));
     }
     // public override System.String ToString()
@@ -213,7 +213,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Diagnostics::StackTrace::get_trace
 // Il2CppName: get_trace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Diagnostics::StackFrame*> (*)(System::Exception*, int, bool)>(&System::Diagnostics::StackTrace::get_trace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Diagnostics::StackFrame*> (*)(::System::Exception*, int, bool)>(&System::Diagnostics::StackTrace::get_trace)> {
   static const MethodInfo* get() {
     static auto* e = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
     static auto* skipFrames = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -224,7 +224,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Sy
 // Writing MetadataGetter for method: System::Diagnostics::StackTrace::GetFrame
 // Il2CppName: GetFrame
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Diagnostics::StackFrame* (System::Diagnostics::StackTrace::*)(int)>(&System::Diagnostics::StackTrace::GetFrame)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Diagnostics::StackFrame* (System::Diagnostics::StackTrace::*)(int)>(&System::Diagnostics::StackTrace::GetFrame)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::StackTrace*), "GetFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
@@ -241,7 +241,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::Diagnostics::StackTrace::AddFrames
 // Il2CppName: AddFrames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Diagnostics::StackTrace::*)(System::Text::StringBuilder*)>(&System::Diagnostics::StackTrace::AddFrames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Diagnostics::StackTrace::*)(::System::Text::StringBuilder*)>(&System::Diagnostics::StackTrace::AddFrames)> {
   static const MethodInfo* get() {
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::StackTrace*), "AddFrames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sb});
@@ -250,7 +250,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Diagnostics::StackTrace::GetFullNameForStackTrace
 // Il2CppName: GetFullNameForStackTrace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::StackTrace::*)(System::Text::StringBuilder*, System::Reflection::MethodBase*)>(&System::Diagnostics::StackTrace::GetFullNameForStackTrace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::StackTrace::*)(::System::Text::StringBuilder*, ::System::Reflection::MethodBase*)>(&System::Diagnostics::StackTrace::GetFullNameForStackTrace)> {
   static const MethodInfo* get() {
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* mi = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodBase")->byval_arg;
@@ -260,7 +260,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Diagnostics::StackTrace::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Diagnostics::StackTrace::*)(System::Diagnostics::StackTrace::TraceFormat)>(&System::Diagnostics::StackTrace::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::Diagnostics::StackTrace::*)(::System::Diagnostics::StackTrace::TraceFormat)>(&System::Diagnostics::StackTrace::ToString)> {
   static const MethodInfo* get() {
     static auto* traceFormat = &::il2cpp_utils::GetClassFromName("System.Diagnostics", "StackTrace/TraceFormat")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::StackTrace*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{traceFormat});

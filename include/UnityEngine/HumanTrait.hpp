@@ -14,8 +14,8 @@ namespace UnityEngine {
   class HumanTrait;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::HumanTrait);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HumanTrait*, "UnityEngine", "HumanTrait");
+NEED_NO_BOX(::UnityEngine::HumanTrait);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::HumanTrait*, "UnityEngine", "HumanTrait");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10

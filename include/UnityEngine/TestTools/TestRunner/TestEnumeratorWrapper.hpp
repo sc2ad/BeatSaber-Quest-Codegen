@@ -30,8 +30,8 @@ namespace UnityEngine::TestTools::TestRunner {
   class TestEnumeratorWrapper;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper*, "UnityEngine.TestTools.TestRunner", "TestEnumeratorWrapper");
+NEED_NO_BOX(::UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper*, "UnityEngine.TestTools.TestRunner", "TestEnumeratorWrapper");
 // Type namespace: UnityEngine.TestTools.TestRunner
 namespace UnityEngine::TestTools::TestRunner {
   // Size: 0x18
@@ -52,32 +52,32 @@ namespace UnityEngine::TestTools::TestRunner {
     // private readonly NUnit.Framework.Internal.TestMethod m_TestMethod
     // Size: 0x8
     // Offset: 0x10
-    NUnit::Framework::Internal::TestMethod* m_TestMethod;
+    ::NUnit::Framework::Internal::TestMethod* m_TestMethod;
     // Field size check
-    static_assert(sizeof(NUnit::Framework::Internal::TestMethod*) == 0x8);
+    static_assert(sizeof(::NUnit::Framework::Internal::TestMethod*) == 0x8);
     public:
-    // Creating conversion operator: operator NUnit::Framework::Internal::TestMethod*
-    constexpr operator NUnit::Framework::Internal::TestMethod*() const noexcept {
+    // Creating conversion operator: operator ::NUnit::Framework::Internal::TestMethod*
+    constexpr operator ::NUnit::Framework::Internal::TestMethod*() const noexcept {
       return m_TestMethod;
     }
     // Get instance field reference: private readonly NUnit.Framework.Internal.TestMethod m_TestMethod
-    NUnit::Framework::Internal::TestMethod*& dyn_m_TestMethod();
+    ::NUnit::Framework::Internal::TestMethod*& dyn_m_TestMethod();
     // public System.Void .ctor(NUnit.Framework.Internal.TestMethod testMethod)
     // Offset: 0x18D7D08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TestEnumeratorWrapper* New_ctor(NUnit::Framework::Internal::TestMethod* testMethod) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper::.ctor");
+    static TestEnumeratorWrapper* New_ctor(::NUnit::Framework::Internal::TestMethod* testMethod) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestEnumeratorWrapper*, creationType>(testMethod)));
     }
     // public System.Collections.IEnumerator GetEnumerator(NUnit.Framework.Internal.ITestExecutionContext context)
     // Offset: 0x18D7D34
-    System::Collections::IEnumerator* GetEnumerator(NUnit::Framework::Internal::ITestExecutionContext* context);
+    ::System::Collections::IEnumerator* GetEnumerator(::NUnit::Framework::Internal::ITestExecutionContext* context);
     // private System.Collections.IEnumerator HandleEnumerableTest(NUnit.Framework.Internal.ITestExecutionContext context)
     // Offset: 0x18DFF50
-    System::Collections::IEnumerator* HandleEnumerableTest(NUnit::Framework::Internal::ITestExecutionContext* context);
+    ::System::Collections::IEnumerator* HandleEnumerableTest(::NUnit::Framework::Internal::ITestExecutionContext* context);
   }; // UnityEngine.TestTools.TestRunner.TestEnumeratorWrapper
   #pragma pack(pop)
-  static check_size<sizeof(TestEnumeratorWrapper), 16 + sizeof(NUnit::Framework::Internal::TestMethod*)> __UnityEngine_TestTools_TestRunner_TestEnumeratorWrapperSizeCheck;
+  static check_size<sizeof(TestEnumeratorWrapper), 16 + sizeof(::NUnit::Framework::Internal::TestMethod*)> __UnityEngine_TestTools_TestRunner_TestEnumeratorWrapperSizeCheck;
   static_assert(sizeof(TestEnumeratorWrapper) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -88,7 +88,7 @@ namespace UnityEngine::TestTools::TestRunner {
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper::GetEnumerator
 // Il2CppName: GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper::GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper::*)(::NUnit::Framework::Internal::ITestExecutionContext*)>(&UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper::GetEnumerator)> {
   static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "ITestExecutionContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
@@ -97,7 +97,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper::HandleEnumerableTest
 // Il2CppName: HandleEnumerableTest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper::HandleEnumerableTest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper::*)(::NUnit::Framework::Internal::ITestExecutionContext*)>(&UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper::HandleEnumerableTest)> {
   static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "ITestExecutionContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper*), "HandleEnumerableTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});

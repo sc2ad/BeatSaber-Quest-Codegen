@@ -20,8 +20,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MenuTransitionsHelper::$$c);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuTransitionsHelper::$$c*, "", "MenuTransitionsHelper/<>c");
+NEED_NO_BOX(::GlobalNamespace::MenuTransitionsHelper::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MenuTransitionsHelper::$$c*, "", "MenuTransitionsHelper/<>c");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -32,13 +32,13 @@ namespace GlobalNamespace {
   class MenuTransitionsHelper::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly MenuTransitionsHelper/<>c <>9
-    static GlobalNamespace::MenuTransitionsHelper::$$c* _get_$$9();
+    static ::GlobalNamespace::MenuTransitionsHelper::$$c* _get_$$9();
     // Set static field: static public readonly MenuTransitionsHelper/<>c <>9
-    static void _set_$$9(GlobalNamespace::MenuTransitionsHelper::$$c* value);
+    static void _set_$$9(::GlobalNamespace::MenuTransitionsHelper::$$c* value);
     // Get static field: static public System.Action <>9__21_0
-    static System::Action* _get_$$9__21_0();
+    static ::System::Action* _get_$$9__21_0();
     // Set static field: static public System.Action <>9__21_0
-    static void _set_$$9__21_0(System::Action* value);
+    static void _set_$$9__21_0(::System::Action* value);
     // static private System.Void .cctor()
     // Offset: 0x2A69C10
     static void _cctor();
@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MenuTransitionsHelper::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MenuTransitionsHelper::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MenuTransitionsHelper::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MenuTransitionsHelper::$$c*, creationType>()));
     }
   }; // MenuTransitionsHelper/<>c

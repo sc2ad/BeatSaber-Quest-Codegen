@@ -14,8 +14,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::MultiplayerStatusData::UserMessage::LocalizedMessage);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerStatusData::UserMessage::LocalizedMessage*, "", "MultiplayerStatusData/UserMessage/LocalizedMessage");
+NEED_NO_BOX(::GlobalNamespace::MultiplayerStatusData::UserMessage::LocalizedMessage);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerStatusData::UserMessage::LocalizedMessage*, "", "MultiplayerStatusData/UserMessage/LocalizedMessage");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerStatusData::UserMessage::LocalizedMessage* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerStatusData::UserMessage::LocalizedMessage::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerStatusData::UserMessage::LocalizedMessage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerStatusData::UserMessage::LocalizedMessage*, creationType>()));
     }
   }; // MultiplayerStatusData/UserMessage/LocalizedMessage

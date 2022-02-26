@@ -18,8 +18,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::OVRPlugin::OVRP_1_55_1);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_55_1*, "", "OVRPlugin/OVRP_1_55_1");
+NEED_NO_BOX(::GlobalNamespace::OVRPlugin::OVRP_1_55_1);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRPlugin::OVRP_1_55_1*, "", "OVRPlugin/OVRP_1_55_1");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -29,15 +29,15 @@ namespace GlobalNamespace {
   class OVRPlugin::OVRP_1_55_1 : public ::Il2CppObject {
     public:
     // Get static field: static public readonly System.Version version
-    static System::Version* _get_version();
+    static ::System::Version* _get_version();
     // Set static field: static public readonly System.Version version
-    static void _set_version(System::Version* value);
+    static void _set_version(::System::Version* value);
     // static private System.Void .cctor()
     // Offset: 0x1A75E5C
     static void _cctor();
     // static public OVRPlugin/Result ovrp_PollEvent2(ref OVRPlugin/EventType eventType, ref System.IntPtr eventData)
     // Offset: 0x1A75DCC
-    static GlobalNamespace::OVRPlugin::Result ovrp_PollEvent2(ByRef<GlobalNamespace::OVRPlugin::EventType> eventType, ByRef<System::IntPtr> eventData);
+    static ::GlobalNamespace::OVRPlugin::Result ovrp_PollEvent2(ByRef<::GlobalNamespace::OVRPlugin::EventType> eventType, ByRef<::System::IntPtr> eventData);
   }; // OVRPlugin/OVRP_1_55_1
   #pragma pack(pop)
 }
@@ -53,7 +53,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_55_1::ovrp_PollEvent2
 // Il2CppName: ovrp_PollEvent2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(ByRef<GlobalNamespace::OVRPlugin::EventType>, ByRef<System::IntPtr>)>(&GlobalNamespace::OVRPlugin::OVRP_1_55_1::ovrp_PollEvent2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin::Result (*)(ByRef<::GlobalNamespace::OVRPlugin::EventType>, ByRef<::System::IntPtr>)>(&GlobalNamespace::OVRPlugin::OVRP_1_55_1::ovrp_PollEvent2)> {
   static const MethodInfo* get() {
     static auto* eventType = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/EventType")->this_arg;
     static auto* eventData = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->this_arg;

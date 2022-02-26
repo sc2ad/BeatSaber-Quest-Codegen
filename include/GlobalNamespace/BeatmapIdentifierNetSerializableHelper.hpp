@@ -21,8 +21,8 @@ namespace GlobalNamespace {
   class BeatmapIdentifierNetSerializableHelper;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BeatmapIdentifierNetSerializableHelper);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapIdentifierNetSerializableHelper*, "", "BeatmapIdentifierNetSerializableHelper");
+NEED_NO_BOX(::GlobalNamespace::BeatmapIdentifierNetSerializableHelper);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapIdentifierNetSerializableHelper*, "", "BeatmapIdentifierNetSerializableHelper");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -34,10 +34,10 @@ namespace GlobalNamespace {
     public:
     // static public BeatmapIdentifierNetSerializable GetIdentifier(IDifficultyBeatmap difficultyBeatmap)
     // Offset: 0x14BE28C
-    static GlobalNamespace::BeatmapIdentifierNetSerializable* GetIdentifier(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
+    static ::GlobalNamespace::BeatmapIdentifierNetSerializable* GetIdentifier(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // static public System.Boolean HasIdentifier(IDifficultyBeatmap difficultyBeatmap, BeatmapIdentifierNetSerializable beatmapId)
     // Offset: 0x14BE52C
-    static bool HasIdentifier(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::BeatmapIdentifierNetSerializable* beatmapId);
+    static bool HasIdentifier(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::GlobalNamespace::BeatmapIdentifierNetSerializable* beatmapId);
   }; // BeatmapIdentifierNetSerializableHelper
   #pragma pack(pop)
 }
@@ -45,7 +45,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapIdentifierNetSerializableHelper::GetIdentifier
 // Il2CppName: GetIdentifier
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapIdentifierNetSerializable* (*)(GlobalNamespace::IDifficultyBeatmap*)>(&GlobalNamespace::BeatmapIdentifierNetSerializableHelper::GetIdentifier)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapIdentifierNetSerializable* (*)(::GlobalNamespace::IDifficultyBeatmap*)>(&GlobalNamespace::BeatmapIdentifierNetSerializableHelper::GetIdentifier)> {
   static const MethodInfo* get() {
     static auto* difficultyBeatmap = &::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmap")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapIdentifierNetSerializableHelper*), "GetIdentifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{difficultyBeatmap});
@@ -54,7 +54,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapIdentifierNetSerializableHelper::HasIdentifier
 // Il2CppName: HasIdentifier
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::BeatmapIdentifierNetSerializable*)>(&GlobalNamespace::BeatmapIdentifierNetSerializableHelper::HasIdentifier)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::IDifficultyBeatmap*, ::GlobalNamespace::BeatmapIdentifierNetSerializable*)>(&GlobalNamespace::BeatmapIdentifierNetSerializableHelper::HasIdentifier)> {
   static const MethodInfo* get() {
     static auto* difficultyBeatmap = &::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmap")->byval_arg;
     static auto* beatmapId = &::il2cpp_utils::GetClassFromName("", "BeatmapIdentifierNetSerializable")->byval_arg;

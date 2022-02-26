@@ -16,8 +16,8 @@ namespace System {
   class LocalDataStoreElement;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::LocalDataStoreElement);
-DEFINE_IL2CPP_ARG_TYPE(System::LocalDataStoreElement*, "System", "LocalDataStoreElement");
+NEED_NO_BOX(::System::LocalDataStoreElement);
+DEFINE_IL2CPP_ARG_TYPE(::System::LocalDataStoreElement*, "System", "LocalDataStoreElement");
 // Type namespace: System
 namespace System {
   // Size: 0x20
@@ -65,7 +65,7 @@ namespace System {
     // Offset: 0x1A93184
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalDataStoreElement* New_ctor(int64_t cookie) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::LocalDataStoreElement::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::LocalDataStoreElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalDataStoreElement*, creationType>(cookie)));
     }
   }; // System.LocalDataStoreElement

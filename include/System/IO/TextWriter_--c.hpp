@@ -13,8 +13,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::IO::TextWriter::$$c);
-DEFINE_IL2CPP_ARG_TYPE(System::IO::TextWriter::$$c*, "System.IO", "TextWriter/<>c");
+NEED_NO_BOX(::System::IO::TextWriter::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::System::IO::TextWriter::$$c*, "System.IO", "TextWriter/<>c");
 // Type namespace: System.IO
 namespace System::IO {
   // Size: 0x10
@@ -25,9 +25,9 @@ namespace System::IO {
   class TextWriter::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly System.IO.TextWriter/System.IO.<>c <>9
-    static System::IO::TextWriter::$$c* _get_$$9();
+    static ::System::IO::TextWriter::$$c* _get_$$9();
     // Set static field: static public readonly System.IO.TextWriter/System.IO.<>c <>9
-    static void _set_$$9(System::IO::TextWriter::$$c* value);
+    static void _set_$$9(::System::IO::TextWriter::$$c* value);
     // static private System.Void .cctor()
     // Offset: 0x1A8C3E0
     static void _cctor();
@@ -58,7 +58,7 @@ namespace System::IO {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TextWriter::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::IO::TextWriter::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::IO::TextWriter::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TextWriter::$$c*, creationType>()));
     }
   }; // System.IO.TextWriter/System.IO.<>c

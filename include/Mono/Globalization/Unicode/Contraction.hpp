@@ -18,8 +18,8 @@ namespace Mono::Globalization::Unicode {
   class Contraction;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Globalization::Unicode::Contraction);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::Contraction*, "Mono.Globalization.Unicode", "Contraction");
+NEED_NO_BOX(::Mono::Globalization::Unicode::Contraction);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Globalization::Unicode::Contraction*, "Mono.Globalization.Unicode", "Contraction");
 // Type namespace: Mono.Globalization.Unicode
 namespace Mono::Globalization::Unicode {
   // Size: 0x30
@@ -76,7 +76,7 @@ namespace Mono::Globalization::Unicode {
     // Offset: 0x1E66CC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Contraction* New_ctor(int index, ::ArrayW<::Il2CppChar> source, ::StringW replacement, ::ArrayW<uint8_t> sortkey) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Globalization::Unicode::Contraction::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Globalization::Unicode::Contraction::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Contraction*, creationType>(index, source, replacement, sortkey)));
     }
   }; // Mono.Globalization.Unicode.Contraction

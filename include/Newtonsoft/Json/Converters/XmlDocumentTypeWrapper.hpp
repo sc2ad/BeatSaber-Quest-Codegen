@@ -28,8 +28,8 @@ namespace Newtonsoft::Json::Converters {
   class XmlDocumentTypeWrapper;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Converters::XmlDocumentTypeWrapper);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Converters::XmlDocumentTypeWrapper*, "Newtonsoft.Json.Converters", "XmlDocumentTypeWrapper");
+NEED_NO_BOX(::Newtonsoft::Json::Converters::XmlDocumentTypeWrapper);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Converters::XmlDocumentTypeWrapper*, "Newtonsoft.Json.Converters", "XmlDocumentTypeWrapper");
 // Type namespace: Newtonsoft.Json.Converters
 namespace Newtonsoft::Json::Converters {
   // Size: 0x30
@@ -38,7 +38,7 @@ namespace Newtonsoft::Json::Converters {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NullableContextAttribute] Offset: 12037E0
   // [NullableAttribute] Offset: 12037E0
-  class XmlDocumentTypeWrapper : public Newtonsoft::Json::Converters::XmlNodeWrapper/*, public Newtonsoft::Json::Converters::IXmlDocumentType*/ {
+  class XmlDocumentTypeWrapper : public ::Newtonsoft::Json::Converters::XmlNodeWrapper/*, public ::Newtonsoft::Json::Converters::IXmlDocumentType*/ {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -52,20 +52,20 @@ namespace Newtonsoft::Json::Converters {
     // private readonly System.Xml.XmlDocumentType _documentType
     // Size: 0x8
     // Offset: 0x28
-    System::Xml::XmlDocumentType* documentType;
+    ::System::Xml::XmlDocumentType* documentType;
     // Field size check
-    static_assert(sizeof(System::Xml::XmlDocumentType*) == 0x8);
+    static_assert(sizeof(::System::Xml::XmlDocumentType*) == 0x8);
     public:
-    // Creating interface conversion operator: operator Newtonsoft::Json::Converters::IXmlDocumentType
-    operator Newtonsoft::Json::Converters::IXmlDocumentType() noexcept {
-      return *reinterpret_cast<Newtonsoft::Json::Converters::IXmlDocumentType*>(this);
+    // Creating interface conversion operator: operator ::Newtonsoft::Json::Converters::IXmlDocumentType
+    operator ::Newtonsoft::Json::Converters::IXmlDocumentType() noexcept {
+      return *reinterpret_cast<::Newtonsoft::Json::Converters::IXmlDocumentType*>(this);
     }
-    // Creating conversion operator: operator System::Xml::XmlDocumentType*
-    constexpr operator System::Xml::XmlDocumentType*() const noexcept {
+    // Creating conversion operator: operator ::System::Xml::XmlDocumentType*
+    constexpr operator ::System::Xml::XmlDocumentType*() const noexcept {
       return documentType;
     }
     // Get instance field reference: private readonly System.Xml.XmlDocumentType _documentType
-    System::Xml::XmlDocumentType*& dyn__documentType();
+    ::System::Xml::XmlDocumentType*& dyn__documentType();
     // public System.String get_Name()
     // Offset: 0x18247C0
     ::StringW get_Name();
@@ -81,8 +81,8 @@ namespace Newtonsoft::Json::Converters {
     // public System.Void .ctor(System.Xml.XmlDocumentType documentType)
     // Offset: 0x1824790
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlDocumentTypeWrapper* New_ctor(System::Xml::XmlDocumentType* documentType) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Converters::XmlDocumentTypeWrapper::.ctor");
+    static XmlDocumentTypeWrapper* New_ctor(::System::Xml::XmlDocumentType* documentType) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Converters::XmlDocumentTypeWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlDocumentTypeWrapper*, creationType>(documentType)));
     }
     // public override System.String get_LocalName()
@@ -92,7 +92,7 @@ namespace Newtonsoft::Json::Converters {
     ::StringW get_LocalName();
   }; // Newtonsoft.Json.Converters.XmlDocumentTypeWrapper
   #pragma pack(pop)
-  static check_size<sizeof(XmlDocumentTypeWrapper), 40 + sizeof(System::Xml::XmlDocumentType*)> __Newtonsoft_Json_Converters_XmlDocumentTypeWrapperSizeCheck;
+  static check_size<sizeof(XmlDocumentTypeWrapper), 40 + sizeof(::System::Xml::XmlDocumentType*)> __Newtonsoft_Json_Converters_XmlDocumentTypeWrapperSizeCheck;
   static_assert(sizeof(XmlDocumentTypeWrapper) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

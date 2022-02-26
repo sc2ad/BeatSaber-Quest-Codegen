@@ -20,8 +20,8 @@ namespace Oculus::Platform::Models {
   class RoomInviteNotification;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::RoomInviteNotification);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::RoomInviteNotification*, "Oculus.Platform.Models", "RoomInviteNotification");
+NEED_NO_BOX(::Oculus::Platform::Models::RoomInviteNotification);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::RoomInviteNotification*, "Oculus.Platform.Models", "RoomInviteNotification");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x30
@@ -60,9 +60,9 @@ namespace Oculus::Platform::Models {
     // public readonly System.DateTime SentTime
     // Size: 0x8
     // Offset: 0x28
-    System::DateTime SentTime;
+    ::System::DateTime SentTime;
     // Field size check
-    static_assert(sizeof(System::DateTime) == 0x8);
+    static_assert(sizeof(::System::DateTime) == 0x8);
     public:
     // Get instance field reference: public readonly System.UInt64 ID
     uint64_t& dyn_ID();
@@ -71,17 +71,17 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.UInt64 SenderID
     uint64_t& dyn_SenderID();
     // Get instance field reference: public readonly System.DateTime SentTime
-    System::DateTime& dyn_SentTime();
+    ::System::DateTime& dyn_SentTime();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x196B660
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static RoomInviteNotification* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::RoomInviteNotification::.ctor");
+    static RoomInviteNotification* New_ctor(::System::IntPtr o) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::RoomInviteNotification::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RoomInviteNotification*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.RoomInviteNotification
   #pragma pack(pop)
-  static check_size<sizeof(RoomInviteNotification), 40 + sizeof(System::DateTime)> __Oculus_Platform_Models_RoomInviteNotificationSizeCheck;
+  static check_size<sizeof(RoomInviteNotification), 40 + sizeof(::System::DateTime)> __Oculus_Platform_Models_RoomInviteNotificationSizeCheck;
   static_assert(sizeof(RoomInviteNotification) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

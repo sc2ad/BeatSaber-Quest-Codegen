@@ -40,8 +40,8 @@ namespace System::Runtime::Remoting::Activation {
   class ActivationServices;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Remoting::Activation::ActivationServices);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Activation::ActivationServices*, "System.Runtime.Remoting.Activation", "ActivationServices");
+NEED_NO_BOX(::System::Runtime::Remoting::Activation::ActivationServices);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Activation::ActivationServices*, "System.Runtime.Remoting.Activation", "ActivationServices");
 // Type namespace: System.Runtime.Remoting.Activation
 namespace System::Runtime::Remoting::Activation {
   // Size: 0x10
@@ -51,33 +51,33 @@ namespace System::Runtime::Remoting::Activation {
   class ActivationServices : public ::Il2CppObject {
     public:
     // Get static field: static private System.Runtime.Remoting.Activation.IActivator _constructionActivator
-    static System::Runtime::Remoting::Activation::IActivator* _get__constructionActivator();
+    static ::System::Runtime::Remoting::Activation::IActivator* _get__constructionActivator();
     // Set static field: static private System.Runtime.Remoting.Activation.IActivator _constructionActivator
-    static void _set__constructionActivator(System::Runtime::Remoting::Activation::IActivator* value);
+    static void _set__constructionActivator(::System::Runtime::Remoting::Activation::IActivator* value);
     // static private System.Runtime.Remoting.Activation.IActivator get_ConstructionActivator()
     // Offset: 0x1C6DD88
-    static System::Runtime::Remoting::Activation::IActivator* get_ConstructionActivator();
+    static ::System::Runtime::Remoting::Activation::IActivator* get_ConstructionActivator();
     // static public System.Runtime.Remoting.Messaging.IMessage Activate(System.Runtime.Remoting.Proxies.RemotingProxy proxy, System.Runtime.Remoting.Messaging.ConstructionCall ctorCall)
     // Offset: 0x1C6DE18
-    static System::Runtime::Remoting::Messaging::IMessage* Activate(System::Runtime::Remoting::Proxies::RemotingProxy* proxy, System::Runtime::Remoting::Messaging::ConstructionCall* ctorCall);
+    static ::System::Runtime::Remoting::Messaging::IMessage* Activate(::System::Runtime::Remoting::Proxies::RemotingProxy* proxy, ::System::Runtime::Remoting::Messaging::ConstructionCall* ctorCall);
     // static public System.Runtime.Remoting.Messaging.IMessage RemoteActivate(System.Runtime.Remoting.Activation.IConstructionCallMessage ctorCall)
     // Offset: 0x1C6E048
-    static System::Runtime::Remoting::Messaging::IMessage* RemoteActivate(System::Runtime::Remoting::Activation::IConstructionCallMessage* ctorCall);
+    static ::System::Runtime::Remoting::Messaging::IMessage* RemoteActivate(::System::Runtime::Remoting::Activation::IConstructionCallMessage* ctorCall);
     // static public System.Runtime.Remoting.Messaging.ConstructionCall CreateConstructionCall(System.Type type, System.String activationUrl, System.Object[] activationAttributes)
     // Offset: 0x1C6E228
-    static System::Runtime::Remoting::Messaging::ConstructionCall* CreateConstructionCall(System::Type* type, ::StringW activationUrl, ::ArrayW<::Il2CppObject*> activationAttributes);
+    static ::System::Runtime::Remoting::Messaging::ConstructionCall* CreateConstructionCall(::System::Type* type, ::StringW activationUrl, ::ArrayW<::Il2CppObject*> activationAttributes);
     // static public System.Runtime.Remoting.Messaging.IMessage CreateInstanceFromMessage(System.Runtime.Remoting.Activation.IConstructionCallMessage ctorCall)
     // Offset: 0x1C6EBA4
-    static System::Runtime::Remoting::Messaging::IMessage* CreateInstanceFromMessage(System::Runtime::Remoting::Activation::IConstructionCallMessage* ctorCall);
+    static ::System::Runtime::Remoting::Messaging::IMessage* CreateInstanceFromMessage(::System::Runtime::Remoting::Activation::IConstructionCallMessage* ctorCall);
     // static public System.Object CreateProxyForType(System.Type type)
     // Offset: 0x1C6EFA4
-    static ::Il2CppObject* CreateProxyForType(System::Type* type);
+    static ::Il2CppObject* CreateProxyForType(::System::Type* type);
     // static public System.Object AllocateUninitializedClassInstance(System.Type type)
     // Offset: 0x1C6EFA0
-    static ::Il2CppObject* AllocateUninitializedClassInstance(System::Type* type);
+    static ::Il2CppObject* AllocateUninitializedClassInstance(::System::Type* type);
     // static public System.Void EnableProxyActivation(System.Type type, System.Boolean enable)
     // Offset: 0x1C6F118
-    static void EnableProxyActivation(System::Type* type, bool enable);
+    static void EnableProxyActivation(::System::Type* type, bool enable);
   }; // System.Runtime.Remoting.Activation.ActivationServices
   #pragma pack(pop)
 }
@@ -85,7 +85,7 @@ namespace System::Runtime::Remoting::Activation {
 // Writing MetadataGetter for method: System::Runtime::Remoting::Activation::ActivationServices::get_ConstructionActivator
 // Il2CppName: get_ConstructionActivator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Activation::IActivator* (*)()>(&System::Runtime::Remoting::Activation::ActivationServices::get_ConstructionActivator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Activation::IActivator* (*)()>(&System::Runtime::Remoting::Activation::ActivationServices::get_ConstructionActivator)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Activation::ActivationServices*), "get_ConstructionActivator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -93,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: System::Runtime::Remoting::Activation::ActivationServices::Activate
 // Il2CppName: Activate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessage* (*)(System::Runtime::Remoting::Proxies::RemotingProxy*, System::Runtime::Remoting::Messaging::ConstructionCall*)>(&System::Runtime::Remoting::Activation::ActivationServices::Activate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::IMessage* (*)(::System::Runtime::Remoting::Proxies::RemotingProxy*, ::System::Runtime::Remoting::Messaging::ConstructionCall*)>(&System::Runtime::Remoting::Activation::ActivationServices::Activate)> {
   static const MethodInfo* get() {
     static auto* proxy = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Proxies", "RemotingProxy")->byval_arg;
     static auto* ctorCall = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Messaging", "ConstructionCall")->byval_arg;
@@ -103,7 +103,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: System::Runtime::Remoting::Activation::ActivationServices::RemoteActivate
 // Il2CppName: RemoteActivate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessage* (*)(System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(&System::Runtime::Remoting::Activation::ActivationServices::RemoteActivate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::IMessage* (*)(::System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(&System::Runtime::Remoting::Activation::ActivationServices::RemoteActivate)> {
   static const MethodInfo* get() {
     static auto* ctorCall = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Activation", "IConstructionCallMessage")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Activation::ActivationServices*), "RemoteActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ctorCall});
@@ -112,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: System::Runtime::Remoting::Activation::ActivationServices::CreateConstructionCall
 // Il2CppName: CreateConstructionCall
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::ConstructionCall* (*)(System::Type*, ::StringW, ::ArrayW<::Il2CppObject*>)>(&System::Runtime::Remoting::Activation::ActivationServices::CreateConstructionCall)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::ConstructionCall* (*)(::System::Type*, ::StringW, ::ArrayW<::Il2CppObject*>)>(&System::Runtime::Remoting::Activation::ActivationServices::CreateConstructionCall)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* activationUrl = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -123,7 +123,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: System::Runtime::Remoting::Activation::ActivationServices::CreateInstanceFromMessage
 // Il2CppName: CreateInstanceFromMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessage* (*)(System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(&System::Runtime::Remoting::Activation::ActivationServices::CreateInstanceFromMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::IMessage* (*)(::System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(&System::Runtime::Remoting::Activation::ActivationServices::CreateInstanceFromMessage)> {
   static const MethodInfo* get() {
     static auto* ctorCall = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Activation", "IConstructionCallMessage")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Activation::ActivationServices*), "CreateInstanceFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ctorCall});
@@ -132,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: System::Runtime::Remoting::Activation::ActivationServices::CreateProxyForType
 // Il2CppName: CreateProxyForType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*)>(&System::Runtime::Remoting::Activation::ActivationServices::CreateProxyForType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::System::Type*)>(&System::Runtime::Remoting::Activation::ActivationServices::CreateProxyForType)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Activation::ActivationServices*), "CreateProxyForType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -141,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Runtime::Remoting::Activation::ActivationServices::AllocateUninitializedClassInstance
 // Il2CppName: AllocateUninitializedClassInstance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*)>(&System::Runtime::Remoting::Activation::ActivationServices::AllocateUninitializedClassInstance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::System::Type*)>(&System::Runtime::Remoting::Activation::ActivationServices::AllocateUninitializedClassInstance)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Activation::ActivationServices*), "AllocateUninitializedClassInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -150,7 +150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Runtime::Remoting::Activation::ActivationServices::EnableProxyActivation
 // Il2CppName: EnableProxyActivation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Type*, bool)>(&System::Runtime::Remoting::Activation::ActivationServices::EnableProxyActivation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*, bool)>(&System::Runtime::Remoting::Activation::ActivationServices::EnableProxyActivation)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* enable = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

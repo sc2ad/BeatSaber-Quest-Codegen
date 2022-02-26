@@ -21,8 +21,8 @@ namespace Newtonsoft::Json::Serialization {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Serialization::DefaultContractResolver::$$c__DisplayClass62_0);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Serialization::DefaultContractResolver::$$c__DisplayClass62_0*, "Newtonsoft.Json.Serialization", "DefaultContractResolver/<>c__DisplayClass62_0");
+NEED_NO_BOX(::Newtonsoft::Json::Serialization::DefaultContractResolver::$$c__DisplayClass62_0);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Serialization::DefaultContractResolver::$$c__DisplayClass62_0*, "Newtonsoft.Json.Serialization", "DefaultContractResolver/<>c__DisplayClass62_0");
 // Type namespace: Newtonsoft.Json.Serialization
 namespace Newtonsoft::Json::Serialization {
   // Size: 0x18
@@ -45,16 +45,16 @@ namespace Newtonsoft::Json::Serialization {
     // public Newtonsoft.Json.Serialization.NamingStrategy namingStrategy
     // Size: 0x8
     // Offset: 0x10
-    Newtonsoft::Json::Serialization::NamingStrategy* namingStrategy;
+    ::Newtonsoft::Json::Serialization::NamingStrategy* namingStrategy;
     // Field size check
-    static_assert(sizeof(Newtonsoft::Json::Serialization::NamingStrategy*) == 0x8);
+    static_assert(sizeof(::Newtonsoft::Json::Serialization::NamingStrategy*) == 0x8);
     public:
-    // Creating conversion operator: operator Newtonsoft::Json::Serialization::NamingStrategy*
-    constexpr operator Newtonsoft::Json::Serialization::NamingStrategy*() const noexcept {
+    // Creating conversion operator: operator ::Newtonsoft::Json::Serialization::NamingStrategy*
+    constexpr operator ::Newtonsoft::Json::Serialization::NamingStrategy*() const noexcept {
       return namingStrategy;
     }
     // Get instance field reference: public Newtonsoft.Json.Serialization.NamingStrategy namingStrategy
-    Newtonsoft::Json::Serialization::NamingStrategy*& dyn_namingStrategy();
+    ::Newtonsoft::Json::Serialization::NamingStrategy*& dyn_namingStrategy();
     // System.String <CreateDictionaryContract>b__0(System.String s)
     // Offset: 0x152C154
     ::StringW $CreateDictionaryContract$b__0(::StringW s);
@@ -64,12 +64,12 @@ namespace Newtonsoft::Json::Serialization {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultContractResolver::$$c__DisplayClass62_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Serialization::DefaultContractResolver::$$c__DisplayClass62_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::DefaultContractResolver::$$c__DisplayClass62_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultContractResolver::$$c__DisplayClass62_0*, creationType>()));
     }
   }; // Newtonsoft.Json.Serialization.DefaultContractResolver/Newtonsoft.Json.Serialization.<>c__DisplayClass62_0
   #pragma pack(pop)
-  static check_size<sizeof(DefaultContractResolver::$$c__DisplayClass62_0), 16 + sizeof(Newtonsoft::Json::Serialization::NamingStrategy*)> __Newtonsoft_Json_Serialization_DefaultContractResolver_$$c__DisplayClass62_0SizeCheck;
+  static check_size<sizeof(DefaultContractResolver::$$c__DisplayClass62_0), 16 + sizeof(::Newtonsoft::Json::Serialization::NamingStrategy*)> __Newtonsoft_Json_Serialization_DefaultContractResolver_$$c__DisplayClass62_0SizeCheck;
   static_assert(sizeof(DefaultContractResolver::$$c__DisplayClass62_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -68,8 +68,8 @@ namespace GlobalNamespace {
   class PlayerData;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PlayerData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerData*, "", "PlayerData");
+NEED_NO_BOX(::GlobalNamespace::PlayerData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlayerData*, "", "PlayerData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0xC0
@@ -140,95 +140,95 @@ namespace GlobalNamespace {
     // private PlayerAgreements <playerAgreements>k__BackingField
     // Size: 0x8
     // Offset: 0x28
-    GlobalNamespace::PlayerAgreements* playerAgreements;
+    ::GlobalNamespace::PlayerAgreements* playerAgreements;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::PlayerAgreements*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::PlayerAgreements*) == 0x8);
     // private BeatmapDifficulty <lastSelectedBeatmapDifficulty>k__BackingField
     // Size: 0x4
     // Offset: 0x30
-    GlobalNamespace::BeatmapDifficulty lastSelectedBeatmapDifficulty;
+    ::GlobalNamespace::BeatmapDifficulty lastSelectedBeatmapDifficulty;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::BeatmapDifficulty) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::BeatmapDifficulty) == 0x4);
     // Padding between fields: lastSelectedBeatmapDifficulty and: lastSelectedBeatmapCharacteristic
     char __padding9[0x4] = {};
     // private BeatmapCharacteristicSO <lastSelectedBeatmapCharacteristic>k__BackingField
     // Size: 0x8
     // Offset: 0x38
-    GlobalNamespace::BeatmapCharacteristicSO* lastSelectedBeatmapCharacteristic;
+    ::GlobalNamespace::BeatmapCharacteristicSO* lastSelectedBeatmapCharacteristic;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::BeatmapCharacteristicSO*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::BeatmapCharacteristicSO*) == 0x8);
     // private GameplayModifiers <gameplayModifiers>k__BackingField
     // Size: 0x8
     // Offset: 0x40
-    GlobalNamespace::GameplayModifiers* gameplayModifiers;
+    ::GlobalNamespace::GameplayModifiers* gameplayModifiers;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::GameplayModifiers*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::GameplayModifiers*) == 0x8);
     // private PlayerSpecificSettings <playerSpecificSettings>k__BackingField
     // Size: 0x8
     // Offset: 0x48
-    GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings;
+    ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::PlayerSpecificSettings*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::PlayerSpecificSettings*) == 0x8);
     // private PracticeSettings <practiceSettings>k__BackingField
     // Size: 0x8
     // Offset: 0x50
-    GlobalNamespace::PracticeSettings* practiceSettings;
+    ::GlobalNamespace::PracticeSettings* practiceSettings;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::PracticeSettings*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::PracticeSettings*) == 0x8);
     // private PlayerAllOverallStatsData <playerAllOverallStatsData>k__BackingField
     // Size: 0x8
     // Offset: 0x58
-    GlobalNamespace::PlayerAllOverallStatsData* playerAllOverallStatsData;
+    ::GlobalNamespace::PlayerAllOverallStatsData* playerAllOverallStatsData;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::PlayerAllOverallStatsData*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::PlayerAllOverallStatsData*) == 0x8);
     // private System.Collections.Generic.List`1<PlayerLevelStatsData> <levelsStatsData>k__BackingField
     // Size: 0x8
     // Offset: 0x60
-    System::Collections::Generic::List_1<GlobalNamespace::PlayerLevelStatsData*>* levelsStatsData;
+    ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerLevelStatsData*>* levelsStatsData;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::PlayerLevelStatsData*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::GlobalNamespace::PlayerLevelStatsData*>*) == 0x8);
     // private System.Collections.Generic.List`1<PlayerMissionStatsData> <missionsStatsData>k__BackingField
     // Size: 0x8
     // Offset: 0x68
-    System::Collections::Generic::List_1<GlobalNamespace::PlayerMissionStatsData*>* missionsStatsData;
+    ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerMissionStatsData*>* missionsStatsData;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::PlayerMissionStatsData*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::GlobalNamespace::PlayerMissionStatsData*>*) == 0x8);
     // private System.Collections.Generic.List`1<System.String> <showedMissionHelpIds>k__BackingField
     // Size: 0x8
     // Offset: 0x70
-    System::Collections::Generic::List_1<::StringW>* showedMissionHelpIds;
+    ::System::Collections::Generic::List_1<::StringW>* showedMissionHelpIds;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<::StringW>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::StringW>*) == 0x8);
     // private System.Collections.Generic.List`1<System.String> <guestPlayerNames>k__BackingField
     // Size: 0x8
     // Offset: 0x78
-    System::Collections::Generic::List_1<::StringW>* guestPlayerNames;
+    ::System::Collections::Generic::List_1<::StringW>* guestPlayerNames;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<::StringW>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::StringW>*) == 0x8);
     // private ColorSchemesSettings <colorSchemesSettings>k__BackingField
     // Size: 0x8
     // Offset: 0x80
-    GlobalNamespace::ColorSchemesSettings* colorSchemesSettings;
+    ::GlobalNamespace::ColorSchemesSettings* colorSchemesSettings;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::ColorSchemesSettings*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::ColorSchemesSettings*) == 0x8);
     // private OverrideEnvironmentSettings <overrideEnvironmentSettings>k__BackingField
     // Size: 0x8
     // Offset: 0x88
-    GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings;
+    ::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::OverrideEnvironmentSettings*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::OverrideEnvironmentSettings*) == 0x8);
     // private System.Collections.Generic.HashSet`1<System.String> <favoritesLevelIds>k__BackingField
     // Size: 0x8
     // Offset: 0x90
-    System::Collections::Generic::HashSet_1<::StringW>* favoritesLevelIds;
+    ::System::Collections::Generic::HashSet_1<::StringW>* favoritesLevelIds;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::HashSet_1<::StringW>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::HashSet_1<::StringW>*) == 0x8);
     // private MultiplayerModeSettings <multiplayerModeSettings>k__BackingField
     // Size: 0x8
     // Offset: 0x98
-    GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings;
+    ::GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::MultiplayerModeSettings*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::MultiplayerModeSettings*) == 0x8);
     // private System.Int32 <currentDlcPromoDisplayCount>k__BackingField
     // Size: 0x4
     // Offset: 0xA0
@@ -246,15 +246,15 @@ namespace GlobalNamespace {
     // private System.Action favoriteLevelsSetDidChangeEvent
     // Size: 0x8
     // Offset: 0xB0
-    System::Action* favoriteLevelsSetDidChangeEvent;
+    ::System::Action* favoriteLevelsSetDidChangeEvent;
     // Field size check
-    static_assert(sizeof(System::Action*) == 0x8);
+    static_assert(sizeof(::System::Action*) == 0x8);
     // private System.Action didIncreaseNumberOfGameplaysEvent
     // Size: 0x8
     // Offset: 0xB8
-    System::Action* didIncreaseNumberOfGameplaysEvent;
+    ::System::Action* didIncreaseNumberOfGameplaysEvent;
     // Field size check
-    static_assert(sizeof(System::Action*) == 0x8);
+    static_assert(sizeof(::System::Action*) == 0x8);
     public:
     // static field const value: static public System.Int32 kMaxGuestPlayers
     static constexpr const int kMaxGuestPlayers = 10;
@@ -279,43 +279,43 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <avatarCreated>k__BackingField
     bool& dyn_$avatarCreated$k__BackingField();
     // Get instance field reference: private PlayerAgreements <playerAgreements>k__BackingField
-    GlobalNamespace::PlayerAgreements*& dyn_$playerAgreements$k__BackingField();
+    ::GlobalNamespace::PlayerAgreements*& dyn_$playerAgreements$k__BackingField();
     // Get instance field reference: private BeatmapDifficulty <lastSelectedBeatmapDifficulty>k__BackingField
-    GlobalNamespace::BeatmapDifficulty& dyn_$lastSelectedBeatmapDifficulty$k__BackingField();
+    ::GlobalNamespace::BeatmapDifficulty& dyn_$lastSelectedBeatmapDifficulty$k__BackingField();
     // Get instance field reference: private BeatmapCharacteristicSO <lastSelectedBeatmapCharacteristic>k__BackingField
-    GlobalNamespace::BeatmapCharacteristicSO*& dyn_$lastSelectedBeatmapCharacteristic$k__BackingField();
+    ::GlobalNamespace::BeatmapCharacteristicSO*& dyn_$lastSelectedBeatmapCharacteristic$k__BackingField();
     // Get instance field reference: private GameplayModifiers <gameplayModifiers>k__BackingField
-    GlobalNamespace::GameplayModifiers*& dyn_$gameplayModifiers$k__BackingField();
+    ::GlobalNamespace::GameplayModifiers*& dyn_$gameplayModifiers$k__BackingField();
     // Get instance field reference: private PlayerSpecificSettings <playerSpecificSettings>k__BackingField
-    GlobalNamespace::PlayerSpecificSettings*& dyn_$playerSpecificSettings$k__BackingField();
+    ::GlobalNamespace::PlayerSpecificSettings*& dyn_$playerSpecificSettings$k__BackingField();
     // Get instance field reference: private PracticeSettings <practiceSettings>k__BackingField
-    GlobalNamespace::PracticeSettings*& dyn_$practiceSettings$k__BackingField();
+    ::GlobalNamespace::PracticeSettings*& dyn_$practiceSettings$k__BackingField();
     // Get instance field reference: private PlayerAllOverallStatsData <playerAllOverallStatsData>k__BackingField
-    GlobalNamespace::PlayerAllOverallStatsData*& dyn_$playerAllOverallStatsData$k__BackingField();
+    ::GlobalNamespace::PlayerAllOverallStatsData*& dyn_$playerAllOverallStatsData$k__BackingField();
     // Get instance field reference: private System.Collections.Generic.List`1<PlayerLevelStatsData> <levelsStatsData>k__BackingField
-    System::Collections::Generic::List_1<GlobalNamespace::PlayerLevelStatsData*>*& dyn_$levelsStatsData$k__BackingField();
+    ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerLevelStatsData*>*& dyn_$levelsStatsData$k__BackingField();
     // Get instance field reference: private System.Collections.Generic.List`1<PlayerMissionStatsData> <missionsStatsData>k__BackingField
-    System::Collections::Generic::List_1<GlobalNamespace::PlayerMissionStatsData*>*& dyn_$missionsStatsData$k__BackingField();
+    ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerMissionStatsData*>*& dyn_$missionsStatsData$k__BackingField();
     // Get instance field reference: private System.Collections.Generic.List`1<System.String> <showedMissionHelpIds>k__BackingField
-    System::Collections::Generic::List_1<::StringW>*& dyn_$showedMissionHelpIds$k__BackingField();
+    ::System::Collections::Generic::List_1<::StringW>*& dyn_$showedMissionHelpIds$k__BackingField();
     // Get instance field reference: private System.Collections.Generic.List`1<System.String> <guestPlayerNames>k__BackingField
-    System::Collections::Generic::List_1<::StringW>*& dyn_$guestPlayerNames$k__BackingField();
+    ::System::Collections::Generic::List_1<::StringW>*& dyn_$guestPlayerNames$k__BackingField();
     // Get instance field reference: private ColorSchemesSettings <colorSchemesSettings>k__BackingField
-    GlobalNamespace::ColorSchemesSettings*& dyn_$colorSchemesSettings$k__BackingField();
+    ::GlobalNamespace::ColorSchemesSettings*& dyn_$colorSchemesSettings$k__BackingField();
     // Get instance field reference: private OverrideEnvironmentSettings <overrideEnvironmentSettings>k__BackingField
-    GlobalNamespace::OverrideEnvironmentSettings*& dyn_$overrideEnvironmentSettings$k__BackingField();
+    ::GlobalNamespace::OverrideEnvironmentSettings*& dyn_$overrideEnvironmentSettings$k__BackingField();
     // Get instance field reference: private System.Collections.Generic.HashSet`1<System.String> <favoritesLevelIds>k__BackingField
-    System::Collections::Generic::HashSet_1<::StringW>*& dyn_$favoritesLevelIds$k__BackingField();
+    ::System::Collections::Generic::HashSet_1<::StringW>*& dyn_$favoritesLevelIds$k__BackingField();
     // Get instance field reference: private MultiplayerModeSettings <multiplayerModeSettings>k__BackingField
-    GlobalNamespace::MultiplayerModeSettings*& dyn_$multiplayerModeSettings$k__BackingField();
+    ::GlobalNamespace::MultiplayerModeSettings*& dyn_$multiplayerModeSettings$k__BackingField();
     // Get instance field reference: private System.Int32 <currentDlcPromoDisplayCount>k__BackingField
     int& dyn_$currentDlcPromoDisplayCount$k__BackingField();
     // Get instance field reference: private System.String <currentDlcPromoId>k__BackingField
     ::StringW& dyn_$currentDlcPromoId$k__BackingField();
     // Get instance field reference: private System.Action favoriteLevelsSetDidChangeEvent
-    System::Action*& dyn_favoriteLevelsSetDidChangeEvent();
+    ::System::Action*& dyn_favoriteLevelsSetDidChangeEvent();
     // Get instance field reference: private System.Action didIncreaseNumberOfGameplaysEvent
-    System::Action*& dyn_didIncreaseNumberOfGameplaysEvent();
+    ::System::Action*& dyn_didIncreaseNumberOfGameplaysEvent();
     // public System.String get_playerId()
     // Offset: 0x2AC32E4
     ::StringW get_playerId();
@@ -366,94 +366,94 @@ namespace GlobalNamespace {
     void set_avatarCreated(bool value);
     // public PlayerAgreements get_playerAgreements()
     // Offset: 0x2AC337C
-    GlobalNamespace::PlayerAgreements* get_playerAgreements();
+    ::GlobalNamespace::PlayerAgreements* get_playerAgreements();
     // private System.Void set_playerAgreements(PlayerAgreements value)
     // Offset: 0x2AC3384
-    void set_playerAgreements(GlobalNamespace::PlayerAgreements* value);
+    void set_playerAgreements(::GlobalNamespace::PlayerAgreements* value);
     // public BeatmapDifficulty get_lastSelectedBeatmapDifficulty()
     // Offset: 0x2AC338C
-    GlobalNamespace::BeatmapDifficulty get_lastSelectedBeatmapDifficulty();
+    ::GlobalNamespace::BeatmapDifficulty get_lastSelectedBeatmapDifficulty();
     // private System.Void set_lastSelectedBeatmapDifficulty(BeatmapDifficulty value)
     // Offset: 0x2AC3394
-    void set_lastSelectedBeatmapDifficulty(GlobalNamespace::BeatmapDifficulty value);
+    void set_lastSelectedBeatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value);
     // public BeatmapCharacteristicSO get_lastSelectedBeatmapCharacteristic()
     // Offset: 0x2AC339C
-    GlobalNamespace::BeatmapCharacteristicSO* get_lastSelectedBeatmapCharacteristic();
+    ::GlobalNamespace::BeatmapCharacteristicSO* get_lastSelectedBeatmapCharacteristic();
     // private System.Void set_lastSelectedBeatmapCharacteristic(BeatmapCharacteristicSO value)
     // Offset: 0x2AC33A4
-    void set_lastSelectedBeatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO* value);
+    void set_lastSelectedBeatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristicSO* value);
     // public GameplayModifiers get_gameplayModifiers()
     // Offset: 0x2AC33AC
-    GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
+    ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // private System.Void set_gameplayModifiers(GameplayModifiers value)
     // Offset: 0x2AC33B4
-    void set_gameplayModifiers(GlobalNamespace::GameplayModifiers* value);
+    void set_gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
     // public PlayerSpecificSettings get_playerSpecificSettings()
     // Offset: 0x2AC33BC
-    GlobalNamespace::PlayerSpecificSettings* get_playerSpecificSettings();
+    ::GlobalNamespace::PlayerSpecificSettings* get_playerSpecificSettings();
     // private System.Void set_playerSpecificSettings(PlayerSpecificSettings value)
     // Offset: 0x2AC33C4
-    void set_playerSpecificSettings(GlobalNamespace::PlayerSpecificSettings* value);
+    void set_playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value);
     // public PracticeSettings get_practiceSettings()
     // Offset: 0x2AC33CC
-    GlobalNamespace::PracticeSettings* get_practiceSettings();
+    ::GlobalNamespace::PracticeSettings* get_practiceSettings();
     // private System.Void set_practiceSettings(PracticeSettings value)
     // Offset: 0x2AC33D4
-    void set_practiceSettings(GlobalNamespace::PracticeSettings* value);
+    void set_practiceSettings(::GlobalNamespace::PracticeSettings* value);
     // public PlayerAllOverallStatsData get_playerAllOverallStatsData()
     // Offset: 0x2AC33DC
-    GlobalNamespace::PlayerAllOverallStatsData* get_playerAllOverallStatsData();
+    ::GlobalNamespace::PlayerAllOverallStatsData* get_playerAllOverallStatsData();
     // private System.Void set_playerAllOverallStatsData(PlayerAllOverallStatsData value)
     // Offset: 0x2AC33E4
-    void set_playerAllOverallStatsData(GlobalNamespace::PlayerAllOverallStatsData* value);
+    void set_playerAllOverallStatsData(::GlobalNamespace::PlayerAllOverallStatsData* value);
     // public System.Collections.Generic.List`1<PlayerLevelStatsData> get_levelsStatsData()
     // Offset: 0x2AC33EC
-    System::Collections::Generic::List_1<GlobalNamespace::PlayerLevelStatsData*>* get_levelsStatsData();
+    ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerLevelStatsData*>* get_levelsStatsData();
     // private System.Void set_levelsStatsData(System.Collections.Generic.List`1<PlayerLevelStatsData> value)
     // Offset: 0x2AC33F4
-    void set_levelsStatsData(System::Collections::Generic::List_1<GlobalNamespace::PlayerLevelStatsData*>* value);
+    void set_levelsStatsData(::System::Collections::Generic::List_1<::GlobalNamespace::PlayerLevelStatsData*>* value);
     // public System.Collections.Generic.List`1<PlayerMissionStatsData> get_missionsStatsData()
     // Offset: 0x2AC33FC
-    System::Collections::Generic::List_1<GlobalNamespace::PlayerMissionStatsData*>* get_missionsStatsData();
+    ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerMissionStatsData*>* get_missionsStatsData();
     // private System.Void set_missionsStatsData(System.Collections.Generic.List`1<PlayerMissionStatsData> value)
     // Offset: 0x2AC3404
-    void set_missionsStatsData(System::Collections::Generic::List_1<GlobalNamespace::PlayerMissionStatsData*>* value);
+    void set_missionsStatsData(::System::Collections::Generic::List_1<::GlobalNamespace::PlayerMissionStatsData*>* value);
     // public System.Collections.Generic.List`1<System.String> get_showedMissionHelpIds()
     // Offset: 0x2AC340C
-    System::Collections::Generic::List_1<::StringW>* get_showedMissionHelpIds();
+    ::System::Collections::Generic::List_1<::StringW>* get_showedMissionHelpIds();
     // private System.Void set_showedMissionHelpIds(System.Collections.Generic.List`1<System.String> value)
     // Offset: 0x2AC3414
-    void set_showedMissionHelpIds(System::Collections::Generic::List_1<::StringW>* value);
+    void set_showedMissionHelpIds(::System::Collections::Generic::List_1<::StringW>* value);
     // public System.Collections.Generic.List`1<System.String> get_guestPlayerNames()
     // Offset: 0x2AC341C
-    System::Collections::Generic::List_1<::StringW>* get_guestPlayerNames();
+    ::System::Collections::Generic::List_1<::StringW>* get_guestPlayerNames();
     // private System.Void set_guestPlayerNames(System.Collections.Generic.List`1<System.String> value)
     // Offset: 0x2AC3424
-    void set_guestPlayerNames(System::Collections::Generic::List_1<::StringW>* value);
+    void set_guestPlayerNames(::System::Collections::Generic::List_1<::StringW>* value);
     // public ColorSchemesSettings get_colorSchemesSettings()
     // Offset: 0x2AC342C
-    GlobalNamespace::ColorSchemesSettings* get_colorSchemesSettings();
+    ::GlobalNamespace::ColorSchemesSettings* get_colorSchemesSettings();
     // private System.Void set_colorSchemesSettings(ColorSchemesSettings value)
     // Offset: 0x2AC3434
-    void set_colorSchemesSettings(GlobalNamespace::ColorSchemesSettings* value);
+    void set_colorSchemesSettings(::GlobalNamespace::ColorSchemesSettings* value);
     // public OverrideEnvironmentSettings get_overrideEnvironmentSettings()
     // Offset: 0x2AC343C
-    GlobalNamespace::OverrideEnvironmentSettings* get_overrideEnvironmentSettings();
+    ::GlobalNamespace::OverrideEnvironmentSettings* get_overrideEnvironmentSettings();
     // private System.Void set_overrideEnvironmentSettings(OverrideEnvironmentSettings value)
     // Offset: 0x2AC3444
-    void set_overrideEnvironmentSettings(GlobalNamespace::OverrideEnvironmentSettings* value);
+    void set_overrideEnvironmentSettings(::GlobalNamespace::OverrideEnvironmentSettings* value);
     // public System.Collections.Generic.HashSet`1<System.String> get_favoritesLevelIds()
     // Offset: 0x2AC344C
-    System::Collections::Generic::HashSet_1<::StringW>* get_favoritesLevelIds();
+    ::System::Collections::Generic::HashSet_1<::StringW>* get_favoritesLevelIds();
     // private System.Void set_favoritesLevelIds(System.Collections.Generic.HashSet`1<System.String> value)
     // Offset: 0x2AC3454
-    void set_favoritesLevelIds(System::Collections::Generic::HashSet_1<::StringW>* value);
+    void set_favoritesLevelIds(::System::Collections::Generic::HashSet_1<::StringW>* value);
     // public MultiplayerModeSettings get_multiplayerModeSettings()
     // Offset: 0x2AC345C
-    GlobalNamespace::MultiplayerModeSettings* get_multiplayerModeSettings();
+    ::GlobalNamespace::MultiplayerModeSettings* get_multiplayerModeSettings();
     // private System.Void set_multiplayerModeSettings(MultiplayerModeSettings value)
     // Offset: 0x2AC3464
-    void set_multiplayerModeSettings(GlobalNamespace::MultiplayerModeSettings* value);
+    void set_multiplayerModeSettings(::GlobalNamespace::MultiplayerModeSettings* value);
     // public System.Int32 get_currentDlcPromoDisplayCount()
     // Offset: 0x2AC346C
     int get_currentDlcPromoDisplayCount();
@@ -468,28 +468,28 @@ namespace GlobalNamespace {
     void set_currentDlcPromoId(::StringW value);
     // public System.Void add_favoriteLevelsSetDidChangeEvent(System.Action value)
     // Offset: 0x2AC348C
-    void add_favoriteLevelsSetDidChangeEvent(System::Action* value);
+    void add_favoriteLevelsSetDidChangeEvent(::System::Action* value);
     // public System.Void remove_favoriteLevelsSetDidChangeEvent(System.Action value)
     // Offset: 0x2AC3530
-    void remove_favoriteLevelsSetDidChangeEvent(System::Action* value);
+    void remove_favoriteLevelsSetDidChangeEvent(::System::Action* value);
     // public System.Void add_didIncreaseNumberOfGameplaysEvent(System.Action value)
     // Offset: 0x2AC35D4
-    void add_didIncreaseNumberOfGameplaysEvent(System::Action* value);
+    void add_didIncreaseNumberOfGameplaysEvent(::System::Action* value);
     // public System.Void remove_didIncreaseNumberOfGameplaysEvent(System.Action value)
     // Offset: 0x2AC3678
-    void remove_didIncreaseNumberOfGameplaysEvent(System::Action* value);
+    void remove_didIncreaseNumberOfGameplaysEvent(::System::Action* value);
     // public System.Void .ctor(System.String playerId, System.String playerName, BeatmapCharacteristicSO lastSelectedBeatmapCharacteristic, ColorSchemesSettings colorSchemesSettings, OverrideEnvironmentSettings overrideEnvironmentSettings)
     // Offset: 0x2AC371C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PlayerData* New_ctor(::StringW playerId, ::StringW playerName, GlobalNamespace::BeatmapCharacteristicSO* lastSelectedBeatmapCharacteristic, GlobalNamespace::ColorSchemesSettings* colorSchemesSettings, GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerData::.ctor");
+    static PlayerData* New_ctor(::StringW playerId, ::StringW playerName, ::GlobalNamespace::BeatmapCharacteristicSO* lastSelectedBeatmapCharacteristic, ::GlobalNamespace::ColorSchemesSettings* colorSchemesSettings, ::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerData*, creationType>(playerId, playerName, lastSelectedBeatmapCharacteristic, colorSchemesSettings, overrideEnvironmentSettings)));
     }
     // public System.Void .ctor(System.String playerId, System.String playerName, System.Boolean shouldShowTutorialPrompt, System.Boolean shouldShow360Warning, System.Boolean agreedToEula, System.Boolean didSelectLanguage, System.Boolean agreedToMultiplayerDisclaimer, System.Boolean avatarCreated, PlayerAgreements playerAgreements, BeatmapDifficulty lastSelectedBeatmapDifficulty, BeatmapCharacteristicSO lastSelectedBeatmapCharacteristic, GameplayModifiers gameplayModifiers, PlayerSpecificSettings playerSpecificSettings, PracticeSettings practiceSettings, PlayerAllOverallStatsData playerAllOverallStatsData, System.Collections.Generic.List`1<PlayerLevelStatsData> levelsStatsData, System.Collections.Generic.List`1<PlayerMissionStatsData> missionsStatsData, System.Collections.Generic.List`1<System.String> showedMissionHelpIds, System.Collections.Generic.List`1<System.String> guestPlayerNames, ColorSchemesSettings colorSchemesSettings, OverrideEnvironmentSettings overrideEnvironmentSettings, System.Collections.Generic.List`1<System.String> favoritesLevelIds, MultiplayerModeSettings multiplayerModeSettings, System.Int32 currentDlcPromoDisplayCount, System.String currentDlcPromoId)
     // Offset: 0x2AC391C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PlayerData* New_ctor(::StringW playerId, ::StringW playerName, bool shouldShowTutorialPrompt, bool shouldShow360Warning, bool agreedToEula, bool didSelectLanguage, bool agreedToMultiplayerDisclaimer, bool avatarCreated, GlobalNamespace::PlayerAgreements* playerAgreements, GlobalNamespace::BeatmapDifficulty lastSelectedBeatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO* lastSelectedBeatmapCharacteristic, GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, GlobalNamespace::PracticeSettings* practiceSettings, GlobalNamespace::PlayerAllOverallStatsData* playerAllOverallStatsData, System::Collections::Generic::List_1<GlobalNamespace::PlayerLevelStatsData*>* levelsStatsData, System::Collections::Generic::List_1<GlobalNamespace::PlayerMissionStatsData*>* missionsStatsData, System::Collections::Generic::List_1<::StringW>* showedMissionHelpIds, System::Collections::Generic::List_1<::StringW>* guestPlayerNames, GlobalNamespace::ColorSchemesSettings* colorSchemesSettings, GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings, System::Collections::Generic::List_1<::StringW>* favoritesLevelIds, GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings, int currentDlcPromoDisplayCount, ::StringW currentDlcPromoId) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerData::.ctor");
+    static PlayerData* New_ctor(::StringW playerId, ::StringW playerName, bool shouldShowTutorialPrompt, bool shouldShow360Warning, bool agreedToEula, bool didSelectLanguage, bool agreedToMultiplayerDisclaimer, bool avatarCreated, ::GlobalNamespace::PlayerAgreements* playerAgreements, ::GlobalNamespace::BeatmapDifficulty lastSelectedBeatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO* lastSelectedBeatmapCharacteristic, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings, ::GlobalNamespace::PlayerAllOverallStatsData* playerAllOverallStatsData, ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerLevelStatsData*>* levelsStatsData, ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerMissionStatsData*>* missionsStatsData, ::System::Collections::Generic::List_1<::StringW>* showedMissionHelpIds, ::System::Collections::Generic::List_1<::StringW>* guestPlayerNames, ::GlobalNamespace::ColorSchemesSettings* colorSchemesSettings, ::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings, ::System::Collections::Generic::List_1<::StringW>* favoritesLevelIds, ::GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings, int currentDlcPromoDisplayCount, ::StringW currentDlcPromoId) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerData*, creationType>(playerId, playerName, shouldShowTutorialPrompt, shouldShow360Warning, agreedToEula, didSelectLanguage, agreedToMultiplayerDisclaimer, avatarCreated, playerAgreements, lastSelectedBeatmapDifficulty, lastSelectedBeatmapCharacteristic, gameplayModifiers, playerSpecificSettings, practiceSettings, playerAllOverallStatsData, levelsStatsData, missionsStatsData, showedMissionHelpIds, guestPlayerNames, colorSchemesSettings, overrideEnvironmentSettings, favoritesLevelIds, multiplayerModeSettings, currentDlcPromoDisplayCount, currentDlcPromoId)));
     }
     // public System.Void SetNewDlcPromo(System.String dlcPromoId)
@@ -500,31 +500,31 @@ namespace GlobalNamespace {
     void IncreaseCurrentDlcPromoDisplayCount();
     // public PlayerLevelStatsData GetPlayerLevelStatsData(IDifficultyBeatmap difficultyBeatmap)
     // Offset: 0x2AB9880
-    GlobalNamespace::PlayerLevelStatsData* GetPlayerLevelStatsData(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
+    ::GlobalNamespace::PlayerLevelStatsData* GetPlayerLevelStatsData(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public PlayerLevelStatsData GetPlayerLevelStatsData(System.String levelId, BeatmapDifficulty difficulty, BeatmapCharacteristicSO beatmapCharacteristic)
     // Offset: 0x2AC3B30
-    GlobalNamespace::PlayerLevelStatsData* GetPlayerLevelStatsData(::StringW levelId, GlobalNamespace::BeatmapDifficulty difficulty, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
+    ::GlobalNamespace::PlayerLevelStatsData* GetPlayerLevelStatsData(::StringW levelId, ::GlobalNamespace::BeatmapDifficulty difficulty, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
     // public PlayerMissionStatsData GetPlayerMissionStatsData(System.String missionId)
     // Offset: 0x2AC3D00
-    GlobalNamespace::PlayerMissionStatsData* GetPlayerMissionStatsData(::StringW missionId);
+    ::GlobalNamespace::PlayerMissionStatsData* GetPlayerMissionStatsData(::StringW missionId);
     // public System.Boolean WasMissionHelpShowed(MissionHelpSO missionHelp)
     // Offset: 0x2AC3E68
-    bool WasMissionHelpShowed(GlobalNamespace::MissionHelpSO* missionHelp);
+    bool WasMissionHelpShowed(::GlobalNamespace::MissionHelpSO* missionHelp);
     // public System.Void MissionHelpWasShowed(MissionHelpSO missionHelp)
     // Offset: 0x2AC3ED4
-    void MissionHelpWasShowed(GlobalNamespace::MissionHelpSO* missionHelp);
+    void MissionHelpWasShowed(::GlobalNamespace::MissionHelpSO* missionHelp);
     // public System.Void IncreaseNumberOfGameplays(PlayerLevelStatsData playerLevelStats)
     // Offset: 0x2AB9AFC
-    void IncreaseNumberOfGameplays(GlobalNamespace::PlayerLevelStatsData* playerLevelStats);
+    void IncreaseNumberOfGameplays(::GlobalNamespace::PlayerLevelStatsData* playerLevelStats);
     // public System.Boolean IsLevelUserFavorite(IPreviewBeatmapLevel level)
     // Offset: 0x2AC3F70
-    bool IsLevelUserFavorite(GlobalNamespace::IPreviewBeatmapLevel* level);
+    bool IsLevelUserFavorite(::GlobalNamespace::IPreviewBeatmapLevel* level);
     // public System.Void AddLevelToFavorites(IPreviewBeatmapLevel level)
     // Offset: 0x2AC4048
-    void AddLevelToFavorites(GlobalNamespace::IPreviewBeatmapLevel* level);
+    void AddLevelToFavorites(::GlobalNamespace::IPreviewBeatmapLevel* level);
     // public System.Void RemoveLevelFromFavorites(IPreviewBeatmapLevel level)
     // Offset: 0x2AC4150
-    void RemoveLevelFromFavorites(GlobalNamespace::IPreviewBeatmapLevel* level);
+    void RemoveLevelFromFavorites(::GlobalNamespace::IPreviewBeatmapLevel* level);
     // public System.Void MarkTutorialAsShown()
     // Offset: 0x2AC4258
     void MarkTutorialAsShown();
@@ -557,22 +557,22 @@ namespace GlobalNamespace {
     void DeleteAllGuestPlayers();
     // public System.Void SetLastSelectedBeatmapDifficulty(BeatmapDifficulty beatmapDifficulty)
     // Offset: 0x2AC449C
-    void SetLastSelectedBeatmapDifficulty(GlobalNamespace::BeatmapDifficulty beatmapDifficulty);
+    void SetLastSelectedBeatmapDifficulty(::GlobalNamespace::BeatmapDifficulty beatmapDifficulty);
     // public System.Void SetLastSelectedBeatmapCharacteristic(BeatmapCharacteristicSO beatmapCharacteristic)
     // Offset: 0x2AC44A4
-    void SetLastSelectedBeatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
+    void SetLastSelectedBeatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
     // public System.Void SetGameplayModifiers(GameplayModifiers newGameplayModifiers)
     // Offset: 0x2AC44AC
-    void SetGameplayModifiers(GlobalNamespace::GameplayModifiers* newGameplayModifiers);
+    void SetGameplayModifiers(::GlobalNamespace::GameplayModifiers* newGameplayModifiers);
     // public System.Void SetPlayerSpecificSettings(PlayerSpecificSettings newPlayerSpecificSettings)
     // Offset: 0x2AC44B4
-    void SetPlayerSpecificSettings(GlobalNamespace::PlayerSpecificSettings* newPlayerSpecificSettings);
+    void SetPlayerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* newPlayerSpecificSettings);
     // public System.Void SetMultiplayerModeSettings(MultiplayerModeSettings multiplayerModeSettings)
     // Offset: 0x2AC44BC
-    void SetMultiplayerModeSettings(GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings);
+    void SetMultiplayerModeSettings(::GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings);
   }; // PlayerData
   #pragma pack(pop)
-  static check_size<sizeof(PlayerData), 184 + sizeof(System::Action*)> __GlobalNamespace_PlayerDataSizeCheck;
+  static check_size<sizeof(PlayerData), 184 + sizeof(::System::Action*)> __GlobalNamespace_PlayerDataSizeCheck;
   static_assert(sizeof(PlayerData) == 0xC0);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -715,7 +715,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::get_playerAgreements
 // Il2CppName: get_playerAgreements
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerAgreements* (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_playerAgreements)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerAgreements* (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_playerAgreements)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "get_playerAgreements", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -723,7 +723,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::set_playerAgreements
 // Il2CppName: set_playerAgreements
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(GlobalNamespace::PlayerAgreements*)>(&GlobalNamespace::PlayerData::set_playerAgreements)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(::GlobalNamespace::PlayerAgreements*)>(&GlobalNamespace::PlayerData::set_playerAgreements)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "PlayerAgreements")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "set_playerAgreements", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -732,7 +732,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::get_lastSelectedBeatmapDifficulty
 // Il2CppName: get_lastSelectedBeatmapDifficulty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapDifficulty (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_lastSelectedBeatmapDifficulty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapDifficulty (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_lastSelectedBeatmapDifficulty)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "get_lastSelectedBeatmapDifficulty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -740,7 +740,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::set_lastSelectedBeatmapDifficulty
 // Il2CppName: set_lastSelectedBeatmapDifficulty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(GlobalNamespace::BeatmapDifficulty)>(&GlobalNamespace::PlayerData::set_lastSelectedBeatmapDifficulty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(::GlobalNamespace::BeatmapDifficulty)>(&GlobalNamespace::PlayerData::set_lastSelectedBeatmapDifficulty)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "BeatmapDifficulty")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "set_lastSelectedBeatmapDifficulty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -749,7 +749,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::get_lastSelectedBeatmapCharacteristic
 // Il2CppName: get_lastSelectedBeatmapCharacteristic
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapCharacteristicSO* (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_lastSelectedBeatmapCharacteristic)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapCharacteristicSO* (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_lastSelectedBeatmapCharacteristic)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "get_lastSelectedBeatmapCharacteristic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -757,7 +757,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::set_lastSelectedBeatmapCharacteristic
 // Il2CppName: set_lastSelectedBeatmapCharacteristic
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(GlobalNamespace::BeatmapCharacteristicSO*)>(&GlobalNamespace::PlayerData::set_lastSelectedBeatmapCharacteristic)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(::GlobalNamespace::BeatmapCharacteristicSO*)>(&GlobalNamespace::PlayerData::set_lastSelectedBeatmapCharacteristic)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "BeatmapCharacteristicSO")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "set_lastSelectedBeatmapCharacteristic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -766,7 +766,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::get_gameplayModifiers
 // Il2CppName: get_gameplayModifiers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifiers* (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_gameplayModifiers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::GameplayModifiers* (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_gameplayModifiers)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "get_gameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -774,7 +774,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::set_gameplayModifiers
 // Il2CppName: set_gameplayModifiers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::PlayerData::set_gameplayModifiers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(::GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::PlayerData::set_gameplayModifiers)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "set_gameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -783,7 +783,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::get_playerSpecificSettings
 // Il2CppName: get_playerSpecificSettings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerSpecificSettings* (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_playerSpecificSettings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerSpecificSettings* (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_playerSpecificSettings)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "get_playerSpecificSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -791,7 +791,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::set_playerSpecificSettings
 // Il2CppName: set_playerSpecificSettings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(GlobalNamespace::PlayerSpecificSettings*)>(&GlobalNamespace::PlayerData::set_playerSpecificSettings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(::GlobalNamespace::PlayerSpecificSettings*)>(&GlobalNamespace::PlayerData::set_playerSpecificSettings)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "PlayerSpecificSettings")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "set_playerSpecificSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -800,7 +800,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::get_practiceSettings
 // Il2CppName: get_practiceSettings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PracticeSettings* (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_practiceSettings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PracticeSettings* (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_practiceSettings)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "get_practiceSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -808,7 +808,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::set_practiceSettings
 // Il2CppName: set_practiceSettings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(GlobalNamespace::PracticeSettings*)>(&GlobalNamespace::PlayerData::set_practiceSettings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(::GlobalNamespace::PracticeSettings*)>(&GlobalNamespace::PlayerData::set_practiceSettings)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "PracticeSettings")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "set_practiceSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -817,7 +817,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::get_playerAllOverallStatsData
 // Il2CppName: get_playerAllOverallStatsData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerAllOverallStatsData* (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_playerAllOverallStatsData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerAllOverallStatsData* (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_playerAllOverallStatsData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "get_playerAllOverallStatsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -825,7 +825,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::set_playerAllOverallStatsData
 // Il2CppName: set_playerAllOverallStatsData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(GlobalNamespace::PlayerAllOverallStatsData*)>(&GlobalNamespace::PlayerData::set_playerAllOverallStatsData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(::GlobalNamespace::PlayerAllOverallStatsData*)>(&GlobalNamespace::PlayerData::set_playerAllOverallStatsData)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "PlayerAllOverallStatsData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "set_playerAllOverallStatsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -834,7 +834,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::get_levelsStatsData
 // Il2CppName: get_levelsStatsData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::PlayerLevelStatsData*>* (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_levelsStatsData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::GlobalNamespace::PlayerLevelStatsData*>* (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_levelsStatsData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "get_levelsStatsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -842,7 +842,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::set_levelsStatsData
 // Il2CppName: set_levelsStatsData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(System::Collections::Generic::List_1<GlobalNamespace::PlayerLevelStatsData*>*)>(&GlobalNamespace::PlayerData::set_levelsStatsData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(::System::Collections::Generic::List_1<::GlobalNamespace::PlayerLevelStatsData*>*)>(&GlobalNamespace::PlayerData::set_levelsStatsData)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "PlayerLevelStatsData")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "set_levelsStatsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -851,7 +851,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::get_missionsStatsData
 // Il2CppName: get_missionsStatsData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::PlayerMissionStatsData*>* (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_missionsStatsData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::GlobalNamespace::PlayerMissionStatsData*>* (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_missionsStatsData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "get_missionsStatsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -859,7 +859,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::set_missionsStatsData
 // Il2CppName: set_missionsStatsData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(System::Collections::Generic::List_1<GlobalNamespace::PlayerMissionStatsData*>*)>(&GlobalNamespace::PlayerData::set_missionsStatsData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(::System::Collections::Generic::List_1<::GlobalNamespace::PlayerMissionStatsData*>*)>(&GlobalNamespace::PlayerData::set_missionsStatsData)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "PlayerMissionStatsData")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "set_missionsStatsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -868,7 +868,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::get_showedMissionHelpIds
 // Il2CppName: get_showedMissionHelpIds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::StringW>* (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_showedMissionHelpIds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::StringW>* (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_showedMissionHelpIds)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "get_showedMissionHelpIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -876,7 +876,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::set_showedMissionHelpIds
 // Il2CppName: set_showedMissionHelpIds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(System::Collections::Generic::List_1<::StringW>*)>(&GlobalNamespace::PlayerData::set_showedMissionHelpIds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(::System::Collections::Generic::List_1<::StringW>*)>(&GlobalNamespace::PlayerData::set_showedMissionHelpIds)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "set_showedMissionHelpIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -885,7 +885,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::get_guestPlayerNames
 // Il2CppName: get_guestPlayerNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::StringW>* (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_guestPlayerNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::StringW>* (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_guestPlayerNames)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "get_guestPlayerNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -893,7 +893,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::set_guestPlayerNames
 // Il2CppName: set_guestPlayerNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(System::Collections::Generic::List_1<::StringW>*)>(&GlobalNamespace::PlayerData::set_guestPlayerNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(::System::Collections::Generic::List_1<::StringW>*)>(&GlobalNamespace::PlayerData::set_guestPlayerNames)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "set_guestPlayerNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -902,7 +902,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::get_colorSchemesSettings
 // Il2CppName: get_colorSchemesSettings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ColorSchemesSettings* (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_colorSchemesSettings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ColorSchemesSettings* (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_colorSchemesSettings)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "get_colorSchemesSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -910,7 +910,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::set_colorSchemesSettings
 // Il2CppName: set_colorSchemesSettings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(GlobalNamespace::ColorSchemesSettings*)>(&GlobalNamespace::PlayerData::set_colorSchemesSettings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(::GlobalNamespace::ColorSchemesSettings*)>(&GlobalNamespace::PlayerData::set_colorSchemesSettings)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "ColorSchemesSettings")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "set_colorSchemesSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -919,7 +919,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::get_overrideEnvironmentSettings
 // Il2CppName: get_overrideEnvironmentSettings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OverrideEnvironmentSettings* (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_overrideEnvironmentSettings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OverrideEnvironmentSettings* (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_overrideEnvironmentSettings)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "get_overrideEnvironmentSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -927,7 +927,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::set_overrideEnvironmentSettings
 // Il2CppName: set_overrideEnvironmentSettings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(GlobalNamespace::OverrideEnvironmentSettings*)>(&GlobalNamespace::PlayerData::set_overrideEnvironmentSettings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(::GlobalNamespace::OverrideEnvironmentSettings*)>(&GlobalNamespace::PlayerData::set_overrideEnvironmentSettings)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "OverrideEnvironmentSettings")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "set_overrideEnvironmentSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -936,7 +936,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::get_favoritesLevelIds
 // Il2CppName: get_favoritesLevelIds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::HashSet_1<::StringW>* (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_favoritesLevelIds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::HashSet_1<::StringW>* (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_favoritesLevelIds)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "get_favoritesLevelIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -944,7 +944,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::set_favoritesLevelIds
 // Il2CppName: set_favoritesLevelIds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(System::Collections::Generic::HashSet_1<::StringW>*)>(&GlobalNamespace::PlayerData::set_favoritesLevelIds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(::System::Collections::Generic::HashSet_1<::StringW>*)>(&GlobalNamespace::PlayerData::set_favoritesLevelIds)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "HashSet`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "set_favoritesLevelIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -953,7 +953,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::get_multiplayerModeSettings
 // Il2CppName: get_multiplayerModeSettings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerModeSettings* (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_multiplayerModeSettings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MultiplayerModeSettings* (GlobalNamespace::PlayerData::*)()>(&GlobalNamespace::PlayerData::get_multiplayerModeSettings)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "get_multiplayerModeSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -961,7 +961,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::set_multiplayerModeSettings
 // Il2CppName: set_multiplayerModeSettings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(GlobalNamespace::MultiplayerModeSettings*)>(&GlobalNamespace::PlayerData::set_multiplayerModeSettings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(::GlobalNamespace::MultiplayerModeSettings*)>(&GlobalNamespace::PlayerData::set_multiplayerModeSettings)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "MultiplayerModeSettings")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "set_multiplayerModeSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1004,7 +1004,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::add_favoriteLevelsSetDidChangeEvent
 // Il2CppName: add_favoriteLevelsSetDidChangeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(System::Action*)>(&GlobalNamespace::PlayerData::add_favoriteLevelsSetDidChangeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(::System::Action*)>(&GlobalNamespace::PlayerData::add_favoriteLevelsSetDidChangeEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "add_favoriteLevelsSetDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1013,7 +1013,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::remove_favoriteLevelsSetDidChangeEvent
 // Il2CppName: remove_favoriteLevelsSetDidChangeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(System::Action*)>(&GlobalNamespace::PlayerData::remove_favoriteLevelsSetDidChangeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(::System::Action*)>(&GlobalNamespace::PlayerData::remove_favoriteLevelsSetDidChangeEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "remove_favoriteLevelsSetDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1022,7 +1022,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::add_didIncreaseNumberOfGameplaysEvent
 // Il2CppName: add_didIncreaseNumberOfGameplaysEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(System::Action*)>(&GlobalNamespace::PlayerData::add_didIncreaseNumberOfGameplaysEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(::System::Action*)>(&GlobalNamespace::PlayerData::add_didIncreaseNumberOfGameplaysEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "add_didIncreaseNumberOfGameplaysEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1031,7 +1031,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::remove_didIncreaseNumberOfGameplaysEvent
 // Il2CppName: remove_didIncreaseNumberOfGameplaysEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(System::Action*)>(&GlobalNamespace::PlayerData::remove_didIncreaseNumberOfGameplaysEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(::System::Action*)>(&GlobalNamespace::PlayerData::remove_didIncreaseNumberOfGameplaysEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "remove_didIncreaseNumberOfGameplaysEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1065,7 +1065,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::GetPlayerLevelStatsData
 // Il2CppName: GetPlayerLevelStatsData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerLevelStatsData* (GlobalNamespace::PlayerData::*)(GlobalNamespace::IDifficultyBeatmap*)>(&GlobalNamespace::PlayerData::GetPlayerLevelStatsData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerLevelStatsData* (GlobalNamespace::PlayerData::*)(::GlobalNamespace::IDifficultyBeatmap*)>(&GlobalNamespace::PlayerData::GetPlayerLevelStatsData)> {
   static const MethodInfo* get() {
     static auto* difficultyBeatmap = &::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmap")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "GetPlayerLevelStatsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{difficultyBeatmap});
@@ -1074,7 +1074,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::GetPlayerLevelStatsData
 // Il2CppName: GetPlayerLevelStatsData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerLevelStatsData* (GlobalNamespace::PlayerData::*)(::StringW, GlobalNamespace::BeatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO*)>(&GlobalNamespace::PlayerData::GetPlayerLevelStatsData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerLevelStatsData* (GlobalNamespace::PlayerData::*)(::StringW, ::GlobalNamespace::BeatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO*)>(&GlobalNamespace::PlayerData::GetPlayerLevelStatsData)> {
   static const MethodInfo* get() {
     static auto* levelId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* difficulty = &::il2cpp_utils::GetClassFromName("", "BeatmapDifficulty")->byval_arg;
@@ -1085,7 +1085,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::GetPlayerMissionStatsData
 // Il2CppName: GetPlayerMissionStatsData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerMissionStatsData* (GlobalNamespace::PlayerData::*)(::StringW)>(&GlobalNamespace::PlayerData::GetPlayerMissionStatsData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerMissionStatsData* (GlobalNamespace::PlayerData::*)(::StringW)>(&GlobalNamespace::PlayerData::GetPlayerMissionStatsData)> {
   static const MethodInfo* get() {
     static auto* missionId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "GetPlayerMissionStatsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{missionId});
@@ -1094,7 +1094,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::WasMissionHelpShowed
 // Il2CppName: WasMissionHelpShowed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PlayerData::*)(GlobalNamespace::MissionHelpSO*)>(&GlobalNamespace::PlayerData::WasMissionHelpShowed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PlayerData::*)(::GlobalNamespace::MissionHelpSO*)>(&GlobalNamespace::PlayerData::WasMissionHelpShowed)> {
   static const MethodInfo* get() {
     static auto* missionHelp = &::il2cpp_utils::GetClassFromName("", "MissionHelpSO")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "WasMissionHelpShowed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{missionHelp});
@@ -1103,7 +1103,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::MissionHelpWasShowed
 // Il2CppName: MissionHelpWasShowed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(GlobalNamespace::MissionHelpSO*)>(&GlobalNamespace::PlayerData::MissionHelpWasShowed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(::GlobalNamespace::MissionHelpSO*)>(&GlobalNamespace::PlayerData::MissionHelpWasShowed)> {
   static const MethodInfo* get() {
     static auto* missionHelp = &::il2cpp_utils::GetClassFromName("", "MissionHelpSO")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "MissionHelpWasShowed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{missionHelp});
@@ -1112,7 +1112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::IncreaseNumberOfGameplays
 // Il2CppName: IncreaseNumberOfGameplays
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(GlobalNamespace::PlayerLevelStatsData*)>(&GlobalNamespace::PlayerData::IncreaseNumberOfGameplays)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(::GlobalNamespace::PlayerLevelStatsData*)>(&GlobalNamespace::PlayerData::IncreaseNumberOfGameplays)> {
   static const MethodInfo* get() {
     static auto* playerLevelStats = &::il2cpp_utils::GetClassFromName("", "PlayerLevelStatsData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "IncreaseNumberOfGameplays", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{playerLevelStats});
@@ -1121,7 +1121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::IsLevelUserFavorite
 // Il2CppName: IsLevelUserFavorite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PlayerData::*)(GlobalNamespace::IPreviewBeatmapLevel*)>(&GlobalNamespace::PlayerData::IsLevelUserFavorite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PlayerData::*)(::GlobalNamespace::IPreviewBeatmapLevel*)>(&GlobalNamespace::PlayerData::IsLevelUserFavorite)> {
   static const MethodInfo* get() {
     static auto* level = &::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "IsLevelUserFavorite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{level});
@@ -1130,7 +1130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::AddLevelToFavorites
 // Il2CppName: AddLevelToFavorites
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(GlobalNamespace::IPreviewBeatmapLevel*)>(&GlobalNamespace::PlayerData::AddLevelToFavorites)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(::GlobalNamespace::IPreviewBeatmapLevel*)>(&GlobalNamespace::PlayerData::AddLevelToFavorites)> {
   static const MethodInfo* get() {
     static auto* level = &::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "AddLevelToFavorites", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{level});
@@ -1139,7 +1139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::RemoveLevelFromFavorites
 // Il2CppName: RemoveLevelFromFavorites
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(GlobalNamespace::IPreviewBeatmapLevel*)>(&GlobalNamespace::PlayerData::RemoveLevelFromFavorites)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(::GlobalNamespace::IPreviewBeatmapLevel*)>(&GlobalNamespace::PlayerData::RemoveLevelFromFavorites)> {
   static const MethodInfo* get() {
     static auto* level = &::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "RemoveLevelFromFavorites", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{level});
@@ -1229,7 +1229,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::SetLastSelectedBeatmapDifficulty
 // Il2CppName: SetLastSelectedBeatmapDifficulty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(GlobalNamespace::BeatmapDifficulty)>(&GlobalNamespace::PlayerData::SetLastSelectedBeatmapDifficulty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(::GlobalNamespace::BeatmapDifficulty)>(&GlobalNamespace::PlayerData::SetLastSelectedBeatmapDifficulty)> {
   static const MethodInfo* get() {
     static auto* beatmapDifficulty = &::il2cpp_utils::GetClassFromName("", "BeatmapDifficulty")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "SetLastSelectedBeatmapDifficulty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapDifficulty});
@@ -1238,7 +1238,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::SetLastSelectedBeatmapCharacteristic
 // Il2CppName: SetLastSelectedBeatmapCharacteristic
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(GlobalNamespace::BeatmapCharacteristicSO*)>(&GlobalNamespace::PlayerData::SetLastSelectedBeatmapCharacteristic)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(::GlobalNamespace::BeatmapCharacteristicSO*)>(&GlobalNamespace::PlayerData::SetLastSelectedBeatmapCharacteristic)> {
   static const MethodInfo* get() {
     static auto* beatmapCharacteristic = &::il2cpp_utils::GetClassFromName("", "BeatmapCharacteristicSO")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "SetLastSelectedBeatmapCharacteristic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapCharacteristic});
@@ -1247,7 +1247,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::SetGameplayModifiers
 // Il2CppName: SetGameplayModifiers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::PlayerData::SetGameplayModifiers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(::GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::PlayerData::SetGameplayModifiers)> {
   static const MethodInfo* get() {
     static auto* newGameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "SetGameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newGameplayModifiers});
@@ -1256,7 +1256,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::SetPlayerSpecificSettings
 // Il2CppName: SetPlayerSpecificSettings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(GlobalNamespace::PlayerSpecificSettings*)>(&GlobalNamespace::PlayerData::SetPlayerSpecificSettings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(::GlobalNamespace::PlayerSpecificSettings*)>(&GlobalNamespace::PlayerData::SetPlayerSpecificSettings)> {
   static const MethodInfo* get() {
     static auto* newPlayerSpecificSettings = &::il2cpp_utils::GetClassFromName("", "PlayerSpecificSettings")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "SetPlayerSpecificSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newPlayerSpecificSettings});
@@ -1265,7 +1265,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PlayerData::SetMultiplayerModeSettings
 // Il2CppName: SetMultiplayerModeSettings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(GlobalNamespace::MultiplayerModeSettings*)>(&GlobalNamespace::PlayerData::SetMultiplayerModeSettings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerData::*)(::GlobalNamespace::MultiplayerModeSettings*)>(&GlobalNamespace::PlayerData::SetMultiplayerModeSettings)> {
   static const MethodInfo* get() {
     static auto* multiplayerModeSettings = &::il2cpp_utils::GetClassFromName("", "MultiplayerModeSettings")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerData*), "SetMultiplayerModeSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{multiplayerModeSettings});

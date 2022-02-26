@@ -14,8 +14,8 @@ namespace NUnit::Framework::Constraints {
   class ConstraintOperator;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Constraints::ConstraintOperator);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ConstraintOperator*, "NUnit.Framework.Constraints", "ConstraintOperator");
+NEED_NO_BOX(::NUnit::Framework::Constraints::ConstraintOperator);
+DEFINE_IL2CPP_ARG_TYPE(::NUnit::Framework::Constraints::ConstraintOperator*, "NUnit.Framework.Constraints", "ConstraintOperator");
 // Type namespace: NUnit.Framework.Constraints
 namespace NUnit::Framework::Constraints {
   // Size: 0x10
@@ -26,7 +26,7 @@ namespace NUnit::Framework::Constraints {
     public:
     // public System.Void Reduce(NUnit.Framework.Constraints.ConstraintBuilder/NUnit.Framework.Constraints.ConstraintStack stack)
     // Offset: 0xFFFFFFFF
-    void Reduce(NUnit::Framework::Constraints::ConstraintBuilder::ConstraintStack* stack);
+    void Reduce(::NUnit::Framework::Constraints::ConstraintBuilder::ConstraintStack* stack);
   }; // NUnit.Framework.Constraints.ConstraintOperator
   #pragma pack(pop)
 }
@@ -34,7 +34,7 @@ namespace NUnit::Framework::Constraints {
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::ConstraintOperator::Reduce
 // Il2CppName: Reduce
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::ConstraintOperator::*)(NUnit::Framework::Constraints::ConstraintBuilder::ConstraintStack*)>(&NUnit::Framework::Constraints::ConstraintOperator::Reduce)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::ConstraintOperator::*)(::NUnit::Framework::Constraints::ConstraintBuilder::ConstraintStack*)>(&NUnit::Framework::Constraints::ConstraintOperator::Reduce)> {
   static const MethodInfo* get() {
     static auto* stack = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Constraints", "ConstraintBuilder/ConstraintStack")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::ConstraintOperator*), "Reduce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stack});

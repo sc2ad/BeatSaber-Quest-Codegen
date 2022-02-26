@@ -26,8 +26,8 @@ namespace UnityEngine::UI {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::UI::GraphicRaycaster::$$c);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GraphicRaycaster::$$c*, "UnityEngine.UI", "GraphicRaycaster/<>c");
+NEED_NO_BOX(::UnityEngine::UI::GraphicRaycaster::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::GraphicRaycaster::$$c*, "UnityEngine.UI", "GraphicRaycaster/<>c");
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {
   // Size: 0x10
@@ -38,26 +38,26 @@ namespace UnityEngine::UI {
   class GraphicRaycaster::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly UnityEngine.UI.GraphicRaycaster/UnityEngine.UI.<>c <>9
-    static UnityEngine::UI::GraphicRaycaster::$$c* _get_$$9();
+    static ::UnityEngine::UI::GraphicRaycaster::$$c* _get_$$9();
     // Set static field: static public readonly UnityEngine.UI.GraphicRaycaster/UnityEngine.UI.<>c <>9
-    static void _set_$$9(UnityEngine::UI::GraphicRaycaster::$$c* value);
+    static void _set_$$9(::UnityEngine::UI::GraphicRaycaster::$$c* value);
     // Get static field: static public System.Comparison`1<UnityEngine.UI.Graphic> <>9__24_0
-    static System::Comparison_1<UnityEngine::UI::Graphic*>* _get_$$9__24_0();
+    static ::System::Comparison_1<::UnityEngine::UI::Graphic*>* _get_$$9__24_0();
     // Set static field: static public System.Comparison`1<UnityEngine.UI.Graphic> <>9__24_0
-    static void _set_$$9__24_0(System::Comparison_1<UnityEngine::UI::Graphic*>* value);
+    static void _set_$$9__24_0(::System::Comparison_1<::UnityEngine::UI::Graphic*>* value);
     // static private System.Void .cctor()
     // Offset: 0x1D8C2F8
     static void _cctor();
     // System.Int32 <Raycast>b__24_0(UnityEngine.UI.Graphic g1, UnityEngine.UI.Graphic g2)
     // Offset: 0x1D8C364
-    int $Raycast$b__24_0(UnityEngine::UI::Graphic* g1, UnityEngine::UI::Graphic* g2);
+    int $Raycast$b__24_0(::UnityEngine::UI::Graphic* g1, ::UnityEngine::UI::Graphic* g2);
     // public System.Void .ctor()
     // Offset: 0x1D8C35C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GraphicRaycaster::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::GraphicRaycaster::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::GraphicRaycaster::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GraphicRaycaster::$$c*, creationType>()));
     }
   }; // UnityEngine.UI.GraphicRaycaster/UnityEngine.UI.<>c
@@ -75,7 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::UI::GraphicRaycaster::$$c::$Raycast$b__24_0
 // Il2CppName: <Raycast>b__24_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::UI::GraphicRaycaster::$$c::*)(UnityEngine::UI::Graphic*, UnityEngine::UI::Graphic*)>(&UnityEngine::UI::GraphicRaycaster::$$c::$Raycast$b__24_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::UI::GraphicRaycaster::$$c::*)(::UnityEngine::UI::Graphic*, ::UnityEngine::UI::Graphic*)>(&UnityEngine::UI::GraphicRaycaster::$$c::$Raycast$b__24_0)> {
   static const MethodInfo* get() {
     static auto* g1 = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Graphic")->byval_arg;
     static auto* g2 = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Graphic")->byval_arg;

@@ -13,7 +13,7 @@ namespace UnityEngine {
   struct AnimatorClipInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimatorClipInfo, "UnityEngine", "AnimatorClipInfo");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AnimatorClipInfo, "UnityEngine", "AnimatorClipInfo");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x8
@@ -24,7 +24,7 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: 11BF3D8
   // [NativeHeaderAttribute] Offset: 11BF3D8
   // [UsedByNativeCodeAttribute] Offset: 11BF3D8
-  struct AnimatorClipInfo/*, public System::ValueType*/ {
+  struct AnimatorClipInfo/*, public ::System::ValueType*/ {
     public:
     public:
     // private System.Int32 m_ClipInstanceID
@@ -42,9 +42,9 @@ namespace UnityEngine {
     public:
     // Creating value type constructor for type: AnimatorClipInfo
     constexpr AnimatorClipInfo(int m_ClipInstanceID_ = {}, float m_Weight_ = {}) noexcept : m_ClipInstanceID{m_ClipInstanceID_}, m_Weight{m_Weight_} {}
-    // Creating interface conversion operator: operator System::ValueType
-    operator System::ValueType() noexcept {
-      return *reinterpret_cast<System::ValueType*>(this);
+    // Creating interface conversion operator: operator ::System::ValueType
+    operator ::System::ValueType() noexcept {
+      return *reinterpret_cast<::System::ValueType*>(this);
     }
     // Get instance field reference: private System.Int32 m_ClipInstanceID
     int& dyn_m_ClipInstanceID();

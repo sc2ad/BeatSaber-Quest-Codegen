@@ -28,8 +28,8 @@ namespace HoudiniEngineUnity {
   class HEU_CookLogs;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_CookLogs);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_CookLogs*, "HoudiniEngineUnity", "HEU_CookLogs");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_CookLogs);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_CookLogs*, "HoudiniEngineUnity", "HEU_CookLogs");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x29
@@ -50,9 +50,9 @@ namespace HoudiniEngineUnity {
     // private System.Text.StringBuilder _cookLogs
     // Size: 0x8
     // Offset: 0x10
-    System::Text::StringBuilder* cookLogs;
+    ::System::Text::StringBuilder* cookLogs;
     // Field size check
-    static_assert(sizeof(System::Text::StringBuilder*) == 0x8);
+    static_assert(sizeof(::System::Text::StringBuilder*) == 0x8);
     // private System.Int32 _currentCookLogCount
     // Size: 0x4
     // Offset: 0x18
@@ -75,9 +75,9 @@ namespace HoudiniEngineUnity {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get static field: static private HoudiniEngineUnity.HEU_CookLogs _instance
-    static HoudiniEngineUnity::HEU_CookLogs* _get__instance();
+    static ::HoudiniEngineUnity::HEU_CookLogs* _get__instance();
     // Set static field: static private HoudiniEngineUnity.HEU_CookLogs _instance
-    static void _set__instance(HoudiniEngineUnity::HEU_CookLogs* value);
+    static void _set__instance(::HoudiniEngineUnity::HEU_CookLogs* value);
     // static field const value: static private System.Int32 MAX_COOK_LOG_COUNT
     static constexpr const int MAX_COOK_LOG_COUNT = 9001;
     // Get static field: static private System.Int32 MAX_COOK_LOG_COUNT
@@ -91,7 +91,7 @@ namespace HoudiniEngineUnity {
     // Set static field: static public System.Int64 MaxLogSize
     static void _set_MaxLogSize(int64_t value);
     // Get instance field reference: private System.Text.StringBuilder _cookLogs
-    System::Text::StringBuilder*& dyn__cookLogs();
+    ::System::Text::StringBuilder*& dyn__cookLogs();
     // Get instance field reference: private System.Int32 _currentCookLogCount
     int& dyn__currentCookLogCount();
     // Get instance field reference: private System.String _lastLogStr
@@ -100,7 +100,7 @@ namespace HoudiniEngineUnity {
     bool& dyn__uniqueStrOnly();
     // static public HoudiniEngineUnity.HEU_CookLogs get_Instance()
     // Offset: 0x16405E4
-    static HoudiniEngineUnity::HEU_CookLogs* get_Instance();
+    static ::HoudiniEngineUnity::HEU_CookLogs* get_Instance();
     // public System.String GetCookLogString()
     // Offset: 0x16406E0
     ::StringW GetCookLogString();
@@ -128,7 +128,7 @@ namespace HoudiniEngineUnity {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_CookLogs* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_CookLogs::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_CookLogs::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_CookLogs*, creationType>()));
     }
   }; // HoudiniEngineUnity.HEU_CookLogs
@@ -140,7 +140,7 @@ namespace HoudiniEngineUnity {
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_CookLogs::get_Instance
 // Il2CppName: get_Instance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_CookLogs* (*)()>(&HoudiniEngineUnity::HEU_CookLogs::get_Instance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_CookLogs* (*)()>(&HoudiniEngineUnity::HEU_CookLogs::get_Instance)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_CookLogs*), "get_Instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

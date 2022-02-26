@@ -33,8 +33,8 @@ namespace Newtonsoft::Json::Converters {
   class XDeclarationWrapper;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Converters::XDeclarationWrapper);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Converters::XDeclarationWrapper*, "Newtonsoft.Json.Converters", "XDeclarationWrapper");
+NEED_NO_BOX(::Newtonsoft::Json::Converters::XDeclarationWrapper);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Converters::XDeclarationWrapper*, "Newtonsoft.Json.Converters", "XDeclarationWrapper");
 // Type namespace: Newtonsoft.Json.Converters
 namespace Newtonsoft::Json::Converters {
   // Size: 0x20
@@ -43,7 +43,7 @@ namespace Newtonsoft::Json::Converters {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NullableContextAttribute] Offset: 12038C4
   // [NullableAttribute] Offset: 12038C4
-  class XDeclarationWrapper : public Newtonsoft::Json::Converters::XObjectWrapper/*, public Newtonsoft::Json::Converters::IXmlDeclaration*/ {
+  class XDeclarationWrapper : public ::Newtonsoft::Json::Converters::XObjectWrapper/*, public ::Newtonsoft::Json::Converters::IXmlDeclaration*/ {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -57,21 +57,21 @@ namespace Newtonsoft::Json::Converters {
     // private readonly System.Xml.Linq.XDeclaration <Declaration>k__BackingField
     // Size: 0x8
     // Offset: 0x18
-    System::Xml::Linq::XDeclaration* Declaration;
+    ::System::Xml::Linq::XDeclaration* Declaration;
     // Field size check
-    static_assert(sizeof(System::Xml::Linq::XDeclaration*) == 0x8);
+    static_assert(sizeof(::System::Xml::Linq::XDeclaration*) == 0x8);
     public:
-    // Creating interface conversion operator: operator Newtonsoft::Json::Converters::IXmlDeclaration
-    operator Newtonsoft::Json::Converters::IXmlDeclaration() noexcept {
-      return *reinterpret_cast<Newtonsoft::Json::Converters::IXmlDeclaration*>(this);
+    // Creating interface conversion operator: operator ::Newtonsoft::Json::Converters::IXmlDeclaration
+    operator ::Newtonsoft::Json::Converters::IXmlDeclaration() noexcept {
+      return *reinterpret_cast<::Newtonsoft::Json::Converters::IXmlDeclaration*>(this);
     }
-    // Deleting conversion operator: operator System::Xml::Linq::XObject*
-    constexpr operator System::Xml::Linq::XObject*() const noexcept = delete;
+    // Deleting conversion operator: operator ::System::Xml::Linq::XObject*
+    constexpr operator ::System::Xml::Linq::XObject*() const noexcept = delete;
     // Get instance field reference: private readonly System.Xml.Linq.XDeclaration <Declaration>k__BackingField
-    System::Xml::Linq::XDeclaration*& dyn_$Declaration$k__BackingField();
+    ::System::Xml::Linq::XDeclaration*& dyn_$Declaration$k__BackingField();
     // System.Xml.Linq.XDeclaration get_Declaration()
     // Offset: 0x1822DA8
-    System::Xml::Linq::XDeclaration* get_Declaration();
+    ::System::Xml::Linq::XDeclaration* get_Declaration();
     // public System.String get_Version()
     // Offset: 0x1822DE4
     ::StringW get_Version();
@@ -84,25 +84,25 @@ namespace Newtonsoft::Json::Converters {
     // public System.Void .ctor(System.Xml.Linq.XDeclaration declaration)
     // Offset: 0x1822DB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XDeclarationWrapper* New_ctor(System::Xml::Linq::XDeclaration* declaration) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Converters::XDeclarationWrapper::.ctor");
+    static XDeclarationWrapper* New_ctor(::System::Xml::Linq::XDeclaration* declaration) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Converters::XDeclarationWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XDeclarationWrapper*, creationType>(declaration)));
     }
     // public override System.Xml.XmlNodeType get_NodeType()
     // Offset: 0x1822DDC
     // Implemented from: Newtonsoft.Json.Converters.XObjectWrapper
     // Base method: System.Xml.XmlNodeType XObjectWrapper::get_NodeType()
-    System::Xml::XmlNodeType get_NodeType();
+    ::System::Xml::XmlNodeType get_NodeType();
   }; // Newtonsoft.Json.Converters.XDeclarationWrapper
   #pragma pack(pop)
-  static check_size<sizeof(XDeclarationWrapper), 24 + sizeof(System::Xml::Linq::XDeclaration*)> __Newtonsoft_Json_Converters_XDeclarationWrapperSizeCheck;
+  static check_size<sizeof(XDeclarationWrapper), 24 + sizeof(::System::Xml::Linq::XDeclaration*)> __Newtonsoft_Json_Converters_XDeclarationWrapperSizeCheck;
   static_assert(sizeof(XDeclarationWrapper) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XDeclarationWrapper::get_Declaration
 // Il2CppName: get_Declaration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Linq::XDeclaration* (Newtonsoft::Json::Converters::XDeclarationWrapper::*)()>(&Newtonsoft::Json::Converters::XDeclarationWrapper::get_Declaration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Linq::XDeclaration* (Newtonsoft::Json::Converters::XDeclarationWrapper::*)()>(&Newtonsoft::Json::Converters::XDeclarationWrapper::get_Declaration)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Converters::XDeclarationWrapper*), "get_Declaration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -138,7 +138,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: Newtonsoft::Json::Converters::XDeclarationWrapper::get_NodeType
 // Il2CppName: get_NodeType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlNodeType (Newtonsoft::Json::Converters::XDeclarationWrapper::*)()>(&Newtonsoft::Json::Converters::XDeclarationWrapper::get_NodeType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNodeType (Newtonsoft::Json::Converters::XDeclarationWrapper::*)()>(&Newtonsoft::Json::Converters::XDeclarationWrapper::get_NodeType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Converters::XDeclarationWrapper*), "get_NodeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -18,8 +18,8 @@ namespace UnityEngine::TestTools::Utils {
   class IAssemblyWrapper;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::TestTools::Utils::IAssemblyWrapper);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Utils::IAssemblyWrapper*, "UnityEngine.TestTools.Utils", "IAssemblyWrapper");
+NEED_NO_BOX(::UnityEngine::TestTools::Utils::IAssemblyWrapper);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TestTools::Utils::IAssemblyWrapper*, "UnityEngine.TestTools.Utils", "IAssemblyWrapper");
 // Type namespace: UnityEngine.TestTools.Utils
 namespace UnityEngine::TestTools::Utils {
   // Size: 0x10
@@ -30,7 +30,7 @@ namespace UnityEngine::TestTools::Utils {
     public:
     // public System.Reflection.Assembly get_Assembly()
     // Offset: 0xFFFFFFFF
-    System::Reflection::Assembly* get_Assembly();
+    ::System::Reflection::Assembly* get_Assembly();
   }; // UnityEngine.TestTools.Utils.IAssemblyWrapper
   #pragma pack(pop)
 }
@@ -38,7 +38,7 @@ namespace UnityEngine::TestTools::Utils {
 // Writing MetadataGetter for method: UnityEngine::TestTools::Utils::IAssemblyWrapper::get_Assembly
 // Il2CppName: get_Assembly
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (UnityEngine::TestTools::Utils::IAssemblyWrapper::*)()>(&UnityEngine::TestTools::Utils::IAssemblyWrapper::get_Assembly)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::Assembly* (UnityEngine::TestTools::Utils::IAssemblyWrapper::*)()>(&UnityEngine::TestTools::Utils::IAssemblyWrapper::get_Assembly)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Utils::IAssemblyWrapper*), "get_Assembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

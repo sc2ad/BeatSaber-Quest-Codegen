@@ -48,8 +48,8 @@ namespace Newtonsoft::Json::Linq {
   class JTokenWriter;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Linq::JTokenWriter);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Linq::JTokenWriter*, "Newtonsoft.Json.Linq", "JTokenWriter");
+NEED_NO_BOX(::Newtonsoft::Json::Linq::JTokenWriter);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Linq::JTokenWriter*, "Newtonsoft.Json.Linq", "JTokenWriter");
 // Type namespace: Newtonsoft.Json.Linq
 namespace Newtonsoft::Json::Linq {
   // Size: 0x80
@@ -58,7 +58,7 @@ namespace Newtonsoft::Json::Linq {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NullableAttribute] Offset: 12033B4
   // [NullableContextAttribute] Offset: 12033B4
-  class JTokenWriter : public Newtonsoft::Json::JsonWriter {
+  class JTokenWriter : public ::Newtonsoft::Json::JsonWriter {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -72,51 +72,51 @@ namespace Newtonsoft::Json::Linq {
     // private Newtonsoft.Json.Linq.JContainer _token
     // Size: 0x8
     // Offset: 0x60
-    Newtonsoft::Json::Linq::JContainer* token;
+    ::Newtonsoft::Json::Linq::JContainer* token;
     // Field size check
-    static_assert(sizeof(Newtonsoft::Json::Linq::JContainer*) == 0x8);
+    static_assert(sizeof(::Newtonsoft::Json::Linq::JContainer*) == 0x8);
     // private Newtonsoft.Json.Linq.JContainer _parent
     // Size: 0x8
     // Offset: 0x68
-    Newtonsoft::Json::Linq::JContainer* parent;
+    ::Newtonsoft::Json::Linq::JContainer* parent;
     // Field size check
-    static_assert(sizeof(Newtonsoft::Json::Linq::JContainer*) == 0x8);
+    static_assert(sizeof(::Newtonsoft::Json::Linq::JContainer*) == 0x8);
     // private Newtonsoft.Json.Linq.JValue _value
     // Size: 0x8
     // Offset: 0x70
-    Newtonsoft::Json::Linq::JValue* value;
+    ::Newtonsoft::Json::Linq::JValue* value;
     // Field size check
-    static_assert(sizeof(Newtonsoft::Json::Linq::JValue*) == 0x8);
+    static_assert(sizeof(::Newtonsoft::Json::Linq::JValue*) == 0x8);
     // private Newtonsoft.Json.Linq.JToken _current
     // Size: 0x8
     // Offset: 0x78
-    Newtonsoft::Json::Linq::JToken* current;
+    ::Newtonsoft::Json::Linq::JToken* current;
     // Field size check
-    static_assert(sizeof(Newtonsoft::Json::Linq::JToken*) == 0x8);
+    static_assert(sizeof(::Newtonsoft::Json::Linq::JToken*) == 0x8);
     public:
     // Get instance field reference: private Newtonsoft.Json.Linq.JContainer _token
-    Newtonsoft::Json::Linq::JContainer*& dyn__token();
+    ::Newtonsoft::Json::Linq::JContainer*& dyn__token();
     // Get instance field reference: private Newtonsoft.Json.Linq.JContainer _parent
-    Newtonsoft::Json::Linq::JContainer*& dyn__parent();
+    ::Newtonsoft::Json::Linq::JContainer*& dyn__parent();
     // Get instance field reference: private Newtonsoft.Json.Linq.JValue _value
-    Newtonsoft::Json::Linq::JValue*& dyn__value();
+    ::Newtonsoft::Json::Linq::JValue*& dyn__value();
     // Get instance field reference: private Newtonsoft.Json.Linq.JToken _current
-    Newtonsoft::Json::Linq::JToken*& dyn__current();
+    ::Newtonsoft::Json::Linq::JToken*& dyn__current();
     // public Newtonsoft.Json.Linq.JToken get_Token()
     // Offset: 0x151E954
-    Newtonsoft::Json::Linq::JToken* get_Token();
+    ::Newtonsoft::Json::Linq::JToken* get_Token();
     // private System.Void AddParent(Newtonsoft.Json.Linq.JContainer container)
     // Offset: 0x151EA68
-    void AddParent(Newtonsoft::Json::Linq::JContainer* container);
+    void AddParent(::Newtonsoft::Json::Linq::JContainer* container);
     // private System.Void RemoveParent()
     // Offset: 0x151EAAC
     void RemoveParent();
     // private System.Void AddValue(System.Object value, Newtonsoft.Json.JsonToken token)
     // Offset: 0x151ED1C
-    void AddValue(::Il2CppObject* value, Newtonsoft::Json::JsonToken token);
+    void AddValue(::Il2CppObject* value, ::Newtonsoft::Json::JsonToken token);
     // System.Void AddValue(Newtonsoft.Json.Linq.JValue value, Newtonsoft.Json.JsonToken token)
     // Offset: 0x151EDD4
-    void AddValue(Newtonsoft::Json::Linq::JValue* value, Newtonsoft::Json::JsonToken token);
+    void AddValue(::Newtonsoft::Json::Linq::JValue* value, ::Newtonsoft::Json::JsonToken token);
     // public System.Void .ctor()
     // Offset: 0x151E96C
     // Implemented from: Newtonsoft.Json.JsonWriter
@@ -124,7 +124,7 @@ namespace Newtonsoft::Json::Linq {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JTokenWriter* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::Linq::JTokenWriter::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Linq::JTokenWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JTokenWriter*, creationType>()));
     }
     // public override System.Void Close()
@@ -151,7 +151,7 @@ namespace Newtonsoft::Json::Linq {
     // Offset: 0x151EC34
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteEnd(Newtonsoft.Json.JsonToken token)
-    void WriteEnd(Newtonsoft::Json::JsonToken token);
+    void WriteEnd(::Newtonsoft::Json::JsonToken token);
     // public override System.Void WritePropertyName(System.String name)
     // Offset: 0x151EC38
     // Implemented from: Newtonsoft.Json.JsonWriter
@@ -251,17 +251,17 @@ namespace Newtonsoft::Json::Linq {
     // Offset: 0x151F76C
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.Decimal value)
-    void WriteValue(System::Decimal value);
+    void WriteValue(::System::Decimal value);
     // public override System.Void WriteValue(System.DateTime value)
     // Offset: 0x151F800
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.DateTime value)
-    void WriteValue(System::DateTime value);
+    void WriteValue(::System::DateTime value);
     // public override System.Void WriteValue(System.DateTimeOffset value)
     // Offset: 0x151F8BC
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.DateTimeOffset value)
-    void WriteValue(System::DateTimeOffset value);
+    void WriteValue(::System::DateTimeOffset value);
     // public override System.Void WriteValue(System.Byte[] value)
     // Offset: 0x151F950
     // Implemented from: Newtonsoft.Json.JsonWriter
@@ -271,32 +271,32 @@ namespace Newtonsoft::Json::Linq {
     // Offset: 0x151F984
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.TimeSpan value)
-    void WriteValue(System::TimeSpan value);
+    void WriteValue(::System::TimeSpan value);
     // public override System.Void WriteValue(System.Guid value)
     // Offset: 0x151FA08
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.Guid value)
-    void WriteValue(System::Guid value);
+    void WriteValue(::System::Guid value);
     // public override System.Void WriteValue(System.Uri value)
     // Offset: 0x151FA9C
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteValue(System.Uri value)
-    void WriteValue(System::Uri* value);
+    void WriteValue(::System::Uri* value);
     // override System.Void WriteToken(Newtonsoft.Json.JsonReader reader, System.Boolean writeChildren, System.Boolean writeDateConstructorAsDate, System.Boolean writeComments)
     // Offset: 0x151FAD0
     // Implemented from: Newtonsoft.Json.JsonWriter
     // Base method: System.Void JsonWriter::WriteToken(Newtonsoft.Json.JsonReader reader, System.Boolean writeChildren, System.Boolean writeDateConstructorAsDate, System.Boolean writeComments)
-    void WriteToken(Newtonsoft::Json::JsonReader* reader, bool writeChildren, bool writeDateConstructorAsDate, bool writeComments);
+    void WriteToken(::Newtonsoft::Json::JsonReader* reader, bool writeChildren, bool writeDateConstructorAsDate, bool writeComments);
   }; // Newtonsoft.Json.Linq.JTokenWriter
   #pragma pack(pop)
-  static check_size<sizeof(JTokenWriter), 120 + sizeof(Newtonsoft::Json::Linq::JToken*)> __Newtonsoft_Json_Linq_JTokenWriterSizeCheck;
+  static check_size<sizeof(JTokenWriter), 120 + sizeof(::Newtonsoft::Json::Linq::JToken*)> __Newtonsoft_Json_Linq_JTokenWriterSizeCheck;
   static_assert(sizeof(JTokenWriter) == 0x80);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JTokenWriter::get_Token
 // Il2CppName: get_Token
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft::Json::Linq::JToken* (Newtonsoft::Json::Linq::JTokenWriter::*)()>(&Newtonsoft::Json::Linq::JTokenWriter::get_Token)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Linq::JToken* (Newtonsoft::Json::Linq::JTokenWriter::*)()>(&Newtonsoft::Json::Linq::JTokenWriter::get_Token)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JTokenWriter*), "get_Token", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -304,7 +304,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft:
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JTokenWriter::AddParent
 // Il2CppName: AddParent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Linq::JTokenWriter::*)(Newtonsoft::Json::Linq::JContainer*)>(&Newtonsoft::Json::Linq::JTokenWriter::AddParent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Linq::JTokenWriter::*)(::Newtonsoft::Json::Linq::JContainer*)>(&Newtonsoft::Json::Linq::JTokenWriter::AddParent)> {
   static const MethodInfo* get() {
     static auto* container = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Linq", "JContainer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JTokenWriter*), "AddParent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{container});
@@ -321,7 +321,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JTokenWriter::AddValue
 // Il2CppName: AddValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Linq::JTokenWriter::*)(::Il2CppObject*, Newtonsoft::Json::JsonToken)>(&Newtonsoft::Json::Linq::JTokenWriter::AddValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Linq::JTokenWriter::*)(::Il2CppObject*, ::Newtonsoft::Json::JsonToken)>(&Newtonsoft::Json::Linq::JTokenWriter::AddValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* token = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonToken")->byval_arg;
@@ -331,7 +331,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JTokenWriter::AddValue
 // Il2CppName: AddValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Linq::JTokenWriter::*)(Newtonsoft::Json::Linq::JValue*, Newtonsoft::Json::JsonToken)>(&Newtonsoft::Json::Linq::JTokenWriter::AddValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Linq::JTokenWriter::*)(::Newtonsoft::Json::Linq::JValue*, ::Newtonsoft::Json::JsonToken)>(&Newtonsoft::Json::Linq::JTokenWriter::AddValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json.Linq", "JValue")->byval_arg;
     static auto* token = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonToken")->byval_arg;
@@ -378,7 +378,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JTokenWriter::WriteEnd
 // Il2CppName: WriteEnd
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Linq::JTokenWriter::*)(Newtonsoft::Json::JsonToken)>(&Newtonsoft::Json::Linq::JTokenWriter::WriteEnd)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Linq::JTokenWriter::*)(::Newtonsoft::Json::JsonToken)>(&Newtonsoft::Json::Linq::JTokenWriter::WriteEnd)> {
   static const MethodInfo* get() {
     static auto* token = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JTokenWriter*), "WriteEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{token});
@@ -556,7 +556,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JTokenWriter::WriteValue
 // Il2CppName: WriteValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Linq::JTokenWriter::*)(System::Decimal)>(&Newtonsoft::Json::Linq::JTokenWriter::WriteValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Linq::JTokenWriter::*)(::System::Decimal)>(&Newtonsoft::Json::Linq::JTokenWriter::WriteValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Decimal")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JTokenWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -565,7 +565,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JTokenWriter::WriteValue
 // Il2CppName: WriteValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Linq::JTokenWriter::*)(System::DateTime)>(&Newtonsoft::Json::Linq::JTokenWriter::WriteValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Linq::JTokenWriter::*)(::System::DateTime)>(&Newtonsoft::Json::Linq::JTokenWriter::WriteValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JTokenWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -574,7 +574,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JTokenWriter::WriteValue
 // Il2CppName: WriteValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Linq::JTokenWriter::*)(System::DateTimeOffset)>(&Newtonsoft::Json::Linq::JTokenWriter::WriteValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Linq::JTokenWriter::*)(::System::DateTimeOffset)>(&Newtonsoft::Json::Linq::JTokenWriter::WriteValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "DateTimeOffset")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JTokenWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -592,7 +592,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JTokenWriter::WriteValue
 // Il2CppName: WriteValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Linq::JTokenWriter::*)(System::TimeSpan)>(&Newtonsoft::Json::Linq::JTokenWriter::WriteValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Linq::JTokenWriter::*)(::System::TimeSpan)>(&Newtonsoft::Json::Linq::JTokenWriter::WriteValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "TimeSpan")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JTokenWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -601,7 +601,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JTokenWriter::WriteValue
 // Il2CppName: WriteValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Linq::JTokenWriter::*)(System::Guid)>(&Newtonsoft::Json::Linq::JTokenWriter::WriteValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Linq::JTokenWriter::*)(::System::Guid)>(&Newtonsoft::Json::Linq::JTokenWriter::WriteValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Guid")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JTokenWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -610,7 +610,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JTokenWriter::WriteValue
 // Il2CppName: WriteValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Linq::JTokenWriter::*)(System::Uri*)>(&Newtonsoft::Json::Linq::JTokenWriter::WriteValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Linq::JTokenWriter::*)(::System::Uri*)>(&Newtonsoft::Json::Linq::JTokenWriter::WriteValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Linq::JTokenWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -619,7 +619,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
 // Writing MetadataGetter for method: Newtonsoft::Json::Linq::JTokenWriter::WriteToken
 // Il2CppName: WriteToken
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Linq::JTokenWriter::*)(Newtonsoft::Json::JsonReader*, bool, bool, bool)>(&Newtonsoft::Json::Linq::JTokenWriter::WriteToken)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Linq::JTokenWriter::*)(::Newtonsoft::Json::JsonReader*, bool, bool, bool)>(&Newtonsoft::Json::Linq::JTokenWriter::WriteToken)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "JsonReader")->byval_arg;
     static auto* writeChildren = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

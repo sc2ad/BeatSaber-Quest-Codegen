@@ -33,8 +33,8 @@ namespace System::Security::Util {
   class Parser;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Security::Util::Parser);
-DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::Parser*, "System.Security.Util", "Parser");
+NEED_NO_BOX(::System::Security::Util::Parser);
+DEFINE_IL2CPP_ARG_TYPE(::System::Security::Util::Parser*, "System.Security.Util", "Parser");
 // Type namespace: System.Security.Util
 namespace System::Security::Util {
   // Size: 0x20
@@ -55,49 +55,49 @@ namespace System::Security::Util {
     // private System.Security.SecurityDocument _doc
     // Size: 0x8
     // Offset: 0x10
-    System::Security::SecurityDocument* doc;
+    ::System::Security::SecurityDocument* doc;
     // Field size check
-    static_assert(sizeof(System::Security::SecurityDocument*) == 0x8);
+    static_assert(sizeof(::System::Security::SecurityDocument*) == 0x8);
     // private System.Security.Util.Tokenizer _t
     // Size: 0x8
     // Offset: 0x18
-    System::Security::Util::Tokenizer* t;
+    ::System::Security::Util::Tokenizer* t;
     // Field size check
-    static_assert(sizeof(System::Security::Util::Tokenizer*) == 0x8);
+    static_assert(sizeof(::System::Security::Util::Tokenizer*) == 0x8);
     public:
     // Get instance field reference: private System.Security.SecurityDocument _doc
-    System::Security::SecurityDocument*& dyn__doc();
+    ::System::Security::SecurityDocument*& dyn__doc();
     // Get instance field reference: private System.Security.Util.Tokenizer _t
-    System::Security::Util::Tokenizer*& dyn__t();
+    ::System::Security::Util::Tokenizer*& dyn__t();
     // private System.Void .ctor(System.Security.Util.Tokenizer t)
     // Offset: 0x1FF98C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Parser* New_ctor(System::Security::Util::Tokenizer* t) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Util::Parser::.ctor");
+    static Parser* New_ctor(::System::Security::Util::Tokenizer* t) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Util::Parser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Parser*, creationType>(t)));
     }
     // System.Void .ctor(System.String input)
     // Offset: 0x1FF999C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Parser* New_ctor(::StringW input) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Util::Parser::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Util::Parser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Parser*, creationType>(input)));
     }
     // System.Security.SecurityElement GetTopElement()
     // Offset: 0x1FF7DB4
-    System::Security::SecurityElement* GetTopElement();
+    ::System::Security::SecurityElement* GetTopElement();
     // private System.Void GetRequiredSizes(System.Security.Util.TokenizerStream stream, ref System.Int32 index)
     // Offset: 0x1FF7DD0
-    void GetRequiredSizes(System::Security::Util::TokenizerStream* stream, ByRef<int> index);
+    void GetRequiredSizes(::System::Security::Util::TokenizerStream* stream, ByRef<int> index);
     // private System.Int32 DetermineFormat(System.Security.Util.TokenizerStream stream)
     // Offset: 0x1FF8528
-    int DetermineFormat(System::Security::Util::TokenizerStream* stream);
+    int DetermineFormat(::System::Security::Util::TokenizerStream* stream);
     // private System.Void ParseContents()
     // Offset: 0x1FF9488
     void ParseContents();
   }; // System.Security.Util.Parser
   #pragma pack(pop)
-  static check_size<sizeof(Parser), 24 + sizeof(System::Security::Util::Tokenizer*)> __System_Security_Util_ParserSizeCheck;
+  static check_size<sizeof(Parser), 24 + sizeof(::System::Security::Util::Tokenizer*)> __System_Security_Util_ParserSizeCheck;
   static_assert(sizeof(Parser) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -112,7 +112,7 @@ namespace System::Security::Util {
 // Writing MetadataGetter for method: System::Security::Util::Parser::GetTopElement
 // Il2CppName: GetTopElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::SecurityElement* (System::Security::Util::Parser::*)()>(&System::Security::Util::Parser::GetTopElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::SecurityElement* (System::Security::Util::Parser::*)()>(&System::Security::Util::Parser::GetTopElement)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Util::Parser*), "GetTopElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -120,7 +120,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Writing MetadataGetter for method: System::Security::Util::Parser::GetRequiredSizes
 // Il2CppName: GetRequiredSizes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Util::Parser::*)(System::Security::Util::TokenizerStream*, ByRef<int>)>(&System::Security::Util::Parser::GetRequiredSizes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Util::Parser::*)(::System::Security::Util::TokenizerStream*, ByRef<int>)>(&System::Security::Util::Parser::GetRequiredSizes)> {
   static const MethodInfo* get() {
     static auto* stream = &::il2cpp_utils::GetClassFromName("System.Security.Util", "TokenizerStream")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -130,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Util::Parser::DetermineFormat
 // Il2CppName: DetermineFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Security::Util::Parser::*)(System::Security::Util::TokenizerStream*)>(&System::Security::Util::Parser::DetermineFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Security::Util::Parser::*)(::System::Security::Util::TokenizerStream*)>(&System::Security::Util::Parser::DetermineFormat)> {
   static const MethodInfo* get() {
     static auto* stream = &::il2cpp_utils::GetClassFromName("System.Security.Util", "TokenizerStream")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Util::Parser*), "DetermineFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stream});

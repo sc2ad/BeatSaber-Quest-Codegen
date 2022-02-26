@@ -13,7 +13,7 @@ namespace System::Collections::Concurrent {
   class IDictionaryDebugView_2;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Collections::Concurrent::IDictionaryDebugView_2, "System.Collections.Concurrent", "IDictionaryDebugView`2");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Collections::Concurrent::IDictionaryDebugView_2, "System.Collections.Concurrent", "IDictionaryDebugView`2");
 // Type namespace: System.Collections.Concurrent
 namespace System::Collections::Concurrent {
   // WARNING Size may be invalid!

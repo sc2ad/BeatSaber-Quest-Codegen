@@ -13,8 +13,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Schema::XdrBuilder::GroupContent);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::XdrBuilder::GroupContent*, "System.Xml.Schema", "XdrBuilder/GroupContent");
+NEED_NO_BOX(::System::Xml::Schema::XdrBuilder::GroupContent);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XdrBuilder::GroupContent*, "System.Xml.Schema", "XdrBuilder/GroupContent");
 // Type namespace: System.Xml.Schema
 namespace System::Xml::Schema {
   // Size: 0x20
@@ -77,17 +77,17 @@ namespace System::Xml::Schema {
     int& dyn__Order();
     // static System.Void Copy(System.Xml.Schema.XdrBuilder/System.Xml.Schema.GroupContent from, System.Xml.Schema.XdrBuilder/System.Xml.Schema.GroupContent to)
     // Offset: 0x1C71528
-    static void Copy(System::Xml::Schema::XdrBuilder::GroupContent* from, System::Xml::Schema::XdrBuilder::GroupContent* to);
+    static void Copy(::System::Xml::Schema::XdrBuilder::GroupContent* from, ::System::Xml::Schema::XdrBuilder::GroupContent* to);
     // static System.Xml.Schema.XdrBuilder/System.Xml.Schema.GroupContent Copy(System.Xml.Schema.XdrBuilder/System.Xml.Schema.GroupContent other)
     // Offset: 0x1C7155C
-    static System::Xml::Schema::XdrBuilder::GroupContent* Copy(System::Xml::Schema::XdrBuilder::GroupContent* other);
+    static ::System::Xml::Schema::XdrBuilder::GroupContent* Copy(::System::Xml::Schema::XdrBuilder::GroupContent* other);
     // public System.Void .ctor()
     // Offset: 0x1C715C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XdrBuilder::GroupContent* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Schema::XdrBuilder::GroupContent::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XdrBuilder::GroupContent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XdrBuilder::GroupContent*, creationType>()));
     }
   }; // System.Xml.Schema.XdrBuilder/System.Xml.Schema.GroupContent
@@ -99,7 +99,7 @@ namespace System::Xml::Schema {
 // Writing MetadataGetter for method: System::Xml::Schema::XdrBuilder::GroupContent::Copy
 // Il2CppName: Copy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Xml::Schema::XdrBuilder::GroupContent*, System::Xml::Schema::XdrBuilder::GroupContent*)>(&System::Xml::Schema::XdrBuilder::GroupContent::Copy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XdrBuilder::GroupContent*, ::System::Xml::Schema::XdrBuilder::GroupContent*)>(&System::Xml::Schema::XdrBuilder::GroupContent::Copy)> {
   static const MethodInfo* get() {
     static auto* from = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XdrBuilder/GroupContent")->byval_arg;
     static auto* to = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XdrBuilder/GroupContent")->byval_arg;
@@ -109,7 +109,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Xml::Schema::XdrBuilder::GroupContent::Copy
 // Il2CppName: Copy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Schema::XdrBuilder::GroupContent* (*)(System::Xml::Schema::XdrBuilder::GroupContent*)>(&System::Xml::Schema::XdrBuilder::GroupContent::Copy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XdrBuilder::GroupContent* (*)(::System::Xml::Schema::XdrBuilder::GroupContent*)>(&System::Xml::Schema::XdrBuilder::GroupContent::Copy)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("System.Xml.Schema", "XdrBuilder/GroupContent")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::XdrBuilder::GroupContent*), "Copy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});

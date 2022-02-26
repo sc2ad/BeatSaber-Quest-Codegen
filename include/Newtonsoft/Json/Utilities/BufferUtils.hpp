@@ -21,8 +21,8 @@ namespace Newtonsoft::Json::Utilities {
   class BufferUtils;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Utilities::BufferUtils);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::BufferUtils*, "Newtonsoft.Json.Utilities", "BufferUtils");
+NEED_NO_BOX(::Newtonsoft::Json::Utilities::BufferUtils);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::BufferUtils*, "Newtonsoft.Json.Utilities", "BufferUtils");
 // Type namespace: Newtonsoft.Json.Utilities
 namespace Newtonsoft::Json::Utilities {
   // Size: 0x10
@@ -35,13 +35,13 @@ namespace Newtonsoft::Json::Utilities {
     public:
     // static public System.Char[] RentBuffer(Newtonsoft.Json.IArrayPool`1<System.Char> bufferPool, System.Int32 minSize)
     // Offset: 0x19DA388
-    static ::ArrayW<::Il2CppChar> RentBuffer(Newtonsoft::Json::IArrayPool_1<::Il2CppChar>* bufferPool, int minSize);
+    static ::ArrayW<::Il2CppChar> RentBuffer(::Newtonsoft::Json::IArrayPool_1<::Il2CppChar>* bufferPool, int minSize);
     // static public System.Void ReturnBuffer(Newtonsoft.Json.IArrayPool`1<System.Char> bufferPool, System.Char[] buffer)
     // Offset: 0x19DA460
-    static void ReturnBuffer(Newtonsoft::Json::IArrayPool_1<::Il2CppChar>* bufferPool, ::ArrayW<::Il2CppChar> buffer);
+    static void ReturnBuffer(::Newtonsoft::Json::IArrayPool_1<::Il2CppChar>* bufferPool, ::ArrayW<::Il2CppChar> buffer);
     // static public System.Char[] EnsureBufferSize(Newtonsoft.Json.IArrayPool`1<System.Char> bufferPool, System.Int32 size, System.Char[] buffer)
     // Offset: 0x19DA52C
-    static ::ArrayW<::Il2CppChar> EnsureBufferSize(Newtonsoft::Json::IArrayPool_1<::Il2CppChar>* bufferPool, int size, ::ArrayW<::Il2CppChar> buffer);
+    static ::ArrayW<::Il2CppChar> EnsureBufferSize(::Newtonsoft::Json::IArrayPool_1<::Il2CppChar>* bufferPool, int size, ::ArrayW<::Il2CppChar> buffer);
   }; // Newtonsoft.Json.Utilities.BufferUtils
   #pragma pack(pop)
 }
@@ -49,7 +49,7 @@ namespace Newtonsoft::Json::Utilities {
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::BufferUtils::RentBuffer
 // Il2CppName: RentBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppChar> (*)(Newtonsoft::Json::IArrayPool_1<::Il2CppChar>*, int)>(&Newtonsoft::Json::Utilities::BufferUtils::RentBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppChar> (*)(::Newtonsoft::Json::IArrayPool_1<::Il2CppChar>*, int)>(&Newtonsoft::Json::Utilities::BufferUtils::RentBuffer)> {
   static const MethodInfo* get() {
     static auto* bufferPool = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "IArrayPool`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Char")})->byval_arg;
     static auto* minSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -59,7 +59,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::BufferUtils::ReturnBuffer
 // Il2CppName: ReturnBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Newtonsoft::Json::IArrayPool_1<::Il2CppChar>*, ::ArrayW<::Il2CppChar>)>(&Newtonsoft::Json::Utilities::BufferUtils::ReturnBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Newtonsoft::Json::IArrayPool_1<::Il2CppChar>*, ::ArrayW<::Il2CppChar>)>(&Newtonsoft::Json::Utilities::BufferUtils::ReturnBuffer)> {
   static const MethodInfo* get() {
     static auto* bufferPool = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "IArrayPool`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Char")})->byval_arg;
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
@@ -69,7 +69,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ne
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::BufferUtils::EnsureBufferSize
 // Il2CppName: EnsureBufferSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppChar> (*)(Newtonsoft::Json::IArrayPool_1<::Il2CppChar>*, int, ::ArrayW<::Il2CppChar>)>(&Newtonsoft::Json::Utilities::BufferUtils::EnsureBufferSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppChar> (*)(::Newtonsoft::Json::IArrayPool_1<::Il2CppChar>*, int, ::ArrayW<::Il2CppChar>)>(&Newtonsoft::Json::Utilities::BufferUtils::EnsureBufferSize)> {
   static const MethodInfo* get() {
     static auto* bufferPool = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "IArrayPool`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Char")})->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

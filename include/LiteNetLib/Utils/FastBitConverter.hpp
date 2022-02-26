@@ -18,8 +18,8 @@ namespace LiteNetLib::Utils {
   class FastBitConverter;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(LiteNetLib::Utils::FastBitConverter);
-DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::FastBitConverter*, "LiteNetLib.Utils", "FastBitConverter");
+NEED_NO_BOX(::LiteNetLib::Utils::FastBitConverter);
+DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::Utils::FastBitConverter*, "LiteNetLib.Utils", "FastBitConverter");
 // Type namespace: LiteNetLib.Utils
 namespace LiteNetLib::Utils {
   // Size: 0x10
@@ -28,9 +28,9 @@ namespace LiteNetLib::Utils {
   // [TokenAttribute] Offset: FFFFFFFF
   class FastBitConverter : public ::Il2CppObject {
     public:
-    // Nested type: LiteNetLib::Utils::FastBitConverter::ConverterHelperDouble
+    // Nested type: ::LiteNetLib::Utils::FastBitConverter::ConverterHelperDouble
     struct ConverterHelperDouble;
-    // Nested type: LiteNetLib::Utils::FastBitConverter::ConverterHelperFloat
+    // Nested type: ::LiteNetLib::Utils::FastBitConverter::ConverterHelperFloat
     struct ConverterHelperFloat;
     // static private System.Void WriteLittleEndian(System.Byte[] buffer, System.Int32 offset, System.UInt64 data)
     // Offset: 0x20EC260

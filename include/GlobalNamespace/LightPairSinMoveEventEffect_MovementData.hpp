@@ -22,8 +22,8 @@ namespace UnityEngine {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::LightPairSinMoveEventEffect::MovementData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightPairSinMoveEventEffect::MovementData*, "", "LightPairSinMoveEventEffect/MovementData");
+NEED_NO_BOX(::GlobalNamespace::LightPairSinMoveEventEffect::MovementData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LightPairSinMoveEventEffect::MovementData*, "", "LightPairSinMoveEventEffect/MovementData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x3C
@@ -58,17 +58,17 @@ namespace GlobalNamespace {
     // public UnityEngine.Vector3 startPosition
     // Size: 0xC
     // Offset: 0x18
-    UnityEngine::Vector3 startPosition;
+    ::UnityEngine::Vector3 startPosition;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // Padding between fields: startPosition and: transform
     char __padding2[0x4] = {};
     // public UnityEngine.Transform transform
     // Size: 0x8
     // Offset: 0x28
-    UnityEngine::Transform* transform;
+    ::UnityEngine::Transform* transform;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // public System.Single startMovementValue
     // Size: 0x4
     // Offset: 0x30
@@ -93,9 +93,9 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single speed
     float& dyn_speed();
     // Get instance field reference: public UnityEngine.Vector3 startPosition
-    UnityEngine::Vector3& dyn_startPosition();
+    ::UnityEngine::Vector3& dyn_startPosition();
     // Get instance field reference: public UnityEngine.Transform transform
-    UnityEngine::Transform*& dyn_transform();
+    ::UnityEngine::Transform*& dyn_transform();
     // Get instance field reference: public System.Single startMovementValue
     float& dyn_startMovementValue();
     // Get instance field reference: public System.Single movementValue
@@ -108,7 +108,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightPairSinMoveEventEffect::MovementData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LightPairSinMoveEventEffect::MovementData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightPairSinMoveEventEffect::MovementData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightPairSinMoveEventEffect::MovementData*, creationType>()));
     }
   }; // LightPairSinMoveEventEffect/MovementData

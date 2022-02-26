@@ -23,8 +23,8 @@ namespace System::Xml::Schema {
   class ForwardAxis;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Schema::ForwardAxis);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::ForwardAxis*, "System.Xml.Schema", "ForwardAxis");
+NEED_NO_BOX(::System::Xml::Schema::ForwardAxis);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::ForwardAxis*, "System.Xml.Schema", "ForwardAxis");
 // Type namespace: System.Xml.Schema
 namespace System::Xml::Schema {
   // Size: 0x23
@@ -45,15 +45,15 @@ namespace System::Xml::Schema {
     // private System.Xml.Schema.DoubleLinkAxis topNode
     // Size: 0x8
     // Offset: 0x10
-    System::Xml::Schema::DoubleLinkAxis* topNode;
+    ::System::Xml::Schema::DoubleLinkAxis* topNode;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::DoubleLinkAxis*) == 0x8);
+    static_assert(sizeof(::System::Xml::Schema::DoubleLinkAxis*) == 0x8);
     // private System.Xml.Schema.DoubleLinkAxis rootNode
     // Size: 0x8
     // Offset: 0x18
-    System::Xml::Schema::DoubleLinkAxis* rootNode;
+    ::System::Xml::Schema::DoubleLinkAxis* rootNode;
     // Field size check
-    static_assert(sizeof(System::Xml::Schema::DoubleLinkAxis*) == 0x8);
+    static_assert(sizeof(::System::Xml::Schema::DoubleLinkAxis*) == 0x8);
     // private System.Boolean isAttribute
     // Size: 0x1
     // Offset: 0x20
@@ -74,9 +74,9 @@ namespace System::Xml::Schema {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private System.Xml.Schema.DoubleLinkAxis topNode
-    System::Xml::Schema::DoubleLinkAxis*& dyn_topNode();
+    ::System::Xml::Schema::DoubleLinkAxis*& dyn_topNode();
     // Get instance field reference: private System.Xml.Schema.DoubleLinkAxis rootNode
-    System::Xml::Schema::DoubleLinkAxis*& dyn_rootNode();
+    ::System::Xml::Schema::DoubleLinkAxis*& dyn_rootNode();
     // Get instance field reference: private System.Boolean isAttribute
     bool& dyn_isAttribute();
     // Get instance field reference: private System.Boolean isDss
@@ -85,10 +85,10 @@ namespace System::Xml::Schema {
     bool& dyn_isSelfAxis();
     // System.Xml.Schema.DoubleLinkAxis get_RootNode()
     // Offset: 0x1499DC8
-    System::Xml::Schema::DoubleLinkAxis* get_RootNode();
+    ::System::Xml::Schema::DoubleLinkAxis* get_RootNode();
     // System.Xml.Schema.DoubleLinkAxis get_TopNode()
     // Offset: 0x1499DD0
-    System::Xml::Schema::DoubleLinkAxis* get_TopNode();
+    ::System::Xml::Schema::DoubleLinkAxis* get_TopNode();
     // System.Boolean get_IsAttribute()
     // Offset: 0x1499DD8
     bool get_IsAttribute();
@@ -101,8 +101,8 @@ namespace System::Xml::Schema {
     // public System.Void .ctor(System.Xml.Schema.DoubleLinkAxis axis, System.Boolean isdesorself)
     // Offset: 0x1499DF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ForwardAxis* New_ctor(System::Xml::Schema::DoubleLinkAxis* axis, bool isdesorself) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::Schema::ForwardAxis::.ctor");
+    static ForwardAxis* New_ctor(::System::Xml::Schema::DoubleLinkAxis* axis, bool isdesorself) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::ForwardAxis::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ForwardAxis*, creationType>(axis, isdesorself)));
     }
   }; // System.Xml.Schema.ForwardAxis
@@ -114,7 +114,7 @@ namespace System::Xml::Schema {
 // Writing MetadataGetter for method: System::Xml::Schema::ForwardAxis::get_RootNode
 // Il2CppName: get_RootNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Schema::DoubleLinkAxis* (System::Xml::Schema::ForwardAxis::*)()>(&System::Xml::Schema::ForwardAxis::get_RootNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::DoubleLinkAxis* (System::Xml::Schema::ForwardAxis::*)()>(&System::Xml::Schema::ForwardAxis::get_RootNode)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::ForwardAxis*), "get_RootNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Writing MetadataGetter for method: System::Xml::Schema::ForwardAxis::get_TopNode
 // Il2CppName: get_TopNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Schema::DoubleLinkAxis* (System::Xml::Schema::ForwardAxis::*)()>(&System::Xml::Schema::ForwardAxis::get_TopNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::DoubleLinkAxis* (System::Xml::Schema::ForwardAxis::*)()>(&System::Xml::Schema::ForwardAxis::get_TopNode)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Schema::ForwardAxis*), "get_TopNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

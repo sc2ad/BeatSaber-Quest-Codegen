@@ -31,8 +31,8 @@ namespace VRUIControls {
   class MouseState;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(VRUIControls::MouseState);
-DEFINE_IL2CPP_ARG_TYPE(VRUIControls::MouseState*, "VRUIControls", "MouseState");
+NEED_NO_BOX(::VRUIControls::MouseState);
+DEFINE_IL2CPP_ARG_TYPE(::VRUIControls::MouseState*, "VRUIControls", "MouseState");
 // Type namespace: VRUIControls
 namespace VRUIControls {
   // Size: 0x18
@@ -53,16 +53,16 @@ namespace VRUIControls {
     // private System.Collections.Generic.List`1<VRUIControls.ButtonState> _trackedButtons
     // Size: 0x8
     // Offset: 0x10
-    System::Collections::Generic::List_1<VRUIControls::ButtonState*>* trackedButtons;
+    ::System::Collections::Generic::List_1<::VRUIControls::ButtonState*>* trackedButtons;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<VRUIControls::ButtonState*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::VRUIControls::ButtonState*>*) == 0x8);
     public:
-    // Creating conversion operator: operator System::Collections::Generic::List_1<VRUIControls::ButtonState*>*
-    constexpr operator System::Collections::Generic::List_1<VRUIControls::ButtonState*>*() const noexcept {
+    // Creating conversion operator: operator ::System::Collections::Generic::List_1<::VRUIControls::ButtonState*>*
+    constexpr operator ::System::Collections::Generic::List_1<::VRUIControls::ButtonState*>*() const noexcept {
       return trackedButtons;
     }
     // Get instance field reference: private System.Collections.Generic.List`1<VRUIControls.ButtonState> _trackedButtons
-    System::Collections::Generic::List_1<VRUIControls::ButtonState*>*& dyn__trackedButtons();
+    ::System::Collections::Generic::List_1<::VRUIControls::ButtonState*>*& dyn__trackedButtons();
     // public System.Boolean AnyPressesThisFrame()
     // Offset: 0x29B7B14
     bool AnyPressesThisFrame();
@@ -71,22 +71,22 @@ namespace VRUIControls {
     bool AnyReleasesThisFrame();
     // public VRUIControls.ButtonState GetButtonState(UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.InputButton button)
     // Offset: 0x29B7C7C
-    VRUIControls::ButtonState* GetButtonState(UnityEngine::EventSystems::PointerEventData::InputButton button);
+    ::VRUIControls::ButtonState* GetButtonState(::UnityEngine::EventSystems::PointerEventData::InputButton button);
     // public System.Void SetButtonState(UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.InputButton button, UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.FramePressState stateForMouseButton, UnityEngine.EventSystems.PointerEventData data)
     // Offset: 0x29B7DB8
-    void SetButtonState(UnityEngine::EventSystems::PointerEventData::InputButton button, UnityEngine::EventSystems::PointerEventData::FramePressState stateForMouseButton, UnityEngine::EventSystems::PointerEventData* data);
+    void SetButtonState(::UnityEngine::EventSystems::PointerEventData::InputButton button, ::UnityEngine::EventSystems::PointerEventData::FramePressState stateForMouseButton, ::UnityEngine::EventSystems::PointerEventData* data);
     // public System.Void .ctor()
     // Offset: 0x29B7DFC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MouseState* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("VRUIControls::MouseState::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::VRUIControls::MouseState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MouseState*, creationType>()));
     }
   }; // VRUIControls.MouseState
   #pragma pack(pop)
-  static check_size<sizeof(MouseState), 16 + sizeof(System::Collections::Generic::List_1<VRUIControls::ButtonState*>*)> __VRUIControls_MouseStateSizeCheck;
+  static check_size<sizeof(MouseState), 16 + sizeof(::System::Collections::Generic::List_1<::VRUIControls::ButtonState*>*)> __VRUIControls_MouseStateSizeCheck;
   static_assert(sizeof(MouseState) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -109,7 +109,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (VRUIC
 // Writing MetadataGetter for method: VRUIControls::MouseState::GetButtonState
 // Il2CppName: GetButtonState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<VRUIControls::ButtonState* (VRUIControls::MouseState::*)(UnityEngine::EventSystems::PointerEventData::InputButton)>(&VRUIControls::MouseState::GetButtonState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::VRUIControls::ButtonState* (VRUIControls::MouseState::*)(::UnityEngine::EventSystems::PointerEventData::InputButton)>(&VRUIControls::MouseState::GetButtonState)> {
   static const MethodInfo* get() {
     static auto* button = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "PointerEventData/InputButton")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(VRUIControls::MouseState*), "GetButtonState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{button});
@@ -118,7 +118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<VRUIControl
 // Writing MetadataGetter for method: VRUIControls::MouseState::SetButtonState
 // Il2CppName: SetButtonState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::MouseState::*)(UnityEngine::EventSystems::PointerEventData::InputButton, UnityEngine::EventSystems::PointerEventData::FramePressState, UnityEngine::EventSystems::PointerEventData*)>(&VRUIControls::MouseState::SetButtonState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::MouseState::*)(::UnityEngine::EventSystems::PointerEventData::InputButton, ::UnityEngine::EventSystems::PointerEventData::FramePressState, ::UnityEngine::EventSystems::PointerEventData*)>(&VRUIControls::MouseState::SetButtonState)> {
   static const MethodInfo* get() {
     static auto* button = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "PointerEventData/InputButton")->byval_arg;
     static auto* stateForMouseButton = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "PointerEventData/FramePressState")->byval_arg;

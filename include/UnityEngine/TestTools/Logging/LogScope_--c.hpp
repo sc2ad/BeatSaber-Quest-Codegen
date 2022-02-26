@@ -26,8 +26,8 @@ namespace UnityEngine::TestTools::Logging {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::TestTools::Logging::LogScope::$$c);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Logging::LogScope::$$c*, "UnityEngine.TestTools.Logging", "LogScope/<>c");
+NEED_NO_BOX(::UnityEngine::TestTools::Logging::LogScope::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TestTools::Logging::LogScope::$$c*, "UnityEngine.TestTools.Logging", "LogScope/<>c");
 // Type namespace: UnityEngine.TestTools.Logging
 namespace UnityEngine::TestTools::Logging {
   // Size: 0x10
@@ -38,26 +38,26 @@ namespace UnityEngine::TestTools::Logging {
   class LogScope::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly UnityEngine.TestTools.Logging.LogScope/UnityEngine.TestTools.Logging.<>c <>9
-    static UnityEngine::TestTools::Logging::LogScope::$$c* _get_$$9();
+    static ::UnityEngine::TestTools::Logging::LogScope::$$c* _get_$$9();
     // Set static field: static public readonly UnityEngine.TestTools.Logging.LogScope/UnityEngine.TestTools.Logging.<>c <>9
-    static void _set_$$9(UnityEngine::TestTools::Logging::LogScope::$$c* value);
+    static void _set_$$9(::UnityEngine::TestTools::Logging::LogScope::$$c* value);
     // Get static field: static public System.Func`2<UnityEngine.TestTools.Logging.LogEvent,System.Boolean> <>9__53_0
-    static System::Func_2<UnityEngine::TestTools::Logging::LogEvent*, bool>* _get_$$9__53_0();
+    static ::System::Func_2<::UnityEngine::TestTools::Logging::LogEvent*, bool>* _get_$$9__53_0();
     // Set static field: static public System.Func`2<UnityEngine.TestTools.Logging.LogEvent,System.Boolean> <>9__53_0
-    static void _set_$$9__53_0(System::Func_2<UnityEngine::TestTools::Logging::LogEvent*, bool>* value);
+    static void _set_$$9__53_0(::System::Func_2<::UnityEngine::TestTools::Logging::LogEvent*, bool>* value);
     // static private System.Void .cctor()
     // Offset: 0x18D9CB4
     static void _cctor();
     // System.Boolean <NoUnexpectedReceived>b__53_0(UnityEngine.TestTools.Logging.LogEvent x)
     // Offset: 0x18D9D20
-    bool $NoUnexpectedReceived$b__53_0(UnityEngine::TestTools::Logging::LogEvent* x);
+    bool $NoUnexpectedReceived$b__53_0(::UnityEngine::TestTools::Logging::LogEvent* x);
     // public System.Void .ctor()
     // Offset: 0x18D9D18
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LogScope::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TestTools::Logging::LogScope::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::Logging::LogScope::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LogScope::$$c*, creationType>()));
     }
   }; // UnityEngine.TestTools.Logging.LogScope/UnityEngine.TestTools.Logging.<>c
@@ -75,7 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogScope::$$c::$NoUnexpectedReceived$b__53_0
 // Il2CppName: <NoUnexpectedReceived>b__53_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TestTools::Logging::LogScope::$$c::*)(UnityEngine::TestTools::Logging::LogEvent*)>(&UnityEngine::TestTools::Logging::LogScope::$$c::$NoUnexpectedReceived$b__53_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TestTools::Logging::LogScope::$$c::*)(::UnityEngine::TestTools::Logging::LogEvent*)>(&UnityEngine::TestTools::Logging::LogScope::$$c::$NoUnexpectedReceived$b__53_0)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine.TestTools.Logging", "LogEvent")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope::$$c*), "<NoUnexpectedReceived>b__53_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});

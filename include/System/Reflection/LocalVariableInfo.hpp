@@ -24,8 +24,8 @@ namespace System::Reflection {
   class LocalVariableInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Reflection::LocalVariableInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::LocalVariableInfo*, "System.Reflection", "LocalVariableInfo");
+NEED_NO_BOX(::System::Reflection::LocalVariableInfo);
+DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::LocalVariableInfo*, "System.Reflection", "LocalVariableInfo");
 // Type namespace: System.Reflection
 namespace System::Reflection {
   // Size: 0x1C
@@ -48,9 +48,9 @@ namespace System::Reflection {
     // System.Type type
     // Size: 0x8
     // Offset: 0x10
-    System::Type* type;
+    ::System::Type* type;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     // System.Boolean is_pinned
     // Size: 0x1
     // Offset: 0x18
@@ -67,7 +67,7 @@ namespace System::Reflection {
     static_assert(sizeof(uint16_t) == 0x2);
     public:
     // Get instance field reference: System.Type type
-    System::Type*& dyn_type();
+    ::System::Type*& dyn_type();
     // Get instance field reference: System.Boolean is_pinned
     bool& dyn_is_pinned();
     // Get instance field reference: System.UInt16 position
@@ -78,7 +78,7 @@ namespace System::Reflection {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalVariableInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::LocalVariableInfo::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Reflection::LocalVariableInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalVariableInfo*, creationType>()));
     }
     // public override System.String ToString()

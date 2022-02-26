@@ -23,8 +23,8 @@ namespace System {
   class __Filters;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::__Filters);
-DEFINE_IL2CPP_ARG_TYPE(System::__Filters*, "System", "__Filters");
+NEED_NO_BOX(::System::__Filters);
+DEFINE_IL2CPP_ARG_TYPE(::System::__Filters*, "System", "__Filters");
 // Type namespace: System
 namespace System {
   // Size: 0x10
@@ -34,28 +34,28 @@ namespace System {
   class __Filters : public ::Il2CppObject {
     public:
     // Get static field: static readonly System.__Filters Instance
-    static System::__Filters* _get_Instance();
+    static ::System::__Filters* _get_Instance();
     // Set static field: static readonly System.__Filters Instance
-    static void _set_Instance(System::__Filters* value);
+    static void _set_Instance(::System::__Filters* value);
     // static private System.Void .cctor()
     // Offset: 0x27D82C0
     static void _cctor();
     // System.Boolean FilterAttribute(System.Reflection.MemberInfo m, System.Object filterCriteria)
     // Offset: 0x27D7C20
-    bool FilterAttribute(System::Reflection::MemberInfo* m, ::Il2CppObject* filterCriteria);
+    bool FilterAttribute(::System::Reflection::MemberInfo* m, ::Il2CppObject* filterCriteria);
     // System.Boolean FilterName(System.Reflection.MemberInfo m, System.Object filterCriteria)
     // Offset: 0x27D7F78
-    bool FilterName(System::Reflection::MemberInfo* m, ::Il2CppObject* filterCriteria);
+    bool FilterName(::System::Reflection::MemberInfo* m, ::Il2CppObject* filterCriteria);
     // System.Boolean FilterIgnoreCase(System.Reflection.MemberInfo m, System.Object filterCriteria)
     // Offset: 0x27D8110
-    bool FilterIgnoreCase(System::Reflection::MemberInfo* m, ::Il2CppObject* filterCriteria);
+    bool FilterIgnoreCase(::System::Reflection::MemberInfo* m, ::Il2CppObject* filterCriteria);
     // public System.Void .ctor()
     // Offset: 0x27D82B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static __Filters* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::__Filters::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::__Filters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<__Filters*, creationType>()));
     }
   }; // System.__Filters
@@ -73,7 +73,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::__Filters::FilterAttribute
 // Il2CppName: FilterAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::__Filters::*)(System::Reflection::MemberInfo*, ::Il2CppObject*)>(&System::__Filters::FilterAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::__Filters::*)(::System::Reflection::MemberInfo*, ::Il2CppObject*)>(&System::__Filters::FilterAttribute)> {
   static const MethodInfo* get() {
     static auto* m = &::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo")->byval_arg;
     static auto* filterCriteria = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -83,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::__Filters::FilterName
 // Il2CppName: FilterName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::__Filters::*)(System::Reflection::MemberInfo*, ::Il2CppObject*)>(&System::__Filters::FilterName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::__Filters::*)(::System::Reflection::MemberInfo*, ::Il2CppObject*)>(&System::__Filters::FilterName)> {
   static const MethodInfo* get() {
     static auto* m = &::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo")->byval_arg;
     static auto* filterCriteria = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -93,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::__Filters::FilterIgnoreCase
 // Il2CppName: FilterIgnoreCase
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::__Filters::*)(System::Reflection::MemberInfo*, ::Il2CppObject*)>(&System::__Filters::FilterIgnoreCase)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::__Filters::*)(::System::Reflection::MemberInfo*, ::Il2CppObject*)>(&System::__Filters::FilterIgnoreCase)> {
   static const MethodInfo* get() {
     static auto* m = &::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo")->byval_arg;
     static auto* filterCriteria = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;

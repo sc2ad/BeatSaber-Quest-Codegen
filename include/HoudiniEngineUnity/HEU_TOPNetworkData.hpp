@@ -33,8 +33,8 @@ namespace HoudiniEngineUnity {
   class HEU_TOPNetworkData;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_TOPNetworkData);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_TOPNetworkData*, "HoudiniEngineUnity", "HEU_TOPNetworkData");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_TOPNetworkData);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_TOPNetworkData*, "HoudiniEngineUnity", "HEU_TOPNetworkData");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x48
@@ -69,9 +69,9 @@ namespace HoudiniEngineUnity {
     // public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_TOPNodeData> _topNodes
     // Size: 0x8
     // Offset: 0x20
-    System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_TOPNodeData*>* topNodes;
+    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPNodeData*>* topNodes;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_TOPNodeData*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPNodeData*>*) == 0x8);
     // public System.String[] _topNodeNames
     // Size: 0x8
     // Offset: 0x28
@@ -95,16 +95,16 @@ namespace HoudiniEngineUnity {
     // public HoudiniEngineUnity.TOPNodeTags _tags
     // Size: 0x8
     // Offset: 0x40
-    HoudiniEngineUnity::TOPNodeTags* tags;
+    ::HoudiniEngineUnity::TOPNodeTags* tags;
     // Field size check
-    static_assert(sizeof(HoudiniEngineUnity::TOPNodeTags*) == 0x8);
+    static_assert(sizeof(::HoudiniEngineUnity::TOPNodeTags*) == 0x8);
     public:
     // Get instance field reference: public System.Int32 _nodeID
     int& dyn__nodeID();
     // Get instance field reference: public System.String _nodeName
     ::StringW& dyn__nodeName();
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_TOPNodeData> _topNodes
-    System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_TOPNodeData*>*& dyn__topNodes();
+    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPNodeData*>*& dyn__topNodes();
     // Get instance field reference: public System.String[] _topNodeNames
     ::ArrayW<::StringW>& dyn__topNodeNames();
     // Get instance field reference: public System.Int32 _selectedTOPIndex
@@ -112,19 +112,19 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.String _parentName
     ::StringW& dyn__parentName();
     // Get instance field reference: public HoudiniEngineUnity.TOPNodeTags _tags
-    HoudiniEngineUnity::TOPNodeTags*& dyn__tags();
+    ::HoudiniEngineUnity::TOPNodeTags*& dyn__tags();
     // public System.Void .ctor()
     // Offset: 0x1A63E9C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_TOPNetworkData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_TOPNetworkData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_TOPNetworkData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_TOPNetworkData*, creationType>()));
     }
   }; // HoudiniEngineUnity.HEU_TOPNetworkData
   #pragma pack(pop)
-  static check_size<sizeof(HEU_TOPNetworkData), 64 + sizeof(HoudiniEngineUnity::TOPNodeTags*)> __HoudiniEngineUnity_HEU_TOPNetworkDataSizeCheck;
+  static check_size<sizeof(HEU_TOPNetworkData), 64 + sizeof(::HoudiniEngineUnity::TOPNodeTags*)> __HoudiniEngineUnity_HEU_TOPNetworkDataSizeCheck;
   static_assert(sizeof(HEU_TOPNetworkData) == 0x48);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

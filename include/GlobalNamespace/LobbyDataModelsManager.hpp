@@ -31,8 +31,8 @@ namespace GlobalNamespace {
   class LobbyDataModelsManager;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::LobbyDataModelsManager);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LobbyDataModelsManager*, "", "LobbyDataModelsManager");
+NEED_NO_BOX(::GlobalNamespace::LobbyDataModelsManager);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LobbyDataModelsManager*, "", "LobbyDataModelsManager");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x38
@@ -54,48 +54,48 @@ namespace GlobalNamespace {
     // private readonly ILobbyStateDataModel _lobbyStateDataModel
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::ILobbyStateDataModel* lobbyStateDataModel;
+    ::GlobalNamespace::ILobbyStateDataModel* lobbyStateDataModel;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::ILobbyStateDataModel*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::ILobbyStateDataModel*) == 0x8);
     // [InjectAttribute] Offset: 0x123E56C
     // private readonly ILobbyPlayersDataModel _lobbyPlayersDataModel
     // Size: 0x8
     // Offset: 0x18
-    GlobalNamespace::ILobbyPlayersDataModel* lobbyPlayersDataModel;
+    ::GlobalNamespace::ILobbyPlayersDataModel* lobbyPlayersDataModel;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::ILobbyPlayersDataModel*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::ILobbyPlayersDataModel*) == 0x8);
     // [InjectAttribute] Offset: 0x123E57C
     // private readonly ILobbyGameStateController _lobbyGameStateController
     // Size: 0x8
     // Offset: 0x20
-    GlobalNamespace::ILobbyGameStateController* lobbyGameStateController;
+    ::GlobalNamespace::ILobbyGameStateController* lobbyGameStateController;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::ILobbyGameStateController*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::ILobbyGameStateController*) == 0x8);
     // [InjectAttribute] Offset: 0x123E58C
     // private readonly INodePoseSyncStateManager _nodePoseSyncStateManager
     // Size: 0x8
     // Offset: 0x28
-    GlobalNamespace::INodePoseSyncStateManager* nodePoseSyncStateManager;
+    ::GlobalNamespace::INodePoseSyncStateManager* nodePoseSyncStateManager;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::INodePoseSyncStateManager*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::INodePoseSyncStateManager*) == 0x8);
     // [InjectAttribute] Offset: 0x123E59C
     // private readonly LobbyPlayerPermissionsModel _lobbyPlayerPermissionsModel
     // Size: 0x8
     // Offset: 0x30
-    GlobalNamespace::LobbyPlayerPermissionsModel* lobbyPlayerPermissionsModel;
+    ::GlobalNamespace::LobbyPlayerPermissionsModel* lobbyPlayerPermissionsModel;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::LobbyPlayerPermissionsModel*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::LobbyPlayerPermissionsModel*) == 0x8);
     public:
     // Get instance field reference: private readonly ILobbyStateDataModel _lobbyStateDataModel
-    GlobalNamespace::ILobbyStateDataModel*& dyn__lobbyStateDataModel();
+    ::GlobalNamespace::ILobbyStateDataModel*& dyn__lobbyStateDataModel();
     // Get instance field reference: private readonly ILobbyPlayersDataModel _lobbyPlayersDataModel
-    GlobalNamespace::ILobbyPlayersDataModel*& dyn__lobbyPlayersDataModel();
+    ::GlobalNamespace::ILobbyPlayersDataModel*& dyn__lobbyPlayersDataModel();
     // Get instance field reference: private readonly ILobbyGameStateController _lobbyGameStateController
-    GlobalNamespace::ILobbyGameStateController*& dyn__lobbyGameStateController();
+    ::GlobalNamespace::ILobbyGameStateController*& dyn__lobbyGameStateController();
     // Get instance field reference: private readonly INodePoseSyncStateManager _nodePoseSyncStateManager
-    GlobalNamespace::INodePoseSyncStateManager*& dyn__nodePoseSyncStateManager();
+    ::GlobalNamespace::INodePoseSyncStateManager*& dyn__nodePoseSyncStateManager();
     // Get instance field reference: private readonly LobbyPlayerPermissionsModel _lobbyPlayerPermissionsModel
-    GlobalNamespace::LobbyPlayerPermissionsModel*& dyn__lobbyPlayerPermissionsModel();
+    ::GlobalNamespace::LobbyPlayerPermissionsModel*& dyn__lobbyPlayerPermissionsModel();
     // public System.Void Activate()
     // Offset: 0x148040C
     void Activate();
@@ -108,12 +108,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LobbyDataModelsManager* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LobbyDataModelsManager::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LobbyDataModelsManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LobbyDataModelsManager*, creationType>()));
     }
   }; // LobbyDataModelsManager
   #pragma pack(pop)
-  static check_size<sizeof(LobbyDataModelsManager), 48 + sizeof(GlobalNamespace::LobbyPlayerPermissionsModel*)> __GlobalNamespace_LobbyDataModelsManagerSizeCheck;
+  static check_size<sizeof(LobbyDataModelsManager), 48 + sizeof(::GlobalNamespace::LobbyPlayerPermissionsModel*)> __GlobalNamespace_LobbyDataModelsManagerSizeCheck;
   static_assert(sizeof(LobbyDataModelsManager) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

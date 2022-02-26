@@ -17,8 +17,8 @@ namespace GlobalNamespace {
   class LeaderboardPlayerInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::LeaderboardPlayerInfo);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardPlayerInfo*, "", "LeaderboardPlayerInfo");
+NEED_NO_BOX(::GlobalNamespace::LeaderboardPlayerInfo);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LeaderboardPlayerInfo*, "", "LeaderboardPlayerInfo");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x41
@@ -133,7 +133,7 @@ namespace GlobalNamespace {
     // Offset: 0x13AFF88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardPlayerInfo* New_ctor(bool succeeded, ::StringW playerId, ::StringW playerName, ::StringW playerKey, ::StringW authType, ::StringW playerFriends) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LeaderboardPlayerInfo::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LeaderboardPlayerInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardPlayerInfo*, creationType>(succeeded, playerId, playerName, playerKey, authType, playerFriends)));
     }
   }; // LeaderboardPlayerInfo

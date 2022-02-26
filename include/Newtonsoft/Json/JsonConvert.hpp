@@ -40,8 +40,8 @@ namespace Newtonsoft::Json {
   class JsonConvert;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::JsonConvert);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::JsonConvert*, "Newtonsoft.Json", "JsonConvert");
+NEED_NO_BOX(::Newtonsoft::Json::JsonConvert);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::JsonConvert*, "Newtonsoft.Json", "JsonConvert");
 // Type namespace: Newtonsoft.Json
 namespace Newtonsoft::Json {
   // Size: 0x10
@@ -54,9 +54,9 @@ namespace Newtonsoft::Json {
     public:
     // [NullableAttribute] Offset: 0x1203D1C
     // Get static field: static private System.Func`1<Newtonsoft.Json.JsonSerializerSettings> <DefaultSettings>k__BackingField
-    static System::Func_1<Newtonsoft::Json::JsonSerializerSettings*>* _get_$DefaultSettings$k__BackingField();
+    static ::System::Func_1<::Newtonsoft::Json::JsonSerializerSettings*>* _get_$DefaultSettings$k__BackingField();
     // Set static field: static private System.Func`1<Newtonsoft.Json.JsonSerializerSettings> <DefaultSettings>k__BackingField
-    static void _set_$DefaultSettings$k__BackingField(System::Func_1<Newtonsoft::Json::JsonSerializerSettings*>* value);
+    static void _set_$DefaultSettings$k__BackingField(::System::Func_1<::Newtonsoft::Json::JsonSerializerSettings*>* value);
     // Get static field: static public readonly System.String True
     static ::StringW _get_True();
     // Set static field: static public readonly System.String True
@@ -87,7 +87,7 @@ namespace Newtonsoft::Json {
     static void _set_NaN(::StringW value);
     // static public System.Func`1<Newtonsoft.Json.JsonSerializerSettings> get_DefaultSettings()
     // Offset: 0x182DFE4
-    static System::Func_1<Newtonsoft::Json::JsonSerializerSettings*>* get_DefaultSettings();
+    static ::System::Func_1<::Newtonsoft::Json::JsonSerializerSettings*>* get_DefaultSettings();
     // static private System.Void .cctor()
     // Offset: 0x182EDE0
     static void _cctor();
@@ -99,13 +99,13 @@ namespace Newtonsoft::Json {
     static ::StringW ToString(::Il2CppChar value);
     // static System.String ToString(System.Single value, Newtonsoft.Json.FloatFormatHandling floatFormatHandling, System.Char quoteChar, System.Boolean nullable)
     // Offset: 0x182E1E0
-    static ::StringW ToString(float value, Newtonsoft::Json::FloatFormatHandling floatFormatHandling, ::Il2CppChar quoteChar, bool nullable);
+    static ::StringW ToString(float value, ::Newtonsoft::Json::FloatFormatHandling floatFormatHandling, ::Il2CppChar quoteChar, bool nullable);
     // static private System.String EnsureFloatFormat(System.Double value, System.String text, Newtonsoft.Json.FloatFormatHandling floatFormatHandling, System.Char quoteChar, System.Boolean nullable)
     // Offset: 0x182E3EC
-    static ::StringW EnsureFloatFormat(double value, ::StringW text, Newtonsoft::Json::FloatFormatHandling floatFormatHandling, ::Il2CppChar quoteChar, bool nullable);
+    static ::StringW EnsureFloatFormat(double value, ::StringW text, ::Newtonsoft::Json::FloatFormatHandling floatFormatHandling, ::Il2CppChar quoteChar, bool nullable);
     // static System.String ToString(System.Double value, Newtonsoft.Json.FloatFormatHandling floatFormatHandling, System.Char quoteChar, System.Boolean nullable)
     // Offset: 0x182E530
-    static ::StringW ToString(double value, Newtonsoft::Json::FloatFormatHandling floatFormatHandling, ::Il2CppChar quoteChar, bool nullable);
+    static ::StringW ToString(double value, ::Newtonsoft::Json::FloatFormatHandling floatFormatHandling, ::Il2CppChar quoteChar, bool nullable);
     // static private System.String EnsureDecimalPlace(System.Double value, System.String text)
     // Offset: 0x182E2D0
     static ::StringW EnsureDecimalPlace(double value, ::StringW text);
@@ -114,7 +114,7 @@ namespace Newtonsoft::Json {
     static ::StringW EnsureDecimalPlace(::StringW text);
     // static public System.String ToString(System.Decimal value)
     // Offset: 0x182E6A0
-    static ::StringW ToString(System::Decimal value);
+    static ::StringW ToString(::System::Decimal value);
     // static public System.String ToString(System.String value)
     // Offset: 0x182E178
     static ::StringW ToString(::StringW value);
@@ -123,21 +123,21 @@ namespace Newtonsoft::Json {
     static ::StringW ToString(::StringW value, ::Il2CppChar delimiter);
     // static public System.String ToString(System.String value, System.Char delimiter, Newtonsoft.Json.StringEscapeHandling stringEscapeHandling)
     // Offset: 0x182E7CC
-    static ::StringW ToString(::StringW value, ::Il2CppChar delimiter, Newtonsoft::Json::StringEscapeHandling stringEscapeHandling);
+    static ::StringW ToString(::StringW value, ::Il2CppChar delimiter, ::Newtonsoft::Json::StringEscapeHandling stringEscapeHandling);
     // static public System.String SerializeObject(System.Object value)
     // Offset: 0x182E8AC
     static ::StringW SerializeObject(::Il2CppObject* value);
     // static public System.String SerializeObject(System.Object value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings)
     // Offset: 0x182E918
-    static ::StringW SerializeObject(::Il2CppObject* value, System::Type* type, Newtonsoft::Json::JsonSerializerSettings* settings);
+    static ::StringW SerializeObject(::Il2CppObject* value, ::System::Type* type, ::Newtonsoft::Json::JsonSerializerSettings* settings);
     // static private System.String SerializeObjectInternal(System.Object value, System.Type type, Newtonsoft.Json.JsonSerializer jsonSerializer)
     // Offset: 0x182E9DC
-    static ::StringW SerializeObjectInternal(::Il2CppObject* value, System::Type* type, Newtonsoft::Json::JsonSerializer* jsonSerializer);
+    static ::StringW SerializeObjectInternal(::Il2CppObject* value, ::System::Type* type, ::Newtonsoft::Json::JsonSerializer* jsonSerializer);
     // static public T DeserializeObject(System.String value)
     // Offset: 0xFFFFFFFF
     template<class T>
     static T DeserializeObject(::StringW value) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::JsonConvert::DeserializeObject");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::JsonConvert::DeserializeObject");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Newtonsoft.Json", "JsonConvert", "DeserializeObject", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, value);
@@ -145,15 +145,15 @@ namespace Newtonsoft::Json {
     // static public T DeserializeObject(System.String value, Newtonsoft.Json.JsonSerializerSettings settings)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static T DeserializeObject(::StringW value, Newtonsoft::Json::JsonSerializerSettings* settings) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Newtonsoft::Json::JsonConvert::DeserializeObject");
+    static T DeserializeObject(::StringW value, ::Newtonsoft::Json::JsonSerializerSettings* settings) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::JsonConvert::DeserializeObject");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Newtonsoft.Json", "JsonConvert", "DeserializeObject", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value), ::il2cpp_utils::ExtractType(settings)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, value, settings);
     }
     // static public System.Object DeserializeObject(System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings)
     // Offset: 0x182EBD4
-    static ::Il2CppObject* DeserializeObject(::StringW value, System::Type* type, Newtonsoft::Json::JsonSerializerSettings* settings);
+    static ::Il2CppObject* DeserializeObject(::StringW value, ::System::Type* type, ::Newtonsoft::Json::JsonSerializerSettings* settings);
   }; // Newtonsoft.Json.JsonConvert
   #pragma pack(pop)
 }
@@ -161,7 +161,7 @@ namespace Newtonsoft::Json {
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonConvert::get_DefaultSettings
 // Il2CppName: get_DefaultSettings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Func_1<Newtonsoft::Json::JsonSerializerSettings*>* (*)()>(&Newtonsoft::Json::JsonConvert::get_DefaultSettings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Func_1<::Newtonsoft::Json::JsonSerializerSettings*>* (*)()>(&Newtonsoft::Json::JsonConvert::get_DefaultSettings)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::JsonConvert*), "get_DefaultSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -195,7 +195,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonConvert::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(float, Newtonsoft::Json::FloatFormatHandling, ::Il2CppChar, bool)>(&Newtonsoft::Json::JsonConvert::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(float, ::Newtonsoft::Json::FloatFormatHandling, ::Il2CppChar, bool)>(&Newtonsoft::Json::JsonConvert::ToString)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* floatFormatHandling = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "FloatFormatHandling")->byval_arg;
@@ -207,7 +207,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonConvert::EnsureFloatFormat
 // Il2CppName: EnsureFloatFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(double, ::StringW, Newtonsoft::Json::FloatFormatHandling, ::Il2CppChar, bool)>(&Newtonsoft::Json::JsonConvert::EnsureFloatFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(double, ::StringW, ::Newtonsoft::Json::FloatFormatHandling, ::Il2CppChar, bool)>(&Newtonsoft::Json::JsonConvert::EnsureFloatFormat)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -220,7 +220,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonConvert::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(double, Newtonsoft::Json::FloatFormatHandling, ::Il2CppChar, bool)>(&Newtonsoft::Json::JsonConvert::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(double, ::Newtonsoft::Json::FloatFormatHandling, ::Il2CppChar, bool)>(&Newtonsoft::Json::JsonConvert::ToString)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
     static auto* floatFormatHandling = &::il2cpp_utils::GetClassFromName("Newtonsoft.Json", "FloatFormatHandling")->byval_arg;
@@ -251,7 +251,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonConvert::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Decimal)>(&Newtonsoft::Json::JsonConvert::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Decimal)>(&Newtonsoft::Json::JsonConvert::ToString)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Decimal")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::JsonConvert*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -279,7 +279,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonConvert::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::Il2CppChar, Newtonsoft::Json::StringEscapeHandling)>(&Newtonsoft::Json::JsonConvert::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::Il2CppChar, ::Newtonsoft::Json::StringEscapeHandling)>(&Newtonsoft::Json::JsonConvert::ToString)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* delimiter = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
@@ -299,7 +299,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonConvert::SerializeObject
 // Il2CppName: SerializeObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::Il2CppObject*, System::Type*, Newtonsoft::Json::JsonSerializerSettings*)>(&Newtonsoft::Json::JsonConvert::SerializeObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::Il2CppObject*, ::System::Type*, ::Newtonsoft::Json::JsonSerializerSettings*)>(&Newtonsoft::Json::JsonConvert::SerializeObject)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -310,7 +310,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonConvert::SerializeObjectInternal
 // Il2CppName: SerializeObjectInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::Il2CppObject*, System::Type*, Newtonsoft::Json::JsonSerializer*)>(&Newtonsoft::Json::JsonConvert::SerializeObjectInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::Il2CppObject*, ::System::Type*, ::Newtonsoft::Json::JsonSerializer*)>(&Newtonsoft::Json::JsonConvert::SerializeObjectInternal)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -327,7 +327,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: Newtonsoft::Json::JsonConvert::DeserializeObject
 // Il2CppName: DeserializeObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::StringW, System::Type*, Newtonsoft::Json::JsonSerializerSettings*)>(&Newtonsoft::Json::JsonConvert::DeserializeObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::StringW, ::System::Type*, ::Newtonsoft::Json::JsonSerializerSettings*)>(&Newtonsoft::Json::JsonConvert::DeserializeObject)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;

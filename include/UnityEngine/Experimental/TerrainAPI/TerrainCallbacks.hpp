@@ -25,8 +25,8 @@ namespace UnityEngine::Experimental::TerrainAPI {
   class TerrainCallbacks;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Experimental::TerrainAPI::TerrainCallbacks);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::TerrainAPI::TerrainCallbacks*, "UnityEngine.Experimental.TerrainAPI", "TerrainCallbacks");
+NEED_NO_BOX(::UnityEngine::Experimental::TerrainAPI::TerrainCallbacks);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::TerrainAPI::TerrainCallbacks*, "UnityEngine.Experimental.TerrainAPI", "TerrainCallbacks");
 // Type namespace: UnityEngine.Experimental.TerrainAPI
 namespace UnityEngine::Experimental::TerrainAPI {
   // Size: 0x10
@@ -35,26 +35,26 @@ namespace UnityEngine::Experimental::TerrainAPI {
   // [TokenAttribute] Offset: FFFFFFFF
   class TerrainCallbacks : public ::Il2CppObject {
     public:
-    // Nested type: UnityEngine::Experimental::TerrainAPI::TerrainCallbacks::HeightmapChangedCallback
+    // Nested type: ::UnityEngine::Experimental::TerrainAPI::TerrainCallbacks::HeightmapChangedCallback
     class HeightmapChangedCallback;
-    // Nested type: UnityEngine::Experimental::TerrainAPI::TerrainCallbacks::TextureChangedCallback
+    // Nested type: ::UnityEngine::Experimental::TerrainAPI::TerrainCallbacks::TextureChangedCallback
     class TextureChangedCallback;
     // [DebuggerBrowsableAttribute] Offset: 0x1212BD4
     // Get static field: static private UnityEngine.Experimental.TerrainAPI.TerrainCallbacks/UnityEngine.Experimental.TerrainAPI.HeightmapChangedCallback heightmapChanged
-    static UnityEngine::Experimental::TerrainAPI::TerrainCallbacks::HeightmapChangedCallback* _get_heightmapChanged();
+    static ::UnityEngine::Experimental::TerrainAPI::TerrainCallbacks::HeightmapChangedCallback* _get_heightmapChanged();
     // Set static field: static private UnityEngine.Experimental.TerrainAPI.TerrainCallbacks/UnityEngine.Experimental.TerrainAPI.HeightmapChangedCallback heightmapChanged
-    static void _set_heightmapChanged(UnityEngine::Experimental::TerrainAPI::TerrainCallbacks::HeightmapChangedCallback* value);
+    static void _set_heightmapChanged(::UnityEngine::Experimental::TerrainAPI::TerrainCallbacks::HeightmapChangedCallback* value);
     // [DebuggerBrowsableAttribute] Offset: 0x1212C10
     // Get static field: static private UnityEngine.Experimental.TerrainAPI.TerrainCallbacks/UnityEngine.Experimental.TerrainAPI.TextureChangedCallback textureChanged
-    static UnityEngine::Experimental::TerrainAPI::TerrainCallbacks::TextureChangedCallback* _get_textureChanged();
+    static ::UnityEngine::Experimental::TerrainAPI::TerrainCallbacks::TextureChangedCallback* _get_textureChanged();
     // Set static field: static private UnityEngine.Experimental.TerrainAPI.TerrainCallbacks/UnityEngine.Experimental.TerrainAPI.TextureChangedCallback textureChanged
-    static void _set_textureChanged(UnityEngine::Experimental::TerrainAPI::TerrainCallbacks::TextureChangedCallback* value);
+    static void _set_textureChanged(::UnityEngine::Experimental::TerrainAPI::TerrainCallbacks::TextureChangedCallback* value);
     // static System.Void InvokeHeightmapChangedCallback(UnityEngine.TerrainData terrainData, UnityEngine.RectInt heightRegion, System.Boolean synched)
     // Offset: 0x2A27634
-    static void InvokeHeightmapChangedCallback(UnityEngine::TerrainData* terrainData, UnityEngine::RectInt heightRegion, bool synched);
+    static void InvokeHeightmapChangedCallback(::UnityEngine::TerrainData* terrainData, ::UnityEngine::RectInt heightRegion, bool synched);
     // static System.Void InvokeTextureChangedCallback(UnityEngine.TerrainData terrainData, System.String textureName, UnityEngine.RectInt texelRegion, System.Boolean synched)
     // Offset: 0x2A27BE0
-    static void InvokeTextureChangedCallback(UnityEngine::TerrainData* terrainData, ::StringW textureName, UnityEngine::RectInt texelRegion, bool synched);
+    static void InvokeTextureChangedCallback(::UnityEngine::TerrainData* terrainData, ::StringW textureName, ::UnityEngine::RectInt texelRegion, bool synched);
   }; // UnityEngine.Experimental.TerrainAPI.TerrainCallbacks
   #pragma pack(pop)
 }
@@ -62,7 +62,7 @@ namespace UnityEngine::Experimental::TerrainAPI {
 // Writing MetadataGetter for method: UnityEngine::Experimental::TerrainAPI::TerrainCallbacks::InvokeHeightmapChangedCallback
 // Il2CppName: InvokeHeightmapChangedCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::TerrainData*, UnityEngine::RectInt, bool)>(&UnityEngine::Experimental::TerrainAPI::TerrainCallbacks::InvokeHeightmapChangedCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::TerrainData*, ::UnityEngine::RectInt, bool)>(&UnityEngine::Experimental::TerrainAPI::TerrainCallbacks::InvokeHeightmapChangedCallback)> {
   static const MethodInfo* get() {
     static auto* terrainData = &::il2cpp_utils::GetClassFromName("UnityEngine", "TerrainData")->byval_arg;
     static auto* heightRegion = &::il2cpp_utils::GetClassFromName("UnityEngine", "RectInt")->byval_arg;
@@ -73,7 +73,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Experimental::TerrainAPI::TerrainCallbacks::InvokeTextureChangedCallback
 // Il2CppName: InvokeTextureChangedCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::TerrainData*, ::StringW, UnityEngine::RectInt, bool)>(&UnityEngine::Experimental::TerrainAPI::TerrainCallbacks::InvokeTextureChangedCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::TerrainData*, ::StringW, ::UnityEngine::RectInt, bool)>(&UnityEngine::Experimental::TerrainAPI::TerrainCallbacks::InvokeTextureChangedCallback)> {
   static const MethodInfo* get() {
     static auto* terrainData = &::il2cpp_utils::GetClassFromName("UnityEngine", "TerrainData")->byval_arg;
     static auto* textureName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

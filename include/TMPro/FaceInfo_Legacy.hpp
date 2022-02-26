@@ -17,8 +17,8 @@ namespace TMPro {
   class FaceInfo_Legacy;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(TMPro::FaceInfo_Legacy);
-DEFINE_IL2CPP_ARG_TYPE(TMPro::FaceInfo_Legacy*, "TMPro", "FaceInfo_Legacy");
+NEED_NO_BOX(::TMPro::FaceInfo_Legacy);
+DEFINE_IL2CPP_ARG_TYPE(::TMPro::FaceInfo_Legacy*, "TMPro", "FaceInfo_Legacy");
 // Type namespace: TMPro
 namespace TMPro {
   // Size: 0x68
@@ -211,7 +211,7 @@ namespace TMPro {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FaceInfo_Legacy* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("TMPro::FaceInfo_Legacy::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::FaceInfo_Legacy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FaceInfo_Legacy*, creationType>()));
     }
   }; // TMPro.FaceInfo_Legacy

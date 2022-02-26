@@ -28,8 +28,8 @@ namespace Zenject {
   class ISubContainerCreator;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::ISubContainerCreator);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::ISubContainerCreator*, "Zenject", "ISubContainerCreator");
+NEED_NO_BOX(::Zenject::ISubContainerCreator);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::ISubContainerCreator*, "Zenject", "ISubContainerCreator");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x10
@@ -40,7 +40,7 @@ namespace Zenject {
     public:
     // public Zenject.DiContainer CreateSubContainer(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.InjectContext context)
     // Offset: 0xFFFFFFFF
-    Zenject::DiContainer* CreateSubContainer(System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, Zenject::InjectContext* context);
+    ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* context);
   }; // Zenject.ISubContainerCreator
   #pragma pack(pop)
 }
@@ -48,7 +48,7 @@ namespace Zenject {
 // Writing MetadataGetter for method: Zenject::ISubContainerCreator::CreateSubContainer
 // Il2CppName: CreateSubContainer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (Zenject::ISubContainerCreator::*)(System::Collections::Generic::List_1<Zenject::TypeValuePair>*, Zenject::InjectContext*)>(&Zenject::ISubContainerCreator::CreateSubContainer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::DiContainer* (Zenject::ISubContainerCreator::*)(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, ::Zenject::InjectContext*)>(&Zenject::ISubContainerCreator::CreateSubContainer)> {
   static const MethodInfo* get() {
     static auto* args = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "TypeValuePair")})->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("Zenject", "InjectContext")->byval_arg;

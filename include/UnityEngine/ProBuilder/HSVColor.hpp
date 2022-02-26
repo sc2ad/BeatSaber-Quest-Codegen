@@ -24,8 +24,8 @@ namespace UnityEngine::ProBuilder {
   class HSVColor;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::HSVColor);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::HSVColor*, "UnityEngine.ProBuilder", "HSVColor");
+NEED_NO_BOX(::UnityEngine::ProBuilder::HSVColor);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::HSVColor*, "UnityEngine.ProBuilder", "HSVColor");
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
   // Size: 0x1C
@@ -72,22 +72,22 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0x1F3B61C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HSVColor* New_ctor(float h, float s, float v) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::HSVColor::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::HSVColor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HSVColor*, creationType>(h, s, v)));
     }
     // public System.Void .ctor(System.Single h, System.Single s, System.Single v, System.Single sv_modifier)
     // Offset: 0x1F3B664
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HSVColor* New_ctor(float h, float s, float v, float sv_modifier) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::HSVColor::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::HSVColor::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HSVColor*, creationType>(h, s, v, sv_modifier)));
     }
     // static public UnityEngine.ProBuilder.HSVColor FromRGB(UnityEngine.Color col)
     // Offset: 0x1F3B6B8
-    static UnityEngine::ProBuilder::HSVColor* FromRGB(UnityEngine::Color col);
+    static ::UnityEngine::ProBuilder::HSVColor* FromRGB(::UnityEngine::Color col);
     // public System.Single SqrDistance(UnityEngine.ProBuilder.HSVColor InColor)
     // Offset: 0x1F3B808
-    float SqrDistance(UnityEngine::ProBuilder::HSVColor* InColor);
+    float SqrDistance(::UnityEngine::ProBuilder::HSVColor* InColor);
     // public override System.String ToString()
     // Offset: 0x1F3B748
     // Implemented from: System.Object
@@ -110,7 +110,7 @@ namespace UnityEngine::ProBuilder {
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::HSVColor::FromRGB
 // Il2CppName: FromRGB
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::HSVColor* (*)(UnityEngine::Color)>(&UnityEngine::ProBuilder::HSVColor::FromRGB)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::HSVColor* (*)(::UnityEngine::Color)>(&UnityEngine::ProBuilder::HSVColor::FromRGB)> {
   static const MethodInfo* get() {
     static auto* col = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::HSVColor*), "FromRGB", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{col});
@@ -119,7 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::HSVColor::SqrDistance
 // Il2CppName: SqrDistance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::ProBuilder::HSVColor::*)(UnityEngine::ProBuilder::HSVColor*)>(&UnityEngine::ProBuilder::HSVColor::SqrDistance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::ProBuilder::HSVColor::*)(::UnityEngine::ProBuilder::HSVColor*)>(&UnityEngine::ProBuilder::HSVColor::SqrDistance)> {
   static const MethodInfo* get() {
     static auto* InColor = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "HSVColor")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::HSVColor*), "SqrDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{InColor});

@@ -21,8 +21,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(VRUIControls::VRGraphicRaycaster::$$c);
-DEFINE_IL2CPP_ARG_TYPE(VRUIControls::VRGraphicRaycaster::$$c*, "VRUIControls", "VRGraphicRaycaster/<>c");
+NEED_NO_BOX(::VRUIControls::VRGraphicRaycaster::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::VRUIControls::VRGraphicRaycaster::$$c*, "VRUIControls", "VRGraphicRaycaster/<>c");
 // Type namespace: VRUIControls
 namespace VRUIControls {
   // Size: 0x10
@@ -33,26 +33,26 @@ namespace VRUIControls {
   class VRGraphicRaycaster::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly VRUIControls.VRGraphicRaycaster/VRUIControls.<>c <>9
-    static VRUIControls::VRGraphicRaycaster::$$c* _get_$$9();
+    static ::VRUIControls::VRGraphicRaycaster::$$c* _get_$$9();
     // Set static field: static public readonly VRUIControls.VRGraphicRaycaster/VRUIControls.<>c <>9
-    static void _set_$$9(VRUIControls::VRGraphicRaycaster::$$c* value);
+    static void _set_$$9(::VRUIControls::VRGraphicRaycaster::$$c* value);
     // Get static field: static public System.Comparison`1<VRUIControls.VRGraphicRaycaster/VRUIControls.VRGraphicRaycastResult> <>9__12_0
-    static System::Comparison_1<VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult>* _get_$$9__12_0();
+    static ::System::Comparison_1<::VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult>* _get_$$9__12_0();
     // Set static field: static public System.Comparison`1<VRUIControls.VRGraphicRaycaster/VRUIControls.VRGraphicRaycastResult> <>9__12_0
-    static void _set_$$9__12_0(System::Comparison_1<VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult>* value);
+    static void _set_$$9__12_0(::System::Comparison_1<::VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult>* value);
     // static private System.Void .cctor()
     // Offset: 0x29B96D0
     static void _cctor();
     // System.Int32 <RaycastCanvas>b__12_0(VRUIControls.VRGraphicRaycaster/VRUIControls.VRGraphicRaycastResult g1, VRUIControls.VRGraphicRaycaster/VRUIControls.VRGraphicRaycastResult g2)
     // Offset: 0x29B973C
-    int $RaycastCanvas$b__12_0(VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult g1, VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult g2);
+    int $RaycastCanvas$b__12_0(::VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult g1, ::VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult g2);
     // public System.Void .ctor()
     // Offset: 0x29B9734
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRGraphicRaycaster::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("VRUIControls::VRGraphicRaycaster::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::VRUIControls::VRGraphicRaycaster::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRGraphicRaycaster::$$c*, creationType>()));
     }
   }; // VRUIControls.VRGraphicRaycaster/VRUIControls.<>c
@@ -70,7 +70,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: VRUIControls::VRGraphicRaycaster::$$c::$RaycastCanvas$b__12_0
 // Il2CppName: <RaycastCanvas>b__12_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (VRUIControls::VRGraphicRaycaster::$$c::*)(VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult, VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult)>(&VRUIControls::VRGraphicRaycaster::$$c::$RaycastCanvas$b__12_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (VRUIControls::VRGraphicRaycaster::$$c::*)(::VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult, ::VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult)>(&VRUIControls::VRGraphicRaycaster::$$c::$RaycastCanvas$b__12_0)> {
   static const MethodInfo* get() {
     static auto* g1 = &::il2cpp_utils::GetClassFromName("VRUIControls", "VRGraphicRaycaster/VRGraphicRaycastResult")->byval_arg;
     static auto* g2 = &::il2cpp_utils::GetClassFromName("VRUIControls", "VRGraphicRaycaster/VRGraphicRaycastResult")->byval_arg;

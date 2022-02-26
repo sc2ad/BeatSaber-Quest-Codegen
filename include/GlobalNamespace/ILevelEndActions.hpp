@@ -18,8 +18,8 @@ namespace GlobalNamespace {
   class ILevelEndActions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::ILevelEndActions);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ILevelEndActions*, "", "ILevelEndActions");
+NEED_NO_BOX(::GlobalNamespace::ILevelEndActions);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ILevelEndActions*, "", "ILevelEndActions");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -30,16 +30,16 @@ namespace GlobalNamespace {
     public:
     // public System.Void add_levelFailedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void add_levelFailedEvent(System::Action* value);
+    void add_levelFailedEvent(::System::Action* value);
     // public System.Void remove_levelFailedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void remove_levelFailedEvent(System::Action* value);
+    void remove_levelFailedEvent(::System::Action* value);
     // public System.Void add_levelFinishedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void add_levelFinishedEvent(System::Action* value);
+    void add_levelFinishedEvent(::System::Action* value);
     // public System.Void remove_levelFinishedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
-    void remove_levelFinishedEvent(System::Action* value);
+    void remove_levelFinishedEvent(::System::Action* value);
   }; // ILevelEndActions
   #pragma pack(pop)
 }
@@ -47,7 +47,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::ILevelEndActions::add_levelFailedEvent
 // Il2CppName: add_levelFailedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILevelEndActions::*)(System::Action*)>(&GlobalNamespace::ILevelEndActions::add_levelFailedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILevelEndActions::*)(::System::Action*)>(&GlobalNamespace::ILevelEndActions::add_levelFailedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILevelEndActions*), "add_levelFailedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -56,7 +56,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ILevelEndActions::remove_levelFailedEvent
 // Il2CppName: remove_levelFailedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILevelEndActions::*)(System::Action*)>(&GlobalNamespace::ILevelEndActions::remove_levelFailedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILevelEndActions::*)(::System::Action*)>(&GlobalNamespace::ILevelEndActions::remove_levelFailedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILevelEndActions*), "remove_levelFailedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -65,7 +65,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ILevelEndActions::add_levelFinishedEvent
 // Il2CppName: add_levelFinishedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILevelEndActions::*)(System::Action*)>(&GlobalNamespace::ILevelEndActions::add_levelFinishedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILevelEndActions::*)(::System::Action*)>(&GlobalNamespace::ILevelEndActions::add_levelFinishedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILevelEndActions*), "add_levelFinishedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -74,7 +74,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ILevelEndActions::remove_levelFinishedEvent
 // Il2CppName: remove_levelFinishedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILevelEndActions::*)(System::Action*)>(&GlobalNamespace::ILevelEndActions::remove_levelFinishedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ILevelEndActions::*)(::System::Action*)>(&GlobalNamespace::ILevelEndActions::remove_levelFinishedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILevelEndActions*), "remove_levelFinishedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

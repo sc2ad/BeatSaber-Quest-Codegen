@@ -19,8 +19,8 @@ namespace System::Xml::Serialization {
   class XmlSerializerImplementation;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Xml::Serialization::XmlSerializerImplementation);
-DEFINE_IL2CPP_ARG_TYPE(System::Xml::Serialization::XmlSerializerImplementation*, "System.Xml.Serialization", "XmlSerializerImplementation");
+NEED_NO_BOX(::System::Xml::Serialization::XmlSerializerImplementation);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::XmlSerializerImplementation*, "System.Xml.Serialization", "XmlSerializerImplementation");
 // Type namespace: System.Xml.Serialization
 namespace System::Xml::Serialization {
   // Size: 0x10
@@ -31,7 +31,7 @@ namespace System::Xml::Serialization {
     public:
     // public System.Xml.Serialization.XmlSerializationWriter get_Writer()
     // Offset: 0x1613CB0
-    System::Xml::Serialization::XmlSerializationWriter* get_Writer();
+    ::System::Xml::Serialization::XmlSerializationWriter* get_Writer();
   }; // System.Xml.Serialization.XmlSerializerImplementation
   #pragma pack(pop)
 }
@@ -39,7 +39,7 @@ namespace System::Xml::Serialization {
 // Writing MetadataGetter for method: System::Xml::Serialization::XmlSerializerImplementation::get_Writer
 // Il2CppName: get_Writer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::Serialization::XmlSerializationWriter* (System::Xml::Serialization::XmlSerializerImplementation::*)()>(&System::Xml::Serialization::XmlSerializerImplementation::get_Writer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlSerializationWriter* (System::Xml::Serialization::XmlSerializerImplementation::*)()>(&System::Xml::Serialization::XmlSerializerImplementation::get_Writer)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::Serialization::XmlSerializerImplementation*), "get_Writer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

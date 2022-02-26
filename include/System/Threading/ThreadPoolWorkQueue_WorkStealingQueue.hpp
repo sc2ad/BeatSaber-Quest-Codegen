@@ -23,8 +23,8 @@ namespace System::Threading {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Threading::ThreadPoolWorkQueue::WorkStealingQueue);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadPoolWorkQueue::WorkStealingQueue*, "System.Threading", "ThreadPoolWorkQueue/WorkStealingQueue");
+NEED_NO_BOX(::System::Threading::ThreadPoolWorkQueue::WorkStealingQueue);
+DEFINE_IL2CPP_ARG_TYPE(::System::Threading::ThreadPoolWorkQueue::WorkStealingQueue*, "System.Threading", "ThreadPoolWorkQueue/WorkStealingQueue");
 // Type namespace: System.Threading
 namespace System::Threading {
   // Size: 0x28
@@ -45,9 +45,9 @@ namespace System::Threading {
     // System.Threading.IThreadPoolWorkItem[] m_array
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<System::Threading::IThreadPoolWorkItem*> m_array;
+    ::ArrayW<::System::Threading::IThreadPoolWorkItem*> m_array;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::Threading::IThreadPoolWorkItem*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::System::Threading::IThreadPoolWorkItem*>) == 0x8);
     // private System.Int32 m_mask
     // Size: 0x4
     // Offset: 0x18
@@ -69,12 +69,12 @@ namespace System::Threading {
     // private System.Threading.SpinLock m_foreignLock
     // Size: 0x4
     // Offset: 0x24
-    System::Threading::SpinLock m_foreignLock;
+    ::System::Threading::SpinLock m_foreignLock;
     // Field size check
-    static_assert(sizeof(System::Threading::SpinLock) == 0x4);
+    static_assert(sizeof(::System::Threading::SpinLock) == 0x4);
     public:
     // Get instance field reference: System.Threading.IThreadPoolWorkItem[] m_array
-    ::ArrayW<System::Threading::IThreadPoolWorkItem*>& dyn_m_array();
+    ::ArrayW<::System::Threading::IThreadPoolWorkItem*>& dyn_m_array();
     // Get instance field reference: private System.Int32 m_mask
     int& dyn_m_mask();
     // Get instance field reference: private System.Int32 m_headIndex
@@ -82,41 +82,41 @@ namespace System::Threading {
     // Get instance field reference: private System.Int32 m_tailIndex
     int& dyn_m_tailIndex();
     // Get instance field reference: private System.Threading.SpinLock m_foreignLock
-    System::Threading::SpinLock& dyn_m_foreignLock();
+    ::System::Threading::SpinLock& dyn_m_foreignLock();
     // public System.Void LocalPush(System.Threading.IThreadPoolWorkItem obj)
     // Offset: 0x1CDFA70
-    void LocalPush(System::Threading::IThreadPoolWorkItem* obj);
+    void LocalPush(::System::Threading::IThreadPoolWorkItem* obj);
     // public System.Boolean LocalFindAndPop(System.Threading.IThreadPoolWorkItem obj)
     // Offset: 0x1CDFF7C
-    bool LocalFindAndPop(System::Threading::IThreadPoolWorkItem* obj);
+    bool LocalFindAndPop(::System::Threading::IThreadPoolWorkItem* obj);
     // public System.Boolean LocalPop(out System.Threading.IThreadPoolWorkItem obj)
     // Offset: 0x1CE0414
-    bool LocalPop(ByRef<System::Threading::IThreadPoolWorkItem*> obj);
+    bool LocalPop(ByRef<::System::Threading::IThreadPoolWorkItem*> obj);
     // public System.Boolean TrySteal(out System.Threading.IThreadPoolWorkItem obj, ref System.Boolean missedSteal)
     // Offset: 0x1CE0800
-    bool TrySteal(ByRef<System::Threading::IThreadPoolWorkItem*> obj, ByRef<bool> missedSteal);
+    bool TrySteal(ByRef<::System::Threading::IThreadPoolWorkItem*> obj, ByRef<bool> missedSteal);
     // private System.Boolean TrySteal(out System.Threading.IThreadPoolWorkItem obj, ref System.Boolean missedSteal, System.Int32 millisecondsTimeout)
     // Offset: 0x1CE0EC4
-    bool TrySteal(ByRef<System::Threading::IThreadPoolWorkItem*> obj, ByRef<bool> missedSteal, int millisecondsTimeout);
+    bool TrySteal(ByRef<::System::Threading::IThreadPoolWorkItem*> obj, ByRef<bool> missedSteal, int millisecondsTimeout);
     // public System.Void .ctor()
     // Offset: 0x1CE1144
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ThreadPoolWorkQueue::WorkStealingQueue* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::ThreadPoolWorkQueue::WorkStealingQueue::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::ThreadPoolWorkQueue::WorkStealingQueue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ThreadPoolWorkQueue::WorkStealingQueue*, creationType>()));
     }
   }; // System.Threading.ThreadPoolWorkQueue/System.Threading.WorkStealingQueue
   #pragma pack(pop)
-  static check_size<sizeof(ThreadPoolWorkQueue::WorkStealingQueue), 36 + sizeof(System::Threading::SpinLock)> __System_Threading_ThreadPoolWorkQueue_WorkStealingQueueSizeCheck;
+  static check_size<sizeof(ThreadPoolWorkQueue::WorkStealingQueue), 36 + sizeof(::System::Threading::SpinLock)> __System_Threading_ThreadPoolWorkQueue_WorkStealingQueueSizeCheck;
   static_assert(sizeof(ThreadPoolWorkQueue::WorkStealingQueue) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::ThreadPoolWorkQueue::WorkStealingQueue::LocalPush
 // Il2CppName: LocalPush
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ThreadPoolWorkQueue::WorkStealingQueue::*)(System::Threading::IThreadPoolWorkItem*)>(&System::Threading::ThreadPoolWorkQueue::WorkStealingQueue::LocalPush)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ThreadPoolWorkQueue::WorkStealingQueue::*)(::System::Threading::IThreadPoolWorkItem*)>(&System::Threading::ThreadPoolWorkQueue::WorkStealingQueue::LocalPush)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System.Threading", "IThreadPoolWorkItem")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ThreadPoolWorkQueue::WorkStealingQueue*), "LocalPush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -125,7 +125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Threading::ThreadPoolWorkQueue::WorkStealingQueue::LocalFindAndPop
 // Il2CppName: LocalFindAndPop
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ThreadPoolWorkQueue::WorkStealingQueue::*)(System::Threading::IThreadPoolWorkItem*)>(&System::Threading::ThreadPoolWorkQueue::WorkStealingQueue::LocalFindAndPop)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ThreadPoolWorkQueue::WorkStealingQueue::*)(::System::Threading::IThreadPoolWorkItem*)>(&System::Threading::ThreadPoolWorkQueue::WorkStealingQueue::LocalFindAndPop)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System.Threading", "IThreadPoolWorkItem")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ThreadPoolWorkQueue::WorkStealingQueue*), "LocalFindAndPop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -134,7 +134,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Threading::ThreadPoolWorkQueue::WorkStealingQueue::LocalPop
 // Il2CppName: LocalPop
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ThreadPoolWorkQueue::WorkStealingQueue::*)(ByRef<System::Threading::IThreadPoolWorkItem*>)>(&System::Threading::ThreadPoolWorkQueue::WorkStealingQueue::LocalPop)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ThreadPoolWorkQueue::WorkStealingQueue::*)(ByRef<::System::Threading::IThreadPoolWorkItem*>)>(&System::Threading::ThreadPoolWorkQueue::WorkStealingQueue::LocalPop)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System.Threading", "IThreadPoolWorkItem")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ThreadPoolWorkQueue::WorkStealingQueue*), "LocalPop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -143,7 +143,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Threading::ThreadPoolWorkQueue::WorkStealingQueue::TrySteal
 // Il2CppName: TrySteal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ThreadPoolWorkQueue::WorkStealingQueue::*)(ByRef<System::Threading::IThreadPoolWorkItem*>, ByRef<bool>)>(&System::Threading::ThreadPoolWorkQueue::WorkStealingQueue::TrySteal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ThreadPoolWorkQueue::WorkStealingQueue::*)(ByRef<::System::Threading::IThreadPoolWorkItem*>, ByRef<bool>)>(&System::Threading::ThreadPoolWorkQueue::WorkStealingQueue::TrySteal)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System.Threading", "IThreadPoolWorkItem")->this_arg;
     static auto* missedSteal = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
@@ -153,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Threading::ThreadPoolWorkQueue::WorkStealingQueue::TrySteal
 // Il2CppName: TrySteal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ThreadPoolWorkQueue::WorkStealingQueue::*)(ByRef<System::Threading::IThreadPoolWorkItem*>, ByRef<bool>, int)>(&System::Threading::ThreadPoolWorkQueue::WorkStealingQueue::TrySteal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ThreadPoolWorkQueue::WorkStealingQueue::*)(ByRef<::System::Threading::IThreadPoolWorkItem*>, ByRef<bool>, int)>(&System::Threading::ThreadPoolWorkQueue::WorkStealingQueue::TrySteal)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System.Threading", "IThreadPoolWorkItem")->this_arg;
     static auto* missedSteal = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;

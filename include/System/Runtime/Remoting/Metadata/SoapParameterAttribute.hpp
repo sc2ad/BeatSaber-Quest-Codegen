@@ -18,8 +18,8 @@ namespace System::Runtime::Remoting::Metadata {
   class SoapParameterAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Remoting::Metadata::SoapParameterAttribute);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Metadata::SoapParameterAttribute*, "System.Runtime.Remoting.Metadata", "SoapParameterAttribute");
+NEED_NO_BOX(::System::Runtime::Remoting::Metadata::SoapParameterAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Metadata::SoapParameterAttribute*, "System.Runtime.Remoting.Metadata", "SoapParameterAttribute");
 // Type namespace: System.Runtime.Remoting.Metadata
 namespace System::Runtime::Remoting::Metadata {
   // Size: 0x28
@@ -28,7 +28,7 @@ namespace System::Runtime::Remoting::Metadata {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: 118ADB4
   // [AttributeUsageAttribute] Offset: 118ADB4
-  class SoapParameterAttribute : public System::Runtime::Remoting::Metadata::SoapAttribute {
+  class SoapParameterAttribute : public ::System::Runtime::Remoting::Metadata::SoapAttribute {
     public:
     // public System.Void .ctor()
     // Offset: 0x1B82D94
@@ -38,7 +38,7 @@ namespace System::Runtime::Remoting::Metadata {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SoapParameterAttribute* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Metadata::SoapParameterAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Remoting::Metadata::SoapParameterAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SoapParameterAttribute*, creationType>()));
     }
   }; // System.Runtime.Remoting.Metadata.SoapParameterAttribute

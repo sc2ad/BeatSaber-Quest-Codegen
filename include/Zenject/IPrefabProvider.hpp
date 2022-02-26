@@ -18,8 +18,8 @@ namespace Zenject {
   class IPrefabProvider;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::IPrefabProvider);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::IPrefabProvider*, "Zenject", "IPrefabProvider");
+NEED_NO_BOX(::Zenject::IPrefabProvider);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::IPrefabProvider*, "Zenject", "IPrefabProvider");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x10
@@ -30,7 +30,7 @@ namespace Zenject {
     public:
     // public UnityEngine.Object GetPrefab()
     // Offset: 0xFFFFFFFF
-    UnityEngine::Object* GetPrefab();
+    ::UnityEngine::Object* GetPrefab();
   }; // Zenject.IPrefabProvider
   #pragma pack(pop)
 }
@@ -38,7 +38,7 @@ namespace Zenject {
 // Writing MetadataGetter for method: Zenject::IPrefabProvider::GetPrefab
 // Il2CppName: GetPrefab
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (Zenject::IPrefabProvider::*)()>(&Zenject::IPrefabProvider::GetPrefab)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Object* (Zenject::IPrefabProvider::*)()>(&Zenject::IPrefabProvider::GetPrefab)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::IPrefabProvider*), "GetPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -34,8 +34,8 @@ namespace Org::BouncyCastle::Security {
   class DigestUtilities;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Security::DigestUtilities);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::DigestUtilities*, "Org.BouncyCastle.Security", "DigestUtilities");
+NEED_NO_BOX(::Org::BouncyCastle::Security::DigestUtilities);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Security::DigestUtilities*, "Org.BouncyCastle.Security", "DigestUtilities");
 // Type namespace: Org.BouncyCastle.Security
 namespace Org::BouncyCastle::Security {
   // Size: 0x10
@@ -44,28 +44,28 @@ namespace Org::BouncyCastle::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   class DigestUtilities : public ::Il2CppObject {
     public:
-    // Nested type: Org::BouncyCastle::Security::DigestUtilities::DigestAlgorithm
+    // Nested type: ::Org::BouncyCastle::Security::DigestUtilities::DigestAlgorithm
     struct DigestAlgorithm;
     // Get static field: static private readonly System.Collections.IDictionary algorithms
-    static System::Collections::IDictionary* _get_algorithms();
+    static ::System::Collections::IDictionary* _get_algorithms();
     // Set static field: static private readonly System.Collections.IDictionary algorithms
-    static void _set_algorithms(System::Collections::IDictionary* value);
+    static void _set_algorithms(::System::Collections::IDictionary* value);
     // Get static field: static private readonly System.Collections.IDictionary oids
-    static System::Collections::IDictionary* _get_oids();
+    static ::System::Collections::IDictionary* _get_oids();
     // Set static field: static private readonly System.Collections.IDictionary oids
-    static void _set_oids(System::Collections::IDictionary* value);
+    static void _set_oids(::System::Collections::IDictionary* value);
     // static private System.Void .cctor()
     // Offset: 0x1722100
     static void _cctor();
     // static public Org.BouncyCastle.Crypto.IDigest GetDigest(Org.BouncyCastle.Asn1.DerObjectIdentifier id)
     // Offset: 0x1725B94
-    static Org::BouncyCastle::Crypto::IDigest* GetDigest(Org::BouncyCastle::Asn1::DerObjectIdentifier* id);
+    static ::Org::BouncyCastle::Crypto::IDigest* GetDigest(::Org::BouncyCastle::Asn1::DerObjectIdentifier* id);
     // static public Org.BouncyCastle.Crypto.IDigest GetDigest(System.String algorithm)
     // Offset: 0x1725C04
-    static Org::BouncyCastle::Crypto::IDigest* GetDigest(::StringW algorithm);
+    static ::Org::BouncyCastle::Crypto::IDigest* GetDigest(::StringW algorithm);
     // static public System.Byte[] DoFinal(Org.BouncyCastle.Crypto.IDigest digest)
     // Offset: 0x1726590
-    static ::ArrayW<uint8_t> DoFinal(Org::BouncyCastle::Crypto::IDigest* digest);
+    static ::ArrayW<uint8_t> DoFinal(::Org::BouncyCastle::Crypto::IDigest* digest);
   }; // Org.BouncyCastle.Security.DigestUtilities
   #pragma pack(pop)
 }
@@ -81,7 +81,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::DigestUtilities::GetDigest
 // Il2CppName: GetDigest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::IDigest* (*)(Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&Org::BouncyCastle::Security::DigestUtilities::GetDigest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::IDigest* (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&Org::BouncyCastle::Security::DigestUtilities::GetDigest)> {
   static const MethodInfo* get() {
     static auto* id = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1", "DerObjectIdentifier")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::DigestUtilities*), "GetDigest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{id});
@@ -90,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::DigestUtilities::GetDigest
 // Il2CppName: GetDigest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::IDigest* (*)(::StringW)>(&Org::BouncyCastle::Security::DigestUtilities::GetDigest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::IDigest* (*)(::StringW)>(&Org::BouncyCastle::Security::DigestUtilities::GetDigest)> {
   static const MethodInfo* get() {
     static auto* algorithm = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::DigestUtilities*), "GetDigest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{algorithm});
@@ -99,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::DigestUtilities::DoFinal
 // Il2CppName: DoFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(Org::BouncyCastle::Crypto::IDigest*)>(&Org::BouncyCastle::Security::DigestUtilities::DoFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::Org::BouncyCastle::Crypto::IDigest*)>(&Org::BouncyCastle::Security::DigestUtilities::DoFinal)> {
   static const MethodInfo* get() {
     static auto* digest = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Crypto", "IDigest")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::DigestUtilities*), "DoFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{digest});

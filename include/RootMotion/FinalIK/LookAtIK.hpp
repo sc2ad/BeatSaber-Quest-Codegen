@@ -27,8 +27,8 @@ namespace RootMotion::FinalIK {
   class LookAtIK;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::LookAtIK);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::LookAtIK*, "RootMotion.FinalIK", "LookAtIK");
+NEED_NO_BOX(::RootMotion::FinalIK::LookAtIK);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::LookAtIK*, "RootMotion.FinalIK", "LookAtIK");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x40
@@ -37,7 +37,7 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   // [HelpURLAttribute] Offset: 1262D20
   // [AddComponentMenu] Offset: 1262D20
-  class LookAtIK : public RootMotion::FinalIK::IK {
+  class LookAtIK : public ::RootMotion::FinalIK::IK {
     public:
     // Writing base type padding for base size: 0x33 to desired offset: 0x38
     char ___base_padding[0x5] = {};
@@ -53,12 +53,12 @@ namespace RootMotion::FinalIK {
     // public RootMotion.FinalIK.IKSolverLookAt solver
     // Size: 0x8
     // Offset: 0x38
-    RootMotion::FinalIK::IKSolverLookAt* solver;
+    ::RootMotion::FinalIK::IKSolverLookAt* solver;
     // Field size check
-    static_assert(sizeof(RootMotion::FinalIK::IKSolverLookAt*) == 0x8);
+    static_assert(sizeof(::RootMotion::FinalIK::IKSolverLookAt*) == 0x8);
     public:
     // Get instance field reference: public RootMotion.FinalIK.IKSolverLookAt solver
-    RootMotion::FinalIK::IKSolverLookAt*& dyn_solver();
+    ::RootMotion::FinalIK::IKSolverLookAt*& dyn_solver();
     // private System.Void SupportGroup()
     // Offset: 0x1F0B4AC
     void SupportGroup();
@@ -77,7 +77,7 @@ namespace RootMotion::FinalIK {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LookAtIK* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::LookAtIK::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::LookAtIK::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LookAtIK*, creationType>()));
     }
     // protected override System.Void OpenUserManual()
@@ -94,10 +94,10 @@ namespace RootMotion::FinalIK {
     // Offset: 0x1F0B544
     // Implemented from: RootMotion.FinalIK.IK
     // Base method: RootMotion.FinalIK.IKSolver IK::GetIKSolver()
-    RootMotion::FinalIK::IKSolver* GetIKSolver();
+    ::RootMotion::FinalIK::IKSolver* GetIKSolver();
   }; // RootMotion.FinalIK.LookAtIK
   #pragma pack(pop)
-  static check_size<sizeof(LookAtIK), 56 + sizeof(RootMotion::FinalIK::IKSolverLookAt*)> __RootMotion_FinalIK_LookAtIKSizeCheck;
+  static check_size<sizeof(LookAtIK), 56 + sizeof(::RootMotion::FinalIK::IKSolverLookAt*)> __RootMotion_FinalIK_LookAtIKSizeCheck;
   static_assert(sizeof(LookAtIK) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -140,7 +140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::LookAtIK::GetIKSolver
 // Il2CppName: GetIKSolver
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKSolver* (RootMotion::FinalIK::LookAtIK::*)()>(&RootMotion::FinalIK::LookAtIK::GetIKSolver)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::FinalIK::IKSolver* (RootMotion::FinalIK::LookAtIK::*)()>(&RootMotion::FinalIK::LookAtIK::GetIKSolver)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::LookAtIK*), "GetIKSolver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

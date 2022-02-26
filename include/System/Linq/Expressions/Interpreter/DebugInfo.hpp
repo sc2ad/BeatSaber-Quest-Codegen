@@ -23,8 +23,8 @@ namespace System::Linq::Expressions::Interpreter {
   class DebugInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Linq::Expressions::Interpreter::DebugInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::Linq::Expressions::Interpreter::DebugInfo*, "System.Linq.Expressions.Interpreter", "DebugInfo");
+NEED_NO_BOX(::System::Linq::Expressions::Interpreter::DebugInfo);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::DebugInfo*, "System.Linq.Expressions.Interpreter", "DebugInfo");
 // Type namespace: System.Linq.Expressions.Interpreter
 namespace System::Linq::Expressions::Interpreter {
   // Size: 0x29
@@ -33,7 +33,7 @@ namespace System::Linq::Expressions::Interpreter {
   // [TokenAttribute] Offset: FFFFFFFF
   class DebugInfo : public ::Il2CppObject {
     public:
-    // Nested type: System::Linq::Expressions::Interpreter::DebugInfo::DebugInfoComparer
+    // Nested type: ::System::Linq::Expressions::Interpreter::DebugInfo::DebugInfoComparer
     class DebugInfoComparer;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -78,9 +78,9 @@ namespace System::Linq::Expressions::Interpreter {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get static field: static private readonly System.Linq.Expressions.Interpreter.DebugInfo/System.Linq.Expressions.Interpreter.DebugInfoComparer s_debugComparer
-    static System::Linq::Expressions::Interpreter::DebugInfo::DebugInfoComparer* _get_s_debugComparer();
+    static ::System::Linq::Expressions::Interpreter::DebugInfo::DebugInfoComparer* _get_s_debugComparer();
     // Set static field: static private readonly System.Linq.Expressions.Interpreter.DebugInfo/System.Linq.Expressions.Interpreter.DebugInfoComparer s_debugComparer
-    static void _set_s_debugComparer(System::Linq::Expressions::Interpreter::DebugInfo::DebugInfoComparer* value);
+    static void _set_s_debugComparer(::System::Linq::Expressions::Interpreter::DebugInfo::DebugInfoComparer* value);
     // Get instance field reference: public System.Int32 StartLine
     int& dyn_StartLine();
     // Get instance field reference: public System.Int32 EndLine
@@ -96,14 +96,14 @@ namespace System::Linq::Expressions::Interpreter {
     static void _cctor();
     // static public System.Linq.Expressions.Interpreter.DebugInfo GetMatchingDebugInfo(System.Linq.Expressions.Interpreter.DebugInfo[] debugInfos, System.Int32 index)
     // Offset: 0x1EE822C
-    static System::Linq::Expressions::Interpreter::DebugInfo* GetMatchingDebugInfo(::ArrayW<System::Linq::Expressions::Interpreter::DebugInfo*> debugInfos, int index);
+    static ::System::Linq::Expressions::Interpreter::DebugInfo* GetMatchingDebugInfo(::ArrayW<::System::Linq::Expressions::Interpreter::DebugInfo*> debugInfos, int index);
     // public System.Void .ctor()
     // Offset: 0x1EE831C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DebugInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Expressions::Interpreter::DebugInfo::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Linq::Expressions::Interpreter::DebugInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DebugInfo*, creationType>()));
     }
     // public override System.String ToString()
@@ -128,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Linq::Expressions::Interpreter::DebugInfo::GetMatchingDebugInfo
 // Il2CppName: GetMatchingDebugInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Linq::Expressions::Interpreter::DebugInfo* (*)(::ArrayW<System::Linq::Expressions::Interpreter::DebugInfo*>, int)>(&System::Linq::Expressions::Interpreter::DebugInfo::GetMatchingDebugInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Interpreter::DebugInfo* (*)(::ArrayW<::System::Linq::Expressions::Interpreter::DebugInfo*>, int)>(&System::Linq::Expressions::Interpreter::DebugInfo::GetMatchingDebugInfo)> {
   static const MethodInfo* get() {
     static auto* debugInfos = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Linq.Expressions.Interpreter", "DebugInfo"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

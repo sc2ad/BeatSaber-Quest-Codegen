@@ -35,8 +35,8 @@ namespace Zenject {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::TickableManager::$$c);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::TickableManager::$$c*, "Zenject", "TickableManager/<>c");
+NEED_NO_BOX(::Zenject::TickableManager::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::TickableManager::$$c*, "Zenject", "TickableManager/<>c");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x10
@@ -47,67 +47,67 @@ namespace Zenject {
   class TickableManager::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly Zenject.TickableManager/Zenject.<>c <>9
-    static Zenject::TickableManager::$$c* _get_$$9();
+    static ::Zenject::TickableManager::$$c* _get_$$9();
     // Set static field: static public readonly Zenject.TickableManager/Zenject.<>c <>9
-    static void _set_$$9(Zenject::TickableManager::$$c* value);
+    static void _set_$$9(::Zenject::TickableManager::$$c* value);
     // Get static field: static public System.Func`2<ModestTree.Util.ValuePair`2<System.Type,System.Int32>,System.Type> <>9__17_0
-    static System::Func_2<ModestTree::Util::ValuePair_2<System::Type*, int>*, System::Type*>* _get_$$9__17_0();
+    static ::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, ::System::Type*>* _get_$$9__17_0();
     // Set static field: static public System.Func`2<ModestTree.Util.ValuePair`2<System.Type,System.Int32>,System.Type> <>9__17_0
-    static void _set_$$9__17_0(System::Func_2<ModestTree::Util::ValuePair_2<System::Type*, int>*, System::Type*>* value);
+    static void _set_$$9__17_0(::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, ::System::Type*>* value);
     // Get static field: static public System.Func`2<ModestTree.Util.ValuePair`2<System.Type,System.Int32>,System.Int32> <>9__17_2
-    static System::Func_2<ModestTree::Util::ValuePair_2<System::Type*, int>*, int>* _get_$$9__17_2();
+    static ::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, int>* _get_$$9__17_2();
     // Set static field: static public System.Func`2<ModestTree.Util.ValuePair`2<System.Type,System.Int32>,System.Int32> <>9__17_2
-    static void _set_$$9__17_2(System::Func_2<ModestTree::Util::ValuePair_2<System::Type*, int>*, int>* value);
+    static void _set_$$9__17_2(::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, int>* value);
     // Get static field: static public System.Func`2<ModestTree.Util.ValuePair`2<System.Type,System.Int32>,System.Type> <>9__18_0
-    static System::Func_2<ModestTree::Util::ValuePair_2<System::Type*, int>*, System::Type*>* _get_$$9__18_0();
+    static ::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, ::System::Type*>* _get_$$9__18_0();
     // Set static field: static public System.Func`2<ModestTree.Util.ValuePair`2<System.Type,System.Int32>,System.Type> <>9__18_0
-    static void _set_$$9__18_0(System::Func_2<ModestTree::Util::ValuePair_2<System::Type*, int>*, System::Type*>* value);
+    static void _set_$$9__18_0(::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, ::System::Type*>* value);
     // Get static field: static public System.Func`2<ModestTree.Util.ValuePair`2<System.Type,System.Int32>,System.Int32> <>9__18_2
-    static System::Func_2<ModestTree::Util::ValuePair_2<System::Type*, int>*, int>* _get_$$9__18_2();
+    static ::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, int>* _get_$$9__18_2();
     // Set static field: static public System.Func`2<ModestTree.Util.ValuePair`2<System.Type,System.Int32>,System.Int32> <>9__18_2
-    static void _set_$$9__18_2(System::Func_2<ModestTree::Util::ValuePair_2<System::Type*, int>*, int>* value);
+    static void _set_$$9__18_2(::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, int>* value);
     // Get static field: static public System.Func`2<ModestTree.Util.ValuePair`2<System.Type,System.Int32>,System.Type> <>9__19_0
-    static System::Func_2<ModestTree::Util::ValuePair_2<System::Type*, int>*, System::Type*>* _get_$$9__19_0();
+    static ::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, ::System::Type*>* _get_$$9__19_0();
     // Set static field: static public System.Func`2<ModestTree.Util.ValuePair`2<System.Type,System.Int32>,System.Type> <>9__19_0
-    static void _set_$$9__19_0(System::Func_2<ModestTree::Util::ValuePair_2<System::Type*, int>*, System::Type*>* value);
+    static void _set_$$9__19_0(::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, ::System::Type*>* value);
     // Get static field: static public System.Func`2<ModestTree.Util.ValuePair`2<System.Type,System.Int32>,System.Int32> <>9__19_2
-    static System::Func_2<ModestTree::Util::ValuePair_2<System::Type*, int>*, int>* _get_$$9__19_2();
+    static ::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, int>* _get_$$9__19_2();
     // Set static field: static public System.Func`2<ModestTree.Util.ValuePair`2<System.Type,System.Int32>,System.Int32> <>9__19_2
-    static void _set_$$9__19_2(System::Func_2<ModestTree::Util::ValuePair_2<System::Type*, int>*, int>* value);
+    static void _set_$$9__19_2(::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int>*, int>* value);
     // static private System.Void .cctor()
     // Offset: 0x246F014
     static void _cctor();
     // System.Type <InitFixedTickables>b__17_0(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
     // Offset: 0x246F080
-    System::Type* $InitFixedTickables$b__17_0(ModestTree::Util::ValuePair_2<System::Type*, int>* x);
+    ::System::Type* $InitFixedTickables$b__17_0(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
     // System.Int32 <InitFixedTickables>b__17_2(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
     // Offset: 0x246F098
-    int $InitFixedTickables$b__17_2(ModestTree::Util::ValuePair_2<System::Type*, int>* x);
+    int $InitFixedTickables$b__17_2(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
     // System.Type <InitTickables>b__18_0(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
     // Offset: 0x246F0B0
-    System::Type* $InitTickables$b__18_0(ModestTree::Util::ValuePair_2<System::Type*, int>* x);
+    ::System::Type* $InitTickables$b__18_0(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
     // System.Int32 <InitTickables>b__18_2(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
     // Offset: 0x246F0C8
-    int $InitTickables$b__18_2(ModestTree::Util::ValuePair_2<System::Type*, int>* x);
+    int $InitTickables$b__18_2(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
     // System.Type <InitLateTickables>b__19_0(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
     // Offset: 0x246F0E0
-    System::Type* $InitLateTickables$b__19_0(ModestTree::Util::ValuePair_2<System::Type*, int>* x);
+    ::System::Type* $InitLateTickables$b__19_0(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
     // System.Int32 <InitLateTickables>b__19_2(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
     // Offset: 0x246F0F8
-    int $InitLateTickables$b__19_2(ModestTree::Util::ValuePair_2<System::Type*, int>* x);
+    int $InitLateTickables$b__19_2(::ModestTree::Util::ValuePair_2<::System::Type*, int>* x);
     // static private System.Object __zenCreate(System.Object[] P_0)
     // Offset: 0x246F110
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
     // Offset: 0x246F16C
-    static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
     // Offset: 0x246F078
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TickableManager::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::TickableManager::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::TickableManager::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TickableManager::$$c*, creationType>()));
     }
   }; // Zenject.TickableManager/Zenject.<>c
@@ -125,7 +125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Zenject::TickableManager::$$c::$InitFixedTickables$b__17_0
 // Il2CppName: <InitFixedTickables>b__17_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (Zenject::TickableManager::$$c::*)(ModestTree::Util::ValuePair_2<System::Type*, int>*)>(&Zenject::TickableManager::$$c::$InitFixedTickables$b__17_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (Zenject::TickableManager::$$c::*)(::ModestTree::Util::ValuePair_2<::System::Type*, int>*)>(&Zenject::TickableManager::$$c::$InitFixedTickables$b__17_0)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("ModestTree.Util", "ValuePair`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Type"), ::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::TickableManager::$$c*), "<InitFixedTickables>b__17_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -134,7 +134,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: Zenject::TickableManager::$$c::$InitFixedTickables$b__17_2
 // Il2CppName: <InitFixedTickables>b__17_2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Zenject::TickableManager::$$c::*)(ModestTree::Util::ValuePair_2<System::Type*, int>*)>(&Zenject::TickableManager::$$c::$InitFixedTickables$b__17_2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Zenject::TickableManager::$$c::*)(::ModestTree::Util::ValuePair_2<::System::Type*, int>*)>(&Zenject::TickableManager::$$c::$InitFixedTickables$b__17_2)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("ModestTree.Util", "ValuePair`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Type"), ::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::TickableManager::$$c*), "<InitFixedTickables>b__17_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -143,7 +143,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Zenjec
 // Writing MetadataGetter for method: Zenject::TickableManager::$$c::$InitTickables$b__18_0
 // Il2CppName: <InitTickables>b__18_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (Zenject::TickableManager::$$c::*)(ModestTree::Util::ValuePair_2<System::Type*, int>*)>(&Zenject::TickableManager::$$c::$InitTickables$b__18_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (Zenject::TickableManager::$$c::*)(::ModestTree::Util::ValuePair_2<::System::Type*, int>*)>(&Zenject::TickableManager::$$c::$InitTickables$b__18_0)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("ModestTree.Util", "ValuePair`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Type"), ::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::TickableManager::$$c*), "<InitTickables>b__18_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -152,7 +152,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: Zenject::TickableManager::$$c::$InitTickables$b__18_2
 // Il2CppName: <InitTickables>b__18_2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Zenject::TickableManager::$$c::*)(ModestTree::Util::ValuePair_2<System::Type*, int>*)>(&Zenject::TickableManager::$$c::$InitTickables$b__18_2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Zenject::TickableManager::$$c::*)(::ModestTree::Util::ValuePair_2<::System::Type*, int>*)>(&Zenject::TickableManager::$$c::$InitTickables$b__18_2)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("ModestTree.Util", "ValuePair`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Type"), ::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::TickableManager::$$c*), "<InitTickables>b__18_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -161,7 +161,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Zenjec
 // Writing MetadataGetter for method: Zenject::TickableManager::$$c::$InitLateTickables$b__19_0
 // Il2CppName: <InitLateTickables>b__19_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (Zenject::TickableManager::$$c::*)(ModestTree::Util::ValuePair_2<System::Type*, int>*)>(&Zenject::TickableManager::$$c::$InitLateTickables$b__19_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (Zenject::TickableManager::$$c::*)(::ModestTree::Util::ValuePair_2<::System::Type*, int>*)>(&Zenject::TickableManager::$$c::$InitLateTickables$b__19_0)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("ModestTree.Util", "ValuePair`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Type"), ::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::TickableManager::$$c*), "<InitLateTickables>b__19_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -170,7 +170,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: Zenject::TickableManager::$$c::$InitLateTickables$b__19_2
 // Il2CppName: <InitLateTickables>b__19_2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Zenject::TickableManager::$$c::*)(ModestTree::Util::ValuePair_2<System::Type*, int>*)>(&Zenject::TickableManager::$$c::$InitLateTickables$b__19_2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Zenject::TickableManager::$$c::*)(::ModestTree::Util::ValuePair_2<::System::Type*, int>*)>(&Zenject::TickableManager::$$c::$InitLateTickables$b__19_2)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("ModestTree.Util", "ValuePair`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Type"), ::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::TickableManager::$$c*), "<InitLateTickables>b__19_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -188,7 +188,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: Zenject::TickableManager::$$c::__zenCreateInjectTypeInfo
 // Il2CppName: __zenCreateInjectTypeInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (*)()>(&Zenject::TickableManager::$$c::__zenCreateInjectTypeInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&Zenject::TickableManager::$$c::__zenCreateInjectTypeInfo)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::TickableManager::$$c*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

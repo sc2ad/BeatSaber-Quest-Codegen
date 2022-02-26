@@ -25,8 +25,8 @@ namespace System::Net::NetworkInformation {
   class IPInterfaceProperties;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::NetworkInformation::IPInterfaceProperties);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::IPInterfaceProperties*, "System.Net.NetworkInformation", "IPInterfaceProperties");
+NEED_NO_BOX(::System::Net::NetworkInformation::IPInterfaceProperties);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::IPInterfaceProperties*, "System.Net.NetworkInformation", "IPInterfaceProperties");
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {
   // Size: 0x10
@@ -37,17 +37,17 @@ namespace System::Net::NetworkInformation {
     public:
     // public System.Net.NetworkInformation.UnicastIPAddressInformationCollection get_UnicastAddresses()
     // Offset: 0xFFFFFFFF
-    System::Net::NetworkInformation::UnicastIPAddressInformationCollection* get_UnicastAddresses();
+    ::System::Net::NetworkInformation::UnicastIPAddressInformationCollection* get_UnicastAddresses();
     // public System.Net.NetworkInformation.GatewayIPAddressInformationCollection get_GatewayAddresses()
     // Offset: 0xFFFFFFFF
-    System::Net::NetworkInformation::GatewayIPAddressInformationCollection* get_GatewayAddresses();
+    ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection* get_GatewayAddresses();
     // protected System.Void .ctor()
     // Offset: 0x17AA044
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IPInterfaceProperties* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::IPInterfaceProperties::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::NetworkInformation::IPInterfaceProperties::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IPInterfaceProperties*, creationType>()));
     }
   }; // System.Net.NetworkInformation.IPInterfaceProperties
@@ -57,7 +57,7 @@ namespace System::Net::NetworkInformation {
 // Writing MetadataGetter for method: System::Net::NetworkInformation::IPInterfaceProperties::get_UnicastAddresses
 // Il2CppName: get_UnicastAddresses
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::UnicastIPAddressInformationCollection* (System::Net::NetworkInformation::IPInterfaceProperties::*)()>(&System::Net::NetworkInformation::IPInterfaceProperties::get_UnicastAddresses)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::NetworkInformation::UnicastIPAddressInformationCollection* (System::Net::NetworkInformation::IPInterfaceProperties::*)()>(&System::Net::NetworkInformation::IPInterfaceProperties::get_UnicastAddresses)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::IPInterfaceProperties*), "get_UnicastAddresses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -65,7 +65,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Writing MetadataGetter for method: System::Net::NetworkInformation::IPInterfaceProperties::get_GatewayAddresses
 // Il2CppName: get_GatewayAddresses
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::GatewayIPAddressInformationCollection* (System::Net::NetworkInformation::IPInterfaceProperties::*)()>(&System::Net::NetworkInformation::IPInterfaceProperties::get_GatewayAddresses)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection* (System::Net::NetworkInformation::IPInterfaceProperties::*)()>(&System::Net::NetworkInformation::IPInterfaceProperties::get_GatewayAddresses)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::IPInterfaceProperties*), "get_GatewayAddresses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

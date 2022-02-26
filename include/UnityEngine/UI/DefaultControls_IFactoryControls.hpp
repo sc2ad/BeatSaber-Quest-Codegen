@@ -24,8 +24,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::UI::DefaultControls::IFactoryControls);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::DefaultControls::IFactoryControls*, "UnityEngine.UI", "DefaultControls/IFactoryControls");
+NEED_NO_BOX(::UnityEngine::UI::DefaultControls::IFactoryControls);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::DefaultControls::IFactoryControls*, "UnityEngine.UI", "DefaultControls/IFactoryControls");
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {
   // Size: 0x10
@@ -36,7 +36,7 @@ namespace UnityEngine::UI {
     public:
     // public UnityEngine.GameObject CreateGameObject(System.String name, params System.Type[] components)
     // Offset: 0xFFFFFFFF
-    UnityEngine::GameObject* CreateGameObject(::StringW name, ::ArrayW<System::Type*> components);
+    ::UnityEngine::GameObject* CreateGameObject(::StringW name, ::ArrayW<::System::Type*> components);
   }; // UnityEngine.UI.DefaultControls/UnityEngine.UI.IFactoryControls
   #pragma pack(pop)
 }
@@ -44,7 +44,7 @@ namespace UnityEngine::UI {
 // Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::IFactoryControls::CreateGameObject
 // Il2CppName: CreateGameObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (UnityEngine::UI::DefaultControls::IFactoryControls::*)(::StringW, ::ArrayW<System::Type*>)>(&UnityEngine::UI::DefaultControls::IFactoryControls::CreateGameObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GameObject* (UnityEngine::UI::DefaultControls::IFactoryControls::*)(::StringW, ::ArrayW<::System::Type*>)>(&UnityEngine::UI::DefaultControls::IFactoryControls::CreateGameObject)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* components = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;

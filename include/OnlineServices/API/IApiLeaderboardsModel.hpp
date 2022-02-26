@@ -36,8 +36,8 @@ namespace OnlineServices::API {
   class IApiLeaderboardsModel;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(OnlineServices::API::IApiLeaderboardsModel);
-DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::IApiLeaderboardsModel*, "OnlineServices.API", "IApiLeaderboardsModel");
+NEED_NO_BOX(::OnlineServices::API::IApiLeaderboardsModel);
+DEFINE_IL2CPP_ARG_TYPE(::OnlineServices::API::IApiLeaderboardsModel*, "OnlineServices.API", "IApiLeaderboardsModel");
 // Type namespace: OnlineServices.API
 namespace OnlineServices::API {
   // Size: 0x10
@@ -48,10 +48,10 @@ namespace OnlineServices::API {
     public:
     // public System.Threading.Tasks.Task`1<OnlineServices.API.ApiResponse`1<BeatSaberAPI.DataTransferObjects.LeaderboardEntries>> GetLeaderboardEntriesAsync(BeatSaberAPI.DataTransferObjects.LeaderboardQuery leaderboardQueryDTO, System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF
-    System::Threading::Tasks::Task_1<OnlineServices::API::ApiResponse_1<BeatSaberAPI::DataTransferObjects::LeaderboardEntries*>>* GetLeaderboardEntriesAsync(BeatSaberAPI::DataTransferObjects::LeaderboardQuery* leaderboardQueryDTO, System::Threading::CancellationToken cancellationToken);
+    ::System::Threading::Tasks::Task_1<::OnlineServices::API::ApiResponse_1<::BeatSaberAPI::DataTransferObjects::LeaderboardEntries*>>* GetLeaderboardEntriesAsync(::BeatSaberAPI::DataTransferObjects::LeaderboardQuery* leaderboardQueryDTO, ::System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<OnlineServices.API.Response> SendLevelScoreResultAsync(BeatSaberAPI.DataTransferObjects.LevelScoreResult levelScoreResultDto, System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF
-    System::Threading::Tasks::Task_1<OnlineServices::API::Response>* SendLevelScoreResultAsync(BeatSaberAPI::DataTransferObjects::LevelScoreResult* levelScoreResultDto, System::Threading::CancellationToken cancellationToken);
+    ::System::Threading::Tasks::Task_1<::OnlineServices::API::Response>* SendLevelScoreResultAsync(::BeatSaberAPI::DataTransferObjects::LevelScoreResult* levelScoreResultDto, ::System::Threading::CancellationToken cancellationToken);
     // public System.Void LogoutAsync()
     // Offset: 0xFFFFFFFF
     void LogoutAsync();
@@ -62,7 +62,7 @@ namespace OnlineServices::API {
 // Writing MetadataGetter for method: OnlineServices::API::IApiLeaderboardsModel::GetLeaderboardEntriesAsync
 // Il2CppName: GetLeaderboardEntriesAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<OnlineServices::API::ApiResponse_1<BeatSaberAPI::DataTransferObjects::LeaderboardEntries*>>* (OnlineServices::API::IApiLeaderboardsModel::*)(BeatSaberAPI::DataTransferObjects::LeaderboardQuery*, System::Threading::CancellationToken)>(&OnlineServices::API::IApiLeaderboardsModel::GetLeaderboardEntriesAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::OnlineServices::API::ApiResponse_1<::BeatSaberAPI::DataTransferObjects::LeaderboardEntries*>>* (OnlineServices::API::IApiLeaderboardsModel::*)(::BeatSaberAPI::DataTransferObjects::LeaderboardQuery*, ::System::Threading::CancellationToken)>(&OnlineServices::API::IApiLeaderboardsModel::GetLeaderboardEntriesAsync)> {
   static const MethodInfo* get() {
     static auto* leaderboardQueryDTO = &::il2cpp_utils::GetClassFromName("BeatSaberAPI.DataTransferObjects", "LeaderboardQuery")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
@@ -72,7 +72,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: OnlineServices::API::IApiLeaderboardsModel::SendLevelScoreResultAsync
 // Il2CppName: SendLevelScoreResultAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<OnlineServices::API::Response>* (OnlineServices::API::IApiLeaderboardsModel::*)(BeatSaberAPI::DataTransferObjects::LevelScoreResult*, System::Threading::CancellationToken)>(&OnlineServices::API::IApiLeaderboardsModel::SendLevelScoreResultAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::OnlineServices::API::Response>* (OnlineServices::API::IApiLeaderboardsModel::*)(::BeatSaberAPI::DataTransferObjects::LevelScoreResult*, ::System::Threading::CancellationToken)>(&OnlineServices::API::IApiLeaderboardsModel::SendLevelScoreResultAsync)> {
   static const MethodInfo* get() {
     static auto* levelScoreResultDto = &::il2cpp_utils::GetClassFromName("BeatSaberAPI.DataTransferObjects", "LevelScoreResult")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;

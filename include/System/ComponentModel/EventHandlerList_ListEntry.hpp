@@ -16,8 +16,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::ComponentModel::EventHandlerList::ListEntry);
-DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::EventHandlerList::ListEntry*, "System.ComponentModel", "EventHandlerList/ListEntry");
+NEED_NO_BOX(::System::ComponentModel::EventHandlerList::ListEntry);
+DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::EventHandlerList::ListEntry*, "System.ComponentModel", "EventHandlerList/ListEntry");
 // Type namespace: System.ComponentModel
 namespace System::ComponentModel {
   // Size: 0x28
@@ -38,9 +38,9 @@ namespace System::ComponentModel {
     // System.ComponentModel.EventHandlerList/System.ComponentModel.ListEntry next
     // Size: 0x8
     // Offset: 0x10
-    System::ComponentModel::EventHandlerList::ListEntry* next;
+    ::System::ComponentModel::EventHandlerList::ListEntry* next;
     // Field size check
-    static_assert(sizeof(System::ComponentModel::EventHandlerList::ListEntry*) == 0x8);
+    static_assert(sizeof(::System::ComponentModel::EventHandlerList::ListEntry*) == 0x8);
     // System.Object key
     // Size: 0x8
     // Offset: 0x18
@@ -50,19 +50,19 @@ namespace System::ComponentModel {
     // System.Delegate handler
     // Size: 0x8
     // Offset: 0x20
-    System::Delegate* handler;
+    ::System::Delegate* handler;
     // Field size check
-    static_assert(sizeof(System::Delegate*) == 0x8);
+    static_assert(sizeof(::System::Delegate*) == 0x8);
     public:
     // Get instance field reference: System.ComponentModel.EventHandlerList/System.ComponentModel.ListEntry next
-    System::ComponentModel::EventHandlerList::ListEntry*& dyn_next();
+    ::System::ComponentModel::EventHandlerList::ListEntry*& dyn_next();
     // Get instance field reference: System.Object key
     ::Il2CppObject*& dyn_key();
     // Get instance field reference: System.Delegate handler
-    System::Delegate*& dyn_handler();
+    ::System::Delegate*& dyn_handler();
   }; // System.ComponentModel.EventHandlerList/System.ComponentModel.ListEntry
   #pragma pack(pop)
-  static check_size<sizeof(EventHandlerList::ListEntry), 32 + sizeof(System::Delegate*)> __System_ComponentModel_EventHandlerList_ListEntrySizeCheck;
+  static check_size<sizeof(EventHandlerList::ListEntry), 32 + sizeof(::System::Delegate*)> __System_ComponentModel_EventHandlerList_ListEntrySizeCheck;
   static_assert(sizeof(EventHandlerList::ListEntry) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

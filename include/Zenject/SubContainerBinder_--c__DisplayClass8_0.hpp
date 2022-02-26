@@ -33,8 +33,8 @@ namespace Zenject {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::SubContainerBinder::$$c__DisplayClass8_0);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerBinder::$$c__DisplayClass8_0*, "Zenject", "SubContainerBinder/<>c__DisplayClass8_0");
+NEED_NO_BOX(::Zenject::SubContainerBinder::$$c__DisplayClass8_0);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::SubContainerBinder::$$c__DisplayClass8_0*, "Zenject", "SubContainerBinder/<>c__DisplayClass8_0");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x18
@@ -56,44 +56,44 @@ namespace Zenject {
     // public System.Func`2<Zenject.InjectContext,Zenject.DiContainer> subContainerGetter
     // Size: 0x8
     // Offset: 0x10
-    System::Func_2<Zenject::InjectContext*, Zenject::DiContainer*>* subContainerGetter;
+    ::System::Func_2<::Zenject::InjectContext*, ::Zenject::DiContainer*>* subContainerGetter;
     // Field size check
-    static_assert(sizeof(System::Func_2<Zenject::InjectContext*, Zenject::DiContainer*>*) == 0x8);
+    static_assert(sizeof(::System::Func_2<::Zenject::InjectContext*, ::Zenject::DiContainer*>*) == 0x8);
     public:
-    // Creating conversion operator: operator System::Func_2<Zenject::InjectContext*, Zenject::DiContainer*>*
-    constexpr operator System::Func_2<Zenject::InjectContext*, Zenject::DiContainer*>*() const noexcept {
+    // Creating conversion operator: operator ::System::Func_2<::Zenject::InjectContext*, ::Zenject::DiContainer*>*
+    constexpr operator ::System::Func_2<::Zenject::InjectContext*, ::Zenject::DiContainer*>*() const noexcept {
       return subContainerGetter;
     }
     // Get instance field reference: public System.Func`2<Zenject.InjectContext,Zenject.DiContainer> subContainerGetter
-    System::Func_2<Zenject::InjectContext*, Zenject::DiContainer*>*& dyn_subContainerGetter();
+    ::System::Func_2<::Zenject::InjectContext*, ::Zenject::DiContainer*>*& dyn_subContainerGetter();
     // Zenject.ISubContainerCreator <ByInstanceGetter>b__0(Zenject.DiContainer _)
     // Offset: 0x2468AA8
-    Zenject::ISubContainerCreator* $ByInstanceGetter$b__0(Zenject::DiContainer* _);
+    ::Zenject::ISubContainerCreator* $ByInstanceGetter$b__0(::Zenject::DiContainer* _);
     // static private System.Object __zenCreate(System.Object[] P_0)
     // Offset: 0x2468B3C
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
     // Offset: 0x2468B98
-    static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+    static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
     // Offset: 0x2465E74
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubContainerBinder::$$c__DisplayClass8_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::SubContainerBinder::$$c__DisplayClass8_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SubContainerBinder::$$c__DisplayClass8_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SubContainerBinder::$$c__DisplayClass8_0*, creationType>()));
     }
   }; // Zenject.SubContainerBinder/Zenject.<>c__DisplayClass8_0
   #pragma pack(pop)
-  static check_size<sizeof(SubContainerBinder::$$c__DisplayClass8_0), 16 + sizeof(System::Func_2<Zenject::InjectContext*, Zenject::DiContainer*>*)> __Zenject_SubContainerBinder_$$c__DisplayClass8_0SizeCheck;
+  static check_size<sizeof(SubContainerBinder::$$c__DisplayClass8_0), 16 + sizeof(::System::Func_2<::Zenject::InjectContext*, ::Zenject::DiContainer*>*)> __Zenject_SubContainerBinder_$$c__DisplayClass8_0SizeCheck;
   static_assert(sizeof(SubContainerBinder::$$c__DisplayClass8_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::SubContainerBinder::$$c__DisplayClass8_0::$ByInstanceGetter$b__0
 // Il2CppName: <ByInstanceGetter>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ISubContainerCreator* (Zenject::SubContainerBinder::$$c__DisplayClass8_0::*)(Zenject::DiContainer*)>(&Zenject::SubContainerBinder::$$c__DisplayClass8_0::$ByInstanceGetter$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::ISubContainerCreator* (Zenject::SubContainerBinder::$$c__DisplayClass8_0::*)(::Zenject::DiContainer*)>(&Zenject::SubContainerBinder::$$c__DisplayClass8_0::$ByInstanceGetter$b__0)> {
   static const MethodInfo* get() {
     static auto* _ = &::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerBinder::$$c__DisplayClass8_0*), "<ByInstanceGetter>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{_});
@@ -111,7 +111,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: Zenject::SubContainerBinder::$$c__DisplayClass8_0::__zenCreateInjectTypeInfo
 // Il2CppName: __zenCreateInjectTypeInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (*)()>(&Zenject::SubContainerBinder::$$c__DisplayClass8_0::__zenCreateInjectTypeInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&Zenject::SubContainerBinder::$$c__DisplayClass8_0::__zenCreateInjectTypeInfo)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerBinder::$$c__DisplayClass8_0*), "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

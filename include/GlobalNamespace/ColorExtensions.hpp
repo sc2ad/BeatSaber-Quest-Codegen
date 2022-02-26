@@ -19,8 +19,8 @@ namespace GlobalNamespace {
   class ColorExtensions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::ColorExtensions);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorExtensions*, "", "ColorExtensions");
+NEED_NO_BOX(::GlobalNamespace::ColorExtensions);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ColorExtensions*, "", "ColorExtensions");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -32,25 +32,25 @@ namespace GlobalNamespace {
     public:
     // static public UnityEngine.Color SaturatedColor(UnityEngine.Color color, System.Single saturation)
     // Offset: 0x2C16920
-    static UnityEngine::Color SaturatedColor(UnityEngine::Color color, float saturation);
+    static ::UnityEngine::Color SaturatedColor(::UnityEngine::Color color, float saturation);
     // static public UnityEngine.Color ColorWithAlpha(UnityEngine.Color color, System.Single alpha)
     // Offset: 0x2C16978
-    static UnityEngine::Color ColorWithAlpha(UnityEngine::Color color, float alpha);
+    static ::UnityEngine::Color ColorWithAlpha(::UnityEngine::Color color, float alpha);
     // static public UnityEngine.Color ColorWithR(UnityEngine.Color color, System.Single r)
     // Offset: 0x2C16980
-    static UnityEngine::Color ColorWithR(UnityEngine::Color color, float r);
+    static ::UnityEngine::Color ColorWithR(::UnityEngine::Color color, float r);
     // static public UnityEngine.Color ColorWithG(UnityEngine.Color color, System.Single g)
     // Offset: 0x2C16988
-    static UnityEngine::Color ColorWithG(UnityEngine::Color color, float g);
+    static ::UnityEngine::Color ColorWithG(::UnityEngine::Color color, float g);
     // static public UnityEngine.Color ColorWithB(UnityEngine.Color color, System.Single b)
     // Offset: 0x2C16990
-    static UnityEngine::Color ColorWithB(UnityEngine::Color color, float b);
+    static ::UnityEngine::Color ColorWithB(::UnityEngine::Color color, float b);
     // static public UnityEngine.Color ColorWithValue(UnityEngine.Color color, System.Single value)
     // Offset: 0x2C16998
-    static UnityEngine::Color ColorWithValue(UnityEngine::Color color, float value);
+    static ::UnityEngine::Color ColorWithValue(::UnityEngine::Color color, float value);
     // static public UnityEngine.Color LerpRGBUnclamped(UnityEngine.Color a, UnityEngine.Color b, System.Single t)
     // Offset: 0x2C169EC
-    static UnityEngine::Color LerpRGBUnclamped(UnityEngine::Color a, UnityEngine::Color b, float t);
+    static ::UnityEngine::Color LerpRGBUnclamped(::UnityEngine::Color a, ::UnityEngine::Color b, float t);
   }; // ColorExtensions
   #pragma pack(pop)
 }
@@ -58,7 +58,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::ColorExtensions::SaturatedColor
 // Il2CppName: SaturatedColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(UnityEngine::Color, float)>(&GlobalNamespace::ColorExtensions::SaturatedColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)(::UnityEngine::Color, float)>(&GlobalNamespace::ColorExtensions::SaturatedColor)> {
   static const MethodInfo* get() {
     static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     static auto* saturation = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -68,7 +68,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::ColorExtensions::ColorWithAlpha
 // Il2CppName: ColorWithAlpha
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(UnityEngine::Color, float)>(&GlobalNamespace::ColorExtensions::ColorWithAlpha)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)(::UnityEngine::Color, float)>(&GlobalNamespace::ColorExtensions::ColorWithAlpha)> {
   static const MethodInfo* get() {
     static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     static auto* alpha = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::ColorExtensions::ColorWithR
 // Il2CppName: ColorWithR
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(UnityEngine::Color, float)>(&GlobalNamespace::ColorExtensions::ColorWithR)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)(::UnityEngine::Color, float)>(&GlobalNamespace::ColorExtensions::ColorWithR)> {
   static const MethodInfo* get() {
     static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     static auto* r = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -88,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::ColorExtensions::ColorWithG
 // Il2CppName: ColorWithG
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(UnityEngine::Color, float)>(&GlobalNamespace::ColorExtensions::ColorWithG)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)(::UnityEngine::Color, float)>(&GlobalNamespace::ColorExtensions::ColorWithG)> {
   static const MethodInfo* get() {
     static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     static auto* g = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -98,7 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::ColorExtensions::ColorWithB
 // Il2CppName: ColorWithB
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(UnityEngine::Color, float)>(&GlobalNamespace::ColorExtensions::ColorWithB)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)(::UnityEngine::Color, float)>(&GlobalNamespace::ColorExtensions::ColorWithB)> {
   static const MethodInfo* get() {
     static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -108,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::ColorExtensions::ColorWithValue
 // Il2CppName: ColorWithValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(UnityEngine::Color, float)>(&GlobalNamespace::ColorExtensions::ColorWithValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)(::UnityEngine::Color, float)>(&GlobalNamespace::ColorExtensions::ColorWithValue)> {
   static const MethodInfo* get() {
     static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -118,7 +118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::ColorExtensions::LerpRGBUnclamped
 // Il2CppName: LerpRGBUnclamped
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(UnityEngine::Color, UnityEngine::Color, float)>(&GlobalNamespace::ColorExtensions::LerpRGBUnclamped)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)(::UnityEngine::Color, ::UnityEngine::Color, float)>(&GlobalNamespace::ColorExtensions::LerpRGBUnclamped)> {
   static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;

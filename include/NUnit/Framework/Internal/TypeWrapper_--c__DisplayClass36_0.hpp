@@ -26,8 +26,8 @@ namespace System::Reflection {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NUnit::Framework::Internal::TypeWrapper::$$c__DisplayClass36_0);
-DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TypeWrapper::$$c__DisplayClass36_0*, "NUnit.Framework.Internal", "TypeWrapper/<>c__DisplayClass36_0");
+NEED_NO_BOX(::NUnit::Framework::Internal::TypeWrapper::$$c__DisplayClass36_0);
+DEFINE_IL2CPP_ARG_TYPE(::NUnit::Framework::Internal::TypeWrapper::$$c__DisplayClass36_0*, "NUnit.Framework.Internal", "TypeWrapper/<>c__DisplayClass36_0");
 // Type namespace: NUnit.Framework.Internal
 namespace NUnit::Framework::Internal {
   // Size: 0x18
@@ -49,38 +49,38 @@ namespace NUnit::Framework::Internal {
     // public System.Type[] argTypes
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<System::Type*> argTypes;
+    ::ArrayW<::System::Type*> argTypes;
     // Field size check
-    static_assert(sizeof(::ArrayW<System::Type*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::System::Type*>) == 0x8);
     public:
-    // Creating conversion operator: operator ::ArrayW<System::Type*>
-    constexpr operator ::ArrayW<System::Type*>() const noexcept {
+    // Creating conversion operator: operator ::ArrayW<::System::Type*>
+    constexpr operator ::ArrayW<::System::Type*>() const noexcept {
       return argTypes;
     }
     // Get instance field reference: public System.Type[] argTypes
-    ::ArrayW<System::Type*>& dyn_argTypes();
+    ::ArrayW<::System::Type*>& dyn_argTypes();
     // System.Boolean <GetConstructor>b__0(System.Reflection.ConstructorInfo c)
     // Offset: 0x28C0300
-    bool $GetConstructor$b__0(System::Reflection::ConstructorInfo* c);
+    bool $GetConstructor$b__0(::System::Reflection::ConstructorInfo* c);
     // public System.Void .ctor()
     // Offset: 0x28C0244
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeWrapper::$$c__DisplayClass36_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::TypeWrapper::$$c__DisplayClass36_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::TypeWrapper::$$c__DisplayClass36_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeWrapper::$$c__DisplayClass36_0*, creationType>()));
     }
   }; // NUnit.Framework.Internal.TypeWrapper/NUnit.Framework.Internal.<>c__DisplayClass36_0
   #pragma pack(pop)
-  static check_size<sizeof(TypeWrapper::$$c__DisplayClass36_0), 16 + sizeof(::ArrayW<System::Type*>)> __NUnit_Framework_Internal_TypeWrapper_$$c__DisplayClass36_0SizeCheck;
+  static check_size<sizeof(TypeWrapper::$$c__DisplayClass36_0), 16 + sizeof(::ArrayW<::System::Type*>)> __NUnit_Framework_Internal_TypeWrapper_$$c__DisplayClass36_0SizeCheck;
   static_assert(sizeof(TypeWrapper::$$c__DisplayClass36_0) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TypeWrapper::$$c__DisplayClass36_0::$GetConstructor$b__0
 // Il2CppName: <GetConstructor>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Internal::TypeWrapper::$$c__DisplayClass36_0::*)(System::Reflection::ConstructorInfo*)>(&NUnit::Framework::Internal::TypeWrapper::$$c__DisplayClass36_0::$GetConstructor$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Internal::TypeWrapper::$$c__DisplayClass36_0::*)(::System::Reflection::ConstructorInfo*)>(&NUnit::Framework::Internal::TypeWrapper::$$c__DisplayClass36_0::$GetConstructor$b__0)> {
   static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("System.Reflection", "ConstructorInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TypeWrapper::$$c__DisplayClass36_0*), "<GetConstructor>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});

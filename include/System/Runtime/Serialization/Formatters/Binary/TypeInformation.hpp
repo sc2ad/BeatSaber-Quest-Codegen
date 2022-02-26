@@ -17,8 +17,8 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   class TypeInformation;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::TypeInformation);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::TypeInformation*, "System.Runtime.Serialization.Formatters.Binary", "TypeInformation");
+NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::TypeInformation);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::TypeInformation*, "System.Runtime.Serialization.Formatters.Binary", "TypeInformation");
 // Type namespace: System.Runtime.Serialization.Formatters.Binary
 namespace System::Runtime::Serialization::Formatters::Binary {
   // Size: 0x21
@@ -74,7 +74,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Offset: 0x15806C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TypeInformation* New_ctor(::StringW fullTypeName, ::StringW assemblyString, bool hasTypeForwardedFrom) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::TypeInformation::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::Formatters::Binary::TypeInformation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TypeInformation*, creationType>(fullTypeName, assemblyString, hasTypeForwardedFrom)));
     }
   }; // System.Runtime.Serialization.Formatters.Binary.TypeInformation

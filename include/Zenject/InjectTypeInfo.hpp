@@ -38,8 +38,8 @@ namespace Zenject {
   class InjectTypeInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Zenject::InjectTypeInfo);
-DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectTypeInfo*, "Zenject", "InjectTypeInfo");
+NEED_NO_BOX(::Zenject::InjectTypeInfo);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::InjectTypeInfo*, "Zenject", "InjectTypeInfo");
 // Type namespace: Zenject
 namespace Zenject {
   // Size: 0x38
@@ -49,11 +49,11 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: 11E6074
   class InjectTypeInfo : public ::Il2CppObject {
     public:
-    // Nested type: Zenject::InjectTypeInfo::InjectMemberInfo
+    // Nested type: ::Zenject::InjectTypeInfo::InjectMemberInfo
     class InjectMemberInfo;
-    // Nested type: Zenject::InjectTypeInfo::InjectConstructorInfo
+    // Nested type: ::Zenject::InjectTypeInfo::InjectConstructorInfo
     class InjectConstructorInfo;
-    // Nested type: Zenject::InjectTypeInfo::InjectMethodInfo
+    // Nested type: ::Zenject::InjectTypeInfo::InjectMethodInfo
     class InjectMethodInfo;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -67,84 +67,84 @@ namespace Zenject {
     // public readonly System.Type Type
     // Size: 0x8
     // Offset: 0x10
-    System::Type* Type;
+    ::System::Type* Type;
     // Field size check
-    static_assert(sizeof(System::Type*) == 0x8);
+    static_assert(sizeof(::System::Type*) == 0x8);
     // public readonly Zenject.InjectTypeInfo/Zenject.InjectMethodInfo[] InjectMethods
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayW<Zenject::InjectTypeInfo::InjectMethodInfo*> InjectMethods;
+    ::ArrayW<::Zenject::InjectTypeInfo::InjectMethodInfo*> InjectMethods;
     // Field size check
-    static_assert(sizeof(::ArrayW<Zenject::InjectTypeInfo::InjectMethodInfo*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Zenject::InjectTypeInfo::InjectMethodInfo*>) == 0x8);
     // public readonly Zenject.InjectTypeInfo/Zenject.InjectMemberInfo[] InjectMembers
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayW<Zenject::InjectTypeInfo::InjectMemberInfo*> InjectMembers;
+    ::ArrayW<::Zenject::InjectTypeInfo::InjectMemberInfo*> InjectMembers;
     // Field size check
-    static_assert(sizeof(::ArrayW<Zenject::InjectTypeInfo::InjectMemberInfo*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Zenject::InjectTypeInfo::InjectMemberInfo*>) == 0x8);
     // public readonly Zenject.InjectTypeInfo/Zenject.InjectConstructorInfo InjectConstructor
     // Size: 0x8
     // Offset: 0x28
-    Zenject::InjectTypeInfo::InjectConstructorInfo* InjectConstructor;
+    ::Zenject::InjectTypeInfo::InjectConstructorInfo* InjectConstructor;
     // Field size check
-    static_assert(sizeof(Zenject::InjectTypeInfo::InjectConstructorInfo*) == 0x8);
+    static_assert(sizeof(::Zenject::InjectTypeInfo::InjectConstructorInfo*) == 0x8);
     // private Zenject.InjectTypeInfo <BaseTypeInfo>k__BackingField
     // Size: 0x8
     // Offset: 0x30
-    Zenject::InjectTypeInfo* BaseTypeInfo;
+    ::Zenject::InjectTypeInfo* BaseTypeInfo;
     // Field size check
-    static_assert(sizeof(Zenject::InjectTypeInfo*) == 0x8);
+    static_assert(sizeof(::Zenject::InjectTypeInfo*) == 0x8);
     public:
     // Get static field: static private System.Func`2<Zenject.InjectTypeInfo/Zenject.InjectMemberInfo,Zenject.InjectableInfo> CS$<>9__CachedAnonymousMethodDelegate2
-    static System::Func_2<Zenject::InjectTypeInfo::InjectMemberInfo*, Zenject::InjectableInfo*>* _get_CS$$$9__CachedAnonymousMethodDelegate2();
+    static ::System::Func_2<::Zenject::InjectTypeInfo::InjectMemberInfo*, ::Zenject::InjectableInfo*>* _get_CS$$$9__CachedAnonymousMethodDelegate2();
     // Set static field: static private System.Func`2<Zenject.InjectTypeInfo/Zenject.InjectMemberInfo,Zenject.InjectableInfo> CS$<>9__CachedAnonymousMethodDelegate2
-    static void _set_CS$$$9__CachedAnonymousMethodDelegate2(System::Func_2<Zenject::InjectTypeInfo::InjectMemberInfo*, Zenject::InjectableInfo*>* value);
+    static void _set_CS$$$9__CachedAnonymousMethodDelegate2(::System::Func_2<::Zenject::InjectTypeInfo::InjectMemberInfo*, ::Zenject::InjectableInfo*>* value);
     // Get static field: static private System.Func`2<Zenject.InjectTypeInfo/Zenject.InjectMethodInfo,System.Collections.Generic.IEnumerable`1<Zenject.InjectableInfo>> CS$<>9__CachedAnonymousMethodDelegate3
-    static System::Func_2<Zenject::InjectTypeInfo::InjectMethodInfo*, System::Collections::Generic::IEnumerable_1<Zenject::InjectableInfo*>*>* _get_CS$$$9__CachedAnonymousMethodDelegate3();
+    static ::System::Func_2<::Zenject::InjectTypeInfo::InjectMethodInfo*, ::System::Collections::Generic::IEnumerable_1<::Zenject::InjectableInfo*>*>* _get_CS$$$9__CachedAnonymousMethodDelegate3();
     // Set static field: static private System.Func`2<Zenject.InjectTypeInfo/Zenject.InjectMethodInfo,System.Collections.Generic.IEnumerable`1<Zenject.InjectableInfo>> CS$<>9__CachedAnonymousMethodDelegate3
-    static void _set_CS$$$9__CachedAnonymousMethodDelegate3(System::Func_2<Zenject::InjectTypeInfo::InjectMethodInfo*, System::Collections::Generic::IEnumerable_1<Zenject::InjectableInfo*>*>* value);
+    static void _set_CS$$$9__CachedAnonymousMethodDelegate3(::System::Func_2<::Zenject::InjectTypeInfo::InjectMethodInfo*, ::System::Collections::Generic::IEnumerable_1<::Zenject::InjectableInfo*>*>* value);
     // Get instance field reference: public readonly System.Type Type
-    System::Type*& dyn_Type();
+    ::System::Type*& dyn_Type();
     // Get instance field reference: public readonly Zenject.InjectTypeInfo/Zenject.InjectMethodInfo[] InjectMethods
-    ::ArrayW<Zenject::InjectTypeInfo::InjectMethodInfo*>& dyn_InjectMethods();
+    ::ArrayW<::Zenject::InjectTypeInfo::InjectMethodInfo*>& dyn_InjectMethods();
     // Get instance field reference: public readonly Zenject.InjectTypeInfo/Zenject.InjectMemberInfo[] InjectMembers
-    ::ArrayW<Zenject::InjectTypeInfo::InjectMemberInfo*>& dyn_InjectMembers();
+    ::ArrayW<::Zenject::InjectTypeInfo::InjectMemberInfo*>& dyn_InjectMembers();
     // Get instance field reference: public readonly Zenject.InjectTypeInfo/Zenject.InjectConstructorInfo InjectConstructor
-    Zenject::InjectTypeInfo::InjectConstructorInfo*& dyn_InjectConstructor();
+    ::Zenject::InjectTypeInfo::InjectConstructorInfo*& dyn_InjectConstructor();
     // Get instance field reference: private Zenject.InjectTypeInfo <BaseTypeInfo>k__BackingField
-    Zenject::InjectTypeInfo*& dyn_$BaseTypeInfo$k__BackingField();
+    ::Zenject::InjectTypeInfo*& dyn_$BaseTypeInfo$k__BackingField();
     // public Zenject.InjectTypeInfo get_BaseTypeInfo()
     // Offset: 0x2A477B4
-    Zenject::InjectTypeInfo* get_BaseTypeInfo();
+    ::Zenject::InjectTypeInfo* get_BaseTypeInfo();
     // public System.Void set_BaseTypeInfo(Zenject.InjectTypeInfo value)
     // Offset: 0x2A477BC
-    void set_BaseTypeInfo(Zenject::InjectTypeInfo* value);
+    void set_BaseTypeInfo(::Zenject::InjectTypeInfo* value);
     // public System.Collections.Generic.IEnumerable`1<Zenject.InjectableInfo> get_AllInjectables()
     // Offset: 0x2A477C4
-    System::Collections::Generic::IEnumerable_1<Zenject::InjectableInfo*>* get_AllInjectables();
+    ::System::Collections::Generic::IEnumerable_1<::Zenject::InjectableInfo*>* get_AllInjectables();
     // public System.Void .ctor(System.Type type, Zenject.InjectTypeInfo/Zenject.InjectConstructorInfo injectConstructor, Zenject.InjectTypeInfo/Zenject.InjectMethodInfo[] injectMethods, Zenject.InjectTypeInfo/Zenject.InjectMemberInfo[] injectMembers)
     // Offset: 0x2A47768
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static InjectTypeInfo* New_ctor(System::Type* type, Zenject::InjectTypeInfo::InjectConstructorInfo* injectConstructor, ::ArrayW<Zenject::InjectTypeInfo::InjectMethodInfo*> injectMethods, ::ArrayW<Zenject::InjectTypeInfo::InjectMemberInfo*> injectMembers) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::InjectTypeInfo::.ctor");
+    static InjectTypeInfo* New_ctor(::System::Type* type, ::Zenject::InjectTypeInfo::InjectConstructorInfo* injectConstructor, ::ArrayW<::Zenject::InjectTypeInfo::InjectMethodInfo*> injectMethods, ::ArrayW<::Zenject::InjectTypeInfo::InjectMemberInfo*> injectMembers) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::InjectTypeInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InjectTypeInfo*, creationType>(type, injectConstructor, injectMethods, injectMembers)));
     }
     // static private Zenject.InjectableInfo <get_AllInjectables>b__0(Zenject.InjectTypeInfo/Zenject.InjectMemberInfo x)
     // Offset: 0x2A47940
-    static Zenject::InjectableInfo* $get_AllInjectables$b__0(Zenject::InjectTypeInfo::InjectMemberInfo* x);
+    static ::Zenject::InjectableInfo* $get_AllInjectables$b__0(::Zenject::InjectTypeInfo::InjectMemberInfo* x);
     // static private System.Collections.Generic.IEnumerable`1<Zenject.InjectableInfo> <get_AllInjectables>b__1(Zenject.InjectTypeInfo/Zenject.InjectMethodInfo x)
     // Offset: 0x2A47958
-    static System::Collections::Generic::IEnumerable_1<Zenject::InjectableInfo*>* $get_AllInjectables$b__1(Zenject::InjectTypeInfo::InjectMethodInfo* x);
+    static ::System::Collections::Generic::IEnumerable_1<::Zenject::InjectableInfo*>* $get_AllInjectables$b__1(::Zenject::InjectTypeInfo::InjectMethodInfo* x);
   }; // Zenject.InjectTypeInfo
   #pragma pack(pop)
-  static check_size<sizeof(InjectTypeInfo), 48 + sizeof(Zenject::InjectTypeInfo*)> __Zenject_InjectTypeInfoSizeCheck;
+  static check_size<sizeof(InjectTypeInfo), 48 + sizeof(::Zenject::InjectTypeInfo*)> __Zenject_InjectTypeInfoSizeCheck;
   static_assert(sizeof(InjectTypeInfo) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::InjectTypeInfo::get_BaseTypeInfo
 // Il2CppName: get_BaseTypeInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (Zenject::InjectTypeInfo::*)()>(&Zenject::InjectTypeInfo::get_BaseTypeInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (Zenject::InjectTypeInfo::*)()>(&Zenject::InjectTypeInfo::get_BaseTypeInfo)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::InjectTypeInfo*), "get_BaseTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -152,7 +152,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::In
 // Writing MetadataGetter for method: Zenject::InjectTypeInfo::set_BaseTypeInfo
 // Il2CppName: set_BaseTypeInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::InjectTypeInfo::*)(Zenject::InjectTypeInfo*)>(&Zenject::InjectTypeInfo::set_BaseTypeInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::InjectTypeInfo::*)(::Zenject::InjectTypeInfo*)>(&Zenject::InjectTypeInfo::set_BaseTypeInfo)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("Zenject", "InjectTypeInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::InjectTypeInfo*), "set_BaseTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -161,7 +161,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Writing MetadataGetter for method: Zenject::InjectTypeInfo::get_AllInjectables
 // Il2CppName: get_AllInjectables
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<Zenject::InjectableInfo*>* (Zenject::InjectTypeInfo::*)()>(&Zenject::InjectTypeInfo::get_AllInjectables)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::Zenject::InjectableInfo*>* (Zenject::InjectTypeInfo::*)()>(&Zenject::InjectTypeInfo::get_AllInjectables)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::InjectTypeInfo*), "get_AllInjectables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -173,7 +173,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: Zenject::InjectTypeInfo::$get_AllInjectables$b__0
 // Il2CppName: <get_AllInjectables>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectableInfo* (*)(Zenject::InjectTypeInfo::InjectMemberInfo*)>(&Zenject::InjectTypeInfo::$get_AllInjectables$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectableInfo* (*)(::Zenject::InjectTypeInfo::InjectMemberInfo*)>(&Zenject::InjectTypeInfo::$get_AllInjectables$b__0)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("Zenject", "InjectTypeInfo/InjectMemberInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::InjectTypeInfo*), "<get_AllInjectables>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -182,7 +182,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::In
 // Writing MetadataGetter for method: Zenject::InjectTypeInfo::$get_AllInjectables$b__1
 // Il2CppName: <get_AllInjectables>b__1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<Zenject::InjectableInfo*>* (*)(Zenject::InjectTypeInfo::InjectMethodInfo*)>(&Zenject::InjectTypeInfo::$get_AllInjectables$b__1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::Zenject::InjectableInfo*>* (*)(::Zenject::InjectTypeInfo::InjectMethodInfo*)>(&Zenject::InjectTypeInfo::$get_AllInjectables$b__1)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("Zenject", "InjectTypeInfo/InjectMethodInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::InjectTypeInfo*), "<get_AllInjectables>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});

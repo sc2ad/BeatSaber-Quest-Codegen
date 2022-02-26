@@ -18,8 +18,8 @@ namespace System::Runtime::InteropServices {
   class ComCompatibleVersionAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::InteropServices::ComCompatibleVersionAttribute);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::ComCompatibleVersionAttribute*, "System.Runtime.InteropServices", "ComCompatibleVersionAttribute");
+NEED_NO_BOX(::System::Runtime::InteropServices::ComCompatibleVersionAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::InteropServices::ComCompatibleVersionAttribute*, "System.Runtime.InteropServices", "ComCompatibleVersionAttribute");
 // Type namespace: System.Runtime.InteropServices
 namespace System::Runtime::InteropServices {
   // Size: 0x20
@@ -28,7 +28,7 @@ namespace System::Runtime::InteropServices {
   // [TokenAttribute] Offset: FFFFFFFF
   // [AttributeUsageAttribute] Offset: 118BAC4
   // [ComVisibleAttribute] Offset: 118BAC4
-  class ComCompatibleVersionAttribute : public System::Attribute {
+  class ComCompatibleVersionAttribute : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -76,7 +76,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x1C6BAF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ComCompatibleVersionAttribute* New_ctor(int major, int minor, int build, int revision) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::ComCompatibleVersionAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::InteropServices::ComCompatibleVersionAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ComCompatibleVersionAttribute*, creationType>(major, minor, build, revision)));
     }
   }; // System.Runtime.InteropServices.ComCompatibleVersionAttribute

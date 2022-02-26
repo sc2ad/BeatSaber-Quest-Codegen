@@ -13,8 +13,8 @@ namespace GlobalNamespace {
   class GenericLogger;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::GenericLogger);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GenericLogger*, "", "GenericLogger");
+NEED_NO_BOX(::GlobalNamespace::GenericLogger);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GenericLogger*, "", "GenericLogger");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10

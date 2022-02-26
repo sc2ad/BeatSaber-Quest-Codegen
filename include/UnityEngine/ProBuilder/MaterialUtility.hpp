@@ -27,8 +27,8 @@ namespace UnityEngine::ProBuilder {
   class MaterialUtility;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::MaterialUtility);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MaterialUtility*, "UnityEngine.ProBuilder", "MaterialUtility");
+NEED_NO_BOX(::UnityEngine::ProBuilder::MaterialUtility);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::MaterialUtility*, "UnityEngine.ProBuilder", "MaterialUtility");
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
   // Size: 0x10
@@ -38,18 +38,18 @@ namespace UnityEngine::ProBuilder {
   class MaterialUtility : public ::Il2CppObject {
     public:
     // Get static field: static private System.Collections.Generic.List`1<UnityEngine.Material> s_MaterialArray
-    static System::Collections::Generic::List_1<UnityEngine::Material*>* _get_s_MaterialArray();
+    static ::System::Collections::Generic::List_1<::UnityEngine::Material*>* _get_s_MaterialArray();
     // Set static field: static private System.Collections.Generic.List`1<UnityEngine.Material> s_MaterialArray
-    static void _set_s_MaterialArray(System::Collections::Generic::List_1<UnityEngine::Material*>* value);
+    static void _set_s_MaterialArray(::System::Collections::Generic::List_1<::UnityEngine::Material*>* value);
     // static private System.Void .cctor()
     // Offset: 0x1F41DF4
     static void _cctor();
     // static System.Int32 GetMaterialCount(UnityEngine.Renderer renderer)
     // Offset: 0x1F41BF0
-    static int GetMaterialCount(UnityEngine::Renderer* renderer);
+    static int GetMaterialCount(::UnityEngine::Renderer* renderer);
     // static UnityEngine.Material GetSharedMaterial(UnityEngine.Renderer renderer, System.Int32 index)
     // Offset: 0x1F41CA4
-    static UnityEngine::Material* GetSharedMaterial(UnityEngine::Renderer* renderer, int index);
+    static ::UnityEngine::Material* GetSharedMaterial(::UnityEngine::Renderer* renderer, int index);
   }; // UnityEngine.ProBuilder.MaterialUtility
   #pragma pack(pop)
 }
@@ -65,7 +65,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MaterialUtility::GetMaterialCount
 // Il2CppName: GetMaterialCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Renderer*)>(&UnityEngine::ProBuilder::MaterialUtility::GetMaterialCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::UnityEngine::Renderer*)>(&UnityEngine::ProBuilder::MaterialUtility::GetMaterialCount)> {
   static const MethodInfo* get() {
     static auto* renderer = &::il2cpp_utils::GetClassFromName("UnityEngine", "Renderer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MaterialUtility*), "GetMaterialCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{renderer});
@@ -74,7 +74,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MaterialUtility::GetSharedMaterial
 // Il2CppName: GetSharedMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)(UnityEngine::Renderer*, int)>(&UnityEngine::ProBuilder::MaterialUtility::GetSharedMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Material* (*)(::UnityEngine::Renderer*, int)>(&UnityEngine::ProBuilder::MaterialUtility::GetSharedMaterial)> {
   static const MethodInfo* get() {
     static auto* renderer = &::il2cpp_utils::GetClassFromName("UnityEngine", "Renderer")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

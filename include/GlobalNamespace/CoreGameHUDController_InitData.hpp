@@ -13,8 +13,8 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::CoreGameHUDController::InitData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CoreGameHUDController::InitData*, "", "CoreGameHUDController/InitData");
+NEED_NO_BOX(::GlobalNamespace::CoreGameHUDController::InitData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CoreGameHUDController::InitData*, "", "CoreGameHUDController/InitData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x13
@@ -61,7 +61,7 @@ namespace GlobalNamespace {
     // Offset: 0x13C41E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CoreGameHUDController::InitData* New_ctor(bool hide, bool showEnergyPanel, bool advancedHUD) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CoreGameHUDController::InitData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CoreGameHUDController::InitData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CoreGameHUDController::InitData*, creationType>(hide, showEnergyPanel, advancedHUD)));
     }
   }; // CoreGameHUDController/InitData

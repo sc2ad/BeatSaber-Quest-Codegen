@@ -25,8 +25,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::Http::HttpClientHandler::$$c);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpClientHandler::$$c*, "System.Net.Http", "HttpClientHandler/<>c");
+NEED_NO_BOX(::System::Net::Http::HttpClientHandler::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::HttpClientHandler::$$c*, "System.Net.Http", "HttpClientHandler/<>c");
 // Type namespace: System.Net.Http
 namespace System::Net::Http {
   // Size: 0x10
@@ -37,17 +37,17 @@ namespace System::Net::Http {
   class HttpClientHandler::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly System.Net.Http.HttpClientHandler/System.Net.Http.<>c <>9
-    static System::Net::Http::HttpClientHandler::$$c* _get_$$9();
+    static ::System::Net::Http::HttpClientHandler::$$c* _get_$$9();
     // Set static field: static public readonly System.Net.Http.HttpClientHandler/System.Net.Http.<>c <>9
-    static void _set_$$9(System::Net::Http::HttpClientHandler::$$c* value);
+    static void _set_$$9(::System::Net::Http::HttpClientHandler::$$c* value);
     // Get static field: static public System.Func`2<System.String,System.Boolean> <>9__61_0
-    static System::Func_2<::StringW, bool>* _get_$$9__61_0();
+    static ::System::Func_2<::StringW, bool>* _get_$$9__61_0();
     // Set static field: static public System.Func`2<System.String,System.Boolean> <>9__61_0
-    static void _set_$$9__61_0(System::Func_2<::StringW, bool>* value);
+    static void _set_$$9__61_0(::System::Func_2<::StringW, bool>* value);
     // Get static field: static public System.Action`1<System.Object> <>9__64_0
-    static System::Action_1<::Il2CppObject*>* _get_$$9__64_0();
+    static ::System::Action_1<::Il2CppObject*>* _get_$$9__64_0();
     // Set static field: static public System.Action`1<System.Object> <>9__64_0
-    static void _set_$$9__64_0(System::Action_1<::Il2CppObject*>* value);
+    static void _set_$$9__64_0(::System::Action_1<::Il2CppObject*>* value);
     // static private System.Void .cctor()
     // Offset: 0x19044C0
     static void _cctor();
@@ -63,7 +63,7 @@ namespace System::Net::Http {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpClientHandler::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::HttpClientHandler::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::HttpClientHandler::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpClientHandler::$$c*, creationType>()));
     }
   }; // System.Net.Http.HttpClientHandler/System.Net.Http.<>c

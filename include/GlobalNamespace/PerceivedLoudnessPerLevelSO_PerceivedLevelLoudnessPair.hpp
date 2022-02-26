@@ -14,8 +14,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair*, "", "PerceivedLoudnessPerLevelSO/PerceivedLevelLoudnessPair");
+NEED_NO_BOX(::GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair*, "", "PerceivedLoudnessPerLevelSO/PerceivedLevelLoudnessPair");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x1C
@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     // Offset: 0x2ABD8DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair* New_ctor(::StringW levelId, float perceivedLoudness) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair*, creationType>(levelId, perceivedLoudness)));
     }
   }; // PerceivedLoudnessPerLevelSO/PerceivedLevelLoudnessPair

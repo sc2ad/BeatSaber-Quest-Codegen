@@ -25,8 +25,8 @@ namespace Org::BouncyCastle::Math::EC {
   class LongArray;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Math::EC::LongArray);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::LongArray*, "Org.BouncyCastle.Math.EC", "LongArray");
+NEED_NO_BOX(::Org::BouncyCastle::Math::EC::LongArray);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::LongArray*, "Org.BouncyCastle.Math.EC", "LongArray");
 // Type namespace: Org.BouncyCastle.Math.EC
 namespace Org::BouncyCastle::Math::EC {
   // Size: 0x18
@@ -85,28 +85,28 @@ namespace Org::BouncyCastle::Math::EC {
     // Offset: 0x2279C10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LongArray* New_ctor(int intLen) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::LongArray::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::LongArray::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LongArray*, creationType>(intLen)));
     }
     // public System.Void .ctor(System.Int64[] ints)
     // Offset: 0x2279C80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LongArray* New_ctor(::ArrayW<int64_t> ints) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::LongArray::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::LongArray::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LongArray*, creationType>(ints)));
     }
     // public System.Void .ctor(System.Int64[] ints, System.Int32 off, System.Int32 len)
     // Offset: 0x2279CAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LongArray* New_ctor(::ArrayW<int64_t> ints, int off, int len) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::LongArray::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::LongArray::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LongArray*, creationType>(ints, off, len)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger bigInt)
     // Offset: 0x2279D74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static LongArray* New_ctor(Org::BouncyCastle::Math::BigInteger* bigInt) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::LongArray::.ctor");
+    static LongArray* New_ctor(::Org::BouncyCastle::Math::BigInteger* bigInt) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::LongArray::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LongArray*, creationType>(bigInt)));
     }
     // static private System.Void .cctor()
@@ -141,16 +141,16 @@ namespace Org::BouncyCastle::Math::EC {
     ::ArrayW<int64_t> ResizedInts(int newLen);
     // public Org.BouncyCastle.Math.BigInteger ToBigInteger()
     // Offset: 0x227A580
-    Org::BouncyCastle::Math::BigInteger* ToBigInteger();
+    ::Org::BouncyCastle::Math::BigInteger* ToBigInteger();
     // static private System.Int64 ShiftUp(System.Int64[] x, System.Int32 xOff, System.Int64[] z, System.Int32 zOff, System.Int32 count, System.Int32 shift)
     // Offset: 0x227A7B0
     static int64_t ShiftUp(::ArrayW<int64_t> x, int xOff, ::ArrayW<int64_t> z, int zOff, int count, int shift);
     // public Org.BouncyCastle.Math.EC.LongArray AddOne()
     // Offset: 0x227A860
-    Org::BouncyCastle::Math::EC::LongArray* AddOne();
+    ::Org::BouncyCastle::Math::EC::LongArray* AddOne();
     // private System.Void AddShiftedByBitsSafe(Org.BouncyCastle.Math.EC.LongArray other, System.Int32 otherDegree, System.Int32 bits)
     // Offset: 0x227A978
-    void AddShiftedByBitsSafe(Org::BouncyCastle::Math::EC::LongArray* other, int otherDegree, int bits);
+    void AddShiftedByBitsSafe(::Org::BouncyCastle::Math::EC::LongArray* other, int otherDegree, int bits);
     // static private System.Int64 AddShiftedUp(System.Int64[] x, System.Int32 xOff, System.Int64[] y, System.Int32 yOff, System.Int32 count, System.Int32 shift)
     // Offset: 0x227AB34
     static int64_t AddShiftedUp(::ArrayW<int64_t> x, int xOff, ::ArrayW<int64_t> y, int yOff, int count, int shift);
@@ -159,7 +159,7 @@ namespace Org::BouncyCastle::Math::EC {
     static int64_t AddShiftedDown(::ArrayW<int64_t> x, int xOff, ::ArrayW<int64_t> y, int yOff, int count, int shift);
     // public System.Void AddShiftedByWords(Org.BouncyCastle.Math.EC.LongArray other, System.Int32 words)
     // Offset: 0x227AC8C
-    void AddShiftedByWords(Org::BouncyCastle::Math::EC::LongArray* other, int words);
+    void AddShiftedByWords(::Org::BouncyCastle::Math::EC::LongArray* other, int words);
     // static private System.Void Add(System.Int64[] x, System.Int32 xOff, System.Int64[] y, System.Int32 yOff, System.Int32 count)
     // Offset: 0x227AAA4
     static void Add(::ArrayW<int64_t> x, int xOff, ::ArrayW<int64_t> y, int yOff, int count);
@@ -186,16 +186,16 @@ namespace Org::BouncyCastle::Math::EC {
     static void MultiplyWord(int64_t a, ::ArrayW<int64_t> b, int bLen, ::ArrayW<int64_t> c, int cOff);
     // public Org.BouncyCastle.Math.EC.LongArray ModMultiply(Org.BouncyCastle.Math.EC.LongArray other, System.Int32 m, System.Int32[] ks)
     // Offset: 0x227B170
-    Org::BouncyCastle::Math::EC::LongArray* ModMultiply(Org::BouncyCastle::Math::EC::LongArray* other, int m, ::ArrayW<int> ks);
+    ::Org::BouncyCastle::Math::EC::LongArray* ModMultiply(::Org::BouncyCastle::Math::EC::LongArray* other, int m, ::ArrayW<int> ks);
     // public Org.BouncyCastle.Math.EC.LongArray Multiply(Org.BouncyCastle.Math.EC.LongArray other, System.Int32 m, System.Int32[] ks)
     // Offset: 0x227B6F8
-    Org::BouncyCastle::Math::EC::LongArray* Multiply(Org::BouncyCastle::Math::EC::LongArray* other, int m, ::ArrayW<int> ks);
+    ::Org::BouncyCastle::Math::EC::LongArray* Multiply(::Org::BouncyCastle::Math::EC::LongArray* other, int m, ::ArrayW<int> ks);
     // public System.Void Reduce(System.Int32 m, System.Int32[] ks)
     // Offset: 0x227BB70
     void Reduce(int m, ::ArrayW<int> ks);
     // static private Org.BouncyCastle.Math.EC.LongArray ReduceResult(System.Int64[] buf, System.Int32 off, System.Int32 len, System.Int32 m, System.Int32[] ks)
     // Offset: 0x227B638
-    static Org::BouncyCastle::Math::EC::LongArray* ReduceResult(::ArrayW<int64_t> buf, int off, int len, int m, ::ArrayW<int> ks);
+    static ::Org::BouncyCastle::Math::EC::LongArray* ReduceResult(::ArrayW<int64_t> buf, int off, int len, int m, ::ArrayW<int> ks);
     // static private System.Int32 ReduceInPlace(System.Int64[] buf, System.Int32 off, System.Int32 len, System.Int32 m, System.Int32[] ks)
     // Offset: 0x227BC54
     static int ReduceInPlace(::ArrayW<int64_t> buf, int off, int len, int m, ::ArrayW<int> ks);
@@ -219,13 +219,13 @@ namespace Org::BouncyCastle::Math::EC {
     static void FlipVector(::ArrayW<int64_t> x, int xOff, ::ArrayW<int64_t> y, int yOff, int yLen, int bits);
     // public Org.BouncyCastle.Math.EC.LongArray ModSquare(System.Int32 m, System.Int32[] ks)
     // Offset: 0x227C658
-    Org::BouncyCastle::Math::EC::LongArray* ModSquare(int m, ::ArrayW<int> ks);
+    ::Org::BouncyCastle::Math::EC::LongArray* ModSquare(int m, ::ArrayW<int> ks);
     // public Org.BouncyCastle.Math.EC.LongArray ModSquareN(System.Int32 n, System.Int32 m, System.Int32[] ks)
     // Offset: 0x227C8D8
-    Org::BouncyCastle::Math::EC::LongArray* ModSquareN(int n, int m, ::ArrayW<int> ks);
+    ::Org::BouncyCastle::Math::EC::LongArray* ModSquareN(int n, int m, ::ArrayW<int> ks);
     // public Org.BouncyCastle.Math.EC.LongArray Square(System.Int32 m, System.Int32[] ks)
     // Offset: 0x227CB04
-    Org::BouncyCastle::Math::EC::LongArray* Square(int m, ::ArrayW<int> ks);
+    ::Org::BouncyCastle::Math::EC::LongArray* Square(int m, ::ArrayW<int> ks);
     // static private System.Void SquareInPlace(System.Int64[] x, System.Int32 xLen, System.Int32 m, System.Int32[] ks)
     // Offset: 0x227CA0C
     static void SquareInPlace(::ArrayW<int64_t> x, int xLen, int m, ::ArrayW<int> ks);
@@ -234,13 +234,13 @@ namespace Org::BouncyCastle::Math::EC {
     static int64_t Interleave2_32to64(int x);
     // public Org.BouncyCastle.Math.EC.LongArray ModInverse(System.Int32 m, System.Int32[] ks)
     // Offset: 0x227CC64
-    Org::BouncyCastle::Math::EC::LongArray* ModInverse(int m, ::ArrayW<int> ks);
+    ::Org::BouncyCastle::Math::EC::LongArray* ModInverse(int m, ::ArrayW<int> ks);
     // public System.Boolean Equals(Org.BouncyCastle.Math.EC.LongArray other)
     // Offset: 0x227D200
-    bool Equals(Org::BouncyCastle::Math::EC::LongArray* other);
+    bool Equals(::Org::BouncyCastle::Math::EC::LongArray* other);
     // public Org.BouncyCastle.Math.EC.LongArray Copy()
     // Offset: 0x227D0CC
-    Org::BouncyCastle::Math::EC::LongArray* Copy();
+    ::Org::BouncyCastle::Math::EC::LongArray* Copy();
     // public override System.Boolean Equals(System.Object obj)
     // Offset: 0x227D168
     // Implemented from: System.Object
@@ -367,7 +367,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<in
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::ToBigInteger
 // Il2CppName: ToBigInteger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Math::EC::LongArray::*)()>(&Org::BouncyCastle::Math::EC::LongArray::ToBigInteger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Math::EC::LongArray::*)()>(&Org::BouncyCastle::Math::EC::LongArray::ToBigInteger)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "ToBigInteger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -389,7 +389,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::AddOne
 // Il2CppName: AddOne
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::LongArray* (Org::BouncyCastle::Math::EC::LongArray::*)()>(&Org::BouncyCastle::Math::EC::LongArray::AddOne)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::LongArray* (Org::BouncyCastle::Math::EC::LongArray::*)()>(&Org::BouncyCastle::Math::EC::LongArray::AddOne)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "AddOne", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -397,7 +397,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::AddShiftedByBitsSafe
 // Il2CppName: AddShiftedByBitsSafe
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Math::EC::LongArray::*)(Org::BouncyCastle::Math::EC::LongArray*, int, int)>(&Org::BouncyCastle::Math::EC::LongArray::AddShiftedByBitsSafe)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Math::EC::LongArray::*)(::Org::BouncyCastle::Math::EC::LongArray*, int, int)>(&Org::BouncyCastle::Math::EC::LongArray::AddShiftedByBitsSafe)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "LongArray")->byval_arg;
     static auto* otherDegree = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -436,7 +436,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::AddShiftedByWords
 // Il2CppName: AddShiftedByWords
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Math::EC::LongArray::*)(Org::BouncyCastle::Math::EC::LongArray*, int)>(&Org::BouncyCastle::Math::EC::LongArray::AddShiftedByWords)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Math::EC::LongArray::*)(::Org::BouncyCastle::Math::EC::LongArray*, int)>(&Org::BouncyCastle::Math::EC::LongArray::AddShiftedByWords)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "LongArray")->byval_arg;
     static auto* words = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -544,7 +544,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::ModMultiply
 // Il2CppName: ModMultiply
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::LongArray* (Org::BouncyCastle::Math::EC::LongArray::*)(Org::BouncyCastle::Math::EC::LongArray*, int, ::ArrayW<int>)>(&Org::BouncyCastle::Math::EC::LongArray::ModMultiply)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::LongArray* (Org::BouncyCastle::Math::EC::LongArray::*)(::Org::BouncyCastle::Math::EC::LongArray*, int, ::ArrayW<int>)>(&Org::BouncyCastle::Math::EC::LongArray::ModMultiply)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "LongArray")->byval_arg;
     static auto* m = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -555,7 +555,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::Multiply
 // Il2CppName: Multiply
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::LongArray* (Org::BouncyCastle::Math::EC::LongArray::*)(Org::BouncyCastle::Math::EC::LongArray*, int, ::ArrayW<int>)>(&Org::BouncyCastle::Math::EC::LongArray::Multiply)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::LongArray* (Org::BouncyCastle::Math::EC::LongArray::*)(::Org::BouncyCastle::Math::EC::LongArray*, int, ::ArrayW<int>)>(&Org::BouncyCastle::Math::EC::LongArray::Multiply)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "LongArray")->byval_arg;
     static auto* m = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -576,7 +576,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::ReduceResult
 // Il2CppName: ReduceResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::LongArray* (*)(::ArrayW<int64_t>, int, int, int, ::ArrayW<int>)>(&Org::BouncyCastle::Math::EC::LongArray::ReduceResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::LongArray* (*)(::ArrayW<int64_t>, int, int, int, ::ArrayW<int>)>(&Org::BouncyCastle::Math::EC::LongArray::ReduceResult)> {
   static const MethodInfo* get() {
     static auto* buf = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int64"), 1)->byval_arg;
     static auto* off = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -684,7 +684,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::ModSquare
 // Il2CppName: ModSquare
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::LongArray* (Org::BouncyCastle::Math::EC::LongArray::*)(int, ::ArrayW<int>)>(&Org::BouncyCastle::Math::EC::LongArray::ModSquare)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::LongArray* (Org::BouncyCastle::Math::EC::LongArray::*)(int, ::ArrayW<int>)>(&Org::BouncyCastle::Math::EC::LongArray::ModSquare)> {
   static const MethodInfo* get() {
     static auto* m = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* ks = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
@@ -694,7 +694,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::ModSquareN
 // Il2CppName: ModSquareN
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::LongArray* (Org::BouncyCastle::Math::EC::LongArray::*)(int, int, ::ArrayW<int>)>(&Org::BouncyCastle::Math::EC::LongArray::ModSquareN)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::LongArray* (Org::BouncyCastle::Math::EC::LongArray::*)(int, int, ::ArrayW<int>)>(&Org::BouncyCastle::Math::EC::LongArray::ModSquareN)> {
   static const MethodInfo* get() {
     static auto* n = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* m = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -705,7 +705,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::Square
 // Il2CppName: Square
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::LongArray* (Org::BouncyCastle::Math::EC::LongArray::*)(int, ::ArrayW<int>)>(&Org::BouncyCastle::Math::EC::LongArray::Square)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::LongArray* (Org::BouncyCastle::Math::EC::LongArray::*)(int, ::ArrayW<int>)>(&Org::BouncyCastle::Math::EC::LongArray::Square)> {
   static const MethodInfo* get() {
     static auto* m = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* ks = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
@@ -736,7 +736,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::ModInverse
 // Il2CppName: ModInverse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::LongArray* (Org::BouncyCastle::Math::EC::LongArray::*)(int, ::ArrayW<int>)>(&Org::BouncyCastle::Math::EC::LongArray::ModInverse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::LongArray* (Org::BouncyCastle::Math::EC::LongArray::*)(int, ::ArrayW<int>)>(&Org::BouncyCastle::Math::EC::LongArray::ModInverse)> {
   static const MethodInfo* get() {
     static auto* m = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* ks = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
@@ -746,7 +746,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::BouncyCastle::Math::EC::LongArray::*)(Org::BouncyCastle::Math::EC::LongArray*)>(&Org::BouncyCastle::Math::EC::LongArray::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::BouncyCastle::Math::EC::LongArray::*)(::Org::BouncyCastle::Math::EC::LongArray*)>(&Org::BouncyCastle::Math::EC::LongArray::Equals)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "LongArray")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
@@ -755,7 +755,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::Copy
 // Il2CppName: Copy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::LongArray* (Org::BouncyCastle::Math::EC::LongArray::*)()>(&Org::BouncyCastle::Math::EC::LongArray::Copy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::LongArray* (Org::BouncyCastle::Math::EC::LongArray::*)()>(&Org::BouncyCastle::Math::EC::LongArray::Copy)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "Copy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

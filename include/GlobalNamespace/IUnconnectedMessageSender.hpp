@@ -32,8 +32,8 @@ namespace GlobalNamespace {
   class IUnconnectedMessageSender;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::IUnconnectedMessageSender);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IUnconnectedMessageSender*, "", "IUnconnectedMessageSender");
+NEED_NO_BOX(::GlobalNamespace::IUnconnectedMessageSender);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IUnconnectedMessageSender*, "", "IUnconnectedMessageSender");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -47,16 +47,16 @@ namespace GlobalNamespace {
     ::ArrayW<uint8_t> get_unconnectedPacketHeader();
     // public PacketEncryptionLayer get_encryptionLayer()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::PacketEncryptionLayer* get_encryptionLayer();
+    ::GlobalNamespace::PacketEncryptionLayer* get_encryptionLayer();
     // public System.Void SendUnconnectedMessage(System.Net.IPEndPoint remoteEndPoint, LiteNetLib.Utils.NetDataWriter writer)
     // Offset: 0xFFFFFFFF
-    void SendUnconnectedMessage(System::Net::IPEndPoint* remoteEndPoint, LiteNetLib::Utils::NetDataWriter* writer);
+    void SendUnconnectedMessage(::System::Net::IPEndPoint* remoteEndPoint, ::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void RegisterReceiver(IUnconnectedMessageReceiver receiver)
     // Offset: 0xFFFFFFFF
-    void RegisterReceiver(GlobalNamespace::IUnconnectedMessageReceiver* receiver);
+    void RegisterReceiver(::GlobalNamespace::IUnconnectedMessageReceiver* receiver);
     // public System.Void UnregisterReceiver(IUnconnectedMessageReceiver receiver)
     // Offset: 0xFFFFFFFF
-    void UnregisterReceiver(GlobalNamespace::IUnconnectedMessageReceiver* receiver);
+    void UnregisterReceiver(::GlobalNamespace::IUnconnectedMessageReceiver* receiver);
   }; // IUnconnectedMessageSender
   #pragma pack(pop)
 }
@@ -72,7 +72,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
 // Writing MetadataGetter for method: GlobalNamespace::IUnconnectedMessageSender::get_encryptionLayer
 // Il2CppName: get_encryptionLayer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketEncryptionLayer* (GlobalNamespace::IUnconnectedMessageSender::*)()>(&GlobalNamespace::IUnconnectedMessageSender::get_encryptionLayer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PacketEncryptionLayer* (GlobalNamespace::IUnconnectedMessageSender::*)()>(&GlobalNamespace::IUnconnectedMessageSender::get_encryptionLayer)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IUnconnectedMessageSender*), "get_encryptionLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -80,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::IUnconnectedMessageSender::SendUnconnectedMessage
 // Il2CppName: SendUnconnectedMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IUnconnectedMessageSender::*)(System::Net::IPEndPoint*, LiteNetLib::Utils::NetDataWriter*)>(&GlobalNamespace::IUnconnectedMessageSender::SendUnconnectedMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IUnconnectedMessageSender::*)(::System::Net::IPEndPoint*, ::LiteNetLib::Utils::NetDataWriter*)>(&GlobalNamespace::IUnconnectedMessageSender::SendUnconnectedMessage)> {
   static const MethodInfo* get() {
     static auto* remoteEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     static auto* writer = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataWriter")->byval_arg;
@@ -90,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IUnconnectedMessageSender::RegisterReceiver
 // Il2CppName: RegisterReceiver
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IUnconnectedMessageSender::*)(GlobalNamespace::IUnconnectedMessageReceiver*)>(&GlobalNamespace::IUnconnectedMessageSender::RegisterReceiver)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IUnconnectedMessageSender::*)(::GlobalNamespace::IUnconnectedMessageReceiver*)>(&GlobalNamespace::IUnconnectedMessageSender::RegisterReceiver)> {
   static const MethodInfo* get() {
     static auto* receiver = &::il2cpp_utils::GetClassFromName("", "IUnconnectedMessageReceiver")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IUnconnectedMessageSender*), "RegisterReceiver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{receiver});
@@ -99,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IUnconnectedMessageSender::UnregisterReceiver
 // Il2CppName: UnregisterReceiver
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IUnconnectedMessageSender::*)(GlobalNamespace::IUnconnectedMessageReceiver*)>(&GlobalNamespace::IUnconnectedMessageSender::UnregisterReceiver)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IUnconnectedMessageSender::*)(::GlobalNamespace::IUnconnectedMessageReceiver*)>(&GlobalNamespace::IUnconnectedMessageSender::UnregisterReceiver)> {
   static const MethodInfo* get() {
     static auto* receiver = &::il2cpp_utils::GetClassFromName("", "IUnconnectedMessageReceiver")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IUnconnectedMessageSender*), "UnregisterReceiver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{receiver});

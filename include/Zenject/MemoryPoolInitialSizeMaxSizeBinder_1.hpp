@@ -33,7 +33,7 @@ namespace Zenject {
   class MemoryPoolInitialSizeMaxSizeBinder_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::MemoryPoolInitialSizeMaxSizeBinder_1, "Zenject", "MemoryPoolInitialSizeMaxSizeBinder`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1, "Zenject", "MemoryPoolInitialSizeMaxSizeBinder`1");
 // Type namespace: Zenject
 namespace Zenject {
   // WARNING Size may be invalid!
@@ -41,21 +41,21 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   template<typename TContract>
-  class MemoryPoolInitialSizeMaxSizeBinder_1 : public Zenject::MemoryPoolMaxSizeBinder_1<TContract> {
+  class MemoryPoolInitialSizeMaxSizeBinder_1 : public ::Zenject::MemoryPoolMaxSizeBinder_1<TContract> {
     public:
     // public Zenject.MemoryPoolMaxSizeBinder`1<TContract> WithInitialSize(System.Int32 size)
     // Offset: 0xFFFFFFFF
-    Zenject::MemoryPoolMaxSizeBinder_1<TContract>* WithInitialSize(int size) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MemoryPoolInitialSizeMaxSizeBinder_1::WithInitialSize");
+    ::Zenject::MemoryPoolMaxSizeBinder_1<TContract>* WithInitialSize(int size) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1::WithInitialSize");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "WithInitialSize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(size)})));
-      return ::il2cpp_utils::RunMethodRethrow<Zenject::MemoryPoolMaxSizeBinder_1<TContract>*, false>(this, ___internal__method, size);
+      return ::il2cpp_utils::RunMethodRethrow<::Zenject::MemoryPoolMaxSizeBinder_1<TContract>*, false>(this, ___internal__method, size);
     }
     // public Zenject.FactoryArgumentsToChoiceBinder`1<TContract> WithFixedSize(System.Int32 size)
     // Offset: 0xFFFFFFFF
-    Zenject::FactoryArgumentsToChoiceBinder_1<TContract>* WithFixedSize(int size) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MemoryPoolInitialSizeMaxSizeBinder_1::WithFixedSize");
+    ::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>* WithFixedSize(int size) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1::WithFixedSize");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "WithFixedSize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(size)})));
-      return ::il2cpp_utils::RunMethodRethrow<Zenject::FactoryArgumentsToChoiceBinder_1<TContract>*, false>(this, ___internal__method, size);
+      return ::il2cpp_utils::RunMethodRethrow<::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>*, false>(this, ___internal__method, size);
     }
     // public System.Void .ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo, Zenject.MemoryPoolBindInfo poolBindInfo)
     // Offset: 0xFFFFFFFF
@@ -63,8 +63,8 @@ namespace Zenject {
     // Base method: System.Void MemoryPoolMaxSizeBinder_1::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo, Zenject.MemoryPoolBindInfo poolBindInfo)
     // Base method: System.Void MemoryPoolExpandBinder_1::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.FactoryBindInfo factoryBindInfo, Zenject.MemoryPoolBindInfo poolBindInfo)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MemoryPoolInitialSizeMaxSizeBinder_1<TContract>* New_ctor(Zenject::DiContainer* bindContainer, Zenject::BindInfo* bindInfo, Zenject::FactoryBindInfo* factoryBindInfo, Zenject::MemoryPoolBindInfo* poolBindInfo) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Zenject::MemoryPoolInitialSizeMaxSizeBinder_1::.ctor");
+    static MemoryPoolInitialSizeMaxSizeBinder_1<TContract>* New_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo, ::Zenject::MemoryPoolBindInfo* poolBindInfo) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*, creationType>(bindContainer, bindInfo, factoryBindInfo, poolBindInfo)));
     }
   }; // Zenject.MemoryPoolInitialSizeMaxSizeBinder`1

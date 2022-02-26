@@ -17,8 +17,8 @@ namespace UnityEngine {
   class UnhandledExceptionHandler;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::UnhandledExceptionHandler);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnhandledExceptionHandler*, "UnityEngine", "UnhandledExceptionHandler");
+NEED_NO_BOX(::UnityEngine::UnhandledExceptionHandler);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UnhandledExceptionHandler*, "UnityEngine", "UnhandledExceptionHandler");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -28,7 +28,7 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: 11A6180
   class UnhandledExceptionHandler : public ::Il2CppObject {
     public:
-    // Nested type: UnityEngine::UnhandledExceptionHandler::$$c
+    // Nested type: ::UnityEngine::UnhandledExceptionHandler::$$c
     class $$c;
     // static private System.Void RegisterUECatcher()
     // Offset: 0x2700084

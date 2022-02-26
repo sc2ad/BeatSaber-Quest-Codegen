@@ -18,8 +18,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PlayerSaveData::PlayerLevelStatsData);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveData::PlayerLevelStatsData*, "", "PlayerSaveData/PlayerLevelStatsData");
+NEED_NO_BOX(::GlobalNamespace::PlayerSaveData::PlayerLevelStatsData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlayerSaveData::PlayerLevelStatsData*, "", "PlayerSaveData/PlayerLevelStatsData");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x40
@@ -46,9 +46,9 @@ namespace GlobalNamespace {
     // public BeatmapDifficulty difficulty
     // Size: 0x4
     // Offset: 0x18
-    GlobalNamespace::BeatmapDifficulty difficulty;
+    ::GlobalNamespace::BeatmapDifficulty difficulty;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::BeatmapDifficulty) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::BeatmapDifficulty) == 0x4);
     // Padding between fields: difficulty and: beatmapCharacteristicName
     char __padding1[0x4] = {};
     // public System.String beatmapCharacteristicName
@@ -80,9 +80,9 @@ namespace GlobalNamespace {
     // public RankModel/Rank maxRank
     // Size: 0x4
     // Offset: 0x34
-    GlobalNamespace::RankModel::Rank maxRank;
+    ::GlobalNamespace::RankModel::Rank maxRank;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::RankModel::Rank) == 0x4);
+    static_assert(sizeof(::GlobalNamespace::RankModel::Rank) == 0x4);
     // public System.Boolean validScore
     // Size: 0x1
     // Offset: 0x38
@@ -101,7 +101,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String levelId
     ::StringW& dyn_levelId();
     // Get instance field reference: public BeatmapDifficulty difficulty
-    GlobalNamespace::BeatmapDifficulty& dyn_difficulty();
+    ::GlobalNamespace::BeatmapDifficulty& dyn_difficulty();
     // Get instance field reference: public System.String beatmapCharacteristicName
     ::StringW& dyn_beatmapCharacteristicName();
     // Get instance field reference: public System.Int32 highScore
@@ -111,7 +111,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean fullCombo
     bool& dyn_fullCombo();
     // Get instance field reference: public RankModel/Rank maxRank
-    GlobalNamespace::RankModel::Rank& dyn_maxRank();
+    ::GlobalNamespace::RankModel::Rank& dyn_maxRank();
     // Get instance field reference: public System.Boolean validScore
     bool& dyn_validScore();
     // Get instance field reference: public System.Int32 playCount
@@ -122,7 +122,7 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerSaveData::PlayerLevelStatsData* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerSaveData::PlayerLevelStatsData::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSaveData::PlayerLevelStatsData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerSaveData::PlayerLevelStatsData*, creationType>()));
     }
   }; // PlayerSaveData/PlayerLevelStatsData

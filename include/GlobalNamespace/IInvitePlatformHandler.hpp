@@ -11,8 +11,8 @@ namespace GlobalNamespace {
   class IInvitePlatformHandler;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::IInvitePlatformHandler);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IInvitePlatformHandler*, "", "IInvitePlatformHandler");
+NEED_NO_BOX(::GlobalNamespace::IInvitePlatformHandler);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IInvitePlatformHandler*, "", "IInvitePlatformHandler");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10

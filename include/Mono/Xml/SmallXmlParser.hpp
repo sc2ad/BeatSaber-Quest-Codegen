@@ -43,8 +43,8 @@ namespace Mono::Xml {
   class SmallXmlParser;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Xml::SmallXmlParser);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Xml::SmallXmlParser*, "Mono.Xml", "SmallXmlParser");
+NEED_NO_BOX(::Mono::Xml::SmallXmlParser);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Xml::SmallXmlParser*, "Mono.Xml", "SmallXmlParser");
 // Type namespace: Mono.Xml
 namespace Mono::Xml {
   // Size: 0x61
@@ -53,11 +53,11 @@ namespace Mono::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class SmallXmlParser : public ::Il2CppObject {
     public:
-    // Nested type: Mono::Xml::SmallXmlParser::IContentHandler
+    // Nested type: ::Mono::Xml::SmallXmlParser::IContentHandler
     class IContentHandler;
-    // Nested type: Mono::Xml::SmallXmlParser::IAttrList
+    // Nested type: ::Mono::Xml::SmallXmlParser::IAttrList
     class IAttrList;
-    // Nested type: Mono::Xml::SmallXmlParser::AttrListImpl
+    // Nested type: ::Mono::Xml::SmallXmlParser::AttrListImpl
     class AttrListImpl;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -71,27 +71,27 @@ namespace Mono::Xml {
     // private Mono.Xml.SmallXmlParser/Mono.Xml.IContentHandler handler
     // Size: 0x8
     // Offset: 0x10
-    Mono::Xml::SmallXmlParser::IContentHandler* handler;
+    ::Mono::Xml::SmallXmlParser::IContentHandler* handler;
     // Field size check
-    static_assert(sizeof(Mono::Xml::SmallXmlParser::IContentHandler*) == 0x8);
+    static_assert(sizeof(::Mono::Xml::SmallXmlParser::IContentHandler*) == 0x8);
     // private System.IO.TextReader reader
     // Size: 0x8
     // Offset: 0x18
-    System::IO::TextReader* reader;
+    ::System::IO::TextReader* reader;
     // Field size check
-    static_assert(sizeof(System::IO::TextReader*) == 0x8);
+    static_assert(sizeof(::System::IO::TextReader*) == 0x8);
     // private System.Collections.Stack elementNames
     // Size: 0x8
     // Offset: 0x20
-    System::Collections::Stack* elementNames;
+    ::System::Collections::Stack* elementNames;
     // Field size check
-    static_assert(sizeof(System::Collections::Stack*) == 0x8);
+    static_assert(sizeof(::System::Collections::Stack*) == 0x8);
     // private System.Collections.Stack xmlSpaces
     // Size: 0x8
     // Offset: 0x28
-    System::Collections::Stack* xmlSpaces;
+    ::System::Collections::Stack* xmlSpaces;
     // Field size check
-    static_assert(sizeof(System::Collections::Stack*) == 0x8);
+    static_assert(sizeof(::System::Collections::Stack*) == 0x8);
     // private System.String xmlSpace
     // Size: 0x8
     // Offset: 0x30
@@ -101,9 +101,9 @@ namespace Mono::Xml {
     // private System.Text.StringBuilder buffer
     // Size: 0x8
     // Offset: 0x38
-    System::Text::StringBuilder* buffer;
+    ::System::Text::StringBuilder* buffer;
     // Field size check
-    static_assert(sizeof(System::Text::StringBuilder*) == 0x8);
+    static_assert(sizeof(::System::Text::StringBuilder*) == 0x8);
     // private System.Char[] nameBuffer
     // Size: 0x8
     // Offset: 0x40
@@ -121,9 +121,9 @@ namespace Mono::Xml {
     // private Mono.Xml.SmallXmlParser/Mono.Xml.AttrListImpl attributes
     // Size: 0x8
     // Offset: 0x50
-    Mono::Xml::SmallXmlParser::AttrListImpl* attributes;
+    ::Mono::Xml::SmallXmlParser::AttrListImpl* attributes;
     // Field size check
-    static_assert(sizeof(Mono::Xml::SmallXmlParser::AttrListImpl*) == 0x8);
+    static_assert(sizeof(::Mono::Xml::SmallXmlParser::AttrListImpl*) == 0x8);
     // private System.Int32 line
     // Size: 0x4
     // Offset: 0x58
@@ -144,23 +144,23 @@ namespace Mono::Xml {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private Mono.Xml.SmallXmlParser/Mono.Xml.IContentHandler handler
-    Mono::Xml::SmallXmlParser::IContentHandler*& dyn_handler();
+    ::Mono::Xml::SmallXmlParser::IContentHandler*& dyn_handler();
     // Get instance field reference: private System.IO.TextReader reader
-    System::IO::TextReader*& dyn_reader();
+    ::System::IO::TextReader*& dyn_reader();
     // Get instance field reference: private System.Collections.Stack elementNames
-    System::Collections::Stack*& dyn_elementNames();
+    ::System::Collections::Stack*& dyn_elementNames();
     // Get instance field reference: private System.Collections.Stack xmlSpaces
-    System::Collections::Stack*& dyn_xmlSpaces();
+    ::System::Collections::Stack*& dyn_xmlSpaces();
     // Get instance field reference: private System.String xmlSpace
     ::StringW& dyn_xmlSpace();
     // Get instance field reference: private System.Text.StringBuilder buffer
-    System::Text::StringBuilder*& dyn_buffer();
+    ::System::Text::StringBuilder*& dyn_buffer();
     // Get instance field reference: private System.Char[] nameBuffer
     ::ArrayW<::Il2CppChar>& dyn_nameBuffer();
     // Get instance field reference: private System.Boolean isWhitespace
     bool& dyn_isWhitespace();
     // Get instance field reference: private Mono.Xml.SmallXmlParser/Mono.Xml.AttrListImpl attributes
-    Mono::Xml::SmallXmlParser::AttrListImpl*& dyn_attributes();
+    ::Mono::Xml::SmallXmlParser::AttrListImpl*& dyn_attributes();
     // Get instance field reference: private System.Int32 line
     int& dyn_line();
     // Get instance field reference: private System.Int32 column
@@ -169,10 +169,10 @@ namespace Mono::Xml {
     bool& dyn_resetColumn();
     // private System.Exception Error(System.String msg)
     // Offset: 0x1E8D5C8
-    System::Exception* Error(::StringW msg);
+    ::System::Exception* Error(::StringW msg);
     // private System.Exception UnexpectedEndError()
     // Offset: 0x1E8D708
-    System::Exception* UnexpectedEndError();
+    ::System::Exception* UnexpectedEndError();
     // private System.Boolean IsNameChar(System.Char c, System.Boolean start)
     // Offset: 0x1E8D7DC
     bool IsNameChar(::Il2CppChar c, bool start);
@@ -205,7 +205,7 @@ namespace Mono::Xml {
     ::StringW ReadName();
     // public System.Void Parse(System.IO.TextReader input, Mono.Xml.SmallXmlParser/Mono.Xml.IContentHandler handler)
     // Offset: 0x1E8CF98
-    void Parse(System::IO::TextReader* input, Mono::Xml::SmallXmlParser::IContentHandler* handler);
+    void Parse(::System::IO::TextReader* input, ::Mono::Xml::SmallXmlParser::IContentHandler* handler);
     // private System.Void Cleanup()
     // Offset: 0x1E8E878
     void Cleanup();
@@ -226,7 +226,7 @@ namespace Mono::Xml {
     int ReadCharacterReference();
     // private System.Void ReadAttribute(Mono.Xml.SmallXmlParser/Mono.Xml.AttrListImpl a)
     // Offset: 0x1E8EB28
-    void ReadAttribute(Mono::Xml::SmallXmlParser::AttrListImpl* a);
+    void ReadAttribute(::Mono::Xml::SmallXmlParser::AttrListImpl* a);
     // private System.Void ReadCDATASection()
     // Offset: 0x1E8E960
     void ReadCDATASection();
@@ -239,7 +239,7 @@ namespace Mono::Xml {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SmallXmlParser* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Xml::SmallXmlParser::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Xml::SmallXmlParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SmallXmlParser*, creationType>()));
     }
   }; // Mono.Xml.SmallXmlParser
@@ -251,7 +251,7 @@ namespace Mono::Xml {
 // Writing MetadataGetter for method: Mono::Xml::SmallXmlParser::Error
 // Il2CppName: Error
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (Mono::Xml::SmallXmlParser::*)(::StringW)>(&Mono::Xml::SmallXmlParser::Error)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (Mono::Xml::SmallXmlParser::*)(::StringW)>(&Mono::Xml::SmallXmlParser::Error)> {
   static const MethodInfo* get() {
     static auto* msg = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Xml::SmallXmlParser*), "Error", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{msg});
@@ -260,7 +260,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: Mono::Xml::SmallXmlParser::UnexpectedEndError
 // Il2CppName: UnexpectedEndError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (Mono::Xml::SmallXmlParser::*)()>(&Mono::Xml::SmallXmlParser::UnexpectedEndError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (Mono::Xml::SmallXmlParser::*)()>(&Mono::Xml::SmallXmlParser::UnexpectedEndError)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Xml::SmallXmlParser*), "UnexpectedEndError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -355,7 +355,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: Mono::Xml::SmallXmlParser::Parse
 // Il2CppName: Parse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Xml::SmallXmlParser::*)(System::IO::TextReader*, Mono::Xml::SmallXmlParser::IContentHandler*)>(&Mono::Xml::SmallXmlParser::Parse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Xml::SmallXmlParser::*)(::System::IO::TextReader*, ::Mono::Xml::SmallXmlParser::IContentHandler*)>(&Mono::Xml::SmallXmlParser::Parse)> {
   static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System.IO", "TextReader")->byval_arg;
     static auto* handler = &::il2cpp_utils::GetClassFromName("Mono.Xml", "SmallXmlParser/IContentHandler")->byval_arg;
@@ -413,7 +413,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Writing MetadataGetter for method: Mono::Xml::SmallXmlParser::ReadAttribute
 // Il2CppName: ReadAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Xml::SmallXmlParser::*)(Mono::Xml::SmallXmlParser::AttrListImpl*)>(&Mono::Xml::SmallXmlParser::ReadAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Xml::SmallXmlParser::*)(::Mono::Xml::SmallXmlParser::AttrListImpl*)>(&Mono::Xml::SmallXmlParser::ReadAttribute)> {
   static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("Mono.Xml", "SmallXmlParser/AttrListImpl")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Xml::SmallXmlParser*), "ReadAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a});

@@ -57,8 +57,8 @@ namespace System::Reflection {
   class FieldInfo;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Reflection::FieldInfo);
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::FieldInfo*, "System.Reflection", "FieldInfo");
+NEED_NO_BOX(::System::Reflection::FieldInfo);
+DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::FieldInfo*, "System.Reflection", "FieldInfo");
 // Type namespace: System.Reflection
 namespace System::Reflection {
   // Size: 0x10
@@ -68,21 +68,21 @@ namespace System::Reflection {
   // [ComVisibleAttribute] Offset: 1188A2C
   // [ComDefaultInterfaceAttribute] Offset: 1188A2C
   // [ClassInterfaceAttribute] Offset: 1188A2C
-  class FieldInfo : public System::Reflection::MemberInfo/*, public System::Runtime::InteropServices::_FieldInfo*/ {
+  class FieldInfo : public ::System::Reflection::MemberInfo/*, public ::System::Runtime::InteropServices::_FieldInfo*/ {
     public:
-    // Creating interface conversion operator: operator System::Runtime::InteropServices::_FieldInfo
-    operator System::Runtime::InteropServices::_FieldInfo() noexcept {
-      return *reinterpret_cast<System::Runtime::InteropServices::_FieldInfo*>(this);
+    // Creating interface conversion operator: operator ::System::Runtime::InteropServices::_FieldInfo
+    operator ::System::Runtime::InteropServices::_FieldInfo() noexcept {
+      return *reinterpret_cast<::System::Runtime::InteropServices::_FieldInfo*>(this);
     }
     // public System.Reflection.FieldAttributes get_Attributes()
     // Offset: 0xFFFFFFFF
-    System::Reflection::FieldAttributes get_Attributes();
+    ::System::Reflection::FieldAttributes get_Attributes();
     // public System.RuntimeFieldHandle get_FieldHandle()
     // Offset: 0xFFFFFFFF
-    System::RuntimeFieldHandle get_FieldHandle();
+    ::System::RuntimeFieldHandle get_FieldHandle();
     // public System.Type get_FieldType()
     // Offset: 0xFFFFFFFF
-    System::Type* get_FieldType();
+    ::System::Type* get_FieldType();
     // public System.Boolean get_IsLiteral()
     // Offset: 0x2167438
     bool get_IsLiteral();
@@ -106,28 +106,28 @@ namespace System::Reflection {
     ::Il2CppObject* GetValue(::Il2CppObject* obj);
     // public System.Void SetValue(System.Object obj, System.Object value, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Globalization.CultureInfo culture)
     // Offset: 0xFFFFFFFF
-    void SetValue(::Il2CppObject* obj, ::Il2CppObject* value, System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, System::Globalization::CultureInfo* culture);
+    void SetValue(::Il2CppObject* obj, ::Il2CppObject* value, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder, ::System::Globalization::CultureInfo* culture);
     // public System.Void SetValue(System.Object obj, System.Object value)
     // Offset: 0x2167520
     void SetValue(::Il2CppObject* obj, ::Il2CppObject* value);
     // static private System.Reflection.FieldInfo internal_from_handle_type(System.IntPtr field_handle, System.IntPtr type_handle)
     // Offset: 0x216753C
-    static System::Reflection::FieldInfo* internal_from_handle_type(System::IntPtr field_handle, System::IntPtr type_handle);
+    static ::System::Reflection::FieldInfo* internal_from_handle_type(::System::IntPtr field_handle, ::System::IntPtr type_handle);
     // static public System.Reflection.FieldInfo GetFieldFromHandle(System.RuntimeFieldHandle handle)
     // Offset: 0x2167540
-    static System::Reflection::FieldInfo* GetFieldFromHandle(System::RuntimeFieldHandle handle);
+    static ::System::Reflection::FieldInfo* GetFieldFromHandle(::System::RuntimeFieldHandle handle);
     // static public System.Reflection.FieldInfo GetFieldFromHandle(System.RuntimeFieldHandle handle, System.RuntimeTypeHandle declaringType)
     // Offset: 0x21675D8
-    static System::Reflection::FieldInfo* GetFieldFromHandle(System::RuntimeFieldHandle handle, System::RuntimeTypeHandle declaringType);
+    static ::System::Reflection::FieldInfo* GetFieldFromHandle(::System::RuntimeFieldHandle handle, ::System::RuntimeTypeHandle declaringType);
     // System.Int32 GetFieldOffset()
     // Offset: 0x21676FC
     int GetFieldOffset();
     // public System.Void SetValueDirect(System.TypedReference obj, System.Object value)
     // Offset: 0x2167768
-    void SetValueDirect(System::TypedReference obj, ::Il2CppObject* value);
+    void SetValueDirect(::System::TypedReference obj, ::Il2CppObject* value);
     // private System.Runtime.InteropServices.MarshalAsAttribute get_marshal_info()
     // Offset: 0x21677E8
-    System::Runtime::InteropServices::MarshalAsAttribute* get_marshal_info();
+    ::System::Runtime::InteropServices::MarshalAsAttribute* get_marshal_info();
     // System.Object[] GetPseudoCustomAttributes()
     // Offset: 0x21677EC
     ::ArrayW<::Il2CppObject*> GetPseudoCustomAttributes();
@@ -138,7 +138,7 @@ namespace System::Reflection {
     // Offset: 0x2167430
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Reflection.MemberTypes MemberInfo::get_MemberType()
-    System::Reflection::MemberTypes get_MemberType();
+    ::System::Reflection::MemberTypes get_MemberType();
     // protected System.Void .ctor()
     // Offset: 0x216742C
     // Implemented from: System.Reflection.MemberInfo
@@ -146,7 +146,7 @@ namespace System::Reflection {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FieldInfo* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::FieldInfo::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Reflection::FieldInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FieldInfo*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object obj)
@@ -163,16 +163,16 @@ namespace System::Reflection {
   #pragma pack(pop)
   // static public System.Boolean op_Equality(System.Reflection.FieldInfo left, System.Reflection.FieldInfo right)
   // Offset: 0x21676B0
-  bool operator ==(System::Reflection::FieldInfo* left, System::Reflection::FieldInfo& right);
+  bool operator ==(::System::Reflection::FieldInfo* left, ::System::Reflection::FieldInfo& right);
   // static public System.Boolean op_Inequality(System.Reflection.FieldInfo left, System.Reflection.FieldInfo right)
   // Offset: 0x2167A74
-  bool operator !=(System::Reflection::FieldInfo* left, System::Reflection::FieldInfo& right);
+  bool operator !=(::System::Reflection::FieldInfo* left, ::System::Reflection::FieldInfo& right);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::FieldInfo::get_Attributes
 // Il2CppName: get_Attributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::FieldAttributes (System::Reflection::FieldInfo::*)()>(&System::Reflection::FieldInfo::get_Attributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::FieldAttributes (System::Reflection::FieldInfo::*)()>(&System::Reflection::FieldInfo::get_Attributes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::FieldInfo*), "get_Attributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -180,7 +180,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Reflection::FieldInfo::get_FieldHandle
 // Il2CppName: get_FieldHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::RuntimeFieldHandle (System::Reflection::FieldInfo::*)()>(&System::Reflection::FieldInfo::get_FieldHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::RuntimeFieldHandle (System::Reflection::FieldInfo::*)()>(&System::Reflection::FieldInfo::get_FieldHandle)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::FieldInfo*), "get_FieldHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -188,7 +188,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: System::Reflection::FieldInfo::get_FieldType
 // Il2CppName: get_FieldType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Reflection::FieldInfo::*)()>(&System::Reflection::FieldInfo::get_FieldType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (System::Reflection::FieldInfo::*)()>(&System::Reflection::FieldInfo::get_FieldType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::FieldInfo*), "get_FieldType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -253,7 +253,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Reflection::FieldInfo::SetValue
 // Il2CppName: SetValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Reflection::FieldInfo::*)(::Il2CppObject*, ::Il2CppObject*, System::Reflection::BindingFlags, System::Reflection::Binder*, System::Globalization::CultureInfo*)>(&System::Reflection::FieldInfo::SetValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Reflection::FieldInfo::*)(::Il2CppObject*, ::Il2CppObject*, ::System::Reflection::BindingFlags, ::System::Reflection::Binder*, ::System::Globalization::CultureInfo*)>(&System::Reflection::FieldInfo::SetValue)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -276,7 +276,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Reflection::FieldInfo::internal_from_handle_type
 // Il2CppName: internal_from_handle_type
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::FieldInfo* (*)(System::IntPtr, System::IntPtr)>(&System::Reflection::FieldInfo::internal_from_handle_type)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::FieldInfo* (*)(::System::IntPtr, ::System::IntPtr)>(&System::Reflection::FieldInfo::internal_from_handle_type)> {
   static const MethodInfo* get() {
     static auto* field_handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* type_handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -286,7 +286,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Reflection::FieldInfo::GetFieldFromHandle
 // Il2CppName: GetFieldFromHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::FieldInfo* (*)(System::RuntimeFieldHandle)>(&System::Reflection::FieldInfo::GetFieldFromHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::FieldInfo* (*)(::System::RuntimeFieldHandle)>(&System::Reflection::FieldInfo::GetFieldFromHandle)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "RuntimeFieldHandle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::FieldInfo*), "GetFieldFromHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{handle});
@@ -295,7 +295,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Reflection::FieldInfo::GetFieldFromHandle
 // Il2CppName: GetFieldFromHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::FieldInfo* (*)(System::RuntimeFieldHandle, System::RuntimeTypeHandle)>(&System::Reflection::FieldInfo::GetFieldFromHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::FieldInfo* (*)(::System::RuntimeFieldHandle, ::System::RuntimeTypeHandle)>(&System::Reflection::FieldInfo::GetFieldFromHandle)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "RuntimeFieldHandle")->byval_arg;
     static auto* declaringType = &::il2cpp_utils::GetClassFromName("System", "RuntimeTypeHandle")->byval_arg;
@@ -313,7 +313,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Reflection::FieldInfo::SetValueDirect
 // Il2CppName: SetValueDirect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Reflection::FieldInfo::*)(System::TypedReference, ::Il2CppObject*)>(&System::Reflection::FieldInfo::SetValueDirect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Reflection::FieldInfo::*)(::System::TypedReference, ::Il2CppObject*)>(&System::Reflection::FieldInfo::SetValueDirect)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "TypedReference")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -323,7 +323,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Reflection::FieldInfo::get_marshal_info
 // Il2CppName: get_marshal_info
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::InteropServices::MarshalAsAttribute* (System::Reflection::FieldInfo::*)()>(&System::Reflection::FieldInfo::get_marshal_info)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::InteropServices::MarshalAsAttribute* (System::Reflection::FieldInfo::*)()>(&System::Reflection::FieldInfo::get_marshal_info)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::FieldInfo*), "get_marshal_info", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -347,7 +347,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Reflection::FieldInfo::get_MemberType
 // Il2CppName: get_MemberType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MemberTypes (System::Reflection::FieldInfo::*)()>(&System::Reflection::FieldInfo::get_MemberType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MemberTypes (System::Reflection::FieldInfo::*)()>(&System::Reflection::FieldInfo::get_MemberType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::FieldInfo*), "get_MemberType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

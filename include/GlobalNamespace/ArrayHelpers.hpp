@@ -17,8 +17,8 @@ namespace GlobalNamespace {
   class ArrayHelpers;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::ArrayHelpers);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ArrayHelpers*, "", "ArrayHelpers");
+NEED_NO_BOX(::GlobalNamespace::ArrayHelpers);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ArrayHelpers*, "", "ArrayHelpers");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -31,7 +31,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     template<class T>
     static ::ArrayW<T> CreateOrEnlargeArray(::ArrayW<T> array, int minimumCapacity) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ArrayHelpers::CreateOrEnlargeArray");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ArrayHelpers::CreateOrEnlargeArray");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "ArrayHelpers", "CreateOrEnlargeArray", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(minimumCapacity)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<T>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, array, minimumCapacity);

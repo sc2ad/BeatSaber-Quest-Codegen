@@ -38,8 +38,8 @@ namespace LiteNetLib::Utils {
   class NetDataReader;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(LiteNetLib::Utils::NetDataReader);
-DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NetDataReader*, "LiteNetLib.Utils", "NetDataReader");
+NEED_NO_BOX(::LiteNetLib::Utils::NetDataReader);
+DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::Utils::NetDataReader*, "LiteNetLib.Utils", "NetDataReader");
 // Type namespace: LiteNetLib.Utils
 namespace LiteNetLib::Utils {
   // Size: 0x24
@@ -118,21 +118,21 @@ namespace LiteNetLib::Utils {
     // Offset: 0x20EC530
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetDataReader* New_ctor(::ArrayW<uint8_t> source) {
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetDataReader::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetDataReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetDataReader*, creationType>(source)));
     }
     // public System.Void .ctor(System.Byte[] source, System.Int32 offset)
     // Offset: 0x20EC574
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetDataReader* New_ctor(::ArrayW<uint8_t> source, int offset) {
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetDataReader::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetDataReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetDataReader*, creationType>(source, offset)));
     }
     // public System.Void .ctor(System.Byte[] source, System.Int32 offset, System.Int32 maxSize)
     // Offset: 0x20E0430
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetDataReader* New_ctor(::ArrayW<uint8_t> source, int offset, int maxSize) {
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetDataReader::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetDataReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetDataReader*, creationType>(source, offset, maxSize)));
     }
     // public System.Void SkipBytes(System.Int32 count)
@@ -140,7 +140,7 @@ namespace LiteNetLib::Utils {
     void SkipBytes(int count);
     // public System.Void SetSource(LiteNetLib.Utils.NetDataWriter dataWriter)
     // Offset: 0x20EC4B4
-    void SetSource(LiteNetLib::Utils::NetDataWriter* dataWriter);
+    void SetSource(::LiteNetLib::Utils::NetDataWriter* dataWriter);
     // public System.Void SetSource(System.Byte[] source)
     // Offset: 0x20EC4E0
     void SetSource(::ArrayW<uint8_t> source);
@@ -152,7 +152,7 @@ namespace LiteNetLib::Utils {
     void SetSource(::ArrayW<uint8_t> source, int offset, int maxSize);
     // public System.Net.IPEndPoint GetNetEndPoint()
     // Offset: 0x20EC5C4
-    System::Net::IPEndPoint* GetNetEndPoint();
+    ::System::Net::IPEndPoint* GetNetEndPoint();
     // public System.Byte GetByte()
     // Offset: 0x20EC7C4
     uint8_t GetByte();
@@ -230,13 +230,13 @@ namespace LiteNetLib::Utils {
     ::StringW GetString();
     // public System.ArraySegment`1<System.Byte> GetRemainingBytesSegment()
     // Offset: 0x20ED738
-    System::ArraySegment_1<uint8_t> GetRemainingBytesSegment();
+    ::System::ArraySegment_1<uint8_t> GetRemainingBytesSegment();
     // public T Get()
     // Offset: 0xFFFFFFFF
     template<class T>
     T Get() {
-      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, LiteNetLib::Utils::INetSerializable>);
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetDataReader::Get");
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, ::LiteNetLib::Utils::INetSerializable>);
+      static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetDataReader::Get");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Get", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(this, ___generic__method);
@@ -352,7 +352,7 @@ namespace LiteNetLib::Utils {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetDataReader* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetDataReader::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::LiteNetLib::Utils::NetDataReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetDataReader*, creationType>()));
     }
   }; // LiteNetLib.Utils.NetDataReader
@@ -449,7 +449,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataReader::SetSource
 // Il2CppName: SetSource
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataReader::*)(LiteNetLib::Utils::NetDataWriter*)>(&LiteNetLib::Utils::NetDataReader::SetSource)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataReader::*)(::LiteNetLib::Utils::NetDataWriter*)>(&LiteNetLib::Utils::NetDataReader::SetSource)> {
   static const MethodInfo* get() {
     static auto* dataWriter = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataWriter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataReader*), "SetSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dataWriter});
@@ -488,7 +488,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataReader::GetNetEndPoint
 // Il2CppName: GetNetEndPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPEndPoint* (LiteNetLib::Utils::NetDataReader::*)()>(&LiteNetLib::Utils::NetDataReader::GetNetEndPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::IPEndPoint* (LiteNetLib::Utils::NetDataReader::*)()>(&LiteNetLib::Utils::NetDataReader::GetNetEndPoint)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataReader*), "GetNetEndPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -698,7 +698,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataReader::GetRemainingBytesSegment
 // Il2CppName: GetRemainingBytesSegment
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ArraySegment_1<uint8_t> (LiteNetLib::Utils::NetDataReader::*)()>(&LiteNetLib::Utils::NetDataReader::GetRemainingBytesSegment)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ArraySegment_1<uint8_t> (LiteNetLib::Utils::NetDataReader::*)()>(&LiteNetLib::Utils::NetDataReader::GetRemainingBytesSegment)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataReader*), "GetRemainingBytesSegment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

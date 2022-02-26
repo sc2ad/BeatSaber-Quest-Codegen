@@ -21,8 +21,8 @@ namespace UnityEngine::Timeline {
   class TimelineClipCapsExtensions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Timeline::TimelineClipCapsExtensions);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineClipCapsExtensions*, "UnityEngine.Timeline", "TimelineClipCapsExtensions");
+NEED_NO_BOX(::UnityEngine::Timeline::TimelineClipCapsExtensions);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::TimelineClipCapsExtensions*, "UnityEngine.Timeline", "TimelineClipCapsExtensions");
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
   // Size: 0x10
@@ -34,25 +34,25 @@ namespace UnityEngine::Timeline {
     public:
     // static public System.Boolean SupportsLooping(UnityEngine.Timeline.TimelineClip clip)
     // Offset: 0x298A454
-    static bool SupportsLooping(UnityEngine::Timeline::TimelineClip* clip);
+    static bool SupportsLooping(::UnityEngine::Timeline::TimelineClip* clip);
     // static public System.Boolean SupportsExtrapolation(UnityEngine.Timeline.TimelineClip clip)
     // Offset: 0x298A470
-    static bool SupportsExtrapolation(UnityEngine::Timeline::TimelineClip* clip);
+    static bool SupportsExtrapolation(::UnityEngine::Timeline::TimelineClip* clip);
     // static public System.Boolean SupportsClipIn(UnityEngine.Timeline.TimelineClip clip)
     // Offset: 0x298A48C
-    static bool SupportsClipIn(UnityEngine::Timeline::TimelineClip* clip);
+    static bool SupportsClipIn(::UnityEngine::Timeline::TimelineClip* clip);
     // static public System.Boolean SupportsSpeedMultiplier(UnityEngine.Timeline.TimelineClip clip)
     // Offset: 0x298A4A8
-    static bool SupportsSpeedMultiplier(UnityEngine::Timeline::TimelineClip* clip);
+    static bool SupportsSpeedMultiplier(::UnityEngine::Timeline::TimelineClip* clip);
     // static public System.Boolean SupportsBlending(UnityEngine.Timeline.TimelineClip clip)
     // Offset: 0x298A4C4
-    static bool SupportsBlending(UnityEngine::Timeline::TimelineClip* clip);
+    static bool SupportsBlending(::UnityEngine::Timeline::TimelineClip* clip);
     // static public System.Boolean HasAll(UnityEngine.Timeline.ClipCaps caps, UnityEngine.Timeline.ClipCaps flags)
     // Offset: 0x298A4E0
-    static bool HasAll(UnityEngine::Timeline::ClipCaps caps, UnityEngine::Timeline::ClipCaps flags);
+    static bool HasAll(::UnityEngine::Timeline::ClipCaps caps, ::UnityEngine::Timeline::ClipCaps flags);
     // static public System.Boolean HasAny(UnityEngine.Timeline.ClipCaps caps, UnityEngine.Timeline.ClipCaps flags)
     // Offset: 0x29881A8
-    static bool HasAny(UnityEngine::Timeline::ClipCaps caps, UnityEngine::Timeline::ClipCaps flags);
+    static bool HasAny(::UnityEngine::Timeline::ClipCaps caps, ::UnityEngine::Timeline::ClipCaps flags);
   }; // UnityEngine.Timeline.TimelineClipCapsExtensions
   #pragma pack(pop)
 }
@@ -60,7 +60,7 @@ namespace UnityEngine::Timeline {
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClipCapsExtensions::SupportsLooping
 // Il2CppName: SupportsLooping
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Timeline::TimelineClip*)>(&UnityEngine::Timeline::TimelineClipCapsExtensions::SupportsLooping)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Timeline::TimelineClip*)>(&UnityEngine::Timeline::TimelineClipCapsExtensions::SupportsLooping)> {
   static const MethodInfo* get() {
     static auto* clip = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "TimelineClip")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClipCapsExtensions*), "SupportsLooping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clip});
@@ -69,7 +69,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClipCapsExtensions::SupportsExtrapolation
 // Il2CppName: SupportsExtrapolation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Timeline::TimelineClip*)>(&UnityEngine::Timeline::TimelineClipCapsExtensions::SupportsExtrapolation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Timeline::TimelineClip*)>(&UnityEngine::Timeline::TimelineClipCapsExtensions::SupportsExtrapolation)> {
   static const MethodInfo* get() {
     static auto* clip = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "TimelineClip")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClipCapsExtensions*), "SupportsExtrapolation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clip});
@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClipCapsExtensions::SupportsClipIn
 // Il2CppName: SupportsClipIn
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Timeline::TimelineClip*)>(&UnityEngine::Timeline::TimelineClipCapsExtensions::SupportsClipIn)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Timeline::TimelineClip*)>(&UnityEngine::Timeline::TimelineClipCapsExtensions::SupportsClipIn)> {
   static const MethodInfo* get() {
     static auto* clip = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "TimelineClip")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClipCapsExtensions*), "SupportsClipIn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clip});
@@ -87,7 +87,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClipCapsExtensions::SupportsSpeedMultiplier
 // Il2CppName: SupportsSpeedMultiplier
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Timeline::TimelineClip*)>(&UnityEngine::Timeline::TimelineClipCapsExtensions::SupportsSpeedMultiplier)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Timeline::TimelineClip*)>(&UnityEngine::Timeline::TimelineClipCapsExtensions::SupportsSpeedMultiplier)> {
   static const MethodInfo* get() {
     static auto* clip = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "TimelineClip")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClipCapsExtensions*), "SupportsSpeedMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clip});
@@ -96,7 +96,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClipCapsExtensions::SupportsBlending
 // Il2CppName: SupportsBlending
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Timeline::TimelineClip*)>(&UnityEngine::Timeline::TimelineClipCapsExtensions::SupportsBlending)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Timeline::TimelineClip*)>(&UnityEngine::Timeline::TimelineClipCapsExtensions::SupportsBlending)> {
   static const MethodInfo* get() {
     static auto* clip = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "TimelineClip")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClipCapsExtensions*), "SupportsBlending", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clip});
@@ -105,7 +105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClipCapsExtensions::HasAll
 // Il2CppName: HasAll
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Timeline::ClipCaps, UnityEngine::Timeline::ClipCaps)>(&UnityEngine::Timeline::TimelineClipCapsExtensions::HasAll)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Timeline::ClipCaps, ::UnityEngine::Timeline::ClipCaps)>(&UnityEngine::Timeline::TimelineClipCapsExtensions::HasAll)> {
   static const MethodInfo* get() {
     static auto* caps = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "ClipCaps")->byval_arg;
     static auto* flags = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "ClipCaps")->byval_arg;
@@ -115,7 +115,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClipCapsExtensions::HasAny
 // Il2CppName: HasAny
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Timeline::ClipCaps, UnityEngine::Timeline::ClipCaps)>(&UnityEngine::Timeline::TimelineClipCapsExtensions::HasAny)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Timeline::ClipCaps, ::UnityEngine::Timeline::ClipCaps)>(&UnityEngine::Timeline::TimelineClipCapsExtensions::HasAny)> {
   static const MethodInfo* get() {
     static auto* caps = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "ClipCaps")->byval_arg;
     static auto* flags = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "ClipCaps")->byval_arg;

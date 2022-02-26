@@ -25,8 +25,8 @@ namespace GlobalNamespace {
   class ConnectionFailedReasonMethods;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::ConnectionFailedReasonMethods);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectionFailedReasonMethods*, "", "ConnectionFailedReasonMethods");
+NEED_NO_BOX(::GlobalNamespace::ConnectionFailedReasonMethods);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ConnectionFailedReasonMethods*, "", "ConnectionFailedReasonMethods");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -136,10 +136,10 @@ namespace GlobalNamespace {
     static void _set_kConnectionFailedFailedToFindMatch(::StringW value);
     // static public System.String LocalizedKey(ConnectionFailedReason connectionFailedReason)
     // Offset: 0x13C36E0
-    static ::StringW LocalizedKey(GlobalNamespace::ConnectionFailedReason connectionFailedReason);
+    static ::StringW LocalizedKey(::GlobalNamespace::ConnectionFailedReason connectionFailedReason);
     // static public System.String ErrorCode(ConnectionFailedReason connectionFailedReason)
     // Offset: 0x13C3748
-    static ::StringW ErrorCode(GlobalNamespace::ConnectionFailedReason connectionFailedReason);
+    static ::StringW ErrorCode(::GlobalNamespace::ConnectionFailedReason connectionFailedReason);
   }; // ConnectionFailedReasonMethods
   #pragma pack(pop)
 }
@@ -147,7 +147,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::ConnectionFailedReasonMethods::LocalizedKey
 // Il2CppName: LocalizedKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(GlobalNamespace::ConnectionFailedReason)>(&GlobalNamespace::ConnectionFailedReasonMethods::LocalizedKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::GlobalNamespace::ConnectionFailedReason)>(&GlobalNamespace::ConnectionFailedReasonMethods::LocalizedKey)> {
   static const MethodInfo* get() {
     static auto* connectionFailedReason = &::il2cpp_utils::GetClassFromName("", "ConnectionFailedReason")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectionFailedReasonMethods*), "LocalizedKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{connectionFailedReason});
@@ -156,7 +156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: GlobalNamespace::ConnectionFailedReasonMethods::ErrorCode
 // Il2CppName: ErrorCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(GlobalNamespace::ConnectionFailedReason)>(&GlobalNamespace::ConnectionFailedReasonMethods::ErrorCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::GlobalNamespace::ConnectionFailedReason)>(&GlobalNamespace::ConnectionFailedReasonMethods::ErrorCode)> {
   static const MethodInfo* get() {
     static auto* connectionFailedReason = &::il2cpp_utils::GetClassFromName("", "ConnectionFailedReason")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectionFailedReasonMethods*), "ErrorCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{connectionFailedReason});

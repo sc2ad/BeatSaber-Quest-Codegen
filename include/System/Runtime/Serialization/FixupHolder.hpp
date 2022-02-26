@@ -16,8 +16,8 @@ namespace System::Runtime::Serialization {
   class FixupHolder;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::Serialization::FixupHolder);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::FixupHolder*, "System.Runtime.Serialization", "FixupHolder");
+NEED_NO_BOX(::System::Runtime::Serialization::FixupHolder);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::FixupHolder*, "System.Runtime.Serialization", "FixupHolder");
 // Type namespace: System.Runtime.Serialization
 namespace System::Runtime::Serialization {
   // Size: 0x24
@@ -64,7 +64,7 @@ namespace System::Runtime::Serialization {
     // Offset: 0x180C684
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FixupHolder* New_ctor(int64_t id, ::Il2CppObject* fixupInfo, int fixupType) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::FixupHolder::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::FixupHolder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FixupHolder*, creationType>(id, fixupInfo, fixupType)));
     }
   }; // System.Runtime.Serialization.FixupHolder

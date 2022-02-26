@@ -30,8 +30,8 @@ namespace HoudiniEngineUnity {
   class HEU_AssetUpdater;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_AssetUpdater);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_AssetUpdater*, "HoudiniEngineUnity", "HEU_AssetUpdater");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_AssetUpdater);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_AssetUpdater*, "HoudiniEngineUnity", "HEU_AssetUpdater");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x10
@@ -51,26 +51,26 @@ namespace HoudiniEngineUnity {
     static void Update();
     // static public System.Void AddAssetForUpdate(HoudiniEngineUnity.HEU_HoudiniAsset asset)
     // Offset: 0x163792C
-    static void AddAssetForUpdate(HoudiniEngineUnity::HEU_HoudiniAsset* asset);
+    static void AddAssetForUpdate(::HoudiniEngineUnity::HEU_HoudiniAsset* asset);
     // static public System.Void RemoveAsset(HoudiniEngineUnity.HEU_HoudiniAsset asset)
     // Offset: 0x1637930
-    static void RemoveAsset(HoudiniEngineUnity::HEU_HoudiniAsset* asset);
+    static void RemoveAsset(::HoudiniEngineUnity::HEU_HoudiniAsset* asset);
     // static public System.Void AddNodeSyncForUpdate(HoudiniEngineUnity.HEU_BaseSync nodeSync)
     // Offset: 0x1637934
-    static void AddNodeSyncForUpdate(HoudiniEngineUnity::HEU_BaseSync* nodeSync);
+    static void AddNodeSyncForUpdate(::HoudiniEngineUnity::HEU_BaseSync* nodeSync);
     // static public System.Void RemoveNodeSync(HoudiniEngineUnity.HEU_BaseSync nodeSync)
     // Offset: 0x1637938
-    static void RemoveNodeSync(HoudiniEngineUnity::HEU_BaseSync* nodeSync);
+    static void RemoveNodeSync(::HoudiniEngineUnity::HEU_BaseSync* nodeSync);
     // static private System.Void OnPrefabInstanceUpdate(UnityEngine.GameObject instance)
     // Offset: 0x163793C
-    static void OnPrefabInstanceUpdate(UnityEngine::GameObject* instance);
+    static void OnPrefabInstanceUpdate(::UnityEngine::GameObject* instance);
     // public System.Void .ctor()
     // Offset: 0x1637940
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_AssetUpdater* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_AssetUpdater::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_AssetUpdater::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_AssetUpdater*, creationType>()));
     }
   }; // HoudiniEngineUnity.HEU_AssetUpdater
@@ -104,7 +104,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_AssetUpdater::AddAssetForUpdate
 // Il2CppName: AddAssetForUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HoudiniEngineUnity::HEU_HoudiniAsset*)>(&HoudiniEngineUnity::HEU_AssetUpdater::AddAssetForUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_HoudiniAsset*)>(&HoudiniEngineUnity::HEU_AssetUpdater::AddAssetForUpdate)> {
   static const MethodInfo* get() {
     static auto* asset = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_HoudiniAsset")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_AssetUpdater*), "AddAssetForUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asset});
@@ -113,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_AssetUpdater::RemoveAsset
 // Il2CppName: RemoveAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HoudiniEngineUnity::HEU_HoudiniAsset*)>(&HoudiniEngineUnity::HEU_AssetUpdater::RemoveAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_HoudiniAsset*)>(&HoudiniEngineUnity::HEU_AssetUpdater::RemoveAsset)> {
   static const MethodInfo* get() {
     static auto* asset = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_HoudiniAsset")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_AssetUpdater*), "RemoveAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asset});
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_AssetUpdater::AddNodeSyncForUpdate
 // Il2CppName: AddNodeSyncForUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HoudiniEngineUnity::HEU_BaseSync*)>(&HoudiniEngineUnity::HEU_AssetUpdater::AddNodeSyncForUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_BaseSync*)>(&HoudiniEngineUnity::HEU_AssetUpdater::AddNodeSyncForUpdate)> {
   static const MethodInfo* get() {
     static auto* nodeSync = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_BaseSync")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_AssetUpdater*), "AddNodeSyncForUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeSync});
@@ -131,7 +131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_AssetUpdater::RemoveNodeSync
 // Il2CppName: RemoveNodeSync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HoudiniEngineUnity::HEU_BaseSync*)>(&HoudiniEngineUnity::HEU_AssetUpdater::RemoveNodeSync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_BaseSync*)>(&HoudiniEngineUnity::HEU_AssetUpdater::RemoveNodeSync)> {
   static const MethodInfo* get() {
     static auto* nodeSync = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_BaseSync")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_AssetUpdater*), "RemoveNodeSync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeSync});
@@ -140,7 +140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_AssetUpdater::OnPrefabInstanceUpdate
 // Il2CppName: OnPrefabInstanceUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_AssetUpdater::OnPrefabInstanceUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_AssetUpdater::OnPrefabInstanceUpdate)> {
   static const MethodInfo* get() {
     static auto* instance = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_AssetUpdater*), "OnPrefabInstanceUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{instance});

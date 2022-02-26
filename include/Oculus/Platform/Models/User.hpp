@@ -21,8 +21,8 @@ namespace Oculus::Platform::Models {
   class User;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::User);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::User*, "Oculus.Platform.Models", "User");
+NEED_NO_BOX(::Oculus::Platform::Models::User);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::User*, "Oculus.Platform.Models", "User");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x70
@@ -103,9 +103,9 @@ namespace Oculus::Platform::Models {
     // public readonly Oculus.Platform.UserPresenceStatus PresenceStatus
     // Size: 0x4
     // Offset: 0x60
-    Oculus::Platform::UserPresenceStatus PresenceStatus;
+    ::Oculus::Platform::UserPresenceStatus PresenceStatus;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::UserPresenceStatus) == 0x4);
+    static_assert(sizeof(::Oculus::Platform::UserPresenceStatus) == 0x4);
     // Padding between fields: PresenceStatus and: SmallImageUrl
     char __padding10[0x4] = {};
     // public readonly System.String SmallImageUrl
@@ -136,14 +136,14 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.String PresenceMatchSessionId
     ::StringW& dyn_PresenceMatchSessionId();
     // Get instance field reference: public readonly Oculus.Platform.UserPresenceStatus PresenceStatus
-    Oculus::Platform::UserPresenceStatus& dyn_PresenceStatus();
+    ::Oculus::Platform::UserPresenceStatus& dyn_PresenceStatus();
     // Get instance field reference: public readonly System.String SmallImageUrl
     ::StringW& dyn_SmallImageUrl();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x196C790
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static User* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::User::.ctor");
+    static User* New_ctor(::System::IntPtr o) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::User::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<User*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.User

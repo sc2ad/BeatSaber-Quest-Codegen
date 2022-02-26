@@ -23,8 +23,8 @@ namespace UnityEngine::UI {
   class IMeshModifier;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::UI::IMeshModifier);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::IMeshModifier*, "UnityEngine.UI", "IMeshModifier");
+NEED_NO_BOX(::UnityEngine::UI::IMeshModifier);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::IMeshModifier*, "UnityEngine.UI", "IMeshModifier");
 // Type namespace: UnityEngine.UI
 namespace UnityEngine::UI {
   // Size: 0x10
@@ -35,10 +35,10 @@ namespace UnityEngine::UI {
     public:
     // public System.Void ModifyMesh(UnityEngine.Mesh mesh)
     // Offset: 0xFFFFFFFF
-    void ModifyMesh(UnityEngine::Mesh* mesh);
+    void ModifyMesh(::UnityEngine::Mesh* mesh);
     // public System.Void ModifyMesh(UnityEngine.UI.VertexHelper verts)
     // Offset: 0xFFFFFFFF
-    void ModifyMesh(UnityEngine::UI::VertexHelper* verts);
+    void ModifyMesh(::UnityEngine::UI::VertexHelper* verts);
   }; // UnityEngine.UI.IMeshModifier
   #pragma pack(pop)
 }
@@ -46,7 +46,7 @@ namespace UnityEngine::UI {
 // Writing MetadataGetter for method: UnityEngine::UI::IMeshModifier::ModifyMesh
 // Il2CppName: ModifyMesh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::IMeshModifier::*)(UnityEngine::Mesh*)>(&UnityEngine::UI::IMeshModifier::ModifyMesh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::IMeshModifier::*)(::UnityEngine::Mesh*)>(&UnityEngine::UI::IMeshModifier::ModifyMesh)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::IMeshModifier*), "ModifyMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mesh});
@@ -55,7 +55,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::IMeshModifier::ModifyMesh
 // Il2CppName: ModifyMesh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::IMeshModifier::*)(UnityEngine::UI::VertexHelper*)>(&UnityEngine::UI::IMeshModifier::ModifyMesh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::IMeshModifier::*)(::UnityEngine::UI::VertexHelper*)>(&UnityEngine::UI::IMeshModifier::ModifyMesh)> {
   static const MethodInfo* get() {
     static auto* verts = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "VertexHelper")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::IMeshModifier*), "ModifyMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{verts});

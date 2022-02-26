@@ -26,8 +26,8 @@ namespace UnityEngine::Timeline {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Timeline::TrackAsset::$$c);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackAsset::$$c*, "UnityEngine.Timeline", "TrackAsset/<>c");
+NEED_NO_BOX(::UnityEngine::Timeline::TrackAsset::$$c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::TrackAsset::$$c*, "UnityEngine.Timeline", "TrackAsset/<>c");
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
   // Size: 0x10
@@ -38,26 +38,26 @@ namespace UnityEngine::Timeline {
   class TrackAsset::$$c : public ::Il2CppObject {
     public:
     // Get static field: static public readonly UnityEngine.Timeline.TrackAsset/UnityEngine.Timeline.<>c <>9
-    static UnityEngine::Timeline::TrackAsset::$$c* _get_$$9();
+    static ::UnityEngine::Timeline::TrackAsset::$$c* _get_$$9();
     // Set static field: static public readonly UnityEngine.Timeline.TrackAsset/UnityEngine.Timeline.<>c <>9
-    static void _set_$$9(UnityEngine::Timeline::TrackAsset::$$c* value);
+    static void _set_$$9(::UnityEngine::Timeline::TrackAsset::$$c* value);
     // Get static field: static public System.Comparison`1<UnityEngine.Timeline.TimelineClip> <>9__121_0
-    static System::Comparison_1<UnityEngine::Timeline::TimelineClip*>* _get_$$9__121_0();
+    static ::System::Comparison_1<::UnityEngine::Timeline::TimelineClip*>* _get_$$9__121_0();
     // Set static field: static public System.Comparison`1<UnityEngine.Timeline.TimelineClip> <>9__121_0
-    static void _set_$$9__121_0(System::Comparison_1<UnityEngine::Timeline::TimelineClip*>* value);
+    static void _set_$$9__121_0(::System::Comparison_1<::UnityEngine::Timeline::TimelineClip*>* value);
     // static private System.Void .cctor()
     // Offset: 0x2993670
     static void _cctor();
     // System.Int32 <SortClips>b__121_0(UnityEngine.Timeline.TimelineClip clip1, UnityEngine.Timeline.TimelineClip clip2)
     // Offset: 0x29936DC
-    int $SortClips$b__121_0(UnityEngine::Timeline::TimelineClip* clip1, UnityEngine::Timeline::TimelineClip* clip2);
+    int $SortClips$b__121_0(::UnityEngine::Timeline::TimelineClip* clip1, ::UnityEngine::Timeline::TimelineClip* clip2);
     // public System.Void .ctor()
     // Offset: 0x29936D4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TrackAsset::$$c* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Timeline::TrackAsset::$$c::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Timeline::TrackAsset::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TrackAsset::$$c*, creationType>()));
     }
   }; // UnityEngine.Timeline.TrackAsset/UnityEngine.Timeline.<>c
@@ -75,7 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::$$c::$SortClips$b__121_0
 // Il2CppName: <SortClips>b__121_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Timeline::TrackAsset::$$c::*)(UnityEngine::Timeline::TimelineClip*, UnityEngine::Timeline::TimelineClip*)>(&UnityEngine::Timeline::TrackAsset::$$c::$SortClips$b__121_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Timeline::TrackAsset::$$c::*)(::UnityEngine::Timeline::TimelineClip*, ::UnityEngine::Timeline::TimelineClip*)>(&UnityEngine::Timeline::TrackAsset::$$c::$SortClips$b__121_0)> {
   static const MethodInfo* get() {
     static auto* clip1 = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "TimelineClip")->byval_arg;
     static auto* clip2 = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "TimelineClip")->byval_arg;

@@ -16,8 +16,8 @@ namespace UnityEngine {
   class AndroidJNI;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::AndroidJNI);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AndroidJNI*, "UnityEngine", "AndroidJNI");
+NEED_NO_BOX(::UnityEngine::AndroidJNI);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AndroidJNI*, "UnityEngine", "AndroidJNI");
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Size: 0x10
@@ -40,34 +40,34 @@ namespace UnityEngine {
     static int GetVersion();
     // static public System.IntPtr FindClass(System.String name)
     // Offset: 0x29CFE08
-    static System::IntPtr FindClass(::StringW name);
+    static ::System::IntPtr FindClass(::StringW name);
     // static public System.IntPtr FromReflectedMethod(System.IntPtr refMethod)
     // Offset: 0x29CFE48
-    static System::IntPtr FromReflectedMethod(System::IntPtr refMethod);
+    static ::System::IntPtr FromReflectedMethod(::System::IntPtr refMethod);
     // static public System.IntPtr FromReflectedField(System.IntPtr refField)
     // Offset: 0x29CFE88
-    static System::IntPtr FromReflectedField(System::IntPtr refField);
+    static ::System::IntPtr FromReflectedField(::System::IntPtr refField);
     // static public System.IntPtr ToReflectedMethod(System.IntPtr clazz, System.IntPtr methodID, System.Boolean isStatic)
     // Offset: 0x29CFEC8
-    static System::IntPtr ToReflectedMethod(System::IntPtr clazz, System::IntPtr methodID, bool isStatic);
+    static ::System::IntPtr ToReflectedMethod(::System::IntPtr clazz, ::System::IntPtr methodID, bool isStatic);
     // static public System.IntPtr ToReflectedField(System.IntPtr clazz, System.IntPtr fieldID, System.Boolean isStatic)
     // Offset: 0x29CFF20
-    static System::IntPtr ToReflectedField(System::IntPtr clazz, System::IntPtr fieldID, bool isStatic);
+    static ::System::IntPtr ToReflectedField(::System::IntPtr clazz, ::System::IntPtr fieldID, bool isStatic);
     // static public System.IntPtr GetSuperclass(System.IntPtr clazz)
     // Offset: 0x29CFF78
-    static System::IntPtr GetSuperclass(System::IntPtr clazz);
+    static ::System::IntPtr GetSuperclass(::System::IntPtr clazz);
     // static public System.Boolean IsAssignableFrom(System.IntPtr clazz1, System.IntPtr clazz2)
     // Offset: 0x29CFFB8
-    static bool IsAssignableFrom(System::IntPtr clazz1, System::IntPtr clazz2);
+    static bool IsAssignableFrom(::System::IntPtr clazz1, ::System::IntPtr clazz2);
     // static public System.Int32 Throw(System.IntPtr obj)
     // Offset: 0x29D0008
-    static int Throw(System::IntPtr obj);
+    static int Throw(::System::IntPtr obj);
     // static public System.Int32 ThrowNew(System.IntPtr clazz, System.String message)
     // Offset: 0x29D0048
-    static int ThrowNew(System::IntPtr clazz, ::StringW message);
+    static int ThrowNew(::System::IntPtr clazz, ::StringW message);
     // static public System.IntPtr ExceptionOccurred()
     // Offset: 0x29D0098
-    static System::IntPtr ExceptionOccurred();
+    static ::System::IntPtr ExceptionOccurred();
     // static public System.Void ExceptionDescribe()
     // Offset: 0x29D00CC
     static void ExceptionDescribe();
@@ -82,442 +82,442 @@ namespace UnityEngine {
     static int PushLocalFrame(int capacity);
     // static public System.IntPtr PopLocalFrame(System.IntPtr ptr)
     // Offset: 0x29D01B4
-    static System::IntPtr PopLocalFrame(System::IntPtr ptr);
+    static ::System::IntPtr PopLocalFrame(::System::IntPtr ptr);
     // static public System.IntPtr NewGlobalRef(System.IntPtr obj)
     // Offset: 0x29D01F4
-    static System::IntPtr NewGlobalRef(System::IntPtr obj);
+    static ::System::IntPtr NewGlobalRef(::System::IntPtr obj);
     // static public System.Void DeleteGlobalRef(System.IntPtr obj)
     // Offset: 0x29D0234
-    static void DeleteGlobalRef(System::IntPtr obj);
+    static void DeleteGlobalRef(::System::IntPtr obj);
     // static public System.IntPtr NewWeakGlobalRef(System.IntPtr obj)
     // Offset: 0x29D0274
-    static System::IntPtr NewWeakGlobalRef(System::IntPtr obj);
+    static ::System::IntPtr NewWeakGlobalRef(::System::IntPtr obj);
     // static public System.Void DeleteWeakGlobalRef(System.IntPtr obj)
     // Offset: 0x29D02B4
-    static void DeleteWeakGlobalRef(System::IntPtr obj);
+    static void DeleteWeakGlobalRef(::System::IntPtr obj);
     // static public System.IntPtr NewLocalRef(System.IntPtr obj)
     // Offset: 0x29D02F4
-    static System::IntPtr NewLocalRef(System::IntPtr obj);
+    static ::System::IntPtr NewLocalRef(::System::IntPtr obj);
     // static public System.Void DeleteLocalRef(System.IntPtr obj)
     // Offset: 0x29D0334
-    static void DeleteLocalRef(System::IntPtr obj);
+    static void DeleteLocalRef(::System::IntPtr obj);
     // static public System.Boolean IsSameObject(System.IntPtr obj1, System.IntPtr obj2)
     // Offset: 0x29D0374
-    static bool IsSameObject(System::IntPtr obj1, System::IntPtr obj2);
+    static bool IsSameObject(::System::IntPtr obj1, ::System::IntPtr obj2);
     // static public System.Int32 EnsureLocalCapacity(System.Int32 capacity)
     // Offset: 0x29D03C4
     static int EnsureLocalCapacity(int capacity);
     // static public System.IntPtr AllocObject(System.IntPtr clazz)
     // Offset: 0x29D0404
-    static System::IntPtr AllocObject(System::IntPtr clazz);
+    static ::System::IntPtr AllocObject(::System::IntPtr clazz);
     // static public System.IntPtr NewObject(System.IntPtr clazz, System.IntPtr methodID, UnityEngine.jvalue[] args)
     // Offset: 0x29D0444
-    static System::IntPtr NewObject(System::IntPtr clazz, System::IntPtr methodID, ::ArrayW<UnityEngine::jvalue> args);
+    static ::System::IntPtr NewObject(::System::IntPtr clazz, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue> args);
     // static public System.IntPtr GetObjectClass(System.IntPtr obj)
     // Offset: 0x29D049C
-    static System::IntPtr GetObjectClass(System::IntPtr obj);
+    static ::System::IntPtr GetObjectClass(::System::IntPtr obj);
     // static public System.Boolean IsInstanceOf(System.IntPtr obj, System.IntPtr clazz)
     // Offset: 0x29D04DC
-    static bool IsInstanceOf(System::IntPtr obj, System::IntPtr clazz);
+    static bool IsInstanceOf(::System::IntPtr obj, ::System::IntPtr clazz);
     // static public System.IntPtr GetMethodID(System.IntPtr clazz, System.String name, System.String sig)
     // Offset: 0x29D052C
-    static System::IntPtr GetMethodID(System::IntPtr clazz, ::StringW name, ::StringW sig);
+    static ::System::IntPtr GetMethodID(::System::IntPtr clazz, ::StringW name, ::StringW sig);
     // static public System.IntPtr GetFieldID(System.IntPtr clazz, System.String name, System.String sig)
     // Offset: 0x29D0584
-    static System::IntPtr GetFieldID(System::IntPtr clazz, ::StringW name, ::StringW sig);
+    static ::System::IntPtr GetFieldID(::System::IntPtr clazz, ::StringW name, ::StringW sig);
     // static public System.IntPtr GetStaticMethodID(System.IntPtr clazz, System.String name, System.String sig)
     // Offset: 0x29D05DC
-    static System::IntPtr GetStaticMethodID(System::IntPtr clazz, ::StringW name, ::StringW sig);
+    static ::System::IntPtr GetStaticMethodID(::System::IntPtr clazz, ::StringW name, ::StringW sig);
     // static public System.IntPtr GetStaticFieldID(System.IntPtr clazz, System.String name, System.String sig)
     // Offset: 0x29D0634
-    static System::IntPtr GetStaticFieldID(System::IntPtr clazz, ::StringW name, ::StringW sig);
+    static ::System::IntPtr GetStaticFieldID(::System::IntPtr clazz, ::StringW name, ::StringW sig);
     // static public System.IntPtr NewString(System.String chars)
     // Offset: 0x29D068C
-    static System::IntPtr NewString(::StringW chars);
+    static ::System::IntPtr NewString(::StringW chars);
     // static private System.IntPtr NewStringFromStr(System.String chars)
     // Offset: 0x29D06CC
-    static System::IntPtr NewStringFromStr(::StringW chars);
+    static ::System::IntPtr NewStringFromStr(::StringW chars);
     // static public System.IntPtr NewString(System.Char[] chars)
     // Offset: 0x29D070C
-    static System::IntPtr NewString(::ArrayW<::Il2CppChar> chars);
+    static ::System::IntPtr NewString(::ArrayW<::Il2CppChar> chars);
     // static public System.IntPtr NewStringUTF(System.String bytes)
     // Offset: 0x29D074C
-    static System::IntPtr NewStringUTF(::StringW bytes);
+    static ::System::IntPtr NewStringUTF(::StringW bytes);
     // static public System.String GetStringChars(System.IntPtr str)
     // Offset: 0x29D078C
-    static ::StringW GetStringChars(System::IntPtr str);
+    static ::StringW GetStringChars(::System::IntPtr str);
     // static public System.Int32 GetStringLength(System.IntPtr str)
     // Offset: 0x29D07CC
-    static int GetStringLength(System::IntPtr str);
+    static int GetStringLength(::System::IntPtr str);
     // static public System.Int32 GetStringUTFLength(System.IntPtr str)
     // Offset: 0x29D080C
-    static int GetStringUTFLength(System::IntPtr str);
+    static int GetStringUTFLength(::System::IntPtr str);
     // static public System.String GetStringUTFChars(System.IntPtr str)
     // Offset: 0x29D084C
-    static ::StringW GetStringUTFChars(System::IntPtr str);
+    static ::StringW GetStringUTFChars(::System::IntPtr str);
     // static public System.String CallStringMethod(System.IntPtr obj, System.IntPtr methodID, UnityEngine.jvalue[] args)
     // Offset: 0x29D088C
-    static ::StringW CallStringMethod(System::IntPtr obj, System::IntPtr methodID, ::ArrayW<UnityEngine::jvalue> args);
+    static ::StringW CallStringMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue> args);
     // static public System.IntPtr CallObjectMethod(System.IntPtr obj, System.IntPtr methodID, UnityEngine.jvalue[] args)
     // Offset: 0x29D08E4
-    static System::IntPtr CallObjectMethod(System::IntPtr obj, System::IntPtr methodID, ::ArrayW<UnityEngine::jvalue> args);
+    static ::System::IntPtr CallObjectMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue> args);
     // static public System.Int32 CallIntMethod(System.IntPtr obj, System.IntPtr methodID, UnityEngine.jvalue[] args)
     // Offset: 0x29D093C
-    static int CallIntMethod(System::IntPtr obj, System::IntPtr methodID, ::ArrayW<UnityEngine::jvalue> args);
+    static int CallIntMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue> args);
     // static public System.Boolean CallBooleanMethod(System.IntPtr obj, System.IntPtr methodID, UnityEngine.jvalue[] args)
     // Offset: 0x29D0994
-    static bool CallBooleanMethod(System::IntPtr obj, System::IntPtr methodID, ::ArrayW<UnityEngine::jvalue> args);
+    static bool CallBooleanMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue> args);
     // static public System.Int16 CallShortMethod(System.IntPtr obj, System.IntPtr methodID, UnityEngine.jvalue[] args)
     // Offset: 0x29D09EC
-    static int16_t CallShortMethod(System::IntPtr obj, System::IntPtr methodID, ::ArrayW<UnityEngine::jvalue> args);
+    static int16_t CallShortMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue> args);
     // static public System.Byte CallByteMethod(System.IntPtr obj, System.IntPtr methodID, UnityEngine.jvalue[] args)
     // Offset: 0x29D0A44
-    static uint8_t CallByteMethod(System::IntPtr obj, System::IntPtr methodID, ::ArrayW<UnityEngine::jvalue> args);
+    static uint8_t CallByteMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue> args);
     // static public System.SByte CallSByteMethod(System.IntPtr obj, System.IntPtr methodID, UnityEngine.jvalue[] args)
     // Offset: 0x29D0A9C
-    static int8_t CallSByteMethod(System::IntPtr obj, System::IntPtr methodID, ::ArrayW<UnityEngine::jvalue> args);
+    static int8_t CallSByteMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue> args);
     // static public System.Char CallCharMethod(System.IntPtr obj, System.IntPtr methodID, UnityEngine.jvalue[] args)
     // Offset: 0x29D0AF4
-    static ::Il2CppChar CallCharMethod(System::IntPtr obj, System::IntPtr methodID, ::ArrayW<UnityEngine::jvalue> args);
+    static ::Il2CppChar CallCharMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue> args);
     // static public System.Single CallFloatMethod(System.IntPtr obj, System.IntPtr methodID, UnityEngine.jvalue[] args)
     // Offset: 0x29D0B4C
-    static float CallFloatMethod(System::IntPtr obj, System::IntPtr methodID, ::ArrayW<UnityEngine::jvalue> args);
+    static float CallFloatMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue> args);
     // static public System.Double CallDoubleMethod(System.IntPtr obj, System.IntPtr methodID, UnityEngine.jvalue[] args)
     // Offset: 0x29D0BA4
-    static double CallDoubleMethod(System::IntPtr obj, System::IntPtr methodID, ::ArrayW<UnityEngine::jvalue> args);
+    static double CallDoubleMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue> args);
     // static public System.Int64 CallLongMethod(System.IntPtr obj, System.IntPtr methodID, UnityEngine.jvalue[] args)
     // Offset: 0x29D0BFC
-    static int64_t CallLongMethod(System::IntPtr obj, System::IntPtr methodID, ::ArrayW<UnityEngine::jvalue> args);
+    static int64_t CallLongMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue> args);
     // static public System.Void CallVoidMethod(System.IntPtr obj, System.IntPtr methodID, UnityEngine.jvalue[] args)
     // Offset: 0x29D0C54
-    static void CallVoidMethod(System::IntPtr obj, System::IntPtr methodID, ::ArrayW<UnityEngine::jvalue> args);
+    static void CallVoidMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue> args);
     // static public System.String GetStringField(System.IntPtr obj, System.IntPtr fieldID)
     // Offset: 0x29D0CAC
-    static ::StringW GetStringField(System::IntPtr obj, System::IntPtr fieldID);
+    static ::StringW GetStringField(::System::IntPtr obj, ::System::IntPtr fieldID);
     // static public System.IntPtr GetObjectField(System.IntPtr obj, System.IntPtr fieldID)
     // Offset: 0x29D0CFC
-    static System::IntPtr GetObjectField(System::IntPtr obj, System::IntPtr fieldID);
+    static ::System::IntPtr GetObjectField(::System::IntPtr obj, ::System::IntPtr fieldID);
     // static public System.Boolean GetBooleanField(System.IntPtr obj, System.IntPtr fieldID)
     // Offset: 0x29D0D4C
-    static bool GetBooleanField(System::IntPtr obj, System::IntPtr fieldID);
+    static bool GetBooleanField(::System::IntPtr obj, ::System::IntPtr fieldID);
     // static public System.Byte GetByteField(System.IntPtr obj, System.IntPtr fieldID)
     // Offset: 0x29D0D9C
-    static uint8_t GetByteField(System::IntPtr obj, System::IntPtr fieldID);
+    static uint8_t GetByteField(::System::IntPtr obj, ::System::IntPtr fieldID);
     // static public System.SByte GetSByteField(System.IntPtr obj, System.IntPtr fieldID)
     // Offset: 0x29D0DEC
-    static int8_t GetSByteField(System::IntPtr obj, System::IntPtr fieldID);
+    static int8_t GetSByteField(::System::IntPtr obj, ::System::IntPtr fieldID);
     // static public System.Char GetCharField(System.IntPtr obj, System.IntPtr fieldID)
     // Offset: 0x29D0E3C
-    static ::Il2CppChar GetCharField(System::IntPtr obj, System::IntPtr fieldID);
+    static ::Il2CppChar GetCharField(::System::IntPtr obj, ::System::IntPtr fieldID);
     // static public System.Int16 GetShortField(System.IntPtr obj, System.IntPtr fieldID)
     // Offset: 0x29D0E8C
-    static int16_t GetShortField(System::IntPtr obj, System::IntPtr fieldID);
+    static int16_t GetShortField(::System::IntPtr obj, ::System::IntPtr fieldID);
     // static public System.Int32 GetIntField(System.IntPtr obj, System.IntPtr fieldID)
     // Offset: 0x29D0EDC
-    static int GetIntField(System::IntPtr obj, System::IntPtr fieldID);
+    static int GetIntField(::System::IntPtr obj, ::System::IntPtr fieldID);
     // static public System.Int64 GetLongField(System.IntPtr obj, System.IntPtr fieldID)
     // Offset: 0x29D0F2C
-    static int64_t GetLongField(System::IntPtr obj, System::IntPtr fieldID);
+    static int64_t GetLongField(::System::IntPtr obj, ::System::IntPtr fieldID);
     // static public System.Single GetFloatField(System.IntPtr obj, System.IntPtr fieldID)
     // Offset: 0x29D0F7C
-    static float GetFloatField(System::IntPtr obj, System::IntPtr fieldID);
+    static float GetFloatField(::System::IntPtr obj, ::System::IntPtr fieldID);
     // static public System.Double GetDoubleField(System.IntPtr obj, System.IntPtr fieldID)
     // Offset: 0x29D0FCC
-    static double GetDoubleField(System::IntPtr obj, System::IntPtr fieldID);
+    static double GetDoubleField(::System::IntPtr obj, ::System::IntPtr fieldID);
     // static public System.Void SetStringField(System.IntPtr obj, System.IntPtr fieldID, System.String val)
     // Offset: 0x29D101C
-    static void SetStringField(System::IntPtr obj, System::IntPtr fieldID, ::StringW val);
+    static void SetStringField(::System::IntPtr obj, ::System::IntPtr fieldID, ::StringW val);
     // static public System.Void SetObjectField(System.IntPtr obj, System.IntPtr fieldID, System.IntPtr val)
     // Offset: 0x29D1074
-    static void SetObjectField(System::IntPtr obj, System::IntPtr fieldID, System::IntPtr val);
+    static void SetObjectField(::System::IntPtr obj, ::System::IntPtr fieldID, ::System::IntPtr val);
     // static public System.Void SetBooleanField(System.IntPtr obj, System.IntPtr fieldID, System.Boolean val)
     // Offset: 0x29D10CC
-    static void SetBooleanField(System::IntPtr obj, System::IntPtr fieldID, bool val);
+    static void SetBooleanField(::System::IntPtr obj, ::System::IntPtr fieldID, bool val);
     // static public System.Void SetByteField(System.IntPtr obj, System.IntPtr fieldID, System.Byte val)
     // Offset: 0x29D1124
-    static void SetByteField(System::IntPtr obj, System::IntPtr fieldID, uint8_t val);
+    static void SetByteField(::System::IntPtr obj, ::System::IntPtr fieldID, uint8_t val);
     // static public System.Void SetSByteField(System.IntPtr obj, System.IntPtr fieldID, System.SByte val)
     // Offset: 0x29D117C
-    static void SetSByteField(System::IntPtr obj, System::IntPtr fieldID, int8_t val);
+    static void SetSByteField(::System::IntPtr obj, ::System::IntPtr fieldID, int8_t val);
     // static public System.Void SetCharField(System.IntPtr obj, System.IntPtr fieldID, System.Char val)
     // Offset: 0x29D11D4
-    static void SetCharField(System::IntPtr obj, System::IntPtr fieldID, ::Il2CppChar val);
+    static void SetCharField(::System::IntPtr obj, ::System::IntPtr fieldID, ::Il2CppChar val);
     // static public System.Void SetShortField(System.IntPtr obj, System.IntPtr fieldID, System.Int16 val)
     // Offset: 0x29D122C
-    static void SetShortField(System::IntPtr obj, System::IntPtr fieldID, int16_t val);
+    static void SetShortField(::System::IntPtr obj, ::System::IntPtr fieldID, int16_t val);
     // static public System.Void SetIntField(System.IntPtr obj, System.IntPtr fieldID, System.Int32 val)
     // Offset: 0x29D1284
-    static void SetIntField(System::IntPtr obj, System::IntPtr fieldID, int val);
+    static void SetIntField(::System::IntPtr obj, ::System::IntPtr fieldID, int val);
     // static public System.Void SetLongField(System.IntPtr obj, System.IntPtr fieldID, System.Int64 val)
     // Offset: 0x29D12DC
-    static void SetLongField(System::IntPtr obj, System::IntPtr fieldID, int64_t val);
+    static void SetLongField(::System::IntPtr obj, ::System::IntPtr fieldID, int64_t val);
     // static public System.Void SetFloatField(System.IntPtr obj, System.IntPtr fieldID, System.Single val)
     // Offset: 0x29D1334
-    static void SetFloatField(System::IntPtr obj, System::IntPtr fieldID, float val);
+    static void SetFloatField(::System::IntPtr obj, ::System::IntPtr fieldID, float val);
     // static public System.Void SetDoubleField(System.IntPtr obj, System.IntPtr fieldID, System.Double val)
     // Offset: 0x29D1394
-    static void SetDoubleField(System::IntPtr obj, System::IntPtr fieldID, double val);
+    static void SetDoubleField(::System::IntPtr obj, ::System::IntPtr fieldID, double val);
     // static public System.String CallStaticStringMethod(System.IntPtr clazz, System.IntPtr methodID, UnityEngine.jvalue[] args)
     // Offset: 0x29D13F4
-    static ::StringW CallStaticStringMethod(System::IntPtr clazz, System::IntPtr methodID, ::ArrayW<UnityEngine::jvalue> args);
+    static ::StringW CallStaticStringMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue> args);
     // static public System.IntPtr CallStaticObjectMethod(System.IntPtr clazz, System.IntPtr methodID, UnityEngine.jvalue[] args)
     // Offset: 0x29D144C
-    static System::IntPtr CallStaticObjectMethod(System::IntPtr clazz, System::IntPtr methodID, ::ArrayW<UnityEngine::jvalue> args);
+    static ::System::IntPtr CallStaticObjectMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue> args);
     // static public System.Int32 CallStaticIntMethod(System.IntPtr clazz, System.IntPtr methodID, UnityEngine.jvalue[] args)
     // Offset: 0x29D14A4
-    static int CallStaticIntMethod(System::IntPtr clazz, System::IntPtr methodID, ::ArrayW<UnityEngine::jvalue> args);
+    static int CallStaticIntMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue> args);
     // static public System.Boolean CallStaticBooleanMethod(System.IntPtr clazz, System.IntPtr methodID, UnityEngine.jvalue[] args)
     // Offset: 0x29D14FC
-    static bool CallStaticBooleanMethod(System::IntPtr clazz, System::IntPtr methodID, ::ArrayW<UnityEngine::jvalue> args);
+    static bool CallStaticBooleanMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue> args);
     // static public System.Int16 CallStaticShortMethod(System.IntPtr clazz, System.IntPtr methodID, UnityEngine.jvalue[] args)
     // Offset: 0x29D1554
-    static int16_t CallStaticShortMethod(System::IntPtr clazz, System::IntPtr methodID, ::ArrayW<UnityEngine::jvalue> args);
+    static int16_t CallStaticShortMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue> args);
     // static public System.Byte CallStaticByteMethod(System.IntPtr clazz, System.IntPtr methodID, UnityEngine.jvalue[] args)
     // Offset: 0x29D15AC
-    static uint8_t CallStaticByteMethod(System::IntPtr clazz, System::IntPtr methodID, ::ArrayW<UnityEngine::jvalue> args);
+    static uint8_t CallStaticByteMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue> args);
     // static public System.SByte CallStaticSByteMethod(System.IntPtr clazz, System.IntPtr methodID, UnityEngine.jvalue[] args)
     // Offset: 0x29D1604
-    static int8_t CallStaticSByteMethod(System::IntPtr clazz, System::IntPtr methodID, ::ArrayW<UnityEngine::jvalue> args);
+    static int8_t CallStaticSByteMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue> args);
     // static public System.Char CallStaticCharMethod(System.IntPtr clazz, System.IntPtr methodID, UnityEngine.jvalue[] args)
     // Offset: 0x29D165C
-    static ::Il2CppChar CallStaticCharMethod(System::IntPtr clazz, System::IntPtr methodID, ::ArrayW<UnityEngine::jvalue> args);
+    static ::Il2CppChar CallStaticCharMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue> args);
     // static public System.Single CallStaticFloatMethod(System.IntPtr clazz, System.IntPtr methodID, UnityEngine.jvalue[] args)
     // Offset: 0x29D16B4
-    static float CallStaticFloatMethod(System::IntPtr clazz, System::IntPtr methodID, ::ArrayW<UnityEngine::jvalue> args);
+    static float CallStaticFloatMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue> args);
     // static public System.Double CallStaticDoubleMethod(System.IntPtr clazz, System.IntPtr methodID, UnityEngine.jvalue[] args)
     // Offset: 0x29D170C
-    static double CallStaticDoubleMethod(System::IntPtr clazz, System::IntPtr methodID, ::ArrayW<UnityEngine::jvalue> args);
+    static double CallStaticDoubleMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue> args);
     // static public System.Int64 CallStaticLongMethod(System.IntPtr clazz, System.IntPtr methodID, UnityEngine.jvalue[] args)
     // Offset: 0x29D1764
-    static int64_t CallStaticLongMethod(System::IntPtr clazz, System::IntPtr methodID, ::ArrayW<UnityEngine::jvalue> args);
+    static int64_t CallStaticLongMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue> args);
     // static public System.Void CallStaticVoidMethod(System.IntPtr clazz, System.IntPtr methodID, UnityEngine.jvalue[] args)
     // Offset: 0x29D17BC
-    static void CallStaticVoidMethod(System::IntPtr clazz, System::IntPtr methodID, ::ArrayW<UnityEngine::jvalue> args);
+    static void CallStaticVoidMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue> args);
     // static public System.String GetStaticStringField(System.IntPtr clazz, System.IntPtr fieldID)
     // Offset: 0x29D1814
-    static ::StringW GetStaticStringField(System::IntPtr clazz, System::IntPtr fieldID);
+    static ::StringW GetStaticStringField(::System::IntPtr clazz, ::System::IntPtr fieldID);
     // static public System.IntPtr GetStaticObjectField(System.IntPtr clazz, System.IntPtr fieldID)
     // Offset: 0x29D1864
-    static System::IntPtr GetStaticObjectField(System::IntPtr clazz, System::IntPtr fieldID);
+    static ::System::IntPtr GetStaticObjectField(::System::IntPtr clazz, ::System::IntPtr fieldID);
     // static public System.Boolean GetStaticBooleanField(System.IntPtr clazz, System.IntPtr fieldID)
     // Offset: 0x29D18B4
-    static bool GetStaticBooleanField(System::IntPtr clazz, System::IntPtr fieldID);
+    static bool GetStaticBooleanField(::System::IntPtr clazz, ::System::IntPtr fieldID);
     // static public System.Byte GetStaticByteField(System.IntPtr clazz, System.IntPtr fieldID)
     // Offset: 0x29D1904
-    static uint8_t GetStaticByteField(System::IntPtr clazz, System::IntPtr fieldID);
+    static uint8_t GetStaticByteField(::System::IntPtr clazz, ::System::IntPtr fieldID);
     // static public System.SByte GetStaticSByteField(System.IntPtr clazz, System.IntPtr fieldID)
     // Offset: 0x29D1954
-    static int8_t GetStaticSByteField(System::IntPtr clazz, System::IntPtr fieldID);
+    static int8_t GetStaticSByteField(::System::IntPtr clazz, ::System::IntPtr fieldID);
     // static public System.Char GetStaticCharField(System.IntPtr clazz, System.IntPtr fieldID)
     // Offset: 0x29D19A4
-    static ::Il2CppChar GetStaticCharField(System::IntPtr clazz, System::IntPtr fieldID);
+    static ::Il2CppChar GetStaticCharField(::System::IntPtr clazz, ::System::IntPtr fieldID);
     // static public System.Int16 GetStaticShortField(System.IntPtr clazz, System.IntPtr fieldID)
     // Offset: 0x29D19F4
-    static int16_t GetStaticShortField(System::IntPtr clazz, System::IntPtr fieldID);
+    static int16_t GetStaticShortField(::System::IntPtr clazz, ::System::IntPtr fieldID);
     // static public System.Int32 GetStaticIntField(System.IntPtr clazz, System.IntPtr fieldID)
     // Offset: 0x29D1A44
-    static int GetStaticIntField(System::IntPtr clazz, System::IntPtr fieldID);
+    static int GetStaticIntField(::System::IntPtr clazz, ::System::IntPtr fieldID);
     // static public System.Int64 GetStaticLongField(System.IntPtr clazz, System.IntPtr fieldID)
     // Offset: 0x29D1A94
-    static int64_t GetStaticLongField(System::IntPtr clazz, System::IntPtr fieldID);
+    static int64_t GetStaticLongField(::System::IntPtr clazz, ::System::IntPtr fieldID);
     // static public System.Single GetStaticFloatField(System.IntPtr clazz, System.IntPtr fieldID)
     // Offset: 0x29D1AE4
-    static float GetStaticFloatField(System::IntPtr clazz, System::IntPtr fieldID);
+    static float GetStaticFloatField(::System::IntPtr clazz, ::System::IntPtr fieldID);
     // static public System.Double GetStaticDoubleField(System.IntPtr clazz, System.IntPtr fieldID)
     // Offset: 0x29D1B34
-    static double GetStaticDoubleField(System::IntPtr clazz, System::IntPtr fieldID);
+    static double GetStaticDoubleField(::System::IntPtr clazz, ::System::IntPtr fieldID);
     // static public System.Void SetStaticStringField(System.IntPtr clazz, System.IntPtr fieldID, System.String val)
     // Offset: 0x29D1B84
-    static void SetStaticStringField(System::IntPtr clazz, System::IntPtr fieldID, ::StringW val);
+    static void SetStaticStringField(::System::IntPtr clazz, ::System::IntPtr fieldID, ::StringW val);
     // static public System.Void SetStaticObjectField(System.IntPtr clazz, System.IntPtr fieldID, System.IntPtr val)
     // Offset: 0x29D1BDC
-    static void SetStaticObjectField(System::IntPtr clazz, System::IntPtr fieldID, System::IntPtr val);
+    static void SetStaticObjectField(::System::IntPtr clazz, ::System::IntPtr fieldID, ::System::IntPtr val);
     // static public System.Void SetStaticBooleanField(System.IntPtr clazz, System.IntPtr fieldID, System.Boolean val)
     // Offset: 0x29D1C34
-    static void SetStaticBooleanField(System::IntPtr clazz, System::IntPtr fieldID, bool val);
+    static void SetStaticBooleanField(::System::IntPtr clazz, ::System::IntPtr fieldID, bool val);
     // static public System.Void SetStaticByteField(System.IntPtr clazz, System.IntPtr fieldID, System.Byte val)
     // Offset: 0x29D1C8C
-    static void SetStaticByteField(System::IntPtr clazz, System::IntPtr fieldID, uint8_t val);
+    static void SetStaticByteField(::System::IntPtr clazz, ::System::IntPtr fieldID, uint8_t val);
     // static public System.Void SetStaticSByteField(System.IntPtr clazz, System.IntPtr fieldID, System.SByte val)
     // Offset: 0x29D1CE4
-    static void SetStaticSByteField(System::IntPtr clazz, System::IntPtr fieldID, int8_t val);
+    static void SetStaticSByteField(::System::IntPtr clazz, ::System::IntPtr fieldID, int8_t val);
     // static public System.Void SetStaticCharField(System.IntPtr clazz, System.IntPtr fieldID, System.Char val)
     // Offset: 0x29D1D3C
-    static void SetStaticCharField(System::IntPtr clazz, System::IntPtr fieldID, ::Il2CppChar val);
+    static void SetStaticCharField(::System::IntPtr clazz, ::System::IntPtr fieldID, ::Il2CppChar val);
     // static public System.Void SetStaticShortField(System.IntPtr clazz, System.IntPtr fieldID, System.Int16 val)
     // Offset: 0x29D1D94
-    static void SetStaticShortField(System::IntPtr clazz, System::IntPtr fieldID, int16_t val);
+    static void SetStaticShortField(::System::IntPtr clazz, ::System::IntPtr fieldID, int16_t val);
     // static public System.Void SetStaticIntField(System.IntPtr clazz, System.IntPtr fieldID, System.Int32 val)
     // Offset: 0x29D1DEC
-    static void SetStaticIntField(System::IntPtr clazz, System::IntPtr fieldID, int val);
+    static void SetStaticIntField(::System::IntPtr clazz, ::System::IntPtr fieldID, int val);
     // static public System.Void SetStaticLongField(System.IntPtr clazz, System.IntPtr fieldID, System.Int64 val)
     // Offset: 0x29D1E44
-    static void SetStaticLongField(System::IntPtr clazz, System::IntPtr fieldID, int64_t val);
+    static void SetStaticLongField(::System::IntPtr clazz, ::System::IntPtr fieldID, int64_t val);
     // static public System.Void SetStaticFloatField(System.IntPtr clazz, System.IntPtr fieldID, System.Single val)
     // Offset: 0x29D1E9C
-    static void SetStaticFloatField(System::IntPtr clazz, System::IntPtr fieldID, float val);
+    static void SetStaticFloatField(::System::IntPtr clazz, ::System::IntPtr fieldID, float val);
     // static public System.Void SetStaticDoubleField(System.IntPtr clazz, System.IntPtr fieldID, System.Double val)
     // Offset: 0x29D1EFC
-    static void SetStaticDoubleField(System::IntPtr clazz, System::IntPtr fieldID, double val);
+    static void SetStaticDoubleField(::System::IntPtr clazz, ::System::IntPtr fieldID, double val);
     // static public System.IntPtr ToBooleanArray(System.Boolean[] array)
     // Offset: 0x29D1F5C
-    static System::IntPtr ToBooleanArray(::ArrayW<bool> array);
+    static ::System::IntPtr ToBooleanArray(::ArrayW<bool> array);
     // static public System.IntPtr ToByteArray(System.Byte[] array)
     // Offset: 0x29D1F9C
-    static System::IntPtr ToByteArray(::ArrayW<uint8_t> array);
+    static ::System::IntPtr ToByteArray(::ArrayW<uint8_t> array);
     // static public System.IntPtr ToSByteArray(System.SByte[] array)
     // Offset: 0x29D1FDC
-    static System::IntPtr ToSByteArray(::ArrayW<int8_t> array);
+    static ::System::IntPtr ToSByteArray(::ArrayW<int8_t> array);
     // static public System.IntPtr ToCharArray(System.Char[] array)
     // Offset: 0x29D201C
-    static System::IntPtr ToCharArray(::ArrayW<::Il2CppChar> array);
+    static ::System::IntPtr ToCharArray(::ArrayW<::Il2CppChar> array);
     // static public System.IntPtr ToShortArray(System.Int16[] array)
     // Offset: 0x29D205C
-    static System::IntPtr ToShortArray(::ArrayW<int16_t> array);
+    static ::System::IntPtr ToShortArray(::ArrayW<int16_t> array);
     // static public System.IntPtr ToIntArray(System.Int32[] array)
     // Offset: 0x29D209C
-    static System::IntPtr ToIntArray(::ArrayW<int> array);
+    static ::System::IntPtr ToIntArray(::ArrayW<int> array);
     // static public System.IntPtr ToLongArray(System.Int64[] array)
     // Offset: 0x29D20DC
-    static System::IntPtr ToLongArray(::ArrayW<int64_t> array);
+    static ::System::IntPtr ToLongArray(::ArrayW<int64_t> array);
     // static public System.IntPtr ToFloatArray(System.Single[] array)
     // Offset: 0x29D211C
-    static System::IntPtr ToFloatArray(::ArrayW<float> array);
+    static ::System::IntPtr ToFloatArray(::ArrayW<float> array);
     // static public System.IntPtr ToDoubleArray(System.Double[] array)
     // Offset: 0x29D215C
-    static System::IntPtr ToDoubleArray(::ArrayW<double> array);
+    static ::System::IntPtr ToDoubleArray(::ArrayW<double> array);
     // static public System.IntPtr ToObjectArray(System.IntPtr[] array, System.IntPtr arrayClass)
     // Offset: 0x29D219C
-    static System::IntPtr ToObjectArray(::ArrayW<System::IntPtr> array, System::IntPtr arrayClass);
+    static ::System::IntPtr ToObjectArray(::ArrayW<::System::IntPtr> array, ::System::IntPtr arrayClass);
     // static public System.IntPtr ToObjectArray(System.IntPtr[] array)
     // Offset: 0x29D21EC
-    static System::IntPtr ToObjectArray(::ArrayW<System::IntPtr> array);
+    static ::System::IntPtr ToObjectArray(::ArrayW<::System::IntPtr> array);
     // static public System.Boolean[] FromBooleanArray(System.IntPtr array)
     // Offset: 0x29D2254
-    static ::ArrayW<bool> FromBooleanArray(System::IntPtr array);
+    static ::ArrayW<bool> FromBooleanArray(::System::IntPtr array);
     // static public System.Byte[] FromByteArray(System.IntPtr array)
     // Offset: 0x29D2294
-    static ::ArrayW<uint8_t> FromByteArray(System::IntPtr array);
+    static ::ArrayW<uint8_t> FromByteArray(::System::IntPtr array);
     // static public System.SByte[] FromSByteArray(System.IntPtr array)
     // Offset: 0x29D22D4
-    static ::ArrayW<int8_t> FromSByteArray(System::IntPtr array);
+    static ::ArrayW<int8_t> FromSByteArray(::System::IntPtr array);
     // static public System.Char[] FromCharArray(System.IntPtr array)
     // Offset: 0x29D2314
-    static ::ArrayW<::Il2CppChar> FromCharArray(System::IntPtr array);
+    static ::ArrayW<::Il2CppChar> FromCharArray(::System::IntPtr array);
     // static public System.Int16[] FromShortArray(System.IntPtr array)
     // Offset: 0x29D2354
-    static ::ArrayW<int16_t> FromShortArray(System::IntPtr array);
+    static ::ArrayW<int16_t> FromShortArray(::System::IntPtr array);
     // static public System.Int32[] FromIntArray(System.IntPtr array)
     // Offset: 0x29D2394
-    static ::ArrayW<int> FromIntArray(System::IntPtr array);
+    static ::ArrayW<int> FromIntArray(::System::IntPtr array);
     // static public System.Int64[] FromLongArray(System.IntPtr array)
     // Offset: 0x29D23D4
-    static ::ArrayW<int64_t> FromLongArray(System::IntPtr array);
+    static ::ArrayW<int64_t> FromLongArray(::System::IntPtr array);
     // static public System.Single[] FromFloatArray(System.IntPtr array)
     // Offset: 0x29D2414
-    static ::ArrayW<float> FromFloatArray(System::IntPtr array);
+    static ::ArrayW<float> FromFloatArray(::System::IntPtr array);
     // static public System.Double[] FromDoubleArray(System.IntPtr array)
     // Offset: 0x29D2454
-    static ::ArrayW<double> FromDoubleArray(System::IntPtr array);
+    static ::ArrayW<double> FromDoubleArray(::System::IntPtr array);
     // static public System.IntPtr[] FromObjectArray(System.IntPtr array)
     // Offset: 0x29D2494
-    static ::ArrayW<System::IntPtr> FromObjectArray(System::IntPtr array);
+    static ::ArrayW<::System::IntPtr> FromObjectArray(::System::IntPtr array);
     // static public System.Int32 GetArrayLength(System.IntPtr array)
     // Offset: 0x29D24D4
-    static int GetArrayLength(System::IntPtr array);
+    static int GetArrayLength(::System::IntPtr array);
     // static public System.IntPtr NewBooleanArray(System.Int32 size)
     // Offset: 0x29D2514
-    static System::IntPtr NewBooleanArray(int size);
+    static ::System::IntPtr NewBooleanArray(int size);
     // static public System.IntPtr NewByteArray(System.Int32 size)
     // Offset: 0x29D2554
-    static System::IntPtr NewByteArray(int size);
+    static ::System::IntPtr NewByteArray(int size);
     // static public System.IntPtr NewSByteArray(System.Int32 size)
     // Offset: 0x29D2594
-    static System::IntPtr NewSByteArray(int size);
+    static ::System::IntPtr NewSByteArray(int size);
     // static public System.IntPtr NewCharArray(System.Int32 size)
     // Offset: 0x29D25D4
-    static System::IntPtr NewCharArray(int size);
+    static ::System::IntPtr NewCharArray(int size);
     // static public System.IntPtr NewShortArray(System.Int32 size)
     // Offset: 0x29D2614
-    static System::IntPtr NewShortArray(int size);
+    static ::System::IntPtr NewShortArray(int size);
     // static public System.IntPtr NewIntArray(System.Int32 size)
     // Offset: 0x29D2654
-    static System::IntPtr NewIntArray(int size);
+    static ::System::IntPtr NewIntArray(int size);
     // static public System.IntPtr NewLongArray(System.Int32 size)
     // Offset: 0x29D2694
-    static System::IntPtr NewLongArray(int size);
+    static ::System::IntPtr NewLongArray(int size);
     // static public System.IntPtr NewFloatArray(System.Int32 size)
     // Offset: 0x29D26D4
-    static System::IntPtr NewFloatArray(int size);
+    static ::System::IntPtr NewFloatArray(int size);
     // static public System.IntPtr NewDoubleArray(System.Int32 size)
     // Offset: 0x29D2714
-    static System::IntPtr NewDoubleArray(int size);
+    static ::System::IntPtr NewDoubleArray(int size);
     // static public System.IntPtr NewObjectArray(System.Int32 size, System.IntPtr clazz, System.IntPtr obj)
     // Offset: 0x29D2754
-    static System::IntPtr NewObjectArray(int size, System::IntPtr clazz, System::IntPtr obj);
+    static ::System::IntPtr NewObjectArray(int size, ::System::IntPtr clazz, ::System::IntPtr obj);
     // static public System.Boolean GetBooleanArrayElement(System.IntPtr array, System.Int32 index)
     // Offset: 0x29D27AC
-    static bool GetBooleanArrayElement(System::IntPtr array, int index);
+    static bool GetBooleanArrayElement(::System::IntPtr array, int index);
     // static public System.Byte GetByteArrayElement(System.IntPtr array, System.Int32 index)
     // Offset: 0x29D27FC
-    static uint8_t GetByteArrayElement(System::IntPtr array, int index);
+    static uint8_t GetByteArrayElement(::System::IntPtr array, int index);
     // static public System.SByte GetSByteArrayElement(System.IntPtr array, System.Int32 index)
     // Offset: 0x29D284C
-    static int8_t GetSByteArrayElement(System::IntPtr array, int index);
+    static int8_t GetSByteArrayElement(::System::IntPtr array, int index);
     // static public System.Char GetCharArrayElement(System.IntPtr array, System.Int32 index)
     // Offset: 0x29D289C
-    static ::Il2CppChar GetCharArrayElement(System::IntPtr array, int index);
+    static ::Il2CppChar GetCharArrayElement(::System::IntPtr array, int index);
     // static public System.Int16 GetShortArrayElement(System.IntPtr array, System.Int32 index)
     // Offset: 0x29D28EC
-    static int16_t GetShortArrayElement(System::IntPtr array, int index);
+    static int16_t GetShortArrayElement(::System::IntPtr array, int index);
     // static public System.Int32 GetIntArrayElement(System.IntPtr array, System.Int32 index)
     // Offset: 0x29D293C
-    static int GetIntArrayElement(System::IntPtr array, int index);
+    static int GetIntArrayElement(::System::IntPtr array, int index);
     // static public System.Int64 GetLongArrayElement(System.IntPtr array, System.Int32 index)
     // Offset: 0x29D298C
-    static int64_t GetLongArrayElement(System::IntPtr array, int index);
+    static int64_t GetLongArrayElement(::System::IntPtr array, int index);
     // static public System.Single GetFloatArrayElement(System.IntPtr array, System.Int32 index)
     // Offset: 0x29D29DC
-    static float GetFloatArrayElement(System::IntPtr array, int index);
+    static float GetFloatArrayElement(::System::IntPtr array, int index);
     // static public System.Double GetDoubleArrayElement(System.IntPtr array, System.Int32 index)
     // Offset: 0x29D2A2C
-    static double GetDoubleArrayElement(System::IntPtr array, int index);
+    static double GetDoubleArrayElement(::System::IntPtr array, int index);
     // static public System.IntPtr GetObjectArrayElement(System.IntPtr array, System.Int32 index)
     // Offset: 0x29D2A7C
-    static System::IntPtr GetObjectArrayElement(System::IntPtr array, int index);
+    static ::System::IntPtr GetObjectArrayElement(::System::IntPtr array, int index);
     // static public System.Void SetBooleanArrayElement(System.IntPtr array, System.Int32 index, System.Byte val)
     // Offset: 0x29D2ACC
-    static void SetBooleanArrayElement(System::IntPtr array, int index, uint8_t val);
+    static void SetBooleanArrayElement(::System::IntPtr array, int index, uint8_t val);
     // static public System.Void SetBooleanArrayElement(System.IntPtr array, System.Int32 index, System.Boolean val)
     // Offset: 0x29D2B28
-    static void SetBooleanArrayElement(System::IntPtr array, int index, bool val);
+    static void SetBooleanArrayElement(::System::IntPtr array, int index, bool val);
     // static public System.Void SetByteArrayElement(System.IntPtr array, System.Int32 index, System.SByte val)
     // Offset: 0x29D2B80
-    static void SetByteArrayElement(System::IntPtr array, int index, int8_t val);
+    static void SetByteArrayElement(::System::IntPtr array, int index, int8_t val);
     // static public System.Void SetSByteArrayElement(System.IntPtr array, System.Int32 index, System.SByte val)
     // Offset: 0x29D2BD8
-    static void SetSByteArrayElement(System::IntPtr array, int index, int8_t val);
+    static void SetSByteArrayElement(::System::IntPtr array, int index, int8_t val);
     // static public System.Void SetCharArrayElement(System.IntPtr array, System.Int32 index, System.Char val)
     // Offset: 0x29D2C30
-    static void SetCharArrayElement(System::IntPtr array, int index, ::Il2CppChar val);
+    static void SetCharArrayElement(::System::IntPtr array, int index, ::Il2CppChar val);
     // static public System.Void SetShortArrayElement(System.IntPtr array, System.Int32 index, System.Int16 val)
     // Offset: 0x29D2C88
-    static void SetShortArrayElement(System::IntPtr array, int index, int16_t val);
+    static void SetShortArrayElement(::System::IntPtr array, int index, int16_t val);
     // static public System.Void SetIntArrayElement(System.IntPtr array, System.Int32 index, System.Int32 val)
     // Offset: 0x29D2CE0
-    static void SetIntArrayElement(System::IntPtr array, int index, int val);
+    static void SetIntArrayElement(::System::IntPtr array, int index, int val);
     // static public System.Void SetLongArrayElement(System.IntPtr array, System.Int32 index, System.Int64 val)
     // Offset: 0x29D2D38
-    static void SetLongArrayElement(System::IntPtr array, int index, int64_t val);
+    static void SetLongArrayElement(::System::IntPtr array, int index, int64_t val);
     // static public System.Void SetFloatArrayElement(System.IntPtr array, System.Int32 index, System.Single val)
     // Offset: 0x29D2D90
-    static void SetFloatArrayElement(System::IntPtr array, int index, float val);
+    static void SetFloatArrayElement(::System::IntPtr array, int index, float val);
     // static public System.Void SetDoubleArrayElement(System.IntPtr array, System.Int32 index, System.Double val)
     // Offset: 0x29D2DF0
-    static void SetDoubleArrayElement(System::IntPtr array, int index, double val);
+    static void SetDoubleArrayElement(::System::IntPtr array, int index, double val);
     // static public System.Void SetObjectArrayElement(System.IntPtr array, System.Int32 index, System.IntPtr obj)
     // Offset: 0x29D2E50
-    static void SetObjectArrayElement(System::IntPtr array, int index, System::IntPtr obj);
+    static void SetObjectArrayElement(::System::IntPtr array, int index, ::System::IntPtr obj);
   }; // UnityEngine.AndroidJNI
   #pragma pack(pop)
 }
@@ -549,7 +549,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::FindClass
 // Il2CppName: FindClass
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::StringW)>(&UnityEngine::AndroidJNI::FindClass)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::StringW)>(&UnityEngine::AndroidJNI::FindClass)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "FindClass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -558,7 +558,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::FromReflectedMethod
 // Il2CppName: FromReflectedMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&UnityEngine::AndroidJNI::FromReflectedMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&UnityEngine::AndroidJNI::FromReflectedMethod)> {
   static const MethodInfo* get() {
     static auto* refMethod = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "FromReflectedMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{refMethod});
@@ -567,7 +567,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::FromReflectedField
 // Il2CppName: FromReflectedField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&UnityEngine::AndroidJNI::FromReflectedField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&UnityEngine::AndroidJNI::FromReflectedField)> {
   static const MethodInfo* get() {
     static auto* refField = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "FromReflectedField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{refField});
@@ -576,7 +576,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::ToReflectedMethod
 // Il2CppName: ToReflectedMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::IntPtr, bool)>(&UnityEngine::AndroidJNI::ToReflectedMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::IntPtr, bool)>(&UnityEngine::AndroidJNI::ToReflectedMethod)> {
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -587,7 +587,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::ToReflectedField
 // Il2CppName: ToReflectedField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::IntPtr, bool)>(&UnityEngine::AndroidJNI::ToReflectedField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::IntPtr, bool)>(&UnityEngine::AndroidJNI::ToReflectedField)> {
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fieldID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -598,7 +598,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::GetSuperclass
 // Il2CppName: GetSuperclass
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&UnityEngine::AndroidJNI::GetSuperclass)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&UnityEngine::AndroidJNI::GetSuperclass)> {
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "GetSuperclass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clazz});
@@ -607,7 +607,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::IsAssignableFrom
 // Il2CppName: IsAssignableFrom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, System::IntPtr)>(&UnityEngine::AndroidJNI::IsAssignableFrom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr, ::System::IntPtr)>(&UnityEngine::AndroidJNI::IsAssignableFrom)> {
   static const MethodInfo* get() {
     static auto* clazz1 = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* clazz2 = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -617,7 +617,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::Throw
 // Il2CppName: Throw
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr)>(&UnityEngine::AndroidJNI::Throw)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::System::IntPtr)>(&UnityEngine::AndroidJNI::Throw)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "Throw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -626,7 +626,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::ThrowNew
 // Il2CppName: ThrowNew
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, ::StringW)>(&UnityEngine::AndroidJNI::ThrowNew)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::System::IntPtr, ::StringW)>(&UnityEngine::AndroidJNI::ThrowNew)> {
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -636,7 +636,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::ExceptionOccurred
 // Il2CppName: ExceptionOccurred
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&UnityEngine::AndroidJNI::ExceptionOccurred)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&UnityEngine::AndroidJNI::ExceptionOccurred)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "ExceptionOccurred", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -678,7 +678,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::PopLocalFrame
 // Il2CppName: PopLocalFrame
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&UnityEngine::AndroidJNI::PopLocalFrame)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&UnityEngine::AndroidJNI::PopLocalFrame)> {
   static const MethodInfo* get() {
     static auto* ptr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "PopLocalFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ptr});
@@ -687,7 +687,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::NewGlobalRef
 // Il2CppName: NewGlobalRef
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&UnityEngine::AndroidJNI::NewGlobalRef)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&UnityEngine::AndroidJNI::NewGlobalRef)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "NewGlobalRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -696,7 +696,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::DeleteGlobalRef
 // Il2CppName: DeleteGlobalRef
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&UnityEngine::AndroidJNI::DeleteGlobalRef)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&UnityEngine::AndroidJNI::DeleteGlobalRef)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "DeleteGlobalRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -705,7 +705,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::NewWeakGlobalRef
 // Il2CppName: NewWeakGlobalRef
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&UnityEngine::AndroidJNI::NewWeakGlobalRef)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&UnityEngine::AndroidJNI::NewWeakGlobalRef)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "NewWeakGlobalRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -714,7 +714,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::DeleteWeakGlobalRef
 // Il2CppName: DeleteWeakGlobalRef
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&UnityEngine::AndroidJNI::DeleteWeakGlobalRef)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&UnityEngine::AndroidJNI::DeleteWeakGlobalRef)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "DeleteWeakGlobalRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -723,7 +723,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::NewLocalRef
 // Il2CppName: NewLocalRef
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&UnityEngine::AndroidJNI::NewLocalRef)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&UnityEngine::AndroidJNI::NewLocalRef)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "NewLocalRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -732,7 +732,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::DeleteLocalRef
 // Il2CppName: DeleteLocalRef
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&UnityEngine::AndroidJNI::DeleteLocalRef)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&UnityEngine::AndroidJNI::DeleteLocalRef)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "DeleteLocalRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -741,7 +741,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::IsSameObject
 // Il2CppName: IsSameObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, System::IntPtr)>(&UnityEngine::AndroidJNI::IsSameObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr, ::System::IntPtr)>(&UnityEngine::AndroidJNI::IsSameObject)> {
   static const MethodInfo* get() {
     static auto* obj1 = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* obj2 = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -760,7 +760,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::AllocObject
 // Il2CppName: AllocObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&UnityEngine::AndroidJNI::AllocObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&UnityEngine::AndroidJNI::AllocObject)> {
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "AllocObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clazz});
@@ -769,7 +769,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::NewObject
 // Il2CppName: NewObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::IntPtr, ::ArrayW<UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::NewObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::NewObject)> {
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -780,7 +780,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::GetObjectClass
 // Il2CppName: GetObjectClass
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&UnityEngine::AndroidJNI::GetObjectClass)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&UnityEngine::AndroidJNI::GetObjectClass)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "GetObjectClass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -789,7 +789,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::IsInstanceOf
 // Il2CppName: IsInstanceOf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, System::IntPtr)>(&UnityEngine::AndroidJNI::IsInstanceOf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr, ::System::IntPtr)>(&UnityEngine::AndroidJNI::IsInstanceOf)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -799,7 +799,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::GetMethodID
 // Il2CppName: GetMethodID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, ::StringW, ::StringW)>(&UnityEngine::AndroidJNI::GetMethodID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::StringW, ::StringW)>(&UnityEngine::AndroidJNI::GetMethodID)> {
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -810,7 +810,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::GetFieldID
 // Il2CppName: GetFieldID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, ::StringW, ::StringW)>(&UnityEngine::AndroidJNI::GetFieldID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::StringW, ::StringW)>(&UnityEngine::AndroidJNI::GetFieldID)> {
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -821,7 +821,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::GetStaticMethodID
 // Il2CppName: GetStaticMethodID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, ::StringW, ::StringW)>(&UnityEngine::AndroidJNI::GetStaticMethodID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::StringW, ::StringW)>(&UnityEngine::AndroidJNI::GetStaticMethodID)> {
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -832,7 +832,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::GetStaticFieldID
 // Il2CppName: GetStaticFieldID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, ::StringW, ::StringW)>(&UnityEngine::AndroidJNI::GetStaticFieldID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::StringW, ::StringW)>(&UnityEngine::AndroidJNI::GetStaticFieldID)> {
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -843,7 +843,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::NewString
 // Il2CppName: NewString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::StringW)>(&UnityEngine::AndroidJNI::NewString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::StringW)>(&UnityEngine::AndroidJNI::NewString)> {
   static const MethodInfo* get() {
     static auto* chars = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "NewString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{chars});
@@ -852,7 +852,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::NewStringFromStr
 // Il2CppName: NewStringFromStr
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::StringW)>(&UnityEngine::AndroidJNI::NewStringFromStr)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::StringW)>(&UnityEngine::AndroidJNI::NewStringFromStr)> {
   static const MethodInfo* get() {
     static auto* chars = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "NewStringFromStr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{chars});
@@ -861,7 +861,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::NewString
 // Il2CppName: NewString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::ArrayW<::Il2CppChar>)>(&UnityEngine::AndroidJNI::NewString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::ArrayW<::Il2CppChar>)>(&UnityEngine::AndroidJNI::NewString)> {
   static const MethodInfo* get() {
     static auto* chars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "NewString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{chars});
@@ -870,7 +870,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::NewStringUTF
 // Il2CppName: NewStringUTF
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::StringW)>(&UnityEngine::AndroidJNI::NewStringUTF)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::StringW)>(&UnityEngine::AndroidJNI::NewStringUTF)> {
   static const MethodInfo* get() {
     static auto* bytes = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "NewStringUTF", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bytes});
@@ -879,7 +879,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::GetStringChars
 // Il2CppName: GetStringChars
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&UnityEngine::AndroidJNI::GetStringChars)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&UnityEngine::AndroidJNI::GetStringChars)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "GetStringChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str});
@@ -888,7 +888,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::GetStringLength
 // Il2CppName: GetStringLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr)>(&UnityEngine::AndroidJNI::GetStringLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::System::IntPtr)>(&UnityEngine::AndroidJNI::GetStringLength)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "GetStringLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str});
@@ -897,7 +897,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::GetStringUTFLength
 // Il2CppName: GetStringUTFLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr)>(&UnityEngine::AndroidJNI::GetStringUTFLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::System::IntPtr)>(&UnityEngine::AndroidJNI::GetStringUTFLength)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "GetStringUTFLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str});
@@ -906,7 +906,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::GetStringUTFChars
 // Il2CppName: GetStringUTFChars
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr)>(&UnityEngine::AndroidJNI::GetStringUTFChars)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&UnityEngine::AndroidJNI::GetStringUTFChars)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "GetStringUTFChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str});
@@ -915,7 +915,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::CallStringMethod
 // Il2CppName: CallStringMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr, System::IntPtr, ::ArrayW<UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::CallStringMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::CallStringMethod)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -926,7 +926,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::CallObjectMethod
 // Il2CppName: CallObjectMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::IntPtr, ::ArrayW<UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::CallObjectMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::CallObjectMethod)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -937,7 +937,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::CallIntMethod
 // Il2CppName: CallIntMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, System::IntPtr, ::ArrayW<UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::CallIntMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::CallIntMethod)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -948,7 +948,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::CallBooleanMethod
 // Il2CppName: CallBooleanMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, System::IntPtr, ::ArrayW<UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::CallBooleanMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::CallBooleanMethod)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -959,7 +959,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::CallShortMethod
 // Il2CppName: CallShortMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(System::IntPtr, System::IntPtr, ::ArrayW<UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::CallShortMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::CallShortMethod)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -970,7 +970,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::CallByteMethod
 // Il2CppName: CallByteMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(System::IntPtr, System::IntPtr, ::ArrayW<UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::CallByteMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::CallByteMethod)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -981,7 +981,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::CallSByteMethod
 // Il2CppName: CallSByteMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(System::IntPtr, System::IntPtr, ::ArrayW<UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::CallSByteMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::CallSByteMethod)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -992,7 +992,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::CallCharMethod
 // Il2CppName: CallCharMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(System::IntPtr, System::IntPtr, ::ArrayW<UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::CallCharMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::CallCharMethod)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1003,7 +1003,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppCha
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::CallFloatMethod
 // Il2CppName: CallFloatMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(System::IntPtr, System::IntPtr, ::ArrayW<UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::CallFloatMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::CallFloatMethod)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1014,7 +1014,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(S
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::CallDoubleMethod
 // Il2CppName: CallDoubleMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(System::IntPtr, System::IntPtr, ::ArrayW<UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::CallDoubleMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::CallDoubleMethod)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1025,7 +1025,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::CallLongMethod
 // Il2CppName: CallLongMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(System::IntPtr, System::IntPtr, ::ArrayW<UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::CallLongMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::CallLongMethod)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1036,7 +1036,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::CallVoidMethod
 // Il2CppName: CallVoidMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr, ::ArrayW<UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::CallVoidMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::CallVoidMethod)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1047,7 +1047,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::GetStringField
 // Il2CppName: GetStringField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr, System::IntPtr)>(&UnityEngine::AndroidJNI::GetStringField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr, ::System::IntPtr)>(&UnityEngine::AndroidJNI::GetStringField)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fieldID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1057,7 +1057,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::GetObjectField
 // Il2CppName: GetObjectField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::IntPtr)>(&UnityEngine::AndroidJNI::GetObjectField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::IntPtr)>(&UnityEngine::AndroidJNI::GetObjectField)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fieldID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1067,7 +1067,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::GetBooleanField
 // Il2CppName: GetBooleanField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, System::IntPtr)>(&UnityEngine::AndroidJNI::GetBooleanField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr, ::System::IntPtr)>(&UnityEngine::AndroidJNI::GetBooleanField)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fieldID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1077,7 +1077,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::GetByteField
 // Il2CppName: GetByteField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(System::IntPtr, System::IntPtr)>(&UnityEngine::AndroidJNI::GetByteField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(::System::IntPtr, ::System::IntPtr)>(&UnityEngine::AndroidJNI::GetByteField)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fieldID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1087,7 +1087,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::GetSByteField
 // Il2CppName: GetSByteField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(System::IntPtr, System::IntPtr)>(&UnityEngine::AndroidJNI::GetSByteField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(::System::IntPtr, ::System::IntPtr)>(&UnityEngine::AndroidJNI::GetSByteField)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fieldID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1097,7 +1097,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::GetCharField
 // Il2CppName: GetCharField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(System::IntPtr, System::IntPtr)>(&UnityEngine::AndroidJNI::GetCharField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(::System::IntPtr, ::System::IntPtr)>(&UnityEngine::AndroidJNI::GetCharField)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fieldID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1107,7 +1107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppCha
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::GetShortField
 // Il2CppName: GetShortField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(System::IntPtr, System::IntPtr)>(&UnityEngine::AndroidJNI::GetShortField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(::System::IntPtr, ::System::IntPtr)>(&UnityEngine::AndroidJNI::GetShortField)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fieldID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1117,7 +1117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::GetIntField
 // Il2CppName: GetIntField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, System::IntPtr)>(&UnityEngine::AndroidJNI::GetIntField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::System::IntPtr, ::System::IntPtr)>(&UnityEngine::AndroidJNI::GetIntField)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fieldID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1127,7 +1127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::GetLongField
 // Il2CppName: GetLongField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(System::IntPtr, System::IntPtr)>(&UnityEngine::AndroidJNI::GetLongField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::System::IntPtr, ::System::IntPtr)>(&UnityEngine::AndroidJNI::GetLongField)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fieldID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1137,7 +1137,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::GetFloatField
 // Il2CppName: GetFloatField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(System::IntPtr, System::IntPtr)>(&UnityEngine::AndroidJNI::GetFloatField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::System::IntPtr, ::System::IntPtr)>(&UnityEngine::AndroidJNI::GetFloatField)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fieldID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1147,7 +1147,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(S
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::GetDoubleField
 // Il2CppName: GetDoubleField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(System::IntPtr, System::IntPtr)>(&UnityEngine::AndroidJNI::GetDoubleField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(::System::IntPtr, ::System::IntPtr)>(&UnityEngine::AndroidJNI::GetDoubleField)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fieldID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1157,7 +1157,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::SetStringField
 // Il2CppName: SetStringField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr, ::StringW)>(&UnityEngine::AndroidJNI::SetStringField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::StringW)>(&UnityEngine::AndroidJNI::SetStringField)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fieldID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1168,7 +1168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::SetObjectField
 // Il2CppName: SetObjectField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr, System::IntPtr)>(&UnityEngine::AndroidJNI::SetObjectField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::System::IntPtr)>(&UnityEngine::AndroidJNI::SetObjectField)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fieldID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1179,7 +1179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::SetBooleanField
 // Il2CppName: SetBooleanField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr, bool)>(&UnityEngine::AndroidJNI::SetBooleanField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, bool)>(&UnityEngine::AndroidJNI::SetBooleanField)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fieldID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1190,7 +1190,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::SetByteField
 // Il2CppName: SetByteField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr, uint8_t)>(&UnityEngine::AndroidJNI::SetByteField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, uint8_t)>(&UnityEngine::AndroidJNI::SetByteField)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fieldID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1201,7 +1201,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::SetSByteField
 // Il2CppName: SetSByteField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr, int8_t)>(&UnityEngine::AndroidJNI::SetSByteField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, int8_t)>(&UnityEngine::AndroidJNI::SetSByteField)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fieldID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1212,7 +1212,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::SetCharField
 // Il2CppName: SetCharField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr, ::Il2CppChar)>(&UnityEngine::AndroidJNI::SetCharField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::Il2CppChar)>(&UnityEngine::AndroidJNI::SetCharField)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fieldID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1223,7 +1223,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::SetShortField
 // Il2CppName: SetShortField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr, int16_t)>(&UnityEngine::AndroidJNI::SetShortField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, int16_t)>(&UnityEngine::AndroidJNI::SetShortField)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fieldID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1234,7 +1234,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::SetIntField
 // Il2CppName: SetIntField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr, int)>(&UnityEngine::AndroidJNI::SetIntField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, int)>(&UnityEngine::AndroidJNI::SetIntField)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fieldID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1245,7 +1245,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::SetLongField
 // Il2CppName: SetLongField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr, int64_t)>(&UnityEngine::AndroidJNI::SetLongField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, int64_t)>(&UnityEngine::AndroidJNI::SetLongField)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fieldID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1256,7 +1256,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::SetFloatField
 // Il2CppName: SetFloatField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr, float)>(&UnityEngine::AndroidJNI::SetFloatField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, float)>(&UnityEngine::AndroidJNI::SetFloatField)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fieldID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1267,7 +1267,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::SetDoubleField
 // Il2CppName: SetDoubleField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr, double)>(&UnityEngine::AndroidJNI::SetDoubleField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, double)>(&UnityEngine::AndroidJNI::SetDoubleField)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fieldID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1278,7 +1278,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::CallStaticStringMethod
 // Il2CppName: CallStaticStringMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr, System::IntPtr, ::ArrayW<UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::CallStaticStringMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::CallStaticStringMethod)> {
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1289,7 +1289,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::CallStaticObjectMethod
 // Il2CppName: CallStaticObjectMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::IntPtr, ::ArrayW<UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::CallStaticObjectMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::CallStaticObjectMethod)> {
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1300,7 +1300,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::CallStaticIntMethod
 // Il2CppName: CallStaticIntMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, System::IntPtr, ::ArrayW<UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::CallStaticIntMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::CallStaticIntMethod)> {
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1311,7 +1311,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::CallStaticBooleanMethod
 // Il2CppName: CallStaticBooleanMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, System::IntPtr, ::ArrayW<UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::CallStaticBooleanMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::CallStaticBooleanMethod)> {
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1322,7 +1322,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::CallStaticShortMethod
 // Il2CppName: CallStaticShortMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(System::IntPtr, System::IntPtr, ::ArrayW<UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::CallStaticShortMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::CallStaticShortMethod)> {
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1333,7 +1333,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::CallStaticByteMethod
 // Il2CppName: CallStaticByteMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(System::IntPtr, System::IntPtr, ::ArrayW<UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::CallStaticByteMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::CallStaticByteMethod)> {
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1344,7 +1344,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::CallStaticSByteMethod
 // Il2CppName: CallStaticSByteMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(System::IntPtr, System::IntPtr, ::ArrayW<UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::CallStaticSByteMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::CallStaticSByteMethod)> {
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1355,7 +1355,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::CallStaticCharMethod
 // Il2CppName: CallStaticCharMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(System::IntPtr, System::IntPtr, ::ArrayW<UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::CallStaticCharMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::CallStaticCharMethod)> {
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1366,7 +1366,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppCha
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::CallStaticFloatMethod
 // Il2CppName: CallStaticFloatMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(System::IntPtr, System::IntPtr, ::ArrayW<UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::CallStaticFloatMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::CallStaticFloatMethod)> {
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1377,7 +1377,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(S
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::CallStaticDoubleMethod
 // Il2CppName: CallStaticDoubleMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(System::IntPtr, System::IntPtr, ::ArrayW<UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::CallStaticDoubleMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::CallStaticDoubleMethod)> {
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1388,7 +1388,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::CallStaticLongMethod
 // Il2CppName: CallStaticLongMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(System::IntPtr, System::IntPtr, ::ArrayW<UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::CallStaticLongMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::CallStaticLongMethod)> {
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1399,7 +1399,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::CallStaticVoidMethod
 // Il2CppName: CallStaticVoidMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr, ::ArrayW<UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::CallStaticVoidMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue>)>(&UnityEngine::AndroidJNI::CallStaticVoidMethod)> {
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* methodID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1410,7 +1410,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::GetStaticStringField
 // Il2CppName: GetStaticStringField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::IntPtr, System::IntPtr)>(&UnityEngine::AndroidJNI::GetStaticStringField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr, ::System::IntPtr)>(&UnityEngine::AndroidJNI::GetStaticStringField)> {
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fieldID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1420,7 +1420,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::GetStaticObjectField
 // Il2CppName: GetStaticObjectField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::IntPtr)>(&UnityEngine::AndroidJNI::GetStaticObjectField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::IntPtr)>(&UnityEngine::AndroidJNI::GetStaticObjectField)> {
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fieldID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1430,7 +1430,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::GetStaticBooleanField
 // Il2CppName: GetStaticBooleanField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, System::IntPtr)>(&UnityEngine::AndroidJNI::GetStaticBooleanField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr, ::System::IntPtr)>(&UnityEngine::AndroidJNI::GetStaticBooleanField)> {
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fieldID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1440,7 +1440,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::GetStaticByteField
 // Il2CppName: GetStaticByteField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(System::IntPtr, System::IntPtr)>(&UnityEngine::AndroidJNI::GetStaticByteField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(::System::IntPtr, ::System::IntPtr)>(&UnityEngine::AndroidJNI::GetStaticByteField)> {
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fieldID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1450,7 +1450,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::GetStaticSByteField
 // Il2CppName: GetStaticSByteField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(System::IntPtr, System::IntPtr)>(&UnityEngine::AndroidJNI::GetStaticSByteField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(::System::IntPtr, ::System::IntPtr)>(&UnityEngine::AndroidJNI::GetStaticSByteField)> {
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fieldID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1460,7 +1460,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::GetStaticCharField
 // Il2CppName: GetStaticCharField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(System::IntPtr, System::IntPtr)>(&UnityEngine::AndroidJNI::GetStaticCharField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(::System::IntPtr, ::System::IntPtr)>(&UnityEngine::AndroidJNI::GetStaticCharField)> {
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fieldID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1470,7 +1470,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppCha
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::GetStaticShortField
 // Il2CppName: GetStaticShortField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(System::IntPtr, System::IntPtr)>(&UnityEngine::AndroidJNI::GetStaticShortField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(::System::IntPtr, ::System::IntPtr)>(&UnityEngine::AndroidJNI::GetStaticShortField)> {
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fieldID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1480,7 +1480,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::GetStaticIntField
 // Il2CppName: GetStaticIntField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, System::IntPtr)>(&UnityEngine::AndroidJNI::GetStaticIntField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::System::IntPtr, ::System::IntPtr)>(&UnityEngine::AndroidJNI::GetStaticIntField)> {
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fieldID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1490,7 +1490,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::GetStaticLongField
 // Il2CppName: GetStaticLongField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(System::IntPtr, System::IntPtr)>(&UnityEngine::AndroidJNI::GetStaticLongField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::System::IntPtr, ::System::IntPtr)>(&UnityEngine::AndroidJNI::GetStaticLongField)> {
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fieldID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1500,7 +1500,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::GetStaticFloatField
 // Il2CppName: GetStaticFloatField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(System::IntPtr, System::IntPtr)>(&UnityEngine::AndroidJNI::GetStaticFloatField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::System::IntPtr, ::System::IntPtr)>(&UnityEngine::AndroidJNI::GetStaticFloatField)> {
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fieldID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1510,7 +1510,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(S
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::GetStaticDoubleField
 // Il2CppName: GetStaticDoubleField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(System::IntPtr, System::IntPtr)>(&UnityEngine::AndroidJNI::GetStaticDoubleField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(::System::IntPtr, ::System::IntPtr)>(&UnityEngine::AndroidJNI::GetStaticDoubleField)> {
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fieldID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1520,7 +1520,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::SetStaticStringField
 // Il2CppName: SetStaticStringField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr, ::StringW)>(&UnityEngine::AndroidJNI::SetStaticStringField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::StringW)>(&UnityEngine::AndroidJNI::SetStaticStringField)> {
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fieldID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1531,7 +1531,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::SetStaticObjectField
 // Il2CppName: SetStaticObjectField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr, System::IntPtr)>(&UnityEngine::AndroidJNI::SetStaticObjectField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::System::IntPtr)>(&UnityEngine::AndroidJNI::SetStaticObjectField)> {
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fieldID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1542,7 +1542,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::SetStaticBooleanField
 // Il2CppName: SetStaticBooleanField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr, bool)>(&UnityEngine::AndroidJNI::SetStaticBooleanField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, bool)>(&UnityEngine::AndroidJNI::SetStaticBooleanField)> {
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fieldID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1553,7 +1553,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::SetStaticByteField
 // Il2CppName: SetStaticByteField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr, uint8_t)>(&UnityEngine::AndroidJNI::SetStaticByteField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, uint8_t)>(&UnityEngine::AndroidJNI::SetStaticByteField)> {
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fieldID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1564,7 +1564,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::SetStaticSByteField
 // Il2CppName: SetStaticSByteField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr, int8_t)>(&UnityEngine::AndroidJNI::SetStaticSByteField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, int8_t)>(&UnityEngine::AndroidJNI::SetStaticSByteField)> {
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fieldID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1575,7 +1575,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::SetStaticCharField
 // Il2CppName: SetStaticCharField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr, ::Il2CppChar)>(&UnityEngine::AndroidJNI::SetStaticCharField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::Il2CppChar)>(&UnityEngine::AndroidJNI::SetStaticCharField)> {
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fieldID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1586,7 +1586,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::SetStaticShortField
 // Il2CppName: SetStaticShortField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr, int16_t)>(&UnityEngine::AndroidJNI::SetStaticShortField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, int16_t)>(&UnityEngine::AndroidJNI::SetStaticShortField)> {
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fieldID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1597,7 +1597,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::SetStaticIntField
 // Il2CppName: SetStaticIntField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr, int)>(&UnityEngine::AndroidJNI::SetStaticIntField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, int)>(&UnityEngine::AndroidJNI::SetStaticIntField)> {
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fieldID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1608,7 +1608,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::SetStaticLongField
 // Il2CppName: SetStaticLongField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr, int64_t)>(&UnityEngine::AndroidJNI::SetStaticLongField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, int64_t)>(&UnityEngine::AndroidJNI::SetStaticLongField)> {
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fieldID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1619,7 +1619,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::SetStaticFloatField
 // Il2CppName: SetStaticFloatField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr, float)>(&UnityEngine::AndroidJNI::SetStaticFloatField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, float)>(&UnityEngine::AndroidJNI::SetStaticFloatField)> {
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fieldID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1630,7 +1630,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::SetStaticDoubleField
 // Il2CppName: SetStaticDoubleField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr, double)>(&UnityEngine::AndroidJNI::SetStaticDoubleField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, double)>(&UnityEngine::AndroidJNI::SetStaticDoubleField)> {
   static const MethodInfo* get() {
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fieldID = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1641,7 +1641,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::ToBooleanArray
 // Il2CppName: ToBooleanArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::ArrayW<bool>)>(&UnityEngine::AndroidJNI::ToBooleanArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::ArrayW<bool>)>(&UnityEngine::AndroidJNI::ToBooleanArray)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Boolean"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "ToBooleanArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});
@@ -1650,7 +1650,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::ToByteArray
 // Il2CppName: ToByteArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::ArrayW<uint8_t>)>(&UnityEngine::AndroidJNI::ToByteArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::ArrayW<uint8_t>)>(&UnityEngine::AndroidJNI::ToByteArray)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "ToByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});
@@ -1659,7 +1659,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::ToSByteArray
 // Il2CppName: ToSByteArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::ArrayW<int8_t>)>(&UnityEngine::AndroidJNI::ToSByteArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::ArrayW<int8_t>)>(&UnityEngine::AndroidJNI::ToSByteArray)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "SByte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "ToSByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});
@@ -1668,7 +1668,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::ToCharArray
 // Il2CppName: ToCharArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::ArrayW<::Il2CppChar>)>(&UnityEngine::AndroidJNI::ToCharArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::ArrayW<::Il2CppChar>)>(&UnityEngine::AndroidJNI::ToCharArray)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "ToCharArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});
@@ -1677,7 +1677,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::ToShortArray
 // Il2CppName: ToShortArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::ArrayW<int16_t>)>(&UnityEngine::AndroidJNI::ToShortArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::ArrayW<int16_t>)>(&UnityEngine::AndroidJNI::ToShortArray)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int16"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "ToShortArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});
@@ -1686,7 +1686,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::ToIntArray
 // Il2CppName: ToIntArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::ArrayW<int>)>(&UnityEngine::AndroidJNI::ToIntArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::ArrayW<int>)>(&UnityEngine::AndroidJNI::ToIntArray)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "ToIntArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});
@@ -1695,7 +1695,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::ToLongArray
 // Il2CppName: ToLongArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::ArrayW<int64_t>)>(&UnityEngine::AndroidJNI::ToLongArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::ArrayW<int64_t>)>(&UnityEngine::AndroidJNI::ToLongArray)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int64"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "ToLongArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});
@@ -1704,7 +1704,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::ToFloatArray
 // Il2CppName: ToFloatArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::ArrayW<float>)>(&UnityEngine::AndroidJNI::ToFloatArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::ArrayW<float>)>(&UnityEngine::AndroidJNI::ToFloatArray)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "ToFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});
@@ -1713,7 +1713,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::ToDoubleArray
 // Il2CppName: ToDoubleArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::ArrayW<double>)>(&UnityEngine::AndroidJNI::ToDoubleArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::ArrayW<double>)>(&UnityEngine::AndroidJNI::ToDoubleArray)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Double"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "ToDoubleArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});
@@ -1722,7 +1722,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::ToObjectArray
 // Il2CppName: ToObjectArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::ArrayW<System::IntPtr>, System::IntPtr)>(&UnityEngine::AndroidJNI::ToObjectArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::ArrayW<::System::IntPtr>, ::System::IntPtr)>(&UnityEngine::AndroidJNI::ToObjectArray)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "IntPtr"), 1)->byval_arg;
     static auto* arrayClass = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1732,7 +1732,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::ToObjectArray
 // Il2CppName: ToObjectArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::ArrayW<System::IntPtr>)>(&UnityEngine::AndroidJNI::ToObjectArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::ArrayW<::System::IntPtr>)>(&UnityEngine::AndroidJNI::ToObjectArray)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "IntPtr"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "ToObjectArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});
@@ -1741,7 +1741,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::FromBooleanArray
 // Il2CppName: FromBooleanArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<bool> (*)(System::IntPtr)>(&UnityEngine::AndroidJNI::FromBooleanArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<bool> (*)(::System::IntPtr)>(&UnityEngine::AndroidJNI::FromBooleanArray)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "FromBooleanArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});
@@ -1750,7 +1750,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<bo
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::FromByteArray
 // Il2CppName: FromByteArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(System::IntPtr)>(&UnityEngine::AndroidJNI::FromByteArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::System::IntPtr)>(&UnityEngine::AndroidJNI::FromByteArray)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "FromByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});
@@ -1759,7 +1759,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::FromSByteArray
 // Il2CppName: FromSByteArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int8_t> (*)(System::IntPtr)>(&UnityEngine::AndroidJNI::FromSByteArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int8_t> (*)(::System::IntPtr)>(&UnityEngine::AndroidJNI::FromSByteArray)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "FromSByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});
@@ -1768,7 +1768,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<in
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::FromCharArray
 // Il2CppName: FromCharArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppChar> (*)(System::IntPtr)>(&UnityEngine::AndroidJNI::FromCharArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppChar> (*)(::System::IntPtr)>(&UnityEngine::AndroidJNI::FromCharArray)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "FromCharArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});
@@ -1777,7 +1777,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::FromShortArray
 // Il2CppName: FromShortArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int16_t> (*)(System::IntPtr)>(&UnityEngine::AndroidJNI::FromShortArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int16_t> (*)(::System::IntPtr)>(&UnityEngine::AndroidJNI::FromShortArray)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "FromShortArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});
@@ -1786,7 +1786,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<in
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::FromIntArray
 // Il2CppName: FromIntArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (*)(System::IntPtr)>(&UnityEngine::AndroidJNI::FromIntArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (*)(::System::IntPtr)>(&UnityEngine::AndroidJNI::FromIntArray)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "FromIntArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});
@@ -1795,7 +1795,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<in
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::FromLongArray
 // Il2CppName: FromLongArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int64_t> (*)(System::IntPtr)>(&UnityEngine::AndroidJNI::FromLongArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int64_t> (*)(::System::IntPtr)>(&UnityEngine::AndroidJNI::FromLongArray)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "FromLongArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});
@@ -1804,7 +1804,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<in
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::FromFloatArray
 // Il2CppName: FromFloatArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<float> (*)(System::IntPtr)>(&UnityEngine::AndroidJNI::FromFloatArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<float> (*)(::System::IntPtr)>(&UnityEngine::AndroidJNI::FromFloatArray)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "FromFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});
@@ -1813,7 +1813,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<fl
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::FromDoubleArray
 // Il2CppName: FromDoubleArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<double> (*)(System::IntPtr)>(&UnityEngine::AndroidJNI::FromDoubleArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<double> (*)(::System::IntPtr)>(&UnityEngine::AndroidJNI::FromDoubleArray)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "FromDoubleArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});
@@ -1822,7 +1822,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<do
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::FromObjectArray
 // Il2CppName: FromObjectArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::IntPtr> (*)(System::IntPtr)>(&UnityEngine::AndroidJNI::FromObjectArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::IntPtr> (*)(::System::IntPtr)>(&UnityEngine::AndroidJNI::FromObjectArray)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "FromObjectArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});
@@ -1831,7 +1831,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Sy
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::GetArrayLength
 // Il2CppName: GetArrayLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr)>(&UnityEngine::AndroidJNI::GetArrayLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::System::IntPtr)>(&UnityEngine::AndroidJNI::GetArrayLength)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "GetArrayLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});
@@ -1840,7 +1840,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::NewBooleanArray
 // Il2CppName: NewBooleanArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(int)>(&UnityEngine::AndroidJNI::NewBooleanArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(int)>(&UnityEngine::AndroidJNI::NewBooleanArray)> {
   static const MethodInfo* get() {
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "NewBooleanArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{size});
@@ -1849,7 +1849,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::NewByteArray
 // Il2CppName: NewByteArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(int)>(&UnityEngine::AndroidJNI::NewByteArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(int)>(&UnityEngine::AndroidJNI::NewByteArray)> {
   static const MethodInfo* get() {
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "NewByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{size});
@@ -1858,7 +1858,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::NewSByteArray
 // Il2CppName: NewSByteArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(int)>(&UnityEngine::AndroidJNI::NewSByteArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(int)>(&UnityEngine::AndroidJNI::NewSByteArray)> {
   static const MethodInfo* get() {
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "NewSByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{size});
@@ -1867,7 +1867,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::NewCharArray
 // Il2CppName: NewCharArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(int)>(&UnityEngine::AndroidJNI::NewCharArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(int)>(&UnityEngine::AndroidJNI::NewCharArray)> {
   static const MethodInfo* get() {
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "NewCharArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{size});
@@ -1876,7 +1876,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::NewShortArray
 // Il2CppName: NewShortArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(int)>(&UnityEngine::AndroidJNI::NewShortArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(int)>(&UnityEngine::AndroidJNI::NewShortArray)> {
   static const MethodInfo* get() {
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "NewShortArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{size});
@@ -1885,7 +1885,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::NewIntArray
 // Il2CppName: NewIntArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(int)>(&UnityEngine::AndroidJNI::NewIntArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(int)>(&UnityEngine::AndroidJNI::NewIntArray)> {
   static const MethodInfo* get() {
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "NewIntArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{size});
@@ -1894,7 +1894,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::NewLongArray
 // Il2CppName: NewLongArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(int)>(&UnityEngine::AndroidJNI::NewLongArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(int)>(&UnityEngine::AndroidJNI::NewLongArray)> {
   static const MethodInfo* get() {
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "NewLongArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{size});
@@ -1903,7 +1903,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::NewFloatArray
 // Il2CppName: NewFloatArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(int)>(&UnityEngine::AndroidJNI::NewFloatArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(int)>(&UnityEngine::AndroidJNI::NewFloatArray)> {
   static const MethodInfo* get() {
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "NewFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{size});
@@ -1912,7 +1912,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::NewDoubleArray
 // Il2CppName: NewDoubleArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(int)>(&UnityEngine::AndroidJNI::NewDoubleArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(int)>(&UnityEngine::AndroidJNI::NewDoubleArray)> {
   static const MethodInfo* get() {
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidJNI*), "NewDoubleArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{size});
@@ -1921,7 +1921,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::NewObjectArray
 // Il2CppName: NewObjectArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(int, System::IntPtr, System::IntPtr)>(&UnityEngine::AndroidJNI::NewObjectArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(int, ::System::IntPtr, ::System::IntPtr)>(&UnityEngine::AndroidJNI::NewObjectArray)> {
   static const MethodInfo* get() {
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1932,7 +1932,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::GetBooleanArrayElement
 // Il2CppName: GetBooleanArrayElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, int)>(&UnityEngine::AndroidJNI::GetBooleanArrayElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr, int)>(&UnityEngine::AndroidJNI::GetBooleanArrayElement)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1942,7 +1942,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::GetByteArrayElement
 // Il2CppName: GetByteArrayElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(System::IntPtr, int)>(&UnityEngine::AndroidJNI::GetByteArrayElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(::System::IntPtr, int)>(&UnityEngine::AndroidJNI::GetByteArrayElement)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1952,7 +1952,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::GetSByteArrayElement
 // Il2CppName: GetSByteArrayElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(System::IntPtr, int)>(&UnityEngine::AndroidJNI::GetSByteArrayElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(::System::IntPtr, int)>(&UnityEngine::AndroidJNI::GetSByteArrayElement)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1962,7 +1962,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::GetCharArrayElement
 // Il2CppName: GetCharArrayElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(System::IntPtr, int)>(&UnityEngine::AndroidJNI::GetCharArrayElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(::System::IntPtr, int)>(&UnityEngine::AndroidJNI::GetCharArrayElement)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1972,7 +1972,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppCha
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::GetShortArrayElement
 // Il2CppName: GetShortArrayElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(System::IntPtr, int)>(&UnityEngine::AndroidJNI::GetShortArrayElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(::System::IntPtr, int)>(&UnityEngine::AndroidJNI::GetShortArrayElement)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1982,7 +1982,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::GetIntArrayElement
 // Il2CppName: GetIntArrayElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, int)>(&UnityEngine::AndroidJNI::GetIntArrayElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::System::IntPtr, int)>(&UnityEngine::AndroidJNI::GetIntArrayElement)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1992,7 +1992,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::GetLongArrayElement
 // Il2CppName: GetLongArrayElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(System::IntPtr, int)>(&UnityEngine::AndroidJNI::GetLongArrayElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::System::IntPtr, int)>(&UnityEngine::AndroidJNI::GetLongArrayElement)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2002,7 +2002,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::GetFloatArrayElement
 // Il2CppName: GetFloatArrayElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(System::IntPtr, int)>(&UnityEngine::AndroidJNI::GetFloatArrayElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::System::IntPtr, int)>(&UnityEngine::AndroidJNI::GetFloatArrayElement)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2012,7 +2012,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(S
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::GetDoubleArrayElement
 // Il2CppName: GetDoubleArrayElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(System::IntPtr, int)>(&UnityEngine::AndroidJNI::GetDoubleArrayElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(::System::IntPtr, int)>(&UnityEngine::AndroidJNI::GetDoubleArrayElement)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2022,7 +2022,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::GetObjectArrayElement
 // Il2CppName: GetObjectArrayElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, int)>(&UnityEngine::AndroidJNI::GetObjectArrayElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, int)>(&UnityEngine::AndroidJNI::GetObjectArrayElement)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2032,7 +2032,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::SetBooleanArrayElement
 // Il2CppName: SetBooleanArrayElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, int, uint8_t)>(&UnityEngine::AndroidJNI::SetBooleanArrayElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, int, uint8_t)>(&UnityEngine::AndroidJNI::SetBooleanArrayElement)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2043,7 +2043,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::SetBooleanArrayElement
 // Il2CppName: SetBooleanArrayElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, int, bool)>(&UnityEngine::AndroidJNI::SetBooleanArrayElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, int, bool)>(&UnityEngine::AndroidJNI::SetBooleanArrayElement)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2054,7 +2054,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::SetByteArrayElement
 // Il2CppName: SetByteArrayElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, int, int8_t)>(&UnityEngine::AndroidJNI::SetByteArrayElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, int, int8_t)>(&UnityEngine::AndroidJNI::SetByteArrayElement)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2065,7 +2065,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::SetSByteArrayElement
 // Il2CppName: SetSByteArrayElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, int, int8_t)>(&UnityEngine::AndroidJNI::SetSByteArrayElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, int, int8_t)>(&UnityEngine::AndroidJNI::SetSByteArrayElement)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2076,7 +2076,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::SetCharArrayElement
 // Il2CppName: SetCharArrayElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, int, ::Il2CppChar)>(&UnityEngine::AndroidJNI::SetCharArrayElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, int, ::Il2CppChar)>(&UnityEngine::AndroidJNI::SetCharArrayElement)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2087,7 +2087,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::SetShortArrayElement
 // Il2CppName: SetShortArrayElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, int, int16_t)>(&UnityEngine::AndroidJNI::SetShortArrayElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, int, int16_t)>(&UnityEngine::AndroidJNI::SetShortArrayElement)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2098,7 +2098,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::SetIntArrayElement
 // Il2CppName: SetIntArrayElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, int, int)>(&UnityEngine::AndroidJNI::SetIntArrayElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, int, int)>(&UnityEngine::AndroidJNI::SetIntArrayElement)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2109,7 +2109,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::SetLongArrayElement
 // Il2CppName: SetLongArrayElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, int, int64_t)>(&UnityEngine::AndroidJNI::SetLongArrayElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, int, int64_t)>(&UnityEngine::AndroidJNI::SetLongArrayElement)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2120,7 +2120,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::SetFloatArrayElement
 // Il2CppName: SetFloatArrayElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, int, float)>(&UnityEngine::AndroidJNI::SetFloatArrayElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, int, float)>(&UnityEngine::AndroidJNI::SetFloatArrayElement)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2131,7 +2131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::SetDoubleArrayElement
 // Il2CppName: SetDoubleArrayElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, int, double)>(&UnityEngine::AndroidJNI::SetDoubleArrayElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, int, double)>(&UnityEngine::AndroidJNI::SetDoubleArrayElement)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2142,7 +2142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::SetObjectArrayElement
 // Il2CppName: SetObjectArrayElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, int, System::IntPtr)>(&UnityEngine::AndroidJNI::SetObjectArrayElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, int, ::System::IntPtr)>(&UnityEngine::AndroidJNI::SetObjectArrayElement)> {
   static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

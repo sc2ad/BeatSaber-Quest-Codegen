@@ -22,8 +22,8 @@ namespace System::Reflection::Emit {
   class LocalBuilder;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Reflection::Emit::LocalBuilder);
-DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Emit::LocalBuilder*, "System.Reflection.Emit", "LocalBuilder");
+NEED_NO_BOX(::System::Reflection::Emit::LocalBuilder);
+DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::Emit::LocalBuilder*, "System.Reflection.Emit", "LocalBuilder");
 // Type namespace: System.Reflection.Emit
 namespace System::Reflection::Emit {
   // Size: 0x38
@@ -33,7 +33,7 @@ namespace System::Reflection::Emit {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: 1188E4C
   // [ClassInterfaceAttribute] Offset: 1188E4C
-  class LocalBuilder : public System::Reflection::LocalVariableInfo {
+  class LocalBuilder : public ::System::Reflection::LocalVariableInfo {
     public:
     // Writing base type padding for base size: 0x1C to desired offset: 0x20
     char ___base_padding[0x4] = {};
@@ -55,9 +55,9 @@ namespace System::Reflection::Emit {
     // System.Reflection.Emit.ILGenerator ilgen
     // Size: 0x8
     // Offset: 0x28
-    System::Reflection::Emit::ILGenerator* ilgen;
+    ::System::Reflection::Emit::ILGenerator* ilgen;
     // Field size check
-    static_assert(sizeof(System::Reflection::Emit::ILGenerator*) == 0x8);
+    static_assert(sizeof(::System::Reflection::Emit::ILGenerator*) == 0x8);
     // private System.Int32 startOffset
     // Size: 0x4
     // Offset: 0x30
@@ -74,7 +74,7 @@ namespace System::Reflection::Emit {
     // Get instance field reference: private System.String name
     ::StringW& dyn_name();
     // Get instance field reference: System.Reflection.Emit.ILGenerator ilgen
-    System::Reflection::Emit::ILGenerator*& dyn_ilgen();
+    ::System::Reflection::Emit::ILGenerator*& dyn_ilgen();
     // Get instance field reference: private System.Int32 startOffset
     int& dyn_startOffset();
     // Get instance field reference: private System.Int32 endOffset

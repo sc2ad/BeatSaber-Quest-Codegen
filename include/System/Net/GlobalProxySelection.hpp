@@ -19,8 +19,8 @@ namespace System::Net {
   class GlobalProxySelection;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Net::GlobalProxySelection);
-DEFINE_IL2CPP_ARG_TYPE(System::Net::GlobalProxySelection*, "System.Net", "GlobalProxySelection");
+NEED_NO_BOX(::System::Net::GlobalProxySelection);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::GlobalProxySelection*, "System.Net", "GlobalProxySelection");
 // Type namespace: System.Net
 namespace System::Net {
   // Size: 0x10
@@ -32,10 +32,10 @@ namespace System::Net {
     public:
     // static public System.Net.IWebProxy get_Select()
     // Offset: 0x174E4B8
-    static System::Net::IWebProxy* get_Select();
+    static ::System::Net::IWebProxy* get_Select();
     // static public System.Net.IWebProxy GetEmptyWebProxy()
     // Offset: 0x17536FC
-    static System::Net::IWebProxy* GetEmptyWebProxy();
+    static ::System::Net::IWebProxy* GetEmptyWebProxy();
   }; // System.Net.GlobalProxySelection
   #pragma pack(pop)
 }
@@ -43,7 +43,7 @@ namespace System::Net {
 // Writing MetadataGetter for method: System::Net::GlobalProxySelection::get_Select
 // Il2CppName: get_Select
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IWebProxy* (*)()>(&System::Net::GlobalProxySelection::get_Select)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::IWebProxy* (*)()>(&System::Net::GlobalProxySelection::get_Select)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::GlobalProxySelection*), "get_Select", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -51,7 +51,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Writing MetadataGetter for method: System::Net::GlobalProxySelection::GetEmptyWebProxy
 // Il2CppName: GetEmptyWebProxy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IWebProxy* (*)()>(&System::Net::GlobalProxySelection::GetEmptyWebProxy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::IWebProxy* (*)()>(&System::Net::GlobalProxySelection::GetEmptyWebProxy)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::GlobalProxySelection*), "GetEmptyWebProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

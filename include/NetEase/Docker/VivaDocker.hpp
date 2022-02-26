@@ -37,8 +37,8 @@ namespace NetEase::Docker {
   class VivaDocker;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(NetEase::Docker::VivaDocker);
-DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::VivaDocker*, "NetEase.Docker", "VivaDocker");
+NEED_NO_BOX(::NetEase::Docker::VivaDocker);
+DEFINE_IL2CPP_ARG_TYPE(::NetEase::Docker::VivaDocker*, "NetEase.Docker", "VivaDocker");
 // Type namespace: NetEase.Docker
 namespace NetEase::Docker {
   // Size: 0x10
@@ -48,42 +48,42 @@ namespace NetEase::Docker {
   class VivaDocker : public ::Il2CppObject {
     public:
     // Get static field: static private NetEase.Docker.IDock _activeDock
-    static NetEase::Docker::IDock* _get__activeDock();
+    static ::NetEase::Docker::IDock* _get__activeDock();
     // Set static field: static private NetEase.Docker.IDock _activeDock
-    static void _set__activeDock(NetEase::Docker::IDock* value);
+    static void _set__activeDock(::NetEase::Docker::IDock* value);
     // static private System.Void .cctor()
     // Offset: 0x2A585C8
     static void _cctor();
     // static public System.Void SetInitializeCallback(System.Action`1<NetEase.Docker.InitializeData> callbackAction)
     // Offset: 0x2A57C04
-    static void SetInitializeCallback(System::Action_1<NetEase::Docker::InitializeData>* callbackAction);
+    static void SetInitializeCallback(::System::Action_1<::NetEase::Docker::InitializeData>* callbackAction);
     // static public System.Void Initialize()
     // Offset: 0x2A57CE0
     static void Initialize();
     // static public System.Void SetLoginCallback(System.Action`1<NetEase.Docker.LoginData> callbackAction)
     // Offset: 0x2A57DB8
-    static void SetLoginCallback(System::Action_1<NetEase::Docker::LoginData>* callbackAction);
+    static void SetLoginCallback(::System::Action_1<::NetEase::Docker::LoginData>* callbackAction);
     // static public System.Void Login()
     // Offset: 0x2A57E98
     static void Login();
     // static public System.Void SetLogoutCallback(System.Action`1<NetEase.Docker.LogoutData> callbackAction)
     // Offset: 0x2A57F70
-    static void SetLogoutCallback(System::Action_1<NetEase::Docker::LogoutData>* callbackAction);
+    static void SetLogoutCallback(::System::Action_1<::NetEase::Docker::LogoutData>* callbackAction);
     // static public System.Void Logout()
     // Offset: 0x2A58050
     static void Logout();
     // static public System.Void UploadScore(NetEase.Docker.UploadScoreData scoreData)
     // Offset: 0x2A58128
-    static void UploadScore(NetEase::Docker::UploadScoreData scoreData);
+    static void UploadScore(::NetEase::Docker::UploadScoreData scoreData);
     // static public System.Boolean WillProvideHighscore()
     // Offset: 0x2A58248
     static bool WillProvideHighscore();
     // static public System.Void SetHighscoreReceivedCallback(System.Action`1<NetEase.Docker.ReceivedHighscoreData> callbackAction)
     // Offset: 0x2A58320
-    static void SetHighscoreReceivedCallback(System::Action_1<NetEase::Docker::ReceivedHighscoreData>* callbackAction);
+    static void SetHighscoreReceivedCallback(::System::Action_1<::NetEase::Docker::ReceivedHighscoreData>* callbackAction);
     // static public System.Void RequestHighscoreList(NetEase.Docker.RequestHighscoreData highscoreRequest)
     // Offset: 0x2A58400
-    static void RequestHighscoreList(NetEase::Docker::RequestHighscoreData highscoreRequest);
+    static void RequestHighscoreList(::NetEase::Docker::RequestHighscoreData highscoreRequest);
     // static public System.Void UpdateLoop()
     // Offset: 0x2A584F0
     static void UpdateLoop();
@@ -102,7 +102,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: NetEase::Docker::VivaDocker::SetInitializeCallback
 // Il2CppName: SetInitializeCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_1<NetEase::Docker::InitializeData>*)>(&NetEase::Docker::VivaDocker::SetInitializeCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action_1<::NetEase::Docker::InitializeData>*)>(&NetEase::Docker::VivaDocker::SetInitializeCallback)> {
   static const MethodInfo* get() {
     static auto* callbackAction = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("NetEase.Docker", "InitializeData")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::VivaDocker*), "SetInitializeCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{callbackAction});
@@ -119,7 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: NetEase::Docker::VivaDocker::SetLoginCallback
 // Il2CppName: SetLoginCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_1<NetEase::Docker::LoginData>*)>(&NetEase::Docker::VivaDocker::SetLoginCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action_1<::NetEase::Docker::LoginData>*)>(&NetEase::Docker::VivaDocker::SetLoginCallback)> {
   static const MethodInfo* get() {
     static auto* callbackAction = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("NetEase.Docker", "LoginData")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::VivaDocker*), "SetLoginCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{callbackAction});
@@ -136,7 +136,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: NetEase::Docker::VivaDocker::SetLogoutCallback
 // Il2CppName: SetLogoutCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_1<NetEase::Docker::LogoutData>*)>(&NetEase::Docker::VivaDocker::SetLogoutCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action_1<::NetEase::Docker::LogoutData>*)>(&NetEase::Docker::VivaDocker::SetLogoutCallback)> {
   static const MethodInfo* get() {
     static auto* callbackAction = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("NetEase.Docker", "LogoutData")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::VivaDocker*), "SetLogoutCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{callbackAction});
@@ -153,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: NetEase::Docker::VivaDocker::UploadScore
 // Il2CppName: UploadScore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(NetEase::Docker::UploadScoreData)>(&NetEase::Docker::VivaDocker::UploadScore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::NetEase::Docker::UploadScoreData)>(&NetEase::Docker::VivaDocker::UploadScore)> {
   static const MethodInfo* get() {
     static auto* scoreData = &::il2cpp_utils::GetClassFromName("NetEase.Docker", "UploadScoreData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::VivaDocker*), "UploadScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scoreData});
@@ -170,7 +170,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Writing MetadataGetter for method: NetEase::Docker::VivaDocker::SetHighscoreReceivedCallback
 // Il2CppName: SetHighscoreReceivedCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_1<NetEase::Docker::ReceivedHighscoreData>*)>(&NetEase::Docker::VivaDocker::SetHighscoreReceivedCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action_1<::NetEase::Docker::ReceivedHighscoreData>*)>(&NetEase::Docker::VivaDocker::SetHighscoreReceivedCallback)> {
   static const MethodInfo* get() {
     static auto* callbackAction = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("NetEase.Docker", "ReceivedHighscoreData")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::VivaDocker*), "SetHighscoreReceivedCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{callbackAction});
@@ -179,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: NetEase::Docker::VivaDocker::RequestHighscoreList
 // Il2CppName: RequestHighscoreList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(NetEase::Docker::RequestHighscoreData)>(&NetEase::Docker::VivaDocker::RequestHighscoreList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::NetEase::Docker::RequestHighscoreData)>(&NetEase::Docker::VivaDocker::RequestHighscoreList)> {
   static const MethodInfo* get() {
     static auto* highscoreRequest = &::il2cpp_utils::GetClassFromName("NetEase.Docker", "RequestHighscoreData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::VivaDocker*), "RequestHighscoreList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{highscoreRequest});

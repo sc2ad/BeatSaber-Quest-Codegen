@@ -20,8 +20,8 @@ namespace LeaderboardsDTO {
   class LevelScoreResultDTO;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(LeaderboardsDTO::LevelScoreResultDTO);
-DEFINE_IL2CPP_ARG_TYPE(LeaderboardsDTO::LevelScoreResultDTO*, "LeaderboardsDTO", "LevelScoreResultDTO");
+NEED_NO_BOX(::LeaderboardsDTO::LevelScoreResultDTO);
+DEFINE_IL2CPP_ARG_TYPE(::LeaderboardsDTO::LevelScoreResultDTO*, "LeaderboardsDTO", "LevelScoreResultDTO");
 // Type namespace: LeaderboardsDTO
 namespace LeaderboardsDTO {
   // Size: 0x68
@@ -106,9 +106,9 @@ namespace LeaderboardsDTO {
     // public LeaderboardsDTO.GameplayModifiersDto[] gameplayModifiers
     // Size: 0x8
     // Offset: 0x48
-    ::ArrayW<LeaderboardsDTO::GameplayModifiersDto> gameplayModifiers;
+    ::ArrayW<::LeaderboardsDTO::GameplayModifiersDto> gameplayModifiers;
     // Field size check
-    static_assert(sizeof(::ArrayW<LeaderboardsDTO::GameplayModifiersDto>) == 0x8);
+    static_assert(sizeof(::ArrayW<::LeaderboardsDTO::GameplayModifiersDto>) == 0x8);
     // public System.String leaderboardId
     // Size: 0x8
     // Offset: 0x50
@@ -149,7 +149,7 @@ namespace LeaderboardsDTO {
     // Get instance field reference: public System.Int32 maxCombo
     int& dyn_maxCombo();
     // Get instance field reference: public LeaderboardsDTO.GameplayModifiersDto[] gameplayModifiers
-    ::ArrayW<LeaderboardsDTO::GameplayModifiersDto>& dyn_gameplayModifiers();
+    ::ArrayW<::LeaderboardsDTO::GameplayModifiersDto>& dyn_gameplayModifiers();
     // Get instance field reference: public System.String leaderboardId
     ::StringW& dyn_leaderboardId();
     // Get instance field reference: public System.String deviceModel
@@ -162,7 +162,7 @@ namespace LeaderboardsDTO {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelScoreResultDTO* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("LeaderboardsDTO::LevelScoreResultDTO::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::LeaderboardsDTO::LevelScoreResultDTO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelScoreResultDTO*, creationType>()));
     }
   }; // LeaderboardsDTO.LevelScoreResultDTO

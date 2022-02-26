@@ -28,8 +28,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::InteractionObject::AnimatorEvent);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionObject::AnimatorEvent*, "RootMotion.FinalIK", "InteractionObject/AnimatorEvent");
+NEED_NO_BOX(::RootMotion::FinalIK::InteractionObject::AnimatorEvent);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::InteractionObject::AnimatorEvent*, "RootMotion.FinalIK", "InteractionObject/AnimatorEvent");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x31
@@ -51,16 +51,16 @@ namespace RootMotion::FinalIK {
     // public UnityEngine.Animator animator
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::Animator* animator;
+    ::UnityEngine::Animator* animator;
     // Field size check
-    static_assert(sizeof(UnityEngine::Animator*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Animator*) == 0x8);
     // [TooltipAttribute] Offset: 0x1268664
     // public UnityEngine.Animation animation
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::Animation* animation;
+    ::UnityEngine::Animation* animation;
     // Field size check
-    static_assert(sizeof(UnityEngine::Animation*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Animation*) == 0x8);
     // [TooltipAttribute] Offset: 0x126869C
     // public System.String animationState
     // Size: 0x8
@@ -97,9 +97,9 @@ namespace RootMotion::FinalIK {
     // Set static field: static private System.String empty
     static void _set_empty(::StringW value);
     // Get instance field reference: public UnityEngine.Animator animator
-    UnityEngine::Animator*& dyn_animator();
+    ::UnityEngine::Animator*& dyn_animator();
     // Get instance field reference: public UnityEngine.Animation animation
-    UnityEngine::Animation*& dyn_animation();
+    ::UnityEngine::Animation*& dyn_animation();
     // Get instance field reference: public System.String animationState
     ::StringW& dyn_animationState();
     // Get instance field reference: public System.Single crossfadeTime
@@ -113,17 +113,17 @@ namespace RootMotion::FinalIK {
     void Activate(bool pickUp);
     // private System.Void Activate(UnityEngine.Animator animator)
     // Offset: 0x233ABA0
-    void Activate(UnityEngine::Animator* animator);
+    void Activate(::UnityEngine::Animator* animator);
     // private System.Void Activate(UnityEngine.Animation animation)
     // Offset: 0x233AC58
-    void Activate(UnityEngine::Animation* animation);
+    void Activate(::UnityEngine::Animation* animation);
     // public System.Void .ctor()
     // Offset: 0x233AD38
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InteractionObject::AnimatorEvent* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::InteractionObject::AnimatorEvent::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::InteractionObject::AnimatorEvent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InteractionObject::AnimatorEvent*, creationType>()));
     }
   }; // RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.AnimatorEvent
@@ -144,7 +144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionObject::AnimatorEvent::Activate
 // Il2CppName: Activate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionObject::AnimatorEvent::*)(UnityEngine::Animator*)>(&RootMotion::FinalIK::InteractionObject::AnimatorEvent::Activate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionObject::AnimatorEvent::*)(::UnityEngine::Animator*)>(&RootMotion::FinalIK::InteractionObject::AnimatorEvent::Activate)> {
   static const MethodInfo* get() {
     static auto* animator = &::il2cpp_utils::GetClassFromName("UnityEngine", "Animator")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionObject::AnimatorEvent*), "Activate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{animator});
@@ -153,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionObject::AnimatorEvent::Activate
 // Il2CppName: Activate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionObject::AnimatorEvent::*)(UnityEngine::Animation*)>(&RootMotion::FinalIK::InteractionObject::AnimatorEvent::Activate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionObject::AnimatorEvent::*)(::UnityEngine::Animation*)>(&RootMotion::FinalIK::InteractionObject::AnimatorEvent::Activate)> {
   static const MethodInfo* get() {
     static auto* animation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Animation")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionObject::AnimatorEvent*), "Activate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{animation});

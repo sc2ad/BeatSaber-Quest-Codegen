@@ -18,8 +18,8 @@ namespace System::Runtime::InteropServices {
   class DispIdAttribute;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Runtime::InteropServices::DispIdAttribute);
-DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::DispIdAttribute*, "System.Runtime.InteropServices", "DispIdAttribute");
+NEED_NO_BOX(::System::Runtime::InteropServices::DispIdAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::InteropServices::DispIdAttribute*, "System.Runtime.InteropServices", "DispIdAttribute");
 // Type namespace: System.Runtime.InteropServices
 namespace System::Runtime::InteropServices {
   // Size: 0x14
@@ -28,7 +28,7 @@ namespace System::Runtime::InteropServices {
   // [TokenAttribute] Offset: FFFFFFFF
   // [ComVisibleAttribute] Offset: 118B64C
   // [AttributeUsageAttribute] Offset: 118B64C
-  class DispIdAttribute : public System::Attribute {
+  class DispIdAttribute : public ::System::Attribute {
     public:
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -56,7 +56,7 @@ namespace System::Runtime::InteropServices {
     // Offset: 0x1C6BBCC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DispIdAttribute* New_ctor(int dispId) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::InteropServices::DispIdAttribute::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::InteropServices::DispIdAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DispIdAttribute*, creationType>(dispId)));
     }
   }; // System.Runtime.InteropServices.DispIdAttribute

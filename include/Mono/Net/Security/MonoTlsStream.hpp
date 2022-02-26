@@ -45,8 +45,8 @@ namespace Mono::Net::Security {
   class MonoTlsStream;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Mono::Net::Security::MonoTlsStream);
-DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::MonoTlsStream*, "Mono.Net.Security", "MonoTlsStream");
+NEED_NO_BOX(::Mono::Net::Security::MonoTlsStream);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Net::Security::MonoTlsStream*, "Mono.Net.Security", "MonoTlsStream");
 // Type namespace: Mono.Net.Security
 namespace Mono::Net::Security {
   // Size: 0x3D
@@ -67,39 +67,39 @@ namespace Mono::Net::Security {
     // private readonly Mono.Security.Interface.MonoTlsProvider provider
     // Size: 0x8
     // Offset: 0x10
-    Mono::Security::Interface::MonoTlsProvider* provider;
+    ::Mono::Security::Interface::MonoTlsProvider* provider;
     // Field size check
-    static_assert(sizeof(Mono::Security::Interface::MonoTlsProvider*) == 0x8);
+    static_assert(sizeof(::Mono::Security::Interface::MonoTlsProvider*) == 0x8);
     // private readonly System.Net.Sockets.NetworkStream networkStream
     // Size: 0x8
     // Offset: 0x18
-    System::Net::Sockets::NetworkStream* networkStream;
+    ::System::Net::Sockets::NetworkStream* networkStream;
     // Field size check
-    static_assert(sizeof(System::Net::Sockets::NetworkStream*) == 0x8);
+    static_assert(sizeof(::System::Net::Sockets::NetworkStream*) == 0x8);
     // private readonly System.Net.HttpWebRequest request
     // Size: 0x8
     // Offset: 0x20
-    System::Net::HttpWebRequest* request;
+    ::System::Net::HttpWebRequest* request;
     // Field size check
-    static_assert(sizeof(System::Net::HttpWebRequest*) == 0x8);
+    static_assert(sizeof(::System::Net::HttpWebRequest*) == 0x8);
     // private readonly Mono.Security.Interface.MonoTlsSettings settings
     // Size: 0x8
     // Offset: 0x28
-    Mono::Security::Interface::MonoTlsSettings* settings;
+    ::Mono::Security::Interface::MonoTlsSettings* settings;
     // Field size check
-    static_assert(sizeof(Mono::Security::Interface::MonoTlsSettings*) == 0x8);
+    static_assert(sizeof(::Mono::Security::Interface::MonoTlsSettings*) == 0x8);
     // private Mono.Security.Interface.IMonoSslStream sslStream
     // Size: 0x8
     // Offset: 0x30
-    Mono::Security::Interface::IMonoSslStream* sslStream;
+    ::Mono::Security::Interface::IMonoSslStream* sslStream;
     // Field size check
-    static_assert(sizeof(Mono::Security::Interface::IMonoSslStream*) == 0x8);
+    static_assert(sizeof(::Mono::Security::Interface::IMonoSslStream*) == 0x8);
     // private System.Net.WebExceptionStatus status
     // Size: 0x4
     // Offset: 0x38
-    System::Net::WebExceptionStatus status;
+    ::System::Net::WebExceptionStatus status;
     // Field size check
-    static_assert(sizeof(System::Net::WebExceptionStatus) == 0x4);
+    static_assert(sizeof(::System::Net::WebExceptionStatus) == 0x4);
     // private System.Boolean <CertificateValidationFailed>k__BackingField
     // Size: 0x1
     // Offset: 0x3C
@@ -108,25 +108,25 @@ namespace Mono::Net::Security {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Get instance field reference: private readonly Mono.Security.Interface.MonoTlsProvider provider
-    Mono::Security::Interface::MonoTlsProvider*& dyn_provider();
+    ::Mono::Security::Interface::MonoTlsProvider*& dyn_provider();
     // Get instance field reference: private readonly System.Net.Sockets.NetworkStream networkStream
-    System::Net::Sockets::NetworkStream*& dyn_networkStream();
+    ::System::Net::Sockets::NetworkStream*& dyn_networkStream();
     // Get instance field reference: private readonly System.Net.HttpWebRequest request
-    System::Net::HttpWebRequest*& dyn_request();
+    ::System::Net::HttpWebRequest*& dyn_request();
     // Get instance field reference: private readonly Mono.Security.Interface.MonoTlsSettings settings
-    Mono::Security::Interface::MonoTlsSettings*& dyn_settings();
+    ::Mono::Security::Interface::MonoTlsSettings*& dyn_settings();
     // Get instance field reference: private Mono.Security.Interface.IMonoSslStream sslStream
-    Mono::Security::Interface::IMonoSslStream*& dyn_sslStream();
+    ::Mono::Security::Interface::IMonoSslStream*& dyn_sslStream();
     // Get instance field reference: private System.Net.WebExceptionStatus status
-    System::Net::WebExceptionStatus& dyn_status();
+    ::System::Net::WebExceptionStatus& dyn_status();
     // Get instance field reference: private System.Boolean <CertificateValidationFailed>k__BackingField
     bool& dyn_$CertificateValidationFailed$k__BackingField();
     // System.Net.HttpWebRequest get_Request()
     // Offset: 0x1A35F10
-    System::Net::HttpWebRequest* get_Request();
+    ::System::Net::HttpWebRequest* get_Request();
     // System.Net.WebExceptionStatus get_ExceptionStatus()
     // Offset: 0x1A35F18
-    System::Net::WebExceptionStatus get_ExceptionStatus();
+    ::System::Net::WebExceptionStatus get_ExceptionStatus();
     // System.Boolean get_CertificateValidationFailed()
     // Offset: 0x1A35F20
     bool get_CertificateValidationFailed();
@@ -136,13 +136,13 @@ namespace Mono::Net::Security {
     // public System.Void .ctor(System.Net.HttpWebRequest request, System.Net.Sockets.NetworkStream networkStream)
     // Offset: 0x1A35F34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MonoTlsStream* New_ctor(System::Net::HttpWebRequest* request, System::Net::Sockets::NetworkStream* networkStream) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::Security::MonoTlsStream::.ctor");
+    static MonoTlsStream* New_ctor(::System::Net::HttpWebRequest* request, ::System::Net::Sockets::NetworkStream* networkStream) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Net::Security::MonoTlsStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoTlsStream*, creationType>(request, networkStream)));
     }
     // System.IO.Stream CreateStream(System.Byte[] buffer)
     // Offset: 0x1A35FE8
-    System::IO::Stream* CreateStream(::ArrayW<uint8_t> buffer);
+    ::System::IO::Stream* CreateStream(::ArrayW<uint8_t> buffer);
   }; // Mono.Net.Security.MonoTlsStream
   #pragma pack(pop)
   static check_size<sizeof(MonoTlsStream), 60 + sizeof(bool)> __Mono_Net_Security_MonoTlsStreamSizeCheck;
@@ -152,7 +152,7 @@ namespace Mono::Net::Security {
 // Writing MetadataGetter for method: Mono::Net::Security::MonoTlsStream::get_Request
 // Il2CppName: get_Request
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::HttpWebRequest* (Mono::Net::Security::MonoTlsStream::*)()>(&Mono::Net::Security::MonoTlsStream::get_Request)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::HttpWebRequest* (Mono::Net::Security::MonoTlsStream::*)()>(&Mono::Net::Security::MonoTlsStream::get_Request)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MonoTlsStream*), "get_Request", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -160,7 +160,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Writing MetadataGetter for method: Mono::Net::Security::MonoTlsStream::get_ExceptionStatus
 // Il2CppName: get_ExceptionStatus
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebExceptionStatus (Mono::Net::Security::MonoTlsStream::*)()>(&Mono::Net::Security::MonoTlsStream::get_ExceptionStatus)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::WebExceptionStatus (Mono::Net::Security::MonoTlsStream::*)()>(&Mono::Net::Security::MonoTlsStream::get_ExceptionStatus)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MonoTlsStream*), "get_ExceptionStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -189,7 +189,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Net::Security::MonoTlsStream::CreateStream
 // Il2CppName: CreateStream
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::Stream* (Mono::Net::Security::MonoTlsStream::*)(::ArrayW<uint8_t>)>(&Mono::Net::Security::MonoTlsStream::CreateStream)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (Mono::Net::Security::MonoTlsStream::*)(::ArrayW<uint8_t>)>(&Mono::Net::Security::MonoTlsStream::CreateStream)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MonoTlsStream*), "CreateStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer});

@@ -15,8 +15,8 @@ namespace UnityEngine {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::GridView::IDataSource);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GridView::IDataSource*, "", "GridView/IDataSource");
+NEED_NO_BOX(::GlobalNamespace::GridView::IDataSource);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GridView::IDataSource*, "", "GridView/IDataSource");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -36,7 +36,7 @@ namespace GlobalNamespace {
     float GetCellHeight();
     // public UnityEngine.MonoBehaviour CellForIdx(GridView gridView, System.Int32 idx)
     // Offset: 0xFFFFFFFF
-    UnityEngine::MonoBehaviour* CellForIdx(GlobalNamespace::GridView* gridView, int idx);
+    ::UnityEngine::MonoBehaviour* CellForIdx(::GlobalNamespace::GridView* gridView, int idx);
   }; // GridView/IDataSource
   #pragma pack(pop)
 }
@@ -68,7 +68,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Writing MetadataGetter for method: GlobalNamespace::GridView::IDataSource::CellForIdx
 // Il2CppName: CellForIdx
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::MonoBehaviour* (GlobalNamespace::GridView::IDataSource::*)(GlobalNamespace::GridView*, int)>(&GlobalNamespace::GridView::IDataSource::CellForIdx)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::MonoBehaviour* (GlobalNamespace::GridView::IDataSource::*)(::GlobalNamespace::GridView*, int)>(&GlobalNamespace::GridView::IDataSource::CellForIdx)> {
   static const MethodInfo* get() {
     static auto* gridView = &::il2cpp_utils::GetClassFromName("", "GridView")->byval_arg;
     static auto* idx = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

@@ -27,8 +27,8 @@ namespace System {
   class TermInfoReader;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::TermInfoReader);
-DEFINE_IL2CPP_ARG_TYPE(System::TermInfoReader*, "System", "TermInfoReader");
+NEED_NO_BOX(::System::TermInfoReader);
+DEFINE_IL2CPP_ARG_TYPE(::System::TermInfoReader*, "System", "TermInfoReader");
 // Type namespace: System
 namespace System {
   // Size: 0x24
@@ -93,14 +93,14 @@ namespace System {
     // Offset: 0x2004CE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TermInfoReader* New_ctor(::StringW term, ::StringW filename) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::TermInfoReader::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::TermInfoReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TermInfoReader*, creationType>(term, filename)));
     }
     // public System.Void .ctor(System.String term, System.Byte[] buffer)
     // Offset: 0x2004F24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TermInfoReader* New_ctor(::StringW term, ::ArrayW<uint8_t> buffer) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::TermInfoReader::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::System::TermInfoReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TermInfoReader*, creationType>(term, buffer)));
     }
     // private System.Void ReadHeader(System.Byte[] buffer, ref System.Int32 position)
@@ -111,13 +111,13 @@ namespace System {
     void ReadNames(::ArrayW<uint8_t> buffer, ByRef<int> position);
     // public System.Int32 Get(System.TermInfoNumbers number)
     // Offset: 0x2005714
-    int Get(System::TermInfoNumbers number);
+    int Get(::System::TermInfoNumbers number);
     // public System.String Get(System.TermInfoStrings tstr)
     // Offset: 0x200567C
-    ::StringW Get(System::TermInfoStrings tstr);
+    ::StringW Get(::System::TermInfoStrings tstr);
     // public System.Byte[] GetStringBytes(System.TermInfoStrings tstr)
     // Offset: 0x2008F28
-    ::ArrayW<uint8_t> GetStringBytes(System::TermInfoStrings tstr);
+    ::ArrayW<uint8_t> GetStringBytes(::System::TermInfoStrings tstr);
     // private System.Int16 GetInt16(System.Byte[] buffer, System.Int32 offset)
     // Offset: 0x20092E8
     int16_t GetInt16(::ArrayW<uint8_t> buffer, int offset);
@@ -164,7 +164,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::TermInfoReader::Get
 // Il2CppName: Get
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::TermInfoReader::*)(System::TermInfoNumbers)>(&System::TermInfoReader::Get)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::TermInfoReader::*)(::System::TermInfoNumbers)>(&System::TermInfoReader::Get)> {
   static const MethodInfo* get() {
     static auto* number = &::il2cpp_utils::GetClassFromName("System", "TermInfoNumbers")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::TermInfoReader*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{number});
@@ -173,7 +173,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::TermInfoReader::Get
 // Il2CppName: Get
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::TermInfoReader::*)(System::TermInfoStrings)>(&System::TermInfoReader::Get)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (System::TermInfoReader::*)(::System::TermInfoStrings)>(&System::TermInfoReader::Get)> {
   static const MethodInfo* get() {
     static auto* tstr = &::il2cpp_utils::GetClassFromName("System", "TermInfoStrings")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::TermInfoReader*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tstr});
@@ -182,7 +182,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: System::TermInfoReader::GetStringBytes
 // Il2CppName: GetStringBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::TermInfoReader::*)(System::TermInfoStrings)>(&System::TermInfoReader::GetStringBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::TermInfoReader::*)(::System::TermInfoStrings)>(&System::TermInfoReader::GetStringBytes)> {
   static const MethodInfo* get() {
     static auto* tstr = &::il2cpp_utils::GetClassFromName("System", "TermInfoStrings")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::TermInfoReader*), "GetStringBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tstr});

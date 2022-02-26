@@ -13,8 +13,8 @@ namespace Org::BouncyCastle::Crypto::Prng {
   class IRandomGenerator;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Crypto::Prng::IRandomGenerator);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Prng::IRandomGenerator*, "Org.BouncyCastle.Crypto.Prng", "IRandomGenerator");
+NEED_NO_BOX(::Org::BouncyCastle::Crypto::Prng::IRandomGenerator);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*, "Org.BouncyCastle.Crypto.Prng", "IRandomGenerator");
 // Type namespace: Org.BouncyCastle.Crypto.Prng
 namespace Org::BouncyCastle::Crypto::Prng {
   // Size: 0x10

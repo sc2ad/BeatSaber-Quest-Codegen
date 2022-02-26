@@ -27,8 +27,8 @@ namespace DataModels::PlayerAvatar {
   class AvatarRandomizer;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(DataModels::PlayerAvatar::AvatarRandomizer);
-DEFINE_IL2CPP_ARG_TYPE(DataModels::PlayerAvatar::AvatarRandomizer*, "DataModels.PlayerAvatar", "AvatarRandomizer");
+NEED_NO_BOX(::DataModels::PlayerAvatar::AvatarRandomizer);
+DEFINE_IL2CPP_ARG_TYPE(::DataModels::PlayerAvatar::AvatarRandomizer*, "DataModels.PlayerAvatar", "AvatarRandomizer");
 // Type namespace: DataModels.PlayerAvatar
 namespace DataModels::PlayerAvatar {
   // Size: 0x10
@@ -39,21 +39,21 @@ namespace DataModels::PlayerAvatar {
     public:
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1251630
     // Get static field: static private readonly DataModels.PlayerAvatar.RandomizeAvatarColorMap[] _randomizeColorsParamsCollection
-    static ::ArrayW<DataModels::PlayerAvatar::RandomizeAvatarColorMap*> _get__randomizeColorsParamsCollection();
+    static ::ArrayW<::DataModels::PlayerAvatar::RandomizeAvatarColorMap*> _get__randomizeColorsParamsCollection();
     // Set static field: static private readonly DataModels.PlayerAvatar.RandomizeAvatarColorMap[] _randomizeColorsParamsCollection
-    static void _set__randomizeColorsParamsCollection(::ArrayW<DataModels::PlayerAvatar::RandomizeAvatarColorMap*> value);
+    static void _set__randomizeColorsParamsCollection(::ArrayW<::DataModels::PlayerAvatar::RandomizeAvatarColorMap*> value);
     // static private System.Void .cctor()
     // Offset: 0x13EF39C
     static void _cctor();
     // static public System.Void RandomizeAll(AvatarData avatarData, AvatarPartsModel avatarPartsModel)
     // Offset: 0x13EF968
-    static void RandomizeAll(GlobalNamespace::AvatarData* avatarData, GlobalNamespace::AvatarPartsModel* avatarPartsModel);
+    static void RandomizeAll(::GlobalNamespace::AvatarData* avatarData, ::GlobalNamespace::AvatarPartsModel* avatarPartsModel);
     // static public System.Void RandomizeModels(AvatarData avatarData, AvatarPartsModel avatarPartsModel)
     // Offset: 0x13EF9E4
-    static void RandomizeModels(GlobalNamespace::AvatarData* avatarData, GlobalNamespace::AvatarPartsModel* avatarPartsModel);
+    static void RandomizeModels(::GlobalNamespace::AvatarData* avatarData, ::GlobalNamespace::AvatarPartsModel* avatarPartsModel);
     // static public System.Void RandomizeColors(AvatarData avatarData)
     // Offset: 0x13EFB18
-    static void RandomizeColors(GlobalNamespace::AvatarData* avatarData);
+    static void RandomizeColors(::GlobalNamespace::AvatarData* avatarData);
   }; // DataModels.PlayerAvatar.AvatarRandomizer
   #pragma pack(pop)
 }
@@ -69,7 +69,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: DataModels::PlayerAvatar::AvatarRandomizer::RandomizeAll
 // Il2CppName: RandomizeAll
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::AvatarData*, GlobalNamespace::AvatarPartsModel*)>(&DataModels::PlayerAvatar::AvatarRandomizer::RandomizeAll)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::AvatarData*, ::GlobalNamespace::AvatarPartsModel*)>(&DataModels::PlayerAvatar::AvatarRandomizer::RandomizeAll)> {
   static const MethodInfo* get() {
     static auto* avatarData = &::il2cpp_utils::GetClassFromName("", "AvatarData")->byval_arg;
     static auto* avatarPartsModel = &::il2cpp_utils::GetClassFromName("", "AvatarPartsModel")->byval_arg;
@@ -79,7 +79,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Gl
 // Writing MetadataGetter for method: DataModels::PlayerAvatar::AvatarRandomizer::RandomizeModels
 // Il2CppName: RandomizeModels
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::AvatarData*, GlobalNamespace::AvatarPartsModel*)>(&DataModels::PlayerAvatar::AvatarRandomizer::RandomizeModels)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::AvatarData*, ::GlobalNamespace::AvatarPartsModel*)>(&DataModels::PlayerAvatar::AvatarRandomizer::RandomizeModels)> {
   static const MethodInfo* get() {
     static auto* avatarData = &::il2cpp_utils::GetClassFromName("", "AvatarData")->byval_arg;
     static auto* avatarPartsModel = &::il2cpp_utils::GetClassFromName("", "AvatarPartsModel")->byval_arg;
@@ -89,7 +89,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Gl
 // Writing MetadataGetter for method: DataModels::PlayerAvatar::AvatarRandomizer::RandomizeColors
 // Il2CppName: RandomizeColors
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::AvatarData*)>(&DataModels::PlayerAvatar::AvatarRandomizer::RandomizeColors)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::AvatarData*)>(&DataModels::PlayerAvatar::AvatarRandomizer::RandomizeColors)> {
   static const MethodInfo* get() {
     static auto* avatarData = &::il2cpp_utils::GetClassFromName("", "AvatarData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(DataModels::PlayerAvatar::AvatarRandomizer*), "RandomizeColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{avatarData});

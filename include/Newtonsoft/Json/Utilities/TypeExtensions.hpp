@@ -29,8 +29,8 @@ namespace Newtonsoft::Json::Utilities {
   class TypeExtensions;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Newtonsoft::Json::Utilities::TypeExtensions);
-DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::TypeExtensions*, "Newtonsoft.Json.Utilities", "TypeExtensions");
+NEED_NO_BOX(::Newtonsoft::Json::Utilities::TypeExtensions);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::TypeExtensions*, "Newtonsoft.Json.Utilities", "TypeExtensions");
 // Type namespace: Newtonsoft.Json.Utilities
 namespace Newtonsoft::Json::Utilities {
   // Size: 0x10
@@ -44,52 +44,52 @@ namespace Newtonsoft::Json::Utilities {
     public:
     // static public System.Reflection.MemberTypes MemberType(System.Reflection.MemberInfo memberInfo)
     // Offset: 0x29F38C0
-    static System::Reflection::MemberTypes MemberType(System::Reflection::MemberInfo* memberInfo);
+    static ::System::Reflection::MemberTypes MemberType(::System::Reflection::MemberInfo* memberInfo);
     // static public System.Boolean ContainsGenericParameters(System.Type type)
     // Offset: 0x29F9310
-    static bool ContainsGenericParameters(System::Type* type);
+    static bool ContainsGenericParameters(::System::Type* type);
     // static public System.Boolean IsInterface(System.Type type)
     // Offset: 0x29F4EE8
-    static bool IsInterface(System::Type* type);
+    static bool IsInterface(::System::Type* type);
     // static public System.Boolean IsGenericType(System.Type type)
     // Offset: 0x29F4A0C
-    static bool IsGenericType(System::Type* type);
+    static bool IsGenericType(::System::Type* type);
     // static public System.Boolean IsGenericTypeDefinition(System.Type type)
     // Offset: 0x29F4F00
-    static bool IsGenericTypeDefinition(System::Type* type);
+    static bool IsGenericTypeDefinition(::System::Type* type);
     // static public System.Type BaseType(System.Type type)
     // Offset: 0x29F5234
-    static System::Type* BaseType(System::Type* type);
+    static ::System::Type* BaseType(::System::Type* type);
     // static public System.Reflection.Assembly Assembly(System.Type type)
     // Offset: 0x29F9330
-    static System::Reflection::Assembly* Assembly(System::Type* type);
+    static ::System::Reflection::Assembly* Assembly(::System::Type* type);
     // static public System.Boolean IsEnum(System.Type type)
     // Offset: 0x29F9350
-    static bool IsEnum(System::Type* type);
+    static bool IsEnum(::System::Type* type);
     // static public System.Boolean IsClass(System.Type type)
     // Offset: 0x29F50F8
-    static bool IsClass(System::Type* type);
+    static bool IsClass(::System::Type* type);
     // static public System.Boolean IsSealed(System.Type type)
     // Offset: 0x29F9370
-    static bool IsSealed(System::Type* type);
+    static bool IsSealed(::System::Type* type);
     // static public System.Boolean IsAbstract(System.Type type)
     // Offset: 0x29F9388
-    static bool IsAbstract(System::Type* type);
+    static bool IsAbstract(::System::Type* type);
     // static public System.Boolean IsVisible(System.Type type)
     // Offset: 0x29F93A0
-    static bool IsVisible(System::Type* type);
+    static bool IsVisible(::System::Type* type);
     // static public System.Boolean IsValueType(System.Type type)
     // Offset: 0x29F46E0
-    static bool IsValueType(System::Type* type);
+    static bool IsValueType(::System::Type* type);
     // static public System.Boolean AssignableToTypeName(System.Type type, System.String fullTypeName, System.Boolean searchInterfaces, out System.Type match)
     // Offset: 0x29F93B8
-    static bool AssignableToTypeName(System::Type* type, ::StringW fullTypeName, bool searchInterfaces, ByRef<System::Type*> match);
+    static bool AssignableToTypeName(::System::Type* type, ::StringW fullTypeName, bool searchInterfaces, ByRef<::System::Type*> match);
     // static public System.Boolean AssignableToTypeName(System.Type type, System.String fullTypeName, System.Boolean searchInterfaces)
     // Offset: 0x29F9540
-    static bool AssignableToTypeName(System::Type* type, ::StringW fullTypeName, bool searchInterfaces);
+    static bool AssignableToTypeName(::System::Type* type, ::StringW fullTypeName, bool searchInterfaces);
     // static public System.Boolean ImplementInterface(System.Type type, System.Type interfaceType)
     // Offset: 0x29F956C
-    static bool ImplementInterface(System::Type* type, System::Type* interfaceType);
+    static bool ImplementInterface(::System::Type* type, ::System::Type* interfaceType);
   }; // Newtonsoft.Json.Utilities.TypeExtensions
   #pragma pack(pop)
 }
@@ -97,7 +97,7 @@ namespace Newtonsoft::Json::Utilities {
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::TypeExtensions::MemberType
 // Il2CppName: MemberType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MemberTypes (*)(System::Reflection::MemberInfo*)>(&Newtonsoft::Json::Utilities::TypeExtensions::MemberType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MemberTypes (*)(::System::Reflection::MemberInfo*)>(&Newtonsoft::Json::Utilities::TypeExtensions::MemberType)> {
   static const MethodInfo* get() {
     static auto* memberInfo = &::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::TypeExtensions*), "MemberType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{memberInfo});
@@ -106,7 +106,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::TypeExtensions::ContainsGenericParameters
 // Il2CppName: ContainsGenericParameters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&Newtonsoft::Json::Utilities::TypeExtensions::ContainsGenericParameters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&Newtonsoft::Json::Utilities::TypeExtensions::ContainsGenericParameters)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::TypeExtensions*), "ContainsGenericParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -115,7 +115,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::TypeExtensions::IsInterface
 // Il2CppName: IsInterface
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&Newtonsoft::Json::Utilities::TypeExtensions::IsInterface)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&Newtonsoft::Json::Utilities::TypeExtensions::IsInterface)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::TypeExtensions*), "IsInterface", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -124,7 +124,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::TypeExtensions::IsGenericType
 // Il2CppName: IsGenericType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&Newtonsoft::Json::Utilities::TypeExtensions::IsGenericType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&Newtonsoft::Json::Utilities::TypeExtensions::IsGenericType)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::TypeExtensions*), "IsGenericType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -133,7 +133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::TypeExtensions::IsGenericTypeDefinition
 // Il2CppName: IsGenericTypeDefinition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&Newtonsoft::Json::Utilities::TypeExtensions::IsGenericTypeDefinition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&Newtonsoft::Json::Utilities::TypeExtensions::IsGenericTypeDefinition)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::TypeExtensions*), "IsGenericTypeDefinition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -142,7 +142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::TypeExtensions::BaseType
 // Il2CppName: BaseType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(System::Type*)>(&Newtonsoft::Json::Utilities::TypeExtensions::BaseType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Type*)>(&Newtonsoft::Json::Utilities::TypeExtensions::BaseType)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::TypeExtensions*), "BaseType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -151,7 +151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::TypeExtensions::Assembly
 // Il2CppName: Assembly
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (*)(System::Type*)>(&Newtonsoft::Json::Utilities::TypeExtensions::Assembly)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::Assembly* (*)(::System::Type*)>(&Newtonsoft::Json::Utilities::TypeExtensions::Assembly)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::TypeExtensions*), "Assembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -160,7 +160,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::TypeExtensions::IsEnum
 // Il2CppName: IsEnum
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&Newtonsoft::Json::Utilities::TypeExtensions::IsEnum)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&Newtonsoft::Json::Utilities::TypeExtensions::IsEnum)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::TypeExtensions*), "IsEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -169,7 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::TypeExtensions::IsClass
 // Il2CppName: IsClass
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&Newtonsoft::Json::Utilities::TypeExtensions::IsClass)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&Newtonsoft::Json::Utilities::TypeExtensions::IsClass)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::TypeExtensions*), "IsClass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -178,7 +178,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::TypeExtensions::IsSealed
 // Il2CppName: IsSealed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&Newtonsoft::Json::Utilities::TypeExtensions::IsSealed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&Newtonsoft::Json::Utilities::TypeExtensions::IsSealed)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::TypeExtensions*), "IsSealed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -187,7 +187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::TypeExtensions::IsAbstract
 // Il2CppName: IsAbstract
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&Newtonsoft::Json::Utilities::TypeExtensions::IsAbstract)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&Newtonsoft::Json::Utilities::TypeExtensions::IsAbstract)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::TypeExtensions*), "IsAbstract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -196,7 +196,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::TypeExtensions::IsVisible
 // Il2CppName: IsVisible
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&Newtonsoft::Json::Utilities::TypeExtensions::IsVisible)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&Newtonsoft::Json::Utilities::TypeExtensions::IsVisible)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::TypeExtensions*), "IsVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -205,7 +205,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::TypeExtensions::IsValueType
 // Il2CppName: IsValueType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&Newtonsoft::Json::Utilities::TypeExtensions::IsValueType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&Newtonsoft::Json::Utilities::TypeExtensions::IsValueType)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Newtonsoft::Json::Utilities::TypeExtensions*), "IsValueType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -214,7 +214,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::TypeExtensions::AssignableToTypeName
 // Il2CppName: AssignableToTypeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, ::StringW, bool, ByRef<System::Type*>)>(&Newtonsoft::Json::Utilities::TypeExtensions::AssignableToTypeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::StringW, bool, ByRef<::System::Type*>)>(&Newtonsoft::Json::Utilities::TypeExtensions::AssignableToTypeName)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* fullTypeName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -226,7 +226,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::TypeExtensions::AssignableToTypeName
 // Il2CppName: AssignableToTypeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, ::StringW, bool)>(&Newtonsoft::Json::Utilities::TypeExtensions::AssignableToTypeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::StringW, bool)>(&Newtonsoft::Json::Utilities::TypeExtensions::AssignableToTypeName)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* fullTypeName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -237,7 +237,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: Newtonsoft::Json::Utilities::TypeExtensions::ImplementInterface
 // Il2CppName: ImplementInterface
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, System::Type*)>(&Newtonsoft::Json::Utilities::TypeExtensions::ImplementInterface)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&Newtonsoft::Json::Utilities::TypeExtensions::ImplementInterface)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* interfaceType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;

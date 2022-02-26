@@ -24,8 +24,8 @@ namespace GlobalNamespace {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::BaseNetworkPlayerModel::PartyConfig);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseNetworkPlayerModel::PartyConfig*, "", "BaseNetworkPlayerModel/PartyConfig");
+NEED_NO_BOX(::GlobalNamespace::BaseNetworkPlayerModel::PartyConfig);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BaseNetworkPlayerModel::PartyConfig*, "", "BaseNetworkPlayerModel/PartyConfig");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x48
@@ -46,40 +46,40 @@ namespace GlobalNamespace {
     // public BeatmapLevelSelectionMask selectionMask
     // Size: 0x18
     // Offset: 0x10
-    GlobalNamespace::BeatmapLevelSelectionMask selectionMask;
+    ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::BeatmapLevelSelectionMask) == 0x18);
+    static_assert(sizeof(::GlobalNamespace::BeatmapLevelSelectionMask) == 0x18);
     // public GameplayServerConfiguration configuration
     // Size: 0x18
     // Offset: 0x28
-    GlobalNamespace::GameplayServerConfiguration configuration;
+    ::GlobalNamespace::GameplayServerConfiguration configuration;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::GameplayServerConfiguration) == 0x18);
+    static_assert(sizeof(::GlobalNamespace::GameplayServerConfiguration) == 0x18);
     // public INetworkPlayerModel partyManager
     // Size: 0x8
     // Offset: 0x40
-    GlobalNamespace::INetworkPlayerModel* partyManager;
+    ::GlobalNamespace::INetworkPlayerModel* partyManager;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::INetworkPlayerModel*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::INetworkPlayerModel*) == 0x8);
     public:
     // Get instance field reference: public BeatmapLevelSelectionMask selectionMask
-    GlobalNamespace::BeatmapLevelSelectionMask& dyn_selectionMask();
+    ::GlobalNamespace::BeatmapLevelSelectionMask& dyn_selectionMask();
     // Get instance field reference: public GameplayServerConfiguration configuration
-    GlobalNamespace::GameplayServerConfiguration& dyn_configuration();
+    ::GlobalNamespace::GameplayServerConfiguration& dyn_configuration();
     // Get instance field reference: public INetworkPlayerModel partyManager
-    GlobalNamespace::INetworkPlayerModel*& dyn_partyManager();
+    ::GlobalNamespace::INetworkPlayerModel*& dyn_partyManager();
     // public System.Void .ctor()
     // Offset: 0x2B3CF84
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseNetworkPlayerModel::PartyConfig* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BaseNetworkPlayerModel::PartyConfig::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BaseNetworkPlayerModel::PartyConfig::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseNetworkPlayerModel::PartyConfig*, creationType>()));
     }
   }; // BaseNetworkPlayerModel/PartyConfig
   #pragma pack(pop)
-  static check_size<sizeof(BaseNetworkPlayerModel::PartyConfig), 64 + sizeof(GlobalNamespace::INetworkPlayerModel*)> __GlobalNamespace_BaseNetworkPlayerModel_PartyConfigSizeCheck;
+  static check_size<sizeof(BaseNetworkPlayerModel::PartyConfig), 64 + sizeof(::GlobalNamespace::INetworkPlayerModel*)> __GlobalNamespace_BaseNetworkPlayerModel_PartyConfigSizeCheck;
   static_assert(sizeof(BaseNetworkPlayerModel::PartyConfig) == 0x48);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

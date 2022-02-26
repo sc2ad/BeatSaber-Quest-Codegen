@@ -17,8 +17,8 @@ namespace UnityEngine::Networking::PlayerConnection {
   class MessageEventArgs;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::Networking::PlayerConnection::MessageEventArgs);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::PlayerConnection::MessageEventArgs*, "UnityEngine.Networking.PlayerConnection", "MessageEventArgs");
+NEED_NO_BOX(::UnityEngine::Networking::PlayerConnection::MessageEventArgs);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Networking::PlayerConnection::MessageEventArgs*, "UnityEngine.Networking.PlayerConnection", "MessageEventArgs");
 // Type namespace: UnityEngine.Networking.PlayerConnection
 namespace UnityEngine::Networking::PlayerConnection {
   // Size: 0x20
@@ -61,7 +61,7 @@ namespace UnityEngine::Networking::PlayerConnection {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MessageEventArgs* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Networking::PlayerConnection::MessageEventArgs::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Networking::PlayerConnection::MessageEventArgs::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MessageEventArgs*, creationType>()));
     }
   }; // UnityEngine.Networking.PlayerConnection.MessageEventArgs

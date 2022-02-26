@@ -20,8 +20,8 @@ namespace System::Collections {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::HMMainThreadDispatcher::$$c__DisplayClass2_0);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HMMainThreadDispatcher::$$c__DisplayClass2_0*, "", "HMMainThreadDispatcher/<>c__DisplayClass2_0");
+NEED_NO_BOX(::GlobalNamespace::HMMainThreadDispatcher::$$c__DisplayClass2_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::HMMainThreadDispatcher::$$c__DisplayClass2_0*, "", "HMMainThreadDispatcher/<>c__DisplayClass2_0");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x20
@@ -43,20 +43,20 @@ namespace GlobalNamespace {
     // public HMMainThreadDispatcher <>4__this
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::HMMainThreadDispatcher* $$4__this;
+    ::GlobalNamespace::HMMainThreadDispatcher* $$4__this;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::HMMainThreadDispatcher*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::HMMainThreadDispatcher*) == 0x8);
     // public System.Collections.IEnumerator action
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::IEnumerator* action;
+    ::System::Collections::IEnumerator* action;
     // Field size check
-    static_assert(sizeof(System::Collections::IEnumerator*) == 0x8);
+    static_assert(sizeof(::System::Collections::IEnumerator*) == 0x8);
     public:
     // Get instance field reference: public HMMainThreadDispatcher <>4__this
-    GlobalNamespace::HMMainThreadDispatcher*& dyn_$$4__this();
+    ::GlobalNamespace::HMMainThreadDispatcher*& dyn_$$4__this();
     // Get instance field reference: public System.Collections.IEnumerator action
-    System::Collections::IEnumerator*& dyn_action();
+    ::System::Collections::IEnumerator*& dyn_action();
     // System.Void <Enqueue>b__0()
     // Offset: 0x2C227E4
     void $Enqueue$b__0();
@@ -66,12 +66,12 @@ namespace GlobalNamespace {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HMMainThreadDispatcher::$$c__DisplayClass2_0* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::HMMainThreadDispatcher::$$c__DisplayClass2_0::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HMMainThreadDispatcher::$$c__DisplayClass2_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HMMainThreadDispatcher::$$c__DisplayClass2_0*, creationType>()));
     }
   }; // HMMainThreadDispatcher/<>c__DisplayClass2_0
   #pragma pack(pop)
-  static check_size<sizeof(HMMainThreadDispatcher::$$c__DisplayClass2_0), 24 + sizeof(System::Collections::IEnumerator*)> __GlobalNamespace_HMMainThreadDispatcher_$$c__DisplayClass2_0SizeCheck;
+  static check_size<sizeof(HMMainThreadDispatcher::$$c__DisplayClass2_0), 24 + sizeof(::System::Collections::IEnumerator*)> __GlobalNamespace_HMMainThreadDispatcher_$$c__DisplayClass2_0SizeCheck;
   static_assert(sizeof(HMMainThreadDispatcher::$$c__DisplayClass2_0) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

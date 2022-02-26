@@ -33,8 +33,8 @@ namespace GlobalNamespace {
   class LobbyPlayerPermissionsModel;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::LobbyPlayerPermissionsModel);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LobbyPlayerPermissionsModel*, "", "LobbyPlayerPermissionsModel");
+NEED_NO_BOX(::GlobalNamespace::LobbyPlayerPermissionsModel);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LobbyPlayerPermissionsModel*, "", "LobbyPlayerPermissionsModel");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x30
@@ -56,16 +56,16 @@ namespace GlobalNamespace {
     // private readonly IMenuRpcManager _menuRpcManager
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::IMenuRpcManager* menuRpcManager;
+    ::GlobalNamespace::IMenuRpcManager* menuRpcManager;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::IMenuRpcManager*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::IMenuRpcManager*) == 0x8);
     // [InjectAttribute] Offset: 0x123E7CC
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x18
-    GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
+    ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
+    static_assert(sizeof(::GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
     // private System.Boolean <isPartyOwner>k__BackingField
     // Size: 0x1
     // Offset: 0x20
@@ -101,14 +101,14 @@ namespace GlobalNamespace {
     // private System.Action permissionsChangedEvent
     // Size: 0x8
     // Offset: 0x28
-    System::Action* permissionsChangedEvent;
+    ::System::Action* permissionsChangedEvent;
     // Field size check
-    static_assert(sizeof(System::Action*) == 0x8);
+    static_assert(sizeof(::System::Action*) == 0x8);
     public:
     // Get instance field reference: private readonly IMenuRpcManager _menuRpcManager
-    GlobalNamespace::IMenuRpcManager*& dyn__menuRpcManager();
+    ::GlobalNamespace::IMenuRpcManager*& dyn__menuRpcManager();
     // Get instance field reference: private readonly IMultiplayerSessionManager _multiplayerSessionManager
-    GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
+    ::GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
     // Get instance field reference: private System.Boolean <isPartyOwner>k__BackingField
     bool& dyn_$isPartyOwner$k__BackingField();
     // Get instance field reference: private System.Boolean <hasRecommendBeatmapPermission>k__BackingField
@@ -120,7 +120,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <hasInvitePermission>k__BackingField
     bool& dyn_$hasInvitePermission$k__BackingField();
     // Get instance field reference: private System.Action permissionsChangedEvent
-    System::Action*& dyn_permissionsChangedEvent();
+    ::System::Action*& dyn_permissionsChangedEvent();
     // public System.Boolean get_isPartyOwner()
     // Offset: 0x2B947E8
     bool get_isPartyOwner();
@@ -153,10 +153,10 @@ namespace GlobalNamespace {
     void set_hasInvitePermission(bool value);
     // public System.Void add_permissionsChangedEvent(System.Action value)
     // Offset: 0x2B9484C
-    void add_permissionsChangedEvent(System::Action* value);
+    void add_permissionsChangedEvent(::System::Action* value);
     // public System.Void remove_permissionsChangedEvent(System.Action value)
     // Offset: 0x2B948F0
-    void remove_permissionsChangedEvent(System::Action* value);
+    void remove_permissionsChangedEvent(::System::Action* value);
     // public System.Void Activate()
     // Offset: 0x2B94994
     void Activate();
@@ -168,19 +168,19 @@ namespace GlobalNamespace {
     void SetPlayerPermissions(bool isPartyOwner, bool hasRecommendBeatmapPermission, bool hasRecommendModifiersPermission, bool hasKickVotePermission, bool hasInvitePermission);
     // private System.Void HandleMenuRpcManagerSetPlayersPermissionConfiguration(System.String userId, PlayersLobbyPermissionConfigurationNetSerializable playersLobbyPermissionConfiguration)
     // Offset: 0x2B94B7C
-    void HandleMenuRpcManagerSetPlayersPermissionConfiguration(::StringW userId, GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable* playersLobbyPermissionConfiguration);
+    void HandleMenuRpcManagerSetPlayersPermissionConfiguration(::StringW userId, ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable* playersLobbyPermissionConfiguration);
     // public System.Void .ctor()
     // Offset: 0x2B94DD4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LobbyPlayerPermissionsModel* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LobbyPlayerPermissionsModel::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LobbyPlayerPermissionsModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LobbyPlayerPermissionsModel*, creationType>()));
     }
   }; // LobbyPlayerPermissionsModel
   #pragma pack(pop)
-  static check_size<sizeof(LobbyPlayerPermissionsModel), 40 + sizeof(System::Action*)> __GlobalNamespace_LobbyPlayerPermissionsModelSizeCheck;
+  static check_size<sizeof(LobbyPlayerPermissionsModel), 40 + sizeof(::System::Action*)> __GlobalNamespace_LobbyPlayerPermissionsModelSizeCheck;
   static_assert(sizeof(LobbyPlayerPermissionsModel) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -272,7 +272,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LobbyPlayerPermissionsModel::add_permissionsChangedEvent
 // Il2CppName: add_permissionsChangedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LobbyPlayerPermissionsModel::*)(System::Action*)>(&GlobalNamespace::LobbyPlayerPermissionsModel::add_permissionsChangedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LobbyPlayerPermissionsModel::*)(::System::Action*)>(&GlobalNamespace::LobbyPlayerPermissionsModel::add_permissionsChangedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LobbyPlayerPermissionsModel*), "add_permissionsChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -281,7 +281,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LobbyPlayerPermissionsModel::remove_permissionsChangedEvent
 // Il2CppName: remove_permissionsChangedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LobbyPlayerPermissionsModel::*)(System::Action*)>(&GlobalNamespace::LobbyPlayerPermissionsModel::remove_permissionsChangedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LobbyPlayerPermissionsModel::*)(::System::Action*)>(&GlobalNamespace::LobbyPlayerPermissionsModel::remove_permissionsChangedEvent)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LobbyPlayerPermissionsModel*), "remove_permissionsChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -319,7 +319,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LobbyPlayerPermissionsModel::HandleMenuRpcManagerSetPlayersPermissionConfiguration
 // Il2CppName: HandleMenuRpcManagerSetPlayersPermissionConfiguration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LobbyPlayerPermissionsModel::*)(::StringW, GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*)>(&GlobalNamespace::LobbyPlayerPermissionsModel::HandleMenuRpcManagerSetPlayersPermissionConfiguration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LobbyPlayerPermissionsModel::*)(::StringW, ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*)>(&GlobalNamespace::LobbyPlayerPermissionsModel::HandleMenuRpcManagerSetPlayersPermissionConfiguration)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* playersLobbyPermissionConfiguration = &::il2cpp_utils::GetClassFromName("", "PlayersLobbyPermissionConfigurationNetSerializable")->byval_arg;

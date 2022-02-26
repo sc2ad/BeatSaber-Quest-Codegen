@@ -26,8 +26,8 @@ namespace UnityEngine::ProBuilder {
   class PreferenceKeys;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(UnityEngine::ProBuilder::PreferenceKeys);
-DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::PreferenceKeys*, "UnityEngine.ProBuilder", "PreferenceKeys");
+NEED_NO_BOX(::UnityEngine::ProBuilder::PreferenceKeys);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::PreferenceKeys*, "UnityEngine.ProBuilder", "PreferenceKeys");
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
   // Size: 0x10
@@ -85,17 +85,17 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static System.Char CMD_DELETE
     static void _set_CMD_DELETE(::Il2CppChar value);
     // Get static field: static readonly UnityEngine.Color proBuilderBlue
-    static UnityEngine::Color _get_proBuilderBlue();
+    static ::UnityEngine::Color _get_proBuilderBlue();
     // Set static field: static readonly UnityEngine.Color proBuilderBlue
-    static void _set_proBuilderBlue(UnityEngine::Color value);
+    static void _set_proBuilderBlue(::UnityEngine::Color value);
     // Get static field: static readonly UnityEngine.Color proBuilderLightGray
-    static UnityEngine::Color _get_proBuilderLightGray();
+    static ::UnityEngine::Color _get_proBuilderLightGray();
     // Set static field: static readonly UnityEngine.Color proBuilderLightGray
-    static void _set_proBuilderLightGray(UnityEngine::Color value);
+    static void _set_proBuilderLightGray(::UnityEngine::Color value);
     // Get static field: static readonly UnityEngine.Color proBuilderDarkGray
-    static UnityEngine::Color _get_proBuilderDarkGray();
+    static ::UnityEngine::Color _get_proBuilderDarkGray();
     // Set static field: static readonly UnityEngine.Color proBuilderDarkGray
-    static void _set_proBuilderDarkGray(UnityEngine::Color value);
+    static void _set_proBuilderDarkGray(::UnityEngine::Color value);
     // static field const value: static public System.Int32 menuEditor
     static constexpr const int menuEditor = 100;
     // Get static field: static public System.Int32 menuEditor

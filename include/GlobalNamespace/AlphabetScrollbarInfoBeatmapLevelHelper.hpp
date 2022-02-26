@@ -30,8 +30,8 @@ namespace GlobalNamespace {
   class AlphabetScrollbarInfoBeatmapLevelHelper;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper*, "", "AlphabetScrollbarInfoBeatmapLevelHelper");
+NEED_NO_BOX(::GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper*, "", "AlphabetScrollbarInfoBeatmapLevelHelper");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -40,7 +40,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AlphabetScrollbarInfoBeatmapLevelHelper : public ::Il2CppObject {
     public:
-    // Nested type: GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper::$$c
+    // Nested type: ::GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper::$$c
     class $$c;
     // static field const value: static private System.String kFirstAlphabet
     static constexpr const char* kFirstAlphabet = "A";
@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     static void _set_kMaxCharactersCount(int value);
     // static public AlphabetScrollInfo/Data[] CreateData(IPreviewBeatmapLevel[] previewBeatmapLevels, out IPreviewBeatmapLevel[] sortedPreviewBeatmapLevels)
     // Offset: 0x1487638
-    static ::ArrayW<GlobalNamespace::AlphabetScrollInfo::Data*> CreateData(::ArrayW<GlobalNamespace::IPreviewBeatmapLevel*> previewBeatmapLevels, ByRef<::ArrayW<GlobalNamespace::IPreviewBeatmapLevel*>> sortedPreviewBeatmapLevels);
+    static ::ArrayW<::GlobalNamespace::AlphabetScrollInfo::Data*> CreateData(::ArrayW<::GlobalNamespace::IPreviewBeatmapLevel*> previewBeatmapLevels, ByRef<::ArrayW<::GlobalNamespace::IPreviewBeatmapLevel*>> sortedPreviewBeatmapLevels);
   }; // AlphabetScrollbarInfoBeatmapLevelHelper
   #pragma pack(pop)
 }
@@ -70,7 +70,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper::CreateData
 // Il2CppName: CreateData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::AlphabetScrollInfo::Data*> (*)(::ArrayW<GlobalNamespace::IPreviewBeatmapLevel*>, ByRef<::ArrayW<GlobalNamespace::IPreviewBeatmapLevel*>>)>(&GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper::CreateData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::GlobalNamespace::AlphabetScrollInfo::Data*> (*)(::ArrayW<::GlobalNamespace::IPreviewBeatmapLevel*>, ByRef<::ArrayW<::GlobalNamespace::IPreviewBeatmapLevel*>>)>(&GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper::CreateData)> {
   static const MethodInfo* get() {
     static auto* previewBeatmapLevels = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel"), 1)->byval_arg;
     static auto* sortedPreviewBeatmapLevels = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel"), 1)->this_arg;

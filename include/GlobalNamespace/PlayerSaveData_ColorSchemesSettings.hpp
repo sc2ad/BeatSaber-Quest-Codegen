@@ -22,8 +22,8 @@ namespace System::Collections::Generic {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::PlayerSaveData::ColorSchemesSettings);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveData::ColorSchemesSettings*, "", "PlayerSaveData/ColorSchemesSettings");
+NEED_NO_BOX(::GlobalNamespace::PlayerSaveData::ColorSchemesSettings);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlayerSaveData::ColorSchemesSettings*, "", "PlayerSaveData/ColorSchemesSettings");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x28
@@ -58,26 +58,26 @@ namespace GlobalNamespace {
     // public System.Collections.Generic.List`1<PlayerSaveData/ColorScheme> colorSchemes
     // Size: 0x8
     // Offset: 0x20
-    System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::ColorScheme*>* colorSchemes;
+    ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerSaveData::ColorScheme*>* colorSchemes;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::ColorScheme*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::GlobalNamespace::PlayerSaveData::ColorScheme*>*) == 0x8);
     public:
     // Get instance field reference: public System.Boolean overrideDefaultColors
     bool& dyn_overrideDefaultColors();
     // Get instance field reference: public System.String selectedColorSchemeId
     ::StringW& dyn_selectedColorSchemeId();
     // Get instance field reference: public System.Collections.Generic.List`1<PlayerSaveData/ColorScheme> colorSchemes
-    System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::ColorScheme*>*& dyn_colorSchemes();
+    ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerSaveData::ColorScheme*>*& dyn_colorSchemes();
     // public System.Void .ctor(System.Boolean overrideDefaultColors, System.String selectedColorSchemeId, System.Collections.Generic.List`1<PlayerSaveData/ColorScheme> colorSchemes)
     // Offset: 0x13DF858
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PlayerSaveData::ColorSchemesSettings* New_ctor(bool overrideDefaultColors, ::StringW selectedColorSchemeId, System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::ColorScheme*>* colorSchemes) {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlayerSaveData::ColorSchemesSettings::.ctor");
+    static PlayerSaveData::ColorSchemesSettings* New_ctor(bool overrideDefaultColors, ::StringW selectedColorSchemeId, ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerSaveData::ColorScheme*>* colorSchemes) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerSaveData::ColorSchemesSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerSaveData::ColorSchemesSettings*, creationType>(overrideDefaultColors, selectedColorSchemeId, colorSchemes)));
     }
   }; // PlayerSaveData/ColorSchemesSettings
   #pragma pack(pop)
-  static check_size<sizeof(PlayerSaveData::ColorSchemesSettings), 32 + sizeof(System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::ColorScheme*>*)> __GlobalNamespace_PlayerSaveData_ColorSchemesSettingsSizeCheck;
+  static check_size<sizeof(PlayerSaveData::ColorSchemesSettings), 32 + sizeof(::System::Collections::Generic::List_1<::GlobalNamespace::PlayerSaveData::ColorScheme*>*)> __GlobalNamespace_PlayerSaveData_ColorSchemesSettingsSizeCheck;
   static_assert(sizeof(PlayerSaveData::ColorSchemesSettings) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

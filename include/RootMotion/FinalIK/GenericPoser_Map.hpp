@@ -24,8 +24,8 @@ namespace UnityEngine {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(RootMotion::FinalIK::GenericPoser::Map);
-DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GenericPoser::Map*, "RootMotion.FinalIK", "GenericPoser/Map");
+NEED_NO_BOX(::RootMotion::FinalIK::GenericPoser::Map);
+DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::GenericPoser::Map*, "RootMotion.FinalIK", "GenericPoser/Map");
 // Type namespace: RootMotion.FinalIK
 namespace RootMotion::FinalIK {
   // Size: 0x3C
@@ -46,41 +46,41 @@ namespace RootMotion::FinalIK {
     // public UnityEngine.Transform bone
     // Size: 0x8
     // Offset: 0x10
-    UnityEngine::Transform* bone;
+    ::UnityEngine::Transform* bone;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // public UnityEngine.Transform target
     // Size: 0x8
     // Offset: 0x18
-    UnityEngine::Transform* target;
+    ::UnityEngine::Transform* target;
     // Field size check
-    static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
     // private UnityEngine.Vector3 defaultLocalPosition
     // Size: 0xC
     // Offset: 0x20
-    UnityEngine::Vector3 defaultLocalPosition;
+    ::UnityEngine::Vector3 defaultLocalPosition;
     // Field size check
-    static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
     // private UnityEngine.Quaternion defaultLocalRotation
     // Size: 0x10
     // Offset: 0x2C
-    UnityEngine::Quaternion defaultLocalRotation;
+    ::UnityEngine::Quaternion defaultLocalRotation;
     // Field size check
-    static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    static_assert(sizeof(::UnityEngine::Quaternion) == 0x10);
     public:
     // Get instance field reference: public UnityEngine.Transform bone
-    UnityEngine::Transform*& dyn_bone();
+    ::UnityEngine::Transform*& dyn_bone();
     // Get instance field reference: public UnityEngine.Transform target
-    UnityEngine::Transform*& dyn_target();
+    ::UnityEngine::Transform*& dyn_target();
     // Get instance field reference: private UnityEngine.Vector3 defaultLocalPosition
-    UnityEngine::Vector3& dyn_defaultLocalPosition();
+    ::UnityEngine::Vector3& dyn_defaultLocalPosition();
     // Get instance field reference: private UnityEngine.Quaternion defaultLocalRotation
-    UnityEngine::Quaternion& dyn_defaultLocalRotation();
+    ::UnityEngine::Quaternion& dyn_defaultLocalRotation();
     // public System.Void .ctor(UnityEngine.Transform bone, UnityEngine.Transform target)
     // Offset: 0x21BE9AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static GenericPoser::Map* New_ctor(UnityEngine::Transform* bone, UnityEngine::Transform* target) {
-      static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::GenericPoser::Map::.ctor");
+    static GenericPoser::Map* New_ctor(::UnityEngine::Transform* bone, ::UnityEngine::Transform* target) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::GenericPoser::Map::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GenericPoser::Map*, creationType>(bone, target)));
     }
     // public System.Void StoreDefaultState()
@@ -94,7 +94,7 @@ namespace RootMotion::FinalIK {
     void Update(float localRotationWeight, float localPositionWeight);
   }; // RootMotion.FinalIK.GenericPoser/RootMotion.FinalIK.Map
   #pragma pack(pop)
-  static check_size<sizeof(GenericPoser::Map), 44 + sizeof(UnityEngine::Quaternion)> __RootMotion_FinalIK_GenericPoser_MapSizeCheck;
+  static check_size<sizeof(GenericPoser::Map), 44 + sizeof(::UnityEngine::Quaternion)> __RootMotion_FinalIK_GenericPoser_MapSizeCheck;
   static_assert(sizeof(GenericPoser::Map) == 0x3C);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

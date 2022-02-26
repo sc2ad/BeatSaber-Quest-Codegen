@@ -30,8 +30,8 @@ namespace HoudiniEngineUnity {
   class HEU_RenderingPipelineDefines;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_RenderingPipelineDefines);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_RenderingPipelineDefines*, "HoudiniEngineUnity", "HEU_RenderingPipelineDefines");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_RenderingPipelineDefines);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_RenderingPipelineDefines*, "HoudiniEngineUnity", "HEU_RenderingPipelineDefines");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x10
@@ -48,7 +48,7 @@ namespace HoudiniEngineUnity {
     static void UpdateDefines();
     // static public HoudiniEngineUnity.HEU_PipelineType GetPipeline()
     // Offset: 0x1A590C0
-    static HoudiniEngineUnity::HEU_PipelineType GetPipeline();
+    static ::HoudiniEngineUnity::HEU_PipelineType GetPipeline();
     // static private System.Void AddDefine(System.String define)
     // Offset: 0x1A5C588
     static void AddDefine(::StringW define);
@@ -57,17 +57,17 @@ namespace HoudiniEngineUnity {
     static void RemoveDefine(::StringW define);
     // static public System.Collections.Generic.List`1<System.String> GetDefines()
     // Offset: 0x1A5C720
-    static System::Collections::Generic::List_1<::StringW>* GetDefines();
+    static ::System::Collections::Generic::List_1<::StringW>* GetDefines();
     // static public System.Void SetDefines(System.Collections.Generic.List`1<System.String> definesList)
     // Offset: 0x1A5C784
-    static void SetDefines(System::Collections::Generic::List_1<::StringW>* definesList);
+    static void SetDefines(::System::Collections::Generic::List_1<::StringW>* definesList);
     // public System.Void .ctor()
     // Offset: 0x1A5C788
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_RenderingPipelineDefines* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_RenderingPipelineDefines::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_RenderingPipelineDefines::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_RenderingPipelineDefines*, creationType>()));
     }
   }; // HoudiniEngineUnity.HEU_RenderingPipelineDefines
@@ -93,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_RenderingPipelineDefines::GetPipeline
 // Il2CppName: GetPipeline
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngineUnity::HEU_PipelineType (*)()>(&HoudiniEngineUnity::HEU_RenderingPipelineDefines::GetPipeline)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_PipelineType (*)()>(&HoudiniEngineUnity::HEU_RenderingPipelineDefines::GetPipeline)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_RenderingPipelineDefines*), "GetPipeline", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -119,7 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_RenderingPipelineDefines::GetDefines
 // Il2CppName: GetDefines
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::StringW>* (*)()>(&HoudiniEngineUnity::HEU_RenderingPipelineDefines::GetDefines)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::StringW>* (*)()>(&HoudiniEngineUnity::HEU_RenderingPipelineDefines::GetDefines)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_RenderingPipelineDefines*), "GetDefines", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -127,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_RenderingPipelineDefines::SetDefines
 // Il2CppName: SetDefines
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::List_1<::StringW>*)>(&HoudiniEngineUnity::HEU_RenderingPipelineDefines::SetDefines)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::List_1<::StringW>*)>(&HoudiniEngineUnity::HEU_RenderingPipelineDefines::SetDefines)> {
   static const MethodInfo* get() {
     static auto* definesList = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_RenderingPipelineDefines*), "SetDefines", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{definesList});

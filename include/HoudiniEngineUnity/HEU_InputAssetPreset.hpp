@@ -17,8 +17,8 @@ namespace HoudiniEngineUnity {
   class HEU_InputAssetPreset;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(HoudiniEngineUnity::HEU_InputAssetPreset);
-DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_InputAssetPreset*, "HoudiniEngineUnity", "HEU_InputAssetPreset");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_InputAssetPreset);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_InputAssetPreset*, "HoudiniEngineUnity", "HEU_InputAssetPreset");
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Size: 0x18
@@ -55,7 +55,7 @@ namespace HoudiniEngineUnity {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_InputAssetPreset* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_InputAssetPreset::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_InputAssetPreset::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_InputAssetPreset*, creationType>()));
     }
   }; // HoudiniEngineUnity.HEU_InputAssetPreset

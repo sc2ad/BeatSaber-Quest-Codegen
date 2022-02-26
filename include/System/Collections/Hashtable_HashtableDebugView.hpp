@@ -9,8 +9,8 @@
 #include "System/Collections/Hashtable.hpp"
 // Completed includes
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Collections::Hashtable::HashtableDebugView);
-DEFINE_IL2CPP_ARG_TYPE(System::Collections::Hashtable::HashtableDebugView*, "System.Collections", "Hashtable/HashtableDebugView");
+NEED_NO_BOX(::System::Collections::Hashtable::HashtableDebugView);
+DEFINE_IL2CPP_ARG_TYPE(::System::Collections::Hashtable::HashtableDebugView*, "System.Collections", "Hashtable/HashtableDebugView");
 // Type namespace: System.Collections
 namespace System::Collections {
   // Size: 0x10

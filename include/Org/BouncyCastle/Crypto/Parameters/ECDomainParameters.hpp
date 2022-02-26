@@ -36,8 +36,8 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   class ECDomainParameters;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::Crypto::Parameters::ECDomainParameters);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*, "Org.BouncyCastle.Crypto.Parameters", "ECDomainParameters");
+NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*, "Org.BouncyCastle.Crypto.Parameters", "ECDomainParameters");
 // Type namespace: Org.BouncyCastle.Crypto.Parameters
 namespace Org::BouncyCastle::Crypto::Parameters {
   // Size: 0x40
@@ -58,9 +58,9 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // private readonly Org.BouncyCastle.Math.EC.ECCurve curve
     // Size: 0x8
     // Offset: 0x10
-    Org::BouncyCastle::Math::EC::ECCurve* curve;
+    ::Org::BouncyCastle::Math::EC::ECCurve* curve;
     // Field size check
-    static_assert(sizeof(Org::BouncyCastle::Math::EC::ECCurve*) == 0x8);
+    static_assert(sizeof(::Org::BouncyCastle::Math::EC::ECCurve*) == 0x8);
     // private readonly System.Byte[] seed
     // Size: 0x8
     // Offset: 0x18
@@ -70,74 +70,74 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // private readonly Org.BouncyCastle.Math.EC.ECPoint g
     // Size: 0x8
     // Offset: 0x20
-    Org::BouncyCastle::Math::EC::ECPoint* g;
+    ::Org::BouncyCastle::Math::EC::ECPoint* g;
     // Field size check
-    static_assert(sizeof(Org::BouncyCastle::Math::EC::ECPoint*) == 0x8);
+    static_assert(sizeof(::Org::BouncyCastle::Math::EC::ECPoint*) == 0x8);
     // private readonly Org.BouncyCastle.Math.BigInteger n
     // Size: 0x8
     // Offset: 0x28
-    Org::BouncyCastle::Math::BigInteger* n;
+    ::Org::BouncyCastle::Math::BigInteger* n;
     // Field size check
-    static_assert(sizeof(Org::BouncyCastle::Math::BigInteger*) == 0x8);
+    static_assert(sizeof(::Org::BouncyCastle::Math::BigInteger*) == 0x8);
     // private readonly Org.BouncyCastle.Math.BigInteger h
     // Size: 0x8
     // Offset: 0x30
-    Org::BouncyCastle::Math::BigInteger* h;
+    ::Org::BouncyCastle::Math::BigInteger* h;
     // Field size check
-    static_assert(sizeof(Org::BouncyCastle::Math::BigInteger*) == 0x8);
+    static_assert(sizeof(::Org::BouncyCastle::Math::BigInteger*) == 0x8);
     // private Org.BouncyCastle.Math.BigInteger hInv
     // Size: 0x8
     // Offset: 0x38
-    Org::BouncyCastle::Math::BigInteger* hInv;
+    ::Org::BouncyCastle::Math::BigInteger* hInv;
     // Field size check
-    static_assert(sizeof(Org::BouncyCastle::Math::BigInteger*) == 0x8);
+    static_assert(sizeof(::Org::BouncyCastle::Math::BigInteger*) == 0x8);
     public:
     // Get instance field reference: private readonly Org.BouncyCastle.Math.EC.ECCurve curve
-    Org::BouncyCastle::Math::EC::ECCurve*& dyn_curve();
+    ::Org::BouncyCastle::Math::EC::ECCurve*& dyn_curve();
     // Get instance field reference: private readonly System.Byte[] seed
     ::ArrayW<uint8_t>& dyn_seed();
     // Get instance field reference: private readonly Org.BouncyCastle.Math.EC.ECPoint g
-    Org::BouncyCastle::Math::EC::ECPoint*& dyn_g();
+    ::Org::BouncyCastle::Math::EC::ECPoint*& dyn_g();
     // Get instance field reference: private readonly Org.BouncyCastle.Math.BigInteger n
-    Org::BouncyCastle::Math::BigInteger*& dyn_n();
+    ::Org::BouncyCastle::Math::BigInteger*& dyn_n();
     // Get instance field reference: private readonly Org.BouncyCastle.Math.BigInteger h
-    Org::BouncyCastle::Math::BigInteger*& dyn_h();
+    ::Org::BouncyCastle::Math::BigInteger*& dyn_h();
     // Get instance field reference: private Org.BouncyCastle.Math.BigInteger hInv
-    Org::BouncyCastle::Math::BigInteger*& dyn_hInv();
+    ::Org::BouncyCastle::Math::BigInteger*& dyn_hInv();
     // public Org.BouncyCastle.Math.EC.ECCurve get_Curve()
     // Offset: 0x1562424
-    Org::BouncyCastle::Math::EC::ECCurve* get_Curve();
+    ::Org::BouncyCastle::Math::EC::ECCurve* get_Curve();
     // public Org.BouncyCastle.Math.EC.ECPoint get_G()
     // Offset: 0x156242C
-    Org::BouncyCastle::Math::EC::ECPoint* get_G();
+    ::Org::BouncyCastle::Math::EC::ECPoint* get_G();
     // public Org.BouncyCastle.Math.BigInteger get_N()
     // Offset: 0x1562434
-    Org::BouncyCastle::Math::BigInteger* get_N();
+    ::Org::BouncyCastle::Math::BigInteger* get_N();
     // public Org.BouncyCastle.Math.BigInteger get_H()
     // Offset: 0x156243C
-    Org::BouncyCastle::Math::BigInteger* get_H();
+    ::Org::BouncyCastle::Math::BigInteger* get_H();
     // public Org.BouncyCastle.Math.BigInteger get_HInv()
     // Offset: 0x1562444
-    Org::BouncyCastle::Math::BigInteger* get_HInv();
+    ::Org::BouncyCastle::Math::BigInteger* get_HInv();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.X9.X9ECParameters x9)
     // Offset: 0x156214C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ECDomainParameters* New_ctor(Org::BouncyCastle::Asn1::X9::X9ECParameters* x9) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::.ctor");
+    static ECDomainParameters* New_ctor(::Org::BouncyCastle::Asn1::X9::X9ECParameters* x9) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECDomainParameters*, creationType>(x9)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECPoint g, Org.BouncyCastle.Math.BigInteger n, Org.BouncyCastle.Math.BigInteger h)
     // Offset: 0x15622E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ECDomainParameters* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* curve, Org::BouncyCastle::Math::EC::ECPoint* g, Org::BouncyCastle::Math::BigInteger* n, Org::BouncyCastle::Math::BigInteger* h) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::.ctor");
+    static ECDomainParameters* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECPoint* g, ::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* h) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECDomainParameters*, creationType>(curve, g, n, h)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECPoint g, Org.BouncyCastle.Math.BigInteger n, Org.BouncyCastle.Math.BigInteger h, System.Byte[] seed)
     // Offset: 0x15621A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ECDomainParameters* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* curve, Org::BouncyCastle::Math::EC::ECPoint* g, Org::BouncyCastle::Math::BigInteger* n, Org::BouncyCastle::Math::BigInteger* h, ::ArrayW<uint8_t> seed) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::.ctor");
+    static ECDomainParameters* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECPoint* g, ::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* h, ::ArrayW<uint8_t> seed) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECDomainParameters*, creationType>(curve, g, n, h, seed)));
     }
     // public System.Byte[] GetSeed()
@@ -145,13 +145,13 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     ::ArrayW<uint8_t> GetSeed();
     // protected System.Boolean Equals(Org.BouncyCastle.Crypto.Parameters.ECDomainParameters other)
     // Offset: 0x1562758
-    bool Equals(Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* other);
+    bool Equals(::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* other);
     // public Org.BouncyCastle.Math.BigInteger ValidatePrivateScalar(Org.BouncyCastle.Math.BigInteger d)
     // Offset: 0x1562864
-    Org::BouncyCastle::Math::BigInteger* ValidatePrivateScalar(Org::BouncyCastle::Math::BigInteger* d);
+    ::Org::BouncyCastle::Math::BigInteger* ValidatePrivateScalar(::Org::BouncyCastle::Math::BigInteger* d);
     // static Org.BouncyCastle.Math.EC.ECPoint ValidatePublicPoint(Org.BouncyCastle.Math.EC.ECCurve c, Org.BouncyCastle.Math.EC.ECPoint q)
     // Offset: 0x15622E8
-    static Org::BouncyCastle::Math::EC::ECPoint* ValidatePublicPoint(Org::BouncyCastle::Math::EC::ECCurve* c, Org::BouncyCastle::Math::EC::ECPoint* q);
+    static ::Org::BouncyCastle::Math::EC::ECPoint* ValidatePublicPoint(::Org::BouncyCastle::Math::EC::ECCurve* c, ::Org::BouncyCastle::Math::EC::ECPoint* q);
     // public override System.Boolean Equals(System.Object obj)
     // Offset: 0x15626A0
     // Implemented from: System.Object
@@ -164,14 +164,14 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     int GetHashCode();
   }; // Org.BouncyCastle.Crypto.Parameters.ECDomainParameters
   #pragma pack(pop)
-  static check_size<sizeof(ECDomainParameters), 56 + sizeof(Org::BouncyCastle::Math::BigInteger*)> __Org_BouncyCastle_Crypto_Parameters_ECDomainParametersSizeCheck;
+  static check_size<sizeof(ECDomainParameters), 56 + sizeof(::Org::BouncyCastle::Math::BigInteger*)> __Org_BouncyCastle_Crypto_Parameters_ECDomainParametersSizeCheck;
   static_assert(sizeof(ECDomainParameters) == 0x40);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::get_Curve
 // Il2CppName: get_Curve
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECCurve* (Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::*)()>(&Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::get_Curve)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECCurve* (Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::*)()>(&Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::get_Curve)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*), "get_Curve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -179,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::get_G
 // Il2CppName: get_G
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::*)()>(&Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::get_G)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::*)()>(&Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::get_G)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*), "get_G", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -187,7 +187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::get_N
 // Il2CppName: get_N
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::*)()>(&Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::get_N)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::*)()>(&Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::get_N)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*), "get_N", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -195,7 +195,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::get_H
 // Il2CppName: get_H
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::*)()>(&Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::get_H)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::*)()>(&Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::get_H)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*), "get_H", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -203,7 +203,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::get_HInv
 // Il2CppName: get_HInv
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::*)()>(&Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::get_HInv)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::*)()>(&Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::get_HInv)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*), "get_HInv", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -231,7 +231,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::*)(Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*)>(&Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::*)(::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*)>(&Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::Equals)> {
   static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Crypto.Parameters", "ECDomainParameters")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
@@ -240,7 +240,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::ValidatePrivateScalar
 // Il2CppName: ValidatePrivateScalar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::*)(Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::ValidatePrivateScalar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::*)(::Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::ValidatePrivateScalar)> {
   static const MethodInfo* get() {
     static auto* d = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math", "BigInteger")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*), "ValidatePrivateScalar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{d});
@@ -249,7 +249,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::ValidatePublicPoint
 // Il2CppName: ValidatePublicPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (*)(Org::BouncyCastle::Math::EC::ECCurve*, Org::BouncyCastle::Math::EC::ECPoint*)>(&Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::ValidatePublicPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (*)(::Org::BouncyCastle::Math::EC::ECCurve*, ::Org::BouncyCastle::Math::EC::ECPoint*)>(&Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::ValidatePublicPoint)> {
   static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECCurve")->byval_arg;
     static auto* q = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECPoint")->byval_arg;

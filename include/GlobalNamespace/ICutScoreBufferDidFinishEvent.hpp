@@ -18,8 +18,8 @@ namespace GlobalNamespace {
   class ICutScoreBufferDidFinishEvent;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::ICutScoreBufferDidFinishEvent);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ICutScoreBufferDidFinishEvent*, "", "ICutScoreBufferDidFinishEvent");
+NEED_NO_BOX(::GlobalNamespace::ICutScoreBufferDidFinishEvent);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ICutScoreBufferDidFinishEvent*, "", "ICutScoreBufferDidFinishEvent");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x10
@@ -30,7 +30,7 @@ namespace GlobalNamespace {
     public:
     // public System.Void HandleCutScoreBufferDidFinish(CutScoreBuffer cutScoreBuffer)
     // Offset: 0xFFFFFFFF
-    void HandleCutScoreBufferDidFinish(GlobalNamespace::CutScoreBuffer* cutScoreBuffer);
+    void HandleCutScoreBufferDidFinish(::GlobalNamespace::CutScoreBuffer* cutScoreBuffer);
   }; // ICutScoreBufferDidFinishEvent
   #pragma pack(pop)
 }
@@ -38,7 +38,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::ICutScoreBufferDidFinishEvent::HandleCutScoreBufferDidFinish
 // Il2CppName: HandleCutScoreBufferDidFinish
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ICutScoreBufferDidFinishEvent::*)(GlobalNamespace::CutScoreBuffer*)>(&GlobalNamespace::ICutScoreBufferDidFinishEvent::HandleCutScoreBufferDidFinish)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ICutScoreBufferDidFinishEvent::*)(::GlobalNamespace::CutScoreBuffer*)>(&GlobalNamespace::ICutScoreBufferDidFinishEvent::HandleCutScoreBufferDidFinish)> {
   static const MethodInfo* get() {
     static auto* cutScoreBuffer = &::il2cpp_utils::GetClassFromName("", "CutScoreBuffer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ICutScoreBufferDidFinishEvent*), "HandleCutScoreBufferDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cutScoreBuffer});

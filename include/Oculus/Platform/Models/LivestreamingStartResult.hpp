@@ -20,8 +20,8 @@ namespace Oculus::Platform::Models {
   class LivestreamingStartResult;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Oculus::Platform::Models::LivestreamingStartResult);
-DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LivestreamingStartResult*, "Oculus.Platform.Models", "LivestreamingStartResult");
+NEED_NO_BOX(::Oculus::Platform::Models::LivestreamingStartResult);
+DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::LivestreamingStartResult*, "Oculus.Platform.Models", "LivestreamingStartResult");
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Size: 0x14
@@ -42,26 +42,26 @@ namespace Oculus::Platform::Models {
     // public readonly Oculus.Platform.LivestreamingStartStatus StreamingResult
     // Size: 0x4
     // Offset: 0x10
-    Oculus::Platform::LivestreamingStartStatus StreamingResult;
+    ::Oculus::Platform::LivestreamingStartStatus StreamingResult;
     // Field size check
-    static_assert(sizeof(Oculus::Platform::LivestreamingStartStatus) == 0x4);
+    static_assert(sizeof(::Oculus::Platform::LivestreamingStartStatus) == 0x4);
     public:
-    // Creating conversion operator: operator Oculus::Platform::LivestreamingStartStatus
-    constexpr operator Oculus::Platform::LivestreamingStartStatus() const noexcept {
+    // Creating conversion operator: operator ::Oculus::Platform::LivestreamingStartStatus
+    constexpr operator ::Oculus::Platform::LivestreamingStartStatus() const noexcept {
       return StreamingResult;
     }
     // Get instance field reference: public readonly Oculus.Platform.LivestreamingStartStatus StreamingResult
-    Oculus::Platform::LivestreamingStartStatus& dyn_StreamingResult();
+    ::Oculus::Platform::LivestreamingStartStatus& dyn_StreamingResult();
     // public System.Void .ctor(System.IntPtr o)
     // Offset: 0x1967E70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static LivestreamingStartResult* New_ctor(System::IntPtr o) {
-      static auto ___internal__logger = ::Logger::get().WithContext("Oculus::Platform::Models::LivestreamingStartResult::.ctor");
+    static LivestreamingStartResult* New_ctor(::System::IntPtr o) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::LivestreamingStartResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LivestreamingStartResult*, creationType>(o)));
     }
   }; // Oculus.Platform.Models.LivestreamingStartResult
   #pragma pack(pop)
-  static check_size<sizeof(LivestreamingStartResult), 16 + sizeof(Oculus::Platform::LivestreamingStartStatus)> __Oculus_Platform_Models_LivestreamingStartResultSizeCheck;
+  static check_size<sizeof(LivestreamingStartResult), 16 + sizeof(::Oculus::Platform::LivestreamingStartStatus)> __Oculus_Platform_Models_LivestreamingStartResultSizeCheck;
   static_assert(sizeof(LivestreamingStartResult) == 0x14);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

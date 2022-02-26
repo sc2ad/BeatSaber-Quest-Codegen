@@ -23,8 +23,8 @@ namespace System {
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Ice::FloorLightStreakTileEffect::Element);
-DEFINE_IL2CPP_ARG_TYPE(Ice::FloorLightStreakTileEffect::Element*, "Ice", "FloorLightStreakTileEffect/Element");
+NEED_NO_BOX(::Ice::FloorLightStreakTileEffect::Element);
+DEFINE_IL2CPP_ARG_TYPE(::Ice::FloorLightStreakTileEffect::Element*, "Ice", "FloorLightStreakTileEffect/Element");
 // Type namespace: Ice
 namespace Ice {
   // Size: 0x38
@@ -45,9 +45,9 @@ namespace Ice {
     // public System.Action`1<Ice.FloorLightStreakTileEffect/Ice.Element> didMoveToNextTile
     // Size: 0x8
     // Offset: 0x10
-    System::Action_1<Ice::FloorLightStreakTileEffect::Element*>* didMoveToNextTile;
+    ::System::Action_1<::Ice::FloorLightStreakTileEffect::Element*>* didMoveToNextTile;
     // Field size check
-    static_assert(sizeof(System::Action_1<Ice::FloorLightStreakTileEffect::Element*>*) == 0x8);
+    static_assert(sizeof(::System::Action_1<::Ice::FloorLightStreakTileEffect::Element*>*) == 0x8);
     // private System.Int32 _currentTileY
     // Size: 0x4
     // Offset: 0x18
@@ -75,12 +75,12 @@ namespace Ice {
     // private UnityEngine.Color _color
     // Size: 0x10
     // Offset: 0x28
-    UnityEngine::Color color;
+    ::UnityEngine::Color color;
     // Field size check
-    static_assert(sizeof(UnityEngine::Color) == 0x10);
+    static_assert(sizeof(::UnityEngine::Color) == 0x10);
     public:
     // Get instance field reference: public System.Action`1<Ice.FloorLightStreakTileEffect/Ice.Element> didMoveToNextTile
-    System::Action_1<Ice::FloorLightStreakTileEffect::Element*>*& dyn_didMoveToNextTile();
+    ::System::Action_1<::Ice::FloorLightStreakTileEffect::Element*>*& dyn_didMoveToNextTile();
     // Get instance field reference: private System.Int32 _currentTileY
     int& dyn__currentTileY();
     // Get instance field reference: private System.Int32 _lineIndex
@@ -90,7 +90,7 @@ namespace Ice {
     // Get instance field reference: private System.Single _stayOnTileDuration
     float& dyn__stayOnTileDuration();
     // Get instance field reference: private UnityEngine.Color _color
-    UnityEngine::Color& dyn__color();
+    ::UnityEngine::Color& dyn__color();
     // public System.Int32 get_lineIndex()
     // Offset: 0x2A34520
     int get_lineIndex();
@@ -99,10 +99,10 @@ namespace Ice {
     int get_currentTileY();
     // public UnityEngine.Color get_color()
     // Offset: 0x2A34530
-    UnityEngine::Color get_color();
+    ::UnityEngine::Color get_color();
     // public System.Void Setup(UnityEngine.Color color, System.Int32 lineIndex, System.Single stayOnTileDuration)
     // Offset: 0x2A3406C
-    void Setup(UnityEngine::Color color, int lineIndex, float stayOnTileDuration);
+    void Setup(::UnityEngine::Color color, int lineIndex, float stayOnTileDuration);
     // public System.Void ManualUpdate(System.Single deltaTime)
     // Offset: 0x2A33EF8
     void ManualUpdate(float deltaTime);
@@ -112,12 +112,12 @@ namespace Ice {
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FloorLightStreakTileEffect::Element* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("Ice::FloorLightStreakTileEffect::Element::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::Ice::FloorLightStreakTileEffect::Element::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FloorLightStreakTileEffect::Element*, creationType>()));
     }
   }; // Ice.FloorLightStreakTileEffect/Ice.Element
   #pragma pack(pop)
-  static check_size<sizeof(FloorLightStreakTileEffect::Element), 40 + sizeof(UnityEngine::Color)> __Ice_FloorLightStreakTileEffect_ElementSizeCheck;
+  static check_size<sizeof(FloorLightStreakTileEffect::Element), 40 + sizeof(::UnityEngine::Color)> __Ice_FloorLightStreakTileEffect_ElementSizeCheck;
   static_assert(sizeof(FloorLightStreakTileEffect::Element) == 0x38);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -140,7 +140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Ice::F
 // Writing MetadataGetter for method: Ice::FloorLightStreakTileEffect::Element::get_color
 // Il2CppName: get_color
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (Ice::FloorLightStreakTileEffect::Element::*)()>(&Ice::FloorLightStreakTileEffect::Element::get_color)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (Ice::FloorLightStreakTileEffect::Element::*)()>(&Ice::FloorLightStreakTileEffect::Element::get_color)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Ice::FloorLightStreakTileEffect::Element*), "get_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -148,7 +148,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: Ice::FloorLightStreakTileEffect::Element::Setup
 // Il2CppName: Setup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Ice::FloorLightStreakTileEffect::Element::*)(UnityEngine::Color, int, float)>(&Ice::FloorLightStreakTileEffect::Element::Setup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Ice::FloorLightStreakTileEffect::Element::*)(::UnityEngine::Color, int, float)>(&Ice::FloorLightStreakTileEffect::Element::Setup)> {
   static const MethodInfo* get() {
     static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     static auto* lineIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

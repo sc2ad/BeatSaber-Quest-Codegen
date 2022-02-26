@@ -36,8 +36,8 @@ namespace GlobalNamespace {
   class AvatarEditHistory;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(GlobalNamespace::AvatarEditHistory);
-DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarEditHistory*, "", "AvatarEditHistory");
+NEED_NO_BOX(::GlobalNamespace::AvatarEditHistory);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AvatarEditHistory*, "", "AvatarEditHistory");
 // Type namespace: 
 namespace GlobalNamespace {
   // Size: 0x24
@@ -66,9 +66,9 @@ namespace GlobalNamespace {
     // private System.Collections.Generic.List`1<Menu.ViewControllers.EditAvatarHistorySnapshot> _snapShots
     // Size: 0x8
     // Offset: 0x18
-    System::Collections::Generic::List_1<Menu::ViewControllers::EditAvatarHistorySnapshot*>* snapShots;
+    ::System::Collections::Generic::List_1<::Menu::ViewControllers::EditAvatarHistorySnapshot*>* snapShots;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<Menu::ViewControllers::EditAvatarHistorySnapshot*>*) == 0x8);
+    static_assert(sizeof(::System::Collections::Generic::List_1<::Menu::ViewControllers::EditAvatarHistorySnapshot*>*) == 0x8);
     // private System.Int32 _currentDataId
     // Size: 0x4
     // Offset: 0x20
@@ -79,7 +79,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean disableNextSnapshotOverride
     bool& dyn_disableNextSnapshotOverride();
     // Get instance field reference: private System.Collections.Generic.List`1<Menu.ViewControllers.EditAvatarHistorySnapshot> _snapShots
-    System::Collections::Generic::List_1<Menu::ViewControllers::EditAvatarHistorySnapshot*>*& dyn__snapShots();
+    ::System::Collections::Generic::List_1<::Menu::ViewControllers::EditAvatarHistorySnapshot*>*& dyn__snapShots();
     // Get instance field reference: private System.Int32 _currentDataId
     int& dyn__currentDataId();
     // public System.Boolean get_undoAvailable()
@@ -90,10 +90,10 @@ namespace GlobalNamespace {
     bool get_redoAvailable();
     // public Menu.ViewControllers.EditAvatarHistorySnapshot get_currentSnapShot()
     // Offset: 0x14934F8
-    Menu::ViewControllers::EditAvatarHistorySnapshot* get_currentSnapShot();
+    ::Menu::ViewControllers::EditAvatarHistorySnapshot* get_currentSnapShot();
     // public EditAvatarViewController/AvatarEditPart get_lastEditedPart()
     // Offset: 0x1493568
-    GlobalNamespace::EditAvatarViewController::AvatarEditPart get_lastEditedPart();
+    ::GlobalNamespace::EditAvatarViewController::AvatarEditPart get_lastEditedPart();
     // public System.Void Clear()
     // Offset: 0x1493588
     void Clear();
@@ -105,14 +105,14 @@ namespace GlobalNamespace {
     void Redo();
     // public System.Void UpdateEditHistory(AvatarData avatarData, EditAvatarViewController/AvatarEditPart avatarEditPart)
     // Offset: 0x1493674
-    void UpdateEditHistory(GlobalNamespace::AvatarData* avatarData, GlobalNamespace::EditAvatarViewController::AvatarEditPart avatarEditPart);
+    void UpdateEditHistory(::GlobalNamespace::AvatarData* avatarData, ::GlobalNamespace::EditAvatarViewController::AvatarEditPart avatarEditPart);
     // public System.Void .ctor()
     // Offset: 0x14937DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AvatarEditHistory* New_ctor() {
-      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AvatarEditHistory::.ctor");
+      static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AvatarEditHistory::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AvatarEditHistory*, creationType>()));
     }
   }; // AvatarEditHistory
@@ -140,7 +140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::AvatarEditHistory::get_currentSnapShot
 // Il2CppName: get_currentSnapShot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Menu::ViewControllers::EditAvatarHistorySnapshot* (GlobalNamespace::AvatarEditHistory::*)()>(&GlobalNamespace::AvatarEditHistory::get_currentSnapShot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Menu::ViewControllers::EditAvatarHistorySnapshot* (GlobalNamespace::AvatarEditHistory::*)()>(&GlobalNamespace::AvatarEditHistory::get_currentSnapShot)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarEditHistory*), "get_currentSnapShot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -148,7 +148,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Menu::ViewC
 // Writing MetadataGetter for method: GlobalNamespace::AvatarEditHistory::get_lastEditedPart
 // Il2CppName: get_lastEditedPart
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EditAvatarViewController::AvatarEditPart (GlobalNamespace::AvatarEditHistory::*)()>(&GlobalNamespace::AvatarEditHistory::get_lastEditedPart)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::EditAvatarViewController::AvatarEditPart (GlobalNamespace::AvatarEditHistory::*)()>(&GlobalNamespace::AvatarEditHistory::get_lastEditedPart)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarEditHistory*), "get_lastEditedPart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -180,7 +180,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::AvatarEditHistory::UpdateEditHistory
 // Il2CppName: UpdateEditHistory
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarEditHistory::*)(GlobalNamespace::AvatarData*, GlobalNamespace::EditAvatarViewController::AvatarEditPart)>(&GlobalNamespace::AvatarEditHistory::UpdateEditHistory)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarEditHistory::*)(::GlobalNamespace::AvatarData*, ::GlobalNamespace::EditAvatarViewController::AvatarEditPart)>(&GlobalNamespace::AvatarEditHistory::UpdateEditHistory)> {
   static const MethodInfo* get() {
     static auto* avatarData = &::il2cpp_utils::GetClassFromName("", "AvatarData")->byval_arg;
     static auto* avatarEditPart = &::il2cpp_utils::GetClassFromName("", "EditAvatarViewController/AvatarEditPart")->byval_arg;

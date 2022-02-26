@@ -12,8 +12,8 @@ namespace System::Numerics::Hashing {
   class HashHelpers;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(System::Numerics::Hashing::HashHelpers);
-DEFINE_IL2CPP_ARG_TYPE(System::Numerics::Hashing::HashHelpers*, "System.Numerics.Hashing", "HashHelpers");
+NEED_NO_BOX(::System::Numerics::Hashing::HashHelpers);
+DEFINE_IL2CPP_ARG_TYPE(::System::Numerics::Hashing::HashHelpers*, "System.Numerics.Hashing", "HashHelpers");
 // Type namespace: System.Numerics.Hashing
 namespace System::Numerics::Hashing {
   // Size: 0x10

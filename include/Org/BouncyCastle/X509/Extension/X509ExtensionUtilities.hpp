@@ -21,8 +21,8 @@ namespace Org::BouncyCastle::X509::Extension {
   class X509ExtensionUtilities;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
-NEED_NO_BOX(Org::BouncyCastle::X509::Extension::X509ExtensionUtilities);
-DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::Extension::X509ExtensionUtilities*, "Org.BouncyCastle.X509.Extension", "X509ExtensionUtilities");
+NEED_NO_BOX(::Org::BouncyCastle::X509::Extension::X509ExtensionUtilities);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::X509::Extension::X509ExtensionUtilities*, "Org.BouncyCastle.X509.Extension", "X509ExtensionUtilities");
 // Type namespace: Org.BouncyCastle.X509.Extension
 namespace Org::BouncyCastle::X509::Extension {
   // Size: 0x10
@@ -33,7 +33,7 @@ namespace Org::BouncyCastle::X509::Extension {
     public:
     // static public Org.BouncyCastle.Asn1.Asn1Object FromExtensionValue(Org.BouncyCastle.Asn1.Asn1OctetString extensionValue)
     // Offset: 0x25A8468
-    static Org::BouncyCastle::Asn1::Asn1Object* FromExtensionValue(Org::BouncyCastle::Asn1::Asn1OctetString* extensionValue);
+    static ::Org::BouncyCastle::Asn1::Asn1Object* FromExtensionValue(::Org::BouncyCastle::Asn1::Asn1OctetString* extensionValue);
   }; // Org.BouncyCastle.X509.Extension.X509ExtensionUtilities
   #pragma pack(pop)
 }
@@ -41,7 +41,7 @@ namespace Org::BouncyCastle::X509::Extension {
 // Writing MetadataGetter for method: Org::BouncyCastle::X509::Extension::X509ExtensionUtilities::FromExtensionValue
 // Il2CppName: FromExtensionValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (*)(Org::BouncyCastle::Asn1::Asn1OctetString*)>(&Org::BouncyCastle::X509::Extension::X509ExtensionUtilities::FromExtensionValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (*)(::Org::BouncyCastle::Asn1::Asn1OctetString*)>(&Org::BouncyCastle::X509::Extension::X509ExtensionUtilities::FromExtensionValue)> {
   static const MethodInfo* get() {
     static auto* extensionValue = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1", "Asn1OctetString")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::X509::Extension::X509ExtensionUtilities*), "FromExtensionValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{extensionValue});
